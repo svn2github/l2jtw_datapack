@@ -1,0 +1,21 @@
+<html><body>
+<table width=260><tr>
+<td width=40><button value="首頁" action="bypass -h admin_admin" width=40 height=15 back="L2UI_ct1.button_df" fore="L2UI_ct1.button_df"></td>
+<td width=180><center>根據地管理介面</center></td>
+<td width=40><button value="返回" action="bypass -h admin_siege" width=40 height=15 back="L2UI_ct1.button_df" fore="L2UI_ct1.button_df"></td>
+</tr></table><center>
+<br>根據地: %clanhallName%<br>
+<br>擁有者: %clanhallOwner%<br>
+<br>
+<table><tr>
+<td><button value="開門" action="bypass -h admin_clanhallopendoors %clanhallId%" width=80 height=15 back="L2UI_ct1.button_df" fore="L2UI_ct1.button_df"></td>
+<td><button value="關門" action="bypass -h admin_clanhallclosedoors %clanhallId%" width=80 height=15 back="L2UI_ct1.button_df" fore="L2UI_ct1.button_df"></td>
+</tr></table><br>
+<table><tr>
+<td><button value="給出根據地" action="bypass -h admin_clanhallset %clanhallId%" width=80 height=15 back="L2UI_ct1.button_df" fore="L2UI_ct1.button_df"></td>
+<td><button value="刪除根據地" action="bypass -h admin_clanhalldel %clanhallId%" width=80 height=15 back="L2UI_ct1.button_df" fore="L2UI_ct1.button_df"></td>
+</tr></table><br>
+<table><tr>
+<td><button value="傳送" action="bypass -h admin_clanhallteleportself %clanhallId%" width=80 height=15 back="L2UI_ct1.button_df" fore="L2UI_ct1.button_df"></td>
+</tr></table></center>
+</body></html>

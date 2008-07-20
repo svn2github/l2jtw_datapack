@@ -1,0 +1,46 @@
+<html><body>
+<table width=260><tr>
+<td width=40><button value="首頁" action="bypass -h admin_admin" width=40 height=15 back="L2UI_ct1.button_df" fore="L2UI_ct1.button_df"></td>
+<td width=180><center>人物資訊</center></td>
+<td width=40><button value="返回" action="bypass -h admin_show_characters 0" width=40 height=15 back="L2UI_ct1.button_df" fore="L2UI_ct1.button_df"></td>
+</tr></table>
+<center>
+<table width=240>
+<tr>
+<td><button value="前往" action="bypass -h admin_goto_char_menu %name%" width=55 height=15 back="L2UI_ct1.button_df" fore="L2UI_ct1.button_df"></td>
+<td><button value="踢除" action="bypass -h admin_kick_menu %name%" width=55 height=15 back="L2UI_ct1.button_df" fore="L2UI_ct1.button_df"></td>
+<td><button value="封鎖" action="bypass -h admin_ban_menu %name%" width=55 height=15 back="L2UI_ct1.button_df" fore="L2UI_ct1.button_df"></td>
+<td><button value="停權" action="bypass -h admin_changelvl %name% -100" width=55 height=15 back="L2UI_ct1.button_df" fore="L2UI_ct1.button_df"></td>
+</tr><tr>
+<td><button value="召喚" action="bypass -h admin_recall_char_menu %name%" width=55 height=15 back="L2UI_ct1.button_df" fore="L2UI_ct1.button_df"></td>
+<td><button value="技能" action="bypass -h admin_show_skills" width=55 height=15 back="L2UI_ct1.button_df" fore="L2UI_ct1.button_df"></td>
+<td><button value="修改" action="bypass -h admin_edit_character" width=55 height=15 back="L2UI_ct1.button_df" fore="L2UI_ct1.button_df"></td>
+<td><button value="職業" action="bypass -h admin_setclass" width=55 height=15 back="L2UI_ct1.button_df" fore="L2UI_ct1.button_df"></td>
+</tr><tr>
+<td><button value="EXP/SP" action="bypass -h admin_add_exp_sp_to_character" width=55 height=15 back="L2UI_ct1.button_df" fore="L2UI_ct1.button_df"></td>
+</tr>
+</table>
+</center><br>
+<table width=270>		
+<tr><td width=135>帳號: <font color="LEVEL"><a action="bypass -h admin_find_account %name%">%account%</a></font></td><td width=135>IP: <font color="LEVEL"><a action="bypass -h admin_find_ip %ip%">%ip%</a></font></td></tr>	
+<tr><td width=135>名稱: %name%</td><td width=135>等級: %level%</td></tr>	
+<tr><td width=135>血盟: %clan%</td><td width=135>EXP: %xp%</td></tr>
+<tr><td width=135>職業: %class%</td><td width=135>SP: %sp%</td></tr>      
+</table>
+<table width=270>
+<tr><td width=270>人物位置: %x% %y% %z%</td></tr>
+</table>
+<br>
+<table width=270>
+<tr><td width=40></td><td width=70>目前:</td><td width=70>最大值:</td><td width=90></td></tr>
+<tr><td width=40>HP:</td><td width=70>%currenthp%</td><td width=70>%maxhp%</td><td width=70>性向: %karma%</td><td width=20></td></tr>
+<tr><td width=40>MP:</td><td width=70>%currentmp%</td><td width=70>%maxmp%</td><td width=70>PvP 狀態: %pvpflag%</td><td width=20></td></tr>
+<tr><td width=40>CP:</td><td width=70>%currentcp%</td><td width=70>%maxcp%</td><td width=70>PvP 指數: %pvpkills%</td><td width=20></td></tr>
+<tr><td width=40>重量:</td><td width=70>%currentload%</td><td width=70>%maxload%</td><td width=70></td><td width=20></td></tr>
+</table>
+<table width=270>		
+<tr><td width=65>物功: %patk%</td><td width=65>魔功: %matk%</td><td width=65>物防: %pdef%</td><td width=65>魔防: %mdef%</td></tr>
+<tr><td width=65>命中: %accuracy%</td><td width=65>迴避: %evasion%</td><td width=65>致命: %critical%</td><td width=65>跑速: %runspeed%</td></tr>
+<tr><td width=65>速度: %patkspd%</td><td width=65>施展: %matkspd%</td></tr>
+</table>
+</body></html>

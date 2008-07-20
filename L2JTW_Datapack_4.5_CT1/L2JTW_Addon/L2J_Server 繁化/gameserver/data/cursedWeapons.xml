@@ -1,0 +1,17 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<list>
+	<item id="8190" skillId="3603" name="Demonic Sword Zariche"> <!-- 魔劍‧薩雷奇 -->
+		<dropRate val="1" /> <!-- 掉落機率100000 為 100% -->
+		<duration val="300" /> <!-- 持續時間以分鐘計算 -->
+		<durationLost val="3" /> <!-- 掉落消失時間以分鐘計算 -->
+		<disapearChance val="50" /> <!-- 持有魔劍死亡時魔劍消失機率 -->
+		<stageKills val="1" /> <!-- 殺多少玩家魔劍升一級 -->
+	</item>
+	<item id="8689" skillId="3629" name="Blood Sword Akamanah"> <!-- 血劍‧阿卡瑪那夫 -->
+		<dropRate val="1" /> <!-- 掉落機率100000 為 100% -->
+		<duration val="300" /> <!-- 持續時間以分鐘計算 -->
+		<durationLost val="3" /> <!-- 掉落消失時間以分鐘計算 -->
+		<disapearChance val="50" /> <!-- 持有魔劍死亡時魔劍消失機率 -->
+		<stageKills val="1" /> <!-- 殺多少玩家魔劍升一級 -->
+	</item>
+</list>
