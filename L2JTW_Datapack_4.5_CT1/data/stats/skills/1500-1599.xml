@@ -103,21 +103,60 @@
   <for>
   </for>
 </skill>
-<skill id="1512" levels="1" name="Soul Vortex">
-  <set name="target" val="TARGET_NONE"/>
-  <set name="skillType" val="NOTDONE"/>
-  <set name="operateType" val="OP_PASSIVE"/>
-  <set name="castRange" val="-1"/>
+  <skill id="1512" levels="1" name="Soul Vortex">
+  <!-- Done By Akira35 -->
+  <!-- Needs to be verified -->
+  <set name="mpInitialConsume" val="21"/>
+  <set name="mpConsume" val="84"/>
+  <set name="magicLvl" val="77"/>
+  <set name="power" val="140"/>
+  <set name="lvlDepend" val="2"/>
+  <set name="target" val="TARGET_ONE"/>
+  <set name="hitTime" val="3000"/>
+  <set name="element" val="6"/> <!-- Dark -->
+  <set name="reuseDelay" val="60000"/>
+  <set name="skillType" val="MDAM"/>
+  <set name="operateType" val="OP_ACTIVE"/>
+  <set name="isMagic" val="true"/>
+  <set name="isDebuff" val="true"/>
+  <set name="overHit" val="true"/>
+  <set name="castRange" val="900"/>
+  <set name="effectRange" val="1400"/>
+  <set name="effectType" val="DEBUFF"/>
+  <set name="effectPower" val="80"/>
+  <set name="soulConsumeCount" val="2"/>
   <for>
+    <effect count="5" name="ManaDamOverTime" time="2" val="40" stackOrder="1" stackType="multiple_debuff">
+      <mul order="0x30" stat="runSpd" val="0.7"/>
+      <mul order="0x30" stat="pAtkSpd" val="0.9"/>
+      <mul order="0x30" stat="mAtkSpd" val="0.9"/>
+      <mul order="0x30" stat="darkVuln" val="1.2"/>
+    </effect>
   </for>
 </skill>
 <skill id="1513" levels="1" name="Soul Vortex Extinction">
-  <set name="target" val="TARGET_NONE"/>
-  <set name="skillType" val="NOTDONE"/>
-  <set name="operateType" val="OP_PASSIVE"/>
-  <set name="castRange" val="-1"/>
-  <for>
-  </for>
+  <!-- Done By Akira35 -->
+  <!-- Needs to be verified -->
+  <set name="mpInitialConsume" val="28"/>
+  <set name="mpConsume" val="80"/>
+  <set name="magicLvl" val="79"/>
+  <set name="power" val="162.0"/>
+  <set name="lvlDepend" val="2"/>
+  <set name="target" val="TARGET_ONE"/>
+  <set name="hitTime" val="2000"/>
+  <set name="element" val="6"/> <!-- Dark -->
+  <set name="reuseDelay" val="60000"/>
+  <set name="skillType" val="MDAM"/>
+  <set name="operateType" val="OP_ACTIVE"/>
+  <set name="isMagic" val="true"/>
+  <set name="castRange" val="900"/>
+  <set name="effectRange" val="1400"/>
+  <set name="effectType" val="NEGATE"/>
+  <set name="cancelEffect" val="1512"/>
+  <set name="soulConsumeCount" val="1"/>
+  <cond msg="Invalid target.">
+    <target active_effect_id="1512"/>
+  </cond>
 </skill>
 <skill id="1514" levels="1" name="Soul Barrier">
   <set name="target" val="TARGET_NONE"/>
@@ -136,10 +175,19 @@
   </for>
 </skill>
 <skill id="1516" levels="1" name="Soul Strike">
-  <set name="target" val="TARGET_NONE"/>
-  <set name="skillType" val="NOTDONE"/>
-  <set name="operateType" val="OP_PASSIVE"/>
-  <set name="castRange" val="-1"/>
+  <!-- Done by DJ MELERIX -->
+  <set name="castRange" val="750"/>
+  <set name="effectRange" val="1250"/>
+  <set name="hitTime" val="2000"/>
+  <set name="isMagic" val="true"/>
+  <set name="magicLvl" val="76"/>
+  <set name="mpConsume" val="35"/>
+  <set name="operateType" val="OP_ACTIVE"/>
+  <set name="power" val="166"/>
+  <set name="reuseDelay" val="10000"/> <!-- Guessing -->
+  <set name="skillType" val="MDAM"/>
+  <set name="soulConsumeCount" val="3"/>
+  <set name="target" val="TARGET_ONE"/>
   <for>
   </for>
 </skill>
