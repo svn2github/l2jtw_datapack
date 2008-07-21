@@ -65,6 +65,7 @@ class Quest (JQuest) :
        st.set("four","1")
        st.set("cond","1")
        st.set("box","1")
+       st.set("party","0")
        st.setState(State.STARTED)
        st.playSound("ItemSound.quest_accept")
        return "31453-12.htm"
@@ -202,6 +203,7 @@ class Quest (JQuest) :
 
        elif npcId == WGA : # 威格特的亡靈 - 皇帝陵墓(擊敗哈里夏的影子後)
           st.set("box","2")
+          st.set("party","0")
           if st.getQuestItemsCount(ALECTIA) + st.getQuestItemsCount(TISHAS) + st.getQuestItemsCount(MEKARA) + st.getQuestItemsCount(MORIGUL) <= 1:
              htmltext = str(npcId)+"-01.htm"
              st.set("wigoth","1")
@@ -243,125 +245,210 @@ class Quest (JQuest) :
 
        elif npcId in [CSM,ESM,GSM,JSM]: # 陵墓管理員
          if FourSepulchersManager.getInstance().IsEntryTime() :
-             if not player.isInParty():
-                  return "組滿5人隊伍的隊長才可以申請。"
-             elif not player.getParty().isLeader(player):
-                  return "組滿5人隊伍的隊長才可以申請。"
-             elif player.getParty().getMemberCount() != 5:
-                  return "組滿5人隊伍的隊長才可以申請。"
+             if player.isInParty():
+                if not player.getParty().isLeader(player):
+                   return "只有隊長可以申請。"
+                else:
+                   partyMembers = [player]
+                   party = player.getParty()
+                   if party :
+                      partyMembers = party.getPartyMembers().toArray()
+                      for player in partyMembers :
+                          pst = player.getQuestState(qn)
+                          pst.set("party","0")
+                      if player.getParty().getMemberCount()==2:
+                         st.set("party","2")
+                      elif player.getParty().getMemberCount()==3:
+                         st.set("party","3")
+                      elif player.getParty().getMemberCount()==4:
+                         st.set("party","4")
+                      else:
+                         st.set("party","5")
+                   htmltext = str(npcId)+"-01.htm"
              else :
+                  st.set("party","1")
                   htmltext = str(npcId)+"-01.htm"
          else :
              htmltext = str(npcId)+"-02.htm"
 
        elif npcId in HGKB : # 男爵禮拜堂守門人
-        if not player.isInParty():
-             return "組滿5人隊伍的隊長才可以申請。"
-        elif not player.getParty().isLeader(player):
-             return "組滿5人隊伍的隊長才可以申請。"
-        elif player.getParty().getMemberCount() != 5:
-             return "組滿5人隊伍的隊長才可以申請。"
-        elif FourSepulchersManager.getInstance().IsAttackTime() :
-             if st.getQuestItemsCount(HALLS_KEY) :
-                npc.onBypassFeedback(player,"open_gate")
-                partyMembers = [player]
-                party = player.getParty()
-                if party :
-                   partyMembers = party.getPartyMembers().toArray()
-                   for player in partyMembers :
-                       pst = player.getQuestState(qn)
-                       pst.takeItems(HALLS_KEY,-1)
-                return
-             else :
-                return HGKB_MSG
+        if FourSepulchersManager.getInstance().IsAttackTime() :
+           if player.isInParty():
+              if not player.getParty().isLeader(player):
+                 return "只有隊長可以申請。"
+              if not st.getInt("party")==player.getParty().getMemberCount():
+                 return "隊伍成員錯誤。"
+              if st.getQuestItemsCount(HALLS_KEY) :
+                 partyMembers = [player]
+                 party = player.getParty()
+                 if party :
+                    partyMembers = party.getPartyMembers().toArray()
+                    for player in partyMembers :
+                        pst = player.getQuestState(qn)
+                        if pst.getQuestItemsCount(HALLS_KEY) < 1:
+                           return "隊伍成員沒有全部拿到鑰匙。"
+                    for player in partyMembers :
+                        npc.onBypassFeedback(player,"open_gate")
+                    for player in partyMembers :
+                        pst = player.getQuestState(qn)
+                        pst.takeItems(HALLS_KEY,-1)
+                        return
+                 return
+              else:
+                 return HGKB_MSG
+           else :
+              if st.getInt("party") != 1:
+                 return "隊伍成員錯誤。"
+              else:
+                 if st.getQuestItemsCount(HALLS_KEY) :
+                    npc.onBypassFeedback(player,"open_gate")
+                    return
+                 else:
+                    return HGKB_MSG
         else :
             return "條件不符，無法進入。"
        elif npcId in HGKV : # 子爵禮拜堂守門人
-        if not player.isInParty():
-             return "組滿5人隊伍的隊長才可以申請。"
-        elif not player.getParty().isLeader(player):
-             return "組滿5人隊伍的隊長才可以申請。"
-        elif player.getParty().getMemberCount() != 5:
-             return "組滿5人隊伍的隊長才可以申請。"
-        elif FourSepulchersManager.getInstance().IsAttackTime() :
-             if st.getQuestItemsCount(HALLS_KEY) :
-                npc.onBypassFeedback(player,"open_gate")
-                partyMembers = [player]
-                party = player.getParty()
-                if party :
-                   partyMembers = party.getPartyMembers().toArray()
-                   for player in partyMembers :
-                       pst = player.getQuestState(qn)
-                       pst.takeItems(HALLS_KEY,-1)
-                return
-             else :
-                return HGKV_MSG
+        if FourSepulchersManager.getInstance().IsAttackTime() :
+           if player.isInParty():
+              if not player.getParty().isLeader(player):
+                 return "只有隊長可以申請。"
+              if not st.getInt("party")==player.getParty().getMemberCount():
+                 return "隊伍成員錯誤。"
+              if st.getQuestItemsCount(HALLS_KEY) :
+                 partyMembers = [player]
+                 party = player.getParty()
+                 if party :
+                    partyMembers = party.getPartyMembers().toArray()
+                    for player in partyMembers :
+                        pst = player.getQuestState(qn)
+                        if pst.getQuestItemsCount(HALLS_KEY) < 1:
+                           return "隊伍成員沒有全部拿到鑰匙。"
+                    for player in partyMembers :
+                        npc.onBypassFeedback(player,"open_gate")
+                    for player in partyMembers :
+                        pst = player.getQuestState(qn)
+                        pst.takeItems(HALLS_KEY,-1)
+                        return
+                 return
+              else:
+                 return HGKV_MSG
+           else :
+              if st.getInt("party") != 1:
+                 return "隊伍成員錯誤。"
+              else:
+                 if st.getQuestItemsCount(HALLS_KEY) :
+                    npc.onBypassFeedback(player,"open_gate")
+                    return
+                 else:
+                    return HGKV_MSG
         else :
             return "條件不符，無法進入。"
        elif npcId in HGKC : # 伯爵禮拜堂守門人
-        if not player.isInParty():
-             return "組滿5人隊伍的隊長才可以申請。"
-        elif not player.getParty().isLeader(player):
-             return "組滿5人隊伍的隊長才可以申請。"
-        elif player.getParty().getMemberCount() != 5:
-             return "組滿5人隊伍的隊長才可以申請。"
-        elif FourSepulchersManager.getInstance().IsAttackTime() :
-             if st.getQuestItemsCount(HALLS_KEY) :
-                npc.onBypassFeedback(player,"open_gate")
-                partyMembers = [player]
-                party = player.getParty()
-                if party :
-                   partyMembers = party.getPartyMembers().toArray()
-                   for player in partyMembers :
-                       pst = player.getQuestState(qn)
-                       pst.takeItems(HALLS_KEY,-1)
-                return
-             else :
-                return HGKC_MSG
+        if FourSepulchersManager.getInstance().IsAttackTime() :
+           if player.isInParty():
+              if not player.getParty().isLeader(player):
+                 return "只有隊長可以申請。"
+              if not st.getInt("party")==player.getParty().getMemberCount():
+                 return "隊伍成員錯誤。"
+              if st.getQuestItemsCount(HALLS_KEY) :
+                 partyMembers = [player]
+                 party = player.getParty()
+                 if party :
+                    partyMembers = party.getPartyMembers().toArray()
+                    for player in partyMembers :
+                        pst = player.getQuestState(qn)
+                        if pst.getQuestItemsCount(HALLS_KEY) < 1:
+                           return "隊伍成員沒有全部拿到鑰匙。"
+                    for player in partyMembers :
+                        npc.onBypassFeedback(player,"open_gate")
+                    for player in partyMembers :
+                        pst = player.getQuestState(qn)
+                        pst.takeItems(HALLS_KEY,-1)
+                        return
+                 return
+              else:
+                 return HGKC_MSG
+           else :
+              if st.getInt("party") != 1:
+                 return "隊伍成員錯誤。"
+              else:
+                 if st.getQuestItemsCount(HALLS_KEY) :
+                    npc.onBypassFeedback(player,"open_gate")
+                    return
+                 else:
+                    return HGKC_MSG
         else :
             return "條件不符，無法進入。"
        elif npcId in HGKM : # 侯爵禮拜堂守門人
-        if not player.isInParty():
-             return "組滿5人隊伍的隊長才可以申請。"
-        elif not player.getParty().isLeader(player):
-             return "組滿5人隊伍的隊長才可以申請。"
-        elif player.getParty().getMemberCount() != 5:
-             return "組滿5人隊伍的隊長才可以申請。"
-        elif FourSepulchersManager.getInstance().IsAttackTime() :
-             if st.getQuestItemsCount(HALLS_KEY) :
-                npc.onBypassFeedback(player,"open_gate")
-                partyMembers = [player]
-                party = player.getParty()
-                if party :
-                   partyMembers = party.getPartyMembers().toArray()
-                   for player in partyMembers :
-                       pst = player.getQuestState(qn)
-                       pst.takeItems(HALLS_KEY,-1)
-                return
-             else :
-                return HGKM_MSG
+        if FourSepulchersManager.getInstance().IsAttackTime() :
+           if player.isInParty():
+              if not player.getParty().isLeader(player):
+                 return "只有隊長可以申請。"
+              if not st.getInt("party")==player.getParty().getMemberCount():
+                 return "隊伍成員錯誤。"
+              if st.getQuestItemsCount(HALLS_KEY) :
+                 partyMembers = [player]
+                 party = player.getParty()
+                 if party :
+                    partyMembers = party.getPartyMembers().toArray()
+                    for player in partyMembers :
+                        pst = player.getQuestState(qn)
+                        if pst.getQuestItemsCount(HALLS_KEY) < 1:
+                           return "隊伍成員沒有全部拿到鑰匙。"
+                    for player in partyMembers :
+                        npc.onBypassFeedback(player,"open_gate")
+                    for player in partyMembers :
+                        pst = player.getQuestState(qn)
+                        pst.takeItems(HALLS_KEY,-1)
+                        return
+                 return
+              else:
+                 return HGKM_MSG
+           else :
+              if st.getInt("party") != 1:
+                 return "隊伍成員錯誤。"
+              else:
+                 if st.getQuestItemsCount(HALLS_KEY) :
+                    npc.onBypassFeedback(player,"open_gate")
+                    return
+                 else:
+                    return HGKM_MSG
         else :
             return "條件不符，無法進入。"
        elif npcId in HGKD : # 公爵禮拜堂守門人
-        if not player.isInParty():
-             return "組滿5人隊伍的隊長才可以申請。"
-        elif not player.getParty().isLeader(player):
-             return "組滿5人隊伍的隊長才可以申請。"
-        elif player.getParty().getMemberCount() != 5:
-             return "組滿5人隊伍的隊長才可以申請。"
-        elif FourSepulchersManager.getInstance().IsAttackTime() :
-             if st.getQuestItemsCount(HALLS_KEY) :
-                npc.onBypassFeedback(player,"open_gate")
-                partyMembers = [player]
-                party = player.getParty()
-                if party :
-                   partyMembers = party.getPartyMembers().toArray()
-                   for player in partyMembers :
-                       pst = player.getQuestState(qn)
-                       pst.takeItems(HALLS_KEY,-1)
-                return
-             else :
-                return HGKD_MSG
+        if FourSepulchersManager.getInstance().IsAttackTime() :
+           if player.isInParty():
+              if not player.getParty().isLeader(player):
+                 return "只有隊長可以申請。"
+              if not st.getInt("party")==player.getParty().getMemberCount():
+                 return "隊伍成員錯誤。"
+              if st.getQuestItemsCount(HALLS_KEY) :
+                 partyMembers = [player]
+                 party = player.getParty()
+                 if party :
+                    partyMembers = party.getPartyMembers().toArray()
+                    for player in partyMembers :
+                        pst = player.getQuestState(qn)
+                        if pst.getQuestItemsCount(HALLS_KEY) < 1:
+                           return "隊伍成員沒有全部拿到鑰匙。"
+                    for player in partyMembers :
+                        npc.onBypassFeedback(player,"open_gate")
+                    for player in partyMembers :
+                        pst = player.getQuestState(qn)
+                        pst.takeItems(HALLS_KEY,-1)
+                        return
+                 return
+              else:
+                 return HGKD_MSG
+           else :
+              if st.getInt("party") != 1:
+                 return "隊伍成員錯誤。"
+              else:
+                 if st.getQuestItemsCount(HALLS_KEY) :
+                    npc.onBypassFeedback(player,"open_gate")
+                    return
+                 else:
+                    return HGKD_MSG
         else :
             return "條件不符，無法進入。"
 
