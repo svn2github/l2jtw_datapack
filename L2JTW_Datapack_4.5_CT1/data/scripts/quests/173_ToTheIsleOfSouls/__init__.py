@@ -23,7 +23,7 @@ class Quest (JQuest) :
 
  def __init__(self,id,name,descr):
      JQuest.__init__(self,id,name,descr) 
-     self.questItemIds = [MARK_OF_TRAVELER, GWAINS_DOCUMENT, MAGIC_SWORD_HILT]
+     self.questItemIds = [GWAINS_DOCUMENT, MAGIC_SWORD_HILT]
 
  def onEvent (self,event,st) :
      htmltext = event
@@ -48,13 +48,13 @@ class Quest (JQuest) :
 
  def onTalk (self,npc,player):
      npcId = npc.getNpcId()
-     htmltext = "<html><body>沒進行任務或條件不符合。</body></html>"
+     htmltext = "<html><body>目前沒有執行任務，或條件不符。</body></html>"
      st = player.getQuestState(qn)
      if not st : return htmltext
      id = st.getState()
      cond = st.getInt("cond")
      if id == State.COMPLETED :
-       htmltext = "<html><body>這任務你已完成。</body></html>"
+       htmltext = "<html><body>這是已經完成的任務。</body></html>"
      elif id == State.CREATED and npcId == GALLADUCCI :
        if st.getQuestItemsCount(MARK_OF_TRAVELER) > 0 and player.getRace().ordinal() == 5 :
          htmltext = "30097-02.htm"
@@ -74,7 +74,7 @@ class Quest (JQuest) :
            htmltext = "30094-03.htm"
      return htmltext
  
-QUEST     = Quest(173,qn,"前往英魂之島") 
+QUEST     = Quest(173,qn,"前往英魂之島")
  
 QUEST.addStartNpc(GALLADUCCI) 
 

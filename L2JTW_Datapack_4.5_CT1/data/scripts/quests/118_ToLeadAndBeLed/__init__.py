@@ -75,12 +75,16 @@ class Quest (JQuest) :
                  st.playSound("ItemSound.quest_middle")
                  ap_quest.playSound("ItemSound.quest_middle")
                  htmltext = "30517-10.htm"
-     st.exitQuest(1)
+           elif DEBUG: htmltext = "30517-FE.htm"
+         elif DEBUG: htmltext = "30517-FD.htm"
+       elif DEBUG:htmltext = "30517-FC.htm"
+     elif DEBUG:htmltext = "30517-FB.htm"
+     #st.exitQuest(1) #needed?
    return htmltext 
 
  def onTalk (self,npc,player):
    npcId = npc.getNpcId()
-   htmltext = "<html><body>沒進行任務或條件不符合。</body></html>"
+   htmltext = "<html><body>目前沒有執行任務，或條件不符。</body></html>"
    st = player.getQuestState(qn)
    if not st : return htmltext
 
@@ -91,7 +95,7 @@ class Quest (JQuest) :
      st.exitQuest(1)
    elif player.getPledgeType() == -1 :
      if id==State.COMPLETED:
-       htmltext = "<html><body>這是已經完成的任務。</body></html>" 
+       htmltext = "<html><body>這是已經完成的任務。</body></html>"
      elif player.getLevel() < 19 or not player.getSponsor() :
        htmltext = "30517-00.htm"
        st.exitQuest(1)
@@ -144,24 +148,13 @@ class Quest (JQuest) :
                     htmltext = "30517-09b.htm"
                  elif ap_cond == 5 :
                     htmltext = "30517-09c.htm"
-                 else :
-                    if DEBUG : htmltext = "30517-FF.htm"
-                    st.exitQuest(1)
-              else :
-                if DEBUG: htmltext = "30517-FE.htm"
-                st.exitQuest(1)
-           else :
-             if DEBUG: htmltext = "30517-FD.htm"
-             st.exitQuest(1)
-        else :
-           if DEBUG:htmltext = "30517-FC.htm"
-           st.exitQuest(1)
-     else :
-       if DEBUG:htmltext = "30517-FB.htm"
-       st.exitQuest(1)
-   else :
-     if DEBUG:htmltext = "30517-FA.htm"
-     st.exitQuest(1)
+                 elif DEBUG : htmltext = "30517-FF.htm"
+              elif DEBUG: htmltext = "30517-FE.htm"
+           elif DEBUG: htmltext = "30517-FD.htm"
+        elif DEBUG:htmltext = "30517-FC.htm"
+     elif DEBUG:htmltext = "30517-FB.htm"
+   elif DEBUG:htmltext = "30517-FA.htm"
+   #st.exitQuest(1) #needed?
    return htmltext
 
  def onKill(self,npc,player,isPet):
@@ -193,7 +186,7 @@ class Quest (JQuest) :
     return
      
 
-QUEST     = Quest(118,qn,"引導者，被引導者") 
+QUEST     = Quest(118,qn,"引導者，被引導者")
 
 QUEST.addStartNpc(PINTER) 
 

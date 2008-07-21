@@ -71,13 +71,12 @@ class Quest (JQuest) :
        else: # lose practice :(
          htmltext = "Wilbert_PracticeLost.htm"
    elif event == "Wilbert_LetsPlay.htm": # "Let's play" pressed
-     round=st.getInt("round")
      beads=st.getQuestItemsCount(SPIRIT_BEAD)
      if beads<50:
        htmltext = "Wilbert_Practice_NotEnoughBeads.htm"
      else:
-       if round == 0:
-         htmltext = "Wilbert_PlayRound1.htm"
+       htmltext = "Wilbert_PlayRound1.htm"
+       st.set("round","0")
    elif event == "Wilbert_PullCard.htm": # "Pull first or next card" pressed
      round=st.getInt("round")
      beads=st.getQuestItemsCount(SPIRIT_BEAD)
@@ -153,7 +152,7 @@ class Quest (JQuest) :
 
  def onTalk (self,npc,player):
    st = player.getQuestState(qn)
-   htmltext = "<html><body>沒進行任務或條件不符合。</body></html>"
+   htmltext = "<html><body>目前沒有執行任務，或條件不符。</body></html>"
    if not st : return htmltext
    npcId = npc.getNpcId()
    id = st.getState()

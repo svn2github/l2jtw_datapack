@@ -102,6 +102,7 @@ class Quest (JQuest) :
         return
     elif event == "6" : #now go hunt splendor mobs
         st.set("cond","12")
+        htmltext = "32236_06.htm"
     elif event == "8" : #go back to Kekropus
         st.set("cond","14")
         htmltext = "32236_08.htm"
@@ -139,7 +140,7 @@ class Quest (JQuest) :
     return htmltext
  
  def onTalk (self,npc,player):
-    htmltext = "<html><body>You are either not on a quest that involves this NPC, or you don't meet this NPC's minimum quest requirements.</body></html>"
+    htmltext = "<html><body>目前沒有執行任務，或條件不符。</body></html>"
     st = player.getQuestState(qn)
     if not st : return htmltext
     npcId = npc.getNpcId()
@@ -167,7 +168,7 @@ class Quest (JQuest) :
             else :
                 htmltext = "<html><body>Kekropus:<br>Go talk to Rodenpicula. Mao can help you get to her.</body></html>"
         elif id == State.COMPLETED :
-            htmltext = "<html><body>You have already completed this quest.</body></html>"
+            htmltext = "<html><body>這是已經完成的任務。</body></html>"
     elif npcId == WIZARD and id == State.STARTED:
        # first time talking to Wizard. Talk a bit
         if cond==1 :
@@ -243,7 +244,7 @@ class Quest (JQuest) :
                 st.set("cond",str(cond+1))
     return
 
-QUEST = Quest(236,qn,"Seeds of Chaos")
+QUEST = Quest(236,qn,"渾沌的種子")
 
 QUEST.addStartNpc(KEKROPUS)
 

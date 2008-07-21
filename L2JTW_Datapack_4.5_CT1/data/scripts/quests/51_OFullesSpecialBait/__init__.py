@@ -35,18 +35,19 @@ class Quest (JQuest) :
      st.giveItems(ICY_AIR_LURE,4)
      st.takeItems(LOST_BAIT,-1)
      st.playSound("ItemSound.quest_finish")
-     st.exitQuest(1)
+     st.exitQuest(False)
+     st.unset("cond")
    return htmltext
 
  def onTalk (Self,npc,player):
-   htmltext = "<html><body>沒進行任務或條件不符合。</body></html>"
+   htmltext = "<html><body>目前沒有執行任務，或條件不符。</body></html>"
    st = player.getQuestState(qn)
    if not st : return htmltext
    npcId = npc.getNpcId()
    id = st.getState()
    cond = st.getInt("cond")
    if id == State.COMPLETED :
-      htmltext = "<html><body>這是已完成的任務。</body></html>"
+      htmltext = "<html><body>這是已經完成的任務。</body></html>"
 
    elif cond == 0 :
       if player.getLevel() >= 36 :
