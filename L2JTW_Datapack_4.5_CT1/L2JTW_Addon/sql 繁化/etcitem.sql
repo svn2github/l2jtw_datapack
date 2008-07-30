@@ -3847,7 +3847,7 @@ UPDATE `etcitem` SET `name` ='製作卷軸(封印的聖威皮甲60%)' WHERE item_id ='5338'
 UPDATE `etcitem` SET `name` ='製作卷軸(封印的聖威皮甲100%)' WHERE item_id ='5339';
 UPDATE `etcitem` SET `name` ='製作卷軸(封印的黑暗水晶皮脛甲60%)' WHERE item_id ='5340';
 UPDATE `etcitem` SET `name` ='製作卷軸(封印的黑暗水晶皮脛甲100%)' WHERE item_id ='5341';
-UPDATE `etcitem` SET `name` ='回聲水晶-哀傷的歌' WHERE item_id ='5342';
+UPDATE `etcitem` SET `name` ='回聲水晶-大悲咒' WHERE item_id ='5342';
 UPDATE `etcitem` SET `name` ='回聲水晶-聖歌' WHERE item_id ='5343';
 UPDATE `etcitem` SET `name` ='(無用)製作卷軸(聖威耳環70%)' WHERE item_id ='5344';
 UPDATE `etcitem` SET `name` ='(無用)製作卷軸(聖威耳環100%)' WHERE item_id ='5345';
