@@ -48,7 +48,7 @@ class Quest (JQuest) :
    if event == "Soul of Fire Nastron has despawned" :
        npc.reduceCurrentHp(9999999,npc)
        FindTemplate(Alter).setBusy(False)
-       AutoChat(npc,"May the gods forever condemn you! Udan Mardui, your power weakens!") #this is only a temp message until we find out what it actually is! string = 61051
+       AutoChat(npc,"The fetter strength is weaken Your consciousness has been defeated!")
        return
    st = player.getQuestState(qn)
    if not st: return
@@ -94,12 +94,12 @@ class Quest (JQuest) :
            npc.setBusy(True)
            st.set("cond","2")
            self.startQuestTimer("Soul of Fire Nastron has despawned",1200000,spawnedNpc,None)
-           AutoChat(spawnedNpc,"Hey! I'll kick your aarse!")#this is only a temp message until we find out what it actually is! string = 61050
+           AutoChat(spawnedNpc,"The fire charm then is the flame and the lava strength! Opposes with it only has the blind alley!")
    return htmltext
 
  def onTalk (self, npc, player):
     st = player.getQuestState(qn)
-    htmltext = "<html><body>沒進行任務或條件不符合。</body></html>"
+    htmltext = "<html><body>目前沒有執行任務，或條件不符。</body></html>"
     if st :
         npcId = npc.getNpcId()
         cond = st.getInt("cond")
@@ -127,7 +127,7 @@ class Quest (JQuest) :
                    spawnedNpc = st.addSpawn(Nastron,142528,-82528,-6496)
                    npc.setBusy(True)
                    self.startQuestTimer("Soul of Fire Nastron has despawned",1200000,spawnedNpc,None)
-                   AutoChat(spawnedNpc,"Hey! I'll kick your aarse!")#this is only a temp message until we find out what it actually is! string = 61050
+                   AutoChat(spawnedNpc,"The fire charm then is the flame and the lava strength! Opposes with it only has the blind alley!")
         elif id == 3 :
             htmltext = "31558-05.htm"
     return htmltext

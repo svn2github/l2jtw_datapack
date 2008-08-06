@@ -74,7 +74,7 @@ class Quest (JQuest) :
 
  def onTalk (self,npc,player):
      st = player.getQuestState(qn)
-     htmltext = "<html><body>沒進行任務或條件不符合。</body></html>"
+     htmltext = "<html><body>目前沒有執行任務，或條件不符。</body></html>"
      if st :
          npcId = npc.getNpcId()
          id = st.getInt("id")
@@ -96,10 +96,7 @@ class Quest (JQuest) :
      st = partyMember.getQuestState(qn)
      npcId = npc.getNpcId()
      count = st.getQuestItemsCount(Molar)
-     st2 = partyMember.getQuestState("611_AllianceWithVarkaSilenos")
      if npcId in Ketra_Orcs and partyMember.getAllianceWithVarkaKetra() <= -1 :
-    #see comments in 611 : Alliance with Varka Silenos for reason for doing st2 check
-       if not st2 :
          numItems,chance = divmod(Chance[npcId]*Config.RATE_DROP_QUEST,1000)
          if st.getRandom(1000) < chance :
            numItems += 1

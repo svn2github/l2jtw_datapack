@@ -110,17 +110,17 @@ class Quest (JQuest) :
         return None
 
     def onTalk (self,npc,player):
-        htmltext = "<html><body>沒進行任務或條件不符合。</body></html>"
+        htmltext = "<html><body>目前沒有執行任務，或條件不符。</body></html>"
         st = player.getQuestState(qn)
         if not st : return htmltext
         npcId = npc.getNpcId()
         id = st.getState()
         cond = st.getInt("cond")
         if id == State.COMPLETED :
-            htmltext = "<html><body>這是已完成的任務。</body></html>"
+            htmltext = "<html><body>This quest has already been completed.</body></html>"
         elif npcId == Vitus :
             if player.getClassId().getId() not in [125,126] or player.getLevel() < 39:
-                htmltext = "<html><body>只有部隊是不允許借這個追求！離開之前，我生氣！<br>您必須一級39或更高進行這項追求。</body></html>"
+                htmltext = "<html><body>Only Troopers or Warders are allowed to take this quest! Go away before I get angry!<br>You must be level 39 or higher to undertake this quest.</body></html>"
                 st.exitQuest(1)
             elif id == State.CREATED :
                 htmltext = "32213-01.htm"
@@ -138,7 +138,7 @@ class Quest (JQuest) :
                 st.addExpAndSp(189831,21526)
         elif npcId == Kekropus :
             if cond == 1 :
-                htmltext = "<html><body>Hierarch Kekropus:<br>"+ player.getName() +" Ah, it's you. What brings you here to me?<br><a action=\"bypass -h Quest 65_CertifiedSoulBreaker 32138-01.htm\">I want to walk the path of a Soul Breaker. </a></body></html>"
+                htmltext = "32138-00.htm"
             elif cond == 2 :
                 htmltext = "32138-04.htm"
             elif cond == 14 :

@@ -51,7 +51,7 @@ class Quest (JQuest) :
 
  def __init__(self,id,name,descr):
    JQuest.__init__(self,id,name,descr)
-   self.questItemIds = [RED_GEM]
+   self.questItemIds = []
    self.games = {}
 
  def onEvent (self,event,st) :
@@ -126,7 +126,7 @@ class Quest (JQuest) :
 
  def onTalk (self,npc,player):
      st = player.getQuestState(qn)
-     htmltext = "<html><body>沒進行任務或條件不符合。</body></html>"
+     htmltext = "<html><body>目前沒有執行任務，或條件不符。</body></html>"
      if not st : return htmltext
      npcId = npc.getNpcId()
      id = st.getState()

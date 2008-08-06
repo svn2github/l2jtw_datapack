@@ -43,7 +43,7 @@ class Quest (JQuest) :
    if event == "Daimon the White-Eyed has despawned" : 
       npc.reduceCurrentHp(9999999,npc) 
       FindTemplate(ALTAR).setBusy(False) 
-      AutoChat(npc,"May the gods forever condemn you! Your power weakens!")
+      AutoChat(npc,"Darkness could not have ray?")
       return
    st = player.getQuestState(qn)
    if not st: return
@@ -70,7 +70,7 @@ class Quest (JQuest) :
          npc.setBusy(True) 
          st.set("cond","2") 
          self.startQuestTimer("Daimon the White-Eyed has despawned",1200000,spawnId,None) 
-         AutoChat(spawnId,"I will crush you!") 
+         AutoChat(spawnId,"Who called me?") 
    elif event == "31683-04.htm" : 
       if st.getQuestItemsCount(ESSENCE) >= 1 : 
          st.takeItems(ESSENCE,1) 
@@ -84,7 +84,7 @@ class Quest (JQuest) :
    return htmltext 
 
  def onTalk (self,npc,player): 
-   htmltext = "<html><body>百眼的惡魔-上篇</body></html>" 
+   htmltext = "<html><body>目前沒有執行任務，或條件不符。</body></html>"
    st = player.getQuestState(qn) 
    if st : 
      npcId = npc.getNpcId() 
@@ -110,7 +110,7 @@ class Quest (JQuest) :
                spawnId = st.addSpawn(DAIMON,186320,-43904,-3175) 
                npc.setBusy(True) 
                self.startQuestTimer("Daimon the White-Eyed has despawned",1200000,spawnId,None) 
-               AutoChat(spawnId,"I will crush you!") 
+               AutoChat(spawnId,"Who called me?") 
      elif cond == 3 : 
        if npcId == EYE :
             if st.getQuestItemsCount(ESSENCE) >= 1 :
@@ -153,7 +153,7 @@ class Quest (JQuest) :
      return
 
 
-QUEST = Quest(604,qn,"百眼的惡魔-下篇") 
+QUEST = Quest(604,qn,"百眼的惡魔-下篇")
 
 QUEST.addStartNpc(EYE) 
 
