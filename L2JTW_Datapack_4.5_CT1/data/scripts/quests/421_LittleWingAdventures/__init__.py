@@ -4,7 +4,7 @@
 #Quest info
 QUEST_NUMBER      = 421
 QUEST_NAME        = "LittleWingAdventures"
-QUEST_DESCRIPTION = "¤p¯Í»Hªº«_ÀI"
+QUEST_DESCRIPTION = "Little Wing's Big Adventures"
 qn = "421_LittleWingAdventures"
 
 #Configuration
@@ -16,8 +16,8 @@ MIN_PLAYER_LEVEL = 45
 MAX_DISTANCE = 100
 
 #Messages
-default = "<html><head><body>¨S¶i¦æ¥ô°È©Î±ø¥ó¤£²Å¦X¡C</body></html>"
-event_1 = "<html><head><body>§J¬¥¿Õ´µ¡G<br>§Ú·íµM¤£ª¾¹D°Õ~¡I¤£¡A¤£ºâ¬Oª¾¹D...¤Ï¥¿°Ú¡C§Ú¹ï¥®Às...©Ò¥H»¡...<br>¨º­Ó...³o¼Ë§a¡A§ÚÄ±±o¥h§ä¦í¦b§¯ºë¥jªº<font color=\"LEVEL\">§¯ºë¦Ì²ö</font>°Ý¤ñ¸û¦n¡C·íªìµ¹§A¥®Àsªº¤]¬O¥L§r...¹ï§r¹ï¡A¤W¦¸¨º¥ó¨Æ¤§«á¡A§Ú¸ò¥L³£¤¬¬Û³z¹L«H«O«ùÁpÃ´¡A¥i¥Hºâ¬O¤Í±¡¶Ü¡H¤Ï¥¿§Ú­Ì­ÇªºÃö«Y«Ü¦n¡C©Ò¥H»¡¡A§Ú·|¼g«Hµ¹¥L¡AÅý¥L¹ï§A©M§Aªº¥®Às¦n¤@ÂI...©ú¥Õ¤F¶Ü¡H§A©ú¥Õ§Úªº·N«ä¶Ü¡H</body></html>" 
+default = "<html><body>¥Ø«e¨S¦³°õ¦æ¥ô°È¡A©Î±ø¥ó¤£²Å¡C</body></html>"
+event_1 = "<html><head><body>§J¬¥¿Õ´µ¡G<br>§Ú·íµM¤£ª¾¹D°Õ~¡I¤£¡A¤£ºâ¬Oª¾¹D...¤Ï¥¿°Ú¡C§Ú¹ï¥®Às...©Ò¥H»¡...<br>¨º­Ó...³o¼Ë§a¡A§ÚÄ±±o¥h§ä¦í¦b§¯ºë¥jªº<font color=\"LEVEL\">§¯ºë¦Ì²ö</font>°Ý¤ñ¸û¦n¡C·íªìµ¹§A¥®Àsªº¤]¬O¥L§r...¹ï§r¹ï¡A¤W¦¸¨º¥ó¨Æ¤§«á¡A§Ú¸ò¥L³£¤¬¬Û³z¹L«H«O«ùÁpÃ´¡A¥i¥Hºâ¬O¤Í±¡¶Ü¡H¤Ï¥¿§Ú­Ì­ÇªºÃö«Y«Ü¦n¡C©Ò¥H»¡¡A§Ú·|¼g«Hµ¹¥L¡AÅý¥L¹ï§A©M§Aªº¥®Às¦n¤@ÂI...©ú¥Õ¤F¶Ü¡H§A©ú¥Õ§Úªº·N«ä¶Ü¡H</body></html>"
 error_1 = "<html><head><body>§A»Ý­n¾Ö¦³¤@ÀY¥®Às¡A¨Ã¥B±N¥L¥l³ê¥X¨Ó¡A¥H§¹¦¨³o­Ó¥ô°È¡C</body></html>"
 error_2 = "<html><head><body>¼K¡Iµo¥Í¤F¤°»ò¨Æ¡H¬°¤°»ò¤S¦³¥t¥~¤@±ø¥®Às¡H³o¤£¬O­ì¥»ªº¥®Às§a¡H</body></html>"
 error_3 = "<html><head><body>§J¬¥¿Õ´µ¡G<br>§Aªºµ¥¯Å»Ý¨D"+str(MIN_PLAYER_LEVEL)+"¥H¤W¤~¯à¸Ñ¦¹¥ô°È¡C</body></html>"
@@ -28,17 +28,8 @@ qston_1 = "<html><head><body>§J¬¥¿Õ´µ¡G<br>¼K¡A§A¤£´N¬O¤§«e§nµÛ­n¾i¥®Àsªº¨º­Ó¤H¶
 qston_2 = "<html><head><body>§J¬¥¿Õ´µ¡G<br>§Ú¤w¸g¸ò§A»¡¥h½Ð±Ð<font color=\"LEVEL\">§¯ºë¦Ì²ö</font>¡I¡I»¡ªº°÷²M·¡¶Ü¡I¡H</body></html>"
 qston_3 = "<html><head><body>§¯ºë¦Ì²ö¡G<br>¤°»ò¡I§A§ä¤£¨ì<font color=\"LEVEL\">­·¡B¬P¡B¶À©ü¡B²`²Wªº§¯ºë¤ì</font>¡C §O©ñ±ó¡I ¥L­Ì¥þ³£¦b<font color=\"LEVEL\">Ây¤H§ø²ø</font>¡C</body></html>"
 order_1 = "<html><head><body>§¯ºë¦Ì²ö¡G<br>§Aªº¥®Às¥²¶·³Ü¤U<font color=\"LEVEL\">­·¡B¬P¡B¶À©ü¡B²`²Wªº§¯ºë¤ì</font>ªº¥Ä²G¨ÓÀ°§U¨eªº¦¨ªø¡C§O¶Ë®`¨ìÄ@·NÀ°§U§Aªº§¯ºë¤ì¡A®³µÛ³o¨Ç§¯ºëªº¸­¤l¡A¦b¥®Às³Ü§¹¾ð²G¤§«á±N¥¦¶K¦b§¯ºë¤ìªº¶Ë¤f¤W§a¡C</body></html>"
-ftm_11  = "<html><head><body>­·ªº§¯ºë¤ì¡G<br>§Ú·|Åý§Aªº¥®Às¶¼¥Î§Úªº¥Ä²G¡A¦ý¬O¦b³o´Á¶¡§A¥²¶·«OÅ@§AªºÃdª«¨Ã¥Bµ¹§Ú¤@¤ù§A¾Ö¦³§¯ºëªº¸­¤l¡A<br><br><a action=\"bypass -h Quest "+str(QUEST_NUMBER)+"_"+QUEST_NAME+" 1\">¨S°ÝÃD</a></body></html>"
-ftm_12  = "¥®Às¤w³Ü¤U­·ªº§¯ºë¤ìªº¾ð¥Ä¡I"
-ftm_21  = "<html><head><body>¬Pªº§¯ºë¤ì¡G<br>¾¾¡I¨º¨Ç»êÅ¼ªº°­»î¶Ë®`¤F§Úªº¾ð¥Ö... ¬Ý¡I¥u¦³§¯ºëªº¸­¤l¯à°÷ªvÀø§Úªº¶Ë ... <br><br><a action=\"bypass -h Quest "+str(QUEST_NUMBER)+"_"+QUEST_NAME+" 2\">¶K¤W¸­¤l</a></body></html>"
-ftm_22  = "¥®Às¤w³Ü¤U¬Pªº§¯ºë¤ìªº¾ð¥Ä¡I"
-ftm_31  = "<html><head><body>¶À©üªº§¯ºë¤ì¡G<br>¦n¡A§Ú·Q³oÀ³¸Ó¬O¨S°ÝÃDªº¡A¦ý¬O§Ú­Ì¨S®É¶¡µ¥«Ý§Aªº¥®Àsµ¥¤W­Ó§â¤p®É... °Ê§@§ÖÂI§a¡I<br><br><a action=\"bypass -h Quest "+str(QUEST_NUMBER)+"_"+QUEST_NAME+" 4\">¦n¡A®³¨ú¸­¤l</a></body></html>"
-ftm_32  = "¥®Às¤w³Ü¤U¶À©üªº§¯ºë¤ìªº¾ð¥Ä¡I"
-ftm_41  = "<html><head><body>²`²Wªº§¯ºë¤ì¡G<br>§AªºÃdª«·|«r§Ú¡A¥H¤Î§A·|©ñ¤W¤@¤ù§¯ºëªº¸­¤l¦b¶Ë¤f¡H§A§O·Q¡I¤£¡Iµ¥µ¥¡I... °Ú ... ¦pªG§Ú¥i¥H¹³¶Â¬h¸ô§J¤@¼Ëªº©b¶]... <br><br><a action=\"bypass -h Quest "+str(QUEST_NUMBER)+"_"+QUEST_NAME+" 8\">»¡©êºp</a></body></html>"
-ftm_42  = "¥®Às¤w³Ü¤U²`²Wªº§¯ºë¤ìªº¾ð¥Ä¡I"
-end_msg = "<html><head><body>§¯ºë¦Ì²ö¡G<br>°µªº«Ü¦n¡A§Aªº¥®Às"
+end_msg = "<html><head><body>§¯ºë¦Ì²ö¡G<br>§Aªº¥®Às°µªº«Ü¦n¡C"
 end_msg2= "¤w¸g¸ÀÅÜ¬°®yÀs¤F¡A®¥³ß§A¡C</body></html>"
-
 
 #Quest items
 FT_LEAF = 4325
@@ -47,11 +38,7 @@ CONTROL_ITEMS = { 3500:4422, 3501:4423, 3502:4424 }
 #NPCs
 SG_CRONOS = 30610
 FY_MYMYU  = 30747
-#NpcId, bitmask, spawnX,spawnY,spawnZ,msg1,msg2
-FAIRY_TREES = [ [27185,1,113356,93848,-2072,ftm_11,ftm_12],
-                [27186,2,117733,94108,-2068,ftm_21,ftm_22],
-                [27187,4,127714,90495,-2095,ftm_31,ftm_32],
-                [27188,8,106671,93905,-2070,ftm_41,ftm_42] ]
+
 #Mobs
 GUARDIAN = 27189
 
@@ -59,6 +46,7 @@ import sys
 from net.sf.l2j.gameserver.model.quest import State
 from net.sf.l2j.gameserver.model.quest import QuestState
 from net.sf.l2j.gameserver.model.quest.jython import QuestJython as JQuest
+from net.sf.l2j.gameserver.serverpackets import NpcSay
 
 def get_control_item(st) :
   item = st.getPlayer().getPet().getControlItemId()
@@ -83,20 +71,10 @@ class Quest (JQuest) :
  def __init__(self,id,name,descr):
    JQuest.__init__(self,id,name,descr)
    self.questItemIds = [FT_LEAF]
+   self.killedTrees = []
 
  def onEvent (self,event,st) :
     htmltext = event
-    leafs = st.getQuestItemsCount(FT_LEAF) 
-    for i in range(4) :
-       if event == str(FAIRY_TREES[i][1]) :
-           st.set("id", str(st.getInt("id") | FAIRY_TREES[i][1]))
-           htmltext = FAIRY_TREES[i][6]
-           st.takeItems(FT_LEAF,1)
-           if 1 < leafs <= 4 :
-              st.playSound("ItemSound.quest_itemget")
-           elif leafs == 1 and st.getInt("id") == 15:
-              st.playSound("ItemSound.quest_middle")
-              st.set("cond","3")
     if event == "16" :
        htmltext = event_1
        st.setState(State.STARTED)
@@ -158,19 +136,26 @@ class Quest (JQuest) :
         st.giveItems(item,1)
         st.exitQuest(1)
         st.playSound("ItemSound.quest_finish")
-   elif id == State.STARTED and cond < 3 :
-     leafs = st.getQuestItemsCount(FT_LEAF)
-     if 0 < leafs :
-        for i in range(4) :
-           if npcId == FAIRY_TREES[i][0] and (st.getInt("id") | FAIRY_TREES[i][1] != st.getInt("id")) :
-              for j in range(2):
-                 for k in range(2): 
-                    st.addSpawn(GUARDIAN,FAIRY_TREES[i][2]+70*pow(-1,j%2),FAIRY_TREES[i][3]+70*pow(-1,k%2),FAIRY_TREES[i][4])
-              htmltext = FAIRY_TREES[i][5]
    return htmltext
 
- def onKill(self,npc,player,isPet) :
-   return  
+ def onAttack(self, npc, player, damage, isPet) :
+   st = player.getQuestState(str(QUEST_NUMBER)+"_"+QUEST_NAME)
+   if not st:
+     return
+   npcId = npc.getNpcId()
+   for pc, mobId, in self.killedTrees:
+      if pc == player and mobId == npcId:
+         return
+   if isPet :
+      pet = player.getPet()
+      if st.getRandom(100) <= 2 and st.getQuestItemsCount(FT_LEAF) >= 0:
+         st.takeItems(FT_LEAF,1)
+         st.playSound("ItemSound.quest_middle")
+         npc.broadcastPacket(NpcSay(npc.getNpcId(),0,npcId,"gives me spirit leaf...!"))
+         self.killedTrees.append([player,npcId])
+         if st.getQuestItemsCount(FT_LEAF) == 0 :
+            st.set("cond","3")
+   return 
 
 # Quest class and state definition
 QUEST       = Quest(QUEST_NUMBER, str(QUEST_NUMBER)+"_"+QUEST_NAME, QUEST_DESCRIPTION)
@@ -182,5 +167,5 @@ QUEST.addTalkId(SG_CRONOS)
 
 QUEST.addTalkId(FY_MYMYU)
 
-for i in range(4) :
-  QUEST.addTalkId(FAIRY_TREES[i][0])
+for i in range(27185,27189):
+   QUEST.addAttackId(i)

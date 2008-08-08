@@ -56,6 +56,7 @@ class Quest (JQuest) :
        htmltext = "30867-10.htm"
        if urn > 0:
            st.giveItems(57,urn*1000)
+           st.takeItems(URN,urn)
        st.exitQuest(1)
      elif event == "APPR" :
        if not porcelain :
@@ -74,17 +75,14 @@ class Quest (JQuest) :
 
  def onTalk (self,npc,player):
      npcId = npc.getNpcId()
-     htmltext = "<html><body>沒進行任務或條件不符合。</body></html>"
+     htmltext = "<html><body>目前沒有執行任務，或條件不符。</body></html>"
      st = player.getQuestState(qn)
      if not st : return htmltext
      id = st.getState()
      cond = st.getInt("cond")
      urn = st.getQuestItemsCount(URN)
      porcelain = st.getQuestItemsCount(PORCELAIN)
-     if id == State.COMPLETED :
-       htmltext = "<html><body>這任務你已完成。</body></html>"
-
-     elif id == State.CREATED and npcId == REVA :
+     if id == State.CREATED and npcId == REVA :
        if player.getLevel() < 59 :
          htmltext = "30867-01.htm"
          st.exitQuest(1)
