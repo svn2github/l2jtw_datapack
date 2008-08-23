@@ -7,9 +7,9 @@ from net.sf.l2j.gameserver import GameTimeController
 from net.sf.l2j.gameserver.ai import CtrlIntention
 from net.sf.l2j.gameserver.model import L2CharPosition
 from net.sf.l2j.gameserver.model.quest.jython import QuestJython as JQuest
-from net.sf.l2j.gameserver.serverpackets import NpcSay
-from net.sf.l2j.gameserver.serverpackets import PlaySound
-from net.sf.l2j.gameserver.serverpackets import SocialAction
+from net.sf.l2j.gameserver.network.serverpackets import NpcSay
+from net.sf.l2j.gameserver.network.serverpackets import PlaySound
+from net.sf.l2j.gameserver.network.serverpackets import SocialAction
 
 TEXT = ["How come people are not here... We are about to start the show.. Hmm", \
         "Ugh, I have butterflies in my stomach.. The show starts soon...", \
@@ -151,6 +151,7 @@ class MC_Show(JQuest) :
      self.individuals = [32439,32440,32441]
      self.showstuff = [32424,32425,32426,32427,32428]
      self.startQuestTimer("timer_check",60000, None, None, True)
+     self.isSpawned = 0
 
   def AutoChat(self, npc,text,type) :
      sm = NpcSay(npc.getObjectId(), type, npc.getNpcId(), text)
@@ -172,7 +173,7 @@ class MC_Show(JQuest) :
        text,nextEvent,time=TALKS[event]
        self.AutoChat(npc,text,1)
        self.startQuestTimer(nextEvent,time, npc, None)
-    elif event in WALKS.keys() and npc:
+    elif event in WALKS.keys() and npc and self.isSpawned == 1:
        x,y,z,nextEvent,time=WALKS[event]
        npc.getAI().setIntention(CtrlIntention.AI_INTENTION_MOVE_TO, L2CharPosition(x,y,z,0))
        self.startQuestTimer(nextEvent,time, npc, None)
@@ -222,6 +223,7 @@ class MC_Show(JQuest) :
        self.startQuestTimer("npc7_1",4000, npc7, None)
        self.startQuestTimer("npc8_1",3000, npc8, None)
        self.startQuestTimer("npc9_1",3000, npc9, None)
+       self.isSpawned = 1
        for j in [npc,npc1,npc2,npc3,npc4,npc5,npc6,npc7,npc8,npc9]:
           self.startQuestTimer("11",100000, j, None)
     elif event == "11" and npc :
@@ -258,7 +260,7 @@ class MC_Show(JQuest) :
        npc5 = self.addSpawn(self.showstuff[4],-56672,-56272,-2000,32768,False,0)
        for j in [npc1,npc2,npc3,npc4,npc5]:
           self.startQuestTimer("social1",5500, j, None)
-          self.startQuestTimer("social1",12500, j, None)
+          self.startQuestTimer("social1_1",12500, j, None)
           self.startQuestTimer("28",19700, j, None)
     elif event == "28" and npc :
        self.AutoChat(npc,"We love you.",0)
@@ -268,9 +270,11 @@ class MC_Show(JQuest) :
        npc.getAI().setIntention(CtrlIntention.AI_INTENTION_MOVE_TO, L2CharPosition(-56730,-56340,-2008,32768))
        self.startQuestTimer("clean_npc",4100, npc, None)
        self.startQuestTimer("timer_check",60000, None, None, True)
-    elif event == "social1" and npc :
+    elif event in ["social1","social1_1"] and npc :
        npc.broadcastPacket(SocialAction(npc.getObjectId(),1))
     elif event == "clean_npc" and npc :
+       if npc.getNpcId() in [self.circus[0], self.circus[1], self.circus[2],self.circus[3],self.circus[4]] :
+          self.isSpawned = 0
        npc.deleteMe()
     return 
 
