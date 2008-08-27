@@ -199,7 +199,7 @@
 	</zone>
 	<zone id="11039" type="Town" shape="Cuboid" minZ="-4324" maxZ="3097">
 		<stat name="name" val="Fantasy Isle" /> 
-		<stat name="townId" val="21" /> 
+		<stat name="townId" val="22" /> 
 		<stat name="taxById" val="14" /> 
 		<stat name="spawnX" val="-58752" /> 
 		<stat name="spawnY" val="-56898" /> 
@@ -860,41 +860,6 @@
 		<stat name='spawnZ' val='-1428'/>
 	</zone>
 
-<!-- Boss Zones -->
-	<zone id='12005' type='BossZone' shape='NPoly' minZ='-5120' maxZ='-2500'>
-		<stat name='name' val='Lair of Frintezza'/>
-	</zone>
-	<zone id='12006' type='BossZone' shape='Cuboid' minZ='-8320' maxZ='-4870'>
-		<stat name='name' val='Lair of Antharas'/>
-		<stat name='InvadeTime' val='1800000'/>
-	</zone>
-	<zone id='12007' type='BossZone' shape='NPoly' minZ='9967' maxZ='16301'>
-		<stat name='name' val='Lair of Baium'/>
-		<stat name='InvadeTime' val='1800000'/>
-	</zone>
-	<zone id='12008' type='BossZone' shape='Cuboid' minZ='-1735' maxZ='16301'>
-		<stat name='name' val='Lair of Valakas'/>
-		<stat name='InvadeTime' val='1800000'/>
-	</zone>
-<!--
-	<zone id='12009' type='BossZone' shape='Cuboid' minZ='-5600' maxZ='-3895'>
-		<stat name='name' val='Lair of Lilith'/>
-		<stat name='InvadeTime' val='60000'/>
-	</zone>
-	<zone id='12010' type='BossZone' shape='Cuboid' minZ='-5600' maxZ='-3895'>
-		<stat name='name' val='Lair of Anakim'/>
-		<stat name='InvadeTime' val='60000'/>
-	</zone>
-	<zone id='12011' type='BossZone' shape='Cuboid' minZ='-3775' maxZ='-2690'>
-		<stat name='name' val='Lair of Zaken'/>
-		<stat name='InvadeTime' val='1800000'/>
-	</zone>
-	<zone id='12014' type='BossZone' shape='Cuboid' minZ='-10730' maxZ='-10290'>
-		<stat name='name' val='Altar of Sacrifice'/>
-		<stat name='InvadeTime' val='60000'/>
-	</zone>
--->
-
 <!-- Peace Zones -->
 	<zone id='13001' type='PeaceZone' shape='NPoly' minZ='-3500' maxZ='-2000' /> <!-- Coliseum Entrance -->
 	<zone id='13002' type='PeaceZone' shape='NPoly' minZ='-3500' maxZ='-2000' /> <!-- Coliseum Entrance -->
@@ -1152,88 +1117,82 @@
         </zone>
 <!-- Boss zones Four Sepulchers -->
         <zone id='12002' type='BossZone' shape='Cuboid' minZ='-7350' maxZ='-6841'>
-                <stat name='name' val='FourSepulcher'/>
                 <stat name='Flying' val='false'/>
                 <stat name='InvadeTime' val='300000'/>
                 <stat name='InvadeTimeAfterRestart' val='0'/>
+                <stat name='QuestName' val='620_FourGoblets'/>
         </zone>
         <zone id='12003' type='BossZone' shape='Cuboid' minZ='-7350' maxZ='-6841'>
-                <stat name='name' val='FourSepulcher'/>
                 <stat name='Flying' val='false'/>
                 <stat name='InvadeTime' val='300000'/>
                 <stat name='InvadeTimeAfterRestart' val='0'/>
+                <stat name='QuestName' val='620_FourGoblets'/>
         </zone>
         <zone id='12004' type='BossZone' shape='Cuboid' minZ='-7350' maxZ='-6841'>
-                <stat name='name' val='FourSepulcher'/>
                 <stat name='Flying' val='false'/>
                 <stat name='InvadeTime' val='300000'/>
                 <stat name='InvadeTimeAfterRestart' val='0'/>
+                <stat name='QuestName' val='620_FourGoblets'/>
         </zone>
         <zone id='12005' type='BossZone' shape='Cuboid' minZ='-7350' maxZ='-6841'>
-                <stat name='name' val='FourSepulcher'/>
                 <stat name='Flying' val='false'/>
                 <stat name='InvadeTime' val='300000'/>
                 <stat name='InvadeTimeAfterRestart' val='0'/>
+                <stat name='QuestName' val='620_FourGoblets'/>
         </zone>
 <!-- Boss zones Lair of Bosses -->
         <zone id='12006' type='BossZone' shape='Cuboid' minZ='-8220' maxZ='-4870'>
-                <stat name='name' val='LairofAntharas'/>
                 <stat name='Flying' val='false'/>
                 <stat name='InvadeTime' val='600000'/>
                 <stat name='InvadeTimeAfterRestart' val='1800000'/>
+                <stat name='QuestName' val='antharas'/>
         </zone>
         <zone id='12007' type='BossZone' shape='NPoly' minZ='9967' maxZ='16301'>
-                <stat name='name' val='LairofBaium'/>
                 <stat name='Flying' val='false'/>
                 <stat name='InvadeTime' val='600000'/>
                 <stat name='InvadeTimeAfterRestart' val='1800000'/>
+                <stat name='QuestName' val='baium'/>
         </zone>
         <zone id='12008' type='BossZone' shape='Cuboid' minZ='-1735' maxZ='16301'>
-                <stat name='name' val='LairofValakas'/>
                 <stat name='Flying' val='false'/>
                 <stat name='InvadeTime' val='0'/>
                 <stat name='InvadeTimeAfterRestart' val='1800000'/>
+                <stat name='QuestName' val='valakas'/>
         </zone>
         <zone id='12009' type='BossZone' shape='Cuboid' minZ='-5600' maxZ='-3895'>
-                <stat name='name' val='LairofLilith'/>
                 <stat name='Flying' val='false'/>
                 <stat name='InvadeTime' val='0'/>
                 <stat name='InvadeTimeAfterRestart' val='0'/>
         </zone>
         <zone id='12010' type='BossZone' shape='Cuboid' minZ='-5600' maxZ='-3895'>
-                <stat name='name' val='LairofAnakim'/>
                 <stat name='Flying' val='false'/>
                 <stat name='InvadeTime' val='0'/>
                 <stat name='InvadeTimeAfterRestart' val='0'/>
         </zone>
         <zone id='12011' type='BossZone' shape='Cuboid' minZ='-3775' maxZ='-2690'>
-                <stat name='name' val='LairofZaken'/>
                 <stat name='Flying' val='false'/>
                 <stat name='InvadeTime' val='0'/>
                 <stat name='InvadeTimeAfterRestart' val='0'/>
         </zone>
         <zone id='12012' type='BossZone' shape='Cuboid' minZ='-2900' maxZ='-2690'>
-                <stat name='name' val='SunlightRoom'/>
                 <stat name='Flying' val='false'/>
                 <stat name='InvadeTime' val='0'/>
                 <stat name='InvadeTimeAfterRestart' val='0'/>
         </zone>
         <zone id='12013' type='BossZone' shape='Cuboid' minZ='-2075' maxZ='-1944'>
-                <stat name='name' val='LairofSailren'/>
                 <stat name='Flying' val='false'/>
                 <stat name='InvadeTime' val='0'/>
                 <stat name='InvadeTimeAfterRestart' val='0'/>
+                <stat name='QuestName' val='sailren'/>
         </zone>
         <zone id='12014' type='BossZone' shape='Cuboid' minZ='-10730' maxZ='-10290'>
-                <stat name='name' val='AltarofSacrifice'/>
                 <stat name='Flying' val='false'/>
                 <stat name='InvadeTime' val='0'/>
                 <stat name='InvadeTimeAfterRestart' val='0'/>
         </zone>
         <zone id='12015' type='BossZone' shape='NPoly' minZ='-30000' maxZ='30000'>
-                <stat name='name' val='IceQueenCastle'/>
                 <stat name='Flying' val='false'/>
                 <stat name='InvadeTime' val='0'/>
                 <stat name='InvadeTimeAfterRestart' val='0'/>
-        </zone>	
+        </zone>
 </list>

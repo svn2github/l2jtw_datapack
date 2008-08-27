@@ -262,8 +262,16 @@ class Quest (JQuest) :
                          st.set("party","3")
                       elif player.getParty().getMemberCount()==4:
                          st.set("party","4")
-                      else:
+                      elif player.getParty().getMemberCount()==5:
                          st.set("party","5")
+                      elif player.getParty().getMemberCount()==6:
+                         st.set("party","6")
+                      elif player.getParty().getMemberCount()==7:
+                         st.set("party","7")
+                      elif player.getParty().getMemberCount()==8:
+                         st.set("party","8")
+                      else:
+                         st.set("party","9")
                    htmltext = str(npcId)+"-01.htm"
              else :
                   st.set("party","1")

@@ -1361,7 +1361,7 @@ INSERT INTO npcskills (npcid, skillid, level) VALUES
 
 /************ Zone 修正 ************/
 
-Delete From zone_vertices where id in (12001,12002,12003,12004,12012,12013,12015,12016);
+Delete From zone_vertices where id in (12001,12002,12003,12004,12005,12012,12013,12015);
 
 INSERT INTO `zone_vertices` (`id`,`order`,`x`,`y`) VALUES 
 (12001, 0, -114800, -250740),
@@ -1372,6 +1372,8 @@ INSERT INTO `zone_vertices` (`id`,`order`,`x`,`y`) VALUES
 (12003, 1, 190342, -88042),
 (12004, 0, 172354, -86630),
 (12004, 1, 174073, -75565),
+(12005, 0, 174697, -82707),
+(12005, 1, 176500, -71885),
 (12012, 0, 55794, 219633),
 (12012, 1, 56789, 220629),
 (12013, 0, 26095, -8084),
@@ -1442,6 +1444,8 @@ INSERT INTO `merchant_buylists` (`item_id`,`price`,`shop_id`,`order`) VALUES
 (8202,-1,3200700,27);
 
 /************ 放回消失的BOSS ************/
+
+Delete From `spawnlist` where npc_templateid in (29001,29006,29014,29022,22215,22216,22217);
 
 INSERT INTO `spawnlist` VALUES
 (35463,'Queen Ant',1,29001,-21610,181594,-5734,0,0,0,129600,0,0),
