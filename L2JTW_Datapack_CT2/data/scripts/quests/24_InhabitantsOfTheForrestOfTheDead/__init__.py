@@ -92,13 +92,13 @@ class Quest (JQuest) :
         htmltext = "<html><body>目前沒有執行任務，或條件不符。</body></html>"
         st = player.getQuestState(qn)
         if not st : return htmltext
+        npcId = npc.getNpcId()
         state = st.getState()
         if state == State.COMPLETED :
             if npcId == Wizard :
                 htmltext = "31522-20.htm"
             else:
                 htmltext = "<html><body>這是已經完成的任務。</body></html>"
-        npcId = npc.getNpcId()
         cond = st.getInt("cond")
         if npcId == Dorian :
             if state == State.CREATED :
