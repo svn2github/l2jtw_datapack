@@ -2,7 +2,6 @@ import sys
 from net.sf.l2j.gameserver.model.quest import State
 from net.sf.l2j.gameserver.model.quest import QuestState
 from net.sf.l2j.gameserver.model.quest.jython import QuestJython as JQuest
-from net.sf.l2j.gameserver.serverpackets import RadarControl
 
 qn = "7003_NpcLocation"
 
@@ -223,23 +222,26 @@ class Quest (JQuest) :
  def __init__(self,id,name,descr): JQuest.__init__(self,id,name,descr)
 
  def onAdvEvent (self,event,npc,player) :
-    htmltext = event
-    st = player.getQuestState(qn)
-    if not st: return
-    if event.isdigit() :
-       npcId = int(event)
-       if npcId in RADAR.keys():
-          x,y,z = RADAR[npcId]
-          player.sendPacket(RadarControl(0, 1, x, y, z))
-          st.exitQuest(1)
-          return "goto.htm"
-    return htmltext
+   htmltext=event
+   st = player.getQuestState(qn)
+   if not st: return
+   if event.isdigit() :
+     htmltext = None
+     npcId = int(event)
+     if npcId in RADAR.keys():
+       x,y,z=RADAR[npcId]
+       st.addRadar(x,y,z)
+       htmltext = "goto.htm"
+     st.exitQuest(1)
+   return htmltext
 
- def onTalk (self,npc,player):
-    npcId = npc.getNpcId()
-    return str(npcId)+".htm"
+ def onTalk (Self,npc,player):
+     npcId = npc.getNpcId()
+     if npcId in NPC :
+         htmltext = str(npcId) + ".htm"
+     return htmltext
 
-QUEST       = Quest(7003,qn,"custom")
+QUEST = Quest(8001,qn,"custom")
 
 for i in NPC:
     QUEST.addStartNpc(i)
