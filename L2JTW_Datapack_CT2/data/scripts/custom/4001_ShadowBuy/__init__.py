@@ -5,7 +5,7 @@ from net.sf.l2j.gameserver.model.quest.jython import QuestJython as JQuest
 
 qn = "4001_ShadowBuy"
 
-NPC =[30084,30085,30178,30684,30837,30890,30891,31256,31257,31300,31301,31945,31946]
+NPC =[30084,30085,30178,30684,30837,30890,30891,31256,31257,31300,31301,31945,31946,31947,31948]
 
 class Quest (JQuest) :
 
@@ -15,7 +15,7 @@ class Quest (JQuest) :
     st = player.getQuestState(qn)
     if not st: return
     if player.getLevel() > 39:
-       npc.onBypassFeedback(player,"multisell 319463001")
+       return "shadow_01.htm"
        st.exitQuest(1)
     else:
        return "00.htm"
