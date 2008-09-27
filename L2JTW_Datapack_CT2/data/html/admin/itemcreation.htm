@@ -1,0 +1,41 @@
+<html><title>物品</title><body>
+<table width=260>
+<tr>
+<td width=40><button value="首頁" action="bypass -h admin_admin" width=40 height=15 back="L2UI_ct1.button_df" fore="L2UI_ct1.button_df"></td>
+<td width=180><center>物品創造選單</center></td>
+<td width=40><button value="返回" action="bypass -h admin_admin" width=40 height=15 back="L2UI_ct1.button_df" fore="L2UI_ct1.button_df"></td>
+</tr>
+</table><br><br>
+<table width=270>
+<tr><td>1.填入代碼</td></tr>
+<tr><td>2.填入數量</td></tr>
+<tr><td><br></td></tr>
+<tr><td><center>警告：請勿製造多個不可堆疊的物品！</center></td></tr>
+<tr><td><br></td></tr>
+</table>
+<center>
+<table>
+<tr>
+<td>物品-ID: <edit var="itemid" width=50></td>
+<td>數量: <edit var="itemnum" width=50></td>
+<td>&nbsp;<button value="創造物品" action="bypass -h admin_create_item $itemid $itemnum" width=70 height=15 back="L2UI_ct1.button_df" fore="L2UI_ct1.button_df"></td>
+</tr>
+</table>
+</center><br><br>
+<center>
+<table>
+<tr><td><center>數量: <edit var="asset" width=70 height=11></center></td></tr>
+</table><br>
+<table>
+<tr>
+<td>
+<button value="金幣" action="bypass -h admin_create_item 57 $asset" width=95 height=15 back="L2UI_ct1.button_df" fore="L2UI_ct1.button_df">
+<button value="古代的金幣" action="bypass -h admin_create_item 5575 $asset" width=95 height=15 back="L2UI_ct1.button_df" fore="L2UI_ct1.button_df">
+<button value="藍色封印石" action="bypass -h admin_create_item 6360 $asset" width=95 height=15 back="L2UI_ct1.button_df" fore="L2UI_ct1.button_df">
+<button value="綠色封印石" action="bypass -h admin_create_item 6361 $asset" width=95 height=15 back="L2UI_ct1.button_df" fore="L2UI_ct1.button_df">
+<button value="紅色封印石" action="bypass -h admin_create_item 6362 $asset" width=95 height=15 back="L2UI_ct1.button_df" fore="L2UI_ct1.button_df">
+</td>
+</tr>
+</table>
+</center>
+</body></html>

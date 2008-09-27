@@ -1,0 +1,62 @@
+<html><title>L2J 控制首頁</title><body>
+<center><table width=260><tr>
+<td><button value="首頁" action="bypass -h admin_admin" width=50 height=15 back="L2UI_ct1.button_df" fore="L2UI_ct1.button_df"></td>
+<td><button value="遊戲" action="bypass -h admin_admin2" width=50 height=15 back="L2UI_ct1.button_df" fore="L2UI_ct1.button_df"></td>
+<td><button value="效果" action="bypass -h admin_admin3" width=50 height=15 back="L2UI_ct1.button_df" fore="L2UI_ct1.button_df"></td>
+<td><button value="伺服器" action="bypass -h admin_admin4" width=50 height=15 back="L2UI_ct1.button_df" fore="L2UI_ct1.button_df"></td>
+<td><button value="外掛" action="bypass -h admin_admin5" width=50 height=15 back="L2UI_ct1.button_df" fore="L2UI_ct1.button_df"></td>
+</tr></table><br>
+<table width=240><tr>
+<td>數值:</td><td><edit var="qbox" width=120 height=15></td><td><button value="幫助" action="bypass -h admin_help help/main_menu.htm" width=45 height=15 back="L2UI_ct1.button_df" fore="L2UI_ct1.button_df"></td>
+</tr></table><br>
+<table width=240><tr>
+<td><button value="創造物品" action="bypass -h admin_create_item $qbox" width=55 height=15 back="L2UI_ct1.button_df" fore="L2UI_ct1.button_df"></td>
+<td><button value="傳送選單" action="bypass -h admin_move_to $qbox" width=55 height=15 back="L2UI_ct1.button_df" fore="L2UI_ct1.button_df"></td>
+<td><button value="召喚怪物" action="bypass -h admin_spawn_monster $qbox" width=55 height=15 back="L2UI_ct1.button_df" fore="L2UI_ct1.button_df"></td>
+<td><button value="列出NPC" action="bypass -h admin_list_spawns $qbox" width=55 height=15 back="L2UI_ct1.button_df" fore="L2UI_ct1.button_df"></td>
+</tr><tr>
+<td><button value="公告選單" action="bypass -h admin_announce_menu $qbox" width=55 height=15 back="L2UI_ct1.button_df" fore="L2UI_ct1.button_df"></td>
+<td><button value="伺服設定" action="bypass -h admin_set_menu $qbox" width=55 height=15 back="L2UI_ct1.button_df" fore="L2UI_ct1.button_df"></td>
+<td><button value="GM 聊天" action="bypass -h admin_gmchat_menu $qbox" width=55 height=15 back="L2UI_ct1.button_df" fore="L2UI_ct1.button_df"></td>
+<td><button value="前往NPC" action="bypass -h admin_list_spawns $qbox 1" width=55 height=15 back="L2UI_ct1.button_df" fore="L2UI_ct1.button_df"></td>
+</tr></table>玩家:<table width=240><tr>
+<td><button value="傳至玩家" action="bypass -h admin_goto_char_menu $qbox" width=55 height=15 back="L2UI_ct1.button_df" fore="L2UI_ct1.button_df"></td>
+<td><button value="召喚玩家" action="bypass -h admin_recall_char_menu $qbox" width=55 height=15 back="L2UI_ct1.button_df" fore="L2UI_ct1.button_df"></td>
+<td><button value="性向設定" action="bypass -h admin_setkarma $qbox" width=55 height=15 back="L2UI_ct1.button_df" fore="L2UI_ct1.button_df"></td>
+<td><button value="性向清除" action="bypass -h admin_nokarma" width=55 height=15 back="L2UI_ct1.button_df" fore="L2UI_ct1.button_df"></td>
+</tr><tr>
+<td><button value="禁止聊天" action="bypass -h admin_banchat $qbox" width=55 height=15 back="L2UI_ct1.button_df" fore="L2UI_ct1.button_df"></td>
+<td><button value="允許聊天" action="bypass -h admin_unbanchat $qbox" width=55 height=15 back="L2UI_ct1.button_df" fore="L2UI_ct1.button_df"></td>
+<td><button value="關進監獄" action="bypass -h admin_jail $qbox" width=55 height=15 back="L2UI_ct1.button_df" fore="L2UI_ct1.button_df"></td>
+<td><button value="監獄釋放" action="bypass -h admin_unjail $qbox" width=55 height=15 back="L2UI_ct1.button_df" fore="L2UI_ct1.button_df"></td>
+</tr><tr>
+<td><button value="踢除" action="bypass -h admin_kick_menu $qbox" width=55 height=15 back="L2UI_ct1.button_df" fore="L2UI_ct1.button_df"></td>
+<td><button value="封鎖" action="bypass -h admin_ban_menu $qbox" width=55 height=15 back="L2UI_ct1.button_df" fore="L2UI_ct1.button_df"></td>
+<td><button value="尋找" action="bypass -h admin_find_character $qbox" width=55 height=15 back="L2UI_ct1.button_df" fore="L2UI_ct1.button_df"></td>
+<td><button value="修復" action="bypass -h admin_repair $qbox" width=55 height=15 back="L2UI_ct1.button_df" fore="L2UI_ct1.button_df"></td>
+</tr></table>其他目標操作:<table width=240><tr>
+<td><button value="殺死" action="bypass -h admin_kill_menu" width=55 height=15 back="L2UI_ct1.button_df" fore="L2UI_ct1.button_df"></td>
+<td><button value="復活" action="bypass -h admin_res" width=55 height=15 back="L2UI_ct1.button_df" fore="L2UI_ct1.button_df"></td>
+<td><button value="開啟" action="bypass -h admin_open" width=55 height=15 back="L2UI_ct1.button_df" fore="L2UI_ct1.button_df"></td>
+<td><button value="關閉" action="bypass -h admin_close" width=55 height=15 back="L2UI_ct1.button_df" fore="L2UI_ct1.button_df"></td>
+</tr><tr>
+<td><button value="移動NPC" action="bypass -h admin_recall_npc" width=55 height=15 back="L2UI_ct1.button_df" fore="L2UI_ct1.button_df"></td>
+<td><button value="刪除" action="bypass -h admin_delete" width=55 height=15 back="L2UI_ct1.button_df" fore="L2UI_ct1.button_df"></td>
+<td><button value="回復" action="bypass -h admin_heal" width=55 height=15 back="L2UI_ct1.button_df" fore="L2UI_ct1.button_df"></td>
+<td><button value="飽食全滿" action="bypass -h admin_fullfood" width=55 height=15 back="L2UI_ct1.button_df" fore="L2UI_ct1.button_df"></td>
+</tr></table>GM 操作:<table width=240><tr>
+<td><button value="GM 登錄" action="bypass -h admin_gmliston" width=55 height=15 back="L2UI_ct1.button_df" fore="L2UI_ct1.button_df"></td>
+<td><button value="GM 移除" action="bypass -h admin_gmlistoff" width=55 height=15 back="L2UI_ct1.button_df" fore="L2UI_ct1.button_df"></td>
+<td><button value="負重*" action="bypass -h admin_diet" width=55 height=15 back="L2UI_ct1.button_df" fore="L2UI_ct1.button_df"></td>
+<td><button value="隱形*" action="bypass -h admin_invis_menu" width=55 height=15 back="L2UI_ct1.button_df" fore="L2UI_ct1.button_df"></td>
+</tr><tr>
+<td><button value="訴求管理" action="bypass -h admin_view_petitions" width=55 height=15 back="L2UI_ct1.button_df" fore="L2UI_ct1.button_df"></td>
+<td><button value="密談*" action="bypass -h admin_silence" width=55 height=15 back="L2UI_ct1.button_df" fore="L2UI_ct1.button_df"></td>
+<td><button value="交易*" action="bypass -h admin_tradeoff" width=55 height=15 back="L2UI_ct1.button_df" fore="L2UI_ct1.button_df"></td>
+<td><button value="無敵*" action="bypass -h admin_invul" width=55 height=15 back="L2UI_ct1.button_df" fore="L2UI_ct1.button_df"></td>
+</tr><tr>
+<td><button value="騎乘飛龍" action="bypass -h admin_ride_wyvern" width=55 height=15 back="L2UI_ct1.button_df" fore="L2UI_ct1.button_df"></td>
+<td><button value="騎乘座龍" action="bypass -h admin_ride_strider" width=55 height=15 back="L2UI_ct1.button_df" fore="L2UI_ct1.button_df"></td>
+<td><button value="物品強化" action="bypass -h admin_enchant" width=55 height=15 back="L2UI_ct1.button_df" fore="L2UI_ct1.button_df"></td>
+<td><button value="GM 商店" action="bypass -h admin_gmshop" width=55 height=15 back="L2UI_ct1.button_df" fore="L2UI_ct1.button_df"></td>
+</tr></table></center></body></html>
