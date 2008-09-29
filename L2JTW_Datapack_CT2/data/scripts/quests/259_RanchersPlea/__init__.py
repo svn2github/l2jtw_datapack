@@ -10,6 +10,8 @@ GIANT_SPIDER_SKIN = 1495
 ADENA = 57
 HEALING_POTION = 1061
 WOODEN_ARROW = 17
+Soulshot_No_Grade = 1835   #補充對話
+Spiritshot_No_Grade = 2509 #補充對話
 
 class Quest (JQuest) :
 
@@ -29,13 +31,21 @@ class Quest (JQuest) :
       st.playSound("ItemSound.quest_finish")
     elif event == "30405-04.htm" :
       if count >= 10 :
-         st.giveItems(HEALING_POTION,1)
+         st.giveItems(HEALING_POTION,2)
+         st.takeItems(GIANT_SPIDER_SKIN,10)
+    elif event == "30405-08.htm" :
+      if count >= 10 :
+         st.giveItems(Soulshot_No_Grade,60)
+         st.takeItems(GIANT_SPIDER_SKIN,10)
+    elif event == "30405-09.htm" :
+      if count >= 10 :
+         st.giveItems(Spiritshot_No_Grade,30)
          st.takeItems(GIANT_SPIDER_SKIN,10)
       else:
          htmltext="Incorrect item count"
     elif event == "30405-05.htm" :
       if count >= 10 :
-         st.giveItems(WOODEN_ARROW,50)
+         st.giveItems(WOODEN_ARROW,250)
          st.takeItems(GIANT_SPIDER_SKIN,10)
       else:
          htmltext="Incorrect item count"
