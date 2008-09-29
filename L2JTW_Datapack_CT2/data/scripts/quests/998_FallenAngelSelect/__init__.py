@@ -43,6 +43,6 @@ class Quest (JQuest) :
        htmltext = "30894-01.htm"
     return htmltext
 
-QUEST       = Quest(998,qn,"Fallen Angel - Select")
+QUEST       = Quest(998,qn,"墜落的天使-選擇")
 
 QUEST.addTalkId(NATOOLS)
