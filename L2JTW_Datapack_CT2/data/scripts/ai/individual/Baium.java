@@ -63,13 +63,13 @@ import net.sf.l2j.util.Rnd;
  *	 [ha, ha] you or someone else will have to wake Baium. There is a good chance that Baium
  *	 will automatically kill whoever wakes him. There are some people that have been able to
  *	 wake him and not die, however if you've already gone through the trouble of getting the
- *	 bloody fabric and camped him out and researched his spawn time, are you willing to take that
+ *	 bloody fabric and camped him out and researched his spawn time, are you willing to take that 
  *	 chance that you'll wake him and not be able to finish your quest? Doubtful.
  *	 [ this powerful attack vs the player who wakes him up is NOT yet implemented here]
  *   * once someone starts attacking Baium no one else can port into the chamber where he is.
  *	 Unlike with the other raid bosses, you can just show up at any time as long as you are there
  *	 when they die. Not true with Baium. Once he gets attacked, the port to Baium closes. byebye,
- *	 see you in 5 days.  If nobody attacks baium for 30 minutes, he auto-despawns and unlocks the
+ *	 see you in 5 days.  If nobody attacks baium for 30 minutes, he auto-despawns and unlocks the 
  *	 vortex
  * 
  * @author Fulminus version 0.1
@@ -96,7 +96,7 @@ public class Baium extends L2AttackableAIScript
 
 	int[] mob = {LIVE_BAIUM};
 	this.registerMobs(mob);
-
+	
 	// Quest NPC starter initialization
 	addStartNpc(STONE_BAIUM);
 	addStartNpc(ANGELIC_VORTEX);
@@ -228,7 +228,7 @@ public class Baium extends L2AttackableAIScript
 	{
 	    if (_Zone.isPlayerAllowed(player))
 	    {
-		// once Baium is awaken, no more people may enter until he dies, the server reboots, or
+		// once Baium is awaken, no more people may enter until he dies, the server reboots, or 
 		// 30 minutes pass with no attacks made against Baium.
 		GrandBossManager.getInstance().setBossStatus(LIVE_BAIUM,AWAKE);
 		npc.deleteMe();
@@ -252,7 +252,7 @@ public class Baium extends L2AttackableAIScript
 			},(long)100);
 	    }
 	    else
-		htmltext = "目前無法喚醒巴溫";
+		htmltext = "Conditions are not right to wake up Baium";
 	}
 	else if (npcId == ANGELIC_VORTEX)
 	{
@@ -295,6 +295,11 @@ public class Baium extends L2AttackableAIScript
     }
     public String onAttack (L2NpcInstance npc, L2PcInstance attacker, int damage, boolean isPet)
     {
+	if (!_Zone.isInsideZone(attacker))
+	{
+		attacker.reduceCurrentHp(attacker.getCurrentHp(),attacker,false);
+		return null;
+	}
 		if (npc.isInvul())
 		{
 			npc.getAI().setIntention(AI_INTENTION_IDLE);
@@ -395,7 +400,7 @@ public class Baium extends L2AttackableAIScript
 			return;
 		}
 
-		if (_target == null || _target.isDead() || _target.isAlikeDead() || timer == null)
+		if (_target == null || _target.isDead() || _target.isAlikeDead() || timer == null || !(_Zone.isInsideZone(_target)))
 		{
 			_target = getRandomTarget(npc);
 			_skill = getRandomSkill(npc);
@@ -408,7 +413,7 @@ public class Baium extends L2AttackableAIScript
 
 		L2Character target = _target;
 		L2Skill skill = _skill;
-		if (target == null || target.isDead() || target.isAlikeDead())
+		if (target == null || target.isDead() || target.isAlikeDead() || !(_Zone.isInsideZone(target)))
 		{
 			if (timer == null)
 				startQuestTimer("skill_range", 500, npc, null, true);
