@@ -58,7 +58,7 @@ class Quest (JQuest) :
      elif player.getLevel() >= 74 : 
        htmltext = "31274-0.htm"
    elif npcId == FUNDIN and cond == 1 :
-     htmltext = "31274-2.htm"
+     htmltext = "31274-3.htm"                                     # pmq­×¥¿
    elif npcId == VULCAN and cond == 1 and id == State.STARTED:
      htmltext = "31539-0.htm"
    return htmltext

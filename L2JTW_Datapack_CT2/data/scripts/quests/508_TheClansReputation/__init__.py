@@ -20,7 +20,7 @@ from net.sf.l2j.gameserver.network.serverpackets	import SystemMessage
 from net.sf.l2j.util									import Rnd
 
 qn="508_TheClansReputation"
-qd="血盟，威震天下"
+qd="血盟，揚名四海"
 
 # Quest NPC
 SIR_ERIC_RODEMAI = 30868
@@ -71,7 +71,7 @@ class Quest (JQuest) :
   if not st: return
   cond = st.getInt("cond")
   htmltext=event
-  if event == "30868-0.htm" :
+  if event == "30868-0e.htm" :
     if cond == 0 :
       st.set("cond","1")
       st.setState(State.STARTED)

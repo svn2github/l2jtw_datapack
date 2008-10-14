@@ -43,12 +43,14 @@ class Quest (JQuest) :
        st.setState(State.STARTED)
        st.set("cond","1")
        st.playSound("ItemSound.quest_accept")
-    elif event == "30857-7.htm" :
-       st.exitQuest(1)
-       st.playSound("ItemSound.quest_finish")
+    # pmq修正 elif event == "30857-7.htm" :
+    # pmq修正    st.exitQuest(1)
+    # pmq修正    st.playSound("ItemSound.quest_finish")
     elif event == "30857-8.htm" :
        st.set("cond","1")
        st.giveItems(REWARDS[st.getRandom(len(REWARDS))] ,4)
+       st.exitQuest(1)                                       # pmq修正
+       st.playSound("ItemSound.quest_finish")                # pmq修正
     return htmltext
 
  def onTalk (self,npc,player):

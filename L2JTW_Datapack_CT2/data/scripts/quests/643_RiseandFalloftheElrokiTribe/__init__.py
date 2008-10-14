@@ -35,7 +35,7 @@ class Quest (JQuest) :
 	  st.giveItems(REWARDS[st.getRandom(len(REWARDS))],int(5*Config.RATE_QUESTS_REWARD))
        else :
 	  htmltext = "32117-04.htm"
-    elif event == "Quit" :
+    elif event == "32106-07.htm" :				# pmq­×¥¿
        st.playSound("ItemSound.quest_finish")
        st.exitQuest(1)
        return
@@ -78,7 +78,7 @@ class Quest (JQuest) :
 	  if cond == 1 :
 	     chance = DROP_CHANCE*Config.RATE_DROP_QUEST
 	     numItems, chance = divmod(chance,100)
-	     if st.getRandom(100) < chance :
+	     if st.getRandom(100) < chance : 
 		numItems += 1
 	     if numItems :
 		if int(count + numItems)/300 > int(count)/300 :

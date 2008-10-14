@@ -44,7 +44,7 @@ class Quest (JQuest) :
        else :
          htmltext = "31539-02.htm"
          st.exitQuest(1)
-     elif event == "31231-03.htm" :
+     elif event == "31271-03.htm" :                             # pmq­×¥¿NPC ID¿ù»~
        st.set("cond","1")
        st.setState(State.STARTED)
        st.playSound("ItemSound.quest_accept")
@@ -93,11 +93,11 @@ class Quest (JQuest) :
        if id == State.CREATED :
          if player.getLevel() < 74 :
             st.exitQuest(1)
-            htmltext = "31231-01.htm"
+            htmltext = "31271-01.htm"                           # pmq­×¥¿NPC ID¿ù»~
          else :
-            htmltext = "31231-02.htm"
+            htmltext = "31271-02.htm"                           # pmq­×¥¿NPC ID¿ù»~
        else:
-         htmltext = "31231-04.htm"
+         htmltext = "31271-04.htm"                              # pmq­×¥¿NPC ID¿ù»~
      elif npcId == ROONEY and id == State.STARTED :
        if torches >= 1200 :
           htmltext = "32049-01.htm"

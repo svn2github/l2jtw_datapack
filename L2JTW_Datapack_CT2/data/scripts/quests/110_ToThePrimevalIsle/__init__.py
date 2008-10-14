@@ -21,13 +21,13 @@ class Quest (JQuest) :
   def onEvent(self, event, st):
     htmltext = event
     if event == "1" :
-      htmltext = "1.htm"
+      htmltext = "31338-04.htm"
       st.set("cond","1")
       st.giveItems(ANCIENT_BOOK,1)
       st.setState(State.STARTED)
       st.playSound("ItemSound.quest_accept")
     if event == "2" and st.getQuestItemsCount(ANCIENT_BOOK):
-      htmltext="3.htm"
+      htmltext="32113-05.htm"
       st.playSound("ItemSound.quest_finish")
       st.giveItems(ADENA_ID,169380)
       st.takeItems(ANCIENT_BOOK,-1)
@@ -44,18 +44,18 @@ class Quest (JQuest) :
     id = st.getState()
     if id == State.CREATED :
       if st.getPlayer().getLevel() >= 75 :
-        htmltext = "0.htm"
+        htmltext = "31338-01.htm"
       else:
         st.exitQuest(1)
-        htmltext = "<html><body>（等級75以上的角色才可以執行的任務。）</body></html>"
+        htmltext = "31338-00.htm"
     elif id == State.STARTED:
       cond = int(st.get("cond"))
       if npcId == MARQUEZ :
         if cond == 1 :
           if not st.getQuestItemsCount(ANCIENT_BOOK):
-            htmltext = "1a.htm"
+            htmltext = "32113-01.htm"
           else :
-            htmltext = "2.htm"
+            htmltext = "32113-02.htm"
     elif id == State.COMPLETED:
       st.exitQuest(0)
       htmltext = "<html><body>這是已經完成的任務。</body></html>"

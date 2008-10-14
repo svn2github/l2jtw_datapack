@@ -86,7 +86,7 @@ class Quest (JQuest) :
          if cond == 3 :
              htmltext = "32115-01.htm"
          elif cond == 6 :
-            htmltext = "32115-05.htm"
+            htmltext = "32115-08.htm"                    # pmq­×¥¿
             st.takeItems(M_EGG,1)
             st.giveItems(57,71318)
             st.exitQuest(False)

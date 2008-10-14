@@ -38,22 +38,22 @@ class Quest (JQuest):
     htmltext = None
     if npcId == 32034 :
       if st.getQuestItemsCount(8064) == 0 and st.getQuestItemsCount(8065) == 0 and st.getQuestItemsCount(8067) == 0:
-          return "<html><body>The Temple Gatekeeper:<br>You have nothing that would cover the holes.<br>(You must have a Visitor's Mark, a Faded Visitor's Mark, or a Pagan's Mark in order to open this door.)</body></html>"
+          return "<html><body>神殿守門人:<br>沒有東西可出示給守門人看。<br>(只有手持見習生標章、變色的見習生標章或主教標章的人才可以打開這扇門。)</body></html>"
       if st.getQuestItemsCount(8064) :
          st.takeItems(8064,1) # TODO: this part must happen when u walk through doors >.<
          st.giveItems(8065,1)
-      htmltext = "FadedMark.htm"
+      htmltext = "<html><body>神殿守門人:<br>將標章一插入插槽，隨著疑似機關啟動的聲音，門也同時開了起來。</body></html>"
       DoorTable.getInstance().getDoor(19160001).openMe()
       self.startQuestTimer("Close_Door1",10000,None,None)
     elif npcId == 32035:
       DoorTable.getInstance().getDoor(19160001).openMe()
       self.startQuestTimer("Close_Door1",10000,None,None)
-      htmltext = "FadedMark.htm"
+      htmltext = "<html><body>神殿守門人:<br>一按下骷髏，隨著機關啟動的聲音，門也同時開了起來。</body></html>"
     elif npcId == 32036:
       if not st.getQuestItemsCount(8067) :
-        htmltext = "<html><body>The Temple Gatekeeper:<br>Show your Mark or be gone from my sight!<br>Only those who possess the Pagan's Mark may pass through this gate!</body></html>"
+        htmltext = "<html><body>神殿守門人:<br>沒有東西可出示給守門人看。<br>(只有手持主教標章的人才可以打開這扇門。)</body></html>"
       else:
-        htmltext = "<html><body>The Temple Gatekeeper:<br>On seeing the Pagan's Mark, the statue's probing eyes go blank.<br>With the quiet whir of an engine, the gate swings open...</body></html>"
+        htmltext = "<html><body>神殿守門人:<br>出示主教標章後，那東西表示確認過似的眼睛重新回到了原位。<br>傳來像是機關啟動的聲音之後，門就打開了。</body></html>"
         self.startQuestTimer("Close_Door2",10000,None,None)
         DoorTable.getInstance().getDoor(19160010).openMe()
         DoorTable.getInstance().getDoor(19160011).openMe()
@@ -61,7 +61,7 @@ class Quest (JQuest):
       DoorTable.getInstance().getDoor(19160010).openMe()
       DoorTable.getInstance().getDoor(19160011).openMe()
       self.startQuestTimer("Close_Door2",10000,None,None)
-      htmltext = "FadedMark.htm"
+      htmltext = "<html><body>神殿守門人:<br>一按下骷髏，隨著機關啟動的聲音，門也同時開了起來。</body></html>"
     st.exitQuest(1)
     return htmltext
 

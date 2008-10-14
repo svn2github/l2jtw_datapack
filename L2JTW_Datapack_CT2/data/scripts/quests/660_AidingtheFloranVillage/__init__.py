@@ -78,7 +78,7 @@ class Quest (JQuest) :
           st.giveItems(ADENA,1000)
         st.playSound("ItemSound.quest_finish")
       else :
-        htmltext="30291-14.htm"
+        htmltext="30291-16.htm"                              # pmq­×¥¿
     if event == "30291-12.htm" :
       if EYES+SCALE+SHARD >= 199 :
         n = 200 - EYES
@@ -102,7 +102,7 @@ class Quest (JQuest) :
           st.giveItems(ADENA,2000)
         st.playSound("ItemSound.quest_finish")
       else :
-        htmltext="30291-14.htm"
+        htmltext="30291-17.htm"                              # pmq­×¥¿
     if event == "30291-13.htm" :
       if EYES+SCALE+SHARD >= 499 :
         n = 500 - EYES
@@ -123,7 +123,7 @@ class Quest (JQuest) :
           st.giveItems(ADENA,5000)
         st.playSound("ItemSound.quest_finish")
       else :
-        htmltext="30291-14.htm"
+        htmltext="30291-18.htm"                              # pmq­×¥¿
     elif event == "30291-06.htm" :
        st.set("cond","0")
        st.exitQuest(False)

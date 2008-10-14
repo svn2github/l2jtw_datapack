@@ -38,13 +38,13 @@ REWARDS = {
 }
 
 REWARDS_TEXT = [
-    "Hmmm...? This is... No pair? Tough luck, my friend! Want to try again? Perhaps your luck will take a turn for the better...",
-    "Hmmm...? This is... One pair? You got lucky this time, but I wonder if it'll last. Here's your prize.",
-    "Hmmm...? This is... Three of a kind? Very good, you are very lucky. Here's your prize.",
-    "Hmmm...? This is... Four of a kind! Well done, my young friend! That sort of hand doesn't come up very often, that's for sure. Here's your prize.",
-    "Hmmm...? This is... Five of a kind!!!! What luck! The goddess of victory must be with you! Here is your prize! Well earned, well played!",
-    "Hmmm...? This is... Two pairs? You got lucky this time, but I wonder if it'll last. Here's your prize.",
-    "Hmmm...? This is... A full house? Excellent! you're better than I thought. Here's your prize."
+    "嗯？這是？無對？來，沒有獎金。",
+    "嗯？這是？一對？來，這是獎金。",
+    "嗯？這是？三條？來，這是獎金。",
+    "嗯？這是？四條？來，這是獎金。",
+    "嗯？這是？五條？來，這是獎金。",
+    "嗯？這是？兩對？來，這是獎金。",
+    "嗯？這是？葫蘆？來，這是獎金。"
 ]
 
 class Quest (JQuest) :
@@ -99,19 +99,19 @@ class Quest (JQuest) :
              # prize = 4 : 5 cards (XXXXX). 1 variant [XXXXX]
              # prize = 5 : 2 pairs (XXYY). 3 variants [XXYY-] [XX-YY] [-XXYY]
              # prize = 6 : Fullhouse (XXXYY). 2 variants [XXXYY] [YYXXX]
-             link1 = "<a action=\"bypass -h Quest 662_AGameOfCards Klump_QuestInProgress.htm\">Play again.</a><br>"
+             link1 = "<a action=\"bypass -h Quest 662_AGameOfCards Klump_QuestInProgress.htm\">再來一次</a><br>"
              prizestr = REWARDS_TEXT[prize]
          else : # game still in progress, display links
-           link1 = "Put the first card face up.<br>"
-           link2 = "Put the second card face up.<br>"
-           link3 = "Put the third card face up.<br>"
-           link4 = "Put the fourth card face up.<br>"
-           link5 = "Put the fifth card face up.<br>"
-           if card1 == 0: link1 = "<a action=\"bypass -h Quest 662_AGameOfCards Klump_openCard1.htm\">Put the first card face up.</a><br>"
-           if card2 == 0: link2 = "<a action=\"bypass -h Quest 662_AGameOfCards Klump_openCard2.htm\">Put the second card face up.</a><br>"
-           if card3 == 0: link3 = "<a action=\"bypass -h Quest 662_AGameOfCards Klump_openCard3.htm\">Put the third card face up.</a><br>"
-           if card4 == 0: link4 = "<a action=\"bypass -h Quest 662_AGameOfCards Klump_openCard4.htm\">Put the fourth card face up.</a><br>"
-           if card5 == 0: link5 = "<a action=\"bypass -h Quest 662_AGameOfCards Klump_openCard5.htm\">Put the fifth card face up.</a><br>"
+           link1 = "翻開第一張紙牌<br>"
+           link2 = "翻開第二張紙牌<br>"
+           link3 = "翻開第三張紙牌<br>"
+           link4 = "翻開第四張紙牌<br>"
+           link5 = "翻開第五張紙牌<br>"
+           if card1 == 0: link1 = "<a action=\"bypass -h Quest 662_AGameOfCards Klump_openCard1.htm\">翻開第一張紙牌</a><br>"
+           if card2 == 0: link2 = "<a action=\"bypass -h Quest 662_AGameOfCards Klump_openCard2.htm\">翻開第二張紙牌</a><br>"
+           if card3 == 0: link3 = "<a action=\"bypass -h Quest 662_AGameOfCards Klump_openCard3.htm\">翻開第三張紙牌</a><br>"
+           if card4 == 0: link4 = "<a action=\"bypass -h Quest 662_AGameOfCards Klump_openCard4.htm\">翻開第四張紙牌</a><br>"
+           if card5 == 0: link5 = "<a action=\"bypass -h Quest 662_AGameOfCards Klump_openCard5.htm\">翻開第五張紙牌</a><br>"
          htmltext = HtmCache.getInstance().getHtm("data/scripts/quests/" + qn + "/Klump_PlayField.htm")
          htmltext = htmltext.replace("CARD1",CARD_VALUES[card1]).replace("CARD2",CARD_VALUES[card2]).replace("CARD3",CARD_VALUES[card3]).replace("CARD4",CARD_VALUES[card4]).replace("CARD5",CARD_VALUES[card5])
          htmltext = htmltext.replace("LINK1",link1).replace("LINK2",link2).replace("LINK3",link3).replace("LINK4",link4).replace("LINK5",link5).replace("PRIZE",prizestr)
@@ -135,7 +135,7 @@ class Quest (JQuest) :
          if player.getLevel() >= 61 : # check player level
              htmltext = "Klump_FirstTalk.htm"
          else:
-             htmltext = "<html><body>（等級61以上的角色才可以執行的任務。）</body></html>"
+             htmltext = "Klump_QuestLevel.htm"
              st.exitQuest(1)
      # talk to Klump when quest already in progress
      elif id == State.STARTED :

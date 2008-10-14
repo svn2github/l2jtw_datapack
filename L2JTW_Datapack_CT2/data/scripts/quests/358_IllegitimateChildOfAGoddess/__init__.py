@@ -44,8 +44,8 @@ class Quest (JQuest) :
        st.setState(State.STARTED)
        st.set("cond","1")
        st.playSound("ItemSound.quest_accept")
-    elif event == "30862-6.htm" :
-       st.exitQuest(1)
+    # pmg­×¥¿ elif event == "30862-6.htm" :
+    # pmg­×¥¿    st.exitQuest(1)
     elif event == "30862-7.htm" :
        if st.getQuestItemsCount(SN_SCALE) >= REQUIRED :
           st.takeItems(SN_SCALE,REQUIRED)

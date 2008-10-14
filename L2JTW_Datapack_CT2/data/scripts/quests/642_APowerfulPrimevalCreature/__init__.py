@@ -55,7 +55,7 @@ class Quest (JQuest) :
 	  else :
 	     st.giveItems(int(event),1)
        else :
-	  htmltext = "Incorrect item count"
+	  htmltext = "<html><body>¼Æ¶q¿ù»~¡C</body></html>"
     return htmltext
 
  def onTalk (self, npc, player):
@@ -95,7 +95,7 @@ class Quest (JQuest) :
 		itemId = DINOSAUR_TISSUE
 		chance = TISSUE_DROP_CHANCE*Config.RATE_DROP_QUEST
 		numItems, chance = divmod(chance,100)
-	     if st.getRandom(100) < chance :
+	     if st.getRandom(100) < chance : 
 		numItems += 1
 	     if numItems :
 		if int(count + numItems)/150 > int(count)/150 and itemId == DINOSAUR_TISSUE :

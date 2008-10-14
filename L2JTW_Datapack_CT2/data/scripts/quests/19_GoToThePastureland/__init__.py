@@ -50,7 +50,7 @@ class Quest (JQuest) :
        elif player.getLevel() >= 63 :
          htmltext = "31302-0.htm"
        else:
-         htmltext = "<html><body>（等級63以上的角色才可以執行的任務。）</body></html>"
+         htmltext = "31302-0a.htm"
          st.exitQuest(1)
      else :
        htmltext = "31302-2.htm"
