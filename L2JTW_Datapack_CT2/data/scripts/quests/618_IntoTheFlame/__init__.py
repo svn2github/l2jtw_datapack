@@ -68,7 +68,7 @@ class Quest (JQuest) :
          elif cond == 4 and st.getQuestItemsCount(VACUALITE) :
             htmltext = "31540-04.htm"
          else :
-            htmltext = "31540-03a.htm"                                    @ pmq­×¥¿
+            htmltext = "31540-03a.htm"                                    # pmq­×¥¿
       elif npcId == HILDA :
          if cond == 1 :
             htmltext = "31271-01.htm"

@@ -1,17 +1,17 @@
 <html><body>
 <table width=260><tr>
-<td width=40><button value="Main" action="bypass -h admin_admin" width=40 height=15 back="L2UI_ct1.button_df" fore="L2UI_ct1.button_df"></td>
-<td width=180><center>Siege Time Set Menu</center></td>
-<td width=40><button value="Back" action="bypass -h admin_siege %castleName%" width=40 height=15 back="L2UI_ct1.button_df" fore="L2UI_ct1.button_df"></td>
+<td width=40><button value="主頁" action="bypass -h admin_admin" width=40 height=15 back="L2UI_ct1.button_df" fore="L2UI_ct1.button_df"></td>
+<td width=180><center>攻城戰時間設定</center></td>
+<td width=40><button value="返回" action="bypass -h admin_siege %castleName%" width=40 height=15 back="L2UI_ct1.button_df" fore="L2UI_ct1.button_df"></td>
 </tr></table>
 <center>
-<br><br><br>Castle: %castleName%<br>Siege time: %time%<br><br>Day of siege:<br>
+<br><br><br>城堡: %castleName%<br>攻城戰時間: %time%<br><br>攻城戰日期:<br>
 <table width=270>
 <tr>
 <td width=135 align="center"><button value="%saturday%" action="bypass -h admin_setsiegetime %castleName% day %saturdaylink%" width=80 height=15 back="L2UI_ct1.button_df" fore="L2UI_ct1.button_df"></td>
 <td width=135 align="center"><button value="%sunday%" action="bypass -h admin_setsiegetime %castleName% day %sundaylink%" width=80 height=15 back="L2UI_ct1.button_df" fore="L2UI_ct1.button_df"></td>
 </tr></table>
-<br>Hour of Siege:<br>
+<br>攻城戰 - 幾時:<br>
 <table width=264>
 <tr>
 <td width=22><button value="0" action="bypass -h admin_setsiegetime %castleName% hour 0" width=20 height=15 back="L2UI_ct1.button_df" fore="L2UI_ct1.button_df"></td>
@@ -40,7 +40,7 @@
 <td width=22><button value="22" action="bypass -h admin_setsiegetime %castleName% hour 22" width=20 height=15 back="L2UI_ct1.button_df" fore="L2UI_ct1.button_df"></td>
 <td width=22><button value="23" action="bypass -h admin_setsiegetime %castleName% hour 23" width=20 height=15 back="L2UI_ct1.button_df" fore="L2UI_ct1.button_df"></td>
 </tr></table>
-<br>Minutes of Siege:<br>
+<br>攻城戰 - 幾分:<br>
 <table width=270>
 <tr>
 <td width=45><button value="0" action="bypass -h admin_setsiegetime %castleName% min 0" width=40 height=15 back="L2UI_ct1.button_df" fore="L2UI_ct1.button_df"></td>
