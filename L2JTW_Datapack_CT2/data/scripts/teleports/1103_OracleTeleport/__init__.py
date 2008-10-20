@@ -139,7 +139,7 @@ class Quest (JQuest) :
           st.exitQuest(1)
           htmltext="ziggurat_lowlevel.htm"
        elif len(player.getAllActiveQuests()) > 23 :
-          htmltext="Too many quest." #temp message
+          htmltext="1a.htm" #temp message                 # rocknow ­×¥¿
           st.exitQuest(1)
        elif not st.getQuestItemsCount(7079) :
           htmltext="ziggurat_nofrag.htm"

@@ -13,7 +13,7 @@ COUPON_TWO = 7833
 NPCs = range(31760,31767)
 
 #enable/disable coupon give
-QUEEN_ENABLED=0
+QUEEN_ENABLED=1
 #Newbie/one time rewards section
 #Any quest should rely on a unique bit, but
 #it could be shared among quest that were mutually
@@ -39,7 +39,7 @@ class Quest (JQuest) :
        #would need a bit of SQL, or a core method to determine it.
        #This condition should be stored by the core in the account_data table
        #upon character creation.
-       if 6 <= level <= 25 and not pkkills and occupation_level == 0 :
+       if 6 <= level <= 19 and not pkkills and occupation_level == 0 :          # rocknow ­×¥¿
           # check the player state against this quest newbie rewarding mark.
           if newbie | NEWBIE_REWARD != newbie :
              player.setNewbie(newbie|NEWBIE_REWARD)
@@ -50,7 +50,7 @@ class Quest (JQuest) :
        else :
           return "31760-3.htm" #you're not eligible to get a coupon (level caps, pkkills or already changed class)
     elif event == "traveller_give_coupon" :
-       if 6 <= level <= 25 and not pkkills and occupation_level == 1 :
+       if 20 <= level <= 39 and not pkkills and occupation_level == 1 :         # rocknow ­×¥¿
           # check the player state against this quest newbie rewarding mark.
           if newbie | TRAVELER_REWARD != newbie :
              player.setNewbie(newbie|TRAVELER_REWARD)

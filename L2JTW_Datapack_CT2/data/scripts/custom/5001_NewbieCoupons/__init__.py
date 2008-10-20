@@ -45,7 +45,7 @@ class Quest (JQuest) :
        #would need a bit of SQL, or a core method to determine it.
        #This condition should be stored by the core in the account_data table
        #upon character creation.
-       if 6 <= level <= 39 and not pkkills and occupation_level == 0 :
+       if 6 <= level <= 19 and not pkkills and occupation_level == 0 :                # rocknow 修正
           # check the player state against this quest newbie rewarding mark.
           if newbie | NEWBIE_WEAPON != newbie :
              player.setNewbie(newbie|NEWBIE_WEAPON)
@@ -56,7 +56,7 @@ class Quest (JQuest) :
        else :
           return "30598-3.htm" #you're not eligible to get a coupon (level caps, pkkills or already changed class)
     elif event == "newbie_give_armor_coupon" :
-       if 6 <= level <= 39 and not pkkills and occupation_level == 1 :
+       if 20 <= level <= 39 and not pkkills and occupation_level == 1 :               # rocknow 修正
           # check the player state against this quest newbie rewarding mark.
           if newbie | NEWBIE_ACCESORY != newbie :
              player.setNewbie(newbie|NEWBIE_ACCESORY)
@@ -67,12 +67,12 @@ class Quest (JQuest) :
        else :
           return "30598-6.htm" #you're not eligible to get a coupon (level caps, pkkills or didnt change class yet)
     elif event == "newbie_show_weapon" :
-       if 6 <= level <= 39 and not pkkills and occupation_level == 0 :
+       if 6 <= level <= 19 and not pkkills and occupation_level == 0 :                # rocknow 修正
           L2Multisell.getInstance().separateAndSend(WEAPON_MULTISELL, player, False, 0.0);
        else :
           return "30598-7.htm" #you're not eligible to use warehouse
     elif event == "newbie_show_armor" :
-       if 6 <= level <= 39 and not pkkills and occupation_level > 0 :
+       if 20 <= level <= 39 and not pkkills and occupation_level == 1 :               # rocknow 修正
           L2Multisell.getInstance().separateAndSend(ACCESORIES_MULTISELL, player, False, 0.0);
        else :
           return "30598-8.htm" #you're not eligible to use warehouse
