@@ -33,7 +33,7 @@ class Quest (JQuest) :
               st.getPlayer().teleToLocation(x,y,z)
             else:
               st.exitQuest(1)
-              return "所需數量錯誤"
+              return "<html><body>所需數量錯誤。</body></html>"
    st.exitQuest(1)
    return
 

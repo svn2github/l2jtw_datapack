@@ -391,7 +391,7 @@ class Quest (JQuest) :
       npcId = npc.getNpcId()
       cond = st.getInt("cond")
       if st.getState() == State.COMPLETED and npcId == self.NPC[0] :
-	  htmltext == "<html><body>這是已經完成的任務。</body></html>"
+	  htmltext = "<html><body>這是已經完成的任務。</body></html>"
       elif player.getClassId().getId() == self.getPrevClass(player) :
 	  if cond == 0 :
 	      if npcId == self.NPC[0]:

@@ -1,11 +1,10 @@
 import sys
-from net.sf.l2j.gameserver.model.quest import State
-from net.sf.l2j.gameserver.model.quest import QuestState
+
+from net.sf.l2j.gameserver.model.actor.instance import      L2PcInstance
+from net.sf.l2j.gameserver.model.quest        import State
+from net.sf.l2j.gameserver.model.quest        import QuestState
 from net.sf.l2j.gameserver.model.quest.jython import QuestJython as JQuest
-from net.sf.l2j.gameserver.model.actor.instance import L2PcInstance
-
 qn = "1102_toivortex_green"
-
 GREEN_DIMENSION_STONE    = 4401
 DIMENSION_VORTEX_2      = 30953
 DIMENSION_VORTEX_3      = 30954

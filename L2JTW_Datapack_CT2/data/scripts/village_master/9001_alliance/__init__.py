@@ -28,7 +28,7 @@ class Quest (JQuest) :
    if event == "9001-01.htm": htmltext = "9001-01.htm"
    elif (Clan == 0):
     st.exitQuest(1);
-    htmltext = "<html><body>必須在血盟中。</body></html";
+    htmltext = "<html><body>並未加入血盟。</body></html";
    elif event == "9001-02.htm": htmltext = "9001-02.htm"
    return htmltext
 

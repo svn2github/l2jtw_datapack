@@ -1,11 +1,13 @@
+#
+# Created by DraX on 2005.07.20
+#
 import sys
-from net.sf.l2j.gameserver.model.quest import State
-from net.sf.l2j.gameserver.model.quest import QuestState
+
+from net.sf.l2j.gameserver.model.actor.instance import      L2PcInstance
+from net.sf.l2j.gameserver.model.quest        import State
+from net.sf.l2j.gameserver.model.quest        import QuestState
 from net.sf.l2j.gameserver.model.quest.jython import QuestJython as JQuest
-from net.sf.l2j.gameserver.model.actor.instance import L2PcInstance
-
 qn = "1100_teleport_with_charm"
-
 ORC_GATEKEEPER_CHARM     = 1658
 DWARF_GATEKEEPER_TOKEN   = 1659
 WHIRPY      = 30540
@@ -41,6 +43,6 @@ class Quest (JQuest) :
 
 QUEST       = Quest(1100,qn,"Teleports")
 
-for i in [WHIRPY,TAMIL] :
+for i in [ WHIRPY, TAMIL ] :
     QUEST.addStartNpc(i)
     QUEST.addTalkId(i)
