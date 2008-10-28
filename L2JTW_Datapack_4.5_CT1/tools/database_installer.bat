@@ -580,6 +580,7 @@ chatdata.sql
 npcAIData.sql
 npcCharData.sql
 mods_wedding.sql
+lastimperialtomb_spawnlist.sql
 l2jtw_addon_1.sql
 l2jtw_addon_2.sql
 ) do call :dump %%i

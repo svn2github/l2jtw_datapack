@@ -103,3 +103,4 @@ DROP TABLE IF EXISTS grandboss_data;
 DROP TABLE IF EXISTS grandboss_intervallist;
 DROP TABLE IF EXISTS seven_signs_spawnlist;
 DROP TABLE IF EXISTS vanhalter_spawnlist;
+DROP TABLE IF EXISTS lastimperialtomb_spawnlist;

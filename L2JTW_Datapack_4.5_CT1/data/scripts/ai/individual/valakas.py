@@ -12,11 +12,11 @@ class valakas(JQuest):
 
   def onTalk (self,npc,player):
     st = player.getQuestState("valakas")
-    if not st : return "<html><head><body>你找我有甚麼事情?</body></html>"
+    if not st : return "<html><head><body>你找我有什麼事情？</body></html>"
     npcId = npc.getNpcId()
     if npcId == 31385 :    # Heart of Volcano
       if player.isFlying() :
-        return "<html><body>耳邊聽到悄悄細語的訴說聲:<br>騎乘飛龍的狀態下無法讓你進入</body></html>"
+        return "<html><body>耳邊聽到悄悄細語的訴說聲：<br>騎乘飛龍的狀態下無法讓你進入。</body></html>"
       if st.getInt("ok"):
         if ValakasManager.getInstance().isEnableEnterToLair():
           ValakasManager.getInstance().setValakasSpawnTask()
@@ -28,7 +28,7 @@ class valakas(JQuest):
           return "<html><body>耳邊聽到悄悄細語的訴說聲：<br><font color=\"LEVEL\">巴拉卡斯已經醒了。目前沒辦法進去。</font></body></html>"
       else:
         st.exitQuest(1)
-        return "狀態不符合無法進入"
+        return "狀態不符，無法進入。"
     elif npcId == 31540 :
       if st.getQuestItemsCount(7267) > 0 :
         st.takeItems(7267,1)

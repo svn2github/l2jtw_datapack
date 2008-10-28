@@ -15,21 +15,21 @@ class baium (JQuest):
 
   def onTalk (self,npc,player):
     st = player.getQuestState("baium")
-    if not st : return "<html><head><body>無任何事件可以進行</body></html>"
+    if not st : return "<html><head><body>沒有任何事件可以進行。</body></html>"
     npcId = npc.getNpcId()
     if npcId == 29025 :
       if st.getInt("ok"):
         if not npc.isBusy():
            npc.onBypassFeedback(player,"wake_baium")
            npc.setBusy(True)
-           npc.setBusyMessage("正在接受其他玩家的要求")
+           npc.setBusyMessage("正在接受其他玩家的要求。")
       else:
         st.exitQuest(1)
-        return "Conditions are not right to wake up Baium"
+        return "無法喚醒巴溫。"
     elif npcId == 31862 :
       if BaiumManager.getInstance().isEnableEnterToLair() :
         if player.isFlying() :
-          return "<html><body>天使界點：<br>無法在騎乘飛龍狀態下進入此區域。</body></html>"
+          return "<html><body>天使界點：<br>騎乘飛龍的狀態下無法讓你進入。</body></html>"
         if st.getQuestItemsCount(4295) : # bloody fabric
           st.takeItems(4295,1)
           player.teleToLocation(113100,14500,10077)

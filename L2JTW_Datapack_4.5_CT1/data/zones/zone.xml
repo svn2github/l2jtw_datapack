@@ -1201,4 +1201,16 @@
                 <stat name='InvadeTime' val='0'/>
                 <stat name='InvadeTimeAfterRestart' val='0'/>
         </zone>
+        <zone id='12016' type='BossZone' shape='Cuboid' minZ='-5300' maxZ='-3600'>
+                <stat name='name' val='LastImperialTomb'/>
+                <stat name='Flying' val='false'/>
+                <stat name='InvadeTime' val='0'/>
+                <stat name='InvadeTimeAfterRestart' val='0'/>
+        </zone>
+        <zone id='12017' type='BossZone' shape='NPoly' minZ='-5300' maxZ='-1900'>
+                <stat name='name' val='HallofFrintezza'/>
+                <stat name='Flying' val='false'/>
+                <stat name='InvadeTime' val='0'/>
+                <stat name='InvadeTimeAfterRestart' val='0'/>
+        </zone>	
 </list>
