@@ -355,7 +355,6 @@ $MYG < ../sql/walker_routes.sql &> /dev/null
 $MYG < ../sql/weapon.sql &> /dev/null
 $MYG < ../sql/zone_vertices.sql &> /dev/null
 $MYG < ../sql/chatdata.sql &> /dev/null
-$MYG < ../sql/messagesymbols.sql &> /dev/null
 $MYG < ../sql/messagetable.sql &> /dev/null
 $MYG < ../sql/npcAIData.sql &> /dev/null
 $MYG < ../sql/npcCharData.sql &> /dev/null

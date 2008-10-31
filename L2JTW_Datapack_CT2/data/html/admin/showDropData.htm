@@ -1,0 +1,11 @@
+<html><title>NPC：%npcname%(%npcId%) - 物品掉落管理</title>
+<body>
+<br>注意：按下[物品]會顯示掉落資料，按下[刪除]則會刪除掉落資料！
+<table>
+<tr><td>NPC 物品 類型</td><td>物品名稱</td><td>等級</td><td>刪除</td></tr>
+%info%
+</table>
+<center>
+<button value="增加掉落資料" action="bypass -h admin_add_drop " + npcId + "" width=100 height=15 back="L2UI_ct1.button_df" fore="L2UI_ct1.button_df">
+<button value="關閉" action="bypass -h admin_close_window" width=100 height=15 back="L2UI_ct1.button_df" fore="L2UI_ct1.button_df">
+</center></body></html>

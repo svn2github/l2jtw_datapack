@@ -1,0 +1,427 @@
+<?xml version='1.0' encoding='utf-8'?>
+<list>
+<skill id="1500" levels="1" name="Improve Magic">
+  <set name="target" val="TARGET_NONE"/>
+  <set name="skillType" val="NOTDONE"/>
+  <set name="operateType" val="OP_PASSIVE"/>
+  <set name="castRange" val="-1"/>
+  <for>
+  </for>
+</skill>
+<skill id="1501" levels="1" name="Improve Condition">
+  <set name="target" val="TARGET_NONE"/>
+  <set name="skillType" val="NOTDONE"/>
+  <set name="operateType" val="OP_PASSIVE"/>
+  <set name="castRange" val="-1"/>
+  <for>
+  </for>
+</skill>
+<skill id="1502" levels="1" name="Improve Critical Attack">
+  <set name="target" val="TARGET_NONE"/>
+  <set name="skillType" val="NOTDONE"/>
+  <set name="operateType" val="OP_PASSIVE"/>
+  <set name="castRange" val="-1"/>
+  <for>
+  </for>
+</skill>
+<skill id="1503" levels="1" name="Improve Shield Defense">
+  <set name="target" val="TARGET_NONE"/>
+  <set name="skillType" val="NOTDONE"/>
+  <set name="operateType" val="OP_PASSIVE"/>
+  <set name="castRange" val="-1"/>
+  <for>
+  </for>
+</skill>
+<skill id="1504" levels="1" name="Improve Movement">
+  <set name="target" val="TARGET_NONE"/>
+  <set name="skillType" val="NOTDONE"/>
+  <set name="operateType" val="OP_PASSIVE"/>
+  <set name="castRange" val="-1"/>
+  <for>
+  </for>
+</skill>
+<skill id="1505" levels="1" name="Sublime Self-Sacrifice">
+  <set name="target" val="TARGET_NONE"/>
+  <set name="skillType" val="NOTDONE"/>
+  <set name="operateType" val="OP_PASSIVE"/>
+  <set name="castRange" val="-1"/>
+  <for>
+  </for>
+</skill>
+<skill id="1506" levels="1" name="Blessing of Eva">
+  <set name="target" val="TARGET_NONE"/>
+  <set name="skillType" val="NOTDONE"/>
+  <set name="operateType" val="OP_PASSIVE"/>
+  <set name="castRange" val="-1"/>
+  <for>
+  </for>
+</skill>
+<skill id="1507" levels="1" name="Lord of Vampire">
+  <set name="target" val="TARGET_NONE"/>
+  <set name="skillType" val="NOTDONE"/>
+  <set name="operateType" val="OP_PASSIVE"/>
+  <set name="castRange" val="-1"/>
+  <for>
+  </for>
+</skill>
+<skill id="1508" levels="1" name="Throne Root">
+  <set name="target" val="TARGET_NONE"/>
+  <set name="skillType" val="NOTDONE"/>
+  <set name="operateType" val="OP_PASSIVE"/>
+  <set name="castRange" val="-1"/>
+  <for>
+  </for>
+</skill>
+<skill id="1509" levels="1" name="Seal of Limit">
+  <set name="target" val="TARGET_NONE"/>
+  <set name="skillType" val="NOTDONE"/>
+  <set name="operateType" val="OP_PASSIVE"/>
+  <set name="castRange" val="-1"/>
+  <for>
+  </for>
+</skill>
+<skill id="1510" levels="1" name="Soul Cleanse">
+  <set name="mpInitialConsume" val="10"/>
+  <set name="mpConsume" val="22"/>
+  <set name="hitTime" val="2000"/>
+  <set name="target" val="TARGET_ONE"/>
+  <set name="skillType" val="CANCEL_DEBUFF"/>
+  <set name="operateType" val="OP_ACTIVE"/>
+  <set name="castRange" val="600"/>
+  <set name="effectRange" val="1200"/>
+  <set name="isMagic" val="true"/>
+  <set name="reuseDelay" val="35000"/>
+  <for>
+  </for>
+</skill>
+<skill id="1511" levels="8" name="Curse of Life Flow">
+  <set name="target" val="TARGET_NONE"/>
+  <set name="skillType" val="NOTDONE"/>
+  <set name="operateType" val="OP_PASSIVE"/>
+  <set name="castRange" val="-1"/>
+  <for>
+  </for>
+</skill>
+  <skill id="1512" levels="1" name="Soul Vortex">
+  <!-- Done By Akira35 -->
+  <!-- Needs to be verified -->
+  <set name="mpInitialConsume" val="21"/>
+  <set name="mpConsume" val="84"/>
+  <set name="magicLvl" val="77"/>
+  <set name="power" val="140"/>
+  <set name="lvlDepend" val="2"/>
+  <set name="target" val="TARGET_ONE"/>
+  <set name="hitTime" val="3000"/>
+  <set name="element" val="6"/> <!-- Dark -->
+  <set name="reuseDelay" val="60000"/>
+  <set name="skillType" val="MDAM"/>
+  <set name="operateType" val="OP_ACTIVE"/>
+  <set name="isMagic" val="true"/>
+  <set name="isDebuff" val="true"/>
+  <set name="overHit" val="true"/>
+  <set name="castRange" val="900"/>
+  <set name="effectRange" val="1400"/>
+  <set name="effectType" val="DEBUFF"/>
+  <set name="effectPower" val="80"/>
+  <set name="soulMaxConsumeCount" val="5"/>
+  <for>
+    <effect count="5" name="ManaDamOverTime" time="2" val="40" stackOrder="1" stackType="multiple_debuff">
+      <mul order="0x30" stat="runSpd" val="0.70"/>
+      <mul order="0x30" stat="pAtkSpd" val="0.90"/>
+      <mul order="0x30" stat="mAtkSpd" val="0.90"/>
+      <mul order="0x30" stat="darkVuln" val="1.20"/>
+    </effect>
+  </for>
+</skill>
+<skill id="1513" levels="1" name="Soul Vortex Extinction">
+  <!-- Done By Akira35 -->
+  <!-- Needs to be verified -->
+  <set name="mpInitialConsume" val="28"/>
+  <set name="mpConsume" val="80"/>
+  <set name="magicLvl" val="79"/>
+  <set name="power" val="162"/>
+  <set name="lvlDepend" val="2"/>
+  <set name="target" val="TARGET_ONE"/>
+  <set name="hitTime" val="2000"/>
+  <set name="element" val="6"/> <!-- Dark -->
+  <set name="reuseDelay" val="60000"/>
+  <set name="skillType" val="MDAM"/>
+  <set name="operateType" val="OP_ACTIVE"/>
+  <set name="isMagic" val="true"/>
+  <set name="castRange" val="900"/>
+  <set name="effectRange" val="1400"/>
+  <set name="effectType" val="NEGATE"/>
+  <set name="cancelEffect" val="1512"/>
+  <set name="soulMaxConsumeCount" val="5"/>
+  <cond msg="Invalid target.">
+    <target active_effect_id="1512"/>
+  </cond>
+</skill>
+<skill id="1514" levels="1" name="Soul Barrier">
+  <!--  Needs to be verified -->
+  <set name="castRange" val="-1"/>
+  <set name="effectRange" val="-1"/>
+  <set name="hitTime" val="1500"/>
+  <set name="isMagic" val="true"/>
+  <set name="magicLvl" val="58"/>
+  <set name="mpConsume" val="7"/>
+  <set name="operateType" val="OP_ACTIVE"/>
+  <set name="power" val="0.0"/>
+  <set name="reuseDelay" val="270000"/>
+  <set name="skillType" val="BUFF"/>
+  <set name="target" val="TARGET_SELF"/>
+  <for>
+    <effect count="1" name="Buff" time="10" val="0">
+      <mul order="0x30" stat="bowWpnVuln" val="0.60"/>
+      <mul order="0x30" stat="crossbowWpnVuln" val="0.60"/>
+      <add order="0x40" stat="mDef" val="658"/>
+    </effect>
+  </for>
+</skill>
+<skill id="1515" levels="1" name="Lightning Barrier">
+  <set name="target" val="TARGET_NONE"/>
+  <set name="skillType" val="NOTDONE"/>
+  <set name="operateType" val="OP_PASSIVE"/>
+  <set name="castRange" val="-1"/>
+  <for>
+  </for>
+</skill>
+<skill id="1516" levels="1" name="Soul Strike">
+  <!-- Done by DJ MELERIX -->
+  <set name="castRange" val="750"/>
+  <set name="effectRange" val="1250"/>
+  <set name="hitTime" val="2000"/>
+  <set name="isMagic" val="true"/>
+  <set name="magicLvl" val="76"/>
+  <set name="mpConsume" val="35"/>
+  <set name="operateType" val="OP_ACTIVE"/>
+  <set name="power" val="166"/>
+  <set name="reuseDelay" val="10000"/> <!-- Guessing -->
+  <set name="skillType" val="MDAM"/>
+  <set name="soulMaxConsumeCount" val="5"/>
+  <set name="target" val="TARGET_ONE"/>
+  <for>
+  </for>
+</skill>
+<skill id="1517" levels="1" name="Chant of Combat">
+  <set name="target" val="TARGET_NONE"/>
+  <set name="skillType" val="NOTDONE"/>
+  <set name="operateType" val="OP_PASSIVE"/>
+  <set name="castRange" val="-1"/>
+  <for>
+  </for>
+</skill>
+<skill id="1518" levels="1" name="Chant of Critical">
+  <set name="target" val="TARGET_NONE"/>
+  <set name="skillType" val="NOTDONE"/>
+  <set name="operateType" val="OP_PASSIVE"/>
+  <set name="castRange" val="-1"/>
+  <for>
+  </for>
+</skill>
+<skill id="1519" levels="1" name="Chant of Blood Awakening">
+  <set name="target" val="TARGET_NONE"/>
+  <set name="skillType" val="NOTDONE"/>
+  <set name="operateType" val="OP_PASSIVE"/>
+  <set name="castRange" val="-1"/>
+  <for>
+  </for>
+</skill>
+<skill id="1520" levels="1" name="Inquisitor">
+  <set name="mpConsume" val="31"/>
+  <set name="target" val="TARGET_SELF"/>
+  <set name="skillType" val="BUFF"/>
+  <set name="operateType" val="OP_ACTIVE"/>
+  <set name="hitTime" val="5000"/>
+  <set name="reuseDelay" val="10000"/>
+  <set name="castRange" val="-1"/>
+  <set name="effectRange" val="-1"/>
+  <set name="transformId" val="316"/>
+  <for>
+  <effect count="1" name="Transformation" time="18400" val="0"/>  
+  </for>
+</skill>
+<skill id="1521" levels="1" name="Inquisitor">
+  <set name="mpConsume" val="31"/>
+  <set name="target" val="TARGET_SELF"/>
+  <set name="skillType" val="BUFF"/>
+  <set name="operateType" val="OP_ACTIVE"/>
+  <set name="hitTime" val="5000"/>
+  <set name="reuseDelay" val="10000"/>
+  <set name="castRange" val="-1"/>
+  <set name="effectRange" val="-1"/>
+  <set name="transformId" val="317"/>
+  <for>
+  <effect count="1" name="Transformation" time="18400" val="0"/>  
+  </for>
+</skill>
+<skill id="1522" levels="1" name="Inquisitor">
+  <set name="mpConsume" val="31"/>
+  <set name="target" val="TARGET_SELF"/>
+  <set name="skillType" val="BUFF"/>
+  <set name="operateType" val="OP_ACTIVE"/>
+  <set name="hitTime" val="5000"/>
+  <set name="reuseDelay" val="10000"/>
+  <set name="castRange" val="-1"/>
+  <set name="effectRange" val="-1"/>
+  <set name="transformId" val="318"/>
+  <for>
+  <effect count="1" name="Transformation" time="18400" val="0"/>  
+  </for>
+</skill>
+<skill id="1523" levels="42" name="Divine Punishment">
+  <!-- Inquisitor Stance Skill -->
+  <table name="#mpConsume"> 35 37 38 38 39 40 42 42 43 44 45 45 47 48 49 49 50 52 53 53 54 55 55 57 58 58 59 60 60 62 62 63 63 64 64 65 65 67 67 67 68 68 </table>
+  <table name="#magicLvl"> 44 45 46 47 48 49 50 51 52 53 54 55 56 57 58 59 60 61 62 63 64 65 66 67 68 69 70 71 72 73 74 75 76 77 78 79 80 81 82 83 84 85 </table>
+  <table name="#power"> 51 52 54 55 57 58 60 61 63 64 66 68 69 71 72 74 75 77 78 80 81 83 85 86 88 89 90 92 93 95 96 97 99 100 101 102 103 105 106 107 108 109 </table>
+  <set name="mpConsume" val="#mpConsume"/>
+  <set name="magicLvl" val="#magicLvl"/>
+  <set name="power" val="#power"/>
+  <set name="target" val="TARGET_ONE"/>
+  <set name="element" val="5"/> <!-- Holy -->
+  <set name="hitTime" val="4000"/>
+  <set name="skillType" val="MDAM"/>
+  <set name="reuseDelay" val="4000"/> <!-- Guessing, appears to be much less if influenced by Skill Mastery -->
+  <set name="isMagic" val="true"/>
+  <set name="operateType" val="OP_ACTIVE"/>
+  <set name="castRange" val="750"/>
+  <set name="effectRange" val="1250"/>
+  <for>
+  </for>
+</skill>
+<skill id="1524" levels="42" name="Surrender to the Holy">
+  <!-- Inquisitor Stance Skill -->
+  <!-- Done by caramon81 -->
+  <table name="#mpConsume"> 39 39 41 42 43 44 44 46 47 48 49 49 51 52 53 54 55 56 57 58 59 60 61 62 63 64 64 66 67 67 68 69 69 70 71 72 73 73 73 74 74 75 </table>
+  <table name="#magicLvl"> 44 45 46 47 48 49 50 51 52 53 54 55 56 57 58 59 60 61 62 63 64 65 66 67 68 69 70 71 72 73 74 75 76 77 78 79 80 81 82 83 84 85 </table> <!-- Guesssing -->
+  <set name="mpConsume" val="#mpConsume"/>
+  <set name="magicLvl" val="#magicLvl"/>
+  <set name="power" val="80"/>
+  <set name="lvlDepend" val="2"/>
+  <set name="target" val="TARGET_ONE"/>
+  <set name="reuseDelay" val="8000"/>
+  <set name="hitTime" val="1500"/>
+  <set name="skillType" val="WEAKNESS"/>
+  <set name="isMagic" val="true"/>
+  <set name="operateType" val="OP_ACTIVE"/>
+  <set name="castRange" val="750"/>
+  <set name="effectRange" val="1250"/>
+  <set name="isDebuff" val="true"/>
+  <for>
+    <effect count="1" name="Debuff" time="15" val="0" stackOrder="2" stackType="surrender">
+      <mul order="0x30" stat="holyVuln" val="1.30"/>
+      <mul order="0x30" stat="darkVuln" val="0.70"/>
+    </effect>
+  </for>
+</skill>
+<skill id="1525" levels="42" name="Divine Curse">
+  <!-- Inquisitor Stance Skill -->
+  <!-- Done by DJ MELERIX -->
+  <!-- Needs to be verified -->
+  <table name="#dmg"> 51 52 54 55 57 58 60 61 63 64 66 68 69 71 72 74 75 77 78 80 81 83 85 86 88 89 90 92 93 95 96 97 99 100 101 102 103 105 106 107 108 109 </table> <!-- Custom -->
+  <table name="#magicLvl"> 44 45 46 47 48 49 50 51 52 53 54 55 56 57 58 59 60 61 62 63 64 65 66 67 68 69 70 71 72 73 74 75 76 77 78 79 80 81 82 83 84 85 </table>
+  <table name="#mpConsume"> 39 40 42 43 44 44 45 47 48 49 49 50 52 53 54 55 55 57 58 59 60 60 62 63 64 64 65 67 67 68 69 69 70 70 72 73 73 73 74 74 75 75 </table>
+  <set name="castRange" val="750"/>
+  <set name="effectRange" val="1250"/>
+  <set name="element" val="5"/> <!-- Holy -->
+  <set name="hitTime" val="4000"/>
+  <set name="isDebuff" val="true"/>
+  <set name="isMagic" val="true"/>
+  <set name="lvlDepend" val="1"/>
+  <set name="magicLvl" val="#magicLvl"/>
+  <set name="mpConsume" val="#mpConsume"/>
+  <set name="operateType" val="OP_ACTIVE"/>
+  <set name="power" val="70"/> <!-- Guessing -->
+  <set name="reuseDelay" val="6000"/> <!-- Guessing -->
+  <set name="skillType" val="DOT"/>
+  <set name="target" val="TARGET_ONE"/>
+  <for>
+    <effect count="15" name="DamOverTime" time="1" val="#dmg">
+      <mul order="0x30" stat="gainHp" val="0.5"/>
+    </effect>
+  </for>
+</skill>
+<skill id="1526" levels="3" name="Steal Mana">
+  <table name="#power"> 41 51 59 </table>
+  <table name="#magicLvl"> 46 56 64 </table>
+  <table name="#chance"> 5 7 9 </table>
+  <set name="magicLvl" val="#magicLvl"/>
+  <set name="power" val="#power"/>
+  <set name="target" val="TARGET_SELF"/>
+  <set name="skillType" val="MANARECHARGE"/>
+  <set name="operateType" val="OP_CHANCE"/>
+  <set name="chanceType" val="ON_HIT"/>
+  <set name="activationChance" val="#chance"/>
+  <set name="castRange" val="-1"/>
+  <for>
+  </for>
+</skill>
+<skill id="1527" levels="1" name="Expert Casting">
+  <set name="target" val="TARGET_NONE"/>
+  <set name="skillType" val="NOTDONE"/>
+  <set name="operateType" val="OP_PASSIVE"/>
+  <set name="castRange" val="-1"/>
+  <for>
+  </for>
+</skill>
+<skill id="1528" levels="42" name="Divine Flash">
+  <!-- Inquisitor Stance Skill -->
+  <table name="#mpConsume"> 57 59 60 62 63 65 67 68 69 70 73 74 75 77 79 80 82 83 85 87 88 89 90 93 94 95 97 98 99 100 102 103 104 105 105 107 108 109 109 110 112 112 </table>
+  <table name="#magicLvl"> 44 45 46 47 48 49 50 51 52 53 54 55 56 57 58 59 60 61 62 63 64 65 66 67 68 69 70 71 72 73 74 75 76 77 78 79 80 81 82 83 84 85 </table>
+  <table name="#power"> 29 29 30 31 32 33 33 34 35 36 37 38 39 39 40 41 42 43 44 45 45 46 47 48 49 50 50 51 52 53 54 54 55 56 56 57 58 58 59 60 60 61 </table>
+  <set name="mpConsume" val="#mpConsume"/>
+  <set name="magicLvl" val="#magicLvl"/>
+  <set name="power" val="#power"/>
+  <set name="target" val="TARGET_AREA"/>
+  <set name="radius" val="250"/>
+  <set name="element" val="5"/> <!-- Holy -->
+  <set name="reuseDelay" val="6000"/> <!-- Guessing -->
+  <set name="hitTime" val="4000"/>
+  <set name="skillType" val="MDAM"/>
+  <set name="isMagic" val="true"/>
+  <set name="operateType" val="OP_ACTIVE"/>
+  <set name="castRange" val="500"/>
+  <set name="effectRange" val="1000"/>
+  <for>
+  </for>
+</skill>
+<skill id="1529" levels="7" name="Soul Web">
+  <set name="target" val="TARGET_NONE"/>
+  <set name="skillType" val="NOTDONE"/>
+  <set name="operateType" val="OP_PASSIVE"/>
+  <set name="castRange" val="-1"/>
+  <for>
+  </for>
+</skill>
+<skill id="1530" levels="13" name="Death Spike">
+  <table name="#mpConsume_Init"> 4 5 6 7 7 7 8 8 8 9 9 9 10 </table>
+  <table name="#mpConsume"> 19 22 24 28 29 31 32 33 35 36 37 38 40 </table>
+  <table name="#magicLvl"> 44 48 52 56 58 60 62 64 66 68 70 72 74 </table>
+  <table name="#power"> 35 39 43 47 49 51 53 56 58 59 61 63 65 </table>
+  <set name="mpInitialConsume" val="#mpConsume_Init"/>
+  <set name="mpConsume" val="#mpConsume"/>
+  <set name="itemConsumeId" val="2508" />
+  <set name="itemConsumeCount" val="1" />
+  <set name="magicLvl" val="#magicLvl"/>
+  <set name="power" val="#power"/>
+  <set name="target" val="TARGET_ONE"/>
+  <set name="element" val="6"/> <!-- Dark -->
+  <set name="reuseDelay" val="6000"/>
+  <set name="hitTime" val="4000"/>
+  <set name="skillType" val="MDAM"/>
+  <set name="isMagic" val="true"/>
+  <set name="operateType" val="OP_ACTIVE"/>
+  <set name="castRange" val="900"/>
+  <set name="effectRange" val="1400"/>
+  <for>
+  </for>
+</skill>
+<skill id="1531" levels="7" name="Bless the Blood">
+  <set name="target" val="TARGET_NONE"/>
+  <set name="skillType" val="NOTDONE"/>
+  <set name="operateType" val="OP_PASSIVE"/>
+  <set name="castRange" val="-1"/>
+  <for>
+  </for>
+</skill>
+</list>

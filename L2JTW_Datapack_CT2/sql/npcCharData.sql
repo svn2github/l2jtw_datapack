@@ -1,8 +1,8 @@
 -- ----------------------------
--- Table structure for npcchardata
+-- Table structure for npcCharData
 -- ----------------------------
-DROP TABLE IF EXISTS npcchardata;
-CREATE TABLE `npcchardata` (
+DROP TABLE IF EXISTS npcCharData;
+CREATE TABLE `npcCharData` (
   `npc_id` int(11) NOT NULL DEFAULT '0',
   `ischar` int(11) DEFAULT NULL,
   `charclass` int(11) DEFAULT NULL,

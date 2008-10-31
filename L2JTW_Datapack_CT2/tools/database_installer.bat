@@ -581,7 +581,6 @@ weapon.sql
 zone_vertices.sql
 mods_wedding.sql
 chatdata.sql
-messagesymbols.sql
 messagetable.sql
 npcAIData.sql
 npcCharData.sql
