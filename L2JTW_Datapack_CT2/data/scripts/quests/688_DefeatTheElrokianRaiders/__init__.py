@@ -14,33 +14,36 @@ DINOSAUR_FANG_NECKLACE = 8785
 class Quest (JQuest) :
 
  def __init__(self,id,name,descr):
-	JQuest.__init__(self,id,name,descr)
-	self.questItemIds = [DINOSAUR_FANG_NECKLACE]
+ 	JQuest.__init__(self,id,name,descr)
+ 	self.questItemIds = [DINOSAUR_FANG_NECKLACE]
 
  def onEvent (self,event,st) :
     htmltext = event
     count = st.getQuestItemsCount(DINOSAUR_FANG_NECKLACE)
     if event == "None" :
-	return
+        return
     elif event == "32105-03.htm" :
        st.set("cond","1")
        st.setState(State.STARTED)
        st.playSound("ItemSound.quest_accept")
     elif event == "32105-08.htm" :
        if count > 0 :
-	  st.takeItems(DINOSAUR_FANG_NECKLACE,-1)
-	  st.giveItems(57,count*3000)
+          st.takeItems(DINOSAUR_FANG_NECKLACE,-1)
+          st.giveItems(57,count*3000)
        st.playSound("ItemSound.quest_finish")
        st.exitQuest(1)
     elif event == "32105-06.htm" :
-       st.takeItems(DINOSAUR_FANG_NECKLACE,-1)
-       st.giveItems(57,count*3000)
+       if count > 0 :  #pmq ­×§ï
+          st.takeItems(DINOSAUR_FANG_NECKLACE,-1)
+          st.giveItems(57,count*3000)
+       else :  #pmq ­×§ï
+          htmltext = "32105-06a.htm"  #pmq ­×§ï
     elif event == "32105-07.htm" :
        if count >= 100 :
-	  st.takeItems(DINOSAUR_FANG_NECKLACE,100)
-	  st.giveItems(57,450000)
+          st.takeItems(DINOSAUR_FANG_NECKLACE,100)
+          st.giveItems(57,450000)
        else :
-	  htmltext = "32105-04.htm"
+          htmltext = "32105-07a.htm"  #pmq ­×§ï
     return htmltext
 
  def onTalk (self, npc, player):
@@ -50,16 +53,16 @@ class Quest (JQuest) :
        cond = st.getInt("cond")
        count = st.getQuestItemsCount(DINOSAUR_FANG_NECKLACE)
        if cond == 0 :
-	  if player.getLevel() >= 75 :
-	     htmltext = "32105-01.htm"
-	  else :
-	     htmltext = "32105-00.htm"
-	     st.exitQuest(1)
+          if player.getLevel() >= 75 :
+             htmltext = "32105-01.htm"
+          else :
+             htmltext = "32105-00.htm"
+             st.exitQuest(1)
        elif st.getState() == State.STARTED :
-	  if count == 0 :
-	     htmltext = "32105-04.htm"
-	  else :
-	     htmltext = "32105-05.htm"
+          if count == 0 :
+             htmltext = "32105-06a.htm"  #pmq ­×§ï
+          else :
+             htmltext = "32105-05.htm"
     return htmltext
 
  def onKill (self, npc, player,isPet):
@@ -68,20 +71,20 @@ class Quest (JQuest) :
     st = partyMember.getQuestState(qn)
     if st :
        if st.getState() == State.STARTED :
-	  npcId = npc.getNpcId()
-	  cond = st.getInt("cond")
-	  count = st.getQuestItemsCount(DINOSAUR_FANG_NECKLACE)
-	  if cond == 1 :
-	     chance = DROP_CHANCE*Config.RATE_DROP_QUEST
-	     numItems, chance = divmod(chance,100)
-	     if st.getRandom(100) < chance :
-		numItems += 1
-	     if numItems :
-		if int(count + numItems)/100 > int(count)/100 :
-		   st.playSound("ItemSound.quest_middle")
-		else :
-		   st.playSound("ItemSound.quest_itemget")
-		st.giveItems(DINOSAUR_FANG_NECKLACE,int(numItems))
+          npcId = npc.getNpcId()
+          cond = st.getInt("cond")
+          count = st.getQuestItemsCount(DINOSAUR_FANG_NECKLACE)
+          if cond == 1 :
+             chance = DROP_CHANCE*Config.RATE_DROP_QUEST
+             numItems, chance = divmod(chance,100)
+             if st.getRandom(100) < chance : 
+                numItems += 1
+             if numItems :
+                if int(count + numItems)/100 > int(count)/100 :
+                   st.playSound("ItemSound.quest_middle")
+                else :
+                   st.playSound("ItemSound.quest_itemget")
+                st.giveItems(DINOSAUR_FANG_NECKLACE,int(numItems))
     return
 
 QUEST = Quest(688,qn,"À»°h­Cº¸¥iÃ¹Å§À»¶¤§a¡I")

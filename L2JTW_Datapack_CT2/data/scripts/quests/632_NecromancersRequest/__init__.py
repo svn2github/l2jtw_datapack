@@ -35,7 +35,7 @@ class Quest (JQuest):
            htmltext = "31522-3.htm"
            st.exitQuest(1)
         elif event == "1":
-           htmltext = "31522-0.htm"
+           htmltext = "31522-1a.htm"  # pmq н╫зя
         elif event == "2":
            if st.getInt("cond") == 2:
               if st.getQuestItemsCount(V_HEART) == 200:
@@ -51,7 +51,7 @@ class Quest (JQuest):
               st.setState(State.STARTED)
               st.playSound("ItemSound.quest_accept")
            else:
-              htmltext = "<html><body>Mysterious Wizard:<br>This quest can only be taken by characters that have a minimum level of <font color=\"LEVEL\">63</font>. Return when you are more experienced."
+              htmltext = "31522-0a.htm"  # pmq н╫зя
               st.exitQuest(1)
         return htmltext
 

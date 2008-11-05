@@ -73,7 +73,7 @@ class Quest (JQuest) :
    elif event == "Wilbert_LetsPlay.htm": # "Let's play" pressed
      beads=st.getQuestItemsCount(SPIRIT_BEAD)
      if beads<50:
-       htmltext = "Wilbert_Practice_NotEnoughBeads.htm"
+       htmltext = "Wilbert_Practice_50NotEnoughBeads.htm"  #pmq 修改
      else:
        htmltext = "Wilbert_PlayRound1.htm"
        st.set("round","0")
@@ -93,19 +93,19 @@ class Quest (JQuest) :
          round = round + 1
          htmltext = st.showHtmlFile("Wilbert_PlayWin.htm").replace("NROUND", str(round))
          if round == 1:
-           htmltext = htmltext.replace("MYPRIZE","40,000 adena")
+           htmltext = htmltext.replace("MYPRIZE","40,000 金幣")
          if round == 2:
-           htmltext = htmltext.replace("MYPRIZE","80,000 adena")
+           htmltext = htmltext.replace("MYPRIZE","80,000 金幣")
          if round == 3:
-           htmltext = htmltext.replace("MYPRIZE","110,000 adena, D-grade Enchant Weapon Scroll")
+           htmltext = htmltext.replace("MYPRIZE","110,000 金幣、武器強化卷軸-D級")
          if round == 4:
-           htmltext = htmltext.replace("MYPRIZE","199,000 adena, C-grade Enchant Weapon Scroll")
+           htmltext = htmltext.replace("MYPRIZE","199,000 金幣、武器強化卷軸-C級")
          if round == 5:
-           htmltext = htmltext.replace("MYPRIZE","388,000 adena, 1 recipe for a B-grade weapon")
+           htmltext = htmltext.replace("MYPRIZE","388,000 金幣、B級武器製作卷軸其中之一")
          if round == 6:
-           htmltext = htmltext.replace("MYPRIZE","675,000 adena, 1 essential ingredient for a B-grade weapon")
+           htmltext = htmltext.replace("MYPRIZE","675,000 金幣、B級武器必須材料其中之一")
          if round == 7:
-           htmltext = htmltext.replace("MYPRIZE","1,284,000 adena, 2 B-grade Enchant Weapon Scrolls, 2 B-grade Enchat Armor Scrolls")
+           htmltext = htmltext.replace("MYPRIZE","1,284,000 金幣、武器強化卷軸-B級2張、防具強化卷軸-B級2張")
          if round == 8: # reached round 8; give prizes and restart game
            round = 0
            st.giveItems(ADENA,2384000)
@@ -161,7 +161,7 @@ class Quest (JQuest) :
        if player.getLevel() >= 50 : # check player level
            htmltext = "Wilbert_start.htm"
        else:
-           htmltext = "<html><body>（等級50以上的角色才可以執行的任務。）</body></html>"
+           htmltext = "Wilbert_QuestLevel.htm"  #pmq 修改
            st.exitQuest(1)
    # talk to Wilbert when quest already in progress
    elif npcId == WILBERT and id == State.STARTED :

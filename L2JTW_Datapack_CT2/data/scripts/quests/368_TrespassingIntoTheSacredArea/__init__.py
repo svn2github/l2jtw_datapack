@@ -41,7 +41,7 @@ class Quest (JQuest) :
         if level>=36 :
             htmltext = "30926-01.htm"
         else :
-            htmltext = "<html><body>（等級36以上的角色才可以執行的任務。）</body></html>"
+            htmltext = "30926-00.htm"    # pmq 修改
      elif cond and not amount :
          htmltext = "30926-03.htm"
      elif amount :

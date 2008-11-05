@@ -29,13 +29,16 @@ class Quest (JQuest) :
        st.set("cond","1")
        st.setState(State.STARTED)
        st.playSound("ItemSound.quest_accept")
+    elif event == "32106-06.htm" :                  # pmq 修改
+       st.takeItems(BONES_OF_A_PLAINS_DINOSAUR,-1)  # pmq 修改
+       st.giveItems(57,count*1374)                  # pmq 修改
     elif event == "32117-03.htm" :
        if count >= 300 :
 	  st.takeItems(BONES_OF_A_PLAINS_DINOSAUR,300)
 	  st.giveItems(REWARDS[st.getRandom(len(REWARDS))],int(5*Config.RATE_QUESTS_REWARD))
        else :
 	  htmltext = "32117-04.htm"
-    elif event == "32106-07.htm" :				# pmq修正
+    elif event == "32106-07.htm" :		# pmq 修改
        st.playSound("ItemSound.quest_finish")
        st.exitQuest(1)
        return
@@ -59,9 +62,7 @@ class Quest (JQuest) :
 	     if count == 0 :
 		htmltext = "32106-05.htm"
 	     else :
-		htmltext = "32106-06.htm"
-		st.takeItems(BONES_OF_A_PLAINS_DINOSAUR,-1)
-		st.giveItems(57,count*1374)
+                htmltext = "32106-05a.htm"  # pmq 修改
 	  elif npcId == 32117 :
 	     htmltext = "32117-01.htm"
     return htmltext
@@ -78,7 +79,7 @@ class Quest (JQuest) :
 	  if cond == 1 :
 	     chance = DROP_CHANCE*Config.RATE_DROP_QUEST
 	     numItems, chance = divmod(chance,100)
-	     if st.getRandom(100) < chance : 
+	     if st.getRandom(100) < chance :
 		numItems += 1
 	     if numItems :
 		if int(count + numItems)/300 > int(count)/300 :

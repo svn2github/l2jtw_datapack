@@ -43,6 +43,9 @@ class Quest (JQuest) :
     elif event == "32020-09.htm" :
        st.exitQuest(1)
        st.playSound("ItemSound.quest_finish")
+    elif event == "32020-09b.htm" :            # pmq н╫зя
+       st.exitQuest(1)                         # pmq н╫зя
+       st.playSound("ItemSound.quest_finish")  # pmq н╫зя
     elif event == "32023-04.htm" :
        st.playSound("ItemSound2.broken_key")
        st.takeItems(Silver_Ice,1)

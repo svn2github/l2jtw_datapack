@@ -225,6 +225,7 @@ class Quest (JQuest) :
    if npcId == Cliff :
        if id == State.CREATED :
            htmltext = "04"
+           st.exitQuest(1)    # pmq н╫зя
            if player.getLevel() >= 40 :
                htmltext = "01"
        elif st.getQuestItemsCount(Medal) < 10 :

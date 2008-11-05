@@ -61,7 +61,7 @@ class Quest (JQuest) :
         htmltext="30829-00.htm"
       else:
         st.exitQuest(1)
-        htmltext="<html><body>（等級26以上的角色才可以執行的任務。）</body></html>"
+        htmltext="30829-00a.htm"     # pmq 修改
     elif id==State.STARTED:
       cond=st.getInt("cond")
       if npcId==COOPER:

@@ -48,7 +48,9 @@ class Quest (JQuest) :
        st.giveItems(item, amount)
        st.playSound("ItemSound.quest_finish")
        st.exitQuest(1)
-       return
+       htmltext = "32017-07.htm"  # pmq н╫зя
+   else :                         # pmq н╫зя
+       htmltext = "32017-04.htm"  # pmq н╫зя
    return htmltext
 
  def onTalk (self,npc,player):

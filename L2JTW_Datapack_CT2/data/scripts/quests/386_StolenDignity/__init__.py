@@ -29,7 +29,7 @@ starting2 = "Starting2.htm"
 binfo1    = "Bingo_howto.htm"
 bingo     = "Bingo_start.htm"
 bingo0    = "Bingo_starting.htm"
-ext_msg   = "Quest aborted"
+ext_msg   = "Quest_aborted.htm"  # pmq 修改
 
 #NPCs
 WK_ROMP = 30843
@@ -66,17 +66,17 @@ MOB={
 MAX = 100
 
 #templates
-number  = ["second","third","fourth","fifth","sixth"]
-header  = "<html><body>Warehouse Freightman Romp:<br><br>"
+number  = ["二","三","四","五","六"]
+header  = "<html><body>負責貨物的倉庫管理員倫夫:<br><br>"
 link    = "<td align=center><a action=\"bypass -h Quest 386_StolenDignity "
-middle  = "</tr></table><br><br>Your selection thus far: <br><br><table border=1 width=120 hieght=64>"
+middle  = "</tr></table><br><br>先參考一下，現在的情況如下：<br><br><table border=1 width=120 hieght=64>"
 footer  = "</table></body></html>"
-loser   = "Wow! How unlucky can you get? Your choices are highlighted in red below. As you can see, your choices didn't make a single line! Losing this badly is actually quite rare!<br><br>You look so sad, I feel bad for you... Wait here...<br><br>.<br><br>.<br><br>.<br><br>Take this... I hope it will bring you better luck in the future.<br><br>"
-winner  = "Excellent! As you can see, you've formed three lines! Congratulations! As promised, I'll give you some unclaimed merchandise from the warehouse. Wait here...<br><br>.<br><br>.<br><br>.<br><br>Whew, it's dusty! OK, here you go. Do you like it?<br><br>"
-average = "Hum. Well, your choices are highlighted in red below. As you can see your choices didn't formed three lines... but you were near, so don't be sad. You can always get another few infernium ores and try again. Better luck in the future!<br><br>"
+loser   = "你這個人真沒運氣。在下面賓果板上的紅色數字是你選擇的。你看了就知道，一條線都沒有完成耶。其實，沒完成任何一條線比完成三條線還要難耶。<br>一般來講，在沒完成任何一條線時，是不給任何補償的，但看你可憐就讓我來發發慈悲吧。你等一下。<br>.<br>.<br>.<br>來，把這個拿走吧。希望這個對你那艱難的人生帶來一點幫助。<br><br>"
+winner  = "嗄？完成了三條線啊！你看一下，下面的賓果板上紅色的數字是你選擇的。就如你所看到的，順利完成了三條線耶。恭喜你！按照約定，公會準備的報酬就是製作A級武器時所需的材料吧。請等一下。<br>.<br>.<br>.<br>來，把這個拿走吧。希望這個對你那艱難的人生帶來一點幫助。<br><br>"
+average = "咦。真可惜不成3條線。下次再來挑戰吧。讓你看一下，下面的賓果板上紅色的數字是你選擇的。<br><br>"
 
 def partial(st) :
-    html = " number:<br><br><table border=0><tr>"
+    html = "個數字。<br><br><table border=0><tr>"
     for z in range(1,10) :
         html += link+str(z)+"\">"+str(z)+"</a></td>"
     html += middle
@@ -122,6 +122,7 @@ class Quest (JQuest) :
         htmltext = binfo1
     elif event == "0" :
        htmltext = ext_msg
+       st.playSound("ItemSound.quest_finish")  # pmq 修改
        st.exitQuest(1)
     elif event == "bingo" :
        if st.getQuestItemsCount(SI_ORE) >= REQUIRED_ORE :
@@ -169,7 +170,7 @@ class Quest (JQuest) :
                       for var in ["chosen","grid","playing"]:
                           st.unset(var)
                   else :
-                      htmltext = header+"Select your "+number[8-chosen.count("?")]+partial(st)
+                      htmltext = header+"來，請選擇第"+number[8-chosen.count("?")]+partial(st)
             else:
               htmltext=default
     return htmltext

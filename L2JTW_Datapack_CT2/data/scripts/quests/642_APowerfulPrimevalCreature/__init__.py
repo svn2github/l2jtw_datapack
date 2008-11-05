@@ -36,12 +36,12 @@ class Quest (JQuest) :
        st.set("cond","1")
        st.setState(State.STARTED)
        st.playSound("ItemSound.quest_accept")
-    elif event == "32105-08.htm" :
+    elif event == "32105-06a.htm" :  # pmq 修改
        st.takeItems(DINOSAUR_TISSUE,-1)
        st.giveItems(57,count_tissue*5000)
     elif event == "32105-07.htm" :
        if count_tissue < 150 or count_egg == 0 :
-	  htmltext = "32105-05.htm"
+	  htmltext = "32105-07a.htm"  # pmq 修改
        elif ALT_RP_100 != 0 :
 	  htmltext = st.showHtmlFile("32105-07.htm").replace("60%","100%")
     elif event.isdigit() and int(event) in REWARDS :
@@ -55,7 +55,7 @@ class Quest (JQuest) :
 	  else :
 	     st.giveItems(int(event),1)
        else :
-	  htmltext = "<html><body>數量錯誤。</body></html>"
+	  htmltext = "32105-07a.htm"  # pmq 修改
     return htmltext
 
  def onTalk (self, npc, player):
