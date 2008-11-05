@@ -52,14 +52,14 @@ class Quest (JQuest) :
        st.takeItems(MEDICINAL_HERB,20)
        st.set("cond","5")
      else:
-       htmltext="材料不足。"
+       htmltext="材料或道具不足。"
        st.set("cond","3")
    elif event == "30094-7.htm" :
      if st.getQuestItemsCount(SPIRIT_ORES) >= 500:
        st.takeItems(SPIRIT_ORES,500)
        st.set("cond","6")
      else:
-       htmltext="Youn don't have enough materials"
+       htmltext="材料或道具不足。"
    elif event == "31706-4.htm" :
      st.set("cond","7")
    elif event == "30094-10.htm" :
@@ -69,7 +69,7 @@ class Quest (JQuest) :
        st.takeItems(THREAD,1000)
        st.takeItems(SUEDE,500)
      else:
-       htmltext="材料不足。"
+       htmltext="材料或道具不足。"
    elif event in ["cat","racoon","rabbit"] :
      if st.getInt("cond") == 8 :
        if event == "cat" :

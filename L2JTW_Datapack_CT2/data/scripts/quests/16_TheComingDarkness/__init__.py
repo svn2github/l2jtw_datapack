@@ -72,7 +72,7 @@ class Quest (JQuest) :
      st2 = player.getQuestState("17_LightAndDarkness")
      if st2 :
        if st2.getState() == 'State.COMPLETED' :
-         htmltext = "<html><body>必須先完成「光輝染上黑暗」的任務。</body></html>"
+         htmltext = "<html><body>追求光明與黑暗，必須首先完成。</body></html>"
      elif player.getLevel() >= 62 :
        htmltext = "31517-0.htm"
      elif id == State.COMPLETED :

@@ -26,7 +26,7 @@ class Quest (JQuest) :
          st.setState(State.STARTED)
          st.set("cond","1")
          st.playSound("ItemSound.quest_accept")
-     elif event == "2" :
+     elif event == "30892-09.htm" : # pmq н╫зя
          st.exitQuest(1)
          st.playSound("ItemSound.quest_finish")
      return htmltext

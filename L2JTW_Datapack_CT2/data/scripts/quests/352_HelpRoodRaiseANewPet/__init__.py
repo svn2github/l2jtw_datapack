@@ -44,7 +44,7 @@ class Quest (JQuest) :
         if level>=39 :
             htmltext = "31067-01.htm"
         else :
-            htmltext = "<html><body>（等級39以上的角色才可以執行的任務。）</body></html>"
+            htmltext = "31067-00.htm"    # pmq 修改
             st.exitQuest(1)
      elif cond==1 :
         if not eggs1 and not eggs2 :

@@ -20,14 +20,12 @@ class Quest (JQuest) :
   
   def onEvent(self, event, st):
     htmltext = event
-    if event == "1" :
-      htmltext = "31338-04.htm"
+    if event == "31338-04.htm" :
       st.set("cond","1")
       st.giveItems(ANCIENT_BOOK,1)
       st.setState(State.STARTED)
       st.playSound("ItemSound.quest_accept")
-    if event == "2" and st.getQuestItemsCount(ANCIENT_BOOK):
-      htmltext="32113-05.htm"
+    if event == "32113-05.htm" and st.getQuestItemsCount(ANCIENT_BOOK):
       st.playSound("ItemSound.quest_finish")
       st.giveItems(ADENA_ID,169380)
       st.takeItems(ANCIENT_BOOK,-1)

@@ -71,7 +71,7 @@ class Quest (JQuest) :
              if level>=35 :
                  htmltext = "30970-01.htm"
              else :
-                 htmltext = "<html><body>（等級35以上的角色才可以執行的任務。）</body></html>"
+                 htmltext = "30970-00.htm"  # pmq 修改
                  st.exitQuest(1)
          elif cond==1 and st.getQuestItemsCount(VICTIMS_ARM_BONE) and st.getQuestItemsCount(VICTIMS_THIGH_BONE) and st.getQuestItemsCount(VICTIMS_SKULL) and st.getQuestItemsCount(VICTIMS_RIB_BONE) and st.getQuestItemsCount(VICTIMS_SPINE) :
              htmltext = "30970-05.htm"
@@ -88,7 +88,7 @@ class Quest (JQuest) :
              htmltext = "30912-01.htm"
              st.playSound("ItemSound.quest_middle")
          elif cond == 3 :
-             htmltext = "<html><body>What did the urn say?</body></html>"
+             htmltext = "<html><body>罈說了什麼？</body></html>"
          elif cond == 6 :
              htmltext = "30912-04.htm"
              st.set("cond","7")

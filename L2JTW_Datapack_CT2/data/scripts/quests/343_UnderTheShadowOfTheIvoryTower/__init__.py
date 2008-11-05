@@ -17,26 +17,26 @@ RANDOM_REWARDS=[[951,1],   #Enchant Weapon C
                 [736,1],   #SoE
                ]
 #Roshambo
-OPTIONS={0:"Scissors",1:"Rock",2:"Paper"}
+OPTIONS={0:"剪刀",1:"石頭",2:"布"}
 OUTCOME={0:1,1:2,2:0}
 #Coin Toss
-TOSS={0:"Heads",1:"Tails"}
+TOSS={0:"正",1:"反"}
 ORBS=[10,30,70,150,310,0]
 #Messages
-start_msg=["One~ Two~ Three~","Go! One~ Two~ Three~","Ready? Go! One~ Two~ Three~","Here we go! One~ Two~ Three~"]
-tie_msg=["Ah ha! A tie! Take back the orbs that you bet. Well, shall we play again?",\
-         "Ha! A tie! Take back the orbs that you bet. Shall we try again?"]
-win_msg=["Well, you certainly got lucky that time! Take all the orbs we put up as a bet. Come on! Let's play another round!",\
-         "Oh no! I lose! Go ahead. Take all the orbs we put up as a bet. Come on! Let's play again!",\
-         "Oh no! I lose! Go ahead. Take all the orbs we put up as a bet. Humph... Come on! Let's play again!"]
-lose_msg=["Oh, too bad. You lose! Shall we play another round?",\
-          "Oh...! You lose! Oh well, the orbs are mine. Shall we play another round?",\
-          "Oh, too bad, you lose! I'll take those orbs now... Hey now, shall we play another round?"]
-again_msg=["Play the game.","Play the rock paper scissors game."]
-toss_msg=[["You're right!","You win!"],\
-          ["Hu wah! Right again!","You won twice in a row!"],\
-          ["Hu wah! Right again!","You won three times in a row!"],\
-          ["Ho ho! Right again!","You won four times in a row!"]]
+start_msg=["剪刀~石頭~","剪刀~石頭~","剪刀~石頭~","剪刀~石頭~"]
+tie_msg=["嘻嘻~！是個平局呀！把賭注還給你。好，再玩一次吧？",\
+         "嘻嘻~！是個平局呀！把賭注還給你。好，再玩一次吧？"]
+win_msg=["唉呀！我輸了。把賭注全部拿走吧。哼~再來一次吧~",\
+         "唉呀！我輸了。把賭注全部拿走吧。哼~再來一次吧~",\
+         "唉呀！我輸了。把賭注全部拿走吧。哼~再來一次吧~"]
+lose_msg=["呵呵！你輸了！那麼我把賭注全部拿走了~啦啦~要再來一局嗎？",\
+          "呵呵！你輸了！那麼我把賭注全部拿走了~啦啦~要再來一局嗎？",\
+          "呵呵！你輸了！那麼我把賭注全部拿走了~啦啦~要再來一局嗎？"]
+again_msg=["開始遊戲","玩猜拳遊戲"]
+toss_msg=[["這次是你嬴了！",""],\
+          ["這場是你嬴了！","是2連勝耶！"],\
+          ["這場是你嬴了！","是3連勝耶！"],\
+          ["這場是你嬴了！","是4連勝耶！"]]
 class Quest (JQuest) :
 
  def __init__(self,id,name,descr):

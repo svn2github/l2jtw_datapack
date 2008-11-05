@@ -53,6 +53,7 @@ class Quest (JQuest) :
      if player.getLevel() >= 25 :
        htmltext = "30333-0a.htm"
      else:
+       htmltext = "30333-0.htm"    # pmq н╫зя
        st.exitQuest(1)
    elif npcId == 30344 and id == State.STARTED:
      if cond == 1 :
