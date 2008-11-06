@@ -55,13 +55,13 @@ public class IceFairySirra extends L2AttackableAIScript
 
 	public IceFairySirra(int id,String name,String descr)
 	{
-        super(id,name,descr);
-        int[] mob = {STEWARD, 22100, 22102, 22104};
-        this.registerMobs(mob);
-        this.addEventId(STEWARD, Quest.QuestEventType.QUEST_START);
-        this.addEventId(STEWARD, Quest.QuestEventType.ON_TALK);
-        this.addEventId(STEWARD, Quest.QuestEventType.ON_FIRST_TALK);
-        init();
+	super(id,name,descr);
+	int[] mob = {STEWARD, 22100, 22102, 22104};
+	this.registerMobs(mob);
+	this.addEventId(STEWARD, Quest.QuestEventType.QUEST_START);
+	this.addEventId(STEWARD, Quest.QuestEventType.ON_TALK);
+	this.addEventId(STEWARD, Quest.QuestEventType.ON_FIRST_TALK);
+	init();
 	}
 
 	public void init()
@@ -165,7 +165,7 @@ public class IceFairySirra extends L2AttackableAIScript
 			for (L2PcInstance pc : player.getParty().getPartyMembers())
 			{
 				L2ItemInstance i = pc.getInventory().getItemByItemId(SILVER_HEMOCYTE);
-				if 	(i == null || i.getCount() < 10)
+				if	(i == null || i.getCount() < 10)
 				{
 					return false;
 				}
@@ -220,15 +220,15 @@ public class IceFairySirra extends L2AttackableAIScript
 		}
 		else
 			cleanUp();
-	}	          
+	}
 
 	public void doSpawns()
 	{
 		int[][] mobs = { {29060 , 105546 , -127892 , -2768} ,
-                {29056 , 102779 , -125920 , -2840} ,
-                {22100 , 111719 , -126646 , -2992} ,
-                {22102 , 109509 , -128946 , -3216} ,
-                {22104 , 109680 , -125756 , -3136} };
+		{29056 , 102779 , -125920 , -2840} ,
+		{22100 , 111719 , -126646 , -2992} ,
+		{22102 , 109509 , -128946 , -3216} ,
+		{22104 , 109680 , -125756 , -3136} };
 		L2Spawn spawnDat;
 		L2NpcTemplate template;
 		try
@@ -269,31 +269,31 @@ public class IceFairySirra extends L2AttackableAIScript
 		if (val == 0)
 			pom = "32029";
 
-        String temp = "data/html/default/" + pom + ".htm";
-        
-        if (!Config.LAZY_CACHE)
-        {
-        	// If not running lazy cache the file must be in the cache or it doesnt exist
-        	if (HtmCache.getInstance().contains(temp))
-        		return temp;
-        }
-        else
-        {
-        	if (HtmCache.getInstance().isLoadable(temp))
-        		return temp;
-        }
-        
-        // If the file is not found, the standard message "I have nothing to say to you" is returned
-        return "data/html/npcdefault.htm";
+	String temp = "data/html/default/" + pom + ".htm";
+	
+	if (!Config.LAZY_CACHE)
+	{
+		// If not running lazy cache the file must be in the cache or it doesnt exist
+		if (HtmCache.getInstance().contains(temp))
+			return temp;
+	}
+	else
+	{
+		if (HtmCache.getInstance().isLoadable(temp))
+			return temp;
+	}
+	
+	// If the file is not found, the standard message "I have nothing to say to you" is returned
+	return "data/html/npcdefault.htm";
     }
 
 	public void sendHtml(L2NpcInstance npc, L2PcInstance player, String filename)
 	{
 		NpcHtmlMessage html = new NpcHtmlMessage(npc.getObjectId());
-        html.setFile(filename);
-        html.replace("%objectId%", String.valueOf(npc.getObjectId()));
-        player.sendPacket(html);
-        player.sendPacket( ActionFailed.STATIC_PACKET );
+	html.setFile(filename);
+	html.replace("%objectId%", String.valueOf(npc.getObjectId()));
+	player.sendPacket(html);
+	player.sendPacket( ActionFailed.STATIC_PACKET );
 	}
 
 	public String onFirstTalk (L2NpcInstance npc, L2PcInstance player)
@@ -313,7 +313,7 @@ public class IceFairySirra extends L2AttackableAIScript
 	public String onAdvEvent (String event, L2NpcInstance npc, L2PcInstance player)
 	{
 		if (event.equalsIgnoreCase("check_condition"))
-        {
+	{
 			if (npc.isBusy())//should never happen
 				return super.onAdvEvent(event, npc, player);
 			else
@@ -328,7 +328,7 @@ public class IceFairySirra extends L2AttackableAIScript
 						destroyItems(player);
 						player.getInventory().addItem("Scroll",8379,3,player,null);
 						npc.setBusy(true);
-						screenMessage(player,"Steward: Please wait a moment.",100000);
+						screenMessage(player,"芙蕾雅的執事：請稍候。",100000);
 						filename = getHtmlPath(3);
 					}
 					else
@@ -342,9 +342,9 @@ public class IceFairySirra extends L2AttackableAIScript
 				}
 				sendHtml(npc, player, filename);
 			}
-        }
+	}
 		else if (event.equalsIgnoreCase("start"))
-        {
+	{
 			if (_freyasZone == null)
 			{
 				_log.warning("IceFairySirraManager: Failed to load zone");
@@ -356,37 +356,37 @@ public class IceFairySirra extends L2AttackableAIScript
 			doSpawns();
 			startQuestTimer("Party_Port",2000,null,player);
 			startQuestTimer("End",1802000,null,player);
-        }
+	}
 		else if (event.equalsIgnoreCase("Party_Port"))
-        {
+	{
 			teleportInside(player);
-			screenMessage(player,"Steward: Please restore the Queen's appearance!",10000);
+			screenMessage(player,"芙蕾雅的執事：請讓女王恢復原貌...",10000);
 			startQuestTimer("30MinutesRemaining",300000,null,player);
-        }
+	}
 		else if (event.equalsIgnoreCase("30MinutesRemaining"))
-        {
-			screenMessage(player,"30 minute(s) are remaining.",10000);
+	{
+			screenMessage(player,"剩下30分鐘。",10000);
 			startQuestTimer("20minutesremaining",600000,null,player);
-        }
+	}
 		else if (event.equalsIgnoreCase("20MinutesRemaining"))
-        {
-			screenMessage(player,"20 minute(s) are remaining.",10000);
+	{
+			screenMessage(player,"剩下20分鐘。",10000);
 			startQuestTimer("10minutesremaining",600000,null,player);
-        }
+	}
 		else if (event.equalsIgnoreCase("10MinutesRemaining"))
-        {
-			screenMessage(player,"Steward: Waste no time! Please hurry!",10000);
-        }
+	{
+			screenMessage(player,"芙蕾雅的執事：時間不多了，請您盡快。",10000);
+	}
 		else if (event.equalsIgnoreCase("End"))
-        {
-			screenMessage(player,"Steward: Was it indeed too much to ask.",10000);
+	{
+			screenMessage(player,"芙蕾雅的執事：難道還是不行嗎...",10000);
 			cleanUp();
-        }
+	}
 		return super.onAdvEvent(event, npc, player);
 	}
 
     public static void main(String[] args)
     {
-    	new IceFairySirra(-1,"IceFairySirra","ai");
+	new IceFairySirra(-1,"IceFairySirra","ai");
     }
 }
