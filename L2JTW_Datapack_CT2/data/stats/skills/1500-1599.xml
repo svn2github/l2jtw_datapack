@@ -166,7 +166,6 @@
   <set name="magicLvl" val="58"/>
   <set name="mpConsume" val="7"/>
   <set name="operateType" val="OP_ACTIVE"/>
-  <set name="power" val="0.0"/>
   <set name="reuseDelay" val="270000"/>
   <set name="skillType" val="BUFF"/>
   <set name="target" val="TARGET_SELF"/>
@@ -281,7 +280,7 @@
   <set name="element" val="5"/> <!-- Holy -->
   <set name="hitTime" val="4000"/>
   <set name="skillType" val="MDAM"/>
-  <set name="reuseDelay" val="4000"/> <!-- Guessing, appears to be much less if influenced by Skill Mastery -->
+  <set name="reuseDelay" val="2000"/> <!-- Guessing, appears to be much less (like 1 second or 0.7 seconds) if influenced by Skill Mastery -->
   <set name="isMagic" val="true"/>
   <set name="operateType" val="OP_ACTIVE"/>
   <set name="castRange" val="750"/>
@@ -334,6 +333,7 @@
   <set name="power" val="70"/> <!-- Guessing -->
   <set name="reuseDelay" val="6000"/> <!-- Guessing -->
   <set name="skillType" val="DOT"/>
+  <set name="killByDOT" val="false"/>
   <set name="target" val="TARGET_ONE"/>
   <for>
     <effect count="15" name="DamOverTime" time="1" val="#dmg">

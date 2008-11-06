@@ -337,7 +337,6 @@
   <set name="chanceType" val="ON_ATTACKED"/>
   <set name="effectRange" val="-1"/>
   <set name="operateType" val="OP_CHANCE"/>
-  <set name="power" val="0.0"/>
   <set name="skillType" val="BUFF"/>
   <set name="target" val="TARGET_SELF"/>
   <for>
@@ -651,7 +650,8 @@
   <set name="operateType" val="OP_ACTIVE"/>
   <set name="power" val="40"/> <!-- Guessing -->
   <set name="isDebuff" val="true"/>
-  <set name="castRange" val="40"/> 
+  <set name="castRange" val="40"/>
+  <set name="killByDOT" val="false"/>
   <for> 
     <effect count="1" name="Paralyze" time="15" val="0"/> 
     <effect count="5" name="DamOverTime" time="3" val="#dmg" abnormal="poison" noicon="1" />
@@ -1218,7 +1218,6 @@
   </for>
 </skill>
 <skill id="5491" levels="1" name="Decrease Bow/Crossbow Atk. Spd.">
-  <set name="power" val="0.0"/>
   <set name="target" val="TARGET_SELF"/>
   <set name="skillType" val="BUFF"/>
   <set name="operateType" val="OP_PASSIVE"/>

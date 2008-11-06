@@ -614,7 +614,7 @@
   <for>
   </for>
 </skill>
-<skill id="5044" levels="2" name="NPC Ultimate Defense">
+<skill id="5044" levels="3" name="NPC Ultimate Defense">
   <!--
   Needs to be finished.
   Target is set to TARGET_NONE, skillType to NOTDONE for server compatability.
@@ -1092,7 +1092,6 @@
   </for>
 </skill>
 <skill id="5074" levels="1" name="The Victor of War">
-  <set name="power" val="0.0"/>
   <set name="target" val="TARGET_SELF"/>
   <set name="skillType" val="BUFF"/>
   <set name="operateType" val="OP_PASSIVE"/>
@@ -1104,7 +1103,6 @@
 </skill>
 
 <skill id="5075" levels="1" name="The Vanquished of War">
-  <set name="power" val="0.0"/>
   <set name="target" val="TARGET_SELF"/>
   <set name="skillType" val="BUFF"/>
   <set name="operateType" val="OP_PASSIVE"/>
