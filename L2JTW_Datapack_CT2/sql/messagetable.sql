@@ -1,8 +1,17 @@
+/*
+MySQL Data Transfer
+Source Host: localhost
+Source Database: l2jtw-dev
+Target Host: localhost
+Target Database: l2jtw-dev
+Date: 2008/11/6 �U�� 11:36:44
+*/
+
+SET FOREIGN_KEY_CHECKS=0;
 -- ----------------------------
 -- Table structure for messagetable
 -- ----------------------------
-DROP TABLE IF EXISTS `messagetable`;
-CREATE TABLE IF NOT EXISTS `messagetable` (
+CREATE TABLE `messagetable` (
   `mid` int(3) NOT NULL DEFAULT '0',
   `language` varchar(2) NOT NULL DEFAULT 'en',
   `message` text,
@@ -2439,10 +2448,10 @@ INSERT INTO `messagetable` VALUES ('1211', 'en', 'You can only place a flag duri
 INSERT INTO `messagetable` VALUES ('1211', 'tw', '只能在要塞戰放置陣旗。', null);
 INSERT INTO `messagetable` VALUES ('1212', 'en', 'You are busy creating', null);
 INSERT INTO `messagetable` VALUES ('1212', 'tw', '目前處於忙碌狀態無法進行製作。', null);
-INSERT INTO `messagetable` VALUES ('1213', 'en', '', null);
-INSERT INTO `messagetable` VALUES ('1213', 'tw', '', null);
-INSERT INTO `messagetable` VALUES ('1214', 'en', '', null);
-INSERT INTO `messagetable` VALUES ('1214', 'tw', '', null);
+INSERT INTO `messagetable` VALUES ('1213', 'en', ' more than ', null);
+INSERT INTO `messagetable` VALUES ('1213', 'tw', ' 超過', null);
+INSERT INTO `messagetable` VALUES ('1214', 'en', '$1 cannot be used with this weapon.', null);
+INSERT INTO `messagetable` VALUES ('1214', 'tw', '$1 無法在此武器上使用。', null);
 INSERT INTO `messagetable` VALUES ('1215', 'en', '', null);
 INSERT INTO `messagetable` VALUES ('1215', 'tw', '', null);
 INSERT INTO `messagetable` VALUES ('1216', 'en', '', null);
