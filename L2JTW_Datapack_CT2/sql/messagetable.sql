@@ -1,17 +1,8 @@
-/*
-MySQL Data Transfer
-Source Host: localhost
-Source Database: l2jtw-dev
-Target Host: localhost
-Target Database: l2jtw-dev
-Date: 2008/11/6 �U�� 11:36:44
-*/
-
-SET FOREIGN_KEY_CHECKS=0;
 -- ----------------------------
 -- Table structure for messagetable
 -- ----------------------------
-CREATE TABLE `messagetable` (
+DROP TABLE IF EXISTS `messagetable`;
+CREATE TABLE IF NOT EXISTS `messagetable` (
   `mid` int(3) NOT NULL DEFAULT '0',
   `language` varchar(2) NOT NULL DEFAULT 'en',
   `message` text,
@@ -1665,7 +1656,7 @@ INSERT INTO `messagetable` VALUES ('819', 'tw', '黑暗的祭典即將於 2 分�
 INSERT INTO `messagetable` VALUES ('820', 'en', 'The festival has ended. Your party leader must now register your score before the next festival takes place.', null);
 INSERT INTO `messagetable` VALUES ('820', 'tw', '黑暗的祭典已結束。隊長必須在下一場開始前完成分數登記。', null);
 INSERT INTO `messagetable` VALUES ('821', 'en', 'Seal of ', 'Avarice;Gnosis;Strife');
-INSERT INTO `messagetable` VALUES ('821', 'tw', 'Seal of', 'Avarice;Gnosis;Strife');
+INSERT INTO `messagetable` VALUES ('821', 'tw', '', '貪慾的封印;啟示的封印;戰亂的封印');
 INSERT INTO `messagetable` VALUES ('822', 'en', 'No Cabal', null);
 INSERT INTO `messagetable` VALUES ('822', 'tw', 'No Cabal', null);
 INSERT INTO `messagetable` VALUES ('823', 'en', 'Lords of Dawn', null);
@@ -2204,8 +2195,8 @@ INSERT INTO `messagetable` VALUES ('1089', 'en', 'Many thanks for rescue me.', n
 INSERT INTO `messagetable` VALUES ('1089', 'tw', '非常感謝營救我。', null);
 INSERT INTO `messagetable` VALUES ('1090', 'en', '[ Seal Status ]', null);
 INSERT INTO `messagetable` VALUES ('1090', 'tw', '[ 封印狀態 ]', null);
-INSERT INTO `messagetable` VALUES ('1091', 'en', 'Nothingness', null);
-INSERT INTO `messagetable` VALUES ('1091', 'tw', '無', null);
+INSERT INTO `messagetable` VALUES ('1091', 'en', ': Nothingness', null);
+INSERT INTO `messagetable` VALUES ('1091', 'tw', '：無', null);
 INSERT INTO `messagetable` VALUES ('1092', 'en', 'Signboard is missing:', null);
 INSERT INTO `messagetable` VALUES ('1092', 'tw', '決鬥場看板遺失：', null);
 INSERT INTO `messagetable` VALUES ('1093', 'en', 'Select symbol you would like to remove:', null);
@@ -2449,9 +2440,9 @@ INSERT INTO `messagetable` VALUES ('1211', 'tw', '只能在要塞戰放置陣旗
 INSERT INTO `messagetable` VALUES ('1212', 'en', 'You are busy creating', null);
 INSERT INTO `messagetable` VALUES ('1212', 'tw', '目前處於忙碌狀態無法進行製作。', null);
 INSERT INTO `messagetable` VALUES ('1213', 'en', ' more than ', null);
-INSERT INTO `messagetable` VALUES ('1213', 'tw', ' 超過', null);
+INSERT INTO `messagetable` VALUES ('1213', 'tw', ' 超過 ', null);
 INSERT INTO `messagetable` VALUES ('1214', 'en', '$1 cannot be used with this weapon.', null);
-INSERT INTO `messagetable` VALUES ('1214', 'tw', '$1 無法在此武器上使用。', null);
+INSERT INTO `messagetable` VALUES ('1214', 'tw', '無法在此類武器上使用「$1」。', null);
 INSERT INTO `messagetable` VALUES ('1215', 'en', '', null);
 INSERT INTO `messagetable` VALUES ('1215', 'tw', '', null);
 INSERT INTO `messagetable` VALUES ('1216', 'en', '', null);
