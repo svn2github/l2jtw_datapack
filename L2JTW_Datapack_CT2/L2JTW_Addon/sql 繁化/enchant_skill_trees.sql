@@ -1,4 +1,4 @@
-/***** 貳幕 11-5 *****/ 
+/***** 貳幕繽炫風 原版 *****/ 
 /***** skillname-tw *****/ 
 UPDATE `enchant_skill_trees` SET `name` = '三連斬' WHERE `skill_id` = '1';
 UPDATE `enchant_skill_trees` SET `name` = '波動連斬' WHERE `skill_id` = '5';
