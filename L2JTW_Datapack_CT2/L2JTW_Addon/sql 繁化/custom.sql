@@ -1,4 +1,4 @@
-﻿/***** 貳幕 10-13 *****/ 
+/***** 貳幕 11-5 *****/ 
 /***** castlename-tw *****/ 
 /***** castle.sql *****/
 UPDATE `castle` SET `name` = '古魯丁城' WHERE `name` = 'Gludio';

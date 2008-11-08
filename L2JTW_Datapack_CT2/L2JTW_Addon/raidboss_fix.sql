@@ -218,6 +218,13 @@ UPDATE `npc` SET `level` = '87' WHERE  `id` = '25609';
 UPDATE `npc` SET `level` = '87' WHERE  `id` = '25610';
 UPDATE `npc` SET `level` = '87' WHERE  `id` = '25611';
 UPDATE `npc` SET `level` = '87' WHERE  `id` = '25612';
+UPDATE `npc` SET `level` = '29' WHERE  `id` = '25616';
+UPDATE `npc` SET `level` = '39' WHERE  `id` = '25617';
+UPDATE `npc` SET `level` = '49' WHERE  `id` = '25618';
+UPDATE `npc` SET `level` = '59' WHERE  `id` = '25619';
+UPDATE `npc` SET `level` = '69' WHERE  `id` = '25620';
+UPDATE `npc` SET `level` = '78' WHERE  `id` = '25621';
+UPDATE `npc` SET `level` = '81' WHERE  `id` = '256222';
 
 /***** npc.sql - boss *****/
 UPDATE `npc` SET `level` = '40' WHERE  `id` = '29001';
@@ -238,6 +245,13 @@ UPDATE `npc` SET `level` = '79' WHERE  `id` = '29068';
 UPDATE `npc` SET `level` = '87' WHERE  `id` = '29095';
 UPDATE `npc` SET `level` = '83' WHERE  `id` = '29099';
 UPDATE `npc` SET `level` = '87' WHERE  `id` = '29118';
+UPDATE `npc` SET `level` = '29' WHERE  `id` = '29129';
+UPDATE `npc` SET `level` = '39' WHERE  `id` = '29132';
+UPDATE `npc` SET `level` = '49' WHERE  `id` = '29135';
+UPDATE `npc` SET `level` = '59' WHERE  `id` = '29138';
+UPDATE `npc` SET `level` = '69' WHERE  `id` = '29141';
+UPDATE `npc` SET `level` = '78' WHERE  `id` = '29144';
+UPDATE `npc` SET `level` = '81' WHERE  `id` = '29147';
 
 /***** raidboss_spawnlist.sql *****/
 UPDATE `raidboss_spawnlist` SET `loc_x` = -54416, `loc_y` = 146480, `loc_z` = -2887 WHERE `boss_id` = 25001;

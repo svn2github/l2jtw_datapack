@@ -1,4 +1,4 @@
-﻿/***** 貳幕 10-13 *****/ 
+/***** 貳幕 11-5 *****/ 
 /***** castlename-tw *****/ 
 /***** auction.sql *****/
 UPDATE `auction` SET `itemName` = '月長石廳' WHERE `itemId` = 22;
@@ -771,6 +771,8 @@ UPDATE `helper_buff_list` SET `name` = '冒險家用靈活思緒' WHERE `skill_i
 UPDATE `helper_buff_list` SET `name` = '冒險家用精神專注' WHERE `skill_id` = '4330';
 UPDATE `helper_buff_list` SET `name` = '冒險家用魔力催化' WHERE `skill_id` = '4331';
 UPDATE `helper_buff_list` SET `name` = '冒險家用治癒晶體' WHERE `skill_id` = '4338';
+UPDATE `helper_buff_list` SET `name` = '冒險家用 速度激發' WHERE `skill_id` = '5632';
+UPDATE `helper_buff_list` SET `name` = '冒險家用 魔法屏障' WHERE `skill_id` = '5637';
 
 /***** hennagrp-tw *****/ 
 /***** henna.sql *****/
