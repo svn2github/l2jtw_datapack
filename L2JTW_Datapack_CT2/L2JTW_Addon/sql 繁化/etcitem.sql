@@ -8116,7 +8116,7 @@ UPDATE `etcitem` SET `name` ='妖精公主狩獵幫手項鍊' WHERE item_id ='13
 UPDATE `etcitem` SET `name` ='野獸鬥士狩獵幫手項鍊' WHERE item_id ='13019';
 UPDATE `etcitem` SET `name` ='狐狸術士狩獵幫手項鍊' WHERE item_id ='13020';
 UPDATE `etcitem` SET `name` ='彩色稱號' WHERE item_id ='13021';
-UPDATE `etcitem` SET `name` ='格蘭肯的禮盒' WHERE item_id ='13027';
+UPDATE `etcitem` SET `name` ='格蘭肯的禮盒	限時30日' WHERE item_id ='13027';
 UPDATE `etcitem` SET `name` ='活力充能藥草' WHERE item_id ='13028';
 UPDATE `etcitem` SET `name` ='活力充能變身藥草-提米提藍' WHERE item_id ='13029';
 UPDATE `etcitem` SET `name` ='活力充能變身藥草-火山岩高崙' WHERE item_id ='13030';
@@ -8327,7 +8327,7 @@ UPDATE `etcitem` SET `name` ='國王貓帽 7日組-活動用' WHERE item_id ='13
 UPDATE `etcitem` SET `name` ='銀色貓帽 7日組-活動用' WHERE item_id ='13379';
 UPDATE `etcitem` SET `name` ='OX 魔杖 7日組-活動用' WHERE item_id ='13380';
 UPDATE `etcitem` SET `name` ='剪刀石頭布魔杖 7日組-活動用' WHERE item_id ='13381';
-UPDATE `etcitem` SET `name` ='格蘭肯的禮盒-活動用' WHERE item_id ='13382';
+UPDATE `etcitem` SET `name` ='格蘭肯的禮盒-活動用	限時30日' WHERE item_id ='13382';
 UPDATE `etcitem` SET `name` ='狩獵幫手交換券-5小時-活動用' WHERE item_id ='13383';
 UPDATE `etcitem` SET `name` ='狩獵幫手交換券 3張組-活動用' WHERE item_id ='13384';
 UPDATE `etcitem` SET `name` ='狩獵幫手交換券 1張組-活動用' WHERE item_id ='13385';
