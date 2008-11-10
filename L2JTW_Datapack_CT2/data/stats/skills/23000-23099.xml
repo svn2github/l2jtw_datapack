@@ -1,0 +1,51 @@
+<?xml version='1.0' encoding='utf-8'?>
+<list>
+<skill id="23000" levels="1" name="Majo Agathion Cute Trick">
+  <!-- Needs to be verified -->
+  <set name="target" val="TARGET_SELF"/>
+  <set name="skillType" val="UNLOCK"/> <!-- havent found any matching skilltype, this one working fine :) -->
+  <set name="hitTime" val="3000"/>
+  <set name="staticHitTime" val="true"/>
+  <set name="operateType" val="OP_ACTIVE"/>
+  <set name="castRange" val="-1"/>
+  <set name="effectRange" val="-1"/>
+  <for>
+  </for>
+</skill>
+<skill id="23001" levels="1" name="Gold Majo Agathion Cute Trick">
+  <!-- Needs to be verified -->
+  <set name="target" val="TARGET_SELF"/>
+  <set name="skillType" val="UNLOCK"/> <!-- havent found any matching skilltype, this one working fine :) -->
+  <set name="hitTime" val="3000"/>
+  <set name="staticHitTime" val="true"/>
+  <set name="operateType" val="OP_ACTIVE"/>
+  <set name="castRange" val="-1"/>
+  <set name="effectRange" val="-1"/>
+  <for>
+  </for>
+</skill>
+<skill id="23002" levels="1" name="Black Majo Agathion Cute Trick">
+  <!-- Needs to be verified -->
+  <set name="target" val="TARGET_SELF"/>
+  <set name="skillType" val="UNLOCK"/> <!-- havent found any matching skilltype, this one working fine :) -->
+  <set name="hitTime" val="3000"/>
+  <set name="staticHitTime" val="true"/>
+  <set name="operateType" val="OP_ACTIVE"/>
+  <set name="castRange" val="-1"/>
+  <set name="effectRange" val="-1"/>
+  <for>
+  </for>
+</skill>
+<skill id="23003" levels="1" name="Plaipitak Agathion Cute Trick">
+  <!-- Needs to be verified -->
+  <set name="target" val="TARGET_SELF"/>
+  <set name="skillType" val="UNLOCK"/> <!-- havent found any matching skilltype, this one working fine :) -->
+  <set name="hitTime" val="3000"/>
+  <set name="staticHitTime" val="true"/>
+  <set name="operateType" val="OP_ACTIVE"/>
+  <set name="castRange" val="-1"/>
+  <set name="effectRange" val="-1"/>
+  <for>
+  </for>
+</skill>
+</list>
