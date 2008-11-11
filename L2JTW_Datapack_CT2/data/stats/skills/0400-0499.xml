@@ -253,9 +253,9 @@
   </for>
 </skill>
 <skill id="410" levels="3" name="Mortal Strike">
-  <table name="#mpConsume2"> 27 31 34 </table>
+  <table name="#mpConsume"> 27 31 34 </table>
   <table name="#lethalRate"> 1.3 1.6 1.9 </table>
-  <set name="mpConsume2" val="#mpConsume2"/>
+  <set name="mpConsume" val="#mpConsume"/>
   <set name="weaponsAllowed" val="16"/> <!-- Dagger -->
   <set name="reuseDelay" val="300000"/>
   <set name="hitTime" val="2000"/>
@@ -865,7 +865,7 @@
 </skill>
 <skill id="442" levels="1" name="Sonic Barrier">
   <set name="num_charges" val="5"/>
-  <set name="charge_skill_id" val="8"/>
+  <set name="charge_skill_id" val="4271"/>
   <set name="weaponsAllowed" val="512"/> <!-- Dual Sword -->
   <set name="mpConsume" val="65"/>
   <set name="target" val="TARGET_SELF"/>
@@ -890,7 +890,7 @@
   <set name="castRange" val="-1"/>
   <set name="effectRange" val="-1"/>
   <set name="num_charges" val="4"/>
-  <set name="charge_skill_id" val="50"/>
+  <set name="charge_skill_id" val="4271"/>
   <for>
     <effect count="1" name="Invincible" time="10" val="0"/>
   </for>
@@ -1047,7 +1047,7 @@
   <set name="hitTime" val="1000"/>
   <set name="reuseDelay" val="75000"/>
   <set name="target" val="TARGET_SELF"/>
-  <set name="charge_skill_id" val="8"/>
+  <set name="charge_skill_id" val="4271"/>
   <set name="num_charges" val="#charges"/>
   <set name="mpConsume" val="#mpConsume"/>
   <set name="operateType" val="OP_ACTIVE"/>
