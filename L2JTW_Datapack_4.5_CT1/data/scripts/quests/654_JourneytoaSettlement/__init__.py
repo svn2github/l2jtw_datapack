@@ -8,9 +8,9 @@ from net.sf.l2j.gameserver.model.quest.jython import QuestJython as JQuest
 qn = "654_JourneytoaSettlement"
 
 # NPC
-NAMELESS_SPIRIT		= 31453 # 無名的靈魂
+NAMELESS_SPIRIT 	= 31453 # 無名的靈魂
 # MOBS Canyon Antelope
-CANYON_ANTELOPE		= [21294, 21295] # 山谷羚羊
+CANYON_ANTELOPE 	= [21294, 21295] # 山谷羚羊
 # ITEMS
 ANTELOPE_SKIN		= 8072 # 羚羊皮革
 SCROLL			= 8073 # 芙琳泰沙的結界破咒書
@@ -46,23 +46,23 @@ class Quest (JQuest) :
     cond = st.getInt("cond")
     if st.getState() == State.CREATED :
        if st2:
-          if st2.getState() == State.COMPLETED and player.getLevel() > 73 :
-             htmltext= str(npcId)+"-01.htm"
-          else:
-             htmltext= str(npcId)+"-00.htm"
-             st.exitQuest(1)
+	  if st2.getState() == State.COMPLETED and player.getLevel() > 73 :
+	     htmltext= str(npcId)+"-01.htm"
+	  else:
+	     htmltext= str(npcId)+"-00.htm"
+	     st.exitQuest(1)
        else:
-          htmltext= str(npcId)+"-00.htm"
-          st.exitQuest(1)
+	  htmltext= str(npcId)+"-00.htm"
+	  st.exitQuest(1)
     elif st.getState() == State.STARTED:
        if cond == 1 :
-          htmltext = str(npcId)+"-02.htm"
+	  htmltext = str(npcId)+"-02.htm"
        elif cond == 2 :
-          htmltext = str(npcId)+"-03a.htm"
+	  htmltext = str(npcId)+"-03a.htm"
        elif cond == 3 :
-          htmltext = str(npcId)+"-04.htm"
+	  htmltext = str(npcId)+"-04.htm"
     elif st.getState() == State.COMPLETED:
-       htmltext= "<html><body>這是已經完成的任務。</body></html>"
+       htmltext= str(npcId)+"-01.htm"
     return htmltext
 
  def onKill(self,npc,player,isPet):
@@ -70,13 +70,13 @@ class Quest (JQuest) :
     if not st: return
     if st.getState() == State.STARTED :
        if st.getInt("cond") == 2 :
-          if st.getRandom(100) < 5 :
-             st.set("cond","3")
-             st.giveItems(ANTELOPE_SKIN,1)
-             st.playSound("ItemSound.quest_middle")
+	  if st.getRandom(100) < 5 :
+	     st.set("cond","3")
+	     st.giveItems(ANTELOPE_SKIN,1)
+	     st.playSound("ItemSound.quest_middle")
     return
 
-QUEST       = Quest(654,qn,"迎接最終的結局")
+QUEST	    = Quest(654,qn,"迎接最終的結局")
 
 QUEST.addStartNpc(NAMELESS_SPIRIT)
 QUEST.addTalkId(NAMELESS_SPIRIT)
