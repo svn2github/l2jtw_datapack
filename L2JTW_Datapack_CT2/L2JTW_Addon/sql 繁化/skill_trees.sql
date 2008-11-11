@@ -1,4 +1,6 @@
-/***** 貳幕繽炫風 原版 *****/ 
+/************ Made in Taiwan ************/
+
+/***** 貳幕繽炫風 11-11 *****/ 
 /***** skillname-tw *****/ 
 UPDATE `skill_trees` SET `name` = '三連斬' WHERE `skill_id` = '1';
 UPDATE `skill_trees` SET `name` = '混亂術' WHERE `skill_id` = '2';
@@ -1167,3 +1169,5 @@ UPDATE `skill_trees` SET `name` = '神聖閃光' WHERE `skill_id` = '1528';
 UPDATE `skill_trees` SET `name` = '捕魂網' WHERE `skill_id` = '1529';
 UPDATE `skill_trees` SET `name` = '死亡之刺' WHERE `skill_id` = '1530';
 UPDATE `skill_trees` SET `name` = '神佑之血' WHERE `skill_id` = '1531';
+
+/***** Done by vdmyagami！ *****/

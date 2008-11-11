@@ -1,4 +1,6 @@
-/***** 貳幕繽炫風 原版 *****/ 
+/************ Made in Taiwan ************/
+
+/***** 貳幕繽炫風 11-11 *****/ 
 /***** itemname-tw *****/ 
 UPDATE `weapon` SET `name` ='短劍' WHERE item_id ='1';
 UPDATE `weapon` SET `name` ='長劍' WHERE item_id ='2';
@@ -2115,10 +2117,10 @@ UPDATE `weapon` SET `name` ='烈焚天-雷鳴' WHERE item_id ='11206';
 UPDATE `weapon` SET `name` ='烈焚天-雷鳴(速度激發)' WHERE item_id ='11207';
 UPDATE `weapon` SET `name` ='烈焚天-雷鳴(強健)' WHERE item_id ='11208';
 UPDATE `weapon` SET `name` ='烈焚天-雷鳴(偵測)' WHERE item_id ='11209';
-UPDATE `weapon` SET `name` ='玄武岩戰鎚-大地' WHERE item_id ='11210';
-UPDATE `weapon` SET `name` ='玄武岩戰鎚-大地(吸血)' WHERE item_id ='11211';
-UPDATE `weapon` SET `name` ='玄武岩戰鎚-大地(強健)' WHERE item_id ='11212';
-UPDATE `weapon` SET `name` ='玄武岩戰鎚-大地(體力再生)' WHERE item_id ='11213';
+UPDATE `weapon` SET `name` ='玄武岩戰鎚-集中' WHERE item_id ='11210';
+UPDATE `weapon` SET `name` ='玄武岩戰鎚-集中(吸血)' WHERE item_id ='11211';
+UPDATE `weapon` SET `name` ='玄武岩戰鎚-集中(強健)' WHERE item_id ='11212';
+UPDATE `weapon` SET `name` ='玄武岩戰鎚-集中(體力再生)' WHERE item_id ='11213';
 UPDATE `weapon` SET `name` ='薩倫伽神弩-大地' WHERE item_id ='11214';
 UPDATE `weapon` SET `name` ='薩倫伽神弩-大地(節射)' WHERE item_id ='11215';
 UPDATE `weapon` SET `name` ='薩倫伽神弩-大地(偵測)' WHERE item_id ='11216';
@@ -2222,10 +2224,10 @@ UPDATE `weapon` SET `name` ='伊克魯斯刺劍-破壞' WHERE item_id ='11313';
 UPDATE `weapon` SET `name` ='伊克魯斯刺劍-破壞(偵測)' WHERE item_id ='11314';
 UPDATE `weapon` SET `name` ='伊克魯斯刺劍-破壞(強健)' WHERE item_id ='11315';
 UPDATE `weapon` SET `name` ='伊克魯斯刺劍-破壞(輕裝)' WHERE item_id ='11316';
-UPDATE `weapon` SET `name` ='伊克魯斯之靈-大地' WHERE item_id ='11317';
-UPDATE `weapon` SET `name` ='伊克魯斯之靈-大地(靈活思緒)' WHERE item_id ='11318';
-UPDATE `weapon` SET `name` ='伊克魯斯之靈-大地(魔力上升)' WHERE item_id ='11319';
-UPDATE `weapon` SET `name` ='伊克魯斯之靈-大地(魂體轉換)' WHERE item_id ='11320';
+UPDATE `weapon` SET `name` ='伊克魯斯之靈-自然' WHERE item_id ='11317';
+UPDATE `weapon` SET `name` ='伊克魯斯之靈-自然(靈活思緒)' WHERE item_id ='11318';
+UPDATE `weapon` SET `name` ='伊克魯斯之靈-自然(魔力上升)' WHERE item_id ='11319';
+UPDATE `weapon` SET `name` ='伊克魯斯之靈-自然(魂體轉換)' WHERE item_id ='11320';
 UPDATE `weapon` SET `name` ='伊克魯斯之弓-集中' WHERE item_id ='11321';
 UPDATE `weapon` SET `name` ='伊克魯斯之弓-集中(節射)' WHERE item_id ='11322';
 UPDATE `weapon` SET `name` ='伊克魯斯之弓-集中(導引)' WHERE item_id ='11323';
@@ -2938,3 +2940,5 @@ UPDATE `weapon` SET `name` ='剪刀魔杖-活動用	限時7日' WHERE item_id ='
 UPDATE `weapon` SET `name` ='石頭魔杖-活動用	限時7日' WHERE item_id ='13337';
 UPDATE `weapon` SET `name` ='布魔杖-活動用	限時7日' WHERE item_id ='13338';
 UPDATE `weapon` SET `name` ='南瓜變身魔杖-活動用	限時7日' WHERE item_id ='13339';
+
+/***** Done by vdmyagami！ *****/ 

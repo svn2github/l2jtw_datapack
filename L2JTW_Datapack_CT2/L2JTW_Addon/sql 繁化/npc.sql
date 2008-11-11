@@ -1,4 +1,6 @@
-/***** 貳幕繽炫風 原版 *****/ 
+/************ Made in Taiwan ************/
+
+/***** 貳幕繽炫風 11-11 *****/ 
 /***** npcname-tw *****/ 
 UPDATE `npc` SET `name`='葛林' WHERE `id`='20001';
 UPDATE `npc` SET `name`='兔子' WHERE `id`='20002';
@@ -799,7 +801,7 @@ UPDATE `npc` SET `name`='血的祭司' WHERE `id`='20962';
 UPDATE `npc` SET `name`='血的統治者' WHERE `id`='20963';
 UPDATE `npc` SET `name`='巨大腳印' WHERE `id`='20964';
 UPDATE `npc` SET `name`='妄想的破片' WHERE `id`='20965';
-UPDATE `npc` SET `name`='黑色影子' WHERE `id`='20966';
+UPDATE `npc` SET `name`='突變的創造物' WHERE `id`='20966';
 UPDATE `npc` SET `name`='過去的創造物' WHERE `id`='20967';
 UPDATE `npc` SET `name`='不存在者' WHERE `id`='20968';
 UPDATE `npc` SET `name`='巨人的影子' WHERE `id`='20969';
@@ -2000,7 +2002,7 @@ UPDATE `npc` SET `name`='大師的手下' WHERE `id`='22379';
 UPDATE `npc` SET `name`='大師珮斯提納' WHERE `id`='22380';
 UPDATE `npc` SET `name`='大師的警衛兵' WHERE `id`='22381';
 UPDATE `npc` SET `name`='大師的警衛兵' WHERE `id`='22382';
-UPDATE `npc` SET `name`='托里士玩具' WHERE `id`='22383';
+UPDATE `npc` SET `name`='托里士的玩具' WHERE `id`='22383';
 UPDATE `npc` SET `name`='魔法師的玩具' WHERE `id`='22384';
 UPDATE `npc` SET `name`='托里士的高崙警衛兵' WHERE `id`='22385';
 UPDATE `npc` SET `name`='工作所的魔法師' WHERE `id`='22386';
@@ -3249,8 +3251,8 @@ UPDATE `npc` SET `name`='巫女的守護者' WHERE `id`='18365';
 UPDATE `npc` SET `name`='巫女的守護者' WHERE `id`='18366';
 UPDATE `npc` SET `name`='監獄的警衛兵' WHERE `id`='18367';
 UPDATE `npc` SET `name`='監獄的警衛兵' WHERE `id`='18368';
-UPDATE `npc` SET `name`='被眩惑的水晶高崙' WHERE `id`='18369';
-UPDATE `npc` SET `name`='被眩惑的水晶高崙' WHERE `id`='18370';
+UPDATE `npc` SET `name`='被迷惑的水晶高崙' WHERE `id`='18369';
+UPDATE `npc` SET `name`='被迷惑的水晶高崙' WHERE `id`='18370';
 UPDATE `npc` SET `name`='巴列斯的實驗體' WHERE `id`='18371';
 UPDATE `npc` SET `name`='巴列斯的實驗體' WHERE `id`='18372';
 UPDATE `npc` SET `name`='巴列斯的實驗體' WHERE `id`='18373';
@@ -3491,7 +3493,7 @@ UPDATE `npc` SET `name`='畢羅卡' WHERE `id` ='18616';
 UPDATE `npc` SET `name`='' WHERE `id` ='18617';
 UPDATE `npc` SET `name`='' WHERE `id` ='18618';
 UPDATE `npc` SET `name`='' WHERE `id` ='18619';
-UPDATE `npc` SET `name`='鐵線蕨' WHERE `id` ='18620';
+UPDATE `npc` SET `name`='埃迪安藤' WHERE `id` ='18620';
 UPDATE `npc` SET `name`='' WHERE `id` ='18621';
 UPDATE `npc` SET `name`='火藥桶' WHERE `id` ='18622';
 UPDATE `npc` SET `name`='怨恨的弓手' WHERE `id` ='18623';
@@ -6039,14 +6041,14 @@ UPDATE `npc` SET `name`='脫逃裝置' WHERE `id` ='32496';
 UPDATE `npc` SET `name`='調查官 艾德勒' WHERE `id` ='32497';
 UPDATE `npc` SET `name`='惡魔島的復活者' WHERE `id` ='32498';
 UPDATE `npc` SET `name`='肯特拉獸人 咒術士' WHERE `id` ='32499';
-UPDATE `npc` SET `name`='神殿的調查官' WHERE `id` ='32500';
+UPDATE `npc` SET `name`='調查官 悉奈' WHERE `id` ='32500';
 UPDATE `npc` SET `name`='惡魔島的協助者' WHERE `id` ='32501';
 UPDATE `npc` SET `name`='肯特拉獸人協助者' WHERE `id` ='32502';
 UPDATE `npc` SET `name`='入場管理員', `title`='柯雷塔的晶體' WHERE `id` ='32503';
 UPDATE `npc` SET `name`='競技執行者', `title`='柯雷塔的晶體' WHERE `id` ='32504';
 UPDATE `npc` SET `name`='競技執行者', `title`='柯雷塔的晶體' WHERE `id` ='32505';
 UPDATE `npc` SET `name`='競技執行者', `title`='柯雷塔的晶體' WHERE `id` ='32506';
-UPDATE `npc` SET `name`='調查官 悉奈' WHERE `id` ='32507';
+UPDATE `npc` SET `name`='神殿的調查官' WHERE `id` ='32507';
 UPDATE `npc` SET `name`='矮人探險家' WHERE `id` ='32508';
 UPDATE `npc` SET `name`='肯特拉獸人諜報員' WHERE `id` ='32509';
 UPDATE `npc` SET `name`='調查官 艾德勒' WHERE `id` ='32510';
@@ -8620,13 +8622,14 @@ UPDATE `npc` SET `name`='' WHERE `id` ='13137';
 UPDATE `npc` SET `name`='' WHERE `id` ='13138';
 UPDATE `npc` SET `name`='' WHERE `id` ='13139';
 UPDATE `npc` SET `name`='' WHERE `id` ='13140';
-UPDATE `npc` SET `name`='最終形體' WHERE `id` ='13141';
+UPDATE `npc` SET `name`='' WHERE `id` ='13141';
 UPDATE `npc` SET `name`='媽祖壺精' WHERE `id` ='1501';
 UPDATE `npc` SET `name`='金面壺精' WHERE `id` ='1502';
 UPDATE `npc` SET `name`='黑面壺精' WHERE `id` ='1503';
 UPDATE `npc` SET `name`='普萊皮塔壺精' WHERE `id` ='1504';
-
 #=================================================================
 UPDATE `npc` SET `name`='安杜露美達', `title`='結婚管理員' WHERE `id`='50007';
 UPDATE `npc` SET `name`='艾麗絲 蒂 凱特琳娜', `title`='TVT活動管理員' WHERE `id`='70010';
 UPDATE `npc` SET `name`='勞拉', `title`='輔助管理員' WHERE `id`='1000003';
+
+/***** Done by vdmyagami！ *****/

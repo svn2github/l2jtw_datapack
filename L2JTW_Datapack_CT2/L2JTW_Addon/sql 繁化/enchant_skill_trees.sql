@@ -1,4 +1,6 @@
-/***** 貳幕繽炫風 原版 *****/ 
+/************ Made in Taiwan ************/
+
+/***** 貳幕繽炫風 11-11 *****/ 
 /***** skillname-tw *****/ 
 UPDATE `enchant_skill_trees` SET `name` = '三連斬' WHERE `skill_id` = '1';
 UPDATE `enchant_skill_trees` SET `name` = '波動連斬' WHERE `skill_id` = '5';
@@ -471,3 +473,5 @@ UPDATE `enchant_skill_trees` SET `name` = '阻絕封印' WHERE `skill_id` = '146
 UPDATE `enchant_skill_trees` SET `name` = '雷歐波爾德' WHERE `skill_id` = '1469';
 UPDATE `enchant_skill_trees` SET `name` = '弗萊格拉克' WHERE `skill_id` = '1470';
 UPDATE `enchant_skill_trees` SET `name` = '深淵的力量' WHERE `skill_id` = '1474';
+
+/***** Done by vdmyagami！ *****/

@@ -1,4 +1,6 @@
-/***** 貳幕繽炫風 原版 *****/ 
+/************ Made in Taiwan ************/
+
+/***** 貳幕繽炫風 11-11 *****/ 
 /***** itemname-tw *****/ 
 UPDATE `armor` SET `name` ='布襯衫' WHERE item_id ='21';
 UPDATE `armor` SET `name` ='皮襯衫' WHERE item_id ='22';
@@ -31,7 +33,7 @@ UPDATE `armor` SET `name` ='短手套' WHERE item_id ='48';
 UPDATE `armor` SET `name` ='手套' WHERE item_id ='49';
 UPDATE `armor` SET `name` ='皮手套' WHERE item_id ='50';
 UPDATE `armor` SET `name` ='腕甲' WHERE item_id ='51';
-UPDATE `armor` SET `name` ='麻質斗篷' WHERE item_id ='52';
+UPDATE `armor` SET `name` ='薄暮雙刀' WHERE item_id ='52';
 UPDATE `armor` SET `name` ='棉質斗篷' WHERE item_id ='53';
 UPDATE `armor` SET `name` ='絲綢斗篷' WHERE item_id ='54';
 UPDATE `armor` SET `name` ='棉質內衣' WHERE item_id ='55';
@@ -2068,9 +2070,9 @@ UPDATE `armor` SET `name` ='封印的夢魘頭盔(輕裝用)' WHERE item_id ='13
 UPDATE `armor` SET `name` ='封印的夢魘頭盔(長袍用)' WHERE item_id ='13001';
 UPDATE `armor` SET `name` ='淡紫鬃馬騎乘手鐲	限時7日' WHERE item_id ='13022';
 UPDATE `armor` SET `name` ='愛心壺精	限時30日' WHERE item_id ='13023';
-UPDATE `armor` SET `name` ='憤怒壺精' WHERE item_id ='13024';
-UPDATE `armor` SET `name` ='喜悅壺精' WHERE item_id ='13025';
-UPDATE `armor` SET `name` ='悲傷壺精' WHERE item_id ='13026';
+UPDATE `armor` SET `name` ='憤怒壺精	限時30日' WHERE item_id ='13024';
+UPDATE `armor` SET `name` ='喜悅壺精	限時30日' WHERE item_id ='13025';
+UPDATE `armor` SET `name` ='悲傷壺精	限時30日' WHERE item_id ='13026';
 UPDATE `armor` SET `name` ='底格里斯專用防具' WHERE item_id ='13050';
 UPDATE `armor` SET `name` ='賽勒諾斯頭飾' WHERE item_id ='13058';
 UPDATE `armor` SET `name` ='巴瑞卡卡輪(巴瑞卡賽勒諾斯用)' WHERE item_id ='13234';
@@ -2120,11 +2122,11 @@ UPDATE `armor` SET `name` ='柯雷塔條紋鱗片襯衫	CP' WHERE item_id ='1339
 UPDATE `armor` SET `name` ='柯雷塔條紋米索莉襯衫	CP' WHERE item_id ='13392';
 UPDATE `armor` SET `name` ='幻象武器-猴子帽' WHERE item_id ='13393';
 UPDATE `armor` SET `name` ='幻象武器-豬仔帽' WHERE item_id ='13394';
-UPDATE `armor` SET `name` ='薄暮胸鎧' WHERE item_id ='13415';
-UPDATE `armor` SET `name` ='薄暮鍊衫' WHERE item_id ='13416';
-UPDATE `armor` SET `name` ='薄暮靴(長袍)' WHERE item_id ='13429';
-UPDATE `armor` SET `name` ='薄暮盾' WHERE item_id ='13430';
-UPDATE `armor` SET `name` ='薄暮貴族脛甲(重裝)' WHERE item_id ='13431';
+UPDATE `armor` SET `name` ='青蛙帽' WHERE item_id ='13415';
+UPDATE `armor` SET `name` ='弱雞帽' WHERE item_id ='13416';
+UPDATE `armor` SET `name` ='熊熊帽-活動用' WHERE item_id ='13429';
+UPDATE `armor` SET `name` ='豬豬帽-活動用' WHERE item_id ='13430';
+UPDATE `armor` SET `name` ='小丑帽-活動用' WHERE item_id ='13431';
 UPDATE `armor` SET `name` ='壺精封印手鐲-媽祖' WHERE item_id ='20006';
 UPDATE `armor` SET `name` ='壺精封印手鐲-金面媽祖' WHERE item_id ='20007';
 UPDATE `armor` SET `name` ='壺精封印手鐲-黑面媽祖' WHERE item_id ='20008';
@@ -2148,3 +2150,5 @@ UPDATE `armor` SET `name` ='淡紫鬃馬騎乘手鐲' WHERE item_id ='20029';
 UPDATE `armor` SET `name` ='淡紫鬃馬騎乘手鐲	限時30日' WHERE item_id ='20030';
 UPDATE `armor` SET `name` ='戰鬥貓帽' WHERE item_id ='20031';
 UPDATE `armor` SET `name` ='骷髏帽' WHERE item_id ='20032';
+
+/***** Done by vdmyagami！ *****/

@@ -1,4 +1,6 @@
-/***** 貳幕 11-5 *****/ 
+/************ Made in Taiwan ************/
+
+/***** 貳幕繽炫風 11-11 *****/ 
 /***** castlename-tw *****/ 
 /***** auction.sql *****/
 UPDATE `auction` SET `itemName` = '月長石廳' WHERE `itemId` = 22;
@@ -1046,3 +1048,5 @@ UPDATE `walker_routes` SET `chatText` = '你有看到溫達伍德嗎？' WHERE `
 UPDATE `walker_routes` SET `chatText` = '運送給雷克特？好好，知道了～' WHERE `route_id` = '8' AND `move_point` = 1;
 UPDATE `walker_routes` SET `chatText` = '啦啦啦啦～' WHERE `route_id` = '8' AND `move_point` = 5;
 UPDATE `walker_routes` SET `chatText` = '你好！雷克特！傑克森也好久不見！' WHERE `route_id` = '8' AND `move_point` = 9;
+
+/***** Done by vdmyagami！ *****/

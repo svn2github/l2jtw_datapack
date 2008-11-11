@@ -1,4 +1,6 @@
-/***** 貳幕 11-5 *****/ 
+/************ Made in Taiwan ************/
+
+/***** 貳幕繽炫風 11-11 *****/ 
 /***** castlename-tw *****/ 
 /***** castle.sql *****/
 UPDATE `castle` SET `name` = '古魯丁城' WHERE `name` = 'Gludio';
@@ -26,3 +28,5 @@ UPDATE `merchant_areas_list` SET `merchant_area_name` = '象牙塔' WHERE `merch
 UPDATE `merchant_areas_list` SET `merchant_area_name` = '哈汀學院' WHERE `merchant_area_id` = 12;
 UPDATE `merchant_areas_list` SET `merchant_area_name` = '亞丁' WHERE `merchant_area_id` = 13;
 UPDATE `merchant_areas_list` SET `merchant_area_name` = '城堡' WHERE `merchant_area_id` = 14;
+
+/***** Done by vdmyagami！ *****/
