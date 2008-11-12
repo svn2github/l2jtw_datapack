@@ -144,8 +144,8 @@ class Quest (JQuest) :
                         spawnedNpc = st.addSpawn(Eye,xx,yy,zz,10000)
                         st.set("spawned","1")
                         st.set("npcid",str(npc.getObjectId()))
-                        AutoChat(spawnedNpc,"You cannot escape Asefa's eyes!")
-                        st.startQuestTimer("Asefa's Eye has despawned",9500,spawnedNpc)
+                        #AutoChat(spawnedNpc,"You cannot escape Asefa's eyes!")           #現在都不會出這對話
+                        #st.startQuestTimer("Asefa's Eye has despawned",9500,spawnedNpc)  #現在都不會出這對話
                         if Red_Totem :
                             st.takeItems(Totem,-1)
     return
