@@ -1,0 +1,28 @@
+<html><body>
+<table width=260><tr>
+<td width=40><button value="首頁" action="bypass -h admin_admin" width=40 height=15 back="L2UI_ct1.button_df" fore="L2UI_ct1.button_df"></td>
+<td width=180><center>人物選擇介面</center></td>
+<td width=40><button value="返回" action="bypass -h admin_show_skills" width=40 height=15 back="L2UI_ct1.button_df" fore="L2UI_ct1.button_df"></td>
+</tr></table>
+<br><br>
+<center>修改人物 <font color="LEVEL">%player%</font></center>
+<br><table width=270><tr><td>等級: %lvl%</td></tr></table>
+<br><table width=270><tr><td>注意: 隨意修改人物會導致遊戲失去平衡</td></tr>
+<tr><td></td></tr></table>
+<br><center>點選技能移除:</center>
+<br>
+<center><table width=270><tr>
+%page%
+</tr></table></center>
+<br><table width=270>
+<tr><td width=80>名稱:</td><td width=60>等級:</td><td width=40>編號:</td></tr>
+%skill%
+</table>
+<br><center><table>
+使用技能編號移除 :
+<tr><td>Id: </td>
+<td><edit var="id_to_remove" width=110></td></tr>
+</table></center>
+<center><button value="移除" action="bypass -h admin_remove_skill $id_to_remove" width=110 height=15 back="L2UI_ct1.button_df" fore="L2UI_ct1.button_df"></center>
+<br><center><button value="返回" action="bypass -h admin_current_player" width=40 height=15 back="L2UI_ct1.button_df" fore="L2UI_ct1.button_df"></center>
+</body></html>
