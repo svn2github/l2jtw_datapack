@@ -1,60 +1,68 @@
-#Syntax:
+#範例:
 #  itemID;npcID;summonType
 #
-# summonType: 0 = static, 1 = pet, 2 = wyvern
+# 召喚類型: 0 = 道具, 1 = 寵物, 2 = 飛龍
 #
 
-#Static
-# Christmas Tree
+#道具
+# 聖誕樹/聖誕樹
 5560;13006;0
-# Special Cristmas Tree
+# 高級聖誕樹/高級聖誕樹
 5561;13007;0
 
-#Pets
-# Wolf
+#寵物
+# 狼喉輪/狼
 2375;12077;1
-#Black Wolf
+# 黑鬃狼項鍊/黑鬃狼
 9882;16025;1
-# Great Wolf
+# 狼項鍊/黑鬃狼
 10163;16030;1
-# White Great Wolf
+# 白鬃狼項鍊/白鬃狼
 10307;16037;1
-# Fenrir
+# 座狼項鍊/座狼
 10426;16041;1
-# White Fenrir
+# 白座狼項鍊/白座狼
 10611;16042;1
-# Hatchling of Wind
+# 風龍笛/風幼龍
 3500;12311;1
-# Hatchling of Star
+# 星龍笛/星幼龍
 3501;12312;1
-# Hatchling of Twilight
+# 黃昏龍笛/黃昏幼龍
 3502;12313;1
-# Wind Strider
+# 風龍號角/風座龍
 4422;12526;1
-# Star Strider
+# 星龍號角/星座龍
 4423;12527;1
-# Twilight Strider
+# 黃昏龍號角/黃昏座龍
 4424;12528;1
-# Red Wind Strider
+# 赤紅風龍號角/赤紅風座龍
 10308;16038;1
-# Red Star Strider
+# 赤紅星龍號角/赤紅星座龍
 10309;16039;1
-# Red Twilight Strider
+# 赤紅黃昏龍號角/赤紅黃昏座龍
 10310;16040;1
-# Sin Eater
+# 贖罪者手銬/噬罪者
 4425;12564;1
-# Baby Bufallo
+# 小野牛之笛/小野牛
 6648;12780;1
-# Baby Cougar
+# 小老虎之鐘/小老虎
 6649;12782;1
-# Baby Kookaburra
+# 小笑翠鳥之笛/小笑翠鳥
 6650;12781;1
-# IBaby Bufallo
+# 改良型野牛之笛/改良型小野牛
 10311;16034;1
-# IBaby Cougar
+# 改良型老虎之鐘/改良型小笑翠鳥
 10312;16036;1
-# IBaby Kookaburra
+# 改良型笑翠鳥之笛/改良型小老虎
 10313;16035;1
+# 白鼬鼠狩獵幫手項鍊/白鼬鼠
+13017;16045;1
+# 妖精公主狩獵幫手項鍊/妖精公主
+13018;16046;1
+# 野獸鬥士狩獵幫手項鍊/野獸鬥士
+13019;16044;1
+# 狐狸術士狩獵幫手項鍊/狐狸術士
+13020;16043;1
 
-#Wyvern
+#疑問藥水(三週年活動用)/飛龍
 8663;12621;2
