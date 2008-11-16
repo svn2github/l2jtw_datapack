@@ -1,10 +1,8 @@
 /************ Made in Taiwan ************/
 
 /************ 釣魚會員32007 修正 ************/
-
 Delete From merchant_shopids Where npc_id in (32007);
 Delete From merchant_buylists Where shop_id in (3200700);
-
 INSERT INTO merchant_shopids VALUES (3200700,'32007');
 INSERT INTO `merchant_buylists` (`item_id`,`price`,`shop_id`,`order`) VALUES
 (7807,-1,3200700,0),
@@ -38,7 +36,6 @@ INSERT INTO `merchant_buylists` (`item_id`,`price`,`shop_id`,`order`) VALUES
 
 
 /************ 地獄邊界 NPC 修正 (gto提供) ************/
-
 DELETE FROM npc WHERE id= "22315";
 DELETE FROM npc WHERE id= "22316";
 DELETE FROM npc WHERE id= "22317";
@@ -67,7 +64,6 @@ DELETE FROM npc WHERE id= "22345";
 DELETE FROM npc WHERE id= "22346";
 DELETE FROM npc WHERE id= "22347";
 DELETE FROM npc WHERE id= "22349";
-
 INSERT INTO npc (`id`, `idTemplate`, `name`, `serverSideName`, `title`, `serverSideTitle`, `class`, `collision_radius`, `collision_height`, `level`, `sex`, `type`, `attackrange`, `hp`, `mp`, `hpreg`, `mpreg`, `str`, `con`, `dex`, `int`, `wit`, `men`, `exp`, `sp`, `patk`, `pdef`, `matk`, `mdef`, `atkspd`, `aggro`, `matkspd`, `rhand`, `lhand`, `armor`, `walkspd`, `runspd`, `faction_id`, `faction_range`, `isUndead`, `absorb_level`, `absorb_type`, `ss`, `bss`, `ss_rate`, `AI`, `drop_herbs`) VALUES
 (22315, 22315, "Garden Guard ", 0, "", 0, "LineageMonster.water_giant", 20, 27, 83, "male", "L2Monster", 40, 4716, 1972, 26.86, 3.09, 40, 43, 30, 21, 20, 10, 10475, 1217, 2249, 736, 1258, 494, 200, 0, 333, 0, 0, 0, 22, 181, "NULL", 0, 0, 0, "LAST_HIT", 0, 0, 0, "fighter", "false"),
 (22316, 22316, "Garden Guardian Tree", 0, "", 0, "LineageMonster3.Jungle_Bleeze", 20, 27, 83, "male", "L2Monster", 40, 4716, 1972, 26.86, 3.09, 40, 43, 30, 21, 20, 10, 10475, 1217, 2249, 736, 1258, 494, 200, 0, 333, 0, 0, 0, 22, 181, "NULL", 0, 0, 0, "LAST_HIT", 0, 0, 0, "fighter", "false"),
@@ -98,8 +94,8 @@ INSERT INTO npc (`id`, `idTemplate`, `name`, `serverSideName`, `title`, `serverS
 (22347, 22347, "Quarry Patrolman", 0, "", 0, "LineageMonster4.eyeless_080p", 34, 35, 1, "male", "L2Monster", 40, 2444, 2444, 0, 0, 10, 10, 10, 10, 10, 10, 0, 0, 500, 500, 500, 500, 278, 0, 333, 0, 0, NULL, 60, 210, "", 0, 0, 0, "LAST_HIT", 0, 0, 0, "balanced", "false"),
 (22349, 22349, "Chimera of Earth", 0, "", 0, "LineageMonster4.Chimera", 35, 36, 1, "male", "L2Monster", 40, 2444, 2444, 0, 0, 10, 10, 10, 10, 10, 10, 0, 0, 500, 500, 500, 500, 253, 0, 253, 0, 0, NULL, 80, 120, "", 0, 0, 0, "LAST_HIT", 0, 0, 0, "balanced", "false");
 
-/************ 地獄邊界 NPC 掉落物品修正 (gto提供) ************/
 
+/************ 地獄邊界 NPC 掉落物品修正 (gto提供) ************/
 DELETE FROM `droplist` where `mobId`='22288';
 DELETE FROM `droplist` where `mobId`='22320';
 DELETE FROM `droplist` where `mobId`='22321';
@@ -367,10 +363,9 @@ INSERT INTO `droplist` VALUES
 (22343,4034,1,1,2,2000),
 (22343,4041,1,1,2,1686); -- Dragon Grinder Edge
 
+
 /************ 赤紅座龍 修正 (gto提供) ************/
-
 DELETE FROM npc WHERE id IN ( 16038,16039,16040 );
-
 INSERT INTO `npc` VALUES
 (16038, 16038, "Red Wind Strider", 0, "", 0, "Monster.strider", 8, 29, 70, "male", "L2Npc", 40, 2444, 2444, 0, 0, 10, 10, 10, 10, 10, 10, 0, 0, 500, 500, 500, 500, 278, 0, 333, 0, 0, NULL, 60, 60, "", 0, 0, 0, "LAST_HIT", 0, 0, 0, "balanced", "false"),
 (16039, 16039, "Red Star Strider", 0, "", 0, "Monster.strider", 8, 29, 70, "male", "L2Npc", 40, 2444, 2444, 0, 0, 10, 10, 10, 10, 10, 10, 0, 0, 500, 500, 500, 500, 278, 0, 333, 0, 0, NULL, 60, 60, "", 0, 0, 0, "LAST_HIT", 0, 0, 0, "balanced", "false"),
@@ -378,9 +373,7 @@ INSERT INTO `npc` VALUES
 
 
 /************ 媽祖壺精的手鐲 修正 ************/
-
 Delete From armor Where item_id in (20006,20007,20008,20012);
-
 INSERT INTO `armor` VALUES
 (20006,'Agathion Seal Bracelet - Majo','lbracelet','true','none',150, 'wood','none',0,-1,0,0,0,0,0,'false','false','true','false','3267-1;21000-1;23000-1;'),
 (20007,'Agathion Seal Bracelet - Gold Majo','lbracelet','true','none',150, 'wood','none',0,-1,0,0,0,0,0,'false','false','true','false','3267-1;21001-1;23001-1;'),
