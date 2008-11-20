@@ -66,38 +66,92 @@
 </item>
 <item id='10491' name="Silk Shirt - HP">
   <for>
+    <add val='17' order='0x10' stat='pDef'/>
+    <add val='118' order='0x10' stat='maxHp'>
+      <and>
+        <using slotitem="10491;0;4"/>
+      </and>
+    </add>
   </for>
 </item>
 <item id='10492' name="Silk Shirt - MP">
   <for>
+    <add val='17' order='0x10' stat='pDef'/>
+    <add val='51' order='0x10' stat='maxMp'>
+      <and>
+        <using slotitem="10492;0;4"/>
+      </and>
+    </add>
   </for>
 </item>
 <item id='10493' name="Silk Shirt - CP">
   <for>
+    <add val='17' order='0x10' stat='pDef'/>
+    <add val='354' order='0x10' stat='maxCp'>
+      <and>
+        <using slotitem="10493;0;4"/>
+      </and>
+    </add>
   </for>
 </item>
 <item id='10494' name="Thin Leather Shirt - HP">
   <for>
+    <add val='21' order='0x10' stat='pDef'/>
+    <add val='147' order='0x10' stat='maxHp'>
+      <and>
+        <using slotitem="10494;0;4"/>
+      </and>
+    </add>
   </for>
 </item>
 <item id='10495' name="Thin Leather Shirt - MP">
   <for>
+    <add val='21' order='0x10' stat='pDef'/>
+    <add val='72' order='0x10' stat='maxMp'>
+      <and>
+        <using slotitem="10495;0;4"/>
+      </and>
+    </add>
   </for>
 </item>
 <item id='10496' name="Thin Leather Shirt - CP">
   <for>
+    <add val='21' order='0x10' stat='pDef'/>
+    <add val='441' order='0x10' stat='maxCp'>
+      <and>
+        <using slotitem="10496;0;4"/>
+      </and>
+    </add>
   </for>
 </item>
 <item id='10497' name="Scale Shirt - HP">
   <for>
+    <add val='23' order='0x10' stat='pDef'/>
+    <add val='172' order='0x10' stat='maxHp'>
+      <and>
+        <using slotitem="10497;0;4"/>
+      </and>
+    </add>
   </for>
 </item>
 <item id='10498' name="Scale Shirt - MP">
   <for>
+    <add val='23' order='0x10' stat='pDef'/>
+    <add val='85' order='0x10' stat='maxMp'>
+      <and>
+        <using slotitem="10498;0;4"/>
+      </and>
+    </add>
   </for>
 </item>
 <item id='10499' name="Scale Shirt - CP">
   <for>
+    <add val='23' order='0x10' stat='pDef'/>
+    <add val='516' order='0x10' stat='maxCp'>
+      <and>
+        <using slotitem="10499;0;4"/>
+      </and>
+    </add>
   </for>
 </item>
 </list>

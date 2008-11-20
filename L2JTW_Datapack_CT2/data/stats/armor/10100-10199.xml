@@ -78,6 +78,7 @@
   <for>
    <add val='71' order='0x10' stat='mDef'/>
    <add val='31' order='0x10' stat='maxMp'/>
+   <sub order="0x40" stat="darkVuln" val="0.30"/>
    <enchant val='0' order='0x0C' stat='mDef'/>
   </for>
 </item>
