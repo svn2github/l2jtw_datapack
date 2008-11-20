@@ -556,7 +556,6 @@
   <set name="reuseDelay" val="8000"/>
   <set name="hitTime" val="2000"/>
   <set name="skillType" val="POISON"/>
-  <set name="killByDOT" val="false"/>
   <set name="isDebuff" val="true"/>
   <set name="isMagic" val="true"/>
   <set name="operateType" val="OP_ACTIVE"/>
@@ -579,7 +578,6 @@
   <set name="reuseDelay" val="8000"/>
   <set name="hitTime" val="2000"/>
   <set name="skillType" val="POISON"/>
-  <set name="killByDOT" val="false"/>
   <set name="isDebuff" val="true"/>
   <set name="isMagic" val="true"/>
   <set name="operateType" val="OP_ACTIVE"/>
@@ -630,7 +628,7 @@
   <set name="castRange" val="600"/>
   <set name="effectRange" val="1100"/>
   <for>
-    <effect count="1" name="Debuff" time="15" val="0" stackOrder="#Tab-pAtkSpd" stackType="pAtkSpdDown">
+    <effect count="1" name="Debuff" time="15" val="0" stackOrder="#Tab-pAtkSpd" stackType="attack_time_up">
       <mul order="0x30" stat="pAtkSpd" val="#Tab-pAtkSpd"/>
     </effect>
   </for>
@@ -877,7 +875,6 @@
   <set name="power" val="70"/> <!-- Base Land Rate -->
   <set name="target" val="TARGET_ONE"/>
   <set name="skillType" val="POISON"/>
-  <set name="killByDOT" val="false"/>
   <set name="isDebuff" val="true"/>
   <set name="isMagic" val="true"/>
   <set name="operateType" val="OP_ACTIVE"/>
@@ -937,7 +934,7 @@
   <set name="castRange" val="-1"/>
   <set name="effectRange" val="-1"/>
   <for>
-    <effect count="1" name="Debuff" time="30" val="0" stackOrder="0.77" stackType="pAtkSpdDown"> <!-- time is guessed -->
+    <effect count="1" name="Debuff" time="15" val="0" stackOrder="0.77" stackType="attack_time_up">
        <mul order="0x30" stat="pAtkSpd" val="0.77"/>
     </effect>
   </for>
@@ -1160,7 +1157,7 @@
   <set name="castRange" val="-1"/>
   <set name="effectRange" val="-1"/>
   <for>
-    <effect name="Debuff" time="120" count="1" val="0" stackOrder="0.77" stackType="pAtkSpdDown">
+    <effect name="Debuff" time="15" count="1" val="0" stackOrder="0.77" stackType="attack_time_up">
       <mul order="0x30" stat="pAtkSpd" val="0.77"/>
     </effect>
   </for>
@@ -1470,7 +1467,6 @@
   <set name="reuseDelay" val="6000"/>
   <set name="hitTime" val="1000"/>
   <set name="skillType" val="BLEED"/>
-  <set name="killByDOT" val="false"/>
   <set name="isDebuff" val="true"/>
   <set name="isMagic" val="true"/>
   <set name="operateType" val="OP_ACTIVE"/>

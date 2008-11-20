@@ -10,7 +10,8 @@
   <table name="#mpConsume"> 52 54 55 58 60 62 64 65 67 69 </table>
   <table name="#power"> 230 250 270 290 310 330 350 370 390 411 </table>
   <table name="#itemConsumeCount"> 3 3 4 4 4 4 5 5 5 5 </table>
-  <table name="#lethal2"> 5 9 13 17 21 25 29 33 37 41</table>
+  <table name="#magicLvl"> 56 58 60 62 64 66 68 70 72 74 </table>
+  <set name="magicLvl" val="#magicLvl"/>
   <set name="power" val="#power"/>
   <set name="mpConsume" val="#mpConsume"/>
   <set name="itemConsumeId" val="3031"/>
@@ -21,7 +22,7 @@
   <set name="skillType" val="FEAR"/>
   <set name="isDebuff" val="true"/>
   <set name="operateType" val="OP_ACTIVE"/>
-  <set name="lethal2" val="#lethal2"/>
+  <set name="lethal2" val="40"/>
   <set name="castRange" val="900"/>
   <set name="effectRange" val="1400"/>
   <set name="isMagic" val="true"/>
@@ -303,8 +304,8 @@
       <mul order="0x30" stat="mDef" val="1.30"/>
       <mul order="0x30" stat="mAtk" val="1.30"/>
       <mul order="0x30" stat="maxMp" val="1.20"/>
-      <mul order="0x30" stat="MpConsumeRate" val="0.80"/>
-      <mul order="0x30" stat="mCritRate" val="1.2"/> <!-- Guessing -->
+      <mul order="0x30" stat="MagicalMpConsumeRate" val="0.80"/>
+      <mul order="0x30" stat="mCritRate" val="1.02"/> <!-- Guessing -->
     </effect>
   </for>
 </skill>
@@ -1178,7 +1179,6 @@
   <set name="castRange" val="900"/>
   <set name="effectRange" val="-1"/>
   <set name="effectType" val="DOT"/>
-  <set name="killByDOT" val="false"/>
   <set name="effectPower" val="40"/> <!-- Guessing -->
   <for>
     <effect count="7" name="DamOverTime" time="3" val="100"/>
@@ -1242,7 +1242,6 @@
   <set name="castRange" val="900"/>
   <set name="effectRange" val="1400"/>
   <set name="effectType" val="DOT"/>
-  <set name="killByDOT" val="false"/>
   <set name="effectPower" val="40"/> <!-- Guessing -->
   <for>
     <effect count="5" name="DamOverTime" time="3" val="100"/>
@@ -1283,7 +1282,7 @@
   <for>
     <effect count="1" name="Buff" time="120" val="0">
       <mul order="0x30" stat="mAtk" val="1.25"/>
-      <mul order="0x30" stat="MpConsumeRate" val="1.20"/>
+      <mul order="0x30" stat="MagicalMpConsumeRate" val="1.20"/>
     </effect>
   </for>
 </skill>
@@ -1305,7 +1304,6 @@
   <set name="castRange" val="900"/>
   <set name="effectRange" val="1400"/>
   <set name="effectType" val="DOT"/>
-  <set name="killByDOT" val="false"/>
   <set name="effectPower" val="40"/> <!-- Guessing -->
   <for>
     <effect count="7" name="DamOverTime" time="3" val="100"/>
@@ -1376,7 +1374,7 @@
   <set name="castRange" val="-1"/>
   <set name="effectPower" val="90"/> <!-- Base Land Rate --> <!-- Should be 100% ? -->
   <set name="effectRange" val="-1"/>
-  <set name="effectType" val="DEBUFF"/>
+  <set name="effectType" val="MUTE"/>
   <set name="hitTime" val="6000"/>
   <set name="isDebuff" val="true"/>
   <set name="isMagic" val="true"/>

@@ -467,7 +467,6 @@
   <set name="power" val="8.0"/>
   <set name="target" val="TARGET_ONE"/>
   <set name="skillType" val="POISON"/>
-  <set name="killByDOT" val="false"/>
   <set name="operateType" val="OP_ACTIVE"/>
   <set name="element" val="6"/> <!-- Dark -->
   <set name="isMagic" val="true"/>
@@ -708,8 +707,6 @@
   <set name="skillType" val="NOTDONE"/>
   <set name="operateType" val="OP_PASSIVE"/>
   <set name="castRange" val="-1"/>
-  <for>
-  </for>
 </skill>
 <skill id="761" levels="1" name="Seed of Revenge">
   <set name="target" val="TARGET_NONE"/>
@@ -796,24 +793,18 @@
   <set name="skillType" val="NOTDONE"/>
   <set name="operateType" val="OP_PASSIVE"/>
   <set name="castRange" val="-1"/>
-  <for>
-  </for>
 </skill>
 <skill id="769" levels="1" name="Wind Riding">
   <set name="target" val="TARGET_NONE"/>
   <set name="skillType" val="NOTDONE"/>
   <set name="operateType" val="OP_PASSIVE"/>
   <set name="castRange" val="-1"/>
-  <for>
-  </for>
 </skill>
 <skill id="770" levels="1" name="Ghost Walking">
   <set name="target" val="TARGET_NONE"/>
   <set name="skillType" val="NOTDONE"/>
   <set name="operateType" val="OP_PASSIVE"/>
   <set name="castRange" val="-1"/>
-  <for>
-  </for>
 </skill>
 <skill id="771" levels="1" name="Flame Hawk">
   <set name="target" val="TARGET_NONE"/>
@@ -860,16 +851,12 @@
   <set name="skillType" val="NOTDONE"/>
   <set name="operateType" val="OP_PASSIVE"/>
   <set name="castRange" val="-1"/>
-  <for>
-  </for>
 </skill>
 <skill id="777" levels="1" name="Demolition Impact">
   <set name="target" val="TARGET_NONE"/>
   <set name="skillType" val="NOTDONE"/>
   <set name="operateType" val="OP_PASSIVE"/>
   <set name="castRange" val="-1"/>
-  <for>
-  </for>
 </skill>
 <skill id="778" levels="1" name="Golem Armor">
   <set name="target" val="TARGET_NONE"/>

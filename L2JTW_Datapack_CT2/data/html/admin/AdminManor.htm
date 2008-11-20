@@ -1,21 +1,21 @@
 <html><body>
-<center><font color="LEVEL"> [Manor System] </font></center><br>
+<center><font color="LEVEL"> [莊園系統] </font></center><br>
 <table width="100%"><tr><td>
-Disabled: %disabled% </td><td>
-Under Maintenance: %maintenance% </td></tr><tr><td>
-Time to refresh: %refresh% </td><td>
-Time to approve: %period%</td></tr>
+關閉：%disabled% </td><td>
+維修中：%maintenance% </td></tr><tr><td>
+更新時間：%refresh% </td><td>
+啟動時間：%period%</td></tr>
 </table>
 <center><table><tr><td>
-<button value="Set Next" action="bypass -h admin_manor_setnext" width=110 height=15 back="L2UI_ct1.button_df" fore="L2UI_ct1.button_df"></td><td>
-<button value="Approve Next" action="bypass -h admin_manor_approve" width=110 height=15 back="L2UI_ct1.button_df" fore="L2UI_ct1.button_df"></td></tr><tr><td>
+<button value="設定下一次" action="bypass -h admin_manor_setnext" width=110 height=15 back="L2UI_ct1.button_df" fore="L2UI_ct1.button_df"></td><td>
+<button value="下一次啟動" action="bypass -h admin_manor_approve" width=110 height=15 back="L2UI_ct1.button_df" fore="L2UI_ct1.button_df"></td></tr><tr><td>
 <button value="%setM%" action="bypass -h admin_manor_setmaintenance" width=110 height=15 back="L2UI_ct1.button_df" fore="L2UI_ct1.button_df"></td><td>
 <button value="%setED%" action="bypass -h admin_manor_disable" width=110 height=15 back="L2UI_ct1.button_df" fore="L2UI_ct1.button_df"></td></tr><tr><td>
-<button value="Refresh" action="bypass -h admin_manor" width=110 height=15 back="L2UI_ct1.button_df" fore="L2UI_ct1.button_df"></td><td>
-<button value="Back" action="bypass -h admin_admin" width=110 height=15 back="L2UI_ct1.button_df" fore="L2UI_ct1.button_df"></td></tr>
+<button value="更新" action="bypass -h admin_manor" width=110 height=15 back="L2UI_ct1.button_df" fore="L2UI_ct1.button_df"></td><td>
+<button value="返回" action="bypass -h admin_admin" width=110 height=15 back="L2UI_ct1.button_df" fore="L2UI_ct1.button_df"></td></tr>
 </table></center>
-<br><center>Castle Information:<table width="100%">
-<tr><td></td><td>Current Period</td><td>Next Period</td></tr>
+<br><center>城堡資訊：<table width="100%">
+<tr><td></td><td>目前週期</td><td>下一次週期</td></tr>
 %data%
 </table><br>
 </body></html>

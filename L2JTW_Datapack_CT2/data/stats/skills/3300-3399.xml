@@ -1,14 +1,16 @@
 <?xml version='1.0' encoding='utf-8'?>
 <list>
 <skill id="3300" levels="1" name="Yellow Talisman of Speed">
-  <set name="target" val="TARGET_NONE"/>
-  <set name="skillType" val="NOTDONE"/>
+  <set name="power" val="0.0"/>
+  <set name="target" val="TARGET_SELF"/>
+  <set name="skillType" val="BUFF"/>
   <set name="operateType" val="OP_PASSIVE"/>
   <set name="castRange" val="-1"/>
   <set name="effectRange" val="-1"/>
   <for>
-  </for> 
-</skill> 
+    <add stat="runSpd" val="3" order="0x40"/> <!-- increase Run Speed +3 -->
+  </for>
+</skill>
 <skill id="3301" levels="1" name="Yellow Talisman of Violent Haste"> 
   <set name="target" val="TARGET_NONE"/>
   <set name="skillType" val="NOTDONE"/> 
@@ -109,13 +111,15 @@
   </for> 
 </skill> 
 <skill id="3312" levels="1" name="Yellow Talisman of Healing"> 
-  <set name="target" val="TARGET_NONE"/>
-  <set name="skillType" val="NOTDONE"/> 
+  <set name="power" val="0.0"/>
+  <set name="target" val="TARGET_SELF"/>
+  <set name="skillType" val="BUFF"/>
   <set name="operateType" val="OP_PASSIVE"/>
-  <set name="castRange" val="-1"/> 
-  <set name="effectRange" val="-1"/> 
-  <for> 
-  </for> 
+  <set name="castRange" val="-1"/>
+  <set name="effectRange" val="-1"/>
+  <for>
+    <add order="0x30" stat="gainHp" val="8"/> <!-- increase Healing Power +8 -->
+  </for>
 </skill>
 <skill id="3313" levels="1" name="Yellow Talisman of Alacrity"> 
   <set name="target" val="TARGET_NONE"/>
@@ -476,7 +480,7 @@
     <mul order="0x30" stat="pAtk" val="1.054"/> <!-- P. Atk. +5.4% -->
     <add order="0x40" stat="maxHp" val="492"/> <!-- HP +492 -->
     <mul order="0x30" stat="darkVuln" val="0.92"/> <!-- Resistance to Darkness attacks +8 -->
-    <mul order="0x30" stat="MpConsumeRate" val="0.97"/> <!-- Decreases MP consumption for active skills +? --> <!-- Guessing -->
+    <mul order="0x30" stat="PhysicalMpConsumeRate" val="0.97"/> <!-- MP consumption of the active skill is decreased +? --> <!-- Guessing -->
   </for>
 </skill>
 <skill id="3351" levels="1" name="Dynasty Breast Plate - Bard">
@@ -492,7 +496,7 @@
     <mul order="0x30" stat="pDef" val="1.054"/> <!-- P. Def. +5.4% -->
     <add order="0x40" stat="maxHp" val="492"/> <!-- Max HP +492 effect -->
     <mul order="0x30" stat="darkVuln" val="0.92"/> <!-- Dark resistance +8 -->
-    <mul order="0x30" stat="MpConsumeRate" val="0.97"/> <!-- Decreased MP consumption when song and dance skills are used +? --> <!-- Guessing --> <!-- Need Core Support -->
+    <mul order="0x30" stat="DanceMpConsumeRate" val="0.97"/> <!-- MP consumption is decreased when song and dance skills are used +? --> <!-- Guessing -->
   </for>
 </skill>
 <skill id="3352" levels="1" name="Dynasty Leather Armor - Dagger Master">
@@ -559,7 +563,7 @@
     <mul order="0x30" stat="mAtkSpd" val="1.15"/> <!-- Casting Spd. +15% -->
     <add order="0x40" stat="maxMp" val="321"/> <!-- Max MP +321 -->
     <mul order="0x30" stat="darkVuln" val="0.92"/> <!-- Dark Resistance +8 -->
-    <mul order="0x30" stat="MpConsumeRate" val="0.97"/> <!-- Decrease MP consumption +? --> <!-- Guessing -->
+    <mul order="0x30" stat="PhysicalMpConsumeRate" val="0.97"/> <!-- decrease MP consumption +? --> <!-- Guessing -->
     <mul order="0x30" stat="cancelVuln" val="0.97"/> <!-- Decrease magic cancel rate +? --> <!-- Guessing -->
   </for>
 </skill>

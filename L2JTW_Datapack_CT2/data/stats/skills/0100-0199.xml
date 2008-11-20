@@ -127,7 +127,6 @@
   <set name="reuseDelay" val="20000"/>
   <set name="hitTime" val="1500"/>
   <set name="skillType" val="POISON"/>
-  <set name="killByDOT" val="false"/>
   <set name="isDebuff" val="true"/>
   <set name="isMagic" val="true"/>
   <set name="operateType" val="OP_ACTIVE"/>
@@ -631,7 +630,6 @@
   <set name="isDebuff" val="true"/>
   <set name="hitTime" val="3000"/>
   <set name="skillType" val="POISON"/>
-  <set name="killByDOT" val="false"/>
   <set name="isMagic" val="true"/>
   <set name="operateType" val="OP_ACTIVE"/>
   <set name="castRange" val="600"/>
@@ -1023,7 +1021,7 @@
         </and>
       </mul>
       <mul order="0x30" stat="pAtk" val="#other">
-        <using kind="Dual Fist,Dual Sword,Etc,Bow,Dagger"/>
+        <using kind="Dual Fist,Dual Sword,Etc,Bow,Dagger,Ancient,Crossbow,Rapier"/>
       </mul>
     </effect>
   </for>
