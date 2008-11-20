@@ -236,6 +236,7 @@
   <table name="#magicLvl"> 55 58 60 62 64 66 68 70 72 74 </table>
   <set name="magicLvl" val="#magicLvl"/>
   <set name="weaponsAllowed" val="16"/> <!-- Dagger -->
+  <set name="overHit" val="true"/>
   <set name="mpConsume" val="#mpConsume"/>
   <set name="power" val="#power"/>
   <set name="target" val="TARGET_ONE"/>
@@ -1492,6 +1493,7 @@
   <set name="power" val="#power"/>
   <set name="magicLvl" val="#magicLvl"/>
   <set name="weaponsAllowed" val="51212"/> <!-- Ancient/Sword/Big Sword/Blunt/Big Blunt -->
+  <set name="overHit" val="true"/>
   <set name="skillType" val="PDAM"/>
   <set name="operateType" val="OP_ACTIVE"/>
   <set name="reuseDelay" val="13000"/>
@@ -1785,6 +1787,7 @@
   <table name="#castRange"> 400 400 400 400 400 400 400 400 400 400 400 500 500 500 500 500 500 500 500 500 500 500 500 500 500 500 500 500 </table>
   <table name="#effectRange"> 900 900 900 900 900 900 900 900 900 900 900 1000 1000 1000 1000 1000 1000 1000 1000 1000 1000 1000 1000 1000 1000 1000 1000 1000 </table>
   <set name="weaponsAllowed" val="32768"/> <!-- Ancient -->
+  <set name="overHit" val="true"/>
   <set name="mpConsume" val="#mpConsume"/>
   <set name="power" val="#power"/>
   <set name="magicLvl" val="#magicLvl"/>
@@ -1814,6 +1817,7 @@
   <table name="#magicLvl"> 40 41 42 43 44 45 46 47 48 49 50 51 52 53 54 55 56 57 58 58 59 60 61 62 63 64 65 66 67 68 69 70 71 72 73 74 75 </table>
   <set name="magicLvl" val="#magicLvl"/><!-- 40,76 -->
   <set name="weaponsAllowed" val="32768"/> <!-- Ancient -->
+  <set name="overHit" val="true"/>
   <set name="mpConsume" val="#mpConsume"/>
   <set name="power" val="50"/>
   <set name="hitTime" val="800"/>
