@@ -361,10 +361,14 @@
   </for>
 </skill>
 <skill id="8245" levels="1" name="Summon Agathion - Love">
-  <set name="target" val="TARGET_NONE"/>
-  <set name="skillType" val="NOTDONE"/>
-  <set name="operateType" val="OP_PASSIVE"/>
+  <set name="target" val="TARGET_SELF"/>
+  <set name="skillType" val="AGATHION"/>
+  <set name="hitTime" val="3000"/>
+  <set name="staticHitTime" val="true"/>
+  <set name="operateType" val="OP_ACTIVE"/>
+  <set name="npcId" val="16049" />
   <set name="castRange" val="-1"/>
+  <set name="effectRange" val="-1"/>
   <for>
   </for>
 </skill>
@@ -379,7 +383,7 @@
 <skill id="8247" levels="1" name="Mount Light Purple Maned Horse">
   <set name="target" val="TARGET_NONE"/>
   <set name="skillType" val="NOTDONE"/>
-  <set name="operateType" val="OP_PASSIVE"/>
+  <set name="operateType" val="OP_ACTIVE"/>
   <set name="castRange" val="-1"/>
   <for>
   </for>

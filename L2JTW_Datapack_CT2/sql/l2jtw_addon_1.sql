@@ -372,10 +372,11 @@ INSERT INTO `npc` VALUES
 (16040, 16040, "Red Twilight Strider", 0, "", 0, "Monster.strider", 8, 29, 70, "male", "L2Npc", 40, 2444, 2444, 0, 0, 10, 10, 10, 10, 10, 10, 0, 0, 500, 500, 500, 500, 278, 0, 333, 0, 0, NULL, 60, 60, "", 0, 0, 0, "LAST_HIT", 0, 0, 0, "balanced", "false");
 
 
-/************ 媽祖壺精的手鐲 修正 ************/
-Delete From armor Where item_id in (20006,20007,20008,20012);
+/************ 媽祖/普萊皮塔/愛心壺精的手鐲 修正 ************/
+Delete From armor Where item_id in (20006,20007,20008,20012,13023);
 INSERT INTO `armor` VALUES
 (20006,'Agathion Seal Bracelet - Majo','lbracelet','true','none',150, 'wood','none',0,-1,0,0,0,0,0,'false','false','true','false','3267-1;21000-1;23000-1;'),
 (20007,'Agathion Seal Bracelet - Gold Majo','lbracelet','true','none',150, 'wood','none',0,-1,0,0,0,0,0,'false','false','true','false','3267-1;21001-1;23001-1;'),
 (20008,'Agathion Seal Bracelet - Black Majo','lbracelet','true','none',150, 'wood','none',0,-1,0,0,0,0,0,'false','false','true','false','3267-1;21002-1;23002-1;'),
-(20012,'Agathion Seal Bracelet - Plaipitak','lbracelet','true','none',150, 'wood','none',0,-1,0,0,0,0,0,'false','false','true','false','3267-1;21003-1;23003-1;');
+(20012,'Agathion Seal Bracelet - Plaipitak','lbracelet','true','none',150, 'wood','none',0,-1,0,0,0,0,0,'false','false','true','false','3267-1;21003-1;23003-1;'),
+(13023,'Agathion of Love - 30-day limited period','lbracelet','true','none',30, 'wood','none',0,-1,0,0,0,0,0,'false','false','true','false','3267-1;8245-1;');
