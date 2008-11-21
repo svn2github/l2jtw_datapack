@@ -380,3 +380,12 @@ INSERT INTO `armor` VALUES
 (20008,'Agathion Seal Bracelet - Black Majo','lbracelet','true','none',150, 'wood','none',0,-1,0,0,0,0,0,'false','false','true','false','3267-1;21002-1;23002-1;'),
 (20012,'Agathion Seal Bracelet - Plaipitak','lbracelet','true','none',150, 'wood','none',0,-1,0,0,0,0,0,'false','false','true','false','3267-1;21003-1;23003-1;'),
 (13023,'Agathion of Love - 30-day limited period','lbracelet','true','none',30, 'wood','none',0,-1,0,0,0,0,0,'false','false','true','false','3267-1;8245-1;');
+
+
+/************ 修正淡紫鬃馬騎乘手鐲(參考L2J論壇) ************/
+Delete From npc Where `id` ='14001';
+INSERT INTO `npc` VALUES
+(14001, 14001, "Reanimated Man", 0, "", 0, "Monster.skeleton", 11, 25, 46, "male", "L2Pet", 40, 2914, 816, 8.69, 2.14, 40, 43, 30, 21, 20, 25, 0, 0, 482, 245, 202, 230, 278, 0, 333, 0, 0, 0, 66, 154, "NULL", 0, 1, 0, "LAST_HIT", 0, 0, 0, "fighter", "false");
+Delete From armor Where `item_id` ='20029';
+INSERT INTO `armor` VALUES
+(20029,'Light Purple-Maned Horse Mounting Bracelet','lbracelet','false','none',30, 'wood','none',0,-1,0,0,0,0,0,'true','true','true','true','8247-1;');
