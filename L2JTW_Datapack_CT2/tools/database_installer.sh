@@ -359,6 +359,7 @@ $MYG < ../sql/messagetable.sql &> /dev/null
 $MYG < ../sql/npcAIData.sql &> /dev/null
 $MYG < ../sql/npcCharData.sql &> /dev/null
 $MYG < ../sql/lastimperialtomb_spawnlist.sql &> /dev/null
+$MYG < ../sql/l2jtw_addon_0.sql &> /dev/null
 $MYG < ../sql/l2jtw_addon_1.sql &> /dev/null
 $MYG < ../sql/l2jtw_addon_2.sql &> /dev/null
 }
