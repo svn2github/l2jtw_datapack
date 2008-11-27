@@ -5,6 +5,7 @@
    <set val='31' order='0x08' stat='pAtk'/>
    <set val='21' order='0x08' stat='mAtk'/>
    <set val='8' order='0x08' stat='rCrit'/>
+   <add val='0' order='0x10' stat='accCombat'/><!-- Update by rocknow -->
    <set val='379' order='0x08' stat='pAtkSpd'/>
    <enchant val='0' order='0x0C' stat='pAtk'/>
    <enchant val='0' order='0x0C' stat='mAtk'/>
@@ -16,7 +17,9 @@
    <set val='31' order='0x08' stat='pAtk'/>
    <set val='21' order='0x08' stat='mAtk'/>
    <set val='8' order='0x08' stat='rCrit'/>
+   <add val='-3' order='0x10' stat='accCombat'/><!-- Update by rocknow -->
    <set val='325' order='0x08' stat='pAtkSpd'/>
+   <set val='66' order='0x08' stat='pAtkRange'/><!-- Update by rocknow -->
    <enchant val='0' order='0x0C' stat='pAtk'/>
    <enchant val='0' order='0x0C' stat='mAtk'/>
   </for>
@@ -39,6 +42,7 @@
    <set val='27' order='0x08' stat='pAtk'/>
    <set val='21' order='0x08' stat='mAtk'/>
    <set val='12' order='0x08' stat='rCrit'/>
+   <add val='-3' order='0x10' stat='accCombat'/><!-- Update by rocknow -->
    <set val='433' order='0x08' stat='pAtkSpd'/>
    <enchant val='0' order='0x0C' stat='pAtk'/>
    <enchant val='0' order='0x0C' stat='mAtk'/>
@@ -62,6 +66,7 @@
    <set val='64' order='0x08' stat='pAtk'/>
    <set val='21' order='0x08' stat='mAtk'/>
    <set val='12' order='0x08' stat='rCrit'/>
+   <add val='-3' order='0x10' stat='accCombat'/><!-- Update by rocknow -->
    <set val='293' order='0x08' stat='pAtkSpd'/>
    <enchant val='0' order='0x0C' stat='pAtk'/>
    <enchant val='0' order='0x0C' stat='mAtk'/>
@@ -97,6 +102,7 @@
    <set val='64' order='0x08' stat='pAtk'/>
    <set val='32' order='0x08' stat='mAtk'/>
    <set val='10' order='0x08' stat='rCrit'/>
+   <add val='-1' order='0x10' stat='accCombat'/><!-- Update by rocknow -->
    <set val='303' order='0x08' stat='pAtkSpd'/>
    <enchant val='0' order='0x0C' stat='pAtk'/>
    <enchant val='0' order='0x0C' stat='mAtk'/>
@@ -108,6 +114,7 @@
    <set val='64' order='0x08' stat='pAtk'/>
    <set val='32' order='0x08' stat='mAtk'/>
    <set val='10' order='0x08' stat='rCrit'/>
+   <add val='-1' order='0x10' stat='accCombat'/><!-- Update by rocknow -->
    <set val='303' order='0x08' stat='pAtkSpd'/>
    <enchant val='0' order='0x0C' stat='pAtk'/>
    <enchant val='0' order='0x0C' stat='mAtk'/>

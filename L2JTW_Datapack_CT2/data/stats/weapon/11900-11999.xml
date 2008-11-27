@@ -295,6 +295,7 @@
     <set val='8' order='0x08' stat='rCrit'/>
     <add val='-3' order='0x10' stat='accCombat'/>
     <set val='325' order='0x08' stat='pAtkSpd'/>
+    <set val='66' order='0x08' stat='pAtkRange'/><!-- Update by rocknow -->
   </for>
 </item>
 <item id='11933' name="Standard Item - Bellion Cestus">
@@ -547,6 +548,7 @@
     <set val='8' order='0x08' stat='rCrit'/>
     <add val='-3' order='0x10' stat='accCombat'/>
     <set val='325' order='0x08' stat='pAtkSpd'/>
+    <set val='66' order='0x08' stat='pAtkRange'/><!-- Update by rocknow -->
   </for>
 </item>
 <item id='11961' name="Standard Item - Keshanberk*Damascus">
@@ -677,7 +679,7 @@
 </item>
 <item id='11975' name="Standard Item - Soul Bow">
   <for>
-    <set val='480' order='0x08' stat='pAtk'/>
+    <set val='528' order='0x08' stat='pAtk'/><!-- Update by rocknow -->
     <set val='125' order='0x08' stat='mAtk'/>
     <set val='12' order='0x08' stat='rCrit'/>
     <add val='-3' order='0x10' stat='accCombat'/>
@@ -691,6 +693,7 @@
     <set val='8' order='0x08' stat='rCrit'/>
     <add val='-3' order='0x10' stat='accCombat'/>
     <set val='325' order='0x08' stat='pAtkSpd'/>
+    <set val='66' order='0x08' stat='pAtkRange'/><!-- Update by rocknow -->
   </for>
 </item>
 <item id='11977' name="Standard Item - Naga Storm">
@@ -799,6 +802,7 @@
     <set val='8' order='0x08' stat='rCrit'/>
     <add val='-3' order='0x10' stat='accCombat'/>
     <set val='325' order='0x08' stat='pAtkSpd'/>
+    <set val='66' order='0x08' stat='pAtkRange'/><!-- Update by rocknow -->
   </for>
 </item>
 <item id='11989' name="Standard Item - Tallum Blade*Damascus">
@@ -898,6 +902,7 @@
     <set val='8' order='0x08' stat='rCrit'/>
     <add val='-3' order='0x10' stat='accCombat'/>
     <set val='325' order='0x08' stat='pAtkSpd'/>
+    <set val='66' order='0x08' stat='pAtkRange'/><!-- Update by rocknow -->
   </for>
 </item>
 </list>

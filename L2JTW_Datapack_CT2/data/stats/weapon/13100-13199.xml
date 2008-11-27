@@ -7,6 +7,7 @@
     <set val='8' order='0x08' stat='rCrit'/>
     <add val='-3' order='0x10' stat='accCombat'/>
     <set val='325' order='0x08' stat='pAtkSpd'/>
+    <set val='66' order='0x08' stat='pAtkRange'/><!-- Update by rocknow -->
   </for>
 </item>
 <item id='13154' name="Limited time - Falchion - 60 minutes limited period">
@@ -207,6 +208,7 @@
     <set val='8' order='0x08' stat='rCrit'/>
     <add val='-3' order='0x10' stat='accCombat'/>
     <set val='325' order='0x08' stat='pAtkSpd'/>
+    <set val='66' order='0x08' stat='pAtkRange'/><!-- Update by rocknow -->
     <enchant val='0' order='0x0C' stat='pAtk'/>
     <enchant val='0' order='0x0C' stat='mAtk'/>
   </for>
@@ -237,7 +239,7 @@
   <for>
     <set val='100' order='0x08' stat='pAtk'/>
     <set val='54' order='0x08' stat='mAtk'/>
-    <set val='8' order='0x08' stat='rCrit'/>
+    <set val='6' order='0x08' stat='rCrit'/><!-- Update by rocknow -->
     <add val='2' order='0x10' stat='accCombat'/>
     <set val='350' order='0x08' stat='pAtkSpd'/>
     <enchant val='0' order='0x0C' stat='pAtk'/>
@@ -339,6 +341,7 @@
     <set val='8' order='0x08' stat='rCrit'/>
     <add val='-3' order='0x10' stat='accCombat'/>
     <set val='325' order='0x08' stat='pAtkSpd'/>
+    <set val='66' order='0x08' stat='pAtkRange'/><!-- Update by rocknow -->
     <enchant val='0' order='0x0C' stat='pAtk'/>
     <enchant val='0' order='0x0C' stat='mAtk'/>
   </for>
@@ -380,7 +383,7 @@
   <for>
     <set val='169' order='0x08' stat='pAtk'/>
     <set val='83' order='0x08' stat='mAtk'/>
-    <set val='8' order='0x08' stat='rCrit'/>
+    <set val='6' order='0x08' stat='rCrit'/><!-- Update by rocknow -->
     <add val='2' order='0x10' stat='accCombat'/>
     <set val='350' order='0x08' stat='pAtkSpd'/>
     <enchant val='0' order='0x0C' stat='pAtk'/>
@@ -449,6 +452,7 @@
     <set val='8' order='0x08' stat='rCrit'/>
     <add val='-3' order='0x10' stat='accCombat'/>
     <set val='325' order='0x08' stat='pAtkSpd'/>
+    <set val='66' order='0x08' stat='pAtkRange'/><!-- Update by rocknow -->
     <enchant val='0' order='0x0C' stat='pAtk'/>
     <enchant val='0' order='0x0C' stat='mAtk'/>
   </for>

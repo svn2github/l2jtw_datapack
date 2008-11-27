@@ -34,6 +34,7 @@
     <set val='8' order='0x08' stat='rCrit'/>
     <add val='-3' order='0x10' stat='accCombat'/>
     <set val='325' order='0x08' stat='pAtkSpd'/>
+    <set val='66' order='0x08' stat='pAtkRange'/><!-- Update by rocknow -->
   </for>
 </item>
 <item id='11704' name="Standard Item - Artisan's Sword*Knight's Sword">
@@ -115,6 +116,7 @@
     <set val='8' order='0x08' stat='rCrit'/>
     <add val='-3' order='0x10' stat='accCombat'/>
     <set val='325' order='0x08' stat='pAtkSpd'/>
+    <set val='66' order='0x08' stat='pAtkRange'/><!-- Update by rocknow -->
   </for>
 </item>
 <item id='11713' name="Standard Item - Heavy Bone Club">
@@ -232,6 +234,7 @@
     <set val='8' order='0x08' stat='rCrit'/>
     <add val='-3' order='0x10' stat='accCombat'/>
     <set val='325' order='0x08' stat='pAtkSpd'/>
+    <set val='66' order='0x08' stat='pAtkRange'/><!-- Update by rocknow -->
   </for>
 </item>
 <item id='11726' name="Standard Item - Mithril Dagger">
@@ -448,6 +451,7 @@
     <set val='8' order='0x08' stat='rCrit'/>
     <add val='-3' order='0x10' stat='accCombat'/>
     <set val='325' order='0x08' stat='pAtkSpd'/>
+    <set val='66' order='0x08' stat='pAtkRange'/><!-- Update by rocknow -->
   </for>
 </item>
 <item id='11750' name="Standard Item - Battle Axe">
@@ -466,6 +470,7 @@
     <set val='8' order='0x08' stat='rCrit'/>
     <add val='-3' order='0x10' stat='accCombat'/>
     <set val='325' order='0x08' stat='pAtkSpd'/>
+    <set val='66' order='0x08' stat='pAtkRange'/><!-- Update by rocknow -->
   </for>
 </item>
 <item id='11752' name="Standard Item - Saber*Elven Long Sword">
@@ -547,6 +552,7 @@
     <set val='8' order='0x08' stat='rCrit'/>
     <add val='-3' order='0x10' stat='accCombat'/>
     <set val='325' order='0x08' stat='pAtkSpd'/>
+    <set val='66' order='0x08' stat='pAtkRange'/><!-- Update by rocknow -->
   </for>
 </item>
 <item id='11761' name="Standard Item - Silver Axe">
@@ -745,6 +751,7 @@
     <set val='8' order='0x08' stat='rCrit'/>
     <add val='-3' order='0x10' stat='accCombat'/>
     <set val='325' order='0x08' stat='pAtkSpd'/>
+    <set val='66' order='0x08' stat='pAtkRange'/><!-- Update by rocknow -->
   </for>
 </item>
 <item id='11783' name="Standard Item - Shamshir">
@@ -812,7 +819,7 @@
 </item>
 <item id='11790' name="Standard Item - Elemental Bow">
   <for>
-    <set val='252' order='0x08' stat='pAtk'/>
+    <set val='277' order='0x08' stat='pAtk'/><!-- Update by rocknow -->
     <set val='75' order='0x08' stat='mAtk'/>
     <set val='12' order='0x08' stat='rCrit'/>
     <add val='-3' order='0x10' stat='accCombat'/>

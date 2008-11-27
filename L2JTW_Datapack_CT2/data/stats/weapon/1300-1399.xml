@@ -36,7 +36,7 @@
 </item>
 <item id='1303' name="lance">
   <for>
-    <set val='30000' order='0x08' stat='pAtk'/>
+    <set val='1' order='0x08' stat='pAtk'/><!-- Update by rocknow -->
     <set val='6' order='0x08' stat='mAtk'/>
     <set val='8' order='0x08' stat='rCrit'/>
     <set val='66' order='0x08' stat='pAtkRange'/>
@@ -59,7 +59,7 @@
 </item>
 <item id='1305' name="knife">
   <for>
-    <set val='30000' order='0x08' stat='pAtk'/>
+    <set val='1' order='0x08' stat='pAtk'/><!-- Update by rocknow -->
     <set val='6' order='0x08' stat='mAtk'/>
     <set val='12' order='0x08' stat='rCrit'/>
     <add val='-3' order='0x10' stat='accCombat'/>

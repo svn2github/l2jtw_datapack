@@ -92,7 +92,7 @@
   <for>
     <set val='210' order='0x08' stat='pAtk'/>
     <set val='99' order='0x08' stat='mAtk'/>
-    <set val='8' order='0x08' stat='rCrit'/>
+    <set val='6' order='0x08' stat='rCrit'/><!-- Update by rocknow -->
     <add val='2' order='0x10' stat='accCombat'/>
     <set val='350' order='0x08' stat='pAtkSpd'/>
     <enchant val='0' order='0x0C' stat='pAtk'/>
@@ -172,6 +172,7 @@
     <set val='8' order='0x08' stat='rCrit'/>
     <add val='-3' order='0x10' stat='accCombat'/>
     <set val='325' order='0x08' stat='pAtkSpd'/>
+    <set val='66' order='0x08' stat='pAtkRange'/><!-- Update by rocknow -->
     <enchant val='0' order='0x0C' stat='pAtk'/>
     <enchant val='0' order='0x0C' stat='mAtk'/>
   </for>
@@ -257,7 +258,7 @@
   <for>
     <set val='272' order='0x08' stat='pAtk'/>
     <set val='121' order='0x08' stat='mAtk'/>
-    <set val='8' order='0x08' stat='rCrit'/>
+    <set val='6' order='0x08' stat='rCrit'/><!-- Update by rocknow -->
     <add val='2' order='0x10' stat='accCombat'/>
     <set val='350' order='0x08' stat='pAtkSpd'/>
     <enchant val='0' order='0x0C' stat='pAtk'/>
