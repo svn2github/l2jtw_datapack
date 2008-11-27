@@ -117,6 +117,7 @@
 <item id='11369' name="Avadon Robe">
   <for>
     <add val='127' order='0x10' stat='pDef'/>
+    <add val='561' order='0x40' stat='maxMp'/><!-- Update by rocknow -->
     <enchant val='0' order='0x0C' stat='pDef'/>
   </for>
 </item>
@@ -159,12 +160,14 @@
 <item id='11377' name="Tunic of Zubei">
   <for>
     <add val='78' order='0x10' stat='pDef'/>
+    <add val='345' order='0x40' stat='maxMp'/><!-- Update by rocknow -->
     <enchant val='0' order='0x0C' stat='pDef'/>
   </for>
 </item>
 <item id='11378' name="Stockings of Zubei">
   <for>
     <add val='49' order='0x10' stat='pDef'/>
+    <add val='216' order='0x40' stat='maxMp'/><!-- Update by rocknow -->
     <enchant val='0' order='0x0C' stat='pDef'/>
   </for>
 </item>
@@ -249,6 +252,7 @@
 <item id='11393' name="Tunic of Doom">
   <for>
     <add val='83' order='0x10' stat='pDef'/>
+    <add val='377' order='0x40' stat='maxMp'/><!-- Update by rocknow -->
     <enchant val='0' order='0x0C' stat='pDef'/>
   </for>
 </item>

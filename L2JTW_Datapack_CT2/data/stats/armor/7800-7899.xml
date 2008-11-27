@@ -232,7 +232,7 @@
 <item id='7877' name="Sealed Apella Doublet">
   <for>
     <add val='139' order='0x10' stat='pDef'/>
-    <add val='665' order='0x10' stat='maxMp'/>
+    <add val='665' order='0x40' stat='maxMp'/><!-- Update by rocknow -->
     <enchant val='0' order='0x0C' stat='pDef'/>
   </for>
 </item>

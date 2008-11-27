@@ -1,9 +1,9 @@
 <?xml version='1.0' encoding='utf-8'?>
 <list>
 <item id='10500' name="Mithril Shirt - HP">
-  <for>
+  <for><!-- Update by rocknow -->
     <add val='28' order='0x10' stat='pDef'/>
-    <add val='224' order='0x10' stat='maxHp'>
+    <add val='224' order='0x40' stat='maxHp'>
       <and>
         <using slotitem="10500;0;4"/>
       </and>
@@ -11,9 +11,9 @@
   </for>
 </item>
 <item id='10501' name="Mithril Shirt - MP">
-  <for>
+  <for><!-- Update by rocknow -->
     <add val='28' order='0x10' stat='pDef'/>
-    <add val='111' order='0x10' stat='maxMp'>
+    <add val='111' order='0x40' stat='maxMp'>
       <and>
         <using slotitem="10501;0;4"/>
       </and>
@@ -21,9 +21,9 @@
   </for>
 </item>
 <item id='10502' name="Mithril Shirt - CP">
-  <for>
+  <for><!-- Update by rocknow -->
     <add val='28' order='0x10' stat='pDef'/>
-    <add val='672' order='0x10' stat='maxCp'>
+    <add val='672' order='0x40' stat='maxCp'>
       <and>
         <using slotitem="10502;0;4"/>
       </and>
@@ -31,9 +31,9 @@
   </for>
 </item>
 <item id='10503' name="Striped Silk Shirt - HP">
-  <for>
+  <for><!-- Update by rocknow -->
     <add val='19' order='0x10' stat='pDef'/>
-    <add val='135' order='0x10' stat='maxHp'>
+    <add val='135' order='0x40' stat='maxHp'>
       <and>
         <using slotitem="10503;0;4"/>
       </and>
@@ -41,9 +41,9 @@
   </for>
 </item>
 <item id='10504' name="Striped Silk Shirt - MP">
-  <for>
+  <for><!-- Update by rocknow -->
     <add val='19' order='0x10' stat='pDef'/>
-    <add val='66' order='0x10' stat='maxMp'>
+    <add val='66' order='0x40' stat='maxMp'>
       <and>
         <using slotitem="10504;0;4"/>
       </and>
@@ -51,9 +51,9 @@
   </for>
 </item>
 <item id='10505' name="Striped Silk Shirt - CP">
-  <for>
+  <for><!-- Update by rocknow -->
     <add val='19' order='0x10' stat='pDef'/>
-    <add val='405' order='0x10' stat='maxCp'>
+    <add val='405' order='0x40' stat='maxCp'>
       <and>
         <using slotitem="10505;0;4"/>
       </and>
@@ -61,9 +61,9 @@
   </for>
 </item>
 <item id='10506' name="Thin Striped Leather Shirt - HP">
-  <for>
+  <for><!-- Update by rocknow -->
     <add val='22' order='0x10' stat='pDef'/>
-    <add val='160' order='0x10' stat='maxHp'>
+    <add val='160' order='0x40' stat='maxHp'>
       <and>
         <using slotitem="10506;0;4"/>
       </and>
@@ -71,9 +71,9 @@
   </for>
 </item>
 <item id='10507' name="Thin Striped Leather Shirt - MP">
-  <for>
+  <for><!-- Update by rocknow -->
     <add val='22' order='0x10' stat='pDef'/>
-    <add val='78' order='0x10' stat='maxMp'>
+    <add val='78' order='0x40' stat='maxMp'>
       <and>
         <using slotitem="10507;0;4"/>
       </and>
@@ -81,9 +81,9 @@
   </for>
 </item>
 <item id='10508' name="Thin Striped Leather Shirt - CP">
-  <for>
+  <for><!-- Update by rocknow -->
     <add val='22' order='0x10' stat='pDef'/>
-    <add val='480' order='0x10' stat='maxCp'>
+    <add val='480' order='0x40' stat='maxCp'>
       <and>
         <using slotitem="10508;0;4"/>
       </and>
@@ -91,9 +91,9 @@
   </for>
 </item>
 <item id='10509' name="Striped Scale Shirt - HP">
-  <for>
+  <for><!-- Update by rocknow -->
     <add val='26' order='0x10' stat='pDef'/>
-    <add val='186' order='0x10' stat='maxHp'>
+    <add val='186' order='0x40' stat='maxHp'>
       <and>
         <using slotitem="10509;0;4"/>
       </and>
@@ -101,9 +101,9 @@
   </for>
 </item>
 <item id='10510' name="Striped Scale Shirt - MP">
-  <for>
+  <for><!-- Update by rocknow -->
     <add val='26' order='0x10' stat='pDef'/>
-    <add val='92' order='0x10' stat='maxMp'>
+    <add val='92' order='0x40' stat='maxMp'>
       <and>
         <using slotitem="10510;0;4"/>
       </and>
@@ -111,9 +111,9 @@
   </for>
 </item>
 <item id='10511' name="Striped Scale Shirt - CP">
-  <for>
+  <for><!-- Update by rocknow -->
     <add val='26' order='0x10' stat='pDef'/>
-    <add val='564' order='0x10' stat='maxCp'>
+    <add val='564' order='0x40' stat='maxCp'>
       <and>
         <using slotitem="10511;0;4"/>
       </and>
@@ -121,9 +121,9 @@
   </for>
 </item>
 <item id='10512' name="Striped Mithril Shirt - HP">
-  <for>
+  <for><!-- Update by rocknow -->
     <add val='30' order='0x10' stat='pDef'/>
-    <add val='246' order='0x10' stat='maxHp'>
+    <add val='246' order='0x40' stat='maxHp'>
       <and>
         <using slotitem="10512;0;4"/>
       </and>
@@ -131,9 +131,9 @@
   </for>
 </item>
 <item id='10513' name="Striped Mithril Shirt - MP">
-  <for>
+  <for><!-- Update by rocknow -->
     <add val='30' order='0x10' stat='pDef'/>
-    <add val='122' order='0x10' stat='maxMp'>
+    <add val='122' order='0x40' stat='maxMp'>
       <and>
         <using slotitem="10513;0;4"/>
       </and>
@@ -141,9 +141,9 @@
   </for>
 </item>
 <item id='10514' name="Striped Mithril Shirt - CP">
-  <for>
+  <for><!-- Update by rocknow -->
     <add val='30' order='0x10' stat='pDef'/>
-    <add val='744' order='0x10' stat='maxCp'>
+    <add val='744' order='0x40' stat='maxCp'>
       <and>
         <using slotitem="10514;0;4"/>
       </and>

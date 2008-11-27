@@ -23,11 +23,13 @@
 <item id='12010' name="Standard Item - Cursed Tunic">
   <for>
     <add val='39' order='0x10' stat='pDef'/>
+    <add val='106' order='0x40' stat='maxMp'/><!-- Update by rocknow -->
   </for>
 </item>
 <item id='12011' name="Standard Item - Cursed Stockings">
   <for>
     <add val='24' order='0x10' stat='pDef'/>
+    <add val='66' order='0x40' stat='maxMp'/><!-- Update by rocknow -->
   </for>
 </item>
 <item id='12012' name="Standard Item - \tIron Plate Gaiters">
@@ -53,16 +55,19 @@
 <item id='12017' name="Standard Item - Dark Stockings">
   <for>
     <add val='27' order='0x10' stat='pDef'/>
+    <add val='79' order='0x40' stat='maxMp'/><!-- Update by rocknow -->
   </for>
 </item>
 <item id='12018' name="Standard Item - Mystic's Tunic">
   <for>
     <add val='43' order='0x10' stat='pDef'/>
+    <add val='126' order='0x40' stat='maxMp'/><!-- Update by rocknow -->
   </for>
 </item>
 <item id='12019' name="Standard Item - Mystic's Stockings">
   <for>
     <add val='27' order='0x10' stat='pDef'/>
+    <add val='79' order='0x40' stat='maxMp'/><!-- Update by rocknow -->
   </for>
 </item>
 <item id='12020' name="Standard Item - Lion Skin Gaiters">
@@ -78,6 +83,7 @@
 <item id='12022' name="Standard Item - White Tunic">
   <for>
     <add val='43' order='0x10' stat='pDef'/>
+    <add val='126' order='0x40' stat='maxMp'/><!-- Update by rocknow -->
   </for>
 </item>
 <item id='12023' name="Standard Item - \tScale Gaiters">
@@ -93,11 +99,13 @@
 <item id='12026' name="Standard Item - Elven Tunic">
   <for>
     <add val='43' order='0x10' stat='pDef'/>
+    <add val='126' order='0x40' stat='maxMp'/><!-- Update by rocknow -->
   </for>
 </item>
 <item id='12027' name="Standard Item - Elven Stockings">
   <for>
     <add val='27' order='0x10' stat='pDef'/>
+    <add val='79' order='0x40' stat='maxMp'/><!-- Update by rocknow -->
   </for>
 </item>
 <item id='12028' name="Standard Item - Bronze Helmet">
@@ -243,11 +251,13 @@
 <item id='12057' name="Standard Item - Mithril Tunic">
   <for>
     <add val='52' order='0x10' stat='pDef'/>
+    <add val='169' order='0x40' stat='maxMp'/><!-- Update by rocknow -->
   </for>
 </item>
 <item id='12058' name="Standard Item - Mithril Stockings">
   <for>
     <add val='32' order='0x10' stat='pDef'/>
+    <add val='105' order='0x40' stat='maxMp'/><!-- Update by rocknow -->
   </for>
 </item>
 <item id='12059' name="Standard Item - Brigandine">
@@ -353,6 +363,7 @@
 <item id='12083' name="Standard Item - Sage's Rag">
   <for>
     <add val='90' order='0x10' stat='pDef'/>
+    <add val='320' order='0x40' stat='maxMp'/><!-- Update by rocknow -->
   </for>
 </item>
 <item id='12084' name="Standard Item - Tempered Mithril Gaiters">
@@ -423,6 +434,7 @@
 <item id='12099' name="Standard Item - Karmian Tunic">
   <for>
     <add val='60' order='0x10' stat='pDef'/>
+    <add val='225' order='0x40' stat='maxMp'/><!-- Update by rocknow -->
   </for>
 </item>
 </list>

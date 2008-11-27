@@ -2,8 +2,8 @@
 <list>
 <item id='8541' name="Little Harness">
   <for>
-    <add val='10' order='0x10' stat='mDef'/>
-    <add val='25' order='0x10' stat='pDef'/>
+    <add val='10' order='0x10' stat='pDef'/><!-- Update by rocknow -->
+    <add val='25' order='0x10' stat='mDef'/><!-- Update by rocknow -->
   </for>
 </item>
 <item id='8552' name="Mask of Spirits">
