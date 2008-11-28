@@ -684,6 +684,20 @@ UPDATE `armor` SET `bodypart` = 'rbracelet' WHERE `item_id` IN (9589,9590,9591,9
 UPDATE `armor` SET `bodypart` = 'lbracelet' WHERE `item_id` IN (9605,9606,9607,9608,9609,9610,9611,9612,9613,9614,9615,9909,10018,10139,10273,10316,10317,10318,10319,10320,10322,10323,10324,10325,10326,10606,10659,10660,12779,12780,13022,13023,13024,13025,13026,13254,13308,13309,13340,20006,20007,20008,20009,20010,20011,20012,20013,20014,20015,20029,20030); -- 壺精手鐲
 UPDATE `armor` SET `bodypart` = 'talisman' WHERE `item_id` IN (9913,9914,9915,9916,9917,9918,9919,9920,9921,9922,9923,9924,9925,9926,9927,9928,9929,9930,9931,9932,9933,9934,9935,9936,9937,9938,9939,9940,9941,9942,9943,9944,9945,9946,9947,9948,9949,9950,9951,9952,9953,9954,9955,9956,9957,9958,9959,9960,9961,9962,9963,9964,9965,9966,10141,10142,10158,10416,10417,10418,10419,10420,10421,10422,10423,10424,10518,10519,10533,10534,10535,10536,10537,10538,10539,10540,10541,10542,10543,12815,12816,12817,12818,12819); -- 護身符
 
+UPDATE `armor` SET `duration` = '1440' WHERE `item_id` IN (10620,10621,10622,10623,10624,10625,10626,10627,10628,10629,10630,10631);
+UPDATE `armor` SET `duration` = '700' WHERE `item_id` IN (9909,10139);
+UPDATE `armor` SET `duration` = '400' WHERE `item_id` ='9900';
+UPDATE `armor` SET `duration` = '360' WHERE `item_id` IN (9177,9178,9179,9180,9181,9182,9183,9184,9185,9186,9187,9188,9189,9190,9191,9192,9193,9194,9195,9196,9197,9198,9199,9200,9201,9202,9203,9204);
+UPDATE `armor` SET `duration` = '250' WHERE `item_id` ='10140';
+UPDATE `armor` SET `duration` = '200' WHERE `item_id` ='10273';
+UPDATE `armor` SET `duration` = '180' WHERE `item_id` ='10211';
+UPDATE `armor` SET `duration` = '80' WHERE `item_id` ='10519';
+UPDATE `armor` SET `duration` = '75' WHERE `item_id` ='9915';
+UPDATE `armor` SET `duration` = '74' WHERE `item_id` IN (9918,9931,9932);
+UPDATE `armor` SET `duration` = '70' WHERE `item_id` IN (10141,10142,10518);
+UPDATE `armor` SET `duration` = '65' WHERE `item_id` IN (9914,9916,9917,9919,9921,9922,9923,9926,9927,9928,9929,9930,9954,9955,9956,9957,9958,9959,10533,10534);
+UPDATE `armor` SET `duration` = '64' WHERE `item_id` IN (9920,9924,9925,9952,9953,10542);
+
 
 /***** 貳幕繽炫風 11-11 *****/
 /***** etcitem *****/
@@ -1791,5 +1805,9 @@ UPDATE `weapon` SET `atk_speed` = '325' WHERE `item_id` IN (187,191,11732,11768,
 UPDATE `weapon` SET `bodypart` = 'lrhand' WHERE `item_id` IN (187,191,11732,11768,13166); -- 阿吐巴鎚/巨大末日鎚(裝備部位)  /*官方修正後 移除
 UPDATE `weapon` SET `weaponType` = 'bigblunt' WHERE `item_id` IN (187,191,11732,11768,13166); -- 阿吐巴鎚/巨大末日鎚(武器種類)  /*官方修正後 移除
 UPDATE `weapon` SET `bodypart` = 'wolf', `weaponType` = 'pet' WHERE `item_id` IN (5217); -- 狼專用  /*官方修正後 移除
+
+UPDATE `weapon` SET `duration` = '-1' WHERE `item_id` ='8935';
+UPDATE `weapon` SET `duration` = '230' WHERE `item_id` ='9141';
+UPDATE `weapon` SET `duration` = '60' WHERE `item_id` ='12814';
 
 /***** Done by vdmyagami！ *****/
