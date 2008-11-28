@@ -3,6 +3,8 @@
 /***** 貳幕繽炫風 11-11 *****/ 
 /***** etcitem *****/ 
 /***** etcitem.sql *****/
+/*
+內容已移至 l2jtw_addon_0.sql
 UPDATE `etcitem` SET `weight` = 6 WHERE `item_id` = 17;
 UPDATE `etcitem` SET `weight` = 0 WHERE `item_id` = 57;
 UPDATE `etcitem` SET `weight` = 80 WHERE `item_id` = 65;
@@ -8421,5 +8423,5 @@ UPDATE `etcitem` SET `weight` = 100 WHERE `item_id` = 20185;
 UPDATE `etcitem` SET `weight` = 100 WHERE `item_id` = 20186;
 UPDATE `etcitem` SET `weight` = 100 WHERE `item_id` = 20187;
 UPDATE `etcitem` SET `weight` = 100 WHERE `item_id` = 20188;
-
+*/
 /***** Done by vdmyagami！ *****/

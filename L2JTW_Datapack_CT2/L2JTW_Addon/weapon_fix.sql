@@ -3,6 +3,8 @@
 /***** 貳幕繽炫風 11-11 *****/ 
 /***** weapon *****/ 
 /***** weapon.sql *****/
+/*
+內容已移至 l2jtw_addon_0.sql
 UPDATE `weapon` SET `weight` = 1600, `bodypart` = 7, `rnd_dam` = 10, `p_dam` = 8, `m_dam` = 6, `weaponType` = 1, `crystal_type` = 0, `critical` = 8, `shield_def` = 0, `shield_def_rate` = 0, `atk_speed` = 379, `mp_consume` = 0, `soulshots` = 1, `spiritshots` = 1 WHERE `item_id` = 1;
 UPDATE `weapon` SET `weight` = 1560, `bodypart` = 7, `rnd_dam` = 10, `p_dam` = 24, `m_dam` = 17, `weaponType` = 1, `crystal_type` = 0, `critical` = 8, `shield_def` = 0, `shield_def_rate` = 0, `atk_speed` = 379, `mp_consume` = 0, `soulshots` = 2, `spiritshots` = 2 WHERE `item_id` = 2;
 UPDATE `weapon` SET `weight` = 1590, `bodypart` = 7, `rnd_dam` = 10, `p_dam` = 11, `m_dam` = 9, `weaponType` = 1, `crystal_type` = 0, `critical` = 8, `shield_def` = 0, `shield_def_rate` = 0, `atk_speed` = 379, `mp_consume` = 0, `soulshots` = 1, `spiritshots` = 1 WHERE `item_id` = 3;
@@ -2984,5 +2986,5 @@ UPDATE `weapon` SET `bodypart` = 'wolf', `weaponType` = 'pet' WHERE `item_id` IN
 UPDATE `weapon` SET `bodypart` = 'greatwolf', `weaponType` = 'pet' WHERE `item_id` IN (9656,9657,9658,9659,9660,9661,11132); -- 鬃狼專用
 UPDATE `weapon` SET `bodypart` = 'hatchling', `weaponType` = 'pet' WHERE `item_id` IN (3919,3920,3921,3922,3923,3924,3925,4237,4238,5187,5188,5189,5190,5191); -- 幼龍專用
 UPDATE `weapon` SET `bodypart` = 'strider', `weaponType` = 'pet' WHERE `item_id` IN (5176,5177,5178,5179,5180,5181); --  座龍專用
-
+*/
 /***** Done by vdmyagami！ *****/
