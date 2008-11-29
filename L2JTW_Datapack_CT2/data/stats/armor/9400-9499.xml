@@ -310,6 +310,7 @@
   <for>
    <add val='27' order='0x10' stat='mDef'/>
    <add val='35' order='0x40' stat='maxMp'/><!-- Update by rocknow -->
+   <sub val='0.12' order='0x40' stat='stunVuln'/><!-- Update by rocknow from L2Emu -->
    <enchant val='0' order='0x0C' stat='mDef'/>
   </for>
 </item>
@@ -318,6 +319,7 @@
   <for>
    <add val='36' order='0x10' stat='mDef'/>
    <add val='46' order='0x40' stat='maxMp'/><!-- Update by rocknow -->
+   <sub val='0.18' order='0x40' stat='stunVuln'/><!-- Update by rocknow from L2Emu -->
    <enchant val='0' order='0x0C' stat='mDef'/>
   </for>
 </item>
@@ -326,6 +328,7 @@
   <for>
    <add val='18' order='0x10' stat='mDef'/>
    <add val='23' order='0x40' stat='maxMp'/><!-- Update by rocknow -->
+   <sub val='0.08' order='0x40' stat='stunVuln'/><!-- Update by rocknow from L2Emu -->
    <enchant val='0' order='0x0C' stat='mDef'/>
   </for>
 </item>
@@ -334,6 +337,7 @@
   <for>
    <add val='27' order='0x10' stat='mDef'/>
    <add val='35' order='0x40' stat='maxMp'/><!-- Update by rocknow -->
+   <sub val='0.11' order='0x40' stat='poisonVuln'/><!-- Update by rocknow from L2Emu -->
    <enchant val='0' order='0x0C' stat='mDef'/>
   </for>
 </item>
@@ -342,6 +346,7 @@
   <for>
    <add val='36' order='0x10' stat='mDef'/>
    <add val='46' order='0x40' stat='maxMp'/><!-- Update by rocknow -->
+   <sub val='0.16' order='0x40' stat='poisonVuln'/><!-- Update by rocknow from L2Emu -->
    <enchant val='0' order='0x0C' stat='mDef'/>
   </for>
 </item>
@@ -350,6 +355,7 @@
   <for>
    <add val='18' order='0x10' stat='mDef'/>
    <add val='23' order='0x40' stat='maxMp'/><!-- Update by rocknow -->
+   <sub val='0.07' order='0x40' stat='poisonVuln'/><!-- Update by rocknow from L2Emu -->
    <enchant val='0' order='0x0C' stat='mDef'/>
   </for>
 </item>
@@ -358,6 +364,7 @@
   <for>
    <add val='27' order='0x10' stat='mDef'/>
    <add val='35' order='0x40' stat='maxMp'/><!-- Update by rocknow -->
+   <sub val='0.08' order='0x40' stat='bleedVuln'/><!-- Update by rocknow from L2Emu -->
    <enchant val='0' order='0x0C' stat='mDef'/>
   </for>
 </item>
@@ -366,6 +373,7 @@
   <for>
    <add val='36' order='0x10' stat='mDef'/>
    <add val='46' order='0x40' stat='maxMp'/><!-- Update by rocknow -->
+   <sub val='0.11' order='0x40' stat='bleedVuln'/><!-- Update by rocknow from L2Emu -->
    <enchant val='0' order='0x0C' stat='mDef'/>
   </for>
 </item>
@@ -374,6 +382,7 @@
   <for>
    <add val='18' order='0x10' stat='mDef'/>
    <add val='23' order='0x40' stat='maxMp'/><!-- Update by rocknow -->
+   <sub val='0.05' order='0x40' stat='bleedVuln'/><!-- Update by rocknow from L2Emu -->
    <enchant val='0' order='0x0C' stat='mDef'/>
   </for>
 </item>
@@ -382,6 +391,7 @@
   <for>
    <add val='27' order='0x10' stat='mDef'/>
    <add val='35' order='0x40' stat='maxMp'/><!-- Update by rocknow -->
+   <sub val='0.12' order='0x40' stat='sleepVuln'/><!-- Update by rocknow from L2Emu -->
    <enchant val='0' order='0x0C' stat='mDef'/>
   </for>
 </item>
@@ -390,6 +400,7 @@
   <for>
    <add val='36' order='0x10' stat='mDef'/>
    <add val='46' order='0x40' stat='maxMp'/><!-- Update by rocknow -->
+   <sub val='0.18' order='0x40' stat='sleepVuln'/><!-- Update by rocknow from L2Emu -->
    <enchant val='0' order='0x0C' stat='mDef'/>
   </for>
 </item>
@@ -398,6 +409,7 @@
   <for>
    <add val='18' order='0x10' stat='mDef'/>
    <add val='23' order='0x40' stat='maxMp'/><!-- Update by rocknow -->
+   <sub val='0.08' order='0x40' stat='sleepVuln'/><!-- Update by rocknow from L2Emu -->
    <enchant val='0' order='0x0C' stat='mDef'/>
   </for>
 </item>
@@ -406,6 +418,7 @@
   <for>
    <add val='27' order='0x10' stat='mDef'/>
    <add val='35' order='0x40' stat='maxMp'/><!-- Update by rocknow -->
+   <sub val='0.06' order='0x40' stat='paralyzeVuln'/><!-- Update by rocknow from L2Emu -->
    <enchant val='0' order='0x0C' stat='mDef'/>
   </for>
 </item>
@@ -414,6 +427,7 @@
   <for>
    <add val='36' order='0x10' stat='mDef'/>
    <add val='46' order='0x40' stat='maxMp'/><!-- Update by rocknow -->
+   <sub val='0.09' order='0x40' stat='paralyzeVuln'/><!-- Update by rocknow from L2Emu -->
    <enchant val='0' order='0x0C' stat='mDef'/>
   </for>
 </item>
@@ -422,6 +436,7 @@
   <for>
    <add val='18' order='0x10' stat='mDef'/>
    <add val='23' order='0x40' stat='maxMp'/><!-- Update by rocknow -->
+   <sub val='0.04' order='0x40' stat='paralyzeVuln'/><!-- Update by rocknow from L2Emu -->
    <enchant val='0' order='0x0C' stat='mDef'/>
   </for>
 </item>
@@ -430,6 +445,7 @@
   <for>
    <add val='27' order='0x10' stat='mDef'/>
    <add val='35' order='0x40' stat='maxMp'/><!-- Update by rocknow -->
+   <sub val='0.12' order='0x40' stat='rootVuln'/><!-- Update by rocknow from L2Emu -->
    <enchant val='0' order='0x0C' stat='mDef'/>
   </for>
 </item>
@@ -438,6 +454,7 @@
   <for>
    <add val='36' order='0x10' stat='mDef'/>
    <add val='46' order='0x40' stat='maxMp'/><!-- Update by rocknow -->
+   <sub val='0.18' order='0x40' stat='rootVuln'/><!-- Update by rocknow from L2Emu -->
    <enchant val='0' order='0x0C' stat='mDef'/>
   </for>
 </item>
@@ -446,6 +463,7 @@
   <for>
    <add val='18' order='0x10' stat='mDef'/>
    <add val='23' order='0x40' stat='maxMp'/><!-- Update by rocknow -->
+   <sub val='0.08' order='0x40' stat='rootVuln'/><!-- Update by rocknow from L2Emu -->
    <enchant val='0' order='0x0C' stat='mDef'/>
   </for>
 </item>
@@ -454,6 +472,7 @@
   <for>
    <add val='27' order='0x10' stat='mDef'/>
    <add val='35' order='0x40' stat='maxMp'/><!-- Update by rocknow -->
+   <sub val='0.06' order='0x40' stat='derangementVuln'/><!-- Update by rocknow from L2Emu -->
    <enchant val='0' order='0x0C' stat='mDef'/>
   </for>
 </item>
@@ -462,6 +481,7 @@
   <for>
    <add val='36' order='0x10' stat='mDef'/>
    <add val='46' order='0x40' stat='maxMp'/><!-- Update by rocknow -->
+   <sub val='0.09' order='0x40' stat='derangementVuln'/><!-- Update by rocknow from L2Emu -->
    <enchant val='0' order='0x0C' stat='mDef'/>
   </for>
 </item>
@@ -470,6 +490,7 @@
   <for>
    <add val='18' order='0x10' stat='mDef'/>
    <add val='23' order='0x40' stat='maxMp'/><!-- Update by rocknow -->
+   <sub val='0.04' order='0x40' stat='derangementVuln'/><!-- Update by rocknow from L2Emu -->
    <enchant val='0' order='0x0C' stat='mDef'/>
   </for>
 </item>
@@ -478,6 +499,7 @@
   <for>
    <add val='27' order='0x10' stat='mDef'/>
    <add val='35' order='0x40' stat='maxMp'/><!-- Update by rocknow -->
+   <sub val='0.06' order='0x40' stat='darkVuln'/><!-- Update by rocknow from L2Emu -->
    <enchant val='0' order='0x0C' stat='mDef'/>
   </for>
 </item>
@@ -486,6 +508,7 @@
   <for>
    <add val='36' order='0x10' stat='mDef'/>
    <add val='46' order='0x40' stat='maxMp'/><!-- Update by rocknow -->
+   <sub val='0.07' order='0x40' stat='darkVuln'/><!-- Update by rocknow from L2Emu -->
    <enchant val='0' order='0x0C' stat='mDef'/>
   </for>
 </item>
@@ -494,6 +517,7 @@
   <for>
    <add val='18' order='0x10' stat='mDef'/>
    <add val='23' order='0x40' stat='maxMp'/><!-- Update by rocknow -->
+   <sub val='0.05' order='0x40' stat='darkVuln'/><!-- Update by rocknow from L2Emu -->
    <enchant val='0' order='0x0C' stat='mDef'/>
   </for>
 </item>
