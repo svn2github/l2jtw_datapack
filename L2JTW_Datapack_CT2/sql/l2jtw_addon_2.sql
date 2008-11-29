@@ -3,9 +3,6 @@
 /************ 以下是參考 L2EmuProject-Datapack 所製作的修正 ************/
 
 /************ 修正防具 ************/
-UPDATE `armor` SET `duration` = '400' WHERE `item_id` ='9900';
-UPDATE `armor` SET `duration` = '250' WHERE `item_id` ='10140';
-UPDATE `armor` SET `duration` = '180' WHERE `item_id` ='10211';
 UPDATE `armor` SET `skill` = '3632-1;3633-2;' WHERE `item_id` ='6841';
 UPDATE `armor` SET `skill` = '3407-1;' WHERE `item_id` ='9900';
 UPDATE `armor` SET `skill` = '3361-1;3267-1;' WHERE `item_id` ='9909';
