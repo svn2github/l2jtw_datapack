@@ -8410,15 +8410,15 @@ UPDATE `etcitem` SET `name` ='淡紫鬃馬手鐲 30日組' WHERE item_id ='20059
 UPDATE `etcitem` SET `name` ='戰鬥貓帽組' WHERE item_id ='20060';
 UPDATE `etcitem` SET `name` ='骷髏帽組' WHERE item_id ='20061';
 UPDATE `etcitem` SET `name` ='自由傳送旗組' WHERE item_id ='20062';
-UPDATE `etcitem` SET `name` ='聖誕老人的禮物-喜悅	限時4小時' WHERE item_id ='20179';
-UPDATE `etcitem` SET `name` ='聖誕老人的禮物-趣味	限時4小時' WHERE item_id ='20180';
-UPDATE `etcitem` SET `name` ='聖誕老人的禮物-幸運	限時4小時' WHERE item_id ='20181';
-UPDATE `etcitem` SET `name` ='聖誕老人的禮物-幸運	限時4小時' WHERE item_id ='20182';
-UPDATE `etcitem` SET `name` ='追加入場券-欲界(深淵之廳) 5張組' WHERE item_id ='20183';
-UPDATE `etcitem` SET `name` ='追加入場券-近緣欲界 5張組' WHERE item_id ='20184';
-UPDATE `etcitem` SET `name` ='追加入場券-欲界(深淵迷宮) 5張組' WHERE item_id ='20185';
-UPDATE `etcitem` SET `name` ='追加入場券-欲界(深淵之廳) 10張組' WHERE item_id ='20186';
-UPDATE `etcitem` SET `name` ='追加入場券-近緣欲界 10張組' WHERE item_id ='20187';
+UPDATE `etcitem` SET `name` ='追加入場券-近緣欲界 5張組' WHERE item_id ='20179';
+UPDATE `etcitem` SET `name` ='追加入場券-近緣欲界 10張組' WHERE item_id ='20180';
+UPDATE `etcitem` SET `name` ='自由傳送卷軸 5張組' WHERE item_id ='20181';
+UPDATE `etcitem` SET `name` ='自由傳送卷軸 10張組' WHERE item_id ='20182';
+UPDATE `etcitem` SET `name` ='自由傳送旗 5張組' WHERE item_id ='20183';
+UPDATE `etcitem` SET `name` ='自由傳送旗 10張組' WHERE item_id ='20184';
+UPDATE `etcitem` SET `name` ='追加入場券-欲界(深淵之廳) 5張組' WHERE item_id ='20185';
+UPDATE `etcitem` SET `name` ='追加入場券-欲界(深淵迷宮) 5張組' WHERE item_id ='20186';
+UPDATE `etcitem` SET `name` ='追加入場券-欲界(深淵之廳) 10張組' WHERE item_id ='20187';
 UPDATE `etcitem` SET `name` ='追加入場券-欲界(深淵迷宮) 10張組' WHERE item_id ='20188';
 
 /***** Done by vdmyagami！ *****/
