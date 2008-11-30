@@ -138,7 +138,7 @@ class Quest (JQuest) :
                 if gift2:
                    st.giveItems(gift2,count2)
                    st.playTutorialVoice("tutorial_voice_026")
-             st.unset("step")
+             st.set("step","3")                               #修正狀態
              st.set("onlyone","1")
     return htmltext
 
@@ -177,7 +177,7 @@ class Quest (JQuest) :
        st.exitQuest(False)
      npc.showChatWindow(player)
      return None
-   elif onlyone == 0 and level < 10 :
+   elif onlyone == 0 and level < 10 and st.getState() != State.COMPLETED: #修正必須是任務剛開始
     if player.getRace().ordinal() == raceId :
       htmltext=htmlfiles[0]
       if npcTyp==1:
@@ -229,10 +229,24 @@ class Quest (JQuest) :
           htmltext = htmlfiles[1]
         elif step==3 :
           htmltext = htmlfiles[2]
-   elif st.getState() == State.COMPLETED and npcTyp == 0:
+   elif step==2 and npcTyp == 0 and level < 10 :                 #修正必須是等級10以下且已換取寶石
      htmltext = str(npc.getNpcId())+"-04.htm"
    if htmltext == None or htmltext == "":
      npc.showChatWindow(player)
+   return htmltext
+
+ def onTalk (self,npc,player):                                   #增加任務已完成的對話
+   npcId = npc.getNpcId()
+   htmltext = "<html><body>目前沒有執行任務，或條件不符。</body></html>"
+   st = player.getQuestState(qn)
+   if not st: return htmltext
+   npcTyp=1
+   if npcId in TALKS.keys():
+     raceId,htmlfiles,npcTyp,item = TALKS[npcId]
+   if npcTyp == 0 :
+     htmltext = htmlfiles[2]
+   if st.getState() == State.COMPLETED:
+     htmltext = "<html><body>這是已經完成的任務。</body></html>"
    return htmltext
 
  def onKill(self,npc,player,isPet):
@@ -240,7 +254,7 @@ class Quest (JQuest) :
    if not st : return
    qs = st.getPlayer().getQuestState(qnTutorial)
    if not qs : return
-   Ex = int(qs.get("Ex"))
+   Ex = qs.getInt("Ex")           #修正Int
    step = st.getInt("step")       #增加step的判斷
    if qs != None :
       if Ex < 2 :                 #Ex的判斷改寬

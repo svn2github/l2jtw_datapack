@@ -362,6 +362,7 @@ $MYG < ../sql/lastimperialtomb_spawnlist.sql &> /dev/null
 $MYG < ../sql/l2jtw_addon_0.sql &> /dev/null
 $MYG < ../sql/l2jtw_addon_1.sql &> /dev/null
 $MYG < ../sql/l2jtw_addon_2.sql &> /dev/null
+$MYG < ../sql/char_templates_tw.sql &> /dev/null
 }
 
 custom(){

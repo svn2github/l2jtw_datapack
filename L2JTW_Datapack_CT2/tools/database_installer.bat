@@ -663,6 +663,10 @@ set output=NUL
 goto :eof
 
 :custom
+cd ..\sql\
+set charprompt=y
+set /p charprompt=安裝「職業名稱中文化」: (y) 確定 或 (N) 取消？（預設值-確定）:
+if /i %charprompt%==y "%mysqlPath%" -h %gshost% -u %gsuser% --password=%gspass% -D %gsdb% < char_templates_tw.sql 2>>NUL
 echo.
 set cstprompt=n
 set /p cstprompt=安裝 custom 自訂資料表: (y) 確定 或 (N) 取消 或 (q) 退出？（預設值-取消）:
