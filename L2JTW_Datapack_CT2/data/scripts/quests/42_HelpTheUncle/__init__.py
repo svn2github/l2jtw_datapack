@@ -60,7 +60,7 @@ class Quest (JQuest) :
       if player.getLevel()>=MIN_LEVEL:
         htmltext="30828-00.htm"
       else:
-        htmltext="<html><body>（等級25以上的角色才可以執行的任務。）</body></html>"
+        htmltext="30828-00a.htm" #pmq修改
         st.exitQuest(1)
     elif id==State.STARTED:
       cond=st.getInt("cond")

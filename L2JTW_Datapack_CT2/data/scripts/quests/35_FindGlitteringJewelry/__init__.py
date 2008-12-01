@@ -28,19 +28,21 @@ class Quest (JQuest) :
      st.playSound("ItemSound.quest_accept")
    if event == "30879-1.htm" and cond == 1:
      st.set("cond","2")
+     st.playSound("ItemSound.quest_accept")  #pmq修改
    if event == "30091-3.htm" and cond == 3:
      st.takeItems(ROUGH_JEWEL,10)
      st.set("cond","4")
-   if event == "30091-5.htm" and cond == 4:
-     if st.getQuestItemsCount(ORIHARUKON) >= 5 and st.getQuestItemsCount(SILVER_NUGGET) >= 500 and st.getQuestItemsCount(THONS) >= 150 :
+     st.playSound("ItemSound.quest_accept")
+   if event == "30091-5.htm" :  #pmq修改
+     #pmq修改 if st.getQuestItemsCount(ORIHARUKON) >= 5 and st.getQuestItemsCount(SILVER_NUGGET) >= 500 and st.getQuestItemsCount(THONS) >= 150 :
        st.takeItems(ORIHARUKON,5)
        st.takeItems(SILVER_NUGGET,500)
        st.takeItems(THONS,150)
        st.giveItems(JEWEL_BOX,1)
        st.playSound("ItemSound.quest_finish")
        st.exitQuest(1)
-     else :
-       htmltext = "材料不足。"
+     #pmq修改 else :
+       #pmq修改 htmltext = "材料不足。"
    return htmltext
 
  def onTalk (self,npc,player):
@@ -57,18 +59,24 @@ class Quest (JQuest) :
          htmltext = "30091-0.htm"
          return htmltext
        else:
-         htmltext = "<html><body>目前沒有執行任務，或條件不符。</body></html>"
+         htmltext = "30091-6.htm"  #pmq修改
          st.exitQuest(1)
      else:
-       htmltext = "<html><body>目前沒有執行任務，或條件不符。</body></html>"
+       htmltext = "30091-6.htm"    #pmq修改
        st.exitQuest(1)
    elif npcId == 30879 and cond == 1 :
      htmltext = "30879-0.htm"
+   elif npcId == 30091 and cond >= 1 and cond <= 2 :
+     htmltext = "30091-1a.htm"  #pmq增加對話
+   elif npcId == 30879 and cond >= 2 and cond <= 3 :
+     htmltext = "30879-1a.htm"  #pmq增加對話
    elif id == State.STARTED :  
        if npcId == 30091 and st.getQuestItemsCount(ROUGH_JEWEL) == 10 :
          htmltext = "30091-2.htm"
        elif npcId == 30091 and cond == 4 and st.getQuestItemsCount(ORIHARUKON) >= 5 and st.getQuestItemsCount(SILVER_NUGGET) >= 500 and st.getQuestItemsCount(THONS) >= 150 :
          htmltext = "30091-4.htm"
+       else:                       #pmq增加對話
+         htmltext = "30091-3a.htm" #pmq增加對話
    return htmltext
 
 

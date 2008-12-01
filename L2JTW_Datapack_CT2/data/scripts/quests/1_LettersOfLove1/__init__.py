@@ -60,7 +60,7 @@ class Quest (JQuest) :
          htmltext = "30048-01.htm" 
          st.exitQuest(1) 
      else: 
-       htmltext = "<html><body>（等級2以上的角色才可以執行的任務。）</body></html>"
+       htmltext = "30048-01.htm"   #修改 pmq
        st.exitQuest(1) 
    elif npcId == DARIN and cond == 0 and onlyone == 1 : 
      htmltext = "<html><body>這是已經完成的任務。</body></html>"

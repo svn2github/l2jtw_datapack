@@ -54,8 +54,8 @@ DROPLIST={AMBER_BASILISK:[AMBER_SCALE,15],WHISPERING_WIND:[WIND_SOULSTONE,20],GL
 	  TYRANT_KINGPIN:[TYRANTS_CHITIN,50],TURAK_BUGBEAR:[BUGBEAR_BLOOD,25],TURAK_BUGBEAR_WARRIOR:[BUGBEAR_BLOOD,25]}
 
 # set of random messages
-MESSAGES={SUCCUBUS_OF_SEDUCTION:["Do you wanna be loved?","Do you need love?","Let me love you...","Want to know what love is?","Are you in need of love?","Me love you long time"],
-	  GRIMA:["hey hum hum!","boom! boom!","...","Ki ab kya karein hum"],
+MESSAGES={SUCCUBUS_OF_SEDUCTION:["真的會愛我們嗎？呵呵。","你需要愛嗎?","讓我愛你吧...","想知道什麼是愛嗎?","你一定需要愛?","我愛你很久啦"],
+	  GRIMA:["哇哈哈哈！","boom! boom!","...","Ki ab kya karein hum"],
 	  }
 
 def check_ingredients(st,required) :
@@ -165,15 +165,15 @@ class Quest (JQuest) :
      else:
        htmltext = "30738-14.htm"
    elif event == "matild_timer1":
-     autochat(npc,"OK, everybody pray fervently!")
+     autochat(npc,"來，大家迫切的祈禱吧！")
      st.startQuestTimer("matild_timer2",4000,npc)
      return
    elif event == "matild_timer2":
-     autochat(npc,"Both hands to heaven, everybody yell together!")
+     autochat(npc,"朝著天空，舉起雙手！大家一起大聲吶喊吧！")
      st.startQuestTimer("matild_timer3",4000,npc)
      return
    elif event == "matild_timer3":
-     autochat(npc,"One! Two! May your dreams come true!")
+     autochat(npc,"一！二！願望啊~實現吧！")
      wish = st.getInt("wish")
      WISH_CHANCE = st.getRandom(100)
      if wish == 1 :
@@ -207,7 +207,7 @@ class Quest (JQuest) :
 	 if not st.getRandom(3):
 	    st.giveItems(HEART_OF_PAAGRIO,1)
        else:
-	 autochat(st.addSpawn(WISDOM_CHEST,120000),"I contain the wisdom, I am the wisdom box!")
+	 autochat(st.addSpawn(WISDOM_CHEST,120000),"我擁有智慧。我是智慧之盒！")
      npc.setBusy(False)
      return
    elif event == "sanches_timer1" :

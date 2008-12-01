@@ -37,7 +37,7 @@ class Quest (JQuest) :
          if level>=20 :
              htmltext = "30078-01.htm"
          else:
-             htmltext = "<html><body>（等級20以上的角色才可以執行的任務。）</body></html>"
+             htmltext = "30078-00.htm"    #修改 pmq
              st.exitQuest(1)
      elif cond==1 :
          if st.getQuestItemsCount(BEAR_SKIN)>=20 :

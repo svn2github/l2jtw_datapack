@@ -30,13 +30,17 @@ class Quest (JQuest) :
     elif event == "31520-1.htm" and cond == 1:
       st.giveItems(SIGNET_RING,1)
       st.set("cond","2")
+      st.playSound("ItemSound.quest_accept")   #pmq修改
     elif event == "31521-1.htm" and cond == 2 :
       st.giveItems(ICE_WINE,1)
+      st.playSound("ItemSound.quest_accept")   #pmq修改
       st.set("cond","3")
+      st.playSound("ItemSound.quest_accept")   #pmq修改
     elif event == "31627-1.htm" and cond == 3:
       if st.getQuestItemsCount(ICE_WINE):
          st.takeItems(ICE_WINE,1)
          st.set("cond","4")
+         st.playSound("ItemSound.quest_accept")   #pmq修改
       else:
          htmltext = "材料不足。"
     elif event == "31521-3.htm" and cond == 4:
@@ -45,22 +49,23 @@ class Quest (JQuest) :
     elif event == "31520-3.htm" and cond == 5:
        st.set("cond","6")
     elif event == "31520-5.htm" and cond == 6:
-       if st.getQuestItemsCount(MYSTERIOUS_CLOTH) and st.getQuestItemsCount(JEWEL_BOX) and st.getQuestItemsCount(SEWING_KIT) :
+       #pmq修改 if st.getQuestItemsCount(MYSTERIOUS_CLOTH) and st.getQuestItemsCount(JEWEL_BOX) and st.getQuestItemsCount(SEWING_KIT) :
          st.takeItems(MYSTERIOUS_CLOTH,1)
          st.takeItems(JEWEL_BOX,1)
          st.takeItems(SEWING_KIT,1)
          st.set("cond","7")
-       else :
-         htmltext = "材料不足。"
+         st.playSound("ItemSound.quest_accept")   #pmq修改
+       #pmq修改 else :
+       #pmq修改   htmltext = "材料不足。"
     elif event == "31520-7.htm" :
-       if st.getQuestItemsCount(DRESS_SHOES_BOX) :
+       #pmq修改 if st.getQuestItemsCount(DRESS_SHOES_BOX) :
          st.takeItems(DRESS_SHOES_BOX,1)
          st.giveItems(FORMAL_WEAR,1)
          st.exitQuest(False)
          st.unset("cond")
          st.playSound("ItemSound.quest_finish")
-       else :
-         htmltext = "材料不足。"
+       #pmq修改 else :
+       #pmq修改   htmltext = "材料不足。"
    return htmltext
 
  def onTalk (self,npc,player):
@@ -83,6 +88,16 @@ class Quest (JQuest) :
    elif id == State.STARTED :    
        if npcId == 31520 and cond == 1 :
          htmltext = "31520-0.htm"
+       elif npcId == 30842 and cond == 1 :
+         htmltext = "30842-2a.htm"  #pmq增加對話
+       elif npcId == 31520 and cond > 1 and cond < 5 :
+         htmltext = "31520-1a.htm"  #pmq增加對話
+       elif npcId == 31521 and cond == 3 :
+         htmltext = "31521-1a.htm"  #pmq增加對話
+       elif npcId == 31521 and cond == 5 :
+         htmltext = "31521-3a.htm"  #pmq增加對話
+       elif npcId == 31627 and cond == 4 :
+         htmltext = "31627-1a.htm"  #pmq增加對話
        elif npcId == 31521 and st.getQuestItemsCount(SIGNET_RING) :
          st.takeItems(SIGNET_RING,1)
          htmltext = "31521-0.htm"
@@ -93,10 +108,14 @@ class Quest (JQuest) :
        elif npcId == 31520 and st.getQuestItemsCount(BOX_OF_COOKIES) :
          st.takeItems(BOX_OF_COOKIES,1)
          htmltext = "31520-2.htm"
-       elif npcId == 31520 and st.getQuestItemsCount(MYSTERIOUS_CLOTH) and st.getQuestItemsCount(JEWEL_BOX) and st.getQuestItemsCount(SEWING_KIT) :
+       elif npcId == 31520 and cond == 6 and st.getQuestItemsCount(MYSTERIOUS_CLOTH) and st.getQuestItemsCount(JEWEL_BOX) and st.getQuestItemsCount(SEWING_KIT) : #pmq修改
          htmltext = "31520-4.htm"
-       elif npcId == 31520 and st.getQuestItemsCount(DRESS_SHOES_BOX) :
+       elif npcId == 31520 and cond == 6 :
+         htmltext = "31520-3a.htm"  #pmq增加對話
+       elif npcId == 31520 and cond == 7 and st.getQuestItemsCount(DRESS_SHOES_BOX) :
          htmltext = "31520-6.htm"
+       elif npcId == 31520 and cond == 7 :
+         htmltext = "31520-5a.htm"  #pmq增加對話
    return htmltext
 
 QUEST       = Quest(37,qn,"請幫我做禮服!")

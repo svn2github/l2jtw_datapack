@@ -27,6 +27,12 @@ class Quest (JQuest) :
    if event == "30847-3.htm" and cond == 2 :
      st.takeItems(REINFORCED_STEEL,5)
      st.set("cond","3")
+   if event == "30847-4a.htm" :    #pmq修改
+     st.takeItems(ORIHARUKON,10)
+     st.takeItems(ARTISANS_FRAME,10)
+     st.giveItems(SEWING_KIT,1)
+     st.playSound("ItemSound.quest_finish")
+     st.exitQuest(1)
    return htmltext
 
  def onTalk (self,npc,player) :
@@ -41,18 +47,19 @@ class Quest (JQuest) :
          if fwear.get("cond") == "6" :
            htmltext = "30847-0.htm"
          else:
+           htmltext = "30847-5.htm"    #pmq修改
            st.exitQuest(1)
      else:
+       htmltext = "30847-5.htm"        #pmq修改
        st.exitQuest(1)
    elif st.getQuestItemsCount(REINFORCED_STEEL) == 5 :
      htmltext = "30847-2.htm"
+   elif cond == 1 :                    #pmq修改
+     htmltext = "30847-1a.htm"         #pmq修改
    elif cond == 3 and st.getQuestItemsCount(ORIHARUKON) >= 10 and st.getQuestItemsCount(ARTISANS_FRAME) >= 10 :
-     st.takeItems(ORIHARUKON,10)
-     st.takeItems(ARTISANS_FRAME,10)
-     st.giveItems(SEWING_KIT,1)
-     st.playSound("ItemSound.quest_finish")
      htmltext = "30847-4.htm"
-     st.exitQuest(1)
+   elif cond == 3 :                    #pmq修改
+     htmltext = "30847-3a.htm"         #pmq修改
    return htmltext
 
  def onKill(self,npc,player,isPet):

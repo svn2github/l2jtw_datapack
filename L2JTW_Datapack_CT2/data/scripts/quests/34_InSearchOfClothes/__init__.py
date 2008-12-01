@@ -28,17 +28,21 @@ class Quest (JQuest) :
      st.playSound("ItemSound.quest_accept")
    if event == "30294-1.htm" and cond == 1 :
      st.set("cond","2")
+     st.playSound("ItemSound.quest_accept")   #pmq修改
    if event == "30088-3.htm" and cond == 2:
      st.set("cond","3")
+     st.playSound("ItemSound.quest_accept")   #pmq修改
    if event == "30165-1.htm" and cond == 3:
      st.set("cond","4")
+     st.playSound("ItemSound.quest_accept")   #pmq修改
    if event == "30165-3.htm" and cond == 5:
      if st.getQuestItemsCount(SPINNERET) == 10 :
        st.takeItems(SPINNERET,10)
        st.giveItems(SPIDERSILK,1)
        st.set("cond","6")
+       st.playSound("ItemSound.quest_accept") #pmq修改
      else :
-       htmltext = "材料不足。"
+       htmltext = "30165-1a.htm"  #pmq修改
    if event == "30088-5.htm" and cond == 6 :
      if st.getQuestItemsCount(SUEDE) >= 3000 and st.getQuestItemsCount(THREAD) >= 5000 and st.getQuestItemsCount(SPIDERSILK) == 1 :
        st.takeItems(SUEDE,3000)
@@ -48,7 +52,7 @@ class Quest (JQuest) :
        st.playSound("ItemSound.quest_finish")
        st.exitQuest(1)
      else :
-       htmltext = "材料不足。"
+       htmltext = "30088-4a.htm"  #pmq修改
    return htmltext
 
  def onTalk (self,npc,player):
@@ -64,18 +68,30 @@ class Quest (JQuest) :
        if fwear.get("cond") == "6" :
          htmltext = "30088-0.htm"
        else :
+         htmltext = "30088-6.htm"   #pmq增加對話
          st.exitQuest(1)
      else :
+       htmltext = "30088-6.htm"     #pmq增加對話
        st.exitQuest(1)
    elif id == State.STARTED :    
        if npcId == 30294 and cond == 1 :
          htmltext = "30294-0.htm"
+       elif npcId == 30088 and cond == 1 :
+         htmltext = "30088-1a.htm"  #pmq增加對話
        elif npcId == 30088 and cond == 2 :
          htmltext = "30088-2.htm"
+       elif npcId == 30294 and cond == 2 :
+         htmltext = "30294-1a.htm"  #pmq增加對話
        elif npcId == 30165 and cond == 3 :
          htmltext = "30165-0.htm"
+       elif npcId == 30165 and cond == 4 :
+         htmltext = "30165-1a.htm"  #pmq增加對話
+       elif npcId == 30088 and cond == 3 :
+         htmltext = "30088-3a.htm"  #pmq增加對話
        elif npcId == 30165 and cond == 5 :
          htmltext = "30165-2.htm"
+       elif npcId == 30165 and cond == 6 :
+         htmltext = "30165-3a.htm"  #pmq增加對話
        elif npcId == 30088 and cond == 6 :
           htmltext = "30088-4.htm"
    return htmltext

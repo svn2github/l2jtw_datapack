@@ -54,13 +54,13 @@ class Quest (JQuest) :
        if player.getLevel() >= 3 : 
          htmltext = "30583-02.htm" 
        else: 
-         htmltext = "<html><body>（等級3以上的角色才可以執行的任務。）</body></html>"
+         htmltext = "30583-01.htm"
          st.exitQuest(1) 
      else : 
-       htmltext = "30583-01.htm" 
+       htmltext = "30583-01.htm"                                   #pmq修改
        st.exitQuest(1) 
    elif npc == PETUKAI and id == State.COMPLETED : 
-     htmltext = "<html><body>抱歉！旅行者，我無法再給你奇岩城鎮回歸卷軸了。</body></html>"
+     htmltext = "<html><body>這是已經完成的任務。</body></html>"   #pmq修改
    elif npc == PETUKAI and cond == 1 : 
      htmltext = "30583-04.htm"
    if id == State.STARTED :  

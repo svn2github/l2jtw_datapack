@@ -215,45 +215,45 @@ Cyb_Rewards = {
     }
 
 Tor_menu = [
-    "<a action=\"bypass -h Quest 335_TheSongOfTheHunter 3727\">C: Obtain 40 charms of Kadesh</a><br>",
-    "<a action=\"bypass -h Quest 335_TheSongOfTheHunter 3728\">C: Collect 50 Timak Jade Necklaces</a><br>",
-    "<a action=\"bypass -h Quest 335_TheSongOfTheHunter 3729\">C: Gather 50 Enchanted Golem Shards</a><br>",
-    "<a action=\"bypass -h Quest 335_TheSongOfTheHunter 3730\">C: Collect and bring back 30 pieces of Giant Monster Eye Meat</a><br>",
-    "<a action=\"bypass -h Quest 335_TheSongOfTheHunter 3731\">C: Collect and bring back 40 Dire Wyrm Eggs</a><br>",
-    "<a action=\"bypass -h Quest 335_TheSongOfTheHunter 3732\">C: Collect and bring back 100 guardian basilisk talons</a><br>",
-    "<a action=\"bypass -h Quest 335_TheSongOfTheHunter 3733\">C: Collect and bring back 50 revenants chains</a><br>",
-    "<a action=\"bypass -h Quest 335_TheSongOfTheHunter 3734\">C: Collect and bring back 30 Windsus Tusks</a><br>",
-    "<a action=\"bypass -h Quest 335_TheSongOfTheHunter 3735\">C: Collect and bring back 100 Grandis Skulls</a><br>",
-    "<a action=\"bypass -h Quest 335_TheSongOfTheHunter 3736\">C: Collect and bring back 50 Taik Obsidian Amulets</a><br>",
-    "<a action=\"bypass -h Quest 335_TheSongOfTheHunter 3737\">C: Bring me 30 heads of karul bugbears</a><br>",
-    "<a action=\"bypass -h Quest 335_TheSongOfTheHunter 3738\">C: Collect 40 Tamlin Ivory Charms</a><br>",
-    "<a action=\"bypass -h Quest 335_TheSongOfTheHunter 3739\">B: Bring me the head of Elder Narak of the leto lizardmen</a><br>",
-    "<a action=\"bypass -h Quest 335_TheSongOfTheHunter 3740\">B: Collect and bring back 50 Enchanted Gargoyle Horns</a><br>",
-    "<a action=\"bypass -h Quest 335_TheSongOfTheHunter 3741\">B: Collect and bring back 50 Coiled Serpent Totems</a><br>",
-    "<a action=\"bypass -h Quest 335_TheSongOfTheHunter 3742\">B: Bring me the totem of the Serpent Demon Kadesh</a><br>",
-    "<a action=\"bypass -h Quest 335_TheSongOfTheHunter 3743\">B: Bring me the head of Kaikis</a><br>",
-    "<a action=\"bypass -h Quest 335_TheSongOfTheHunter 3744\">B: Collect and bring back 30 Kronbe Venom Sacs</a><br>",
-    "<a action=\"bypass -h Quest 335_TheSongOfTheHunter 3746\">A: Recover the precious stone tablet that was stolen from a Dwarven cargo wagon by grandis</a><br>",
-    "<a action=\"bypass -h Quest 335_TheSongOfTheHunter 3747\">A: Recover the precious Book of Shunaiman</a><br>",
-    "<a action=\"bypass -h Quest 335_TheSongOfTheHunter 3749\">C: Collect and bring back 40 Trisalim Venom Sacs</a><br>",
-    "<a action=\"bypass -h Quest 335_TheSongOfTheHunter 3750\">C: Collect and bring back 50 Taik Orc Totems</a><br>",
-    "<a action=\"bypass -h Quest 335_TheSongOfTheHunter 3751\">C: Collect and bring back 40 Harit Lizardman barbed necklaces</a><br>",
-    "<a action=\"bypass -h Quest 335_TheSongOfTheHunter 3752\">C: Collect and bring back 20 coins of the old empire</a><br>",
-    "<a action=\"bypass -h Quest 335_TheSongOfTheHunter 3753\">C: Kill 30 farcrans and bring back their skins</a><br>",
-    "<a action=\"bypass -h Quest 335_TheSongOfTheHunter 3754\">C: Collect and bring back 40 Tempest Shards</a><br>",
-    "<a action=\"bypass -h Quest 335_TheSongOfTheHunter 3755\">C: Collect and bring back 40 Tsunami Shards</a><br>",
-    "<a action=\"bypass -h Quest 335_TheSongOfTheHunter 3756\">C: Collect and bring back 40 Satyr Manes</a><br>",
-    "<a action=\"bypass -h Quest 335_TheSongOfTheHunter 3758\">C: Collect and bring back 30 Shillien Manes</a><br>",
-    "<a action=\"bypass -h Quest 335_TheSongOfTheHunter 3759\">C: Collect and bring back 30 tarlk bugbear totems</a><br>",
-    "<a action=\"bypass -h Quest 335_TheSongOfTheHunter 3760\">B: Bring me the head of Okun</a><br>",
-    "<a action=\"bypass -h Quest 335_TheSongOfTheHunter 3761\">B: Bring me the head of Kakran</a><br>",
-    "<a action=\"bypass -h Quest 335_TheSongOfTheHunter 3762\">B: Collect and bring back 40 narcissus soulstones</a><br>",
-    "<a action=\"bypass -h Quest 335_TheSongOfTheHunter 3763\">B: Collect and bring back 20 Deprive Eyes</a><br>",
-    "<a action=\"bypass -h Quest 335_TheSongOfTheHunter 3764\">B: Collect and bring back 20 horns of summon unicorn</a><br>",
-    "<a action=\"bypass -h Quest 335_TheSongOfTheHunter 3765\">B: Bring me the golden mane of Kerunos</a><br>",
-    "<a action=\"bypass -h Quest 335_TheSongOfTheHunter 3766\">A: Bring back 20 skulls of undead executed criminals</a><br>",
-    "<a action=\"bypass -h Quest 335_TheSongOfTheHunter 3767\">A: Recover the stolen bust of the late King Travis</a><br>",
-    "<a action=\"bypass -h Quest 335_TheSongOfTheHunter 3768\">A: Recover 10 swords of Cadmus</a><br>"
+    "<a action=\"bypass -h Quest 335_TheSongOfTheHunter 3727\">C:軍神卡迪斯圖騰40個</a><br>",  #pmq 修改中文化
+    "<a action=\"bypass -h Quest 335_TheSongOfTheHunter 3728\">C:提瑪克玉石項鍊50個</a><br>",  #pmq 修改中文化
+    "<a action=\"bypass -h Quest 335_TheSongOfTheHunter 3729\">C:附法岩石高崙的碎片50個</a><br>",  #pmq 修改中文化
+    "<a action=\"bypass -h Quest 335_TheSongOfTheHunter 3730\">C:巨大眼怪肉30個</a><br>",  #pmq 修改中文化
+    "<a action=\"bypass -h Quest 335_TheSongOfTheHunter 3731\">C:邪惡亞龍之蛋40個</a><br>",  #pmq 修改中文化
+    "<a action=\"bypass -h Quest 335_TheSongOfTheHunter 3732\">C:邪惡蜥蜴守護者的爪100個</a><br>",  #pmq 修改中文化
+    "<a action=\"bypass -h Quest 335_TheSongOfTheHunter 3733\">C:亡者鎖鏈50個</a><br>",  #pmq 修改中文化
+    "<a action=\"bypass -h Quest 335_TheSongOfTheHunter 3734\">C:溫德薩斯的牙30個</a><br>",  #pmq 修改中文化
+    "<a action=\"bypass -h Quest 335_TheSongOfTheHunter 3735\">C:葛雷迪斯的頭骨100個</a><br>",  #pmq 修改中文化
+    "<a action=\"bypass -h Quest 335_TheSongOfTheHunter 3736\">C:泰可黑曜石項鍊50個</a><br>",  #pmq 修改中文化
+    "<a action=\"bypass -h Quest 335_TheSongOfTheHunter 3737\">C:卡魯食人妖的頭30個</a><br>",  #pmq 修改中文化
+    "<a action=\"bypass -h Quest 335_TheSongOfTheHunter 3738\">C:塔林的象牙符咒40個</a><br>",  #pmq 修改中文化
+    "<a action=\"bypass -h Quest 335_TheSongOfTheHunter 3739\">B:里多元老拿拉克頭顱</a><br>",
+    "<a action=\"bypass -h Quest 335_TheSongOfTheHunter 3740\">B:附法翼魔的角50個</a><br>",
+    "<a action=\"bypass -h Quest 335_TheSongOfTheHunter 3741\">B:布賴卡獸人蛇之圖騰50個</a><br>",
+    "<a action=\"bypass -h Quest 335_TheSongOfTheHunter 3742\">B:通緝-里多咒術士克次</a><br>",  #pmq 修改中文化
+    "<a action=\"bypass -h Quest 335_TheSongOfTheHunter 3743\">B:通緝-提瑪克突擊隊長卡毅克</a><br>",
+    "<a action=\"bypass -h Quest 335_TheSongOfTheHunter 3744\">B:可洛比的毒囊30個</a><br>",
+    "<a action=\"bypass -h Quest 335_TheSongOfTheHunter 3746\">A:葛蕾迪斯首領勾克-瑪國克下巨人的石板</a><br>",
+    "<a action=\"bypass -h Quest 335_TheSongOfTheHunter 3747\">A:卡魯族長歐魯托史奈曼的經典</a><br>",
+    "<a action=\"bypass -h Quest 335_TheSongOfTheHunter 3749\">C:崔沙林的毒囊40個</a><br>",  #pmq 修改中文化
+    "<a action=\"bypass -h Quest 335_TheSongOfTheHunter 3750\">C:泰可獸人圖騰50個</a><br>",  #pmq 修改中文化
+    "<a action=\"bypass -h Quest 335_TheSongOfTheHunter 3751\">C:哈里特的鱗項鍊40個</a><br>",  #pmq 修改中文化
+    "<a action=\"bypass -h Quest 335_TheSongOfTheHunter 3752\">C:古代帝國的銅幣20個</a><br>",  #pmq 修改中文化
+    "<a action=\"bypass -h Quest 335_TheSongOfTheHunter 3753\">C:帕克蘭之皮30個</a><br>",  #pmq 修改中文化
+    "<a action=\"bypass -h Quest 335_TheSongOfTheHunter 3754\">C:颶風碎片40個</a><br>",  #pmq 修改中文化
+    "<a action=\"bypass -h Quest 335_TheSongOfTheHunter 3755\">C:海嘯碎片40個</a><br>",    #pmq 修改中文化
+    "<a action=\"bypass -h Quest 335_TheSongOfTheHunter 3756\">C:片奴的鬃毛40個</a><br>",  #pmq 修改中文化
+    "<a action=\"bypass -h Quest 335_TheSongOfTheHunter 3758\">C:賽勒諾斯的銀色鬃毛30個</a><br>",  #pmq 修改中文化
+    "<a action=\"bypass -h Quest 335_TheSongOfTheHunter 3759\">C:塔爾克食人妖的圖騰30個</a><br>",  #pmq 修改中文化
+    "<a action=\"bypass -h Quest 335_TheSongOfTheHunter 3760\">B:通緝-提瑪克的團長奧昆</a><br>",  #pmq 修改中文化
+    "<a action=\"bypass -h Quest 335_TheSongOfTheHunter 3761\">B:通緝-泰可的團長卡克蘭</a><br>",  #pmq 修改中文化
+    "<a action=\"bypass -h Quest 335_TheSongOfTheHunter 3762\">B:納爾希斯的靈魂石40個</a><br>",  #pmq 修改中文化
+    "<a action=\"bypass -h Quest 335_TheSongOfTheHunter 3763\">B:帝萊普之眼20個</a><br>",  #pmq 修改中文化
+    "<a action=\"bypass -h Quest 335_TheSongOfTheHunter 3764\">B:獨角獸之角20個</a><br>",
+    "<a action=\"bypass -h Quest 335_TheSongOfTheHunter 3765\">B:克爾諾斯的黃金鬃毛</a><br>",  #pmq 修改中文化
+    "<a action=\"bypass -h Quest 335_TheSongOfTheHunter 3766\">A:死囚頭骨20個</a><br>",
+    "<a action=\"bypass -h Quest 335_TheSongOfTheHunter 3767\">A:特拉庇斯國王的胸像</a><br>",  #pmq 修改中文化
+    "<a action=\"bypass -h Quest 335_TheSongOfTheHunter 3768\">A:卡德姆斯國王親衛隊之劍10個</a><br>"  #pmq 修改中文化
     ]
 
 
@@ -319,7 +319,7 @@ class Quest (JQuest) :
                 htmltext = "30745-04.htm"
         elif event == "Tor_list_1" :
             if not st.getInt("hasTask") :
-                htmltext = "<html><body>Guild Member Tor:<br>"
+                htmltext = "<html><body>獵人公會會員托勒:<br>"  #pmq 修改中文化
                 pins = st.getQuestItemsCount(Leaf_Pin)
                 reply_0 = Rnd.get(12)
                 reply_1 = Rnd.get(12)
@@ -346,7 +346,7 @@ class Quest (JQuest) :
                 htmltext += "</body></html>"
         elif event == "Tor_list_2" :
             if not st.getInt("hasTask") :
-                htmltext = "<html><body>Guild Member Tor:<br>"
+                htmltext = "<html><body>獵人公會會員托勒:<br>"  #pmq 修改中文化
                 pins = st.getQuestItemsCount(Leaf_Pin)
                 reply_0 = Rnd.get(10)
                 reply_1 = Rnd.get(10)
@@ -562,7 +562,7 @@ class Quest (JQuest) :
                     if npcId in [27160,27164] and Rnd.get(2) :
                         st.addSpawn(27150,300000)
                         st.addSpawn(27150,300000)
-                        AutoChat(npc,"We will destroy the legacy of the ancient empire!")
+                        AutoChat(npc,"我們將會把古代帝國的遺產帶走！")  #pmq 修改中文化
         elif cond == 3 :
             if npcId in Tor_requests_2.keys() :
                 req,give,amount,chance = Tor_requests_2[npcId]
@@ -576,10 +576,10 @@ class Quest (JQuest) :
                         if npcId == 27162 and Rnd.get(2) :
                             st.addSpawn(27150,300000)
                             st.addSpawn(27150,300000)
-                            AutoChat(npc,"We will destroy the legacy of the ancient empire!")
+                            AutoChat(npc,"我們將會把古代帝國的遺產帶走！")  #pmq 修改中文化
                     if npcId in [20661,20662,20589,20590,20639] and not Rnd.get(20) :
                         st.addSpawn(Gremlin_Filcher,300000)
-                        AutoChat(npc,"Get out! The jewels are mine!")
+                        AutoChat(npc,"將漂亮的閃耀珠寶拿出來！都是我的！")  #pmq 修改中文化
             elif npcId == Gremlin_Filcher :
                 req = 0
                 for item in Filcher.keys() :
@@ -594,7 +594,7 @@ class Quest (JQuest) :
                             st.playSound("ItemSound.quest_middle")
                         else :
                             st.playSound("ItemSound.quest_itemget")
-                        AutoChat(npc,"What!")
+                        AutoChat(npc,"呃！")  #pmq 修改中文化
         if npcId in Tor_requests_tospawn.keys() and rand < 10:
             it1,it2,id = Tor_requests_tospawn[npcId]
             if st.getQuestItemsCount(it1) and not st.getQuestItemsCount(it2) :
