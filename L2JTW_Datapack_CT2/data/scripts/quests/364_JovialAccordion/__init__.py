@@ -55,7 +55,11 @@ class Quest (JQuest) :
    cond=st.getInt("cond")
    if npcId == 30959 :
      if cond == 0 :
-        htmltext = "30959-01.htm"
+      if player.getLevel() >= 31 :   #pmq修改
+         htmltext = "30959-01.htm"   #pmq修改
+      else :                         #pmq修改
+         htmltext = "30959-00.htm"   #pmq修改
+         st.exitQuest(1)             #pmq修改
      elif cond == 3 :
         st.playSound("ItemSound.quest_finish")
         st.giveItems(ECHO,1)

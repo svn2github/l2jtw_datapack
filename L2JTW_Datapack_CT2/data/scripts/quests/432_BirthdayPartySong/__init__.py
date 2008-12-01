@@ -22,12 +22,12 @@ class Quest (JQuest) :
  def onEvent (self,event,st) :
      htmltext = event
      cond = st.getInt("cond")
-     if event == "1" and cond == 0 :
+     if event == "1" and cond == 1 :    #pmq修改
          htmltext = "31043-02.htm"
-         st.set("cond","1")
+         st.set("cond","2")             #pmq修改
          st.setState(State.STARTED)
          st.playSound("ItemSound.quest_accept")
-     elif event == "3" and st.getQuestItemsCount(RED_CRYSTALS_ID) == 50 and cond == 2 :
+     elif event == "3" and st.getQuestItemsCount(RED_CRYSTALS_ID) == 50 and cond == 3 :
          st.giveItems(BIRTHDAY_ECHO_CRYSTAL_ID,25)
          st.takeItems(RED_CRYSTALS_ID,50)
          htmltext = "31043-05.htm"
@@ -44,10 +44,14 @@ class Quest (JQuest) :
      id = st.getState()
      cond = st.getInt("cond")
      if id == State.CREATED :
+      if player.getLevel() >= 31 :      #pmq修改
          htmltext = "31043-01.htm"
-     elif cond ==1 :
-         htmltext = "31043-03.htm"
+      else :                            #pmq修改
+         htmltext = "31043-00.htm"      #pmq修改
+         st.exitQuest(1)                #pmq修改
      elif cond == 2 :
+         htmltext = "31043-03.htm"
+     elif cond == 3 :
          htmltext = "31043-04.htm"
      return htmltext
  
@@ -55,7 +59,7 @@ class Quest (JQuest) :
      st = player.getQuestState(qn)
      if not st : return 
      if st.getState() != State.STARTED : return 
-     if st.getInt("cond") == 1 :
+     if st.getInt("cond") == 2 :
              numItems, chance = divmod(100*Config.RATE_DROP_QUEST,100)
              if st.getRandom(100) < chance :
                  numItems = numItems + 1
@@ -64,7 +68,7 @@ class Quest (JQuest) :
                  numItems = 50 - count
                  if numItems != 0 :    
                      st.playSound("ItemSound.quest_middle")
-                     st.set("cond","2")
+                     st.set("cond","3")
              else :
                  st.playSound("ItemSound.quest_itemget")
              st.giveItems(RED_CRYSTALS_ID,int(numItems))

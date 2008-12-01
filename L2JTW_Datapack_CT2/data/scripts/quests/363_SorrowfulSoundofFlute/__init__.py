@@ -15,11 +15,16 @@ class Quest (JQuest) :
 
  def onEvent (self,event,st) :
     htmltext = event
+    player = st.getPlayer()                     #pmq修改
     if event == "1" :
+      if player.getLevel() >= 15 :              #pmq修改
+        htmltext = "30956_2.htm"                #pmq修改
         st.set("cond","1")
         st.setState(State.STARTED)
         st.playSound("ItemSound.quest_accept")
-        htmltext = "30956_2.htm"
+      else :                                    #pmq修改
+        htmltext = "30956_0.htm"                #pmq修改
+        st.exitQuest(1)                         #pmq修改
     elif event == "5" :
         st.giveItems(4420,1)
         st.playSound("ItemSound.quest_finish")

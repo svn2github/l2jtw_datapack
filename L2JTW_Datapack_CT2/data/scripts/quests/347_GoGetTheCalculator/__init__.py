@@ -83,8 +83,13 @@ class Quest (JQuest) :
 
     npcId = npc.getNpcId()
     id = st.getState()
-    if npcId != BRUNON and id != State.STARTED : return htmltext
-
+    if npcId != BRUNON and id != State.STARTED : 
+     if player.getLevel() >= 12 :   #pmq修改
+         htmltext = "30526-01.htm"  #pmq修改
+    else:                           #pmq修改
+         htmltext = "30526-00.htm"  #pmq修改
+         st.exitQuest(1)            #pmq修改
+    return htmltext
     if npcId == BRUNON and id==State.CREATED :
         st.set("id","0")
         st.set("cond","0")

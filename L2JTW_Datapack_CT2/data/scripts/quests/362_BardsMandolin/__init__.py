@@ -39,7 +39,11 @@ class Quest (JQuest) :
      st.set("cond","0")
    cond = st.getInt("cond")
    if npcId == 30957 and cond == 0 :
-        htmltext = "30957_1.htm"
+      if player.getLevel() >= 15 :   #pmq修改
+         htmltext = "30957_1.htm"    #pmq修改
+      else :                         #pmq修改
+         htmltext = "30957_0.htm"    #pmq修改
+         st.exitQuest(1)             #pmq修改
    elif npcId == 30837 and cond == 1 :
         st.set("cond","2")
         htmltext = "30837_1.htm"

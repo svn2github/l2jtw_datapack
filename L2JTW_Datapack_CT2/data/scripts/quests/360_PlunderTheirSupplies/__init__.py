@@ -51,7 +51,7 @@ class Quest (JQuest) :
      if player.getLevel() >= 52 :
        htmltext = "30873-0.htm"
      else:
-       htmltext = "<html><body>（等級52以上的角色才可以執行的任務。）</body></html>"
+       htmltext = "30873-0a.htm"    #修改 pmq
        st.exitQuest(1)
    elif not supplies :
      htmltext = "30873-3.htm"
