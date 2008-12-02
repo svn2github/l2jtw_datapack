@@ -49,7 +49,7 @@ public class Orfen extends L2AttackableAIScript
 	private static final String[] Text = {"PLAYERNAME！讓你體驗何謂真正的恐怖！",
 	        "PLAYERNAME，不要再使用同樣的招數了！",
 	        "PLAYERNAME，要讓你知道自己的無能！",
-	        竟敢向我挑戰。PLAYERNAME！等著瞧！"};
+	        "竟敢向我挑戰。PLAYERNAME！等著瞧！"};
 
 	private static final int ORFEN = 29014;
 	//private static final int RAIKEL = 29015;
