@@ -122,7 +122,7 @@ public class Valakas extends L2AttackableAIScript
     		            {
     		            }
     				}
-    			},(long)100);
+    			},100L);
                 startQuestTimer("1003", 60000, valakas, null, true);
             }
         }
@@ -150,7 +150,7 @@ public class Valakas extends L2AttackableAIScript
 		            {
 		            }
 				}
-			},(long)100);
+			},100L);
 
             startQuestTimer("1003", 60000, valakas, null, true);
             if (status == WAITING)
@@ -175,6 +175,9 @@ public class Valakas extends L2AttackableAIScript
 			if (event.equalsIgnoreCase("1001"))
             {
                 npc.teleToLocation(212852,-114842,-1632);
+            	// delete me once animations available
+            	GrandBossManager.getInstance().setBossStatus(VALAKAS,FIGHTING);
+            	//
                 i_quest1 = System.currentTimeMillis();
                 final L2NpcInstance _valakas = npc;
                 ThreadPoolManager.getInstance().scheduleGeneral(new Runnable() {
@@ -188,7 +191,7 @@ public class Valakas extends L2AttackableAIScript
     		            {
     		            }
     				}
-    			},(long)1);
+    			},1L);
                 startQuestTimer("1004",2000, npc, null);
             }
             else if (event.equalsIgnoreCase("1002"))
@@ -308,7 +311,8 @@ public class Valakas extends L2AttackableAIScript
             }
             else if (event.equalsIgnoreCase("1110"))
             {
-            	GrandBossManager.getInstance().setBossStatus(VALAKAS,FIGHTING);
+            	// uncoment me once animations available
+            	//GrandBossManager.getInstance().setBossStatus(VALAKAS,FIGHTING);
             	startQuestTimer("1002",60000, npc, null, true);
             	npc.setIsInvul(false);
             	getRandomSkill(npc);
@@ -356,6 +360,9 @@ public class Valakas extends L2AttackableAIScript
                 }
                 cancelQuestTimer("1002", npc, null);
                 startQuestTimer("remove_players",900000, null, null);
+                // delete me once animations available
+                GrandBossManager.getInstance().setBossStatus(VALAKAS,DEAD);
+                //
             }
         }
         else
@@ -957,7 +964,8 @@ public class Valakas extends L2AttackableAIScript
     	startQuestTimer("1111",500, npc, null);
         npc.broadcastPacket(new SpecialCamera(npc.getObjectId(),2000,130,-1,0,10000));
         npc.broadcastPacket(new PlaySound(1, "B03_D", 1, npc.getObjectId(), npc.getX(), npc.getY(), npc.getZ()));
-        GrandBossManager.getInstance().setBossStatus(VALAKAS,DEAD);
+        // uncoment me once animations available 
+        //GrandBossManager.getInstance().setBossStatus(VALAKAS,DEAD);
         long respawnTime = ((192 + Rnd.get(145) ) * 3600000);
         this.startQuestTimer("valakas_unlock", respawnTime, null, null);
         // also save the respawn time so that the info is maintained past reboots
@@ -969,7 +977,7 @@ public class Valakas extends L2AttackableAIScript
 
 	public void getRandomSkill(L2NpcInstance npc)
 	{
-		if (npc.isInvul())
+		if (npc.isInvul() || npc.isCastingNow())
 		{
 			return;
 		}
@@ -1251,7 +1259,7 @@ public class Valakas extends L2AttackableAIScript
 			return;
 		}
 
-		if (c2 == null || c2.isDead() || c2.isAlikeDead() || timer == null)
+		if (c2 == null || c2.isDead() || timer == null)
 		{
 			c2 = getRandomTarget(npc); // just in case if hate AI fail
 			if (timer == null)
@@ -1261,7 +1269,7 @@ public class Valakas extends L2AttackableAIScript
 			}
 		}
 		L2Character target = c2;
-		if (target == null || target.isDead() || target.isAlikeDead())
+		if (target == null || target.isDead())
 		{
 			if (timer == null)
 				startQuestTimer("1003", 500, npc, null, true);
@@ -1273,14 +1281,17 @@ public class Valakas extends L2AttackableAIScript
 			if (timer != null)
 				timer.cancel();
 			npc.getAI().setIntention(AI_INTENTION_IDLE);
+			npc.setIsCastingNow(true);
 			npc.setTarget(target);
 			npc.doCast(skill);
+			
 		}
 		else
 		{
 			if (timer == null)
 				startQuestTimer("1003", 500, npc, null, true);
 			npc.getAI().setIntention(AI_INTENTION_FOLLOW, target, null);
+			npc.setIsCastingNow(false);
 		}
 	}
 	public void broadcastSpawn(L2NpcInstance npc)
@@ -1311,17 +1322,17 @@ public class Valakas extends L2AttackableAIScript
 			{
 				if (obj instanceof L2PcInstance)
 				{
-					if (Util.checkIfInRange(5000, npc, obj, true) && !((L2Character) obj).isDead() && !((L2Character) obj).isAlikeDead())
+					if (Util.checkIfInRange(5000, npc, obj, true) && !((L2Character) obj).isDead())
 						result.add((L2PcInstance) obj);
 				}
 				if (obj instanceof L2Summon)
 				{
-					if (Util.checkIfInRange(5000, npc, obj, true) && !((L2Character) obj).isDead() && !((L2Character) obj).isAlikeDead())
+					if (Util.checkIfInRange(5000, npc, obj, true) && !((L2Character) obj).isDead())
 						result.add((L2Summon) obj);
 				}
 				if (obj instanceof L2DecoyInstance)
 				{
-					if (Util.checkIfInRange(5000, npc, obj, true) && !((L2Character) obj).isDead() && !((L2Character) obj).isAlikeDead())
+					if (Util.checkIfInRange(5000, npc, obj, true) && !((L2Character) obj).isDead())
 						result.add((L2DecoyInstance) obj);
 				}
 			}

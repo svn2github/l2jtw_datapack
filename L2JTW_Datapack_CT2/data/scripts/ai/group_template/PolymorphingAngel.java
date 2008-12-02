@@ -17,9 +17,7 @@ package ai.group_template;
 import java.util.Map;
 
 import javolution.util.FastMap;
-import net.sf.l2j.gameserver.ai.CtrlIntention;
 import net.sf.l2j.gameserver.model.L2Attackable;
-import net.sf.l2j.gameserver.model.L2Character;
 import net.sf.l2j.gameserver.model.actor.instance.L2NpcInstance;
 import net.sf.l2j.gameserver.model.actor.instance.L2PcInstance;
 
@@ -54,10 +52,7 @@ public class PolymorphingAngel extends L2AttackableAIScript
         if (ANGELSPAWNS.containsKey(npcId))
         {
             L2Attackable newNpc = (L2Attackable) this.addSpawn(ANGELSPAWNS.get(npcId),npc);
-            L2Character originalKiller = isPet? killer.getPet(): killer;
             newNpc.setRunning();
-            newNpc.addDamageHate(originalKiller,0,999);
-            newNpc.getAI().setIntention(CtrlIntention.AI_INTENTION_ATTACK, originalKiller);
         }
         return super.onKill(npc,killer,isPet);
     }
