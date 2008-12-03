@@ -1137,7 +1137,7 @@
   <set name="castRange" val="-1"/>
   <set name="effectRange" val="-1"/>
   <for>
-    <add order="0x40" stat="cAtk" val="504"/> <!-- P.Atk. +504 on a critical hit -->
+    <add order="0x40" stat="cAtkAdd" val="504"/> <!-- P.Atk. +504 on a critical hit -->
     <mul order="0x30" stat="maxHp" val="1.25"/> <!-- HP +25% -->
     <mul order="0x30" stat="maxCp" val="1.50"/> <!-- CP +50% -->
     <add order="0x40" stat="rCrit" val="78.7"/> <!-- Critical +78.7 -->
@@ -1319,10 +1319,8 @@
   <set name="castRange" val="40"/>
   <set name="effectRange" val="400"/>
   <set name="negateStats" val="BUFF HEAL_PERCENT"/>
-  <set name="negatePower" val="8.0"/>
+  <set name="negatePower" val="10"/>
   <set name="maxNegated" val="3"/> <!-- Making max debuff count 3 -->
-  <for>
-  </for>
 </skill>
 <skill id="3593" levels="1" name="Special Ability: Infinity Bow">
   <!-- Done by DJ MELERIX -->

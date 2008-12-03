@@ -27,8 +27,6 @@
   <set name="npcId" val="#npcIds"/>
   <set name="expPenalty" val="0.3"/>
   <set name="isCubic" val="false"/>
-  <for>
-  </for>
 </skill>
 <skill id="302" levels="9" name="Spoil Festival" enchantLevels1="30" enchantLevels2="30" >
   <table name="#enchantMagicLvl"> 76 76 76 77 77 77 78 78 78 79 79 79 80 80 80 81 81 81 82 82 82 82 83 83 83 84 84 85 85 85 </table>
@@ -369,17 +367,17 @@
   <enchant2 name="mpInitialConsume" val="#ench2MpConsume_Init"/>
   <for>
     <effect count="0x7fffffff" name="MpConsumePerLevel" time="3" val="0.4">
-      <add order="0x40" stat="cAtk" val="#crit"/>
+      <add order="0x40" stat="cAtkAdd" val="#crit"/>
     </effect>
   </for>
   <enchant1for>
     <effect count="0x7fffffff" name="MpConsumePerLevel" time="3" val="0.4">
-      <add order="0x40" stat="cAtk" val="#ench1crit"/>
+      <add order="0x40" stat="cAtkAdd" val="#ench1crit"/>
     </effect>
   </enchant1for>
   <enchant2for>
     <effect count="0x7fffffff" name="MpConsumePerLevel" time="3" val="#ench2val">
-      <add order="0x40" stat="cAtk" val="609"/>
+      <add order="0x40" stat="cAtkAdd" val="609"/>
     </effect>
   </enchant2for>
 </skill>
@@ -454,7 +452,7 @@
   <set name="overHit" val="true"/>
   <set name="reuseDelay" val="20000"/>
   <set name="hitTime" val="3000"/>
-  <set name="coolTime" val="1000" />
+  <set name="coolTime" val="1000"/>
   <set name="skillType" val="FATAL"/>
   <set name="operateType" val="OP_ACTIVE"/>
   <set name="castRange" val="900"/>
@@ -481,7 +479,7 @@
   <set name="SSBoost" val="2.0"/>
   <set name="reuseDelay" val="26000"/>
   <set name="hitTime" val="1620"/>
-  <set name="coolTime" val="1080" />
+  <set name="coolTime" val="1080"/>
   <set name="skillType" val="PDAM"/>
   <set name="operateType" val="OP_ACTIVE"/>
   <set name="castRange" val="40"/>
@@ -598,9 +596,10 @@
   <set name="power" val="#CP"/>
   <set name="target" val="TARGET_MULTIFACE"/>
   <set name="skillRadius" val="80"/>
+  <set name="overHit" val="true"/>
   <set name="reuseDelay" val="120000"/>
   <set name="hitTime" val="1080"/>
-  <set name="coolTime" val="720" />
+  <set name="coolTime" val="720"/>
   <set name="skillType" val="CPDAM"/>
   <set name="operateType" val="OP_ACTIVE"/>
   <set name="castRange" val="60"/>
@@ -618,10 +617,9 @@
   <set name="power" val="#power"/>
   <set name="target" val="TARGET_ONE"/>
   <set name="condition" val="16"/>
-  <set name="overHit" val="true"/>
   <set name="reuseDelay" val="180000"/>
   <set name="hitTime" val="1080"/>
-  <set name="coolTime" val="720" />
+  <set name="coolTime" val="720"/>
   <set name="skillType" val="BLOW"/>
   <set name="lethal1" val="5"/>
   <set name="isDebuff" val="true"/>
@@ -680,8 +678,6 @@
   <set name="create_item_id" val="1344"/>
   <set name="create_item_count" val="700"/>
   <set name="random_count" val="4"/>
-  <for>
-  </for>
 </skill>
 <skill id="324" levels="1" name="Quiver of Arrow: Grade S">
   <set name="mpConsume" val="398"/>
@@ -696,8 +692,6 @@
   <set name="create_item_id" val="1345"/>
   <set name="create_item_count" val="900"/>
   <set name="random_count" val="4"/>
-  <for>
-  </for>
 </skill>
 <skill id="325" levels="1" name="Strider Siege Assault">
   <!-- SHOULD WORK ONLY DURING SIEGE -->
@@ -708,15 +702,13 @@
   <set name="power" val="15005.0"/>
   <set name="target" val="TARGET_ONE"/>
   <set name="hitTime" val="1080"/>
-  <set name="coolTime" val="720" />
+  <set name="coolTime" val="720"/>
   <set name="SSBoost" val="2.0"/>
   <set name="reuseDelay" val="35000"/>
   <set name="skillType" val="STRSIEGEASSAULT"/>
   <set name="operateType" val="OP_ACTIVE"/>
   <set name="castRange" val="40"/>
   <set name="effectRange" val="500"/>
-  <for>
-  </for>
 </skill>
 <skill id="326" levels="1" name="Build Advanced Headquarters">
   <!-- <set name="mpConsume" val="30"/> -->
@@ -726,8 +718,6 @@
   <set name="skillType" val="NOTDONE"/>
   <set name="operateType" val="OP_ACTIVE"/>
   <set name="castRange" val="-1"/>
-  <for>
-  </for>
 </skill>
 <skill id="327" levels="1" name="Wyvern Aegis">
   <set name="mpConsume" val="69"/>
@@ -784,8 +774,6 @@
   <set name="skillType" val="NOTDONE"/>
   <set name="operateType" val="OP_PASSIVE"/>
   <set name="castRange" val="-1"/>
-  <for>
-  </for>
 </skill>
 <skill id="331" levels="1" name="Skill Mastery">
   <!-- Masters excellence in skills. Low possibility of being able to re-use skills without delay or doubles the duration. Influenced by INT. -->
@@ -793,8 +781,6 @@
   <set name="skillType" val="NOTDONE"/>
   <set name="operateType" val="OP_PASSIVE"/>
   <set name="castRange" val="-1"/>
-  <for>
-  </for>
 </skill>
 <skill id="332" levels="1" name="Extra Inventory">
   <!-- Increases size of inventory. -->
@@ -802,8 +788,6 @@
   <set name="skillType" val="NOTDONE"/>
   <set name="operateType" val="OP_PASSIVE"/>
   <set name="castRange" val="-1"/>
-  <for>
-  </for>
 </skill>
 <skill id="333" levels="1" name="Extra Sell Inventory">
   <!-- Increases private store sales slots. -->
@@ -811,8 +795,6 @@
   <set name="skillType" val="NOTDONE"/>
   <set name="operateType" val="OP_PASSIVE"/>
   <set name="castRange" val="-1"/>
-  <for>
-  </for>
 </skill>
 <skill id="334" levels="1" name="Focus Skill Mastery">
   <!-- Skill for dagger and archer Need to be chance/corrected -->
@@ -960,7 +942,7 @@
   <set name="isDebuff" val="true"/>
   <set name="lvlDepend" val="1"/>
   <set name="magicLvl" val="78"/>
-  <set name="negatePower" val="2.5"/>
+  <set name="negatePower" val="25"/>
   <set name="negateStats" val="BUFF HEAL_PERCENT"/>
   <set name="maxNegated" val="5"/>
   <set name="operateType" val="OP_ACTIVE"/>
@@ -1016,7 +998,6 @@
 </skill>
 <skill id="345" levels="1" name="Sonic Rage">
   <set name="weaponsAllowed" val="512"/> <!-- Dual Sword -->
-  <set name="overHit" val="true"/>
   <set name="magicLvl" val="78"/>
   <set name="hpConsume" val="50"/>
   <set name="mpConsume" val="5"/>
@@ -1034,7 +1015,6 @@
 </skill>
 <skill id="346" levels="1" name="Raging Force">
   <set name="weaponsAllowed" val="1024"/> <!-- Dual Fist -->
-  <set name="overHit" val="true"/>
   <set name="magicLvl" val="78"/>
   <set name="hpConsume" val="50"/>
   <set name="mpConsume" val="5"/>
@@ -1116,7 +1096,7 @@
       <mul order="0x30" stat="mReuse" val="0.7"/>
       <mul order="0x30" stat="pReuse" val="0.7"/>
       <mul order="0x30" stat="MagicalMpConsumeRate" val="0.90"/>
-	  <mul order="0x30" stat="PhysicalMpConsumeRate" val="0.90"/>
+      <mul order="0x30" stat="PhysicalMpConsumeRate" val="0.90"/>
     </effect>
   </for>
 </skill>
@@ -1242,20 +1222,16 @@
   <set name="aggroPoints" val="669"/>
   <for>
     <effect count="1" name="Buff" time="120" val="0" stackOrder="1" stackType="focus">
-      <basemul order="0x30" stat="rCrit" val="-0.30"> <!-- Critical -30% -->
-        <using kind="Dagger"/>
-      </basemul>
+      <basemul order="0x30" stat="rCrit" val="-0.30"/> <!-- Critical -30% -->
       <mul order="0x30" stat="blowRate" val="1.60"/> <!-- Blow land rate +60% -->
       <mul order="0x30" stat="cAtk" val="0.70"> <!-- Critical Damage from front -30% -->
         <and>
           <player front="True"/>
-          <using kind="Dagger"/>
         </and>
       </mul>
       <mul order="0x30" stat="cAtk" val="1.90"> <!-- Critical Damage from back +90% -->
         <and>
           <player behind="True"/>
-          <using kind="Dagger"/>
         </and>
       </mul>
     </effect>
@@ -1277,20 +1253,17 @@
       <basemul order="0x30" stat="rCrit" val="-0.30"> <!-- Critical Chance from front -30% -->
         <and>
           <player front="True"/>
-          <using kind="Dagger"/>
         </and>
       </basemul>
       <basemul order="0x30" stat="rCrit" val="0.30"> <!-- Critical Chance from side +30% -->
         <and>
           <player front="False"/>
           <player behind="False"/>
-          <using kind="Dagger"/>
         </and>
       </basemul>
       <basemul order="0x30" stat="rCrit" val="0.60"> <!-- Critical Chance from back +60% -->
         <and>
           <player behind="True"/>
-          <using kind="Dagger"/>
         </and>
       </basemul>
     </effect>
@@ -1877,8 +1850,6 @@
   <set name="castRange" val="-1"/>
   <set name="effectRange" val="-1"/>
   <set name="minPledgeClass" val="2"/>
-  <for>
-  </for>
 </skill>
 <skill id="391" levels="1" name="Clan Imperium">
   <!-- Gives authority to open up a command channel. Only affects Wise Man class and above. -->
@@ -1888,8 +1859,6 @@
   <set name="castRange" val="-1"/>
   <set name="effectRange" val="-1"/>
   <set name="minPledgeClass" val="4"/>
-  <for>
-  </for>
 </skill>
 <skill id="395" levels="1" name="Heroic Miracle">
   <set name="mpConsume" val="72"/>

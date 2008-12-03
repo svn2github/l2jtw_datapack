@@ -55,9 +55,9 @@
   <enchant1 name="power" val="#ench1Power"/>
   <enchant2 name="mpConsume" val="#ench2MpConsume"/>
   <for>
-     <effect count="1" name="Debuff" time="10" val="0">
-       <mul order="0x30" stat="cAtk" val="#cAtk"/>
-     </effect>
+    <effect count="1" name="Debuff" time="10" val="0">
+      <mul order="0x30" stat="cAtk" val="#cAtk"/>
+    </effect>
   </for>
 </skill>
 <skill id="402" levels="10" name="Arrest">
@@ -72,7 +72,7 @@
   <set name="skillType" val="ROOT"/>
   <set name="operateType" val="OP_ACTIVE"/>
   <set name="castRange" val="150"/>
-  <set name="effectRange" val="500"/>
+  <set name="effectRange" val="650"/>
   <for>
     <effect count="1" name="Root" time="8" val="0" stackOrder="1" stackType="Root"/>
   </for>
@@ -130,7 +130,7 @@
   <set name="operateType" val="OP_ACTIVE"/>
   <set name="lethal2" val="40"/>
   <set name="castRange" val="150"/>
-  <set name="effectRange" val="550"/>
+  <set name="effectRange" val="650"/>
   <enchant1 name="mpConsume" val="#ench1MpConsume"/>
   <for>
     <effect count="8" name="Fear" time="2" val="0"/>
@@ -145,7 +145,7 @@
   <set name="mpConsume" val="#mpConsume"/>
   <set name="target" val="TARGET_SELF"/>
   <set name="condition" val="32"/>
-  <set name="reuseDelay" val="600000"/>
+  <set name="reuseDelay" val="300000"/>
   <set name="hitTime" val="2000"/>
   <set name="skillType" val="BUFF"/>
   <set name="operateType" val="OP_ACTIVE"/>
@@ -155,7 +155,7 @@
     <player hp="30"/>
   </cond>
   <for>
-    <effect count="1" name="Buff" time="120" val="0">
+    <effect count="1" name="Buff" time="60" val="0">
       <mul order="0x30" stat="mDef" val="1.5"/>
       <mul order="0x30" stat="pDef" val="1.5"/>
       <add order="0x40" stat="accCombat" val="6"/>
@@ -236,7 +236,6 @@
   <table name="#magicLvl"> 55 58 60 62 64 66 68 70 72 74 </table>
   <set name="magicLvl" val="#magicLvl"/>
   <set name="weaponsAllowed" val="16"/> <!-- Dagger -->
-  <set name="overHit" val="true"/>
   <set name="mpConsume" val="#mpConsume"/>
   <set name="power" val="#power"/>
   <set name="target" val="TARGET_ONE"/>
@@ -303,15 +302,14 @@
   <table name="#accCombat"> 6 6 6 6 6 9 9 9 9 12 </table>
   <set name="mpConsume" val="#mpConsume"/>
   <set name="power" val="80"/>
-  <set name="target" val="TARGET_AURA"/>
-  <set name="skillRadius" val="150"/>
+  <set name="target" val="TARGET_ONE"/>
   <set name="reuseDelay" val="8000"/>
   <set name="isDebuff" val="true"/>
   <set name="hitTime" val="2000"/>
   <set name="skillType" val="DEBUFF"/>
   <set name="operateType" val="OP_ACTIVE"/>
-  <set name="castRange" val="-1"/>
-  <set name="effectRange" val="-1"/>
+  <set name="castRange" val="150"/>
+  <set name="effectRange" val="650"/>
   <for>
     <effect count="1" name="Debuff" time="30" val="0" stackOrder="#accCombat" stackType="accuracyDown">
       <sub order="0x40" stat="accCombat" val="#accCombat"/>
@@ -773,7 +771,7 @@
   <set name="effectRange" val="-1"/>
   <set name="isDebuff" val="true"/>
   <set name="hitTime" val="2500"/>
-  <set name="coolTime" val="167" />
+  <set name="coolTime" val="167"/>
   <set name="reuseDelay" val="480000"/>
   <set name="aggroPoints" val="523"/>
   <for>
@@ -835,9 +833,9 @@
   <table name="#hhot"> 100 </table> <!-- Guessing -->
   <table name="#mhot"> 20 </table> <!-- Guessing -->
   <set name="buffDuration" val="120000"/>
-  <set name="cancelEffect" val="441"/>
+  <set name="negateId" val="441"/>
   <set name="castRange" val="-1"/>
-  <set name="charge_skill_id" val="4271"/>
+  <set name="charge_skill_id" val="50"/>
   <set name="effectRange" val="-1"/>
   <set name="hitTime" val="2000"/>
   <set name="num_charges" val="3"/>
@@ -855,7 +853,7 @@
 </skill>
 <skill id="442" levels="1" name="Sonic Barrier">
   <set name="num_charges" val="5"/>
-  <set name="charge_skill_id" val="4271"/>
+  <set name="charge_skill_id" val="8"/>
   <set name="weaponsAllowed" val="512"/> <!-- Dual Sword -->
   <set name="mpConsume" val="65"/>
   <set name="target" val="TARGET_SELF"/>
@@ -880,7 +878,7 @@
   <set name="castRange" val="-1"/>
   <set name="effectRange" val="-1"/>
   <set name="num_charges" val="4"/>
-  <set name="charge_skill_id" val="4271"/>
+  <set name="charge_skill_id" val="50"/>
   <for>
     <effect count="1" name="Invincible" time="10" val="0"/>
   </for>
@@ -944,9 +942,7 @@
   <set name="skillType" val="NOTDONE"/>
   <set name="operateType" val="OP_PASSIVE"/>
   <set name="castRange" val="-1"/>
-  <for>
   <!-- needs core support - not really a reflect -> http://www.l2guru.com/forum/showthread.php?t=74337 -->
-  </for>
 </skill>
 <skill id="448" levels="1" name="Summon Swoop Cannon">
   <!-- Needs to be verified "Is enchantable but no stats for the +Power versions" -->
@@ -970,8 +966,6 @@
   <set name="npcId" val="14839"/>
   <set name="expPenalty" val="0.0"/>
   <set name="isCubic" val="false"/>
-  <for>
-  </for>
 </skill>
 <skill id="449" levels="4" name="Summon Attractive Cubic">
   <!-- Needs to be finished "L2CubicInstance.java has to be updated to support cubic id and hate/hold skills" -->
@@ -998,8 +992,6 @@
   <set name="activationchance" val="40"/> <!-- guessed -->
   <set name="expPenalty" val="0.0"/>
   <set name="isCubic" val="true"/>
-  <for>
-  </for>
 </skill>
 <skill id="450" levels="10" name="Banish Seraph" enchantLevels1="30">
   <table name="#enchantMagicLvl"> 76 76 76 77 77 77 78 78 78 79 79 79 80 80 80 81 81 81 82 82 82 82 83 83 83 84 84 85 85 85 </table>
@@ -1021,7 +1013,7 @@
   <set name="isDebuff" val="true"/>
   <set name="lethal2" val="40"/>
   <set name="castRange" val="150"/>
-  <set name="effectRange" val="550"/>
+  <set name="effectRange" val="650"/>
   <enchant1 name="mpConsume" val="#ench1MpConsume"/>
   <cond msg="Banish Seraph cannot be used due to unsuitable terms.">
     <target race_id="7"/>
@@ -1038,7 +1030,7 @@
   <set name="hitTime" val="1000"/>
   <set name="reuseDelay" val="75000"/>
   <set name="target" val="TARGET_SELF"/>
-  <set name="charge_skill_id" val="4271"/>
+  <set name="charge_skill_id" val="8"/>
   <set name="num_charges" val="#charges"/>
   <set name="mpConsume" val="#mpConsume"/>
   <set name="operateType" val="OP_ACTIVE"/>
@@ -1083,7 +1075,7 @@
   <set name="castRange" val="-1"/>
   <set name="effectRange" val="-1"/>
   <set name="negateStats" val="ROOT"/>
-  <set name="negatePower" val="8.0"/>
+  <set name="negatePower" val="8"/> <!-- guessed -->
 </skill>
 <skill id="454" levels="1" name="Symbol of Defense">
   <set name="target" val="TARGET_SELF"/>
@@ -1274,9 +1266,7 @@
   <set name="skillType" val="NOTDONE"/>
   <set name="operateType" val="OP_PASSIVE"/>
   <set name="castRange" val="-1"/>
-  <for>
   <!-- how can I use num_charges when skillType is not CHARGEDAM ? -->
-  </for>
 </skill>
 <skill id="462" levels="1" name="Guilted Body">
   <set name="target" val="TARGET_SELF"/>
@@ -1360,8 +1350,6 @@
   <set name="num_souls" val="#Max-Souls"/>
   <set name="expNeeded" val="#Exp"/>
   <set name="critChance" val="#Critic-Chance"/>
-  <for>
-  </for>
 </skill>
 <skill id="468" levels="9" name="Fallen Attack">
   <table name="#mpConsume"> 9 8 10 11 12 13 16 16 17 </table>
@@ -1376,7 +1364,7 @@
   <set name="SSBoost" val="2.0"/>
   <set name="reuseDelay" val="13000"/>
   <set name="hitTime" val="1500"/>
-  <set name="coolTime" val="720" />
+  <set name="coolTime" val="720"/>
   <set name="skillType" val="PDAM"/>
   <set name="operateType" val="OP_ACTIVE"/>
   <set name="castRange" val="40"/>
@@ -1412,8 +1400,6 @@
   <set name="skillRadius" val="400"/>
   <set name="castRange" val="-1"/>
   <set name="effectRange" val="-1"/>
-  <for>
-  </for>
 </skill>
 <skill id="471" levels="7" name="Defuse Trap">
   <!-- Needs retail value corrections -->
@@ -1428,8 +1414,6 @@
   <set name="operateType" val="OP_ACTIVE"/>
   <set name="castRange" val="400"/>
   <set name="effectRange" val="900"/>
-  <for>
-  </for>
 </skill>
 <skill id="472" levels="45" name="Ancient Sword Mastery">
   <table name="#pAtk"> 4.5 7.3 8.9 10.7 12.8 15.1 17.7 20.5 23.7 25.4 27.1 29.0 30.9 32.9 35.0 37.1 39.4 41.7 44.1 46.6 49.2 51.9 54.6 57.5 60.4 63.3 66.4 69.5 72.7 76.0 79.3 82.7 86.1 89.6 93.1 96.6 100.2 103.8 107.5 111.1 114.8 118.4 122.1 125.7 129.3 </table> <!-- custom values from sword/blunt mastery -->
@@ -1493,12 +1477,11 @@
   <set name="power" val="#power"/>
   <set name="magicLvl" val="#magicLvl"/>
   <set name="weaponsAllowed" val="51212"/> <!-- Ancient/Sword/Big Sword/Blunt/Big Blunt -->
-  <set name="overHit" val="true"/>
   <set name="skillType" val="PDAM"/>
   <set name="operateType" val="OP_ACTIVE"/>
   <set name="reuseDelay" val="13000"/>
   <set name="hitTime" val="1500"/>
-  <set name="coolTime" val="720" />
+  <set name="coolTime" val="720"/>
   <set name="castRange" val="40"/>
   <set name="effectRange" val="400"/>
   <set name="soulMaxConsumeCount" val="5"/>
@@ -1522,7 +1505,7 @@
   <set name="operateType" val="OP_ACTIVE"/>
   <set name="reuseDelay" val="13000"/>
   <set name="hitTime" val="1500"/>
-  <set name="coolTime" val="720" />
+  <set name="coolTime" val="720"/>
   <set name="castRange" val="40"/>
   <set name="effectRange" val="400"/>
   <set name="soulMaxConsumeCount" val="5"/>
@@ -1544,7 +1527,7 @@
   <set name="SSBoost" val="2.0"/>
   <set name="reuseDelay" val="13000"/>
   <set name="hitTime" val="1500"/>
-  <set name="coolTime" val="720" />
+  <set name="coolTime" val="720"/>
   <set name="skillType" val="PDAM"/>
   <set name="operateType" val="OP_ACTIVE"/>
   <set name="overHit" val="true"/>
@@ -1606,7 +1589,7 @@
   <for>
     <effect count="1" name="Buff" time="120" val="0">
       <add order="0x40" stat="rCrit" val="#rCrit"/>
-      <add order="0x40" stat="cAtk" val="#cAtk"/>
+      <add order="0x40" stat="cAtkAdd" val="#cAtk"/>
       <mul order="0x30" stat="pDef" val="#pDef"/>
     </effect>
   </for>
@@ -1700,7 +1683,7 @@
   <set name="overHit" val="true"/>
   <set name="reuseDelay" val="15000"/>
   <set name="hitTime" val="3200"/>
-  <set name="coolTime" val="720" />
+  <set name="coolTime" val="720"/>
   <set name="skillType" val="PDAM"/>
   <set name="operateType" val="OP_ACTIVE"/>
   <set name="castRange" val="500"/>
@@ -1750,8 +1733,6 @@
   <set name="skillType" val="NOTDONE"/>
   <set name="operateType" val="OP_PASSIVE"/>
   <set name="castRange" val="-1"/>
-  <for>
-  </for>
 </skill>
 <skill id="492" levels="25" name="Spread Wing" enchantLevels1="30" enchantLevels2="30" >
   <table name="#enchantMagicLvl"> 76 76 76 77 77 77 78 78 78 79 79 79 80 80 80 81 81 81 82 82 82 82 83 83 83 84 84 85 85 85 </table>
@@ -1774,8 +1755,6 @@
   <enchant2 name="magicLvl" val="#enchantMagicLvl"/>
   <enchant1 name="power" val="#ench1Power"/>
   <enchant2 name="mpConsume" val="#ench2MpConsume"/>
-  <for>
-  </for>
 </skill>
 <skill id="493" levels="28" name="Storm Assault" enchantLevels1="30" enchantLevels2="30" >
   <table name="#enchantMagicLvl"> 76 76 76 77 77 77 78 78 78 79 79 79 80 80 80 81 81 81 82 82 82 82 83 83 83 84 84 85 85 85 </table>
@@ -1787,7 +1766,6 @@
   <table name="#castRange"> 400 400 400 400 400 400 400 400 400 400 400 500 500 500 500 500 500 500 500 500 500 500 500 500 500 500 500 500 </table>
   <table name="#effectRange"> 900 900 900 900 900 900 900 900 900 900 900 1000 1000 1000 1000 1000 1000 1000 1000 1000 1000 1000 1000 1000 1000 1000 1000 1000 </table>
   <set name="weaponsAllowed" val="32768"/> <!-- Ancient -->
-  <set name="overHit" val="true"/>
   <set name="mpConsume" val="#mpConsume"/>
   <set name="power" val="#power"/>
   <set name="magicLvl" val="#magicLvl"/>
@@ -1796,14 +1774,14 @@
   <set name="SSBoost" val="2.0"/>
   <set name="reuseDelay" val="13000"/>
   <set name="hitTime" val="800"/>
-  <set name="coolTime" val="320" />
+  <set name="coolTime" val="320"/>
   <set name="skillType" val="PDAM"/>
   <set name="operateType" val="OP_ACTIVE"/>
   <set name="castRange" val="#castRange"/>
   <set name="effectRange" val="#effectRange"/>
   <set name="flyType" val="CHARGE"/>
   <cond msg="Storm Assault cannot be used due to unsuitable terms.">
-      <target mindistance="200"/>
+    <target mindistance="200"/>
   </cond>
   <enchant1 name="magicLvl" val="#enchantMagicLvl"/>
   <enchant2 name="magicLvl" val="#enchantMagicLvl"/>
@@ -1817,7 +1795,6 @@
   <table name="#magicLvl"> 40 41 42 43 44 45 46 47 48 49 50 51 52 53 54 55 56 57 58 58 59 60 61 62 63 64 65 66 67 68 69 70 71 72 73 74 75 </table>
   <set name="magicLvl" val="#magicLvl"/><!-- 40,76 -->
   <set name="weaponsAllowed" val="32768"/> <!-- Ancient -->
-  <set name="overHit" val="true"/>
   <set name="mpConsume" val="#mpConsume"/>
   <set name="power" val="50"/>
   <set name="hitTime" val="800"/>
@@ -1831,7 +1808,7 @@
   <set name="soulMaxConsumeCount" val="5"/>
   <set name="flyType" val="CHARGE"/>
   <cond msg="Shoulder Charge cannot be used due to unsuitable terms.">
-      <target mindistance="200"/>
+    <target mindistance="200"/>
   </cond>
   <for>
     <effect count="1" name="Stun" time="9" val="0" stackOrder="1" stackType="Stun"/>
@@ -1843,6 +1820,8 @@
   <table name="#magicLvl"> 55 57 59 61 63 66 68 70 72 74 </table>
   <table name="#castRange"> 500 500 500 500 500 500 600 600 600 600 </table>
   <table name="#effectRange"> 1000 1000 1000 1000 1000 1000 1100 1100 1100 1100 </table>
+  <table name="#abnormalLvl"> 6 6 7 7 7 7 7 8 8 8 </table>
+  <set name="abnormalLvl" val="#abnormalLvl"/>
   <set name="magicLvl" val="#magicLvl"/> <!-- 55,76 -->
   <set name="mpConsume" val="#mpConsume"/>
   <set name="weaponsAllowed" val="32768"/> <!-- Ancient -->
@@ -1860,7 +1839,7 @@
   <set name="flyType" val="CHARGE"/>
   <set name="soulMaxConsumeCount" val="5"/>
   <cond msg="Blade Rush cannot be used due to unsuitable terms.">
-      <target mindistance="200"/>
+    <target mindistance="200"/>
   </cond>
   <for>
     <!-- retail value: 13 17 22 27 31 34/sec; stat update every 5 units (3 1/3 sec) -->
@@ -1884,7 +1863,7 @@
   <set name="SSBoost" val="2.0"/>
   <set name="reuseDelay" val="13000"/>
   <set name="hitTime" val="1500"/>
-  <set name="coolTime" val="720" />
+  <set name="coolTime" val="720"/>
   <set name="skillType" val="PDAM"/>
   <set name="operateType" val="OP_ACTIVE"/>
   <set name="castRange" val="-1"/>
@@ -1912,7 +1891,7 @@
   <set name="SSBoost" val="2.0"/>
   <set name="reuseDelay" val="30000"/>
   <set name="hitTime" val="2200"/>
-  <set name="coolTime" val="720" />
+  <set name="coolTime" val="720"/>
   <set name="skillType" val="PDAM"/>
   <set name="operateType" val="OP_ACTIVE"/>
   <set name="castRange" val="40"/>

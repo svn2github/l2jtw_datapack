@@ -305,12 +305,12 @@
   </for>
 </skill>
 <skill id="5538" levels="1" name="Little Angel Agathion Special Skill - Firecrackers">
-  <set name="target" val="TARGET_NONE"/>
-  <set name="skillType" val="NOTDONE"/>
-  <set name="operateType" val="OP_PASSIVE"/>
+  <set name="target" val="TARGET_SELF"/>
+  <!-- HOT ??? this a temp hack to make it work? -->
+  <set name="skillType" val="BUFF"/>
+  <set name="operateType" val="OP_ACTIVE"/>
   <set name="castRange" val="-1"/>
-  <for>
-  </for>
+  <set name="effectRange" val="-1"/>
 </skill>
 <skill id="5539" levels="1" name="Little Angel Agathion Special Skill - Mysterious Power">
   <set name="target" val="TARGET_NONE"/>
@@ -342,12 +342,12 @@
   </for>
 </skill>
 <skill id="5542" levels="1" name="Little Devil Agathion Special Skill - Firecrackers">
-  <set name="target" val="TARGET_NONE"/>
-  <set name="skillType" val="NOTDONE"/>
-  <set name="operateType" val="OP_PASSIVE"/>
+  <set name="target" val="TARGET_SELF"/>
+  <!-- HOT ??? this a temp hack to make it work? -->
+  <set name="skillType" val="BUFF"/>
+  <set name="operateType" val="OP_ACTIVE"/>
   <set name="castRange" val="-1"/>
-  <for>
-  </for>
+  <set name="effectRange" val="-1"/>
 </skill>
 <skill id="5543" levels="1" name="Little Devil Agathion Special Skill - Mysterious Power">
   <set name="target" val="TARGET_NONE"/>
@@ -742,16 +742,16 @@
 <skill id="5590" levels="5" name="Pet Battle Heal">
   <table name="#mpConsume">133 147 158 170 179</table> 
   <table name="#power">618.0 690.0 758.0 817.0 858.0</table>
-  <set name="mpConsume" val="#mpConsume" /> 
-  <set name="power" val="#power" /> 
-  <set name="target" val="TARGET_OWNER_PET" /> 
-  <set name="reuseDelay" val="3000" /> 
-  <set name="hitTime" val="2000" /> 
-  <set name="skillType" val="HEAL" /> 
-  <set name="isMagic" val="true" /> 
-  <set name="operateType" val="OP_ACTIVE" /> 
-  <set name="castRange" val="600" /> 
-  <set name="effectRange" val="1100" /> 
+  <set name="mpConsume" val="#mpConsume"/> 
+  <set name="power" val="#power"/> 
+  <set name="target" val="TARGET_OWNER_PET"/> 
+  <set name="reuseDelay" val="3000"/> 
+  <set name="hitTime" val="2000"/> 
+  <set name="skillType" val="HEAL"/> 
+  <set name="isMagic" val="true"/> 
+  <set name="operateType" val="OP_ACTIVE"/> 
+  <set name="castRange" val="600"/> 
+  <set name="effectRange" val="1100"/>
   <for>
   </for>
 </skill>

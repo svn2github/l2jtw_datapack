@@ -14,7 +14,7 @@
   <set name="SSBoost" val="2.0"/>
   <set name="reuseDelay" val="13000"/>
   <set name="hitTime" val="1080"/>
-  <set name="coolTime" val="720" />
+  <set name="coolTime" val="720"/>
   <set name="skillType" val="PDAM"/>
   <set name="operateType" val="OP_ACTIVE"/>
   <set name="castRange" val="40"/>
@@ -50,7 +50,7 @@
   <set name="SSBoost" val="2.0"/>
   <set name="reuseDelay" val="10000"/>
   <set name="hitTime" val="3000"/>
-  <set name="coolTime" val="1000" />
+  <set name="coolTime" val="1000"/>
   <set name="skillType" val="PDAM"/>
   <set name="operateType" val="OP_ACTIVE"/>
   <set name="castRange" val="900"/>
@@ -67,14 +67,14 @@
   </for>
   <enchant3for>
     <effect count="1" name="Debuff" time="9" val="0">
-      <mul order="0x30" stat="pDef" val="#ench3-pDef" />
+      <mul order="0x30" stat="pDef" val="#ench3-pDef"/>
     </effect>
     <effect count="1" name="Stun" time="9" val="0" stackOrder="1" stackType="Stun" noicon="1"/>
     <effect count="1" name="RemoveTarget" time="1" val="0"/>
   </enchant3for>
   <enchant4for>
     <effect count="1" name="Debuff" time="9" val="0">
-      <mul order="0x30" stat="mDef" val="#ench4-mDef" />
+      <mul order="0x30" stat="mDef" val="#ench4-mDef"/>
     </effect>
     <effect count="1" name="Stun" time="9" val="0" stackOrder="1" stackType="Stun" noicon="1"/>
     <effect count="1" name="RemoveTarget" time="1" val="0"/>
@@ -118,6 +118,8 @@
   <table name="#dmg"> 93 114 132 144 </table>
   <table name="#magicLvl"> 46 58 62 70 </table>
   <table name="#mpConsume"> 22 28 29 33 </table>
+  <table name="#abnormalLvl"> 5 6 7 8 </table>
+  <set name="abnormalLvl" val="#abnormalLvl"/>
   <set name="mpConsume" val="#mpConsume"/>
   <set name="magicLvl" val="#magicLvl"/>
   <set name="lvlDepend" val="1"/>
@@ -482,7 +484,7 @@
   <set name="SSBoost" val="2.0"/>
   <set name="reuseDelay" val="13000"/>
   <set name="hitTime" val="1604"/>
-  <set name="coolTime" val="296" />
+  <set name="coolTime" val="296"/>
   <set name="isDebuff" val="true"/>
   <set name="skillType" val="PDAM"/>
   <set name="operateType" val="OP_ACTIVE"/>
@@ -620,6 +622,8 @@
   <table name="#mpConsume"> 8 18 22 25 28 </table>
   <table name="#magicLvl"> 20 49 58 66 74 </table>
   <table name="#dmg"> 54 93 114 132 144 </table>
+  <table name="#abnormalLvl"> 3 5 6 7 8 </table>
+  <set name="abnormalLvl" val="#abnormalLvl"/>
   <set name="mpInitialConsume" val="#mpConsume_Init"/>
   <set name="mpConsume" val="#mpConsume"/>
   <set name="magicLvl" val="#magicLvl"/>
@@ -779,8 +783,6 @@
   <set name="skillType" val="COREDONE"/>
   <set name="operateType" val="OP_PASSIVE"/>
   <set name="castRange" val="-1"/>
-  <for>
-  </for>
 </skill>
 <skill id="144" levels="37" name="Dual Weapon Mastery">
   <table name="#pAtk"> 23.7 25.4 27.1 29.0 30.9 32.9 35.0 37.1 39.4 41.7 44.1 46.6 49.2 51.9 54.6 57.5 60.4 63.3 66.4 69.5 72.7 76.0 79.3 82.7 86.1 89.6 93.1 96.6 100.2 103.8 107.5 111.1 114.8 118.4 122.1 125.7 129.3 </table>
@@ -910,8 +912,6 @@
   <set name="operateType" val="OP_PASSIVE"/>
   <set name="castRange" val="-1"/>
   <set name="effectRange" val="-1"/>
-  <for>
-  </for>
 </skill>
 <skill id="168" levels="3" name="Boost Attack Speed">
   <table name="#rate"> 1.05 1.07 1.10 </table>
@@ -958,8 +958,6 @@
   <set name="skillType" val="COREDONE"/>
   <set name="operateType" val="OP_PASSIVE"/>
   <set name="castRange" val="-1"/>
-  <for>
-  </for>
 </skill>
 <skill id="173" levels="2" name="Acrobat">
   <table name="#magicLvl"> 20 55 </table>
@@ -1041,8 +1039,6 @@
   <cond msg="Only usable if HP is 10 percent or lower.">
     <player hp="10"/>
   </cond>
-  <for>
-  </for>
 </skill>
 <skill id="190" levels="37" name="Fatal Strike" enchantLevels1="30" enchantLevels2="30" >
   <table name="#enchantMagicLvl"> 76 76 76 77 77 77 78 78 78 79 79 79 80 80 80 81 81 81 82 82 82 82 83 83 83 84 84 85 85 85 </table>
@@ -1064,7 +1060,7 @@
   <set name="SSBoost" val="2.0"/>
   <set name="reuseDelay" val="13000"/>
   <set name="hitTime" val="1080"/>
-  <set name="coolTime" val="720" />
+  <set name="coolTime" val="720"/>
   <set name="skillType" val="PDAM"/>
   <set name="operateType" val="OP_ACTIVE"/>
   <set name="castRange" val="40"/>
@@ -1092,7 +1088,7 @@
   <set name="castRange" val="-1"/>
   <set name="effectRange" val="-1"/>
   <for>
-    <add order="0x40" stat="cAtk" val="#crit"/>
+    <add order="0x40" stat="cAtkAdd" val="#crit"/>
   </for>
 </skill>
 <skill id="194" levels="1" name="Lucky">
@@ -1101,8 +1097,6 @@
   <set name="operateType" val="OP_PASSIVE"/>
   <set name="castRange" val="-1"/>
   <set name="effectRange" val="-1"/>
-  <for>
-  </for>
 </skill>
 <skill id="195" levels="2" name="Boost Breath">
   <!-- Done by DJ MELERIX -->

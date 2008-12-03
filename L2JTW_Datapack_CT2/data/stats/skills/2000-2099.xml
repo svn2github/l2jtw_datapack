@@ -44,7 +44,7 @@
   <for>
   </for>
 </skill>
-<skill id="2005" levels="1" name="Pollen">
+<skill id="2005" levels="1" name="Nectar">
   <!-- Summer Squash Event Skill (http://www.lineage2.com/archive/2006/11/fall_harvest.html) -->
   <set name="target" val="TARGET_SELF"/>
   <set name="skillType" val="NOTDONE"/>
@@ -243,8 +243,6 @@
   <set name="operateType" val="OP_ACTIVE"/>
   <set name="castRange" val="-1"/>
   <set name="effectRange" val="-1"/>
-  <for>
-  </for>
 </skill>
 <skill id="2025" levels="1" name="Large Firecracker">
   <set name="target" val="TARGET_SELF"/>
@@ -253,8 +251,6 @@
   <set name="operateType" val="OP_ACTIVE"/>
   <set name="castRange" val="-1"/>
   <set name="effectRange" val="-1"/>
-  <for>
-  </for>
 </skill>
 <skill id="2026" levels="1" name="Scroll: Enchant Weapon (Grade S)">
   <!-- Blessed Enchant -->
@@ -442,44 +438,40 @@
   </for>
 </skill>
 <skill id="2042" levels="1" name="Antidote">
-  <set name="power" val="3.0"/>
   <set name="target" val="TARGET_SELF"/>
-  <set name="skillType" val="UNPOISON"/>
+  <set name="skillType" val="NEGATE"/>
+  <set name="negateStats" val="POISON"/>
+  <set name="negatePower" val="3"/>
   <set name="operateType" val="OP_ACTIVE"/>
   <set name="castRange" val="-1"/>
   <set name="effectRange" val="-1"/>
-  <for>
-  </for>
 </skill>
 <skill id="2043" levels="1" name="Greater Antidote">
-  <set name="power" val="7.0"/>
   <set name="target" val="TARGET_SELF"/>
-  <set name="skillType" val="UNPOISON"/>
+  <set name="skillType" val="NEGATE"/>
+  <set name="negateStats" val="POISON"/>
+  <set name="negatePower" val="7"/>
   <set name="operateType" val="OP_ACTIVE"/>
   <set name="castRange" val="-1"/>
   <set name="effectRange" val="-1"/>
-  <for>
-  </for>
 </skill>
 <skill id="2044" levels="1" name="Bandage">
-  <set name="power" val="3.0"/>
   <set name="target" val="TARGET_SELF"/>
-  <set name="skillType" val="UNBLEED"/>
+  <set name="skillType" val="NEGATE"/>
+  <set name="negateStats" val="BLEED"/>
+  <set name="negatePower" val="3"/>
   <set name="operateType" val="OP_ACTIVE"/>
   <set name="castRange" val="-1"/>
   <set name="effectRange" val="-1"/>
-  <for>
-  </for>
 </skill>
 <skill id="2045" levels="1" name="Emergency Dressing">
-  <set name="power" val="7.0"/>
   <set name="target" val="TARGET_SELF"/>
-  <set name="skillType" val="UNBLEED"/>
+  <set name="skillType" val="NEGATE"/>
+  <set name="negateStats" val="BLEED"/>
+  <set name="negatePower" val="7"/>
   <set name="operateType" val="OP_ACTIVE"/>
   <set name="castRange" val="-1"/>
   <set name="effectRange" val="-1"/>
-  <for>
-  </for>
 </skill>
 <skill id="2046" levels="1" name="Wolf's Necklace">
   <!-- Need to be checked -->
