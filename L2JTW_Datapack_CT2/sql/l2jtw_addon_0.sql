@@ -13687,6 +13687,7 @@ UPDATE `weapon` SET `weaponType` = '12' WHERE `item_id` IN (10128); -- 怪物專用(
 /***** 著裝部位、武器屬性[一般系列] *****/
 UPDATE `weapon` SET `bodypart` = 'lhand',	`weaponType` = 'none'		WHERE			     `bodypart` = '8';	    -- 左手 盾牌
 UPDATE `weapon` SET `bodypart` = 'lrhand'					WHERE 			     `bodypart` = '14';     -- 雙手
+UPDATE `weapon` SET 				`weaponType` = 'none'		WHERE `weaponType` = '0';  -- 
 UPDATE `weapon` SET				`weaponType` = 'bigsword'	WHERE `weaponType` = '1' and `bodypart` = 'lrhand'; -- 雙手 劍
 UPDATE `weapon` SET				`weaponType` = 'bigblunt'	WHERE `weaponType` = '2' and `bodypart` = 'lrhand'; -- 雙手 鈍器
 UPDATE `weapon` SET `bodypart` = 'rhand',	`weaponType` = 'sword'		WHERE `weaponType` = '1';  -- 右手 劍
