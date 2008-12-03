@@ -134,6 +134,7 @@
 <skill id="717" levels="4" name="Zaken Concentrated Attack">
   <table name="#power"> 2751 3252 3752 4224 </table>
   <table name="#mpConsume"> 60 65 69 72 </table>
+  <set name="overHit" val="true"/><!-- Update by rocknow -->
   <set name="mpConsume" val="#mpConsume"/>
   <set name="power" val="#power"/>
   <set name="target" val="TARGET_ONE"/>
@@ -147,6 +148,7 @@
 <skill id="718" levels="4" name="Zaken Dancing Sword">
   <table name="#power"> 1651 1951 2251 2534 </table>
   <table name="#mpConsume"> 60 65 69 72 </table>
+  <set name="overHit" val="true"/><!-- Update by rocknow -->
   <set name="mpConsume" val="#mpConsume"/>
   <set name="power" val="#power"/>
   <set name="target" val="TARGET_AURA"/>
@@ -177,6 +179,7 @@
 <skill id="720" levels="2" name="Anakim Holy Light Burst">
   <table name="#power"> 3189 3590 </table>
   <table name="#mpConsume"> 69 72 </table>
+  <set name="overHit" val="true"/><!-- Update by rocknow -->
   <set name="mpConsume" val="#mpConsume"/>
   <set name="power" val="#power"/>
   <set name="target" val="TARGET_ONE"/>
@@ -251,6 +254,7 @@
 </skill>
 <skill id="725" levels="2" name="Venom Power Smash">
   <table name="#power"> 2626 2957 </table>
+  <set name="overHit" val="true"/><!-- Update by rocknow -->
   <set name="mpConsume" val="88"/>
   <set name="power" val="#power"/>
   <set name="target" val="TARGET_ONE"/>
@@ -291,6 +295,7 @@
   </for>
 </skill>
 <skill id="728" levels="1" name="Gordon Beast Attack">
+  <set name="overHit" val="true"/><!-- Update by rocknow -->
   <set name="mpConsume" val="88"/>
   <set name="power" val="2957"/>
   <set name="target" val="TARGET_ONE"/>
@@ -302,6 +307,7 @@
   <set name="effectRange" val="150"/>
 </skill>
 <skill id="729" levels="1" name="Gordon Sword Stab">
+  <set name="overHit" val="true"/><!-- Update by rocknow -->
   <set name="mpConsume" val="88"/>
   <set name="power" val="2957"/>
   <set name="target" val="TARGET_AREA"/>
@@ -365,6 +371,7 @@
   </for>
 </skill>
 <skill id="733" levels="1" name="Kechi Double Cutter">
+  <set name="overHit" val="true"/><!-- Update by rocknow -->
   <set name="mpConsume" val="88"/>
   <set name="power" val="2957"/>
   <set name="target" val="TARGET_ONE"/>
@@ -376,6 +383,7 @@
   <set name="effectRange" val="150"/>
 </skill>
 <skill id="734" levels="1" name="Kechi Air Blade">
+  <set name="overHit" val="true"/><!-- Update by rocknow -->
   <set name="mpConsume" val="56"/>
   <set name="power" val="1812"/>
   <set name="target" val="TARGET_ONE"/>

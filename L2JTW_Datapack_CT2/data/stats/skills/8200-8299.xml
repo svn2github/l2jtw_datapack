@@ -361,6 +361,7 @@
   </for>
 </skill>
 <skill id="8245" levels="1" name="Summon Agathion - Love">
+  <!-- Update by rocknow -->
   <set name="target" val="TARGET_SELF"/>
   <set name="skillType" val="AGATHION"/>
   <set name="hitTime" val="3000"/>
@@ -383,7 +384,7 @@
 <skill id="8247" levels="1" name="Mount Light Purple Maned Horse">
   <set name="target" val="TARGET_NONE"/>
   <set name="skillType" val="NOTDONE"/>
-  <set name="operateType" val="OP_ACTIVE"/>
+  <set name="operateType" val="OP_PASSIVE"/>
   <set name="castRange" val="-1"/>
   <for>
   </for>

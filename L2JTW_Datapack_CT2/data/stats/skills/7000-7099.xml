@@ -284,10 +284,10 @@
   <set name="castRange" val="-1"/>
   <set name="effectRange" val="-1"/>
   <for>
-    <effect name="Buff" time="144000" count="1" val="0" stackOrder="99" stackType="attack_time_down">
+    <effect name="Buff" time="144000" count="1" val="0"><!-- Update by rocknow -->
       <mul order="0x30" stat="runSpd" val="#Tab-runSpd"/>
-      <div order="0x30" stat="pReuse" val="#Tab-pReuse"/>
-      <div order="0x30" stat="mReuse" val="#Tab-mReuse"/>
+      <mul order="0x30" stat="pReuse" val="#Tab-pReuse"/><!-- Update by rocknow -->
+      <mul order="0x30" stat="mReuse" val="#Tab-mReuse"/><!-- Update by rocknow -->
       <mul order="0x30" stat="mAtkSpd" val="#Tab-mAtkSpd"/>
       <mul order="0x30" stat="pAtkSpd" val="#Tab-pAtkSpd"/>
     </effect>

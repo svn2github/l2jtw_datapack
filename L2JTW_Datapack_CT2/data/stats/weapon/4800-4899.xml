@@ -202,7 +202,7 @@
     <!--SA: Miser--> 
     <set val='7' order='0x08' stat='soulShotCount'> 
        <and>
-          <game chance="30"/> 
+          <game chance="59"/><!-- Update by rocknow -->
        </and> 
     </set>
   </for>
@@ -245,7 +245,7 @@
     <!--SA: Miser--> 
     <set val='7' order='0x08' stat='soulShotCount'> 
        <and>
-          <game chance="30"/> 
+          <game chance="59"/><!-- Update by rocknow -->
        </and> 
     </set>
   </for>
@@ -260,9 +260,9 @@
     <enchant val='0' order='0x0C' stat='pAtk'/>
     <enchant val='0' order='0x0C' stat='mAtk'/>
     <!-- SA: Cheap Shot -->
-    <set val='2' order='0x08' stat='MpConsume'> 
+    <set val='1' order='0x08' stat='MpConsume'><!-- Update by rocknow -->
        <and>
-          <game skill="false" chance="46"/> 
+          <game skill="false" chance="47"/><!-- Update by rocknow -->
        </and> 
     </set>
   </for>
@@ -305,7 +305,7 @@
     <!--SA: Miser--> 
     <set val='8' order='0x08' stat='soulShotCount'> 
        <and>
-          <game chance="30"/> 
+          <game chance="60"/><!-- Update by rocknow -->
        </and> 
     </set>
   </for>
@@ -335,7 +335,7 @@
     <!--SA: Miser--> 
     <set val='9' order='0x08' stat='soulShotCount'> 
        <and>
-          <game chance="30"/> 
+          <game chance="61"/><!-- Update by rocknow -->
        </and> 
     </set>
   </for>
@@ -352,7 +352,7 @@
     <!-- SA: Cheap Shot -->
     <set val='1' order='0x08' stat='MpConsume'> 
        <and>
-          <game skill="false" chance="34"/> 
+          <game skill="false" chance="42"/><!-- Update by rocknow -->
        </and> 
     </set>
   </for>
@@ -393,7 +393,7 @@
     <!--SA: Miser--> 
     <set val='2' order='0x08' stat='soulShotCount'> 
        <and>
-          <game chance="30"/> 
+          <game chance="19"/><!-- Update by rocknow -->
        </and> 
     </set>
   </for>

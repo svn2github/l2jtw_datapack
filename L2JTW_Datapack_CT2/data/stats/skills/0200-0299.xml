@@ -1012,6 +1012,7 @@
   <set name="power" val="#power"/>
   <set name="target" val="TARGET_ONE"/>
   <set name="condition" val="16"/>
+  <set name="overHit" val="true"/><!-- Update by rocknow -->
   <set name="reuseDelay" val="11000"/>
   <set name="hitTime" val="1080"/>
   <set name="coolTime" val="720"/>
@@ -1670,6 +1671,7 @@
   <table name="#power"> 501 535 570 607 646 729 773 820 868 918 971 1025 1081 1140 1200 1262 1327 1393 1461 1531 1603 1677 1753 1830 1908 1988 2070 2153 2237 2322 2408 2494 2581 2669 2757 2846 2934 3022 3109 3196 </table>
   <table name="#ench1Power"> 3225 3254 3283 3312 3340 3369 3398 3427 3456 3484 3513 3542 3571 3600 3628 3657 3686 3715 3744 3772 3801 3830 3859 3888 3916 3945 3974 4003 4032 4061 </table>
   <set name="weaponsAllowed" val="1024"/> <!-- Dual Fist -->
+  <set name="overHit" val="true"/><!-- Update by rocknow -->
   <set name="mpConsume" val="#mpConsume"/>
   <set name="magicLvl" val="#magicLvl"/>
   <set name="power" val="#power"/>
