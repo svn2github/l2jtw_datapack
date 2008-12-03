@@ -1181,13 +1181,13 @@
     <mul order="0x30" stat="regMp" val="#rate"/>
     <mul order="0x30" stat="runSpd" val="#rateSpd"/>
   </for>
-</skill>
 <skill id="4271" levels="8" name="Increase Force">
-  <set name="target" val="TARGET_NONE"/>
-  <set name="skillType" val="NOTDONE"/>
+  <set name="target" val="TARGET_SELF"/>
+  <set name="skillType" val="CHARGE"/>
   <set name="operateType" val="OP_PASSIVE"/>
   <set name="castRange" val="-1"/>
   <for>
+    <effect count="1" name="Charge" time="600" val="1"/>
   </for>
 </skill>
 <skill id="4272" levels="1" name="Greater Resist Archery Attack">
