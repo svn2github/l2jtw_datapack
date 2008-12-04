@@ -10,7 +10,7 @@
     <enchant val='0' order='0x0C' stat='pAtk'/>
     <enchant val='0' order='0x0C' stat='mAtk'/>
     <!-- SA: Focus -->
-    <add val='61' order='0x40' stat='rCrit'/>
+    <add val='67' order='0x40' stat='rCrit'/><!-- Update by rocknow -->
     <!-- Enhances damage to target during PvP -->
     <mul val='1.05' order='0x30' stat='pvpPhysDmg'/>
     <mul val='1.05' order='0x30' stat='pvpMagicalDmg'/>

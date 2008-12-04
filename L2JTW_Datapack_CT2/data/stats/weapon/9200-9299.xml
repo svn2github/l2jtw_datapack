@@ -581,9 +581,9 @@
    <enchant val='0' order='0x0C' stat='pAtk'/>
    <enchant val='0' order='0x0C' stat='mAtk'/>
        <!--SA: Miser--> 
-   <set val='7' order='0x08' stat='soulShotCount'> 
+   <set val='4' order='0x08' stat='soulShotCount'><!-- Update by rocknow -->
       <and>
-         <game chance="30"/> 
+         <game chance="40"/><!-- Update by rocknow -->
       </and> 
    </set>
   </for>
@@ -635,9 +635,9 @@
    <enchant val='0' order='0x0C' stat='pAtk'/>
    <enchant val='0' order='0x0C' stat='mAtk'/>
        <!--SA: Miser--> 
-   <set val='7' order='0x08' stat='soulShotCount'> 
+   <set val='4' order='0x08' stat='soulShotCount'><!-- Update by rocknow -->
       <and>
-         <game chance="30"/> 
+         <game chance="40"/><!-- Update by rocknow -->
       </and> 
    </set>
   </for>
@@ -652,11 +652,8 @@
    <enchant val='0' order='0x0C' stat='pAtk'/>
    <enchant val='0' order='0x0C' stat='mAtk'/>
        <!-- SA: Cheap Shot -->
-   <set val='2' order='0x08' stat='MpConsume'> 
-      <and>
-         <game skill="false" chance="12"/> 
-      </and> 
-   </set>
+   <!-- Update by rocknow -->
+   <mul val='0.88' order='0x30' stat='MpConsume'/>
   </for>
 </item>
 <item id='9264' name="Blinzlasher">
@@ -994,9 +991,9 @@
    <enchant val='0' order='0x0C' stat='pAtk'/>
    <enchant val='0' order='0x0C' stat='mAtk'/>
 		<!--SA: Miser--> 
-   <set val='8' order='0x08' stat='soulShotCount'> 
+   <set val='4' order='0x08' stat='soulShotCount'><!-- Update by rocknow -->
       <and>
-         <game chance="30"/> 
+         <game chance="32"/><!-- Update by rocknow -->
       </and> 
    </set>
   </for>
