@@ -79,6 +79,10 @@
     <enchant val='0' order='0x0C' stat='mAtk'/>
     <!-- SA: Haste -->
     <mul val='1.06' order='0x30' stat='pAtkSpd'/>
+    <!-- Update by rocknow -->
+    <!-- Enhances damage to target during PvP -->
+    <mul val='1.05' order='0x30' stat='pvpPhysDmg'/>
+    <mul val='1.05' order='0x30' stat='pvpMagicalDmg'/>
   </for>
 </item>
 <item id='8109' name="infernal_master_crt._damage">
@@ -92,6 +96,10 @@
     <enchant val='0' order='0x0C' stat='mAtk'/>
     <!-- SA: Critical Damage -->
     <add val='297' order='0x40' stat='cAtkAdd'/><!-- Update by rocknow -->
+    <!-- Update by rocknow -->
+    <!-- Enhances damage to target during PvP -->
+    <mul val='1.05' order='0x30' stat='pvpPhysDmg'/>
+    <mul val='1.05' order='0x30' stat='pvpMagicalDmg'/>
   </for>
 </item>
 <item id='8110' name="infernal_master_focus">
@@ -105,6 +113,10 @@
     <enchant val='0' order='0x0C' stat='mAtk'/>
     <!-- SA: Focus -->
     <add val='61' order='0x40' stat='rCrit'/>
+    <!-- Update by rocknow -->
+    <!-- Enhances damage to target during PvP -->
+    <mul val='1.05' order='0x30' stat='pvpPhysDmg'/>
+    <mul val='1.05' order='0x30' stat='pvpMagicalDmg'/>
   </for>
 </item>
 <item id='8111' name="mysterious_sword_acumen">
@@ -312,6 +324,10 @@
     <enchant val='0' order='0x0C' stat='mAtk'/>
     <!-- SA: Haste -->
     <mul val='1.06' order='0x30' stat='pAtkSpd'/>
+    <!-- Update by rocknow -->
+    <!-- Enhances damage to target during PvP -->
+    <mul val='1.05' order='0x30' stat='pvpPhysDmg'/>
+    <mul val='1.05' order='0x30' stat='pvpMagicalDmg'/>
   </for>
 </item>
 <item id='8128' name="destroyer_hammer_crt._drain">
@@ -323,6 +339,10 @@
     <set val='325' order='0x08' stat='pAtkSpd'/>
     <enchant val='0' order='0x0C' stat='pAtk'/>
     <enchant val='0' order='0x0C' stat='mAtk'/>
+    <!-- Update by rocknow -->
+    <!-- Enhances damage to target during PvP -->
+    <mul val='1.05' order='0x30' stat='pvpPhysDmg'/>
+    <mul val='1.05' order='0x30' stat='pvpMagicalDmg'/>
   </for>
 </item>
 <item id='8129' name="ice_storm_hammer_focus">
@@ -576,6 +596,10 @@
     <set val='379' order='0x08' stat='pAtkSpd'/>
     <enchant val='0' order='0x0C' stat='pAtk'/>
     <enchant val='0' order='0x0C' stat='mAtk'/>
+    <!-- Update by rocknow -->
+    <!-- Enhances damage to target during PvP -->
+    <mul val='1.05' order='0x30' stat='pvpPhysDmg'/>
+    <mul val='1.05' order='0x30' stat='pvpMagicalDmg'/>
   </for>
 </item>
 <item id='8149' name="spiritual_eye_acumen">
@@ -612,6 +636,10 @@
 	<!-- SA: Magic Power -->
     <add val='167' order='0x40' stat='mAtk'/>
     <mul val='1.15' order='0x30' stat='MpConsume'/> 
+    <!-- Update by rocknow -->
+    <!-- Enhances damage to target during PvP -->
+    <mul val='1.05' order='0x30' stat='pvpPhysDmg'/>
+    <mul val='1.05' order='0x30' stat='pvpMagicalDmg'/>
   </for>
 </item>
 <item id='8152' name="flaming_dragon_skull_magic_silence">
@@ -623,6 +651,10 @@
     <set val='379' order='0x08' stat='pAtkSpd'/>
     <enchant val='0' order='0x0C' stat='pAtk'/>
     <enchant val='0' order='0x0C' stat='mAtk'/>
+    <!-- Update by rocknow -->
+    <!-- Enhances damage to target during PvP -->
+    <mul val='1.05' order='0x30' stat='pvpPhysDmg'/>
+    <mul val='1.05' order='0x30' stat='pvpMagicalDmg'/>
   </for>
 </item>
 <item id='8190' name="demonic_sword_zariche">
