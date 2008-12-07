@@ -3,15 +3,12 @@
 /************ 以下是參考 L2EmuProject-Datapack 所製作的修正 ************/
 
 /************ 修正防具 ************/
-UPDATE `armor` SET `skill` = '3632-1;3633-2;' WHERE `item_id` ='6841';
+UPDATE `armor` SET `skill` = '3633-2;' WHERE `item_id` ='6841';
 UPDATE `armor` SET `skill` = '3407-1;' WHERE `item_id` ='9900';
-UPDATE `armor` SET `skill` = '3361-1;3267-1;' WHERE `item_id` ='9909';
 UPDATE `armor` SET `skill` = '3322-1;' WHERE `item_id` ='9589';
 UPDATE `armor` SET `skill` = '3323-1;' WHERE `item_id` ='9590';
 UPDATE `armor` SET `skill` = '3324-1;' WHERE `item_id` ='9591';
 UPDATE `armor` SET `skill` = '3325-1;' WHERE `item_id` ='9592';
-UPDATE `armor` SET `skill` = '3361-1;3267-1' WHERE `item_id` ='10018';
-UPDATE `armor` SET `skill` = '3269-1;3267-1' WHERE `item_id` ='10139';
 UPDATE `armor` SET `skill` = '3324-1' WHERE `item_id` ='10209';
 UPDATE `armor` SET `skill` = '3325-1;' WHERE `item_id` ='10210';
 UPDATE `armor` SET `skill` = '3428-1;' WHERE `item_id` ='10416';

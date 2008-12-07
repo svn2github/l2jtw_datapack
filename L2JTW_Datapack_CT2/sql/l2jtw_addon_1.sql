@@ -372,13 +372,21 @@ INSERT INTO `npc` VALUES
 (16040, 16040, "Red Twilight Strider", 0, "", 0, "Monster.strider", 8, 29, 70, "male", "L2Npc", 40, 2444, 2444, 0, 0, 10, 10, 10, 10, 10, 10, 0, 0, 500, 500, 500, 500, 278, 0, 333, 0, 0, NULL, 60, 60, "", 0, 0, 0, "LAST_HIT", 0, 0, 0, "balanced", "false");
 
 
-/************ 修正媽祖/普萊皮塔/愛心壺精/淡紫鬃馬騎乘的手鐲 ************/
-UPDATE `armor` SET `skill` = '3267-1;8245-1;' WHERE `item_id` ='13023';
-UPDATE `armor` SET `skill` = '3267-1;21000-1;23000-1;' WHERE `item_id` ='20006';
-UPDATE `armor` SET `skill` = '3267-1;21001-1;23001-1;' WHERE `item_id` ='20007';
-UPDATE `armor` SET `skill` = '3267-1;21002-1;23002-1;' WHERE `item_id` ='20008';
-UPDATE `armor` SET `skill` = '3267-1;21003-1;23003-1;' WHERE `item_id` ='20012';
-UPDATE `armor` SET `skill` = '8247-1;' WHERE `item_id` ='20029';
+/************ 修正要塞/小天使/小惡魔/魯道夫/媽祖/普萊皮塔/愛心壺精/淡紫鬃馬騎乘的手鐲 ************/
+UPDATE `armor` SET `skill` = '3423-1;3267-1;5535-1;' WHERE `item_id` in (10320);
+UPDATE `armor` SET `skill` = '3424-1;3267-1;5536-1;' WHERE `item_id` in (10326);
+UPDATE `armor` SET `skill` = '3423-1;3267-1;5535-1;' WHERE `item_id` in (12779);
+UPDATE `armor` SET `skill` = '3424-1;3267-1;5536-1;' WHERE `item_id` in (12780);
+UPDATE `armor` SET `skill` = '8245-1;3267-1;' WHERE `item_id` in (13023,13254,13309,13340);
+UPDATE `armor` SET `skill` = '21000-1;3267-1;23000-1;' WHERE `item_id` in (20006);
+UPDATE `armor` SET `skill` = '21001-1;3267-1;23001-1;' WHERE `item_id` in (20007);
+UPDATE `armor` SET `skill` = '21002-1;3267-1;23002-1;' WHERE `item_id` in (20008);
+UPDATE `armor` SET `skill` = '21003-1;3267-1;23003-1;' WHERE `item_id` in (20012);
+UPDATE `armor` SET `skill` = '8247-1;' WHERE `item_id` in (13022,13308,20029,20030);
+UPDATE `armor` SET `skill` = '3361-1;3267-1;5458-1;' WHERE `item_id` in (9909);
+UPDATE `armor` SET `skill` = '3361-1;3267-1;5458-1;' WHERE `item_id` in (10018);
+UPDATE `armor` SET `skill` = '3269-1;3267-1;5414-1;' WHERE `item_id` in (10139);
+UPDATE `armor` SET `skill` = '3425-1;3267-1;5537-1;' WHERE `item_id` in (10606);
 
 
 /************ 增加淡紫鬃馬(參考L2J論壇) ************/
@@ -400,3 +408,20 @@ UPDATE `armor` SET `skill` = '3266-1;' WHERE `item_id` in (9198,9199,9200,9201,9
 UPDATE `armor` SET `skill` = '21005-3;' WHERE `item_id` in (20016);
 UPDATE `armor` SET `skill` = '21006-1;21007-1;' WHERE `item_id` in (20018);
 UPDATE `armor` SET `skill` = '21004-1;' WHERE `item_id` in (20019);
+
+
+/************ 增加壺精的附加技能(祝福復活/祝福返回/大頭/煙火) ************/
+UPDATE `armor` SET `skill` = '3423-1;3267-1;5538-1;' WHERE `item_id` in (10316);
+UPDATE `armor` SET `skill` = '3423-1;3267-1;5539-1;' WHERE `item_id` in (10317);
+UPDATE `armor` SET `skill` = '3423-1;3267-1;5540-1;' WHERE `item_id` in (10318);
+UPDATE `armor` SET `skill` = '3423-1;3267-1;5541-1;' WHERE `item_id` in (10319);
+UPDATE `armor` SET `skill` = '3424-1;3267-1;5542-1;' WHERE `item_id` in (10322);
+UPDATE `armor` SET `skill` = '3424-1;3267-1;5543-1;' WHERE `item_id` in (10323);
+UPDATE `armor` SET `skill` = '3424-1;3267-1;5544-1;' WHERE `item_id` in (10324);
+UPDATE `armor` SET `skill` = '3424-1;3267-1;5545-1;' WHERE `item_id` in (10325);
+UPDATE `armor` SET `skill` = '21000-1;3267-1;23000-1;23004-1;' WHERE `item_id` in (20009);
+UPDATE `armor` SET `skill` = '21001-1;3267-1;23001-1;23005-1;' WHERE `item_id` in (20010);
+UPDATE `armor` SET `skill` = '21002-1;3267-1;23002-1;23006-1;' WHERE `item_id` in (20011);
+UPDATE `armor` SET `skill` = '21003-1;3267-1;23003-1;23007-1;' WHERE `item_id` in (20013);
+UPDATE `armor` SET `skill` = '21003-1;3267-1;23003-1;23009-1;' WHERE `item_id` in (20014);
+UPDATE `armor` SET `skill` = '21003-1;3267-1;23003-1;23008-1;' WHERE `item_id` in (20015);
