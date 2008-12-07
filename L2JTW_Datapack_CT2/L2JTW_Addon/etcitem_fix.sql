@@ -3,6 +3,11 @@
 /***** 貳幕繽炫風 11-11 *****/
 /***** etcitem *****/
 /***** etcitem.sql *****/
+/***** ↓L2J修正後可移除資料↓ *****/
+-- 防具-使用時間，欄位最大值修正 --
+ALTER TABLE `etcitem` CHANGE `duration` `duration` decimal(10,0) default NULL;
+/***** ↑L2J修正後可移除資料↑ *****/
+
 UPDATE `etcitem` SET `crystallizable` = 0, `weight` = 6, `consume_type` = 2, `crystal_type` = 0, `duration` = -1, `item_type` = 2 WHERE `item_id` = 17; -- 木箭
 UPDATE `etcitem` SET `crystallizable` = 0, `weight` = 0, `consume_type` = 3, `crystal_type` = 0, `duration` = -1 WHERE `item_id` = 57; -- 金幣
 UPDATE `etcitem` SET `crystallizable` = 0, `weight` = 80, `consume_type` = 2, `crystal_type` = 0, `duration` = -1, `item_type` = 3 WHERE `item_id` = 65; -- 紅色藥水

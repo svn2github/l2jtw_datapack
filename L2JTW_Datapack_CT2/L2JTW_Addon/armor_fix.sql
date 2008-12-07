@@ -3,6 +3,11 @@
 /***** 貳幕繽炫風 11-11 *****/
 /***** armor *****/
 /***** armor.sql *****/
+/***** ↓L2J修正後可移除資料↓ *****/
+-- 防具-使用時間，欄位最大值修正 --
+ALTER TABLE `armor` CHANGE `duration` `duration` int(10) NOT NULL default 0;
+/***** ↑L2J修正後可移除資料↑ *****/
+
 UPDATE `armor` SET `bodypart` = 10, `crystallizable` = 0, `armor_type` = 1, `weight` = 4830, `crystal_type` = 0, `avoid_modify` = 0, `duration` = -1, `p_def` = 36, `m_def` = 0, `mp_bonus` = 0 WHERE `item_id` = 21; -- 布襯衫
 UPDATE `armor` SET `bodypart` = 10, `crystallizable` = 0, `armor_type` = 1, `weight` = 4830, `crystal_type` = 0, `avoid_modify` = 0, `duration` = -1, `p_def` = 43, `m_def` = 0, `mp_bonus` = 0 WHERE `item_id` = 22; -- 皮襯衫
 UPDATE `armor` SET `bodypart` = 10, `crystallizable` = 0, `armor_type` = 1, `weight` = 4820, `crystal_type` = 0, `avoid_modify` = 0, `duration` = -1, `p_def` = 47, `m_def` = 0, `mp_bonus` = 0 WHERE `item_id` = 23; -- 木胸甲
@@ -2222,7 +2227,7 @@ UPDATE `armor` SET `crystal_type` = 's'		WHERE `crystal_type` = '5'; -- S級
 UPDATE `armor` SET `crystal_type` = 's80'	WHERE `crystal_type` = '6'; -- S80級
 
 /***** 使用時間修改 *****/
-UPDATE `armor` SET `duration` = '999' WHERE `item_id` IN (10620,10621,10622,10623,10624,10625,10626,10627,10628,10629,10630,10631); -- 應該是1440,但是欄位限制最大999
+-- UPDATE `armor` SET `duration` = '999' WHERE `item_id` IN (10620,10621,10622,10623,10624,10625,10626,10627,10628,10629,10630,10631); -- 應該是1440,但是欄位限制最大999
 
 
 /***** Done by vdmyagami！ *****/

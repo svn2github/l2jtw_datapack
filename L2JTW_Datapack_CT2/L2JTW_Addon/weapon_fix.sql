@@ -3,6 +3,11 @@
 /***** 貳幕繽炫風 11-11 *****/
 /***** weapon *****/
 /***** weapon.sql *****/
+/***** ↓L2J修正後可移除資料↓ *****/
+-- 防具-使用時間，欄位最大值修正 --
+ALTER TABLE `weapon` CHANGE `duration` `duration` decimal(10,0) default NULL;
+/***** ↑L2J修正後可移除資料↑ *****/
+
 UPDATE `weapon` SET `bodypart` = 7, `crystallizable` = 0, `weight` = 1600, `soulshots` = 1, `spiritshots` = 1, `crystal_type` = 0, `p_dam` = 8, `rnd_dam` = 10, `weaponType` = 1, `critical` = 8, `hit_modify` = 0, `avoid_modify` = 0, `shield_def` = 0, `shield_def_rate` = 0, `atk_speed` = 379, `mp_consume` = 0, `m_dam` = 6, `duration` = -1 WHERE `item_id` = 1; -- 短劍
 UPDATE `weapon` SET `bodypart` = 7, `crystallizable` = 0, `weight` = 1560, `soulshots` = 2, `spiritshots` = 2, `crystal_type` = 0, `p_dam` = 24, `rnd_dam` = 10, `weaponType` = 1, `critical` = 8, `hit_modify` = 0, `avoid_modify` = 0, `shield_def` = 0, `shield_def_rate` = 0, `atk_speed` = 379, `mp_consume` = 0, `m_dam` = 17, `duration` = -1 WHERE `item_id` = 2; -- 長劍
 UPDATE `weapon` SET `bodypart` = 7, `crystallizable` = 0, `weight` = 1590, `soulshots` = 1, `spiritshots` = 1, `crystal_type` = 0, `p_dam` = 11, `rnd_dam` = 10, `weaponType` = 1, `critical` = 8, `hit_modify` = 0, `avoid_modify` = 0, `shield_def` = 0, `shield_def_rate` = 0, `atk_speed` = 379, `mp_consume` = 0, `m_dam` = 9, `duration` = -1 WHERE `item_id` = 3; -- 寬劍
@@ -2979,7 +2984,7 @@ UPDATE `weapon` SET `weaponType` = '12' WHERE `item_id` IN (10128); -- 怪物專用(
 /***** 著裝部位、武器屬性[一般系列] *****/
 UPDATE `weapon` SET `bodypart` = 'lhand',	`weaponType` = 'none'		WHERE			     `bodypart` = '8';	    -- 左手 盾牌
 UPDATE `weapon` SET `bodypart` = 'lrhand'					WHERE 			     `bodypart` = '14';     -- 雙手
-UPDATE `weapon` SET 				`weaponType` = 'none'		WHERE `weaponType` = '0';  -- 
+UPDATE `weapon` SET 				`weaponType` = 'bigblunt'	WHERE `weaponType` = '0';  -- 鬥爭旗幟
 UPDATE `weapon` SET				`weaponType` = 'bigsword'	WHERE `weaponType` = '1' and `bodypart` = 'lrhand'; -- 雙手 劍
 UPDATE `weapon` SET				`weaponType` = 'bigblunt'	WHERE `weaponType` = '2' and `bodypart` = 'lrhand'; -- 雙手 鈍器
 UPDATE `weapon` SET `bodypart` = 'rhand',	`weaponType` = 'sword'		WHERE `weaponType` = '1';  -- 右手 劍
