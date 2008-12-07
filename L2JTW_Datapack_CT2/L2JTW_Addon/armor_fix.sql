@@ -2221,5 +2221,8 @@ UPDATE `armor` SET `crystal_type` = 'a'		WHERE `crystal_type` = '4'; -- A級
 UPDATE `armor` SET `crystal_type` = 's'		WHERE `crystal_type` = '5'; -- S級
 UPDATE `armor` SET `crystal_type` = 's80'	WHERE `crystal_type` = '6'; -- S80級
 
+/***** 使用時間修改 *****/
+UPDATE `armor` SET `duration` = '999' WHERE `item_id` IN (10620,10621,10622,10623,10624,10625,10626,10627,10628,10629,10630,10631); -- 應該是1440,但是欄位限制最大999
+
 
 /***** Done by vdmyagami！ *****/

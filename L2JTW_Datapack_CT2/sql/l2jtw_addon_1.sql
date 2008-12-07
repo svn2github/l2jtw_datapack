@@ -385,3 +385,18 @@ UPDATE `armor` SET `skill` = '8247-1;' WHERE `item_id` ='20029';
 Delete From npc Where `id` ='14001';
 INSERT INTO `npc` VALUES
 (14001, 14001, "Reanimated Man", 0, "", 0, "Monster.skeleton", 11, 25, 46, "male", "L2Pet", 40, 2914, 816, 8.69, 2.14, 40, 43, 30, 21, 20, 25, 0, 0, 482, 245, 202, 230, 278, 0, 333, 0, 0, 0, 66, 154, "NULL", 0, 1, 0, "LAST_HIT", 0, 0, 0, "fighter", "false");
+
+
+/************ 增加土著全套變身技能 ************/
+Delete From armorsets Where id in (79);
+INSERT INTO `armorsets` VALUES ('79', '9670', '9671', '9669', '0', '0', '3359', '1', '0', '0', '0');
+
+
+/************ 增加頭飾的附加技能(祝福復活/祝福返回/大頭/煙火) ************/
+UPDATE `armor` SET `skill` = '3263-1;' WHERE `item_id` in (9177,9178,9179,9180,9181,9182,9183,10621,10625,10629);
+UPDATE `armor` SET `skill` = '3264-1;' WHERE `item_id` in (9184,9185,9186,9187,9188,9189,9190,10620,10624,10628);
+UPDATE `armor` SET `skill` = '3265-1;' WHERE `item_id` in (9191,9192,9193,9194,9195,9196,9197,10623,10627,10631);
+UPDATE `armor` SET `skill` = '3266-1;' WHERE `item_id` in (9198,9199,9200,9201,9202,9203,9204,9890,9891,9892,9893,9894,9895,9896,10622,10626,10630);
+UPDATE `armor` SET `skill` = '21005-3;' WHERE `item_id` in (20016);
+UPDATE `armor` SET `skill` = '21006-1;21007-1;' WHERE `item_id` in (20018);
+UPDATE `armor` SET `skill` = '21004-1;' WHERE `item_id` in (20019);

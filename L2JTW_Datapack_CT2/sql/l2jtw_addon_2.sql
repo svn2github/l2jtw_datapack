@@ -1511,8 +1511,3 @@ UPDATE `weapon` SET `skill` = '3019-5;' WHERE `item_id` in (4787);
 UPDATE `weapon` SET `skill` = '3063-1;' WHERE `item_id` in (10681);
 UPDATE `weapon` SET `skill` = '3260-1;3261-1;3262-1;' WHERE `item_id` in (9140,9141);
 UPDATE `weapon` SET `skill` = '3599-1;' WHERE `item_id` in (5628,5634,7720,7721,8804,8805,10683,10684,10970,11073,11131,11179,11180,12886,12887);
-
-
-/************ 增加土著全套變身技能 ************/
-Delete From armorsets Where id in (79);
-INSERT INTO `armorsets` VALUES ('79', '9670', '9671', '9669', '0', '0', '3359', '1', '0', '0', '0');
