@@ -9,8 +9,7 @@ CREATE TABLE IF NOT EXISTS `castle` (
   `siegeDate` DECIMAL(20,0) NOT NULL default 0,
   `regTimeOver` enum('true','false') DEFAULT 'true' NOT NULL,
   `regTimeEnd` DECIMAL(20,0) NOT NULL default 0,
-  PRIMARY KEY (`name`),
-  KEY `id` (`id`)
+  PRIMARY KEY (`id`)
 );
 
 INSERT IGNORE INTO `castle` VALUES 
