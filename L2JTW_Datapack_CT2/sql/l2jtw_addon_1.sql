@@ -425,3 +425,11 @@ UPDATE `armor` SET `skill` = '21002-1;3267-1;23002-1;23006-1;' WHERE `item_id` i
 UPDATE `armor` SET `skill` = '21003-1;3267-1;23003-1;23007-1;' WHERE `item_id` in (20013);
 UPDATE `armor` SET `skill` = '21003-1;3267-1;23003-1;23009-1;' WHERE `item_id` in (20014);
 UPDATE `armor` SET `skill` = '21003-1;3267-1;23003-1;23008-1;' WHERE `item_id` in (20015);
+
+
+/************ 增加道具的變身技能 ************/
+UPDATE `armor` SET `skill` = '3335-1;' WHERE `item_id` in (10141);
+UPDATE `armor` SET `skill` = '3336-1;' WHERE `item_id` in (10142);
+UPDATE `weapon` SET `skill` = '3418-1;' WHERE `item_id` in (10167);
+-- UPDATE `weapon` SET `skill` = '8244-1;' WHERE `item_id` in (12814);
+-- UPDATE `weapon` SET `skill` = '8246-1;' WHERE `item_id` in (12800,13253,13324,13339);
