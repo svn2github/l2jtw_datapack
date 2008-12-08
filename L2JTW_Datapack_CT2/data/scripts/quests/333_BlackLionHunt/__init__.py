@@ -83,8 +83,8 @@ p_both_info      = html+sophia+"兄弟，為了完成任務，辛苦你了。我會根據你帶回來的
 p_only_item_info  = html+sophia+"兄弟，為了完成任務，辛苦你了。我會根據你帶回來的憑證數量支付報酬。<br><a action=\"bypass -h Quest 333_BlackLionHunt continue\">繼續執行任務</a><br><a action=\"bypass -h Quest 333_BlackLionHunt leave\">結束執行中的任務</a>"+htmlend
 p_leave_mission    = html+sophia+"這段時間辛苦你了。就算是獅子也需要休息。在村莊休息，補充能量吧。身為傭兵，管好自己的體力是基本要求。<br><a action=\"bypass -h Quest 333_BlackLionHunt start_chose_parts\">說想要執行新任務</a><br><a action=\"bypass -h Quest 333_BlackLionHunt r_exit\">退出傭兵團</a>"+htmlend
 p_only_box_info    = html+sophia+"兄弟，為了完成任務，辛苦你了。我會根據你帶回來的憑證數量支付報酬。<br><a action=\"bypass -h Quest 333_BlackLionHunt continue\">繼續執行任務</a><br><a action=\"bypass -h Quest 333_BlackLionHunt leave\">結束執行中的任務</a>"+htmlend
-p_first_eye      = html+sophia+"Wait a moment.  I present to you the <font color=\"LEVEL\">mark of the lions eye</font>. This is an award to recognize your distinguished services that you have demonstrated on the battlefield.  And new supplies have been issued for you.   Since they are expendable goods that will be useful in combat, store and guard them well!  Now, I expect you to continue to make great achievements."+htmlend
-p_eye        = html+sophia+"Wait a moment.  I present to you the <font color=\"LEVEL\">mark of the lions eye</font>. This is an award to recognize your distinguished services that you have demonstrated on the battlefield.  And new supplies have been issued for you.   Since they are expendable goods that will be useful in combat, store and guard them well!  Now, I expect you to continue to make great achievements."+htmlend
+p_first_eye      = html+sophia+"請稍等一下。我給你<font color=\"LEVEL\">獅子之眼</font>標幟。這是作為表揚之前你在戰場上所立的戰功。另外這次有發給你的新的補給品。是戰鬥時很有用的消耗品，要好好收藏！那麼，希望今後也能繼續努力得到好成果。"+htmlend
+p_eye        = html+sophia+"請稍等一下。我給你<font color=\"LEVEL\">獅子之眼</font>標幟。這是作為表揚之前你在戰場上所立的戰功。另外這次有發給你的新的補給品。是戰鬥時很有用的消耗品，要好好收藏！那麼，希望今後也能繼續努力得到好成果。"+htmlend
 #-exit messages
 r_exit        = html+sophia+"你說想要退出黑獅傭兵團？當然每個人都有自己的想法，我也不會多問理由...但是有一點你要明白...像你這樣流著好戰之血的人，傭兵團是唯一的選擇。就算你去了其它地方，最終也一定會回到戰場。<br>總之，如果你一定要離開傭兵團，就要知道這件事。只要你一退出的話，就不再是黑獅的傭兵了，因此不僅要歸還黑獅的標誌，而且也不能再使用你在這段期間以黑獅的傭兵身分所利用的所有優惠。比如說像收集了貨物箱子、席琳雕像、古代黏土版碎片等後所得到的報酬之類的優惠，是不能再使用的。若想再使用這些優惠的話，得重新領取黑獅的標誌，所以再慎重考慮看看吧。<br>啊，還有根據你這段期間的成績，退休金還是會照付給你的。<br><a action=\"bypass -h Quest 333_BlackLionHunt continue\">繼續為傭兵團做事</a><br><a action=\"bypass -h Quest 333_BlackLionHunt exit\">確定退出傭兵團</a>"+htmlend
 exit        = html+sophia+"如果你的意志這麼堅決，我也就不挽留你了。那麼把黑獅的標誌交出來吧。可惜我們之間的戰友關係也到此為止了。啊，離開之前請把這個收下。這是你在傭兵團立下功績的報酬。就當作是今後開始新生活的本錢吧。那麼，希望下次再並肩作戰，再見。"+htmlend
@@ -119,19 +119,19 @@ f_rnd_list      = ["前幾天問過從古魯丁村莊回來的貿易商人，他們說最近那邊氣氛相當
              "你打算去因納得立地區嗎？那我就告訴你幾個對傭兵有幫助的情報吧！<br>如果去水上都市海音斯，去見商人伊培倫或警衛苟斯塔！。應該能得到還算不錯的任務。對了，還有聽說有個名叫桃樂絲的鎖匠姑娘也正在找傭兵。<br>",
              "如果你是想擴張血盟勢力的君主，我會給你一個你會感興趣的資訊。各地血盟們的背後都有支援他們的貴族。就是奇岩城鎮的克里斯托洛德瑪依卿、還有歐瑞城鎮的古斯達夫亞太法特卿。當然，那些人也不是慈善機構的人，幫助血盟應該會有所要求吧？<br>",
              "這是不久前和黑暗精靈公會的人們聊天的時候聽到的消息...聽說黑暗精靈供奉席琳女神？什麼？大家都知道啊？我可是第一次聽說...<br>竟然崇死亡女神...我是真的很難理解。但是從去過黑暗精靈森林的人們那裡聽說，黑暗精靈們建造的席琳神殿確實是非常雄壯。聽說住在神殿裡的深淵祭司們正收集在各地發現的席琳女神的雕像？<br>",
-             "Have you heard about the rumor?  Antharas, the earthdragon who had been sleeping in Dragon Valley has awoken.  This is terrible news  If it comes out of the Lair of Antharas and runs amok, all of Giran region will fall into a state of pandemonium in no time <br>However, there is someone who is recruiting people to form a militia force to catch Antharas.  It is a woman named Gabrielle in Giran Castle Town.  However, does she really think that they will have any chance against the dragon  Unfortunately, I think it is way beyond their power!<br>",
-             "In this village, there is a young man who is dreaming of becoming the best chef in the kingdom.  His name is Jonas.  Lately he has been working hard to prepare himself to compete in a culinary competition.   He is looking for an adventurer who can find ingredients to make exotic dishes<br>",
-             "In Giran Castle Town, there is a young man whose only aim in life is to take revenge.  Everybody has been telling him that its useless but he is determined to kill the earthdragon Antharas with his own hands.  Every day, he makes special arrows.  Furthermore, if anybody brings him the raw materials he needs to make the arrows, he will pay the person with an ample reward.  If you are interested, why dont you go see him?  His name is  Belton and he works as a guard in Giran Castle Town.<br>",
-             "I will give you some information that will be useful to someone who travels a lot like yourself.  According to the law of the land, the traders of this kingdom are not allowed to deal with criminals.  But there are some traders who ignore this rule and sell their items to outlaws.  These people include, Grocer Pano of Floran Village and Twyla who has set up her trade in the western section of the Dark Forest.  Although they are business people, I think its shameless of them to deal with criminals just to make money.<br>",
-             "Would you like me to introduce you to a job opportunity?  If you go to the northwestern area of Gludio, there is a farmer whose name is Peter.  He is currently hiring mercenaries to chase out turek orcs that have settled down near his farm  With your ability, you could deal with turek orcs with no problem, right?  <br>By the way, did you know that relics of ancient kingdoms are often found in that area?  While dealing with turek orcs, I heard that some people have discovered precious ancient relics by accident.<br>",
-             "Have you heard of the Aden Business Guild?  It is an association of human traders.  Since they saw that dwarven traders and warehouse keepers were generating a lot of profit while engaging in their organizational activities, humans decided to imitate them by forming a guild of their own.  However, it seems to me that the business savvy of a dwarf is inborn  No matter how hard humans try, I dont think they can keep up with dwarves.<br>On top of that, adding insult to injury, evil spirits frequently attack the guilds cargo wagons and steal their valuable goods making the humans suffer great losses.<br>",
-             "Some time ago, while I was talking with the members of the Dark Elf Guild, I found out that Dark Elves worship the Goddess Shilen!!   Are you saying that everybody already knows about that?   Well, I heard about it for the first time <br>Why would you want to worship a goddess of death  It doesnt make any sense to me.  But according to those who have been to the Dark Forest, the Temple of Shilen built by the Dark Elves is truly magnificent.  They told me that the Abyssal Celebrants at the temple are gathering fragments of the statue of Goddess Shilen from everywhere!<br>",
-             "Have you ever heard of a hatchling?  It is a cute baby dragon that has been hatched from the egg of a wyrm or a drake.  Among pet handlers, I heard that there is someone who knows how to raise a hatchling as ones own pet  I think his name is Cooper or something like that.  If you are interested in keeping a hatchling as a pet, why dont you go see him!<br>",
-             "I will give you the information that a clan leader, who wants to grow the power of his clan would be interested in obtaining.  In each area, there are aristocrats who give support to small clans.  These aristocrats would include Sir Kristof Rodemai in Giran Castle Town and Sir Gustaf Athebaldt of Oren Castle Town.  Of course they are not just philanthropists.  I would say they would want something in return for their support of a clan, wouldnt you agree?<br>",
-             "Some time ago, I heard a rumor that there is a society of ancient coin collectors.  At first, I thought that they must be collectors of some anniversary coins that are not very valuable.  But later, I found out that the value of the coins they collect is extremely high.  And members of this society are very enthusiastic about their collection activities that whoever brings some rare coins to them, they will trade them for some high priced items!  I heard that in order to join the coin collection society, you have to go see a dwarf called Sorint at the Hunters Village.<br>",
-             "I heard that if you go near the Ivory Tower in Oren, you will find a fake alchemist.  It is said that he goes around telling people that he can make some magic potion that will make peoples wishes come true  Many people have fallen victim to his fake potion.  But what is surprising is that once in a blue moon, after using the potion peoples wishes actually did come true.  The problem is that this only happens very very rarely<br>",
-             "傭兵雷德普<br>",
-             "Have you heard about the rumor?  Antharas, the earthdragon who had been sleeping in Dragon Valley has awoken.  This is terrible news  If it comes out of the Lair of Antharas and runs amok, all of Giran region will fall into a state of pandemonium in no time <br>However, there is someone who is recruiting people to form a militia force to catch Antharas.  It is a woman named Gabrielle in Giran Castle Town.  However, does she really think that they will have any chance against the dragon  Unfortunately, I think it is way beyond their power!<br>",
+             "不久前我偷聽了鐵匠舖幾個矮人的談話...矮人的首領，應該是叫做元老之類的吧？總之，他看起來很急著要在尋找記載著巨人們象形文字的文書。雖然我沒聽清楚，但好像是記載著關於巨人們科技方面的重大秘密。我一直以為矮人只是做著鐵匠舖或者看守倉庫等的事，沒想到暗地裡還搞出這麼多花樣來。<br>",
+             "聽說過幼龍沒有？從亞龍或飛龍的卵中孵化出來的可愛的小龍。聽說寵物管理員當中有人知道如何把這幼龍養成寵物龍來養...好像叫庫珀。如果你也想養幼龍的話去見一見那個人吧！<br>",
+             "這是不久前聽到的消息，聽說有個叫什麼收集古代銅幣之類的組織。剛開始還以為是在收集那些不值錢的紀念幣，後來才知道那些所收集的銅幣價值非常高。而且聽說會員們非常積極，如果收集了珍貴的銅幣回來他們會換給你高價的物品呢？他們說如果想加入他們的銅幣收集會，就要去找獵人村莊的矮人索林特。<br>",
+             "聽說歐瑞的象牙塔附近有個騙子煉金術師。他到處說他能製造出什麼，實現願望的魔法藥水...好多人都上了這個藥水的當。但奇怪的是，偶爾真的能夠實現願望耶。問題是真的只有「偶爾」會這樣...<br>",
+             "噓！靠近一點。我會給你很好的資訊。這是從商人們的談話當中偷聽到的，不久前，從奇巖送往狄恩的亞丁商業同盟的貨物車中，有個貴重物品被偷了。是叫皇帝鑽石的寶石，好像它的價值相當驚人。聽說是用在裝飾皇帝的王冠上的寶石，應該不是普通貴重的物品吧？真想看一眼~<br>",
+             "聽到消息沒有？聽說沉睡在龍之谷的地龍安塔瑞斯醒過來了。這可大事不妙了...萬一安塔瑞斯從巢穴中出來到處破壞，奇巖一帶瞬間就會變成廢墟...<br>但另一方面也有人正在招集討伐安塔瑞斯的人員。聽說好像是奇巖城鎮的叫加布裡爾的女子。但是他們真的認為與龍對戰會有勝算嗎...？應該還是不行！<br>",
+             "聽說在奇巖城鎮有一名為了報仇賭上自己人生的青年。人們都認為不值得，但是他為了親自殺死地龍安塔瑞斯，每天在製造特製的弓箭。聽說能夠替他收集製造弓箭的材料，他就會給不少的報酬。有興趣的話去見見吧。是在奇巖城鎮當警衛兵的叫勃爾特凱的年輕人。<br>",
+             "像你這樣到處旅遊的朋友，我給你一份很有用的資訊。這個王國的商人們按規定是不能跟罪犯有來往的。但是有些商人輕視規定卻和不法之徒做生意。芙羅蘭村莊的雜貨商人帕諾，還有在黑暗精靈森林西邊做生意的特威提就是這樣的人。但是為了賺錢竟然和罪犯做生意...雖然說是商人，但也太齷齪了。<br>",
+             "給你介紹一份差事怎麼樣？沿著古魯丁西北方向走會遇到叫皮歐特的農夫，他為了消滅自己農場附近的土瑞克獸人正在僱用傭兵...以你的實力對付土瑞克獸人應該綽綽有餘吧？<br>但是，你有沒有聽說過那個地方經常發現古代帝國遺物的傳聞？聽說有時候當消滅土瑞克獸人時偶爾會發現貴重的遺物。<br>",
+             "聽說過亞丁商業同盟嗎？那是人類商人們的組織。人類看到矮人商人和倉庫管理員們有組織性的活動並賺了不少利益，自己也就想模仿起來了。但是我認為，矮人做生意的本事是天生的，人類是怎麼樣也無法學得到。<br>真是雪上加霜，魔鬼們襲擊亞丁商業同盟的貨車屢次搶走貨物，所以現在損失慘重。<br>",
+             "你有在養幼龍嗎？我是說養為寵物的小龍。聽說有個方法可以把那個小龍養成堂堂的座龍呢！雖然我也不清楚，但聽說獵人村莊的賢者克洛諾斯知道詳細的內容。若感興趣的話，去找找看吧！<br>",
+             "你聽過有關芙羅蘭村莊的事嗎？是個景色非常優美的村莊...但是因為被稱為是犯罪者聚居的村莊，所以人們不想去那裡。不過聽說也具備民兵隊，所以還是個不錯的地方。<br>總之，聽說最近雜貨商帕諾在找傭兵。說什麼需要能擊退熊的人？假如有興趣的話，就去芙羅蘭村莊看看吧？",
+             "你去過哈汀學院嗎？怎樣呢？聽說崇拜死神的狂信者集團住在那裡、哈汀本來是有角的惡魔等，有很多這樣的傳聞...？而且都是不好的傳聞...<br>總之，根據最近聽到的消息，聽說住在那裡的魔法商人賽馬正在找有實力的魔法師。難道是打算募集魔法師，把他們洗腦後，養成死靈術師集團嗎？<br>",
              ]
 f_no_news      = html+redfoot+"對不起，現在還沒有新的資訊。下次再光臨吧。<br>"+back+htmlend
 f_more_help      = html+redfoot+"還有事情要我幫忙嗎？<br><a action=\"bypass -h Quest 333_BlackLionHunt f_give\">請求打開箱子</a>"+htmlend
@@ -143,32 +143,32 @@ rupio        = "鐵匠魯皮奧:<br>"
 r_no_items      = html+rupio+"你不是黑獅傭兵嗎？來我們的鐵舖做什麼呢...？是來委託製造武器的嗎？"+htmlend
 r_items        = html+rupio+"有什麼事情要我幫忙的嗎？<br><a action=\"bypass -h Quest 333_BlackLionHunt r_give_statue\">要求組合雕像的碎片</a><br><a action=\"bypass -h Quest 333_BlackLionHunt r_give_tablet\">要求組合黏土版的碎片"+htmlend
 r_statue_pieces    = html+rupio+"你怎麼知道我的興趣是復原遺物啊？但是如果想把石像恢復成原來的樣子，就不能缺少其中任何一片，你說是不是？比如說想完成女神像不就是要有<font color=\"LEVEL\">頭 身體 臂還有腿</font>)每個部位嗎？"+htmlend
-r_statue_brockes  = html+rupio+"OK, shall I demonstrate my talents now? First... Attach the legs to the base... Then the torso above that... And if we match the joints of the arms and head properly... Huh? The statue just crumbled... I knew that it was really old and the material weak but.. When I just applied some pressure to connect... Oh, I'm really sorry."+htmlend
-r_statue_complete  = html+rupio+"OK, shall I demonstrate my talents now? First... Attach the legs to the base... Then the torso above that... And if we match the joints of the arms and head properly... OK! It's finished! The joints of the connecting parts are still visible but overall, it looks perfect, don't you think? Hmm... Is it the image of the goddess of Shilen? Looking at it carefully, it's really a beautiful statue."+htmlend
+r_statue_brockes  = html+rupio+"那讓我來秀一下我的手藝吧...？首先...把腿部固定在台子上... 再把身體貼上去...把頭和胳臂部分的結合點接好再作組合的話...糟糕！雕像破碎了。雖然我早知道雕像很舊，所以可能很脆弱... 我只是想把它結合起來所以用了點力，沒想到...真的很抱歉。"+htmlend
+r_statue_complete  = html+rupio+"那讓我來秀一下我的手藝吧...？首先...把腿部固定在台子上... 再把身體貼上去... 把頭和胳臂部分的結合點接好再作組合的話...來！完成啦！雖然連接的部分可以看得出結合點，但看起來像完成品不是嗎？哦呵...是席琳女神的模樣嗎？仔細一看，真是個很精緻的雕像。"+htmlend
 r_tablet_pieces    = html+rupio+"你怎麼知道我的興趣是復原遺物啊？但是像黏土版這樣刻有文字的遺物，只要缺少一部份就無法知道內容，所以組合了也沒什麼用。以我的經驗，像黏土版這種四角形的遺物，通常會碎成<font color=\"LEVEL\">4片</font>..."+htmlend
-r_tablet_brockes  = html+rupio+"OK, shall I demonstrate my talents now? Well, this fragment looks like it goes to the very bottom section of the stone tablet... And this piece is above that... Oh! The tablet just crumbled... I should have expected that the material would be really weak from having been exposed to the rain and wind for such a long time... Darn...! I'm really sorry for making such a big mistake."+htmlend
-r_tablet_complete  = html+rupio+"OK, shall I demonstrate my talents now? Well, this fragment looks like it goes to the very bottom section of the stone tablet... And this piece is above that... It's like putting together a puzzle... OK... It's finished! It's an ancient stone tablet... I'm really curious whether some secrets of history are recorded on it! Hmm... But these letters look like writing of the titans... I've seen this somewhere before...! Where in the world could...?!"+htmlend
+r_tablet_brockes  = html+rupio+"那讓我來秀一下我的手藝吧...？首先這破片看起來像是最下面的一部分...這破片是在那上面...唉呦！黏土版破碎了。應該早就要預料到經過長年的風吹雨打，這古代黏土版會很脆弱...真是的...！我竟然犯下這麼大的錯，真是對不起。"+htmlend
+r_tablet_complete  = html+rupio+"那讓我來秀一下我的手藝吧...？首先這破片看起來像是最下面的一部分...這破片是在那上面...好像在玩拼圖喔... 對了！完成啦！古代黏土版... 真好奇這其中到底記載著哪些歷史的秘密！哦呵...但是這紋樣就好像巨人的文字呢...好像在哪兒見過...！難道這黏土版是...！"+htmlend
 #Lockirin
 lockirin      = "元老長拉克琳:<br>"
 l_no_tablet      = html+lockirin+"我對巨人文明非常感興趣。尤其是那個以巨人文字記載的黏土版，即使要我付出高價也在所不惜。像你這樣常去旅行的人，可能會看過那種東西。據說，在狄恩地方常常會發現古代黏土版..."+htmlend
 l_just_pieces    = html+lockirin+"這個黏土版是...？難道這個是...？雖然只是一部分，但是這是...柝芙的...！<br> 喂，年輕人！這些東西到底是從那裡找到的？如果找到所有的剩餘碎片，組合成完成品，我將會給你大筆!酬金！我以公會聯合元老長的名義，和你約定！"+htmlend
-l_tablet      = html+lockirin+"This clay tablet... Where in the world could...?! It's just one part, but... Maphr...!  Where did such a precious thing...? Look at this, young fellow! I'll present to you a big gift of gratitude so please give this tablet to me!<br><a action=\"bypass -h Quest 333_BlackLionHunt l_give\">Hand over clay tablet.</a><br><a action=\"bypass -h Quest 333_BlackLionHunt l_info\">Don't hand over."+htmlend
-l_give        = html+lockirin+"I'm really thankful! Finally the deep-rooted work of our guild federation...! Here, take this gift of gratitude! And if you find more of these clay tablets in the future, please bring those to me also! I'll express my thanks adequately!"+htmlend
-l_info        = html+lockirin+"Huh...?! I said I'd express my thanks abundantly but you still refuse... Look here, young fellow. Do you really think you can sell that tablet somewhere else at a higher price? I guarantee that no matter how hard you look, you won't find anyone that will give you as much as I will. If your opinion changes, please come to me again. Turn over that tablet to me anytime and I'll give you a big gift of gratitude as I promised!"+htmlend
+l_tablet      = html+lockirin+"這個黏土版是...？難道這個是...？雖然只是一部分，但是這是...梅芙的...！這麼貴重的東西到底是從哪裡...？喂，年輕人！我會給你大筆酬金，把這個字版交給我吧！<br><a action=\"bypass -h Quest 333_BlackLionHunt l_give\">將黏土版交給他</a><br><a action=\"bypass -h Quest 333_BlackLionHunt l_info\">拒絕交出黏土版</a>"+htmlend
+l_give        = html+lockirin+"真是太感謝你了！我們公會聯合的宿願事業終於...！來，把這個收下當作酬勞!以後如果再弄到這樣的黏土版，就記得拿給我！不管是多少我都會付的！"+htmlend
+l_info        = html+lockirin+"真是的...我都說了我會給你充分的酬勞，你還拒絕...年輕人，你是不是以為可以把這個黏土版以高價賣給其他地方?我可以保證，即使到了別的地方也應該沒有人會比我付更多錢給你的？等你改變想法後，再來找我吧。不管什麼時候，如果把那個黏土版交給我，我還是依照約定給你大筆酬勞的！"+htmlend
 #Undiras
 undiras        = "深淵祭司安德理亞斯:<br>"
 u_no_statue      = html+undiras+"整個大陸中供奉席琳女神的寺院僅此一家。因人類歪曲的宗教改革，我們的女神被世人認為是帶來死亡和破壞的不祥的存在，但我們黑暗精靈依然認為席琳是我們的創造者及掌管生死的女神。<br>可惜的是被人類和精靈暟合軍侵領時，遺失了很多裝飾神殿的聖物。特別是製作精緻的席琳女神像大部分都不見了。不管是誰若幫我們找回那些雕像，我們深淵神官們一定給予大大的謝禮..."+htmlend
 u_just_pieces    = html+undiras+"這個雕像是？雖然只是一部分...這是遺失的席琳雕像的一部分...！這東西到底是從哪裡找到的？如果找到所有的剩餘碎片，組合成完成品，我將會給你很大的謝禮金！"+htmlend
-u_statue      = html+undiras+"Oh this piece must be?  Although its only part of it still this piece came from one of the statues of Shilen that were lost!  Where in the world did you find it?  Where did you find this sacred object?  This statue is a sacred object for us dark elves.  I will pay you a great sum of money if you will hand it over to me.  After all, it is not of much use to you any way,  right?<br><a action=\"bypass -h Quest 333_BlackLionHunt u_give\">Give him the statue of Shilen.</a><br><a action=\"bypass -h Quest 333_BlackLionHunt u_info\">Refuse to give him the statue of Shilen.</a>"+htmlend
-u_give        = html+undiras+"Due to the humans distorted religious reformation, our goddess that we worship has been misunderstood to be a sinister being that brings death and destruction.  But we dark elves still worship Shilen as our creator and as a goddess who is in charge of life and death.  Unfortunately, when this place was invaded by the allied forces of humans and elves, many sacred objects which were decorating the temple were lost.  Especially, many statues of the goddess Shilen which were exquisitely crafted were stolen.  The statue you brought here is one of the statues that were lost at that time.  Thank you so much.  Here is the reward money I promised you.  If you find any more statues like this, please bring them to me.  Well,  then may the divine protection of abyss be with you!"+htmlend
-u_info        = html+undiras+"That statue is a sacred object for us dark elves.  Anyway, if you keep it for yourself, you wont have much use for it.  Furthermore, if you carry a statue of Shilen with you and walk around among humans, people will accuse you of being a pagan.  You would be lucky if you are not burnt to death at the stake.  Anyway, if you change your mind, please come back and see me.  If you hand over the statue to me, I am willing to pay you a generous sum of reward money.  Well,  then may the divine protection of abyss be with you."+htmlend
+u_statue      = html+undiras+"這個雕像是？這是...這是遺失的席琳雕像的一部分...！這東西到底是從哪裡找到的？這麼神聖的物品到底是從哪裡...？這個雕像是我們黑暗精靈的聖物。我想以重金購買，讓給我吧。反正對你來說是沒什麼用處吧？<br><a action=\"bypass -h Quest 333_BlackLionHunt u_give\">交出席琳雕像</a><br><a action=\"bypass -h Quest 333_BlackLionHunt u_info\">拒絕交出席琳雕像</a>"+htmlend
+u_give        = html+undiras+"因人類歪曲了宗教改革，我們的女神被世人認為是帶來死亡和破壞的不祥的存在，但我們黑暗精靈依然認為席琳是我們的創造者及掌管生死的女神。可惜的是被人類和精靈聯合軍侵領時，遺失了很多裝飾神殿的聖物。你帶來的雕像是當時遺失的物品之一。真的非常感謝。這裡，收下賞金吧。如果再找到這樣的雕像，請把它帶過來吧。願深淵的庇護伴隨你。"+htmlend
+u_info        = html+undiras+"這個雕像是我們黑暗精靈的聖物。反正對你來說是一點用都沒有。而且在人類社會帶著它到處走動，會被指罵為邪教徒吧...？沒被處於火刑就算幸運了。反正等你想法變了，再來找我吧。不管什麼時候只要把雕像給我，我會以厚禮答謝。願深淵的祝福伴隨你。"+htmlend
 #Morgan
 morgan        = "公會會員摩根:<br>"
 m_no_box      = html+morgan+"你是，黑獅團的傭兵吧？聽說最近為了掃蕩這一帶的魔物，因而非常辛苦啊。日後也拜託你們啦。"+htmlend
 m_box        = html+morgan+"你是，黑獅團的傭兵吧？聽說最近為了掃蕩這一帶的魔物，因而非常辛苦啊。日後也拜託你們啦。不過找我有什麼事嗎...？<br><a action=\"bypass -h Quest 333_BlackLionHunt m_give\">交出箱子</a>"+htmlend
-m_rnd_1        = html+morgan+"It's a freight box of our commercial guild!? It is freight that was stolen from our carts having been attacked by evil creatures recently. But there is a lot of freight that was looted and so our losses are really big. Still, it is really fortunate that you could recover this part.<br>As a representative of the commercial guild, I thank you for your efforts. Here, take this gift of gratitude, even though it's not much. And I present you with these (<font color=\"LEVEL\">coins from our guild</font>). It's like a plaque of appreciation that we give to people that have contributed to the commercial guild.<br><a action=\"bypass -h Quest 333_BlackLionHunt m_reward\">Go back.</a>"+htmlend
-m_rnd_2        = html+morgan+"我們商業同盟的貨箱！？這是不久前被魔物襲擊後，從馬車上被搶走的貨物啊！最近被掠奪的貨物太多，正擔憂會損失慘重呢，現在能找回一部分也算是慶幸啦。<br>我代表商業同盟向你致謝。這裡，雖然不多就當作是我們的謝禮吧。還有這裡，送你一個我們<font color=\"LEVEL\">公會的貨幣</font>這是賦予對商業同盟貢獻者的一種感謝。<br><a action=\"bypass -h Quest 333_BlackLionHunt m_reward\">返回</a>"+htmlend
-m_rnd_3        = html+morgan+"I really thank you for recovering so many freight boxes like this for us. If the financial situation of our commercial guild were a bit better, we would hire competent mercenaries such as yourself as bodyguards... In that case, the evil creatures would never be able to loot our stuff, no?<br>OK! Here, take the gift of gratitude! The amount of the gratitude money increased greatly after I spoke to my superiors about the hard work you have been doing for our guild. As this is appropriate acknowledgment for your hard work, please take it without refusing. And, as always, I present you with these <font color=\"LEVEL\">coins from our guild.</font><br><a action=\"bypass -h Quest 333_BlackLionHunt m_reward\">返回</a>"+htmlend
+m_rnd_1        = html+morgan+"我們商業同盟的貨箱！？這是不久之前被魔鬼襲擊後，從馬車上被搶走的貨物啊！最近被掠奪的貨物太多，正擔憂會損失慘重呢，現在能找回一部分也算是慶幸啦。<br>我代表商業同盟向你致謝。這裡，雖然不多就當作是我們的謝禮吧。還有這裡，送你一個我們(<font color=\"LEVEL\">公會的貨幣</font>)。這是賦予對商業同盟貢獻者的一種感謝牌。<br><a action=\"bypass -h Quest 333_BlackLionHunt m_reward\">返回</a>"+htmlend
+m_rnd_2        = html+morgan+"又找回貨箱啦。真的非常感謝你。被魔鬼掠奪的貨物是越來越多，如果沒有你們傭兵幫忙，我們商業同盟的損失可就不堪設想啦。這裡，收下賞金吧。還有跟以往一樣，為表示謝意送你<font color=\"LEVEL\">公會的貨幣</font>。日後也拜託你們啦。<br><a action=\"bypass -h Quest 333_BlackLionHunt m_reward\">返回</a>"+htmlend
+m_rnd_3        = html+morgan+"真感謝你每次幫忙找回貨箱。如果我們商業同盟的資金情況稍為充裕一點，就會僱用你這種有能力的傭兵當我們的護衛呢... 這樣就不會再有被魔鬼掠奪的事情發生了吧？<br>來!收下賞金吧。我跟上面的人說過這些日子你為我們公會出力不少，所以賞金的額數也增加了。這是你應該得到的，所以不需要客氣。<br><a action=\"bypass -h Quest 333_BlackLionHunt m_reward\">返回</a>"+htmlend
 m_no_more_box       = html+morgan+"貨箱...？什麼箱子啊？你好像沒有這種東西啊...？"+htmlend
 m_reward      = html+morgan+"有什麼事情要我幫忙的嗎...？<br><a action=\"bypass -h Quest 333_BlackLionHunt m_give\">交出貨箱</a>"+htmlend
 
@@ -304,10 +304,10 @@ class Quest (JQuest) :
           tablet = "這是...？石版的破片？哦呵...沒看過的文字。難道是巨人時代的遺物？如果不是破片，而是完好的物品就可以成為珍貴的資料了。如果能把所有的破片收集到就可以拼成原樣了...假如有興趣，就去找叫<font color=\"LEVEL\">魯皮奧</font>的鐵匠吧。他是復原遺物的專家。<br>"
           if random < 21 :
             st.giveItems(GLUDIO_APPLE,int(Config.RATE_QUESTS_REWARD))
-            return html+redfoot+standart+"<br>Fruit?  Oh, they must be apples grown in Gludio!  Mmm they look delicious.  If you take them to the market before they go bad, I guess you will be able to make some money.<br>"+back+htmlend
+            return html+redfoot+standart+"<br>水果...？古魯丁特產的蘋果啊！看起來蠻好吃的耶？壞掉之前到市場去賣掉，就能賺得到一點錢。<br>"+back+htmlend
           elif random < 41:
             st.giveItems(CORN_MEAL,int(Config.RATE_QUESTS_REWARD))
-            return html+redfoot+standart+"Isnt this corn meal?  Isnt this used to feed pigs?  Well, anyhow, since its not anything you can use for yourself, you should take it to the market to sell it.<br>"+back+htmlend
+            return html+redfoot+standart+"<br>哦？這不是玉米粉嗎？是不是餵豬用的？反正這不是你需要的東西，可以到市場上賣掉。雖然賣不了多少錢。<br>"+back+htmlend
           elif random < 61:
             st.giveItems(WOLF_PELTS,int(Config.RATE_QUESTS_REWARD))
             return html+redfoot+standart+"<br>這張皮革是...？惡狼之皮？皮革加工師已經加工過。但不是張很高級的皮革。可能製造皮帽時能用得著吧？反正，拿到市場上應該賣得了一點錢。<br>"+back+htmlend
@@ -316,31 +316,31 @@ class Quest (JQuest) :
             return html+redfoot+standart+"<br>寶石？這是月石！也是叫作月長石的寶石。應該能賣到不錯的價錢。<br>"+back+htmlend
           elif random < 86:
             st.giveItems(GLUDIO_WEETS_FLOWER,int(Config.RATE_QUESTS_REWARD))
-            return html+redfoot+standart+"<br>Hmm?  Whats this powder?  Should I taste it?   Yes, this must be Gludio Wheat Flour!  It can be used for baking bread I guess.   Well, anyhow, you should be able to sell it for a decent price at the market.<br>"+back+htmlend
+            return html+redfoot+standart+"<br>哦？這個粉末是...？嚐一下，看看如何？是從古魯丁出產的麵粉！應該是用在烤麵包吧？反正，拿到市場應該可以賣到不錯的價錢。<br>"+back+htmlend
           elif random < 98:
             st.giveItems(SPIDERSILK_ROPE,int(Config.RATE_QUESTS_REWARD))
-            return html+redfoot+standart+"這是...？是蜘蛛網的繩索！這是用士伯吟山脈的狼蛛巢中收集的蜘蛛網製造的，堅實輕便的繩索。拿到商店應該會賣到不錯的價錢吧。<br>"+back+htmlend
+            return html+redfoot+standart+"<br>這是...？是蜘蛛網的繩索！這是用士伯吟山脈的狼蛛巢中收集的蜘蛛網製造的，堅實輕便的繩索。拿到商店應該會賣到不錯的價錢吧。<br>"+back+htmlend
           elif random < 99:
             st.giveItems(ALEXANDRIT,int(Config.RATE_QUESTS_REWARD))
-            return html+redfoot+standart+back+htmlend
+            return html+redfoot+standart+"<br>寶石...？是綠寶石嗎？啊，不是。這是紫翠玉！你難道不知道？這是在陽光下呈黃色，月光下呈紅色的珍貴的寶石。應該是用在製造貴婦人裝飾品上的東西吧？拿到商店應該可以賣個好價錢。<br>"+back+htmlend
           elif random < 109:
             st.giveItems(SILVER_TEA,int(Config.RATE_QUESTS_REWARD))
-            return html+redfoot+standart+"Hmm?  A silver bowl?  And a teacup?  They seem to be of pretty high quality!  It seems like they were made by elven artisans.  I am not interested in such exquisite items but, anyway, if you take them to a store, you should be able to sell them for a fairly good price.<br>"+back+htmlend
+            return html+redfoot+standart+"<br>哦？銀盤？還有茶杯？看起來蠻高級的嘛？應該是精靈工匠們的手藝。雖然我對這些高級物品沒有什麼興趣...但拿到商店應該可以賣個好價錢。<br>"+back+htmlend
           elif random < 119:
             st.giveItems(GOLEM_PART,int(Config.RATE_QUESTS_REWARD))
-            return html+redfoot+standart+"Hmm?  Machine parts?  This Guild Mark seems to be that of the Black Anvil Guild what do you think?  Although I dont know for sure, these seem to be parts that are used by dwarves to do repair work on golems.  If you take them to a store, I think you will be able to sell them at a pretty reasonable price.<br>"+back+htmlend
+            return html+redfoot+standart+"<br>哦？機械裝置...？這應該是黑色鐵砧工會的標章呀...？雖然我也不清楚，但這好像是矮人修理高侖時所用的零件。拿到商店應該可以賣個好價錢。<br>"+back+htmlend
           elif random < 123:
             st.giveItems(FIRE_EMERALD,int(Config.RATE_QUESTS_REWARD))
-            return html+redfoot+standart+"寶石...？是綠寶石嗎？啊，不是。這是紫翠玉！你難道不知道？這是在陽光下呈現黃色，月光下呈紅色的珍頫的實石。應該是用在製造貴婦人裝飾品上的東西吧？拿到商店應該可以賣個好價錢。<br>"+back+htmlend
+            return html+redfoot+standart+"<br>這寶石是...？啊！火焰綠寶石！你難道不知道嗎？這是在陽光下能散發出強烈紅光的一種非常珍貴的寶石。你的運氣真是好！拿到商店應該能賣到很好的價錢。<br>"+back+htmlend
           elif random < 127:
             st.giveItems(SILK_FROCK,int(Config.RATE_QUESTS_REWARD))
-            return html+redfoot+standart+"Isnt this a dress?!  This is a silk dress for a woman.  It looks pretty expensive, dont you think?  Take a look at this design.  This is an item that has been imported from Avella of the East.  At a time like this, who would use such a luxurious item?  This must be ordered by a noblewoman who has a liking for foreign products dont you think?  You should take this to a store and sell it off!  Im sure you will get a very high price for it.<br>"+back+htmlend
+            return html+redfoot+standart+"<br>這不是衣服嗎？！女人穿的絲綢禮服。蠻高級的嘛？看一下這個圖紋。這是從東方的阿貝拉進口的東西。到底誰在這個時候用這種奢華的物品...？一定是某個喜歡異國風味的貴婦人買來穿的物品吧？把這個拿到商店去賣掉！應該能賣得到很好的價錢。<br>"+back+htmlend
           elif random < 131:
             st.giveItems(PORCELAN_URN,int(Config.RATE_QUESTS_REWARD))
-            return html+redfoot+standart+back+htmlend
+            return html+redfoot+standart+"<br>哦？陶甕？很多地方有缺口又退了色...難道是古董？這個圖紋...？哦哦！！！是新生王國貝裡歐斯的紋樣。你得到了非常昂貴的遺物？這種珍貴的物品在商店會賣得到很高的價錢。<br>"+back+htmlend
           elif random < 132:
             st.giveItems(IMPERIAL_DIAMOND,int(Config.RATE_QUESTS_REWARD))
-            return html+redfoot+standart+"Hmm?  Dont tell me!  I dont believe it!!!  Wow, an Imperial Diamond?  Isnt this the one that was used to decorate the crown of the king of Elmo-Aden?  Its truly beautiful!   You are extremely lucky!  You got yourself a priceless item.  If you take it to the market, Im sure you will be able to get a huge amount of money for it.<br>"+back+htmlend
+            return html+redfoot+standart+"<br>哦？不會吧？怎麼會這樣！！！皇帝的...鑽石？用在裝飾艾爾摩亞丁皇帝的皇冠上的...？真的...非常漂亮...！你真是個幸運的人！居然得到了這麼貴重的物品。如果拿到市場上應該能夠賣到非常好的價錢？<br>"+back+htmlend
           elif random < 147:
             random_stat=st.getRandom(4)
             if random_stat == 3 :

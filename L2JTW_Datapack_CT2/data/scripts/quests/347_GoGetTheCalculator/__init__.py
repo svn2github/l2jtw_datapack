@@ -40,6 +40,7 @@ class Quest (JQuest) :
     elif event == "30533_1" :
         if st.getQuestItemsCount(ADENA)>100 :
             st.takeItems(ADENA, 100)
+            st.playSound("ItemSound.quest_accept") #pmq修改
             if st.getInt("cond")== 1:
                 st.set("cond","2")
             else :
@@ -48,6 +49,7 @@ class Quest (JQuest) :
         else :
             htmltext = str(BALANKI)+"-03.htm"
     elif event == "30532_1" :
+        st.playSound("ItemSound.quest_accept")     #pmq修改
         htmltext = str(SPIRON)+"-02a.htm"
         if st.getInt("cond")== 1:
             st.set("cond","3")
@@ -61,16 +63,16 @@ class Quest (JQuest) :
         st.giveItems(CALCULATOR,1)
         st.takeItems(CALCULATOR_Q,1)
         st.playSound("ItemSound.quest_middle")
-        st.exitQuest(False)
-        st.set("cond","0")
+        #pmq修改
+        #pmq修改
         st.exitQuest(1)
         htmltext = str(BRUNON)+"-05.htm"
     elif event == "30526_2" :
-        st.giveItems(ADENA,1000)
+        st.giveItems(ADENA,1500)        #pmq修改
         st.takeItems(CALCULATOR_Q,1)
         st.playSound("ItemSound.quest_middle")
-        st.exitQuest(False)
-        st.set("cond","0")
+        #pmq修改
+        #pmq修改
         st.exitQuest(1)
         htmltext = str(BRUNON)+"-06.htm"
     return htmltext
@@ -83,26 +85,33 @@ class Quest (JQuest) :
 
     npcId = npc.getNpcId()
     id = st.getState()
-    if npcId != BRUNON and id != State.STARTED : 
-     if player.getLevel() >= 12 :   #pmq修改
-         htmltext = "30526-01.htm"  #pmq修改
-    else:                           #pmq修改
-         htmltext = "30526-00.htm"  #pmq修改
-         st.exitQuest(1)            #pmq修改
-    return htmltext
+    if npcId != BRUNON and id != State.STARTED : return htmltext
+
     if npcId == BRUNON and id==State.CREATED :
         st.set("id","0")
         st.set("cond","0")
-        htmltext = str(BRUNON)+"-01.htm"
-    elif npcId == BRUNON and st.getInt("cond")>0 and st.getQuestItemsCount(CALCULATOR_Q)==0 :
+        if player.getLevel() >= 12 :           #pmq修改-Start
+          htmltext = str(BRUNON)+"-01.htm"
+        else: 
+          htmltext = str(BRUNON)+"-00.htm"
+          st.exitQuest(1) 
+        return htmltext
+    elif npcId == BRUNON and (st.getInt("cond")==1 or st.getInt("cond")==2) and st.getQuestItemsCount(CALCULATOR_Q)==0 :
         htmltext = str(BRUNON)+"-03.htm"
+    elif npcId == BRUNON and (st.getInt("cond")==3 or st.getInt("cond")==4 or st.getInt("cond")==5) and st.getQuestItemsCount(CALCULATOR_Q)==0 :
+        htmltext = str(BRUNON)+"-12.htm"
     elif npcId == BALANKI and (st.getInt("cond")==1 or st.getInt("cond")==3):
         htmltext = str(BALANKI)+"-01.htm"
+    elif npcId == BALANKI and (st.getInt("cond")==2 or st.getInt("cond")==4):
+        htmltext = str(BALANKI)+"-04.htm"
     elif npcId == SPIRON and (st.getInt("cond")==1 or st.getInt("cond")==2) :
         htmltext = str(SPIRON)+"-01.htm"
+    elif npcId == SPIRON and (st.getInt("cond")==3 or st.getInt("cond")==4):
+        htmltext = str(SPIRON)+"-02d.htm"
     elif npcId == SILVERA and st.getInt("cond")==4 :
         st.set("cond","5")
         htmltext = str(SILVERA)+"-01.htm"
+        st.playSound("ItemSound.quest_accept")
     elif npcId == SILVERA and st.getInt("cond")==5 and st.getQuestItemsCount(GEMSTONE_BEAST_CRYSTAL)<10 :
         htmltext = str(SILVERA)+"-02.htm"
     elif npcId == SILVERA and st.getInt("cond")==5 and st.getQuestItemsCount(GEMSTONE_BEAST_CRYSTAL)==10 :
@@ -111,6 +120,8 @@ class Quest (JQuest) :
         st.giveItems(CALCULATOR_Q,1)
         st.playSound("ItemSound.quest_itemget")
         st.set("cond","6")
+    elif npcId == SILVERA and st.getInt("cond")==6 and st.getQuestItemsCount(CALCULATOR_Q)==1 :
+        htmltext = str(SILVERA)+"-05.htm"      #pmq修改-End
     elif npcId == BRUNON and st.getInt("cond")==6 and st.getQuestItemsCount(CALCULATOR_Q)==1 :
         htmltext = str(BRUNON)+"-04.htm"
     return htmltext

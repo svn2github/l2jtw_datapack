@@ -45,14 +45,17 @@ class Quest (JQuest) :
         id = st.getState()
         if id == State.CREATED :
             st.set("cond","0")
-            if player.getRace().ordinal() == 3 :  #pmq修改
-              if player.getLevel() >= 3 :         #pmq修改
+            if player.getRace().ordinal() == 4 :
+              if player.getLevel() >= 3 : #pmq修改-Start
                 htmltext = "30533-02.htm"
-            else :
+              else :
                 htmltext = "30533-01.htm"
                 st.exitQuest(1)
+            else :
+              htmltext = "30533-01.htm"
+              st.exitQuest(1)             #pmq修改-End
         elif npcId == 30533 and id == State.COMPLETED :
-            htmltext = "<html><body>這是已經完成的任務。</body></html>"   #pmq修改
+            htmltext = "<html><body>這是已經完成的任務。</body></html>" #pmq修改
         elif id == State.STARTED: 
             if npcId == 30533 and st.getInt("cond")==1 :
                 htmltext = "30533-04.htm"
