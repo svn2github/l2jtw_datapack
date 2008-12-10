@@ -13670,6 +13670,10 @@ UPDATE `weapon` SET `bodypart` = 7, `crystallizable` = 0, `weight` = 0, `soulsho
 -- NC設定`critical` = '8'錯誤?，修正 = '6' --
 UPDATE `weapon` SET `critical` = '6' WHERE `weaponType` = '13'; -- 古代劍(致命追加)
 
+-- NC設定`atk_speed` = '379'，修正 = '325' --
+UPDATE `weapon` SET `atk_speed` = '325' WHERE `item_id` IN (10252,10527,10528,10529); -- 王朝魔杖(攻擊速度)
+UPDATE `weapon` SET `atk_speed` = '325' WHERE `item_id` IN (10530,10531,10532); -- 王朝毀滅者(攻擊速度)
+
 -- NC設定`atk_speed` = '325'，修正 = '379'(確認數值需要修正為379嗎?) --
 UPDATE `weapon` SET `atk_speed` = '379' WHERE `item_id` IN (748); -- 噶爾林特的橡木杖(攻擊速度)
 
@@ -13737,6 +13741,4 @@ UPDATE `weapon` SET `crystal_type` = 'a'        WHERE `crystal_type` = '4'; -- A
 UPDATE `weapon` SET `crystal_type` = 's'        WHERE `crystal_type` = '5'; -- S級
 UPDATE `weapon` SET `crystal_type` = 's80'      WHERE `crystal_type` = '6'; -- S80級
 
-/***** 王朝魔杖/王朝毀滅者(攻擊速度修正) *****/
-UPDATE `weapon` SET `atk_speed` = '325' WHERE `item_id` IN (10252,10527,10528,10529,10530,10531,10532);
 /***** Done by vdmyagami！ *****/

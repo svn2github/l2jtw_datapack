@@ -32,9 +32,9 @@ public class SummonMinions extends L2AttackableAIScript
 	static
     {
             MINIONS.put(20767,new Integer[]{20768,20769,20770}); //Timak Orc Troop
-            MINIONS.put(22030,new Integer[]{22045,22047,22048}); //Ragna Orc Shaman
-            MINIONS.put(22032,new Integer[]{22036}); //Ragna Orc Warrior - summons shaman but not 22030 ><
-            MINIONS.put(22038,new Integer[]{22037}); //Ragna Orc Hero
+            //MINIONS.put(22030,new Integer[]{22045,22047,22048}); //Ragna Orc Shaman
+            //MINIONS.put(22032,new Integer[]{22036}); //Ragna Orc Warrior - summons shaman but not 22030 ><
+            //MINIONS.put(22038,new Integer[]{22037}); //Ragna Orc Hero
             MINIONS.put(21524,new Integer[]{21525}); //Blade of Splendor
             MINIONS.put(21531,new Integer[]{21658}); //Punishment of Splendor
             MINIONS.put(21539,new Integer[]{21540}); //Wailing of Splendor
@@ -55,7 +55,7 @@ public class SummonMinions extends L2AttackableAIScript
 		super(questId, name, descr);
 		int[] temp =
 		{
-			20767, 22030, 22032, 22038, 21524, 21531, 21539, 22257, 22258, 22259, 22260, 22261, 22262, 22263, 22264, 22265, 22266
+			20767,  21524, 21531, 21539, 22257, 22258, 22259, 22260, 22261, 22262, 22263, 22264, 22265, 22266
 		};
 		this.registerMobs(temp);
 	}

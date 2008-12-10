@@ -84,6 +84,20 @@ set config_version=1
 if NOT %upgrade_mode% == 2 (
 set fresh_setup=1
 set mysqlBinPath=%ProgramFiles%\MySQL\MySQL Server 5.0\bin
+
+:_MySQL51
+if not exist "%ProgramFiles%\MySQL\MySQL Server 5.1\bin\mysql.exe" goto _MySQL60
+set mysqlBinPath=%ProgramFiles%\MySQL\MySQL Server 5.1\bin
+
+:_MySQL60
+if not exist "%ProgramFiles%\MySQL\MySQL Server 6.0\bin\mysql.exe" goto _AppServ
+set mysqlBinPath=%ProgramFiles%\MySQL\MySQL Server 6.0\bin
+
+:_AppServ
+if not exist "%SystemDrive%\AppServ\MySQL\bin\mysql.exe" goto _other
+set mysqlBinPath=%SystemDrive%\AppServ\MySQL\bin
+
+:_other
 set lsuser=root
 set lspass=
 set lsdb=l2jdb
@@ -107,7 +121,7 @@ if "%mysqlBinPath%" == "" (
 set mysqlBinPath=use path
 echo 無法自動偵測位置
 ) else (
-echo 可以嘗試此設定是否行的通
+echo 可以嘗試此設定是否可行
 echo.
 echo %mysqlPath%
 )
@@ -116,7 +130,6 @@ echo.
 path|find "MySQL">NUL
 if %errorlevel% == 0 (
 echo 上面是找到的 MySQL 位置，此位置將會被設為基本設定，如果想換位置請修改...
-echo 如果顯示為「Not Found」，表示位置錯誤，請在下面輸入正確的位置...
 set mysqlBinPath=use path
 ) else (
 echo 無法找到 mysql 正確位置，請輸入 mysql.exe 的正確位置...
@@ -775,7 +788,7 @@ pause
 goto end
 
 :binaryfind
-if EXIST "%mysqlBinPath%" (echo Found) else (echo Not Found)
+if EXIST "%mysqlBinPath%" (echo 找到的 MySQL) else (echo 沒有找到 MySQL，請在下面輸入正確的位置...)
 goto :eof
 
 :horrible_end

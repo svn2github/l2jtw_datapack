@@ -390,9 +390,9 @@ UPDATE `armor` SET `skill` = '3425-1;3267-1;5537-1;' WHERE `item_id` in (10606);
 
 
 /************ 增加淡紫鬃馬(參考L2J論壇) ************/
-Delete From npc Where `id` ='14001';
+Delete From npc Where `id` ='13130';
 INSERT INTO `npc` VALUES
-(14001, 14001, "Reanimated Man", 0, "", 0, "Monster.skeleton", 11, 25, 46, "male", "L2Pet", 40, 2914, 816, 8.69, 2.14, 40, 43, 30, 21, 20, 25, 0, 0, 482, 245, 202, 230, 278, 0, 333, 0, 0, 0, 66, 154, "NULL", 0, 1, 0, "LAST_HIT", 0, 0, 0, "fighter", "false");
+(13130, 13130, "Light Purple Maned Horse", 0, "", 0, "Monster.horse", 8, 32.8, 70, "male", "L2Npc", 40, 2444, 2444, 0, 0, 10, 10, 10, 10, 10, 10, 0, 0, 500, 500, 500, 500, 278, 0, 333, 0, 0, NULL, 60, 60, "", 0, 0, 0, "LAST_HIT", 0, 0, 0, "balanced", "false");
 
 
 /************ 增加土著全套變身技能 ************/
