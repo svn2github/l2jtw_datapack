@@ -6,7 +6,6 @@ from net.sf.l2j.gameserver.model.quest import State
 from net.sf.l2j.gameserver.model.quest import QuestState
 from net.sf.l2j.gameserver.model.quest.jython import QuestJython as JQuest
 qn = "1104_NewbieTravelToken"
-TOKEN = 8542
 
 DATA={
 30600:[ 12160,  16554,-4583],#DE
@@ -28,13 +27,8 @@ class Quest (JQuest) :
       if dest in DATA.keys():
          x,y,z=DATA[dest]
          if x and y and z:
-            if st.getQuestItemsCount(TOKEN):
-              st.takeItems(TOKEN,1)
-              st.getPlayer().teleToLocation(x,y,z)
-            else:
-              st.exitQuest(1)
-              return "<html><body>所需數量錯誤。</body></html>"
-   st.exitQuest(1)
+            st.getPlayer().teleToLocation(x,y,z)
+            st.exitQuest(1)
    return
 
  def onTalk (Self,npc,player):
