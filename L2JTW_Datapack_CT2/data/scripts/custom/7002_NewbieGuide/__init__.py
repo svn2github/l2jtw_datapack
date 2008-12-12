@@ -30,80 +30,80 @@ class Quest (JQuest) :
 
     if npcId == 30598 : # 人類
        if player.getRace().ordinal() == 0 :
-          if Level < 6 :
+          if Level < 20 :
              if ClassId in FIGHTER :
                 htmltext = str(npcId)+"-f.htm"
              elif ClassId in MAGE :
                 htmltext = str(npcId)+"-m.htm"
              else:
                 htmltext = "LVUP.htm"
-          elif Level > 20 :
+          elif Level > 19 :
              htmltext = "LVUP.htm"
        else:
           htmltext = str(npcId)+"-00.htm"
 
     elif npcId == 30599 : # 精靈
        if player.getRace().ordinal() == 1 :
-          if Level < 6 :
+          if Level < 20 :
              if ClassId in FIGHTER :
                 htmltext = str(npcId)+"-f.htm"
              elif ClassId in MAGE :
                 htmltext = str(npcId)+"-m.htm"
              else:
                 htmltext = "LVUP.htm"
-          elif Level > 20 :
+          elif Level > 19 :
              htmltext = "LVUP.htm"
        else:
           htmltext = str(npcId)+"-00.htm"
 
     elif npcId == 30600 : # 黑暗精靈
        if player.getRace().ordinal() == 2 :
-          if Level < 6 :
+          if Level < 20 :
              if ClassId in FIGHTER :
                 htmltext = str(npcId)+"-f.htm"
              elif ClassId in MAGE :
                 htmltext = str(npcId)+"-m.htm"
              else:
                 htmltext = "LVUP.htm"
-          elif Level > 20 :
+          elif Level > 19 :
              htmltext = "LVUP.htm"
        else:
           htmltext = str(npcId)+"-00.htm"
 
     elif npcId == 30601 : # 矮人
        if player.getRace().ordinal() == 4 :
-          if Level < 6 :
+          if Level < 20 :
              if ClassId in FIGHTER :
                 htmltext = str(npcId)+"-f.htm"
              else:
                 htmltext = "LVUP.htm"
-          elif Level > 20 :
+          elif Level > 19 :
              htmltext = "LVUP.htm"
        else:
           htmltext = str(npcId)+"-00.htm"
 
     elif npcId == 30602 : # 半獸人
        if player.getRace().ordinal() == 3 :
-          if Level < 6 :
+          if Level < 20 :
              if ClassId in FIGHTER :
                 htmltext = str(npcId)+"-f.htm"
              elif ClassId in MAGE :
                 htmltext = str(npcId)+"-m.htm"
              else:
                 htmltext = "LVUP.htm"
-          elif Level > 20 :
+          elif Level > 19 :
              htmltext = "LVUP.htm"
        else:
           htmltext = str(npcId)+"-00.htm"
 
     elif npcId == 32135 : # 闇天使
        if player.getRace().ordinal() == 5 :
-          if Level < 6 :
+          if Level < 20 :
              if ClassId in FIGHTER :
                 htmltext = str(npcId)+"-f.htm"
              else:
                 htmltext = "LVUP.htm"
-          elif Level > 20 :
+          elif Level > 19 :
              htmltext = "LVUP.htm"
        else:
           htmltext = str(npcId)+"-00.htm"
