@@ -62,7 +62,7 @@ echo (4) 查看存取的設定值
 
 echo (5) 退出
 echo.
-set /P upgrade_mode="輸入數字，之後請按 Enter（基本設定為「%upgrade_mode%」）: "
+set /P upgrade_mode="輸入數字，之後請按 Enter（預設值為「%upgrade_mode%」）: "
 if %upgrade_mode%==1 goto ls_section
 if %upgrade_mode%==2 goto configure
 if %upgrade_mode%==3 goto configure
@@ -121,7 +121,7 @@ if "%mysqlBinPath%" == "" (
 set mysqlBinPath=use path
 echo 無法自動偵測位置
 ) else (
-echo 可以嘗試此設定是否可行
+echo 請嘗試此設定值是否可行
 echo.
 echo %mysqlPath%
 )
@@ -129,7 +129,7 @@ if not "%mysqlBinPath%" == "use path" call :binaryfind
 echo.
 path|find "MySQL">NUL
 if %errorlevel% == 0 (
-echo 上面是找到的 MySQL 位置，此位置將會被設為基本設定，如果想換位置請修改...
+echo 上面是找到的 MySQL 位置，此位置將會被設為預設值，如果想換位置請修改...
 set mysqlBinPath=use path
 ) else (
 echo 無法找到 mysql 正確位置，請輸入 mysql.exe 的正確位置...
@@ -145,10 +145,12 @@ echo 2-登入伺服器設定
 echo --------------------
 echo 此作業將會連線至你所指定的 MySQL 伺服器，並且進行導入作業
 echo.
-set /P lsuser="使用者名稱（基本設定「%lsuser%」）: "
-set /P lspass="使用者密碼（基本設定「%lspass%」）: "
-set /P lsdb="資料庫（基本設定「%lsdb%」）: "
-set /P lshost="位置（基本設定「%lshost%」）: "
+set /P lsuser="使用者名稱（預設值「%lsuser%」）: "
+:_lspass
+set /P lspass="使用者密碼（預設值「%lspass%」）: "
+if "%lspass%"=="" goto _lspass
+set /P lsdb="資料庫（預設值「%lsdb%」）: "
+set /P lshost="位置（預設值「%lshost%」）: "
 if NOT "%lsuser%"=="%gsuser%" set gsuser=%lsuser%
 if NOT "%lspass%"=="%gspass%" set gspass=%lspass%
 if NOT "%lsdb%"=="%gsdb%" set gsdb=%lsdb%
@@ -156,19 +158,19 @@ if NOT "%lshost%"=="%gshost%" set gshost=%lshost%
 echo.
 echo 3-遊戲伺服器設定
 echo --------------------
-set /P gsuser="使用者名稱（基本設定「%gsuser%」）: "
-set /P gspass="使用者密碼（基本設定「%gspass%」）: "
-set /P gsdb="資料庫（基本設定「%gsdb%」）: "
-set /P gshost="位置（基本設定「%gshost%」）: "
+set /P gsuser="使用者名稱（預設值「%gsuser%」）: "
+set /P gspass="使用者密碼（預設值「%gspass%」）: "
+set /P gsdb="資料庫（預設值「%gsdb%」）: "
+set /P gshost="位置（預設值「%gshost%」）: "
 echo.
 echo 4-其他設定
 echo --------------------
-set /P cmode="顏色模式 (c)為顏色 或 (n)為無顏色（基本設定「%cmode%」）: "
-set /P backup="備份位置（基本設定「%backup%」）: "
-set /P logdir="Logs訊息位置（基本設定「%logdir%」）: "
+set /P cmode="顏色模式 (c)為顏色 或 (n)為無顏色（預設值「%cmode%」）: "
+set /P backup="備份位置（預設值「%backup%」）: "
+set /P logdir="Logs訊息位置（預設值「%logdir%」）: "
 :safe1
 set safemode=y
-set /P safemode="Debug 模式（y/n， 基本設定為「%safemode%」）: "
+set /P safemode="Debug 模式（y/n， 預設值「%safemode%」）: "
 if /i %safemode%==y (set safe_mode=1&goto safe2)
 if /i %safemode%==n (set safe_mode=0&goto safe2)
 goto safe1
@@ -814,7 +816,7 @@ echo   請下載並且安裝此程式：
 echo   http://subversion.tigris.org/servlets/ProjectDocumentList?folderID=91
 echo.
 )
-set dpvf="..\config\l2jdp-version.properties" 
+set dpvf="..\gameserver\config\l2jdp-version.properties"
 echo Datapack 版本：
 if NOT EXIST %dpvf% (
 echo   %dpvf% 檔案無法找到！
