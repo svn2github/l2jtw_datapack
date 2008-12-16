@@ -1,6 +1,6 @@
 /************ Made in Taiwan ************/
 
-/***** 貳幕繽炫風 11-11 *****/ 
+/***** 貳幕繽炫風 12-13 *****/ 
 /***** npcname-tw *****/ 
 UPDATE `npc` SET `name`='葛林' WHERE `id`='20001';
 UPDATE `npc` SET `name`='兔子' WHERE `id`='20002';
@@ -4506,7 +4506,7 @@ UPDATE `npc` SET `name`='阿魯迪斯', `title`='警衛' WHERE `id`='30874';
 UPDATE `npc` SET `name`='凱頓', `title`='警衛' WHERE `id`='30875';
 UPDATE `npc` SET `name`='伊斯坦', `title`='警衛' WHERE `id`='30876';
 UPDATE `npc` SET `name`='葛雷森', `title`='警衛' WHERE `id`='30877';
-UPDATE `npc` SET `name`='安卓利納', `title`='守門人' WHERE `id`='30878';
+UPDATE `npc` SET `name`='安吉爾莉娜', `title`='守門人' WHERE `id`='30878';
 UPDATE `npc` SET `name`='帕魯敦', `title`='碼頭管理員' WHERE `id`='30879';
 UPDATE `npc` SET `name`='維克特 馮 德伊克', `title`='國境守備隊隊長' WHERE `id`='30880';
 UPDATE `npc` SET `name`='森德斯', `title`='國境守備隊書記官' WHERE `id`='30881';
@@ -8627,6 +8627,15 @@ UPDATE `npc` SET `name`='媽祖壺精' WHERE `id` ='1501';
 UPDATE `npc` SET `name`='金面壺精' WHERE `id` ='1502';
 UPDATE `npc` SET `name`='黑面壺精' WHERE `id` ='1503';
 UPDATE `npc` SET `name`='普萊皮塔壺精' WHERE `id` ='1504';
+UPDATE `npc` SET `name`='小貓熊壺精' WHERE `id` ='1505';
+UPDATE `npc` SET `name`='竹子貓熊壺精' WHERE `id` ='1506';
+UPDATE `npc` SET `name`='性感貓熊壺精' WHERE `id` ='1507';
+UPDATE `npc` SET `name`='不良火雞' WHERE `id` ='1';
+UPDATE `npc` SET `name`='' WHERE `id` ='2';
+UPDATE `npc` SET `name`='見習聖誕老人' WHERE `id` ='3';
+UPDATE `npc` SET `name`='聖誕老人', `title`='Merry Xmas ~' WHERE `id`='4';
+UPDATE `npc` SET `name`='聖誕老人', `title`='Merry Xmas ~' WHERE `id`='5';
+UPDATE `npc` SET `name`='聖誕雪橇', `title`='Merry Xmas ~' WHERE `id`='6';
 #=================================================================
 UPDATE `npc` SET `name`='安杜露美達', `title`='結婚管理員' WHERE `id`='50007';
 UPDATE `npc` SET `name`='艾麗絲 蒂 凱特琳娜', `title`='TVT活動管理員' WHERE `id`='70010';

@@ -1,6 +1,6 @@
 /************ Made in Taiwan ************/
 
-/***** 貳幕繽炫風 11-11 *****/
+/***** 貳幕繽炫風 12-16 *****/
 /***** armor *****/
 /***** armor.sql *****/
 /***** ↓L2J修正後可移除資料↓ *****/
@@ -2156,6 +2156,26 @@ UPDATE `armor` SET `bodypart` = 0, `crystallizable` = 0, `armor_type` = 0, `weig
 UPDATE `armor` SET `bodypart` = 0, `crystallizable` = 0, `armor_type` = 0, `weight` = 30, `crystal_type` = 0, `avoid_modify` = 0, `duration` = -1, `p_def` = 0, `m_def` = 0, `mp_bonus` = 0 WHERE `item_id` = 20030; -- 淡紫鬃馬騎乘手鐲	限時30日
 UPDATE `armor` SET `bodypart` = 19, `crystallizable` = 0, `armor_type` = 0, `weight` = 10, `crystal_type` = 0, `avoid_modify` = 0, `duration` = -1, `p_def` = 0, `m_def` = 0, `mp_bonus` = 0 WHERE `item_id` = 20031; -- 戰鬥貓帽
 UPDATE `armor` SET `bodypart` = 19, `crystallizable` = 0, `armor_type` = 0, `weight` = 10, `crystal_type` = 0, `avoid_modify` = 0, `duration` = -1, `p_def` = 0, `m_def` = 0, `mp_bonus` = 0 WHERE `item_id` = 20032; -- 骷髏帽
+UPDATE `armor` SET `bodypart` = 0, `crystallizable` = 0, `armor_type` = 0, `weight` = 150, `crystal_type` = 0, `avoid_modify` = 0, `duration` = -1, `p_def` = 0, `m_def` = 0, `mp_bonus` = 0 WHERE `item_id` = 20063; -- 	壺精封印手鐲-小貓熊	
+UPDATE `armor` SET `bodypart` = 0, `crystallizable` = 0, `armor_type` = 0, `weight` = 150, `crystal_type` = 0, `avoid_modify` = 0, `duration` = -1, `p_def` = 0, `m_def` = 0, `mp_bonus` = 0 WHERE `item_id` = 20064; -- 	壺精封印手鐲-竹子貓熊	
+UPDATE `armor` SET `bodypart` = 0, `crystallizable` = 0, `armor_type` = 0, `weight` = 150, `crystal_type` = 0, `avoid_modify` = 0, `duration` = -1, `p_def` = 0, `m_def` = 0, `mp_bonus` = 0 WHERE `item_id` = 20065; -- 	壺精封印手鐲-性感貓熊	
+UPDATE `armor` SET `bodypart` = 0, `crystallizable` = 0, `armor_type` = 0, `weight` = 150, `crystal_type` = 0, `avoid_modify` = 0, `duration` = -1, `p_def` = 0, `m_def` = 0, `mp_bonus` = 0 WHERE `item_id` = 20066; -- 	壺精封印手鐲-小貓熊	大頭-限時15日
+UPDATE `armor` SET `bodypart` = 0, `crystallizable` = 0, `armor_type` = 0, `weight` = 150, `crystal_type` = 0, `avoid_modify` = 0, `duration` = -1, `p_def` = 0, `m_def` = 0, `mp_bonus` = 0 WHERE `item_id` = 20067; -- 	壺精封印手鐲-竹子貓熊	復活-限時15日
+UPDATE `armor` SET `bodypart` = 0, `crystallizable` = 0, `armor_type` = 0, `weight` = 150, `crystal_type` = 0, `avoid_modify` = 0, `duration` = -1, `p_def` = 0, `m_def` = 0, `mp_bonus` = 0 WHERE `item_id` = 20068; -- 	壺精封印手鐲-性感貓熊	返回-限時15日
+UPDATE `armor` SET `bodypart` = 19, `crystallizable` = 0, `armor_type` = 0, `weight` = 10, `crystal_type` = 0, `avoid_modify` = 0, `duration` = -1, `p_def` = 0, `m_def` = 0, `mp_bonus` = 0 WHERE `item_id` = 20083; -- 	爆炸頭	活力-限時3小時
+UPDATE `armor` SET `bodypart` = 19, `crystallizable` = 0, `armor_type` = 0, `weight` = 10, `crystal_type` = 0, `avoid_modify` = 0, `duration` = -1, `p_def` = 0, `m_def` = 0, `mp_bonus` = 0 WHERE `item_id` = 20084; -- 	爆炸頭	活力-限時3日
+UPDATE `armor` SET `bodypart` = 19, `crystallizable` = 0, `armor_type` = 0, `weight` = 10, `crystal_type` = 0, `avoid_modify` = 0, `duration` = -1, `p_def` = 0, `m_def` = 0, `mp_bonus` = 0 WHERE `item_id` = 20085; -- 	爆炸頭	活力-限時30日
+UPDATE `armor` SET `bodypart` = 17, `crystallizable` = 0, `armor_type` = 0, `weight` = 10, `crystal_type` = 0, `avoid_modify` = 0, `duration` = -1, `p_def` = 0, `m_def` = 0, `mp_bonus` = 0 WHERE `item_id` = 20086; -- 	粗框眼鏡	活力-限時3小時
+UPDATE `armor` SET `bodypart` = 17, `crystallizable` = 0, `armor_type` = 0, `weight` = 10, `crystal_type` = 0, `avoid_modify` = 0, `duration` = -1, `p_def` = 0, `m_def` = 0, `mp_bonus` = 0 WHERE `item_id` = 20087; -- 	粗框眼鏡	活力-限時3日
+UPDATE `armor` SET `bodypart` = 17, `crystallizable` = 0, `armor_type` = 0, `weight` = 10, `crystal_type` = 0, `avoid_modify` = 0, `duration` = -1, `p_def` = 0, `m_def` = 0, `mp_bonus` = 0 WHERE `item_id` = 20088; -- 	粗框眼鏡	活力-限時30日
+UPDATE `armor` SET `bodypart` = 19, `crystallizable` = 0, `armor_type` = 0, `weight` = 10, `crystal_type` = 0, `avoid_modify` = 0, `duration` = -1, `p_def` = 0, `m_def` = 0, `mp_bonus` = 0 WHERE `item_id` = 20089; -- 	刺客斗笠	活力-限時3小時
+UPDATE `armor` SET `bodypart` = 19, `crystallizable` = 0, `armor_type` = 0, `weight` = 10, `crystal_type` = 0, `avoid_modify` = 0, `duration` = -1, `p_def` = 0, `m_def` = 0, `mp_bonus` = 0 WHERE `item_id` = 20090; -- 	刺客斗笠	活力-限時3日
+UPDATE `armor` SET `bodypart` = 19, `crystallizable` = 0, `armor_type` = 0, `weight` = 10, `crystal_type` = 0, `avoid_modify` = 0, `duration` = -1, `p_def` = 0, `m_def` = 0, `mp_bonus` = 0 WHERE `item_id` = 20091; -- 	刺客斗笠	活力-限時30日
+UPDATE `armor` SET `bodypart` = 0, `crystallizable` = 0, `armor_type` = 0, `weight` = 150, `crystal_type` = 0, `avoid_modify` = 0, `duration` = -1, `p_def` = 0, `m_def` = 0, `mp_bonus` = 0 WHERE `item_id` = 20094; -- 	壺精封印手鐲-魯道夫	活力-限時30日
+UPDATE `armor` SET `bodypart` = 19, `crystallizable` = 0, `armor_type` = 0, `weight` = 10, `crystal_type` = 0, `avoid_modify` = 0, `duration` = -1, `p_def` = 0, `m_def` = 0, `mp_bonus` = 0 WHERE `item_id` = 20095; -- 	聖誕鹿角帽	
+UPDATE `armor` SET `bodypart` = 16, `crystallizable` = 0, `armor_type` = 3, `weight` = 1000, `crystal_type` = 0, `avoid_modify` = 0, `duration` = 60, `p_def` = 0, `m_def` = 0, `mp_bonus` = 0 WHERE `item_id` = 20098; -- 	禮服-活動	1小時幻象
+UPDATE `armor` SET `bodypart` = 16, `crystallizable` = 0, `armor_type` = 3, `weight` = 1000, `crystal_type` = 0, `avoid_modify` = 0, `duration` = -1, `p_def` = 0, `m_def` = 0, `mp_bonus` = 0 WHERE `item_id` = 20099; -- 	禮服-活動	限時7日
+UPDATE `armor` SET `bodypart` = 19, `crystallizable` = 0, `armor_type` = 0, `weight` = 10, `crystal_type` = 0, `avoid_modify` = 0, `duration` = -1, `p_def` = 0, `m_def` = 0, `mp_bonus` = 0 WHERE `item_id` = 20100; -- 	剪刀-石頭-布聖誕帽	限時24小時
 
 /***** 防具-錯誤資料修正 *****/
 /***** ↓NC修正後可移除-比對資料*勿刪↓ *****/
@@ -2166,7 +2186,7 @@ UPDATE `armor` SET `bodypart` = 19, `crystallizable` = 0, `armor_type` = 0, `wei
 
 /***** ↓NC修正後可移除資料↓ *****/
 -- NC設定`armor_type` = 'magic'，修正使用L2J`item_type`設定 --
-UPDATE `armor` SET `armor_type` = 'none'	WHERE `item_id` IN (6408); -- 禮服
+UPDATE `armor` SET `armor_type` = 'none'	WHERE `item_id` IN (6408,20098,20099); -- 禮服
 
 -- NC設定`crystallizable` = 'true'錯誤，修正 = 'false' --
 UPDATE `armor` SET `crystallizable` = 'false'	WHERE `item_id` IN (9826); -- 幻象武器-盟誓禮鞋	輕裝用
@@ -2187,8 +2207,8 @@ UPDATE `armor` SET `bodypart` = 'neck'		  WHERE `bodypart` = '3';	-- 項鍊
 UPDATE `armor` SET `bodypart` = 'rfinger,lfinger' WHERE `bodypart` = '4';	-- 戒指
 UPDATE `armor` SET `bodypart` = 'head'		  WHERE `bodypart` = '6';	-- 頭盔
 UPDATE `armor` SET `bodypart` = 'gloves'	  WHERE `bodypart` = '9'; 	-- 手套
-UPDATE `armor` SET `bodypart` = 'chest'		  WHERE `bodypart` = '10';	-- 上衣
-UPDATE `armor` SET `bodypart` = 'legs'		  WHERE `bodypart` = '11';	-- 褲子
+UPDATE `armor` SET `bodypart` = 'chest'		  WHERE `bodypart` = '10';	-- 上半身防具
+UPDATE `armor` SET `bodypart` = 'legs'		  WHERE `bodypart` = '11';	-- 下半身防具
 UPDATE `armor` SET `bodypart` = 'feet'		  WHERE `bodypart` = '12';	-- 靴子
 UPDATE `armor` SET `bodypart` = 'underwear'	  WHERE `bodypart` = '13';	-- 斗篷
 UPDATE `armor` SET `bodypart` = 'fullarmor'	  WHERE `bodypart` = '15';	-- 連身防具
@@ -2200,7 +2220,7 @@ UPDATE `armor` SET `bodypart` = 'hairall'	  WHERE `bodypart` = '19';	-- 雙格頭箍
 
 /***** 著裝部位[特殊系列] *****/
 UPDATE `armor` SET `bodypart` = 'underwear' 	WHERE `item_id` IN (52,53,54,55,56,485,486,487,488,489,490,491,492,493,494,495,496,614,615,616,617,618,619,620,621,622,623,624,675,676,677,678,679,680,681,682,683,684,685,2410,2490,2491,2492,9577,9578,9579,9580,9581,9582,9583,9584,9585,9586,9587,9588,10207,10208,10491,10492,10493,10494,10495,10496,10497,10498,10499,10500,10501,10502,10503,10504,10505,10506,10507,10508,10509,10510,10511,10512,10513,10514,11436,12040,12067,12117,12140,12174,12191,12219,12281,12290,13296,13389,13390,13391,13392); -- 襯衫
-UPDATE `armor` SET `bodypart` = 'lbracelet' 	WHERE `item_id` IN (9605,9606,9607,9608,9609,9610,9611,9612,9613,9614,9615,9909,10018,10139,10273,10316,10317,10318,10319,10320,10322,10323,10324,10325,10326,10606,10659,10660,12779,12780,13022,13023,13024,13025,13026,13254,13308,13309,13340,20006,20007,20008,20009,20010,20011,20012,20013,20014,20015,20029,20030); -- 壺精手鐲
+UPDATE `armor` SET `bodypart` = 'lbracelet' 	WHERE `item_id` IN (9605,9606,9607,9608,9609,9610,9611,9612,9613,9614,9615,9909,10018,10139,10273,10316,10317,10318,10319,10320,10322,10323,10324,10325,10326,10606,10659,10660,12779,12780,13022,13023,13024,13025,13026,13254,13308,13309,13340,20006,20007,20008,20009,20010,20011,20012,20013,20014,20015,20029,20030,20063,20064,20065,20066,20067,20068,20094); -- 壺精手鐲
 UPDATE `armor` SET `bodypart` = 'rbracelet' 	WHERE `item_id` IN (9589,9590,9591,9592,10209,10210,13295); -- 護符手鐲
 UPDATE `armor` SET `bodypart` = 'talisman' 	WHERE `item_id` IN (9913,9914,9915,9916,9917,9918,9919,9920,9921,9922,9923,9924,9925,9926,9927,9928,9929,9930,9931,9932,9933,9934,9935,9936,9937,9938,9939,9940,9941,9942,9943,9944,9945,9946,9947,9948,9949,9950,9951,9952,9953,9954,9955,9956,9957,9958,9959,9960,9961,9962,9963,9964,9965,9966,10141,10142,10158,10416,10417,10418,10419,10420,10421,10422,10423,10424,10518,10519,10533,10534,10535,10536,10537,10538,10539,10540,10541,10542,10543,12815,12816,12817,12818,12819); -- 護身符
 
@@ -2212,6 +2232,16 @@ UPDATE `armor` SET `bodypart` = 'greatwolf',	`armor_type` = 'pet' WHERE `item_id
 UPDATE `armor` SET `bodypart` = 'hatchling',	`armor_type` = 'pet' WHERE `item_id` IN (3912,3913,3914,3915,3916,3917,3918,4234,4235,5182,5183,5184,5185,5186); -- 幼龍專用
 UPDATE `armor` SET `bodypart` = 'strider',	`armor_type` = 'pet' WHERE `item_id` IN (4236,5170,5171,5172,5173,5174,5175); -- 座龍專用
 UPDATE `armor` SET `bodypart` = 'chest',	`armor_type` = 'pet' WHERE `item_id` IN (13050); -- 底格里斯專用防具
+
+/***** 使用時間 *****/
+UPDATE `armor` SET `duration` = '60' 		WHERE `item_id` IN (20098); -- 1小時幻象
+UPDATE `armor` SET `duration` = '180' 		WHERE `item_id` IN (20083,20086,20089); -- 限時3小時
+UPDATE `armor` SET `duration` = '600' 		WHERE `item_id` IN (13260); -- 限時10小時
+UPDATE `armor` SET `duration` = '1440' 		WHERE `item_id` IN (20100); -- 限時24小時
+UPDATE `armor` SET `duration` = '4320' 		WHERE `item_id` IN (20084,20087,20090); -- 限時3日
+UPDATE `armor` SET `duration` = '10080' 	WHERE `item_id` IN (13022,13239,13240,13241,13242,13243,13244,13245,13246,13247,13254,13308,13325,13326,13327,13328,13329,13330,13331,13332,13333,13340,20099); -- 限時7日
+UPDATE `armor` SET `duration` = '21600' 	WHERE `item_id` IN (20066,20067,20068); -- 限時15日
+UPDATE `armor` SET `duration` = '43200' 	WHERE `item_id` IN (13023,13024,13025,13026,13309,13310,13311,13312,13313,13314,13315,13316,13317,13318,20009,20010,20011,20013,20014,20015,20030,20085,20088,20091,20094); -- 限時30日
 
 /***** 可否結晶化 *****/
 UPDATE `armor` SET `crystallizable` = 'false'	WHERE `crystallizable` = '0'; -- 否

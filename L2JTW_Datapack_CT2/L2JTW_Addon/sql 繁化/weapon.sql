@@ -1,6 +1,6 @@
 /************ Made in Taiwan ************/
 
-/***** 貳幕繽炫風 11-11 *****/ 
+/***** 貳幕繽炫風 12-16 *****/ 
 /***** itemname-tw *****/ 
 UPDATE `weapon` SET `name` ='短劍' WHERE item_id ='1';
 UPDATE `weapon` SET `name` ='長劍' WHERE item_id ='2';
@@ -2940,5 +2940,75 @@ UPDATE `weapon` SET `name` ='剪刀魔杖-活動用	限時7日' WHERE item_id ='
 UPDATE `weapon` SET `name` ='石頭魔杖-活動用	限時7日' WHERE item_id ='13337';
 UPDATE `weapon` SET `name` ='布魔杖-活動用	限時7日' WHERE item_id ='13338';
 UPDATE `weapon` SET `name` ='南瓜變身魔杖-活動用	限時7日' WHERE item_id ='13339';
+UPDATE `weapon` SET `name` ='革命劍-活動	限時4小時' WHERE item_id ='20109';
+UPDATE `weapon` SET `name` ='下巨人之劍-活動	限時4小時' WHERE item_id ='20110';
+UPDATE `weapon` SET `name` ='突刺刀-活動	限時4小時' WHERE item_id ='20111';
+UPDATE `weapon` SET `name` ='塔巴曲刃斧-活動	限時4小時' WHERE item_id ='20112';
+UPDATE `weapon` SET `name` ='下巨人之鎚-活動	限時4小時' WHERE item_id ='20113';
+UPDATE `weapon` SET `name` ='祭司釘鎚-活動	限時4小時' WHERE item_id ='20114';
+UPDATE `weapon` SET `name` ='山羊頭之杖-活動	限時4小時' WHERE item_id ='20115';
+UPDATE `weapon` SET `name` ='拳套刀-活動	限時4小時' WHERE item_id ='20116';
+UPDATE `weapon` SET `name` ='強化長弓-活動	限時4小時' WHERE item_id ='20117';
+UPDATE `weapon` SET `name` ='翼之矛-活動	限時4小時' WHERE item_id ='20118';
+UPDATE `weapon` SET `name` ='工匠之劍*工匠之劍-活動	限時4小時' WHERE item_id ='20119';
+UPDATE `weapon` SET `name` ='銳劍-活動	限時4小時' WHERE item_id ='20120';
+UPDATE `weapon` SET `name` ='格鬥劍-活動	限時4小時' WHERE item_id ='20121';
+UPDATE `weapon` SET `name` ='爆破之臂-活動	限時4小時' WHERE item_id ='20122';
+UPDATE `weapon` SET `name` ='瑟魯基長劍-活動	限時4小時' WHERE item_id ='20123';
+UPDATE `weapon` SET `name` ='狂戰士之刃-活動	限時4小時' WHERE item_id ='20124';
+UPDATE `weapon` SET `name` ='水晶匕首-活動	限時4小時' WHERE item_id ='20125';
+UPDATE `weapon` SET `name` ='夜叉釘鎚-活動	限時4小時' WHERE item_id ='20126';
+UPDATE `weapon` SET `name` ='矮人巨鎚-活動	限時4小時' WHERE item_id ='20127';
+UPDATE `weapon` SET `name` ='月蝕斧-活動	限時4小時' WHERE item_id ='20128';
+UPDATE `weapon` SET `name` ='惡魔魔杖-活動	限時4小時' WHERE item_id ='20129';
+UPDATE `weapon` SET `name` ='巨型帕塔拳刃-活動	限時4小時' WHERE item_id ='20130';
+UPDATE `weapon` SET `name` ='卓越弓-活動	限時4小時' WHERE item_id ='20131';
+UPDATE `weapon` SET `name` ='歐西斯戰斧-活動	限時4小時' WHERE item_id ='20132';
+UPDATE `weapon` SET `name` ='武士刀*武士刀-活動	限時4小時' WHERE item_id ='20133';
+UPDATE `weapon` SET `name` ='上將刺劍-活動	限時4小時' WHERE item_id ='20134';
+UPDATE `weapon` SET `name` ='劍齒虎-活動	限時4小時' WHERE item_id ='20135';
+UPDATE `weapon` SET `name` ='滅形弩-活動	限時4小時' WHERE item_id ='20136';
+UPDATE `weapon` SET `name` ='大馬士革刀-活動	限時4小時' WHERE item_id ='20137';
+UPDATE `weapon` SET `name` ='守護神之劍-活動	限時4小時' WHERE item_id ='20138';
+UPDATE `weapon` SET `name` ='惡魔短劍-活動	限時4小時' WHERE item_id ='20139';
+UPDATE `weapon` SET `name` ='工藝戰斧-活動	限時4小時' WHERE item_id ='20140';
+UPDATE `weapon` SET `name` ='星爆-活動	限時4小時' WHERE item_id ='20141';
+UPDATE `weapon` SET `name` ='卡倚巴奴之骨-活動	限時4小時' WHERE item_id ='20142';
+UPDATE `weapon` SET `name` ='邪靈魔杖-活動	限時4小時' WHERE item_id ='20143';
+UPDATE `weapon` SET `name` ='博利恩拳套-活動	限時4小時' WHERE item_id ='20144';
+UPDATE `weapon` SET `name` ='冒險弓-活動	限時4小時' WHERE item_id ='20145';
+UPDATE `weapon` SET `name` ='長槍-活動	限時4小時' WHERE item_id ='20146';
+UPDATE `weapon` SET `name` ='瑟魯基長劍*瑟魯基長劍-活動	限時4小時' WHERE item_id ='20147';
+UPDATE `weapon` SET `name` ='華麗細劍-活動	限時4小時' WHERE item_id ='20148';
+UPDATE `weapon` SET `name` ='裂解劍-活動	限時4小時' WHERE item_id ='20149';
+UPDATE `weapon` SET `name` ='冥犬之牙-活動	限時4小時' WHERE item_id ='20150';
+UPDATE `weapon` SET `name` ='黑暗軍刀-活動	限時4小時' WHERE item_id ='20151';
+UPDATE `weapon` SET `name` ='斬龍刀-活動	限時4小時' WHERE item_id ='20152';
+UPDATE `weapon` SET `name` ='魂體分離器-活動	限時4小時' WHERE item_id ='20153';
+UPDATE `weapon` SET `name` ='樂園-活動	限時4小時' WHERE item_id ='20154';
+UPDATE `weapon` SET `name` ='末日毀滅者-活動	限時4小時' WHERE item_id ='20155';
+UPDATE `weapon` SET `name` ='火龍之首-活動	限時4小時' WHERE item_id ='20156';
+UPDATE `weapon` SET `name` ='世界樹樹枝-活動	限時4小時' WHERE item_id ='20157';
+UPDATE `weapon` SET `name` ='龍牙-活動	限時4小時' WHERE item_id ='20158';
+UPDATE `weapon` SET `name` ='靈魂弓-活動	限時4小時' WHERE item_id ='20159';
+UPDATE `weapon` SET `name` ='塔魯闊矛-活動	限時4小時' WHERE item_id ='20160';
+UPDATE `weapon` SET `name` ='大馬士革刀*大馬士革刀-活動	限時4小時' WHERE item_id ='20161';
+UPDATE `weapon` SET `name` ='貪婪刺劍-活動	限時4小時' WHERE item_id ='20162';
+UPDATE `weapon` SET `name` ='死神使者-活動	限時4小時' WHERE item_id ='20163';
+UPDATE `weapon` SET `name` ='靈魂弩-活動	限時4小時' WHERE item_id ='20164';
+UPDATE `weapon` SET `name` ='忘卻之刃-活動	限時4小時' WHERE item_id ='20165';
+UPDATE `weapon` SET `name` ='天國審判-活動	限時4小時' WHERE item_id ='20166';
+UPDATE `weapon` SET `name` ='天使殺手-活動	限時4小時' WHERE item_id ='20167';
+UPDATE `weapon` SET `name` ='玄武岩戰鎚-活動	限時4小時' WHERE item_id ='20168';
+UPDATE `weapon` SET `name` ='狩龍之斧-活動	限時4小時' WHERE item_id ='20169';
+UPDATE `weapon` SET `name` ='祕儀權杖-活動	限時4小時' WHERE item_id ='20170';
+UPDATE `weapon` SET `name` ='帝國權杖-活動	限時4小時' WHERE item_id ='20171';
+UPDATE `weapon` SET `name` ='惡魔獵爪-活動	限時4小時' WHERE item_id ='20172';
+UPDATE `weapon` SET `name` ='紅龍之弓-活動	限時4小時' WHERE item_id ='20173';
+UPDATE `weapon` SET `name` ='聖者之矛-活動	限時4小時' WHERE item_id ='20174';
+UPDATE `weapon` SET `name` ='塔魯刀*黑暗軍刀-活動	限時4小時' WHERE item_id ='20175';
+UPDATE `weapon` SET `name` ='烈焚天-活動	限時4小時' WHERE item_id ='20176';
+UPDATE `weapon` SET `name` ='勝利之劍格蘭-活動	限時4小時' WHERE item_id ='20177';
+UPDATE `weapon` SET `name` ='薩倫伽神弩-活動	限時4小時' WHERE item_id ='20178';
 
 /***** Done by vdmyagami！ *****/ 
