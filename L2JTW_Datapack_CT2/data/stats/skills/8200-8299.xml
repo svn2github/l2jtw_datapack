@@ -708,9 +708,10 @@
   </for>
 </skill>
 <skill id="8247" levels="1" name="Mount Light Purple Maned Horse">
-  <set name="target" val="TARGET_NONE"/>
-  <set name="skillType" val="NOTDONE"/>
-  <set name="operateType" val="OP_PASSIVE"/>
+  <!-- Update by rocknow -->
+  <set name="target" val="TARGET_SELF"/>
+  <set name="skillType" val="SUMMON_HORSE"/>
+  <set name="operateType" val="OP_ACTIVE"/>
   <set name="castRange" val="-1"/>
   <for>
   </for>
