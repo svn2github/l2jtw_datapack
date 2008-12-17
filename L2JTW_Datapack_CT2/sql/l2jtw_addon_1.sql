@@ -438,3 +438,13 @@ UPDATE `weapon` SET `skill` = '3418-1;' WHERE `item_id` in (10167);
 /************ 增加/修改/刪除NPC ************/
 Delete From spawnlist Where `npc_templateid` ='32353';
 UPDATE `npc` SET `type` = 'L2Adventurer' WHERE `id` in (32074);
+INSERT IGNORE INTO `spawnlist` VALUES ('810000', '', '1', '32478', '-81926', '243372', '-3730', '0', '0', '38436', '60', '0', '0');
+INSERT IGNORE INTO `spawnlist` VALUES ('810001', '', '1', '32478', '47597', '49924', '-2995', '0', '0', '33231', '60', '0', '0');
+INSERT IGNORE INTO `spawnlist` VALUES ('810002', '', '1', '32478', '13432', '17255', '-4574', '0', '0', '46871', '60', '0', '0');
+INSERT IGNORE INTO `spawnlist` VALUES ('810003', '', '1', '32478', '115020', '-179727', '-879', '0', '0', '0', '60', '0', '0');
+INSERT IGNORE INTO `spawnlist` VALUES ('810004', '', '1', '32478', '-82374', '153659', '-3177', '0', '0', '16383', '60', '0', '0');
+INSERT IGNORE INTO `spawnlist` VALUES ('810005', '', '1', '32478', '-43721', '-113474', '-239', '0', '0', '32767', '60', '0', '0');
+INSERT IGNORE INTO `spawnlist` VALUES ('810006', '', '1', '32478', '-115213', '45057', '502', '0', '0', '32408', '60', '0', '0');
+INSERT IGNORE INTO `spawnlist` VALUES ('820000', '', '1', '32074', '-14334', '121184', '-2988', '0', '0', '15583', '60', '0', '0');
+INSERT IGNORE INTO `spawnlist` VALUES ('820001', '', '1', '35644', '116178', '-181602', '-1365', '0', '0', '0', '60', '0', '0');
+INSERT IGNORE INTO `spawnlist` VALUES ('820002', '', '1', '35645', '-44159', '-112229', '-239', '0', '0', '39768', '60', '0', '0');
