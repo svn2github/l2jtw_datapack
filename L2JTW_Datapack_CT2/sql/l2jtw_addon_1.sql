@@ -372,7 +372,17 @@ INSERT INTO `npc` VALUES
 (16040, 16040, "Red Twilight Strider", 0, "", 0, "Monster.strider", 8, 29, 70, "male", "L2Npc", 40, 2444, 2444, 0, 0, 10, 10, 10, 10, 10, 10, 0, 0, 500, 500, 500, 500, 278, 0, 333, 0, 0, NULL, 60, 60, "", 0, 0, 0, "LAST_HIT", 0, 0, 0, "balanced", "false");
 
 
-/************ 修正要塞/小天使/小惡魔/魯道夫/媽祖/普萊皮塔/愛心壺精/淡紫鬃馬騎乘的手鐲 ************/
+/************ 增加貓熊手鐲 ************/
+Delete From armor Where item_id in (20063,20064,20065,20066,20067,20068);
+INSERT INTO `armor` VALUES ('20063', 'Agathion Seal Bracelet - Baby Panda', 'lbracelet', 'false', 'none', '150', 'wood', 'none', '0', '-1', '0', '0', '0', '0', '0', 'true', 'true', 'true', 'true', '0-0;');
+INSERT INTO `armor` VALUES ('20064', 'Agathion Seal Bracelet - Bamboo Panda', 'lbracelet', 'false', 'none', '150', 'wood', 'none', '0', '-1', '0', '0', '0', '0', '0', 'true', 'true', 'true', 'true', '0-0;');
+INSERT INTO `armor` VALUES ('20065', 'Agathion Seal Bracelet - Sexy Panda', 'lbracelet', 'false', 'none', '150', 'wood', 'none', '0', '-1', '0', '0', '0', '0', '0', 'true', 'true', 'true', 'true', '0-0;');
+INSERT INTO `armor` VALUES ('20066', 'Agathion Seal Bracelet - Baby Panda - Big Head 15-day limited period', 'lbracelet', 'false', 'none', '150', 'wood', 'none', '0', '21600', '0', '0', '0', '0', '0', 'true', 'true', 'true', 'true', '0-0;');
+INSERT INTO `armor` VALUES ('20067', 'Agathion Seal Bracelet - Bamboo Panda - Resurrection 15-day limited period', 'lbracelet', 'false', 'none', '150', 'wood', 'none', '0', '21600', '0', '0', '0', '0', '0', 'true', 'true', 'true', 'true', '0-0;');
+INSERT INTO `armor` VALUES ('20068', 'Agathion Seal Bracelet - Sexy Panda - Escape 15-day limited period', 'lbracelet', 'false', 'none', '150', 'wood', 'none', '0', '21600', '0', '0', '0', '0', '0', 'true', 'true', 'true', 'true', '0-0;');
+
+
+/************ 修正要塞/小天使/小惡魔/魯道夫/媽祖/普萊皮塔/貓熊/愛心壺精/淡紫鬃馬騎乘的手鐲 ************/
 UPDATE `armor` SET `skill` = '3423-1;3267-1;5535-1;' WHERE `item_id` in (10320);
 UPDATE `armor` SET `skill` = '3424-1;3267-1;5536-1;' WHERE `item_id` in (10326);
 UPDATE `armor` SET `skill` = '3423-1;3267-1;5535-1;' WHERE `item_id` in (12779);
@@ -387,6 +397,9 @@ UPDATE `armor` SET `skill` = '3361-1;3267-1;5458-1;' WHERE `item_id` in (9909);
 UPDATE `armor` SET `skill` = '3361-1;3267-1;5458-1;' WHERE `item_id` in (10018);
 UPDATE `armor` SET `skill` = '3269-1;3267-1;5414-1;' WHERE `item_id` in (10139);
 UPDATE `armor` SET `skill` = '3425-1;3267-1;5537-1;' WHERE `item_id` in (10606);
+UPDATE `armor` SET `skill` = '21008-1;3267-1;23010-1' WHERE `item_id` in (20063);
+UPDATE `armor` SET `skill` = '21009-1;3267-1;23011-1' WHERE `item_id` in (20064);
+UPDATE `armor` SET `skill` = '21010-1;3267-1;23012-1' WHERE `item_id` in (20065);
 
 
 /************ 增加淡紫鬃馬(參考L2J論壇) ************/
@@ -425,6 +438,9 @@ UPDATE `armor` SET `skill` = '21002-1;3267-1;23002-1;23006-1;' WHERE `item_id` i
 UPDATE `armor` SET `skill` = '21003-1;3267-1;23003-1;23007-1;' WHERE `item_id` in (20013);
 UPDATE `armor` SET `skill` = '21003-1;3267-1;23003-1;23009-1;' WHERE `item_id` in (20014);
 UPDATE `armor` SET `skill` = '21003-1;3267-1;23003-1;23008-1;' WHERE `item_id` in (20015);
+UPDATE `armor` SET `skill` = '21008-1;3267-1;23010-1;23013-1;' WHERE `item_id` in (20066);
+UPDATE `armor` SET `skill` = '21008-1;3267-1;23011-1;23014-1;' WHERE `item_id` in (20067);
+UPDATE `armor` SET `skill` = '21010-1;3267-1;23012-1;23015-1;' WHERE `item_id` in (20068);
 
 
 /************ 增加道具的變身技能 ************/

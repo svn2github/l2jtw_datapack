@@ -13871,3 +13871,6 @@ UPDATE `weapon` SET `enchant4_skill_id` = '0', `enchant4_skill_lvl` = '0', `skil
 
 
 /***** Done by vdmyagami！ *****/
+
+/***** 修正使用時間限制 *****/
+ALTER TABLE `items` CHANGE `mana_left` `mana_left` decimal(10,0) NOT NULL default -1;
