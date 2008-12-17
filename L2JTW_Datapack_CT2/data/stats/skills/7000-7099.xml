@@ -10,11 +10,9 @@
 </skill>
 <skill id="7001" levels="1" name="Dispel Buff">
   <set name="magicLevel" val="99"/>
-  <set name="power" val="100"/>
   <set name="target" val="TARGET_ONE"/>
-  <set name="skillType" val="CANCEL"/>
+  <set name="skillType" val="CANCEL"/> <!-- Needs core support for CANCEL_ALL -->
   <set name="negateStats" val="BUFF"/>
-  <set name="negatePower" val="100"/>
   <set name="operateType" val="OP_ACTIVE"/>
   <set name="castRange" val="400"/>
   <set name="effectRange" val="900"/>
@@ -25,7 +23,6 @@
   <set name="power" val="100"/>
   <set name="target" val="TARGET_ONE"/>
   <set name="skillType" val="CANCEL_DEBUFF"/>
-  <set name="negatePower" val="100"/>
   <set name="operateType" val="OP_ACTIVE"/>
   <set name="castRange" val="400"/>
   <set name="effectRange" val="900"/>
@@ -33,11 +30,10 @@
 </skill>
 <skill id="7003" levels="1" name="Dispel All">
   <set name="magicLevel" val="99"/>
-  <set name="power" val="100"/>
+  <set name="power" val="100"/> <!-- Base Land Rate -->
   <set name="target" val="TARGET_ONE"/>
   <set name="skillType" val="CANCEL"/>
   <set name="negateStats" val="BUFF DEBUFF"/>
-  <set name="negatePower" val="100"/>
   <set name="operateType" val="OP_ACTIVE"/>
   <set name="castRange" val="400"/>
   <set name="effectRange" val="900"/>
@@ -47,7 +43,7 @@
   <set name="magicLevel" val="60"/>
   <set name="target" val="TARGET_SELF"/>
   <set name="skillType" val="NEGATE"/>
-  <set name="negatePower" val="2"/>
+  <set name="negateLvl" val="2"/>
   <set name="negateStats" val="PARALYZE"/>
   <set name="operateType" val="OP_ACTIVE"/>
   <set name="reuseDelay" val="8000"/>

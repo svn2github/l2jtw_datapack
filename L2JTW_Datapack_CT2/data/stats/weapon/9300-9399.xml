@@ -48,7 +48,11 @@
    <enchant val='0' order='0x0C' stat='mAtk'/>
        <!-- SA: Cheap Shot -->
    <!-- Update by rocknow -->
-   <mul val='0.88' order='0x30' stat='MpConsume'/>
+   <mul val='0.88' order='0x30' stat='MpConsume'>
+      <and>
+         <game skill="false" chance="12"/> 
+      </and> 
+   </mul>
   </for>
 </item>
 <item id='9304' name="Military Fleuret">
@@ -339,7 +343,11 @@
    <enchant val='0' order='0x0C' stat='mAtk'/>
        <!-- SA: Cheap Shot -->
    <!-- Update by rocknow -->
-   <mul val='0.88' order='0x30' stat='MpConsume'/>
+   <mul val='0.88' order='0x30' stat='MpConsume'>
+      <and>
+       	 <game skill="false" chance="12"/> 
+      </and> 
+   </mul>
   </for>
 </item>
 <item id='9328' name="White Lightning">
@@ -636,7 +644,11 @@
    <enchant val='0' order='0x0C' stat='mAtk'/>
        <!-- SA: Cheap Shot -->
    <!-- Update by rocknow -->
-   <mul val='0.88' order='0x30' stat='MpConsume'/>
+   <mul val='0.88' order='0x30' stat='MpConsume'>
+      <and>
+         <game skill="false" chance="12"/> 
+      </and> 
+   </mul>
     <!-- Enhances damage to target during PvP -->
    <mul val='1.05' order='0x30' stat='pvpPhysDmg'/>
    <mul val='1.05' order='0x30' stat='pvpMagicalDmg'/>
@@ -799,7 +811,11 @@
    <enchant val='0' order='0x0C' stat='mAtk'/>
    	<!-- SA: Cheap Shot -->
    <!-- Update by rocknow -->
-   <mul val='0.88' order='0x30' stat='MpConsume'/>
+   <mul val='0.88' order='0x30' stat='MpConsume'>
+      <and>
+         <game skill="false" chance="12"/> 
+      </and> 
+   </mul>
     <!-- Enhances damage to target during PvP -->
    <mul val='1.05' order='0x30' stat='pvpPhysDmg'/>
    <mul val='1.05' order='0x30' stat='pvpMagicalDmg'/>
@@ -963,7 +979,11 @@
    <enchant val='0' order='0x0C' stat='mAtk'/>
        <!-- SA: Cheap Shot -->
    <!-- Update by rocknow -->
-   <mul val='0.88' order='0x30' stat='MpConsume'/>
+   <mul val='0.88' order='0x30' stat='MpConsume'>
+      <and>
+         <game skill="false" chance="12"/> 
+      </and> 
+   </mul>
     <!-- Enhances damage to target during PvP -->
    <mul val='1.05' order='0x30' stat='pvpPhysDmg'/>
    <mul val='1.05' order='0x30' stat='pvpMagicalDmg'/>
@@ -996,8 +1016,8 @@
 </item>
 <item id='9376' name="Dynasty Rapier">
   <for>
-   <set val='302' order='0x08' stat='pAtk'/><!-- Update by rocknow -->
-   <set val='151' order='0x08' stat='mAtk'/><!-- Update by rocknow -->
+   <set val='302' order='0x08' stat='pAtk'/>
+   <set val='151' order='0x08' stat='mAtk'/>
    <set val='10' order='0x08' stat='rCrit'/>
    <add val='-1' order='0x10' stat='accCombat'/><!-- Update by rocknow -->
    <set val='406' order='0x08' stat='pAtkSpd'/>
@@ -1007,8 +1027,8 @@
 </item>
 <item id='9377' name="Dynasty Rapier - Focus">
   <for>
-   <set val='302' order='0x08' stat='pAtk'/><!-- Update by rocknow -->
-   <set val='151' order='0x08' stat='mAtk'/><!-- Update by rocknow -->
+   <set val='302' order='0x08' stat='pAtk'/>
+   <set val='151' order='0x08' stat='mAtk'/>
    <set val='10' order='0x08' stat='rCrit'/>
    <add val='-1' order='0x10' stat='accCombat'/><!-- Update by rocknow -->
    <set val='406' order='0x08' stat='pAtkSpd'/>
@@ -1018,8 +1038,8 @@
 </item>
 <item id='9378' name="Dynasty Rapier - Health">
   <for>
-   <set val='302' order='0x08' stat='pAtk'/><!-- Update by rocknow -->
-   <set val='151' order='0x08' stat='mAtk'/><!-- Update by rocknow -->
+   <set val='302' order='0x08' stat='pAtk'/>
+   <set val='151' order='0x08' stat='mAtk'/>
    <set val='10' order='0x08' stat='rCrit'/>
    <add val='-1' order='0x10' stat='accCombat'/><!-- Update by rocknow -->
    <set val='406' order='0x08' stat='pAtkSpd'/>
@@ -1029,8 +1049,8 @@
 </item>
 <item id='9379' name="Dynasty Rapier - Light">
   <for>
-   <set val='302' order='0x08' stat='pAtk'/><!-- Update by rocknow -->
-   <set val='151' order='0x08' stat='mAtk'/><!-- Update by rocknow -->
+   <set val='302' order='0x08' stat='pAtk'/>
+   <set val='151' order='0x08' stat='mAtk'></set>
    <set val='10' order='0x08' stat='rCrit'/>
    <add val='-1' order='0x10' stat='accCombat'/><!-- Update by rocknow -->
    <set val='406' order='0x08' stat='pAtkSpd'/>
@@ -1040,8 +1060,8 @@
 </item>
 <item id='9380' name="Dynasty Ancient Sword">
   <for>
-   <set val='361' order='0x08' stat='pAtk'/><!-- Update by rocknow -->
-   <set val='151' order='0x08' stat='mAtk'/><!-- Update by rocknow -->
+   <set val='361' order='0x08' stat='pAtk'/>
+   <set val='151' order='0x08' stat='mAtk'/>
    <set val='6' order='0x08' stat='rCrit'/>
    <add val='2' order='0x10' stat='accCombat'/>
    <set val='350' order='0x08' stat='pAtkSpd'/>
@@ -1051,8 +1071,8 @@
 </item>
 <item id='9381' name="Dynasty Ancient Sword - Focus">
   <for>
-   <set val='361' order='0x08' stat='pAtk'/><!-- Update by rocknow -->
-   <set val='151' order='0x08' stat='mAtk'/><!-- Update by rocknow -->
+   <set val='361' order='0x08' stat='pAtk'/>
+   <set val='151' order='0x08' stat='mAtk'/>
    <set val='6' order='0x08' stat='rCrit'/>
    <add val='2' order='0x10' stat='accCombat'/>
    <set val='350' order='0x08' stat='pAtkSpd'/>
@@ -1062,8 +1082,8 @@
 </item>
 <item id='9382' name="Dynasty Ancient Sword - Health">
   <for>
-   <set val='361' order='0x08' stat='pAtk'/><!-- Update by rocknow -->
-   <set val='151' order='0x08' stat='mAtk'/><!-- Update by rocknow -->
+   <set val='361' order='0x08' stat='pAtk'/>
+   <set val='151' order='0x08' stat='mAtk'/>
    <set val='6' order='0x08' stat='rCrit'/>
    <add val='2' order='0x10' stat='accCombat'/>
    <set val='350' order='0x08' stat='pAtkSpd'/>
@@ -1073,8 +1093,8 @@
 </item>
 <item id='9383' name="Dynasty Ancient Sword - Light">
   <for>
-   <set val='361' order='0x08' stat='pAtk'/><!-- Update by rocknow -->
-   <set val='151' order='0x08' stat='mAtk'/><!-- Update by rocknow -->
+   <set val='361' order='0x08' stat='pAtk'/>
+   <set val='151' order='0x08' stat='mAtk'/>
    <set val='6' order='0x08' stat='rCrit'/>
    <add val='2' order='0x10' stat='accCombat'/>
    <set val='350' order='0x08' stat='pAtkSpd'/>
@@ -1084,8 +1104,8 @@
 </item>
 <item id='9384' name="Dynasty Crossbow">
   <for>
-   <set val='401' order='0x08' stat='pAtk'/><!-- Update by rocknow -->
-   <set val='151' order='0x08' stat='mAtk'/><!-- Update by rocknow -->
+   <set val='401' order='0x08' stat='pAtk'/>
+   <set val='151' order='0x08' stat='mAtk'/>
    <set val='10' order='0x08' stat='rCrit'/>
    <add val='-1' order='0x10' stat='accCombat'/><!-- Update by rocknow -->
    <set val='303' order='0x08' stat='pAtkSpd'/>
@@ -1095,16 +1115,19 @@
 </item>
 <item id='9385' name="Dynasty Crossbow - Cheap Shot">
   <for>
-   <set val='401' order='0x08' stat='pAtk'/><!-- Update by rocknow -->
-   <set val='151' order='0x08' stat='mAtk'/><!-- Update by rocknow -->
+   <set val='401' order='0x08' stat='pAtk'/>
+   <set val='151' order='0x08' stat='mAtk'/>
    <set val='10' order='0x08' stat='rCrit'/>
    <add val='-1' order='0x10' stat='accCombat'/><!-- Update by rocknow -->
    <set val='303' order='0x08' stat='pAtkSpd'/>
    <enchant val='0' order='0x0C' stat='pAtk'/>
    <enchant val='0' order='0x0C' stat='mAtk'/>
       	<!-- SA: Cheap Shot -->
-   <!-- Update by rocknow -->
-   <mul val='0.88' order='0x30' stat='MpConsume'/>
+   <mul val='0.88' order='0x30' stat='MpConsume'><!-- Update by rocknow -->
+      <and>
+         <game skill="false" chance="12"/>
+      </and>
+   </mul>
     <!-- Enhances damage to target during PvP -->
    <mul val='1.05' order='0x30' stat='pvpPhysDmg'/>
    <mul val='1.05' order='0x30' stat='pvpMagicalDmg'/>
@@ -1112,8 +1135,8 @@
 </item>
 <item id='9386' name="Dynasty Crossbow - Guidance">
   <for>
-   <set val='401' order='0x08' stat='pAtk'/><!-- Update by rocknow -->
-   <set val='151' order='0x08' stat='mAtk'/><!-- Update by rocknow -->
+   <set val='401' order='0x08' stat='pAtk'/>
+   <set val='151' order='0x08' stat='mAtk'/>
    <set val='10' order='0x08' stat='rCrit'/>
    <add val='-1' order='0x10' stat='accCombat'/><!-- Update by rocknow -->
    <set val='303' order='0x08' stat='pAtkSpd'/>
@@ -1128,8 +1151,8 @@
 </item>
 <item id='9387' name="Dynasty Crossbow - Focus">
   <for>
-   <set val='401' order='0x08' stat='pAtk'/><!-- Update by rocknow -->
-   <set val='151' order='0x08' stat='mAtk'/><!-- Update by rocknow -->
+   <set val='401' order='0x08' stat='pAtk'/>
+   <set val='151' order='0x08' stat='mAtk'/>
    <set val='10' order='0x08' stat='rCrit'/>
    <add val='-1' order='0x10' stat='accCombat'/><!-- Update by rocknow -->
    <set val='303' order='0x08' stat='pAtkSpd'/>

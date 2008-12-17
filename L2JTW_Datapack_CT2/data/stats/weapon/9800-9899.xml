@@ -163,20 +163,25 @@
 
 <item id='9857' name="Dynasty Blade - Focus">
   <for>
-   <set val='405' order='0x08' stat='pAtk'/><!-- Update by rocknow -->
-   <set val='151' order='0x08' stat='mAtk'/><!-- Update by rocknow -->
+   <set val='405' order='0x08' stat='pAtk'/>
+   <set val='151' order='0x08' stat='mAtk'/>
    <set val='8' order='0x08' stat='rCrit'/>
    <add val='0' order='0x10' stat='accCombat'/><!-- Update by rocknow -->
    <set val='325' order='0x08' stat='pAtkSpd'/>
    <enchant val='0' order='0x0C' stat='pAtk'/>
    <enchant val='0' order='0x0C' stat='mAtk'/>
+          <!-- SA: Focus -->
+   <add val='111' order='0x40' stat='rCrit'/>
+       <!-- Enhances damage to target during PvP -->
+   <mul val='1.05' order='0x30' stat='pvpPhysDmg'/>
+   <mul val='1.05' order='0x30' stat='pvpMagicalDmg'/>
   </for>
 </item>
 
 <item id='9858' name="Dynasty Blade - Health">
   <for>
-   <set val='405' order='0x08' stat='pAtk'/><!-- Update by rocknow -->
-   <set val='151' order='0x08' stat='mAtk'/><!-- Update by rocknow -->
+   <set val='405' order='0x08' stat='pAtk'/>
+   <set val='151' order='0x08' stat='mAtk'/>
    <set val='8' order='0x08' stat='rCrit'/>
    <add val='0' order='0x10' stat='accCombat'/><!-- Update by rocknow -->
    <set val='325' order='0x08' stat='pAtkSpd'/>
@@ -187,8 +192,8 @@
 
 <item id='9859' name="Dynasty Blade - Light">
   <for>
-   <set val='405' order='0x08' stat='pAtk'/><!-- Update by rocknow -->
-   <set val='151' order='0x08' stat='mAtk'/><!-- Update by rocknow -->
+   <set val='405' order='0x08' stat='pAtk'/>
+   <set val='151' order='0x08' stat='mAtk'/>
    <set val='8' order='0x08' stat='rCrit'/>
    <add val='0' order='0x10' stat='accCombat'/><!-- Update by rocknow -->
    <set val='325' order='0x08' stat='pAtkSpd'/>
@@ -235,8 +240,8 @@
 
 <item id='9863' name="Dynasty Bow - Cheap Shot">
   <for>
-   <set val='654' order='0x08' stat='pAtk'/><!-- Update by rocknow -->
-   <set val='151' order='0x08' stat='mAtk'/><!-- Update by rocknow -->
+   <set val='654' order='0x08' stat='pAtk'/>
+   <set val='151' order='0x08' stat='mAtk'/>
    <set val='12' order='0x08' stat='rCrit'/>
    <add val='-3' order='0x10' stat='accCombat'/><!-- Update by rocknow -->
    <set val='293' order='0x08' stat='pAtkSpd'/>
@@ -256,8 +261,8 @@
 
 <item id='9864' name="Dynasty Bow - Guidance">
   <for>
-   <set val='654' order='0x08' stat='pAtk'/><!-- Update by rocknow -->
-   <set val='151' order='0x08' stat='mAtk'/><!-- Update by rocknow -->
+   <set val='654' order='0x08' stat='pAtk'/>
+   <set val='151' order='0x08' stat='mAtk'/>
    <set val='12' order='0x08' stat='rCrit'/>
    <add val='-3' order='0x10' stat='accCombat'/><!-- Update by rocknow -->
    <set val='293' order='0x08' stat='pAtkSpd'/>
@@ -273,8 +278,8 @@
 
 <item id='9865' name="Dynasty Bow - Focus">
   <for>
-   <set val='654' order='0x08' stat='pAtk'/><!-- Update by rocknow -->
-   <set val='151' order='0x08' stat='mAtk'/><!-- Update by rocknow -->
+   <set val='654' order='0x08' stat='pAtk'/>
+   <set val='151' order='0x08' stat='mAtk'/>
    <set val='12' order='0x08' stat='rCrit'/>
    <add val='-3' order='0x10' stat='accCombat'/><!-- Update by rocknow -->
    <set val='293' order='0x08' stat='pAtkSpd'/>
@@ -331,8 +336,8 @@
 
 <item id='9869' name="Dynasty Halberd - Anger">
   <for>
-   <set val='333' order='0x08' stat='pAtk'/><!-- Update by rocknow -->
-   <set val='151' order='0x08' stat='mAtk'/><!-- Update by rocknow -->
+   <set val='333' order='0x08' stat='pAtk'/>
+   <set val='151' order='0x08' stat='mAtk'/>
    <set val='8' order='0x08' stat='rCrit'/>
    <add val='-3' order='0x10' stat='accCombat'/><!-- Update by rocknow -->
    <set val='325' order='0x08' stat='pAtkSpd'/>
@@ -350,8 +355,8 @@
 
 <item id='9870' name="Dynasty Halberd - Critical Stun">
   <for>
-   <set val='333' order='0x08' stat='pAtk'/><!-- Update by rocknow -->
-   <set val='151' order='0x08' stat='mAtk'/><!-- Update by rocknow -->
+   <set val='333' order='0x08' stat='pAtk'/>
+   <set val='151' order='0x08' stat='mAtk'/>
    <set val='8' order='0x08' stat='rCrit'/>
    <add val='-3' order='0x10' stat='accCombat'/><!-- Update by rocknow -->
    <set val='325' order='0x08' stat='pAtkSpd'/>
@@ -366,8 +371,8 @@
 
 <item id='9871' name="Dynasty Halberd - Light">
   <for>
-   <set val='333' order='0x08' stat='pAtk'/><!-- Update by rocknow -->
-   <set val='151' order='0x08' stat='mAtk'/><!-- Update by rocknow -->
+   <set val='333' order='0x08' stat='pAtk'/>
+   <set val='151' order='0x08' stat='mAtk'/>
    <set val='8' order='0x08' stat='rCrit'/>
    <add val='-3' order='0x10' stat='accCombat'/><!-- Update by rocknow -->
    <set val='325' order='0x08' stat='pAtkSpd'/>
@@ -379,8 +384,8 @@
 
 <item id='9872' name="Dynasty Cudgel - Anger">
   <for>
-   <set val='333' order='0x08' stat='pAtk'/><!-- Update by rocknow -->
-   <set val='151' order='0x08' stat='mAtk'/><!-- Update by rocknow -->
+   <set val='333' order='0x08' stat='pAtk'/>
+   <set val='151' order='0x08' stat='mAtk'/>
    <set val='4' order='0x08' stat='rCrit'/>
    <add val='4' order='0x10' stat='accCombat'/>
    <set val='379' order='0x08' stat='pAtkSpd'/>
@@ -397,8 +402,8 @@
 
 <item id='9873' name="Dynasty Cudgel - Health">
   <for>
-   <set val='333' order='0x08' stat='pAtk'/><!-- Update by rocknow -->
-   <set val='151' order='0x08' stat='mAtk'/><!-- Update by rocknow -->
+   <set val='333' order='0x08' stat='pAtk'/>
+   <set val='151' order='0x08' stat='mAtk'/>
    <set val='4' order='0x08' stat='rCrit'/>
    <add val='4' order='0x10' stat='accCombat'/>
    <set val='379' order='0x08' stat='pAtkSpd'/>
@@ -409,8 +414,8 @@
 
 <item id='9874' name="Dynasty Cudgel - Rsk. Focus">
   <for>
-   <set val='333' order='0x08' stat='pAtk'/><!-- Update by rocknow -->
-   <set val='151' order='0x08' stat='mAtk'/><!-- Update by rocknow -->
+   <set val='333' order='0x08' stat='pAtk'/>
+   <set val='151' order='0x08' stat='mAtk'/>
    <set val='4' order='0x08' stat='rCrit'/>
    <add val='4' order='0x10' stat='accCombat'/>
    <set val='379' order='0x08' stat='pAtkSpd'/>
@@ -430,8 +435,8 @@
 
 <item id='9875' name="Dynasty Mace - Mana Up">
   <for>
-   <set val='267' order='0x08' stat='pAtk'/><!-- Update by rocknow -->
-   <set val='202' order='0x08' stat='mAtk'/><!-- Update by rocknow -->
+   <set val='267' order='0x08' stat='pAtk'/>
+   <set val='202' order='0x08' stat='mAtk'/>
    <set val='4' order='0x08' stat='rCrit'/>
    <add val='4' order='0x10' stat='accCombat'/>
    <set val='379' order='0x08' stat='pAtkSpd'/>
@@ -442,8 +447,8 @@
 
 <item id='9876' name="Dynasty Mace - Conversion">
   <for>
-   <set val='267' order='0x08' stat='pAtk'/><!-- Update by rocknow -->
-   <set val='202' order='0x08' stat='mAtk'/><!-- Update by rocknow -->
+   <set val='267' order='0x08' stat='pAtk'/>
+   <set val='202' order='0x08' stat='mAtk'/>
    <set val='4' order='0x08' stat='rCrit'/>
    <add val='4' order='0x10' stat='accCombat'/>
    <set val='379' order='0x08' stat='pAtkSpd'/>
@@ -454,8 +459,8 @@
 
 <item id='9877' name="Dynasty Mace - Acumen">
   <for>
-   <set val='267' order='0x08' stat='pAtk'/><!-- Update by rocknow -->
-   <set val='202' order='0x08' stat='mAtk'/><!-- Update by rocknow -->
+   <set val='267' order='0x08' stat='pAtk'/>
+   <set val='202' order='0x08' stat='mAtk'/>
    <set val='4' order='0x08' stat='rCrit'/>
    <add val='4' order='0x10' stat='accCombat'/>
    <set val='379' order='0x08' stat='pAtkSpd'/>
@@ -466,8 +471,8 @@
 
 <item id='9878' name="Dynasty Bagh-Nakh - Rsk. Evasion">
   <for>
-   <set val='405' order='0x08' stat='pAtk'/><!-- Update by rocknow -->
-   <set val='151' order='0x08' stat='mAtk'/><!-- Update by rocknow -->
+   <set val='405' order='0x08' stat='pAtk'/>
+   <set val='151' order='0x08' stat='mAtk'/>
    <set val='4' order='0x08' stat='rCrit'/>
    <add val='4' order='0x10' stat='accCombat'/>
    <set val='325' order='0x08' stat='pAtkSpd'/>
@@ -487,8 +492,8 @@
 
 <item id='9879' name="Dynasty Bagh-Nakh - Focus">
   <for>
-   <set val='405' order='0x08' stat='pAtk'/><!-- Update by rocknow -->
-   <set val='151' order='0x08' stat='mAtk'/><!-- Update by rocknow -->
+   <set val='405' order='0x08' stat='pAtk'/>
+   <set val='151' order='0x08' stat='mAtk'/>
    <set val='4' order='0x08' stat='rCrit'/>
    <add val='4' order='0x10' stat='accCombat'/>
    <set val='325' order='0x08' stat='pAtkSpd'/>
@@ -499,8 +504,8 @@
 
 <item id='9880' name="Dynasty Bagh-Nakh - Haste">
   <for>
-   <set val='405' order='0x08' stat='pAtk'/><!-- Update by rocknow -->
-   <set val='151' order='0x08' stat='mAtk'/><!-- Update by rocknow -->
+   <set val='405' order='0x08' stat='pAtk'/>
+   <set val='151' order='0x08' stat='mAtk'/>
    <set val='4' order='0x08' stat='rCrit'/>
    <add val='4' order='0x10' stat='accCombat'/>
    <set val='325' order='0x08' stat='pAtkSpd'/>

@@ -30,10 +30,11 @@
            <using slotitem="10004;16;4"/>
       </and>
    </mul>
-   <!-- Update by rocknow -->
-   <!-- Enhances damage to target during PvP -->
-   <mul val='1.05' order='0x30' stat='pvpPhysDmg'/>
-   <mul val='1.05' order='0x30' stat='pvpMagicalDmg'/>
+       <!-- Enhances damage to target during PvP -->
+   <mul val='1.05' order='0x30' stat='pvpPhysDmg'/><!-- Update by rocknow -->
+   <!-- Delete by rocknow -->
+   <mul val='1.05' order='0x30' stat='pvpMagicalDmg'/><!-- Update by rocknow -->
+   <!-- Delete by rocknow -->
   </for>
 </item>
 <item id='10005' name="Shadow Item: Fleuret">

@@ -1,6 +1,6 @@
 /************ Made in Taiwan ************/
 
-/***** 貳幕繽炫風 11-11 *****/
+/***** 貳幕繽炫風 12-16 *****/
 /***** armor *****/
 /***** armor.sql *****/
 /***** ↓L2J修正後可移除資料↓ *****/
@@ -2156,6 +2156,26 @@ UPDATE `armor` SET `bodypart` = 0, `crystallizable` = 0, `armor_type` = 0, `weig
 UPDATE `armor` SET `bodypart` = 0, `crystallizable` = 0, `armor_type` = 0, `weight` = 30, `crystal_type` = 0, `avoid_modify` = 0, `duration` = -1, `p_def` = 0, `m_def` = 0, `mp_bonus` = 0 WHERE `item_id` = 20030; -- 淡紫鬃馬騎乘手鐲        限時30日
 UPDATE `armor` SET `bodypart` = 19, `crystallizable` = 0, `armor_type` = 0, `weight` = 10, `crystal_type` = 0, `avoid_modify` = 0, `duration` = -1, `p_def` = 0, `m_def` = 0, `mp_bonus` = 0 WHERE `item_id` = 20031; -- 戰鬥貓帽
 UPDATE `armor` SET `bodypart` = 19, `crystallizable` = 0, `armor_type` = 0, `weight` = 10, `crystal_type` = 0, `avoid_modify` = 0, `duration` = -1, `p_def` = 0, `m_def` = 0, `mp_bonus` = 0 WHERE `item_id` = 20032; -- 骷髏帽
+UPDATE `armor` SET `bodypart` = 0, `crystallizable` = 0, `armor_type` = 0, `weight` = 150, `crystal_type` = 0, `avoid_modify` = 0, `duration` = -1, `p_def` = 0, `m_def` = 0, `mp_bonus` = 0 WHERE `item_id` = 20063; --        壺精封印手鐲-小貓熊
+UPDATE `armor` SET `bodypart` = 0, `crystallizable` = 0, `armor_type` = 0, `weight` = 150, `crystal_type` = 0, `avoid_modify` = 0, `duration` = -1, `p_def` = 0, `m_def` = 0, `mp_bonus` = 0 WHERE `item_id` = 20064; --        壺精封印手鐲-竹子貓熊
+UPDATE `armor` SET `bodypart` = 0, `crystallizable` = 0, `armor_type` = 0, `weight` = 150, `crystal_type` = 0, `avoid_modify` = 0, `duration` = -1, `p_def` = 0, `m_def` = 0, `mp_bonus` = 0 WHERE `item_id` = 20065; --        壺精封印手鐲-性感貓熊
+UPDATE `armor` SET `bodypart` = 0, `crystallizable` = 0, `armor_type` = 0, `weight` = 150, `crystal_type` = 0, `avoid_modify` = 0, `duration` = -1, `p_def` = 0, `m_def` = 0, `mp_bonus` = 0 WHERE `item_id` = 20066; --        壺精封印手鐲-小貓熊     大頭-限時15日
+UPDATE `armor` SET `bodypart` = 0, `crystallizable` = 0, `armor_type` = 0, `weight` = 150, `crystal_type` = 0, `avoid_modify` = 0, `duration` = -1, `p_def` = 0, `m_def` = 0, `mp_bonus` = 0 WHERE `item_id` = 20067; --        壺精封印手鐲-竹子貓熊   復活-限時15日
+UPDATE `armor` SET `bodypart` = 0, `crystallizable` = 0, `armor_type` = 0, `weight` = 150, `crystal_type` = 0, `avoid_modify` = 0, `duration` = -1, `p_def` = 0, `m_def` = 0, `mp_bonus` = 0 WHERE `item_id` = 20068; --        壺精封印手鐲-性感貓熊   返回-限時15日
+UPDATE `armor` SET `bodypart` = 19, `crystallizable` = 0, `armor_type` = 0, `weight` = 10, `crystal_type` = 0, `avoid_modify` = 0, `duration` = -1, `p_def` = 0, `m_def` = 0, `mp_bonus` = 0 WHERE `item_id` = 20083; --        爆炸頭  活力-限時3小時
+UPDATE `armor` SET `bodypart` = 19, `crystallizable` = 0, `armor_type` = 0, `weight` = 10, `crystal_type` = 0, `avoid_modify` = 0, `duration` = -1, `p_def` = 0, `m_def` = 0, `mp_bonus` = 0 WHERE `item_id` = 20084; --        爆炸頭  活力-限時3日
+UPDATE `armor` SET `bodypart` = 19, `crystallizable` = 0, `armor_type` = 0, `weight` = 10, `crystal_type` = 0, `avoid_modify` = 0, `duration` = -1, `p_def` = 0, `m_def` = 0, `mp_bonus` = 0 WHERE `item_id` = 20085; --        爆炸頭  活力-限時30日
+UPDATE `armor` SET `bodypart` = 17, `crystallizable` = 0, `armor_type` = 0, `weight` = 10, `crystal_type` = 0, `avoid_modify` = 0, `duration` = -1, `p_def` = 0, `m_def` = 0, `mp_bonus` = 0 WHERE `item_id` = 20086; --        粗框眼鏡        活力-限時3小時
+UPDATE `armor` SET `bodypart` = 17, `crystallizable` = 0, `armor_type` = 0, `weight` = 10, `crystal_type` = 0, `avoid_modify` = 0, `duration` = -1, `p_def` = 0, `m_def` = 0, `mp_bonus` = 0 WHERE `item_id` = 20087; --        粗框眼鏡        活力-限時3日
+UPDATE `armor` SET `bodypart` = 17, `crystallizable` = 0, `armor_type` = 0, `weight` = 10, `crystal_type` = 0, `avoid_modify` = 0, `duration` = -1, `p_def` = 0, `m_def` = 0, `mp_bonus` = 0 WHERE `item_id` = 20088; --        粗框眼鏡        活力-限時30日
+UPDATE `armor` SET `bodypart` = 19, `crystallizable` = 0, `armor_type` = 0, `weight` = 10, `crystal_type` = 0, `avoid_modify` = 0, `duration` = -1, `p_def` = 0, `m_def` = 0, `mp_bonus` = 0 WHERE `item_id` = 20089; --        刺客斗笠        活力-限時3小時
+UPDATE `armor` SET `bodypart` = 19, `crystallizable` = 0, `armor_type` = 0, `weight` = 10, `crystal_type` = 0, `avoid_modify` = 0, `duration` = -1, `p_def` = 0, `m_def` = 0, `mp_bonus` = 0 WHERE `item_id` = 20090; --        刺客斗笠        活力-限時3日
+UPDATE `armor` SET `bodypart` = 19, `crystallizable` = 0, `armor_type` = 0, `weight` = 10, `crystal_type` = 0, `avoid_modify` = 0, `duration` = -1, `p_def` = 0, `m_def` = 0, `mp_bonus` = 0 WHERE `item_id` = 20091; --        刺客斗笠        活力-限時30日
+UPDATE `armor` SET `bodypart` = 0, `crystallizable` = 0, `armor_type` = 0, `weight` = 150, `crystal_type` = 0, `avoid_modify` = 0, `duration` = -1, `p_def` = 0, `m_def` = 0, `mp_bonus` = 0 WHERE `item_id` = 20094; --        壺精封印手鐲-魯道夫     活力-限時30日
+UPDATE `armor` SET `bodypart` = 19, `crystallizable` = 0, `armor_type` = 0, `weight` = 10, `crystal_type` = 0, `avoid_modify` = 0, `duration` = -1, `p_def` = 0, `m_def` = 0, `mp_bonus` = 0 WHERE `item_id` = 20095; --        聖誕鹿角帽
+UPDATE `armor` SET `bodypart` = 16, `crystallizable` = 0, `armor_type` = 3, `weight` = 1000, `crystal_type` = 0, `avoid_modify` = 0, `duration` = 60, `p_def` = 0, `m_def` = 0, `mp_bonus` = 0 WHERE `item_id` = 20098; --      禮服-活動       1小時幻象
+UPDATE `armor` SET `bodypart` = 16, `crystallizable` = 0, `armor_type` = 3, `weight` = 1000, `crystal_type` = 0, `avoid_modify` = 0, `duration` = -1, `p_def` = 0, `m_def` = 0, `mp_bonus` = 0 WHERE `item_id` = 20099; --      禮服-活動       限時7日
+UPDATE `armor` SET `bodypart` = 19, `crystallizable` = 0, `armor_type` = 0, `weight` = 10, `crystal_type` = 0, `avoid_modify` = 0, `duration` = -1, `p_def` = 0, `m_def` = 0, `mp_bonus` = 0 WHERE `item_id` = 20100; --        剪刀-石頭-布聖誕帽      限時24小時
 
 /***** 防具-錯誤資料修正 *****/
 /***** ↓NC修正後可移除-比對資料*勿刪↓ *****/
@@ -2166,7 +2186,7 @@ UPDATE `armor` SET `bodypart` = 19, `crystallizable` = 0, `armor_type` = 0, `wei
 
 /***** ↓NC修正後可移除資料↓ *****/
 -- NC設定`armor_type` = 'magic'，修正使用L2J`item_type`設定 --
-UPDATE `armor` SET `armor_type` = 'none'        WHERE `item_id` IN (6408); -- 禮服
+UPDATE `armor` SET `armor_type` = 'none'        WHERE `item_id` IN (6408,20098,20099); -- 禮服
 
 -- NC設定`crystallizable` = 'true'錯誤，修正 = 'false' --
 UPDATE `armor` SET `crystallizable` = 'false'   WHERE `item_id` IN (9826); -- 幻象武器-盟誓禮鞋 輕裝用
@@ -2187,8 +2207,8 @@ UPDATE `armor` SET `bodypart` = 'neck'            WHERE `bodypart` = '3';       
 UPDATE `armor` SET `bodypart` = 'rfinger,lfinger' WHERE `bodypart` = '4';       -- 戒指
 UPDATE `armor` SET `bodypart` = 'head'            WHERE `bodypart` = '6';       -- 頭盔
 UPDATE `armor` SET `bodypart` = 'gloves'          WHERE `bodypart` = '9';       -- 手套
-UPDATE `armor` SET `bodypart` = 'chest'           WHERE `bodypart` = '10';      -- 上衣
-UPDATE `armor` SET `bodypart` = 'legs'            WHERE `bodypart` = '11';      -- 褲子
+UPDATE `armor` SET `bodypart` = 'chest'           WHERE `bodypart` = '10';      -- 上半身防具
+UPDATE `armor` SET `bodypart` = 'legs'            WHERE `bodypart` = '11';      -- 下半身防具
 UPDATE `armor` SET `bodypart` = 'feet'            WHERE `bodypart` = '12';      -- 靴子
 UPDATE `armor` SET `bodypart` = 'underwear'       WHERE `bodypart` = '13';      -- 斗篷
 UPDATE `armor` SET `bodypart` = 'fullarmor'       WHERE `bodypart` = '15';      -- 連身防具
@@ -2200,7 +2220,7 @@ UPDATE `armor` SET `bodypart` = 'hairall'         WHERE `bodypart` = '19';      
 
 /***** 著裝部位[特殊系列] *****/
 UPDATE `armor` SET `bodypart` = 'underwear'     WHERE `item_id` IN (52,53,54,55,56,485,486,487,488,489,490,491,492,493,494,495,496,614,615,616,617,618,619,620,621,622,623,624,675,676,677,678,679,680,681,682,683,684,685,2410,2490,2491,2492,9577,9578,9579,9580,9581,9582,9583,9584,9585,9586,9587,9588,10207,10208,10491,10492,10493,10494,10495,10496,10497,10498,10499,10500,10501,10502,10503,10504,10505,10506,10507,10508,10509,10510,10511,10512,10513,10514,11436,12040,12067,12117,12140,12174,12191,12219,12281,12290,13296,13389,13390,13391,13392); -- 襯衫
-UPDATE `armor` SET `bodypart` = 'lbracelet'     WHERE `item_id` IN (9605,9606,9607,9608,9609,9610,9611,9612,9613,9614,9615,9909,10018,10139,10273,10316,10317,10318,10319,10320,10322,10323,10324,10325,10326,10606,10659,10660,12779,12780,13022,13023,13024,13025,13026,13254,13308,13309,13340,20006,20007,20008,20009,20010,20011,20012,20013,20014,20015,20029,20030); -- 壺精手鐲
+UPDATE `armor` SET `bodypart` = 'lbracelet'     WHERE `item_id` IN (9605,9606,9607,9608,9609,9610,9611,9612,9613,9614,9615,9909,10018,10139,10273,10316,10317,10318,10319,10320,10322,10323,10324,10325,10326,10606,10659,10660,12779,12780,13022,13023,13024,13025,13026,13254,13308,13309,13340,20006,20007,20008,20009,20010,20011,20012,20013,20014,20015,20029,20030,20063,20064,20065,20066,20067,20068,20094); -- 壺精手鐲
 UPDATE `armor` SET `bodypart` = 'rbracelet'     WHERE `item_id` IN (9589,9590,9591,9592,10209,10210,13295); -- 護符手鐲
 UPDATE `armor` SET `bodypart` = 'talisman'      WHERE `item_id` IN (9913,9914,9915,9916,9917,9918,9919,9920,9921,9922,9923,9924,9925,9926,9927,9928,9929,9930,9931,9932,9933,9934,9935,9936,9937,9938,9939,9940,9941,9942,9943,9944,9945,9946,9947,9948,9949,9950,9951,9952,9953,9954,9955,9956,9957,9958,9959,9960,9961,9962,9963,9964,9965,9966,10141,10142,10158,10416,10417,10418,10419,10420,10421,10422,10423,10424,10518,10519,10533,10534,10535,10536,10537,10538,10539,10540,10541,10542,10543,12815,12816,12817,12818,12819); -- 護身符
 
@@ -2212,6 +2232,16 @@ UPDATE `armor` SET `bodypart` = 'greatwolf',    `armor_type` = 'pet' WHERE `item
 UPDATE `armor` SET `bodypart` = 'hatchling',    `armor_type` = 'pet' WHERE `item_id` IN (3912,3913,3914,3915,3916,3917,3918,4234,4235,5182,5183,5184,5185,5186); -- 幼龍專用
 UPDATE `armor` SET `bodypart` = 'strider',      `armor_type` = 'pet' WHERE `item_id` IN (4236,5170,5171,5172,5173,5174,5175); -- 座龍專用
 UPDATE `armor` SET `bodypart` = 'chest',        `armor_type` = 'pet' WHERE `item_id` IN (13050); -- 底格里斯專用防具
+
+/***** 使用時間 *****/
+UPDATE `armor` SET `duration` = '60'            WHERE `item_id` IN (20098); -- 1小時幻象
+UPDATE `armor` SET `duration` = '180'           WHERE `item_id` IN (20083,20086,20089); -- 限時3小時
+UPDATE `armor` SET `duration` = '600'           WHERE `item_id` IN (13260); -- 限時10小時
+UPDATE `armor` SET `duration` = '1440'          WHERE `item_id` IN (20100); -- 限時24小時
+UPDATE `armor` SET `duration` = '4320'          WHERE `item_id` IN (20084,20087,20090); -- 限時3日
+UPDATE `armor` SET `duration` = '10080'         WHERE `item_id` IN (13022,13239,13240,13241,13242,13243,13244,13245,13246,13247,13254,13308,13325,13326,13327,13328,13329,13330,13331,13332,13333,13340,20099); -- 限時7日
+UPDATE `armor` SET `duration` = '21600'         WHERE `item_id` IN (20066,20067,20068); -- 限時15日
+UPDATE `armor` SET `duration` = '43200'         WHERE `item_id` IN (13023,13024,13025,13026,13309,13310,13311,13312,13313,13314,13315,13316,13317,13318,20009,20010,20011,20013,20014,20015,20030,20085,20088,20091,20094); -- 限時30日
 
 /***** 可否結晶化 *****/
 UPDATE `armor` SET `crystallizable` = 'false'   WHERE `crystallizable` = '0'; -- 否
@@ -2230,7 +2260,7 @@ UPDATE `armor` SET `crystal_type` = 's80'       WHERE `crystal_type` = '6'; -- S
 /***** Done by vdmyagami！ *****/
 /************ Made in Taiwan ************/
 
-/***** 貳幕繽炫風 11-11 *****/
+/***** 貳幕繽炫風 12-16 *****/
 /***** etcitem *****/
 /***** etcitem.sql *****/
 /***** ↓L2J修正後可移除資料↓ *****/
@@ -6520,14 +6550,14 @@ UPDATE `etcitem` SET `crystallizable` = 0, `weight` = 0, `consume_type` = 2, `cr
 UPDATE `etcitem` SET `crystallizable` = 0, `weight` = 0, `consume_type` = 2, `crystal_type` = 0, `duration` = -1 WHERE `item_id` = 5903; -- 古代的骨灰罐
 UPDATE `etcitem` SET `crystallizable` = 0, `weight` = 0, `consume_type` = 2, `crystal_type` = 0, `duration` = -1 WHERE `item_id` = 5904; -- 衛斯理的混合石
 UPDATE `etcitem` SET `crystallizable` = 0, `weight` = 0, `consume_type` = 2, `crystal_type` = 0, `duration` = -1 WHERE `item_id` = 5905; -- 教師的混合石
-UPDATE `etcitem` SET `crystallizable` = 0, `weight` = 100, `consume_type` = 2, `crystal_type` = 0, `duration` = -1 WHERE `item_id` = 5906; -- 5週年紀念禮盒(蜜年糕10個組)
-UPDATE `etcitem` SET `crystallizable` = 0, `weight` = 100, `consume_type` = 2, `crystal_type` = 0, `duration` = -1 WHERE `item_id` = 5907; -- 5週年紀念禮盒(蜜年糕9個組)
+UPDATE `etcitem` SET `crystallizable` = 0, `weight` = 100, `consume_type` = 2, `crystal_type` = 0, `duration` = -1 WHERE `item_id` = 5906; -- 5週年紀念禮盒(蜜年糕10個/組)
+UPDATE `etcitem` SET `crystallizable` = 0, `weight` = 100, `consume_type` = 2, `crystal_type` = 0, `duration` = -1 WHERE `item_id` = 5907; -- 5週年紀念禮盒(蜜年糕9個/組)
 UPDATE `etcitem` SET `crystallizable` = 0, `weight` = 20, `consume_type` = 0, `crystal_type` = 0, `duration` = -1, `item_type` = 1 WHERE `item_id` = 5908; -- 紅色搜魂石-階段13
-UPDATE `etcitem` SET `crystallizable` = 0, `weight` = 100, `consume_type` = 2, `crystal_type` = 0, `duration` = -1 WHERE `item_id` = 5909; -- 5週年紀念禮盒(蜜年糕8個組)
-UPDATE `etcitem` SET `crystallizable` = 0, `weight` = 100, `consume_type` = 2, `crystal_type` = 0, `duration` = -1 WHERE `item_id` = 5910; -- 5週年紀念禮盒(蜜年糕7個組)
+UPDATE `etcitem` SET `crystallizable` = 0, `weight` = 100, `consume_type` = 2, `crystal_type` = 0, `duration` = -1 WHERE `item_id` = 5909; -- 5週年紀念禮盒(蜜年糕8個/組)
+UPDATE `etcitem` SET `crystallizable` = 0, `weight` = 100, `consume_type` = 2, `crystal_type` = 0, `duration` = -1 WHERE `item_id` = 5910; -- 5週年紀念禮盒(蜜年糕7個/組)
 UPDATE `etcitem` SET `crystallizable` = 0, `weight` = 20, `consume_type` = 0, `crystal_type` = 0, `duration` = -1, `item_type` = 1 WHERE `item_id` = 5911; -- 綠色搜魂石-階段13
-UPDATE `etcitem` SET `crystallizable` = 0, `weight` = 100, `consume_type` = 2, `crystal_type` = 0, `duration` = -1 WHERE `item_id` = 5912; -- 5週年紀念禮盒(蜜年糕6個組)
-UPDATE `etcitem` SET `crystallizable` = 0, `weight` = 100, `consume_type` = 2, `crystal_type` = 0, `duration` = -1 WHERE `item_id` = 5913; -- 5週年紀念禮盒(藥果3個組)
+UPDATE `etcitem` SET `crystallizable` = 0, `weight` = 100, `consume_type` = 2, `crystal_type` = 0, `duration` = -1 WHERE `item_id` = 5912; -- 5週年紀念禮盒(蜜年糕6個/組)
+UPDATE `etcitem` SET `crystallizable` = 0, `weight` = 100, `consume_type` = 2, `crystal_type` = 0, `duration` = -1 WHERE `item_id` = 5913; -- 5週年紀念禮盒(藥果3個/組)
 UPDATE `etcitem` SET `crystallizable` = 0, `weight` = 20, `consume_type` = 0, `crystal_type` = 0, `duration` = -1, `item_type` = 1 WHERE `item_id` = 5914; -- 藍色搜魂石-階段13
 UPDATE `etcitem` SET `crystallizable` = 0, `weight` = 0, `consume_type` = 2, `crystal_type` = 0, `duration` = -1 WHERE `item_id` = 5915; -- 海盜的藏寶圖
 UPDATE `etcitem` SET `crystallizable` = 0, `weight` = 0, `consume_type` = 2, `crystal_type` = 0, `duration` = -1 WHERE `item_id` = 5916; -- 魔法書頁的碎片
@@ -10395,53 +10425,53 @@ UPDATE `etcitem` SET `crystallizable` = 0, `weight` = 100, `consume_type` = 2, `
 UPDATE `etcitem` SET `crystallizable` = 0, `weight` = 100, `consume_type` = 2, `crystal_type` = 0, `duration` = -1 WHERE `item_id` = 13076; -- 野獸鬥士狩獵幫手 箱子
 UPDATE `etcitem` SET `crystallizable` = 0, `weight` = 100, `consume_type` = 2, `crystal_type` = 0, `duration` = -1 WHERE `item_id` = 13077; -- 白鼬鼠狩獵幫手 箱子
 UPDATE `etcitem` SET `crystallizable` = 0, `weight` = 100, `consume_type` = 2, `crystal_type` = 0, `duration` = -1 WHERE `item_id` = 13078; -- 妖精公主狩獵幫手 箱子
-UPDATE `etcitem` SET `crystallizable` = 0, `weight` = 100, `consume_type` = 2, `crystal_type` = 0, `duration` = -1 WHERE `item_id` = 13079; -- 自由傳送書 1張組
-UPDATE `etcitem` SET `crystallizable` = 0, `weight` = 100, `consume_type` = 2, `crystal_type` = 0, `duration` = -1 WHERE `item_id` = 13080; -- 自由傳送卷軸 30張組
+UPDATE `etcitem` SET `crystallizable` = 0, `weight` = 100, `consume_type` = 2, `crystal_type` = 0, `duration` = -1 WHERE `item_id` = 13079; -- 自由傳送書 1張/組
+UPDATE `etcitem` SET `crystallizable` = 0, `weight` = 100, `consume_type` = 2, `crystal_type` = 0, `duration` = -1 WHERE `item_id` = 13080; -- 自由傳送卷軸 30張/組
 UPDATE `etcitem` SET `crystallizable` = 0, `weight` = 100, `consume_type` = 2, `crystal_type` = 0, `duration` = -1 WHERE `item_id` = 13081; -- 欲界入場券組
-UPDATE `etcitem` SET `crystallizable` = 0, `weight` = 100, `consume_type` = 2, `crystal_type` = 0, `duration` = -1 WHERE `item_id` = 13082; -- 祝福的羽毛 3張組
-UPDATE `etcitem` SET `crystallizable` = 0, `weight` = 100, `consume_type` = 2, `crystal_type` = 0, `duration` = -1 WHERE `item_id` = 13083; -- 壺精-愛心 30日組
-UPDATE `etcitem` SET `crystallizable` = 0, `weight` = 100, `consume_type` = 2, `crystal_type` = 0, `duration` = -1 WHERE `item_id` = 13084; -- 南瓜變身魔杖 30日組
+UPDATE `etcitem` SET `crystallizable` = 0, `weight` = 100, `consume_type` = 2, `crystal_type` = 0, `duration` = -1 WHERE `item_id` = 13082; -- 祝福的羽毛 3張/組
+UPDATE `etcitem` SET `crystallizable` = 0, `weight` = 100, `consume_type` = 2, `crystal_type` = 0, `duration` = -1 WHERE `item_id` = 13083; -- 壺精-愛心 30日/組
+UPDATE `etcitem` SET `crystallizable` = 0, `weight` = 100, `consume_type` = 2, `crystal_type` = 0, `duration` = -1 WHERE `item_id` = 13084; -- 南瓜變身魔杖 30日/組
 UPDATE `etcitem` SET `crystallizable` = 0, `weight` = 100, `consume_type` = 2, `crystal_type` = 0, `duration` = -1 WHERE `item_id` = 13085; -- 欲界入場券 3種組
-UPDATE `etcitem` SET `crystallizable` = 0, `weight` = 100, `consume_type` = 2, `crystal_type` = 0, `duration` = -1 WHERE `item_id` = 13086; -- 戰鬥貓帽 30日組
-UPDATE `etcitem` SET `crystallizable` = 0, `weight` = 100, `consume_type` = 2, `crystal_type` = 0, `duration` = -1 WHERE `item_id` = 13087; -- 皇后貓帽 30日組
-UPDATE `etcitem` SET `crystallizable` = 0, `weight` = 100, `consume_type` = 2, `crystal_type` = 0, `duration` = -1 WHERE `item_id` = 13088; -- 眼怪帽 30日組
-UPDATE `etcitem` SET `crystallizable` = 0, `weight` = 100, `consume_type` = 2, `crystal_type` = 0, `duration` = -1 WHERE `item_id` = 13089; -- 棕熊帽 30日組
-UPDATE `etcitem` SET `crystallizable` = 0, `weight` = 100, `consume_type` = 2, `crystal_type` = 0, `duration` = -1 WHERE `item_id` = 13090; -- 蘑菇帽 30日組
-UPDATE `etcitem` SET `crystallizable` = 0, `weight` = 100, `consume_type` = 2, `crystal_type` = 0, `duration` = -1 WHERE `item_id` = 13091; -- 骷髏帽 30日組
-UPDATE `etcitem` SET `crystallizable` = 0, `weight` = 100, `consume_type` = 2, `crystal_type` = 0, `duration` = -1 WHERE `item_id` = 13092; -- 似鳥龍帽 30日組
-UPDATE `etcitem` SET `crystallizable` = 0, `weight` = 100, `consume_type` = 2, `crystal_type` = 0, `duration` = -1 WHERE `item_id` = 13093; -- 國王貓帽 30日組
-UPDATE `etcitem` SET `crystallizable` = 0, `weight` = 100, `consume_type` = 2, `crystal_type` = 0, `duration` = -1 WHERE `item_id` = 13094; -- 銀色貓帽 30日組
-UPDATE `etcitem` SET `crystallizable` = 0, `weight` = 100, `consume_type` = 2, `crystal_type` = 0, `duration` = -1 WHERE `item_id` = 13095; -- OX 魔杖 30日組
-UPDATE `etcitem` SET `crystallizable` = 0, `weight` = 100, `consume_type` = 2, `crystal_type` = 0, `duration` = -1 WHERE `item_id` = 13096; -- 剪刀石頭布魔杖 30日組
+UPDATE `etcitem` SET `crystallizable` = 0, `weight` = 100, `consume_type` = 2, `crystal_type` = 0, `duration` = -1 WHERE `item_id` = 13086; -- 戰鬥貓帽 30日/組
+UPDATE `etcitem` SET `crystallizable` = 0, `weight` = 100, `consume_type` = 2, `crystal_type` = 0, `duration` = -1 WHERE `item_id` = 13087; -- 皇后貓帽 30日/組
+UPDATE `etcitem` SET `crystallizable` = 0, `weight` = 100, `consume_type` = 2, `crystal_type` = 0, `duration` = -1 WHERE `item_id` = 13088; -- 眼怪帽 30日/組
+UPDATE `etcitem` SET `crystallizable` = 0, `weight` = 100, `consume_type` = 2, `crystal_type` = 0, `duration` = -1 WHERE `item_id` = 13089; -- 棕熊帽 30日/組
+UPDATE `etcitem` SET `crystallizable` = 0, `weight` = 100, `consume_type` = 2, `crystal_type` = 0, `duration` = -1 WHERE `item_id` = 13090; -- 蘑菇帽 30日/組
+UPDATE `etcitem` SET `crystallizable` = 0, `weight` = 100, `consume_type` = 2, `crystal_type` = 0, `duration` = -1 WHERE `item_id` = 13091; -- 骷髏帽 30日/組
+UPDATE `etcitem` SET `crystallizable` = 0, `weight` = 100, `consume_type` = 2, `crystal_type` = 0, `duration` = -1 WHERE `item_id` = 13092; -- 似鳥龍帽 30日/組
+UPDATE `etcitem` SET `crystallizable` = 0, `weight` = 100, `consume_type` = 2, `crystal_type` = 0, `duration` = -1 WHERE `item_id` = 13093; -- 國王貓帽 30日/組
+UPDATE `etcitem` SET `crystallizable` = 0, `weight` = 100, `consume_type` = 2, `crystal_type` = 0, `duration` = -1 WHERE `item_id` = 13094; -- 銀色貓帽 30日/組
+UPDATE `etcitem` SET `crystallizable` = 0, `weight` = 100, `consume_type` = 2, `crystal_type` = 0, `duration` = -1 WHERE `item_id` = 13095; -- OX 魔杖 30日/組
+UPDATE `etcitem` SET `crystallizable` = 0, `weight` = 100, `consume_type` = 2, `crystal_type` = 0, `duration` = -1 WHERE `item_id` = 13096; -- 剪刀石頭布魔杖 30日/組
 UPDATE `etcitem` SET `crystallizable` = 0, `weight` = 100, `consume_type` = 2, `crystal_type` = 0, `duration` = -1 WHERE `item_id` = 13097; -- 淡紫鬃馬手鐲組
-UPDATE `etcitem` SET `crystallizable` = 0, `weight` = 100, `consume_type` = 2, `crystal_type` = 0, `duration` = -1 WHERE `item_id` = 13098; -- 彩色稱號 3張組
+UPDATE `etcitem` SET `crystallizable` = 0, `weight` = 100, `consume_type` = 2, `crystal_type` = 0, `duration` = -1 WHERE `item_id` = 13098; -- 彩色稱號 3張/組
 UPDATE `etcitem` SET `crystallizable` = 0, `weight` = 100, `consume_type` = 2, `crystal_type` = 0, `duration` = -1 WHERE `item_id` = 13099; -- 封印的祕儀符印碎片
 UPDATE `etcitem` SET `crystallizable` = 0, `weight` = 100, `consume_type` = 2, `crystal_type` = 0, `duration` = -1 WHERE `item_id` = 13100; -- 製作卷軸(封印的祕儀符印60%)
 UPDATE `etcitem` SET `crystallizable` = 0, `weight` = 100, `consume_type` = 2, `crystal_type` = 0, `duration` = -1 WHERE `item_id` = 13101; -- 製作卷軸(封印的祕儀符印100%)
 UPDATE `etcitem` SET `crystallizable` = 0, `weight` = 100, `consume_type` = 2, `crystal_type` = 0, `duration` = -1 WHERE `item_id` = 13102; -- 渾沌的封印的祕儀符印
-UPDATE `etcitem` SET `crystallizable` = 0, `weight` = 100, `consume_type` = 2, `crystal_type` = 0, `duration` = -1 WHERE `item_id` = 13103; -- 自由傳送書 1張組
-UPDATE `etcitem` SET `crystallizable` = 0, `weight` = 100, `consume_type` = 2, `crystal_type` = 0, `duration` = -1 WHERE `item_id` = 13104; -- 自由傳送卷軸 30張組
+UPDATE `etcitem` SET `crystallizable` = 0, `weight` = 100, `consume_type` = 2, `crystal_type` = 0, `duration` = -1 WHERE `item_id` = 13103; -- 自由傳送書 1張/組
+UPDATE `etcitem` SET `crystallizable` = 0, `weight` = 100, `consume_type` = 2, `crystal_type` = 0, `duration` = -1 WHERE `item_id` = 13104; -- 自由傳送卷軸 30張/組
 UPDATE `etcitem` SET `crystallizable` = 0, `weight` = 100, `consume_type` = 2, `crystal_type` = 0, `duration` = -1 WHERE `item_id` = 13105; -- 欲界入場券  3種組
-UPDATE `etcitem` SET `crystallizable` = 0, `weight` = 100, `consume_type` = 2, `crystal_type` = 0, `duration` = -1 WHERE `item_id` = 13106; -- 祝福的羽毛 3張組
-UPDATE `etcitem` SET `crystallizable` = 0, `weight` = 100, `consume_type` = 2, `crystal_type` = 0, `duration` = -1 WHERE `item_id` = 13107; -- 愛心壺精 30日組
-UPDATE `etcitem` SET `crystallizable` = 0, `weight` = 100, `consume_type` = 2, `crystal_type` = 0, `duration` = -1 WHERE `item_id` = 13108; -- 南瓜變身魔杖 30日組
+UPDATE `etcitem` SET `crystallizable` = 0, `weight` = 100, `consume_type` = 2, `crystal_type` = 0, `duration` = -1 WHERE `item_id` = 13106; -- 祝福的羽毛 3張/組
+UPDATE `etcitem` SET `crystallizable` = 0, `weight` = 100, `consume_type` = 2, `crystal_type` = 0, `duration` = -1 WHERE `item_id` = 13107; -- 愛心壺精 30日/組
+UPDATE `etcitem` SET `crystallizable` = 0, `weight` = 100, `consume_type` = 2, `crystal_type` = 0, `duration` = -1 WHERE `item_id` = 13108; -- 南瓜變身魔杖 30日/組
 UPDATE `etcitem` SET `crystallizable` = 0, `weight` = 100, `consume_type` = 2, `crystal_type` = 0, `duration` = -1 WHERE `item_id` = 13109; -- 欲界入場券 3種組
-UPDATE `etcitem` SET `crystallizable` = 0, `weight` = 100, `consume_type` = 2, `crystal_type` = 0, `duration` = -1 WHERE `item_id` = 13110; -- 戰鬥貓帽 30日組
-UPDATE `etcitem` SET `crystallizable` = 0, `weight` = 100, `consume_type` = 2, `crystal_type` = 0, `duration` = -1 WHERE `item_id` = 13111; -- 皇后貓帽 30日組
-UPDATE `etcitem` SET `crystallizable` = 0, `weight` = 100, `consume_type` = 2, `crystal_type` = 0, `duration` = -1 WHERE `item_id` = 13112; -- 眼怪帽 30日組
-UPDATE `etcitem` SET `crystallizable` = 0, `weight` = 100, `consume_type` = 2, `crystal_type` = 0, `duration` = -1 WHERE `item_id` = 13113; -- 棕熊帽 30日組
-UPDATE `etcitem` SET `crystallizable` = 0, `weight` = 100, `consume_type` = 2, `crystal_type` = 0, `duration` = -1 WHERE `item_id` = 13114; -- 蘑菇帽 30日組
-UPDATE `etcitem` SET `crystallizable` = 0, `weight` = 100, `consume_type` = 2, `crystal_type` = 0, `duration` = -1 WHERE `item_id` = 13115; -- 骷髏帽 30日組
-UPDATE `etcitem` SET `crystallizable` = 0, `weight` = 100, `consume_type` = 2, `crystal_type` = 0, `duration` = -1 WHERE `item_id` = 13116; -- 似鳥龍帽 30日組
-UPDATE `etcitem` SET `crystallizable` = 0, `weight` = 100, `consume_type` = 2, `crystal_type` = 0, `duration` = -1 WHERE `item_id` = 13117; -- 國王貓帽 30日組
-UPDATE `etcitem` SET `crystallizable` = 0, `weight` = 100, `consume_type` = 2, `crystal_type` = 0, `duration` = -1 WHERE `item_id` = 13118; -- 銀色貓帽 30日組
-UPDATE `etcitem` SET `crystallizable` = 0, `weight` = 100, `consume_type` = 2, `crystal_type` = 0, `duration` = -1 WHERE `item_id` = 13119; -- O/X 魔杖 30日組
-UPDATE `etcitem` SET `crystallizable` = 0, `weight` = 100, `consume_type` = 2, `crystal_type` = 0, `duration` = -1 WHERE `item_id` = 13120; -- 剪刀/石頭/布魔杖 30日組
-UPDATE `etcitem` SET `crystallizable` = 0, `weight` = 100, `consume_type` = 2, `crystal_type` = 0, `duration` = -1 WHERE `item_id` = 13121; -- 淡紫鬃馬 7日組
-UPDATE `etcitem` SET `crystallizable` = 0, `weight` = 100, `consume_type` = 2, `crystal_type` = 0, `duration` = -1 WHERE `item_id` = 13122; -- 彩色稱號 3張組
+UPDATE `etcitem` SET `crystallizable` = 0, `weight` = 100, `consume_type` = 2, `crystal_type` = 0, `duration` = -1 WHERE `item_id` = 13110; -- 戰鬥貓帽 30日/組
+UPDATE `etcitem` SET `crystallizable` = 0, `weight` = 100, `consume_type` = 2, `crystal_type` = 0, `duration` = -1 WHERE `item_id` = 13111; -- 皇后貓帽 30日/組
+UPDATE `etcitem` SET `crystallizable` = 0, `weight` = 100, `consume_type` = 2, `crystal_type` = 0, `duration` = -1 WHERE `item_id` = 13112; -- 眼怪帽 30日/組
+UPDATE `etcitem` SET `crystallizable` = 0, `weight` = 100, `consume_type` = 2, `crystal_type` = 0, `duration` = -1 WHERE `item_id` = 13113; -- 棕熊帽 30日/組
+UPDATE `etcitem` SET `crystallizable` = 0, `weight` = 100, `consume_type` = 2, `crystal_type` = 0, `duration` = -1 WHERE `item_id` = 13114; -- 蘑菇帽 30日/組
+UPDATE `etcitem` SET `crystallizable` = 0, `weight` = 100, `consume_type` = 2, `crystal_type` = 0, `duration` = -1 WHERE `item_id` = 13115; -- 骷髏帽 30日/組
+UPDATE `etcitem` SET `crystallizable` = 0, `weight` = 100, `consume_type` = 2, `crystal_type` = 0, `duration` = -1 WHERE `item_id` = 13116; -- 似鳥龍帽 30日/組
+UPDATE `etcitem` SET `crystallizable` = 0, `weight` = 100, `consume_type` = 2, `crystal_type` = 0, `duration` = -1 WHERE `item_id` = 13117; -- 國王貓帽 30日/組
+UPDATE `etcitem` SET `crystallizable` = 0, `weight` = 100, `consume_type` = 2, `crystal_type` = 0, `duration` = -1 WHERE `item_id` = 13118; -- 銀色貓帽 30日/組
+UPDATE `etcitem` SET `crystallizable` = 0, `weight` = 100, `consume_type` = 2, `crystal_type` = 0, `duration` = -1 WHERE `item_id` = 13119; -- O/X 魔杖 30日/組
+UPDATE `etcitem` SET `crystallizable` = 0, `weight` = 100, `consume_type` = 2, `crystal_type` = 0, `duration` = -1 WHERE `item_id` = 13120; -- 剪刀/石頭/布魔杖 30日/組
+UPDATE `etcitem` SET `crystallizable` = 0, `weight` = 100, `consume_type` = 2, `crystal_type` = 0, `duration` = -1 WHERE `item_id` = 13121; -- 淡紫鬃馬 7日/組
+UPDATE `etcitem` SET `crystallizable` = 0, `weight` = 100, `consume_type` = 2, `crystal_type` = 0, `duration` = -1 WHERE `item_id` = 13122; -- 彩色稱號 3張/組
 UPDATE `etcitem` SET `crystallizable` = 0, `weight` = 100, `consume_type` = 2, `crystal_type` = 0, `duration` = -1 WHERE `item_id` = 13123; -- 自由傳送書組
-UPDATE `etcitem` SET `crystallizable` = 0, `weight` = 100, `consume_type` = 2, `crystal_type` = 0, `duration` = -1 WHERE `item_id` = 13124; -- 彩色稱號 1張組
-UPDATE `etcitem` SET `crystallizable` = 0, `weight` = 100, `consume_type` = 2, `crystal_type` = 0, `duration` = -1 WHERE `item_id` = 13125; -- 自由傳送卷軸 10張組
+UPDATE `etcitem` SET `crystallizable` = 0, `weight` = 100, `consume_type` = 2, `crystal_type` = 0, `duration` = -1 WHERE `item_id` = 13124; -- 彩色稱號 1張/組
+UPDATE `etcitem` SET `crystallizable` = 0, `weight` = 100, `consume_type` = 2, `crystal_type` = 0, `duration` = -1 WHERE `item_id` = 13125; -- 自由傳送卷軸 10張/組
 UPDATE `etcitem` SET `crystallizable` = 0, `weight` = 100, `consume_type` = 2, `crystal_type` = 0, `duration` = -1 WHERE `item_id` = 13126; -- 維他命體驗組-活動用
 UPDATE `etcitem` SET `crystallizable` = 0, `weight` = 100, `consume_type` = 2, `crystal_type` = 0, `duration` = -1 WHERE `item_id` = 13127; -- 促銷用組2
 UPDATE `etcitem` SET `crystallizable` = 0, `weight` = 120, `consume_type` = 2, `crystal_type` = 0, `duration` = -1, `item_type` = 1 WHERE `item_id` = 13128; -- 不死鳥之羽
@@ -10472,12 +10502,12 @@ UPDATE `etcitem` SET `crystallizable` = 0, `weight` = 5, `consume_type` = 2, `cr
 UPDATE `etcitem` SET `crystallizable` = 0, `weight` = 100, `consume_type` = 2, `crystal_type` = 0, `duration` = -1 WHERE `item_id` = 13225; -- 欲界(深淵之廳) 15張 箱子
 UPDATE `etcitem` SET `crystallizable` = 0, `weight` = 100, `consume_type` = 2, `crystal_type` = 0, `duration` = -1 WHERE `item_id` = 13226; -- 近緣欲界 15張 箱子
 UPDATE `etcitem` SET `crystallizable` = 0, `weight` = 100, `consume_type` = 2, `crystal_type` = 0, `duration` = -1 WHERE `item_id` = 13227; -- 欲界(深淵迷宮) 15張 箱子
-UPDATE `etcitem` SET `crystallizable` = 0, `weight` = 100, `consume_type` = 2, `crystal_type` = 0, `duration` = -1 WHERE `item_id` = 13228; -- 欲界(深淵之廳) 15張組
-UPDATE `etcitem` SET `crystallizable` = 0, `weight` = 100, `consume_type` = 2, `crystal_type` = 0, `duration` = -1 WHERE `item_id` = 13229; -- 近緣欲界 15張組
-UPDATE `etcitem` SET `crystallizable` = 0, `weight` = 100, `consume_type` = 2, `crystal_type` = 0, `duration` = -1 WHERE `item_id` = 13230; -- 欲界(深淵迷宮) 15張組
-UPDATE `etcitem` SET `crystallizable` = 0, `weight` = 100, `consume_type` = 2, `crystal_type` = 0, `duration` = -1 WHERE `item_id` = 13231; -- 欲界(深淵之廳) 5張組
-UPDATE `etcitem` SET `crystallizable` = 0, `weight` = 100, `consume_type` = 2, `crystal_type` = 0, `duration` = -1 WHERE `item_id` = 13232; -- 近緣欲界 5張組
-UPDATE `etcitem` SET `crystallizable` = 0, `weight` = 100, `consume_type` = 2, `crystal_type` = 0, `duration` = -1 WHERE `item_id` = 13233; -- 欲界(深淵迷宮) 5張組
+UPDATE `etcitem` SET `crystallizable` = 0, `weight` = 100, `consume_type` = 2, `crystal_type` = 0, `duration` = -1 WHERE `item_id` = 13228; -- 欲界(深淵之廳) 15張/組
+UPDATE `etcitem` SET `crystallizable` = 0, `weight` = 100, `consume_type` = 2, `crystal_type` = 0, `duration` = -1 WHERE `item_id` = 13229; -- 近緣欲界 15張/組
+UPDATE `etcitem` SET `crystallizable` = 0, `weight` = 100, `consume_type` = 2, `crystal_type` = 0, `duration` = -1 WHERE `item_id` = 13230; -- 欲界(深淵迷宮) 15張/組
+UPDATE `etcitem` SET `crystallizable` = 0, `weight` = 100, `consume_type` = 2, `crystal_type` = 0, `duration` = -1 WHERE `item_id` = 13231; -- 欲界(深淵之廳) 5張/組
+UPDATE `etcitem` SET `crystallizable` = 0, `weight` = 100, `consume_type` = 2, `crystal_type` = 0, `duration` = -1 WHERE `item_id` = 13232; -- 近緣欲界 5張/組
+UPDATE `etcitem` SET `crystallizable` = 0, `weight` = 100, `consume_type` = 2, `crystal_type` = 0, `duration` = -1 WHERE `item_id` = 13233; -- 欲界(深淵迷宮) 5張/組
 UPDATE `etcitem` SET `crystallizable` = 0, `weight` = 10, `consume_type` = 0, `crystal_type` = 0, `duration` = -1 WHERE `item_id` = 13255; -- 格蘭肯的禮盒-7日
 UPDATE `etcitem` SET `crystallizable` = 0, `weight` = 10, `consume_type` = 2, `crystal_type` = 0, `duration` = -1 WHERE `item_id` = 13256; -- 格蘭肯的禮盒組
 UPDATE `etcitem` SET `crystallizable` = 0, `weight` = 10, `consume_type` = 2, `crystal_type` = 0, `duration` = -1 WHERE `item_id` = 13257; -- 格蘭肯的禮盒組
@@ -10497,24 +10527,24 @@ UPDATE `etcitem` SET `crystallizable` = 0, `weight` = 100, `consume_type` = 2, `
 UPDATE `etcitem` SET `crystallizable` = 0, `weight` = 100, `consume_type` = 2, `crystal_type` = 0, `duration` = -1 WHERE `item_id` = 13272; -- 開拓者獎勵品-奧耶卡輪
 UPDATE `etcitem` SET `crystallizable` = 0, `weight` = 100, `consume_type` = 2, `crystal_type` = 0, `duration` = -1 WHERE `item_id` = 13273; -- 狩獵幫手交換券-5小時
 UPDATE `etcitem` SET `crystallizable` = 0, `weight` = 100, `consume_type` = 2, `crystal_type` = 0, `duration` = -1 WHERE `item_id` = 13274; -- 狩獵幫手交換券-7日
-UPDATE `etcitem` SET `crystallizable` = 0, `weight` = 100, `consume_type` = 2, `crystal_type` = 0, `duration` = -1 WHERE `item_id` = 13275; -- 狩獵幫手交換券 3張組
-UPDATE `etcitem` SET `crystallizable` = 0, `weight` = 100, `consume_type` = 2, `crystal_type` = 0, `duration` = -1 WHERE `item_id` = 13276; -- 狩獵幫手交換券 1張組
+UPDATE `etcitem` SET `crystallizable` = 0, `weight` = 100, `consume_type` = 2, `crystal_type` = 0, `duration` = -1 WHERE `item_id` = 13275; -- 狩獵幫手交換券 3張/組
+UPDATE `etcitem` SET `crystallizable` = 0, `weight` = 100, `consume_type` = 2, `crystal_type` = 0, `duration` = -1 WHERE `item_id` = 13276; -- 狩獵幫手交換券 1張/組
 UPDATE `etcitem` SET `crystallizable` = 0, `weight` = 10, `consume_type` = 0, `crystal_type` = 0, `duration` = -1, `item_type` = 7 WHERE `item_id` = 13277; -- 能量星石
 UPDATE `etcitem` SET `crystallizable` = 0, `weight` = 10, `consume_type` = 0, `crystal_type` = 0, `duration` = -1, `item_type` = 7 WHERE `item_id` = 13278; -- 高級能量星石
-UPDATE `etcitem` SET `crystallizable` = 0, `weight` = 100, `consume_type` = 2, `crystal_type` = 0, `duration` = -1 WHERE `item_id` = 13279; -- 祝福的羽毛 1張組
-UPDATE `etcitem` SET `crystallizable` = 0, `weight` = 100, `consume_type` = 2, `crystal_type` = 0, `duration` = -1 WHERE `item_id` = 13280; -- 愛心壺精 7日組
-UPDATE `etcitem` SET `crystallizable` = 0, `weight` = 100, `consume_type` = 2, `crystal_type` = 0, `duration` = -1 WHERE `item_id` = 13281; -- 南瓜變身魔杖 7日組
-UPDATE `etcitem` SET `crystallizable` = 0, `weight` = 100, `consume_type` = 2, `crystal_type` = 0, `duration` = -1 WHERE `item_id` = 13282; -- 戰鬥貓帽 7日組
-UPDATE `etcitem` SET `crystallizable` = 0, `weight` = 100, `consume_type` = 2, `crystal_type` = 0, `duration` = -1 WHERE `item_id` = 13283; -- 皇后貓帽 7日組
-UPDATE `etcitem` SET `crystallizable` = 0, `weight` = 100, `consume_type` = 2, `crystal_type` = 0, `duration` = -1 WHERE `item_id` = 13284; -- 眼怪帽 7日組
-UPDATE `etcitem` SET `crystallizable` = 0, `weight` = 100, `consume_type` = 2, `crystal_type` = 0, `duration` = -1 WHERE `item_id` = 13285; -- 棕熊帽 7日組
-UPDATE `etcitem` SET `crystallizable` = 0, `weight` = 100, `consume_type` = 2, `crystal_type` = 0, `duration` = -1 WHERE `item_id` = 13286; -- 蘑菇帽 7日組
-UPDATE `etcitem` SET `crystallizable` = 0, `weight` = 100, `consume_type` = 2, `crystal_type` = 0, `duration` = -1 WHERE `item_id` = 13287; -- 骷髏帽 7日組
-UPDATE `etcitem` SET `crystallizable` = 0, `weight` = 100, `consume_type` = 2, `crystal_type` = 0, `duration` = -1 WHERE `item_id` = 13288; -- 似鳥龍帽 7日組
-UPDATE `etcitem` SET `crystallizable` = 0, `weight` = 100, `consume_type` = 2, `crystal_type` = 0, `duration` = -1 WHERE `item_id` = 13289; -- 國王貓帽 7日組
-UPDATE `etcitem` SET `crystallizable` = 0, `weight` = 100, `consume_type` = 2, `crystal_type` = 0, `duration` = -1 WHERE `item_id` = 13290; -- 銀色貓帽 7日組
-UPDATE `etcitem` SET `crystallizable` = 0, `weight` = 100, `consume_type` = 2, `crystal_type` = 0, `duration` = -1 WHERE `item_id` = 13291; -- OX 魔杖 7日組
-UPDATE `etcitem` SET `crystallizable` = 0, `weight` = 100, `consume_type` = 2, `crystal_type` = 0, `duration` = -1 WHERE `item_id` = 13292; -- 剪刀石頭布魔杖 7日組
+UPDATE `etcitem` SET `crystallizable` = 0, `weight` = 100, `consume_type` = 2, `crystal_type` = 0, `duration` = -1 WHERE `item_id` = 13279; -- 祝福的羽毛 1張/組
+UPDATE `etcitem` SET `crystallizable` = 0, `weight` = 100, `consume_type` = 2, `crystal_type` = 0, `duration` = -1 WHERE `item_id` = 13280; -- 愛心壺精 7日/組
+UPDATE `etcitem` SET `crystallizable` = 0, `weight` = 100, `consume_type` = 2, `crystal_type` = 0, `duration` = -1 WHERE `item_id` = 13281; -- 南瓜變身魔杖 7日/組
+UPDATE `etcitem` SET `crystallizable` = 0, `weight` = 100, `consume_type` = 2, `crystal_type` = 0, `duration` = -1 WHERE `item_id` = 13282; -- 戰鬥貓帽 7日/組
+UPDATE `etcitem` SET `crystallizable` = 0, `weight` = 100, `consume_type` = 2, `crystal_type` = 0, `duration` = -1 WHERE `item_id` = 13283; -- 皇后貓帽 7日/組
+UPDATE `etcitem` SET `crystallizable` = 0, `weight` = 100, `consume_type` = 2, `crystal_type` = 0, `duration` = -1 WHERE `item_id` = 13284; -- 眼怪帽 7日/組
+UPDATE `etcitem` SET `crystallizable` = 0, `weight` = 100, `consume_type` = 2, `crystal_type` = 0, `duration` = -1 WHERE `item_id` = 13285; -- 棕熊帽 7日/組
+UPDATE `etcitem` SET `crystallizable` = 0, `weight` = 100, `consume_type` = 2, `crystal_type` = 0, `duration` = -1 WHERE `item_id` = 13286; -- 蘑菇帽 7日/組
+UPDATE `etcitem` SET `crystallizable` = 0, `weight` = 100, `consume_type` = 2, `crystal_type` = 0, `duration` = -1 WHERE `item_id` = 13287; -- 骷髏帽 7日/組
+UPDATE `etcitem` SET `crystallizable` = 0, `weight` = 100, `consume_type` = 2, `crystal_type` = 0, `duration` = -1 WHERE `item_id` = 13288; -- 似鳥龍帽 7日/組
+UPDATE `etcitem` SET `crystallizable` = 0, `weight` = 100, `consume_type` = 2, `crystal_type` = 0, `duration` = -1 WHERE `item_id` = 13289; -- 國王貓帽 7日/組
+UPDATE `etcitem` SET `crystallizable` = 0, `weight` = 100, `consume_type` = 2, `crystal_type` = 0, `duration` = -1 WHERE `item_id` = 13290; -- 銀色貓帽 7日/組
+UPDATE `etcitem` SET `crystallizable` = 0, `weight` = 100, `consume_type` = 2, `crystal_type` = 0, `duration` = -1 WHERE `item_id` = 13291; -- OX 魔杖 7日/組
+UPDATE `etcitem` SET `crystallizable` = 0, `weight` = 100, `consume_type` = 2, `crystal_type` = 0, `duration` = -1 WHERE `item_id` = 13292; -- 剪刀石頭布魔杖 7日/組
 UPDATE `etcitem` SET `crystallizable` = 0, `weight` = 5, `consume_type` = 2, `crystal_type` = 0, `duration` = -1 WHERE `item_id` = 13297; -- 追加入場券-欲界(深淵之廳)-活動用
 UPDATE `etcitem` SET `crystallizable` = 0, `weight` = 5, `consume_type` = 2, `crystal_type` = 0, `duration` = -1 WHERE `item_id` = 13298; -- 追加入場券-近緣欲界-活動用
 UPDATE `etcitem` SET `crystallizable` = 0, `weight` = 5, `consume_type` = 2, `crystal_type` = 0, `duration` = -1 WHERE `item_id` = 13299; -- 追加入場券-欲界(深淵迷宮)-活動用
@@ -10526,51 +10556,51 @@ UPDATE `etcitem` SET `crystallizable` = 0, `weight` = 10, `consume_type` = 0, `c
 UPDATE `etcitem` SET `crystallizable` = 0, `weight` = 10, `consume_type` = 0, `crystal_type` = 0, `duration` = -1, `item_type` = 7 WHERE `item_id` = 13305; -- 野獸鬥士狩獵幫手項鍊-活動用
 UPDATE `etcitem` SET `crystallizable` = 0, `weight` = 10, `consume_type` = 0, `crystal_type` = 0, `duration` = -1, `item_type` = 7 WHERE `item_id` = 13306; -- 狐狸術士狩獵幫手項鍊-活動用
 UPDATE `etcitem` SET `crystallizable` = 0, `weight` = 5, `consume_type` = 2, `crystal_type` = 0, `duration` = -1 WHERE `item_id` = 13307; -- 彩色稱號-活動用
-UPDATE `etcitem` SET `crystallizable` = 0, `weight` = 100, `consume_type` = 2, `crystal_type` = 0, `duration` = -1 WHERE `item_id` = 13341; -- 自由傳送書 1張組-活動用
-UPDATE `etcitem` SET `crystallizable` = 0, `weight` = 100, `consume_type` = 2, `crystal_type` = 0, `duration` = -1 WHERE `item_id` = 13342; -- 自由傳送卷軸 30張組-活動用
-UPDATE `etcitem` SET `crystallizable` = 0, `weight` = 100, `consume_type` = 2, `crystal_type` = 0, `duration` = -1 WHERE `item_id` = 13343; -- 祝福的羽毛 3張組-活動用
-UPDATE `etcitem` SET `crystallizable` = 0, `weight` = 100, `consume_type` = 2, `crystal_type` = 0, `duration` = -1 WHERE `item_id` = 13344; -- 愛心壺精 30日組-活動用
-UPDATE `etcitem` SET `crystallizable` = 0, `weight` = 100, `consume_type` = 2, `crystal_type` = 0, `duration` = -1 WHERE `item_id` = 13345; -- 南瓜變身魔杖 30日組-活動用
+UPDATE `etcitem` SET `crystallizable` = 0, `weight` = 100, `consume_type` = 2, `crystal_type` = 0, `duration` = -1 WHERE `item_id` = 13341; -- 自由傳送書 1張/組-活動用
+UPDATE `etcitem` SET `crystallizable` = 0, `weight` = 100, `consume_type` = 2, `crystal_type` = 0, `duration` = -1 WHERE `item_id` = 13342; -- 自由傳送卷軸 30張/組-活動用
+UPDATE `etcitem` SET `crystallizable` = 0, `weight` = 100, `consume_type` = 2, `crystal_type` = 0, `duration` = -1 WHERE `item_id` = 13343; -- 祝福的羽毛 3張/組-活動用
+UPDATE `etcitem` SET `crystallizable` = 0, `weight` = 100, `consume_type` = 2, `crystal_type` = 0, `duration` = -1 WHERE `item_id` = 13344; -- 愛心壺精 30日/組-活動用
+UPDATE `etcitem` SET `crystallizable` = 0, `weight` = 100, `consume_type` = 2, `crystal_type` = 0, `duration` = -1 WHERE `item_id` = 13345; -- 南瓜變身魔杖 30日/組-活動用
 UPDATE `etcitem` SET `crystallizable` = 0, `weight` = 100, `consume_type` = 2, `crystal_type` = 0, `duration` = -1 WHERE `item_id` = 13346; -- 欲界入場券 3種組-活動用
-UPDATE `etcitem` SET `crystallizable` = 0, `weight` = 100, `consume_type` = 2, `crystal_type` = 0, `duration` = -1 WHERE `item_id` = 13347; -- 戰鬥貓帽 30日組-活動用
-UPDATE `etcitem` SET `crystallizable` = 0, `weight` = 100, `consume_type` = 2, `crystal_type` = 0, `duration` = -1 WHERE `item_id` = 13348; -- 皇后貓帽 30日組-活動用
-UPDATE `etcitem` SET `crystallizable` = 0, `weight` = 100, `consume_type` = 2, `crystal_type` = 0, `duration` = -1 WHERE `item_id` = 13349; -- 眼怪帽 30日組-活動用
-UPDATE `etcitem` SET `crystallizable` = 0, `weight` = 100, `consume_type` = 2, `crystal_type` = 0, `duration` = -1 WHERE `item_id` = 13350; -- 棕熊帽 30日組-活動用
-UPDATE `etcitem` SET `crystallizable` = 0, `weight` = 100, `consume_type` = 2, `crystal_type` = 0, `duration` = -1 WHERE `item_id` = 13351; -- 蘑菇帽 30日組-活動用
-UPDATE `etcitem` SET `crystallizable` = 0, `weight` = 100, `consume_type` = 2, `crystal_type` = 0, `duration` = -1 WHERE `item_id` = 13352; -- 骷髏帽 30日組-活動用
-UPDATE `etcitem` SET `crystallizable` = 0, `weight` = 100, `consume_type` = 2, `crystal_type` = 0, `duration` = -1 WHERE `item_id` = 13353; -- 似鳥龍帽 30日組-活動用
-UPDATE `etcitem` SET `crystallizable` = 0, `weight` = 100, `consume_type` = 2, `crystal_type` = 0, `duration` = -1 WHERE `item_id` = 13354; -- 國王貓帽 30日組-活動用
-UPDATE `etcitem` SET `crystallizable` = 0, `weight` = 100, `consume_type` = 2, `crystal_type` = 0, `duration` = -1 WHERE `item_id` = 13355; -- 銀色貓帽 30日組-活動用
-UPDATE `etcitem` SET `crystallizable` = 0, `weight` = 100, `consume_type` = 2, `crystal_type` = 0, `duration` = -1 WHERE `item_id` = 13356; -- O/X 魔杖 30日組-活動用
-UPDATE `etcitem` SET `crystallizable` = 0, `weight` = 100, `consume_type` = 2, `crystal_type` = 0, `duration` = -1 WHERE `item_id` = 13357; -- 剪刀/石頭/布魔杖 30日組-活動用
-UPDATE `etcitem` SET `crystallizable` = 0, `weight` = 100, `consume_type` = 2, `crystal_type` = 0, `duration` = -1 WHERE `item_id` = 13358; -- 淡紫鬃馬 7日組-活動用
-UPDATE `etcitem` SET `crystallizable` = 0, `weight` = 100, `consume_type` = 2, `crystal_type` = 0, `duration` = -1 WHERE `item_id` = 13359; -- 彩色稱號 3張組-活動用
-UPDATE `etcitem` SET `crystallizable` = 0, `weight` = 100, `consume_type` = 2, `crystal_type` = 0, `duration` = -1 WHERE `item_id` = 13360; -- 彩色稱號 1張組-活動用
-UPDATE `etcitem` SET `crystallizable` = 0, `weight` = 100, `consume_type` = 2, `crystal_type` = 0, `duration` = -1 WHERE `item_id` = 13361; -- 自由傳送卷軸 10張組-活動用
-UPDATE `etcitem` SET `crystallizable` = 0, `weight` = 100, `consume_type` = 2, `crystal_type` = 0, `duration` = -1 WHERE `item_id` = 13362; -- 欲界(深淵之廳) 15張組-活動用
-UPDATE `etcitem` SET `crystallizable` = 0, `weight` = 100, `consume_type` = 2, `crystal_type` = 0, `duration` = -1 WHERE `item_id` = 13363; -- 近緣欲界15張組-活動用
-UPDATE `etcitem` SET `crystallizable` = 0, `weight` = 100, `consume_type` = 2, `crystal_type` = 0, `duration` = -1 WHERE `item_id` = 13364; -- 欲界(深淵迷宮) 15張組-活動用
-UPDATE `etcitem` SET `crystallizable` = 0, `weight` = 100, `consume_type` = 2, `crystal_type` = 0, `duration` = -1 WHERE `item_id` = 13365; -- 欲界(深淵之廳) 5張組-活動用
-UPDATE `etcitem` SET `crystallizable` = 0, `weight` = 100, `consume_type` = 2, `crystal_type` = 0, `duration` = -1 WHERE `item_id` = 13366; -- 近緣欲界5張組-活動用
-UPDATE `etcitem` SET `crystallizable` = 0, `weight` = 100, `consume_type` = 2, `crystal_type` = 0, `duration` = -1 WHERE `item_id` = 13367; -- 欲界(深淵迷宮) 5張組-活動用
-UPDATE `etcitem` SET `crystallizable` = 0, `weight` = 100, `consume_type` = 2, `crystal_type` = 0, `duration` = -1 WHERE `item_id` = 13368; -- 祝福的羽毛 1張組-活動用
-UPDATE `etcitem` SET `crystallizable` = 0, `weight` = 100, `consume_type` = 2, `crystal_type` = 0, `duration` = -1 WHERE `item_id` = 13369; -- 愛心壺精 7日組-活動用
-UPDATE `etcitem` SET `crystallizable` = 0, `weight` = 100, `consume_type` = 2, `crystal_type` = 0, `duration` = -1 WHERE `item_id` = 13370; -- 南瓜變身魔杖 7日組-活動用
-UPDATE `etcitem` SET `crystallizable` = 0, `weight` = 100, `consume_type` = 2, `crystal_type` = 0, `duration` = -1 WHERE `item_id` = 13371; -- 戰鬥貓帽 7日組-活動用
-UPDATE `etcitem` SET `crystallizable` = 0, `weight` = 100, `consume_type` = 2, `crystal_type` = 0, `duration` = -1 WHERE `item_id` = 13372; -- 皇后貓帽 7日組-活動用
-UPDATE `etcitem` SET `crystallizable` = 0, `weight` = 100, `consume_type` = 2, `crystal_type` = 0, `duration` = -1 WHERE `item_id` = 13373; -- 眼怪帽 7日組-活動用
-UPDATE `etcitem` SET `crystallizable` = 0, `weight` = 100, `consume_type` = 2, `crystal_type` = 0, `duration` = -1 WHERE `item_id` = 13374; -- 棕熊帽 7日組-活動用
-UPDATE `etcitem` SET `crystallizable` = 0, `weight` = 100, `consume_type` = 2, `crystal_type` = 0, `duration` = -1 WHERE `item_id` = 13375; -- 蘑菇帽 7日組-活動用
-UPDATE `etcitem` SET `crystallizable` = 0, `weight` = 100, `consume_type` = 2, `crystal_type` = 0, `duration` = -1 WHERE `item_id` = 13376; -- 骷髏帽 7日組-活動用
-UPDATE `etcitem` SET `crystallizable` = 0, `weight` = 100, `consume_type` = 2, `crystal_type` = 0, `duration` = -1 WHERE `item_id` = 13377; -- 似鳥龍帽 7日組-活動用
-UPDATE `etcitem` SET `crystallizable` = 0, `weight` = 100, `consume_type` = 2, `crystal_type` = 0, `duration` = -1 WHERE `item_id` = 13378; -- 國王貓帽 7日組-活動用
-UPDATE `etcitem` SET `crystallizable` = 0, `weight` = 100, `consume_type` = 2, `crystal_type` = 0, `duration` = -1 WHERE `item_id` = 13379; -- 銀色貓帽 7日組-活動用
-UPDATE `etcitem` SET `crystallizable` = 0, `weight` = 100, `consume_type` = 2, `crystal_type` = 0, `duration` = -1 WHERE `item_id` = 13380; -- OX 魔杖 7日組-活動用
-UPDATE `etcitem` SET `crystallizable` = 0, `weight` = 100, `consume_type` = 2, `crystal_type` = 0, `duration` = -1 WHERE `item_id` = 13381; -- 剪刀石頭布魔杖 7日組-活動用
-UPDATE `etcitem` SET `crystallizable` = 0, `weight` = 0, `consume_type` = 0, `crystal_type` = 0, `duration` = -1 WHERE `item_id` = 13382; -- 格蘭肯的禮盒-活動用        限時30日
+UPDATE `etcitem` SET `crystallizable` = 0, `weight` = 100, `consume_type` = 2, `crystal_type` = 0, `duration` = -1 WHERE `item_id` = 13347; -- 戰鬥貓帽 30日/組-活動用
+UPDATE `etcitem` SET `crystallizable` = 0, `weight` = 100, `consume_type` = 2, `crystal_type` = 0, `duration` = -1 WHERE `item_id` = 13348; -- 皇后貓帽 30日/組-活動用
+UPDATE `etcitem` SET `crystallizable` = 0, `weight` = 100, `consume_type` = 2, `crystal_type` = 0, `duration` = -1 WHERE `item_id` = 13349; -- 眼怪帽 30日/組-活動用
+UPDATE `etcitem` SET `crystallizable` = 0, `weight` = 100, `consume_type` = 2, `crystal_type` = 0, `duration` = -1 WHERE `item_id` = 13350; -- 棕熊帽 30日/組-活動用
+UPDATE `etcitem` SET `crystallizable` = 0, `weight` = 100, `consume_type` = 2, `crystal_type` = 0, `duration` = -1 WHERE `item_id` = 13351; -- 蘑菇帽 30日/組-活動用
+UPDATE `etcitem` SET `crystallizable` = 0, `weight` = 100, `consume_type` = 2, `crystal_type` = 0, `duration` = -1 WHERE `item_id` = 13352; -- 骷髏帽 30日/組-活動用
+UPDATE `etcitem` SET `crystallizable` = 0, `weight` = 100, `consume_type` = 2, `crystal_type` = 0, `duration` = -1 WHERE `item_id` = 13353; -- 似鳥龍帽 30日/組-活動用
+UPDATE `etcitem` SET `crystallizable` = 0, `weight` = 100, `consume_type` = 2, `crystal_type` = 0, `duration` = -1 WHERE `item_id` = 13354; -- 國王貓帽 30日/組-活動用
+UPDATE `etcitem` SET `crystallizable` = 0, `weight` = 100, `consume_type` = 2, `crystal_type` = 0, `duration` = -1 WHERE `item_id` = 13355; -- 銀色貓帽 30日/組-活動用
+UPDATE `etcitem` SET `crystallizable` = 0, `weight` = 100, `consume_type` = 2, `crystal_type` = 0, `duration` = -1 WHERE `item_id` = 13356; -- O/X 魔杖 30日/組-活動用
+UPDATE `etcitem` SET `crystallizable` = 0, `weight` = 100, `consume_type` = 2, `crystal_type` = 0, `duration` = -1 WHERE `item_id` = 13357; -- 剪刀/石頭/布魔杖 30日/組-活動用
+UPDATE `etcitem` SET `crystallizable` = 0, `weight` = 100, `consume_type` = 2, `crystal_type` = 0, `duration` = -1 WHERE `item_id` = 13358; -- 淡紫鬃馬 7日/組-活動用
+UPDATE `etcitem` SET `crystallizable` = 0, `weight` = 100, `consume_type` = 2, `crystal_type` = 0, `duration` = -1 WHERE `item_id` = 13359; -- 彩色稱號 3張/組-活動用
+UPDATE `etcitem` SET `crystallizable` = 0, `weight` = 100, `consume_type` = 2, `crystal_type` = 0, `duration` = -1 WHERE `item_id` = 13360; -- 彩色稱號 1張/組-活動用
+UPDATE `etcitem` SET `crystallizable` = 0, `weight` = 100, `consume_type` = 2, `crystal_type` = 0, `duration` = -1 WHERE `item_id` = 13361; -- 自由傳送卷軸 10張/組-活動用
+UPDATE `etcitem` SET `crystallizable` = 0, `weight` = 100, `consume_type` = 2, `crystal_type` = 0, `duration` = -1 WHERE `item_id` = 13362; -- 欲界(深淵之廳) 15張/組-活動用
+UPDATE `etcitem` SET `crystallizable` = 0, `weight` = 100, `consume_type` = 2, `crystal_type` = 0, `duration` = -1 WHERE `item_id` = 13363; -- 近緣欲界15張/組-活動用
+UPDATE `etcitem` SET `crystallizable` = 0, `weight` = 100, `consume_type` = 2, `crystal_type` = 0, `duration` = -1 WHERE `item_id` = 13364; -- 欲界(深淵迷宮) 15張/組-活動用
+UPDATE `etcitem` SET `crystallizable` = 0, `weight` = 100, `consume_type` = 2, `crystal_type` = 0, `duration` = -1 WHERE `item_id` = 13365; -- 欲界(深淵之廳) 5張/組-活動用
+UPDATE `etcitem` SET `crystallizable` = 0, `weight` = 100, `consume_type` = 2, `crystal_type` = 0, `duration` = -1 WHERE `item_id` = 13366; -- 近緣欲界5張/組-活動用
+UPDATE `etcitem` SET `crystallizable` = 0, `weight` = 100, `consume_type` = 2, `crystal_type` = 0, `duration` = -1 WHERE `item_id` = 13367; -- 欲界(深淵迷宮) 5張/組-活動用
+UPDATE `etcitem` SET `crystallizable` = 0, `weight` = 100, `consume_type` = 2, `crystal_type` = 0, `duration` = -1 WHERE `item_id` = 13368; -- 祝福的羽毛 1張/組-活動用
+UPDATE `etcitem` SET `crystallizable` = 0, `weight` = 100, `consume_type` = 2, `crystal_type` = 0, `duration` = -1 WHERE `item_id` = 13369; -- 愛心壺精 7日/組-活動用
+UPDATE `etcitem` SET `crystallizable` = 0, `weight` = 100, `consume_type` = 2, `crystal_type` = 0, `duration` = -1 WHERE `item_id` = 13370; -- 南瓜變身魔杖 7日/組-活動用
+UPDATE `etcitem` SET `crystallizable` = 0, `weight` = 100, `consume_type` = 2, `crystal_type` = 0, `duration` = -1 WHERE `item_id` = 13371; -- 戰鬥貓帽 7日/組-活動用
+UPDATE `etcitem` SET `crystallizable` = 0, `weight` = 100, `consume_type` = 2, `crystal_type` = 0, `duration` = -1 WHERE `item_id` = 13372; -- 皇后貓帽 7日/組-活動用
+UPDATE `etcitem` SET `crystallizable` = 0, `weight` = 100, `consume_type` = 2, `crystal_type` = 0, `duration` = -1 WHERE `item_id` = 13373; -- 眼怪帽 7日/組-活動用
+UPDATE `etcitem` SET `crystallizable` = 0, `weight` = 100, `consume_type` = 2, `crystal_type` = 0, `duration` = -1 WHERE `item_id` = 13374; -- 棕熊帽 7日/組-活動用
+UPDATE `etcitem` SET `crystallizable` = 0, `weight` = 100, `consume_type` = 2, `crystal_type` = 0, `duration` = -1 WHERE `item_id` = 13375; -- 蘑菇帽 7日/組-活動用
+UPDATE `etcitem` SET `crystallizable` = 0, `weight` = 100, `consume_type` = 2, `crystal_type` = 0, `duration` = -1 WHERE `item_id` = 13376; -- 骷髏帽 7日/組-活動用
+UPDATE `etcitem` SET `crystallizable` = 0, `weight` = 100, `consume_type` = 2, `crystal_type` = 0, `duration` = -1 WHERE `item_id` = 13377; -- 似鳥龍帽 7日/組-活動用
+UPDATE `etcitem` SET `crystallizable` = 0, `weight` = 100, `consume_type` = 2, `crystal_type` = 0, `duration` = -1 WHERE `item_id` = 13378; -- 國王貓帽 7日/組-活動用
+UPDATE `etcitem` SET `crystallizable` = 0, `weight` = 100, `consume_type` = 2, `crystal_type` = 0, `duration` = -1 WHERE `item_id` = 13379; -- 銀色貓帽 7日/組-活動用
+UPDATE `etcitem` SET `crystallizable` = 0, `weight` = 100, `consume_type` = 2, `crystal_type` = 0, `duration` = -1 WHERE `item_id` = 13380; -- OX 魔杖 7日/組-活動用
+UPDATE `etcitem` SET `crystallizable` = 0, `weight` = 100, `consume_type` = 2, `crystal_type` = 0, `duration` = -1 WHERE `item_id` = 13381; -- 剪刀石頭布魔杖 7日/組-活動用
+UPDATE `etcitem` SET `crystallizable` = 0, `weight` = 0, `consume_type` = 0, `crystal_type` = 0, `duration` = -1 WHERE `item_id` = 13382; -- 格蘭肯的禮盒-活動用限時30日
 UPDATE `etcitem` SET `crystallizable` = 0, `weight` = 100, `consume_type` = 2, `crystal_type` = 0, `duration` = -1 WHERE `item_id` = 13383; -- 狩獵幫手交換券-5小時-活動用
-UPDATE `etcitem` SET `crystallizable` = 0, `weight` = 100, `consume_type` = 2, `crystal_type` = 0, `duration` = -1 WHERE `item_id` = 13384; -- 狩獵幫手交換券 3張組-活動用
-UPDATE `etcitem` SET `crystallizable` = 0, `weight` = 100, `consume_type` = 2, `crystal_type` = 0, `duration` = -1 WHERE `item_id` = 13385; -- 狩獵幫手交換券 1張組-活動用
+UPDATE `etcitem` SET `crystallizable` = 0, `weight` = 100, `consume_type` = 2, `crystal_type` = 0, `duration` = -1 WHERE `item_id` = 13384; -- 狩獵幫手交換券 3張/組-活動用
+UPDATE `etcitem` SET `crystallizable` = 0, `weight` = 100, `consume_type` = 2, `crystal_type` = 0, `duration` = -1 WHERE `item_id` = 13385; -- 狩獵幫手交換券 1張/組-活動用
 UPDATE `etcitem` SET `crystallizable` = 0, `weight` = 10, `consume_type` = 2, `crystal_type` = 5, `duration` = -1, `item_type` = 1 WHERE `item_id` = 13386; -- 夢幻的藍色水晶
 UPDATE `etcitem` SET `crystallizable` = 0, `weight` = 10, `consume_type` = 2, `crystal_type` = 5, `duration` = -1, `item_type` = 1 WHERE `item_id` = 13387; -- 夢幻的綠色水晶
 UPDATE `etcitem` SET `crystallizable` = 0, `weight` = 10, `consume_type` = 2, `crystal_type` = 5, `duration` = -1, `item_type` = 1 WHERE `item_id` = 13388; -- 夢幻的紅色水晶
@@ -10599,13 +10629,13 @@ UPDATE `etcitem` SET `crystallizable` = 0, `weight` = 0, `consume_type` = 2, `cr
 UPDATE `etcitem` SET `crystallizable` = 0, `weight` = 20, `consume_type` = 2, `crystal_type` = 0, `duration` = -1 WHERE `item_id` = 13419; -- 天堂II紀念憑證
 UPDATE `etcitem` SET `crystallizable` = 0, `weight` = 5, `consume_type` = 2, `crystal_type` = 0, `duration` = -1, `item_type` = 3 WHERE `item_id` = 13420; -- 五色蜜年糕
 UPDATE `etcitem` SET `crystallizable` = 0, `weight` = 5, `consume_type` = 2, `crystal_type` = 0, `duration` = -1, `item_type` = 3 WHERE `item_id` = 13421; -- 藥果
-UPDATE `etcitem` SET `crystallizable` = 0, `weight` = 100, `consume_type` = 2, `crystal_type` = 0, `duration` = -1 WHERE `item_id` = 13422; -- 返回卷軸交換2張之箱
-UPDATE `etcitem` SET `crystallizable` = 0, `weight` = 100, `consume_type` = 2, `crystal_type` = 0, `duration` = -1 WHERE `item_id` = 13423; -- 原石交換2張之箱
-UPDATE `etcitem` SET `crystallizable` = 0, `weight` = 100, `consume_type` = 2, `crystal_type` = 0, `duration` = -1 WHERE `item_id` = 13424; -- 飲料交換3張之箱
-UPDATE `etcitem` SET `crystallizable` = 0, `weight` = 100, `consume_type` = 2, `crystal_type` = 0, `duration` = -1 WHERE `item_id` = 13425; -- 返回卷軸 1張之箱
-UPDATE `etcitem` SET `crystallizable` = 0, `weight` = 100, `consume_type` = 2, `crystal_type` = 0, `duration` = -1 WHERE `item_id` = 13426; -- 原石交換1張之箱
-UPDATE `etcitem` SET `crystallizable` = 0, `weight` = 100, `consume_type` = 2, `crystal_type` = 0, `duration` = -1 WHERE `item_id` = 13427; -- 飲料交換2張之箱
-UPDATE `etcitem` SET `crystallizable` = 0, `weight` = 100, `consume_type` = 2, `crystal_type` = 0, `duration` = -1 WHERE `item_id` = 13428; -- 飲料交換1張之箱
+UPDATE `etcitem` SET `crystallizable` = 0, `weight` = 100, `consume_type` = 2, `crystal_type` = 0, `duration` = -1 WHERE `item_id` = 13422; -- 返回卷軸交換2張/箱
+UPDATE `etcitem` SET `crystallizable` = 0, `weight` = 100, `consume_type` = 2, `crystal_type` = 0, `duration` = -1 WHERE `item_id` = 13423; -- 原石交換2張/箱
+UPDATE `etcitem` SET `crystallizable` = 0, `weight` = 100, `consume_type` = 2, `crystal_type` = 0, `duration` = -1 WHERE `item_id` = 13424; -- 飲料交換3張/箱
+UPDATE `etcitem` SET `crystallizable` = 0, `weight` = 100, `consume_type` = 2, `crystal_type` = 0, `duration` = -1 WHERE `item_id` = 13425; -- 返回卷軸交換1張/箱
+UPDATE `etcitem` SET `crystallizable` = 0, `weight` = 100, `consume_type` = 2, `crystal_type` = 0, `duration` = -1 WHERE `item_id` = 13426; -- 原石交換1張/箱
+UPDATE `etcitem` SET `crystallizable` = 0, `weight` = 100, `consume_type` = 2, `crystal_type` = 0, `duration` = -1 WHERE `item_id` = 13427; -- 飲料交換2張/箱
+UPDATE `etcitem` SET `crystallizable` = 0, `weight` = 100, `consume_type` = 2, `crystal_type` = 0, `duration` = -1 WHERE `item_id` = 13428; -- 飲料交換1張/箱
 UPDATE `etcitem` SET `crystallizable` = 0, `weight` = 0, `consume_type` = 0, `crystal_type` = 0, `duration` = -1 WHERE `item_id` = 20000; -- 辣白菜泡菜
 UPDATE `etcitem` SET `crystallizable` = 0, `weight` = 0, `consume_type` = 0, `crystal_type` = 0, `duration` = -1 WHERE `item_id` = 20001; -- 辣白菜泡菜
 UPDATE `etcitem` SET `crystallizable` = 0, `weight` = 0, `consume_type` = 0, `crystal_type` = 0, `duration` = -1 WHERE `item_id` = 20002; -- 辣白菜泡菜
@@ -10621,13 +10651,13 @@ UPDATE `etcitem` SET `crystallizable` = 0, `weight` = 5, `consume_type` = 2, `cr
 UPDATE `etcitem` SET `crystallizable` = 0, `weight` = 100, `consume_type` = 2, `crystal_type` = 0, `duration` = -1 WHERE `item_id` = 20035; -- 媽祖壺精組
 UPDATE `etcitem` SET `crystallizable` = 0, `weight` = 100, `consume_type` = 2, `crystal_type` = 0, `duration` = -1 WHERE `item_id` = 20036; -- 金面媽祖壺精組
 UPDATE `etcitem` SET `crystallizable` = 0, `weight` = 100, `consume_type` = 2, `crystal_type` = 0, `duration` = -1 WHERE `item_id` = 20037; -- 黑面媽祖壺精組
-UPDATE `etcitem` SET `crystallizable` = 0, `weight` = 100, `consume_type` = 2, `crystal_type` = 0, `duration` = -1 WHERE `item_id` = 20038; -- 媽祖壺精 30日組  大頭
-UPDATE `etcitem` SET `crystallizable` = 0, `weight` = 100, `consume_type` = 2, `crystal_type` = 0, `duration` = -1 WHERE `item_id` = 20039; -- 金面媽祖壺精 30日組      復活
-UPDATE `etcitem` SET `crystallizable` = 0, `weight` = 100, `consume_type` = 2, `crystal_type` = 0, `duration` = -1 WHERE `item_id` = 20040; -- 黑面媽祖壺精 30日組      返回
+UPDATE `etcitem` SET `crystallizable` = 0, `weight` = 100, `consume_type` = 2, `crystal_type` = 0, `duration` = -1 WHERE `item_id` = 20038; -- 媽祖壺精 30日/組 大頭
+UPDATE `etcitem` SET `crystallizable` = 0, `weight` = 100, `consume_type` = 2, `crystal_type` = 0, `duration` = -1 WHERE `item_id` = 20039; -- 金面媽祖壺精 30日/組     復活
+UPDATE `etcitem` SET `crystallizable` = 0, `weight` = 100, `consume_type` = 2, `crystal_type` = 0, `duration` = -1 WHERE `item_id` = 20040; -- 黑面媽祖壺精 30日/組     返回
 UPDATE `etcitem` SET `crystallizable` = 0, `weight` = 100, `consume_type` = 2, `crystal_type` = 0, `duration` = -1 WHERE `item_id` = 20041; -- 普萊皮塔壺精組
-UPDATE `etcitem` SET `crystallizable` = 0, `weight` = 100, `consume_type` = 2, `crystal_type` = 0, `duration` = -1 WHERE `item_id` = 20042; -- 普萊皮塔壺精 30日組      大頭
-UPDATE `etcitem` SET `crystallizable` = 0, `weight` = 100, `consume_type` = 2, `crystal_type` = 0, `duration` = -1 WHERE `item_id` = 20043; -- 普萊皮塔壺精 30日組      復活
-UPDATE `etcitem` SET `crystallizable` = 0, `weight` = 100, `consume_type` = 2, `crystal_type` = 0, `duration` = -1 WHERE `item_id` = 20044; -- 普萊皮塔壺精 30日組      返回
+UPDATE `etcitem` SET `crystallizable` = 0, `weight` = 100, `consume_type` = 2, `crystal_type` = 0, `duration` = -1 WHERE `item_id` = 20042; -- 普萊皮塔壺精 30日/組     大頭
+UPDATE `etcitem` SET `crystallizable` = 0, `weight` = 100, `consume_type` = 2, `crystal_type` = 0, `duration` = -1 WHERE `item_id` = 20043; -- 普萊皮塔壺精 30日/組     復活
+UPDATE `etcitem` SET `crystallizable` = 0, `weight` = 100, `consume_type` = 2, `crystal_type` = 0, `duration` = -1 WHERE `item_id` = 20044; -- 普萊皮塔壺精 30日/組     返回
 UPDATE `etcitem` SET `crystallizable` = 0, `weight` = 100, `consume_type` = 2, `crystal_type` = 0, `duration` = -1 WHERE `item_id` = 20045; -- 粗框眼鏡組       敏捷術
 UPDATE `etcitem` SET `crystallizable` = 0, `weight` = 100, `consume_type` = 2, `crystal_type` = 0, `duration` = -1 WHERE `item_id` = 20046; -- 爆炸頭組
 UPDATE `etcitem` SET `crystallizable` = 0, `weight` = 100, `consume_type` = 2, `crystal_type` = 0, `duration` = -1 WHERE `item_id` = 20047; -- 爆炸頭組 大頭，煙火
@@ -10637,25 +10667,25 @@ UPDATE `etcitem` SET `crystallizable` = 0, `weight` = 100, `consume_type` = 2, `
 UPDATE `etcitem` SET `crystallizable` = 0, `weight` = 100, `consume_type` = 2, `crystal_type` = 0, `duration` = -1 WHERE `item_id` = 20051; -- 暴走族口罩組
 UPDATE `etcitem` SET `crystallizable` = 0, `weight` = 100, `consume_type` = 2, `crystal_type` = 0, `duration` = -1 WHERE `item_id` = 20052; -- 緞帶髮飾組
 UPDATE `etcitem` SET `crystallizable` = 0, `weight` = 100, `consume_type` = 2, `crystal_type` = 0, `duration` = -1 WHERE `item_id` = 20053; -- 面甲組
-UPDATE `etcitem` SET `crystallizable` = 0, `weight` = 100, `consume_type` = 2, `crystal_type` = 0, `duration` = -1 WHERE `item_id` = 20054; -- 自由傳送卷軸 1張組
-UPDATE `etcitem` SET `crystallizable` = 0, `weight` = 100, `consume_type` = 2, `crystal_type` = 0, `duration` = -1 WHERE `item_id` = 20055; -- 追加入場券-欲界(深淵之廳) 1張組
-UPDATE `etcitem` SET `crystallizable` = 0, `weight` = 100, `consume_type` = 2, `crystal_type` = 0, `duration` = -1 WHERE `item_id` = 20056; -- 追加入場券-近緣欲界 1張組
-UPDATE `etcitem` SET `crystallizable` = 0, `weight` = 100, `consume_type` = 2, `crystal_type` = 0, `duration` = -1 WHERE `item_id` = 20057; -- 追加入場券-欲界(深淵迷宮) 1張組
+UPDATE `etcitem` SET `crystallizable` = 0, `weight` = 100, `consume_type` = 2, `crystal_type` = 0, `duration` = -1 WHERE `item_id` = 20054; -- 自由傳送卷軸 1張/組
+UPDATE `etcitem` SET `crystallizable` = 0, `weight` = 100, `consume_type` = 2, `crystal_type` = 0, `duration` = -1 WHERE `item_id` = 20055; -- 追加入場券-欲界(深淵之廳) 1張/組
+UPDATE `etcitem` SET `crystallizable` = 0, `weight` = 100, `consume_type` = 2, `crystal_type` = 0, `duration` = -1 WHERE `item_id` = 20056; -- 追加入場券-近緣欲界 1張/組
+UPDATE `etcitem` SET `crystallizable` = 0, `weight` = 100, `consume_type` = 2, `crystal_type` = 0, `duration` = -1 WHERE `item_id` = 20057; -- 追加入場券-欲界(深淵迷宮) 1張/組
 UPDATE `etcitem` SET `crystallizable` = 0, `weight` = 100, `consume_type` = 2, `crystal_type` = 0, `duration` = -1 WHERE `item_id` = 20058; -- 淡紫鬃馬手鐲組
-UPDATE `etcitem` SET `crystallizable` = 0, `weight` = 100, `consume_type` = 2, `crystal_type` = 0, `duration` = -1 WHERE `item_id` = 20059; -- 淡紫鬃馬手鐲 30日組
+UPDATE `etcitem` SET `crystallizable` = 0, `weight` = 100, `consume_type` = 2, `crystal_type` = 0, `duration` = -1 WHERE `item_id` = 20059; -- 淡紫鬃馬手鐲 30日/組
 UPDATE `etcitem` SET `crystallizable` = 0, `weight` = 100, `consume_type` = 2, `crystal_type` = 0, `duration` = -1 WHERE `item_id` = 20060; -- 戰鬥貓帽組
 UPDATE `etcitem` SET `crystallizable` = 0, `weight` = 100, `consume_type` = 2, `crystal_type` = 0, `duration` = -1 WHERE `item_id` = 20061; -- 骷髏帽組
 UPDATE `etcitem` SET `crystallizable` = 0, `weight` = 100, `consume_type` = 2, `crystal_type` = 0, `duration` = -1 WHERE `item_id` = 20062; -- 自由傳送旗組
-UPDATE `etcitem` SET `crystallizable` = 0, `weight` = 10, `consume_type` = 0, `crystal_type` = 0, `duration` = -1 WHERE `item_id` = 20179; -- 追加入場券-近緣欲界 5張組
-UPDATE `etcitem` SET `crystallizable` = 0, `weight` = 10, `consume_type` = 0, `crystal_type` = 0, `duration` = -1 WHERE `item_id` = 20180; -- 追加入場券-近緣欲界 10張組
-UPDATE `etcitem` SET `crystallizable` = 0, `weight` = 100, `consume_type` = 2, `crystal_type` = 0, `duration` = -1 WHERE `item_id` = 20181; -- 自由傳送卷軸 5張組
-UPDATE `etcitem` SET `crystallizable` = 0, `weight` = 100, `consume_type` = 2, `crystal_type` = 0, `duration` = -1 WHERE `item_id` = 20182; -- 自由傳送卷軸 10張組
-UPDATE `etcitem` SET `crystallizable` = 0, `weight` = 100, `consume_type` = 2, `crystal_type` = 0, `duration` = -1 WHERE `item_id` = 20183; -- 自由傳送旗 5張組
-UPDATE `etcitem` SET `crystallizable` = 0, `weight` = 100, `consume_type` = 2, `crystal_type` = 0, `duration` = -1 WHERE `item_id` = 20184; -- 自由傳送旗 10張組
-UPDATE `etcitem` SET `crystallizable` = 0, `weight` = 100, `consume_type` = 2, `crystal_type` = 0, `duration` = -1 WHERE `item_id` = 20185; -- 追加入場券-欲界(深淵之廳) 5張組
-UPDATE `etcitem` SET `crystallizable` = 0, `weight` = 100, `consume_type` = 2, `crystal_type` = 0, `duration` = -1 WHERE `item_id` = 20186; -- 追加入場券-欲界(深淵迷宮) 5張組
-UPDATE `etcitem` SET `crystallizable` = 0, `weight` = 100, `consume_type` = 2, `crystal_type` = 0, `duration` = -1 WHERE `item_id` = 20187; -- 追加入場券-欲界(深淵之廳) 10張組
-UPDATE `etcitem` SET `crystallizable` = 0, `weight` = 100, `consume_type` = 2, `crystal_type` = 0, `duration` = -1 WHERE `item_id` = 20188; -- 追加入場券-欲界(深淵迷宮) 10張組
+UPDATE `etcitem` SET `crystallizable` = 0, `weight` = 10, `consume_type` = 0, `crystal_type` = 0, `duration` = -1 WHERE `item_id` = 20179; -- 追加入場券-近緣欲界 5張/組
+UPDATE `etcitem` SET `crystallizable` = 0, `weight` = 10, `consume_type` = 0, `crystal_type` = 0, `duration` = -1 WHERE `item_id` = 20180; -- 追加入場券-近緣欲界 10張/組
+UPDATE `etcitem` SET `crystallizable` = 0, `weight` = 100, `consume_type` = 2, `crystal_type` = 0, `duration` = -1 WHERE `item_id` = 20181; -- 自由傳送卷軸 5張/組
+UPDATE `etcitem` SET `crystallizable` = 0, `weight` = 100, `consume_type` = 2, `crystal_type` = 0, `duration` = -1 WHERE `item_id` = 20182; -- 自由傳送卷軸 10張/組
+UPDATE `etcitem` SET `crystallizable` = 0, `weight` = 100, `consume_type` = 2, `crystal_type` = 0, `duration` = -1 WHERE `item_id` = 20183; -- 自由傳送旗 5張/組
+UPDATE `etcitem` SET `crystallizable` = 0, `weight` = 100, `consume_type` = 2, `crystal_type` = 0, `duration` = -1 WHERE `item_id` = 20184; -- 自由傳送旗 10張/組
+UPDATE `etcitem` SET `crystallizable` = 0, `weight` = 100, `consume_type` = 2, `crystal_type` = 0, `duration` = -1 WHERE `item_id` = 20185; -- 追加入場券-欲界(深淵之廳) 5張/組
+UPDATE `etcitem` SET `crystallizable` = 0, `weight` = 100, `consume_type` = 2, `crystal_type` = 0, `duration` = -1 WHERE `item_id` = 20186; -- 追加入場券-欲界(深淵迷宮) 5張/組
+UPDATE `etcitem` SET `crystallizable` = 0, `weight` = 100, `consume_type` = 2, `crystal_type` = 0, `duration` = -1 WHERE `item_id` = 20187; -- 追加入場券-欲界(深淵之廳) 10張/組
+UPDATE `etcitem` SET `crystallizable` = 0, `weight` = 100, `consume_type` = 2, `crystal_type` = 0, `duration` = -1 WHERE `item_id` = 20188; -- 追加入場券-欲界(深淵迷宮) 10張/組
 
 /***** 道具-錯誤資料修正 *****/
 
@@ -10701,6 +10731,20 @@ UPDATE `etcitem` SET `consume_type` = 'asset'           WHERE `consume_type` = '
 /***** 類型-資料修正 *****/
 UPDATE `etcitem` SET `consume_type` = 'stackable'       WHERE `item_type` = 'spellbook'; -- 魔法書類，修正為可堆疊
 
+/***** 使用時間 *****/
+UPDATE `etcitem` SET `duration` = '240'         WHERE `item_id` IN (20075,20076,20077,20078); -- 限時4小時
+UPDATE `etcitem` SET `duration` = '300'         WHERE `item_id` IN (13273,13383); -- 限時5小時
+UPDATE `etcitem` SET `duration` = '480'         WHERE `item_id` IN (20103,20104,20105,20106); -- 限時8小時
+UPDATE `etcitem` SET `duration` = '720'         WHERE `item_id` IN (20107,20108); -- 限時12小時
+UPDATE `etcitem` SET `duration` = '10080'       WHERE `item_id` >= 13280 AND `item_id` <= 13292; -- 限時7日
+UPDATE `etcitem` SET `duration` = '10080'       WHERE `item_id` >= 13369 AND `item_id` <= 13381; -- 限時7日
+UPDATE `etcitem` SET `duration` = '10080'       WHERE `item_id` IN (13121,13255,13274,13358); -- 限時7日
+UPDATE `etcitem` SET `duration` = '21600'       WHERE `item_id` IN (20072,20073,20074); -- 限時15日
+UPDATE `etcitem` SET `duration` = '43200'       WHERE `item_id` >= 13086 AND `item_id` <= 13096; -- 限時30日
+UPDATE `etcitem` SET `duration` = '43200'       WHERE `item_id` >= 13110 AND `item_id` <= 13120; -- 限時30日
+UPDATE `etcitem` SET `duration` = '43200'       WHERE `item_id` >= 13347 AND `item_id` <= 13357; -- 限時30日
+UPDATE `etcitem` SET `duration` = '43200'       WHERE `item_id` IN (13027,13083,13084,13107,13108,13344,13345,13382,20038,20039,20040,20042,20043,20044,20059); -- 限時30日
+
 /***** 可否結晶化 *****/
 UPDATE `etcitem` SET `crystallizable` = 'false'         WHERE `crystallizable` = '0'; -- 否
 UPDATE `etcitem` SET `crystallizable` = 'true'          WHERE `crystallizable` = '1'; -- 可
@@ -10718,7 +10762,7 @@ UPDATE `etcitem` SET `crystal_type` = 's80'             WHERE `crystal_type` = '
 /***** Done by vdmyagami！ *****/
 /************ Made in Taiwan ************/
 
-/***** 貳幕繽炫風 11-11 *****/
+/***** 貳幕繽炫風 12-16 *****/
 /***** weapon *****/
 /***** weapon.sql *****/
 /***** ↓L2J修正後可移除資料↓ *****/
@@ -13664,6 +13708,77 @@ UPDATE `weapon` SET `bodypart` = 7, `crystallizable` = 0, `weight` = 0, `soulsho
 UPDATE `weapon` SET `bodypart` = 7, `crystallizable` = 0, `weight` = 0, `soulshots` = 0, `spiritshots` = 0, `crystal_type` = 0, `p_dam` = 1, `rnd_dam` = 10, `weaponType` = 1, `critical` = 8, `hit_modify` = 0, `avoid_modify` = 0, `shield_def` = 0, `shield_def_rate` = 0, `atk_speed` = 379, `mp_consume` = 0, `m_dam` = 1, `duration` = -1 WHERE `item_id` = 13337; -- 石頭魔杖-活動用     限時7日
 UPDATE `weapon` SET `bodypart` = 7, `crystallizable` = 0, `weight` = 0, `soulshots` = 0, `spiritshots` = 0, `crystal_type` = 0, `p_dam` = 1, `rnd_dam` = 10, `weaponType` = 1, `critical` = 8, `hit_modify` = 0, `avoid_modify` = 0, `shield_def` = 0, `shield_def_rate` = 0, `atk_speed` = 379, `mp_consume` = 0, `m_dam` = 1, `duration` = -1 WHERE `item_id` = 13338; -- 布魔杖-活動用       限時7日
 UPDATE `weapon` SET `bodypart` = 7, `crystallizable` = 0, `weight` = 0, `soulshots` = 0, `spiritshots` = 0, `crystal_type` = 0, `p_dam` = 1, `rnd_dam` = 10, `weaponType` = 1, `critical` = 8, `hit_modify` = 0, `avoid_modify` = 0, `shield_def` = 0, `shield_def_rate` = 0, `atk_speed` = 379, `mp_consume` = 0, `m_dam` = 1, `duration` = -1 WHERE `item_id` = 13339; -- 南瓜變身魔杖-活動用 限時7日
+UPDATE `weapon` SET `bodypart` = 7, `crystallizable` = 1, `weight` = 483, `soulshots` = 3, `spiritshots` = 3, `crystal_type` = 1, `p_dam` = 79, `rnd_dam` = 10, `weaponType` = 1, `critical` = 8, `hit_modify` = 0, `avoid_modify` = 0, `shield_def` = 0, `shield_def_rate` = 0, `atk_speed` = 379, `mp_consume` = 0, `m_dam` = 47, `duration` = -1 WHERE `item_id` = 20109; --         革命劍-活動     限時4小時
+UPDATE `weapon` SET `bodypart` = 14, `crystallizable` = 1, `weight` = 673, `soulshots` = 3, `spiritshots` = 3, `crystal_type` = 1, `p_dam` = 96, `rnd_dam` = 10, `weaponType` = 1, `critical` = 8, `hit_modify` = 0, `avoid_modify` = 0, `shield_def` = 0, `shield_def_rate` = 0, `atk_speed` = 325, `mp_consume` = 0, `m_dam` = 47, `duration` = -1 WHERE `item_id` = 20110; --        下巨人之劍-活動 限時4小時
+UPDATE `weapon` SET `bodypart` = 7, `crystallizable` = 1, `weight` = 357, `soulshots` = 3, `spiritshots` = 3, `crystal_type` = 1, `p_dam` = 69, `rnd_dam` = 5, `weaponType` = 3, `critical` = 12, `hit_modify` = -3, `avoid_modify` = 0, `shield_def` = 0, `shield_def_rate` = 0, `atk_speed` = 433, `mp_consume` = 0, `m_dam` = 47, `duration` = -1 WHERE `item_id` = 20111; --        突刺刀-活動     限時4小時
+UPDATE `weapon` SET `bodypart` = 7, `crystallizable` = 1, `weight` = 577, `soulshots` = 3, `spiritshots` = 3, `crystal_type` = 1, `p_dam` = 79, `rnd_dam` = 20, `weaponType` = 2, `critical` = 4, `hit_modify` = 4, `avoid_modify` = 0, `shield_def` = 0, `shield_def_rate` = 0, `atk_speed` = 379, `mp_consume` = 0, `m_dam` = 47, `duration` = -1 WHERE `item_id` = 20112; --         塔巴曲刃斧-活動 限時4小時
+UPDATE `weapon` SET `bodypart` = 14, `crystallizable` = 1, `weight` = 700, `soulshots` = 3, `spiritshots` = 3, `crystal_type` = 1, `p_dam` = 96, `rnd_dam` = 20, `weaponType` = 2, `critical` = 4, `hit_modify` = 4, `avoid_modify` = 0, `shield_def` = 0, `shield_def_rate` = 0, `atk_speed` = 325, `mp_consume` = 0, `m_dam` = 47, `duration` = -1 WHERE `item_id` = 20113; --        下巨人之鎚-活動 限時4小時
+UPDATE `weapon` SET `bodypart` = 7, `crystallizable` = 1, `weight` = 573, `soulshots` = 3, `spiritshots` = 3, `crystal_type` = 1, `p_dam` = 63, `rnd_dam` = 20, `weaponType` = 2, `critical` = 4, `hit_modify` = 4, `avoid_modify` = 0, `shield_def` = 0, `shield_def_rate` = 0, `atk_speed` = 379, `mp_consume` = 0, `m_dam` = 63, `duration` = -1 WHERE `item_id` = 20114; --         祭司釘鎚-活動   限時4小時
+UPDATE `weapon` SET `bodypart` = 14, `crystallizable` = 1, `weight` = 333, `soulshots` = 3, `spiritshots` = 3, `crystal_type` = 1, `p_dam` = 77, `rnd_dam` = 20, `weaponType` = 2, `critical` = 4, `hit_modify` = 4, `avoid_modify` = 0, `shield_def` = 0, `shield_def_rate` = 0, `atk_speed` = 325, `mp_consume` = 0, `m_dam` = 63, `duration` = -1 WHERE `item_id` = 20115; --        山羊頭之杖-活動 限時4小時
+UPDATE `weapon` SET `bodypart` = 14, `crystallizable` = 1, `weight` = 503, `soulshots` = 3, `spiritshots` = 3, `crystal_type` = 1, `p_dam` = 96, `rnd_dam` = 5, `weaponType` = 5, `critical` = 4, `hit_modify` = 4, `avoid_modify` = 0, `shield_def` = 0, `shield_def_rate` = 0, `atk_speed` = 325, `mp_consume` = 0, `m_dam` = 47, `duration` = -1 WHERE `item_id` = 20116; --         拳套刀-活動     限時4小時
+UPDATE `weapon` SET `bodypart` = 14, `crystallizable` = 1, `weight` = 607, `soulshots` = 10, `spiritshots` = 3, `crystal_type` = 1, `p_dam` = 179, `rnd_dam` = 5, `weaponType` = 6, `critical` = 12, `hit_modify` = -3, `avoid_modify` = 0, `shield_def` = 0, `shield_def_rate` = 0, `atk_speed` = 227, `mp_consume` = 5, `m_dam` = 51, `duration` = -1 WHERE `item_id` = 20117; --     強化長弓-活動   限時4小時
+UPDATE `weapon` SET `bodypart` = 14, `crystallizable` = 1, `weight` = 687, `soulshots` = 3, `spiritshots` = 3, `crystal_type` = 1, `p_dam` = 79, `rnd_dam` = 10, `weaponType` = 4, `critical` = 8, `hit_modify` = -3, `avoid_modify` = 0, `shield_def` = 0, `shield_def_rate` = 0, `atk_speed` = 325, `mp_consume` = 0, `m_dam` = 47, `duration` = -1 WHERE `item_id` = 20118; --       翼之矛-活動     限時4小時
+UPDATE `weapon` SET `bodypart` = 14, `crystallizable` = 1, `weight` = 827, `soulshots` = 3, `spiritshots` = 3, `crystal_type` = 1, `p_dam` = 96, `rnd_dam` = 10, `weaponType` = 8, `critical` = 8, `hit_modify` = 0, `avoid_modify` = 0, `shield_def` = 0, `shield_def_rate` = 0, `atk_speed` = 325, `mp_consume` = 0, `m_dam` = 47, `duration` = -1 WHERE `item_id` = 20119; --        工匠之劍*工匠之劍-活動  限時4小時
+UPDATE `weapon` SET `bodypart` = 7, `crystallizable` = 1, `weight` = 483, `soulshots` = 3, `spiritshots` = 3, `crystal_type` = 1, `p_dam` = 72, `rnd_dam` = 40, `weaponType` = 11, `critical` = 10, `hit_modify` = -1, `avoid_modify` = 0, `shield_def` = 0, `shield_def_rate` = 0, `atk_speed` = 406, `mp_consume` = 0, `m_dam` = 47, `duration` = -1 WHERE `item_id` = 20120; --      銳劍-活動       限時4小時
+UPDATE `weapon` SET `bodypart` = 14, `crystallizable` = 1, `weight` = 673, `soulshots` = 3, `spiritshots` = 3, `crystal_type` = 1, `p_dam` = 86, `rnd_dam` = 15, `weaponType` = 13, `critical` = 8, `hit_modify` = 2, `avoid_modify` = 0, `shield_def` = 0, `shield_def_rate` = 0, `atk_speed` = 350, `mp_consume` = 0, `m_dam` = 47, `duration` = -1 WHERE `item_id` = 20121; --       格鬥劍-活動     限時4小時
+UPDATE `weapon` SET `bodypart` = 14, `crystallizable` = 1, `weight` = 607, `soulshots` = 6, `spiritshots` = 3, `crystal_type` = 1, `p_dam` = 100, `rnd_dam` = 10, `weaponType` = 12, `critical` = 10, `hit_modify` = -1, `avoid_modify` = 0, `shield_def` = 0, `shield_def_rate` = 0, `atk_speed` = 303, `mp_consume` = 0, `m_dam` = 47, `duration` = -1 WHERE `item_id` = 20122; --    爆破之臂-活動   限時4小時
+UPDATE `weapon` SET `bodypart` = 7, `crystallizable` = 1, `weight` = 460, `soulshots` = 3, `spiritshots` = 3, `crystal_type` = 2, `p_dam` = 156, `rnd_dam` = 10, `weaponType` = 1, `critical` = 8, `hit_modify` = 0, `avoid_modify` = 0, `shield_def` = 0, `shield_def_rate` = 0, `atk_speed` = 379, `mp_consume` = 0, `m_dam` = 83, `duration` = -1 WHERE `item_id` = 20123; --        瑟魯基長劍-活動 限時4小時
+UPDATE `weapon` SET `bodypart` = 14, `crystallizable` = 1, `weight` = 460, `soulshots` = 3, `spiritshots` = 3, `crystal_type` = 2, `p_dam` = 190, `rnd_dam` = 10, `weaponType` = 1, `critical` = 8, `hit_modify` = 0, `avoid_modify` = 0, `shield_def` = 0, `shield_def_rate` = 0, `atk_speed` = 325, `mp_consume` = 0, `m_dam` = 83, `duration` = -1 WHERE `item_id` = 20124; --       狂戰士之刃-活動 限時4小時
+UPDATE `weapon` SET `bodypart` = 7, `crystallizable` = 1, `weight` = 333, `soulshots` = 3, `spiritshots` = 3, `crystal_type` = 2, `p_dam` = 136, `rnd_dam` = 5, `weaponType` = 3, `critical` = 12, `hit_modify` = -3, `avoid_modify` = 0, `shield_def` = 0, `shield_def_rate` = 0, `atk_speed` = 433, `mp_consume` = 0, `m_dam` = 83, `duration` = -1 WHERE `item_id` = 20125; --       水晶匕首-活動   限時4小時
+UPDATE `weapon` SET `bodypart` = 7, `crystallizable` = 1, `weight` = 547, `soulshots` = 3, `spiritshots` = 3, `crystal_type` = 2, `p_dam` = 156, `rnd_dam` = 20, `weaponType` = 2, `critical` = 4, `hit_modify` = 4, `avoid_modify` = 0, `shield_def` = 0, `shield_def_rate` = 0, `atk_speed` = 379, `mp_consume` = 0, `m_dam` = 83, `duration` = -1 WHERE `item_id` = 20126; --        夜叉釘鎚-活動   限時4小時
+UPDATE `weapon` SET `bodypart` = 14, `crystallizable` = 1, `weight` = 670, `soulshots` = 3, `spiritshots` = 3, `crystal_type` = 2, `p_dam` = 190, `rnd_dam` = 20, `weaponType` = 2, `critical` = 4, `hit_modify` = 4, `avoid_modify` = 0, `shield_def` = 0, `shield_def_rate` = 0, `atk_speed` = 325, `mp_consume` = 0, `m_dam` = 83, `duration` = -1 WHERE `item_id` = 20127; --       矮人巨鎚-活動   限時4小時
+UPDATE `weapon` SET `bodypart` = 7, `crystallizable` = 1, `weight` = 547, `soulshots` = 3, `spiritshots` = 3, `crystal_type` = 2, `p_dam` = 125, `rnd_dam` = 20, `weaponType` = 2, `critical` = 4, `hit_modify` = 4, `avoid_modify` = 0, `shield_def` = 0, `shield_def_rate` = 0, `atk_speed` = 379, `mp_consume` = 0, `m_dam` = 111, `duration` = -1 WHERE `item_id` = 20128; --       月蝕斧-活動     限時4小時
+UPDATE `weapon` SET `bodypart` = 14, `crystallizable` = 1, `weight` = 330, `soulshots` = 3, `spiritshots` = 3, `crystal_type` = 2, `p_dam` = 152, `rnd_dam` = 20, `weaponType` = 2, `critical` = 4, `hit_modify` = 4, `avoid_modify` = 0, `shield_def` = 0, `shield_def_rate` = 0, `atk_speed` = 325, `mp_consume` = 0, `m_dam` = 111, `duration` = -1 WHERE `item_id` = 20129; --      惡魔魔杖-活動   限時4小時
+UPDATE `weapon` SET `bodypart` = 14, `crystallizable` = 1, `weight` = 487, `soulshots` = 3, `spiritshots` = 3, `crystal_type` = 2, `p_dam` = 190, `rnd_dam` = 5, `weaponType` = 5, `critical` = 4, `hit_modify` = 4, `avoid_modify` = 0, `shield_def` = 0, `shield_def_rate` = 0, `atk_speed` = 325, `mp_consume` = 0, `m_dam` = 83, `duration` = -1 WHERE `item_id` = 20130; --        巨型帕塔拳刃-活動       限時4小時
+UPDATE `weapon` SET `bodypart` = 14, `crystallizable` = 1, `weight` = 573, `soulshots` = 10, `spiritshots` = 3, `crystal_type` = 2, `p_dam` = 323, `rnd_dam` = 5, `weaponType` = 6, `critical` = 12, `hit_modify` = -3, `avoid_modify` = 0, `shield_def` = 0, `shield_def_rate` = 0, `atk_speed` = 293, `mp_consume` = 8, `m_dam` = 83, `duration` = -1 WHERE `item_id` = 20131; --     卓越弓-活動     限時4小時
+UPDATE `weapon` SET `bodypart` = 14, `crystallizable` = 1, `weight` = 650, `soulshots` = 3, `spiritshots` = 3, `crystal_type` = 2, `p_dam` = 156, `rnd_dam` = 10, `weaponType` = 4, `critical` = 8, `hit_modify` = -3, `avoid_modify` = 0, `shield_def` = 0, `shield_def_rate` = 0, `atk_speed` = 325, `mp_consume` = 0, `m_dam` = 83, `duration` = -1 WHERE `item_id` = 20132; --      歐西斯戰斧-活動 限時4小時
+UPDATE `weapon` SET `bodypart` = 14, `crystallizable` = 1, `weight` = 757, `soulshots` = 3, `spiritshots` = 3, `crystal_type` = 2, `p_dam` = 190, `rnd_dam` = 10, `weaponType` = 8, `critical` = 8, `hit_modify` = 0, `avoid_modify` = 0, `shield_def` = 0, `shield_def_rate` = 0, `atk_speed` = 325, `mp_consume` = 0, `m_dam` = 83, `duration` = -1 WHERE `item_id` = 20133; --       武士刀*武士刀-活動      限時4小時
+UPDATE `weapon` SET `bodypart` = 7, `crystallizable` = 1, `weight` = 460, `soulshots` = 3, `spiritshots` = 3, `crystal_type` = 2, `p_dam` = 141, `rnd_dam` = 40, `weaponType` = 11, `critical` = 10, `hit_modify` = -1, `avoid_modify` = 0, `shield_def` = 0, `shield_def_rate` = 0, `atk_speed` = 406, `mp_consume` = 0, `m_dam` = 83, `duration` = -1 WHERE `item_id` = 20134; --     上將刺劍-活動   限時4小時
+UPDATE `weapon` SET `bodypart` = 14, `crystallizable` = 1, `weight` = 650, `soulshots` = 3, `spiritshots` = 3, `crystal_type` = 2, `p_dam` = 169, `rnd_dam` = 15, `weaponType` = 13, `critical` = 8, `hit_modify` = 2, `avoid_modify` = 0, `shield_def` = 0, `shield_def_rate` = 0, `atk_speed` = 350, `mp_consume` = 0, `m_dam` = 83, `duration` = -1 WHERE `item_id` = 20135; --      劍齒虎-活動     限時4小時
+UPDATE `weapon` SET `bodypart` = 14, `crystallizable` = 1, `weight` = 580, `soulshots` = 6, `spiritshots` = 3, `crystal_type` = 2, `p_dam` = 198, `rnd_dam` = 10, `weaponType` = 12, `critical` = 10, `hit_modify` = -1, `avoid_modify` = 0, `shield_def` = 0, `shield_def_rate` = 0, `atk_speed` = 303, `mp_consume` = 0, `m_dam` = 83, `duration` = -1 WHERE `item_id` = 20136; --    滅形弩-活動     限時4小時
+UPDATE `weapon` SET `bodypart` = 7, `crystallizable` = 1, `weight` = 450, `soulshots` = 1, `spiritshots` = 1, `crystal_type` = 3, `p_dam` = 194, `rnd_dam` = 10, `weaponType` = 1, `critical` = 8, `hit_modify` = 0, `avoid_modify` = 0, `shield_def` = 0, `shield_def_rate` = 0, `atk_speed` = 379, `mp_consume` = 0, `m_dam` = 99, `duration` = -1 WHERE `item_id` = 20137; --        大馬士革刀-活動 限時4小時
+UPDATE `weapon` SET `bodypart` = 14, `crystallizable` = 1, `weight` = 643, `soulshots` = 1, `spiritshots` = 1, `crystal_type` = 3, `p_dam` = 236, `rnd_dam` = 10, `weaponType` = 1, `critical` = 8, `hit_modify` = 0, `avoid_modify` = 0, `shield_def` = 0, `shield_def_rate` = 0, `atk_speed` = 325, `mp_consume` = 0, `m_dam` = 99, `duration` = -1 WHERE `item_id` = 20138; --       守護神之劍-活動 限時4小時
+UPDATE `weapon` SET `bodypart` = 7, `crystallizable` = 1, `weight` = 323, `soulshots` = 1, `spiritshots` = 1, `crystal_type` = 3, `p_dam` = 170, `rnd_dam` = 5, `weaponType` = 3, `critical` = 12, `hit_modify` = -3, `avoid_modify` = 0, `shield_def` = 0, `shield_def_rate` = 0, `atk_speed` = 433, `mp_consume` = 0, `m_dam` = 99, `duration` = -1 WHERE `item_id` = 20139; --       惡魔短劍-活動   限時4小時
+UPDATE `weapon` SET `bodypart` = 7, `crystallizable` = 1, `weight` = 523, `soulshots` = 1, `spiritshots` = 1, `crystal_type` = 3, `p_dam` = 194, `rnd_dam` = 20, `weaponType` = 2, `critical` = 4, `hit_modify` = 4, `avoid_modify` = 0, `shield_def` = 0, `shield_def_rate` = 0, `atk_speed` = 379, `mp_consume` = 0, `m_dam` = 99, `duration` = -1 WHERE `item_id` = 20140; --        工藝戰斧-活動   限時4小時
+UPDATE `weapon` SET `bodypart` = 14, `crystallizable` = 1, `weight` = 643, `soulshots` = 1, `spiritshots` = 1, `crystal_type` = 3, `p_dam` = 236, `rnd_dam` = 20, `weaponType` = 2, `critical` = 4, `hit_modify` = 4, `avoid_modify` = 0, `shield_def` = 0, `shield_def_rate` = 0, `atk_speed` = 325, `mp_consume` = 0, `m_dam` = 99, `duration` = -1 WHERE `item_id` = 20141; --       星爆-活動       限時4小時
+UPDATE `weapon` SET `bodypart` = 7, `crystallizable` = 1, `weight` = 523, `soulshots` = 1, `spiritshots` = 1, `crystal_type` = 3, `p_dam` = 155, `rnd_dam` = 20, `weaponType` = 2, `critical` = 4, `hit_modify` = 4, `avoid_modify` = 0, `shield_def` = 0, `shield_def_rate` = 0, `atk_speed` = 379, `mp_consume` = 0, `m_dam` = 132, `duration` = -1 WHERE `item_id` = 20142; --       卡倚巴奴之骨-活動       限時4小時
+UPDATE `weapon` SET `bodypart` = 14, `crystallizable` = 1, `weight` = 310, `soulshots` = 1, `spiritshots` = 1, `crystal_type` = 3, `p_dam` = 189, `rnd_dam` = 20, `weaponType` = 2, `critical` = 4, `hit_modify` = 4, `avoid_modify` = 0, `shield_def` = 0, `shield_def_rate` = 0, `atk_speed` = 325, `mp_consume` = 0, `m_dam` = 132, `duration` = -1 WHERE `item_id` = 20143; --      邪靈魔杖-活動   限時4小時
+UPDATE `weapon` SET `bodypart` = 14, `crystallizable` = 1, `weight` = 463, `soulshots` = 1, `spiritshots` = 1, `crystal_type` = 3, `p_dam` = 236, `rnd_dam` = 5, `weaponType` = 5, `critical` = 4, `hit_modify` = 4, `avoid_modify` = 0, `shield_def` = 0, `shield_def_rate` = 0, `atk_speed` = 325, `mp_consume` = 0, `m_dam` = 99, `duration` = -1 WHERE `item_id` = 20144; --        博利恩拳套-活動 限時4小時
+UPDATE `weapon` SET `bodypart` = 14, `crystallizable` = 1, `weight` = 567, `soulshots` = 3, `spiritshots` = 1, `crystal_type` = 3, `p_dam` = 400, `rnd_dam` = 5, `weaponType` = 6, `critical` = 12, `hit_modify` = -3, `avoid_modify` = 0, `shield_def` = 0, `shield_def_rate` = 0, `atk_speed` = 293, `mp_consume` = 9, `m_dam` = 99, `duration` = -1 WHERE `item_id` = 20145; --      冒險弓-活動     限時4小時
+UPDATE `weapon` SET `bodypart` = 14, `crystallizable` = 1, `weight` = 640, `soulshots` = 1, `spiritshots` = 1, `crystal_type` = 3, `p_dam` = 194, `rnd_dam` = 10, `weaponType` = 4, `critical` = 8, `hit_modify` = -3, `avoid_modify` = 0, `shield_def` = 0, `shield_def_rate` = 0, `atk_speed` = 325, `mp_consume` = 0, `m_dam` = 99, `duration` = -1 WHERE `item_id` = 20146; --      長槍-活動       限時4小時
+UPDATE `weapon` SET `bodypart` = 14, `crystallizable` = 1, `weight` = 693, `soulshots` = 1, `spiritshots` = 1, `crystal_type` = 3, `p_dam` = 236, `rnd_dam` = 10, `weaponType` = 8, `critical` = 8, `hit_modify` = 0, `avoid_modify` = 0, `shield_def` = 0, `shield_def_rate` = 0, `atk_speed` = 325, `mp_consume` = 0, `m_dam` = 99, `duration` = -1 WHERE `item_id` = 20147; --       瑟魯基長劍*瑟魯基長劍-活動      限時4小時
+UPDATE `weapon` SET `bodypart` = 7, `crystallizable` = 1, `weight` = 450, `soulshots` = 1, `spiritshots` = 1, `crystal_type` = 3, `p_dam` = 176, `rnd_dam` = 40, `weaponType` = 11, `critical` = 10, `hit_modify` = -1, `avoid_modify` = 0, `shield_def` = 0, `shield_def_rate` = 0, `atk_speed` = 406, `mp_consume` = 0, `m_dam` = 99, `duration` = -1 WHERE `item_id` = 20148; --     華麗細劍-活動   限時4小時
+UPDATE `weapon` SET `bodypart` = 14, `crystallizable` = 1, `weight` = 643, `soulshots` = 1, `spiritshots` = 1, `crystal_type` = 3, `p_dam` = 210, `rnd_dam` = 15, `weaponType` = 13, `critical` = 8, `hit_modify` = 2, `avoid_modify` = 0, `shield_def` = 0, `shield_def_rate` = 0, `atk_speed` = 350, `mp_consume` = 0, `m_dam` = 99, `duration` = -1 WHERE `item_id` = 20149; --      裂解劍-活動     限時4小時
+UPDATE `weapon` SET `bodypart` = 14, `crystallizable` = 1, `weight` = 567, `soulshots` = 2, `spiritshots` = 1, `crystal_type` = 3, `p_dam` = 245, `rnd_dam` = 10, `weaponType` = 12, `critical` = 10, `hit_modify` = -1, `avoid_modify` = 0, `shield_def` = 0, `shield_def_rate` = 0, `atk_speed` = 303, `mp_consume` = 0, `m_dam` = 99, `duration` = -1 WHERE `item_id` = 20150; --    冥犬之牙-活動   限時4小時
+UPDATE `weapon` SET `bodypart` = 7, `crystallizable` = 1, `weight` = 440, `soulshots` = 1, `spiritshots` = 1, `crystal_type` = 4, `p_dam` = 232, `rnd_dam` = 10, `weaponType` = 1, `critical` = 8, `hit_modify` = 0, `avoid_modify` = 0, `shield_def` = 0, `shield_def_rate` = 0, `atk_speed` = 379, `mp_consume` = 0, `m_dam` = 114, `duration` = -1 WHERE `item_id` = 20151; --       黑暗軍刀-活動   限時4小時
+UPDATE `weapon` SET `bodypart` = 14, `crystallizable` = 1, `weight` = 613, `soulshots` = 1, `spiritshots` = 1, `crystal_type` = 4, `p_dam` = 282, `rnd_dam` = 10, `weaponType` = 1, `critical` = 8, `hit_modify` = 0, `avoid_modify` = 0, `shield_def` = 0, `shield_def_rate` = 0, `atk_speed` = 325, `mp_consume` = 0, `m_dam` = 114, `duration` = -1 WHERE `item_id` = 20152; --      斬龍刀-活動     限時4小時
+UPDATE `weapon` SET `bodypart` = 7, `crystallizable` = 1, `weight` = 317, `soulshots` = 1, `spiritshots` = 1, `crystal_type` = 4, `p_dam` = 203, `rnd_dam` = 5, `weaponType` = 3, `critical` = 12, `hit_modify` = -3, `avoid_modify` = 0, `shield_def` = 0, `shield_def_rate` = 0, `atk_speed` = 433, `mp_consume` = 0, `m_dam` = 114, `duration` = -1 WHERE `item_id` = 20153; --      魂體分離器-活動 限時4小時
+UPDATE `weapon` SET `bodypart` = 7, `crystallizable` = 1, `weight` = 527, `soulshots` = 1, `spiritshots` = 1, `crystal_type` = 4, `p_dam` = 232, `rnd_dam` = 20, `weaponType` = 2, `critical` = 4, `hit_modify` = 4, `avoid_modify` = 0, `shield_def` = 0, `shield_def_rate` = 0, `atk_speed` = 379, `mp_consume` = 0, `m_dam` = 114, `duration` = -1 WHERE `item_id` = 20154; --       樂園-活動       限時4小時
+UPDATE `weapon` SET `bodypart` = 14, `crystallizable` = 1, `weight` = 633, `soulshots` = 1, `spiritshots` = 1, `crystal_type` = 4, `p_dam` = 282, `rnd_dam` = 20, `weaponType` = 2, `critical` = 4, `hit_modify` = 4, `avoid_modify` = 0, `shield_def` = 0, `shield_def_rate` = 0, `atk_speed` = 325, `mp_consume` = 0, `m_dam` = 114, `duration` = -1 WHERE `item_id` = 20155; --      末日毀滅者-活動 限時4小時
+UPDATE `weapon` SET `bodypart` = 7, `crystallizable` = 1, `weight` = 510, `soulshots` = 1, `spiritshots` = 1, `crystal_type` = 4, `p_dam` = 186, `rnd_dam` = 20, `weaponType` = 2, `critical` = 4, `hit_modify` = 4, `avoid_modify` = 0, `shield_def` = 0, `shield_def_rate` = 0, `atk_speed` = 379, `mp_consume` = 0, `m_dam` = 152, `duration` = -1 WHERE `item_id` = 20156; --       火龍之首-活動   限時4小時
+UPDATE `weapon` SET `bodypart` = 14, `crystallizable` = 1, `weight` = 300, `soulshots` = 1, `spiritshots` = 1, `crystal_type` = 4, `p_dam` = 226, `rnd_dam` = 20, `weaponType` = 2, `critical` = 4, `hit_modify` = 4, `avoid_modify` = 0, `shield_def` = 0, `shield_def_rate` = 0, `atk_speed` = 325, `mp_consume` = 0, `m_dam` = 152, `duration` = -1 WHERE `item_id` = 20157; --      世界樹樹枝-活動 限時4小時
+UPDATE `weapon` SET `bodypart` = 14, `crystallizable` = 1, `weight` = 450, `soulshots` = 1, `spiritshots` = 1, `crystal_type` = 4, `p_dam` = 282, `rnd_dam` = 5, `weaponType` = 5, `critical` = 4, `hit_modify` = 4, `avoid_modify` = 0, `shield_def` = 0, `shield_def_rate` = 0, `atk_speed` = 325, `mp_consume` = 0, `m_dam` = 114, `duration` = -1 WHERE `item_id` = 20158; --       龍牙-活動       限時4小時
+UPDATE `weapon` SET `bodypart` = 14, `crystallizable` = 1, `weight` = 553, `soulshots` = 2, `spiritshots` = 1, `crystal_type` = 4, `p_dam` = 528, `rnd_dam` = 5, `weaponType` = 6, `critical` = 12, `hit_modify` = -3, `avoid_modify` = 0, `shield_def` = 0, `shield_def_rate` = 0, `atk_speed` = 227, `mp_consume` = 10, `m_dam` = 125, `duration` = -1 WHERE `item_id` = 20159; --    靈魂弓-活動     限時4小時
+UPDATE `weapon` SET `bodypart` = 14, `crystallizable` = 1, `weight` = 613, `soulshots` = 1, `spiritshots` = 1, `crystal_type` = 4, `p_dam` = 232, `rnd_dam` = 10, `weaponType` = 4, `critical` = 8, `hit_modify` = -3, `avoid_modify` = 0, `shield_def` = 0, `shield_def_rate` = 0, `atk_speed` = 325, `mp_consume` = 0, `m_dam` = 114, `duration` = -1 WHERE `item_id` = 20160; --     塔魯闊矛-活動   限時4小時
+UPDATE `weapon` SET `bodypart` = 14, `crystallizable` = 1, `weight` = 693, `soulshots` = 1, `spiritshots` = 1, `crystal_type` = 4, `p_dam` = 282, `rnd_dam` = 10, `weaponType` = 8, `critical` = 8, `hit_modify` = 0, `avoid_modify` = 0, `shield_def` = 0, `shield_def_rate` = 0, `atk_speed` = 325, `mp_consume` = 0, `m_dam` = 114, `duration` = -1 WHERE `item_id` = 20161; --      大馬士革刀*大馬士革刀-活動      限時4小時
+UPDATE `weapon` SET `bodypart` = 7, `crystallizable` = 1, `weight` = 440, `soulshots` = 1, `spiritshots` = 1, `crystal_type` = 4, `p_dam` = 210, `rnd_dam` = 40, `weaponType` = 11, `critical` = 10, `hit_modify` = -1, `avoid_modify` = 0, `shield_def` = 0, `shield_def_rate` = 0, `atk_speed` = 406, `mp_consume` = 0, `m_dam` = 114, `duration` = -1 WHERE `item_id` = 20162; --    貪婪刺劍-活動   限時4小時
+UPDATE `weapon` SET `bodypart` = 14, `crystallizable` = 1, `weight` = 613, `soulshots` = 1, `spiritshots` = 1, `crystal_type` = 4, `p_dam` = 251, `rnd_dam` = 15, `weaponType` = 13, `critical` = 8, `hit_modify` = 2, `avoid_modify` = 0, `shield_def` = 0, `shield_def_rate` = 0, `atk_speed` = 350, `mp_consume` = 0, `m_dam` = 114, `duration` = -1 WHERE `item_id` = 20163; --     死神使者-活動   限時4小時
+UPDATE `weapon` SET `bodypart` = 14, `crystallizable` = 1, `weight` = 553, `soulshots` = 1, `spiritshots` = 1, `crystal_type` = 4, `p_dam` = 294, `rnd_dam` = 10, `weaponType` = 12, `critical` = 10, `hit_modify` = -1, `avoid_modify` = 0, `shield_def` = 0, `shield_def_rate` = 0, `atk_speed` = 303, `mp_consume` = 0, `m_dam` = 114, `duration` = -1 WHERE `item_id` = 20164; --   靈魂弩-活動     限時4小時
+UPDATE `weapon` SET `bodypart` = 7, `crystallizable` = 1, `weight` = 433, `soulshots` = 1, `spiritshots` = 1, `crystal_type` = 5, `p_dam` = 281, `rnd_dam` = 10, `weaponType` = 1, `critical` = 8, `hit_modify` = 0, `avoid_modify` = 0, `shield_def` = 0, `shield_def_rate` = 0, `atk_speed` = 379, `mp_consume` = 0, `m_dam` = 132, `duration` = -1 WHERE `item_id` = 20165; --       忘卻之刃-活動   限時4小時
+UPDATE `weapon` SET `bodypart` = 14, `crystallizable` = 1, `weight` = 460, `soulshots` = 1, `spiritshots` = 1, `crystal_type` = 5, `p_dam` = 342, `rnd_dam` = 10, `weaponType` = 1, `critical` = 8, `hit_modify` = 0, `avoid_modify` = 0, `shield_def` = 0, `shield_def_rate` = 0, `atk_speed` = 325, `mp_consume` = 0, `m_dam` = 132, `duration` = -1 WHERE `item_id` = 20166; --      天國審判-活動   限時4小時
+UPDATE `weapon` SET `bodypart` = 7, `crystallizable` = 1, `weight` = 317, `soulshots` = 1, `spiritshots` = 1, `crystal_type` = 5, `p_dam` = 246, `rnd_dam` = 5, `weaponType` = 3, `critical` = 12, `hit_modify` = -3, `avoid_modify` = 0, `shield_def` = 0, `shield_def_rate` = 0, `atk_speed` = 433, `mp_consume` = 0, `m_dam` = 132, `duration` = -1 WHERE `item_id` = 20167; --      天使殺手-活動   限時4小時
+UPDATE `weapon` SET `bodypart` = 7, `crystallizable` = 1, `weight` = 523, `soulshots` = 1, `spiritshots` = 1, `crystal_type` = 5, `p_dam` = 281, `rnd_dam` = 20, `weaponType` = 2, `critical` = 4, `hit_modify` = 4, `avoid_modify` = 0, `shield_def` = 0, `shield_def_rate` = 0, `atk_speed` = 379, `mp_consume` = 0, `m_dam` = 132, `duration` = -1 WHERE `item_id` = 20168; --       玄武岩戰鎚-活動 限時4小時
+UPDATE `weapon` SET `bodypart` = 14, `crystallizable` = 1, `weight` = 607, `soulshots` = 1, `spiritshots` = 1, `crystal_type` = 5, `p_dam` = 342, `rnd_dam` = 20, `weaponType` = 2, `critical` = 4, `hit_modify` = 4, `avoid_modify` = 0, `shield_def` = 0, `shield_def_rate` = 0, `atk_speed` = 325, `mp_consume` = 0, `m_dam` = 132, `duration` = -1 WHERE `item_id` = 20169; --      狩龍之斧-活動   限時4小時
+UPDATE `weapon` SET `bodypart` = 7, `crystallizable` = 1, `weight` = 433, `soulshots` = 1, `spiritshots` = 1, `crystal_type` = 5, `p_dam` = 225, `rnd_dam` = 20, `weaponType` = 2, `critical` = 4, `hit_modify` = 4, `avoid_modify` = 0, `shield_def` = 0, `shield_def_rate` = 0, `atk_speed` = 379, `mp_consume` = 0, `m_dam` = 175, `duration` = -1 WHERE `item_id` = 20170; --       祕儀權杖-活動   限時4小時
+UPDATE `weapon` SET `bodypart` = 14, `crystallizable` = 1, `weight` = 303, `soulshots` = 1, `spiritshots` = 1, `crystal_type` = 5, `p_dam` = 274, `rnd_dam` = 20, `weaponType` = 2, `critical` = 4, `hit_modify` = 4, `avoid_modify` = 0, `shield_def` = 0, `shield_def_rate` = 0, `atk_speed` = 325, `mp_consume` = 0, `m_dam` = 175, `duration` = -1 WHERE `item_id` = 20171; --      帝國權杖-活動   限時4小時
+UPDATE `weapon` SET `bodypart` = 14, `crystallizable` = 1, `weight` = 450, `soulshots` = 1, `spiritshots` = 1, `crystal_type` = 5, `p_dam` = 342, `rnd_dam` = 5, `weaponType` = 5, `critical` = 4, `hit_modify` = 4, `avoid_modify` = 0, `shield_def` = 0, `shield_def_rate` = 0, `atk_speed` = 325, `mp_consume` = 0, `m_dam` = 132, `duration` = -1 WHERE `item_id` = 20172; --       惡魔獵爪-活動   限時4小時
+UPDATE `weapon` SET `bodypart` = 14, `crystallizable` = 1, `weight` = 550, `soulshots` = 1, `spiritshots` = 1, `crystal_type` = 5, `p_dam` = 581, `rnd_dam` = 5, `weaponType` = 6, `critical` = 12, `hit_modify` = -3, `avoid_modify` = 0, `shield_def` = 0, `shield_def_rate` = 0, `atk_speed` = 293, `mp_consume` = 11, `m_dam` = 132, `duration` = -1 WHERE `item_id` = 20173; --    紅龍之弓-活動   限時4小時
+UPDATE `weapon` SET `bodypart` = 14, `crystallizable` = 1, `weight` = 600, `soulshots` = 1, `spiritshots` = 1, `crystal_type` = 5, `p_dam` = 281, `rnd_dam` = 10, `weaponType` = 4, `critical` = 8, `hit_modify` = -3, `avoid_modify` = 0, `shield_def` = 0, `shield_def_rate` = 0, `atk_speed` = 325, `mp_consume` = 0, `m_dam` = 132, `duration` = -1 WHERE `item_id` = 20174; --     聖者之矛-活動   限時4小時
+UPDATE `weapon` SET `bodypart` = 14, `crystallizable` = 1, `weight` = 693, `soulshots` = 1, `spiritshots` = 1, `crystal_type` = 5, `p_dam` = 342, `rnd_dam` = 10, `weaponType` = 8, `critical` = 8, `hit_modify` = 0, `avoid_modify` = 0, `shield_def` = 0, `shield_def_rate` = 0, `atk_speed` = 325, `mp_consume` = 0, `m_dam` = 132, `duration` = -1 WHERE `item_id` = 20175; --      塔魯刀*黑暗軍刀-活動    限時4小時
+UPDATE `weapon` SET `bodypart` = 7, `crystallizable` = 1, `weight` = 433, `soulshots` = 1, `spiritshots` = 1, `crystal_type` = 5, `p_dam` = 255, `rnd_dam` = 40, `weaponType` = 11, `critical` = 10, `hit_modify` = -1, `avoid_modify` = 0, `shield_def` = 0, `shield_def_rate` = 0, `atk_speed` = 406, `mp_consume` = 0, `m_dam` = 132, `duration` = -1 WHERE `item_id` = 20176; --    烈焚天-活動     限時4小時
+UPDATE `weapon` SET `bodypart` = 14, `crystallizable` = 1, `weight` = 600, `soulshots` = 1, `spiritshots` = 1, `crystal_type` = 5, `p_dam` = 304, `rnd_dam` = 15, `weaponType` = 13, `critical` = 8, `hit_modify` = 2, `avoid_modify` = 0, `shield_def` = 0, `shield_def_rate` = 0, `atk_speed` = 350, `mp_consume` = 0, `m_dam` = 132, `duration` = -1 WHERE `item_id` = 20177; --     勝利之劍格蘭-活動       限時4小時
+UPDATE `weapon` SET `bodypart` = 14, `crystallizable` = 1, `weight` = 533, `soulshots` = 1, `spiritshots` = 1, `crystal_type` = 5, `p_dam` = 356, `rnd_dam` = 10, `weaponType` = 12, `critical` = 10, `hit_modify` = -1, `avoid_modify` = 0, `shield_def` = 0, `shield_def_rate` = 0, `atk_speed` = 303, `mp_consume` = 0, `m_dam` = 132, `duration` = -1 WHERE `item_id` = 20178; --   薩倫伽神弩-活動 限時4小時
+
 
 /***** 武器-錯誤資料修正 *****/
 /***** ↓NC修正後可移除資料↓ *****/
@@ -13728,6 +13843,13 @@ UPDATE `weapon` SET `bodypart` = 'greatwolf',   `weaponType` = 'pet', `soulshots
 UPDATE `weapon` SET `bodypart` = 'hatchling',   `weaponType` = 'pet', `soulshots` = '1', `spiritshots` = '1' WHERE `item_id` IN (3919,3920,3921,3922,3923,3924,3925,4237,4238,5187,5188,5189,5190,5191); -- 幼龍專用
 UPDATE `weapon` SET `bodypart` = 'strider',     `weaponType` = 'pet', `soulshots` = '1', `spiritshots` = '1' WHERE `item_id` IN (5176,5177,5178,5179,5180,5181); -- 座龍專用
 
+/***** 使用時間 *****/
+UPDATE `weapon` SET `duration` = '60'           WHERE `item_id` >= 13153 AND `item_id` <= 13224; -- 限時60分鐘
+UPDATE `weapon` SET `duration` = '240'          WHERE `item_id` >= 20109 AND `item_id` <= 20178; -- 限時4小時
+UPDATE `weapon` SET `duration` = '10080'        WHERE `item_id` >= 13248 AND `item_id` <= 13253; -- 限時7日
+UPDATE `weapon` SET `duration` = '10080'        WHERE `item_id` >= 13334 AND `item_id` <= 13339; -- 限時7日
+UPDATE `weapon` SET `duration` = '43200'        WHERE `item_id` >= 13319 AND `item_id` <= 13324; -- 限時30日
+
 /***** 可否結晶化 *****/
 UPDATE `weapon` SET `crystallizable` = 'false'  WHERE `crystallizable` = '0'; -- 否
 UPDATE `weapon` SET `crystallizable` = 'true'   WHERE `crystallizable` = '1'; -- 可
@@ -13740,5 +13862,12 @@ UPDATE `weapon` SET `crystal_type` = 'b'        WHERE `crystal_type` = '3'; -- B
 UPDATE `weapon` SET `crystal_type` = 'a'        WHERE `crystal_type` = '4'; -- A級
 UPDATE `weapon` SET `crystal_type` = 's'        WHERE `crystal_type` = '5'; -- S級
 UPDATE `weapon` SET `crystal_type` = 's80'      WHERE `crystal_type` = '6'; -- S80級
+
+/*** 闇天使專用武器：細劍 ***/
+/*** 強化4以上的話，致命攻擊時將會以一定的機率提升自己和隊伍成員們的物理攻擊力、魔法攻擊力和所受的治癒量，並發揮使用技能時降低MP消耗量的效果。 ***/
+UPDATE `weapon` SET `enchant4_skill_id` = '3426', `enchant4_skill_lvl` = '1' WHERE `weaponType` = 'rapier'; --  所有細劍
+/*** 不用強化4以上，直接賦予 ***/
+UPDATE `weapon` SET `enchant4_skill_id` = '0', `enchant4_skill_lvl` = '0', `skill` = '3427-1;3426-1;' WHERE `item_id` = '9388'; --  無限瞬閃
+
 
 /***** Done by vdmyagami！ *****/

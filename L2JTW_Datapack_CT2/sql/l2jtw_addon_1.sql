@@ -433,3 +433,8 @@ UPDATE `armor` SET `skill` = '3336-1;' WHERE `item_id` in (10142);
 UPDATE `weapon` SET `skill` = '3418-1;' WHERE `item_id` in (10167);
 -- UPDATE `weapon` SET `skill` = '8244-1;' WHERE `item_id` in (12814);
 -- UPDATE `weapon` SET `skill` = '8246-1;' WHERE `item_id` in (12800,13253,13324,13339);
+
+
+/************ 增加/修改/刪除NPC ************/
+Delete From spawnlist Where `npc_templateid` ='32353';
+UPDATE `npc` SET `type` = 'L2Adventurer' WHERE `id` in (32074);

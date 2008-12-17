@@ -653,7 +653,11 @@
    <enchant val='0' order='0x0C' stat='mAtk'/>
        <!-- SA: Cheap Shot -->
    <!-- Update by rocknow -->
-   <mul val='0.88' order='0x30' stat='MpConsume'/>
+   <mul val='0.88' order='0x30' stat='MpConsume'>
+      <and>
+         <game skill="false" chance="12"/> 
+      </and> 
+   </mul>
   </for>
 </item>
 <item id='9264' name="Blinzlasher">

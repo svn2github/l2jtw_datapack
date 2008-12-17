@@ -1186,11 +1186,11 @@
 <skill id="572" levels="4" name="Double Slasher">
   <table name="#mpConsume"> 61 63 67 70 </table>
   <table name="#power"> 938 1055 1176 1300 </table>
-  <set name="overHit" val="true"/><!-- Update by rocknow -->
   <set name="mpConsume" val="#mpConsume"/>
   <set name="power" val="#power"/>
   <set name="target" val="TARGET_ONE"/>
   <set name="reuseDelay" val="15000"/>
+  <set name="overHit" val="true"/>
   <set name="hitTime" val="1900"/>
   <set name="skillType" val="PDAM"/>
   <set name="operateType" val="OP_ACTIVE"/>
@@ -1200,12 +1200,12 @@
 <skill id="573" levels="4" name="Earthquake">
   <table name="#mpConsume"> 61 63 67 70 </table>
   <table name="#power"> 625 703 784 867 </table>
-  <set name="overHit" val="true"/><!-- Update by rocknow -->
   <set name="mpConsume" val="#mpConsume"/>
   <set name="power" val="#power"/>
   <set name="target" val="TARGET_AURA"/>
   <set name="skillRadius" val="250"/>
   <set name="coolTime" val="2500"/>
+  <set name="overHit" val="true"/>
   <set name="hitTime" val="3000"/>
   <set name="isDebuff" val="true"/>
   <set name="skillType" val="PDAM"/>
@@ -1226,12 +1226,12 @@
 <skill id="575" levels="4" name="Steel Cutter">
   <table name="#mpConsume"> 61 63 67 70 </table>
   <table name="#power"> 1250 1406 1568 1733 </table>
-  <set name="overHit" val="true"/><!-- Update by rocknow -->
   <set name="mpConsume" val="#mpConsume"/>
   <set name="power" val="#power"/>
   <set name="target" val="TARGET_ONE"/>
   <set name="SSBoost" val="2.0"/>
   <set name="reuseDelay" val="13000"/>
+  <set name="overHit" val="true"/>
   <set name="hitTime" val="1080"/>
   <set name="coolTime" val="720"/>
   <set name="skillType" val="PDAM"/>
@@ -1302,6 +1302,7 @@
   <set name="target" val="TARGET_FRONT_AREA"/>
   <set name="skillRadius" val="240"/>
   <set name="reuseDelay" val="8000"/>
+  <set name="overHit" val="true"/>
   <set name="hitTime" val="1080"/>
   <set name="skillType" val="PDAM"/>
   <set name="operateType" val="OP_ACTIVE"/>

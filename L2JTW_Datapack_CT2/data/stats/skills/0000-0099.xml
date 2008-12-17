@@ -72,7 +72,7 @@
   <table name="#aggro"> 204 438 </table>
   <set name="mpConsume" val="#mpConsume"/>
   <set name="target" val="TARGET_SELF"/>
-  <set name="reuseDelay" val="90000"/>
+  <set name="reuseDelay" val="120000"/>
   <set name="hitTime" val="1000"/>
   <set name="skillType" val="BUFF"/>
   <set name="operateType" val="OP_ACTIVE"/>
@@ -96,8 +96,8 @@
   <table name="#ench1Power"> 3225 3254 3283 3312 3340 3369 3398 3427 3456 3484 3513 3542 3571 3600 3628 3657 3686 3715 3744 3772 3801 3830 3859 3888 3916 3945 3974 4003 4032 4061 </table>
   <set name="magicLvl" val="#magicLvl"/>
   <set name="weaponsAllowed" val="512"/> <!-- Dual Sword -->
-  <set name="overHit" val="true"/><!-- Update by rocknow -->
   <set name="mpConsume" val="#mpConsume"/>
+  <set name="overHit" val="true"/>
   <set name="power" val="#power"/>
   <set name="target" val="TARGET_ONE"/>
   <set name="SSBoost" val="2.0"/>
@@ -126,12 +126,12 @@
   <table name="#power"> 369 392 417 442 469 496 525 555 586 618 651 686 722 758 796 835 875 916 959 1002 1046 1091 1136 1183 1230 1278 1327 1376 1425 1475 1525 1576 1626 1677 1727 1777 1827 </table>
   <table name="#ench1Power"> 1843 1860 1876 1893 1909 1925 1942 1958 1975 1991 2008 2024 2041 2057 2074 2090 2107 2123 2139 2156 2172 2189 2205 2222 2238 2255 2271 2288 2304 2321 </table>
   <set name="weaponsAllowed" val="18956"/> <!-- Dual Sword/Sword/Big Sword/Blunt/Big Blunt -->
-  <set name="overHit" val="true"/><!-- Update by rocknow -->
   <set name="mpConsume" val="#mpConsume"/>
   <set name="magicLvl" val="#magicLvl"/>
   <set name="power" val="#power"/>
   <set name="target" val="TARGET_ONE"/>
   <set name="SSBoost" val="2.0"/>
+  <set name="overHit" val="true"/>
   <set name="condition" val="128"/>
   <set name="reuseDelay" val="10000"/>
   <set name="hitTime" val="1900"/>
@@ -156,13 +156,13 @@
   <table name="#ench1Power"> 461 465 469 474 478 482 486 490 494 498 502 506 511 515 519 523 527 531 535 539 543 548 552 556 560 564 568 572 576 581 </table>
   <table name="#power"> 155 163 172 181 190 199 209 219 229 240 251 262 273 284 296 308 320 332 344 357 369 382 394 407 420 432 445 457 </table>
   <set name="weaponsAllowed" val="18956"/> <!-- Dual Sword/Sword/Big Sword/Blunt/Big Blunt -->
-  <set name="overHit" val="true"/><!-- Update by rocknow -->
   <set name="mpConsume" val="#mpConsume"/>
   <set name="power" val="#power"/>
   <set name="target" val="TARGET_AREA"/>
   <set name="skillRadius" val="150"/>
   <set name="SSBoost" val="2.0"/>
   <set name="condition" val="128"/>
+  <set name="overHit" val="true"/>
   <set name="reuseDelay" val="13000"/>
   <set name="hitTime" val="1900"/>
   <set name="skillType" val="CHARGEDAM"/>
@@ -210,12 +210,12 @@
   <table name="#power"> 111 118 124 132 139 147 155 163 172 181 190 199 209 219 229 240 251 262 273 284 296 308 320 332 344 357 369 382 394 407 420 432 445 457 </table>
   <table name="#ench1Power"> 461 465 469 474 478 482 486 490 494 498 502 506 511 515 519 523 527 531 535 539 543 548 552 556 560 564 568 572 576 581 </table>
   <set name="weaponsAllowed" val="18956"/> <!-- Dual Sword/Sword/Big Sword/Blunt/Big Blunt -->
-  <set name="overHit" val="true"/><!-- Update by rocknow -->
   <set name="mpConsume" val="#mpConsume"/>
   <set name="power" val="#power"/>
   <set name="SSBoost" val="2.0"/>
   <set name="target" val="TARGET_MULTIFACE"/>
   <set name="skillRadius" val="200"/>
+  <set name="overHit" val="true"/>
   <set name="condition" val="128"/>
   <set name="reuseDelay" val="6000"/>
   <set name="hitTime" val="720"/>
@@ -364,11 +364,11 @@
   <table name="#ench2MpConsume"> 104 103 102 102 101 101 100 99 99 98 97 97 96 95 95 94 93 93 92 91 91 90 90 89 88 88 87 86 86 85 </table>
   <table name="#power"> 129 137 145 153 162 171 181 190 200 211 222 233 244 256 268 280 293 305 318 332 345 359 373 387 402 416 431 445 460 475 489 504 519 533 </table>
   <set name="weaponsAllowed" val="1024"/> <!-- Dual Fist -->
-  <set name="overHit" val="true"/><!-- Update by rocknow -->
   <set name="mpConsume" val="#mpConsume"/>
   <set name="magicLvl" val="#magicLvl"/>
   <set name="power" val="#power"/>
   <set name="target" val="TARGET_MULTIFACE"/>
+  <set name="overHit" val="true"/>
   <set name="skillRadius" val="200"/>
   <set name="SSBoost" val="2.0"/>
   <set name="condition" val="128"/>
@@ -446,7 +446,7 @@
   <table name="#mpConsume_Init"> 4 7 11 </table>
   <table name="#mpConsume"> 16 28 44 </table>
   <table name="#magicLvl"> 20 40 60 </table>
-  <table name="#negatePower"> 3 7 9 </table>
+  <table name="#negateLvl"> 3 7 9 </table>
   <table name="#aggro"> 204 379 566 </table>
   <set name="mpInitialConsume" val="#mpConsume_Init"/>
   <set name="mpConsume" val="#mpConsume"/>
@@ -456,7 +456,7 @@
   <set name="hitTime" val="1000"/>
   <set name="skillType" val="NEGATE"/>
   <set name="negateStats" val="POISON"/>
-  <set name="negatePower" val="#negatePower"/>
+  <set name="negateLvl" val="#negateLvl"/>
   <set name="isMagic" val="true"/>
   <set name="operateType" val="OP_ACTIVE"/>
   <set name="castRange" val="-1"/>
@@ -636,7 +636,6 @@
   <set name="power" val="#power"/>
   <set name="target" val="TARGET_ONE"/>
   <set name="condition" val="24"/>
-  <set name="overHit" val="true"/><!-- Update by rocknow -->
   <set name="reuseDelay" val="11000"/>
   <set name="hitTime" val="1080"/>
   <set name="coolTime" val="720"/>
@@ -648,6 +647,7 @@
   <set name="castRange" val="40"/>
   <set name="effectRange" val="400"/>
   <set name="SSBoost" val="1.5"/>
+  <set name="overHit" val="true"/>
   <enchant1 name="power" val="#ench1Power"/>
   <enchant2 name="mpConsume" val="#ench2MpConsume"/>
 </skill>
@@ -681,7 +681,7 @@
 <skill id="34" levels="3" name="Bandage">
   <table name="#mpConsume"> 19 41 55 </table>
   <table name="#magicLvl"> 20 46 62 </table>
-  <table name="#negatePower"> 3 7 9 </table>
+  <table name="#negateLvl"> 3 7 9 </table>
   <table name="#aggro"> 204 438 582 </table>
   <set name="mpConsume" val="#mpConsume"/>
   <set name="magicLvl" val="#magicLvl"/>
@@ -690,7 +690,7 @@
   <set name="hitTime" val="1500"/>
   <set name="skillType" val="NEGATE"/>
   <set name="negateStats" val="BLEED"/>
-  <set name="negatePower" val="#negatePower"/>
+  <set name="negateLvl" val="#negateLvl"/>
   <set name="operateType" val="OP_ACTIVE"/>
   <set name="castRange" val="-1"/>
   <set name="effectRange" val="-1"/>
@@ -706,7 +706,6 @@
   <table name="#power"> 181 190 200 211 222 233 244 256 268 280 293 305 318 332 345 359 373 387 402 416 431 445 460 475 489 504 519 533 </table>
   <table name="#ench1Power"> 538 542 547 552 557 562 566 571 576 581 586 590 595 600 605 610 614 619 624 629 634 638 643 648 653 658 663 667 672 677 </table>
   <set name="weaponsAllowed" val="1024"/> <!-- Dual Fist -->
-  <set name="overHit" val="true"/><!-- Update by rocknow -->
   <set name="magicLvl" val="#magicLvl"/>
   <set name="mpConsume" val="#mpConsume"/>
   <set name="power" val="#power"/>
@@ -718,6 +717,7 @@
   <set name="hitTime" val="2000"/>
   <set name="skillType" val="CHARGEDAM"/>
   <set name="operateType" val="OP_ACTIVE"/>
+  <set name="overHit" val="true"/>
   <set name="castRange" val="500"/>
   <set name="effectRange" val="1000"/>
   <set name="baseCritRate" val="15"/>
@@ -726,7 +726,7 @@
   <!-- charge values -->
   <set name="itemConsumeId" val="5589"/>
   <set name="itemConsumeCount" val="2"/>
-  <set name="num_charges" val="2"/>
+  <set name="num_charges" val="1"/><!-- Update by rocknow -->
   <set name="charge_skill_id" val="50"/> <!-- Force Focus is the charger -->
 </skill>
 <skill id="36" levels="37" name="Whirlwind" enchantLevels1="30" enchantLevels2="30" >
@@ -780,7 +780,7 @@
   <table name="#mpConsume_Init"> 7 9 11 </table>
   <table name="#mpConsume"> 28 35 44 </table>
   <table name="#magicLvl"> 40 49 62 </table>
-  <table name="#negatePower"> 3 7 9 </table>
+  <table name="#negateLvl"> 3 7 9 </table>
   <table name="#aggro"> 379 467 582 </table>
   <set name="mpInitialConsume" val="#mpConsume_Init"/>
   <set name="mpConsume" val="#mpConsume"/>
@@ -790,7 +790,7 @@
   <set name="hitTime" val="4000"/>
   <set name="skillType" val="NEGATE"/>
   <set name="negateStats" val="BLEED"/>
-  <set name="negatePower" val="#negatePower"/>
+  <set name="negateLvl" val="#negateLvl"/>
   <set name="isMagic" val="true"/>
   <set name="operateType" val="OP_ACTIVE"/>
   <set name="castRange" val="-1"/>
@@ -994,7 +994,6 @@
 </skill>
 <skill id="58" levels="55" name="Elemental Heal" enchantLevels1="30" enchantLevels2="30" enchantLevels3="30" enchantLevels4="30">
   <table name="#enchantMagicLvl"> 76 76 76 77 77 77 78 78 78 79 79 79 80 80 80 81 81 81 82 82 82 82 83 83 83 84 84 85 85 85 </table>
-  <table name="#negatePower">1.3 1.6 1.9 2.2 2.5 2.7 2.9 3.2 3.5 3.8 4.3 4.6 4.9 5.1 5.4 5.6 5.9 6.1 6.4 6.8 7.2 7.5 7.8 8.3 8.6 8.9 9.1 9.4 9.7 9.9</table>
   <enchant1 name="magicLvl" val="#enchantMagicLvl"/>
   <enchant2 name="magicLvl" val="#enchantMagicLvl"/>
   <enchant3 name="magicLvl" val="#enchantMagicLvl"/>
@@ -1024,10 +1023,10 @@
   <enchant2 name="mpConsume" val="#ench2MpConsume"/>
   <enchant2 name="mpInitialConsume" val="#ench2MpConsume_Init"/>
   <enchant3 name="negateStats" val="POISON"/>
-  <enchant3 name="negatePower" val="#negatePower"/>
+  <enchant3 name="negateLvl" val="9"/>
   <enchant3 name="effectType" val="NEGATE"/>
   <enchant4 name="negateStats" val="BLEED"/>
-  <enchant4 name="negatePower" val="#negatePower"/>
+  <enchant4 name="negateLvl" val="9"/>
   <enchant4 name="effectType" val="NEGATE"/>
 </skill>
 <skill id="60" levels="1" name="Fake Death">
@@ -1045,7 +1044,7 @@
   <table name="#mpConsume_Init"> 5 9 11 </table>
   <table name="#mpConsume"> 17 33 44 </table>
   <table name="#magicLvl"> 24 46 62 </table>
-  <table name="#negatePower"> 3 7 9 </table>
+  <table name="#negateLvl"> 3 7 9 </table>
   <table name="#aggro">235 438 582 </table>
   <set name="mpInitialConsume" val="#mpConsume_Init"/>
   <set name="mpConsume" val="#mpConsume"/>
@@ -1055,7 +1054,7 @@
   <set name="hitTime" val="1000"/>
   <set name="skillType" val="NEGATE"/>
   <set name="negateStats" val="BLEED"/>
-  <set name="negatePower" val="#negatePower"/>
+  <set name="negateLvl" val="#negateLvl"/>
   <set name="isMagic" val="true"/>
   <set name="operateType" val="OP_ACTIVE"/>
   <set name="castRange" val="-1"/>

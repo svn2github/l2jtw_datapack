@@ -1,10 +1,10 @@
 <?xml version='1.0' encoding='utf-8'?>
 <list>
-<item id='10416' name="Red Talisman - Explosion">
+<item id='10416' name="Blue Talisman - Explosion">
   <for>
   </for>
 </item>
-<item id='10417' name="Red Talisman - Magic Explosion Power">
+<item id='10417' name="Blue Talisman - Magic Explosion">
   <for>
   </for>
 </item>
@@ -79,8 +79,10 @@
   </for>
 </item>
 <item id='10491' name="Silk Shirt - HP">
-  <for><!-- Update by rocknow -->
+  <for>
     <add val='17' order='0x10' stat='pDef'/>
+    <enchant val='0' order='0x0C' stat='pDef'/>
+    <!-- Update by rocknow -->
     <add val='118' order='0x40' stat='maxHp'>
       <and>
         <using slotitem="10491;0;4"/>
@@ -89,8 +91,10 @@
   </for>
 </item>
 <item id='10492' name="Silk Shirt - MP">
-  <for><!-- Update by rocknow -->
-    <add val='17' order='0x10' stat='pDef'/>
+  <for>
+  	<add val='17' order='0x10' stat='pDef'/>
+    <enchant val='0' order='0x0C' stat='pDef'/>
+    <!-- Update by rocknow -->
     <add val='51' order='0x40' stat='maxMp'>
       <and>
         <using slotitem="10492;0;4"/>
@@ -99,8 +103,10 @@
   </for>
 </item>
 <item id='10493' name="Silk Shirt - CP">
-  <for><!-- Update by rocknow -->
+  <for>
     <add val='17' order='0x10' stat='pDef'/>
+    <enchant val='0' order='0x0C' stat='pDef'/>
+    <!-- Update by rocknow -->
     <add val='354' order='0x40' stat='maxCp'>
       <and>
         <using slotitem="10493;0;4"/>
@@ -109,8 +115,10 @@
   </for>
 </item>
 <item id='10494' name="Thin Leather Shirt - HP">
-  <for><!-- Update by rocknow -->
+  <for>
     <add val='21' order='0x10' stat='pDef'/>
+    <enchant val='0' order='0x0C' stat='pDef'/>
+    <!-- Update by rocknow -->
     <add val='147' order='0x40' stat='maxHp'>
       <and>
         <using slotitem="10494;0;4"/>
@@ -119,8 +127,10 @@
   </for>
 </item>
 <item id='10495' name="Thin Leather Shirt - MP">
-  <for><!-- Update by rocknow -->
+  <for>
     <add val='21' order='0x10' stat='pDef'/>
+    <enchant val='0' order='0x0C' stat='pDef'/>
+    <!-- Update by rocknow -->
     <add val='72' order='0x40' stat='maxMp'>
       <and>
         <using slotitem="10495;0;4"/>
@@ -129,8 +139,10 @@
   </for>
 </item>
 <item id='10496' name="Thin Leather Shirt - CP">
-  <for><!-- Update by rocknow -->
+  <for>
     <add val='21' order='0x10' stat='pDef'/>
+    <enchant val='0' order='0x0C' stat='pDef'/>
+    <!-- Update by rocknow -->
     <add val='441' order='0x40' stat='maxCp'>
       <and>
         <using slotitem="10496;0;4"/>
@@ -139,8 +151,10 @@
   </for>
 </item>
 <item id='10497' name="Scale Shirt - HP">
-  <for><!-- Update by rocknow -->
+  <for>
     <add val='23' order='0x10' stat='pDef'/>
+    <enchant val='0' order='0x0C' stat='pDef'/>
+    <!-- Update by rocknow -->
     <add val='172' order='0x40' stat='maxHp'>
       <and>
         <using slotitem="10497;0;4"/>
@@ -149,8 +163,10 @@
   </for>
 </item>
 <item id='10498' name="Scale Shirt - MP">
-  <for><!-- Update by rocknow -->
+  <for>
     <add val='23' order='0x10' stat='pDef'/>
+    <enchant val='0' order='0x0C' stat='pDef'/>
+    <!-- Update by rocknow -->
     <add val='85' order='0x40' stat='maxMp'>
       <and>
         <using slotitem="10498;0;4"/>
@@ -159,8 +175,10 @@
   </for>
 </item>
 <item id='10499' name="Scale Shirt - CP">
-  <for><!-- Update by rocknow -->
+  <for>
     <add val='23' order='0x10' stat='pDef'/>
+    <enchant val='0' order='0x0C' stat='pDef'/>
+    <!-- Update by rocknow -->
     <add val='516' order='0x40' stat='maxCp'>
       <and>
         <using slotitem="10499;0;4"/>

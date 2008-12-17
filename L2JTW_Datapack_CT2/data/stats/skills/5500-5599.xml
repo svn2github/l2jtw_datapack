@@ -281,38 +281,26 @@
   </for>
 </skill>
 <skill id="5535" levels="1" name="Little Angel Agathion Cuteness Attack">
-  <!-- Update by rocknow -->
-  <set name="target" val="TARGET_SELF"/>
-  <set name="skillType" val="UNLOCK"/>
-  <set name="hitTime" val="3000"/>
-  <set name="staticHitTime" val="true"/>
-  <set name="operateType" val="OP_ACTIVE"/>
+  <set name="target" val="TARGET_NONE"/>
+  <set name="skillType" val="NOTDONE"/>
+  <set name="operateType" val="OP_PASSIVE"/>
   <set name="castRange" val="-1"/>
-  <set name="effectRange" val="-1"/>
   <for>
   </for>
 </skill>
 <skill id="5536" levels="1" name="Little Devil Agathion Cuteness Attack">
-  <!-- Update by rocknow -->
-  <set name="target" val="TARGET_SELF"/>
-  <set name="skillType" val="UNLOCK"/>
-  <set name="hitTime" val="3000"/>
-  <set name="staticHitTime" val="true"/>
-  <set name="operateType" val="OP_ACTIVE"/>
+  <set name="target" val="TARGET_NONE"/>
+  <set name="skillType" val="NOTDONE"/>
+  <set name="operateType" val="OP_PASSIVE"/>
   <set name="castRange" val="-1"/>
-  <set name="effectRange" val="-1"/>
   <for>
   </for>
 </skill>
 <skill id="5537" levels="1" name="Rudolph Agathion Cuteness Attack">
-  <!-- Update by rocknow -->
-  <set name="target" val="TARGET_SELF"/>
-  <set name="skillType" val="UNLOCK"/>
-  <set name="hitTime" val="3000"/>
-  <set name="staticHitTime" val="true"/>
-  <set name="operateType" val="OP_ACTIVE"/>
+  <set name="target" val="TARGET_NONE"/>
+  <set name="skillType" val="NOTDONE"/>
+  <set name="operateType" val="OP_PASSIVE"/>
   <set name="castRange" val="-1"/>
-  <set name="effectRange" val="-1"/>
   <for>
   </for>
 </skill>
@@ -325,15 +313,11 @@
   <set name="effectRange" val="-1"/>
 </skill>
 <skill id="5539" levels="1" name="Little Angel Agathion Special Skill - Mysterious Power">
-  <!-- Update by rocknow -->
+  <set name="target" val="TARGET_NONE"/>
+  <set name="skillType" val="NOTDONE"/>
+  <set name="operateType" val="OP_PASSIVE"/>
   <set name="castRange" val="-1"/>
-  <set name="effectRange" val="-1"/>
-  <set name="magicLvl" val="1"/>
-  <set name="operateType" val="OP_ACTIVE"/>
-  <set name="skillType" val="BUFF"/>
-  <set name="target" val="TARGET_SELF"/>
   <for>
-    <effect count="1" name="BigHead" time="300" val="0" abnormal="bighead" stackOrder="300" stackType="big_head"/>
   </for>
 </skill>
 <skill id="5540" levels="1" name="Little Angel Agathion Special Skill - Power of Blessed Return">
@@ -366,15 +350,11 @@
   <set name="effectRange" val="-1"/>
 </skill>
 <skill id="5543" levels="1" name="Little Devil Agathion Special Skill - Mysterious Power">
-  <!-- Update by rocknow -->
+  <set name="target" val="TARGET_NONE"/>
+  <set name="skillType" val="NOTDONE"/>
+  <set name="operateType" val="OP_PASSIVE"/>
   <set name="castRange" val="-1"/>
-  <set name="effectRange" val="-1"/>
-  <set name="magicLvl" val="1"/>
-  <set name="operateType" val="OP_ACTIVE"/>
-  <set name="skillType" val="BUFF"/>
-  <set name="target" val="TARGET_SELF"/>
   <for>
-    <effect count="1" name="BigHead" time="300" val="0" abnormal="bighead" stackOrder="300" stackType="big_head"/>
   </for>
 </skill>
 <skill id="5544" levels="1" name="Little Devil Agathion Special Skill - Power of Blessed Return">

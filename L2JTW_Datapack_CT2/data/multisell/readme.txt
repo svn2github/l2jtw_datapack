@@ -2,123 +2,127 @@ Given the fact that no convention is widely adopted for the naming of these file
 I decided to keep a list of what each file is meant to be, to improve the usability
 of this directory a little bit.
 
-001.xml  -> 簡易示範裝備兌換教學用（註---停用）
-002.xml  -> 守門人 - 傳送捲軸兌換
-003.xml  -> 商人 - 新手交換裝備兌換
-009.xml  -> 釣魚會員 - 捕魚證兌換
+001.xml  -> Non-grade items exchange, just for education
+002.xml  -> Teleporter scrolls
+003.xml  -> Newbie exchange
+009.xml  -> Proof of Catching a Fish
 
-101.xml  -> 寵物管理員 - 寵物交換券兌換
-102.xml  -> 貴族通行證交換物品
-382.xml  -> 任務 382：凱依的魔法銅錢
-426.xml  -> 任務 426：尋找漁靈彈 兌換道具
-500.xml  -> 七大封印 - 七封印祭師 - 購買消耗物品
-631.xml  -> 負責貨物的倉庫管理員 - 強化卷軸
-648.xml  -> 任務 648：賣冰人的夢
+101.xml  -> Tickets for pet collars Exchange
+102.xml  -> Noblesse Gate Pass for items
+382.xml  -> Quest 382: Head Blacksmith Vergara
+426.xml  -> Quest 426: Fishing Shots
+500.xml  -> Seven Signs - Purchase consumable items
+631.xml  -> Warehouse Freightman - enchants
+648.xml  -> Quest 648: An Ice Merchants Dream
 
-999.xml  -> 交換幼龍用裝備及座龍用裝備
-1000.xml -> 升級寵物裝備
+999.xml  -> Upgrade hatchling to strider equipment
+1000.xml -> Upgrade pet equipment
 
-1001.xml -> 一般鐵匠 - 製作二刀流武器-D級&C級
-1002.xml -> 一般鐵匠 - 解除封印-B級裝備
-1003.xml -> 一般鐵匠 - 重新封印-B級裝備
-1004.xml -> 一般鐵匠 - 製作道具
-1005.xml -> 一般鐵匠 - 賦予武器特殊能力
-1006.xml -> 一般鐵匠 - 基本武器-製作二刀流武器-B級
-1007.xml -> 一般鐵匠 - 製作二刀流武器-B級
-1008.xml -> 一般鐵匠 - 生命石兌換飾品用生命石
+1001.xml -> Dual Swords up to C-grade
+1002.xml -> Unseal B-grade gloves or boots
+1003.xml -> Reseal B-grade gloves or boots
+1004.xml -> Blacksmith crafting service
+1005.xml -> Blacksmith Special Abilities bestowing service
+1006.xml -> Dual Swords B-grade, require Dual Sword Craft Stamp
+1007.xml -> Dual Swords B-grade
+1008.xml -> Blacksmith Life Stones exchange
 
-1235.xml -> 阿貝拉套裝
+1235.xml -> Apella shop
 
-3361.xml -> 任務 336：魔法銅錢兌換---一級會員可兌換獎勵（武器）
-3362.xml -> 任務 336：魔法銅錢兌換---二級會員可兌換獎勵（防具）
-3363.xml -> 任務 336：魔法銅錢兌換---三級會員可兌換獎勵（飾品）
+3361.xml -> Quest 336: Coins of Magic, Rewards level 1
+3362.xml -> Quest 336: Coins of Magic, Rewards level 2
+3363.xml -> Quest 336: Coins of Magic, Rewards level 3
 
-6281.xml -> 黃金羊的狩獵：第1頁
-6282.xml -> 黃金羊的狩獵：第2頁
+6281.xml -> Swamp of Screams: Abercrombie, first list
+6282.xml -> Swamp of Screams: Abercrombie, second list
 
-7834.xml -> 任務 343：象牙塔的陰影---隕石球珠兌換（魔法商人- 賽馬）
-7897.xml -> 任務 351：黑色的天鵝---艾森海內票據交換
+7834.xml -> Quest 343: Under The Shadow Of The Ivory Tower, exchange Orbs
+7897.xml -> Quest 351: BlackSwan, exchange Bills
 
-31522.xml -> 任務 632：死靈法師的囑託
+31522.xml -> Quest 632: Necromancers Request
 
-301660373.xml -> 任務 373：試劑的供應計畫（商人 - 衛斯理）
-313880001.xml -> 任務 633：在被遺忘的村莊（亡者的森林村莊 - 米娜）
-320540001.xml -> 任務 650：對未完成夢想的執著
+301660373.xml -> Quest 373: Supplier of Reagents - Wesley
+313880001.xml -> Quest 633: In The Forgotten Village - Exchange Livers
+320540001.xml -> Quest 650: A Broken Dream
 
-310820001.xml -> 商人 - 席康-等級1
-310820002.xml -> 商人 - 席康-等級2
-310820003.xml -> 商人 - 席康-等級3
-313750001.xml -> 商人 - 裘瑪拉-等級1
-313750002.xml -> 商人 - 裘瑪拉-等級2
-313750003.xml -> 商人 - 裘瑪拉-等級3
+310820001.xml -> Varka alliance - Lv1
+310820002.xml -> Varka alliance - Lv2
+310820003.xml -> Varka alliance - Lv3
+313750001.xml -> Ketra alliance - Lv1
+313750002.xml -> Ketra alliance - Lv2
+313750003.xml -> Ketra alliance - Lv3
 
-308461001.xml -> 鐵匠 - 威伯特：製作二刀流武器
+308461001.xml -> Dual swords: Wilbert, doesn't require dualsword craft stamp
 
-310922001.xml -> 七大封印 - 財富的地下商人 - 解除武器特殊能力
-310922002.xml -> 七大封印 - 財富的地下商人 - 解除武器特殊能力
-311132501.xml -> 七大封印 - 財富的商人 - 購買其他道具
-311262501.xml -> 七大封印 - 財富的鐵匠 - 賦予武器特殊能力-S級
-311262502.xml -> 七大封印 - 財富的鐵匠 - 製作二刀流武器-A級
-311262503.xml -> 七大封印 - 財富的鐵匠 - 製作二刀流武器-S級
-311262504.xml -> 七大封印 - 財富的鐵匠 - 解除封印-S級防具
-311262505.xml -> 七大封印 - 財富的鐵匠 - 解除封印-S級飾品
-311262506.xml -> 七大封印 - 財富的鐵匠 - 解除封印-A級防具
-311262507.xml -> 七大封印 - 財富的鐵匠 - 解除封印-A級飾品
-311262508.xml -> 七大封印 - 財富的鐵匠 - 重新封印-A級防具
-311262509.xml -> 七大封印 - 財富的鐵匠 - 解除武器特殊能力
-311262510.xml -> 七大封印 - 財富的鐵匠 - 賦予武器特殊能力-A級
-311262511.xml -> 七大封印 - 財富的鐵匠 - 將武器替換成更強的武器
-311262512.xml -> 七大封印 - 財富的鐵匠 - 將武器替換成同級的其他類型
-311262513.xml -> 七大封印 - 財富的鐵匠 - 賦予武器特殊能力-S80級
+310922001.xml -> Seven Signs - Black Marketeer of Mammon - SA Removal for AA
+310922002.xml -> Seven Signs - Black Marketeer of Mammon - Black Market Items
+311132501.xml -> Seven Signs - Merchant of Mammon - Buy Etc Items
+311262501.xml -> Seven Signs - Blacksmith of Mammon - SA: S-Grade
+311262502.xml -> Seven Signs - Blacksmith of Mammon - A-grade duals
+311262503.xml -> Seven Signs - Blacksmith of Mammon - Duals S-Grade.
+311262504.xml -> Seven Signs - Blacksmith of Mammon - Unseal S-Grade Armor.
+311262505.xml -> Seven Signs - Blacksmith of Mammon - Unseal S-grade Accesories
+311262506.xml -> Seven Signs - Blacksmith of Mammon - Unseal A-Grade Armor
+311262507.xml -> Seven Signs - Blacksmith of Mammon - Unseal A-grade Accesories
+311262508.xml -> Seven Signs - Blacksmith of Mammon - Reseal A-grade Armor
+311262509.xml -> Seven Signs - Blacksmith of Mammon - SA removal
+311262510.xml -> Seven Signs - Blacksmith of Mammon - SA: A-grade
+311262511.xml -> Seven Signs - Blacksmith of Mammon - Weapon Upgrade
+311262512.xml -> Seven Signs - Blacksmith of Mammon - Weapon Exchange
+311262513.xml -> Seven Signs - Blacksmith of Mammon - Foundation Items
 
-306893001.xml -> 幻象武器交換券-D級
-306893002.xml -> 幻象武器交換券-C級
-306893003.xml -> 幻象武器交換券-D級&C級
-319463001.xml -> 購買幻象武器
+306893001.xml -> Shadow weaponry system. D-grade coupons exchange
+306893002.xml -> Shadow weaponry system. C-grade coupons exchange
+306893003.xml -> Shadow weaponry system. D/C-grade coupons exchange
+319463001.xml -> Shadow weaponry system. Adena exchange
 
-300974001.xml -> 奇岩城鎮 - 精品店：葛爾拉突次（武器）
-300984001.xml -> 奇岩城鎮 - 精品店：亞歷珊卓（防具&飾品）
-300984002.xml -> 奇岩城鎮 - 精品店：亞歷珊卓（搜魂石）
+300974001.xml -> Prestigious Items Hall: Galladucci (weapons)
+300984001.xml -> Prestigious Items Hall: Alexandria (armors)
+300984002.xml -> Prestigious Items Hall: Alexandria (misc)
 
-317325001.xml -> 冒險家會員：使用生命石兌換物品 - 修加特
-317325002.xml -> 冒險家會員：冒險家寶箱
-317325003.xml -> 冒險家會員：將現有的生命水晶交換成新的生命水晶
-318055002.xml -> 冒險家會員：見習冒險家專用-武器交換券生命石兌換物品 - 奇岩
-318145003.xml -> 冒險家會員：使用生命石兌換物品 - 歐瑞
-318275004.xml -> 冒險家會員：使用生命石兌換物品 - 亞丁
-318375005.xml -> 冒險家會員：使用生命石兌換物品 - 高達特
-318235006.xml -> 冒險家會員：使用生命石兌換物品 - 獵人村莊
-318195007.xml -> 冒險家會員：使用生命石兌換物品 - 海音斯
-318335008.xml -> 冒險家會員：使用生命石兌換物品 - 魯因
-317885009.xml -> 冒險家會員：使用生命石兌換物品 - 古魯丁村莊
-317925010.xml -> 冒險家會員：使用生命石兌換物品 - 古魯丁城鎮
-317975011.xml -> 冒險家會員：使用生命石兌換物品 - 狄恩
-320825001.xml -> 冒險家會員：使用生命石兌換（武器）
-320825002.xml -> 冒險家會員：使用生命石兌換（防具）
+317325001.xml -> Adventure Guildsman: Use Life Crystal Schuttgart
+317325002.xml -> Adventure Guildsman: Adventurer's Box
+317325003.xml -> Adventure Guildsman: Exchange Life Crystals
+318055002.xml -> Adventure Guildsman: Use Life Crystal Giran
+318145003.xml -> Adventure Guildsman: Use Life Crystal Oren
+318275004.xml -> Adventure Guildsman: Use Life Crystal Aden
+318375005.xml -> Adventure Guildsman: Use Life Crystal Goddard
+318235006.xml -> Adventure Guildsman: Use Life Crystal Hunters Village
+318195007.xml -> Adventure Guildsman: Use Life Crystal Heine
+318335008.xml -> Adventure Guildsman: Use Life Crystal Rune
+317885009.xml -> Adventure Guildsman: Use Life Crystal Gludin
+317925010.xml -> Adventure Guildsman: Use Life Crystal Gludio
+317975011.xml -> Adventure Guildsman: Use Life Crystal Dion
+320825001.xml -> Adventure Guildsman: Use Life Crystal for A weapons
+320825002.xml -> Adventure Guildsman: Use Life Crystal for A armors
 
-305986001.xml -> 見習冒險家：見習冒險家專用-武器交換券 兌換 幻象武器
-305986002.xml -> 見習冒險家：旅者專用-魔法防具交換券 兌換 魔法防具
+305986001.xml -> Hellbound's Newbie Shadow Weapon Coupons
+305986002.xml -> Hellbound's Newbie Shadow Armor Coupons
 
-317606001.xml -> 冒險助手 - 皇后喵喵：見習冒險家專用-武器交換券 兌換 見習冒險家武器
-317606002.xml -> 冒險助手 - 皇后喵喵：見習冒險家武器 兌換 見習冒險家專用-武器交換券
-317606003.xml -> 冒險助手 - 皇后喵喵：旅者專用-魔法防具交換券 兌換 旅者武器
-317606004.xml -> 冒險助手 - 皇后喵喵：旅者武器 兌換 旅者專用-魔法防具交換券
+317606001.xml -> Adventurers' Guide Miss Queen: Give Newbie Coupon
+317606002.xml -> Adventurers' Guide Miss Queen: Return Newbie Coupon
+317606003.xml -> Adventurers' Guide Miss Queen: Give Traveler Coupon
+317606004.xml -> Adventurers' Guide Miss Queen: Return Traveler Coupon
 
-300900001.xml -> 奇岩城鎮 - 飾品店（飾品商人 - 仙德拉）
+300900001.xml -> Talismans
 
-350980001.xml -> 莊園管理員：古魯丁
-350980002.xml -> 莊園管理員：狄恩
-350980003.xml -> 莊園管理員：奇岩
-350980004.xml -> 莊園管理員：歐瑞
-350980005.xml -> 莊園管理員：亞丁
-350980006.xml -> 莊園管理員：因納得立
-350980007.xml -> 莊園管理員：高達特
-350980008.xml -> 莊園管理員：魯因
-350980009.xml -> 莊園管理員：修加特
+350980001.xml -> Manor Products: Gludio
+350980002.xml -> Manor Products: Dion
+350980003.xml -> Manor Products: Giran
+350980004.xml -> Manor Products: Oren
+350980005.xml -> Manor Products: Aden
+350980006.xml -> Manor Products: Innadril
+350980007.xml -> Manor Products: Goddard
+350980008.xml -> Manor Products: Rune
+350980009.xml -> Manor Products: Schuttgart
 
-350980012.xml -> NPC 32359 藍 力量鐵匠	
+350980012.xml -> BlackSmith Lahm
 
-36142001.xml -> 巨龍士伯吟邊境要塞 - 可疑的商人
+36142001.xml -> Dragonspine fortress buylist
 
-32326001.xml -> 楊 屬性大師 - 屬性強化藥 NPC 32325 仁	屬性大師
-32326002.xml -> 楊 屬性大師 - 互換元素屬性 NPC 32325 仁	屬性大師
+32326001.xml -> Yang - Elemental potions
+32326002.xml -> Yang - Elemental stones
+
+364790001.xml -> Reputation Manager: PvP weapons, armors enhancement
+364790002.xml -> Reputation Manager: Removal of PvP enhancement
+364790003.xml -> Reputation Manager: Consumables

@@ -267,8 +267,8 @@
 <skill id="1413" levels="1" name="Magnus' Chant">
   <set name="itemConsumeId" val="3031"/>
   <set name="itemConsumeCount" val="40"/>
-  <set name="mpInitialConsume" val="59"/> <!-- Guessing -->
-  <set name="mpConsume" val="287"/>
+  <set name="mpInitialConsume" val="57"/> <!-- Guessing -->
+  <set name="mpConsume" val="230"/>
   <set name="target" val="TARGET_PARTY"/>
   <set name="skillRadius" val="1000"/>
   <set name="reuseDelay" val="1200000"/> <!-- Guessing -->
@@ -294,7 +294,7 @@
   <set name="itemConsumeId" val="3031"/>
   <set name="itemConsumeCount" val="40"/>
   <set name="mpInitialConsume" val="57"/>
-  <set name="mpConsume" val="284"/>
+  <set name="mpConsume" val="227"/>
   <set name="target" val="TARGET_CLAN"/>
   <set name="skillRadius" val="400"/>
   <set name="reuseDelay" val="1200000"/>
@@ -325,7 +325,7 @@
 <skill id="1415" levels="1" name="Pa'agrio's Emblem">
   <!-- All the values here are guessed (taken from Chant of Spirit and other clan buffs) -->
   <set name="mpInitialConsume" val="56"/>
-  <set name="mpConsume" val="228"/>
+  <set name="mpConsume" val="172"/>
   <set name="target" val="TARGET_CLAN"/>
   <set name="skillRadius" val="400"/>
   <set name="reuseDelay" val="20000"/>
@@ -345,7 +345,7 @@
 </skill>
 <skill id="1416" levels="1" name="Pa'agrio's Fist">
   <set name="mpInitialConsume" val="57"/> <!-- Guessing -->
-  <set name="mpConsume" val="284"/>
+  <set name="mpConsume" val="227"/>
   <set name="itemConsumeId" val="3031"/>
   <set name="itemConsumeCount" val="20"/> 
   <set name="power" val="800"/>
@@ -1475,7 +1475,7 @@
   <table name="#mpConsume_Init"> 4 7 11 </table>
   <table name="#mpConsume"> 15 29 44 </table>
   <table name="#magicLvl"> 24 46 66 </table> 
-  <table name="#negatePower"> 3 7 10 </table>
+  <table name="#negateLvl"> 3 7 10 </table>
   <set name="mpInitialConsume" val="#mpConsume_Init"/>
   <set name="mpConsume" val="#mpConsume"/>
   <set name="magicLvl" val="#magicLvl"/>
@@ -1485,7 +1485,7 @@
   <set name="skillType" val="NEGATE"/>
   <set name="isMagic" val="true"/>
   <set name="negateId" val="5264"/>
-  <set name="negatePower" val="#negatePower"/>
+  <set name="negateLvl" val="#negateLvl"/>
   <set name="operateType" val="OP_ACTIVE"/>
   <set name="castRange" val="600"/>
 </skill>
@@ -1568,6 +1568,7 @@
   <table name="#mpConsume"> 100 115 127 </table>
   <table name="#mAtkSpd"> 1.10 1.12 1.15 </table> <!-- Guessing Lvl 1 & 2 -->
   <table name="#mAtk"> 235 285 335 </table> <!-- Guessing Lvl 1 & 2 -->
+  <table name="#mCrit"> 3 4 5 </table><!-- Update by rocknow from L2Emu -->
   <set name="castRange" val="-1"/>
   <set name="effectRange" val="-1"/>
   <set name="hitTime" val="2500"/>
@@ -1583,6 +1584,7 @@
     <effect name="Buff" time="10" count="1" val="0">
       <mul order="0x30" stat="mAtkSpd" val="#mAtkSpd"/>
       <add order="0x40" stat="mAtk" val="#mAtk"/>
+      <mul order="0x30" stat="mCritRate" val="#mCrit"/><!-- Update by rocknow from L2Emu -->
       <!-- Missing Magic Critical Rate +? -->
     </effect>
   </for>

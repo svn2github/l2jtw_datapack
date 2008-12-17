@@ -5,40 +5,30 @@
   <set name="skillType" val="NOTDONE"/>
   <set name="operateType" val="OP_PASSIVE"/>
   <set name="castRange" val="-1"/>
-  <for>
-  </for>
 </skill>
 <skill id="3401" levels="1" name="Dynasty Resistance Necklace">
   <set name="target" val="TARGET_NONE"/>
   <set name="skillType" val="NOTDONE"/>
   <set name="operateType" val="OP_PASSIVE"/>
   <set name="castRange" val="-1"/>
-  <for>
-  </for>
 </skill>
 <skill id="3402" levels="1" name="Dynasty Resistance Ring">
   <set name="target" val="TARGET_NONE"/>
   <set name="skillType" val="NOTDONE"/>
   <set name="operateType" val="OP_PASSIVE"/>
   <set name="castRange" val="-1"/>
-  <for>
-  </for>
 </skill>
 <skill id="3403" levels="1" name="Dynasty Resistance Earring">
   <set name="target" val="TARGET_NONE"/>
   <set name="skillType" val="NOTDONE"/>
   <set name="operateType" val="OP_PASSIVE"/>
   <set name="castRange" val="-1"/>
-  <for>
-  </for>
 </skill>
 <skill id="3404" levels="1" name="Mystery Effect">
   <set name="target" val="TARGET_NONE"/>
   <set name="skillType" val="NOTDONE"/>
   <set name="operateType" val="OP_PASSIVE"/>
   <set name="castRange" val="-1"/>
-  <for>
-  </for>
 </skill>
 <skill id="3405" levels="1" name="Large Firecracker Effect">
   <set name="target" val="TARGET_SELF"/>
@@ -105,16 +95,12 @@
   <set name="skillType" val="NOTDONE"/>
   <set name="operateType" val="OP_PASSIVE"/>
   <set name="castRange" val="-1"/>
-  <for>
-  </for>
 </skill>
 <skill id="3411" levels="1" name="Special Ability: Focus">
   <set name="target" val="TARGET_NONE"/>
   <set name="skillType" val="NOTDONE"/>
   <set name="operateType" val="OP_PASSIVE"/>
   <set name="castRange" val="-1"/>
-  <for>
-  </for>
 </skill>
 <skill id="3412" levels="1" name="Dynasty Breast Plate">
   <!-- Done by DJ MELERIX -->
@@ -161,7 +147,7 @@
     <mul order="0x30" stat="pAtk" val="1.054"/> <!-- P. Atk. +5.4% -->
     <add order="0x40" stat="maxHp" val="492"/> <!-- Max HP +492 Effect -->
     <mul order="0x30" stat="darkVuln" val="0.92"/> <!-- Dark resistance +8 -->
-    <mul order="0x30" stat="PhysicalMpConsumeRate" val="0.97"/> <!-- MP consumption of the active skill is decreased +? --> <!-- Guessing -->
+    <mul order="0x30" stat="PhysicalMpConsumeRate" val="0.95"/> <!-- MP consumption of the active skill is decreased -5% -->
   </for>
 </skill>
 <skill id="3415" levels="1" name="Dynasty Leather Armor - Weapon Master">
@@ -172,12 +158,14 @@
   <set name="castRange" val="-1"/>
   <set name="effectRange" val="-1"/>
   <for>
+    <add order="0x10" stat="STR" val="1"/> <!-- Str +1 -->
+    <add order="0x10" stat="DEX" val="1"/> <!-- Dex +1 -->
     <sub order="0x10" stat="CON" val="2"/> <!-- Con -2 -->
-    <add order="0x10" stat="STR" val="2"/> <!-- Str +2 -->
     <mul order="0x30" stat="pAtk" val="1.054"/> <!-- P. Atk +5.4% -->
     <add order="0x40" stat="maxHp" val="492"/> <!-- MaxHP +492 -->
     <mul order="0x30" stat="darkVuln" val="0.92"/> <!-- Dark Resistance +8 -->
-    <basemul order="0x30" stat="rCrit" val="0.03"/> <!-- Critical Damage Chance +? --> <!-- Guessing -->
+    <add order="0x40" stat="cAtkAdd" val="234"/> <!-- Critical Damage +234 -->
+    <basemul order="0x30" stat="rCrit" val="0.0246"/> <!-- Critical Damage Chance +2.46% -->
   </for>
 </skill>
 <skill id="3416" levels="1" name="Dynasty Tunic">
@@ -198,13 +186,13 @@
 <skill id="3417" levels="1" name="Equipped with Shield">
   <!-- Dynasty Shield Skill -->
   <set name="target" val="TARGET_SELF"/>
-  <set name="skillType" val="BUFF"/> 
-  <set name="operateType" val="OP_PASSIVE"/> 
-  <set name="castRange" val="-1"/> 
-  <set name="effectRange" val="-1"/> 
-  <for> 
+  <set name="skillType" val="BUFF"/>
+  <set name="operateType" val="OP_PASSIVE"/>
+  <set name="castRange" val="-1"/>
+  <set name="effectRange" val="-1"/>
+  <for>
     <mul order="0x30" stat="sDef" val="1.05"/>
-  </for> 
+  </for>
 </skill>
 <skill id="3418" levels="1" name="Active Skill: Transform Pig">
   <!-- Update by rocknow from L2Emu -->
@@ -225,8 +213,6 @@
   <set name="skillType" val="NOTDONE"/>
   <set name="operateType" val="OP_PASSIVE"/>
   <set name="castRange" val="-1"/>
-  <for>
-  </for>
 </skill>
 <skill id="3420" levels="1" name="Dynasty Leather Armor - Summoner">
   <!-- Done by DJ MELERIX -->
@@ -238,11 +224,11 @@
   <for>
     <sub order="0x10" stat="STR" val="2"/> <!-- Str -2 -->
     <add order="0x10" stat="CON" val="2"/> <!-- Con +2 -->
-    <mul order="0x30" stat="pAtkSpd" val="1.03"/> <!-- increase Atk. Spd. +? --> <!-- Guessing -->
+    <mul order="0x30" stat="pAtkSpd" val="1.03"/> <!-- increase Atk. Spd. +5.4% -->
     <add order="0x40" stat="maxHp" val="492"/> <!-- MaxHP +492 -->
     <mul order="0x30" stat="darkVuln" val="0.92"/> <!-- Dark Resistance +8 -->
-    <mul order="0x30" stat="pAtk" val="1.03"/> <!-- Increase P. Atk. +? --> <!-- Guessing -->
-    <mul order="0x30" stat="pDef" val="1.03"/> <!-- Increase P. Def. +? --> <!-- Guessing -->
+    <mul order="0x30" stat="pAtk" val="1.0266"/> <!-- Increase P. Atk. +2.66% -->
+    <mul order="0x30" stat="pDef" val="1.0266"/> <!-- Increase P. Def. +2.66% -->
   </for>
 </skill>
 <skill id="3421" levels="1" name="Wolf Mount">
@@ -250,16 +236,12 @@
   <set name="skillType" val="NOTDONE"/>
   <set name="operateType" val="OP_PASSIVE"/>
   <set name="castRange" val="-1"/>
-  <for>
-  </for>
 </skill>
 <skill id="3422" levels="1" name="Wolf Dismount">
   <set name="target" val="TARGET_NONE"/>
   <set name="skillType" val="NOTDONE"/>
   <set name="operateType" val="OP_PASSIVE"/>
   <set name="castRange" val="-1"/>
-  <for>
-  </for>
 </skill>
 <skill id="3423" levels="1" name="Little Angel Agathion - Summon (or Release)">
   <set name="target" val="TARGET_SELF"/>
@@ -270,8 +252,6 @@
   <set name="npcId" val="16031"/>
   <set name="castRange" val="-1"/>
   <set name="effectRange" val="-1"/>
-  <for>
-  </for>
 </skill>
 <skill id="3424" levels="1" name="Little Devil Agathion - Summon (or Release)">
   <set name="target" val="TARGET_SELF"/>
@@ -282,8 +262,6 @@
   <set name="npcId" val="16032"/>
   <set name="castRange" val="-1"/>
   <set name="effectRange" val="-1"/>
-  <for>
-  </for>
 </skill>
 <skill id="3425" levels="1" name="Rudolph Agathion - Summon (or Release)">
   <set name="target" val="TARGET_SELF"/>
@@ -294,8 +272,6 @@
   <set name="npcId" val="16033"/>
   <set name="castRange" val="-1"/>
   <set name="effectRange" val="-1"/>
-  <for>
-  </for>
 </skill>
 <skill id="3426" levels="1" name="Maximum Ability">
   <set name="target" val="TARGET_PARTY"/>
@@ -305,8 +281,6 @@
   <set name="castRange" val="-1"/>
   <set name="effectRange" val="-1"/>
   <set name="effectId" val="5547"/>
-  <for>
-  </for>
 </skill>
 <skill id="3427" levels="1" name="Special Ability: Infinity Rapier">
   <set name="magicLvl" val="80"/>
@@ -330,583 +304,697 @@
   <set name="skillType" val="NOTDONE"/>
   <set name="operateType" val="OP_PASSIVE"/>
   <set name="castRange" val="-1"/>
-  <for>
-  </for>
 </skill>
 <skill id="3429" levels="1" name="Blue Talisman - Vital power">
   <set name="target" val="TARGET_NONE"/>
   <set name="skillType" val="NOTDONE"/>
   <set name="operateType" val="OP_PASSIVE"/>
   <set name="castRange" val="-1"/>
-  <for>
-  </for>
 </skill>
 <skill id="3430" levels="1" name="White Talisman - Darkness">
   <set name="target" val="TARGET_NONE"/>
   <set name="skillType" val="NOTDONE"/>
   <set name="operateType" val="OP_PASSIVE"/>
   <set name="castRange" val="-1"/>
-  <for>
-  </for>
 </skill>
 <skill id="3431" levels="1" name="White Talisman - Storm">
   <set name="target" val="TARGET_NONE"/>
   <set name="skillType" val="NOTDONE"/>
   <set name="operateType" val="OP_PASSIVE"/>
   <set name="castRange" val="-1"/>
-  <for>
-  </for>
 </skill>
 <skill id="3432" levels="1" name="White Talisman - Water">
   <set name="target" val="TARGET_NONE"/>
   <set name="skillType" val="NOTDONE"/>
   <set name="operateType" val="OP_PASSIVE"/>
   <set name="castRange" val="-1"/>
-  <for>
-  </for>
 </skill>
 <skill id="3433" levels="1" name="White Talisman - Fire">
   <set name="target" val="TARGET_NONE"/>
   <set name="skillType" val="NOTDONE"/>
   <set name="operateType" val="OP_PASSIVE"/>
   <set name="castRange" val="-1"/>
-  <for>
-  </for>
 </skill>
 <skill id="3434" levels="1" name="White Talisman - Earth">
   <set name="target" val="TARGET_NONE"/>
   <set name="skillType" val="NOTDONE"/>
   <set name="operateType" val="OP_PASSIVE"/>
   <set name="castRange" val="-1"/>
-  <for>
-  </for>
 </skill>
 <skill id="3435" levels="1" name="White Talisman - Light">
   <set name="target" val="TARGET_NONE"/>
   <set name="skillType" val="NOTDONE"/>
   <set name="operateType" val="OP_PASSIVE"/>
   <set name="castRange" val="-1"/>
-  <for>
-  </for>
 </skill>
 <skill id="3436" levels="1" name="Blue Talisman - Self destruction">
   <set name="target" val="TARGET_NONE"/>
   <set name="skillType" val="NOTDONE"/>
   <set name="operateType" val="OP_PASSIVE"/>
   <set name="castRange" val="-1"/>
-  <for>
-  </for>
 </skill>
 <skill id="3437" levels="1" name="Red Talisman - Magic Explosive power">
   <set name="target" val="TARGET_NONE"/>
   <set name="skillType" val="NOTDONE"/>
   <set name="operateType" val="OP_PASSIVE"/>
   <set name="castRange" val="-1"/>
-  <for>
-  </for>
 </skill>
 <skill id="3438" levels="1" name="Blue Talisman - Great Healing">
   <set name="target" val="TARGET_NONE"/>
   <set name="skillType" val="NOTDONE"/>
   <set name="operateType" val="OP_PASSIVE"/>
   <set name="castRange" val="-1"/>
-  <for>
-  </for>
 </skill>
 <skill id="3439" levels="1" name="Silk Shirt">
-  <set name="target" val="TARGET_NONE"/>
-  <set name="skillType" val="NOTDONE"/>
+  <set name="target" val="TARGET_SELF"/>
+  <set name="skillType" val="BUFF"/>
   <set name="operateType" val="OP_PASSIVE"/>
   <set name="castRange" val="-1"/>
+  <set name="effectRange" val="-1"/>
   <for>
+    <add order="0x40" stat="maxHp" val="118"/>
   </for>
 </skill>
 <skill id="3440" levels="1" name="Silk Shirt">
-  <set name="target" val="TARGET_NONE"/>
-  <set name="skillType" val="NOTDONE"/>
+  <set name="target" val="TARGET_SELF"/>
+  <set name="skillType" val="BUFF"/>
   <set name="operateType" val="OP_PASSIVE"/>
   <set name="castRange" val="-1"/>
+  <set name="effectRange" val="-1"/>
   <for>
+    <add order="0x40" stat="maxMp" val="51"/>
   </for>
 </skill>
 <skill id="3441" levels="1" name="Silk Shirt">
-  <set name="target" val="TARGET_NONE"/>
-  <set name="skillType" val="NOTDONE"/>
+  <set name="target" val="TARGET_SELF"/>
+  <set name="skillType" val="BUFF"/>
   <set name="operateType" val="OP_PASSIVE"/>
   <set name="castRange" val="-1"/>
+  <set name="effectRange" val="-1"/>
   <for>
+    <add order="0x40" stat="maxCp" val="354"/>
   </for>
 </skill>
 <skill id="3442" levels="1" name="Silk Shirt">
-  <set name="target" val="TARGET_NONE"/>
-  <set name="skillType" val="NOTDONE"/>
+  <set name="target" val="TARGET_SELF"/>
+  <set name="skillType" val="BUFF"/>
   <set name="operateType" val="OP_PASSIVE"/>
   <set name="castRange" val="-1"/>
+  <set name="effectRange" val="-1"/>
   <for>
+    <add order="0x40" stat="maxHp" val="118"/>
+    <add order="0x40" stat="maxMp" val="51"/>
   </for>
 </skill>
 <skill id="3443" levels="1" name="Silk Shirt">
-  <set name="target" val="TARGET_NONE"/>
-  <set name="skillType" val="NOTDONE"/>
+  <set name="target" val="TARGET_SELF"/>
+  <set name="skillType" val="BUFF"/>
   <set name="operateType" val="OP_PASSIVE"/>
   <set name="castRange" val="-1"/>
+  <set name="effectRange" val="-1"/>
   <for>
+    <add order="0x40" stat="maxHp" val="118"/>
+    <add order="0x40" stat="maxCp" val="354"/>
   </for>
 </skill>
 <skill id="3444" levels="1" name="Silk Shirt">
-  <set name="target" val="TARGET_NONE"/>
-  <set name="skillType" val="NOTDONE"/>
+  <set name="target" val="TARGET_SELF"/>
+  <set name="skillType" val="BUFF"/>
   <set name="operateType" val="OP_PASSIVE"/>
   <set name="castRange" val="-1"/>
+  <set name="effectRange" val="-1"/>
   <for>
+    <add order="0x40" stat="maxMp" val="51"/>
+    <add order="0x40" stat="maxCp" val="354"/>
   </for>
 </skill>
 <skill id="3445" levels="1" name="Thin Leather Shirt">
-  <set name="target" val="TARGET_NONE"/>
-  <set name="skillType" val="NOTDONE"/>
+  <set name="target" val="TARGET_SELF"/>
+  <set name="skillType" val="BUFF"/>
   <set name="operateType" val="OP_PASSIVE"/>
   <set name="castRange" val="-1"/>
+  <set name="effectRange" val="-1"/>
   <for>
+    <add order="0x40" stat="maxHp" val="147"/>
   </for>
 </skill>
 <skill id="3446" levels="1" name="Thin Leather Shirt">
-  <set name="target" val="TARGET_NONE"/>
-  <set name="skillType" val="NOTDONE"/>
+  <set name="target" val="TARGET_SELF"/>
+  <set name="skillType" val="BUFF"/>
   <set name="operateType" val="OP_PASSIVE"/>
   <set name="castRange" val="-1"/>
+  <set name="effectRange" val="-1"/>
   <for>
+    <add order="0x40" stat="maxMp" val="72"/>
   </for>
 </skill>
 <skill id="3447" levels="1" name="Thin Leather Shirt">
-  <set name="target" val="TARGET_NONE"/>
-  <set name="skillType" val="NOTDONE"/>
+  <set name="target" val="TARGET_SELF"/>
+  <set name="skillType" val="BUFF"/>
   <set name="operateType" val="OP_PASSIVE"/>
   <set name="castRange" val="-1"/>
+  <set name="effectRange" val="-1"/>
   <for>
+    <add order="0x40" stat="maxCp" val="441"/>
   </for>
 </skill>
 <skill id="3448" levels="1" name="Thin Leather Shirt">
-  <set name="target" val="TARGET_NONE"/>
-  <set name="skillType" val="NOTDONE"/>
+  <set name="target" val="TARGET_SELF"/>
+  <set name="skillType" val="BUFF"/>
   <set name="operateType" val="OP_PASSIVE"/>
   <set name="castRange" val="-1"/>
+  <set name="effectRange" val="-1"/>
   <for>
+    <add order="0x40" stat="maxHp" val="147"/>
+    <add order="0x40" stat="maxMp" val="72"/>
   </for>
 </skill>
 <skill id="3449" levels="1" name="Thin Leather Shirt">
-  <set name="target" val="TARGET_NONE"/>
-  <set name="skillType" val="NOTDONE"/>
+  <set name="target" val="TARGET_SELF"/>
+  <set name="skillType" val="BUFF"/>
   <set name="operateType" val="OP_PASSIVE"/>
   <set name="castRange" val="-1"/>
+  <set name="effectRange" val="-1"/>
   <for>
+    <add order="0x40" stat="maxHp" val="147"/>
+    <add order="0x40" stat="maxCp" val="441"/>
   </for>
 </skill>
 <skill id="3450" levels="1" name="Thin Leather Shirt">
-  <set name="target" val="TARGET_NONE"/>
-  <set name="skillType" val="NOTDONE"/>
+  <set name="target" val="TARGET_SELF"/>
+  <set name="skillType" val="BUFF"/>
   <set name="operateType" val="OP_PASSIVE"/>
   <set name="castRange" val="-1"/>
+  <set name="effectRange" val="-1"/>
   <for>
+    <add order="0x40" stat="maxMp" val="72"/>
+    <add order="0x40" stat="maxCp" val="441"/>
   </for>
 </skill>
 <skill id="3451" levels="1" name="Scale Shirt">
-  <set name="target" val="TARGET_NONE"/>
-  <set name="skillType" val="NOTDONE"/>
+  <set name="target" val="TARGET_SELF"/>
+  <set name="skillType" val="BUFF"/>
   <set name="operateType" val="OP_PASSIVE"/>
   <set name="castRange" val="-1"/>
+  <set name="effectRange" val="-1"/>
   <for>
+    <add order="0x40" stat="maxHp" val="172"/>
   </for>
 </skill>
 <skill id="3452" levels="1" name="Scale Shirt">
-  <set name="target" val="TARGET_NONE"/>
-  <set name="skillType" val="NOTDONE"/>
+  <set name="target" val="TARGET_SELF"/>
+  <set name="skillType" val="BUFF"/>
   <set name="operateType" val="OP_PASSIVE"/>
   <set name="castRange" val="-1"/>
+  <set name="effectRange" val="-1"/>
   <for>
+    <add order="0x40" stat="maxMp" val="85"/>
   </for>
 </skill>
 <skill id="3453" levels="1" name="Scale Shirt">
-  <set name="target" val="TARGET_NONE"/>
-  <set name="skillType" val="NOTDONE"/>
+  <set name="target" val="TARGET_SELF"/>
+  <set name="skillType" val="BUFF"/>
   <set name="operateType" val="OP_PASSIVE"/>
   <set name="castRange" val="-1"/>
+  <set name="effectRange" val="-1"/>
   <for>
+    <add order="0x40" stat="maxCp" val="516"/>
   </for>
 </skill>
 <skill id="3454" levels="1" name="Scale Shirt">
-  <set name="target" val="TARGET_NONE"/>
-  <set name="skillType" val="NOTDONE"/>
+  <set name="target" val="TARGET_SELF"/>
+  <set name="skillType" val="BUFF"/>
   <set name="operateType" val="OP_PASSIVE"/>
   <set name="castRange" val="-1"/>
+  <set name="effectRange" val="-1"/>
   <for>
+    <add order="0x40" stat="maxHp" val="172"/>
+    <add order="0x40" stat="maxMp" val="85"/>
   </for>
 </skill>
 <skill id="3455" levels="1" name="Scale Shirt">
-  <set name="target" val="TARGET_NONE"/>
-  <set name="skillType" val="NOTDONE"/>
+  <set name="target" val="TARGET_SELF"/>
+  <set name="skillType" val="BUFF"/>
   <set name="operateType" val="OP_PASSIVE"/>
   <set name="castRange" val="-1"/>
+  <set name="effectRange" val="-1"/>
   <for>
+    <add order="0x40" stat="maxHp" val="172"/>
+    <add order="0x40" stat="maxCp" val="515"/>
   </for>
 </skill>
 <skill id="3456" levels="1" name="Scale Shirt">
-  <set name="target" val="TARGET_NONE"/>
-  <set name="skillType" val="NOTDONE"/>
+  <set name="target" val="TARGET_SELF"/>
+  <set name="skillType" val="BUFF"/>
   <set name="operateType" val="OP_PASSIVE"/>
   <set name="castRange" val="-1"/>
+  <set name="effectRange" val="-1"/>
   <for>
+    <add order="0x40" stat="maxMp" val="85"/>
+    <add order="0x40" stat="maxCp" val="516"/>
   </for>
 </skill>
 <skill id="3457" levels="1" name="Mithril Shirt">
-  <set name="target" val="TARGET_NONE"/>
-  <set name="skillType" val="NOTDONE"/>
+  <set name="target" val="TARGET_SELF"/>
+  <set name="skillType" val="BUFF"/>
   <set name="operateType" val="OP_PASSIVE"/>
   <set name="castRange" val="-1"/>
+  <set name="effectRange" val="-1"/>
   <for>
+    <add order="0x40" stat="maxHp" val="224"/>
   </for>
 </skill>
 <skill id="3458" levels="1" name="Mithril Shirt">
-  <set name="target" val="TARGET_NONE"/>
-  <set name="skillType" val="NOTDONE"/>
+  <set name="target" val="TARGET_SELF"/>
+  <set name="skillType" val="BUFF"/>
   <set name="operateType" val="OP_PASSIVE"/>
   <set name="castRange" val="-1"/>
+  <set name="effectRange" val="-1"/>
   <for>
+    <add order="0x40" stat="maxMp" val="111"/>
   </for>
 </skill>
 <skill id="3459" levels="1" name="Mithril Shirt">
-  <set name="target" val="TARGET_NONE"/>
-  <set name="skillType" val="NOTDONE"/>
+  <set name="target" val="TARGET_SELF"/>
+  <set name="skillType" val="BUFF"/>
   <set name="operateType" val="OP_PASSIVE"/>
   <set name="castRange" val="-1"/>
+  <set name="effectRange" val="-1"/>
   <for>
+    <add order="0x40" stat="maxCp" val="672"/>
   </for>
 </skill>
 <skill id="3460" levels="1" name="Mithril Shirt">
-  <set name="target" val="TARGET_NONE"/>
-  <set name="skillType" val="NOTDONE"/>
+  <set name="target" val="TARGET_SELF"/>
+  <set name="skillType" val="BUFF"/>
   <set name="operateType" val="OP_PASSIVE"/>
   <set name="castRange" val="-1"/>
+  <set name="effectRange" val="-1"/>
   <for>
+    <add order="0x40" stat="maxHp" val="224"/>
+    <add order="0x40" stat="maxMp" val="111"/>
   </for>
 </skill>
 <skill id="3461" levels="1" name="Mithril Shirt">
-  <set name="target" val="TARGET_NONE"/>
-  <set name="skillType" val="NOTDONE"/>
+  <set name="target" val="TARGET_SELF"/>
+  <set name="skillType" val="BUFF"/>
   <set name="operateType" val="OP_PASSIVE"/>
   <set name="castRange" val="-1"/>
+  <set name="effectRange" val="-1"/>
   <for>
+    <add order="0x40" stat="maxHp" val="224"/>
+    <add order="0x40" stat="maxCp" val="672"/>
   </for>
 </skill>
 <skill id="3462" levels="1" name="Mithril Shirt">
-  <set name="target" val="TARGET_NONE"/>
-  <set name="skillType" val="NOTDONE"/>
+  <set name="target" val="TARGET_SELF"/>
+  <set name="skillType" val="BUFF"/>
   <set name="operateType" val="OP_PASSIVE"/>
   <set name="castRange" val="-1"/>
+  <set name="effectRange" val="-1"/>
   <for>
+    <add order="0x40" stat="maxMp" val="111"/>
+    <add order="0x40" stat="maxCp" val="672"/>
   </for>
 </skill>
 <skill id="3463" levels="1" name="Striped Silk Shirt">
-  <set name="target" val="TARGET_NONE"/>
-  <set name="skillType" val="NOTDONE"/>
+  <set name="target" val="TARGET_SELF"/>
+  <set name="skillType" val="BUFF"/>
   <set name="operateType" val="OP_PASSIVE"/>
   <set name="castRange" val="-1"/>
+  <set name="effectRange" val="-1"/>
   <for>
+    <add order="0x40" stat="maxHp" val="135"/>
   </for>
 </skill>
 <skill id="3464" levels="1" name="Striped Silk Shirt">
-  <set name="target" val="TARGET_NONE"/>
-  <set name="skillType" val="NOTDONE"/>
+  <set name="target" val="TARGET_SELF"/>
+  <set name="skillType" val="BUFF"/>
   <set name="operateType" val="OP_PASSIVE"/>
   <set name="castRange" val="-1"/>
+  <set name="effectRange" val="-1"/>
   <for>
+    <add order="0x40" stat="maxMp" val="66"/>
   </for>
 </skill>
 <skill id="3465" levels="1" name="Striped Silk Shirt">
-  <set name="target" val="TARGET_NONE"/>
-  <set name="skillType" val="NOTDONE"/>
+  <set name="target" val="TARGET_SELF"/>
+  <set name="skillType" val="BUFF"/>
   <set name="operateType" val="OP_PASSIVE"/>
   <set name="castRange" val="-1"/>
+  <set name="effectRange" val="-1"/>
   <for>
+    <add order="0x40" stat="maxCp" val="405"/>
   </for>
 </skill>
 <skill id="3466" levels="1" name="Striped Silk Shirt">
-  <set name="target" val="TARGET_NONE"/>
-  <set name="skillType" val="NOTDONE"/>
+  <set name="target" val="TARGET_SELF"/>
+  <set name="skillType" val="BUFF"/>
   <set name="operateType" val="OP_PASSIVE"/>
   <set name="castRange" val="-1"/>
+  <set name="effectRange" val="-1"/>
   <for>
+    <add order="0x40" stat="maxHp" val="135"/>
+    <add order="0x40" stat="maxMp" val="66"/>
   </for>
 </skill>
 <skill id="3467" levels="1" name="Striped Silk Shirt">
-  <set name="target" val="TARGET_NONE"/>
-  <set name="skillType" val="NOTDONE"/>
+  <set name="target" val="TARGET_SELF"/>
+  <set name="skillType" val="BUFF"/>
   <set name="operateType" val="OP_PASSIVE"/>
   <set name="castRange" val="-1"/>
+  <set name="effectRange" val="-1"/>
   <for>
+    <add order="0x40" stat="maxHp" val="135"/>
+    <add order="0x40" stat="maxCp" val="405"/>
   </for>
 </skill>
 <skill id="3468" levels="1" name="Striped Silk Shirt">
-  <set name="target" val="TARGET_NONE"/>
-  <set name="skillType" val="NOTDONE"/>
+  <set name="target" val="TARGET_SELF"/>
+  <set name="skillType" val="BUFF"/>
   <set name="operateType" val="OP_PASSIVE"/>
   <set name="castRange" val="-1"/>
+  <set name="effectRange" val="-1"/>
   <for>
+    <add order="0x40" stat="maxMp" val="66"/>
+    <add order="0x40" stat="maxCp" val="354"/>
   </for>
 </skill>
 <skill id="3469" levels="1" name="Thin Stripe Leather Shirt">
-  <set name="target" val="TARGET_NONE"/>
-  <set name="skillType" val="NOTDONE"/>
+  <set name="target" val="TARGET_SELF"/>
+  <set name="skillType" val="BUFF"/>
   <set name="operateType" val="OP_PASSIVE"/>
   <set name="castRange" val="-1"/>
+  <set name="effectRange" val="-1"/>
   <for>
+    <add order="0x40" stat="maxHp" val="160"/>
   </for>
 </skill>
 <skill id="3470" levels="1" name="Thin Stripe Leather Shirt">
-  <set name="target" val="TARGET_NONE"/>
-  <set name="skillType" val="NOTDONE"/>
+  <set name="target" val="TARGET_SELF"/>
+  <set name="skillType" val="BUFF"/>
   <set name="operateType" val="OP_PASSIVE"/>
   <set name="castRange" val="-1"/>
+  <set name="effectRange" val="-1"/>
   <for>
+    <add order="0x40" stat="maxMp" val="78"/>
   </for>
 </skill>
 <skill id="3471" levels="1" name="Thin Stripe Leather Shirt">
-  <set name="target" val="TARGET_NONE"/>
-  <set name="skillType" val="NOTDONE"/>
+  <set name="target" val="TARGET_SELF"/>
+  <set name="skillType" val="BUFF"/>
   <set name="operateType" val="OP_PASSIVE"/>
   <set name="castRange" val="-1"/>
+  <set name="effectRange" val="-1"/>
   <for>
+    <add order="0x40" stat="maxCp" val="480"/>
   </for>
 </skill>
 <skill id="3472" levels="1" name="Thin Stripe Leather Shirt">
-  <set name="target" val="TARGET_NONE"/>
-  <set name="skillType" val="NOTDONE"/>
+  <set name="target" val="TARGET_SELF"/>
+  <set name="skillType" val="BUFF"/>
   <set name="operateType" val="OP_PASSIVE"/>
   <set name="castRange" val="-1"/>
+  <set name="effectRange" val="-1"/>
   <for>
+    <add order="0x40" stat="maxHp" val="160"/>
+    <add order="0x40" stat="maxMp" val="78"/>
   </for>
 </skill>
 <skill id="3473" levels="1" name="Thin Stripe Leather Shirt">
-  <set name="target" val="TARGET_NONE"/>
-  <set name="skillType" val="NOTDONE"/>
+  <set name="target" val="TARGET_SELF"/>
+  <set name="skillType" val="BUFF"/>
   <set name="operateType" val="OP_PASSIVE"/>
   <set name="castRange" val="-1"/>
+  <set name="effectRange" val="-1"/>
   <for>
+    <add order="0x40" stat="maxHp" val="147"/>
+    <add order="0x40" stat="maxCp" val="480"/>
   </for>
 </skill>
 <skill id="3474" levels="1" name="Thin Stripe Leather Shirt">
-  <set name="target" val="TARGET_NONE"/>
-  <set name="skillType" val="NOTDONE"/>
+  <set name="target" val="TARGET_SELF"/>
+  <set name="skillType" val="BUFF"/>
   <set name="operateType" val="OP_PASSIVE"/>
   <set name="castRange" val="-1"/>
+  <set name="effectRange" val="-1"/>
   <for>
+    <add order="0x40" stat="maxMp" val="78"/>
+    <add order="0x40" stat="maxCp" val="480"/>
   </for>
 </skill>
 <skill id="3475" levels="1" name="Striped Scale Shirt">
-  <set name="target" val="TARGET_NONE"/>
-  <set name="skillType" val="NOTDONE"/>
+  <set name="target" val="TARGET_SELF"/>
+  <set name="skillType" val="BUFF"/>
   <set name="operateType" val="OP_PASSIVE"/>
   <set name="castRange" val="-1"/>
+  <set name="effectRange" val="-1"/>
   <for>
+    <add order="0x40" stat="maxHp" val="186"/>
   </for>
 </skill>
 <skill id="3476" levels="1" name="Striped Scale Shirt">
-  <set name="target" val="TARGET_NONE"/>
-  <set name="skillType" val="NOTDONE"/>
+  <set name="target" val="TARGET_SELF"/>
+  <set name="skillType" val="BUFF"/>
   <set name="operateType" val="OP_PASSIVE"/>
   <set name="castRange" val="-1"/>
+  <set name="effectRange" val="-1"/>
   <for>
+    <add order="0x40" stat="maxMp" val="92"/>
   </for>
 </skill>
 <skill id="3477" levels="1" name="Striped Scale Shirt">
-  <set name="target" val="TARGET_NONE"/>
-  <set name="skillType" val="NOTDONE"/>
+  <set name="target" val="TARGET_SELF"/>
+  <set name="skillType" val="BUFF"/>
   <set name="operateType" val="OP_PASSIVE"/>
   <set name="castRange" val="-1"/>
+  <set name="effectRange" val="-1"/>
   <for>
+    <add order="0x40" stat="maxCp" val="564"/>
   </for>
 </skill>
 <skill id="3478" levels="1" name="Striped Scale Shirt">
-  <set name="target" val="TARGET_NONE"/>
-  <set name="skillType" val="NOTDONE"/>
+  <set name="target" val="TARGET_SELF"/>
+  <set name="skillType" val="BUFF"/>
   <set name="operateType" val="OP_PASSIVE"/>
   <set name="castRange" val="-1"/>
+  <set name="effectRange" val="-1"/>
   <for>
+    <add order="0x40" stat="maxHp" val="186"/>
+    <add order="0x40" stat="maxMp" val="92"/>
   </for>
 </skill>
 <skill id="3479" levels="1" name="Striped Scale Shirt">
-  <set name="target" val="TARGET_NONE"/>
-  <set name="skillType" val="NOTDONE"/>
+  <set name="target" val="TARGET_SELF"/>
+  <set name="skillType" val="BUFF"/>
   <set name="operateType" val="OP_PASSIVE"/>
   <set name="castRange" val="-1"/>
+  <set name="effectRange" val="-1"/>
   <for>
+    <add order="0x40" stat="maxHp" val="186"/>
+    <add order="0x40" stat="maxCp" val="564"/>
   </for>
 </skill>
 <skill id="3480" levels="1" name="Striped Scale Shirt">
-  <set name="target" val="TARGET_NONE"/>
-  <set name="skillType" val="NOTDONE"/>
+  <set name="target" val="TARGET_SELF"/>
+  <set name="skillType" val="BUFF"/>
   <set name="operateType" val="OP_PASSIVE"/>
   <set name="castRange" val="-1"/>
+  <set name="effectRange" val="-1"/>
   <for>
+    <add order="0x40" stat="maxMp" val="92"/>
+    <add order="0x40" stat="maxCp" val="564"/>
   </for>
 </skill>
 <skill id="3481" levels="1" name="Striped Mithril Shirt">
-  <set name="target" val="TARGET_NONE"/>
-  <set name="skillType" val="NOTDONE"/>
+  <set name="target" val="TARGET_SELF"/>
+  <set name="skillType" val="BUFF"/>
   <set name="operateType" val="OP_PASSIVE"/>
   <set name="castRange" val="-1"/>
+  <set name="effectRange" val="-1"/>
   <for>
+    <add order="0x40" stat="maxHp" val="246"/>
   </for>
 </skill>
 <skill id="3482" levels="1" name="Striped Mithril Shirt">
-  <set name="target" val="TARGET_NONE"/>
-  <set name="skillType" val="NOTDONE"/>
+  <set name="target" val="TARGET_SELF"/>
+  <set name="skillType" val="BUFF"/>
   <set name="operateType" val="OP_PASSIVE"/>
   <set name="castRange" val="-1"/>
+  <set name="effectRange" val="-1"/>
   <for>
+    <add order="0x40" stat="maxMp" val="122"/>
   </for>
 </skill>
 <skill id="3483" levels="1" name="Striped Mithril Shirt">
-  <set name="target" val="TARGET_NONE"/>
-  <set name="skillType" val="NOTDONE"/>
+  <set name="target" val="TARGET_SELF"/>
+  <set name="skillType" val="BUFF"/>
   <set name="operateType" val="OP_PASSIVE"/>
   <set name="castRange" val="-1"/>
+  <set name="effectRange" val="-1"/>
   <for>
+    <add order="0x40" stat="maxCp" val="744"/>
   </for>
 </skill>
 <skill id="3484" levels="1" name="Striped Mithril Shirt">
-  <set name="target" val="TARGET_NONE"/>
-  <set name="skillType" val="NOTDONE"/>
+  <set name="target" val="TARGET_SELF"/>
+  <set name="skillType" val="BUFF"/>
   <set name="operateType" val="OP_PASSIVE"/>
   <set name="castRange" val="-1"/>
+  <set name="effectRange" val="-1"/>
   <for>
+    <add order="0x40" stat="maxHp" val="246"/>
+    <add order="0x40" stat="maxMp" val="122"/>
   </for>
 </skill>
 <skill id="3485" levels="1" name="Striped Mithril Shirt">
-  <set name="target" val="TARGET_NONE"/>
-  <set name="skillType" val="NOTDONE"/>
+  <set name="target" val="TARGET_SELF"/>
+  <set name="skillType" val="BUFF"/>
   <set name="operateType" val="OP_PASSIVE"/>
   <set name="castRange" val="-1"/>
+  <set name="effectRange" val="-1"/>
   <for>
+    <add order="0x40" stat="maxHp" val="246"/>
+    <add order="0x40" stat="maxCp" val="744"/>
   </for>
 </skill>
 <skill id="3486" levels="1" name="Striped Mithril Shirt">
-  <set name="target" val="TARGET_NONE"/>
-  <set name="skillType" val="NOTDONE"/>
+  <set name="target" val="TARGET_SELF"/>
+  <set name="skillType" val="BUFF"/>
   <set name="operateType" val="OP_PASSIVE"/>
   <set name="castRange" val="-1"/>
+  <set name="effectRange" val="-1"/>
   <for>
+    <add order="0x40" stat="maxMp" val="122"/>
+    <add order="0x40" stat="maxCp" val="744"/>
   </for>
 </skill>
 <skill id="3487" levels="1" name="Blue Talisman of Power">
-  <!-- Done by Nekys/ Stats by Goz -->
-  <set name="power" val="0.0"/>
+  <set name="mpConsume" val="50"/>
+  <set name="hitTime" val="4000"/>
+  <set name="reuseDelay" val="360000"/>
+  <set name="staticReuse" val="true"/>
+  <set name="staticHitTime" val="true"/>
   <set name="target" val="TARGET_SELF"/>
   <set name="skillType" val="BUFF"/>
-  <set name="operateType" val="OP_PASSIVE"/>
+  <set name="operateType" val="OP_ACTIVE"/>
   <set name="castRange" val="-1"/>
   <set name="effectRange" val="-1"/>
   <for>
-    <add order="0x30" stat="pAtk" val="10"/> <!-- increase P. Atk. +10 -->
+    <effect count="1" name="Buff" time="120" val="0">
+      <mul order="0x30" stat="pAtk" val="1.02"/>
+    </effect>
   </for>
 </skill>
 <skill id="3488" levels="1" name="Blue Talisman of Protection">
-  <set name="target" val="TARGET_NONE"/>
-  <set name="skillType" val="NOTDONE"/>
-  <set name="operateType" val="OP_PASSIVE"/>
+  <set name="mpConsume" val="50"/>
+  <set name="hitTime" val="4000"/>
+  <set name="reuseDelay" val="360000"/>
+  <set name="staticReuse" val="true"/>
+  <set name="staticHitTime" val="true"/>
+  <set name="target" val="TARGET_SELF"/>
+  <set name="skillType" val="BUFF"/>
+  <set name="operateType" val="OP_ACTIVE"/>
   <set name="castRange" val="-1"/>
+  <set name="effectRange" val="-1"/>
   <for>
+    <effect count="1" name="Buff" time="120" val="0">
+      <mul order="0x30" stat="sDef" val="1.02"/>
+    </effect>
   </for>
 </skill>
 <skill id="3489" levels="1" name="Yellow Talisman of Arcane Power">
-  <!-- Done by Nekys/ Stats by Goz -->
-  <set name="power" val="0.0"/>
   <set name="target" val="TARGET_SELF"/>
   <set name="skillType" val="BUFF"/>
   <set name="operateType" val="OP_PASSIVE"/>
   <set name="castRange" val="-1"/>
   <set name="effectRange" val="-1"/>
   <for>
-    <add order="0x30" stat="mAtk" val="12"/> <!-- increase M. Atk. +12 -->
+    <mul order="0x30" stat="mAtk" val="1.02"/>
   </for>
 </skill>
 <skill id="3490" levels="1" name="Yellow Talisman of Defense">
-  <!-- Done by Nekys/ Stats by Goz -->
-  <set name="power" val="0.0"/>
   <set name="target" val="TARGET_SELF"/>
   <set name="skillType" val="BUFF"/>
   <set name="operateType" val="OP_PASSIVE"/>
   <set name="castRange" val="-1"/>
   <set name="effectRange" val="-1"/>
   <for>
-    <add order="0x30" stat="pDef" val="18"/> <!-- increase P. Def. +18 -->
+    <mul order="0x30" stat="pDef" val="1.02"/>
   </for>
 </skill>
 <skill id="3491" levels="1" name="Yellow Talisman of Evasion">
   <!-- Done by Nekys/ Stats by Goz -->
-  <set name="power" val="0.0"/>
   <set name="target" val="TARGET_SELF"/>
   <set name="skillType" val="BUFF"/>
   <set name="operateType" val="OP_PASSIVE"/>
   <set name="castRange" val="-1"/>
   <set name="effectRange" val="-1"/>
   <for>
-    <add order="0x40" stat="rEvas" val="1"/> <!-- increase Evasion +1 -->
+    <add order="0x40" stat="rEvas" val="1"/>
   </for>
 </skill>
 <skill id="3492" levels="1" name="Yellow Talisman of Speed">
   <!-- Done by Nekys/ Stats by Goz -->
-  <set name="power" val="0.0"/>
   <set name="target" val="TARGET_SELF"/>
   <set name="skillType" val="BUFF"/>
   <set name="operateType" val="OP_PASSIVE"/>
   <set name="castRange" val="-1"/>
   <set name="effectRange" val="-1"/>
   <for>
-    <add stat="runSpd" val="3" order="0x40"/> <!-- increase Run Speed +3 -->
+    <add stat="runSpd" val="3" order="0x40"/>
   </for>
 </skill>
 <skill id="3493" levels="1" name="Yellow Talisman of Regeneration">
-  <set name="target" val="TARGET_NONE"/>
-  <set name="skillType" val="NOTDONE"/>
+  <set name="target" val="TARGET_SELF"/>
+  <set name="skillType" val="BUFF"/>
   <set name="operateType" val="OP_PASSIVE"/>
   <set name="castRange" val="-1"/>
+  <set name="effectRange" val="-1"/>
   <for>
+    <mul order="0x30" stat="regHp" val="1.02"/>
   </for>
 </skill>
 <skill id="3494" levels="1" name="Yellow Talisman of CP Regeneration">
-  <set name="target" val="TARGET_NONE"/>
-  <set name="skillType" val="NOTDONE"/>
+  <set name="target" val="TARGET_SELF"/>
+  <set name="skillType" val="BUFF"/>
   <set name="operateType" val="OP_PASSIVE"/>
   <set name="castRange" val="-1"/>
+  <set name="effectRange" val="-1"/>
   <for>
+    <mul order="0x30" stat="regCp" val="1.02"/>
   </for>
 </skill>
 <skill id="3495" levels="1" name="Yellow Talisman of Healing">
   <!-- Done by Nekys/ Stats by Goz -->
-  <set name="power" val="0.0"/>
   <set name="target" val="TARGET_SELF"/>
   <set name="skillType" val="BUFF"/>
   <set name="operateType" val="OP_PASSIVE"/>
   <set name="castRange" val="-1"/>
   <set name="effectRange" val="-1"/>
   <for>
-    <add order="0x30" stat="gainHp" val="8"/> <!-- increase Healing Power +8 -->
+    <add order="0x40" stat="gainHp" val="8"/> <!-- need to be verified -->
   </for>
 </skill>
 <skill id="3496" levels="1" name="Red Talisman of Recovery">
-  <set name="target" val="TARGET_NONE"/>
-  <set name="skillType" val="NOTDONE"/>
+  <set name="target" val="TARGET_SELF"/>
+  <set name="skillType" val="BUFF"/>
   <set name="operateType" val="OP_PASSIVE"/>
   <set name="castRange" val="-1"/>
+  <set name="effectRange" val="-1"/>
   <for>
+    <mul order="0x30" stat="regCp" val="1.01"/>
+    <mul order="0x30" stat="regHp" val="1.01"/>
   </for>
 </skill>
 <skill id="3497" levels="1" name="Yellow Talisman of MP Regeneration">
-  <set name="target" val="TARGET_NONE"/>
-  <set name="skillType" val="NOTDONE"/>
+  <set name="target" val="TARGET_SELF"/>
+  <set name="skillType" val="BUFF"/>
   <set name="operateType" val="OP_PASSIVE"/>
   <set name="castRange" val="-1"/>
+  <set name="effectRange" val="-1"/>
   <for>
+    <mul order="0x30" stat="regMp" val="1.02"/>
   </for>
 </skill>
 <skill id="3498" levels="1" name="Special Ability Light">
@@ -926,7 +1014,5 @@
   <set name="skillType" val="NOTDONE"/>
   <set name="operateType" val="OP_PASSIVE"/>
   <set name="castRange" val="-1"/>
-  <for>
-  </for>
 </skill>
 </list>
