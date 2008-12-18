@@ -452,15 +452,28 @@ UPDATE `weapon` SET `skill` = '3418-1;' WHERE `item_id` in (10167);
 
 
 /************ 增加/修改/刪除NPC ************/
-Delete From spawnlist Where `npc_templateid` ='32353';
+Delete From spawnlist Where `npc_templateid` in (32353,32478);
 UPDATE `npc` SET `type` = 'L2Adventurer' WHERE `id` in (32074);
-INSERT IGNORE INTO `spawnlist` VALUES ('810000', '', '1', '32478', '-81926', '243372', '-3730', '0', '0', '38436', '60', '0', '0');
-INSERT IGNORE INTO `spawnlist` VALUES ('810001', '', '1', '32478', '47597', '49924', '-2995', '0', '0', '33231', '60', '0', '0');
-INSERT IGNORE INTO `spawnlist` VALUES ('810002', '', '1', '32478', '13432', '17255', '-4574', '0', '0', '46871', '60', '0', '0');
-INSERT IGNORE INTO `spawnlist` VALUES ('810003', '', '1', '32478', '115020', '-179727', '-879', '0', '0', '0', '60', '0', '0');
-INSERT IGNORE INTO `spawnlist` VALUES ('810004', '', '1', '32478', '-82374', '153659', '-3177', '0', '0', '16383', '60', '0', '0');
-INSERT IGNORE INTO `spawnlist` VALUES ('810005', '', '1', '32478', '-43721', '-113474', '-239', '0', '0', '32767', '60', '0', '0');
-INSERT IGNORE INTO `spawnlist` VALUES ('810006', '', '1', '32478', '-115213', '45057', '502', '0', '0', '32408', '60', '0', '0');
+INSERT INTO `spawnlist` VALUES ('810001', '', '1', '32478', '47597', '49924', '-2995', '0', '0', '33231', '60', '0', '0');
+INSERT INTO `spawnlist` VALUES ('810002', '', '1', '32478', '13432', '17255', '-4574', '0', '0', '46871', '60', '0', '0');
+INSERT INTO `spawnlist` VALUES ('810003', '', '1', '32478', '115020', '-179727', '-879', '0', '0', '0', '60', '0', '0');
+INSERT INTO `spawnlist` VALUES ('810004', '', '1', '32478', '-82374', '153659', '-3177', '0', '0', '16383', '60', '0', '0');
+INSERT INTO `spawnlist` VALUES ('810005', '', '1', '32478', '-43721', '-113474', '-239', '0', '0', '32767', '60', '0', '0');
+INSERT INTO `spawnlist` VALUES ('810006', '', '1', '32478', '-115213', '45057', '502', '0', '0', '32408', '60', '0', '0');
+INSERT INTO `spawnlist` VALUES ('810007', '', '1', '32478', '-81926', '243372', '-3730', '0', '0', '38436', '60', '0', '0');
+INSERT INTO `spawnlist` VALUES ('810008', '', '1', '32478', '-13236', '124615', '-3126', '0', '0', '49151', '60', '0', '0');
 INSERT IGNORE INTO `spawnlist` VALUES ('820000', '', '1', '32074', '-14334', '121184', '-2988', '0', '0', '15583', '60', '0', '0');
 INSERT IGNORE INTO `spawnlist` VALUES ('820001', '', '1', '35644', '116178', '-181602', '-1365', '0', '0', '0', '60', '0', '0');
 INSERT IGNORE INTO `spawnlist` VALUES ('820002', '', '1', '35645', '-44159', '-112229', '-239', '0', '0', '39768', '60', '0', '0');
+
+
+/************ 增加商店基本型武器/防具/飾品的販賣 ************/
+Delete From merchant_buylists Where shop_id in (3029402);
+INSERT INTO `merchant_buylists` (`item_id`,`price`,`shop_id`,`order`) VALUES
+(12312,-1,3029402,0),
+(12311,-1,3029402,1),
+(12313,-1,3029402,2);
+
+Delete From merchant_shopids Where shop_id in (3029402);
+INSERT INTO merchant_shopids VALUES
+(3029402,'30294');
