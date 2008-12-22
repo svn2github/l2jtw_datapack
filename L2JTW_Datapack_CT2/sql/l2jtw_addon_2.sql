@@ -1015,12 +1015,6 @@ INSERT IGNORE INTO `skill_trees` VALUES ('129', '1447', '8', 'Voice Bind', '6300
 INSERT IGNORE INTO `skill_trees` VALUES ('129', '1447', '9', 'Voice Bind', '1440000', '74');
 
 
-/************ 修正NPC位置 ************/
-UPDATE `spawnlist` SET `npc_templateid` = '35440' WHERE `id` ='33771';
-Delete From `spawnlist` Where `npc_templateid` in (31605,30882,30883,30884,30885,30886,30887,30888,30889);
-INSERT INTO `spawnlist` VALUES ('33472', 'oren16_npc2218_016', '1', '31605', '85692', '16400', '-2803', '0', '0', '38000', '60', '0', '0');
-
-
 /************ 增加走動的可疑的商人 ************/
 INSERT IGNORE INTO `spawnlist` VALUES ('800001', '', '1', '35659', '-55675', '157012', '-2034', '0', '0', '64664', '10', '0', '0');
 INSERT IGNORE INTO `spawnlist` VALUES ('800002', '', '1', '35690', '-28169', '216864', '-3544', '0', '0', '64664', '10', '0', '0');
