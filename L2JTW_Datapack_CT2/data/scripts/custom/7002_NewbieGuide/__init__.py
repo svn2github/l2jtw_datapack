@@ -36,9 +36,9 @@ class Quest (JQuest) :
              elif ClassId in MAGE :
                 htmltext = str(npcId)+"-m.htm"
              else:
-                htmltext = "LVUP.htm"
+                htmltext = str(npcId)+"-lv.htm"
           elif Level > 19 :
-             htmltext = "LVUP.htm"
+             htmltext = str(npcId)+"-lv.htm"
        else:
           htmltext = str(npcId)+"-00.htm"
 
@@ -50,9 +50,9 @@ class Quest (JQuest) :
              elif ClassId in MAGE :
                 htmltext = str(npcId)+"-m.htm"
              else:
-                htmltext = "LVUP.htm"
+                htmltext = str(npcId)+"-lv.htm"
           elif Level > 19 :
-             htmltext = "LVUP.htm"
+             htmltext = str(npcId)+"-lv.htm"
        else:
           htmltext = str(npcId)+"-00.htm"
 
@@ -64,9 +64,9 @@ class Quest (JQuest) :
              elif ClassId in MAGE :
                 htmltext = str(npcId)+"-m.htm"
              else:
-                htmltext = "LVUP.htm"
+                htmltext = str(npcId)+"-lv.htm"
           elif Level > 19 :
-             htmltext = "LVUP.htm"
+             htmltext = str(npcId)+"-lv.htm"
        else:
           htmltext = str(npcId)+"-00.htm"
 
@@ -76,9 +76,9 @@ class Quest (JQuest) :
              if ClassId in FIGHTER :
                 htmltext = str(npcId)+"-f.htm"
              else:
-                htmltext = "LVUP.htm"
+                htmltext = str(npcId)+"-lv.htm"
           elif Level > 19 :
-             htmltext = "LVUP.htm"
+             htmltext = str(npcId)+"-lv.htm"
        else:
           htmltext = str(npcId)+"-00.htm"
 
@@ -90,9 +90,9 @@ class Quest (JQuest) :
              elif ClassId in MAGE :
                 htmltext = str(npcId)+"-m.htm"
              else:
-                htmltext = "LVUP.htm"
+                htmltext = str(npcId)+"-lv.htm"
           elif Level > 19 :
-             htmltext = "LVUP.htm"
+             htmltext = str(npcId)+"-lv.htm"
        else:
           htmltext = str(npcId)+"-00.htm"
 
@@ -102,9 +102,9 @@ class Quest (JQuest) :
              if ClassId in FIGHTER :
                 htmltext = str(npcId)+"-f.htm"
              else:
-                htmltext = "LVUP.htm"
+                htmltext = str(npcId)+"-lv.htm"
           elif Level > 19 :
-             htmltext = "LVUP.htm"
+             htmltext = str(npcId)+"-lv.htm"
        else:
           htmltext = str(npcId)+"-00.htm"
 
