@@ -52,7 +52,7 @@ echo I'll hopefully ask this questions just once.
 echo.
 echo 更新設定選項：
 echo.
-echo (1) 導入＆繼續使用舊的設定：將使用所有原本的資料並且進行更新作業
+echo (1) 導入＆繼續使用舊的設定：將使用原本的資料並且進行更新作業
 echo.
 echo (2) 導入＆並使用新的設定值：導入新的資料並且將會重新設定資料
 echo.
@@ -62,7 +62,7 @@ echo (4) 查看存取的設定值
 
 echo (5) 退出
 echo.
-set /P upgrade_mode="輸入數字，之後請按 Enter（預設值為「%upgrade_mode%」）: "
+set /P upgrade_mode="輸入數字後，請按 Enter（預設值為「%upgrade_mode%」）: "
 if %upgrade_mode%==1 goto ls_section
 if %upgrade_mode%==2 goto configure
 if %upgrade_mode%==3 goto configure
@@ -72,7 +72,7 @@ goto loadconfig
 
 :colors
 if /i "%cmode%"=="n" (
-if not "%1"=="17" (     color F ) else ( color )
+if not "%1"=="17" (	color F ) else ( color )
 ) else ( color %1 )
 goto :eof
 
@@ -113,15 +113,15 @@ set logdir=.
 set mysqlPath=%mysqlBinPath%\mysql.exe
 echo 新的設定值：
 echo.
-echo 1-MySql 程式
+echo 1.MySql 程式
 echo --------------------
 echo 請設定 mysql.exe 和 mysqldump.exe 的位置
 echo.
 if "%mysqlBinPath%" == "" (
 set mysqlBinPath=use path
-echo 無法自動偵測位置
+echo 沒有找到 MySQL 的位置
 ) else (
-echo 請嘗試此設定值是否可行
+echo 請嘗試以下所找到的 MySQL 位置，是否可以進行導入作業
 echo.
 echo %mysqlPath%
 )
@@ -132,7 +132,7 @@ if %errorlevel% == 0 (
 echo 上面是找到的 MySQL 位置，此位置將會被設為預設值，如果想換位置請修改...
 set mysqlBinPath=use path
 ) else (
-echo 無法找到 mysql 正確位置，請輸入 mysql.exe 的正確位置...
+echo 無法找到 MySQL 的正確位置，請輸入 mysql.exe 的正確位置...
 echo.
 echo 如果還是不確定這到底是什麼意思和如何操作，請到相關網站查詢或者可以至 L2JTW 官方網站發問或尋找相關資訊
 )
@@ -141,7 +141,7 @@ echo 請輸入 mysql.exe 的正確位置：
 set /P mysqlBinPath="(default %mysqlBinPath%): "
 cls
 echo.
-echo 2-登入伺服器設定
+echo 2.登入伺服器設定
 echo --------------------
 echo 此作業將會連線至你所指定的 MySQL 伺服器，並且進行導入作業
 echo.
@@ -156,14 +156,14 @@ if NOT "%lspass%"=="%gspass%" set gspass=%lspass%
 if NOT "%lsdb%"=="%gsdb%" set gsdb=%lsdb%
 if NOT "%lshost%"=="%gshost%" set gshost=%lshost%
 echo.
-echo 3-遊戲伺服器設定
+echo 3.遊戲伺服器設定
 echo --------------------
 set /P gsuser="使用者名稱（預設值「%gsuser%」）: "
 set /P gspass="使用者密碼（預設值「%gspass%」）: "
 set /P gsdb="資料庫（預設值「%gsdb%」）: "
 set /P gshost="位置（預設值「%gshost%」）: "
 echo.
-echo 4-其他設定
+echo 4.其他設定
 echo --------------------
 set /P cmode="顏色模式 (c)為顏色 或 (n)為無顏色（預設值「%cmode%」）: "
 set /P backup="備份位置（預設值「%backup%」）: "
@@ -258,7 +258,7 @@ echo 執行時出現錯誤：
 echo.
 echo "%cmdline%"
 echo.
-echo 建議檢查一下資料以確保所有數值都正常
+echo 建議檢查一下設定的資料，以確保所有輸入的數值沒有錯誤！
 echo.
 if %stage% == 1 set label=ls_err1
 if %stage% == 2 set label=ls_err2
@@ -296,12 +296,12 @@ if %safe_mode% == 1 goto omfg
 call :colors 47
 title L2JTW Datapack 安裝 - For：L2JTW 4.5 Server
 cls
-echo 資料庫建立失敗
+echo 資料庫建立失敗！
 echo.
 echo 可能的原因：
-echo 1-所提供的資料錯誤，使用者名稱/使用者密碼/其他相關資料
-echo 2-使用者 %lsuser% 沒有足夠的權限操作資料庫 
-echo 3-資料庫可能已經存在
+echo 1.所輸入的資料錯誤，使用者名稱/使用者密碼/其他相關資料
+echo 2.使用者「%lsuser%」沒有足夠的權限操作資料庫 
+echo 3.資料庫可能已經存在
 echo.
 echo 請重新檢查設定並且修正出錯的地方
 echo.
@@ -368,7 +368,7 @@ set stage=4
 title L2JTW Datapack 安裝 - For：L2JTW 4.5 Server
 cls
 echo.
-echo 正在備份原本的資料庫
+echo 正在備份原本的資料庫...
 set cmdline="%mysqldumpPath%" --add-drop-table -h %gshost% -u %gsuser% --password=%gspass% %gsdb% ^> "%backup%\gameserver_backup.sql" 2^> NUL
 %cmdline%
 if %ERRORLEVEL% == 0 goto gsdbok
@@ -417,12 +417,12 @@ call :colors 47
 title L2JTW Datapack 安裝 - For：L2JTW 4.5 Server
 cls
 echo.
-echo 遊戲伺服器的資料庫建立出錯
+echo 遊戲伺服器的資料庫建立出錯！
 echo.
 echo 可能的原因：
-echo 1-提供的資料不明確
-echo 2-使用者 %gsuser% 的權限不足 
-echo 3-資料庫已存在
+echo 1.提供的資料不明確
+echo 2.使用者「%gsuser%」的權限不足 
+echo 3.資料庫已存在
 echo.
 echo 請查明原因後再繼續執行，或者直接進行重新設置
 echo.
@@ -543,6 +543,7 @@ fish.sql
 fishing_skill_trees.sql
 fort_door.sql
 fort_doorupgrade.sql
+fort_functions.sql
 fort_siege_guards.sql
 fort.sql
 fortsiege_clans.sql
@@ -610,7 +611,7 @@ goto custom
 
 :dump
 set cmdline=
-if /i %full% == 1 (set action=Installing) else (set action=Upgrading)
+if /i %full% == 1 (set action=安裝) else (set action=更新)
 echo %action% %1>>"%output%"
 echo %action% %~nx1
 if "%dest%"=="ls" set cmdline="%mysqlPath%" -h %lshost% -u %lsuser% --password=%lspass% -D %lsdb% ^< ..\sql\%1 2^>^>"%output%"
@@ -661,9 +662,9 @@ if %full% == 1 (
 echo.
 echo 建立訊息檔案...
 echo.
-echo 檔案為 %output%
+echo 檔案為「%output%」
 echo.
-echo 如果你已經有此檔案，請進行備份，不然系統將覆蓋過去
+echo 如果你已經有此檔案，請進行備份，否則系統將會覆蓋過去
 echo.
 echo 請按任意鍵開始進行
 pause>NUL
@@ -680,8 +681,9 @@ goto :eof
 :custom
 cd ..\sql\
 set charprompt=y
-set /p charprompt=安裝「職業名稱中文化」: (y) 確定 或 (N) 取消？（預設值-確定）:
+set /p charprompt=安裝「職業名稱」和「NPC 說話」的中文化: (y) 確定 或 (N) 取消？（預設值-確定）:
 if /i %charprompt%==y "%mysqlPath%" -h %gshost% -u %gsuser% --password=%gspass% -D %gsdb% < char_templates_tw.sql 2>>NUL
+if /i %charprompt%==y "%mysqlPath%" -h %gshost% -u %gsuser% --password=%gspass% -D %gsdb% < auto_chat_text_tw.sql 2>>NUL
 echo.
 set cstprompt=n
 set /p cstprompt=安裝 custom 自訂資料表: (y) 確定 或 (N) 取消 或 (q) 退出？（預設值-取消）:
@@ -800,9 +802,9 @@ cls
 echo 發生錯誤，請查詢相關問題，尋找幫助
 echo.
 echo 1- 利用相關網站查詢
-echo    (http://l2jdp.com/trac/wiki)
+echo	(http://l2jdp.com/trac/wiki)
 echo 2- L2JTW 官方網站查詢
-echo    (http://www.l2jtw.com/)
+echo	(http://www.l2jtw.com/)
 echo.
 echo.
 echo 有任何錯誤訊息可以在討論板上發文，請勿直接找開發人員詢問

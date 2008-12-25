@@ -49,6 +49,7 @@ DROP TABLE IF EXISTS fish;
 DROP TABLE IF EXISTS fishing_skill_trees;
 DROP TABLE IF EXISTS fort_door;
 DROP TABLE IF EXISTS fort_doorupgrade;
+DROP TABLE IF EXISTS fort_functions;
 DROP TABLE IF EXISTS fort_siege_guards;
 DROP TABLE IF EXISTS fort;
 DROP TABLE IF EXISTS fortsiege_clans;

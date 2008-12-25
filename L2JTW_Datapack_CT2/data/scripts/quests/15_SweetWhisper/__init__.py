@@ -44,11 +44,11 @@ class Quest (JQuest) :
    if id == State.CREATED :
      st.set("cond","0")
    if npcId == VLADIMIR and st.getInt("cond") == 0 :
-     if player.getLevel() >= 60 :
-       htmltext = "31302-0.htm"
-       return htmltext
      if id == State.COMPLETED :
        htmltext = "<html><body>這是已經完成的任務。</body></html>"
+       return htmltext
+     elif player.getLevel() >= 60 :
+       htmltext = "31302-0.htm"
        return htmltext
      else:
        htmltext = "31302-0a.htm"
