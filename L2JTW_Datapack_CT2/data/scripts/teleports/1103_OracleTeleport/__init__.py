@@ -52,24 +52,34 @@ class Quest (JQuest) :
     npcId = npc.getNpcId()
     htmltext = event
     if event == "Return":
+       htmltext = ""                                     # 增加對話
        if npcId in TEMPLE_PRIEST and st.getState() == State.STARTED :
+          if npcId in range(31488,31494) :               # 增加對話
+             htmltext = "8.htm"                          # 增加對話
           x,y,z = RETURN_LOCS[st.getInt("id")]
           player.teleToLocation(x,y,z)
           st.exitQuest(1)
-       return
+       return htmltext                                   # 增加對話
     elif event == "Festival":
-       id = st.getInt("id")
-       if id in TOWN_DAWN:
-          player.teleToLocation(-80157,111344,-4901)
+       ex = st.getInt("ex")     # 增加判斷黎明或黃昏的陣營
+       if npcId in TOWN_DAWN:   # 修正
+          player.teleToLocation(-80217,111435,-4896)     # 修正
           return
-       elif id in TOWN_DUSK:
-          player.teleToLocation(-81261,86531,-5157)
+       elif npcId in TOWN_DUSK: # 修正
+          player.teleToLocation(-81248,86582,-5152)
           return
+       elif npcId in TEMPLE_PRIEST:
+          if ex == 1 :          # 增加判斷黎明的陣營
+             htmltext = "7.htm"
+             player.teleToLocation(-80217,111435,-4896) # 修正
+          elif ex == 2 :        # 增加判斷黃昏的陣營
+             htmltext = "7.htm"
+             player.teleToLocation(-81248,86582,-5152)
        else :
           htmltext = "oracle1.htm"
     elif event == "Dimensional":
        htmltext = "oracle.htm"
-       player.teleToLocation(-114755,-179466,-6752)
+       player.teleToLocation(-114796,-179334,-6752) # 修正
     elif event == "5.htm" :
        id = st.getInt("id")
        if id:
@@ -111,16 +121,18 @@ class Quest (JQuest) :
     if npcId in TOWN_DAWN: 
        st.setState(State.STARTED)
        st.set("id",str(TELEPORTERS[npcId]))
+       st.set("ex","1") # 增加黎明陣營的傳送判斷
        st.playSound("ItemSound.quest_accept")
-       player.teleToLocation(-80157,111344,-4901)
+       player.teleToLocation(-80217,111435,-4896) # 修正
     ##################
     # Dusk Locations #
     ##################
     elif npcId in TOWN_DUSK: 
        st.setState(State.STARTED)
        st.set("id",str(TELEPORTERS[npcId]))
+       st.set("ex","2") # 增加黃昏陣營的傳送判斷
        st.playSound("ItemSound.quest_accept")
-       player.teleToLocation(-81261,86531,-5157)
+       player.teleToLocation(-81248,86582,-5152)  # 修正
     elif npcId in range(31494,31508):
        if player.getLevel() < 20 :
           st.exitQuest(1)
