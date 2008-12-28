@@ -75,8 +75,8 @@ class Quest (JQuest) :
           elif ex == 2 :        # 增加判斷黃昏的陣營
              htmltext = "7.htm"
              player.teleToLocation(-81248,86582,-5152)
-       else :
-          htmltext = "oracle1.htm"
+          else :
+             htmltext = "oracle1.htm"
     elif event == "Dimensional":
        htmltext = "oracle.htm"
        player.teleToLocation(-114796,-179334,-6752) # 修正
