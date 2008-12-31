@@ -323,10 +323,10 @@ class Quest (JQuest) :
                htmltext = "HH-1st.htm"
                st.exitQuest(1)
             else :
-               htmltext = str(npcId)+"-00.htm"
+               htmltext = "HW-00.htm"
                st.exitQuest(1)
          else :
-            htmltext = str(npcId)+"-00.htm"
+            htmltext = "HW-00.htm"
             st.exitQuest(1)
 ############################################################################
       elif npcId in RDW : # 黑暗精靈魔法師 (魯因/象牙塔)
@@ -337,10 +337,10 @@ class Quest (JQuest) :
                htmltext = "HH-1st.htm"
                st.exitQuest(1)
             else :
-               htmltext = str(npcId)+"-00.htm"
+               htmltext = "HW-00.htm"
                st.exitQuest(1)
          else :
-            htmltext = str(npcId)+"-00.htm"
+            htmltext = "HW-00.htm"
             st.exitQuest(1)
 ############################################################################
       elif npcId == IHW : # 人類魔法師 (象牙塔)
@@ -351,10 +351,10 @@ class Quest (JQuest) :
                htmltext = "HH-1st.htm"
                st.exitQuest(1)
             else :
-               htmltext = str(npcId)+"-00.htm"
+               htmltext = "HW-00.htm"
                st.exitQuest(1)
          else :
-            htmltext = str(npcId)+"-00.htm"
+            htmltext = "HW-00.htm"
             st.exitQuest(1)
 ############################################################################
       elif npcId == IEW : # 精靈魔法師 (象牙塔)
@@ -365,10 +365,10 @@ class Quest (JQuest) :
                htmltext = "HH-1st.htm"
                st.exitQuest(1)
             else :
-               htmltext = str(npcId)+"-00.htm"
+               htmltext = "HW-00.htm"
                st.exitQuest(1)
          else :
-            htmltext = str(npcId)+"-00.htm"
+            htmltext = "HW-00.htm"
             st.exitQuest(1)
 ############################################################################
       elif npcId == RDK : # 黑暗精靈戰士 (魯因)
@@ -381,10 +381,10 @@ class Quest (JQuest) :
                htmltext = "DK-1st.htm"
                st.exitQuest(1)
             else :
-               htmltext = str(npcId)+"-00.htm"
+               htmltext = "DK-00.htm"
                st.exitQuest(1)
          else :
-            htmltext = str(npcId)+"-00.htm"
+            htmltext = "DK-00.htm"
             st.exitQuest(1)
 ############################################################################
       elif npcId == ROF : # 半獸人戰士 (魯因)
@@ -397,10 +397,10 @@ class Quest (JQuest) :
                htmltext = "ORC-1st.htm"
                st.exitQuest(1)
             else :
-               htmltext = str(npcId)+"-00.htm"
+               htmltext = "ORC-00.htm"
                st.exitQuest(1)
          else :
-            htmltext = str(npcId)+"-00.htm"
+            htmltext = "ORC-00.htm"
             st.exitQuest(1)
 ############################################################################
       elif npcId == ROM : # 半獸人巫醫 (魯因)
@@ -411,10 +411,10 @@ class Quest (JQuest) :
                htmltext = "ORC-1st.htm"
                st.exitQuest(1)
             else :
-               htmltext = str(npcId)+"-00.htm"
+               htmltext = "ORC-00.htm"
                st.exitQuest(1)
          else :
-            htmltext = str(npcId)+"-00.htm"
+            htmltext = "ORC-00.htm"
             st.exitQuest(1)
 ############################################################################
       return htmltext

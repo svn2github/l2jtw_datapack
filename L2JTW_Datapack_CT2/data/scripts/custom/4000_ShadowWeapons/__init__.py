@@ -23,6 +23,12 @@ class Quest (JQuest) :
 
  def __init__(self,id,name,descr): JQuest.__init__(self,id,name,descr)
 
+ def onEvent (self,event,st):    # ¼W¥[
+    if event == "no" :
+     htmltext = "exchange-no.htm"
+     st.exitQuest(1)
+    return htmltext
+
  def onTalk (Self,npc,player):
     st = player.getQuestState(qn)
     if not st: return
@@ -39,9 +45,9 @@ class Quest (JQuest) :
          multisell=306893001
       #finally, return htm with proper multisell value in it.
       htmltext=st.showHtmlFile("exchange.htm").replace("%msid%",str(multisell))
+      st.exitQuest(1)
     else :
-      htmltext="exchange-no.htm"
-    st.exitQuest(1)
+      htmltext="exchange-0.htm"  # ­×§ï
     return htmltext
 
 QUEST       = Quest(4000,qn,"Custom")
