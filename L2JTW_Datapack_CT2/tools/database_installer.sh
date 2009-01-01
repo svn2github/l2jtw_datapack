@@ -328,7 +328,6 @@ $MYG < ../sql/merchant_lease.sql &> /dev/null
 $MYG < ../sql/merchant_shopids.sql &> /dev/null
 $MYG < ../sql/merchants.sql &> /dev/null
 $MYG < ../sql/minions.sql &> /dev/null
-$MYG < ../sql/mods_wedding.sql &> /dev/null
 $MYG < ../sql/npc.sql &> /dev/null
 $MYG < ../sql/npc_buffer.sql &> /dev/null
 $MYG < ../sql/npcskills.sql &> /dev/null
@@ -355,15 +354,17 @@ $MYG < ../sql/transform_skill_trees.sql &> /dev/null
 $MYG < ../sql/walker_routes.sql &> /dev/null
 $MYG < ../sql/weapon.sql &> /dev/null
 $MYG < ../sql/zone_vertices.sql &> /dev/null
+$MYG < ../sql/mods_wedding.sql &> /dev/null
 $MYG < ../sql/chatdata.sql &> /dev/null
 $MYG < ../sql/messagetable.sql &> /dev/null
 $MYG < ../sql/npcAIData.sql &> /dev/null
 $MYG < ../sql/npcCharData.sql &> /dev/null
-$MYG < ../sql/lastimperialtomb_spawnlist.sql &> /dev/null
 $MYG < ../sql/l2jtw_addon_0.sql &> /dev/null
 $MYG < ../sql/l2jtw_addon_1.sql &> /dev/null
 $MYG < ../sql/l2jtw_addon_2.sql &> /dev/null
 $MYG < ../sql/char_templates_tw.sql &> /dev/null
+$MYG < ../sql/auto_chat_text_tw.sql &> /dev/null
+newbie_helper
 }
 
 custom(){

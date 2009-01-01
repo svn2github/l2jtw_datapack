@@ -600,7 +600,6 @@ chatdata.sql
 messagetable.sql
 npcAIData.sql
 npcCharData.sql
-lastimperialtomb_spawnlist.sql
 l2jtw_addon_0.sql
 l2jtw_addon_1.sql
 l2jtw_addon_2.sql
