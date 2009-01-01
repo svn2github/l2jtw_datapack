@@ -1,30 +1,30 @@
 #!/bin/bash
 ############################################
 ## WARNING!  WARNING!  WARNING!  WARNING! ##
-##                                        ##
+##					  ##
 ## DON'T USE NOTEPAD TO CHANGE THIS FILE  ##
 ## INSTEAD USE SOME DECENT TEXT EDITOR.   ##
 ## NEWLINE CHARACTERS DIFFER BETWEEN DOS/ ##
-## WINDOWS AND UNIX.                      ##
-##                                        ##
+## WINDOWS AND UNIX.			  ##
+##					  ##
 ## USING NOTEPAD TO SAVE THIS FILE WILL   ##
-## LEAVE IT IN A BROKEN STATE!!!          ##
+## LEAVE IT IN A BROKEN STATE!!!	  ##
 ############################################
-## Writen by DrLecter                     ##
-## License: GNU GPL                       ##
-## Based on Tiago Tagliaferri's script    ##
-## E-mail: tiago_tagliaferri@msn.com      ##
-## From "L2J-DataPack"                    ##
-## Bug reports: http://l2jdp.com/trac     ##
+## Writen by DrLecter			  ##
+## License: GNU GPL			  ##
+## Based on Tiago Tagliaferri's script	  ##
+## E-mail: tiago_tagliaferri@msn.com	  ##
+## From "L2J-DataPack"			  ##
+## Bug reports: http://l2jdp.com/trac	  ##
 ############################################
 trap finish 2
 
 configure() {
 echo "#############################################"
-echo "# You entered script configuration area     #"
-echo "# No change will be performed in your DB    #"
+echo "# You entered script configuration area	  #"
+echo "# No change will be performed in your DB	  #"
 echo "# I will just ask you some questions about  #"
-echo "# your hosts and DB.                        #"
+echo "# your hosts and DB.			  #"
 echo "#############################################"
 MYSQLDUMPPATH=`which -a mysqldump 2>/dev/null`
 MYSQLPATH=`which -a mysql 2>/dev/null`
@@ -156,9 +156,9 @@ fi
 asklogin(){
 echo "#############################################"
 echo "# WARNING: This section of the script CAN   #"
-echo "# destroy your characters and accounts      #"
-echo "# information. Read questions carefully     #"
-echo "# before you reply.                         #"
+echo "# destroy your characters and accounts	  #"
+echo "# information. Read questions carefully	  #"
+echo "# before you reply.			  #"
 echo "#############################################"
 echo ""
 echo "Choose full (f) if you don't have and 'accounts' table or would"
@@ -218,9 +218,9 @@ while :
      echo "Making a backup of the original loginserver database."
      $MYSQLDUMPPATH --add-drop-table -h $LSDBHOST -u $LSUSER --password=$LSPASS $LSDB > loginserver_backup.sql
      if [ $? -ne 0 ];then
-        echo ""
-        echo "There was a problem accesing your LS database, either it wasnt created or authentication data is incorrect."
-        exit 1
+	echo ""
+	echo "There was a problem accesing your LS database, either it wasnt created or authentication data is incorrect."
+	exit 1
      fi
      break
    elif [ "$LSB" == "n" -o "$LSB" == "N" ]; then 
@@ -331,7 +331,7 @@ $MYG < ../sql/minions.sql &> /dev/null
 $MYG < ../sql/npc.sql &> /dev/null
 $MYG < ../sql/npc_buffer.sql &> /dev/null
 $MYG < ../sql/npcskills.sql &> /dev/null
-$MYG < ../sql/olympiad_nobles.sql&> /dev/null
+$MYG < ../sql/olympiad_nobles.sql &> /dev/null
 $MYG < ../sql/pets.sql &> /dev/null
 $MYG < ../sql/pets_stats.sql &> /dev/null
 $MYG < ../sql/pledge_skill_trees.sql &> /dev/null
@@ -354,6 +354,8 @@ $MYG < ../sql/transform_skill_trees.sql &> /dev/null
 $MYG < ../sql/walker_routes.sql &> /dev/null
 $MYG < ../sql/weapon.sql &> /dev/null
 $MYG < ../sql/zone_vertices.sql &> /dev/null
+$MYG < ../sql/boxaccess.sql &> /dev/null
+$MYG < ../sql/boxes.sql &> /dev/null
 $MYG < ../sql/mods_wedding.sql &> /dev/null
 $MYG < ../sql/chatdata.sql &> /dev/null
 $MYG < ../sql/messagetable.sql &> /dev/null
@@ -434,11 +436,11 @@ while :
      echo "There we go, it may take some time..."
      echo "updates parser results. Last run: "`date` >database_installer.log
      for file in $(ls ../sql/updates/*sql);do
-        echo $file|cut -d/ -f4 >> database_installer.log
-        $MYG < $file 2>> database_installer.log
+	echo $file|cut -d/ -f4 >> database_installer.log
+	$MYG < $file 2>> database_installer.log
 	if [ $? -eq 0 ];then
 	    echo "no errors">> database_installer.log
-	fi    
+	fi
 	done
      echo ""
      echo "Log available at $(pwd)/database_installer.log"
