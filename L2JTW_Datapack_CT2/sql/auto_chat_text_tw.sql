@@ -46,19 +46,22 @@ UPDATE `walker_routes` SET `chatText` = '世界樹在逐漸凋零枯萎...' WHER
 UPDATE `walker_routes` SET `chatText` = '為了救活世界樹該怎麼做？' WHERE `route_id` = '5' AND `move_point` = 11;
 /***** 31358 吟遊詩人 卡斯爾 *****/
 UPDATE `walker_routes` SET `chatText` = '米帝爾，湖水的和平與你同在..' WHERE `route_id` = '6' AND `move_point` = 1;
-UPDATE `walker_routes` SET `chatText` = '無論何時凝視世界樹都是如此美麗' WHERE `route_id` = '6' AND `move_point` = 5;
+UPDATE `walker_routes` SET `chatText` = '無論何時凝視世界樹都是如此美麗..' WHERE `route_id` = '6' AND `move_point` = 5;
 UPDATE `walker_routes` SET `chatText` = '無論何時凝視世界樹都是如此美麗..' WHERE `route_id` = '6' AND `move_point` = 13;
 
 /***** 說話之島村莊 *****/
 /***** 31357 書記官 萊安德路 *****/
-UPDATE `walker_routes` SET `chatText` = '到底去哪裡呢？' WHERE `route_id` = '7' AND `move_point` = 1;
+UPDATE `walker_routes` SET `chatText` = '他到底在哪裡呢？' WHERE `route_id` = '7' AND `move_point` = 1;
 UPDATE `walker_routes` SET `chatText` = '你有看到溫達伍德嗎？' WHERE `route_id` = '7' AND `move_point` = 4;
-UPDATE `walker_routes` SET `chatText` = '他到底在哪裡呢？' WHERE `route_id` = '7' AND `move_point` = 6;
-UPDATE `walker_routes` SET `chatText` = '他到底在哪裡呢？' WHERE `route_id` = '7' AND `move_point` = 16;
+UPDATE `walker_routes` SET `chatText` = '到底去哪裡呢？' WHERE `route_id` = '7' AND `move_point` = 6;
+UPDATE `walker_routes` SET `chatText` = '到底去哪裡呢？' WHERE `route_id` = '7' AND `move_point` = 16;
 UPDATE `walker_routes` SET `chatText` = '你有看到溫達伍德嗎？' WHERE `route_id` = '7' AND `move_point` = 18;
 /***** 31356 使者 雷米 *****/
-UPDATE `walker_routes` SET `chatText` = '運送給雷克特？好好，知道了～' WHERE `route_id` = '8' AND `move_point` = 1;
-UPDATE `walker_routes` SET `chatText` = '啦啦啦啦～' WHERE `route_id` = '8' AND `move_point` = 5;
+UPDATE `walker_routes` SET `chatText` = '運送給雷克特？好好，知道了~' WHERE `route_id` = '8' AND `move_point` = 1;
+UPDATE `walker_routes` SET `chatText` = '哎呀！要稍微休息一下~' WHERE `route_id` = '8' AND `move_point` = 5;
 UPDATE `walker_routes` SET `chatText` = '你好！雷克特！傑克森也好久不見！' WHERE `route_id` = '8' AND `move_point` = 9;
+UPDATE `walker_routes` SET `chatText` = '啦啦啦啦~' WHERE `route_id` = '8' AND `move_point` = 14;
+UPDATE `walker_routes` SET `chatText` = '啦啦啦啦~' WHERE `route_id` = '8' AND `move_point` = 15;
+UPDATE `walker_routes` SET `chatText` = '啦啦啦啦~' WHERE `route_id` = '8' AND `move_point` = 16;
 
 /***** Done by vdmyagami！ *****/

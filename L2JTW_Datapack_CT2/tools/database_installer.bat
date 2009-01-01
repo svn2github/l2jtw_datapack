@@ -684,6 +684,13 @@ set charprompt=y
 set /p charprompt=安裝「職業名稱」和「NPC 說話」的中文化: (y) 確定 或 (N) 取消？（預設值-確定）:
 if /i %charprompt%==y "%mysqlPath%" -h %gshost% -u %gsuser% --password=%gspass% -D %gsdb% < char_templates_tw.sql 2>>NUL
 if /i %charprompt%==y "%mysqlPath%" -h %gshost% -u %gsuser% --password=%gspass% -D %gsdb% < auto_chat_text_tw.sql 2>>NUL
+echo 安裝 char_templates_tw.sql
+echo 安裝 auto_chat_text_tw.sql
+echo 完成...
+echo.
+echo ☆注意：部分系統安裝中文化會失敗，導致遊戲中出現亂碼
+echo 　　　　如果遇到這種情形，請再手動導入SQL裡面的
+echo 　　　　messagetable / char_templates_tw / auto_chat_text_tw 這3個SQL
 echo.
 set cstprompt=n
 set /p cstprompt=安裝 custom 自訂資料表: (y) 確定 或 (N) 取消 或 (q) 退出？（預設值-取消）:
