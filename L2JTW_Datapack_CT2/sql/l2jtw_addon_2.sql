@@ -347,6 +347,7 @@ INSERT INTO `etcitem` VALUES ('10273', 'Wolf Summoning Bracelet', 'false', 'pet_
 
 
 /************ 增加GM商店物品販賣 ************/
+Delete From `merchant_buylists` Where `shop_id` in (71040,71041,71042,71043,71044,71045,71046,71047,71048,71049,71050,71051,71052,71053,71054);
 INSERT IGNORE INTO `merchant_buylists` VALUES ('8616', '0', '71040', '0', '-1', '-1', '0', '0');
 INSERT IGNORE INTO `merchant_buylists` VALUES ('8617', '0', '71040', '1', '-1', '-1', '0', '0');
 INSERT IGNORE INTO `merchant_buylists` VALUES ('8877', '0', '71040', '2', '-1', '-1', '0', '0');
@@ -826,7 +827,6 @@ INSERT IGNORE INTO `merchant_buylists` VALUES ('10618', '0', '71050', '47', '-1'
 INSERT IGNORE INTO `merchant_buylists` VALUES ('10619', '0', '71050', '48', '-1', '-1', '0', '0');
 INSERT IGNORE INTO `merchant_buylists` VALUES ('10277', '0', '71051', '0', '-1', '-1', '0', '0');
 INSERT IGNORE INTO `merchant_buylists` VALUES ('10278', '0', '71051', '1', '-1', '-1', '0', '0');
-INSERT IGNORE INTO `merchant_buylists` VALUES ('10548', '0', '71051', '2', '-1', '-1', '0', '0');
 INSERT IGNORE INTO `merchant_buylists` VALUES ('10491', '0', '71052', '0', '-1', '-1', '0', '0');
 INSERT IGNORE INTO `merchant_buylists` VALUES ('10492', '0', '71052', '1', '-1', '-1', '0', '0');
 INSERT IGNORE INTO `merchant_buylists` VALUES ('10493', '0', '71052', '2', '-1', '-1', '0', '0');
