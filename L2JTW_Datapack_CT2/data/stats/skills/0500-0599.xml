@@ -1090,20 +1090,44 @@
     <effect count="1" name="Transformation" time="1800" val="0"/> <!-- Transformation lasts 30 minutes -->
   </for>
 </skill>
-<skill id="559" levels="4" name="Spear">
-  <set name="target" val="TARGET_NONE"/>
-  <set name="skillType" val="NOTDONE"/>
-  <set name="operateType" val="OP_PASSIVE"/>
-  <set name="castRange" val="-1"/>
+<skill id="559" levels="4" name="Spear"><!-- Update by rocknow from L2Emu -->
+  <table name="#power"> 900 1013 1129 1248 </table>
+  <table name="#mpConsume"> 68 70 74 78 </table>
+  <table name="#effectLevel"> 6 6 7 7 </table>
+  <set name="weaponsAllowed" val="72"/>
+  <set name="mpConsume" val="#mpConsume"/>
+  <set name="power" val="#power"/>
+  <set name="hitTime" val="5000"/>
+  <set name="reuseDelay" val="38000"/>
+  <set name="target" val="TARGET_AREA"/>
+  <set name="overHit" val="true"/><!-- Update by rocknow -->
+  <set name="skillType" val="PDAM"/>
+  <set name="operateType" val="OP_ACTIVE"/>
+  <set name="castRange" val="40"/>
+  <set name="skillRadius" val="100"/>
+  <set name="effectRange" val="400"/>
+  <set name="effectType" val="BLEED"/>
+  <set name="effectLevel" val="#effectLevel"/>
 </skill>
-<skill id="560" levels="4" name="Power Slash">
-  <set name="target" val="TARGET_NONE"/>
-  <set name="skillType" val="NOTDONE"/>
-  <set name="operateType" val="OP_PASSIVE"/>
-  <set name="castRange" val="-1"/>
+<skill id="560" levels="4" name="Power Slash"><!-- Update by rocknow from L2Emu -->
+  <table name="#power"> 1250 1406 1588 1733 </table>
+  <table name="#mpConsume"> 68 70 74 78 </table>
+  <set name="mpConsume" val="#mpConsume"/>
+  <set name="hitTime" val="2000"/>
+  <set name="reuseDelay" val="5000"/>
+  <set name="power" val="#power"/>
+  <set name="target" val="TARGET_AREA"/>
+  <set name="overHit" val="true"/><!-- Update by rocknow -->
+  <set name="skillType" val="PDAM"/>
+  <set name="operateType" val="OP_ACTIVE"/>
+  <set name="SSBoost" val="2.0"/>
+  <set name="castRange" val="40"/>
+  <set name="skillRadius" val="100"/>
+  <set name="effectRange" val="100"/>
 </skill>
-<skill id="561" levels="4" name="Bless of Angel">
+<skill id="561" levels="4" name="Bless of Angel"><!-- Update by rocknow from L2Emu -->
   <table name="#mpConsume"> 61 63 67 70 </table>
+  <table name="#aggro"> 223 301 379 454 </table>
   <set name="mpConsume" val="#mpConsume"/>
   <set name="target" val="TARGET_PARTY"/>
   <set name="skillRadius" val="1000"/>
@@ -1113,14 +1137,16 @@
   <set name="operateType" val="OP_ACTIVE"/>
   <set name="castRange" val="-1"/>
   <set name="effectRange" val="-1"/>
+  <set name="aggroPoints" val="#aggro"/>
   <for>
     <effect name="Buff" time="120" count="1" val="0">
       <mul order="0x30" stat="pAtk" val="1.12"/>
     </effect>
   </for>
 </skill>
-<skill id="562" levels="4" name="Wind of Angel">
+<skill id="562" levels="4" name="Wind of Angel"><!-- Update by rocknow from L2Emu -->
   <table name="#mpConsume"> 61 63 67 70 </table>
+  <table name="#aggro"> 549 655 655 655 </table>
   <set name="mpConsume" val="#mpConsume"/>
   <set name="target" val="TARGET_PARTY"/>
   <set name="skillRadius" val="1000"/>
@@ -1130,60 +1156,148 @@
   <set name="operateType" val="OP_ACTIVE"/>
   <set name="castRange" val="-1"/>
   <set name="effectRange" val="-1"/>
+  <set name="aggroPoints" val="#aggro"/>
   <for>
     <effect name="Buff" time="120" count="1" val="0">
       <add order="0x40" stat="rEvas" val="3"/>
     </effect>
   </for>
 </skill>
-<skill id="563" levels="4" name="Horn of Doom">
-  <set name="target" val="TARGET_NONE"/>
-  <set name="skillType" val="NOTDONE"/>
-  <set name="operateType" val="OP_PASSIVE"/>
-  <set name="castRange" val="-1"/>
+<skill id="563" levels="4" name="Horn of Doom"><!-- Update by rocknow from L2Emu -->
+  <table name="#power"> 1250 1406 1588 1733 </table>
+  <table name="#mpConsume"> 68 70 74 78 </table>
+  <set name="mpConsume" val="#mpConsume"/>
+  <set name="hitTime" val="1500"/>
+  <set name="reuseDelay" val="5000"/>
+  <set name="power" val="#power"/>
+  <set name="target" val="TARGET_AREA"/>
+  <set name="overHit" val="true"/><!-- Update by rocknow -->
+  <set name="skillType" val="PDAM"/>
+  <set name="operateType" val="OP_ACTIVE"/>
+  <set name="SSBoost" val="2.0"/>
+  <set name="castRange" val="40"/>
+  <set name="skillRadius" val="100"/>
+  <set name="effectRange" val="40"/>
 </skill>
-<skill id="564" levels="4" name="Gravity Control">
-  <set name="target" val="TARGET_NONE"/>
-  <set name="skillType" val="NOTDONE"/>
-  <set name="operateType" val="OP_PASSIVE"/>
-  <set name="castRange" val="-1"/>
+<skill id="564" levels="4" name="Gravity Control"><!-- Update by rocknow from L2Emu -->
+  <table name="#mpConsume"> 68 70 74 78 </table>
+  <set name="mpConsume" val="#mpConsume"/>
+  <set name="hitTime" val="1800"/>
+  <set name="reuseDelay" val="5000"/>
+  <set name="power" val="5000"/>
+  <set name="target" val="TARGET_AREA"/>
+  <set name="skillType" val="DEBUFF"/>
+  <set name="operateType" val="OP_ACTIVE"/>
+  <set name="castRange" val="40"/>
+  <set name="effectRange" val="40"/>
+  <for>
+    <effect name="Buff" count="1" val="0" time="60" stackOrder="200" stackType="gravitycontrol">
+      <mul order="0x30" stat="pAtkSpd" val="0.90"/>
+      <sub order="0x40" stat="runSpd" val="35"/>
+    </effect>
+  </for>
 </skill>
-<skill id="565" levels="4" name="Horn Assault">
-  <set name="target" val="TARGET_NONE"/>
-  <set name="skillType" val="NOTDONE"/>
-  <set name="operateType" val="OP_PASSIVE"/>
-  <set name="castRange" val="-1"/>
+<skill id="565" levels="4" name="Horn Assault"><!-- Update by rocknow from L2Emu -->
+  <table name="#power"> 900 1013 1129 1248 </table>
+  <table name="#mpConsume"> 68 70 74 78 </table>
+  <set name="mpConsume" val="#mpConsume"/>
+  <set name="hitTime" val="400"/>
+  <set name="reuseDelay" val="5000"/>
+  <set name="power" val="#power"/>
+  <set name="target" val="TARGET_ONE"/>
+  <set name="overHit" val="true"/><!-- Update by rocknow -->
+  <set name="skillRadius" val="600"/>
+  <set name="skillType" val="PDAM"/>
+  <set name="operateType" val="OP_ACTIVE"/>
+  <set name="SSBoost" val="2.0"/>
+  <set name="castRange" val="400"/>
+  <set name="effectRange" val="400"/>
+  <set name="flyType" val="CHARGE"/>
+  <set name="flyRadius" val="400"/>
+  <for>
+    <effect count="1" name="EnemyCharge" time="1" val="0"/>
+  </for>
 </skill>
-<skill id="567" levels="4" name="Light of Heal">
-  <set name="target" val="TARGET_NONE"/>
-  <set name="skillType" val="NOTDONE"/>
-  <set name="operateType" val="OP_PASSIVE"/>
+<skill id="567" levels="4" name="Light of Heal"><!-- Update by rocknow from L2Emu -->
+  <table name="#power"> 690 731 770 806 </table>
+  <table name="#mpConsume"> 55 62 69 78 </table>
+  <set name="mpConsume" val="#mpConsume"/>
+  <set name="power" val="#power"/>
+  <set name="target" val="TARGET_PARTY"/>
+  <set name="skillRadius" val="1000"/>
+  <set name="reuseDelay" val="10000"/>
+  <set name="hitTime" val="2500"/>
+  <set name="skillType" val="HEAL"/>
+  <set name="operateType" val="OP_ACTIVE"/>
   <set name="castRange" val="-1"/>
+  <set name="effectRange" val="-1"/>
 </skill>
-<skill id="568" levels="4" name="Attack Buster">
-  <set name="target" val="TARGET_NONE"/>
-  <set name="skillType" val="NOTDONE"/>
-  <set name="operateType" val="OP_PASSIVE"/>
-  <set name="castRange" val="-1"/>
+<skill id="568" levels="4" name="Attack Buster"><!-- Update by rocknow from L2Emu -->
+  <table name="#power"> 1250 1406 1568 1733 </table>
+  <table name="#mpConsume"> 68 70 74 78 </table>
+  <set name="mpConsume" val="#mpConsume"/>
+  <set name="hitTime" val="1000"/>
+  <set name="reuseDelay" val="5000"/>
+  <set name="power" val="#power"/>
+  <set name="target" val="TARGET_ONE"/>
+  <set name="skillRadius" val="600"/>
+  <set name="skillType" val="CHARGEDAM"/>
+  <set name="operateType" val="OP_ACTIVE"/>
+  <set name="SSBoost" val="2.0"/>
+  <set name="num_charges" val="2"/>
 </skill>
-<skill id="569" levels="4" name="Attack Storm">
-  <set name="target" val="TARGET_NONE"/>
-  <set name="skillType" val="NOTDONE"/>
-  <set name="operateType" val="OP_PASSIVE"/>
-  <set name="castRange" val="-1"/>
+<skill id="569" levels="4" name="Attack Storm"><!-- Update by rocknow from L2Emu -->
+  <table name="#power"> 625 703 784 867 </table>
+  <table name="#mpConsume"> 68 70 74 78 </table>
+  <set name="mpConsume" val="#mpConsume"/>
+  <set name="hitTime" val="1000"/>
+  <set name="reuseDelay" val="5000"/>
+  <set name="power" val="#power"/>
+  <set name="target" val="TARGET_ONE"/>
+  <set name="skillRadius" val="100"/>
+  <set name="skillType" val="CHARGEDAM"/>
+  <set name="operateType" val="OP_ACTIVE"/>
+  <set name="SSBoost" val="2.0"/>
+  <set name="castRange" val="500"/>
+  <set name="num_charges" val="3"/>
 </skill>
-<skill id="570" levels="4" name="Attack Rage">
-  <set name="target" val="TARGET_NONE"/>
-  <set name="skillType" val="NOTDONE"/>
-  <set name="operateType" val="OP_PASSIVE"/>
-  <set name="castRange" val="-1"/>
-  <set name="baseCritRate" val="15"/>
+<skill id="570" levels="4" name="Attack Rage"><!-- Update by rocknow from L2Emu -->
+  <table name="#power"> 904 1108 1235 1404 </table>>
+  <table name="#charges"> 1 2 3 4 </table>
+  <set name="mpConsume" val="5"/>
+  <set name="power" val="#power"/>
+  <set name="target" val="TARGET_ONE"/>
+  <set name="overHit" val="true"/><!-- Update by rocknow -->
+  <set name="hitTime" val="1500"/>
+  <set name="reuseDelay" val="5200"/>
+  <set name="hitTime" val="900"/>
+  <set name="skillType" val="PDAM"/>
+  <set name="operateType" val="OP_ACTIVE"/>
+  <set name="castRange" val="600"/>
+  <set name="effectRange" val="1100"/>
+  <set name="SSBoost" val="2.0"/>
+  <set name="baseCritRate" val="18"/>
+  <set name="num_charges" val="#charges"/>
 </skill>
-<skill id="571" levels="4" name="Poison Dust">
-  <set name="target" val="TARGET_NONE"/>
-  <set name="skillType" val="NOTDONE"/>
-  <set name="operateType" val="OP_PASSIVE"/>
+<skill id="571" levels="4" name="Poison Dust"><!-- Update by rocknow from L2Emu -->
+  <table name="#dmg"> 114 114 132 132 </table>
+  <table name="#mpConsume"> 23 27 29 33 </table>
+  <table name="#effectLevel"> 6 6 7 7 </table>
+  <set name="hitTime" val="3000"/>
+  <set name="lvlDepend" val="1"/>
+  <set name="reuseDelay" val="18000"/>
+  <set name="mpConsume" val="#mpConsume"/>
+  <set name="effectRange" val="200"/>
+  <set name="effectType" val="POISON"/>
+  <set name="effectLevel" val="#effectLevel"/>
+  <set name="target" val="TARGET_AURA"/>
+  <set name="skillType" val="POISON"/>
+  <set name="operateType" val="OP_ACTIVE"/>
   <set name="castRange" val="-1"/>
+  <set name="skillRadius" val="200"/>
+  <for>
+    <effect count="10" name="DamOverTime" time="3" val="#dmg" abnormal="poison"/>
+  </for>
 </skill>
 <skill id="572" levels="4" name="Double Slasher">
   <table name="#mpConsume"> 61 63 67 70 </table>
@@ -1219,11 +1333,20 @@
     <effect count="1" name="Stun" time="5" val="0"/>
   </for>
 </skill>
-<skill id="574" levels="4" name="Bomb Installation">
-  <set name="target" val="TARGET_NONE"/>
-  <set name="skillType" val="NOTDONE"/>
-  <set name="operateType" val="OP_PASSIVE"/>
+<skill id="574" levels="4" name="Bomb Installation"><!-- Update by rocknow from L2Emu -->
+  <table name="#triggerlvl"> 4 5 6 7 </table>
+  <set name="hitTime" val="3000"/>
+  <set name="summonTotalLifeTime" val="30000"/>
+  <set name="reuseDelay" val="120000"/>
+  <set name="target" val="TARGET_SELF"/>
+  <set name="skillType" val="SUMMON_TRAP"/>
+  <set name="operateType" val="OP_ACTIVE"/>
   <set name="castRange" val="-1"/>
+  <set name="effectRange" val="-1"/>
+  <set name="skillRadius" val="350"/>
+  <set name="triggerSkillId" val="5267"/>
+  <set name="triggerSkillLvl" val="#triggerlvl"/>
+  <set name="trapNpcId"  val="13037"/>
 </skill>
 <skill id="575" levels="4" name="Steel Cutter">
   <table name="#mpConsume"> 61 63 67 70 </table>
@@ -1241,45 +1364,109 @@
   <set name="castRange" val="40"/>
   <set name="effectRange" val="400"/>
 </skill>
-<skill id="576" levels="4" name="Paw Strike">
-  <set name="target" val="TARGET_NONE"/>
-  <set name="skillType" val="NOTDONE"/>
-  <set name="operateType" val="OP_PASSIVE"/>
-  <set name="castRange" val="-1"/>
+<skill id="576" levels="4" name="Paw Strike"><!-- Update by rocknow from L2Emu -->
+  <table name="#power"> 1250 1406 1568 1733 </table>
+  <table name="#mpConsume"> 68 70 74 78 </table>
+  <set name="mpConsume" val="#mpConsume"/>
+  <set name="power" val="#power"/>
+  <set name="hitTime" val="1900"/>
+  <set name="reuseDelay" val="9500"/>
+  <set name="target" val="TARGET_ONE"/>
+  <set name="overHit" val="true"/><!-- Update by rocknow -->
+  <set name="skillType" val="PDAM"/>
+  <set name="operateType" val="OP_ACTIVE"/>
+  <set name="castRange" val="40"/>
 </skill>
-<skill id="577" levels="4" name="Fire Breath">
-  <set name="target" val="TARGET_NONE"/>
-  <set name="skillType" val="NOTDONE"/>
-  <set name="operateType" val="OP_PASSIVE"/>
-  <set name="castRange" val="-1"/>
+<skill id="577" levels="4" name="Fire Breath"><!-- Update by rocknow from L2Emu -->
+  <table name="#mpConsume"> 68 70 74 78 </table>
+  <table name="#power"> 875 984 1098 1213 </table>
+  <set name="mpConsume" val="#mpConsume"/>
+  <set name="power" val="#power"/>
+  <set name="hitTime" val="2200"/>
+  <set name="reuseDelay" val="14000"/>
+  <set name="lvlDepend" val="1"/>
+  <set name="target" val="TARGET_FRONT_AURA"/>
+  <set name="overHit" val="true"/><!-- Update by rocknow -->
+  <set name="element" val="2"/> <!-- maybe we need a better way to use elemental damage on physical skills...-->
+  <set name="skillType" val="PDAM"/>
+  <set name="operateType" val="OP_ACTIVE"/>
+  <set name="castRange" val="100"/>
+  <set name="skillRadius" val="100"/>
+  <set name="effectRange" val="155"/>
 </skill>
-<skill id="578" levels="4" name="Blaze Quake">
-  <set name="element" val="2"/> <!-- Fire -->
-  <set name="target" val="TARGET_NONE"/>
-  <set name="skillType" val="NOTDONE"/>
-  <set name="operateType" val="OP_PASSIVE"/>
+<skill id="578" levels="4" name="Blaze Quake"><!-- Update by rocknow from L2Emu -->
+  <table name="#mpConsume"> 68 70 74 78 </table>
+  <table name="#power"> 625 703 784 867 </table>
+  <table name="#effectLevel"> 6 6 7 7 </table>
+  <table name="#dmg"> 114 120 129 132 </table>
+  <set name="hitTime" val="3000"/>
+  <set name="reuseDelay" val="15000"/>
+  <set name="power" val="#power"/>
+  <set name="element" val="2"/> <!-- maybe we need a better way to use elemental damage on physical skills...-->
+  <set name="target" val="TARGET_AURA"/>
+  <set name="overHit" val="true"/><!-- Update by rocknow -->
+  <set name="skillType" val="PDAM"/>
+  <set name="operateType" val="OP_ACTIVE"/>
   <set name="castRange" val="-1"/>
+  <set name="skillRadius" val="200"/>
+  <set name="effectRange" val="200"/>
+  <set name="effectType" val="DOT"/>
+  <set name="effectLevel" val="#effectLevel"/>
+  <for>
+    <effect count="11" name="DamOverTime" time="3" val="#dmg" abnormal="bleed"/>
+  </for>
 </skill>
-<skill id="579" levels="4" name="Fire Armor">
-  <set name="target" val="TARGET_NONE"/>
-  <set name="skillType" val="NOTDONE"/>
-  <set name="operateType" val="OP_PASSIVE"/>
+<skill id="579" levels="4" name="Fire Armor"><!-- Update by rocknow from L2Emu -->
+  <table name="#power"> 20 25 30 35 </table>
+  <table name="#powerDef"> 1.12 1.19 1.22 1.25 </table>
+  <table name="#mpConsume"> 68 70 74 78 </table>
+  <set name="mpConsume" val="#mpConsume"/>
+  <set name="hitTime" val="1500"/>
+  <set name="reuseDelay" val="35000"/>
+  <set name="target" val="TARGET_SELF"/>
+  <set name="skillType" val="BUFF"/>
+  <set name="operateType" val="OP_ACTIVE"/>
   <set name="castRange" val="-1"/>
+  <for>
+    <effect count="1" name="ImmobileBuff" time="30" val="0" stackOrder="1" stackType="fireArmor">
+      <mul order="0x30" val="#powerDef" stat="pDef"/>
+      <add order="0x40" val="#power" stat="reflectDam"/>
+    </effect>
+  </for>
 </skill>
-<skill id="580" levels="4" name="Death Blow">
-  <set name="target" val="TARGET_NONE"/>
-  <set name="skillType" val="NOTDONE"/>
-  <set name="operateType" val="OP_PASSIVE"/>
-  <set name="castRange" val="-1"/>
+<skill id="580" levels="4" name="Death Blow"><!-- Update by rocknow from L2Emu -->
+  <table name="#mpConsume"> 68 70 74 78 </table>
+  <table name="#accCombat"> 13 15 17 19 </table>
+  <table name="#power"> 1500 2000 2500 3000 </table>
+  <set name="mpConsume" val="#mpConsume"/>
+  <set name="power" val="#power"/>
+  <set name="magicLvl" val="50"/>
+  <set name="target" val="TARGET_ONE"/>
+  <set name="overHit" val="true"/><!-- Update by rocknow -->
+  <set name="onCrit" val="true"/>
+  <set name="skillRadius" val="300"/>
+  <set name="reuseDelay" val="11250"/>
+  <set name="hitTime" val="1080"/>
+  <set name="skillType" val="BLOW"/>
+  <set name="operateType" val="OP_ACTIVE"/>
+  <set name="castRange" val="40"/>
+  <set name="lethal1" val="5"/>
+  <set name="lethal2" val="2"/>
+  <set name="effectRange" val="360"/>
+  <set name="nextAction" val="attack"/>
+  <for>
+    <effect name="Buff" time="15" count="1" val="0" stackOrder="#accCombat" stackType="accuracyDown">
+      <sub order="0x40" stat="accCombat" val="#accCombat"/>
+    </effect>
+  </for>
 </skill>
-<skill id="581" levels="4" name="Sand Cloud">
-  <!-- Needs retail accuracy check -->
+<skill id="581" levels="4" name="Sand Cloud"><!-- Update by rocknow from L2Emu -->
   <table name="#mpConsume"> 61 63 67 70 </table>
   <table name="#accCombat"> 13 15 17 19 </table>
   <set name="mpConsume" val="#mpConsume"/>
   <set name="target" val="TARGET_AREA"/>
-  <set name="skillRadius" val="300"/>
-  <set name="reuseDelay" val="8000"/>
+  <set name="skillRadius" val="250"/>
+  <set name="reuseDelay" val="13000"/>
   <set name="hitTime" val="3000"/>
   <set name="skillType" val="DEBUFF"/>
   <set name="operateType" val="OP_ACTIVE"/>
@@ -1292,20 +1479,21 @@
     </effect>
   </for>
 </skill>
-<skill id="582" levels="4" name="Scope Bleed">
-  <!-- Needs retail accuracy check -->
+<skill id="582" levels="4" name="Scope Bleed"><!-- Update by rocknow from L2Emu -->
   <table name="#mpConsume"> 61 63 67 70 </table>
   <table name="#power"> 875 984 1098 1213 </table>
-  <table name="#bleeddmg"> 102 123 155 198 </table>
+  <table name="#bleeddmg"> 93 93 102 102 </table>
   <table name="#abnormalLvl"> 6 6 7 7 </table>
   <set name="abnormalLvl" val="#abnormalLvl"/>
   <set name="power" val="#power"/>
   <set name="mpConsume" val="#mpConsume"/>
   <set name="target" val="TARGET_FRONT_AREA"/>
-  <set name="skillRadius" val="240"/>
+  <set name="skillRadius" val="40"/>
+  <set name="activateRate" val="30"/>
   <set name="reuseDelay" val="8000"/>
   <set name="overHit" val="true"/>
   <set name="hitTime" val="1080"/>
+  <set name="coolTime" val="720"/>
   <set name="skillType" val="PDAM"/>
   <set name="operateType" val="OP_ACTIVE"/>
   <set name="isDebuff" val="true"/>
@@ -1313,13 +1501,14 @@
   <set name="effectRange" val="400"/>
   <set name="effectType" val="BLEED"/>
   <set name="effectPower" val="40"/> <!-- Base Land Rate --> <!-- Guessing -->
+  <set name="nextAction" val="attack"/>
   <for>
     <effect count="5" name="DamOverTime" time="3" val="#bleeddmg" abnormal="bleeding">
       <sub order="0x40" stat="runSpd" val="25"/>
     </effect>
   </for>
 </skill>
-<skill id="583" levels="4" name="Assimilation">
+<skill id="583" levels="4" name="Assimilation"><!-- Update by rocknow from L2Emu -->
   <table name="#mpConsume"> 61 63 67 70 </table>
   <set name="mpConsume" val="#mpConsume"/>
   <set name="hitTime" val="2000"/>
@@ -1330,7 +1519,9 @@
   <set name="castRange" val="-1"/>
   <set name="effectRange" val="-1"/>
   <for>
-    <effect count="1" name="SilentMove" abnormal="stealth" time="120" val="0"/>
+    <effect count="1" name="SilentMove" abnormal="stealth" time="120" val="0">
+      <mul order="0x30" stat="runSpd" val="0.82"/>
+    </effect>
   </for>
 </skill>
 <skill id="584" levels="1" name="Power Claw">
@@ -1397,18 +1588,44 @@
   <set name="castRange" val="40"/>
   <set name="effectRange" val="400"/>
 </skill>
-<skill id="588" levels="2" name="Curse of Darkness">
-  <set name="target" val="TARGET_NONE"/>
-  <set name="skillType" val="NOTDONE"/>
-  <set name="operateType" val="OP_PASSIVE"/>
-  <set name="castRange" val="-1"/>
+<skill id="588" levels="2" name="Curse of Darkness"><!-- Update by rocknow from L2Emu -->
+  <table name="#mpConsume"> 54 58 </table>
+  <table name="#power"> 0.85 0.79 </table>
+  <table name="#reduce"> 17 25 </table>
+  <set name="mpConsume" val="#mpConsume"/>
+  <set name="power" val="2200"/>
+  <set name="hitTime" val="1500"/>
+  <set name="reuseDelay" val="28000"/>
+  <set name="target" val="TARGET_ONE"/>
+  <set name="skillType" val="DEBUFF"/>
+  <set name="operateType" val="OP_ACTIVE"/>
+  <set name="castRange" val="40"/>
+  <for>
+    <effect name="Buff" count="1" val="0" time="30" stackOrder="700" stackType="curse">
+      <mul order="0x30" val="#power" stat="darkVuln"/>
+      <sub order="0x40" val="#reduce" stat="runSpd"/>
+      <mul order="0x30" val="#power" stat="pAtkSpd"/>
+      <mul order="0x30" val="#power" stat="mAtkSpd"/>
+      <mul order="0x30" val="#power" stat="pDef"/>
+      <mul order="0x30" val="#power" stat="mDef"/>
+    </effect>
+  </for>
 </skill>
-<skill id="589" levels="2" name="Darkness Energy Drain">
+<skill id="589" levels="2" name="Darkness Energy Drain"><!-- Update by rocknow from L2Emu -->
+  <table name="#mpConsume"> 54 58 </table>
+  <table name="#power"> 46 48 </table>
+  <set name="mpConsume" val="#mpConsume"/>
+  <set name="power" val="#power"/>
+  <set name="target" val="TARGET_CORPSE_MOB"/>
   <set name="element" val="6"/> <!-- Dark -->
-  <set name="target" val="TARGET_NONE"/>
-  <set name="skillType" val="NOTDONE"/>
-  <set name="operateType" val="OP_PASSIVE"/>
-  <set name="castRange" val="-1"/>
+  <set name="reuseDelay" val="7000"/>
+  <set name="hitTime" val="4000"/>
+  <set name="skillType" val="DRAIN"/>
+  <set name="isMagic" val="true"/>
+  <set name="operateType" val="OP_ACTIVE"/>
+  <set name="castRange" val="40"/>
+  <set name="effectRange" val="40"/>
+  <set name="absorbPart" val="0.8"/>
 </skill>
 <skill id="590" levels="1" name="Residence Body">
   <set name="target" val="TARGET_NONE"/>

@@ -48,17 +48,37 @@
   <set name="operateType" val="OP_PASSIVE"/>
   <set name="castRange" val="-1"/>
 </skill>
-<skill id="808" levels="1" name="Golem Punch">
-  <set name="target" val="TARGET_NONE"/>
-  <set name="skillType" val="NOTDONE"/>
-  <set name="operateType" val="OP_PASSIVE"/>
-  <set name="castRange" val="-1"/>
+<skill id="808" levels="1" name="Golem Punch"><!-- Update by rocknow -->
+  <set name="mpConsume" val="53"/>
+  <set name="power" val="4339"/>
+  <set name="target" val="TARGET_ONE"/>
+  <set name="overHit" val="true"/>
+  <set name="reuseDelay" val="13000"/>
+  <set name="hitTime" val="1080"/>
+  <set name="coolTime" val="720"/>
+  <set name="skillType" val="PDAM"/>
+  <set name="operateType" val="OP_ACTIVE"/>
+  <set name="castRange" val="40"/>
+  <set name="isDebuff" val="true"/>
+  <set name="effectRange" val="400"/>
+  <set name="effectType" val="STUN"/>
+  <set name="effectPower" val="50"/>
+  <for>
+    <effect count="1" name="Stun" time="9" val="0" stackOrder="1" stackType="Stun"/>
+  </for>
 </skill>
-<skill id="809" levels="1" name="Golem Tornado Swing">
-  <set name="target" val="TARGET_NONE"/>
-  <set name="skillType" val="NOTDONE"/>
-  <set name="operateType" val="OP_PASSIVE"/>
-  <set name="castRange" val="-1"/>
+<skill id="809" levels="1" name="Golem Tornado Swing"><!-- Update by rocknow -->
+  <set name="mpConsume" val="53"/>
+  <set name="power" val="3100"/>
+  <set name="target" val="TARGET_ONE"/>
+  <set name="overHit" val="true"/>
+  <set name="reuseDelay" val="13000"/>
+  <set name="hitTime" val="1080"/>
+  <set name="coolTime" val="720"/>
+  <set name="skillType" val="PDAM"/>
+  <set name="operateType" val="OP_ACTIVE"/>
+  <set name="castRange" val="40"/>
+  <set name="effectRange" val="400"/>
 </skill>
 <skill id="810" levels="1" name="Vanguard">
   <set name="mpConsume" val="31"/>

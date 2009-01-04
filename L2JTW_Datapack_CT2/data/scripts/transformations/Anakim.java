@@ -47,6 +47,16 @@ public class Anakim extends L2Transformation
 		this.getPlayer().addSkill(SkillTable.getInstance().getInfo(619, 1), false);
 		// Decrease Bow/Crossbow Attack Speed
 		this.getPlayer().addSkill(SkillTable.getInstance().getInfo(5491, 1), false);
+                // Anakim Holy Light Burst
+		this.getPlayer().addSkill(SkillTable.getInstance().getInfo(720, 2), false);
+                // Anakim Energy Attack
+		this.getPlayer().addSkill(SkillTable.getInstance().getInfo(721, 2), false);
+                // Anakim Holy Beam
+		this.getPlayer().addSkill(SkillTable.getInstance().getInfo(722, 2), false);
+                // Anakim Sunshine
+		this.getPlayer().addSkill(SkillTable.getInstance().getInfo(723, 1), false);
+                // Anakim Clans
+		this.getPlayer().addSkill(SkillTable.getInstance().getInfo(724, 1), false);
 		// Send a Server->Client packet StatusUpdate to the L2PcInstance.
 		this.getPlayer().sendSkillList();
 	}
@@ -63,6 +73,16 @@ public class Anakim extends L2Transformation
 		this.getPlayer().removeSkill(SkillTable.getInstance().getInfo(619, 1), false);
 		// Decrease Bow/Crossbow Attack Speed
 		this.getPlayer().removeSkill(SkillTable.getInstance().getInfo(5491, 1), false);
+                // Anakim Holy Light Burst
+		this.getPlayer().removeSkill(SkillTable.getInstance().getInfo(720, 2), false);
+                // Anakim Energy Attack
+		this.getPlayer().removeSkill(SkillTable.getInstance().getInfo(721, 2), false);
+                // Anakim Holy Beam
+		this.getPlayer().removeSkill(SkillTable.getInstance().getInfo(722, 2), false);
+                // Anakim Sunshine
+		this.getPlayer().removeSkill(SkillTable.getInstance().getInfo(723, 1), false);
+                // Anakim Clans
+		this.getPlayer().removeSkill(SkillTable.getInstance().getInfo(724, 1), false);
 		// Send a Server->Client packet StatusUpdate to the L2PcInstance.
 		this.getPlayer().sendSkillList();
 	}

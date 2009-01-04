@@ -48,6 +48,12 @@ public class DivineHealer extends L2Transformation
 		// Decrease Bow/Crossbow Attack Speed
 		this.getPlayer().addSkill(SkillTable.getInstance().getInfo(5491, 1), false);
 		// Send a Server->Client packet StatusUpdate to the L2PcInstance.
+		this.getPlayer().addSkill(SkillTable.getInstance().getInfo(698, 1), false);
+		this.getPlayer().addSkill(SkillTable.getInstance().getInfo(699, 1), false);
+		this.getPlayer().addSkill(SkillTable.getInstance().getInfo(700, 1), false);
+		this.getPlayer().addSkill(SkillTable.getInstance().getInfo(701, 1), false);
+		this.getPlayer().addSkill(SkillTable.getInstance().getInfo(702, 1), false);
+		this.getPlayer().addSkill(SkillTable.getInstance().getInfo(703, 1), false);
 		this.getPlayer().sendSkillList();
 	}
 
@@ -64,6 +70,12 @@ public class DivineHealer extends L2Transformation
 		// Decrease Bow/Crossbow Attack Speed
 		this.getPlayer().removeSkill(SkillTable.getInstance().getInfo(5491, 1), false);
 		// Send a Server->Client packet StatusUpdate to the L2PcInstance.
+		this.getPlayer().removeSkill(SkillTable.getInstance().getInfo(698, 1), false);
+		this.getPlayer().removeSkill(SkillTable.getInstance().getInfo(699, 1), false);
+		this.getPlayer().removeSkill(SkillTable.getInstance().getInfo(700, 1), false);
+		this.getPlayer().removeSkill(SkillTable.getInstance().getInfo(701, 1), false);
+		this.getPlayer().removeSkill(SkillTable.getInstance().getInfo(702, 1), false);
+		this.getPlayer().removeSkill(SkillTable.getInstance().getInfo(703, 1), false);
 		this.getPlayer().sendSkillList();
 	}
 

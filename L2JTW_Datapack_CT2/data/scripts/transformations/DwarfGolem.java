@@ -48,6 +48,8 @@ public class DwarfGolem extends L2Transformation
 		// Decrease Bow/Crossbow Attack Speed
 		this.getPlayer().addSkill(SkillTable.getInstance().getInfo(5491, 1), false);
 		// Send a Server->Client packet StatusUpdate to the L2PcInstance.
+		this.getPlayer().addSkill(SkillTable.getInstance().getInfo(808, 1), false);
+		this.getPlayer().addSkill(SkillTable.getInstance().getInfo(809, 1), false);
 		this.getPlayer().sendSkillList();
 	}
 
@@ -64,6 +66,8 @@ public class DwarfGolem extends L2Transformation
 		// Decrease Bow/Crossbow Attack Speed
 		this.getPlayer().removeSkill(SkillTable.getInstance().getInfo(5491, 1), false);
 		// Send a Server->Client packet StatusUpdate to the L2PcInstance.
+		this.getPlayer().removeSkill(SkillTable.getInstance().getInfo(808, 1), false);
+		this.getPlayer().removeSkill(SkillTable.getInstance().getInfo(809, 1), false);
 		this.getPlayer().sendSkillList();
 	}
 

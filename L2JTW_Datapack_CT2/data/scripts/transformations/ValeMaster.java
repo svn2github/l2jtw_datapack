@@ -47,6 +47,14 @@ public class ValeMaster extends L2Transformation
 		this.getPlayer().addSkill(SkillTable.getInstance().getInfo(619, 1), false);
 		// Decrease Bow/Crossbow Attack Speed
 		this.getPlayer().addSkill(SkillTable.getInstance().getInfo(5491, 1), false);
+                // ValeMaster Holy Light Burst
+		this.getPlayer().addSkill(SkillTable.getInstance().getInfo(742, 3), false);
+                // ValeMaster Energy Attack
+		this.getPlayer().addSkill(SkillTable.getInstance().getInfo(743, 3), false);
+                // ValeMaster Holy Beam
+		this.getPlayer().addSkill(SkillTable.getInstance().getInfo(744, 3), false);
+                // ValeMaster Sunshine
+		this.getPlayer().addSkill(SkillTable.getInstance().getInfo(745, 4), false);
 		// Send a Server->Client packet StatusUpdate to the L2PcInstance.
 		this.getPlayer().sendSkillList();
 	}
@@ -63,6 +71,14 @@ public class ValeMaster extends L2Transformation
 		this.getPlayer().removeSkill(SkillTable.getInstance().getInfo(619, 1), false);
 		// Decrease Bow/Crossbow Attack Speed
 		this.getPlayer().removeSkill(SkillTable.getInstance().getInfo(5491, 1), false);
+                // ValeMaster Holy Light Burst
+		this.getPlayer().removeSkill(SkillTable.getInstance().getInfo(742, 3), false);
+                // ValeMaster Energy Attack
+		this.getPlayer().removeSkill(SkillTable.getInstance().getInfo(743, 3), false);
+                // ValeMaster Holy Beam
+		this.getPlayer().removeSkill(SkillTable.getInstance().getInfo(744, 3), false);
+                // ValeMaster Sunshine
+		this.getPlayer().removeSkill(SkillTable.getInstance().getInfo(745, 4), false);
 		// Send a Server->Client packet StatusUpdate to the L2PcInstance.
 		this.getPlayer().sendSkillList();
 	}

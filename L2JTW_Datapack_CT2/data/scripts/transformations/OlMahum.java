@@ -47,6 +47,12 @@ public class OlMahum extends L2Transformation
 		this.getPlayer().addSkill(SkillTable.getInstance().getInfo(619, 1), false);
 		// Decrease Bow/Crossbow Attack Speed
 		this.getPlayer().addSkill(SkillTable.getInstance().getInfo(5491, 1), false);
+                // OlMahum Holy Light Burst
+		this.getPlayer().addSkill(SkillTable.getInstance().getInfo(749, 3), false);
+                // OlMahum Energy Attack
+		this.getPlayer().addSkill(SkillTable.getInstance().getInfo(750, 1), false);
+                // OlMahum Holy Beam
+		this.getPlayer().addSkill(SkillTable.getInstance().getInfo(751, 3), false);
 		// Send a Server->Client packet StatusUpdate to the L2PcInstance.
 		this.getPlayer().sendSkillList();
 	}
@@ -63,6 +69,12 @@ public class OlMahum extends L2Transformation
 		this.getPlayer().removeSkill(SkillTable.getInstance().getInfo(619, 1), false);
 		// Decrease Bow/Crossbow Attack Speed
 		this.getPlayer().removeSkill(SkillTable.getInstance().getInfo(5491, 1), false);
+                // OlMahum Holy Light Burst
+		this.getPlayer().removeSkill(SkillTable.getInstance().getInfo(749, 3), false);
+                // OlMahum Energy Attack
+		this.getPlayer().removeSkill(SkillTable.getInstance().getInfo(750, 1), false);
+                // OlMahum Holy Beam
+		this.getPlayer().removeSkill(SkillTable.getInstance().getInfo(751, 3), false);
 		// Send a Server->Client packet StatusUpdate to the L2PcInstance.
 		this.getPlayer().sendSkillList();
 	}
