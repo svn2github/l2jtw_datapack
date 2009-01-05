@@ -197,6 +197,9 @@ QUEST.addTalkId(30527)
 
 QUEST.addTalkId(30298)
 QUEST.addTalkId(30317)
+QUEST.addTalkId(30531)
+QUEST.addTalkId(31963)
+QUEST.addTalkId(32052)
 
 QUEST.addKillId(20017)
 QUEST.addKillId(20389)

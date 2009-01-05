@@ -164,7 +164,7 @@ class Quest (JQuest) :
                    st.takeItems(SilverCross,-1)
                    st.giveItems(BrokenSilverCross,1)
                    st.set("cond","4")
-                   AutoChat(npc,"That sign!")
+                   AutoChat(npc,"那個，那個聖標是....！")
        return
 
 QUEST     = Quest(24,qn,"亡者森林的住人們")

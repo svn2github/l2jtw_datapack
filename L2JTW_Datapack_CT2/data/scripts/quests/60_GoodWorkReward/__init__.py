@@ -12,24 +12,24 @@ from net.sf.l2j.gameserver.network.serverpackets import NpcSay
 qn = "60_GoodWorkReward"
 
 BYPASS = {
-1:"<a action=\"bypass -h Quest 60_GoodWorkReward WL\">Warlord.</a><br><a action=\"bypass -h Quest 60_GoodWorkReward GL\">Gladiator.</a>",
-4:"<a action=\"bypass -h Quest 60_GoodWorkReward PA\">Paladin.</a><br><a action=\"bypass -h Quest 60_GoodWorkReward DA\">Dark Avenger.</a>",
-7:"<a action=\"bypass -h Quest 60_GoodWorkReward TH\">Treasure Hunter.</a><br><a action=\"bypass -h Quest 60_GoodWorkReward HK\">Hawkeye.</a>",
-11:"<a action=\"bypass -h Quest 60_GoodWorkReward SC\">Sorcerer.</a><br><a action=\"bypass -h Quest 60_GoodWorkReward NM\">Necromancer.</a><br><a action=\"bypass -h Quest 60_GoodWorkReward WA\">Warlock.</a>",
-15:"<a action=\"bypass -h Quest 60_GoodWorkReward BS\">Bishop.</a><br><a action=\"bypass -h Quest 60_GoodWorkReward PP\">Prophet.</a>",
-19:"<a action=\"bypass -h Quest 60_GoodWorkReward TK\">Temple Knight.</a><br><a action=\"bypass -h Quest 60_GoodWorkReward SS\">Swordsinger.</a>",
-22:"<a action=\"bypass -h Quest 60_GoodWorkReward PW\">Plainswalker.</a><br><a action=\"bypass -h Quest 60_GoodWorkReward SR\">Silver Ranger.</a>",
-26:"<a action=\"bypass -h Quest 60_GoodWorkReward SP\">Spellsinger.</a><br><a action=\"bypass -h Quest 60_GoodWorkReward ES\">Elemental Summoner.</a>",
-29:"<a action=\"bypass -h Quest 60_GoodWorkReward EE\">Elven Elder.</a>",
-32:"<a action=\"bypass -h Quest 60_GoodWorkReward SK\">Shillien Knight.</a><br><a action=\"bypass -h Quest 60_GoodWorkReward BD\">Blade Dancer.</a>",
-35:"<a action=\"bypass -h Quest 60_GoodWorkReward AW\">Abyss Walker.</a><br><a action=\"bypass -h Quest 60_GoodWorkReward PR\">Phantom Ranger.</a>",
-39:"<a action=\"bypass -h Quest 60_GoodWorkReward SH\">Spellhowler.</a><br><a action=\"bypass -h Quest 60_GoodWorkReward PS\">Phantom Summoner.</a>",
-42:"<a action=\"bypass -h Quest 60_GoodWorkReward SE\">Shillien Elder.</a>",
-45:"<a action=\"bypass -h Quest 60_GoodWorkReward DT\">Destroyer.</a>",
-47:"<a action=\"bypass -h Quest 60_GoodWorkReward TR\">Tyrant.</a>",
-50:"<a action=\"bypass -h Quest 60_GoodWorkReward OL\">Overlord.</a><br><a action=\"bypass -h Quest 60_GoodWorkReward WC\">Warcryer.</a>",
-54:"<a action=\"bypass -h Quest 60_GoodWorkReward BH\">Bounty Hunter.</a>",
-56:"<a action=\"bypass -h Quest 60_GoodWorkReward WS\">Warsmith.</a>"
+1:"<a action=\"bypass -h Quest 60_GoodWorkReward WL\">傭兵</a><br><a action=\"bypass -h Quest 60_GoodWorkReward GL\">劍鬥士</a>",
+4:"<a action=\"bypass -h Quest 60_GoodWorkReward PA\">聖騎士</a><br><a action=\"bypass -h Quest 60_GoodWorkReward DA\">闇騎士</a>",
+7:"<a action=\"bypass -h Quest 60_GoodWorkReward TH\">寶藏獵人</a><br><a action=\"bypass -h Quest 60_GoodWorkReward HK\">鷹眼</a>",
+11:"<a action=\"bypass -h Quest 60_GoodWorkReward SC\">術士</a><br><a action=\"bypass -h Quest 60_GoodWorkReward NM\">死靈法師</a><br><a action=\"bypass -h Quest 60_GoodWorkReward WA\">法魔</a>",
+15:"<a action=\"bypass -h Quest 60_GoodWorkReward BS\">主教</a><br><a action=\"bypass -h Quest 60_GoodWorkReward PP\">先知</a>",
+19:"<a action=\"bypass -h Quest 60_GoodWorkReward TK\">聖殿騎士</a><br><a action=\"bypass -h Quest 60_GoodWorkReward SS\">劍術詩人</a>",
+22:"<a action=\"bypass -h Quest 60_GoodWorkReward PW\">大地行者</a><br><a action=\"bypass -h Quest 60_GoodWorkReward SR\">銀月遊俠</a>",
+26:"<a action=\"bypass -h Quest 60_GoodWorkReward SP\">咒術詩人</a><br><a action=\"bypass -h Quest 60_GoodWorkReward ES\">元素使</a>",
+29:"<a action=\"bypass -h Quest 60_GoodWorkReward EE\">長老</a>",
+32:"<a action=\"bypass -h Quest 60_GoodWorkReward SK\">席琳騎士</a><br><a action=\"bypass -h Quest 60_GoodWorkReward BD\">劍刃舞者</a>",
+35:"<a action=\"bypass -h Quest 60_GoodWorkReward AW\">深淵行者</a><br><a action=\"bypass -h Quest 60_GoodWorkReward PR\">闇影遊俠</a>",
+39:"<a action=\"bypass -h Quest 60_GoodWorkReward SH\">狂咒術士</a><br><a action=\"bypass -h Quest 60_GoodWorkReward PS\">闇影召喚士</a>",
+42:"<a action=\"bypass -h Quest 60_GoodWorkReward SE\">席琳長老</a>",
+45:"<a action=\"bypass -h Quest 60_GoodWorkReward DT\">破壞者</a>",
+47:"<a action=\"bypass -h Quest 60_GoodWorkReward TR\">暴君</a>",
+50:"<a action=\"bypass -h Quest 60_GoodWorkReward OL\">霸主</a><br><a action=\"bypass -h Quest 60_GoodWorkReward WC\">戰狂</a>",
+54:"<a action=\"bypass -h Quest 60_GoodWorkReward BH\">賞金獵人</a>",
+56:"<a action=\"bypass -h Quest 60_GoodWorkReward WS\">戰爭工匠</a>"
 }
 
 CLASSES = {
@@ -92,7 +92,7 @@ class Quest (JQuest) :
       st.playSound("ItemSound.quest_middle")
     elif event == "32487-02.htm" and self.isNpcSpawned == 0:
       npc = st.addSpawn(27340,72590,148100,-3312,1800000)
-      npc.broadcastPacket(NpcSay(npc.getObjectId(),0,npc.getNpcId(),player.getName()+"! I must kill you. Blame your own curiosity."))
+      npc.broadcastPacket(NpcSay(npc.getObjectId(),0,npc.getNpcId(),player.getName()+"! 去死吧，要怪就怪你的好奇心。"))
       npc.setRunning()
       npc.addDamageHate(st.getPlayer(),0,999)
       npc.getAI().setIntention(CtrlIntention.AI_INTENTION_ATTACK, st.getPlayer())
@@ -122,12 +122,12 @@ class Quest (JQuest) :
       st.playSound("ItemSound.quest_finish")
       if player.getClassId().level() == 1 :
          text = BYPASS[player.getClassId().getId()]
-         htmltext = "<html><body>Black Marketeer of Mammon:<br>Forget about the money!<br>I will help you complete the class transfer, which is far more valuable! Which class would you like to be? Choose one.<br>"+text+"</body></html>"
+         htmltext = "<html><body>財富的地下商人:<br>錢的事嘛，你還是把它忘了吧...<br>我說過會幫你轉職的嘛！你想要轉職為哪一種職業呢？挑挑看吧...<br>"+text+"</body></html>"
       else :
          htmltext = "31092-06.htm"
     elif event == "31092-06.htm" :
       text = BYPASS[player.getClassId().getId()]
-      htmltext = "<html><body>Black Marketeer of Mammon:<br>If you are finished thinking, select one. Which class would you like to be?<br>"+text+"</body></html>"
+      htmltext = "<html><body>財富的地下商人:<br>如果考慮好了，那就趕快選擇一下吧。你想要哪一種職業呢？<br>"+text+"</body></html>"
     elif event == "31092-07.htm" :
       st.giveAdena(3000000, False)
       st.set("onlyone","1")
@@ -217,9 +217,9 @@ class Quest (JQuest) :
    npcId = npc.getNpcId()
    cond = st.getInt("cond")
    if npcId == 27340 and cond == 1:
-     string = "You are strong. This was a mistake."
+     string = "沒想到會這麼強，我失算了。"
      if st.getRandom(1):
-       string = "You have good luck. I shall return."
+       string = "算你走運，我會回來的。"
      npc.broadcastPacket(NpcSay(npc.getObjectId(),0,npc.getNpcId(),string))
      st.giveItems(10867,1)
      st.set("cond","2")

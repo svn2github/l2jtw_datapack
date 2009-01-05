@@ -65,7 +65,7 @@ class Quest (JQuest) :
         elif event == "31523-02.htm":
             st.playSound("SkillSound5.horror_02")
             ghost = st.addSpawn(31524,51432,-54570,-3136,1800000)
-            ghost.broadcastPacket(NpcSay(ghost.getObjectId(),0,ghost.getNpcId(),"Who awoke me?"))
+            ghost.broadcastPacket(NpcSay(ghost.getObjectId(),0,ghost.getNpcId(),"¬O½Ö¥s¿ô§Ú¡C"))
         elif event == "31523-05.htm":
             st.startQuestTimer("ghost_timer",10000)
         elif event == "ghost_timer":

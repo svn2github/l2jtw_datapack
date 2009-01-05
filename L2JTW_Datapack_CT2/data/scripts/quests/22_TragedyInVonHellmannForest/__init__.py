@@ -77,7 +77,7 @@ class Quest (JQuest) :
                st.takeItems(SKULL,-1)
                priest = st.addSpawn(GHOST_PRIEST,38354,-49777,-1128)
                st.startQuestTimer("Despawn Ghost Priest",120000,priest)
-               AutoChat(priest,"Did you call me, "+player.getName()+"?")
+               AutoChat(priest,"以,"+player.getName()+"為名之人啊，叫我的人就是你嗎...")
                self.priest = player.getName()
        elif st.getInt("id") == 4 and st.getQuestItemsCount(CROSS) > 0 :
            if self.tifaren == 1 :
@@ -88,7 +88,7 @@ class Quest (JQuest) :
                st.takeItems(SKULL,-1)
                priest = st.addSpawn(GHOST_PRIEST,38354,-49777,-1128)
                st.startQuestTimer("Despawn Ghost Priest",120000,priest)
-               AutoChat(priest,"Did you call me, "+player.getName()+"?")
+               AutoChat(priest,"以,"+player.getName()+"為名之人啊，叫我的人就是你嗎...")
                self.priest = player.getName()
    elif event == "31528-05.htm" :
        st.playSound("AmbSound.d_horror_03")

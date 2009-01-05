@@ -152,7 +152,7 @@
     <mul stat="windVuln" val="#vuln" order="0x30"/>
   </for>
 </skill>
-<skill id="4012" levels="1" name="Resist Earth">
+<skill id="4012" levels="6" name="Resist Earth"><!-- Update by rocknow -->
   <table name="#vuln"> 0.85 0.7 0.5 0.3 0.1 0.0 </table>
   <set name="target" val="TARGET_SELF"/>
   <set name="reuseDelay" val="6000"/>
