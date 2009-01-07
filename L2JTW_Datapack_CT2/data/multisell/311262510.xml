@@ -694,4 +694,697 @@
 		<ingredient id="5582" count="1"/>
 		<ingredient id="2133" count="157"/>
 	</item>
+	<!-- Dasparion's Staff - Hail - Mana Up -->
+	<item id="100">
+		<production id="11018" count="1"/>
+		<ingredient id="11017" count="1"/>
+		<ingredient id="5577" count="1"/>
+		<ingredient id="2133" count="147"/>
+	</item>
+	<!-- Dasparion's Staff - Hail	- Conversion -->
+	<item id="101">
+		<production id="11019" count="1"/>
+		<ingredient id="11017" count="1"/>
+		<ingredient id="5578" count="1"/>
+		<ingredient id="2133" count="147"/>
+	</item>
+	<!-- Dasparion's Staff - Hail - Acumen -->
+	<item id="102">
+		<production id="11020" count="1"/>
+		<ingredient id="11017" count="1"/>
+		<ingredient id="5579" count="1"/>
+		<ingredient id="2133" count="147"/>
+	</item>
+	<!-- Meteor Shower - Earth - Focus -->
+	<item id="103">
+		<production id="11030" count="1"/>
+		<ingredient id="11029" count="1"/>
+		<ingredient id="5577" count="1"/>
+		<ingredient id="2133" count="157"/>
+	</item>
+	<!-- Meteor Shower - Earth - Critical Bleed -->
+	<item id="104">
+		<production id="11031" count="1"/>
+		<ingredient id="11029" count="1"/>
+		<ingredient id="5578" count="1"/>
+		<ingredient id="2133" count="157"/>
+	</item>
+	<!-- Meteor Shower - Hearth - Rsk. Haste -->
+	<item id="105">
+		<production id="11032" count="1"/>
+		<ingredient id="11029" count="1"/>
+		<ingredient id="5579" count="1"/>
+		<ingredient id="2133" count="157"/>
+	</item>
+	<!-- Elysian - Great Gale - Health -->
+	<item id="106">
+		<production id="11121" count="1"/>
+		<ingredient id="11120" count="1"/>
+		<ingredient id="5580" count="1"/>
+		<ingredient id="2133" count="140"/>
+	</item>
+	<!-- Elysian - Great Gale - Anger -->
+	<item id="107">
+		<production id="11122" count="1"/>
+		<ingredient id="11120" count="1"/>
+		<ingredient id="5581" count="1"/>
+		<ingredient id="2133" count="140"/>
+	</item>
+	<!-- Elysian - Great Gale - Critical Drain -->
+	<item id="108">
+		<production id="11123" count="1"/>
+		<ingredient id="11120" count="1"/>
+		<ingredient id="5582" count="1"/>
+		<ingredient id="2133" count="157"/>
+	</item>
+	<!-- Branch of Mother Tree - Nature - Conversion -->
+	<item id="109">
+		<production id="11105" count="1"/>
+		<ingredient id="11104" count="1"/>
+		<ingredient id="5580" count="1"/>
+		<ingredient id="2133" count="140"/>
+	</item>
+	<!-- Branch of Mother Tree - Nature - Magic Damage -->
+	<item id="110">
+		<production id="11106" count="1"/>
+		<ingredient id="11104" count="1"/>
+		<ingredient id="5581" count="1"/>
+		<ingredient id="2133" count="140"/>
+	</item>
+	<!-- Branch of Mother Tree - Nature - Acumen -->
+	<item id="111">
+		<production id="11107" count="1"/>
+		<ingredient id="11104" count="1"/>
+		<ingredient id="5582" count="1"/>
+		<ingredient id="2133" count="140"/>
+	</item>
+	<!-- Carnage Bow - Concentration - Light -->
+	<item id="112">
+		<production id="11054" count="1"/>
+		<ingredient id="11053" count="1"/>
+		<ingredient id="5577" count="1"/>
+		<ingredient id="2133" count="147"/>
+	</item>
+	<!-- Carnage Bow - Concentration - Critical Bleed -->
+	<item id="113">
+		<production id="11055" count="1"/>
+		<ingredient id="11053" count="1"/>
+		<ingredient id="5578" count="1"/>
+		<ingredient id="2133" count="147"/>
+	</item>
+	<!-- Carnage Bow - Concentration - Mana Up -->
+	<item id="114">
+		<production id="11056" count="1"/>
+		<ingredient id="11053" count="1"/>
+		<ingredient id="5579" count="1"/>
+		<ingredient id="2133" count="147"/>
+	</item>
+	<!-- Soul Bow - Concentration - Cheap Shot -->
+	<item id="115">
+		<production id="11125" count="1"/>
+		<ingredient id="11124" count="1"/>
+		<ingredient id="5580" count="1"/>
+		<ingredient id="2133" count="140"/>
+	</item>
+	<!-- Soul Bow - Concentration - Quick Recovery -->
+	<item id="116">
+		<production id="11126" count="1"/>
+		<ingredient id="11124" count="1"/>
+		<ingredient id="5581" count="1"/>
+		<ingredient id="2133" count="157"/>
+	</item>
+	<!-- Soul Bow - Concentration - Critical Poison -->
+	<item id="117">
+		<production id="11127" count="1"/>
+		<ingredient id="11124" count="1"/>
+		<ingredient id="5582" count="1"/>
+		<ingredient id="2133" count="157"/>
+	</item>
+	<!-- Bloody Orchid - Confusion - Focus -->
+	<item id="118">
+		<production id="11038" count="1"/>
+		<ingredient id="11037" count="1"/>
+		<ingredient id="5577" count="1"/>
+		<ingredient id="2133" count="157"/>
+	</item>
+	<!-- Bloody Orchid - Confusion - Back Blow -->
+	<item id="119">
+		<production id="11039" count="1"/>
+		<ingredient id="11037" count="1"/>
+		<ingredient id="5578" count="1"/>
+		<ingredient id="2133" count="157"/>
+	</item>
+	<!-- Bloody Orchid - Confusion - Critical Bleed -->
+	<item id="120">
+		<production id="11040" count="1"/>
+		<ingredient id="11037" count="1"/>
+		<ingredient id="5579" count="1"/>
+		<ingredient id="2133" count="147"/>
+	</item>
+	<!-- Soul Separator - On Fire - Guidance -->
+	<item id="121">
+		<production id="11117" count="1"/>
+		<ingredient id="11116" count="1"/>
+		<ingredient id="5580" count="1"/>
+		<ingredient id="2133" count="157"/>
+	</item>
+	<!-- Soul Separator - On Fire - Critical Damage -->
+	<item id="122">
+		<production id="11118" count="1"/>
+		<ingredient id="11116" count="1"/>
+		<ingredient id="5581" count="1"/>
+		<ingredient id="2133" count="157"/>
+	</item>
+	<!-- Soul Separator - On Fire - Rsk. Haste -->
+	<item id="123">
+		<production id="11119" count="1"/>
+		<ingredient id="11116" count="1"/>
+		<ingredient id="5582" count="1"/>
+		<ingredient id="2133" count="157"/>
+	</item>
+	<!-- Blood Tornado - Destruction - Haste -->
+	<item id="124">
+		<production id="11034" count="1"/>
+		<ingredient id="11033" count="1"/>
+		<ingredient id="5577" count="1"/>
+		<ingredient id="2133" count="157"/>
+	</item>
+	<!-- Blood Tornado - Destruction - Focus -->
+	<item id="125">
+		<production id="11035" count="1"/>
+		<ingredient id="11033" count="1"/>
+		<ingredient id="5578" count="1"/>
+		<ingredient id="2133" count="157"/>
+	</item>
+	<!-- Blood Tornado - Destruction - Anger -->
+	<item id="126">
+		<production id="11036" count="1"/>
+		<ingredient id="11033" count="1"/>
+		<ingredient id="5579" count="1"/>
+		<ingredient id="2133" count="147"/>
+	</item>
+	<!-- Dragon Grinder - Earth - Rsk. Evasion -->
+	<item id="127">
+		<production id="11093" count="1"/>
+		<ingredient id="11092" count="1"/>
+		<ingredient id="5580" count="1"/>
+		<ingredient id="2133" count="157"/>
+	</item>
+	<!-- Dragon Grinder - Earth - Guidance -->
+	<item id="128">
+		<production id="11094" count="1"/>
+		<ingredient id="11092" count="1"/>
+		<ingredient id="5581" count="1"/>
+		<ingredient id="2133" count="140"/>
+	</item>
+	<!-- Dragon Grinder - Earth - Health -->
+	<item id="129">
+		<production id="11095" count="1"/>
+		<ingredient id="11092" count="1"/>
+		<ingredient id="5582" count="1"/>
+		<ingredient id="2133" count="140"/>
+	</item>
+	<!-- Halberd - Thunder - Haste -->
+	<item id="130">
+		<production id="11071" count="1"/>
+		<ingredient id="11070" count="1"/>
+		<ingredient id="5577" count="1"/>
+		<ingredient id="2133" count="157"/>
+	</item>
+	<!-- Halberd - Thunder - Critical Stun -->
+	<item id="131">
+		<production id="11072" count="1"/>
+		<ingredient id="11070" count="1"/>
+		<ingredient id="5578" count="1"/>
+		<ingredient id="2133" count="157"/>
+	</item>
+	<!-- Halberd - Thunder - Wide Blow -->
+	<item id="132">
+		<production id="11073" count="1"/>
+		<ingredient id="11070" count="1"/>
+		<ingredient id="5579" count="1"/>
+		<ingredient id="2133" count="147"/>
+	</item>
+	<!-- Tallum Glaive - On Fire - Guidance -->
+	<item id="133">
+		<production id="11129" count="1"/>
+		<ingredient id="11128" count="1"/>
+		<ingredient id="5580" count="1"/>
+		<ingredient id="2133" count="157"/>
+	</item>
+	<!-- Tallum Glaive - On Fire - Health -->
+	<item id="134">
+		<production id="11130" count="1"/>
+		<ingredient id="11128" count="1"/>
+		<ingredient id="5581" count="1"/>
+		<ingredient id="2133" count="140"/>
+	</item>
+	<!-- Tallum Glaive - On Fire - Wide Blow -->
+	<item id="135">
+		<production id="11131" count="1"/>
+		<ingredient id="11128" count="1"/>
+		<ingredient id="5582" count="1"/>
+		<ingredient id="2133" count="140"/>
+	</item>
+	<!-- Tallum Blade - Destruction - Critical Poison -->
+	<item id="136">
+		<production id="11059" count="1"/>
+		<ingredient id="11058" count="1"/>
+		<ingredient id="5577" count="1"/>
+		<ingredient id="2133" count="147"/>
+	</item>
+	<!-- Tallum Blade - Destruction - Haste -->
+	<item id="137">
+		<production id="11060" count="1"/>
+		<ingredient id="11058" count="1"/>
+		<ingredient id="5578" count="1"/>
+		<ingredient id="2133" count="157"/>
+	</item>
+	<!-- Tallum Blade - Destruction - Anger -->
+	<item id="138">
+		<production id="11061" count="1"/>
+		<ingredient id="11058" count="1"/>
+		<ingredient id="5579" count="1"/>
+		<ingredient id="2133" count="147"/>
+	</item>
+	<!-- Elemental Sword - Hail - Magic Power -->
+	<item id="139">
+		<production id="11042" count="1"/>
+		<ingredient id="11041" count="1"/>
+		<ingredient id="5577" count="1"/>
+		<ingredient id="2133" count="147"/>
+	</item>
+	<!-- Elemental Sword - Hail - Magic Paralyze -->
+	<item id="140">
+		<production id="11043" count="1"/>
+		<ingredient id="11041" count="1"/>
+		<ingredient id="5578" count="1"/>
+		<ingredient id="2133" count="147"/>
+	</item>
+	<!-- Elemental Sword - Hail - Empower -->
+	<item id="141">
+		<production id="11044" count="1"/>
+		<ingredient id="11041" count="1"/>
+		<ingredient id="5579" count="1"/>
+		<ingredient id="2133" count="147"/>
+	</item>
+	<!-- Sword of Miracles - Holy Spirit - Magic Power -->
+	<item id="142">
+		<production id="11109" count="1"/>
+		<ingredient id="11108" count="1"/>
+		<ingredient id="5580" count="1"/>
+		<ingredient id="2133" count="140"/>
+	</item>
+	<!-- Sword of Miracles - Holy Spirit - Magic Silence -->
+	<item id="143">
+		<production id="11110" count="1"/>
+		<ingredient id="11108" count="1"/>
+		<ingredient id="5581" count="1"/>
+		<ingredient id="2133" count="140"/>
+	</item>
+	<!-- Sword of Miracles - Holy Spirit - Acumen -->
+	<item id="144">
+		<production id="11111" count="1"/>
+		<ingredient id="11108" count="1"/>
+		<ingredient id="5582" count="1"/>
+		<ingredient id="2133" count="140"/>
+	</item>
+	<!-- Dragon Slayer - Evil Spirit - Health -->
+	<item id="145">
+		<production id="11097" count="1"/>
+		<ingredient id="11096" count="1"/>
+		<ingredient id="5580" count="1"/>
+		<ingredient id="2133" count="140"/>
+	</item>
+	<!-- Dragon Slayer - Evil Spirit - Critical Bleed -->
+	<item id="146">
+		<production id="11098" count="1"/>
+		<ingredient id="11096" count="1"/>
+		<ingredient id="5581" count="1"/>
+		<ingredient id="2133" count="147"/>
+	</item>
+	<!-- Dragon Slayer - Evil Spirit - Critical Drain -->
+	<item id="147">
+		<production id="11099" count="1"/>
+		<ingredient id="11096" count="1"/>
+		<ingredient id="5582" count="1"/>
+		<ingredient id="2133" count="157"/>
+	</item>
+	<!-- Dark Legion's Edge - Lightning - Critical Damage -->
+	<item id="148">
+		<production id="11081" count="1"/>
+		<ingredient id="11080" count="1"/>
+		<ingredient id="5580" count="1"/>
+		<ingredient id="2133" count="157"/>
+	</item>
+	<!-- Dark Legion's Edge - Lightning - Health -->
+	<item id="149">
+		<production id="11082" count="1"/>
+		<ingredient id="11080" count="1"/>
+		<ingredient id="5581" count="1"/>
+		<ingredient id="2133" count="140"/>
+	</item>
+	<!-- Dark Legion's Edge - Lightning - Rsk. Focus -->
+	<item id="150">
+		<production id="11083" count="1"/>
+		<ingredient id="11080" count="1"/>
+		<ingredient id="5582" count="1"/>
+		<ingredient id="2133" count="157"/>
+	</item>
+	<!-- Infernal Master - Concentration - Critical Damage -->
+	<item id="151">
+		<production id="11051" count="1"/>
+		<ingredient id="11049" count="1"/>
+		<ingredient id="5578" count="1"/>
+		<ingredient id="2133" count="157"/>
+	</item>
+	<!-- Infernal Master - Concentration - Focus -->
+	<item id="152">
+		<production id="11052" count="1"/>
+		<ingredient id="11049" count="1"/>
+		<ingredient id="5579" count="1"/>
+		<ingredient id="2133" count="157"/>
+	</item>
+	<!-- Infernal Master - Concentration - Haste -->
+	<item id="153">
+		<production id="11050" count="1"/>
+		<ingredient id="11049" count="1"/>
+		<ingredient id="5577" count="1"/>
+		<ingredient id="2133" count="157"/>
+	</item>
+	<!-- Destroyer Hammer - Thunder - Health -->
+	<item id="154">
+		<production id="11063" count="1"/>
+		<ingredient id="11062" count="1"/>
+		<ingredient id="5577" count="1"/>
+		<ingredient id="2133" count="157"/>
+	</item>
+	<!-- Destroyer Hammer - Thunder - Haste -->
+	<item id="155">
+		<production id="11064" count="1"/>
+		<ingredient id="11062" count="1"/>
+		<ingredient id="5578" count="1"/>
+		<ingredient id="2133" count="157"/>
+	</item>
+	<!-- Destroyer Hammer - Thunder - Critical Drain -->
+	<item id="156">
+		<production id="11065" count="1"/>
+		<ingredient id="11062" count="1"/>
+		<ingredient id="5579" count="1"/>
+		<ingredient id="2133" count="157"/>
+	</item>
+	<!-- Doom Crusher - Lightning - Health -->
+	<item id="157">
+		<production id="11089" count="1"/>
+		<ingredient id="11088" count="1"/>
+		<ingredient id="5580" count="1"/>
+		<ingredient id="2133" count="157"/>
+	</item>
+	<!-- Doom Crusher - Lightning - Anger -->
+	<item id="158">
+		<production id="11090" count="1"/>
+		<ingredient id="11088" count="1"/>
+		<ingredient id="5581" count="1"/>
+		<ingredient id="2133" count="157"/>
+	</item>
+	<!-- Doom Crusher - Lightning - Rsk. Haste -->
+	<item id="159">
+		<production id="11091" count="1"/>
+		<ingredient id="11088" count="1"/>
+		<ingredient id="5582" count="1"/>
+		<ingredient id="2133" count="157"/>
+	</item>
+	<!-- Spiritual Eye - Hail - Mana Up -->
+	<item id="160">
+		<production id="11046" count="1"/>
+		<ingredient id="11045" count="1"/>
+		<ingredient id="5577" count="1"/>
+		<ingredient id="2133" count="147"/>
+	</item>
+	<!-- Spiritual Eye - Hail - Magic Poison -->
+	<item id="161">
+		<production id="11047" count="1"/>
+		<ingredient id="11045" count="1"/>
+		<ingredient id="5578" count="1"/>
+		<ingredient id="2133" count="147"/>
+	</item>
+	<!-- Spiritual Eye - Hail - Acumen -->
+	<item id="162">
+		<production id="11048" count="1"/>
+		<ingredient id="11045" count="1"/>
+		<ingredient id="5579" count="1"/>
+		<ingredient id="2133" count="147"/>
+	</item>
+	<!-- Flaming Dragon Skull - Wisdom - Acumen -->
+	<item id="163">
+		<production id="11101" count="1"/>
+		<ingredient id="11100" count="1"/>
+		<ingredient id="5580" count="1"/>
+		<ingredient id="2133" count="140"/>
+	</item>
+	<!-- Flaming Dragon Skull - Wisdom - Magic Power -->
+	<item id="164">
+		<production id="11102" count="1"/>
+		<ingredient id="11100" count="1"/>
+		<ingredient id="5581" count="1"/>
+		<ingredient id="2133" count="140"/>
+	</item>
+	<!-- Flaming Dragon Skull - Wisdom - Magic Silence -->
+	<item id="165">
+		<production id="11103" count="1"/>
+		<ingredient id="11100" count="1"/>
+		<ingredient id="5582" count="1"/>
+		<ingredient id="2133" count="140"/>
+	</item>
+	<!-- Sirra's Blade - Landslide - Haste -->
+	<item id="166">
+		<production id="11170" count="1"/>
+		<ingredient id="11169" count="1"/>
+		<ingredient id="5580" count="1"/>
+		<ingredient id="2133" count="157"/>
+	</item>
+	<!-- Sirra's Blade - Landslide - Health -->
+	<item id="167">
+		<production id="11171" count="1"/>
+		<ingredient id="11169" count="1"/>
+		<ingredient id="5581" count="1"/>
+		<ingredient id="2133" count="157"/>
+	</item>
+	<!-- Sirra's Blade - Landslide - Critical Poison -->
+	<item id="168">
+		<production id="11172" count="1"/>
+		<ingredient id="11169" count="1"/>
+		<ingredient id="5582" count="1"/>
+		<ingredient id="2133" count="157"/>
+	</item>
+	<!-- Sword of Ipos - Earth - Focus -->
+	<item id="169">
+		<production id="11162" count="1"/>
+		<ingredient id="11161" count="1"/>
+		<ingredient id="5580" count="1"/>
+		<ingredient id="2133" count="157"/>
+	</item>
+	<!-- Sword of Ipos - Earth - Haste -->
+	<item id="170">
+		<production id="11163" count="1"/>
+		<ingredient id="11161" count="1"/>
+		<ingredient id="5581" count="1"/>
+		<ingredient id="2133" count="157"/>
+	</item>
+	<!-- Sword of Ipos - Earth - Health -->
+	<item id="171">
+		<production id="11164" count="1"/>
+		<ingredient id="11161" count="1"/>
+		<ingredient id="5582" count="1"/>
+		<ingredient id="2133" count="157"/>
+	</item>
+	<!-- Barakiel's Axe - On Fire - Health -->
+	<item id="172">
+		<production id="11142" count="1"/>
+		<ingredient id="11141" count="1"/>
+		<ingredient id="5580" count="1"/>
+		<ingredient id="2133" count="157"/>
+	</item>
+	<!-- Barakiel's Axe - On Fire - Haste -->
+	<item id="173">
+		<production id="11143" count="1"/>
+		<ingredient id="11141" count="1"/>
+		<ingredient id="5581" count="1"/>
+		<ingredient id="2133" count="157"/>
+	</item>
+	<!-- Barakiel's Axe - On Fire - Focus -->
+	<item id="174">
+		<production id="11144" count="1"/>
+		<ingredient id="11141" count="1"/>
+		<ingredient id="5582" count="1"/>
+		<ingredient id="2133" count="157"/>
+	</item>
+	<!-- Behemoth's Tuning Fork - Destruction - Focus -->
+	<item id="175">
+		<production id="11150" count="1"/>
+		<ingredient id="11149" count="1"/>
+		<ingredient id="5580" count="1"/>
+		<ingredient id="2133" count="157"/>
+	</item>
+	<!-- Behemoth's Tuning Fork - Destruction - Health -->
+	<item id="176">
+		<production id="11151" count="1"/>
+		<ingredient id="11149" count="1"/>
+		<ingredient id="5581" count="1"/>
+		<ingredient id="2133" count="157"/>
+	</item>
+	<!-- Behemoth's Tuning Fork - Destruction - Anger -->
+	<item id="177">
+		<production id="11152" count="1"/>
+		<ingredient id="11149" count="1"/>
+		<ingredient id="5582" count="1"/>
+		<ingredient id="2133" count="157"/>
+	</item>
+	<!-- Naga Storm - Molar - Focus -->
+	<item id="178">
+		<production id="11134" count="1"/>
+		<ingredient id="11133" count="1"/>
+		<ingredient id="5580" count="1"/>
+		<ingredient id="2133" count="157"/>
+	</item>
+	<!-- Naga Storm - Molar - Critical Damage -->
+	<item id="179">
+		<production id="11135" count="1"/>
+		<ingredient id="11133" count="1"/>
+		<ingredient id="5581" count="1"/>
+		<ingredient id="2133" count="157"/>
+	</item>
+	<!-- Naga Storm - Molar - Back Blow -->
+	<item id="180">
+		<production id="11136" count="1"/>
+		<ingredient id="11133" count="1"/>
+		<ingredient id="5582" count="1"/>
+		<ingredient id="2133" count="157"/>
+	</item>
+	<!-- Tiphon's Spear - Landslide - Critical Stun -->
+	<item id="181">
+		<production id="11178" count="1"/>
+		<ingredient id="11177" count="1"/>
+		<ingredient id="5580" count="1"/>
+		<ingredient id="2133" count="157"/>
+	</item>
+	<!-- Tiphon's Spear - Landslide - Towering Blow -->
+	<item id="182">
+		<production id="11179" count="1"/>
+		<ingredient id="11177" count="1"/>
+		<ingredient id="5581" count="1"/>
+		<ingredient id="2133" count="157"/>
+	</item>
+	<!-- Tiphon's Spear - Landslide - Wild Blow -->
+	<item id="183">
+		<production id="11180" count="1"/>
+		<ingredient id="11177" count="1"/>
+		<ingredient id="5582" count="1"/>
+		<ingredient id="2133" count="157"/>
+	</item>
+	<!-- Shyeed's Bow - Concentration - Cheap Shot -->
+	<item id="184">
+		<production id="11158" count="1"/>
+		<ingredient id="11157" count="1"/>
+		<ingredient id="5580" count="1"/>
+		<ingredient id="2133" count="157"/>
+	</item>
+	<!-- Shyeed's Bow - Concentration - Focus -->
+	<item id="185">
+		<production id="11159" count="1"/>
+		<ingredient id="11157" count="1"/>
+		<ingredient id="5581" count="1"/>
+		<ingredient id="2133" count="157"/>
+	</item>
+	<!-- Shyeed's Bow - Concentration - Quick Recovery -->
+	<item id="186">
+		<production id="11160" count="1"/>
+		<ingredient id="11157" count="1"/>
+		<ingredient id="5582" count="1"/>
+		<ingredient id="2133" count="157"/>
+	</item>
+	<!-- Sobekk's Hurricane - Landslide - Rsk. Haste -->
+	<item id="187">
+		<production id="11166" count="1"/>
+		<ingredient id="11165" count="1"/>
+		<ingredient id="5580" count="1"/>
+		<ingredient id="2133" count="157"/>
+	</item>
+	<!-- Sobekk's Hurricane - Landslide - Haste -->
+	<item id="188">
+		<production id="11167" count="1"/>
+		<ingredient id="11165" count="1"/>
+		<ingredient id="5581" count="1"/>
+		<ingredient id="2133" count="157"/>
+	</item>
+	<!-- Sobekk's Hurricane - Landslide - Critical Drain -->
+	<item id="189">
+		<production id="11168" count="1"/>
+		<ingredient id="11165" count="1"/>
+		<ingredient id="5582" count="1"/>
+		<ingredient id="2133" count="157"/>
+	</item>
+	<!-- Themis' Tongue - Cleverness - Mana Up -->
+	<item id="190">
+		<production id="11183" count="1"/>
+		<ingredient id="11182" count="1"/>
+		<ingredient id="5580" count="1"/>
+		<ingredient id="2133" count="157"/>
+	</item>
+	<!-- Themis' Tongue - Cleverness - Magic Mental Shield -->
+	<item id="191">
+		<production id="11184" count="1"/>
+		<ingredient id="11182" count="1"/>
+		<ingredient id="5581" count="1"/>
+		<ingredient id="2133" count="157"/>
+	</item>
+	<!-- Themis' Tongue - Cleverness - Magic Focus -->
+	<item id="192">
+		<production id="11185" count="1"/>
+		<ingredient id="11182" count="1"/>
+		<ingredient id="5582" count="1"/>
+		<ingredient id="2133" count="157"/>
+	</item>
+	<!-- Cabrio's Hand - Cleverness - Conversion -->
+	<item id="193">
+		<production id="11187" count="1"/>
+		<ingredient id="11186" count="1"/>
+		<ingredient id="5580" count="1"/>
+		<ingredient id="2133" count="157"/>
+	</item>
+	<!-- Cabrio's Hand - Cleverness - Mana Up -->
+	<item id="194">
+		<production id="11188" count="1"/>
+		<ingredient id="11186" count="1"/>
+		<ingredient id="5581" count="1"/>
+		<ingredient id="2133" count="157"/>
+	</item>
+	<!-- Cabrio's Hand - Cleverness - Magic Silence -->
+	<item id="195">
+		<production id="11189" count="1"/>
+		<ingredient id="11186" count="1"/>
+		<ingredient id="5582" count="1"/>
+		<ingredient id="2133" count="157"/>
+	</item>
+	<!-- Daimon Crystal - Wisdom - Mana Up -->
+	<item id="196">
+		<production id="11138" count="1"/>
+		<ingredient id="11137" count="1"/>
+		<ingredient id="5580" count="1"/>
+		<ingredient id="2133" count="157"/>
+	</item>
+	<!-- Daimon Crystal - Wisdom - Acumen -->
+	<item id="197">
+		<production id="11139" count="1"/>
+		<ingredient id="11137" count="1"/>
+		<ingredient id="5581" count="1"/>
+		<ingredient id="2133" count="157"/>
+	</item>
+	<!-- Daimon Crystal - Wisdom - Magic Mental Shield -->
+	<item id="198">
+		<production id="11140" count="1"/>
+		<ingredient id="11137" count="1"/>
+		<ingredient id="5582" count="1"/>
+		<ingredient id="2133" count="157"/>
+	</item>
 </list>
