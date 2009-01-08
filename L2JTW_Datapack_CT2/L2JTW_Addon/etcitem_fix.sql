@@ -8468,61 +8468,62 @@ UPDATE `etcitem` SET `crystallizable` = 	0	, `weight` = 	100	, `consume_type` = 
 /***** 道具-欄位資料校正 *****/
 
 /***** 屬性 *****/
-UPDATE `etcitem` SET `item_type` = 'arrow'		WHERE `item_type` = '2';	-- 箭
-UPDATE `etcitem` SET `item_type` = 'bolt'		WHERE `item_type` = '26';	-- 弩箭
-UPDATE `etcitem` SET `item_type` = 'castle_guard'	WHERE `item_type` = '8';	-- 傭兵配置表
-UPDATE `etcitem` SET `item_type` = 'dye'		WHERE `item_type` = '9';	-- 染料
-UPDATE `etcitem` SET `item_type` = 'harvest'		WHERE `item_type` = '12';	-- 收割機
--- 		     `item_type` = 'herb'		WHERE `item_type` = '0';	-- 藥草
-UPDATE `etcitem` SET `item_type` = 'lotto'		WHERE `item_type` = '13';	-- 彩券
-UPDATE `etcitem` SET `item_type` = 'lure'		WHERE `item_type` = '16';	-- 魚餌
-UPDATE `etcitem` SET `item_type` = 'material'		WHERE `item_type` = '6';	-- 製作材料
--- 		     `item_type` = 'none'		WHERE `item_type` = '0';	-- 一般道具
-UPDATE `etcitem` SET `item_type` = 'pet_collar'		WHERE `item_type` = '7';	-- 寵物召喚道具
-UPDATE `etcitem` SET `item_type` = 'potion'		WHERE `item_type` = '3';	-- 藥水
--- 		     `item_type` = 'quest'		WHERE `item_type` = '0';	-- 任務道具
-UPDATE `etcitem` SET `item_type` = 'race_ticket'	WHERE `item_type` = '14';	-- 怪物賽票
-UPDATE `etcitem` SET `item_type` = 'recipe'		WHERE `item_type` = '5';	-- 製作卷軸
-UPDATE `etcitem` SET `item_type` = 'scroll'		WHERE `item_type` = '1';	-- 消耗卷軸、道具、搜魂石、飲料
-UPDATE `etcitem` SET `item_type` = 'seed'		WHERE `item_type` = '10';	-- 種子
-UPDATE `etcitem` SET `item_type` = 'seed'		WHERE `item_type` = '11';	-- 改良種子
--- 		     `item_type` = 'shot'		WHERE `item_type` = '0';	-- 靈魂魔彈
--- 		     `item_type` = 'spellbook'		WHERE `item_type` = '0';	-- 魔法書
-UPDATE `etcitem` SET `item_type` = 'ticket_of_lord'	WHERE `item_type` = '15';	-- 領主的認可
+UPDATE `etcitem` SET `item_type` = 'arrow'              WHERE `item_type` = '2';        -- 箭
+UPDATE `etcitem` SET `item_type` = 'bolt'               WHERE `item_type` = '26';       -- 弩箭
+UPDATE `etcitem` SET `item_type` = 'castle_guard'       WHERE `item_type` = '8';        -- 傭兵配置表
+UPDATE `etcitem` SET `item_type` = 'dye'                WHERE `item_type` = '9';        -- 染料
+UPDATE `etcitem` SET `item_type` = 'harvest'            WHERE `item_type` = '12';       -- 收割機
+--                   `item_type` = 'herb'               WHERE `item_type` = '0';        -- 藥草
+UPDATE `etcitem` SET `item_type` = 'lotto'              WHERE `item_type` = '13';       -- 彩券
+UPDATE `etcitem` SET `item_type` = 'lure'               WHERE `item_type` = '16';       -- 魚餌
+UPDATE `etcitem` SET `item_type` = 'material'           WHERE `item_type` = '6';        -- 製作材料
+--                   `item_type` = 'none'               WHERE `item_type` = '0';        -- 一般道具
+UPDATE `etcitem` SET `item_type` = 'pet_collar'         WHERE `item_type` = '7';        -- 寵物召喚道具
+UPDATE `etcitem` SET `item_type` = 'potion'             WHERE `item_type` = '3';        -- 藥水
+--                   `item_type` = 'quest'              WHERE `item_type` = '0';        -- 任務道具
+UPDATE `etcitem` SET `item_type` = 'race_ticket'        WHERE `item_type` = '14';       -- 怪物賽票
+UPDATE `etcitem` SET `item_type` = 'recipe'             WHERE `item_type` = '5';        -- 製作卷軸
+UPDATE `etcitem` SET `item_type` = 'scroll'             WHERE `item_type` = '1';        -- 消耗卷軸、道具、搜魂石、飲料
+UPDATE `etcitem` SET `item_type` = 'seed'               WHERE `item_type` = '10';       -- 種子
+UPDATE `etcitem` SET `item_type` = 'seed'               WHERE `item_type` = '11';       -- 改良種子
+--                   `item_type` = 'shot'               WHERE `item_type` = '0';        -- 靈魂魔彈
+--                   `item_type` = 'spellbook'          WHERE `item_type` = '0';        -- 魔法書
+UPDATE `etcitem` SET `item_type` = 'ticket_of_lord'     WHERE `item_type` = '15';       -- 領主的認可
 
 /***** 類型 *****/
-UPDATE `etcitem` SET `consume_type` = 'normal'		WHERE `consume_type` = '0'; -- 一般
-UPDATE `etcitem` SET `consume_type` = 'stackable'	WHERE `consume_type` = '2'; -- 可堆疊
-UPDATE `etcitem` SET `consume_type` = 'asset'		WHERE `consume_type` = '3'; -- 貨幣類
+UPDATE `etcitem` SET `consume_type` = 'normal'          WHERE `consume_type` = '0'; -- 一般
+UPDATE `etcitem` SET `consume_type` = 'stackable'       WHERE `consume_type` = '2'; -- 可堆疊
+UPDATE `etcitem` SET `consume_type` = 'asset'           WHERE `consume_type` = '3'; -- 貨幣類
 /***** 類型-資料修正 *****/
-UPDATE `etcitem` SET `consume_type` = 'stackable' 	WHERE `item_type` = 'spellbook'; -- 魔法書類，修正為可堆疊
+UPDATE `etcitem` SET `consume_type` = 'stackable'       WHERE `item_type` = 'spellbook'; -- 魔法書類，修正為可堆疊
 
 /***** 使用時間 *****/
-UPDATE `etcitem` SET `duration` = '240' 	WHERE `item_id` IN (20075,20076,20077,20078); -- 限時4小時
-UPDATE `etcitem` SET `duration` = '300' 	WHERE `item_id` IN (13273,13383); -- 限時5小時
-UPDATE `etcitem` SET `duration` = '480' 	WHERE `item_id` IN (20103,20104,20105,20106); -- 限時8小時
-UPDATE `etcitem` SET `duration` = '720' 	WHERE `item_id` IN (20107,20108); -- 限時12小時
-UPDATE `etcitem` SET `duration` = '10080' 	WHERE `item_id` >= 13280 AND `item_id` <= 13292; -- 限時7日
-UPDATE `etcitem` SET `duration` = '10080' 	WHERE `item_id` >= 13369 AND `item_id` <= 13381; -- 限時7日
-UPDATE `etcitem` SET `duration` = '10080' 	WHERE `item_id` IN (13121,13255,13274,13358); -- 限時7日
-UPDATE `etcitem` SET `duration` = '21600' 	WHERE `item_id` IN (20072,20073,20074); -- 限時15日
-UPDATE `etcitem` SET `duration` = '43200' 	WHERE `item_id` >= 13086 AND `item_id` <= 13096; -- 限時30日
-UPDATE `etcitem` SET `duration` = '43200' 	WHERE `item_id` >= 13110 AND `item_id` <= 13120; -- 限時30日
-UPDATE `etcitem` SET `duration` = '43200' 	WHERE `item_id` >= 13347 AND `item_id` <= 13357; -- 限時30日
-UPDATE `etcitem` SET `duration` = '43200' 	WHERE `item_id` IN (13027,13083,13084,13107,13108,13344,13345,13382,20038,20039,20040,20042,20043,20044,20059); -- 限時30日
+UPDATE `etcitem` SET `duration` = '240'         WHERE `item_id` IN (20075,20076,20077,20078); -- 限時4小時
+UPDATE `etcitem` SET `duration` = '300'         WHERE `item_id` IN (13273,13383); -- 限時5小時
+UPDATE `etcitem` SET `duration` = '480'         WHERE `item_id` IN (20103,20104,20105,20106); -- 限時8小時
+UPDATE `etcitem` SET `duration` = '720'         WHERE `item_id` IN (20107,20108); -- 限時12小時
+UPDATE `etcitem` SET `duration` = '10080'       WHERE `item_id` >= 13280 AND `item_id` <= 13292; -- 限時7日
+UPDATE `etcitem` SET `duration` = '10080'       WHERE `item_id` >= 13369 AND `item_id` <= 13381; -- 限時7日
+UPDATE `etcitem` SET `duration` = '10080'       WHERE `item_id` IN (13121,13255,13274,13358); -- 限時7日
+UPDATE `etcitem` SET `duration` = '21600'       WHERE `item_id` IN (20072,20073,20074); -- 限時15日
+UPDATE `etcitem` SET `duration` = '43200'       WHERE `item_id` >= 13086 AND `item_id` <= 13096; -- 限時30日
+UPDATE `etcitem` SET `duration` = '43200'       WHERE `item_id` >= 13110 AND `item_id` <= 13120; -- 限時30日
+UPDATE `etcitem` SET `duration` = '43200'       WHERE `item_id` >= 13347 AND `item_id` <= 13357; -- 限時30日
+UPDATE `etcitem` SET `duration` = '43200'       WHERE `item_id` IN (13027,13083,13084,13107,13108,13344,13345,13382,20038,20039,20040,20042,20043,20044,20059); -- 限時30日
 
 /***** 可否結晶化 *****/
-UPDATE `etcitem` SET `crystallizable` = 'false'		WHERE `crystallizable` = '0'; -- 否
-UPDATE `etcitem` SET `crystallizable` = 'true'		WHERE `crystallizable` = '1'; -- 可
+UPDATE `etcitem` SET `crystallizable` = 'false'         WHERE `crystallizable` = '0'; -- 否
+UPDATE `etcitem` SET `crystallizable` = 'true'          WHERE `crystallizable` = '1'; -- 可
 
 /***** 等級 *****/
-UPDATE `etcitem` SET `crystal_type` = 'none'		WHERE `crystal_type` = '0'; -- 普通
-UPDATE `etcitem` SET `crystal_type` = 'd'		WHERE `crystal_type` = '1'; -- D級
-UPDATE `etcitem` SET `crystal_type` = 'c'		WHERE `crystal_type` = '2'; -- C級
-UPDATE `etcitem` SET `crystal_type` = 'b'		WHERE `crystal_type` = '3'; -- B級
-UPDATE `etcitem` SET `crystal_type` = 'a'		WHERE `crystal_type` = '4'; -- A級
-UPDATE `etcitem` SET `crystal_type` = 's'		WHERE `crystal_type` = '5'; -- S級
-UPDATE `etcitem` SET `crystal_type` = 's80'		WHERE `crystal_type` = '6'; -- S80級
+UPDATE `etcitem` SET `crystal_type` = 'none'            WHERE `crystal_type` = '0'; -- 普通
+UPDATE `etcitem` SET `crystal_type` = 'd'               WHERE `crystal_type` = '1'; -- D級
+UPDATE `etcitem` SET `crystal_type` = 'c'               WHERE `crystal_type` = '2'; -- C級
+UPDATE `etcitem` SET `crystal_type` = 'b'               WHERE `crystal_type` = '3'; -- B級
+UPDATE `etcitem` SET `crystal_type` = 'a'               WHERE `crystal_type` = '4'; -- A級
+UPDATE `etcitem` SET `crystal_type` = 's'               WHERE `crystal_type` = '5'; -- S級
+UPDATE `etcitem` SET `crystal_type` = 's80'             WHERE `crystal_type` = '6'; -- S80級
+
 
 
 /***** Done by vdmyagami！ *****/

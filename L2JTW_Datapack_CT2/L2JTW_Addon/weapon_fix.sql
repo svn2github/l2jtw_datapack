@@ -3030,21 +3030,21 @@ UPDATE `weapon` SET `atk_speed` = '325' WHERE `item_id` IN (10530,10531,10532); 
 UPDATE `weapon` SET `atk_speed` = '379' WHERE `item_id` IN (748); -- 噶爾林特的橡木杖(攻擊速度)
 
 -- NC設定`bodypart` = '14'錯誤，修正 = '7' --
-UPDATE `weapon` SET `bodypart` = '7'	WHERE `item_id` IN (8678,8788,8789,8790,10667,10668,10669,11169,11170,11171,11172,11986,12879,12880,12881,13210); --  希露冰刃
-UPDATE `weapon` SET `bodypart` = '7'	WHERE `item_id` IN (8686,8812,8813,8814,10691,10692,10693,11182,11183,11184,11185,11990,12889,12890,12891,13218); --  緹米絲之舌
-UPDATE `weapon` SET `bodypart` = '7'	WHERE `item_id` IN (8680,8794,8795,8796,10673,10674,10675,11141,11142,11143,11144,11979,12858,12859,12860,13212); --  貝拉凱爾聖斧
-UPDATE `weapon` SET `bodypart` = '7'	WHERE `item_id` IN (8687,8815,8816,8817,10694,10695,10696,11186,11187,11188,11189,11991,12892,12893,12894,13219); --  卡布里歐之手
-UPDATE `weapon` SET `bodypart` = '7'	WHERE `item_id` IN (8682,8800,8801,8802,10679,10680,10681,11133,11134,11135,11136,11977,12852,12853,12854,13214); --  那卡風暴
+UPDATE `weapon` SET `bodypart` = '7'    WHERE `item_id` IN (8678,8788,8789,8790,10667,10668,10669,11169,11170,11171,11172,11986,12879,12880,12881,13210); --  希露冰刃
+UPDATE `weapon` SET `bodypart` = '7'    WHERE `item_id` IN (8686,8812,8813,8814,10691,10692,10693,11182,11183,11184,11185,11990,12889,12890,12891,13218); --  緹米絲之舌
+UPDATE `weapon` SET `bodypart` = '7'    WHERE `item_id` IN (8680,8794,8795,8796,10673,10674,10675,11141,11142,11143,11144,11979,12858,12859,12860,13212); --  貝拉凱爾聖斧
+UPDATE `weapon` SET `bodypart` = '7'    WHERE `item_id` IN (8687,8815,8816,8817,10694,10695,10696,11186,11187,11188,11189,11991,12892,12893,12894,13219); --  卡布里歐之手
+UPDATE `weapon` SET `bodypart` = '7'    WHERE `item_id` IN (8682,8800,8801,8802,10679,10680,10681,11133,11134,11135,11136,11977,12852,12853,12854,13214); --  那卡風暴
 
 -- NC設定`bodypart` = '7'錯誤，修正 = '14' --
-UPDATE `weapon` SET `bodypart` = '14'	WHERE `item_id` IN (187,11732,13166); -- 阿吐巴鎚
-UPDATE `weapon` SET `bodypart` = '14'	WHERE `item_id` IN (191,11768); -- 巨大末日鎚
+UPDATE `weapon` SET `bodypart` = '14'   WHERE `item_id` IN (187,11732,13166); -- 阿吐巴鎚
+UPDATE `weapon` SET `bodypart` = '14'   WHERE `item_id` IN (191,11768); -- 巨大末日鎚
 
 -- NC設定`weaponType` = '*'錯誤，修正 = '*' --
-UPDATE `weapon` SET `weaponType` = '9'	WHERE `item_id` IN (244,245,246,247,248,249,250,251,252); -- 種族之拳-格鬥兵器
-UPDATE `weapon` SET `weaponType` = '1' 	WHERE `item_id` IN (1299);  -- 巨劍-Kamex用
-UPDATE `weapon` SET `weaponType` = '5' 	WHERE `item_id` IN (6917);  -- 怪物用(毒針)-格鬥兵器
-UPDATE `weapon` SET `weaponType` = '1' 	WHERE `item_id` IN (8190);  -- 魔劍‧薩雷奇
+UPDATE `weapon` SET `weaponType` = '9'  WHERE `item_id` IN (244,245,246,247,248,249,250,251,252); -- 種族之拳-格鬥兵器
+UPDATE `weapon` SET `weaponType` = '1'  WHERE `item_id` IN (1299);  -- 巨劍-Kamex用
+UPDATE `weapon` SET `weaponType` = '5'  WHERE `item_id` IN (6917);  -- 怪物用(毒針)-格鬥兵器
+UPDATE `weapon` SET `weaponType` = '1'  WHERE `item_id` IN (8190);  -- 魔劍‧薩雷奇
 UPDATE `weapon` SET `weaponType` = '8'  WHERE `item_id` IN (8689);  -- 血劍‧阿卡瑪那夫
 UPDATE `weapon` SET `weaponType` = '11' WHERE `item_id` IN (8935);  -- 測試用細劍
 UPDATE `weapon` SET `weaponType` = '12' WHERE `item_id` IN (9644);  -- npc專用(弩)
@@ -3056,49 +3056,49 @@ UPDATE `weapon` SET `weaponType` = '12' WHERE `item_id` IN (10128); -- 怪物專用(
 
 /***** 武器-欄位資料校正 *****/
 /***** 著裝部位、武器屬性[一般系列] *****/
-UPDATE `weapon` SET `bodypart` = 'lhand',	`weaponType` = 'none'		WHERE			     `bodypart` = '8';	    -- 左手 盾牌
-UPDATE `weapon` SET `bodypart` = 'lrhand'					WHERE 			     `bodypart` = '14';     -- 雙手
-UPDATE `weapon` SET 				`weaponType` = 'bigblunt'	WHERE `weaponType` = '0';  -- 鬥爭旗幟
-UPDATE `weapon` SET				`weaponType` = 'bigsword'	WHERE `weaponType` = '1' and `bodypart` = 'lrhand'; -- 雙手 劍
-UPDATE `weapon` SET				`weaponType` = 'bigblunt'	WHERE `weaponType` = '2' and `bodypart` = 'lrhand'; -- 雙手 鈍器
-UPDATE `weapon` SET `bodypart` = 'rhand',	`weaponType` = 'sword'		WHERE `weaponType` = '1';  -- 右手 劍
-UPDATE `weapon` SET `bodypart` = 'rhand',	`weaponType` = 'blunt'		WHERE `weaponType` = '2';  -- 右手 鈍器
-UPDATE `weapon` SET `bodypart` = 'rhand',	`weaponType` = 'dagger'		WHERE `weaponType` = '3';  -- 右手 匕首
-UPDATE `weapon` SET `bodypart` = 'lrhand',	`weaponType` = 'pole'		WHERE `weaponType` = '4';  -- 雙手 槍戟
-UPDATE `weapon` SET `bodypart` = 'lrhand',	`weaponType` = 'dualfist'	WHERE `weaponType` = '5';  -- 雙手 格鬥兵器
-UPDATE `weapon` SET `bodypart` = 'lrhand',	`weaponType` = 'bow'		WHERE `weaponType` = '6';  -- 雙手 弓
-UPDATE `weapon` SET `bodypart` = 'rhand',	`weaponType` = 'etc'		WHERE `weaponType` = '7';  -- 右手 法書
-UPDATE `weapon` SET `bodypart` = 'lrhand',	`weaponType` = 'dual'		WHERE `weaponType` = '8';  -- 雙手 二刀流
-UPDATE `weapon` SET `bodypart` = 'rhand',	`weaponType` = 'dualfist'	WHERE `weaponType` = '9';  -- 右手 格鬥兵器
-UPDATE `weapon` SET `bodypart` = 'lrhand',	`weaponType` = 'rod' 		WHERE `weaponType` = '10'; -- 雙手 釣竿
-UPDATE `weapon` SET `bodypart` = 'rhand',	`weaponType` = 'rapier'		WHERE `weaponType` = '11'; -- 右手 細劍
-UPDATE `weapon` SET `bodypart` = 'lrhand',	`weaponType` = 'crossbow'	WHERE `weaponType` = '12'; -- 雙手 弩
-UPDATE `weapon` SET `bodypart` = 'lrhand',	`weaponType` = 'ancient'	WHERE `weaponType` = '13'; -- 雙手 古代劍
+UPDATE `weapon` SET `bodypart` = 'lhand',       `weaponType` = 'none'           WHERE                        `bodypart` = '8';      -- 左手 盾牌
+UPDATE `weapon` SET `bodypart` = 'lrhand'                                       WHERE                        `bodypart` = '14';     -- 雙手
+UPDATE `weapon` SET                             `weaponType` = 'bigblunt'       WHERE `weaponType` = '0';  -- 鬥爭旗幟
+UPDATE `weapon` SET                             `weaponType` = 'bigsword'       WHERE `weaponType` = '1' and `bodypart` = 'lrhand'; -- 雙手 劍
+UPDATE `weapon` SET                             `weaponType` = 'bigblunt'       WHERE `weaponType` = '2' and `bodypart` = 'lrhand'; -- 雙手 鈍器
+UPDATE `weapon` SET `bodypart` = 'rhand',       `weaponType` = 'sword'          WHERE `weaponType` = '1';  -- 右手 劍
+UPDATE `weapon` SET `bodypart` = 'rhand',       `weaponType` = 'blunt'          WHERE `weaponType` = '2';  -- 右手 鈍器
+UPDATE `weapon` SET `bodypart` = 'rhand',       `weaponType` = 'dagger'         WHERE `weaponType` = '3';  -- 右手 匕首
+UPDATE `weapon` SET `bodypart` = 'lrhand',      `weaponType` = 'pole'           WHERE `weaponType` = '4';  -- 雙手 槍戟
+UPDATE `weapon` SET `bodypart` = 'lrhand',      `weaponType` = 'dualfist'       WHERE `weaponType` = '5';  -- 雙手 格鬥兵器
+UPDATE `weapon` SET `bodypart` = 'lrhand',      `weaponType` = 'bow'            WHERE `weaponType` = '6';  -- 雙手 弓
+UPDATE `weapon` SET `bodypart` = 'rhand',       `weaponType` = 'etc'            WHERE `weaponType` = '7';  -- 右手 法書
+UPDATE `weapon` SET `bodypart` = 'lrhand',      `weaponType` = 'dual'           WHERE `weaponType` = '8';  -- 雙手 二刀流
+UPDATE `weapon` SET `bodypart` = 'rhand',       `weaponType` = 'dualfist'       WHERE `weaponType` = '9';  -- 右手 格鬥兵器
+UPDATE `weapon` SET `bodypart` = 'lrhand',      `weaponType` = 'rod'            WHERE `weaponType` = '10'; -- 雙手 釣竿
+UPDATE `weapon` SET `bodypart` = 'rhand',       `weaponType` = 'rapier'         WHERE `weaponType` = '11'; -- 右手 細劍
+UPDATE `weapon` SET `bodypart` = 'lrhand',      `weaponType` = 'crossbow'       WHERE `weaponType` = '12'; -- 雙手 弩
+UPDATE `weapon` SET `bodypart` = 'lrhand',      `weaponType` = 'ancient'        WHERE `weaponType` = '13'; -- 雙手 古代劍
 /***** 著裝部位、武器屬性[寵物系列] *****/
-UPDATE `weapon` SET `bodypart` = 'wolf',	`weaponType` = 'pet', `soulshots` = '1', `spiritshots` = '1' WHERE `item_id` IN (2505,3439,3902,3903,3904,3905,3906,3907,3908,3909,3910,3911,5217); -- 狼專用
-UPDATE `weapon` SET `bodypart` = 'greatwolf',	`weaponType` = 'pet', `soulshots` = '1', `spiritshots` = '1' WHERE `item_id` IN (9656,9657,9658,9659,9660,9661,11132); -- 鬃狼專用
-UPDATE `weapon` SET `bodypart` = 'hatchling',	`weaponType` = 'pet', `soulshots` = '1', `spiritshots` = '1' WHERE `item_id` IN (3919,3920,3921,3922,3923,3924,3925,4237,4238,5187,5188,5189,5190,5191); -- 幼龍專用
-UPDATE `weapon` SET `bodypart` = 'strider',	`weaponType` = 'pet', `soulshots` = '1', `spiritshots` = '1' WHERE `item_id` IN (5176,5177,5178,5179,5180,5181); -- 座龍專用
+UPDATE `weapon` SET `bodypart` = 'wolf',        `weaponType` = 'pet', `soulshots` = '1', `spiritshots` = '1' WHERE `item_id` IN (2505,3439,3902,3903,3904,3905,3906,3907,3908,3909,3910,3911,5217); -- 狼專用
+UPDATE `weapon` SET `bodypart` = 'greatwolf',   `weaponType` = 'pet', `soulshots` = '1', `spiritshots` = '1' WHERE `item_id` IN (9656,9657,9658,9659,9660,9661,11132); -- 鬃狼專用
+UPDATE `weapon` SET `bodypart` = 'hatchling',   `weaponType` = 'pet', `soulshots` = '1', `spiritshots` = '1' WHERE `item_id` IN (3919,3920,3921,3922,3923,3924,3925,4237,4238,5187,5188,5189,5190,5191); -- 幼龍專用
+UPDATE `weapon` SET `bodypart` = 'strider',     `weaponType` = 'pet', `soulshots` = '1', `spiritshots` = '1' WHERE `item_id` IN (5176,5177,5178,5179,5180,5181); -- 座龍專用
 
 /***** 使用時間 *****/
-UPDATE `weapon` SET `duration` = '60' 		WHERE `item_id` >= 13153 AND `item_id` <= 13224; -- 限時60分鐘
-UPDATE `weapon` SET `duration` = '240' 		WHERE `item_id` >= 20109 AND `item_id` <= 20178; -- 限時4小時
-UPDATE `weapon` SET `duration` = '10080' 	WHERE `item_id` >= 13248 AND `item_id` <= 13253; -- 限時7日
-UPDATE `weapon` SET `duration` = '10080' 	WHERE `item_id` >= 13334 AND `item_id` <= 13339; -- 限時7日
-UPDATE `weapon` SET `duration` = '43200' 	WHERE `item_id` >= 13319 AND `item_id` <= 13324; -- 限時30日
+UPDATE `weapon` SET `duration` = '60'           WHERE `item_id` >= 13153 AND `item_id` <= 13224; -- 限時60分鐘
+UPDATE `weapon` SET `duration` = '240'          WHERE `item_id` >= 20109 AND `item_id` <= 20178; -- 限時4小時
+UPDATE `weapon` SET `duration` = '10080'        WHERE `item_id` >= 13248 AND `item_id` <= 13253; -- 限時7日
+UPDATE `weapon` SET `duration` = '10080'        WHERE `item_id` >= 13334 AND `item_id` <= 13339; -- 限時7日
+UPDATE `weapon` SET `duration` = '43200'        WHERE `item_id` >= 13319 AND `item_id` <= 13324; -- 限時30日
 
 /***** 可否結晶化 *****/
-UPDATE `weapon` SET `crystallizable` = 'false'	WHERE `crystallizable` = '0'; -- 否
-UPDATE `weapon` SET `crystallizable` = 'true'	WHERE `crystallizable` = '1'; -- 可
+UPDATE `weapon` SET `crystallizable` = 'false'  WHERE `crystallizable` = '0'; -- 否
+UPDATE `weapon` SET `crystallizable` = 'true'   WHERE `crystallizable` = '1'; -- 可
 
 /***** 等級 *****/
-UPDATE `weapon` SET `crystal_type` = 'none'	WHERE `crystal_type` = '0'; -- 普通
-UPDATE `weapon` SET `crystal_type` = 'd'	WHERE `crystal_type` = '1'; -- D級
-UPDATE `weapon` SET `crystal_type` = 'c'	WHERE `crystal_type` = '2'; -- C級
-UPDATE `weapon` SET `crystal_type` = 'b'	WHERE `crystal_type` = '3'; -- B級
-UPDATE `weapon` SET `crystal_type` = 'a'	WHERE `crystal_type` = '4'; -- A級
-UPDATE `weapon` SET `crystal_type` = 's'	WHERE `crystal_type` = '5'; -- S級
-UPDATE `weapon` SET `crystal_type` = 's80'	WHERE `crystal_type` = '6'; -- S80級
+UPDATE `weapon` SET `crystal_type` = 'none'     WHERE `crystal_type` = '0'; -- 普通
+UPDATE `weapon` SET `crystal_type` = 'd'        WHERE `crystal_type` = '1'; -- D級
+UPDATE `weapon` SET `crystal_type` = 'c'        WHERE `crystal_type` = '2'; -- C級
+UPDATE `weapon` SET `crystal_type` = 'b'        WHERE `crystal_type` = '3'; -- B級
+UPDATE `weapon` SET `crystal_type` = 'a'        WHERE `crystal_type` = '4'; -- A級
+UPDATE `weapon` SET `crystal_type` = 's'        WHERE `crystal_type` = '5'; -- S級
+UPDATE `weapon` SET `crystal_type` = 's80'      WHERE `crystal_type` = '6'; -- S80級
 
 /*** 闇天使專用武器：細劍 ***/
 /*** 強化4以上的話，致命攻擊時將會以一定的機率提升自己和隊伍成員們的物理攻擊力、魔法攻擊力和所受的治癒量，並發揮使用技能時降低MP消耗量的效果。 ***/

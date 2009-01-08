@@ -2187,75 +2187,75 @@ UPDATE `armor` SET `bodypart` = 	19	, `crystallizable` = 	0	, `armor_type` = 	0	
 
 /***** ↓NC修正後可移除資料↓ *****/
 -- NC設定`armor_type` = 'magic'，修正使用L2J`item_type`設定 --
-UPDATE `armor` SET `armor_type` = 'none'	WHERE `item_id` IN (6408,20098,20099); -- 禮服
+UPDATE `armor` SET `armor_type` = 'none'        WHERE `item_id` IN (6408,20098,20099); -- 禮服
 
 -- NC設定`crystallizable` = 'true'錯誤，修正 = 'false' --
-UPDATE `armor` SET `crystallizable` = 'false'	WHERE `item_id` IN (9826); -- 幻象武器-盟誓禮鞋	輕裝用
+UPDATE `armor` SET `crystallizable` = 'false'   WHERE `item_id` IN (9826); -- 幻象武器-盟誓禮鞋 輕裝用
 /***** ↑NC修正後可移除資料↑ *****/
 
 
 /***** 防具-欄位資料校正 *****/
 /***** 屬性 *****/
-UPDATE `armor` SET `armor_type` = 'none'	WHERE `armor_type` = '0'; -- 普通防具
-UPDATE `armor` SET `armor_type` = 'light'	WHERE `armor_type` = '1'; -- 輕裝用
-UPDATE `armor` SET `armor_type` = 'heavy'	WHERE `armor_type` = '2'; -- 重裝用
-UPDATE `armor` SET `armor_type` = 'magic'	WHERE `armor_type` = '3'; -- 長袍用
+UPDATE `armor` SET `armor_type` = 'none'        WHERE `armor_type` = '0'; -- 普通防具
+UPDATE `armor` SET `armor_type` = 'light'       WHERE `armor_type` = '1'; -- 輕裝用
+UPDATE `armor` SET `armor_type` = 'heavy'       WHERE `armor_type` = '2'; -- 重裝用
+UPDATE `armor` SET `armor_type` = 'magic'       WHERE `armor_type` = '3'; -- 長袍用
 
 /***** 著裝部位 *****/
-UPDATE `armor` SET `bodypart` = 'underwear'	  WHERE `bodypart` = '0';	-- 內衣、泳衣
-UPDATE `armor` SET `bodypart` = 'rear,lear'	  WHERE `bodypart` = '1';	-- 耳環
-UPDATE `armor` SET `bodypart` = 'neck'		  WHERE `bodypart` = '3';	-- 項鍊
-UPDATE `armor` SET `bodypart` = 'rfinger,lfinger' WHERE `bodypart` = '4';	-- 戒指
-UPDATE `armor` SET `bodypart` = 'head'		  WHERE `bodypart` = '6';	-- 頭盔
-UPDATE `armor` SET `bodypart` = 'gloves'	  WHERE `bodypart` = '9'; 	-- 手套
-UPDATE `armor` SET `bodypart` = 'chest'		  WHERE `bodypart` = '10';	-- 上半身防具
-UPDATE `armor` SET `bodypart` = 'legs'		  WHERE `bodypart` = '11';	-- 下半身防具
-UPDATE `armor` SET `bodypart` = 'feet'		  WHERE `bodypart` = '12';	-- 靴子
-UPDATE `armor` SET `bodypart` = 'underwear'	  WHERE `bodypart` = '13';	-- 斗篷
-UPDATE `armor` SET `bodypart` = 'fullarmor'	  WHERE `bodypart` = '15';	-- 連身防具
-UPDATE `armor` SET `bodypart` = 'fullarmor'	  WHERE `bodypart` = '16';	-- 禮服
-UPDATE `armor` SET `bodypart` = 'face'		  WHERE `bodypart` = '17';	-- 單格面具, L2Item.SLOT_HAIR2
-UPDATE `armor` SET `bodypart` = 'hair'		  WHERE `bodypart` = '18';	-- 單格頭箍, L2Item.SLOT_HAIR
-UPDATE `armor` SET `bodypart` = 'hairall'	  WHERE `bodypart` = '19';	-- 雙格頭箍, L2Item.SLOT_HAIRALL
---     `armor` SET `bodypart` = 'dhair'		  同於'hairall'不使用		-- 雙格頭箍, L2Item.SLOT_HAIRALL
+UPDATE `armor` SET `bodypart` = 'underwear'       WHERE `bodypart` = '0';       -- 內衣、泳衣
+UPDATE `armor` SET `bodypart` = 'rear,lear'       WHERE `bodypart` = '1';       -- 耳環
+UPDATE `armor` SET `bodypart` = 'neck'            WHERE `bodypart` = '3';       -- 項鍊
+UPDATE `armor` SET `bodypart` = 'rfinger,lfinger' WHERE `bodypart` = '4';       -- 戒指
+UPDATE `armor` SET `bodypart` = 'head'            WHERE `bodypart` = '6';       -- 頭盔
+UPDATE `armor` SET `bodypart` = 'gloves'          WHERE `bodypart` = '9';       -- 手套
+UPDATE `armor` SET `bodypart` = 'chest'           WHERE `bodypart` = '10';      -- 上半身防具
+UPDATE `armor` SET `bodypart` = 'legs'            WHERE `bodypart` = '11';      -- 下半身防具
+UPDATE `armor` SET `bodypart` = 'feet'            WHERE `bodypart` = '12';      -- 靴子
+UPDATE `armor` SET `bodypart` = 'underwear'       WHERE `bodypart` = '13';      -- 斗篷
+UPDATE `armor` SET `bodypart` = 'fullarmor'       WHERE `bodypart` = '15';      -- 連身防具
+UPDATE `armor` SET `bodypart` = 'fullarmor'       WHERE `bodypart` = '16';      -- 禮服
+UPDATE `armor` SET `bodypart` = 'face'            WHERE `bodypart` = '17';      -- 單格面具, L2Item.SLOT_HAIR2
+UPDATE `armor` SET `bodypart` = 'hair'            WHERE `bodypart` = '18';      -- 單格頭箍, L2Item.SLOT_HAIR
+UPDATE `armor` SET `bodypart` = 'hairall'         WHERE `bodypart` = '19';      -- 雙格頭箍, L2Item.SLOT_HAIRALL
+--     `armor` SET `bodypart` = 'dhair'           同於'hairall'不使用           -- 雙格頭箍, L2Item.SLOT_HAIRALL
 
 /***** 著裝部位[特殊系列] *****/
-UPDATE `armor` SET `bodypart` = 'underwear' 	WHERE `item_id` IN (52,53,54,55,56,485,486,487,488,489,490,491,492,493,494,495,496,614,615,616,617,618,619,620,621,622,623,624,675,676,677,678,679,680,681,682,683,684,685,2410,2490,2491,2492,9577,9578,9579,9580,9581,9582,9583,9584,9585,9586,9587,9588,10207,10208,10491,10492,10493,10494,10495,10496,10497,10498,10499,10500,10501,10502,10503,10504,10505,10506,10507,10508,10509,10510,10511,10512,10513,10514,11436,12040,12067,12117,12140,12174,12191,12219,12281,12290,13296,13389,13390,13391,13392); -- 襯衫
-UPDATE `armor` SET `bodypart` = 'lbracelet' 	WHERE `item_id` IN (9605,9606,9607,9608,9609,9610,9611,9612,9613,9614,9615,9909,10018,10139,10273,10316,10317,10318,10319,10320,10322,10323,10324,10325,10326,10606,10659,10660,12779,12780,13022,13023,13024,13025,13026,13254,13308,13309,13340,20006,20007,20008,20009,20010,20011,20012,20013,20014,20015,20029,20030,20063,20064,20065,20066,20067,20068,20094); -- 壺精手鐲
-UPDATE `armor` SET `bodypart` = 'rbracelet' 	WHERE `item_id` IN (9589,9590,9591,9592,10209,10210,13295); -- 護符手鐲
-UPDATE `armor` SET `bodypart` = 'talisman' 	WHERE `item_id` IN (9913,9914,9915,9916,9917,9918,9919,9920,9921,9922,9923,9924,9925,9926,9927,9928,9929,9930,9931,9932,9933,9934,9935,9936,9937,9938,9939,9940,9941,9942,9943,9944,9945,9946,9947,9948,9949,9950,9951,9952,9953,9954,9955,9956,9957,9958,9959,9960,9961,9962,9963,9964,9965,9966,10141,10142,10158,10416,10417,10418,10419,10420,10421,10422,10423,10424,10518,10519,10533,10534,10535,10536,10537,10538,10539,10540,10541,10542,10543,12815,12816,12817,12818,12819); -- 護身符
+UPDATE `armor` SET `bodypart` = 'underwear'     WHERE `item_id` IN (52,53,54,55,56,485,486,487,488,489,490,491,492,493,494,495,496,614,615,616,617,618,619,620,621,622,623,624,675,676,677,678,679,680,681,682,683,684,685,2410,2490,2491,2492,9577,9578,9579,9580,9581,9582,9583,9584,9585,9586,9587,9588,10207,10208,10491,10492,10493,10494,10495,10496,10497,10498,10499,10500,10501,10502,10503,10504,10505,10506,10507,10508,10509,10510,10511,10512,10513,10514,11436,12040,12067,12117,12140,12174,12191,12219,12281,12290,13296,13389,13390,13391,13392); -- 襯衫
+UPDATE `armor` SET `bodypart` = 'lbracelet'     WHERE `item_id` IN (9605,9606,9607,9608,9609,9610,9611,9612,9613,9614,9615,9909,10018,10139,10273,10316,10317,10318,10319,10320,10322,10323,10324,10325,10326,10606,10659,10660,12779,12780,13022,13023,13024,13025,13026,13254,13308,13309,13340,20006,20007,20008,20009,20010,20011,20012,20013,20014,20015,20029,20030,20063,20064,20065,20066,20067,20068,20094); -- 壺精手鐲
+UPDATE `armor` SET `bodypart` = 'rbracelet'     WHERE `item_id` IN (9589,9590,9591,9592,10209,10210,13295); -- 護符手鐲
+UPDATE `armor` SET `bodypart` = 'talisman'      WHERE `item_id` IN (9913,9914,9915,9916,9917,9918,9919,9920,9921,9922,9923,9924,9925,9926,9927,9928,9929,9930,9931,9932,9933,9934,9935,9936,9937,9938,9939,9940,9941,9942,9943,9944,9945,9946,9947,9948,9949,9950,9951,9952,9953,9954,9955,9956,9957,9958,9959,9960,9961,9962,9963,9964,9965,9966,10141,10142,10158,10416,10417,10418,10419,10420,10421,10422,10423,10424,10518,10519,10533,10534,10535,10536,10537,10538,10539,10540,10541,10542,10543,12815,12816,12817,12818,12819); -- 護身符
 
 /***** 著裝部位、武器屬性[寵物系列] *****/
-UPDATE `armor` SET `bodypart` = 'neck',		`armor_type` = 'pet' WHERE `item_id` IN (12746,12747,12748,12749,12750,12751,12752); -- 寵物用墜子
-UPDATE `armor` SET `bodypart` = 'babypet',	`armor_type` = 'pet' WHERE `item_id` IN (8541,10658,12740,12741,12742,12743,12744,12745); -- 小寵物用
-UPDATE `armor` SET `bodypart` = 'wolf',		`armor_type` = 'pet' WHERE `item_id` IN (2506,3891,3892,3893,3894,3895,3896,3897,3898,3899,3900,3901,5216); -- 狼專用
-UPDATE `armor` SET `bodypart` = 'greatwolf',	`armor_type` = 'pet' WHERE `item_id` IN (9662,9663,9664,9665,9666,9667,11482,11511); -- 鬃狼專用
-UPDATE `armor` SET `bodypart` = 'hatchling',	`armor_type` = 'pet' WHERE `item_id` IN (3912,3913,3914,3915,3916,3917,3918,4234,4235,5182,5183,5184,5185,5186); -- 幼龍專用
-UPDATE `armor` SET `bodypart` = 'strider',	`armor_type` = 'pet' WHERE `item_id` IN (4236,5170,5171,5172,5173,5174,5175); -- 座龍專用
-UPDATE `armor` SET `bodypart` = 'chest',	`armor_type` = 'pet' WHERE `item_id` IN (13050); -- 底格里斯專用防具
+UPDATE `armor` SET `bodypart` = 'neck',         `armor_type` = 'pet' WHERE `item_id` IN (12746,12747,12748,12749,12750,12751,12752); -- 寵物用墜子
+UPDATE `armor` SET `bodypart` = 'babypet',      `armor_type` = 'pet' WHERE `item_id` IN (8541,10658,12740,12741,12742,12743,12744,12745); -- 小寵物用
+UPDATE `armor` SET `bodypart` = 'wolf',         `armor_type` = 'pet' WHERE `item_id` IN (2506,3891,3892,3893,3894,3895,3896,3897,3898,3899,3900,3901,5216); -- 狼專用
+UPDATE `armor` SET `bodypart` = 'greatwolf',    `armor_type` = 'pet' WHERE `item_id` IN (9662,9663,9664,9665,9666,9667,11482,11511); -- 鬃狼專用
+UPDATE `armor` SET `bodypart` = 'hatchling',    `armor_type` = 'pet' WHERE `item_id` IN (3912,3913,3914,3915,3916,3917,3918,4234,4235,5182,5183,5184,5185,5186); -- 幼龍專用
+UPDATE `armor` SET `bodypart` = 'strider',      `armor_type` = 'pet' WHERE `item_id` IN (4236,5170,5171,5172,5173,5174,5175); -- 座龍專用
+UPDATE `armor` SET `bodypart` = 'chest',        `armor_type` = 'pet' WHERE `item_id` IN (13050); -- 底格里斯專用防具
 
 /***** 使用時間 *****/
-UPDATE `armor` SET `duration` = '60' 		WHERE `item_id` IN (20098); -- 1小時幻象
-UPDATE `armor` SET `duration` = '180' 		WHERE `item_id` IN (20083,20086,20089); -- 限時3小時
-UPDATE `armor` SET `duration` = '600' 		WHERE `item_id` IN (13260); -- 限時10小時
-UPDATE `armor` SET `duration` = '1440' 		WHERE `item_id` IN (20100); -- 限時24小時
-UPDATE `armor` SET `duration` = '4320' 		WHERE `item_id` IN (20084,20087,20090); -- 限時3日
-UPDATE `armor` SET `duration` = '10080' 	WHERE `item_id` IN (13022,13239,13240,13241,13242,13243,13244,13245,13246,13247,13254,13308,13325,13326,13327,13328,13329,13330,13331,13332,13333,13340,20099); -- 限時7日
-UPDATE `armor` SET `duration` = '21600' 	WHERE `item_id` IN (20066,20067,20068); -- 限時15日
-UPDATE `armor` SET `duration` = '43200' 	WHERE `item_id` IN (13023,13024,13025,13026,13309,13310,13311,13312,13313,13314,13315,13316,13317,13318,20009,20010,20011,20013,20014,20015,20030,20085,20088,20091,20094); -- 限時30日
+UPDATE `armor` SET `duration` = '60'            WHERE `item_id` IN (20098); -- 1小時幻象
+UPDATE `armor` SET `duration` = '180'           WHERE `item_id` IN (20083,20086,20089); -- 限時3小時
+UPDATE `armor` SET `duration` = '600'           WHERE `item_id` IN (13260); -- 限時10小時
+UPDATE `armor` SET `duration` = '1440'          WHERE `item_id` IN (20100); -- 限時24小時
+UPDATE `armor` SET `duration` = '4320'          WHERE `item_id` IN (20084,20087,20090); -- 限時3日
+UPDATE `armor` SET `duration` = '10080'         WHERE `item_id` IN (13022,13239,13240,13241,13242,13243,13244,13245,13246,13247,13254,13308,13325,13326,13327,13328,13329,13330,13331,13332,13333,13340,20099); -- 限時7日
+UPDATE `armor` SET `duration` = '21600'         WHERE `item_id` IN (20066,20067,20068); -- 限時15日
+UPDATE `armor` SET `duration` = '43200'         WHERE `item_id` IN (13023,13024,13025,13026,13309,13310,13311,13312,13313,13314,13315,13316,13317,13318,20009,20010,20011,20013,20014,20015,20030,20085,20088,20091,20094); -- 限時30日
 
 /***** 可否結晶化 *****/
-UPDATE `armor` SET `crystallizable` = 'false'	WHERE `crystallizable` = '0'; -- 否
-UPDATE `armor` SET `crystallizable` = 'true'	WHERE `crystallizable` = '1'; -- 可
+UPDATE `armor` SET `crystallizable` = 'false'   WHERE `crystallizable` = '0'; -- 否
+UPDATE `armor` SET `crystallizable` = 'true'    WHERE `crystallizable` = '1'; -- 可
 
 /***** 等級 *****/
-UPDATE `armor` SET `crystal_type` = 'none'	WHERE `crystal_type` = '0'; -- 普通
-UPDATE `armor` SET `crystal_type` = 'd'		WHERE `crystal_type` = '1'; -- D級
-UPDATE `armor` SET `crystal_type` = 'c'		WHERE `crystal_type` = '2'; -- C級
-UPDATE `armor` SET `crystal_type` = 'b'		WHERE `crystal_type` = '3'; -- B級
-UPDATE `armor` SET `crystal_type` = 'a'		WHERE `crystal_type` = '4'; -- A級
-UPDATE `armor` SET `crystal_type` = 's'		WHERE `crystal_type` = '5'; -- S級
-UPDATE `armor` SET `crystal_type` = 's80'	WHERE `crystal_type` = '6'; -- S80級
+UPDATE `armor` SET `crystal_type` = 'none'      WHERE `crystal_type` = '0'; -- 普通
+UPDATE `armor` SET `crystal_type` = 'd'         WHERE `crystal_type` = '1'; -- D級
+UPDATE `armor` SET `crystal_type` = 'c'         WHERE `crystal_type` = '2'; -- C級
+UPDATE `armor` SET `crystal_type` = 'b'         WHERE `crystal_type` = '3'; -- B級
+UPDATE `armor` SET `crystal_type` = 'a'         WHERE `crystal_type` = '4'; -- A級
+UPDATE `armor` SET `crystal_type` = 's'         WHERE `crystal_type` = '5'; -- S級
+UPDATE `armor` SET `crystal_type` = 's80'       WHERE `crystal_type` = '6'; -- S80級
 
 
 /***** Done by vdmyagami！ *****/
