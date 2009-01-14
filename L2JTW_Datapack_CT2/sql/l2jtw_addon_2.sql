@@ -1441,7 +1441,7 @@ INSERT IGNORE INTO `walker_routes` VALUES ('42', '35828', '6', null, '159388', '
 
 
 /************ ­×¥¿ªZ¾¹ ************/
-UPDATE `weapon` SET `change_weaponId` = '0;' WHERE `item_id` ='11707';
+UPDATE `weapon` SET `change_weaponId` = '0' WHERE `item_id` ='11707';
 UPDATE `weapon` SET `onCast_skill_chance` = '5' WHERE `item_id` in (5639);
 UPDATE `weapon` SET `onCast_skill_chance` = '8' WHERE `item_id` in (8148);
 UPDATE `weapon` SET `onCast_skill_chance` = '10' WHERE `item_id` in (4878,7702,7712,7811,8140,8143,10901,10919);

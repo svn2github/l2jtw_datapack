@@ -31,11 +31,11 @@ SS = 1463
 ADENA = 57
 
 class Quest (JQuest) :
-
+	
 	def __init__(self,id, name, descr) :
 		JQuest.__init__(self, id, name, descr)
 		self.questItemIds = [SGOODS]
-
+		
 	def onEvent (self,event,st) :
 		htmltext = event
 		id = st.getState()
@@ -56,6 +56,7 @@ class Quest (JQuest) :
 			st.takeItems(SGOODS, -1)
 			st.playSound("ItemSound.quest_itemget")
 			st.giveItems(SS, int(1650*Config.RATE_QUESTS_REWARD))
+			st.addExpAndSp(82792,4981)
 			htmltext = "32052-02.htm"
 			st.playSound("ItemSound.quest_finish")
 			st.exitQuest(False)
@@ -63,18 +64,19 @@ class Quest (JQuest) :
 			st.takeItems(SGOODS, -1)
 			st.playSound("ItemSound.quest_itemget")
 			st.giveItems(ADENA, int(16500*Config.RATE_QUESTS_REWARD))
+			st.addExpAndSp(82792,4981)
 			htmltext = "32052-02.htm"
 			st.playSound("ItemSound.quest_finish")
 			st.exitQuest(False)
 		else :
 			htmltext = "<html><body>目前沒有執行任務，或條件不符。</body></html>"
 		return htmltext
-
+		
 	def onTalk (self, npc, player) :
 		htmltext = "<html><body>目前沒有執行任務，或條件不符。</body></html>"
 		st = player.getQuestState(qn)
 		if not st : return htmltext
-
+		
 		npcId = npc.getNpcId()
 		id = st.getState()
 		cond = st.getInt("cond")

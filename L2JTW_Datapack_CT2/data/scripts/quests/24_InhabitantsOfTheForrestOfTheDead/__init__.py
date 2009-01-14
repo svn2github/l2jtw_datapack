@@ -70,6 +70,7 @@ class Quest (JQuest) :
             st.set("cond","11")
         elif event == "31522-19.htm":
             st.giveItems(SuspiciousTotem,1)
+            st.addExpAndSp(242105,22529)
             st.exitQuest(False)
             st.playSound("ItemSound.quest_finish")
         elif event == "31531-02.htm":
@@ -155,16 +156,15 @@ class Quest (JQuest) :
                 st.playSound("ItemSound.quest_middle")
         return
 
-    def onSpawn(self, npc) : 
-       if npc.getNpcId() == 25332 : 
-          if GameTimeController.getInstance().isNowNight() : 
-             for player in npc.getKnownList().getKnownPlayers().values() : 
-                st = player.getQuestState(qn) 
-                if st:
-                   st.takeItems(SilverCross,-1)
-                   st.giveItems(BrokenSilverCross,1)
-                   st.set("cond","4")
-                   AutoChat(npc,"那個，那個聖標是....！")
+    def onAggroRangeEnter(self, npc, player, isPet) : 
+       if npc.getNpcId() == 25332:
+          npc.getAggroListRP().remove(player)
+          st = player.getQuestState(qn) 
+          if st and st.getQuestItemsCount(SilverCross):
+             st.takeItems(SilverCross,-1)
+             st.giveItems(BrokenSilverCross,1)
+             st.set("cond","4")
+             AutoChat(npc,"那個，那個聖標是....！")
        return
 
 QUEST     = Quest(24,qn,"亡者森林的住人們")
@@ -175,7 +175,7 @@ QUEST.addTalkId(Dorian)
 QUEST.addTalkId(Tombstone)
 QUEST.addTalkId(MaidOfLidia)
 QUEST.addTalkId(Wizard)
-QUEST.addSpawnId(25332)
+QUEST.addAggroRangeEnterId(25332)
 
 for mob in [21557,21558,21560,21563,21564,21565,21566,21567]:
     QUEST.addKillId(mob)

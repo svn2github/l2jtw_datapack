@@ -220,9 +220,9 @@ INSERT INTO `messagetable` VALUES ('67', 'cn', '强化“$1”的“$2”，从 
 INSERT INTO `messagetable` VALUES ('68', 'en', 'Co-ordinate x', null);
 INSERT INTO `messagetable` VALUES ('68', 'tw', 'X 座標', null);
 INSERT INTO `messagetable` VALUES ('68', 'cn', 'X 座标', null);
-INSERT INTO `messagetable` VALUES ('69', 'en', 'Changed name from $1 to $2.', null);
-INSERT INTO `messagetable` VALUES ('69', 'tw', '更改「$1」的名字為「$2」。', null);
-INSERT INTO `messagetable` VALUES ('69', 'cn', '更改“$1”的名字为“$2”。', null);
+INSERT INTO `messagetable` VALUES ('69', 'en', '', null);
+INSERT INTO `messagetable` VALUES ('69', 'tw', '', null);
+INSERT INTO `messagetable` VALUES ('69', 'cn', '', null);
 INSERT INTO `messagetable` VALUES ('70', 'en', 'Changed stats of $1.  HP: $2  MP: $3  CP: $4  PvP: $5 / $6', null);
 INSERT INTO `messagetable` VALUES ('70', 'tw', '更改「$1」的狀態：HP：$2  MP：$3  CP：$4  PvP：$5/$6', null);
 INSERT INTO `messagetable` VALUES ('70', 'cn', '更改“$1”的状态：HP：$2  MP：$3  CP：$4  PvP：$5/$6', null);
@@ -1333,9 +1333,9 @@ INSERT INTO `messagetable` VALUES ('438', 'cn', '已召唤 $1 个晶体。', nul
 INSERT INTO `messagetable` VALUES ('439', 'en', '', null);
 INSERT INTO `messagetable` VALUES ('439', 'tw', '', null);
 INSERT INTO `messagetable` VALUES ('439', 'cn', '', null);
-INSERT INTO `messagetable` VALUES ('440', 'en', 'You already have such cubic', null);
-INSERT INTO `messagetable` VALUES ('440', 'tw', '已召喚此晶體。', null);
-INSERT INTO `messagetable` VALUES ('440', 'cn', '已召唤此晶体。', null);
+INSERT INTO `messagetable` VALUES ('440', 'en', '', null);
+INSERT INTO `messagetable` VALUES ('440', 'tw', '', null);
+INSERT INTO `messagetable` VALUES ('440', 'cn', '', null);
 INSERT INTO `messagetable` VALUES ('441', 'en', 'You already have the combat flag', null);
 INSERT INTO `messagetable` VALUES ('441', 'tw', '已經有陣旗了。', null);
 INSERT INTO `messagetable` VALUES ('441', 'cn', '已经有阵旗了。', null);

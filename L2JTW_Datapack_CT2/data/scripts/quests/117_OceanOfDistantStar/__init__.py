@@ -67,7 +67,8 @@ class Quest (JQuest) :
       st.playSound("ItemSound.quest_accept") #­×§ï pmq ¼W¥[
     if event == "10" :
       htmltext="9b.htm"
-      st.addExpAndSp(63591,0)
+      st.giveItems(57,17647)
+      st.addExpAndSp(107387,7369)
       st.playSound("ItemSound.quest_finish")
       st.exitQuest(False)
     return htmltext

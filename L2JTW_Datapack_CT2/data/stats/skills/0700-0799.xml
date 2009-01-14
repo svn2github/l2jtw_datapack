@@ -391,7 +391,7 @@
 <skill id="719" levels="1" name="Zaken Vampiric Rage">
   <set name="mpConsume" val="60"/>
   <set name="power" val="0"/>
-  <set name="target" val="TARGET_SELF"/>
+  <set name="target" val="TARGET_ONE"/>
   <set name="skillType" val="BUFF"/>
   <set name="reuseDelay" val="8000"/>
   <set name="hitTime" val="4000"/>
@@ -541,7 +541,7 @@
 <skill id="729" levels="1" name="Gordon Sword Stab">
   <set name="mpConsume" val="88"/>
   <set name="power" val="2957"/>
-  <set name="target" val="TARGET_MULTIFACE"/>
+  <set name="target" val="TARGET_AREA"/>
   <set name="skillRadius" val="150"/>
   <set name="overHit" val="true"/>
   <set name="skillType" val="PDAM"/>
@@ -1114,6 +1114,7 @@
   <set name="npcId" val="10"/>
   <set name="activationtime" val="5"/>
   <set name="activationchance" val="30"/> <!-- guessed -->
+  <set name="summonTotalLifeTime" val="900000"/> <!-- guessed -->
   <set name="expPenalty" val="0.0"/>
   <set name="isCubic" val="true"/>
 </skill>
@@ -1136,6 +1137,7 @@
   <set name="npcId" val="11"/>
   <set name="activationtime" val="5"/>
   <set name="activationchance" val="30"/> <!-- guessed -->
+  <set name="summonTotalLifeTime" val="900000"/> <!-- guessed -->
   <set name="expPenalty" val="0.0"/>
   <set name="isCubic" val="true"/>
 </skill>
@@ -1158,6 +1160,7 @@
   <set name="npcId" val="12"/>
   <set name="activationtime" val="5"/>
   <set name="activationchance" val="30"/> <!-- guessed -->
+  <set name="summonTotalLifeTime" val="900000"/> <!-- guessed -->
   <set name="expPenalty" val="0.0"/>
   <set name="isCubic" val="true"/>
 </skill>
@@ -1180,6 +1183,7 @@
   <set name="npcId" val="13"/>
   <set name="activationtime" val="5"/>
   <set name="activationchance" val="30"/> <!-- guessed -->
+  <set name="summonTotalLifeTime" val="900000"/> <!-- guessed -->
   <set name="expPenalty" val="0.0"/>
   <set name="isCubic" val="true"/>
 </skill>
@@ -1202,6 +1206,7 @@
   <set name="npcId" val="14"/>
   <set name="activationtime" val="5"/>
   <set name="activationchance" val="30"/> <!-- guessed -->
+  <set name="summonTotalLifeTime" val="900000"/> <!-- guessed -->
   <set name="expPenalty" val="0.0"/>
   <set name="isCubic" val="true"/>
 </skill>

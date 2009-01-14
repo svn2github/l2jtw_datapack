@@ -79,6 +79,8 @@ class Quest (JQuest) :
           st.takeItems(PASS_2ND,1)
           st.takeItems(SECRET_BOX2,1)
           st.giveItems(PASS_FINAL,1)
+          st.giveItems(57,81900)
+          st.addExpAndSp(160267,11726)
           st.set("cond","0")
           st.exitQuest(False)
           st.playSound("ItemSound.quest_finish")
@@ -93,6 +95,8 @@ class Quest (JQuest) :
           st.takeItems(PASS_2ND,1)
           st.takeItems(SECRET_BOX2,1)
           st.giveItems(PASS_FINAL,1)
+          st.giveItems(57,81900)
+          st.addExpAndSp(228064,15075)
           st.set("cond","0")
           st.exitQuest(False)
           st.playSound("ItemSound.quest_finish")
@@ -137,7 +141,7 @@ class Quest (JQuest) :
         st.set("cond","3")
    elif npcId == 30527 and st.getInt("cond") and st.getQuestItemsCount(PASS_1ST)==1 :
         htmltext = "30527-09.htm"
-   elif npcId == 30317 and st.getInt("cond") and st.getQuestItemsCount(KLUTOS_LETTER)==0 and st.getQuestItemsCount(PASS_1ST) and st.getQuestItemsCount(PASS_2ND)==0 and st.getQuestItemsCount(SECRET_BOX2)==0 :
+   elif npcId == 30317 and st.getInt("cond") and st.getQuestItemsCount(KLUTOS_LETTER)==0 and st.getQuestItemsCount(FOOTPRINT)==0 and st.getQuestItemsCount(PASS_1ST) and st.getQuestItemsCount(PASS_2ND)==0 and st.getQuestItemsCount(SECRET_BOX2)==0 :
         htmltext = "30317-01.htm"
    elif npcId == 30317 and st.getInt("cond") and st.getQuestItemsCount(PASS_1ST) and (st.getQuestItemsCount(KLUTOS_LETTER) or st.getQuestItemsCount(FOOTPRINT)) :
         htmltext = "30317-08.htm"
@@ -197,9 +201,6 @@ QUEST.addTalkId(30527)
 
 QUEST.addTalkId(30298)
 QUEST.addTalkId(30317)
-QUEST.addTalkId(30531)
-QUEST.addTalkId(31963)
-QUEST.addTalkId(32052)
 
 QUEST.addKillId(20017)
 QUEST.addKillId(20389)

@@ -76,6 +76,7 @@ INSERT IGNORE INTO `admin_command_access_rights` VALUES
 -- CREATE ITEM
 ('admin_itemcreate','1'),
 ('admin_create_item','1'),
+('admin_summon','1'),
 
 -- CURSED WEPONS
 ('admin_cw_info','1'),
@@ -111,7 +112,7 @@ INSERT IGNORE INTO `admin_command_access_rights` VALUES
 ('admin_save_modifications','1'),
 ('admin_rec','1'),
 ('admin_settitle','1'),
-('admin_setname','1'),
+('admin_changename','1'),
 ('admin_setsex','1'),
 ('admin_setcolor','1'),
 ('admin_setclass','1'),
@@ -155,8 +156,6 @@ INSERT IGNORE INTO `admin_command_access_rights` VALUES
 ('admin_unpolyself','1'),
 ('admin_polyself_menu','1'),
 ('admin_unpolyself_menu','1'),
-('admin_changename','1'),
-('admin_changename_menu','1'),
 ('admin_clearteams','1'),
 ('admin_setteam_close','1'),
 ('admin_setteam','1'),
@@ -274,6 +273,14 @@ INSERT IGNORE INTO `admin_command_access_rights` VALUES
 
 -- HELP PAGE
 ('admin_help','1'),
+
+-- INSTANCES
+('admin_setinstance','1'),
+('admin_ghoston','1'),
+('admin_ghostoff','1'),
+('admin_createinstance','1'),
+('admin_destroyinstance','1'),
+('admin_listinstances','1'),
 
 -- INVUL
 ('admin_invul','1'),
@@ -484,14 +491,6 @@ INSERT IGNORE INTO `admin_command_access_rights` VALUES
 ('admin_tele','1'),
 ('admin_teleto','1'),
 ('admin_instant_move','1'),
-
--- INSTANCES
-('admin_setinstance','1'),
-('admin_ghoston','1'),
-('admin_ghostoff','1'),
-('admin_createinstance','1'),
-('admin_destroyinstance','1'),
-('admin_listinstances','1'),
 
 -- TEST
 ('admin_test','1'),

@@ -5,6 +5,7 @@ import sys
 from net.sf.l2j.gameserver.model.quest import State
 from net.sf.l2j.gameserver.model.quest import QuestState
 from net.sf.l2j.gameserver.model.quest.jython import QuestJython as JQuest
+from net.sf.l2j.gameserver.network.serverpackets import SocialAction
 
 qn = "405_PathToCleric"
 
@@ -61,23 +62,27 @@ class Quest (JQuest) :
    npcId = npc.getNpcId()
    htmltext = "<html><body>目前沒有執行任務，或條件不符。</body></html>"
    id = st.getState()
-   if npcId == 30022 and st.getInt("cond") == 0 :
+   if npcId == 30022 and st.getInt("cond")==0 :
       if st.getQuestItemsCount(MARK_OF_FAITH) == 0 :
           htmltext = "30022-01.htm"
           return htmltext
       else:
           htmltext = "30022-04.htm"
-   elif npcId == 30022 and st.getInt("cond") and st.getQuestItemsCount(LETTER_OF_ORDER2) == 1 and st.getQuestItemsCount(LEMONIELLS_COVENANT) == 0 :
+   elif npcId == 30022 and st.getInt("cond") and st.getQuestItemsCount(LETTER_OF_ORDER2)==1 and st.getQuestItemsCount(LEMONIELLS_COVENANT)==0 :
         htmltext = "30022-07.htm"
-   elif npcId == 30022 and st.getInt("cond") and st.getQuestItemsCount(LETTER_OF_ORDER2) == 1 and st.getQuestItemsCount(LEMONIELLS_COVENANT) == 1 :
+   elif npcId == 30022 and st.getInt("cond") and st.getQuestItemsCount(LETTER_OF_ORDER2)==1 and st.getQuestItemsCount(LEMONIELLS_COVENANT)==1 :
         htmltext = "30022-09.htm"
-        st.takeItems(LEMONIELLS_COVENANT,1)
+        st.giveItems(57,81900)
         st.takeItems(LETTER_OF_ORDER2,1)
+        st.takeItems(LEMONIELLS_COVENANT,1)
         st.giveItems(MARK_OF_FAITH,1)
+        st.giveItems(57,81900)
+        st.addExpAndSp(295862,17664)
         st.set("cond","0")
         st.exitQuest(False)
         st.playSound("ItemSound.quest_finish")
-   elif npcId == 30022 and st.getInt("cond") and st.getQuestItemsCount(LETTER_OF_ORDER1) == 1 :
+        player.sendPacket(SocialAction(player.getObjectId(),3))
+   elif npcId == 30022 and st.getInt("cond") and st.getQuestItemsCount(LETTER_OF_ORDER1)==1 :
         if st.getQuestItemsCount(BOOK_OF_VIVI) == 1 and st.getQuestItemsCount(BOOK_OF_SIMLON)>0 and st.getQuestItemsCount(BOOK_OF_PRAGA) == 1 :
             htmltext = "30022-08.htm"
             st.takeItems(BOOK_OF_PRAGA,1)
@@ -130,7 +135,7 @@ class Quest (JQuest) :
             st.set("cond","6")
         elif st.getQuestItemsCount(LETTER_OF_ORDER2) == 1 and st.getQuestItemsCount(BOOK_OF_LEMONIELL) == 0 and st.getQuestItemsCount(LEMONIELLS_COVENANT) == 1 and st.getQuestItemsCount(CERTIFICATE_OF_GALLINT) == 0 :
             htmltext = "30408-05.htm"
-   elif npcId == 30017 and st.getInt("cond") and st.getQuestItemsCount(LETTER_OF_ORDER2) == 1 and st.getQuestItemsCount(LEMONIELLS_COVENANT) == 0 :
+   elif npcId == 30017 and st.getInt("cond") and st.getQuestItemsCount(LETTER_OF_ORDER2)==1 and st.getQuestItemsCount(LEMONIELLS_COVENANT)==0 :
         if st.getQuestItemsCount(BOOK_OF_LEMONIELL) == 1 and st.getQuestItemsCount(CERTIFICATE_OF_GALLINT) == 0 :
             htmltext = "30017-01.htm"
             st.takeItems(BOOK_OF_LEMONIELL,1)
