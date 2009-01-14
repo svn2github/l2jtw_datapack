@@ -441,7 +441,7 @@
 	<!-- Dark Crystal Helmet Light	-->
 	<item id="83">
 		<production id="12986" count="1" />
-		<ingredient id="12996" count="1" />
+    <ingredient id="12994" count="1" />
 		<ingredient id="5575" count="130500" />
 	</item>
 	<!-- Dark Crystal Helmet Robe	-->
@@ -582,4 +582,16 @@
 		<ingredient id="11460" count="1" />
 		<ingredient id="5575" count="579750" />
 	</item>
+  <!-- Dark Crystal Shield -->
+  <item id="107">
+    <production id="11416" count="1" />
+    <ingredient id="11425" count="1" />
+    <ingredient id="5575" count="91500" />
+  </item>
+  <!-- Shield of Nightmare -->
+  <item id="108">
+    <production id="11480" count="1" />
+    <ingredient id="11469" count="1" />
+    <ingredient id="5575" count="138750" />
+  </item>
 </list>
