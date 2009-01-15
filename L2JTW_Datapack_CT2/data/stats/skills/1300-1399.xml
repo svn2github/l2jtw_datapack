@@ -122,13 +122,12 @@
   <set name="mpConsume" val="#mpConsume"/>
   <set name="power" val="#rateCp"/>
   <set name="target" val="TARGET_CLAN"/>
-  <set name="skillRadius" val="400"/>
+  <set name="skillRadius" val="900"/>
   <set name="reuseDelay" val="20000"/>
   <set name="hitTime" val="2500"/>
   <set name="skillType" val="COMBATPOINTHEAL"/>
   <set name="isMagic" val="true"/>
   <set name="operateType" val="OP_ACTIVE"/>
-  <set name="buffDuration" val="1200000"/>
   <set name="castRange" val="-1"/>
   <set name="effectRange" val="-1"/>
   <set name="aggroPoints" val="#aggro"/>
@@ -1392,7 +1391,7 @@
   <set name="mpInitialConsume" val="56"/>
   <set name="mpConsume" val="224"/>
   <set name="target" val="TARGET_CLAN"/>
-  <set name="skillRadius" val="400"/>
+  <set name="skillRadius" val="900"/>
   <set name="reuseDelay" val="20000"/>
   <set name="hitTime" val="2500"/>
   <set name="skillType" val="BUFF"/>
@@ -1411,7 +1410,7 @@
   <set name="mpInitialConsume" val="56"/>
   <set name="mpConsume" val="224"/>
   <set name="target" val="TARGET_CLAN"/>
-  <set name="skillRadius" val="400"/>
+  <set name="skillRadius" val="900"/>
   <set name="reuseDelay" val="20000"/>
   <set name="hitTime" val="2500"/>
   <set name="skillType" val="BUFF"/>
