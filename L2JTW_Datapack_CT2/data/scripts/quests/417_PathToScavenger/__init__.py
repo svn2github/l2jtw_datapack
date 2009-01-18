@@ -56,13 +56,16 @@ class Quest (JQuest) :
         if st.getQuestItemsCount(PIPIS_LETTER):
             st.takeItems(PIPIS_LETTER,1)
             st.set("cond","2")
+            st.playSound("ItemSound.quest_accept")   #pmq修改
             n = st.getRandom(3)
             if n == 0:
               htmltext = "30519-02.htm"
               st.giveItems(ZIMENFS_POTION,1)
+              st.playSound("ItemSound.quest_accept") #pmq修改
             elif n == 1:
               htmltext = "30519-03.htm"
               st.giveItems(CHALIS_AXE,1)
+              st.playSound("ItemSound.quest_accept") #pmq修改
             elif n == 2:
               htmltext = "30519-04.htm"
               st.giveItems(BRONKS_INGOT,1)
@@ -88,12 +91,14 @@ class Quest (JQuest) :
               htmltext = "30519-09.htm"
               if st.getInt("id") / 10 < 3 :
                 st.set("id",str(st.getInt("id")+1))
-          elif st.getInt("id") / 10 >= 3 and st.getInt("cond") > 0 :
+          elif st.getInt("id") / 10 >= 3 and st.getInt("cond") >= 0 : #pmq修改
               htmltext = "30519-10.htm"
+              st.set("cond","4")                                      #pmq修改
               st.giveItems(MIONS_LETTER,1)
               st.takeItems(CHALIS_AXE,1)
               st.takeItems(ZIMENFS_POTION,1)
               st.takeItems(BRONKS_INGOT,1)
+              st.playSound("ItemSound.quest_accept")                  #pmq修改
         else:
             htmltext = "<html><body>目前沒有執行任務，或條件不符。</body></html>"
     elif event == "30519_6" :
@@ -102,15 +107,19 @@ class Quest (JQuest) :
             st.takeItems(ZIMENFS_PAY,1)
             st.takeItems(CHALIS_PAY,1)
             st.takeItems(BRONKS_PAY,1)
+            st.playSound("ItemSound.quest_accept")   #pmq修改
             if n == 0:
               htmltext = "30519-02.htm"
               st.giveItems(ZIMENFS_POTION,1)
+              st.playSound("ItemSound.quest_accept") #pmq修改
             elif n == 1:
               htmltext = "30519-03.htm"
               st.giveItems(CHALIS_AXE,1)
+              st.playSound("ItemSound.quest_accept") #pmq修改
             elif n == 2:
               htmltext = "30519-04.htm"
               st.giveItems(BRONKS_INGOT,1)
+              st.playSound("ItemSound.quest_accept") #pmq修改
         else:
             htmltext = "<html><body>目前沒有執行任務，或條件不符。</body></html>"
     elif event == "30316_1" :
@@ -119,6 +128,7 @@ class Quest (JQuest) :
           st.takeItems(BEAD_PARCEL,1)
           st.giveItems(ROUTS_TP_SCROLL,1)
           st.set("cond","10")
+          st.playSound("ItemSound.quest_accept")    #pmq修改
         else:
             htmltext = "<html><body>目前沒有執行任務，或條件不符。</body></html>"
     elif event == "30316_2" :
@@ -127,6 +137,7 @@ class Quest (JQuest) :
           st.takeItems(BEAD_PARCEL,1)
           st.giveItems(ROUTS_TP_SCROLL,1)
           st.set("cond","10")
+          st.playSound("ItemSound.quest_accept")    #pmq修改
         else:
             htmltext = "<html><body>目前沒有執行任務，或條件不符。</body></html>"
     elif event == "30557_1" :
@@ -137,8 +148,31 @@ class Quest (JQuest) :
           st.takeItems(ROUTS_TP_SCROLL,1)
           st.giveItems(SUCCUBUS_UNDIES,1)
           st.set("cond","11")
+          st.playSound("ItemSound.quest_accept")    #pmq修改
         else:
             htmltext = "<html><body>目前沒有執行任務，或條件不符。</body></html>"
+    elif event == "a" :  #pmq修改
+          htmltext = "30556-05a.htm"
+          st.takeItems(BEAD,st.getQuestItemsCount(BEAD))
+          st.takeItems(TARANTULA_PIC,1)
+          st.giveItems(BEAD_PARCEL,1)
+          st.set("cond","9")
+          st.playSound("ItemSound.quest_accept")
+    elif event == "b" :  #pmq修改
+          htmltext = "30556-05b.htm"
+          st.takeItems(BEAD,st.getQuestItemsCount(BEAD))
+          st.takeItems(TARANTULA_PIC,1)
+          st.giveItems(BEAD_PARCEL,1)
+          st.set("cond","12")
+          st.playSound("ItemSound.quest_accept")
+    elif event == "c" :  #pmq修改
+        if st.getQuestItemsCount(BEAD_PARCEL):
+          htmltext = "31958-02.htm"
+          st.takeItems(BEAD_PARCEL,1)
+          st.giveItems(RING_OF_RAVEN,1)
+          st.set("cond","0")
+          st.exitQuest(False)
+          st.playSound("ItemSound.quest_finish")
     return htmltext
 
 
@@ -149,9 +183,9 @@ class Quest (JQuest) :
 
    npcId = npc.getNpcId()
    id = st.getState()
+   cond = st.getInt("cond") #pmq修改
    if npcId != 30524 and id != State.STARTED : return htmltext
 
-   cond = st.getInt("cond")
    if npcId == 30524 and cond==0 :
      htmltext = "30524-01.htm"
    elif npcId == 30524 and cond and st.getQuestItemsCount(PIPIS_LETTER) :
@@ -172,6 +206,7 @@ class Quest (JQuest) :
           st.takeItems(CHALIS_PAY,1)
           st.takeItems(ZIMENFS_PAY,1)
           st.takeItems(BRONKS_PAY,1)
+          st.playSound("ItemSound.quest_accept") #pmq修改
           st.set("cond","4")
    elif npcId == 30519 and cond and st.getQuestItemsCount(MIONS_LETTER) :
           htmltext = "30519-13.htm"
@@ -181,6 +216,7 @@ class Quest (JQuest) :
           htmltext = "30517-01.htm"
           st.takeItems(CHALIS_AXE,1)
           st.giveItems(CHALIS_PAY,1)
+          st.playSound("ItemSound.quest_accept") #pmq修改
           if st.getInt("id") >= 50 :
             st.set("cond","3")
           st.set("id",str(st.getInt("id")+10))
@@ -188,6 +224,8 @@ class Quest (JQuest) :
           htmltext = "30517-02.htm"
           st.takeItems(CHALIS_AXE,1)
           st.giveItems(CHALIS_PAY,1)
+          st.playSound("ItemSound.quest_accept") #pmq修改
+          st.set("cond","3")                     #pmq修改
           if st.getInt("id") >= 50 :
             st.set("cond","3")
           st.set("id",str(st.getInt("id")+10))
@@ -197,6 +235,7 @@ class Quest (JQuest) :
           htmltext = "30525-01.htm"
           st.takeItems(BRONKS_INGOT,1)
           st.giveItems(BRONKS_PAY,1)
+          st.playSound("ItemSound.quest_accept") #pmq修改
           if st.getInt("id") >= 50 :
             st.set("cond","3")
           st.set("id",str(st.getInt("id")+10))
@@ -204,6 +243,8 @@ class Quest (JQuest) :
           htmltext = "30525-02.htm"
           st.takeItems(BRONKS_INGOT,1)
           st.giveItems(BRONKS_PAY,1)
+          st.playSound("ItemSound.quest_accept") #pmq修改
+          st.set("cond","3")                     #pmq修改
           if st.getInt("id") >= 50 :
             st.set("cond","3")          
           st.set("id",str(st.getInt("id")+10))
@@ -213,6 +254,7 @@ class Quest (JQuest) :
           htmltext = "30538-01.htm"
           st.takeItems(ZIMENFS_POTION,1)
           st.giveItems(ZIMENFS_PAY,1)
+          st.playSound("ItemSound.quest_accept") #pmq修改
           if st.getInt("id") >= 50 :
             st.set("cond","3")
           st.set("id",str(st.getInt("id")+10))
@@ -220,6 +262,8 @@ class Quest (JQuest) :
           htmltext = "30538-02.htm"
           st.takeItems(ZIMENFS_POTION,1)
           st.giveItems(ZIMENFS_PAY,1)
+          st.playSound("ItemSound.quest_accept") #pmq修改
+          st.set("cond","3")                     #pmq修改
           if st.getInt("id") >= 50 :
             st.set("cond","3")
           st.set("id",str(st.getInt("id")+10))
@@ -231,6 +275,7 @@ class Quest (JQuest) :
           st.giveItems(BEAR_PIC,1)
           st.set("cond","5")
           st.set("id",str(0))
+          st.playSound("ItemSound.quest_accept") #pmq修改
    elif npcId == 30556 and cond and st.getQuestItemsCount(BEAR_PIC)==1 and st.getQuestItemsCount(HONEY_JAR)<5 :
           htmltext = "30556-02.htm"
    elif npcId == 30556 and cond and st.getQuestItemsCount(BEAR_PIC)==1 and st.getQuestItemsCount(HONEY_JAR)>=5 :
@@ -239,16 +284,11 @@ class Quest (JQuest) :
           st.takeItems(BEAR_PIC,1)
           st.giveItems(TARANTULA_PIC,1)
           st.set("cond","7")
+          st.playSound("ItemSound.quest_accept") #pmq修改
    elif npcId == 30556 and cond and st.getQuestItemsCount(TARANTULA_PIC)==1 and st.getQuestItemsCount(BEAD)<20 :
           htmltext = "30556-04.htm"
    elif npcId == 30556 and cond and st.getQuestItemsCount(TARANTULA_PIC)==1 and st.getQuestItemsCount(BEAD)>=20 :
           htmltext = "30556-05.htm"
-          st.takeItems(BEAD,st.getQuestItemsCount(BEAD))
-          st.takeItems(TARANTULA_PIC,1)
-          st.giveItems(BEAD_PARCEL,1)
-          st.set("cond","9")
-   elif npcId == 30556 and cond and st.getQuestItemsCount(BEAD_PARCEL) :
-          htmltext = "30556-06.htm"
    elif npcId == 30556 and cond and (st.getQuestItemsCount(ROUTS_TP_SCROLL) or st.getQuestItemsCount(SUCCUBUS_UNDIES)) :
           htmltext = "30556-07.htm"
    elif npcId == 30316 and cond and st.getQuestItemsCount(BEAD_PARCEL)==1 :
@@ -266,6 +306,12 @@ class Quest (JQuest) :
           st.playSound("ItemSound.quest_finish")
    elif npcId == 30557 and cond and st.getQuestItemsCount(ROUTS_TP_SCROLL)==1 :
           htmltext = "30557-01.htm"
+   elif npcId == 30556 and cond == 9 and st.getQuestItemsCount(BEAD_PARCEL)==1 :  #pmq修改
+          htmltext = "30556-06.htm"
+   elif npcId == 30556 and cond == 12 and st.getQuestItemsCount(BEAD_PARCEL)==1 : #pmq修改
+          htmltext = "30556-06b.htm"
+   elif npcId == 31958 and cond == 12 and st.getQuestItemsCount(BEAD_PARCEL)==1 : #pmq修改
+          htmltext = "31958-01.htm"
    return htmltext
 
  def onKill(self,npc,player,isPet):
@@ -316,7 +362,7 @@ class Quest (JQuest) :
                 st.playSound("ItemSound.quest_itemget")
    return
 
-QUEST       = Quest(417,qn,"Path To Scavenger")
+QUEST       = Quest(417,qn,"成為收集者的路")
 
 QUEST.addStartNpc(30524)
 QUEST.addTalkId(30524)
@@ -328,6 +374,7 @@ QUEST.addTalkId(30525)
 QUEST.addTalkId(30538)
 QUEST.addTalkId(30556)
 QUEST.addTalkId(30557)
+QUEST.addTalkId(31958) #pmq修改
 
 QUEST.addKillId(20403)
 QUEST.addKillId(27058)

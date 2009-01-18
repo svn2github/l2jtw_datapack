@@ -56,6 +56,21 @@ class Quest (JQuest) :
         st.playSound("ItemSound.quest_accept")
         htmltext = "30527-06.htm"
         st.giveItems(SILVERYS_RING,1)
+    elif event == "a" :  #pmq
+          htmltext = "30527-08a.htm"
+          st.takeItems(SILVERYS_RING,st.getQuestItemsCount(SILVERYS_RING))
+          st.takeItems(RATMAN_TOOTH,st.getQuestItemsCount(RATMAN_TOOTH))
+          st.takeItems(BIG_RATMAN_TOOTH,st.getQuestItemsCount(BIG_RATMAN_TOOTH))
+          st.playSound("ItemSound.quest_accept")
+          st.giveItems(PASS_1ST,1)
+          st.set("cond","3")
+    elif event == "b" :  #pmq
+          htmltext = "30527-08b.htm"
+          st.set("cond","8")
+          st.takeItems(SILVERYS_RING,st.getQuestItemsCount(SILVERYS_RING))
+          st.takeItems(RATMAN_TOOTH,st.getQuestItemsCount(RATMAN_TOOTH))
+          st.takeItems(BIG_RATMAN_TOOTH,st.getQuestItemsCount(BIG_RATMAN_TOOTH))
+          st.playSound("ItemSound.quest_accept")
     elif event == "30317_1" :
           htmltext = "30317-02.htm"
     elif event == "30317_2" :
@@ -116,6 +131,42 @@ class Quest (JQuest) :
           st.giveItems(SECRET_BOX2,1)
           st.giveItems(PASS_2ND,1)
           st.set("cond","7")
+    elif event == "32052_07" :  #pmq
+          htmltext = "32052-07.htm"
+          st.set("cond","9")
+          st.playSound("ItemSound.quest_accept")
+    elif event == "31963_5" :  #pmq
+          htmltext = "31963-05.htm"
+          st.giveItems(PASS_FINAL,1)
+          st.set("cond","0")
+          st.exitQuest(False)
+          st.playSound("ItemSound.quest_finish")
+    elif event == "31963_6" :  #pmq
+          htmltext = "31963-06.htm"
+          st.set("cond","10")
+          st.playSound("ItemSound.quest_accept")
+    elif event == "31963_8" :  #pmq
+          htmltext = "31963-08.htm"
+          st.set("cond","11")
+          st.playSound("ItemSound.quest_accept")
+    elif event == "32052_13" :  #pmq
+          htmltext = "32052-13.htm"
+          st.giveItems(PASS_FINAL,1)
+          st.set("cond","0")
+          st.exitQuest(False)
+          st.playSound("ItemSound.quest_finish")
+    elif event == "30531_5" :  #pmq
+          htmltext = "30531-05.htm"
+          st.giveItems(PASS_FINAL,1)
+          st.set("cond","0")
+          st.exitQuest(False)
+          st.playSound("ItemSound.quest_finish")
+    elif event == "31956_1" :  #pmq
+          htmltext = "31956-03.htm"
+          st.giveItems(PASS_FINAL,1)
+          st.set("cond","0")
+          st.exitQuest(False)
+          st.playSound("ItemSound.quest_finish")
     return htmltext
 
 
@@ -134,12 +185,7 @@ class Quest (JQuest) :
         htmltext = "30527-07.htm"
    elif npcId == 30527 and st.getInt("cond") and st.getQuestItemsCount(SILVERYS_RING)==1 and st.getQuestItemsCount(RATMAN_TOOTH)>=10 and st.getQuestItemsCount(BIG_RATMAN_TOOTH)>=2 :
         htmltext = "30527-08.htm"
-        st.takeItems(SILVERYS_RING,st.getQuestItemsCount(SILVERYS_RING))
-        st.takeItems(RATMAN_TOOTH,st.getQuestItemsCount(RATMAN_TOOTH))
-        st.takeItems(BIG_RATMAN_TOOTH,st.getQuestItemsCount(BIG_RATMAN_TOOTH))
-        st.giveItems(PASS_1ST,1)
-        st.set("cond","3")
-   elif npcId == 30527 and st.getInt("cond") and st.getQuestItemsCount(PASS_1ST)==1 :
+   elif npcId == 30527 and st.getInt("cond") and st.getQuestItemsCount(PASS_1ST)==1 :  #pmq
         htmltext = "30527-09.htm"
    elif npcId == 30317 and st.getInt("cond") and st.getQuestItemsCount(KLUTOS_LETTER)==0 and st.getQuestItemsCount(FOOTPRINT)==0 and st.getQuestItemsCount(PASS_1ST) and st.getQuestItemsCount(PASS_2ND)==0 and st.getQuestItemsCount(SECRET_BOX2)==0 :
         htmltext = "30317-01.htm"
@@ -155,6 +201,24 @@ class Quest (JQuest) :
         htmltext = "30298-05.htm"
    elif npcId == 30298 and st.getInt("cond") and st.getQuestItemsCount(PASS_1ST) and st.getQuestItemsCount(PASS_2ND) and st.getQuestItemsCount(SECRET_BOX2) :
         htmltext = "30298-07.htm"
+   elif npcId == 30527 and cond == 8 and st.getQuestItemsCount(PASS_1ST)==0 :  #pmq
+        htmltext = "30527-09b.htm"  #pmq
+   elif npcId == 32052 and cond == 8 and st.getQuestItemsCount(PASS_1ST)==0 :  #pmq
+        htmltext = "32052-01.htm"  #pmq
+   elif npcId == 32052 and cond == 9 and st.getQuestItemsCount(PASS_1ST)==0 :  #pmq
+        htmltext = "32052-08.htm"  #pmq
+   elif npcId == 31963 and cond == 9 and st.getQuestItemsCount(PASS_1ST)==0 :  #pmq
+        htmltext = "31963-01.htm"  #pmq
+   elif npcId == 31963 and cond == 10 and st.getQuestItemsCount(PASS_1ST)==0 :  #pmq
+        htmltext = "31963-07.htm"  #pmq
+   elif npcId == 30531 and cond == 10 and st.getQuestItemsCount(PASS_1ST)==0 :  #pmq
+        htmltext = "30531-01.htm"  #pmq
+   elif npcId == 31963 and cond == 11 and st.getQuestItemsCount(PASS_1ST)==0 :  #pmq
+        htmltext = "31963-09.htm"  #pmq
+   elif npcId == 32052 and cond == 11 and st.getQuestItemsCount(PASS_1ST)==0 :  #pmq
+        htmltext = "32052-09.htm"  #pmq
+   elif npcId == 31956 and cond == 12 and st.getQuestItemsCount(PASS_1ST)==0 :  #pmq
+        htmltext = "31956-01.htm"  #pmq
    return htmltext
 
  def onKill(self,npc,player,isPet):
@@ -201,6 +265,10 @@ QUEST.addTalkId(30527)
 
 QUEST.addTalkId(30298)
 QUEST.addTalkId(30317)
+QUEST.addTalkId(30531)  #pmq
+QUEST.addTalkId(31963)  #pmq
+QUEST.addTalkId(31956)  #pmq
+QUEST.addTalkId(32052)  #pmq
 
 QUEST.addKillId(20017)
 QUEST.addKillId(20389)

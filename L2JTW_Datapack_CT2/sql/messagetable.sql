@@ -797,8 +797,8 @@ INSERT INTO `messagetable` VALUES ('260', 'en', 'Failed to create instance', nul
 INSERT INTO `messagetable` VALUES ('260', 'tw', 'Instance 創造失敗。', null);
 INSERT INTO `messagetable` VALUES ('260', 'cn', 'Instance 创造失败。', null);
 INSERT INTO `messagetable` VALUES ('261', 'en', 'You were removed from the instance', null);
-INSERT INTO `messagetable` VALUES ('261', 'tw', '被移動到外面。', null);
-INSERT INTO `messagetable` VALUES ('261', 'cn', '被移动到外面。', null);
+INSERT INTO `messagetable` VALUES ('261', 'tw', '強制移動到洞窟外部。', null);
+INSERT INTO `messagetable` VALUES ('261', 'cn', '强制移动到洞窟外部。', null);
 INSERT INTO `messagetable` VALUES ('262', 'en', 'Id: $1 Name: $2', null);
 INSERT INTO `messagetable` VALUES ('262', 'tw', 'ID：$1 名稱：$2', null);
 INSERT INTO `messagetable` VALUES ('262', 'cn', 'ID：$1 名称：$2', null);
