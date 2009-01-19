@@ -128,7 +128,12 @@ def checkCondition(player) :
       sm.addCharName(partyMember)
       player.sendPacket(sm)
       return False
-
+  for partyMember in player.getParty().getPartyMembers().toArray():
+    if not partyMember.isInsideRadius(player, 500, False, False):
+      sm = SystemMessage(SystemMessageId.S1_IS_IN_LOCATION_THAT_CANNOT_ENTERED_PROCESSED)
+      sm.addCharName(partyMember)
+      player.sendPacket(sm)
+      return False
   return True
 
 def teleportPlayer(self, player, teleto) :
@@ -240,11 +245,11 @@ def runFirstRoom(self, world) :
   if debug : print "DarkCloudMansion: spawned first room"
 
 def runHall2(self, world) :
+  newNpc = self.addSpawn(SOFaith, 147818, 179643, -6117, 0, False, 0, False, world.instanceId)
   world.status = 3
   spawnHall(self, world)
 
 def runSecondRoom(self, world) :
-  newNpc = self.addSpawn(SOFaith, 147818, 179643, -6117, 0, False, 0, False, world.instanceId)
   world.status = 4
   openDoor(D3, world.instanceId)
   world.SecondRoom = PyObject()
@@ -362,13 +367,13 @@ def checkStone(self, npc, order, npcObj, world) :
 
 def endInstance(self, world) :
   world.status = 9
-  newNpc = self.addSpawn(SOTruth, 148911, 181940, -6117, 16383, False, 0, False, world.instanceId)
   world.startRoom = None
   world.Hall = None
   world.SecondRoom = None
   world.ThirdRoom = None
   world.ForthRoom = None
   world.FifthRoom = None
+  newNpc = self.addSpawn(SOTruth, 148911, 181940, -6117, 16383, False, 0, False, world.instanceId)
   if debug : print "DarkCloudMansion: finished"
 
 def checkBelethSample(self, world, npc, player, BS) :

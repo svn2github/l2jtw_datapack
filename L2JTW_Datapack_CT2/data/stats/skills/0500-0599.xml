@@ -1245,6 +1245,7 @@
   <set name="operateType" val="OP_ACTIVE"/>
   <set name="SSBoost" val="2.0"/>
   <set name="num_charges" val="2"/>
+  <set name="charge_skill_id" val="8"/>
 </skill>
 <skill id="569" levels="4" name="Attack Storm"><!-- Update by rocknow from L2Emu -->
   <table name="#power"> 625 703 784 867 </table>
@@ -1260,6 +1261,7 @@
   <set name="SSBoost" val="2.0"/>
   <set name="castRange" val="500"/>
   <set name="num_charges" val="3"/>
+  <set name="charge_skill_id" val="8"/>
 </skill>
 <skill id="570" levels="4" name="Attack Rage"><!-- Update by rocknow from L2Emu -->
   <table name="#power"> 904 1108 1235 1404 </table>>
