@@ -240,7 +240,7 @@ public class Baium extends L2AttackableAIScript
         if (_Zone == null)
             _Zone = GrandBossManager.getInstance().getZone(113100,14500,10077);
         if (_Zone == null)
-        	return "<html><body>Angelic Vortex:<br>You may not enter while admin disabled this zone</body></html>";
+        	return "<html><body>天使界點：<br>此區已被管理者關閉。</body></html>";
         if (npcId == STONE_BAIUM && GrandBossManager.getInstance().getBossStatus(LIVE_BAIUM) == ASLEEP)
         {
             if (_Zone.isPlayerAllowed(player))
@@ -269,7 +269,7 @@ public class Baium extends L2AttackableAIScript
     			},100L);
             }
             else
-                htmltext = "Conditions are not right to wake up Baium";
+                htmltext = "無法喚醒巴溫。";
         }
         else if (npcId == ANGELIC_VORTEX)
         {
