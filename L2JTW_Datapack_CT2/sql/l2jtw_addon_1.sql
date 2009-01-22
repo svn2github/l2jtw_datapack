@@ -640,7 +640,6 @@ REPLACE INTO `npcskills` VALUES ('22264', '4410', '14');
 REPLACE INTO `npcskills` VALUES ('22264', '4411', '15');
 REPLACE INTO `npcskills` VALUES ('22264', '4419', '5');
 REPLACE INTO `npcskills` VALUES ('22264', '4789', '8');
-REPLACE INTO `npcskills` VALUES ('22272', '4208', '10');
 REPLACE INTO `npcskills` VALUES ('22272', '4304', '1');
 REPLACE INTO `npcskills` VALUES ('22272', '4410', '15');
 REPLACE INTO `npcskills` VALUES ('22273', '4152', '10');
