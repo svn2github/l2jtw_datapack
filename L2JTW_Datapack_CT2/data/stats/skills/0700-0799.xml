@@ -720,19 +720,23 @@
   <set name="operateType" val="OP_PASSIVE"/>
   <set name="castRange" val="-1"/>
 </skill>
-<skill id="742" levels="3" name="Vale Master Bursting Flame"><!-- Update by rocknow -->
+<skill id="742" levels="3" name="Vale Master Bursting Flame">
+  <!-- Update by rocknow -->
+  <table name="#power"> 112 117 122 </table>
   <set name="mpConsume" val="92"/>
   <set name="hitTime" val="1000"/>
   <set name="reuseDelay" val="5000"/>
-  <set name="power" val="122"/>
+  <set name="power" val="#power"/>
   <set name="target" val="TARGET_ONE"/>
   <set name="skillRadius" val="600"/>
   <set name="skillType" val="MDAM"/>
   <set name="operateType" val="OP_ACTIVE"/>
 </skill>
-<skill id="743" levels="3" name="Vale Master Dark Explosion"><!-- Update by rocknow -->
+<skill id="743" levels="3" name="Vale Master Dark Explosion">
+  <!-- Update by rocknow -->
+  <table name="#power"> 56 59 61 </table>
   <set name="mpConsume" val="92"/>
-  <set name="power" val="61"/>
+  <set name="power" val="#power"/>
   <set name="target" val="TARGET_AURA"/>
   <set name="skillRadius" val="150"/>
   <set name="overHit" val="true"/>
@@ -744,9 +748,11 @@
   <set name="castRange" val="-1"/>
   <set name="effectRange" val="-1"/>
 </skill>
-<skill id="744" levels="3" name="Vale Master Dark Flare"><!-- Update by rocknow -->
+<skill id="744" levels="3" name="Vale Master Dark Flare">
+  <!-- Update by rocknow -->
+  <table name="#power"> 112 117 122 </table>
   <set name="mpConsume" val="92"/>
-  <set name="power" val="122"/>
+  <set name="power" val="#power"/>
   <set name="target" val="TARGET_AREA"/>
   <set name="skillRadius" val="100"/>
   <set name="element" val="2"/>
@@ -772,9 +778,11 @@
   <set name="effectRange" val="1800"/>
   <set name="aggroPoints" val="624"/>
 </skill>
-<skill id="746" levels="3" name="Saber Tooth Tiger Bite"><!-- Update by rocknow -->
+<skill id="746" levels="3" name="Saber Tooth Tiger Bite">
+  <!-- Update by rocknow -->
+  <table name="#power"> 1789 1955 2117 </table>
   <set name="mpConsume" val="88"/>
-  <set name="power" val="2117"/>
+  <set name="power" val="#power"/>
   <set name="target" val="TARGET_ONE"/>
   <set name="overHit" val="true"/>
   <set name="reuseDelay" val="13000"/>
@@ -785,10 +793,12 @@
   <set name="castRange" val="40"/>
   <set name="effectRange" val="400"/>
 </skill>
-<skill id="747" levels="3" name="Saber Tooth Tiger Fear"><!-- Update by rocknow -->
+<skill id="747" levels="3" name="Saber Tooth Tiger Fear">
+  <!-- Update by rocknow -->
+  <table name="#power"> 895 978 1059 </table>
   <set name="overHit" val="true"/>
   <set name="mpConsume" val="160"/>
-  <set name="power" val="1059"/>
+  <set name="power" val="#power"/>
   <set name="target" val="TARGET_AURA"/>
   <set name="skillRadius" val="150"/>
   <set name="reuseDelay" val="60000"/>
@@ -804,7 +814,8 @@
     <effect count="8" name="Fear" time="2" val="0"/>
   </for>
 </skill>
-<skill id="748" levels="1" name="Saber Tooth Tiger Sprint"><!-- Update by rocknow -->
+<skill id="748" levels="1" name="Saber Tooth Tiger Sprint">
+  <!-- Update by rocknow -->
   <set name="mpConsume" val="24"/>
   <set name="target" val="TARGET_SELF"/>
   <set name="reuseDelay" val="10000"/>
@@ -820,9 +831,11 @@
     </effect>
   </for>
 </skill>
-<skill id="749" levels="3" name="Oel Mahum Stun Attack"><!-- Update by rocknow -->
+<skill id="749" levels="3" name="Oel Mahum Stun Attack">
+  <!-- Update by rocknow -->
+  <table name="#power"> 895 978 1059 </table>
   <set name="mpConsume" val="73"/>
-  <set name="power" val="1059"/>
+  <set name="power" val="#power"/>
   <set name="magicLvl" val="74"/>
   <set name="lvlDepend" val="1"/>
   <set name="target" val="TARGET_ONE"/>
@@ -840,7 +853,8 @@
     <effect count="1" name="Stun" time="9" val="0" stackOrder="1" stackType="Stun"/>
   </for>
 </skill>
-<skill id="750" levels="1" name="Oel Mahum Ultimate Defense"><!-- Update by rocknow -->
+<skill id="750" levels="1" name="Oel Mahum Ultimate Defense">
+  <!-- Update by rocknow -->
   <set name="mpConsume" val="10"/>
   <set name="target" val="TARGET_SELF"/>
   <set name="reuseDelay" val="1800000"/>
@@ -858,9 +872,11 @@
     </effect>
   </for>
 </skill>
-<skill id="751" levels="3" name="Oel Mahum Arm Flourish"><!-- Update by rocknow -->
+<skill id="751" levels="3" name="Oel Mahum Arm Flourish">
+  <!-- Update by rocknow -->
+  <table name="#power"> 1073 1173 1271 </table>
   <set name="mpConsume" val="77"/>
-  <set name="power" val="1271"/>
+  <set name="power" val="#power"/>
   <set name="target" val="TARGET_AURA"/>
   <set name="skillRadius" val="150"/>
   <set name="overHit" val="true"/>
@@ -872,10 +888,12 @@
   <set name="effectRange" val="-1"/>
   <set name="operateType" val="OP_ACTIVE"/>
 </skill>
-<skill id="752" levels="3" name="Doll Blader Sting"><!-- Update by rocknow -->
+<skill id="752" levels="3" name="Doll Blader Sting">
+  <!-- Update by rocknow -->
+  <table name="#power"> 1193 1303 1412 </table>
   <set name="mpConsume" val="77"/>
   <set name="magicLvl" val="74"/>
-  <set name="power" val="1412"/>
+  <set name="power" val="#power"/>
   <set name="target" val="TARGET_ONE"/>
   <set name="overHit" val="true"/>
   <set name="reuseDelay" val="16000"/>
@@ -889,11 +907,13 @@
     <effect count="7" name="DamOverTime" time="3" val="74" abnormal="bleeding"/>
   </for>
 </skill>
-<skill id="753" levels="3" name="Doll Blader Throwing Knife"><!-- Update by rocknow -->
+<skill id="753" levels="3" name="Doll Blader Throwing Knife">
+  <!-- Update by rocknow -->
+  <table name="#power"> 4769 5211 5645 </table>
   <set name="mpConsume" val="153"/>
   <set name="hitTime" val="400"/>
   <set name="reuseDelay" val="5000"/>
-  <set name="power" val="5645"/>
+  <set name="power" val="#power"/>
   <set name="target" val="TARGET_ONE"/>
   <set name="overHit" val="true"/>
   <set name="skillRadius" val="600"/>
@@ -908,7 +928,8 @@
     <effect count="1" name="EnemyCharge" time="1" val="0"/>
   </for>
 </skill>
-<skill id="754" levels="1" name="Doll Blader Clairvoyance"><!-- Update by rocknow -->
+<skill id="754" levels="1" name="Doll Blader Clairvoyance">
+  <!-- Update by rocknow -->
   <set name="mpConsume" val="65"/>
   <set name="hitTime" val="100"/>
   <set name="target" val="TARGET_SELF"/>

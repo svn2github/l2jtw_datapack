@@ -457,8 +457,8 @@ UPDATE `armor` SET `skill` = '21010-1;3267-1;23012-1;23015-1;' WHERE `item_id` i
 UPDATE `armor` SET `skill` = '3335-1;' WHERE `item_id` in (10141); -- 雪人變身
 UPDATE `armor` SET `skill` = '3336-1;' WHERE `item_id` in (10142); -- 野牛變身
 UPDATE `weapon` SET `skill` = '3418-1;' WHERE `item_id` in (10167); -- 豬豬塔糖
--- UPDATE `weapon` SET `skill` = '8244-1;' WHERE `item_id` in (12814); -- 守門人變身魔杖
--- UPDATE `weapon` SET `skill` = '8246-1;' WHERE `item_id` in (12800,13253,13324,13339); -- 南瓜變身魔杖
+UPDATE `weapon` SET `skill` = '8244-1;' WHERE `item_id` in (12814); -- 守門人變身魔杖
+UPDATE `weapon` SET `skill` = '8246-1;' WHERE `item_id` in (12800,13253,13324,13339); -- 南瓜變身魔杖
 
 
 /************ 增加/修改/刪除NPC ************/
@@ -529,7 +529,7 @@ INSERT INTO `spawnlist` VALUES ('820024', '', '1', '32119', '23707', '-19108', '
 INSERT INTO `spawnlist` VALUES ('820025', '', '1', '32120', '27716', '-11685', '-2281', '0', '0', '31470', '60', '0', '0'); -- 巴魯 凱莫
 INSERT INTO `spawnlist` VALUES ('820026', '', '1', '32121', '18714', '-9635', '-2790', '0', '0', '54407', '60', '0', '0'); -- 裘太 凱莫
 -- 加入新的NPC
-Delete From npc Where `id` in (32491,32497,32498,32499,32503,32513,32514,32515,32516); -- 地下競技場助手/調查官 艾德勒/惡魔島的復活者/肯特拉獸人 咒術士/地下競技場的入場管理員
+Delete From npc Where `id` in (32491,32497,32498,32499,32503,32513,32514,32515,32516,13135,14916,14917); -- 地下競技場助手/調查官 艾德勒/惡魔島的復活者/肯特拉獸人 咒術士/地下競技場的入場管理員/南瓜幽靈/底格里斯
 INSERT INTO `npc` VALUES ('32491', '32491', '32491', '0', '', '0', 'LineageNPCs2.TP_battlezone_staff', '7.8', '17.29', '70', 'male', 'L2Teleporter', '40', '2444', '2444', '0', '0', '10', '10', '10', '10', '10', '10', '0', '0', '500', '500', '500', '500', '278', '0', '333', '0', '0', '0', '50', '100', '', '0', '0', '0', 'LAST_HIT', '0', '0', '0', 'balanced', 'false');
 INSERT INTO `npc` VALUES ('32497', '32497', '32497', '0', '', '1', 'NPC.a_mageguild_teacher_MElf', '7.00', '22.20', '70', 'male', 'L2Npc', '40', '3862', '1493', '0', '0', '10', '10', '10', '10', '10', '10', '0', '0', '1314', '470', '780', '382', '278', '0', '333', '0', '0', '0', '55', '132', '', '0', '0', '0', 'LAST_HIT', '0', '0', '0', 'balanced', 'false');
 INSERT INTO `npc` VALUES ('32498', '32498', '32498', '0', '', '0', 'LineageNPC.a_fighterguild_teacher_MHuman', '8', '23', '70', 'male', 'L2Npc', '40', '2444', '2444', '0', '0', '10', '10', '10', '10', '10', '10', '0', '0', '500', '500', '500', '500', '278', '0', '333', '0', '0', '0', '50', '120', '', '0', '0', '0', 'LAST_HIT', '0', '0', '0', 'balanced', 'false');
@@ -539,6 +539,9 @@ INSERT INTO `npc` VALUES ('32513', '32513', '32513', '0', '', '0', 'LineageNPCs2
 INSERT INTO `npc` VALUES ('32514', '32514', '32514', '0', '', '0', 'LineageNPCs2.TP_battlezone_staff', '7.8', '17.29', '70', 'male', 'L2Teleporter', '40', '2444', '2444', '0', '0', '10', '10', '10', '10', '10', '10', '0', '0', '500', '500', '500', '500', '278', '0', '333', '0', '0', '0', '50', '100', '', '0', '0', '0', 'LAST_HIT', '0', '0', '0', 'balanced', 'false');
 INSERT INTO `npc` VALUES ('32515', '32515', '32515', '0', '', '0', 'LineageNPCs2.TP_battlezone_staff', '7.8', '17.29', '70', 'male', 'L2Teleporter', '40', '2444', '2444', '0', '0', '10', '10', '10', '10', '10', '10', '0', '0', '500', '500', '500', '500', '278', '0', '333', '0', '0', '0', '50', '100', '', '0', '0', '0', 'LAST_HIT', '0', '0', '0', 'balanced', 'false');
 INSERT INTO `npc` VALUES ('32516', '32516', '32516', '0', '', '0', 'LineageNPCs2.TP_battlezone_staff', '7.8', '17.29', '70', 'male', 'L2Teleporter', '40', '2444', '2444', '0', '0', '10', '10', '10', '10', '10', '10', '0', '0', '500', '500', '500', '500', '278', '0', '333', '0', '0', '0', '50', '100', '', '0', '0', '0', 'LAST_HIT', '0', '0', '0', 'balanced', 'false');
+INSERT INTO `npc` VALUES ('13135', '13135', 'Pumpkin Ghost', '0', '', '0', 'Npc2.Pumpkin_Head_man', '8.00', '25.00', '70', 'etc', 'L2Npc', '40', '3862', '1493', '11.85', '2.78', '40', '43', '30', '21', '20', '10', '0', '0', '1314', '470', '780', '382', '278', '0', '333', '0', '0', '0', '50', '120', 'NULL', '0', '1', '0', 'LAST_HIT', '0', '0', '0', 'balanced', 'false');
+INSERT INTO `npc` VALUES ('14916', '14916', 'Tigress', '0', '', '0', 'LineageMonster.saber_toothed_tiger_070p', '8.00', '20.00', '63', 'female', 'L2Monster', '40', '3862', '1722', '11.85', '2.78', '40', '43', '30', '21', '20', '25', '0', '0', '1335', '470', '780', '440', '282', '0', '333', '0', '0', '0', '88', '187', 'NULL', '0', '0', '0', 'LAST_HIT', '4', '4', '0', 'fighter', 'false');
+INSERT INTO `npc` VALUES ('14917', '14917', 'Tigress', '0', '', '0', 'LineageMonster.saber_toothed_tiger_070p', '8.00', '20.00', '67', 'female', 'L2Monster', '40', '3862', '1722', '11.85', '2.78', '40', '43', '30', '21', '20', '25', '0', '0', '1335', '470', '780', '440', '282', '0', '333', '0', '0', '0', '88', '187', 'NULL', '0', '0', '0', 'LAST_HIT', '4', '4', '0', 'fighter', 'false');
 Delete From `spawnlist` Where `npc_templateid` in (32377); -- 刪除地下競技場重複的入場管理員
 INSERT INTO `spawnlist` VALUES ('830001', '', '1', '32491', '-82166', '-49176', '-10341', '0', '0', '31175', '60', '0', '0');
 INSERT INTO `spawnlist` VALUES ('830002', '', '1', '32497', '-80571', '151295', '-3045', '0', '0', '20607', '60', '0', '0');
@@ -602,7 +605,6 @@ REPLACE INTO `npcskills` VALUES ('18372', '4303', '1');
 REPLACE INTO `npcskills` VALUES ('18372', '4410', '16');
 REPLACE INTO `npcskills` VALUES ('18372', '4411', '16');
 REPLACE INTO `npcskills` VALUES ('18372', '4413', '9');
-REPLACE INTO `npcskills` VALUES ('18373', '4221', '1');
 REPLACE INTO `npcskills` VALUES ('18373', '4247', '5');
 REPLACE INTO `npcskills` VALUES ('18373', '4303', '1');
 REPLACE INTO `npcskills` VALUES ('18373', '4410', '15');
@@ -632,7 +634,6 @@ REPLACE INTO `npcskills` VALUES ('18376', '4411', '15');
 REPLACE INTO `npcskills` VALUES ('18376', '4413', '10');
 REPLACE INTO `npcskills` VALUES ('18377', '4078', '7');
 REPLACE INTO `npcskills` VALUES ('18377', '4101', '8');
-REPLACE INTO `npcskills` VALUES ('18377', '4120', '7');
 REPLACE INTO `npcskills` VALUES ('18377', '4303', '1');
 REPLACE INTO `npcskills` VALUES ('18377', '4410', '12');
 REPLACE INTO `npcskills` VALUES ('22264', '4257', '10');

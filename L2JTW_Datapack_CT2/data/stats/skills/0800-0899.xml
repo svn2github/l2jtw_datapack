@@ -48,7 +48,8 @@
   <set name="operateType" val="OP_PASSIVE"/>
   <set name="castRange" val="-1"/>
 </skill>
-<skill id="808" levels="1" name="Golem Punch"><!-- Update by rocknow -->
+<skill id="808" levels="1" name="Golem Punch">
+  <!-- Update by rocknow -->
   <set name="mpConsume" val="53"/>
   <set name="power" val="4339"/>
   <set name="target" val="TARGET_ONE"/>
@@ -67,7 +68,8 @@
     <effect count="1" name="Stun" time="9" val="0" stackOrder="1" stackType="Stun"/>
   </for>
 </skill>
-<skill id="809" levels="1" name="Golem Tornado Swing"><!-- Update by rocknow -->
+<skill id="809" levels="1" name="Golem Tornado Swing">
+  <!-- Update by rocknow -->
   <set name="mpConsume" val="53"/>
   <set name="power" val="3100"/>
   <set name="target" val="TARGET_ONE"/>
