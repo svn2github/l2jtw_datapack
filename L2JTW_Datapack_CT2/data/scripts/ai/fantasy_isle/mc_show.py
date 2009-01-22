@@ -11,22 +11,23 @@ from net.sf.l2j.gameserver.network.serverpackets import NpcSay
 from net.sf.l2j.gameserver.network.serverpackets import PlaySound
 from net.sf.l2j.gameserver.network.serverpackets import SocialAction
 
-TEXT = ["How come people are not here... We are about to start the show.. Hmm", \
-        "Ugh, I have butterflies in my stomach.. The show starts soon...", \
-        "Thank you all for coming here tonight.", \
-        "It is an honor to have the special show today.", \
-        "Our Fantasy Isle is fully committed to your happiness.", \
-        "Now I'd like to introduce the most beautiful singer in Aden. Please welcome Leyla Mira!", \
-        "Here she comes!","Thank you very much, Leyla. Next is", \
-        "It was very difficult to invite this first group that just came back from their world tour. Let's welcome the Fantasy Isle Circus!", \
-        "Come on ~ everyone","Did you like it? That was so amazing.", \
-        "Now we also invited individuals with special talents.","Let's welcome the first person here!", \
-        ";;;;;;Oh","Okay, now here comes the next person. Come on up please.", \
-        "Oh, it looks like something great is going to happen, right?", "Oh, my ;;;;", \
-        "That's g- .. great. Now, here comes the last person.","Now this is the end of today's show.", \
-        "How was it? I am not sure if you really enjoyed it.", \
-        "Please remember that Fantasy Isle is always planning a lot of great shows for you.", \
-        "Well, I wish I could continue all night long, but this is it for today. Thank you."]
+TEXT = ["怎麼沒人咧...表演馬上就要開始了...哼", \
+        "啊，真令人不耐的緊張感...表演馬上就要開始了...哼", \
+        "今天非常感謝各位來到此地。", \
+        "今天能特別為各位帶來表演，真是感到萬分的榮幸。", \
+        "我們夢幻島為了帶給大家歡樂，一直都是全力以赴。", \
+        "來，那麼我來介紹一下，我們為了使表演更出色而翻遍整個亞丁才找來，最棒的美女歌手-萊伊拉美羅小姐！", \
+        "掌 聲 歡 迎~","非常感謝萊伊拉美羅小姐帶來的歌曲。那麼接下來是", \
+        "首先介紹的是，特別邀請而來、剛結束世界巡迴表演的夢幻島技藝團！", \
+        "各位，請~出場。","有好好欣賞嗎？真是既可愛又出色的表演。", \
+        "接下來我們邀請了各地擁有非凡才華的人士。","我們來歡迎一下吧，第一位請出場。", \
+        "...嗯","好，我們歡迎下一位參加者，請出場。", \
+        "哦哦，這次好像非常了不起喔？", "呃...", \
+        "真..真是了不起。那麼我們請最後一位參加者出場吧。","就這樣，我們的特技表演也到了尾聲。", \
+        "各位覺得如何？不知大家是否有好好欣賞。", \
+        "往後我們夢幻島也會繼續為各位準備出色的表演節目，敬請期待。", \
+        "真遺憾，不過今天就到此為止了。謝謝。", \
+        "嗯...接下來，我們來介紹亞丁各地區的名人。"] # Update by rocknow
 
 #event : [text,next event,time to next event]
 TALKS = { 
@@ -136,9 +137,7 @@ WALKS  = {
 "npc9_10": [-56656,-56205,-2008,"npc9_11",900],
 "npc9_11": [-56606,-56204,-2008,"npc9_12",1100],
 "npc9_12": [-56554,-56203,-2008,"npc9_13",1200],
-"npc9_13": [-56506,-56203,-2008,"npc9_1",1200],
-"24"     : [-56730,-56340,-2008,"25",1800],
-"27"     : [-56702,-56340,-2008,"29",1800]
+"npc9_13": [-56506,-56203,-2008,"npc9_1",1200] # Update by rocknow
 }
 
 
@@ -162,7 +161,7 @@ class MC_Show(JQuest) :
        gameTime = GameTimeController.getInstance().getGameTime()
        h = (gameTime/60)%24
        m = gameTime%60
-       if h == 20 and m >= 27 and m <= 33:
+       if h >= 18 and h <= 21 and m >= 27 and m <= 33: # Update by rocknow
           self.startQuestTimer("Start",100, None, None)
           self.cancelQuestTimer("timer_check", None, None)
     elif event == "Start" :
@@ -196,6 +195,7 @@ class MC_Show(JQuest) :
     elif event == "7" and npc :
        if npc.getNpcId() == self.MC:
           self.AutoChat(npc,TEXT[7],1)
+          self.AutoChat(npc,TEXT[22],1) # Update by rocknow
           npc.getAI().setIntention(CtrlIntention.AI_INTENTION_MOVE_TO, L2CharPosition(-56698,-56430,-2008,32768))
           self.startQuestTimer("8",12000, npc, None)
        else:
@@ -262,8 +262,12 @@ class MC_Show(JQuest) :
           self.startQuestTimer("social1",5500, j, None)
           self.startQuestTimer("social1_1",12500, j, None)
           self.startQuestTimer("28",19700, j, None)
+    elif event == "24" and npc : # Update by rocknow
+       self.startQuestTimer("25",1800, npc, None)
+    elif event == "27" and npc : # Update by rocknow
+       self.startQuestTimer("29",1800, npc, None)
     elif event == "28" and npc :
-       self.AutoChat(npc,"We love you.",0)
+       self.AutoChat(npc,"我愛你們喔。",0)
        self.startQuestTimer("social1",1, npc, None)
        self.startQuestTimer("clean_npc",1200, npc, None)
     elif event == "29" and npc :
@@ -273,7 +277,7 @@ class MC_Show(JQuest) :
     elif event in ["social1","social1_1"] and npc :
        npc.broadcastPacket(SocialAction(npc.getObjectId(),1))
     elif event == "clean_npc" and npc :
-       if npc.getNpcId() in [self.circus[0], self.circus[1], self.circus[2],self.circus[3],self.circus[4]] :
+       if npc.getNpcId() in [self.MC, self.circus[0], self.circus[1], self.circus[2],self.circus[3],self.circus[4]] : # Update by rocknow
           self.isSpawned = 0
        npc.deleteMe()
     return 
