@@ -6,10 +6,6 @@ from net.sf.l2j.gameserver.model.quest.jython import QuestJython as JQuest
 
 qn = "660_AidingtheFloranVillage"
 
-# NPC
-MARIA = 30608
-ALEX = 30291
-
 # MOBS
 CARSED_SEER = 21106
 PLAIN_WATCMAN = 21102
@@ -44,20 +40,24 @@ class Quest (JQuest) :
       st.set("cond","1")
       st.setState(State.STARTED)
       st.playSound("ItemSound.quest_accept")
-    if event == "30291-15.htm" :
-      st.playSound("ItemSound.quest_middle")
+    if event =="30291-02a.htm" :                            # pmq修正
+      st.set("cond","1")                                    # pmq修正
+      st.setState(State.STARTED)                            # pmq修正
+      st.playSound("ItemSound.quest_accept")                # pmq修正
+      st.set("cond","2")                                    # pmq修正
     if event == "30291-05.htm" :
       if EYES+SCALE+SHARD >= 45 :
         st.giveItems(ADENA, EYES*100+SCALE*100+SHARD*100+9000)
         st.takeItems(WATCHING_EYES,-1)
         st.takeItems(DELU_LIZARDMAN_SCALE,-1)
         st.takeItems(ROUGHLY_HEWN_ROCK_GOLEM_SHARD,-1)
+        st.playSound("ItemSound.quest_accept")              # pmq修正
       else :
         st.giveItems(ADENA,EYES*100+SCALE*100+SHARD*100)
         st.takeItems(WATCHING_EYES,-1)
         st.takeItems(DELU_LIZARDMAN_SCALE,-1)
         st.takeItems(ROUGHLY_HEWN_ROCK_GOLEM_SHARD,-1)
-      st.playSound("ItemSound.quest_finish")
+        st.playSound("ItemSound.quest_accept")              # pmq修正
     if event == "30291-11.htm" :
       if EYES+SCALE+SHARD >= 99 :
         n = 100 - EYES
@@ -76,7 +76,7 @@ class Quest (JQuest) :
           st.giveItems(SCROLL_ENCANT_ARMOR,1)
         else :
           st.giveItems(ADENA,1000)
-        st.playSound("ItemSound.quest_finish")
+          st.playSound("ItemSound.quest_accept")             # pmq修正
       else :
         htmltext="30291-16.htm"                              # pmq修正
     if event == "30291-12.htm" :
@@ -100,7 +100,7 @@ class Quest (JQuest) :
           st.giveItems(SCROLL_ENCHANT_WEAPON,1)
         if luck in range (12,15) :
           st.giveItems(ADENA,2000)
-        st.playSound("ItemSound.quest_finish")
+          st.playSound("ItemSound.quest_accept")             # pmq修正
       else :
         htmltext="30291-17.htm"                              # pmq修正
     if event == "30291-13.htm" :
@@ -121,7 +121,7 @@ class Quest (JQuest) :
           st.giveItems(SCROLL_ENCHANT_WEAPON,1)
         else :
           st.giveItems(ADENA,5000)
-        st.playSound("ItemSound.quest_finish")
+          st.playSound("ItemSound.quest_accept")             # pmq修正
       else :
         htmltext="30291-18.htm"                              # pmq修正
     elif event == "30291-06.htm" :
@@ -142,23 +142,25 @@ class Quest (JQuest) :
    cond = st.getInt("cond")
    if st.getState() == State.COMPLETED :
      st.setState(State.CREATED)
-   if npcId == MARIA and cond == 0 :
+   if npc and cond == 0 :                                     # pmq修正
      if st.getPlayer().getLevel() >= 30 :
-       htmltext = "30608-02.htm"
+       htmltext = str(npcId)+"-02.htm"                        # pmq修正
      else :
-       htmltext = "30608-01.htm"
+       htmltext = str(npcId)+"-01.htm"                        # pmq修正
        st.exitQuest(1)
-   if npcId == MARIA and cond == 1 :
+   if npcId == 30608 and cond == 1 :                          # pmq修正
+     htmltext = "30608-06.htm"                                # pmq修正
+   if npcId == 30608 and cond == 2 :                          # pmq修正
      htmltext = "30608-06.htm"
-   if npcId == ALEX and cond == 1 :
-     htmltext = "30291-01.htm"
+   if npcId == 30291 and cond == 1 :                          # pmq修正
+     htmltext = "30291-01a.htm"                               # pmq修正
      st.playSound("ItemSound.quest_middle")
      st.set("cond","2")
-   if npcId == ALEX and cond == 2 :
+   if npcId == 30291 and cond == 2 :                          # pmq修正
      if EYES+SCALE+SHARD == 0 :
-       htmltext = "30291-02.htm"
+       htmltext = "30291-03.htm"                              # pmq修正
      else :
-       htmltext = "30291-03.htm"  
+       htmltext = "30291-04.htm"                              # pmq修正
    return htmltext
 
  def onKill(self,npc,player,isPet):
@@ -180,10 +182,9 @@ class Quest (JQuest) :
 
 QUEST       = Quest(660,qn,"幫助芙羅蘭村莊吧")
 
-QUEST.addStartNpc(MARIA)
-
-QUEST.addTalkId(MARIA)
-QUEST.addTalkId(ALEX)
+for npc in [30291,30608]:                                     # pmq修正
+    QUEST.addStartNpc(npc)                                    # pmq修正
+    QUEST.addTalkId(npc)                                      # pmq修正
 
 QUEST.addKillId(CARSED_SEER)
 QUEST.addKillId(PLAIN_WATCMAN)

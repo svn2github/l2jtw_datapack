@@ -7,6 +7,7 @@ from net.sf.l2j.gameserver.model.quest.jython import QuestJython as JQuest
 qn = "327_ReclaimTheLand"
 
 ADENA = 57
+Leikans_Letter = 5012
 
 TUREK_DOGTAG,        TUREK_MEDALLION,     CLAY_URN_FRAGMENT,    \
 BRASS_TRINKET_PIECE, BRONZE_MIRROR_PIECE, JADE_NECKLACE_BEAD,   \
@@ -39,14 +40,20 @@ class Quest (JQuest) :
  def onEvent (self,event,st) :
     htmltext = event
     n=st.getRandom(100)
-    if event == "30597-03.htm" :
+    if event == "30382-03.htm" :                  #pmq
       st.set("cond","1")
       st.setState(State.STARTED)
+      st.giveItems(Leikans_Letter,1)              #pmq
       st.playSound("ItemSound.quest_accept")
-    elif event == "30597-06.htm" :
-      st.exitQuest(1)
-      st.playSound("ItemSound.quest_finish")
-    elif event == "30313-02.htm" :
+      st.set("cond","2")
+    if event == "1" :                             #pmq
+         st.set("cond","1")
+         st.setState(State.STARTED)
+         htmltext = "30597-03.htm"
+         st.playSound("ItemSound.quest_accept")
+    if event == "30382_05a" :                     #pmq
+         htmltext = "30382-05a.htm"
+    if event == "30313-02.htm" :
       if st.getQuestItemsCount(CLAY_URN_FRAGMENT) >= 5 :
         st.takeItems(CLAY_URN_FRAGMENT,5)
         if n < 80 :
@@ -54,7 +61,7 @@ class Quest (JQuest) :
           st.giveItems(ANCIENT_CLAY_URN,1)
         else:
           htmltext = "30313-10.htm"
-    elif event == "30313-04.htm" :
+    if event == "30313-04.htm" :
       if st.getQuestItemsCount(BRASS_TRINKET_PIECE) >= 5 :
         st.takeItems(BRASS_TRINKET_PIECE,5)
         if n < 80 :
@@ -62,7 +69,7 @@ class Quest (JQuest) :
           st.giveItems(ANCIENT_BRASS_TIARA,1)
         else:
           htmltext = "30313-10.htm"
-    elif event == "30313-06.htm" :
+    if event == "30313-06.htm" :
       if st.getQuestItemsCount(BRONZE_MIRROR_PIECE) >= 5 :
         st.takeItems(BRONZE_MIRROR_PIECE,5)
         if n < 80 :
@@ -70,7 +77,7 @@ class Quest (JQuest) :
           st.giveItems(ANCIENT_BRONZE_MIRROR,1)
         else:
           htmltext = "30313-10.htm"
-    elif event == "30313-08.htm" :
+    if event == "30313-08.htm" :
       if st.getQuestItemsCount(JADE_NECKLACE_BEAD) >= 5 :
         st.takeItems(JADE_NECKLACE_BEAD,5)
         if n < 80 :
@@ -78,49 +85,85 @@ class Quest (JQuest) :
           st.giveItems(ANCIENT_JADE_NECKLACE,1)
         else:
           htmltext = "30313-10.htm"
-    elif event == "30034-03.htm" :
-      n = st.getQuestItemsCount(CLAY_URN_FRAGMENT)
-      if n == 0 :
-        htmltext = "30034-02.htm"
+    if event == "30034-03.htm" :
+        n = st.getQuestItemsCount(CLAY_URN_FRAGMENT)
+        if n == 0 :
+          htmltext = "30034-02.htm"
+        else:
+          st.takeItems(CLAY_URN_FRAGMENT,n)
+          st.addExpAndSp(n*152,0)
+          st.playSound("ItemSound.quest_itemget")
+    if event == "30034-04.htm" :
+        n = st.getQuestItemsCount(BRASS_TRINKET_PIECE)
+        if n == 0 :
+          htmltext = "30034-02.htm"
+        else:
+          st.takeItems(BRASS_TRINKET_PIECE,n)
+          st.addExpAndSp(n*182,0)
+          st.playSound("ItemSound.quest_itemget")
+    if event == "30034-05.htm" :
+        n = st.getQuestItemsCount(BRONZE_MIRROR_PIECE)
+        if n == 0 :
+          htmltext = "30034-02.htm"
+        else:
+          st.takeItems(BRONZE_MIRROR_PIECE,n)
+          st.addExpAndSp(n*182,0)
+          st.playSound("ItemSound.quest_itemget")
+    if event == "30034-06.htm" :
+        n = st.getQuestItemsCount(JADE_NECKLACE_BEAD)
+        if n < 1 :
+          htmltext = "30034-02.htm"
+        else:
+         st.takeItems(JADE_NECKLACE_BEAD,n)
+         st.addExpAndSp(n*182,0)
+         st.playSound("ItemSound.quest_itemget")
+    if event == "30034-07.htm" :
+        n1 = 0
+        for i in range(1852,1856) :
+           n=st.getQuestItemsCount(i)
+           if n :
+             n1 = 1
+             st.takeItems(i,n)
+             st.addExpAndSp(n*EXP[i],0)
+             st.playSound("ItemSound.quest_itemget")
+        if not n1 :
+          htmltext = "30034-02.htm"
+    if event == "30314-03.htm" :                  #pmq
+      if st.getQuestItemsCount(ANCIENT_CLAY_URN) >= 1 :
+        st.takeItems(ANCIENT_CLAY_URN,1)
+        st.giveItems(39,1)
+        htmltext = "30314-03.htm"
       else:
-        st.takeItems(CLAY_URN_FRAGMENT,n)
-        st.addExpAndSp(n*152,0)
-        st.playSound("ItemSound.quest_itemget")
-    elif event == "30034-04.htm" :
-      n = st.getQuestItemsCount(BRASS_TRINKET_PIECE)
-      if n == 0 :
-        htmltext = "30034-02.htm"
+          htmltext = "30314-07.htm"
+    if event == "30314-04.htm" :                  #pmq
+      if st.getQuestItemsCount(ANCIENT_BRASS_TIARA) >= 1 :
+        st.takeItems(ANCIENT_BRASS_TIARA,1)
+        st.giveItems(40,1)
+        htmltext = "30314-04.htm"
       else:
-        st.takeItems(BRASS_TRINKET_PIECE,n)
-        st.addExpAndSp(n*182,0)
-        st.playSound("ItemSound.quest_itemget")
-    elif event == "30034-05.htm" :
-      n = st.getQuestItemsCount(BRONZE_MIRROR_PIECE)
-      if n == 0 :
-        htmltext = "30034-02.htm"
+        htmltext = "30314-07.htm"
+    if event == "30314-05.htm" :                  #pmq
+      if st.getQuestItemsCount(ANCIENT_BRONZE_MIRROR) >= 1 :
+        st.takeItems(ANCIENT_BRONZE_MIRROR,1)
+        st.giveItems(41,1)
+        htmltext = "30314-05.htm"
       else:
-        st.takeItems(BRONZE_MIRROR_PIECE,n)
-        st.addExpAndSp(n*182,0)
-        st.playSound("ItemSound.quest_itemget")
-    elif event == "30034-06.htm" :
-      n = st.getQuestItemsCount(JADE_NECKLACE_BEAD)
-      if n < 1 :
-        htmltext = "30034-02.htm"
+        htmltext = "30314-07.htm"
+    if event == "30314-06.htm" :                  #pmq
+      if st.getQuestItemsCount(ANCIENT_JADE_NECKLACE) >= 1 :
+        st.takeItems(ANCIENT_JADE_NECKLACE,1)
+        st.giveItems(42,1)
+        htmltext = "30314-06.htm"
       else:
-       st.takeItems(JADE_NECKLACE_BEAD,n)
-       st.addExpAndSp(n*182,0)
-       st.playSound("ItemSound.quest_itemget")
-    elif event == "30034-07.htm" :
-      n1 = 0
-      for i in range(1852,1856) :
-         n=st.getQuestItemsCount(i)
-         if n :
-           n1 = 1
-           st.takeItems(i,n)
-           st.addExpAndSp(n*EXP[i],0)
-           st.playSound("ItemSound.quest_itemget")
-      if not n1 :
-        htmltext = "30034-02.htm"
+        htmltext = "30314-07.htm"
+    if event == "30314_08" :                      #pmq
+      if st.getQuestItemsCount(ANCIENT_CLAY_URN) or st.getQuestItemsCount(ANCIENT_BRASS_TIARA) or st.getQuestItemsCount(ANCIENT_BRONZE_MIRROR) or st.getQuestItemsCount(ANCIENT_JADE_NECKLACE) >= 1 :
+        htmltext = "30314-08.htm"
+      else:
+        htmltext = "30314-09.htm"
+    if event == "30597-06.htm" :                  #pmq
+        st.exitQuest(1)
+        st.playSound("ItemSound.quest_finish")
     return htmltext
 
  def onTalk (self,npc,player):
@@ -129,30 +172,72 @@ class Quest (JQuest) :
    if not st : return htmltext
 
    npcId = npc.getNpcId()
+   dogtag = st.getQuestItemsCount(TUREK_DOGTAG)
+   medallion = st.getQuestItemsCount(TUREK_MEDALLION)
    id = st.getState()
-   if npcId != 30597 and id != State.STARTED : return htmltext
-
-   if id == State.CREATED :
-     st.set("cond","0")
-   if npcId == 30597 :
-     if st.getInt("cond")==0 :
-       if player.getLevel() < 25 :
-         htmltext = "30597-01.htm"
-         st.exitQuest(1)
-       else :
-         htmltext = "30597-02.htm"
+   cond = st.getInt("cond")
+   if st.getState() == State.COMPLETED :
+     st.setState(State.CREATED)
+   if npc and cond == 0 :                         # pmq修正
+     if player.getLevel() < 25 :
+       htmltext = str(npcId)+"-01.htm"
+       st.exitQuest(1)
      else :
-      dogtag = st.getQuestItemsCount(TUREK_DOGTAG)
-      medallion = st.getQuestItemsCount(TUREK_MEDALLION)
+       htmltext = str(npcId)+"-02.htm"
+   if npcId == 30034 and cond > 0 and cond < 6 :  #pmq cond 1-5
+         htmltext = "30034-01.htm"
+   if npcId == 30313 and cond > 0 and cond < 6 :  #pmq cond 1-5
+         htmltext = "30313-01.htm"
+   if npcId == 30314 and cond > 0 and cond < 6 :  #pmq cond 1-5
+         htmltext = "30314-01.htm"
+   if npcId == 30382 and cond == 1 :              #pmq cond 1
+         htmltext = "30382-05.htm"
+         st.playSound("ItemSound.quest_accept")
+         st.set("cond","5")
+   if npcId == 30382 and cond == 2 :              #pmq cond 2
+         htmltext = "30382-04.htm"
+   if npcId == 30382 and cond > 2 and cond < 6 :  #pmq cond 3,4,5
+         htmltext = "30382-05.htm"
+         st.playSound("ItemSound.quest_accept")
+         st.set("cond","5")
+   if npcId == 30597 and cond == 1 :              #pmq cond 1,3
       if dogtag + medallion == 0 :
-        htmltext = "30597-04.htm"
+         htmltext = "30597-04.htm"
       else:
-        htmltext = "30597-05.htm"
-        st.giveItems(ADENA,dogtag*40+medallion*50)
-        st.takeItems(TUREK_DOGTAG,dogtag)
-        st.takeItems(TUREK_MEDALLION,medallion)
-   else :
-      htmltext = str(npcId)+"-01.htm"
+         htmltext = "30597-05.htm"
+         st.playSound("ItemSound.quest_accept")
+         st.giveItems(ADENA,dogtag*40+medallion*50)
+         st.takeItems(TUREK_DOGTAG,dogtag)
+         st.takeItems(TUREK_MEDALLION,medallion)
+         st.set("cond","4")
+   if npcId == 30597 and cond == 2 :              #pmq cond 2
+      if st.getQuestItemsCount(Leikans_Letter) == 1 :
+         st.takeItems(Leikans_Letter,1)
+         htmltext = "30597-03a.htm"
+         st.playSound("ItemSound.quest_accept")
+         st.set("cond","3")
+      else:
+         htmltext = "道具遺失"
+   if npcId == 30597 and cond == 3 :              #pmq cond 1,3
+      if dogtag + medallion == 0 :
+         htmltext = "30597-04.htm"
+      else:
+         htmltext = "30597-05.htm"
+         st.playSound("ItemSound.quest_accept")
+         st.giveItems(ADENA,dogtag*40+medallion*50)
+         st.takeItems(TUREK_DOGTAG,dogtag)
+         st.takeItems(TUREK_MEDALLION,medallion)
+         htmltext = "30597-05.htm"
+         st.set("cond","4")
+   if npcId == 30597 and cond > 3 and cond < 6 :  #pmq cond 4,5
+      if dogtag + medallion == 0 :
+         htmltext = "30597-04.htm"
+      else:
+         htmltext = "30597-05.htm"
+         st.giveItems(ADENA,dogtag*40+medallion*50)
+         st.takeItems(TUREK_DOGTAG,dogtag)
+         st.takeItems(TUREK_MEDALLION,medallion)
+         st.playSound("ItemSound.quest_accept")
    return htmltext
 
  def onKill(self,npc,player,isPet):
@@ -177,13 +262,10 @@ class Quest (JQuest) :
 
 QUEST       = Quest(327,qn,"奪回農地")
 
-QUEST.addStartNpc(30597)
+for npc in [30382,30597] :
+    QUEST.addStartNpc(npc)
+for npc in [30034,30313,30314,30382,30597] :
+    QUEST.addTalkId(npc)
 
-QUEST.addTalkId(30597)
-
-QUEST.addTalkId(30034)
-QUEST.addTalkId(30313)
-QUEST.addTalkId(30597)
-
-for i in range(20495,20502) :
+for i in range(20495,20501) :
     QUEST.addKillId(i)

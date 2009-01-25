@@ -47,8 +47,9 @@ class Quest (JQuest) :
             st.playSound("ItemSound.quest_finish")
             htmltext = "31328-05.htm"
         elif event == "31523-03.htm" :
+            st.set("cond","2")                       #pmq修改
             st.playSound("SkillSound5.horror_02")
-            st.set("cond","2")
+            st.playSound("ItemSound.quest_middle")   #pmq修改
             ghost = st.addSpawn(31524,51432,-54570,-3136,1800000)
             ghost.broadcastPacket(NpcSay(ghost.getObjectId(),0,ghost.getNpcId(),"是誰叫醒我。"))
         elif event == "31524-06.htm" :
@@ -112,7 +113,7 @@ class Quest (JQuest) :
            st.exitQuest(1)
        else:
          htmltext = "這是已經完成的任務。"
-     elif cond == 1:
+     elif cond > 0 and cond < 8 : #pmq修改 cond 1~8
        htmltext = "31522-05.htm"       
    elif npcId == 31523 :
      if cond == 1 :
@@ -120,6 +121,8 @@ class Quest (JQuest) :
      elif cond == 2 :
        htmltext = "31523-04.htm"
        st.playSound("SkillSound5.horror_02")
+     elif cond > 2 and cond < 5 : #pmq修改 cond 3,4
+       htmltext = "31523-04.htm"
    elif npcId == 31524 :
      if cond == 2 :
        htmltext = "31524-01.htm"
@@ -129,6 +132,10 @@ class Quest (JQuest) :
        st.playSound("ItemSound.quest_middle")
      elif cond == 4 :
        htmltext = "31524-07c.htm"
+     elif cond == 5 :              #pmq修改
+       htmltext = "31524-07.htm"   #pmq修改
+     elif cond == 6 :              #pmq修改
+       htmltext = "31524-07a.htm"  #pmq修改
    elif npcId == 31525 :
      if cond == 3 :
        htmltext = "31525-01.htm"
