@@ -725,9 +725,19 @@
   <set name="castRange" val="-1"/>
 </skill>
 <skill id="8250" levels="2" name="Summon Tigress">
-  <set name="target" val="TARGET_NONE"/>
-  <set name="skillType" val="NOTDONE"/>
-  <set name="operateType" val="OP_PASSIVE"/>
+  <!-- Update by rocknow from L2Emu -->
+  <table name="#npc"> 14916 14917 </table>
+  <set name="target" val="TARGET_SELF"/>
+  <set name="reuseDelay" val="20000"/>
+  <set name="hitTime" val="6000"/>
+  <set name="skillType" val="SUMMON"/>
+  <set name="isMagic" val="true"/>
+  <set name="operateType" val="OP_ACTIVE"/>
   <set name="castRange" val="-1"/>
+  <set name="effectRange" val="-1"/>
+  <set name="npcId" val="#npc"/>
+  <set name="summonTotalLifeTime" val="5400000"/>
+  <set name="expPenalty" val="0.0"/>
+  <set name="isCubic" val="false"/>
 </skill>
 </list>
