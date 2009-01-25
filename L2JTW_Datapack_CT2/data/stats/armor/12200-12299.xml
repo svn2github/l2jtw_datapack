@@ -158,6 +158,7 @@
 <item id='12232' name="Common Item - Sealed Tallum Tunic">
   <for>
     <add val='86' order='0x10' stat='pDef'/>
+    <add val='409' order='0x40' stat='maxMp'/><!-- Update by rocknow -->
   </for>
 </item>
 <item id='12233' name="Common Item - Sealed Tallum Plate Armor">

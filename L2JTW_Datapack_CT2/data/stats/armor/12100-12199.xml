@@ -309,6 +309,7 @@
 <item id='12166' name="Common Item - Avadon Robe">
   <for>
     <add val='127' order='0x10' stat='pDef'/>
+    <add val='561' order='0x40' stat='maxMp'/><!-- Update by rocknow -->
   </for>
 </item>
 <item id='12167' name="Common Item - Avadon Boots">

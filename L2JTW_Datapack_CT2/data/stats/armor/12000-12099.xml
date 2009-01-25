@@ -206,11 +206,13 @@
 <item id='12047' name="Common Item - Tunic of Knowledge">
   <for>
     <add val='49' order='0x10' stat='pDef'/>
+    <add val='147' order='0x40' stat='maxMp'/><!-- Update by rocknow -->
   </for>
 </item>
 <item id='12048' name="Common Item - Stockings of Knowledge">
   <for>
     <add val='30' order='0x10' stat='pDef'/>
+    <add val='92' order='0x40' stat='maxMp'/><!-- Update by rocknow -->
   </for>
 </item>
 <item id='12049' name="Common Item - Compound Scale Gaiters">
