@@ -2064,12 +2064,6 @@ INSERT IGNORE INTO `droplist` VALUES
 ('35416', '601', '1', '1', '1', '27');
 
 
-/************ 修正強力挑撥的精練 ************/
-UPDATE `enchant_skill_trees` SET `min_skill_lvl` = '210' WHERE `skill_id` ='18' and `level` ='211';
-UPDATE `enchant_skill_trees` SET `min_skill_lvl` = '211' WHERE `skill_id` ='18' and `level` ='212';
-UPDATE `enchant_skill_trees` SET `min_skill_lvl` = '212' WHERE `skill_id` ='18' and `level` ='213';
-
-
 /************ 修正物品 ************/
 UPDATE `etcitem` SET `price` = '7' WHERE `item_id` ='1835';
 UPDATE `etcitem` SET `sellable` = 'false' WHERE `item_id` = 5575;

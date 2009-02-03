@@ -185,7 +185,7 @@
   <set name="mpConsume" val="#mpConsume"/>
   <set name="power" val="80"/>
   <set name="target" val="TARGET_AURA"/>
-  <set name="radius" val="200"/>
+  <set name="skillRadius" val="200"/>
   <set name="reuseDelay" val="8000"/>
   <set name="hitTime" val="2500"/>
   <set name="skillType" val="ROOT"/>
@@ -1023,7 +1023,6 @@
   <set name="magicLvl" val="#magicLvl"/>
   <set name="target" val="TARGET_ONE"/>
   <set name="skillType" val="POISON"/>
-  <set name="killByDOT" val="false"/>
   <set name="operateType" val="OP_ACTIVE"/>
   <set name="castRange" val="-1"/>
   <set name="effectRange" val="-1"/>
@@ -1042,7 +1041,6 @@
   <set name="magicLvl" val="#magicLvl"/>
   <set name="target" val="TARGET_ONE"/>
   <set name="skillType" val="BLEED"/>
-  <set name="killByDOT" val="false"/>
   <set name="operateType" val="OP_ACTIVE"/>
   <set name="castRange" val="-1"/>
   <set name="effectRange" val="-1"/>

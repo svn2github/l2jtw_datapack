@@ -297,17 +297,19 @@
   </for>
 </skill>
 <skill id="4022" levels="1" name="Body Of Nurse Ant">
-  <!-- Needs to be done -->
+  <!-- This Skill Is Only For Description In The Client -->
   <set name="target" val="TARGET_SELF"/>
   <set name="skillType" val="PASSIVE"/>
+  <set name="magicLvl" val="35"/>
   <set name="operateType" val="OP_PASSIVE"/>
   <set name="castRange" val="-1"/>
   <set name="effectRange" val="-1"/>
 </skill>
 <skill id="4023" levels="1" name="Body Of Royal Guard Ant">
-  <!-- Needs to be done -->
+  <!-- This Skill Is Only For Description In The Client -->
   <set name="target" val="TARGET_SELF"/>
   <set name="skillType" val="PASSIVE"/>
+  <set name="magicLvl" val="35"/>
   <set name="operateType" val="OP_PASSIVE"/>
   <set name="castRange" val="-1"/>
   <set name="effectRange" val="-1"/>
@@ -412,7 +414,6 @@
   </for>
 </skill>
 <skill id="4030" levels="3" name="NPC Clan Might">
-  <!-- SHOULD BUFF FACTION MOBS -->
   <table name="#magicLvl"> 20 40 70 </table>
   <table name="#mpInitialConsume"> 2 4 7 </table>
   <table name="#mpConsume"> 8 14 26 </table>
@@ -420,7 +421,7 @@
   <set name="magicLvl" val="#magicLvl"/>
   <set name="mpInitialConsume" val="#mpInitialConsume"/>
   <set name="mpConsume" val="#mpConsume"/>
-  <set name="target" val="TARGET_SELF"/>
+  <set name="target" val="TARGET_CLAN"/>
   <set name="reuseDelay" val="8000"/>
   <set name="hitTime" val="2500"/>
   <set name="skillType" val="BUFF"/>
@@ -436,7 +437,6 @@
   </for>
 </skill>
 <skill id="4031" levels="3" name="NPC Clan Aegis">
-  <!-- SHOULD BUFF FACTION MOBS -->
   <table name="#magicLvl"> 20 40 70 </table>
   <table name="#mpInitialConsume"> 2 4 7 </table>
   <table name="#mpConsume"> 8 14 26 </table>
@@ -444,7 +444,7 @@
   <set name="magicLvl" val="#magicLvl"/>
   <set name="mpInitialConsume" val="#mpInitialConsume"/>
   <set name="mpConsume" val="#mpConsume"/>
-  <set name="target" val="TARGET_SELF"/>
+  <set name="target" val="TARGET_CLAN"/>
   <set name="reuseDelay" val="8000"/>
   <set name="hitTime" val="2500"/>
   <set name="skillType" val="BUFF"/>
@@ -1287,10 +1287,12 @@
   <set name="aggroPoints" val="100"/>
 </skill>
 <skill id="4081" levels="1" name="Pretending to steal">
+  <!-- Done by DJ MELERIX -->
   <set name="target" val="TARGET_ONE"/>
   <set name="hitTime" val="4000"/>
-  <set name="skillType" val="NOTDONE"/>
+  <set name="skillType" val="BUFF"/> <!-- Just Broadcast -->
   <set name="isMagic" val="true"/>
+  <set name="magicLvl" val="70"/>
   <set name="operateType" val="OP_ACTIVE"/>
   <set name="castRange" val="600"/>
   <set name="effectRange" val="1100"/>
@@ -1500,12 +1502,16 @@
   <set name="negateStats" val="BUFF DEBUFF HEAL_PERCENT"/>
 </skill>
 <skill id="4095" levels="1" name="Damage Shield">
-  <set name="power" val="20.0"/>
-  <set name="target" val="TARGET_SELF"/>
-  <set name="skillType" val="REFLECT"/>
-  <set name="operateType" val="OP_PASSIVE"/>
+  <!-- Done by DJ MELERIX -->
   <set name="castRange" val="-1"/>
   <set name="effectRange" val="-1"/>
+  <set name="magicLvl" val="1"/>
+  <set name="operateType" val="OP_PASSIVE"/>
+  <set name="skillType" val="REFLECT"/>
+  <set name="target" val="TARGET_SELF"/>
+  <for>
+    <add order="0x40" stat="reflectDam" val="20"/>
+  </for>
 </skill>
 <skill id="4096" levels="3" name="NPC Hawkeye">
   <!-- Done by dc -->

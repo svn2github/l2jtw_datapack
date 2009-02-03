@@ -318,7 +318,6 @@
   <set name="summonTimeLostActive" val="1000"/>
   <set name="npcId" val="14737"/>
   <set name="expPenalty" val="0.0"/>
-  <set name="isCubic" val="false"/>
 </skill>
 <skill id="15" levels="52" name="Charm">
   <table name="#mpConsume_Init"> 2 2 2 2 3 3 3 3 3 3 3 3 3 3 4 4 4 4 4 4 4 4 4 5 4 5 5 5 5 5 5 5 5 6 5 6 6 6 6 6 6 6 6 7 6 7 7 7 7 7 7 7 </table>
@@ -547,7 +546,6 @@
   <table name="#npcIds"> 14663 14664 14665 14666 14667 14668 14669 14670 14671 </table>
   <set name="npcId" val="#npcIds"/>
   <set name="expPenalty" val="0.15"/>
-  <set name="isCubic" val="false"/>
 </skill>
 <skill id="27" levels="14" name="Unlock">
   <table name="#mpConsume"> 19 22 25 28 31 35 39 43 47 51 55 59 63 67 </table>
@@ -1424,11 +1422,10 @@
   <table name="#ench2MpConsume_Init"> 5 5 5 5 5 5 5 5 5 5 4 4 4 4 4 4 4 4 4 4 3 3 3 3 3 3 3 3 3 3 </table>
   <table name="#mpConsume_Init"> 4 5 5 </table>
   <table name="#mpConsume"> 14 17 19 </table>
-  <table name="#power"> 10 15 20 </table>
+  <table name="#reflectDam"> 10 15 20 </table>
   <table name="#aggro"> 379 438 495 </table>
   <set name="mpInitialConsume" val="#mpConsume_Init"/>
   <set name="mpConsume" val="#mpConsume"/>
-  <set name="power" val="#power"/>
   <set name="target" val="TARGET_SELF"/>
   <set name="reuseDelay" val="6000"/>
   <set name="hitTime" val="4000"/>
@@ -1441,8 +1438,8 @@
   <enchant2 name="mpConsume" val="#ench2MpConsume"/>
   <enchant2 name="mpInitialConsume" val="#ench2MpConsume_Init"/>
   <for>
-    <effect count="1" name="Buff" time="1200" val="0" stackOrder="#power" stackType="DmgShield">
-      <add order="0x40" stat="reflectDam" val="#power"/>
+    <effect count="1" name="Buff" time="1200" val="0" stackOrder="#reflectDam" stackType="DmgShield">
+      <add order="0x40" stat="reflectDam" val="#reflectDam"/>
     </effect>
   </for>
   <enchant1for>
