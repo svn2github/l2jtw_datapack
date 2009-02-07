@@ -12,7 +12,7 @@ QUEST_NUMBER,QUEST_NAME,QUEST_DESCRIPTION = 348,"ArrogantSearch","傲慢的探索"
 qn = "348_ArrogantSearch"
 
 #Messages
-default   = "<html><body>我沒什麼話可對你說。</body></html>"
+default   = "<html><body>我跟你無話可說。</body></html>"
 #MOBS TO KILL
 ARK_GUARDIAN_ELBEROTH = 27182
 ARK_GUARDIAN_SHADOWFANG = 27183
@@ -349,7 +349,7 @@ class Quest (JQuest) :
                 htmltext = BLOODY_OWNERS[npcId][4]
     return htmltext
  
- def onAttack (self, npc, player, damage, isPet):
+ def onAttack (self, npc, player, damage, isPet, skill):
      st = player.getQuestState(qn)
      if not st : return
      if st.getState() != State.STARTED : return
