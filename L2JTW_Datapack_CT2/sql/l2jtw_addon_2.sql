@@ -1737,6 +1737,16 @@ INSERT INTO `npc_buffer` VALUES
 ('1000003', '1397', '3', '57', '100', '1397');
 
 
+/************ 移除舊的資料表 ************/
+DROP TABLE IF EXISTS boxaccess;
+DROP TABLE IF EXISTS boxes;
+DROP TABLE IF EXISTS grandboss_intervallist;
+DROP TABLE IF EXISTS lastimperialtomb_spawnlist;
+DROP TABLE IF EXISTS seven_signs_spawnlist;
+DROP TABLE IF EXISTS vanhalter_spawnlist;
+Delete From `grandboss_data` Where `boss_id` in (29045,29062,29065);
+
+
 /************ 以下是參考 L2EmuProject-Datapack 所製作的修正 ************/
 
 /************ 修正防具 ************/

@@ -47,15 +47,10 @@ public class Zaken extends L2Transformation
 		this.getPlayer().addSkill(SkillTable.getInstance().getInfo(619, 1), false);
 		// Decrease Bow/Crossbow Attack Speed
 		this.getPlayer().addSkill(SkillTable.getInstance().getInfo(5491, 1), false);
-                // ZaKen Holy Light Burst
-		this.getPlayer().addSkill(SkillTable.getInstance().getInfo(715, 4), false);
-                // ZaKen Energy Attack
-		this.getPlayer().addSkill(SkillTable.getInstance().getInfo(716, 4), false);
-                // ZaKen Holy Beam
-		this.getPlayer().addSkill(SkillTable.getInstance().getInfo(717, 4), false);
-                // ZaKen Sunshine
-		this.getPlayer().addSkill(SkillTable.getInstance().getInfo(718, 4), false);
-                // ZaKen Clans
+		this.getPlayer().addSkill(SkillTable.getInstance().getInfo(715, 1), false);
+		this.getPlayer().addSkill(SkillTable.getInstance().getInfo(716, 1), false);
+		this.getPlayer().addSkill(SkillTable.getInstance().getInfo(717, 1), false);
+		this.getPlayer().addSkill(SkillTable.getInstance().getInfo(718, 1), false);
 		this.getPlayer().addSkill(SkillTable.getInstance().getInfo(719, 1), false);
 		// Send a Server->Client packet StatusUpdate to the L2PcInstance.
 		this.getPlayer().sendSkillList();
@@ -73,15 +68,10 @@ public class Zaken extends L2Transformation
 		this.getPlayer().removeSkill(SkillTable.getInstance().getInfo(619, 1), false);
 		// Decrease Bow/Crossbow Attack Speed
 		this.getPlayer().removeSkill(SkillTable.getInstance().getInfo(5491, 1), false);
-                // ZaKen Holy Light Burst
-		this.getPlayer().removeSkill(SkillTable.getInstance().getInfo(715, 4), false);
-                // ZaKen Energy Attack
-		this.getPlayer().removeSkill(SkillTable.getInstance().getInfo(716, 4), false);
-                // ZaKen Holy Beam
-		this.getPlayer().removeSkill(SkillTable.getInstance().getInfo(717, 4), false);
-                // ZaKen Sunshine
-		this.getPlayer().removeSkill(SkillTable.getInstance().getInfo(718, 4), false);
-                // ZaKen Clans
+		this.getPlayer().removeSkill(SkillTable.getInstance().getInfo(715, 1), false);
+		this.getPlayer().removeSkill(SkillTable.getInstance().getInfo(716, 1), false);
+		this.getPlayer().removeSkill(SkillTable.getInstance().getInfo(717, 1), false);
+		this.getPlayer().removeSkill(SkillTable.getInstance().getInfo(718, 1), false);
 		this.getPlayer().removeSkill(SkillTable.getInstance().getInfo(719, 1), false);
 		// Send a Server->Client packet StatusUpdate to the L2PcInstance.
 		this.getPlayer().sendSkillList();

@@ -1,4 +1,5 @@
 DROP TABLE IF EXISTS access_levels;
+-- DROP TABLE IF EXISTS account_data;
 DROP TABLE IF EXISTS admin_command_access_rights;
 DROP TABLE IF EXISTS armor;
 DROP TABLE IF EXISTS armorsets;
@@ -75,6 +76,7 @@ DROP TABLE IF EXISTS npc;
 DROP TABLE IF EXISTS npc_buffer;
 DROP TABLE IF EXISTS npcskills;
 DROP TABLE IF EXISTS olympiad_nobles;
+DROP TABLE IF EXISTS olympiad_nobles_eom;
 DROP TABLE IF EXISTS pets;
 DROP TABLE IF EXISTS pets_stats;
 DROP TABLE IF EXISTS pledge_skill_trees;

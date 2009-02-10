@@ -47,11 +47,8 @@ public class Gordon extends L2Transformation
 		this.getPlayer().addSkill(SkillTable.getInstance().getInfo(619, 1), false);
 		// Decrease Bow/Crossbow Attack Speed
 		this.getPlayer().addSkill(SkillTable.getInstance().getInfo(5491, 1), false);
-                // Gordon Holy Light Burst
 		this.getPlayer().addSkill(SkillTable.getInstance().getInfo(728, 1), false);
-                // Gordon Energy Attack
 		this.getPlayer().addSkill(SkillTable.getInstance().getInfo(729, 1), false);
-                // Gordon Holy Beam
 		this.getPlayer().addSkill(SkillTable.getInstance().getInfo(730, 1), false);
 		// Send a Server->Client packet StatusUpdate to the L2PcInstance.
 		this.getPlayer().sendSkillList();
@@ -69,11 +66,8 @@ public class Gordon extends L2Transformation
 		this.getPlayer().removeSkill(SkillTable.getInstance().getInfo(619, 1), false);
 		// Decrease Bow/Crossbow Attack Speed
 		this.getPlayer().removeSkill(SkillTable.getInstance().getInfo(5491, 1), false);
-                // Gordon Energy Attack
 		this.getPlayer().removeSkill(SkillTable.getInstance().getInfo(728, 1), false);
-                // Gordon Holy Beam
 		this.getPlayer().removeSkill(SkillTable.getInstance().getInfo(729, 1), false);
-                // Gordon Sunshine
 		this.getPlayer().removeSkill(SkillTable.getInstance().getInfo(730, 1), false);
 		// Send a Server->Client packet StatusUpdate to the L2PcInstance.
 		this.getPlayer().sendSkillList();

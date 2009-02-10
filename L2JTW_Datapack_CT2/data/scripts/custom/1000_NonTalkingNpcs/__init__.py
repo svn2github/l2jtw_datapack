@@ -4,7 +4,7 @@ import sys
 from net.sf.l2j.gameserver.model.quest import Quest as JQuest
 from net.sf.l2j.gameserver.network.serverpackets      import ActionFailed
 
-NPCs = [31557,31606,32026,32030,32031,32032, \
+NPCs = [31557,31606,32026,32030,32031,32032,32038, \
         31671,31672,31673,31674,30733,31032,31033,31034,31035,31036] # 補充NPC,但是L2Guard的類型無效,如改為L2Npc,會導致不會走動不會反擊
 
 class Quest (JQuest) :

@@ -52,11 +52,11 @@ echo I'll hopefully ask this questions just once.
 echo.
 echo 更新設定選項：
 echo.
-echo (1) 導入＆繼續使用舊的設定：將使用原本的資料並且進行更新作業
+echo (1) 導入＆繼續使用舊的設定：將使用原本舊的資料並且進行更新作業
 echo.
-echo (2) 導入＆並使用新的設定值：導入新的資料並且將會重新設定資料
+echo (2) 導入＆使用新的設定：導入新的資料並且重新設定資料
 echo.
-echo (3) 導入全新的資料：所有的資料將會被移除並且導入新的資料
+echo (3) 導入全新的資料：所有舊的資料將會移除並且導入新的資料
 echo.
 echo (4) 查看存取的設定值
 
@@ -78,7 +78,7 @@ goto :eof
 
 :configure
 call :colors 17
-title L2JDP installer - Setup
+title L2JTW Datapack 安裝 - For：L2JTW 4.5 Server
 cls
 set config_version=1
 if NOT %upgrade_mode% == 2 (
@@ -129,15 +129,15 @@ if not "%mysqlBinPath%" == "use path" call :binaryfind
 echo.
 path|find "MySQL">NUL
 if %errorlevel% == 0 (
-echo 上面是找到的 MySQL 位置，此位置將會被設為預設值，如果想換位置請修改...
+echo 上面是找到的 MySQL，此位置將會被設為預設值，如果想換位置請修改...
 set mysqlBinPath=use path
 ) else (
-echo 無法找到 MySQL 的正確位置，請輸入 mysql.exe 的正確位置...
+echo 無法找到 MySQL，請輸入 mysql.exe 的位置...
 echo.
-echo 如果還是不確定這到底是什麼意思和如何操作，請到相關網站查詢或者可以至 L2JTW 官方網站發問或尋找相關資訊
+echo 如果不確定這是什麼意思和如何操作，請到相關網站查詢或者至 L2JTW 官方網站發問或尋找相關資訊
 )
 echo.
-echo 請輸入 mysql.exe 的正確位置：
+echo 請輸入 mysql.exe 的位置：
 set /P mysqlBinPath="(default %mysqlBinPath%): "
 cls
 echo.
@@ -228,7 +228,7 @@ cls
 echo.
 echo 備份失敗！
 echo 原因是因為資料庫不存在
-echo 可以嘗試幫你建立 %lsdb%，或者你想繼續
+echo 現在可以嘗試幫你建立 %lsdb%，或者繼續其它設定
 echo.
 :ls_ask1
 set lsdbprompt=y
@@ -321,7 +321,7 @@ goto ls_ask2
 
 :lsdbok
 call :colors 17
-title L2JDP installer - Login Server database setup - WARNING!!!
+title L2JTW Datapack 安裝 - For：L2JTW 4.5 Server
 echo.
 :asklogin
 if %fresh_setup%==0 (
@@ -333,7 +333,7 @@ set msg=沒有預設值
 )
 echo 登入伺服器的資料庫安裝類型：
 echo.
-echo (f)完整：將移除所有資料，重新導入新的資料進去
+echo (f)完整：將移除所有舊的資料，重新導入新的資料
 echo.
 echo (s)省略：跳過此選項
 echo.
@@ -380,7 +380,7 @@ cls
 echo.
 echo 備份失敗！
 echo 資料庫並不存在
-echo 是否需要建立 %gsdb% 的資料庫
+echo 是否需要建立 %gsdb% 資料庫
 echo.
 :askgsdb
 set gsdbprompt=y
@@ -420,11 +420,11 @@ echo.
 echo 遊戲伺服器的資料庫建立出錯！
 echo.
 echo 可能的原因：
-echo 1.提供的資料不明確
+echo 1.輸入的資料不完整
 echo 2.使用者「%gsuser%」的權限不足 
 echo 3.資料庫已存在
 echo.
-echo 請查明原因後再繼續執行，或者直接進行重新設置
+echo 請查明原因後再繼續執行，或者直接進行重新設定
 echo.
 :askgsdbcreate
 set omfgprompt=q
@@ -446,9 +446,9 @@ echo.
 set installtype=u
 echo 遊戲伺服器的資料庫安裝：
 echo.
-echo (f)完整：將刪除所有原本的資料
+echo (f)完整：將刪除所有舊的資料
 echo.
-echo (u)更新：將保留所有的資料，並且進行更新作業
+echo (u)更新：將保留所有舊的資料，並且進行更新作業
 echo.
 echo (s)省略
 echo.
@@ -503,8 +503,6 @@ auction_bid.sql
 auction_watch.sql
 auto_chat.sql
 auto_chat_text.sql
-boxaccess.sql
-boxes.sql
 castle.sql
 castle_door.sql
 castle_doorupgrade.sql
@@ -574,6 +572,7 @@ npc.sql
 npc_buffer.sql
 npcskills.sql
 olympiad_nobles.sql
+olympiad_nobles_eom.sql
 pets.sql
 pets_stats.sql
 pledge_skill_trees.sql
@@ -664,7 +663,7 @@ echo 建立訊息檔案...
 echo.
 echo 檔案為「%output%」
 echo.
-echo 如果你已經有此檔案，請進行備份，否則系統將會覆蓋過去
+echo 如果此檔案已存在，請進行備份，否則將會覆蓋過去
 echo.
 echo 請按任意鍵開始進行
 pause>NUL
@@ -707,13 +706,13 @@ for %%i in (*.sql) do echo "%mysqlPath%" -h %gshost% -u %gsuser% --password=%gsp
 call temp.bat> nul
 del temp.bat
 move custom_errors.txt %workdir%
-title L2JTW Datapack 安裝 - 遊戲伺服器資料庫設定 - custom 自訂資料表程序完成
+title L2JTW Datapack 安裝 - For：L2JTW 4.5 Server
 cls
 echo custom 自訂資料表加入資料庫完成
 echo 所有錯誤資訊將放入「custom_errors.txt」
 echo.
 echo 請注意，如果要使這些自訂資料表能夠啟用
-echo 你必須修改 config 設定文件才會生效
+echo 你必須修改 config 的檔案設定
 echo.
 pause
 cd %workdir%
@@ -756,13 +755,13 @@ if %full% == 1 goto end
 echo.
 echo sql/updates 的資料夾是用來更新資料庫格式
 echo.
-echo 如果不想了解更新了什麼，可以直接進行更新
+echo 如果不想了解更新了什麼，請直接進行更新
 :asknb
 set nbprompt=a
 echo.
 echo 現在要如何進行？
 echo.
-echo (a)自動：將進入資料夾內導出所有 sql 檔案，並且導入到資料庫
+echo (a)自動：進入 sql/updates 的資料夾內，導入更新資料庫格式的 sql
 echo.
 echo (s)省略：全部都由手動安裝
 echo.
@@ -781,9 +780,9 @@ move errors.txt %workdir%
 cd %workdir%
 title L2JTW Datapack 安裝 - For：L2JTW 4.5 Server
 cls
-echo 自動處理進行完畢，所有錯誤資訊將放入「errors.txt」
+echo 自動更新完畢，所有錯誤資訊將放入「errors.txt」
 echo.
-echo 有時出現一些錯誤，像是表格重複，這種事情不用理會
+echo 有時會出現一些錯誤，例如表格重複，像這種訊息就不用理會
 echo.
 echo 「Duplicate column name」
 echo.
