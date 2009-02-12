@@ -1,6 +1,6 @@
 /************ Made in Taiwan ************/
 
-/***** 貳幕繽炫風 01-06 *****/ 
+/***** 貳幕繽炫風 02-10 *****/ 
 /***** npcname-tw *****/ 
 UPDATE `npc` SET `name`='葛林', `title`='' WHERE `id`='20001';
 UPDATE `npc` SET `name`='兔子', `title`='' WHERE `id`='20002';
@@ -8623,13 +8623,25 @@ UPDATE `npc` SET `name`='', `title`='' WHERE `id`='13138';
 UPDATE `npc` SET `name`='', `title`='' WHERE `id`='13139';
 UPDATE `npc` SET `name`='', `title`='' WHERE `id`='13140';
 UPDATE `npc` SET `name`='', `title`='' WHERE `id`='13141';
+UPDATE `npc` SET `name`='皇后喵喵', `title`='情人節使者' WHERE `id`='4301';
 UPDATE `npc` SET `name`='媽祖壺精', `title`='' WHERE `id`='1501';
 UPDATE `npc` SET `name`='金面壺精', `title`='' WHERE `id`='1502';
 UPDATE `npc` SET `name`='黑面壺精', `title`='' WHERE `id`='1503';
 UPDATE `npc` SET `name`='普萊皮塔壺精', `title`='' WHERE `id`='1504';
-UPDATE `npc` SET `name`='小貓熊壺精', `title`='' WHERE `id`='1505';
-UPDATE `npc` SET `name`='竹子貓熊壺精', `title`='' WHERE `id`='1506';
-UPDATE `npc` SET `name`='性感貓熊壺精', `title`='' WHERE `id`='1507';
+UPDATE `npc` SET `name`='寶寶貓熊壺精', `title`='' WHERE `id`='1505';
+UPDATE `npc` SET `name`='團團貓熊壺精', `title`='' WHERE `id`='1506';
+UPDATE `npc` SET `name`='圓圓貓熊壺精', `title`='' WHERE `id`='1507';
+UPDATE `npc` SET `name`='白色邱比特壺精', `title`='' WHERE `id`='1508';
+UPDATE `npc` SET `name`='黑色邱比特壺精', `title`='' WHERE `id`='1509';
+UPDATE `npc` SET `name`='白色招財貓壺精', `title`='' WHERE `id`='1510';
+UPDATE `npc` SET `name`='黑色招財貓壺精', `title`='' WHERE `id`='1511';
+UPDATE `npc` SET `name`='棕色招財貓壺精', `title`='' WHERE `id`='1512';
+UPDATE `npc` SET `name`='獨眼蝙蝠群壺精', `title`='' WHERE `id`='1513';
+UPDATE `npc` SET `name`='飛馬壺精', `title`='' WHERE `id`='1514';
+UPDATE `npc` SET `name`='黃衣土地公', `title`='' WHERE `id`='1515';
+UPDATE `npc` SET `name`='藍衣土地公', `title`='' WHERE `id`='1516';
+UPDATE `npc` SET `name`='綠衣土地公', `title`='' WHERE `id`='1517';
+UPDATE `npc` SET `name`='食人妖壺精', `title`='' WHERE `id`='1518';
 UPDATE `npc` SET `name`='不良火雞', `title`='' WHERE `id`='1';
 UPDATE `npc` SET `name`='', `title`='' WHERE `id`='2';
 UPDATE `npc` SET `name`='見習聖誕老人', `title`='' WHERE `id`='3';

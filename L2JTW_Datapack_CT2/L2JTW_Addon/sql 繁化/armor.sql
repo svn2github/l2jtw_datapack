@@ -1,6 +1,6 @@
 /************ Made in Taiwan ************/
 
-/***** 貳幕繽炫風 01-06 *****/ 
+/***** 貳幕繽炫風 02-10 *****/ 
 /***** itemname-tw *****/ 
 UPDATE `armor` SET `name` ='布襯衫' WHERE item_id ='21';
 UPDATE `armor` SET `name` ='皮襯衫' WHERE item_id ='22';
@@ -33,7 +33,7 @@ UPDATE `armor` SET `name` ='短手套' WHERE item_id ='48';
 UPDATE `armor` SET `name` ='手套' WHERE item_id ='49';
 UPDATE `armor` SET `name` ='皮手套' WHERE item_id ='50';
 UPDATE `armor` SET `name` ='腕甲' WHERE item_id ='51';
-UPDATE `armor` SET `name` ='薄暮雙刀' WHERE item_id ='52';
+UPDATE `armor` SET `name` ='麻質斗篷' WHERE item_id ='52';
 UPDATE `armor` SET `name` ='棉質斗篷' WHERE item_id ='53';
 UPDATE `armor` SET `name` ='絲綢斗篷' WHERE item_id ='54';
 UPDATE `armor` SET `name` ='棉質內衣' WHERE item_id ='55';
@@ -2070,9 +2070,9 @@ UPDATE `armor` SET `name` ='封印的夢魘頭盔	輕裝用' WHERE item_id ='130
 UPDATE `armor` SET `name` ='封印的夢魘頭盔	長袍用' WHERE item_id ='13001';
 UPDATE `armor` SET `name` ='淡紫鬃馬騎乘手鐲	限時7日' WHERE item_id ='13022';
 UPDATE `armor` SET `name` ='愛心壺精	限時30日' WHERE item_id ='13023';
-UPDATE `armor` SET `name` ='怒氣壺精	限時30日' WHERE item_id ='13024';
-UPDATE `armor` SET `name` ='開心壺精	限時30日' WHERE item_id ='13025';
-UPDATE `armor` SET `name` ='嗚咽壺精	限時30日' WHERE item_id ='13026';
+UPDATE `armor` SET `name` ='憤怒守護精靈' WHERE item_id ='13024';
+UPDATE `armor` SET `name` ='喜悅守護精靈' WHERE item_id ='13025';
+UPDATE `armor` SET `name` ='悲傷守護精靈' WHERE item_id ='13026';
 UPDATE `armor` SET `name` ='底格里斯專用防具' WHERE item_id ='13050';
 UPDATE `armor` SET `name` ='賽勒諾斯頭飾' WHERE item_id ='13058';
 UPDATE `armor` SET `name` ='巴瑞卡卡輪(巴瑞卡賽勒諾斯用)' WHERE item_id ='13234';
@@ -2145,17 +2145,17 @@ UPDATE `armor` SET `name` ='制服帽' WHERE item_id ='20020';
 UPDATE `armor` SET `name` ='刺客斗笠' WHERE item_id ='20021';
 UPDATE `armor` SET `name` ='暴走族口罩' WHERE item_id ='20022';
 UPDATE `armor` SET `name` ='緞帶髮飾' WHERE item_id ='20023';
-UPDATE `armor` SET `name` ='面甲' WHERE item_id ='20024';
+UPDATE `armor` SET `name` ='白羽黃金假面' WHERE item_id ='20024';
 UPDATE `armor` SET `name` ='淡紫鬃馬騎乘手鐲' WHERE item_id ='20029';
 UPDATE `armor` SET `name` ='淡紫鬃馬騎乘手鐲	限時30日' WHERE item_id ='20030';
 UPDATE `armor` SET `name` ='戰鬥貓帽' WHERE item_id ='20031';
 UPDATE `armor` SET `name` ='骷髏帽' WHERE item_id ='20032';
-UPDATE `armor` SET `name` ='壺精封印手鐲-小貓熊' WHERE item_id ='20063';
-UPDATE `armor` SET `name` ='壺精封印手鐲-竹子貓熊' WHERE item_id ='20064';
-UPDATE `armor` SET `name` ='壺精封印手鐲-性感貓熊' WHERE item_id ='20065';
-UPDATE `armor` SET `name` ='壺精封印手鐲-小貓熊	大頭-限時15日' WHERE item_id ='20066';
-UPDATE `armor` SET `name` ='壺精封印手鐲-竹子貓熊	復活-限時15日' WHERE item_id ='20067';
-UPDATE `armor` SET `name` ='壺精封印手鐲-性感貓熊	返回-限時15日' WHERE item_id ='20068';
+UPDATE `armor` SET `name` ='壺精封印手鐲-寶寶貓熊' WHERE item_id ='20063';
+UPDATE `armor` SET `name` ='壺精封印手鐲-團團貓熊' WHERE item_id ='20064';
+UPDATE `armor` SET `name` ='壺精封印手鐲-圓圓貓熊' WHERE item_id ='20065';
+UPDATE `armor` SET `name` ='壺精封印手鐲-寶寶貓熊	大頭-限時15日' WHERE item_id ='20066';
+UPDATE `armor` SET `name` ='壺精封印手鐲-團團貓熊	復活-限時15日' WHERE item_id ='20067';
+UPDATE `armor` SET `name` ='壺精封印手鐲-圓圓貓熊	返回-限時15日' WHERE item_id ='20068';
 UPDATE `armor` SET `name` ='爆炸頭	活力-限時3小時' WHERE item_id ='20083';
 UPDATE `armor` SET `name` ='爆炸頭	活力-限時3日' WHERE item_id ='20084';
 UPDATE `armor` SET `name` ='爆炸頭	活力-限時30日' WHERE item_id ='20085';
@@ -2170,5 +2170,37 @@ UPDATE `armor` SET `name` ='聖誕鹿角帽' WHERE item_id ='20095';
 UPDATE `armor` SET `name` ='禮服-活動	1小時幻象' WHERE item_id ='20098';
 UPDATE `armor` SET `name` ='禮服-活動	限時7日' WHERE item_id ='20099';
 UPDATE `armor` SET `name` ='剪刀-石頭-布聖誕帽	限時24小時' WHERE item_id ='20100';
+UPDATE `armor` SET `name` ='壺精封印手鐲-愛心	活力-限時3日' WHERE item_id ='20200';
+UPDATE `armor` SET `name` ='壺精封印手鐲-愛心	活力-限時7日' WHERE item_id ='20201';
+UPDATE `armor` SET `name` ='壺精封印手鐲-愛心	活力-限時15日' WHERE item_id ='20202';
+UPDATE `armor` SET `name` ='壺精封印手鐲-愛心	活力-限時30日' WHERE item_id ='20203';
+UPDATE `armor` SET `name` ='巨蟻女王戒指-活動	限時3日' WHERE item_id ='20204';
+UPDATE `armor` SET `name` ='巨蟻女王戒指-活動	限時7日' WHERE item_id ='20205';
+UPDATE `armor` SET `name` ='巨蟻女王戒指-活動	限時15日' WHERE item_id ='20206';
+UPDATE `armor` SET `name` ='札肯耳環-活動	限時3日' WHERE item_id ='20207';
+UPDATE `armor` SET `name` ='札肯耳環-活動	限時7日' WHERE item_id ='20208';
+UPDATE `armor` SET `name` ='札肯耳環-活動	限時15日' WHERE item_id ='20209';
+UPDATE `armor` SET `name` ='壺精封印手鐲-白色邱比特' WHERE item_id ='20212';
+UPDATE `armor` SET `name` ='壺精封印手鐲-黑色邱比特' WHERE item_id ='20213';
+UPDATE `armor` SET `name` ='壺精封印手鐲-白色招財貓' WHERE item_id ='20221';
+UPDATE `armor` SET `name` ='壺精封印手鐲-黑色招財貓' WHERE item_id ='20222';
+UPDATE `armor` SET `name` ='壺精封印手鐲-棕色招財貓' WHERE item_id ='20223';
+UPDATE `armor` SET `name` ='壺精封印手鐲-白色招財貓	復活-限時7日' WHERE item_id ='20224';
+UPDATE `armor` SET `name` ='壺精封印手鐲-黑色招財貓	返回-限時7日' WHERE item_id ='20225';
+UPDATE `armor` SET `name` ='壺精封印手鐲-棕色招財貓	活力-限時7日' WHERE item_id ='20226';
+UPDATE `armor` SET `name` ='壺精封印手鐲-獨眼蝙蝠群' WHERE item_id ='20230';
+UPDATE `armor` SET `name` ='壺精封印手鐲-獨眼蝙蝠群	暗之防護-限時7日' WHERE item_id ='20231';
+UPDATE `armor` SET `name` ='壺精封印手鐲-獨眼蝙蝠群	活力-限時7日' WHERE item_id ='20232';
+UPDATE `armor` SET `name` ='壺精封印手鐲-飛馬' WHERE item_id ='20236';
+UPDATE `armor` SET `name` ='壺精封印手鐲-飛馬	風之疾走-限時7日' WHERE item_id ='20237';
+UPDATE `armor` SET `name` ='壺精封印手鐲-飛馬	返回-限時7日' WHERE item_id ='20238';
+UPDATE `armor` SET `name` ='壺精封印手鐲-黃衣土地公' WHERE item_id ='20245';
+UPDATE `armor` SET `name` ='壺精封印手鐲-藍衣土地公' WHERE item_id ='20246';
+UPDATE `armor` SET `name` ='壺精封印手鐲-綠衣土地公' WHERE item_id ='20247';
+UPDATE `armor` SET `name` ='壺精封印手鐲-黃衣土地公	終極治癒術-限時7日' WHERE item_id ='20248';
+UPDATE `armor` SET `name` ='壺精封印手鐲-藍衣土地公	還擊-限時7日' WHERE item_id ='20249';
+UPDATE `armor` SET `name` ='壺精封印手鐲-綠衣土地公	魔力再生-限時7日' WHERE item_id ='20250';
+UPDATE `armor` SET `name` ='壺精封印手鐲-食人妖' WHERE item_id ='20252';
+UPDATE `armor` SET `name` ='愛心壺精-活動' WHERE item_id ='20253';
 
 /***** Done by vdmyagami！ *****/
