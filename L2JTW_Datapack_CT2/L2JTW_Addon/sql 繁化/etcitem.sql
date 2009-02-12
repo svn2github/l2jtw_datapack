@@ -2,7 +2,7 @@
 
 /***** 貳幕繽炫風 02-10 *****/ 
 /***** itemname-tw *****/ 
-UPDATE `etcitem` SET `name` ='木箭' WHERE item_id ='7';
+UPDATE `etcitem` SET `name` ='木箭' WHERE item_id ='17';
 UPDATE `etcitem` SET `name` ='金幣' WHERE item_id ='57';
 UPDATE `etcitem` SET `name` ='紅色藥水' WHERE item_id ='65';
 UPDATE `etcitem` SET `name` ='椅子' WHERE item_id ='686';
