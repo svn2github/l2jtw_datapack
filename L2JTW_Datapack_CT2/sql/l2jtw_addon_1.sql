@@ -369,7 +369,7 @@ UPDATE `armor` SET `skill` = '3424-1;3267-1;5536-1;' WHERE `item_id` in (10326);
 UPDATE `armor` SET `skill` = '3425-1;3267-1;5537-1;' WHERE `item_id` in (10606);
 UPDATE `armor` SET `skill` = '3423-1;3267-1;5535-1;' WHERE `item_id` in (12779);
 UPDATE `armor` SET `skill` = '3424-1;3267-1;5536-1;' WHERE `item_id` in (12780);
-UPDATE `armor` SET `skill` = '8247-1;' WHERE `item_id` in (13022,13308,20029,20030);
+UPDATE `armor` SET `skill` = '8247-1;839-1;' WHERE `item_id` in (13022,13308,20030);
 UPDATE `armor` SET `skill` = '8245-1;3267-1;' WHERE `item_id` in (13023,13254,13309,13340);
 UPDATE `armor` SET `skill` = '21000-1;3267-1;23000-1;' WHERE `item_id` in (20006);
 UPDATE `armor` SET `skill` = '21001-1;3267-1;23001-1;' WHERE `item_id` in (20007);
@@ -378,12 +378,6 @@ UPDATE `armor` SET `skill` = '21003-1;3267-1;23003-1;' WHERE `item_id` in (20012
 UPDATE `armor` SET `skill` = '21008-1;3267-1;23010-1' WHERE `item_id` in (20063);
 UPDATE `armor` SET `skill` = '21009-1;3267-1;23011-1' WHERE `item_id` in (20064);
 UPDATE `armor` SET `skill` = '21010-1;3267-1;23012-1' WHERE `item_id` in (20065);
-
-
-/************ 增加淡紫鬃馬 ************/
-REPLACE INTO `npc` VALUES (13130, 13130, "Light Purple Maned Horse", 0, "", 0, "Monster.horse", 8, 24, 70, "male", "L2Npc", 40, 2444, 2444, 0, 0, 10, 10, 10, 10, 10, 10, 0, 0, 500, 500, 500, 500, 278, 0, 333, 0, 0, NULL, 60, 60, "", 0, 0, 0, "LAST_HIT", 0, 0, 0, "balanced", "false");
-REPLACE INTO `admin_command_access_rights` VALUES ('admin_ride_horse','1');
-REPLACE INTO `admin_command_access_rights` VALUES ('admin_unride_horse','1');
 
 
 /************ 增加頭飾的附加技能(祝福復活/祝福返回/大頭/煙火) ************/
@@ -525,15 +519,15 @@ REPLACE INTO `pets_stats` VALUES
 ('Fairy Princess',16046,86,4567019890,5214,2608,1278,1008,597,492,158,157,44,187,278,333,100000000,0,0,92287,40,15,0.05);
 
 -- 修正寵物
-UPDATE `pets_stats` SET `loadMax` = '43000;' WHERE `typeID` in (12780,12781,12782);
-UPDATE `pets_stats` SET `loadMax` = '73000;' WHERE `typeID` in (12077,12311,12312,12313);
-UPDATE `pets_stats` SET `loadMax` = '91031;' WHERE `typeID` in (12526,12527,12528,12621,16030);
 REPLACE INTO `pets_stats` VALUES
 ('wyvern',12621,82,1395734658,2049,1073,190,121,187,945,118,113,40,220,278,333,6748,56,11,0,10,4,0.1),
 ('wyvern',12621,83,2395734658,2049,1073,190,121,187,945,118,113,40,220,278,333,6748,56,11,0,10,4,0.1),
 ('wyvern',12621,84,3395734658,2049,1073,190,121,187,945,118,113,40,220,278,333,6748,56,11,0,10,4,0.1),
 ('wyvern',12621,85,4395734658,2049,1073,190,121,187,945,118,113,40,220,278,333,6748,56,11,0,10,4,0.1),
 ('wyvern',12621,86,5395734658,2049,1073,190,121,187,945,118,113,40,220,278,333,6748,56,11,0,10,4,0.1);
+UPDATE `pets_stats` SET `loadMax` = '43000;' WHERE `typeID` in (12780,12781,12782);
+UPDATE `pets_stats` SET `loadMax` = '73000;' WHERE `typeID` in (12077,12311,12312,12313);
+UPDATE `pets_stats` SET `loadMax` = '91031;' WHERE `typeID` in (12526,12527,12528,12621,16030);
 
 
 /************ 增加/修正/刪除NPC ************/

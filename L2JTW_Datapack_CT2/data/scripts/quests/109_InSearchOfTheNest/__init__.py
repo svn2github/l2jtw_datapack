@@ -45,7 +45,6 @@ class Quest (JQuest) :
         if st :
             npcId = npc.getNpcId()
             cond = st.getInt("cond")
-            onlyone = st.getInt("onlyone")
             state = st.getState()
             if state == State.COMPLETED :
                 htmltext = "<html><body>這是已經完成的任務。</body></html>"

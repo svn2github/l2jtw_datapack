@@ -702,9 +702,10 @@
   </for>
 </skill>
 <skill id="8247" levels="1" name="Mount Light Purple Maned Horse">
-  <!-- Update by rocknow -->
   <set name="target" val="TARGET_SELF"/>
-  <set name="skillType" val="SUMMON_HORSE"/>
+  <set name="skillType" val="MOUNT"/>
+  <set name="npcId" val="13130"/>
+  <set name="itemId" val="20029"/>
   <set name="operateType" val="OP_ACTIVE"/>
   <set name="castRange" val="-1"/>
 </skill>

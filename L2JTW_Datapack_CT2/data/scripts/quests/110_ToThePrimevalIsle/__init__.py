@@ -20,18 +20,19 @@ class Quest (JQuest) :
   
   def onEvent(self, event, st):
     htmltext = event
-    if event == "31338-04.htm" :
+    if event == "1" :
+      htmltext = "1.htm"
       st.set("cond","1")
       st.giveItems(ANCIENT_BOOK,1)
       st.setState(State.STARTED)
       st.playSound("ItemSound.quest_accept")
-    if event == "32113-05.htm" and st.getQuestItemsCount(ANCIENT_BOOK):
+    if event == "2" and st.getQuestItemsCount(ANCIENT_BOOK):
+      htmltext="3.htm"
       st.playSound("ItemSound.quest_finish")
       st.giveItems(ADENA_ID,169380)
       st.addExpAndSp(251602,25245)
       st.takeItems(ANCIENT_BOOK,-1)
       st.exitQuest(False)
-      st.exitQuest(0)
     return htmltext
 
   def onTalk(self, npc, player):
@@ -41,23 +42,25 @@ class Quest (JQuest) :
     npcId=npc.getNpcId()
     htmltext="<html><body>目前沒有執行任務，或條件不符。</body></html>"
     id = st.getState()
-    if id == State.CREATED :
+    if id == State.COMPLETED:
+      htmltext = "<html><body>這是已經完成的任務。</body></html>"
+    elif id == State.CREATED :
       if st.getPlayer().getLevel() >= 75 :
-        htmltext = "31338-01.htm"
+        htmltext = "0.htm"
       else:
         st.exitQuest(1)
-        htmltext = "31338-00.htm"
+        htmltext = "00.htm"
     elif id == State.STARTED:
       cond = int(st.get("cond"))
       if npcId == MARQUEZ :
         if cond == 1 :
           if not st.getQuestItemsCount(ANCIENT_BOOK):
-            htmltext = "32113-01.htm"
+            htmltext = "1a.htm"
           else :
-            htmltext = "32113-02.htm"
-    elif id == State.COMPLETED:
-      st.exitQuest(0)
-      htmltext = "<html><body>這是已經完成的任務。</body></html>"
+            htmltext = "2.htm"
+      elif npcId == ANTON :
+        if cond == 1 :
+          htmltext = "1b.htm"
     return htmltext    
 
 QUEST=Quest(110,qn,"前往原始之島")

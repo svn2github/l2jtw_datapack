@@ -98,7 +98,7 @@ class Quest (JQuest) :
         if st.getState() == State.STARTED :
          npcId = npc.getNpcId()
          count = st.getQuestItemsCount(Mane)
-         st2 = partyMember.getQuestState("605_AllianceWithKetraOrcs")
+         st2 = partyMember.getQuestState("611_AllianceWithVarkaSilenos")
          if npcId in Varka_Mobs and partyMember.getAllianceWithVarkaKetra() >= 1 :
         #see comments in 605 : Alliance with Ketra Orcs for reason for doing st2 check
             if not st2 :
@@ -112,7 +112,6 @@ class Quest (JQuest) :
                     else :
                         st.playSound("ItemSound.quest_itemget")
                     st.giveItems(Mane,numItems)
-                st.giveItems(Mane,1)
          elif npcId in Ketra_Orcs :
              st.unset("id")
              st.takeItems(Mane,-1)

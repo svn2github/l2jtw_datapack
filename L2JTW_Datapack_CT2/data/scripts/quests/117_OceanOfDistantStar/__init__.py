@@ -79,7 +79,9 @@ class Quest (JQuest) :
     npcId=npc.getNpcId()
     htmltext="<html><body>目前沒有執行任務，或條件不符。</body></html>"
     id = st.getState()
-    if id == State.CREATED and npcId == ABEY :
+    if id == State.COMPLETED:
+      htmltext = "<html><body>這是已經完成的任務。</body></html>"
+    elif id == State.CREATED and npcId == ABEY :
       if st.getPlayer().getLevel() >= 39 :
         htmltext = "0.htm" #event 1
       else:
@@ -130,8 +132,6 @@ class Quest (JQuest) :
             htmltext = "4.htm" #to event 5
       if npcId == GHOST_F and cond == 10 :
             htmltext = "9.htm" #link to 9a.htm so link to event 10
-    elif id == State.COMPLETED:
-      htmltext = "<html><body>這是已經完成的任務。</body></html>"
     return htmltext
 
   def onKill(self,npc,player,isPet):
