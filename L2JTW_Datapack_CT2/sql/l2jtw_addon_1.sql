@@ -787,9 +787,16 @@ REPLACE INTO `npcskills` VALUES
 (16038,5585,1),
 (16039,5585,1);
 
+/************ 修正BOSS ************/
+REPLACE INTO `npcskills` VALUES (29028,4679,1);
+REPLACE INTO `npcskills` VALUES (29028,4680,1);
+UPDATE `npc` SET `aggro` = 800 WHERE `id` IN (29019,29028);
+UPDATE `npc` SET `aggro` = 500 WHERE `id` IN (29020,29022);
+UPDATE `grandboss_data` SET `loc_x` = '-105820', `loc_y` = '-237310', `loc_z` = '-15529' WHERE `boss_id` IN (29019) AND `status` IN (0);
+UPDATE `grandboss_data` SET `loc_x` = '116067', `loc_y` = '17484', `loc_z` = '10110' WHERE `boss_id` IN (29020) AND `status` IN (0);
+
 /************ 修正技能 ************/
 REPLACE INTO `skill_trees` VALUES ('23', '137', '4', 'Critical Chance', '150000', '58');
-
 
 /************ 其他修正 ************/
 -- 修正奇岩港口的傳送價格
