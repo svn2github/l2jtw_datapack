@@ -46,8 +46,8 @@ public class ExternalConfig
     
     /** GrandBoss Settings **/
 
-    public static int Antharas_Wait_Time = 1800000;
-    public static int Valakas_Wait_Time = 1800000;
+    public static int Antharas_Wait_Time = 600000;
+    public static int Valakas_Wait_Time = 600000;
     
     public void loadconfig()
     {
@@ -61,8 +61,8 @@ public class ExternalConfig
              is                           = new FileInputStream(new File(GRANDBOSS_CONFIG_FILE));
              grandbossSettings.load(is);
              
-             Antharas_Wait_Time     = Integer.parseInt(grandbossSettings.getProperty("AntharasWaitTime","1800000"));
-             Valakas_Wait_Time     = Integer.parseInt(grandbossSettings.getProperty("ValakasWaitTime","1800000"));
+             Antharas_Wait_Time     = Integer.parseInt(grandbossSettings.getProperty("AntharasWaitTime","600000"));
+             Valakas_Wait_Time     = Integer.parseInt(grandbossSettings.getProperty("ValakasWaitTime","600000"));
              
 
          }
