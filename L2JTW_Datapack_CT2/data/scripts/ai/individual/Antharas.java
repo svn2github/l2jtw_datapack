@@ -27,6 +27,21 @@ import net.sf.l2j.gameserver.network.serverpackets.SpecialCamera;
 import net.sf.l2j.gameserver.templates.StatsSet;
 import net.sf.l2j.util.Rnd;
 import ai.group_template.L2AttackableAIScript;
+import net.sf.l2j.gameserver.datatables.SkillTable;
+import net.sf.l2j.gameserver.model.L2Effect;
+import net.sf.l2j.gameserver.network.serverpackets.SocialAction;
+import static net.sf.l2j.gameserver.ai.CtrlIntention.AI_INTENTION_FOLLOW;
+import static net.sf.l2j.gameserver.ai.CtrlIntention.AI_INTENTION_IDLE;
+import java.util.Collection;
+import javolution.util.FastList;
+import net.sf.l2j.gameserver.GeoData;
+import net.sf.l2j.gameserver.model.L2Character;
+import net.sf.l2j.gameserver.model.L2Object;
+import net.sf.l2j.gameserver.model.L2Skill;
+import net.sf.l2j.gameserver.model.L2Summon;
+import net.sf.l2j.gameserver.model.actor.instance.L2DecoyInstance;
+import net.sf.l2j.gameserver.model.quest.QuestTimer;
+import net.sf.l2j.gameserver.util.Util;
 
 /**
  * Antharas AI
@@ -34,7 +49,8 @@ import ai.group_template.L2AttackableAIScript;
  */
 public class Antharas extends L2AttackableAIScript
 {
-	
+	private L2Character _target;
+	private L2Skill _skill;
 	private static final int ANTHARAS = 29019;
 
 	//Antharas Status Tracking :
@@ -54,7 +70,7 @@ public class Antharas extends L2AttackableAIScript
         super(id,name,descr);
         int[] mob = {ANTHARAS};
         this.registerMobs(mob);
-        _Zone = GrandBossManager.getInstance().getZone(179700,113800,-7709);
+        _Zone = GrandBossManager.getInstance().getZone(181323,114850,-7618);
         StatsSet info = GrandBossManager.getInstance().getStatsSet(ANTHARAS);
         int status = GrandBossManager.getInstance().getBossStatus(ANTHARAS);
         if (status == DEAD)
@@ -73,9 +89,8 @@ public class Antharas extends L2AttackableAIScript
             {
                 // the time has already expired while the server was offline. Immediately spawn antharas in his cave.
                 // also, the status needs to be changed to DORMANT
-                L2GrandBossInstance antharas = (L2GrandBossInstance) addSpawn(ANTHARAS,185708,114298,-8221,32768,false,0);
+                L2GrandBossInstance antharas = (L2GrandBossInstance) addSpawn(ANTHARAS,-105820,-237310,-15529,32768,false,0);
                 GrandBossManager.getInstance().setBossStatus(ANTHARAS,DORMANT);
-                antharas.broadcastPacket(new Earthquake(185708,114298,-8221,20,10));
                 GrandBossManager.getInstance().addBoss(antharas);
             }
         }
@@ -93,13 +108,16 @@ public class Antharas extends L2AttackableAIScript
             if (status == WAITING)
             {
                 // Start timer to lock entry after 30 minutes
-                this.startQuestTimer("waiting",1800000, antharas, null);
+                this.startQuestTimer("waiting",600000, antharas, null);
             }
             else if (status == FIGHTING)
             {
                 _LastAction = System.currentTimeMillis();
                 // Start repeating timer to check for inactivity
                 this.startQuestTimer("antharas_despawn",60000, antharas, null, true);
+                antharas.setIsInvul(false);
+                antharas.setIsImmobilized(false);
+                antharas.setRunning();
             }
         }
 	}
@@ -108,76 +126,122 @@ public class Antharas extends L2AttackableAIScript
 	{
         if (npc != null)
         {
-        	long temp = 0;
+        	long temp = 0;     	
 			if (event.equalsIgnoreCase("waiting"))
             {
-                npc.teleToLocation(185452,114835,-8221);
-                npc.getAI().setIntention(CtrlIntention.AI_INTENTION_MOVE_TO, new L2CharPosition(181911,114835,-7678,0));
-                this.startQuestTimer("antharas_has_arrived",2000, npc, null, true);
-                npc.broadcastPacket(new PlaySound(1, "BS02_A", 1, npc.getObjectId(), 185452, 114835, -8221));
-                GrandBossManager.getInstance().setBossStatus(ANTHARAS,FIGHTING);
+                npc.teleToLocation(185452,114850,-8221);
+                npc.setIsInvul(true);
+                npc.getAI().setIntention(CtrlIntention.AI_INTENTION_MOVE_TO, new L2CharPosition(181323,114850,-7618,0));
+                this.startQuestTimer("antharas_has_arrived",1000, npc, null, true);
+                npc.broadcastPacket(new PlaySound(1, "BS02_A", 1, npc.getObjectId(), 181323, 114850, -7618));
+                npc.broadcastPacket(new Earthquake(181323,114850,-7618,20,10));
+            }
+            else if (event.equalsIgnoreCase("skill_range"))
+            {
+                callSkillAI(npc);
+            }
+            else if (event.equalsIgnoreCase("clean_player"))
+            {   
+                _target = getRandomTarget(npc);
             }
             else if (event.equalsIgnoreCase("camera_1"))
             {
+                npc.broadcastPacket(new SocialAction(npc.getObjectId(),1));
                 this.startQuestTimer("camera_2",3000, npc, null);
-                npc.broadcastPacket(new SpecialCamera(npc.getObjectId(),700,13,-19,0,20000));
+                npc.broadcastPacket(new SpecialCamera(npc.getObjectId(),700,13,-19,0,10000));
             }
             else if (event.equalsIgnoreCase("camera_2"))
             {
                 this.startQuestTimer("camera_3",10000, npc, null);
-                npc.broadcastPacket(new SpecialCamera(npc.getObjectId(),700,13,0,6000,20000));
+                npc.broadcastPacket(new SpecialCamera(npc.getObjectId(),700,13,0,6000,10000));
             }
             else if (event.equalsIgnoreCase("camera_3"))
             {
                 this.startQuestTimer("camera_4",200, npc, null);
-                npc.broadcastPacket(new SpecialCamera(npc.getObjectId(),3700,0,-3,0,10000));
+                npc.broadcastPacket(new SpecialCamera(npc.getObjectId(),3800,0,0,0,10000));
             }
             else if (event.equalsIgnoreCase("camera_4"))
             {
+                npc.broadcastPacket(new SocialAction(npc.getObjectId(),2));
                 this.startQuestTimer("camera_5",10800, npc, null);
-                npc.broadcastPacket(new SpecialCamera(npc.getObjectId(),1100,0,-3,22000,30000));
+                npc.broadcastPacket(new SpecialCamera(npc.getObjectId(),1200,0,0,22000,11000));
             }
             else if (event.equalsIgnoreCase("camera_5"))
             {
-                this.startQuestTimer("antharas_despawn",60000, npc, null, true);
-                npc.broadcastPacket(new SpecialCamera(npc.getObjectId(),1100,0,-3,300,7000));
+                this.startQuestTimer("camera_5b",1900, npc, null);
+                npc.broadcastPacket(new SpecialCamera(npc.getObjectId(),1200,0,0,300,2000));
                 _LastAction = System.currentTimeMillis();
+            }
+            else if (event.equalsIgnoreCase("camera_5b"))
+            {
+                this.startQuestTimer("antharas_despawn",60000, npc, null, true);
+                this.startQuestTimer("skill_range", 500, npc, null, true);
+                npc.setIsInvul(false);
+                npc.setIsImmobilized(false);
+                npc.setRunning();
+                GrandBossManager.getInstance().setBossStatus(ANTHARAS,FIGHTING);
             }
             else if (event.equalsIgnoreCase("antharas_despawn"))
             {
+                _Zone = GrandBossManager.getInstance().getZone(181323,114850,-7618);
                 temp = (System.currentTimeMillis() - _LastAction);
                 if (temp > 900000)
                 {
-                    npc.teleToLocation(185708,114298,-8221);
+                    npc.getAI().setIntention(AI_INTENTION_IDLE);
+                    npc.teleToLocation(-105820,-237310,-15529);
                     GrandBossManager.getInstance().setBossStatus(ANTHARAS,DORMANT);
                     npc.setCurrentHpMp(npc.getMaxHp(),npc.getMaxMp());
                     _Zone.oustAllPlayers();
                     this.cancelQuestTimer("antharas_despawn", npc, null);
                 }
+                else if (!_Zone.isInsideZone(npc))
+                    npc.teleToLocation(181323,114850,-7618);
+                else if (npc.getCurrentHp() > ( ( npc.getMaxHp() * 3 ) / 4 ) )
+                {
+                        npc.setIsCastingNow(false);
+                        npc.setTarget(npc);
+                        npc.doCast(SkillTable.getInstance().getInfo(4239,1));
+                        npc.setIsCastingNow(true);
+            }
+                else if (npc.getCurrentHp() > ( ( npc.getMaxHp() * 2 ) / 4 ) )
+                {
+                        npc.setIsCastingNow(false);
+                        npc.setTarget(npc);
+                        npc.doCast(SkillTable.getInstance().getInfo(4240,1));
+                        npc.setIsCastingNow(true);
+                }
+                else if (npc.getCurrentHp() > ( ( npc.getMaxHp() * 1 ) / 4 ) )
+                {
+                        npc.setIsCastingNow(false);
+                        npc.setTarget(npc);
+                        npc.doCast(SkillTable.getInstance().getInfo(4241,1));
+                        npc.setIsCastingNow(true);
+                }
             }
             else if (event.equalsIgnoreCase("antharas_has_arrived"))
             {
-               int dx = Math.abs(npc.getX() - 181911);
-               int dy = Math.abs(npc.getY() - 114835);
-               if (dx <= 50 && dy <= 50)
+               int dx = Math.abs(npc.getX() - 181323);
+               int dy = Math.abs(npc.getY() - 114850);
+               if (dx <= 20 && dy <= 20)
                {
-                   this.startQuestTimer("camera_1",2000, npc, null);
-                   npc.getSpawn().setLocx(181911);
-                   npc.getSpawn().setLocy(114835);
-                   npc.getSpawn().setLocz(-7678);
+                   npc.setIsImmobilized(true);
+                   this.startQuestTimer("camera_1",500, npc, null);
+                   npc.getSpawn().setLocx(181323);
+                   npc.getSpawn().setLocy(114850);
+                   npc.getSpawn().setLocz(-7618);
                    npc.getAI().setIntention(CtrlIntention.AI_INTENTION_IDLE);
                    this.cancelQuestTimer("antharas_has_arrived", npc, null);
                }
                else
                {
-                   npc.getAI().setIntention(CtrlIntention.AI_INTENTION_MOVE_TO,new L2CharPosition(181911,114835,-7678,0));
+                   npc.getAI().setIntention(CtrlIntention.AI_INTENTION_MOVE_TO,new L2CharPosition(181323,114850,-7618,0));
                }
             }
             else if (event.equalsIgnoreCase("spawn_cubes"))
             {
                 addSpawn(31859,177615,114941,-7709,0,false,900000);
                 int radius = 1500;
-                for (int i=0; i < 20;i++)
+                for (int i=0; i < 19;i++)
                 {
                     int x = (int) (radius*Math.cos(i*.331)); //.331~2pi/19
                     int y = (int) (radius*Math.sin(i*.331));
@@ -191,10 +255,9 @@ public class Antharas extends L2AttackableAIScript
         {
             if (event.equalsIgnoreCase("antharas_unlock"))
             {
-                L2GrandBossInstance antharas = (L2GrandBossInstance) addSpawn(ANTHARAS,185708,114298,-8221,32768,false,0);
+                L2GrandBossInstance antharas = (L2GrandBossInstance) addSpawn(ANTHARAS,-105820,-237310,-15529,32768,false,0);
                 GrandBossManager.getInstance().addBoss(antharas);
                 GrandBossManager.getInstance().setBossStatus(ANTHARAS,DORMANT);
-                antharas.broadcastPacket(new Earthquake(185708,114298,-8221,20,10));
             }
             else if (event.equalsIgnoreCase("remove_players"))
             {
@@ -203,16 +266,56 @@ public class Antharas extends L2AttackableAIScript
         }
         return super.onAdvEvent(event, npc, player);
 	}
-
+    
+    public String onSpellFinished(L2NpcInstance npc, L2PcInstance player, L2Skill skill)
+    {
+    	if (npc.isInvul())
+		{
+			npc.getAI().setIntention(AI_INTENTION_IDLE);
+			return null;
+		}
+		else if (npc.getNpcId() == ANTHARAS && !npc.isInvul())
+    	{
+    		callSkillAI(npc);
+    	}
+    	return super.onSpellFinished(npc, player, skill);
+    }
 	public String onAttack (L2NpcInstance npc, L2PcInstance attacker, int damage, boolean isPet)
-	{	
+	{		
         _LastAction = System.currentTimeMillis();
         if (GrandBossManager.getInstance().getBossStatus(ANTHARAS) != FIGHTING)
         {
             _Zone.oustAllPlayers();
         }
-        return super.onAttack(npc, attacker, damage, isPet);
-	}
+		if (npc.isInvul())
+		{
+			npc.getAI().setIntention(AI_INTENTION_IDLE);
+			return null;
+		}
+		else if (npc.getNpcId() == ANTHARAS && !npc.isInvul())
+    	{
+    		if (attacker.getMountType() == 1)
+        	{
+    			int sk_4258 = 0;
+    			L2Effect[] effects = attacker.getAllEffects();
+    			if (effects.length != 0 || effects != null)
+    			{
+    				for (L2Effect e : effects)
+    				{
+    					if (e.getSkill().getId() == 4258)
+    						sk_4258 = 1;
+    				}
+    	        }
+    			if (sk_4258 == 0)
+    			{
+    				npc.setTarget(attacker);
+    				npc.doCast(SkillTable.getInstance().getInfo(4258,1));
+    			}
+        	}
+    		callSkillAI(npc);
+    	}
+		return super.onAttack(npc, attacker, damage, isPet);
+    }
 
     public String onKill (L2NpcInstance npc, L2PcInstance killer, boolean isPet) 
     { 
@@ -225,8 +328,169 @@ public class Antharas extends L2AttackableAIScript
         StatsSet info = GrandBossManager.getInstance().getStatsSet(ANTHARAS);
         info.set("respawn_time",(System.currentTimeMillis() + respawnTime));
         GrandBossManager.getInstance().setStatsSet(ANTHARAS,info);
+		if (getQuestTimer("skill_range", npc, null) != null)
+			getQuestTimer("skill_range", npc, null).cancel();
         return super.onKill(npc,killer,isPet);
     }
+
+	public L2Character getRandomTarget(L2NpcInstance npc)
+	{
+		FastList<L2Character> result = new FastList<L2Character>();
+		Collection<L2Object> objs = npc.getKnownList().getKnownObjects().values();
+		{
+			for (L2Object obj : objs)
+			{
+				if (obj instanceof L2Character)
+				{
+					if (((L2Character) obj).getZ() < ( npc.getZ() - 100 ) && ((L2Character) obj).getZ() > ( npc.getZ() + 100 )
+							|| !(GeoData.getInstance().canSeeTarget(((L2Character) obj).getX(), ((L2Character) obj).getY(), ((L2Character) obj).getZ(), npc.getX(), npc.getY(), npc.getZ())))
+						continue;
+				}
+				if (obj instanceof L2PcInstance || obj instanceof L2Summon || obj instanceof L2DecoyInstance)
+				{
+					if (Util.checkIfInRange(5000, npc, obj, true) && !((L2Character) obj).isDead())
+						result.add((L2Character) obj);
+				}
+			}
+		}
+		if (!result.isEmpty() && result.size() != 0)
+		{
+			Object[] characters = result.toArray();
+			QuestTimer timer = getQuestTimer("clean_player", npc, null);
+			if (timer != null)
+				timer.cancel();
+			startQuestTimer("clean_player", 20000, npc, null);
+			return (L2Character) characters[Rnd.get(characters.length)];
+		}
+		return null;
+	}
+
+	public synchronized void callSkillAI(L2NpcInstance npc)
+	{
+		if (npc.isInvul() || npc.isCastingNow()) return;
+
+		if (_target == null || _target.isDead() || !(_Zone.isInsideZone(_target)))
+		{
+			_target = getRandomTarget(npc);
+			if (_target != null)
+				_skill = SkillTable.getInstance().getInfo(getRandomSkill(npc),1);
+		}
+
+		L2Character target = _target;
+		L2Skill skill = _skill;
+		if (skill == null)
+			skill = SkillTable.getInstance().getInfo(getRandomSkill(npc),1);
+		if (target == null || target.isDead() || !(_Zone.isInsideZone(target)))
+		{
+			npc.setIsCastingNow(false);
+			return;
+		}
+
+		if (Util.checkIfInRange(skill.getCastRange(), npc, target, true))
+		{
+			npc.getAI().setIntention(AI_INTENTION_IDLE);
+			npc.setTarget(target);
+			npc.setIsCastingNow(true);
+			_target = null;
+			_skill = null;
+			npc.doCast(skill);
+		}
+		else
+		{
+			npc.getAI().setIntention(AI_INTENTION_FOLLOW, target, null);
+			npc.setIsCastingNow(false);
+		}
+	}
+
+	public int getRandomSkill(L2NpcInstance npc)
+	{
+		int skill;
+		if( npc.getCurrentHp() > ( ( npc.getMaxHp() * 3 ) / 4 ) )
+		{
+			if( Rnd.get(100) < 20 )
+				skill = 4113;
+			else if( Rnd.get(100) < 3 )
+				skill = 4110;
+			else if( Rnd.get(100) < 3 )
+				skill = 4108;
+			else if( Rnd.get(100) < 5 )
+				skill = 4107;
+			else if( Rnd.get(100) < 5 )
+				skill = 4106;
+			else
+				skill = 4112;
+		}
+		else if( npc.getCurrentHp() > ( ( npc.getMaxHp() * 2 ) / 4) )
+		{
+			if( Rnd.get(100) < 20 )
+				skill = 4113;
+			else if( Rnd.get(100) < 5 )
+				skill = 4110;
+			else if( Rnd.get(100) < 10 )
+				skill = 4109;
+			else if( Rnd.get(100) < 5 )
+				skill = 4108;
+			else if( Rnd.get(100) < 10 )
+				skill = 4107;
+			else if( Rnd.get(100) < 10 )
+				skill = 4106;
+			else
+				skill = 4112;
+		}
+		else if( npc.getCurrentHp() > ( ( npc.getMaxHp() * 1 ) / 4 ) )
+		{
+			if( Rnd.get(100) < 5 )
+				skill = 5093;
+			else if( Rnd.get(100) < 20 )
+				skill = 4113;
+			else if( Rnd.get(100) < 15 )
+				skill = 4111;
+			else if( Rnd.get(100) < 10 )
+				skill = 4110;
+			else if( Rnd.get(100) < 15 )
+				skill = 4109;
+			else if( Rnd.get(100) < 10 )
+				skill = 4108;
+			else if( Rnd.get(100) < 15 )
+				skill = 4107;
+			else if( Rnd.get(100) < 15 )
+				skill = 4106;
+			else
+				skill = 4112;
+		}
+		else if( Rnd.get(100) < 10 )
+			skill = 5093;
+		else if( Rnd.get(100) < 10 )
+			skill = 5092;
+		else if( Rnd.get(100) < 20 )
+			skill = 4113;
+		else if( Rnd.get(100) < 20 )
+			skill = 4111;
+		else if( Rnd.get(100) < 15 )
+			skill = 4110;
+		else if( Rnd.get(100) < 20 )
+			skill = 4109;
+		else if( Rnd.get(100) < 15 )
+			skill = 4108;
+		else if( Rnd.get(100) < 20 )
+			skill = 4107;
+		else if( Rnd.get(100) < 20 )
+			skill = 4106;
+		else
+			skill = 4112;
+		return skill;
+	}
+
+	public String onSkillSee (L2NpcInstance npc, L2PcInstance caster, L2Skill skill, L2Object[] targets, boolean isPet)
+	{
+		if (npc.isInvul())
+		{
+			npc.getAI().setIntention(AI_INTENTION_IDLE);
+			return null;
+		}
+		npc.setTarget(caster);
+		return super.onSkillSee(npc, caster, skill, targets, isPet);
+	}
 
     public static void main(String[] args)
     {
