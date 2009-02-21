@@ -1,5 +1,5 @@
 # Contributed by t0rm3nt0r (tormentor2000@mail.ru) to the Official L2J Datapack Project
-# Visit http://forum.l2jdp.com for more details.
+# Visit http://www.l2jdp.com/forum/ for more details.
 import sys
 from net.sf.l2j.gameserver.model.quest import State
 from net.sf.l2j.gameserver.model.quest import QuestState
@@ -58,7 +58,7 @@ class Quest (JQuest) :
            htmltext = "32163-01.htm"
      return htmltext
  
-QUEST = Quest(172,qn,"前往寬廣的世界")
+QUEST = Quest(172,qn,"前往寬廣的世界") 
  
 QUEST.addStartNpc(ZENYA) 
 

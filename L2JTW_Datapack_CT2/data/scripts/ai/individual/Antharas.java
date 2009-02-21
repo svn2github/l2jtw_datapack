@@ -42,7 +42,6 @@ import net.sf.l2j.gameserver.model.L2Summon;
 import net.sf.l2j.gameserver.model.actor.instance.L2DecoyInstance;
 import net.sf.l2j.gameserver.model.quest.QuestTimer;
 import net.sf.l2j.gameserver.util.Util;
-import ExternalConfig;
 
 /**
  * Antharas AI
@@ -68,8 +67,6 @@ public class Antharas extends L2AttackableAIScript
 	// Boss: Antharas
 	public Antharas(int id,String name,String descr)
 	{
-		
-		ExternalConfig.loadconfig();
         super(id,name,descr);
         int[] mob = {ANTHARAS};
         this.registerMobs(mob);
@@ -111,9 +108,7 @@ public class Antharas extends L2AttackableAIScript
             if (status == WAITING)
             {
                 // Start timer to lock entry after 30 minutes
-
-                this.startQuestTimer("waiting",ExternalConfig.Antharas_Wait_Time, antharas, null);
-
+                this.startQuestTimer("waiting",600000, antharas, null);
             }
             else if (status == FIGHTING)
             {

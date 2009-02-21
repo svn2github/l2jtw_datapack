@@ -1,6 +1,6 @@
 # Formerly based on Elektra's script
 # updated by DrLecter for the Official L2J Datapack Project.
-# Visit http://forum.l2jdp.com/ for more details.
+# Visit http://www.l2jdp.com/forum// for more details.
 
 qn = "3995_echo"
 
@@ -58,8 +58,6 @@ class Quest (JQuest) :
 
 
 QUEST       = Quest(QuestId,qn,QuestDesc)
-
-
 
 for npc in NPCS:
    QUEST.addStartNpc(npc)

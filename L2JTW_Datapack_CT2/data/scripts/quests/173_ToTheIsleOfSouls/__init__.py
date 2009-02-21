@@ -1,5 +1,5 @@
 # Contributed by t0rm3nt0r (tormentor2000@mail.ru) to the Official L2J Datapack Project
-# Visit http://forum.l2jdp.com for more details.
+# Visit http://www.l2jdp.com/forum/ for more details.
 
 import sys
 from net.sf.l2j.gameserver.model.quest import State
@@ -74,7 +74,7 @@ class Quest (JQuest) :
            htmltext = "30094-03.htm"
      return htmltext
  
-QUEST     = Quest(173,qn,"前往英魂之島")
+QUEST     = Quest(173,qn,"前往英魂之島") 
  
 QUEST.addStartNpc(GALLADUCCI) 
 

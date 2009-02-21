@@ -43,7 +43,6 @@ import net.sf.l2j.gameserver.templates.StatsSet;
 import net.sf.l2j.gameserver.util.Util;
 import net.sf.l2j.util.Rnd;
 import net.sf.l2j.gameserver.GeoData;
-import ExternalConfig;
 
 /**
  * Valakas AI
@@ -79,7 +78,6 @@ public class Valakas extends L2AttackableAIScript
 	// Boss: Valakas
 	public Valakas(int id,String name,String descr)
 	{
-		ExternalConfig.loadconfig();
         super(id,name,descr);
         int[] mob = {VALAKAS};
         this.registerMobs(mob);
@@ -159,7 +157,7 @@ public class Valakas extends L2AttackableAIScript
             if (status == WAITING)
             {
                 // Start timer to lock entry after 30 minutes
-                startQuestTimer("1001",Valakas_Wait_Time, valakas, valakas, null);
+                startQuestTimer("1001",600000, valakas, null);
             }
             else if (status == FIGHTING)
             {

@@ -1,6 +1,6 @@
 # Made by Mr. Have fun! Version 0.2
 # Shadow Weapon Coupons contributed by BiTi for the Official L2J Datapack Project
-# Visit http://forum.l2jdp.com for more details
+# Visit http://www.l2jdp.com/forum/ for more details
 import sys
 from net.sf.l2j.gameserver.model.quest import State
 from net.sf.l2j.gameserver.model.quest import QuestState
@@ -183,9 +183,9 @@ class Quest (JQuest) :
 
    npcId = npc.getNpcId()
    id = st.getState()
-   cond = st.getInt("cond") #pmq修改
    if npcId != 30524 and id != State.STARTED : return htmltext
 
+   cond = st.getInt("cond")
    if npcId == 30524 and cond==0 :
      htmltext = "30524-01.htm"
    elif npcId == 30524 and cond and st.getQuestItemsCount(PIPIS_LETTER) :
@@ -225,7 +225,6 @@ class Quest (JQuest) :
           st.takeItems(CHALIS_AXE,1)
           st.giveItems(CHALIS_PAY,1)
           st.playSound("ItemSound.quest_accept") #pmq修改
-          st.set("cond","3")                     #pmq修改
           if st.getInt("id") >= 50 :
             st.set("cond","3")
           st.set("id",str(st.getInt("id")+10))
@@ -244,7 +243,6 @@ class Quest (JQuest) :
           st.takeItems(BRONKS_INGOT,1)
           st.giveItems(BRONKS_PAY,1)
           st.playSound("ItemSound.quest_accept") #pmq修改
-          st.set("cond","3")                     #pmq修改
           if st.getInt("id") >= 50 :
             st.set("cond","3")          
           st.set("id",str(st.getInt("id")+10))
@@ -263,7 +261,6 @@ class Quest (JQuest) :
           st.takeItems(ZIMENFS_POTION,1)
           st.giveItems(ZIMENFS_PAY,1)
           st.playSound("ItemSound.quest_accept") #pmq修改
-          st.set("cond","3")                     #pmq修改
           if st.getInt("id") >= 50 :
             st.set("cond","3")
           st.set("id",str(st.getInt("id")+10))

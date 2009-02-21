@@ -1,6 +1,6 @@
 # Made by Mr. Have fun! Version 0.2
 # Shadow Weapon Coupons contributed by BiTi for the Official L2J Datapack Project
-# Visit http://forum.l2jdp.com for more details
+# Visit http://www.l2jdp.com/forum/ for more details
 import sys
 from net.sf.l2j.gameserver.model.quest import State
 from net.sf.l2j.gameserver.model.quest import QuestState
@@ -185,7 +185,12 @@ class Quest (JQuest) :
         htmltext = "30527-07.htm"
    elif npcId == 30527 and st.getInt("cond") and st.getQuestItemsCount(SILVERYS_RING)==1 and st.getQuestItemsCount(RATMAN_TOOTH)>=10 and st.getQuestItemsCount(BIG_RATMAN_TOOTH)>=2 :
         htmltext = "30527-08.htm"
-   elif npcId == 30527 and st.getInt("cond") and st.getQuestItemsCount(PASS_1ST)==1 :  #pmq
+        st.takeItems(SILVERYS_RING,st.getQuestItemsCount(SILVERYS_RING))
+        st.takeItems(RATMAN_TOOTH,st.getQuestItemsCount(RATMAN_TOOTH))
+        st.takeItems(BIG_RATMAN_TOOTH,st.getQuestItemsCount(BIG_RATMAN_TOOTH))
+        st.giveItems(PASS_1ST,1)
+        st.set("cond","3")
+   elif npcId == 30527 and st.getInt("cond") and st.getQuestItemsCount(PASS_1ST)==1 :
         htmltext = "30527-09.htm"
    elif npcId == 30317 and st.getInt("cond") and st.getQuestItemsCount(KLUTOS_LETTER)==0 and st.getQuestItemsCount(FOOTPRINT)==0 and st.getQuestItemsCount(PASS_1ST) and st.getQuestItemsCount(PASS_2ND)==0 and st.getQuestItemsCount(SECRET_BOX2)==0 :
         htmltext = "30317-01.htm"

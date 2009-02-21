@@ -139,6 +139,7 @@
 <item id='11423' name="Sealed Dark Crystal Robe">
   <for>
     <add val='139' order='0x10' stat='pDef'/>
+    <add val='665' order='0x40' stat='maxMp'/><!-- Update by rocknow -->
     <enchant val='0' order='0x0C' stat='pDef'/>
   </for>
 </item>
@@ -360,6 +361,7 @@
 <item id='11460' name="Sealed Majestic Robe">
   <for>
     <add val='147' order='0x10' stat='pDef'/>
+    <add val='718' order='0x40' stat='maxMp'/><!-- Update by rocknow -->
     <enchant val='0' order='0x0C' stat='pDef'/>
   </for>
 </item>

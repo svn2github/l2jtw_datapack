@@ -3,7 +3,7 @@
 # Version 0.4 by DrLecter
 # Shadow Weapon Coupons contributed by BiTi for the Official L2J Datapack Project
 # Version 0.6  - updated by Kerberos on 2007.11.15
-# Visit http://forum.l2jdp.com for more details
+# Visit http://www.l2jdp.com/forum/ for more details
 import sys
 from net.sf.l2j.gameserver.model.quest import State
 from net.sf.l2j.gameserver.model.quest import QuestState
@@ -289,7 +289,7 @@ class Quest (JQuest) :
      st.addSpawn(27094,npc.getX(),npc.getY(),npc.getZ(),npc.getHeading(),True,300000)
    return
 
-QUEST       = Quest(225,qn,"Test Of Searcher")
+QUEST       = Quest(225,qn,"±´¯ÁªÌªº¼f®Ö")
 
 QUEST.addStartNpc(30690)
 

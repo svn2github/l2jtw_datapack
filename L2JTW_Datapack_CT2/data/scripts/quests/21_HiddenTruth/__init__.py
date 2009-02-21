@@ -1,6 +1,6 @@
 # Made by Kerberos - based on a L2Fortress script
 # this script is part of the Official L2J Datapack Project.
-# Visit http://forum.l2jdp.com for more details.
+# Visit http://www.l2jdp.com/forum/ for more details.
 import sys
 from net.sf.l2j.gameserver.ai 						import CtrlIntention
 from net.sf.l2j.gameserver.model.quest 				import State
@@ -47,9 +47,9 @@ class Quest (JQuest) :
             st.playSound("ItemSound.quest_finish")
             htmltext = "31328-05.htm"
         elif event == "31523-03.htm" :
-            st.set("cond","2")                       #pmq修改
             st.playSound("SkillSound5.horror_02")
             st.playSound("ItemSound.quest_middle")   #pmq修改
+            st.set("cond","2")
             ghost = st.addSpawn(31524,51432,-54570,-3136,1800000)
             ghost.broadcastPacket(NpcSay(ghost.getObjectId(),0,ghost.getNpcId(),"是誰叫醒我。"))
         elif event == "31524-06.htm" :
