@@ -53,12 +53,21 @@ class Quest (JQuest) :
     st.exitQuest(1)
     return htmltext
 
- def onTalk (Self,npc,player):
-   return "1.htm"
+ def onFirstTalk (self,npc,player): # rocknow ­×¥¿
+    st = player.getQuestState(qn)
+    if not st :
+       st = self.newQuestState(player)
+    npcId = npc.getNpcId()
+    if npcId == 31042 :
+        htmltext = "1.htm"
+    if npcId == 31043 :
+        htmltext = "2.htm"
+    return htmltext
 
 
 QUEST       = Quest(QuestId,qn,QuestDesc)
 
 for npc in NPCS:
    QUEST.addStartNpc(npc)
+   QUEST.addFirstTalkId(npc)
    QUEST.addTalkId(npc)
