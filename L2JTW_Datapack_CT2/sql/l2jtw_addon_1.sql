@@ -389,6 +389,36 @@ UPDATE `armor` SET `skill` = '21009-1;3267-1;23011-1' WHERE `item_id` in (20064)
 UPDATE `armor` SET `skill` = '21010-1;3267-1;23012-1' WHERE `item_id` in (20065);
 
 
+/************ 加入邱比特/招財貓/獨眼蝙蝠群/飛馬/土地公的壺精手鐲 ************/
+REPLACE INTO `armor` VALUES
+(20204,'Ring of Queen Ant','rfinger,lfinger','true','none',150,'gold','b',0,-1,0,48,21,616000,82,'false','false','true','false','3562-1'),
+(20205,'Ring of Queen Ant','rfinger,lfinger','true','none',150,'gold','b',0,-1,0,48,21,616000,82,'false','false','true','false','3562-1'),
+(20206,'Ring of Queen Ant','rfinger,lfinger','true','none',150,'gold','b',0,-1,0,48,21,616000,82,'false','false','true','false','3562-1'),
+(20207,'Zaken\'s Earring','rear,lear','true','none',150,'gold','s',0,-1,0,71,31,2590000,124,'false','false','true','false','3559-1'),
+(20208,'Zaken\'s Earring','rear,lear','true','none',150,'gold','s',0,-1,0,71,31,2590000,124,'false','false','true','false','3559-1'),
+(20209,'Zaken\'s Earring','rear,lear','true','none',150,'gold','s',0,-1,0,71,31,2590000,124,'false','false','true','false','3559-1'),
+(20212,'Agathion Seal Bracelet - Charming Cupid','lbracelet','false','none',150, 'wood','none',0,-1,0,0,0,0,0,'false','false','true','false','21031-1;3267-1;23025-1;'),
+(20213,'Agathion Seal Bracelet - Naughty Cupid','lbracelet','false','none',150, 'wood','none',0,-1,0,0,0,0,0,'false','false','true','false','21032-1;3267-1;23026-1;'),
+(20221,'Agathion Seal Bracelet - White Maneki Neko','lbracelet','false','none',150, 'wood','none',0,-1,0,0,0,0,0,'false','false','true','false','21033-1;3267-1;23027-1;23046-1;'),
+(20222,'Agathion Seal Bracelet - Black Maneki Neko','lbracelet','false','none',150, 'wood','none',0,-1,0,0,0,0,0,'false','false','true','false','21034-1;3267-1;23028-1;23047-1;'),
+(20223,'Agathion Seal Bracelet - Brown Maneki Neko','lbracelet','false','none',150, 'wood','none',0,-1,0,0,0,0,0,'false','false','true','false','21035-1;3267-1;23029-1;23048-1;'),
+(20224,'Agathion Seal Bracelet - White Maneki Neko','lbracelet','false','none',150, 'wood','none',0,-1,0,0,0,0,0,'false','false','true','false','21033-1;3267-1;23027-1;23046-1;23030-1;'),
+(20225,'Agathion Seal Bracelet - Black Maneki Neko','lbracelet','false','none',150, 'wood','none',0,-1,0,0,0,0,0,'false','false','true','false','21034-1;3267-1;23028-1;23047-1;23031-1;'),
+(20230,'Agathion Seal Bracelet - One-Eyed Bat Drove','lbracelet','false','none',150, 'wood','none',0,-1,0,0,0,0,0,'false','false','true','false','21036-1;3267-1;23033-1;;'),
+(20231,'Agathion Seal Bracelet - One-Eyed Bat Drove','lbracelet','false','none',150, 'wood','none',0,-1,0,0,0,0,0,'false','false','true','false','21036-1;3267-1;23033-1;23034-1;'),
+(20236,'Agathion Seal Bracelet - Pegasus','lbracelet','false','none',150, 'wood','none',0,-1,0,0,0,0,0,'false','false','true','false','21037-1;3267-1;23036-1;'),
+(20237,'Agathion Seal Bracelet - Pegasus','lbracelet','false','none',150, 'wood','none',0,-1,0,0,0,0,0,'false','false','true','false','21037-1;3267-1;23036-1;23037-1;'),
+(20238,'Agathion Seal Bracelet - Pegasus','lbracelet','false','none',150, 'wood','none',0,-1,0,0,0,0,0,'false','false','true','false','21037-1;3267-1;23036-1;23038-1;'),
+(20245,'Agathion Seal Bracelet - Yellow-Robed Tojigong','lbracelet','false','none',150, 'wood','none',0,-1,0,0,0,0,0,'false','false','true','false','21038-1;3267-1;23039-1;'),
+(20246,'Agathion Seal Bracelet - Blue-Robed Tojigong','lbracelet','false','none',150, 'wood','none',0,-1,0,0,0,0,0,'false','false','true','false','21039-1;3267-1;23040-1;'),
+(20247,'Agathion Seal Bracelet - Green-Robed Tojigong','lbracelet','false','none',150, 'wood','none',0,-1,0,0,0,0,0,'false','false','true','false','21040-1;3267-1;23041-1;'),
+(20248,'Agathion Seal Bracelet - Yellow-Robed Tojigong','lbracelet','false','none',150, 'wood','none',0,-1,0,0,0,0,0,'false','false','true','false','21038-1;3267-1;23039-1;23042-1;'),
+(20249,'Agathion Seal Bracelet - Blue-Robed Tojigong','lbracelet','false','none',150, 'wood','none',0,-1,0,0,0,0,0,'false','false','true','false','21039-1;3267-1;23040-1;23043-1;'),
+(20250,'Agathion Seal Bracelet - Green-Robed Tojigong','lbracelet','false','none',150, 'wood','none',0,-1,0,0,0,0,0,'false','false','true','false','21040-1;3267-1;23041-1;23044-1;'),
+(20252,'Agathion Seal Bracelet - Bugbear','lbracelet','false','none',150, 'wood','none',0,-1,0,0,0,0,0,'false','false','true','false','21041-1;3267-1;23045-1;'),
+(20253,'Agathion of Love (Event)','lbracelet','false','none',150, 'wood','none',0,-1,0,0,0,0,0,'false','false','true','false','8245-1;3267-1;');
+
+
 /************ 增加頭飾的附加技能(祝福復活/祝福返回/大頭/煙火) ************/
 UPDATE `armor` SET `skill` = '3263-1;' WHERE `item_id` in (9177,9178,9179,9180,9181,9182,9183,10621,10625,10629);
 UPDATE `armor` SET `skill` = '3264-1;' WHERE `item_id` in (9184,9185,9186,9187,9188,9189,9190,10620,10624,10628);
