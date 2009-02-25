@@ -52,7 +52,7 @@
   <set name="operateType" val="OP_ACTIVE"/>
   <set name="castRange" val="-1"/>
   <set name="effectRange" val="-1"/>
-  <set name="reuseDelay" val="180000"/>
+  <set name="reuseDelay" val="60000"/>
   <for>
     <effect count="1" name="Buff" time="1200" val="0" stackOrder="20" stackType="speed_up">
       <add order="0x40" stat="runSpd" val="20"/>

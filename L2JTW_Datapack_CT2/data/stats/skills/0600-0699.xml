@@ -823,7 +823,7 @@
 </skill>
 <skill id="675" levels="1" name="Divine Warrior Cross Slash">
   <!-- Update by rocknow from L2Emu -->
-  <set name="mpConsume" val="124"/>
+  <set name="mpConsume" val="112"/>
   <set name="power" val="2904"/>
   <set name="target" val="TARGET_ONE"/>
   <set name="overHit" val="true"/><!-- Update by rocknow -->
@@ -838,7 +838,7 @@
 </skill>
 <skill id="676" levels="1" name="Divine Warrior Sonic Blaster">
   <!-- Update by rocknow from L2Emu -->
-  <set name="mpConsume" val="62"/>
+  <set name="mpConsume" val="56"/>
   <set name="power" val="2323"/>
   <set name="target" val="TARGET_ONE"/>
   <set name="overHit" val="true"/><!-- Update by rocknow -->
@@ -853,7 +853,7 @@
 <skill id="677" levels="1" name="Divine Warrior Transfixion of Earth">
   <!-- Update by rocknow from L2Emu -->
   <set name="hitTime" val="1067"/>
-  <set name="mpConsume" val="89"/>
+  <set name="mpConsume" val="80"/>
   <set name="power" val="2323"/>
   <set name="target" val="TARGET_AURA"/>
   <set name="ignoreShld" val="true"/>
@@ -907,7 +907,7 @@
 </skill>
 <skill id="680" levels="1" name="Divine Knight Hate">
   <!-- Update by rocknow from L2Emu -->
-  <set name="mpConsume" val="36"/>
+  <set name="mpConsume" val="51"/>
   <set name="magicLvl" val="74"/>
   <set name="power" val="6752"/>
   <set name="target" val="TARGET_ONE"/>
@@ -941,7 +941,7 @@
 </skill>
 <skill id="682" levels="1" name="Divine Knight Stun Attack">
   <!-- Update by rocknow from L2Emu -->
-  <set name="mpConsume" val="81"/>
+  <set name="mpConsume" val="76"/>
   <set name="power" val="1162"/>
   <set name="magicLvl" val="74"/>
   <set name="lvlDepend" val="1"/>
@@ -963,7 +963,7 @@
 <skill id="683" levels="1" name="Divine Knight Thunder Storm">
   <!-- Update by rocknow from L2Emu -->
   <set name="power" val="775"/>
-  <set name="mpConsume" val="121"/>
+  <set name="mpConsume" val="114"/>
   <set name="magicLvl" val="74"/>
   <set name="lvlDepend" val="1"/>
   <set name="target" val="TARGET_AURA"/>
@@ -1023,7 +1023,7 @@
 </skill>
 <skill id="686" levels="1" name="Divine Rogue Stun Shot">
   <!-- Update by rocknow from L2Emu -->
-  <set name="mpConsume" val="125"/>
+  <set name="mpConsume" val="116"/>
   <set name="power" val="2323"/>
   <set name="magicLvl" val="74"/>
   <set name="lvlDepend" val="1"/>
@@ -1045,7 +1045,7 @@
 </skill>
 <skill id="687" levels="1" name="Divine Rogue Double Shot">
   <!-- Update by rocknow from L2Emu -->
-  <set name="mpConsume" val="177"/>
+  <set name="mpConsume" val="159"/>
   <set name="magicLvl" val="74"/>
   <set name="power" val="6195"/>
   <set name="target" val="TARGET_ONE"/>
@@ -1061,7 +1061,7 @@
 </skill>
 <skill id="688" levels="1" name="Divine Rogue Bleed Attack">
   <!-- Update by rocknow from L2Emu -->
-  <set name="mpConsume" val="89"/>
+  <set name="mpConsume" val="80"/>
   <set name="magicLvl" val="74"/>
   <set name="power" val="1549"/>
   <set name="target" val="TARGET_ONE"/>
@@ -1079,7 +1079,7 @@
 </skill>
 <skill id="689" levels="1" name="Divine Rogue Deadly Blow">
   <!-- Update by rocknow from L2Emu -->
-  <set name="mpConsume" val="80"/>
+  <set name="mpConsume" val="72"/>
   <set name="magicLvl" val="74"/>
   <set name="power" val="6969"/>
   <set name="target" val="TARGET_ONE"/>
@@ -1135,7 +1135,7 @@
 <skill id="692" levels="1" name="Divine Wizard Holy Flare">
   <!-- Update by rocknow from L2Emu -->
   <set name="mpInitialConsume" val="14"/>
-  <set name="mpConsume" val="14"/>
+  <set name="mpConsume" val="59"/>
   <set name="magicLvl" val="74"/>
   <set name="power" val="102"/>
   <set name="target" val="TARGET_ONE"/>

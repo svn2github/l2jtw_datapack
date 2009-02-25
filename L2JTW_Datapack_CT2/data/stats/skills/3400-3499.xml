@@ -39,7 +39,7 @@
   <set name="effectRange" val="-1"/>
 </skill>
 <skill id="3406" levels="1" name="Weight Decrease Ring">
-  <!-- Update by rocknow from L2Emu  -->
+  <!-- Update by rocknow from -->
   <set name="target" val="TARGET_SELF"/>
   <set name="skillType" val="BUFF"/>
   <set name="operateType" val="OP_TOGGLE"/>
@@ -50,13 +50,10 @@
   </for>
 </skill>
 <skill id="3407" levels="1" name="Stealth Ring">
-  <!-- Update by rocknow from L2Emu  -->
-  <set name="mpConsume" val="31"/>
-  <set name="hitTime" val="2000"/>
+  <!-- Update by rocknow -->
   <set name="target" val="TARGET_SELF"/>
   <set name="skillType" val="BUFF"/>
-  <set name="reuseDelay" val="60000"/>
-  <set name="operateType" val="OP_ACTIVE"/>
+  <set name="operateType" val="OP_TOGGLE"/>
   <set name="castRange" val="-1"/>
   <set name="effectRange" val="-1"/>
   <for>
@@ -66,7 +63,7 @@
   </for>
 </skill>
 <skill id="3408" levels="1" name="Blessed Ring of Escape">
-  <!-- Update by rocknow from L2Emu  -->
+  <!-- Update by rocknow from L2Emu -->
   <set name="target" val="TARGET_SELF"/>
   <set name="skillType" val="RECALL"/>
   <set name="hitTime" val="200"/>
@@ -74,21 +71,18 @@
   <set name="operateType" val="OP_ACTIVE"/>
   <set name="castRange" val="-1"/>
   <set name="effectRange" val="-1"/>
-  <for>
-  </for>
+  <set name="reuseDelay" val="60000"/>
 </skill>
 <skill id="3409" levels="1" name="Blessed Ring of Resurrection">
-  <!-- Update by rocknow from L2Emu  -->
+  <!-- Update by rocknow from L2Emu -->
   <set name="power" val="100.0"/>
   <set name="target" val="TARGET_CORPSE_PLAYER"/>
-  <set name="skillType" val="RESURRECT"/>  
   <set name="hitTime" val="3000"/>
   <set name="reuseDelay" val="300000"/>
+  <set name="skillType" val="RESURRECT"/>
   <set name="operateType" val="OP_ACTIVE"/>
   <set name="castRange" val="400"/>
   <set name="effectRange" val="600"/>
-  <for>
-  </for>
 </skill>
 <skill id="3410" levels="1" name="Blue Talisman of Reflection">
   <set name="target" val="TARGET_NONE"/>

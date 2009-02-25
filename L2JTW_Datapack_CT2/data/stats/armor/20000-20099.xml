@@ -69,10 +69,16 @@
   </for>
 </item>
 <item id='20023' name="Ribbon Hairband">
+  <cond msgId="1518">
+    <player sex="1"/>
+  </cond>
   <for>
   </for>
 </item>
 <item id='20024' name="Visor">
+  <cond msgId="1518">
+    <player sex="0"/>
+  </cond>
   <for>
   </for>
 </item>
@@ -92,28 +98,33 @@
   <for>
   </for>
 </item>
-<!-- Update by rocknow -->
 <item id='20063' name="Agathion Seal Bracelet - Baby Panda">
+<!-- Update by rocknow -->
   <for>
   </for>
 </item>
 <item id='20064' name="Agathion Seal Bracelet - Bamboo Panda">
+<!-- Update by rocknow -->
   <for>
   </for>
 </item>
 <item id='20065' name="Agathion Seal Bracelet - Sexy Panda">
+<!-- Update by rocknow -->
   <for>
   </for>
 </item>
 <item id='20066' name="Agathion Seal Bracelet - Baby Panda - Big Head 15-day limited period">
+<!-- Update by rocknow -->
   <for>
   </for>
 </item>
 <item id='20067' name="Agathion Seal Bracelet - Bamboo Panda - Resurrection 15-day limited period">
+<!-- Update by rocknow -->
   <for>
   </for>
 </item>
 <item id='20068' name="Agathion Seal Bracelet - Sexy Panda - Escape 15-day limited period">
+<!-- Update by rocknow -->
   <for>
   </for>
 </item>

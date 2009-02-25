@@ -13884,9 +13884,6 @@ UPDATE `weapon` SET `critical` = '6' WHERE `weaponType` = '13'; -- 古代劍(致命追
 UPDATE `weapon` SET `atk_speed` = '325' WHERE `item_id` IN (10252,10527,10528,10529); -- 王朝魔杖(攻擊速度)
 UPDATE `weapon` SET `atk_speed` = '325' WHERE `item_id` IN (10530,10531,10532); -- 王朝毀滅者(攻擊速度)
 
--- NC設定`atk_speed` = '325'，修正 = '379'(確認數值需要修正為379嗎?) --
-UPDATE `weapon` SET `atk_speed` = '379' WHERE `item_id` IN (748); -- 噶爾林特的橡木杖(攻擊速度)
-
 -- NC設定`bodypart` = '14'錯誤，修正 = '7' --
 UPDATE `weapon` SET `bodypart` = '7'    WHERE `item_id` IN (8678,8788,8789,8790,10667,10668,10669,11169,11170,11171,11172,11986,12879,12880,12881,13210); --  希露冰刃
 UPDATE `weapon` SET `bodypart` = '7'    WHERE `item_id` IN (8686,8812,8813,8814,10691,10692,10693,11182,11183,11184,11185,11990,12889,12890,12891,13218); --  緹米絲之舌

@@ -839,6 +839,7 @@
   <set name="operateType" val="OP_ACTIVE"/>
   <set name="castRange" val="400"/>
   <set name="effectRange" val="600"/>
+  <set name="reuseDelay" val="300000"/>
 </skill>
 <skill id="3264" levels="1" name="Blessed Escape">
   <!-- Update by rocknow -->
@@ -848,6 +849,7 @@
   <set name="operateType" val="OP_ACTIVE"/>
   <set name="castRange" val="-1"/>
   <set name="effectRange" val="-1"/>
+  <set name="reuseDelay" val="60000"/>
 </skill>
 <skill id="3265" levels="1" name="Mysterious Ability">
   <!-- Done by lastsin -->

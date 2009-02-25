@@ -728,9 +728,10 @@
 <skill id="8250" levels="2" name="Summon Tigress">
   <!-- Update by rocknow from L2Emu -->
   <table name="#npc"> 14916 14917 </table>
+  <set name="mpConsume" val="117"/>
   <set name="target" val="TARGET_SELF"/>
   <set name="reuseDelay" val="20000"/>
-  <set name="hitTime" val="6000"/>
+  <set name="hitTime" val="15000"/>
   <set name="skillType" val="SUMMON"/>
   <set name="isMagic" val="true"/>
   <set name="operateType" val="OP_ACTIVE"/>

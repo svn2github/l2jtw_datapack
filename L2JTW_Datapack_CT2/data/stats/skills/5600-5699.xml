@@ -608,12 +608,12 @@
 <skill id="5656" levels="85" name="Gatekeeper Aura Flare">
   <!-- Update by rocknow from L2Emu -->
   <set name="mpInitialConsume" val="15"/>
-  <set name="mpConsume" val="70"/>
+  <set name="mpConsume" val="75"/>
   <set name="magicLvl" val="950"/>
-  <set name="power" val="1200"/>
+  <set name="power" val="1024"/>
   <set name="target" val="TARGET_ONE"/>
   <set name="reuseDelay" val="2500"/>
-  <set name="hitTime" val="1500"/>
+  <set name="hitTime" val="1000"/>
   <set name="skillType" val="MDAM"/>
   <set name="isMagic" val="true"/>
   <set name="operateType" val="OP_ACTIVE"/>
@@ -632,11 +632,11 @@
   <!-- Update by rocknow from L2Emu -->
   <set name="magicLvl" val="1000"/>
   <set name="mpInitialConsume" val="20"/>
-  <set name="mpConsume" val="80"/>
-  <set name="power" val="1550"/>
+  <set name="mpConsume" val="55"/>
+  <set name="power" val="1279"/>
   <set name="target" val="TARGET_ONE"/>
   <set name="reuseDelay" val="6000"/>
-  <set name="hitTime" val="4000"/>
+  <set name="hitTime" val="1500"/>
   <set name="skillType" val="MDAM"/>
   <set name="isMagic" val="true"/>
   <set name="operateType" val="OP_ACTIVE"/>
@@ -646,13 +646,13 @@
 <skill id="5658" levels="85" name="Gatekeeper Flame Strike">
   <!-- Update by rocknow from L2Emu -->
   <set name="mpInitialConsume" val="22"/>
-  <set name="mpConsume" val="85"/>
+  <set name="mpConsume" val="91"/>
   <set name="magicLvl" val="1200"/>
-  <set name="power" val="1700"/>
+  <set name="power" val="640"/>
   <set name="target" val="TARGET_AREA"/>
   <set name="skillRadius" val="200"/>
   <set name="reuseDelay" val="15000"/>
-  <set name="hitTime" val="4000"/>
+  <set name="hitTime" val="2500"/>
   <set name="skillType" val="MDAM"/>
   <set name="isMagic" val="true"/>
   <set name="operateType" val="OP_ACTIVE"/>
@@ -662,7 +662,7 @@
 <skill id="5659" levels="2" name="Gatekeeper Berserker Spirit">
   <!-- Update by rocknow from L2Emu -->
   <set name="mpInitialConsume" val="10"/>
-  <set name="mpConsume" val="38"/>
+  <set name="mpConsume" val="48"/>
   <set name="target" val="TARGET_SELF"/>
   <set name="reuseDelay" val="6000"/>
   <set name="hitTime" val="4000"/>

@@ -61,7 +61,7 @@
   <set name="operateType" val="OP_ACTIVE"/>
   <set name="castRange" val="400"/>
   <set name="effectRange" val="600"/>
-  <set name="reuseDelay" val="180000"/>
+  <set name="reuseDelay" val="300000"/>
 </skill>
 <skill id="23006" levels="1" name="Black Majo Agathion Special Skill - Power of Blessed Return">
   <!-- Update by rocknow -->
@@ -71,7 +71,7 @@
   <set name="operateType" val="OP_ACTIVE"/>
   <set name="castRange" val="-1"/>
   <set name="effectRange" val="-1"/>
-  <set name="reuseDelay" val="180000"/>
+  <set name="reuseDelay" val="60000"/>
 </skill>
 <skill id="23007" levels="1" name="Plaipitak Agathion Special Skill - Mysterious Power">
   <!-- Update by rocknow -->
@@ -93,7 +93,7 @@
   <set name="operateType" val="OP_ACTIVE"/>
   <set name="castRange" val="-1"/>
   <set name="effectRange" val="-1"/>
-  <set name="reuseDelay" val="180000"/>
+  <set name="reuseDelay" val="60000"/>
 </skill>
 <skill id="23009" levels="1" name="Plaipitak Agathion Special Skill - Power of Blessed Resurrection">
   <!-- Update by rocknow -->
@@ -104,7 +104,7 @@
   <set name="operateType" val="OP_ACTIVE"/>
   <set name="castRange" val="400"/>
   <set name="effectRange" val="600"/>
-  <set name="reuseDelay" val="180000"/>
+  <set name="reuseDelay" val="300000"/>
 </skill>
 <skill id="23010" levels="1" name="Baby Panda Agathion Cute Trick">
   <!-- Update by rocknow -->
@@ -157,7 +157,7 @@
   <set name="operateType" val="OP_ACTIVE"/>
   <set name="castRange" val="400"/>
   <set name="effectRange" val="600"/>
-  <set name="reuseDelay" val="180000"/>
+  <set name="reuseDelay" val="300000"/>
 </skill>
 <skill id="23015" levels="1" name="Sexy Panda Agathion Special Skill - Power of Blessed Return">
   <!-- Update by rocknow -->
@@ -167,7 +167,7 @@
   <set name="operateType" val="OP_ACTIVE"/>
   <set name="castRange" val="-1"/>
   <set name="effectRange" val="-1"/>
-  <set name="reuseDelay" val="180000"/>
+  <set name="reuseDelay" val="60000"/>
 </skill>
 <skill id="23025" levels="1" name="Charming Cupid Agathion Cute Trick">
   <!-- Update by rocknow -->
@@ -228,7 +228,7 @@
   <set name="operateType" val="OP_ACTIVE"/>
   <set name="castRange" val="400"/>
   <set name="effectRange" val="600"/>
-  <set name="reuseDelay" val="180000"/>
+  <set name="reuseDelay" val="300000"/>
 </skill>
 <skill id="23031" levels="1" name="Black Maneki Neko Agathion Special Skill - Ability of Blessed Return">
   <!-- Update by rocknow -->
@@ -238,7 +238,7 @@
   <set name="operateType" val="OP_ACTIVE"/>
   <set name="castRange" val="-1"/>
   <set name="effectRange" val="-1"/>
-  <set name="reuseDelay" val="180000"/>
+  <set name="reuseDelay" val="60000"/>
 </skill>
 <skill id="23033" levels="1" name="One-Eyed Bat Drove Agathion Cute Trick">
   <!-- Update by rocknow -->
@@ -258,7 +258,7 @@
   <set name="operateType" val="OP_ACTIVE"/>
   <set name="castRange" val="-1"/>
   <set name="effectRange" val="-1"/>
-  <set name="reuseDelay" val="180000"/>
+  <set name="reuseDelay" val="60000"/>
   <for>
     <effect count="1" name="Buff" time="1200" val="0" stackOrder="1" stackType="DarkAtr">
       <mul order="0x30" stat="darkVuln" val="0.7"/>
@@ -283,7 +283,7 @@
   <set name="operateType" val="OP_ACTIVE"/>
   <set name="castRange" val="-1"/>
   <set name="effectRange" val="-1"/>
-  <set name="reuseDelay" val="180000"/>
+  <set name="reuseDelay" val="60000"/>
   <for>
     <effect count="1" name="Buff" time="1200" val="0" stackOrder="20" stackType="speed_up">
       <add order="0x40" stat="runSpd" val="20"/>
@@ -298,7 +298,7 @@
   <set name="operateType" val="OP_ACTIVE"/>
   <set name="castRange" val="-1"/>
   <set name="effectRange" val="-1"/>
-  <set name="reuseDelay" val="180000"/>
+  <set name="reuseDelay" val="60000"/>
 </skill>
 <skill id="23039" levels="1" name="Yellow-Robed Tojigong Agathion Cute Trick">
   <!-- Update by rocknow -->
@@ -339,7 +339,7 @@
   <set name="castRange" val="-1"/>
   <set name="effectRange" val="-1"/>
   <set name="power" val="204"/>
-  <set name="reuseDelay" val="180000"/>
+  <set name="reuseDelay" val="60000"/>
   <for>
     <effect count="15" name="HealOverTime" time="1" val="15" stackOrder="15" stackType="LifeForce"/>
   </for>
@@ -352,7 +352,7 @@
   <set name="operateType" val="OP_ACTIVE"/>
   <set name="castRange" val="-1"/>
   <set name="effectRange" val="-1"/>
-  <set name="reuseDelay" val="180000"/>
+  <set name="reuseDelay" val="60000"/>
   <for>
     <effect count="1" name="Buff" time="1200" val="0" stackOrder="20" stackType="DmgShield">
       <add order="0x40" stat="reflectDam" val="20"/>
@@ -367,7 +367,7 @@
   <set name="operateType" val="OP_ACTIVE"/>
   <set name="castRange" val="-1"/>
   <set name="effectRange" val="-1"/>
-  <set name="reuseDelay" val="180000"/>
+  <set name="reuseDelay" val="60000"/>
   <for>
     <effect name="Buff" time="1200" count="1" val="0">
       <add order="0x40" stat="regMp" val="1.82"/>

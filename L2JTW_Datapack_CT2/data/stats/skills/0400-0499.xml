@@ -1866,6 +1866,7 @@
   <set name="operateType" val="OP_ACTIVE"/>
   <set name="castRange" val="40"/><!-- Update by rocknow from L2Emu -->
   <set name="effectRange" val="400"/><!-- Update by rocknow from L2Emu -->
+  <set name="effectType" val="BLEED"/><!-- Update by rocknow from L2Emu -->
   <set name="effectPower" val="40"/><!-- Update by rocknow from L2Emu -->
   <set name="soulMaxConsumeCount" val="5"/>
   <enchant1 name="magicLvl" val="#enchantMagicLvl"/>

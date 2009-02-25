@@ -512,8 +512,8 @@
 <skill id="5442" levels="4" name="Bite Attack">
   <!-- Update by rocknow from L2Emu -->
   <table name="#magicLvl"> 55 60 65 70 </table>
-  <table name="#mpConsume"> 61 68 73 79 </table>
-  <table name="#power"> 1527.0 1894.0 2293.0 2710.0 </table>
+  <table name="#mpConsume"> 55 61 66 71 </table>
+  <table name="#power"> 1527 1894 2293 2710 </table>
   <set name="mpConsume" val="#mpConsume"/>
   <set name="magicLvl" val="#magicLvl"/>
   <set name="power" val="#power"/>
@@ -531,7 +531,7 @@
 <skill id="5443" levels="4" name="Cry of the Wolf">
   <!-- Update by rocknow from L2Emu -->
   <table name="#magicLvl"> 60 64 68 72 </table> 
-  <table name="#mpConsume"> 61 68 73 79 </table>
+  <table name="#mpConsume"> 55 61 66 71 </table>
   <set name="mpConsume" val="#mpConsume"/>
   <set name="magicLvl" val="#magicLvl"/>
   <set name="lvlDepend" val="2"/>
@@ -554,8 +554,8 @@
 </skill>
 <skill id="5444" levels="2" name="Maul">
   <!-- Update by rocknow from L2Emu -->
-  <table name="#mpConsume"> 73 79 </table>
-  <table name="#power"> 459.0 542.0 </table>
+  <table name="#mpConsume"> 66 71 </table>
+  <table name="#power"> 459 542 </table>
   <table name="#bleedpower"> 93 102 </table>
   <table name="#magicLvl"> 65 70 </table>
   <set name="mpConsume" val="#mpConsume"/>
@@ -580,7 +580,7 @@
 </skill>
 <skill id="5445" levels="1" name="Awakening">
   <!-- Update by rocknow from L2Emu -->
-  <set name="mpConsume" val="79"/>
+  <set name="mpConsume" val="71"/>
   <set name="target" val="TARGET_SELF"/>
   <set name="reuseDelay" val="900000"/>
   <set name="hitTime" val="1500"/>

@@ -2070,9 +2070,9 @@ UPDATE `armor` SET `name` ='封印的夢魘頭盔	輕裝用' WHERE item_id ='130
 UPDATE `armor` SET `name` ='封印的夢魘頭盔	長袍用' WHERE item_id ='13001';
 UPDATE `armor` SET `name` ='淡紫鬃馬騎乘手鐲	限時7日' WHERE item_id ='13022';
 UPDATE `armor` SET `name` ='愛心壺精	限時30日' WHERE item_id ='13023';
-UPDATE `armor` SET `name` ='憤怒守護精靈' WHERE item_id ='13024';
-UPDATE `armor` SET `name` ='喜悅守護精靈' WHERE item_id ='13025';
-UPDATE `armor` SET `name` ='悲傷守護精靈' WHERE item_id ='13026';
+UPDATE `armor` SET `name` ='怒氣壺精' WHERE item_id ='13024';
+UPDATE `armor` SET `name` ='開心壺精' WHERE item_id ='13025';
+UPDATE `armor` SET `name` ='嗚咽壺精' WHERE item_id ='13026';
 UPDATE `armor` SET `name` ='底格里斯專用防具' WHERE item_id ='13050';
 UPDATE `armor` SET `name` ='賽勒諾斯頭飾' WHERE item_id ='13058';
 UPDATE `armor` SET `name` ='巴瑞卡卡輪(巴瑞卡賽勒諾斯用)' WHERE item_id ='13234';
