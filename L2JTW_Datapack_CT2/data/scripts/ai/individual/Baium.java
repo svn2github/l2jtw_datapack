@@ -44,6 +44,8 @@ import net.sf.l2j.gameserver.templates.StatsSet;
 import net.sf.l2j.gameserver.util.Util;
 import net.sf.l2j.util.Rnd;
 import net.sf.l2j.gameserver.network.serverpackets.NpcSay;
+import net.sf.l2j.gameserver.model.L2Attackable;
+import java.util.List;
 
 /**
  * Baium AI
@@ -77,11 +79,26 @@ import net.sf.l2j.gameserver.network.serverpackets.NpcSay;
  */
 public class Baium extends L2AttackableAIScript
 {
+    private static final int[][] Pos = 
+        {
+           { 113004, 16209, 10076, 60242 },
+           { 114053, 16642, 10076, 4411 }, 
+           { 114563, 17184, 10076, 49241 },
+           { 116356, 16402, 10076, 31109 },
+           { 115015, 16393, 10076, 32760 },
+           { 115481, 15335, 10076, 16241 },
+           { 114680, 15407, 10051, 32485 },
+           { 114886, 14437, 10076, 16868 },
+           { 115391, 17593, 10076, 55346 },
+           { 115245, 17558, 10076, 35536 } 
+        };
+
 	private L2Character _target;
 	private L2Skill _skill;
 	private static final int STONE_BAIUM = 29025;
 	private static final int ANGELIC_VORTEX = 31862;
 	private static final int LIVE_BAIUM = 29020;
+	private static final int Angel = 29021;
 
 	//Baium status tracking
 	private static final byte ASLEEP = 0;  // baium is in the stone version, waiting to be woken up.  Entry is unlocked
@@ -91,11 +108,13 @@ public class Baium extends L2AttackableAIScript
 	private static long _LastAttackVsBaiumTime = 0;
 	private static L2BossZone _Zone;
 	
+	List<L2Attackable> Minions = new FastList<L2Attackable>();
+		
 	public Baium (int questId, String name, String descr)
 	{
 		super(questId, name, descr);
 		
-        int[] mob = {LIVE_BAIUM};
+        int[] mob = {LIVE_BAIUM, Angel};
         this.registerMobs(mob);
         
         // Quest NPC starter initialization
@@ -193,6 +212,7 @@ public class Baium extends L2AttackableAIScript
                 _LastAttackVsBaiumTime = System.currentTimeMillis();
                 startQuestTimer("baium_despawn", 60000, npc, null, true);
                 startQuestTimer("skill_range", 500, npc, null, true);
+				startQuestTimer("angel",30000, npc, null);
                 final L2NpcInstance baium = npc;
                 ThreadPoolManager.getInstance().scheduleGeneral(new Runnable() {
     				public void run()
@@ -224,6 +244,7 @@ public class Baium extends L2AttackableAIScript
                 if (_LastAttackVsBaiumTime + 900000 < System.currentTimeMillis())
                 {
                     npc.deleteMe();   // despawn the live-baium
+					startQuestTimer("despawn_minions",20000,null,null);
                     addSpawn(STONE_BAIUM,116067,17484,10110,41740,false,0);  // spawn stone-baium
                     GrandBossManager.getInstance().setBossStatus(LIVE_BAIUM,ASLEEP);    // mark that Baium is not awake any more
                     _Zone.oustAllPlayers();
@@ -239,6 +260,33 @@ public class Baium extends L2AttackableAIScript
                 else if (!_Zone.isInsideZone(npc))
                 	npc.teleToLocation(116067,17484,10110);
             }
+        }
+		else if (event.equalsIgnoreCase("spawn_minion"))
+        {
+		    int i = Rnd.get(9);
+            L2NpcInstance mob = addSpawn(Angel,Pos[i][0],Pos[i][1],Pos[i][2],Pos[i][3],false,0);
+            mob.setIsRaidMinion(true);
+            Minions.add((L2Attackable)mob);
+        }
+        else if (event.equalsIgnoreCase("angel"))
+        {
+			int j = Rnd.get(1);
+			for (int i = j; i < 10; i = i + 2)
+            {
+            L2NpcInstance mob = addSpawn(Angel,Pos[i][0],Pos[i][1],Pos[i][2],Pos[i][3],false,0);
+            mob.setIsRaidMinion(true);
+            Minions.add((L2Attackable)mob);
+			}
+        }
+        else if (event.equalsIgnoreCase("despawn_minions"))
+        {
+            for (int i=0;i<Minions.size();i++)
+            {
+                L2Attackable mob = Minions.get(i);
+                if (mob != null)
+                mob.decayMe();
+            }
+            Minions.clear();
         }
         return super.onAdvEvent(event, npc, player);
 	}
@@ -322,11 +370,6 @@ public class Baium extends L2AttackableAIScript
     }
     public String onAttack (L2NpcInstance npc, L2PcInstance attacker, int damage, boolean isPet)
     {
-    	if (!_Zone.isInsideZone(attacker))
-    	{
-    		attacker.reduceCurrentHp(attacker.getCurrentHp(),attacker,false,false, null);
-    		return null;
-    	}
 		if (npc.isInvul())
 		{
 			npc.getAI().setIntention(AI_INTENTION_IDLE);
@@ -361,6 +404,9 @@ public class Baium extends L2AttackableAIScript
     
     public String onKill (L2NpcInstance npc, L2PcInstance killer, boolean isPet) 
     { 
+	    if (GrandBossManager.getInstance().getBossStatus(LIVE_BAIUM) == AWAKE && npc.getNpcId() == LIVE_BAIUM)
+        {
+		_LastAttackVsBaiumTime = System.currentTimeMillis();
         cancelQuestTimer("baium_despawn", npc, null);
         npc.broadcastPacket(new PlaySound(1, "BS01_D", 1, npc.getObjectId(), npc.getX(), npc.getY(), npc.getZ()));
         // spawn the "Teleportation Cubic" for 15 minutes (to allow players to exit the lair)
@@ -373,8 +419,16 @@ public class Baium extends L2AttackableAIScript
         StatsSet info = GrandBossManager.getInstance().getStatsSet(LIVE_BAIUM);
         info.set("respawn_time",(System.currentTimeMillis()) + respawnTime);
         GrandBossManager.getInstance().setStatsSet(LIVE_BAIUM,info);
+		startQuestTimer("despawn_minions",20000,null,null);
+        cancelQuestTimers("spawn_minion");
 		if (getQuestTimer("skill_range", npc, null) != null)
 			getQuestTimer("skill_range", npc, null).cancel();
+		}	
+		else if (GrandBossManager.getInstance().getBossStatus(LIVE_BAIUM) == AWAKE && Minions != null && Minions.contains(npc))
+        {
+            Minions.remove(npc);
+            startQuestTimer("spawn_minion",60000,npc,null);
+        }
         return super.onKill(npc,killer,isPet);
     }
 

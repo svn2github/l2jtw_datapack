@@ -417,10 +417,6 @@ public class Valakas extends L2AttackableAIScript
 			return null;
 		}
 		i_quest1 = System.currentTimeMillis();
-        if (GrandBossManager.getInstance().getBossStatus(VALAKAS) != FIGHTING)
-        {
-        	attacker.teleToLocation(150037,-57255,-2976);
-        }
 
 		if (npc.getNpcId() == VALAKAS && !npc.isInvul())
     	{
@@ -992,6 +988,8 @@ public class Valakas extends L2AttackableAIScript
 
     public String onKill (L2NpcInstance npc, L2PcInstance killer, boolean isPet) 
     { 
+        if (GrandBossManager.getInstance().getBossStatus(VALAKAS) == FIGHTING && npc.getNpcId() == VALAKAS)
+        {
     	startQuestTimer("1111",500, npc, null);
         npc.broadcastPacket(new SpecialCamera(npc.getObjectId(),2000,130,0,0,8000));
         npc.broadcastPacket(new PlaySound(1, "B03_D", 1, npc.getObjectId(), npc.getX(), npc.getY(), npc.getZ()));
@@ -1003,6 +1001,7 @@ public class Valakas extends L2AttackableAIScript
         StatsSet info = GrandBossManager.getInstance().getStatsSet(VALAKAS);
         info.set("respawn_time",(System.currentTimeMillis() + respawnTime));
         GrandBossManager.getInstance().setStatsSet(VALAKAS,info);
+		}
         return super.onKill(npc,killer,isPet);
     }
 

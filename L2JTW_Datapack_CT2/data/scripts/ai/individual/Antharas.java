@@ -42,6 +42,8 @@ import net.sf.l2j.gameserver.model.L2Summon;
 import net.sf.l2j.gameserver.model.actor.instance.L2DecoyInstance;
 import net.sf.l2j.gameserver.model.quest.QuestTimer;
 import net.sf.l2j.gameserver.util.Util;
+import net.sf.l2j.gameserver.model.L2Attackable;
+import java.util.List;
 
 /**
  * Antharas AI
@@ -52,6 +54,9 @@ public class Antharas extends L2AttackableAIScript
 	private L2Character _target;
 	private L2Skill _skill;
 	private static final int ANTHARAS = 29019;
+	private static final int Behemoth = 29069;
+	private static final int Bomber = 29070;
+
 
 	//Antharas Status Tracking :
 	private static final byte DORMANT = 0;     	//Antharas is spawned and no one has entered yet. Entry is unlocked
@@ -64,11 +69,13 @@ public class Antharas extends L2AttackableAIScript
 	
 	private static L2BossZone _Zone;
 	
+	List<L2Attackable> Minions = new FastList<L2Attackable>();
+	
 	// Boss: Antharas
 	public Antharas(int id,String name,String descr)
 	{
         super(id,name,descr);
-        int[] mob = {ANTHARAS};
+        int[] mob = {ANTHARAS, Behemoth, Bomber};
         this.registerMobs(mob);
         _Zone = GrandBossManager.getInstance().getZone(181323,114850,-7618);
         StatsSet info = GrandBossManager.getInstance().getStatsSet(ANTHARAS);
@@ -118,9 +125,24 @@ public class Antharas extends L2AttackableAIScript
                 antharas.setIsInvul(false);
                 antharas.setIsImmobilized(false);
                 antharas.setRunning();
+				this.spawnBoss(antharas);
             }
         }
 	}
+	
+    public void spawnBoss(L2GrandBossInstance npc)
+    {
+        GrandBossManager.getInstance().addBoss(npc);
+        npc.broadcastPacket(new PlaySound(1, "BS01_A", 1, npc.getObjectId(), npc.getX(), npc.getY(), npc.getZ()));
+        //Spawn minions
+        L2NpcInstance mob;
+        mob = addSpawn(Behemoth,Rnd.get(175000, 179900),Rnd.get(112400, 116000),-7709,0,false,0);
+        mob.setIsRaidMinion(true);
+        Minions.add((L2Attackable) mob);
+        mob = addSpawn(Bomber,Rnd.get(175000, 179900),Rnd.get(112400, 116000),-7709,0,false,0);
+        mob.setIsRaidMinion(true);
+        Minions.add((L2Attackable) mob);
+    }
 
 	public String onAdvEvent (String event, L2NpcInstance npc, L2PcInstance player)
 	{
@@ -180,6 +202,8 @@ public class Antharas extends L2AttackableAIScript
                 npc.setIsImmobilized(false);
                 npc.setRunning();
                 GrandBossManager.getInstance().setBossStatus(ANTHARAS,FIGHTING);
+				this.startQuestTimer("Behemoth",30000, npc, null);
+				this.startQuestTimer("Bomber",30000, npc, null);
             }
             else if (event.equalsIgnoreCase("antharas_despawn"))
             {
@@ -193,6 +217,7 @@ public class Antharas extends L2AttackableAIScript
                     npc.setCurrentHpMp(npc.getMaxHp(),npc.getMaxMp());
                     _Zone.oustAllPlayers();
                     this.cancelQuestTimer("antharas_despawn", npc, null);
+					this.startQuestTimer("despawn_minions",20000,null,null);
                 }
                 else if (!_Zone.isInsideZone(npc))
                     npc.teleToLocation(181323,114850,-7618);
@@ -250,6 +275,24 @@ public class Antharas extends L2AttackableAIScript
                 this.cancelQuestTimer("antharas_despawn", npc, null);
                 this.startQuestTimer("remove_players",900000, null, null);
             }
+            else if (event.equalsIgnoreCase("spawn_minion"))
+            {
+                L2NpcInstance mob = addSpawn(npc.getNpcId(),Rnd.get(175000, 179900),Rnd.get(112400, 116000),-7709,0,false,0);
+                mob.setIsRaidMinion(true);
+                Minions.add((L2Attackable)mob);
+            }
+            else if (event.equalsIgnoreCase("Behemoth"))
+            {
+                L2NpcInstance mob = addSpawn(Behemoth,Rnd.get(175000, 179900),Rnd.get(112400, 116000),-7709,0,false,0);
+                mob.setIsRaidMinion(true);
+                Minions.add((L2Attackable)mob);
+            }
+            else if (event.equalsIgnoreCase("Bomber"))
+            {
+                L2NpcInstance mob = addSpawn(Bomber,Rnd.get(175000, 179900),Rnd.get(112400, 116000),-7709,0,false,0);
+                mob.setIsRaidMinion(true);
+                Minions.add((L2Attackable)mob);
+            }
         }
         else
         {
@@ -262,6 +305,16 @@ public class Antharas extends L2AttackableAIScript
             else if (event.equalsIgnoreCase("remove_players"))
             {
                 _Zone.oustAllPlayers();
+            }
+            else if (event.equalsIgnoreCase("despawn_minions"))
+            {
+                for (int i=0;i<Minions.size();i++)
+                {
+                    L2Attackable mob = Minions.get(i);
+                    if (mob != null)
+                    mob.decayMe();
+                }
+                Minions.clear();
             }
         }
         return super.onAdvEvent(event, npc, player);
@@ -282,11 +335,6 @@ public class Antharas extends L2AttackableAIScript
     }
 	public String onAttack (L2NpcInstance npc, L2PcInstance attacker, int damage, boolean isPet)
 	{		
-        _LastAction = System.currentTimeMillis();
-        if (GrandBossManager.getInstance().getBossStatus(ANTHARAS) != FIGHTING)
-        {
-            _Zone.oustAllPlayers();
-        }
 		if (npc.isInvul())
 		{
 			npc.getAI().setIntention(AI_INTENTION_IDLE);
@@ -294,6 +342,7 @@ public class Antharas extends L2AttackableAIScript
 		}
 		else if (npc.getNpcId() == ANTHARAS && !npc.isInvul())
     	{
+            _LastAction = System.currentTimeMillis();
     		if (attacker.getMountType() == 1)
         	{
     			int sk_4258 = 0;
@@ -319,6 +368,8 @@ public class Antharas extends L2AttackableAIScript
 
     public String onKill (L2NpcInstance npc, L2PcInstance killer, boolean isPet) 
     { 
+        if (GrandBossManager.getInstance().getBossStatus(ANTHARAS) == FIGHTING && npc.getNpcId() == ANTHARAS)
+        {
         npc.broadcastPacket(new PlaySound(1, "BS01_D", 1, npc.getObjectId(), npc.getX(), npc.getY(), npc.getZ()));
         this.startQuestTimer("spawn_cubes", 10000, npc, null);
         GrandBossManager.getInstance().setBossStatus(ANTHARAS,DEAD);
@@ -328,8 +379,16 @@ public class Antharas extends L2AttackableAIScript
         StatsSet info = GrandBossManager.getInstance().getStatsSet(ANTHARAS);
         info.set("respawn_time",(System.currentTimeMillis() + respawnTime));
         GrandBossManager.getInstance().setStatsSet(ANTHARAS,info);
+		this.startQuestTimer("despawn_minions",20000,null,null);
+        this.cancelQuestTimers("spawn_minion");
 		if (getQuestTimer("skill_range", npc, null) != null)
 			getQuestTimer("skill_range", npc, null).cancel();
+		}
+        else if (GrandBossManager.getInstance().getBossStatus(ANTHARAS) == FIGHTING && Minions != null && Minions.contains(npc))
+        {
+            Minions.remove(npc);
+            startQuestTimer("spawn_minion",60000,npc,null);
+        }
         return super.onKill(npc,killer,isPet);
     }
 
