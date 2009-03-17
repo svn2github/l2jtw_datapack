@@ -28,10 +28,12 @@ class Quest (JQuest) :
             st.playSound("ItemSound.quest_accept")
             st.set("cond","1")
             st.setState(State.STARTED)
-        elif event == "30512-04.htm":
+        elif event == "30673-04.htm":
             st.set("cond","2")
             st.playSound("ItemSound.quest_middle")
         elif event == "30621-02.htm":
+            if player.getLevel() < 50:
+               st.addExpAndSp(60000,3000)
             st.giveItems(57,18100)
             st.exitQuest(False)
             st.playSound("ItemSound.quest_finish")
@@ -61,12 +63,13 @@ class Quest (JQuest) :
         if id == State.COMPLETED :
             if npcId == Kusto :
                 htmltext = "<html><body>這是已經完成的任務。</body></html>"
-            #
-            #elif npcId == Nikola :
-            #    qs1 = player.getQuestState("184_Nikolas_Cooperation_Contract")
-            #    qs2 = player.getQuestState("185_Nikolas_Cooperation_Consideration")
-            #    if not qs1 and not qs2 :
-            #        htmltext = "30621-03.htm"
+            elif npcId == Nikola :
+                qs1 = player.getQuestState("184_Nikolas_Cooperation_Contract")
+                qs2 = player.getQuestState("185_Nikolas_Cooperation_Consideration")
+                if not qs1 and not qs2 :
+                    htmltext = "30621-03.htm"
+                else :
+                    htmltext = "<html><body>這是已經完成的任務。</body></html>"
         elif npcId == Kusto :
             if id == State.CREATED :
                 if player.getLevel() < 40 :
@@ -85,7 +88,7 @@ class Quest (JQuest) :
                 htmltext = "30621-01.htm"
         return htmltext
 
-QUEST       = Quest(183,qn,"Relics Exploration")
+QUEST       = Quest(183,qn,"探查巨人的遺蹟")
 
 QUEST.addStartNpc(Kusto)
 QUEST.addStartNpc(Nikola)
