@@ -12,53 +12,49 @@ CREATE TABLE `skill_trees` (
 -- GLOSSARY FOR CLASS ID'S (Created by Mr_Pleb_Mgoo), Updated by DJ MELERIX
 
 -- HUMANS
--- 0=Human Fighter       | 1=Warrior          | 2=Gladiator        | 3=Warlord          | 4=Human Knight
--- 5=Paladin             | 6=Dark Avenger     | 7=Rogue            | 8=Treasure Hunter  | 9=Hawkeye
--- 10=Human Mystic       | 11=Wizard          | 12=Sorcerer/ss     | 13=Necromancer     | 14=Warlock
--- 15=Cleric             | 16=Bishop          | 17=Prophet
+-- 0=Human Fighter        | 1=Warrior       | 2=Gladiator        | 3=Warlord  | 4=Human Knight   | 5=Paladin
+-- 6=Dark Avenger         | 7=Rogue         | 8=Treasure Hunter  | 9=Hawkeye  | 10=Human Mystic  | 11=Wizard
+-- 12=Sorcerer/ss         | 13=Necromancer  | 14=Warlock         | 15=Cleric  | 16=Bishop        | 17=Prophet
 
 -- ELVES
--- 18=Elven Fighter      | 19=Elven Knight    | 20=Temple Knight   | 21=Swordsinger     | 22=Elven Scout
--- 23=Plainswalker       | 24=Silver Ranger   | 25=Elven Mystic    | 26=Elven Wizard    | 27=Spellsinger
--- 28=Elemental Summoner | 29=Elven Oracle    | 30=Elven Elder
+-- 18=Elven Fighter       | 19=Elven Knight   | 20=Temple Knight  | 21=Swordsinger   | 22=Elven Scout
+-- 23=Plains Walker       | 24=Silver Ranger  | 25=Elven Mystic   | 26=Elven Wizard  | 27=SpellSinger
+-- 28=Elemental Summoner  | 29=Elven Oracle   | 30=Elven Elder
 
 -- DARK ELVES
--- 31=Dark Fighter       | 32=Palus Knight    | 33=Shillien Knight | 34=Bladedancer     | 35=Assassin
--- 36=Abyss Walker       | 37=Phantom Ranger  | 38=Dark Mystic     | 39=Dark Wizard     | 40=Spellhowler
--- 41=Phantom Summoner   | 42=Shillien Oracle | 43=Shillien Elder
+-- 31=Dark Fighter        | 32=Palus Knight     | 33=Shillien Knight  | 34=BladeDancer  | 35=Assassin
+-- 36=Abyss Walker        | 37=Phantom Ranger   | 38=Dark Mystic      | 39=Dark Wizard  | 40=SpellHowler
+-- 41=Phantom Summoner    | 42=Shillien Oracle  | 43=Shillien Elder
 
 -- ORCS
--- 44=Orc Fighter        | 45=Orc Raider      | 46=Destroyer       | 47=Monk            | 48=Tyrant
--- 49=Orc Mystic         | 50=Orc Shaman      | 51=Overlord        | 52=Warcryer
+-- 44=Orc Fighter         | 45=Orc Raider  | 46=Destroyer  | 47=Monk  | 48=Tyrant  | 49=Orc Mystic  | 50=Orc Shaman
+-- 51=Overlord            | 52=Warcryer
 
 -- DWARVES
--- 53=Dwarven Fighter    | 54=Scavenger       | 55=Bounty Hunter   | 56=Artisan         | 57=Warsmith
+-- 53=Dwarven Fighter     | 54=Scavenger  | 55=Bounty Hunter  | 56=Artisan  | 57=Warsmith
 
 -- HUMANS 3rd Professions
--- 88=Duelist            | 89=Dreadnought     | 90=Phoenix Knight  | 91=Hell Knight     | 92=Sagittarius
--- 93=Adventurer         | 94=Archmage        | 95=Soultaker       | 96=Arcana Lord     | 97=Cardinal
--- 98=Hierophant
+-- 88=Duelist             | 89=DreadNought  | 90=Phoenix Knight  | 91=Hell Knight  | 92=Sagittarius  | 93=Adventurer
+-- 94=ArchMage            | 95=Soultaker    | 96=Arcana Lord     | 97=Cardinal     | 98=HieroPhant
 
 -- ELVES 3rd Professions
--- 99=Evas Templar      | 100=Sword Muse       | 101=Wind Rider     | 102=Moonlight Sentinel
--- 103=Mystic Muse      | 104=Elemental Master | 105=Evas Saint
+-- 99=Evas Templar        | 100=Sword Muse  | 101=Wind Rider  | 102=Moonlight Sentinel  | 103=Mystic Muse
+-- 104=Elemental Master   | 105=Evas Saint
 
 -- DARK ELVES 3rd Professions
--- 106=Shillien Templar | 107=Spectral Dancer  | 108=Ghost Hunter   | 109=Ghost Sentinel
--- 110=Storm Screamer   | 111=Spectral Master  | 112=Shillien Saint
+-- 106=Shillien Templar   | 107=Spectral Dancer  | 108=Ghost Hunter  | 109=Ghost Sentinel  | 110=Storm Screamer
+-- 111=Spectral Master    | 112=Shillien Saint
 
 -- ORCS 3rd Professions
--- 113=Titan            | 114=Grand Khavatari
--- 115=Dominator        | 116=Doomcryer
+-- 113=Titan              | 114=Grand Khavatari  | 115=Dominator  | 116=Doomcryer
 
 -- DWARVES 3rd Professions
--- 117=Fortune Seeker   | 118=Maestro
+-- 117=Fortune Seeker     | 118=Maestro
 
 -- KAMAELS
--- 123=Male Soldier     | 124=Female Soldier     | 125=Trooper              | 126=Warder
--- 127=Berserker        | 128=Male Soul Breaker  | 129=Female Soul Breaker  | 130=Arbalester
--- 131=Doombringer      | 132=Male Soul Hound    | 133=Female Soul Hound    | 134=Trickster
--- 135=Inspector        | 136=Judicator
+-- 123=Male Soldier       | 124=Female Soldier       | 125=Trooper     | 126=Warder       | 127=Berserker
+-- 128=Male Soul Breaker  | 129=Female Soul Breaker  | 130=Arbalester  | 131=Doombringer  | 132=Male Soul Hound
+-- 133=Female Soul Hound  | 134=Trickster            | 135=Inspector   | 136=Judicator
 
 INSERT INTO skill_trees VALUES
 (0,141,1,'Weapon Mastery',160,5),
@@ -5681,6 +5677,7 @@ INSERT INTO skill_trees VALUES
 (23,15,31,'Charm',49000,55),
 (23,15,32,'Charm',49000,55),
 (23,15,33,'Charm',49000,55),
+(23,137,4,'Critical Chance',150000,58),
 (23,15,34,'Charm',53000,58),
 (23,15,35,'Charm',53000,58),
 (23,15,36,'Charm',53000,58),
@@ -9007,6 +9004,7 @@ INSERT INTO skill_trees VALUES
 (36,30,34,'Backstab',350000,72),
 (36,30,35,'Backstab',350000,72),
 (36,821,1,'Shadow Step',0,72),
+(36,193,7,'Critical Power',1180000,74),
 (36,30,36,'Backstab',680000,74),
 (36,30,37,'Backstab',680000,74),
 (36,70,52,'Drain Health',680000,74),
@@ -13140,6 +13138,8 @@ INSERT INTO skill_trees VALUES
 (56,245,13,'Wild Sweep',11000,36),
 (56,245,14,'Wild Sweep',11000,36),
 (56,245,15,'Wild Sweep',11000,36),
+(57,822,1,'Repair Golem',33000,40),
+(57,824,1,'Armor Golem',33000,40),
 (57,190,1,'Fatal Strike',11000,40),
 (57,190,2,'Fatal Strike',11000,40),
 (57,190,3,'Fatal Strike',11000,40),
@@ -13164,6 +13164,7 @@ INSERT INTO skill_trees VALUES
 (57,148,3,'Vital Force',33000,40),
 (57,212,3,'Fast HP Recovery',33000,40),
 (57,248,2,'Crystallize',33000,40),
+(57,823,1,'Strengthen Golem',38000,43),
 (57,190,4,'Fatal Strike',13000,43),
 (57,190,5,'Fatal Strike',13000,43),
 (57,190,6,'Fatal Strike',13000,43),
@@ -13215,6 +13216,8 @@ INSERT INTO skill_trees VALUES
 (57,34,2,'Bandage',46000,46),
 (57,150,3,'Weight Limit',46000,46),
 (57,148,4,'Vital Force',46000,46),
+(57,822,2,'Repair Golem',46000,49),
+(57,824,2,'Armor Golem',46000,49),
 (57,190,10,'Fatal Strike',20000,49),
 (57,190,11,'Fatal Strike',20000,49),
 (57,190,12,'Fatal Strike',20000,49),
@@ -13242,6 +13245,7 @@ INSERT INTO skill_trees VALUES
 (57,36,10,'Whirlwind',20000,49),
 (57,36,11,'Whirlwind',20000,49),
 (57,36,12,'Whirlwind',20000,49),
+(57,823,2,'Strengthen Golem',125000,52),
 (57,190,13,'Fatal Strike',42000,52),
 (57,190,14,'Fatal Strike',42000,52),
 (57,190,15,'Fatal Strike',42000,52),
@@ -13266,6 +13270,8 @@ INSERT INTO skill_trees VALUES
 (57,212,5,'Fast HP Recovery',125000,52),
 (57,248,3,'Crystallize',125000,52),
 (57,148,5,'Vital Force',125000,52),
+(57,822,3,'Repair Golem',171000,55),
+(57,824,3,'Armor Golem',171000,55),
 (57,190,16,'Fatal Strike',57000,55),
 (57,190,17,'Fatal Strike',57000,55),
 (57,190,18,'Fatal Strike',57000,55),
@@ -14162,6 +14168,7 @@ INSERT INTO skill_trees VALUES
 (127,465,17,'Light Armor Mastery',16000,43),
 (127,465,18,'Light Armor Mastery',16000,43),
 (127,465,19,'Light Armor Mastery',16000,43),
+(127,625,1,'Soul Gathering',75000,46),
 (127,465,20,'Light Armor Mastery',25000,46),
 (127,465,21,'Light Armor Mastery',25000,46),
 (127,465,22,'Light Armor Mastery',25000,46),
@@ -14208,6 +14215,7 @@ INSERT INTO skill_trees VALUES
 (127,465,23,'Light Armor Mastery',27000,49),
 (127,465,24,'Light Armor Mastery',27000,49),
 (127,465,25,'Light Armor Mastery',27000,49),
+(127,833,1,'Body Reconstruction',107000,52),
 (127,465,26,'Light Armor Mastery',36000,52),
 (127,465,27,'Light Armor Mastery',36000,52),
 (127,465,28,'Light Armor Mastery',36000,52),
@@ -14525,6 +14533,7 @@ INSERT INTO skill_trees VALUES
 (128,465,17,'Light Armor Mastery',13000,43),
 (128,465,18,'Light Armor Mastery',13000,43),
 (128,465,19,'Light Armor Mastery',13000,43),
+(128,625,1,'Soul Gathering',50000,46),
 (128,465,20,'Light Armor Mastery',17000,46),
 (128,465,21,'Light Armor Mastery',17000,46),
 (128,465,22,'Light Armor Mastery',17000,46),
@@ -14625,6 +14634,7 @@ INSERT INTO skill_trees VALUES
 (128,465,29,'Light Armor Mastery',41000,55),
 (128,465,30,'Light Armor Mastery',41000,55),
 (128,465,31,'Light Armor Mastery',41000,55),
+(128,837,1,'Painkiller',169000,58),
 (128,465,32,'Light Armor Mastery',56000,58),
 (128,465,33,'Light Armor Mastery',56000,58),
 (128,465,34,'Light Armor Mastery',56000,58),
@@ -14888,6 +14898,7 @@ INSERT INTO skill_trees VALUES
 (129,465,17,'Light Armor Mastery',13000,43),
 (129,465,18,'Light Armor Mastery',13000,43),
 (129,465,19,'Light Armor Mastery',13000,43),
+(129,625,1,'Soul Gathering',50000,46),
 (129,465,20,'Light Armor Mastery',17000,46),
 (129,465,21,'Light Armor Mastery',17000,46),
 (129,465,22,'Light Armor Mastery',17000,46),
@@ -14988,6 +14999,7 @@ INSERT INTO skill_trees VALUES
 (129,465,29,'Light Armor Mastery',41000,55),
 (129,465,30,'Light Armor Mastery',41000,55),
 (129,465,31,'Light Armor Mastery',41000,55),
+(129,837,1,'Painkiller',169000,58),
 (129,465,32,'Light Armor Mastery',56000,58),
 (129,465,33,'Light Armor Mastery',56000,58),
 (129,465,34,'Light Armor Mastery',56000,58),
@@ -15212,6 +15224,9 @@ INSERT INTO skill_trees VALUES
 (129,1437,26,'Dark Flame',720000,74),
 (129,1438,9,'Annihilation Circle',1440000,74),
 (129,1435,10,'Death Mark',1440000,74),
+(130,627,4,'Soul Shock',11000,40),
+(130,627,5,'Soul Shock',11000,40),
+(130,627,6,'Soul Shock',11000,40),
 (130,465,14,'Light Armor Mastery',12000,40),
 (130,465,15,'Light Armor Mastery',12000,40),
 (130,465,16,'Light Armor Mastery',12000,40),
@@ -15230,6 +15245,11 @@ INSERT INTO skill_trees VALUES
 (130,502,1,'Life to Soul',35000,40),
 (130,518,1,'Binding Trap',35000,40),
 (130,522,1,'Real Target',35000,40),
+(130,621,1,'Create Special Bolt',33000,43),
+(130,622,1,'Ultimate Escape',33000,43),
+(130,627,7,'Soul Shock',12000,43),
+(130,627,8,'Soul Shock',12000,43),
+(130,627,9,'Soul Shock',12000,43),
 (130,525,1,'Decoy',33000,43),
 (130,467,10,'Soul Mastery',33000,43),
 (130,626,1,'Critical Sense',33000,43),
@@ -15248,6 +15268,10 @@ INSERT INTO skill_trees VALUES
 (130,465,17,'Light Armor Mastery',11000,43),
 (130,465,18,'Light Armor Mastery',11000,43),
 (130,465,19,'Light Armor Mastery',11000,43),
+(130,627,10,'Soul Shock',17000,46),
+(130,627,11,'Soul Shock',17000,46),
+(130,627,12,'Soul Shock',17000,46),
+(130,625,1,'Soul Gathering',50000,46),
 (130,465,20,'Light Armor Mastery',17000,46),
 (130,465,21,'Light Armor Mastery',17000,46),
 (130,465,22,'Light Armor Mastery',17000,46),
@@ -15269,6 +15293,9 @@ INSERT INTO skill_trees VALUES
 (130,508,2,'Rising Shot',17000,46),
 (130,508,3,'Rising Shot',17000,46),
 (130,518,2,'Binding Trap',50000,46),
+(130,627,13,'Soul Shock',27000,49),
+(130,627,14,'Soul Shock',27000,49),
+(130,627,15,'Soul Shock',27000,49),
 (130,502,2,'Life to Soul',82000,49),
 (130,511,1,'Temptation',82000,49),
 (130,515,1,'Poison Trap',82000,49),
@@ -15291,6 +15318,9 @@ INSERT INTO skill_trees VALUES
 (130,465,23,'Light Armor Mastery',27000,49),
 (130,465,24,'Light Armor Mastery',27000,49),
 (130,465,25,'Light Armor Mastery',27000,49),
+(130,627,16,'Soul Shock',36000,52),
+(130,627,17,'Soul Shock',36000,52),
+(130,627,18,'Soul Shock',36000,52),
 (130,465,26,'Light Armor Mastery',36000,52),
 (130,465,27,'Light Armor Mastery',36000,52),
 (130,465,28,'Light Armor Mastery',36000,52),
@@ -15316,6 +15346,9 @@ INSERT INTO skill_trees VALUES
 (130,525,2,'Decoy',107000,52),
 (130,522,2,'Real Target',107000,52),
 (130,620,1,'Quiver of Bolts - Grade B',107000,52),
+(130,627,19,'Soul Shock',52000,55),
+(130,627,20,'Soul Shock',52000,55),
+(130,627,21,'Soul Shock',52000,55),
 (130,517,1,'Flash Trap',157000,55),
 (130,515,2,'Poison Trap',157000,55),
 (130,508,10,'Rising Shot',52000,55),
@@ -15339,6 +15372,9 @@ INSERT INTO skill_trees VALUES
 (130,465,29,'Light Armor Mastery',52000,55),
 (130,465,30,'Light Armor Mastery',52000,55),
 (130,465,31,'Light Armor Mastery',52000,55),
+(130,627,22,'Soul Shock',62000,58),
+(130,627,23,'Soul Shock',62000,58),
+(130,627,24,'Soul Shock',62000,58),
 (130,465,32,'Light Armor Mastery',62000,58),
 (130,465,33,'Light Armor Mastery',62000,58),
 (130,465,34,'Light Armor Mastery',62000,58),
@@ -15362,6 +15398,8 @@ INSERT INTO skill_trees VALUES
 (130,516,2,'Slow Trap',185000,58),
 (130,518,4,'Binding Trap',185000,58),
 (130,1514,1,'Soul Barrier',185000,58),
+(130,627,25,'Soul Shock',97000,60),
+(130,627,26,'Soul Shock',97000,60),
 (130,519,1,'Quiver of Bolts: A-Grade',193000,60),
 (130,525,3,'Decoy',193000,60),
 (130,521,1,'Sharpshooting',193000,60),
@@ -15381,6 +15419,9 @@ INSERT INTO skill_trees VALUES
 (130,466,41,'Magic Immunity',97000,60),
 (130,465,35,'Light Armor Mastery',97000,60),
 (130,465,36,'Light Armor Mastery',97000,60),
+(130,627,27,'Soul Shock',140000,62),
+(130,627,28,'Soul Shock',140000,62),
+(130,513,1,'Create Dark Seed',290000,62),
 (130,522,3,'Real Target',290000,62),
 (130,523,1,'Imbue Dark Seed',290000,62),
 (130,516,3,'Slow Trap',290000,62),
@@ -15399,6 +15440,9 @@ INSERT INTO skill_trees VALUES
 (130,473,33,'Crossbow Mastery',140000,62),
 (130,507,24,'Twin Shot',140000,62),
 (130,507,25,'Twin Shot',140000,62),
+(130,627,29,'Soul Shock',160000,64),
+(130,627,30,'Soul Shock',160000,64),
+(130,524,1,'Cure Dark Seed',320000,64),
 (130,507,26,'Twin Shot',160000,64),
 (130,507,27,'Twin Shot',160000,64),
 (130,473,34,'Crossbow Mastery',160000,64),
@@ -15416,6 +15460,9 @@ INSERT INTO skill_trees VALUES
 (130,517,3,'Flash Trap',320000,64),
 (130,515,4,'Poison Trap',320000,64),
 (130,523,2,'Imbue Dark Seed',320000,64),
+(130,627,31,'Soul Shock',180000,66),
+(130,627,32,'Soul Shock',180000,66),
+(130,510,1,'Deadly Roulette',350000,66),
 (130,523,3,'Imbue Dark Seed',350000,66),
 (130,525,4,'Decoy',350000,66),
 (130,502,4,'Life to Soul',350000,66),
@@ -15438,6 +15485,9 @@ INSERT INTO skill_trees VALUES
 (130,473,37,'Crossbow Mastery',180000,66),
 (130,507,28,'Twin Shot',180000,66),
 (130,507,29,'Twin Shot',180000,66),
+(130,627,33,'Soul Shock',240000,68),
+(130,627,34,'Soul Shock',240000,68),
+(130,510,2,'Deadly Roulette',490000,68),
 (130,507,30,'Twin Shot',240000,68),
 (130,507,31,'Twin Shot',240000,68),
 (130,473,38,'Crossbow Mastery',240000,68),
@@ -15455,6 +15505,9 @@ INSERT INTO skill_trees VALUES
 (130,517,4,'Flash Trap',490000,68),
 (130,515,5,'Poison Trap',490000,68),
 (130,523,4,'Imbue Dark Seed',490000,68),
+(130,627,35,'Soul Shock',290000,70),
+(130,627,36,'Soul Shock',290000,70),
+(130,510,3,'Deadly Roulette',580000,70),
 (130,523,5,'Imbue Dark Seed',580000,70),
 (130,522,4,'Real Target',580000,70),
 (130,525,5,'Decoy',580000,70),
@@ -15474,6 +15527,9 @@ INSERT INTO skill_trees VALUES
 (130,473,41,'Crossbow Mastery',290000,70),
 (130,507,32,'Twin Shot',290000,70),
 (130,507,33,'Twin Shot',290000,70),
+(130,627,37,'Soul Shock',350000,72),
+(130,627,38,'Soul Shock',350000,72),
+(130,510,4,'Deadly Roulette',710000,72),
 (130,507,34,'Twin Shot',350000,72),
 (130,507,35,'Twin Shot',350000,72),
 (130,473,42,'Crossbow Mastery',350000,72),
@@ -15492,6 +15548,9 @@ INSERT INTO skill_trees VALUES
 (130,515,6,'Poison Trap',710000,72),
 (130,502,5,'Life to Soul',710000,72),
 (130,523,6,'Imbue Dark Seed',710000,72),
+(130,627,39,'Soul Shock',720000,74),
+(130,627,40,'Soul Shock',720000,74),
+(130,510,5,'Deadly Roulette',1400000,74),
 (130,523,7,'Imbue Dark Seed',1400000,74),
 (130,525,6,'Decoy',1400000,74),
 (130,520,1,'Quiver of Bolts: S-Grade',720000,74),
@@ -15582,6 +15641,7 @@ INSERT INTO skill_trees VALUES
 (135,465,17,'Light Armor Mastery',19000,43),
 (135,465,18,'Light Armor Mastery',19000,43),
 (135,465,19,'Light Armor Mastery',19000,43),
+(135,625,1,'Soul Gathering',67000,46),
 (135,465,20,'Light Armor Mastery',22000,46),
 (135,465,21,'Light Armor Mastery',22000,46),
 (135,465,22,'Light Armor Mastery',22000,46),
@@ -15834,7 +15894,7 @@ INSERT INTO skill_trees VALUES
 (136,538,1,'Final Form',80000000,79),
 (136,1515,1,'Lightning Barrier',150000000,80),
 
--- Create Item 172 "ONLY FOR DWARVES" (Done by DJ MELERIX)
+-- Create Item 172 (Done by DJ MELERIX)
 
 (53,172,1,'Create Item',310,5),
 (56,172,2,'Create Item',3700,20),
@@ -16015,6 +16075,10 @@ INSERT INTO skill_trees VALUES
 (123,1320,9,'Create Common Item',0,70),
 (124,1320,9,'Create Common Item',0,70),
 
+-- Dwarven Craft 1321 (Done by DJ MELERIX)
+
+(53,1321,1,'Dwarven Craft',0,1),
+
 -- Common Craft 1322 (Done by DJ MELERIX)
 
 (0,1322,1,'Common Craft',0,1),
@@ -16074,21 +16138,4 @@ INSERT INTO skill_trees VALUES
 (124,1405,1,'Divine Inspiration',0,52),
 (124,1405,2,'Divine Inspiration',0,61),
 (124,1405,3,'Divine Inspiration',0,76),
-(124,1405,4,'Divine Inspiration',0,76),
-
--- Custom Kamaels "Skill Trees" (From the Forums), values needs to be verified in the future.
-
-(127,625,1,'Soul Gathering',75000,46),
-(128,625,1,'Soul Gathering',50000,46),
-(129,625,1,'Soul Gathering',50000,46),
-(130,625,1,'Soul Gathering',50000,46),
-(130,510,1,'Deadly Roulette',350000,66),
-(130,510,2,'Deadly Roulette',490000,68),
-(130,510,3,'Deadly Roulette',580000,70),
-(130,510,4,'Deadly Roulette',710000,72),
-(130,510,5,'Deadly Roulette',1400000,74),
-(130,513,1,'Create Dark Seed',290000,62),
-(130,524,1,'Cure Dark Seed',320000,64),
-(130,621,1,'Create Special Bolt',33000,43),
-(130,622,1,'Ultimate Escape',33000,43),
-(135,625,1,'Soul Gathering',67000,46);
+(124,1405,4,'Divine Inspiration',0,76);

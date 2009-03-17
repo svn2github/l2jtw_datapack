@@ -50,15 +50,15 @@ class Quest (JQuest) :
             st.playSound("SkillSound5.horror_02")
             st.playSound("ItemSound.quest_middle")   #pmq修改
             st.set("cond","2")
-            ghost = st.addSpawn(31524,51432,-54570,-3136,1800000)
-            ghost.broadcastPacket(NpcSay(ghost.getObjectId(),0,ghost.getNpcId(),"是誰叫醒我。"))
+            ghost = st.addSpawn(31524,51432,-54570,-3136,180000)
+            ghost.broadcastPacket(NpcSay(ghost.getObjectId(),0,ghost.getNpcId(),"是誰叫醒我？"))
         elif event == "31524-06.htm" :
             st.set("cond","3")
             st.playSound("ItemSound.quest_middle")
             ghost = self.addSpawn(31525,npc)
             ghost.broadcastPacket(NpcSay(ghost.getObjectId(),0,ghost.getNpcId(),player.getName()+"，依照主人的命令，我將引導您。"))  #pmq修改
             self.startQuestTimer("1",1,ghost,player)
-            self.startQuestTimer("despawn",1800000,ghost,player)
+            self.startQuestTimer("despawn",180000,ghost,player)
         elif event == "31526-03.htm" :
             st.playSound("ItemSound.item_drop_equip_armor_cloth")
         elif event == "31526-08.htm" :
@@ -100,19 +100,15 @@ class Quest (JQuest) :
    cond = st.getInt("cond")
    onlyone = st.getInt("onlyone")
    state = st.getState()
-   if state == State.CREATED :
-     st.setState(State.STARTED)
-     st.set("cond","0")
-   if npcId == 31522:
-     if cond == 0:
-       if onlyone == 0:
-         if st.getPlayer().getLevel() >= 63 :
+   if state == State.COMPLETED :
+      htmltext = "<html><body>這是已經完成的任務。</body></html>"
+   elif npcId == 31522:
+     if state == State.CREATED :
+        if st.getPlayer().getLevel() >= 63 :
            htmltext = "31522-01.htm"
-         else:
+        else:
            htmltext = "31522-03.htm"
            st.exitQuest(1)
-       else:
-         htmltext = "這是已經完成的任務。"
      elif cond > 0 and cond < 8 : #pmq修改 cond 1~8
        htmltext = "31522-05.htm"       
    elif npcId == 31523 :

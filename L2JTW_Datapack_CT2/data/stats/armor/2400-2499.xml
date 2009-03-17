@@ -2,71 +2,71 @@
 <list>
 <item id='2400' name="Tallum Tunic">
   <for>
-  <add val='86' order='0x10' stat='pDef'/>
-  <add val='409' order='0x40' stat='maxMp'/><!-- Update by rocknow -->
-  <enchant val='0' order='0x0C' stat='pDef'/>
+    <add val='86' order='0x10' stat='pDef'/>
+    <add val='409' order='0x40' stat='maxMp'/>
+    <enchant val='0' order='0x0C' stat='pDef'/>
   </for>
 </item>
 <item id='2401' name="Elven Mithril Stockings">
   <for>
     <add val='34' order='0x10' stat='pDef'/>
-    <add val='105' order='0x40' stat='maxMp'/><!-- Update by rocknow -->
+    <add val='105' order='0x40' stat='maxMp'/>
     <enchant val='0' order='0x0C' stat='pDef'/>
   </for>
 </item>
 <item id='2402' name="Stockings of Zubei">
   <for>
     <add val='49' order='0x10' stat='pDef'/>
-    <add val='216' order='0x40' stat='maxMp'/><!-- Update by rocknow -->
+    <add val='216' order='0x40' stat='maxMp'/>
     <enchant val='0' order='0x0C' stat='pDef'/>
   </for>
 </item>
 <item id='2403' name="Blue Wolf Stockings">
   <for>
     <add val='52' order='0x10' stat='pDef'/>
-    <add val='236' order='0x40' stat='maxMp'/><!-- Update by rocknow -->
+    <add val='236' order='0x40' stat='maxMp'/>
     <enchant val='0' order='0x0C' stat='pDef'/>
   </for>
 </item>
 <item id='2404' name="Stockings of Doom">
   <for>
     <add val='52' order='0x10' stat='pDef'/>
-    <add val='236' order='0x40' stat='maxMp'/><!-- Update by rocknow -->
+    <add val='236' order='0x40' stat='maxMp'/>
     <enchant val='0' order='0x0C' stat='pDef'/>
   </for>
 </item>
 <item id='2405' name="Tallum Stockings">
   <for>
     <add val='53' order='0x10' stat='pDef'/>
-    <add val='256' order='0x40' stat='maxMp'/><!-- Update by rocknow -->
+    <add val='256' order='0x40' stat='maxMp'/>
     <enchant val='0' order='0x0C' stat='pDef'/>
   </for>
 </item>
 <item id='2406' name="Avadon Robe">
   <for>
     <add val='127' order='0x10' stat='pDef'/>
-    <add val='561' order='0x40' stat='maxMp'/><!-- Update by rocknow -->
+    <add val='561' order='0x40' stat='maxMp'/>
     <enchant val='0' order='0x0C' stat='pDef'/>
   </for>
 </item>
 <item id='2407' name="Dark Crystal Robe">
   <for>
     <add val='139' order='0x10' stat='pDef'/>
-    <add val='665' order='0x40' stat='maxMp'/><!-- Update by rocknow -->
+    <add val='665' order='0x40' stat='maxMp'/>
     <enchant val='0' order='0x0C' stat='pDef'/>
   </for>
 </item>
-<item id='2408' name="Robe of Nightmare">
+<item id='2408' name="Nightmare Robe">
   <for>
     <add val='147' order='0x10' stat='pDef'/>
-    <add val='718' order='0x40' stat='maxMp'/><!-- Update by rocknow -->
+    <add val='718' order='0x40' stat='maxMp'/>
     <enchant val='0' order='0x0C' stat='pDef'/>
   </for>
 </item>
 <item id='2409' name="Majestic Robe">
   <for>
     <add val='147' order='0x10' stat='pDef'/>
-    <add val='718' order='0x40' stat='maxMp'/><!-- Update by rocknow -->
+    <add val='718' order='0x40' stat='maxMp'/>
     <enchant val='0' order='0x0C' stat='pDef'/>
   </for>
 </item>
@@ -310,7 +310,7 @@
     <enchant val='0' order='0x0C' stat='pDef'/>
   </for>
 </item>
-<item id='2450' name="Elven Mithril Gloves">
+<item id='2450' name="Mithril Gloves">
   <for>
     <add val='27' order='0x10' stat='pDef'/>
     <enchant val='0' order='0x0C' stat='pDef'/>
@@ -424,7 +424,7 @@
     <enchant val='0' order='0x0C' stat='pDef'/>
   </for>
 </item>
-<item id='2469' name="Gloves of The Underworld">
+<item id='2469' name="Gloves of the Underworld">
   <for>
     <add val='45' order='0x10' stat='pDef'/>
     <enchant val='0' order='0x0C' stat='pDef'/>
@@ -484,7 +484,7 @@
     <enchant val='0' order='0x0C' stat='pDef'/>
   </for>
 </item>
-<item id='2479' name="Gloves of Nightmare">
+<item id='2479' name="Gauntlets of Nightmare">
   <for>
     <add val='48' order='0x10' stat='pDef'/>
     <enchant val='0' order='0x0C' stat='pDef'/>
@@ -502,7 +502,7 @@
     <enchant val='0' order='0x0C' stat='pDef'/>
   </for>
 </item>
-<item id='2482' name="Majestic Gloves">
+<item id='2482' name="Majestic Gauntlets">
   <for>
     <add val='48' order='0x10' stat='pDef'/>
     <enchant val='0' order='0x0C' stat='pDef'/>

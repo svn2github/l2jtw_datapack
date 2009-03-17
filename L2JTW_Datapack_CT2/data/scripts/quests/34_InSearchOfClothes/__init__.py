@@ -42,7 +42,7 @@ class Quest (JQuest) :
        st.set("cond","6")
        st.playSound("ItemSound.quest_accept") #pmq修改
      else :
-       htmltext = "30165-1a.htm"  #pmq修改
+       htmltext = "30165-1a.htm"              #pmq修改
    if event == "30088-5.htm" and cond == 6 :
      if st.getQuestItemsCount(SUEDE) >= 3000 and st.getQuestItemsCount(THREAD) >= 5000 and st.getQuestItemsCount(SPIDERSILK) == 1 :
        st.takeItems(SUEDE,3000)
@@ -50,9 +50,10 @@ class Quest (JQuest) :
        st.takeItems(SPIDERSILK,1)
        st.giveItems(MYSTERIOUS_CLOTH,1)
        st.playSound("ItemSound.quest_finish")
-       st.exitQuest(1)
+       st.exitQuest(False)
+       st.unset("cond")
      else :
-       htmltext = "30088-4a.htm"  #pmq修改
+       htmltext = "30088-4a.htm"              #pmq修改
    return htmltext
 
  def onTalk (self,npc,player):
@@ -62,7 +63,9 @@ class Quest (JQuest) :
    npcId = npc.getNpcId()
    id = st.getState()
    cond = st.getInt("cond")
-   if npcId == 30088 and cond == 0 and st.getQuestItemsCount(MYSTERIOUS_CLOTH) == 0 :
+   if id == State.COMPLETED:
+     htmltext = "<html><body>這是已經完成的任務。</body></html>"
+   elif npcId == 30088 and cond == 0 and st.getQuestItemsCount(MYSTERIOUS_CLOTH) == 0 :
      fwear=player.getQuestState("37_PleaseMakeMeFormalWear")
      if fwear :
        if fwear.get("cond") == "6" :

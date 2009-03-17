@@ -1,40 +1,31 @@
 <?xml version='1.0' encoding='utf-8'?>
 <list>
 <item id='10416' name="Blue Talisman - Explosion">
-  <for>
-  </for>
+  <for/>
 </item>
 <item id='10417' name="Blue Talisman - Magic Explosion">
-  <for>
-  </for>
+  <for/>
 </item>
 <item id='10418' name="White Talisman - Storm">
-  <for>
-  </for>
+  <for/>
 </item>
 <item id='10419' name="White Talisman - Darkness">
-  <for>
-  </for>
+  <for/>
 </item>
 <item id='10420' name="White Talisman - Water">
-  <for>
-  </for>
+  <for/>
 </item>
 <item id='10421' name="White Talisman - Fire">
-  <for>
-  </for>
+  <for/>
 </item>
 <item id='10422' name="White Talisman - Light">
-  <for>
-  </for>
+  <for/>
 </item>
 <item id='10423' name="Blue Talisman - Self-Destruction">
-  <for>
-  </for>
+  <for/>
 </item>
 <item id='10424' name="Blue Talisman - Greater Healing">
-  <for>
-  </for>
+  <for/>
 </item>
 <item id='10470' name="Shadow Item - Red Crescent">
   <for><!-- Update by rocknow -->
@@ -104,7 +95,7 @@
 </item>
 <item id='10492' name="Silk Shirt - MP">
   <for>
-  	<add val='17' order='0x10' stat='pDef'/>
+    <add val='17' order='0x10' stat='pDef'/>
     <enchant val='0' order='0x0C' stat='pDef'/>
     <!-- Update by rocknow -->
     <add val='51' order='0x40' stat='maxMp'>

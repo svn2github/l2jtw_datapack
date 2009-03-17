@@ -5,7 +5,7 @@ from net.sf.l2j.gameserver.model.quest import State
 from net.sf.l2j.gameserver.model.quest import QuestState
 from net.sf.l2j.gameserver.model.quest.jython import QuestJython as JQuest
 
-qn = "1107_enter_hellbound_island"
+qn = "1108_enter_hellbound_island"
 
 WARPGATES = [32314,32315,32316,32317,32318,32319]
 
@@ -38,7 +38,7 @@ class Quest (JQuest) :
    st.exitQuest(1)
    return htmltext
 
-QUEST       = Quest(1107,qn,"Teleports")
+QUEST       = Quest(1108,qn,"Teleports")
 
 for npcId in WARPGATES :
     QUEST.addStartNpc(npcId)

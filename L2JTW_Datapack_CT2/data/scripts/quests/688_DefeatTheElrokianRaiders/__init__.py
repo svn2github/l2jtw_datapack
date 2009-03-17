@@ -14,8 +14,8 @@ DINOSAUR_FANG_NECKLACE = 8785
 class Quest (JQuest) :
 
  def __init__(self,id,name,descr):
- 	JQuest.__init__(self,id,name,descr)
- 	self.questItemIds = [DINOSAUR_FANG_NECKLACE]
+    JQuest.__init__(self,id,name,descr)
+    self.questItemIds = [DINOSAUR_FANG_NECKLACE]
 
  def onEvent (self,event,st) :
     htmltext = event
@@ -36,7 +36,7 @@ class Quest (JQuest) :
        if count > 0 :  #pmq ≠◊ßÔ
           st.takeItems(DINOSAUR_FANG_NECKLACE,-1)
           st.giveItems(57,count*3000)
-       else :  #pmq ≠◊ßÔ
+       else :          #pmq ≠◊ßÔ
           htmltext = "32105-06a.htm"  #pmq ≠◊ßÔ
     elif event == "32105-07.htm" :
        if count >= 100 :
@@ -92,5 +92,4 @@ QUEST = Quest(688,qn,"¿ª∞h≠C∫∏•i√π≈ß¿ª∂§ßa°I")
 QUEST.addStartNpc(32105)
 
 QUEST.addTalkId(32105)
-
 QUEST.addKillId(22214)

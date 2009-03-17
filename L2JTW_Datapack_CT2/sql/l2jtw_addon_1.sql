@@ -341,15 +341,6 @@ REPLACE INTO `npc` VALUES ('16039', '16039', 'Red Star Strider', '0', '', '0', '
 REPLACE INTO `npc` VALUES ('16040', '16040', 'Red Twilight Strider', '0', '', '0', 'Monster.strider', '23.00', '31.00', '70', 'male', 'L2Pet', '40', '2444', '2444', '0.00', '0.00', '10', '10', '10', '10', '10', '10', '0', '0', '500', '500', '500', '500', '253', '0', '253', '0', '0', '0', '80', '120', '', '0', '0', '0', 'LAST_HIT', '0', '0', '0', 'balanced', "false");
 
 
-/************ 修正寵物 ************/
-REPLACE INTO `pets_stats` VALUES
-('wyvern',12621,82,1395734658,2049,1073,190,121,187,945,118,113,40,220,278,333,6748,56,11,54510,10,4,0.1),
-('wyvern',12621,83,2395734658,2049,1073,190,121,187,945,118,113,40,220,278,333,6748,56,11,54510,10,4,0.1),
-('wyvern',12621,84,3395734658,2049,1073,190,121,187,945,118,113,40,220,278,333,6748,56,11,54510,10,4,0.1),
-('wyvern',12621,85,4395734658,2049,1073,190,121,187,945,118,113,40,220,278,333,6748,56,11,54510,10,4,0.1),
-('wyvern',12621,86,5395734658,2049,1073,190,121,187,945,118,113,40,220,278,333,6748,56,11,54510,10,4,0.1);
-
-
 /************ 增加貓熊手鐲 ************/
 REPLACE INTO `armor` VALUES
 (20063,'Agathion Seal Bracelet - Baby Panda','lbracelet','false','none',150, 'wood','none',0,-1,0,0,0,0,0,'false','false','true','false','0-0;'),
@@ -456,7 +447,7 @@ UPDATE `armor` SET `skill` = '3336-1;' WHERE `item_id` in (10142); -- 野牛變身
 UPDATE `weapon` SET `skill` = '3418-1;' WHERE `item_id` in (10167); -- 豬豬塔糖
 UPDATE `weapon` SET `skill` = '8244-1;' WHERE `item_id` in (12814); -- 守門人變身魔杖
 UPDATE `weapon` SET `skill` = '8246-1;' WHERE `item_id` in (12800,13253,13324,13339); -- 南瓜變身魔杖
-REPLACE INTO armorsets VALUES ('NULL', '9670', '9671', '9669', '0', '0', '3359', '1', '0', '0', '0'); -- 土著全套
+REPLACE INTO armorsets VALUES ('200', '9670', '9671', '9669', '0', '0', '3359', '1', '0', '0', '0'); -- 土著全套
 
 
 /************ 增加狩獵幫手 ************/
@@ -561,6 +552,7 @@ REPLACE INTO `pets_stats` VALUES
 /************ 增加/修正/刪除NPC ************/
 UPDATE `npc` SET `type` = 'L2Adventurer' WHERE `id` in (32074); -- 修正古魯丁分會長的NPC類型
 UPDATE `spawnlist` SET `npc_templateid` = '35440' WHERE `id` ='33771'; -- 修正NPC ID:丹尼爾(根據地守門人)
+UPDATE `raidboss_spawnlist` SET `loc_x` = '3776', `loc_y` = '-6768', `loc_z` = '-3253' WHERE `boss_id` =25527; -- 狩獵首領烏魯卡
 Delete From `spawnlist` Where `npc_templateid` in (30880,30881,30882,30883,30884,30885,30886,30887,30888,30889,32353); -- 刪除不存在的NPC
 
 -- 加入維他命管理者
@@ -628,6 +620,31 @@ INSERT INTO `spawnlist` VALUES
 ('820025', '', '1', '32120', '27716', '-11685', '-2281', '0', '0', '31470', '60', '0', '0'), -- 巴魯 凱莫
 ('820026', '', '1', '32121', '18714', '-9635', '-2790', '0', '0', '54407', '60', '0', '0'); -- 裘太 凱莫
 
+-- 加入高等城鎮的轉職貓
+INSERT INTO `spawnlist` VALUES
+('820027', '', '1', '31228', '147449', '25946', '-2012', '0', '0', '21221', '60', '0', '0'),
+('820028', '', '1', '31228', '83509', '147962', '-3404', '0', '0', '20253', '60', '0', '0'),
+('820029', '', '1', '31228', '82879', '53133', '-1495', '0', '0', '18940', '60', '0', '0'),
+('820030', '', '1', '31228', '15740', '142896', '-2705', '0', '0', '19740', '60', '0', '0'),
+('820031', '', '1', '31228', '111457', '219419', '-3545', '0', '0', '43515', '60', '0', '0'),
+('820032', '', '1', '31228', '-12835', '122741', '-3116', '0', '0', '57344', '60', '0', '0'),
+('820033', '', '1', '31228', '148006', '-55266', '-2734', '0', '0', '38727', '60', '0', '0'),
+('820034', '', '1', '31228', '87006', '-143414', '-1292', '0', '0', '4363', '60', '0', '0'),
+('820035', '', '1', '31228', '-80679', '149837', '-3070', '0', '0', '20834', '60', '0', '0'),
+('820036', '', '1', '31228', '117170', '76807', '-2694', '0', '0', '32768', '60', '0', '0'),
+('820037', '', '1', '31228', '43877', '-47676', '-823', '0', '0', '49152', '60', '0', '0'),
+('820038', '', '1', '31228', '46989', '51487', '-2976', '0', '0', '42643', '60', '0', '0'),
+('820039', '', '1', '31228', '-116776', '46545', '368', '0', '0', '40092', '60', '0', '0');
+
+-- 加入暴龍
+UPDATE `npc` SET `type` = 'L2Monster', `hp` = '306406', `mp` = '2338' WHERE `id` in (22215,22216,22217);
+INSERT INTO `spawnlist` VALUES
+('820040', '', '1', '22215', '24767', '-12441', '-2532', '0', '0', '15314', '86400', '0', '0'),
+('820041', '', '1', '22215', '28263', '-17486', '-2539', '0', '0', '50052', '86400', '0', '0'),
+('820042', '', '1', '22215', '18229', '-17975', '-3219', '0', '0', '65140', '86400', '0', '0'),
+('820043', '', '1', '22216', '19897', '-9087', '-2781', '0', '0', '2686', '86400', '0', '0'),
+('820044', '', '1', '22217', '22827', '-14698', '-3080', '0', '0', '53946', '86400', '0', '0');
+
 -- 加入新的NPC (地下競技場助手/調查官 艾德勒/惡魔島的復活者/肯特拉獸人 咒術士/地下競技場的入場管理員/南瓜幽靈/底格里斯)
 REPLACE INTO `npc` VALUES
 ('32491', '32491', 'Underground Coliseum Helper', '0', '', '0', 'LineageNPCs2.TP_battlezone_staff', '7.8', '17.29', '70', 'male', 'L2Teleporter', '40', '2444', '2444', '0', '0', '10', '10', '10', '10', '10', '10', '0', '0', '500', '500', '500', '500', '278', '0', '333', '0', '0', '0', '50', '100', '', '0', '0', '0', 'LAST_HIT', '0', '0', '0', 'balanced', 'false'),
@@ -670,6 +687,7 @@ REPLACE INTO `teleport` VALUES
 -- 加入黎明/黃昏的神諭處可觀看比賽
 REPLACE INTO `npc` VALUES ('830000', '31031', 'Broadcasting Tower', '0', '', '0', 'NPC.broadcasting_tower', '7.00', '35.00', '70', 'etc', 'L2Observation', '40', '3862', '1493', '11.85', '2.78', '40', '43', '30', '21', '20', '10', '0', '0', '1314', '470', '780', '382', '278', '0', '333', '0', '0', '0', '55', '132', 'NULL', '0', '1', '0', 'LAST_HIT', '0', '0', '0', 'fighter', 'false');
 UPDATE `spawnlist` SET `npc_templateid` = '830000' WHERE `id` in (48128,48129,48130,48131);
+
 
 /************ 更新暗雲宅邸NPC ************/
 REPLACE INTO `npc` VALUES
@@ -820,9 +838,19 @@ REPLACE INTO `npcskills` VALUES
 REPLACE INTO `npcskills` VALUES (29028,4679,1);
 REPLACE INTO `npcskills` VALUES (29028,4680,1);
 UPDATE `npc` SET `aggro` = 800 WHERE `id` IN (29019,29028);
-UPDATE `npc` SET `aggro` = 500 WHERE `id` IN (29020,29022);
-UPDATE `grandboss_data` SET `loc_x` = '-105820', `loc_y` = '-237310', `loc_z` = '-15529' WHERE `boss_id` IN (29019) AND `status` IN (0);
-UPDATE `grandboss_data` SET `loc_x` = '116067', `loc_y` = '17484', `loc_z` = '10110' WHERE `boss_id` IN (29020) AND `status` IN (0);
+UPDATE `npc` SET `aggro` = 500 WHERE `id` IN (29020,29021,29022,29069,29070);
+UPDATE `npc` SET `hp` = '13090000', `mp` = '39960' WHERE `id` IN (29019);
+UPDATE `npc` SET `hp` = '3698520', `mp` = '39960' WHERE `id` IN (29020);
+UPDATE `npc` SET `hp` = '16660000', `mp` = '39960' WHERE `id` IN (29028);
+UPDATE `npc` SET `mp` = '3793' WHERE `id` IN (29006,29014);
+UPDATE `npc` SET `level` = '78' WHERE `id` IN (29070);
+UPDATE `grandboss_data` SET `loc_x` = '-21610', `loc_y` = '181594', `loc_z` = '-5734', `heading` = '0', `currentHP` = '229898', `currentMP` = '667' WHERE `boss_id` = '29001' AND `status` = '0';
+UPDATE `grandboss_data` SET `loc_x` = '17726', `loc_y` = '108915', `loc_z` = '-6480', `heading` = '0', `currentHP` = '622493', `currentMP` = '3793' WHERE `boss_id` = '29006' AND `status` = '0';
+UPDATE `grandboss_data` SET `loc_x` = '43728', `loc_y` = '17220', `loc_z` = '-4342', `heading` = '10126', `currentHP` = '622493', `currentMP` = '3793' WHERE `boss_id` = '29014' AND `status` = '0';
+UPDATE `grandboss_data` SET `loc_x` = '-105820', `loc_y` = '-237310', `loc_z` = '-15529', `heading` = '32542', `currentHP` = '13090000', `currentMP` = '39960' WHERE `boss_id` = '29019' AND `status` = '0';
+UPDATE `grandboss_data` SET `loc_x` = '116067', `loc_y` = '17484', `loc_z` = '10110', `heading` = '41740', `currentHP` = '3698520', `currentMP` = '39960' WHERE `boss_id` = '29020' AND `status` = '0';
+UPDATE `grandboss_data` SET `loc_x` = '55312', `loc_y` = '219168', `loc_z` = '-3223', `heading` = '0', `currentHP` = '858518', `currentMP` = '1975' WHERE `boss_id` = '29022' AND `status` = '0';
+UPDATE `grandboss_data` SET `loc_x` = '-105200', `loc_y` = '-253104', `loc_z` = '-15264', `heading` = '833', `currentHP` = '16660000', `currentMP` = '39960' WHERE `boss_id` = '29028' AND `status` = '0';
 
 
 /************ 修正技能 ************/
@@ -834,6 +862,14 @@ REPLACE INTO `skill_trees` VALUES ('23', '137', '4', 'Critical Chance', '150000'
 UPDATE `teleport` SET `price` = '5200' WHERE `id` in (63);
 UPDATE `teleport` SET `price` = '7100' WHERE `id` in (107);
 
-
 -- 修正獵捕石的道具類型
 UPDATE `etcitem` SET `item_type` = 'none' WHERE `item_id` in (8764);
+
+-- 修正武卷的價格
+UPDATE `etcitem` SET `price` = '1550000' WHERE `item_id` ='729';
+UPDATE `etcitem` SET `price` = '2250000' WHERE `item_id` ='959';
+UPDATE `etcitem` SET `price` = '2700000' WHERE `item_id` ='6569';
+UPDATE `etcitem` SET `price` = '5000000' WHERE `item_id` ='6577';
+
+-- 修正首領重生時，HP/MP全滿(感謝 wolo 提供)
+Update `npc`, `raidboss_spawnlist` SET `raidboss_spawnlist`.`heading`=0, `raidboss_spawnlist`.`currentHp`=`npc`.`hp`,`raidboss_spawnlist`.`currentMp`=`npc`.`mp` WHERE `npc`.`type`='L2RaidBoss' AND `npc`.`id`=`raidboss_spawnlist`.`boss_id`;

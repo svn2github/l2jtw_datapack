@@ -71,11 +71,8 @@ class Quest (JQuest) :
       htmltext = "<html><body>這是已經完成的任務。</body></html>"
    if id == State.CREATED :
       st2 = player.getQuestState("15_SweetWhisper")
-      if st2 :
-         if st2.getState() != 'State.COMPLETED' :
-            htmltext = "<html><body>必須先完成「甜美的細語」的任務。</body></html>"
-         else :
-            htmltext = "31517-00.htm"
+      if st2 and st2.getState() == State.COMPLETED:
+         htmltext = "31517-00.htm"
       else :
          htmltext = "<html><body>必須先完成「甜美的細語」的任務。</body></html>"
    elif id == State.STARTED :

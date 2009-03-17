@@ -32,17 +32,18 @@ class Quest (JQuest) :
    if event == "30091-3.htm" and cond == 3:
      st.takeItems(ROUGH_JEWEL,10)
      st.set("cond","4")
-     st.playSound("ItemSound.quest_accept")
-   if event == "30091-5.htm" :  #pmq修改
-     #pmq修改 if st.getQuestItemsCount(ORIHARUKON) >= 5 and st.getQuestItemsCount(SILVER_NUGGET) >= 500 and st.getQuestItemsCount(THONS) >= 150 :
+     st.playSound("ItemSound.quest_accept")  #pmq修改
+   if event == "30091-5.htm" and cond == 4:
+     if st.getQuestItemsCount(ORIHARUKON) >= 5 and st.getQuestItemsCount(SILVER_NUGGET) >= 500 and st.getQuestItemsCount(THONS) >= 150 :
        st.takeItems(ORIHARUKON,5)
        st.takeItems(SILVER_NUGGET,500)
        st.takeItems(THONS,150)
        st.giveItems(JEWEL_BOX,1)
        st.playSound("ItemSound.quest_finish")
-       st.exitQuest(1)
-     #pmq修改 else :
-       #pmq修改 htmltext = "材料不足。"
+       st.unset("cond")
+       st.exitQuest(False)
+     else :
+       htmltext = "材料不足。"
    return htmltext
 
  def onTalk (self,npc,player):
@@ -52,9 +53,11 @@ class Quest (JQuest) :
    npcId = npc.getNpcId()
    cond = st.getInt("cond")
    id = st.getState()
-   if npcId == 30091 and cond == 0 and st.getQuestItemsCount(JEWEL_BOX) == 0 :
+   if id == State.COMPLETED:
+     htmltext = "<html><body>這是已經完成的任務。</body></html>"
+   elif npcId == 30091 and cond == 0 and st.getQuestItemsCount(JEWEL_BOX) == 0 :
      fwear=player.getQuestState("37_PleaseMakeMeFormalWear")
-     if not fwear is None :
+     if fwear :
        if fwear.get("cond") == "6" :
          htmltext = "30091-0.htm"
          return htmltext

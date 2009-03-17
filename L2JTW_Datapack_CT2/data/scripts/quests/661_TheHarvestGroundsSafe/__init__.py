@@ -33,8 +33,8 @@ DROPLIST = {
 class Quest (JQuest) :
 
  def __init__(self,id,name,descr):
-	JQuest.__init__(self,id,name,descr)
-	self.questItemIds = range(8283,8286)
+ 	JQuest.__init__(self,id,name,descr)
+ 	self.questItemIds = range(8283,8286)
 
  def onEvent (self,event,st) :
     htmltext = event
@@ -48,7 +48,7 @@ class Quest (JQuest) :
       GEM = st.getQuestItemsCount(CLOUDY_GEM)
       amount = 0
       if STING+GEM+TALON >= 10 :
-	  amount = 2800
+          amount = 2800
       st.giveItems(57,STING*50+GEM*60+TALON*70 + amount)
       st.takeItems(STING_OF_GIANT_POISON,-1)
       st.takeItems(TALON_OF_YOUNG_ARANEID,-1)
@@ -65,34 +65,33 @@ class Quest (JQuest) :
    if not st : return htmltext
    npcid = npc.getNpcId()
    cond = st.getInt("cond")
-   if cond == 0 :
+   if not cond :
       if st.getPlayer().getLevel() >= 21 :
-	 htmltext = "30210-02.htm"
+         htmltext = "30210-02.htm"
       else :
-	 htmltext = "30210-01.htm"
-	 st.exitQuest(1)
-   if cond == 1 :
-      S = st.getQuestItemsCount(STING_OF_GIANT_POISON)
+         htmltext = "30210-01.htm"
+         st.exitQuest(1)
+   if cond :
+      S = st.getQuestItemsCount(STING_OF_GIANT_POISON)  
       T = st.getQuestItemsCount(TALON_OF_YOUNG_ARANEID)
-      C = st.getQuestItemsCount(CLOUDY_GEM)
+      C = st.getQuestItemsCount(CLOUDY_GEM)     
       if S+T+C == 0 :
-	 htmltext = "30210-04.htm"
+         htmltext = "30210-04.htm"
       else :
-	 htmltext = "30210-05.htm"
+         htmltext = "30210-05.htm"  
    return htmltext
 
  def onKill(self,npc,player,isPet):
     st = player.getQuestState(qn)
     if not st : return
     if st.getState() != State.STARTED : return
-    if st.getInt("cond") == 1 :
-	npcId = npc.getNpcId()
-	rand = st.getRandom(100)
-	if npcId in DROPLIST.keys() :
-	    item,chance = DROPLIST[npcId]
-	    if rand < chance :
-		st.giveItems(item,1)
-		st.playSound("ItemSound.quest_itemget")
+    npcId = npc.getNpcId()
+    rand = st.getRandom(100)
+    if npcId in DROPLIST.keys() :
+        item,chance = DROPLIST[npcId]
+        if rand < chance :
+            st.giveItems(item,1)
+            st.playSound("ItemSound.quest_itemget")
     return
 
 QUEST = Quest(661,qn,"保護採集場的安全")

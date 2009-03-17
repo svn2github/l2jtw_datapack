@@ -66,21 +66,20 @@ class Quest (JQuest) :
    npcId = npc.getNpcId()
    cond = st.getInt("cond")
    id = st.getState()
-   if id == State.CREATED :
-     st.set("cond","0")
-   if npcId == HIERARCH and st.getInt("cond") == 0 :
+   if id == State.COMPLETED :
+      htmltext = "<html><body>這是已經完成的任務。</body></html>"
+   elif id == State.CREATED and npcId == HIERARCH:
      st2 = player.getQuestState("17_LightAndDarkness")
-     if st2 :
-       if st2.getState() == 'State.COMPLETED' :
-         htmltext = "<html><body>追求光明與黑暗，必須首先完成。</body></html>"
-     elif player.getLevel() >= 62 :
-       htmltext = "31517-0.htm"
-     elif id == State.COMPLETED :
-       htmltext = "<html><body>這是已經完成的任務。</body></html>"
+     if st2 and st2.getState() == State.COMPLETED :
+       if player.getLevel() >= 62 :
+         htmltext = "31517-0.htm"
+       else:
+         htmltext = "<html><body>（等級62以上的角色才可以執行的任務。）</body></html>"
+         st.exitQuest(1)
      else:
-       return htmltext
+       htmltext = "<html><body>必須先完成「光輝染上黑暗」的任務。</body></html>"
        st.exitQuest(1)
-   if id == State.STARTED :    
+   elif id == State.STARTED :    
        if npcId == EVIL_ALTAR_1 and cond == 1 :
          htmltext = "31512-0.htm"
        if npcId == EVIL_ALTAR_2 and cond == 2 :

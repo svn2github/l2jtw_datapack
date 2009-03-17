@@ -55,9 +55,9 @@ class Quest (JQuest) :
                 st = player.getQuestState(qn)
                 if st.getQuestItemsCount(3865) > 0 :
                     st.takeItems(3865,1)
-                    GrandBossManager.getInstance().getZone(179700,113800,-7709).allowPlayerEntry(player,30)
-                    x = 179700 + Rnd.get(700)
-                    y = 113800 + Rnd.get(2100)
+                    GrandBossManager.getInstance().getZone(174170,114753,-7709).allowPlayerEntry(player,30)
+                    x = 174170 + Rnd.get(260)
+                    y = 113983 + Rnd.get(1500)
                     player.teleToLocation(x,y,-7709)
                     if status == 0 :
                         antharas = GrandBossManager.getInstance().getBoss(29019)

@@ -46,8 +46,8 @@ class Quest (JQuest) :
     if event=="7":
       htmltext="30827-07.htm"
       st.giveItems(PET_TICKET,1)
+      st.unset("cond")
       st.exitQuest(False)
-      st.exitQuest(0)
     return htmltext
 
   def onTalk(self, npc, player):
@@ -84,9 +84,7 @@ class Quest (JQuest) :
         elif cond==5:
           htmltext="30505-06a.htm"
     elif id==State.COMPLETED:
-      st.exitQuest(0)
       htmltext="<html><body>這是已經完成的任務。</body></html>"
-
     return htmltext
 
   def onKill(self,npc,player,isPet):
