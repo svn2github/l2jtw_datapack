@@ -773,6 +773,7 @@
   <set name="operateType" val="OP_ACTIVE"/>
   <set name="castRange" val="20"/>
   <set name="effectRange" val="400"/>
+  <!-- Drain-specific: absorb from a mob's corpse -->
   <enchant1 name="absorbPart" val="0"/> <!-- no damage, it's dead -->
   <enchant1 name="absorbAbs"  val="#ench1drain"/> <!-- absorbs absolute value -->
 </skill>
@@ -1019,7 +1020,7 @@
   <set name="operateType" val="OP_ACTIVE"/>
   <set name="castRange" val="-1"/>
   <set name="effectRange" val="-1"/>
-  <set name="aggroPoints" val="#aggro"/>  
+  <set name="aggroPoints" val="#aggro"/>
   <enchant1 name="power" val="#ench1Power"/>
   <enchant2 name="mpConsume" val="#ench2MpConsume"/>
   <enchant2 name="mpInitialConsume" val="#ench2MpConsume_Init"/>
