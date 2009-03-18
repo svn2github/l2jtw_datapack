@@ -2,6 +2,8 @@
 <instance name="Dark Cloud Mansion">
   <activityTime val="30"/>
   <timeDelay val="24"/>
+  <canSummonFriend val="false"/>
+  <returnteleport x="139968" y="150367" z="-3111"/>
   <doorlist>
     <door doorId="24230001"/>
     <door doorId="24230002"/>

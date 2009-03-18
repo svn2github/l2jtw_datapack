@@ -20,7 +20,7 @@ public class Akamanah extends L2Transformation
     public void onTransform()
     {
         // Set charachter name to transformed name
-    	this.getPlayer().getAppearance().setVisibleName("Akamanah");
+    	this.getPlayer().getAppearance().setVisibleName("¦å¼C¡Eªü¥dº¿¨º¤Ò");
     	this.getPlayer().getAppearance().setVisibleTitle("");
     }
     

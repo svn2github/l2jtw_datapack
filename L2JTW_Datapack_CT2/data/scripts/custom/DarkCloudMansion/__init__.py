@@ -110,6 +110,11 @@ def openDoor(doorId, instanceId) :
     if door.getDoorId() == doorId :
       door.openMe()
 
+def closeDoor(doorId,instanceId) :
+  for door in InstanceManager.getInstance().getInstance(instanceId).getDoors() :
+    if door.getDoorId() == doorId :
+      door.closeMe()
+
 def checkCondition(player) :
   party = player.getParty()
   if not party :
@@ -128,8 +133,8 @@ def checkCondition(player) :
       sm.addCharName(partyMember)
       player.sendPacket(sm)
       return False
-  for partyMember in player.getParty().getPartyMembers().toArray():
-    if not partyMember.isInsideRadius(player, 500, False, False):
+  for partyMember in player.getParty().getPartyMembers().toArray() :
+    if not partyMember.isInsideRadius(player, 500, False, False) :
       sm = SystemMessage(SystemMessageId.S1_IS_IN_LOCATION_THAT_CANNOT_ENTERED_PROCESSED)
       sm.addCharName(partyMember)
       player.sendPacket(sm)
@@ -150,12 +155,12 @@ def enterInstance(self, player, template, teleto) :
   if not checkCondition(player) :
     return 0
   party = player.getParty()
-  #check for existing instances of party members
+  # Check for existing instances of party members
   for partyMember in party.getPartyMembers().toArray() :
     if partyMember.getInstanceId() != 0 :
       instanceId = partyMember.getInstanceId()
       if debug : print "DarkCloudMansion: found party member in instance:" + str(instanceId)
-  #existing instance
+  # Existing instance
   if instanceId != 0 :
     foundWorld = False
     for worldid in self.world_ids :
@@ -167,7 +172,7 @@ def enterInstance(self, player, template, teleto) :
     teleto.instanceId = instanceId
     teleportPlayer(self, player, teleto)
     return instanceId
-  #new instance
+  # New instance
   else :
     instanceId = InstanceManager.getInstance().createDynamicInstance(template)
     if not self.worlds.has_key(instanceId) :
@@ -180,6 +185,8 @@ def enterInstance(self, player, template, teleto) :
       runStartRoom(self, world)
     # teleports player
     for partyMember in party.getPartyMembers().toArray() :
+      st = partyMember.getQuestState(qn)
+      if not st : st = self.newQuestState(partyMember)
       teleto.instanceId = instanceId
       teleportPlayer(self, partyMember, teleto)
     return instanceId
@@ -295,6 +302,26 @@ def runThirdRoom(self, world) :
   world.ThirdRoom.npclist[newNpc] = False
   if debug : print "DarkCloudMansion: spawned third room"
 
+def runThirdRoomBis(self, world) :
+  world.status=8
+  self.addSpawn(SOAdventure, 148910, 178397, -6117, 16383, False, 0, False, world.instanceId)
+  openDoor(D4, world.instanceId)
+  world.ThirdRoomBis = PyObject()
+  world.ThirdRoomBis.npclist = {}
+  newNpc = self.addSpawn(BM[1], 148765, 180450, -6117, 0, False, 0, False, world.instanceId)
+  world.ThirdRoomBis.npclist[newNpc] = False
+  newNpc = self.addSpawn(BM[2], 148865, 180190, -6117, 0, False, 0, False, world.instanceId)
+  world.ThirdRoomBis.npclist[newNpc] = False
+  newNpc = self.addSpawn(BM[1], 148995, 180190, -6117, 0, False, 0, False, world.instanceId)
+  world.ThirdRoomBis.npclist[newNpc] = False
+  newNpc = self.addSpawn(BM[0], 149090, 180450, -6117, 0, False, 0, False, world.instanceId)
+  world.ThirdRoomBis.npclist[newNpc] = False
+  newNpc = self.addSpawn(BM[1], 148995, 180705, -6117, 0, False, 0, False, world.instanceId)
+  world.ThirdRoomBis.npclist[newNpc] = False
+  newNpc = self.addSpawn(BM[2], 148865, 180705, -6117, 0, False, 0, False, world.instanceId)
+  world.ThirdRoomBis.npclist[newNpc] = False
+  if debug : print "DarkCloudMansion: spawned third room bis"
+
 def runForthRoom(self, world) :
   world.status = 7
   openDoor(D5,world.instanceId)
@@ -323,12 +350,13 @@ def runForthRoom(self, world) :
       npc[0].setIsInvul(True)
   if debug : print "DarkCloudMansion: spawned forth room"
 
-def runFifthRoom(self, world) :
-  world.status = 8
+def runFifthRoom(self, world, player) :
+  world.status = 9
+  world.foundBeleth = 0
+  world.attacked = False
   openDoor(D6, world.instanceId)
   world.FifthRoom = PyObject()
   world.FifthRoom.npclist = []
-  self.addSpawn(SOAdventure, 148910, 178397, -6117, 16383, False, 0, False, world.instanceId)
   a, b, c, d, e, f, g = beleths[Rnd.get(len(beleths))]
   world.FifthRoom.belethOrder = []
   world.FifthRoom.belethOrder.append([a, b, c, d, e, f, g])
@@ -336,9 +364,36 @@ def runFifthRoom(self, world) :
   idx = 0
   for x in range(148720, 149175, 65) :
     newNpc = self.addSpawn(BS[idx], x, 182145, -6117, 48810, False, 0, False,world.instanceId)
-    world.FifthRoom.npclist.append([newNpc, idx, temp[idx], 0])
+    world.FifthRoom.npclist.append([newNpc, idx, temp[idx]])
+    if temp[idx] == 1 and Rnd.get(100) < 50:
+      player.sendPacket(CreatureSay(newNpc.getObjectId(), 0, newNpc.getName(), "你永遠無法通過測試！"))
     idx += 1
   if debug : print "DarkCloudMansion: spawned fifth room"
+  if debug : print str(world.FifthRoom.npclist)
+
+def checkBelethSampleProgress(self, world, npc, player, BS) :
+  world.attacked = False
+  idx = 0
+  if world.foundBeleth == 3 :
+    for mob in world.FifthRoom.npclist :
+      mob[0].decayMe()
+    endInstance(self, world)
+  else :
+    for mob in world.FifthRoom.npclist :
+      if mob[0] == npc and mob[2] == 0 :
+        runFifthRoom(self, world, player)
+
+def checkBelethSample(self, world, npc, player, BS) :
+  world.attacked = True
+  for mob in world.FifthRoom.npclist :
+    if mob[0] == npc :
+      if mob[2] == 0 :
+        world.foundBeleth = 0
+        for mob in world.FifthRoom.npclist :
+          if mob[0] != npc :
+            mob[0].decayMe()
+      else :
+        world.foundBeleth += 1
 
 def checkKillProgress(npc, room) :
   cont = True
@@ -366,30 +421,16 @@ def checkStone(self, npc, order, npcObj, world) :
   spawnRndGolem(self, world)
 
 def endInstance(self, world) :
-  world.status = 9
+  world.status = 10
+  newNpc = self.addSpawn(SOTruth, 148911, 181940, -6117, 16383, False, 0, False, world.instanceId)
   world.startRoom = None
   world.Hall = None
   world.SecondRoom = None
   world.ThirdRoom = None
+  world.ThirdRoomBis = None
   world.ForthRoom = None
   world.FifthRoom = None
-  newNpc = self.addSpawn(SOTruth, 148911, 181940, -6117, 16383, False, 0, False, world.instanceId)
   if debug : print "DarkCloudMansion: finished"
-
-def checkBelethSample(self, world, npc, player, BS) :
-  for mob in world.FifthRoom.npclist :
-    for order in world.FifthRoom.belethOrder :
-      if mob[0] == npc and mob[3] == 1 :
-        player.sendPacket(CreatureSay(npc.getObjectId(), 0, npc.getName(), "做的好！"))
-        mob[3] = 0
-  for mob in world.FifthRoom.npclist :
-    if mob[3] == 0 :
-      continue
-    else :
-      return
-  for mob in world.FifthRoom.npclist :
-    mob[0].decayMe()
-  endInstance(self, world)
 
 def allStonesDone(self, world) :
   for npc in world.SecondRoom.monolith :
@@ -411,7 +452,11 @@ def chkShadowColumn(self, world, npc) :
           openDoor(W1 + i, world.instanceId)
           world.ForthRoom.counter += 1 
           if world.ForthRoom.counter == 7 :
-            runFifthRoom(self, world)
+            runThirdRoomBis(self, world)
+
+def removeShadowColumn(self, world) :
+  for npc in world.ForthRoom.npclist :
+    npc[0].decayMe()
 
 class DarkCloudMansion(JQuest) :
   def __init__(self, id, name, descr) :
@@ -480,41 +525,74 @@ class DarkCloudMansion(JQuest) :
       if world.status == 7 :
         chkShadowColumn(self, world, npc)
       if world.status == 8 :
-        checkBelethSample(self, world, npc, player, BS)
+        if checkKillProgress(npc, world.ThirdRoomBis) :
+          runFifthRoom(self, world, player)
+      if world.status == 9 :
+        checkBelethSampleProgress(self,world,npc,player,BS)
     return
 
-  def onAttack(self, npc, player, damage, isPet) :
+  def onAttack(self, npc, player, damage, isPet, skill) :
     npcId = npc.getNpcId()
-    world = self.worlds[player.getInstanceId()]
-    if world.status == 7 :
-      for mob in world.ForthRoom.npclist :
-        if mob[0] == npc :
-          if mob[0].isInvul() and Rnd.get(100) < 12 :
-            if debug : print "DarkCloudMansion: spawn room 4 guard"
-            newNpc = self.addSpawn(BM[Rnd.get(len(BM))], player.getX(), player.getY(), player.getZ(), 0, False, 0, False, world.instanceId)
+    if self.worlds.has_key(npc.getInstanceId()) :
+      world = self.worlds[player.getInstanceId()]
+      if world.status == 2 :
+        if npcId == 22264 :
+          closeDoor(D2, world.instanceId)
+      if world.status == 7 :
+        if npcId == SC :
+          closeDoor(D5, world.instanceId)
+        for mob in world.ForthRoom.npclist :
+          if mob[0] == npc :
+            if mob[0].isInvul() and Rnd.get(100) < 12 :
+              if debug : print "DarkCloudMansion: spawn room 4 guard"
+              newNpc = self.addSpawn(BM[Rnd.get(len(BM))], player.getX(), player.getY(), player.getZ(), 0, False, 0, False, world.instanceId)
+      if world.status == 9 and not world.attacked :
+        checkBelethSample(self, world, npc, player, BS)
 
   def onFirstTalk(self, npc, player) :
     npcId = npc.getNpcId()
     world = self.worlds[player.getInstanceId()]
-    if world.status == 4 :
+    if world.status == 3 :
+      if npcId == SOFaith :
+        openDoor(D2, world.instanceId)
+        htmltext = "32288.htm"
+        return htmltext
+    elif world.status == 4 :
+      if npcId == BSM:
+        closeDoor(D3, world.instanceId)
       for npcObj in world.SecondRoom.monolith :
         if npcObj[0] == npc :
           checkStone(self, npc, world.SecondRoom.monolithOrder, npcObj, world)
-      if allStonesDone(self,world) : 
-        removeMonoliths(self,world)
-        runHall3(self,world)
+      if allStonesDone(self, world) : 
+        removeMonoliths(self, world)
+        runHall3(self, world)
+    elif world.status == 5 :
+      if npcId == SOAdversity :
+        openDoor(D3, world.instanceId)
+        htmltext = "32289.htm"
+        return htmltext
+    elif world.status == 8 :
+      if npcId == SOAdventure :
+        removeShadowColumn(self, world)
+        openDoor(D5, world.instanceId)
+        htmltext = "32290.htm"
+        return htmltext
     return ""
 
-QUEST = DarkCloudMansion(-1, qn, "DCM")
-
-QUEST.addFirstTalkId(BSM)
+QUEST = DarkCloudMansion(9990, qn, "custom")
 
 QUEST.addStartNpc(YIYEN)
+
+QUEST.addFirstTalkId(BSM)
+QUEST.addFirstTalkId(SOFaith)
+QUEST.addFirstTalkId(SOAdversity)
+QUEST.addFirstTalkId(SOAdventure)
 
 QUEST.addTalkId(YIYEN)
 QUEST.addTalkId(SOTruth)
 
-QUEST.addAttackId(SC)
+for mob in [18371, 18372, 18373, 18374, 18375, 18376, 18377, 22264, SC] :
+  QUEST.addAttackId(mob)
 
 for mob in [18371, 18372, 18373, 18374, 18375, 18376, 18377, 22318, 22319, 22272, 22273, 22274, 18369, 18370, 22402, 22264] :
   QUEST.addKillId(mob)

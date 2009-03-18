@@ -360,6 +360,17 @@ REPLACE INTO `npc` VALUES
 (1505, 1505, 'Baby Panda Agathion', 0, '', 0, 'LineageNPC2.br_agathion_bpanda', 32.00, 23.56, 70, 'male', 'L2Npc', 40, 2444, 2444, 0.00, 0.00, 10, 10, 10, 10, 10, 10, 0, 0, 500, 500, 500, 500, 253, 0, 253, 0, 0, NULL, 80, 120, 'NULL', 0, 0, 0, 'LAST_HIT', 0, 0, 0, 'balanced', 'false'),
 (1506, 1506, 'Bamboo Panda Agathion', 0, '', 0, 'LineageNPC2.br_agathion_mpanda', 32.00, 23.56, 70, 'male', 'L2Npc', 40, 2444, 2444, 0.00, 0.00, 10, 10, 10, 10, 10, 10, 0, 0, 500, 500, 500, 500, 253, 0, 253, 0, 0, NULL, 80, 120, 'NULL', 0, 0, 0, 'LAST_HIT', 0, 0, 0, 'balanced', 'false'),
 (1507, 1507, 'Sexy Panda Agathion', 0, '', 0, 'LineageNPC2.br_agathion_wpanda', 32.00, 23.56, 70, 'male', 'L2Npc', 40, 2444, 2444, 0.00, 0.00, 10, 10, 10, 10, 10, 10, 0, 0, 500, 500, 500, 500, 253, 0, 253, 0, 0, NULL, 80, 120, 'NULL', 0, 0, 0, 'LAST_HIT', 0, 0, 0, 'balanced', 'false'),
+(1508, 1508, 'White Cupid Agathion', 0, '', 0, 'LineageNPC2.Agathion_CL', 32.00, 23.56, 70, 'male', 'L2Npc', 40, 2444, 2444, 0.00, 0.00, 10, 10, 10, 10, 10, 10, 0, 0, 500, 500, 500, 500, 253, 0, 253, 0, 0, NULL, 80, 120, 'NULL', 0, 0, 0, 'LAST_HIT', 0, 0, 0, 'balanced', 'false'),
+(1509, 1509, 'Dark Cupid Agathion', 0, '', 0, 'LineageNPC2.Agathion_CL', 32.00, 23.56, 70, 'male', 'L2Npc', 40, 2444, 2444, 0.00, 0.00, 10, 10, 10, 10, 10, 10, 0, 0, 500, 500, 500, 500, 253, 0, 253, 0, 0, NULL, 80, 120, 'NULL', 0, 0, 0, 'LAST_HIT', 0, 0, 0, 'balanced', 'false'),
+(1510, 1510, 'White Maneki Neko Agathion', 0, '', 0, 'LineageNPC2.Agathion_CL', 32.00, 23.56, 70, 'male', 'L2Npc', 40, 2444, 2444, 0.00, 0.00, 10, 10, 10, 10, 10, 10, 0, 0, 500, 500, 500, 500, 253, 0, 253, 0, 0, NULL, 80, 120, 'NULL', 0, 0, 0, 'LAST_HIT', 0, 0, 0, 'balanced', 'false'),
+(1511, 1511, 'Black Maneki Neko Agathion', 0, '', 0, 'LineageNPC2.Agathion_CL', 32.00, 23.56, 70, 'male', 'L2Npc', 40, 2444, 2444, 0.00, 0.00, 10, 10, 10, 10, 10, 10, 0, 0, 500, 500, 500, 500, 253, 0, 253, 0, 0, NULL, 80, 120, 'NULL', 0, 0, 0, 'LAST_HIT', 0, 0, 0, 'balanced', 'false'),
+(1512, 1512, 'Brown Maneki Neko Agathion', 0, '', 0, 'LineageNPC2.Agathion_CL', 32.00, 23.56, 70, 'male', 'L2Npc', 40, 2444, 2444, 0.00, 0.00, 10, 10, 10, 10, 10, 10, 0, 0, 500, 500, 500, 500, 253, 0, 253, 0, 0, NULL, 80, 120, 'NULL', 0, 0, 0, 'LAST_HIT', 0, 0, 0, 'balanced', 'false'),
+(1513, 1513, 'One-Eyed Bat Drove Agathion', 0, '', 0, 'LineageNPC2.Agathion_CL', 32.00, 23.56, 70, 'male', 'L2Npc', 40, 2444, 2444, 0.00, 0.00, 10, 10, 10, 10, 10, 10, 0, 0, 500, 500, 500, 500, 253, 0, 253, 0, 0, NULL, 80, 120, 'NULL', 0, 0, 0, 'LAST_HIT', 0, 0, 0, 'balanced', 'false'),
+(1514, 1514, 'Pegasus Agathion', 0, '', 0, 'LineageNPC2.Agathion_CL', 32.00, 23.56, 70, 'male', 'L2Npc', 40, 2444, 2444, 0.00, 0.00, 10, 10, 10, 10, 10, 10, 0, 0, 500, 500, 500, 500, 253, 0, 253, 0, 0, NULL, 80, 120, 'NULL', 0, 0, 0, 'LAST_HIT', 0, 0, 0, 'balanced', 'false'),
+(1515, 1515, 'Yellow-Robed Tojigong Agathion', 0, '', 0, 'LineageNPC2.Agathion_CL', 32.00, 23.56, 70, 'male', 'L2Npc', 40, 2444, 2444, 0.00, 0.00, 10, 10, 10, 10, 10, 10, 0, 0, 500, 500, 500, 500, 253, 0, 253, 0, 0, NULL, 80, 120, 'NULL', 0, 0, 0, 'LAST_HIT', 0, 0, 0, 'balanced', 'false'),
+(1516, 1516, 'Blue-Robed Tojigong Agathion', 0, '', 0, 'LineageNPC2.Agathion_CL', 32.00, 23.56, 70, 'male', 'L2Npc', 40, 2444, 2444, 0.00, 0.00, 10, 10, 10, 10, 10, 10, 0, 0, 500, 500, 500, 500, 253, 0, 253, 0, 0, NULL, 80, 120, 'NULL', 0, 0, 0, 'LAST_HIT', 0, 0, 0, 'balanced', 'false'),
+(1517, 1517, 'Green-Robed Tojigong Agathion', 0, '', 0, 'LineageNPC2.Agathion_CL', 32.00, 23.56, 70, 'male', 'L2Npc', 40, 2444, 2444, 0.00, 0.00, 10, 10, 10, 10, 10, 10, 0, 0, 500, 500, 500, 500, 253, 0, 253, 0, 0, NULL, 80, 120, 'NULL', 0, 0, 0, 'LAST_HIT', 0, 0, 0, 'balanced', 'false'),
+(1518, 1518, 'Bugbear Agathion', 0, '', 0, 'LineageNPC2.Agathion_CL', 32.00, 23.56, 70, 'male', 'L2Npc', 40, 2444, 2444, 0.00, 0.00, 10, 10, 10, 10, 10, 10, 0, 0, 500, 500, 500, 500, 253, 0, 253, 0, 0, NULL, 80, 120, 'NULL', 0, 0, 0, 'LAST_HIT', 0, 0, 0, 'balanced', 'false'),
 (16049, 16049, 'Love Agathion', 0, '', 0, 'LineageNPC2.Agathion_CL', 32.00, 23.56, 70, 'male', 'L2Npc', 40, 2444, 2444, 0.00, 0.00, 10, 10, 10, 10, 10, 10, 0, 0, 500, 500, 500, 500, 253, 0, 253, 0, 0, NULL, 80, 120, 'NULL', 0, 0, 0, 'LAST_HIT', 0, 0, 0, 'balanced', 'false');
 UPDATE `armor` SET `skill` = '3361-1;3267-1;5458-1;' WHERE `item_id` in (9909);
 UPDATE `armor` SET `skill` = '3361-1;3267-1;5458-1;' WHERE `item_id` in (10018);
@@ -551,6 +562,7 @@ REPLACE INTO `pets_stats` VALUES
 
 /************ 增加/修正/刪除NPC ************/
 UPDATE `npc` SET `type` = 'L2Adventurer' WHERE `id` in (32074); -- 修正古魯丁分會長的NPC類型
+UPDATE `npc` SET `level` = '55' WHERE `id` in (16030); -- 修正黑鬃狼的等級
 UPDATE `spawnlist` SET `npc_templateid` = '35440' WHERE `id` ='33771'; -- 修正NPC ID:丹尼爾(根據地守門人)
 UPDATE `raidboss_spawnlist` SET `loc_x` = '3776', `loc_y` = '-6768', `loc_z` = '-3253' WHERE `boss_id` =25527; -- 狩獵首領烏魯卡
 Delete From `spawnlist` Where `npc_templateid` in (30880,30881,30882,30883,30884,30885,30886,30887,30888,30889,32353); -- 刪除不存在的NPC
@@ -873,3 +885,7 @@ UPDATE `etcitem` SET `price` = '5000000' WHERE `item_id` ='6577';
 
 -- 修正首領重生時，HP/MP全滿(感謝 wolo 提供)
 Update `npc`, `raidboss_spawnlist` SET `raidboss_spawnlist`.`heading`=0, `raidboss_spawnlist`.`currentHp`=`npc`.`hp`,`raidboss_spawnlist`.`currentMp`=`npc`.`mp` WHERE `npc`.`type`='L2RaidBoss' AND `npc`.`id`=`raidboss_spawnlist`.`boss_id`;
+
+-- 修正寵物 --
+REPLACE INTO `pets_stats` VALUES
+('great_wolf',16025,56,33396358,1384,597,107,66,70,42,95,89,40,187,278,333,4740,39,7,54510,2,1,0.1);
