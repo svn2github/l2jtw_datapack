@@ -3757,9 +3757,9 @@ INSERT INTO `messagetable` VALUES ('1246', 'cn', '要塞的血盟成员复活时
 INSERT INTO `messagetable` VALUES ('1247', 'en', 'Teleports clan members in a fort to the target ', null);
 INSERT INTO `messagetable` VALUES ('1247', 'tw', '傳送要塞的血盟成員到', null);
 INSERT INTO `messagetable` VALUES ('1247', 'cn', '傳送要塞的血盟成員到', null);
-INSERT INTO `messagetable` VALUES ('1248', 'en', '', null);
-INSERT INTO `messagetable` VALUES ('1248', 'tw', '', null);
-INSERT INTO `messagetable` VALUES ('1248', 'cn', '', null);
+INSERT INTO `messagetable` VALUES ('1248', 'en', 'Champion', null);
+INSERT INTO `messagetable` VALUES ('1248', 'tw', '菁英怪物', null);
+INSERT INTO `messagetable` VALUES ('1248', 'cn', '菁英怪物', null);
 INSERT INTO `messagetable` VALUES ('1249', 'en', '', null);
 INSERT INTO `messagetable` VALUES ('1249', 'tw', '', null);
 INSERT INTO `messagetable` VALUES ('1249', 'cn', '', null);
