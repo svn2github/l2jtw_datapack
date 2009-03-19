@@ -6,6 +6,10 @@ from net.sf.l2j.gameserver.model.quest.jython import QuestJython as JQuest
 
 qn = "660_AidingtheFloranVillage"
 
+# NPC
+MARIA = 30608
+ALEX = 30291
+
 # MOBS
 CARSED_SEER = 21106
 PLAIN_WATCMAN = 21102
@@ -43,21 +47,20 @@ class Quest (JQuest) :
     if event =="30291-02a.htm" :                            # pmq修正
       st.set("cond","1")                                    # pmq修正
       st.setState(State.STARTED)                            # pmq修正
-      st.playSound("ItemSound.quest_accept")                # pmq修正
       st.set("cond","2")                                    # pmq修正
+      st.playSound("ItemSound.quest_middle")
     if event == "30291-05.htm" :
       if EYES+SCALE+SHARD >= 45 :
         st.giveItems(ADENA, EYES*100+SCALE*100+SHARD*100+9000)
         st.takeItems(WATCHING_EYES,-1)
         st.takeItems(DELU_LIZARDMAN_SCALE,-1)
         st.takeItems(ROUGHLY_HEWN_ROCK_GOLEM_SHARD,-1)
-        st.playSound("ItemSound.quest_accept")              # pmq修正
       else :
         st.giveItems(ADENA,EYES*100+SCALE*100+SHARD*100)
         st.takeItems(WATCHING_EYES,-1)
         st.takeItems(DELU_LIZARDMAN_SCALE,-1)
         st.takeItems(ROUGHLY_HEWN_ROCK_GOLEM_SHARD,-1)
-        st.playSound("ItemSound.quest_accept")              # pmq修正
+      st.playSound("ItemSound.quest_finish")
     if event == "30291-11.htm" :
       if EYES+SCALE+SHARD >= 99 :
         n = 100 - EYES
@@ -76,7 +79,7 @@ class Quest (JQuest) :
           st.giveItems(SCROLL_ENCANT_ARMOR,1)
         else :
           st.giveItems(ADENA,1000)
-          st.playSound("ItemSound.quest_accept")             # pmq修正
+        st.playSound("ItemSound.quest_finish")
       else :
         htmltext="30291-16.htm"                              # pmq修正
     if event == "30291-12.htm" :
@@ -100,7 +103,7 @@ class Quest (JQuest) :
           st.giveItems(SCROLL_ENCHANT_WEAPON,1)
         if luck in range (12,15) :
           st.giveItems(ADENA,2000)
-          st.playSound("ItemSound.quest_accept")             # pmq修正
+        st.playSound("ItemSound.quest_finish")
       else :
         htmltext="30291-17.htm"                              # pmq修正
     if event == "30291-13.htm" :
@@ -121,12 +124,12 @@ class Quest (JQuest) :
           st.giveItems(SCROLL_ENCHANT_WEAPON,1)
         else :
           st.giveItems(ADENA,5000)
-          st.playSound("ItemSound.quest_accept")             # pmq修正
+        st.playSound("ItemSound.quest_finish")
       else :
         htmltext="30291-18.htm"                              # pmq修正
     elif event == "30291-06.htm" :
-       st.set("cond","0")
-       st.exitQuest(False)
+       st.unset("cond")
+       st.exitQuest(True)
        st.playSound("ItemSound.quest_finish")
     return htmltext
 
@@ -140,23 +143,21 @@ class Quest (JQuest) :
    EYES=st.getQuestItemsCount(WATCHING_EYES)
    id = st.getState()
    cond = st.getInt("cond")
-   if st.getState() == State.COMPLETED :
-     st.setState(State.CREATED)
    if npc and cond == 0 :                                     # pmq修正
      if st.getPlayer().getLevel() >= 30 :
        htmltext = str(npcId)+"-02.htm"                        # pmq修正
      else :
        htmltext = str(npcId)+"-01.htm"                        # pmq修正
        st.exitQuest(1)
-   if npcId == 30608 and cond == 1 :                          # pmq修正
+   elif npcId == MARIA and cond == 1 :                        # pmq修正
      htmltext = "30608-06.htm"                                # pmq修正
-   if npcId == 30608 and cond == 2 :                          # pmq修正
+   elif npcId == MARIA and cond == 2 :                        # pmq修正
      htmltext = "30608-06.htm"
-   if npcId == 30291 and cond == 1 :                          # pmq修正
+   elif npcId == ALEX and cond == 1 :                         # pmq修正
      htmltext = "30291-01a.htm"                               # pmq修正
      st.playSound("ItemSound.quest_middle")
      st.set("cond","2")
-   if npcId == 30291 and cond == 2 :                          # pmq修正
+   elif npcId == ALEX and cond == 2 :
      if EYES+SCALE+SHARD == 0 :
        htmltext = "30291-03.htm"                              # pmq修正
      else :

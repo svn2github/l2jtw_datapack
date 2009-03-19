@@ -1,9 +1,9 @@
 # Made by Bloodshed 
 import sys
-from net.sf.l2j.util import Rnd
 from net.sf.l2j.gameserver.model.quest import State
 from net.sf.l2j.gameserver.model.quest import QuestState
 from net.sf.l2j.gameserver.model.quest.jython import QuestJython as JQuest
+from net.sf.l2j.util import Rnd
 
 qn = "131_BirdInACage"
 
@@ -12,14 +12,14 @@ KANIS = 32264
 PARME = 32271
 
 #ITEMS
-PARMES_LETTER = 9784
 ECHO_CRYSTAL = 9783
+PARMES_LETTER = 9784
 
 class Quest (JQuest) :
 
  def __init__(self, id, name, descr):
      JQuest.__init__(self, id, name, descr)
-     self.questItemIds = [PARMES_LETTER]
+     self.questItemIds = [ECHO_CRYSTAL,PARMES_LETTER]
 
  def onEvent (self,event,st) :
    htmltext = event
@@ -28,12 +28,9 @@ class Quest (JQuest) :
      st.setState(State.STARTED)
      st.playSound("ItemSound.quest_accept")
    elif event == "32264-08.htm" :
+     st.giveItems(ECHO_CRYSTAL, 1)
      st.set("cond", "2")
      st.playSound("ItemSound.quest_middle")
-   elif event == "32271-02.htm" :
-     if not st.getQuestItemsCount(ECHO_CRYSTAL) :
-       st.giveItems(ECHO_CRYSTAL, 1)
-       st.playSound("ItemSound.quest_middle")
    elif event == "32271-03.htm" :
      st.set("cond", "3")
      st.giveItems(PARMES_LETTER, 1)
@@ -69,13 +66,13 @@ class Quest (JQuest) :
          htmltext = "32264-00.htm"
          st.exitQuest(1)
      elif cond == 1 :
-       htmltext = "32264-02.htm"
+       htmltext = "32264-03.htm"
      elif cond == 2 :
-       htmltext = "32264-10.htm"
+       htmltext = "32264-08a.htm"
      elif cond == 3 :
-       if st.getQuestItemsCount(ECHO_CRYSTAL) == 1 and st.getQuestItemsCount(PARMES_LETTER) == 1 :
+       if st.getQuestItemsCount(PARMES_LETTER) == 1 :
          htmltext = "32264-11.htm"
-       elif st.getQuestItemsCount(ECHO_CRYSTAL) == 1 and st.getQuestItemsCount(PARMES_LETTER) == 0 :
+       elif st.getQuestItemsCount(PARMES_LETTER) == 0 :
          htmltext = "32264-12.htm"
    elif npcId == PARME :
      if cond == 2 :

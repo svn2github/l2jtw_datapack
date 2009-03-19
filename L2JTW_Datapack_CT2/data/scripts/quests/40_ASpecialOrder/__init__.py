@@ -71,12 +71,12 @@ class Quest (JQuest) :
         else :
           htmltext = "30081-00.htm"
           st.exitQuest(1)
-      elif cond == 2 :
+      elif cond == 2 or cond == 3 :
         htmltext = "30081-03a.htm"
-      elif cond == 5 :
-        htmltext = "30081-03b.htm"
       elif cond == 4 :
         htmltext = "30081-04a.htm"
+      elif cond == 5 or cond == 6 :
+        htmltext = "30081-03b.htm"
       elif cond == 7 :
         htmltext = "30081-04b.htm"
     elif npcId == OFULLE :
