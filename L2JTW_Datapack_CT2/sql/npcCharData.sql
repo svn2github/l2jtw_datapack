@@ -9,6 +9,7 @@ CREATE TABLE `npcCharData` (
   `charrace` int(11) DEFAULT NULL,
   `charface` int(11) DEFAULT NULL,
   `charhair` int(11) DEFAULT NULL,
+  `charhaircolor` int(11) DEFAULT NULL,
   `charcolor` int(11) DEFAULT NULL,
   `charhero` int(11) DEFAULT NULL,
   `charsex` int(11) DEFAULT NULL,
