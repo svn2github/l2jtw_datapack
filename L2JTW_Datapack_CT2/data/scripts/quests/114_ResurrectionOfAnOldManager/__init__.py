@@ -44,11 +44,13 @@ class Quest (JQuest) :
              st.takeItems(Detector,1)
              st.giveItems(Detector2,1)
              st.set("cond","18")
-             player.sendPacket(ExShowScreenMessage("The radio signal detector is responding. # A suspicious pile of stones catches your eye.",4500))
+             player.sendPacket(ExShowScreenMessage("電波檢測器發生反應。 # 周圍比較特別的，只有可疑的石堆而已。",4500))
              break
     return
 
- def onEvent(self, event, st):
+ def onAdvEvent(self, event, npc, player):             # pmq 修改
+    st = player.getQuestState(qn)                      # pmq 修改
+    if not st : return                                 # pmq 修改
     htmltext = event
     if event == "31961-02.htm" :
        st.set("cond","22")
@@ -91,7 +93,7 @@ class Quest (JQuest) :
        st.set("talk","1")
     elif event == "32041-31.htm" :
        choice = st.getInt("choice")
-       if choice > 1 :
+       if choice == 2 :                                # pmq 修改
           htmltext = "32041-37.htm"
     elif event == "32041-32.htm" :
        st.set("cond","21")
@@ -99,6 +101,7 @@ class Quest (JQuest) :
        st.playSound("ItemSound.quest_middle")
     elif event == "32041-36.htm" :
        st.set("cond","20")
+       st.set("progress","MIDDLE")                     # pmq 修改
        st.playSound("ItemSound.quest_middle")
     elif event == "32046-02.htm" :
        st.set("cond","19")
@@ -136,7 +139,7 @@ class Quest (JQuest) :
        st.set("talk","0")
        st.set("choice","3")
        st.unset("talk1")
-    elif event == "32047-13.htm" :
+    elif event == "32047-13b.htm" :                    # pmq 修改
        st.set("cond","7")
        st.playSound("ItemSound.quest_middle")
     elif event == "32047-13a.htm" :
@@ -148,7 +151,7 @@ class Quest (JQuest) :
     elif event == "32047-15a.htm" :
        if self.isSpawned == 0 :
           golem = st.addSpawn(Guardian,96977,-110625,-3280,0,False,900000)
-          golem.broadcastPacket(NpcSay(golem.getObjectId(),0,golem.getNpcId(),"You, "+st.getPlayer().getName()+", you attacked Wendy. Prepare to die!"))
+          golem.broadcastPacket(NpcSay(golem.getObjectId(),0,golem.getNpcId(),"攻擊溫蒂的"+player.getName()+"，受死吧！"))
           golem.setRunning()
           golem.addDamageHate(player,0,999)
           golem.getAI().setIntention(CtrlIntention.AI_INTENTION_ATTACK, player)
@@ -182,11 +185,19 @@ class Quest (JQuest) :
     elif event == "32047-34.htm" :
           st.set("cond","9")
           st.playSound("ItemSound.quest_middle")
+    elif event == "32047-36a.htm" :                    # pmq 修改
+          st.set("cond","23")
+          st.playSound("ItemSound.quest_middle")
     elif event == "32047-38.htm" :
        st.giveItems(Starstone2,1)
        st.takeItems(57,3000)
        st.set("cond","26")
        st.playSound("ItemSound.quest_middle")
+    elif event == "32047-39" :                         # pmq 修改
+         htmltext = "32047-39.htm"
+         if st.get("progress") :
+            if st.get("progress") == "MIDDLE":
+               htmltext = "32047-41.htm"
     elif event == "32050-02.htm" :
        st.playSound("ItemSound.armor_wood_3")
        st.set("talk","1")
@@ -195,6 +206,10 @@ class Quest (JQuest) :
        st.giveItems(Starstone,1)
        st.playSound("ItemSound.quest_middle")
        st.set("talk","0")
+    elif event == "32050-04a.htm" :                    # pmq 修改
+       st.set("cond","24")
+       st.giveItems(Starstone2,1)
+       st.playSound("ItemSound.quest_middle")
     return htmltext
 
  def onFirstTalk (self,npc,player): #atm custom, on retail it is when you walk to npcs radius
@@ -205,12 +220,12 @@ class Quest (JQuest) :
            st.takeItems(Detector,1)
            st.giveItems(Detector2,1)
            st.set("cond","18")
-           player.sendPacket(ExShowScreenMessage("The radio signal detector is responding. # A suspicious pile of stones catches your eye.",4500))
+           player.sendPacket(ExShowScreenMessage("電波檢測器發生反應。 # 周圍比較特別的，只有可疑的石堆而已。",4500))
     npc.showChatWindow(player)
     return None
 
  def onTalk (self,npc,player):
-    htmltext = "<html><head><body>目前沒有執行任務，或條件不符。</body></html>"
+    htmltext = "<html><body>目前沒有執行任務，或條件不符。</body></html>"
     st = player.getQuestState(qn)
     if not st : return htmltext
     state = st.getState()
@@ -261,7 +276,7 @@ class Quest (JQuest) :
           htmltext = "32041-36.htm"
        elif cond == 21:
           htmltext = "32041-33.htm"
-       elif cond in [22,26]:
+       elif cond in [22,25,26]:                        # pmq 修改
           htmltext = "32041-34.htm"
           st.set("cond","27")
           st.playSound("ItemSound.quest_middle")
@@ -275,8 +290,10 @@ class Quest (JQuest) :
              htmltext = "32047-04.htm"
        elif cond == 3:
           htmltext = "32047-09.htm"
-       elif cond in [4,5]:
+       elif cond == 4:                                 # pmq 修改
           htmltext = "32047-09a.htm"
+       elif cond == 5:                                 # pmq 修改
+          htmltext = "32047-09b.htm"
        elif cond == 6:
           choice = st.getInt("choice")
           if choice == 1:
@@ -322,8 +339,20 @@ class Quest (JQuest) :
           st.playSound("ItemSound.quest_middle")
        elif cond == 16:
           htmltext = "32047-27.htm"
-       elif cond == 20:
-          htmltext = "32047-35.htm"
+       elif cond == 20:                                # pmq 修改
+          choice = st.getInt("choice")
+          if choice == 3:
+             htmltext = "32047-35.htm"
+          else:
+             htmltext = "32047-35a.htm"
+       elif cond == 23:                                # pmq 修改
+          htmltext = "32047-37a.htm"                   # pmq 修改
+       elif cond == 24:                                # pmq 修改
+          htmltext = "32047-38a.htm"                   # pmq 修改
+          st.set("cond","25")
+          st.playSound("ItemSound.quest_middle")
+       elif cond == 25:                                # pmq 修改
+          htmltext = "32047-38a.htm"                   # pmq 修改
        elif cond == 26:
           htmltext = "32047-40.htm"
     elif npcId == Box :
@@ -334,6 +363,10 @@ class Quest (JQuest) :
              htmltext = "32050-03.htm"
        elif cond == 14:
           htmltext = "32050-05.htm"
+       elif cond == 23:                                # pmq 修改
+          htmltext = "32050-01a.htm"                   # pmq 修改
+       elif cond == 24:                                # pmq 修改
+          htmltext = "32050-06.htm"                    # pmq 修改
     elif npcId == Stones :
        if cond == 18:
           htmltext = "32046-01.htm"
@@ -354,7 +387,7 @@ class Quest (JQuest) :
    npcId = npc.getNpcId()
    if st.getState() == State.STARTED and st.getInt("cond") == 10:
       if npcId == Guardian :
-         npc.broadcastPacket(NpcSay(npc.getObjectId(),0,npcId,"This enemy is far too powerful for me to fight. I must withdraw"))
+         npc.broadcastPacket(NpcSay(npc.getObjectId(),0,npcId,"敵人比想像中更加強悍，無法戰鬥，還是先退下了。"))
          st.set("cond","11")
          st.playSound("ItemSound.quest_middle")
 
