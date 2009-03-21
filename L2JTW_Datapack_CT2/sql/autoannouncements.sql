@@ -7,10 +7,7 @@ CREATE TABLE `autoannouncements` (
   `id` int(11) NOT NULL,
   `initial` bigint(20) NOT NULL,
   `delay` bigint(20) NOT NULL,
-  `memo` text,
+  `cycle` int(11) NOT NULL,
+  `memo` text(255) DEFAULT NULL,
   PRIMARY KEY (`id`)
 ) DEFAULT CHARSET=utf8;
-
--- ----------------------------
--- Records 
--- ----------------------------
