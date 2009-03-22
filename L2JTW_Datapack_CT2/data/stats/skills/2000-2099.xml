@@ -39,11 +39,13 @@
   <set name="castRange" val="-1"/>
 </skill>
 <skill id="2005" levels="1" name="Nectar">
-  <!-- Summer Squash Event Skill (http://www.lineage2.com/archive/2006/11/fall_harvest.html) -->
+  <set name="power" val="200"/>
   <set name="target" val="TARGET_SELF"/>
-  <set name="skillType" val="NOTDONE"/>
-  <set name="operateType" val="OP_PASSIVE"/>
+  <set name="skillType" val="MANAHEAL"/>
+  <set name="operateType" val="OP_ACTIVE"/>
   <set name="castRange" val="-1"/>
+  <set name="effectRange" val="-1"/>
+  <set name="isPotion" val="true"/>
 </skill>
 <skill id="2006" levels="1" name="Scroll: Enchant Weapon (Grade A)">
   <set name="target" val="TARGET_ITEM"/>
