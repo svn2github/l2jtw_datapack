@@ -2,7 +2,6 @@ package transformations;
 
 import net.sf.l2j.gameserver.datatables.SkillTable;
 import net.sf.l2j.gameserver.instancemanager.TransformationManager;
-import net.sf.l2j.gameserver.model.L2Skill;
 import net.sf.l2j.gameserver.model.L2Transformation;
 
 /**
@@ -25,18 +24,9 @@ public class DivineWarrior extends L2Transformation
 
 	public void onTransform()
 	{
-		// Disable all character skills.
-		for (L2Skill sk : this.getPlayer().getAllSkills())
-		{
-			if (sk != null && !sk.isPassive())
-				this.getPlayer().removeSkill(sk, false, false);
-		}
-		if (this.getPlayer().transformId() > 0 && !this.getPlayer().isCursedWeaponEquipped())
-		{
-			// give transformation skills
-			transformedSkills();
+		if (getPlayer().getTransformationId() != 253 || getPlayer().isCursedWeaponEquipped())
 			return;
-		}
+
 		// give transformation skills
 		transformedSkills();
 	}
@@ -44,17 +34,11 @@ public class DivineWarrior extends L2Transformation
 	public void transformedSkills()
 	{
 		// Transfrom Dispel
-		this.getPlayer().addSkill(SkillTable.getInstance().getInfo(619, 1), false);
+		getPlayer().addSkill(SkillTable.getInstance().getInfo(619, 1), false);
 		// Decrease Bow/Crossbow Attack Speed
-		this.getPlayer().addSkill(SkillTable.getInstance().getInfo(5491, 1), false);
-		// Send a Server->Client packet StatusUpdate to the L2PcInstance.
-		this.getPlayer().addSkill(SkillTable.getInstance().getInfo(675, 1), false);
-		this.getPlayer().addSkill(SkillTable.getInstance().getInfo(676, 1), false);
-		this.getPlayer().addSkill(SkillTable.getInstance().getInfo(677, 1), false);
-		this.getPlayer().addSkill(SkillTable.getInstance().getInfo(678, 1), false);
-		this.getPlayer().addSkill(SkillTable.getInstance().getInfo(679, 1), false);
-		this.getPlayer().addSkill(SkillTable.getInstance().getInfo(798, 1), false);
-		this.getPlayer().sendSkillList();
+		getPlayer().addSkill(SkillTable.getInstance().getInfo(5491, 1), false);
+
+		getPlayer().setTransformAllowedSkills(new int[]{619,5491});
 	}
 
 	public void onUntransform()
@@ -66,17 +50,11 @@ public class DivineWarrior extends L2Transformation
 	public void removeSkills()
 	{
 		// Transfrom Dispel
-		this.getPlayer().removeSkill(SkillTable.getInstance().getInfo(619, 1), false);
+		getPlayer().removeSkill(SkillTable.getInstance().getInfo(619, 1), false, false);
 		// Decrease Bow/Crossbow Attack Speed
-		this.getPlayer().removeSkill(SkillTable.getInstance().getInfo(5491, 1), false);
-		// Send a Server->Client packet StatusUpdate to the L2PcInstance.
-		this.getPlayer().removeSkill(SkillTable.getInstance().getInfo(675, 1), false);
-		this.getPlayer().removeSkill(SkillTable.getInstance().getInfo(676, 1), false);
-		this.getPlayer().removeSkill(SkillTable.getInstance().getInfo(677, 1), false);
-		this.getPlayer().removeSkill(SkillTable.getInstance().getInfo(678, 1), false);
-		this.getPlayer().removeSkill(SkillTable.getInstance().getInfo(679, 1), false);
-		this.getPlayer().removeSkill(SkillTable.getInstance().getInfo(798, 1), false);
-		this.getPlayer().sendSkillList();
+		getPlayer().removeSkill(SkillTable.getInstance().getInfo(5491, 1), false, false);
+
+		getPlayer().setTransformAllowedSkills(new int[]{});
 	}
 
 	public static void main(String[] args)
