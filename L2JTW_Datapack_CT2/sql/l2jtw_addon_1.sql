@@ -1,7 +1,7 @@
 /************ Made in Taiwan ************/
 
 /************ 修正32007加爾巴-釣魚會員 ************/
-Delete From spawnlist Where `id` > 820000;
+Delete From spawnlist Where `id` > 820000 and `id` < 850000;
 INSERT INTO `spawnlist` VALUES ('820001', '', '1', '32007', '140967', '-123600', '-1905 ', '0', '0', '11829', '60', '0', '0');
 UPDATE `npc` SET `type` = 'L2Fisherman' WHERE `id` in (32007);
 UPDATE `npc` SET `rhand` = '7560' WHERE `id` in (32007);

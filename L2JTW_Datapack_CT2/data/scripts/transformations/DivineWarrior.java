@@ -37,8 +37,13 @@ public class DivineWarrior extends L2Transformation
 		getPlayer().addSkill(SkillTable.getInstance().getInfo(619, 1), false);
 		// Decrease Bow/Crossbow Attack Speed
 		getPlayer().addSkill(SkillTable.getInstance().getInfo(5491, 1), false);
+		getPlayer().addSkill(SkillTable.getInstance().getInfo(676, 1), false);
+		getPlayer().addSkill(SkillTable.getInstance().getInfo(677, 1), false);
+		getPlayer().addSkill(SkillTable.getInstance().getInfo(678, 1), false);
+		getPlayer().addSkill(SkillTable.getInstance().getInfo(679, 1), false);
+		getPlayer().addSkill(SkillTable.getInstance().getInfo(798, 1), false);
 
-		getPlayer().setTransformAllowedSkills(new int[]{619,5491});
+		getPlayer().setTransformAllowedSkills(new int[]{619,5491,676,677,678,679,798});
 	}
 
 	public void onUntransform()
@@ -53,6 +58,12 @@ public class DivineWarrior extends L2Transformation
 		getPlayer().removeSkill(SkillTable.getInstance().getInfo(619, 1), false, false);
 		// Decrease Bow/Crossbow Attack Speed
 		getPlayer().removeSkill(SkillTable.getInstance().getInfo(5491, 1), false, false);
+		getPlayer().removeSkill(SkillTable.getInstance().getInfo(675, 1), false, false);
+		getPlayer().removeSkill(SkillTable.getInstance().getInfo(676, 1), false, false);
+		getPlayer().removeSkill(SkillTable.getInstance().getInfo(677, 1), false, false);
+		getPlayer().removeSkill(SkillTable.getInstance().getInfo(678, 1), false, false);
+		getPlayer().removeSkill(SkillTable.getInstance().getInfo(679, 1), false, false);
+		getPlayer().removeSkill(SkillTable.getInstance().getInfo(798, 1), false, false);
 
 		getPlayer().setTransformAllowedSkills(new int[]{});
 	}

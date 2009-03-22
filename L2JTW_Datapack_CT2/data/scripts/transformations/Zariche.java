@@ -21,7 +21,7 @@ public class Zariche extends L2Transformation
     public void onTransform()
     {
         // Set charachter name to transformed name
-    	getPlayer().getAppearance().setVisibleName("Zariche");
+    	getPlayer().getAppearance().setVisibleName("Å]¼C¡EÂÄ¹p©_");
     	getPlayer().getAppearance().setVisibleTitle("");
 
     }

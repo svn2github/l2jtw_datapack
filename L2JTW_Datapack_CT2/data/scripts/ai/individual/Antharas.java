@@ -42,6 +42,7 @@ import net.sf.l2j.gameserver.model.L2Summon;
 import net.sf.l2j.gameserver.model.actor.instance.L2DecoyInstance;
 import net.sf.l2j.gameserver.model.quest.QuestTimer;
 import net.sf.l2j.gameserver.util.Util;
+import net.sf.l2j.gameserver.network.serverpackets.MoveToPawn;
 import net.sf.l2j.gameserver.model.L2Attackable;
 import java.util.List;
 
@@ -452,7 +453,16 @@ public class Antharas extends L2AttackableAIScript
 			npc.setIsCastingNow(true);
 			_target = null;
 			_skill = null;
-			npc.doCast(skill);
+			if (getDist(skill.getCastRange()) > 0)
+				npc.broadcastPacket(new MoveToPawn(npc,target,getDist(skill.getCastRange())));
+			try
+			{
+				Thread.sleep(1000);
+				npc.stopMove(null);
+				npc.doCast(skill);
+			}
+			catch (Exception e)
+			{e.printStackTrace();}
 		}
 		else
 		{
@@ -549,6 +559,23 @@ public class Antharas extends L2AttackableAIScript
 		}
 		npc.setTarget(caster);
 		return super.onSkillSee(npc, caster, skill, targets, isPet);
+	}
+
+	public int getDist(int range)
+	{
+		int dist = 0;
+		switch(range)
+		{
+			case -1:
+				break;
+			case 100:
+				dist = 85;
+				break;
+			default:
+				dist = range-85;
+				break;
+		}
+		return dist;
 	}
 
     public static void main(String[] args)
