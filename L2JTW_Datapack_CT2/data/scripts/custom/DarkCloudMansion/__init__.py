@@ -102,16 +102,20 @@ beleths = [
            [0,1,1,0,0,0,1]
           ]
 
-TEXT = ["不是他，我才是真的啦~！", \
-        "我才是真的啦~！", \
+TEXT = ["選我吧~", \
         "找找我吧~", \
+        "我才是真的啦~！", \
+        "就相信我一次吧~", \
         "連那個都找不出來啊~？", \
-        "這麼簡單都找不出來啊~？", \
-        "隔壁的是假的啦~！", \
-        "等到快睡著了~！", \
-        "選我就對了~", \
-        "猜錯啦~", \
-        "被騙了吧~"] # Update by rocknow
+        "不是他，我才是真的啦~！", \
+        "我才是真的啦~ 唉喲~~！！", \
+        "別受騙，別受騙，我才是真的~！", \
+        "連那個都找不出來啊~？果真是個人材...", \
+        "被騙了吧~", \
+        "對不起.. 我是假的啦~", \
+        "做得真好~", \
+        "噢呼~ 真有眼光耶！", \
+        "哇塞~！怎麼會知道是我啊？"] # Update by rocknow
 
 class PyObject :
   pass
@@ -377,7 +381,7 @@ def runFifthRoom(self, world, player) :
     newNpc = self.addSpawn(BS[idx], x, 182145, -6117, 48810, False, 0, False,world.instanceId)
     world.FifthRoom.npclist.append([newNpc, idx, temp[idx]])
     if temp[idx] == 1 and Rnd.get(100) < 50:
-      newNpc.broadcastPacket(NpcSay(newNpc.getObjectId(),0,newNpc.getNpcId(),TEXT[Rnd.get(7)]))
+      newNpc.broadcastPacket(NpcSay(newNpc.getObjectId(),0,newNpc.getNpcId(),TEXT[Rnd.get(8)]))
     idx += 1
   if debug : print "DarkCloudMansion: spawned fifth room"
   if debug : print str(world.FifthRoom.npclist)
@@ -400,11 +404,13 @@ def checkBelethSample(self, world, npc, player, BS) :
     if mob[0] == npc :
       if mob[2] == 0 :
         world.foundBeleth = 0
+        npc.broadcastPacket(NpcSay(npc.getObjectId(),0,npc.getNpcId(),TEXT[Rnd.get(9,10)]))
         for mob in world.FifthRoom.npclist :
           if mob[0] != npc :
             mob[0].decayMe()
       else :
         world.foundBeleth += 1
+        npc.broadcastPacket(NpcSay(npc.getObjectId(),0,npc.getNpcId(),TEXT[Rnd.get(11,13)]))
 
 def checkKillProgress(npc, room) :
   cont = True
@@ -558,7 +564,6 @@ class DarkCloudMansion(JQuest) :
               if debug : print "DarkCloudMansion: spawn room 4 guard"
               newNpc = self.addSpawn(BM[Rnd.get(len(BM))], player.getX(), player.getY(), player.getZ(), 0, False, 0, False, world.instanceId)
       if world.status == 9 and not world.attacked :
-        npc.broadcastPacket(NpcSay(npc.getObjectId(),0,npc.getNpcId(),TEXT[Rnd.get(8,9)]))
         checkBelethSample(self, world, npc, player, BS)
 
   def onFirstTalk(self, npc, player) :
