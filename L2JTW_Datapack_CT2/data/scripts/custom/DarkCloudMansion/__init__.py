@@ -7,9 +7,9 @@ from net.sf.l2j.gameserver.model.quest            import State
 from net.sf.l2j.gameserver.model.quest            import QuestState
 from net.sf.l2j.gameserver.model.quest.jython     import QuestJython as JQuest
 from net.sf.l2j.gameserver.network                import SystemMessageId
-from net.sf.l2j.gameserver.network.serverpackets  import CreatureSay
 from net.sf.l2j.gameserver.network.serverpackets  import InventoryUpdate
 from net.sf.l2j.gameserver.network.serverpackets  import MagicSkillUse
+from net.sf.l2j.gameserver.network.serverpackets  import NpcSay
 from net.sf.l2j.gameserver.network.serverpackets  import SystemMessage
 from net.sf.l2j.util                              import Rnd
 
@@ -101,6 +101,17 @@ beleths = [
            [1,0,1,0,0,1,0],
            [0,1,1,0,0,0,1]
           ]
+
+TEXT = ["不是他，我才是真的啦~！", \
+        "我才是真的啦~！", \
+        "找找我吧~", \
+        "連那個都找不出來啊~？", \
+        "這麼簡單都找不出來啊~？", \
+        "隔壁的是假的啦~！", \
+        "等到快睡著了~！", \
+        "選我就對了~", \
+        "猜錯啦~", \
+        "被騙了吧~"] # Update by rocknow
 
 class PyObject :
   pass
@@ -252,8 +263,8 @@ def runFirstRoom(self, world) :
   if debug : print "DarkCloudMansion: spawned first room"
 
 def runHall2(self, world) :
-  newNpc = self.addSpawn(SOFaith, 147818, 179643, -6117, 0, False, 0, False, world.instanceId)
   world.status = 3
+  newNpc = self.addSpawn(SOFaith, 147808, 179619, -6121, 0, False, 0, False, world.instanceId)
   spawnHall(self, world)
 
 def runSecondRoom(self, world) :
@@ -366,7 +377,7 @@ def runFifthRoom(self, world, player) :
     newNpc = self.addSpawn(BS[idx], x, 182145, -6117, 48810, False, 0, False,world.instanceId)
     world.FifthRoom.npclist.append([newNpc, idx, temp[idx]])
     if temp[idx] == 1 and Rnd.get(100) < 50:
-      player.sendPacket(CreatureSay(newNpc.getObjectId(), 0, newNpc.getName(), "你永遠無法通過測試！"))
+      newNpc.broadcastPacket(NpcSay(newNpc.getObjectId(),0,newNpc.getNpcId(),TEXT[Rnd.get(7)]))
     idx += 1
   if debug : print "DarkCloudMansion: spawned fifth room"
   if debug : print str(world.FifthRoom.npclist)
@@ -376,7 +387,7 @@ def checkBelethSampleProgress(self, world, npc, player, BS) :
   idx = 0
   if world.foundBeleth == 3 :
     for mob in world.FifthRoom.npclist :
-      mob[0].decayMe()
+      mob[0].deleteMe()
     endInstance(self, world)
   else :
     for mob in world.FifthRoom.npclist :
@@ -547,6 +558,7 @@ class DarkCloudMansion(JQuest) :
               if debug : print "DarkCloudMansion: spawn room 4 guard"
               newNpc = self.addSpawn(BM[Rnd.get(len(BM))], player.getX(), player.getY(), player.getZ(), 0, False, 0, False, world.instanceId)
       if world.status == 9 and not world.attacked :
+        npc.broadcastPacket(NpcSay(npc.getObjectId(),0,npc.getNpcId(),TEXT[Rnd.get(8,9)]))
         checkBelethSample(self, world, npc, player, BS)
 
   def onFirstTalk(self, npc, player) :
