@@ -1,34 +1,104 @@
 <?xml version='1.0' encoding='utf-8'?>
 <list>
 <skill id="1500" levels="1" name="Improve Magic">
-  <set name="target" val="TARGET_NONE"/>
-  <set name="skillType" val="NOTDONE"/>
-  <set name="operateType" val="OP_PASSIVE"/>
-  <set name="castRange" val="-1"/>
+  <set name="mpConsume" val="28"/>
+  <set name="target" val="TARGET_ONE"/>
+  <set name="skillType" val="BUFF"/>
+  <set name="reuseDelay" val="6000"/>
+  <set name="hitTime" val="1500"/>
+  <set name="isMagic" val="true"/>
+  <set name="operateType" val="OP_ACTIVE"/>
+  <set name="castRange" val="400"/>
+  <set name="effectRange" val="900"/>
+  <set name="aggroPoints" val="655"/>
+  <for>
+    <effect count="1" name="Buff" time="2400" val="0" stackOrder="99" stackType="ma_up">
+      <mul order="0x30" stat="mAtk" val="1.75"/>
+    </effect>
+    <effect count="1" name="Debuff" time="2400" val="0" stackOrder="99" stackType="MagicDefUp" noicon="1"> <!-- temp fix (debuff type) to have working stack -->
+      <mul order="0x30" stat="mDef" val="1.3"/>
+    </effect>
+  </for>
 </skill>
 <skill id="1501" levels="1" name="Improve Condition">
-  <set name="target" val="TARGET_NONE"/>
-  <set name="skillType" val="NOTDONE"/>
-  <set name="operateType" val="OP_PASSIVE"/>
-  <set name="castRange" val="-1"/>
+  <set name="mpConsume" val="28"/>
+  <set name="target" val="TARGET_ONE"/>
+  <set name="skillType" val="BUFF"/>
+  <set name="reuseDelay" val="6000"/>
+  <set name="hitTime" val="1500"/>
+  <set name="isMagic" val="true"/>
+  <set name="operateType" val="OP_ACTIVE"/>
+  <set name="castRange" val="400"/>
+  <set name="effectRange" val="900"/>
+  <set name="aggroPoints" val="655"/>
+  <for>
+    <effect count="1" name="Buff" time="2400" val="0" stackOrder="99" stackType="max_hp_up">
+      <mul order="0x30" stat="maxHp" val="1.35"/>
+    </effect>
+    <effect count="1" name="Debuff" time="2400" val="0" stackOrder="99" stackType="max_mp_up" noicon="1"> <!-- temp fix (debuff type) to have working stack -->
+      <mul order="0x30" stat="maxMp" val="1.35"/>
+    </effect>
+  </for>
 </skill>
 <skill id="1502" levels="1" name="Improve Critical Attack">
-  <set name="target" val="TARGET_NONE"/>
-  <set name="skillType" val="NOTDONE"/>
-  <set name="operateType" val="OP_PASSIVE"/>
-  <set name="castRange" val="-1"/>
+  <set name="mpConsume" val="28"/>
+  <set name="target" val="TARGET_ONE"/>
+  <set name="skillType" val="BUFF"/>
+  <set name="reuseDelay" val="6000"/>
+  <set name="hitTime" val="1500"/>
+  <set name="isMagic" val="true"/>
+  <set name="operateType" val="OP_ACTIVE"/>
+  <set name="castRange" val="400"/>
+  <set name="effectRange" val="900"/>
+  <set name="aggroPoints" val="655"/>
+  <for>
+    <effect count="1" name="Buff" time="2400" val="0" stackOrder="99" stackType="critical_prob_up">
+      <basemul order="0x30" stat="rCrit" val="0.3"/>
+    </effect>
+    <effect count="1" name="Debuff" time="2400" val="0" stackOrder="99" stackType="critical_dmg_up" noicon="1"> <!-- temp fix (debuff type) to have working stack -->
+      <mul order="0x30" stat="cAtk" val="1.35"/>
+    </effect>
+  </for>
 </skill>
 <skill id="1503" levels="1" name="Improve Shield Defense">
-  <set name="target" val="TARGET_NONE"/>
-  <set name="skillType" val="NOTDONE"/>
-  <set name="operateType" val="OP_PASSIVE"/>
-  <set name="castRange" val="-1"/>
+  <set name="mpConsume" val="27"/>
+  <set name="target" val="TARGET_ONE"/>
+  <set name="skillType" val="BUFF"/>
+  <set name="reuseDelay" val="6000"/>
+  <set name="hitTime" val="1500"/>
+  <set name="isMagic" val="true"/>
+  <set name="operateType" val="OP_ACTIVE"/>
+  <set name="castRange" val="400"/>
+  <set name="effectRange" val="900"/>
+  <set name="aggroPoints" val="655"/>
+  <for>
+    <effect count="1" name="Buff" time="2400" val="0" stackOrder="99" stackType="shieldProbUp">
+      <mul order="0x30" stat="rShld" val="1.8"/>
+    </effect>
+    <effect count="1" name="Debuff" time="2400" val="0" stackOrder="99" stackType="sdef_up" noicon="1"> <!-- temp fix (debuff type) to have working stack -->
+      <mul order="0x30" stat="sDef" val="2"/>
+    </effect>
+  </for>
 </skill>
 <skill id="1504" levels="1" name="Improve Movement">
-  <set name="target" val="TARGET_NONE"/>
-  <set name="skillType" val="NOTDONE"/>
-  <set name="operateType" val="OP_PASSIVE"/>
-  <set name="castRange" val="-1"/>
+  <set name="mpConsume" val="28"/>
+  <set name="target" val="TARGET_ONE"/>
+  <set name="skillType" val="BUFF"/>
+  <set name="reuseDelay" val="6000"/>
+  <set name="hitTime" val="1500"/>
+  <set name="isMagic" val="true"/>
+  <set name="operateType" val="OP_ACTIVE"/>
+  <set name="castRange" val="400"/>
+  <set name="effectRange" val="900"/>
+  <set name="aggroPoints" val="655"/>
+  <for>
+    <effect count="1" name="Buff" time="2400" val="0" stackOrder="99" stackType="speed_up">
+       <add order="0x40" stat="runSpd" val="33"/>
+    </effect>
+    <effect count="1" name="Debuff" time="2400" val="0" stackOrder="99" stackType="rEvas" noicon="1"> <!-- temp fix (debuff type) to have working stack -->
+      <add order="0x40" stat="rEvas" val="4"/>
+    </effect>
+  </for>
 </skill>
 <skill id="1505" levels="1" name="Sublime Self-Sacrifice">
   <set name="target" val="TARGET_NONE"/>
@@ -61,6 +131,7 @@
   <set name="castRange" val="-1"/>
 </skill>
 <skill id="1510" levels="1" name="Soul Cleanse">
+  <!-- CT2.2 retail confirmed -->
   <set name="mpInitialConsume" val="10"/>
   <set name="mpConsume" val="22"/>
   <set name="hitTime" val="2000"/>
@@ -78,10 +149,24 @@
   </cond>
 </skill>
 <skill id="1511" levels="8" name="Curse of Life Flow">
-  <set name="target" val="TARGET_NONE"/>
-  <set name="skillType" val="NOTDONE"/>
-  <set name="operateType" val="OP_PASSIVE"/>
-  <set name="castRange" val="-1"/>
+  <!-- CT2.2 retail partially confirmed -->
+  <table name="#mpConsume"> 34 35 37 38 39 39 40 42 </table>
+  <set name="mpConsume" val="#mpConsume"/>
+  <set name="hitTime" val="3000"/>
+  <set name="coolTime" val="200"/>
+  <set name="reuseDelay" val="60000"/>
+  <set name="power" val="80"/>
+  <set name="target" val="TARGET_ONE"/>
+  <set name="skillType" val="DEBUFF"/>
+  <set name="operateType" val="OP_ACTIVE"/>
+  <set name="castRange" val="600"/>
+  <set name="effectRange" val="1200"/>
+  <set name="isMagic" val="true"/>
+  <for>
+    <effect count="25" name="Debuff" time="1" val="0" abnormal="poison" stackOrder="8" stackType="poison">
+       <!-- effect values yet unknown -->
+    </effect>
+  </for>
 </skill>
   <skill id="1512" levels="1" name="Soul Vortex">
   <!-- Done By Akira35 -->
@@ -179,22 +264,67 @@
   <set name="target" val="TARGET_ONE"/>
 </skill>
 <skill id="1517" levels="1" name="Chant of Combat">
-  <set name="target" val="TARGET_NONE"/>
-  <set name="skillType" val="NOTDONE"/>
-  <set name="operateType" val="OP_PASSIVE"/>
-  <set name="castRange" val="-1"/>
+  <set name="mpConsume" val="65"/>
+  <set name="target" val="TARGET_PARTY"/>
+  <set name="skillType" val="BUFF"/>
+  <set name="skillRadius" val="1000"/>
+  <set name="reuseDelay" val="20000"/>
+  <set name="hitTime" val="1500"/>
+  <set name="isMagic" val="true"/>
+  <set name="operateType" val="OP_ACTIVE"/>
+  <set name="castRange" val="400"/>
+  <set name="effectRange" val="900"/>
+  <set name="aggroPoints" val="655"/>
+  <for>
+    <effect count="1" name="Buff" time="2400" val="0" stackOrder="99" stackType="pa_up">
+      <mul order="0x30" stat="pAtk" val="1.15"/>
+    </effect>
+    <effect count="1" name="Debuff" time="2400" val="0" stackOrder="99" stackType="pd_up" noicon="1"> <!-- temp fix (debuff type) to have working stack -->
+      <mul order="0x30" stat="pDef" val="1.15"/>
+    </effect>
+  </for>
 </skill>
 <skill id="1518" levels="1" name="Chant of Critical">
-  <set name="target" val="TARGET_NONE"/>
-  <set name="skillType" val="NOTDONE"/>
-  <set name="operateType" val="OP_PASSIVE"/>
+  <set name="mpConsume" val="67"/>
+  <set name="target" val="TARGET_PARTY"/>
+  <set name="skillType" val="BUFF"/>
+  <set name="skillRadius" val="1000"/>
+  <set name="reuseDelay" val="20000"/>
+  <set name="hitTime" val="1500"/>
+  <set name="isMagic" val="true"/>
+  <set name="operateType" val="OP_ACTIVE"/>
   <set name="castRange" val="-1"/>
+  <set name="effectRange" val="-1"/>
+  <set name="aggroPoints" val="655"/>
+  <for>
+    <effect count="1" name="Buff" time="2400" val="0" stackOrder="99" stackType="critical_prob_up">
+      <basemul order="0x30" stat="rCrit" val="0.3"/>
+    </effect>
+    <effect count="1" name="Debuff" time="2400" val="0" stackOrder="99" stackType="critical_dmg_up" noicon="1"> <!-- temp fix (debuff type) to have working stack -->
+      <mul order="0x30" stat="cAtk" val="1.35"/>
+    </effect>
+  </for>
 </skill>
 <skill id="1519" levels="1" name="Chant of Blood Awakening">
-  <set name="target" val="TARGET_NONE"/>
-  <set name="skillType" val="NOTDONE"/>
-  <set name="operateType" val="OP_PASSIVE"/>
+  <set name="mpConsume" val="69"/>
+  <set name="target" val="TARGET_PARTY"/>
+  <set name="skillType" val="BUFF"/>
+  <set name="skillRadius" val="1000"/>
+  <set name="reuseDelay" val="20000"/>
+  <set name="hitTime" val="1500"/>
+  <set name="isMagic" val="true"/>
+  <set name="operateType" val="OP_ACTIVE"/>
   <set name="castRange" val="-1"/>
+  <set name="effectRange" val="-1"/>
+  <set name="aggroPoints" val="655"/>
+  <for>
+    <effect count="1" name="Buff" time="2400" val="0" stackOrder="99" stackType="vampRage">
+       <add order="0x40" stat="absorbDam" val="9"/>
+    </effect>
+    <effect count="1" name="Debuff" time="2400" val="0" stackOrder="99" stackType="attack_time_down" noicon="1"> <!-- temp fix (debuff type) to have working stack -->
+      <mul order="0x30" stat="pAtkSpd" val="1.33"/>
+    </effect>
+  </for>
 </skill>
 <skill id="1520" levels="1" name="Inquisitor">
   <set name="mpConsume" val="31"/>
@@ -351,10 +481,24 @@
   <set name="effectRange" val="1000"/>
 </skill>
 <skill id="1529" levels="7" name="Soul Web">
-  <set name="target" val="TARGET_NONE"/>
-  <set name="skillType" val="NOTDONE"/>
-  <set name="operateType" val="OP_PASSIVE"/>
-  <set name="castRange" val="-1"/>
+  <!-- CT2.2 retail confirmed -->
+  <table name="#mpConsume"> 52 60 62 64 65 67 69 </table>
+  <set name="mpConsume" val="#mpConsume"/>
+  <set name="hitTime" val="2500"/>
+  <set name="coolTime" val="200"/>
+  <set name="reuseDelay" val="60000"/>
+  <set name="power" val="80"/>
+  <set name="target" val="TARGET_ONE"/>
+  <set name="skillType" val="DEBUFF"/>
+  <set name="operateType" val="OP_ACTIVE"/>
+  <set name="castRange" val="600"/>
+  <set name="effectRange" val="1200"/>
+  <set name="isMagic" val="true"/>
+  <for>
+    <effect name="Debuff" time="55" count="1" val="0" stackOrder="0.7" stackType="RunSpeedDown">
+      <mul order="0x30" stat="runSpd" val="0.7"/>
+    </effect>
+  </for>
 </skill>
 <skill id="1530" levels="13" name="Death Spike">
   <table name="#mpConsume_Init"> 4 5 6 7 7 7 8 8 8 9 9 9 10 </table>

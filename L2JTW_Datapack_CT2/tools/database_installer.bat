@@ -501,7 +501,7 @@ armorsets.sql
 auction.sql
 auction_bid.sql
 auction_watch.sql
-autoannouncements.sql
+auto_announcements.sql
 auto_chat.sql
 auto_chat_text.sql
 castle.sql
@@ -575,6 +575,7 @@ npcskills.sql
 olympiad_nobles.sql
 olympiad_nobles_eom.sql
 pets.sql
+pets_skills.sql
 pets_stats.sql
 pledge_skill_trees.sql
 posts.sql

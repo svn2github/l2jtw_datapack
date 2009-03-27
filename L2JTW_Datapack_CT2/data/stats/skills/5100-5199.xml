@@ -169,18 +169,38 @@
     <effect count="1" name="Root" time="30" val="0" stackOrder="1" stackType="Root"/>
   </for>
 </skill>
-<skill id="5117" levels="1" name="Stun">
-  <!-- Temporarily Immobilized and in a state of shock. -->
-  <set name="target" val="TARGET_NONE"/>
-  <set name="skillType" val="NOTDONE"/>
-  <set name="operateType" val="OP_PASSIVE"/>
-  <set name="castRange" val="-1"/>
+<skill id="5117" levels="12" name="Stun">
+  <!-- Update by rocknow -->
+  <set name="mpConsume" val="84"/>
+  <set name="power" val="23"/>
+  <set name="hitTime" val="2500"/>
+  <set name="reuseDelay" val="13000"/>
+  <set name="target" val="TARGET_ONE"/>
+  <set name="skillType" val="PDAM"/>
+  <set name="operateType" val="OP_ACTIVE"/>
+  <set name="castRange" val="40"/>
+  <set name="effectType" val="STUN"/>
+  <for>
+    <effect count="1" name="Stun" time="9" val="0"/>
+  </for>
 </skill>
 <skill id="5118" levels="1" name="Cancel Sailren Use">
-  <set name="target" val="TARGET_NONE"/>
-  <set name="skillType" val="NOTDONE"/>
-  <set name="operateType" val="OP_PASSIVE"/>
-  <set name="castRange" val="-1"/>
+  <!-- Update by rocknow -->
+  <set name="mpInitialConsume" val="14"/>
+  <set name="mpConsume" val="55"/>
+  <set name="magicLvl" val="74"/>
+  <set name="power" val="25"/>
+  <set name="target" val="TARGET_ONE"/>
+  <set name="hitTime" val="15000"/>
+  <set name="reuseDelay" val="120000"/>
+  <set name="skillType" val="CANCEL"/>
+  <set name="isMagic" val="true"/>
+  <set name="operateType" val="OP_ACTIVE"/>
+  <set name="skill_landing_percent" val="85"/>
+  <set name="castRange" val="600"/>
+  <set name="effectRange" val="1100"/>
+  <set name="negateStats" val="BUFF HEAL_PERCENT"/>
+  <set name="maxNegated" val="10"/>
 </skill>
 <skill id="5119" levels="1" name="Bleed">
   <set name="target" val="TARGET_NONE"/>
@@ -218,10 +238,21 @@
   <set name="effectRange" val="-1"/>
 </skill>
 <skill id="5122" levels="1" name="Sailren Use Might">
-  <set name="target" val="TARGET_NONE"/>
-  <set name="skillType" val="NOTDONE"/>
-  <set name="operateType" val="OP_PASSIVE"/>
+  <!-- Update by rocknow -->
+  <set name="mpConsume" val="38"/>
+  <set name="target" val="TARGET_SELF"/>
+  <set name="hitTime" val="2500"/>
+  <set name="reuseDelay" val="6000"/>
+  <set name="skillType" val="BUFF"/>
+  <set name="isMagic" val="true"/>
+  <set name="operateType" val="OP_ACTIVE"/>
   <set name="castRange" val="-1"/>
+  <set name="effectRange" val="-1"/>
+  <for>
+    <effect count="1" name="Buff" time="1200" val="0" stackOrder="1.15" stackType="pAtk">
+      <mul order="0x30" stat="pAtk" val="1.15"/>
+    </effect>
+  </for>
 </skill>
 <skill id="5123" levels="1" name="Maximum Defense">
   <set name="target" val="TARGET_ONE"/>
@@ -458,10 +489,15 @@
   <set name="effectRange" val="900"/>
 </skill>
 <skill id="5143" levels="1" name="Sailren Use Blow">
-  <set name="target" val="TARGET_NONE"/>
-  <set name="skillType" val="NOTDONE"/>
-  <set name="operateType" val="OP_PASSIVE"/>
-  <set name="castRange" val="-1"/>
+  <!-- Update by rocknow -->
+  <set name="power" val="38371"/>
+  <set name="mpConsume" val="84"/>
+  <set name="hitTime" val="2500"/>
+  <set name="reuseDelay" val="20000"/>
+  <set name="target" val="TARGET_ONE"/>
+  <set name="skillType" val="PDAM"/>
+  <set name="operateType" val="OP_ACTIVE"/>
+  <set name="castRange" val="40"/>
 </skill>
 <skill id="5144" levels="1" name="Mirage">
   <!-- Needs to be verified -->

@@ -1,17 +1,19 @@
+
 -- ----------------------------
--- Table structure for autoannouncements
+-- Table structure for auto_announcements
 -- ----------------------------
 DROP TABLE IF EXISTS `autoannouncements`;
-CREATE TABLE `autoannouncements` (
-  `id` int(11) NOT NULL,
-  `initial` bigint(20) NOT NULL,
-  `delay` bigint(20) NOT NULL,
-  `cycle` int(11) NOT NULL,
-  `memo` text DEFAULT NULL,
+DROP TABLE IF EXISTS `auto_announcements`;
+CREATE TABLE `auto_announcements` (
+  `id` INT(11) NOT NULL,
+  `initial` BIGINT(20) NOT NULL,
+  `delay` BIGINT(20) NOT NULL,
+  `cycle` INT(11) NOT NULL,
+  `memo` TEXT DEFAULT NULL,
   PRIMARY KEY (`id`)
 ) DEFAULT CHARSET=utf8;
 
-INSERT INTO `autoannouncements` VALUES
+INSERT INTO `auto_announcements` VALUES
 (1,900,9000,0,'突然變成無法移動的狀態時，請先點選畫面左上角自己的名字或血條，再按鍵盤的「Esc」取消目標。'),
 (2,1800,9000,0,'掉入地獄或是卡點的的玩家，請輸入「/脫逃」的自救指令 - 需5分鐘。'),
 (3,2700,9000,0,'叫喊買賣時，請至交易頻道發言，勿使用一般頻道影響他人。'),

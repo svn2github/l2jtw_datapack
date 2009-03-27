@@ -262,7 +262,7 @@ $MYG < ../sql/armorsets.sql &> /dev/null
 $MYG < ../sql/auction.sql &> /dev/null
 $MYG < ../sql/auction_bid.sql &> /dev/null
 $MYG < ../sql/auction_watch.sql &> /dev/null
-$MYG < ../sql/autoannouncements.sql &> /dev/null
+$MYG < ../sql/auto_announcements.sql &> /dev/null
 $MYG < ../sql/auto_chat.sql &> /dev/null
 $MYG < ../sql/auto_chat_text.sql &> /dev/null
 $MYG < ../sql/castle.sql &> /dev/null
@@ -336,6 +336,7 @@ $MYG < ../sql/npcskills.sql &> /dev/null
 $MYG < ../sql/olympiad_nobles.sql&> /dev/null
 $MYG < ../sql/olympiad_nobles_eom.sql&> /dev/null
 $MYG < ../sql/pets.sql &> /dev/null
+$MYG < ../sql/pets_skills.sql &> /dev/null
 $MYG < ../sql/pets_stats.sql &> /dev/null
 $MYG < ../sql/pledge_skill_trees.sql &> /dev/null
 $MYG < ../sql/posts.sql &> /dev/null
