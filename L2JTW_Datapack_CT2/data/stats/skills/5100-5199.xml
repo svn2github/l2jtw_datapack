@@ -190,17 +190,15 @@
   <set name="mpConsume" val="55"/>
   <set name="magicLvl" val="74"/>
   <set name="power" val="25"/>
+  <set name="reuseDelay" val="3000"/>
   <set name="target" val="TARGET_ONE"/>
-  <set name="hitTime" val="15000"/>
-  <set name="reuseDelay" val="120000"/>
-  <set name="skillType" val="CANCEL"/>
+  <set name="skillType" val="NEGATE"/>
   <set name="isMagic" val="true"/>
   <set name="operateType" val="OP_ACTIVE"/>
   <set name="skill_landing_percent" val="85"/>
   <set name="castRange" val="600"/>
   <set name="effectRange" val="1100"/>
-  <set name="negateStats" val="BUFF HEAL_PERCENT"/>
-  <set name="maxNegated" val="10"/>
+  <set name="negateStats" val="BUFF DEBUFF"/>
 </skill>
 <skill id="5119" levels="1" name="Bleed">
   <set name="target" val="TARGET_NONE"/>
