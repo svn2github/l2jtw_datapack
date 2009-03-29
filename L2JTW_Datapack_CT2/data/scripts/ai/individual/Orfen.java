@@ -34,6 +34,7 @@ import net.sf.l2j.gameserver.network.serverpackets.PlaySound;
 import net.sf.l2j.gameserver.templates.StatsSet;
 import net.sf.l2j.util.Rnd;
 import ai.group_template.L2AttackableAIScript;
+import net.sf.l2j.ExternalConfig;
 
 /**
  * Orfen AI
@@ -240,7 +241,7 @@ public class Orfen extends L2AttackableAIScript
             L2Character originalCaster = isPet? caster.getPet(): caster;
             if (skill.getAggroPoints() > 0 && Rnd.get(5) == 0 && npc.isInsideRadius(originalCaster,1000,false,false))
             {
-                npc.broadcastPacket(new NpcSay(npc.getObjectId(),0,npc.getNpcId(),Text[Rnd.get(4)].replace("PLAYERNAME",caster.getName().toString())));
+                npc.broadcastPacket(new NpcSay(npc.getObjectId(),0,npc.getNpcId(),Text[Rnd.get(3)].replace("PLAYERNAME",caster.getName().toString())));
                 originalCaster.teleToLocation(npc.getX(),npc.getY(),npc.getZ());
                 npc.setTarget(originalCaster);
                 npc.doCast(SkillTable.getInstance().getInfo(4064,1));
@@ -292,6 +293,10 @@ public class Orfen extends L2AttackableAIScript
                 npc.setTarget(attacker);
                 npc.doCast(SkillTable.getInstance().getInfo(4064,1));
             }
+            else if (npc.isInsideRadius(attacker,300,false,false) && Rnd.get(10) == 0)
+            {
+                npc.broadcastPacket(new NpcSay(npc.getObjectId(),0,npcId,Text[Rnd.get(3)].replace("PLAYERNAME",attacker.getName().toString())));
+            }
         }
         else if (npcId == RIBA_IREN)
         {
@@ -311,7 +316,7 @@ public class Orfen extends L2AttackableAIScript
             npc.broadcastPacket(new PlaySound(1, "BS02_D", 1, npc.getObjectId(), npc.getX(), npc.getY(), npc.getZ()));
             GrandBossManager.getInstance().setBossStatus(ORFEN,DEAD);
             //time is 48hour	+/- 20hour
-            long respawnTime = (28 + Rnd.get(41) * 3600000);
+            long respawnTime = (ExternalConfig.Interval_Of_Orfen_Spawn + Rnd.get(ExternalConfig.Random_Of_Orfen_Spawn));
             this.startQuestTimer("orfen_unlock", respawnTime, null, null);
             // also save the respawn time so that the info is maintained past reboots
             StatsSet info = GrandBossManager.getInstance().getStatsSet(ORFEN);

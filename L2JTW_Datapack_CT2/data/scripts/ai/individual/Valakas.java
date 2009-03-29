@@ -43,6 +43,7 @@ import net.sf.l2j.gameserver.templates.StatsSet;
 import net.sf.l2j.gameserver.util.Util;
 import net.sf.l2j.util.Rnd;
 import net.sf.l2j.gameserver.GeoData;
+import net.sf.l2j.ExternalConfig;
 
 /**
  * Valakas AI
@@ -157,7 +158,7 @@ public class Valakas extends L2AttackableAIScript
             if (status == WAITING)
             {
                 // Start timer to lock entry after 30 minutes
-                startQuestTimer("1001",600000, valakas, null);
+                startQuestTimer("1001",ExternalConfig.Valakas_Wait_Time, valakas, null);
             }
             else if (status == FIGHTING)
             {
@@ -995,7 +996,7 @@ public class Valakas extends L2AttackableAIScript
         npc.broadcastPacket(new PlaySound(1, "B03_D", 1, npc.getObjectId(), npc.getX(), npc.getY(), npc.getZ()));
         // uncoment me once animations available 
         //GrandBossManager.getInstance().setBossStatus(VALAKAS,DEAD);
-        long respawnTime = ((192 + Rnd.get(145) ) * 3600000);
+        long respawnTime = (ExternalConfig.Interval_Of_Valakas_Spawn + Rnd.get(ExternalConfig.Random_Of_Valakas_Spawn));
         this.startQuestTimer("valakas_unlock", respawnTime, null, null);
         // also save the respawn time so that the info is maintained past reboots
         StatsSet info = GrandBossManager.getInstance().getStatsSet(VALAKAS);

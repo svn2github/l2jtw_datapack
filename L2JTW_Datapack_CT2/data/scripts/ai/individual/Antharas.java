@@ -45,6 +45,7 @@ import net.sf.l2j.gameserver.util.Util;
 import net.sf.l2j.gameserver.network.serverpackets.MoveToPawn;
 import net.sf.l2j.gameserver.model.L2Attackable;
 import java.util.List;
+import net.sf.l2j.ExternalConfig;
 
 /**
  * Antharas AI
@@ -116,7 +117,7 @@ public class Antharas extends L2AttackableAIScript
             if (status == WAITING)
             {
                 // Start timer to lock entry after 30 minutes
-                this.startQuestTimer("waiting",600000, antharas, null);
+                this.startQuestTimer("waiting",ExternalConfig.Antharas_Wait_Time, antharas, null);
             }
             else if (status == FIGHTING)
             {
@@ -374,7 +375,7 @@ public class Antharas extends L2AttackableAIScript
         npc.broadcastPacket(new PlaySound(1, "BS01_D", 1, npc.getObjectId(), npc.getX(), npc.getY(), npc.getZ()));
         this.startQuestTimer("spawn_cubes", 10000, npc, null);
         GrandBossManager.getInstance().setBossStatus(ANTHARAS,DEAD);
-        long respawnTime = ((192 + Rnd.get(145) ) * 3600000);
+        long respawnTime = (ExternalConfig.Interval_Of_Antharas_Spawn + Rnd.get(ExternalConfig.Random_Of_Antharas_Spawn));
         this.startQuestTimer("antharas_unlock", respawnTime, null, null);
         // also save the respawn time so that the info is maintained past reboots
         StatsSet info = GrandBossManager.getInstance().getStatsSet(ANTHARAS);
