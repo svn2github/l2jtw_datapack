@@ -1696,9 +1696,9 @@ INSERT INTO `messagetable` VALUES ('559', 'cn', '无法在骑乘状态捡取东�
 INSERT INTO `messagetable` VALUES ('560', 'en', 'You may not resurrect participants in a festival.', null);
 INSERT INTO `messagetable` VALUES ('560', 'tw', '無法在黑暗的祭典使用。', null);
 INSERT INTO `messagetable` VALUES ('560', 'cn', '无法在黑暗的祭典使用。', null);
-INSERT INTO `messagetable` VALUES ('561', 'en', '', null);
-INSERT INTO `messagetable` VALUES ('561', 'tw', '', null);
-INSERT INTO `messagetable` VALUES ('561', 'cn', '', null);
+INSERT INTO `messagetable` VALUES ('561', 'en', 'Pet Evolution', null);
+INSERT INTO `messagetable` VALUES ('561', 'tw', '寵物進化', null);
+INSERT INTO `messagetable` VALUES ('561', 'cn', '宠物进化', null);
 INSERT INTO `messagetable` VALUES ('562', 'en', 'You may not use an escape command in a Boss Zone.', null);
 INSERT INTO `messagetable` VALUES ('562', 'tw', '無法在 Boss Zone 使用「/脫逃」指令。', null);
 INSERT INTO `messagetable` VALUES ('562', 'cn', '无法在 Boss Zone 使用“/脱逃”指令。', null);
