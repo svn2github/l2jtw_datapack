@@ -561,9 +561,10 @@ REPLACE INTO `pets_stats` VALUES
 
 
 /************ 增加/修正/刪除NPC ************/
-UPDATE `npc` SET `type` = 'L2Adventurer' WHERE `id` in (32074); -- 修正古魯丁分會長的NPC類型
-UPDATE `npc` SET `type` = 'L2SepulcherNpc' WHERE `id` in (31928); -- 修正侯爵禮拜堂守門人的NPC類型
 UPDATE `npc` SET `level` = '55' WHERE `id` in (16030); -- 修正黑鬃狼的等級
+UPDATE `npc` SET `type` = 'L2VillageMaster' WHERE `id` in (32191); -- 修正漢娜琳  宗師的NPC類型
+UPDATE `npc` SET `type` = 'L2SepulcherNpc' WHERE `id` in (31928); -- 修正侯爵禮拜堂守門人的NPC類型
+UPDATE `npc` SET `type` = 'L2Adventurer' WHERE `id` in (32074); -- 修正古魯丁分會長的NPC類型
 UPDATE `npc` SET `type` = 'L2Doormen' WHERE `id` in (35440); -- 修正NPC ID:丹尼爾(根據地守門人)
 UPDATE `spawnlist` SET `npc_templateid` = '35440' WHERE `id` ='33771'; -- 修正NPC ID:丹尼爾(根據地守門人)
 UPDATE `raidboss_spawnlist` SET `loc_x` = '3776', `loc_y` = '-6768', `loc_z` = '-3253' WHERE `boss_id` =25527; -- 狩獵首領烏魯卡
