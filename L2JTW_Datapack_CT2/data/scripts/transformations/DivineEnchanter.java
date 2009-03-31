@@ -56,14 +56,14 @@ public class DivineEnchanter extends L2Transformation
 	public void removeSkills()
 	{
 		// Transfrom Dispel
-		getPlayer().removeSkill(SkillTable.getInstance().getInfo(619, 1), false, false);
+		getPlayer().removeSkill(SkillTable.getInstance().getInfo(619, 1), false);
 		// Decrease Bow/Crossbow Attack Speed
-		getPlayer().removeSkill(SkillTable.getInstance().getInfo(5491, 1), false, false);
+		getPlayer().removeSkill(SkillTable.getInstance().getInfo(5491, 1), false);
 		getPlayer().removeSkill(SkillTable.getInstance().getInfo(704, 1), false, false);
 		getPlayer().removeSkill(SkillTable.getInstance().getInfo(705, 1), false, false);
 		getPlayer().removeSkill(SkillTable.getInstance().getInfo(706, 1), false, false);
 		getPlayer().removeSkill(SkillTable.getInstance().getInfo(707, 1), false, false);
-		getPlayer().removeSkill(SkillTable.getInstance().getInfo(708, 1), false, false);
+		getPlayer().removeSkill(SkillTable.getInstance().getInfo(708, 1), false);
 		getPlayer().removeSkill(SkillTable.getInstance().getInfo(709, 1), false, false);
 
 		getPlayer().setTransformAllowedSkills(new int[]{});

@@ -105,30 +105,35 @@
   <set name="skillType" val="NOTDONE"/>
   <set name="operateType" val="OP_PASSIVE"/>
   <set name="castRange" val="-1"/>
+  <set name="hitTime" val="4000"/>
 </skill>
 <skill id="1506" levels="1" name="Blessing of Eva">
   <set name="target" val="TARGET_NONE"/>
   <set name="skillType" val="NOTDONE"/>
   <set name="operateType" val="OP_PASSIVE"/>
   <set name="castRange" val="-1"/>
+  <set name="hitTime" val="4000"/>
 </skill>
 <skill id="1507" levels="1" name="Lord of Vampire">
   <set name="target" val="TARGET_NONE"/>
   <set name="skillType" val="NOTDONE"/>
   <set name="operateType" val="OP_PASSIVE"/>
   <set name="castRange" val="-1"/>
+  <set name="hitTime" val="4000"/>
 </skill>
 <skill id="1508" levels="1" name="Throne Root">
   <set name="target" val="TARGET_NONE"/>
   <set name="skillType" val="NOTDONE"/>
   <set name="operateType" val="OP_PASSIVE"/>
   <set name="castRange" val="-1"/>
+  <set name="hitTime" val="1500"/>
 </skill>
 <skill id="1509" levels="1" name="Seal of Limit">
   <set name="target" val="TARGET_NONE"/>
   <set name="skillType" val="NOTDONE"/>
   <set name="operateType" val="OP_PASSIVE"/>
   <set name="castRange" val="-1"/>
+  <set name="hitTime" val="1500"/>
 </skill>
 <skill id="1510" levels="1" name="Soul Cleanse">
   <!-- CT2.2 retail confirmed -->
@@ -143,10 +148,9 @@
   <set name="effectRange" val="1200"/>
   <set name="isMagic" val="true"/>
   <set name="reuseDelay" val="35000"/>
-  <!-- Update by rocknow from L2Emu -->
-  <cond msg="Soul Cleanse cannot be used due to unsuitable terms.">
+  <cond msg="Usable only within the same race.">
     <target class_id_restriction="123, 124, 125, 126, 127, 128, 129, 130, 131, 132, 133, 134, 135, 136"/>
-  </cond>
+  </cond>  
 </skill>
 <skill id="1511" levels="8" name="Curse of Life Flow">
   <!-- CT2.2 retail partially confirmed -->
@@ -247,6 +251,7 @@
   <set name="skillType" val="NOTDONE"/>
   <set name="operateType" val="OP_PASSIVE"/>
   <set name="castRange" val="-1"/>
+  <set name="hitTime" val="1500"/>
 </skill>
 <skill id="1516" levels="1" name="Soul Strike">
   <!-- Done by DJ MELERIX -->
@@ -526,5 +531,6 @@
   <set name="skillType" val="NOTDONE"/>
   <set name="operateType" val="OP_PASSIVE"/>
   <set name="castRange" val="-1"/>
+  <set name="hitTime" val="5000"/>
 </skill>
 </list>

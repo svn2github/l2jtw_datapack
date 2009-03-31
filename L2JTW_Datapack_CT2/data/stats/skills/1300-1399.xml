@@ -485,6 +485,7 @@
   <set name="skillType" val="NOTDONE"/>
   <set name="operateType" val="OP_PASSIVE"/>
   <set name="castRange" val="-1"/>
+  <set name="hitTime" val="1000"/>
 </skill>
 <skill id="1327" levels="1" name="Symphony of Noblesse">
   <!--
@@ -496,6 +497,7 @@
   <set name="skillType" val="NOTDONE"/>
   <set name="operateType" val="OP_PASSIVE"/>
   <set name="castRange" val="-1"/>
+  <set name="hitTime" val="1000"/>
 </skill>
 <skill id="1328" levels="8" name="Mass Summon Storm Cubic">
   <table name="#mpConsume_Init"> 28 33 38 43 46 49 52 55 </table>
@@ -1967,17 +1969,22 @@
     <effect count="1" name="Sleep" time="15" val="0" stackOrder="1" stackType="sleep"/>
   </for>
 </skill>
-<skill id="1395" levels="10" name="Erase">
+<skill id="1395" levels="10" name="Erase" enchantLevels1="30">
   <!-- Erase Done by Scafu -->
   <table name="#mpConsume"> 52 54 55 58 60 62 64 65 67 69 </table>
   <table name="#itemConsumeCount"> 3 3 3 3 4 4 4 5 5 5 </table>
   <table name="#magicLvl"> 56 58 60 62 64 66 68 70 72 74 </table>
+  <table name="#enchantMagicLvl"> 76 76 76 77 77 77 78 78 78 79 79 79 80 80 80 81 81 81 82 82 82 82 83 83 83 84 84 85 85 85 </table>
+  <table name="#ench1MpConsume"> 66 65 65 63 62 62 61 60 58 58 57 56 55 55 53 52 52 51 50 48 48 47 46 45 45 43 42 42 41 40 </table>
+  <enchant1 name="magicLvl" val="#enchantMagicLvl"/>
+  <enchant1 name="mpConsume" val="#ench1MpConsume"/>
   <set name="mpConsume" val="#mpConsume"/>
   <set name="itemConsumeId" val="3031"/>
+  <set name="power" val="50"/>
   <set name="itemConsumeCount" val="#itemConsumeCount"/>
   <set name="magicLvl" val="#magicLvl"/>
   <!-- resuseDelay needs to be confirmed -->
-  <set name="reuseDelay" val="7000"/>
+  <set name="reuseDelay" val="31000"/>
   <set name="hitTime" val="4000"/>
   <set name="target" val="TARGET_ENEMY_SUMMON"/>
   <set name="skillType" val="ERASE"/>

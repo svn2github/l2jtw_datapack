@@ -294,6 +294,7 @@
   <set name="operateType" val="OP_PASSIVE"/>
   <set name="castRange" val="-1"/>
   <set name="soulMaxConsumeCount" val="5"/>
+  <set name="hitTime" val="3000"/>
 </skill>
 <skill id="513" levels="1" name="Create Dark Seed">
   <set name="mpConsume" val="58"/>
@@ -536,7 +537,7 @@
   <set name="mpConsume" val="60"/>
   <set name="target" val="TARGET_SELF"/>
   <set name="summonTotalLifeTime" val="20000"/>
-  <set name="hitTime" val="2500"/>
+  <set name="hitTime" val="2000"/>
   <set name="reuseDelay" val="60000"/> <!-- Guessing -->
   <set name="skillType" val="DECOY"/>
   <set name="operateType" val="OP_ACTIVE"/>
@@ -730,6 +731,7 @@
   <set name="skillType" val="NOTDONE"/>
   <set name="operateType" val="OP_PASSIVE"/>
   <set name="castRange" val="-1"/>
+  <set name="hitTime" val="1800"/>
 </skill>
 <skill id="538" levels="1" name="Final Form">
   <set name="mpConsume" val="70"/>
@@ -800,7 +802,7 @@
   <set name="skillType" val="BUFF"/>
   <set name="isMagic" val="true"/>
   <set name="operateType" val="OP_ACTIVE"/>
-  <set name="hitTime" val="1500"/>
+  <set name="hitTime" val="2500"/>
   <set name="reuseDelay" val="3600000"/>
   <set name="staticReuse" val="true"/>
   <set name="staticHitTime" val="true"/>
@@ -820,7 +822,7 @@
   <set name="skillType" val="BUFF"/>
   <set name="isMagic" val="true"/>
   <set name="operateType" val="OP_ACTIVE"/>
-  <set name="hitTime" val="1500"/>
+  <set name="hitTime" val="2500"/>
   <set name="reuseDelay" val="3600000"/>
   <set name="staticReuse" val="true"/>
   <set name="staticHitTime" val="true"/>
@@ -840,7 +842,7 @@
   <set name="skillType" val="BUFF"/>
   <set name="isMagic" val="true"/>
   <set name="operateType" val="OP_ACTIVE"/>
-  <set name="hitTime" val="1500"/>
+  <set name="hitTime" val="2500"/>
   <set name="reuseDelay" val="3600000"/>
   <set name="staticReuse" val="true"/>
   <set name="staticHitTime" val="true"/>
@@ -860,7 +862,7 @@
   <set name="skillType" val="BUFF"/>
   <set name="isMagic" val="true"/>
   <set name="operateType" val="OP_ACTIVE"/>
-  <set name="hitTime" val="1500"/>
+  <set name="hitTime" val="2500"/>
   <set name="reuseDelay" val="3600000"/>
   <set name="staticReuse" val="true"/>
   <set name="staticHitTime" val="true"/>
@@ -880,7 +882,7 @@
   <set name="skillType" val="BUFF"/>
   <set name="isMagic" val="true"/>
   <set name="operateType" val="OP_ACTIVE"/>
-  <set name="hitTime" val="1500"/>
+  <set name="hitTime" val="2500"/>
   <set name="reuseDelay" val="3600000"/>
   <set name="staticReuse" val="true"/>
   <set name="staticHitTime" val="true"/>
@@ -900,7 +902,7 @@
   <set name="skillType" val="BUFF"/>
   <set name="isMagic" val="true"/>
   <set name="operateType" val="OP_ACTIVE"/>
-  <set name="hitTime" val="1500"/>
+  <set name="hitTime" val="2500"/>
   <set name="reuseDelay" val="3600000"/>
   <set name="staticReuse" val="true"/>
   <set name="staticHitTime" val="true"/>
@@ -920,7 +922,7 @@
   <set name="skillType" val="BUFF"/>
   <set name="isMagic" val="true"/>
   <set name="operateType" val="OP_ACTIVE"/>
-  <set name="hitTime" val="1500"/>
+  <set name="hitTime" val="2500"/>
   <set name="reuseDelay" val="3600000"/>
   <set name="staticReuse" val="true"/>
   <set name="staticHitTime" val="true"/>
@@ -940,7 +942,7 @@
   <set name="skillType" val="BUFF"/>
   <set name="isMagic" val="true"/>
   <set name="operateType" val="OP_ACTIVE"/>
-  <set name="hitTime" val="1500"/>
+  <set name="hitTime" val="2500"/>
   <set name="reuseDelay" val="3600000"/>
   <set name="staticReuse" val="true"/>
   <set name="staticHitTime" val="true"/>
@@ -960,7 +962,7 @@
   <set name="skillType" val="BUFF"/>
   <set name="isMagic" val="true"/>
   <set name="operateType" val="OP_ACTIVE"/>
-  <set name="hitTime" val="1500"/>
+  <set name="hitTime" val="2500"/>
   <set name="reuseDelay" val="3600000"/>
   <set name="staticReuse" val="true"/>
   <set name="staticHitTime" val="true"/>
@@ -980,7 +982,7 @@
   <set name="skillType" val="BUFF"/>
   <set name="isMagic" val="true"/>
   <set name="operateType" val="OP_ACTIVE"/>
-  <set name="hitTime" val="1500"/>
+  <set name="hitTime" val="2500"/>
   <set name="reuseDelay" val="3600000"/>
   <set name="staticReuse" val="true"/>
   <set name="staticHitTime" val="true"/>
@@ -1000,7 +1002,7 @@
   <set name="skillType" val="BUFF"/>
   <set name="isMagic" val="true"/>
   <set name="operateType" val="OP_ACTIVE"/>
-  <set name="hitTime" val="1500"/>
+  <set name="hitTime" val="2500"/>
   <set name="reuseDelay" val="3600000"/>
   <set name="staticReuse" val="true"/>
   <set name="staticHitTime" val="true"/>
@@ -1020,7 +1022,7 @@
   <set name="skillType" val="BUFF"/>
   <set name="isMagic" val="true"/>
   <set name="operateType" val="OP_ACTIVE"/>
-  <set name="hitTime" val="1500"/>
+  <set name="hitTime" val="2500"/>
   <set name="reuseDelay" val="3600000"/>
   <set name="staticReuse" val="true"/>
   <set name="staticHitTime" val="true"/>
@@ -1040,7 +1042,7 @@
   <set name="skillType" val="BUFF"/>
   <set name="isMagic" val="true"/>
   <set name="operateType" val="OP_ACTIVE"/>
-  <set name="hitTime" val="1500"/>
+  <set name="hitTime" val="2500"/>
   <set name="reuseDelay" val="3600000"/>
   <set name="staticReuse" val="true"/>
   <set name="staticHitTime" val="true"/>
@@ -1060,7 +1062,7 @@
   <set name="skillType" val="BUFF"/>
   <set name="isMagic" val="true"/>
   <set name="operateType" val="OP_ACTIVE"/>
-  <set name="hitTime" val="1500"/>
+  <set name="hitTime" val="2500"/>
   <set name="reuseDelay" val="3600000"/>
   <set name="staticReuse" val="true"/>
   <set name="staticHitTime" val="true"/>
@@ -1080,7 +1082,7 @@
   <set name="skillType" val="BUFF"/>
   <set name="isMagic" val="true"/>
   <set name="operateType" val="OP_ACTIVE"/>
-  <set name="hitTime" val="1500"/>
+  <set name="hitTime" val="2500"/>
   <set name="reuseDelay" val="3600000"/>
   <set name="staticReuse" val="true"/>
   <set name="staticHitTime" val="true"/>
@@ -1100,7 +1102,7 @@
   <set name="skillType" val="BUFF"/>
   <set name="isMagic" val="true"/>
   <set name="operateType" val="OP_ACTIVE"/>
-  <set name="hitTime" val="1500"/>
+  <set name="hitTime" val="2500"/>
   <set name="reuseDelay" val="3600000"/>
   <set name="staticReuse" val="true"/>
   <set name="staticHitTime" val="true"/>
@@ -1120,7 +1122,7 @@
   <set name="skillType" val="BUFF"/>
   <set name="isMagic" val="true"/>
   <set name="operateType" val="OP_ACTIVE"/>
-  <set name="hitTime" val="1500"/>
+  <set name="hitTime" val="2500"/>
   <set name="reuseDelay" val="3600000"/>
   <set name="staticReuse" val="true"/>
   <set name="staticHitTime" val="true"/>
@@ -1140,7 +1142,7 @@
   <set name="skillType" val="BUFF"/>
   <set name="isMagic" val="true"/>
   <set name="operateType" val="OP_ACTIVE"/>
-  <set name="hitTime" val="1500"/>
+  <set name="hitTime" val="2500"/>
   <set name="reuseDelay" val="3600000"/>
   <set name="staticReuse" val="true"/>
   <set name="staticHitTime" val="true"/>

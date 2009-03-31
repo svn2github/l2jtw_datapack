@@ -5,18 +5,21 @@
   <set name="skillType" val="NOTDONE"/>
   <set name="operateType" val="OP_PASSIVE"/>
   <set name="castRange" val="-1"/>
+  <set name="hitTime" val="4000"/>
 </skill>
 <skill id="5101" levels="1" name="Cancel Capture C">
   <set name="target" val="TARGET_NONE"/>
   <set name="skillType" val="NOTDONE"/>
   <set name="operateType" val="OP_PASSIVE"/>
   <set name="castRange" val="-1"/>
+  <set name="hitTime" val="4000"/>
 </skill>
 <skill id="5102" levels="1" name="Cancel All Capture">
   <set name="target" val="TARGET_NONE"/>
   <set name="skillType" val="NOTDONE"/>
   <set name="operateType" val="OP_PASSIVE"/>
   <set name="castRange" val="-1"/>
+  <set name="hitTime" val="4000"/>
 </skill>
 <skill id="5103" levels="1" name="Production - Clan / Transfer">
   <!-- Needs more work -->
@@ -84,6 +87,7 @@
   <set name="skillType" val="NOTDONE"/>
   <set name="operateType" val="OP_PASSIVE"/>
   <set name="castRange" val="-1"/>
+  <set name="hitTime" val="10000"/>
 </skill>
 <skill id="5111" levels="1" name="Big Bang">
   <!-- Bombards enemies that are either above you or protected by structures such as castle walls or doors. Consumes 5 Flash Gunpowder. -->
@@ -91,6 +95,7 @@
   <set name="skillType" val="NOTDONE"/>
   <set name="operateType" val="OP_PASSIVE"/>
   <set name="castRange" val="-1"/>
+  <set name="hitTime" val="10000"/>
 </skill>
 <skill id="5112" levels="12" name="Stun">
   <!-- Lvl 1-12 - Temporarily Immobilized and in a state of shock. -->
@@ -117,6 +122,7 @@
   <set name="skillType" val="NOTDONE"/>
   <set name="operateType" val="OP_PASSIVE"/>
   <set name="castRange" val="-1"/>
+  <set name="hitTime" val="6000"/>
 </skill>
 <skill id="5114" levels="12" name="Hold">
   <!-- Lvl 1-12 - Temporarily Immobilized. -->
@@ -205,6 +211,7 @@
   <set name="skillType" val="NOTDONE"/>
   <set name="operateType" val="OP_PASSIVE"/>
   <set name="castRange" val="-1"/>
+  <set name="hitTime" val="1080"/>
 </skill>
 <skill id="5120" levels="1" name="Stun">
   <set name="magicLvl" val="80"/>
@@ -364,7 +371,7 @@
   <set name="mpConsume" val="214"/>
   <set name="power" val="5000"/> <!-- Guessing -->
   <set name="target" val="TARGET_ONE"/>
-  <set name="hitTime" val="2000"/>
+  <set name="hitTime" val="1080"/>
   <set name="reuseDelay" val="16000"/>
   <set name="coolTime" val="167"/>
   <set name="skillType" val="PDAM"/>
@@ -378,7 +385,7 @@
   <set name="mpConsume" val="322"/>
   <set name="power" val="2500"/> <!-- Guessing -->
   <set name="target" val="TARGET_AURA"/>
-  <set name="hitTime" val="2500"/>
+  <set name="hitTime" val="1070"/>
   <set name="skillRadius" val="230"/>
   <set name="reuseDelay" val="30000"/>
   <set name="coolTime" val="230"/>
@@ -397,7 +404,7 @@
   <set name="skillRadius" val="230"/>
   <set name="hitTime" val="2500"/>
   <set name="reuseDelay" val="24000"/>
-  <set name="skillTime" val="2500"/>
+  <set name="skillTime" val="4000"/>
   <set name="skillType" val="ROOT"/>
   <set name="isMagic" val="true"/>
   <set name="isDebuff" val="true"/>
@@ -413,7 +420,7 @@
   <set name="mpConsume" val="322"/>
   <set name="power" val="4000"/> <!-- Guessing -->
   <set name="target" val="TARGET_ONE"/>
-  <set name="hitTime" val="2000"/>
+  <set name="hitTime" val="1080"/>
   <set name="reuseDelay" val="16000"/>
   <set name="skillType" val="PDAM"/>
   <set name="operateType" val="OP_ACTIVE"/>
@@ -445,7 +452,7 @@
   <set name="magicLvl" val="80"/>
   <set name="lvlDepend" val="1"/>
   <set name="target" val="TARGET_AREA"/>
-  <set name="hitTime" val="4000"/>
+  <set name="hitTime" val="1500"/>
   <set name="reuseDelay" val="12000"/>
   <set name="isMagic" val="true"/>
   <set name="isDebuff" val="true"/>
@@ -465,7 +472,7 @@
   <set name="mpConsume" val="214"/>
   <set name="power" val="4000"/> <!-- Guessing -->
   <set name="target" val="TARGET_ONE"/>
-  <set name="hitTime" val="2000"/>
+  <set name="hitTime" val="1080"/>
   <set name="reuseDelay" val="16000"/>
   <set name="coolTime" val="180"/>
   <set name="skillType" val="PDAM"/>
@@ -479,7 +486,7 @@
   <set name="mpConsume" val="322"/>
   <set name="power" val="54"/> <!-- Guessing -->
   <set name="target" val="TARGET_AREA_CORPSE_MOB"/>
-  <set name="hitTime" val="3500"/>
+  <set name="hitTime" val="1500"/>
   <set name="reuseDelay" val="20000"/>
   <set name="skillType" val="MDAM"/>
   <set name="operateType" val="OP_ACTIVE"/>
@@ -530,6 +537,7 @@
   <set name="castRange" val="-1"/>
   <set name="isMagic" val="true"/>
   <set name="bestowed" val="true"/>
+  <set name="hitTime" val="5000"/>
 </skill>
 <skill id="5147" levels="10" name="Blessed Body">
   <table name="#Tab-maxHp"> 30 60 90 120 150 180 210 240 270 300 </table>
@@ -542,6 +550,7 @@
   <set name="effectRange" val="-1"/>
   <set name="isMagic" val="true"/>
   <set name="bestowed" val="true"/>
+  <set name="hitTime" val="4000"/>
   <for>
     <effect count="1" name="Buff" time="15" val="0">
       <add order="0x40" stat="maxHp" val="#Tab-maxHp"/>
@@ -559,6 +568,7 @@
   <set name="effectRange" val="-1"/>
   <set name="isMagic" val="true"/>
   <set name="bestowed" val="true"/>
+  <set name="hitTime" val="4000"/>
   <for>
     <effect name="Buff" time="15" count="1" val="0">
       <mul order="0x30" stat="gainHp" val="#tab-gainHp"/>
@@ -577,6 +587,7 @@
   <set name="effectRange" val="-1"/>
   <set name="isMagic" val="true"/>
   <set name="bestowed" val="true"/>
+  <set name="hitTime" val="6000"/>
 </skill>
 <skill id="5150" levels="10" name="Blessed Soul">
   <table name="#Tab-maxMp"> 16 32 48 68 80 96 112 128 144 160 </table>
@@ -589,6 +600,7 @@
   <set name="effectRange" val="-1"/>
   <set name="isMagic" val="true"/>
   <set name="bestowed" val="true"/>
+  <set name="hitTime" val="4000"/>
   <for>
     <effect count="1" name="Buff" time="15" val="0">
       <add order="0x40" stat="maxMp" val="#Tab-maxMp"/>
@@ -606,6 +618,7 @@
   <set name="effectRange" val="-1"/>
   <set name="isMagic" val="true"/>
   <set name="bestowed" val="true"/>
+  <set name="hitTime" val="4000"/>
   <for>
     <effect count="1" name="Buff" time="15" val="0">
       <mul order="0x30" stat="gainMp" val="#Tab-maxMp"/>
@@ -624,6 +637,7 @@
   <set name="effectRange" val="-1"/>
   <set name="isMagic" val="true"/>
   <set name="bestowed" val="true"/>
+  <set name="hitTime" val="5000"/>
 </skill>
 <skill id="5153" levels="10" name="Cheer">
   <table name="#power"> 24 48 72 96 120 144 168 192 216 240 </table>
@@ -636,6 +650,7 @@
   <set name="effectRange" val="-1"/>
   <set name="isMagic" val="true"/>
   <set name="bestowed" val="true"/>
+  <set name="hitTime" val="4000"/>
   <for>
     <effect count="1" name="Buff" time="15" val="0">
       <add order="0x40" stat="maxCp" val="#power"/>
@@ -653,6 +668,7 @@
   <set name="effectRange" val="-1"/>
   <set name="isMagic" val="true"/>
   <set name="bestowed" val="true"/>
+  <set name="hitTime" val="4000"/>
   <for>
     <effect name="Buff" time="15" count="1" val="0">
       <mul order="0x30" stat="pAtk" val="#rate"/>
@@ -670,6 +686,7 @@
   <set name="effectRange" val="-1"/>
   <set name="isMagic" val="true"/>
   <set name="bestowed" val="true"/>
+  <set name="hitTime" val="4000"/>
   <for>
     <effect name="Buff" time="15" count="1" val="0">
       <mul order="0x30" stat="mAtk" val="#rate"/>
@@ -687,6 +704,7 @@
   <set name="effectRange" val="-1"/>
   <set name="isMagic" val="true"/>
   <set name="bestowed" val="true"/>
+  <set name="hitTime" val="1500"/>
   <for>
     <effect name="Buff" time="15" count="1" val="0">
       <mul order="0x30" stat="pvpPhysDmg" val="#rate"/>
@@ -704,6 +722,7 @@
   <set name="effectRange" val="-1"/>
   <set name="isMagic" val="true"/>
   <set name="bestowed" val="true"/>
+  <set name="hitTime" val="4000"/>
   <for>
     <effect name="Buff" time="15" count="1" val="0">
       <mul order="0x30" stat="pDef" val="#rate"/>
@@ -721,6 +740,7 @@
   <set name="effectRange" val="-1"/>
   <set name="isMagic" val="true"/>
   <set name="bestowed" val="true"/>
+  <set name="hitTime" val="4000"/>
   <for>
     <effect name="Buff" time="15" count="1" val="0">
       <mul order="0x30" stat="mDef" val="#rate"/>
@@ -737,6 +757,7 @@
   <set name="operateType" val="OP_ACTIVE"/>
   <set name="bestowed" val="true"/>
   <set name="isDebuff" val="true"/>
+  <set name="hitTime" val="1500"/>
   <for>
     <effect count="1" name="Debuff" time="15" val="0">
       <mul order="0x30" stat="pvpPhysDmg" val="#rate"/>
@@ -754,6 +775,7 @@
   <set name="effectRange" val="-1"/>
   <set name="isMagic" val="true"/>
   <set name="bestowed" val="true"/>
+  <set name="hitTime" val="4000"/>
   <for>
     <effect name="Buff" time="15" count="1" val="0">
       <add order="0x40" stat="rEvas" val="#rate"/>
@@ -770,6 +792,7 @@
   <set name="effectRange" val="-1"/>
   <set name="isMagic" val="true"/>
   <set name="bestowed" val="true"/>
+  <set name="hitTime" val="4000"/>
   <for>
     <effect name="Buff" time="15" count="1" val="0">
       <add order="0x40" stat="accCombat" val="#rate"/>
@@ -787,6 +810,7 @@
   <set name="effectRange" val="-1"/>
   <set name="isMagic" val="true"/>
   <set name="bestowed" val="true"/>
+  <set name="hitTime" val="4000"/>
   <for>
     <effect name="Buff" time="15" count="1" val="0">
       <mul order="0x30" stat="rCrit" val="#rate"/>
@@ -804,6 +828,7 @@
   <set name="effectRange" val="-1"/>
   <set name="isMagic" val="true"/>
   <set name="bestowed" val="true"/>
+  <set name="hitTime" val="4000"/>
   <for>
     <effect name="Buff" time="15" count="1" val="0">
       <mul order="0x30" stat="mCritRate" val="#rate"/>
@@ -823,6 +848,7 @@
   <set name="effectRange" val="-1"/>
   <set name="isMagic" val="true"/>
   <set name="bestowed" val="true"/>
+  <set name="hitTime" val="1500"/>
 </skill>
 <skill id="5166" levels="10" name="Slow">
   <table name="#Tab-runSpd"> 0.7 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 </table>
@@ -1115,6 +1141,7 @@
   <set name="skillType" val="NOTDONE"/>
   <set name="operateType" val="OP_PASSIVE"/>
   <set name="castRange" val="-1"/>
+  <set name="hitTime" val="4000"/>
 </skill>
 <skill id="5187" levels="4" name="Pet Vampiric Rage">
   <!-- Increases the ability to restore some HP from the damage inflicted on an enemy temporarily. Excludes damage from skill or remote attack. -->
@@ -1122,6 +1149,7 @@
   <set name="skillType" val="NOTDONE"/>
   <set name="operateType" val="OP_PASSIVE"/>
   <set name="castRange" val="-1"/>
+  <set name="hitTime" val="4000"/>
 </skill>
 <skill id="5188" levels="3" name="Pet Regeneration">
   <!-- Increases HP recovery rate temporarily. -->
@@ -1129,6 +1157,7 @@
   <set name="skillType" val="NOTDONE"/>
   <set name="operateType" val="OP_PASSIVE"/>
   <set name="castRange" val="-1"/>
+  <set name="hitTime" val="4000"/>
 </skill>
 <skill id="5189" levels="6" name="Pet Blessed Body">
   <!-- Increases maximum HP temporarily. -->
@@ -1136,6 +1165,7 @@
   <set name="skillType" val="NOTDONE"/>
   <set name="operateType" val="OP_PASSIVE"/>
   <set name="castRange" val="-1"/>
+  <set name="hitTime" val="4000"/>
 </skill>
 <skill id="5190" levels="6" name="Pet Blessed Soul">
   <!-- Increases maximum MP temporarily. -->
@@ -1143,6 +1173,7 @@
   <set name="skillType" val="NOTDONE"/>
   <set name="operateType" val="OP_PASSIVE"/>
   <set name="castRange" val="-1"/>
+  <set name="hitTime" val="4000"/>
 </skill>
 <skill id="5191" levels="3" name="Pet Guidance">
   <!-- Increases Accuracy temporarily. -->
@@ -1150,6 +1181,7 @@
   <set name="skillType" val="NOTDONE"/>
   <set name="operateType" val="OP_PASSIVE"/>
   <set name="castRange" val="-1"/>
+  <set name="hitTime" val="4000"/>
 </skill>
 <skill id="5192" levels="2" name="Pet Wind Walk">
   <!-- Increases Speed temporarily. -->
@@ -1157,6 +1189,7 @@
   <set name="skillType" val="NOTDONE"/>
   <set name="operateType" val="OP_PASSIVE"/>
   <set name="castRange" val="-1"/>
+  <set name="hitTime" val="4000"/>
 </skill>
 <skill id="5193" levels="3" name="Pet Acumen">
   <!-- Increases Casting Spd. temporarily. -->
@@ -1164,6 +1197,7 @@
   <set name="skillType" val="NOTDONE"/>
   <set name="operateType" val="OP_PASSIVE"/>
   <set name="castRange" val="-1"/>
+  <set name="hitTime" val="4000"/>
 </skill>
 <skill id="5194" levels="3" name="Pet Empower">
   <!-- Increases M. Atk. temporarily. -->
@@ -1171,6 +1205,7 @@
   <set name="skillType" val="NOTDONE"/>
   <set name="operateType" val="OP_PASSIVE"/>
   <set name="castRange" val="-1"/>
+  <set name="hitTime" val="4000"/>
 </skill>
 <skill id="5195" levels="5" name="Pet Greater Heal">
   <table name="#mpConsume"> 105 109 115 115 115 </table>
@@ -1179,7 +1214,7 @@
   <set name="power" val="#power"/>
   <set name="target" val="TARGET_OWNER_PET"/>
   <set name="reuseDelay" val="3000"/>
-  <set name="hitTime" val="2000"/>
+  <set name="hitTime" val="5000"/>
   <set name="skillType" val="HEAL"/>
   <set name="isMagic" val="true"/>
   <set name="operateType" val="OP_ACTIVE"/>
@@ -1192,6 +1227,7 @@
   <set name="skillType" val="NOTDONE"/>
   <set name="operateType" val="OP_PASSIVE"/>
   <set name="castRange" val="-1"/>
+  <set name="hitTime" val="1500"/>
 </skill>
 <skill id="5197" levels="3" name="Pet Hex">
   <!-- Lvl 1-3 - Temporarily reduces the enemy's P. Def. -->
@@ -1199,6 +1235,7 @@
   <set name="skillType" val="NOTDONE"/>
   <set name="operateType" val="OP_PASSIVE"/>
   <set name="castRange" val="-1"/>
+  <set name="hitTime" val="1200"/>
 </skill>
 <skill id="5198" levels="3" name="Pet Slow">
   <!-- Lvl 1-3 - Temporarily decreases the enemy's speed. -->
@@ -1206,6 +1243,7 @@
   <set name="skillType" val="NOTDONE"/>
   <set name="operateType" val="OP_PASSIVE"/>
   <set name="castRange" val="-1"/>
+  <set name="hitTime" val="4000"/>
 </skill>
 <skill id="5199" levels="3" name="Pet Curse Gloom">
   <!-- Lvl 1-3 - Casts a curse that instantly decreases the enemy's M. Def. -->
@@ -1213,5 +1251,6 @@
   <set name="skillType" val="NOTDONE"/>
   <set name="operateType" val="OP_PASSIVE"/>
   <set name="castRange" val="-1"/>
+  <set name="hitTime" val="1500"/>
 </skill>
 </list>

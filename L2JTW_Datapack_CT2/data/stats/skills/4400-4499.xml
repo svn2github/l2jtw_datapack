@@ -7,6 +7,7 @@
   <set name="reuseDelay" val="100"/>
   <set name="skillType" val="BUFF"/>
   <set name="isMagic" val="true"/>
+  <set name="magicLvl" val="1"/>
   <set name="operateType" val="OP_ACTIVE"/>
   <set name="castRange" val="400"/>
   <set name="effectRange" val="900"/>
@@ -17,12 +18,13 @@
   </for>
 </skill>
 <skill id="4401" levels="3" name="Empower">
-<!-- by DrLecter -->
+  <!-- by DrLecter -->
   <table name="#Tab-mAtk"> 1.55 1.65 1.75 </table>
   <set name="target" val="TARGET_ONE"/>
   <set name="reuseDelay" val="100"/>
   <set name="skillType" val="BUFF"/>
   <set name="isMagic" val="true"/>
+  <set name="magicLvl" val="1"/>
   <set name="operateType" val="OP_ACTIVE"/>
   <set name="castRange" val="400"/>
   <set name="effectRange" val="900"/>
@@ -39,6 +41,7 @@
   <set name="reuseDelay" val="100"/>
   <set name="skillType" val="BUFF"/>
   <set name="isMagic" val="true"/>
+  <set name="magicLvl" val="1"/>
   <set name="operateType" val="OP_ACTIVE"/>
   <set name="castRange" val="400"/>
   <set name="effectRange" val="900"/>
@@ -54,6 +57,7 @@
   <set name="castRange" val="400"/>
   <set name="effectRange" val="900"/>
   <set name="isMagic" val="true"/>
+  <set name="magicLvl" val="1"/>
   <set name="magicLvl" val="1"/>
   <set name="operateType" val="OP_ACTIVE"/>
   <set name="skillType" val="BUFF"/>
@@ -71,6 +75,7 @@
   <set name="reuseDelay" val="100"/>
   <set name="skillType" val="BUFF"/>
   <set name="isMagic" val="true"/>
+  <set name="magicLvl" val="1"/>
   <set name="operateType" val="OP_ACTIVE"/>
   <set name="castRange" val="400"/>
   <set name="effectRange" val="900"/>
@@ -87,6 +92,7 @@
   <set name="reuseDelay" val="100"/>
   <set name="skillType" val="BUFF"/>
   <set name="isMagic" val="true"/>
+  <set name="magicLvl" val="1"/>
   <set name="operateType" val="OP_ACTIVE"/>
   <set name="castRange" val="400"/>
   <set name="effectRange" val="900"/>
@@ -1077,6 +1083,7 @@
   <set name="skillType" val="NOTDONE"/>
   <set name="operateType" val="OP_PASSIVE"/>
   <set name="castRange" val="-1"/>
+  <set name="hitTime" val="1800"/>
 </skill>
 <skill id="4471" levels="12" name="NPC Anger">
   <table name="#increase"> 1.05 1.1 1.15 1.2 1.25 1.3 1.35 1.4 1.45 1.5 1.55 1.6 </table>
@@ -1102,11 +1109,12 @@
   <set name="skillType" val="NOTDONE"/>
   <set name="operateType" val="OP_PASSIVE"/>
   <set name="castRange" val="-1"/>
+  <set name="hitTime" val="2500"/>
 </skill>
 <skill id="4473" levels="12" name="Stun">
   <table name="#mpConsume"> 27 44 62 85 109 135 157 168 177 183 187 189 </table>
   <table name="#power"> 16 35 73 139 241 379 542 626 704 774 829 873 </table>
-  <set name="magicLvl" val="48"/>
+  <set name="magicLvl" val="48"/> <!-- Guessing -->
   <set name="lvlDepend" val="1"/> <!-- Guessing -->
   <set name="mpConsume" val="#mpConsume"/>
   <set name="power" val="#power"/>
@@ -1176,6 +1184,7 @@
   <set name="skillType" val="NOTDONE"/>
   <set name="operateType" val="OP_PASSIVE"/>
   <set name="castRange" val="-1"/>
+  <set name="hitTime" val="3300"/>
 </skill>
 <skill id="4479" levels="1" name="Ice Fairy Resist Cold">
   <!-- Increases resistance to cold attacks. Effect 4. -->
@@ -1183,24 +1192,28 @@
   <set name="skillType" val="NOTDONE"/>
   <set name="operateType" val="OP_PASSIVE"/>
   <set name="castRange" val="-1"/>
+  <set name="hitTime" val="4000"/>
 </skill>
 <skill id="4480" levels="1" name="Ice Fairy Curse Gloom">
   <set name="target" val="TARGET_NONE"/>
   <set name="skillType" val="NOTDONE"/>
   <set name="operateType" val="OP_PASSIVE"/>
   <set name="castRange" val="-1"/>
+  <set name="hitTime" val="1200"/>
 </skill>
 <skill id="4481" levels="1" name="Ice Fairy Hex">
   <set name="target" val="TARGET_NONE"/>
   <set name="skillType" val="NOTDONE"/>
   <set name="operateType" val="OP_PASSIVE"/>
   <set name="castRange" val="-1"/>
+  <set name="hitTime" val="1200"/>
 </skill>
 <skill id="4482" levels="1" name="Ice Fairy Silence">
   <set name="target" val="TARGET_NONE"/>
   <set name="skillType" val="NOTDONE"/>
   <set name="operateType" val="OP_PASSIVE"/>
   <set name="castRange" val="-1"/>
+  <set name="hitTime" val="100"/>
 </skill>
 <skill id="4483" levels="12" name="Hold">
   <table name="#mpConsume"> 24 39 53 70 90 110 130 138 145 150 153 155 </table>
@@ -1211,7 +1224,7 @@
   <set name="power" val="80"/> <!-- Guessing -->
   <set name="target" val="TARGET_ONE"/>
   <set name="reuseDelay" val="8000"/>
-  <set name="hitTime" val="2500"/>
+  <set name="hitTime" val="3300"/>
   <set name="skillType" val="ROOT"/>
   <set name="isMagic" val="true"/>
   <set name="isDebuff" val="true"/>
@@ -1227,12 +1240,14 @@
   <set name="skillType" val="NOTDONE"/>
   <set name="operateType" val="OP_PASSIVE"/>
   <set name="castRange" val="-1"/>
+  <set name="hitTime" val="100"/>
 </skill>
 <skill id="4485" levels="1" name="Eating Follower">
   <set name="target" val="TARGET_NONE"/>
   <set name="skillType" val="NOTDONE"/>
   <set name="operateType" val="OP_PASSIVE"/>
   <set name="castRange" val="-1"/>
+  <set name="hitTime" val="3000"/>
 </skill>
 <skill id="4486" levels="12" name="Decrease P. Def">
   <!-- Needs to be verified -->
@@ -1289,7 +1304,6 @@
   <set name="power" val="80"/> <!-- Guessing -->
   <set name="target" val="TARGET_ONE"/>
   <set name="reuseDelay" val="8000"/>
-  <set name="hitTime" val="2500"/>
   <set name="skillType" val="ROOT"/>
   <set name="isMagic" val="true"/>
   <set name="isDebuff" val="true"/>
@@ -1311,6 +1325,7 @@
   <set name="skillType" val="NOTDONE"/>
   <set name="operateType" val="OP_PASSIVE"/>
   <set name="castRange" val="-1"/>
+  <set name="hitTime" val="5000"/>
 </skill>
 <skill id="4491" levels="12" name="Holy Weapon">
   <!-- Makes sacred attacks. -->
@@ -1318,6 +1333,7 @@
   <set name="skillType" val="NOTDONE"/>
   <set name="operateType" val="OP_PASSIVE"/>
   <set name="castRange" val="-1"/>
+  <set name="hitTime" val="3200"/>
 </skill>
 <skill id="4492" levels="12" name="Enlarging Head Curse">
   <table name="#mpConsume"> 14 22 31 43 55 68 79 84 89 92 94 95 </table>
@@ -1338,11 +1354,13 @@
   <set name="skillType" val="NOTDONE"/>
   <set name="operateType" val="OP_PASSIVE"/>
   <set name="castRange" val="-1"/>
+  <set name="hitTime" val="2000"/>
 </skill>
 <skill id="4494" levels="1" name="Raid Boss">
   <!-- This Skill Is Only For Description In The Client -->
   <set name="target" val="TARGET_SELF"/>
   <set name="skillType" val="PASSIVE"/>
+  <set name="mpConsume" val="1"/>
   <set name="operateType" val="OP_PASSIVE"/>
   <set name="castRange" val="-1"/>
   <set name="effectRange" val="-1"/>
@@ -1387,6 +1405,7 @@
   <!-- This Skill Is Only For Description In The Client -->
   <set name="target" val="TARGET_SELF"/>
   <set name="skillType" val="PASSIVE"/>
+  <set name="mpConsume" val="1"/>
   <set name="operateType" val="OP_PASSIVE"/>
   <set name="castRange" val="-1"/>
   <set name="effectRange" val="-1"/>
@@ -1395,6 +1414,7 @@
   <!-- This Skill Is Only For Description In The Client -->
   <set name="target" val="TARGET_SELF"/>
   <set name="skillType" val="PASSIVE"/>
+  <set name="mpConsume" val="1"/>
   <set name="operateType" val="OP_PASSIVE"/>
   <set name="castRange" val="-1"/>
   <set name="effectRange" val="-1"/>
@@ -1403,6 +1423,7 @@
   <!-- This Skill Is Only For Description In The Client -->
   <set name="target" val="TARGET_SELF"/>
   <set name="skillType" val="PASSIVE"/>
+  <set name="magicLvl" val="1"/>
   <set name="operateType" val="OP_PASSIVE"/>
   <set name="castRange" val="-1"/>
   <set name="effectRange" val="-1"/>

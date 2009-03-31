@@ -56,14 +56,14 @@ public class DivineHealer extends L2Transformation
 	public void removeSkills()
 	{
 		// Transfrom Dispel
-		getPlayer().removeSkill(SkillTable.getInstance().getInfo(619, 1), false, false);
+		getPlayer().removeSkill(SkillTable.getInstance().getInfo(619, 1), false);
 		// Decrease Bow/Crossbow Attack Speed
-		getPlayer().removeSkill(SkillTable.getInstance().getInfo(5491, 1), false, false);
-		getPlayer().removeSkill(SkillTable.getInstance().getInfo(698, 1), false, false);
-		getPlayer().removeSkill(SkillTable.getInstance().getInfo(699, 1), false, false);
-		getPlayer().removeSkill(SkillTable.getInstance().getInfo(700, 1), false, false);
-		getPlayer().removeSkill(SkillTable.getInstance().getInfo(701, 1), false, false);
-		getPlayer().removeSkill(SkillTable.getInstance().getInfo(702, 1), false, false);
+		getPlayer().removeSkill(SkillTable.getInstance().getInfo(5491, 1), false);
+		getPlayer().removeSkill(SkillTable.getInstance().getInfo(698, 1), false);
+		getPlayer().removeSkill(SkillTable.getInstance().getInfo(699, 1), false);
+		getPlayer().removeSkill(SkillTable.getInstance().getInfo(700, 1), false);
+		getPlayer().removeSkill(SkillTable.getInstance().getInfo(701, 1), false);
+		getPlayer().removeSkill(SkillTable.getInstance().getInfo(702, 1), false);
 		getPlayer().removeSkill(SkillTable.getInstance().getInfo(703, 1), false, false);
 
 		getPlayer().setTransformAllowedSkills(new int[]{});
