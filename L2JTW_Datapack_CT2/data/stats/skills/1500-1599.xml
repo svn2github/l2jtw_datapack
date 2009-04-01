@@ -101,39 +101,99 @@
   </for>
 </skill>
 <skill id="1505" levels="1" name="Sublime Self-Sacrifice">
-  <set name="target" val="TARGET_NONE"/>
-  <set name="skillType" val="NOTDONE"/>
-  <set name="operateType" val="OP_PASSIVE"/>
+  <!-- Update by rocknow -->
+  <set name="hpConsume" val="4000"/>
+  <set name="mpConsume" val="218"/>
+  <set name="skillRadius" val="1000"/>
+  <set name="target" val="TARGET_PARTY"/>
+  <set name="hitTime" val="7000"/>
+  <set name="reuseDelay" val="2500000"/>
+  <set name="skillType" val="BUFF"/>
+  <set name="operateType" val="OP_ACTIVE"/>
   <set name="castRange" val="-1"/>
-  <set name="hitTime" val="4000"/>
+  <set name="effectRange" val="-1"/>
+  <for>
+     <effect count="1" name="Invincible" time="15" val="0"/>
+  </for>
 </skill>
 <skill id="1506" levels="1" name="Blessing of Eva">
-  <set name="target" val="TARGET_NONE"/>
-  <set name="skillType" val="NOTDONE"/>
-  <set name="operateType" val="OP_PASSIVE"/>
-  <set name="castRange" val="-1"/>
-  <set name="hitTime" val="4000"/>
+  <!-- Update by rocknow -->
+  <set name="mpConsume" val="73"/>
+  <set name="target" val="TARGET_ONE"/>
+  <set name="reuseDelay" val="900000"/>
+  <set name="hitTime" val="5000"/>
+  <set name="skillType" val="BUFF"/>
+  <set name="isMagic" val="true"/>
+  <set name="operateType" val="OP_ACTIVE"/>
+  <set name="castRange" val="400"/>
+  <set name="effectRange" val="800"/>
+  <for>
+    <effect count="1" name="HealOverTime" time="1" noicon="1" val="20000"/>
+    <effect count="1" name="ManaHealOverTime" time="1" noicon="1" val="20000"/>
+    <effect count="1" name="CombatPointHealOverTime" time="1" noicon="1" val="9000"/>
+  </for>
 </skill>
 <skill id="1507" levels="1" name="Lord of Vampire">
-  <set name="target" val="TARGET_NONE"/>
-  <set name="skillType" val="NOTDONE"/>
-  <set name="operateType" val="OP_PASSIVE"/>
-  <set name="castRange" val="-1"/>
+  <!-- Update by rocknow -->
+  <set name="mpConsume" val="37"/>
+  <set name="reuseDelay" val="6000"/>
   <set name="hitTime" val="4000"/>
+  <set name="target" val="TARGET_ONE"/>
+  <set name="skillType" val="BUFF"/>
+  <set name="isMagic" val="true"/>
+  <set name="operateType" val="OP_ACTIVE"/>
+  <set name="castRange" val="400"/>
+  <set name="effectRange" val="900"/>
+  <for>
+    <effect name="Buff" time="1200" count="1" val="0" stackOrder="10" stackType="vampRage">
+      <add order="0x40" stat="absorbDam" val="10"/>
+    </effect>
+  </for>
 </skill>
 <skill id="1508" levels="1" name="Throne Root">
-  <set name="target" val="TARGET_NONE"/>
-  <set name="skillType" val="NOTDONE"/>
-  <set name="operateType" val="OP_PASSIVE"/>
-  <set name="castRange" val="-1"/>
-  <set name="hitTime" val="1500"/>
+  <!-- Update by rocknow -->
+  <set name="mpConsume" val="109"/>
+  <set name="magicLvl" val="81"/>
+  <set name="power" val="90"/>
+  <set name="lvlDepend" val="2"/>
+  <set name="target" val="TARGET_AURA"/>
+  <set name="skillRadius" val="200"/>
+  <set name="reuseDelay" val="40000"/>
+  <set name="hitTime" val="2000"/>
+  <set name="element" val="4"/>
+  <set name="isDebuff" val="true"/>
+  <set name="skillType" val="ROOT"/>
+  <set name="operateType" val="OP_ACTIVE"/>
+  <set name="castRange" val="300"/>
+  <set name="effectRange" val="600"/>
+  <for>
+    <effect count="1" name="Root" time="15" val="0" stackOrder="1" stackType="Root"/>
+    <effect count="15" name="DamOverTime" time="1" noicon="1" val="120"/>
+  </for>
 </skill>
 <skill id="1509" levels="1" name="Seal of Limit">
-  <set name="target" val="TARGET_NONE"/>
-  <set name="skillType" val="NOTDONE"/>
-  <set name="operateType" val="OP_PASSIVE"/>
+  <!-- Update by rocknow -->
+  <set name="mpConsume" val="55"/>
+  <set name="magicLvl" val="81"/>
+  <set name="power" val="80"/>
+  <set name="lvlDepend" val="1"/>
+  <set name="target" val="TARGET_AURA"/>
+  <set name="skillRadius" val="200"/>
+  <set name="reuseDelay" val="40000"/>
+  <set name="hitTime" val="5500"/>
+  <set name="skillType" val="DEBUFF"/>
+  <set name="isMagic" val="true"/>
+  <set name="isDebuff" val="true"/>
+  <set name="operateType" val="OP_ACTIVE"/>
   <set name="castRange" val="-1"/>
-  <set name="hitTime" val="1500"/>
+  <set name="effectRange" val="-1"/>
+  <for>
+    <effect count="1" name="Debuff" time="120" val="0">
+      <mul order="0x30" stat="regHp" val="0"/>
+      <mul order="0x30" stat="regMp" val="0"/>
+      <mul order="0x30" stat="regCp" val="0"/>
+    </effect>
+  </for>
 </skill>
 <skill id="1510" levels="1" name="Soul Cleanse">
   <!-- CT2.2 retail confirmed -->
@@ -247,11 +307,21 @@
   </for>
 </skill>
 <skill id="1515" levels="1" name="Lightning Barrier">
-  <set name="target" val="TARGET_NONE"/>
-  <set name="skillType" val="NOTDONE"/>
-  <set name="operateType" val="OP_PASSIVE"/>
+  <!-- Update by rocknow -->
   <set name="castRange" val="-1"/>
-  <set name="hitTime" val="1500"/>
+  <set name="effectRange" val="-1"/>
+  <set name="hitTime" val="1000"/>
+  <set name="magicLevel" val="81"/>
+  <set name="mpConsume" val="43"/>
+  <set name="operateType" val="OP_ACTIVE"/>
+  <set name="reuseDelay" val="120000"/>
+  <set name="skillType" val="BUFF"/>
+  <set name="target" val="TARGET_SELF"/>
+  <set name="triggeredId" val="5592"/>
+  <set name="triggeredLevel" val="1"/>
+  <for>
+    <effect count="1" name="BestowSkill" time="60" val="0"/>
+  </for>
 </skill>
 <skill id="1516" levels="1" name="Soul Strike">
   <!-- Done by DJ MELERIX -->
@@ -527,10 +597,25 @@
   <set name="effectRange" val="1400"/>
 </skill>
 <skill id="1531" levels="7" name="Bless the Blood">
-  <set name="target" val="TARGET_NONE"/>
-  <set name="skillType" val="NOTDONE"/>
-  <set name="operateType" val="OP_PASSIVE"/>
-  <set name="castRange" val="-1"/>
-  <set name="hitTime" val="5000"/>
+  <!-- Update by rocknow -->
+  <table name="#skillLevel"> 1 2 3 4 5 6 7 </table>
+  <table name="#mpConsume"> 35 44 52 55 60 64 67 </table>
+  <table name="#magicLvl"> 40 48 56 60 64 68 72 </table>
+  <set name="mpConsume" val="#mpConsume"/>
+  <set name="magicLevel" val="#magicLvl"/>
+  <set name="operateType" val="OP_ACTIVE"/>
+  <set name="power" val="0.0"/>
+  <set name="reuseDelay" val="20000"/>
+  <set name="hitTime" val="4000"/>
+  <set name="skillType" val="BUFF"/>
+  <set name="isMagic" val="true"/>
+  <set name="target" val="TARGET_ONE"/>
+  <set name="castRange" val="600"/>
+  <set name="effectRange" val="900"/>
+  <set name="triggeredId" val="5698"/>
+  <set name="triggeredLevel" val="#skillLevel"/>
+   <for>
+     <effect count="1" name="BestowSkill" time="15" val="0"/>
+   </for>
 </skill>
 </list>
