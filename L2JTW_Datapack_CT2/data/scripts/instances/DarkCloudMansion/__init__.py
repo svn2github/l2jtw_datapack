@@ -596,7 +596,7 @@ class DarkCloudMansion(JQuest) :
         return htmltext
     return ""
 
-QUEST = DarkCloudMansion(9990, qn, "instances")
+QUEST = DarkCloudMansion(-1, qn, "instances")
 
 QUEST.addStartNpc(YIYEN)
 
