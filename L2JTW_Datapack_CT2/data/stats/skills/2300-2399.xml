@@ -73,10 +73,19 @@
   <set name="castRange" val="-1"/>
 </skill>
 <skill id="2309" levels="1" name="Pig Chest">
-  <set name="target" val="TARGET_NONE"/>
-  <set name="skillType" val="NOTDONE"/>
-  <set name="operateType" val="OP_PASSIVE"/>
+  <!-- Update by rocknow -->
+  <set name="itemConsumeId" val="9144"/>
+  <set name="itemConsumeCount" val="1"/>
+  <set name="target" val="TARGET_SELF"/>
+  <set name="skillType" val="EXTRACTABLE"/>
+  <set name="operateType" val="OP_ACTIVE"/>
   <set name="castRange" val="-1"/>
+  <cond msgId="129">
+    <and>
+       <player invSize="10"/>
+       <player weight="80"/>
+    </and>
+  </cond>
 </skill>
 <skill id="2310" levels="1" name="Scroll of Guidance - Event Use">
   <!-- Needs to be verified -->

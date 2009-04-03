@@ -606,7 +606,6 @@
   <set name="isMagic" val="true"/>
   <set name="operateType" val="OP_ACTIVE"/>
   <set name="hitTime" val="2500"/>
-  <set name="reuseDelay" val="10000"/>
   <set name="staticReuse" val="true"/>
   <set name="staticHitTime" val="true"/>
   <set name="transformId" val="319"/>
@@ -1022,6 +1021,12 @@
   <set name="castRange" val="-1"/>
 </skill>
 <skill id="5698" levels="7" name="Bless the Blood">
+  <set name="target" val="TARGET_NONE"/>
+  <set name="skillType" val="NOTDONE"/>
+  <set name="operateType" val="OP_PASSIVE"/>
+  <set name="castRange" val="-1"/>
+</skill>
+<skill id="5699" levels="7" name="Decrease P. Def">
   <set name="target" val="TARGET_NONE"/>
   <set name="skillType" val="NOTDONE"/>
   <set name="operateType" val="OP_PASSIVE"/>
