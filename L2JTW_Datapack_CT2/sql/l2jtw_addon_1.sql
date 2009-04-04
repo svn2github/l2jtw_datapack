@@ -461,6 +461,12 @@ UPDATE `weapon` SET `skill` = '8246-1;' WHERE `item_id` in (12800,13253,13324,13
 REPLACE INTO armorsets VALUES ('200', '9670', '9671', '9669', '0', '0', '3359', '1', '0', '0', '0'); -- 土著全套
 
 
+/************ 增加頭飾 ************/
+REPLACE INTO `armor` VALUES
+(20275,'Gold Afro','dhair','false','none',10,'wood','none',0,-1,0,0,0,0,0,'true','true','true','true','0-0;'),
+(20276,'Pink Afro','dhair','false','none',10,'wood','none',0,-1,0,0,0,0,0,'true','true','true','true','0-0;');
+
+
 /************ 增加狩獵幫手 ************/
 UPDATE `etcitem` SET `duration` = '300' WHERE `item_id` IN (13017,13018,13019,13020); -- 使用期限目前無效果
 REPLACE INTO `npc` VALUES ('16043', '16043', 'Fox Shaman', '0', '', '0', 'LineageMonster4.foxian_wizard_pet', '10', '19', '70', 'male', 'L2Pet', '40', '2444', '2444', '0.00', '0.00', '40', '43', '30', '21', '20', '25', '0', '0', '500', '500', '500', '500', '253', '0', '253', '0', '0', '0', '80', '120', 'NULL', '0', '0', '0', 'LAST_HIT', '0', '0', '0', 'fighter', 'false');
