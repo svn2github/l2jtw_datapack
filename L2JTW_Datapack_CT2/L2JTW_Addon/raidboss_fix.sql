@@ -1,6 +1,6 @@
 /************ Made in Taiwan ************/
 
-/***** ¶L¹õÄ}¬¯­· 11-11 *****/ 
+/***** ¶L¹õ-¯}·À°ê¹Ò 09-04-07 *****/ 
 /***** raiddata-tw *****/ 
 /***** npc.sql - raidboss *****/
 UPDATE `npc` SET `level` = '23' WHERE `id` = '25001';
@@ -227,7 +227,32 @@ UPDATE `npc` SET `level` = '49' WHERE `id` = '25618';
 UPDATE `npc` SET `level` = '59' WHERE `id` = '25619';
 UPDATE `npc` SET `level` = '69' WHERE `id` = '25620';
 UPDATE `npc` SET `level` = '78' WHERE `id` = '25621';
-UPDATE `npc` SET `level` = '81' WHERE `id` = '256222';
+UPDATE `npc` SET `level` = '81' WHERE `id` = '25622';
+UPDATE `npc` SET `level` = '84' WHERE `id` = '25634';
+UPDATE `npc` SET `level` = '84' WHERE `id` = '25635';
+UPDATE `npc` SET `level` = '85' WHERE `id` = '25636';
+UPDATE `npc` SET `level` = '85' WHERE `id` = '25637';
+UPDATE `npc` SET `level` = '85' WHERE `id` = '25638';
+UPDATE `npc` SET `level` = '85' WHERE `id` = '25639';
+UPDATE `npc` SET `level` = '85' WHERE `id` = '25640';
+UPDATE `npc` SET `level` = '85' WHERE `id` = '25641';
+UPDATE `npc` SET `level` = '85' WHERE `id` = '25642';
+UPDATE `npc` SET `level` = '85' WHERE `id` = '25643';
+UPDATE `npc` SET `level` = '85' WHERE `id` = '25644';
+UPDATE `npc` SET `level` = '85' WHERE `id` = '25645';
+UPDATE `npc` SET `level` = '85' WHERE `id` = '25646';
+UPDATE `npc` SET `level` = '85' WHERE `id` = '25647';
+UPDATE `npc` SET `level` = '85' WHERE `id` = '25648';
+UPDATE `npc` SET `level` = '85' WHERE `id` = '25649';
+UPDATE `npc` SET `level` = '85' WHERE `id` = '25650';
+UPDATE `npc` SET `level` = '85' WHERE `id` = '25651';
+UPDATE `npc` SET `level` = '85' WHERE `id` = '25652';
+UPDATE `npc` SET `level` = '80' WHERE `id` = '25623';
+UPDATE `npc` SET `level` = '83' WHERE `id` = '25624';
+UPDATE `npc` SET `level` = '85' WHERE `id` = '25625';
+UPDATE `npc` SET `level` = '85' WHERE `id` = '25626';
+UPDATE `npc` SET `level` = '82' WHERE `id` = '25665';
+UPDATE `npc` SET `level` = '82' WHERE `id` = '25666';
 
 /***** npc.sql - boss *****/
 UPDATE `npc` SET `level` = '40' WHERE `id` = '29001';
@@ -255,6 +280,10 @@ UPDATE `npc` SET `level` = '59' WHERE `id` = '29138';
 UPDATE `npc` SET `level` = '69' WHERE `id` = '29141';
 UPDATE `npc` SET `level` = '78' WHERE `id` = '29144';
 UPDATE `npc` SET `level` = '81' WHERE `id` = '29147';
+UPDATE `npc` SET `level` = '85' WHERE `id` = '29150';
+UPDATE `npc` SET `level` = '85' WHERE `id` = '29151';
+UPDATE `npc` SET `level` = '85' WHERE `id` = '29152';
+UPDATE `npc` SET `level` = '85' WHERE `id` = '29163';
 
 /***** raidboss_spawnlist.sql *****/
 UPDATE `raidboss_spawnlist` SET `loc_x` = -54416, `loc_y` = 146480, `loc_z` = -2887 WHERE `boss_id` = 25001;
@@ -349,8 +378,8 @@ UPDATE `raidboss_spawnlist` SET `loc_x` = 120080, `loc_y` = 111248, `loc_z` = -3
 UPDATE `raidboss_spawnlist` SET `loc_x` = 116400, `loc_y` = -62528, `loc_z` = -3264 WHERE `boss_id` = 25235;
 UPDATE `raidboss_spawnlist` SET `loc_x` = 155000, `loc_y` = 85400, `loc_z` = -3200 WHERE `boss_id` = 25238;
 UPDATE `raidboss_spawnlist` SET `loc_x` = 165984, `loc_y` = 88048, `loc_z` = -2384 WHERE `boss_id` = 25241;
-UPDATE `raidboss_spawnlist` SET `loc_x` = 187360, `loc_y` = 45840, `loc_z` = -5856 WHERE `boss_id` = 25244;
-UPDATE `raidboss_spawnlist` SET `loc_x` = 172000, `loc_y` = 55000, `loc_z` = -5400 WHERE `boss_id` = 25245;
+UPDATE `raidboss_spawnlist` SET `loc_x` = 172154, `loc_y` = 55314, `loc_z` = -5920 WHERE `boss_id` = 25244;
+UPDATE `raidboss_spawnlist` SET `loc_x` = 188800, `loc_y` = 48350, `loc_z` = -5856 WHERE `boss_id` = 25245;
 UPDATE `raidboss_spawnlist` SET `loc_x` = 127903, `loc_y` = -13399, `loc_z` = -3720 WHERE `boss_id` = 25248;
 UPDATE `raidboss_spawnlist` SET `loc_x` = 147104, `loc_y` = -20560, `loc_z` = -3377 WHERE `boss_id` = 25249;
 UPDATE `raidboss_spawnlist` SET `loc_x` = 192376, `loc_y` = 22087, `loc_z` = -3608 WHERE `boss_id` = 25252;
@@ -385,11 +414,6 @@ UPDATE `raidboss_spawnlist` SET `loc_x` = 184542, `loc_y` = -106330, `loc_z` = -
 UPDATE `raidboss_spawnlist` SET `loc_x` = 93296, `loc_y` = -75104, `loc_z` = -1824 WHERE `boss_id` = 25322;
 UPDATE `raidboss_spawnlist` SET `loc_x` = 91008, `loc_y` = -85904, `loc_z` = -2736 WHERE `boss_id` = 25325;
 UPDATE `raidboss_spawnlist` SET `loc_x` = 59331, `loc_y` = -42403, `loc_z` = -3003 WHERE `boss_id` = 25328;
-UPDATE `raidboss_spawnlist` SET `loc_x` = 0, `loc_y` = 0, `loc_z` = 0 WHERE `boss_id` = 25333;
-UPDATE `raidboss_spawnlist` SET `loc_x` = 0, `loc_y` = 0, `loc_z` = 0 WHERE `boss_id` = 25339;
-UPDATE `raidboss_spawnlist` SET `loc_x` = 0, `loc_y` = 0, `loc_z` = 0 WHERE `boss_id` = 25342;
-UPDATE `raidboss_spawnlist` SET `loc_x` = 0, `loc_y` = 0, `loc_z` = 0 WHERE `boss_id` = 25346;
-UPDATE `raidboss_spawnlist` SET `loc_x` = 0, `loc_y` = 0, `loc_z` = 0 WHERE `boss_id` = 25349;
 UPDATE `raidboss_spawnlist` SET `loc_x` = -16912, `loc_y` = 174912, `loc_z` = -3264 WHERE `boss_id` = 25352;
 UPDATE `raidboss_spawnlist` SET `loc_x` = -16096, `loc_y` = 184288, `loc_z` = -3817 WHERE `boss_id` = 25354;
 UPDATE `raidboss_spawnlist` SET `loc_x` = -3456, `loc_y` = 112864, `loc_z` = -3456 WHERE `boss_id` = 25357;
@@ -455,25 +479,11 @@ UPDATE `raidboss_spawnlist` SET `loc_x` = 80000, `loc_y` = -55000, `loc_z` = -60
 UPDATE `raidboss_spawnlist` SET `loc_x` = 113000, `loc_y` = -76000, `loc_z` = 200 WHERE `boss_id` = 25517;
 UPDATE `raidboss_spawnlist` SET `loc_x` = 170000, `loc_y` = -60000, `loc_z` = -3500 WHERE `boss_id` = 25523;
 UPDATE `raidboss_spawnlist` SET `loc_x` = 144600, `loc_y` = -5500, `loc_z` = -4100 WHERE `boss_id` = 25524;
-UPDATE `raidboss_spawnlist` SET `loc_x` = 0, `loc_y` = 0, `loc_z` = 0 WHERE `boss_id` = 25334;
-UPDATE `raidboss_spawnlist` SET `loc_x` = 0, `loc_y` = 0, `loc_z` = 0 WHERE `boss_id` = 25335;
-UPDATE `raidboss_spawnlist` SET `loc_x` = 0, `loc_y` = 0, `loc_z` = 0 WHERE `boss_id` = 25336;
-UPDATE `raidboss_spawnlist` SET `loc_x` = 0, `loc_y` = 0, `loc_z` = 0 WHERE `boss_id` = 25337;
-UPDATE `raidboss_spawnlist` SET `loc_x` = 0, `loc_y` = 0, `loc_z` = 0 WHERE `boss_id` = 25338;
 UPDATE `raidboss_spawnlist` SET `loc_x` = 3776, `loc_y` = -6768, `loc_z` = -32 WHERE `boss_id` = 25527;
-UPDATE `raidboss_spawnlist` SET `loc_x` = 0, `loc_y` = 0, `loc_z` = 0 WHERE `boss_id` = 25528;
-UPDATE `raidboss_spawnlist` SET `loc_x` = 0, `loc_y` = 0, `loc_z` = 0 WHERE `boss_id` = 25531;
-UPDATE `raidboss_spawnlist` SET `loc_x` = 0, `loc_y` = 0, `loc_z` = 0 WHERE `boss_id` = 25532;
-UPDATE `raidboss_spawnlist` SET `loc_x` = 0, `loc_y` = 0, `loc_z` = 0 WHERE `boss_id` = 25534;
-UPDATE `raidboss_spawnlist` SET `loc_x` = 0, `loc_y` = 0, `loc_z` = 0 WHERE `boss_id` = 25536;
 UPDATE `raidboss_spawnlist` SET `loc_x` = -17475, `loc_y` = 253163, `loc_z` = -34 WHERE `boss_id` = 25539;
-UPDATE `raidboss_spawnlist` SET `loc_x` = 0, `loc_y` = 0, `loc_z` = 0 WHERE `boss_id` = 25540;
-UPDATE `raidboss_spawnlist` SET `loc_x` = 0, `loc_y` = 0, `loc_z` = 0 WHERE `boss_id` = 25542;
-UPDATE `raidboss_spawnlist` SET `loc_x` = 0, `loc_y` = 0, `loc_z` = 0 WHERE `boss_id` = 25544;
-UPDATE `raidboss_spawnlist` SET `loc_x` = 0, `loc_y` = 0, `loc_z` = 0 WHERE `boss_id` = 25603;
-UPDATE `raidboss_spawnlist` SET `loc_x` = 0, `loc_y` = 0, `loc_z` = 0 WHERE `boss_id` = 25609;
-UPDATE `raidboss_spawnlist` SET `loc_x` = 0, `loc_y` = 0, `loc_z` = 0 WHERE `boss_id` = 25610;
-UPDATE `raidboss_spawnlist` SET `loc_x` = 0, `loc_y` = 0, `loc_z` = 0 WHERE `boss_id` = 25611;
-UPDATE `raidboss_spawnlist` SET `loc_x` = 0, `loc_y` = 0, `loc_z` = 0 WHERE `boss_id` = 25612;
+UPDATE `raidboss_spawnlist` SET `loc_x` = -192361, `loc_y` = 254528, `loc_z` = 15 WHERE `boss_id` = 25623;
+UPDATE `raidboss_spawnlist` SET `loc_x` = -174600, `loc_y` = 219711, `loc_z` = 44 WHERE `boss_id` = 25624;
+UPDATE `raidboss_spawnlist` SET `loc_x` = -181989, `loc_y` = 208968, `loc_z` = 44 WHERE `boss_id` = 25625;
+UPDATE `raidboss_spawnlist` SET `loc_x` = -252898, `loc_y` = 235845, `loc_z` = 53 WHERE `boss_id` = 25626;
 
 /***** Done by vdmyagami¡I *****/
