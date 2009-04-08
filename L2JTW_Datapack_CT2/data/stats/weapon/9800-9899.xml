@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <list>
 <item id='9813' name="Orc Officer">
   <for>
@@ -296,20 +296,14 @@
 </item>
 <item id='9869' name="Dynasty Halberd - Anger">
   <for>
-   <set val='333' order='0x08' stat='pAtk'/>
-   <set val='151' order='0x08' stat='mAtk'/>
-   <set val='8' order='0x08' stat='rCrit'/>
-   <add val='-3' order='0x10' stat='accCombat'/><!-- Update by rocknow -->
-   <set val='325' order='0x08' stat='pAtkSpd'/>
-   <set val='66' order='0x08' stat='pAtkRange'/><!-- Update by rocknow -->
-   <enchant val='0' order='0x0C' stat='pAtk'/>
-   <enchant val='0' order='0x0C' stat='mAtk'/>
-          <!-- SA: Anger -->
-   <add val='78' order='0x40' stat='pAtk'/>
-   <mul val='0.85' order='0x30' stat='maxHp'/>
-    <!-- Enhances damage to target during PvP -->
-   <mul val='1.05' order='0x30' stat='pvpPhysDmg'/>
-   <mul val='1.05' order='0x30' stat='pvpMagicalDmg'/>
+    <set val='333' order='0x08' stat='pAtk'/>
+    <set val='151' order='0x08' stat='mAtk'/>
+    <set val='8' order='0x08' stat='rCrit'/>
+    <add val='-3' order='0x10' stat='accCombat'/><!-- Update by rocknow -->
+    <set val='325' order='0x08' stat='pAtkSpd'/>
+    <set val='66' order='0x08' stat='pAtkRange'/><!-- Update by rocknow -->
+    <enchant val='0' order='0x0C' stat='pAtk'/>
+    <enchant val='0' order='0x0C' stat='mAtk'/>
   </for>
 </item>
 <item id='9870' name="Dynasty Halberd - Critical Stun">

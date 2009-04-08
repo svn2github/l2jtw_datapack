@@ -26,14 +26,14 @@ import net.sf.l2j.gameserver.GeoData;
 import net.sf.l2j.gameserver.ThreadPoolManager;
 import net.sf.l2j.gameserver.datatables.SkillTable;
 import net.sf.l2j.gameserver.instancemanager.GrandBossManager;
-import net.sf.l2j.gameserver.model.L2Character;
 import net.sf.l2j.gameserver.model.L2Effect;
 import net.sf.l2j.gameserver.model.L2Object;
 import net.sf.l2j.gameserver.model.L2Skill;
-import net.sf.l2j.gameserver.model.L2Summon;
+import net.sf.l2j.gameserver.model.actor.L2Character;
+import net.sf.l2j.gameserver.model.actor.L2Npc;
+import net.sf.l2j.gameserver.model.actor.L2Summon;
 import net.sf.l2j.gameserver.model.actor.instance.L2DecoyInstance;
 import net.sf.l2j.gameserver.model.actor.instance.L2GrandBossInstance;
-import net.sf.l2j.gameserver.model.actor.instance.L2NpcInstance;
 import net.sf.l2j.gameserver.model.actor.instance.L2PcInstance;
 import net.sf.l2j.gameserver.model.quest.QuestTimer;
 import net.sf.l2j.gameserver.model.zone.type.L2BossZone;
@@ -45,7 +45,7 @@ import net.sf.l2j.gameserver.templates.StatsSet;
 import net.sf.l2j.gameserver.util.Util;
 import net.sf.l2j.util.Rnd;
 import net.sf.l2j.gameserver.network.serverpackets.NpcSay;
-import net.sf.l2j.gameserver.model.L2Attackable;
+import net.sf.l2j.gameserver.model.actor.L2Attackable;
 import java.util.List;
 import net.sf.l2j.ExternalConfig;
 
@@ -156,7 +156,7 @@ public class Baium extends L2AttackableAIScript
             final int mp = info.getInteger("currentMP");
             L2GrandBossInstance baium = (L2GrandBossInstance) addSpawn(LIVE_BAIUM,loc_x,loc_y,loc_z,heading,false,0);
             GrandBossManager.getInstance().addBoss(baium);
-            final L2NpcInstance _baium = baium;
+            final L2Npc _baium = baium;
             ThreadPoolManager.getInstance().scheduleGeneral(new Runnable() {
 				public void run()
 				{
@@ -180,7 +180,7 @@ public class Baium extends L2AttackableAIScript
             addSpawn(STONE_BAIUM,116067,17484,10110,41740,false,0);
 	}
 
-	public String onAdvEvent (String event, L2NpcInstance npc, L2PcInstance player)
+	public String onAdvEvent (String event, L2Npc npc, L2PcInstance player)
 	{
         if (event.equalsIgnoreCase("baium_unlock"))
         {
@@ -215,7 +215,7 @@ public class Baium extends L2AttackableAIScript
                 startQuestTimer("baium_despawn", 60000, npc, null, true);
                 startQuestTimer("skill_range", 500, npc, null, true);
 				startQuestTimer("angel",30000, npc, null);
-                final L2NpcInstance baium = npc;
+                final L2Npc baium = npc;
                 ThreadPoolManager.getInstance().scheduleGeneral(new Runnable() {
     				public void run()
     				{
@@ -266,7 +266,7 @@ public class Baium extends L2AttackableAIScript
 		else if (event.equalsIgnoreCase("spawn_minion"))
         {
 		    int i = Rnd.get(9);
-            L2NpcInstance mob = addSpawn(Angel,Pos[i][0],Pos[i][1],Pos[i][2],Pos[i][3],false,0);
+            L2Npc mob = addSpawn(Angel,Pos[i][0],Pos[i][1],Pos[i][2],Pos[i][3],false,0);
             mob.setIsRaidMinion(true);
             Minions.add((L2Attackable)mob);
         }
@@ -275,7 +275,7 @@ public class Baium extends L2AttackableAIScript
 			int j = Rnd.get(1);
 			for (int i = j; i < 10; i = i + 2)
             {
-            L2NpcInstance mob = addSpawn(Angel,Pos[i][0],Pos[i][1],Pos[i][2],Pos[i][3],false,0);
+            L2Npc mob = addSpawn(Angel,Pos[i][0],Pos[i][1],Pos[i][2],Pos[i][3],false,0);
             mob.setIsRaidMinion(true);
             Minions.add((L2Attackable)mob);
 			}
@@ -293,7 +293,7 @@ public class Baium extends L2AttackableAIScript
         return super.onAdvEvent(event, npc, player);
 	}
 
-    public String onTalk(L2NpcInstance npc,L2PcInstance player)
+    public String onTalk(L2Npc npc,L2PcInstance player)
     {
         int npcId = npc.getNpcId();
         String htmltext = "";
@@ -311,7 +311,7 @@ public class Baium extends L2AttackableAIScript
                 npc.deleteMe();
                 L2GrandBossInstance baium = (L2GrandBossInstance) addSpawn(LIVE_BAIUM,npc);
                 GrandBossManager.getInstance().addBoss(baium);
-                final L2NpcInstance _baium = baium;
+                final L2Npc _baium = baium;
                 ThreadPoolManager.getInstance().scheduleGeneral(new Runnable() {
     				public void run()
     				{
@@ -357,7 +357,7 @@ public class Baium extends L2AttackableAIScript
         return htmltext;
     }
     
-    public String onSpellFinished(L2NpcInstance npc, L2PcInstance player, L2Skill skill)
+    public String onSpellFinished(L2Npc npc, L2PcInstance player, L2Skill skill)
     {
 		if (npc.isInvul())
 		{
@@ -370,7 +370,7 @@ public class Baium extends L2AttackableAIScript
     	}
     	return super.onSpellFinished(npc, player, skill);
     }
-    public String onAttack (L2NpcInstance npc, L2PcInstance attacker, int damage, boolean isPet)
+    public String onAttack (L2Npc npc, L2PcInstance attacker, int damage, boolean isPet)
     {
 		if (npc.isInvul())
 		{
@@ -404,7 +404,7 @@ public class Baium extends L2AttackableAIScript
 		return super.onAttack(npc, attacker, damage, isPet);
     }
     
-    public String onKill (L2NpcInstance npc, L2PcInstance killer, boolean isPet) 
+    public String onKill (L2Npc npc, L2PcInstance killer, boolean isPet) 
     { 
 	    if (GrandBossManager.getInstance().getBossStatus(LIVE_BAIUM) == AWAKE && npc.getNpcId() == LIVE_BAIUM)
         {
@@ -434,7 +434,7 @@ public class Baium extends L2AttackableAIScript
         return super.onKill(npc,killer,isPet);
     }
 
-	public L2Character getRandomTarget(L2NpcInstance npc)
+	public L2Character getRandomTarget(L2Npc npc)
 	{
 		FastList<L2Character> result = new FastList<L2Character>();
 		Collection<L2Object> objs = npc.getKnownList().getKnownObjects().values();
@@ -466,7 +466,7 @@ public class Baium extends L2AttackableAIScript
 		return null;
 	}
 
-	public synchronized void callSkillAI(L2NpcInstance npc)
+	public synchronized void callSkillAI(L2Npc npc)
 	{
 		if (npc.isInvul() || npc.isCastingNow()) return;
 
@@ -512,7 +512,7 @@ public class Baium extends L2AttackableAIScript
 		}
 	}
 
-	public int getRandomSkill(L2NpcInstance npc)
+	public int getRandomSkill(L2Npc npc)
 	{
 		int skill;
 		if( npc.getCurrentHp() > ( ( npc.getMaxHp() * 3 ) / 4 ) )
@@ -561,7 +561,7 @@ public class Baium extends L2AttackableAIScript
 		return skill;
 	}
 
-	public String onSkillSee (L2NpcInstance npc, L2PcInstance caster, L2Skill skill, L2Object[] targets, boolean isPet)
+	public String onSkillSee (L2Npc npc, L2PcInstance caster, L2Skill skill, L2Object[] targets, boolean isPet)
 	{
 		if (npc.isInvul())
 		{

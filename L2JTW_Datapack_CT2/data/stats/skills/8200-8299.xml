@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <list>
 <skill id="8200" levels="1" name="Draconic Leather Armor - PvP">
   <!-- Done by DJ MELERIX -->
@@ -671,7 +671,7 @@
   <set name="castRange" val="-1"/>
   <set name="effectRange" val="-1"/>
   <for>
-    <effect count="1" name="Transformation" time="1800" val="0" /> <!-- duration guessed -->
+    <effect count="1" name="Transformation" time="1800" val="0" /> <!-- duration Guess -->
   </for>
 </skill>
 <skill id="8245" levels="1" name="Summon Agathion - Love">
@@ -692,7 +692,7 @@
   <set name="castRange" val="-1"/>
   <set name="effectRange" val="-1"/>
   <for>
-    <effect count="1" name="Transformation" time="1800" val="0" /> <!-- duration guessed -->
+    <effect count="1" name="Transformation" time="1800" val="0" /> <!-- duration Guess -->
   </for>
 </skill>
 <skill id="8247" levels="1" name="Mount Light Purple Maned Horse">

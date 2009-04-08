@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <list>
 <skill id="3400" levels="1" name="Traits Strengthen Earring">
   <set name="target" val="TARGET_NONE"/>
@@ -270,7 +270,7 @@
 <skill id="3426" levels="1" name="Maximum Ability">
   <!-- Rapier +4 Skill -->
   <!-- A critical attack will have a chance to increase P. Atk., M. Atk., and healing power, and decrease MP consumption during skill use, for you and your party members. -->
-  <set name="activationChance" val="25"/> <!-- Guessing -->
+  <set name="activationChance" val="25"/> <!-- Guess -->
   <set name="bestowTriggered" val="true"/>
   <set name="castRange" val="-1"/>
   <set name="chanceType" val="ON_CRIT"/>

@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <list>
 <item id='500' name="Great Helmet">
   <for>
@@ -38,8 +38,8 @@
 </item>
 <item id='506' name="Shining Dragon Helmet">
   <for>
-    <add val='67' order='0x10' stat='pDef'/>
-    <enchant val='0' order='0x0C' stat='pDef'/><!-- Update by rocknow -->
+    <add val='67' order='0x10' stat='pDef'/><!-- Update by rocknow -->
+    <enchant val='0' order='0x0C' stat='pDef'/>
   </for>
 </item>
 <item id='507' name="Helmet of Victory">

@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <list>
 <skill id="2001" levels="1" name="Red Potion">
   <set name="target" val="TARGET_SELF"/>
@@ -41,14 +41,11 @@
   <set name="hitTime" val="1500"/>
 </skill>
 <skill id="2005" levels="1" name="Nectar">
-  <!-- Update by rocknow -->
-  <set name="power" val="200"/>
+  <!-- Summer Squash Event Skill (http://www.lineage2.com/archive/2006/11/fall_harvest.html) -->
   <set name="target" val="TARGET_SELF"/>
-  <set name="skillType" val="MANAHEAL"/>
-  <set name="operateType" val="OP_ACTIVE"/>
+  <set name="skillType" val="NOTDONE"/>
+  <set name="operateType" val="OP_PASSIVE"/>
   <set name="castRange" val="-1"/>
-  <set name="effectRange" val="-1"/>
-  <set name="isPotion" val="true"/>
 </skill>
 <skill id="2006" levels="1" name="Scroll: Enchant Weapon (Grade A)">
   <set name="target" val="TARGET_ITEM"/>

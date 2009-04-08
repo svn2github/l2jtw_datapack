@@ -17,8 +17,8 @@ package ai.individual;
 import net.sf.l2j.gameserver.ai.CtrlIntention;
 import net.sf.l2j.gameserver.instancemanager.GrandBossManager;
 import net.sf.l2j.gameserver.model.L2CharPosition;
+import net.sf.l2j.gameserver.model.actor.L2Npc;
 import net.sf.l2j.gameserver.model.actor.instance.L2GrandBossInstance;
-import net.sf.l2j.gameserver.model.actor.instance.L2NpcInstance;
 import net.sf.l2j.gameserver.model.actor.instance.L2PcInstance;
 import net.sf.l2j.gameserver.model.zone.type.L2BossZone;
 import net.sf.l2j.gameserver.network.serverpackets.Earthquake;
@@ -35,15 +35,15 @@ import static net.sf.l2j.gameserver.ai.CtrlIntention.AI_INTENTION_IDLE;
 import java.util.Collection;
 import javolution.util.FastList;
 import net.sf.l2j.gameserver.GeoData;
-import net.sf.l2j.gameserver.model.L2Character;
+import net.sf.l2j.gameserver.model.actor.L2Character;
 import net.sf.l2j.gameserver.model.L2Object;
 import net.sf.l2j.gameserver.model.L2Skill;
-import net.sf.l2j.gameserver.model.L2Summon;
+import net.sf.l2j.gameserver.model.actor.L2Summon;
 import net.sf.l2j.gameserver.model.actor.instance.L2DecoyInstance;
 import net.sf.l2j.gameserver.model.quest.QuestTimer;
 import net.sf.l2j.gameserver.util.Util;
 import net.sf.l2j.gameserver.network.serverpackets.MoveToPawn;
-import net.sf.l2j.gameserver.model.L2Attackable;
+import net.sf.l2j.gameserver.model.actor.L2Attackable;
 import java.util.List;
 import net.sf.l2j.ExternalConfig;
 
@@ -137,7 +137,7 @@ public class Antharas extends L2AttackableAIScript
         GrandBossManager.getInstance().addBoss(npc);
         npc.broadcastPacket(new PlaySound(1, "BS01_A", 1, npc.getObjectId(), npc.getX(), npc.getY(), npc.getZ()));
         //Spawn minions
-        L2NpcInstance mob;
+        L2Npc mob;
         mob = addSpawn(Behemoth,Rnd.get(175000, 179900),Rnd.get(112400, 116000),-7709,0,false,0);
         mob.setIsRaidMinion(true);
         Minions.add((L2Attackable) mob);
@@ -146,7 +146,7 @@ public class Antharas extends L2AttackableAIScript
         Minions.add((L2Attackable) mob);
     }
 
-	public String onAdvEvent (String event, L2NpcInstance npc, L2PcInstance player)
+	public String onAdvEvent (String event, L2Npc npc, L2PcInstance player)
 	{
         if (npc != null)
         {
@@ -279,19 +279,19 @@ public class Antharas extends L2AttackableAIScript
             }
             else if (event.equalsIgnoreCase("spawn_minion"))
             {
-                L2NpcInstance mob = addSpawn(npc.getNpcId(),Rnd.get(175000, 179900),Rnd.get(112400, 116000),-7709,0,false,0);
+                L2Npc mob = addSpawn(npc.getNpcId(),Rnd.get(175000, 179900),Rnd.get(112400, 116000),-7709,0,false,0);
                 mob.setIsRaidMinion(true);
                 Minions.add((L2Attackable)mob);
             }
             else if (event.equalsIgnoreCase("Behemoth"))
             {
-                L2NpcInstance mob = addSpawn(Behemoth,Rnd.get(175000, 179900),Rnd.get(112400, 116000),-7709,0,false,0);
+                L2Npc mob = addSpawn(Behemoth,Rnd.get(175000, 179900),Rnd.get(112400, 116000),-7709,0,false,0);
                 mob.setIsRaidMinion(true);
                 Minions.add((L2Attackable)mob);
             }
             else if (event.equalsIgnoreCase("Bomber"))
             {
-                L2NpcInstance mob = addSpawn(Bomber,Rnd.get(175000, 179900),Rnd.get(112400, 116000),-7709,0,false,0);
+                L2Npc mob = addSpawn(Bomber,Rnd.get(175000, 179900),Rnd.get(112400, 116000),-7709,0,false,0);
                 mob.setIsRaidMinion(true);
                 Minions.add((L2Attackable)mob);
             }
@@ -322,7 +322,7 @@ public class Antharas extends L2AttackableAIScript
         return super.onAdvEvent(event, npc, player);
 	}
     
-    public String onSpellFinished(L2NpcInstance npc, L2PcInstance player, L2Skill skill)
+    public String onSpellFinished(L2Npc npc, L2PcInstance player, L2Skill skill)
     {
     	if (npc.isInvul())
 		{
@@ -335,7 +335,7 @@ public class Antharas extends L2AttackableAIScript
     	}
     	return super.onSpellFinished(npc, player, skill);
     }
-	public String onAttack (L2NpcInstance npc, L2PcInstance attacker, int damage, boolean isPet)
+	public String onAttack (L2Npc npc, L2PcInstance attacker, int damage, boolean isPet)
 	{		
 		if (npc.isInvul())
 		{
@@ -368,7 +368,7 @@ public class Antharas extends L2AttackableAIScript
 		return super.onAttack(npc, attacker, damage, isPet);
     }
 
-    public String onKill (L2NpcInstance npc, L2PcInstance killer, boolean isPet) 
+    public String onKill (L2Npc npc, L2PcInstance killer, boolean isPet) 
     { 
         if (GrandBossManager.getInstance().getBossStatus(ANTHARAS) == FIGHTING && npc.getNpcId() == ANTHARAS)
         {
@@ -394,7 +394,7 @@ public class Antharas extends L2AttackableAIScript
         return super.onKill(npc,killer,isPet);
     }
 
-	public L2Character getRandomTarget(L2NpcInstance npc)
+	public L2Character getRandomTarget(L2Npc npc)
 	{
 		FastList<L2Character> result = new FastList<L2Character>();
 		Collection<L2Object> objs = npc.getKnownList().getKnownObjects().values();
@@ -426,7 +426,7 @@ public class Antharas extends L2AttackableAIScript
 		return null;
 	}
 
-	public synchronized void callSkillAI(L2NpcInstance npc)
+	public synchronized void callSkillAI(L2Npc npc)
 	{
 		if (npc.isInvul() || npc.isCastingNow()) return;
 
@@ -472,7 +472,7 @@ public class Antharas extends L2AttackableAIScript
 		}
 	}
 
-	public int getRandomSkill(L2NpcInstance npc)
+	public int getRandomSkill(L2Npc npc)
 	{
 		int skill;
 		if( npc.getCurrentHp() > ( ( npc.getMaxHp() * 3 ) / 4 ) )
@@ -551,7 +551,7 @@ public class Antharas extends L2AttackableAIScript
 		return skill;
 	}
 
-	public String onSkillSee (L2NpcInstance npc, L2PcInstance caster, L2Skill skill, L2Object[] targets, boolean isPet)
+	public String onSkillSee (L2Npc npc, L2PcInstance caster, L2Skill skill, L2Object[] targets, boolean isPet)
 	{
 		if (npc.isInvul())
 		{

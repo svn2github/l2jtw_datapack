@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <list>
 <skill id="1" levels="37" name="Triple Slash" enchantLevels1="30" enchantLevels2="30" >
   <table name="#enchantMagicLvl"> 76 76 76 77 77 77 78 78 78 79 79 79 80 80 80 81 81 81 82 82 82 82 83 83 83 84 84 85 85 85 </table>
@@ -486,8 +486,8 @@
   <!-- Summon-specific -->
   <set name="power" val="#mAtk"/>
   <set name="npcId" val="2"/>
-  <set name="activationtime" val="14"/> <!-- guessed -->
-  <set name="activationchance" val="67"/> <!-- guessed -->
+  <set name="activationtime" val="14"/> <!-- Guess -->
+  <set name="activationchance" val="67"/> <!-- Guess -->
   <set name="summonTotalLifeTime" val="900000"/>
   <set name="expPenalty" val="0"/>
   <set name="isCubic" val="true"/>
@@ -676,8 +676,8 @@
   <!-- Summon-specific -->
   <set name="power" val="#mAtk"/>
   <set name="npcId" val="5"/>
-  <set name="activationtime" val="14"/> <!-- guessed -->
-  <set name="activationchance" val="55"/> <!-- guessed -->
+  <set name="activationtime" val="14"/> <!-- Guess -->
+  <set name="activationchance" val="55"/> <!-- Guess -->
   <set name="summonTotalLifeTime" val="900000"/>
   <set name="expPenalty" val="0"/>
   <set name="isCubic" val="true"/>

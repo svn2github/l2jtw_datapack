@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <list>
 <skill id="5400" levels="1" name="Presentation - Solar Spark">
   <set name="target" val="TARGET_NONE"/>
@@ -215,10 +215,10 @@
   <set name="bestowed" val="true"/>
   <for>
     <effect count="1" name="Buff" time="60" val="0">
-      <mul order="0x30" stat="pReuse" val="0.9"> <!-- Guessing -->
+      <mul order="0x30" stat="pReuse" val="0.9"> <!-- Guess -->
         <using kind="Bow"/>
       </mul>
-      <mul order="0x30" stat="PhysicalMpConsumeRate" val="0.97"> <!-- Guessing -->
+      <mul order="0x30" stat="PhysicalMpConsumeRate" val="0.97"> <!-- Guess -->
         <using kind="Bow"/>
       </mul>
     </effect>
@@ -364,7 +364,7 @@
   <set name="mpConsume" val="#mpConsume"/>
   <set name="operateType" val="OP_ACTIVE"/>
   <set name="overHit" val="true"/>
-  <set name="power" val="700"/> <!-- Guessing -->
+  <set name="power" val="700"/> <!-- Guess -->
   <set name="reuseDelay" val="10000"/>
   <set name="skillType" val="PDAM"/>
   <set name="SSBoost" val="2.0"/>
@@ -457,7 +457,7 @@
   <set name="element" val="6"/> <!-- Dark -->
   <set name="skillType" val="PARALYZE"/>
   <set name="operateType" val="OP_ACTIVE"/>
-  <set name="power" val="40"/> <!-- Guessing -->
+  <set name="power" val="40"/> <!-- Guess -->
   <set name="isDebuff" val="true"/>
   <set name="castRange" val="40"/>
   <for>

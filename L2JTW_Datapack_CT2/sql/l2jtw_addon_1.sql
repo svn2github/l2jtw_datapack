@@ -880,7 +880,6 @@ REPLACE INTO `grandboss_data` VALUES
 ('29065', '-123348', '-248881', '-15537', '44732', '0', '1532678', '4255', '0');
 REPLACE INTO `npcskills` VALUES (29028,4679,1);
 REPLACE INTO `npcskills` VALUES (29028,4680,1);
-UPDATE `npc` SET `aggro` = 800 WHERE `id` IN (29019,29028);
 UPDATE `npc` SET `aggro` = 500 WHERE `id` IN (29020,29021,29022,29065,29069,29070);
 UPDATE `npc` SET `hp` = '13090000', `mp` = '39960' WHERE `id` IN (29019);
 UPDATE `npc` SET `hp` = '3698520', `mp` = '39960' WHERE `id` IN (29020);
