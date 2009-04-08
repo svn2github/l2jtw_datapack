@@ -76,7 +76,6 @@ public class AdminCursedWeapons implements IAdminCommandHandler
 					if (cw.isActivated())
 					{
 						L2PcInstance pl = cw.getPlayer();
-						
 						cm =  new L2CoreMessage (MessageTable.Messages[6]);
 						if (pl == null)
 							cm.addExtra(1);

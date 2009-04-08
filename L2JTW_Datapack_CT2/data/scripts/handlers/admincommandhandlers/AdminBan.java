@@ -32,7 +32,6 @@ import net.sf.l2j.gameserver.datatables.MessageTable;
 import net.sf.l2j.gameserver.model.L2CoreMessage;
 import net.sf.l2j.gameserver.util.GMAudit;
 
-
 /**
  * This class handles following admin commands:
  * - ban_acc <account_name> = changes account access level to -100 and logs him off. If no account is specified target's account is used.

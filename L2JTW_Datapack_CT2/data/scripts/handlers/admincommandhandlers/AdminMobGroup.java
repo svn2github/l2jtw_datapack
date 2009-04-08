@@ -16,10 +16,10 @@ package handlers.admincommandhandlers;
 
 import net.sf.l2j.gameserver.datatables.NpcTable;
 import net.sf.l2j.gameserver.handler.IAdminCommandHandler;
-import net.sf.l2j.gameserver.model.actor.L2Character;
 import net.sf.l2j.gameserver.model.L2World;
 import net.sf.l2j.gameserver.model.MobGroup;
 import net.sf.l2j.gameserver.model.MobGroupTable;
+import net.sf.l2j.gameserver.model.actor.L2Character;
 import net.sf.l2j.gameserver.model.actor.instance.L2PcInstance;
 import net.sf.l2j.gameserver.network.SystemMessageId;
 import net.sf.l2j.gameserver.network.serverpackets.MagicSkillUse;

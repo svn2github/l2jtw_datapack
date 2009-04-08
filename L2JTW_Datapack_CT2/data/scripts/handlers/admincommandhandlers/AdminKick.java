@@ -46,7 +46,6 @@ public class AdminKick implements IAdminCommandHandler
 				if (plyr != null)
 				{
 					plyr.logout();
-
 					L2CoreMessage cm =  new L2CoreMessage (MessageTable.Messages[551]);
 					cm.addString(plyr.getName());
 					cm.sendMessage(activeChar);

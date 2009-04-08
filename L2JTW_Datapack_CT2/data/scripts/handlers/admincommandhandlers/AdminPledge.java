@@ -138,7 +138,6 @@ public class AdminPledge implements IAdminCommandHandler
 						return false;
 					}
 					clan.setReputationScore(clan.getReputationScore() + points, true);
-					
 					L2CoreMessage cm =  new L2CoreMessage (MessageTable.Messages[693]);
 					if(points > 0 )
 					{

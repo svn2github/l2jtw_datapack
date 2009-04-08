@@ -78,13 +78,11 @@ public class AdminMammon implements IAdminCommandHandler
 				if (blackInst.length > 0)
 				{
 					int x1 = blackInst[0].getX(), y1 = blackInst[0].getY(), z1 = blackInst[0].getZ();
-					
 					L2CoreMessage cm =  new L2CoreMessage (MessageTable.Messages[42]);
 					cm.addNumber(x1);
 					cm.addNumber(y1);
 					cm.addNumber(z1);
 					cm.sendMessage(activeChar);
-
 					if (teleportIndex == 1)
 						activeChar.teleToLocation(x1, y1, z1, true);
 				}

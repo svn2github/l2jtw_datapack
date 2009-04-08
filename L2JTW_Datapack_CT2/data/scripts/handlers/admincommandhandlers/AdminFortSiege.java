@@ -143,9 +143,7 @@ public class AdminFortSiege implements IAdminCommandHandler
 				i++;
 			}
 
-
-			if (i > 0) 
-			{
+			if (i > 0) {//Update by rocknow
 				cList.append("</tr><tr>");
 				i = 0;
 			}

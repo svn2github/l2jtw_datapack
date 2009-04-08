@@ -97,7 +97,6 @@ public class Escape implements IUserCommandHandler
 				activeChar.doCast(GM_escape);
 				return true;
 			}
-			
 			cm.addNumber(1);
 			activeChar.sendMessage(cm.renderMsg());
 		}

@@ -3,9 +3,9 @@ package handlers.admincommandhandlers;
 import java.util.StringTokenizer;
 
 import net.sf.l2j.gameserver.handler.IAdminCommandHandler;
-import net.sf.l2j.gameserver.model.actor.L2Character;
 import net.sf.l2j.gameserver.model.L2Effect;
 import net.sf.l2j.gameserver.model.L2World;
+import net.sf.l2j.gameserver.model.actor.L2Character;
 import net.sf.l2j.gameserver.model.actor.instance.L2PcInstance;
 import net.sf.l2j.gameserver.network.serverpackets.NpcHtmlMessage;
 import net.sf.l2j.gameserver.util.GMAudit;
@@ -145,14 +145,16 @@ public class AdminBuffs implements IAdminCommandHandler
 	
 	public void showBuffs(L2PcInstance player, L2PcInstance activeChar)
 	{
-
 		final L2Effect[] effects = player.getAllEffects();
                 final StringBuilder html = StringUtil.startAppend(
-                        500 + effects.length * 200,"<html><center><font color=\"LEVEL\">"+MessageTable.Messages[207].getMessage()
-        		        + player.getName() + "</font><center><br>" +
+                        500 + effects.length * 200,
+                        "<html><center><font color=\"LEVEL\">"+MessageTable.Messages[207].getMessage() +
+                        player.getName() +
+                        "</font><center><br>" +
                         "<table>" +
-                        "<tr><td width=200>"+MessageTable.Messages[556].getMessage()+"</td><td width=70>"+MessageTable.Messages[557].getMessage()+"</td></tr>");
-
+                        "<tr><td width=200>"+MessageTable.Messages[556].getMessage()+"</td><td width=70>"+MessageTable.Messages[557].getMessage()+"</td></tr>"
+                        );
+		
 		for (L2Effect e : effects) {
 			if (e != null) {
                             StringUtil.append(html,
@@ -163,10 +165,8 @@ public class AdminBuffs implements IAdminCommandHandler
                                     " ",
                                     String.valueOf(e.getSkill().getId()),
                                     "\" width=60 height=15 back=\"sek.cbui94\" fore=\"sek.cbui92\"></td></tr>");
-
 			}
 		}
-
 
                 StringUtil.append(html,
                         "</table><br>" +
@@ -175,7 +175,6 @@ public class AdminBuffs implements IAdminCommandHandler
 		        "\" width=60 height=15 back=\"sek.cbui94\" fore=\"sek.cbui92\">" +
                         "</html>"
                         );
-
 		
 		NpcHtmlMessage ms = new NpcHtmlMessage(1);
 		ms.setHtml(html.toString());

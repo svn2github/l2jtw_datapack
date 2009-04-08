@@ -1461,7 +1461,6 @@
   <table name="#mpConsume_Init"> 4 7 11 </table>
   <table name="#mpConsume"> 15 29 44 </table>
   <table name="#magicLvl"> 24 46 66 </table>
-  <table name="#negateLvl"> 3 7 10 </table>
   <set name="mpInitialConsume" val="#mpConsume_Init"/>
   <set name="mpConsume" val="#mpConsume"/>
   <set name="magicLvl" val="#magicLvl"/>
@@ -1471,7 +1470,6 @@
   <set name="skillType" val="NEGATE"/>
   <set name="isMagic" val="true"/>
   <set name="negateId" val="5264"/>
-  <set name="negateLvl" val="#negateLvl"/>
   <set name="operateType" val="OP_ACTIVE"/>
   <set name="castRange" val="600"/>
   <set name="effectRange" val="1600"/>
@@ -1809,12 +1807,6 @@
     <effect count="10" name="ManaHealOverTime" time="3" noicon="1" val="75"/>
     <effect count="10" name="HealOverTime" time="3" noicon="1" val="75"/>
   </for>
-</skill>
-<skill id="1499" levels="1" name="Improve Combat">
-  <set name="target" val="TARGET_NONE"/>
-  <set name="skillType" val="NOTDONE"/>
-  <set name="operateType" val="OP_PASSIVE"/>
-  <set name="castRange" val="-1"/>
 </skill>
 <skill id="1499" levels="1" name="Improve Combat">
   <set name="mpConsume" val="27"/>

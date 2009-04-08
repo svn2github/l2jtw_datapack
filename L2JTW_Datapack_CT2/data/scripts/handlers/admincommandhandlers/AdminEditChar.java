@@ -459,7 +459,7 @@ public class AdminEditChar implements IAdminCommandHandler
                 for (int x = 0; x < maxPages; x++) {
 			int pagenr = x + 1;
                         StringUtil.append(replyMSG,
-                        		"<center><a action=\"bypass -h admin_show_characters " + x + "\">"+ MessageTable.Messages[677].getMessage() + pagenr +MessageTable.Messages[215].getMessage()+"</a></center>");
+                                "<center><a action=\"bypass -h admin_show_characters " + x + "\">"+ MessageTable.Messages[677].getMessage() + pagenr +MessageTable.Messages[215].getMessage()+"</a></center>");
 
 		}
                 
@@ -729,12 +729,12 @@ public class AdminEditChar implements IAdminCommandHandler
 				break;
 		}
 		adminReply.replace("%results%", replyMSG.toString());
+
                 final String replyMSG2;
                 
 		if (CharactersFound == 0) {
 			replyMSG2 = MessageTable.Messages[678].getMessage();
                 } else if (CharactersFound > 20) {
-
 			adminReply.replace("%number%", MessageTable.Messages[679].getMessage());
 			replyMSG2 = MessageTable.Messages[680].getMessage();
 		} else if (CharactersFound == 1) {
@@ -819,7 +819,6 @@ public class AdminEditChar implements IAdminCommandHandler
 				break;
 		}
 		adminReply.replace("%results%", replyMSG.toString());
-
 
                 final String replyMSG2;
 

@@ -69,7 +69,7 @@ public class AdminDelete implements IAdminCommandHandler
 				else
 					SpawnTable.getInstance().deleteSpawn(spawn, true);
 			}
-						
+			
 			L2CoreMessage cm =  new L2CoreMessage (MessageTable.Messages[100]);
 			cm.addString(target.getName());
 			cm.addNumber(target.getObjectId());

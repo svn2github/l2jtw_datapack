@@ -22,7 +22,6 @@ import net.sf.l2j.gameserver.network.serverpackets.SystemMessage;
 import net.sf.l2j.gameserver.datatables.MessageTable;
 import net.sf.l2j.gameserver.model.L2CoreMessage;
 
-
 /**
  * @author 
  */

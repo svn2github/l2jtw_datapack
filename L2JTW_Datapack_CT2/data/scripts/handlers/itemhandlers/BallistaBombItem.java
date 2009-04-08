@@ -19,10 +19,10 @@ import net.sf.l2j.gameserver.handler.IItemHandler;
 import net.sf.l2j.gameserver.model.L2ItemInstance;
 import net.sf.l2j.gameserver.model.L2Object;
 import net.sf.l2j.gameserver.model.L2Skill;
-import net.sf.l2j.gameserver.model.L2Summon;
+import net.sf.l2j.gameserver.model.actor.L2Playable;
+import net.sf.l2j.gameserver.model.actor.L2Summon;
 import net.sf.l2j.gameserver.model.actor.instance.L2FortBallistaInstance;
 import net.sf.l2j.gameserver.model.actor.instance.L2PcInstance;
-import net.sf.l2j.gameserver.model.actor.instance.L2PlayableInstance;
 import net.sf.l2j.gameserver.network.SystemMessageId;
 import net.sf.l2j.gameserver.network.serverpackets.SystemMessage;
 
@@ -31,7 +31,7 @@ import net.sf.l2j.gameserver.network.serverpackets.SystemMessage;
  *
  * @author Kerberos
  */
-public class BallistaBomb implements IItemHandler
+public class BallistaBombItem implements IItemHandler
 {
 	// All the item IDs that this handler knows.
 	private static final int[] ITEM_IDS =
@@ -41,9 +41,9 @@ public class BallistaBomb implements IItemHandler
 	
 	/**
 	 * 
-	 * @see net.sf.l2j.gameserver.handler.IItemHandler#useItem(net.sf.l2j.gameserver.model.actor.instance.L2PlayableInstance, net.sf.l2j.gameserver.model.L2ItemInstance)
+	 * @see net.sf.l2j.gameserver.handler.IItemHandler#useItem(net.sf.l2j.gameserver.model.actor.L2Playable, net.sf.l2j.gameserver.model.L2ItemInstance)
 	 */
-	public void useItem(L2PlayableInstance playable, L2ItemInstance item)
+	public void useItem(L2Playable playable, L2ItemInstance item)
 	{
 		if (playable == null)
 			return;

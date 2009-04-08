@@ -322,7 +322,6 @@ public class Wedding implements IVoicedCommandHandler
 		}
 		else if (SiegeManager.getInstance().getSiege(partner) != null && SiegeManager.getInstance().getSiege(partner).getIsInProgress())
 		{
-
 			activeChar.sendMessage(631);
 			return false;
 		}

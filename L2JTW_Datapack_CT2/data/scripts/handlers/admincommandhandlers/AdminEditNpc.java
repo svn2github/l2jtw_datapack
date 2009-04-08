@@ -42,7 +42,6 @@ import net.sf.l2j.gameserver.datatables.MessageTable;
 import net.sf.l2j.gameserver.model.L2CoreMessage;
 import net.sf.l2j.gameserver.util.StringUtil;
 
-
 /**
  * @author terry
  * 
@@ -393,7 +392,6 @@ public class AdminEditNpc implements IAdminCommandHandler
 	
 	private String itemListHtml(L2TradeList tradeList, int page)
 	{
-
 		final StringBuilder replyMSG = new StringBuilder();
 
                 StringUtil.append(replyMSG,
@@ -405,7 +403,7 @@ public class AdminEditNpc implements IAdminCommandHandler
                         "<table>" +
                         "<tr><td width=150>Item Name</td><td width=60>Price</td><td width=40>Delete</td></tr>"
                         );
-
+		
 		int start = ((page - 1) * PAGE_LIMIT);
 		int end = Math.min(((page - 1) * PAGE_LIMIT) + (PAGE_LIMIT - 1), tradeList.getItems().size() - 1);
 		for (L2TradeItem item : tradeList.getItems(start, end + 1))
@@ -416,7 +414,6 @@ public class AdminEditNpc implements IAdminCommandHandler
                     		"<td><button value=\""+MessageTable.Messages[923].getMessage()+"\" action=\"bypass -h admin_delShopItem " + tradeList.getListId() + " " + item.getItemId() + "\" width=40 height=15 back=\"L2UI_ct1.button_df\" fore=\"L2UI_ct1.button_df\"></td>" +
                             "</tr>"
                             );
-
 		}//*/
                 StringUtil.append(replyMSG, "<tr>");
 		int min = 1;
@@ -430,7 +427,6 @@ public class AdminEditNpc implements IAdminCommandHandler
 		}
 		if (page < max)
 		{
-
 			if (page <= min) {
                             StringUtil.append(replyMSG, "<td></td>");
                         }
@@ -441,9 +437,7 @@ public class AdminEditNpc implements IAdminCommandHandler
 		}
 
 		
-
 		return replyMSG.toString();
-
 	}
 	
 	private void showShop(L2PcInstance activeChar, int merchantID)
@@ -462,7 +456,7 @@ public class AdminEditNpc implements IAdminCommandHandler
 		
 		final StringBuilder replyMSG = new StringBuilder();
 
-		if (activeChar.getTarget() instanceof L2MerchantInstance)
+                if (activeChar.getTarget() instanceof L2MerchantInstance)
 		{
 			String mpcName = ((L2MerchantInstance) activeChar.getTarget()).getMpc().getName();
 			StringUtil.append(replyMSG,"<br>"+MessageTable.Messages[1184].getMessage() + activeChar.getTarget().getName()

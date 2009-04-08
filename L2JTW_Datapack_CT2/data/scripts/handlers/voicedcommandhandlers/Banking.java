@@ -59,7 +59,6 @@ public class Banking implements IVoicedCommandHandler
 				activeChar.getInventory().addItem("Goldbar", 3470, Config.BANKING_SYSTEM_GOLDBARS, activeChar, null);
 				activeChar.getInventory().updateDatabase();
 				activeChar.sendPacket(iu);
-				
 				L2CoreMessage cm =  new L2CoreMessage (MessageTable.Messages[298]);
 				cm.addNumber(Config.BANKING_SYSTEM_GOLDBARS);
 				cm.addNumber(Config.BANKING_SYSTEM_ADENA);

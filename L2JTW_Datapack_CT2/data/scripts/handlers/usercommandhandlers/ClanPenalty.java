@@ -20,9 +20,7 @@ import java.text.SimpleDateFormat;
 import net.sf.l2j.gameserver.handler.IUserCommandHandler;
 import net.sf.l2j.gameserver.model.actor.instance.L2PcInstance;
 import net.sf.l2j.gameserver.network.serverpackets.NpcHtmlMessage;
-
 import net.sf.l2j.gameserver.datatables.MessageTable;
-
 
 /**
  * Support for clan penalty user command.
@@ -46,28 +44,26 @@ public class ClanPenalty implements IUserCommandHandler
 		
 		boolean penalty = false;
 		SimpleDateFormat format = new SimpleDateFormat("yyyy-MM-dd");
-
 		final StringBuilder htmlContent = new StringBuilder("<html><body>");
 		htmlContent.append("<center><table width=270 border=0 bgcolor=111111>");
 		htmlContent.append("<tr><td width=170>"+MessageTable.Messages[1169].getMessage()+"</td>");
 		htmlContent.append("<td width=100 align=center>"+MessageTable.Messages[1170].getMessage()+"</td></tr>");
 		htmlContent.append("</table><table width=270 border=0><tr>");
 
-	
 		if (activeChar.getClanJoinExpiryTime() > System.currentTimeMillis())
 		{
 			htmlContent.append("<td width=170>"+MessageTable.Messages[1241].getMessage()+"</td>");
 			htmlContent.append("<td width=100 align=center>"+format.format(activeChar.getClanJoinExpiryTime())+"</td>");
-
 			penalty = true;
 		}
+
 		if (activeChar.getClanCreateExpiryTime() > System.currentTimeMillis())
 		{
 			htmlContent.append("<td width=170>"+MessageTable.Messages[1242].getMessage()+"</td>");
 			htmlContent.append("<td width=100 align=center>"+format.format(activeChar.getClanCreateExpiryTime())+"</td>");
-
 			penalty = true;
 		}
+
 		if (!penalty)
 		{
 			htmlContent.append("<td width=170>"+MessageTable.Messages[1168].getMessage()+"</td>");

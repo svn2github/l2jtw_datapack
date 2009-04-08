@@ -197,8 +197,6 @@ public class AdminEnchant implements IAdminCommandHandler
 			cm.addNumber(curEnchant);
 			cm.addNumber(ench);
 			cm.sendMessage(player);
-			
-
 		}
 	}
 	

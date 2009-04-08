@@ -20,7 +20,6 @@ import net.sf.l2j.gameserver.model.olympiad.Olympiad;
 import net.sf.l2j.gameserver.network.SystemMessageId;
 import net.sf.l2j.gameserver.network.serverpackets.SystemMessage;
 
-
 /**
  * Support for /olympiadstat command
  * Added by kamy

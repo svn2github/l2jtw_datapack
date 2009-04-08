@@ -1,5 +1,6 @@
 #Guardians of the Holy Grail made by Bloodshed
 import sys
+from net.sf.l2j import Config
 from net.sf.l2j.gameserver.model.quest        import State
 from net.sf.l2j.gameserver.model.quest        import QuestState
 from net.sf.l2j.gameserver.model.quest.jython import QuestJython as JQuest
@@ -37,7 +38,7 @@ class Quest (JQuest) :
     elif event == "31350-08.htm" :
       QI = st.getQuestItemsCount(SCRIPTURES)
       st.takeItems(SCRIPTURES,-1)
-      st.giveItems(57,int(1625*QI))
+      st.giveItems(57,1625*QI)
     elif event == "32008-05.htm" :
       st.set("cond","2")
       st.playSound("ItemSound.quest_middle")
@@ -97,21 +98,23 @@ class Quest (JQuest) :
     return htmltext
 
   def onKill(self, npc, player, isPet) :
-    st = player.getQuestState(qn)
+    partyMember = self.getRandomPartyMemberState(player, State.STARTED)
+    if not partyMember: return
+    st = partyMember.getQuestState(qn)
     if not st : return
-    if st.getState() != State.STARTED : return
-
-    cond = st.getInt("cond")
-    if st.getState() == State.STARTED :
-      if cond >= 1 :
-        st.giveItems(SCRIPTURES,1)
+    chance = 30
+    drop = st.getRandom(100)
+    qty,chance = divmod(chance*Config.RATE_DROP_QUEST,100)
+    if drop < chance : qty += 1
+    qty = int(qty)
+    if qty :
+        st.giveItems(SCRIPTURES,qty)
         st.playSound("ItemSound.quest_itemget")
     return
 
 QUEST       = Quest(639,qn,"¦uÅ@¸tªMªº¤H­Ì")
 
 QUEST.addStartNpc(DOMINIC)
-
 QUEST.addTalkId(DOMINIC)
 QUEST.addTalkId(GREMORY)
 QUEST.addTalkId(GRAIL)

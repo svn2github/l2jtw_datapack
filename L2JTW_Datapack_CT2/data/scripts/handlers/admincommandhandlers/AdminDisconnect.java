@@ -64,11 +64,9 @@ public class AdminDisconnect implements IAdminCommandHandler
 		}
 		else
 		{
-
 			L2CoreMessage cm =  new L2CoreMessage (MessageTable.Messages[76]);
 			cm.addString(player.getName());
 			cm.sendMessage(activeChar);
-
 			
 			//Logout Character
 			LeaveWorld ql = new LeaveWorld();

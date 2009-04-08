@@ -16,9 +16,9 @@ package handlers.itemhandlers;
 
 import net.sf.l2j.gameserver.handler.IItemHandler;
 import net.sf.l2j.gameserver.model.L2ItemInstance;
+import net.sf.l2j.gameserver.model.actor.L2Playable;
 import net.sf.l2j.gameserver.model.actor.instance.L2PcInstance;
 import net.sf.l2j.gameserver.model.actor.instance.L2PetInstance;
-import net.sf.l2j.gameserver.model.actor.L2Playable;
 import net.sf.l2j.gameserver.network.serverpackets.SSQStatus;
 
 /**
@@ -35,7 +35,7 @@ public class SevenSignsRecord implements IItemHandler
 	
 	/**
 	 * 
-	 * @see net.sf.l2j.gameserver.handler.IItemHandler#useItem(net.sf.l2j.gameserver.model.actor.instance.L2Playable, net.sf.l2j.gameserver.model.L2ItemInstance)
+	 * @see net.sf.l2j.gameserver.handler.IItemHandler#useItem(net.sf.l2j.gameserver.model.actor.L2Playable, net.sf.l2j.gameserver.model.L2ItemInstance)
 	 */
 	public void useItem(L2Playable playable, L2ItemInstance item)
 	{

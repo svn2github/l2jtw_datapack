@@ -19,8 +19,8 @@ import net.sf.l2j.gameserver.handler.IItemHandler;
 import net.sf.l2j.gameserver.instancemanager.CastleManager;
 import net.sf.l2j.gameserver.instancemanager.MercTicketManager;
 import net.sf.l2j.gameserver.model.L2ItemInstance;
-import net.sf.l2j.gameserver.model.actor.instance.L2PcInstance;
 import net.sf.l2j.gameserver.model.actor.L2Playable;
+import net.sf.l2j.gameserver.model.actor.instance.L2PcInstance;
 import net.sf.l2j.gameserver.model.entity.Castle;
 import net.sf.l2j.gameserver.network.SystemMessageId;
 import net.sf.l2j.gameserver.network.serverpackets.SystemMessage;
@@ -133,7 +133,7 @@ public class MercTicket implements IItemHandler
         		if (!SevenSigns.getInstance().CheckIsRookiePostingTicket(itemId))
         		{
                 	//_log.warning("Someone has tried to spawn a non-Rookie Mercenary though the Seal of Strife is controlled by Revolutionaries of Dusk.");       	
-                	activeChar.sendPacket(new SystemMessage(SystemMessageId.MERC_CANT_BE_ASSIGNED_USING_STRIFE));       		
+                	activeChar.sendPacket(new SystemMessage(SystemMessageId.MERC_CANT_BE_ASSIGNED_USING_STRIFE));        		
         			return;
         		}          		
         		break;

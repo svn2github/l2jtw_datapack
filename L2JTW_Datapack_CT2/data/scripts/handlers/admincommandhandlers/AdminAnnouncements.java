@@ -112,12 +112,12 @@ public class AdminAnnouncements implements IAdminCommandHandler
 			Announcements sys = new Announcements();
 			sys.handleAnnounce(command, 15);
 		}
+		
 		else if (command.startsWith("admin_reload_autoannounce"))
 		{
 			activeChar.sendMessage(558);
 			AutoAnnouncements.getInstance().reload();
 		}
-
 
 		return true;
 	}

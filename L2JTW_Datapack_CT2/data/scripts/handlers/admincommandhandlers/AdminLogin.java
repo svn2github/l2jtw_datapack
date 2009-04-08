@@ -68,7 +68,6 @@ public class AdminLogin implements IAdminCommandHandler
 				String number = st.nextToken();
 				try
 				{
-
 					LoginServerThread.getInstance().setMaxPlayer(Integer.parseInt(number));
 					L2CoreMessage cm =  new L2CoreMessage (MessageTable.Messages[651]);
 					cm.addNumber(new Integer(number).intValue());

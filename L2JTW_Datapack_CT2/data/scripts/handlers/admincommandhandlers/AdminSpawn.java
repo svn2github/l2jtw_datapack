@@ -39,9 +39,9 @@ import net.sf.l2j.gameserver.network.serverpackets.NpcHtmlMessage;
 import net.sf.l2j.gameserver.network.serverpackets.SystemMessage;
 import net.sf.l2j.gameserver.templates.chars.L2NpcTemplate;
 import net.sf.l2j.gameserver.util.Broadcast;
+import net.sf.l2j.gameserver.util.StringUtil;
 import net.sf.l2j.gameserver.datatables.MessageTable;
 import net.sf.l2j.gameserver.model.L2CoreMessage;
-import net.sf.l2j.gameserver.util.StringUtil;
 
 /**
  * This class handles following admin commands: - show_spawns = shows menu -

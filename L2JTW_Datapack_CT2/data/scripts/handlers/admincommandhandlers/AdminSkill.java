@@ -29,10 +29,8 @@ import net.sf.l2j.gameserver.network.SystemMessageId;
 import net.sf.l2j.gameserver.network.serverpackets.NpcHtmlMessage;
 import net.sf.l2j.gameserver.network.serverpackets.PledgeSkillList;
 import net.sf.l2j.gameserver.network.serverpackets.SystemMessage;
-
 import net.sf.l2j.gameserver.datatables.MessageTable;
 import net.sf.l2j.gameserver.model.L2CoreMessage;
-
 
 /**
  * This class handles following admin commands:
@@ -146,13 +144,10 @@ public class AdminSkill implements IAdminCommandHandler
 				L2PcInstance player = (L2PcInstance) activeChar.getTarget();
 				for (L2Skill skill : player.getAllSkills())
 					player.removeSkill(skill);
-				
 				L2CoreMessage cm =  new L2CoreMessage (MessageTable.Messages[593]);
 				cm.addString(player.getName());
 				cm.sendMessage(activeChar);
-
 				player.sendMessage(34);
-				
 				player.sendSkillList();
 			}
 		}
@@ -209,11 +204,9 @@ public class AdminSkill implements IAdminCommandHandler
 			skills = SkillTreeTable.getInstance().getAvailableSkills(player, player.getClassId());
 		}
 		//Notify player and admin
-		
 		L2CoreMessage cm =  new L2CoreMessage (MessageTable.Messages[15]);
 		cm.addNumber(skillCounter);
 		cm.sendMessage(player);
-
 		cm =  new L2CoreMessage (MessageTable.Messages[522]);
 		cm.addNumber(skillCounter);
 		cm.addString(player.getName());
@@ -240,24 +233,24 @@ public class AdminSkill implements IAdminCommandHandler
 		
 		L2Skill[] skills = player.getAllSkills();
 		
-		int MaxSkillsPerPage = 10;
-		int MaxPages = skills.length / MaxSkillsPerPage;
-		if (skills.length > MaxSkillsPerPage * MaxPages)
-			MaxPages++;
+		int maxSkillsPerPage = 10;
+		int maxPages = skills.length / maxSkillsPerPage;
+		if (skills.length > maxSkillsPerPage * maxPages)
+			maxPages++;
 		
-		if (page > MaxPages)
-			page = MaxPages;
+		if (page > maxPages)
+			page = maxPages;
 		
-		int SkillsStart = MaxSkillsPerPage * page;
-		int SkillsEnd = skills.length;
-		if (SkillsEnd - SkillsStart > MaxSkillsPerPage)
-			SkillsEnd = SkillsStart + MaxSkillsPerPage;
+		int skillsStart = maxSkillsPerPage * page;
+		int skillsEnd = skills.length;
+		if (skillsEnd - skillsStart > maxSkillsPerPage)
+			skillsEnd = skillsStart + maxSkillsPerPage;
 		
 		NpcHtmlMessage adminReply = new NpcHtmlMessage(5);
 		adminReply.setFile("data/html/admin/skillselect.htm");
 		
 		String pages = "";
-		for (int x = 0; x < MaxPages; x++)
+		for (int x = 0; x < maxPages; x++)
 		{
 			int pagenr = x + 1;
 			pages += "<td><a action=\"bypass -h admin_remove_skills " + x + "\">"+MessageTable.Messages[677].getMessage()+ pagenr +MessageTable.Messages[215].getMessage()+"</a></td>";
@@ -267,7 +260,7 @@ public class AdminSkill implements IAdminCommandHandler
 		adminReply.replace("%player%", player.getName());
 		//adminReply.replace("%page%", pages);
 		pages = "";
-		for (int i = SkillsStart; i < SkillsEnd; i++)
+		for (int i = skillsStart; i < skillsEnd; i++)
 			pages += "<tr><td width=80><a action=\"bypass -h admin_remove_skill " + skills[i].getId() + "\">" + skills[i].getName() + "</a></td><td width=60>" + skills[i].getLevel() + "</td><td width=40>" + skills[i].getId()+ "</td></tr>";
 		adminReply.replace("%skill%", pages);
 
@@ -314,11 +307,9 @@ public class AdminSkill implements IAdminCommandHandler
 				activeChar.removeSkill(skill);
 			for (L2Skill skill: skills)
 				activeChar.addSkill(skill, true);
-			
 			L2CoreMessage cm =  new L2CoreMessage (MessageTable.Messages[586]);
 			cm.addString(player.getName());
 			cm.sendMessage(activeChar);
-
 			activeChar.sendSkillList();
 		}
 		showMainPage(activeChar);
@@ -348,11 +339,9 @@ public class AdminSkill implements IAdminCommandHandler
 				activeChar.removeSkill(skill);
 			for (L2Skill skill: adminSkills)
 				activeChar.addSkill(skill, true);
-			
 			L2CoreMessage cm =  new L2CoreMessage (MessageTable.Messages[645]);
 			cm.addString(activeChar.getName());
 			cm.sendMessage(player);
-
 			activeChar.sendMessage(587);
 			adminSkills = null;
 			activeChar.sendSkillList();
@@ -394,18 +383,15 @@ public class AdminSkill implements IAdminCommandHandler
 			if (skill != null)
 			{
 				String name = skill.getName();
-				
 				L2CoreMessage cm =  new L2CoreMessage (MessageTable.Messages[28]);
 				cm.addString(name);
 				cm.sendMessage(player);
-
 				player.addSkill(skill, true);
 				//Admin information
 				cm =  new L2CoreMessage (MessageTable.Messages[524]);
 				cm.addString(name);
 				cm.addString(player.getName());
-				cm.sendMessage(activeChar);
-				
+				cm.sendMessage(activeChar);				
 				if (Config.DEBUG)
 					_log.fine("[GM]" + activeChar.getName() + " gave skill " + name + " to " + player.getName() + ".");
 				activeChar.sendSkillList();
@@ -434,14 +420,12 @@ public class AdminSkill implements IAdminCommandHandler
 			L2CoreMessage cm =  new L2CoreMessage (MessageTable.Messages[35]);
 			cm.addString(skillname);
 			cm.sendMessage(player);
-
 			player.removeSkill(skill);
 			//Admin information	
 			cm =  new L2CoreMessage (MessageTable.Messages[595]);
 			cm.addString(skillname);
 			cm.addString(player.getName());
 			cm.sendMessage(activeChar);
-			
 			if (Config.DEBUG)
 				_log.fine("[GM]" + activeChar.getName() + " removed skill " + skillname + " from " + player.getName() + ".");
 			activeChar.sendSkillList();
@@ -486,7 +470,6 @@ public class AdminSkill implements IAdminCommandHandler
 				player.sendPacket(sm);
 				player.getClan().broadcastToOnlineMembers(sm);
 				player.getClan().addNewSkill(skill);
-				
 				L2CoreMessage cm =  new L2CoreMessage (MessageTable.Messages[523]);
 				cm.addString(skillname);
 				cm.addString(player.getClan().getName());

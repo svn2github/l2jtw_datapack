@@ -40,11 +40,8 @@ import net.sf.l2j.gameserver.network.serverpackets.ItemList;
 import net.sf.l2j.gameserver.network.serverpackets.NpcHtmlMessage;
 import net.sf.l2j.gameserver.network.serverpackets.PlaySound;
 import net.sf.l2j.gameserver.network.serverpackets.UserInfo;
-
-import net.sf.l2j.gameserver.datatables.MessageTable;
-
 import net.sf.l2j.gameserver.util.StringUtil;
-
+import net.sf.l2j.gameserver.datatables.MessageTable;
 
 /**
  * This class handles following admin commands:

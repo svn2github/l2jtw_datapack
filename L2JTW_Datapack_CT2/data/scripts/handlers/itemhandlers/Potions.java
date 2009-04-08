@@ -22,10 +22,10 @@ import net.sf.l2j.gameserver.handler.IItemHandler;
 import net.sf.l2j.gameserver.model.L2Effect;
 import net.sf.l2j.gameserver.model.L2ItemInstance;
 import net.sf.l2j.gameserver.model.L2Skill;
+import net.sf.l2j.gameserver.model.actor.L2Playable;
 import net.sf.l2j.gameserver.model.actor.L2Summon;
 import net.sf.l2j.gameserver.model.actor.instance.L2PcInstance;
 import net.sf.l2j.gameserver.model.actor.instance.L2PetInstance;
-import net.sf.l2j.gameserver.model.actor.L2Playable;
 import net.sf.l2j.gameserver.model.actor.instance.L2SummonInstance;
 import net.sf.l2j.gameserver.model.entity.TvTEvent;
 import net.sf.l2j.gameserver.network.SystemMessageId;
@@ -73,7 +73,7 @@ public class Potions implements IItemHandler
 	
 	/**
 	 * 
-	 * @see net.sf.l2j.gameserver.handler.IItemHandler#useItem(net.sf.l2j.gameserver.model.actor.instance.L2	Instance, net.sf.l2j.gameserver.model.L2ItemInstance)
+	 * @see net.sf.l2j.gameserver.handler.IItemHandler#useItem(net.sf.l2j.gameserver.model.actor.L2Playable, net.sf.l2j.gameserver.model.L2ItemInstance)
 	 */
 	public synchronized void useItem(L2Playable playable, L2ItemInstance item)
 	{
@@ -118,14 +118,18 @@ public class Potions implements IItemHandler
 					return;
 				res = usePotion(playable, 2002, 1);
 				break;
+			case 726: // custom mana drug, xml: 9007
+				if (Config.L2JMOD_ENABLE_MANA_POTIONS_SUPPORT)
+					res = usePotion(activeChar, 9007, 1);
+				break;
 			case 727: // _healing_potion, xml: 2032
 				if (!isEffectReplaceable(playable, L2EffectType.HEAL_OVER_TIME, itemId))
 					return;
 				res = usePotion(playable, 2032, 1);
 				break;
-			case 728: // custom mana potion, xml: 2005
+			case 728: // custom mana potion, xml: 9008
 				if (Config.L2JMOD_ENABLE_MANA_POTIONS_SUPPORT)
-					res = usePotion(activeChar, 2005, 1);
+					res = usePotion(activeChar, 9008, 1);
 				break;
 			case 733: // Endeavor Potion, xml: 2010
 				res = usePotion(playable, 2010, 1);

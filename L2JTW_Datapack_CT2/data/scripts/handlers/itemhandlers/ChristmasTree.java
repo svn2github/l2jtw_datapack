@@ -21,8 +21,8 @@ import net.sf.l2j.gameserver.model.L2ItemInstance;
 import net.sf.l2j.gameserver.model.L2Object;
 import net.sf.l2j.gameserver.model.L2Spawn;
 import net.sf.l2j.gameserver.model.L2World;
-import net.sf.l2j.gameserver.model.actor.instance.L2PcInstance;
 import net.sf.l2j.gameserver.model.actor.L2Playable;
+import net.sf.l2j.gameserver.model.actor.instance.L2PcInstance;
 import net.sf.l2j.gameserver.templates.chars.L2NpcTemplate;
 import net.sf.l2j.gameserver.network.SystemMessageId;
 import net.sf.l2j.gameserver.network.serverpackets.SystemMessage;
@@ -45,7 +45,7 @@ public class ChristmasTree implements IItemHandler
 	
 	/**
 	 * 
-	 * @see net.sf.l2j.gameserver.handler.IItemHandler#useItem(net.sf.l2j.gameserver.model.actor.instance.L2Playable, net.sf.l2j.gameserver.model.L2ItemInstance)
+	 * @see net.sf.l2j.gameserver.handler.IItemHandler#useItem(net.sf.l2j.gameserver.model.actor.L2Playable, net.sf.l2j.gameserver.model.L2ItemInstance)
 	 */
 	public void useItem(L2Playable playable, L2ItemInstance item)
 	{
@@ -79,6 +79,7 @@ public class ChristmasTree implements IItemHandler
 			L2World.getInstance().storeObject(spawn.spawnOne(false));
 			
 			activeChar.destroyItem("Consume", item.getObjectId(), 1, null, false);
+			
 			L2CoreMessage cm =  new L2CoreMessage (MessageTable.Messages[92]);
 			cm.addString(template1.name);
 			cm.addNumber(spawn.getLocx());
