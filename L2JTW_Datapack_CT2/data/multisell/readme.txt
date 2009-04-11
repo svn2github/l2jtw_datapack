@@ -68,6 +68,8 @@ of this directory a little bit.
 311262511.xml -> Seven Signs - Blacksmith of Mammon - Weapon Upgrade
 311262512.xml -> Seven Signs - Blacksmith of Mammon - Weapon Exchange
 311262513.xml -> Seven Signs - Blacksmith of Mammon - Foundation Items
+311262514.xml -> Seven Signs - Blacksmith of Mammon - Unseal S80-Grade Armor
+311262515.xml -> Seven Signs - Blacksmith of Mammon - Unseal S80-grade Accesories
 
 306893001.xml -> Shadow weaponry system. D-grade coupons exchange
 306893002.xml -> Shadow weaponry system. C-grade coupons exchange
@@ -121,6 +123,7 @@ of this directory a little bit.
 32326001.xml -> Yang - Elemental potions
 32326002.xml -> Yang - Elemental stones
 
+323780001.xml -> Fantasi Isle Paddies: Exchange Fantasy Isle coins for goodies
 364790001.xml -> Reputation Manager: PvP weapons, armors enhancement
 364790002.xml -> Reputation Manager: Removal of PvP enhancement
 364790003.xml -> Reputation Manager: Consumables

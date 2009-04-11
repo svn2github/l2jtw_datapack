@@ -57,13 +57,15 @@ class Quest (JQuest) :
                 st = player.getQuestState(qn)
                 if st.getQuestItemsCount(3865) > 0 :
                     st.takeItems(3865,1)
-                    GrandBossManager.getInstance().getZone(174170,114753,-7709).allowPlayerEntry(player,30)
+                    zone = GrandBossManager.getInstance().getZone(174170,114753,-7709)
+                    if zone : 
+                       zone.allowPlayerEntry(player,30)
                     x = 174170 + Rnd.get(260)
                     y = 113983 + Rnd.get(1500)
                     player.teleToLocation(x,y,-7709)
                     if status == 0 :
                         antharas = GrandBossManager.getInstance().getBoss(29019)
-                        self.antharasAI.startQuestTimer("waiting",ExternalConfig.Antharas_Wait_Time, antharas, None)
+                        self.antharasAI.startQuestTimer("waiting",1800000, antharas, None)
                         GrandBossManager.getInstance().setBossStatus(29019,1)
                     return
                 else :
@@ -83,14 +85,16 @@ class Quest (JQuest) :
                 if self.count >= 200 :
                    htmltext = "31385-03.htm"
                 else :
-                   GrandBossManager.getInstance().getZone(212852,-114842,-1632).allowPlayerEntry(player,30)
+                   zone = GrandBossManager.getInstance().getZone(212852,-114842,-1632)
+                   if zone :
+                      zone.allowPlayerEntry(player,30)
                    x = 204328 + Rnd.get(600)
                    y = -111874 + Rnd.get(600)
                    player.teleToLocation(x,y,70)
                    self.count = self.count+1
                    if status == 0 :
                       valakas = GrandBossManager.getInstance().getBoss(29028)
-                      self.valakasAI.startQuestTimer("1001",ExternalConfig.Valakas_Wait_Time, valakas, None)
+                      self.valakasAI.startQuestTimer("1001",1800000, valakas, None)
                       GrandBossManager.getInstance().setBossStatus(29028,1)
                    return
             elif status == 2 :

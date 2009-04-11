@@ -49,7 +49,7 @@
   <set name="castRange" val="1000"/> <!-- Must be validated -->
   <for>
     <effect count="0x7fffffff" name="Fusion" time="600" val="15" stackOrder="0" stackType="SpellForce">
-      <mul order="0x30" stat="mAtk" val="1.1"/><!-- Guess -->
+      <mul order="0x30" stat="mAtk" val="1.1"/> <!-- Guess -->
     </effect>
   </for>
 </skill>
@@ -1228,9 +1228,9 @@
   <set name="castRange" val="-1"/>
   <set name="hitTime" val="4000"/>
 </skill>
-<skill id="5195" levels="5" name="Pet Greater Heal">
-  <table name="#mpConsume"> 105 109 115 115 115 </table>
-  <table name="#power"> 340 380 417 450 475 </table>
+<skill id="5195" levels="12" name="Pet Greater Heal">
+  <table name="#mpConsume"> 9 15 23 32 40 49 58 62 64 65 67 67 </table>
+  <table name="#power"> 58 92 148 219 299 380 450 477 500 525 542 550 </table>
   <set name="mpConsume" val="#mpConsume"/>
   <set name="power" val="#power"/>
   <set name="target" val="TARGET_OWNER_PET"/>

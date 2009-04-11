@@ -743,7 +743,7 @@
   <set name="castRange" val="600"/>
   <set name="effectRange" val="1500"/>
   <for>
-    <effect count="10" name="DamOverTime" time="3" val="#dmg" abnormal="poison" />
+    <effect count="10" name="DamOverTime" time="3" val="#dmg" abnormal="poison"/>
   </for>
 </skill>
 <skill id="742" levels="3" name="Vale Master Bursting Flame">
@@ -1653,6 +1653,9 @@
   <set name="skillRadius" val="250"/> <!-- Guess -->
   <set name="skillType" val="DEBUFF"/>
   <set name="target" val="TARGET_AURA"/>
+  <cond msg="Touch of Shilen cannot be used due to unsuitable terms.">
+    <target active_effect_id="5564"/> <!-- Needs Core-Side improvement "Require 5564 in Lvl 3" -->
+  </cond>
   <for>
     <effect count="1" name="Debuff" time="120" val="0">
       <mul order="0x30" stat="maxCp" val="0.25"/>
