@@ -1,4 +1,5 @@
-#pmq
+# pmq
+
 import sys
 from net.sf.l2j.gameserver.model.quest import State
 from net.sf.l2j.gameserver.model.quest import QuestState
@@ -37,11 +38,11 @@ class Quest (JQuest) :
     elif event == "6" :
       if RED >= 744 :
         htmltext = "32245-06.htm"
-        st.takeItems(REDSTONE,-744)
+        st.takeItems(REDSTONE,744)
         st.giveItems(DYNASTICESSENCEII,1)
         st.playSound("ItemSound.quest_giveup")
       else :
-        htmltext = "32245-09.htm"
+        htmltext = st.showHtmlFile("32245-09.htm").replace("%pmq%",str(RED))
     elif event == "32245-08.htm" :
         st.takeItems(RED,-1)
         st.giveItems(ADENA,RED*10000)
@@ -64,9 +65,9 @@ class Quest (JQuest) :
            st.exitQuest(1)
        else :
          if cond == 1 and RED >= 1 :
-           htmltext = "32245-05.htm"
+            htmltext = st.showHtmlFile("32245-05.htm").replace("%pmq%",str(RED))
          else :
-           htmltext = "32245-04.htm"
+            htmltext = "32245-04.htm"
      return htmltext
 
   def onKill(self, npc, player, isPet) :
