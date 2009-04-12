@@ -65,7 +65,7 @@ class Quest (JQuest) :
                     player.teleToLocation(x,y,-7709)
                     if status == 0 :
                         antharas = GrandBossManager.getInstance().getBoss(29019)
-                        self.antharasAI.startQuestTimer("waiting",1800000, antharas, None)
+                        self.antharasAI.startQuestTimer("waiting",ExternalConfig.Antharas_Wait_Time, antharas, None)
                         GrandBossManager.getInstance().setBossStatus(29019,1)
                     return
                 else :
@@ -94,7 +94,7 @@ class Quest (JQuest) :
                    self.count = self.count+1
                    if status == 0 :
                       valakas = GrandBossManager.getInstance().getBoss(29028)
-                      self.valakasAI.startQuestTimer("1001",1800000, valakas, None)
+                      self.valakasAI.startQuestTimer("1001",ExternalConfig.Valakas_Wait_Time, valakas, None)
                       GrandBossManager.getInstance().setBossStatus(29028,1)
                    return
             elif status == 2 :
