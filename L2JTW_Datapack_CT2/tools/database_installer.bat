@@ -691,7 +691,8 @@ echo 完成...
 echo.
 echo ☆注意：部分系統安裝中文化會失敗，導致遊戲中出現亂碼
 echo 　　　　如果遇到這種情形，請再手動導入SQL裡面的
-echo 　　　　messagetable / char_templates_tw / auto_chat_text_tw 這3個SQL
+echo 　　　　auto_chat_text_tw / messagetable /
+echo 　　　　char_templates_tw / auto_announcements 這4個SQL
 echo.
 set cstprompt=n
 set /p cstprompt=安裝 custom 自訂資料表: (y) 確定 或 (N) 取消 或 (q) 退出？（預設值-取消）:

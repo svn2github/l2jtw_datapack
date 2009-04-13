@@ -1883,12 +1883,10 @@
   <set name="operateType" val="OP_PASSIVE"/>
   <set name="castRange" val="-1"/>
   <set name="effectRange" val="-1"/>
-  <!-- Update by rocknow -->
   <for>
-    <cond>
-      <game time="night"/>
-    </cond>
-    <add order="0x40" stat="accCombat" val="3"/>
+    <add order="0x40" stat="accCombat" val="3">
+      <cond><game time="night"/></cond>
+    </add>
   </for>
 </skill>
 <skill id="295" levels="1" name="Iron Body">

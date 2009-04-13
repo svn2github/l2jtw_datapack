@@ -1,3 +1,4 @@
+Set Names utf8;
 -- ----------------------------
 -- Table structure for messagetable
 -- ----------------------------

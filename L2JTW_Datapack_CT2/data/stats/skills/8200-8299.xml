@@ -692,17 +692,18 @@
   <set name="castRange" val="-1"/>
   <set name="effectRange" val="-1"/>
   <for>
-    <effect count="1" name="Transformation" time="1800" val="0"/> <!-- duration Guess -->
+    <effect count="1" name="Transformation" time="3600" val="0"/> <!-- duration 1 hr -->
   </for>
 </skill>
 <skill id="8247" levels="1" name="Mount Light Purple Maned Horse">
-  <!-- Update by rocknow -->
   <set name="target" val="TARGET_SELF"/>
-  <set name="skillType" val="MOUNT"/>
-  <set name="npcId" val="13130"/>
-  <set name="itemId" val="20029"/>
+  <set name="skillType" val="BUFF"/>
   <set name="operateType" val="OP_ACTIVE"/>
+  <set name="transformId" val="106"/>
   <set name="castRange" val="-1"/>
+  <for>
+    <effect count="1" name="Transformation" time="1800" val="0"/> <!-- duration Guess -->
+  </for>
 </skill>
 <skill id="8248" levels="1" name="Cancel Gatekeeper Transformation">
   <set name="target" val="TARGET_SELF"/>
@@ -719,20 +720,10 @@
   <set name="castRange" val="-1"/>
 </skill>
 <skill id="8250" levels="2" name="Summon Tigress">
-  <!-- Update by rocknow from L2Emu -->
-  <table name="#npc"> 14916 14917 </table>
-  <set name="mpConsume" val="117"/>
-  <set name="target" val="TARGET_SELF"/>
-  <set name="reuseDelay" val="20000"/>
-  <set name="hitTime" val="15000"/>
-  <set name="skillType" val="SUMMON"/>
-  <set name="isMagic" val="true"/>
-  <set name="operateType" val="OP_ACTIVE"/>
+  <set name="target" val="TARGET_NONE"/>
+  <set name="skillType" val="NOTDONE"/>
+  <set name="operateType" val="OP_PASSIVE"/>
   <set name="castRange" val="-1"/>
-  <set name="effectRange" val="-1"/>
-  <set name="npcId" val="#npc"/>
-  <set name="summonTotalLifeTime" val="5400000"/>
-  <set name="expPenalty" val="0.0"/>
-  <set name="isCubic" val="false"/>
+  <set name="hitTime" val="15000"/>
 </skill>
 </list>

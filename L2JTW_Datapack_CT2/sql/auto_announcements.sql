@@ -1,4 +1,4 @@
-
+Set Names utf8;
 -- ----------------------------
 -- Table structure for auto_announcements
 -- ----------------------------
