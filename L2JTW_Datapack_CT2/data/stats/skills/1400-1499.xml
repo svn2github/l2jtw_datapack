@@ -1575,11 +1575,22 @@
   </for>
 </skill>
 <skill id="1480" levels="1" name="Soul Harmony">
-  <set name="target" val="TARGET_NONE"/>
-  <set name="skillType" val="NOTDONE"/>
-  <set name="operateType" val="OP_PASSIVE"/>
-  <set name="castRange" val="-1"/>
+  <!-- Update by rocknow -->
+  <set name="mpConsume" val="130"/>
+  <set name="target" val="TARGET_PARTY"/>
+  <set name="reuseDelay" val="1800000"/>
   <set name="hitTime" val="2500"/>
+  <set name="skillType" val="BUFF"/>
+  <set name="operateType" val="OP_ACTIVE"/>
+  <set name="castRange" val="-1"/>
+  <set name="effectRange" val="-1"/>
+  <set name="soulConsumeCount" val="20"/>
+  <for>
+    <effect count="1" name="ImmobileBuff" time="15" val="0">
+      <add order="0x40" stat="regMp" val="200"/>
+      <mul order="0x30" stat="pDef" val="0.1"/>
+    </effect>
+  </for>
 </skill>
 <skill id="1481" levels="7" name="Obilivion">
   <set name="target" val="TARGET_NONE"/>
