@@ -1,3 +1,4 @@
+Set Names utf8;
 -- ----------------------------
 -- Table structure for messagetable
 -- ----------------------------
@@ -2198,8 +2199,8 @@ INSERT INTO `messagetable` VALUES ('727', 'en', '', null);
 INSERT INTO `messagetable` VALUES ('727', 'tw', '', null);
 INSERT INTO `messagetable` VALUES ('727', 'cn', '', null);
 INSERT INTO `messagetable` VALUES ('728', 'en', 'Server aborts $E1 and continues normal operation!', 'Shutdown;Restart;Abort');
-INSERT INTO `messagetable` VALUES ('728', 'tw', '伺服器取消$1，繼續正常運作！', '關閉;重新啟動;取消');
-INSERT INTO `messagetable` VALUES ('728', 'cn', '服务器取消$1，继续正常运作！', '关闭;重新启动;取消');
+INSERT INTO `messagetable` VALUES ('728', 'tw', '伺服器取消「$E1」，繼續正常運作！', '關閉;重新啟動;放棄');
+INSERT INTO `messagetable` VALUES ('728', 'cn', '服务器取消“$E1”，继续正常运作！', '关闭;重新启动;放弃');
 INSERT INTO `messagetable` VALUES ('729', 'en', '', null);
 INSERT INTO `messagetable` VALUES ('729', 'tw', '', null);
 INSERT INTO `messagetable` VALUES ('729', 'cn', '', null);
