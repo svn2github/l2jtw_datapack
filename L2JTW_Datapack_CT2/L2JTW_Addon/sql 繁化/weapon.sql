@@ -3012,3 +3012,24 @@ UPDATE `weapon` SET `name` ='勝利之劍格蘭-活動	限時4小時' WHERE item
 UPDATE `weapon` SET `name` ='薩倫伽神弩-活動	限時4小時' WHERE item_id ='20178';
 
 /***** Done by vdmyagami！ *****/ 
+
+/***** 貳幕破滅國境 *****/
+UPDATE `weapon` SET `name` ='薄暮雙刀' WHERE item_id ='52';
+UPDATE `weapon` SET `name` ='薄暮切刃' WHERE item_id ='13457';
+UPDATE `weapon` SET `name` ='薄暮殺刃' WHERE item_id ='13458';
+UPDATE `weapon` SET `name` ='薄暮爆刃' WHERE item_id ='13459';
+UPDATE `weapon` SET `name` ='薄暮鉋刀' WHERE item_id ='13460';
+UPDATE `weapon` SET `name` ='薄暮戰士' WHERE item_id ='13461';
+UPDATE `weapon` SET `name` ='薄暮風暴者' WHERE item_id ='13462';
+UPDATE `weapon` SET `name` ='薄暮復仇者' WHERE item_id ='13463';
+UPDATE `weapon` SET `name` ='薄暮報應' WHERE item_id ='13464';
+UPDATE `weapon` SET `name` ='薄暮投擲者' WHERE item_id ='13465';
+UPDATE `weapon` SET `name` ='薄暮詩人' WHERE item_id ='13466';
+UPDATE `weapon` SET `name` ='薄暮發射器' WHERE item_id ='13467';
+UPDATE `weapon` SET `name` ='薄暮螯針' WHERE item_id ='13468';
+UPDATE `weapon` SET `name` ='薄暮射擊器' WHERE item_id ='13469';
+UPDATE `weapon` SET `name` ='薄暮手槍' WHERE item_id ='13470';
+UPDATE `weapon` SET `name` ='薄暮衛盾' WHERE item_id ='13471';
+UPDATE `weapon` SET `name` ='王朝雙匕首' WHERE item_id ='13882';
+UPDATE `weapon` SET `name` ='伊克魯斯雙匕首' WHERE item_id ='13883';
+UPDATE `weapon` SET `name` ='薄暮雙匕首' WHERE item_id ='13884';

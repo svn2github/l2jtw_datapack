@@ -202,6 +202,17 @@
     <enchant val="0" order="0x0C" stat="sDef"/>
   </for>
 </item>
+<item id="52" name="52"><!-- Update by rocknow -->
+  <for>
+    <set val="482" order="0x08" stat="pAtk"/>
+    <set val="176" order="0x08" stat="mAtk"/>
+    <set val="10" order="0x08" stat="rCrit"/>
+    <add val="-1" order="0x10" stat="accCombat"/>
+    <set val="406" order="0x08" stat="pAtkSpd"/>
+    <enchant val="0" order="0x0C" stat="pAtk"/>
+    <enchant val="0" order="0x0C" stat="mAtk"/>
+  </for>
+</item>
 <item id="66" name="Gladius">
   <for>
     <set val="17" order="0x08" stat="pAtk"/>
