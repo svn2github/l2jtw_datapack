@@ -2204,3 +2204,23 @@ UPDATE `armor` SET `name` ='壺精封印手鐲-食人妖' WHERE item_id ='20252'
 UPDATE `armor` SET `name` ='愛心壺精-活動' WHERE item_id ='20253';
 
 /***** Done by vdmyagami！ *****/
+
+/***** 貳幕破滅國境 *****/
+UPDATE `armor` SET `name` ='薄暮頭盔' WHERE item_id ='13137';
+UPDATE `armor` SET `name` ='薄暮皮頭盔' WHERE item_id ='13138';
+UPDATE `armor` SET `name` ='薄暮頭箍' WHERE item_id ='13139';
+UPDATE `armor` SET `name` ='薄暮胸甲' WHERE item_id ='13432';
+UPDATE `armor` SET `name` ='薄暮皮胸甲' WHERE item_id ='13433';
+UPDATE `armor` SET `name` ='薄暮外衣' WHERE item_id ='13434';
+UPDATE `armor` SET `name` ='薄暮脛甲' WHERE item_id ='13438';
+UPDATE `armor` SET `name` ='薄暮護手' WHERE item_id ='13439';
+UPDATE `armor` SET `name` ='薄暮靴' WHERE item_id ='13440';
+UPDATE `armor` SET `name` ='薄暮皮脛甲' WHERE item_id ='13441';
+UPDATE `armor` SET `name` ='薄暮皮手套' WHERE item_id ='13442';
+UPDATE `armor` SET `name` ='薄暮皮靴' WHERE item_id ='13443';
+UPDATE `armor` SET `name` ='薄暮長襪' WHERE item_id ='13444';
+UPDATE `armor` SET `name` ='薄暮手套' WHERE item_id ='13445';
+UPDATE `armor` SET `name` ='薄暮鞋' WHERE item_id ='13446';
+UPDATE `armor` SET `name` ='薄暮耳環' WHERE item_id ='14163';
+UPDATE `armor` SET `name` ='薄暮項鍊' WHERE item_id ='14164';
+UPDATE `armor` SET `name` ='薄暮戒指' WHERE item_id ='14165';

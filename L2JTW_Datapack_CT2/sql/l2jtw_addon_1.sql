@@ -63,7 +63,7 @@ UPDATE `armor` SET `skill` = '3424-1;3267-1;5536-1;' WHERE `item_id` in (10326);
 UPDATE `armor` SET `skill` = '3425-1;3267-1;5537-1;' WHERE `item_id` in (10606);
 UPDATE `armor` SET `skill` = '3423-1;3267-1;5535-1;' WHERE `item_id` in (12779);
 UPDATE `armor` SET `skill` = '3424-1;3267-1;5536-1;' WHERE `item_id` in (12780);
-UPDATE `armor` SET `skill` = '8247-1;839-1;' WHERE `item_id` in (13022,13308,20030);
+UPDATE `armor` SET `skill` = '8247-1;' WHERE `item_id` in (13022,13308,20030);
 UPDATE `armor` SET `skill` = '8245-1;3267-1;' WHERE `item_id` in (13023,13254,13309,13340);
 UPDATE `armor` SET `skill` = '21000-1;3267-1;23000-1;' WHERE `item_id` in (20006);
 UPDATE `armor` SET `skill` = '21001-1;3267-1;23001-1;' WHERE `item_id` in (20007);
@@ -804,7 +804,10 @@ UPDATE `auction` SET `startingBid` = '20000000' WHERE `id` in (58,59,60,61);
 
 /************ 加入破滅國境的道具 ************/
 -- S84薄暮武器
-Delete From `armor` Where `item_id` in (52);
+Delete From `armor` Where `item_id` in (52,53,54,55,56);
+Delete From `etcitem` Where `item_id` in (13137,13138,13139,13140,13141,13142,13143,13144,13145,13146,13147,13148);
+Delete From `weapon` Where `item_id` in (136,137,138,139,140,141,163,170);
+Delete From `merchant_buylists` Where `item_id` in (52,53,54,55,56,136,137,138,139,140,141,163,170);
 REPLACE INTO `weapon` VALUES
 (52,'52','lrhand','true',1520,1,1,'wood','s80',482,10,'dual',8,0.00000,0,0,0,325,0,176,-1,-1,0,0,'true','true','true','true',0,0,0,0,0,0,0,0,0,'0-0;'),
 (13457,'13457','rhand','true',1520,1,1,'steel','s80',396,10,'sword',8,0.00000,0,0,0,379,0,176,-1,-1,0,0,'true','true','true','true',0,0,0,0,0,0,0,0,0,'0-0;'),
@@ -825,3 +828,24 @@ REPLACE INTO `weapon` VALUES
 (13882,'13882','lrhand','true',1520,1,1,'steel','s80',304,5,'dual',8,0.00000,0,0,0,433,0,157,-1,-1,0,0,'true','true','true','true',0,0,0,0,0,0,0,0,0,'0-0;'),
 (13883,'13883','lrhand','true',1520,1,1,'steel','s80',332,5,'dual',8,0.00000,0,0,0,433,0,169,-1,-1,0,0,'true','true','true','true',0,0,0,0,0,0,0,0,0,'0-0;'),
 (13884,'13884','lrhand','true',1520,1,1,'steel','s80',360,5,'dual',8,0.00000,0,0,0,433,0,181,-1,-1,0,0,'true','true','true','true',0,0,0,0,0,0,0,0,0,'0-0;');
+
+-- S84薄暮防具
+REPLACE INTO `armor` VALUES
+(13137,'13137','head','true','heavy',530,'wood','s80',0,-1,-1,101,0,0,0,0,'true','true','true','true','0-0;'),
+(13138,'13138','head','true','light',530,'wood','s80',0,-1,-1,101,0,0,0,0,'true','true','true','true','0-0;'),
+(13139,'13139','head','true','magic',530,'wood','s80',0,-1,-1,101,0,0,0,0,'true','true','true','true','0-0;'),
+(13432,'13432','chest','true','heavy',7520,'wood','s80',0,-1,-1,250,0,0,0,0,'true','true','true','true','0-0;'),
+(13433,'13433','chest','true','light',4140,'wood','s80',0,-1,-1,187,0,0,0,0,'true','true','true','true','0-0;'),
+(13434,'13434','chest','true','magic',1750,'wood','s80',0,-1,-1,125,0,637,0,0,'true','true','true','true','0-0;'),
+(13438,'13438','legs','true','heavy',3170,'wood','s80',0,-1,-1,156,0,0,0,0,'true','true','true','true','0-0;'),
+(13439,'13439','gloves','true','heavy',510,'wood','s80',0,-1,-1,68,0,0,0,0,'true','true','true','true','0-0;'),
+(13440,'13440','feet','true','heavy',1070,'wood','s80',0,-1,-1,68,0,0,0,0,'true','true','true','true','0-0;'),
+(13441,'13441','legs','true','light',1320,'wood','s80',0,-1,-1,117,0,0,0,0,'true','true','true','true','0-0;'),
+(13442,'13442','gloves','true','light',510,'wood','s80',0,-1,-1,68,0,0,0,0,'true','true','true','true','0-0;'),
+(13443,'13443','feet','true','light',1070,'wood','s80',0,-1,-1,68,0,0,0,0,'true','true','true','true','0-0;'),
+(13444,'13444','legs','true','magic',850,'wood','s80',0,-1,-1,78,0,415,0,0,'true','true','true','true','0-0;'),
+(13445,'13445','gloves','true','magic',510,'wood','s80',0,-1,-1,68,0,0,0,0,'true','true','true','true','0-0;'),
+(13446,'13446','feet','true','magic',1070,'wood','s80',0,-1,-1,68,0,0,0,0,'true','true','true','true','0-0;'),
+(14163,'14163','rear,lear','true','none',150,'wood','s80',0,-1,-1,0,94,37,0,0,'true','true','true','true','0-0;'),
+(14164,'14164','neck','true','none',150,'wood','s80',0,-1,-1,0,125,50,0,0,'true','true','true','true','0-0;'),
+(14165,'14165','rfinger,lfinger','true','none',150,'wood','s80',0,-1,-1,0,62,25,0,0,'true','true','true','true','0-0;');
