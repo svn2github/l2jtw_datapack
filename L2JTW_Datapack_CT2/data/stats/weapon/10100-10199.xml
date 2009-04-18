@@ -1,5 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <list>
+<item id="10119" name="10119"><!-- Update by rocknow -->
+  <cond msgId="1518">
+    <target class_id_restriction="10,11,12,13,14,15,16,17,25,26,27,28,29,30,38,39,40,41,42,43,49,50,51,52,94,95,96,97,98,103,104,105,110,111,112,115,116"/>
+  </cond>
+  <for>
+    <sub val="8" order="0x10" stat="rEvas"/>
+    <set val="15" order="0x08" stat="sDef"/>
+    <set val="20" order="0x08" stat="rShld"/>
+    <add val="200" order="0x40" stat="maxMp"/>
+    <mul order="0x30" stat="regMp" val="1.4"/>
+    <mul order="0x30" stat="mAtk" val="1.4"/>
+    <enchant val="0" order="0x0C" stat="sDef"/>
+  </for>
+</item>
 <item id="10125" name="Shadow Item - War Axe">
   <for>
    <set val="139" order="0x08" stat="pAtk"/>

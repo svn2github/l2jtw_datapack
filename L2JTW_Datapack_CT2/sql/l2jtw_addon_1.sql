@@ -805,7 +805,7 @@ UPDATE `auction` SET `startingBid` = '20000000' WHERE `id` in (58,59,60,61);
 /************ 加入破滅國境的道具 ************/
 -- S84薄暮武器
 Delete From `armor` Where `item_id` in (52,53,54,55,56);
-Delete From `etcitem` Where `item_id` in (13137,13138,13139,13140,13141,13142,13143,13144,13145,13146,13147,13148);
+Delete From `etcitem` Where `item_id` in (10117,10118,10119,10120,10121,13074,13075,13076,13077,13078,13137,13138,13139,13140,13141,13142,13143,13144,13145,13146,13147,13148);
 Delete From `weapon` Where `item_id` in (136,137,138,139,140,141,163,170);
 Delete From `merchant_buylists` Where `item_id` in (52,53,54,55,56,136,137,138,139,140,141,163,170);
 REPLACE INTO `weapon` VALUES
@@ -849,3 +849,23 @@ REPLACE INTO `armor` VALUES
 (14163,'14163','rear,lear','true','none',150,'wood','s80',0,-1,-1,0,94,37,0,0,'true','true','true','true','0-0;'),
 (14164,'14164','neck','true','none',150,'wood','s80',0,-1,-1,0,125,50,0,0,'true','true','true','true','0-0;'),
 (14165,'14165','rfinger,lfinger','true','none',150,'wood','s80',0,-1,-1,0,62,25,0,0,'true','true','true','true','0-0;');
+
+-- 符印
+REPLACE INTO `weapon` VALUES
+(10119,'10119','lhand','true',930,0,0,'fine_steel','s80',0,0,'none',0,0.00000,-8,15,20,0,0,0,-1,-1,0,0,'true','true','true','true',0,0,0,0,0,0,0,0,0,'0-0;'),
+(13078,'13078','lhand','true',940,0,0,'fine_steel','s',0,0,'none',0,0.00000,-8,13,20,0,0,0,-1,-1,0,0,'true','true','true','true',0,0,0,0,0,0,0,0,0,'0-0;');
+
+-- 斗篷
+REPLACE INTO `armor` VALUES
+(13687,'13687','back','true','heavy',220,'wood','s80',0,-1,-1,20,0,0,0,0,'true','true','true','true','0-0;'),
+(13688,'13687','back','true','light',220,'wood','s80',0,-1,-1,20,0,0,0,0,'true','true','true','true','0-0;'),
+(13689,'13687','back','true','magic',220,'wood','s80',0,-1,-1,20,0,0,0,0,'true','true','true','true','0-0;'),
+(13690,'13687','back','true','light',220,'wood','s80',0,-1,-1,20,0,0,0,0,'true','true','true','true','0-0;'),
+(13889,'13889','back','true','light',220,'wood','s80',0,-1,-1,20,0,0,0,0,'true','true','true','true','0-0;'),
+(13890,'13890','back','true','heavy',220,'wood','s80',0,-1,-1,20,0,0,0,0,'true','true','true','true','0-0;'),
+(13891,'13891','back','true','light',220,'wood','s80',0,-1,-1,20,0,0,0,0,'true','true','true','true','0-0;'),
+(13892,'13892','back','true','magic',220,'wood','s80',0,-1,-1,20,0,0,0,0,'true','true','true','true','0-0;'),
+(14601,'14601','back','true','light',220,'wood','s80',0,-1,-1,20,0,0,0,0,'true','true','true','true','0-0;'),
+(14608,'14608','back','true','light',220,'wood','s80',0,-1,-1,20,0,0,0,0,'true','true','true','true','0-0;'),
+(14609,'14609','back','true','heavy',220,'wood','s80',0,-1,-1,20,0,0,0,0,'true','true','true','true','0-0;'),
+(14610,'14610','back','true','magic',220,'wood','s80',0,-1,-1,20,0,0,0,0,'true','true','true','true','0-0;');
