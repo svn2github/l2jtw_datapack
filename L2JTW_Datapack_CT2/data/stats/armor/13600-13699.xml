@@ -1,16 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <list>
 <item id="13687" name="13687"><!-- Update by rocknow -->
+  <cond msgId="1518">
+    <target class_id_restriction="88, 89, 90, 91, 99, 100, 106, 107, 113, 114, 117, 118"/>
+  </cond>
   <for>
     <add val="20" order="0x10" stat="pDef"/>
   </for>
 </item>
 <item id="13688" name="13688"><!-- Update by rocknow -->
+  <cond msgId="1518">
+    <target class_id_restriction="88, 89, 90, 91, 99, 100, 106, 107, 113, 114, 117, 118"/>
+  </cond>
   <for>
     <add val="20" order="0x10" stat="pDef"/>
   </for>
 </item>
 <item id="13689" name="13689"><!-- Update by rocknow -->
+  <cond msgId="1518">
+    <target class_id_restriction="88, 89, 90, 91, 99, 100, 106, 107, 113, 114, 117, 118"/>
+  </cond>
   <for>
     <add val="20" order="0x10" stat="pDef"/>
   </for>
