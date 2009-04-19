@@ -945,3 +945,24 @@ REPLACE INTO `armor` VALUES
 (20323,'20323','hairall','false','none',10,'wood','none',0,-1,-1,0,0,0,0,0,'true','true','true','true','0-0;'),
 (20324,'20324','hairall','false','none',10,'wood','none',0,-1,-1,0,0,0,0,0,'true','true','true','true','0-0;'),
 (20325,'20325','hairall','false','none',10,'wood','none',0,-1,-1,0,0,0,0,0,'true','true','true','true','0-0;');
+
+-- ·s³ýºë
+REPLACE INTO `armor` VALUES
+(13543,'13543','lbracelet','false','none',150, 'wood','none',0,-1,-1,0,0,0,0,0,'false','false','true','false','8251-1;5780-1;3267-1;'),
+(13544,'13544','lbracelet','false','none',150, 'wood','none',0,-1,-1,0,0,0,0,0,'false','false','true','false','8259-1;5958-1;3267-1;'),
+(13545,'13545','lbracelet','false','none',150, 'wood','none',0,-1,-1,0,0,0,0,0,'false','false','true','false','8260-1;5959-1;3267-1;'),
+(14675,'14675','lbracelet','false','none',150, 'wood','none',0,-1,-1,0,0,0,0,0,'false','false','true','false','8314-1;6124-1;3267-1;'),
+(20297,'20297','lbracelet','false','none',150, 'wood','none',0,-1,-1,0,0,0,0,0,'false','false','true','false','21043-1;23049-1;3267-1;'),
+(20298,'20298','lbracelet','false','none',150, 'wood','none',0,-1,-1,0,0,0,0,0,'false','false','true','false','21043-1;23049-1;23057-1;3267-1;'),
+(20299,'20299','lbracelet','false','none',150, 'wood','none',0,-1,-1,0,0,0,0,0,'false','false','true','false','21044-1;23050-1;3267-1;'),
+(20300,'20300','lbracelet','false','none',150, 'wood','none',0,-1,-1,0,0,0,0,0,'false','false','true','false','21044-1;23050-1;23058-1;3267-1;'),
+(20301,'20301','lbracelet','false','none',150, 'wood','none',0,-1,-1,0,0,0,0,0,'false','false','true','false','21045-1;23051-1;23059-1;3267-1;'),
+(20302,'20302','lbracelet','false','none',150, 'wood','none',0,-1,-1,0,0,0,0,0,'false','false','true','false','21045-1;23051-1;23060-1;3267-1;'),
+(20303,'20303','lbracelet','false','none',150, 'wood','none',0,-1,-1,0,0,0,0,0,'false','false','true','false','21046-1;23052-1;3267-1;'),
+(20304,'20304','lbracelet','false','none',150, 'wood','none',0,-1,-1,0,0,0,0,0,'false','false','true','false','21046-1;23052-1;23061-1;3267-1;'),
+(20305,'20305','lbracelet','false','none',150, 'wood','none',0,-1,-1,0,0,0,0,0,'false','false','true','false','21046-1;23052-1;23062-1;3267-1;'),
+(20307,'20307','lbracelet','false','none',150, 'wood','none',0,-1,-1,0,0,0,0,0,'false','false','true','false','23053-1;21047-1;3267-1;'),
+(20309,'20309','lbracelet','false','none',150, 'wood','none',0,-1,-1,0,0,0,0,0,'false','false','true','false','21048-1;23054-1;3267-1;'),
+(20310,'20310','lbracelet','false','none',150, 'wood','none',0,-1,-1,0,0,0,0,0,'false','false','true','false','21049-1;23055-1;3267-1;'),
+(20311,'20311','lbracelet','false','none',150, 'wood','none',0,-1,-1,0,0,0,0,0,'false','false','true','false','21049-1;23055-1;23065-1;3267-1;'),
+(20312,'20312','lbracelet','false','none',150, 'wood','none',0,-1,-1,0,0,0,0,0,'false','false','true','false','21050-1;23056-1;3267-1;');

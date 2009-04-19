@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <list>
-<item id="13889" name="13889"><!-- Update by rocknow -->
+<item id="13889" name="13889">
+  <!-- Update by rocknow -->
   <cond msgId="1518">
     <target class_id_restriction="123, 124, 125, 126, 127, 128, 129, 130, 131, 132, 133, 134, 135, 136"/>
   </cond>
@@ -8,7 +9,8 @@
     <add val="20" order="0x10" stat="pDef"/>
   </for>
 </item>
-<item id="13890" name="13890"><!-- Update by rocknow -->
+<item id="13890" name="13890">
+  <!-- Update by rocknow -->
   <cond msgId="1518">
     <target class_id_restriction="88, 89, 90, 91, 99, 100, 106, 107, 113, 114, 117, 118"/>
   </cond>
@@ -16,7 +18,8 @@
     <add val="20" order="0x10" stat="pDef"/>
   </for>
 </item>
-<item id="13891" name="13891"><!-- Update by rocknow -->
+<item id="13891" name="13891">
+  <!-- Update by rocknow -->
   <cond msgId="1518">
     <target class_id_restriction="92, 93, 101, 102, 108, 109, 134"/>
   </cond>
@@ -24,7 +27,8 @@
     <add val="20" order="0x10" stat="pDef"/>
   </for>
 </item>
-<item id="13892" name="13892"><!-- Update by rocknow -->
+<item id="13892" name="13892">
+  <!-- Update by rocknow -->
   <cond msgId="1518">
     <target class_id_restriction="94, 95, 96, 97, 98, 103, 104, 105, 110, 111, 112, 115, 116"/>
   </cond>
