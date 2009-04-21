@@ -275,7 +275,7 @@
   <table name="#ench2MpConsume_Init"> 54 53 52 51 50 49 48 47 46 45 44 44 43 42 41 40 39 38 37 36 35 34 33 33 32 31 30 29 28 27 </table>
   <table name="#mpConsume_Init"> 31 43 49 55 </table>
   <table name="#mpConsume"> 123 170 195 217 </table>
-  <table name="#Tab-absorbDam"> 6 7 8 9 </table>
+  <table name="#absorbDam"> 6 7 8 9 </table>
   <table name="#aggro"> 418 549 611 655 </table>
   <set name="mpInitialConsume" val="#mpConsume_Init"/>
   <set name="mpConsume" val="#mpConsume"/>
@@ -292,13 +292,13 @@
   <enchant2 name="mpConsume" val="#ench2MpConsume"/>
   <enchant2 name="mpInitialConsume" val="#ench2MpConsume_Init"/>
   <for>
-    <effect name="Buff" time="1200" count="1" val="0" stackOrder="#Tab-absorbDam" stackType="vampRage">
-      <add order="0x40" stat="absorbDam" val="#Tab-absorbDam"/>
+    <effect name="Buff" time="1200" count="1" val="0" stackOrder="#absorbDam" stackType="vampRage">
+      <add order="0x40" stat="absorbDam" val="#absorbDam"/> <!-- absorb HP from damage inflicted on enemies -->
     </effect>
   </for>
   <enchant1for>
     <effect name="Buff" time="#ench1time" count="1" val="0" stackOrder="9" stackType="vampRage">
-      <add order="0x40" stat="absorbDam" val="9"/>
+      <add order="0x40" stat="absorbDam" val="9"/> <!-- absorb 9% HP from damage inflicted on enemies -->
     </effect>
   </enchant1for>
 </skill>
@@ -773,14 +773,14 @@
   <set name="target" val="TARGET_ONE"/>
   <set name="reuseDelay" val="60000"/>
   <set name="hitTime" val="4000"/>
-  <set name="skillType" val="DEBUFF"/>
+  <set name="skillType" val="MDOT"/>
   <set name="isDebuff" val="true"/>
   <set name="operateType" val="OP_ACTIVE"/>
   <set name="isMagic" val="true"/>
   <set name="castRange" val="600"/>
   <set name="effectRange" val="1100"/>
   <for>
-    <!-- retail value: 24/sec; stat update every 5 units (3 1/3 sec) -->
+    <!-- retail value: 24/sec; stat update every 3 sec -->
     <effect count="10" name="ManaDamOverTime" time="3" val="72">
       <mul order="0x30" stat="cancelVuln" val="1.3"/>
       <mul order="0x30" stat="MagicalMpConsumeRate" val="1.3"/>
@@ -806,7 +806,7 @@
   <set name="overHit" val="true"/>
   <set name="castRange" val="900"/>
   <set name="effectRange" val="1400"/>
-  <set name="effectType" val="DEBUFF"/>
+  <set name="effectType" val="MDOT"/>
   <set name="effectPower" val="80"/>
   <for>
    <effect count="5" name="ManaDamOverTime" time="2" val="40">
@@ -834,7 +834,7 @@
   <set name="overHit" val="true"/>
   <set name="castRange" val="900"/>
   <set name="effectRange" val="1400"/>
-  <set name="effectType" val="DEBUFF"/>
+  <set name="effectType" val="MDOT"/>
   <set name="effectPower" val="80"/>
   <for>
      <effect count="5" name="ManaDamOverTime" time="2" val="40">
@@ -862,7 +862,7 @@
   <set name="overHit" val="true"/>
   <set name="castRange" val="900"/>
   <set name="effectRange" val="1400"/>
-  <set name="effectType" val="DEBUFF"/>
+  <set name="effectType" val="MDOT"/>
   <set name="effectPower" val="80"/>
   <for>
     <effect count="5" name="ManaDamOverTime" time="2" val="40">
@@ -889,7 +889,7 @@
   <set name="isMagic" val="true"/>
   <set name="castRange" val="900"/>
   <set name="effectRange" val="1400"/>
-  <set name="effectType" val="DEBUFF"/>
+  <set name="effectType" val="MDOT"/>
   <set name="effectPower" val="80"/>
   <for>
      <effect count="5" name="ManaDamOverTime" time="2" val="40">
@@ -915,10 +915,9 @@
   <set name="isDebuff" val="true"/>
   <set name="effectRange" val="1400"/>
   <set name="absorbPart" val="0.8"/> <!-- Dark Vortex: Power is reduced but drain percentage is increased - so I changed 0.7 -> 0.8 -->
-  <set name="effectType" val="DEBUFF"/>
+  <set name="effectType" val="DEBUFF"/> <!-- TEMP FIX: MDOT effect needs fixing - DRAIN appears to not allow MDOT to land [28/12/2006] -->
   <set name="effectPower" val="80"/>
   <for>
-  <!-- MDOT effect needs fixing - DRAIN appears to not allow MDOT to land [28/12/2006] -->
     <effect count="5" name="ManaDamOverTime" time="2" val="40">
       <mul order="0x30" stat="darkVuln" val="1.3"/>
     </effect>
@@ -1026,7 +1025,7 @@
       <add order="0x40" stat="accCombat" val="4"/>
       <add order="0x40" stat="rEvas" val="4"/>
       <mul order="0x30" stat="pAtkSpd" val="1.2"/>
-      <add order="0x40" stat="absorbDam" val="5"/>
+      <add order="0x40" stat="absorbDam" val="5"/> <!-- absorb 5% HP from damage inflicted on enemies -->
       <mul order="0x30" stat="cAtk" val="1.2">
         <player behind="True"/>
       </mul>
@@ -1223,7 +1222,7 @@
   <set name="aggroPoints" val="669"/>
   <for>
     <effect count="1" name="Buff" time="300" val="0" stackOrder="1" stackType="multi_buff">
-      <add order="0x40" stat="absorbDam" val="5"/>
+      <add order="0x40" stat="absorbDam" val="5"/> <!-- absorb 5% HP from damage inflicted on enemies -->
       <add order="0x40" stat="accCombat" val="4"/>
       <add order="0x40" stat="rEvas" val="4"/>
       <mul order="0x30" stat="pAtkSpd" val="1.2"/>
@@ -1373,7 +1372,7 @@
       <mul order="0x30" stat="mDef" val="1.2"/>
       <mul order="0x30" stat="runSpd" val="0.8"/>
       <mul order="0x30" stat="maxHp" val="1.2"/>
-      <mul order="0x30" stat="debuffVuln" val="0.8"/>
+      <mul order="0x30" stat="debuffVuln" val="0.9"/>
     </effect>
   </for>
 </skill>
@@ -1666,10 +1665,8 @@
   </for>
 </skill>
 <skill id="1382" levels="5" name="Mass Gloom">
-<!-- Done by KID -->
+  <!-- Done by KID -->
   <table name="#mpConsume"> 80 87 93 98 103 </table>
-  <!-- suspect these mDef values are guesses -->
-  <table name="#mDef"> 1.12 1.16 1.2 1.24 1.29 </table>
   <table name="#itemConsumeCount"> 4 4 4 5 5 </table>
   <set name="mpConsume" val="#mpConsume"/>
   <set name="itemConsumeId" val="2508"/>
@@ -1686,15 +1683,13 @@
   <set name="isMagic" val="true"/>
   <for>
     <effect count="1" name="Debuff" time="15" val="0" stackOrder="1" stackType="matkdebuff">
-      <div order="0x30" stat="mDef" val="#mDef"/>
+      <mul order="0x30" stat="mDef" val="0.77"/>
     </effect>
   </for>
 </skill>
 <skill id="1383" levels="5" name="Mass Surrender to Fire">
-<!-- Done by KID -->
+  <!-- Done by KID -->
   <table name="#mpConsume"> 80 87 93 98 103 </table>
-  <!-- suspect these res values are guesses -->
-  <table name="#fireVuln"> 1.3 1.36 1.41 1.49 1.58 </table>
   <table name="#itemConsumeCount"> 2 2 2 3 3 </table>
   <set name="mpConsume" val="#mpConsume"/>
   <set name="itemConsumeId" val="3031"/>
@@ -1711,15 +1706,14 @@
   <set name="isMagic" val="true"/>
   <for>
     <effect count="1" name="Debuff" time="120" val="0" stackOrder="2" stackType="surrender">
-      <mul order="0x30" stat="fireVuln" val="#fireVuln"/>
+      <mul order="0x30" stat="fireVuln" val="1.3"/>
+      <mul order="0x30" stat="waterVuln" val="0.85"/>
     </effect>
   </for>
 </skill>
 <skill id="1384" levels="5" name="Mass Surrender to Water">
   <!-- Done by KID -->
   <table name="#mpConsume"> 80 87 93 98 103 </table>
-  <!-- suspect these res values are guesses -->
-  <table name="#waterVuln"> 1.3 1.36 1.41 1.49 1.58 </table>
   <table name="#itemConsumeCount"> 2 2 2 3 3 </table>
   <set name="mpConsume" val="#mpConsume"/>
   <set name="itemConsumeId" val="3031"/>
@@ -1736,15 +1730,14 @@
   <set name="isMagic" val="true"/>
   <for>
     <effect count="1" name="Debuff" time="120" val="0" stackOrder="2" stackType="surrender">
-      <mul order="0x30" stat="waterVuln" val="#waterVuln"/>
+      <mul order="0x30" stat="waterVuln" val="1.3"/>
+      <mul order="0x30" stat="fireVuln" val="0.85"/>
     </effect>
   </for>
 </skill>
 <skill id="1385" levels="5" name="Mass Surrender to Wind">
   <!-- Done by KID -->
   <table name="#mpConsume"> 80 87 93 98 103 </table>
-  <!-- suspect these res values are guesses -->
-  <table name="#windVuln"> 1.3 1.36 1.41 1.49 1.58 </table>
   <table name="#itemConsumeCount"> 2 2 2 3 3 </table>
   <set name="mpConsume" val="#mpConsume"/>
   <set name="itemConsumeId" val="3031"/>
@@ -1761,16 +1754,15 @@
   <set name="isMagic" val="true"/>
   <for>
     <effect count="1" name="Debuff" time="120" val="0" stackOrder="2" stackType="surrender">
-      <mul order="0x30" stat="windVuln" val="#windVuln"/>
+      <mul order="0x30" stat="windVuln" val="1.3"/>
+      <mul order="0x30" stat="earthVuln" val="0.85"/>
     </effect>
   </for>
 </skill>
-<skill id="1386" levels="10" name="Arcane Distruption">
+<skill id="1386" levels="10" name="Arcane Disruption">
   <!-- Done by KID -->
   <table name="#mpConsume"> 52 54 55 58 60 62 64 65 67 69 </table>
   <table name="#magicLvl"> 56 58 60 62 64 66 68 70 72 74 </table>
-  <!-- L2P still need to confirm mAtkSpd reduction values - says about -23% -->
-  <table name="#mAtkSpd"> 1.11 1.13 1.15 1.16 1.18 1.21 1.24 1.26 1.29 1.32 </table>
   <set name="mpConsume" val="#mpConsume"/>
   <set name="magicLvl" val="#magicLvl"/>
   <set name="power" val="80"/>
@@ -1786,7 +1778,7 @@
   <set name="isDebuff" val="true"/>
   <for>
     <effect count="1" name="Debuff" time="30" val="0">
-      <div order="0x30" stat="mAtkSpd" val="#mAtkSpd"/>
+      <mul order="0x30" stat="mAtkSpd" val="0.77"/>
     </effect>
   </for>
 </skill>
@@ -1831,8 +1823,7 @@
 </skill>
 <skill id="1389" levels="3" name="Greater Shield">
   <!-- Done by KID -->
-  <!-- L2P still need to confirm pDef values -->
-  <table name="#rate"> 1.05 1.1 1.15 </table>
+  <table name="#pDef"> 1.05 1.1 1.15 </table>
   <table name="#mpConsume"> 54 62 69 </table>
   <table name="#spiritOre"> 1 2 3 </table>
   <set name="mpConsume" val="#mpConsume"/>
@@ -1848,7 +1839,7 @@
   <set name="effectRange" val="900"/>
   <for>
     <effect count="1" name="Buff" time="1200" val="0" stackOrder="0" stackType="Great">
-      <mul order="0x30" stat="pDef" val="#rate"/>
+      <mul order="0x30" stat="pDef" val="#pDef"/>
     </effect>
   </for>
 </skill>
@@ -1878,7 +1869,6 @@
 <skill id="1391" levels="3" name="Earth Chant">
   <!-- Done by KID -->
   <table name="#mpConsume"> 213 244 272 </table>
-  <!-- L2P still need to confirm pDef values -->
   <table name="#pDef"> 1.05 1.1 1.15 </table>
   <table name="#spiritOre"> 4 8 12 </table>
   <set name="mpConsume" val="#mpConsume"/>
@@ -1902,7 +1892,6 @@
 <skill id="1392" levels="3" name="Holy Resistance">
   <!-- Done by KID -->
   <table name="#mpConsume"> 54 62 69 </table>
-  <!-- L2P still need to confirm res values -->
   <table name="#holyVuln"> 0.85 0.77 0.7 </table>
   <set name="mpConsume" val="#mpConsume"/>
   <set name="reuseDelay" val="7000"/>
@@ -1922,7 +1911,6 @@
 <skill id="1393" levels="3" name="Unholy Resistance">
   <!-- Done by KID -->
   <table name="#mpConsume"> 54 62 69 </table>
-  <!-- L2P still need to confirm res values -->
   <table name="#darkVuln"> 0.85 0.77 0.7 </table>
   <set name="mpConsume" val="#mpConsume"/>
   <set name="reuseDelay" val="7000"/>
@@ -2015,7 +2003,8 @@
 <skill id="1397" levels="3" name="Clarity">
   <table name="#mpConsume"> 54 62 69 </table>
   <table name="#SpiritOre"> 1 2 3 </table>
-  <table name="#MpConsumeRate"> 0.96 0.92 0.9 </table>
+  <table name="#MpConsumeRateMagic"> 0.96 0.93 0.9 </table>
+  <table name="#MpConsumeRate"> 0.9 0.85 0.8 </table>
   <set name="mpConsume" val="#mpConsume"/>
   <set name="itemConsumeId" val="3031"/>
   <set name="itemConsumeCount" val="#SpiritOre"/>
@@ -2029,8 +2018,9 @@
   <set name="effectRange" val="900"/>
   <for>
     <effect count="1" name="Buff" time="1200" val="0" stackOrder="#SpiritOre" stackType="MPrate">
-      <mul order="0x30" stat="MagicalMpConsumeRate" val="#MpConsumeRate"/>
+      <mul order="0x30" stat="MagicalMpConsumeRate" val="#MpConsumeRateMagic"/>
       <mul order="0x30" stat="PhysicalMpConsumeRate" val="#MpConsumeRate"/>
+      <mul order="0x30" stat="DanceMpConsumeRate" val="#MpConsumeRate"/>
     </effect>
   </for>
 </skill>

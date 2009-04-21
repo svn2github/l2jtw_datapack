@@ -1,12 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <list>
 <skill id="500" levels="2" name="True Berserker">
- <!-- Needs retail value checks -->
-  <table name="#pAtk"> 1.08 1.12 </table>
-  <table name="#pAtkSpd"> 1.08 1.12 </table>
-  <table name="#accCombat"> 1 3 </table>
-  <table name="#pDef"> 0.92 0.89 </table>
-  <table name="#rEvas"> 3 4 </table>
+  <table name="#amount"> 1.05 1.08 </table>
+  <table name="#accCombat"> 2 4 </table>
+  <table name="#rEvas"> 2 4 </table>
   <table name="#dmg"> 18 21 </table>
   <set name="target" val="TARGET_SELF"/>
   <set name="skillType" val="CONT"/>
@@ -14,20 +11,17 @@
   <set name="castRange" val="-1"/>
   <set name="effectRange" val="-1"/>
   <for>
-    <effect count="0x7fffffff" name="ManaDamOverTime" time="3" val="#dmg">
-      <mul order="0x30" stat="pAtk" val="#pAtk"/>
-      <mul order="0x30" stat="pAtkSpd" val="#pAtkSpd"/>
+    <effect count="0x7fffffff" name="ManaDamOverTime" time="3" val="#dmg"> <!-- TODO: MP is continuously consumed proportionate to user's level -->
+      <mul order="0x30" stat="pAtk" val="#amount"/>
+      <mul order="0x30" stat="pAtkSpd" val="#amount"/>
       <add order="0x40" stat="accCombat" val="#accCombat"/>
-      <mul order="0x30" stat="pDef" val="#pDef"/>
+      <mul order="0x30" stat="pDef" val="0.9"/>
       <sub order="0x40" stat="rEvas" val="#rEvas"/>
     </effect>
   </for>
 </skill>
 <skill id="501" levels="12" name="Violent Temper">
- <!-- Needs retail value checks -->
   <table name="#mpConsume"> 22 24 25 27 28 29 30 31 32 33 34 34 </table>
-  <table name="#mAtkSpd"> 0.98 0.96 0.94 0.92 0.9 0.88 0.86 0.84 0.82 0.8 0.78 0.76 </table>
-  <table name="#pDef"> 0.98 0.96 0.94 0.92 0.9 0.88 0.86 0.84 0.82 0.8 0.78 0.76 </table>
   <set name="power" val="80"/> <!-- Guess -->
   <set name="mpConsume" val="#mpConsume"/>
   <set name="target" val="TARGET_ONE"/>
@@ -40,8 +34,8 @@
   <set name="reuseDelay" val="6000"/>
   <for>
     <effect count="1" name="Debuff" time="15" val="0">
-      <mul order="0x30" stat="mAtkSpd" val="#mAtkSpd"/>
-      <mul order="0x30" stat="pDef" val="#pDef"/>
+      <mul order="0x30" stat="mAtkSpd" val="0.85"/>
+      <mul order="0x30" stat="pDef" val="0.77"/>
     </effect>
   </for>
 </skill>
@@ -218,6 +212,7 @@
   <enchant2 name="mpConsume" val="#ench2MpConsume"/>
 </skill>
 <skill id="509" levels="34" name="Bleeding Shot" enchantLevels1="30" enchantLevels2="30" >
+  <table name="#dmg"> 132 132 132 132 132 132 132 132 132 162 162 162 162 162 162 162 162 162 162 186 186 186 186 186 186 186 186 186 186 201 201 201 201 201 </table>
   <table name="#enchantMagicLvl"> 76 76 76 77 77 77 78 78 78 79 79 79 80 80 80 81 81 81 82 82 82 82 83 83 83 84 84 85 85 85 </table>
   <table name="#ench1Power"> 2325 2341 2357 2373 2389 2405 2420 2436 2452 2468 2484 2500 2515 2531 2547 2563 2579 2595 2610 2626 2642 2658 2674 2690 2705 2721 2737 2753 2769 2784 </table>
   <table name="#ench2MpConsume"> 107 105 103 102 100 98 96 94 92 91 89 87 85 83 82 80 78 76 74 72 71 69 67 65 63 62 60 58 56 54 </table>
@@ -250,8 +245,9 @@
   <enchant1 name="power" val="#ench1Power"/>
   <enchant2 name="mpConsume" val="#ench2MpConsume"/>
   <for>
-    <effect count="7" name="DamOverTime" time="3" val="74" abnormal="bleeding">
-      <sub order="0x40" stat="runSpd" val="25"/>
+    <!-- Retail Values CT2.1: 44 44 44 44 44 44 44 44 44 54 54 54 54 54 54 54 54 54 54 62 62 62 62 62 62 62 62 62 62 67 67 67 67 67 * 3 Sec -->
+    <effect count="7" name="DamOverTime" time="3" val="#dmg" abnormal="bleeding">
+      <mul order="0x30" stat="runSpd" val="0.8"/>
     </effect>
   </for>
 </skill>
@@ -487,6 +483,8 @@
   <table name="#mpConsume"> 8 10 13 15 </table>
   <table name="#castRange"> 600 700 800 900 </table>
   <table name="#effectRange"> 900 1000 1100 1200 </table>
+  <table name="#bowWpnVuln"> 1.12 1.16 1.2 1.24 </table>
+  <table name="#crossbowWpnVuln"> 1.16 1.24 1.32 1.4 </table>
   <set name="mpInitialConsume" val="#mpInitialConsume"/>
   <set name="mpConsume" val="#mpConsume"/>
   <set name="hitTime" val="1500"/>
@@ -500,8 +498,8 @@
   <set name="reuseDelay" val="8000"/>
   <for>
     <effect count="1" name="Debuff" time="15" val="0">
-      <mul order="0x30" stat="bowWpnVuln" val="1.3"/> <!-- Needs to be checked -->
-      <mul order="0x30" stat="crossbowWpnVuln" val="1.3"/> <!-- Needs to be checked -->
+      <mul order="0x30" stat="bowWpnVuln" val="#bowWpnVuln"/>
+      <mul order="0x30" stat="crossbowWpnVuln" val="#crossbowWpnVuln"/>
     </effect>
   </for>
 </skill>
@@ -545,7 +543,7 @@
   <set name="npcId" val="#npcId"/>
 </skill>
 <skill id="526" levels="1" name="Enuma Elish">
-<!-- Needs retail accuracy check -->
+  <!-- Needs retail accuracy check -->
   <set name="mpConsume" val="78"/>
   <set name="power" val="6060"/>
   <set name="hitTime" val="1080"/>
@@ -574,7 +572,7 @@
   <set name="triggeredId" val="5425"/>
   <set name="triggeredLevel" val="1"/>
   <for>
-    <effect count="1" name="BestowSkill" time="300" val="0"/>
+    <effect count="1" name="BestowSkill" time="1200" val="0"/>
   </for>
 </skill>
 <skill id="528" levels="1" name="Shield of Faith">
@@ -597,7 +595,7 @@
   </for>
 </skill>
 <skill id="529" levels="1" name="Song of Elemental">
-  <!-- Done by theREALizzy, check for retail values. -->
+  <!-- Done by theREALizzy -->
   <set name="mpConsume" val="54"/>
   <set name="target" val="TARGET_PARTY"/>
   <set name="skillRadius" val="1000"/>
@@ -619,7 +617,6 @@
   </for>
 </skill>
 <skill id="530" levels="1" name="Dance of Alignment">
-  <!-- Check of retail values. -->
   <set name="weaponsAllowed" val="512"/> <!-- Dual Sword -->
   <set name="mpConsume" val="60"/>
   <set name="target" val="TARGET_PARTY"/>
@@ -1577,7 +1574,7 @@
   <set name="effectPower" val="40"/> <!-- Base Land Rate --> <!-- Guess -->
   <for>
     <effect count="5" name="DamOverTime" time="3" val="#bleeddmg" abnormal="bleeding">
-      <sub order="0x40" stat="runSpd" val="25"/>
+      <mul order="0x30" stat="runSpd" val="0.8"/>
     </effect>
   </for>
 </skill>
@@ -1672,7 +1669,7 @@
   <set name="reuseDelay" val="45000"/>
   <set name="hitTime" val="1200"/>
   <set name="coolTime" val="350"/>
-  <set name="skillType" val="DEBUFF"/>
+  <set name="skillType" val="DOT"/>
   <set name="operateType" val="OP_ACTIVE"/>
   <set name="castRange" val="40"/>
   <set name="effectRange" val="400"/>

@@ -93,7 +93,7 @@
   <set name="effectRange" val="1250"/>
   <for>
     <effect count="7" name="DamOverTime" time="3" val="#damage" abnormal="bleeding">
-      <sub order="0x40" stat="runSpd" val="25"/>
+      <mul order="0x30" stat="runSpd" val="0.8"/>
     </effect>
   </for>
 </skill>
@@ -194,7 +194,7 @@
   <set name="target" val="TARGET_SELF"/>
   <set name="reuseDelay" val="8000"/>
   <set name="hitTime" val="2000"/>
-  <set name="skillType" val="BUFF"/>
+  <set name="skillType" val="HOT"/>
   <set name="operateType" val="OP_ACTIVE"/>
   <set name="castRange" val="700"/>
   <set name="effectRange" val="1200"/>
@@ -284,7 +284,7 @@
   <set name="skillType" val="MUTE"/>
   <set name="isDebuff" val="true"/>
   <set name="operateType" val="OP_ACTIVE"/>
-  <set name="power" val="100"/>
+  <set name="power" val="100"/> <!-- Base Land Rate -->
   <set name="castRange" val="1500"/>
   <set name="effectRange" val="2000"/>
   <for>
@@ -524,7 +524,7 @@
   <set name="castRange" val="-1"/>
   <set name="effectRange" val="-1"/>
   <for>
-    <add order="0x40" stat="absorbDam" val="15"/>
+    <add order="0x40" stat="absorbDam" val="15"/> <!-- absorb 15% HP from damage inflicted on enemies -->
   </for>
 </skill>
 <skill id="4234" levels="12" name="BOSS Power Throw">
@@ -678,7 +678,7 @@
   <set name="castRange" val="2000"/>
   <set name="effectRange" val="2500"/>
   <for>
-    <!-- Retail 49 * 3 units, update is every 3 seconds -->
+    <!-- Retail Values: 49 * 3 Sec -->
     <effect count="1200" name="DamOverTime" time="3" val="147" abnormal="poison" stackOrder="1" stackType="poison"/>
   </for>
 </skill>

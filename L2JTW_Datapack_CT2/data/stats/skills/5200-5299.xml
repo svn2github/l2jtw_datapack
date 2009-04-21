@@ -127,8 +127,8 @@
   <set name="castRange" val="400"/>
   <set name="effectRange" val="900"/>
   <for>
-    <effect count="1" name="Buff" time="3600" val="0" stackOrder="7" stackType="vampRage">
-      <add order="0x40" stat="absorbDam" val="9"/>
+    <effect count="1" name="Buff" time="3600" val="0" stackOrder="9" stackType="vampRage">
+      <add order="0x40" stat="absorbDam" val="9"/> <!-- absorb 9% HP from damage inflicted on enemies -->
     </effect>
   </for>
 </skill>
@@ -559,7 +559,7 @@
   <table name="#dmg"> 54 65 72 87 103 121 142 163 187 209 232 257 </table>
   <set name="target" val="TARGET_ONE"/>
   <set name="element" val="6"/> <!-- Dark -->
-  <set name="skillType" val="DEBUFF"/>
+  <set name="skillType" val="POISON"/>
   <set name="operateType" val="OP_ACTIVE"/>
   <set name="isDebuff" val="true"/>
   <set name="castRange" val="600"/>

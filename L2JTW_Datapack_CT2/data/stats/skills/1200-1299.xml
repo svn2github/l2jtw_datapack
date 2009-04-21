@@ -133,7 +133,7 @@
   </for>
 </skill>
 <skill id="1209" levels="6" name="Seal of Poison">
-  <table name="#dmg"> 54 72 93 114 132 144 </table>
+  <table name="#dmg"> 42 57 72 90 102 111 </table>
   <table name="#mpConsume_Init"> 6 8 11 14 18 20 </table>
   <table name="#mpConsume"> 23 32 42 56 69 78 </table>
   <table name="#magicLvl"> 20 30 40 52 62 70 </table>
@@ -155,7 +155,7 @@
   <set name="castRange" val="-1"/>
   <set name="effectRange" val="-1"/>
   <for>
-    <!-- retail value: 18 24 31 38 44 48/sec; stat update every 5 units (3 1/3 sec) -->
+    <!-- Retail Values CT2.1: 14 19 24 30 34 37 * 3 Sec -->
     <effect count="10" name="DamOverTime" time="3" val="#dmg" abnormal="poison"/>
   </for>
 </skill>
@@ -181,7 +181,7 @@
   <set name="castRange" val="-1"/>
   <set name="effectRange" val="-1"/>
   <for>
-    <!-- retail value: 7 8 10 12/sec; stat update every 5 units (3 1/3 sec) -->
+    <!-- retail value: 7 8 10 12/sec; stat update every 3 sec -->
     <effect count="10" name="ManaDamOverTime" time="3" val="#dmg"/>
   </for>
 </skill>
@@ -570,7 +570,7 @@
   <set name="skillRadius" val="1000"/>
   <set name="reuseDelay" val="20000"/>
   <set name="hitTime" val="7000"/>
-  <set name="skillType" val="BUFF"/>
+  <set name="skillType" val="HOT"/>
   <set name="isMagic" val="true"/>
   <set name="operateType" val="OP_ACTIVE"/>
   <set name="castRange" val="-1"/>
@@ -815,7 +815,7 @@
   <table name="#mpConsume"> 29 31 31 34 35 37 38 41 42 43 45 46 47 50 50 53 53 </table>
   <table name="#magicLvl"> 42 44 46 48 50 52 54 56 58 60 62 64 66 68 70 72 74 </table>
   <table name="#power"> 28 29 31 33 34 36 38 39 41 43 45 46 48 50 51 53 54 </table>
-  <table name="#bleeddmg"> 66 66 66 66 66 81 81 81 81 93 93 93 93 93 102 102 102 </table>
+  <table name="#dmg"> 132 132 132 132 162 162 162 162 162 186 186 186 186 186 201 201 201 </table>
   <table name="#ench1Power"> 55 55 55 56 56 56 57 57 57 58 58 58 58 59 59 59 60 60 60 61 61 61 62 62 62 63 63 63 64 64 </table>
   <table name="#abnormalLvl"> 5 5 5 5 6 6 6 6 6 7 7 7 7 7 8 8 8 </table>
   <set name="abnormalLvl" val="#abnormalLvl"/>
@@ -840,9 +840,9 @@
   <enchant2 name="mpConsume" val="#ench2MpConsume"/>
   <enchant2 name="mpInitialConsume" val="#ench2MpConsume_Init"/>
   <for>
-    <!-- retail value: 22 27 31 34/sec (depends on powerlevel); stat update every 5 units (3 1/3 sec) -->
-    <effect count="7" name="DamOverTime" time="3" val="#bleeddmg" abnormal="bleeding">
-      <sub order="0x40" stat="runSpd" val="25"/>
+    <!-- Retail Values CT2.1: 44 44 44 44 54 54 54 54 54 62 62 62 62 62 67 67 67 * 3 Sec -->
+    <effect count="7" name="DamOverTime" time="3" val="#dmg" abnormal="bleeding">
+      <mul order="0x30" stat="runSpd" val="0.8"/>
     </effect>
   </for>
 </skill>
@@ -1751,7 +1751,7 @@
   <table name="#ench2MpConsume_Init"> 13 13 13 13 12 12 12 12 11 11 11 11 10 10 10 10 10 9 9 9 9 8 8 8 8 7 7 7 7 7 </table>
   <table name="#mpConsume_Init"> 6 8 11 14 </table>
   <table name="#mpConsume"> 21 31 43 53 </table>
-  <table name="#Tab-absorbDam"> 6 7 8 9 </table>
+  <table name="#absorbDam"> 6 7 8 9 </table>
   <table name="#aggro"> 285 418 549 646 </table>
   <set name="mpInitialConsume" val="#mpConsume_Init"/>
   <set name="mpConsume" val="#mpConsume"/>
@@ -1767,13 +1767,13 @@
   <enchant2 name="mpConsume" val="#ench2MpConsume"/>
   <enchant2 name="mpInitialConsume" val="#ench2MpConsume_Init"/>
   <for>
-    <effect name="Buff" time="1200" count="1" val="0" stackOrder="#Tab-absorbDam" stackType="vampRage">
-      <add order="0x40" stat="absorbDam" val="#Tab-absorbDam"/>
+    <effect name="Buff" time="1200" count="1" val="0" stackOrder="#absorbDam" stackType="vampRage">
+      <add order="0x40" stat="absorbDam" val="#absorbDam"/> <!-- absorb HP from damage inflicted on enemies -->
     </effect>
   </for>
   <enchant1for>
     <effect name="Buff" time="#ench1time" count="1" val="0" stackOrder="9" stackType="vampRage">
-      <add order="0x40" stat="absorbDam" val="9"/>
+      <add order="0x40" stat="absorbDam" val="9"/> <!-- absorb 9% HP from damage inflicted on enemies -->
     </effect>
   </enchant1for>
 </skill>
@@ -2133,7 +2133,7 @@
   <set name="castRange" val="-1"/>
   <set name="effectRange" val="-1"/>
   <for>
-    <!-- retail value: 5 6 6 7 8 8 8 8 9 9 9 10 10/sec; stat update every 5 units (3 1/3 sec) -->
+    <!-- retail value: 5 6 6 7 8 8 8 8 9 9 9 10 10/sec; stat update every 3 sec -->
     <effect count="0x7fffffff" name="ManaDamOverTime" time="3" val="#mpRegen-sub">
       <add order="0x40" stat="pDef" val="#def"/>
     </effect>

@@ -115,7 +115,7 @@
   </for>
 </skill>
 <skill id="103" levels="4" name="Corpse Plague">
-  <table name="#dmg"> 93 114 132 144 </table>
+  <table name="#dmg"> 123 150 174 189 </table>
   <table name="#magicLvl"> 46 58 62 70 </table>
   <table name="#mpConsume"> 22 28 29 33 </table>
   <table name="#abnormalLvl"> 5 6 7 8 </table>
@@ -135,8 +135,7 @@
   <set name="castRange" val="400"/>
   <set name="effectRange" val="900"/>
   <for>
-    <!-- retail value: 31 38 44 48/sec; stat update every 5 units (3 1/3 sec) -->
-    <!-- Verified by slyce -  Interlude - Aug 2007 -->
+    <!-- Retail Values CT2.1: 41 50 58 63 * 3 Sec -->
     <effect count="10" name="DamOverTime" time="3" val="#dmg" abnormal="poison"/>
   </for>
 </skill>
@@ -292,21 +291,21 @@
     <effect count="1" name="ImmobileBuff" time="30" val="0" stackOrder="1" stackType="pd_up_special">
       <add order="0x40" stat="pDef" val="#pDef"/>
       <add order="0x40" stat="mDef" val="#mDef"/>
-      <mul order="0x30" stat="cancelVuln" val="0.9"/> <!-- value to be confirmed -->
+      <mul order="0x30" stat="cancelVuln" val="0.2"/>
     </effect>
   </for>
   <enchant1for>
     <effect count="1" name="ImmobileBuff" time="#ench1time" val="0" stackOrder="1" stackType="pd_up_special">
       <add order="0x40" stat="pDef" val="#ench1pDef"/>
       <add order="0x40" stat="mDef" val="#ench1mDef"/>
-      <mul order="0x30" stat="cancelVuln" val="0.9"/> <!-- value to be confirmed -->
+      <mul order="0x30" stat="cancelVuln" val="0.2"/>
     </effect>
   </enchant1for>
   <enchant2for>
     <effect count="1" name="ImmobileBuff" time="30" val="0" stackOrder="1" stackType="pd_up_special">
       <add order="0x40" stat="pDef" val="#ench1pDef"/>
       <add order="0x40" stat="mDef" val="#ench1mDef"/>
-      <mul order="0x30" stat="cancelVuln" val="0.9"/> <!-- value to be confirmed -->
+      <mul order="0x30" stat="cancelVuln" val="0.2"/>
     </effect>
   </enchant2for>
 </skill>
@@ -316,7 +315,7 @@
   <table name="#ench2reuseDelay"> 1780000 1760000 1740000 1720000 1700000 1680000 1660000 1640000 1620000 1600000 1580000 1560000 1540000 1520000 1500000 1480000 1460000 1440000 1420000 1400000 1380000 1360000 1340000 1320000 1300000 1280000 1260000 1240000 1220000 1200000 </table>
   <table name="#aggro"> 268 523 </table>
   <table name="#mpConsume"> 13 25 </table>
-  <table name="#pSkillEvas"> 25 30 </table> <!-- values to be confirmed -->
+  <table name="#pSkillEvas"> 25 40 </table>
   <table name="#rEvas"> 20 25 </table>
   <set name="aggroPoints" val="#aggro"/>
   <set name="castRange" val="-1"/>
@@ -334,14 +333,14 @@
     <effect count="1" name="Buff" time="30" val="0" stackOrder="#rEvas" stackType="avoid_up_special">
       <add order="0x40" stat="pSkillEvas" val="#pSkillEvas"/>
       <add order="0x40" stat="rEvas" val="#rEvas"/>
-      <mul order="0x30" stat="cancelVuln" val="0.9"/> <!-- value to be confirmed -->
+      <mul order="0x30" stat="cancelVuln" val="0.2"/>
     </effect>
   </for>
   <enchant1for>
     <effect count="1" name="Buff" time="#ench1time" val="0" stackOrder="25" stackType="avoid_up_special">
-      <add order="0x40" stat="pSkillEvas" val="30"/>
+      <add order="0x40" stat="pSkillEvas" val="40"/>
       <add order="0x40" stat="rEvas" val="25"/>
-      <mul order="0x30" stat="cancelVuln" val="0.9"/> <!-- value to be confirmed -->
+      <mul order="0x30" stat="cancelVuln" val="0.2"/>
     </effect>
   </enchant1for>
 </skill>
@@ -350,7 +349,8 @@
   <enchant1 name="magicLvl" val="#enchantMagicLvl"/>
   <enchant2 name="magicLvl" val="#enchantMagicLvl"/>
   <table name="#ench1time"> 1240 1280 1320 1360 1400 1440 1480 1520 1560 1600 1640 1680 1720 1760 1800 1840 1880 1920 1960 2000 2040 2080 2120 2160 2200 2240 2280 2320 2360 2400 </table>
-  <table name="#Vuln"> 0.84 0.76 0.68 0.6 </table>
+  <table name="#bowWpnVuln"> 0.84 0.76 0.68 0.6 </table>
+  <table name="#crossbowWpnVuln"> 0.92 0.88 0.84 0.8 </table>
   <table name="#mpConsume"> 11 14 19 22 </table>
   <table name="#ench2MpConsume"> 21 21 20 20 19 19 18 18 17 17 16 16 16 15 15 14 14 14 13 13 12 12 12 11 11 10 10 10 9 9 </table>
   <table name="#aggro"> 10 20 30 40 </table>
@@ -366,14 +366,14 @@
   <enchant2 name="mpConsume" val="#ench2MpConsume"/>
   <for>
     <effect count="1" name="Buff" time="1200" val="0">
-      <mul order="0x30" stat="bowWpnVuln" val="#Vuln"/>
-      <mul order="0x30" stat="crossbowWpnVuln" val="#Vuln"/>
+      <mul order="0x30" stat="bowWpnVuln" val="#bowWpnVuln"/>
+      <mul order="0x30" stat="crossbowWpnVuln" val="#crossbowWpnVuln"/>
     </effect>
   </for>
   <enchant1for>
     <effect count="1" name="Buff" time="#ench1time" val="0">
       <mul order="0x30" stat="bowWpnVuln" val="0.6"/>
-      <mul order="0x30" stat="crossbowWpnVuln" val="0.6"/>
+      <mul order="0x30" stat="crossbowWpnVuln" val="0.8"/>
     </effect>
   </enchant1for>
 </skill>
@@ -620,7 +620,7 @@
   <table name="#mpConsume_Init"> 2 5 6 7 7 </table>
   <table name="#mpConsume"> 8 18 22 25 28 </table>
   <table name="#magicLvl"> 20 49 58 66 74 </table>
-  <table name="#dmg"> 54 93 114 132 144 </table>
+  <table name="#dmg"> 72 123 150 174 189 </table>
   <table name="#abnormalLvl"> 3 5 6 7 8 </table>
   <set name="abnormalLvl" val="#abnormalLvl"/>
   <set name="mpInitialConsume" val="#mpConsume_Init"/>
@@ -638,8 +638,7 @@
   <set name="castRange" val="600"/>
   <set name="effectRange" val="1100"/>
   <for>
-    <!-- retail value: 18 31 38 44 48/sec; stat update every 5 units (3 1/3 sec) -->
-    <!-- Verified by slyce -  Interlude - Aug 2007 -->
+    <!-- Retail Values CT2.1: 24 41 50 58 63 * 3 Sec -->
     <effect count="10" name="DamOverTime" time="3" val="#dmg" abnormal="poison"/>
   </for>
 </skill>
@@ -850,21 +849,17 @@
 </skill>
 <skill id="153" levels="4" name="Shield Mastery">
   <table name="#rShld"> 1.5 1.7 1.85 2 </table>
-  <table name="#sDef"> 30 40 50 60 </table>
-  <table name="#Pdef"> 0 0 64 64 </table> <!-- Guess Lvl 1 2 & 4 -->
+  <table name="#sDef"> 1.3 1.4 1.5 1.6 </table>
+  <table name="#Pdef"> 1 1 1.1 1.1 </table>
   <set name="castRange" val="-1"/>
   <set name="effectRange" val="-1"/>
   <set name="operateType" val="OP_PASSIVE"/>
   <set name="skillType" val="BUFF"/>
   <set name="target" val="TARGET_SELF"/>
   <for>
-    <mul order="0x30" stat="rShld" val="#rShld">
-      <using kind="Shield"/>
-    </mul>
-    <add order="0x40" stat="sDef" val="#sDef">
-      <using kind="Shield"/>
-    </add>
-    <add order="0x40" stat="pDef" val="#Pdef">
+    <mul order="0x30" stat="rShld" val="#rShld"/>
+    <mul order="0x30" stat="sDef" val="#sDef"/>
+    <mul order="0x30" stat="pDef" val="#Pdef">
       <and>
         <using kind="Shield"/>
         <using kind="Heavy"/>
@@ -872,7 +867,7 @@
           <using kind="Light,Magic"/>
         </not>
       </and>
-    </add>
+    </mul>
   </for>
 </skill>
 <skill id="163" levels="1" name="Spellcraft">
@@ -981,7 +976,7 @@
   <table name="#swordbluntpole"> 1.33 1.43 1.55 </table>
   <table name="#sbp-under30"> 1.5 1.75 2.25 </table>
   <table name="#twohand"> 1.43 1.5 1.7 </table>
-  <table name="#twohand-under30"> 1.75 2.0 2.35 </table>
+  <table name="#twohand-under30"> 1.75 2 2.35 </table>
   <table name="#other"> 1.3 1.3 1.5 </table>
   <table name="#accCombat"> 4 4 6 </table>
   <table name="#mpConsume"> 14 21 25 </table>
@@ -1090,7 +1085,7 @@
   </for>
 </skill>
 <skill id="193" levels="7" name="Critical Power">
-  <table name="#crit"> 32 56 93 177 295 384 673 </table> <!-- Guess Lvl 7 -->
+  <table name="#crit"> 32 56 93 177 295 384 406 </table>
   <set name="target" val="TARGET_SELF"/>
   <set name="skillType" val="BUFF"/>
   <set name="operateType" val="OP_PASSIVE"/>
@@ -1129,7 +1124,7 @@
   <set name="castRange" val="-1"/>
   <set name="effectRange" val="-1"/>
   <for>
-    <effect count="0x7fffffff" name="ManaDamOverTime" time="5" val="0">
+    <effect count="0x7fffffff" name="ManaDamOverTime" time="3" val="0">
       <mul order="0x30" stat="pAtk-undead" val="1.3"/>
       <!-- mul order="0x30" stat="holyPower" val="1.2" Needs Core Support -->
     </effect>
@@ -1145,7 +1140,7 @@
   <set name="castRange" val="-1"/>
   <set name="effectRange" val="-1"/>
   <for>
-    <effect count="0x7fffffff" name="ManaDamOverTime" time="5" val="0">
+    <effect count="0x7fffffff" name="ManaDamOverTime" time="3" val="0">
       <mul order="0x30" stat="darkVuln" val="#darkVuln"/>
     </effect>
   </for>

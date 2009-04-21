@@ -57,7 +57,7 @@
     </effect>
   </enchant1for>
   <enchant2for>
-    <!-- retail value: 118HP/sec; stat update every 5 units (3 1/3 sec) -->
+    <!-- retail value: 118HP/sec; stat update every 3 sec -->
     <effect count="5" name="DamOverTime" time="3" val="354"/>
   </enchant2for>
 </skill>
@@ -305,12 +305,12 @@
   <enchant2 name="mpConsume" val="#ench2MpConsume"/>
   <for>
     <effect name="Buff" time="120" count="1" val="0" stackOrder="1" stackType="dance_of_vampire">
-      <add stat="absorbDam" val="8" order="0x40"/>
+      <add order="0x40" stat="absorbDam" val="8"/> <!-- absorb 8% HP from damage inflicted on enemies -->
     </effect>
   </for>
   <enchant1for>
     <effect name="Buff" time="#ench1time" count="1" val="0" stackOrder="1" stackType="dance_of_vampire">
-      <add stat="absorbDam" val="8" order="0x40"/>
+      <add order="0x40" stat="absorbDam" val="8"/> <!-- absorb 8% HP from damage inflicted on enemies -->
     </effect>
   </enchant1for>
 </skill>
@@ -500,11 +500,9 @@
   </for>
 </skill>
 <skill id="317" levels="5" name="Focus Attack">
-  <!-- has estimations for values based on L2P - needs to be finished -->
   <table name="#mpConsume"> 18 22 27 31 34 </table>
-  <table name="#crit"> 1.05 1.1 1.15 1.2 1.3 </table>
-  <table name="#Accuracy"> 3 3 4 5 5 </table>
-  <table name="#atkCountMax"> 1 1 1 1 1 </table>
+  <table name="#cAtk"> 1.1 1.15 1.2 1.25 1.3 </table>
+  <table name="#Accuracy"> 2 3 4 5 6 </table>
   <set name="weaponsAllowed" val="64"/> <!-- Pole -->
   <set name="mpConsume" val="#mpConsume"/>
   <set name="reuseDelay" val="12000"/>
@@ -516,13 +514,13 @@
   <set name="hitTime" val="2000"/>
   <for>
     <effect name="Buff" time="120" count="1" val="0">
-      <mul order="0x30" stat="cAtk" val="#crit">
+      <mul order="0x30" stat="cAtk" val="#cAtk">
         <using kind="Pole"/>
       </mul>
       <add order="0x40" stat="accCombat" val="#Accuracy">
         <using kind="Pole"/>
       </add>
-      <add order="0x40" stat="atkCountMax" val="#atkCountMax">
+      <add order="0x40" stat="atkCountMax" val="1">
         <using kind="Pole"/>
       </add>
     </effect>
@@ -537,11 +535,9 @@
   <set name="castRange" val="-1"/>
   <set name="effectRange" val="-1"/>
   <for>
-    <effect count="0x7fffffff" name="ManaDamOverTime" time="2" val="0">
+    <effect count="0x7fffffff" name="ManaDamOverTime" time="3" val="0">
       <mul order="0x30" stat="sDef" val="0.6"/>
-      <set stat="shieldDefAngle" val="360" order="0x10">
-        <using kind="Shield"/> <!-- when a shield is equipped. -->
-      </set>
+      <set stat="shieldDefAngle" val="360" order="0x10"/>
     </effect>
   </for>
   <enchant1for>
@@ -849,7 +845,7 @@
   <set name="castRange" val="-1"/>
   <set name="effectRange" val="-1"/>
   <for>
-    <!-- retail value: 50HP/sec; stat update every 5 units (3 1/3 sec) -->
+    <!-- retail value: 50HP/sec; stat update every 3 sec -->
     <effect count="0x7fffffff" name="DamOverTime" time="3" val="150">
       <mul order="0x30" stat="mAtkSpd" val="0.9"/>
       <mul order="0x30" stat="MagicalMpConsumeRate" val="0.7"/>
@@ -865,7 +861,7 @@
   <set name="castRange" val="-1"/>
   <set name="effectRange" val="-1"/>
   <for>
-    <!-- retail value: 50HP/sec; stat update every 5 units (3 1/3 sec) -->
+    <!-- retail value: 50HP/sec; stat update every 3 sec -->
     <effect count="0x7fffffff" name="DamOverTime" time="3" val="150">
       <mul order="0x30" stat="MagicalMpConsumeRate" val="1.1"/>
       <mul order="0x30" stat="mAtk" val="1.3"/>
@@ -881,7 +877,7 @@
   <set name="castRange" val="-1"/>
   <set name="effectRange" val="-1"/>
   <for>
-    <!-- retail value: 50HP/sec; stat update every 5 units (3 1/3 sec) -->
+    <!-- retail value: 50HP/sec; stat update every 3 sec -->
     <effect count="0x7fffffff" name="DamOverTime" time="3" val="150">
       <mul order="0x30" stat="mAtkSpd" val="1.2"/>
       <mul order="0x30" stat="mReuse" val="0.9"/>
@@ -970,9 +966,9 @@
   </cond>
   <for>
     <effect count="1" name="Debuff" time="120" val="0">
-      <mul order="0x30" stat="maxCp" val="0.10"/>
-      <mul order="0x30" stat="debuffVuln" val="1.30"/>
-      <mul order="0x30" stat="gainHp" val="0.70"/>
+      <mul order="0x30" stat="maxCp" val="0.1"/>
+      <mul order="0x30" stat="debuffVuln" val="1.3"/>
+      <mul order="0x30" stat="gainHp" val="0.7"/>
     </effect>
   </for>
 </skill>
@@ -1564,7 +1560,7 @@
     <effect self="1" count="1" name="ImmobileBuff" time="30" val="0" stackOrder="3" stackType="pd_up_special">
       <add order="0x40" stat="pDef" val="5400"/>
       <add order="0x40" stat="mDef" val="4050"/>
-      <mul order="0x30" stat="cancelVuln" val="0.9"/> <!-- value to be confirmed -->
+      <mul order="0x30" stat="cancelVuln" val="0.2"/>
     </effect>
     <effect count="1" name="TargetMe" time="1" val="0"/>
   </for>
@@ -1933,8 +1929,8 @@
       <mul order="0x30" stat="pDef" val="0.75"/>
       <mul order="0x30" stat="mDef" val="0.75"/>
       <mul order="0x30" stat="debuffVuln" val="0"/>
-      <mul order="0x30" stat="cancelVuln" val="0.7"/><!-- Update by rocknow from L2Emu -->
-      <mul order="0x30" stat="gainHp" val="1.17"/><!-- Update by rocknow from L2Emu -->
+      <mul order="0x30" stat="cancelVuln" val="0.2"/>
+      <mul order="0x30" stat="gainHp" val="2"/>
     </effect>
   </for>
 </skill>

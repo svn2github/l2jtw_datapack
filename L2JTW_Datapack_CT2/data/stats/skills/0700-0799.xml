@@ -412,7 +412,7 @@
   <set name="effectRange" val="900"/>
   <for>
     <effect name="Buff" time="1200" count="1" val="0" stackOrder="9" stackType="vampRage">
-      <add order="0x40" stat="absorbDam" val="9"/>
+      <add order="0x40" stat="absorbDam" val="9"/> <!-- absorb 9% HP from damage inflicted on enemies -->
     </effect>
   </for>
 </skill>
@@ -680,7 +680,7 @@
     <effect count="1" name="ImmobileBuff" time="30" val="0" stackOrder="1" stackType="pd_up_special">
       <add order="0x40" stat="pDef" val="3600"/>
       <add order="0x40" stat="mDef" val="2700"/>
-      <mul order="0x30" stat="cancelVuln" val="0.9"/> <!-- value to be confirmed -->
+      <mul order="0x30" stat="cancelVuln" val="0.2"/>
     </effect>
   </for>
 </skill>
@@ -735,7 +735,7 @@
   <set name="mpConsume" val="#mpConsume"/>
   <set name="target" val="TARGET_ONE"/>
   <set name="power" val="80"/>
-  <set name="skillType" val="DEBUFF"/>
+  <set name="skillType" val="POISON"/>
   <set name="operateType" val="OP_ACTIVE"/>
   <set name="hitTime" val="4000"/>
   <set name="reuseDelay" val="12000"/>
@@ -890,7 +890,7 @@
     <effect count="1" name="ImmobileBuff" time="30" val="0" stackOrder="1" stackType="pd_up_special">
       <add order="0x40" stat="pDef" val="3600"/>
       <add order="0x40" stat="mDef" val="2700"/>
-      <mul order="0x30" stat="cancelVuln" val="0.9"/> <!-- value to be confirmed -->
+      <mul order="0x30" stat="cancelVuln" val="0.2"/>
     </effect>
   </for>
 </skill>
@@ -1057,17 +1057,18 @@
   </for>
 </skill>
 <skill id="760" levels="1" name="Anti Magic Armor">
-  <!-- Update by rocknow -->
+  <!-- Done by caramon81 -->
   <set name="castRange" val="-1"/>
   <set name="effectRange" val="-1"/>
   <set name="hitTime" val="1000"/>
+  <set name="magicLvl" val="81"/>
   <set name="mpConsume" val="21"/>
   <set name="operateType" val="OP_ACTIVE"/>
   <set name="reuseDelay" val="1800000"/>
   <set name="skillType" val="BUFF"/>
   <set name="target" val="TARGET_SELF"/>
   <for>
-    <effect count="1" name="Buff" time="30" val="0">
+    <effect count="1" name="Buff" time="30" val="0" stackOrder="1" stackType="pd_up_special">
       <add order="0x40" stat="mDef" val="5000"/>
     </effect>
   </for>
@@ -1148,7 +1149,7 @@
   <set name="aggroPoints" val="666"/>
   <for>
     <effect name="Buff" time="120" count="1" val="0">
-      <mul order="0x30" stat="bowWpnVuln" val="0.5"/>
+      <mul order="0x30" stat="bowWpnVuln" val="0.7"/>
     </effect>
   </for>
 </skill>
@@ -1168,8 +1169,8 @@
   <set name="aggroPoints" val="666"/>
   <for>
     <effect name="Buff" time="15" count="1" val="0">
-      <mul order="0x30" stat="bowWpnVuln" val="0.1"/>
-      <mul order="0x30" stat="mAtk" val="0.1"/>
+      <mul order="0x30" stat="bowWpnVuln" val="0.01"/>
+      <mul order="0x30" stat="mAtk" val="0.01"/>
     </effect>
   </for>
 </skill>
@@ -1551,33 +1552,40 @@
   </for>
 </skill>
 <skill id="785" levels="1" name="Flame Icon">
-  <!-- Update by rocknow -->
-  <set name="magicLvl" val="81"/>
-  <set name="hpConsume" val="1253"/>
-  <set name="power" val="20"/>
-  <set name="target" val="TARGET_PARTY"/>
-  <set name="reuseDelay" val="1000000"/>
-  <set name="hitTime" val="2500"/>
-  <set name="skillRadius" val="1000"/>
-  <set name="skillType" val="BUFF"/>
-  <set name="operateType" val="OP_ACTIVE"/>
+  <!-- Done by DJ MELERIX -->
   <set name="castRange" val="-1"/>
   <set name="effectRange" val="-1"/>
-  <set name="aggroPoints" val="800"/>
+  <set name="hitTime" val="1800"/>
+  <set name="operateType" val="OP_ACTIVE"/>
+  <set name="reuseDelay" val="300000"/>
+  <set name="skillType" val="BUFF"/>
+  <set name="skillRadius" val="1000"/>
+  <set name="target" val="TARGET_PARTY"/>
+  <cond msg="Flame Icon cannot be used due to unsuitable terms.">
+    <target active_effect_id="5562"/> <!-- Needs Core-Side improvement "Require 5562 in Lvl 3" -->
+  </cond>
   <for>
-    <effect count="1" name="Buff" time="60" val="0" stackOrder="1" stackType="multi_buff">
-      <mul order="0x30" stat="mDef" val="1.5"/>
+    <effect count="1" name="Buff" time="60" val="0" stackOrder="1" stackType="icon_buff">
+      <mul order="0x30" stat="debuffVuln" val="0.6"/>
       <mul order="0x30" stat="pDef" val="1.5"/>
-      <add order="0x40" stat="accCombat" val="6"/>
-      <add order="0x40" stat="runSpd" val="30"/>
-      <mul order="0x30" stat="pAtkSpd" val="1.30"/>
-      <mul order="0x30" stat="gainHp" val="0.2"/>
-      <add order="0x40" stat="rCrit" val="100">
+      <mul order="0x30" stat="mDef" val="1.5"/>
+      <add order="0x40" stat="accCombat" val="6">
+        <using kind="Sword,Big Sword,Blunt,Big Blunt"/>
+      </add>
+      <add order="0x40" stat="runSpd" val="10">
+        <using kind="Sword,Big Sword,Blunt,Big Blunt"/>
+      </add>
+      <mul order="0x30" stat="pAtkSpd" val="1.1">
+        <using kind="Sword,Big Sword,Blunt,Big Blunt"/>
+      </mul>
+      <add order="0x40" stat="rCrit" val="33">
         <using kind="Sword,Big Sword"/>
       </add>
-      <mul order="0x30" stat="cAtk" val="2.0">
+      <mul order="0x30" stat="cAtk" val="1.33">
         <using kind="Blunt,Big Blunt"/>
       </mul>
+      <mul order="0x30" stat="cancelVuln" val="0.6"/>
+      <mul order="0x30" stat="gainHp" val="0.2"/>
     </effect>
   </for>
 </skill>
@@ -1613,9 +1621,9 @@
   </cond>
   <for>
     <effect count="20" name="HealOverTime" time="3" val="150">
-      <mul order="0x30" stat="cancelVuln" val="0.40"/>
-      <mul order="0x30" stat="debuffVuln" val="0.70"/>
-      <mul order="0x30" stat="gainHp" val="1.30"/>
+      <mul order="0x30" stat="cancelVuln" val="0.4"/>
+      <mul order="0x30" stat="debuffVuln" val="0.7"/>
+      <mul order="0x30" stat="gainHp" val="1.3"/>
     </effect>
   </for>
 </skill>
@@ -1659,8 +1667,8 @@
   <for>
     <effect count="1" name="Debuff" time="120" val="0">
       <mul order="0x30" stat="maxCp" val="0.25"/>
-      <mul order="0x30" stat="debuffVuln" val="1.30"/>
-      <mul order="0x30" stat="gainHp" val="0.70"/>
+      <mul order="0x30" stat="debuffVuln" val="1.3"/>
+      <mul order="0x30" stat="gainHp" val="0.7"/>
     </effect>
   </for>
 </skill>
@@ -1718,6 +1726,7 @@
 <skill id="793" levels="1" name="Rush Impact">
   <!-- Done by DJ MELERIX -->
   <set name="castRange" val="600"/>
+  <set name="coolTime" val="320"/>
   <set name="effectPower" val="50"/> <!-- Base Land Rate -->
   <set name="effectRange" val="1100"/>
   <set name="effectType" val="STUN"/>

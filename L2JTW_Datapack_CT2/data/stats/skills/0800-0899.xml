@@ -96,8 +96,8 @@
   <set name="transformId" val="312"/>
   <for>
     <effect count="1" name="Transformation" time="18400" val="0">
-      <mul order="0x30" stat="pDef" val="0.75"/>
-      <mul order="0x30" stat="sDef" val="0.8"/> <!-- Guess - need retail confirmation -->
+      <mul order="0x30" stat="pDef" val="0.83"/>
+      <mul order="0x30" stat="sDef" val="0.5"/>
     </effect>
   </for>
 </skill>
@@ -113,8 +113,8 @@
   <set name="transformId" val="313"/>
   <for>
     <effect count="1" name="Transformation" time="18400" val="0">
-      <mul order="0x30" stat="pDef" val="0.75"/>
-      <mul order="0x30" stat="sDef" val="0.8"/> <!-- Guess - need retail confirmation -->
+      <mul order="0x30" stat="pDef" val="0.83"/>
+      <mul order="0x30" stat="sDef" val="0.5"/>
     </effect>
   </for>
 </skill>
@@ -130,8 +130,8 @@
   <set name="transformId" val="314"/>
   <for>
     <effect count="1" name="Transformation" time="18400" val="0">
-      <mul order="0x30" stat="pDef" val="0.75"/>
-      <mul order="0x30" stat="sDef" val="0.8"/>  <!-- Guess - need retail confirmation -->
+      <mul order="0x30" stat="pDef" val="0.83"/>
+      <mul order="0x30" stat="sDef" val="0.5"/>
     </effect>
   </for>
 </skill>
@@ -147,8 +147,8 @@
   <set name="transformId" val="315"/>
   <for>
     <effect count="1" name="Transformation" time="18400" val="0">
-      <mul order="0x30" stat="pDef" val="0.75"/>
-      <mul order="0x30" stat="sDef" val="0.8"/>  <!-- Guess - need retail confirmation -->
+      <mul order="0x30" stat="pDef" val="0.83"/>
+      <mul order="0x30" stat="sDef" val="0.5"/>
     </effect>
   </for>
 </skill>
@@ -306,8 +306,8 @@
 </skill>
 <skill id="823" levels="3" name="Strengthen Golem">
   <!-- Done by _DS_ -->
-  <table name="#Tab-pAtkSpd"> 1.15 1.24 1.32 </table>
-  <table name="#Tab-pAtk"> 1.08 1.12 1.14 </table>
+  <table name="#Tab-pAtkSpd"> 1.03 1.06 1.09 </table>
+  <table name="#Tab-pAtk"> 1.08 1.12 1.15 </table>
   <table name="#mpConsume"> 24 36 42 </table>
   <set name="mpConsume" val="#mpConsume"/>
   <set name="target" val="TARGET_SUMMON"/>
@@ -328,7 +328,7 @@
 <skill id="824" levels="3" name="Armor Golem">
   <!-- Done by _DS_ -->
   <table name="#Tab-pDef"> 1.08 1.12 1.15 </table>
-  <table name="#Tab-maxHp"> 1.1 1.25 1.35 </table>
+  <table name="#Tab-maxHp"> 1.05 1.08 1.1 </table>
   <table name="#mpConsume"> 35 44 41 </table>
   <set name="mpConsume" val="#mpConsume"/>
   <set name="target" val="TARGET_SUMMON"/>
@@ -492,14 +492,14 @@
           </not>
         </and>
       </mul>
-      <mul order="0x30" stat="regMp" val="1.3">
+      <add order="0x40" stat="regMp" val="2">
         <and>
           <using kind="Magic"/>
           <not>
             <using kind="Heavy,Light"/>
           </not>
         </and>
-      </mul>
+      </add>
     </effect>
   </for>
 </skill>
