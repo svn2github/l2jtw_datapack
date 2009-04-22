@@ -45,7 +45,6 @@ import net.sf.l2j.gameserver.network.serverpackets.SetupGauge;
 import net.sf.l2j.gameserver.network.serverpackets.SystemMessage;
 import net.sf.l2j.gameserver.templates.chars.L2NpcTemplate;
 import net.sf.l2j.gameserver.util.Broadcast;
-import net.sf.l2j.gameserver.util.FloodProtector;
 import net.sf.l2j.gameserver.model.L2CoreMessage;
 import net.sf.l2j.gameserver.datatables.MessageTable;
 
@@ -65,8 +64,11 @@ public class SummonItems implements IItemHandler
 		
 		L2PcInstance activeChar = (L2PcInstance) playable;
 		
-		if (!FloodProtector.tryPerformAction(activeChar.getObjectId(), FloodProtector.PROTECTED_ITEMPETSUMMON))
-			return;
+		if (!activeChar.getFloodProtectors().getItemPetSummon().
+                        tryPerformAction("summon items"))
+                {
+                    return;
+                }
 		
 		if (activeChar.isSitting())
 		{
