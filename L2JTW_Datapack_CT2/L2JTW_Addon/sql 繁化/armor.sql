@@ -2224,8 +2224,6 @@ UPDATE `armor` SET `name` ='薄暮鞋' WHERE item_id ='13446';
 UPDATE `armor` SET `name` ='薄暮耳環' WHERE item_id ='14163';
 UPDATE `armor` SET `name` ='薄暮項鍊' WHERE item_id ='14164';
 UPDATE `armor` SET `name` ='薄暮戒指' WHERE item_id ='14165';
-UPDATE `armor` SET `name` ='王朝符印' WHERE item_id ='10119';
-UPDATE `armor` SET `name` ='祕儀符印' WHERE item_id ='13078';
 UPDATE `armor` SET `name` ='騎士斗篷-重裝備專用' WHERE item_id ='13687';
 UPDATE `armor` SET `name` ='騎士斗篷-輕裝備專用' WHERE item_id ='13688';
 UPDATE `armor` SET `name` ='騎士斗篷-長袍裝專用' WHERE item_id ='13689';

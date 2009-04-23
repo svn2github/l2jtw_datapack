@@ -8482,3 +8482,8 @@ UPDATE `etcitem` SET `name` ='食人妖壺精組' WHERE item_id ='20251';
 UPDATE `etcitem` SET `name` ='愛心壺精組-活動' WHERE item_id ='20254';
 
 /***** Done by vdmyagami！ *****/
+
+UPDATE `etcitem` SET `name` ='玩偶騎士召喚項鍊' WHERE item_id ='14061';
+UPDATE `etcitem` SET `name` ='精靈術士召喚項鍊' WHERE item_id ='14062';
+UPDATE `etcitem` SET `name` ='貓頭鷹術士召喚項鍊' WHERE item_id ='14063';
+UPDATE `etcitem` SET `name` ='烏龜道士召喚項鍊' WHERE item_id ='14064';
