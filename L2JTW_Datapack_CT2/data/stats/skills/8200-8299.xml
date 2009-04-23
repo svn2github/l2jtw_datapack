@@ -737,6 +737,72 @@
   <set name="castRange" val="-1"/>
   <set name="effectRange" val="-1"/>
 </skill>
+<skill id="8251" levels="1" name="8251">
+  <!-- Update by rocknow -->
+  <set name="target" val="TARGET_SELF"/>
+  <set name="skillType" val="AGATHION"/>
+  <set name="hitTime" val="3000"/>
+  <set name="staticHitTime" val="true"/>
+  <set name="operateType" val="OP_ACTIVE"/>
+  <set name="npcId" val="16061"/>
+  <set name="castRange" val="-1"/>
+  <set name="effectRange" val="-1"/>
+</skill>
+<skill id="8254" levels="1" name="8254">
+  <!-- Update by rocknow -->
+  <set name="target" val="TARGET_SELF"/>
+  <set name="skillType" val="AGATHION"/>
+  <set name="hitTime" val="3000"/>
+  <set name="staticHitTime" val="true"/>
+  <set name="operateType" val="OP_ACTIVE"/>
+  <set name="npcId" val="16054"/>
+  <set name="castRange" val="-1"/>
+  <set name="effectRange" val="-1"/>
+</skill>
+<skill id="8255" levels="1" name="8255">
+  <!-- Update by rocknow -->
+  <set name="target" val="TARGET_SELF"/>
+  <set name="skillType" val="AGATHION"/>
+  <set name="hitTime" val="3000"/>
+  <set name="staticHitTime" val="true"/>
+  <set name="operateType" val="OP_ACTIVE"/>
+  <set name="npcId" val="16055"/>
+  <set name="castRange" val="-1"/>
+  <set name="effectRange" val="-1"/>
+</skill>
+<skill id="8256" levels="1" name="8256">
+  <!-- Update by rocknow -->
+  <set name="target" val="TARGET_SELF"/>
+  <set name="skillType" val="AGATHION"/>
+  <set name="hitTime" val="3000"/>
+  <set name="staticHitTime" val="true"/>
+  <set name="operateType" val="OP_ACTIVE"/>
+  <set name="npcId" val="16056"/>
+  <set name="castRange" val="-1"/>
+  <set name="effectRange" val="-1"/>
+</skill>
+<skill id="8257" levels="1" name="8257">
+  <!-- Update by rocknow -->
+  <set name="target" val="TARGET_SELF"/>
+  <set name="skillType" val="AGATHION"/>
+  <set name="hitTime" val="3000"/>
+  <set name="staticHitTime" val="true"/>
+  <set name="operateType" val="OP_ACTIVE"/>
+  <set name="npcId" val="16058"/>
+  <set name="castRange" val="-1"/>
+  <set name="effectRange" val="-1"/>
+</skill>
+<skill id="8258" levels="1" name="8258">
+  <!-- Update by rocknow -->
+  <set name="target" val="TARGET_SELF"/>
+  <set name="skillType" val="AGATHION"/>
+  <set name="hitTime" val="3000"/>
+  <set name="staticHitTime" val="true"/>
+  <set name="operateType" val="OP_ACTIVE"/>
+  <set name="npcId" val="16057"/>
+  <set name="castRange" val="-1"/>
+  <set name="effectRange" val="-1"/>
+</skill>
 <skill id="8259" levels="1" name="8259">
   <!-- Update by rocknow -->
   <set name="target" val="TARGET_SELF"/>
@@ -744,7 +810,7 @@
   <set name="hitTime" val="3000"/>
   <set name="staticHitTime" val="true"/>
   <set name="operateType" val="OP_ACTIVE"/>
-  <set name="npcId" val="16059"/>
+  <set name="npcId" val="16060"/>
   <set name="castRange" val="-1"/>
   <set name="effectRange" val="-1"/>
 </skill>

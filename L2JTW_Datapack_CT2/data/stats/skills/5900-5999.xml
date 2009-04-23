@@ -1,5 +1,35 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <list>
+<skill id="5955" levels="1" name="5955">
+  <!-- Update by rocknow -->
+  <set name="target" val="TARGET_SELF"/>
+  <set name="skillType" val="DUMMY"/>
+  <set name="hitTime" val="3000"/>
+  <set name="staticHitTime" val="true"/>
+  <set name="operateType" val="OP_ACTIVE"/>
+  <set name="castRange" val="-1"/>
+  <set name="effectRange" val="-1"/>
+</skill>
+<skill id="5956" levels="1" name="5956">
+  <!-- Update by rocknow -->
+  <set name="target" val="TARGET_SELF"/>
+  <set name="skillType" val="DUMMY"/>
+  <set name="hitTime" val="3000"/>
+  <set name="staticHitTime" val="true"/>
+  <set name="operateType" val="OP_ACTIVE"/>
+  <set name="castRange" val="-1"/>
+  <set name="effectRange" val="-1"/>
+</skill>
+<skill id="5957" levels="1" name="5957">
+  <!-- Update by rocknow -->
+  <set name="target" val="TARGET_SELF"/>
+  <set name="skillType" val="DUMMY"/>
+  <set name="hitTime" val="3000"/>
+  <set name="staticHitTime" val="true"/>
+  <set name="operateType" val="OP_ACTIVE"/>
+  <set name="castRange" val="-1"/>
+  <set name="effectRange" val="-1"/>
+</skill>
 <skill id="5958" levels="1" name="5958">
   <!-- Update by rocknow -->
   <set name="target" val="TARGET_SELF"/>

@@ -2074,14 +2074,13 @@ UPDATE `etcitem` SET `sellable` = 'false' WHERE `item_id` = 5575;
 UPDATE `etcitem` SET `item_type` = 'quest' WHERE `item_id` in (8085,8098);
 UPDATE `etcitem` SET `sellable` = 'false' WHERE `item_id` = 10112;
 REPLACE INTO `etcitem` VALUES
-('9632', 'Wooden Bolt', 'false', 'bolt', '6', 'stackable', 'wood', 'none', '-1', '-1', '2', '0', 'true', 'true', 'true', 'true', '', ''),
-('9633', 'Bone Bolt', 'false', 'bolt', '5', 'stackable', 'bone', 'd', '-1', '-1', '2', '0', 'true', 'true', 'true', 'true', '', ''),
-('9634', 'Steel Bolt', 'false', 'bolt', '4', 'stackable', 'fine_steel', 'c', '-1', '-1', '5', '0', 'true', 'true', 'true', 'true', '', ''),
-('9635', 'Silver Bolt', 'false', 'bolt', '4', 'stackable', 'silver', 'b', '-1', '-1', '7', '0', 'true', 'true', 'true', 'true', '', ''),
-('9636', 'Mithril Bolt', 'false', 'bolt', '3', 'stackable', 'mithril', 'a', '-1', '-1', '8', '0', 'true', 'true', 'true', 'true', '', ''),
-('9637', 'Shining Bolt', 'false', 'bolt', '3', 'stackable', 'adamantaite', 's', '-1', '-1', '10', '0', 'true', 'true', 'true', 'true', '', ''),
-('10113', 'Special Bolt', 'false', 'none', '6', 'stackable', 'wood', 'none', '-1', '-1', '0', null, 'true', 'false', 'true', 'false', '', '');
-
+(9632,'Wooden Bolt','false','bolt',6,'stackable','wood','none',-1,-1,2,0,'true','true','true','true','0-0;','false'),
+(9633,'Bone Bolt','false','bolt',5,'stackable','wood','d',-1,-1,2,0,'true','true','true','true','0-0;','false'),
+(9634,'Steel Bolt','false','bolt',4,'stackable','wood','c',-1,-1,5,0,'true','true','true','true','0-0;','false'),
+(9635,'Silver Bolt','false','bolt',4,'stackable','wood','b',-1,-1,7,0,'true','true','true','true','0-0;','false'),
+(9636,'Mithril Bolt','false','bolt',3,'stackable','wood','a',-1,-1,8,0,'true','true','true','true','0-0;','false'),
+(9637,'Shining Bolt','false','bolt',3,'stackable','wood','s',-1,-1,10,0,'true','true','true','true','0-0;','false'),
+(10113,'Special Bolt','false','none',6,'stackable','wood','none',-1,-1,0,0,'true','false','true','true','0-0;','false');
 
 /************ 增加GM商店物品販賣 ************/
 Delete From `merchant_buylists` Where `shop_id` in (71040,71041,71042,71043,71044,71045,71046,71047,71048,71049,71050,71051,71052,71053,71054);

@@ -948,6 +948,11 @@ REPLACE INTO `armor` VALUES
 
 -- ·s³ýºë
 REPLACE INTO `armor` VALUES
+(10659,'10659','lbracelet','false','none',150,'wood','none',0,-1,-1,0,0,0,0,0,'false','false','true','false','8254-1;3267-1;'),
+(10660,'10660','lbracelet','false','none',150,'wood','none',0,-1,-1,0,0,0,0,0,'false','false','true','false','8255-1;3267-1;'),
+(13024,'13024','lbracelet','false','none',150,'wood','none',0,-1,-1,0,0,0,0,0,'false','false','true','false','8257-1;5956-1;3267-1;'),
+(13025,'13025','lbracelet','false','none',150,'wood','none',0,-1,-1,0,0,0,0,0,'false','false','true','false','8256-1;5955-1;3267-1;'),
+(13026,'13026','lbracelet','false','none',150,'wood','none',0,-1,-1,0,0,0,0,0,'false','false','true','false','8258-1;5957-1;3267-1;'),
 (13543,'13543','lbracelet','false','none',150,'wood','none',0,-1,-1,0,0,0,0,0,'false','false','true','false','8251-1;5780-1;3267-1;'),
 (13544,'13544','lbracelet','false','none',150,'wood','none',0,-1,-1,0,0,0,0,0,'false','false','true','false','8259-1;5958-1;3267-1;'),
 (13545,'13545','lbracelet','false','none',150,'wood','none',0,-1,-1,0,0,0,0,0,'false','false','true','false','8260-1;5959-1;3267-1;'),
