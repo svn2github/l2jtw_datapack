@@ -3033,6 +3033,7 @@ UPDATE `weapon` SET `name` ='薄暮衛盾' WHERE item_id ='13471';
 UPDATE `weapon` SET `name` ='王朝雙匕首' WHERE item_id ='13882';
 UPDATE `weapon` SET `name` ='伊克魯斯雙匕首' WHERE item_id ='13883';
 UPDATE `weapon` SET `name` ='薄暮雙匕首' WHERE item_id ='13884';
+UPDATE `weapon` SET `name` ='封印的薄暮衛盾' WHERE item_id ='14111';
 UPDATE `weapon` SET `name` ='法國麵包棍子劍' WHERE item_id ='20255';
 UPDATE `weapon` SET `name` ='法國麵包糖蜜劍' WHERE item_id ='20256';
 UPDATE `weapon` SET `name` ='法國麵包長型劍' WHERE item_id ='20257';

@@ -840,6 +840,31 @@ REPLACE INTO `armor` VALUES
 (14164,'14164','neck','true','none',150,'wood','s80',0,-1,-1,0,125,50,0,0,'true','true','true','true','0-0;'),
 (14165,'14165','rfinger,lfinger','true','none',150,'wood','s80',0,-1,-1,0,62,25,0,0,'true','true','true','true','0-0;');
 
+-- S84«Ê¦LªºÁ¡¼ÇªZ¾¹
+REPLACE INTO `weapon` VALUES
+(14111,'14111','lhand','true',1130,0,0,'steel','s80',0,0,'none',0,0.00000,-8,352,20,0,0,0,-1,-1,0,0,'true','true','true','true',0,0,0,0,0,0,0,0,0,'0-0;');
+
+-- S84«Ê¦LªºÁ¡¼Ç¨¾¨ã
+REPLACE INTO `armor` VALUES
+(13143,'13143','head','true','heavy',530,'wood','s80',0,-1,-1,101,0,0,0,0,'true','true','true','true','0-0;'),
+(13144,'13144','head','true','light',530,'wood','s80',0,-1,-1,101,0,0,0,0,'true','true','true','true','0-0;'),
+(13145,'13145','head','true','magic',530,'wood','s80',0,-1,-1,101,0,0,0,0,'true','true','true','true','0-0;'),
+(14105,'14105','chest','true','heavy',7520,'wood','s80',0,-1,-1,223,0,0,0,0,'true','true','true','true','0-0;'),
+(14106,'14106','chest','true','light',4140,'wood','s80',0,-1,-1,177,0,0,0,0,'true','true','true','true','0-0;'),
+(14107,'14107','chest','true','magic',1750,'wood','s80',0,-1,-1,118,0,637,0,0,'true','true','true','true','0-0;'),
+(14108,'14108','legs','true','heavy',3170,'wood','s80',0,-1,-1,148,0,0,0,0,'true','true','true','true','0-0;'),
+(14109,'14109','gloves','true','heavy',510,'wood','s80',0,-1,-1,68,0,0,0,0,'true','true','true','true','0-0;'),
+(14110,'14110','feet','true','heavy',1070,'wood','s80',0,-1,-1,68,0,0,0,0,'true','true','true','true','0-0;'),
+(14112,'14112','legs','true','light',1320,'wood','s80',0,-1,-1,111,0,0,0,0,'true','true','true','true','0-0;'),
+(14113,'14113','gloves','true','light',510,'wood','s80',0,-1,-1,68,0,0,0,0,'true','true','true','true','0-0;'),
+(14114,'14114','feet','true','light',1070,'wood','s80',0,-1,-1,68,0,0,0,0,'true','true','true','true','0-0;'),
+(14115,'14115','legs','true','magic',850,'wood','s80',0,-1,-1,74,0,415,0,0,'true','true','true','true','0-0;'),
+(14116,'14116','gloves','true','magic',510,'wood','s80',0,-1,-1,68,0,0,0,0,'true','true','true','true','0-0;'),
+(14117,'14117','feet','true','magic',1070,'wood','s80',0,-1,-1,68,0,0,0,0,'true','true','true','true','0-0;'),
+(14160,'14160','rear,lear','true','none',150,'wood','s80',0,-1,-1,0,83,0,0,0,'true','true','true','true','0-0;'),
+(14161,'14161','neck','true','none',150,'wood','s80',0,-1,-1,0,1100,0,0,0,'true','true','true','true','0-0;'),
+(14162,'14162','rfinger,lfinger','true','none',150,'wood','s80',0,-1,-1,0,55,0,0,0,'true','true','true','true','0-0;');
+
 -- ²Å¦L
 REPLACE INTO `weapon` VALUES
 (10119,'10119','lhand','true',930,0,0,'fine_steel','s80',0,0,'none',0,0.00000,-8,15,20,0,0,0,-1,-1,0,0,'true','true','true','true',0,0,0,0,0,0,0,0,0,'0-0;'),
