@@ -8487,3 +8487,7 @@ UPDATE `etcitem` SET `name` ='玩偶騎士召喚項鍊' WHERE item_id ='14061';
 UPDATE `etcitem` SET `name` ='精靈術士召喚項鍊' WHERE item_id ='14062';
 UPDATE `etcitem` SET `name` ='貓頭鷹術士召喚項鍊' WHERE item_id ='14063';
 UPDATE `etcitem` SET `name` ='烏龜道士召喚項鍊' WHERE item_id ='14064';
+UPDATE `etcitem` SET `name` ='變身體-翻滾方塊變身卷軸' WHERE item_id ='13794';
+UPDATE `etcitem` SET `name` ='變身體-翻滾方塊變身卷軸' WHERE item_id ='13795';
+UPDATE `etcitem` SET `name` ='青蛙變身卷軸' WHERE item_id ='13800';
+UPDATE `etcitem` SET `name` ='小孩變身卷軸' WHERE item_id ='13801';

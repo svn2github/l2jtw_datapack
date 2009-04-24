@@ -2320,3 +2320,9 @@ UPDATE `armor` SET `name` ='壺精封印手鐲-元寶牛' WHERE item_id ='20311'
 UPDATE `armor` SET `name` ='壺精封印手鐲-吉利牛' WHERE item_id ='20312';
 UPDATE `armor` SET `name` ='黃鬃獅子騎乘手鐲' WHERE item_id ='13547';
 UPDATE `armor` SET `name` ='蒸汽甲蟲騎乘手鐲' WHERE item_id ='20396';
+UPDATE `armor` SET `name` ='原住民的頭巾' WHERE item_id ='13802';
+UPDATE `armor` SET `name` ='原住民的上衣' WHERE item_id ='13803';
+UPDATE `armor` SET `name` ='原住民的下衣' WHERE item_id ='13804';
+UPDATE `armor` SET `name` ='黎明警衛隊員的頭盔' WHERE item_id ='13805';
+UPDATE `armor` SET `name` ='黎明警衛隊員的上衣' WHERE item_id ='13806';
+UPDATE `armor` SET `name` ='黎明警衛隊員的下衣' WHERE item_id ='13807';

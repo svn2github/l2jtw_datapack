@@ -122,6 +122,30 @@
   <set name="operateType" val="OP_PASSIVE"/>
   <set name="castRange" val="-1"/>
 </skill>
+<skill id="2631" levels="1" name="2631">
+  <!-- Update by rocknow -->
+  <set name="target" val="TARGET_SELF"/>
+  <set name="skillType" val="BUFF"/>
+  <set name="operateType" val="OP_ACTIVE"/>
+  <set name="transformId" val="111"/>
+  <set name="castRange" val="-1"/>
+  <set name="effectRange" val="-1"/>
+  <for>
+    <effect count="1" name="Transformation" time="1800" val="0"/>
+  </for>
+</skill>
+<skill id="2632" levels="1" name="2632">
+  <!-- Update by rocknow -->
+  <set name="target" val="TARGET_SELF"/>
+  <set name="skillType" val="BUFF"/>
+  <set name="operateType" val="OP_ACTIVE"/>
+  <set name="transformId" val="112"/>
+  <set name="castRange" val="-1"/>
+  <set name="effectRange" val="-1"/>
+  <for>
+    <effect count="1" name="Transformation" time="1800" val="0"/>
+  </for>
+</skill>
 <skill id="2638" levels="1" name="Five-year anniversary event box">
   <set name="target" val="TARGET_NONE"/>
   <set name="skillType" val="NOTDONE"/>
@@ -175,5 +199,29 @@
   <set name="skillType" val="NOTDONE"/>
   <set name="operateType" val="OP_PASSIVE"/>
   <set name="castRange" val="-1"/>
+</skill>
+<skill id="2670" levels="1" name="2670">
+  <!-- Update by rocknow -->
+  <set name="target" val="TARGET_SELF"/>
+  <set name="skillType" val="BUFF"/>
+  <set name="operateType" val="OP_ACTIVE"/>
+  <set name="transformId" val="121"/>
+  <set name="castRange" val="-1"/>
+  <set name="effectRange" val="-1"/>
+  <for>
+    <effect count="1" name="Transformation" time="1800" val="0"/>
+  </for>
+</skill>
+<skill id="2671" levels="1" name="2671">
+  <!-- Update by rocknow -->
+  <set name="target" val="TARGET_SELF"/>
+  <set name="skillType" val="BUFF"/>
+  <set name="operateType" val="OP_ACTIVE"/>
+  <set name="transformId" val="122"/>
+  <set name="castRange" val="-1"/>
+  <set name="effectRange" val="-1"/>
+  <for>
+    <effect count="1" name="Transformation" time="1800" val="0"/>
+  </for>
 </skill>
 </list>

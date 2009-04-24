@@ -950,9 +950,9 @@ REPLACE INTO `armor` VALUES
 REPLACE INTO `armor` VALUES
 (10659,'10659','lbracelet','false','none',150,'wood','none',0,-1,-1,0,0,0,0,0,'false','false','true','false','8254-1;3267-1;'),
 (10660,'10660','lbracelet','false','none',150,'wood','none',0,-1,-1,0,0,0,0,0,'false','false','true','false','8255-1;3267-1;'),
-(13024,'13024','lbracelet','false','none',150,'wood','none',0,-1,-1,0,0,0,0,0,'false','false','true','false','8257-1;5956-1;3267-1;'),
-(13025,'13025','lbracelet','false','none',150,'wood','none',0,-1,-1,0,0,0,0,0,'false','false','true','false','8256-1;5955-1;3267-1;'),
-(13026,'13026','lbracelet','false','none',150,'wood','none',0,-1,-1,0,0,0,0,0,'false','false','true','false','8258-1;5957-1;3267-1;'),
+(13024,'13024','lbracelet','false','none',150,'wood','none',0,43200,-1,0,0,0,0,0,'false','false','true','false','8257-1;5956-1;3267-1;'),
+(13025,'13025','lbracelet','false','none',150,'wood','none',0,43200,-1,0,0,0,0,0,'false','false','true','false','8256-1;5955-1;3267-1;'),
+(13026,'13026','lbracelet','false','none',150,'wood','none',0,43200,-1,0,0,0,0,0,'false','false','true','false','8258-1;5957-1;3267-1;'),
 (13543,'13543','lbracelet','false','none',150,'wood','none',0,-1,-1,0,0,0,0,0,'false','false','true','false','8251-1;5780-1;3267-1;'),
 (13544,'13544','lbracelet','false','none',150,'wood','none',0,-1,-1,0,0,0,0,0,'false','false','true','false','8259-1;5958-1;3267-1;'),
 (13545,'13545','lbracelet','false','none',150,'wood','none',0,-1,-1,0,0,0,0,0,'false','false','true','false','8260-1;5959-1;3267-1;'),
@@ -984,10 +984,10 @@ REPLACE INTO `npc` VALUES
 ('16052', '16052', '16052', '0', '', '0', 'LineageMonster4.toy_knight_the_pet', '12', '15', '80', 'male', 'L2Pet', '40', '2444', '2444', '0.00', '0.00', '40', '43', '30', '21', '20', '25', '0', '0', '500', '500', '500', '500', '253', '0', '253', '0', '0', '0', '80', '120', 'NULL', '0', '0', '0', 'LAST_HIT', '0', '0', '0', 'fighter', 'false'),
 ('16053', '16053', '16053', '0', '', '0', 'LineageMonster4.turtle_buffer_the_pet', '12', '10', '80', 'male', 'L2Pet', '40', '2444', '2444', '0.00', '0.00', '40', '43', '30', '21', '20', '25', '0', '0', '500', '500', '500', '500', '253', '0', '253', '0', '0', '0', '80', '120', 'NULL', '0', '0', '0', 'LAST_HIT', '0', '0', '0', 'fighter', 'false');
 REPLACE INTO `etcitem` VALUES
-(14061,'14061','false','none',10,'normal','paper','none',10080,10080,0,0,'true','true','true','true','0-0;','false'),
-(14062,'14062','false','none',10,'normal','paper','none',10080,10080,0,0,'true','true','true','true','0-0;','false'),
-(14063,'14063','false','none',10,'normal','paper','none',10080,10080,0,0,'true','true','true','true','0-0;','false'),
-(14064,'14064','false','none',10,'normal','paper','none',10080,10080,0,0,'true','true','true','true','0-0;','false');
+(14061,'14061','false','none',10,'normal','paper','none',10080,-1,0,0,'true','true','true','true','0-0;','false'),
+(14062,'14062','false','none',10,'normal','paper','none',10080,-1,0,0,'true','true','true','true','0-0;','false'),
+(14063,'14063','false','none',10,'normal','paper','none',10080,-1,0,0,'true','true','true','true','0-0;','false'),
+(14064,'14064','false','none',10,'normal','paper','none',10080,-1,0,0,'true','true','true','true','0-0;','false');
 REPLACE INTO `pets_stats` VALUES
 ('16050',16050,70,266966617,6046,729,3812,502,646,481,110,100,44,198,278,333,100000000,0,0,92287,40,15,0.05),
 ('16050',16050,71,311043873,6217,782,3846,509,647,484,112,102,44,198,278,333,100000000,0,0,92287,40,15,0.05),
@@ -1190,3 +1190,24 @@ REPLACE INTO `pets_skills` VALUES
 (16053,80,6053,3),
 (16053,85,6053,4),
 (16053,70,6054,1);
+
+-- ∑s≈‹®≠
+REPLACE INTO `etcitem` VALUES
+(13794,'13794','false','none',120,'stackable','wood','none',-1,-1,0,0,'true','true','true','true','0-0;','false'),
+(13795,'13795','false','none',120,'stackable','wood','none',-1,-1,0,0,'true','true','true','true','0-0;','false'),
+(13800,'13800','false','quest',0,'stackable','wood','none',-1,-1,0,0,'true','true','true','true','0-0;','false'),
+(13801,'13801','false','quest',0,'stackable','wood','none',-1,-1,0,0,'true','true','true','true','0-0;','false');
+REPLACE INTO `armor` VALUES
+(13802,'13802','head','false','none',70,'wood','none',0,-1,-1,33,0,0,0,0,'true','true','true','true','0-0;'),
+(13803,'13803','chest','false','none',4720,'wood','none',0,-1,-1,53,0,0,0,0,'true','true','true','true','0-0;'),
+(13804,'13804','legs','false','none',1700,'wood','none',0,-1,-1,29,0,0,0,0,'true','true','true','true','0-0;'),
+(13805,'13805','head','false','none',70,'wood','none',0,-1,-1,33,0,0,0,0,'true','true','true','true','0-0;'),
+(13806,'13806','chest','false','none',4720,'wood','none',0,-1,-1,53,0,0,0,0,'true','true','true','true','0-0;'),
+(13807,'13807','legs','false','none',1700,'wood','none',0,-1,-1,29,0,0,0,0,'true','true','true','true','0-0;');
+REPLACE INTO `weapon` VALUES
+(14056,'','rhand','false',0,0,0,'fine_steel','none',1,10,'sword',8,0.00000,0,0,0,379,0,1,-1,-1,0,0,'true','true','true','true',0,0,0,0,0,0,0,0,0,'8263-1;'),
+(14057,'','rhand','false',0,0,0,'fine_steel','none',1,10,'sword',8,0.00000,0,0,0,379,0,1,-1,-1,0,0,'true','true','true','true',0,0,0,0,0,0,0,0,0,'8264-1;'),
+(14058,'','rhand','false',0,0,0,'fine_steel','none',1,10,'sword',8,0.00000,0,0,0,379,0,1,-1,-1,0,0,'true','true','true','true',0,0,0,0,0,0,0,0,0,'8265-1;');
+REPLACE INTO armorsets VALUES
+('201', '13803', '13804', '13802', '0', '0', '8277', '1', '0', '0', '0'),
+('202', '13806', '13807', '13805', '0', '0', '8278', '1', '0', '0', '0');

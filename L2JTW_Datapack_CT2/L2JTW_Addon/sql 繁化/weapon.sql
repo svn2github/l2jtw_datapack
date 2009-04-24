@@ -3051,3 +3051,6 @@ UPDATE `weapon` SET `name` ='法國麵包大亨弩' WHERE item_id ='20269';
 UPDATE `weapon` SET `name` ='法國麵包雙刀' WHERE item_id ='20270';
 UPDATE `weapon` SET `name` ='王朝符印' WHERE item_id ='10119';
 UPDATE `weapon` SET `name` ='祕儀符印' WHERE item_id ='13078';
+UPDATE `weapon` SET `name` ='雪人變身魔杖' WHERE item_id ='14056';
+UPDATE `weapon` SET `name` ='草人變身魔杖' WHERE item_id ='14057';
+UPDATE `weapon` SET `name` ='洋鐵高崙變身魔杖' WHERE item_id ='14058';

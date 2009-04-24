@@ -46,7 +46,7 @@ public class Scrolls implements IItemHandler
 		9146, 9147, 9148, 9149, 9150, 9151,
 		9152, 9153, 9154, 9155, 9897, 10131,
 		10132, 10133, 10134, 10135, 10136,
-		10137, 10138, 10151, 10274
+		10137, 10138, 10151, 10274, 13794, 13795, 13800, 13801 //Update by rocknow
 	};
 	
 	/**
@@ -110,7 +110,7 @@ public class Scrolls implements IItemHandler
 			useScroll(activeChar, 5041, 1);
 			return;
 		}
-		else if (itemId == 9897 || itemId >= 10131 && itemId <= 10138 || itemId == 10151 || itemId == 10274) //transformation scrolls
+		else if (itemId == 9897 || itemId >= 10131 && itemId <= 10138 || itemId == 10151 || itemId == 10274 || itemId == 13794 || itemId == 13795 || itemId == 13800 || itemId == 13801) //Update by rocknow
 		{
 			if (activeChar.isMounted() || activeChar.getPet() != null || activeChar.isTransformed())
 			{
@@ -300,6 +300,22 @@ public class Scrolls implements IItemHandler
 			case 10274:
 				activeChar.broadcastPacket(new MagicSkillUse(playable, activeChar, 2428, 1, 1, 0));
 				useScroll(activeChar, 2428, 1);
+				break;
+			case 13794://Update by rocknow
+				activeChar.broadcastPacket(new MagicSkillUse(playable, activeChar, 2670, 1, 1, 0));
+				useScroll(activeChar, 2670, 1);
+				break;
+			case 13795://Update by rocknow
+				activeChar.broadcastPacket(new MagicSkillUse(playable, activeChar, 2671, 1, 1, 0));
+				useScroll(activeChar, 2671, 1);
+				break;
+			case 13800://Update by rocknow
+				activeChar.broadcastPacket(new MagicSkillUse(playable, activeChar, 2631, 1, 1, 0));
+				useScroll(activeChar, 2631, 1);
+				break;
+			case 13801://Update by rocknow
+				activeChar.broadcastPacket(new MagicSkillUse(playable, activeChar, 2632, 1, 1, 0));
+				useScroll(activeChar, 2632, 1);
 				break;
 			default:
 				break;

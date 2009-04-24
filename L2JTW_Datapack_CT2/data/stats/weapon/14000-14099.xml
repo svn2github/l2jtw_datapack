@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<list>
+<item id="14056" name="14056">
+  <!-- Update by rocknow -->
+  <for>
+    <set val="1" order="0x08" stat="pAtk"/>
+    <set val="1" order="0x08" stat="mAtk"/>
+    <set val="8" order="0x08" stat="rCrit"/>
+    <add val="0" order="0x10" stat="accCombat"/>
+    <set val="379" order="0x08" stat="pAtkSpd"/>
+  </for>
+</item>
+<item id="14057" name="14057">
+  <!-- Update by rocknow -->
+  <for>
+    <set val="1" order="0x08" stat="pAtk"/>
+    <set val="1" order="0x08" stat="mAtk"/>
+    <set val="8" order="0x08" stat="rCrit"/>
+    <add val="0" order="0x10" stat="accCombat"/>
+    <set val="379" order="0x08" stat="pAtkSpd"/>
+  </for>
+</item>
+<item id="14058" name="14058">
+  <!-- Update by rocknow -->
+  <for>
+    <set val="1" order="0x08" stat="pAtk"/>
+    <set val="1" order="0x08" stat="mAtk"/>
+    <set val="8" order="0x08" stat="rCrit"/>
+    <add val="0" order="0x10" stat="accCombat"/>
+    <set val="379" order="0x08" stat="pAtkSpd"/>
+  </for>
+</item>
+</list>

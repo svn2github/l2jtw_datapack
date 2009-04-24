@@ -833,7 +833,7 @@
   <set name="transformId" val="110"/>
   <set name="castRange" val="-1"/>
   <for>
-    <effect count="1" name="Transformation" time="1800" val="0"/> <!-- duration Guess -->
+    <effect count="1" name="Transformation" time="1800" val="0"/>
   </for>
 </skill>
 <skill id="8262" levels="1" name="8262">
@@ -844,7 +844,67 @@
   <set name="transformId" val="109"/>
   <set name="castRange" val="-1"/>
   <for>
-    <effect count="1" name="Transformation" time="1800" val="0"/> <!-- duration Guess -->
+    <effect count="1" name="Transformation" time="1800" val="0"/>
+  </for>
+</skill>
+<skill id="8263" levels="1" name="8263">
+  <!-- Update by rocknow -->
+  <set name="target" val="TARGET_SELF"/>
+  <set name="skillType" val="BUFF"/>
+  <set name="operateType" val="OP_ACTIVE"/>
+  <set name="transformId" val="114"/>
+  <set name="castRange" val="-1"/>
+  <set name="effectRange" val="-1"/>
+  <for>
+    <effect count="1" name="Transformation" time="1800" val="0"/>
+  </for>
+</skill>
+<skill id="8264" levels="1" name="8264">
+  <!-- Update by rocknow -->
+  <set name="target" val="TARGET_SELF"/>
+  <set name="skillType" val="BUFF"/>
+  <set name="operateType" val="OP_ACTIVE"/>
+  <set name="transformId" val="115"/>
+  <set name="castRange" val="-1"/>
+  <set name="effectRange" val="-1"/>
+  <for>
+    <effect count="1" name="Transformation" time="1800" val="0"/>
+  </for>
+</skill>
+<skill id="8265" levels="1" name="8265">
+  <!-- Update by rocknow -->
+  <set name="target" val="TARGET_SELF"/>
+  <set name="skillType" val="BUFF"/>
+  <set name="operateType" val="OP_ACTIVE"/>
+  <set name="transformId" val="116"/>
+  <set name="castRange" val="-1"/>
+  <set name="effectRange" val="-1"/>
+  <for>
+    <effect count="1" name="Transformation" time="1800" val="0"/>
+  </for>
+</skill>
+<skill id="8277" levels="1" name="8277">
+  <!-- Update by rocknow -->
+  <set name="target" val="TARGET_SELF"/>
+  <set name="skillType" val="BUFF"/>
+  <set name="operateType" val="OP_ACTIVE"/>
+  <set name="transformId" val="101"/>
+  <set name="castRange" val="-1"/>
+  <set name="effectRange" val="-1"/>
+  <for>
+    <effect count="1" name="Transformation" time="1800" val="0"/>
+  </for>
+</skill>
+<skill id="8278" levels="1" name="8278">
+  <!-- Update by rocknow -->
+  <set name="target" val="TARGET_SELF"/>
+  <set name="skillType" val="BUFF"/>
+  <set name="operateType" val="OP_ACTIVE"/>
+  <set name="transformId" val="113"/>
+  <set name="castRange" val="-1"/>
+  <set name="effectRange" val="-1"/>
+  <for>
+    <effect count="1" name="Transformation" time="1800" val="0"/>
   </for>
 </skill>
 </list>
