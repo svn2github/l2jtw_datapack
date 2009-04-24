@@ -907,4 +907,56 @@
     <effect count="1" name="Transformation" time="1800" val="0"/>
   </for>
 </skill>
+<skill id="8283" levels="1" name="8283">
+  <!-- Update by rocknow -->
+  <set name="target" val="TARGET_SELF"/>
+  <set name="skillType" val="BUFF"/>
+  <set name="operateType" val="OP_PASSIVE"/>
+  <set name="castRange" val="-1"/>
+  <set name="effectRange" val="-1"/>
+  <for>
+    <add order="0x10" stat="STR" val="2"/>
+    <sub order="0x10" stat="DEX" val="2"/>
+    <mul order="0x30" stat="pAtk" val="1.0557"/>
+    <mul order="0x30" stat="pDef" val="1.0557"/>
+    <add order="0x40" stat="maxHp" val="531"/>
+    <mul val="0.3" order="0x30" stat="sleepVuln"/>
+    <mul val="0.3" order="0x30" stat="rootVuln"/>
+  </for>
+</skill>
+<skill id="8285" levels="1" name="8285">
+  <!-- Update by rocknow -->
+  <set name="target" val="TARGET_SELF"/>
+  <set name="skillType" val="BUFF"/>
+  <set name="operateType" val="OP_PASSIVE"/>
+  <set name="castRange" val="-1"/>
+  <set name="effectRange" val="-1"/>
+  <for>
+    <add order="0x10" stat="STR" val="1"/>
+    <sub order="0x10" stat="CON" val="2"/>
+    <add order="0x10" stat="DEX" val="1"/>
+    <mul order="0x30" stat="pAtk" val="1.0557"/>
+    <mul order="0x30" stat="pAtkSpd" val="1.0557"/>
+    <mul order="0x30" stat="regMp" val="1.0557"/>
+    <add order="0x40" stat="maxHp" val="347"/>
+  </for>
+</skill>
+<skill id="8287" levels="1" name="8287">
+  <!-- Update by rocknow -->
+  <set name="target" val="TARGET_SELF"/>
+  <set name="skillType" val="BUFF"/>
+  <set name="operateType" val="OP_PASSIVE"/>
+  <set name="castRange" val="-1"/>
+  <set name="effectRange" val="-1"/>
+  <for>
+    <add order="0x10" stat="INT" val="1"/>
+    <sub order="0x10" stat="MEN" val="2"/>
+    <add order="0x10" stat="WIT" val="1"/>
+    <mul order="0x30" stat="mAtk" val="1.0847"/>
+    <mul order="0x30" stat="mAtkSpd" val="1.15"/>
+    <mul order="0x30" stat="regMp" val="1.0557"/>
+    <mul val="0.5" order="0x30" stat="stunVuln"/>
+    <sub order="0x40" stat="cancel" val="15"/>
+  </for>
+</skill>
 </list>
