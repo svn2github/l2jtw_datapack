@@ -36,4 +36,28 @@
     <enchant val="0" order="0x0C" stat="mAtk"/>
   </for>
 </item>
+<item id="13885" name="13885">
+  <!-- Update by rocknow -->
+  <for>
+    <sub val="8" order="0x10" stat="rEvas"/>
+    <set val="13" order="0x08" stat="sDef"/>
+    <set val="20" order="0x08" stat="rShld"/>
+  </for>
+</item>
+<item id="13886" name="13886">
+  <!-- Update by rocknow -->
+  <for>
+    <sub val="8" order="0x10" stat="rEvas"/>
+    <set val="15" order="0x08" stat="sDef"/>
+    <set val="20" order="0x08" stat="rShld"/>
+  </for>
+</item>
+<item id="13887" name="13887">
+  <!-- Update by rocknow -->
+  <for>
+    <sub val="8" order="0x10" stat="rEvas"/>
+    <set val="17" order="0x08" stat="sDef"/>
+    <set val="20" order="0x08" stat="rShld"/>
+  </for>
+</item>
 </list>

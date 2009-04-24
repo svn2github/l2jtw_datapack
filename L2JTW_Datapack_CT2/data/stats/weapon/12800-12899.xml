@@ -100,24 +100,48 @@
   </for>
 </item>
 <item id="12811" name="Arcana Sigil">
+  <!-- Update by rocknow -->
+  <cond msgId="1518">
+    <target class_id_restriction="10,11,12,13,14,15,16,17,25,26,27,28,29,30,38,39,40,41,42,43,49,50,51,52,94,95,96,97,98,103,104,105,110,111,112,115,116"/>
+  </cond>
   <for>
     <sub val="8" order="0x10" stat="rEvas"/>
-    <set val="13" order="0x08" stat="sDef"/><!-- Update by rocknow -->
+    <set val="13" order="0x08" stat="sDef"/>
     <set val="20" order="0x08" stat="rShld"/>
+    <add val="100" order="0x40" stat="maxMp"/>
+    <mul order="0x30" stat="regMp" val="1.1"/>
+    <mul order="0x30" stat="mAtk" val="1.1"/>
+    <enchant val="0" order="0x0C" stat="sDef"/>
   </for>
 </item>
 <item id="12812" name="Dynasty Sigil">
+  <!-- Update by rocknow -->
+  <cond msgId="1518">
+    <target class_id_restriction="10,11,12,13,14,15,16,17,25,26,27,28,29,30,38,39,40,41,42,43,49,50,51,52,94,95,96,97,98,103,104,105,110,111,112,115,116"/>
+  </cond>
   <for>
     <sub val="8" order="0x10" stat="rEvas"/>
-    <set val="15" order="0x08" stat="sDef"/><!-- Update by rocknow -->
+    <set val="15" order="0x08" stat="sDef"/>
     <set val="20" order="0x08" stat="rShld"/>
+    <add val="150" order="0x40" stat="maxMp"/>
+    <mul order="0x30" stat="regMp" val="1.2"/>
+    <mul order="0x30" stat="mAtk" val="1.2"/>
+    <enchant val="0" order="0x0C" stat="sDef"/>
   </for>
 </item>
 <item id="12813" name="Vesper Sigil">
+  <!-- Update by rocknow -->
+  <cond msgId="1518">
+    <target class_id_restriction="10,11,12,13,14,15,16,17,25,26,27,28,29,30,38,39,40,41,42,43,49,50,51,52,94,95,96,97,98,103,104,105,110,111,112,115,116"/>
+  </cond>
   <for>
     <sub val="8" order="0x10" stat="rEvas"/>
-    <set val="17" order="0x08" stat="sDef"/><!-- Update by rocknow -->
+    <set val="17" order="0x08" stat="sDef"/>
     <set val="20" order="0x08" stat="rShld"/>
+    <add val="200" order="0x40" stat="maxMp"/>
+    <mul order="0x30" stat="regMp" val="1.3"/>
+    <mul order="0x30" stat="mAtk" val="1.3"/>
+    <enchant val="0" order="0x0C" stat="sDef"/>
   </for>
 </item>
 <item id="12814" name="Shadow Item - Shadow Item - Gatekeeper Transformation Stick">

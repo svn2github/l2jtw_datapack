@@ -867,8 +867,15 @@ REPLACE INTO `armor` VALUES
 
 -- ≤≈¶L
 REPLACE INTO `weapon` VALUES
-(10119,'10119','lhand','true',930,0,0,'fine_steel','s80',0,0,'none',0,0.00000,-8,15,20,0,0,0,-1,-1,0,0,'true','true','true','true',0,0,0,0,0,0,0,0,0,'0-0;'),
-(13078,'13078','lhand','true',940,0,0,'fine_steel','s',0,0,'none',0,0.00000,-8,13,20,0,0,0,-1,-1,0,0,'true','true','true','true',0,0,0,0,0,0,0,0,0,'0-0;');
+(12811,'12811','lhand','true',940,0,0,'fine_steel','s',0,0,'none',0,0.00000,-8,13,20,0,0,0,-1,-1,0,0,'true','true','true','true',0,0,0,0,0,0,0,0,0,'0-0;'),
+(12812,'12812','lhand','true',930,0,0,'fine_steel','s80',0,0,'none',0,0.00000,-8,15,20,0,0,0,-1,-1,0,0,'true','true','true','true',0,0,0,0,0,0,0,0,0,'0-0;'),
+(12813,'12813','lhand','true',920,0,0,'fine_steel','s80',0,0,'none',0,0.00000,-8,17,20,0,0,0,-1,-1,0,0,'true','true','true','true',0,0,0,0,0,0,0,0,0,'0-0;'),
+(13885,'13885','lhand','true',940,0,0,'fine_steel','s',0,0,'none',0,0.00000,-8,13,20,0,0,0,-1,-1,0,0,'true','true','true','true',0,0,0,0,0,0,0,0,0,'0-0;'),
+(13886,'13886','lhand','true',930,0,0,'fine_steel','s80',0,0,'none',0,0.00000,-8,15,20,0,0,0,-1,-1,0,0,'true','true','true','true',0,0,0,0,0,0,0,0,0,'0-0;'),
+(13887,'13887','lhand','true',920,0,0,'fine_steel','s80',0,0,'none',0,0.00000,-8,17,20,0,0,0,-1,-1,0,0,'true','true','true','true',0,0,0,0,0,0,0,0,0,'0-0;');
+Delete From `weapon` Where `item_id` in (10119,13078);
+UPDATE `items` SET `item_id` = '12811' WHERE `item_id` in (13078);
+UPDATE `items` SET `item_id` = '12812' WHERE `item_id` in (10119);
 
 -- §Ê¡O
 REPLACE INTO `armor` VALUES
