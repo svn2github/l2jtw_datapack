@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<list>
+<item id="14592" name="14592">
+  <!-- Update by rocknow -->
+  <cond msgId="1518">
+    <player castle ="1"/>
+  </cond>
+  <for>
+    <add val="42" order="0x10" stat="mDef"/>
+    <add val="17" order="0x40" stat="maxMp"/>
+    <sub val="0.12" order="0x10" stat="earthVuln"/>
+    <enchant val="0" order="0x0C" stat="mDef"/>
+  </for>
+</item>
+<item id="14593" name="14593">
+  <!-- Update by rocknow -->
+  <cond msgId="1518">
+    <player castle ="2"/>
+  </cond>
+  <for>
+    <add val="42" order="0x10" stat="mDef"/>
+    <add val="17" order="0x40" stat="maxMp"/>
+    <sub val="0.12" order="0x10" stat="waterVuln"/>
+    <enchant val="0" order="0x0C" stat="mDef"/>
+  </for>
+</item>
+<item id="14594" name="14594">
+  <!-- Update by rocknow -->
+  <cond msgId="1518">
+    <player castle ="3"/>
+  </cond>
+  <for>
+    <add val="42" order="0x10" stat="mDef"/>
+    <add val="17" order="0x40" stat="maxMp"/>
+    <sub val="0.12" order="0x10" stat="fireVuln"/>
+    <enchant val="0" order="0x0C" stat="mDef"/>
+  </for>
+</item>
+<item id="14595" name="14595">
+  <!-- Update by rocknow -->
+  <cond msgId="1518">
+    <player castle ="4"/>
+  </cond>
+  <for>
+    <add val="42" order="0x10" stat="mDef"/>
+    <add val="17" order="0x40" stat="maxMp"/>
+    <sub val="0.12" order="0x10" stat="earthVuln"/>
+    <enchant val="0" order="0x0C" stat="mDef"/>
+  </for>
+</item>
+<item id="14596" name="14596">
+  <!-- Update by rocknow -->
+  <cond msgId="1518">
+    <player castle ="5"/>
+  </cond>
+  <for>
+    <add val="42" order="0x10" stat="mDef"/>
+    <add val="17" order="0x40" stat="maxMp"/>
+    <sub val="0.12" order="0x10" stat="holyVuln"/>
+    <enchant val="0" order="0x0C" stat="mDef"/>
+  </for>
+</item>
+<item id="14597" name="14597">
+  <!-- Update by rocknow -->
+  <cond msgId="1518">
+    <player castle ="6"/>
+  </cond>
+  <for>
+    <add val="42" order="0x10" stat="mDef"/>
+    <add val="17" order="0x40" stat="maxMp"/>
+    <sub val="0.12" order="0x10" stat="holyVuln"/>
+    <enchant val="0" order="0x0C" stat="mDef"/>
+  </for>
+</item>
+<item id="14598" name="14598">
+  <!-- Update by rocknow -->
+  <cond msgId="1518">
+    <player castle ="7"/>
+  </cond>
+  <for>
+    <add val="42" order="0x10" stat="mDef"/>
+    <add val="17" order="0x40" stat="maxMp"/>
+    <sub val="0.12" order="0x10" stat="darkVuln"/>
+    <enchant val="0" order="0x0C" stat="mDef"/>
+  </for>
+</item>
+<item id="14599" name="14599">
+  <!-- Update by rocknow -->
+  <cond msgId="1518">
+    <player castle ="8"/>
+  </cond>
+  <for>
+    <add val="42" order="0x10" stat="mDef"/>
+    <add val="17" order="0x40" stat="maxMp"/>
+    <sub val="0.12" order="0x10" stat="windVuln"/>
+    <enchant val="0" order="0x0C" stat="mDef"/>
+  </for>
+</item>
+<item id="14600" name="14600">
+  <!-- Update by rocknow -->
+  <cond msgId="1518">
+    <player castle ="9"/>
+  </cond>
+  <for>
+    <add val="42" order="0x10" stat="mDef"/>
+    <add val="17" order="0x40" stat="maxMp"/>
+    <sub val="0.12" order="0x10" stat="darkVuln"/>
+    <enchant val="0" order="0x0C" stat="mDef"/>
+  </for>
+</item>
+</list>

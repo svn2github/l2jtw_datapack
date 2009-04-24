@@ -865,6 +865,36 @@ REPLACE INTO `armor` VALUES
 (14161,'14161','neck','true','none',150,'wood','s80',0,-1,-1,0,1100,0,0,0,'true','true','true','true','0-0;'),
 (14162,'14162','rfinger,lfinger','true','none',150,'wood','s80',0,-1,-1,0,55,0,0,0,'true','true','true','true','0-0;');
 
+-- «°³ùªºÄÝ©Ê¹¢«~
+REPLACE INTO `armor` VALUES
+(13740,'13740','neck','false','none',150,'wood','a',0,-1,-1,0,85,33,0,0,'false','false','true','false','0-0;'),
+(13741,'13741','neck','false','none',150,'wood','a',0,-1,-1,0,85,33,0,0,'false','false','true','false','0-0;'),
+(13742,'13742','neck','false','none',150,'wood','a',0,-1,-1,0,85,33,0,0,'false','false','true','false','0-0;'),
+(13743,'13743','neck','false','none',150,'wood','a',0,-1,-1,0,85,33,0,0,'false','false','true','false','0-0;'),
+(13744,'13744','neck','false','none',150,'wood','a',0,-1,-1,0,85,33,0,0,'false','false','true','false','0-0;'),
+(13745,'13745','neck','false','none',150,'wood','a',0,-1,-1,0,85,33,0,0,'false','false','true','false','0-0;'),
+(13746,'13746','neck','false','none',150,'wood','a',0,-1,-1,0,85,33,0,0,'false','false','true','false','0-0;'),
+(13747,'13747','neck','false','none',150,'wood','a',0,-1,-1,0,85,33,0,0,'false','false','true','false','0-0;'),
+(13748,'13748','neck','false','none',150,'wood','a',0,-1,-1,0,85,33,0,0,'false','false','true','false','0-0;'),
+(14592,'14592','rfinger,lfinger','true','none',150,'wood','a',0,-1,-1,0,42,17,0,0,'false','false','true','false','0-0;'),
+(14593,'14593','rfinger,lfinger','true','none',150,'wood','a',0,-1,-1,0,42,17,0,0,'false','false','true','false','0-0;'),
+(14594,'14594','rfinger,lfinger','true','none',150,'wood','a',0,-1,-1,0,42,17,0,0,'false','false','true','false','0-0;'),
+(14595,'14595','rfinger,lfinger','true','none',150,'wood','a',0,-1,-1,0,42,17,0,0,'false','false','true','false','0-0;'),
+(14596,'14596','rfinger,lfinger','true','none',150,'wood','a',0,-1,-1,0,42,17,0,0,'false','false','true','false','0-0;'),
+(14597,'14597','rfinger,lfinger','true','none',150,'wood','a',0,-1,-1,0,42,17,0,0,'false','false','true','false','0-0;'),
+(14598,'14598','rfinger,lfinger','true','none',150,'wood','a',0,-1,-1,0,42,17,0,0,'false','false','true','false','0-0;'),
+(14599,'14599','rfinger,lfinger','true','none',150,'wood','a',0,-1,-1,0,42,17,0,0,'false','false','true','false','0-0;'),
+(14600,'14600','rfinger,lfinger','true','none',150,'wood','a',0,-1,-1,0,42,17,0,0,'false','false','true','false','0-0;'),
+(14664,'14664','rear,lear','false','none',150,'wood','a',0,-1,-1,0,63,25,0,0,'false','false','true','false','0-0;'),
+(14665,'14665','rear,lear','false','none',150,'wood','a',0,-1,-1,0,63,25,0,0,'false','false','true','false','0-0;'),
+(14666,'14666','rear,lear','false','none',150,'wood','a',0,-1,-1,0,63,25,0,0,'false','false','true','false','0-0;'),
+(14667,'14667','rear,lear','false','none',150,'wood','a',0,-1,-1,0,63,25,0,0,'false','false','true','false','0-0;'),
+(14668,'14668','rear,lear','false','none',150,'wood','a',0,-1,-1,0,63,25,0,0,'false','false','true','false','0-0;'),
+(14669,'14669','rear,lear','false','none',150,'wood','a',0,-1,-1,0,63,25,0,0,'false','false','true','false','0-0;'),
+(14670,'14670','rear,lear','false','none',150,'wood','a',0,-1,-1,0,63,25,0,0,'false','false','true','false','0-0;'),
+(14671,'14671','rear,lear','false','none',150,'wood','a',0,-1,-1,0,63,25,0,0,'false','false','true','false','0-0;'),
+(14672,'14672','rear,lear','false','none',150,'wood','a',0,-1,-1,0,63,25,0,0,'false','false','true','false','0-0;');
+
 -- ²Å¦L
 REPLACE INTO `weapon` VALUES
 (12811,'12811','lhand','true',940,0,0,'fine_steel','s',0,0,'none',0,0.00000,-8,13,20,0,0,0,-1,-1,0,0,'true','true','true','true',0,0,0,0,0,0,0,0,0,'0-0;'),
