@@ -7,6 +7,7 @@
   </cond>
   <for>
     <add val="20" order="0x10" stat="pDef"/>
+    <sub val="0.3" order="0x10" stat="darkVuln"/>
   </for>
 </item>
 <item id="13688" name="13688">
@@ -16,6 +17,7 @@
   </cond>
   <for>
     <add val="20" order="0x10" stat="pDef"/>
+    <sub val="0.3" order="0x10" stat="darkVuln"/>
   </for>
 </item>
 <item id="13689" name="13689">
@@ -25,6 +27,7 @@
   </cond>
   <for>
     <add val="20" order="0x10" stat="pDef"/>
+    <sub val="0.3" order="0x10" stat="darkVuln"/>
   </for>
 </item>
 <item id="13690" name="13690">
@@ -34,6 +37,7 @@
   </cond>
   <for>
     <add val="20" order="0x10" stat="pDef"/>
+    <sub val="0.3" order="0x10" stat="darkVuln"/>
   </for>
 </item>
 </list>

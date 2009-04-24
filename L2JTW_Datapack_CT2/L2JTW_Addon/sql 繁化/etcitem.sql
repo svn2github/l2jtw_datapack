@@ -8491,3 +8491,6 @@ UPDATE `etcitem` SET `name` ='變身體-翻滾方塊變身卷軸' WHERE item_id 
 UPDATE `etcitem` SET `name` ='變身體-翻滾方塊變身卷軸' WHERE item_id ='13795';
 UPDATE `etcitem` SET `name` ='青蛙變身卷軸' WHERE item_id ='13800';
 UPDATE `etcitem` SET `name` ='小孩變身卷軸' WHERE item_id ='13801';
+UPDATE `etcitem` SET `name` ='封印的騎士斗篷' WHERE item_id ='13686';
+UPDATE `etcitem` SET `name` ='封印的聖靈斗篷' WHERE item_id ='13893';
+UPDATE `etcitem` SET `name` ='封印的古代斗篷' WHERE item_id ='14603';
