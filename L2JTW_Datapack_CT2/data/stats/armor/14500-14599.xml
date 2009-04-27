@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <list>
-<item id="14592" name="14592">
+<item id="14592" name="Gludio Earth Protection Ring">
   <!-- Update by rocknow -->
   <cond msgId="1518">
     <player castle ="1"/>
@@ -12,7 +12,7 @@
     <enchant val="0" order="0x0C" stat="mDef"/>
   </for>
 </item>
-<item id="14593" name="14593">
+<item id="14593" name="Dion Water Protection Ring">
   <!-- Update by rocknow -->
   <cond msgId="1518">
     <player castle ="2"/>
@@ -24,7 +24,7 @@
     <enchant val="0" order="0x0C" stat="mDef"/>
   </for>
 </item>
-<item id="14594" name="14594">
+<item id="14594" name="Giran Fire Protection Ring">
   <!-- Update by rocknow -->
   <cond msgId="1518">
     <player castle ="3"/>
@@ -36,7 +36,7 @@
     <enchant val="0" order="0x0C" stat="mDef"/>
   </for>
 </item>
-<item id="14595" name="14595">
+<item id="14595" name="Oren Earth Protection Ring">
   <!-- Update by rocknow -->
   <cond msgId="1518">
     <player castle ="4"/>
@@ -48,7 +48,7 @@
     <enchant val="0" order="0x0C" stat="mDef"/>
   </for>
 </item>
-<item id="14596" name="14596">
+<item id="14596" name="Aden Divinity Protection Ring">
   <!-- Update by rocknow -->
   <cond msgId="1518">
     <player castle ="5"/>
@@ -60,7 +60,7 @@
     <enchant val="0" order="0x0C" stat="mDef"/>
   </for>
 </item>
-<item id="14597" name="14597">
+<item id="14597" name="Innadril Divinity Protection Ring">
   <!-- Update by rocknow -->
   <cond msgId="1518">
     <player castle ="6"/>
@@ -72,7 +72,7 @@
     <enchant val="0" order="0x0C" stat="mDef"/>
   </for>
 </item>
-<item id="14598" name="14598">
+<item id="14598" name="Goddard Dark Protection Ring">
   <!-- Update by rocknow -->
   <cond msgId="1518">
     <player castle ="7"/>
@@ -84,7 +84,7 @@
     <enchant val="0" order="0x0C" stat="mDef"/>
   </for>
 </item>
-<item id="14599" name="14599">
+<item id="14599" name="Rune Wind Protection Ring">
   <!-- Update by rocknow -->
   <cond msgId="1518">
     <player castle ="8"/>
@@ -93,18 +93,6 @@
     <add val="42" order="0x10" stat="mDef"/>
     <add val="17" order="0x40" stat="maxMp"/>
     <sub val="0.12" order="0x10" stat="windVuln"/>
-    <enchant val="0" order="0x0C" stat="mDef"/>
-  </for>
-</item>
-<item id="14600" name="14600">
-  <!-- Update by rocknow -->
-  <cond msgId="1518">
-    <player castle ="9"/>
-  </cond>
-  <for>
-    <add val="42" order="0x10" stat="mDef"/>
-    <add val="17" order="0x40" stat="maxMp"/>
-    <sub val="0.12" order="0x10" stat="darkVuln"/>
     <enchant val="0" order="0x0C" stat="mDef"/>
   </for>
 </item>

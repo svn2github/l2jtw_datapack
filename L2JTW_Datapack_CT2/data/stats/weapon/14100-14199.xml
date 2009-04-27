@@ -1,6 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <list>
-<item id="14118" name="14118">
+<item id="14111" name="Sealed Vesper Shield">
+  <!-- Update by rocknow -->
+  <for>
+    <sub val="8" order="0x10" stat="rEvas"/>
+    <set val="352" order="0x08" stat="sDef"/>
+    <set val="20" order="0x08" stat="rShld"/>
+  </for>
+</item>
+<item id="14118" name="Vesper Cutter">
   <!-- Update by rocknow -->
   <for>
     <set val="396" order="0x08" stat="pAtk"/>
@@ -14,7 +22,7 @@
     <mul val="1.05" order="0x30" stat="pvpMagicalDmg"/>
   </for>
 </item>
-<item id="14119" name="14119">
+<item id="14119" name="Vesper Cutter">
   <!-- Update by rocknow -->
   <for>
     <set val="396" order="0x08" stat="pAtk"/>
@@ -28,7 +36,7 @@
     <mul val="1.05" order="0x30" stat="pvpMagicalDmg"/>
   </for>
 </item>
-<item id="14120" name="14120">
+<item id="14120" name="Vesper Cutter">
   <!-- Update by rocknow -->
   <for>
     <set val="396" order="0x08" stat="pAtk"/>
@@ -42,7 +50,7 @@
     <mul val="1.05" order="0x30" stat="pvpMagicalDmg"/>
   </for>
 </item>
-<item id="14121" name="14121">
+<item id="14121" name="Vesper Slasher">
   <!-- Update by rocknow -->
   <for>
     <set val="482" order="0x08" stat="pAtk"/>
@@ -56,7 +64,7 @@
     <mul val="1.05" order="0x30" stat="pvpMagicalDmg"/>
   </for>
 </item>
-<item id="14122" name="14122">
+<item id="14122" name="Vesper Slasher">
   <!-- Update by rocknow -->
   <for>
     <set val="482" order="0x08" stat="pAtk"/>
@@ -70,7 +78,7 @@
     <mul val="1.05" order="0x30" stat="pvpMagicalDmg"/>
   </for>
 </item>
-<item id="14123" name="14123">
+<item id="14123" name="Vesper Slasher">
   <!-- Update by rocknow -->
   <for>
     <set val="482" order="0x08" stat="pAtk"/>
@@ -84,7 +92,7 @@
     <mul val="1.05" order="0x30" stat="pvpMagicalDmg"/>
   </for>
 </item>
-<item id="14124" name="14124">
+<item id="14124" name="Vesper Buster">
   <!-- Update by rocknow -->
   <for>
     <set val="317" order="0x08" stat="pAtk"/>
@@ -98,7 +106,7 @@
     <mul val="1.05" order="0x30" stat="pvpMagicalDmg"/>
   </for>
 </item>
-<item id="14125" name="14125">
+<item id="14125" name="Vesper Buster">
   <!-- Update by rocknow -->
   <for>
     <set val="317" order="0x08" stat="pAtk"/>
@@ -112,7 +120,7 @@
     <mul val="1.05" order="0x30" stat="pvpMagicalDmg"/>
   </for>
 </item>
-<item id="14126" name="14126">
+<item id="14126" name="Vesper Buster">
   <!-- Update by rocknow -->
   <for>
     <set val="317" order="0x08" stat="pAtk"/>
@@ -125,7 +133,7 @@
     <mul val="1.05" order="0x30" stat="pvpMagicalDmg"/>
   </for>
 </item>
-<item id="14127" name="14127">
+<item id="14127" name="Vesper Shaper">
   <!-- Update by rocknow -->
   <for>
     <set val="346" order="0x08" stat="pAtk"/>
@@ -140,7 +148,7 @@
     <mul val="1.05" order="0x30" stat="pvpMagicalDmg"/>
   </for>
 </item>
-<item id="14128" name="14128">
+<item id="14128" name="Vesper Shaper">
   <!-- Update by rocknow -->
   <for>
     <set val="346" order="0x08" stat="pAtk"/>
@@ -155,7 +163,7 @@
     <mul val="1.05" order="0x30" stat="pvpMagicalDmg"/>
   </for>
 </item>
-<item id="14129" name="14129">
+<item id="14129" name="Vesper Shaper">
   <!-- Update by rocknow -->
   <for>
     <set val="346" order="0x08" stat="pAtk"/>
@@ -170,7 +178,7 @@
     <mul val="1.05" order="0x30" stat="pvpMagicalDmg"/>
   </for>
 </item>
-<item id="14130" name="14130">
+<item id="14130" name="Vesper Fighter">
   <!-- Update by rocknow -->
   <for>
     <set val="482" order="0x08" stat="pAtk"/>
@@ -185,7 +193,7 @@
     <mul val="1.05" order="0x30" stat="pvpMagicalDmg"/>
   </for>
 </item>
-<item id="14131" name="14131">
+<item id="14131" name="Vesper Fighter">
   <!-- Update by rocknow -->
   <for>
     <set val="482" order="0x08" stat="pAtk"/>
@@ -200,7 +208,7 @@
     <mul val="1.05" order="0x30" stat="pvpMagicalDmg"/>
   </for>
 </item>
-<item id="14132" name="14132">
+<item id="14132" name="Vesper Fighter">
   <!-- Update by rocknow -->
   <for>
     <set val="482" order="0x08" stat="pAtk"/>
@@ -214,7 +222,7 @@
     <mul val="1.05" order="0x30" stat="pvpMagicalDmg"/>
   </for>
 </item>
-<item id="14133" name="14133">
+<item id="14133" name="Vesper Stormer">
   <!-- Update by rocknow -->
   <for>
     <set val="396" order="0x08" stat="pAtk"/>
@@ -230,7 +238,7 @@
     <mul val="1.05" order="0x30" stat="pvpMagicalDmg"/>
   </for>
 </item>
-<item id="14134" name="14134">
+<item id="14134" name="Vesper Stormer">
   <!-- Update by rocknow -->
   <for>
     <set val="396" order="0x08" stat="pAtk"/>
@@ -246,7 +254,7 @@
     <mul val="1.05" order="0x30" stat="pvpMagicalDmg"/>
   </for>
 </item>
-<item id="14135" name="14135">
+<item id="14135" name="Vesper Stormer">
   <!-- Update by rocknow -->
   <for>
     <set val="396" order="0x08" stat="pAtk"/>
@@ -262,7 +270,7 @@
     <mul val="1.05" order="0x30" stat="pvpMagicalDmg"/>
   </for>
 </item>
-<item id="14136" name="134636">
+<item id="14136" name="Vesper Avenger">
   <!-- Update by rocknow -->
   <for>
     <set val="396" order="0x08" stat="pAtk"/>
@@ -277,7 +285,7 @@
     <mul val="1.05" order="0x30" stat="pvpMagicalDmg"/>
   </for>
 </item>
-<item id="14137" name="134637">
+<item id="14137" name="Vesper Avenger">
   <!-- Update by rocknow -->
   <for>
     <set val="396" order="0x08" stat="pAtk"/>
@@ -292,7 +300,7 @@
     <mul val="1.05" order="0x30" stat="pvpMagicalDmg"/>
   </for>
 </item>
-<item id="14138" name="134638">
+<item id="14138" name="Vesper Avenger">
   <!-- Update by rocknow -->
   <for>
     <set val="396" order="0x08" stat="pAtk"/>
@@ -307,7 +315,7 @@
     <mul val="1.05" order="0x30" stat="pvpMagicalDmg"/>
   </for>
 </item>
-<item id="14139" name="14139">
+<item id="14139" name="Vesper Retributer">
   <!-- Update by rocknow -->
   <for>
     <set val="482" order="0x08" stat="pAtk"/>
@@ -322,7 +330,7 @@
     <mul val="1.05" order="0x30" stat="pvpMagicalDmg"/>
   </for>
 </item>
-<item id="14140" name="14140">
+<item id="14140" name="Vesper Retributer">
   <!-- Update by rocknow -->
   <for>
     <set val="482" order="0x08" stat="pAtk"/>
@@ -337,7 +345,7 @@
     <mul val="1.05" order="0x30" stat="pvpMagicalDmg"/>
   </for>
 </item>
-<item id="14141" name="14141">
+<item id="14141" name="Vesper Retributer">
   <!-- Update by rocknow -->
   <for>
     <set val="482" order="0x08" stat="pAtk"/>
@@ -352,7 +360,7 @@
     <mul val="1.05" order="0x30" stat="pvpMagicalDmg"/>
   </for>
 </item>
-<item id="14142" name="14142">
+<item id="14142" name="Vesper Caster">
   <!-- Update by rocknow -->
   <for>
     <set val="317" order="0x08" stat="pAtk"/>
@@ -367,7 +375,7 @@
     <mul val="1.05" order="0x30" stat="pvpMagicalDmg"/>
   </for>
 </item>
-<item id="14143" name="14143">
+<item id="14143" name="Vesper Caster">
   <!-- Update by rocknow -->
   <for>
     <set val="317" order="0x08" stat="pAtk"/>
@@ -382,7 +390,7 @@
     <mul val="1.05" order="0x30" stat="pvpMagicalDmg"/>
   </for>
 </item>
-<item id="14144" name="14144">
+<item id="14144" name="Vesper Caster">
   <!-- Update by rocknow -->
   <for>
     <set val="317" order="0x08" stat="pAtk"/>
@@ -397,7 +405,7 @@
     <mul val="1.05" order="0x30" stat="pvpMagicalDmg"/>
   </for>
 </item>
-<item id="14145" name="14145">
+<item id="14145" name="Vesper Singer">
   <!-- Update by rocknow -->
   <for>
     <set val="386" order="0x08" stat="pAtk"/>
@@ -412,7 +420,7 @@
     <mul val="1.05" order="0x30" stat="pvpMagicalDmg"/>
   </for>
 </item>
-<item id="14146" name="14146">
+<item id="14146" name="Vesper Singer">
   <!-- Update by rocknow -->
   <for>
     <set val="386" order="0x08" stat="pAtk"/>
@@ -427,7 +435,7 @@
     <mul val="1.05" order="0x30" stat="pvpMagicalDmg"/>
   </for>
 </item>
-<item id="14147" name="14147">
+<item id="14147" name="Vesper Singer">
   <!-- Update by rocknow -->
   <for>
     <set val="386" order="0x08" stat="pAtk"/>
@@ -441,7 +449,7 @@
     <mul val="1.05" order="0x30" stat="pvpMagicalDmg"/>
   </for>
 </item>
-<item id="14148" name="14148">
+<item id="14148" name="Vesper Thrower">
   <!-- Update by rocknow -->
   <for>
     <set val="724" order="0x08" stat="pAtk"/>
@@ -460,7 +468,7 @@
     <mul val="1.05" order="0x30" stat="pvpMagicalDmg"/>
   </for>
 </item>
-<item id="14149" name="14149">
+<item id="14149" name="Vesper Thrower">
   <!-- Update by rocknow -->
   <for>
     <set val="724" order="0x08" stat="pAtk"/>
@@ -475,7 +483,7 @@
     <mul val="1.05" order="0x30" stat="pvpMagicalDmg"/>
   </for>
 </item>
-<item id="14150" name="14150">
+<item id="14150" name="Vesper Thrower">
   <!-- Update by rocknow -->
   <for>
     <set val="724" order="0x08" stat="pAtk"/>
@@ -489,7 +497,7 @@
     <mul val="1.05" order="0x30" stat="pvpMagicalDmg"/>
   </for>
 </item>
-<item id="14151" name="14151">
+<item id="14151" name="Vesper Pincer">
   <!-- Update by rocknow -->
   <for>
     <set val="359" order="0x08" stat="pAtk"/>
@@ -504,7 +512,7 @@
     <mul val="1.05" order="0x30" stat="pvpMagicalDmg"/>
   </for>
 </item>
-<item id="14152" name="14152">
+<item id="14152" name="Vesper Pincer">
   <!-- Update by rocknow -->
   <for>
     <set val="359" order="0x08" stat="pAtk"/>
@@ -519,7 +527,7 @@
     <mul val="1.05" order="0x30" stat="pvpMagicalDmg"/>
   </for>
 </item>
-<item id="14153" name="14153">
+<item id="14153" name="Vesper Pincer">
   <!-- Update by rocknow -->
   <for>
     <set val="359" order="0x08" stat="pAtk"/>
@@ -534,7 +542,7 @@
     <mul val="1.05" order="0x30" stat="pvpMagicalDmg"/>
   </for>
 </item>
-<item id="14154" name="14154">
+<item id="14154" name="Vesper Sheutjeh">
   <!-- Update by rocknow -->
   <for>
     <set val="444" order="0x08" stat="pAtk"/>
@@ -553,7 +561,7 @@
     <mul val="1.05" order="0x30" stat="pvpMagicalDmg"/>
   </for>
 </item>
-<item id="14155" name="14155">
+<item id="14155" name="Vesper Sheutjeh">
   <!-- Update by rocknow -->
   <for>
     <set val="444" order="0x08" stat="pAtk"/>
@@ -568,7 +576,7 @@
     <mul val="1.05" order="0x30" stat="pvpMagicalDmg"/>
   </for>
 </item>
-<item id="14156" name="14156">
+<item id="14156" name="Vesper Sheutjeh">
   <!-- Update by rocknow -->
   <for>
     <set val="444" order="0x08" stat="pAtk"/>
@@ -582,7 +590,7 @@
     <mul val="1.05" order="0x30" stat="pvpMagicalDmg"/>
   </for>
 </item>
-<item id="14157" name="14157">
+<item id="14157" name="Vesper Nagan">
   <!-- Update by rocknow -->
   <for>
     <set val="429" order="0x08" stat="pAtk"/>
@@ -597,7 +605,7 @@
     <mul val="1.05" order="0x30" stat="pvpMagicalDmg"/>
   </for>
 </item>
-<item id="14158" name="14158">
+<item id="14158" name="Vesper Nagan">
   <!-- Update by rocknow -->
   <for>
     <set val="429" order="0x08" stat="pAtk"/>
@@ -612,7 +620,7 @@
     <mul val="1.05" order="0x30" stat="pvpMagicalDmg"/>
   </for>
 </item>
-<item id="14159" name="14159">
+<item id="14159" name="Vesper Nagan">
   <!-- Update by rocknow -->
   <for>
     <set val="429" order="0x08" stat="pAtk"/>

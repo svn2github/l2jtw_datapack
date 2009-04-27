@@ -1,6 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <list>
-<item id="14601" name="14601">
+<item id="14600" name="Schuttgart Dark Protection Ring">
+  <!-- Update by rocknow -->
+  <cond msgId="1518">
+    <player castle ="9"/>
+  </cond>
+  <for>
+    <add val="42" order="0x10" stat="mDef"/>
+    <add val="17" order="0x40" stat="maxMp"/>
+    <sub val="0.12" order="0x10" stat="darkVuln"/>
+    <enchant val="0" order="0x0C" stat="mDef"/>
+  </for>
+</item>
+<item id="14601" name="Ancient Cloak - Kamael exclusive">
   <!-- Update by rocknow -->
   <cond msgId="1518">
     <target class_id_restriction="123, 124, 125, 126, 127, 128, 129, 130, 131, 132, 133, 134, 135, 136"/>
@@ -10,7 +22,7 @@
     <sub val="0.3" order="0x10" stat="darkVuln"/>
   </for>
 </item>
-<item id="14608" name="14608">
+<item id="14608" name="Ancient Cloak - Light Armor exclusive">
   <!-- Update by rocknow -->
   <cond msgId="1518">
     <target class_id_restriction="92, 93, 101, 102, 108, 109, 134"/>
@@ -20,7 +32,7 @@
     <sub val="0.3" order="0x10" stat="darkVuln"/>
   </for>
 </item>
-<item id="14609" name="14609">
+<item id="14609" name="Ancient Cloak - Heavy Armor exclusive">
   <!-- Update by rocknow -->
   <cond msgId="1518">
     <target class_id_restriction="88, 89, 90, 91, 99, 100, 106, 107, 113, 114, 117, 118"/>
@@ -30,7 +42,7 @@
     <sub val="0.3" order="0x10" stat="darkVuln"/>
   </for>
 </item>
-<item id="14610" name="14610">
+<item id="14610" name="Ancient Cloak - Robe exclusive">
   <!-- Update by rocknow -->
   <cond msgId="1518">
     <target class_id_restriction="94, 95, 96, 97, 98, 103, 104, 105, 110, 111, 112, 115, 116"/>
@@ -40,13 +52,13 @@
     <sub val="0.3" order="0x10" stat="darkVuln"/>
   </for>
 </item>
-<item id="14611" name="14611">
+<item id="14611" name="Ancient Cloak - Kamael exclusive">
   <!-- Update by rocknow -->
   <for>
     <add val="0" order="0x10" stat="pDef"/>
   </for>
 </item>
-<item id="14664" name="14664">
+<item id="14664" name="Gludio Protection Earring">
   <!-- Update by rocknow -->
   <cond msgId="1518">
     <player castle ="1"/>
@@ -59,7 +71,7 @@
     <enchant val="0" order="0x0C" stat="mDef"/>
   </for>
 </item>
-<item id="14665" name="14665">
+<item id="14665" name="Dion Protection Earring">
   <!-- Update by rocknow -->
   <cond msgId="1518">
     <player castle ="2"/>
@@ -72,7 +84,7 @@
     <enchant val="0" order="0x0C" stat="mDef"/>
   </for>
 </item>
-<item id="14666" name="14666">
+<item id="14666" name="Giran Protection Earring">
   <!-- Update by rocknow -->
   <cond msgId="1518">
     <player castle ="3"/>
@@ -85,7 +97,7 @@
     <enchant val="0" order="0x0C" stat="mDef"/>
   </for>
 </item>
-<item id="14667" name="14667">
+<item id="14667" name="Oren Protection Earring">
   <!-- Update by rocknow -->
   <cond msgId="1518">
     <player castle ="4"/>
@@ -98,7 +110,7 @@
     <enchant val="0" order="0x0C" stat="mDef"/>
   </for>
 </item>
-<item id="14668" name="14668">
+<item id="14668" name="Aden Protection Earring">
   <!-- Update by rocknow -->
   <cond msgId="1518">
     <player castle ="5"/>
@@ -111,7 +123,7 @@
     <enchant val="0" order="0x0C" stat="mDef"/>
   </for>
 </item>
-<item id="14669" name="14669">
+<item id="14669" name="Innadril Protection Earring">
   <!-- Update by rocknow -->
   <cond msgId="1518">
     <player castle ="6"/>
@@ -124,7 +136,7 @@
     <enchant val="0" order="0x0C" stat="mDef"/>
   </for>
 </item>
-<item id="14670" name="14670">
+<item id="14670" name="Goddard Protection Earring">
   <!-- Update by rocknow -->
   <cond msgId="1518">
     <player castle ="7"/>
@@ -137,7 +149,7 @@
     <enchant val="0" order="0x0C" stat="mDef"/>
   </for>
 </item>
-<item id="14671" name="14671">
+<item id="14671" name="Rune Protection Earring">
   <!-- Update by rocknow -->
   <cond msgId="1518">
     <player castle ="8"/>
@@ -150,7 +162,7 @@
     <enchant val="0" order="0x0C" stat="mDef"/>
   </for>
 </item>
-<item id="14672" name="14672">
+<item id="14672" name="Schuttgart Protection Earring">
   <!-- Update by rocknow -->
   <cond msgId="1518">
     <player castle ="9"/>
@@ -163,7 +175,7 @@
     <enchant val="0" order="0x0C" stat="mDef"/>
   </for>
 </item>
-<item id="14675" name="14675">
+<item id="14675" name="Agathion Seal Bracelet - Saerom">
   <!-- Update by rocknow -->
   <for/>
 </item>

@@ -1,48 +1,48 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <list>
-<item id="13802" name="13802">
+<item id="13802" name="Native's Hood">
   <!-- Update by rocknow -->
   <for>
     <add val="33" order="0x10" stat="pDef"/>
     <enchant val="0" order="0x0C" stat="pDef"/>
   </for>
 </item>
-<item id="13803" name="13803">
+<item id="13803" name="Native's Tunic">
   <!-- Update by rocknow -->
   <for>
     <add val="53" order="0x10" stat="pDef"/>
     <enchant val="0" order="0x0C" stat="pDef"/>
   </for>
 </item>
-<item id="13804" name="13804">
+<item id="13804" name="Native's Trousers">
   <!-- Update by rocknow -->
   <for>
     <add val="29" order="0x10" stat="pDef"/>
     <enchant val="0" order="0x0C" stat="pDef"/>
   </for>
 </item>
-<item id="13805" name="13805">
+<item id="13805" name="Guards of the Dawn Helmet">
   <!-- Update by rocknow -->
   <for>
     <add val="33" order="0x10" stat="pDef"/>
     <enchant val="0" order="0x0C" stat="pDef"/>
   </for>
 </item>
-<item id="13806" name="13806">
+<item id="13806" name="Guards of the Dawn Tunic">
   <!-- Update by rocknow -->
   <for>
     <add val="53" order="0x10" stat="pDef"/>
     <enchant val="0" order="0x0C" stat="pDef"/>
   </for>
 </item>
-<item id="13807" name="13807">
+<item id="13807" name="Guards of the Dawn Trousers">
   <!-- Update by rocknow -->
   <for>
     <add val="29" order="0x10" stat="pDef"/>
     <enchant val="0" order="0x0C" stat="pDef"/>
   </for>
 </item>
-<item id="13889" name="13889">
+<item id="13889" name="Holy Spirit's Cloak - Kamael exclusive">
   <!-- Update by rocknow -->
   <cond msgId="1518">
     <target class_id_restriction="123, 124, 125, 126, 127, 128, 129, 130, 131, 132, 133, 134, 135, 136"/>
@@ -52,7 +52,7 @@
     <sub val="0.3" order="0x10" stat="darkVuln"/>
   </for>
 </item>
-<item id="13890" name="13890">
+<item id="13890" name="Holy Spirit's Cloak - Heavy Armor exclusive">
   <!-- Update by rocknow -->
   <cond msgId="1518">
     <target class_id_restriction="88, 89, 90, 91, 99, 100, 106, 107, 113, 114, 117, 118"/>
@@ -62,7 +62,7 @@
     <sub val="0.3" order="0x10" stat="darkVuln"/>
   </for>
 </item>
-<item id="13891" name="13891">
+<item id="13891" name="Holy Spirit's Cloak - Light Armor exclusive">
   <!-- Update by rocknow -->
   <cond msgId="1518">
     <target class_id_restriction="92, 93, 101, 102, 108, 109, 134"/>
@@ -72,7 +72,7 @@
     <sub val="0.3" order="0x10" stat="darkVuln"/>
   </for>
 </item>
-<item id="13892" name="13892">
+<item id="13892" name="Holy Spirit's Cloak - Robe exclusive">
   <!-- Update by rocknow -->
   <cond msgId="1518">
     <target class_id_restriction="94, 95, 96, 97, 98, 103, 104, 105, 110, 111, 112, 115, 116"/>

@@ -3341,3 +3341,11 @@ UPDATE `weapon` SET `name` ='法國麵包大亨弩限時7日' WHERE item_id ='20
 UPDATE `weapon` SET `name` ='法國麵包雙刀限時7日' WHERE item_id ='20270';
 
 /***** Done by vdmyagami！ *****/ 
+
+UPDATE `weapon` SET `name` ='祕儀符印' WHERE item_id ='12811';
+UPDATE `weapon` SET `name` ='王朝符印' WHERE item_id ='12812';
+UPDATE `weapon` SET `name` ='薄暮符印' WHERE item_id ='12813';
+UPDATE `weapon` SET `name` ='封印的祕儀符印' WHERE item_id ='13885';
+UPDATE `weapon` SET `name` ='封印的王朝符印' WHERE item_id ='13886';
+UPDATE `weapon` SET `name` ='封印的薄暮符印' WHERE item_id ='13887';
+UPDATE `weapon` SET `name` ='法國麵包菠蘿盾' WHERE item_id ='20266';

@@ -726,7 +726,7 @@
   <set name="castRange" val="-1"/>
   <set name="hitTime" val="15000"/>
 </skill>
-<skill id="8251" levels="1" name="8251">
+<skill id="8251" levels="1" name="Collection Agathion Release Seal">
   <!-- Update by rocknow -->
   <set name="target" val="TARGET_SELF"/>
   <set name="skillType" val="AGATHION"/>
@@ -737,7 +737,7 @@
   <set name="castRange" val="-1"/>
   <set name="effectRange" val="-1"/>
 </skill>
-<skill id="8254" levels="1" name="8254">
+<skill id="8254" levels="1" name="Release Seal on Agathion - Monkey">
   <!-- Update by rocknow -->
   <set name="target" val="TARGET_SELF"/>
   <set name="skillType" val="AGATHION"/>
@@ -748,7 +748,7 @@
   <set name="castRange" val="-1"/>
   <set name="effectRange" val="-1"/>
 </skill>
-<skill id="8255" levels="1" name="8255">
+<skill id="8255" levels="1" name="Release Seal on Agathion - Griffin">
   <!-- Update by rocknow -->
   <set name="target" val="TARGET_SELF"/>
   <set name="skillType" val="AGATHION"/>
@@ -759,7 +759,7 @@
   <set name="castRange" val="-1"/>
   <set name="effectRange" val="-1"/>
 </skill>
-<skill id="8256" levels="1" name="8256">
+<skill id="8256" levels="1" name="Release Seal on Agathion - Joy">
   <!-- Update by rocknow -->
   <set name="target" val="TARGET_SELF"/>
   <set name="skillType" val="AGATHION"/>
@@ -770,7 +770,7 @@
   <set name="castRange" val="-1"/>
   <set name="effectRange" val="-1"/>
 </skill>
-<skill id="8257" levels="1" name="8257">
+<skill id="8257" levels="1" name="Release Seal on Agathion - Anger">
   <!-- Update by rocknow -->
   <set name="target" val="TARGET_SELF"/>
   <set name="skillType" val="AGATHION"/>
@@ -781,7 +781,7 @@
   <set name="castRange" val="-1"/>
   <set name="effectRange" val="-1"/>
 </skill>
-<skill id="8258" levels="1" name="8258">
+<skill id="8258" levels="1" name="Release Seal on Agathion - Sorrow">
   <!-- Update by rocknow -->
   <set name="target" val="TARGET_SELF"/>
   <set name="skillType" val="AGATHION"/>
@@ -792,7 +792,7 @@
   <set name="castRange" val="-1"/>
   <set name="effectRange" val="-1"/>
 </skill>
-<skill id="8259" levels="1" name="8259">
+<skill id="8259" levels="1" name="Release Seal on Agathion - Boy Teddy Bear">
   <!-- Update by rocknow -->
   <set name="target" val="TARGET_SELF"/>
   <set name="skillType" val="AGATHION"/>
@@ -803,7 +803,7 @@
   <set name="castRange" val="-1"/>
   <set name="effectRange" val="-1"/>
 </skill>
-<skill id="8260" levels="1" name="8260">
+<skill id="8260" levels="1" name="Release Seal on Agathion - Girl Teddy Bear">
   <!-- Update by rocknow -->
   <set name="target" val="TARGET_SELF"/>
   <set name="skillType" val="AGATHION"/>
@@ -814,7 +814,7 @@
   <set name="castRange" val="-1"/>
   <set name="effectRange" val="-1"/>
 </skill>
-<skill id="8261" levels="1" name="8261">
+<skill id="8261" levels="1" name="Steam Beatle Mount">
   <!-- Update by rocknow -->
   <set name="target" val="TARGET_SELF"/>
   <set name="skillType" val="BUFF"/>
@@ -825,7 +825,7 @@
     <effect count="1" name="Transformation" time="1800" val="0"/>
   </for>
 </skill>
-<skill id="8262" levels="1" name="8262">
+<skill id="8262" levels="1" name="Tawny Maned Lion Mount">
   <!-- Update by rocknow -->
   <set name="target" val="TARGET_SELF"/>
   <set name="skillType" val="BUFF"/>
@@ -836,7 +836,7 @@
     <effect count="1" name="Transformation" time="1800" val="0"/>
   </for>
 </skill>
-<skill id="8263" levels="1" name="8263">
+<skill id="8263" levels="1" name="Transform Snow Kung">
   <!-- Update by rocknow -->
   <set name="target" val="TARGET_SELF"/>
   <set name="skillType" val="BUFF"/>
@@ -848,7 +848,7 @@
     <effect count="1" name="Transformation" time="1800" val="0"/>
   </for>
 </skill>
-<skill id="8264" levels="1" name="8264">
+<skill id="8264" levels="1" name="Transform Scarecrow Jack">
   <!-- Update by rocknow -->
   <set name="target" val="TARGET_SELF"/>
   <set name="skillType" val="BUFF"/>
@@ -860,7 +860,7 @@
     <effect count="1" name="Transformation" time="1800" val="0"/>
   </for>
 </skill>
-<skill id="8265" levels="1" name="8265">
+<skill id="8265" levels="1" name="Transform Tin Golem">
   <!-- Update by rocknow -->
   <set name="target" val="TARGET_SELF"/>
   <set name="skillType" val="BUFF"/>
@@ -872,7 +872,7 @@
     <effect count="1" name="Transformation" time="1800" val="0"/>
   </for>
 </skill>
-<skill id="8277" levels="1" name="8277">
+<skill id="8277" levels="1" name="Transform Native">
   <!-- Update by rocknow -->
   <set name="target" val="TARGET_SELF"/>
   <set name="skillType" val="BUFF"/>
@@ -884,7 +884,7 @@
     <effect count="1" name="Transformation" time="1800" val="0"/>
   </for>
 </skill>
-<skill id="8278" levels="1" name="8278">
+<skill id="8278" levels="1" name="Transform Guard of Down">
   <!-- Update by rocknow -->
   <set name="target" val="TARGET_SELF"/>
   <set name="skillType" val="BUFF"/>
@@ -896,7 +896,7 @@
     <effect count="1" name="Transformation" time="1800" val="0"/>
   </for>
 </skill>
-<skill id="8283" levels="1" name="8283">
+<skill id="8283" levels="1" name="Vesper Heavy Armor Set">
   <!-- Update by rocknow -->
   <set name="target" val="TARGET_SELF"/>
   <set name="skillType" val="BUFF"/>
@@ -913,7 +913,7 @@
     <mul val="0.3" order="0x30" stat="rootVuln"/>
   </for>
 </skill>
-<skill id="8285" levels="1" name="8285">
+<skill id="8285" levels="1" name="Vesper Light Armor Set">
   <!-- Update by rocknow -->
   <set name="target" val="TARGET_SELF"/>
   <set name="skillType" val="BUFF"/>
@@ -930,7 +930,7 @@
     <add order="0x40" stat="maxHp" val="347"/>
   </for>
 </skill>
-<skill id="8287" levels="1" name="8287">
+<skill id="8287" levels="1" name="Vesper Robe Set">
   <!-- Update by rocknow -->
   <set name="target" val="TARGET_SELF"/>
   <set name="skillType" val="BUFF"/>

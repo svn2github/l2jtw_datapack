@@ -596,7 +596,7 @@
   <set name="castRange" val="-1"/>
   <set name="hitTime" val="2500"/>
 </skill>
-<skill id="840" levels="1" name="840">
+<skill id="840" levels="1" name="Final Flying Form">
   <!-- Update by rocknow -->
   <set name="target" val="TARGET_SELF"/>
   <set name="skillType" val="BUFF"/>
@@ -608,7 +608,7 @@
     <effect count="1" name="Transformation" time="1800" val="0"/>
   </for>
 </skill>
-<skill id="841" levels="1" name="841">
+<skill id="841" levels="1" name="Aura Bird - Falcon">
   <!-- Update by rocknow -->
   <set name="target" val="TARGET_SELF"/>
   <set name="skillType" val="BUFF"/>
@@ -620,7 +620,7 @@
     <effect count="1" name="Transformation" time="1800" val="0"/>
   </for>
 </skill>
-<skill id="842" levels="1" name="842">
+<skill id="842" levels="1" name="Aura Bird - Owl">
   <!-- Update by rocknow -->
   <set name="target" val="TARGET_SELF"/>
   <set name="skillType" val="BUFF"/>

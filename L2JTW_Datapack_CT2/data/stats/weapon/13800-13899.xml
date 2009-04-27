@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <list>
-<item id="13882" name="13882">
+<item id="13882" name="Dynasty Dual Daggers">
   <!-- Update by rocknow -->
   <for>
     <set val="304" order="0x08" stat="pAtk"/>
@@ -19,7 +19,7 @@
     <mul val="1.05" order="0x30" stat="pvpMagicalDmg"/>
   </for>
 </item>
-<item id="13883" name="13883">
+<item id="13883" name="Icarus Dual Daggers">
   <!-- Update by rocknow -->
   <for>
     <set val="332" order="0x08" stat="pAtk"/>
@@ -38,7 +38,7 @@
     <mul val="1.05" order="0x30" stat="pvpMagicalDmg"/>
   </for>
 </item>
-<item id="13884" name="13884">
+<item id="13884" name="Vesper Dual Daggers">
   <!-- Update by rocknow -->
   <for>
     <set val="360" order="0x08" stat="pAtk"/>
@@ -57,7 +57,7 @@
     <mul val="1.05" order="0x30" stat="pvpMagicalDmg"/>
   </for>
 </item>
-<item id="13885" name="13885">
+<item id="13885" name="Sealed Arcana Sigil">
   <!-- Update by rocknow -->
   <for>
     <sub val="8" order="0x10" stat="rEvas"/>
@@ -65,7 +65,7 @@
     <set val="20" order="0x08" stat="rShld"/>
   </for>
 </item>
-<item id="13886" name="13886">
+<item id="13886" name="Sealed Dynasty Sigil">
   <!-- Update by rocknow -->
   <for>
     <sub val="8" order="0x10" stat="rEvas"/>
@@ -73,7 +73,7 @@
     <set val="20" order="0x08" stat="rShld"/>
   </for>
 </item>
-<item id="13887" name="13887">
+<item id="13887" name="Sealed Vesper Sickle">
   <!-- Update by rocknow -->
   <for>
     <sub val="8" order="0x10" stat="rEvas"/>

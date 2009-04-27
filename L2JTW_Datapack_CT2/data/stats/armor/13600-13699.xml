@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <list>
-<item id="13687" name="13687">
+<item id="13687" name="Knight's Cloak - Heavy Armor exclusive">
   <!-- Update by rocknow -->
   <cond msgId="1518">
     <target class_id_restriction="88, 89, 90, 91, 99, 100, 106, 107, 113, 114, 117, 118"/>
@@ -10,7 +10,7 @@
     <sub val="0.3" order="0x10" stat="darkVuln"/>
   </for>
 </item>
-<item id="13688" name="13688">
+<item id="13688" name="Knight's Cloak - Light Armor exclusive">
   <!-- Update by rocknow -->
   <cond msgId="1518">
     <target class_id_restriction="88, 89, 90, 91, 99, 100, 106, 107, 113, 114, 117, 118"/>
@@ -20,7 +20,7 @@
     <sub val="0.3" order="0x10" stat="darkVuln"/>
   </for>
 </item>
-<item id="13689" name="13689">
+<item id="13689" name="Knight's Cloak - Robe exclusive">
   <!-- Update by rocknow -->
   <cond msgId="1518">
     <target class_id_restriction="88, 89, 90, 91, 99, 100, 106, 107, 113, 114, 117, 118"/>
@@ -30,7 +30,7 @@
     <sub val="0.3" order="0x10" stat="darkVuln"/>
   </for>
 </item>
-<item id="13690" name="13690">
+<item id="13690" name="Knight's Cloak - Kamael exclusive">
   <!-- Update by rocknow -->
   <cond msgId="1518">
     <target class_id_restriction="123, 124, 125, 126, 127, 128, 129, 130, 131, 132, 133, 134, 135, 136"/>

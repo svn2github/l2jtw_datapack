@@ -461,7 +461,7 @@
   <set name="castRange" val="-1"/>
   <set name="effectRange" val="-1"/>
 </skill>
-<skill id="23049" levels="1" name="23049">
+<skill id="23049" levels="1" name="Red Sumo Wrestler Agathion Cute Trick">
   <!-- Update by rocknow -->
   <set name="target" val="TARGET_SELF"/>
   <set name="skillType" val="DUMMY"/>
@@ -471,7 +471,7 @@
   <set name="castRange" val="-1"/>
   <set name="effectRange" val="-1"/>
 </skill>
-<skill id="23050" levels="1" name="23050">
+<skill id="23050" levels="1" name="Blue Sumo Wrestler Agathion Cute Trick">
   <!-- Update by rocknow -->
   <set name="target" val="TARGET_SELF"/>
   <set name="skillType" val="DUMMY"/>
@@ -481,7 +481,7 @@
   <set name="castRange" val="-1"/>
   <set name="effectRange" val="-1"/>
 </skill>
-<skill id="23051" levels="1" name="23051">
+<skill id="23051" levels="1" name="Great Sumo Match Agathion Cute Trick">
   <!-- Update by rocknow -->
   <set name="target" val="TARGET_SELF"/>
   <set name="skillType" val="DUMMY"/>
@@ -491,7 +491,7 @@
   <set name="castRange" val="-1"/>
   <set name="effectRange" val="-1"/>
 </skill>
-<skill id="23052" levels="1" name="23052">
+<skill id="23052" levels="1" name="Button-Eyed Bear Doll Agathion Cute Trick">
   <!-- Update by rocknow -->
   <set name="target" val="TARGET_SELF"/>
   <set name="skillType" val="DUMMY"/>
@@ -501,7 +501,7 @@
   <set name="castRange" val="-1"/>
   <set name="effectRange" val="-1"/>
 </skill>
-<skill id="23053" levels="1" name="23053">
+<skill id="23053" levels="1" name="God of Fortune Agathion Cute Trick">
   <!-- Update by rocknow -->
   <set name="target" val="TARGET_SELF"/>
   <set name="skillType" val="DUMMY"/>
@@ -511,7 +511,7 @@
   <set name="castRange" val="-1"/>
   <set name="effectRange" val="-1"/>
 </skill>
-<skill id="23054" levels="1" name="23054">
+<skill id="23054" levels="1" name="Dryad Agathion Cute Trick">
   <!-- Update by rocknow -->
   <set name="target" val="TARGET_SELF"/>
   <set name="skillType" val="DUMMY"/>
@@ -521,7 +521,7 @@
   <set name="castRange" val="-1"/>
   <set name="effectRange" val="-1"/>
 </skill>
-<skill id="23055" levels="1" name="23055">
+<skill id="23055" levels="1" name="Wonboso Agathion Cute Trick">
   <!-- Update by rocknow -->
   <set name="target" val="TARGET_SELF"/>
   <set name="skillType" val="DUMMY"/>
@@ -531,7 +531,7 @@
   <set name="castRange" val="-1"/>
   <set name="effectRange" val="-1"/>
 </skill>
-<skill id="23056" levels="1" name="23056">
+<skill id="23056" levels="1" name="Daewoonso Agathion Cute Trick">
   <!-- Update by rocknow -->
   <set name="target" val="TARGET_SELF"/>
   <set name="skillType" val="DUMMY"/>
@@ -541,7 +541,7 @@
   <set name="castRange" val="-1"/>
   <set name="effectRange" val="-1"/>
 </skill>
-<skill id="23057" levels="1" name="23057">
+<skill id="23057" levels="1" name="Red Sumo Wrestler Agathion Special Skill - Death Whisper Ability">
   <!-- Update by rocknow -->
   <set name="target" val="TARGET_SELF"/>
   <set name="hitTime" val="3000"/>
@@ -556,7 +556,7 @@
     </effect>
   </for>
 </skill>
-<skill id="23058" levels="1" name="23058">
+<skill id="23058" levels="1" name="Blue Sumo Wrestler Agathion Special Skill - Wild Magic Ability">
   <!-- Update by rocknow -->
   <set name="target" val="TARGET_SELF"/>
   <set name="hitTime" val="3000"/>
@@ -572,7 +572,7 @@
     </effect>
   </for>
 </skill>
-<skill id="23059" levels="1" name="23059">
+<skill id="23059" levels="1" name="Great Sumo Match Agathion Special Skill - Mysterious Power">
   <!-- Update by rocknow -->
   <set name="castRange" val="-1"/>
   <set name="effectRange" val="-1"/>
@@ -584,7 +584,7 @@
     <effect count="1" name="BigHead" time="300" val="0" abnormal="bighead" stackOrder="300" stackType="big_head"/>
   </for>
 </skill>
-<skill id="23060" levels="1" name="23060">
+<skill id="23060" levels="1" name="Great Sumo Match Agathion Special Skill - Ability of Firework">
   <!-- Update by rocknow -->
   <set name="target" val="TARGET_SELF"/>
   <set name="skillType" val="DUMMY"/>
@@ -593,7 +593,7 @@
   <set name="staticHitTime" val="true"/>
   <set name="operateType" val="OP_ACTIVE"/>
 </skill>
-<skill id="23061" levels="1" name="23061">
+<skill id="23061" levels="1" name="Button-Eyed Bear Doll Agathion Special Skill - Ability of Blessed Return">
   <!-- Update by rocknow -->
   <set name="target" val="TARGET_SELF"/>
   <set name="skillType" val="RECALL"/>
@@ -604,7 +604,7 @@
   <set name="castRange" val="-1"/>
   <set name="effectRange" val="-1"/>
 </skill>
-<skill id="23062" levels="1" name="23062">
+<skill id="23062" levels="1" name="Button-Eyed Bear Doll Agathion Special Skill - Ability of Blessed Resurrection">
   <!-- Update by rocknow -->
   <set name="target" val="TARGET_CORPSE_PLAYER"/>
   <set name="skillType" val="RESURRECT"/>
@@ -616,7 +616,7 @@
   <set name="castRange" val="400"/>
   <set name="effectRange" val="600"/>
 </skill>
-<skill id="23065" levels="1" name="23065">
+<skill id="23065" levels="1" name="Wonboso Agathion Special Skill - Wind Walk Ability">
   <!-- Update by rocknow -->
   <set name="target" val="TARGET_SELF"/>
   <set name="hitTime" val="3000"/>
