@@ -1517,3 +1517,7 @@ REPLACE INTO `teleport` VALUES
 REPLACE INTO `etcitem` VALUES
 (13277,'Energy Star Stone','false','none',100,'stackable','steel','none',-1,-1,0,0,'true','true','true','true','0-0;','false'),
 (13559,'Airship Summon License','false','none',20,'stackable','paper','none',-1,-1,0,0,'true','true','true','true','0-0;','false');
+
+-- 刪除不會動的 NPC Walk
+Delete From `spawnlist` Where `npc_templateid` in (31356,31357,31358,31359,31360,31361,31362,31363,31364,31365,32070,32072);
+UPDATE `npc` SET `walkspd` = '8' WHERE `id` in (32072);
