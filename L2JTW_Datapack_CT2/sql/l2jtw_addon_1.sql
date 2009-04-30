@@ -770,6 +770,11 @@ REPLACE INTO `skill_trees` VALUES
 
 
 /************ 其他修正 ************/
+-- 修正傳送到不同的房間挑戰莉莉絲/亞納
+REPLACE INTO `teleport` VALUES
+('Disciples Necropolis -> Anakim',449,184467,-13102,-5500,0,0),
+('Disciples Necropolis -> Lilith',450,184448,-10120,-5500,0,0);
+
 -- 修正奇岩港口的傳送價格
 UPDATE `teleport` SET `price` = '5200' WHERE `id` in (63);
 UPDATE `teleport` SET `price` = '7100' WHERE `id` in (107);
