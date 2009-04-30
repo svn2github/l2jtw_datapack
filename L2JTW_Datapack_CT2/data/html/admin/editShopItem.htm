@@ -1,14 +1,14 @@
-<html><title>編輯商店販賣物品</title>
+<html><title>修改商店販賣物品</title>
 <body>
 <br>在販賣清單內修改物品。
 <br>編輯物品：%item%
 <table>
-<tr><td width=100>內容</td><td width=100>修改</td><td width=100>原始</td></tr>
+<tr><td width=50>內容</td><td width=100>修改價格</td><td width=100>目前價格</td></tr>
 <tr><td><br></td><td></td></tr>
 <tr><td>價格</td><td><edit var="price" width=80></td><td>%price%</td></tr>
 </table>
-<center><br><br><br>
-<button value="儲存" action="bypass -h admin_editShopItem %tradeListID% %itemID% $price"  width=100 height=15 back="L2UI_ct1.button_df" fore="L2UI_ct1.button_df">
-<br><button value="返回" action="bypass -h admin_showShopList %tradeListID% 1"  width=100 height=15 back="L2UI_ct1.button_df" fore="L2UI_ct1.button_df">
+<center><br><br>
+<button value="儲存" action="bypass -h admin_editShopItem %tradeListID% %itemID% $price" width=100 height=20 back="L2UI_ct1.button_df" fore="L2UI_ct1.button_df">
+<br><button value="返回" action="bypass -h admin_showShopList %tradeListID% 1" width=100 height=20 back="L2UI_ct1.button_df" fore="L2UI_ct1.button_df">
 </center>
 </body></html>

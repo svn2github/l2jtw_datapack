@@ -395,13 +395,13 @@ public class AdminEditNpc implements IAdminCommandHandler
 		final StringBuilder replyMSG = new StringBuilder();
 
                 StringUtil.append(replyMSG,
-                        "<html><title>Merchant Shop List Page: ",
+                        "<html><title>"+MessageTable.Messages[726].getMessage(),
                         String.valueOf(page),
                         "</title>" +
                         "<body>" +
-                        "<br>Edit, add or delete entries in a merchantList." +
+                        "<br>"+MessageTable.Messages[727].getMessage() +
                         "<table>" +
-                        "<tr><td width=150>Item Name</td><td width=60>Price</td><td width=40>Delete</td></tr>"
+                        "<tr><td width=150>"+MessageTable.Messages[729].getMessage()+"</td><td width=60>"+MessageTable.Messages[731].getMessage()+"</td><td width=40>"+MessageTable.Messages[923].getMessage()+"</td></tr>"
                         );
 		
 		int start = ((page - 1) * PAGE_LIMIT);
@@ -431,11 +431,21 @@ public class AdminEditNpc implements IAdminCommandHandler
                             StringUtil.append(replyMSG, "<td></td>");
                         }
 
-                        StringUtil.append(replyMSG,"<td><button value=\""+ MessageTable.Messages[677].getMessage() + (page + 1) + "\" action=\"bypass -h admin_showShopList " + tradeList.getListId() + " " + (page + 1)
+                        StringUtil.append(replyMSG,"<td><button value=\""+ MessageTable.Messages[677].getMessage() + (page + 1) +MessageTable.Messages[215].getMessage()+"\" action=\"bypass -h admin_showShopList " + tradeList.getListId() + " " + (page + 1)
             					+ "\" width=40 height=15 back=\"L2UI_ct1.button_df\" fore=\"L2UI_ct1.button_df\"></td>");
 
 		}
 
+                StringUtil.append(replyMSG,
+                        "</tr><tr><td></td></tr>" +
+                        "</table>" +
+                        "<center>" +
+                        "<button value=\""+ MessageTable.Messages[733].getMessage()+"\" action=\"bypass -h admin_addShopItem ",
+                        String.valueOf(tradeList.getListId()),
+                        "\" width=100 height=20 back=\"L2UI_ct1.button_df\" fore=\"L2UI_ct1.button_df\">" +
+                        "<button value=\""+ MessageTable.Messages[921].getMessage()+"\" action=\"bypass -h admin_close_window\" width=100 height=20 back=\"L2UI_ct1.button_df\" fore=\"L2UI_ct1.button_df\">" +
+                        "</center></body></html>"
+                        );
 		
 		return replyMSG.toString();
 	}
@@ -830,7 +840,7 @@ public class AdminEditNpc implements IAdminCommandHandler
 				for (L2DropData drop : cat.getAllDrops())
 				{
 					replyMSG.append("<tr><td><a action=\"bypass -h admin_edit_drop " + npcData.npcId + " " + drop.getItemId() + " " + cat.getCategoryType() + "\">" + npcData.npcId + " " + drop.getItemId() + " " + cat.getCategoryType()
-							+ "</a></td>" + "<td>" + ItemTable.getInstance().getTemplate(drop.getItemId()).getName() + "[" + drop.getItemId() + "]" + "</td><td>" + (drop.isQuestDrop() ? "Q" : (cat.isSweep() ? "S" : "D")) + "</td><td>"
+							+ "</a></td>" + "<td>" + ItemTable.getInstance().getTemplate(drop.getItemId()).getName() + "(" + drop.getItemId() + ")" + "</td><td>" + (drop.isQuestDrop() ? "Q" : (cat.isSweep() ? "S" : "D")) + "</td><td>"
 							+ "<a action=\"bypass -h admin_del_drop " + npcData.npcId + " " + drop.getItemId() + " " + cat.getCategoryType() + "\">"+MessageTable.Messages[1183].getMessage()+"</a></td></tr>");
 
 				}
@@ -871,9 +881,9 @@ public class AdminEditNpc implements IAdminCommandHandler
 				replyMSG.append("</table>");
 				
 				replyMSG.append("<center>");
-				replyMSG.append("<button value=\""+MessageTable.Messages[1194].getMessage()+"\" action=\"bypass -h admin_edit_drop " + npcId + " " + itemId + " " + category
-						+ " $min $max $chance\"  width=100 height=15 back=\"L2UI_ct1.button_df\" fore=\"L2UI_ct1.button_df\">");
-				replyMSG.append("<br><button value=\""+MessageTable.Messages[1195].getMessage()+"\" action=\"bypass -h admin_show_droplist " + dropData.getInt("mobId") + "\"  width=100 height=15 back=\"L2UI_ct1.button_df\" fore=\"L2UI_ct1.button_df\">");
+				replyMSG.append("<br><button value=\""+MessageTable.Messages[1194].getMessage()+"\" action=\"bypass -h admin_edit_drop " + npcId + " " + itemId + " " + category
+						+ " $min $max $chance\"  width=100 height=20 back=\"L2UI_ct1.button_df\" fore=\"L2UI_ct1.button_df\">");
+				replyMSG.append("<br><button value=\""+MessageTable.Messages[1195].getMessage()+"\" action=\"bypass -h admin_show_droplist " + dropData.getInt("mobId") + "\"  width=100 height=20 back=\"L2UI_ct1.button_df\" fore=\"L2UI_ct1.button_df\">");
 				replyMSG.append("</center>");
 			}
 			

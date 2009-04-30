@@ -253,7 +253,7 @@ public class AdminSkill implements IAdminCommandHandler
 		for (int x = 0; x < maxPages; x++)
 		{
 			int pagenr = x + 1;
-			pages += "<td><a action=\"bypass -h admin_remove_skills " + x + "\">"+MessageTable.Messages[677].getMessage()+ pagenr +MessageTable.Messages[215].getMessage()+"</a></td>";
+			pages += "<td width=270><a action=\"bypass -h admin_remove_skills " + x + "\">"+MessageTable.Messages[677].getMessage()+ pagenr +MessageTable.Messages[215].getMessage()+"</a></td>";
 		}
 		adminReply.replace("%page%", pages);
 		adminReply.replace("%lvl%", ""+player.getLevel());
