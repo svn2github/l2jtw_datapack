@@ -615,12 +615,10 @@
     <effect count="1" name="Transformation" time="3600" val="0"/>
   </for>
 </skill>
-<skill id="5656" levels="85" name="Gatekeeper Aura Flare">
+<skill id="5656" levels="10" name="Gatekeeper Aura Flare">
   <!-- Update by rocknow from L2Emu -->
-  <set name="mpInitialConsume" val="15"/>
-  <set name="mpConsume" val="75"/>
-  <set name="magicLvl" val="950"/>
-  <set name="power" val="1024"/>
+  <set name="mpConsume" val="13"/>
+  <set name="power" val="104"/>
   <set name="target" val="TARGET_ONE"/>
   <set name="reuseDelay" val="2500"/>
   <set name="hitTime" val="1000"/>
@@ -638,12 +636,10 @@
     </effect>
   </for>
 </skill>
-<skill id="5657" levels="85" name="Gatekeeper Prominence">
+<skill id="5657" levels="10" name="Gatekeeper Prominence">
   <!-- Update by rocknow from L2Emu -->
-  <set name="magicLvl" val="1000"/>
-  <set name="mpInitialConsume" val="20"/>
-  <set name="mpConsume" val="55"/>
-  <set name="power" val="1279"/>
+  <set name="mpConsume" val="13"/>
+  <set name="power" val="130"/>
   <set name="target" val="TARGET_ONE"/>
   <set name="reuseDelay" val="6000"/>
   <set name="hitTime" val="1500"/>
@@ -653,12 +649,10 @@
   <set name="castRange" val="900"/>
   <set name="effectRange" val="1400"/>
 </skill>
-<skill id="5658" levels="85" name="Gatekeeper Flame Strike">
+<skill id="5658" levels="10" name="Gatekeeper Flame Strike">
   <!-- Update by rocknow from L2Emu -->
-  <set name="mpInitialConsume" val="22"/>
-  <set name="mpConsume" val="91"/>
-  <set name="magicLvl" val="1200"/>
-  <set name="power" val="640"/>
+  <set name="mpConsume" val="18"/>
+  <set name="power" val="65"/>
   <set name="target" val="TARGET_AREA"/>
   <set name="skillRadius" val="200"/>
   <set name="reuseDelay" val="15000"/>
@@ -671,7 +665,6 @@
 </skill>
 <skill id="5659" levels="2" name="Gatekeeper Berserker Spirit">
   <!-- Update by rocknow from L2Emu -->
-  <set name="mpInitialConsume" val="10"/>
   <set name="mpConsume" val="48"/>
   <set name="target" val="TARGET_SELF"/>
   <set name="reuseDelay" val="6000"/>

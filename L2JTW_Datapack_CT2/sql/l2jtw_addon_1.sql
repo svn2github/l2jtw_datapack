@@ -1498,8 +1498,8 @@ REPLACE INTO `npc` VALUES
 (32624, 32624, 'Anbram', 0, '', 0, 'LineageNPC2.gracia_soldier', 12.00, 25.00, 70, 'male', 'L2Guard', 40, 2444, 2444, 0.00, 0.00, 10, 10, 10, 10, 10, 10, 0, 0, 500, 500, 500, 500, 253, 0, 253, 0, 0, 0, 80, 120, 'NULL', 0, 0, 0, 'LAST_HIT', 0, 0, 0, 'balanced', 'false'),
 (32626, 32626, 'Royal Guard', 0, '', 0, 'LineageNPC2.gracia_soldier', 12.00, 25.00, 70, 'male', 'L2Guard', 40, 2444, 2444, 0.00, 0.00, 10, 10, 10, 10, 10, 10, 0, 0, 500, 500, 500, 500, 253, 0, 253, 0, 0, 0, 80, 120, 'NULL', 0, 0, 0, 'LAST_HIT', 0, 0, 0, 'balanced', 'false'),
 (32627, 32627, 'Nottingale', 0, '', 0, 'LineageNPC.a_teleporter_FElf', 12.00, 23.56, 70, 'male', 'L2Npc', 40, 2444, 2444, 0.00, 0.00, 10, 10, 10, 10, 10, 10, 0, 0, 500, 500, 500, 500, 253, 0, 253, 0, 0, 0, 80, 120, 'NULL', 0, 0, 0, 'LAST_HIT', 0, 0, 0, 'balanced', 'false'),
-(32628, 32628, 'Wharf Patrol', 0, '', 0, 'LineageNPC.a_guard_MHuman', 12.00, 24.00, 70, 'male', 'L2Guard', 40, 2444, 2444, 0.00, 0.00, 10, 10, 10, 10, 10, 10, 0, 0, 500, 500, 500, 500, 253, 0, 253, 94, 0, 0, 50, 120, 'NULL', 0, 0, 0, 'LAST_HIT', 0, 0, 0, 'balanced', 'false'),
-(32629, 32629, 'Wharf Patrol', 0, '', 0, 'LineageNPC.a_guard_MHuman', 12.00, 24.00, 70, 'male', 'L2Guard', 40, 2444, 2444, 0.00, 0.00, 10, 10, 10, 10, 10, 10, 0, 0, 500, 500, 500, 500, 253, 0, 253, 94, 0, 0, 50, 120, 'NULL', 0, 0, 0, 'LAST_HIT', 0, 0, 0, 'balanced', 'false'),
+(32628, 32628, 'Wharf Patrol', 0, '', 0, 'LineageNPC.a_guard_MHuman', 8.00, 23.50, 85, 'male', 'L2Guard', 40, 9999, 1859, 99.00, 9.00, 40, 43, 30, 21, 20, 10, 0, 0, 9999, 999, 9999, 999, 278, 1000, 333, 94, 0, 0, 50, 120, 'NULL', 0, 0, 0, 'LAST_HIT', 0, 0, 0, 'balanced', 'false'),
+(32629, 32629, 'Wharf Patrol', 0, '', 0, 'LineageNPC.a_guard_MHuman', 8.00, 23.50, 85, 'male', 'L2Guard', 40, 9999, 1859, 99.00, 9.00, 40, 43, 30, 21, 20, 10, 0, 0, 9999, 999, 9999, 999, 278, 1000, 333, 94, 0, 0, 50, 120, 'NULL', 0, 0, 0, 'LAST_HIT', 0, 0, 0, 'balanced', 'false'),
 (32632, 32632, 'Gracia Survivor', 0, '', 0, 'LineageNPC2.gracia_remnants_a', 12.00, 23.00, 70, 'male', 'L2Teleporter', 40, 2444, 2444, 0.00, 0.00, 10, 10, 10, 10, 10, 10, 0, 0, 500, 500, 500, 500, 253, 0, 253, 0, 0, 0, 80, 120, 'NULL', 0, 0, 0, 'LAST_HIT', 0, 0, 0, 'balanced', 'false'),
 (36481, 36481, 'Mercenary Captain', 0, '', 0, 'LineageMonster3.Kight_of_Dawn', 12.00, 23.56, 70, 'male', 'L2Npc', 40, 2444, 2444, 0.00, 0.00, 10, 10, 10, 10, 10, 10, 0, 0, 500, 500, 500, 500, 253, 0, 253, 0, 0, 0, 80, 120, 'NULL', 0, 0, 0, 'LAST_HIT', 0, 0, 0, 'balanced', 'false'),
 (36482, 36482, 'Mercenary Captain', 0, '', 0, 'LineageMonster3.Kight_of_Dawn', 12.00, 23.56, 70, 'male', 'L2Npc', 40, 2444, 2444, 0.00, 0.00, 10, 10, 10, 10, 10, 10, 0, 0, 500, 500, 500, 500, 253, 0, 253, 0, 0, 0, 80, 120, 'NULL', 0, 0, 0, 'LAST_HIT', 0, 0, 0, 'balanced', 'false'),
@@ -1635,7 +1635,7 @@ REPLACE INTO `etcitem` VALUES
 (13559,'Airship Summon License','false','none',20,'stackable','paper','none',-1,-1,0,0,'true','true','true','true','0-0;','false');
 
 -- 刪除不會動的 NPC Walk
-Delete From `spawnlist` Where `npc_templateid` in (31356,31357,31358,31359,31360,31361,31362,31363,31364,31365,32070,32072);
+Delete From `spawnlist` Where `npc_templateid` in (31356,31357,31358,31359,31360,31361,31362,31363,31364,31365,32070,32072,32628,32629);
 Delete From `fort_spawnlist` Where `npcId` in (35659,35690,35728,35759,35797,35828,35859,35897,35928,35966,36004,36035,36073,36111,36142,36173,36211,36249,36287,36318,36356);
 UPDATE `npc` SET `walkspd` = '8' WHERE `id` in (32072);
 UPDATE `npc` SET `walkspd` = '50' WHERE `id` in (35659,35690,35728,35759,35797,35828,35859,35897,35928,35966,36004,36035,36073,36111,36142,36173,36211,36249,36287,36318,36356);
