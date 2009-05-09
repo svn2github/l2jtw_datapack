@@ -478,6 +478,8 @@ class NPC_Walk(JQuest) :
        self.startQuestTimer("3262907",1000, walk34, None)
     elif event in WALKS.keys() :
        x,y,z,nextEvent=WALKS[event]
+       npc.setWalking()
+       npc.setIsInvul(True)
        npc.getAI().setIntention(CtrlIntention.AI_INTENTION_MOVE_TO, L2CharPosition(x,y,z,0))
        if ((npc.getX()-100) <= x and (npc.getX()+100) >= x and (npc.getY()-100) <= y and (npc.getY()+100) >= y) :
           self.startQuestTimer(nextEvent,1000, npc, None)
