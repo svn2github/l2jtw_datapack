@@ -524,6 +524,7 @@ character_shortcuts.sql
 character_skills.sql
 character_skills_save.sql
 character_subclasses.sql
+character_tpbookmark.sql
 characters.sql
 clan_data.sql
 clan_privs.sql
