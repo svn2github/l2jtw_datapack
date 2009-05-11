@@ -100,7 +100,7 @@ public class MasterHandler
 		AdminCommandHandler.getInstance().registerAdminCommandHandler(new AdminTvTEvent());
 		AdminCommandHandler.getInstance().registerAdminCommandHandler(new AdminUnblockIp());
 		AdminCommandHandler.getInstance().registerAdminCommandHandler(new AdminZone());
-		_log.config("Loaded " + AdminCommandHandler.getInstance().size() + "  AdminCommandHandlers");
+		_log.config("Loaded " + AdminCommandHandler.getInstance().size() + " AdminCommandHandlers");
 	}
 	
 	private static void loadChatHandlers()
@@ -116,7 +116,7 @@ public class MasterHandler
 		ChatHandler.getInstance().registerChatHandler(new ChatShout());
 		ChatHandler.getInstance().registerChatHandler(new ChatTell());
 		ChatHandler.getInstance().registerChatHandler(new ChatTrade());
-		_log.config("Loaded " + ChatHandler.getInstance().size() + "  ChatHandlers");
+		_log.config("Loaded " + ChatHandler.getInstance().size() + " ChatHandlers");
 	}
 	
 	private static void loadItemHandlers()
@@ -129,7 +129,6 @@ public class MasterHandler
 		ItemHandler.getInstance().registerItemHandler(new BallistaBombItem());
 		ItemHandler.getInstance().registerItemHandler(new BeastSoulShot());
 		ItemHandler.getInstance().registerItemHandler(new BeastSpiritShot());
-		ItemHandler.getInstance().registerItemHandler(new EnergyStone());
 		ItemHandler.getInstance().registerItemHandler(new Key());
 		ItemHandler.getInstance().registerItemHandler(new PaganKeys());
 		ItemHandler.getInstance().registerItemHandler(new Maps());
@@ -139,6 +138,7 @@ public class MasterHandler
 		ItemHandler.getInstance().registerItemHandler(new MysteryPotion());
 		ItemHandler.getInstance().registerItemHandler(new EnchantAttribute());
 		ItemHandler.getInstance().registerItemHandler(new EnchantScrolls());
+		ItemHandler.getInstance().registerItemHandler(new EnergyStone());
 		ItemHandler.getInstance().registerItemHandler(new Book());
 		ItemHandler.getInstance().registerItemHandler(new Remedy());
 		ItemHandler.getInstance().registerItemHandler(new Scrolls());
