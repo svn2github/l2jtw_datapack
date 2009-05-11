@@ -144,13 +144,13 @@ def checkCondition(player) :
     return False
   for partyMember in party.getPartyMembers().toArray() :
     if not partyMember.getLevel() >= 78 :
-      sm = SystemMessage(SystemMessageId.S1_LEVEL_REQUIREMENT_NOT_SUFFICIENT)
+      sm = SystemMessage(SystemMessageId.C1_LEVEL_REQUIREMENT_NOT_SUFFICIENT)
       sm.addCharName(partyMember)
       player.sendPacket(sm)
       return False
   for partyMember in player.getParty().getPartyMembers().toArray() :
     if not partyMember.isInsideRadius(player, 500, False, False) :
-      sm = SystemMessage(SystemMessageId.S1_IS_IN_LOCATION_THAT_CANNOT_ENTERED_PROCESSED)
+      sm = SystemMessage(SystemMessageId.C1_IS_IN_LOCATION_THAT_CANNOT_BE_ENTERED)
       sm.addCharName(partyMember)
       player.sendPacket(sm)
       return False
@@ -267,8 +267,8 @@ def runFirstRoom(self, world) :
   if debug : print "DarkCloudMansion: spawned first room"
 
 def runHall2(self, world) :
+  newNpc = self.addSpawn(SOFaith, 147818, 179643, -6117, 0, False, 0, False, world.instanceId)
   world.status = 3
-  newNpc = self.addSpawn(SOFaith, 147808, 179619, -6121, 0, False, 0, False, world.instanceId)
   spawnHall(self, world)
 
 def runSecondRoom(self, world) :
