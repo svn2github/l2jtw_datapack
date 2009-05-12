@@ -397,6 +397,7 @@ REPLACE INTO `pets_skills` VALUES
 
 /************ 增加/修正/刪除NPC ************/
 UPDATE `npc` SET `level` = '55' WHERE `id` in (16030); -- 修正黑鬃狼的等級
+UPDATE `npc` SET `collision_radius` = '13.5', `collision_height` = '36.5' WHERE `id` IN (27323); -- 修正神的密使(任務怪物)
 UPDATE `npc` SET `type` = 'L2VillageMaster' WHERE `id` in (32191); -- 修正漢娜琳  宗師的NPC類型
 UPDATE `npc` SET `type` = 'L2SepulcherNpc' WHERE `id` in (31928); -- 修正侯爵禮拜堂守門人的NPC類型
 UPDATE `npc` SET `type` = 'L2Adventurer' WHERE `id` in (32074); -- 修正古魯丁分會長的NPC類型
@@ -1452,13 +1453,14 @@ REPLACE INTO `etcitem` VALUES
 
 -- 破滅國境的新 NPC (感謝 pmq 提供)
 REPLACE INTO `npc` VALUES
+(18782, 18782, 'Zealot of Shilen', 0, '', 0, 'LineageMonster4.disciple_silen', 19.00, 44.00, 80, 'male', 'L2Monster', 40, 4663, 1934, 26.86, 3.09, 40, 43, 30, 21, 20, 10, 0, 0, 1912, 598, 1220, 485, 278, 150, 333, 0, 0, 0, 73, 170, 'NULL', 0, 0, 0, 'LAST_HIT', 0, 0, 0, 'balanced', 'false'),
 (32517, 32517, 'Airship Controller', 0, '', 0, 'LineageNpcEV.riding_control_unit', 12.00, 28.00, 70, 'male', 'L2Teleporter', 40, 2444, 2444, 0.00, 0.00, 10, 10, 10, 10, 10, 10, 0, 0, 500, 500, 500, 500, 253, 0, 253, 0, 0, 0, 80, 120, 'NULL', 0, 0, 0, 'LAST_HIT', 0, 0, 0, 'balanced', 'false'),
 (32518, 32518, 'Vortex Gate', 0, '', 0, 'LineageNpcEV.war_gate', 12.00, 180.00, 70, 'male', 'L2Teleporter', 40, 2444, 2444, 0.00, 0.00, 10, 10, 10, 10, 10, 10, 0, 0, 500, 500, 500, 500, 253, 0, 253, 0, 0, 0, 80, 120, 'NULL', 0, 0, 0, 'LAST_HIT', 0, 0, 0, 'balanced', 'false'),
 (32521, 32521, 'Entrance Manager', 0, '', 0, 'LineageNPC.e_teleporter_FDwarf', 12.00, 21.00, 70, 'male', 'L2Teleporter', 40, 2444, 2444, 0.00, 0.00, 10, 10, 10, 10, 10, 10, 0, 0, 500, 500, 500, 500, 253, 0, 253, 0, 0, 0, 80, 120, 'NULL', 0, 0, 0, 'LAST_HIT', 0, 0, 0, 'balanced', 'false'),
 (32522, 32522, 'Entrance Manager', 0, '', 0, 'LineageNPC.e_teleporter_FDwarf', 12.00, 21.00, 70, 'male', 'L2Teleporter', 40, 2444, 2444, 0.00, 0.00, 10, 10, 10, 10, 10, 10, 0, 0, 500, 500, 500, 500, 253, 0, 253, 0, 0, 0, 80, 120, 'NULL', 0, 0, 0, 'LAST_HIT', 0, 0, 0, 'balanced', 'false'),
 (32523, 32523, 'Entrance Manager', 0, '', 0, 'LineageNPC.e_teleporter_FDwarf', 12.00, 21.00, 70, 'male', 'L2Teleporter', 40, 2444, 2444, 0.00, 0.00, 10, 10, 10, 10, 10, 10, 0, 0, 500, 500, 500, 500, 253, 0, 253, 0, 0, 0, 80, 120, 'NULL', 0, 0, 0, 'LAST_HIT', 0, 0, 0, 'balanced', 'false'),
 (32524, 32524, 'Entrance Manager', 0, '', 0, 'LineageNPC.e_teleporter_FDwarf', 12.00, 21.00, 70, 'male', 'L2Teleporter', 40, 2444, 2444, 0.00, 0.00, 10, 10, 10, 10, 10, 10, 0, 0, 500, 500, 500, 500, 253, 0, 253, 0, 0, 0, 80, 120, 'NULL', 0, 0, 0, 'LAST_HIT', 0, 0, 0, 'balanced', 'false'),
-(32526, 32526, 'Allenos', 0, '', 0, 'LineageNPC2.gracia_soldier', 12.00, 25.00, 70, 'male', 'L2Guard', 40, 2444, 2444, 0.00, 0.00, 10, 10, 10, 10, 10, 10, 0, 0, 500, 500, 500, 500, 253, 0, 253, 0, 0, 0, 80, 120, 'NULL', 13524, 13525, 0, 'LAST_HIT', 0, 0, 0, 'balanced', 'false'),
+(32526, 32526, 'Allenos', 0, '', 0, 'LineageNPC2.gracia_soldier', 12.00, 25.00, 70, 'male', 'L2Guard', 40, 2444, 2444, 0.00, 0.00, 10, 10, 10, 10, 10, 10, 0, 0, 500, 500, 500, 500, 253, 0, 253, 13524, 13525, 0, 80, 120, 'NULL', 0, 0, 0, 'LAST_HIT', 0, 0, 0, 'balanced', 'false'),
 (32534, 32534, 'Jaedin', 0, '', 0, 'LineageMonster4.disciple_silen', 12.00, 44.00, 70, 'male', 'L2Teleporter', 40, 2444, 2444, 0.00, 0.00, 10, 10, 10, 10, 10, 10, 0, 0, 500, 500, 500, 500, 253, 0, 253, 0, 0, 0, 80, 120, 'NULL', 0, 0, 0, 'LAST_HIT', 0, 0, 0, 'balanced', 'false'),
 (32537, 32537, 'Mouth of Ekimus', 0, '', 0, 'LineageNpcEV.mouth_immotality_a', 12.00, 15.00, 70, 'male', 'L2Teleporter', 40, 2444, 2444, 0.00, 0.00, 10, 10, 10, 10, 10, 10, 0, 0, 500, 500, 500, 500, 253, 0, 253, 0, 0, 0, 80, 120, 'NULL', 0, 0, 0, 'LAST_HIT', 0, 0, 0, 'balanced', 'false'),
 (32539, 32539, 'Gatekeeper of Abyss', 0, '', 0, 'LineageNpcEV.vigil_immortality', 12.00, 120.00, 70, 'male', 'L2Teleporter', 40, 2444, 2444, 0.00, 0.00, 10, 10, 10, 10, 10, 10, 0, 0, 500, 500, 500, 500, 253, 0, 253, 0, 0, 0, 80, 120, 'NULL', 0, 0, 0, 'LAST_HIT', 0, 0, 0, 'balanced', 'false'),
@@ -1500,7 +1502,7 @@ REPLACE INTO `npc` VALUES
 (32626, 32626, 'Royal Guard', 0, '', 0, 'LineageNPC2.gracia_soldier', 12.00, 25.00, 70, 'male', 'L2Guard', 40, 2444, 2444, 0.00, 0.00, 10, 10, 10, 10, 10, 10, 0, 0, 500, 500, 500, 500, 253, 0, 253, 13524, 13525, 0, 80, 120, 'NULL', 0, 0, 0, 'LAST_HIT', 0, 0, 0, 'balanced', 'false'),
 (32627, 32627, 'Nottingale', 0, '', 0, 'LineageNPC.a_teleporter_FElf', 12.00, 23.56, 70, 'male', 'L2Npc', 40, 2444, 2444, 0.00, 0.00, 10, 10, 10, 10, 10, 10, 0, 0, 500, 500, 500, 500, 253, 0, 253, 0, 0, 0, 80, 120, 'NULL', 0, 0, 0, 'LAST_HIT', 0, 0, 0, 'balanced', 'false'),
 (32628, 32628, 'Wharf Patrol', 0, '', 0, 'LineageNPC.a_guard_MHuman', 8.00, 23.50, 80, 'male', 'L2Guard', 40, 4551, 1859, 13.43, 3.09, 40, 43, 30, 21, 20, 10, 0, 0, 1814, 576, 1144, 468, 278, 0, 333, 94, 0, 0, 50, 120, 'NULL', 0, 0, 0, 'LAST_HIT', 0, 0, 0, 'balanced', 'false'),
-(32629, 32629, 'Wharf Patrol', 0, '', 0, 'LineageNPC.a_guard_MHuman', 8.00, 23.50, 80, 'male', 'L2Guard', 40, 4551, 1859, 13.43, 0.00, 10, 10, 10, 10, 10, 10, 0, 0, 500, 500, 500, 500, 278, 0, 333, 94, 0, 0, 50, 120, 'NULL', 0, 0, 0, 'LAST_HIT', 0, 0, 0, 'balanced', 'false'),
+(32629, 32629, 'Wharf Patrol', 0, '', 0, 'LineageNPC.a_guard_MHuman', 8.00, 23.50, 80, 'male', 'L2Guard', 40, 4551, 1859, 13.43, 0.00, 40, 43, 30, 21, 20, 10, 0, 0, 1814, 576, 1144, 468, 278, 0, 333, 94, 0, 0, 50, 120, 'NULL', 0, 0, 0, 'LAST_HIT', 0, 0, 0, 'balanced', 'false'),
 (32632, 32632, 'Gracia Survivor', 0, '', 0, 'LineageNPC2.gracia_remnants_a', 12.00, 23.00, 70, 'male', 'L2Teleporter', 40, 2444, 2444, 0.00, 0.00, 10, 10, 10, 10, 10, 10, 0, 0, 500, 500, 500, 500, 253, 0, 253, 0, 0, 0, 80, 120, 'NULL', 0, 0, 0, 'LAST_HIT', 0, 0, 0, 'balanced', 'false'),
 (36481, 36481, 'Mercenary Captain', 0, '', 0, 'LineageMonster3.Kight_of_Dawn', 12.00, 23.56, 70, 'male', 'L2Npc', 40, 2444, 2444, 0.00, 0.00, 10, 10, 10, 10, 10, 10, 0, 0, 500, 500, 500, 500, 253, 0, 253, 0, 0, 0, 80, 120, 'NULL', 0, 0, 0, 'LAST_HIT', 0, 0, 0, 'balanced', 'false'),
 (36482, 36482, 'Mercenary Captain', 0, '', 0, 'LineageMonster3.Kight_of_Dawn', 12.00, 23.56, 70, 'male', 'L2Npc', 40, 2444, 2444, 0.00, 0.00, 10, 10, 10, 10, 10, 10, 0, 0, 500, 500, 500, 500, 253, 0, 253, 0, 0, 0, 80, 120, 'NULL', 0, 0, 0, 'LAST_HIT', 0, 0, 0, 'balanced', 'false'),
@@ -1621,7 +1623,9 @@ REPLACE INTO `spawnlist` VALUES
 (840095, '', 1,36498, -44111, -112280, -247, 0, 0, 40959, 10, 0, 0),   -- 修加特領地管理員
 (840096, '', 1,36498, 116188, -181558, -1370, 0, 0, 0, 10, 0, 0),      -- 修加特領地管理員
 (840097, '', 1,36498, 89314, -141487, -1549, 0, 0, 2555, 10, 0, 0),    -- 修加特領地管理員
-(840098, '', 1,36570, -184108, 238594, 1429, 0, 0, 19614, 10, 0, 0);   -- 金剛砂凝結器
+(840098, '', 1,36570, -184108, 238594, 1429, 0, 0, 19614, 10, 0, 0),   -- 金剛砂凝結器
+(840099, '', 1,36571, -213466, 245892, 2042, 0, 0, 49364, 10, 0, 0),   -- 裂縫
+(840100, '', 1,36571, -213451, 243899, 2042, 0, 0, 16383, 10, 0, 0);   -- 裂縫
 
 -- 新傳送
 REPLACE INTO `teleport` VALUES
