@@ -419,16 +419,50 @@
   <set name="castRange" val="-1"/>
 </skill>
 <skill id="5559" levels="1" name="Fighter's Will">
-  <set name="target" val="TARGET_NONE"/>
-  <set name="skillType" val="NOTDONE"/>
-  <set name="operateType" val="OP_PASSIVE"/>
+  <!-- Update by rocknow -->
+  <set name="weaponsAllowed" val="184156"/>
+  <set name="activationChance" val="5"/>
+  <set name="chanceType" val="ON_HIT"/>
   <set name="castRange" val="-1"/>
+  <set name="effectRange" val="-1"/>
+  <set name="operateType" val="OP_CHANCE"/>
+  <set name="skillType" val="BUFF"/>
+  <set name="target" val="TARGET_SELF"/>
+  <cond>
+    <and>
+      <not>
+        <target active_effect_id="5559"/>
+      </not>
+    </and>
+  </cond>
+  <for>
+    <effect count="1" name="Buff" time="5" val="0" stackOrder="1" stackType="attack_will">
+      <mul order="0x30" stat="rCrit" val="1.1"/>
+    </effect>
+  </for>
 </skill>
 <skill id="5560" levels="1" name="Archer's Will">
-  <set name="target" val="TARGET_NONE"/>
-  <set name="skillType" val="NOTDONE"/>
-  <set name="operateType" val="OP_PASSIVE"/>
+  <!-- Update by rocknow -->
+  <set name="weaponsAllowed" val="65568"/>
+  <set name="activationChance" val="5"/>
+  <set name="chanceType" val="ON_HIT"/>
   <set name="castRange" val="-1"/>
+  <set name="effectRange" val="-1"/>
+  <set name="operateType" val="OP_CHANCE"/>
+  <set name="skillType" val="BUFF"/>
+  <set name="target" val="TARGET_SELF"/>
+  <cond>
+    <and>
+      <not>
+        <target active_effect_id="5560"/>
+      </not>
+    </and>
+  </cond>
+  <for>
+    <effect count="1" name="Buff" time="5" val="0" stackOrder="1" stackType="attack_will">
+      <mul order="0x30" stat="rCrit" val="1.1"/>
+    </effect>
+  </for>
 </skill>
 <skill id="5561" levels="3" name="Seed of Revenge">
   <set name="target" val="TARGET_NONE"/>
@@ -468,22 +502,75 @@
   <set name="castRange" val="-1"/>
 </skill>
 <skill id="5567" levels="1" name="Flame Armor">
-  <set name="target" val="TARGET_NONE"/>
-  <set name="skillType" val="NOTDONE"/>
-  <set name="operateType" val="OP_PASSIVE"/>
-  <set name="castRange" val="-1"/>
+  <!-- Update by rocknow -->
+  <set name="activationChance" val="10"/>
+  <set name="castRange" val="300"/>
+  <set name="chanceType" val="ON_ATTACKED"/>
+  <set name="target" val="TARGET_ONE"/>
+  <set name="skillType" val="MDAM"/>
+  <set name="effectRange" val="1400"/>
+  <set name="power" val="50"/>
+  <set name="isDebuff" val="true"/>
+  <set name="element" val="2"/>
+  <set name="operateType" val="OP_CHANCE"/>
+  <cond>
+    <and>
+      <not>
+        <target active_effect_id="5567"/>
+      </not>
+    </and>
+  </cond>
+  <for>
+    <effect count="7" name="DamOverTime" time="1" val="100"/>
+  </for>
 </skill>
 <skill id="5568" levels="1" name="Frost Armor">
-  <set name="target" val="TARGET_NONE"/>
-  <set name="skillType" val="NOTDONE"/>
-  <set name="operateType" val="OP_PASSIVE"/>
-  <set name="castRange" val="-1"/>
+  <!-- Update by rocknow -->
+  <set name="activationChance" val="10"/>
+  <set name="castRange" val="900"/>
+  <set name="chanceType" val="ON_ATTACKED"/>
+  <set name="target" val="TARGET_ONE"/>
+  <set name="skillType" val="DEBUFF"/>
+  <set name="effectRange" val="1400"/>
+  <set name="power" val="50"/>
+  <set name="isDebuff" val="true"/>
+  <set name="operateType" val="OP_CHANCE"/>
+  <cond>
+    <and>
+      <not>
+        <target active_effect_id="5568"/>
+      </not>
+    </and>
+  </cond>
+  <for>
+    <effect count="1" name="Debuff" time="10" val="0">
+      <mul order="0x30" stat="runSpd" val="0.9"/>
+    </effect>
+  </for>
 </skill>
 <skill id="5569" levels="1" name="Hurricane Armor">
-  <set name="target" val="TARGET_NONE"/>
-  <set name="skillType" val="NOTDONE"/>
-  <set name="operateType" val="OP_PASSIVE"/>
-  <set name="castRange" val="-1"/>
+  <!-- Update by rocknow -->
+  <set name="activationChance" val="10"/>
+  <set name="castRange" val="900"/>
+  <set name="chanceType" val="ON_ATTACKED"/>
+  <set name="target" val="TARGET_ONE"/>
+  <set name="skillType" val="DEBUFF"/>
+  <set name="effectRange" val="1400"/>
+  <set name="power" val="50"/>
+  <set name="isDebuff" val="true"/>
+  <set name="operateType" val="OP_CHANCE"/>
+  <cond>
+    <and>
+      <not>
+        <target active_effect_id="5569"/>
+      </not>
+    </and>
+  </cond>
+  <for>
+    <effect count="1" name="Debuff" time="10" val="0">
+      <mul order="0x30" stat="pAtkSpd" val="0.7"/>
+    </effect>
+  </for>
 </skill>
 <skill id="5570" levels="1" name="Excessive Royalty">
   <set name="target" val="TARGET_NONE"/>
@@ -700,10 +787,28 @@
   <set name="castRange" val="-1"/>
 </skill>
 <skill id="5592" levels="1" name="Lightning Barrier">
-  <set name="target" val="TARGET_NONE"/>
-  <set name="skillType" val="NOTDONE"/>
-  <set name="operateType" val="OP_PASSIVE"/>
-  <set name="castRange" val="-1"/>
+  <!-- Update by rocknow -->
+  <set name="activationChance" val="10"/>
+  <set name="castRange" val="900"/>
+  <set name="chanceType" val="ON_ATTACKED"/>
+  <set name="effectRange" val="1400"/>
+  <set name="operateType" val="OP_CHANCE"/>
+  <set name="power" val="30"/>
+  <set name="isMagic" val="false"/>
+  <set name="isDebuff" val="true"/>
+  <set name="lvlDepend" val="1"/>
+  <set name="skillType" val="PARALYZE"/>
+  <set name="target" val="TARGET_ONE"/>
+  <cond>
+    <and>
+      <not>
+        <target active_effect_id="5592"/>
+      </not>
+    </and>
+  </cond>
+  <for>
+    <effect count="1" name="Paralyze" time="5" val="0"/>
+  </for>
 </skill>
 <skill id="5593" levels="1" name="Vampiric Mana Burn">
   <set name="target" val="TARGET_NONE"/>

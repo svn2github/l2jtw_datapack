@@ -1014,10 +1014,23 @@
   <set name="castRange" val="-1"/>
 </skill>
 <skill id="5698" levels="7" name="Bless the Blood">
-  <set name="target" val="TARGET_NONE"/>
-  <set name="skillType" val="NOTDONE"/>
-  <set name="operateType" val="OP_PASSIVE"/>
+  <table name="#hp"> 12 15 18 23 27 31 35 </table>
+  <table name="#level"> 1 2 3 4 5 6 7 </table>
+  <set name="activationChance" val="10"/>
+  <set name="chanceType" val="ON_ATTACKED"/>
   <set name="castRange" val="-1"/>
+  <set name="effectRange" val="-1"/>
+  <set name="target" val="TARGET_SELF"/>
+  <set name="skillType" val="HOT"/>
+  <set name="operateType" val="OP_CHANCE"/>
+  <set name="skillRadius" val="1000"/>
+  <set name="bestowed" val="true"/>
+  <cond>
+    <target active_effect_id="1531"/>
+  </cond>
+  <for>
+    <effect count="5" name="HealOverTime" time="1" val="#hp" stackOrder="#level" stackType="bless_blood" noicon="1"/>
+  </for>
 </skill>
 <skill id="5699" levels="7" name="Decrease P. Def">
   <set name="target" val="TARGET_NONE"/>

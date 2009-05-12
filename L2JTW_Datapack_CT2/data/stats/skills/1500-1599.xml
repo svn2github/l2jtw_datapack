@@ -317,8 +317,9 @@
   <set name="target" val="TARGET_SELF"/>
   <set name="triggeredId" val="5592"/>
   <set name="triggeredLevel" val="1"/>
+  <set name="bestowTriggered" val="true"/>
   <for>
-    <effect count="1" name="BestowSkill" time="60" val="0"/>
+    <effect count="1" name="Buff" time="1200" val="0"/>
   </for>
 </skill>
 <skill id="1516" levels="1" name="Soul Strike">

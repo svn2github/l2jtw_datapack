@@ -1716,8 +1716,8 @@
   <set name="triggeredLevel" val="1"/>
   <for>
     <effect count="1" name="BestowSkill" time="60" noicon="1" val="0"/>
-    <effect count="1" name="Buff" time="120" val="0" stackOrder="1">
-      <mul order="0x30" stat="fireVuln" val="0.85"/>
+    <effect count="1" name="Buff" time="1200" val="0" stackOrder="1">
+      <mul order="0x30" stat="fireVuln" val="0.90"/>
     </effect>
   </for>
 </skill>
@@ -1736,8 +1736,8 @@
   <set name="triggeredLevel" val="1"/>
   <for>
     <effect count="1" name="BestowSkill" time="60" noicon="1" val="0"/>
-    <effect count="1" name="Buff" time="120" val="0" stackOrder="1">
-      <mul order="0x30" stat="waterVuln" val="0.85"/>
+    <effect count="1" name="Buff" time="1200" val="0" stackOrder="1">
+      <mul order="0x30" stat="waterVuln" val="0.90"/>
     </effect>
   </for>
 </skill>
@@ -1756,8 +1756,8 @@
   <set name="triggeredLevel" val="1"/>
   <for>
     <effect count="1" name="BestowSkill" time="60" noicon="1" val="0"/>
-    <effect count="1" name="Buff" time="120" val="0" stackOrder="1">
-      <mul order="0x30" stat="windVuln" val="0.85"/>
+    <effect count="1" name="Buff" time="1200" val="0" stackOrder="1">
+      <mul order="0x30" stat="windVuln" val="0.90"/>
     </effect>
   </for>
 </skill>
