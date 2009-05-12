@@ -28,7 +28,7 @@ public class SummonMinions extends L2AttackableAIScript
 {
 	private static int HasSpawned;
 	private static FastSet<Integer> myTrackingSet = new FastSet<Integer>(); //Used to track instances of npcs
-	private FastMap<Integer, FastList<L2PcInstance>> _attackersList = new FastMap<Integer, FastList<L2PcInstance>>();
+	private FastMap<Integer, FastList<L2PcInstance>> _attackersList = new FastMap<Integer, FastList<L2PcInstance>>().setShared(true);
 	private static final FastMap<Integer, Integer[]> MINIONS = new FastMap<Integer, Integer[]>();
 	
 	static
@@ -57,11 +57,12 @@ public class SummonMinions extends L2AttackableAIScript
 		super(questId, name, descr);
 		int[] temp =
 		{
-			20767,  21524, 21531, 21539, 22257, 22258, 22259, 22260, 22261, 22262, 22263, 22264, 22265, 22266
+			20767, 21524, 21531, 21539, 22257, 22258, 22259, 22260, 22261, 22262, 22263, 22264, 22265, 22266
 		};
-		this.registerMobs(temp);
+		registerMobs(temp);
 	}
 	
+	@Override
 	public String onAttack(L2Npc npc, L2PcInstance attacker, int damage, boolean isPet)
 	{
 		int npcId = npc.getNpcId();
@@ -81,7 +82,7 @@ public class SummonMinions extends L2AttackableAIScript
 					case 22032:
 					case 22038:
 					{
-						if (npc.getCurrentHp() < (npc.getMaxHp() / 2))
+						if (npc.getStatus().getCurrentHp() < (npc.getMaxHp() / 2))
 						{
 							HasSpawned = 0;
 							if (Rnd.get(100) < 33) //mobs that summon minions only on certain chance
@@ -111,7 +112,7 @@ public class SummonMinions extends L2AttackableAIScript
 					case 22266:
 					{
 						if (isPet)
-							attacker = ((L2PcInstance)attacker).getPet().getOwner();
+							attacker = attacker.getPet().getOwner();
 						if (attacker.getParty() != null)
 						{
 							for (L2PcInstance member : attacker.getParty().getPartyMembers())
@@ -137,7 +138,7 @@ public class SummonMinions extends L2AttackableAIScript
 							else if (!_attackersList.get(npcObjId).contains(attacker))
 								_attackersList.get(npcObjId).add(attacker);
 						}
-						if (attacker != null && ((attacker.getParty() != null && attacker.getParty().getMemberCount() > 2)||_attackersList.get(npcObjId).size() > 2)) //Just to make sure..
+						if (attacker.getParty() != null && attacker.getParty().getMemberCount() > 2 || _attackersList.get(npcObjId).size() > 2) //Just to make sure..
 						{
 							HasSpawned = 0;
 							Integer[] minions = MINIONS.get(npcId);
@@ -186,6 +187,7 @@ public class SummonMinions extends L2AttackableAIScript
 		return super.onAttack(npc, attacker, damage, isPet);
 	}
 	
+	@Override
 	public String onKill(L2Npc npc, L2PcInstance killer, boolean isPet)
 	{
 		int npcId = npc.getNpcId();
