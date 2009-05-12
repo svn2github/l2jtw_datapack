@@ -1085,6 +1085,8 @@ REPLACE INTO `armor` VALUES
 (13543,'Agathion Summon Bracelet - Collection','lbracelet','false','none',150,'wood','none',0,-1,-1,0,0,0,0,0,'false','false','true','false','8251-1;5780-1;3267-1;'),
 (13544,'Agathion Summon Bracelet - Boy Teddy Bear','lbracelet','false','none',150,'wood','none',0,-1,-1,0,0,0,0,0,'false','false','true','false','8259-1;5958-1;3267-1;'),
 (13545,'Agathion Summon Bracelet - Girl Teddy Bear','lbracelet','false','none',150,'wood','none',0,-1,-1,0,0,0,0,0,'false','false','true','false','8260-1;5959-1;3267-1;'),
+(13543,'Agathion Summon Bracelet - Collection','lbracelet','false','none',150,'wood','none',0,-1,-1,0,0,0,0,0,'false','false','true','false','8251-1;5780-1;3267-1;'),
+(14027,'Collection Agathion Summon Bracelet','lbracelet','false','none',150,'wood','none',0,-1,-1,0,0,0,0,0,'false','false','true','false','8251-1;5780-1;3267-1;'),
 (14675,'Agathion Seal Bracelet - Saerom','lbracelet','false','none',150,'wood','none',0,-1,-1,0,0,0,0,0,'false','false','true','false','8314-1;6124-1;3267-1;'),
 (20297,'Agathion Seal Bracelet - Red Sumo Wrestler','lbracelet','false','none',150,'wood','none',0,-1,-1,0,0,0,0,0,'false','false','true','false','21043-1;23049-1;3267-1;'),
 (20298,'Agathion Seal Bracelet - Red Sumo Wrestler','lbracelet','false','none',150,'wood','none',0,-1,-1,0,0,0,0,0,'false','false','true','false','21043-1;23049-1;23057-1;3267-1;'),
