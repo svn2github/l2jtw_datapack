@@ -59,10 +59,9 @@ public class SummonMinions extends L2AttackableAIScript
 		{
 			20767, 21524, 21531, 21539, 22257, 22258, 22259, 22260, 22261, 22262, 22263, 22264, 22265, 22266
 		};
-		registerMobs(temp);
+		this.registerMobs(temp);
 	}
 	
-	@Override
 	public String onAttack(L2Npc npc, L2PcInstance attacker, int damage, boolean isPet)
 	{
 		int npcId = npc.getNpcId();
@@ -82,7 +81,7 @@ public class SummonMinions extends L2AttackableAIScript
 					case 22032:
 					case 22038:
 					{
-						if (npc.getStatus().getCurrentHp() < (npc.getMaxHp() / 2))
+						if (npc.getCurrentHp() < (npc.getMaxHp() / 2))
 						{
 							HasSpawned = 0;
 							if (Rnd.get(100) < 33) //mobs that summon minions only on certain chance
@@ -112,7 +111,7 @@ public class SummonMinions extends L2AttackableAIScript
 					case 22266:
 					{
 						if (isPet)
-							attacker = attacker.getPet().getOwner();
+							attacker = ((L2PcInstance)attacker).getPet().getOwner();
 						if (attacker.getParty() != null)
 						{
 							for (L2PcInstance member : attacker.getParty().getPartyMembers())
@@ -138,7 +137,7 @@ public class SummonMinions extends L2AttackableAIScript
 							else if (!_attackersList.get(npcObjId).contains(attacker))
 								_attackersList.get(npcObjId).add(attacker);
 						}
-						if (attacker.getParty() != null && attacker.getParty().getMemberCount() > 2 || _attackersList.get(npcObjId).size() > 2) //Just to make sure..
+						if (attacker != null && ((attacker.getParty() != null && attacker.getParty().getMemberCount() > 2)||_attackersList.get(npcObjId).size() > 2)) //Just to make sure..
 						{
 							HasSpawned = 0;
 							Integer[] minions = MINIONS.get(npcId);
@@ -184,10 +183,13 @@ public class SummonMinions extends L2AttackableAIScript
 				}
 			}
 		}
+		if (_attackersList.get(npcObjId) != null)
+		{
+			_attackersList.get(npcObjId).clear();
+		}
 		return super.onAttack(npc, attacker, damage, isPet);
 	}
 	
-	@Override
 	public String onKill(L2Npc npc, L2PcInstance killer, boolean isPet)
 	{
 		int npcId = npc.getNpcId();
@@ -196,10 +198,7 @@ public class SummonMinions extends L2AttackableAIScript
 		{
 			myTrackingSet.remove(npcObjId);
 		}
-		if (_attackersList.get(npcObjId) != null)
-		{
-			_attackersList.get(npcObjId).clear();
-		}
+
 		return super.onKill(npc, killer, isPet);
 	}
 	
