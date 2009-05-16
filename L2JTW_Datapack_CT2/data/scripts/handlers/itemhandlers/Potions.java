@@ -68,7 +68,9 @@ public class Potions implements IItemHandler
 		// CT2 herbs
 		10655, 10656, 10657,
 		//bottls of souls
-		10409,10410,10411,10412
+		10409,10410,10411,10412,
+		//Healing medicine for Mana plus Fresh and Sweet Fruit Cocktail by harial
+		22038, 20393, 20394
 	};
 	
 	/**
@@ -510,6 +512,29 @@ public class Potions implements IItemHandler
 				break;
 			case 4679: //Add Bless of Eva by rocknow
 				res = usePotion(playable, 2076, 1);
+				break;
+			case 22038: // Healing medicine for Mana by harial
+				res = usePotion(playable, 26030, 1);// Healing medicine for Mana
+				break;
+			case 20393: // Sweet Fruit Cocktail by harial
+				res = usePotion(playable, 22056, 1);// Wind Walk
+				res = usePotion(playable, 22057, 1);// Haste
+				res = usePotion(playable, 22064, 1);// Vampiric Rage
+				res = usePotion(playable, 22058, 1);// Might
+				res = usePotion(playable, 22059, 1);// Shield
+				res = usePotion(playable, 22060, 1);// Death Whisper
+				res = usePotion(playable, 22061, 1);// Guidance
+				res = usePotion(playable, 22065, 1);// Bless the Body
+				break;
+			case 20394: // Fresh Fruit Cocktail by harial
+				res = usePotion(playable, 22066, 1);// Berserker Spirit
+				res = usePotion(playable, 22067, 1);// Magic Barrier
+				res = usePotion(playable, 22068, 1);// Bless the Soul
+				res = usePotion(playable, 22062, 1);// Empower
+				res = usePotion(playable, 22063, 1);// Grater Acumen
+				res = usePotion(playable, 22069, 1);// Clarity
+				res = usePotion(playable, 22065, 1);// Bless the Body
+				res = usePotion(playable, 22070, 1);// Wild Magic
 				break;
 			
 			// Juices

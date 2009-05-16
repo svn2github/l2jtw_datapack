@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<list>
+<skill id="26030" levels="1" name="Healing medicine for Mana">
+  <!-- Done by Harial -->
+  <set name="power" val="500"/>
+  <set name="target" val="TARGET_SELF"/>
+  <set name="skillType" val="MANAHEAL"/>
+  <set name="operateType" val="OP_ACTIVE"/>
+  <set name="isPotion" val="true"/>
+  <cond msgId="113">
+    <player flyMounted="False"/>
+  </cond>
+</skill>
+</list>

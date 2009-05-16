@@ -217,4 +217,232 @@
   <set name="operateType" val="OP_PASSIVE"/>
   <set name="castRange" val="-1"/>
 </skill>
+<skill id="22056" levels="1" name="Wind Walk">
+  <set name="target" val="TARGET_SELF"/>
+  <set name="skillType" val="BUFF"/>
+  <set name="operateType" val="OP_ACTIVE"/>
+  <set name="isPotion" val="true"/>
+  <set name="buffDuration" val="3600000"/>
+  <cond msgId="113">
+    <player flyMounted="False"/>
+  </cond>
+  <for>
+    <effect name="Buff" time="3600" val="0" stackOrder="33" stackType="speed_up">
+      <add order="0x40" stat="runSpd" val="33"/>
+    </effect>
+  </for>
+</skill>
+<skill id="22057" levels="1" name="Haste">
+  <set name="target" val="TARGET_SELF"/>
+  <set name="skillType" val="BUFF"/>
+  <set name="operateType" val="OP_ACTIVE"/>
+  <set name="isPotion" val="true"/>
+  <set name="buffDuration" val="3600000"/>
+  <cond msgId="113">
+    <player flyMounted="False"/>
+  </cond>
+  <for>
+    <effect name="Buff" time="3600" val="0" stackOrder="1.33" stackType="attack_time_down">
+      <mul order="0x30" stat="pAtkSpd" val="1.33"/>
+    </effect>
+  </for>
+</skill>
+<skill id="22058" levels="1" name="Might">
+  <set name="target" val="TARGET_SELF"/>
+  <set name="skillType" val="BUFF"/>
+  <set name="operateType" val="OP_ACTIVE"/>
+  <set name="isPotion" val="true"/>
+  <set name="buffDuration" val="3600000"/>
+  <cond msgId="113">
+    <player flyMounted="False"/>
+  </cond>
+  <for>
+    <effect name="Buff" time="3600" val="0" stackOrder="1.15" stackType="pa_up">
+      <mul order="0x30" stat="pAtk" val="1.15"/>
+    </effect>
+  </for>
+</skill>
+<skill id="22059" levels="1" name="Shield">
+  <set name="target" val="TARGET_SELF"/>
+  <set name="skillType" val="BUFF"/>
+  <set name="operateType" val="OP_ACTIVE"/>
+  <set name="isPotion" val="true"/>
+  <set name="buffDuration" val="3600000"/>
+  <cond msgId="113">
+    <player flyMounted="False"/>
+  </cond>
+  <for>
+    <effect name="Buff" time="3600" val="0" stackOrder="1.15" stackType="pd_up">
+      <mul order="0x30" stat="pDef" val="1.15"/>
+    </effect>
+  </for>
+</skill>
+<skill id="22060" levels="1" name="Death Whisper">
+  <set name="target" val="TARGET_SELF"/>
+  <set name="skillType" val="BUFF"/>
+  <set name="operateType" val="OP_ACTIVE"/>
+  <set name="isPotion" val="true"/>
+  <set name="buffDuration" val="3600000"/>
+  <cond msgId="113">
+    <player flyMounted="False"/>
+  </cond>
+  <for>
+    <effect name="Buff" time="3600" val="0" stackOrder="1.35" stackType="critical_dmg_up">
+      <mul order="0x30" stat="cAtk" val="1.35"/>
+    </effect>
+  </for>
+</skill>
+<skill id="22061" levels="1" name="Guidance">
+  <set name="target" val="TARGET_SELF"/>
+  <set name="skillType" val="BUFF"/>
+  <set name="operateType" val="OP_ACTIVE"/>
+  <set name="isPotion" val="true"/>
+  <set name="buffDuration" val="3600000"/>
+  <cond msgId="113">
+    <player flyMounted="False"/>
+  </cond>
+  <for>
+    <effect name="Buff" time="3600" val="0" stackOrder="4" stackType="hit_up">
+      <add order="0x40" stat="accCombat" val="4"/>
+    </effect>
+  </for>
+</skill>
+<skill id="22062" levels="1" name="Empower">
+  <set name="target" val="TARGET_SELF"/>
+  <set name="skillType" val="BUFF"/>
+  <set name="operateType" val="OP_ACTIVE"/>
+  <set name="isPotion" val="true"/>
+  <set name="buffDuration" val="3600000"/>
+  <cond msgId="113">
+    <player flyMounted="False"/>
+  </cond>
+  <for>
+    <effect name="Buff" time="3600" val="0" stackOrder="1.75" stackType="ma_up">
+      <mul order="0x30" stat="mAtk" val="1.75"/>
+    </effect>
+  </for>
+</skill>
+<skill id="22063" levels="1" name="Grater Acumen">
+  <set name="target" val="TARGET_SELF"/>
+  <set name="skillType" val="BUFF"/>
+  <set name="operateType" val="OP_ACTIVE"/>
+  <set name="isPotion" val="true"/>
+  <set name="buffDuration" val="3600000"/>
+  <cond msgId="113">
+    <player flyMounted="False"/>
+  </cond>
+  <for>
+    <effect name="Buff" time="3600" val="0" stackOrder="1.3" stackType="casting_time_down">
+      <mul order="0x30" stat="mAtkSpd" val="1.3"/>
+    </effect>
+  </for>
+</skill>
+<skill id="22064" levels="1" name="Vampiric Rage">
+  <set name="target" val="TARGET_SELF"/>
+  <set name="skillType" val="BUFF"/>
+  <set name="operateType" val="OP_ACTIVE"/>
+  <set name="isPotion" val="true"/>
+  <set name="buffDuration" val="3600000"/>
+  <cond msgId="113">
+    <player flyMounted="False"/>
+  </cond>
+  <for>
+    <effect name="Buff" time="3600" val="0" stackOrder="9" stackType="vampRage">
+      <add order="0x40" stat="absorbDam" val="9"/> <!-- absorb 9% HP from damage inflicted on enemies on LV4-->
+    </effect>
+  </for>
+</skill>
+<skill id="22065" levels="1" name="Bless the Body">
+  <set name="target" val="TARGET_SELF"/>
+  <set name="skillType" val="BUFF"/>
+  <set name="operateType" val="OP_ACTIVE"/>
+  <set name="isPotion" val="true"/>
+  <set name="buffDuration" val="3600000"/>
+  <cond msgId="113">
+    <player flyMounted="False"/>
+  </cond>
+  <for>
+    <effect name="Buff" time="3600" val="0" stackOrder="1.35" stackType="max_hp_up">
+      <mul order="0x30" stat="maxHp" val="1.35"/>
+    </effect>
+  </for>
+</skill>
+<skill id="22066" levels="1" name="Berserker Spirit">
+  <set name="target" val="TARGET_SELF"/>
+  <set name="skillType" val="BUFF"/>
+  <set name="operateType" val="OP_ACTIVE"/>
+  <set name="isPotion" val="true"/>
+  <set name="buffDuration" val="3600000"/>
+  <cond msgId="113">
+    <player flyMounted="False"/>
+  </cond>
+  <for>
+    <effect name="Buff" time="3600" val="0" stackOrder="1" stackType="berserk">
+      <mul order="0x30" stat="mAtk" val="1.16"/>
+      <mul order="0x30" stat="pAtk" val="1.08"/>
+      <mul order="0x30" stat="mDef" val="0.84"/>
+      <mul order="0x30" stat="pDef" val="0.92"/>
+      <mul order="0x30" stat="mAtkSpd" val="1.08"/>
+      <mul order="0x30" stat="pAtkSpd" val="1.08"/>
+      <add order="0x40" stat="runSpd" val="8"/>
+      <sub order="0x40" stat="rEvas" val="4"/>
+    </effect>
+  </for>
+</skill>
+<skill id="22067" levels="1" name="Magic Barrier">
+  <set name="target" val="TARGET_SELF"/>
+  <set name="skillType" val="BUFF"/>
+  <set name="operateType" val="OP_ACTIVE"/>
+  <set name="isPotion" val="true"/>
+  <set name="buffDuration" val="3600000"/>
+  <cond msgId="113">
+    <player flyMounted="False"/>
+  </cond>
+  <for>
+    <effect name="Buff" time="3600" val="0" stackOrder="1.3" stackType="MagicDefUp">
+      <mul order="0x30" stat="mDef" val="1.3"/>
+    </effect>
+  </for>
+</skill>
+<skill id="22068" levels="1" name="Bless the Soul">
+  <set name="target" val="TARGET_SELF"/>
+  <set name="skillType" val="BUFF"/>
+  <set name="operateType" val="OP_ACTIVE"/>
+  <set name="isPotion" val="true"/>
+  <set name="buffDuration" val="3600000"/>
+  <cond msgId="113">
+    <player flyMounted="False"/>
+  </cond>
+  <for>
+    <effect name="Buff" time="3600" val="0" stackOrder="1.35" stackType="max_mp_up">
+      <mul order="0x30" stat="maxMp" val="1.35"/>
+    </effect>
+  </for>
+</skill>
+<skill id="22069" levels="1" name="Clarity">
+  <set name="target" val="TARGET_SELF"/>
+  <set name="skillType" val="BUFF"/>
+  <set name="operateType" val="OP_ACTIVE"/>
+  <set name="isPotion" val="true"/>
+  <set name="buffDuration" val="3600000"/>
+  <for>
+    <effect name="Buff" time="3600" val="0" stackOrder="2" stackType="MPrate">
+      <mul order="0x30" stat="MagicalMpConsumeRate" val="0.9"/>
+      <mul order="0x30" stat="PhysicalMpConsumeRate" val="0.8"/>
+      <mul order="0x30" stat="DanceMpConsumeRate" val="0.8"/>
+    </effect>
+  </for>
+</skill>
+<skill id="22070" levels="1" name="Wild Magic">
+  <set name="target" val="TARGET_SELF"/>
+  <set name="skillType" val="BUFF"/>
+  <set name="operateType" val="OP_ACTIVE"/>
+  <set name="isPotion" val="true"/>
+  <set name="buffDuration" val="3600000"/>
+  <for>
+    <effect name="Buff" time="3600" val="0" stackOrder="1.4" stackType="magic_critical_up">
+      <add order="0x40" stat="mCritRate" val="1.4"/>
+    </effect>
+  </for>
+</skill>
 </list>
