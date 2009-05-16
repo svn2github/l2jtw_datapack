@@ -2,7 +2,7 @@
 <list>
 <skill id="26030" levels="1" name="Healing medicine for Mana">
   <!-- Done by Harial -->
-  <set name="power" val="500"/>
+  <set name="power" val="100"/>
   <set name="target" val="TARGET_SELF"/>
   <set name="skillType" val="MANAHEAL"/>
   <set name="operateType" val="OP_ACTIVE"/>
