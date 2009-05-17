@@ -1,6 +1,3 @@
--- ---------------------------
--- Table structure for castle
--- ---------------------------
 CREATE TABLE IF NOT EXISTS `castle` (
   `id` INT NOT NULL default 0,
   `name` varchar(25) NOT NULL,
@@ -12,7 +9,7 @@ CREATE TABLE IF NOT EXISTS `castle` (
   PRIMARY KEY (`id`)
 );
 
-INSERT IGNORE INTO `castle` VALUES 
+INSERT IGNORE INTO `castle` VALUES
 (1,'Gludio',0,0,978782400000,'true',0),
 (2,'Dion',0,0,978782400000,'true',0),
 (3,'Giran',0,0,979459200000,'true',0),

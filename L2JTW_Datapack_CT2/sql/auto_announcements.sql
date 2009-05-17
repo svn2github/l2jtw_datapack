@@ -1,8 +1,5 @@
 Set Names utf8;
--- ----------------------------
--- Table structure for auto_announcements
--- ----------------------------
-DROP TABLE IF EXISTS `autoannouncements`;
+
 DROP TABLE IF EXISTS `auto_announcements`;
 CREATE TABLE `auto_announcements` (
   `id` INT(11) NOT NULL,
