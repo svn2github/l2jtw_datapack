@@ -4,7 +4,7 @@ REM ## L2JDP Database Installer - (by DrLecter) ##
 REM ##############################################
 REM ## Interactive script setup -  (by TanelTM) ##
 REM ##############################################
-REM Copyright (C) 2008 L2J DataPack
+REM Copyright (C) 2009 L2J DataPack
 REM This program is free software; you can redistribute it and/or modify 
 REM it under the terms of the GNU General Public License as published by 
 REM the Free Software Foundation; either version 2 of the License, or (at
@@ -59,7 +59,7 @@ echo.
 echo (3) 導入全新的資料：所有舊的資料將會移除並且導入新的資料
 echo.
 echo (4) 查看存取的設定值
-
+echo.
 echo (5) 退出
 echo.
 set /P upgrade_mode="輸入數字後，請按 Enter（預設值為「%upgrade_mode%」）: "
@@ -203,7 +203,7 @@ echo set logdir=%logdir%>> %config_file%
 echo set backup=%backup%>> %config_file%
 echo.
 echo 設定成功！
-echo 你的設定值將會儲存在「%config_file%」，所有的帳號密碼將以明碼顯示
+echo 你的設定值將會儲存在「%config_file%」，所有的帳號密碼將以明文顯示
 echo.
 echo 請按任意鍵繼續 . . .
 pause> nul
@@ -496,15 +496,22 @@ set dest=gs
 for %%i in (
 access_levels.sql
 admin_command_access_rights.sql
+auction.sql
+castle.sql
+clanhall.sql
+fort.sql
+forums.sql
+grandboss_data.sql
+npc_buffer.sql
+seven_signs_festival.sql
+seven_signs_status.sql
 armor.sql
 armorsets.sql
-auction.sql
 auction_bid.sql
 auction_watch.sql
 auto_announcements.sql
 auto_chat.sql
 auto_chat_text.sql
-castle.sql
 castle_door.sql
 castle_doorupgrade.sql
 castle_functions.sql
@@ -516,6 +523,7 @@ char_templates.sql
 character_friends.sql
 character_hennas.sql
 character_macroses.sql
+character_quest_global_data.sql
 character_quests.sql
 character_raid_points.sql
 character_recipebook.sql
@@ -531,7 +539,7 @@ clan_privs.sql
 clan_skills.sql
 clan_subpledges.sql
 clan_wars.sql
-clanhall.sql
+clan_notices.sql
 clanhall_functions.sql
 class_list.sql
 cursed_weapons.sql
@@ -546,13 +554,10 @@ fort_functions.sql
 fort_siege_guards.sql
 fort_spawnlist.sql
 fort_staticobjects.sql
-fort.sql
 fortsiege_clans.sql
-forums.sql
 four_sepulchers_spawnlist.sql
 games.sql
 global_tasks.sql
-grandboss_data.sql
 grandboss_list.sql
 helper_buff_list.sql
 henna.sql
@@ -571,7 +576,6 @@ merchant_shopids.sql
 merchants.sql
 minions.sql
 npc.sql
-npc_buffer.sql
 npcskills.sql
 olympiad_nobles.sql
 olympiad_nobles_eom.sql
@@ -585,13 +589,13 @@ raidboss_spawnlist.sql
 random_spawn.sql
 random_spawn_loc.sql
 seven_signs.sql
-seven_signs_festival.sql
-seven_signs_status.sql
 siege_clans.sql
 skill_learn.sql
+skill_residential.sql
 skill_spellbooks.sql
 skill_trees.sql
 spawnlist.sql
+special_skill_trees.sql
 teleport.sql
 topic.sql
 transform_skill_trees.sql
@@ -668,7 +672,7 @@ echo 檔案為「%output%」
 echo.
 echo 如果此檔案已存在，請進行備份，否則將會覆蓋過去
 echo.
-echo 請按任意鍵開始進行
+echo 請按任意鍵開始進行 . . .
 pause>NUL
 set cmdline="%mysqlPath%" -h %gshost% -u %gsuser% --password=%gspass% -D %gsdb% ^<..\sql\%1 2^>^>"%output%"
 date /t >"%output%"
@@ -691,9 +695,9 @@ echo 安裝 auto_chat_text_tw.sql
 echo 完成...
 echo.
 echo ☆注意：部分系統安裝中文化會失敗，導致遊戲中出現亂碼
-echo 　　　　如果遇到這種情形，請再手動導入SQL裡面的
+echo 　　　　如果遇到這種情形，請再手動導入 SQL 裡面的
 echo 　　　　auto_chat_text_tw / messagetable /
-echo 　　　　char_templates_tw / auto_announcements 這4個SQL
+echo 　　　　char_templates_tw / auto_announcements 這 4 個 SQL
 echo.
 set cstprompt=n
 set /p cstprompt=安裝 custom 自訂資料表: (y) 確定 或 (N) 取消 或 (q) 退出？（預設值-取消）:
