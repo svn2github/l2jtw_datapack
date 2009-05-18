@@ -29,7 +29,7 @@ class Quest (JQuest) :
     if event == "2" and st.getQuestItemsCount(ANCIENT_BOOK):
       htmltext="3.htm"
       st.playSound("ItemSound.quest_finish")
-      st.giveItems(ADENA_ID,169380)
+      st.giveItems(ADENA_ID,191678)
       st.addExpAndSp(251602,25245)
       st.takeItems(ANCIENT_BOOK,-1)
       st.exitQuest(False)
@@ -49,18 +49,14 @@ class Quest (JQuest) :
         htmltext = "0.htm"
       else:
         st.exitQuest(1)
-        htmltext = "00.htm"
+        htmltext = "00.htm" #修正
     elif id == State.STARTED:
       cond = int(st.get("cond"))
-      if npcId == MARQUEZ :
+      if npcId == ANTON :
+        htmltext = "0c.htm"
+      elif npcId == MARQUEZ :
         if cond == 1 :
-          if not st.getQuestItemsCount(ANCIENT_BOOK):
-            htmltext = "1a.htm"
-          else :
-            htmltext = "2.htm"
-      elif npcId == ANTON :
-        if cond == 1 :
-          htmltext = "1b.htm"
+           htmltext = "2.htm"
     return htmltext    
 
 QUEST=Quest(110,qn,"前往原始之島")

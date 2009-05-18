@@ -286,6 +286,12 @@ class Quest (JQuest) :
           htmltext = "30556-04.htm"
    elif npcId == 30556 and cond and st.getQuestItemsCount(TARANTULA_PIC)==1 and st.getQuestItemsCount(BEAD)>=20 :
           htmltext = "30556-05.htm"
+          st.takeItems(BEAD,st.getQuestItemsCount(BEAD))
+          st.takeItems(TARANTULA_PIC,1)
+          st.giveItems(BEAD_PARCEL,1)
+          st.set("cond","9")
+   elif npcId == 30556 and cond and st.getQuestItemsCount(BEAD_PARCEL) :
+          htmltext = "30556-06.htm"
    elif npcId == 30556 and cond and (st.getQuestItemsCount(ROUTS_TP_SCROLL) or st.getQuestItemsCount(SUCCUBUS_UNDIES)) :
           htmltext = "30556-07.htm"
    elif npcId == 30316 and cond and st.getQuestItemsCount(BEAD_PARCEL)==1 :
@@ -296,10 +302,13 @@ class Quest (JQuest) :
           htmltext = "30316-05.htm"
           st.takeItems(SUCCUBUS_UNDIES,1)
           st.giveItems(RING_OF_RAVEN,1)
-          st.giveItems(57,81900)
-          st.addExpAndSp(295862,24404)
+          isFinished = st.getGlobalQuestVar("1ClassQuestFinished")
+          if isFinished == "" : 
+            st.giveItems(57,81900)
+            st.addExpAndSp(295862,24404)
           st.set("cond","0")
           st.exitQuest(False)
+          st.saveGlobalQuestVar("1ClassQuestFinished","1")
           st.playSound("ItemSound.quest_finish")
    elif npcId == 30557 and cond and st.getQuestItemsCount(ROUTS_TP_SCROLL)==1 :
           htmltext = "30557-01.htm"
