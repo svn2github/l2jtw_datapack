@@ -1,48 +1,36 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <list>
 <skill id="21000" levels="1" name="Release Seal on Agathion - Majo">
-  <!-- Update by rocknow -->
   <set name="target" val="TARGET_SELF"/>
   <set name="skillType" val="AGATHION"/>
+  <set name="operateType" val="OP_ACTIVE"/>
   <set name="hitTime" val="3000"/>
   <set name="staticHitTime" val="true"/>
-  <set name="operateType" val="OP_ACTIVE"/>
   <set name="npcId" val="1501"/>
-  <set name="castRange" val="-1"/>
-  <set name="effectRange" val="-1"/>
 </skill>
 <skill id="21001" levels="1" name="Release Seal on Agathion - Gold Majo">
-  <!-- Update by rocknow -->
   <set name="target" val="TARGET_SELF"/>
   <set name="skillType" val="AGATHION"/>
+  <set name="operateType" val="OP_ACTIVE"/>
   <set name="hitTime" val="3000"/>
   <set name="staticHitTime" val="true"/>
-  <set name="operateType" val="OP_ACTIVE"/>
   <set name="npcId" val="1502"/>
-  <set name="castRange" val="-1"/>
-  <set name="effectRange" val="-1"/>
 </skill>
 <skill id="21002" levels="1" name="Release Seal on Agathion - Black Majo">
-  <!-- Update by rocknow -->
   <set name="target" val="TARGET_SELF"/>
   <set name="skillType" val="AGATHION"/>
+  <set name="operateType" val="OP_ACTIVE"/>
   <set name="hitTime" val="3000"/>
   <set name="staticHitTime" val="true"/>
-  <set name="operateType" val="OP_ACTIVE"/>
   <set name="npcId" val="1503"/>
-  <set name="castRange" val="-1"/>
-  <set name="effectRange" val="-1"/>
 </skill>
 <skill id="21003" levels="1" name="Release Seal on Agathion - Plaipitak">
-  <!-- Update by rocknow -->
   <set name="target" val="TARGET_SELF"/>
   <set name="skillType" val="AGATHION"/>
+  <set name="operateType" val="OP_ACTIVE"/>
   <set name="hitTime" val="3000"/>
   <set name="staticHitTime" val="true"/>
-  <set name="operateType" val="OP_ACTIVE"/>
   <set name="npcId" val="1504"/>
-  <set name="castRange" val="-1"/>
-  <set name="effectRange" val="-1"/>
 </skill>
 <skill id="21004" levels="1" name="Wind Walk">
   <!-- Update by rocknow -->
@@ -95,163 +83,134 @@
   </for>
 </skill>
 <skill id="21008" levels="1" name="Release Seal on Agathion - Baby Panda">
-  <!-- Update by rocknow -->
   <set name="target" val="TARGET_SELF"/>
   <set name="skillType" val="AGATHION"/>
+  <set name="operateType" val="OP_ACTIVE"/>
   <set name="hitTime" val="3000"/>
   <set name="staticHitTime" val="true"/>
-  <set name="operateType" val="OP_ACTIVE"/>
   <set name="npcId" val="1505"/>
-  <set name="castRange" val="-1"/>
-  <set name="effectRange" val="-1"/>
 </skill>
 <skill id="21009" levels="1" name="Release Seal on Agathion - Bamboo Panda">
-  <!-- Update by rocknow -->
   <set name="target" val="TARGET_SELF"/>
   <set name="skillType" val="AGATHION"/>
+  <set name="operateType" val="OP_ACTIVE"/>
   <set name="hitTime" val="3000"/>
   <set name="staticHitTime" val="true"/>
-  <set name="operateType" val="OP_ACTIVE"/>
   <set name="npcId" val="1506"/>
-  <set name="castRange" val="-1"/>
-  <set name="effectRange" val="-1"/>
 </skill>
 <skill id="21010" levels="1" name="Release Seal on Agathion - Sexy Panda">
-  <!-- Update by rocknow -->
   <set name="target" val="TARGET_SELF"/>
   <set name="skillType" val="AGATHION"/>
+  <set name="operateType" val="OP_ACTIVE"/>
   <set name="hitTime" val="3000"/>
   <set name="staticHitTime" val="true"/>
-  <set name="operateType" val="OP_ACTIVE"/>
   <set name="npcId" val="1507"/>
-  <set name="castRange" val="-1"/>
-  <set name="effectRange" val="-1"/>
 </skill>
 <skill id="21011" levels="1" name="Energy Recovery">
   <set name="target" val="TARGET_NONE"/>
   <set name="skillType" val="NOTDONE"/>
   <set name="operateType" val="OP_PASSIVE"/>
-  <set name="castRange" val="-1"/>
   <set name="hitTime" val="4000"/>
 </skill>
 <skill id="21012" levels="1" name="Energy Recovery">
   <set name="target" val="TARGET_NONE"/>
   <set name="skillType" val="NOTDONE"/>
   <set name="operateType" val="OP_PASSIVE"/>
-  <set name="castRange" val="-1"/>
   <set name="hitTime" val="4000"/>
 </skill>
 <skill id="21013" levels="1" name="Energy Recovery">
   <set name="target" val="TARGET_NONE"/>
   <set name="skillType" val="NOTDONE"/>
   <set name="operateType" val="OP_PASSIVE"/>
-  <set name="castRange" val="-1"/>
   <set name="hitTime" val="4000"/>
 </skill>
 <skill id="21014" levels="1" name="Scissors">
   <set name="target" val="TARGET_NONE"/>
   <set name="skillType" val="NOTDONE"/>
   <set name="operateType" val="OP_PASSIVE"/>
-  <set name="castRange" val="-1"/>
   <set name="hitTime" val="2000"/>
 </skill>
 <skill id="21015" levels="1" name="Rock">
   <set name="target" val="TARGET_NONE"/>
   <set name="skillType" val="NOTDONE"/>
   <set name="operateType" val="OP_PASSIVE"/>
-  <set name="castRange" val="-1"/>
   <set name="hitTime" val="2000"/>
 </skill>
 <skill id="21016" levels="1" name="Paper">
   <set name="target" val="TARGET_NONE"/>
   <set name="skillType" val="NOTDONE"/>
   <set name="operateType" val="OP_PASSIVE"/>
-  <set name="castRange" val="-1"/>
   <set name="hitTime" val="2000"/>
 </skill>
 <skill id="21017" levels="1" name="Holiday Dream Weapon">
   <set name="target" val="TARGET_NONE"/>
   <set name="skillType" val="NOTDONE"/>
   <set name="operateType" val="OP_PASSIVE"/>
-  <set name="castRange" val="-1"/>
 </skill>
 <skill id="21018" levels="1" name="Holiday Dream Weapon">
   <set name="target" val="TARGET_NONE"/>
   <set name="skillType" val="NOTDONE"/>
   <set name="operateType" val="OP_PASSIVE"/>
-  <set name="castRange" val="-1"/>
 </skill>
 <skill id="21019" levels="1" name="Holiday Dream Weapon">
   <set name="target" val="TARGET_NONE"/>
   <set name="skillType" val="NOTDONE"/>
   <set name="operateType" val="OP_PASSIVE"/>
-  <set name="castRange" val="-1"/>
 </skill>
 <skill id="21020" levels="1" name="Holiday Dream Weapon">
   <set name="target" val="TARGET_NONE"/>
   <set name="skillType" val="NOTDONE"/>
   <set name="operateType" val="OP_PASSIVE"/>
-  <set name="castRange" val="-1"/>
 </skill>
 <skill id="21021" levels="1" name="Holiday Dream Weapon">
   <set name="target" val="TARGET_NONE"/>
   <set name="skillType" val="NOTDONE"/>
   <set name="operateType" val="OP_PASSIVE"/>
-  <set name="castRange" val="-1"/>
 </skill>
 <skill id="21022" levels="1" name="Holiday Dream Weapon">
   <set name="target" val="TARGET_NONE"/>
   <set name="skillType" val="NOTDONE"/>
   <set name="operateType" val="OP_PASSIVE"/>
-  <set name="castRange" val="-1"/>
 </skill>
 <skill id="21023" levels="1" name="Holiday Dream Weapon">
   <set name="target" val="TARGET_NONE"/>
   <set name="skillType" val="NOTDONE"/>
   <set name="operateType" val="OP_PASSIVE"/>
-  <set name="castRange" val="-1"/>
 </skill>
 <skill id="21024" levels="1" name="Holiday Dream Weapon">
   <set name="target" val="TARGET_NONE"/>
   <set name="skillType" val="NOTDONE"/>
   <set name="operateType" val="OP_PASSIVE"/>
-  <set name="castRange" val="-1"/>
 </skill>
 <skill id="21025" levels="1" name="Holiday Dream Weapon">
   <set name="target" val="TARGET_NONE"/>
   <set name="skillType" val="NOTDONE"/>
   <set name="operateType" val="OP_PASSIVE"/>
-  <set name="castRange" val="-1"/>
 </skill>
 <skill id="21026" levels="1" name="Holiday Dream Weapon">
   <set name="target" val="TARGET_NONE"/>
   <set name="skillType" val="NOTDONE"/>
   <set name="operateType" val="OP_PASSIVE"/>
-  <set name="castRange" val="-1"/>
 </skill>
 <skill id="21027" levels="1" name="Holiday Dream Weapon">
   <set name="target" val="TARGET_NONE"/>
   <set name="skillType" val="NOTDONE"/>
   <set name="operateType" val="OP_PASSIVE"/>
-  <set name="castRange" val="-1"/>
 </skill>
 <skill id="21028" levels="1" name="Holiday Dream Weapon">
   <set name="target" val="TARGET_NONE"/>
   <set name="skillType" val="NOTDONE"/>
   <set name="operateType" val="OP_PASSIVE"/>
-  <set name="castRange" val="-1"/>
 </skill>
 <skill id="21029" levels="1" name="Holiday Dream Weapon">
   <set name="target" val="TARGET_NONE"/>
   <set name="skillType" val="NOTDONE"/>
   <set name="operateType" val="OP_PASSIVE"/>
-  <set name="castRange" val="-1"/>
 </skill>
 <skill id="21030" levels="1" name="Holiday Dream Weapon">
   <set name="target" val="TARGET_NONE"/>
   <set name="skillType" val="NOTDONE"/>
   <set name="operateType" val="OP_PASSIVE"/>
-  <set name="castRange" val="-1"/>
 </skill>
 <skill id="21031" levels="1" name="Agathion Seal Release - Charming Cupid">
   <set name="target" val="TARGET_SELF"/>
@@ -260,8 +219,6 @@
   <set name="staticHitTime" val="true"/>
   <set name="operateType" val="OP_ACTIVE"/>
   <set name="npcId" val="1508"/>
-  <set name="castRange" val="-1"/>
-  <set name="effectRange" val="-1"/>
 </skill>
 <skill id="21032" levels="1" name="Agathion Seal Release - Naughty Cupid">
   <set name="target" val="TARGET_SELF"/>
@@ -270,8 +227,6 @@
   <set name="staticHitTime" val="true"/>
   <set name="operateType" val="OP_ACTIVE"/>
   <set name="npcId" val="1509"/>
-  <set name="castRange" val="-1"/>
-  <set name="effectRange" val="-1"/>
 </skill>
   <skill id="21033" levels="1" name="Release Seal on Agathion - White Maneki Neko">
   <set name="target" val="TARGET_SELF"/>
@@ -280,8 +235,6 @@
   <set name="staticHitTime" val="true"/>
   <set name="operateType" val="OP_ACTIVE"/>
   <set name="npcId" val="1510"/>
-  <set name="castRange" val="-1"/>
-  <set name="effectRange" val="-1"/>
 </skill>
   <skill id="21034" levels="1" name="Release Seal on Agathion - Black Maneki Neko">
   <set name="target" val="TARGET_SELF"/>
@@ -290,8 +243,6 @@
   <set name="staticHitTime" val="true"/>
   <set name="operateType" val="OP_ACTIVE"/>
   <set name="npcId" val="1511"/>
-  <set name="castRange" val="-1"/>
-  <set name="effectRange" val="-1"/>
 </skill>
   <skill id="21035" levels="1" name="Release Seal on Agathion - Brown Maneki Neko">
   <set name="target" val="TARGET_SELF"/>
@@ -300,8 +251,6 @@
   <set name="staticHitTime" val="true"/>
   <set name="operateType" val="OP_ACTIVE"/>
   <set name="npcId" val="1512"/>
-  <set name="castRange" val="-1"/>
-  <set name="effectRange" val="-1"/>
 </skill>
   <skill id="21036" levels="1" name="Release Seal on Agathion - One-eyed Bat Drove">
   <set name="target" val="TARGET_SELF"/>
@@ -310,8 +259,6 @@
   <set name="staticHitTime" val="true"/>
   <set name="operateType" val="OP_ACTIVE"/>
   <set name="npcId" val="1513"/>
-  <set name="castRange" val="-1"/>
-  <set name="effectRange" val="-1"/>
 </skill>
   <skill id="21037" levels="1" name="Release Seal on Agathion - Pegasus">
   <set name="target" val="TARGET_SELF"/>
@@ -320,8 +267,6 @@
   <set name="staticHitTime" val="true"/>
   <set name="operateType" val="OP_ACTIVE"/>
   <set name="npcId" val="1514"/>
-  <set name="castRange" val="-1"/>
-  <set name="effectRange" val="-1"/>
 </skill>
   <skill id="21038" levels="1" name="Release Seal on Agathion - Yellow-robed Tojigong">
   <set name="target" val="TARGET_SELF"/>
@@ -330,8 +275,6 @@
   <set name="staticHitTime" val="true"/>
   <set name="operateType" val="OP_ACTIVE"/>
   <set name="npcId" val="1515"/>
-  <set name="castRange" val="-1"/>
-  <set name="effectRange" val="-1"/>
 </skill>
   <skill id="21039" levels="1" name="Release Seal on Agathion - Blue-robed Tojigong">
   <set name="target" val="TARGET_SELF"/>
@@ -340,8 +283,6 @@
   <set name="staticHitTime" val="true"/>
   <set name="operateType" val="OP_ACTIVE"/>
   <set name="npcId" val="1516"/>
-  <set name="castRange" val="-1"/>
-  <set name="effectRange" val="-1"/>
 </skill>
   <skill id="21040" levels="1" name="Release Seal on Agathion - Yellow-robed Tojigong">
   <set name="target" val="TARGET_SELF"/>
@@ -350,8 +291,6 @@
   <set name="staticHitTime" val="true"/>
   <set name="operateType" val="OP_ACTIVE"/>
    <set name="npcId" val="1517"/>
-  <set name="castRange" val="-1"/>
-  <set name="effectRange" val="-1"/>
 </skill>
   <skill id="21041" levels="1" name="Release Seal on Agathion - Bugbear">
   <set name="target" val="TARGET_SELF"/>
@@ -360,14 +299,11 @@
   <set name="staticHitTime" val="true"/>
   <set name="operateType" val="OP_ACTIVE"/>
   <set name="npcId" val="1518"/>
-  <set name="castRange" val="-1"/>
-  <set name="effectRange" val="-1"/>
 </skill>
 <skill id="21042" levels="1" name="Baguette's Blessing">
   <set name="target" val="TARGET_NONE"/>
   <set name="skillType" val="NOTDONE"/>
   <set name="operateType" val="OP_PASSIVE"/>
-  <set name="castRange" val="-1"/>
 </skill>
 <skill id="21043" levels="1" name="Agathion Seal Cancel - Red Sumo Wrestler">
   <!-- Update by rocknow -->
@@ -377,10 +313,8 @@
   <set name="staticHitTime" val="true"/>
   <set name="operateType" val="OP_ACTIVE"/>
   <set name="npcId" val="1519"/>
-  <set name="castRange" val="-1"/>
-  <set name="effectRange" val="-1"/>
 </skill>
-<skill id="21044" levels="1" name="Agathion Seal Cancel - Blue Sumo Wrestler Agathion">
+<skill id="21044" levels="1" name="Agathion Seal Cancel - Blue Sumo Wrestler">
   <!-- Update by rocknow -->
   <set name="target" val="TARGET_SELF"/>
   <set name="skillType" val="AGATHION"/>
@@ -388,8 +322,6 @@
   <set name="staticHitTime" val="true"/>
   <set name="operateType" val="OP_ACTIVE"/>
   <set name="npcId" val="1520"/>
-  <set name="castRange" val="-1"/>
-  <set name="effectRange" val="-1"/>
 </skill>
 <skill id="21045" levels="1" name="Agathion Seal Cancel - Great Sumo Match">
   <!-- Update by rocknow -->
@@ -399,8 +331,6 @@
   <set name="staticHitTime" val="true"/>
   <set name="operateType" val="OP_ACTIVE"/>
   <set name="npcId" val="1521"/>
-  <set name="castRange" val="-1"/>
-  <set name="effectRange" val="-1"/>
 </skill>
 <skill id="21046" levels="1" name="Agathion Seal Cancel - Button-Eyed Bear Doll">
   <!-- Update by rocknow -->
@@ -410,8 +340,6 @@
   <set name="staticHitTime" val="true"/>
   <set name="operateType" val="OP_ACTIVE"/>
   <set name="npcId" val="1522"/>
-  <set name="castRange" val="-1"/>
-  <set name="effectRange" val="-1"/>
 </skill>
 <skill id="21047" levels="1" name="Agathion Seal Cancel - God of Fortune">
   <!-- Update by rocknow -->
@@ -421,8 +349,6 @@
   <set name="staticHitTime" val="true"/>
   <set name="operateType" val="OP_ACTIVE"/>
   <set name="npcId" val="1523"/>
-  <set name="castRange" val="-1"/>
-  <set name="effectRange" val="-1"/>
 </skill>
 <skill id="21048" levels="1" name="Agathion Seal Cancel - Dryad">
   <!-- Update by rocknow -->
@@ -432,8 +358,6 @@
   <set name="staticHitTime" val="true"/>
   <set name="operateType" val="OP_ACTIVE"/>
   <set name="npcId" val="1524"/>
-  <set name="castRange" val="-1"/>
-  <set name="effectRange" val="-1"/>
 </skill>
 <skill id="21049" levels="1" name="Agathion Seal Cancel - Wonboso">
   <!-- Update by rocknow -->
@@ -443,8 +367,6 @@
   <set name="staticHitTime" val="true"/>
   <set name="operateType" val="OP_ACTIVE"/>
   <set name="npcId" val="1525"/>
-  <set name="castRange" val="-1"/>
-  <set name="effectRange" val="-1"/>
 </skill>
 <skill id="21050" levels="1" name="Agathion Seal Cancel - Daewoonso">
   <!-- Update by rocknow -->
@@ -454,7 +376,5 @@
   <set name="staticHitTime" val="true"/>
   <set name="operateType" val="OP_ACTIVE"/>
   <set name="npcId" val="1526"/>
-  <set name="castRange" val="-1"/>
-  <set name="effectRange" val="-1"/>
 </skill>
 </list>

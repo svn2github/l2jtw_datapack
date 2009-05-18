@@ -6,8 +6,6 @@
   <set name="hitTime" val="3000"/>
   <set name="staticHitTime" val="true"/>
   <set name="operateType" val="OP_ACTIVE"/>
-  <set name="castRange" val="-1"/>
-  <set name="effectRange" val="-1"/>
 </skill>
 <skill id="23001" levels="1" name="Gold Majo Agathion Cute Trick">
   <set name="target" val="TARGET_SELF"/>
@@ -15,8 +13,6 @@
   <set name="hitTime" val="3000"/>
   <set name="staticHitTime" val="true"/>
   <set name="operateType" val="OP_ACTIVE"/>
-  <set name="castRange" val="-1"/>
-  <set name="effectRange" val="-1"/>
 </skill>
 <skill id="23002" levels="1" name="Black Majo Agathion Cute Trick">
   <set name="target" val="TARGET_SELF"/>
@@ -24,8 +20,6 @@
   <set name="hitTime" val="3000"/>
   <set name="staticHitTime" val="true"/>
   <set name="operateType" val="OP_ACTIVE"/>
-  <set name="castRange" val="-1"/>
-  <set name="effectRange" val="-1"/>
 </skill>
 <skill id="23003" levels="1" name="Plaipitak Agathion Cute Trick">
   <set name="target" val="TARGET_SELF"/>
@@ -33,8 +27,6 @@
   <set name="hitTime" val="3000"/>
   <set name="staticHitTime" val="true"/>
   <set name="operateType" val="OP_ACTIVE"/>
-  <set name="castRange" val="-1"/>
-  <set name="effectRange" val="-1"/>
 </skill>
 <skill id="23004" levels="1" name="Majo Agathion Special Skill - Mysterious Power">
   <!-- Update by rocknow -->
@@ -66,8 +58,6 @@
   <set name="hitTime" val="200"/>
   <set name="reuseDelay" val="300000"/>
   <set name="staticReuse" val="true"/>
-  <set name="castRange" val="-1"/>
-  <set name="effectRange" val="-1"/>
 </skill>
 <skill id="23007" levels="1" name="Plaipitak Agathion Special Skill - Mysterious Power">
   <!-- Update by rocknow -->
@@ -88,8 +78,6 @@
   <set name="hitTime" val="200"/>
   <set name="reuseDelay" val="300000"/>
   <set name="staticReuse" val="true"/>
-  <set name="castRange" val="-1"/>
-  <set name="effectRange" val="-1"/>
 </skill>
 <skill id="23009" levels="1" name="Plaipitak Agathion Special Skill - Power of Blessed Resurrection">
   <set name="target" val="TARGET_CORPSE_PLAYER"/>
@@ -108,8 +96,6 @@
   <set name="hitTime" val="3000"/>
   <set name="staticHitTime" val="true"/>
   <set name="operateType" val="OP_ACTIVE"/>
-  <set name="castRange" val="-1"/>
-  <set name="effectRange" val="-1"/>
 </skill>
 <skill id="23011" levels="1" name="Bamboo Panda Agathion Cute Trick">
   <set name="target" val="TARGET_SELF"/>
@@ -117,8 +103,6 @@
   <set name="hitTime" val="3000"/>
   <set name="staticHitTime" val="true"/>
   <set name="operateType" val="OP_ACTIVE"/>
-  <set name="castRange" val="-1"/>
-  <set name="effectRange" val="-1"/>
 </skill>
 <skill id="23012" levels="1" name="Sexy Panda Agathion Cute Trick">
   <set name="target" val="TARGET_SELF"/>
@@ -126,8 +110,6 @@
   <set name="hitTime" val="3000"/>
   <set name="staticHitTime" val="true"/>
   <set name="operateType" val="OP_ACTIVE"/>
-  <set name="castRange" val="-1"/>
-  <set name="effectRange" val="-1"/>
 </skill>
 <skill id="23013" levels="1" name="Baby Panda Agathion Special Skill">
   <!-- Update by rocknow -->
@@ -168,55 +150,46 @@
   <set name="target" val="TARGET_NONE"/>
   <set name="skillType" val="NOTDONE"/>
   <set name="operateType" val="OP_PASSIVE"/>
-  <set name="castRange" val="-1"/>
 </skill>
 <skill id="23017" levels="1" name="Holiday Festival">
   <set name="target" val="TARGET_NONE"/>
   <set name="skillType" val="NOTDONE"/>
   <set name="operateType" val="OP_PASSIVE"/>
-  <set name="castRange" val="-1"/>
 </skill>
 <skill id="23018" levels="1" name="Thomas D. Turkey's Mistake">
   <set name="target" val="TARGET_NONE"/>
   <set name="skillType" val="NOTDONE"/>
   <set name="operateType" val="OP_PASSIVE"/>
-  <set name="castRange" val="-1"/>
 </skill>
 <skill id="23019" levels="3" name="Scissors">
   <set name="target" val="TARGET_NONE"/>
   <set name="skillType" val="NOTDONE"/>
   <set name="operateType" val="OP_PASSIVE"/>
-  <set name="castRange" val="-1"/>
 </skill>
 <skill id="23020" levels="1" name="Challenge the Turkey">
   <set name="target" val="TARGET_NONE"/>
   <set name="skillType" val="NOTDONE"/>
   <set name="operateType" val="OP_PASSIVE"/>
-  <set name="castRange" val="-1"/>
 </skill>
 <skill id="23021" levels="3" name="Turkey's Attack Scissors">
   <set name="target" val="TARGET_NONE"/>
   <set name="skillType" val="NOTDONE"/>
   <set name="operateType" val="OP_PASSIVE"/>
-  <set name="castRange" val="-1"/>
 </skill>
 <skill id="23022" levels="10" name="First Wink">
   <set name="target" val="TARGET_NONE"/>
   <set name="skillType" val="NOTDONE"/>
   <set name="operateType" val="OP_PASSIVE"/>
-  <set name="castRange" val="-1"/>
 </skill>
 <skill id="23023" levels="1" name="Reset Consecutive Wins">
   <set name="target" val="TARGET_NONE"/>
   <set name="skillType" val="NOTDONE"/>
   <set name="operateType" val="OP_PASSIVE"/>
-  <set name="castRange" val="-1"/>
 </skill>
 <skill id="23024" levels="1" name="Agathion of Love Special Skill">
   <set name="target" val="TARGET_NONE"/>
   <set name="skillType" val="NOTDONE"/>
   <set name="operateType" val="OP_PASSIVE"/>
-  <set name="castRange" val="-1"/>
 </skill>
 <skill id="23025" levels="1" name="Charming Cupid Agathion Cute Trick">
   <set name="target" val="TARGET_SELF"/>
@@ -224,8 +197,6 @@
   <set name="hitTime" val="3000"/>
   <set name="staticHitTime" val="true"/>
   <set name="operateType" val="OP_ACTIVE"/>
-  <set name="castRange" val="-1"/>
-  <set name="effectRange" val="-1"/>
 </skill>
 <skill id="23026" levels="1" name="Naughty Cupid Agathion Cute Trick">
   <set name="target" val="TARGET_SELF"/>
@@ -233,8 +204,6 @@
   <set name="hitTime" val="3000"/>
   <set name="staticHitTime" val="true"/>
   <set name="operateType" val="OP_ACTIVE"/>
-  <set name="castRange" val="-1"/>
-  <set name="effectRange" val="-1"/>
 </skill>
 <skill id="23027" levels="1" name="White Maneki Neko Agathion Cute Trick I">
   <set name="target" val="TARGET_SELF"/>
@@ -242,8 +211,6 @@
   <set name="hitTime" val="3000"/>
   <set name="staticHitTime" val="true"/>
   <set name="operateType" val="OP_ACTIVE"/>
-  <set name="castRange" val="-1"/>
-  <set name="effectRange" val="-1"/>
 </skill>
 <skill id="23028" levels="1" name="Black Maneki Neko Agathion Cute Trick I">
   <set name="target" val="TARGET_SELF"/>
@@ -251,8 +218,6 @@
   <set name="hitTime" val="3000"/>
   <set name="staticHitTime" val="true"/>
   <set name="operateType" val="OP_ACTIVE"/>
-  <set name="castRange" val="-1"/>
-  <set name="effectRange" val="-1"/>
 </skill>
 <skill id="23029" levels="1" name="Brown Maneki Neko Agathion Cute Trick I">
   <set name="target" val="TARGET_SELF"/>
@@ -260,8 +225,6 @@
   <set name="hitTime" val="3000"/>
   <set name="staticHitTime" val="true"/>
   <set name="operateType" val="OP_ACTIVE"/>
-  <set name="castRange" val="-1"/>
-  <set name="effectRange" val="-1"/>
 </skill>
 <skill id="23030" levels="1" name="White Maneki Neko Agathion Special Skill - Blessed Resurrection Ability">
   <set name="target" val="TARGET_CORPSE_PLAYER"/>
@@ -281,14 +244,11 @@
   <set name="hitTime" val="200"/>
   <set name="reuseDelay" val="300000"/>
   <set name="staticReuse" val="true"/>
-  <set name="castRange" val="-1"/>
-  <set name="effectRange" val="-1"/>
 </skill>
 <skill id="23032" levels="1" name="Brown Maneki Neko Agathion Special Skill - Vitality Recovery Ability">
   <set name="target" val="TARGET_NONE"/>
   <set name="skillType" val="NOTDONE"/>
   <set name="operateType" val="OP_PASSIVE"/>
-  <set name="castRange" val="-1"/>
 </skill>
 <skill id="23033" levels="1" name="One-Eyed Bat Drove Agathion Cute Trick">
   <set name="target" val="TARGET_SELF"/>
@@ -296,8 +256,6 @@
   <set name="hitTime" val="3000"/>
   <set name="staticHitTime" val="true"/>
   <set name="operateType" val="OP_ACTIVE"/>
-  <set name="castRange" val="-1"/>
-  <set name="effectRange" val="-1"/>
 </skill>
 <skill id="23034" levels="1" name="One-Eyed Bat Drove Agathion Special Skill - Resist Unholy Ability">
   <!-- Update by rocknow -->
@@ -310,7 +268,7 @@
   <set name="reuseDelay" val="60000"/>
   <for>
     <effect count="1" name="Buff" time="1200" val="0" stackOrder="1" stackType="DarkAtr">
-      <mul order="0x30" stat="darkVuln" val="0.7"/>
+      <add order="0x40" stat="darkRes" val="30"/>
     </effect>
   </for>
 </skill>
@@ -318,7 +276,6 @@
   <set name="target" val="TARGET_NONE"/>
   <set name="skillType" val="NOTDONE"/>
   <set name="operateType" val="OP_PASSIVE"/>
-  <set name="castRange" val="-1"/>
 </skill>
 <skill id="23036" levels="1" name="Pegasus Agathion Cute Trick">
   <set name="target" val="TARGET_SELF"/>
@@ -326,8 +283,6 @@
   <set name="hitTime" val="3000"/>
   <set name="staticHitTime" val="true"/>
   <set name="operateType" val="OP_ACTIVE"/>
-  <set name="castRange" val="-1"/>
-  <set name="effectRange" val="-1"/>
 </skill>
 <skill id="23037" levels="1" name="Pegasus Agathion Special Skill -Wind Walk Ability">
   <!-- Update by rocknow -->
@@ -351,8 +306,6 @@
   <set name="hitTime" val="200"/>
   <set name="reuseDelay" val="300000"/>
   <set name="staticReuse" val="true"/>
-  <set name="castRange" val="-1"/>
-  <set name="effectRange" val="-1"/>
 </skill>
 <skill id="23039" levels="1" name="Yellow-Robed Tojigong Agathion Cute Trick">
   <set name="target" val="TARGET_SELF"/>
@@ -360,8 +313,6 @@
   <set name="hitTime" val="3000"/>
   <set name="staticHitTime" val="true"/>
   <set name="operateType" val="OP_ACTIVE"/>
-  <set name="castRange" val="-1"/>
-  <set name="effectRange" val="-1"/>
 </skill>
 <skill id="23040" levels="1" name="Blue-Robed Tojigong Agathion Cute Trick">
   <set name="target" val="TARGET_SELF"/>
@@ -369,8 +320,6 @@
   <set name="hitTime" val="3000"/>
   <set name="staticHitTime" val="true"/>
   <set name="operateType" val="OP_ACTIVE"/>
-  <set name="castRange" val="-1"/>
-  <set name="effectRange" val="-1"/>
 </skill>
 <skill id="23041" levels="1" name="Green-Robed Tojigong Agathion Cute Trick">
   <set name="target" val="TARGET_SELF"/>
@@ -378,8 +327,6 @@
   <set name="hitTime" val="3000"/>
   <set name="staticHitTime" val="true"/>
   <set name="operateType" val="OP_ACTIVE"/>
-  <set name="castRange" val="-1"/>
-  <set name="effectRange" val="-1"/>
 </skill>
 <skill id="23042" levels="1" name="Yellow-Robed Tojigong Agathion Special Skill - Greater Heal Ability">
   <!-- Update by rocknow -->
@@ -431,8 +378,6 @@
   <set name="hitTime" val="3000"/>
   <set name="staticHitTime" val="true"/>
   <set name="operateType" val="OP_ACTIVE"/>
-  <set name="castRange" val="-1"/>
-  <set name="effectRange" val="-1"/>
 </skill>
 <skill id="23046" levels="1" name="White Maneki Neko Agathion Cute Trick II">
   <set name="target" val="TARGET_SELF"/>
@@ -440,8 +385,6 @@
   <set name="hitTime" val="3000"/>
   <set name="staticHitTime" val="true"/>
   <set name="operateType" val="OP_ACTIVE"/>
-  <set name="castRange" val="-1"/>
-  <set name="effectRange" val="-1"/>
 </skill>
 <skill id="23047" levels="1" name="Black Maneki Neko Agathion Cute Trick II">
   <set name="target" val="TARGET_SELF"/>
@@ -449,8 +392,6 @@
   <set name="hitTime" val="3000"/>
   <set name="staticHitTime" val="true"/>
   <set name="operateType" val="OP_ACTIVE"/>
-  <set name="castRange" val="-1"/>
-  <set name="effectRange" val="-1"/>
 </skill>
 <skill id="23048" levels="1" name="Brown Maneki Neko Agathion Cute Trick II">
   <set name="target" val="TARGET_SELF"/>
@@ -458,8 +399,6 @@
   <set name="hitTime" val="3000"/>
   <set name="staticHitTime" val="true"/>
   <set name="operateType" val="OP_ACTIVE"/>
-  <set name="castRange" val="-1"/>
-  <set name="effectRange" val="-1"/>
 </skill>
 <skill id="23049" levels="1" name="Red Sumo Wrestler Agathion Cute Trick">
   <!-- Update by rocknow -->

@@ -1,182 +1,202 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <list>
-<item id="14600" name="Schuttgart Dark Protection Ring">
+<item id='14600' name="Schuttgart Dark Protection Ring">
   <!-- Update by rocknow -->
   <cond msgId="1518">
     <player castle ="9"/>
   </cond>
   <for>
-    <add val="42" order="0x10" stat="mDef"/>
-    <add val="17" order="0x40" stat="maxMp"/>
-    <sub val="0.12" order="0x10" stat="darkVuln"/>
-    <enchant val="0" order="0x0C" stat="mDef"/>
+    <add val='42' order='0x10' stat='mDef'/>
+    <add val="17" order="0x40" stat="maxMp"/><!-- Update by rocknow -->
+    <add val="12" order="0x10" stat="darkRes"/><!-- Update by rocknow -->
+    <enchant val='0' order='0x0C' stat='mDef'/>
   </for>
 </item>
-<item id="14601" name="Ancient Cloak - Kamael exclusive">
+<item id='14601' name="Ancient Cloak - Kamael exclusive - Kamael Use">
   <!-- Update by rocknow -->
   <cond msgId="1518">
     <target class_id_restriction="123, 124, 125, 126, 127, 128, 129, 130, 131, 132, 133, 134, 135, 136"/>
   </cond>
   <for>
-    <add val="20" order="0x10" stat="pDef"/>
-    <sub val="0.3" order="0x10" stat="darkVuln"/>
+    <add val='20' order='0x10' stat='pDef'/>
+    <enchant val='0' order='0x0C' stat='pDef'/>
   </for>
 </item>
-<item id="14608" name="Ancient Cloak - Light Armor exclusive">
+<item id='14602' name="Ancient Cloak">
+  <for>
+    <add val='20' order='0x10' stat='pDef'/>
+    <enchant val='0' order='0x0C' stat='pDef'/>
+  </for>
+</item>
+<item id='14604' name="Red Talisman - Territory Guardian">
+  <for>
+  </for>
+</item>
+<item id='14605' name="Red Talisman - Territory Guard">
+  <for>
+  </for>
+</item>
+<item id='14608' name="Ancient Cloak - Light Armor exclusive">
   <!-- Update by rocknow -->
   <cond msgId="1518">
     <target class_id_restriction="92, 93, 101, 102, 108, 109, 134"/>
   </cond>
   <for>
-    <add val="20" order="0x10" stat="pDef"/>
-    <sub val="0.3" order="0x10" stat="darkVuln"/>
+    <add val='20' order='0x10' stat='pDef'/>
+    <enchant val='0' order='0x0C' stat='pDef'/>
   </for>
 </item>
-<item id="14609" name="Ancient Cloak - Heavy Armor exclusive">
+<item id='14609' name="Ancient Cloak - Heavy Armor exclusive">
   <!-- Update by rocknow -->
   <cond msgId="1518">
     <target class_id_restriction="88, 89, 90, 91, 99, 100, 106, 107, 113, 114, 117, 118"/>
   </cond>
   <for>
-    <add val="20" order="0x10" stat="pDef"/>
-    <sub val="0.3" order="0x10" stat="darkVuln"/>
+    <add val='20' order='0x10' stat='pDef'/>
+    <enchant val='0' order='0x0C' stat='pDef'/>
   </for>
 </item>
-<item id="14610" name="Ancient Cloak - Robe exclusive">
+<item id='14610' name="Ancient Cloak - Robe exclusive">
   <!-- Update by rocknow -->
   <cond msgId="1518">
     <target class_id_restriction="94, 95, 96, 97, 98, 103, 104, 105, 110, 111, 112, 115, 116"/>
   </cond>
   <for>
-    <add val="20" order="0x10" stat="pDef"/>
-    <sub val="0.3" order="0x10" stat="darkVuln"/>
+    <add val='20' order='0x10' stat='pDef'/>
+    <enchant val='0' order='0x0C' stat='pDef'/>
   </for>
 </item>
-<item id="14611" name="Ancient Cloak - Kamael exclusive">
-  <!-- Update by rocknow -->
+<item id='14611' name="Rudolph's Nose">
   <for>
-    <add val="0" order="0x10" stat="pDef"/>
   </for>
 </item>
-<item id="14664" name="Gludio Protection Earring">
+<item id='14613' name="Rock-Paper-Scissors Santa Hat">
+  <for>
+  </for>
+</item>
+<item id='14617' name="Agathion Seal Bracelet - Rudolph">
+  <for>
+  </for>
+</item>
+<item id='14664' name="Gludio Protection Earring">
   <!-- Update by rocknow -->
   <cond msgId="1518">
     <player castle ="1"/>
   </cond>
   <for>
-    <add val="63" order="0x10" stat="mDef"/>
-    <add val="25" order="0x40" stat="maxMp"/>
-    <sub val="0.08" order="0x10" stat="waterVuln"/>
-    <!-- <mul val="0.85" order="0x30" stat="bleedVuln"/> -->
-    <enchant val="0" order="0x0C" stat="mDef"/>
+    <add val='63' order='0x10' stat='mDef'/>
+    <add val="25" order="0x40" stat="maxMp"/><!-- Update by rocknow -->
+    <add val="8" order="0x10" stat="waterRes"/><!-- Update by rocknow -->
+    <mul val="0.85" order="0x30" stat="bleedVuln"/><!-- Update by rocknow -->
+    <enchant val='0' order='0x0C' stat='mDef'/>
   </for>
 </item>
-<item id="14665" name="Dion Protection Earring">
+<item id='14665' name="Dion Protection Earring">
   <!-- Update by rocknow -->
   <cond msgId="1518">
     <player castle ="2"/>
   </cond>
   <for>
-    <add val="63" order="0x10" stat="mDef"/>
-    <add val="25" order="0x40" stat="maxMp"/>
-    <sub val="0.08" order="0x10" stat="holyVuln"/>
-    <!-- <mul val="0.85" order="0x30" stat="poisonVuln"/> -->
-    <enchant val="0" order="0x0C" stat="mDef"/>
+    <add val='63' order='0x10' stat='mDef'/>
+    <add val="25" order="0x40" stat="maxMp"/><!-- Update by rocknow -->
+    <add val="8" order="0x10" stat="holyRes"/><!-- Update by rocknow -->
+    <mul val="0.85" order="0x30" stat="poisonVuln"/><!-- Update by rocknow -->
+    <enchant val='0' order='0x0C' stat='mDef'/>
   </for>
 </item>
-<item id="14666" name="Giran Protection Earring">
+<item id='14666' name="Giran Protection Earring">
   <!-- Update by rocknow -->
   <cond msgId="1518">
     <player castle ="3"/>
   </cond>
   <for>
-    <add val="63" order="0x10" stat="mDef"/>
-    <add val="25" order="0x40" stat="maxMp"/>
-    <sub val="0.08" order="0x10" stat="windVuln"/>
-    <!-- <mul val="0.85" order="0x30" stat="paralyzeVuln"/> -->
-    <enchant val="0" order="0x0C" stat="mDef"/>
+    <add val='63' order='0x10' stat='mDef'/>
+    <add val="25" order="0x40" stat="maxMp"/><!-- Update by rocknow -->
+    <add val="8" order="0x10" stat="windRes"/><!-- Update by rocknow -->
+    <mul val="0.85" order="0x30" stat="paralyzeVuln"/><!-- Update by rocknow -->
+    <enchant val='0' order='0x0C' stat='mDef'/>
   </for>
 </item>
-<item id="14667" name="Oren Protection Earring">
+<item id='14667' name="Oren Protection Earring">
   <!-- Update by rocknow -->
   <cond msgId="1518">
     <player castle ="4"/>
   </cond>
   <for>
-    <add val="63" order="0x10" stat="mDef"/>
-    <add val="25" order="0x40" stat="maxMp"/>
-    <sub val="0.08" order="0x10" stat="darkVuln"/>
-    <!-- <mul val="0.85" order="0x30" stat="rootVuln"/> -->
-    <enchant val="0" order="0x0C" stat="mDef"/>
+    <add val='63' order='0x10' stat='mDef'/>
+    <add val="25" order="0x40" stat="maxMp"/><!-- Update by rocknow -->
+    <add val="8" order="0x10" stat="darkRes"/><!-- Update by rocknow -->
+    <mul val="0.85" order="0x30" stat="rootVuln"/><!-- Update by rocknow -->
+    <enchant val='0' order='0x0C' stat='mDef'/>
   </for>
 </item>
-<item id="14668" name="Aden Protection Earring">
+<item id='14668' name="Aden Protection Earring">
   <!-- Update by rocknow -->
   <cond msgId="1518">
     <player castle ="5"/>
   </cond>
   <for>
-    <add val="63" order="0x10" stat="mDef"/>
-    <add val="25" order="0x40" stat="maxMp"/>
-    <sub val="0.08" order="0x10" stat="earthVuln"/>
-    <!-- <mul val="0.85" order="0x30" stat="stunVuln"/> -->
-    <enchant val="0" order="0x0C" stat="mDef"/>
+    <add val='63' order='0x10' stat='mDef'/>
+    <add val="25" order="0x40" stat="maxMp"/><!-- Update by rocknow -->
+    <add val="8" order="0x10" stat="earthRes"/><!-- Update by rocknow -->
+    <mul val="0.85" order="0x30" stat="stunVuln"/><!-- Update by rocknow -->
+    <enchant val='0' order='0x0C' stat='mDef'/>
   </for>
 </item>
-<item id="14669" name="Innadril Protection Earring">
+<item id='14669' name="Innadril Protection Earring">
   <!-- Update by rocknow -->
   <cond msgId="1518">
     <player castle ="6"/>
   </cond>
   <for>
-    <add val="63" order="0x10" stat="mDef"/>
-    <add val="25" order="0x40" stat="maxMp"/>
-    <sub val="0.08" order="0x10" stat="waterVuln"/>
-    <!-- <mul val="0.85" order="0x30" stat="stunVuln"/> -->
-    <enchant val="0" order="0x0C" stat="mDef"/>
+    <add val='63' order='0x10' stat='mDef'/>
+    <add val="25" order="0x40" stat="maxMp"/><!-- Update by rocknow -->
+    <add val="8" order="0x10" stat="waterRes"/><!-- Update by rocknow -->
+    <mul val="0.85" order="0x30" stat="stunVuln"/><!-- Update by rocknow -->
+    <enchant val='0' order='0x0C' stat='mDef'/>
   </for>
 </item>
-<item id="14670" name="Goddard Protection Earring">
+<item id='14670' name="Goddard Protection Earring">
   <!-- Update by rocknow -->
   <cond msgId="1518">
     <player castle ="7"/>
   </cond>
   <for>
-    <add val="63" order="0x10" stat="mDef"/>
-    <add val="25" order="0x40" stat="maxMp"/>
-    <sub val="0.08" order="0x10" stat="fireVuln"/>
-    <!-- <mul val="0.85" order="0x30" stat="sleepVuln"/> -->
-    <enchant val="0" order="0x0C" stat="mDef"/>
+    <add val='63' order='0x10' stat='mDef'/>
+    <add val="25" order="0x40" stat="maxMp"/><!-- Update by rocknow -->
+    <add val="8" order="0x10" stat="fireRes"/><!-- Update by rocknow -->
+    <mul val="0.85" order="0x30" stat="sleepVuln"/><!-- Update by rocknow -->
+    <enchant val='0' order='0x0C' stat='mDef'/>
   </for>
 </item>
-<item id="14671" name="Rune Protection Earring">
+<item id='14671' name="Rune Protection Earring">
   <!-- Update by rocknow -->
   <cond msgId="1518">
     <player castle ="8"/>
   </cond>
   <for>
-    <add val="63" order="0x10" stat="mDef"/>
-    <add val="25" order="0x40" stat="maxMp"/>
-    <sub val="0.08" order="0x10" stat="fireVuln"/>
-    <!-- <mul val="0.85" order="0x30" stat="rootVuln"/> -->
-    <enchant val="0" order="0x0C" stat="mDef"/>
+    <add val='63' order='0x10' stat='mDef'/>
+    <add val="25" order="0x40" stat="maxMp"/><!-- Update by rocknow -->
+    <add val="8" order="0x10" stat="fireRes"/><!-- Update by rocknow -->
+    <mul val="0.85" order="0x30" stat="rootVuln"/><!-- Update by rocknow -->
+    <enchant val='0' order='0x0C' stat='mDef'/>
   </for>
 </item>
-<item id="14672" name="Schuttgart Protection Earring">
+<item id='14672' name="Schuttgart Protection Earring">
   <!-- Update by rocknow -->
   <cond msgId="1518">
     <player castle ="9"/>
   </cond>
   <for>
-    <add val="63" order="0x10" stat="mDef"/>
-    <add val="25" order="0x40" stat="maxMp"/>
-    <sub val="0.08" order="0x10" stat="windVuln"/>
-    <!-- <mul val="0.85" order="0x30" stat="derangementVuln"/> -->
-    <enchant val="0" order="0x0C" stat="mDef"/>
+    <add val='63' order='0x10' stat='mDef'/>
+    <add val="25" order="0x40" stat="maxMp"/><!-- Update by rocknow -->
+    <add val="8" order="0x10" stat="windRes"/><!-- Update by rocknow -->
+    <mul val="0.85" order="0x30" stat="derangementVuln"/><!-- Update by rocknow -->
+    <enchant val='0' order='0x0C' stat='mDef'/>
   </for>
 </item>
-<item id="14675" name="Agathion Seal Bracelet - Saerom">
-  <!-- Update by rocknow -->
-  <for/>
+<item id='14675' name="Agathion Seal Bracelet - Saerom">
+  <for>
+  </for>
 </item>
 </list>

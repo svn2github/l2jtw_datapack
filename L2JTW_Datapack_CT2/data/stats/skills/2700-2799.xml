@@ -960,4 +960,230 @@
     <effect count="1" name="Transformation" time="1800" val="0"/>
   </for>
 </skill>
+<skill id="2780" levels="1" name="Magician's Will">
+  <set name="itemConsumeId" val="14219"/>
+  <set name="itemConsumeCount" val="1"/>
+  <set name="target" val="TARGET_SELF"/>
+  <set name="skillType" val="LEARN_SKILL"/>
+  <set name="learnSkillId" val="945"/>
+  <set name="operateType" val="OP_ACTIVE"/>
+  <set name="hitTime" val="1500"/>
+  <set name="staticHitTime" val="true"/>
+  <cond msgId="113" addName="1">
+    <and>
+      <target class_id_restriction="94, 95, 96, 97, 98, 103, 104, 105, 110, 111, 112, 115, 116"/>
+      <player level="81"/>
+    </and>
+  </cond>
+</skill>
+<skill id="2781" levels="1" name="Silent Mind">
+  <set name="itemConsumeId" val="14220"/>
+  <set name="itemConsumeCount" val="1"/>
+  <set name="target" val="TARGET_SELF"/>
+  <set name="skillType" val="LEARN_SKILL"/>
+  <set name="learnSkillId" val="946"/>
+  <set name="operateType" val="OP_ACTIVE"/>
+  <set name="hitTime" val="1500"/>
+  <set name="staticHitTime" val="true"/>
+  <cond msgId="113" addName="1">
+    <and>
+      <target class_id_restriction="92, 102, 109"/>
+      <player level="81"/>
+    </and>
+  </cond>
+</skill>
+<skill id="2782" levels="1" name="Turn Stone">
+  <set name="itemConsumeId" val="14221"/>
+  <set name="itemConsumeCount" val="1"/>
+  <set name="target" val="TARGET_SELF"/>
+  <set name="skillType" val="LEARN_SKILL"/>
+  <set name="learnSkillId" val="1540"/>
+  <set name="operateType" val="OP_ACTIVE"/>
+  <set name="hitTime" val="1500"/>
+  <set name="staticHitTime" val="true"/>
+  <cond msgId="113" addName="1">
+    <and>
+      <target class_id_restriction="97, 98, 105, 112, 115, 116"/>
+      <player level="81"/>
+    </and>
+  </cond>
+</skill>
+<skill id="2783" levels="1" name="Lucky Strike">
+  <set name="itemConsumeId" val="14222"/>
+  <set name="itemConsumeCount" val="1"/>
+  <set name="target" val="TARGET_SELF"/>
+  <set name="skillType" val="LEARN_SKILL"/>
+  <set name="learnSkillId" val="947"/>
+  <set name="operateType" val="OP_ACTIVE"/>
+  <set name="hitTime" val="1500"/>
+  <set name="staticHitTime" val="true"/>
+  <cond msgId="113" addName="1">
+    <and>
+      <target class_id_restriction="117"/>
+      <player level="83"/>
+    </and>
+  </cond>
+</skill>
+<skill id="2784" levels="1" name="Eye for Eye">
+  <set name="itemConsumeId" val="14223"/>
+  <set name="itemConsumeCount" val="1"/>
+  <set name="target" val="TARGET_SELF"/>
+  <set name="skillType" val="LEARN_SKILL"/>
+  <set name="learnSkillId" val="948"/>
+  <set name="operateType" val="OP_ACTIVE"/>
+  <set name="hitTime" val="1500"/>
+  <set name="staticHitTime" val="true"/>
+  <cond msgId="113" addName="1">
+    <and>
+      <target class_id_restriction="131"/>
+      <player level="83"/>
+    </and>
+  </cond>
+</skill>
+<skill id="2785" levels="1" name="Curse of Desparion">
+  <set name="itemConsumeId" val="14224"/>
+  <set name="itemConsumeCount" val="1"/>
+  <set name="target" val="TARGET_SELF"/>
+  <set name="skillType" val="LEARN_SKILL"/>
+  <set name="learnSkillId" val="1541"/>
+  <set name="operateType" val="OP_ACTIVE"/>
+  <set name="hitTime" val="1500"/>
+  <set name="staticHitTime" val="true"/>
+  <cond msgId="113" addName="1">
+    <and>
+      <target class_id_restriction="95"/>
+      <player level="83"/>
+    </and>
+  </cond>
+</skill>
+<skill id="2786" levels="1" name="Counter Critical">
+  <set name="itemConsumeId" val="14225"/>
+  <set name="itemConsumeCount" val="1"/>
+  <set name="target" val="TARGET_SELF"/>
+  <set name="skillType" val="LEARN_SKILL"/>
+  <set name="learnSkillId" val="1542"/>
+  <set name="operateType" val="OP_ACTIVE"/>
+  <set name="hitTime" val="1500"/>
+  <set name="staticHitTime" val="true"/>
+  <cond msgId="113" addName="1">
+    <and>
+      <target class_id_restriction="98"/>
+      <player level="83"/>
+    </and>
+  </cond>
+</skill>
+<skill id="2787" levels="1" name="Onslaught of Pa'agrio">
+  <set name="itemConsumeId" val="14226"/>
+  <set name="itemConsumeCount" val="1"/>
+  <set name="target" val="TARGET_SELF"/>
+  <set name="skillType" val="LEARN_SKILL"/>
+  <set name="learnSkillId" val="949"/>
+  <set name="operateType" val="OP_ACTIVE"/>
+  <set name="hitTime" val="1500"/>
+  <set name="staticHitTime" val="true"/>
+  <cond msgId="113" addName="1">
+    <and>
+      <target class_id_restriction="115"/>
+      <player level="83"/>
+    </and>
+  </cond>
+</skill>
+<skill id="2788" levels="1" name="Great Fury">
+  <set name="itemConsumeId" val="14227"/>
+  <set name="itemConsumeCount" val="1"/>
+  <set name="target" val="TARGET_SELF"/>
+  <set name="skillType" val="LEARN_SKILL"/>
+  <set name="learnSkillId" val="950"/>
+  <set name="operateType" val="OP_ACTIVE"/>
+  <set name="hitTime" val="1500"/>
+  <set name="staticHitTime" val="true"/>
+  <cond msgId="113" addName="1">
+    <and>
+      <target class_id_restriction="116"/>
+      <player level="83"/>
+    </and>
+  </cond>
+</skill>
+<skill id="2789" levels="1" name="Final Flying Form">
+  <set name="itemConsumeId" val="13552"/>
+  <set name="itemConsumeCount" val="1"/>
+  <set name="target" val="TARGET_SELF"/>
+  <set name="skillType" val="LEARN_SKILL"/>
+  <set name="learnSkillId" val="840"/>
+  <set name="operateType" val="OP_ACTIVE"/>
+  <set name="hitTime" val="1500"/>
+  <set name="staticHitTime" val="true"/>
+  <cond msgId="113" addName="1">
+    <and>
+       <player race="Kamael"/>
+       <player level="75"/>
+    </and>
+  </cond>
+</skill>
+<skill id="2790" levels="1" name="Aura Bird - Falcon">
+  <set name="itemConsumeId" val="13553"/>
+  <set name="itemConsumeCount" val="1"/>
+  <set name="target" val="TARGET_SELF"/>
+  <set name="skillType" val="LEARN_SKILL"/>
+  <set name="learnSkillId" val="841"/>
+  <set name="operateType" val="OP_ACTIVE"/>
+  <set name="hitTime" val="1500"/>
+  <set name="staticHitTime" val="true"/>
+  <cond msgId="113" addName="1">
+    <player level="75"/>
+  </cond>
+</skill>
+<skill id="2791" levels="1" name="Aura Bird - Owl">
+  <set name="itemConsumeId" val="13554"/>
+  <set name="itemConsumeCount" val="1"/>
+  <set name="target" val="TARGET_SELF"/>
+  <set name="skillType" val="LEARN_SKILL"/>
+  <set name="learnSkillId" val="842"/>
+  <set name="operateType" val="OP_ACTIVE"/>
+  <set name="hitTime" val="1500"/>
+  <set name="staticHitTime" val="true"/>
+  <cond msgId="113" addName="1">
+    <player level="75"/>
+  </cond>
+</skill>
+<skill id="2792" levels="2" name="Stone of Stamina">
+  <set name="target" val="TARGET_NONE"/>
+  <set name="skillType" val="NOTDONE"/>
+  <set name="operateType" val="OP_PASSIVE"/>
+</skill>
+<skill id="2793" levels="2" name="Stone of Mana">
+  <set name="target" val="TARGET_NONE"/>
+  <set name="skillType" val="NOTDONE"/>
+  <set name="operateType" val="OP_PASSIVE"/>
+</skill>
+<skill id="2794" levels="2" name="Stone of Recovery">
+  <set name="target" val="TARGET_NONE"/>
+  <set name="skillType" val="NOTDONE"/>
+  <set name="operateType" val="OP_PASSIVE"/>
+</skill>
+<skill id="2795" levels="1" name="Stone of Destruction">
+  <set name="target" val="TARGET_NONE"/>
+  <set name="skillType" val="NOTDONE"/>
+  <set name="operateType" val="OP_PASSIVE"/>
+</skill>
+<skill id="2796" levels="1" name="Stone of Invincibility">
+  <set name="target" val="TARGET_NONE"/>
+  <set name="skillType" val="NOTDONE"/>
+  <set name="operateType" val="OP_PASSIVE"/>
+</skill>
+<skill id="2797" levels="1" name="Stone of Great Speed">
+  <set name="target" val="TARGET_NONE"/>
+  <set name="skillType" val="NOTDONE"/>
+  <set name="operateType" val="OP_PASSIVE"/>
+</skill>
+<skill id="2798" levels="1" name="Stone of Speed">
+  <set name="target" val="TARGET_NONE"/>
+  <set name="skillType" val="NOTDONE"/>
+  <set name="operateType" val="OP_PASSIVE"/>
+</skill>
+<skill id="2799" levels="1" name="Stone of Concentration">
+  <set name="target" val="TARGET_NONE"/>
+  <set name="skillType" val="NOTDONE"/>
+  <set name="operateType" val="OP_PASSIVE"/>
+</skill>
 </list>
