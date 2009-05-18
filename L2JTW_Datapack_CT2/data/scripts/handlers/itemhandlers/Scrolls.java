@@ -46,7 +46,7 @@ public class Scrolls implements IItemHandler
 		9146, 9147, 9148, 9149, 9150, 9151,
 		9152, 9153, 9154, 9155, 9897, 10131,
 		10132, 10133, 10134, 10135, 10136,
-		10137, 10138, 10151, 10274, 13794, 13795, 13800, 13801, //Update by rocknow-Start
+		10137, 10138, 10151, 10274, 13844, 13794, 13795, 13800, 13801, //Update by rocknow-Start
 		13569,13570,13571,13572,13573,13574,13575,13576,13577,13578,
 		13579,13580,13581,13582,13583,13584,13585,13586,13587,13588,
 		13589,13590,13591,13592,13593,13594,13595,13596,13597,13598,
@@ -94,6 +94,11 @@ public class Scrolls implements IItemHandler
 		
 		int itemId = item.getItemId();
 		
+		if (itemId == 13844)
+		{
+			useScroll(activeChar,2630,1);
+			return;
+		}
 		if (itemId >= 8594 && itemId <= 8599) //Scrolls of recovery XML: 2286
 		{
 			if (!playable.destroyItem("Consume", item.getObjectId(), 1, null, false))

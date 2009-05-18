@@ -65,7 +65,7 @@ class Quest (JQuest) :
     return htmltext
 
 
-QUEST       = Quest(QuestId,qn,QuestDesc)
+QUEST       = Quest(-1,qn,QuestDesc)
 
 for npc in NPCS:
    QUEST.addStartNpc(npc)

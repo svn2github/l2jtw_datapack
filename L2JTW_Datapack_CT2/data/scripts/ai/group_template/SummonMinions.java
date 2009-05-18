@@ -57,7 +57,7 @@ public class SummonMinions extends L2AttackableAIScript
 		super(questId, name, descr);
 		int[] temp =
 		{
-			20767, 21524, 21531, 21539, 22257, 22258, 22259, 22260, 22261, 22262, 22263, 22264, 22265, 22266
+			20767,  21524, 21531, 21539, 22257, 22258, 22259, 22260, 22261, 22262, 22263, 22264, 22265, 22266
 		};
 		this.registerMobs(temp);
 	}
@@ -183,10 +183,6 @@ public class SummonMinions extends L2AttackableAIScript
 				}
 			}
 		}
-		if (_attackersList.get(npcObjId) != null)
-		{
-			_attackersList.get(npcObjId).clear();
-		}
 		return super.onAttack(npc, attacker, damage, isPet);
 	}
 	
@@ -198,7 +194,10 @@ public class SummonMinions extends L2AttackableAIScript
 		{
 			myTrackingSet.remove(npcObjId);
 		}
-
+		if (_attackersList.get(npcObjId) != null)
+		{
+			_attackersList.get(npcObjId).clear();
+		}
 		return super.onKill(npc, killer, isPet);
 	}
 	

@@ -19,6 +19,7 @@ import net.sf.l2j.gameserver.model.L2ItemInstance;
 import net.sf.l2j.gameserver.model.actor.L2Playable;
 import net.sf.l2j.gameserver.model.actor.instance.L2PcInstance;
 import net.sf.l2j.gameserver.network.serverpackets.SystemMessage;
+import net.sf.l2j.gameserver.network.SystemMessageId;
 
 /**
  * Teleport Bookmark Slot Handler
@@ -52,6 +53,10 @@ public class TeleportBookmark implements IItemHandler
     player.setBookMarkSlot(player.getBookMarkSlot()+3);
     
     player.sendPacket(new SystemMessage(2409));
+    
+    SystemMessage sm = new SystemMessage(SystemMessageId.S1_DISAPPEARED);
+    sm.addItemName(13015);
+    player.sendPacket(sm);
 
 	}
 	

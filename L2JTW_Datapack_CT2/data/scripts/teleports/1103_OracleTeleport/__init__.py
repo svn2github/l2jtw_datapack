@@ -66,12 +66,12 @@ class Quest (JQuest) :
           player.teleToLocation(-80217,111435,-4896)     # 修正
           return
        elif npcId in TOWN_DUSK: # 修正
-          player.teleToLocation(-81248,86582,-5152)
+          player.teleToLocation(-81248,86582,-5152)      # 修正
           return
        elif npcId in TEMPLE_PRIEST:
           if ex == 1 :          # 增加判斷黎明的陣營
              htmltext = "7.htm"
-             player.teleToLocation(-80217,111435,-4896) # 修正
+             player.teleToLocation(-80217,111435,-4896)
           elif ex == 2 :        # 增加判斷黃昏的陣營
              htmltext = "7.htm"
              player.teleToLocation(-81248,86582,-5152)
@@ -79,7 +79,7 @@ class Quest (JQuest) :
              htmltext = "oracle1.htm"
     elif event == "Dimensional":
        htmltext = "oracle.htm"
-       player.teleToLocation(-114796,-179334,-6752) # 修正
+       player.teleToLocation(-114796,-179334,-6752)      # 修正
     elif event == "5.htm" :
        id = st.getInt("id")
        if id:
@@ -151,7 +151,7 @@ class Quest (JQuest) :
           st.exitQuest(1)
           htmltext="ziggurat_lowlevel.htm"
        elif len(player.getAllActiveQuests()) > 23 :
-          htmltext="1a.htm" #temp message                 # rocknow 修正
+          htmltext="1a.htm" #temp message         # 修正
           st.exitQuest(1)
        elif not st.getQuestItemsCount(7079) :
           htmltext="ziggurat_nofrag.htm"
@@ -178,7 +178,7 @@ class Quest (JQuest) :
           htmltext="ziggurat.htm"
     return htmltext
 
-QUEST      = Quest(1103, qn, "Teleports")
+QUEST      = Quest(-1, qn, "Teleports")
 
 for i in TELEPORTERS.keys() + TEMPLE_PRIEST + range(31494,31508)+range(31095,31111)+range(31114,31126):
     QUEST.addStartNpc(i)

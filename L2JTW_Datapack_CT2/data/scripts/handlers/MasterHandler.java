@@ -138,13 +138,13 @@ public class MasterHandler
 		ItemHandler.getInstance().registerItemHandler(new MysteryPotion());
 		ItemHandler.getInstance().registerItemHandler(new EnchantAttribute());
 		ItemHandler.getInstance().registerItemHandler(new EnchantScrolls());
-		ItemHandler.getInstance().registerItemHandler(new EnergyStone());
 		ItemHandler.getInstance().registerItemHandler(new Book());
 		ItemHandler.getInstance().registerItemHandler(new Remedy());
 		ItemHandler.getInstance().registerItemHandler(new Scrolls());
 		ItemHandler.getInstance().registerItemHandler(new CrystalCarol());
 		ItemHandler.getInstance().registerItemHandler(new SoulCrystals());
 		ItemHandler.getInstance().registerItemHandler(new SevenSignsRecord());
+		ItemHandler.getInstance().registerItemHandler(new SpellbookScrolls());
 		ItemHandler.getInstance().registerItemHandler(new CharChangePotions());
 		ItemHandler.getInstance().registerItemHandler(new Firework());
 		ItemHandler.getInstance().registerItemHandler(new Seed());
@@ -191,6 +191,7 @@ public class MasterHandler
 		SkillHandler.getInstance().registerSkillHandler(new Craft());
 		SkillHandler.getInstance().registerSkillHandler(new Fishing());
 		SkillHandler.getInstance().registerSkillHandler(new FishingSkill());
+		SkillHandler.getInstance().registerSkillHandler(new LearnSkill());
 		SkillHandler.getInstance().registerSkillHandler(new BeastFeed());
 		SkillHandler.getInstance().registerSkillHandler(new DeluxeKey());
 		SkillHandler.getInstance().registerSkillHandler(new Sow());

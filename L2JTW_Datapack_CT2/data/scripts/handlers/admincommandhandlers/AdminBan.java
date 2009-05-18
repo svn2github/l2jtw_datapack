@@ -260,6 +260,8 @@ public class AdminBan implements IAdminCommandHandler {
 			}
 			if (targetPlayer != null)
 			{
+				if (targetPlayer.isFlyingMounted())
+					targetPlayer.untransform();
 				targetPlayer.setPunishLevel(L2PcInstance.PunishLevel.JAIL, duration);
 				L2CoreMessage cm =  new L2CoreMessage (MessageTable.Messages[72]);
 				cm.addString(targetPlayer.getName());

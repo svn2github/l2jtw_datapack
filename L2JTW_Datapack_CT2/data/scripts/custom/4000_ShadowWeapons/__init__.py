@@ -50,7 +50,7 @@ class Quest (JQuest) :
       htmltext="exchange-0.htm"  # н╫зя
     return htmltext
 
-QUEST       = Quest(4000,qn,"Custom")
+QUEST       = Quest(-1,qn,"Custom")
 
 for item in NPC:
    QUEST.addStartNpc(item)

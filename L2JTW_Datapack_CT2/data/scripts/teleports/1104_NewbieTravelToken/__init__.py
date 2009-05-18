@@ -1,11 +1,12 @@
 # Newbie Travel Token Teleport - by DrLecter
 import sys
 
-from net.sf.l2j.gameserver.model.actor.instance import L2PcInstance
-from net.sf.l2j.gameserver.model.quest import State
-from net.sf.l2j.gameserver.model.quest import QuestState
+from net.sf.l2j.gameserver.model.actor.instance import      L2PcInstance
+from net.sf.l2j.gameserver.model.quest        import State
+from net.sf.l2j.gameserver.model.quest        import QuestState
 from net.sf.l2j.gameserver.model.quest.jython import QuestJython as JQuest
 qn = "1104_NewbieTravelToken"
+TOKEN = 8542
 
 DATA={
 30600:[ 12160,  16554,-4583],#DE
@@ -27,8 +28,13 @@ class Quest (JQuest) :
       if dest in DATA.keys():
          x,y,z=DATA[dest]
          if x and y and z:
-            st.getPlayer().teleToLocation(x,y,z)
-            st.exitQuest(1)
+            if st.getQuestItemsCount(TOKEN):
+              st.takeItems(TOKEN,1)
+              st.getPlayer().teleToLocation(x,y,z)
+            else:
+              st.exitQuest(1)
+              return "Incorrect item count"
+   st.exitQuest(1)
    return
 
  def onTalk (Self,npc,player):
@@ -41,7 +47,7 @@ class Quest (JQuest) :
      htmltext=str(npcId)+".htm"
    return htmltext
 
-QUEST       = Quest(1104,qn,"Teleports")
+QUEST       = Quest(-1,qn,"Teleports")
 
 for i in DATA.keys() :
     QUEST.addStartNpc(i)

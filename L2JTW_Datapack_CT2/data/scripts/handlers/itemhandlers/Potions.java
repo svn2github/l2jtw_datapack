@@ -59,8 +59,6 @@ public class Potions implements IItemHandler
 		8628, 8629, 8630, 8631, 8632, 8633,
 		//elixir of cp
 		8634, 8635, 8636, 8637, 8638, 8639,
-		// Add Bless of Eva by rocknow
-		4679,
 		// Endeavor Potion
 		733,
 		// Juices
@@ -69,6 +67,10 @@ public class Potions implements IItemHandler
 		10655, 10656, 10657,
 		//bottls of souls
 		10409,10410,10411,10412,
+		// energy stone
+		5589,
+		//Add Bless of Eva by rocknow
+		4679,
 		//Healing medicine for Mana plus Fresh and Sweet Fruit Cocktail by harial
 		22038, 20393, 20394
 	};
@@ -122,7 +124,7 @@ public class Potions implements IItemHandler
 				break;
 			case 726: // custom mana drug, xml: 9007
 				if (Config.L2JMOD_ENABLE_MANA_POTIONS_SUPPORT)
-					res = usePotion(activeChar, 9007, 1);
+				res = usePotion(activeChar, 9007, 1);
 				break;
 			case 727: // _healing_potion, xml: 2032
 				if (!isEffectReplaceable(playable, L2EffectType.HEAL_OVER_TIME, itemId))
@@ -131,7 +133,7 @@ public class Potions implements IItemHandler
 				break;
 			case 728: // custom mana potion, xml: 9008
 				if (Config.L2JMOD_ENABLE_MANA_POTIONS_SUPPORT)
-					res = usePotion(activeChar, 9008, 1);
+				res = usePotion(activeChar, 9008, 1);
 				break;
 			case 733: // Endeavor Potion, xml: 2010
 				res = usePotion(playable, 2010, 1);
@@ -309,16 +311,16 @@ public class Potions implements IItemHandler
 			}
 				// VALAKAS AMULETS
 			case 6652: // Amulet Protection of Valakas
-				res = usePotion(playable, 2231, 1);
+				usePotion(playable, 2231, 1);
 				break;
 			case 6653: // Amulet Flames of Valakas
-				res = usePotion(playable, 2233, 1);
+				usePotion(playable, 2233, 1);
 				break;
 			case 6654: // Amulet Flames of Valakas
-				res = usePotion(playable, 2233, 1);
+				usePotion(playable, 2233, 1);
 				break;
 			case 6655: // Amulet Slay Valakas
-				res = usePotion(playable, 2232, 1);
+				usePotion(playable, 2232, 1);
 				break;
 			
 			// HERBS
@@ -571,6 +573,9 @@ public class Potions implements IItemHandler
 				break;
 			case 10270: // MP Consumption Juice,xml: 2439
 				res = usePotion(playable, 2439, 1);
+				break;
+			case 5589: // Energy Stone,xml: 2165
+				res = usePotion(playable, 2165, 1);
 				break;
 			default:
 		}

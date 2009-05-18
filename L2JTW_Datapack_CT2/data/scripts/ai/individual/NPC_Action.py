@@ -20,10 +20,7 @@ class NPC_Action(JQuest) :
      self.startQuestTimer("actions",1000, None, None)
      
   def onFirstTalk (self,npc,player):
-    if npc.getNpcId() == 32549 :
-       npc.showChatWindow(player,self.isCheck)
-    if npc.getNpcId() == 32169 :
-       player.sendPacket(ActionFailed.STATIC_PACKET)
+    npc.showChatWindow(player,self.isCheck)
     return None
 
   def onAdvEvent (self,event,npc,pc) :
@@ -63,4 +60,3 @@ class NPC_Action(JQuest) :
 QUEST = NPC_Action(-1, "NPC_Action", "ai")
 
 QUEST.addFirstTalkId(32549)
-QUEST.addFirstTalkId(32619)
