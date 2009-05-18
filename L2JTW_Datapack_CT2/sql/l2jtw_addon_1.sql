@@ -404,7 +404,7 @@ UPDATE `npc` SET `type` = 'L2Doormen' WHERE `id` in (35440); -- ­×¥¿NPC ID:¤¦¥§º
 UPDATE `npc` SET `type` = 'L2Npc', `collision_radius` = '9', `collision_height` = '16.5', `rhand` = '0' WHERE `id` in (35417,35418); -- ­×¥¿¦aº»¦uªù¤H
 UPDATE `spawnlist` SET `npc_templateid` = '35440' WHERE `id` = 33771; -- ­×¥¿NPC ID:¤¦¥§º¸(®Ú¾Ú¦a¦uªù¤H)
 UPDATE `raidboss_spawnlist` SET `loc_x` = '3776', `loc_y` = '-6768', `loc_z` = '-3253' WHERE `boss_id` = 25527; -- ­×¥¿¬¼Ây­º»â¯Q¾|¥dªº¦ì¸m
-Delete From `spawnlist` Where `npc_templateid` in (30880,30881,30882,30883,30884,30885,30886,30887,30888,30889,32353); -- §R°£¤£¦s¦bªºNPC
+Delete From `spawnlist` Where `npc_templateid` in (30880,30881,30882,30883,30884,30885,30886,30887,30888,30889); -- §R°£¤£¦s¦bªºNPC
 
 -- ¥[¤Jºû¥L©RºÞ²zªÌ
 Delete From spawnlist Where `npc_templateid` in (32478);

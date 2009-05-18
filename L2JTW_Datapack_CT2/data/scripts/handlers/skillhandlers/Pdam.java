@@ -18,6 +18,7 @@ import java.util.logging.Logger;
 
 import net.sf.l2j.Config;
 import net.sf.l2j.gameserver.ai.CtrlIntention;
+import net.sf.l2j.gameserver.datatables.SkillTable;
 import net.sf.l2j.gameserver.handler.ISkillHandler;
 import net.sf.l2j.gameserver.lib.Log;
 import net.sf.l2j.gameserver.model.L2Effect;
@@ -255,6 +256,28 @@ public class Pdam implements ISkillHandler
 				Formulas.calcLethalHit(activeChar, target, skill);
 			}
 			
+			if (activeChar instanceof L2PcInstance)
+			{
+				L2Skill soulmastery = SkillTable.getInstance().getInfo(467, ((L2PcInstance) activeChar).getSkillLevel(467));
+				if (soulmastery != null)
+				{
+					if (((L2PcInstance) activeChar).getSouls() < soulmastery.getNumSouls())
+					{
+						int count = 0;
+					
+						if (((L2PcInstance) activeChar).getSouls() + skill.getNumSouls() <= soulmastery.getNumSouls())
+							count = skill.getNumSouls();
+						else
+							count = soulmastery.getNumSouls() - ((L2PcInstance) activeChar).getSouls();
+						((L2PcInstance) activeChar).increaseSouls(count);
+					}
+					else
+					{
+						SystemMessage sm = new SystemMessage(SystemMessageId.SOUL_CANNOT_BE_INCREASED_ANYMORE);
+						((L2PcInstance) activeChar).sendPacket(sm);
+					}
+				}
+			}
 			//self Effect :]
 			L2Effect effect = activeChar.getFirstEffect(skill.getId());
 			if (effect != null && effect.isSelfEffect())

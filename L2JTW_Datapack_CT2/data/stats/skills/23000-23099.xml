@@ -555,6 +555,16 @@
   <set name="castRange" val="400"/>
   <set name="effectRange" val="600"/>
 </skill>
+<skill id="23063" levels="1" name="Button-Eyed Bear Doll Agathion Special Skill - Ability of Energy Recovery">
+  <set name="target" val="TARGET_NONE"/>
+  <set name="skillType" val="NOTDONE"/>
+  <set name="operateType" val="OP_PASSIVE"/>
+</skill>
+<skill id="23064" levels="1" name="God of Fortune Agathion Special Skill - Energy Recovery Ability">
+  <set name="target" val="TARGET_NONE"/>
+  <set name="skillType" val="NOTDONE"/>
+  <set name="operateType" val="OP_PASSIVE"/>
+</skill>
 <skill id="23065" levels="1" name="Wonboso Agathion Special Skill - Wind Walk Ability">
   <!-- Update by rocknow -->
   <set name="target" val="TARGET_SELF"/>
@@ -569,5 +579,10 @@
       <add order="0x40" stat="runSpd" val="33"/>
     </effect>
   </for>
+</skill>
+<skill id="23066" levels="1" name="Daewoonso Agathion Special Skill - New Year's Gift Ability">
+  <set name="target" val="TARGET_NONE"/>
+  <set name="skillType" val="NOTDONE"/>
+  <set name="operateType" val="OP_PASSIVE"/>
 </skill>
 </list>
