@@ -27,7 +27,7 @@ class Quest (JQuest):
          return MSG5
       return
 
-QUEST       = Quest(1205, qn, "Teleports")
+QUEST       = Quest(-1, qn, "Teleports")
 
 QUEST.addStartNpc(TELECUBE_S)
 QUEST.addStartNpc(TELECUBE_F)

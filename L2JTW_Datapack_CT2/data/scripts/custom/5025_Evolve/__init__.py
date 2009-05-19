@@ -1,14 +1,14 @@
 import sys
-from net.sf.l2j.gameserver.model.quest        import State
-from net.sf.l2j.gameserver.model.quest        import QuestState
+from net.sf.l2j.gameserver.model.quest	      import State
+from net.sf.l2j.gameserver.model.quest	      import QuestState
 from net.sf.l2j.gameserver.model.quest.jython import QuestJython as JQuest
 
 qn = "5025_Evolve"
 
 #Minimum pet level in order to evolve
-WOLF_MIN_LEVEL    = 55
+WOLF_MIN_LEVEL	  = 55
 GREATW_MIN_LEVEL  = 70
-BABY_MIN_LEVEL    = 55
+BABY_MIN_LEVEL	  = 55
 STRIDER_MIN_LEVEL = 55
 
 #Maximum distance allowed between pet and owner
@@ -29,9 +29,9 @@ end_msg = "<html><body><br>呼~真辛苦的工作。<br>已經將您的寵物進化，請好好欣賞您
 NPCSCH = [35440,35442,35444,35446,35448,35450,35567,35569,35571,35573,35575,35577,35579]
 
 #Items
-WOLF_COLLAR           = 2375  # 狼項鍊
+WOLF_COLLAR	      = 2375  # 狼項鍊
 GREAT_WOLF_NECK       = 9882  # 黑鬃狼項鍊
-FENRIR_NECK           = 10426 # 座狼項鍊
+FENRIR_NECK	      = 10426 # 座狼項鍊
 GREAT_SNOW_WOLF_NECK  = 10307 # 白鬃狼項鍊
 SNOW_FENRIR_NECK      = 10611 # 白座狼項鍊
 BABY_BUFFALO_PAN      = 6648  # 小野牛之笛
@@ -40,20 +40,20 @@ BABY_COUGAR_CHIME     = 6649  # 小老虎之鐘
 IMPROVED_BUFFALO_PAN  = 10311 # 改良型野牛之笛
 IMPROVED_KOOK_OCARINA = 10313 # 改良型老虎之鐘
 IMPROVED_COUGAR_CHIME = 10312 # 改良型笑翠鳥之笛
-WSTRIDER_BUGLE        = 4422  # 風龍號角
-SSTRIDER_BUGLE        = 4423  # 星龍號角
-TSTRIDER_BUGLE        = 4424  # 黃昏龍號角
+WSTRIDER_BUGLE	      = 4422  # 風龍號角
+SSTRIDER_BUGLE	      = 4423  # 星龍號角
+TSTRIDER_BUGLE	      = 4424  # 黃昏龍號角
 RED_WSTRIDER_BUGLE    = 10308 # 赤紅風龍號角
 RED_SSTRIDER_BUGLE    = 10309 # 赤紅星龍號角
 RED_TSTRIDER_BUGLE    = 10310 # 赤紅黃昏龍號角
 
 #Pets
-WOLF     = 12077 # 狼
-GREATW   = 16025 # 黑鬃狼
-FENRIR   = 16041 # 座狼
+WOLF	 = 12077 # 狼
+GREATW	 = 16025 # 黑鬃狼
+FENRIR	 = 16041 # 座狼
 SFENRIR  = 16042 # 白座狼
 GREATSW  = 16037 # 白鬃狼
-BABYS    = [12780,12781,12782] # 小野牛、小笑翠鳥、小老虎
+BABYS	 = [12780,12781,12782] # 小野牛、小笑翠鳥、小老虎
 WSTRIDER = 12526 # 風座龍
 SSTRIDER = 12527 # 星座龍
 TSTRIDER = 12528 # 黃昏座龍
@@ -284,7 +284,7 @@ class Quest (JQuest) :
        player.getPet().deleteMe(player) #both despawn pet and delete controlitem
        st.giveItems(item, 1)
        st.exitQuest(1)
-       st.playSound("ItemSound.quest_finish")                                 
+       st.playSound("ItemSound.quest_finish")				      
    return htmltext
 
  def onTalk(self, npc, player):
@@ -294,7 +294,7 @@ class Quest (JQuest) :
    htmltext = "Chamberlain.htm"
    return htmltext
 
-QUEST       = Quest(5025, qn, "Custom")
+QUEST	    = Quest(-1, qn, "Custom")
 
 for i in NPCSCH:
    QUEST.addStartNpc(i)

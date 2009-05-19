@@ -26,7 +26,7 @@ class Quest (JQuest) :
         st.exitQuest(1)
    return htmltext
 
-QUEST       = Quest(1110,qn,"Teleports")
+QUEST       = Quest(-1,qn,"Teleports")
 
 QUEST.addStartNpc(36570)
 QUEST.addTalkId(36570)

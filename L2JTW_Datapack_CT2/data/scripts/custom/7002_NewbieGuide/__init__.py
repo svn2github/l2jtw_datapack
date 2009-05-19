@@ -110,7 +110,7 @@ class Quest (JQuest) :
 
     return htmltext
 
-QUEST       = Quest(7002,qn,"custom")
+QUEST       = Quest(-1,qn,"custom")
 
 for i in NPCS:
     QUEST.addStartNpc(i)

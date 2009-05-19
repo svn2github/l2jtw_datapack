@@ -6,55 +6,68 @@ from net.sf.l2j.gameserver.model.quest        import QuestState
 from net.sf.l2j.gameserver.model.quest.jython import QuestJython as JQuest
 
 qn = "1001_FortuneTelling"
-
-BODY = "<html><body>Fortune-Teller Mine:<br>I see an image approaching before you... It is difficult to put what I saw into words.<br>How can I say this? Okay, listen closely:<br><br><center>"
-END = "</center><br><br>Take these words to heart. You should seriously consider the meaning...</body></html>"
+# pmq 中文化
+BODY = "<html><body>占卜師米芮：<br>逐漸靠近的身影..要我將所見的事物用言語來表達，實在是有限。<br>但是，這將會是最適合你的一句話。請記住這句話，就是這句<br><br><center>"
+END = "</center><br><br>...好好去想想這句話的涵義。</body></html>"
 FORTUNE = [ \
-	"What you\'ve endured will return as a benefit.", \
-	"The dragon now acquires an eagle\'s wings.", \
-	"Be warned as you may be overwhelmed by surroundings if you lack a clear opinion.", \
-	"A new trial or start may be successful as luck shadows changes.", \
-	"You may feel nervous and anxious because of unfavorable situations.", \
-	"You may meet the person you\'ve longed to see.", \
-	"You may meet many new people but it will be difficult to find a perfect person who wins your heart.", \
-	"Good fortune and opportunity may lie ahead as if one's born in a golden spoon.", \
-	"Be confident and act tenaciously at all times. You may be able to accomplish to perfection during somewhat unstable situations.", \
-	"There may be an occasion where you are consoled by people.", \
-	"Be independent at all times.", \
-	"Do not loosen up with your precautions.", \
-	"Closely observe people who pass by since you may meet a precious person who can help you.", \
-	"Listen to the advice that's given to you with a humble attitude.", \
-	"Focus on networking with like-minded people. They may join you for a big mission in the future.", \
-	"Staying busy rather than being stationary will help.", \
-	"You may lose your drive and feel lost.", \
-	"People around you will encourage your every task in the future.", \
-	"Be kind to and care for those close to you, they may help in the future.", \
-	"Your ambition and dream will come true.", \
-	"Your value will shine as your potential is finally realized.", \
-	"If you keep smiling without despair, people will come to trust you and offer help.", \
-	"There may be a little loss, but think of it as an investment for yourself.", \
-	"The difficult situations will turn to hope with unforeseen help.", \
-	"Impatience may lie ahead as the situation is unfavorable.", \
-	"Be responsible with your tasks but do not hesitate to ask for colleagues\' help.", \
-	"You may fall in danger each time when acting upon improvisation.", \
-	"A determined act after prepared research will attract people.", \
-	"A rest will promise a bigger development.", \
-	"You will be rewarded for your efforts and accomplishments.", \
-	"There are many things to consider after encountering hindrances.", \
-	"Consider other\'s situations and treat them sincerely at all times.", \
-	"A comparison to others may be helpful.", \
-	"Be cautious to control emotions as temptations are nearby.", \
-	"Momentarily delay an important decision.", \
-	"Be confident and act tenaciously at all times. You may be able to accomplish to perfection during somewhat unstable situations.", \
-	"Visiting a place you\'ve never been before may bring luck.", \
-	"What used to be well managed may stumble one after another.", \
-	"Your steady pursuit of new information and staying ahead of others will raise your value.", \
-	"Being neutral is a good way to go, but clarity may be helpful contrary to your hesitance.", \
-	"Skillful evasion is needed when dealing with people who pick fights as a disaster may arise from it.", \
-	"Small things make up big things so even value trivial matters.", \
-	"Bigger mistakes will be on the road if you fail to correct a small mistake.", \
-	"Momentarily delay an important decision.", \
-	"A remedy is on its way for a serious illness."]
+	"不得放鬆。", \
+	"笑容招來福氣。", \
+	"好消息正在等候。", \
+	"智謀雙全，事事順心。", \
+	"將會對周圍帶來幸運。", \
+	"從芝麻小事也可尋找快樂。", \
+	"自己的功勞將會轉讓給別人。", \
+	"休息，將會承諾更大的成長。", \
+	"自愛、謙虛才會帶來好結果。", \
+	"香甜口味的飲食將會帶來幸運。", \
+	"擅自處理事情，將會招來糾紛。", \
+	"可以期待明朗且有希望的未來。", \
+	"在偶然的機會下可以獲得好運。", \
+	"事情將會按照計畫的方向進行。", \
+	"人山人海之處，將會有幸運來臨。", \
+	"失去物質，卻得到精神方面的東西。", \
+	"窘困的生活中，紜會帶來滾滾財源。", \
+	"面對異性須保持風度，並踏上正道。", \
+	"就算一無所有，也可豐衣足食地過活。", \
+	"事情進展不順利，會造成煩躁和不安。", \
+	"徹底管理時間，便能得到期盼的結果。", \
+	"夙夜匪懈的促進工作，便能達到目標。", \
+	"待人忠厚，不論對同事，皆大歡喜之數。", \
+	"易於受到誘惑，需要注意感情上的控制。", \
+	"偶然相遇貴人，將會得到生活上的活力。", \
+	"或許會遇到困難，宜慎重考慮並堅定意志。", \
+	"過度的貪婪，伯將至今所累積的一掃而空。", \
+	"平常順利的事，經常也會有不如意的時候。", \
+	"獨自處理事情時，很容易陷入誘惑，須謹慎。", \
+	"不管面臨多麼困難的事情，萬事皆迎刃而解。", \
+	"光是發呆，只會引向自己不願意面對的狀況。", \
+	"得到精神上和物質上的幫助，馬到成功之運。", \
+	"和睦安定的生活中，期盼的事情將會圓滿如意。", \
+	"在意想不到的地方，將會得到金錢或新的機會。", \
+	"容易發生小小的意外和口角，須抱以寬容的心。", \
+	"遇到困境時，得到突如其來的幫助，將重尋希望。", \
+	"不投機取巧或耍手段而正當行事，便會得到幫助。", \
+	"不顧一切貪心地張羅事情，將會得到意外的結果。", \
+	"無法明確表達自己的意思，因此很容易產生誤會。", \
+	"稍一失神或過於安心便會失算，須保持冷靜的態度。", \
+	"保持圓滿的人際關係，便會遇上能讓你提高身價的人。", \
+	"播下多少的種，便會收穫多少，須按照計畫認真行事。", \
+	"中途放棄，便會導致難以妥善處理善後，須堅持到底。", \
+	"朝目標邁進的過程當中，或許會發生意想不到的問題。", \
+	"如果留戀眼前的小小利益，便會容易造成不自在的關係。", \
+	"事情逐漸好轉，但不得因此囂張，否則好運將離你而去。", \
+	"認真完成自己份內的事，便能羸得信賴，且能更上一層樓。", \
+	"與其滿足自己的貪念，不如先關懷他人，便會得到好結果。", \
+	"不論事情、興趣、職業、家人和戀人方面，皆會充滿幸運。", \
+	"若將自己的過失合理化，便會犯下無可挽回的更大的錯誤。", \
+	"因心軟可能會陷入困境，需要固執已見的時候，宜採取堅持態度。", \
+	"隨興決定的事情，只會造成精神上和金錢上的損失，需要有徹底的準備。", \
+	"若是為了脫離危險而使出的臨機應變，那麼須花費更大的心思來處理善後。", \
+	"就算進行的事情發生問題，亦勿採用權宜之計，須從問題的根本慢慢理清。", \
+	"若待人過度計較利害關係且沒風度，便會遭口舌之災，並扁低自己的價值。", \
+	"抱欲悠閒的心情，最好不要干涉不必要的他人問題。積少成多，芝麻小事也得珍惜。", \
+	"若面臨需要定下重要決策的時候，別在意他人的看法，宜正確掌握自己的意願來做決定。", \
+	"與熟人的交易，不僅讓你不好開口，還會造成頭痛因素，鄭重地推辭，並接受其他的機會。"]
 
 class Quest (JQuest) :
 
@@ -67,8 +80,8 @@ class Quest (JQuest) :
       htmltext="lowadena.htm"
     else :
       st.takeItems(57,1000)
-      st.getRandom(45)
-      htmltext=BODY+FORTUNE[st.getRandom(45)]+END
+      st.getRandom(57) # pmq 中文化
+      htmltext=BODY+FORTUNE[st.getRandom(57)]+END # pmq 中文化
     st.exitQuest(1)
     return htmltext
 

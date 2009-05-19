@@ -22,7 +22,7 @@ class Quest (JQuest) :
        st.exitQuest(1)
     return
 
-QUEST       = Quest(4001,qn,"custom")
+QUEST       = Quest(-1,qn,"custom")
 
 for item in NPC:
    QUEST.addStartNpc(item)

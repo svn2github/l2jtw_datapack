@@ -35,7 +35,7 @@ class Quest (JQuest) :
         st.exitQuest(1)
         return htmltext
 
-QUEST = Quest(8005, qn, "custom")
+QUEST = Quest(-1, qn, "custom")
 
 for npc in [35648,35649,35650,35651,35652,35653,35654,35655,35656,35662,35694,35731,35763,35800,35831,35863,35900,35932,35970,36007,36039,36114,36145,36177,36215,36253,36290,36322,36360]:
     QUEST.addStartNpc(npc)

@@ -775,9 +775,6 @@ UPDATE `auction` SET `startingBid` = '20000000' WHERE `id` in (58,59,60,61) and 
 
 /************ 加入破滅國境的道具 ************/
 -- S84薄暮武器
-Delete From `armor` Where `item_id` in (52,53,54,55,56);
-Delete From `etcitem` Where `item_id` in (10117,10118,10119,10120,10121,13074,13075,13076,13077,13078,13137,13138,13139,13140,13141,13142,13143,13144,13145,13146,13147,13148);
-Delete From `weapon` Where `item_id` in (136,137,138,139,140,141,163,170);
 Delete From `merchant_buylists` Where `item_id` in (52,53,54,55,56,136,137,138,139,140,141,163,170);
 REPLACE INTO `weapon` VALUES
 (52,'Vesper Dual Sword','lrhand','true',1520,1,1,'wood','s84',482,10,'dual',8,0.00000,0,0,0,325,0,176,-1,-1,0,0,'true','true','true','true',0,0,0,0,0,0,0,0,0,'0-0;'),
@@ -922,6 +919,7 @@ REPLACE INTO `armor` VALUES
 (14672,'Schuttgart Protection Earring','rear,lear','false','none',150,'wood','a',0,-1,-1,0,63,25,0,0,'false','false','true','false','0-0;');
 
 -- 符印
+Delete From `armor` Where `item_id` in (12811,12812,12813,13885,13886,13887);
 REPLACE INTO `weapon` VALUES
 (12811,'Arcana Sigil','lhand','true',940,0,0,'fine_steel','s',0,0,'none',0,0.00000,-8,13,20,0,0,0,-1,-1,0,0,'true','true','true','true',0,0,0,0,0,0,0,0,0,'0-0;'),
 (12812,'Dynasty Sigil','lhand','true',930,0,0,'fine_steel','s80',0,0,'none',0,0.00000,-8,15,20,0,0,0,-1,-1,0,0,'true','true','true','true',0,0,0,0,0,0,0,0,0,'0-0;'),
@@ -930,8 +928,6 @@ REPLACE INTO `weapon` VALUES
 (13886,'Sealed Dynasty Sigil','lhand','true',930,0,0,'fine_steel','s80',0,0,'none',0,0.00000,-8,15,20,0,0,0,-1,-1,0,0,'true','true','true','true',0,0,0,0,0,0,0,0,0,'0-0;'),
 (13887,'Sealed Vesper Sickle','lhand','true',920,0,0,'fine_steel','s84',0,0,'none',0,0.00000,-8,17,20,0,0,0,-1,-1,0,0,'true','true','true','true',0,0,0,0,0,0,0,0,0,'0-0;');
 Delete From `weapon` Where `item_id` in (10119,13078);
-UPDATE `items` SET `item_id` = '12811' WHERE `item_id` in (13078);
-UPDATE `items` SET `item_id` = '12812' WHERE `item_id` in (10119);
 
 -- 斗篷
 REPLACE INTO `armor` VALUES
@@ -955,6 +951,7 @@ REPLACE INTO `etcitem` VALUES
 (14603,'Sealed Ancient Cloak','false','none',220,'normal','wood','none',-1,-1,0,0,'false','false','true','false','0-0;','false');
 
 -- 法國麵包武器
+Delete From `armor` Where `item_id` in (20266);
 REPLACE INTO `weapon` VALUES
 (20255,'Baguette Sword','rhand','true',500,3,3,'steel','none',1,1,'sword',8,0.00000,0,0,0,379,0,2,10080,-1,0,0,'true','true','true','true',0,0,0,0,0,0,0,0,0,'0-0;'),
 (20256,'Baguette Dagger','rhand','true',500,3,3,'steel','none',1,1,'dagger',12,0.00000,0,0,0,433,0,2,10080,-1,0,0,'true','true','true','true',0,0,0,0,0,0,0,0,0,'0-0;'),
@@ -1472,3 +1469,7 @@ Delete From `spawnlist` Where `npc_templateid` in (31356,31357,31358,31359,31360
 Delete From `fort_spawnlist` Where `npcId` in (35659,35690,35728,35759,35797,35828,35859,35897,35928,35966,36004,36035,36073,36111,36142,36173,36211,36249,36287,36318,36356);
 UPDATE `npc` SET `walkspd` = '8' WHERE `id` in (32072);
 UPDATE `npc` SET `walkspd` = '50' WHERE `id` in (35659,35690,35728,35759,35797,35828,35859,35897,35928,35966,36004,36035,36073,36111,36142,36173,36211,36249,36287,36318,36356);
+
+-- 修正物品類型
+UPDATE `etcitem` SET `consume_type` = 'stackable' WHERE `item_id` in (13277);  -- 能量星石
+UPDATE `weapon` SET `bodypart` = 'lhand' WHERE `item_id` in (13770);  -- 艾罕米亞卡修之盾

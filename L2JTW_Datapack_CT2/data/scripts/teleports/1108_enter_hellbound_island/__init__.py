@@ -38,7 +38,7 @@ class Quest (JQuest) :
    st.exitQuest(1)
    return htmltext
 
-QUEST       = Quest(1108,qn,"Teleports")
+QUEST       = Quest(-1,qn,"Teleports")
 
 for npcId in WARPGATES :
     QUEST.addStartNpc(npcId)

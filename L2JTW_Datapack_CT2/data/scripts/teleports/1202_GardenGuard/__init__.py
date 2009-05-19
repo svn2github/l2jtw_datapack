@@ -53,7 +53,7 @@ class Quest (JQuest) :
     st.exitQuest(1) 
     return html          
 
-QUEST       = Quest(1202, qn, "Teleports")
+QUEST       = Quest(-1, qn, "Teleports")
 
 QUEST.addStartNpc(GARDENGUARD)
 
