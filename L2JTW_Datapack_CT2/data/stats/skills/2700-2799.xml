@@ -5,9 +5,8 @@
   <set name="target" val="TARGET_SELF"/>
   <set name="skillType" val="BUFF"/>
   <set name="operateType" val="OP_ACTIVE"/>
+  <set name="hitTime" val="2500"/>
   <set name="transformId" val="14"/>
-  <set name="castRange" val="-1"/>
-  <set name="effectRange" val="-1"/>
   <for>
     <effect count="1" name="Transformation" time="1800" val="0"/>
   </for>
@@ -17,9 +16,8 @@
   <set name="target" val="TARGET_SELF"/>
   <set name="skillType" val="BUFF"/>
   <set name="operateType" val="OP_ACTIVE"/>
+  <set name="hitTime" val="2500"/>
   <set name="transformId" val="15"/>
-  <set name="castRange" val="-1"/>
-  <set name="effectRange" val="-1"/>
   <for>
     <effect count="1" name="Transformation" time="1800" val="0"/>
   </for>
@@ -29,9 +27,8 @@
   <set name="target" val="TARGET_SELF"/>
   <set name="skillType" val="BUFF"/>
   <set name="operateType" val="OP_ACTIVE"/>
+  <set name="hitTime" val="2500"/>
   <set name="transformId" val="16"/>
-  <set name="castRange" val="-1"/>
-  <set name="effectRange" val="-1"/>
   <for>
     <effect count="1" name="Transformation" time="1800" val="0"/>
   </for>
@@ -41,9 +38,8 @@
   <set name="target" val="TARGET_SELF"/>
   <set name="skillType" val="BUFF"/>
   <set name="operateType" val="OP_ACTIVE"/>
+  <set name="hitTime" val="2500"/>
   <set name="transformId" val="17"/>
-  <set name="castRange" val="-1"/>
-  <set name="effectRange" val="-1"/>
   <for>
     <effect count="1" name="Transformation" time="1800" val="0"/>
   </for>
@@ -53,9 +49,8 @@
   <set name="target" val="TARGET_SELF"/>
   <set name="skillType" val="BUFF"/>
   <set name="operateType" val="OP_ACTIVE"/>
+  <set name="hitTime" val="2500"/>
   <set name="transformId" val="18"/>
-  <set name="castRange" val="-1"/>
-  <set name="effectRange" val="-1"/>
   <for>
     <effect count="1" name="Transformation" time="1800" val="0"/>
   </for>
@@ -65,9 +60,8 @@
   <set name="target" val="TARGET_SELF"/>
   <set name="skillType" val="BUFF"/>
   <set name="operateType" val="OP_ACTIVE"/>
+  <set name="hitTime" val="2500"/>
   <set name="transformId" val="19"/>
-  <set name="castRange" val="-1"/>
-  <set name="effectRange" val="-1"/>
   <for>
     <effect count="1" name="Transformation" time="1800" val="0"/>
   </for>
@@ -77,9 +71,8 @@
   <set name="target" val="TARGET_SELF"/>
   <set name="skillType" val="BUFF"/>
   <set name="operateType" val="OP_ACTIVE"/>
+  <set name="hitTime" val="2500"/>
   <set name="transformId" val="20"/>
-  <set name="castRange" val="-1"/>
-  <set name="effectRange" val="-1"/>
   <for>
     <effect count="1" name="Transformation" time="1800" val="0"/>
   </for>
@@ -89,9 +82,8 @@
   <set name="target" val="TARGET_SELF"/>
   <set name="skillType" val="BUFF"/>
   <set name="operateType" val="OP_ACTIVE"/>
+  <set name="hitTime" val="2500"/>
   <set name="transformId" val="21"/>
-  <set name="castRange" val="-1"/>
-  <set name="effectRange" val="-1"/>
   <for>
     <effect count="1" name="Transformation" time="1800" val="0"/>
   </for>
@@ -101,9 +93,8 @@
   <set name="target" val="TARGET_SELF"/>
   <set name="skillType" val="BUFF"/>
   <set name="operateType" val="OP_ACTIVE"/>
+  <set name="hitTime" val="2500"/>
   <set name="transformId" val="10"/>
-  <set name="castRange" val="-1"/>
-  <set name="effectRange" val="-1"/>
   <for>
     <effect count="1" name="Transformation" time="1800" val="0"/>
   </for>
@@ -113,9 +104,8 @@
   <set name="target" val="TARGET_SELF"/>
   <set name="skillType" val="BUFF"/>
   <set name="operateType" val="OP_ACTIVE"/>
+  <set name="hitTime" val="2500"/>
   <set name="transformId" val="11"/>
-  <set name="castRange" val="-1"/>
-  <set name="effectRange" val="-1"/>
   <for>
     <effect count="1" name="Transformation" time="1800" val="0"/>
   </for>
@@ -125,9 +115,8 @@
   <set name="target" val="TARGET_SELF"/>
   <set name="skillType" val="BUFF"/>
   <set name="operateType" val="OP_ACTIVE"/>
+  <set name="hitTime" val="2500"/>
   <set name="transformId" val="12"/>
-  <set name="castRange" val="-1"/>
-  <set name="effectRange" val="-1"/>
   <for>
     <effect count="1" name="Transformation" time="1800" val="0"/>
   </for>
@@ -137,9 +126,8 @@
   <set name="target" val="TARGET_SELF"/>
   <set name="skillType" val="BUFF"/>
   <set name="operateType" val="OP_ACTIVE"/>
+  <set name="hitTime" val="2500"/>
   <set name="transformId" val="13"/>
-  <set name="castRange" val="-1"/>
-  <set name="effectRange" val="-1"/>
   <for>
     <effect count="1" name="Transformation" time="1800" val="0"/>
   </for>
@@ -149,9 +137,8 @@
   <set name="target" val="TARGET_SELF"/>
   <set name="skillType" val="BUFF"/>
   <set name="operateType" val="OP_ACTIVE"/>
+  <set name="hitTime" val="2500"/>
   <set name="transformId" val="14"/>
-  <set name="castRange" val="-1"/>
-  <set name="effectRange" val="-1"/>
   <for>
     <effect count="1" name="Transformation" time="1800" val="0"/>
   </for>
@@ -161,9 +148,8 @@
   <set name="target" val="TARGET_SELF"/>
   <set name="skillType" val="BUFF"/>
   <set name="operateType" val="OP_ACTIVE"/>
+  <set name="hitTime" val="2500"/>
   <set name="transformId" val="15"/>
-  <set name="castRange" val="-1"/>
-  <set name="effectRange" val="-1"/>
   <for>
     <effect count="1" name="Transformation" time="1800" val="0"/>
   </for>
@@ -173,9 +159,8 @@
   <set name="target" val="TARGET_SELF"/>
   <set name="skillType" val="BUFF"/>
   <set name="operateType" val="OP_ACTIVE"/>
+  <set name="hitTime" val="2500"/>
   <set name="transformId" val="16"/>
-  <set name="castRange" val="-1"/>
-  <set name="effectRange" val="-1"/>
   <for>
     <effect count="1" name="Transformation" time="1800" val="0"/>
   </for>
@@ -185,9 +170,8 @@
   <set name="target" val="TARGET_SELF"/>
   <set name="skillType" val="BUFF"/>
   <set name="operateType" val="OP_ACTIVE"/>
+  <set name="hitTime" val="2500"/>
   <set name="transformId" val="17"/>
-  <set name="castRange" val="-1"/>
-  <set name="effectRange" val="-1"/>
   <for>
     <effect count="1" name="Transformation" time="1800" val="0"/>
   </for>
@@ -197,9 +181,8 @@
   <set name="target" val="TARGET_SELF"/>
   <set name="skillType" val="BUFF"/>
   <set name="operateType" val="OP_ACTIVE"/>
+  <set name="hitTime" val="2500"/>
   <set name="transformId" val="18"/>
-  <set name="castRange" val="-1"/>
-  <set name="effectRange" val="-1"/>
   <for>
     <effect count="1" name="Transformation" time="1800" val="0"/>
   </for>
@@ -209,9 +192,8 @@
   <set name="target" val="TARGET_SELF"/>
   <set name="skillType" val="BUFF"/>
   <set name="operateType" val="OP_ACTIVE"/>
+  <set name="hitTime" val="2500"/>
   <set name="transformId" val="19"/>
-  <set name="castRange" val="-1"/>
-  <set name="effectRange" val="-1"/>
   <for>
     <effect count="1" name="Transformation" time="1800" val="0"/>
   </for>
@@ -221,9 +203,8 @@
   <set name="target" val="TARGET_SELF"/>
   <set name="skillType" val="BUFF"/>
   <set name="operateType" val="OP_ACTIVE"/>
+  <set name="hitTime" val="2500"/>
   <set name="transformId" val="20"/>
-  <set name="castRange" val="-1"/>
-  <set name="effectRange" val="-1"/>
   <for>
     <effect count="1" name="Transformation" time="1800" val="0"/>
   </for>
@@ -233,9 +214,8 @@
   <set name="target" val="TARGET_SELF"/>
   <set name="skillType" val="BUFF"/>
   <set name="operateType" val="OP_ACTIVE"/>
+  <set name="hitTime" val="2500"/>
   <set name="transformId" val="21"/>
-  <set name="castRange" val="-1"/>
-  <set name="effectRange" val="-1"/>
   <for>
     <effect count="1" name="Transformation" time="1800" val="0"/>
   </for>
@@ -245,9 +225,8 @@
   <set name="target" val="TARGET_SELF"/>
   <set name="skillType" val="BUFF"/>
   <set name="operateType" val="OP_ACTIVE"/>
+  <set name="hitTime" val="2500"/>
   <set name="transformId" val="10"/>
-  <set name="castRange" val="-1"/>
-  <set name="effectRange" val="-1"/>
   <for>
     <effect count="1" name="Transformation" time="1800" val="0"/>
   </for>
@@ -257,9 +236,8 @@
   <set name="target" val="TARGET_SELF"/>
   <set name="skillType" val="BUFF"/>
   <set name="operateType" val="OP_ACTIVE"/>
+  <set name="hitTime" val="2500"/>
   <set name="transformId" val="11"/>
-  <set name="castRange" val="-1"/>
-  <set name="effectRange" val="-1"/>
   <for>
     <effect count="1" name="Transformation" time="1800" val="0"/>
   </for>
@@ -269,9 +247,8 @@
   <set name="target" val="TARGET_SELF"/>
   <set name="skillType" val="BUFF"/>
   <set name="operateType" val="OP_ACTIVE"/>
+  <set name="hitTime" val="2500"/>
   <set name="transformId" val="12"/>
-  <set name="castRange" val="-1"/>
-  <set name="effectRange" val="-1"/>
   <for>
     <effect count="1" name="Transformation" time="1800" val="0"/>
   </for>
@@ -281,9 +258,8 @@
   <set name="target" val="TARGET_SELF"/>
   <set name="skillType" val="BUFF"/>
   <set name="operateType" val="OP_ACTIVE"/>
+  <set name="hitTime" val="2500"/>
   <set name="transformId" val="13"/>
-  <set name="castRange" val="-1"/>
-  <set name="effectRange" val="-1"/>
   <for>
     <effect count="1" name="Transformation" time="1800" val="0"/>
   </for>
@@ -293,9 +269,8 @@
   <set name="target" val="TARGET_SELF"/>
   <set name="skillType" val="BUFF"/>
   <set name="operateType" val="OP_ACTIVE"/>
+  <set name="hitTime" val="2500"/>
   <set name="transformId" val="14"/>
-  <set name="castRange" val="-1"/>
-  <set name="effectRange" val="-1"/>
   <for>
     <effect count="1" name="Transformation" time="1800" val="0"/>
   </for>
@@ -305,9 +280,8 @@
   <set name="target" val="TARGET_SELF"/>
   <set name="skillType" val="BUFF"/>
   <set name="operateType" val="OP_ACTIVE"/>
+  <set name="hitTime" val="2500"/>
   <set name="transformId" val="15"/>
-  <set name="castRange" val="-1"/>
-  <set name="effectRange" val="-1"/>
   <for>
     <effect count="1" name="Transformation" time="1800" val="0"/>
   </for>
@@ -317,9 +291,8 @@
   <set name="target" val="TARGET_SELF"/>
   <set name="skillType" val="BUFF"/>
   <set name="operateType" val="OP_ACTIVE"/>
+  <set name="hitTime" val="2500"/>
   <set name="transformId" val="16"/>
-  <set name="castRange" val="-1"/>
-  <set name="effectRange" val="-1"/>
   <for>
     <effect count="1" name="Transformation" time="1800" val="0"/>
   </for>
@@ -329,9 +302,8 @@
   <set name="target" val="TARGET_SELF"/>
   <set name="skillType" val="BUFF"/>
   <set name="operateType" val="OP_ACTIVE"/>
+  <set name="hitTime" val="2500"/>
   <set name="transformId" val="17"/>
-  <set name="castRange" val="-1"/>
-  <set name="effectRange" val="-1"/>
   <for>
     <effect count="1" name="Transformation" time="1800" val="0"/>
   </for>
@@ -341,9 +313,8 @@
   <set name="target" val="TARGET_SELF"/>
   <set name="skillType" val="BUFF"/>
   <set name="operateType" val="OP_ACTIVE"/>
+  <set name="hitTime" val="2500"/>
   <set name="transformId" val="18"/>
-  <set name="castRange" val="-1"/>
-  <set name="effectRange" val="-1"/>
   <for>
     <effect count="1" name="Transformation" time="1800" val="0"/>
   </for>
@@ -353,9 +324,8 @@
   <set name="target" val="TARGET_SELF"/>
   <set name="skillType" val="BUFF"/>
   <set name="operateType" val="OP_ACTIVE"/>
+  <set name="hitTime" val="2500"/>
   <set name="transformId" val="19"/>
-  <set name="castRange" val="-1"/>
-  <set name="effectRange" val="-1"/>
   <for>
     <effect count="1" name="Transformation" time="1800" val="0"/>
   </for>
@@ -365,9 +335,8 @@
   <set name="target" val="TARGET_SELF"/>
   <set name="skillType" val="BUFF"/>
   <set name="operateType" val="OP_ACTIVE"/>
+  <set name="hitTime" val="2500"/>
   <set name="transformId" val="20"/>
-  <set name="castRange" val="-1"/>
-  <set name="effectRange" val="-1"/>
   <for>
     <effect count="1" name="Transformation" time="1800" val="0"/>
   </for>
@@ -377,9 +346,8 @@
   <set name="target" val="TARGET_SELF"/>
   <set name="skillType" val="BUFF"/>
   <set name="operateType" val="OP_ACTIVE"/>
+  <set name="hitTime" val="2500"/>
   <set name="transformId" val="21"/>
-  <set name="castRange" val="-1"/>
-  <set name="effectRange" val="-1"/>
   <for>
     <effect count="1" name="Transformation" time="1800" val="0"/>
   </for>
@@ -389,9 +357,8 @@
   <set name="target" val="TARGET_SELF"/>
   <set name="skillType" val="BUFF"/>
   <set name="operateType" val="OP_ACTIVE"/>
+  <set name="hitTime" val="2500"/>
   <set name="transformId" val="10"/>
-  <set name="castRange" val="-1"/>
-  <set name="effectRange" val="-1"/>
   <for>
     <effect count="1" name="Transformation" time="1800" val="0"/>
   </for>
@@ -401,9 +368,8 @@
   <set name="target" val="TARGET_SELF"/>
   <set name="skillType" val="BUFF"/>
   <set name="operateType" val="OP_ACTIVE"/>
+  <set name="hitTime" val="2500"/>
   <set name="transformId" val="11"/>
-  <set name="castRange" val="-1"/>
-  <set name="effectRange" val="-1"/>
   <for>
     <effect count="1" name="Transformation" time="1800" val="0"/>
   </for>
@@ -413,9 +379,8 @@
   <set name="target" val="TARGET_SELF"/>
   <set name="skillType" val="BUFF"/>
   <set name="operateType" val="OP_ACTIVE"/>
+  <set name="hitTime" val="2500"/>
   <set name="transformId" val="12"/>
-  <set name="castRange" val="-1"/>
-  <set name="effectRange" val="-1"/>
   <for>
     <effect count="1" name="Transformation" time="1800" val="0"/>
   </for>
@@ -425,9 +390,8 @@
   <set name="target" val="TARGET_SELF"/>
   <set name="skillType" val="BUFF"/>
   <set name="operateType" val="OP_ACTIVE"/>
+  <set name="hitTime" val="2500"/>
   <set name="transformId" val="13"/>
-  <set name="castRange" val="-1"/>
-  <set name="effectRange" val="-1"/>
   <for>
     <effect count="1" name="Transformation" time="1800" val="0"/>
   </for>
@@ -437,9 +401,8 @@
   <set name="target" val="TARGET_SELF"/>
   <set name="skillType" val="BUFF"/>
   <set name="operateType" val="OP_ACTIVE"/>
+  <set name="hitTime" val="2500"/>
   <set name="transformId" val="14"/>
-  <set name="castRange" val="-1"/>
-  <set name="effectRange" val="-1"/>
   <for>
     <effect count="1" name="Transformation" time="1800" val="0"/>
   </for>
@@ -449,9 +412,8 @@
   <set name="target" val="TARGET_SELF"/>
   <set name="skillType" val="BUFF"/>
   <set name="operateType" val="OP_ACTIVE"/>
+  <set name="hitTime" val="2500"/>
   <set name="transformId" val="15"/>
-  <set name="castRange" val="-1"/>
-  <set name="effectRange" val="-1"/>
   <for>
     <effect count="1" name="Transformation" time="1800" val="0"/>
   </for>
@@ -461,9 +423,8 @@
   <set name="target" val="TARGET_SELF"/>
   <set name="skillType" val="BUFF"/>
   <set name="operateType" val="OP_ACTIVE"/>
+  <set name="hitTime" val="2500"/>
   <set name="transformId" val="16"/>
-  <set name="castRange" val="-1"/>
-  <set name="effectRange" val="-1"/>
   <for>
     <effect count="1" name="Transformation" time="1800" val="0"/>
   </for>
@@ -473,9 +434,8 @@
   <set name="target" val="TARGET_SELF"/>
   <set name="skillType" val="BUFF"/>
   <set name="operateType" val="OP_ACTIVE"/>
+  <set name="hitTime" val="2500"/>
   <set name="transformId" val="17"/>
-  <set name="castRange" val="-1"/>
-  <set name="effectRange" val="-1"/>
   <for>
     <effect count="1" name="Transformation" time="1800" val="0"/>
   </for>
@@ -485,9 +445,8 @@
   <set name="target" val="TARGET_SELF"/>
   <set name="skillType" val="BUFF"/>
   <set name="operateType" val="OP_ACTIVE"/>
+  <set name="hitTime" val="2500"/>
   <set name="transformId" val="18"/>
-  <set name="castRange" val="-1"/>
-  <set name="effectRange" val="-1"/>
   <for>
     <effect count="1" name="Transformation" time="1800" val="0"/>
   </for>
@@ -497,9 +456,8 @@
   <set name="target" val="TARGET_SELF"/>
   <set name="skillType" val="BUFF"/>
   <set name="operateType" val="OP_ACTIVE"/>
+  <set name="hitTime" val="2500"/>
   <set name="transformId" val="19"/>
-  <set name="castRange" val="-1"/>
-  <set name="effectRange" val="-1"/>
   <for>
     <effect count="1" name="Transformation" time="1800" val="0"/>
   </for>
@@ -509,9 +467,8 @@
   <set name="target" val="TARGET_SELF"/>
   <set name="skillType" val="BUFF"/>
   <set name="operateType" val="OP_ACTIVE"/>
+  <set name="hitTime" val="2500"/>
   <set name="transformId" val="20"/>
-  <set name="castRange" val="-1"/>
-  <set name="effectRange" val="-1"/>
   <for>
     <effect count="1" name="Transformation" time="1800" val="0"/>
   </for>
@@ -521,9 +478,8 @@
   <set name="target" val="TARGET_SELF"/>
   <set name="skillType" val="BUFF"/>
   <set name="operateType" val="OP_ACTIVE"/>
+  <set name="hitTime" val="2500"/>
   <set name="transformId" val="21"/>
-  <set name="castRange" val="-1"/>
-  <set name="effectRange" val="-1"/>
   <for>
     <effect count="1" name="Transformation" time="1800" val="0"/>
   </for>
@@ -533,9 +489,8 @@
   <set name="target" val="TARGET_SELF"/>
   <set name="skillType" val="BUFF"/>
   <set name="operateType" val="OP_ACTIVE"/>
+  <set name="hitTime" val="2500"/>
   <set name="transformId" val="10"/>
-  <set name="castRange" val="-1"/>
-  <set name="effectRange" val="-1"/>
   <for>
     <effect count="1" name="Transformation" time="1800" val="0"/>
   </for>
@@ -545,9 +500,8 @@
   <set name="target" val="TARGET_SELF"/>
   <set name="skillType" val="BUFF"/>
   <set name="operateType" val="OP_ACTIVE"/>
+  <set name="hitTime" val="2500"/>
   <set name="transformId" val="11"/>
-  <set name="castRange" val="-1"/>
-  <set name="effectRange" val="-1"/>
   <for>
     <effect count="1" name="Transformation" time="1800" val="0"/>
   </for>
@@ -557,9 +511,8 @@
   <set name="target" val="TARGET_SELF"/>
   <set name="skillType" val="BUFF"/>
   <set name="operateType" val="OP_ACTIVE"/>
+  <set name="hitTime" val="2500"/>
   <set name="transformId" val="12"/>
-  <set name="castRange" val="-1"/>
-  <set name="effectRange" val="-1"/>
   <for>
     <effect count="1" name="Transformation" time="1800" val="0"/>
   </for>
@@ -569,9 +522,8 @@
   <set name="target" val="TARGET_SELF"/>
   <set name="skillType" val="BUFF"/>
   <set name="operateType" val="OP_ACTIVE"/>
+  <set name="hitTime" val="2500"/>
   <set name="transformId" val="13"/>
-  <set name="castRange" val="-1"/>
-  <set name="effectRange" val="-1"/>
   <for>
     <effect count="1" name="Transformation" time="1800" val="0"/>
   </for>
@@ -581,9 +533,8 @@
   <set name="target" val="TARGET_SELF"/>
   <set name="skillType" val="BUFF"/>
   <set name="operateType" val="OP_ACTIVE"/>
+  <set name="hitTime" val="2500"/>
   <set name="transformId" val="14"/>
-  <set name="castRange" val="-1"/>
-  <set name="effectRange" val="-1"/>
   <for>
     <effect count="1" name="Transformation" time="1800" val="0"/>
   </for>
@@ -593,9 +544,8 @@
   <set name="target" val="TARGET_SELF"/>
   <set name="skillType" val="BUFF"/>
   <set name="operateType" val="OP_ACTIVE"/>
+  <set name="hitTime" val="2500"/>
   <set name="transformId" val="15"/>
-  <set name="castRange" val="-1"/>
-  <set name="effectRange" val="-1"/>
   <for>
     <effect count="1" name="Transformation" time="1800" val="0"/>
   </for>
@@ -605,9 +555,8 @@
   <set name="target" val="TARGET_SELF"/>
   <set name="skillType" val="BUFF"/>
   <set name="operateType" val="OP_ACTIVE"/>
+  <set name="hitTime" val="2500"/>
   <set name="transformId" val="16"/>
-  <set name="castRange" val="-1"/>
-  <set name="effectRange" val="-1"/>
   <for>
     <effect count="1" name="Transformation" time="1800" val="0"/>
   </for>
@@ -617,9 +566,8 @@
   <set name="target" val="TARGET_SELF"/>
   <set name="skillType" val="BUFF"/>
   <set name="operateType" val="OP_ACTIVE"/>
+  <set name="hitTime" val="2500"/>
   <set name="transformId" val="17"/>
-  <set name="castRange" val="-1"/>
-  <set name="effectRange" val="-1"/>
   <for>
     <effect count="1" name="Transformation" time="1800" val="0"/>
   </for>
@@ -629,9 +577,8 @@
   <set name="target" val="TARGET_SELF"/>
   <set name="skillType" val="BUFF"/>
   <set name="operateType" val="OP_ACTIVE"/>
+  <set name="hitTime" val="2500"/>
   <set name="transformId" val="18"/>
-  <set name="castRange" val="-1"/>
-  <set name="effectRange" val="-1"/>
   <for>
     <effect count="1" name="Transformation" time="1800" val="0"/>
   </for>
@@ -641,9 +588,8 @@
   <set name="target" val="TARGET_SELF"/>
   <set name="skillType" val="BUFF"/>
   <set name="operateType" val="OP_ACTIVE"/>
+  <set name="hitTime" val="2500"/>
   <set name="transformId" val="19"/>
-  <set name="castRange" val="-1"/>
-  <set name="effectRange" val="-1"/>
   <for>
     <effect count="1" name="Transformation" time="1800" val="0"/>
   </for>
@@ -653,9 +599,8 @@
   <set name="target" val="TARGET_SELF"/>
   <set name="skillType" val="BUFF"/>
   <set name="operateType" val="OP_ACTIVE"/>
+  <set name="hitTime" val="2500"/>
   <set name="transformId" val="20"/>
-  <set name="castRange" val="-1"/>
-  <set name="effectRange" val="-1"/>
   <for>
     <effect count="1" name="Transformation" time="1800" val="0"/>
   </for>
@@ -665,9 +610,8 @@
   <set name="target" val="TARGET_SELF"/>
   <set name="skillType" val="BUFF"/>
   <set name="operateType" val="OP_ACTIVE"/>
+  <set name="hitTime" val="2500"/>
   <set name="transformId" val="21"/>
-  <set name="castRange" val="-1"/>
-  <set name="effectRange" val="-1"/>
   <for>
     <effect count="1" name="Transformation" time="1800" val="0"/>
   </for>
@@ -677,9 +621,8 @@
   <set name="target" val="TARGET_SELF"/>
   <set name="skillType" val="BUFF"/>
   <set name="operateType" val="OP_ACTIVE"/>
+  <set name="hitTime" val="2500"/>
   <set name="transformId" val="10"/>
-  <set name="castRange" val="-1"/>
-  <set name="effectRange" val="-1"/>
   <for>
     <effect count="1" name="Transformation" time="1800" val="0"/>
   </for>
@@ -689,9 +632,8 @@
   <set name="target" val="TARGET_SELF"/>
   <set name="skillType" val="BUFF"/>
   <set name="operateType" val="OP_ACTIVE"/>
+  <set name="hitTime" val="2500"/>
   <set name="transformId" val="11"/>
-  <set name="castRange" val="-1"/>
-  <set name="effectRange" val="-1"/>
   <for>
     <effect count="1" name="Transformation" time="1800" val="0"/>
   </for>
@@ -701,9 +643,8 @@
   <set name="target" val="TARGET_SELF"/>
   <set name="skillType" val="BUFF"/>
   <set name="operateType" val="OP_ACTIVE"/>
+  <set name="hitTime" val="2500"/>
   <set name="transformId" val="12"/>
-  <set name="castRange" val="-1"/>
-  <set name="effectRange" val="-1"/>
   <for>
     <effect count="1" name="Transformation" time="1800" val="0"/>
   </for>
@@ -713,9 +654,8 @@
   <set name="target" val="TARGET_SELF"/>
   <set name="skillType" val="BUFF"/>
   <set name="operateType" val="OP_ACTIVE"/>
+  <set name="hitTime" val="2500"/>
   <set name="transformId" val="13"/>
-  <set name="castRange" val="-1"/>
-  <set name="effectRange" val="-1"/>
   <for>
     <effect count="1" name="Transformation" time="1800" val="0"/>
   </for>
@@ -725,9 +665,8 @@
   <set name="target" val="TARGET_SELF"/>
   <set name="skillType" val="BUFF"/>
   <set name="operateType" val="OP_ACTIVE"/>
+  <set name="hitTime" val="2500"/>
   <set name="transformId" val="14"/>
-  <set name="castRange" val="-1"/>
-  <set name="effectRange" val="-1"/>
   <for>
     <effect count="1" name="Transformation" time="1800" val="0"/>
   </for>
@@ -737,9 +676,8 @@
   <set name="target" val="TARGET_SELF"/>
   <set name="skillType" val="BUFF"/>
   <set name="operateType" val="OP_ACTIVE"/>
+  <set name="hitTime" val="2500"/>
   <set name="transformId" val="15"/>
-  <set name="castRange" val="-1"/>
-  <set name="effectRange" val="-1"/>
   <for>
     <effect count="1" name="Transformation" time="1800" val="0"/>
   </for>
@@ -749,9 +687,8 @@
   <set name="target" val="TARGET_SELF"/>
   <set name="skillType" val="BUFF"/>
   <set name="operateType" val="OP_ACTIVE"/>
+  <set name="hitTime" val="2500"/>
   <set name="transformId" val="16"/>
-  <set name="castRange" val="-1"/>
-  <set name="effectRange" val="-1"/>
   <for>
     <effect count="1" name="Transformation" time="1800" val="0"/>
   </for>
@@ -761,9 +698,8 @@
   <set name="target" val="TARGET_SELF"/>
   <set name="skillType" val="BUFF"/>
   <set name="operateType" val="OP_ACTIVE"/>
+  <set name="hitTime" val="2500"/>
   <set name="transformId" val="17"/>
-  <set name="castRange" val="-1"/>
-  <set name="effectRange" val="-1"/>
   <for>
     <effect count="1" name="Transformation" time="1800" val="0"/>
   </for>
@@ -773,9 +709,8 @@
   <set name="target" val="TARGET_SELF"/>
   <set name="skillType" val="BUFF"/>
   <set name="operateType" val="OP_ACTIVE"/>
+  <set name="hitTime" val="2500"/>
   <set name="transformId" val="18"/>
-  <set name="castRange" val="-1"/>
-  <set name="effectRange" val="-1"/>
   <for>
     <effect count="1" name="Transformation" time="1800" val="0"/>
   </for>
@@ -785,9 +720,8 @@
   <set name="target" val="TARGET_SELF"/>
   <set name="skillType" val="BUFF"/>
   <set name="operateType" val="OP_ACTIVE"/>
+  <set name="hitTime" val="2500"/>
   <set name="transformId" val="19"/>
-  <set name="castRange" val="-1"/>
-  <set name="effectRange" val="-1"/>
   <for>
     <effect count="1" name="Transformation" time="1800" val="0"/>
   </for>
@@ -797,9 +731,8 @@
   <set name="target" val="TARGET_SELF"/>
   <set name="skillType" val="BUFF"/>
   <set name="operateType" val="OP_ACTIVE"/>
+  <set name="hitTime" val="2500"/>
   <set name="transformId" val="20"/>
-  <set name="castRange" val="-1"/>
-  <set name="effectRange" val="-1"/>
   <for>
     <effect count="1" name="Transformation" time="1800" val="0"/>
   </for>
@@ -809,9 +742,8 @@
   <set name="target" val="TARGET_SELF"/>
   <set name="skillType" val="BUFF"/>
   <set name="operateType" val="OP_ACTIVE"/>
+  <set name="hitTime" val="2500"/>
   <set name="transformId" val="21"/>
-  <set name="castRange" val="-1"/>
-  <set name="effectRange" val="-1"/>
   <for>
     <effect count="1" name="Transformation" time="1800" val="0"/>
   </for>
@@ -821,9 +753,8 @@
   <set name="target" val="TARGET_SELF"/>
   <set name="skillType" val="BUFF"/>
   <set name="operateType" val="OP_ACTIVE"/>
+  <set name="hitTime" val="2500"/>
   <set name="transformId" val="10"/>
-  <set name="castRange" val="-1"/>
-  <set name="effectRange" val="-1"/>
   <for>
     <effect count="1" name="Transformation" time="1800" val="0"/>
   </for>
@@ -833,9 +764,8 @@
   <set name="target" val="TARGET_SELF"/>
   <set name="skillType" val="BUFF"/>
   <set name="operateType" val="OP_ACTIVE"/>
+  <set name="hitTime" val="2500"/>
   <set name="transformId" val="11"/>
-  <set name="castRange" val="-1"/>
-  <set name="effectRange" val="-1"/>
   <for>
     <effect count="1" name="Transformation" time="1800" val="0"/>
   </for>
@@ -845,9 +775,9 @@
   <set name="target" val="TARGET_SELF"/>
   <set name="skillType" val="BUFF"/>
   <set name="operateType" val="OP_ACTIVE"/>
+  <set name="hitTime" val="2500"/>
   <set name="transformId" val="12"/>
   <set name="castRange" val="-1"/>
-  <set name="effectRange" val="-1"/>
   <for>
     <effect count="1" name="Transformation" time="1800" val="0"/>
   </for>
@@ -857,9 +787,8 @@
   <set name="target" val="TARGET_SELF"/>
   <set name="skillType" val="BUFF"/>
   <set name="operateType" val="OP_ACTIVE"/>
+  <set name="hitTime" val="2500"/>
   <set name="transformId" val="13"/>
-  <set name="castRange" val="-1"/>
-  <set name="effectRange" val="-1"/>
   <for>
     <effect count="1" name="Transformation" time="1800" val="0"/>
   </for>
@@ -869,9 +798,8 @@
   <set name="target" val="TARGET_SELF"/>
   <set name="skillType" val="BUFF"/>
   <set name="operateType" val="OP_ACTIVE"/>
+  <set name="hitTime" val="2500"/>
   <set name="transformId" val="14"/>
-  <set name="castRange" val="-1"/>
-  <set name="effectRange" val="-1"/>
   <for>
     <effect count="1" name="Transformation" time="1800" val="0"/>
   </for>
@@ -881,9 +809,8 @@
   <set name="target" val="TARGET_SELF"/>
   <set name="skillType" val="BUFF"/>
   <set name="operateType" val="OP_ACTIVE"/>
+  <set name="hitTime" val="2500"/>
   <set name="transformId" val="15"/>
-  <set name="castRange" val="-1"/>
-  <set name="effectRange" val="-1"/>
   <for>
     <effect count="1" name="Transformation" time="1800" val="0"/>
   </for>
@@ -893,9 +820,8 @@
   <set name="target" val="TARGET_SELF"/>
   <set name="skillType" val="BUFF"/>
   <set name="operateType" val="OP_ACTIVE"/>
+  <set name="hitTime" val="2500"/>
   <set name="transformId" val="16"/>
-  <set name="castRange" val="-1"/>
-  <set name="effectRange" val="-1"/>
   <for>
     <effect count="1" name="Transformation" time="1800" val="0"/>
   </for>
@@ -905,9 +831,8 @@
   <set name="target" val="TARGET_SELF"/>
   <set name="skillType" val="BUFF"/>
   <set name="operateType" val="OP_ACTIVE"/>
+  <set name="hitTime" val="2500"/>
   <set name="transformId" val="17"/>
-  <set name="castRange" val="-1"/>
-  <set name="effectRange" val="-1"/>
   <for>
     <effect count="1" name="Transformation" time="1800" val="0"/>
   </for>
@@ -917,9 +842,8 @@
   <set name="target" val="TARGET_SELF"/>
   <set name="skillType" val="BUFF"/>
   <set name="operateType" val="OP_ACTIVE"/>
+  <set name="hitTime" val="2500"/>
   <set name="transformId" val="18"/>
-  <set name="castRange" val="-1"/>
-  <set name="effectRange" val="-1"/>
   <for>
     <effect count="1" name="Transformation" time="1800" val="0"/>
   </for>
@@ -929,9 +853,8 @@
   <set name="target" val="TARGET_SELF"/>
   <set name="skillType" val="BUFF"/>
   <set name="operateType" val="OP_ACTIVE"/>
+  <set name="hitTime" val="2500"/>
   <set name="transformId" val="19"/>
-  <set name="castRange" val="-1"/>
-  <set name="effectRange" val="-1"/>
   <for>
     <effect count="1" name="Transformation" time="1800" val="0"/>
   </for>
@@ -941,9 +864,8 @@
   <set name="target" val="TARGET_SELF"/>
   <set name="skillType" val="BUFF"/>
   <set name="operateType" val="OP_ACTIVE"/>
+  <set name="hitTime" val="2500"/>
   <set name="transformId" val="20"/>
-  <set name="castRange" val="-1"/>
-  <set name="effectRange" val="-1"/>
   <for>
     <effect count="1" name="Transformation" time="1800" val="0"/>
   </for>
@@ -953,9 +875,8 @@
   <set name="target" val="TARGET_SELF"/>
   <set name="skillType" val="BUFF"/>
   <set name="operateType" val="OP_ACTIVE"/>
+  <set name="hitTime" val="2500"/>
   <set name="transformId" val="21"/>
-  <set name="castRange" val="-1"/>
-  <set name="effectRange" val="-1"/>
   <for>
     <effect count="1" name="Transformation" time="1800" val="0"/>
   </for>

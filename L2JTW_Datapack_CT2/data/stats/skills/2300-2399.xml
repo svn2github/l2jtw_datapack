@@ -631,97 +631,81 @@
   </for>
 </skill>
 <skill id="2371" levels="1" name="Transform Sealbook - Onyx Beast">
-  <!-- Update by rocknow from L2Emu -->
+  <!-- Update by rocknow -->
   <set name="target" val="TARGET_SELF"/>
   <set name="skillType" val="BUFF"/>
   <set name="operateType" val="OP_ACTIVE"/>
   <set name="transformId" val="1"/>
-  <set name="castRange" val="-1"/>
-  <set name="effectRange" val="-1"/>
   <for>
     <effect count="1" name="Transformation" time="1800" val="0"/>
   </for>
 </skill>
 <skill id="2372" levels="1" name="Transform Sealbook - Death Blader">
-  <!-- Update by rocknow from L2Emu -->
+  <!-- Update by rocknow -->
   <set name="target" val="TARGET_SELF"/>
   <set name="skillType" val="BUFF"/>
   <set name="operateType" val="OP_ACTIVE"/>
   <set name="transformId" val="2"/>
-  <set name="castRange" val="-1"/>
-  <set name="effectRange" val="-1"/>
   <for>
     <effect count="1" name="Transformation" time="1800" val="0"/>
   </for>
 </skill>
 <skill id="2373" levels="1" name="Transform Sealbook - Grail Apostle">
-  <!-- Update by rocknow from L2Emu -->
+  <!-- Update by rocknow -->
   <set name="target" val="TARGET_SELF"/>
   <set name="skillType" val="BUFF"/>
   <set name="operateType" val="OP_ACTIVE"/>
   <set name="transformId" val="201"/>
-  <set name="castRange" val="-1"/>
-  <set name="effectRange" val="-1"/>
   <for>
     <effect count="1" name="Transformation" time="1800" val="0"/>
   </for>
 </skill>
 <skill id="2374" levels="1" name="Transform Sealbook - Unicorn">
-  <!-- Update by rocknow from L2Emu -->
+  <!-- Update by rocknow -->
   <set name="target" val="TARGET_SELF"/>
   <set name="skillType" val="BUFF"/>
   <set name="operateType" val="OP_ACTIVE"/>
   <set name="transformId" val="204"/>
-  <set name="castRange" val="-1"/>
-  <set name="effectRange" val="-1"/>
   <for>
     <effect count="1" name="Transformation" time="1800" val="0"/>
   </for>
 </skill>
 <skill id="2375" levels="1" name="Transform Sealbook - Lilim Knight">
-  <!-- Update by rocknow from L2Emu -->
+  <!-- Update by rocknow -->
   <set name="target" val="TARGET_SELF"/>
   <set name="skillType" val="BUFF"/>
   <set name="operateType" val="OP_ACTIVE"/>
   <set name="transformId" val="207"/>
-  <set name="castRange" val="-1"/>
-  <set name="effectRange" val="-1"/>
   <for>
     <effect count="1" name="Transformation" time="1800" val="0"/>
   </for>
 </skill>
 <skill id="2376" levels="1" name="Transform Sealbook - Golem Guardian">
-  <!-- Update by rocknow from L2Emu -->
+  <!-- Update by rocknow -->
   <set name="target" val="TARGET_SELF"/>
   <set name="skillType" val="BUFF"/>
   <set name="operateType" val="OP_ACTIVE"/>
   <set name="transformId" val="210"/>
-  <set name="castRange" val="-1"/>
-  <set name="effectRange" val="-1"/>
   <for>
     <effect count="1" name="Transformation" time="1800" val="0"/>
   </for>
 </skill>
 <skill id="2377" levels="1" name="Transform Sealbook - Inferno Drake">
-  <!-- Update by rocknow from L2Emu -->
+  <!-- Update by rocknow -->
   <set name="target" val="TARGET_SELF"/>
   <set name="skillType" val="BUFF"/>
   <set name="operateType" val="OP_ACTIVE"/>
   <set name="transformId" val="213"/>
-  <set name="castRange" val="-1"/>
-  <set name="effectRange" val="-1"/>
   <for>
     <effect count="1" name="Transformation" time="1800" val="0"/>
   </for>
 </skill>
 <skill id="2378" levels="1" name="Transform Sealbook - Dragon Bomber">
-  <!-- Update by rocknow from L2Emu -->
+  <!-- Update by rocknow -->
   <set name="target" val="TARGET_SELF"/>
   <set name="skillType" val="BUFF"/>
   <set name="operateType" val="OP_ACTIVE"/>
   <set name="transformId" val="216"/>
-  <set name="castRange" val="-1"/>
-  <set name="effectRange" val="-1"/>
   <for>
     <effect count="1" name="Transformation" time="1800" val="0"/>
   </for>
@@ -810,8 +794,6 @@
   <set name="operateType" val="OP_ACTIVE"/>
   <set name="reuseDelay" val="14400000"/>
   <set name="transformId" val="304"/>
-  <set name="castRange" val="-1"/>
-  <set name="effectRange" val="-1"/>
   <for>
     <effect count="1" name="Transformation" time="1800" val="0"/>
   </for>

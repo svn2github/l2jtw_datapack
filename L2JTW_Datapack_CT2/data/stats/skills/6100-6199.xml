@@ -107,8 +107,6 @@
   <set name="hitTime" val="3000"/>
   <set name="staticHitTime" val="true"/>
   <set name="operateType" val="OP_ACTIVE"/>
-  <set name="castRange" val="-1"/>
-  <set name="effectRange" val="-1"/>
 </skill>
 <skill id="6125" levels="1" name="Paralysis">
   <set name="target" val="TARGET_NONE"/>

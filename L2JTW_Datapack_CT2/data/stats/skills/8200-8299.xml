@@ -647,8 +647,6 @@
   <set name="staticHitTime" val="true"/>
   <set name="operateType" val="OP_ACTIVE"/>
   <set name="npcId" val="16061"/>
-  <set name="castRange" val="-1"/>
-  <set name="effectRange" val="-1"/>
 </skill>
 <skill id="8252" levels="1" name="Test - Transform Mount1">
   <set name="target" val="TARGET_NONE"/>
@@ -668,8 +666,6 @@
   <set name="staticHitTime" val="true"/>
   <set name="operateType" val="OP_ACTIVE"/>
   <set name="npcId" val="16054"/>
-  <set name="castRange" val="-1"/>
-  <set name="effectRange" val="-1"/>
 </skill>
 <skill id="8255" levels="1" name="Release Seal on Agathion - Griffin">
   <!-- Update by rocknow -->
@@ -679,8 +675,6 @@
   <set name="staticHitTime" val="true"/>
   <set name="operateType" val="OP_ACTIVE"/>
   <set name="npcId" val="16055"/>
-  <set name="castRange" val="-1"/>
-  <set name="effectRange" val="-1"/>
 </skill>
 <skill id="8256" levels="1" name="Release Seal on Agathion - Joy">
   <!-- Update by rocknow -->
@@ -690,8 +684,6 @@
   <set name="staticHitTime" val="true"/>
   <set name="operateType" val="OP_ACTIVE"/>
   <set name="npcId" val="16056"/>
-  <set name="castRange" val="-1"/>
-  <set name="effectRange" val="-1"/>
 </skill>
 <skill id="8257" levels="1" name="Release Seal on Agathion - Anger">
   <!-- Update by rocknow -->
@@ -701,8 +693,6 @@
   <set name="staticHitTime" val="true"/>
   <set name="operateType" val="OP_ACTIVE"/>
   <set name="npcId" val="16058"/>
-  <set name="castRange" val="-1"/>
-  <set name="effectRange" val="-1"/>
 </skill>
 <skill id="8258" levels="1" name="Release Seal on Agathion - Sorrow">
   <!-- Update by rocknow -->
@@ -712,8 +702,6 @@
   <set name="staticHitTime" val="true"/>
   <set name="operateType" val="OP_ACTIVE"/>
   <set name="npcId" val="16057"/>
-  <set name="castRange" val="-1"/>
-  <set name="effectRange" val="-1"/>
 </skill>
 <skill id="8259" levels="1" name="Release Seal on Agathion - Boy Teddy Bear">
   <!-- Update by rocknow -->
@@ -723,8 +711,6 @@
   <set name="staticHitTime" val="true"/>
   <set name="operateType" val="OP_ACTIVE"/>
   <set name="npcId" val="16059"/>
-  <set name="castRange" val="-1"/>
-  <set name="effectRange" val="-1"/>
 </skill>
 <skill id="8260" levels="1" name="Release Seal on Agathion - Girl Teddy Bear">
   <!-- Update by rocknow -->
@@ -734,8 +720,6 @@
   <set name="staticHitTime" val="true"/>
   <set name="operateType" val="OP_ACTIVE"/>
   <set name="npcId" val="16060"/>
-  <set name="castRange" val="-1"/>
-  <set name="effectRange" val="-1"/>
 </skill>
 <skill id="8261" levels="1" name="Steam Beatle Mount">
   <!-- Update by rocknow -->
@@ -743,7 +727,6 @@
   <set name="skillType" val="BUFF"/>
   <set name="operateType" val="OP_ACTIVE"/>
   <set name="transformId" val="110"/>
-  <set name="castRange" val="-1"/>
   <for>
     <effect count="1" name="Transformation" time="1800" val="0"/>
   </for>
@@ -754,7 +737,6 @@
   <set name="skillType" val="BUFF"/>
   <set name="operateType" val="OP_ACTIVE"/>
   <set name="transformId" val="109"/>
-  <set name="castRange" val="-1"/>
   <for>
     <effect count="1" name="Transformation" time="1800" val="0"/>
   </for>
@@ -765,8 +747,6 @@
   <set name="skillType" val="BUFF"/>
   <set name="operateType" val="OP_ACTIVE"/>
   <set name="transformId" val="114"/>
-  <set name="castRange" val="-1"/>
-  <set name="effectRange" val="-1"/>
   <for>
     <effect count="1" name="Transformation" time="1800" val="0"/>
   </for>
@@ -777,8 +757,6 @@
   <set name="skillType" val="BUFF"/>
   <set name="operateType" val="OP_ACTIVE"/>
   <set name="transformId" val="115"/>
-  <set name="castRange" val="-1"/>
-  <set name="effectRange" val="-1"/>
   <for>
     <effect count="1" name="Transformation" time="1800" val="0"/>
   </for>
@@ -789,8 +767,6 @@
   <set name="skillType" val="BUFF"/>
   <set name="operateType" val="OP_ACTIVE"/>
   <set name="transformId" val="116"/>
-  <set name="castRange" val="-1"/>
-  <set name="effectRange" val="-1"/>
   <for>
     <effect count="1" name="Transformation" time="1800" val="0"/>
   </for>
@@ -856,8 +832,6 @@
   <set name="skillType" val="BUFF"/>
   <set name="operateType" val="OP_ACTIVE"/>
   <set name="transformId" val="101"/>
-  <set name="castRange" val="-1"/>
-  <set name="effectRange" val="-1"/>
   <for>
     <effect count="1" name="Transformation" time="1800" val="0"/>
   </for>
@@ -868,8 +842,6 @@
   <set name="skillType" val="BUFF"/>
   <set name="operateType" val="OP_ACTIVE"/>
   <set name="transformId" val="113"/>
-  <set name="castRange" val="-1"/>
-  <set name="effectRange" val="-1"/>
   <for>
     <effect count="1" name="Transformation" time="1800" val="0"/>
   </for>
