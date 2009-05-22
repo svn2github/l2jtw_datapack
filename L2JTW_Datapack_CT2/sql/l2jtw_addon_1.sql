@@ -890,17 +890,6 @@ REPLACE INTO `armor` VALUES
 (14671,'Rune Protection Earring','rear,lear','false','none',150,'wood','a',0,-1,-1,0,63,25,0,0,'false','false','true','false','0-0;'),
 (14672,'Schuttgart Protection Earring','rear,lear','false','none',150,'wood','a',0,-1,-1,0,63,25,0,0,'false','false','true','false','0-0;');
 
--- 符印
-Delete From `armor` Where `item_id` in (12811,12812,12813,13885,13886,13887); -- L2J 錯誤設定為防具
-REPLACE INTO `weapon` VALUES
-(12811,'Arcana Sigil','lhand','true',940,0,0,'fine_steel','s',0,0,'none',0,0.00000,-8,13,20,0,0,0,-1,-1,0,0,'true','true','true','true',0,0,0,0,0,0,0,0,0,'0-0;'),
-(12812,'Dynasty Sigil','lhand','true',930,0,0,'fine_steel','s80',0,0,'none',0,0.00000,-8,15,20,0,0,0,-1,-1,0,0,'true','true','true','true',0,0,0,0,0,0,0,0,0,'0-0;'),
-(12813,'Vesper Sigil','lhand','true',920,0,0,'fine_steel','s84',0,0,'none',0,0.00000,-8,17,20,0,0,0,-1,-1,0,0,'true','true','true','true',0,0,0,0,0,0,0,0,0,'0-0;'),
-(13885,'Sealed Arcana Sigil','lhand','true',940,0,0,'fine_steel','s',0,0,'none',0,0.00000,-8,13,20,0,0,0,-1,-1,0,0,'true','true','true','true',0,0,0,0,0,0,0,0,0,'0-0;'),
-(13886,'Sealed Dynasty Sigil','lhand','true',930,0,0,'fine_steel','s80',0,0,'none',0,0.00000,-8,15,20,0,0,0,-1,-1,0,0,'true','true','true','true',0,0,0,0,0,0,0,0,0,'0-0;'),
-(13887,'Sealed Vesper Sickle','lhand','true',920,0,0,'fine_steel','s84',0,0,'none',0,0.00000,-8,17,20,0,0,0,-1,-1,0,0,'true','true','true','true',0,0,0,0,0,0,0,0,0,'0-0;');
-Delete From `weapon` Where `item_id` in (10119,13078);
-
 -- 斗篷
 REPLACE INTO `armor` VALUES
 (13687,'Knight\'s Cloak - Heavy Armor exclusive','back','true','heavy',220,'wood','s84',0,-1,-1,20,0,0,0,0,'false','false','true','false','0-0;'),

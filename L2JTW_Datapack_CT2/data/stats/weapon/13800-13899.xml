@@ -49,6 +49,9 @@
   </for>
 </item>
 <item id='13882' name="Dynasty Dual Daggers">
+  <cond msgId="1518">
+    <player active_skill_id="923"/>
+  </cond>
   <for>
     <set val='304' order='0x08' stat='pAtk'/>
     <set val='157' order='0x08' stat='mAtk'/>
@@ -68,6 +71,9 @@
   </for>
 </item>
 <item id='13883' name="Icarus Dual Daggers">
+  <cond msgId="1518">
+    <player active_skill_id="923"/>
+  </cond>
   <for>
     <set val='332' order='0x08' stat='pAtk'/>
     <set val='169' order='0x08' stat='mAtk'/>
@@ -87,6 +93,9 @@
   </for>
 </item>
 <item id='13884' name="Vesper Dual Daggers">
+  <cond msgId="1518">
+    <player active_skill_id="923"/>
+  </cond>
   <for>
     <set val='360' order='0x08' stat='pAtk'/>
     <set val='181' order='0x08' stat='mAtk'/>
@@ -103,30 +112,6 @@
     </add>
     <mul val="1.05" order="0x30" stat="pvpPhysDmg"/>
     <mul val="1.05" order="0x30" stat="pvpMagicalDmg"/>
-  </for>
-</item>
-<item id="13885" name="Sealed Arcana Sigil">
-  <!-- Update by rocknow -->
-  <for>
-    <sub val="8" order="0x10" stat="rEvas"/>
-    <set val="13" order="0x08" stat="sDef"/>
-    <set val="20" order="0x08" stat="rShld"/>
-  </for>
-</item>
-<item id="13886" name="Sealed Dynasty Sigil">
-  <!-- Update by rocknow -->
-  <for>
-    <sub val="8" order="0x10" stat="rEvas"/>
-    <set val="15" order="0x08" stat="sDef"/>
-    <set val="20" order="0x08" stat="rShld"/>
-  </for>
-</item>
-<item id="13887" name="Sealed Vesper Sickle">
-  <!-- Update by rocknow -->
-  <for>
-    <sub val="8" order="0x10" stat="rEvas"/>
-    <set val="17" order="0x08" stat="sDef"/>
-    <set val="20" order="0x08" stat="rShld"/>
   </for>
 </item>
 </list>

@@ -46,7 +46,8 @@ public class Scrolls implements IItemHandler
 		9146, 9147, 9148, 9149, 9150, 9151,
 		9152, 9153, 9154, 9155, 9897, 10131,
 		10132, 10133, 10134, 10135, 10136,
-		10137, 10138, 10151, 10274, 13844, 13794, 13795, 13800, 13801, //Update by rocknow-Start
+		10137, 10138, 10151, 10274, 13844,
+		13386, 13387, 13388, 13794, 13795, 13800, 13801, //Update by rocknow-Start
 		13569,13570,13571,13572,13573,13574,13575,13576,13577,13578,
 		13579,13580,13581,13582,13583,13584,13585,13586,13587,13588,
 		13589,13590,13591,13592,13593,13594,13595,13596,13597,13598,
@@ -136,8 +137,6 @@ public class Scrolls implements IItemHandler
 		}
 		else if (itemId >= 8954 && itemId <= 8956)
 		{
-			if (!playable.destroyItem("Consume", item.getObjectId(), 1, null, false))
-				return;
 			switch (itemId)
 			{
 				case 8954: // Blue Primeval Crystal XML: 2306
@@ -152,13 +151,28 @@ public class Scrolls implements IItemHandler
 					activeChar.broadcastPacket(new MagicSkillUse(playable, playable, 2306, 3, 1, 0));
 					useScroll(activeChar, 2306, 3);
 					break;
-				
-				default:
+			}
+			return;
+		}
+		else if (itemId >= 13386 && itemId <= 13388)
+		{
+			switch (itemId)
+			{
+				case 13386: // Blue Crystal of Fantasy XML: 2608
+					activeChar.broadcastPacket(new MagicSkillUse(playable, playable, 2608, 1, 1, 0));
+					useScroll(activeChar, 2608, 1);
+					break;
+				case 13387: // Green Crystal of Fantasy XML: 2608
+					activeChar.broadcastPacket(new MagicSkillUse(playable, playable, 2608, 2, 1, 0));
+					useScroll(activeChar, 2608, 2);
+					break;
+				case 13388: // Red Crystal of Fantasy XML: 2608
+					activeChar.broadcastPacket(new MagicSkillUse(playable, playable, 2608, 3, 1, 0));
+					useScroll(activeChar, 2608, 3);
 					break;
 			}
 			return;
 		}
-		
 		// for the rest, there are no extra conditions
 		if (!playable.destroyItem("Consume", item.getObjectId(), 1, null, false))
 			return;
