@@ -32,7 +32,7 @@
   <set name="operateType" val="OP_ACTIVE"/>
 </skill>
 <skill id="3406" levels="1" name="Weight Decrease Ring">
-  <!-- Update by rocknow from -->
+  <!-- Update by rocknow -->
   <set name="target" val="TARGET_SELF"/>
   <set name="skillType" val="BUFF"/>
   <set name="operateType" val="OP_TOGGLE"/>
@@ -248,7 +248,7 @@
   <!-- Done by DJ MELERIX -->
   <set name="magicLvl" val="80"/>
   <set name="operateType" val="OP_PASSIVE"/>
-  <set name="skillType" val="WEAPON_SA"/>
+  <set name="skillType" val="BUFF"/>
   <set name="target" val="TARGET_SELF"/>
   <set name="triggeredId" val="3579"/>
   <set name="triggeredLevel" val="1"/>

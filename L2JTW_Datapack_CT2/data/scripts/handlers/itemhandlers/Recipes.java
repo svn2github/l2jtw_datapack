@@ -76,7 +76,7 @@ public class Recipes implements IItemHandler
 					}
 					else
 					{
-						activeChar.registerDwarvenRecipeList(rp);
+						activeChar.registerDwarvenRecipeList(rp, true);
 						activeChar.destroyItem("Consume", item.getObjectId(), 1, null, false);
 						L2CoreMessage cm =  new L2CoreMessage (MessageTable.Messages[27]);
 						cm.addString(rp.getRecipeName());
@@ -108,7 +108,7 @@ public class Recipes implements IItemHandler
 					}
 					else
 					{
-						activeChar.registerCommonRecipeList(rp);
+						activeChar.registerCommonRecipeList(rp, true);
 						activeChar.destroyItem("Consume", item.getObjectId(), 1, null, false);
 						L2CoreMessage cm =  new L2CoreMessage (MessageTable.Messages[26]);
 						cm.addString(rp.getRecipeName());

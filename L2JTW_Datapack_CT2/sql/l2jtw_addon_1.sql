@@ -44,16 +44,6 @@ REPLACE INTO `npc` VALUES ('16039', '16039', 'Red Star Strider', '0', '', '0', '
 REPLACE INTO `npc` VALUES ('16040', '16040', 'Red Twilight Strider', '0', '', '0', 'Monster.strider', '23.00', '31.00', '70', 'male', 'L2Pet', '40', '2444', '2444', '0.00', '0.00', '10', '10', '10', '10', '10', '10', '0', '0', '500', '500', '500', '500', '253', '0', '253', '0', '0', '0', '80', '120', '', '0', '0', '0', 'LAST_HIT', '0', '0', '0', 'balanced', "false");
 
 
-/************ 增加貓熊手鐲 ************/
-REPLACE INTO `armor` VALUES
-(20063,'Agathion Seal Bracelet - Baby Panda','lbracelet','false','none',150, 'wood','none',0,-1,-1,0,0,0,0,0,'false','false','true','false','0-0;'),
-(20064,'Agathion Seal Bracelet - Bamboo Panda','lbracelet','false','none',150, 'wood','none',0,-1,-1,0,0,0,0,0,'false','false','true','false','0-0;'),
-(20065,'Agathion Seal Bracelet - Sexy Panda','lbracelet','false','none',150, 'wood','none',0,-1,-1,0,0,0,0,0,'false','false','true','false','0-0;'),
-(20066,'Agathion Seal Bracelet - Baby Panda','lbracelet','false','none',150, 'wood','none',0,-1,1,-0,0,0,0,0,'false','false','true','false','0-0;'),
-(20067,'Agathion Seal Bracelet - Bamboo Panda','lbracelet','false','none',150, 'wood','none',0,-1,-1,0,0,0,0,0,'false','false','true','false','0-0;'),
-(20068,'Agathion Seal Bracelet - Sexy Panda','lbracelet','false','none',150, 'wood','none',0,-1,-1,0,0,0,0,0,'false','false','true','false','0-0;');
-
-
 /************ 修正要塞/小天使/小惡魔/魯道夫/媽祖/普萊皮塔/貓熊/愛心壺精/淡紫鬃馬騎乘的手鐲 ************/
 UPDATE `armor` SET `skill` = '3361-1;3267-1;5458-1;' WHERE `item_id` in (9909);
 UPDATE `armor` SET `skill` = '3361-1;3267-1;5458-1;' WHERE `item_id` in (10018);
@@ -69,39 +59,32 @@ UPDATE `armor` SET `skill` = '21000-1;3267-1;23000-1;' WHERE `item_id` in (20006
 UPDATE `armor` SET `skill` = '21001-1;3267-1;23001-1;' WHERE `item_id` in (20007);
 UPDATE `armor` SET `skill` = '21002-1;3267-1;23002-1;' WHERE `item_id` in (20008);
 UPDATE `armor` SET `skill` = '21003-1;3267-1;23003-1;' WHERE `item_id` in (20012);
-UPDATE `armor` SET `skill` = '21008-1;3267-1;23010-1' WHERE `item_id` in (20063);
-UPDATE `armor` SET `skill` = '21009-1;3267-1;23011-1' WHERE `item_id` in (20064);
-UPDATE `armor` SET `skill` = '21010-1;3267-1;23012-1' WHERE `item_id` in (20065);
+UPDATE `armor` SET `skill` = '21008-1;3267-1;23010-1;' WHERE `item_id` in (20063);
+UPDATE `armor` SET `skill` = '21009-1;3267-1;23011-1;' WHERE `item_id` in (20064);
+UPDATE `armor` SET `skill` = '21010-1;3267-1;23012-1;' WHERE `item_id` in (20065);
 
 
-/************ 加入邱比特/招財貓/獨眼蝙蝠群/飛馬/土地公的壺精手鐲 ************/
-REPLACE INTO `armor` VALUES
-(20204,'Ring of Queen Ant','rfinger,lfinger','true','none',150,'gold','b',0,-1,-1,0,48,21,616000,82,'false','false','true','false','3562-1'),
-(20205,'Ring of Queen Ant','rfinger,lfinger','true','none',150,'gold','b',0,-1,-1,0,48,21,616000,82,'false','false','true','false','3562-1'),
-(20206,'Ring of Queen Ant','rfinger,lfinger','true','none',150,'gold','b',0,-1,-1,0,48,21,616000,82,'false','false','true','false','3562-1'),
-(20207,'Zaken\'s Earring','rear,lear','true','none',150,'gold','s',0,-1,-1,0,71,31,2590000,124,'false','false','true','false','3559-1'),
-(20208,'Zaken\'s Earring','rear,lear','true','none',150,'gold','s',0,-1,-1,0,71,31,2590000,124,'false','false','true','false','3559-1'),
-(20209,'Zaken\'s Earring','rear,lear','true','none',150,'gold','s',0,-1,-1,0,71,31,2590000,124,'false','false','true','false','3559-1'),
-(20212,'Agathion Seal Bracelet - Charming Cupid','lbracelet','false','none',150, 'wood','none',0,-1,-1,0,0,0,0,0,'false','false','true','false','21031-1;3267-1;23025-1;'),
-(20213,'Agathion Seal Bracelet - Naughty Cupid','lbracelet','false','none',150, 'wood','none',0,-1,-1,0,0,0,0,0,'false','false','true','false','21032-1;3267-1;23026-1;'),
-(20221,'Agathion Seal Bracelet - White Maneki Neko','lbracelet','false','none',150, 'wood','none',0,-1,-1,0,0,0,0,0,'false','false','true','false','21033-1;3267-1;23027-1;23046-1;'),
-(20222,'Agathion Seal Bracelet - Black Maneki Neko','lbracelet','false','none',150, 'wood','none',0,-1,-1,0,0,0,0,0,'false','false','true','false','21034-1;3267-1;23028-1;23047-1;'),
-(20223,'Agathion Seal Bracelet - Brown Maneki Neko','lbracelet','false','none',150, 'wood','none',0,-1,-1,0,0,0,0,0,'false','false','true','false','21035-1;3267-1;23029-1;23048-1;'),
-(20224,'Agathion Seal Bracelet - White Maneki Neko','lbracelet','false','none',150, 'wood','none',0,-1,-1,0,0,0,0,0,'false','false','true','false','21033-1;3267-1;23027-1;23046-1;23030-1;'),
-(20225,'Agathion Seal Bracelet - Black Maneki Neko','lbracelet','false','none',150, 'wood','none',0,-1,-1,0,0,0,0,0,'false','false','true','false','21034-1;3267-1;23028-1;23047-1;23031-1;'),
-(20230,'Agathion Seal Bracelet - One-Eyed Bat Drove','lbracelet','false','none',150, 'wood','none',0,-1,-1,0,0,0,0,0,'false','false','true','false','21036-1;3267-1;23033-1;;'),
-(20231,'Agathion Seal Bracelet - One-Eyed Bat Drove','lbracelet','false','none',150, 'wood','none',0,-1,-1,0,0,0,0,0,'false','false','true','false','21036-1;3267-1;23033-1;23034-1;'),
-(20236,'Agathion Seal Bracelet - Pegasus','lbracelet','false','none',150, 'wood','none',0,-1,-1,0,0,0,0,0,'false','false','true','false','21037-1;3267-1;23036-1;'),
-(20237,'Agathion Seal Bracelet - Pegasus','lbracelet','false','none',150, 'wood','none',0,-1,-1,0,0,0,0,0,'false','false','true','false','21037-1;3267-1;23036-1;23037-1;'),
-(20238,'Agathion Seal Bracelet - Pegasus','lbracelet','false','none',150, 'wood','none',0,-1,-1,0,0,0,0,0,'false','false','true','false','21037-1;3267-1;23036-1;23038-1;'),
-(20245,'Agathion Seal Bracelet - Yellow-Robed Tojigong','lbracelet','false','none',150, 'wood','none',0,-1,-1,0,0,0,0,0,'false','false','true','false','21038-1;3267-1;23039-1;'),
-(20246,'Agathion Seal Bracelet - Blue-Robed Tojigong','lbracelet','false','none',150, 'wood','none',0,-1,-1,0,0,0,0,0,'false','false','true','false','21039-1;3267-1;23040-1;'),
-(20247,'Agathion Seal Bracelet - Green-Robed Tojigong','lbracelet','false','none',150, 'wood','none',0,-1,-1,0,0,0,0,0,'false','false','true','false','21040-1;3267-1;23041-1;'),
-(20248,'Agathion Seal Bracelet - Yellow-Robed Tojigong','lbracelet','false','none',150, 'wood','none',0,-1,-1,0,0,0,0,0,'false','false','true','false','21038-1;3267-1;23039-1;23042-1;'),
-(20249,'Agathion Seal Bracelet - Blue-Robed Tojigong','lbracelet','false','none',150, 'wood','none',0,-1,-1,0,0,0,0,0,'false','false','true','false','21039-1;3267-1;23040-1;23043-1;'),
-(20250,'Agathion Seal Bracelet - Green-Robed Tojigong','lbracelet','false','none',150, 'wood','none',0,-1,-1,0,0,0,0,0,'false','false','true','false','21040-1;3267-1;23041-1;23044-1;'),
-(20252,'Agathion Seal Bracelet - Bugbear','lbracelet','false','none',150, 'wood','none',0,-1,-1,0,0,0,0,0,'false','false','true','false','21041-1;3267-1;23045-1;'),
-(20253,'Agathion of Love (Event)','lbracelet','false','none',150, 'wood','none',0,-1,-1,0,0,0,0,0,'false','false','true','false','8245-1;3267-1;');
+/************ 修正邱比特/招財貓/獨眼蝙蝠群/飛馬/土地公的壺精手鐲/食人妖/愛心的手鐲 ************/
+UPDATE `armor` SET `skill` = '21031-1;3267-1;23025-1;' WHERE `item_id` in (20212);
+UPDATE `armor` SET `skill` = '21032-1;3267-1;23026-1;' WHERE `item_id` in (20213);
+UPDATE `armor` SET `skill` = '21033-1;3267-1;23027-1;23046-1;' WHERE `item_id` in (20221);
+UPDATE `armor` SET `skill` = '21034-1;3267-1;23028-1;23047-1;' WHERE `item_id` in (20222);
+UPDATE `armor` SET `skill` = '21035-1;3267-1;23029-1;23048-1;' WHERE `item_id` in (20223);
+UPDATE `armor` SET `skill` = '21033-1;3267-1;23027-1;23046-1;23030-1;' WHERE `item_id` in (20224);
+UPDATE `armor` SET `skill` = '21034-1;3267-1;23028-1;23047-1;23031-1;' WHERE `item_id` in (20225);
+UPDATE `armor` SET `skill` = '21036-1;3267-1;23033-1;' WHERE `item_id` in (20230);
+UPDATE `armor` SET `skill` = '21036-1;3267-1;23033-1;23034-1;' WHERE `item_id` in (20231);
+UPDATE `armor` SET `skill` = '21037-1;3267-1;23036-1;' WHERE `item_id` in (20236);
+UPDATE `armor` SET `skill` = '21037-1;3267-1;23036-1;23037-1;' WHERE `item_id` in (20237);
+UPDATE `armor` SET `skill` = '21037-1;3267-1;23036-1;23038-1;' WHERE `item_id` in (20238);
+UPDATE `armor` SET `skill` = '21038-1;3267-1;23039-1;' WHERE `item_id` in (20245);
+UPDATE `armor` SET `skill` = '21039-1;3267-1;23040-1;' WHERE `item_id` in (20246);
+UPDATE `armor` SET `skill` = '21040-1;3267-1;23041-1;' WHERE `item_id` in (20247);
+UPDATE `armor` SET `skill` = '21038-1;3267-1;23039-1;23042-1;' WHERE `item_id` in (20248);
+UPDATE `armor` SET `skill` = '21039-1;3267-1;23040-1;23043-1;' WHERE `item_id` in (20249);
+UPDATE `armor` SET `skill` = '21040-1;3267-1;23041-1;23044-1;' WHERE `item_id` in (20250);
+UPDATE `armor` SET `skill` = '21041-1;3267-1;23045-1;' WHERE `item_id` in (20252);
+UPDATE `armor` SET `skill` = '8245-1;3267-1;' WHERE `item_id` in (20253);
 
 
 /************ 增加頭飾的附加技能(祝福復活/祝福返回/大頭/煙火) ************/
@@ -142,12 +125,6 @@ UPDATE `weapon` SET `skill` = '3418-1;' WHERE `item_id` in (10167); -- 豬豬塔糖
 UPDATE `weapon` SET `skill` = '8244-1;' WHERE `item_id` in (12814); -- 守門人變身魔杖
 UPDATE `weapon` SET `skill` = '8246-1;' WHERE `item_id` in (12800,13253,13324,13339); -- 南瓜變身魔杖
 REPLACE INTO armorsets VALUES ('200', '9670', '9671', '9669', '0', '0', '3359', '1', '0', '0', '0', '0', '0', '0', '0', '0'); -- 土著全套
-
-
-/************ 增加爆炸頭金色/粉紅色 ************/
-REPLACE INTO `armor` VALUES
-(20275,'Gold Afro','dhair','false','none',10,'wood','none',0,-1,-1,0,0,0,0,0,'true','true','true','true','0-0;'),
-(20276,'Pink Afro','dhair','false','none',10,'wood','none',0,-1,-1,0,0,0,0,0,'true','true','true','true','0-0;');
 
 
 /************ 增加狩獵幫手 ************/
@@ -914,7 +891,7 @@ REPLACE INTO `armor` VALUES
 (14672,'Schuttgart Protection Earring','rear,lear','false','none',150,'wood','a',0,-1,-1,0,63,25,0,0,'false','false','true','false','0-0;');
 
 -- 符印
-Delete From `armor` Where `item_id` in (12811,12812,12813,13885,13886,13887);
+Delete From `armor` Where `item_id` in (12811,12812,12813,13885,13886,13887); -- L2J 錯誤設定為防具
 REPLACE INTO `weapon` VALUES
 (12811,'Arcana Sigil','lhand','true',940,0,0,'fine_steel','s',0,0,'none',0,0.00000,-8,13,20,0,0,0,-1,-1,0,0,'true','true','true','true',0,0,0,0,0,0,0,0,0,'0-0;'),
 (12812,'Dynasty Sigil','lhand','true',930,0,0,'fine_steel','s80',0,0,'none',0,0.00000,-8,15,20,0,0,0,-1,-1,0,0,'true','true','true','true',0,0,0,0,0,0,0,0,0,'0-0;'),
@@ -946,7 +923,7 @@ REPLACE INTO `etcitem` VALUES
 (14603,'Sealed Ancient Cloak','false','none',220,'normal','wood','none',-1,-1,0,0,'false','false','true','false','0-0;','false');
 
 -- 法國麵包武器
-Delete From `armor` Where `item_id` in (20266);
+Delete From `armor` Where `item_id` in (20266); -- L2J 錯誤設定為防具
 REPLACE INTO `weapon` VALUES
 (20255,'Baguette Sword','rhand','true',500,3,3,'steel','none',1,1,'sword',8,0.00000,0,0,0,379,0,2,10080,-1,0,0,'true','true','true','true',0,0,0,0,0,0,0,0,0,'0-0;'),
 (20256,'Baguette Dagger','rhand','true',500,3,3,'steel','none',1,1,'dagger',12,0.00000,0,0,0,433,0,2,10080,-1,0,0,'true','true','true','true',0,0,0,0,0,0,0,0,0,'0-0;'),
@@ -1413,6 +1390,8 @@ REPLACE INTO `etcitem` VALUES
 
 -- 破滅國境的新 NPC (感謝 pmq 提供)
 UPDATE `npc` SET `type` = 'L2Npc' WHERE `id` in (32627,32629); -- 修正碼頭巡邏兵
+UPDATE `npc` SET `type` = 'L2Teleporter' WHERE `id` in (32534,32602); -- 札耶汀 不滅的引導者/臨時傳送師
+UPDATE `spawnlist` SET `heading` = '16383' WHERE `npc_templateid` = '32609' AND `heading` = '20771'; -- 修正飛空艇控制裝置
 
 -- 破滅國境的新 NPC 位置 (感謝 pmq 提供)
 REPLACE INTO `spawnlist` VALUES

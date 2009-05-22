@@ -943,20 +943,16 @@
   </for>
 </skill>
 <skill id="755" levels="1" name="Protection of Rune">
-  <!-- Update by rocknow -->
-  <set name="activationChance" val="3"/>
-  <set name="castRange" val="-1"/>
-  <set name="chanceType" val="ON_HIT_BY_OFFENSIVE_SKILL"/>
-  <set name="effectRange" val="-1"/>
-  <set name="magicLevel" val="81"/>
-  <set name="operateType" val="OP_PASSIVE"/>
-  <set name="skillType" val="BUFF"/>
   <set name="target" val="TARGET_SELF"/>
+  <set name="skillType" val="BUFF"/>
+  <set name="operateType" val="OP_PASSIVE"/>
+  <set name="triggeredId" val="5556"/>
+  <set name="triggeredLevel" val="1"/>
+  <set name="activationChance" val="30"/> <!-- guessed -->
+  <set name="chanceType" val="ON_ATTACKED"/>
   <for>
-    <effect count="1" name="Buff" time="10" val="0">      
-      <mul order="0x30" stat="mDef" val="1.2"/>
-    </effect>
-   </for>
+     <mul order="0x30" stat="mDef" val="1.15"/>
+  </for>
 </skill>
 <skill id="756" levels="1" name="Protection of Elemental">
   <set name="target" val="TARGET_SELF"/>
@@ -1481,7 +1477,7 @@
   <set name="skillRadius" val="1000"/>
   <set name="target" val="TARGET_PARTY"/>
   <cond msgId="113" addName="1">
-    <target active_effect_id="784"/> <!-- Update by rocknow -->
+    <target active_effect_id_lvl="784,1"/><!-- Update by rocknow -->
   </cond>
   <for>
     <effect name="Buff" time="60" val="0" stackOrder="1" stackType="icon_buff">
@@ -1491,9 +1487,7 @@
       <add order="0x40" stat="accCombat" val="6">
         <using kind="Sword,Big Sword,Blunt,Big Blunt"/>
       </add>
-      <add order="0x40" stat="runSpd" val="10">
-        <using kind="Sword,Big Sword,Blunt,Big Blunt"/>
-      </add>
+      <add order="0x40" stat="runSpd" val="10"/>
       <mul order="0x30" stat="pAtkSpd" val="1.1">
         <using kind="Sword,Big Sword,Blunt,Big Blunt"/>
       </mul>
@@ -1536,7 +1530,7 @@
   <set name="skillType" val="HEAL_PERCENT"/>
   <set name="target" val="TARGET_PARTY"/>
   <cond msgId="113" addName="1">
-    <target active_effect_id="786"/> <!-- Update by rocknow -->
+    <target active_effect_id_lvl="786,1"/><!-- Update by rocknow -->
   </cond>
   <for>
     <effect count="20" name="HealOverTime" time="3" val="150">
@@ -1570,6 +1564,9 @@
   <set name="skillRadius" val="1000"/>
   <set name="skillType" val="BUFF"/>
   <set name="target" val="TARGET_PARTY"/>
+  <cond msgId="113" addName="1">
+    <target active_effect_id_lvl="788,1"/><!-- Update by rocknow -->
+  </cond>
   <for>
     <effect name="Buff" time="60" val="0">
       <mul order="0x30" stat="pAtk" val="1.3"/>
