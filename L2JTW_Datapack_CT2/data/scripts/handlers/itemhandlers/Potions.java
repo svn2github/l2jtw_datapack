@@ -54,12 +54,6 @@ public class Potions implements IItemHandler
 		8608, 8609, 8610, 8611, 8612, 8613, 8614, 10155, 13032, 10157,
 		//Attribute Potion
 		9997, 9998, 9999, 10000, 10001, 10002,
-		//elixir of life
-		8622, 8623, 8624, 8625, 8626, 8627,
-		//elixir of Strength
-		8628, 8629, 8630, 8631, 8632, 8633,
-		//elixir of cp
-		8634, 8635, 8636, 8637, 8638, 8639,
 		// Endeavor Potion
 		733,
 		// Juices
@@ -70,10 +64,9 @@ public class Potions implements IItemHandler
 		10409,10410,10411,10412,
 		// energy stone
 		5589,
+		20393,20394,22037,
 		//Add Bless of Eva by rocknow
-		4679,
-		//Healing medicine for Mana plus Fresh and Sweet Fruit Cocktail by harial
-		22038, 20393, 20394
+		4679
 	};
 	
 	/**
@@ -231,58 +224,6 @@ public class Potions implements IItemHandler
 			case 10002: // Divine Resist Potion, xml: 2339
 				usePotion(playable, 2339, 1);
 				break;
-			
-			// ELIXIR
-			case 8622:
-			case 8623:
-			case 8624:
-			case 8625:
-			case 8626:
-			case 8627:
-			{
-				if (!(playable instanceof L2PcInstance))
-				{
-					itemNotForPets(activeChar);
-					return;
-				}
-				byte expIndex = (byte) activeChar.getExpertiseIndex();
-				usePotion(activeChar, 2287, (expIndex > 5 ? 6 : expIndex + 1));
-				break;
-			}
-			case 8628:
-			case 8629:
-			case 8630:
-			case 8631:
-			case 8632:
-			case 8633:
-			{
-				if (!(playable instanceof L2PcInstance))
-				{
-					itemNotForPets(activeChar);
-					return;
-				}
-				byte expIndex = (byte) activeChar.getExpertiseIndex();
-				// elixir of Strength
-				usePotion(activeChar, 2288, (expIndex > 5 ? 6 : expIndex + 1));
-				break;
-			}
-			case 8634:
-			case 8635:
-			case 8636:
-			case 8637:
-			case 8638:
-			case 8639:
-			{
-				if (!(playable instanceof L2PcInstance))
-				{
-					itemNotForPets(activeChar);
-					return;
-				}
-				byte expIndex = (byte) activeChar.getExpertiseIndex();
-				// elixir of cp
-				usePotion(activeChar, 2289, (expIndex > 5 ? 6 : expIndex + 1));
-				break;
-			}
 				// VALAKAS AMULETS
 			case 6652: // Amulet Protection of Valakas
 				usePotion(playable, 2231, 1);
@@ -486,32 +427,6 @@ public class Potions implements IItemHandler
 				}
 				usePotion(playable, 2275, 1);
 				break;
-			case 4679: //Add Bless of Eva by rocknow
-				usePotion(playable, 2076, 1);
-				break;
-			case 22038: // Healing medicine for Mana by harial
-				usePotion(playable, 26030, 1);// Healing medicine for Mana
-				break;
-			case 20393: // Sweet Fruit Cocktail by harial
-				usePotion(playable, 22056, 1);// Wind Walk
-				usePotion(playable, 22057, 1);// Haste
-				usePotion(playable, 22064, 1);// Vampiric Rage
-				usePotion(playable, 22058, 1);// Might
-				usePotion(playable, 22059, 1);// Shield
-				usePotion(playable, 22060, 1);// Death Whisper
-				usePotion(playable, 22061, 1);// Guidance
-				usePotion(playable, 22065, 1);// Bless the Body
-				break;
-			case 20394: // Fresh Fruit Cocktail by harial
-				usePotion(playable, 22066, 1);// Berserker Spirit
-				usePotion(playable, 22067, 1);// Magic Barrier
-				usePotion(playable, 22068, 1);// Bless the Soul
-				usePotion(playable, 22062, 1);// Empower
-				usePotion(playable, 22063, 1);// Grater Acumen
-				usePotion(playable, 22069, 1);// Clarity
-				usePotion(playable, 22065, 1);// Bless the Body
-				usePotion(playable, 22070, 1);// Wild Magic
-				break;
 			
 			// Juices
 			// added by Z0mbie!
@@ -550,6 +465,32 @@ public class Potions implements IItemHandler
 				break;
 			case 5589: // Energy Stone,xml: 2165
 				usePotion(playable, 2165, 1);
+				break;
+			case 20393: // Sweet Fruit Cocktail
+				res = usePotion(playable, 22056, 1);
+				usePotion(playable, 22057, 1);
+				usePotion(playable, 22058, 1);
+				usePotion(playable, 22059, 1);
+				usePotion(playable, 22060, 1);
+				usePotion(playable, 22061, 1);
+				usePotion(playable, 22064, 1);
+				usePotion(playable, 22065, 1);
+				break;
+			case 20394: // Fresh Fruit Cocktail
+				res = usePotion(playable, 22062, 1);
+				usePotion(playable, 22063, 1);
+				usePotion(playable, 22065, 1);
+				usePotion(playable, 22066, 1);
+				usePotion(playable, 22067, 1);
+				usePotion(playable, 22068, 1);
+				usePotion(playable, 22069, 1);
+				usePotion(playable, 22070, 1);
+				break;
+			case 22037: // Potion of Will
+				usePotion(playable, 26029, 1);
+				break;
+			case 4679: //Add Bless of Eva by rocknow
+				usePotion(playable, 2076, 1);
 				break;
 			default:
 		}
@@ -603,6 +544,8 @@ public class Potions implements IItemHandler
 			
 		if (skill != null)
 		{
+			if (!skill.checkCondition(activeChar, activeChar, false))
+	        	return false;
 			// Return false if potion is in reuse
 			// so is not destroyed from inventory
 			if (activeChar.isSkillDisabled(skill.getId()))

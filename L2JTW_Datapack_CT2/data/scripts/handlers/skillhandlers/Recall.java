@@ -69,21 +69,21 @@ public class Recall implements ISkillHandler
 					// Check to see if the current player target is in a festival.
 					if (targetChar.isFestivalParticipant())
 					{
-						targetChar.sendMessage(564);
+						targetChar.sendMessage("You may not use an escape skill in a festival.");
 						continue;
 					}
 					
 					// Check to see if player is in jail
 					if (targetChar.isInJail())
 					{
-						targetChar.sendMessage(469);
+						targetChar.sendMessage("You can not escape from jail.");
 						continue;
 					}
 					
 					// Check to see if player is in a duel
 					if (targetChar.isInDuel())
 					{
-						targetChar.sendMessage(499);
+						targetChar.sendMessage("You cannot use escape skills during a duel.");
 						continue;
 					}
 				}
