@@ -57,8 +57,10 @@ class Quest (JQuest) :
      JQuest.__init__(self,id,name,descr)
      self.questItemIds = range(3239,3276)+[3428,3023,3030]
 
- def onEvent (self,event,st) :
+ def onAdvEvent (self,event,npc, player) :
     htmltext = event
+    st = player.getQuestState(qn)
+    if not st : return
     if event == "1" :
         htmltext = "30104-04.htm"
         st.set("cond","1")
@@ -66,7 +68,7 @@ class Quest (JQuest) :
         st.playSound("ItemSound.quest_accept")
         st.giveItems(RING_OF_TESTIMONY1_ID,1)
     elif event == "30104_1" :
-          if st.getPlayer().getLevel() < 38 :
+          if st.getPlayer().getLevel() < 37 :
             htmltext = "30104-07.htm"
             st.takeItems(RING_OF_TESTIMONY1_ID,1)
             st.takeItems(OLD_ACCOUNT_BOOK_ID,1)
@@ -203,7 +205,7 @@ class Quest (JQuest) :
         else:
           htmltext = "30104-05.htm"
    elif npcId == 30104 and st.getInt("cond")>=1 and st.getQuestItemsCount(PARMANS_INSTRUCTIONS_ID)==1 :
-        if player.getLevel() < 38 :
+        if player.getLevel() < 37 :
           htmltext = "30104-09.htm"
         else:
           htmltext = "30104-10.htm"
@@ -458,7 +460,7 @@ class Quest (JQuest) :
             st.set("cond","8")
    return
 
-QUEST       = Quest(221,qn,"Testimony Of Prosperity")
+QUEST       = Quest(221,qn,"Ácºaªº¦ÒÅç")
 
 QUEST.addStartNpc(30104)
 

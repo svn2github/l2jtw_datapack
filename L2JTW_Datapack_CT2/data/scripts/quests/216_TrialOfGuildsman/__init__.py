@@ -43,8 +43,10 @@ class Quest (JQuest) :
                 ALLTRANS_RECOMMEND1_ID, DUNINGS_KEY_ID, NORMANS_INSTRUCTIONS_ID, NORMANS_LIST_ID, NORMANS_RECEIPT_ID, ALLTRANS_RECOMMEND2_ID,
                 PINTERS_INSTRUCTIONS_ID, RP_AMBER_BEAD_ID, AMBER_BEAD_ID, DUNINGS_INSTRUCTIONS_ID]
 
- def onEvent (self,event,st) :
+ def onAdvEvent (self,event,npc, player) :
     htmltext = event
+    st = player.getQuestState(qn)
+    if not st : return
     if event == "1" :
         htmltext = "30103-06.htm"
         st.set("cond","1")
@@ -206,7 +208,7 @@ class Quest (JQuest) :
    elif npcId == 30688 and st.getInt("cond")>=1 and st.getQuestItemsCount(NORMANS_RECEIPT_ID) == 0 and st.getQuestItemsCount(DUNINGS_INSTRUCTIONS_ID) == 0 and st.getQuestItemsCount(DUNINGS_KEY_ID) == 0 and st.getQuestItemsCount(ALLTRANS_INSTRUCTIONS_ID)==1 :
         htmltext = "30688-01.htm"
    elif npcId == 30298 and st.getInt("cond")>=1 and st.getQuestItemsCount(ALLTRANS_INSTRUCTIONS_ID) and st.getQuestItemsCount(ALLTRANS_RECOMMEND2_ID) :
-        if player.getLevel() < 36 :
+        if player.getLevel() < 35 :
           htmltext = "30298-01.htm"
         else:
           htmltext = "30298-02.htm"

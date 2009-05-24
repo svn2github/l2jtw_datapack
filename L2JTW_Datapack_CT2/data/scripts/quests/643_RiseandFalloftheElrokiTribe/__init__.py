@@ -17,14 +17,16 @@ REWARDS = range(8712,8723)
 class Quest (JQuest) :
 
  def __init__(self,id,name,descr):
-	JQuest.__init__(self,id,name,descr)
-	self.questItemIds = [BONES_OF_A_PLAINS_DINOSAUR]
+ 	JQuest.__init__(self,id,name,descr)
+ 	self.questItemIds = [BONES_OF_A_PLAINS_DINOSAUR]
 
- def onEvent (self,event,st) :
+ def onAdvEvent (self,event,npc, player) :
     htmltext = event
+    st = player.getQuestState(qn)
+    if not st : return
     count = st.getQuestItemsCount(BONES_OF_A_PLAINS_DINOSAUR)
     if event == "None" :
-	return
+        return
     elif event == "32106-03.htm" :
        st.set("cond","1")
        st.setState(State.STARTED)
@@ -34,11 +36,11 @@ class Quest (JQuest) :
        st.giveItems(57,count*1374)                  # pmq 修改
     elif event == "32117-03.htm" :
        if count >= 300 :
-	  st.takeItems(BONES_OF_A_PLAINS_DINOSAUR,300)
-	  st.giveItems(REWARDS[st.getRandom(len(REWARDS))],int(5*Config.RATE_QUESTS_REWARD))
+          st.takeItems(BONES_OF_A_PLAINS_DINOSAUR,300)
+          st.giveItems(REWARDS[st.getRandom(len(REWARDS))],int(5*Config.RATE_QUESTS_REWARD))
        else :
-	  htmltext = "32117-04.htm"
-    elif event == "32106-07.htm" :		# pmq 修改
+          htmltext = "32117-04.htm"	               	# pmq 修改
+    elif event == "32106-07.htm" :
        st.playSound("ItemSound.quest_finish")
        st.exitQuest(1)
        return
@@ -52,19 +54,21 @@ class Quest (JQuest) :
        cond = st.getInt("cond")
        count = st.getQuestItemsCount(BONES_OF_A_PLAINS_DINOSAUR)
        if cond == 0 and npcId == 32106:
-	  if player.getLevel() >= 75 :
-	     htmltext = "32106-01.htm"
-	  else :
-	     htmltext = "32106-00.htm"
-	     st.exitQuest(1)
+          if player.getLevel() >= 75 :
+             htmltext = "32106-01.htm"
+          else :
+             htmltext = "32106-00.htm"
+             st.exitQuest(1)
        elif st.getState() == State.STARTED :
-	  if npcId == 32106 :
-	     if count == 0 :
-		htmltext = "32106-05.htm"
-	     else :
-                htmltext = "32106-05a.htm"  # pmq 修改
-	  elif npcId == 32117 :
-	     htmltext = "32117-01.htm"
+          if npcId == 32106 :
+             if count == 0 :
+                htmltext = "32106-05.htm"
+             else :
+                htmltext = "32106-05a.htm"          # pmq 修改
+                st.takeItems(BONES_OF_A_PLAINS_DINOSAUR,-1)
+                st.giveItems(57,count*1374)
+          elif npcId == 32117 :
+             htmltext = "32117-01.htm"
     return htmltext
 
  def onKill (self, npc, player,isPet):
@@ -73,20 +77,20 @@ class Quest (JQuest) :
     st = partyMember.getQuestState(qn)
     if st :
        if st.getState() == State.STARTED :
-	  npcId = npc.getNpcId()
-	  cond = st.getInt("cond")
-	  count = st.getQuestItemsCount(BONES_OF_A_PLAINS_DINOSAUR)
-	  if cond == 1 :
-	     chance = DROP_CHANCE*Config.RATE_DROP_QUEST
-	     numItems, chance = divmod(chance,100)
-	     if st.getRandom(100) < chance :
-		numItems += 1
-	     if numItems :
-		if int(count + numItems)/300 > int(count)/300 :
-		   st.playSound("ItemSound.quest_middle")
-		else :
-		   st.playSound("ItemSound.quest_itemget")
-		st.giveItems(BONES_OF_A_PLAINS_DINOSAUR,int(numItems))
+          npcId = npc.getNpcId()
+          cond = st.getInt("cond")
+          count = st.getQuestItemsCount(BONES_OF_A_PLAINS_DINOSAUR)
+          if cond == 1 :
+             chance = DROP_CHANCE*Config.RATE_DROP_QUEST
+             numItems, chance = divmod(chance,100)
+             if st.getRandom(100) < chance : 
+                numItems += 1
+             if numItems :
+                if int(count + numItems)/300 > int(count)/300 :
+                   st.playSound("ItemSound.quest_middle")
+                else :
+                   st.playSound("ItemSound.quest_itemget")
+                st.giveItems(BONES_OF_A_PLAINS_DINOSAUR,int(numItems))
     return
 
 QUEST = Quest(643,qn,"耶爾可羅一族的興盛衰亡")

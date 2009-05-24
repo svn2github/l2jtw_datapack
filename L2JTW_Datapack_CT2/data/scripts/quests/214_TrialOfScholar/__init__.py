@@ -33,8 +33,10 @@ class Quest (JQuest) :
      JQuest.__init__(self,id,name,descr)
      self.questItemIds = range (2714,2721)
 
- def onEvent (self,event,st) :
+ def onAdvEvent (self,event,npc, player) :
     htmltext = event
+    st = player.getQuestState(qn)
+    if not st : return
     if event == "1" :
         htmltext = "30461-04.htm"
         st.set("cond","1")
@@ -42,7 +44,7 @@ class Quest (JQuest) :
         st.playSound("ItemSound.quest_accept")
         st.giveItems(MIRIENS_SIGIL1_ID,1)
     elif event == "30461_1" :
-          if st.getPlayer().getLevel()<36 :
+          if st.getPlayer().getLevel()<35 :
             htmltext = "30461-09.htm"
             st.takeItems(SYMBOL_OF_JUREK_ID,-1)
             st.takeItems(MIRIENS_SIGIL2_ID,-1)
@@ -266,7 +268,7 @@ class Quest (JQuest) :
    elif npcId == 30461 and (cond > 14 and cond < 18) :
         htmltext = "30461-07.htm"
    elif npcId == 30461 and cond == 18 and st.getQuestItemsCount(MIRIENS_INSTRUCTION_ID)>=1 :
-        if player.getLevel()<36 :
+        if player.getLevel()<35 :
           htmltext = "30461-11.htm"
         else:
           htmltext = "30461-12.htm"

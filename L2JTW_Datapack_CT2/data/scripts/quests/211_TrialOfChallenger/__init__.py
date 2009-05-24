@@ -29,8 +29,10 @@ class Quest (JQuest) :
      JQuest.__init__(self,id,name,descr)
      self.questItemIds = [SCROLL_OF_SHYSLASSY, LETTER_OF_KASH, WATCHERS_EYE1, BROKEN_KEY, WATCHERS_EYE2]
 
- def onEvent (self,event,st) :
+ def onAdvEvent (self,event,npc, player) :
     htmltext = event
+    st = player.getQuestState(qn)
+    if not st : return
     if event == "1" :
       htmltext = "30644-05.htm"
       st.set("cond","1")
@@ -157,7 +159,7 @@ class Quest (JQuest) :
       st.playSound("ItemSound.quest_finish")
       st.set("cond","0")
    elif npcId == 30535 and cond == 7 :
-      if player.getLevel() >= 36 :
+      if player.getLevel() >= 35 :
         htmltext = "30535-01.htm"
         st.addRadar(176560,-184969,-3729);
         st.set("cond","8")

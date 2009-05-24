@@ -10,8 +10,8 @@ GIANT_SPIDER_SKIN = 1495
 ADENA = 57
 HEALING_POTION = 1061
 WOODEN_ARROW = 17
-Soulshot_No_Grade = 1835   #補充對話
-Spiritshot_No_Grade = 2509 #補充對話
+Soulshot_No_Grade = 1835   #pmq修改
+Spiritshot_No_Grade = 2509 #pmq修改
 
 class Quest (JQuest) :
 
@@ -19,8 +19,10 @@ class Quest (JQuest) :
      JQuest.__init__(self,id,name,descr)
      self.questItemIds = [GIANT_SPIDER_SKIN]
 
- def onEvent (self,event,st) :
+ def onAdvEvent (self,event,npc, player) :
     htmltext = event
+    st = player.getQuestState(qn)
+    if not st : return
     count=st.getQuestItemsCount(GIANT_SPIDER_SKIN)
     if event == "30497-03.htm" :
       st.set("cond","1")
@@ -31,21 +33,21 @@ class Quest (JQuest) :
       st.playSound("ItemSound.quest_finish")
     elif event == "30405-04.htm" :
       if count >= 10 :
-         st.giveItems(HEALING_POTION,2)
-         st.takeItems(GIANT_SPIDER_SKIN,10)
-    elif event == "30405-08.htm" :
-      if count >= 10 :
-         st.giveItems(Soulshot_No_Grade,60)
-         st.takeItems(GIANT_SPIDER_SKIN,10)
-    elif event == "30405-09.htm" :
-      if count >= 10 :
-         st.giveItems(Spiritshot_No_Grade,30)
+         st.giveItems(HEALING_POTION,2)       #pmq修改
+         st.takeItems(GIANT_SPIDER_SKIN,10)   #pmq修改
+    elif event == "30405-08.htm" :            #pmq修改
+      if count >= 10 :                        #pmq修改
+         st.giveItems(Soulshot_No_Grade,60)   #pmq修改
+         st.takeItems(GIANT_SPIDER_SKIN,10)   #pmq修改
+    elif event == "30405-09.htm" :            #pmq修改
+      if count >= 10 :                        #pmq修改
+         st.giveItems(Spiritshot_No_Grade,30) #pmq修改
          st.takeItems(GIANT_SPIDER_SKIN,10)
       else:
          htmltext="Incorrect item count"
     elif event == "30405-05.htm" :
       if count >= 10 :
-         st.giveItems(WOODEN_ARROW,250)
+         st.giveItems(WOODEN_ARROW,250)       #pmq修改
          st.takeItems(GIANT_SPIDER_SKIN,10)
       else:
          htmltext="Incorrect item count"

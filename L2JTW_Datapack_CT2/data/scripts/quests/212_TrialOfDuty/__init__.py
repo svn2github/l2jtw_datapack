@@ -30,8 +30,10 @@ class Quest (JQuest) :
      JQuest.__init__(self,id,name,descr)
      self.questItemIds = range(2634, 2647)+[3027]
 
- def onEvent (self,event,st) :
+ def onAdvEvent (self,event,npc, player) :
     htmltext = event
+    st = player.getQuestState(qn)
+    if not st : return
     if event == "1" :
       htmltext = "30109-04.htm"
       st.setState(State.STARTED)
@@ -132,7 +134,7 @@ class Quest (JQuest) :
       st.set("cond","9")
       st.playSound("ItemSound.quest_middle")
    elif npcId == 30655 and cond == 10 :
-      if player.getLevel() >= 36 :
+      if player.getLevel() >= 35 :
         htmltext = "30655-02.htm"
         st.set("cond","11")
         st.playSound("ItemSound.quest_middle")
