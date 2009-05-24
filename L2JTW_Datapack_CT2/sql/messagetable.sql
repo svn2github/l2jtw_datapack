@@ -2369,7 +2369,7 @@ INSERT INTO `messagetable` VALUES ('783', 'cn', '', null);
 INSERT INTO `messagetable` VALUES ('784', 'en', '', null);
 INSERT INTO `messagetable` VALUES ('784', 'tw', '', null);
 INSERT INTO `messagetable` VALUES ('784', 'cn', '', null);
-INSERT INTO `messagetable` VALUES ('785', 'en', ', null);
+INSERT INTO `messagetable` VALUES ('785', 'en', '', null);
 INSERT INTO `messagetable` VALUES ('785', 'tw', '', null);
 INSERT INTO `messagetable` VALUES ('785', 'cn', '', null);
 INSERT INTO `messagetable` VALUES ('786', 'en', 'Exploit attempt: Character $1 of account $2 tryed to add a forbidden henna.', null);
