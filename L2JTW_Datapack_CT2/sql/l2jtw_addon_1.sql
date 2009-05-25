@@ -1114,3 +1114,4 @@ UPDATE `npc` SET `walkspd` = '50' WHERE `id` in (35659,35690,35728,35759,35797,3
 
 -- 修正物品類型
 UPDATE `weapon` SET `bodypart` = 'lhand' WHERE `item_id` in (13770);  -- 艾罕米亞卡修之盾
+UPDATE `etcitem` SET `item_type` = 'none', `consume_type` = 'stackable' WHERE `item_id` in (13277,13278);  -- 能量星石/高級能量星石

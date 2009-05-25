@@ -2250,14 +2250,14 @@ INSERT INTO `messagetable` VALUES ('744', 'en', 'The regurarly scheduled airship
 INSERT INTO `messagetable` VALUES ('744', 'tw', '開往格勒西亞大陸的定期飛空艇已出發。', null);
 INSERT INTO `messagetable` VALUES ('744', 'cn', '开往格勒西亚大陆的定期飞空艇已出发。', null);
 INSERT INTO `messagetable` VALUES ('745', 'en', 'Fewer than 100', null);
-INSERT INTO `messagetable` VALUES ('745', 'tw', '少於 100', null);
-INSERT INTO `messagetable` VALUES ('745', 'cn', '少于 100', null);
+INSERT INTO `messagetable` VALUES ('745', 'tw', '未滿100名', null);
+INSERT INTO `messagetable` VALUES ('745', 'cn', '未满100名', null);
 INSERT INTO `messagetable` VALUES ('746', 'en', '$1 has been registered to attack $2', null);
 INSERT INTO `messagetable` VALUES ('746', 'tw', '「$1」已登記為「$2」攻城戰攻城方。', null);
 INSERT INTO `messagetable` VALUES ('746', 'cn', '“$1”已登记为“$2”攻城战攻城方。', null);
 INSERT INTO `messagetable` VALUES ('747', 'en', 'More than 100', null);
-INSERT INTO `messagetable` VALUES ('747', 'tw', '大於 100', null);
-INSERT INTO `messagetable` VALUES ('747', 'cn', '大于 100', null);
+INSERT INTO `messagetable` VALUES ('747', 'tw', '已滿100名', null);
+INSERT INTO `messagetable` VALUES ('747', 'cn', '已满100名', null);
 INSERT INTO `messagetable` VALUES ('748', 'en', '$1 has been registered to defend $2', null);
 INSERT INTO `messagetable` VALUES ('748', 'tw', '「$1」已登記為「$2」攻城戰守城方。', null);
 INSERT INTO `messagetable` VALUES ('748', 'cn', '“$1”已登记为“$2”攻城战守城方。', null);
