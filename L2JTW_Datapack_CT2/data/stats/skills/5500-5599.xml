@@ -197,21 +197,21 @@
   <set name="skillType" val="NOTDONE"/>
   <set name="operateType" val="OP_PASSIVE"/>
 </skill>
-<skill id="5535" levels="1" name="Little Angel Agathion Cuteness Attack">
+<skill id="5535" levels="1" name="Little Angel Cuteness Trick">
   <set name="target" val="TARGET_SELF"/>
   <set name="skillType" val="DUMMY"/>
   <set name="hitTime" val="3000"/>
   <set name="staticHitTime" val="true"/>
   <set name="operateType" val="OP_ACTIVE"/>
 </skill>
-<skill id="5536" levels="1" name="Little Devil Agathion Cuteness Attack">
+<skill id="5536" levels="1" name="Little Devil Cuteness Trick">
   <set name="target" val="TARGET_SELF"/>
   <set name="skillType" val="DUMMY"/>
   <set name="hitTime" val="3000"/>
   <set name="staticHitTime" val="true"/>
   <set name="operateType" val="OP_ACTIVE"/>
 </skill>
-<skill id="5537" levels="1" name="Rudolph Agathion Cuteness Attack">
+<skill id="5537" levels="1" name="Rudolph Cuteness Trick">
   <set name="target" val="TARGET_SELF"/>
   <set name="skillType" val="DUMMY"/>
   <set name="hitTime" val="3000"/>
@@ -342,7 +342,7 @@
   <set name="skillType" val="NOTDONE"/>
   <set name="operateType" val="OP_PASSIVE"/>
 </skill>
-<skill id="5556" levels="1" name="Protection of Rune">
+<skill id="5556" levels="1" name="Protection Power">
   <set name="target" val="TARGET_NONE"/>
   <set name="skillType" val="NOTDONE"/>
   <set name="operateType" val="OP_PASSIVE"/>
@@ -359,12 +359,9 @@
 </skill>
 <skill id="5559" levels="1" name="Fighter's Will">
   <!-- Update by rocknow -->
-  <set name="weaponsAllowed" val="184156"/>
   <set name="activationChance" val="5"/>
   <set name="chanceType" val="ON_HIT"/>
-  <set name="castRange" val="-1"/>
-  <set name="effectRange" val="-1"/>
-  <set name="operateType" val="OP_PASSIVE"/>
+  <set name="operateType" val="OP_ACTIVE"/>
   <set name="skillType" val="BUFF"/>
   <set name="target" val="TARGET_SELF"/>
   <cond>
@@ -375,19 +372,16 @@
     </and>
   </cond>
   <for>
-    <effect count="1" name="Buff" time="5" val="0" stackOrder="1" stackType="attack_will">
+    <effect name="Buff" time="10" val="0">
       <mul order="0x30" stat="rCrit" val="1.1"/>
     </effect>
   </for>
 </skill>
 <skill id="5560" levels="1" name="Archer's Will">
   <!-- Update by rocknow -->
-  <set name="weaponsAllowed" val="65568"/>
   <set name="activationChance" val="5"/>
   <set name="chanceType" val="ON_HIT"/>
-  <set name="castRange" val="-1"/>
-  <set name="effectRange" val="-1"/>
-  <set name="operateType" val="OP_PASSIVE"/>
+  <set name="operateType" val="OP_ACTIVE"/>
   <set name="skillType" val="BUFF"/>
   <set name="target" val="TARGET_SELF"/>
   <cond>
@@ -398,7 +392,7 @@
     </and>
   </cond>
   <for>
-    <effect count="1" name="Buff" time="5" val="0" stackOrder="1" stackType="attack_will">
+    <effect name="Buff" time="10" val="0">
       <mul order="0x30" stat="rCrit" val="1.1"/>
     </effect>
   </for>
@@ -423,7 +417,7 @@
   <set name="skillType" val="NOTDONE"/>
   <set name="operateType" val="OP_PASSIVE"/>
 </skill>
-<skill id="5565" levels="1" name="Expose Weak Poin">
+<skill id="5565" levels="1" name="Expose Weak Point">
   <set name="target" val="TARGET_NONE"/>
   <set name="skillType" val="NOTDONE"/>
   <set name="operateType" val="OP_PASSIVE"/>
@@ -445,7 +439,7 @@
   <set name="power" val="50"/>
   <set name="isDebuff" val="true"/>
   <set name="element" val="2"/>
-  <set name="operateType" val="OP_PASSIVE"/>
+  <set name="operateType" val="OP_ACTIVE"/>
   <cond>
     <and>
       <not>
@@ -467,7 +461,7 @@
   <set name="effectRange" val="1400"/>
   <set name="power" val="50"/>
   <set name="isDebuff" val="true"/>
-  <set name="operateType" val="OP_PASSIVE"/>
+  <set name="operateType" val="OP_ACTIVE"/>
   <cond>
     <and>
       <not>
@@ -491,7 +485,7 @@
   <set name="effectRange" val="1400"/>
   <set name="power" val="50"/>
   <set name="isDebuff" val="true"/>
-  <set name="operateType" val="OP_PASSIVE"/>
+  <set name="operateType" val="OP_ACTIVE"/>
   <cond>
     <and>
       <not>
@@ -711,7 +705,7 @@
   <set name="castRange" val="900"/>
   <set name="chanceType" val="ON_ATTACKED"/>
   <set name="effectRange" val="1400"/>
-  <set name="operateType" val="OP_PASSIVE"/>
+  <set name="operateType" val="OP_ACTIVE"/>
   <set name="power" val="30"/>
   <set name="isMagic" val="false"/>
   <set name="isDebuff" val="true"/>
@@ -740,7 +734,7 @@
   <set name="skillType" val="NOTDONE"/>
   <set name="operateType" val="OP_PASSIVE"/>
 </skill>
-<skill id="5595" levels="1" name="Poison">
+<skill id="5595" levels="1" name="Bleed">
   <set name="target" val="TARGET_NONE"/>
   <set name="skillType" val="NOTDONE"/>
   <set name="operateType" val="OP_PASSIVE"/>
