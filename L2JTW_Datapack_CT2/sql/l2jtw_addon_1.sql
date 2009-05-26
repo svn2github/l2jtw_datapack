@@ -813,6 +813,10 @@ REPLACE INTO `weapon` VALUES
 (20269,'Baguette Crossbow','lrhand','true',500,6,3,'fine_steel','none',1,1,'crossbow',10,0.00000,0,0,0,303,0,3,10080,-1,0,0,'True','True','True','True',0,0,0,0,0,0,0,0,0,'0-0;'),
 (20270,'Baguette\'s Dualsword','lrhand','true',500,3,3,'fine_steel','none',1,1,'dual',8,0.00000,0,0,0,325,0,2,10080,-1,0,0,'True','True','True','True',0,0,0,0,0,0,0,0,0,'0-0;');
 
+-- ∑s¿Yπ¢
+REPLACE INTO `armor` VALUES
+(20401,'20401','hairall','false','none',10,'wood','none',0,-1,-1,0,0,0,0,0,'true','true','true','true','0-0;');
+
 -- ∑s≥˝∫Î
 REPLACE INTO `armor` VALUES
 (13544,'Agathion Summon Bracelet - Boy Teddy Bear','lbracelet','false','none',150,'wood','none',0,-1,-1,0,0,0,0,0,'false','false','true','false','8259-1;5958-1;3267-1;'),
@@ -831,7 +835,8 @@ REPLACE INTO `armor` VALUES
 (20309,'Agathion Seal Bracelet - Dryad','lbracelet','false','none',150,'wood','none',0,-1,-1,0,0,0,0,0,'false','false','true','false','21048-1;23054-1;3267-1;'),
 (20310,'Agathion Seal Bracelet - Wonboso','lbracelet','false','none',150,'wood','none',0,-1,-1,0,0,0,0,0,'false','false','true','false','21049-1;23055-1;3267-1;'),
 (20311,'Agathion Seal Bracelet - Wonboso','lbracelet','false','none',150,'wood','none',0,-1,10080,0,0,0,0,0,'false','false','true','false','21049-1;23055-1;23065-1;3267-1;'),
-(20312,'Agathion Seal Bracelet - Daewoonso','lbracelet','false','none',150,'wood','none',0,-1,-1,0,0,0,0,0,'false','false','true','false','21050-1;23056-1;3267-1;');
+(20312,'Agathion Seal Bracelet - Daewoonso','lbracelet','false','none',150,'wood','none',0,-1,-1,0,0,0,0,0,'false','false','true','false','21050-1;23056-1;3267-1;'),
+(14776,'14776','lbracelet','false','none',150, 'wood','none',0,-1,20160,0,0,0,0,0,'false','false','true','false','8327-1;6136-1;6137-1;3267-1;');
 
 -- ∂¿√O∑‡§l√M≠º§‚≈N / ª]®T•“¬Œ√M≠º§‚≈N
 REPLACE INTO `armor` VALUES

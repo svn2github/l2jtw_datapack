@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <list>
-<skill id="6100" levels="3" name="Turkey's Choice">
+<skill id="6100" levels="3" name="Turkey's Choice - Scissors">
   <set name="target" val="TARGET_NONE"/>
   <set name="skillType" val="NOTDONE"/>
   <set name="operateType" val="OP_PASSIVE"/>
 </skill>
-<skill id="6103" levels="5" name="Showdown with the Turkey">
+<skill id="6103" levels="5" name="Showdown with the Turkey - 1 Win">
   <set name="target" val="TARGET_NONE"/>
   <set name="skillType" val="NOTDONE"/>
   <set name="operateType" val="OP_PASSIVE"/>
@@ -75,7 +75,7 @@
   <set name="skillType" val="NOTDONE"/>
   <set name="operateType" val="OP_PASSIVE"/>
 </skill>
-<skill id="6117" levels="3" name="Choice">
+<skill id="6117" levels="3" name="Choice - Scissors">
   <set name="target" val="TARGET_NONE"/>
   <set name="skillType" val="NOTDONE"/>
   <set name="operateType" val="OP_PASSIVE"/>
@@ -149,9 +149,14 @@
   <set name="operateType" val="OP_PASSIVE"/>
 </skill>
 <skill id="6133" levels="1" name="Effect of Doubt">
-  <set name="target" val="TARGET_NONE"/>
-  <set name="skillType" val="NOTDONE"/>
-  <set name="operateType" val="OP_PASSIVE"/>
+  <!-- Update by rocknow -->
+  <set name="magicLvl" val="1"/>
+  <set name="operateType" val="OP_ACTIVE"/>
+  <set name="skillType" val="BUFF"/>
+  <set name="target" val="TARGET_ONE"/>
+  <for>
+    <effect name="BigHead" time="300" val="0" abnormal="bighead" stackOrder="300" stackType="big_head"/>
+  </for>
 </skill>
 <skill id="6134" levels="1" name="Curse of the Mutant Animal">
   <set name="target" val="TARGET_NONE"/>
@@ -162,5 +167,23 @@
   <set name="target" val="TARGET_NONE"/>
   <set name="skillType" val="NOTDONE"/>
   <set name="operateType" val="OP_PASSIVE"/>
+</skill>
+<skill id="6136" levels="1" name="6136">
+  <!-- Update by rocknow -->
+  <set name="target" val="TARGET_SELF"/>
+  <set name="skillType" val="DUMMY"/>
+  <set name="hitTime" val="3000"/>
+  <set name="staticHitTime" val="true"/>
+  <set name="operateType" val="OP_ACTIVE"/>
+</skill>
+<skill id="6137" levels="1" name="6137">
+  <!-- Update by rocknow -->
+  <set name="magicLvl" val="1"/>
+  <set name="operateType" val="OP_ACTIVE"/>
+  <set name="skillType" val="BUFF"/>
+  <set name="target" val="TARGET_SELF"/>
+  <for>
+    <effect name="BigHead" time="300" val="0" abnormal="bighead" stackOrder="300" stackType="big_head"/>
+  </for>
 </skill>
 </list>

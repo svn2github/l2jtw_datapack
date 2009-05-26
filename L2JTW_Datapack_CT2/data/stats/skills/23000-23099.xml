@@ -30,14 +30,12 @@
 </skill>
 <skill id="23004" levels="1" name="Majo Agathion Special Skill - Mysterious Power">
   <!-- Update by rocknow -->
-  <set name="castRange" val="-1"/>
-  <set name="effectRange" val="-1"/>
   <set name="magicLvl" val="1"/>
   <set name="operateType" val="OP_ACTIVE"/>
   <set name="skillType" val="BUFF"/>
   <set name="target" val="TARGET_SELF"/>
   <for>
-    <effect count="1" name="BigHead" time="300" val="0" abnormal="bighead" stackOrder="300" stackType="big_head"/>
+    <effect name="BigHead" time="300" val="0" abnormal="bighead" stackOrder="300" stackType="big_head"/>
   </for>
 </skill>
 <skill id="23005" levels="1" name="Gold Majo Agathion Special Skill - Power of Blessed Resurrection">
@@ -61,14 +59,12 @@
 </skill>
 <skill id="23007" levels="1" name="Plaipitak Agathion Special Skill - Mysterious Power">
   <!-- Update by rocknow -->
-  <set name="castRange" val="-1"/>
-  <set name="effectRange" val="-1"/>
   <set name="magicLvl" val="1"/>
   <set name="operateType" val="OP_ACTIVE"/>
   <set name="skillType" val="BUFF"/>
   <set name="target" val="TARGET_SELF"/>
   <for>
-    <effect count="1" name="BigHead" time="300" val="0" abnormal="bighead" stackOrder="300" stackType="big_head"/>
+    <effect name="BigHead" time="300" val="0" abnormal="bighead" stackOrder="300" stackType="big_head"/>
   </for>
 </skill>
 <skill id="23008" levels="1" name="Plaipitak Agathion Special Skill - Power of Blessed Return">
@@ -113,14 +109,12 @@
 </skill>
 <skill id="23013" levels="1" name="Baby Panda Agathion Special Skill">
   <!-- Update by rocknow -->
-  <set name="castRange" val="-1"/>
-  <set name="effectRange" val="-1"/>
   <set name="magicLvl" val="1"/>
   <set name="operateType" val="OP_ACTIVE"/>
   <set name="skillType" val="BUFF"/>
   <set name="target" val="TARGET_SELF"/>
   <for>
-    <effect count="1" name="BigHead" time="300" val="0" abnormal="bighead" stackOrder="300" stackType="big_head"/>
+    <effect name="BigHead" time="300" val="0" abnormal="bighead" stackOrder="300" stackType="big_head"/>
   </for>
 </skill>
 <skill id="23014" levels="1" name="Bamboo Panda Agathion Special Skill">
@@ -176,7 +170,7 @@
   <set name="skillType" val="NOTDONE"/>
   <set name="operateType" val="OP_PASSIVE"/>
 </skill>
-<skill id="23022" levels="10" name="First Wink">
+<skill id="23022" levels="10" name="First Win">
   <set name="target" val="TARGET_NONE"/>
   <set name="skillType" val="NOTDONE"/>
   <set name="operateType" val="OP_PASSIVE"/>
@@ -499,24 +493,21 @@
 </skill>
 <skill id="23059" levels="1" name="Great Sumo Match Agathion Special Skill - Mysterious Power">
   <!-- Update by rocknow -->
-  <set name="castRange" val="-1"/>
-  <set name="effectRange" val="-1"/>
   <set name="magicLvl" val="1"/>
   <set name="operateType" val="OP_ACTIVE"/>
   <set name="skillType" val="BUFF"/>
   <set name="target" val="TARGET_SELF"/>
   <for>
-    <effect count="1" name="BigHead" time="300" val="0" abnormal="bighead" stackOrder="300" stackType="big_head"/>
+    <effect name="BigHead" time="300" val="0" abnormal="bighead" stackOrder="300" stackType="big_head"/>
   </for>
 </skill>
 <skill id="23060" levels="1" name="Great Sumo Match Agathion Special Skill - Ability of Firework">
   <!-- Update by rocknow -->
   <set name="target" val="TARGET_SELF"/>
   <set name="skillType" val="DUMMY"/>
-  <set name="reuseDelay" val="300000"/>
-  <set name="staticReuse" val="true"/>
-  <set name="staticHitTime" val="true"/>
   <set name="operateType" val="OP_ACTIVE"/>
+  <set name="reuseDelay" val="5000"/>
+  <set name="staticReuse" val="true"/>
 </skill>
 <skill id="23061" levels="1" name="Button-Eyed Bear Doll Agathion Special Skill - Ability of Blessed Return">
   <!-- Update by rocknow -->

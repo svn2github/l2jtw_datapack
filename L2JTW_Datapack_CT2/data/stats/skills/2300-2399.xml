@@ -5,6 +5,7 @@
   <set name="skillType" val="NOTDONE"/>
   <set name="operateType" val="OP_ACTIVE"/>
   <set name="hitTime" val="500"/>
+  <set name="staticHitTime" val="true"/>
   <cond msgId="113" addName="1">
     <player flyMounted="False"/>
   </cond>
@@ -14,6 +15,7 @@
   <set name="skillType" val="NOTDONE"/>
   <set name="operateType" val="OP_ACTIVE"/>
   <set name="hitTime" val="500"/>
+  <set name="staticHitTime" val="true"/>
   <cond msgId="113" addName="1">
     <player flyMounted="False"/>
   </cond>
@@ -23,6 +25,7 @@
   <set name="skillType" val="NOTDONE"/>
   <set name="operateType" val="OP_ACTIVE"/>
   <set name="hitTime" val="500"/>
+  <set name="staticHitTime" val="true"/>
   <cond msgId="113" addName="1">
     <player flyMounted="False"/>
   </cond>
@@ -32,6 +35,7 @@
   <set name="skillType" val="NOTDONE"/>
   <set name="operateType" val="OP_ACTIVE"/>
   <set name="hitTime" val="500"/>
+  <set name="staticHitTime" val="true"/>
   <cond msgId="113" addName="1">
     <player flyMounted="False"/>
   </cond>
@@ -41,6 +45,7 @@
   <set name="skillType" val="NOTDONE"/>
   <set name="operateType" val="OP_ACTIVE"/>
   <set name="hitTime" val="500"/>
+  <set name="staticHitTime" val="true"/>
   <cond msgId="113" addName="1">
     <player flyMounted="False"/>
   </cond>
@@ -65,10 +70,12 @@
   <set name="itemConsumeId" val="#itemConsumeId"/>
   <set name="itemConsumeCount" val="1"/>
   <set name="hitTime" val="200"/>
+  <set name="staticHitTime" val="true"/>
   <set name="magicLvl" val="1"/>
   <set name="operateType" val="OP_ACTIVE"/>
   <set name="power" val="#power"/>
   <set name="reuseDelay" val="3000"/>
+  <set name="staticReuse" val="true"/>
   <set name="skillType" val="GIVE_SP"/>
   <set name="target" val="TARGET_SELF"/>
   <cond msgId="113" addName="1">
@@ -111,6 +118,7 @@
   <!-- Needs to be verified -->
   <set name="target" val="TARGET_SELF"/>
   <set name="hitTime" val="4000"/>
+  <set name="staticHitTime" val="true"/>
   <set name="skillType" val="BUFF"/>
   <set name="operateType" val="OP_ACTIVE"/>
   <cond msgId="113" addName="1">
@@ -126,6 +134,7 @@
   <!-- Needs to be verified -->
   <set name="target" val="TARGET_SELF"/>
   <set name="hitTime" val="4000"/>
+  <set name="staticHitTime" val="true"/>
   <set name="skillType" val="BUFF"/>
   <set name="operateType" val="OP_ACTIVE"/>
   <cond msgId="113" addName="1">
@@ -141,6 +150,7 @@
   <!-- Needs to be verified -->
   <set name="target" val="TARGET_SELF"/>
   <set name="hitTime" val="4000"/>
+  <set name="staticHitTime" val="true"/>
   <set name="skillType" val="BUFF"/>
   <set name="operateType" val="OP_ACTIVE"/>
   <cond msgId="113" addName="1">
@@ -156,6 +166,7 @@
   <!-- Needs to be verified -->
   <set name="target" val="TARGET_SELF"/>
   <set name="hitTime" val="4000"/>
+  <set name="staticHitTime" val="true"/>
   <set name="skillType" val="BUFF"/>
   <set name="operateType" val="OP_ACTIVE"/>
   <cond msgId="113" addName="1">
@@ -171,6 +182,7 @@
   <!-- Needs to be verified -->
   <set name="target" val="TARGET_SELF"/>
   <set name="hitTime" val="4000"/>
+  <set name="staticHitTime" val="true"/>
   <set name="skillType" val="BUFF"/>
   <set name="operateType" val="OP_ACTIVE"/>
   <cond msgId="113" addName="1">
@@ -186,6 +198,7 @@
   <!-- Needs to be verified -->
   <set name="target" val="TARGET_SELF"/>
   <set name="hitTime" val="4000"/>
+  <set name="staticHitTime" val="true"/>
   <set name="skillType" val="BUFF"/>
   <set name="operateType" val="OP_ACTIVE"/>
   <cond msgId="113" addName="1">
@@ -201,6 +214,7 @@
   <!-- Needs to be verified -->
   <set name="target" val="TARGET_SELF"/>
   <set name="hitTime" val="4000"/>
+  <set name="staticHitTime" val="true"/>
   <set name="skillType" val="BUFF"/>
   <set name="operateType" val="OP_ACTIVE"/>
   <cond msgId="113" addName="1">
@@ -216,6 +230,7 @@
   <!-- Needs to be verified -->
   <set name="target" val="TARGET_SELF"/>
   <set name="hitTime" val="4000"/>
+  <set name="staticHitTime" val="true"/>
   <set name="skillType" val="BUFF"/>
   <set name="operateType" val="OP_ACTIVE"/>
   <cond msgId="113" addName="1">
@@ -231,6 +246,7 @@
   <!-- Needs to be verified -->
   <set name="target" val="TARGET_SELF"/>
   <set name="hitTime" val="4000"/>
+  <set name="staticHitTime" val="true"/>
   <set name="skillType" val="BUFF"/>
   <set name="operateType" val="OP_ACTIVE"/>
   <cond msgId="113" addName="1">
@@ -246,6 +262,7 @@
   <!-- Needs to be verified -->
   <set name="target" val="TARGET_SELF"/>
   <set name="hitTime" val="4000"/>
+  <set name="staticHitTime" val="true"/>
   <set name="skillType" val="BUFF"/>
   <set name="operateType" val="OP_ACTIVE"/>
   <cond msgId="113" addName="1">
@@ -262,6 +279,7 @@
   <set name="itemConsumeCount" val="1"/>
   <set name="target" val="TARGET_SELF"/>
   <set name="hitTime" val="200"/>
+  <set name="staticHitTime" val="true"/>
   <set name="skillType" val="RECALL"/>
   <set name="operateType" val="OP_ACTIVE"/>
 </skill>
@@ -270,6 +288,7 @@
   <set name="power" val="100"/>
   <set name="target" val="TARGET_CORPSE_PLAYER"/>
   <set name="hitTime" val="3000"/>
+  <set name="staticHitTime" val="true"/>
   <set name="skillType" val="RESURRECT"/>
   <set name="operateType" val="OP_ACTIVE"/>
   <set name="castRange" val="400"/>
@@ -345,6 +364,7 @@
   <set name="itemConsumeId" val="9997"/>
   <set name="itemConsumeCount" val="1"/>
   <set name="hitTime" val="100"/>
+  <set name="staticHitTime" val="true"/>
   <set name="target" val="TARGET_SELF"/>
   <set name="skillType" val="BUFF"/>
   <set name="operateType" val="OP_ACTIVE"/>
@@ -363,6 +383,7 @@
   <set name="itemConsumeId" val="9998"/>
   <set name="itemConsumeCount" val="1"/>
   <set name="hitTime" val="100"/>
+  <set name="staticHitTime" val="true"/>
   <set name="target" val="TARGET_SELF"/>
   <set name="skillType" val="BUFF"/>
   <set name="operateType" val="OP_ACTIVE"/>
@@ -381,6 +402,7 @@
   <set name="itemConsumeId" val="10000"/>
   <set name="itemConsumeCount" val="1"/>
   <set name="hitTime" val="100"/>
+  <set name="staticHitTime" val="true"/>
   <set name="target" val="TARGET_SELF"/>
   <set name="skillType" val="BUFF"/>
   <set name="operateType" val="OP_ACTIVE"/>
@@ -399,6 +421,7 @@
   <set name="itemConsumeId" val="9999"/>
   <set name="itemConsumeCount" val="1"/>
   <set name="hitTime" val="100"/>
+  <set name="staticHitTime" val="true"/>
   <set name="target" val="TARGET_SELF"/>
   <set name="skillType" val="BUFF"/>
   <set name="operateType" val="OP_ACTIVE"/>
@@ -417,6 +440,7 @@
   <set name="itemConsumeId" val="10002"/>
   <set name="itemConsumeCount" val="1"/>
   <set name="hitTime" val="100"/>
+  <set name="staticHitTime" val="true"/>
   <set name="target" val="TARGET_SELF"/>
   <set name="skillType" val="BUFF"/>
   <set name="operateType" val="OP_ACTIVE"/>
@@ -435,6 +459,7 @@
   <set name="itemConsumeId" val="10001"/>
   <set name="itemConsumeCount" val="1"/>
   <set name="hitTime" val="100"/>
+  <set name="staticHitTime" val="true"/>
   <set name="target" val="TARGET_SELF"/>
   <set name="skillType" val="BUFF"/>
   <set name="operateType" val="OP_ACTIVE"/>
@@ -472,108 +497,126 @@
   <set name="skillType" val="NOTDONE"/>
   <set name="operateType" val="OP_PASSIVE"/>
   <set name="hitTime" val="500"/>
+  <set name="staticHitTime" val="true"/>
 </skill>
 <skill id="2344" levels="1" name="Gate Key of Records">
   <set name="target" val="TARGET_NONE"/>
   <set name="skillType" val="NOTDONE"/>
   <set name="operateType" val="OP_PASSIVE"/>
   <set name="hitTime" val="500"/>
+  <set name="staticHitTime" val="true"/>
 </skill>
 <skill id="2345" levels="1" name="Gate Key of Observation">
   <set name="target" val="TARGET_NONE"/>
   <set name="skillType" val="NOTDONE"/>
   <set name="operateType" val="OP_PASSIVE"/>
   <set name="hitTime" val="500"/>
+  <set name="staticHitTime" val="true"/>
 </skill>
 <skill id="2346" levels="1" name="Gate Key of Specula">
   <set name="target" val="TARGET_NONE"/>
   <set name="skillType" val="NOTDONE"/>
   <set name="operateType" val="OP_PASSIVE"/>
   <set name="hitTime" val="500"/>
+  <set name="staticHitTime" val="true"/>
 </skill>
 <skill id="2347" levels="1" name="Enuma Elish Key">
   <set name="target" val="TARGET_NONE"/>
   <set name="skillType" val="NOTDONE"/>
   <set name="operateType" val="OP_PASSIVE"/>
   <set name="hitTime" val="500"/>
+  <set name="staticHitTime" val="true"/>
 </skill>
 <skill id="2348" levels="1" name="Prahnah Key">
   <set name="target" val="TARGET_NONE"/>
   <set name="skillType" val="NOTDONE"/>
   <set name="operateType" val="OP_PASSIVE"/>
   <set name="hitTime" val="500"/>
+  <set name="staticHitTime" val="true"/>
 </skill>
 <skill id="2349" levels="1" name="Gate Key of Arvitaire">
   <set name="target" val="TARGET_NONE"/>
   <set name="skillType" val="NOTDONE"/>
   <set name="operateType" val="OP_PASSIVE"/>
   <set name="hitTime" val="500"/>
+  <set name="staticHitTime" val="true"/>
 </skill>
 <skill id="2350" levels="1" name="Leopold Key">
   <set name="target" val="TARGET_NONE"/>
   <set name="skillType" val="NOTDONE"/>
   <set name="operateType" val="OP_PASSIVE"/>
   <set name="hitTime" val="500"/>
+  <set name="staticHitTime" val="true"/>
 </skill>
 <skill id="2351" levels="1" name="Gate Key of Prediction">
   <set name="target" val="TARGET_NONE"/>
   <set name="skillType" val="NOTDONE"/>
   <set name="operateType" val="OP_PASSIVE"/>
   <set name="hitTime" val="500"/>
+  <set name="staticHitTime" val="true"/>
 </skill>
 <skill id="2352" levels="1" name="Gate Key of Nornil">
   <set name="target" val="TARGET_NONE"/>
   <set name="skillType" val="NOTDONE"/>
   <set name="operateType" val="OP_PASSIVE"/>
   <set name="hitTime" val="500"/>
+  <set name="staticHitTime" val="true"/>
 </skill>
 <skill id="2353" levels="1" name="Nornil's Power">
   <set name="target" val="TARGET_NONE"/>
   <set name="skillType" val="NOTDONE"/>
   <set name="operateType" val="OP_PASSIVE"/>
   <set name="hitTime" val="1000"/>
+  <set name="staticHitTime" val="true"/>
 </skill>
 <skill id="2354" levels="1" name="Gate Key of Darkness">
   <set name="target" val="TARGET_NONE"/>
   <set name="skillType" val="NOTDONE"/>
   <set name="operateType" val="OP_PASSIVE"/>
   <set name="hitTime" val="500"/>
+  <set name="staticHitTime" val="true"/>
 </skill>
 <skill id="2355" levels="1" name="Gate Key of Destruction">
   <set name="target" val="TARGET_NONE"/>
   <set name="skillType" val="NOTDONE"/>
   <set name="operateType" val="OP_PASSIVE"/>
   <set name="hitTime" val="500"/>
+  <set name="staticHitTime" val="true"/>
 </skill>
 <skill id="2356" levels="1" name="Gate Key of Blood">
   <set name="target" val="TARGET_NONE"/>
   <set name="skillType" val="NOTDONE"/>
   <set name="operateType" val="OP_PASSIVE"/>
   <set name="hitTime" val="500"/>
+  <set name="staticHitTime" val="true"/>
 </skill>
 <skill id="2357" levels="1" name="Fiery Demon Blood">
   <set name="target" val="TARGET_NONE"/>
   <set name="skillType" val="NOTDONE"/>
   <set name="operateType" val="OP_PASSIVE"/>
   <set name="hitTime" val="1000"/>
+  <set name="staticHitTime" val="true"/>
 </skill>
 <skill id="2358" levels="1" name="Holy Water">
   <set name="target" val="TARGET_NONE"/>
   <set name="skillType" val="NOTDONE"/>
   <set name="operateType" val="OP_PASSIVE"/>
   <set name="hitTime" val="500"/>
+  <set name="staticHitTime" val="true"/>
 </skill>
 <skill id="2359" levels="1" name="Magic Bottle">
   <set name="target" val="TARGET_NONE"/>
   <set name="skillType" val="NOTDONE"/>
   <set name="operateType" val="OP_PASSIVE"/>
   <set name="hitTime" val="500"/>
+  <set name="staticHitTime" val="true"/>
 </skill>
 <skill id="2360" levels="1" name="Water Dragon Claw">
   <set name="target" val="TARGET_NONE"/>
   <set name="skillType" val="NOTDONE"/>
   <set name="operateType" val="OP_PASSIVE"/>
   <set name="hitTime" val="500"/>
+  <set name="staticHitTime" val="true"/>
 </skill>
 <skill id="2361" levels="1" name="Evolving Wolf's Food">
   <set name="target" val="TARGET_SELF"/>
@@ -586,27 +629,31 @@
   <set name="skillType" val="NOTDONE"/>
   <set name="operateType" val="OP_PASSIVE"/>
   <set name="hitTime" val="500"/>
+  <set name="staticHitTime" val="true"/>
 </skill>
 <skill id="2363" levels="1" name="Underground Warehouse Key">
   <set name="target" val="TARGET_NONE"/>
   <set name="skillType" val="NOTDONE"/>
   <set name="operateType" val="OP_PASSIVE"/>
   <set name="hitTime" val="500"/>
+  <set name="staticHitTime" val="true"/>
 </skill>
-<skill id="2364" levels="1" name="Blessed Scroll of Fortress">
+<skill id="2364" levels="1" name="Blessed Scroll of Fortress Return">
   <set name="itemConsumeId" val="10130"/>
   <set name="itemConsumeCount" val="1"/>
   <set name="target" val="TARGET_SELF"/>
   <set name="hitTime" val="200"/>
+  <set name="staticHitTime" val="true"/>
   <set name="skillType" val="RECALL"/>
   <set name="recallType" val="Fortress"/>
   <set name="operateType" val="OP_ACTIVE"/>
 </skill>
-<skill id="2365" levels="1" name="Scroll of Fortress">
+<skill id="2365" levels="1" name="Scroll of Fortress Return">
   <set name="itemConsumeId" val="10129"/>
   <set name="itemConsumeCount" val="1"/>
   <set name="target" val="TARGET_SELF"/>
   <set name="hitTime" val="20000"/>
+  <set name="staticHitTime" val="true"/>
   <set name="skillType" val="RECALL"/>
   <set name="recallType" val="Fortress"/>
   <set name="operateType" val="OP_ACTIVE"/>
@@ -616,17 +663,21 @@
   <set name="skillType" val="NOTDONE"/>
   <set name="operateType" val="OP_PASSIVE"/>
   <set name="hitTime" val="500"/>
+  <set name="staticHitTime" val="true"/>
 </skill>
 <skill id="2367" levels="1" name="Red Coral Key">
   <set name="target" val="TARGET_NONE"/>
   <set name="skillType" val="NOTDONE"/>
   <set name="operateType" val="OP_PASSIVE"/>
   <set name="hitTime" val="500"/>
+  <set name="staticHitTime" val="true"/>
 </skill>
 <skill id="2368" levels="1" name="Spirit of the Lake">
   <set name="power" val="10000"/>
   <set name="target" val="TARGET_ONE"/>
   <set name="hitTime" val="8000"/>
+  <set name="staticReuse" val="true"/>
+  <set name="staticHitTime" val="true"/>
   <set name="reuseDelay" val="8000"/> <!-- unknown -->
   <set name="skillType" val="AGGREDUCE"/>
   <set name="operateType" val="OP_ACTIVE"/>
@@ -646,6 +697,7 @@
   <set name="skillType" val="NOTDONE"/>
   <set name="operateType" val="OP_PASSIVE"/>
   <set name="hitTime" val="500"/>
+  <set name="staticHitTime" val="true"/>
 </skill>
 <skill id="2370" levels="1" name="Scroll of Transformation - Pig">
   <set name="target" val="TARGET_SELF"/>
@@ -806,6 +858,7 @@
   <set name="itemConsumeCount" val="1"/>
   <set name="target" val="TARGET_SELF"/>
   <set name="hitTime" val="200"/>
+  <set name="staticHitTime" val="true"/>
   <set name="skillType" val="RECALL"/>
   <set name="operateType" val="OP_ACTIVE"/>
   <cond msgId="113" addName="1">
@@ -817,6 +870,7 @@
   <set name="skillType" val="NOTDONE"/>
   <set name="operateType" val="OP_PASSIVE"/>
   <set name="hitTime" val="3000"/>
+  <set name="staticHitTime" val="true"/>
 </skill>
 <skill id="2394" levels="1" name="Scroll of Battlefield Transformation">
   <!-- Update by rocknow from L2Emu -->
