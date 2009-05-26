@@ -79,6 +79,8 @@ class Quest (JQuest) :
      htmltext = "<html><body>目前沒有執行任務，或條件不符。</body></html>"
      if player.isHero():
         htmltext=render_list("list",0)
+     elif player.isNoble():
+        htmltext = "<html><body>紀念塔：<br>你沒有成為英雄的資格。</body></html>"
      else :
         st.exitQuest(1)
      return htmltext
