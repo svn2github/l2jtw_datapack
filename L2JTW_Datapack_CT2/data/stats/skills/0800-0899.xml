@@ -914,23 +914,33 @@
   <set name="operateType" val="OP_PASSIVE"/>
 </skill>
 <skill id="884" levels="11" name="Air Assault">
-  <set name="target" val="TARGET_NONE"/>
-  <set name="skillType" val="NOTDONE"/>
-  <set name="operateType" val="OP_PASSIVE"/>
-  <set name="reuseDelay" val="23000"/>
+  <!-- Update by rocknow -->
+  <set name="flyCourse" val="100"/>
+  <set name="flyRadius" val="150"/>
+  <set name="hitTime" val="100"/>
+  <set name="mpConsume" val="30"/>
+  <set name="operateType" val="OP_ACTIVE"/>
+  <set name="power" val="100"/>
+  <set name="reuseDelay" val="10000"/>
+  <set name="skillRadius" val="150"/>
+  <set name="skillType" val="MDAM"/>
+  <set name="target" val="TARGET_AURA"/>
+  <for>
+    <effect self="1" name="Warp" val="0" noicon="1"/>
+  </for>
 </skill>
 <skill id="885" levels="1" name="Air Blink">
   <set name="coolTime" val="200"/>
   <set name="flyCourse" val="0"/> <!-- Teleport to Back -->
-  <set name="flyRadius" val="500"/>
+  <set name="flyRadius" val="150"/><!-- Update by rocknow -->
   <set name="hitTime" val="100"/>
   <set name="isDebuff" val="true"/>
   <set name="mpConsume" val="100"/>
   <set name="operateType" val="OP_ACTIVE"/>
   <set name="power" val="100"/>
   <set name="reuseDelay" val="23000"/>
-  <set name="skillRadius" val="150"/>
-  <set name="skillType" val="PDAM"/>
+  <set name="skillRadius" val="150"/><!-- Update by rocknow -->
+  <set name="skillType" val="MDAM"/><!-- Update by rocknow -->
   <set name="target" val="TARGET_AURA"/>
   <for>
     <effect name="Stun" time="2" val="0" effectPower="50" effectType="STUN" stackOrder="1" stackType="Stun"/>
@@ -955,58 +965,140 @@
   </for>
 </skill>
 <skill id="887" levels="11" name="Sky Clutch">
-  <set name="target" val="TARGET_NONE"/>
-  <set name="skillType" val="NOTDONE"/>
-  <set name="operateType" val="OP_PASSIVE"/>
-  <set name="reuseDelay" val="3000"/>
+  <!-- Update by rocknow -->
+  <table name="#mpConsume"> 69 70 70 71 72 72 73 74 74 75 75 </table>
+  <table name="#power"> 110 111 112 114 115 116 117 119 120 121 122 </table>
+  <set name="mpConsume" val="#mpConsume"/>
+  <set name="target" val="TARGET_ONE"/>
+  <set name="reuseDelay" val="1000"/>
+  <set name="hitTime" val="1500"/>
+  <set name="skillType" val="ROOT"/>
+  <set name="isDebuff" val="true"/>
+  <set name="operateType" val="OP_ACTIVE"/>
+  <set name="castRange" val="900"/>
+  <set name="effectRange" val="1500"/>
+  <for>
+    <effect name="Root" time="8" val="0" stackOrder="1" stackType="Root"/>
+  </for>
 </skill>
 <skill id="888" levels="11" name="Energy Storm">
-  <set name="target" val="TARGET_NONE"/>
-  <set name="skillType" val="NOTDONE"/>
-  <set name="operateType" val="OP_PASSIVE"/>
-  <set name="reuseDelay" val="1000"/>
+  <!-- Update by rocknow -->
+  <table name="#mpConsume"> 69 70 70 71 72 72 73 74 74 75 75 </table>
+  <table name="#power"> 3752 3849 3945 4040 4133 4224 4312 4399 4482 4563 4640 </table>
+  <set name="mpConsume" val="#mpConsume"/>
+  <set name="power" val="#power"/>
+  <set name="target" val="TARGET_ONE"/>
+  <set name="hitTime" val="1080"/>
+  <set name="reuseDelay" val="10000"/>
+  <set name="skillType" val="PDAM"/>
+  <set name="operateType" val="OP_ACTIVE"/>
+  <set name="castRange" val="200"/>
+  <set name="effectRange" val="800"/>
 </skill>
 <skill id="889" levels="11" name="Energy Storm">
-  <set name="target" val="TARGET_NONE"/>
-  <set name="skillType" val="NOTDONE"/>
-  <set name="operateType" val="OP_PASSIVE"/>
-  <set name="reuseDelay" val="1000"/>
+  <!-- Update by rocknow -->
+  <table name="#mpConsume"> 69 70 70 71 72 72 73 74 74 75 75 </table>
+  <table name="#power"> 3752 3849 3945 4040 4133 4224 4312 4399 4482 4563 4640 </table>
+  <set name="mpConsume" val="#mpConsume"/>
+  <set name="power" val="#power"/>
+  <set name="target" val="TARGET_ONE"/>
+  <set name="hitTime" val="1080"/>
+  <set name="reuseDelay" val="10000"/>
+  <set name="skillType" val="PDAM"/>
+  <set name="operateType" val="OP_ACTIVE"/>
+  <set name="castRange" val="200"/>
+  <set name="effectRange" val="800"/>
 </skill>
 <skill id="890" levels="11" name="Prodigious Flare">
-  <set name="target" val="TARGET_NONE"/>
-  <set name="skillType" val="NOTDONE"/>
-  <set name="operateType" val="OP_PASSIVE"/>
-  <set name="reuseDelay" val="2000"/>
+  <!-- Update by rocknow -->
+  <table name="#mpConsume"> 69 70 70 71 72 72 73 74 74 75 75 </table>
+  <table name="#power"> 5627 5773 5918 6060 6199 6335 6468 6598 6723 6844 6960 </table>
+  <set name="mpConsume" val="#mpConsume"/>
+  <set name="power" val="#power"/>
+  <set name="target" val="TARGET_ONE"/>
+  <set name="hitTime" val="1500"/>
+  <set name="reuseDelay" val="20000"/>
+  <set name="skillType" val="PDAM"/>
+  <set name="operateType" val="OP_ACTIVE"/>
+  <set name="castRange" val="200"/>
+  <set name="effectRange" val="800"/>
 </skill>
 <skill id="891" levels="11" name="Energy Shot">
-  <set name="target" val="TARGET_NONE"/>
-  <set name="skillType" val="NOTDONE"/>
-  <set name="operateType" val="OP_PASSIVE"/>
-  <set name="reuseDelay" val="3000"/>
+  <!-- Update by rocknow -->
+  <table name="#mpConsume"> 69 70 70 71 72 72 73 74 74 75 75 </table>
+  <table name="#power"> 88 89 90 91 92 93 94 95 96 97 98 </table>
+  <set name="mpConsume" val="#mpConsume"/>
+  <set name="power" val="#power"/>
+  <set name="target" val="TARGET_ONE"/>
+  <set name="hitTime" val="3000"/>
+  <set name="reuseDelay" val="5000"/>
+  <set name="skillType" val="MDAM"/>
+  <set name="isMagic" val="true"/>
+  <set name="operateType" val="OP_ACTIVE"/>
+  <set name="castRange" val="900"/>
+  <set name="effectRange" val="1500"/>
 </skill>
 <skill id="892" levels="11" name="Energy Shot">
-  <set name="target" val="TARGET_NONE"/>
-  <set name="skillType" val="NOTDONE"/>
-  <set name="operateType" val="OP_PASSIVE"/>
-  <set name="reuseDelay" val="3000"/>
+  <!-- Update by rocknow -->
+  <table name="#mpConsume"> 69 70 70 71 72 72 73 74 74 75 75 </table>
+  <table name="#power"> 131 133 135 136 138 139 141 142 144 145 146 </table>
+  <set name="mpConsume" val="#mpConsume"/>
+  <set name="power" val="#power"/>
+  <set name="target" val="TARGET_ONE"/>
+  <set name="hitTime" val="3000"/>
+  <set name="reuseDelay" val="5000"/>
+  <set name="skillType" val="MDAM"/>
+  <set name="isMagic" val="true"/>
+  <set name="operateType" val="OP_ACTIVE"/>
+  <set name="castRange" val="900"/>
+  <set name="effectRange" val="1500"/>
 </skill>
 <skill id="893" levels="11" name="Concentrated Energy Shot">
-  <set name="target" val="TARGET_NONE"/>
-  <set name="skillType" val="NOTDONE"/>
-  <set name="operateType" val="OP_PASSIVE"/>
-  <set name="reuseDelay" val="4000"/>
+  <!-- Update by rocknow -->
+  <table name="#mpConsume"> 69 70 70 71 72 72 73 74 74 75 75 </table>
+  <table name="#power"> 197 199 202 204 206 209 211 213 215 217 219 </table>
+  <set name="mpConsume" val="#mpConsume"/>
+  <set name="power" val="#power"/>
+  <set name="target" val="TARGET_ONE"/>
+  <set name="hitTime" val="3000"/>
+  <set name="reuseDelay" val="5000"/>
+  <set name="skillType" val="MDAM"/>
+  <set name="isMagic" val="true"/>
+  <set name="operateType" val="OP_ACTIVE"/>
+  <set name="castRange" val="900"/>
+  <set name="effectRange" val="1500"/>
 </skill>
 <skill id="894" levels="1" name="Exhilarate">
-  <set name="target" val="TARGET_NONE"/>
-  <set name="skillType" val="NOTDONE"/>
-  <set name="operateType" val="OP_PASSIVE"/>
-  <set name="reuseDelay" val="8000"/>
+  <set name="mpConsume" val="69"/>
+  <set name="target" val="TARGET_SELF"/>
+  <set name="reuseDelay" val="5000"/>
+  <set name="hitTime" val="1500"/>
+  <set name="skillType" val="BUFF"/>
+  <set name="operateType" val="OP_ACTIVE"/>
+  <for>
+    <effect name="Buff" time="300" val="0" stackOrder="1" stackType="possession">
+      <mul order="0x30" stat="pAtk" val="1.2"/>
+      <mul order="0x30" stat="mAtk" val="1.2"/>
+      <mul order="0x30" stat="pAtkSpd" val="1.2"/>
+      <mul order="0x30" stat="mAtkSpd" val="1.2"/>
+    </effect>
+  </for>
 </skill>
 <skill id="895" levels="1" name="Exhilarate">
-  <set name="target" val="TARGET_NONE"/>
-  <set name="skillType" val="NOTDONE"/>
-  <set name="operateType" val="OP_PASSIVE"/>
-  <set name="reuseDelay" val="8000"/>
+  <set name="mpConsume" val="70"/>
+  <set name="target" val="TARGET_SELF"/>
+  <set name="reuseDelay" val="5000"/>
+  <set name="hitTime" val="1500"/>
+  <set name="skillType" val="BUFF"/>
+  <set name="operateType" val="OP_ACTIVE"/>
+  <for>
+    <effect name="Buff" time="300" val="0" stackOrder="1" stackType="possession">
+      <mul order="0x30" stat="pAtk" val="1.2"/>
+      <mul order="0x30" stat="mAtk" val="1.2"/>
+      <mul order="0x30" stat="pAtkSpd" val="1.2"/>
+      <mul order="0x30" stat="mAtkSpd" val="1.2"/>
+    </effect>
+  </for>
 </skill>
 <skill id="896" levels="6" name="Rolling Step">
   <set name="target" val="TARGET_NONE"/>

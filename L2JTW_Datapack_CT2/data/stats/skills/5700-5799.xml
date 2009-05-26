@@ -514,12 +514,11 @@
 </skill>
 <skill id="5780" levels="9" name="Agathion Collection">
   <!-- Update by rocknow -->
-  <set name="target" val="TARGET_AURA"/>
+  <set name="target" val="TARGET_SELF"/>
   <set name="skillType" val="DUMMY"/>
   <set name="hitTime" val="3000"/>
+  <set name="staticHitTime" val="true"/>
   <set name="operateType" val="OP_ACTIVE"/>
-  <set name="castRange" val="500"/>
-  <set name="effectRange" val="1100"/>
 </skill>
 <skill id="5781" levels="1" name="Presentation - Lindvior Approach">
   <set name="target" val="TARGET_NONE"/>

@@ -35,6 +35,24 @@ public class AurabirdOwl extends L2Transformation
 	{
 		// Transfrom Dispel
 		getPlayer().addSkill(SkillTable.getInstance().getInfo(619, 1), false);
+		//Update by rocknow
+		if (getPlayer().getLevel() >= 75)
+			getPlayer().addSkill(SkillTable.getInstance().getInfo(932, 1), false);
+			getPlayer().addSkill(SkillTable.getInstance().getInfo(885, 1), false);
+			getPlayer().addSkill(SkillTable.getInstance().getInfo(895, 1), false);
+
+		int lvl = getPlayer().getLevel() -74;
+		if (lvl > 0)
+		{
+			getPlayer().addSkill(SkillTable.getInstance().getInfo(884, lvl), false);
+			getPlayer().addSkill(SkillTable.getInstance().getInfo(885, lvl), false);
+			getPlayer().addSkill(SkillTable.getInstance().getInfo(887, lvl), false);
+			getPlayer().addSkill(SkillTable.getInstance().getInfo(889, lvl), false);
+			getPlayer().addSkill(SkillTable.getInstance().getInfo(892, lvl), false);
+			getPlayer().addSkill(SkillTable.getInstance().getInfo(893, lvl), false);
+			getPlayer().addSkill(SkillTable.getInstance().getInfo(911, lvl), false);
+			getPlayer().addSkill(SkillTable.getInstance().getInfo(932, lvl), false);
+		}
 		getPlayer().setTransformAllowedSkills(new int[]{619,884,885,887,889,892,893,895,911,932});
 	}
 
@@ -49,6 +67,22 @@ public class AurabirdOwl extends L2Transformation
 	{
 		// Transfrom Dispel
 		getPlayer().removeSkill(SkillTable.getInstance().getInfo(619, 1), false);
+		//Update by rocknow
+		getPlayer().removeSkill(SkillTable.getInstance().getInfo(932, 1), false);
+		getPlayer().removeSkill(SkillTable.getInstance().getInfo(885, 1), false);
+		getPlayer().removeSkill(SkillTable.getInstance().getInfo(895, 1), false);
+
+		int lvl = getPlayer().getLevel() -74;
+		if (lvl > 0)
+		{
+			getPlayer().removeSkill(SkillTable.getInstance().getInfo(884, lvl), false);
+			getPlayer().removeSkill(SkillTable.getInstance().getInfo(885, lvl), false);
+			getPlayer().removeSkill(SkillTable.getInstance().getInfo(887, lvl), false);
+			getPlayer().removeSkill(SkillTable.getInstance().getInfo(889, lvl), false);
+			getPlayer().removeSkill(SkillTable.getInstance().getInfo(892, lvl), false);
+			getPlayer().removeSkill(SkillTable.getInstance().getInfo(893, lvl), false);
+			getPlayer().removeSkill(SkillTable.getInstance().getInfo(911, lvl), false);
+		}
 		getPlayer().setTransformAllowedSkills(new int[]{});
 	}
 
