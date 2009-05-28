@@ -239,9 +239,9 @@ INSERT INTO `messagetable` VALUES ('73', 'cn', '解除锁定“$1”帐号。', 
 INSERT INTO `messagetable` VALUES ('74', 'en', 'Co-ordinate y', null);
 INSERT INTO `messagetable` VALUES ('74', 'tw', 'Y 座標', null);
 INSERT INTO `messagetable` VALUES ('74', 'cn', 'Y 座标', null);
-INSERT INTO `messagetable` VALUES ('75', 'en', 'does not meet the participation requirements. Only Noblesse can participate in the Olympiad.', null);
-INSERT INTO `messagetable` VALUES ('75', 'tw', '不符合參加條件。只有完成三次轉職的貴族身分才能參加奧林匹亞。', null);
-INSERT INTO `messagetable` VALUES ('75', 'cn', '不符合参加条件。只有完成三次转职的贵族身分才能参加奥林匹亚。', null);
+INSERT INTO `messagetable` VALUES ('75', 'en', '', null);
+INSERT INTO `messagetable` VALUES ('75', 'tw', '', null);
+INSERT INTO `messagetable` VALUES ('75', 'cn', '', null);
 INSERT INTO `messagetable` VALUES ('76', 'en', 'Character $1 disconnected from server.', null);
 INSERT INTO `messagetable` VALUES ('76', 'tw', '玩家「$1」從伺服器離線。', null);
 INSERT INTO `messagetable` VALUES ('76', 'cn', '玩家“$1”从服务器离线。', null);
