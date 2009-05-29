@@ -10,7 +10,7 @@ CREATE TABLE `npcCharData` (
   `charface` int(11) DEFAULT NULL,
   `charhair` int(11) DEFAULT NULL,
   `charhaircolor` int(11) DEFAULT NULL,
-  `charcolor` int(11) DEFAULT NULL,
+  `charcolor` varchar(11) DEFAULT NULL,
   `charhero` int(11) DEFAULT NULL,
   `charsex` int(11) DEFAULT NULL,
   `lrhand` decimal(11,0) DEFAULT NULL,
