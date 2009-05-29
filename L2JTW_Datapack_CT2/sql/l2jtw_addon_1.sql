@@ -746,7 +746,6 @@ UPDATE `auction` SET `startingBid` = '20000000' WHERE `id` in (58,59,60,61) and 
 
 /************ 加入破滅國境的道具 ************/
 -- S84薄暮武器
-Delete From `merchant_buylists` Where `item_id` in (52,53,54,55,56,136,137,138,139,140,141,163,170);
 REPLACE INTO `weapon` VALUES
 (13457,'Vesper Cutter','rhand','true',1520,1,1,'steel','s84',396,10,'sword',8,0.00000,0,0,0,379,0,176,-1,-1,0,0,'True','True','True','True',0,0,0,0,0,0,0,0,13468,'0-0;'),
 (13458,'Vesper Slasher','lrhand','true',1740,1,1,'steel','s84',482,10,'bigsword',8,0.00000,0,0,0,325,0,176,-1,-1,0,0,'True','True','True','True',0,0,0,0,0,0,0,0,13470,'0-0;'),
