@@ -322,7 +322,51 @@ public class Antharas extends L2AttackableAIScript
         return super.onAdvEvent(event, npc, player);
 	}
     
-    
+    public String onSpellFinished(L2Npc npc, L2PcInstance player, L2Skill skill)
+    {
+    	if (npc.isInvul())
+		{
+			npc.getAI().setIntention(AI_INTENTION_IDLE);
+			return null;
+		}
+		else if (npc.getNpcId() == ANTHARAS && !npc.isInvul())
+    	{
+    		callSkillAI(npc);
+    	}
+    	return super.onSpellFinished(npc, player, skill);
+    }
+	public String onAttack (L2Npc npc, L2PcInstance attacker, int damage, boolean isPet)
+	{		
+		if (npc.isInvul())
+		{
+			npc.getAI().setIntention(AI_INTENTION_IDLE);
+			return null;
+		}
+		else if (npc.getNpcId() == ANTHARAS && !npc.isInvul())
+    	{
+            _LastAction = System.currentTimeMillis();
+    		if (attacker.getMountType() == 1)
+        	{
+    			int sk_4258 = 0;
+    			L2Effect[] effects = attacker.getAllEffects();
+    			if (effects.length != 0 || effects != null)
+    			{
+    				for (L2Effect e : effects)
+    				{
+    					if (e.getSkill().getId() == 4258)
+    						sk_4258 = 1;
+    				}
+    	        }
+    			if (sk_4258 == 0)
+    			{
+    				npc.setTarget(attacker);
+    				npc.doCast(SkillTable.getInstance().getInfo(4258,1));
+    			}
+        	}
+    		callSkillAI(npc);
+    	}
+		return super.onAttack(npc, attacker, damage, isPet);
+    }
 
     public String onKill (L2Npc npc, L2PcInstance killer, boolean isPet) 
     { 
@@ -350,7 +394,190 @@ public class Antharas extends L2AttackableAIScript
         return super.onKill(npc,killer,isPet);
     }
 
-	
+	public L2Character getRandomTarget(L2Npc npc)
+	{
+		FastList<L2Character> result = new FastList<L2Character>();
+		Collection<L2Object> objs = npc.getKnownList().getKnownObjects().values();
+		{
+			for (L2Object obj : objs)
+			{
+				if (obj instanceof L2Character)
+				{
+					if (((L2Character) obj).getZ() < ( npc.getZ() - 100 ) && ((L2Character) obj).getZ() > ( npc.getZ() + 100 )
+							|| !(GeoData.getInstance().canSeeTarget(((L2Character) obj).getX(), ((L2Character) obj).getY(), ((L2Character) obj).getZ(), npc.getX(), npc.getY(), npc.getZ())))
+						continue;
+				}
+				if (obj instanceof L2PcInstance || obj instanceof L2Summon || obj instanceof L2DecoyInstance)
+				{
+					if (Util.checkIfInRange(5000, npc, obj, true) && !((L2Character) obj).isDead())
+						result.add((L2Character) obj);
+				}
+			}
+		}
+		if (!result.isEmpty() && result.size() != 0)
+		{
+			Object[] characters = result.toArray();
+			QuestTimer timer = getQuestTimer("clean_player", npc, null);
+			if (timer != null)
+				timer.cancel();
+			startQuestTimer("clean_player", 20000, npc, null);
+			return (L2Character) characters[Rnd.get(characters.length)];
+		}
+		return null;
+	}
+
+	public synchronized void callSkillAI(L2Npc npc)
+	{
+		if (npc.isInvul() || npc.isCastingNow()) return;
+
+		if (_target == null || _target.isDead() || !(_Zone.isInsideZone(_target)))
+		{
+			_target = getRandomTarget(npc);
+			if (_target != null)
+				_skill = SkillTable.getInstance().getInfo(getRandomSkill(npc),1);
+		}
+
+		L2Character target = _target;
+		L2Skill skill = _skill;
+		if (skill == null)
+			skill = SkillTable.getInstance().getInfo(getRandomSkill(npc),1);
+		if (target == null || target.isDead() || !(_Zone.isInsideZone(target)))
+		{
+			npc.setIsCastingNow(false);
+			return;
+		}
+
+		if (Util.checkIfInRange(skill.getCastRange(), npc, target, true))
+		{
+			npc.getAI().setIntention(AI_INTENTION_IDLE);
+			npc.setTarget(target);
+			npc.setIsCastingNow(true);
+			_target = null;
+			_skill = null;
+			if (getDist(skill.getCastRange()) > 0)
+				npc.broadcastPacket(new MoveToPawn(npc,target,getDist(skill.getCastRange())));
+			try
+			{
+				Thread.sleep(1000);
+				npc.stopMove(null);
+				npc.doCast(skill);
+			}
+			catch (Exception e)
+			{e.printStackTrace();}
+		}
+		else
+		{
+			npc.getAI().setIntention(AI_INTENTION_FOLLOW, target, null);
+			npc.setIsCastingNow(false);
+		}
+	}
+
+	public int getRandomSkill(L2Npc npc)
+	{
+		int skill;
+		if( npc.getCurrentHp() > ( ( npc.getMaxHp() * 3 ) / 4 ) )
+		{
+			if( Rnd.get(100) < 20 )
+				skill = 4113;
+			else if( Rnd.get(100) < 3 )
+				skill = 4110;
+			else if( Rnd.get(100) < 3 )
+				skill = 4108;
+			else if( Rnd.get(100) < 5 )
+				skill = 4107;
+			else if( Rnd.get(100) < 5 )
+				skill = 4106;
+			else
+				skill = 4112;
+		}
+		else if( npc.getCurrentHp() > ( ( npc.getMaxHp() * 2 ) / 4) )
+		{
+			if( Rnd.get(100) < 20 )
+				skill = 4113;
+			else if( Rnd.get(100) < 5 )
+				skill = 4110;
+			else if( Rnd.get(100) < 10 )
+				skill = 4109;
+			else if( Rnd.get(100) < 5 )
+				skill = 4108;
+			else if( Rnd.get(100) < 10 )
+				skill = 4107;
+			else if( Rnd.get(100) < 10 )
+				skill = 4106;
+			else
+				skill = 4112;
+		}
+		else if( npc.getCurrentHp() > ( ( npc.getMaxHp() * 1 ) / 4 ) )
+		{
+			if( Rnd.get(100) < 5 )
+				skill = 5093;
+			else if( Rnd.get(100) < 20 )
+				skill = 4113;
+			else if( Rnd.get(100) < 15 )
+				skill = 4111;
+			else if( Rnd.get(100) < 10 )
+				skill = 4110;
+			else if( Rnd.get(100) < 15 )
+				skill = 4109;
+			else if( Rnd.get(100) < 10 )
+				skill = 4108;
+			else if( Rnd.get(100) < 15 )
+				skill = 4107;
+			else if( Rnd.get(100) < 15 )
+				skill = 4106;
+			else
+				skill = 4112;
+		}
+		else if( Rnd.get(100) < 10 )
+			skill = 5093;
+		else if( Rnd.get(100) < 10 )
+			skill = 5092;
+		else if( Rnd.get(100) < 20 )
+			skill = 4113;
+		else if( Rnd.get(100) < 20 )
+			skill = 4111;
+		else if( Rnd.get(100) < 15 )
+			skill = 4110;
+		else if( Rnd.get(100) < 20 )
+			skill = 4109;
+		else if( Rnd.get(100) < 15 )
+			skill = 4108;
+		else if( Rnd.get(100) < 20 )
+			skill = 4107;
+		else if( Rnd.get(100) < 20 )
+			skill = 4106;
+		else
+			skill = 4112;
+		return skill;
+	}
+
+	public String onSkillSee (L2Npc npc, L2PcInstance caster, L2Skill skill, L2Object[] targets, boolean isPet)
+	{
+		if (npc.isInvul())
+		{
+			npc.getAI().setIntention(AI_INTENTION_IDLE);
+			return null;
+		}
+		npc.setTarget(caster);
+		return super.onSkillSee(npc, caster, skill, targets, isPet);
+	}
+
+	public int getDist(int range)
+	{
+		int dist = 0;
+		switch(range)
+		{
+			case -1:
+				break;
+			case 100:
+				dist = 85;
+				break;
+			default:
+				dist = range-85;
+				break;
+		}
+		return dist;
+	}
 
     public static void main(String[] args)
     {
