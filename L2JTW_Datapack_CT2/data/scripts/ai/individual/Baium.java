@@ -14,33 +14,23 @@
  */
 package ai.individual;
 
-import static net.sf.l2j.gameserver.ai.CtrlIntention.AI_INTENTION_FOLLOW;
-import static net.sf.l2j.gameserver.ai.CtrlIntention.AI_INTENTION_IDLE;
 
-import java.util.Collection;
 
 import javolution.util.FastList;
 import ai.group_template.L2AttackableAIScript;
 
-import net.sf.l2j.gameserver.GeoData;
 import net.sf.l2j.gameserver.ThreadPoolManager;
 import net.sf.l2j.gameserver.instancemanager.GrandBossManager;
-import net.sf.l2j.gameserver.model.L2Object;
 import net.sf.l2j.gameserver.datatables.SkillTable;
-import net.sf.l2j.gameserver.model.actor.L2Character;
 import net.sf.l2j.gameserver.model.actor.L2Npc;
-import net.sf.l2j.gameserver.model.actor.L2Summon;
-import net.sf.l2j.gameserver.model.actor.instance.L2DecoyInstance;
 import net.sf.l2j.gameserver.model.actor.instance.L2GrandBossInstance;
 import net.sf.l2j.gameserver.model.actor.instance.L2PcInstance;
-import net.sf.l2j.gameserver.model.quest.QuestTimer;
 import net.sf.l2j.gameserver.model.zone.type.L2BossZone;
 import net.sf.l2j.gameserver.network.serverpackets.Earthquake;
 import net.sf.l2j.gameserver.network.serverpackets.PlaySound;
 import net.sf.l2j.gameserver.network.serverpackets.SocialAction;
 import net.sf.l2j.gameserver.network.serverpackets.NpcSay;
 import net.sf.l2j.gameserver.templates.StatsSet;
-import net.sf.l2j.gameserver.util.Util;
 import net.sf.l2j.util.Rnd;
 import net.sf.l2j.gameserver.model.actor.L2Attackable;
 import java.util.List;
@@ -92,7 +82,6 @@ public class Baium extends L2AttackableAIScript
            { 115245, 17558, 10076, 35536 } 
         };
 
-	private L2Character _target;
 	private static final int STONE_BAIUM = 29025;
 	private static final int ANGELIC_VORTEX = 31862;
 	private static final int LIVE_BAIUM = 29020;
@@ -182,10 +171,6 @@ public class Baium extends L2AttackableAIScript
         {
             GrandBossManager.getInstance().setBossStatus(LIVE_BAIUM,ASLEEP);
             addSpawn(STONE_BAIUM,116067,17484,10110,41740,false,0);
-        }
-        else if (event.equalsIgnoreCase("clean_player"))
-        {
-        	_target = getRandomTarget(npc);
         }
         else if (event.equalsIgnoreCase("baium_wakeup_first") && npc != null)
         {
@@ -283,37 +268,6 @@ public class Baium extends L2AttackableAIScript
             Minions.clear();
         }
         return super.onAdvEvent(event, npc, player);
-	}
-	public L2Character getRandomTarget(L2Npc npc)
-	{
-		FastList<L2Character> result = new FastList<L2Character>();
-		Collection<L2Object> objs = npc.getKnownList().getKnownObjects().values();
-		{
-			for (L2Object obj : objs)
-			{
-				if (obj instanceof L2Character)
-				{
-					if (((L2Character) obj).getZ() < ( npc.getZ() - 100 ) && ((L2Character) obj).getZ() > ( npc.getZ() + 100 )
-							|| !(GeoData.getInstance().canSeeTarget(((L2Character) obj).getX(), ((L2Character) obj).getY(), ((L2Character) obj).getZ(), npc.getX(), npc.getY(), npc.getZ())))
-						continue;
-				}
-				if (obj instanceof L2PcInstance || obj instanceof L2Summon || obj instanceof L2DecoyInstance)
-				{
-					if (Util.checkIfInRange(9000, npc, obj, true) && !((L2Character) obj).isDead())
-						result.add((L2Character) obj);
-				}
-			}
-		}
-		if (!result.isEmpty() && result.size() != 0)
-		{
-			Object[] characters = result.toArray();
-			QuestTimer timer = getQuestTimer("clean_player", npc, null);
-			if (timer != null)
-				timer.cancel();
-			startQuestTimer("clean_player", 20000, npc, null);
-			return (L2Character) characters[Rnd.get(characters.length)];
-		}
-		return null;
 	}
     public String onTalk(L2Npc npc,L2PcInstance player)
     {
