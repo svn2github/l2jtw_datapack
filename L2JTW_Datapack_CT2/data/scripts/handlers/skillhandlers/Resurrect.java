@@ -74,7 +74,7 @@ public class Resurrect implements ISkillHandler
 		if (targetToRes.isEmpty())
 		{
 			activeChar.abortCast();
-			activeChar.sendMessage(214);
+			return;
 		}
 		
 		for (L2Character cha : targetToRes)

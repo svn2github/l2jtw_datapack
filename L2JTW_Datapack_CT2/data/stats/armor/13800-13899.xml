@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <list>
 <item id='13802' name="Native's Hood">
   <for>
@@ -73,7 +73,7 @@
 <item id='13889' name="Holy Spirit's Cloak - Kamael exclusive">
   <!-- Update by rocknow -->
   <cond msgId="1518">
-    <target class_id_restriction="123, 124, 125, 126, 127, 128, 129, 130, 131, 132, 133, 134, 135, 136"/>
+    <target class_id_restriction="123,124,125,126,127,128,129,130,131,132,133,134,135,136"/>
   </cond>
   <for>
     <add val="30" order="0x10" stat="darkRes"/><!-- Update by rocknow -->
@@ -84,7 +84,7 @@
 <item id='13890' name="Holy Spirit's Cloak - Heavy Armor exclusive">
   <!-- Update by rocknow -->
   <cond msgId="1518">
-    <target class_id_restriction="88, 89, 90, 91, 99, 100, 106, 107, 113, 114, 117, 118"/>
+    <target class_id_restriction="88,89,90,91,99,100,106,107,113,114,117,118"/>
   </cond>
   <for>
     <add val="30" order="0x10" stat="darkRes"/><!-- Update by rocknow -->
@@ -95,7 +95,7 @@
 <item id='13891' name="Holy Spirit's Cloak - Light Armor exclusive">
   <!-- Update by rocknow -->
   <cond msgId="1518">
-    <target class_id_restriction="92, 93, 101, 102, 108, 109, 134"/>
+    <target class_id_restriction="92,93,101,102,108,109"/>
   </cond>
   <for>
     <add val="30" order="0x10" stat="darkRes"/><!-- Update by rocknow -->
@@ -106,7 +106,7 @@
 <item id='13892' name="Holy Spirit's Cloak - Robe exclusive">
   <!-- Update by rocknow -->
   <cond msgId="1518">
-    <target class_id_restriction="94, 95, 96, 97, 98, 103, 104, 105, 110, 111, 112, 115, 116"/>
+    <target class_id_restriction="94,95,96,97,98,103,104,105,110,111,112,115,116"/>
   </cond>
   <for>
     <add val="30" order="0x10" stat="darkRes"/><!-- Update by rocknow -->

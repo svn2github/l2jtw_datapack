@@ -48,7 +48,7 @@ public class SoulCrystals implements IItemHandler
 		4646, 4647, 4648, 4649, 4650, 5578, 5581,
 		5911, 9572, 4651, 4652, 4653, 4654, 4655,
 		4656, 4657, 4658, 4659, 4660, 4661, 5579,
-		5582, 5914, 9571, 10480, 10481, 10482 //Add LV15 by rocknow
+		5582, 5914, 9571, 10480,10481,10482,13071,13072,13073 //Add LV15.16 by rocknow
 	};
 	
 	/**
@@ -96,6 +96,7 @@ public class SoulCrystals implements IItemHandler
 		
 	}
 	
+	// TODO: this should be inside skill handler
 	static class CrystalFinalizer implements Runnable
 	{
 		private L2PcInstance _activeChar;

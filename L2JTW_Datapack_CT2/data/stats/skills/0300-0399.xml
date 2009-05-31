@@ -1054,7 +1054,9 @@
       <add order="0x40" stat="reflectSkillPhysic" val="30">
         <using kind="Shield"/>
       </add>
-      <!-- Delete by rocknow -->
+      <add order="0x40" stat="reflectSkillMagic" val="10">
+        <using kind="Shield"/>
+      </add>
     </effect>
   </for>
 </skill>
@@ -1071,7 +1073,9 @@
   <set name="useShield" val="true"/>
   <for>
     <effect name="Buff" time="300" val="0">
-      <!-- Delete by rocknow -->
+      <add order="0x40" stat="reflectSkillPhysic" val="10">
+        <using kind="Shield"/>
+      </add>
       <add order="0x40" stat="reflectSkillMagic" val="30">
         <using kind="Shield"/>
       </add>
@@ -1480,6 +1484,7 @@
   <set name="reuseDelay" val="300000"/>
   <set name="hitTime" val="4000"/>
   <set name="skillType" val="PDAM"/>
+  <set name="magicLvl" val="78"/>
   <set name="operateType" val="OP_ACTIVE"/>
   <set name="castRange" val="900"/>
   <set name="effectRange" val="1400"/>

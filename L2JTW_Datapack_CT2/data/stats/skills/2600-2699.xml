@@ -1,21 +1,33 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <list>
 <skill id="2600" levels="1" name="Gran Kain's Echo Crystal - Theme of Solitude">
+  <set name="itemConsumeId" val="13264"/>
+  <set name="itemConsumeCount" val="1"/>
+  <set name="isPotion" val="true"/>
   <set name="target" val="TARGET_SELF"/>
   <set name="skillType" val="DUMMY"/>
   <set name="operateType" val="OP_ACTIVE"/>
 </skill>
 <skill id="2601" levels="1" name="Gran Kain's Echo Crystal - Theme of the Feast">
+  <set name="itemConsumeId" val="13265"/>
+  <set name="itemConsumeCount" val="1"/>
+  <set name="isPotion" val="true"/>
   <set name="target" val="TARGET_SELF"/>
   <set name="skillType" val="DUMMY"/>
   <set name="operateType" val="OP_ACTIVE"/>
 </skill>
 <skill id="2602" levels="1" name="Gran Kain's Echo Crystal - Theme of Celebration">
+  <set name="itemConsumeId" val="13266"/>
+  <set name="itemConsumeCount" val="1"/>
+  <set name="isPotion" val="true"/>
   <set name="target" val="TARGET_SELF"/>
   <set name="skillType" val="DUMMY"/>
   <set name="operateType" val="OP_ACTIVE"/>
 </skill>
 <skill id="2603" levels="1" name="Gran Kain's Echo Crystal - Theme of Comedy">
+  <set name="itemConsumeId" val="13267"/>
+  <set name="itemConsumeCount" val="1"/>
+  <set name="isPotion" val="true"/>
   <set name="target" val="TARGET_SELF"/>
   <set name="skillType" val="DUMMY"/>
   <set name="operateType" val="OP_ACTIVE"/>
@@ -229,6 +241,8 @@
 </skill>
 <skill id="2631" levels="1" name="Scroll of Transformation - Frog">
   <!-- Update by rocknow -->
+  <set name="itemConsumeId" val="13800"/>
+  <set name="itemConsumeCount" val="1"/>
   <set name="target" val="TARGET_SELF"/>
   <set name="skillType" val="BUFF"/>
   <set name="operateType" val="OP_ACTIVE"/>
@@ -239,6 +253,8 @@
 </skill>
 <skill id="2632" levels="1" name="Scroll of Transformation - Young Child">
   <!-- Update by rocknow -->
+  <set name="itemConsumeId" val="13801"/>
+  <set name="itemConsumeCount" val="1"/>
   <set name="target" val="TARGET_SELF"/>
   <set name="skillType" val="BUFF"/>
   <set name="operateType" val="OP_ACTIVE"/>
@@ -682,6 +698,8 @@
 </skill>
 <skill id="2670" levels="1" name="Scroll of Transformation - Red">
   <!-- Update by rocknow -->
+  <set name="itemConsumeId" val="13794"/>
+  <set name="itemConsumeCount" val="1"/>
   <set name="target" val="TARGET_SELF"/>
   <set name="skillType" val="BUFF"/>
   <set name="operateType" val="OP_ACTIVE"/>
@@ -692,6 +710,8 @@
 </skill>
 <skill id="2671" levels="1" name="Scroll of Transformation - Blue">
   <!-- Update by rocknow -->
+  <set name="itemConsumeId" val="13795"/>
+  <set name="itemConsumeCount" val="1"/>
   <set name="target" val="TARGET_SELF"/>
   <set name="skillType" val="BUFF"/>
   <set name="operateType" val="OP_ACTIVE"/>
@@ -702,6 +722,8 @@
 </skill>
 <skill id="2672" levels="1" name="Gludio Human Mercenary">
   <!-- Update by rocknow -->
+  <set name="itemConsumeId" val="13569"/>
+  <set name="itemConsumeCount" val="1"/>
   <set name="target" val="TARGET_SELF"/>
   <set name="skillType" val="BUFF"/>
   <set name="operateType" val="OP_ACTIVE"/>
@@ -713,6 +735,8 @@
 </skill>
 <skill id="2673" levels="1" name="Gludio Elf Mercenary">
   <!-- Update by rocknow -->
+  <set name="itemConsumeId" val="13570"/>
+  <set name="itemConsumeCount" val="1"/>
   <set name="target" val="TARGET_SELF"/>
   <set name="skillType" val="BUFF"/>
   <set name="operateType" val="OP_ACTIVE"/>
@@ -724,6 +748,8 @@
 </skill>
 <skill id="2674" levels="1" name="Gludio Dark Elf Mercenary">
   <!-- Update by rocknow -->
+  <set name="itemConsumeId" val="13571"/>
+  <set name="itemConsumeCount" val="1"/>
   <set name="target" val="TARGET_SELF"/>
   <set name="skillType" val="BUFF"/>
   <set name="operateType" val="OP_ACTIVE"/>
@@ -735,6 +761,8 @@
 </skill>
 <skill id="2675" levels="1" name="Gludio Orc Mercenary">
   <!-- Update by rocknow -->
+  <set name="itemConsumeId" val="13572"/>
+  <set name="itemConsumeCount" val="1"/>
   <set name="target" val="TARGET_SELF"/>
   <set name="skillType" val="BUFF"/>
   <set name="operateType" val="OP_ACTIVE"/>
@@ -746,6 +774,8 @@
 </skill>
 <skill id="2676" levels="1" name="Gludio Dwarf Mercenary">
   <!-- Update by rocknow -->
+  <set name="itemConsumeId" val="13573"/>
+  <set name="itemConsumeCount" val="1"/>
   <set name="target" val="TARGET_SELF"/>
   <set name="skillType" val="BUFF"/>
   <set name="operateType" val="OP_ACTIVE"/>
@@ -757,6 +787,8 @@
 </skill>
 <skill id="2677" levels="1" name="Gludio Kamael Mercenary">
   <!-- Update by rocknow -->
+  <set name="itemConsumeId" val="13574"/>
+  <set name="itemConsumeCount" val="1"/>
   <set name="target" val="TARGET_SELF"/>
   <set name="skillType" val="BUFF"/>
   <set name="operateType" val="OP_ACTIVE"/>
@@ -768,6 +800,8 @@
 </skill>
 <skill id="2678" levels="1" name="Gludio Royal Guard Captain">
   <!-- Update by rocknow -->
+  <set name="itemConsumeId" val="13575"/>
+  <set name="itemConsumeCount" val="1"/>
   <set name="target" val="TARGET_SELF"/>
   <set name="skillType" val="BUFF"/>
   <set name="operateType" val="OP_ACTIVE"/>
@@ -779,6 +813,8 @@
 </skill>
 <skill id="2679" levels="1" name="Gludio Archer Captain">
   <!-- Update by rocknow -->
+  <set name="itemConsumeId" val="13576"/>
+  <set name="itemConsumeCount" val="1"/>
   <set name="target" val="TARGET_SELF"/>
   <set name="skillType" val="BUFF"/>
   <set name="operateType" val="OP_ACTIVE"/>
@@ -790,6 +826,8 @@
 </skill>
 <skill id="2680" levels="1" name="Gludio Magic Leader">
   <!-- Update by rocknow -->
+  <set name="itemConsumeId" val="13577"/>
+  <set name="itemConsumeCount" val="1"/>
   <set name="target" val="TARGET_SELF"/>
   <set name="skillType" val="BUFF"/>
   <set name="operateType" val="OP_ACTIVE"/>
@@ -801,6 +839,8 @@
 </skill>
 <skill id="2681" levels="1" name="Gludio Kamael Guard Captain">
   <!-- Update by rocknow -->
+  <set name="itemConsumeId" val="13579"/>
+  <set name="itemConsumeCount" val="1"/>
   <set name="target" val="TARGET_SELF"/>
   <set name="skillType" val="BUFF"/>
   <set name="operateType" val="OP_ACTIVE"/>
@@ -812,6 +852,8 @@
 </skill>
 <skill id="2682" levels="1" name="Gludio Knight of Dawn">
   <!-- Update by rocknow -->
+  <set name="itemConsumeId" val="13579"/>
+  <set name="itemConsumeCount" val="1"/>
   <set name="target" val="TARGET_SELF"/>
   <set name="skillType" val="BUFF"/>
   <set name="operateType" val="OP_ACTIVE"/>
@@ -823,6 +865,8 @@
 </skill>
 <skill id="2683" levels="1" name="Gludio Fortress Captain">
   <!-- Update by rocknow -->
+  <set name="itemConsumeId" val="13580"/>
+  <set name="itemConsumeCount" val="1"/>
   <set name="target" val="TARGET_SELF"/>
   <set name="skillType" val="BUFF"/>
   <set name="operateType" val="OP_ACTIVE"/>
@@ -834,6 +878,8 @@
 </skill>
 <skill id="2684" levels="1" name="Dion Human Mercenary">
   <!-- Update by rocknow -->
+  <set name="itemConsumeId" val="13581"/>
+  <set name="itemConsumeCount" val="1"/>
   <set name="target" val="TARGET_SELF"/>
   <set name="skillType" val="BUFF"/>
   <set name="operateType" val="OP_ACTIVE"/>
@@ -845,6 +891,8 @@
 </skill>
 <skill id="2685" levels="1" name="Dion Elf Mercenary">
   <!-- Update by rocknow -->
+  <set name="itemConsumeId" val="13582"/>
+  <set name="itemConsumeCount" val="1"/>
   <set name="target" val="TARGET_SELF"/>
   <set name="skillType" val="BUFF"/>
   <set name="operateType" val="OP_ACTIVE"/>
@@ -856,6 +904,8 @@
 </skill>
 <skill id="2686" levels="1" name="Dion Dark Elf Mercenary">
   <!-- Update by rocknow -->
+  <set name="itemConsumeId" val="13583"/>
+  <set name="itemConsumeCount" val="1"/>
   <set name="target" val="TARGET_SELF"/>
   <set name="skillType" val="BUFF"/>
   <set name="operateType" val="OP_ACTIVE"/>
@@ -867,6 +917,8 @@
 </skill>
 <skill id="2687" levels="1" name="Dion Orc Mercenary">
   <!-- Update by rocknow -->
+  <set name="itemConsumeId" val="13584"/>
+  <set name="itemConsumeCount" val="1"/>
   <set name="target" val="TARGET_SELF"/>
   <set name="skillType" val="BUFF"/>
   <set name="operateType" val="OP_ACTIVE"/>
@@ -878,6 +930,8 @@
 </skill>
 <skill id="2688" levels="1" name="Dion Dwarf Mercenary">
   <!-- Update by rocknow -->
+  <set name="itemConsumeId" val="13585"/>
+  <set name="itemConsumeCount" val="1"/>
   <set name="target" val="TARGET_SELF"/>
   <set name="skillType" val="BUFF"/>
   <set name="operateType" val="OP_ACTIVE"/>
@@ -889,6 +943,8 @@
 </skill>
 <skill id="2689" levels="1" name="Dion Kamael Mercenary">
   <!-- Update by rocknow -->
+  <set name="itemConsumeId" val="13586"/>
+  <set name="itemConsumeCount" val="1"/>
   <set name="target" val="TARGET_SELF"/>
   <set name="skillType" val="BUFF"/>
   <set name="operateType" val="OP_ACTIVE"/>
@@ -900,6 +956,8 @@
 </skill>
 <skill id="2690" levels="1" name="Dion Royal Guard Captain">
   <!-- Update by rocknow -->
+  <set name="itemConsumeId" val="13587"/>
+  <set name="itemConsumeCount" val="1"/>
   <set name="target" val="TARGET_SELF"/>
   <set name="skillType" val="BUFF"/>
   <set name="operateType" val="OP_ACTIVE"/>
@@ -911,6 +969,8 @@
 </skill>
 <skill id="2691" levels="1" name="Dion Archer Captain">
   <!-- Update by rocknow -->
+  <set name="itemConsumeId" val="13588"/>
+  <set name="itemConsumeCount" val="1"/>
   <set name="target" val="TARGET_SELF"/>
   <set name="skillType" val="BUFF"/>
   <set name="operateType" val="OP_ACTIVE"/>
@@ -922,6 +982,8 @@
 </skill>
 <skill id="2692" levels="1" name="Dion Magic Leader">
   <!-- Update by rocknow -->
+  <set name="itemConsumeId" val="13589"/>
+  <set name="itemConsumeCount" val="1"/>
   <set name="target" val="TARGET_SELF"/>
   <set name="skillType" val="BUFF"/>
   <set name="operateType" val="OP_ACTIVE"/>
@@ -933,6 +995,8 @@
 </skill>
 <skill id="2693" levels="1" name="Dion Kamael Guard Captain">
   <!-- Update by rocknow -->
+  <set name="itemConsumeId" val="13590"/>
+  <set name="itemConsumeCount" val="1"/>
   <set name="target" val="TARGET_SELF"/>
   <set name="skillType" val="BUFF"/>
   <set name="operateType" val="OP_ACTIVE"/>
@@ -944,6 +1008,8 @@
 </skill>
 <skill id="2694" levels="1" name="Dion Knight of Dawn">
   <!-- Update by rocknow -->
+  <set name="itemConsumeId" val="13591"/>
+  <set name="itemConsumeCount" val="1"/>
   <set name="target" val="TARGET_SELF"/>
   <set name="skillType" val="BUFF"/>
   <set name="operateType" val="OP_ACTIVE"/>
@@ -955,6 +1021,8 @@
 </skill>
 <skill id="2695" levels="1" name="Dion Fortress Captain">
   <!-- Update by rocknow -->
+  <set name="itemConsumeId" val="13592"/>
+  <set name="itemConsumeCount" val="1"/>
   <set name="target" val="TARGET_SELF"/>
   <set name="skillType" val="BUFF"/>
   <set name="operateType" val="OP_ACTIVE"/>
@@ -966,6 +1034,8 @@
 </skill>
 <skill id="2696" levels="1" name="Giran Human Mercenary">
   <!-- Update by rocknow -->
+  <set name="itemConsumeId" val="13593"/>
+  <set name="itemConsumeCount" val="1"/>
   <set name="target" val="TARGET_SELF"/>
   <set name="skillType" val="BUFF"/>
   <set name="operateType" val="OP_ACTIVE"/>
@@ -977,6 +1047,8 @@
 </skill>
 <skill id="2697" levels="1" name="Giran Elf Mercenary">
   <!-- Update by rocknow -->
+  <set name="itemConsumeId" val="13594"/>
+  <set name="itemConsumeCount" val="1"/>
   <set name="target" val="TARGET_SELF"/>
   <set name="skillType" val="BUFF"/>
   <set name="operateType" val="OP_ACTIVE"/>
@@ -988,6 +1060,8 @@
 </skill>
 <skill id="2698" levels="1" name="Giran Dark Elf Mercenary">
   <!-- Update by rocknow -->
+  <set name="itemConsumeId" val="13595"/>
+  <set name="itemConsumeCount" val="1"/>
   <set name="target" val="TARGET_SELF"/>
   <set name="skillType" val="BUFF"/>
   <set name="operateType" val="OP_ACTIVE"/>
@@ -999,6 +1073,8 @@
 </skill>
 <skill id="2699" levels="1" name="Giran Orc Mercenary">
   <!-- Update by rocknow -->
+  <set name="itemConsumeId" val="13596"/>
+  <set name="itemConsumeCount" val="1"/>
   <set name="target" val="TARGET_SELF"/>
   <set name="skillType" val="BUFF"/>
   <set name="operateType" val="OP_ACTIVE"/>

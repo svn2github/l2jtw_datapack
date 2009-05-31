@@ -121,27 +121,21 @@ public class MasterHandler
 	
 	private static void loadItemHandlers()
 	{
-		ItemHandler.getInstance().registerItemHandler(new ScrollOfEscape());
 		ItemHandler.getInstance().registerItemHandler(new ScrollOfResurrection());
 		ItemHandler.getInstance().registerItemHandler(new SoulShots());
 		ItemHandler.getInstance().registerItemHandler(new SpiritShot());
 		ItemHandler.getInstance().registerItemHandler(new BlessedSpiritShot());
-		ItemHandler.getInstance().registerItemHandler(new BallistaBombItem());
 		ItemHandler.getInstance().registerItemHandler(new BeastSoulShot());
 		ItemHandler.getInstance().registerItemHandler(new BeastSpiritShot());
-		ItemHandler.getInstance().registerItemHandler(new Key());
 		ItemHandler.getInstance().registerItemHandler(new PaganKeys());
 		ItemHandler.getInstance().registerItemHandler(new Maps());
 		ItemHandler.getInstance().registerItemHandler(new Potions());
 		ItemHandler.getInstance().registerItemHandler(new Recipes());
 		ItemHandler.getInstance().registerItemHandler(new RollingDice());
-		ItemHandler.getInstance().registerItemHandler(new MysteryPotion());
 		ItemHandler.getInstance().registerItemHandler(new EnchantAttribute());
 		ItemHandler.getInstance().registerItemHandler(new EnchantScrolls());
 		ItemHandler.getInstance().registerItemHandler(new Book());
 		ItemHandler.getInstance().registerItemHandler(new Remedy());
-		ItemHandler.getInstance().registerItemHandler(new Scrolls());
-		ItemHandler.getInstance().registerItemHandler(new CrystalCarol());
 		ItemHandler.getInstance().registerItemHandler(new SoulCrystals());
 		ItemHandler.getInstance().registerItemHandler(new SevenSignsRecord());
 		ItemHandler.getInstance().registerItemHandler(new CharChangePotions());
@@ -150,12 +144,10 @@ public class MasterHandler
 		ItemHandler.getInstance().registerItemHandler(new Harvester());
 		ItemHandler.getInstance().registerItemHandler(new MercTicket());
 		ItemHandler.getInstance().registerItemHandler(new FishShots());
-		ItemHandler.getInstance().registerItemHandler(new ExtractableItems());
 		ItemHandler.getInstance().registerItemHandler(new PetFood());
 		ItemHandler.getInstance().registerItemHandler(new SpecialXMas());
 		ItemHandler.getInstance().registerItemHandler(new SummonItems());
 		ItemHandler.getInstance().registerItemHandler(new BeastSpice());
-		ItemHandler.getInstance().registerItemHandler(new SpiritLake());
 		ItemHandler.getInstance().registerItemHandler(new TeleportBookmark());
 		ItemHandler.getInstance().registerItemHandler(new Elixir());
 		_log.config("Loaded " + ItemHandler.getInstance().size() + " ItemHandlers");

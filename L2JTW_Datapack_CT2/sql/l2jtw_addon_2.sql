@@ -1749,26 +1749,6 @@ Delete From `grandboss_data` Where `boss_id` in (29045,29062);
 
 /************ 以下是參考 L2EmuProject-Datapack 所製作的修正 ************/
 
-/************ 修正防具 ************/
-UPDATE `armor` SET `skill` = '3633-2;' WHERE `item_id` ='6841';
-UPDATE `armor` SET `skill` = '3407-1;' WHERE `item_id` ='9900';
-UPDATE `armor` SET `skill` = '3428-1;' WHERE `item_id` ='10416';
-UPDATE `armor` SET `skill` = '3437-1;' WHERE `item_id` ='10417';
-UPDATE `armor` SET `skill` = '3431-1;' WHERE `item_id` ='10418';
-UPDATE `armor` SET `skill` = '3430-1;' WHERE `item_id` ='10419';
-UPDATE `armor` SET `skill` = '3432-1;' WHERE `item_id` ='10420';
-UPDATE `armor` SET `skill` = '3433-1;' WHERE `item_id` ='10421';
-UPDATE `armor` SET `skill` = '3435-1;' WHERE `item_id` ='10422';
-UPDATE `armor` SET `skill` = '3436-1;' WHERE `item_id` ='10423';
-UPDATE `armor` SET `skill` = '3438-1;' WHERE `item_id` ='10424';
-UPDATE `armor` SET `skill` = '3429-1;' WHERE `item_id` ='10518';
-UPDATE `armor` SET `skill` = '3434-1;' WHERE `item_id` ='10519';
-UPDATE `armor` SET `skill` = '3664-1;' WHERE `item_id` ='12815';
-UPDATE `armor` SET `skill` = '3665-1;' WHERE `item_id` ='12816';
-UPDATE `armor` SET `skill` = '3666-1;' WHERE `item_id` ='12817';
-UPDATE `armor` SET `skill` = '3667-1;' WHERE `item_id` ='12818';
-
-
 /************ 增加物品掉落 ************/
 INSERT IGNORE INTO `droplist` VALUES
 ('21070', '1894', '1', '1', '0', '44075'),
@@ -2069,10 +2049,6 @@ INSERT IGNORE INTO `droplist` VALUES
 
 
 /************ 修正物品 ************/
-UPDATE `etcitem` SET `price` = '7' WHERE `item_id` ='1835';
-UPDATE `etcitem` SET `sellable` = 'false' WHERE `item_id` = 5575;
-UPDATE `etcitem` SET `item_type` = 'quest' WHERE `item_id` in (8085,8098);
-UPDATE `etcitem` SET `sellable` = 'false' WHERE `item_id` = 10112;
 REPLACE INTO `etcitem` VALUES
 (9632,'Wooden Bolt','false','bolt',6,'stackable','wood','none',-1,-1,2,0,'true','true','true','true','0-0;','false'),
 (9633,'Bone Bolt','false','bolt',5,'stackable','wood','d',-1,-1,2,0,'true','true','true','true','0-0;','false'),

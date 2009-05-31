@@ -335,10 +335,6 @@ public class AdminEffects implements IAdminCommandHandler
 			{
 				activeChar.sendMessage(427);
 			}
-			finally
-			{
-				activeChar.updateEffectIcons();
-			}
 		}
 		else if (command.startsWith("admin_polyself"))
 		{

@@ -161,7 +161,7 @@ class Quest (JQuest) :
      elif npcId == 31092 :
         if player.getClassId().level() == 1 and not st.getInt("onlyone"):
            htmltext = "31092-05.htm"
-   if id == State.CREATED :
+   if id == State.CREATED and npcId == 31435 :
      if player.getLevel() < 39 or player.getClassId().level() != 1 or player.getRace().ordinal() == 5:
        htmltext = "31435-00.htm"
        st.exitQuest(1)
@@ -228,6 +228,7 @@ class Quest (JQuest) :
 
 QUEST       = Quest(60,qn,"µ½¦æªº³øµª")
 
+QUEST.addStartNpc(31092)
 QUEST.addStartNpc(31435)
 QUEST.addTalkId(30081)
 QUEST.addTalkId(31092)

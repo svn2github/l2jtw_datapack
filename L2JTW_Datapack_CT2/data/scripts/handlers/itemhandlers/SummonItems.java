@@ -143,7 +143,7 @@ public class SummonItems implements IItemHandler
 				}
 				catch (Exception e)
 				{
-					activeChar.sendPacket(new SystemMessage(SystemMessageId.TARGET_IS_NOT_FOUND_IN_THE_GAME));
+					activeChar.sendPacket(new SystemMessage(SystemMessageId.TARGET_IS_NOT_FOUND_IN_THE_GAME)); //Update by rocknow
 				}
 				
 				break;
@@ -194,6 +194,7 @@ public class SummonItems implements IItemHandler
 		}
 	}
 	
+	// TODO: this should be inside skill handler
 	static class PetSummonFinalizer implements Runnable
 	{
 		private L2PcInstance _activeChar;

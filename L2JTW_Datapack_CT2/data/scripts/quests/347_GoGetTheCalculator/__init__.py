@@ -88,14 +88,14 @@ class Quest (JQuest) :
     if npcId != BRUNON and id != State.STARTED : return htmltext
 
     if npcId == BRUNON and id==State.CREATED :
-        st.set("id","0")
-        st.set("cond","0")
-        if player.getLevel() >= 12 :           #pmq­×§ï-Start
-          htmltext = str(BRUNON)+"-01.htm"
-        else: 
-          htmltext = str(BRUNON)+"-00.htm"
-          st.exitQuest(1) 
-        return htmltext
+        if player.getLevel() >= 12 :
+           st.set("id","0")
+           st.set("cond","0")
+           htmltext = str(BRUNON)+"-01.htm"
+        else:
+           htmltext = str(BRUNON)+"-00.htm"    #pmq­×§ï-Start
+           st.exitQuest(1)
+           return htmltext
     elif npcId == BRUNON and (st.getInt("cond")==1 or st.getInt("cond")==2) and st.getQuestItemsCount(CALCULATOR_Q)==0 :
         htmltext = str(BRUNON)+"-03.htm"
     elif npcId == BRUNON and (st.getInt("cond")==3 or st.getInt("cond")==4 or st.getInt("cond")==5) and st.getQuestItemsCount(CALCULATOR_Q)==0 :
