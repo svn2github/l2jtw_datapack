@@ -203,7 +203,7 @@
   <set name="isMagic" val="true"/>
   <set name="reuseDelay" val="15000"/>
   <cond msgId="113" addName="1">
-    <player race="Kamael"/>
+    <target race="Kamael"/>
   </cond>  
 </skill>
 <skill id="1511" levels="8" name="Curse of Life Flow">
@@ -242,7 +242,7 @@
   <set name="operateType" val="OP_ACTIVE"/>
   <set name="isMagic" val="true"/>
   <set name="isDebuff" val="true"/>
-  <!-- Delete by rocknow -->
+  <set name="overHit" val="true"/>
   <set name="castRange" val="900"/>
   <set name="effectRange" val="1400"/>
   <set name="soulMaxConsumeCount" val="5"/>

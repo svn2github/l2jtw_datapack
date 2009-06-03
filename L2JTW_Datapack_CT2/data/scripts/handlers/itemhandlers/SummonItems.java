@@ -143,7 +143,7 @@ public class SummonItems implements IItemHandler
 				}
 				catch (Exception e)
 				{
-					activeChar.sendPacket(new SystemMessage(SystemMessageId.TARGET_IS_NOT_FOUND_IN_THE_GAME)); //Update by rocknow
+					activeChar.sendPacket(new SystemMessage(SystemMessageId.TARGET_IS_NOT_FOUND_IN_THE_GAME));
 				}
 				
 				break;
@@ -301,14 +301,5 @@ public class SummonItems implements IItemHandler
 				_log.log(Level.SEVERE, "", e);
 			}
 		}
-	}
-	
-	/**
-	 * 
-	 * @see net.sf.l2j.gameserver.handler.IItemHandler#getItemIds()
-	 */
-	public int[] getItemIds()
-	{
-		return SummonItemsData.getInstance().itemIDs();
 	}
 }

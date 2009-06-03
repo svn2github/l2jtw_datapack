@@ -31,18 +31,6 @@ import net.sf.l2j.gameserver.model.L2CoreMessage;
 
 public class ChristmasTree implements IItemHandler
 {
-	private static final int[] ITEM_IDS =
-	{
-		5560, /* x-mas tree */
-		5561 /* Special x-mas tree*/
-	};
-	
-	private static final int[] NPC_IDS =
-	{
-		13006, /* Christmas tree w. flashing lights and snow */
-		13007
-	};
-	
 	/**
 	 * 
 	 * @see net.sf.l2j.gameserver.handler.IItemHandler#useItem(net.sf.l2j.gameserver.model.actor.L2Playable, net.sf.l2j.gameserver.model.L2ItemInstance)
@@ -52,14 +40,14 @@ public class ChristmasTree implements IItemHandler
 		L2PcInstance activeChar = (L2PcInstance) playable;
 		L2NpcTemplate template1 = null;
 		
-		int itemId = item.getItemId();
-		for (int i = 0; i < ITEM_IDS.length; i++)
+		switch (item.getItemId())
 		{
-			if (ITEM_IDS[i] == itemId)
-			{
-				template1 = NpcTable.getInstance().getTemplate(NPC_IDS[i]);
+			case 5560:
+				template1 = NpcTable.getInstance().getTemplate(13006);
 				break;
-			}
+			case 5561:
+				template1 = NpcTable.getInstance().getTemplate(13007);
+				break;
 		}
 		
 		if (template1 == null)
@@ -91,14 +79,5 @@ public class ChristmasTree implements IItemHandler
 		{
 			activeChar.sendPacket(new SystemMessage(SystemMessageId.TARGET_IS_INCORRECT));
 		}
-	}
-	
-	/**
-	 * 
-	 * @see net.sf.l2j.gameserver.handler.IItemHandler#getItemIds()
-	 */
-	public int[] getItemIds()
-	{
-		return ITEM_IDS;
 	}
 }
