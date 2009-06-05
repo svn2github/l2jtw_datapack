@@ -132,6 +132,7 @@ REPLACE INTO `npc` VALUES ('16043', '16043', 'Fox Shaman', '0', '', '0', 'Lineag
 REPLACE INTO `npc` VALUES ('16044', '16044', 'Wild Beast Fighter', '0', '', '0', 'LineageMonster4.beast_fighter_pet', '10', '17', '70', 'male', 'L2Pet', '40', '2444', '2444', '0.00', '0.00', '40', '43', '30', '21', '20', '25', '0', '0', '500', '500', '500', '500', '253', '0', '253', '0', '0', '0', '80', '120', 'NULL', '0', '0', '0', 'LAST_HIT', '0', '0', '0', 'fighter', 'false');
 REPLACE INTO `npc` VALUES ('16045', '16045', 'White Weasel', '0', '', '0', 'LineageMonster4.ferret_pet', '10', '13', '70', 'male', 'L2Pet', '40', '2444', '2444', '0.00', '0.00', '40', '43', '30', '21', '20', '25', '0', '0', '500', '500', '500', '500', '253', '0', '253', '0', '0', '0', '80', '120', 'NULL', '0', '0', '0', 'LAST_HIT', '0', '0', '0', 'fighter', 'false');
 REPLACE INTO `npc` VALUES ('16046', '16046', 'Fairy Princess', '0', '', '0', 'LineageMonster4.fairy_princess_pet', '10', '18', '70', 'male', 'L2Pet', '40', '2444', '2444', '0.00', '0.00', '40', '43', '30', '21', '20', '25', '0', '0', '500', '500', '500', '500', '253', '0', '253', '0', '0', '0', '80', '120', 'NULL', '0', '0', '0', 'LAST_HIT', '0', '0', '0', 'fighter', 'false');
+UPDATE `etcitem` SET `handler` = 'SummonItems' WHERE `item_id` in (13017,13018,13019,13020);
 REPLACE INTO `pets_skills` VALUES
 (16044,1,5745,1),
 (16044,72,5745,2),
@@ -882,6 +883,7 @@ REPLACE INTO `npc` VALUES
 ('16051', '16051', 'Spirit Shaman', '0', '', '0', 'LineageMonster4.sprit_magician_the_pet', '15', '15', '80', 'male', 'L2Pet', '40', '2444', '2444', '0.00', '0.00', '40', '43', '30', '21', '20', '25', '0', '0', '500', '500', '500', '500', '253', '0', '253', '0', '0', '0', '80', '120', 'NULL', '0', '0', '0', 'LAST_HIT', '0', '0', '0', 'fighter', 'false'),
 ('16052', '16052', 'Toy Knight', '0', '', '0', 'LineageMonster4.toy_knight_the_pet', '12', '15', '80', 'male', 'L2Pet', '40', '2444', '2444', '0.00', '0.00', '40', '43', '30', '21', '20', '25', '0', '0', '500', '500', '500', '500', '253', '0', '253', '0', '0', '0', '80', '120', 'NULL', '0', '0', '0', 'LAST_HIT', '0', '0', '0', 'fighter', 'false'),
 ('16053', '16053', 'Turtle Ascetic', '0', '', '0', 'LineageMonster4.turtle_buffer_the_pet', '12', '10', '80', 'male', 'L2Pet', '40', '2444', '2444', '0.00', '0.00', '40', '43', '30', '21', '20', '25', '0', '0', '500', '500', '500', '500', '253', '0', '253', '0', '0', '0', '80', '120', 'NULL', '0', '0', '0', 'LAST_HIT', '0', '0', '0', 'fighter', 'false');
+UPDATE `etcitem` SET `handler` = 'SummonItems' WHERE `item_id` in (14061,14062,14063,14064);
 REPLACE INTO `pets_stats` VALUES
 ('Owl Monk',16050,70,266966617,6046,729,3812,502,646,481,110,100,44,198,278,333,100000000,0,0,92287,40,15,0.05),
 ('Owl Monk',16050,71,311043873,6217,782,3846,509,647,484,112,102,44,198,278,333,100000000,0,0,92287,40,15,0.05),
@@ -1095,7 +1097,7 @@ REPLACE INTO armorsets VALUES
 ('202', '13806', '13807', '13805', '0', '0', '8278', '1', '0', '0', '0', '0', '0', '0', '0', '0');
 
 -- ¯}·À°ê¹Òªº·s NPC (·PÁÂ pmq ´£¨Ñ)
-UPDATE `npc` SET `type` = 'L2Npc' WHERE `id` in (32627,32629); -- ­×¥¿½XÀY¨µÅÞ§L
+UPDATE `npc` SET `type` = 'L2Npc' WHERE `id` in (32628,32629); -- ­×¥¿½XÀY¨µÅÞ§L
 UPDATE `npc` SET `type` = 'L2Teleporter' WHERE `id` in (32534,32602); -- ¥¾­C¥Å ¤£·Àªº¤Þ¾ÉªÌ/Á{®É¶Ç°e®v
 UPDATE `spawnlist` SET `heading` = '16383' WHERE `npc_templateid` = '32609' AND `heading` = '20771'; -- ­×¥¿­¸ªÅ¸¥±±¨î¸Ë¸m
 UPDATE `npc` SET `rhand` = '2500', `lhand` = '6377' WHERE `id` in (36481,36482,36483,36484,36485,36486,36487,36488,36489); -- ¶Ä§L¶¤¶¤ªø
@@ -1154,10 +1156,17 @@ UPDATE `weapon` SET `bodypart` = 'lhand' WHERE `item_id` in (13770);  -- ¦ã¨u¦Ì¨
 UPDATE `etcitem` SET `item_type` = 'none', `consume_type` = 'stackable' WHERE `item_id` in (13277,13278);  -- ¯à¶q¬P¥Û/°ª¯Å¯à¶q¬P¥Û
 
 -- ¼W¥[ª««~®ÄªG
-UPDATE `armor` SET `skill` = '3633-2;' WHERE `item_id` ='6841';     -- «°¥Dªº¤ý«a
-UPDATE `armor` SET `skill` = '3407-1;' WHERE `item_id` ='9900';     -- ÀR­µ¤§¨B§Ù«ü
-UPDATE `etcitem` SET `skill` = '2370-1;' WHERE `item_id` ='9897' ;  -- ÅÜ¨­¨÷¶b-½Þ
-UPDATE `etcitem` SET `skill` = '2076-1;', `handler` = 'ItemSkills' WHERE `item_id` ='4679' ;  -- ¥ì«½ªº¯¬ºÖ
+UPDATE `armor` SET `skill` = '3633-2;' WHERE `item_id` ='6841';                               -- «°¥Dªº¤ý«a
+UPDATE `armor` SET `skill` = '3407-1;' WHERE `item_id` ='9900';                               -- ÀR­µ¤§¨B§Ù«ü
+UPDATE `etcitem` SET `skill` = '2370-1;' WHERE `item_id` ='9897' ;                            -- ÅÜ¨­¨÷¶b-½Þ
+UPDATE `etcitem` SET `skill` = '2076-1;', `handler` = 'ItemSkills' WHERE `item_id` ='4679';   -- ¥ì«½ªº¯¬ºÖ
+UPDATE `etcitem` SET `skill` = '2309-1;', `handler` = 'ItemSkills' WHERE `item_id` ='9144';   -- ½Þ½ÞÂ§²°
+UPDATE `etcitem` SET `skill` = '10254-1;', `handler` = 'ItemSkills' WHERE `item_id` ='2422';  -- 1¯ÅÄ_³U
+UPDATE `etcitem` SET `skill` = '10255-1;', `handler` = 'ItemSkills' WHERE `item_id` ='2423';  -- 2¯ÅÄ_³U
+UPDATE `etcitem` SET `skill` = '10256-1;', `handler` = 'ItemSkills' WHERE `item_id` ='2424';  -- 3¯ÅÄ_³U
+UPDATE `etcitem` SET `skill` = '10257-1;', `handler` = 'ItemSkills' WHERE `item_id` ='2425';  -- 4¯ÅÄ_³U
+UPDATE `etcitem` SET `skill` = '10258-1;', `handler` = 'ItemSkills' WHERE `item_id` ='2426';  -- 5¯ÅÄ_³U
+UPDATE `etcitem` SET `skill` = '10259-1;', `handler` = 'ItemSkills' WHERE `item_id` ='2427';  -- 6¯ÅÄ_³U
 UPDATE `etcitem` SET `skill` = '2487-1;', `handler` = 'ItemSkills' WHERE `item_id` ='10520';  -- ¦^Án¤ô´¹-­Ü¤ì³Â¦ç
 UPDATE `etcitem` SET `skill` = '2525-1;', `handler` = 'ItemSkills' WHERE `item_id` ='12753';  -- îî¤Ñ¨Ï§ø²ø²¾°Ê¨÷¶b
 UPDATE `etcitem` SET `skill` = '2670-1;', `handler` = 'ItemSkills' WHERE `item_id` ='13794';  -- ÅÜ¨­Åé-Â½ºu¤è¶ôÅÜ¨­¨÷¶b
