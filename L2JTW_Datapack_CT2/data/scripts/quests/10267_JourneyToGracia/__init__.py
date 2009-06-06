@@ -45,7 +45,7 @@ class Quest (JQuest) :
         return htmltext
 
     def onTalk (self,npc,player):
-        htmltext = "<html><body>You are either not on a quest that involves this NPC, or you don't meet this NPC's minimum quest requirements.</body></html>"
+        htmltext = "<html><body>目前沒有執行任務，或條件不符。</body></html>"
         st = player.getQuestState(qn)
         if not st : return htmltext
         npcId = npc.getNpcId()
@@ -72,7 +72,7 @@ class Quest (JQuest) :
             htmltext = "32548-01.htm"
         return htmltext
 
-QUEST       = Quest(10267,qn,"Journey to Gracia")
+QUEST       = Quest(10267,qn,"往格勒西亞的旅程")
 
 QUEST.addStartNpc(Orven)
 QUEST.addTalkId(Orven)
