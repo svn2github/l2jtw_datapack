@@ -1,6 +1,6 @@
 /************ Made in Taiwan ************/
 
-/***** 貳幕-破滅國境 09-04-07 *****/ 
+/***** 貳幕-破滅國境 09-06-08 *****/ 
 /***** npcname-tw *****/ 
 UPDATE `npc` SET `name`='葛林' WHERE `id`='20001';
 UPDATE `npc` SET `name`='兔子' WHERE `id`='20002';
@@ -1681,7 +1681,7 @@ UPDATE `npc` SET `name`='羅格那獸人巫師' WHERE `id`='22042';
 UPDATE `npc` SET `name`='羅格那獸人巫師' WHERE `id`='22043';
 UPDATE `npc` SET `name`='羅格那獸人巫師' WHERE `id`='22044';
 UPDATE `npc` SET `name`='無名屍' WHERE `id`='22045';
-UPDATE `npc` SET `name`='巴蘭卡的子民' WHERE `id`='22046';
+UPDATE `npc` SET `name`='巴蘭卡的魔物' WHERE `id`='22046';
 UPDATE `npc` SET `name`='被遺棄村莊的監視者' WHERE `id`='22047';
 UPDATE `npc` SET `name`='黑暗蜘蛛' WHERE `id`='22048';
 UPDATE `npc` SET `name`='巴蘭卡的魅魔' WHERE `id`='22049';
@@ -2129,8 +2129,8 @@ UPDATE `npc` SET `name`='屍體切割機' WHERE `id`='22512';
 UPDATE `npc` SET `name`='屍體收割機' WHERE `id`='22513';
 UPDATE `npc` SET `name`='靈魂抽取者' WHERE `id`='22514';
 UPDATE `npc` SET `name`='靈魂掠食者' WHERE `id`='22515';
-UPDATE `npc` SET `name`='不死的殺戮者', `title`='靈魂破壞者' WHERE `id`='22516';
-UPDATE `npc` SET `name`='不死的供養者', `title`='黑暗的引導者' WHERE `id`='22517';
+UPDATE `npc` SET `name`='不死的殺戮者' WHERE `id`='22516';
+UPDATE `npc` SET `name`='不死的供養者' WHERE `id`='22517';
 UPDATE `npc` SET `name`='腐敗的傳令' WHERE `id`='22518';
 UPDATE `npc` SET `name`='屍體收割機' WHERE `id`='22519';
 UPDATE `npc` SET `name`='屍體切割機' WHERE `id`='22520';
@@ -2882,7 +2882,7 @@ UPDATE `npc` SET `name`='卡納迪斯 前導者', `title`='侵略軍' WHERE `id`
 UPDATE `npc` SET `name`='卡納迪斯 追從者' WHERE `id`='25662';
 UPDATE `npc` SET `name`='卡納迪斯 追從者' WHERE `id`='25663';
 UPDATE `npc` SET `name`='卡納迪斯 追從者' WHERE `id`='25664';
-UPDATE `npc` SET `name`='艾罕 克羅迪庫斯', `title`='靈魂破壞者' WHERE `id`='25665';
+UPDATE `npc` SET `name`='艾罕 克羅迪庫斯', `title`='靈魂的破壞者' WHERE `id`='25665';
 UPDATE `npc` SET `name`='艾罕 克蘭尼庫斯', `title`='黑暗的引導者' WHERE `id`='25666';
 UPDATE `npc` SET `name`='巨蟻女王' WHERE `id`='29001';
 UPDATE `npc` SET `name`='巨蟻女王的幼蟲' WHERE `id`='29002';
@@ -3044,7 +3044,7 @@ UPDATE `npc` SET `name`='' WHERE `id`='29157';
 UPDATE `npc` SET `name`='' WHERE `id`='29158';
 UPDATE `npc` SET `name`='' WHERE `id`='29159';
 UPDATE `npc` SET `name`='' WHERE `id`='29160';
-UPDATE `npc` SET `name`='各聖殿的伊卡姆士' WHERE `id`='29161';
+UPDATE `npc` SET `name`='覺醒前的伊卡姆士' WHERE `id`='29161';
 UPDATE `npc` SET `name`='敢死隊', `title`='蒂雅特親衛隊' WHERE `id`='29162';
 UPDATE `npc` SET `name`='蒂雅特', `title`='闇龍巫女' WHERE `id`='29163';
 UPDATE `npc` SET `name`='' WHERE `id`='29164';
@@ -4198,7 +4198,7 @@ UPDATE `npc` SET `name`='暴走 水的精靈', `title`='任務怪物' WHERE `id`
 UPDATE `npc` SET `name`='暴走 風的精靈', `title`='任務怪物' WHERE `id`='27381';
 UPDATE `npc` SET `name`='封印遮斷結界' WHERE `id`='27382';
 UPDATE `npc` SET `name`='封印遮斷結界' WHERE `id`='27383';
-UPDATE `npc` SET `name`='封印遮斷結界' WHERE `id`='27384';
+UPDATE `npc` SET `name`='封印裝置', `title`='史奈曼皇帝的' WHERE `id`='27384';
 UPDATE `npc` SET `name`='莉莉絲', `title`='深淵的聖母' WHERE `id`='27385';
 UPDATE `npc` SET `name`='莉莉絲的代言者' WHERE `id`='27386';
 UPDATE `npc` SET `name`='莉莉絲的親衛隊' WHERE `id`='27387';
@@ -6502,12 +6502,12 @@ UPDATE `npc` SET `name`='巫德', `title`='神官' WHERE `id`='32593';
 UPDATE `npc` SET `name`='雷培德', `title`='暗號解讀家' WHERE `id`='32594';
 UPDATE `npc` SET `name`='勞倫斯', `title`='偉大的師傅' WHERE `id`='32595';
 UPDATE `npc` SET `name`='索比亞', `title`='賢者圖書館長' WHERE `id`='32596';
-UPDATE `npc` SET `name`='佛蘭茲', `title`='凌晨的證人' WHERE `id`='32597';
+UPDATE `npc` SET `name`='佛蘭茲', `title`='黎明的見證' WHERE `id`='32597';
 UPDATE `npc` SET `name`='宮廷魔法師', `title`='艾爾摩亞丁' WHERE `id`='32598';
 UPDATE `npc` SET `name`='大師余義', `title`='山中道人' WHERE `id`='32599';
 UPDATE `npc` SET `name`='生日喜悅精靈', `title`='生日祝賀幫手' WHERE `id`='32600';
 UPDATE `npc` SET `name`='瞬間移動裝置' WHERE `id`='32601';
-UPDATE `npc` SET `name`='瞬間移動裝置', `title`='臨時傳送師' WHERE `id`='32602';
+UPDATE `npc` SET `name`='臨時傳送師' WHERE `id`='32602';
 UPDATE `npc` SET `name`='特普歐司', `title`='軍官' WHERE `id`='32603';
 UPDATE `npc` SET `name`='飛空艇控制裝置' WHERE `id`='32604';
 UPDATE `npc` SET `name`='飛空艇控制裝置' WHERE `id`='32605';
@@ -6542,6 +6542,8 @@ UPDATE `npc` SET `name`='聖誕貓', `title`='幸福使者' WHERE `id`='32633';
 UPDATE `npc` SET `name`='聖誕貓', `title`='幸福使者' WHERE `id`='32634';
 UPDATE `npc` SET `name`='大師杜奇', `title`='活力充能活動' WHERE `id`='32635';
 UPDATE `npc` SET `name`='魔法學院職員', `title`='活動執行者' WHERE `id`='32636';
+UPDATE `npc` SET `name`='工作所傳送師' WHERE `id`='32637';
+UPDATE `npc` SET `name`='洛尼貓', `title`='網咖活動' WHERE `id`='32638';
 UPDATE `npc` SET `name`='傭兵公會駐守劍兵' WHERE `id`='35010';
 UPDATE `npc` SET `name`='傭兵公會駐守槍兵' WHERE `id`='35011';
 UPDATE `npc` SET `name`='傭兵公會駐守弓兵' WHERE `id`='35012';
@@ -9086,6 +9088,7 @@ UPDATE `npc` SET `name`='女熊' WHERE `id`='16060';
 UPDATE `npc` SET `name`='採集裝置' WHERE `id`='16061';
 UPDATE `npc` SET `name`='騎士' WHERE `id`='16062';
 UPDATE `npc` SET `name`='新羅' WHERE `id`='16063';
+UPDATE `npc` SET `name`='啾啾' WHERE `id`='16064';
 UPDATE `npc` SET `name`='狼' WHERE `id`='12077';
 UPDATE `npc` SET `name`='風幼龍' WHERE `id`='12311';
 UPDATE `npc` SET `name`='星幼龍' WHERE `id`='12312';

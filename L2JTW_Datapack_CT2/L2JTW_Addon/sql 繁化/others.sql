@@ -43,6 +43,19 @@ UPDATE `auction` SET `itemName` = '熱煉之廳' WHERE `itemId` = 60;
 UPDATE `auction` SET `itemName` = '鈦金之廳' WHERE `itemId` = 61;
 
 /***** GAME *****/ 
+/***** auto_announcements.sql *****/
+UPDATE `auto_announcements` SET `memo` = '突然變成無法移動的狀態時，請先點選畫面左上角自己的名字或血條，再按鍵盤的「Esc」取消目標。' WHERE `id` = '1';
+UPDATE `auto_announcements` SET `memo` = '掉入地獄或是卡點的的玩家，請輸入「/脫逃」的自救指令 - 需5分鐘。' WHERE `id` = '2';
+UPDATE `auto_announcements` SET `memo` = '叫喊買賣時，請至交易頻道發言，勿使用一般頻道影響他人。' WHERE `id` = '3';
+UPDATE `auto_announcements` SET `memo` = '請玩家遵守官網公告之遊戲管理規章相關內容，並配合GM進行遊戲。' WHERE `id` = '4';
+UPDATE `auto_announcements` SET `memo` = '玩家可以使用「/GM」來查詢目前正在線上服務的GM名單。' WHERE `id` = '5';
+UPDATE `auto_announcements` SET `memo` = '請玩家注意個人商店設定金額，視窗右下顯示金額即為販售獲利之金額。' WHERE `id` = '6';
+UPDATE `auto_announcements` SET `memo` = '請大家發揮良好遊戲道德，互相尊重禮讓，共同打造天堂II優良文化。' WHERE `id` = '7';
+UPDATE `auto_announcements` SET `memo` = '提醒您慎重保管個人帳號、密碼；養成良好的網路使用環境，以確保你的帳號資料安全。' WHERE `id` = '8';
+UPDATE `auto_announcements` SET `memo` = '過度沉溺遊戲易造成身體及精神狀況不佳，請適度的休息，確保您的健康。' WHERE `id` = '9';
+UPDATE `auto_announcements` SET `memo` = '不論是在進行交易或是買賣物品的時候，請多加確認數量及所要交易的角色名稱，以避免交易錯誤造成您不必要的損失。' WHERE `id` = '10';
+
+/***** GAME *****/ 
 /***** auto_chat_text.sql *****/
 UPDATE `auto_chat_text` SET `chatText` = '%player_cabal_loser%！大家等著絕望吧！死亡女神即將要降臨了！' WHERE `chatText` = '%player_cabal_loser%! All is lost! Prepare to meet the goddess of death!';
 UPDATE `auto_chat_text` SET `chatText` = '%player_cabal_loser%！你已經遭遇不幸！' WHERE `chatText` = '%player_cabal_loser%! You bring an ill wind!';
