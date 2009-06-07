@@ -123,7 +123,7 @@ public class Extractable implements ISkillHandler
 				else
 				{
 					sm.addItemName(createItemID[i]);
-					if (createAmount[i] > 1)
+					if (createAmount[i] > 0) //Update by rocknow
 						sm.addNumber(createAmount[i]);
 					player.sendPacket(sm);
 				}
