@@ -76,6 +76,11 @@ public class ChatTell implements IChatHandler
 				activeChar.sendMessage(235);
 				return;
 			}
+			if (receiver.getClient().isDetached())
+			{
+				activeChar.sendMessage(26);
+				return;
+			}
 			
 			if (!receiver.getMessageRefusal())
 			{

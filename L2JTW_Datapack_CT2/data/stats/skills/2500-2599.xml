@@ -63,7 +63,7 @@
   <set name="staticHitTime" val="true"/>
   <cond msgId="113" addName="1">
     <and>
-      <target class_id_restriction="52, 116"/>
+      <player class_id_restriction="52, 116"/>
       <player level="70"/>
     </and>
   </cond>
@@ -79,7 +79,7 @@
   <set name="staticHitTime" val="true"/>
   <cond msgId="113" addName="1">
     <and>
-      <target class_id_restriction="52, 116"/>
+      <player class_id_restriction="52, 116"/>
       <player level="72"/>
     </and>
   </cond>
@@ -95,7 +95,7 @@
   <set name="staticHitTime" val="true"/>
   <cond msgId="113" addName="1">
     <and>
-      <target class_id_restriction="52, 116"/>
+      <player class_id_restriction="52, 116"/>
       <player level="74"/>
     </and>
   </cond>
@@ -236,6 +236,7 @@
   <set name="operateType" val="OP_PASSIVE"/>
 </skill>
 <skill id="2525" levels="1" name="Scroll to move to Kamael Village">
+  <!-- Update by rocknow -->
   <set name="itemConsumeId" val="12753"/>
   <set name="itemConsumeCount" val="1"/>
   <set name="target" val="TARGET_SELF"/>
@@ -256,7 +257,7 @@
   <set name="staticHitTime" val="true"/>
   <cond msgId="113" addName="1">
     <and>
-      <target class_id_restriction="36, 108"/>
+      <player class_id_restriction="36, 108"/>
       <player level="72"/>
     </and>
   </cond>
@@ -272,7 +273,7 @@
   <set name="staticHitTime" val="true"/>
   <cond msgId="113" addName="1">
     <and>
-      <target class_id_restriction="23, 101"/>
+      <player class_id_restriction="23, 101"/>
       <player level="72"/>
     </and>
   </cond>
@@ -288,7 +289,7 @@
   <set name="staticHitTime" val="true"/>
   <cond msgId="113" addName="1">
     <and>
-      <target class_id_restriction="8, 93"/>
+      <player class_id_restriction="8, 93"/>
       <player level="72"/>
     </and>
   </cond>
@@ -304,7 +305,7 @@
   <set name="staticHitTime" val="true"/>
   <cond msgId="113" addName="1">
     <and>
-      <target class_id_restriction="8, 93, 23, 101, 36, 108"/>
+      <player class_id_restriction="8, 93, 23, 101, 36, 108"/>
       <player level="72"/>
     </and>
   </cond>

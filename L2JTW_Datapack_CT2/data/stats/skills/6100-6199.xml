@@ -168,7 +168,7 @@
   <set name="skillType" val="NOTDONE"/>
   <set name="operateType" val="OP_PASSIVE"/>
 </skill>
-<skill id="6136" levels="1" name="6136">
+<skill id="6136" levels="1" name="Agathion Cute Trick - Juju">
   <!-- Update by rocknow -->
   <set name="target" val="TARGET_SELF"/>
   <set name="skillType" val="DUMMY"/>
@@ -176,7 +176,7 @@
   <set name="staticHitTime" val="true"/>
   <set name="operateType" val="OP_ACTIVE"/>
 </skill>
-<skill id="6137" levels="1" name="6137">
+<skill id="6137" levels="1" name="Agathion Juju - Effect of Doubt">
   <!-- Update by rocknow -->
   <set name="magicLvl" val="1"/>
   <set name="operateType" val="OP_ACTIVE"/>
@@ -185,5 +185,15 @@
   <for>
     <effect name="BigHead" time="300" val="0" abnormal="bighead" stackOrder="300" stackType="big_head"/>
   </for>
+</skill>
+<skill id="6138" levels="1" name="Agathion Juju - Large Firework">
+  <set name="target" val="TARGET_NONE"/>
+  <set name="skillType" val="NOTDONE"/>
+  <set name="operateType" val="OP_PASSIVE"/>
+</skill>
+<skill id="6139" levels="1" name="Fake Tears">
+  <set name="target" val="TARGET_NONE"/>
+  <set name="skillType" val="NOTDONE"/>
+  <set name="operateType" val="OP_PASSIVE"/>
 </skill>
 </list>

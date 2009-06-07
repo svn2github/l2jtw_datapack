@@ -387,7 +387,7 @@
   <set name="staticHitTime" val="true"/>
   <cond msgId="113" addName="1">
     <and>
-      <target class_id_restriction="90"/>
+      <player class_id_restriction="90"/>
       <player level="83"/>
     </and>
   </cond>
@@ -403,7 +403,7 @@
   <set name="staticHitTime" val="true"/>
   <cond msgId="113" addName="1">
     <and>
-      <target class_id_restriction="90, 91, 99, 100, 106, 107"/>
+      <player class_id_restriction="90, 91, 99, 100, 106, 107"/>
       <player level="81"/>
     </and>
   </cond>
@@ -419,7 +419,7 @@
   <set name="staticHitTime" val="true"/>
   <cond msgId="113" addName="1">
     <and>
-      <target class_id_restriction="100"/>
+      <player class_id_restriction="100"/>
       <player level="83"/>
     </and>
   </cond>
@@ -435,7 +435,7 @@
   <set name="staticHitTime" val="true"/>
   <cond msgId="113" addName="1">
     <and>
-      <target class_id_restriction="107"/>
+      <player class_id_restriction="107"/>
       <player level="83"/>
     </and>
   </cond>
@@ -451,7 +451,7 @@
   <set name="staticHitTime" val="true"/>
   <cond msgId="113" addName="1">
     <and>
-      <target class_id_restriction="88, 89, 113, 114, 117, 118, 131"/>
+      <player class_id_restriction="88, 89, 113, 114, 117, 118, 131"/>
       <player level="81"/>
     </and>
   </cond>
@@ -467,7 +467,7 @@
   <set name="staticHitTime" val="true"/>
   <cond msgId="113" addName="1">
     <and>
-      <target class_id_restriction="114"/>
+      <player class_id_restriction="114"/>
       <player level="83"/>
     </and>
   </cond>
@@ -483,7 +483,7 @@
   <set name="staticHitTime" val="true"/>
   <cond msgId="113" addName="1">
     <and>
-      <target class_id_restriction="88"/>
+      <player class_id_restriction="88"/>
       <player level="83"/>
     </and>
   </cond>
@@ -499,7 +499,7 @@
   <set name="staticHitTime" val="true"/>
   <cond msgId="113" addName="1">
     <and>
-      <target class_id_restriction="93, 101, 108"/>
+      <player class_id_restriction="93, 101, 108"/>
       <player level="81"/>
     </and>
   </cond>
@@ -515,7 +515,7 @@
   <set name="staticHitTime" val="true"/>
   <cond msgId="113" addName="1">
     <and>
-      <target class_id_restriction="93, 101, 108"/>
+      <player class_id_restriction="93, 101, 108"/>
       <player level="81"/>
     </and>
   </cond>
@@ -531,7 +531,7 @@
   <set name="staticHitTime" val="true"/>
   <cond msgId="113" addName="1">
     <and>
-      <target class_id_restriction="92, 102, 109"/>
+      <player class_id_restriction="92, 102, 109"/>
       <player level="81"/>
     </and>
   </cond>
@@ -547,7 +547,7 @@
   <set name="staticHitTime" val="true"/>
   <cond msgId="113" addName="1">
     <and>
-      <target class_id_restriction="94, 95, 103, 110, 132, 133"/>
+      <player class_id_restriction="94, 95, 103, 110, 132, 133"/>
       <player level="81"/>
     </and>
   </cond>
@@ -563,7 +563,7 @@
   <set name="staticHitTime" val="true"/>
   <cond msgId="113" addName="1">
     <and>
-      <target class_id_restriction="97, 98, 105, 112, 115, 116"/>
+      <player class_id_restriction="97, 98, 105, 112, 115, 116"/>
       <player level="81"/>
     </and>
   </cond>
@@ -579,7 +579,7 @@
   <set name="staticHitTime" val="true"/>
   <cond msgId="113" addName="1">
     <and>
-      <target class_id_restriction="52, 116"/>
+      <player class_id_restriction="52, 116"/>
       <player level="72"/>
     </and>
   </cond>
@@ -595,7 +595,7 @@
   <set name="staticHitTime" val="true"/>
   <cond msgId="113" addName="1">
     <and>
-      <target class_id_restriction="51, 115"/>
+      <player class_id_restriction="51, 115"/>
       <player level="70"/>
     </and>
   </cond>
@@ -611,7 +611,7 @@
   <set name="staticHitTime" val="true"/>
   <cond msgId="113" addName="1">
     <and>
-      <target class_id_restriction="51, 115"/>
+      <player class_id_restriction="51, 115"/>
       <player level="74"/>
     </and>
   </cond>
@@ -627,7 +627,7 @@
   <set name="staticHitTime" val="true"/>
   <cond msgId="113" addName="1">
     <and>
-      <target class_id_restriction="51, 115"/>
+      <player class_id_restriction="51, 115"/>
       <player level="72"/>
     </and>
   </cond>
@@ -643,7 +643,7 @@
   <set name="staticHitTime" val="true"/>
   <cond msgId="113" addName="1">
     <and>
-      <target class_id_restriction="93, 101, 108"/>
+      <player class_id_restriction="93, 101, 108"/>
       <player level="81"/>
     </and>
   </cond>
@@ -659,7 +659,7 @@
   <set name="staticHitTime" val="true"/>
   <cond msgId="113" addName="1">
     <and>
-      <target class_id_restriction="96"/>
+      <player class_id_restriction="96"/>
       <player level="83"/>
     </and>
   </cond>
@@ -675,7 +675,7 @@
   <set name="staticHitTime" val="true"/>
   <cond msgId="113" addName="1">
     <and>
-      <target class_id_restriction="111"/>
+      <player class_id_restriction="111"/>
       <player level="83"/>
     </and>
   </cond>
@@ -691,7 +691,7 @@
   <set name="staticHitTime" val="true"/>
   <cond msgId="113" addName="1">
     <and>
-      <target class_id_restriction="104"/>
+      <player class_id_restriction="104"/>
       <player level="83"/>
     </and>
   </cond>

@@ -471,6 +471,7 @@ INSERT INTO `spawnlist` VALUES
 
 -- 加入地下競技場的入場管理員
 Delete From `spawnlist` Where `npc_templateid` in (32377); -- 刪除地下競技場重複的入場管理員
+UPDATE `npc` SET `type` = 'L2Teleporter' WHERE `id` in (32503); -- 入場管理員 柯雷塔的晶體
 INSERT INTO `spawnlist` VALUES
 ('830001', '', '1', '32491', '-82166', '-49176', '-10341', '0', '0', '31175', '60', '0', '0'),  -- 地下競技場助手
 ('830002', '', '1', '32497', '-80571', '151295', '-3045', '0', '0', '20607', '60', '0', '0'),   -- 調查官 艾德勒
@@ -870,7 +871,7 @@ REPLACE INTO `armor` VALUES
 (20310,'Agathion Seal Bracelet - Wonboso','lbracelet','false','none',150,'wood','none',0,-1,-1,0,0,0,0,0,'false','false','true','false','0-0','21049-1;23055-1;3267-1;'),
 (20311,'Agathion Seal Bracelet - Wonboso','lbracelet','false','none',150,'wood','none',0,-1,10080,0,0,0,0,0,'false','false','true','false','0-0','21049-1;23055-1;23065-1;3267-1;'),
 (20312,'Agathion Seal Bracelet - Daewoonso','lbracelet','false','none',150,'wood','none',0,-1,-1,0,0,0,0,0,'false','false','true','false','0-0','21050-1;23056-1;3267-1;'),
-(14776,'14776','lbracelet','false','none',150, 'wood','none',0,-1,20160,0,0,0,0,0,'false','false','true','false','0-0','8327-1;6136-1;6137-1;3267-1;');
+(14776,'Agathion Seal Bracelet - Juju','lbracelet','false','none',150, 'wood','none',0,-1,20160,0,0,0,0,0,'false','false','true','false','0-0','8327-1;6136-1;6137-1;3267-1;');
 
 -- 黃鬃獅子騎乘手鐲 / 蒸汽甲蟲騎乘手鐲
 REPLACE INTO `armor` VALUES
