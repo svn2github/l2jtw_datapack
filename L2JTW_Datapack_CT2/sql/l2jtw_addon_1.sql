@@ -876,7 +876,8 @@ REPLACE INTO `armor` VALUES
 
 -- ¶ÀÃO·à¤lÃM­¼¤âÅN / »]¨T¥ÒÂÎÃM­¼¤âÅN
 REPLACE INTO `armor` VALUES
-(13547,'Vesper Cutter','lbracelet','false','none',150,'wood','none',0,10080,-1,0,0,0,0,0,'false','false','true','false','0-0','8262-1;'),
+(13546,'Steam Sledge Mounting Bracelet','lbracelet','false','none',150, 'wood','none',0,10080,-1,0,0,0,0,0,'false','false','true','false','0-0','8261-1;'),
+(13547,'Tawny-Maned Lion Mounting Bracelet','lbracelet','false','none',150, 'wood','none',0,10080,-1,0,0,0,0,0,'false','false','true','false','0-0','8262-1;'),
 (20396,'Steam Beatle Mounting Bracelet','lbracelet','false','none',30,'wood','none',0,10080,-1,0,0,0,0,0,'false','false','true','false','0-0','8261-1;');
 
 -- ·s¬¼ÂyÀ°¤â
@@ -1163,12 +1164,12 @@ UPDATE `armor` SET `skill` = '3407-1;' WHERE `item_id` ='9900';                 
 UPDATE `etcitem` SET `skill` = '2370-1;' WHERE `item_id` ='9897' ;                            -- ÅÜ¨­¨÷¶b-½Þ
 UPDATE `etcitem` SET `skill` = '2076-1;', `handler` = 'ItemSkills' WHERE `item_id` ='4679';   -- ¥ì«½ªº¯¬ºÖ
 UPDATE `etcitem` SET `skill` = '2309-1;', `handler` = 'ItemSkills' WHERE `item_id` ='9144';   -- ½Þ½ÞÂ§²°
-UPDATE `etcitem` SET `skill` = '10254-1;', `handler` = 'ItemSkills' WHERE `item_id` ='2422';  -- 1¯ÅÄ_³U
-UPDATE `etcitem` SET `skill` = '10255-1;', `handler` = 'ItemSkills' WHERE `item_id` ='2423';  -- 2¯ÅÄ_³U
-UPDATE `etcitem` SET `skill` = '10256-1;', `handler` = 'ItemSkills' WHERE `item_id` ='2424';  -- 3¯ÅÄ_³U
-UPDATE `etcitem` SET `skill` = '10257-1;', `handler` = 'ItemSkills' WHERE `item_id` ='2425';  -- 4¯ÅÄ_³U
-UPDATE `etcitem` SET `skill` = '10258-1;', `handler` = 'ItemSkills' WHERE `item_id` ='2426';  -- 5¯ÅÄ_³U
-UPDATE `etcitem` SET `skill` = '10259-1;', `handler` = 'ItemSkills' WHERE `item_id` ='2427';  -- 6¯ÅÄ_³U
+UPDATE `etcitem` SET `skill` = '2422-1;', `handler` = 'ItemSkills' WHERE `item_id` ='10254';  -- 1¯ÅÄ_³U
+UPDATE `etcitem` SET `skill` = '2423-2;', `handler` = 'ItemSkills' WHERE `item_id` ='10255';  -- 2¯ÅÄ_³U
+UPDATE `etcitem` SET `skill` = '2424-3;', `handler` = 'ItemSkills' WHERE `item_id` ='10256';  -- 3¯ÅÄ_³U
+UPDATE `etcitem` SET `skill` = '2425-4;', `handler` = 'ItemSkills' WHERE `item_id` ='10257';  -- 4¯ÅÄ_³U
+UPDATE `etcitem` SET `skill` = '2426-5;', `handler` = 'ItemSkills' WHERE `item_id` ='10258';  -- 5¯ÅÄ_³U
+UPDATE `etcitem` SET `skill` = '2427-6;', `handler` = 'ItemSkills' WHERE `item_id` ='10259';  -- 6¯ÅÄ_³U
 UPDATE `etcitem` SET `skill` = '2487-1;', `handler` = 'ItemSkills' WHERE `item_id` ='10520';  -- ¦^Án¤ô´¹-­Ü¤ì³Â¦ç
 UPDATE `etcitem` SET `skill` = '2525-1;', `handler` = 'ItemSkills' WHERE `item_id` ='12753';  -- îî¤Ñ¨Ï§ø²ø²¾°Ê¨÷¶b
 UPDATE `etcitem` SET `skill` = '2670-1;', `handler` = 'ItemSkills' WHERE `item_id` ='13794';  -- ÅÜ¨­Åé-Â½ºu¤è¶ôÅÜ¨­¨÷¶b
