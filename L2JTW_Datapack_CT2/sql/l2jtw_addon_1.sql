@@ -1462,3 +1462,6 @@ UPDATE `enchant_skill_trees` SET `success_rate85`=1  WHERE `level` in (127,227,3
 UPDATE `enchant_skill_trees` SET `success_rate85`=1  WHERE `level` in (128,228,328,428,528);
 UPDATE `enchant_skill_trees` SET `success_rate85`=1  WHERE `level` in (129,229,329,429,529);
 UPDATE `enchant_skill_trees` SET `success_rate85`=1  WHERE `level` in (130,230,330,430,530);
+
+-- 修正學習一、二轉的技能不需要魔法書
+DELETE FROM skill_spellbooks WHERE (`item_id` < 7644) OR (`item_id` > 8379 and item_Id < 8618) OR (`item_id` > 8889 and item_Id < 8892) OR (`item_id` = 8909) OR (`item_id` > 8944 and item_Id < 8947) OR (`item_id` > 10024 and item_Id < 10067) OR (`item_id` > 10069 and item_Id < 10090) OR (`item_id` > 10091 and item_Id < 10099) OR (`item_id` > 10179 and item_Id < 10184) OR (`item_id` > 10203 and item_Id < 10598) OR (`item_id` = 10600) OR (`item_id` > 10607 and item_Id < 10611) OR (`item_id` > 12771 and item_Id < 12779) OR (`item_id` = 12820);
