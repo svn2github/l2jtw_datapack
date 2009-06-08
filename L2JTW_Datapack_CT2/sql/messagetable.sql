@@ -92,9 +92,9 @@ INSERT INTO `messagetable` VALUES ('24', 'cn', '增加“$3”的 $1 EXP 和 $2 
 INSERT INTO `messagetable` VALUES ('25', 'en', 'You may have broken our arrows, but you will never break our will! Archers retreat!', null);
 INSERT INTO `messagetable` VALUES ('25', 'tw', 'You may have broken our arrows, but you will never break our will! Archers retreat!', null);
 INSERT INTO `messagetable` VALUES ('25', 'cn', 'You may have broken our arrows, but you will never break our will! Archers retreat!', null);
-INSERT INTO `messagetable` VALUES ('26', 'en', '', null);
-INSERT INTO `messagetable` VALUES ('26', 'tw', '', null);
-INSERT INTO `messagetable` VALUES ('26', 'cn', '', null);
+INSERT INTO `messagetable` VALUES ('26', 'en', 'Player is in offline mode.', null);
+INSERT INTO `messagetable` VALUES ('26', 'tw', '玩家目前為離線交易模式。', null);
+INSERT INTO `messagetable` VALUES ('26', 'cn', '玩家目前为离线交易模式。', null);
 INSERT INTO `messagetable` VALUES ('27', 'en', '', null);
 INSERT INTO `messagetable` VALUES ('27', 'tw', '', null);
 INSERT INTO `messagetable` VALUES ('27', 'cn', '', null);
