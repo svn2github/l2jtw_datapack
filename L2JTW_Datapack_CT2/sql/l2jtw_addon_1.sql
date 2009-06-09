@@ -827,6 +827,7 @@ REPLACE INTO `armor` VALUES
 (14608,'Ancient Cloak - Light Armor exclusive','back','false','light',220,'wood','s80',0,-1,-1,20,0,0,0,0,'false','false','true','false','0-0','0-0;'),
 (14609,'Ancient Cloak - Heavy Armor exclusive','back','false','heavy',220,'wood','s80',0,-1,-1,20,0,0,0,0,'false','false','true','false','0-0','0-0;'),
 (14610,'Ancient Cloak - Robe exclusive','back','false','magic',220,'wood','s80',0,-1,-1,20,0,0,0,0,'false','false','true','false','0-0','0-0;');
+UPDATE `items` SET `enchant_level` = '0' WHERE `item_id` in (13687,13688,13689,13690,13889,13890,13891,13892,14601,14602,14608,14609,14610) and `enchant_level` > 0 ;
 
 -- 法國麵包武器
 Delete From `armor` Where `item_id` in (20266); -- L2J 錯誤設定為防具
