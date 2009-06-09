@@ -697,7 +697,7 @@
   <set name="skillType" val="BUFF"/>
   <set name="operateType" val="OP_ACTIVE"/>
   <set name="aggroPoints" val="662"/>
-  <cond msg="Usable only while mounted on a Wyvern.">
+  <cond msgId="113" addName="1"><!-- Update by rocknow -->
     <player flying="true"/>
   </cond>
   <for>

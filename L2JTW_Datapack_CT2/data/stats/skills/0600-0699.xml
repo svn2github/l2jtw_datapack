@@ -941,7 +941,7 @@
   <set name="operateType" val="OP_ACTIVE"/>
   <set name="castRange" val="-1"/>
   <set name="effectRange" val="-1"/>
-  <cond msg="Used only when HP is 30% or lower.">
+  <cond msgId="113" addName="1"><!-- Update by rocknow -->
     <player hp="30"/>
   </cond>
   <for>
@@ -1057,7 +1057,7 @@
   <set name="operateType" val="OP_ACTIVE"/>
   <set name="castRange" val="-1"/>
   <set name="effectRange" val="-1"/>
-  <cond msg="Used only when HP is 30% or lower.">
+  <cond msgId="113" addName="1"><!-- Update by rocknow -->
     <player hp="30"/>
   </cond>
   <for>
@@ -1168,7 +1168,7 @@
   <set name="operateType" val="OP_ACTIVE"/>
   <set name="castRange" val="-1"/>
   <set name="effectRange" val="-1"/>
-  <cond msg="Used only when HP is 30% or lower.">
+  <cond msgId="113" addName="1"><!-- Update by rocknow -->
     <player hp="30"/>
   </cond>
   <for>
@@ -1272,7 +1272,7 @@
   <set name="operateType" val="OP_ACTIVE"/>
   <set name="castRange" val="-1"/>
   <set name="effectRange" val="-1"/>
-  <cond msg="Used only when HP is 30% or lower.">
+  <cond msgId="113" addName="1"><!-- Update by rocknow -->
     <player hp="30"/>
   </cond>
   <for>

@@ -54,7 +54,7 @@
   <set name="skillType" val="BUFF"/>
   <set name="operateType" val="OP_ACTIVE"/>
   <set name="castRange" val="-1"/>
-  <cond msg="Used only when MP is 10% or lower.">
+  <cond msgId="113" addName="1"><!-- Update by rocknow -->
     <player mp="10"/>
   </cond>
   <for>
@@ -216,7 +216,7 @@
   <set name="operateType" val="OP_ACTIVE"/>
   <set name="castRange" val="-1"/>
   <set name="effectRange" val="-1"/>
-  <cond msg="Used only when MP is 10% or lower.">
+  <cond msgId="113" addName="1"><!-- Update by rocknow -->
     <player mp="10"/>
   </cond>
   <for>
@@ -324,7 +324,7 @@
   <set name="operateType" val="OP_ACTIVE"/>
   <set name="castRange" val="-1"/>
   <set name="effectRange" val="-1"/>
-  <cond msg="Used only when MP is 10% or lower.">
+  <cond msgId="113" addName="1"><!-- Update by rocknow -->
     <player mp="10"/>
   </cond>
   <for>
@@ -1074,7 +1074,7 @@
   <set name="skillRadius" val="130"/>
   <set name="operateType" val="OP_ACTIVE"/>
   <set name="castRange" val="40"/>
-  <cond>
+  <cond msgId="113" addName="1"><!-- Update by rocknow -->
     <using kind="Sword,Blunt,Big Sword,Big Blunt"/>
   </cond>
 </skill>

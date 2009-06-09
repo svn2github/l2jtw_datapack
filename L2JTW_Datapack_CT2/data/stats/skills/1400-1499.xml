@@ -907,7 +907,7 @@
   <set name="target" val="TARGET_PARTY_MEMBER"/>
   <set name="castRange" val="400"/>
   <set name="effectRange" val="900"/>
-  <cond msg="Usable only on Kamael party members.">
+  <cond msgId="109"><!-- Update by rocknow -->
     <target class_id_restriction="123, 124, 125, 126, 127, 128, 129, 130, 131, 132, 133, 134, 135, 136"/>
   </cond>
   <for>
@@ -1677,7 +1677,7 @@
   <set name="reuseDelay" val="360000"/> <!-- Need retail -->
   <set name="effectType" val="NEGATE"/> <!-- Possibly require core-side improvement to allow NEGATE inside a HEAL_PERCENT skill -->
   <set name="negateId" val="1487"/>
-  <cond msg="Target does not have an active Restoration skill."> <!-- Need retail msg if there is one. -->
+  <cond msgId="113" addName="1"><!-- Update by rocknow -->
     <target active_effect_id="1487"/>
   </cond>
 </skill>

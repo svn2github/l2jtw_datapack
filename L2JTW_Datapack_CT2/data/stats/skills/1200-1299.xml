@@ -1792,7 +1792,7 @@
   <set name="isMagic" val="true"/>
   <set name="operateType" val="OP_ACTIVE"/>
   <set name="aggroPoints" val="560"/>
-  <cond msg="Usable when your remaining MP is below 25 percent.">
+  <cond msgId="113" addName="1"><!-- Update by rocknow -->
     <player mp="25"/>
   </cond>
 </skill>
