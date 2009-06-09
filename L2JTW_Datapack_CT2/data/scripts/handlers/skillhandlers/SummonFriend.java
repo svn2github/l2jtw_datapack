@@ -18,7 +18,7 @@ import java.util.logging.Level;
 
 import net.sf.l2j.Config;
 import net.sf.l2j.gameserver.SevenSigns;
-import net.sf.l2j.gameserver.datatables.ItemTable;
+//Delete by rocknow
 import net.sf.l2j.gameserver.handler.ISkillHandler;
 import net.sf.l2j.gameserver.instancemanager.InstanceManager;
 import net.sf.l2j.gameserver.model.L2Object;
@@ -188,17 +188,17 @@ public class SummonFriend implements ISkillHandler
 		int itemConsumeCount = summonSkill.getTargetConsume();
 		if (itemConsumeId != 0 && itemConsumeCount != 0)
 		{
-			String ItemName = ItemTable.getInstance().getTemplate(itemConsumeId).getName();
+			//Delete by rocknow
 			if (targetChar.getInventory().getInventoryItemCount(itemConsumeId, 0) < itemConsumeCount)
 			{
     			SystemMessage sm = new SystemMessage(SystemMessageId.S1_REQUIRED_FOR_SUMMONING);
-    			sm.addString(ItemName);
+    			sm.addItemName(summonSkill.getTargetConsumeId()); //Update by rocknow
     			targetChar.sendPacket(sm);
 				return;
 			}
 			targetChar.getInventory().destroyItemByItemId("Consume", itemConsumeId, itemConsumeCount, summonerChar, targetChar);
-			SystemMessage sm = new SystemMessage(SystemMessageId.S1_HAS_DISAPPEARED);
-			sm.addString(ItemName);
+			SystemMessage sm = new SystemMessage(SystemMessageId.S1_DISAPPEARED); //Update by rocknow
+			sm.addItemName(summonSkill.getTargetConsumeId()); //Update by rocknow
 			targetChar.sendPacket(sm);
 		}
 		// set correct instance id

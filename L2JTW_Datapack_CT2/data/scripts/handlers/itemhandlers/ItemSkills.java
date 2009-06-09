@@ -91,7 +91,7 @@ public class ItemSkills implements IItemHandler
 								if (isPet)
 								{
 									SystemMessage sm = new SystemMessage(SystemMessageId.PET_USES_S1);
-									sm.addString(itemSkill.getName());
+									sm.addSkillName(itemSkill); //Update by rocknow
 									activeChar.sendPacket(sm);
 								}
 								else
