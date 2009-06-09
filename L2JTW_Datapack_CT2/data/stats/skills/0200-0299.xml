@@ -220,6 +220,7 @@
     <!-- Retail Values CT2.3: 13HP * 1 Sec -->
     <effect count="0x7fffffff" name="DamOverTime" val="13">
       <mul order="0x30" stat="pAtkSpd" val="1.25"/>
+      <sub order="0x40" stat="cancel" val="0"/><!-- Especialiy increase for Upgrade Value by rocknow -->
     </effect>
   </for>
 </skill>
@@ -1726,11 +1727,13 @@
   <for>
     <effect name="Buff" time="120" val="0" stackOrder="1" stackType="dance_of_fury">
       <mul order="0x30" stat="pAtkSpd" val="1.15"/>
+      <sub order="0x40" stat="cancel" val="0"/><!-- Especialiy increase for Upgrade Value by rocknow -->
     </effect>
   </for>
   <enchant1for>
     <effect name="Buff" time="#ench1time" val="0" stackOrder="1" stackType="dance_of_fury">
       <mul order="0x30" stat="pAtkSpd" val="1.15"/>
+      <sub order="0x40" stat="cancel" val="0"/><!-- Especialiy increase for Upgrade Value by rocknow -->
     </effect>
   </enchant1for>
 </skill>

@@ -1296,6 +1296,7 @@
   <for>
     <effect name="Buff" time="1200" val="0" stackOrder="1.15" stackType="attack_time_down">
       <mul order="0x30" stat="pAtkSpd" val="1.15"/>
+      <sub order="0x40" stat="cancel" val="0"/><!-- Especialiy increase for Upgrade Value by rocknow -->
     </effect>
   </for>
 </skill>
@@ -1612,6 +1613,7 @@
   <set name="reuseDelay" val="3000"/>
   <for>
     <effect name="Buff" time="1200" val="0">
+      <sub order="0x40" stat="cancel" val="0"/><!-- Especialiy increase for Upgrade Value by rocknow -->
       <mul order="0x30" stat="pAtkSpd" val="#pAtkSpd">
         <using kind="Crossbow"/>
       </mul>

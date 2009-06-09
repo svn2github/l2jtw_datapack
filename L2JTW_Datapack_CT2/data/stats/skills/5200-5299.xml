@@ -68,6 +68,7 @@
   <for>
     <effect name="Debuff" time="15" val="0" stackOrder="0.77" stackType="attack_time_up">
       <mul order="0x30" stat="pAtkSpd" val="0.77"/>
+      <sub order="0x40" stat="cancel" val="0"/><!-- Especialiy increase for Upgrade Value by rocknow -->
     </effect>
   </for>
 </skill>
@@ -145,6 +146,7 @@
   <for>
     <effect name="Buff" time="3600" val="0" stackOrder="1.15" stackType="attack_time_down">
       <mul order="0x30" stat="pAtkSpd" val="1.15"/>
+      <sub order="0x40" stat="cancel" val="0"/><!-- Especialiy increase for Upgrade Value by rocknow -->
     </effect>
   </for>
 </skill>
@@ -171,6 +173,7 @@
   <for>
     <effect name="Buff" time="3600" val="0" stackOrder="4" stackType="casting_time_down">
       <mul order="0x30" stat="mAtkSpd" val="1.3"/>
+      <sub order="0x40" stat="cancel" val="0"/><!-- Especialiy increase for Upgrade Value by rocknow -->
     </effect>
   </for>
 </skill>

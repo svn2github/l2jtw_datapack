@@ -1363,6 +1363,7 @@
   <for>
     <effect name="Debuff" time="15" val="0" stackOrder="#Tab-pAtkSpd" stackType="attack_time_up">
       <mul order="0x30" stat="pAtkSpd" val="#Tab-pAtkSpd"/>
+      <sub order="0x40" stat="cancel" val="0"/><!-- Especialiy increase for Upgrade Value by rocknow -->
     </effect>
   </for>
 </skill>

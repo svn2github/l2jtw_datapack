@@ -1670,6 +1670,7 @@
   <enchant2 name="mpInitialConsume" val="#ench2mpInitialConsume"/>
   <for>
     <effect name="Buff" time="1200" val="0">
+      <sub order="0x40" stat="cancel" val="0"/><!-- Especialiy increase for Upgrade Value by rocknow -->
       <mul order="0x30" stat="pAtkSpd" val="#rate">
         <using kind="Bow"/>
       </mul>
@@ -1677,6 +1678,7 @@
   </for>
   <enchant1for>
     <effect name="Buff" time="#ench1time" val="0">
+      <sub order="0x40" stat="cancel" val="0"/><!-- Especialiy increase for Upgrade Value by rocknow -->
       <mul order="0x30" stat="pAtkSpd" val="1.12">
         <using kind="Bow"/>
       </mul>

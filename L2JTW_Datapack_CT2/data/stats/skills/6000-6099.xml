@@ -426,6 +426,7 @@
   <for>
     <effect name="Buff" time="8" val="0" >
       <mul order="0x30" stat="pAtkSpd" val="1.5"/>
+      <sub order="0x40" stat="cancel" val="0"/><!-- Especialiy increase for Upgrade Value by rocknow -->
     </effect>
   </for>
 </skill>
