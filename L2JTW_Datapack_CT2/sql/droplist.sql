@@ -25366,17 +25366,28 @@ INSERT INTO `droplist` VALUES
 (22189,57,4456,7385,0,700000), -- Adena
 (22190,57,7411,7610,0,700000), -- Adena
 (22190,1895,1,1,2,350000), -- Metallic Fiber
-(22196,57,13610,27100,0,700000), -- Adena
-(22196,8633,1,1,2,41666), -- Elixir of Mental Strength (S-Grade)
-(22196,8627,1,1,2,25641), -- Elixir of Life (S-Grade)
+(22196,57,13520,27200,0,700000), -- Adena
+(22196,1879,1,1,2,200000), -- Cokes
+(22196,1885,1,1,2,111111), -- High Grade Suede
+(22196,9628,1,1,2,9615), -- Leonard
+(22196,9630,1,1,2,9615), -- Orichalcum
+(22196,9573,1,1,200,38462), -- Life Stone: level 80
+(22196,9574,1,1,200,19231), -- Mid-Grade Life Stone: level 80
 (22196,5529,1,1,1,5181), -- Dragon Slayer Edge
 (22196,5545,1,1,1,5181), -- Dark Legion\'s Edge Blade
 (22196,8956,1,1,2,5181), -- Red Primeval Crystal
 (22196,11968,1,1,1,2564), -- Common Item - Dragon Slayer (10x lower drop now!)
 (22196,11971,1,1,1,2564), -- Common Item - Sword of Miracles 
 (22196,11964,1,1,1,2564), -- Common Item - Dark Legion\'s Edge
-(22197,57,5818,11870,0,700000), -- Adena
-(22197,8633,1,1,2,5714), -- Elixir of Mental Strength (S-Grade)
+(22196,10114,1,1,-1,100000), -- Sealed Arcana Sickle Piece
+(22197,57,5813,11860,0,700000), -- Adena
+(22197,1879,1,1,2,76923), -- Cokes
+(22197,1885,1,1,2,34483), -- High Grade Suede
+(22197,9628,1,1,2,2096), -- Leonard
+(22197,9630,1,1,2,3774), -- Orichalcum
+(22197,9629,1,1,2,3356), -- Adamantine
+(22197,9573,1,1,200,2933), -- Life Stone: level 80
+(22197,9574,1,1,200,419), -- Mid-Grade Life Stone: level 80
 (22197,5546,1,1,1,1972), -- Sword of Miracles Edge
 (22197,8627,1,1,2,3367), -- Elixir of Life (S-Grade)
 (22197,5529,1,1,1,1680), -- Dragon Slayer Edge
@@ -25388,36 +25399,52 @@ INSERT INTO `droplist` VALUES
 (22197,8955,1,1,2,672), -- Green Primeval Crystal
 (22197,8956,1,1,2,1972), -- Red Primeval Crystal
 (22197,6689,1,1,-1,17241), -- Basalt Battlehammer Head
-(22198,57,10320,31550,0,700000), -- Adena
-(22198,8633,1,1,2,8403), -- Elixir of Mental Strength (S-Grade)
-(22198,8627,1,1,2,7462), -- Elixir of Life (S-Grade)
+(22198,57,13350,27190,0,700000), -- Adena
+(22198,1879,1,1,2,200000), -- Cokes
+(22198,1885,1,1,2,90909), -- High Grade Suede
+(22198,9628,1,1,2,11765), -- Leonard
+(22198,9630,1,1,2,4717), -- Orichalcum
+(22198,9629,1,1,2,7092), -- Adamantine
+(22198,9573,1,1,200,8264), -- Life Stone: level 80
 (22198,8954,1,1,2,3717), -- Blue Primeval Crystal
 (22198,8956,1,1,2,2793), -- Red Primeval Crystal
 (22198,5529,1,1,1,2793), -- Dragon Slayer Edge
 (22198,5546,1,1,1,6024), -- Sword of Miracles Edge
 (22198,8955,1,1,2,931), -- Green Primeval Crystal
 (22198,5545,1,1,1,931), -- Dark Legion\'s Edge Blade
-(22199,57,18210,54000,0,700000), -- Adena
+(22198,10114,1,1,-1,200000), -- Sealed Arcana Sickle Piece
+(22199,57,22930,46460,0,700000), -- Adena
 (22199,6346,1,1,1,83333), -- Sealed Majestic Ring Gemstone
 (22199,6342,1,1,1,111111), -- Sealed Majestic Earring Gemstone
 (22199,6344,1,1,1,28571), -- Sealed Majestic Necklace Beads
-(22199,8627,1,1,2,16666), -- Elixir of Life (S-Grade)
-(22199,8633,1,1,2,14286), -- Elixir of Mental Strength (S-Grade)
+(22199,1879,1,3,2,142857), -- Cokes
+(22199,1885,1,1,2,142857), -- High Grade Suede
+(22199,9628,1,1,2,4739), -- Leonard
+(22199,9630,1,1,2,9434), -- Orichalcum
+(22199,9629,1,1,2,9434), -- Adamantine
+(22199,9573,1,1,200,14286), -- Life Stone: level 80
+(22199,9574,1,1,200,9434), -- Mid-Grade Life Stone: level 80
 (22199,8954,1,1,2,3344), -- Blue Primeval Crystal
 (22199,12350,1,1,1,3876), -- Common Item - Sealed Majestic Necklace
 (22199,12352,1,1,1,3876), -- Common Item - Sealed Majestic Earring
 (22199,12351,1,1,1,3876), -- Common Item - Sealed Majestic Ring
-(22200,57,6036,12300,0,700000), -- Adena
-(22200,8627,1,1,2,5952), -- Elixir of Life (S-Grade
-(22200,8633,1,1,2,3968), -- Elixir of Mental Strength (S-Grade)
+(22200,57,6082,12300,0,700000), -- Adena
+(22200,1879,1,1,2,62500), -- Cokes
+(22200,1885,1,1,2,27778), -- High Grade Suede
 (22200,8342,1,1,1,3968), -- Flaming Dragon Skull Piece
 (22200,8349,1,1,1,1984), -- Doom Crusher Head
 (22200,5533,1,1,1,1984), -- Elysian Head
 (22200,8955,1,1,2,6849), -- Green Primeval Crystal
 (22200,8954,1,1,2,6849), -- Blue Primeval Crystal
-(22201,57,6034,12320,0,700000), -- Adena
-(22201,8633,1,1,2,2119), -- Elixir of Mental Strength (S-Grade)
-(22201,8627,1,1,2,3663), -- Elixir of Life (S-Grade)
+(22201,57,6037,12310,0,700000), -- Adena
+(22201,1879,1,1,2,83333), -- Cokes
+(22201,1885,1,1,2,41667), -- High Grade Suede
+(22201,9628,1,1,2,4115), -- Leonard
+(22201,9630,1,1,2,3906), -- Orichalcum
+(22201,9629,1,1,2,2874), -- Adamantine
+(22201,9573,1,1,200,3704), -- Life Stone: level 80
+(22201,9574,1,1,200,1233), -- Mid-Grade Life Stone: level 80
+(22201,9575,1,1,200,411), -- High-Grade Life Stone: level 80
 (22201,5544,1,1,1,1348), -- Branch of The Mother Tree Head
 (22201,8342,1,1,1,770), -- Flaming Dragon Skull Piece
 (22201,8954,1,1,2,577), -- Blue Primeval Crystal
@@ -25426,12 +25453,16 @@ INSERT INTO `droplist` VALUES
 (22201,8956,1,1,2,192), -- Red Primeval Crystal
 (22201,11966,1,1,2,192), -- Common Item - Doom Crusher (no drop info)
 (22201,8349,1,1,1,1348), -- Doom Crusher Head
-(22201,1895,1,5,-1,500250), -- Metallic Fiber
-(22201,6695,1,1,-1,18181), -- Demon Splinter Blade
+(22201,1895,1,7,-1,500250), -- Metallic Fiber
+(22201,10114,1,1,-1,200000), -- Sealed Arcana Sickle Piece
 (22201,4040,1,1,-1,333333), -- Mold Lubricant
-(22202,57,4475,13610,0,700000), -- Adena
-(22202,8633,1,1,2,1259), -- Elixir of Mental Strength (S-Grade)
-(22202,8627,1,1,2,3774), -- Elixir of Life (S-Grade)
+(22202,57,6041,12310,0,700000), -- Adena
+(22202,1879,1,1,2,111111), -- Cokes
+(22202,1885,1,1,2,38462), -- High Grade Suede
+(22202,9628,1,1,2,4630), -- Leonard
+(22202,9630,1,1,2,5556), -- Orichalcum
+(22202,9629,1,1,2,4630), -- Adamantine
+(22202,9573,1,1,200,4630), -- Life Stone: level 80
 (22202,8342,1,1,1,1468), -- Flaming Dragon Skull Piece
 (22202,5533,1,1,1,1259), -- Elysian Head
 (22202,5544,1,1,1,1259), -- Branch of The Mother Tree Head
@@ -25442,14 +25473,24 @@ INSERT INTO `droplist` VALUES
 (22202,8954,1,1,2,733), -- Blue Primeval Crystal
 (22202,8349,1,1,1,2519), -- Doom Crusher Head
 (22202,6696,1,1,-1,18867), -- Heavens Divider Edge
-(22203,57,5953,12100,0,700000), -- Adena
-(22203,8627,1,1,2,34842), -- Elixir of Life (S-Grade)
+(22203,57,5952,12090,0,700000), -- Adena
+(22203,1879,1,1,2,125000), -- Cokes
+(22203,1885,1,1,2,66667), -- High Grade Suede
+(22203,9628,1,1,2,4975), -- Leonard
+(22203,9630,1,1,2,9901), -- Orichalcum
+(22203,9629,1,1,2,4975), -- Adamantine
 (22203,5534,1,1,1,5747), -- Soul Bow Stave
 (22203,8954,1,1,2,2882), -- Blue Primeval Crystal
 (22203,8956,1,1,2,2882), -- Red Primeval Crystal
-(22204,57,5790,11810,0,700000), -- Adena
-(22204,8633,1,1,2,3906), -- Elixir of Mental Strength (S-Grade)
-(22204,8627,1,1,2,3205), -- Elixir of Life (S-Grade)
+(22204,57,5786,11810,0,700000), -- Adena
+(22204,1879,1,1,2,76923), -- Cokes
+(22204,1885,1,1,2,34483), -- High Grade Suede
+(22204,9628,1,1,2,3448), -- Leonard
+(22204,9630,1,1,2,2725), -- Orichalcum
+(22204,9629,1,1,2,1996), -- Adamantine
+(22204,9573,1,1,200,2907), -- Life Stone: level 80
+(22204,9574,1,1,200,545), -- Mid-Grade Life Stone: level 80
+(22204,9575,1,1,200,182), -- High-Grade Life Stone: level 80
 (22204,5534,1,1,1,4630), -- Soul Bow Stave
 (22204,8954,1,1,2,1067), -- Blue Primeval Crystal
 (22204,8955,1,1,2,356), -- Green Primeval Crystal
@@ -25458,44 +25499,50 @@ INSERT INTO `droplist` VALUES
 (22204,1885,1,1,-1,352641), -- High Grade Suede
 (22204,6698,1,1,-1,166666), -- Sealed Tateossian Earring Part
 (22204,6901,1,1,-1,7936), -- Recipe: Shining Arrow (100%)
-(22205,57,5987,12110,0,700000), -- Adena
-(22205,8633,1,1,2,1229), -- Elixir of Mental Strength (S-Grade)
-(22205,8627,1,1,2,11111), -- Elixir of Life (S-Grade)
+(22205,57,5951,12100,0,700000), -- Adena
+(22205,1879,1,1,2,90909), -- Cokes
+(22205,1885,1,1,2,32258), -- High Grade Suede
+(22205,9628,1,1,2,1942), -- Leonard
+(22205,9630,1,1,2,5814), -- Orichalcum
+(22205,9629,1,1,2,971), -- Adamantine
+(22205,9574,1,1,200,971), -- Mid-Grade Life Stone: level 80
 (22205,8954,1,1,2,1229), -- Blue Primeval Crystal
 (22205,5534,1,1,1,4902), -- Soul Bow Stave
 (22205,8955,1,1,2,1229), -- Green Primeval Crystal
 (22205,11975,1,1,1,539), -- Common Item - Soul Bow
 (22205,6700,1,1,-1,250000), -- Sealed Tateossian Necklace Chain
 (22205,6699,1,1,-1,250000), -- Sealed Tateossian Ring Gem
-(22208,57,6613,13420,0,700000), -- Adena
+(22208,57,6595,13420,0,700000), -- Adena
 (22208,5537,1,1,1,6024), -- Soul Separator Head
-(22208,8954,1,1,2,4525), -- Blue Primeval Crystal
-(22209,57,6054,12340,0,700000), -- Adena
+(22208,8954,1,1,2,13333), -- Blue Primeval Crystal
+(22209,57,6047,12330,0,700000), -- Adena
 (22209,5537,1,1,1,5814), -- Soul Separator Head
 (22209,11973,1,1,1,300), -- Common Item - Soul Separator
-(22209,8954,1,1,2,2427), -- Blue Primeval Crystal
-(22209,8955,1,1,2,485), -- Green Primeval Crystal
-(22209,8956,1,1,2,485), -- Red Primeval Crystal
-(22209,960,1,1,2,485), -- Scroll: Enchant Armor (Grade S)
-(22209,8752,1,1,200,300), -- High-Grade Life Stone: level 76
-(22210,57,6608,13420,0,700000), -- Adena
+(22209,8954,1,1,2,3012), -- Blue Primeval Crystal
+(22209,8955,1,1,2,2155), -- Green Primeval Crystal
+(22209,8956,1,1,2,861), -- Red Primeval Crystal
+(22209,960,1,1,2,431), -- Scroll: Enchant Armor (Grade S)
+(22209,8752,1,1,200,431), -- High-Grade Life Stone: level 76
+(22210,57,6608,13350,0,700000), -- Adena
 (22210,5537,1,1,1,5076), -- Soul Separator Head
 (22210,8955,1,1,2,2538), -- Green Primeval Crystal
-(22210,8954,1,1,2,7633), -- Blue Primeval Crystal
-(22211,57,6423,12630,0,700000), -- Adena
+(22210,8954,1,1,2,6329), -- Blue Primeval Crystal
+(22211,57,6409,12620,0,700000), -- Adena
 (22211,5538,1,1,1,3745), -- Dragon Grinder Edge
 (22211,8954,1,1,2,2500), -- Blue Primeval Crystal
 (22211,8956,1,1,2,625), -- Red Primeval Crystal
 (22211,960,1,1,2,625), -- Scroll: Enchant Armor (Grade S)
-(22212,57,5944,12130,0,700000), -- Adena
+(22212,57,5942,12120,0,700000), -- Adena
 (22212,5538,1,1,1,5587), -- Dragon Grinder Edge
 (22212,11967,1,1,1,371), -- Common Item - Dragon Grinder
-(22212,8954,1,1,2,2604), -- Blue Primeval Crystal
-(22212,8956,1,1,2,744), -- Red Primeval Crystal
-(22212,8955,1,1,2,372), -- Green Primeval Crystal
+(22212,8954,1,1,2,4329), -- Blue Primeval Crystal
+(22212,8956,1,1,2,1852), -- Red Primeval Crystal
+(22212,8955,1,1,2,1236), -- Green Primeval Crystal
 (22212,960,1,1,2,372), -- Scroll: Enchant Armor (Grade S)
-(22213,57,6262,12640,0,700000), -- Adena
-(22213,8954,1,1,2,3968), -- Blue Primeval Crystal
+(22213,57,6211,12580,0,700000), -- Adena
+(22213,8954,1,1,2,3448), -- Blue Primeval Crystal
+(22213,8956,1,1,2,3448), -- Red Primeval Crystal
+(22213,8955,1,1,2,6897), -- Green Primeval Crystal
 (22213,11967,1,1,1,883), -- Common Item - Dragon Grinder
 (22213,5538,1,1,1,10638), -- Dragon Grinder Edge
 (22214,57,5873,11940,0,700000), -- Adena
@@ -25507,27 +25554,42 @@ INSERT INTO `droplist` VALUES
 (22214,12267,1,1,1,2392), -- Common Item - Sealed Boots of Nightmare
 (22214,12257,1,1,1,2392), -- Common Item - Sealed Majestic Gloves
 (22214,12260,1,1,1,2392), -- Common Item - Sealed Majestic Boots
-(22214,8954,1,1,2,4065), -- Blue Primeval Crystal
+(22214,8954,1,1,2,8130), -- Blue Primeval Crystal
+(22214,8956,1,1,2,2702), -- Red Primeval Crystal
 (22214,1889,1,1,-1,510000), -- Compound Braid
 (22214,5549,1,1,-1,750000), -- Metallic Thread
-(22215,57,80380,138860,0,700000), -- Adena
+(22215,57,68450,138100,0,700000), -- Adena
 (22215,5541,1,1,1,20000), -- Tallum Glaive Edge
-(22215,8633,1,1,2,58823), -- Elixir of Mental Strength (S-Grade)
-(22215,8627,1,1,2,45454), -- Elixir of Life (S-Grade)
+(22215,1879,4,9,2,140000), -- Cokes
+(22215,1885,2,4,2,24390), -- High Grade Suede
+(22215,9628,1,1,2,66667), -- Leonard
+(22215,9630,1,1,2,24390), -- Orichalcum
+(22215,9629,1,1,2,24390), -- Adamantine
+(22215,9573,1,1,200,43478), -- Life Stone: level 80
+(22215,9574,1,1,200,6098), -- Mid-Grade Life Stone: level 80
+(22215,9575,1,1,200,6098), -- High-Grade Life Stone: level 80
 (22215,8956,1,1,2,4975), -- Red Primeval Crystal
-(22216,57,54300,110530,0,700000), -- Adena
-(22216,8627,1,1,2,350000), -- Elixir of Life (S-Grade)
-(22216,8762,1,1,3,58823), -- Top-Grade Life Stone: level 76
-(22216,8633,1,1,2,58823), -- Elixir of Mental Strength (S-Grade)
+(22216,57,75720,131200,0,700000), -- Adena
 (22216,5541,1,1,1,58823), -- Tallum Glaive Edge
-(22217,57,77220,132850,0,700000), -- Adena
-(22217,8633,1,1,2,58824), -- Elixir of Mental Strength (S-Grade)
+(22217,57,68830,137130,0,700000), -- Adena
+(22217,1879,3,9,2,200000), -- Cokes
+(22217,1885,2,5,2,62500), -- High Grade Suede
+(22217,9628,1,1,2,20408), -- Leonard
+(22217,9630,1,1,2,20408), -- Orichalcum
+(22217,9629,1,1,2,10101), -- Adamantine
+(22217,9573,1,1,200,90909), -- Life Stone: level 80
+(22217,9574,1,1,200,10101), -- Mid-Grade Life Stone: level 80
 (22217,5541,1,1,1,45454), -- Tallum Glaive Edge
-(22217,8627,1,1,2,33333), -- Elixir of Life (S-Grade)
 (22217,8954,1,1,2,11235), -- Blue Primeval Crystal
 (22217,4042,1,3,-1,300000), -- Enria
 (22218,57,4524,12800,0,700000), -- Adena
-(22218,8633,1,1,2,8000), -- Elixir of Mental Strength (S-Grade)
+(22218,1879,1,1,2,83333), -- Cokes
+(22218,1885,1,1,2,37037), -- High Grade Suede
+(22218,9628,1,1,2,5917), -- Leonard
+(22218,9630,1,1,2,3774), -- Orichalcum
+(22218,9629,1,1,2,7937), -- Adamantine
+(22218,9573,1,1,200,9901), -- Life Stone: level 80
+(22218,9574,1,1,200,3953), -- Mid-Grade Life Stone: level 80
 (22218,5529,1,1,1,6410), -- Dragon Slayer Edge
 (22218,8627,1,1,2,3194), -- Elixir of Life (S-Grade)
 (22218,5546,1,1,1,3194), -- Sword of Miracles Edge
@@ -25535,9 +25597,13 @@ INSERT INTO `droplist` VALUES
 (22218,11971,1,1,1,2045), -- Common Item - Sword of Miracles 
 (22218,11964,1,1,1,2045), -- Common Item - Dark Legion\'s Edge
 (22218,8954,1,1,2,1597), -- Blue Primeval Crystal
-(22219,57,5493,11210,0,700000), -- Adena
-(22219,8627,1,1,2,3759), -- Elixir of Life (S-Grade)
-(22219,8633,1,1,2,1475), -- Elixir of Mental Strength (S-Grade)
+(22218,10114,1,1,-1,100000), -- Sealed Arcana Sickle Piece
+(22219,57,5495,11210,0,700000), -- Adena
+(22219,1879,1,1,2,83333), -- Cokes
+(22219,1885,1,1,2,34483), -- High Grade Suede
+(22219,9628,1,1,2,5181), -- Leonard
+(22219,9629,1,1,2,2217), -- Adamantine
+(22219,9573,1,1,200,2217), -- Life Stone: level 80
 (22219,8342,1,1,1,590), -- Flaming Dragon Skull Piece
 (22219,8954,1,1,2,590), -- Blue Primeval Crystal
 (22219,5544,1,1,1,1770), -- Branch of The Mother Tree Head
@@ -25548,67 +25614,82 @@ INSERT INTO `droplist` VALUES
 (22219,11966,1,1,1,60), -- Common Item - Doom Crusher
 (22219,8955,1,1,2,590), -- Green Primeval Crystal
 (22219,5533,1,1,1,3247), -- Elysian Head
-(22220,57,4893,9986,0,700000), -- Adena
-(22220,8627,1,1,2,1314), -- Elixir of Life (S-Grade)
+(22220,57,4894,9982,0,700000), -- Adena
+(22220,1879,1,1,2,62500), -- Cokes
+(22220,1885,1,1,2,29412), -- High Grade Suede
+(22220,9628,1,1,2,2703), -- Leonard
+(22220,9630,1,1,2,1802), -- Orichalcum
+(22220,9629,1,1,2,1802), -- Adamantine
+(22220,9573,1,1,200,2252), -- Life Stone: level 80
+(22220,9574,1,1,200,1802), -- Mid-Grade Life Stone: level 80
 (22220,5534,1,1,1,5263), -- Soul Bow Stave
-(22220,8633,1,1,2,2188), -- Elixir of Mental Strength (S-Grade)
 (22220,8954,1,1,2,1751), -- Blue Primeval Crystal
 (22220,8955,1,1,2,1314), -- Green Primeval Crystal
 (22220,8956,1,1,2,438), -- Red Primeval Crystal
 (22220,1875,1,3,-1,680000), -- Stone of Purity
-(22221,57,5317,10840,0,700000), -- Adena
-(22221,8633,1,1,2,1828), -- Elixir of Mental Strength (S-Grade)
-(22221,8627,1,1,2,3289), -- Elixir of Life (S-Grade)
+(22221,57,5330,10830,0,700000), -- Adena
+(22221,1879,1,1,2,66667), -- Cokes
+(22221,1885,1,1,2,32258), -- High Grade Suede
+(22221,9628,1,1,2,2695), -- Leonard
+(22221,9630,1,1,2,2695), -- Orichalcum
+(22221,9629,1,1,2,2695), -- Adamantine
+(22221,9573,1,1,200,6711), -- Life Stone: level 80
+(22221,9574,1,1,200,1346), -- Mid-Grade Life Stone: level 80
 (22221,5537,1,1,1,8065), -- Soul Separator Head
 (22221,11973,1,1,1,582), -- Common Item - Soul Separator
 (22221,8955,1,1,2,1464), -- Green Primeval Crystal
 (22221,8954,1,1,2,1464), -- Blue Primeval Crystal
-(22222,57,5157,10520,0,700000), -- Adena
-(22222,8955,1,1,2,343), -- Green Primeval Crystal
-(22222,8954,1,1,2,2278), -- Blue Primeval Crystal
+(22222,57,5164,10510,0,700000), -- Adena
+(22222,8955,1,1,2,832), -- Green Primeval Crystal
+(22222,8954,1,1,2,1664), -- Blue Primeval Crystal
 (22222,8956,1,1,2,343), -- Red Primeval Crystal
 (22222,960,1,1,2,228), -- Scroll: Enchant Armor (Grade S)
 (22222,8752,1,1,200,211), -- High-Grade Life Stone: level 76
 (22222,5538,1,1,1,5236), -- Dragon Grinder Edge
 (22222,11967,1,1,1,803), -- Common Item - Dragon Grinder
 (22222,1875,1,1,-1,630000), -- Stone of Purity
-(22223,57,4413,13460,0,700000), -- Adena
-(22223,8633,1,1,2,4149), -- Elixir of Mental Strength (S-Grade)
-(22223,8627,1,1,2,2070), -- Elixir of Life (S-Grade)
+(22223,57,5715,11620,0,700000), -- Adena
 (22223,5545,1,1,1,13333), -- Dark Legion\'s Edge Blade
-(22224,57,56398,11510,0,700000), -- Adena
+(22224,57,5638,11490,0,700000), -- Adena
 (22224,5533,1,1,1,704), -- Elysian Head
 (22224,8349,1,1,1,704), -- Doom Crusher Head
 (22224,960,1,1,1,1408), -- Scroll: Enchant Armor (Grade S)
 (22224,5544,1,1,1,2817), -- Branch of The Mother Tree Head
 (22224,8342,1,1,1,2114), -- Flaming Dragon Skull Piece
-(22224,8955,1,1,2,2114), -- Green Primeval Crystal
-(22224,8954,1,1,2,2114), -- Blue Primeval Crystal
+(22224,8955,1,1,2,8000), -- Green Primeval Crystal
+(22224,8954,1,1,2,4566), -- Blue Primeval Crystal
+(22224,8956,1,1,2,2288), -- Red Primeval Crystal
 (22224,11970,1,1,1,259), -- Common Item - Branch of The Mother Tree
 (22224,11974,1,1,1,259), -- Common Item - Elysian
 (22224,11969,1,1,1,259), -- Common Item - Flaming Dragon Skull
 (22224,11966,1,1,1,259), -- Common Item - Doom Crusher
 (22224,6901,1,1,-1,7812), -- Recipe: Shining Arrow (100%)
-(22225,57,5361,10920,0,700000), -- Adena
-(22225,8627,1,1,2,5747), -- Elixir of Life (S-Grade)
-(22225,8633,1,1,2,4098), -- Elixir of Mental Strength (S-Grade)
+(22225,57,5384,10870,0,700000), -- Adena
+(22225,1879,1,1,2,90909), -- Cokes
+(22225,1885,1,1,2,45455), -- High Grade Suede
+(22225,9628,1,1,2,3861), -- Leonard
+(22225,9630,1,1,2,1289), -- Orichalcum
+(22225,9629,1,1,2,2577), -- Adamantine
+(22225,9573,1,1,200,7752), -- Life Stone: level 80
+(22225,9574,1,1,200,3861), -- Mid-Grade Life Stone: level 80
 (22225,5534,1,1,1,3279), -- Soul Bow Stave
 (22225,11975,1,1,1,934), -- Common Item - Soul Bow
 (22225,8954,1,1,2,1637), -- Blue Primeval Crystal
 (22225,1875,1,1,-1,620000), -- Stone of Purity
 (22226,57,6613,13420,0,700000), -- Adena
 (22226,5537,1,1,1,5025), -- Soul Separator Head
-(22226,960,1,1,2,1464), -- Scroll: Enchant Armor (Grade S)
-(22226,8954,1,1,2,643), -- Blue Primeval Crystal
-(22226,8955,1,1,2,643), -- Green Primeval Crystal
+(22226,960,1,1,2,2398), -- Scroll: Enchant Armor (Grade S)
+(22226,8954,1,1,2,2398), -- Blue Primeval Crystal
+(22226,8955,1,1,2,2398), -- Green Primeval Crystal
+(22226,8956,1,1,2,4785), -- Red Primeval Crystal
 (22226,11973,1,1,1,1185), -- Common Item - Soul Separator
 (22226,8752,1,1,200,457), -- High-Grade Life Stone: level 76
 (22226,6704,1,1,-1,250000), -- Sealed Imperial Crusader Boots Design
 (22226,1894,1,1,-1,640000), -- Crafted Leather
-(22227,57,4700,14230,0,700000), -- Adena
+(22227,57,5803,11830,0,700000), -- Adena
 (22227,5538,1,1,1,13513), -- Dragon Grinder Edge
-(22227,8954,1,1,2,1712), -- Blue Primeval Crystal
-(22227,8955,1,1,2,1712), -- Green Primeval Crystal
+(22227,8954,1,1,2,6944), -- Blue Primeval Crystal
+(22227,8955,1,1,2,3472), -- Green Primeval Crystal
 (22227,11967,1,1,1,617), -- Common Item - Dragon Grinder
 (22227,1875,1,1,-1,620000), -- Stone of Purity
 (22228,57,8,12,0,700000), -- Adena
@@ -29969,19 +30050,357 @@ INSERT INTO `droplist` VALUES
 (29047,8620,6,25,102,1000000); -- Scarlet Van Halisha (90)
 
 INSERT INTO `droplist` VALUES
--- Dragonspine Fortress Guards
-(36153,9912,28,39,1,1000000), -- Knight's Epaulette
-(36154,9912,1,3,1,1000000), -- Knight's Epaulette
-(36155,9912,1,3,1,1000000), -- Knight's Epaulette
-(36156,9912,1,3,1,1000000), -- Knight's Epaulette
-(36157,9912,1,3,1,1000000), -- Knight's Epaulette
-(36161,9912,1,3,1,1000000), -- Knight's Epaulette
-(36162,9912,1,3,1,1000000), -- Knight's Epaulette
-(36163,9912,40,87,1,1000000), -- Knight's Epaulette
-(36164,9912,1,3,1,1000000), -- Knight's Epaulette
-(36165,9912,1,3,1,1000000), -- Knight's Epaulette
-(36167,9912,1,3,1,1000000); -- Knight's Epaulette
-
+-- Shanty Fortress
+(35670,9912,1,3,1,1000000), -- Knight's Epaulette
+(35671,9912,1,3,1,1000000), -- Knight's Epaulette
+(35672,9912,1,3,1,1000000), -- Knight's Epaulette
+(35673,9912,2,6,1,1000000), -- Knight's Epaulette
+(35674,9912,2,6,1,1000000), -- Knight's Epaulette
+(35676,9912,1,3,1,1000000), -- Knight's Epaulette
+(35677,9912,127,127,1,1000000), -- Knight's Epaulette
+(35678,9912,4,7,1,1000000), -- Knight's Epaulette
+(35679,9912,4,7,1,1000000), -- Knight's Epaulette
+(35680,9912,1,3,1,1000000), -- Knight's Epaulette
+(35681,9912,3,6,1,1000000), -- Knight's Epaulette
+(35682,9912,2,8,1,1000000), -- Knight's Epaulette
+(35683,9912,1,3,1,1000000), -- Knight's Epaulette
+(35684,9912,3,7,1,1000000), -- Knight's Epaulette
+-- Southern Fortress
+(35702,9912,1,3,1,1000000), -- Knight's Epaulette
+(35703,9912,7,7,1,1000000), -- Knight's Epaulette
+(35704,9912,3,6,1,1000000), -- Knight's Epaulette
+(35705,9912,2,6,1,1000000), -- Knight's Epaulette
+(35706,9912,2,6,1,1000000), -- Knight's Epaulette
+(35711,9912,35,35,1,100000), -- Knight's Epaulette
+(35712,9912,1,3,1,1000000), -- Knight's Epaulette
+(35713,9912,124,128,1,1000000), -- Knight's Epaulette
+(35714,9912,2,4,1,1000000), -- Knight's Epaulette
+(35715,9912,2,4,1,1000000), -- Knight's Epaulette
+(35716,9912,76,150,1,1000000), -- Knight's Epaulette
+(35717,9912,2,8,1,1000000), -- Knight's Epaulette
+(35718,9912,3,8,1,1000000), -- Knight's Epaulette
+(35719,9912,138,138,1,1000000), -- Knight's Epaulette
+(35720,9912,2,8,1,1000000), -- Knight's Epaulette
+(35721,9912,35,41,1,1000000), -- Knight's Epaulette
+(35722,9912,1,3,1,1000000), -- Knight's Epaulette
+-- Hive Fortress
+(35739,9912,1,3,1,1000000), -- Knight's Epaulette
+(35740,9912,7,7,1,1000000), -- Knight's Epaulette
+(35741,9912,3,5,1,1000000), -- Knight's Epaulette
+(35742,9912,2,6,1,1000000), -- Knight's Epaulette
+(35743,9912,2,6,1,1000000), -- Knight's Epaulette
+(35745,9912,1,3,1,1000000), -- Knight's Epaulette
+(35746,9912,97,97,1,1000000), -- Knight's Epaulette
+(35747,9912,1,3,1,1000000), -- Knight's Epaulette
+(35748,9912,1,3,1,1000000), -- Knight's Epaulette
+(35749,9912,73,83,1,1000000), -- Knight's Epaulette
+(35750,9912,2,8,1,1000000), -- Knight's Epaulette
+(35751,9912,2,7,1,1000000), -- Knight's Epaulette
+(35752,9912,105,139,1,1000000), -- Knight's Epaulette
+(35753,9912,2,8,1,1000000), -- Knight's Epaulette
+-- Valley Fortress
+(35771,9912,1,3,1,1000000), -- Knight's Epaulette
+(35772,9912,2,8,1,1000000), -- Knight's Epaulette
+(35773,9912,2,6,1,1000000), -- Knight's Epaulette
+(35774,9912,2,6,1,1000000), -- Knight's Epaulette
+(35775,9912,2,6,1,1000000), -- Knight's Epaulette
+(35780,9912,34,34,1,100000), -- Knight's Epaulette
+(35781,9912,2,2,1,1000000), -- Knight's Epaulette
+(35782,9912,150,150,1,1000000), -- Knight's Epaulette
+(35783,9912,4,4,1,1000000), -- Knight's Epaulette
+(35784,9912,4,4,1,1000000), -- Knight's Epaulette
+(35785,9912,73,143,1,1000000), -- Knight's Epaulette
+(35786,9912,2,8,1,1000000), -- Knight's Epaulette
+(35787,9912,2,8,1,1000000), -- Knight's Epaulette
+(35788,9912,86,147,1,1000000), -- Knight's Epaulette
+(35789,9912,2,8,1,1000000), -- Knight's Epaulette
+(35790,9912,43,59,1,1000000), -- Knight's Epaulette
+(35791,9912,1,3,1,1000000), -- Knight's Epaulette
+-- Ivory Tower Fortress
+(35808,9912,1,3,1,1000000), -- Knight's Epaulette
+(35809,9912,1,3,1,1000000), -- Knight's Epaulette
+(35810,9912,2,6,1,1000000), -- Knight's Epaulette
+(35811,9912,2,6,1,1000000), -- Knight's Epaulette
+(35812,9912,2,5,1,1000000), -- Knight's Epaulette
+(35814,9912,1,3,1,1000000), -- Knight's Epaulette
+(35815,9912,105,105,1,1000000), -- Knight's Epaulette
+(35816,9912,1,3,1,1000000), -- Knight's Epaulette
+(35817,9912,1,3,1,1000000), -- Knight's Epaulette
+(35818,9912,134,134,1,1000000), -- Knight's Epaulette
+(35819,9912,3,7,1,1000000), -- Knight's Epaulette
+(35820,9912,3,7,1,1000000), -- Knight's Epaulette
+(35821,9912,1,3,1,1000000), -- Knight's Epaulette
+(35822,9912,4,8,1,1000000), -- Knight's Epaulette
+-- Narsell Fortress
+(35839,9912,1,3,1,1000000), -- Knight's Epaulette
+(35840,9912,2,2,1,1000000), -- Knight's Epaulette
+(35841,9912,4,4,1,1000000), -- Knight's Epaulette
+(35842,9912,2,6,1,1000000), -- Knight's Epaulette
+(35843,9912,2,6,1,1000000), -- Knight's Epaulette
+(35845,9912,1,3,1,1000000), -- Knight's Epaulette
+(35846,9912,117,117,1,1000000), -- Knight's Epaulette
+(35847,9912,1,3,1,1000000), -- Knight's Epaulette
+(35848,9912,1,3,1,1000000), -- Knight's Epaulette
+(35849,9912,86,114,1,1000000), -- Knight's Epaulette
+(35850,9912,2,8,1,1000000), -- Knight's Epaulette
+(35851,9912,4,5,1,1000000), -- Knight's Epaulette
+(35852,9912,126,126,1,1000000), -- Knight's Epaulette
+(35853,9912,3,8,1,1000000), -- Knight's Epaulette
+-- Bayou Fortress
+(35871,9912,1,3,1,1000000), -- Knight's Epaulette
+(35872,9912,1,3,1,1000000), -- Knight's Epaulette
+(35873,9912,1,3,1,1000000), -- Knight's Epaulette
+(35874,9912,3,6,1,1000000), -- Knight's Epaulette
+(35875,9912,2,6,1,1000000), -- Knight's Epaulette
+(35880,9912,1,3,1,1000000), -- Knight's Epaulette
+(35881,9912,1,3,1,1000000), -- Knight's Epaulette
+(35882,9912,1,3,1,1000000), -- Knight's Epaulette
+(35883,9912,1,3,1,1000000), -- Knight's Epaulette
+(35884,9912,1,3,1,1000000), -- Knight's Epaulette
+(35885,9912,1,3,1,1000000), -- Knight's Epaulette
+(35886,9912,3,8,1,1000000), -- Knight's Epaulette
+(35887,9912,3,8,1,1000000), -- Knight's Epaulette
+(35888,9912,1,3,1,1000000), -- Knight's Epaulette
+(35889,9912,3,5,1,1000000), -- Knight's Epaulette
+(35890,9912,1,3,1,1000000), -- Knight's Epaulette
+(35891,9912,1,3,1,1000000), -- Knight's Epaulette
+-- White Sand Fortress
+(35908,9912,1,3,1,1000000), -- Knight's Epaulette
+(35909,9912,8,8,1,1000000), -- Knight's Epaulette
+(35910,9912,3,6,1,1000000), -- Knight's Epaulette
+(35911,9912,2,6,1,1000000), -- Knight's Epaulette
+(35912,9912,2,5,1,1000000), -- Knight's Epaulette
+(35914,9912,1,3,1,1000000), -- Knight's Epaulette
+(35915,9912,1,3,1,1000000), -- Knight's Epaulette
+(35916,9912,5,7,1,1000000), -- Knight's Epaulette
+(35917,9912,5,7,1,1000000), -- Knight's Epaulette
+(35918,9912,1,3,1,1000000), -- Knight's Epaulette
+(35919,9912,3,8,1,1000000), -- Knight's Epaulette
+(35920,9912,3,7,1,1000000), -- Knight's Epaulette
+(35921,9912,1,3,1,1000000), -- Knight's Epaulette
+(35922,9912,2,6,1,1000000), -- Knight's Epaulette
+-- Borderland Fortress
+(35940,9912,1,3,1,1000000), -- Knight's Epaulette
+(35941,9912,3,3,1,1000000), -- Knight's Epaulette
+(35942,9912,3,6,1,1000000), -- Knight's Epaulette
+(35943,9912,3,6,1,1000000), -- Knight's Epaulette
+(35944,9912,4,6,1,1000000), -- Knight's Epaulette
+(35949,9912,1,3,1,1000000), -- Knight's Epaulette
+(35950,9912,1,3,1,1000000), -- Knight's Epaulette
+(35951,9912,1,3,1,1000000), -- Knight's Epaulette
+(35952,9912,1,3,1,1000000), -- Knight's Epaulette
+(35953,9912,1,3,1,1000000), -- Knight's Epaulette
+(35954,9912,1,3,1,1000000), -- Knight's Epaulette
+(35955,9912,3,3,1,1000000), -- Knight's Epaulette
+(35956,9912,6,7,1,1000000), -- Knight's Epaulette
+(35957,9912,79,79,1,1000000), -- Knight's Epaulette
+(35958,9912,4,4,1,1000000), -- Knight's Epaulette
+(35959,9912,1,3,1,1000000), -- Knight's Epaulette
+(35960,9912,1,3,1,1000000), -- Knight's Epaulette
+-- Swamp Fortress
+(35978,9912,1,3,1,1000000), -- Knight's Epaulette
+(35979,9912,2,8,1,1000000), -- Knight's Epaulette
+(35980,9912,2,6,1,1000000), -- Knight's Epaulette
+(35981,9912,2,6,1,1000000), -- Knight's Epaulette
+(35982,9912,2,6,1,1000000), -- Knight's Epaulette
+(35987,9912,23,23,1,100000), -- Knight's Epaulette
+(35988,9912,1,3,1,1000000), -- Knight's Epaulette
+(35989,9912,83,109,1,1000000), -- Knight's Epaulette
+(35990,9912,1,3,1,1000000), -- Knight's Epaulette
+(35991,9912,1,3,1,1000000), -- Knight's Epaulette
+(35992,9912,83,125,1,1000000), -- Knight's Epaulette
+(35993,9912,2,7,1,1000000), -- Knight's Epaulette
+(35994,9912,2,7,1,1000000), -- Knight's Epaulette
+(35995,9912,82,139,1,1000000), -- Knight's Epaulette
+(35996,9912,3,8,1,1000000), -- Knight's Epaulette
+(35997,9912,40,71,1,1000000), -- Knight's Epaulette
+(35998,9912,27,27,1,1000000), -- Knight's Epaulette
+-- Archaic Fortress
+(36015,9912,1,3,1,1000000), -- Knight's Epaulette
+(36016,9912,3,6,1,1000000), -- Knight's Epaulette
+(36017,9912,2,4,1,1000000), -- Knight's Epaulette
+(36018,9912,2,6,1,1000000), -- Knight's Epaulette
+(36019,9912,2,6,1,1000000), -- Knight's Epaulette
+(36021,9912,5,6,1,1000000), -- Knight's Epaulette
+(36022,9912,2,6,1,1000000), -- Knight's Epaulette
+(36023,9912,2,6,1,1000000), -- Knight's Epaulette
+(36024,9912,1,3,1,1000000), -- Knight's Epaulette
+(36025,9912,87,87,1,1000000), -- Knight's Epaulette
+(36026,9912,2,8,1,1000000), -- Knight's Epaulette
+(36027,9912,3,7,1,1000000), -- Knight's Epaulette
+(36028,9912,76,138,1,1000000), -- Knight's Epaulette
+(36029,9912,2,8,1,1000000), -- Knight's Epaulette
+-- Floran Fortress
+(36047,9912,1,3,1,1000000), -- Knight's Epaulette
+(36048,9912,1,3,1,1000000), -- Knight's Epaulette
+(36049,9912,2,5,1,1000000), -- Knight's Epaulette
+(36050,9912,2,6,1,1000000), -- Knight's Epaulette
+(36051,9912,2,6,1,1000000), -- Knight's Epaulette
+(36056,9912,23,23,1,200000), -- Knight's Epaulette
+(36057,9912,2,3,1,1000000), -- Knight's Epaulette
+(36058,9912,1,3,1,1000000), -- Knight's Epaulette
+(36059,9912,6,7,1,1000000), -- Knight's Epaulette
+(36060,9912,6,7,1,1000000), -- Knight's Epaulette
+(36061,9912,1,3,1,1000000), -- Knight's Epaulette
+(36062,9912,2,8,1,1000000), -- Knight's Epaulette
+(36063,9912,2,8,1,1000000), -- Knight's Epaulette
+(36064,9912,1,3,1,1000000), -- Knight's Epaulette
+(36065,9912,2,8,1,1000000), -- Knight's Epaulette
+(36066,9912,1,3,1,1000000), -- Knight's Epaulette
+(36067,9912,1,3,1,1000000), -- Knight's Epaulette
+(36069,9912,1,3,1,1000000), -- Knight's Epaulette
+-- Cloud Mountain Fortress
+(36085,9912,1,3,1,1000000), -- Knight's Epaulette
+(36086,9912,2,7,1,1000000), -- Knight's Epaulette
+(36087,9912,2,5,1,1000000), -- Knight's Epaulette
+(36088,9912,1,3,1,1000000), -- Knight's Epaulette
+(36089,9912,2,5,1,1000000), -- Knight's Epaulette
+(36094,9912,13,13,1,200000), -- Knight's Epaulette
+(36095,9912,1,3,1,1000000), -- Knight's Epaulette
+(36096,9912,147,147,1,1000000), -- Knight's Epaulette
+(36097,9912,3,3,1,1000000), -- Knight's Epaulette
+(36098,9912,3,3,1,1000000), -- Knight's Epaulette
+(36099,9912,1,3,1,1000000), -- Knight's Epaulette
+(36100,9912,3,6,1,1000000), -- Knight's Epaulette
+(36101,9912,3,6,1,1000000), -- Knight's Epaulette
+(36102,9912,1,3,1,1000000), -- Knight's Epaulette
+(36103,9912,5,6,1,1000000), -- Knight's Epaulette
+-- Tanor Fortress
+(36122,9912,1,3,1,1000000), -- Knight's Epaulette
+(36123,9912,4,4,1,1000000), -- Knight's Epaulette
+(36124,9912,3,6,1,1000000), -- Knight's Epaulette
+(36125,9912,2,6,1,1000000), -- Knight's Epaulette
+(36126,9912,2,6,1,1000000), -- Knight's Epaulette
+(36128,9912,1,3,1,1000000), -- Knight's Epaulette
+(36129,9912,1,3,1,1000000), -- Knight's Epaulette
+(36130,9912,1,3,1,1000000), -- Knight's Epaulette
+(36131,9912,1,3,1,1000000), -- Knight's Epaulette
+(36132,9912,1,3,1,1000000), -- Knight's Epaulette
+(36133,9912,3,6,1,1000000), -- Knight's Epaulette
+(36134,9912,5,7,1,1000000), -- Knight's Epaulette
+(36135,9912,1,3,1,1000000), -- Knight's Epaulette
+(36136,9912,5,6,1,1000000), -- Knight's Epaulette
+-- Dragonspine Fortress
+(36153,9912,28,28,1,1000000), -- Knight's Epaulette
+(36153,9581,1,1,1,100000), -- Scale Shirt
+(36154,9912,3,7,1,1000000), -- Knight's Epaulette
+(36155,9912,2,6,1,1000000), -- Knight's Epaulette
+(36156,9912,2,6,1,1000000), -- Knight's Epaulette
+(36157,9912,2,6,1,1000000), -- Knight's Epaulette
+(36159,9912,1,3,1,1000000), -- Knight's Epaulette
+(36160,9912,120,144,1,1000000), -- Knight's Epaulette
+(36161,9912,2,7,1,1000000), -- Knight's Epaulette
+(36162,9912,2,7,1,1000000), -- Knight's Epaulette
+(36163,9912,103,103,1,1000000), -- Knight's Epaulette
+(36164,9912,2,8,1,1000000), -- Knight's Epaulette
+(36165,9912,2,7,1,1000000), -- Knight's Epaulette
+(36166,9912,79,101,1,1000000), -- Knight's Epaulette
+(36167,9912,2,8,1,1000000), -- Knight's Epaulette
+-- Antharas Fortress
+(36185,9912,1,3,1,1000000), -- Knight's Epaulette
+(36186,9912,5,6,1,1000000), -- Knight's Epaulette
+(36187,9912,3,6,1,1000000), -- Knight's Epaulette
+(36188,9912,2,6,1,1000000), -- Knight's Epaulette
+(36189,9912,2,6,1,1000000), -- Knight's Epaulette
+(36194,9912,14,14,1,200000), -- Knight's Epaulette
+(36195,9912,2,3,1,1000000), -- Knight's Epaulette
+(36196,9912,130,130,1,1000000), -- Knight's Epaulette
+(36197,9912,1,3,1,1000000), -- Knight's Epaulette
+(36198,9912,1,3,1,1000000), -- Knight's Epaulette
+(36199,9912,131,131,1,1000000), -- Knight's Epaulette
+(36200,9912,2,8,1,1000000), -- Knight's Epaulette
+(36201,9912,3,8,1,1000000), -- Knight's Epaulette
+(36202,9912,133,133,1,1000000), -- Knight's Epaulette
+(36203,9912,2,6,1,1000000), -- Knight's Epaulette
+(36204,9912,42,75,1,1000000), -- Knight's Epaulette
+(36205,9912,64,64,1,1000000), -- Knight's Epaulette
+-- Western Guard Fortress
+(36223,9912,1,3,1,1000000), -- Knight's Epaulette
+(36224,9912,6,6,1,1000000), -- Knight's Epaulette
+(36225,9912,4,5,1,1000000), -- Knight's Epaulette
+(36226,9912,2,6,1,1000000), -- Knight's Epaulette
+(36227,9912,2,5,1,1000000), -- Knight's Epaulette
+(36232,9912,13,13,1,200000), -- Knight's Epaulette
+(36233,9912,1,3,1,1000000), -- Knight's Epaulette
+(36234,9912,1,3,1,1000000), -- Knight's Epaulette
+(36235,9912,4,8,1,1000000), -- Knight's Epaulette
+(36236,9912,4,8,1,1000000), -- Knight's Epaulette
+(36237,9912,1,3,1,1000000), -- Knight's Epaulette
+(36238,9912,2,8,1,1000000), -- Knight's Epaulette
+(36239,9912,3,8,1,1000000), -- Knight's Epaulette
+(36240,9912,1,3,1,1000000), -- Knight's Epaulette
+(36241,9912,4,5,1,1000000), -- Knight's Epaulette
+(36242,9912,1,3,1,1000000), -- Knight's Epaulette
+(36243,9912,1,3,1,1000000), -- Knight's Epaulette
+-- Hunter's Fortress
+(36261,9912,1,3,1,1000000), -- Knight's Epaulette
+(36262,9912,1,3,1,1000000), -- Knight's Epaulette
+(36263,9912,3,5,1,1000000), -- Knight's Epaulette
+(36264,9912,2,6,1,1000000), -- Knight's Epaulette
+(36265,9912,2,6,1,1000000), -- Knight's Epaulette
+(36270,9912,16,16,1,200000), -- Knight's Epaulette
+(36271,9912,3,3,1,1000000), -- Knight's Epaulette
+(36272,9912,1,3,1,1000000), -- Knight's Epaulette
+(36273,9912,4,4,1,1000000), -- Knight's Epaulette
+(36274,9912,4,4,1,1000000), -- Knight's Epaulette
+(36275,9912,1,3,1,1000000), -- Knight's Epaulette
+(36276,9912,2,8,1,1000000), -- Knight's Epaulette
+(36277,9912,2,8,1,1000000), -- Knight's Epaulette
+(36278,9912,123,123,1,1000000), -- Knight's Epaulette
+(36279,9912,4,8,1,1000000), -- Knight's Epaulette
+(36280,9912,1,3,1,1000000), -- Knight's Epaulette
+(36281,9912,1,3,1,1000000), -- Knight's Epaulette
+-- Aaru Fortress
+(36298,9912,1,3,1,1000000), -- Knight's Epaulette
+(36299,9912,7,8,1,1000000), -- Knight's Epaulette
+(36300,9912,2,5,1,1000000), -- Knight's Epaulette
+(36301,9912,2,6,1,1000000), -- Knight's Epaulette
+(36302,9912,2,6,1,1000000), -- Knight's Epaulette
+(36304,9912,1,3,1,1000000), -- Knight's Epaulette
+(36305,9912,127,127,1,1000000), -- Knight's Epaulette
+(36306,9912,1,3,1,1000000), -- Knight's Epaulette
+(36307,9912,1,3,1,1000000), -- Knight's Epaulette
+(36308,9912,119,147,1,1000000), -- Knight's Epaulette
+(36309,9912,2,8,1,1000000), -- Knight's Epaulette
+(36310,9912,4,7,1,1000000), -- Knight's Epaulette
+(36311,9912,1,3,1,1000000), -- Knight's Epaulette
+(36312,9912,3,7,1,1000000), -- Knight's Epaulette
+-- Demon Fortress
+(36330,9912,1,3,1,1000000), -- Knight's Epaulette
+(36331,9912,3,8,1,1000000), -- Knight's Epaulette
+(36332,9912,3,5,1,1000000), -- Knight's Epaulette
+(36333,9912,3,6,1,1000000), -- Knight's Epaulette
+(36334,9912,2,5,1,1000000), -- Knight's Epaulette
+(36339,9912,1,3,1,1000000), -- Knight's Epaulette
+(36340,9912,1,3,1,1000000), -- Knight's Epaulette
+(36341,9912,1,3,1,1000000), -- Knight's Epaulette
+(36342,9912,1,3,1,1000000), -- Knight's Epaulette
+(36343,9912,1,3,1,1000000), -- Knight's Epaulette
+(36344,9912,1,3,1,1000000), -- Knight's Epaulette
+(36345,9912,2,7,1,1000000), -- Knight's Epaulette
+(36346,9912,4,8,1,1000000), -- Knight's Epaulette
+(36347,9912,1,3,1,1000000), -- Knight's Epaulette
+(36348,9912,5,8,1,1000000), -- Knight's Epaulette
+(36349,9912,1,3,1,1000000), -- Knight's Epaulette
+(36350,9912,1,3,1,1000000), -- Knight's Epaulette
+-- Monastic Fortress
+(36368,9912,1,3,1,1000000), -- Knight's Epaulette
+(36369,9912,1,3,1,1000000), -- Knight's Epaulette
+(36370,9912,1,3,1,1000000), -- Knight's Epaulette
+(36371,9912,2,6,1,1000000), -- Knight's Epaulette
+(36372,9912,2,6,1,1000000), -- Knight's Epaulette
+(36377,9912,1,3,1,1000000), -- Knight's Epaulette
+(36378,9912,1,3,1,1000000), -- Knight's Epaulette
+(36379,9912,1,3,1,1000000), -- Knight's Epaulette
+(36380,9912,1,3,1,1000000), -- Knight's Epaulette
+(36381,9912,1,3,1,1000000), -- Knight's Epaulette
+(36382,9912,1,3,1,1000000), -- Knight's Epaulette
+(36383,9912,3,8,1,1000000), -- Knight's Epaulette
+(36384,9912,6,8,1,1000000), -- Knight's Epaulette
+(36385,9912,1,3,1,1000000), -- Knight's Epaulette
+(36386,9912,4,6,1,1000000), -- Knight's Epaulette
+(36387,9912,1,3,1,1000000), -- Knight's Epaulette
+(36388,9912,1,3,1,1000000); -- Knight's Epaulette
 
 -- temp ct2.3 forgotten scrolls
 INSERT INTO `droplist` VALUES
