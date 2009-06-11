@@ -419,7 +419,7 @@ class Quest (JQuest) :
 ############################################################################
       return htmltext
 
-QUEST      = Quest(9003,qn,"village_master")
+QUEST      = Quest(-1,qn,"village_master")
 
 for i in NPCS:
   QUEST.addStartNpc(i)
