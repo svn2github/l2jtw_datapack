@@ -1,6 +1,6 @@
 /************ Made in Taiwan ************/
 
-/***** 貳幕-破滅國境 09-06-08 *****/ 
+/***** 貳幕-破滅國境 09-06-08 *****/
 /***** npcname-tw *****/ 
 UPDATE `npc` SET `name`='葛林' WHERE `id`='20001';
 UPDATE `npc` SET `name`='兔子' WHERE `id`='20002';
@@ -9336,5 +9336,6 @@ UPDATE `npc` SET `name`='生日蛋糕' WHERE `id`='7';
 UPDATE `npc` SET `name`='安杜露美達', `title`='結婚管理員' WHERE `id`='50007';
 UPDATE `npc` SET `name`='艾麗絲 蒂 凱特琳娜', `title`='TVT活動管理員' WHERE `id`='70010';
 UPDATE `npc` SET `name`='勞拉', `title`='輔助管理員' WHERE `id`='1000003';
-UPDATE `npc` SET `title`='轉職貓', `serverSideTitle`='1' WHERE `id`='31228';
+UPDATE `npc` SET `name`='瞭望水晶' WHERE `id`='830000';
+UPDATE `npc` SET `title`='轉職管理員', `serverSideTitle`='1' WHERE `id`='31228';
 /***** Done by vdmyagami！ *****/

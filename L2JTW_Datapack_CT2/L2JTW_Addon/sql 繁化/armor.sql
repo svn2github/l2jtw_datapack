@@ -1,6 +1,6 @@
 /************ Made in Taiwan ************/
 
-/***** 貳幕-破滅國境\09-06-08 *****/ 
+/***** 貳幕-破滅國境 09-06-08 *****/
 /***** itemname-tw *****/ 
 UPDATE `armor` SET `name` ='布襯衫' WHERE item_id ='21';
 UPDATE `armor` SET `name` ='皮襯衫' WHERE item_id ='22';

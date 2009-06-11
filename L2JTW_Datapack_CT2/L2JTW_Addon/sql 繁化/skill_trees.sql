@@ -1,6 +1,6 @@
 /************ Made in Taiwan ************/
 
-/***** 貳幕-破滅國境 09-06-08 *****/ 
+/***** 貳幕-破滅國境 09-06-08 *****/
 /***** skillname-tw *****/ 
 UPDATE `skill_trees` SET `name` = '三連斬' WHERE `skill_id` = '1';
 UPDATE `skill_trees` SET `name` = '混亂術' WHERE `skill_id` = '2';

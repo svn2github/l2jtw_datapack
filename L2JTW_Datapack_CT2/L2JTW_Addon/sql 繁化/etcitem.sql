@@ -1,6 +1,6 @@
 /************ Made in Taiwan ************/
 
-/***** 貳幕-破滅國境\09-06-08 *****/
+/***** 貳幕-破滅國境 09-06-08 *****/
 /***** itemname-tw *****/
 UPDATE `etcitem` SET `name` ='木箭' WHERE item_id ='17';
 UPDATE `etcitem` SET `name` ='(不使用)' WHERE item_id ='53';

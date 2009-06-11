@@ -44,17 +44,11 @@ REPLACE INTO `npc` VALUES ('16039', '16039', 'Red Star Strider', '0', '', '0', '
 REPLACE INTO `npc` VALUES ('16040', '16040', 'Red Twilight Strider', '0', '', '0', 'Monster.strider', '23.00', '31.00', '70', 'male', 'L2Pet', '40', '2444', '2444', '0.00', '0.00', '10', '10', '10', '10', '10', '10', '0', '0', '500', '500', '500', '500', '253', '0', '253', '0', '0', '0', '80', '120', '', '0', '0', '0', 'LAST_HIT', '0', '0', '0', 'balanced', "false");
 
 
-/************ 修正要塞/小天使/小惡魔/魯道夫/媽祖/普萊皮塔/貓熊/愛心壺精/淡紫鬃馬騎乘的手鐲 ************/
-UPDATE `armor` SET `skill` = '3361-1;3267-1;5458-1;' WHERE `item_id` in (9909);
-UPDATE `armor` SET `skill` = '3361-1;3267-1;5458-1;' WHERE `item_id` in (10018);
-UPDATE `armor` SET `skill` = '3269-1;3267-1;5414-1;' WHERE `item_id` in (10139);
-UPDATE `armor` SET `skill` = '3423-1;3267-1;5535-1;' WHERE `item_id` in (10320);
-UPDATE `armor` SET `skill` = '3424-1;3267-1;5536-1;' WHERE `item_id` in (10326);
-UPDATE `armor` SET `skill` = '3425-1;3267-1;5537-1;' WHERE `item_id` in (10606);
-UPDATE `armor` SET `skill` = '3423-1;3267-1;5535-1;' WHERE `item_id` in (12779);
-UPDATE `armor` SET `skill` = '3424-1;3267-1;5536-1;' WHERE `item_id` in (12780);
-UPDATE `armor` SET `skill` = '8247-1;' WHERE `item_id` in (13022,13308,20030);
-UPDATE `armor` SET `skill` = '8245-1;3267-1;' WHERE `item_id` in (13023,13254,13309,13340);
+/************ 修正要塞/小天使/小惡魔/愛心/媽祖/普萊皮塔/貓熊的手鐲 ************/
+UPDATE `armor` SET `skill` = '3361-1;3267-1;5458-1;' WHERE `item_id` in (9909,10018);
+UPDATE `armor` SET `skill` = '3423-1;3267-1;5535-1;' WHERE `item_id` in (10320,12779);
+UPDATE `armor` SET `skill` = '3424-1;3267-1;5536-1;' WHERE `item_id` in (10326,12780);
+UPDATE `armor` SET `skill` = '8245-1;3267-1;' WHERE `item_id` in (13023,13254,13309,13340,14775,20253);
 UPDATE `armor` SET `skill` = '21000-1;3267-1;23000-1;' WHERE `item_id` in (20006);
 UPDATE `armor` SET `skill` = '21001-1;3267-1;23001-1;' WHERE `item_id` in (20007);
 UPDATE `armor` SET `skill` = '21002-1;3267-1;23002-1;' WHERE `item_id` in (20008);
@@ -64,7 +58,7 @@ UPDATE `armor` SET `skill` = '21009-1;3267-1;23011-1;' WHERE `item_id` in (20064
 UPDATE `armor` SET `skill` = '21010-1;3267-1;23012-1;' WHERE `item_id` in (20065);
 
 
-/************ 修正邱比特/招財貓/獨眼蝙蝠群/飛馬/土地公的壺精手鐲/食人妖/愛心的手鐲 ************/
+/************ 修正邱比特/招財貓/獨眼蝙蝠群/飛馬/土地公的壺精手鐲/食人妖的手鐲 ************/
 UPDATE `armor` SET `skill` = '21031-1;3267-1;23025-1;' WHERE `item_id` in (20212);
 UPDATE `armor` SET `skill` = '21032-1;3267-1;23026-1;' WHERE `item_id` in (20213);
 UPDATE `armor` SET `skill` = '21033-1;3267-1;23027-1;23046-1;' WHERE `item_id` in (20221);
@@ -84,21 +78,19 @@ UPDATE `armor` SET `skill` = '21038-1;3267-1;23039-1;23042-1;' WHERE `item_id` i
 UPDATE `armor` SET `skill` = '21039-1;3267-1;23040-1;23043-1;' WHERE `item_id` in (20249);
 UPDATE `armor` SET `skill` = '21040-1;3267-1;23041-1;23044-1;' WHERE `item_id` in (20250);
 UPDATE `armor` SET `skill` = '21041-1;3267-1;23045-1;' WHERE `item_id` in (20252);
-UPDATE `armor` SET `skill` = '8245-1;3267-1;' WHERE `item_id` in (20253);
 
 
 /************ 增加頭飾的附加技能(祝福復活/祝福返回/大頭/煙火) ************/
 UPDATE `armor` SET `skill` = '3263-1;' WHERE `item_id` in (9177,9178,9179,9180,9181,9182,9183,10621,10625,10629);
-UPDATE `armor` SET `skill` = '3264-1;' WHERE `item_id` in (9184,9185,9186,9187,9188,9189,9190,10620,10624,10628);
-UPDATE `armor` SET `skill` = '3265-1;' WHERE `item_id` in (9191,9192,9193,9194,9195,9196,9197,10623,10627,10631);
-UPDATE `armor` SET `skill` = '3266-1;' WHERE `item_id` in (9198,9199,9200,9201,9202,9203,9204,9890,9891,9892,9893,9894,9895,9896,10622,10626,10630);
+UPDATE `armor` SET `skill` = '3264-1;' WHERE `item_id` in (9184,9185,9186,9187,9188,9189,9190,10620,10624,10628,14753,14756,14759,14762);
+UPDATE `armor` SET `skill` = '3265-1;' WHERE `item_id` in (9191,9192,9193,9194,9195,9196,9197,10623,10627,10631,14754,14757,14760,14763);
+UPDATE `armor` SET `skill` = '3266-1;' WHERE `item_id` in (9198,9199,9200,9201,9202,9203,9204,9890,9891,9892,9893,9894,9895,9896,10622,10626,10630,14755,14758,14761,14764);
 UPDATE `armor` SET `skill` = '21005-3;' WHERE `item_id` in (20016);
 UPDATE `armor` SET `skill` = '21006-1;21007-1;' WHERE `item_id` in (20018);
 UPDATE `armor` SET `skill` = '21004-1;' WHERE `item_id` in (20019);
 
 
 /************ 增加壺精的附加技能(祝福復活/祝福返回/大頭/煙火) ************/
-ALTER TABLE `items` CHANGE `mana_left` `mana_left` decimal(10,0) NOT NULL default -1;
 UPDATE `armor` SET `skill` = '3423-1;3267-1;5538-1;' WHERE `item_id` in (10316);
 UPDATE `armor` SET `skill` = '3423-1;3267-1;5539-1;' WHERE `item_id` in (10317);
 UPDATE `armor` SET `skill` = '3423-1;3267-1;5540-1;' WHERE `item_id` in (10318);
@@ -119,8 +111,6 @@ UPDATE `armor` SET `skill` = '21010-1;3267-1;23012-1;23015-1;' WHERE `item_id` i
 
 
 /************ 增加道具的變身技能 ************/
-UPDATE `armor` SET `skill` = '3335-1;' WHERE `item_id` in (10141); -- 雪人變身
-UPDATE `armor` SET `skill` = '3336-1;' WHERE `item_id` in (10142); -- 野牛變身
 UPDATE `weapon` SET `skill` = '3418-1;' WHERE `item_id` in (10167); -- 豬豬塔糖
 UPDATE `weapon` SET `skill` = '8244-1;' WHERE `item_id` in (12814); -- 守門人變身魔杖
 UPDATE `weapon` SET `skill` = '8246-1;' WHERE `item_id` in (12800,13253,13324,13339); -- 南瓜變身魔杖
@@ -373,38 +363,18 @@ REPLACE INTO `pets_skills` VALUES
 
 
 /************ 增加/修正/刪除NPC ************/
-UPDATE `npc` SET `level` = '55' WHERE `id` in (16030); -- 修正黑鬃狼的等級
 UPDATE `npc` SET `collision_radius` = '13.5', `collision_height` = '36.5' WHERE `id` IN (27323); -- 修正神的密使(任務怪物)
 UPDATE `npc` SET `type` = 'L2VillageMaster' WHERE `id` in (32191); -- 修正漢娜琳  宗師的NPC類型
 UPDATE `npc` SET `type` = 'L2Adventurer' WHERE `id` in (32074); -- 修正古魯丁分會長的NPC類型
-UPDATE `npc` SET `type` = 'L2Doormen' WHERE `id` in (35440); -- 修正NPC ID:丹尼爾(根據地守門人)
 UPDATE `npc` SET `type` = 'L2Npc', `collision_radius` = '9', `collision_height` = '16.5', `rhand` = '0' WHERE `id` in (35417,35418); -- 修正地獄守門人
 UPDATE `spawnlist` SET `npc_templateid` = '35440' WHERE `id` = 33771; -- 修正NPC ID:丹尼爾(根據地守門人)
-UPDATE `raidboss_spawnlist` SET `loc_x` = '3776', `loc_y` = '-6768', `loc_z` = '-3253' WHERE `boss_id` = 25527; -- 修正狩獵首領烏魯卡的位置
+UPDATE `npc` SET `rhand` = '316' WHERE `id` in (50007); -- 結婚管理員
+UPDATE `npc` SET `rhand` = '0' WHERE `id` in (70010); -- TVT活動管理員
 Delete From `spawnlist` Where `npc_templateid` in (30880,30881,30882,30883,30884,30885,30886,30887,30888,30889); -- 刪除不存在的NPC
 
 -- 加入維他命管理者
-Delete From spawnlist Where `npc_templateid` in (32478);
-INSERT INTO `spawnlist` VALUES
-('810001', '', '1', '32478', '47597', '49924', '-2995', '0', '0', '33231', '60', '0', '0'),
-('810002', '', '1', '32478', '13432', '17255', '-4574', '0', '0', '46871', '60', '0', '0'),
-('810003', '', '1', '32478', '115020', '-179727', '-879', '0', '0', '0', '60', '0', '0'),
-('810004', '', '1', '32478', '-82374', '153659', '-3177', '0', '0', '16383', '60', '0', '0'),
-('810005', '', '1', '32478', '-43721', '-113474', '-239', '0', '0', '32767', '60', '0', '0'),
-('810006', '', '1', '32478', '-115213', '45057', '502', '0', '0', '32408', '60', '0', '0'),
-('810007', '', '1', '32478', '-81926', '243372', '-3730', '0', '0', '38436', '60', '0', '0'),
-('810008', '', '1', '32478', '-13236', '124615', '-3126', '0', '0', '49151', '60', '0', '0'),
-('810009', '', '1', '32478', '20556', '144776', '-3080', '0', '0', '32767', '60', '0', '0'),
-('810010', '', '1', '32478', '17735', '169802', '-3495', '0', '0', '19465', '60', '0', '0'),
-('810011', '', '1', '32478', '82675', '146736', '-3466', '0', '0', '32767', '60', '0', '0'),
-('810012', '', '1', '32478', '109951', '220614', '-3479', '0', '0', '16383', '60', '0', '0'),
-('810013', '', '1', '32478', '55379', '220614', '-1527', '0', '0', '16383', '60', '0', '0'),
-('810014', '', '1', '32478', '81782', '55399', '-1529', '0', '0', '16383', '60', '0', '0'),
-('810015', '', '1', '32478', '115650', '76613', '-2668', '0', '0', '58618', '60', '0', '0'),
-('810016', '', '1', '32478', '148411', '26581', '-2207', '0', '0', '16094', '60', '0', '0'),
-('810017', '', '1', '32478', '43569', '-48972', '-796', '0', '0', '1843', '60', '0', '0'),
-('810018', '', '1', '32478', '146141', '-57893', '-2983', '0', '0', '44315', '60', '0', '0'),
-('810019', '', '1', '32478', '88934', '-140814', '-1539', '0', '0', '11547', '60', '0', '0');
+REPLACE INTO `spawnlist` VALUES
+('810001', '', '1', '32478', '17735', '169802', '-3495', '0', '0', '19465', '60', '0', '0'); -- 獵人村莊
 
 -- 修正NPC位置
 REPLACE INTO `spawnlist` VALUES
@@ -814,72 +784,44 @@ REPLACE INTO `weapon` VALUES
 (14159,'Vesper Nagan','lrhand','true',1800,1,1,'fine_steel','s84',429,15,'ancient',8,2.00000,0,0,0,350,0,176,-1,-1,0,0,'True','True','True','True',0,0,0,0,0,0,0,0,14123,'0-0;');
 
 -- 斗篷
-REPLACE INTO `armor` VALUES
-(13687,'Knight\'s Cloak - Heavy Armor exclusive','back','false','heavy',220,'wood','s84',0,-1,-1,20,0,0,0,0,'false','false','true','false','0-0','0-0;'),
-(13688,'Knight\'s Cloak - Light Armor exclusive','back','false','light',220,'wood','s84',0,-1,-1,20,0,0,0,0,'false','false','true','false','0-0','0-0;'),
-(13689,'Knight\'s Cloak - Robe exclusive','back','false','magic',220,'wood','s84',0,-1,-1,20,0,0,0,0,'false','false','true','false','0-0','0-0;'),
-(13690,'Knight\'s Cloak - Kamael exclusive','back','false','light',220,'wood','s84',0,-1,-1,20,0,0,0,0,'false','false','true','false','0-0','0-0;'),
-(13889,'Holy Spirit\'s Cloak - Kamael exclusive','back','false','light',220,'wood','s84',0,-1,-1,20,0,0,0,0,'false','false','true','false','0-0','0-0;'),
-(13890,'Holy Spirit\'s Cloak - Heavy Armor exclusive','back','false','heavy',220,'wood','s84',0,-1,-1,20,0,0,0,0,'false','false','true','false','0-0','0-0;'),
-(13891,'Holy Spirit\'s Cloak - Light Armor exclusive','back','false','light',220,'wood','s84',0,-1,-1,20,0,0,0,0,'false','false','true','false','0-0','0-0;'),
-(13892,'Holy Spirit\'s Cloak - Robe exclusive','back','false','magic',220,'wood','s84',0,-1,-1,20,0,0,0,0,'false','false','true','false','0-0','0-0;'),
-(14601,'Ancient Cloak - Kamael exclusive','back','false','light',220,'wood','s80',0,-1,-1,20,0,0,0,0,'false','false','true','false','0-0','0-0;'),
-(14608,'Ancient Cloak - Light Armor exclusive','back','false','light',220,'wood','s80',0,-1,-1,20,0,0,0,0,'false','false','true','false','0-0','0-0;'),
-(14609,'Ancient Cloak - Heavy Armor exclusive','back','false','heavy',220,'wood','s80',0,-1,-1,20,0,0,0,0,'false','false','true','false','0-0','0-0;'),
-(14610,'Ancient Cloak - Robe exclusive','back','false','magic',220,'wood','s80',0,-1,-1,20,0,0,0,0,'false','false','true','false','0-0','0-0;');
 UPDATE `items` SET `enchant_level` = '0' WHERE `item_id` in (13687,13688,13689,13690,13889,13890,13891,13892,14601,14602,14608,14609,14610) and `enchant_level` > 0 ;
+DELETE FROM `item_attributes` WHERE `itemId` in ( SELECT `object_id` FROM `items` WHERE `item_id` in (13687,13688,13689,13690,13889,13890,13891,13892,14601,14602,14608,14609,14610));
 
 -- 法國麵包武器
 Delete From `armor` Where `item_id` in (20266); -- L2J 錯誤設定為防具
 REPLACE INTO `weapon` VALUES
-(20255,'Baguette Sword','rhand','true',500,3,3,'fine_steel','none',1,1,'sword',8,0.00000,0,0,0,379,0,2,10080,-1,0,0,'True','True','True','True',0,0,0,0,0,0,0,0,0,'0-0;'),
-(20256,'Baguette Dagger','rhand','true',500,3,3,'fine_steel','none',1,1,'dagger',12,0.00000,0,0,0,433,0,2,10080,-1,0,0,'True','True','True','True',0,0,0,0,0,0,0,0,0,'0-0;'),
-(20257,'Baguette Dual Sword','lrhand','true',500,3,3,'fine_steel','none',1,1,'bigsword',8,0.00000,0,0,0,325,0,2,10080,-1,0,0,'True','True','True','True',0,0,0,0,0,0,0,0,0,'0-0;'),
-(20258,'Baguette Mace','rhand','true',500,3,3,'fine_steel','none',1,1,'blunt',4,0.00000,0,0,0,379,0,2,10080,-1,0,0,'True','True','True','True',0,0,0,0,0,0,0,0,0,'0-0;'),
-(20259,'Baguette Heavy Hammer','lrhand','true',500,3,3,'fine_steel','none',1,1,'bigblunt',4,0.00000,0,0,0,325,0,2,10080,-1,0,0,'True','True','True','True',0,0,0,0,0,0,0,0,0,'0-0;'),
-(20260,'Baguette Spear','lrhand','true',500,3,3,'fine_steel','none',1,1,'pole',8,0.00000,0,0,0,325,0,2,10080,-1,0,0,'True','True','True','True',0,0,0,0,0,0,0,0,0,'0-0;'),
-(20261,'Baguette Bow','lrhand','true',500,10,3,'fine_steel','none',1,1,'bow',12,0.00000,0,0,0,227,0,3,10080,-1,0,0,'True','True','True','True',0,0,0,0,0,0,0,0,0,'0-0;'),
-(20262,'Baguette Fist','lrhand','true',500,3,3,'fine_steel','none',1,1,'dualfist',4,0.00000,0,0,0,325,0,2,10080,-1,0,0,'True','True','True','True',0,0,0,0,0,0,0,0,0,'0-0;'),
-(20263,'Baguette Magic Sword','rhand','true',500,3,3,'fine_steel','none',1,1,'sword',8,0.00000,0,0,0,379,0,2,10080,-1,0,0,'True','True','True','True',0,0,0,0,0,0,0,0,0,'0-0;'),
-(20264,'Baguette Staff','rhand','true',500,3,3,'fine_steel','none',1,1,'blunt',4,0.00000,0,0,0,379,0,2,10080,-1,0,0,'True','True','True','True',0,0,0,0,0,0,0,0,0,'0-0;'),
-(20265,'Baguette Great Staff','lrhand','true',500,3,3,'fine_steel','none',1,1,'bigblunt',4,0.00000,0,0,0,325,0,2,10080,-1,0,0,'True','True','True','True',0,0,0,0,0,0,0,0,0,'0-0;'),
-(20266,'Baguette Shield','lhand','true',500,0,0,'fine_steel','none',0,0,'none',0,0.00000,-8,2,20,0,0,0,10080,-1,0,0,'True','True','True','True',0,0,0,0,0,0,0,0,0,'0-0;'),
-(20267,'Baguette Rapier','rhand','true',500,3,3,'fine_steel','none',1,1,'rapier',10,0.00000,0,0,0,406,0,3,10080,-1,0,0,'True','True','True','True',0,0,0,0,0,0,0,0,0,'0-0;'),
-(20268,'Baguette Ancient Sword','lrhand','true',500,3,3,'fine_steel','none',1,1,'ancient',6,0.00000,0,0,0,350,0,3,10080,-1,0,0,'True','True','True','True',0,0,0,0,0,0,0,0,0,'0-0;'),
-(20269,'Baguette Crossbow','lrhand','true',500,6,3,'fine_steel','none',1,1,'crossbow',10,0.00000,0,0,0,303,0,3,10080,-1,0,0,'True','True','True','True',0,0,0,0,0,0,0,0,0,'0-0;'),
-(20270,'Baguette\'s Dualsword','lrhand','true',500,3,3,'fine_steel','none',1,1,'dual',8,0.00000,0,0,0,325,0,2,10080,-1,0,0,'True','True','True','True',0,0,0,0,0,0,0,0,0,'0-0;');
+(20255,'Baguette Sword','rhand','false',500,3,3,'fine_steel','none',1,1,'sword',8,0.00000,0,0,0,379,0,2,-1,10080,0,0,'true','true','true','true',0,0,0,0,0,0,0,0,0,'0-0;'),
+(20256,'Baguette Dagger','rhand','false',500,3,3,'fine_steel','none',1,1,'dagger',12,0.00000,0,0,0,433,0,2,-1,10080,0,0,'true','true','true','true',0,0,0,0,0,0,0,0,0,'0-0;'),
+(20257,'Baguette Dual Sword','lrhand','false',500,3,3,'fine_steel','none',1,1,'bigsword',8,0.00000,0,0,0,325,0,2,-1,10080,0,0,'true','true','true','true',0,0,0,0,0,0,0,0,0,'0-0;'),
+(20258,'Baguette Mace','rhand','false',500,3,3,'fine_steel','none',1,1,'blunt',4,0.00000,0,0,0,379,0,2,-1,10080,0,0,'true','true','true','true',0,0,0,0,0,0,0,0,0,'0-0;'),
+(20259,'Baguette Heavy Hammer','lrhand','false',500,3,3,'fine_steel','none',1,1,'bigblunt',4,0.00000,0,0,0,325,0,2,-1,10080,0,0,'true','true','true','true',0,0,0,0,0,0,0,0,0,'0-0;'),
+(20260,'Baguette Spear','lrhand','false',500,3,3,'fine_steel','none',1,1,'pole',8,0.00000,0,0,0,325,0,2,-1,10080,0,0,'true','true','true','true',0,0,0,0,0,0,0,0,0,'0-0;'),
+(20261,'Baguette Bow','lrhand','false',500,10,3,'fine_steel','none',1,1,'bow',12,0.00000,0,0,0,227,0,3,-1,10080,0,0,'true','true','true','true',0,0,0,0,0,0,0,0,0,'0-0;'),
+(20262,'Baguette Fist','lrhand','false',500,3,3,'fine_steel','none',1,1,'dualfist',4,0.00000,0,0,0,325,0,2,-1,10080,0,0,'true','true','true','true',0,0,0,0,0,0,0,0,0,'0-0;'),
+(20263,'Baguette Magic Sword','rhand','false',500,3,3,'fine_steel','none',1,1,'sword',8,0.00000,0,0,0,379,0,2,-1,10080,0,0,'true','true','true','true',0,0,0,0,0,0,0,0,0,'0-0;'),
+(20264,'Baguette Staff','rhand','false',500,3,3,'fine_steel','none',1,1,'blunt',4,0.00000,0,0,0,379,0,2,-1,10080,0,0,'true','true','true','true',0,0,0,0,0,0,0,0,0,'0-0;'),
+(20265,'Baguette Great Staff','lrhand','false',500,3,3,'fine_steel','none',1,1,'bigblunt',4,0.00000,0,0,0,325,0,2,-1,10080,0,0,'true','true','true','true',0,0,0,0,0,0,0,0,0,'0-0;'),
+(20266,'Baguette Shield','lhand','false',500,0,0,'fine_steel','none',0,0,'none',0,0.00000,-8,2,20,0,0,0,-1,10080,0,0,'true','true','true','true',0,0,0,0,0,0,0,0,0,'0-0;'),
+(20267,'Baguette Rapier','rhand','false',500,3,3,'fine_steel','none',1,1,'rapier',10,0.00000,0,0,0,406,0,3,-1,10080,0,0,'true','true','true','true',0,0,0,0,0,0,0,0,0,'0-0;'),
+(20268,'Baguette Ancient Sword','lrhand','false',500,3,3,'fine_steel','none',1,1,'ancient',6,0.00000,0,0,0,350,0,3,-1,10080,0,0,'true','true','true','true',0,0,0,0,0,0,0,0,0,'0-0;'),
+(20269,'Baguette Crossbow','lrhand','false',500,6,3,'fine_steel','none',1,1,'crossbow',10,0.00000,0,0,0,303,0,3,-1,10080,0,0,'true','true','true','true',0,0,0,0,0,0,0,0,0,'0-0;'),
+(20270,'Baguette\'s Dualsword','lrhand','false',500,3,3,'fine_steel','none',1,1,'dual',8,0.00000,0,0,0,325,0,2,-1,10080,0,0,'true','true','true','true',0,0,0,0,0,0,0,0,0,'0-0;');
 
 -- 新頭飾
 REPLACE INTO `armor` VALUES
-(20401,'20401','hairall','false','none',10,'wood','none',0,-1,-1,0,0,0,0,0,'true','true','true','true','0-0','0-0;');
+(20401,'20401','hairall','false','none',10,'wood','none',0,-1,-1,0,0,0,0,0,'true','true','true','true','0-0','0-0;'); -- 勤勞者帽子
 
 -- 新壺精
 REPLACE INTO `armor` VALUES
-(13544,'Agathion Summon Bracelet - Boy Teddy Bear','lbracelet','false','none',150,'wood','none',0,-1,-1,0,0,0,0,0,'false','false','true','false','0-0','8259-1;5958-1;3267-1;'),
-(13545,'Agathion Summon Bracelet - Girl Teddy Bear','lbracelet','false','none',150,'wood','none',0,-1,-1,0,0,0,0,0,'false','false','true','false','0-0','8260-1;5959-1;3267-1;'),
-(13756,'Agathion Summon Bracelet - Knight','lbracelet','false','none',150, 'wood','none',0,-1,-1,0,0,0,0,0,'false','false','true','false','0-0','8275-1;3267-1;'),
-(14675,'Agathion Seal Bracelet - Saerom','lbracelet','false','none',150,'wood','none',0,-1,-1,0,0,0,0,0,'false','false','true','false','0-0','8314-1;6124-1;3267-1;'),
-(20297,'Agathion Seal Bracelet - Red Sumo Wrestler','lbracelet','false','none',150,'wood','none',0,-1,-1,0,0,0,0,0,'false','false','true','false','0-0','21043-1;23049-1;3267-1;'),
-(20298,'Agathion Seal Bracelet - Red Sumo Wrestler','lbracelet','false','none',150,'wood','none',0,-1,10080,0,0,0,0,0,'false','false','true','false','0-0','21043-1;23049-1;23057-1;3267-1;'),
-(20299,'Agathion Seal Bracelet - Blue Sumo Wrestler','lbracelet','false','none',150,'wood','none',0,-1,-1,0,0,0,0,0,'false','false','true','false','0-0','21044-1;23050-1;3267-1;'),
-(20300,'Agathion Seal Bracelet - Blue Sumo Wrestler','lbracelet','false','none',150,'wood','none',0,-1,10080,0,0,0,0,0,'false','false','true','false','0-0','21044-1;23050-1;23058-1;3267-1;'),
-(20301,'Agathion Seal Bracelet - Great Sumo Match','lbracelet','false','none',150,'wood','none',0,-1,-1,0,0,0,0,0,'false','false','true','false','0-0','21045-1;23051-1;23059-1;3267-1;'),
-(20302,'Agathion Seal Bracelet - Great Sumo Match','lbracelet','false','none',150,'wood','none',0,-1,10080,0,0,0,0,0,'false','false','true','false','0-0','21045-1;23051-1;23060-1;3267-1;'),
-(20303,'Agathion Seal Bracelet - Button-Eyed Bear Doll','lbracelet','false','none',150,'wood','none',0,-1,-1,0,0,0,0,0,'false','false','true','false','0-0','21046-1;23052-1;3267-1;'),
-(20304,'Agathion Seal Bracelet - Button-Eyed Bear Doll','lbracelet','false','none',150,'wood','none',0,-1,10080,0,0,0,0,0,'false','false','true','false','0-0','21046-1;23052-1;23061-1;3267-1;'),
-(20305,'Agathion Seal Bracelet - Button-Eyed Bear Doll','lbracelet','false','none',150,'wood','none',0,-1,10080,0,0,0,0,0,'false','false','true','false','0-0','21046-1;23052-1;23062-1;3267-1;'),
-(20307,'Agathion Seal Bracelet - God of Fortune','lbracelet','false','none',150,'wood','none',0,-1,-1,0,0,0,0,0,'false','false','true','false','0-0','23053-1;21047-1;3267-1;'),
-(20309,'Agathion Seal Bracelet - Dryad','lbracelet','false','none',150,'wood','none',0,-1,-1,0,0,0,0,0,'false','false','true','false','0-0','21048-1;23054-1;3267-1;'),
-(20310,'Agathion Seal Bracelet - Wonboso','lbracelet','false','none',150,'wood','none',0,-1,-1,0,0,0,0,0,'false','false','true','false','0-0','21049-1;23055-1;3267-1;'),
-(20311,'Agathion Seal Bracelet - Wonboso','lbracelet','false','none',150,'wood','none',0,-1,10080,0,0,0,0,0,'false','false','true','false','0-0','21049-1;23055-1;23065-1;3267-1;'),
-(20312,'Agathion Seal Bracelet - Daewoonso','lbracelet','false','none',150,'wood','none',0,-1,-1,0,0,0,0,0,'false','false','true','false','0-0','21050-1;23056-1;3267-1;'),
-(14776,'Agathion Seal Bracelet - Juju','lbracelet','false','none',150, 'wood','none',0,-1,20160,0,0,0,0,0,'false','false','true','false','0-0','8327-1;6136-1;6137-1;3267-1;');
+(14776,'Agathion Seal Bracelet - Juju','lbracelet','false','none',150, 'wood','none',0,-1,20160,0,0,0,0,0,'false','false','true','false','0-0','8327-1;6136-1;6137-1;3267-1;'); -- 壺精封印手鐲-愛心
+UPDATE `armor` SET `skill` = '8275-1;3267-1;' WHERE `item_id` in (13756);        -- 壺精召喚手鐲-騎士
+UPDATE `armor` SET `skill` = '8257-1;5956-1;3267-1;' WHERE `item_id` in (14075); -- 怒氣壺精
+UPDATE `armor` SET `skill` = '8256-1;5955-1;3267-1;' WHERE `item_id` in (14076); -- 開心壺精
+UPDATE `armor` SET `skill` = '8258-1;5957-1;3267-1;' WHERE `item_id` in (14077); -- 嗚咽壺精
 
--- 黃鬃獅子騎乘手鐲 / 蒸汽甲蟲騎乘手鐲
-REPLACE INTO `armor` VALUES
-(13546,'Steam Sledge Mounting Bracelet','lbracelet','false','none',150, 'wood','none',0,10080,-1,0,0,0,0,0,'false','false','true','false','0-0','8261-1;'),
-(13547,'Tawny-Maned Lion Mounting Bracelet','lbracelet','false','none',150, 'wood','none',0,10080,-1,0,0,0,0,0,'false','false','true','false','0-0','8262-1;'),
-(20396,'Steam Beatle Mounting Bracelet','lbracelet','false','none',30,'wood','none',0,10080,-1,0,0,0,0,0,'false','false','true','false','0-0','8261-1;');
+-- 新騎乘手鐲
+UPDATE `armor` SET `skill` = '8261-1;' WHERE `item_id` in (13546,14054,14067,20396); -- 蒸汽甲蟲騎乘手鐲
+UPDATE `armor` SET `skill` = '8262-1;' WHERE `item_id` in (13547,14053,14066);       -- 黃鬃獅子騎乘手鐲
 
 -- 新狩獵幫手
 REPLACE INTO `npc` VALUES
@@ -1091,14 +1033,10 @@ REPLACE INTO `pets_skills` VALUES
 (16053,85,6053,4),
 (16053,70,6054,1);
 
--- 新變身
-REPLACE INTO `weapon` VALUES
-(14056,'Snow Kung Transformation Stick','rhand','false',0,0,0,'fine_steel','none',1,10,'sword',8,0.00000,0,0,0,379,0,1,-1,-1,0,0,'True','True','True','True',0,0,0,0,0,0,0,0,0,'8263-1;'),
-(14057,'Scarecrow Jack Transformation Stick','rhand','false',0,0,0,'fine_steel','none',1,10,'sword',8,0.00000,0,0,0,379,0,1,-1,-1,0,0,'True','True','True','True',0,0,0,0,0,0,0,0,0,'8264-1;'),
-(14058,'Tin Golem Transformation Stick','rhand','false',0,0,0,'fine_steel','none',1,10,'sword',8,0.00000,0,0,0,379,0,1,-1,-1,0,0,'True','True','True','True',0,0,0,0,0,0,0,0,0,'8265-1;');
-REPLACE INTO armorsets VALUES
-('201', '13803', '13804', '13802', '0', '0', '8277', '1', '0', '0', '0', '0', '0', '0', '0', '0'),
-('202', '13806', '13807', '13805', '0', '0', '8278', '1', '0', '0', '0', '0', '0', '0', '0', '0');
+-- 新變身魔杖
+UPDATE `weapon` SET `skill` = '8263-1;' WHERE `item_id` in (12798,14056,14069,14088,14096); -- 雪人變身魔杖
+UPDATE `weapon` SET `skill` = '8264-1;' WHERE `item_id` in (12799,14057,14070,14089,14097); -- 草人變身魔杖
+UPDATE `weapon` SET `skill` = '8265-1;' WHERE `item_id` in (13060,14058,14071,14090,14098); -- 洋鐵高崙變身魔杖
 
 -- 破滅國境的新 NPC (感謝 pmq 提供)
 UPDATE `npc` SET `type` = 'L2Npc' WHERE `id` in (32628,32629); -- 修正碼頭巡邏兵
@@ -1157,7 +1095,6 @@ UPDATE `npc` SET `walkspd` = '50' WHERE `id` in (35659,35690,35728,35759,35797,3
 
 -- 修正物品類型
 UPDATE `weapon` SET `bodypart` = 'lhand' WHERE `item_id` in (13770);  -- 艾罕米亞卡修之盾
-UPDATE `etcitem` SET `item_type` = 'none', `consume_type` = 'stackable' WHERE `item_id` in (13277,13278);  -- 能量星石/高級能量星石
 
 -- 增加物品效果
 UPDATE `armor` SET `skill` = '3633-2;' WHERE `item_id` ='6841';                               -- 城主的王冠

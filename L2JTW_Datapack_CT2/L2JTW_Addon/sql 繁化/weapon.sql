@@ -1,6 +1,6 @@
 /************ Made in Taiwan ************/
 
-/***** 貳幕-破滅國境\09-06-08 *****/ 
+/***** 貳幕-破滅國境 09-06-08 *****/
 /***** itemname-tw *****/ 
 UPDATE `weapon` SET `name` ='短劍' WHERE item_id ='1';
 UPDATE `weapon` SET `name` ='長劍' WHERE item_id ='2';
