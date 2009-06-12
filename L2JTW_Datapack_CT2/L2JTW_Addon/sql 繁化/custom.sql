@@ -3,15 +3,15 @@
 /***** 貳幕-破滅國境 09-06-08 *****/
 /***** castlename-tw *****/ 
 /***** castle.sql *****/
-UPDATE `castle` SET `name` = '古魯丁城' WHERE `id` = '1';
-UPDATE `castle` SET `name` = '狄恩城' WHERE `id` = '2';
-UPDATE `castle` SET `name` = '奇岩城' WHERE `id` = '3';
-UPDATE `castle` SET `name` = '歐瑞城' WHERE `id` = '4';
-UPDATE `castle` SET `name` = '亞丁城' WHERE `id` = '5';
-UPDATE `castle` SET `name` = '因納得立城' WHERE `id` = '6';
-UPDATE `castle` SET `name` = '高達特城' WHERE `id` = '7';
-UPDATE `castle` SET `name` = '魯因城' WHERE `id` = '8';
-UPDATE `castle` SET `name` = '修加特城' WHERE `id` = '9';
+UPDATE `castle` SET `name` = '古魯丁城' WHERE `id` = 1;
+UPDATE `castle` SET `name` = '狄恩城' WHERE `id` = 2;
+UPDATE `castle` SET `name` = '奇岩城' WHERE `id` = 3;
+UPDATE `castle` SET `name` = '歐瑞城' WHERE `id` = 4;
+UPDATE `castle` SET `name` = '亞丁城' WHERE `id` = 5;
+UPDATE `castle` SET `name` = '因納得立城' WHERE `id` = 6;
+UPDATE `castle` SET `name` = '高達特城' WHERE `id` = 7;
+UPDATE `castle` SET `name` = '魯因城' WHERE `id` = 8;
+UPDATE `castle` SET `name` = '修加特城' WHERE `id` = 9;
 
 /***** merchant_areas_list.sql *****/
 UPDATE `merchant_areas_list` SET `merchant_area_name` = '新手村莊' WHERE `merchant_area_id` = 1;
