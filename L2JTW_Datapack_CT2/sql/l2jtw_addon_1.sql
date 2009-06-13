@@ -1,12 +1,12 @@
-/************ Made in Taiwan ************/
+/************ Made IN Taiwan ************/
 
 /************ 修正32007加爾巴-釣魚會員 ************/
-Delete From spawnlist Where `id` > 820000 and `id` < 880000;
+DELETE FROM `spawnlist` WHERE `id` > 820000 AND `id` < 880000;
 INSERT INTO `spawnlist` VALUES ('820001', '', '1', '32007', '140967', '-123600', '-1905', '0', '0', '11829', '60', '0', '0');
-UPDATE `npc` SET `type` = 'L2Fisherman' WHERE `id` in (32007);
-UPDATE `npc` SET `rhand` = '7560' WHERE `id` in (32007);
-REPLACE INTO `merchant_shopids` VALUES (3200700,'32007');
-Delete From merchant_buylists Where shop_id in (3200700);
+UPDATE `npc` SET `type` = 'L2Fisherman' WHERE `id` IN (32007);
+UPDATE `npc` SET `rhand` = '7560' WHERE `id` IN (32007);
+REPLACE INTO `merchant_shopids` VALUES (3200700,32007);
+DELETE FROM `merchant_buylists` WHERE shop_id IN (3200700);
 INSERT INTO `merchant_buylists` (`item_id`,`price`,`shop_id`,`order`) VALUES
 (7807,-1,3200700,0),
 (7808,-1,3200700,1),
@@ -45,76 +45,76 @@ REPLACE INTO `npc` VALUES ('16040', '16040', 'Red Twilight Strider', '0', '', '0
 
 
 /************ 修正要塞/小天使/小惡魔/愛心/媽祖/普萊皮塔/貓熊的手鐲 ************/
-UPDATE `armor` SET `skill` = '3361-1;3267-1;5458-1;' WHERE `item_id` in (9909,10018);
-UPDATE `armor` SET `skill` = '3423-1;3267-1;5535-1;' WHERE `item_id` in (10320,12779);
-UPDATE `armor` SET `skill` = '3424-1;3267-1;5536-1;' WHERE `item_id` in (10326,12780);
-UPDATE `armor` SET `skill` = '8245-1;3267-1;' WHERE `item_id` in (13023,13254,13309,13340,14775,20253);
-UPDATE `armor` SET `skill` = '21000-1;3267-1;23000-1;' WHERE `item_id` in (20006);
-UPDATE `armor` SET `skill` = '21001-1;3267-1;23001-1;' WHERE `item_id` in (20007);
-UPDATE `armor` SET `skill` = '21002-1;3267-1;23002-1;' WHERE `item_id` in (20008);
-UPDATE `armor` SET `skill` = '21003-1;3267-1;23003-1;' WHERE `item_id` in (20012);
-UPDATE `armor` SET `skill` = '21008-1;3267-1;23010-1;' WHERE `item_id` in (20063);
-UPDATE `armor` SET `skill` = '21009-1;3267-1;23011-1;' WHERE `item_id` in (20064);
-UPDATE `armor` SET `skill` = '21010-1;3267-1;23012-1;' WHERE `item_id` in (20065);
+UPDATE `armor` SET `skill` = '3361-1;3267-1;5458-1;' WHERE `item_id` IN (9909,10018);
+UPDATE `armor` SET `skill` = '3423-1;3267-1;5535-1;' WHERE `item_id` IN (10320,12779);
+UPDATE `armor` SET `skill` = '3424-1;3267-1;5536-1;' WHERE `item_id` IN (10326,12780);
+UPDATE `armor` SET `skill` = '8245-1;3267-1;' WHERE `item_id` IN (13023,13254,13309,13340,14775,20253);
+UPDATE `armor` SET `skill` = '21000-1;3267-1;23000-1;' WHERE `item_id` IN (20006);
+UPDATE `armor` SET `skill` = '21001-1;3267-1;23001-1;' WHERE `item_id` IN (20007);
+UPDATE `armor` SET `skill` = '21002-1;3267-1;23002-1;' WHERE `item_id` IN (20008);
+UPDATE `armor` SET `skill` = '21003-1;3267-1;23003-1;' WHERE `item_id` IN (20012);
+UPDATE `armor` SET `skill` = '21008-1;3267-1;23010-1;' WHERE `item_id` IN (20063);
+UPDATE `armor` SET `skill` = '21009-1;3267-1;23011-1;' WHERE `item_id` IN (20064);
+UPDATE `armor` SET `skill` = '21010-1;3267-1;23012-1;' WHERE `item_id` IN (20065);
 
 
 /************ 修正邱比特/招財貓/獨眼蝙蝠群/飛馬/土地公的壺精手鐲/食人妖的手鐲 ************/
-UPDATE `armor` SET `skill` = '21031-1;3267-1;23025-1;' WHERE `item_id` in (20212);
-UPDATE `armor` SET `skill` = '21032-1;3267-1;23026-1;' WHERE `item_id` in (20213);
-UPDATE `armor` SET `skill` = '21033-1;3267-1;23027-1;23046-1;' WHERE `item_id` in (20221);
-UPDATE `armor` SET `skill` = '21034-1;3267-1;23028-1;23047-1;' WHERE `item_id` in (20222);
-UPDATE `armor` SET `skill` = '21035-1;3267-1;23029-1;23048-1;' WHERE `item_id` in (20223);
-UPDATE `armor` SET `skill` = '21033-1;3267-1;23027-1;23046-1;23030-1;' WHERE `item_id` in (20224);
-UPDATE `armor` SET `skill` = '21034-1;3267-1;23028-1;23047-1;23031-1;' WHERE `item_id` in (20225);
-UPDATE `armor` SET `skill` = '21036-1;3267-1;23033-1;' WHERE `item_id` in (20230);
-UPDATE `armor` SET `skill` = '21036-1;3267-1;23033-1;23034-1;' WHERE `item_id` in (20231);
-UPDATE `armor` SET `skill` = '21037-1;3267-1;23036-1;' WHERE `item_id` in (20236);
-UPDATE `armor` SET `skill` = '21037-1;3267-1;23036-1;23037-1;' WHERE `item_id` in (20237);
-UPDATE `armor` SET `skill` = '21037-1;3267-1;23036-1;23038-1;' WHERE `item_id` in (20238);
-UPDATE `armor` SET `skill` = '21038-1;3267-1;23039-1;' WHERE `item_id` in (20245);
-UPDATE `armor` SET `skill` = '21039-1;3267-1;23040-1;' WHERE `item_id` in (20246);
-UPDATE `armor` SET `skill` = '21040-1;3267-1;23041-1;' WHERE `item_id` in (20247);
-UPDATE `armor` SET `skill` = '21038-1;3267-1;23039-1;23042-1;' WHERE `item_id` in (20248);
-UPDATE `armor` SET `skill` = '21039-1;3267-1;23040-1;23043-1;' WHERE `item_id` in (20249);
-UPDATE `armor` SET `skill` = '21040-1;3267-1;23041-1;23044-1;' WHERE `item_id` in (20250);
-UPDATE `armor` SET `skill` = '21041-1;3267-1;23045-1;' WHERE `item_id` in (20252);
+UPDATE `armor` SET `skill` = '21031-1;3267-1;23025-1;' WHERE `item_id` IN (20212);
+UPDATE `armor` SET `skill` = '21032-1;3267-1;23026-1;' WHERE `item_id` IN (20213);
+UPDATE `armor` SET `skill` = '21033-1;3267-1;23027-1;23046-1;' WHERE `item_id` IN (20221);
+UPDATE `armor` SET `skill` = '21034-1;3267-1;23028-1;23047-1;' WHERE `item_id` IN (20222);
+UPDATE `armor` SET `skill` = '21035-1;3267-1;23029-1;23048-1;' WHERE `item_id` IN (20223);
+UPDATE `armor` SET `skill` = '21033-1;3267-1;23027-1;23046-1;23030-1;' WHERE `item_id` IN (20224);
+UPDATE `armor` SET `skill` = '21034-1;3267-1;23028-1;23047-1;23031-1;' WHERE `item_id` IN (20225);
+UPDATE `armor` SET `skill` = '21036-1;3267-1;23033-1;' WHERE `item_id` IN (20230);
+UPDATE `armor` SET `skill` = '21036-1;3267-1;23033-1;23034-1;' WHERE `item_id` IN (20231);
+UPDATE `armor` SET `skill` = '21037-1;3267-1;23036-1;' WHERE `item_id` IN (20236);
+UPDATE `armor` SET `skill` = '21037-1;3267-1;23036-1;23037-1;' WHERE `item_id` IN (20237);
+UPDATE `armor` SET `skill` = '21037-1;3267-1;23036-1;23038-1;' WHERE `item_id` IN (20238);
+UPDATE `armor` SET `skill` = '21038-1;3267-1;23039-1;' WHERE `item_id` IN (20245);
+UPDATE `armor` SET `skill` = '21039-1;3267-1;23040-1;' WHERE `item_id` IN (20246);
+UPDATE `armor` SET `skill` = '21040-1;3267-1;23041-1;' WHERE `item_id` IN (20247);
+UPDATE `armor` SET `skill` = '21038-1;3267-1;23039-1;23042-1;' WHERE `item_id` IN (20248);
+UPDATE `armor` SET `skill` = '21039-1;3267-1;23040-1;23043-1;' WHERE `item_id` IN (20249);
+UPDATE `armor` SET `skill` = '21040-1;3267-1;23041-1;23044-1;' WHERE `item_id` IN (20250);
+UPDATE `armor` SET `skill` = '21041-1;3267-1;23045-1;' WHERE `item_id` IN (20252);
 
 
 /************ 增加頭飾的附加技能(祝福復活/祝福返回/大頭/煙火) ************/
-UPDATE `armor` SET `skill` = '3263-1;' WHERE `item_id` in (9177,9178,9179,9180,9181,9182,9183,10621,10625,10629);
-UPDATE `armor` SET `skill` = '3264-1;' WHERE `item_id` in (9184,9185,9186,9187,9188,9189,9190,10620,10624,10628,14753,14756,14759,14762);
-UPDATE `armor` SET `skill` = '3265-1;' WHERE `item_id` in (9191,9192,9193,9194,9195,9196,9197,10623,10627,10631,14754,14757,14760,14763);
-UPDATE `armor` SET `skill` = '3266-1;' WHERE `item_id` in (9198,9199,9200,9201,9202,9203,9204,9890,9891,9892,9893,9894,9895,9896,10622,10626,10630,14755,14758,14761,14764);
-UPDATE `armor` SET `skill` = '21005-3;' WHERE `item_id` in (20016);
-UPDATE `armor` SET `skill` = '21006-1;21007-1;' WHERE `item_id` in (20018);
-UPDATE `armor` SET `skill` = '21004-1;' WHERE `item_id` in (20019);
+UPDATE `armor` SET `skill` = '3263-1;' WHERE `item_id` IN (9177,9178,9179,9180,9181,9182,9183,10621,10625,10629);
+UPDATE `armor` SET `skill` = '3264-1;' WHERE `item_id` IN (9184,9185,9186,9187,9188,9189,9190,10620,10624,10628,14753,14756,14759,14762);
+UPDATE `armor` SET `skill` = '3265-1;' WHERE `item_id` IN (9191,9192,9193,9194,9195,9196,9197,10623,10627,10631,14754,14757,14760,14763);
+UPDATE `armor` SET `skill` = '3266-1;' WHERE `item_id` IN (9198,9199,9200,9201,9202,9203,9204,9890,9891,9892,9893,9894,9895,9896,10622,10626,10630,14755,14758,14761,14764);
+UPDATE `armor` SET `skill` = '21005-3;' WHERE `item_id` IN (20016);
+UPDATE `armor` SET `skill` = '21006-1;21007-1;' WHERE `item_id` IN (20018);
+UPDATE `armor` SET `skill` = '21004-1;' WHERE `item_id` IN (20019);
 
 
 /************ 增加壺精的附加技能(祝福復活/祝福返回/大頭/煙火) ************/
-UPDATE `armor` SET `skill` = '3423-1;3267-1;5538-1;' WHERE `item_id` in (10316);
-UPDATE `armor` SET `skill` = '3423-1;3267-1;5539-1;' WHERE `item_id` in (10317);
-UPDATE `armor` SET `skill` = '3423-1;3267-1;5540-1;' WHERE `item_id` in (10318);
-UPDATE `armor` SET `skill` = '3423-1;3267-1;5541-1;' WHERE `item_id` in (10319);
-UPDATE `armor` SET `skill` = '3424-1;3267-1;5542-1;' WHERE `item_id` in (10322);
-UPDATE `armor` SET `skill` = '3424-1;3267-1;5543-1;' WHERE `item_id` in (10323);
-UPDATE `armor` SET `skill` = '3424-1;3267-1;5544-1;' WHERE `item_id` in (10324);
-UPDATE `armor` SET `skill` = '3424-1;3267-1;5545-1;' WHERE `item_id` in (10325);
-UPDATE `armor` SET `skill` = '21000-1;3267-1;23000-1;23004-1;' WHERE `item_id` in (20009);
-UPDATE `armor` SET `skill` = '21001-1;3267-1;23001-1;23005-1;' WHERE `item_id` in (20010);
-UPDATE `armor` SET `skill` = '21002-1;3267-1;23002-1;23006-1;' WHERE `item_id` in (20011);
-UPDATE `armor` SET `skill` = '21003-1;3267-1;23003-1;23007-1;' WHERE `item_id` in (20013);
-UPDATE `armor` SET `skill` = '21003-1;3267-1;23003-1;23009-1;' WHERE `item_id` in (20014);
-UPDATE `armor` SET `skill` = '21003-1;3267-1;23003-1;23008-1;' WHERE `item_id` in (20015);
-UPDATE `armor` SET `skill` = '21008-1;3267-1;23010-1;23013-1;' WHERE `item_id` in (20066);
-UPDATE `armor` SET `skill` = '21008-1;3267-1;23011-1;23014-1;' WHERE `item_id` in (20067);
-UPDATE `armor` SET `skill` = '21010-1;3267-1;23012-1;23015-1;' WHERE `item_id` in (20068);
+UPDATE `armor` SET `skill` = '3423-1;3267-1;5538-1;' WHERE `item_id` IN (10316);
+UPDATE `armor` SET `skill` = '3423-1;3267-1;5539-1;' WHERE `item_id` IN (10317);
+UPDATE `armor` SET `skill` = '3423-1;3267-1;5540-1;' WHERE `item_id` IN (10318);
+UPDATE `armor` SET `skill` = '3423-1;3267-1;5541-1;' WHERE `item_id` IN (10319);
+UPDATE `armor` SET `skill` = '3424-1;3267-1;5542-1;' WHERE `item_id` IN (10322);
+UPDATE `armor` SET `skill` = '3424-1;3267-1;5543-1;' WHERE `item_id` IN (10323);
+UPDATE `armor` SET `skill` = '3424-1;3267-1;5544-1;' WHERE `item_id` IN (10324);
+UPDATE `armor` SET `skill` = '3424-1;3267-1;5545-1;' WHERE `item_id` IN (10325);
+UPDATE `armor` SET `skill` = '21000-1;3267-1;23000-1;23004-1;' WHERE `item_id` IN (20009);
+UPDATE `armor` SET `skill` = '21001-1;3267-1;23001-1;23005-1;' WHERE `item_id` IN (20010);
+UPDATE `armor` SET `skill` = '21002-1;3267-1;23002-1;23006-1;' WHERE `item_id` IN (20011);
+UPDATE `armor` SET `skill` = '21003-1;3267-1;23003-1;23007-1;' WHERE `item_id` IN (20013);
+UPDATE `armor` SET `skill` = '21003-1;3267-1;23003-1;23009-1;' WHERE `item_id` IN (20014);
+UPDATE `armor` SET `skill` = '21003-1;3267-1;23003-1;23008-1;' WHERE `item_id` IN (20015);
+UPDATE `armor` SET `skill` = '21008-1;3267-1;23010-1;23013-1;' WHERE `item_id` IN (20066);
+UPDATE `armor` SET `skill` = '21008-1;3267-1;23011-1;23014-1;' WHERE `item_id` IN (20067);
+UPDATE `armor` SET `skill` = '21010-1;3267-1;23012-1;23015-1;' WHERE `item_id` IN (20068);
 
 
 /************ 增加道具的變身技能 ************/
-UPDATE `weapon` SET `skill` = '3418-1;' WHERE `item_id` in (10167); -- 豬豬塔糖
-UPDATE `weapon` SET `skill` = '8244-1;' WHERE `item_id` in (12814); -- 守門人變身魔杖
-UPDATE `weapon` SET `skill` = '8246-1;' WHERE `item_id` in (12800,13253,13324,13339); -- 南瓜變身魔杖
-REPLACE INTO armorsets VALUES ('200', '9670', '9671', '9669', '0', '0', '3359', '1', '0', '0', '0', '0', '0', '0', '0', '0'); -- 土著全套
+UPDATE `weapon` SET `skill` = '3418-1;' WHERE `item_id` IN (10167); -- 豬豬塔糖
+UPDATE `weapon` SET `skill` = '8244-1;' WHERE `item_id` IN (12814); -- 守門人變身魔杖
+UPDATE `weapon` SET `skill` = '8246-1;' WHERE `item_id` IN (12800,13253,13324,13339); -- 南瓜變身魔杖
+REPLACE INTO `armorsets` VALUES ('200', '9670', '9671', '9669', '0', '0', '3359', '1', '0', '0', '0', '0', '0', '0', '0', '0'); -- 土著全套
 
 
 /************ 增加狩獵幫手 ************/
@@ -122,7 +122,7 @@ REPLACE INTO `npc` VALUES ('16043', '16043', 'Fox Shaman', '0', '', '0', 'Lineag
 REPLACE INTO `npc` VALUES ('16044', '16044', 'Wild Beast Fighter', '0', '', '0', 'LineageMonster4.beast_fighter_pet', '10', '17', '70', 'male', 'L2Pet', '40', '2444', '2444', '0.00', '0.00', '40', '43', '30', '21', '20', '25', '0', '0', '500', '500', '500', '500', '253', '0', '253', '0', '0', '0', '80', '120', 'NULL', '0', '0', '0', 'LAST_HIT', '0', '0', '0', 'fighter', 'false');
 REPLACE INTO `npc` VALUES ('16045', '16045', 'White Weasel', '0', '', '0', 'LineageMonster4.ferret_pet', '10', '13', '70', 'male', 'L2Pet', '40', '2444', '2444', '0.00', '0.00', '40', '43', '30', '21', '20', '25', '0', '0', '500', '500', '500', '500', '253', '0', '253', '0', '0', '0', '80', '120', 'NULL', '0', '0', '0', 'LAST_HIT', '0', '0', '0', 'fighter', 'false');
 REPLACE INTO `npc` VALUES ('16046', '16046', 'Fairy Princess', '0', '', '0', 'LineageMonster4.fairy_princess_pet', '10', '18', '70', 'male', 'L2Pet', '40', '2444', '2444', '0.00', '0.00', '40', '43', '30', '21', '20', '25', '0', '0', '500', '500', '500', '500', '253', '0', '253', '0', '0', '0', '80', '120', 'NULL', '0', '0', '0', 'LAST_HIT', '0', '0', '0', 'fighter', 'false');
-UPDATE `etcitem` SET `handler` = 'SummonItems' WHERE `item_id` in (13017,13018,13019,13020);
+UPDATE `etcitem` SET `handler` = 'SummonItems' WHERE `item_id` IN (13017,13018,13019,13020);
 REPLACE INTO `pets_skills` VALUES
 (16044,1,5745,1),
 (16044,72,5745,2),
@@ -364,13 +364,13 @@ REPLACE INTO `pets_skills` VALUES
 
 /************ 增加/修正/刪除NPC ************/
 UPDATE `npc` SET `collision_radius` = '13.5', `collision_height` = '36.5' WHERE `id` IN (27323); -- 修正神的密使(任務怪物)
-UPDATE `npc` SET `type` = 'L2VillageMaster' WHERE `id` in (32191); -- 修正漢娜琳  宗師的NPC類型
-UPDATE `npc` SET `type` = 'L2Adventurer' WHERE `id` in (32074); -- 修正古魯丁分會長的NPC類型
-UPDATE `npc` SET `type` = 'L2Npc', `collision_radius` = '9', `collision_height` = '16.5', `rhand` = '0' WHERE `id` in (35417,35418); -- 修正地獄守門人
+UPDATE `npc` SET `type` = 'L2VillageMaster' WHERE `id` IN (32191); -- 修正漢娜琳  宗師的NPC類型
+UPDATE `npc` SET `type` = 'L2Adventurer' WHERE `id` IN (32074); -- 修正古魯丁分會長的NPC類型
+UPDATE `npc` SET `type` = 'L2Npc', `collision_radius` = '9', `collision_height` = '16.5', `rhand` = '0' WHERE `id` IN (35417,35418); -- 修正地獄守門人
 UPDATE `spawnlist` SET `npc_templateid` = '35440' WHERE `id` = 33771; -- 修正NPC ID:丹尼爾(根據地守門人)
-UPDATE `npc` SET `rhand` = '316' WHERE `id` in (50007); -- 結婚管理員
-UPDATE `npc` SET `rhand` = '0' WHERE `id` in (70010); -- TVT活動管理員
-Delete From `spawnlist` Where `npc_templateid` in (30880,30881,30882,30883,30884,30885,30886,30887,30888,30889); -- 刪除不存在的NPC
+UPDATE `npc` SET `rhand` = '316' WHERE `id` IN (50007); -- 結婚管理員
+UPDATE `npc` SET `rhand` = '0' WHERE `id` IN (70010); -- TVT活動管理員
+DELETE FROM `spawnlist` WHERE `npc_templateid` IN (30880,30881,30882,30883,30884,30885,30886,30887,30888,30889); -- 刪除不存在的NPC
 
 -- 加入維他命管理者
 REPLACE INTO `spawnlist` VALUES
@@ -440,8 +440,8 @@ INSERT INTO `spawnlist` VALUES
 ('820113', '', '1', '31228', '-116776', '46545', '368', '0', '0', '40092', '60', '0', '0');
 
 -- 加入地下競技場的入場管理員
-Delete From `spawnlist` Where `npc_templateid` in (32377); -- 刪除地下競技場重複的入場管理員
-UPDATE `npc` SET `type` = 'L2Teleporter' WHERE `id` in (32503); -- 入場管理員 柯雷塔的晶體
+DELETE FROM `spawnlist` WHERE `npc_templateid` IN (32377); -- 刪除地下競技場重複的入場管理員
+UPDATE `npc` SET `type` = 'L2Teleporter' WHERE `id` IN (32503); -- 入場管理員 柯雷塔的晶體
 INSERT INTO `spawnlist` VALUES
 ('830001', '', '1', '32491', '-82166', '-49176', '-10341', '0', '0', '31175', '60', '0', '0'),  -- 地下競技場助手
 ('830002', '', '1', '32497', '-80571', '151295', '-3045', '0', '0', '20607', '60', '0', '0'),   -- 調查官 艾德勒
@@ -464,7 +464,7 @@ REPLACE INTO `teleport` VALUES
 
 -- 加入黎明/黃昏的神諭處可觀看比賽
 REPLACE INTO `npc` VALUES ('830000', '31031', 'Broadcasting Tower', '0', '', '0', 'NPC.broadcasting_tower', '7.00', '35.00', '70', 'etc', 'L2Observation', '40', '3862', '1493', '11.85', '2.78', '40', '43', '30', '21', '20', '10', '0', '0', '1314', '470', '780', '382', '278', '0', '333', '0', '0', '0', '55', '132', 'NULL', '0', '1', '0', 'LAST_HIT', '0', '0', '0', 'fighter', 'false');
-UPDATE `spawnlist` SET `npc_templateid` = '830000' WHERE `id` in (48128,48129,48130,48131);
+UPDATE `spawnlist` SET `npc_templateid` = '830000' WHERE `id` IN (48128,48129,48130,48131);
 
 
 /************ 修正BOSS ************/
@@ -722,11 +722,11 @@ REPLACE INTO `teleport` VALUES
 ('Disciples Necropolis -> Lilith',450,184448,-10120,-5500,0,0);
 
 -- 修正奇岩港口的傳送價格
-UPDATE `teleport` SET `price` = '5200' WHERE `id` in (63);
-UPDATE `teleport` SET `price` = '7100' WHERE `id` in (107);
+UPDATE `teleport` SET `price` = '5200' WHERE `id` IN (63);
+UPDATE `teleport` SET `price` = '7100' WHERE `id` IN (107);
 
 -- 修正獵捕石的道具類型
-UPDATE `etcitem` SET `item_type` = 'none' WHERE `item_id` in (8764);
+UPDATE `etcitem` SET `item_type` = 'none' WHERE `item_id` IN (8764);
 
 -- 修正價格
 UPDATE `etcitem` SET `price` = '7' WHERE `item_id` ='1835';       -- 靈魂彈-普通
@@ -747,7 +747,7 @@ REPLACE INTO `pets_stats` VALUES
 ('great_wolf',16025,56,33396358,1384,597,107,66,70,42,95,89,40,187,278,333,4740,39,7,54510,2,1,0.1);
 
 -- 修正根據地投標價
-UPDATE `auction` SET `startingBid` = '20000000' WHERE `id` in (58,59,60,61) and `sellerId` ='0';
+UPDATE `auction` SET `startingBid` = '20000000' WHERE `id` IN (58,59,60,61) AND `sellerId` ='0';
 
 
 /************ 加入破滅國境的道具 ************/
@@ -784,11 +784,11 @@ REPLACE INTO `weapon` VALUES
 (14159,'Vesper Nagan','lrhand','true',1800,1,1,'fine_steel','s84',429,15,'ancient',8,2.00000,0,0,0,350,0,176,-1,-1,0,0,'True','True','True','True',0,0,0,0,0,0,0,0,14123,'0-0;');
 
 -- 斗篷
-UPDATE `items` SET `enchant_level` = '0' WHERE `item_id` in (13687,13688,13689,13690,13889,13890,13891,13892,14601,14602,14608,14609,14610) and `enchant_level` > 0 ;
-DELETE FROM `item_attributes` WHERE `itemId` in ( SELECT `object_id` FROM `items` WHERE `item_id` in (13687,13688,13689,13690,13889,13890,13891,13892,14601,14602,14608,14609,14610));
+UPDATE `items` SET `enchant_level` = '0' WHERE `item_id` IN (13687,13688,13689,13690,13889,13890,13891,13892,14601,14602,14608,14609,14610) AND `enchant_level` > 0 ;
+DELETE FROM `item_attributes` WHERE `itemId` IN ( SELECT `object_id` FROM `items` WHERE `item_id` IN (13687,13688,13689,13690,13889,13890,13891,13892,14601,14602,14608,14609,14610));
 
 -- 法國麵包武器
-Delete From `armor` Where `item_id` in (20266); -- L2J 錯誤設定為防具
+DELETE FROM `armor` WHERE `item_id` IN (20266); -- L2J 錯誤設定為防具
 REPLACE INTO `weapon` VALUES
 (20255,'Baguette Sword','rhand','false',500,3,3,'fine_steel','none',1,1,'sword',8,0.00000,0,0,0,379,0,2,-1,10080,0,0,'true','true','true','true',0,0,0,0,0,0,0,0,0,'0-0;'),
 (20256,'Baguette Dagger','rhand','false',500,3,3,'fine_steel','none',1,1,'dagger',12,0.00000,0,0,0,433,0,2,-1,10080,0,0,'true','true','true','true',0,0,0,0,0,0,0,0,0,'0-0;'),
@@ -814,14 +814,14 @@ REPLACE INTO `armor` VALUES
 -- 新壺精
 REPLACE INTO `armor` VALUES
 (14776,'Agathion Seal Bracelet - Juju','lbracelet','false','none',150, 'wood','none',0,-1,20160,0,0,0,0,0,'false','false','true','false','0-0','8327-1;6136-1;6137-1;3267-1;'); -- 壺精封印手鐲-愛心
-UPDATE `armor` SET `skill` = '8275-1;3267-1;' WHERE `item_id` in (13756);        -- 壺精召喚手鐲-騎士
-UPDATE `armor` SET `skill` = '8257-1;5956-1;3267-1;' WHERE `item_id` in (14075); -- 怒氣壺精
-UPDATE `armor` SET `skill` = '8256-1;5955-1;3267-1;' WHERE `item_id` in (14076); -- 開心壺精
-UPDATE `armor` SET `skill` = '8258-1;5957-1;3267-1;' WHERE `item_id` in (14077); -- 嗚咽壺精
+UPDATE `armor` SET `skill` = '8275-1;3267-1;' WHERE `item_id` IN (13756);        -- 壺精召喚手鐲-騎士
+UPDATE `armor` SET `skill` = '8257-1;5956-1;3267-1;' WHERE `item_id` IN (14075); -- 怒氣壺精
+UPDATE `armor` SET `skill` = '8256-1;5955-1;3267-1;' WHERE `item_id` IN (14076); -- 開心壺精
+UPDATE `armor` SET `skill` = '8258-1;5957-1;3267-1;' WHERE `item_id` IN (14077); -- 嗚咽壺精
 
 -- 新騎乘手鐲
-UPDATE `armor` SET `skill` = '8261-1;' WHERE `item_id` in (13546,14054,14067,20396); -- 蒸汽甲蟲騎乘手鐲
-UPDATE `armor` SET `skill` = '8262-1;' WHERE `item_id` in (13547,14053,14066);       -- 黃鬃獅子騎乘手鐲
+UPDATE `armor` SET `skill` = '8261-1;' WHERE `item_id` IN (13546,14054,14067,20396); -- 蒸汽甲蟲騎乘手鐲
+UPDATE `armor` SET `skill` = '8262-1;' WHERE `item_id` IN (13547,14053,14066);       -- 黃鬃獅子騎乘手鐲
 
 -- 新狩獵幫手
 REPLACE INTO `npc` VALUES
@@ -829,7 +829,7 @@ REPLACE INTO `npc` VALUES
 ('16051', '16051', 'Spirit Shaman', '0', '', '0', 'LineageMonster4.sprit_magician_the_pet', '15', '15', '80', 'male', 'L2Pet', '40', '2444', '2444', '0.00', '0.00', '40', '43', '30', '21', '20', '25', '0', '0', '500', '500', '500', '500', '253', '0', '253', '0', '0', '0', '80', '120', 'NULL', '0', '0', '0', 'LAST_HIT', '0', '0', '0', 'fighter', 'false'),
 ('16052', '16052', 'Toy Knight', '0', '', '0', 'LineageMonster4.toy_knight_the_pet', '12', '15', '80', 'male', 'L2Pet', '40', '2444', '2444', '0.00', '0.00', '40', '43', '30', '21', '20', '25', '0', '0', '500', '500', '500', '500', '253', '0', '253', '0', '0', '0', '80', '120', 'NULL', '0', '0', '0', 'LAST_HIT', '0', '0', '0', 'fighter', 'false'),
 ('16053', '16053', 'Turtle Ascetic', '0', '', '0', 'LineageMonster4.turtle_buffer_the_pet', '12', '10', '80', 'male', 'L2Pet', '40', '2444', '2444', '0.00', '0.00', '40', '43', '30', '21', '20', '25', '0', '0', '500', '500', '500', '500', '253', '0', '253', '0', '0', '0', '80', '120', 'NULL', '0', '0', '0', 'LAST_HIT', '0', '0', '0', 'fighter', 'false');
-UPDATE `etcitem` SET `handler` = 'SummonItems' WHERE `item_id` in (14061,14062,14063,14064);
+UPDATE `etcitem` SET `handler` = 'SummonItems' WHERE `item_id` IN (14061,14062,14063,14064);
 REPLACE INTO `pets_stats` VALUES
 ('Owl Monk',16050,70,266966617,6046,729,3812,502,646,481,110,100,44,198,278,333,100000000,0,0,92287,40,15,0.05),
 ('Owl Monk',16050,71,311043873,6217,782,3846,509,647,484,112,102,44,198,278,333,100000000,0,0,92287,40,15,0.05),
@@ -1034,15 +1034,15 @@ REPLACE INTO `pets_skills` VALUES
 (16053,70,6054,1);
 
 -- 新變身魔杖
-UPDATE `weapon` SET `skill` = '8263-1;' WHERE `item_id` in (12798,14056,14069,14088,14096); -- 雪人變身魔杖
-UPDATE `weapon` SET `skill` = '8264-1;' WHERE `item_id` in (12799,14057,14070,14089,14097); -- 草人變身魔杖
-UPDATE `weapon` SET `skill` = '8265-1;' WHERE `item_id` in (13060,14058,14071,14090,14098); -- 洋鐵高崙變身魔杖
+UPDATE `weapon` SET `skill` = '8263-1;' WHERE `item_id` IN (12798,14056,14069,14088,14096); -- 雪人變身魔杖
+UPDATE `weapon` SET `skill` = '8264-1;' WHERE `item_id` IN (12799,14057,14070,14089,14097); -- 草人變身魔杖
+UPDATE `weapon` SET `skill` = '8265-1;' WHERE `item_id` IN (13060,14058,14071,14090,14098); -- 洋鐵高崙變身魔杖
 
 -- 破滅國境的新 NPC (感謝 pmq 提供)
-UPDATE `npc` SET `type` = 'L2Npc' WHERE `id` in (32628,32629); -- 修正碼頭巡邏兵
-UPDATE `npc` SET `type` = 'L2Teleporter' WHERE `id` in (32534,32602); -- 札耶汀 不滅的引導者/臨時傳送師
+UPDATE `npc` SET `type` = 'L2Npc' WHERE `id` IN (32628,32629); -- 修正碼頭巡邏兵
+UPDATE `npc` SET `type` = 'L2Teleporter' WHERE `id` IN (32534,32602); -- 札耶汀 不滅的引導者/臨時傳送師
 UPDATE `spawnlist` SET `heading` = '16383' WHERE `npc_templateid` = '32609' AND `heading` = '20771'; -- 修正飛空艇控制裝置
-UPDATE `npc` SET `rhand` = '2500', `lhand` = '6377' WHERE `id` in (36481,36482,36483,36484,36485,36486,36487,36488,36489); -- 傭兵隊隊長
+UPDATE `npc` SET `rhand` = '2500', `lhand` = '6377' WHERE `id` IN (36481,36482,36483,36484,36485,36486,36487,36488,36489); -- 傭兵隊隊長
 
 -- 破滅國境的新 NPC 位置 (感謝 pmq 提供)
 REPLACE INTO `spawnlist` VALUES
@@ -1088,13 +1088,13 @@ REPLACE INTO `teleport` VALUES
 ('3260203', '3260203', '-249774', '207316', '-11952', '0', '0');
 
 -- 刪除不會動的 NPC Walk
-Delete From `spawnlist` Where `npc_templateid` in (31356,31357,31358,31359,31360,31361,31362,31363,31364,31365,32070,32072,32619,32549,32628,32629);
-Delete From `fort_spawnlist` Where `npcId` in (35659,35690,35728,35759,35797,35828,35859,35897,35928,35966,36004,36035,36073,36111,36142,36173,36211,36249,36287,36318,36356);
-UPDATE `npc` SET `walkspd` = '8' WHERE `id` in (32072);
-UPDATE `npc` SET `walkspd` = '50' WHERE `id` in (35659,35690,35728,35759,35797,35828,35859,35897,35928,35966,36004,36035,36073,36111,36142,36173,36211,36249,36287,36318,36356);
+DELETE FROM `spawnlist` WHERE `npc_templateid` IN (31356,31357,31358,31359,31360,31361,31362,31363,31364,31365,32070,32072,32619,32549,32628,32629);
+DELETE FROM `fort_spawnlist` WHERE `npcId` IN (35659,35690,35728,35759,35797,35828,35859,35897,35928,35966,36004,36035,36073,36111,36142,36173,36211,36249,36287,36318,36356);
+UPDATE `npc` SET `walkspd` = '8' WHERE `id` IN (32072);
+UPDATE `npc` SET `walkspd` = '50' WHERE `id` IN (35659,35690,35728,35759,35797,35828,35859,35897,35928,35966,36004,36035,36073,36111,36142,36173,36211,36249,36287,36318,36356);
 
 -- 修正物品類型
-UPDATE `weapon` SET `bodypart` = 'lhand' WHERE `item_id` in (13770);  -- 艾罕米亞卡修之盾
+UPDATE `weapon` SET `bodypart` = 'lhand' WHERE `item_id` IN (13770);  -- 艾罕米亞卡修之盾
 
 -- 增加物品效果
 UPDATE `armor` SET `skill` = '3633-2;' WHERE `item_id` ='6841';                               -- 城主的王冠
@@ -1224,4 +1224,12 @@ UPDATE `etcitem` SET `skill` = '2778-1;', `handler` = 'ItemSkills' WHERE `item_i
 UPDATE `etcitem` SET `skill` = '2779-1;', `handler` = 'ItemSkills' WHERE `item_id` ='13676';  -- 修加特司令官傭兵變身卷軸
 
 -- 修正學習一、二轉的技能不需要魔法書
-DELETE FROM skill_spellbooks WHERE (`item_id` < 7644) OR (`item_id` > 8379 and item_Id < 8618) OR (`item_id` > 8889 and item_Id < 8892) OR (`item_id` = 8909) OR (`item_id` > 8944 and item_Id < 8947) OR (`item_id` > 10024 and item_Id < 10067) OR (`item_id` > 10069 and item_Id < 10090) OR (`item_id` > 10091 and item_Id < 10099) OR (`item_id` > 10179 and item_Id < 10184) OR (`item_id` > 10203 and item_Id < 10598) OR (`item_id` = 10600) OR (`item_id` > 10607 and item_Id < 10611) OR (`item_id` > 12771 and item_Id < 12779) OR (`item_id` = 12820);
+DELETE FROM `skill_spellbooks` WHERE (`item_id` < 7644) OR (`item_id` > 8379 AND `item_Id` < 8618) OR (`item_id` > 8889 AND `item_Id` < 8892) OR (`item_id` = 8909) OR (`item_id` > 8944 AND `item_Id` < 8947) OR (`item_id` > 10024 AND `item_Id` < 10067) OR (`item_id` > 10069 AND `item_Id` < 10090) OR (`item_id` > 10091 AND `item_Id` < 10099) OR (`item_id` > 10179 AND `item_Id` < 10184) OR (`item_id` > 10203 AND `item_Id` < 10598) OR (`item_id` = 10600) OR (`item_id` > 10607 AND `item_Id` < 10611) OR (`item_id` > 12771 AND `item_Id` < 12779) OR (`item_id` = 12820);
+
+-- 刪除魔法書商人
+DELETE FROM `spawnlist` WHERE `npc_templateid` IN (30840,31262,31306,31413,31414,31415,31416,31417,31419,31420,31421,31422,31423,31424,31425,31426,31427,31428,31429,31430,31431,31666,31667,31670,31951,31973,31980,32169);
+DELETE FROM `merchant_buylists` WHERE `shop_id` IN ( SELECT `shop_id` FROM `merchant_shopids` WHERE `npc_id` IN (30840,31262,31306,31413,31414,31415,31416,31417,31419,31420,31421,31422,31423,31424,31425,31426,31427,31428,31429,31430,31431,31666,31667,31670,31951,31973,31980,32169));
+DELETE FROM `merchant_shopids` WHERE `npc_id` IN (30840,31262,31306,31413,31414,31415,31416,31417,31419,31420,31421,31422,31423,31424,31425,31426,31427,31428,31429,31430,31431,31666,31667,31670,31951,31973,31980,32169);
+
+-- 刪除彩券商人
+DELETE FROM `spawnlist` WHERE `npc_templateid` IN (30990,30994) AND `id` NOT IN (45033);
