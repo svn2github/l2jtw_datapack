@@ -2145,3 +2145,461 @@ REPLACE INTO `npc` VALUES
 ('22356', '22356', 'Enceinte Defender', '0', '', '0', 'LineageMonster4.eyeless', '50.00', '50.00', '85', 'male', 'L2Monster', '40', '41810', '2154', '23.11', '11.10', '32', '34', '28', '22', '21', '18', '72657', '4203', '2554', '720', '1923', '680', '334', '300', '365', '0', '0', '0', '0', '182', 'E1', '0', '0', '0', 'LAST_HIT', '0', '0', '0', 'balanced', 'false'),
 ('22357', '22357', 'Enceinte Defender', '0', '', '0', 'LineageMonster4.eyeless', '50.00', '50.00', '85', 'male', 'L2Monster', '40', '25715', '2689', '23.11', '4.09', '43', '41', '38', '32', '31', '30', '41657', '4203', '2554', '720', '1989', '680', '353', '300', '453', '0', '0', '0', '0', '182', 'E2', '500', '0', '0', 'LAST_HIT', '0', '0', '0', 'balanced', 'false'),
 ('22358', '22358', 'Enceinte Defender', '0', '', '0', 'LineageMonster4.eyeless', '50.00', '50.00', '85', 'male', 'L2Monster', '40', '22048', '3566', '23.11', '4.09', '32', '33', '31', '33', '32', '28', '36247', '3424', '2554', '720', '1989', '680', '353', '300', '553', '0', '0', '0', '0', '182', 'E3', '500', '0', '0', 'LAST_HIT', '0', '0', '0', 'balanced', 'false');
+
+
+/************ 加入 L2Emu-RT 的欲界設定 (感謝 pmq 提供) ************/
+-- Kamaloka 23
+REPLACE INTO `npc` VALUES (18554, 18554, "Tomlan Kamos", 0, "Kaneus", 0, "LineageMonster.bugbear_bi", 25, 53, 23, "male", "L2RaidBoss", 40, 163178, 1493, 27.500, 8.700, 60, 57, 73, 76, 70, 80, 712311, 38914, 80, 414, 28, 347, 278, 300, 500, 2501, 0, NULL, 30, 120, "", 0, 0, 0, "LAST_HIT", 0, 0, 0, "balanced", "false");
+
+-- Kamaloka 26
+REPLACE INTO `npc` VALUES (18555, 18555, "Ol Ariosh", 0, "Kaneus", 0, "LineageMonster.ol_mahum_champion_05te_120p", 23, 61, 26, "male", "L2RaidBoss", 40, 191391, 1493, 27.500, 8.700, 60, 57, 73, 76, 70, 80, 831054, 48708, 135, 966, 25, 392, 409, 0, 3819, 69, 633, NULL, 30, 120, "ARIOSH_CLAN", 1000, 0, 0, "LAST_HIT", 0, 0, 0, "balanced", "false");
+REPLACE INTO `npc` VALUES (18556, 18556, "Follower of Ariosh", 0, "", 0, "LineageMonster.ol_mahum_champion", "8.00", "27.00", "26", "male", "L2Minion", 40, "2311", "1859", "22.50", "9.81", "40", "40", "30", "41", "20", "10", "0", "0", "54", "363", "7", "147", "278", "0", "333", "69", "626", NULL, "30", "120", "ARIOSH_CLAN", "1000", 0, "0", "LAST_HIT", 0, 0, 0, "fighter", "false");
+REPLACE INTO `minions` VALUES (18555, 18556, 2, 2);
+
+-- Kamaloka 33
+REPLACE INTO `npc` VALUES (18558, 18558, "Crimson Hatu Otis", 0, "Kaneus", 0, "LineageMonster.crimson_bear", 19, 36, 33, "male", "L2RaidBoss", 40, 121679, 1493, 27.500, 8.700, 60, 57, 73, 76, 70, 80, 1647512, 106242, 178, 610, 77, 516, 278, 300, 500, 0, 0, NULL, 30, 120, "", 0, 0, 0, "LAST_HIT", 0, 0, 0, "balanced", "false");
+
+-- Kamaloka 36
+REPLACE INTO `npc` VALUES (18559, 18559, "Seer Flouros", 0, "Kaneus", 0, "LineageMonster.monster_eye_05te_ef", "8.00", "45.00", "36", "male", "L2RaidBoss", 40, "148876", "1493", "0.00", "0.00", "10", "10", "10", "10", "10", "10", "1867512", "126242", "221", "679", "100", "575", "278", "300", "500", "0", "0", NULL, "30", "120", "FLOUROS_CLAN", "1000", 0, "0", "LAST_HIT", 0, 0, 0, "balanced", "false");
+REPLACE INTO `npc` VALUES (18560, 18560, "Follower of Flouros", 0, "", 0, "LineageMonster.monster_eye", "8.00", "45.00", "36", "male", "L2Minion", 40, "3837", "1493", "0.00", "0.00", "10", "10", "10", "10", "10", "10", "0", "0", "121", "170", "100", "144", "278", "0", "333", "0", "0", NULL, "30", "120", "FLOUROS_CLAN", "1000", 0, "0", "LAST_HIT", 0, 0, 0, "balanced", "false");
+REPLACE INTO `minions` VALUES (18559, 18560, 2, 2);
+
+-- Kamaloka 43
+REPLACE INTO `npc` VALUES (18562, 18562, "Blade Otis", 0, "Kaneus", 0, "LineageMonster.blade_stakato_drone_10_sm", 14, 35.10, 43, "male", "L2RaidBoss", 40, 209562, 1493, 27.500, 8.700, 60, 57, 73, 76, 70, 80, 3380139, 275904, 351, 859, 172, 728, 278, 0, 333, 229, 0, NULL, 30, 120, "BLADE_OTIS", 1000, 0, 0, "LAST_HIT", 0, 0, 0, "balanced", "false");
+REPLACE INTO `npc` VALUES (18563, 18563, "Follower of Otis", 0, "", 0, "LineageMonster.marsh_stakato_drone", "8.00", "24.00", "43", "male", "L2Minion", 40, "5186", "1493", "0.00", "0.00", "10", "10", "10", "10", "10", "10", "0", "0", "206", "164", "91", "139", "278", "0", "500", "223", "0", NULL, "30", "120", "BLADE_OTIS", "1000", 0, "0", "LAST_HIT", 0, 0, 0, "balanced", "false");
+REPLACE INTO `minions` VALUES (18562, 18563, 2, 2);
+
+-- Kamaloka 46
+REPLACE INTO `npc` VALUES (18564, 18564, "Weird Bunei", 0, "Kaneus", 0, "LineageMonster3.Water_Drake", 55, 80.50, 46, "male", "L2RaidBoss", 40, 522103, 1493, 27.500, 8.700, 60, 57, 73, 76, 70, 80, 3380139, 275904, 421, 944, 212, 800, 278, 300, 500, 0, 0, NULL, 30, 120, "", 0, 0, 0, "LAST_HIT", 0, 0, 0, "balanced", "false");
+
+-- Kamaloka 53
+REPLACE INTO `npc` VALUES (18566, 18566, "Kaim Abigore", 0, "Kaneus", 0, "LineageMonster.kaim_vanul_50_bi", 36, 60, 53, "male", "L2RaidBoss", 40, 464795, 1493,27.500, 8.700, 60, 57, 73, 76, 70, 80, 2903774, 264756, 625, 1161, 330, 984, 278, 300, 500, 0, 0, NULL, 30, 120, "kAIM_ABIGORE_CLAN", 1000, 0, 0, "LAST_HIT", 0, 0, 0, "balanced", "false");
+REPLACE INTO `npc` VALUES (18567, 18567, "Follower of Abigore", 0, "", 0, "LineageMonster.liviona", "8.00", "36.00", "53", "male", "L2Minion", 40, "7445", "1493", "0.00", "0.00", "10", "10", "10", "10", "10", "10", "0", "0", "361", "174", "293", "232", "278", "0", "333", "0", "0", NULL, "30", "120", "kAIM_ABIGORE_CLAN", "1000", 0, "0", "LAST_HIT", 0, 0, 0, "balanced", "false");
+REPLACE INTO `minions` VALUES (18566, 18567, 2, 2);
+
+-- Kamaloka 56
+REPLACE INTO `npc` VALUES (18568, 18568, "Knight Montagnar", 0, "Kaneus", 0, "LineageMonster.skeleton_royal_guard", 11, 28, 56, "male", "L2RaidBoss", 40, 502835, 1493, 27.500, 8.700, 60, 57, 73, 76, 70, 80, 3003773, 294758, 732, 1262, 190, 1070, 278, 300, 500, 946, 945, NULL, 30, 120, "KNIGHT_MONTAGNAR_CLAN", 1000, 0, 0, "LAST_HIT", 0, 0, 0, "balanced", "false");
+REPLACE INTO `npc` VALUES (18569, 18569, "Follower of Montagnar", 0, "", 0, "LineageMonster.dark_fencer", "8.00", "13.00", "56", "male", "L2Minion", 40, "8174", "1493", "0.00", "0.00", "10", "10", "10", "10", "10", "10", "0", "0", "431", "266", "175", "226", "278", "0", "500", "0", "0", NULL, "30", "120", "KNIGHT_MONTAGNAR_CLAN", "1000", 0, "0", "LAST_HIT", 0, 0, 0, "balanced", "false");
+REPLACE INTO `minions` VALUES (18568, 18569, 1, 1);
+
+-- Kamaloka 63
+REPLACE INTO `npc` VALUES (18571, 18571, "Venomous Storace", 0, "Kaneus", 0, "LineageMonster.serpent_slave_50_bi", 25, 72, 63, "male", "L2RaidBoss", 40, 664391, 1493, 27.500, 8.700, 60, 57, 73, 76, 70, 80, 3139394, 358907, 1031, 1516, 565, 1282, 278, 300, 500, 73, 0, NULL, 30, 120, "", 0, 0, 0, "LAST_HIT", 0, 0, 0, "balanced", "false");
+REPLACE INTO `npc` VALUES (18572, 18572, "Follower of Storace", 0, "", 0, "LineageMonster.cave_maiden_080p", "8.00", "54.00", "63", "male", "L2Minion", 40, "9906", "2444", "0.00", "0.00", "10", "10", "10", "10", "10", "10", "0", "0", "410", "233", "137", "282", "278", "0", "500", "73", "0", NULL, "30", "120", "", "0", 0, "0", "LAST_HIT", 0, 0, 0, "balanced", "false");
+REPLACE INTO `minions` VALUES (18571, 18572, 2, 2);
+
+-- Kamaloka 66
+REPLACE INTO `npc` VALUES (18573, 18573, "Kel Bilette", 0, "Kaneus", 0, "LineageMonster.kel_mahum_champion_50_bi", 19, 48, 66, "male", "L2RaidBoss", 40, 704665, 1493, 27.500, 8.700, 60, 57, 73, 76, 70, 80, 3156179, 560675, 1183, 1633, 633, 1383, 278, 400, 500, 147, 0, NULL, 30, 120, "", 0, 0, 0, "LAST_HIT", 0, 0, 0, "balanced", "false");
+REPLACE INTO `npc` VALUES (18574, 18574, "Follower of Bilette", 0, "", 0, "LineageMonster.kel_mahum_witch_doctor", "8.00", "24.00", "66", "male", "L2Minion", 40, "14186", "1493", "0.00", "0.00", "10", "10", "10", "10", "10", "10", "0", "0", "735", "470", "380", "382", "278", "0", "500", "202", "0", NULL, "30", "120", "", "0", 0, "0", "LAST_HIT", 0, 0, 0, "balanced", "false");
+REPLACE INTO `minions` VALUES (18573, 18574, 2, 2);
+
+-- Kamaloka 73
+REPLACE INTO `npc` VALUES (18577, 18577, "White Allosce", 0, "Kaneus", 0, "LineageMonster2.hundred_eye", 21, 55, 73, "male", "L2RaidBoss", 40, 750957, 1493, 27.500, 8.700, 60, 57, 73, 76, 70, 80, 3507226, 608656, 1600, 1923, 894, 1628, 278, 300, 500, 0, 0, NULL, 30, 120, "", 0, 0, 0, "LAST_HIT", 0, 0, 0, "balanced", "false");
+REPLACE INTO `npc` VALUES (18578, 18578, "Follower of Allosce", 0, "", 0, "LineageMonster.monster_eye", 8, 45, 73, "male", "L2Minion", 40, 16347, 1493, 27.500, 8.700, 40, 43, 30, 21, 20, 10, 0, 0, 710, 449, 785, 380, 278, 0, 500, 0, 0, NULL, 30, 120, "", 0, 0, 0, "LAST_HIT", 0, 0, 0, "balanced", "false");
+REPLACE INTO `minions` VALUES (18577, 18578, 2, 2);
+
+-- Kamaloka 29
+
+REPLACE INTO `npc` VALUES (22485, 22485, "Lost Watcher", 0, "", 0, "LineageMonster4.rahuu", 8, 38, 29, "male", "L2Monster", 40, 7851, 1493, 27.500, 8.700, 40, 43, 30, 21, 20, 10, 0, 0, 500, 500, 500, 500, 253, 0, 253, 0, 0, NULL, 80, 120, "", 400, 0, 0, "LAST_HIT", 0, 0, 0, "balanced", "false");
+REPLACE INTO `npc` VALUES (22486, 22486, "Lost Watcher", 0, "", 0, "LineageMonster4.rahuu", 8, 38, 29, "male", "L2Monster", 40, 7851, 1493, 27.500, 8.700, 40, 43, 30, 21, 20, 10, 0, 0, 500, 500, 500, 500, 253, 0, 253, 0, 0, NULL, 80, 120, "", 400, 0, 0, "LAST_HIT", 0, 0, 0, "balanced", "false");
+REPLACE INTO `npc` VALUES (22487, 22487, "Lost Beholder", 0, "", 0, "LineageMonster4.rahuu", 8, 38, 29, "male", "L2Monster", 40, 15703, 1493, 27.500, 8.700, 40, 43, 30, 21, 20, 10, 0, 0, 500, 500, 500, 500, 253, 0, 253, 0, 0, NULL, 80, 120, "", 400, 0, 0, "LAST_HIT", 0, 0, 0, "balanced", "false");
+REPLACE INTO `npc` VALUES (25616, 25616, "Lost Warden", 0, "", 0, "Monster4.roaming_Fsoul", 8, 38, 29, "male", "L2RaidBoss", 40, 102191, 1493, 27.500, 8.700, 60, 57, 73, 76, 70, 80, 0, 0, 500, 500, 500, 500, 278, 0, 333, 0, 0, NULL, 60, 60, "", 0, 0, 0, "LAST_HIT", 0, 0, 0, "balanced", "false");
+REPLACE INTO `npc` VALUES (29129, 29129, "Lost Captain", 0, "", 0, "NPC2.bereth_fake", 8, 74, 29, "male", "L2RaidBoss", 40, 122874, 1493, 27.500, 8.700, 60, 57, 73, 76, 70, 80, 0, 0, 500, 500, 500, 500, 278, 0, 333, 0, 0, NULL, 60, 60, "", 0, 0, 0, "LAST_HIT", 0, 0, 0, "balanced", "false");
+REPLACE INTO `npc` VALUES (29130, 29130, "Lost Guard", 0, "", 0, "NPC2.bereth_fake", 8, 38, 29, "male", "L2Minion", 40, 5125, 1493, 27.500, 8.700, 40, 43, 30, 41, 20, 10, 0, 0, 500, 500, 500, 500, 278, 0, 333, 0, 0, NULL, 60, 60, "", 0, 0, 0, "LAST_HIT", 0, 0, 0, "balanced", "false");
+REPLACE INTO `npc` VALUES (29131, 29131, "Lost Assistant Guard", 0, "", 0, "NPC2.bereth_fake", 8, 35, 29, "male", "L2Minion", 40, 5125, 1493, 27.500, 8.700, 40, 43, 30, 41, 20, 10, 0, 0, 500, 500, 500, 500, 278, 0, 333, 0, 0, NULL, 60, 60, "", 0, 0, 0, "LAST_HIT", 0, 0, 0, "balanced", "false");
+REPLACE INTO `minions` VALUES (29129, 29130, 2, 2);
+REPLACE INTO `minions` VALUES (29129, 29131, 2, 2);
+
+-- Kamaloka 39
+
+REPLACE INTO `npc` VALUES (22488, 22488, "Lost Watcher", 0, "", 0, "LineageMonster4.rahuu", 8, 32, 39, "male", "L2Monster", 40, 11560, 1493, 27.500, 8.700, 40, 43, 30, 21, 20, 10, 0, 0, 500, 500, 500, 500, 253, 0, 253, 0, 0, NULL, 80, 120, "", 400, 0, 0, "LAST_HIT", 0, 0, 0, "balanced", "false");
+REPLACE INTO `npc` VALUES (22489, 22489, "Lost Watcher", 0, "", 0, "LineageMonster4.rahuu", 8, 32, 39, "male", "L2Monster", 40, 11560, 1493, 27.500, 8.700, 40, 43, 30, 21, 20, 10, 0, 0, 500, 500, 500, 500, 253, 0, 253, 0, 0, NULL, 80, 120, "", 400, 0, 0, "LAST_HIT", 0, 0, 0, "balanced", "false");
+REPLACE INTO `npc` VALUES (22490, 22490, "Lost Beholder", 0, "", 0, "LineageMonster4.rahuu", 8, 35, 39, "male", "L2Monster", 40, 23079, 1493, 27.500, 8.700, 40, 43, 30, 21, 20, 10, 0, 0, 500, 500, 500, 500, 253, 0, 253, 0, 0, NULL, 80, 120, "", 400, 0, 0, "LAST_HIT", 0, 0, 0, "balanced", "false");
+REPLACE INTO `npc` VALUES (25617, 25617, "Lost Warden", 0, "", 0, "Monster4.roaming_Fsoul", 8, 40, 39, "male", "L2RaidBoss", 40, 163180, 1493, 27.500, 8.700, 60, 57, 73, 76, 70, 80, 0, 0, 500, 500, 500, 500, 278, 0, 333, 0, 0, NULL, 60, 60, "", 0, 0, 0, "LAST_HIT", 0, 0, 0, "balanced", "false");
+REPLACE INTO `npc` VALUES (29132, 29132, "Lost Captain", 0, "", 0, "NPC2.bereth_fake", 8, 46, 39, "male", "L2RaidBoss", 40, 201138, 1493, 27.500, 8.700, 60, 57, 73, 76, 70, 80, 0, 0, 500, 500, 500, 500, 278, 0, 333, 0, 0, NULL, 60, 60, "", 0, 0, 0, "LAST_HIT", 0, 0, 0, "balanced", "false");
+REPLACE INTO `npc` VALUES (29133, 29133, "Lost Guard", 0, "", 0, "NPC2.bereth_fake", 8, 35, 39, "male", "L2Minion", 40,8184, 1493, 27.500, 8.700, 40, 43, 30, 41, 20, 10, 0, 0, 500, 500, 500, 500, 278, 0, 333, 0, 0, NULL, 60, 60, "", 0, 0, 0, "LAST_HIT", 0, 0, 0, "balanced", "false");
+REPLACE INTO `npc` VALUES (29134, 29134, "Lost Assistant Guard", 0, "", 0, "NPC2.bereth_fake", 8, 35, 39, "male", "L2Minion", 40, 8184, 1493, 27.500, 8.700, 40, 43, 30, 41, 20, 10, 0, 0, 500, 500, 500, 500, 278, 0, 333, 0, 0, NULL, 60, 60, "", 0, 0, 0, "LAST_HIT", 0, 0, 0, "balanced", "false");
+REPLACE INTO `minions` VALUES (29132, 29133, 2, 2);
+REPLACE INTO `minions` VALUES (29132, 29134, 2, 2);
+
+-- Kamaloka 49
+
+REPLACE INTO `npc` VALUES (22491, 22491, "Lost Watcher", 0, "", 0, "LineageMonster4.rahuu", 8, 32, 49, "male", "L2Monster", 40, 26236, 1493, 27.500, 8.700, 40, 43, 30, 21, 20, 10, 0, 0, 500, 500, 500, 500, 253, 0, 253, 0, 0, NULL, 80, 120, "", 400, 0, 0, "LAST_HIT", 0, 0, 0, "balanced", "false");
+REPLACE INTO `npc` VALUES (22492, 22492, "Lost Watcher", 0, "", 0, "LineageMonster4.rahuu", 8, 32, 49, "male", "L2Monster", 40, 26236, 1493, 27.500, 8.700, 40, 43, 30, 21, 20, 10, 0, 0, 500, 500, 500, 500, 253, 0, 253, 0, 0, NULL, 80, 120, "", 400, 0, 0, "LAST_HIT", 0, 0, 0, "balanced", "false");
+REPLACE INTO `npc` VALUES (22493, 22493, "Lost Beholder", 0, "", 0, "LineageMonster4.rahuu", 8, 54, 49, "male", "L2Monster", 40, 52473, 1493, 27.500, 8.700, 40, 43, 30, 21, 20, 10, 0, 0, 500, 500, 500, 500, 253, 0, 253, 0, 0, NULL, 80, 120, "", 400, 0, 0, "LAST_HIT", 0, 0, 0, "balanced", "false");
+REPLACE INTO `npc` VALUES (25618, 25618, "Lost Warden", 0, "", 0, "Monster4.roaming_Fsoul", 8, 60, 49, "male", "L2RaidBoss", 40, 261170, 1493, 27.500, 8.700, 60, 57, 73, 76, 70, 80, 0, 0, 500, 500, 500, 500, 278, 0, 333, 0, 0, NULL, 60, 60, "", 0, 0, 0, "LAST_HIT", 0, 0, 0, "balanced", "false");
+REPLACE INTO `npc` VALUES (29135, 29135, "Lost Captain", 0, "", 0, "NPC2.bereth_fake", 8, 58, 49, "male", "L2RaidBoss", 40, 329378, 1493, 27.500, 8.700, 60, 57, 73, 76, 70, 80, 0, 0, 500, 500, 500, 500, 278, 0, 333, 0, 0, NULL, 60, 60, "", 0, 0, 0, "LAST_HIT", 0, 0, 0, "balanced", "false");
+REPLACE INTO `npc` VALUES (29136, 29136, "Lost Guard", 0, "", 0, "NPC2.bereth_fake", 8, 36, 49, "male", "L2Minion", 40, 13099, 1493, 27.500, 8.700, 40, 43, 30, 41, 20, 10, 0, 0, 500, 500, 500, 500, 278, 0, 333, 0, 0, NULL, 60, 60, "", 0, 0, 0, "LAST_HIT", 0, 0, 0, "balanced", "false");
+REPLACE INTO `npc` VALUES (29137, 29137, "Lost Assistant Guard", 0, "", 0, "NPC2.bereth_fake", 8, 36, 49, "male", "L2Minion", 40, 13099, 1493, 27.500, 8.700, 40, 43, 30, 41, 20, 10, 0, 0, 500, 500, 500, 500, 278, 0, 333, 0, 0, NULL, 60, 60, "", 0, 0, 0, "LAST_HIT", 0, 0, 0, "balanced", "false");
+REPLACE INTO `minions` VALUES (29135, 29136, 2, 2);
+REPLACE INTO `minions` VALUES (29135, 29137, 2, 2);
+
+-- Kamaloka 59
+
+REPLACE INTO `npc` VALUES (22494, 22494, "Lost Watcher", 0, "", 0, "LineageMonster4.rahuu", 8, 28, 59, "male", "L2Monster", 40, 47350, 1493, 27.500, 8.700, 40, 43, 30, 21, 20, 10, 0, 0, 500, 500, 500, 500, 253, 0, 253, 0, 0, NULL, 80, 120, "", 400, 0, 0, "LAST_HIT", 0, 0, 0, "balanced", "false");
+REPLACE INTO `npc` VALUES (22495, 22495, "Lost Watcher", 0, "", 0, "LineageMonster4.rahuu", 8, 28, 59, "male", "L2Monster", 40, 47350, 1493, 27.500, 8.700, 40, 43, 30, 21, 20, 10, 0, 0, 500, 500, 500, 500, 253, 0, 253, 0, 0, NULL, 80, 120, "", 400, 0, 0, "LAST_HIT", 0, 0, 0, "balanced", "false");
+REPLACE INTO `npc` VALUES (22496, 22496, "Lost Beholder", 0, "", 0, "LineageMonster4.rahuu", 8, 40, 59, "male", "L2Monster", 40, 94601, 1493, 27.500, 8.700, 40, 43, 30, 21, 20, 10, 0, 0, 500, 500, 500, 500, 253, 0, 253, 0, 0, NULL, 80, 120, "", 400, 0, 0, "LAST_HIT", 0, 0, 0, "balanced", "false");
+REPLACE INTO `npc` VALUES (25619, 25619, "Lost Warden", 0, "", 0, "Monster4.roaming_Fsoul", 8, 36, 59, "male", "L2RaidBoss", 40, 366591, 1493, 27.500, 8.700, 60, 57, 73, 76, 70, 80, 0, 0, 500, 500, 500, 500, 278, 0, 333, 0, 0, NULL, 60, 60, "", 0, 1, 0, "LAST_HIT", 0, 0, 0, "balanced", "false");
+REPLACE INTO `npc` VALUES (29138, 29138, "Lost Captain", 0, "", 0, "NPC2.bereth_fake", 8, 55, 59, "male", "L2RaidBoss", 40, 468133, 1493, 27.500, 8.700, 60, 57, 73, 76, 70, 80, 0, 0, 500, 500, 500, 500, 278, 0, 333, 0, 0, NULL, 60, 60, "", 0, 1, 0, "LAST_HIT", 0, 0, 0, "balanced", "false");
+REPLACE INTO `npc` VALUES (29139, 29139, "Lost Guard", 0, "", 0, "NPC2.bereth_fake", 8, 38, 59, "male", "L2Minion", 40, 18386, 1493, 27.500, 8.700, 40, 43, 30, 41, 20, 10, 0, 0, 500, 500, 500, 500, 278, 0, 333, 0, 0, NULL, 60, 60, "", 0, 1, 0, "LAST_HIT", 0, 0, 0, "balanced", "false");
+REPLACE INTO `npc` VALUES (29140, 29140, "Lost Assistant Guard", 0, "", 0, "NPC2.bereth_fake", 8, 38, 59, "male", "L2Minion", 40, 18386, 1493, 27.500, 8.700, 40, 43, 30, 41, 20, 10, 0, 0, 500, 500, 500, 500, 278, 0, 333, 0, 0, NULL, 60, 60, "", 0, 1, 0, "LAST_HIT", 0, 0, 0, "balanced", "false");
+REPLACE INTO `minions` VALUES (29138, 29139, 2, 2);
+REPLACE INTO `minions` VALUES (29138, 29140, 2, 2);
+
+-- Kamaloka 69
+
+REPLACE INTO `npc` VALUES (22497, 22497, "Lost Watcher", 0, "", 0, "LineageMonster4.rahuu", 8, 23.50, 69, "male", "L2Monster", 40, 54800, 1493, 27.500, 8.700, 40, 43, 30, 21, 20, 10, 0, 0, 500, 500, 500, 500, 253, 0, 253, 0, 0, NULL, 80, 120, "", 400, 0, 0, "LAST_HIT", 0, 0, 0, "balanced", "false");
+REPLACE INTO `npc` VALUES (22498, 22498, "Lost Watcher", 0, "", 0, "LineageMonster4.rahuu", 8, 23.50, 69, "male", "L2Monster", 40, 54800, 1493, 27.500, 8.700, 40, 43, 30, 21, 20, 10, 0, 0, 500, 500, 500, 500, 253, 0, 253, 0, 0, NULL, 80, 120, "", 400, 0, 0, "LAST_HIT", 0, 0, 0, "balanced", "false");
+REPLACE INTO `npc` VALUES (22499, 22499, "Lost Beholder", 0, "", 0, "LineageMonster4.rahuu", 8, 25, 69, "male", "L2Monster", 40, 109489, 1493, 27.500, 8.700, 40, 43, 30, 21, 20, 10, 0, 0, 500, 500, 500, 500, 253, 0, 253, 0, 0, NULL, 80, 120, "", 400, 0, 0, "LAST_HIT", 0, 0, 0, "balanced", "false");
+REPLACE INTO `npc` VALUES (25620, 25620, "Lost Warden", 0, "", 0, "Monster4.roaming_Fsoul", 8, 36, 69, "male", "L2RaidBoss", 40, 444769, 1493, 27.500, 8.700, 60, 57, 73, 76, 70, 80, 0, 0, 500, 500, 500, 500, 278, 0, 333, 0, 0, NULL, 60, 60, "", 0, 0, 0, "LAST_HIT", 0, 0, 0, "balanced", "false");
+REPLACE INTO `npc` VALUES (29141, 29141, "Lost Captain", 0, "", 0, "NPC2.bereth_fake", 8, 47, 69, "male", "L2RaidBoss", 40, 570579, 1493, 27.500, 8.700, 60, 57, 73, 76, 70, 80, 0, 0, 500, 500, 500, 500, 278, 0, 333, 0, 0, NULL, 60, 60, "", 0, 0, 0, "LAST_HIT", 0, 0, 0, "balanced", "false");
+REPLACE INTO `npc` VALUES (29142, 29142, "Lost Guard", 0, "", 0, "NPC2.bereth_fake", 8, 45, 69, "male", "L2Minion", 40, 20307, 1493, 27.500, 8.700, 40, 43, 30, 41, 20, 10, 0, 0, 500, 500, 500, 500, 278, 0, 333, 0, 0, NULL, 60, 60, "", 0, 0, 0, "LAST_HIT", 0, 0, 0, "balanced", "false");
+REPLACE INTO `npc` VALUES (29143, 29143, "Lost Assistant Guard", 0, "", 0, "NPC2.bereth_fake", 8, 45, 69, "male", "L2Minion", 40, 20307, 1493, 27.500, 8.700, 40, 43, 30, 41, 20, 10, 0, 0, 500, 500, 500, 500, 278, 0, 333, 0, 0, NULL, 60, 60, "", 0, 0, 0, "LAST_HIT", 0, 0, 0, "balanced", "false");
+REPLACE INTO `minions` VALUES (29141, 29142, 2, 2);
+REPLACE INTO `minions` VALUES (29141, 29143, 2, 2);
+
+-- Kamaloka 78
+
+REPLACE INTO `npc` VALUES (22500, 22500, "Lost Watcher", 0, "", 0, "LineageMonster4.rahuu", 8, 36, 78, "male", "L2Monster", 40, 89836, 1493, 27.500, 8.700, 40, 43, 30, 21, 20, 10, 0, 0, 500, 500, 500, 500, 253, 0, 253, 0, 0, NULL, 80, 120, "", 400, 0, 0, "LAST_HIT", 0, 0, 0, "balanced", "false");
+REPLACE INTO `npc` VALUES (22501, 22501, "Lost Watcher", 0, "", 0, "LineageMonster4.rahuu", 8, 36, 78, "male", "L2Monster", 40, 89836, 1493, 27.500, 8.700, 40, 43, 30, 21, 20, 10, 0, 0, 500, 500, 500, 500, 253, 0, 253, 0, 0, NULL, 80, 120, "", 400, 0, 0, "LAST_HIT", 0, 0, 0, "balanced", "false");
+REPLACE INTO `npc` VALUES (22502, 22502, "Lost Beholder", 0, "", 0, "LineageMonster4.rahuu", 8, 30, 78, "male", "L2Monster", 40, 179530, 1493, 27.500, 8.700, 40, 43, 30, 21, 20, 10, 0, 0, 500, 500, 500, 500, 253, 0, 253, 0, 0, NULL, 80, 120, "", 400, 0, 0, "LAST_HIT", 0, 0, 0, "balanced", "false");
+REPLACE INTO `npc` VALUES (25621, 25621, "Lost Warden", 0, "", 0, "Monster4.roaming_Fsoul", 8, 47, 78, "male", "L2RaidBoss", 40, 494896, 1493, 27.500, 8.700, 60, 57, 73, 76, 70, 80, 1259508, 191197, 500, 500, 500, 500, 278, 0, 333, 0, 0, NULL, 60, 60, "", 0, 0, 0, "LAST_HIT", 0, 0, 0, "balanced", "false");
+REPLACE INTO `npc` VALUES (29144, 29144, "Lost Captain", 0, "", 0, "NPC2.bereth_fake", 8, 78, 78, "male", "L2RaidBoss", 40, 635633, 1493, 27.500, 8.700, 60, 57, 73, 76, 70, 80, 0, 0, 500, 500, 500, 500, 278, 0, 333, 0, 0, NULL, 60, 60, "", 0, 0, 0, "LAST_HIT", 0, 0, 0, "balanced", "false");
+REPLACE INTO `npc` VALUES (29145, 29145, "Lost Guard", 0, "", 0, "NPC2.bereth_fake", 8, 47, 78, "male", "L2Minion", 40, 24821, 1493, 27.500, 8.700, 40, 43, 30, 41, 20, 10, 0, 0, 500, 500, 500, 500, 278, 0, 333, 0, 0, NULL, 60, 60, "", 0, 0, 0, "LAST_HIT", 0, 0, 0, "balanced", "false");
+REPLACE INTO `npc` VALUES (29146, 29146, "Lost Assistant Guard", 0, "", 0, "NPC2.bereth_fake", 8, 38, 78, "male", "L2Minion", 40, 24821, 1493, 27.500, 8.700, 40, 43, 30, 41, 20, 10, 0, 0, 500, 500, 500, 500, 278, 0, 333, 0, 0, NULL, 60, 60, "", 0, 0, 0, "LAST_HIT", 0, 0, 0, "balanced", "false");
+REPLACE INTO `minions` VALUES (29144, 29145, 2, 2);
+REPLACE INTO `minions` VALUES (29144, 29146, 2, 2);
+
+-- Kamaloka 81
+
+REPLACE INTO `npc` VALUES (22503, 22503, "Lost Watcher", 0, "", 0, "LineageMonster4.rahuu", 8, 38, 81, "male", "L2Monster", 40, 89276, 1493, 27.500, 8.700, 40, 43, 30, 21, 20, 10, 0, 0, 500, 500, 500, 500, 253, 0, 253, 0, 0, NULL, 80, 120, "", 400, 0, 0, "LAST_HIT", 0, 0, 0, "balanced", "false");
+REPLACE INTO `npc` VALUES (22504, 22504, "Lost Watcher", 0, "", 0, "LineageMonster4.rahuu", 8, 38, 81, "male", "L2Monster", 40, 89276, 1493, 27.500, 8.700, 40, 43, 30, 21, 20, 10, 0, 0, 500, 500, 500, 500, 253, 0, 253, 0, 0, NULL, 80, 120, "", 400, 0, 0, "LAST_HIT", 0, 0, 0, "balanced", "false");
+REPLACE INTO `npc` VALUES (22505, 22505, "Lost Beholder", 0, "", 0, "LineageMonster4.rahuu", 8, 50, 81, "male", "L2Monster", 40, 178417, 1493, 27.500, 8.700, 40, 43, 30, 21, 20, 10, 0, 0, 500, 500, 500, 500, 253, 0, 253, 0, 0, NULL, 80, 120, "", 400, 0, 0, "LAST_HIT", 0, 0, 0, "balanced", "false");
+REPLACE INTO `npc` VALUES (25622, 25622, "Lost Warden", 0, "", 0, "Monster4.roaming_Fsoul", 8, 40, 81, "male", "L2RaidBoss", 40, 510245, 1493, 27.500, 8.700, 60, 57, 73, 76, 70, 80, 1373121, 198217, 500, 500, 500, 500, 278, 0, 333, 0, 0, NULL, 60, 60, "", 0, 0, 0, "LAST_HIT", 0, 0, 0, "balanced", "false");
+REPLACE INTO `npc` VALUES (29147, 29147, "Lost Captain", 0, "", 0, "NPC2.bereth_fake", 8, 50, 81, "male", "L2RaidBoss", 40, 655396, 1493, 27.500, 8.700, 60, 57, 73, 76, 70, 80, 0, 0, 500, 500, 500, 500, 278, 0, 333, 0, 0, NULL, 60, 60, "", 0, 0, 0, "LAST_HIT", 0, 0, 0, "balanced", "false");
+REPLACE INTO `npc` VALUES (29148, 29148, "Lost Guard", 0, "", 0, "NPC2.bereth_fake", 8, 34, 81, "male", "L2Minion", 40, 25591, 1493, 27.500, 8.700, 40, 43, 30, 41, 20, 10, 0, 0, 500, 500, 500, 500, 278, 0, 333, 0, 0, NULL, 60, 60, "", 0, 0, 0, "LAST_HIT", 0, 0, 0, "balanced", "false");
+REPLACE INTO `npc` VALUES (29149, 29149, "Lost Assistant Guard", 0, "", 0, "NPC2.bereth_fake", 8, 34, 81, "male", "L2Minion", 40, 25591, 1493, 27.500, 8.700, 40, 43, 30, 41, 20, 10, 0, 0, 500, 500, 500, 500, 278, 0, 333, 0, 0, NULL, 60, 60, "", 0, 0, 0, "LAST_HIT", 0, 0, 0, "balanced", "false");
+REPLACE INTO `minions` VALUES (29147, 29148, 2, 2);
+REPLACE INTO `minions` VALUES (29147, 29149, 2, 2);
+
+-- NPC Kamaloka Tele
+
+REPLACE INTO `npc` VALUES (32496,32496,'Escape Device',0,'',0,'LineageNPC.a_fighterguild_teacher_MDarkElf',8.00,50.00,70,'male','L2Npc',40,2444,2444,0.00,0.00,10,10,10,10,10,10,0,0,500,500,500,500,278,0,333,0,0,NULL,60,60,'',0,0,0,'LAST_HIT',0,0,0,'balanced','false');
+
+-- drop 23-63
+
+REPLACE INTO `droplist` VALUES
+(18554,1926,8,38,-1,219000), -- Piece Bone Breastplate Fragment
+(18554,956,3,9,2,211700), -- Scroll: Enchant Armor (D)
+(18554,955,1,1,-1,138700), -- Scroll: Enchant Weapon (D)
+(18554,25,1,13,1,124100), -- Piece Bone Breastplate
+(18554,1928,38,131,1,116800), -- Piece Bone Gaiters Fragment
+(18554,26,1,2,1,102200), -- Bronze Breastplate
+(18554,34,6,11,1,36500), -- Bronze Gaiters
+(18555,465,1,6,-1,708100), -- Cursed Stockings
+(18555,432,1,5,0,584000), -- Cursed Tunic
+(18555,956,3,9,2,562100), -- Scroll: Enchant Armor (D)
+(18555,955,1,1,-1,481800), -- Scroll: Enchant Weapon (D)
+(18558,955,1,1,-1,664300), -- Scroll: Enchant Weapon (D)
+(18558,2447,1,2,0,613200), -- Gloves of Knowledge
+(18558,2446,1,2,0,51100), -- Reinforced Leather Gloves
+(18558,2422,1,9,0,335800), -- Reinforced Leather Boots
+(18558,2423,1,12,0,284700), -- Boots of Knowledge
+(18558,956,12,35,2,182500), -- Scroll: Enchant Armor (D)
+(18558,553,5,9,0,131400), -- Iron Boots
+(18558,63,3,8,0,116800), -- Gauntlets
+(18558,1940,66,184,0,102200), -- Iron Boots Design
+(18559,956,12,36,2,540200), -- Scroll: Enchant Armor (D)
+(18559,47,1,1,0, 433000), -- Helmet
+(18559,628,1,6,0,41200), -- Hoplon
+(18559,955,1,1,-1,38600), -- Scroll: Enchant Weapon (D)
+(18562,1951,4,68,1,248200), -- Plate Gaiters Part
+(18562,951,1,1,-1,167900), -- Scroll: Enchant Weapon (Grade C)
+(18562,1950,8,36,1,167900), -- Half Plate Temper
+(18562,952,3,7,2,124100), -- Scroll: Enchant Armor (Grade C)
+(18562,380,1,1,0,73000), -- Plate Gaiters
+(18562,353,1,1,0,65700), -- Half Plate Armor
+(18564,951,1,1,-1,941700), -- Scroll: Enchant Weapon (Grade C)
+(18564,281,1,1,1,182500), -- Crystallized Ice Bow
+(18564,952,3,7,2,499000), -- Scroll: Enchant Armor (Grade C)
+(18564,2074,1,12,1,816000), -- Crystallized Ice Bow Shaft
+(18566,947,1,1,2,219000), -- Scroll: Enchant Weapon (Grade B)
+(18566,266,1,1,0,51100), -- Great Pata
+(18566,948,1,3,2,563000), -- Scroll: Enchant Armor (Grade B)
+(18566,2120,1,6,-1,951000), -- Great Pata Blade
+(18568,948,1,1,2,759200), -- Scroll: Enchant Armor (Grade B)
+(18568,4057,7,24,1,394200), -- Zubei\'s Gaiter Material
+(18568,4065,12,58,1,299300), -- Avadon Gaiters Material
+(18568,4064,3,66,1,284700), -- Avadon Breastplate Part
+(18568,4056,16,66,1,160600), -- Zubei\'s Breastplate Part
+(18568,947,1,1,2,138700), -- Scroll: Enchant Weapon (Grade B)
+(18568,2379,1,1,0,51100), -- Avadon Gaiters
+(18568,2376,1,1,0,29200), -- Avadon Breastplate
+(18568,383,1,1,0,21900), -- Zubei\'s Gaiters
+(18568,357,1,1,0,14600), -- Zubei\'s Breastplate
+(18571,4086,6,28,1,248200), -- Blue Wolf Stockings Pattern
+(18571,4085,3,60,1,240900), -- Tunic of Doom Pattern
+(18571,4087,11,34,1,211700), -- Stockings of Doom Pattern
+(18571,730,1,1,2,175200), -- Scroll: Enchant Armor (Grade A)
+(18571,4084,20,47,1,109500), -- Blue Wolf Tunic Fabric
+(18571,2403,1,1,0,36500), -- Blue Wolf Stockings
+(18571,2404,1,1,0,29200), -- Stockings of Doom
+(18571,2399,1,1,0,21900), -- Tunic of Doom
+(18571,729,1,1,2,21900), -- Scroll: Enchant Weapon (Grade A)
+(18571,2398,1,1,0,7300); -- Blue Wolf Tunic
+
+-- drop 66-73lvl
+
+REPLACE INTO `droplist` VALUES
+(18573,4091,16,47,1,226300), -- Doom Gloves Part
+(18573,730,1,1,2,204400), -- Scroll: Enchant Armor (Grade A)
+(18573,4096,32,73,1,153300), -- Blue Wolf Gloves Fabric
+(18573,4090,12,267,1,131400), -- Blue Wolf Boots Design
+(18573,2439,1,1,0,116800), -- Blue Wolf Boots
+(18573,2487,1,2,0,65700), -- Blue Wolf Gloves
+(18573,4099,92,184,0,58400), -- Doom Boots Part
+(18573,2475,1,1,0,43800), -- Doom Gloves
+(18573,729,1,1,2,36500), -- Scroll: Enchant Weapon (Grade A)
+(18573,601,1,1,0,14600), -- Boots of Doom
+(18577,6341,10,45,0,372300), -- Sealed Phoenix Earring Gemstone
+(18577,6343,14,61,0,240900), -- Sealed Phoenix Necklace Beads
+(18577,730,1,1,2,197100), -- Scroll: Enchant Armor (Grade A)
+(18577,6325,1,1,0,87600), -- Sealed Phoenix Ring
+(18577,6345,52,115,0,7300), -- Sealed Phoenix Ring Gemstone
+(18577,6324,1,1,0,36500), -- Sealed Phoenix Earring
+(18577,6323,1,1,0,14600); -- Sealed Phoenix Necklace
+
+REPLACE INTO `npcskills` (`npcid`,`skillid`,`level`) VALUES
+(18554,4168,1), -- BOSS Strike
+(18554,4416,11), -- Giants
+(18554,4473,1), -- Stun
+(18555,4171,2), -- BOSS Spinning Slash
+(18555,4416,6), -- Humanoids 6
+(18556,4416,6), -- Humanoids 6
+(18558,4171,4), -- BOSS Spinning Slash
+(18558,4175,3), -- BOSS Haste 3
+(18558,4416,4), -- Animals 4
+(18559,4192,5), -- BOSS HP Drain 5
+(18559,4194,5), -- BOSS Aura Burn 5
+(18559,4416,2), -- Magic Creatures 2
+(18560,4194,5), -- BOSS Aura Burn 5
+(18560,4416,2), -- Magic Creatures 2
+(18562,4087,5), -- NPC Blaze 5
+(18562,4178,5), -- BOSS Flamestrike 5
+(18562,4416,6), -- Humanoids 6
+(18562,4641,4), -- NPC Super Strike 4
+(18563,4065,4), -- NPC Heal 4
+(18563,4209,4), -- BOSS Heal 4
+(18563,4416,6), -- Humanoids 6
+(18564,4137,4), -- Hydro Screw 4
+(18564,4416,10), -- Dragons 10
+(18564,5249,7), -- Boss Dark Circle 7
+(18564,5624,1), -- Soul Confinement 1
+(18566,4416,9), -- Demons 9
+(18566,5043,8), -- NPC Super Sonic Blaster 8
+(18566,5260,8), -- Disarm 8
+(18567,4417,9), -- Magic Creatures 9
+(18567,4614,8), -- NPC Death Bomb 8
+(18568,4416,1), -- Undead 1
+(18568,5043,9), -- NPC Super Sonic Blaster 9
+(18569,4416,4), -- Animals 4
+(18571,4417,3), -- Beasts 3
+(18572,4414,3), -- Light Armor Type 3
+(18572,4417,3), -- Beasts 3
+(18573,4416,8), -- Angels 8
+(18574,4414,3), -- Light Armor Type 3
+(18574,4416,8), -- Angels 8
+(18577,4417,9), -- Magic Creatures 9
+(18577,5022,1), -- Decrease Speed 1
+(18577,5024,1), -- Decrease Atk. Spd. 1
+(18578,4417,9), -- Magic Creatures 2
+(18578,5624,1); -- Soul Confinement 1
+
+-- droplist for Kamaloka Labyrinth monster lvl 29-49 03.06.2009
+-- L2Emu-RT Addon
+REPLACE INTO `droplist` VALUES
+(29129,6576,3,8,2,434800), -- Blessed Scroll: Enchant Armor (Grade D)
+(29129,2040,16,33,1,434800), -- Strengthened Long Bow Shaft
+(29129,395,1,1,0,434800), -- Manticore Skin Shirt
+(29129,279,1,1,1,260900), -- Strengthened Long Bow
+(29129,1942,53,121,0,173900), -- Manticore Skin Shirt Texture
+(29129,417,5,7,0,67300), -- Manticore Skin Gaiters
+(29129,1943,476,476,0,53300), -- Manticore Skin Gaiters Pattern
+(29132,2059,9,21,1,400000), -- Flamberge Blade
+(29132,4589,4,12,-1,250000), -- Greater Dye of STR <Str+2 Con-2>
+(29132,439,1,1,0,250000), -- Karmian Tunic
+(29132,6574,1,1,2,200000), -- Blessed Scroll: Enchant Armor (Grade C)
+(29132,1962,79,156,0,200000), -- Karmian Tunic Pattern
+(29132,4590,15,21,-1,150000), -- Greater Dye of STR <Str+2 Dex-2>
+(29132,2060,24,72,1,96600), -- Stormbringer Blade
+(29132,72,1,1,1,66300), -- Stormbringer
+(29132,71,1,1,1,66300), -- Flamberge
+(29132,1954,192,576,0,53900), -- Karmian Stocking Design
+(29132,471,11,11,0,47500), -- Karmian Stockings
+(29135,2121,15,33,-1,538500), -- Eminence Bow Shaft
+(29135,4608,2,4,2,461500), -- Greater Dye of Intelligence <Int+3 Wit-3>
+(29135,854,1,1,0,384600), -- Earring of Binding
+(29135,4609,3,5,2,230800), -- Greater Dye of Mental Strength <Men+3 Int-3>
+(29135,855,1,1,0,153800), -- Nassen\'s Earring
+(29135,4607,9,12,2,118700), -- Greater Dye of Intelligence <Int+3 Men-3>
+(29135,1918,113,168,-1,98000), -- Nassen\'s Earring Gemstone
+(29135,286,1,1,1,70000), -- Eminence Bow
+(29135,1920,349,349,1,44800), -- Necklace of Binding Chain
+(29135,6573,1,1,2,35600), -- Blessed Scroll: Enchant Weapon (Grade C)
+(29135,886,15,15,0,30700), -- Ring of Binding
+(29135,2917,480,1440,0,21900); -- Ring of Binding Gemstone
+
+-- kamaloka Labyrinth
+REPLACE INTO `npcskills` (`npcid`,`skillid`,`level`) VALUES
+(22485,4416,6), -- Race
+(22485,4032,2), -- NPC Strike
+(22485,4047,1), -- Hold
+(22486,4416,6), -- Race
+(22486,4032,2), -- NPC Strike
+(22486,4047,1), -- Hold
+(22487,4416,6), -- Race
+(22487,4032,1), -- NPC Strike
+(22487,1064,1), -- Silence,Instantly blocks an enemy's magic skills
+(22487,4613,1), -- NPC Clan Heal
+(22488,4416,6), -- Race
+(22488,4414,3), -- Light Armor Type     ,Weak P. Def. and strong Evasion.
+(22488,4032,2), -- NPC Strike
+(22488,4047,1), -- Hold
+(22489,4416,6), -- Race
+(22489,4414,3), -- Light Armor Type     ,Weak P. Def. and strong Evasion.
+(22489,4032,2), -- NPC Strike
+(22489,4047,1), -- Hold
+(22490,4416,6), -- Race
+(22490,4414,3), -- Light Armor Type     ,Weak P. Def. and strong Evasion.
+(22490,4032,2), -- NPC Strike
+(22490,1064,2), -- Silence,Instantly blocks an enemy's magic skills
+(22490,4613,3), -- NPC Clan Heal
+(22491,4416,2), -- Race
+(22491,4414,1), -- Heavy Armor Type, Strong P. Def. and weak Evasion
+(22491,4032,2), -- NPC Strike
+(22491,4047,3), -- Hold
+(22492,4416,2), -- Race
+(22492,4414,1), -- Heavy Armor Type, Strong P. Def. and weak Evasion
+(22492,4032,2), -- NPC Strike
+(22492,4047,3), -- Hold
+(22493,4416,2), -- Race
+(22493,4414,1), -- Heavy Armor Type, Strong P. Def. and weak Evasion
+(22493,4032,3), -- NPC Strike
+(22493,1064,3), -- Silence,Instantly blocks an enemy's magic skills
+(22493,4613,3), -- NPC Clan Heal
+(22494,4416,1), -- Race
+(22494,4032,2), -- NPC Strike
+(22494,4047,1), -- Hold
+(22495,4416,1), -- Race
+(22495,4032,2), -- NPC Strike
+(22495,4047,1), -- Hold
+(22496,4416,1), -- Race
+(22496,4414,3), -- Light Armor Type     ,Weak P. Def. and strong Evasion.
+(22496,4032,3), -- NPC Strike
+(22496,1064,3), -- Silence,Instantly blocks an enemy's magic skills
+(22496,4613,4), -- NPC Clan Heal
+(22497,4416,3), -- Race
+(22497,4032,2), -- NPC Strike
+(22497,4047,4), -- Hold
+(22498,4416,3), -- Race
+(22498,4032,2), -- NPC Strike
+(22498,4047,4), -- Hold
+(22499,4416,3), -- Race
+(22499,4032,4), -- NPC Strike
+(22499,1064,3), -- Silence,Instantly blocks an enemy's magic skills
+(22499,4613,4), -- NPC Clan Heal
+(22500,4416,3), -- Race
+(22500,5464,1), -- Wind Attacks
+(22500,4414,3), -- Light Armor Type     ,Weak P. Def. and strong Evasion.
+(22500,4032,2), -- NPC Strike
+(22500,4047,5), -- Hold
+(22501,4416,3), -- Race
+(22501,5464,1), -- Wind Attacks
+(22501,4414,3), -- Light Armor Type     ,Weak P. Def. and strong Evasion.
+(22501,4032,2), -- NPC Strike
+(22501,4047,5), -- Hold
+(22502,4416,8), -- Race
+(22502,5465,1), -- Earth Attacks,Strong against the element of earth
+(22502,4414,3), -- Light Armor Type     ,Weak P. Def. and strong Evasion.
+(22502,4032,4), -- NPC Strike
+(22502,1064,3), -- Silence,Instantly blocks an enemy's magic skills
+(22502,4613,4), -- NPC Clan Heal
+(22503,4416,9), -- Race
+(22503,5467,1), -- Dark Attacks
+(22503,4414,1), -- Heavy Armor Type, Strong P. Def. and weak Evasion
+(22503,4032,2), -- NPC Strike
+(22503,4047,5), -- Hold
+(22504,4416,9), -- Race
+(22504,5467,1), -- Dark Attacks
+(22504,4414,1), -- Heavy Armor Type, Strong P. Def. and weak Evasion
+(22504,4032,2), -- NPC Strike
+(22504,4047,5), -- Hold
+(22505,4416,2), -- Race
+(22505,5463,1), -- Water Attacks,Strong against the element of water
+(22505,4032,4), -- NPC Strike
+(22505,1064,3), -- Silence,Instantly blocks an enemy's magic skills
+(22505,4613,4), -- NPC Clan Heal
+(25616,4416,6), -- Race
+(25616,4211,1), -- BOSS Might
+(25616,4177,1), -- BOSS Cancel Magic
+(25616,4179,1), -- BOSS Strike
+(25616,4171,1), -- BOSS Spinning Slash
+(25617,4416,6), -- Race
+(25617,4414,3), -- Light Armor Type     ,Weak P. Def. and strong Evasion.
+(25617,4211,1), -- BOSS Might
+(25617,4177,1), -- BOSS Cancel Magic
+(25617,4179,1), -- BOSS Strike
+(25617,4171,1), -- BOSS Spinning Slash
+(25618,4416,2), -- Race
+(25618,4414,1), -- Heavy Armor Type, Strong P. Def. and weak Evasion
+(25618,4211,1), -- BOSS Might
+(25618,4177,1), -- BOSS Cancel Magic
+(25618,4179,1), -- BOSS Strike
+(25618,4171,1), -- BOSS Spinning Slash
+(25619,4416,1), -- Race
+(25619,4211,1), -- BOSS Might
+(25619,4177,1), -- BOSS Cancel Magic
+(25619,4179,1), -- BOSS Strike
+(25619,4171,1), -- BOSS Spinning Slash
+(25620,4416,3), -- Race
+(25620,4211,1), -- BOSS Might
+(25620,4177,1), -- BOSS Cancel Magic
+(25620,4179,1), -- BOSS Strike
+(25620,4171,1), -- BOSS Spinning Slash
+(25621,4416,8), -- Race
+(25621,5462,1), -- Fire Attacks
+(25621,4211,1), -- BOSS Might
+(25621,4177,1), -- BOSS Cancel Magic
+(25621,4179,1), -- BOSS Strike
+(25621,4171,1), -- BOSS Spinning Slash
+(25622,4416,1), -- Race
+(25622,5467,1), -- Dark Attacks
+(25622,4414,1), -- Heavy Armor Type, Strong P. Def. and weak Evasion
+(25622,4211,1), -- BOSS Might
+(25622,4177,1), -- BOSS Cancel Magic
+(25622,4179,1), -- BOSS Strike
+(25622,4171,1), -- BOSS Spinning Slash
+(29129,4416,6), -- Race
+(29129,4178,1), -- BOSS Flamestrike
+(29129,5701,1), -- P. Atk. is decreased. Effect 2
+(29132,4416,6), -- Race
+(29132,4178,1), -- BOSS Flamestrike
+(29132,5701,1), -- P. Atk. is decreased. Effect 2
+(29135,4416,2), -- Race
+(29135,4414,1), -- Heavy Armor Type, Strong P. Def. and weak Evasion
+(29135,4178,1), -- BOSS Flamestrike
+(29135,5701,1), -- P. Atk. is decreased. Effect 2
+(29138,4416,1), -- Race
+(29138,4178,1), -- BOSS Flamestrike
+(29138,5701,1), -- P. Atk. is decreased. Effect 2
+(29141,4416,4), -- Race
+(29141,4414,3), -- Light Armor Type     ,Weak P. Def. and strong Evasion.
+(29141,4178,1), -- BOSS Flamestrike
+(29141,5701,1), -- P. Atk. is decreased. Effect 2
+(29144,4416,8), -- Race
+(29144,5462,1), -- Fire Attacks
+(29144,4178,1), -- BOSS Flamestrike
+(29144,5701,1), -- P. Atk. is decreased. Effect 2
+(29147,4416,10), -- Race
+(29147,5464,1), -- Wind Attacks
+(29147,4178,1), -- BOSS Flamestrike
+(29147,5701,1); -- P. Atk. is decreased. Effect 2

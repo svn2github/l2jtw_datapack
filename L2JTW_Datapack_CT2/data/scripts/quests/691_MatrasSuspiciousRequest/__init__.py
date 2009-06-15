@@ -1,4 +1,4 @@
-# pmq
+# pmq 2009-05-22
 
 import sys
 from net.sf.l2j.gameserver.model.quest import State
@@ -35,40 +35,56 @@ class Quest (JQuest) :
       else :
         htmltext = "32245-00.htm"
         st.exitQuest(1)
-    elif event == "6" :
+    elif event == "32245-05.htm" :
+        htmltext = st.showHtmlFile("32245-05.htm").replace("%pmq%",str(RED))
+        st.set("talk","1")
+    elif event == "32245-06.htm" :
       if RED >= 744 :
         htmltext = "32245-06.htm"
         st.takeItems(REDSTONE,744)
         st.giveItems(DYNASTICESSENCEII,1)
         st.playSound("ItemSound.quest_giveup")
+        st.set("talk","1")
       else :
         htmltext = st.showHtmlFile("32245-09.htm").replace("%pmq%",str(RED))
+        st.set("talk","1")
+    elif event == "32245-07.htm" :
+        st.set("talk","1")
     elif event == "32245-08.htm" :
         st.takeItems(RED,-1)
         st.giveItems(ADENA,RED*10000)
         st.exitQuest(1)
         st.playSound("ItemSound.quest_finish")
     return htmltext    
-
-  def onTalk (self, npc, player) :
-     htmltext = "<html><body>目前沒有執行任務，或條件不符。</body></html>"
-     st = player.getQuestState(qn)
-     if st :
-       id = st.getState()
-       cond = st.getInt("cond")
-       RED = st.getQuestItemsCount(REDSTONE)
-       if id == State.CREATED :
-         if player.getLevel() >= 76 :
-           htmltext="32245-01.htm"
-         else :
-           htmltext="32245-00.htm"
-           st.exitQuest(1)
-       else :
-         if cond == 1 and RED >= 1 :
-            htmltext = st.showHtmlFile("32245-05.htm").replace("%pmq%",str(RED))
-         else :
-            htmltext = "32245-04.htm"
-     return htmltext
+	
+  def onTalk (self,npc,player):
+    htmltext = "<html><body>目前沒有執行任務，或條件不符。</body></html>"
+    st = player.getQuestState(qn)
+    if not st : return htmltext
+    id = st.getState()
+    cond = st.getInt("cond")
+    talk = st.getInt("talk")
+    RED = st.getQuestItemsCount(REDSTONE)
+    if id == State.CREATED :
+      if player.getLevel() >= 76 :
+         htmltext="32245-01.htm"
+      else :
+         htmltext="32245-00.htm"
+         st.exitQuest(1)
+    else :
+      if RED >= 1 :
+        if talk == 0 :
+           htmltext = "32245-04a.htm"  # 備註：官服麻特拉斯進入 32245-05 這段時會收取你身上全部紅石 但32245-05 32245-50a 32245-09 這幾個 htm 會顯示收取紅石數量 但不會給回你的
+        else :
+           htmltext = "32245-04.htm"
+           st.set("talk","0")
+      if RED >= 1 :
+        if talk >= 1 :
+           htmltext = st.showHtmlFile("32245-05a.htm").replace("%pmq%",str(RED))
+      else :
+           htmltext = "32245-04.htm"
+           st.set("talk","0")
+    return htmltext
 
   def onKill(self, npc, player, isPet) :
     partyMember = self.getRandomPartyMember(player, "1")
