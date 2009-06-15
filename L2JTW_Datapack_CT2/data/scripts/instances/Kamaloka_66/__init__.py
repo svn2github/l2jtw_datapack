@@ -159,7 +159,7 @@ class Quest (JQuest) :
 				self.currentWorld = instanceId
 				instanceObj = InstanceManager.getInstance().getInstance(instanceId)
 				instanceObj.setAllowSummon(False)
-				#instanceObj.setReturnTeleport(ReturnPort[dataIndex][0],ReturnPort[dataIndex][1],ReturnPort[dataIndex][2])
+				instanceObj.setReturnTeleport(ReturnPort[dataIndex][0],ReturnPort[dataIndex][1],ReturnPort[dataIndex][2])
 				print "近緣欲界-深淵之廳：使用 " + InstanceTemplate + " 即時地區：" + str(instanceId) + " 創造玩家：" + str(player.getName()) 
 				#player.setKamaDate()
 				tele.instanceId = instanceId

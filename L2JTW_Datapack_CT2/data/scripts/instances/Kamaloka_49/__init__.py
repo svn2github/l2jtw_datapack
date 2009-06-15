@@ -234,7 +234,7 @@ class Quest (JQuest) :
 				self.currentWorld = instanceId
 				instanceObj = InstanceManager.getInstance().getInstance(instanceId)
 				instanceObj.setAllowSummon(False)
-				#instanceObj.setReturnTeleport(ReturnPort[dataIndex][0],ReturnPort[dataIndex][1],ReturnPort[dataIndex][2])
+				instanceObj.setReturnTeleport(ReturnPort[dataIndex][0],ReturnPort[dataIndex][1],ReturnPort[dataIndex][2])
 				print "欲界-深淵迷宮：使用 " + InstanceTemplate + " 即時地區：" + str(instanceId) + " 創造玩家：" + str(player.getName()) 
 				runStartRoom(self, world)
 				tele.instanceId = instanceId
