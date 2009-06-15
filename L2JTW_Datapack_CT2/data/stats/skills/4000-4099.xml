@@ -9,7 +9,8 @@
   <set name="mpConsume" val="#mpConsume"/>
   <set name="power" val="#power"/>
   <set name="target" val="TARGET_ONE"/>
-  <set name="element" val="3"/> <!-- Wind -->
+  <set name="element" val="2"/> <!-- Wind -->
+  <set name="elementPower" val="20"/>
   <set name="reuseDelay" val="8000"/>
   <set name="hitTime" val="#hitTime"/>
   <set name="skillType" val="MDAM"/>
@@ -26,7 +27,8 @@
   <set name="mpConsume" val="#mpConsume"/>
   <set name="power" val="#power"/>
   <set name="target" val="TARGET_ONE"/>
-  <set name="element" val="6"/> <!-- Dark -->
+  <set name="element" val="5"/> <!-- Dark -->
+  <set name="elementPower" val="20"/>
   <set name="reuseDelay" val="8000"/>
   <set name="hitTime" val="4000"/>
   <set name="skillType" val="DRAIN"/>
@@ -86,7 +88,7 @@
   <set name="target" val="TARGET_SELF"/>
   <set name="skillType" val="BUFF"/>
   <set name="operateType" val="OP_PASSIVE"/>
-  <set name="element" val="5"/> <!-- Holy -->
+  <set name="element" val="4"/> <!-- Holy -->
   <for>
     <add order="0x40" stat="holyRes" val="20"/>
     <add order="0x40" stat="holyPower" val="20"/>
@@ -111,7 +113,7 @@
   <set name="magicLvl" val="1"/>
   <set name="operateType" val="OP_PASSIVE"/>
   <for>
-    <add stat="fireRes" val="#vuln" order="0x40"/>
+    <add order="0x40" stat="fireRes" val="#vuln"/>
   </for>
 </skill>
 <skill id="4010" levels="6" name="Resist Water">
@@ -123,7 +125,7 @@
   <set name="magicLvl" val="1"/>
   <set name="operateType" val="OP_PASSIVE"/>
   <for>
-    <add stat="waterRes" val="#vuln" order="0x40"/>
+    <add order="0x40" stat="waterRes" val="#vuln"/>
   </for>
 </skill>
 <skill id="4011" levels="6" name="Resist Wind">
@@ -135,7 +137,7 @@
   <set name="magicLvl" val="1"/>
   <set name="operateType" val="OP_PASSIVE"/>
   <for>
-    <add stat="windRes" val="#vuln" order="0x40"/>
+    <add order="0x40" stat="windRes" val="#vuln"/>
   </for>
 </skill>
 <skill id="4012" levels="6" name="Resist Earth"><!-- Update by rocknow -->
@@ -147,7 +149,7 @@
   <set name="magicLvl" val="1"/>
   <set name="operateType" val="OP_PASSIVE"/>
   <for>
-    <add stat="earthRes" val="#vuln" order="0x40"/>
+    <add order="0x40" stat="earthRes" val="#vuln"/>
   </for>
 </skill>
 <skill id="4013" levels="1" name="Resistance To Fire, Vulnerable To Water">
@@ -263,8 +265,8 @@
   <set name="skillType" val="BUFF"/>
   <set name="operateType" val="OP_PASSIVE"/>
   <for>
-    <sub stat="fireRes" val="50" order="0x40"/>
-    <mul stat="bowWpnVuln" val="0.2" order="0x30"/>
+    <sub order="0x40" stat="fireRes" val="50"/>
+    <mul order="0x30" stat="bowWpnVuln" val="0.2"/>
   </for>
 </skill>
 <skill id="4022" levels="1" name="Body Of Nurse Ant">
@@ -315,7 +317,8 @@
   <!-- Done by DJ MELERIX -->
   <set name="castRange" val="900"/>
   <set name="effectRange" val="1400"/>
-  <set name="element" val="1"/> <!-- Fire -->
+  <set name="element" val="0"/> <!-- Fire -->
+  <set name="elementPower" val="20"/>
   <set name="hitTime" val="4000"/>
   <set name="isMagic" val="true"/>
   <set name="magicLvl" val="60"/>
@@ -613,7 +616,8 @@
   <table name="#power"> 60 68 </table>
   <set name="castRange" val="600"/>
   <set name="effectRange" val="1100"/>
-  <set name="element" val="1"/> <!-- Fire -->
+  <set name="element" val="0"/> <!-- Fire -->
+  <set name="elementPower" val="20"/>
   <set name="hitTime" val="4000"/>
   <set name="isMagic" val="true"/>
   <set name="magicLvl" val="#magicLvl"/>
@@ -628,7 +632,8 @@
   <!-- Done by DJ MELERIX -->
   <set name="castRange" val="600"/>
   <set name="effectRange" val="1100"/>
-  <set name="element" val="1"/> <!-- Fire -->
+  <set name="element" val="0"/> <!-- Fire -->
+  <set name="elementPower" val="20"/>
   <set name="hitTime" val="4000"/>
   <set name="isMagic" val="true"/>
   <set name="magicLvl" val="45"/>
@@ -643,7 +648,8 @@
   <!-- Done by DJ MELERIX -->
   <set name="castRange" val="400"/>
   <set name="effectRange" val="900"/>
-  <set name="element" val="1"/> <!-- Fire -->
+  <set name="element" val="0"/> <!-- Fire -->
+  <set name="elementPower" val="20"/>
   <set name="hitTime" val="4000"/>
   <set name="isMagic" val="true"/>
   <set name="magicLvl" val="45"/>
@@ -747,7 +753,8 @@
   <set name="magicLvl" val="#magicLvl"/>
   <set name="power" val="#power"/>
   <set name="target" val="TARGET_ONE"/>
-  <set name="element" val="3"/> <!-- Wind -->
+  <set name="element" val="2"/> <!-- Wind -->
+  <set name="elementPower" val="20"/>
   <set name="skillType" val="MDAM"/>
   <set name="isMagic" val="true"/>
   <set name="operateType" val="OP_ACTIVE"/>
@@ -904,8 +911,8 @@
   <set name="skillType" val="BUFF"/>
   <set name="operateType" val="OP_PASSIVE"/>
   <for>
-    <sub stat="fireRes" val="100" order="0x40"/>
-    <mul stat="bowWpnVuln" val="0.2" order="0x30"/>
+    <sub order="0x40" stat="fireRes" val="100"/>
+    <mul order="0x30" stat="bowWpnVuln" val="0.2"/>
   </for>
 </skill>
 <skill id="4063" levels="1" name="Paralysis">
@@ -964,7 +971,8 @@
   <set name="mpConsume" val="#mpConsume"/>
   <set name="power" val="#power"/>
   <set name="target" val="TARGET_ONE"/>
-  <set name="element" val="3"/> <!-- Wind -->
+  <set name="element" val="2"/> <!-- Wind -->
+  <set name="elementPower" val="20"/>
   <set name="reuseDelay" val="8000"/>
   <set name="hitTime" val="4000"/>
   <set name="skillType" val="MDAM"/>
@@ -1179,7 +1187,8 @@
   <set name="power" val="#power"/>
   <set name="target" val="TARGET_AREA"/>
   <set name="skillRadius" val="200"/>
-  <set name="element" val="1"/> <!-- Fire -->
+  <set name="element" val="0"/> <!-- Fire -->
+  <set name="elementPower" val="20"/>
   <set name="reuseDelay" val="8000"/>
   <set name="hitTime" val="4000"/>
   <set name="skillType" val="MDAM"/>
@@ -1290,7 +1299,8 @@
   <set name="mpConsume" val="#mpConsume"/>
   <set name="power" val="#power"/>
   <set name="target" val="TARGET_ONE"/>
-  <set name="element" val="1"/> <!-- Fire -->
+  <set name="element" val="0"/> <!-- Fire -->
+  <set name="elementPower" val="20"/>
   <set name="reuseDelay" val="8000"/>
   <set name="hitTime" val="4000"/>
   <set name="skillType" val="MDAM"/>

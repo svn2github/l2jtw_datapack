@@ -11,7 +11,8 @@
   <set name="lvlDepend" val="1"/>
   <set name="power" val="70"/> <!-- Base Land Rate -->
   <set name="target" val="TARGET_ONE"/>
-  <set name="element" val="1"/> <!-- Fire -->
+  <set name="element" val="0"/> <!-- Fire -->
+  <set name="elementPower" val="20"/>
   <set name="reuseDelay" val="2000"/>
   <set name="hitTime" val="4000"/>
   <set name="isDebuff" val="true"/>
@@ -37,7 +38,8 @@
   <set name="power" val="35"/>
   <set name="target" val="TARGET_AURA"/>
   <set name="skillRadius" val="200"/>
-  <set name="element" val="1"/> <!-- Fire -->
+  <set name="element" val="0"/> <!-- Fire -->
+  <set name="elementPower" val="20"/>
   <set name="reuseDelay" val="4000"/>
   <set name="hitTime" val="4000"/>
   <set name="isDebuff" val="true"/>
@@ -138,7 +140,8 @@
   <set name="power" val="70"/> <!-- Base Land Rate -->
   <set name="lvlDepend" val="1"/>
   <set name="target" val="TARGET_ONE"/>
-  <set name="element" val="1"/> <!-- Fire -->
+  <set name="element" val="0"/> <!-- Fire -->
+  <set name="elementPower" val="20"/>
   <set name="reuseDelay" val="2000"/>
   <set name="hitTime" val="4000"/>
   <set name="skillType" val="DOT"/>
@@ -162,7 +165,8 @@
   <set name="lvlDepend" val="1"/>
   <set name="target" val="TARGET_AURA"/>
   <set name="skillRadius" val="300"/>
-  <set name="element" val="1"/> <!-- Fire -->
+  <set name="element" val="0"/> <!-- Fire -->
+  <set name="elementPower" val="20"/>
   <set name="reuseDelay" val="5000"/>
   <set name="isDebuff" val="true"/>
   <set name="hitTime" val="4000"/>
@@ -201,7 +205,7 @@
   <table name="#npcIds"> 14111 14116 14112 14117 14113 14118 14114 14119 14115 14120 14121 14122 14123 14124 14125 14126 14127 14128 </table>
   <table name="#enchantNpcId"> 14129 14130 14131 14132 14133 14134 14135 14136 14137 14138 14139 14140 14141 14142 14143 14144 14145 14146 14147 14148 14149 14150 14151 14152 14153 14154 14155 14156 14157 14158 </table>
   <table name="#expPenalty"> 0.3 0.3 0.3 0.3 0.3 0.3 0.3 0.29 0.28 0.27 0.26 0.25 0.24 0.23 0.22 0.21 0.2 0.18 </table>
-  <table name="#enchantExpPenalty"> 0.16 0.14 0.12 0.1 0.08 0.06 0.04 0.02 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0</table>
+  <table name="#enchantExpPenalty"> 0.16 0.14 0.12 0.1 0.08 0.06 0.04 0.02 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 </table>
   <set name="npcId" val="#npcIds"/>
   <enchant1 name="npcId" val="#enchantNpcId"/>
   <set name="expPenalty" val="#expPenalty"/> <!-- percent of earned Exp will be consumed." -->
@@ -547,7 +551,8 @@
   <set name="magicLvl" val="#magicLvl"/>
   <set name="power" val="#power"/>
   <set name="target" val="TARGET_ONE"/>
-  <set name="element" val="6"/> <!-- Dark -->
+  <set name="element" val="5"/> <!-- Dark -->
+  <set name="elementPower" val="20"/>
   <set name="reuseDelay" val="3000"/>
   <set name="hitTime" val="4000"/>
   <set name="skillType" val="DRAIN"/>
@@ -575,7 +580,8 @@
   <set name="magicLvl" val="#magicLvl"/>
   <set name="power" val="#power"/>
   <set name="target" val="TARGET_ONE"/>
-  <set name="element" val="6"/> <!-- Dark -->
+  <set name="element" val="5"/> <!-- Dark -->
+  <set name="elementPower" val="20"/>
   <set name="reuseDelay" val="1200"/>
   <set name="hitTime" val="4000"/>
   <set name="skillType" val="MDAM"/>
@@ -692,7 +698,7 @@
 <skill id="1157" levels="5" name="Body To Mind" enchantLevels1="30">
   <table name="#hpConsume"> 131 209 280 318 366 </table>
   <table name="#power"> 22 35 47 53 61 </table>
-  <table name="#ench1power">70 70 70 70 71 71 71 71 71 71 72 72 72 72 72 72 72 73 73 73 73 73 73 74 74 74 74 74 74 75</table>
+  <table name="#ench1power"> 70 70 70 70 71 71 71 71 71 71 72 72 72 72 72 72 72 73 73 73 73 73 73 74 74 74 74 74 74 75 </table>
   <table name="#aggroPoints"> 243 379 495 549 611 </table>
   <set name="hpConsume" val="#hpConsume"/>
   <set name="power" val="#power"/>
@@ -721,7 +727,8 @@
   <set name="magicLvl" val="#magicLvl"/>
   <set name="power" val="#power"/>
   <set name="target" val="TARGET_ONE"/>
-  <set name="element" val="6"/> <!-- Dark -->
+  <set name="element" val="5"/> <!-- Dark -->
+  <set name="elementPower" val="20"/>
   <set name="reuseDelay" val="1200"/>
   <set name="hitTime" val="4000"/>
   <set name="skillType" val="DEATHLINK"/>
@@ -945,7 +952,8 @@
   <set name="power" val="#power"/>
   <set name="target" val="TARGET_AURA"/>
   <set name="skillRadius" val="200"/>
-  <set name="element" val="1"/> <!-- Fire -->
+  <set name="element" val="0"/> <!-- Fire -->
+  <set name="elementPower" val="20"/>
   <set name="reuseDelay" val="4000"/>
   <set name="hitTime" val="4000"/>
   <set name="skillType" val="MDAM"/>
@@ -990,7 +998,8 @@
   <set name="power" val="#power"/>
   <set name="target" val="TARGET_MULTIFACE"/>
   <set name="skillRadius" val="200"/>
-  <set name="element" val="2"/> <!-- Water -->
+  <set name="element" val="1"/> <!-- Water -->
+  <set name="elementPower" val="20"/>
   <set name="reuseDelay" val="3000"/>
   <set name="hitTime" val="3000"/>
   <set name="skillType" val="MDAM"/>
@@ -1012,7 +1021,8 @@
   <set name="magicLvl" val="#magicLvl"/>
   <set name="power" val="#power"/>
   <set name="target" val="TARGET_ONE"/>
-  <set name="element" val="2"/> <!-- Water -->
+  <set name="element" val="1"/> <!-- Water -->
+  <set name="elementPower" val="20"/>
   <set name="reuseDelay" val="1200"/>
   <set name="hitTime" val="4000"/>
   <set name="skillType" val="MDAM"/>
@@ -1038,7 +1048,8 @@
   <set name="power" val="#power"/>
   <set name="target" val="TARGET_AREA"/>
   <set name="skillRadius" val="200"/>
-  <set name="element" val="3"/> <!-- Wind -->
+  <set name="element" val="2"/> <!-- Wind -->
+  <set name="elementPower" val="20"/>
   <set name="reuseDelay" val="3000"/>
   <set name="hitTime" val="5000"/>
   <set name="skillType" val="MDAM"/>
@@ -1060,7 +1071,8 @@
   <set name="magicLvl" val="#magicLvl"/>
   <set name="power" val="#power"/>
   <set name="target" val="TARGET_ONE"/>
-  <set name="element" val="3"/> <!-- Wind -->
+  <set name="element" val="2"/> <!-- Wind -->
+  <set name="elementPower" val="20"/>
   <set name="reuseDelay" val="1200"/>
   <set name="hitTime" val="4000"/>
   <set name="skillType" val="MDAM"/>
@@ -1079,7 +1091,8 @@
   <set name="magicLvl" val="#magicLvl"/>
   <set name="power" val="#power"/>
   <set name="target" val="TARGET_ONE"/>
-  <set name="element" val="3"/> <!-- Wind -->
+  <set name="element" val="2"/> <!-- Wind -->
+  <set name="elementPower" val="20"/>
   <set name="reuseDelay" val="1200"/>
   <set name="hitTime" val="4000"/>
   <set name="skillType" val="MDAM"/>
@@ -1099,7 +1112,8 @@
   <set name="power" val="#power"/>
   <set name="target" val="TARGET_AREA"/>
   <set name="skillRadius" val="200"/>
-  <set name="element" val="1"/> <!-- Fire -->
+  <set name="element" val="0"/> <!-- Fire -->
+  <set name="elementPower" val="20"/>
   <set name="reuseDelay" val="4000"/>
   <set name="hitTime" val="4000"/>
   <set name="skillType" val="MDAM"/>
@@ -1154,7 +1168,8 @@
   <set name="power" val="70"/> <!-- Base Land Rate -->
   <set name="lvlDepend" val="2"/>
   <set name="target" val="TARGET_ONE"/>
-  <set name="element" val="2"/> <!-- Water -->
+  <set name="element" val="1"/> <!-- Water -->
+  <set name="elementPower" val="20"/>
   <set name="reuseDelay" val="2000"/>
   <set name="hitTime" val="4000"/>
   <set name="skillType" val="DOT"/>
@@ -1179,7 +1194,8 @@
   <set name="power" val="#power"/>
   <set name="lvlDepend" val="1"/>
   <set name="target" val="TARGET_ONE"/>
-  <set name="element" val="2"/> <!-- Water -->
+  <set name="element" val="1"/> <!-- Water -->
+  <set name="elementPower" val="20"/>
   <set name="reuseDelay" val="2000"/>
   <set name="hitTime" val="3100"/>
   <set name="coolTime" val="200"/>

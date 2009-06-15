@@ -448,7 +448,7 @@
   <set name="effectRange" val="1400"/>
   <set name="power" val="50"/>
   <set name="isDebuff" val="true"/>
-  <set name="element" val="2"/>
+  <set name="element" val="1"/>
   <set name="operateType" val="OP_ACTIVE"/>
   <cond>
     <and>
@@ -603,7 +603,7 @@
   <set name="reuseDelay" val="20000"/>
   <set name="lvlDepend" val="1"/>
   <set name="target" val="TARGET_ONE"/>
-  <set name="element" val="2"/>
+  <set name="element" val="1"/>
   <set name="skillType" val="PDAM"/>
   <set name="operateType" val="OP_ACTIVE"/>
   <set name="castRange" val="100"/>

@@ -260,7 +260,7 @@
   <set name="skillType" val="NOTDONE"/>
   <set name="operateType" val="OP_PASSIVE"/>
 </skill>
-<skill id="5437" levels="2" name="Dissonance"><!-- Update by rocknow -->
+<skill id="5437" levels="2" name="Dissonance">
   <table name="#pAtk"> 1 0.95 </table><!-- Update by rocknow -->
   <table name="#mAtk"> 1 0.95 </table><!-- Update by rocknow -->
   <table name="#accCombat"> 0 50 </table><!-- Update by rocknow -->
@@ -268,13 +268,11 @@
   <set name="target" val="TARGET_SELF"/>
   <set name="skillType" val="BUFF"/>
   <set name="operateType" val="OP_PASSIVE"/>
-  <set name="castRange" val="-1"/>
-  <set name="effectRange" val="-1"/>
   <for>
-      <mul order="0x30" stat="pAtk" val="#pAtk"/><!-- Update by rocknow -->
-      <mul order="0x30" stat="mAtk" val="#mAtk"/><!-- Update by rocknow -->
-      <sub order="0x40" stat="accCombat" val="#accCombat"/><!-- Update by rocknow -->
-      <add order="0x40" stat="runSpd" val="#runSpd"/><!-- Update by rocknow -->
+    <mul order="0x30" stat="pAtk" val="#pAtk"/><!-- Update by rocknow -->
+    <mul order="0x30" stat="mAtk" val="#mAtk"/><!-- Update by rocknow -->
+    <sub order="0x40" stat="accCombat" val="#accCombat"/><!-- Update by rocknow -->
+    <add order="0x40" stat="runSpd" val="#runSpd"/><!-- Update by rocknow -->
   </for>
 </skill>
 <skill id="5438" levels="9" name="NPC party 30 Clan Heal">
@@ -400,7 +398,7 @@
 <skill id="5447" levels="7" name="Paralysis">
   <table name="#dmg"> 76 76 76 76 83 83 83 </table>
   <set name="target" val="TARGET_ONE"/>
-  <set name="element" val="6"/> <!-- Dark -->
+  <set name="element" val="5"/> <!-- Dark -->
   <set name="skillType" val="PARALYZE"/>
   <set name="operateType" val="OP_ACTIVE"/>
   <set name="power" val="40"/> <!-- Guess -->
@@ -426,7 +424,7 @@
   </for>
 </skill>
 <skill id="5450" levels="7" name="Thin Skin">
-  <table name="#dot"> 75 102 132 156 186 201 230</table>
+  <table name="#dot"> 75 102 132 156 186 201 230 </table>
   <set name="target" val="TARGET_SELF"/>
   <set name="skillType" val="BLEED"/>
   <set name="operateType" val="OP_ACTIVE"/>
@@ -501,7 +499,8 @@
   <set name="magicLvl" val="70"/>
   <set name="mpConsume" val="#mpConsume"/>
   <set name="power" val="102"/> <!-- power for lvl7 -->
-  <set name="element" val="1"/> <!-- Fire -->
+  <set name="element" val="0"/> <!-- Fire -->
+  <set name="elementPower" val="20"/>
   <set name="target" val="TARGET_ONE"/>
   <set name="skillType" val="MDAM"/>
   <set name="hitTime" val="4000"/>
@@ -515,7 +514,7 @@
   <set name="target" val="TARGET_SELF"/>
   <set name="skillType" val="BUFF"/>
   <set name="operateType" val="OP_PASSIVE"/>
-  <set name="element" val="1"/> <!-- Fire -->
+  <set name="element" val="0"/> <!-- Fire -->
   <for>
     <add order="0x40" stat="firePower" val="50"/>
   </for>
@@ -525,7 +524,7 @@
   <set name="target" val="TARGET_SELF"/>
   <set name="skillType" val="BUFF"/>
   <set name="operateType" val="OP_PASSIVE"/>
-  <set name="element" val="2"/> <!-- Water -->
+  <set name="element" val="1"/> <!-- Water -->
   <for>
     <add order="0x40" stat="waterPower" val="50"/>
   </for>
@@ -535,7 +534,7 @@
   <set name="target" val="TARGET_SELF"/>
   <set name="skillType" val="BUFF"/>
   <set name="operateType" val="OP_PASSIVE"/>
-  <set name="element" val="3"/> <!-- Wind -->
+  <set name="element" val="2"/> <!-- Wind -->
   <for>
     <add order="0x40" stat="windPower" val="50"/>
   </for>
@@ -545,7 +544,7 @@
   <set name="target" val="TARGET_SELF"/>
   <set name="skillType" val="BUFF"/>
   <set name="operateType" val="OP_PASSIVE"/>
-  <set name="element" val="4"/> <!-- Earth -->
+  <set name="element" val="3"/> <!-- Earth -->
   <for>
     <add order="0x40" stat="earthPower" val="50"/>
   </for>
@@ -555,7 +554,7 @@
   <set name="target" val="TARGET_SELF"/>
   <set name="skillType" val="BUFF"/>
   <set name="operateType" val="OP_PASSIVE"/>
-  <set name="element" val="5"/> <!-- Holy -->
+  <set name="element" val="4"/> <!-- Holy -->
   <for>
     <add order="0x40" stat="holyPower" val="50"/>
   </for>
@@ -565,7 +564,7 @@
   <set name="target" val="TARGET_SELF"/>
   <set name="skillType" val="BUFF"/>
   <set name="operateType" val="OP_PASSIVE"/>
-  <set name="element" val="6"/> <!-- Dark -->
+  <set name="element" val="5"/> <!-- Dark -->
   <for>
     <add order="0x40" stat="darkPower" val="50"/>
   </for>
@@ -575,7 +574,8 @@
   <set name="magicLvl" val="70"/>
   <set name="mpConsume" val="#mpConsume"/>
   <set name="power" val="87"/> <!-- power for lvl7 -->
-  <set name="element" val="1"/> <!-- Fire -->
+  <set name="element" val="0"/> <!-- Fire -->
+  <set name="elementPower" val="20"/>
   <set name="target" val="TARGET_AREA"/>
   <set name="skillRadius" val="150"/>
   <set name="skillType" val="MDAM"/>

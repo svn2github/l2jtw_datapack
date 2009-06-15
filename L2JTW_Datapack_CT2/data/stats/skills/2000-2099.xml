@@ -819,8 +819,10 @@
   <set name="itemConsumeId" val="5134"/>
   <set name="itemConsumeCount" val="1"/>
   <set name="target" val="TARGET_SELF"/>
-  <set name="skillType" val="EXTRACTABLE"/>
+  <set name="skillType" val="CREATE_ITEM"/>
   <set name="operateType" val="OP_ACTIVE"/>
+  <set name="create_item_id" val="1835"/>
+  <set name="create_item_count" val="300"/>
   <cond msgId="129">
     <and>
        <player invSize="10"/>
@@ -832,8 +834,10 @@
   <set name="itemConsumeId" val="5135"/>
   <set name="itemConsumeCount" val="1"/>
   <set name="target" val="TARGET_SELF"/>
-  <set name="skillType" val="EXTRACTABLE"/>
+  <set name="skillType" val="CREATE_ITEM"/>
   <set name="operateType" val="OP_ACTIVE"/>
+  <set name="create_item_id" val="1463"/>
+  <set name="create_item_count" val="300"/>
   <cond msgId="129">
     <and>
        <player invSize="10"/>
@@ -845,8 +849,10 @@
   <set name="itemConsumeId" val="5136"/>
   <set name="itemConsumeCount" val="1"/>
   <set name="target" val="TARGET_SELF"/>
-  <set name="skillType" val="EXTRACTABLE"/>
+  <set name="skillType" val="CREATE_ITEM"/>
   <set name="operateType" val="OP_ACTIVE"/>
+  <set name="create_item_id" val="1464"/>
+  <set name="create_item_count" val="300"/>
   <cond msgId="129">
     <and>
        <player invSize="10"/>
@@ -858,8 +864,10 @@
   <set name="itemConsumeId" val="5137"/>
   <set name="itemConsumeCount" val="1"/>
   <set name="target" val="TARGET_SELF"/>
-  <set name="skillType" val="EXTRACTABLE"/>
+  <set name="skillType" val="CREATE_ITEM"/>
   <set name="operateType" val="OP_ACTIVE"/>
+  <set name="create_item_id" val="1465"/>
+  <set name="create_item_count" val="300"/>
   <cond msgId="129">
     <and>
        <player invSize="10"/>
@@ -871,8 +879,10 @@
   <set name="itemConsumeId" val="5138"/>
   <set name="itemConsumeCount" val="1"/>
   <set name="target" val="TARGET_SELF"/>
-  <set name="skillType" val="EXTRACTABLE"/>
+  <set name="skillType" val="CREATE_ITEM"/>
   <set name="operateType" val="OP_ACTIVE"/>
+  <set name="create_item_id" val="1466"/>
+  <set name="create_item_count" val="300"/>
   <cond msgId="129">
     <and>
        <player invSize="10"/>
@@ -884,8 +894,10 @@
   <set name="itemConsumeId" val="5139"/>
   <set name="itemConsumeCount" val="1"/>
   <set name="target" val="TARGET_SELF"/>
-  <set name="skillType" val="EXTRACTABLE"/>
+  <set name="skillType" val="CREATE_ITEM"/>
   <set name="operateType" val="OP_ACTIVE"/>
+  <set name="create_item_id" val="1467"/>
+  <set name="create_item_count" val="300"/>
   <cond msgId="129">
     <and>
        <player invSize="10"/>
@@ -897,8 +909,10 @@
   <set name="itemConsumeId" val="5140"/>
   <set name="itemConsumeCount" val="1"/>
   <set name="target" val="TARGET_SELF"/>
-  <set name="skillType" val="EXTRACTABLE"/>
+  <set name="skillType" val="CREATE_ITEM"/>
   <set name="operateType" val="OP_ACTIVE"/>
+  <set name="create_item_id" val="2509"/>
+  <set name="create_item_count" val="300"/>
   <cond msgId="129">
     <and>
        <player invSize="10"/>
@@ -910,8 +924,10 @@
   <set name="itemConsumeId" val="5141"/>
   <set name="itemConsumeCount" val="1"/>
   <set name="target" val="TARGET_SELF"/>
-  <set name="skillType" val="EXTRACTABLE"/>
+  <set name="skillType" val="CREATE_ITEM"/>
   <set name="operateType" val="OP_ACTIVE"/>
+  <set name="create_item_id" val="2510"/>
+  <set name="create_item_count" val="300"/>
   <cond msgId="129">
     <and>
        <player invSize="10"/>
@@ -923,8 +939,10 @@
   <set name="itemConsumeId" val="5142"/>
   <set name="itemConsumeCount" val="1"/>
   <set name="target" val="TARGET_SELF"/>
-  <set name="skillType" val="EXTRACTABLE"/>
+  <set name="skillType" val="CREATE_ITEM"/>
   <set name="operateType" val="OP_ACTIVE"/>
+  <set name="create_item_id" val="2511"/>
+  <set name="create_item_count" val="300"/>
   <cond msgId="129">
     <and>
        <player invSize="10"/>
@@ -936,8 +954,10 @@
   <set name="itemConsumeId" val="5143"/>
   <set name="itemConsumeCount" val="1"/>
   <set name="target" val="TARGET_SELF"/>
-  <set name="skillType" val="EXTRACTABLE"/>
+  <set name="skillType" val="CREATE_ITEM"/>
   <set name="operateType" val="OP_ACTIVE"/>
+  <set name="create_item_id" val="2512"/>
+  <set name="create_item_count" val="300"/>
   <cond msgId="129">
     <and>
        <player invSize="10"/>
@@ -949,8 +969,10 @@
   <set name="itemConsumeId" val="5144"/>
   <set name="itemConsumeCount" val="1"/>
   <set name="target" val="TARGET_SELF"/>
-  <set name="skillType" val="EXTRACTABLE"/>
+  <set name="skillType" val="CREATE_ITEM"/>
   <set name="operateType" val="OP_ACTIVE"/>
+  <set name="create_item_id" val="2513"/>
+  <set name="create_item_count" val="300"/>
   <cond msgId="129">
     <and>
        <player invSize="10"/>
@@ -962,8 +984,10 @@
   <set name="itemConsumeId" val="5145"/>
   <set name="itemConsumeCount" val="1"/>
   <set name="target" val="TARGET_SELF"/>
-  <set name="skillType" val="EXTRACTABLE"/>
+  <set name="skillType" val="CREATE_ITEM"/>
   <set name="operateType" val="OP_ACTIVE"/>
+  <set name="create_item_id" val="2514"/>
+  <set name="create_item_count" val="300"/>
   <cond msgId="129">
     <and>
        <player invSize="10"/>
@@ -975,8 +999,10 @@
   <set name="itemConsumeId" val="5146"/>
   <set name="itemConsumeCount" val="1"/>
   <set name="target" val="TARGET_SELF"/>
-  <set name="skillType" val="EXTRACTABLE"/>
+  <set name="skillType" val="CREATE_ITEM"/>
   <set name="operateType" val="OP_ACTIVE"/>
+  <set name="create_item_id" val="3947"/>
+  <set name="create_item_count" val="300"/>
   <cond msgId="129">
     <and>
        <player invSize="10"/>
@@ -988,8 +1014,10 @@
   <set name="itemConsumeId" val="5147"/>
   <set name="itemConsumeCount" val="1"/>
   <set name="target" val="TARGET_SELF"/>
-  <set name="skillType" val="EXTRACTABLE"/>
+  <set name="skillType" val="CREATE_ITEM"/>
   <set name="operateType" val="OP_ACTIVE"/>
+  <set name="create_item_id" val="3948"/>
+  <set name="create_item_count" val="300"/>
   <cond msgId="129">
     <and>
        <player invSize="10"/>
@@ -1001,8 +1029,10 @@
   <set name="itemConsumeId" val="5148"/>
   <set name="itemConsumeCount" val="1"/>
   <set name="target" val="TARGET_SELF"/>
-  <set name="skillType" val="EXTRACTABLE"/>
+  <set name="skillType" val="CREATE_ITEM"/>
   <set name="operateType" val="OP_ACTIVE"/>
+  <set name="create_item_id" val="3949"/>
+  <set name="create_item_count" val="300"/>
   <cond msgId="129">
     <and>
        <player invSize="10"/>
@@ -1014,8 +1044,10 @@
   <set name="itemConsumeId" val="5149"/>
   <set name="itemConsumeCount" val="1"/>
   <set name="target" val="TARGET_SELF"/>
-  <set name="skillType" val="EXTRACTABLE"/>
+  <set name="skillType" val="CREATE_ITEM"/>
   <set name="operateType" val="OP_ACTIVE"/>
+  <set name="create_item_id" val="3950"/>
+  <set name="create_item_count" val="300"/>
   <cond msgId="129">
     <and>
        <player invSize="10"/>
@@ -1027,8 +1059,10 @@
   <set name="itemConsumeId" val="5150"/>
   <set name="itemConsumeCount" val="1"/>
   <set name="target" val="TARGET_SELF"/>
-  <set name="skillType" val="EXTRACTABLE"/>
+  <set name="skillType" val="CREATE_ITEM"/>
   <set name="operateType" val="OP_ACTIVE"/>
+  <set name="create_item_id" val="3951"/>
+  <set name="create_item_count" val="300"/>
   <cond msgId="129">
     <and>
        <player invSize="10"/>
@@ -1040,8 +1074,10 @@
   <set name="itemConsumeId" val="5151"/>
   <set name="itemConsumeCount" val="1"/>
   <set name="target" val="TARGET_SELF"/>
-  <set name="skillType" val="EXTRACTABLE"/>
+  <set name="skillType" val="CREATE_ITEM"/>
   <set name="operateType" val="OP_ACTIVE"/>
+  <set name="create_item_id" val="3952"/>
+  <set name="create_item_count" val="300"/>
   <cond msgId="129">
     <and>
        <player invSize="10"/>

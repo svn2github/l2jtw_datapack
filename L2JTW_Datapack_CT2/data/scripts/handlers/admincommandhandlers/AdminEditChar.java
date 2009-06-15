@@ -278,18 +278,15 @@ public class AdminEditChar implements IAdminCommandHandler
 						player.setBaseClass(classidval);
 					String newclass = player.getTemplate().className;
 					player.store();
-					
 					L2CoreMessage cm =  new L2CoreMessage (MessageTable.Messages[14]);
 					cm.addString(newclass);
 					cm.sendMessage(player);
 
 					player.broadcastUserInfo();
-					
 					cm =  new L2CoreMessage (MessageTable.Messages[670]);
 					cm.addString(player.getName());
 					cm.addString(newclass);
 					cm.sendMessage(activeChar);
-					
 				}
 				activeChar.sendMessage(418);
 			}
@@ -353,7 +350,7 @@ public class AdminEditChar implements IAdminCommandHandler
 					{
 						// And re-add
 						if (member != player)
-							member.sendPacket(new PartySmallWindowAll(member, player.getParty().getPartyMembers()));
+							member.sendPacket(new PartySmallWindowAll(member, player.getParty()));
 					}
 				}
 				if (player.getClan() != null)
