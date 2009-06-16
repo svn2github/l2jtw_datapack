@@ -783,9 +783,9 @@ REPLACE INTO `weapon` VALUES
 (14158,'Vesper Nagan','lrhand','true',1800,1,1,'fine_steel','s84',429,15,'ancient',8,2.00000,0,0,0,350,0,176,-1,-1,0,0,'True','True','True','True',0,0,0,0,0,0,0,0,14122,'0-0;'),
 (14159,'Vesper Nagan','lrhand','true',1800,1,1,'fine_steel','s84',429,15,'ancient',8,2.00000,0,0,0,350,0,176,-1,-1,0,0,'True','True','True','True',0,0,0,0,0,0,0,0,14123,'0-0;');
 
--- 斗篷
+-- 修正斗篷/手鐲的強化和賦予屬性
 UPDATE `items` SET `enchant_level` = '0' WHERE `item_id` IN (13687,13688,13689,13690,13889,13890,13891,13892,14601,14602,14608,14609,14610) AND `enchant_level` > 0 ;
-DELETE FROM `item_attributes` WHERE `itemId` IN ( SELECT `object_id` FROM `items` WHERE `item_id` IN (13687,13688,13689,13690,13889,13890,13891,13892,14601,14602,14608,14609,14610));
+DELETE FROM `item_attributes` WHERE `itemId` IN ( SELECT `object_id` FROM `items` WHERE `item_id` IN (13687,13688,13689,13690,13889,13890,13891,13892,14601,14602,14608,14609,14610,9592,10210));
 
 -- 法國麵包武器
 DELETE FROM `armor` WHERE `item_id` IN (20266); -- L2J 錯誤設定為防具
