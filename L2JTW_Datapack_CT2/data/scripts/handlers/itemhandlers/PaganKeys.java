@@ -144,6 +144,50 @@ public class PaganKeys implements IItemHandler
 					activeChar.sendMessage(148);
 				}
 				break;
+			case 9694: //Update by rocknow
+			{
+				if ((door.getDoorId() != 24220001 && door.getDoorId() != 24220002 && door.getDoorId() != 24220003 && door.getDoorId() != 24220004 && door.getDoorId() != 24220007) || door.getOpen())
+				{
+					activeChar.sendPacket(new SystemMessage(SystemMessageId.INCORRECT_TARGET));
+					activeChar.sendPacket(ActionFailed.STATIC_PACKET);
+					return;
+				}
+				door.openMe();
+				break;
+			}
+			case 9698: //Update by rocknow
+			{
+				if ((door.getDoorId() != 24220020) || door.getOpen())
+				{
+					activeChar.sendPacket(new SystemMessage(SystemMessageId.INCORRECT_TARGET));
+					activeChar.sendPacket(ActionFailed.STATIC_PACKET);
+					return;
+				}
+				door.openMe();
+				break;
+			}
+			case 9699: //Update by rocknow
+			{
+				if ((door.getDoorId() != 24220022) || door.getOpen())
+				{
+					activeChar.sendPacket(new SystemMessage(SystemMessageId.INCORRECT_TARGET));
+					activeChar.sendPacket(ActionFailed.STATIC_PACKET);
+					return;
+				}
+				door.openMe();
+				break;
+			}
+			case 10015: //Update by rocknow
+			{
+				if ((door.getDoorId() != 24220008) || door.getOpen())
+				{
+					activeChar.sendPacket(new SystemMessage(SystemMessageId.INCORRECT_TARGET));
+					activeChar.sendPacket(ActionFailed.STATIC_PACKET);
+					return;
+				}
+				door.openMe();
+				break;
+			}
 		}
 	}
 }
