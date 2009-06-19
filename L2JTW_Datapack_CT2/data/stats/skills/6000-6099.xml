@@ -211,9 +211,18 @@
   <set name="operateType" val="OP_PASSIVE"/>
 </skill>
 <skill id="6042" levels="1" name="Phoenix Cleanse">
-  <set name="target" val="TARGET_NONE"/>
-  <set name="skillType" val="NOTDONE"/>
-  <set name="operateType" val="OP_PASSIVE"/>
+  <!-- Done by DJ MELERIX -->
+  <set name="castRange" val="600"/>
+  <set name="effectRange" val="1100"/>
+  <set name="hitTime" val="2500"/>
+  <set name="isMagic" val="true"/>
+  <set name="magicLvl" val="83"/>
+  <set name="mpConsume" val="59"/>
+  <set name="operateType" val="OP_ACTIVE"/>
+  <set name="power" val="100"/>
+  <set name="reuseDelay" val="35000"/>
+  <set name="skillType" val="CANCEL_DEBUFF"/>
+  <set name="target" val="TARGET_ONE"/>
 </skill>
 <skill id="6043" levels="1" name="Phoenix Flame Feather">
   <!-- Done by DJ MELERIX -->
@@ -598,10 +607,17 @@
   <set name="operateType" val="OP_PASSIVE"/>
 </skill>
 <skill id="6094" levels="11" name="Panther Cancel">
-  <set name="target" val="TARGET_NONE"/>
-  <set name="skillType" val="NOTDONE"/>
-  <set name="operateType" val="OP_PASSIVE"/>
+  <!-- Done by DJ MELERIX -->
+  <set name="castRange" val="40"/>
+  <set name="effectRange" val="400"/>
+  <set name="hitTime" val="1500"/>
+  <set name="maxNegated" val="3"/> <!-- TODO: maxNegated amount needs to be verified, because in PTS maxNegated is upto 3, but in Live appears to be upto 2 -->
+  <set name="mpConsume" val="42"/>
+  <set name="operateType" val="OP_ACTIVE"/>
+  <set name="power" val="80"/> <!-- Base Land Rate -->
   <set name="reuseDelay" val="75000"/>
+  <set name="skillType" val="CANCEL"/>
+  <set name="target" val="TARGET_ONE"/>
 </skill>
 <skill id="6095" levels="15" name="Panther Dark Claw">
   <!-- Done by DJ MELERIX -->
@@ -609,6 +625,7 @@
   <set name="castRange" val="40"/>
   <set name="effectRange" val="400"/>
   <set name="hitTime" val="1500"/>
+  <set name="lvlDepend" val="2"/>
   <set name="mpConsume" val="42"/>
   <set name="operateType" val="OP_ACTIVE"/>
   <set name="power" val="#power"/>
@@ -616,6 +633,11 @@
   <set name="skillType" val="PDAM"/>
   <set name="SSBoost" val="2.0"/>
   <set name="target" val="TARGET_ONE"/>
+  <for>
+    <effect name="Debuff" time="30" val="0" effectPower="80" effectType="WEAKNESS">
+      <sub order="0x40" stat="darkRes" val="25"/>
+    </effect>
+  </for>
 </skill>
 <skill id="6096" levels="13" name="Panther Fatal Claw">
   <!-- Done by DJ MELERIX -->
