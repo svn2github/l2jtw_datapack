@@ -1,14 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <list>
-<item id="13687" name="Knight's Cloak - Heavy Armor exclusive">
+<item id="13687" name="Knight's Cloak">
   <!-- Update by rocknow -->
   <cond msgId="1518">
     <player class_id_restriction="88,89,90,91,99,100,106,107,113,114,117,118"/>
   </cond>
   <for>
     <add val="20" order="0x10" stat="pDef"/>
-    <add val="30" order="0x10" stat="darkRes"/><!-- Update by rocknow -->
-    <!-- Delete by rocknow -->
+    <add order="0x40" stat="darkRes" val="30"/> <!-- Dark Attribute Defense +30 -->
   </for>
 </item>
 <item id="13688" name="Knight's Cloak - Light Armor exclusive">
@@ -18,8 +17,7 @@
   </cond>
   <for>
     <add val="20" order="0x10" stat="pDef"/>
-    <add val="30" order="0x10" stat="darkRes"/><!-- Update by rocknow -->
-    <!-- Delete by rocknow -->
+    <add order="0x40" stat="darkRes" val="30"/> <!-- Dark Attribute Defense +30 -->
   </for>
 </item>
 <item id="13689" name="Knight's Cloak - Robe exclusive">
@@ -29,19 +27,16 @@
   </cond>
   <for>
     <add val="20" order="0x10" stat="pDef"/>
-    <add val="30" order="0x10" stat="darkRes"/><!-- Update by rocknow -->
-    <!-- Delete by rocknow -->
+    <add order="0x40" stat="darkRes" val="30"/> <!-- Dark Attribute Defense +30 -->
   </for>
 </item>
 <item id="13690" name="Knight's Cloak - Kamael exclusive">
-  <!-- Update by rocknow -->
   <cond msgId="1518">
-    <player class_id_restriction="123,124,125,126,127,128,129,130,131,132,133,134,135,136"/>
+    <player race="Kamael"/>
   </cond>
   <for>
     <add val="20" order="0x10" stat="pDef"/>
-    <add val="30" order="0x10" stat="darkRes"/><!-- Update by rocknow -->
-    <!-- Delete by rocknow -->
+    <add order="0x40" stat="darkRes" val="30"/> <!-- Dark Attribute Defense +30 -->
   </for>
 </item>
 </list>

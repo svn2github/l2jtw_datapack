@@ -13,19 +13,19 @@
   </for>
 </item>
 <item id="14601" name="Ancient Cloak - Kamael exclusive - Kamael Use">
-  <!-- Update by rocknow -->
   <cond msgId="1518">
-    <player class_id_restriction="123,124,125,126,127,128,129,130,131,132,133,134,135,136"/>
+    <player race="Kamael"/>
   </cond>
   <for>
     <add val="20" order="0x10" stat="pDef"/>
-    <!-- Delete by rocknow -->
   </for>
 </item>
 <item id="14602" name="Ancient Cloak">
+  <cond msgId="1518">
+    <player race="Kamael"/>
+  </cond>
   <for>
     <add val="20" order="0x10" stat="pDef"/>
-    <!-- Delete by rocknow -->
   </for>
 </item>
 <item id="14604" name="Red Talisman - Territory Guardian">
@@ -43,17 +43,15 @@
   </cond>
   <for>
     <add val="20" order="0x10" stat="pDef"/>
-    <!-- Delete by rocknow -->
   </for>
 </item>
-<item id="14609" name="Ancient Cloak - Heavy Armor exclusive">
+<item id="14609" name="Ancient Cloak">
   <!-- Update by rocknow -->
   <cond msgId="1518">
     <player class_id_restriction="88,89,90,91,99,100,106,107,113,114,117,118"/>
   </cond>
   <for>
     <add val="20" order="0x10" stat="pDef"/>
-    <!-- Delete by rocknow -->
   </for>
 </item>
 <item id="14610" name="Ancient Cloak - Robe exclusive">
@@ -63,7 +61,6 @@
   </cond>
   <for>
     <add val="20" order="0x10" stat="pDef"/>
-    <!-- Delete by rocknow -->
   </for>
 </item>
 <item id="14611" name="Rudolph's Nose">
