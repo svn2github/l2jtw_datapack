@@ -10,17 +10,17 @@ from net.sf.l2j.gameserver.network.serverpackets import SystemMessage
 
 qn = "Kamaloka_49"
 
-KamalokaLevel = 49
+KamalokaLevel    = 49
 InstanceTemplate = "Kamaloka_49.xml"
 KamaLevels       = [49                      ]
 KamaPartySize    = [9                       ]
-KamaNPC          = [30916,32496             ]
+KamaNPC          = [30916                   ]
 KamaTemplate     = ["Kamaloka_49.xml"       ]
 KamaMob          = [22491,22492,22493       ]
 KamaMinion       = [29136,29137             ]
 KamaBoss         = [29135                   ]
 KamaBoss1        = [25618                   ]
-KamaPorts        = [[-76265,-174906,-11030] ] 
+KamaPorts        = [[-76265,-174906,-11030] ]
 ReturnPort       = [[108449,221607,-3598]   ]
 dataIndex = 0
 
@@ -64,11 +64,11 @@ def checkPrimaryConditions(player):
 	return True
 
 def checkNewInstanceConditions(player):
-	#if not player.checkKamaDate():
-	#	sm = SystemMessage(SystemMessageId.C1_MAY_NOT_REENTER_YET)
-	#	sm.addCharName(player)
-	#	player.sendPacket(sm)
-	#	return False
+	if not player.checkKamaDate(2):
+		sm = SystemMessage(SystemMessageId.C1_MAY_NOT_REENTER_YET)
+		sm.addCharName(player)
+		player.sendPacket(sm)
+		return False
 	if not player.getParty().isLeader(player):
 		player.sendPacket(SystemMessage(2185))
 		return False
@@ -87,11 +87,11 @@ def checkNewInstanceConditions(player):
 			sm.addCharName(partyMember)
 			player.sendPacket(sm)
 			return False
-	#	if not partyMember.checkKamaDate():
-	#		sm = SystemMessage(SystemMessageId.C1_MAY_NOT_REENTER_YET)
-	#		sm.addCharName(player)
-	#		player.sendPacket(sm)
-	#		return False
+		if not partyMember.checkKamaDate(2):
+			sm = SystemMessage(SystemMessageId.C1_MAY_NOT_REENTER_YET)
+			sm.addCharName(partyMember)
+			player.sendPacket(sm)
+			return False
 	return True
 
 def getExistingInstanceId(player):
@@ -155,51 +155,21 @@ def runStartRoom(self, world):
 	world.startRoom.npclist[newNpc] = False
 	newNpc = self.addSpawn(KamaMob[1], -77680,-174845,-11017, 0, False, 0, False, world.instanceId)
 	world.startRoom.npclist[newNpc] = False
-	print "欲界-深淵迷宮：進入即時地區"
-
-def runFirstRoom(self, world):
-	world.status = 1
-	world.FirstRoom = PyObject()
-	world.FirstRoom.npclist = {}
 	newNpc = self.addSpawn(KamaMob[2], -80107,-174918,-10754, 0, False, 0, False, world.instanceId)
-	world.FirstRoom.npclist[newNpc] = False
+	world.startRoom.npclist[newNpc] = False
 	newNpc = self.addSpawn(KamaMob[2], -80238,-174919,-10754, 0, False, 0, False, world.instanceId)
-	world.FirstRoom.npclist[newNpc] = False
+	world.startRoom.npclist[newNpc] = False
 	newNpc = self.addSpawn(KamaMob[2], -80109,-175042,-10754, 0, False, 0, False, world.instanceId)
-	world.FirstRoom.npclist[newNpc] = False
+	world.startRoom.npclist[newNpc] = False
 	newNpc = self.addSpawn(KamaMob[2], -79981,-174910,-10754, 0, False, 0, False, world.instanceId)
-	world.FirstRoom.npclist[newNpc] = False
+	world.startRoom.npclist[newNpc] = False
 	newNpc = self.addSpawn(KamaMob[2], -80109,-174793,-10754, 0, False, 0, False, world.instanceId)
-	world.FirstRoom.npclist[newNpc] = False
-	print "欲界-深淵迷宮：第一區域怪物清除"
+	world.startRoom.npclist[newNpc] = False
+	print "欲界-深淵迷宮：召喚即時地區的怪物"
 
-def runSecondRoom(self, world):
-	world.status = 2
-	world.SecondRoom = PyObject()
-	world.SecondRoom.npclist = {}
-	newNpc = self.addSpawn(KamaBoss1[0], -82442,-174918,-10491, 0, False, 0, False, world.instanceId)  # Boss
-	world.SecondRoom.npclist[newNpc] = False
-	print "欲界-深淵迷宮：第二區域怪物清除"
-
-def runThirdRoom(self, world):
-	world.status = 3
-	world.ThirdRoom = PyObject()
-	world.ThirdRoom.npclist = {}
-	newNpc = self.addSpawn(KamaBoss[0], -86233,-174918,-10047, 0, False, 0, False, world.instanceId)  # Boss
-	world.ThirdRoom.npclist[newNpc] = False
-	print "欲界-深淵迷宮：第三區域怪物清除"
-
-def endInstance(self, world):
-	world.status = 4
-	world.startRoom = None
-	world.FirstRoom = None
-	world.SecondRoom = None
-	world.ThirdRoom = None
-	print "欲界-深淵迷宮：任務完成。（5分鐘後關閉即時地區）"
-		
 class PyObject:
 	pass
-	
+
 class Quest (JQuest) :
 
 	def __init__(self,id,name,desc):
@@ -208,7 +178,7 @@ class Quest (JQuest) :
 		self.world_ids = []
 		self.currentWorld = 0
 
-	def onAdvEvent (self,event,npc,player) :
+	def onAdvEvent (self,event,npc,player):
 		return str(event)
 
 	def onTalk (self,npc,player):
@@ -238,15 +208,15 @@ class Quest (JQuest) :
 				print "欲界-深淵迷宮：使用 " + InstanceTemplate + " 即時地區：" + str(instanceId) + " 創造玩家：" + str(player.getName()) 
 				runStartRoom(self, world)
 				tele.instanceId = instanceId
-				#player.setKamaDate()
+				player.removeActiveBuffForKama()
 				teleportPlayer(self,player,tele)
 				party = player.getParty()
 				if party != None:
 					for partyMember in party.getPartyMembers().toArray():
-						#partyMember.setKamaDate()
+						partyMember.removeActiveBuffForKama()
 						teleportPlayer(self,partyMember,tele)
 		else:
-			#party already in kamaloka
+			#party already in Kamaloka - Labyrinth of Abyss
 			foundworld = False
 			for worldid in self.world_ids:
 				if worldid == instanceId:
@@ -254,40 +224,53 @@ class Quest (JQuest) :
 			if not foundworld:
 				player.sendPacket(SystemMessage.sendString("你的隊員已進入其它的即時地區。"))
 				return
+			instanceObj = InstanceManager.getInstance().getInstance(instanceId)
+			if instanceObj.getCountPlayers()>=KamaPartySize[dataIndex]:
+				player.sendPacket(SystemMessage(2102))
+				return
 			tele.instanceId = instanceId
+			player.removeActiveBuffForKama()
 			teleportPlayer(self,player,tele)
 		return
 
 	def onAttack(self,npc,player,damage,isPet,skill):
-		return
-		
+		npcId = npc.getNpcId()
+		if self.worlds.has_key(npc.getInstanceId()):
+			world = self.worlds[npc.getInstanceId()]
+			if world.status == 0:
+				if npc.getNpcId() in [22491,22492,22493,25618,29135,29136,29137]:
+					player.setKamaDate(2)
+					party = player.getParty()
+					if party != None:
+						for partyMember in party.getPartyMembers().toArray():
+							partyMember.setKamaDate(2)
+
 	def onKill(self,npc,player,isPet):
 		npcId = npc.getNpcId()
 		if self.worlds.has_key(npc.getInstanceId()):
 			world = self.worlds[npc.getInstanceId()]
 			if world.status == 0 :
 				if npcId == 22491 :
-					runFirstRoom(self, world)
-			elif world.status == 1 :
-				if checkKillProgress(npc, world.FirstRoom) :
-					runSecondRoom(self, world)
-			elif world.status == 2 :
-				if checkKillProgress(npc, world.SecondRoom) :
-					runThirdRoom(self, world)
-			elif world.status == 3 :
+					newNpc = self.addSpawn(KamaBoss1[0], -82442,-174918,-10491, 0, False, 0, False, world.instanceId)  # Boss
+					world.startRoom.npclist[newNpc] = False
+				if npcId == 25618 :
+					newNpc = self.addSpawn(KamaBoss[0], -86233,-174918,-10047, 0, False, 0, False, world.instanceId)  # Boss
+					world.startRoom.npclist[newNpc] = False
 				if npcId == 29135 :
 					instanceObj = InstanceManager.getInstance().getInstance(self.currentWorld)
+					player.sendPacket(SystemMessage.sendString("從現在起將會限制進入即時地區：「欲界 (深淵迷宮)」。下一次的進場時間可透過「/即時地區」指令來查詢。"))
 					instanceObj.setDuration(5)
 					instanceObj.removeNpcs()
-					endInstance(self, world)
 		return
 
 QUEST = Quest(-1, qn, "Kamaloka")
 
 QUEST.addStartNpc(30916)
 
-QUEST.addTalkId(32496)
 QUEST.addTalkId(30916)
+
+for mob in [22491,22492,22493,25618,29135,29136,29137]:
+	QUEST.addAttackId(mob)
 
 for mob in [22491,22492,22493,25618,29135,29136,29137]:
 	QUEST.addKillId(mob)

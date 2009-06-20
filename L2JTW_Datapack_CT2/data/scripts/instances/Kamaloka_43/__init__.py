@@ -10,7 +10,7 @@ from net.sf.l2j.gameserver.network.serverpackets import SystemMessage
 
 qn = "Kamaloka_43"
 
-KamalokaLevel = 43
+KamalokaLevel    = 43
 InstanceTemplate = "Kamaloka_43.xml"
 KamaLevels       = [43                      ]
 KamaPartySize    = [6                       ]
@@ -18,7 +18,7 @@ KamaNPC          = [30916                   ]
 KamaTemplate     = ["Kamaloka_43.xml"       ]
 KamaMob          = [18562                   ]
 KamaMinion       = [18563                   ]
-KamaPorts        = [[-48364,-206139,-8117]  ]
+KamaPorts        = [[-89759,-206143,-8120]  ]
 ReturnPort       = [[108449,221607,-3598]   ]
 dataIndex = 0
 
@@ -62,11 +62,11 @@ def checkPrimaryConditions(player):
 	return True
 
 def checkNewInstanceConditions(player):
-	#if not player.checkKamaDate():
-	#	sm = SystemMessage(SystemMessageId.C1_MAY_NOT_REENTER_YET)
-	#	sm.addCharName(player)
-	#	player.sendPacket(sm)
-	#	return False
+	if not player.checkKamaDate(1):
+		sm = SystemMessage(SystemMessageId.C1_MAY_NOT_REENTER_YET)
+		sm.addCharName(player)
+		player.sendPacket(sm)
+		return False
 	if not player.getParty().isLeader(player):
 		player.sendPacket(SystemMessage(2185))
 		return False
@@ -85,11 +85,11 @@ def checkNewInstanceConditions(player):
 			sm.addCharName(partyMember)
 			player.sendPacket(sm)
 			return False
-	#	if not partyMember.checkKamaDate():
-	#		sm = SystemMessage(SystemMessageId.C1_MAY_NOT_REENTER_YET)
-	#		sm.addCharName(player)
-	#		player.sendPacket(sm)
-	#		return False
+		if not partyMember.checkKamaDate(1):
+			sm = SystemMessage(SystemMessageId.C1_MAY_NOT_REENTER_YET)
+			sm.addCharName(partyMember)
+			player.sendPacket(sm)
+			return False
 	return True
 
 def getExistingInstanceId(player):
@@ -122,9 +122,26 @@ def exitInstance(player,tele):
 		pet.setInstanceId(0)
 		pet.teleToLocation(tele.x,tele.y,tele.z)
 
+def checkKillProgress(npc,room):
+	cont = True
+	if room.npclist.has_key(npc):
+		room.npclist[npc] = True
+	for npc in room.npclist.keys():
+		if room.npclist[npc] == False:
+			cont = False
+	return cont
+
+def runStartRoom(self, world):
+	world.status = 0
+	world.startRoom = PyObject()
+	world.startRoom.npclist = {}
+	newNpc = self.addSpawn(KamaMob[0], -89054,-206144,-8115, 0, False, 0, False, world.instanceId)
+	world.startRoom.npclist[newNpc] = False
+	print "近緣欲界-深淵之廳：召喚即時地區的怪物"
+	
 class PyObject:
 	pass
-	
+
 class Quest (JQuest) :
 
 	def __init__(self,id,name,desc):
@@ -161,13 +178,16 @@ class Quest (JQuest) :
 				instanceObj.setAllowSummon(False)
 				instanceObj.setReturnTeleport(ReturnPort[dataIndex][0],ReturnPort[dataIndex][1],ReturnPort[dataIndex][2])
 				print "近緣欲界-深淵之廳：使用 " + InstanceTemplate + " 即時地區：" + str(instanceId) + " 創造玩家：" + str(player.getName()) 
-				#player.setKamaDate()
+				runStartRoom(self, world)
 				tele.instanceId = instanceId
+				player.setKamaDate(1)
+				player.removeActiveBuffForKama()
 				teleportPlayer(self,player,tele)
 				party = player.getParty()
 				if party != None:
 					for partyMember in party.getPartyMembers().toArray():
-						#partyMember.setKamaDate()
+						partyMember.setKamaDate(1)
+						partyMember.removeActiveBuffForKama()
 						teleportPlayer(self,partyMember,tele)
 		else:
 			#party already in kamaloka
@@ -178,17 +198,28 @@ class Quest (JQuest) :
 			if not foundworld:
 				player.sendPacket(SystemMessage.sendString("你的隊員已進入其它的即時地區。"))
 				return
+			instanceObj = InstanceManager.getInstance().getInstance(instanceId)
+			if instanceObj.getCountPlayers()>=KamaPartySize[dataIndex]:
+				player.sendPacket(SystemMessage(2102))
+				return
 			tele.instanceId = instanceId
+			player.removeActiveBuffForKama()
 			teleportPlayer(self,player,tele)
+		return
+
+	def onAttack(self,npc,player,damage,isPet,skill):
 		return
 
 	def onKill(self,npc,player,isPet):
 		npcId = npc.getNpcId()
-		if npcId == KamaMob[0] :
-			instanceObj = InstanceManager.getInstance().getInstance(self.currentWorld)
-			instanceObj.setDuration(5)
-			instanceObj.removeNpcs()
-		return
+		if self.worlds.has_key(npc.getInstanceId()):
+			world = self.worlds[npc.getInstanceId()]
+			if world.status == 0 :
+				if npcId == KamaMob[0] :
+					instanceObj = InstanceManager.getInstance().getInstance(self.currentWorld)
+					instanceObj.setDuration(5)
+					instanceObj.removeNpcs()
+					return
 
 QUEST = Quest(-1, qn, "Kamaloka")
 

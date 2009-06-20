@@ -2492,6 +2492,8 @@ REPLACE INTO `npcskills` VALUES
 
 
 /************ 加入 L2Emu-RT 的欲界設定 (感謝 pmq 提供) ************/
+CREATE TABLE IF NOT EXISTS `kamaloka` (`charID` int(10) NOT NULL,`HallAbyss` decimal(20,0) NOT NULL DEFAULT '0',`LabyrinthAbyss` decimal(20,0) NOT NULL DEFAULT '0',PRIMARY KEY (`charID`)) DEFAULT CHARSET=utf8;
+
 -- Kamaloka 23
 REPLACE INTO `npc` VALUES (18554, 18554, "Tomlan Kamos", 0, "Kaneus", 0, "LineageMonster.bugbear_bi", 25, 53, 23, "male", "L2RaidBoss", 40, 163178, 1493, 27.500, 8.700, 60, 57, 73, 76, 70, 80, 712311, 38914, 80, 414, 28, 347, 278, 300, 500, 2501, 0, NULL, 30, 120, "", 0, 0, 0, "LAST_HIT", 0, 0, 0, "balanced", "false");
 
