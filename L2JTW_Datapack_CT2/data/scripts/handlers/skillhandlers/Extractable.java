@@ -15,11 +15,11 @@
 package handlers.skillhandlers;
 
 import net.sf.l2j.Config;
-import net.sf.l2j.gameserver.datatables.ExtractableItemsData;
+import net.sf.l2j.gameserver.datatables.ExtractableSkillsData;
 import net.sf.l2j.gameserver.datatables.ItemTable;
 import net.sf.l2j.gameserver.handler.ISkillHandler;
-import net.sf.l2j.gameserver.model.L2ExtractableItem;
 import net.sf.l2j.gameserver.model.L2ExtractableProductItem;
+import net.sf.l2j.gameserver.model.L2ExtractableSkill;
 import net.sf.l2j.gameserver.model.L2Object;
 import net.sf.l2j.gameserver.model.L2Skill;
 import net.sf.l2j.gameserver.model.actor.L2Character;
@@ -49,7 +49,7 @@ public class Extractable implements ISkillHandler
 		int itemID = skill.getReferenceItemId();
 		if (itemID == 0)
 			return;
-		L2ExtractableItem exitem = ExtractableItemsData.getInstance().getExtractableItem(itemID);
+		L2ExtractableSkill exitem = ExtractableSkillsData.getInstance().getExtractableItem(skill);
 		
 		if (exitem == null)
 			return;

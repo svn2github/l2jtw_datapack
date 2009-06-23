@@ -484,6 +484,8 @@ UPDATE `npc` SET `hp` = '16660000', `mp` = '39960' WHERE `id` IN (29028);
 UPDATE `npc` SET `hp` = '1532678', `mp` = '4255', `type` = 'L2GrandBoss', `level` = '87', `AI` = 'fighter' WHERE `id` IN (29065);
 UPDATE `npc` SET `mp` = '3793' WHERE `id` IN (29006,29014);
 UPDATE `npc` SET `level` = '78' WHERE `id` IN (29070);
+UPDATE `npc` SET `faction_id` = 'antharas_clan', `faction_range` = '1000' WHERE `id` IN (29019,29069,29070);
+UPDATE `npc` SET `faction_id` = 'baium_clan', `faction_range` = '1000' WHERE `id` IN (29020,29021);
 REPLACE INTO `npcskills` VALUES
 (29020,4127,1),
 (29020,4128,1),
@@ -729,15 +731,15 @@ UPDATE `teleport` SET `price` = '7100' WHERE `id` IN (107);
 UPDATE `etcitem` SET `item_type` = 'none' WHERE `item_id` IN (8764);
 
 -- 修正價格
-UPDATE `etcitem` SET `price` = '7' WHERE `item_id` ='1835';       -- 靈魂彈-普通
-UPDATE `etcitem` SET `price` = '2' WHERE `item_id` ='9632';       -- 木製弩箭
-UPDATE `etcitem` SET `price` = '7' WHERE `item_id` ='9635';       -- 銀弩箭
-UPDATE `etcitem` SET `price` = '8' WHERE `item_id` ='9636';       -- 米索莉弩箭
-UPDATE `etcitem` SET `price` = '10' WHERE `item_id` ='9637';      -- 閃耀弩箭
-UPDATE `etcitem` SET `price` = '1550000' WHERE `item_id` ='729';  -- 武器強化卷軸-A級
-UPDATE `etcitem` SET `price` = '2250000' WHERE `item_id` ='959';  -- 武器強化卷軸-S級
-UPDATE `etcitem` SET `price` = '2700000' WHERE `item_id` ='6569'; -- 祝福的武器強化卷軸-A級
-UPDATE `etcitem` SET `price` = '5000000' WHERE `item_id` ='6577'; -- 祝福的武器強化卷軸-S級
+UPDATE `etcitem` SET `price` = '7' WHERE `item_id` = '1835';       -- 靈魂彈-普通
+UPDATE `etcitem` SET `price` = '2' WHERE `item_id` = '9632';       -- 木製弩箭
+UPDATE `etcitem` SET `price` = '7' WHERE `item_id` = '9635';       -- 銀弩箭
+UPDATE `etcitem` SET `price` = '8' WHERE `item_id` = '9636';       -- 米索莉弩箭
+UPDATE `etcitem` SET `price` = '10' WHERE `item_id` = '9637';      -- 閃耀弩箭
+UPDATE `etcitem` SET `price` = '1550000' WHERE `item_id` = '729';  -- 武器強化卷軸-A級
+UPDATE `etcitem` SET `price` = '2250000' WHERE `item_id` = '959';  -- 武器強化卷軸-S級
+UPDATE `etcitem` SET `price` = '2700000' WHERE `item_id` = '6569'; -- 祝福的武器強化卷軸-A級
+UPDATE `etcitem` SET `price` = '5000000' WHERE `item_id` = '6577'; -- 祝福的武器強化卷軸-S級
 
 -- 修正首領重生時，HP/MP全滿(感謝 wolo 提供)
 Update `npc`, `raidboss_spawnlist` SET `raidboss_spawnlist`.`heading`=0, `raidboss_spawnlist`.`currentHp`=`npc`.`hp`,`raidboss_spawnlist`.`currentMp`=`npc`.`mp` WHERE `npc`.`type`='L2RaidBoss' AND `npc`.`id`=`raidboss_spawnlist`.`boss_id`;
@@ -747,7 +749,7 @@ REPLACE INTO `pets_stats` VALUES
 ('great_wolf',16025,56,33396358,1384,597,107,66,70,42,95,89,40,187,278,333,4740,39,7,54510,2,1,0.1);
 
 -- 修正根據地投標價
-UPDATE `auction` SET `startingBid` = '20000000' WHERE `id` IN (58,59,60,61) AND `sellerId` ='0';
+UPDATE `auction` SET `startingBid` = '20000000' WHERE `id` IN (58,59,60,61) AND `sellerId` = '0';
 
 
 /************ 加入破滅國境的道具 ************/
@@ -1097,131 +1099,131 @@ UPDATE `npc` SET `walkspd` = '50' WHERE `id` IN (35659,35690,35728,35759,35797,3
 UPDATE `weapon` SET `bodypart` = 'lhand' WHERE `item_id` IN (13770);  -- 艾罕米亞卡修之盾
 
 -- 增加物品效果
-UPDATE `armor` SET `skill` = '3633-2;' WHERE `item_id` ='6841';                               -- 城主的王冠
-UPDATE `armor` SET `skill` = '3407-1;' WHERE `item_id` ='9900';                               -- 靜音之步戒指
-UPDATE `etcitem` SET `skill` = '2370-1;' WHERE `item_id` ='9897' ;                            -- 變身卷軸-豬
-UPDATE `etcitem` SET `skill` = '2076-1;', `handler` = 'ItemSkills' WHERE `item_id` ='4679';   -- 伊娃的祝福
-UPDATE `etcitem` SET `skill` = '2309-1;', `handler` = 'ItemSkills' WHERE `item_id` ='9144';   -- 豬豬禮盒
-UPDATE `etcitem` SET `skill` = '2422-1;', `handler` = 'ItemSkills' WHERE `item_id` ='10254';  -- 1級寶袋
-UPDATE `etcitem` SET `skill` = '2423-2;', `handler` = 'ItemSkills' WHERE `item_id` ='10255';  -- 2級寶袋
-UPDATE `etcitem` SET `skill` = '2424-3;', `handler` = 'ItemSkills' WHERE `item_id` ='10256';  -- 3級寶袋
-UPDATE `etcitem` SET `skill` = '2425-4;', `handler` = 'ItemSkills' WHERE `item_id` ='10257';  -- 4級寶袋
-UPDATE `etcitem` SET `skill` = '2426-5;', `handler` = 'ItemSkills' WHERE `item_id` ='10258';  -- 5級寶袋
-UPDATE `etcitem` SET `skill` = '2427-6;', `handler` = 'ItemSkills' WHERE `item_id` ='10259';  -- 6級寶袋
-UPDATE `etcitem` SET `skill` = '2487-1;', `handler` = 'ItemSkills' WHERE `item_id` ='10520';  -- 回聲水晶-倉木麻衣
-UPDATE `etcitem` SET `skill` = '2525-1;', `handler` = 'ItemSkills' WHERE `item_id` ='12753';  -- 闇天使村莊移動卷軸
-UPDATE `etcitem` SET `skill` = '2670-1;', `handler` = 'ItemSkills' WHERE `item_id` ='13794';  -- 變身體-翻滾方塊變身卷軸
-UPDATE `etcitem` SET `skill` = '2671-1;', `handler` = 'ItemSkills' WHERE `item_id` ='13795';  -- 變身體-翻滾方塊變身卷軸
-UPDATE `etcitem` SET `skill` = '2631-1;', `handler` = 'ItemSkills' WHERE `item_id` ='13800';  -- 青蛙變身卷軸
-UPDATE `etcitem` SET `skill` = '2632-1;', `handler` = 'ItemSkills' WHERE `item_id` ='13801';  -- 小孩變身卷軸
-UPDATE `etcitem` SET `skill` = '2672-1;', `handler` = 'ItemSkills' WHERE `item_id` ='13569';  -- 古魯丁人類傭兵變身卷軸
-UPDATE `etcitem` SET `skill` = '2673-1;', `handler` = 'ItemSkills' WHERE `item_id` ='13570';  -- 古魯丁精靈傭兵變身卷軸
-UPDATE `etcitem` SET `skill` = '2674-1;', `handler` = 'ItemSkills' WHERE `item_id` ='13571';  -- 古魯丁黑暗精靈傭兵變身卷軸
-UPDATE `etcitem` SET `skill` = '2675-1;', `handler` = 'ItemSkills' WHERE `item_id` ='13572';  -- 古魯丁半獸人傭兵變身卷軸
-UPDATE `etcitem` SET `skill` = '2676-1;', `handler` = 'ItemSkills' WHERE `item_id` ='13573';  -- 古魯丁矮人傭兵變身卷軸
-UPDATE `etcitem` SET `skill` = '2677-1;', `handler` = 'ItemSkills' WHERE `item_id` ='13574';  -- 古魯丁闇天使傭兵變身卷軸
-UPDATE `etcitem` SET `skill` = '2678-1;', `handler` = 'ItemSkills' WHERE `item_id` ='13575';  -- 古魯丁騎士傭兵變身卷軸
-UPDATE `etcitem` SET `skill` = '2679-1;', `handler` = 'ItemSkills' WHERE `item_id` ='13576';  -- 古魯丁弓手傭兵變身卷軸
-UPDATE `etcitem` SET `skill` = '2680-1;', `handler` = 'ItemSkills' WHERE `item_id` ='13577';  -- 古魯丁巫師傭兵變身卷軸
-UPDATE `etcitem` SET `skill` = '2681-1;', `handler` = 'ItemSkills' WHERE `item_id` ='13578';  -- 古魯丁百人隊長傭兵變身卷軸
-UPDATE `etcitem` SET `skill` = '2682-1;', `handler` = 'ItemSkills' WHERE `item_id` ='13579';  -- 古魯丁騎士隊長傭兵變身卷軸
-UPDATE `etcitem` SET `skill` = '2683-1;', `handler` = 'ItemSkills' WHERE `item_id` ='13580';  -- 古魯丁司令官傭兵變身卷軸
-UPDATE `etcitem` SET `skill` = '2684-1;', `handler` = 'ItemSkills' WHERE `item_id` ='13581';  -- 狄恩人類傭兵變身卷軸
-UPDATE `etcitem` SET `skill` = '2685-1;', `handler` = 'ItemSkills' WHERE `item_id` ='13582';  -- 狄恩精靈傭兵變身卷軸
-UPDATE `etcitem` SET `skill` = '2686-1;', `handler` = 'ItemSkills' WHERE `item_id` ='13583';  -- 狄恩黑暗精靈傭兵變身卷軸
-UPDATE `etcitem` SET `skill` = '2687-1;', `handler` = 'ItemSkills' WHERE `item_id` ='13584';  -- 狄恩半獸人傭兵變身卷軸
-UPDATE `etcitem` SET `skill` = '2688-1;', `handler` = 'ItemSkills' WHERE `item_id` ='13585';  -- 狄恩矮人傭兵變身卷軸
-UPDATE `etcitem` SET `skill` = '2689-1;', `handler` = 'ItemSkills' WHERE `item_id` ='13586';  -- 狄恩闇天使傭兵變身卷軸
-UPDATE `etcitem` SET `skill` = '2690-1;', `handler` = 'ItemSkills' WHERE `item_id` ='13587';  -- 狄恩騎士傭兵變身卷軸
-UPDATE `etcitem` SET `skill` = '2691-1;', `handler` = 'ItemSkills' WHERE `item_id` ='13588';  -- 狄恩弓手傭兵變身卷軸
-UPDATE `etcitem` SET `skill` = '2692-1;', `handler` = 'ItemSkills' WHERE `item_id` ='13589';  -- 狄恩巫師傭兵變身卷軸
-UPDATE `etcitem` SET `skill` = '2693-1;', `handler` = 'ItemSkills' WHERE `item_id` ='13590';  -- 狄恩百人隊長傭兵變身卷軸
-UPDATE `etcitem` SET `skill` = '2694-1;', `handler` = 'ItemSkills' WHERE `item_id` ='13591';  -- 狄恩騎士隊長傭兵變身卷軸
-UPDATE `etcitem` SET `skill` = '2695-1;', `handler` = 'ItemSkills' WHERE `item_id` ='13592';  -- 狄恩司令官傭兵變身卷軸
-UPDATE `etcitem` SET `skill` = '2696-1;', `handler` = 'ItemSkills' WHERE `item_id` ='13593';  -- 奇岩人類傭兵變身卷軸
-UPDATE `etcitem` SET `skill` = '2697-1;', `handler` = 'ItemSkills' WHERE `item_id` ='13594';  -- 奇岩精靈傭兵變身卷軸
-UPDATE `etcitem` SET `skill` = '2698-1;', `handler` = 'ItemSkills' WHERE `item_id` ='13595';  -- 奇岩黑暗精靈傭兵變身卷軸
-UPDATE `etcitem` SET `skill` = '2699-1;', `handler` = 'ItemSkills' WHERE `item_id` ='13596';  -- 奇岩半獸人傭兵變身卷軸
-UPDATE `etcitem` SET `skill` = '2700-1;', `handler` = 'ItemSkills' WHERE `item_id` ='13597';  -- 奇岩矮人傭兵變身卷軸
-UPDATE `etcitem` SET `skill` = '2701-1;', `handler` = 'ItemSkills' WHERE `item_id` ='13598';  -- 奇岩闇天使傭兵變身卷軸
-UPDATE `etcitem` SET `skill` = '2702-1;', `handler` = 'ItemSkills' WHERE `item_id` ='13599';  -- 奇岩騎士傭兵變身卷軸
-UPDATE `etcitem` SET `skill` = '2703-1;', `handler` = 'ItemSkills' WHERE `item_id` ='13600';  -- 奇岩弓手傭兵變身卷軸
-UPDATE `etcitem` SET `skill` = '2704-1;', `handler` = 'ItemSkills' WHERE `item_id` ='13601';  -- 奇岩巫師傭兵變身卷軸
-UPDATE `etcitem` SET `skill` = '2705-1;', `handler` = 'ItemSkills' WHERE `item_id` ='13602';  -- 奇岩百人隊長傭兵變身卷軸
-UPDATE `etcitem` SET `skill` = '2706-1;', `handler` = 'ItemSkills' WHERE `item_id` ='13603';  -- 奇岩騎士隊長傭兵變身卷軸
-UPDATE `etcitem` SET `skill` = '2707-1;', `handler` = 'ItemSkills' WHERE `item_id` ='13604';  -- 奇岩司令官傭兵變身卷軸
-UPDATE `etcitem` SET `skill` = '2708-1;', `handler` = 'ItemSkills' WHERE `item_id` ='13605';  -- 歐瑞人類傭兵變身卷軸
-UPDATE `etcitem` SET `skill` = '2709-1;', `handler` = 'ItemSkills' WHERE `item_id` ='13606';  -- 歐瑞精靈傭兵變身卷軸
-UPDATE `etcitem` SET `skill` = '2710-1;', `handler` = 'ItemSkills' WHERE `item_id` ='13607';  -- 歐瑞黑暗精靈傭兵變身卷軸
-UPDATE `etcitem` SET `skill` = '2711-1;', `handler` = 'ItemSkills' WHERE `item_id` ='13608';  -- 歐瑞半獸人傭兵變身卷軸
-UPDATE `etcitem` SET `skill` = '2712-1;', `handler` = 'ItemSkills' WHERE `item_id` ='13609';  -- 歐瑞矮人傭兵變身卷軸
-UPDATE `etcitem` SET `skill` = '2713-1;', `handler` = 'ItemSkills' WHERE `item_id` ='13610';  -- 歐瑞闇天使傭兵變身卷軸
-UPDATE `etcitem` SET `skill` = '2714-1;', `handler` = 'ItemSkills' WHERE `item_id` ='13611';  -- 歐瑞騎士傭兵變身卷軸
-UPDATE `etcitem` SET `skill` = '2715-1;', `handler` = 'ItemSkills' WHERE `item_id` ='13612';  -- 歐瑞弓手傭兵變身卷軸
-UPDATE `etcitem` SET `skill` = '2716-1;', `handler` = 'ItemSkills' WHERE `item_id` ='13613';  -- 歐瑞巫師傭兵變身卷軸
-UPDATE `etcitem` SET `skill` = '2717-1;', `handler` = 'ItemSkills' WHERE `item_id` ='13614';  -- 歐瑞百人隊長傭兵變身卷軸
-UPDATE `etcitem` SET `skill` = '2718-1;', `handler` = 'ItemSkills' WHERE `item_id` ='13615';  -- 歐瑞騎士隊長傭兵變身卷軸
-UPDATE `etcitem` SET `skill` = '2719-1;', `handler` = 'ItemSkills' WHERE `item_id` ='13616';  -- 歐瑞司令官傭兵變身卷軸
-UPDATE `etcitem` SET `skill` = '2720-1;', `handler` = 'ItemSkills' WHERE `item_id` ='13617';  -- 亞丁人類傭兵變身卷軸
-UPDATE `etcitem` SET `skill` = '2721-1;', `handler` = 'ItemSkills' WHERE `item_id` ='13618';  -- 亞丁精靈傭兵變身卷軸
-UPDATE `etcitem` SET `skill` = '2722-1;', `handler` = 'ItemSkills' WHERE `item_id` ='13619';  -- 亞丁黑暗精靈傭兵變身卷軸
-UPDATE `etcitem` SET `skill` = '2723-1;', `handler` = 'ItemSkills' WHERE `item_id` ='13620';  -- 亞丁半獸人傭兵變身卷軸
-UPDATE `etcitem` SET `skill` = '2724-1;', `handler` = 'ItemSkills' WHERE `item_id` ='13621';  -- 亞丁矮人傭兵變身卷軸
-UPDATE `etcitem` SET `skill` = '2725-1;', `handler` = 'ItemSkills' WHERE `item_id` ='13622';  -- 亞丁闇天使傭兵變身卷軸
-UPDATE `etcitem` SET `skill` = '2726-1;', `handler` = 'ItemSkills' WHERE `item_id` ='13623';  -- 亞丁騎士傭兵變身卷軸
-UPDATE `etcitem` SET `skill` = '2727-1;', `handler` = 'ItemSkills' WHERE `item_id` ='13624';  -- 亞丁弓手傭兵變身卷軸
-UPDATE `etcitem` SET `skill` = '2728-1;', `handler` = 'ItemSkills' WHERE `item_id` ='13625';  -- 亞丁巫師傭兵變身卷軸
-UPDATE `etcitem` SET `skill` = '2729-1;', `handler` = 'ItemSkills' WHERE `item_id` ='13626';  -- 亞丁百人隊長傭兵變身卷軸
-UPDATE `etcitem` SET `skill` = '2730-1;', `handler` = 'ItemSkills' WHERE `item_id` ='13627';  -- 亞丁騎士隊長傭兵變身卷軸
-UPDATE `etcitem` SET `skill` = '2731-1;', `handler` = 'ItemSkills' WHERE `item_id` ='13628';  -- 亞丁司令官傭兵變身卷軸
-UPDATE `etcitem` SET `skill` = '2732-1;', `handler` = 'ItemSkills' WHERE `item_id` ='13629';  -- 因納得立人類傭兵變身卷軸
-UPDATE `etcitem` SET `skill` = '2733-1;', `handler` = 'ItemSkills' WHERE `item_id` ='13630';  -- 因納得立精靈傭兵變身卷軸
-UPDATE `etcitem` SET `skill` = '2734-1;', `handler` = 'ItemSkills' WHERE `item_id` ='13631';  -- 因納得立黑暗精靈傭兵變身卷軸
-UPDATE `etcitem` SET `skill` = '2735-1;', `handler` = 'ItemSkills' WHERE `item_id` ='13632';  -- 因納得立半獸人傭兵變身卷軸
-UPDATE `etcitem` SET `skill` = '2736-1;', `handler` = 'ItemSkills' WHERE `item_id` ='13633';  -- 因納得立矮人傭兵變身卷軸
-UPDATE `etcitem` SET `skill` = '2737-1;', `handler` = 'ItemSkills' WHERE `item_id` ='13634';  -- 因納得立闇天使傭兵變身卷軸
-UPDATE `etcitem` SET `skill` = '2738-1;', `handler` = 'ItemSkills' WHERE `item_id` ='13635';  -- 因納得立騎士傭兵變身卷軸
-UPDATE `etcitem` SET `skill` = '2739-1;', `handler` = 'ItemSkills' WHERE `item_id` ='13636';  -- 因納得立弓手傭兵變身卷軸
-UPDATE `etcitem` SET `skill` = '2740-1;', `handler` = 'ItemSkills' WHERE `item_id` ='13637';  -- 因納得立巫師傭兵變身卷軸
-UPDATE `etcitem` SET `skill` = '2741-1;', `handler` = 'ItemSkills' WHERE `item_id` ='13638';  -- 因納得立百人隊長傭兵變身卷軸
-UPDATE `etcitem` SET `skill` = '2742-1;', `handler` = 'ItemSkills' WHERE `item_id` ='13639';  -- 因納得立騎士隊長傭兵變身卷軸
-UPDATE `etcitem` SET `skill` = '2743-1;', `handler` = 'ItemSkills' WHERE `item_id` ='13640';  -- 因納得立司令官傭兵變身卷軸
-UPDATE `etcitem` SET `skill` = '2744-1;', `handler` = 'ItemSkills' WHERE `item_id` ='13641';  -- 高達特人類傭兵變身卷軸
-UPDATE `etcitem` SET `skill` = '2745-1;', `handler` = 'ItemSkills' WHERE `item_id` ='13642';  -- 高達特精靈傭兵變身卷軸
-UPDATE `etcitem` SET `skill` = '2746-1;', `handler` = 'ItemSkills' WHERE `item_id` ='13643';  -- 高達特黑暗精靈傭兵變身卷軸
-UPDATE `etcitem` SET `skill` = '2747-1;', `handler` = 'ItemSkills' WHERE `item_id` ='13644';  -- 高達特半獸人傭兵變身卷軸
-UPDATE `etcitem` SET `skill` = '2748-1;', `handler` = 'ItemSkills' WHERE `item_id` ='13645';  -- 高達特矮人傭兵變身卷軸
-UPDATE `etcitem` SET `skill` = '2749-1;', `handler` = 'ItemSkills' WHERE `item_id` ='13646';  -- 高達特闇天使傭兵變身卷軸
-UPDATE `etcitem` SET `skill` = '2750-1;', `handler` = 'ItemSkills' WHERE `item_id` ='13647';  -- 高達特騎士傭兵變身卷軸
-UPDATE `etcitem` SET `skill` = '2751-1;', `handler` = 'ItemSkills' WHERE `item_id` ='13648';  -- 高達特弓手傭兵變身卷軸
-UPDATE `etcitem` SET `skill` = '2752-1;', `handler` = 'ItemSkills' WHERE `item_id` ='13649';  -- 高達特巫師傭兵變身卷軸
-UPDATE `etcitem` SET `skill` = '2753-1;', `handler` = 'ItemSkills' WHERE `item_id` ='13650';  -- 高達特百人隊長傭兵變身卷軸
-UPDATE `etcitem` SET `skill` = '2754-1;', `handler` = 'ItemSkills' WHERE `item_id` ='13651';  -- 高達特騎士隊長傭兵變身卷軸
-UPDATE `etcitem` SET `skill` = '2755-1;', `handler` = 'ItemSkills' WHERE `item_id` ='13652';  -- 高達特司令官傭兵變身卷軸
-UPDATE `etcitem` SET `skill` = '2756-1;', `handler` = 'ItemSkills' WHERE `item_id` ='13653';  -- 魯因人類傭兵變身卷軸
-UPDATE `etcitem` SET `skill` = '2757-1;', `handler` = 'ItemSkills' WHERE `item_id` ='13654';  -- 魯因精靈傭兵變身卷軸
-UPDATE `etcitem` SET `skill` = '2758-1;', `handler` = 'ItemSkills' WHERE `item_id` ='13655';  -- 魯因黑暗精靈傭兵變身卷軸
-UPDATE `etcitem` SET `skill` = '2759-1;', `handler` = 'ItemSkills' WHERE `item_id` ='13656';  -- 魯因半獸人傭兵變身卷軸
-UPDATE `etcitem` SET `skill` = '2760-1;', `handler` = 'ItemSkills' WHERE `item_id` ='13657';  -- 魯因矮人傭兵變身卷軸
-UPDATE `etcitem` SET `skill` = '2761-1;', `handler` = 'ItemSkills' WHERE `item_id` ='13658';  -- 魯因闇天使傭兵變身卷軸
-UPDATE `etcitem` SET `skill` = '2762-1;', `handler` = 'ItemSkills' WHERE `item_id` ='13659';  -- 魯因騎士傭兵變身卷軸
-UPDATE `etcitem` SET `skill` = '2763-1;', `handler` = 'ItemSkills' WHERE `item_id` ='13660';  -- 魯因弓手傭兵變身卷軸
-UPDATE `etcitem` SET `skill` = '2764-1;', `handler` = 'ItemSkills' WHERE `item_id` ='13661';  -- 魯因巫師傭兵變身卷軸
-UPDATE `etcitem` SET `skill` = '2765-1;', `handler` = 'ItemSkills' WHERE `item_id` ='13662';  -- 魯因百人隊長傭兵變身卷軸
-UPDATE `etcitem` SET `skill` = '2766-1;', `handler` = 'ItemSkills' WHERE `item_id` ='13663';  -- 魯因騎士隊長傭兵變身卷軸
-UPDATE `etcitem` SET `skill` = '2767-1;', `handler` = 'ItemSkills' WHERE `item_id` ='13664';  -- 魯因司令官傭兵變身卷軸
-UPDATE `etcitem` SET `skill` = '2768-1;', `handler` = 'ItemSkills' WHERE `item_id` ='13665';  -- 修加特人類傭兵變身卷軸
-UPDATE `etcitem` SET `skill` = '2769-1;', `handler` = 'ItemSkills' WHERE `item_id` ='13666';  -- 修加特精靈傭兵變身卷軸
-UPDATE `etcitem` SET `skill` = '2770-1;', `handler` = 'ItemSkills' WHERE `item_id` ='13667';  -- 修加特黑暗精靈傭兵變身卷軸
-UPDATE `etcitem` SET `skill` = '2771-1;', `handler` = 'ItemSkills' WHERE `item_id` ='13668';  -- 修加特半獸人傭兵變身卷軸
-UPDATE `etcitem` SET `skill` = '2772-1;', `handler` = 'ItemSkills' WHERE `item_id` ='13669';  -- 修加特矮人傭兵變身卷軸
-UPDATE `etcitem` SET `skill` = '2773-1;', `handler` = 'ItemSkills' WHERE `item_id` ='13670';  -- 修加特闇天使傭兵變身卷軸
-UPDATE `etcitem` SET `skill` = '2774-1;', `handler` = 'ItemSkills' WHERE `item_id` ='13671';  -- 修加特騎士傭兵變身卷軸
-UPDATE `etcitem` SET `skill` = '2775-1;', `handler` = 'ItemSkills' WHERE `item_id` ='13672';  -- 修加特弓手傭兵變身卷軸
-UPDATE `etcitem` SET `skill` = '2776-1;', `handler` = 'ItemSkills' WHERE `item_id` ='13673';  -- 修加特巫師傭兵變身卷軸
-UPDATE `etcitem` SET `skill` = '2777-1;', `handler` = 'ItemSkills' WHERE `item_id` ='13674';  -- 修加特百人隊長傭兵變身卷軸
-UPDATE `etcitem` SET `skill` = '2778-1;', `handler` = 'ItemSkills' WHERE `item_id` ='13675';  -- 修加特騎士隊長傭兵變身卷軸
-UPDATE `etcitem` SET `skill` = '2779-1;', `handler` = 'ItemSkills' WHERE `item_id` ='13676';  -- 修加特司令官傭兵變身卷軸
+UPDATE `armor` SET `skill` = '3633-2;' WHERE `item_id` = '6841';                               -- 城主的王冠
+UPDATE `armor` SET `skill` = '3407-1;' WHERE `item_id` = '9900';                               -- 靜音之步戒指
+UPDATE `etcitem` SET `skill` = '2370-1;' WHERE `item_id` = '9897';                             -- 變身卷軸-豬
+UPDATE `etcitem` SET `skill` = '2076-1;', `handler` = 'ItemSkills' WHERE `item_id` = '4679';   -- 伊娃的祝福
+UPDATE `etcitem` SET `skill` = '2309-1;', `handler` = 'ItemSkills' WHERE `item_id` = '9144';   -- 豬豬禮盒
+UPDATE `etcitem` SET `skill` = '2422-1;', `handler` = 'ItemSkills' WHERE `item_id` = '10254';  -- 1級寶袋
+UPDATE `etcitem` SET `skill` = '2423-2;', `handler` = 'ItemSkills' WHERE `item_id` = '10255';  -- 2級寶袋
+UPDATE `etcitem` SET `skill` = '2424-3;', `handler` = 'ItemSkills' WHERE `item_id` = '10256';  -- 3級寶袋
+UPDATE `etcitem` SET `skill` = '2425-4;', `handler` = 'ItemSkills' WHERE `item_id` = '10257';  -- 4級寶袋
+UPDATE `etcitem` SET `skill` = '2426-5;', `handler` = 'ItemSkills' WHERE `item_id` = '10258';  -- 5級寶袋
+UPDATE `etcitem` SET `skill` = '2427-6;', `handler` = 'ItemSkills' WHERE `item_id` = '10259';  -- 6級寶袋
+UPDATE `etcitem` SET `skill` = '2487-1;', `handler` = 'ItemSkills' WHERE `item_id` = '10520';  -- 回聲水晶-倉木麻衣
+UPDATE `etcitem` SET `skill` = '2525-1;', `handler` = 'ItemSkills' WHERE `item_id` = '12753';  -- 闇天使村莊移動卷軸
+UPDATE `etcitem` SET `skill` = '2670-1;', `handler` = 'ItemSkills' WHERE `item_id` = '13794';  -- 變身體-翻滾方塊變身卷軸
+UPDATE `etcitem` SET `skill` = '2671-1;', `handler` = 'ItemSkills' WHERE `item_id` = '13795';  -- 變身體-翻滾方塊變身卷軸
+UPDATE `etcitem` SET `skill` = '2631-1;', `handler` = 'ItemSkills' WHERE `item_id` = '13800';  -- 青蛙變身卷軸
+UPDATE `etcitem` SET `skill` = '2632-1;', `handler` = 'ItemSkills' WHERE `item_id` = '13801';  -- 小孩變身卷軸
+UPDATE `etcitem` SET `skill` = '2672-1;', `handler` = 'ItemSkills' WHERE `item_id` = '13569';  -- 古魯丁人類傭兵變身卷軸
+UPDATE `etcitem` SET `skill` = '2673-1;', `handler` = 'ItemSkills' WHERE `item_id` = '13570';  -- 古魯丁精靈傭兵變身卷軸
+UPDATE `etcitem` SET `skill` = '2674-1;', `handler` = 'ItemSkills' WHERE `item_id` = '13571';  -- 古魯丁黑暗精靈傭兵變身卷軸
+UPDATE `etcitem` SET `skill` = '2675-1;', `handler` = 'ItemSkills' WHERE `item_id` = '13572';  -- 古魯丁半獸人傭兵變身卷軸
+UPDATE `etcitem` SET `skill` = '2676-1;', `handler` = 'ItemSkills' WHERE `item_id` = '13573';  -- 古魯丁矮人傭兵變身卷軸
+UPDATE `etcitem` SET `skill` = '2677-1;', `handler` = 'ItemSkills' WHERE `item_id` = '13574';  -- 古魯丁闇天使傭兵變身卷軸
+UPDATE `etcitem` SET `skill` = '2678-1;', `handler` = 'ItemSkills' WHERE `item_id` = '13575';  -- 古魯丁騎士傭兵變身卷軸
+UPDATE `etcitem` SET `skill` = '2679-1;', `handler` = 'ItemSkills' WHERE `item_id` = '13576';  -- 古魯丁弓手傭兵變身卷軸
+UPDATE `etcitem` SET `skill` = '2680-1;', `handler` = 'ItemSkills' WHERE `item_id` = '13577';  -- 古魯丁巫師傭兵變身卷軸
+UPDATE `etcitem` SET `skill` = '2681-1;', `handler` = 'ItemSkills' WHERE `item_id` = '13578';  -- 古魯丁百人隊長傭兵變身卷軸
+UPDATE `etcitem` SET `skill` = '2682-1;', `handler` = 'ItemSkills' WHERE `item_id` = '13579';  -- 古魯丁騎士隊長傭兵變身卷軸
+UPDATE `etcitem` SET `skill` = '2683-1;', `handler` = 'ItemSkills' WHERE `item_id` = '13580';  -- 古魯丁司令官傭兵變身卷軸
+UPDATE `etcitem` SET `skill` = '2684-1;', `handler` = 'ItemSkills' WHERE `item_id` = '13581';  -- 狄恩人類傭兵變身卷軸
+UPDATE `etcitem` SET `skill` = '2685-1;', `handler` = 'ItemSkills' WHERE `item_id` = '13582';  -- 狄恩精靈傭兵變身卷軸
+UPDATE `etcitem` SET `skill` = '2686-1;', `handler` = 'ItemSkills' WHERE `item_id` = '13583';  -- 狄恩黑暗精靈傭兵變身卷軸
+UPDATE `etcitem` SET `skill` = '2687-1;', `handler` = 'ItemSkills' WHERE `item_id` = '13584';  -- 狄恩半獸人傭兵變身卷軸
+UPDATE `etcitem` SET `skill` = '2688-1;', `handler` = 'ItemSkills' WHERE `item_id` = '13585';  -- 狄恩矮人傭兵變身卷軸
+UPDATE `etcitem` SET `skill` = '2689-1;', `handler` = 'ItemSkills' WHERE `item_id` = '13586';  -- 狄恩闇天使傭兵變身卷軸
+UPDATE `etcitem` SET `skill` = '2690-1;', `handler` = 'ItemSkills' WHERE `item_id` = '13587';  -- 狄恩騎士傭兵變身卷軸
+UPDATE `etcitem` SET `skill` = '2691-1;', `handler` = 'ItemSkills' WHERE `item_id` = '13588';  -- 狄恩弓手傭兵變身卷軸
+UPDATE `etcitem` SET `skill` = '2692-1;', `handler` = 'ItemSkills' WHERE `item_id` = '13589';  -- 狄恩巫師傭兵變身卷軸
+UPDATE `etcitem` SET `skill` = '2693-1;', `handler` = 'ItemSkills' WHERE `item_id` = '13590';  -- 狄恩百人隊長傭兵變身卷軸
+UPDATE `etcitem` SET `skill` = '2694-1;', `handler` = 'ItemSkills' WHERE `item_id` = '13591';  -- 狄恩騎士隊長傭兵變身卷軸
+UPDATE `etcitem` SET `skill` = '2695-1;', `handler` = 'ItemSkills' WHERE `item_id` = '13592';  -- 狄恩司令官傭兵變身卷軸
+UPDATE `etcitem` SET `skill` = '2696-1;', `handler` = 'ItemSkills' WHERE `item_id` = '13593';  -- 奇岩人類傭兵變身卷軸
+UPDATE `etcitem` SET `skill` = '2697-1;', `handler` = 'ItemSkills' WHERE `item_id` = '13594';  -- 奇岩精靈傭兵變身卷軸
+UPDATE `etcitem` SET `skill` = '2698-1;', `handler` = 'ItemSkills' WHERE `item_id` = '13595';  -- 奇岩黑暗精靈傭兵變身卷軸
+UPDATE `etcitem` SET `skill` = '2699-1;', `handler` = 'ItemSkills' WHERE `item_id` = '13596';  -- 奇岩半獸人傭兵變身卷軸
+UPDATE `etcitem` SET `skill` = '2700-1;', `handler` = 'ItemSkills' WHERE `item_id` = '13597';  -- 奇岩矮人傭兵變身卷軸
+UPDATE `etcitem` SET `skill` = '2701-1;', `handler` = 'ItemSkills' WHERE `item_id` = '13598';  -- 奇岩闇天使傭兵變身卷軸
+UPDATE `etcitem` SET `skill` = '2702-1;', `handler` = 'ItemSkills' WHERE `item_id` = '13599';  -- 奇岩騎士傭兵變身卷軸
+UPDATE `etcitem` SET `skill` = '2703-1;', `handler` = 'ItemSkills' WHERE `item_id` = '13600';  -- 奇岩弓手傭兵變身卷軸
+UPDATE `etcitem` SET `skill` = '2704-1;', `handler` = 'ItemSkills' WHERE `item_id` = '13601';  -- 奇岩巫師傭兵變身卷軸
+UPDATE `etcitem` SET `skill` = '2705-1;', `handler` = 'ItemSkills' WHERE `item_id` = '13602';  -- 奇岩百人隊長傭兵變身卷軸
+UPDATE `etcitem` SET `skill` = '2706-1;', `handler` = 'ItemSkills' WHERE `item_id` = '13603';  -- 奇岩騎士隊長傭兵變身卷軸
+UPDATE `etcitem` SET `skill` = '2707-1;', `handler` = 'ItemSkills' WHERE `item_id` = '13604';  -- 奇岩司令官傭兵變身卷軸
+UPDATE `etcitem` SET `skill` = '2708-1;', `handler` = 'ItemSkills' WHERE `item_id` = '13605';  -- 歐瑞人類傭兵變身卷軸
+UPDATE `etcitem` SET `skill` = '2709-1;', `handler` = 'ItemSkills' WHERE `item_id` = '13606';  -- 歐瑞精靈傭兵變身卷軸
+UPDATE `etcitem` SET `skill` = '2710-1;', `handler` = 'ItemSkills' WHERE `item_id` = '13607';  -- 歐瑞黑暗精靈傭兵變身卷軸
+UPDATE `etcitem` SET `skill` = '2711-1;', `handler` = 'ItemSkills' WHERE `item_id` = '13608';  -- 歐瑞半獸人傭兵變身卷軸
+UPDATE `etcitem` SET `skill` = '2712-1;', `handler` = 'ItemSkills' WHERE `item_id` = '13609';  -- 歐瑞矮人傭兵變身卷軸
+UPDATE `etcitem` SET `skill` = '2713-1;', `handler` = 'ItemSkills' WHERE `item_id` = '13610';  -- 歐瑞闇天使傭兵變身卷軸
+UPDATE `etcitem` SET `skill` = '2714-1;', `handler` = 'ItemSkills' WHERE `item_id` = '13611';  -- 歐瑞騎士傭兵變身卷軸
+UPDATE `etcitem` SET `skill` = '2715-1;', `handler` = 'ItemSkills' WHERE `item_id` = '13612';  -- 歐瑞弓手傭兵變身卷軸
+UPDATE `etcitem` SET `skill` = '2716-1;', `handler` = 'ItemSkills' WHERE `item_id` = '13613';  -- 歐瑞巫師傭兵變身卷軸
+UPDATE `etcitem` SET `skill` = '2717-1;', `handler` = 'ItemSkills' WHERE `item_id` = '13614';  -- 歐瑞百人隊長傭兵變身卷軸
+UPDATE `etcitem` SET `skill` = '2718-1;', `handler` = 'ItemSkills' WHERE `item_id` = '13615';  -- 歐瑞騎士隊長傭兵變身卷軸
+UPDATE `etcitem` SET `skill` = '2719-1;', `handler` = 'ItemSkills' WHERE `item_id` = '13616';  -- 歐瑞司令官傭兵變身卷軸
+UPDATE `etcitem` SET `skill` = '2720-1;', `handler` = 'ItemSkills' WHERE `item_id` = '13617';  -- 亞丁人類傭兵變身卷軸
+UPDATE `etcitem` SET `skill` = '2721-1;', `handler` = 'ItemSkills' WHERE `item_id` = '13618';  -- 亞丁精靈傭兵變身卷軸
+UPDATE `etcitem` SET `skill` = '2722-1;', `handler` = 'ItemSkills' WHERE `item_id` = '13619';  -- 亞丁黑暗精靈傭兵變身卷軸
+UPDATE `etcitem` SET `skill` = '2723-1;', `handler` = 'ItemSkills' WHERE `item_id` = '13620';  -- 亞丁半獸人傭兵變身卷軸
+UPDATE `etcitem` SET `skill` = '2724-1;', `handler` = 'ItemSkills' WHERE `item_id` = '13621';  -- 亞丁矮人傭兵變身卷軸
+UPDATE `etcitem` SET `skill` = '2725-1;', `handler` = 'ItemSkills' WHERE `item_id` = '13622';  -- 亞丁闇天使傭兵變身卷軸
+UPDATE `etcitem` SET `skill` = '2726-1;', `handler` = 'ItemSkills' WHERE `item_id` = '13623';  -- 亞丁騎士傭兵變身卷軸
+UPDATE `etcitem` SET `skill` = '2727-1;', `handler` = 'ItemSkills' WHERE `item_id` = '13624';  -- 亞丁弓手傭兵變身卷軸
+UPDATE `etcitem` SET `skill` = '2728-1;', `handler` = 'ItemSkills' WHERE `item_id` = '13625';  -- 亞丁巫師傭兵變身卷軸
+UPDATE `etcitem` SET `skill` = '2729-1;', `handler` = 'ItemSkills' WHERE `item_id` = '13626';  -- 亞丁百人隊長傭兵變身卷軸
+UPDATE `etcitem` SET `skill` = '2730-1;', `handler` = 'ItemSkills' WHERE `item_id` = '13627';  -- 亞丁騎士隊長傭兵變身卷軸
+UPDATE `etcitem` SET `skill` = '2731-1;', `handler` = 'ItemSkills' WHERE `item_id` = '13628';  -- 亞丁司令官傭兵變身卷軸
+UPDATE `etcitem` SET `skill` = '2732-1;', `handler` = 'ItemSkills' WHERE `item_id` = '13629';  -- 因納得立人類傭兵變身卷軸
+UPDATE `etcitem` SET `skill` = '2733-1;', `handler` = 'ItemSkills' WHERE `item_id` = '13630';  -- 因納得立精靈傭兵變身卷軸
+UPDATE `etcitem` SET `skill` = '2734-1;', `handler` = 'ItemSkills' WHERE `item_id` = '13631';  -- 因納得立黑暗精靈傭兵變身卷軸
+UPDATE `etcitem` SET `skill` = '2735-1;', `handler` = 'ItemSkills' WHERE `item_id` = '13632';  -- 因納得立半獸人傭兵變身卷軸
+UPDATE `etcitem` SET `skill` = '2736-1;', `handler` = 'ItemSkills' WHERE `item_id` = '13633';  -- 因納得立矮人傭兵變身卷軸
+UPDATE `etcitem` SET `skill` = '2737-1;', `handler` = 'ItemSkills' WHERE `item_id` = '13634';  -- 因納得立闇天使傭兵變身卷軸
+UPDATE `etcitem` SET `skill` = '2738-1;', `handler` = 'ItemSkills' WHERE `item_id` = '13635';  -- 因納得立騎士傭兵變身卷軸
+UPDATE `etcitem` SET `skill` = '2739-1;', `handler` = 'ItemSkills' WHERE `item_id` = '13636';  -- 因納得立弓手傭兵變身卷軸
+UPDATE `etcitem` SET `skill` = '2740-1;', `handler` = 'ItemSkills' WHERE `item_id` = '13637';  -- 因納得立巫師傭兵變身卷軸
+UPDATE `etcitem` SET `skill` = '2741-1;', `handler` = 'ItemSkills' WHERE `item_id` = '13638';  -- 因納得立百人隊長傭兵變身卷軸
+UPDATE `etcitem` SET `skill` = '2742-1;', `handler` = 'ItemSkills' WHERE `item_id` = '13639';  -- 因納得立騎士隊長傭兵變身卷軸
+UPDATE `etcitem` SET `skill` = '2743-1;', `handler` = 'ItemSkills' WHERE `item_id` = '13640';  -- 因納得立司令官傭兵變身卷軸
+UPDATE `etcitem` SET `skill` = '2744-1;', `handler` = 'ItemSkills' WHERE `item_id` = '13641';  -- 高達特人類傭兵變身卷軸
+UPDATE `etcitem` SET `skill` = '2745-1;', `handler` = 'ItemSkills' WHERE `item_id` = '13642';  -- 高達特精靈傭兵變身卷軸
+UPDATE `etcitem` SET `skill` = '2746-1;', `handler` = 'ItemSkills' WHERE `item_id` = '13643';  -- 高達特黑暗精靈傭兵變身卷軸
+UPDATE `etcitem` SET `skill` = '2747-1;', `handler` = 'ItemSkills' WHERE `item_id` = '13644';  -- 高達特半獸人傭兵變身卷軸
+UPDATE `etcitem` SET `skill` = '2748-1;', `handler` = 'ItemSkills' WHERE `item_id` = '13645';  -- 高達特矮人傭兵變身卷軸
+UPDATE `etcitem` SET `skill` = '2749-1;', `handler` = 'ItemSkills' WHERE `item_id` = '13646';  -- 高達特闇天使傭兵變身卷軸
+UPDATE `etcitem` SET `skill` = '2750-1;', `handler` = 'ItemSkills' WHERE `item_id` = '13647';  -- 高達特騎士傭兵變身卷軸
+UPDATE `etcitem` SET `skill` = '2751-1;', `handler` = 'ItemSkills' WHERE `item_id` = '13648';  -- 高達特弓手傭兵變身卷軸
+UPDATE `etcitem` SET `skill` = '2752-1;', `handler` = 'ItemSkills' WHERE `item_id` = '13649';  -- 高達特巫師傭兵變身卷軸
+UPDATE `etcitem` SET `skill` = '2753-1;', `handler` = 'ItemSkills' WHERE `item_id` = '13650';  -- 高達特百人隊長傭兵變身卷軸
+UPDATE `etcitem` SET `skill` = '2754-1;', `handler` = 'ItemSkills' WHERE `item_id` = '13651';  -- 高達特騎士隊長傭兵變身卷軸
+UPDATE `etcitem` SET `skill` = '2755-1;', `handler` = 'ItemSkills' WHERE `item_id` = '13652';  -- 高達特司令官傭兵變身卷軸
+UPDATE `etcitem` SET `skill` = '2756-1;', `handler` = 'ItemSkills' WHERE `item_id` = '13653';  -- 魯因人類傭兵變身卷軸
+UPDATE `etcitem` SET `skill` = '2757-1;', `handler` = 'ItemSkills' WHERE `item_id` = '13654';  -- 魯因精靈傭兵變身卷軸
+UPDATE `etcitem` SET `skill` = '2758-1;', `handler` = 'ItemSkills' WHERE `item_id` = '13655';  -- 魯因黑暗精靈傭兵變身卷軸
+UPDATE `etcitem` SET `skill` = '2759-1;', `handler` = 'ItemSkills' WHERE `item_id` = '13656';  -- 魯因半獸人傭兵變身卷軸
+UPDATE `etcitem` SET `skill` = '2760-1;', `handler` = 'ItemSkills' WHERE `item_id` = '13657';  -- 魯因矮人傭兵變身卷軸
+UPDATE `etcitem` SET `skill` = '2761-1;', `handler` = 'ItemSkills' WHERE `item_id` = '13658';  -- 魯因闇天使傭兵變身卷軸
+UPDATE `etcitem` SET `skill` = '2762-1;', `handler` = 'ItemSkills' WHERE `item_id` = '13659';  -- 魯因騎士傭兵變身卷軸
+UPDATE `etcitem` SET `skill` = '2763-1;', `handler` = 'ItemSkills' WHERE `item_id` = '13660';  -- 魯因弓手傭兵變身卷軸
+UPDATE `etcitem` SET `skill` = '2764-1;', `handler` = 'ItemSkills' WHERE `item_id` = '13661';  -- 魯因巫師傭兵變身卷軸
+UPDATE `etcitem` SET `skill` = '2765-1;', `handler` = 'ItemSkills' WHERE `item_id` = '13662';  -- 魯因百人隊長傭兵變身卷軸
+UPDATE `etcitem` SET `skill` = '2766-1;', `handler` = 'ItemSkills' WHERE `item_id` = '13663';  -- 魯因騎士隊長傭兵變身卷軸
+UPDATE `etcitem` SET `skill` = '2767-1;', `handler` = 'ItemSkills' WHERE `item_id` = '13664';  -- 魯因司令官傭兵變身卷軸
+UPDATE `etcitem` SET `skill` = '2768-1;', `handler` = 'ItemSkills' WHERE `item_id` = '13665';  -- 修加特人類傭兵變身卷軸
+UPDATE `etcitem` SET `skill` = '2769-1;', `handler` = 'ItemSkills' WHERE `item_id` = '13666';  -- 修加特精靈傭兵變身卷軸
+UPDATE `etcitem` SET `skill` = '2770-1;', `handler` = 'ItemSkills' WHERE `item_id` = '13667';  -- 修加特黑暗精靈傭兵變身卷軸
+UPDATE `etcitem` SET `skill` = '2771-1;', `handler` = 'ItemSkills' WHERE `item_id` = '13668';  -- 修加特半獸人傭兵變身卷軸
+UPDATE `etcitem` SET `skill` = '2772-1;', `handler` = 'ItemSkills' WHERE `item_id` = '13669';  -- 修加特矮人傭兵變身卷軸
+UPDATE `etcitem` SET `skill` = '2773-1;', `handler` = 'ItemSkills' WHERE `item_id` = '13670';  -- 修加特闇天使傭兵變身卷軸
+UPDATE `etcitem` SET `skill` = '2774-1;', `handler` = 'ItemSkills' WHERE `item_id` = '13671';  -- 修加特騎士傭兵變身卷軸
+UPDATE `etcitem` SET `skill` = '2775-1;', `handler` = 'ItemSkills' WHERE `item_id` = '13672';  -- 修加特弓手傭兵變身卷軸
+UPDATE `etcitem` SET `skill` = '2776-1;', `handler` = 'ItemSkills' WHERE `item_id` = '13673';  -- 修加特巫師傭兵變身卷軸
+UPDATE `etcitem` SET `skill` = '2777-1;', `handler` = 'ItemSkills' WHERE `item_id` = '13674';  -- 修加特百人隊長傭兵變身卷軸
+UPDATE `etcitem` SET `skill` = '2778-1;', `handler` = 'ItemSkills' WHERE `item_id` = '13675';  -- 修加特騎士隊長傭兵變身卷軸
+UPDATE `etcitem` SET `skill` = '2779-1;', `handler` = 'ItemSkills' WHERE `item_id` = '13676';  -- 修加特司令官傭兵變身卷軸
 
 -- 修正學習一、二轉的技能不需要魔法書
 DELETE FROM `skill_spellbooks` WHERE (`item_id` < 7644) OR (`item_id` > 8379 AND `item_Id` < 8618) OR (`item_id` > 8889 AND `item_Id` < 8892) OR (`item_id` = 8909) OR (`item_id` > 8944 AND `item_Id` < 8947) OR (`item_id` > 10024 AND `item_Id` < 10067) OR (`item_id` > 10069 AND `item_Id` < 10090) OR (`item_id` > 10091 AND `item_Id` < 10099) OR (`item_id` > 10179 AND `item_Id` < 10184) OR (`item_id` > 10203 AND `item_Id` < 10598) OR (`item_id` = 10600) OR (`item_id` > 10607 AND `item_Id` < 10611) OR (`item_id` > 12771 AND `item_Id` < 12779) OR (`item_id` = 12820);
