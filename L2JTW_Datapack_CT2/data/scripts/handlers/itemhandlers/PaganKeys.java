@@ -75,13 +75,35 @@ public class PaganKeys implements IItemHandler
 		
 		switch (itemId)
 		{
+			case 9698:
+				if (door.getDoorId() == 24220020)
+				{
+					DoorTable.getInstance().getDoor(24220020).openMe();
+					DoorTable.getInstance().getDoor(24220020).onOpen();
+				}
+				else
+				{
+					activeChar.sendMessage(148);
+				}
+				break;
+			case 9699:
+				if (door.getDoorId() == 24220022)
+				{
+					DoorTable.getInstance().getDoor(24220022).openMe();
+					DoorTable.getInstance().getDoor(24220022).onOpen();
+				}
+				else
+				{
+					activeChar.sendMessage(148);
+				}
+				break;
 			case 8056:
 				if (door.getDoorId() == 23150004||door.getDoorId() == 23150003)
 				{
 					DoorTable.getInstance().getDoor(23150003).openMe();
 					DoorTable.getInstance().getDoor(23150003).onOpen();
 					DoorTable.getInstance().getDoor(23150004).openMe();
-					DoorTable.getInstance().getDoor(23150003).onOpen();
+					DoorTable.getInstance().getDoor(23150004).onOpen();
 				}
 				else
 				{
@@ -93,7 +115,6 @@ public class PaganKeys implements IItemHandler
 				{
 					if (Rnd.get(100) < openChance)
 					{
-						activeChar.sendMessage(589);
 						door.openMe();
 						door.onOpen(); // Closes the door after 60sec
 						activeChar.broadcastPacket(new SocialAction(activeChar.getObjectId(), 3));
@@ -112,23 +133,13 @@ public class PaganKeys implements IItemHandler
 					activeChar.sendMessage(148);
 				}
 				break;
-			case 8274: //Chapel key, Chapel Door has a Gatekeeper?? I use this key for Altar Entrance
-				if (door.getDoorName().startsWith("Altar_Entrance"))
+			case 8274: //Chapel key
+				if (door.getDoorId() == 19160010||door.getDoorId() == 19160011)
 				{
-					if (Rnd.get(100) < openChance)
-					{
-						activeChar.sendMessage(588);
-						door.openMe();
-						door.onOpen();
-						activeChar.broadcastPacket(new SocialAction(activeChar.getObjectId(), 3));
-					}
-					else
-					{
-						activeChar.sendMessage(519);
-						activeChar.broadcastPacket(new SocialAction(activeChar.getObjectId(), 13));
-						PlaySound playSound = new PlaySound("interfacesound.system_close_01");
-						activeChar.sendPacket(playSound);
-					}
+					DoorTable.getInstance().getDoor(19160010).openMe();
+					DoorTable.getInstance().getDoor(19160010).onOpen();
+					DoorTable.getInstance().getDoor(19160011).openMe();
+					DoorTable.getInstance().getDoor(19160011).onOpen();
 				}
 				else
 				{
@@ -140,7 +151,6 @@ public class PaganKeys implements IItemHandler
 				{
 					if (Rnd.get(100) < openChance)
 					{
-						activeChar.sendMessage(590);
 						door.openMe();
 						door.onOpen();
 						activeChar.broadcastPacket(new SocialAction(activeChar.getObjectId(), 3));
@@ -159,49 +169,41 @@ public class PaganKeys implements IItemHandler
 				}
 				break;
 			case 9694: //Update by rocknow
-			{
-				if ((door.getDoorId() != 24220001 && door.getDoorId() != 24220002 && door.getDoorId() != 24220003 && door.getDoorId() != 24220004 && door.getDoorId() != 24220007) || door.getOpen())
+				if ((door.getDoorId() == 24220001))
 				{
-					activeChar.sendPacket(new SystemMessage(SystemMessageId.INCORRECT_TARGET));
-					activeChar.sendPacket(ActionFailed.STATIC_PACKET);
-					return;
+					DoorTable.getInstance().getDoor(24220001).openMe();
 				}
-				door.openMe();
-				break;
-			}
-			case 9698: //Update by rocknow
-			{
-				if ((door.getDoorId() != 24220020) || door.getOpen())
+				else if ((door.getDoorId() == 24220002))
 				{
-					activeChar.sendPacket(new SystemMessage(SystemMessageId.INCORRECT_TARGET));
-					activeChar.sendPacket(ActionFailed.STATIC_PACKET);
-					return;
+					DoorTable.getInstance().getDoor(24220002).openMe();
 				}
-				door.openMe();
-				break;
-			}
-			case 9699: //Update by rocknow
-			{
-				if ((door.getDoorId() != 24220022) || door.getOpen())
+				else if ((door.getDoorId() == 24220003))
 				{
-					activeChar.sendPacket(new SystemMessage(SystemMessageId.INCORRECT_TARGET));
-					activeChar.sendPacket(ActionFailed.STATIC_PACKET);
-					return;
+					DoorTable.getInstance().getDoor(24220003).openMe();
 				}
-				door.openMe();
+				else if ((door.getDoorId() == 24220004))
+				{
+					DoorTable.getInstance().getDoor(24220004).openMe();
+				}
+				else if ((door.getDoorId() == 24220007))
+				{
+					DoorTable.getInstance().getDoor(24220007).openMe();
+				}
+				else
+				{
+					activeChar.sendMessage(148);
+				}
 				break;
-			}
 			case 10015: //Update by rocknow
-			{
-				if ((door.getDoorId() != 24220008) || door.getOpen())
+				if ((door.getDoorId() == 24220008))
 				{
-					activeChar.sendPacket(new SystemMessage(SystemMessageId.INCORRECT_TARGET));
-					activeChar.sendPacket(ActionFailed.STATIC_PACKET);
-					return;
+					DoorTable.getInstance().getDoor(24220008).openMe();
 				}
-				door.openMe();
+				else
+				{
+					activeChar.sendMessage(148);
+				}
 				break;
-			}
 		}
 	}
 }
