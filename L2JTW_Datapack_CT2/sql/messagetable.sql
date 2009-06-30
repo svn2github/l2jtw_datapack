@@ -459,8 +459,8 @@ INSERT INTO `messagetable` VALUES ('147', 'en', 'Illegal action performed!', nul
 INSERT INTO `messagetable` VALUES ('147', 'tw', '做出非法動作！', null);
 INSERT INTO `messagetable` VALUES ('147', 'cn', '做出非法动作！', null);
 INSERT INTO `messagetable` VALUES ('148', 'en', 'Incorrect Door.', null);
-INSERT INTO `messagetable` VALUES ('148', 'tw', '錯誤的門。', null);
-INSERT INTO `messagetable` VALUES ('148', 'cn', '错误的门。', null);
+INSERT INTO `messagetable` VALUES ('148', 'tw', '鑰匙無法開啟這扇門。', null);
+INSERT INTO `messagetable` VALUES ('148', 'cn', '钥匙无法开启这扇门。', null);
 INSERT INTO `messagetable` VALUES ('149', 'en', 'Next', null);
 INSERT INTO `messagetable` VALUES ('149', 'tw', '下一頁', null);
 INSERT INTO `messagetable` VALUES ('149', 'cn', '下一页', null);

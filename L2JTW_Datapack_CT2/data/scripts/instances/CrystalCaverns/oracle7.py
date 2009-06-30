@@ -5,7 +5,7 @@ from net.sf.l2j.gameserver.model.quest		       import QuestState
 from net.sf.l2j.gameserver.model.quest.jython	   import QuestJython as JQuest
 from net.sf.l2j.util							   import Rnd
 
-ORACLE_GUIDE = 32279
+ORACLE_GUIDE = 32280
 
 class PyObject:
 	pass
@@ -36,7 +36,7 @@ class oracle5(JQuest):
 			tele.x = 149361+Rnd.get(-100,100)
 			tele.y = 172327+Rnd.get(-100,100)
 			tele.z = -945
-			st = player.getQuestState("oracle5")
+			st = player.getQuestState("oracle7")
 			if not st :
 				st = self.newQuestState(player)
 			st.takeItems(9694,-1)
@@ -47,10 +47,10 @@ class oracle5(JQuest):
 
 	def onTalk (self,npc,player):
 		npcId = npc.getNpcId()
-		htmltext = "<html><body>神諭引導者：<br><a action=\"bypass -h Quest oracle5 out\">離開這裡</a></body></html>"
+		htmltext = "<html><body>神諭引導者：<br><a action=\"bypass -h Quest oracle7 out\">離開這裡</a></body></html>"
 		return htmltext
 
-QUEST = oracle5(-1, "oracle5", "ai")
+QUEST = oracle5(-1, "oracle7", "ai")
 
 QUEST.addStartNpc(ORACLE_GUIDE)
 

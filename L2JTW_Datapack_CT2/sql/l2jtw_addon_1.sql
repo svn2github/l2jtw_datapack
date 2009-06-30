@@ -476,16 +476,25 @@ REPLACE INTO `grandboss_data` VALUES
 ('29020', '116067', '17484', '10110', '41740', '0', '3698520', '39960', '0'),
 ('29022', '55312', '219168', '-3223', '0', '0', '858518', '1975', '0'),
 ('29028', '-105200', '-253104', '-15264', '833', '0', '16660000', '39960', '0'),
-('29065', '-123348', '-248881', '-15537', '44732', '0', '1532678', '4255', '0');
+('29065', '-123348', '-248881', '-15537', '44732', '0', '1532678', '4255', '0'),
+('29099', '153569', '142075', '-12732', '60025', '0', '1448567', '3718', '0');
 UPDATE `npc` SET `aggro` = 500 WHERE `id` IN (29020,29021,29022,29065,29069,29070);
 UPDATE `npc` SET `hp` = '13090000', `mp` = '39960' WHERE `id` IN (29019);
 UPDATE `npc` SET `hp` = '3698520', `mp` = '39960' WHERE `id` IN (29020);
 UPDATE `npc` SET `hp` = '16660000', `mp` = '39960' WHERE `id` IN (29028);
 UPDATE `npc` SET `hp` = '1532678', `mp` = '4255', `type` = 'L2GrandBoss', `level` = '87', `AI` = 'fighter' WHERE `id` IN (29065);
+UPDATE `npc` SET `idTemplate` = '29099', `level` = '83', `type` = 'L2GrandBoss', `faction_id` = 'baylor_clan', `faction_range`= '1000', `atkspd` = '540', `matkspd` = '253', `walkspd` = '80', `runspd` = '120' WHERE `id` IN (29099);
+UPDATE `npc` SET `level` = '78', `type` = 'L2Monster', `faction_id` = 'baylor_clan', `faction_range` = '1000' WHERE `id` IN (29100);
+UPDATE `npc` SET `collision_radius` = '38.00', `collision_height` = '77.00' WHERE `id` IN (29108);
+UPDATE `npc` SET `collision_radius` = '0.10', `collision_height` = '0.10' WHERE `id` IN (29109);
+UPDATE `npc` SET `level` = '78', `type` = 'L2Monster' WHERE `id` IN (29116);
 UPDATE `npc` SET `mp` = '3793' WHERE `id` IN (29006,29014);
 UPDATE `npc` SET `level` = '78' WHERE `id` IN (29070);
 UPDATE `npc` SET `faction_id` = 'antharas_clan', `faction_range` = '1000' WHERE `id` IN (29019,29069,29070);
 UPDATE `npc` SET `faction_id` = 'baium_clan', `faction_range` = '1000' WHERE `id` IN (29020,29021);
+DELETE FROM `npcskills` Where `skillid` IN (5224,5225);
+DELETE FROM `raidboss_spawnlist` WHERE `boss_id` = '29099';
+DELETE FROM `droplist` Where `itemId` = 9698 and `mobId` = 22275;
 REPLACE INTO `npcskills` VALUES
 (29020,4127,1),
 (29020,4128,1),
@@ -518,7 +527,11 @@ REPLACE INTO `npcskills` VALUES
 (29028,4687,1),
 (29028,4688,1),
 (29028,4689,1),
-(29028,4690,1);
+(29028,4690,1),
+(29099,4298,1),
+(29099,4422,5),
+(29099,4789,1),
+(29100,4305,1);
 
                
 /************ 加入81級技能(效果尚未完全實裝) ************/

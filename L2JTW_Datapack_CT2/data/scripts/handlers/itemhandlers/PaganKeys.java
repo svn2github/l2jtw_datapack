@@ -78,8 +78,7 @@ public class PaganKeys implements IItemHandler
 			case 9698:
 				if (door.getDoorId() == 24220020)
 				{
-					DoorTable.getInstance().getDoor(24220020).openMe();
-					DoorTable.getInstance().getDoor(24220020).onOpen();
+					door.openMe(); //Update by rocknow
 				}
 				else
 				{
@@ -89,8 +88,7 @@ public class PaganKeys implements IItemHandler
 			case 9699:
 				if (door.getDoorId() == 24220022)
 				{
-					DoorTable.getInstance().getDoor(24220022).openMe();
-					DoorTable.getInstance().getDoor(24220022).onOpen();
+					door.openMe(); //Update by rocknow
 				}
 				else
 				{
@@ -169,25 +167,9 @@ public class PaganKeys implements IItemHandler
 				}
 				break;
 			case 9694: //Update by rocknow
-				if ((door.getDoorId() == 24220001))
+				if (door.getDoorId() == 24220001 || door.getDoorId() == 24220002 || door.getDoorId() == 24220003 || door.getDoorId() == 24220004 || door.getDoorId() == 24220007)
 				{
-					DoorTable.getInstance().getDoor(24220001).openMe();
-				}
-				else if ((door.getDoorId() == 24220002))
-				{
-					DoorTable.getInstance().getDoor(24220002).openMe();
-				}
-				else if ((door.getDoorId() == 24220003))
-				{
-					DoorTable.getInstance().getDoor(24220003).openMe();
-				}
-				else if ((door.getDoorId() == 24220004))
-				{
-					DoorTable.getInstance().getDoor(24220004).openMe();
-				}
-				else if ((door.getDoorId() == 24220007))
-				{
-					DoorTable.getInstance().getDoor(24220007).openMe();
+					door.openMe();
 				}
 				else
 				{
@@ -195,9 +177,9 @@ public class PaganKeys implements IItemHandler
 				}
 				break;
 			case 10015: //Update by rocknow
-				if ((door.getDoorId() == 24220008))
+				if (door.getDoorId() == 24220008 || door.getDoorId() == 2422009 || door.getDoorId() == 24220010 || door.getDoorId() == 24220011 || door.getDoorId() == 24220012 || door.getDoorId() == 24220014 || door.getDoorId() == 24220015 || door.getDoorId() == 24220016 || door.getDoorId() == 24220017 || door.getDoorId() == 24220019)
 				{
-					DoorTable.getInstance().getDoor(24220008).openMe();
+					door.openMe();
 				}
 				else
 				{

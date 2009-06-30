@@ -14,11 +14,11 @@
   <set name="hitTime" val="5800"/>
 </skill>
 <skill id="5402" levels="1" name="Presentation - Balor 2">
-  <!-- Balor - Magic Skill1 -->
-  <set name="target" val="TARGET_NONE"/>
-  <set name="skillType" val="NOTDONE"/>
-  <set name="operateType" val="OP_PASSIVE"/>
+  <!-- Update by rocknow -->
+  <set name="target" val="TARGET_SELF"/>
+  <set name="skillType" val="DUMMY"/>
   <set name="hitTime" val="4000"/>
+  <set name="operateType" val="OP_ACTIVE"/>
 </skill>
 <skill id="5403" levels="1" name="Presentation - Balor 3">
   <!-- Balor - Magic Skill2 -->
@@ -294,10 +294,11 @@
   <set name="hitTime" val="3000"/>
 </skill>
 <skill id="5441" levels="1" name="Presentation - Tears Mirror Image">
-  <set name="target" val="TARGET_NONE"/>
-  <set name="skillType" val="NOTDONE"/>
-  <set name="operateType" val="OP_PASSIVE"/>
-  <set name="hitTime" val="3000"/>
+  <!-- Update by rocknow -->
+  <set name="target" val="TARGET_SELF"/>
+  <set name="skillType" val="DUMMY"/>
+  <set name="staticHitTime" val="true"/>
+  <set name="operateType" val="OP_ACTIVE"/>
 </skill>
 <skill id="5442" levels="4" name="Bite Attack">
   <!-- Bite ferociously with sharp teeth. -->
