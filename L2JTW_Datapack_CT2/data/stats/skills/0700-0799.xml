@@ -34,7 +34,6 @@
 </skill>
 <skill id="702" levels="1" name="Divine Healer Clans">
   <set name="mpConsume" val="59"/>
-  <set name="power" val="100"/>
   <set name="target" val="TARGET_ONE"/>
   <set name="hitTime" val="4000"/>
   <set name="reuseDelay" val="32000"/>
@@ -481,7 +480,6 @@
 </skill>
 <skill id="724" levels="1" name="Anakim Clans">
   <set name="mpConsume" val="25"/>
-  <set name="power" val="100"/>
   <set name="target" val="TARGET_SELF"/>
   <set name="hitTime" val="1500"/>
   <set name="reuseDelay" val="32000"/>
@@ -786,7 +784,6 @@
 <skill id="745" levels="3" name="Vale Master Dark Cure">
   <table name="#mpConsume"> 27 28 29 </table>
   <set name="mpConsume" val="#mpConsume"/>
-  <set name="power" val="100"/>
   <set name="target" val="TARGET_ONE"/>
   <set name="hitTime" val="4000"/>
   <set name="reuseDelay" val="32000"/>
