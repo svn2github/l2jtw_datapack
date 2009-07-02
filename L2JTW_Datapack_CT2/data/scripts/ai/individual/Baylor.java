@@ -1,3 +1,17 @@
+/*
+ * This program is free software: you can redistribute it and/or modify it under
+ * the terms of the GNU General Public License as published by the Free Software
+ * Foundation, either version 3 of the License, or (at your option) any later
+ * version.
+ * 
+ * This program is distributed in the hope that it will be useful, but WITHOUT
+ * ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS
+ * FOR A PARTICULAR PURPOSE. See the GNU General Public License for more
+ * details.
+ * 
+ * You should have received a copy of the GNU General Public License along with
+ * this program. If not, see <http://www.gnu.org/licenses/>.
+ */
 package ai.individual;
 
 import javolution.util.FastList;
@@ -83,7 +97,7 @@ public class Baylor extends L2AttackableAIScript
 				int radius = 250;
 				int x = (int) (radius*Math.cos(i*.52));
 				int y = (int) (radius*Math.sin(i*.52));
-				L2Npc mob = addSpawn(GUARD,npc.getX()+x,npc.getY()+y,npc.getZ(),32300+_Heading,false,0, false, _InstanceId);
+				L2Npc mob = addSpawn(GUARD,npc.getX()+x,npc.getY()+y,npc.getZ(),32300+_Heading,false,0,false,_InstanceId);
 				_Heading = _Heading + 65536/6;
 				mob.setIsRaidMinion(true);
 				Minions.add((L2Attackable)mob);
@@ -97,7 +111,7 @@ public class Baylor extends L2AttackableAIScript
 				int radius = 300;
 				int x = (int) (radius*Math.cos(_SpawnNum*.52));
 				int y = (int) (radius*Math.sin(_SpawnNum*.52));
-				L2Npc mob = addSpawn(GUARD,153569+x,142075+y,-12732,32300+_Heading,false,0, false, _InstanceId);
+				L2Npc mob = addSpawn(GUARD,153569+x,142075+y,-12732,32300+_Heading,false,0,false,_InstanceId);
 				_Heading = _Heading + 65536/12;
 				_SpawnNum = _SpawnNum + 1;
 				mob.doCast(SkillTable.getInstance().getInfo(5441,1));
@@ -128,12 +142,12 @@ public class Baylor extends L2AttackableAIScript
 			_SpawnMob = 0;
 			_SpawnNum = 0;
 			_SpawnDie = 29700;
-			L2Npc mob = addSpawn(29109,153569,142075,-12732,0,false,0, false, _InstanceId);
+			L2Npc mob = addSpawn(29109,153569,142075,-12732,0,false,0,false,_InstanceId);
 			this.startQuestTimer("camera_1",1000, mob, null);
 		}
 		else if (event.equalsIgnoreCase("waiting_boss"))
 		{
-			L2GrandBossInstance baylor = (L2GrandBossInstance) addSpawn(BAYLOR,153569,142075,-12732,60060,false,0, false, _InstanceId);
+			L2GrandBossInstance baylor = (L2GrandBossInstance) addSpawn(BAYLOR,153569,142075,-12732,60060,false,0,false,_InstanceId);
 			GrandBossManager.getInstance().addBoss(baylor);
 			baylor.setIsInvul(true);
 			baylor.setIsParalyzed(true);
@@ -183,7 +197,7 @@ public class Baylor extends L2AttackableAIScript
 		}
 		else if (event.equalsIgnoreCase("camera_7"))
 		{
-			L2Npc mob = addSpawn(29108,153021,142364,-12737,60025,false,0, false, _InstanceId);
+			L2Npc mob = addSpawn(29108,153021,142364,-12737,60025,false,0,false,_InstanceId);
 			this.startQuestTimer("camera_8",500, mob, null);
 			this.startQuestTimer("waiting_boss",1500, mob, null);
 			npc.broadcastPacket(new SpecialCamera(npc.getObjectId(),80,55,30,500,550));
@@ -252,7 +266,26 @@ public class Baylor extends L2AttackableAIScript
 		}
 		else if (event.equalsIgnoreCase("spawn_cubes"))
 		{
-			addSpawn(32280,153569,142075,-12732,0,false,300000, false, _InstanceId);
+			addSpawn(32280,153569,142075,-12732,0,false,300000,false,_InstanceId);
+		}
+		else if (event.equalsIgnoreCase("spawn_chest"))
+		{
+			addSpawn(29116,153706,142212,-12741,7579,false,300000,false,_InstanceId);
+			addSpawn(29116,154192,142697,-12741,7894,false,300000,false,_InstanceId);
+			addSpawn(29116,153763,142075,-12741,64792,false,300000,false,_InstanceId);
+			addSpawn(29116,153701,141942,-12741,57739,false,300000,false,_InstanceId);
+			addSpawn(29116,153573,141894,-12741,49471,false,300000,false,_InstanceId);
+			addSpawn(29116,153445,141945,-12741,41113,false,300000,false,_InstanceId);
+			addSpawn(29116,153381,142076,-12741,32767,false,300000,false,_InstanceId);
+			addSpawn(29116,153441,142211,-12741,25730,false,300000,false,_InstanceId);
+			addSpawn(29116,153573,142260,-12741,16185,false,300000,false,_InstanceId);
+			addSpawn(29116,153571,142860,-12741,16716,false,300000,false,_InstanceId);
+			addSpawn(29116,152783,142077,-12741,32176,false,300000,false,_InstanceId);
+			addSpawn(29116,153571,141274,-12741,49072,false,300000,false,_InstanceId);
+			addSpawn(29116,154365,142073,-12741,64149,false,300000,false,_InstanceId);
+			addSpawn(29116,152924,142677,-12741,25072,false,300000,false,_InstanceId);
+			addSpawn(29116,152907,141428,-12741,39590,false,300000,false,_InstanceId);
+			addSpawn(29116,154243,141411,-12741,55500,false,300000,false,_InstanceId);
 		}
 	}
 	else
@@ -267,8 +300,8 @@ public class Baylor extends L2AttackableAIScript
 
 	public String onTalk(L2Npc npc,L2PcInstance player)
 	{
-	String htmltext = "";
-	if (GrandBossManager.getInstance().getBossStatus(BAYLOR) == DORMANT)
+		String htmltext = "";
+		if (GrandBossManager.getInstance().getBossStatus(BAYLOR) == DORMANT)
 		{
 			_InstanceId = player.getInstanceId();
 			if (!player.isInParty())
@@ -313,10 +346,10 @@ public class Baylor extends L2AttackableAIScript
 				}
 			}
 		}
-	else if (GrandBossManager.getInstance().getBossStatus(BAYLOR) == WAITING || GrandBossManager.getInstance().getBossStatus(BAYLOR) == FIGHTING)
-		htmltext = "<html><body>神諭引導者：<br><font color=\"LEVEL\">已經有人進入巴爾勒巢穴。<br1>在他們與巴爾勒的對戰結束之前不能讓你們進入。</font></body></html>";
-	else
-		htmltext = "<html><body>神諭引導者：<br><font color=\"LEVEL\">巴爾勒目前沉睡中.....請回吧。</font></body></html>";
+		else if (GrandBossManager.getInstance().getBossStatus(BAYLOR) == WAITING || GrandBossManager.getInstance().getBossStatus(BAYLOR) == FIGHTING)
+			htmltext = "<html><body>神諭引導者：<br><font color=\"LEVEL\">已經有人進入巴爾勒巢穴。<br1>在他們與巴爾勒的對戰結束之前不能讓你們進入。</font></body></html>";
+		else
+			htmltext = "<html><body>神諭引導者：<br><font color=\"LEVEL\">巴爾勒目前沉睡中.....請回吧。</font></body></html>";
 	return htmltext;
 	}
 
@@ -369,21 +402,22 @@ public class Baylor extends L2AttackableAIScript
 
 	public String onKill (L2Npc npc, L2PcInstance killer, boolean isPet)
 	{ 
-	if (npc.getNpcId() == BAYLOR && GrandBossManager.getInstance().getBossStatus(BAYLOR) == FIGHTING)
-	{
-		npc.broadcastPacket(new PlaySound(1, "BS01_D", 1, npc.getObjectId(), npc.getX(), npc.getY(), npc.getZ()));
-		this.cancelQuestTimer("skillcycle", npc, null);
-		this.cancelQuestTimer("baylor_despawn", npc, null);
-		this.startQuestTimer("spawn_cubes", 5000, npc, null);
-		this.startQuestTimer("despawn_minions",20000, npc, null);
-		GrandBossManager.getInstance().setBossStatus(BAYLOR,DEAD);
-		long respawnTime = (ExternalConfig.Interval_Of_Baylor_Spawn + Rnd.get(ExternalConfig.Random_Of_Baylor_Spawn));
-		this.startQuestTimer("baylor_unlock", respawnTime, null, null);
-		// also save the respawn time so that the info is maintained past reboots
-		StatsSet info = GrandBossManager.getInstance().getStatsSet(BAYLOR);
-		info.set("respawn_time",(System.currentTimeMillis() + respawnTime));
-		GrandBossManager.getInstance().setStatsSet(BAYLOR,info);
-	}
+		if (npc.getNpcId() == BAYLOR && GrandBossManager.getInstance().getBossStatus(BAYLOR) == FIGHTING)
+		{
+			npc.broadcastPacket(new PlaySound(1, "BS01_D", 1, npc.getObjectId(), npc.getX(), npc.getY(), npc.getZ()));
+			this.cancelQuestTimer("skillcycle", npc, null);
+			this.cancelQuestTimer("baylor_despawn", npc, null);
+			this.startQuestTimer("spawn_cubes", 5000, npc, null);
+			this.startQuestTimer("spawn_chest",5000, npc, null);
+			this.startQuestTimer("despawn_minions",20000, npc, null);
+			GrandBossManager.getInstance().setBossStatus(BAYLOR,DEAD);
+			long respawnTime = (ExternalConfig.Interval_Of_Baylor_Spawn + Rnd.get(ExternalConfig.Random_Of_Baylor_Spawn));
+			this.startQuestTimer("baylor_unlock", respawnTime, null, null);
+			// also save the respawn time so that the info is maintained past reboots
+			StatsSet info = GrandBossManager.getInstance().getStatsSet(BAYLOR);
+			info.set("respawn_time",(System.currentTimeMillis() + respawnTime));
+			GrandBossManager.getInstance().setStatsSet(BAYLOR,info);
+		}
 	return super.onKill(npc,killer,isPet);
 	}
 
