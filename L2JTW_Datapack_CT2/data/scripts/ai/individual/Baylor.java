@@ -87,21 +87,113 @@ public class Baylor extends L2AttackableAIScript
 
 	public String onAdvEvent (String event, L2Npc npc, L2PcInstance player)
 	{
-	if (npc != null)
-	{
 		long temp = 0;
-		if (event.equalsIgnoreCase("spawn_minion"))
+		if (event.equalsIgnoreCase("waiting"))
 		{
-			for (int i = 0; i < 12; i+=2)
-			{
-				int radius = 250;
-				int x = (int) (radius*Math.cos(i*.52));
-				int y = (int) (radius*Math.sin(i*.52));
-				L2Npc mob = addSpawn(GUARD,npc.getX()+x,npc.getY()+y,npc.getZ(),32300+_Heading,false,0,false,_InstanceId);
-				_Heading = _Heading + 65536/6;
-				mob.setIsRaidMinion(true);
-				Minions.add((L2Attackable)mob);
-			}
+			_SpawnMob = 0;
+			_SpawnNum = 0;
+			_SpawnDie = 29700;
+			L2Npc mob = addSpawn(29109,153569,142075,-12732,0,false,0,false,_InstanceId);
+			this.startQuestTimer("camera_1", 1000, mob, null);
+		}
+		else if (event.equalsIgnoreCase("waiting_boss"))
+		{
+			L2GrandBossInstance baylor = (L2GrandBossInstance) addSpawn(BAYLOR,153569,142075,-12732,60060,false,0,false,_InstanceId);
+			GrandBossManager.getInstance().addBoss(baylor);
+			baylor.setIsInvul(true);
+			baylor.setIsParalyzed(true);
+			baylor.setIsImmobilized(true);
+			_SkillCycle = 0;
+			_LastAction = System.currentTimeMillis();
+			this.startQuestTimer("action", 100, baylor, null);
+			this.startQuestTimer("skill00", 20000, baylor, null);
+			this.startQuestTimer("baylor_despawn", 30000, baylor, null, true);
+		}
+		else if (event.equalsIgnoreCase("skillcycle"))
+		{
+			_SkillCycle = 0;
+		}
+		else if (event.equalsIgnoreCase("action"))
+		{
+			npc.broadcastPacket(new SocialAction(npc.getObjectId(),1));
+		}
+		else if (event.equalsIgnoreCase("camera_1"))
+		{
+			this.startQuestTimer("camera_2", 2000, npc, null);
+			npc.broadcastPacket(new SpecialCamera(npc.getObjectId(),260,55,7,2000,3000));
+		}
+		else if (event.equalsIgnoreCase("camera_2"))
+		{
+			this.startQuestTimer("camera_3", 2000, npc, null);
+			npc.broadcastPacket(new SpecialCamera(npc.getObjectId(),260,325,6,2000,3000));
+		}
+		else if (event.equalsIgnoreCase("camera_3"))
+		{
+			this.startQuestTimer("camera_4", 2000, npc, null);
+			npc.broadcastPacket(new SpecialCamera(npc.getObjectId(),260,235,5,2000,3000));
+		}
+		else if (event.equalsIgnoreCase("camera_4"))
+		{
+			this.startQuestTimer("spawn00", 500, npc, null);
+			this.startQuestTimer("camera_5", 2000, npc, null);
+			npc.broadcastPacket(new SpecialCamera(npc.getObjectId(),340,145,4,2000,3000));
+		}
+		else if (event.equalsIgnoreCase("camera_5"))
+		{
+			this.startQuestTimer("camera_6", 2000, npc, null);
+			npc.broadcastPacket(new SpecialCamera(npc.getObjectId(),340,55,4,2000,3000));
+		}
+		else if (event.equalsIgnoreCase("camera_6"))
+		{
+			this.startQuestTimer("camera_7", 2000, npc, null);
+			npc.broadcastPacket(new SpecialCamera(npc.getObjectId(),700,55,30,2000,3000));
+		}
+		else if (event.equalsIgnoreCase("camera_7"))
+		{
+			L2Npc mob = addSpawn(29108,153021,142364,-12737,60025,false,0,false,_InstanceId);
+			this.startQuestTimer("camera_8", 500, mob, null);
+			this.startQuestTimer("waiting_boss", 1500, mob, null);
+			npc.broadcastPacket(new SpecialCamera(npc.getObjectId(),80,55,30,500,550));
+			npc.deleteMe();
+		}
+		else if (event.equalsIgnoreCase("camera_8"))
+		{
+			this.startQuestTimer("camera_9", 0, npc, null);
+			npc.broadcastPacket(new SpecialCamera(npc.getObjectId(),0,209,0,0,100));
+		}
+		else if (event.equalsIgnoreCase("camera_9"))
+		{
+			this.startQuestTimer("camera_10", 12500, npc, null);
+			npc.broadcastPacket(new SpecialCamera(npc.getObjectId(),90,209,0,12500,13000));
+		}
+		else if (event.equalsIgnoreCase("camera_10"))
+		{
+			this.startQuestTimer("camera_11", 1000, npc, null);
+			npc.broadcastPacket(new SpecialCamera(npc.getObjectId(),630,209,18,1000,2500));
+		}
+		else if (event.equalsIgnoreCase("camera_11"))
+		{
+			this.startQuestTimer("camera_12", 6000, npc, null);
+			npc.broadcastPacket(new SpecialCamera(npc.getObjectId(),630,209,0,1000,6500));
+		}
+		else if (event.equalsIgnoreCase("camera_12"))
+		{
+			this.startQuestTimer("camera_13", 1000, npc, null);
+			npc.broadcastPacket(new SpecialCamera(npc.getObjectId(),1200,209,3,0,1500));
+		}
+		else if (event.equalsIgnoreCase("camera_13"))
+		{
+			this.startQuestTimer("camera_14", 2000, npc, null);
+			npc.broadcastPacket(new SpecialCamera(npc.getObjectId(),630,209,0,1500,2500));
+		}
+		else if (event.equalsIgnoreCase("camera_14"))
+		{
+			this.startQuestTimer("camera_15", 5000, npc, null);
+			npc.broadcastPacket(new SpecialCamera(npc.getObjectId(),1200,209,7,0,6000));
+		}
+		else if (event.equalsIgnoreCase("camera_15"))
+		{
+			npc.deleteMe();
 		}
 		else if (event.equalsIgnoreCase("spawn00"))
 		{
@@ -116,9 +208,9 @@ public class Baylor extends L2AttackableAIScript
 				_SpawnNum = _SpawnNum + 1;
 				mob.doCast(SkillTable.getInstance().getInfo(5441,1));
 				mob.setIsParalyzed(true);
-				this.startQuestTimer("die",_SpawnDie, mob, null);
+				this.startQuestTimer("die", _SpawnDie, mob, null);
 				_SpawnDie = _SpawnDie - 450;
-				this.startQuestTimer("spawn00",450, mob, null);
+				this.startQuestTimer("spawn00", 450, mob, null);
 			}
 		}
 		else if (event.equalsIgnoreCase("skill00"))
@@ -128,119 +220,9 @@ public class Baylor extends L2AttackableAIScript
 			npc.setIsInvul(false);
 			npc.setIsImmobilized(false);
 		}
-		else if (event.equalsIgnoreCase("skillcycle"))
-		{
-			_SkillCycle = 0;
-		}
 		else if (event.equalsIgnoreCase("die"))
 		{
 			npc.doDie(npc);
-		}
-		else if (event.equalsIgnoreCase("waiting"))
-		{
-			_SkillCycle = 0;
-			_SpawnMob = 0;
-			_SpawnNum = 0;
-			_SpawnDie = 29700;
-			L2Npc mob = addSpawn(29109,153569,142075,-12732,0,false,0,false,_InstanceId);
-			this.startQuestTimer("camera_1",1000, mob, null);
-		}
-		else if (event.equalsIgnoreCase("waiting_boss"))
-		{
-			L2GrandBossInstance baylor = (L2GrandBossInstance) addSpawn(BAYLOR,153569,142075,-12732,60060,false,0,false,_InstanceId);
-			GrandBossManager.getInstance().addBoss(baylor);
-			baylor.setIsInvul(true);
-			baylor.setIsParalyzed(true);
-			baylor.setIsImmobilized(true);
-			baylor.getSpawn().setLocx(153569);
-			baylor.getSpawn().setLocy(142075);
-			baylor.getSpawn().setLocz(-12732);
-			_LastAction = System.currentTimeMillis();
-			this.startQuestTimer("action",100, baylor, null);
-			this.startQuestTimer("skill00",20000, baylor, null);
-			this.startQuestTimer("baylor_despawn",30000, baylor, null, true);
-		}
-		else if (event.equalsIgnoreCase("action"))
-		{
-			npc.broadcastPacket(new SocialAction(npc.getObjectId(),1));
-		}
-		else if (event.equalsIgnoreCase("camera_1"))
-		{
-			this.startQuestTimer("camera_2",2000, npc, null);
-			npc.broadcastPacket(new SpecialCamera(npc.getObjectId(),260,55,7,2000,3000));
-		}
-		else if (event.equalsIgnoreCase("camera_2"))
-		{
-			this.startQuestTimer("camera_3",2000, npc, null);
-			npc.broadcastPacket(new SpecialCamera(npc.getObjectId(),260,325,6,2000,3000));
-		}
-		else if (event.equalsIgnoreCase("camera_3"))
-		{
-			this.startQuestTimer("camera_4",2000, npc, null);
-			npc.broadcastPacket(new SpecialCamera(npc.getObjectId(),260,235,5,2000,3000));
-		}
-		else if (event.equalsIgnoreCase("camera_4"))
-		{
-			this.startQuestTimer("spawn00",500, npc, null);
-			this.startQuestTimer("camera_5",2000, npc, null);
-			npc.broadcastPacket(new SpecialCamera(npc.getObjectId(),340,145,4,2000,3000));
-		}
-		else if (event.equalsIgnoreCase("camera_5"))
-		{
-			this.startQuestTimer("camera_6",2000, npc, null);
-			npc.broadcastPacket(new SpecialCamera(npc.getObjectId(),340,55,4,2000,3000));
-		}
-		else if (event.equalsIgnoreCase("camera_6"))
-		{
-			this.startQuestTimer("camera_7",2000, npc, null);
-			npc.broadcastPacket(new SpecialCamera(npc.getObjectId(),700,55,30,2000,3000));
-		}
-		else if (event.equalsIgnoreCase("camera_7"))
-		{
-			L2Npc mob = addSpawn(29108,153021,142364,-12737,60025,false,0,false,_InstanceId);
-			this.startQuestTimer("camera_8",500, mob, null);
-			this.startQuestTimer("waiting_boss",1500, mob, null);
-			npc.broadcastPacket(new SpecialCamera(npc.getObjectId(),80,55,30,500,550));
-			npc.deleteMe();
-		}
-		else if (event.equalsIgnoreCase("camera_8"))
-		{
-			this.startQuestTimer("camera_9",0, npc, null);
-			npc.broadcastPacket(new SpecialCamera(npc.getObjectId(),0,209,0,0,100));
-		}
-		else if (event.equalsIgnoreCase("camera_9"))
-		{
-			this.startQuestTimer("camera_10",12500, npc, null);
-			npc.broadcastPacket(new SpecialCamera(npc.getObjectId(),90,209,0,12500,13000));
-		}
-		else if (event.equalsIgnoreCase("camera_10"))
-		{
-			this.startQuestTimer("camera_11",1000, npc, null);
-			npc.broadcastPacket(new SpecialCamera(npc.getObjectId(),630,209,18,1000,2500));
-		}
-		else if (event.equalsIgnoreCase("camera_11"))
-		{
-			this.startQuestTimer("camera_12",6000, npc, null);
-			npc.broadcastPacket(new SpecialCamera(npc.getObjectId(),630,209,0,1000,6500));
-		}
-		else if (event.equalsIgnoreCase("camera_12"))
-		{
-			this.startQuestTimer("camera_13",1000, npc, null);
-			npc.broadcastPacket(new SpecialCamera(npc.getObjectId(),1200,209,3,0,1500));
-		}
-		else if (event.equalsIgnoreCase("camera_13"))
-		{
-			this.startQuestTimer("camera_14",2000, npc, null);
-			npc.broadcastPacket(new SpecialCamera(npc.getObjectId(),630,209,0,1500,2500));
-		}
-		else if (event.equalsIgnoreCase("camera_14"))
-		{
-			this.startQuestTimer("camera_15",5000, npc, null);
-			npc.broadcastPacket(new SpecialCamera(npc.getObjectId(),1200,209,7,0,6000));
-		}
-		else if (event.equalsIgnoreCase("camera_15"))
-		{
-			npc.deleteMe();
 		}
 		else if (event.equalsIgnoreCase("baylor_despawn"))
 		{
@@ -250,11 +232,10 @@ public class Baylor extends L2AttackableAIScript
 				npc.deleteMe();
 				GrandBossManager.getInstance().setBossStatus(BAYLOR,DORMANT);
 				this.cancelQuestTimer("baylor_despawn", npc, null);
-				this.startQuestTimer("spawn_cubes", 1000, npc, null);
-				this.startQuestTimer("despawn_minions",1000, npc, null);
+				this.startQuestTimer("minions_despawn", 1000, npc, null);
 			}
 		}
-		else if (event.equalsIgnoreCase("despawn_minions"))
+		else if (event.equalsIgnoreCase("minions_despawn"))
 		{
 			for (int i = 0; i < Minions.size(); i++)
 			{
@@ -263,6 +244,19 @@ public class Baylor extends L2AttackableAIScript
 				mob.decayMe();
 			}
 			Minions.clear();
+		}
+		else if (event.equalsIgnoreCase("spawn_minion"))
+		{
+			for (int i = 0; i < 12; i+=2)
+			{
+				int radius = 250;
+				int x = (int) (radius*Math.cos(i*.52));
+				int y = (int) (radius*Math.sin(i*.52));
+				L2Npc mob = addSpawn(GUARD,npc.getX()+x,npc.getY()+y,npc.getZ(),32300+_Heading,false,0,false,_InstanceId);
+				_Heading = _Heading + 65536/6;
+				mob.setIsRaidMinion(true);
+				Minions.add((L2Attackable)mob);
+			}
 		}
 		else if (event.equalsIgnoreCase("spawn_cubes"))
 		{
@@ -287,14 +281,10 @@ public class Baylor extends L2AttackableAIScript
 			addSpawn(29116,152907,141428,-12741,39590,false,300000,false,_InstanceId);
 			addSpawn(29116,154243,141411,-12741,55500,false,300000,false,_InstanceId);
 		}
-	}
-	else
-	{
-		if (event.equalsIgnoreCase("baylor_unlock"))
+		else if (event.equalsIgnoreCase("baylor_unlock"))
 		{
 			GrandBossManager.getInstance().setBossStatus(BAYLOR,DORMANT);
 		}
-	}
 	return super.onAdvEvent(event, npc, player);
 	}
 
@@ -311,7 +301,7 @@ public class Baylor extends L2AttackableAIScript
 					player.getQuestState("baylor").takeItems(Rnd.get(9695, 9697),1);
 					player.teleToLocation(153569 + Rnd.get(-150, 150),142075 + Rnd.get(-150, 150),-12732);
 					htmltext = "";
-					this.startQuestTimer("waiting",30000, npc, null);
+					this.startQuestTimer("waiting", 30000, npc, null);
 					_LastAction = System.currentTimeMillis();
 					GrandBossManager.getInstance().setBossStatus(BAYLOR,WAITING);
 				}
@@ -340,7 +330,7 @@ public class Baylor extends L2AttackableAIScript
 					mem.destroyItemByItemId("Quest", Rnd.get(9695, 9697), 1, mem, true);
 					mem.teleToLocation(153569 + Rnd.get(-150, 150),142075 + Rnd.get(-150, 150),-12732);
 					htmltext = "";
-					this.startQuestTimer("waiting",30000, npc, null);
+					this.startQuestTimer("waiting", 30000, npc, null);
 					_LastAction = System.currentTimeMillis();
 					GrandBossManager.getInstance().setBossStatus(BAYLOR,WAITING);
 				}
@@ -362,39 +352,39 @@ public class Baylor extends L2AttackableAIScript
 		}
 		if (npc.getNpcId() == BAYLOR && _SkillCycle == 0 && GrandBossManager.getInstance().getBossStatus(BAYLOR) == FIGHTING)
 		{
-			if (Rnd.get(100) < 70)
+			if (Rnd.get(100) < 70 && npc.isAttackingNow())
 			{
 				_SkillCycle = 1;
 				npc.doCast(SkillTable.getInstance().getInfo(Rnd.get(5227,5229),1));
 				npc.setCurrentMp(npc.getMaxMp());
-				this.startQuestTimer("skillcycle",7000, npc, null);
+				this.startQuestTimer("skillcycle", Rnd.get(5000,7000), npc, null);
 			}
-			else if (npc.getCurrentHp() < npc.getMaxHp() / 2 && Rnd.get(100) < 30)
+			else if (npc.getCurrentHp() < npc.getMaxHp() / 2 && Rnd.get(100) < 30 && npc.isAttackingNow())
 			{
 				_SkillCycle = 1;
 				npc.doCast(SkillTable.getInstance().getInfo(5224,1));
-				this.startQuestTimer("skillcycle",7000, npc, null);
+				this.startQuestTimer("skillcycle", Rnd.get(6000,8000), npc, null);
 			}
-			else if (npc.getCurrentHp() < npc.getMaxHp() / 4 && Rnd.get(100) < 10)
+			else if (npc.getCurrentHp() < npc.getMaxHp() / 4 && Rnd.get(100) < 10 && npc.isAttackingNow())
 			{
 				_SkillCycle = 1;
 				npc.doCast(SkillTable.getInstance().getInfo(5225,1));
-				this.startQuestTimer("skillcycle",7000, npc, null);
+				this.startQuestTimer("skillcycle", Rnd.get(6000,8000), npc, null);
 			}
 			else
 			{
 				_SkillCycle = 1;
-				this.startQuestTimer("skillcycle",1000, npc, null);
+				this.startQuestTimer("skillcycle", 1000, npc, null);
 			}
 		}
 		if (npc.getNpcId() == BAYLOR && _SpawnMob == 0 && npc.getCurrentHp() < npc.getMaxHp() / 2 && GrandBossManager.getInstance().getBossStatus(BAYLOR) == FIGHTING)
 		{
-			this.startQuestTimer("spawn_minion",1000, npc, null);
+			this.startQuestTimer("spawn_minion", 1000, npc, null);
 			_SpawnMob = 1;
 		}
 		else if (npc.getNpcId() == BAYLOR && _SpawnMob == 1 && npc.getCurrentHp() < npc.getMaxHp() / 4 && GrandBossManager.getInstance().getBossStatus(BAYLOR) == FIGHTING)
 		{
-			this.startQuestTimer("spawn_minion",1000, npc, null);
+			this.startQuestTimer("spawn_minion", 1000, npc, null);
 			_SpawnMob = 2;
 		}
 		return super.onAttack(npc, attacker, damage, isPet);
@@ -405,14 +395,13 @@ public class Baylor extends L2AttackableAIScript
 		if (npc.getNpcId() == BAYLOR && GrandBossManager.getInstance().getBossStatus(BAYLOR) == FIGHTING)
 		{
 			npc.broadcastPacket(new PlaySound(1, "BS01_D", 1, npc.getObjectId(), npc.getX(), npc.getY(), npc.getZ()));
-			this.cancelQuestTimer("skillcycle", npc, null);
 			this.cancelQuestTimer("baylor_despawn", npc, null);
 			this.startQuestTimer("spawn_cubes", 5000, npc, null);
-			this.startQuestTimer("spawn_chest",5000, npc, null);
-			this.startQuestTimer("despawn_minions",20000, npc, null);
+			this.startQuestTimer("spawn_chest", 5000, npc, null);
+			this.startQuestTimer("minions_despawn", 20000, npc, null);
 			GrandBossManager.getInstance().setBossStatus(BAYLOR,DEAD);
 			long respawnTime = (ExternalConfig.Interval_Of_Baylor_Spawn + Rnd.get(ExternalConfig.Random_Of_Baylor_Spawn));
-			this.startQuestTimer("baylor_unlock", respawnTime, null, null);
+			this.startQuestTimer("baylor_unlock", respawnTime, npc, null);
 			// also save the respawn time so that the info is maintained past reboots
 			StatsSet info = GrandBossManager.getInstance().getStatsSet(BAYLOR);
 			info.set("respawn_time",(System.currentTimeMillis() + respawnTime));

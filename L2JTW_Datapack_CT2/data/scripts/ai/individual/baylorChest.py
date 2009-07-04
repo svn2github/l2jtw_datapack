@@ -9,7 +9,7 @@ from net.sf.l2j.util import Rnd
 BOX = 29116
 
 def dropItem(npc,itemId,count,player):
-	ditem = ItemTable.getInstance().createItem("Loot", itemId, count, player)
+	ditem = ItemTable.getInstance().createItem("quest", itemId, count, player)
 	ditem.dropMe(npc, npc.getX(), npc.getY(), npc.getZ()); 
 
 class baylorChest(JQuest):
