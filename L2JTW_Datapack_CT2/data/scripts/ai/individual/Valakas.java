@@ -14,35 +14,18 @@
  */
 package ai.individual;
 
-import static net.sf.l2j.gameserver.ai.CtrlIntention.AI_INTENTION_FOLLOW;
-import static net.sf.l2j.gameserver.ai.CtrlIntention.AI_INTENTION_IDLE;
-
-import java.util.Collection;
-
-import javolution.util.FastList;
 import ai.group_template.L2AttackableAIScript;
-
-import net.sf.l2j.gameserver.ThreadPoolManager;
 import net.sf.l2j.gameserver.datatables.SkillTable;
 import net.sf.l2j.gameserver.instancemanager.GrandBossManager;
-import net.sf.l2j.gameserver.model.L2Effect;
-import net.sf.l2j.gameserver.model.L2Object;
-import net.sf.l2j.gameserver.model.L2Skill;
-import net.sf.l2j.gameserver.model.actor.L2Character;
 import net.sf.l2j.gameserver.model.actor.L2Npc;
-import net.sf.l2j.gameserver.model.actor.L2Summon;
-import net.sf.l2j.gameserver.model.actor.instance.L2DecoyInstance;
 import net.sf.l2j.gameserver.model.actor.instance.L2GrandBossInstance;
 import net.sf.l2j.gameserver.model.actor.instance.L2PcInstance;
-import net.sf.l2j.gameserver.model.quest.QuestTimer;
 import net.sf.l2j.gameserver.model.zone.type.L2BossZone;
 import net.sf.l2j.gameserver.network.serverpackets.PlaySound;
 import net.sf.l2j.gameserver.network.serverpackets.SocialAction;
 import net.sf.l2j.gameserver.network.serverpackets.SpecialCamera;
 import net.sf.l2j.gameserver.templates.StatsSet;
-import net.sf.l2j.gameserver.util.Util;
 import net.sf.l2j.util.Rnd;
-import net.sf.l2j.gameserver.GeoData;
 import net.sf.l2j.ExternalConfig;
 
 /**
@@ -51,1878 +34,307 @@ import net.sf.l2j.ExternalConfig;
  */
 public class Valakas extends L2AttackableAIScript
 {
-	private int i_ai0 = 0;
-	private int i_ai1 = 0;
-	private int i_ai2 = 0;
-	private int i_ai3 = 0;
-	private int i_ai4 = 0;
-	private int i_quest0 = 0;
-	private long i_quest1 = 0; // time to tracking valakas when was last time attacked
-	private int i_quest2 = 0; // hate value for 1st player
-	private int i_quest3 = 0; // hate value for 2nd player
-	private int i_quest4 = 0; // hate value for 3rd player
-	private L2Character c_quest2 = null; // 1st most hated target
-	private L2Character c_quest3 = null; // 2nd most hated target
-	private L2Character c_quest4 = null; // 3rd most hated target
 
 	private static final int VALAKAS = 29028;
 
 	//Valakas Status Tracking :
-	private static final byte DORMANT = 0;     	//Valakas is spawned and no one has entered yet. Entry is unlocked
-	private static final byte WAITING = 1;     	//Valakas is spawend and someone has entered, triggering a 30 minute window for additional people to enter
-	                							//before he unleashes his attack. Entry is unlocked
-	private static final byte FIGHTING = 2;    	//Valakas is engaged in battle, annihilating his foes. Entry is locked
-	private static final byte DEAD = 3;        	//Valakas has been killed. Entry is locked
-	
+	private static final byte DORMANT = 0;	 	//Valakas is spawned and no one has entered yet. Entry is unlocked
+	private static final byte WAITING = 1;	 	//Valakas is spawend and someone has entered, triggering a 30 minute window for additional people to enter
+												//before he unleashes his attack. Entry is unlocked
+	private static final byte FIGHTING = 2;		//Valakas is engaged in battle, annihilating his foes. Entry is locked
+	private static final byte DEAD = 3;			//Valakas has been killed. Entry is locked
+
 	private static L2BossZone _Zone;
-	
+
+	private static long _LastAction = 0;
+	private static int _SkillCycle = 0;
+
 	// Boss: Valakas
 	public Valakas(int id,String name,String descr)
 	{
-        super(id,name,descr);
-        int[] mob = {VALAKAS};
-        this.registerMobs(mob);
-        i_ai0 = 0;
-        i_ai1 = 0;
-        i_ai2 = 0;
-        i_ai3 = 0;
-        i_ai4 = 0;
-        i_quest0 = 0;
-        i_quest1 = System.currentTimeMillis();
-        _Zone = GrandBossManager.getInstance().getZone(212852,-114842,-1632);
-        StatsSet info = GrandBossManager.getInstance().getStatsSet(VALAKAS);
-        int status = GrandBossManager.getInstance().getBossStatus(VALAKAS);
-        if (status == DEAD)
-        {
-            // load the unlock date and time for valakas from DB
-            long temp = (info.getLong("respawn_time") - System.currentTimeMillis());
-            // if valakas is locked until a certain time, mark it so and start the unlock timer
-            // the unlock time has not yet expired.  Mark valakas as currently locked.  Setup a timer
-            // to fire at the correct time (calculate the time between now and the unlock time,
-            // setup a timer to fire after that many msec)
-            if (temp > 0)
-            {
-                this.startQuestTimer("valakas_unlock", temp, null, null);
-            }
-            else
-            {
-                // the time has already expired while the server was offline. Immediately spawn valakas in his cave.
-                // also, the status needs to be changed to DORMANT
-                L2GrandBossInstance valakas = (L2GrandBossInstance) addSpawn(VALAKAS,-105200,-253104,-15264,0,false,0);
-                GrandBossManager.getInstance().setBossStatus(VALAKAS,DORMANT);
-                GrandBossManager.getInstance().addBoss(valakas);
-                final L2Npc _valakas = valakas;
-                ThreadPoolManager.getInstance().scheduleGeneral(new Runnable() {
-    				public void run()
-    				{
-    					try
-    		            {
-    						_valakas.setIsInvul(true);
-    						_valakas.setIsImmobilized(true);
-    		                _valakas.setRunning();
-    		            }
-    		            catch (Throwable e)
-    		            {
-    		            }
-    				}
-    			},100L);
-            }
-        }
-        else
-        {
-            int loc_x = info.getInteger("loc_x");
-            int loc_y = info.getInteger("loc_y");
-            int loc_z = info.getInteger("loc_z");
-            int heading = info.getInteger("heading");
-            final int hp = info.getInteger("currentHP");
-            final int mp = info.getInteger("currentMP");
-            L2GrandBossInstance valakas = (L2GrandBossInstance) addSpawn(VALAKAS,loc_x,loc_y,loc_z,heading,false,0);
-            GrandBossManager.getInstance().addBoss(valakas);
-            final L2Npc _valakas = valakas;
-            ThreadPoolManager.getInstance().scheduleGeneral(new Runnable() {
-				public void run()
-				{
-					try
-		            {
-			            _valakas.setCurrentHpMp(hp,mp);
-						_valakas.setIsInvul(true);
-						_valakas.setIsImmobilized(true);
-		                _valakas.setRunning();
-		            }
-		            catch (Throwable e)
-		            {
-		            }
-				}
-			},100L);
-
-            if (status == WAITING)
-            {
-                // Start timer to lock entry after 30 minutes
-                startQuestTimer("1001",ExternalConfig.Valakas_Wait_Time, valakas, null);
-            }
-            else if (status == FIGHTING)
-            {
-                // Start repeating timer to check for inactivity
-                startQuestTimer("1002",60000, valakas, null, true);
-                valakas.setIsInvul(false);
-                valakas.setIsImmobilized(false);
-            }
-        }
+		super(id,name,descr);
+		int[] mob = {VALAKAS};
+		this.registerMobs(mob);
+		_Zone = GrandBossManager.getInstance().getZone(212852,-114842,-1632);
+		StatsSet info = GrandBossManager.getInstance().getStatsSet(VALAKAS);
+		int status = GrandBossManager.getInstance().getBossStatus(VALAKAS);
+		if (status == DEAD)
+		{
+			long temp = (info.getLong("respawn_time") - System.currentTimeMillis());
+			if (temp > 0)
+			{
+				this.startQuestTimer("valakas_unlock", temp, null, null);
+			}
+			else
+			{
+				GrandBossManager.getInstance().setBossStatus(VALAKAS,DORMANT);
+			}
+		}
+		else
+		{
+			GrandBossManager.getInstance().setBossStatus(VALAKAS,DORMANT);
+		}
 	}
 
 	public String onAdvEvent (String event, L2Npc npc, L2PcInstance player)
 	{
-        if (npc != null)
-        {
-        	long temp = 0;
-			if (event.equalsIgnoreCase("1001"))
-            {
-                npc.teleToLocation(212852,-114842,-1632);
-                npc.setIsInvul(true);
-                npc.setIsImmobilized(true);
-                npc.setRunning();
-                npc.getSpawn().setLocx(212852);
-                npc.getSpawn().setLocy(-114842);
-                npc.getSpawn().setLocz(-1632);
-                startQuestTimer("1001b",100, npc, null);
-            }
-            else if (event.equalsIgnoreCase("1001b"))
-            {
-            	// delete me once animations available
-            	//GrandBossManager.getInstance().setBossStatus(VALAKAS,FIGHTING);
-            	//
-                i_quest1 = System.currentTimeMillis();
-                final L2Npc _valakas = npc;
-                ThreadPoolManager.getInstance().scheduleGeneral(new Runnable() {
-    				public void run()
-    				{
-    					try
-    		            {
-    						broadcastSpawn(_valakas);
-    		            }
-    		            catch (Throwable e)
-    		            {
-    		            }
-    				}
-    			},1L);
-                startQuestTimer("1004",1, npc, null);
-			}	
-            else if (event.equalsIgnoreCase("1002"))
-            {
-            	int lvl = 0;
-    			int sk_4691 = 0;
-    			L2Effect[] effects = npc.getAllEffects();
-    			if (effects.length != 0 || effects != null)
-    			{
-    				for (L2Effect e : effects)
-    				{
-    					if (e.getSkill().getId() == 4629)
-    					{
-    						sk_4691 = 1;
-    						lvl = e.getSkill().getLevel();
-    						break;
-    					}
-    				}
-    	        }
-            	if (GrandBossManager.getInstance().getBossStatus(VALAKAS) == FIGHTING)
-            	{
-            		temp = (System.currentTimeMillis() - i_quest1);
-            		_Zone = GrandBossManager.getInstance().getZone(212852,-114842,-1632);
-            		if (temp > 900000)
-            		{
-            			npc.getAI().setIntention(AI_INTENTION_IDLE);
-            			npc.teleToLocation(-105200,-253104,-15264);
-            			GrandBossManager.getInstance().setBossStatus(VALAKAS,DORMANT);
-            			npc.setCurrentHpMp(npc.getMaxHp(),npc.getMaxMp());
-            			_Zone.oustAllPlayers();
-            			cancelQuestTimer("1002", npc, null);
-            			i_quest2 = 0;
-            			i_quest3 = 0;
-            			i_quest4 = 0;
-            		}
-					else if (!_Zone.isInsideZone(npc))
-                		npc.teleToLocation(212852,-114842,-1632);
-                }
-            	else if (npc.getCurrentHp() > ( ( npc.getMaxHp() * 3 ) / 4 ) )
-            	{
-            		if (sk_4691 == 0 ||(sk_4691 == 1 && lvl != 1))
-            		{
-            			npc.setIsCastingNow(false);
-            			npc.setTarget(npc);
-            			npc.doCast(SkillTable.getInstance().getInfo(4691,1));
-            			npc.setIsCastingNow(true);
-            		}
-            	}
-            	else if (npc.getCurrentHp() > ( ( npc.getMaxHp() * 2 ) / 4 ) )
-            	{
-            		if (sk_4691 == 0 ||(sk_4691 == 1 && lvl != 2))
-            		{
-            			npc.setIsCastingNow(false);
-            			npc.setTarget(npc);
-            			npc.doCast(SkillTable.getInstance().getInfo(4691,2));
-            			npc.setIsCastingNow(true);
-            		}
-            	}
-            	else if (npc.getCurrentHp() > ( ( npc.getMaxHp() * 1 ) / 4 ) )
-            	{
-            		if (sk_4691 == 0 ||(sk_4691 == 1 && lvl != 3))
-            		{
-            			npc.setIsCastingNow(false);
-            			npc.setTarget(npc);
-            			npc.doCast(SkillTable.getInstance().getInfo(4691,3));
-            			npc.setIsCastingNow(true);
-            		}
-            	}
-            	else if (sk_4691 == 0 ||(sk_4691 == 1 && lvl != 4))
-            	{
-            		npc.setIsCastingNow(false);
-            		npc.setTarget(npc);
-            		npc.doCast(SkillTable.getInstance().getInfo(4691,4));
-            		npc.setIsCastingNow(true);
-            	}
-            }
-            else if (event.equalsIgnoreCase("1003") && npc != null)
-            {
-            	if (!npc.isInvul())
-            		getRandomSkill(npc);
-            	else
-            		npc.getAI().setIntention(AI_INTENTION_IDLE);
-            }
-            else if (event.equalsIgnoreCase("1004"))
-            {
-                startQuestTimer("1102",1500, npc, null);
-                npc.broadcastPacket(new SpecialCamera(npc.getObjectId(),1800,180,-1,1500,15000));
-            }
-            else if (event.equalsIgnoreCase("1102"))
-            {
-                startQuestTimer("1103",3300, npc, null);
-                npc.broadcastPacket(new SpecialCamera(npc.getObjectId(),1300,180,-5,3000,15000));
-            }
-            else if (event.equalsIgnoreCase("1103"))
-            {
-                startQuestTimer("1104",1300, npc, null);
-                npc.broadcastPacket(new SpecialCamera(npc.getObjectId(),500,180,-8,600,15000));
-            }
-            else if (event.equalsIgnoreCase("1104"))
-            {
-                startQuestTimer("1105",1600, npc, null);
-                npc.broadcastPacket(new SpecialCamera(npc.getObjectId(),1200,180,-5,300,15000));
-            }
-            else if (event.equalsIgnoreCase("1105"))
-            {
-            	startQuestTimer("1106",200, npc, null);
-                npc.broadcastPacket(new SpecialCamera(npc.getObjectId(),2800,250,70,0,15000));
-            }
-            else if (event.equalsIgnoreCase("1106"))
-            {
-                startQuestTimer("1107",5700, npc, null);
-                npc.broadcastPacket(new SpecialCamera(npc.getObjectId(),2600,30,60,3400,15000));
-            }
-            else if (event.equalsIgnoreCase("1107"))
-            {
-                startQuestTimer("1108",1400, npc, null);
-                npc.broadcastPacket(new SpecialCamera(npc.getObjectId(),700,150,-65,0,15000));
-            }
-            else if (event.equalsIgnoreCase("1108"))
-            {
-                startQuestTimer("1109",6700, npc, null);
-                npc.broadcastPacket(new SpecialCamera(npc.getObjectId(),1200,150,-55,2900,15000));
-            }
-            else if (event.equalsIgnoreCase("1109"))
-            {
-                startQuestTimer("1109b",3700, npc, null);
-                npc.broadcastPacket(new SpecialCamera(npc.getObjectId(),750,170,-10,1700,5700));
-            }
-            else if (event.equalsIgnoreCase("1109b"))
-            {
-                startQuestTimer("1110",2000, npc, null);
-                npc.broadcastPacket(new SpecialCamera(npc.getObjectId(),840,170,0,1200,2000));
-            }
-            else if (event.equalsIgnoreCase("1110"))
-            {
-            	// uncoment me once animations available
-            	GrandBossManager.getInstance().setBossStatus(VALAKAS,FIGHTING);
-            	npc.setIsInvul(false);
-            	npc.setIsImmobilized(false);
-            	startQuestTimer("1002",60000, npc, null, true);
-            }
-            else if (event.equalsIgnoreCase("1111"))
-            {
-                startQuestTimer("1112",3500, npc, null);
-                //npc.broadcastPacket(new SpecialCamera(npc.getObjectId(),210,-5,3000,15000,10000));
-            }
-            else if (event.equalsIgnoreCase("1112"))
-            {
-                startQuestTimer("1113",4500, npc, null);
-                //npc.broadcastPacket(new SpecialCamera(npc.getObjectId(),200,-8,3000,15000,10000));
-            }
-            else if (event.equalsIgnoreCase("1113"))
-            {
-                startQuestTimer("1114",500, npc, null);
-                //npc.broadcastPacket(new SpecialCamera(npc.getObjectId(),190,0,500,15000,10000));
-            }
-            else if (event.equalsIgnoreCase("1114"))
-            {
-                startQuestTimer("1115",4600, npc, null);
-                //npc.broadcastPacket(new SpecialCamera(npc.getObjectId(),120,0,2500,15000,10000));
-            }
-            else if (event.equalsIgnoreCase("1115"))
-            {
-                startQuestTimer("1116",750, npc, null);
-                //npc.broadcastPacket(new SpecialCamera(npc.getObjectId(),20,0,700,15000,10000));
-            }
-            else if (event.equalsIgnoreCase("1116"))
-            {
-                startQuestTimer("1117",2500, npc, null);
-                //npc.broadcastPacket(new SpecialCamera(npc.getObjectId(),10,0,1000,15000,10000));
-            }
-            else if (event.equalsIgnoreCase("1117"))
-            {
-                //npc.broadcastPacket(new SpecialCamera(npc.getObjectId(),10,0,300,15000,250));
-                addSpawn(31759,212852,-114842,-1632,0,false,900000);
-                int radius = 1500;
-                for (int i=0; i < 19; i++)
-                {
-                    int x = (int) (radius*Math.cos(i*.331)); //.331~2pi/19
-                    int y = (int) (radius*Math.sin(i*.331));
-                    addSpawn(31759,212852+x,-114842+y,-1632,0,false,900000);
-                }
-                cancelQuestTimer("1002", npc, null);
-                startQuestTimer("remove_players",900000, null, null);
-                // delete me once animations available
-                GrandBossManager.getInstance().setBossStatus(VALAKAS,DEAD);
-                //
-            }
-        }
-        else
-        {
-            if (event.equalsIgnoreCase("valakas_unlock"))
-            {
-                L2GrandBossInstance valakas = (L2GrandBossInstance) addSpawn(VALAKAS,-105200,-253104,-15264,32768,false,0);
-                GrandBossManager.getInstance().addBoss(valakas);
-                GrandBossManager.getInstance().setBossStatus(VALAKAS,DORMANT);
-            }
-            else if (event.equalsIgnoreCase("remove_players"))
-            {
-                _Zone.oustAllPlayers();
-            }
-        }
-        return super.onAdvEvent(event, npc, player);
-	}
-	
-	public String onAttack (L2Npc npc, L2PcInstance attacker, int damage, boolean isPet, L2Skill skill)
-	{
-		if (npc.isInvul())
+		long temp = 0;
+		if (event.equalsIgnoreCase("1001"))
 		{
-			npc.getAI().setIntention(AI_INTENTION_IDLE);
+			GrandBossManager.getInstance().setBossStatus(VALAKAS,WAITING);
+			this.startQuestTimer("waiting", ExternalConfig.Valakas_Wait_Time, npc, null);
+		}
+		else if (event.equalsIgnoreCase("waiting"))
+		{
+			GrandBossManager.getInstance().setBossStatus(VALAKAS,FIGHTING);
+			L2GrandBossInstance valakas = (L2GrandBossInstance) addSpawn(VALAKAS,212852,-114842,-1632,833,false,0);
+			GrandBossManager.getInstance().addBoss(valakas);
+			valakas.setRunning();
+			valakas.setIsInvul(true);
+			valakas.setIsParalyzed(true);
+			valakas.setIsImmobilized(true);
+			this.startQuestTimer("social", 100, valakas, null);
+			this.startQuestTimer("camera", 1500, valakas, null);
+			valakas.broadcastPacket(new SpecialCamera(npc.getObjectId(),1800,180,-1,1500,15000));
+		}
+		else if (event.equalsIgnoreCase("skillcycle"))
+		{
+			_SkillCycle = 0;
+		}
+		else if (event.equalsIgnoreCase("loc_check"))
+		{
+			if (GrandBossManager.getInstance().getBossStatus(VALAKAS) == FIGHTING)
+			{
+				if (!_Zone.isInsideZone(npc))
+					npc.teleToLocation(212852,-114842,-1632);
+				if (npc.getX() < 209400 || npc.getX() > 216600 || npc.getY() < -118600 || npc.getY() > -111400 || npc.getZ() < -1650)
+					npc.teleToLocation(212852,-114842,-1632);
+			}
+		}
+		else if (event.equalsIgnoreCase("social"))
+		{
+			npc.broadcastPacket(new SocialAction(npc.getObjectId(),3));
+		}
+		else if (event.equalsIgnoreCase("camera"))
+		{
+			this.startQuestTimer("camera_02", 3300, npc, null);
+			npc.broadcastPacket(new SpecialCamera(npc.getObjectId(),1300,180,-5,3000,15000));
+		}
+		else if (event.equalsIgnoreCase("camera_02"))
+		{
+			this.startQuestTimer("camera_03", 1300, npc, null);
+			npc.broadcastPacket(new SpecialCamera(npc.getObjectId(),500,180,-8,600,15000));
+		}
+		else if (event.equalsIgnoreCase("camera_03"))
+		{
+			this.startQuestTimer("camera_04", 1600, npc, null);
+			npc.broadcastPacket(new SpecialCamera(npc.getObjectId(),1200,180,-5,300,15000));
+		}
+		else if (event.equalsIgnoreCase("camera_04"))
+		{
+			this.startQuestTimer("camera_05", 200, npc, null);
+			npc.broadcastPacket(new SpecialCamera(npc.getObjectId(),2800,250,70,0,15000));
+		}
+		else if (event.equalsIgnoreCase("camera_05"))
+		{
+			this.startQuestTimer("camera_06", 5700, npc, null);
+			npc.broadcastPacket(new SpecialCamera(npc.getObjectId(),2600,30,60,3400,15000));
+		}
+		else if (event.equalsIgnoreCase("camera_06"))
+		{
+			this.startQuestTimer("camera_07", 1400, npc, null);
+			npc.broadcastPacket(new SpecialCamera(npc.getObjectId(),700,150,-65,0,15000));
+		}
+		else if (event.equalsIgnoreCase("camera_07"))
+		{
+			this.startQuestTimer("camera_08", 6700, npc, null);
+			npc.broadcastPacket(new SpecialCamera(npc.getObjectId(),1200,150,-55,2900,15000));
+		}
+		else if (event.equalsIgnoreCase("camera_08"))
+		{
+			this.startQuestTimer("camera_09", 3700, npc, null);
+			npc.broadcastPacket(new SpecialCamera(npc.getObjectId(),750,170,-10,1700,5700));
+		}
+		else if (event.equalsIgnoreCase("camera_09"))
+		{
+			this.startQuestTimer("camera_10", 2000, npc, null);
+			npc.broadcastPacket(new SpecialCamera(npc.getObjectId(),840,170,0,1200,2000));
+		}
+		else if (event.equalsIgnoreCase("camera_10"))
+		{
+			npc.setIsInvul(false);
+			npc.setIsParalyzed(false);
+			npc.setIsImmobilized(false);
+			_SkillCycle = 0;
+			_LastAction = System.currentTimeMillis();
+			this.startQuestTimer("loc_check", 15000, npc, null, true);
+			this.startQuestTimer("valakas_despawn", 60000, npc, null, true);
+		}
+		else if (event.equalsIgnoreCase("die_camera"))
+		{
+			this.startQuestTimer("die_camera_02", 3500, npc, null);
+			npc.broadcastPacket(new SpecialCamera(npc.getObjectId(),210,-5,3000,15000,10000));
+		}
+		else if (event.equalsIgnoreCase("die_camera_02"))
+		{
+			this.startQuestTimer("die_camera_03", 4500, npc, null);
+			npc.broadcastPacket(new SpecialCamera(npc.getObjectId(),200,-8,3000,15000,10000));
+		}
+		else if (event.equalsIgnoreCase("die_camera_03"))
+		{
+			this.startQuestTimer("die_camera_04", 500, npc, null);
+			npc.broadcastPacket(new SpecialCamera(npc.getObjectId(),190,0,500,15000,10000));
+		}
+		else if (event.equalsIgnoreCase("die_camera_04"))
+		{
+			this.startQuestTimer("die_camera_05", 4600, npc, null);
+			npc.broadcastPacket(new SpecialCamera(npc.getObjectId(),120,0,2500,15000,10000));
+		}
+		else if (event.equalsIgnoreCase("die_camera_05"))
+		{
+			this.startQuestTimer("die_camera_06", 750, npc, null);
+			npc.broadcastPacket(new SpecialCamera(npc.getObjectId(),20,0,700,15000,10000));
+		}
+		else if (event.equalsIgnoreCase("die_camera_06"))
+		{
+			this.startQuestTimer("die_camera_07", 2500, npc, null);
+			npc.broadcastPacket(new SpecialCamera(npc.getObjectId(),10,0,1000,15000,10000));
+		}
+		else if (event.equalsIgnoreCase("die_camera_07"))
+		{
+			npc.broadcastPacket(new SpecialCamera(npc.getObjectId(),10,0,300,15000,250));
+		}
+		else if (event.equalsIgnoreCase("skill_hp"))
+		{
+			npc.doCast(SkillTable.getInstance().getInfo(5862,1));
+		}
+		else if (event.equalsIgnoreCase("skill_mp"))
+		{
+			npc.doCast(SkillTable.getInstance().getInfo(5863,1));
+		}
+		else if (event.equalsIgnoreCase("valakas_despawn"))
+		{
+			temp = (System.currentTimeMillis() - _LastAction);
+			if (temp > 900000)
+			{
+				npc.deleteMe();
+				GrandBossManager.getInstance().setBossStatus(VALAKAS,DORMANT);
+				_Zone.oustAllPlayers();
+				this.cancelQuestTimer("valakas_despawn", npc, null);
+			}
+		}
+		else if (event.equalsIgnoreCase("spawn_cubes"))
+		{
+			addSpawn(31759,212852,-114842,-1632,0,false,900000);
+			int radius = 1500;
+			for (int i = 0; i < 19; i++)
+			{
+				int x = (int) (radius*Math.cos(i*.331)); //.331~2pi/19
+				int y = (int) (radius*Math.sin(i*.331));
+				addSpawn(31759,212852+x,-114842+y,-1632,0,false,900000);
+			}
+		}
+		else if (event.equalsIgnoreCase("valakas_unlock"))
+		{
+			GrandBossManager.getInstance().setBossStatus(VALAKAS,DORMANT);
+		}
+		else if (event.equalsIgnoreCase("remove_players"))
+		{
+			_Zone.oustAllPlayers();
+		}
+		return super.onAdvEvent(event, npc, player);
+	}
+
+	public String onAttack (L2Npc npc, L2PcInstance attacker, int damage, boolean isPet)
+	{
+		_LastAction = System.currentTimeMillis();
+		if (npc.isInvul() && npc.getNpcId() == VALAKAS)
+		{
 			return null;
 		}
-		i_quest1 = System.currentTimeMillis();
-
-		if (npc.getNpcId() == VALAKAS && !npc.isInvul())
-    	{
-    	if (attacker.getMountType() == 1)
-    	{
-			int sk_4258 = 0;
-			L2Effect[] effects = attacker.getAllEffects();
-			if (effects.length != 0 || effects != null)
-			{
-				for (L2Effect e : effects)
-				{
-					if (e.getSkill().getId() == 4258)
-						sk_4258 = 1;
-					}
-				}
-			if (sk_4258 == 0)
-			{
-				npc.setTarget(attacker);
-				npc.doCast(SkillTable.getInstance().getInfo(4258,1));
-			}
-    	}
-    		getRandomSkill(npc);
-    	}
-		if( attacker.getZ() < ( npc.getZ() + 200 ) )
+		else if (npc.getNpcId() == VALAKAS && _SkillCycle == 0 && GrandBossManager.getInstance().getBossStatus(VALAKAS) == FIGHTING)
 		{
-			if( i_ai2 == 0 )
+			int x = 40;
+			if (npc.getCurrentHp() > npc.getMaxHp() / 4 * 3)
+				x = 100;
+			if (npc.getCurrentHp() > npc.getMaxHp() / 2)
+				x = 80;
+			if (npc.getCurrentHp() > npc.getMaxHp() / 4)
+				x = 60;
+			int y = Rnd.get(x);
+			int z = (100 - x) / 10;
+			if (Rnd.get(100) < z && npc.isAttackingNow())
 			{
-				i_ai1 = ( i_ai1 + damage );
-			}
-			if( i_quest0 == 0 )
-			{
-				i_ai4 = ( i_ai4 + damage );
-			}
-			if( i_quest0 == 0 )
-			{
-				i_ai3 = ( i_ai3 + damage );
-			}
-			else if(i_ai2 == 0 )
-			{
-				i_ai0 = ( i_ai0 + damage );
-			}
-			if( i_quest0 == 0 )
-			{
-				if((((i_ai4 / npc.getMaxHp()) * 100)) > 1)
+				_SkillCycle = 1;
+				if (Rnd.get(4) < 1)
 				{
-					if( i_ai3 > ( i_ai4 - i_ai3 ) )
-					{
-						i_ai3 = 0;
-						i_ai4 = 0;
-						npc.setTarget(npc);
-						npc.doCast(SkillTable.getInstance().getInfo(4687,1));
-						i_quest0 = 1;
-					}
-				}
-			}
-
-		}
-		int i1 = 0;
-		if (skill == null)
-		{
-			if (attacker == c_quest2)
-			{
-				if (((damage * 1000) + 1000) > i_quest2)
-				{
-					i_quest2 = ((damage * 1000) + Rnd.get(3000));
-				}
-			}
-			else if (attacker == c_quest3)
-			{
-				if ((( damage * 1000) + 1000) > i_quest3)
-				{
-					i_quest3 = ((damage * 1000) + Rnd.get(3000));
-				}
-			}
-			else if (attacker == c_quest4)
-			{
-				if ((( damage * 1000) + 1000) > i_quest4)
-				{
-					i_quest4 = ((damage * 1000) + Rnd.get(3000));
-				}
-			}
-			else if( i_quest2 > i_quest3 )
-			{
-				i1 = 3;
-			}
-			else if( i_quest2 == i_quest3 )
-			{
-				if( Rnd.get(100) < 50 )
-				{
-					i1 = 2;
+					npc.doCast(SkillTable.getInstance().getInfo(5860,1));
+					this.startQuestTimer("skill_hp", 10000, npc, null);
 				}
 				else
 				{
-					i1 = 3;
+					npc.doCast(SkillTable.getInstance().getInfo(5861,1));
+					this.startQuestTimer("skill_mp", 10000, npc, null);
 				}
+				this.startQuestTimer("skillcycle", Rnd.get(15000,20000), npc, null);
 			}
-			else if( i_quest2 < i_quest3 )
+			else if (y < 10 && npc.isAttackingNow())
 			{
-				i1 = 2;
+				_SkillCycle = 1;
+				npc.doCast(SkillTable.getInstance().getInfo(4690,1));
+				this.startQuestTimer("skillcycle", Rnd.get(6000,9000), npc, null);
 			}
-			if( i1 == 2 )
+			else if (y < 15 && npc.isAttackingNow())
 			{
-				if( i_quest2 > i_quest4 )
-				{
-					i1 = 4;
-				}
-				else if( i_quest2 == i_quest4 )
-				{
-					if( Rnd.get(100) < 50 )
-					{
-						i1 = 2;
-					}
-					else
-					{
-						i1 = 4;
-					}
-				}
-				else if( i_quest2 < i_quest4 )
-				{
-					i1 = 2;
-				}
+				_SkillCycle = 1;
+				npc.doCast(SkillTable.getInstance().getInfo(Rnd.get(4688,4689),1));
+				this.startQuestTimer("skillcycle", Rnd.get(5000,8000), npc, null);
 			}
-			else if( i1 == 3 )
+			else if (y < 25 && npc.isAttackingNow())
 			{
-				if( i_quest3 > i_quest4 )
-				{
-					i1 = 4;
-				}
-				else if( i_quest3 == i_quest4 )
-				{
-					if( Rnd.get(100) < 50 )
-					{
-						i1 = 3;
-					}
-					else
-					{
-						i1 = 4;
-					}
-				}
-				else if(i_quest3 < i_quest4 )
-				{
-					i1 = 3;
-				}
+				_SkillCycle = 1;
+				npc.doCast(SkillTable.getInstance().getInfo(Rnd.get(4683,4685),1));
+				this.startQuestTimer("skillcycle", Rnd.get(5000,8000), npc, null);
 			}
-			if (i1 == 2)
+			else if (y < 35 && npc.isAttackingNow())
 			{
-				i_quest2 = (damage * 1000) + Rnd.get(3000);
-				c_quest2 = attacker;
+				_SkillCycle = 1;
+				npc.doCast(SkillTable.getInstance().getInfo(Rnd.get(4681,4682),1));
+				this.startQuestTimer("skillcycle", Rnd.get(4000,6000), npc, null);
 			}
-			else if (i1 == 3)
+			else 
 			{
-				i_quest3 = (damage * 1000) + Rnd.get(3000);
-				c_quest3 = attacker;
-			}
-			else if (i1 == 4)
-			{
-				i_quest4 = (damage * 1000) + Rnd.get(3000);
-				c_quest4 = attacker;
+				_SkillCycle = 1;
+				this.startQuestTimer("skillcycle", 1000, npc, null);
 			}
 		}
-		else if( npc.getCurrentHp() > ( ( npc.getMaxHp() * 3 ) / 4 ))
-		{
-			if( attacker == c_quest2 )
-			{
-				if( ( ( ( damage / 100 ) * 1000 ) + 1000 ) > i_quest2 )
-				{
-					i_quest2 = ( ( ( damage / 100 ) * 1000 ) + Rnd.get(3000) );
-				}
-			}
-			else if( attacker == c_quest3 )
-			{
-				if( ( ( ( damage / 100 ) * 1000 ) + 1000 ) > i_quest3 )
-				{
-					i_quest3 = ( ( ( damage / 100 ) * 1000 ) + Rnd.get(3000) );
-				}
-			}
-			else if( attacker == c_quest4 )
-			{
-				if( ( ( ( damage / 100 ) * 1000 ) + 1000 ) > i_quest4 )
-				{
-					i_quest4 = ( ( ( damage / 100 ) * 1000 ) + Rnd.get(3000) );
-				}
-			}
-			else if( i_quest2 > i_quest3 )
-			{
-				i1 = 3;
-			}
-			else if( i_quest2 == i_quest3 )
-			{
-				if( Rnd.get(100) < 50 )
-				{
-					i1 = 2;
-				}
-				else
-				{
-					i1 = 3;
-				}
-			}
-			else if( i_quest2 < i_quest3 )
-			{
-				i1 = 2;
-			}
-			if( i1 == 2 )
-			{
-				if( i_quest2 > i_quest4 )
-				{
-					i1 = 4;
-				}
-				else if( i_quest2 == i_quest4 )
-				{
-					if( Rnd.get(100) < 50 )
-					{
-						i1 = 2;
-					}
-					else
-					{
-						i1 = 4;
-					}
-				}
-				else if( i_quest2 < i_quest4 )
-				{
-					i1 = 2;
-				}
-			}
-			else if( i1 == 3 )
-			{
-				if( i_quest3 > i_quest4 )
-				{
-					i1 = 4;
-				}
-				else if( i_quest3 == i_quest4 )
-				{
-					if( Rnd.get(100) < 50 )
-					{
-						i1 = 3;
-					}
-					else
-					{
-						i1 = 4;
-					}
-				}
-				else if( i_quest3 < i_quest4 )
-				{
-					i1 = 3;
-				}
-			}
-				if (i1 == 2)
-				{
-						i_quest2 = ( ( ( damage / 100 ) * 1000 ) + Rnd.get(3000) );
-						c_quest2 = attacker;
-				}
-				else if (i1 == 3)
-				{
-						i_quest3 = ( ( ( damage / 100 ) * 1000 ) + Rnd.get(3000) );
-						c_quest3 = attacker;
-				}
-				else if (i1 == 4)
-				{
-						i_quest4 = ( ( ( damage / 100 ) * 1000 ) + Rnd.get(3000) );
-						c_quest4 = attacker;
-				}
-			}
-		else if( npc.getCurrentHp() > ( ( npc.getMaxHp() * 2 ) / 4 ))
-		{
-			if( attacker == c_quest2 )
-			{
-				if( ( ( ( damage / 50 ) * 1000 ) + 1000 ) > i_quest2 )
-				{
-					i_quest2 = ( ( ( damage / 50 ) * 1000 ) + Rnd.get(3000) );
-				}
-			}
-			else if( attacker == c_quest3 )
-			{
-				if( ( ( ( damage / 50 ) * 1000 ) + 1000 ) > i_quest3 )
-				{
-					i_quest3 = ( ( ( damage / 50 ) * 1000 ) + Rnd.get(3000) );
-				}
-			}
-			else if( attacker == c_quest4 )
-			{
-				if( ( ( ( damage / 50 ) * 1000 ) + 1000 ) > i_quest4 )
-				{
-					i_quest4 = ( ( ( damage / 50 ) * 1000 ) + Rnd.get(3000) );
-				}
-			}
-			else if( i_quest2 > i_quest3 )
-			{
-				i1 = 3;
-			}
-			else if( i_quest2 == i_quest3 )
-			{
-				if( Rnd.get(100) < 50 )
-				{
-					i1 = 2;
-				}
-				else
-				{
-					i1 = 3;
-				}
-			}
-			else if( i_quest2 < i_quest3 )
-			{
-				i1 = 2;
-			}
-			if( i1 == 2 )
-			{
-				if( i_quest2 > i_quest4 )
-				{
-					i1 = 4;
-				}
-				else if( i_quest2 == i_quest4 )
-				{
-					if( Rnd.get(100) < 50 )
-					{
-						i1 = 2;
-					}
-					else
-					{
-						i1 = 4;
-					}
-				}
-				else if( i_quest2 < i_quest4 )
-				{
-					i1 = 2;
-				}
-			}
-			else if( i1 == 3 )
-			{
-				if( i_quest3 > i_quest4 )
-				{
-					i1 = 4;
-				}
-				else if( i_quest3 == i_quest4 )
-				{
-					if( Rnd.get(100) < 50 )
-					{
-						i1 = 3;
-					}
-					else
-					{
-						i1 = 4;
-					}
-				}
-				else if( i_quest3 < i_quest4 )
-				{
-					i1 = 3;
-				}
-			}
-			if (i1 == 2)
-			{
-					i_quest2 = ( ( ( damage / 50 ) * 1000 ) + Rnd.get(3000) );
-					c_quest2 = attacker;
-			}
-			else if (i1 == 3)
-			{
-					i_quest3 = ( ( ( damage / 50 ) * 1000 ) + Rnd.get(3000) );
-					c_quest3 = attacker;
-			}
-			else if (i1 == 4)
-			{
-					i_quest4 = ( ( ( damage / 50 ) * 1000 ) + Rnd.get(3000) );
-					c_quest4 = attacker;
-			}
-		}
-		else if( npc.getCurrentHp() > ( ( npc.getMaxHp() * 1 ) / 4 ))
-		{
-			if( attacker == c_quest2 )
-			{
-				if( ( ( ( damage / 30 ) * 1000 ) + 1000 ) > i_quest2 )
-				{
-					i_quest2 = ( ( ( damage / 30 ) * 1000 ) + Rnd.get(3000) );
-				}
-			}
-			else if( attacker == c_quest3 )
-			{
-				if( ( ( ( damage / 30 ) * 1000 ) + 1000 ) > i_quest3 )
-				{
-					i_quest3 = ( ( ( damage / 30 ) * 1000 ) + Rnd.get(3000) );
-				}
-			}
-			else if( attacker == c_quest4 )
-			{
-				if( ( ( ( damage / 30 ) * 1000 ) + 1000 ) > i_quest4 )
-				{
-					i_quest4 = ( ( ( damage / 30 ) * 1000 ) + Rnd.get(3000) );
-				}
-			}
-			else if( i_quest2 > i_quest3 )
-			{
-				i1 = 3;
-			}
-			else if( i_quest2 == i_quest3 )
-			{
-				if( Rnd.get(100) < 50 )
-				{
-					i1 = 2;
-				}
-				else
-				{
-					i1 = 3;
-				}
-			}
-			else if( i_quest2 < i_quest3 )
-			{
-				i1 = 2;
-			}
-			if( i1 == 2 )
-			{
-				if( i_quest2 > i_quest4 )
-				{
-					i1 = 4;
-				}
-				else if( i_quest2 == i_quest4 )
-				{
-					if( Rnd.get(100) < 50 )
-					{
-						i1 = 2;
-					}
-					else
-					{
-						i1 = 4;
-					}
-				}
-				else if( i_quest2 < i_quest4 )
-				{
-					i1 = 2;
-				}
-			}
-			else if( i1 == 3 )
-			{
-				if( i_quest3 > i_quest4 )
-				{
-					i1 = 4;
-				}
-				else if( i_quest3 == i_quest4 )
-				{
-					if( Rnd.get(100) < 50 )
-					{
-						i1 = 3;
-					}
-					else
-					{
-						i1 = 4;
-					}
-				}
-				else if( i_quest3 < i_quest4 )
-				{
-					i1 = 3;
-				}
-			if (i1 == 2)
-			{
-					i_quest2 = ( ( ( damage / 30 ) * 1000 ) + Rnd.get(3000) );
-					c_quest2 = attacker;
-			}
-			else if (i1 == 3)
-			{
-					i_quest3 = ( ( ( damage / 30 ) * 1000 ) + Rnd.get(3000) );
-					c_quest3 = attacker;
-			}
-			else if (i1 == 4)
-			{
-					i_quest4 = ( ( ( damage / 30 ) * 1000 ) + Rnd.get(3000) );
-					c_quest4 = attacker;
-			}
-		}
-		}
-		else if( attacker == c_quest2 )
-		{
-			if( ( ( ( damage / 150 ) * 1000 ) + 1000 ) > i_quest2 )
-			{
-				i_quest2 = ( ( ( damage / 150 ) * 1000 ) + Rnd.get(3000) );
-			}
-		}
-		else if( attacker == c_quest3 )
-		{
-			if( ( ( ( damage / 150 ) * 1000 ) + 1000 ) > i_quest3 )
-			{
-				i_quest3 = ( ( ( damage / 150 ) * 1000 ) + Rnd.get(3000) );
-			}
-		}
-		else if( attacker == c_quest4 )
-		{
-			if( ( ( ( damage / 150 ) * 1000 ) + 1000 ) > i_quest4 )
-			{
-				i_quest4 = ( ( ( damage / 150 ) * 1000 ) + Rnd.get(3000) );
-			}
-		}
-		else if( i_quest2 > i_quest3 )
-		{
-			i1 = 3;
-		}
-		else if( i_quest2 == i_quest3 )
-		{
-			if( Rnd.get(100) < 50 )
-			{
-				i1 = 2;
-			}
-			else
-			{
-				i1 = 3;
-			}
-		}
-		else if( i_quest2 < i_quest3 )
-		{
-			i1 = 2;
-		}
-		if( i1 == 2 )
-		{
-			if( i_quest2 > i_quest4 )
-			{
-				i1 = 4;
-			}
-			else if( i_quest2 == i_quest4 )
-			{
-				if( Rnd.get(100) < 50 )
-				{
-					i1 = 2;
-				}
-				else
-				{
-					i1 = 4;
-				}
-			}
-			else if( i_quest2 < i_quest4 )
-			{
-				i1 = 2;
-			}
-		}
-		else if( i1 == 3 )
-		{
-			if( i_quest3 > i_quest4 )
-			{
-				i1 = 4;
-			}
-			else if( i_quest3 == i_quest4 )
-			{
-				if( Rnd.get(100) < 50 )
-				{
-					i1 = 3;
-				}
-				else
-				{
-					i1 = 4;
-				}
-			}
-			else if( i_quest3 < i_quest4 )
-			{
-				i1 = 3;
-			}
-		}
-		if (i1 == 2)
-		{
-				i_quest2 = ( ( ( damage / 150 ) * 1000 ) + Rnd.get(3000) );
-				c_quest2 = attacker;
-		}
-		else if (i1 == 3)
-		{
-				i_quest3 = ( ( ( damage / 150 ) * 1000 ) + Rnd.get(3000) );
-				c_quest3 = attacker;
-		}
-		else if (i1 == 4)
-		{
-				i_quest4 = ( ( ( damage / 150 ) * 1000 ) + Rnd.get(3000) );
-				c_quest4 = attacker;
-		}
-		getRandomSkill(npc);
 		return super.onAttack(npc, attacker, damage, isPet);
 	}
 
-    public String onKill (L2Npc npc, L2PcInstance killer, boolean isPet) 
-    { 
-        if (GrandBossManager.getInstance().getBossStatus(VALAKAS) == FIGHTING && npc.getNpcId() == VALAKAS)
-        {
-    	startQuestTimer("1111",500, npc, null);
-        npc.broadcastPacket(new SpecialCamera(npc.getObjectId(),2000,130,0,0,8000));
-        npc.broadcastPacket(new PlaySound(1, "B03_D", 1, npc.getObjectId(), npc.getX(), npc.getY(), npc.getZ()));
-        // uncoment me once animations available 
-        //GrandBossManager.getInstance().setBossStatus(VALAKAS,DEAD);
-        long respawnTime = (ExternalConfig.Interval_Of_Valakas_Spawn + Rnd.get(ExternalConfig.Random_Of_Valakas_Spawn));
-        this.startQuestTimer("valakas_unlock", respawnTime, null, null);
-        // also save the respawn time so that the info is maintained past reboots
-        StatsSet info = GrandBossManager.getInstance().getStatsSet(VALAKAS);
-        info.set("respawn_time",(System.currentTimeMillis() + respawnTime));
-        GrandBossManager.getInstance().setStatsSet(VALAKAS,info);
-		}
-        return super.onKill(npc,killer,isPet);
-    }
-
-	public void getRandomSkill(L2Npc npc)
-	{
-		if (npc.isInvul() || npc.isCastingNow())
+	public String onKill (L2Npc npc, L2PcInstance killer, boolean isPet) 
+	{ 
+		if (npc.getNpcId() == VALAKAS && GrandBossManager.getInstance().getBossStatus(VALAKAS) == FIGHTING)
 		{
-			return;
+			npc.broadcastPacket(new PlaySound(1, "B03_D", 1, npc.getObjectId(), npc.getX(), npc.getY(), npc.getZ()));
+			this.cancelQuestTimer("loc_check", npc, null);
+			this.cancelQuestTimer("valakas_despawn", npc, null);
+			//this.startQuestTimer("die_camera", 0, npc, null);
+			this.startQuestTimer("spawn_cubes", 10000, npc, null);
+			this.startQuestTimer("remove_players", 900000, npc, null);
+			GrandBossManager.getInstance().setBossStatus(VALAKAS,DEAD);
+			long respawnTime = (ExternalConfig.Interval_Of_Valakas_Spawn + Rnd.get(ExternalConfig.Random_Of_Valakas_Spawn));
+			this.startQuestTimer("valakas_unlock", respawnTime, npc, null);
+			// also save the respawn time so that the info is maintained past reboots
+			StatsSet info = GrandBossManager.getInstance().getStatsSet(VALAKAS);
+			info.set("respawn_time",System.currentTimeMillis() + respawnTime);
+			GrandBossManager.getInstance().setStatsSet(VALAKAS,info);
 		}
-		L2Skill skill = null;
-		int i0 = 0;
-		int i1 = 0;
-		int i2 = 0;
-		L2Character c2 = null;
-		if (c_quest2 == null)
-			i_quest2 = 0;
-		else if (!Util.checkIfInRange(5000, npc, c_quest2, true) || c_quest2.isDead())
-			i_quest2 = 0;
-		if (c_quest3 == null)
-			i_quest3 = 0;
-		else if (!Util.checkIfInRange(5000, npc, c_quest3, true) || c_quest3.isDead())
-			i_quest3 = 0;	
-		if (c_quest4 == null)
-			i_quest4 = 0;
-		else if (!Util.checkIfInRange(5000, npc, c_quest4, true) || c_quest4.isDead())
-			i_quest4 = 0;
-		if (i_quest2 > i_quest3)
-		{
-			i1 = 2;
-			i2 = i_quest2;
-			c2 = c_quest2;
-		}
-		else
-		{
-			i1 = 3;
-			i2 = i_quest3;
-			c2 = c_quest3;
-		}
-		if( i_quest4 > i2 )
-		{
-			i1 = 4;
-			i2 = i_quest4;
-			c2 = c_quest4;
-		}
-		if (i2 == 0)
-			c2 = getRandomTarget(npc);
-		if( i2 > 0 )
-		{
-			if( Rnd.get(100) < 70)
-			{
-				if (i1 == 2)
-					i_quest2 = 500;
-				else if (i1 == 3)
-					i_quest3 = 500;
-				else if (i1 == 4)
-					i_quest4 = 500;
-			}
-			if( npc.getCurrentHp() > ( ( npc.getMaxHp() * 3 ) / 4 ) )
-			{
-				i0 = 0;
-				i1 = 0;
-				if (Util.checkIfInRange(1423, npc, c2, true))
-				{
-					i0 = 1;
-					i1 = 1;
-				}
-				if (c2.getZ() < (npc.getZ() + 200))
-				{
-					if( Rnd.get(100) < 0 )
-					{
-						skill = SkillTable.getInstance().getInfo(4690,1);
-					}
-					else if( Rnd.get(100) < 5 )
-					{
-						skill = SkillTable.getInstance().getInfo(4689,1);
-					}
-					else if( Rnd.get(100) < 5 && i0 == 1 && i_quest0 == 1 )
-					{
-						skill = SkillTable.getInstance().getInfo(4685,1);
-						i_quest0 = 0;
-					}
-					else if( Rnd.get(100) < 10 && i1 == 1 )
-					{
-						skill = SkillTable.getInstance().getInfo(4688,1);
-					}
-					else if( Rnd.get(100) < 15 )
-					{
-						skill = SkillTable.getInstance().getInfo(4683,1);
-					}
-					else
-					{
-						if( Rnd.get(2) == 0) // TODO: replace me with direction, to check if player standing on left or right side of valakas
-							skill = SkillTable.getInstance().getInfo(4681,1); // left hand
-						else
-							skill = SkillTable.getInstance().getInfo(4682,1); // right hand
-					}
-				}
-				else if( Rnd.get(100) < 0)
-				{
-					skill = SkillTable.getInstance().getInfo(4690,1);
-				}
-				else if( Rnd.get(100) < 5)
-				{
-					skill = SkillTable.getInstance().getInfo(4689,1);
-				}
-				else
-				{
-					skill = SkillTable.getInstance().getInfo(4684,1);
-				}
-			}
-			else if( npc.getCurrentHp() > ( ( npc.getMaxHp() * 2 ) / 4 ) )
-			{
-				i0 = 0;
-				i1 = 0;
-				if (Util.checkIfInRange(1423, npc, c2, true))
-				{
-					i0 = 1;
-					i1 = 1;
-				}
-				if (c2.getZ() < (npc.getZ() + 200))
-				{
-					if( Rnd.get(100) < 5 )
-					{
-						skill = SkillTable.getInstance().getInfo(4690,1);
-					}
-					else if( Rnd.get(100) < 10 )
-					{
-						skill = SkillTable.getInstance().getInfo(4689,1);
-					}
-					else if( Rnd.get(100) < 10 && i0 == 1 && i_quest0 == 1 )
-					{
-						skill = SkillTable.getInstance().getInfo(4685,1);
-						i_quest0 = 0;
-					}
-					else if( Rnd.get(100) < 10 && i1 == 1 )
-					{
-						skill = SkillTable.getInstance().getInfo(4688,1);
-					}
-					else if( Rnd.get(100) < 20 )
-					{
-						skill = SkillTable.getInstance().getInfo(4683,1);
-					}
-					else
-					{
-						if( Rnd.get(2) == 0) // TODO: replace me with direction, to check if player standing on left or right side of valakas
-							skill = SkillTable.getInstance().getInfo(4681,1); // left hand
-						else
-							skill = SkillTable.getInstance().getInfo(4682,1); // right hand
-					}
-				}
-				else if( Rnd.get(100) < 5)
-				{
-					skill = SkillTable.getInstance().getInfo(4690,1);
-				}
-				else if( Rnd.get(100) < 10)
-				{
-					skill = SkillTable.getInstance().getInfo(4689,1);
-				}
-				else
-				{
-					skill = SkillTable.getInstance().getInfo(4684,1);
-				}
-			}
-			else if( npc.getCurrentHp() > ( ( npc.getMaxHp() * 1 ) / 4 ) )
-			{
-				i0 = 0;
-				i1 = 0;
-				if (Util.checkIfInRange(1423, npc, c2, true))
-				{
-					i0 = 1;
-					i1 = 1;
-				}
-				if (c2.getZ() < (npc.getZ() + 200))
-				{
-					if( Rnd.get(100) < 20)
-					{
-						skill = SkillTable.getInstance().getInfo(4690,1);
-					}
-					else if( Rnd.get(100) < 15)
-					{
-						skill = SkillTable.getInstance().getInfo(4689,1);
-					}
-					else if( Rnd.get(100) < 15 && i0 == 1 && i_quest0 == 1 )
-					{
-						skill = SkillTable.getInstance().getInfo(4685,1);
-						i_quest0 = 0;
-					}
-					else if( Rnd.get(100) < 10 && i1 == 1 )
-					{
-						skill = SkillTable.getInstance().getInfo(4688,1);
-					}
-					else if( Rnd.get(100) < 35)
-					{
-						skill = SkillTable.getInstance().getInfo(4683,1);
-					}
-					else
-					{
-						if( Rnd.get(2) == 0) // TODO: replace me with direction, to check if player standing on left or right side of valakas
-							skill = SkillTable.getInstance().getInfo(4681,1); // left hand
-						else
-							skill = SkillTable.getInstance().getInfo(4682,1); // right hand
-					}
-				}
-				else if( Rnd.get(100) < 20)
-				{
-					skill = SkillTable.getInstance().getInfo(4690,1);
-				}
-				else if( Rnd.get(100) < 15)
-				{
-					skill = SkillTable.getInstance().getInfo(4689,1);
-				}
-				else
-				{
-					skill = SkillTable.getInstance().getInfo(4684,1);
-				}
-			}
-			else
-			{
-				i0 = 0;
-				i1 = 0;
-				if (Util.checkIfInRange(1423, npc, c2, true))
-				{
-					i0 = 1;
-					i1 = 1;
-				}
-				if (c2.getZ() < (npc.getZ() + 200))
-				{
-					if( Rnd.get(100) < 25 )
-					{
-						skill = SkillTable.getInstance().getInfo(4690,1);
-					}
-					else if( Rnd.get(100) < 20 )
-					{
-						skill = SkillTable.getInstance().getInfo(4689,1);
-					}
-					else if( Rnd.get(100) < 20 && i0 == 1 && i_quest0 == 1 )
-					{
-						skill = SkillTable.getInstance().getInfo(4685,1);
-						i_quest0 = 0;
-					}
-					else if( Rnd.get(100) < 10 && i1 == 1 )
-					{
-						skill = SkillTable.getInstance().getInfo(4688,1);
-					}
-					else if( Rnd.get(100) < 40 )
-					{
-						skill = SkillTable.getInstance().getInfo(4683,1);
-					}
-					else
-					{
-						if( Rnd.get(2) == 0) // TODO: replace me with direction, to check if player standing on left or right side of valakas
-							skill = SkillTable.getInstance().getInfo(4681,1); // left hand
-						else
-							skill = SkillTable.getInstance().getInfo(4682,1); // right hand
-					}
-				}
-				else if( Rnd.get(100) < 25)
-				{
-					skill = SkillTable.getInstance().getInfo(4690,1);
-				}
-				else if( Rnd.get(100) < 20)
-				{
-					skill = SkillTable.getInstance().getInfo(4689,1);
-				}
-				else
-				{
-					skill = SkillTable.getInstance().getInfo(4684,1);
-				}
-			}
-		}
-		if (skill != null)
-			callSkillAI(npc,c2,skill);
+		return super.onKill(npc,killer,isPet);
 	}
 
-	public void callSkillAI(L2Npc npc, L2Character c2, L2Skill skill)
+	public static void main(String[] args)
 	{
-		if (npc.isInvul() || npc.isCastingNow())
-			return;
-		QuestTimer timer = getQuestTimer("1003", npc, null);
-
-		if (npc == null)
-		{
-			if (timer != null)
-				timer.cancel();
-			return;
-		}
-
-		if (c2 == null || c2.isDead() || timer == null)
-		{
-			c2 = getRandomTarget(npc); // just in case if hate AI fail
-			if (timer == null)
-			{
-				startQuestTimer("1003", 500, npc, null, true);
-				return;
-			}
-		}
-		L2Character target = c2;
-		if (target == null || target.isDead())
-		{
-			if (timer == null)
-				startQuestTimer("1003", 500, npc, null, true);
-			return;
-		}
-
-		if (Util.checkIfInRange(skill.getCastRange(), npc, target, true))
-		{
-			if (timer != null)
-				timer.cancel();
-			npc.getAI().setIntention(AI_INTENTION_IDLE);
-			npc.setIsCastingNow(true);
-			npc.setTarget(target);
-			npc.doCast(skill);
-			
-		}
-		else
-		{
-			if (timer == null)
-				startQuestTimer("1003", 500, npc, null, true);
-			npc.getAI().setIntention(AI_INTENTION_FOLLOW, target, null);
-			npc.setIsCastingNow(false);
-		}
+		// now call the constructor (starts up the ai)
+		new Valakas(-1,"valakas","ai");
 	}
-	public void broadcastSpawn(L2Npc npc)
-	{
-		Collection<L2Object> objs = npc.getKnownList().getKnownObjects().values();
-		{
-			for (L2Object obj : objs)
-			{
-				if (obj instanceof L2PcInstance)
-				{
-					if (Util.checkIfInRange(10000, npc, obj, true))
-					{
-						((L2Character) obj).sendPacket(new PlaySound(1, "B03_A", 1, npc.getObjectId(), 212852,-114842,-1632));
-						((L2Character) obj).sendPacket(new SocialAction(npc.getObjectId(),3));
-					}
-				}
-			}
-		}
-		return;
-	}
-	
-	public L2Character getRandomTarget(L2Npc npc)
-	{
-		FastList<L2Character> result = new FastList<L2Character>();
-		Collection<L2Object> objs = npc.getKnownList().getKnownObjects().values();
-		{
-			for (L2Object obj : objs)
-			{
-				if (obj instanceof L2Character)
-				{
-					if (((L2Character) obj).getZ() < ( npc.getZ() - 100 ) && ((L2Character) obj).getZ() > ( npc.getZ() + 100 )
-							|| !(GeoData.getInstance().canSeeTarget(((L2Character) obj).getX(), ((L2Character) obj).getY(), ((L2Character) obj).getZ(), npc.getX(), npc.getY(), npc.getZ())))
-						continue;
-				}
-				if (obj instanceof L2PcInstance || obj instanceof L2Summon || obj instanceof L2DecoyInstance)
-				{
-					if (Util.checkIfInRange(5000, npc, obj, true) && !((L2Character) obj).isDead())
-						result.add((L2Character) obj);
-				}
-			}
-		}
-		if (!result.isEmpty() && result.size() != 0)
-		{
-			Object[] characters = result.toArray();
-			QuestTimer timer = getQuestTimer("clean_player", npc, null);
-			if (timer != null)
-				timer.cancel();
-			startQuestTimer("clean_player", 20000, npc, null);
-			return (L2Character) characters[Rnd.get(characters.length)];
-		}
-		return null;
-	}
-
-    public String onSpellFinished(L2Npc npc, L2PcInstance player, L2Skill skill)
-    {
-		if (npc.isInvul())
-		{
-			npc.getAI().setIntention(AI_INTENTION_IDLE);
-			return null;
-		}
-		else if (npc.getNpcId() == VALAKAS && !npc.isInvul())
-    	{
-    		getRandomSkill(npc);
-    	}
-    	return super.onSpellFinished(npc, player, skill);
-    }
-
-    public String onAggroRangeEnter (L2Npc npc, L2PcInstance player, boolean isPet) 
-    {
-    	int i1 = 0;
-        if (GrandBossManager.getInstance().getBossStatus(VALAKAS) == FIGHTING)
-        {
-        	if( npc.getCurrentHp() > ( ( npc.getMaxHp() * 1 ) / 4 ))
-			{
-				if( player == c_quest2 )
-				{
-					if( ( ( 10 * 1000 ) + 1000 ) > i_quest2 )
-					{
-						i_quest2 = ((10 * 1000) + Rnd.get(3000));
-					}
-				}
-				else if( player == c_quest3 )
-				{
-					if( ( ( 10 * 1000 ) + 1000 ) > i_quest3 )
-					{
-						i_quest3 = ((10 * 1000) + Rnd.get(3000));
-					}
-				}
-				else if( player == c_quest4 )
-				{
-					if( ( ( 10 * 1000 ) + 1000 ) > i_quest4 )
-					{
-						i_quest4 = ((10 * 1000) + Rnd.get(3000));
-					}
-				}
-				else if( i_quest2 > i_quest3 )
-				{
-					i1 = 3;
-				}
-				else if( i_quest2 == i_quest3 )
-				{
-					if( Rnd.get(100) < 50 )
-					{
-						i1 = 2;
-					}
-					else
-					{
-						i1 = 3;
-					}
-				}
-				else if( i_quest2 < i_quest3 )
-				{
-					i1 = 2;
-				}
-				if( i1 == 2 )
-				{
-					if( i_quest2 > i_quest4 )
-					{
-						i1 = 4;
-					}
-					else if( i_quest2 == i_quest4 )
-					{
-						if( Rnd.get(100) < 50 )
-						{
-							i1 = 2;
-						}
-						else
-						{
-							i1 = 4;
-						}
-					}
-					else if( i_quest2 < i_quest4 )
-					{
-						i1 = 2;
-					}
-				}
-				else if( i1 == 3 )
-				{
-					if( i_quest3 > i_quest4 )
-					{
-						i1 = 4;
-					}
-					else if( i_quest3 == i_quest4 )
-					{
-						if( Rnd.get(100) < 50 )
-						{
-							i1 = 3;
-						}
-						else
-						{
-							i1 = 4;
-						}
-					}
-					else if( i_quest3 < i_quest4 )
-					{
-						i1 = 3;
-					}
-				}
-				if (i1 == 2)
-				{
-						i_quest2 = ( ( 10 * 1000 ) + Rnd.get(3000) );
-						c_quest2 = player;
-				}
-				else if (i1 == 3)
-				{
-						i_quest3 = ( ( 10 * 1000 ) + Rnd.get(3000) );
-						c_quest3 = player;
-				}
-				else if (i1 == 4)
-				{
-						i_quest4 = ( ( 10 * 1000 ) + Rnd.get(3000) );
-						c_quest4 = player;
-				}
-			}
-			else if( npc.getCurrentHp() > ( ( npc.getMaxHp() * 2 ) / 4 ))
-			{
-				if( player == c_quest2 )
-				{
-					if( ( ( 6 * 1000 ) + 1000 ) > i_quest2 )
-					{
-						i_quest2 = ( ( 6 * 1000 ) + Rnd.get(3000) );
-					}
-				}
-				else if( player == c_quest3 )
-				{
-					if( ( ( 6 * 1000 ) + 1000 ) > i_quest3 )
-					{
-						i_quest3 = ( ( 6 * 1000 ) + Rnd.get(3000) );
-					}
-				}
-				else if( player == c_quest4 )
-				{
-					if( ( ( 6 * 1000 ) + 1000 ) > i_quest4 )
-					{
-						i_quest4 = ( ( 6 * 1000 ) + Rnd.get(3000) );
-					}
-				}
-				else if( i_quest2 > i_quest3 )
-				{
-					i1 = 3;
-				}
-				else if( i_quest2 == i_quest3 )
-				{
-					if( Rnd.get(100) < 50 )
-					{
-						i1 = 2;
-					}
-					else
-					{
-						i1 = 3;
-					}
-				}
-				else if( i_quest2 < i_quest3 )
-				{
-					i1 = 2;
-				}
-				if( i1 == 2 )
-				{
-					if( i_quest2 > i_quest4 )
-					{
-						i1 = 4;
-					}
-					else if( i_quest2 == i_quest4 )
-					{
-						if( Rnd.get(100) < 50 )
-						{
-							i1 = 2;
-						}
-						else
-						{
-							i1 = 4;
-						}
-					}
-					else if( i_quest2 < i_quest4 )
-					{
-						i1 = 2;
-					}
-				}
-				else if( i1 == 3 )
-				{
-					if( i_quest3 > i_quest4 )
-					{
-						i1 = 4;
-					}
-					else if( i_quest3 == i_quest4 )
-					{
-						if( Rnd.get(100) < 50 )
-						{
-							i1 = 3;
-						}
-						else
-						{
-							i1 = 4;
-						}
-					}
-					else if( i_quest3 < i_quest4 )
-					{
-						i1 = 3;
-					}
-				}
-				if (i1 == 2)
-				{
-						i_quest2 = ( ( 6 * 1000 ) + Rnd.get(3000) );
-						c_quest2 = player;
-				}
-				else if (i1 == 3)
-				{
-						i_quest3 = ( ( 6 * 1000 ) + Rnd.get(3000) );
-						c_quest3 = player;
-				}
-				else if (i1 == 4)
-				{
-						i_quest4 = ( ( 6 * 1000 ) + Rnd.get(3000) );
-						c_quest4 = player;
-				}
-			}
-			else if( npc.getCurrentHp() > ( ( npc.getMaxHp() * 3 ) / 4 ))
-			{
-				if( player == c_quest2 )
-				{
-					if( ( ( 3 * 1000 ) + 1000 ) > i_quest2 )
-					{
-						i_quest2 = ( ( 3 * 1000 ) + Rnd.get(3000) );
-					}
-				}
-				else if( player == c_quest3 )
-				{
-					if( ( ( 3 * 1000 ) + 1000 ) > i_quest3 )
-					{
-						i_quest3 = ( ( 3 * 1000 ) + Rnd.get(3000) );
-					}
-				}
-				else if( player == c_quest4 )
-				{
-					if( ( ( 3 * 1000 ) + 1000 ) > i_quest4 )
-					{
-						i_quest4 = ( ( 3 * 1000 ) + Rnd.get(3000) );
-					}
-				}
-				else if( i_quest2 > i_quest3 )
-				{
-					i1 = 3;
-				}
-				else if( i_quest2 == i_quest3 )
-				{
-					if( Rnd.get(100) < 50 )
-					{
-						i1 = 2;
-					}
-					else
-					{
-						i1 = 3;
-					}
-				}
-				else if( i_quest2 < i_quest3 )
-				{
-					i1 = 2;
-				}
-				if( i1 == 2 )
-				{
-					if( i_quest2 > i_quest4 )
-					{
-						i1 = 4;
-					}
-					else if( i_quest2 == i_quest4 )
-					{
-						if( Rnd.get(100) < 50 )
-						{
-							i1 = 2;
-						}
-						else
-						{
-							i1 = 4;
-						}
-					}
-					else if( i_quest2 < i_quest4 )
-					{
-						i1 = 2;
-					}
-				}
-				else if( i1 == 3 )
-				{
-					if( i_quest3 > i_quest4 )
-					{
-						i1 = 4;
-					}
-					else if( i_quest3 == i_quest4 )
-					{
-						if( Rnd.get(100) < 50 )
-						{
-							i1 = 3;
-						}
-						else
-						{
-							i1 = 4;
-						}
-					}
-					else if( i_quest3 < i_quest4 )
-					{
-						i1 = 3;
-					}
-				}
-				if (i1 == 2)
-				{
-						i_quest2 = ( ( 3 * 1000 ) + Rnd.get(3000) );
-						c_quest2 = player;
-				}
-				else if (i1 == 3)
-				{
-						i_quest3 = ( ( 3 * 1000 ) + Rnd.get(3000) );
-						c_quest3 = player;
-				}
-				else if (i1 == 4)
-				{
-						i_quest4 = ( ( 3 * 1000 ) + Rnd.get(3000) );
-						c_quest4 = player;
-				}
-			}
-			else if( player == c_quest2 )
-			{
-				if( ( ( 2 * 1000 ) + 1000 ) > i_quest2 )
-				{
-					i_quest2 = ( ( 2 * 1000 ) + Rnd.get(3000));
-				}
-			}
-			else if( player == c_quest3 )
-			{
-				if( ( ( 2 * 1000 ) + 1000 ) > i_quest3 )
-				{
-					i_quest3 = ( ( 2 * 1000 ) + Rnd.get(3000));
-				}
-			}
-			else if( player == c_quest4 )
-			{
-				if( ( ( 2 * 1000 ) + 1000 ) > i_quest4 )
-				{
-					i_quest4 = ( ( 2 * 1000 ) + Rnd.get(3000));
-				}
-			}
-			else if( i_quest2 > i_quest3 )
-			{
-				i1 = 3;
-			}
-			else if( i_quest2 == i_quest3 )
-			{
-				if( Rnd.get(100) < 50 )
-				{
-					i1 = 2;
-				}
-				else
-				{
-					i1 = 3;
-				}
-			}
-			else if( i_quest2 < i_quest3 )
-			{
-				i1 = 2;
-			}
-			if( i1 == 2 )
-			{
-				if( i_quest2 > i_quest4 )
-				{
-					i1 = 4;
-				}
-				else if( i_quest2 == i_quest4 )
-				{
-					if( Rnd.get(100) < 50 )
-					{
-						i1 = 2;
-					}
-					else
-					{
-						i1 = 4;
-					}
-				}
-				else if( i_quest2 < i_quest4 )
-				{
-					i1 = 2;
-				}
-			}
-			else if( i1 == 3 )
-			{
-				if( i_quest3 > i_quest4 )
-				{
-					i1 = 4;
-				}
-				else if( i_quest3 == i_quest4 )
-				{
-					if( Rnd.get(100) < 50 )
-					{
-						i1 = 3;
-					}
-					else
-					{
-						i1 = 4;
-					}
-				}
-				else if( i_quest3 < i_quest4 )
-				{
-					i1 = 3;
-				}
-			}
-			if (i1 == 2)
-			{
-					i_quest2 = ( ( 2 * 1000 ) + Rnd.get(3000) );
-					c_quest2 = player;
-			}
-			else if (i1 == 3)
-			{
-					i_quest3 = ( ( 2 * 1000 ) + Rnd.get(3000) );
-					c_quest3 = player;
-			}
-			else if (i1 == 4)
-			{
-					i_quest4 = ( ( 2 * 1000 ) + Rnd.get(3000) );
-					c_quest4 = player;
-			}
-		}
-		else if( player == c_quest2 )
-		{
-			if( ( ( 1 * 1000 ) + 1000 ) > i_quest2 )
-			{
-				i_quest2 = ( ( 1 * 1000 ) + Rnd.get(3000) );
-			}
-		}
-		else if( player == c_quest3 )
-		{
-			if( ( ( 1 * 1000 ) + 1000 ) > i_quest3 )
-			{
-				i_quest3 = ( ( 1 * 1000 ) + Rnd.get(3000) );
-			}
-		}
-		else if( player == c_quest4 )
-		{
-			if( ( ( 1 * 1000 ) + 1000 ) > i_quest4 )
-			{
-				i_quest4 = ( ( 1 * 1000 ) + Rnd.get(3000) );
-			}
-		}
-		else if( i_quest2 > i_quest3 )
-		{
-			i1 = 3;
-		}
-		else if( i_quest2 == i_quest3 )
-		{
-			if( Rnd.get(100) < 50 )
-			{
-				i1 = 2;
-			}
-			else
-			{
-				i1 = 3;
-			}
-		}
-		else if( i_quest2 < i_quest3 )
-		{
-			i1 = 2;
-		}
-		if( i1 == 2 )
-		{
-			if( i_quest2 > i_quest4 )
-			{
-				i1 = 4;
-			}
-			else if( i_quest2 == i_quest4 )
-			{
-				if( Rnd.get(100) < 50 )
-				{
-					i1 = 2;
-				}
-				else
-				{
-					i1 = 4;
-				}
-			}
-			else if( i_quest2 < i_quest4 )
-			{
-				i1 = 2;
-			}
-		}
-		else if( i1 == 3 )
-		{
-			if( i_quest3 > i_quest4 )
-			{
-				i1 = 4;
-			}
-			else if( i_quest3 == i_quest4 )
-			{
-				if( Rnd.get(100) < 50 )
-				{
-					i1 = 3;
-				}
-				else
-				{
-					i1 = 4;
-				}
-			}
-			else if( i_quest3 < i_quest4 )
-			{
-				i1 = 3;
-			}
-		}
-		if (i1 == 2)
-		{
-				i_quest2 = ( ( 1 * 1000 ) + Rnd.get(3000) );
-				c_quest2 = player;
-		}
-		else if (i1 == 3)
-		{
-				i_quest3 = ( ( 1 * 1000 ) + Rnd.get(3000) );
-				c_quest3 = player;
-		}
-		else if (i1 == 4)
-		{
-				i_quest4 = ( ( 1 * 1000 ) + Rnd.get(3000) );
-				c_quest4 = player;
-		}
-        if (GrandBossManager.getInstance().getBossStatus(VALAKAS) == FIGHTING && !npc.isInvul())
-        {
-        	getRandomSkill(npc);
-        }
-        else
-        	return null;
-    	return super.onAggroRangeEnter(npc, player, isPet);
-    }
-
-	public String onSkillSee (L2Npc npc, L2PcInstance caster, L2Skill skill, L2Object[] targets, boolean isPet)
-	{
-		if (npc.isInvul())
-		{
-			npc.getAI().setIntention(AI_INTENTION_IDLE);
-			return null;
-		}
-		npc.setTarget(caster);
-		return super.onSkillSee(npc, caster, skill, targets, isPet);
-	}
-
-    public static void main(String[] args)
-    {
-    	// now call the constructor (starts up the ai)
-    	new Valakas(-1,"valakas","ai");
-    }
 }

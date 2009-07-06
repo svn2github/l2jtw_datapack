@@ -57,16 +57,14 @@ class Quest (JQuest) :
                 st = player.getQuestState(qn)
                 if st.getQuestItemsCount(3865) > 0 :
                     st.takeItems(3865,1)
-                    zone = GrandBossManager.getInstance().getZone(174170,114753,-7709)
+                    zone = GrandBossManager.getInstance().getZone(181323,114850,-7618)
                     if zone : 
-                       zone.allowPlayerEntry(player,30)
+                       zone.allowPlayerEntry(player,200)
                     x = 174170 + Rnd.get(260)
                     y = 113983 + Rnd.get(1500)
                     player.teleToLocation(x,y,-7709)
                     if status == 0 :
-                        antharas = GrandBossManager.getInstance().getBoss(29019)
-                        self.antharasAI.startQuestTimer("waiting",ExternalConfig.Antharas_Wait_Time, antharas, None)
-                        GrandBossManager.getInstance().setBossStatus(29019,1)
+                        self.antharasAI.startQuestTimer("waiting",0, npc, None)
                     return
                 else :
                     htmltext = "13001-03.htm"
@@ -87,15 +85,13 @@ class Quest (JQuest) :
                 else :
                    zone = GrandBossManager.getInstance().getZone(212852,-114842,-1632)
                    if zone :
-                      zone.allowPlayerEntry(player,30)
+                      zone.allowPlayerEntry(player,200)
                    x = 204328 + Rnd.get(600)
                    y = -111874 + Rnd.get(600)
                    player.teleToLocation(x,y,70)
                    self.count = self.count+1
                    if status == 0 :
-                      valakas = GrandBossManager.getInstance().getBoss(29028)
-                      self.valakasAI.startQuestTimer("1001",ExternalConfig.Valakas_Wait_Time, valakas, None)
-                      GrandBossManager.getInstance().setBossStatus(29028,1)
+                      self.valakasAI.startQuestTimer("1001",0, npc, None)
                    return
             elif status == 2 :
                 htmltext = "31385-02.htm"
