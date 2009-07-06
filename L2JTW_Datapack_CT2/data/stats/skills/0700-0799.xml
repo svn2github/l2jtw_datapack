@@ -1619,27 +1619,22 @@
   <set name="weaponsAllowed" val="65536"/> <!-- Crossbow -->
 </skill>
 <skill id="791" levels="1" name="Lightning Shock">
-  <!-- Update by rocknow -->
-  <!-- by Sephiroth -->
-  <set name="mpConsume" val="55"/>
-  <set name="magicLvl" val="81"/>
-  <set name="power" val="108.0"/>
-  <set name="lvlDepend" val="1"/>
-  <set name="target" val="TARGET_AREA"/>
-  <set name="reuseDelay" val="120000"/>
+  <!-- Done by DJ MELERIX -->
   <set name="hitTime" val="1080"/>
-  <set name="skillType" val="MDAM"/>
-  <set name="skillRadius" val="180"/>
-  <set name="isMagic" val="true"/>
-  <set name="operateType" val="OP_ACTIVE"/>
-  <set name="castRange" val="400"/>
   <set name="isDebuff" val="true"/>
-  <set name="effectRange" val="900"/>
-  <set name="effectType" val="PARALYZE"/>
-  <set name="effectPower" val="20"/>
-  <set name="soulConsumeCount" val="5"/>
+  <set name="lvlDepend" val="1"/>
+  <set name="magicLvl" val="83"/>
+  <set name="mpConsume" val="52"/>
+  <set name="operateType" val="OP_ACTIVE"/>
+  <set name="power" val="1510"/>
+  <set name="reuseDelay" val="6000"/>
+  <set name="skillRadius" val="200"/>
+  <set name="skillType" val="PDAM"/>
+  <set name="soulMaxConsumeCount" val="5"/>
+  <set name="SSBoost" val="2.0"/>
+  <set name="target" val="TARGET_AURA"/>
   <for>
-    <effect count="1" name="Paralyze" time="30" val="0"/>
+    <effect name="Paralyze" time="9" val="0" effectPower="20" effectType="PARALYZE"/>
   </for>
 </skill>
 <skill id="792" levels="1" name="Betrayal Mark">
