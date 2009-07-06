@@ -62,7 +62,7 @@ public class Baium extends L2AttackableAIScript
 	private static final byte AWAKE = 1;	// baium is awake and fighting.  Entry is locked.
 	private static final byte DEAD = 2;		// baium has been killed and has not yet spawned.  Entry is locked
 
-	private static long _LastAttackVsBaiumTime = 0;
+	private static long _LastAction = 0;
 	private static L2BossZone _Zone;
 
 	private static int _SkillCycle = 0;
@@ -70,9 +70,9 @@ public class Baium extends L2AttackableAIScript
 	List<L2Attackable> Minions = new FastList<L2Attackable>();
 
 	// Boss: Baium
-	public Baium (int questId, String name, String descr)
+	public Baium(int id,String name,String descr)
 	{
-		super(questId, name, descr);
+		super(id,name,descr);
 		
 		int[] mob = {LIVE_BAIUM, Angel};
 		this.registerMobs(mob);
@@ -106,6 +106,7 @@ public class Baium extends L2AttackableAIScript
 
 	public String onAdvEvent (String event, L2Npc npc, L2PcInstance player)
 	{
+		long temp = 0;
 		if (event.equalsIgnoreCase("baium_wakeup_first"))
 		{
 			npc.broadcastPacket(new SocialAction(npc.getObjectId(),3));
@@ -116,7 +117,6 @@ public class Baium extends L2AttackableAIScript
 			npc.broadcastPacket(new NpcSay(npc.getObjectId(),1,npc.getNpcId(),"竟敢妨礙我的睡眠！去死吧！"));
 			npc.broadcastPacket(new SocialAction(npc.getObjectId(),1));
 			npc.broadcastPacket(new Earthquake(npc.getX(), npc.getY(), npc.getZ(),40,5));
-			this.startQuestTimer("baium_despawn", 60000, npc, null, true);
 			this.startQuestTimer("action", 10000, npc, null);
 			this.startQuestTimer("spawn_angel", 20000, npc, null);
 		}
@@ -143,23 +143,23 @@ public class Baium extends L2AttackableAIScript
 			npc.setIsInvul(false);
 			npc.setIsParalyzed(false);
 			npc.setIsImmobilized(false);
+			_SkillCycle = 0;
+			_LastAction = System.currentTimeMillis();
 			this.startQuestTimer("loc_check", 15000, npc, null, true);
+			this.startQuestTimer("baium_despawn", 60000, npc, null, true);
 		}
 		else if (event.equalsIgnoreCase("baium_despawn") )
 		{
-			if (_Zone == null)
-				_Zone = GrandBossManager.getInstance().getZone(113100,14500,10077);
-			if (_LastAttackVsBaiumTime + 900000 < System.currentTimeMillis())
+			temp = (System.currentTimeMillis() - _LastAction);
+			if (temp > 900000)
 			{
 				npc.deleteMe();
 				addSpawn(STONE_BAIUM,116067,17484,10110,41740,false,0);
 				GrandBossManager.getInstance().setBossStatus(LIVE_BAIUM,ASLEEP);
 				_Zone.oustAllPlayers();
 				this.cancelQuestTimer("baium_despawn", npc, null);
-				this.startQuestTimer("minions_despawn", 20000, npc, null);
+				this.startQuestTimer("minions_despawn", 1000, npc, null);
 			}
-			else if (!_Zone.isInsideZone(npc))
-				npc.teleToLocation(116067,17484,10110);
 		}
 		else if (event.equalsIgnoreCase("minions_despawn"))
 		{
@@ -223,8 +223,6 @@ public class Baium extends L2AttackableAIScript
 				baium.setIsInvul(true);
 				baium.setIsParalyzed(true);
 				baium.setIsImmobilized(true);
-				_SkillCycle = 0;
-				_LastAttackVsBaiumTime = System.currentTimeMillis();
 				this.startQuestTimer("social", 100, baium, null);
 				this.startQuestTimer("baium_wakeup_first", 12000, baium, null);
 			}
@@ -242,7 +240,7 @@ public class Baium extends L2AttackableAIScript
 				else if (player.getQuestState("baium").getQuestItemsCount(4295) > 0)
 				{
 					player.getQuestState("baium").takeItems(4295,1);
-					_Zone.allowPlayerEntry(player,30);
+					_Zone.allowPlayerEntry(player,200);
 					player.teleToLocation(113100,14500,10077);
 					htmltext = "";
 				}
@@ -259,12 +257,12 @@ public class Baium extends L2AttackableAIScript
 
 	public String onAttack (L2Npc npc, L2PcInstance attacker, int damage, boolean isPet)
 	{
-		_LastAttackVsBaiumTime = System.currentTimeMillis();
+		_LastAction = System.currentTimeMillis();
 		if (npc.isInvul() && npc.getNpcId() == LIVE_BAIUM)
 		{
 			return null;
 		}
-		if (npc.getNpcId() == LIVE_BAIUM && _SkillCycle == 0 && GrandBossManager.getInstance().getBossStatus(LIVE_BAIUM) == AWAKE)
+		else if (npc.getNpcId() == LIVE_BAIUM && _SkillCycle == 0 && GrandBossManager.getInstance().getBossStatus(LIVE_BAIUM) == AWAKE)
 		{
 			int x = 40;
 			if (npc.getCurrentHp() > npc.getMaxHp() / 4 * 3)
@@ -280,11 +278,11 @@ public class Baium extends L2AttackableAIScript
 				npc.doCast(SkillTable.getInstance().getInfo(Rnd.get(4128,4131),1));
 				this.startQuestTimer("skillcycle", Rnd.get(5000,8000), npc, null);
 			}
-			else if (Rnd.get(100) < 40 && npc.isAttackingNow())
+			else if (y < 35 && npc.isAttackingNow())
 			{
 				_SkillCycle = 1;
 				npc.doCast(SkillTable.getInstance().getInfo(4127,1));
-				this.startQuestTimer("skillcycle", Rnd.get(3000,5000), npc, null);
+				this.startQuestTimer("skillcycle", Rnd.get(4000,6000), npc, null);
 			}
 			else 
 			{
@@ -300,6 +298,7 @@ public class Baium extends L2AttackableAIScript
 		if (npc.getNpcId() == LIVE_BAIUM && GrandBossManager.getInstance().getBossStatus(LIVE_BAIUM) == AWAKE)
 		{
 			npc.broadcastPacket(new PlaySound(1, "BS01_D", 1, npc.getObjectId(), npc.getX(), npc.getY(), npc.getZ()));
+			this.cancelQuestTimers("spawn_minion");
 			this.cancelQuestTimer("loc_check", npc, null);
 			this.cancelQuestTimer("baium_despawn", npc, null);
 			this.startQuestTimer("spawn_cubes", 12000, npc, null);
@@ -310,9 +309,9 @@ public class Baium extends L2AttackableAIScript
 			this.startQuestTimer("baium_unlock", respawnTime, npc, null);
 			// also save the respawn time so that the info is maintained past reboots
 			StatsSet info = GrandBossManager.getInstance().getStatsSet(LIVE_BAIUM);
-			info.set("respawn_time",(System.currentTimeMillis()) + respawnTime);
+			info.set("respawn_time",System.currentTimeMillis() + respawnTime);
 			GrandBossManager.getInstance().setStatsSet(LIVE_BAIUM,info);
-		}	
+		}
 		else if (Minions != null && Minions.contains(npc) && GrandBossManager.getInstance().getBossStatus(LIVE_BAIUM) == AWAKE)
 		{
 			Minions.remove(npc);
@@ -324,6 +323,6 @@ public class Baium extends L2AttackableAIScript
 	public static void main(String[] args)
 	{
 		// Quest class and state definition
-		new Baium(-1, "baium", "ai");
+		new Baium(-1,"baium","ai");
 	}
 }

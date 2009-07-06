@@ -350,7 +350,7 @@ public class Baylor extends L2AttackableAIScript
 		{
 			return null;
 		}
-		if (npc.getNpcId() == BAYLOR && _SkillCycle == 0 && GrandBossManager.getInstance().getBossStatus(BAYLOR) == FIGHTING)
+		else if (npc.getNpcId() == BAYLOR && _SkillCycle == 0 && GrandBossManager.getInstance().getBossStatus(BAYLOR) == FIGHTING)
 		{
 			if (Rnd.get(100) < 70 && npc.isAttackingNow())
 			{
@@ -404,7 +404,7 @@ public class Baylor extends L2AttackableAIScript
 			this.startQuestTimer("baylor_unlock", respawnTime, npc, null);
 			// also save the respawn time so that the info is maintained past reboots
 			StatsSet info = GrandBossManager.getInstance().getStatsSet(BAYLOR);
-			info.set("respawn_time",(System.currentTimeMillis() + respawnTime));
+			info.set("respawn_time",System.currentTimeMillis() + respawnTime);
 			GrandBossManager.getInstance().setStatsSet(BAYLOR,info);
 		}
 	return super.onKill(npc,killer,isPet);
