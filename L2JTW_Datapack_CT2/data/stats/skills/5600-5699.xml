@@ -577,15 +577,13 @@
   </for>
 </skill>
 <skill id="5656" levels="85" name="Gatekeeper Aura Flare">
-  <set name="mpInitialConsume" val="15"/>
-  <set name="mpConsume" val="70"/>
-  <set name="magicLvl" val="950"/>
-  <set name="power" val="1200"/>
+  <!-- Update by rocknow -->
+  <set name="mpConsume" val="9"/>
+  <set name="power" val="60"/>
   <set name="target" val="TARGET_ONE"/>
   <set name="reuseDelay" val="2500"/>
   <set name="hitTime" val="1000"/>
   <set name="skillType" val="MDAM"/>
-  <set name="isMagic" val="true"/>
   <set name="operateType" val="OP_ACTIVE"/>
   <set name="isDebuff" val="true"/>
   <set name="castRange" val="150"/>
@@ -597,56 +595,50 @@
   </for>
 </skill>
 <skill id="5657" levels="85" name="Gatekeeper Prominence">
-  <set name="magicLvl" val="1000"/>
-  <set name="mpInitialConsume" val="20"/>
-  <set name="mpConsume" val="80"/>
-  <set name="power" val="1550"/>
+  <!-- Update by rocknow -->
+  <set name="mpConsume" val="9"/>
+  <set name="power" val="75"/>
   <set name="target" val="TARGET_ONE"/>
   <set name="reuseDelay" val="6000"/>
   <set name="hitTime" val="1500"/>
   <set name="skillType" val="MDAM"/>
-  <set name="isMagic" val="true"/>
   <set name="operateType" val="OP_ACTIVE"/>
   <set name="castRange" val="900"/>
   <set name="effectRange" val="1400"/>
 </skill>
 <skill id="5658" levels="85" name="Gatekeeper Flame Strike">
-  <set name="mpInitialConsume" val="22"/>
-  <set name="mpConsume" val="85"/>
-  <set name="magicLvl" val="1200"/>
-  <set name="power" val="1700"/>
+  <!-- Update by rocknow -->
+  <set name="mpConsume" val="13"/>
+  <set name="power" val="38"/>
   <set name="target" val="TARGET_AREA"/>
   <set name="skillRadius" val="200"/>
   <set name="reuseDelay" val="15000"/>
   <set name="hitTime" val="2500"/>
   <set name="skillType" val="MDAM"/>
-  <set name="isMagic" val="true"/>
   <set name="operateType" val="OP_ACTIVE"/>
   <set name="castRange" val="500"/>
-  <set name="effectRange" val="1600"/>
+  <set name="effectRange" val="1000"/>
 </skill>
 <skill id="5659" levels="2" name="Gatekeeper Berserker Spirit">
-  <set name="mpInitialConsume" val="10"/>
-  <set name="mpConsume" val="38"/>
+  <!-- Update by rocknow -->
+  <set name="mpConsume" val="30"/>
   <set name="target" val="TARGET_SELF"/>
   <set name="reuseDelay" val="6000"/>
   <set name="hitTime" val="4000"/>
   <set name="skillType" val="BUFF"/>
   <set name="isMagic" val="true"/>
   <set name="operateType" val="OP_ACTIVE"/>
-  <set name="castRange" val="400"/>
-  <set name="effectRange" val="900"/>
-  <set name="aggroPoints" val="495"/>
+  <set name="aggroPoints" val="331"/>
   <for>
-    <effect name="Buff" time="1200" val="0" stackOrder="1" stackType="berserk">
-      <mul order="0x30" stat="mAtk" val="1.16"/>
-      <mul order="0x30" stat="pAtk" val="1.08"/>
-      <mul order="0x30" stat="mDef" val="0.84"/>
-      <mul order="0x30" stat="pDef" val="0.92"/>
-      <mul order="0x30" stat="mAtkSpd" val="1.08"/>
-      <mul order="0x30" stat="pAtkSpd" val="1.08"/>
-      <add order="0x40" stat="runSpd" val="8"/>
-      <sub order="0x40" stat="rEvas" val="4"/>
+    <effect name="Buff" time="300" val="0" stackOrder="1" stackType="berserk">
+      <mul order="0x30" stat="mAtk" val="1.1"/>
+      <mul order="0x30" stat="pAtk" val="1.05"/>
+      <mul order="0x30" stat="mDef" val="0.9"/>
+      <mul order="0x30" stat="pDef" val="0.95"/>
+      <mul order="0x30" stat="mAtkSpd" val="1.05"/>
+      <mul order="0x30" stat="pAtkSpd" val="1.05"/>
+      <add order="0x40" stat="runSpd" val="5"/>
+      <sub order="0x40" stat="rEvas" val="2"/>
     </effect>
   </for>
 </skill>
