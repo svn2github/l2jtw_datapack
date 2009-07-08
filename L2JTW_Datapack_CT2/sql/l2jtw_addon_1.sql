@@ -828,7 +828,7 @@ REPLACE INTO `weapon` VALUES
 (20264,'Baguette Staff','rhand','false',500,3,3,'fine_steel','none',1,1,'blunt',4,0.00000,0,0,0,379,0,2,-1,10080,0,0,'true','true','true','true',0,0,0,0,0,0,0,0,0,'0-0;'),
 (20265,'Baguette Great Staff','lrhand','false',500,3,3,'fine_steel','none',1,1,'bigblunt',4,0.00000,0,0,0,325,0,2,-1,10080,0,0,'true','true','true','true',0,0,0,0,0,0,0,0,0,'0-0;'),
 (20266,'Baguette Shield','lhand','false',500,0,0,'fine_steel','none',0,0,'none',0,0.00000,-8,2,20,0,0,0,-1,10080,0,0,'true','true','true','true',0,0,0,0,0,0,0,0,0,'0-0;'),
-(20267,'Baguette Rapier','rhand','false',500,3,3,'fine_steel','none',1,1,'rapier',10,0.00000,0,0,0,406,0,3,-1,10080,0,0,'true','true','true','true',0,0,0,0,0,0,0,0,0,'0-0;'),
+(20267,'Baguette Rapier','rhand','false',500,3,3,'fine_steel','none',1,1,'rapier',10,0.00000,0,0,0,406,0,3,-1,10080,0,0,'true','true','true','true',3426,0,0,0,0,0,0,0,0,'0-0;'),
 (20268,'Baguette Ancient Sword','lrhand','false',500,3,3,'fine_steel','none',1,1,'ancient',6,0.00000,0,0,0,350,0,3,-1,10080,0,0,'true','true','true','true',0,0,0,0,0,0,0,0,0,'0-0;'),
 (20269,'Baguette Crossbow','lrhand','false',500,6,3,'fine_steel','none',1,1,'crossbow',10,0.00000,0,0,0,303,0,3,-1,10080,0,0,'true','true','true','true',0,0,0,0,0,0,0,0,0,'0-0;'),
 (20270,'Baguette\'s Dualsword','lrhand','false',500,3,3,'fine_steel','none',1,1,'dual',8,0.00000,0,0,0,325,0,2,-1,10080,0,0,'true','true','true','true',0,0,0,0,0,0,0,0,0,'0-0;');
@@ -1119,8 +1119,43 @@ DELETE FROM `fort_spawnlist` WHERE `npcId` IN (35659,35690,35728,35759,35797,358
 UPDATE `npc` SET `walkspd` = '8' WHERE `id` IN (32072);
 UPDATE `npc` SET `walkspd` = '50' WHERE `id` IN (35659,35690,35728,35759,35797,35828,35859,35897,35928,35966,36004,36035,36073,36111,36142,36173,36211,36249,36287,36318,36356);
 
--- 修正物品類型
-UPDATE `weapon` SET `bodypart` = 'lhand' WHERE `item_id` IN (13770);  -- 艾罕米亞卡修之盾
+-- 防具修正
+UPDATE `armor` SET `m_def` = 71  WHERE `item_id` IN (9452,11604); -- 封印的王朝耳環
+UPDATE `armor` SET `m_def` = 95  WHERE `item_id` IN (9453,11602); -- 封印的王朝項鍊
+UPDATE `armor` SET `m_def` = 79  WHERE `item_id` IN (9455,11601); -- 王朝耳環
+UPDATE `armor` SET `m_def` = 106 WHERE `item_id` IN (9456,11599); -- 王朝項鍊
+UPDATE `armor` SET `armor_type` = 'none' WHERE `item_id` IN (9422,9423,9424,9429,9430,9431,9438,9439,9440,9516,9517,9518,9521,9522,9523,9526,9527,9528,13137,13138,13139,13140,13141,13142,13143,13144,13145,13146,13147,13148,13439,13440,13442,13443,13445,13446,13449,13450,13452,13453,13455,13456,14109,14110,14113,14114,14116,14117,14584,14585,14587,14588,14590,14591); -- 頭盔/手套/鞋
+UPDATE `armor` SET `armor_type` = 'light' WHERE `item_id` IN (9670,9671); -- 土著上衣/土著下衣
+UPDATE `armor` SET `armor_type` = 'heavy' WHERE `item_id` IN (9821,9831,10019,10020); -- 幻象裝備-盟誓盔甲/進階型阿貝拉盔甲/鎖子胸甲/鋼鐵脛甲
+UPDATE `armor` SET `armor_type` = 'light' WHERE `item_id` IN (9824,9834,10021,10022); -- 幻象裝備-盟誓禮服/進階型阿貝拉禮服/水晶獅皮襯衫/水晶獅皮脛甲
+UPDATE `armor` SET `armor_type` = 'magic' WHERE `item_id` IN (9827,9837,10023,10024); -- 幻象裝備-盟誓長袍/進階型阿貝拉長袍/受詛咒的外衣/受詛咒的長襪
+UPDATE `armor` SET `armor_type` = 'light' WHERE `item_id` IN (10487,10488,10489,10490); -- 王朝寶石皮甲 力量大師/王朝寶石皮甲 武器大師/王朝寶石皮甲 法師/王朝寶石皮甲 召喚士
+UPDATE `armor` SET `crystallizable` = 'false' WHERE `item_id` IN (9826,13885,13886,13887); -- 幻象武器-盟誓禮鞋 輕裝用/封印的祕儀符印/封印的王朝符印/封印的薄暮符印
+
+-- 武器修正
+UPDATE `weapon` SET `m_dam` = 11 WHERE `item_id` = 748; -- 噶爾林特的橡木杖
+UPDATE `weapon` SET `m_dam` = 24 WHERE `item_id` = 8576; -- 見習生魔杖-禮券活動用
+UPDATE `weapon` SET `m_dam` = 111 WHERE `item_id` = 8843; -- 幻象裝備-帕格立歐之鎚
+UPDATE `weapon` SET `m_dam` = 31 WHERE `item_id` IN (8977,9908,13158); -- 幻象裝備-法師魔杖/進階型法師魔杖/限時-法師魔杖 限時60分鐘
+UPDATE `weapon` SET `m_dam` = 24 WHERE `item_id` = 10474; -- 幻象裝備-見習生魔杖
+UPDATE `weapon` SET `m_dam` = 39 WHERE `item_id` = 11610; -- 基本型-骨頭魔杖
+UPDATE `weapon` SET `m_dam` = 122 WHERE `item_id` = 11855; -- 基本型-惡魔魔杖
+UPDATE `weapon` SET `m_dam` = 193 WHERE `item_id` = 12002; -- 基本型-帝國權杖
+UPDATE `weapon` SET `m_dam` = 79 WHERE `item_id` = 13168; -- 限時-生命手杖 限時60分鐘
+UPDATE `weapon` SET `m_dam` = 132 WHERE `item_id` = 20143; -- 邪靈魔杖-活動 限時4小時
+UPDATE `weapon` SET `weight` = 1150 WHERE `item_id` IN (9441,9529); -- 王朝盾/封印的王朝盾
+UPDATE `weapon` SET `p_dam` = 422 WHERE `item_id` IN (10226,10467,10468,10469,11309,11310,11311,11312); -- 伊克魯斯之弩/伊克魯斯之弩 節射/伊克魯斯之弩 導引/伊克魯斯之弩 偵測/伊克魯斯之弩-集中/伊克魯斯之弩-集中 節射/伊克魯斯之弩-集中 導引/伊克魯斯之弩-集中 偵測
+UPDATE `weapon` SET `p_dam` = 325, `m_dam` = 222, `atk_speed` = 325 WHERE `item_id` IN (10252,10527,10528,10529); -- 王朝魔杖/王朝魔杖 魔力上升/王朝魔杖 魂體轉換/王朝魔杖 靈活思緒
+UPDATE `weapon` SET `atk_speed` = 325 WHERE `item_id` IN (10530,10531,10532); -- 王朝毀滅者 怒擊/王朝毀滅者 強健/王朝毀滅者 Rsk.偵測
+UPDATE `weapon` SET `bodypart` = 'rhand' WHERE `item_id` IN (13556,13557,20114,20126,20128,20140,20142,20154,20156,20168,20170,20258,20264); -- 飛空艇操控舵/飛空艇大砲/祭司釘鎚-活動/夜叉釘鎚-活動/月蝕斧-活動/工藝戰斧-活動/卡倚巴奴之骨-活動/樂園-活動/火龍之首-活動/玄武岩戰鎚-活動/祕儀權杖-活動/法國麵包吐司鎚/法國麵包香郁杖/
+UPDATE `weapon` SET `bodypart` = 'lrhand', `weaponType` = 'bigblunt' WHERE `item_id` IN (9819,13530,13531,13532,13533,13534,13535,13536,13537,13538,13560,13561,13562,13563,13564,13565,13566,13567,13568,13809);  -- 鬥爭旗幟/古魯丁旗幟/狄恩旗幟/奇岩旗幟/歐瑞旗幟/亞丁旗幟/因納得立旗幟/高達特旗幟/魯因旗幟/修加特旗幟/古魯丁 守護之物/狄恩 守護之物/奇岩 守護之物/歐瑞 守護之物/亞丁 守護之物/因納得立 守護之物/高達特 守護之物/魯因 守護之物/修加特 守護之物/宮廷魔法師的魔法棒
+UPDATE `weapon` SET `bodypart` = 'lrhand', `weaponType` = 'pole' WHERE `item_id` = 10277; -- 怪物用(貝希莫槍)
+UPDATE `weapon` SET `bodypart` = 'lrhand', `weaponType` = 'dual' WHERE `item_id` = 10278; -- 怪物用(貝希莫雙刀)
+UPDATE `weapon` SET `bodypart` = 'lhand' WHERE `item_id` = 13770;  -- 艾罕米亞卡修之盾
+UPDATE `weapon` SET `weaponType` = 'dual' WHERE `item_id` = 1299; -- 二刀流 測試用
+UPDATE `weapon` SET `weaponType` = 'bigsword' WHERE `item_id` = 13842; -- 蒂雅特雙手武器
+UPDATE `weapon` SET `weaponType` = 'none' WHERE `item_id` = 13980; -- 怪物用(龍馬軍作戰步兵盾)
+UPDATE `weapon` SET `weaponType` = 'bigsword' WHERE `item_id` = 13983; -- 怪物用(死亡騎士_2hs)
 
 -- 增加物品效果
 UPDATE `armor` SET `skill` = '3633-2;' WHERE `item_id` = '6841';                               -- 城主的王冠
