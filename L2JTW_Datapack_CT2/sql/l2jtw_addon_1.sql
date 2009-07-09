@@ -507,8 +507,6 @@ REPLACE INTO `droplist` VALUES
 (29099,9467,1,1,1,300000),
 (29099,10170,1,1,1,1000000),
 (29099,57,180000,220000,0,1000000);
-
-
 REPLACE INTO `npcskills` VALUES
 (29020,4127,1),
 (29020,4128,1),
@@ -1131,6 +1129,16 @@ UPDATE `armor` SET `armor_type` = 'light' WHERE `item_id` IN (9824,9834,10021,10
 UPDATE `armor` SET `armor_type` = 'magic' WHERE `item_id` IN (9827,9837,10023,10024); -- 幻象裝備-盟誓長袍/進階型阿貝拉長袍/受詛咒的外衣/受詛咒的長襪
 UPDATE `armor` SET `armor_type` = 'light' WHERE `item_id` IN (10487,10488,10489,10490); -- 王朝寶石皮甲 力量大師/王朝寶石皮甲 武器大師/王朝寶石皮甲 法師/王朝寶石皮甲 召喚士
 UPDATE `armor` SET `crystallizable` = 'false' WHERE `item_id` IN (9826,13885,13886,13887); -- 幻象武器-盟誓禮鞋 輕裝用/封印的祕儀符印/封印的王朝符印/封印的薄暮符印
+UPDATE `armor` SET `time` = 0 WHERE `item_id` IN (20098); -- 禮服-活動 1小時幻象
+UPDATE `armor` SET `time` = 10080 WHERE `item_id` IN (13546,13547); -- 蒸汽甲蟲騎乘手鐲/黃鬃獅子騎乘手鐲
+UPDATE `armor` SET `time` = 20160 WHERE `item_id` IN (14611,14617); -- 魯道夫之鼻/壺精封印手鐲-魯道夫
+UPDATE `armor` SET `time` = 43200 WHERE `item_id` IN (13544,13545); -- 壺精召喚手鐲-男生泰迪熊/壺精召喚手鐲-女生泰迪熊
+UPDATE `armor` SET `time` = 1440 WHERE `item_id` IN (20497); -- SQL資料尚未加入
+UPDATE `armor` SET `time` = 4320 WHERE `item_id` IN (20498); -- SQL資料尚未加入
+UPDATE `armor` SET `time` = 10080 WHERE `item_id` IN (20399,20400,20405,20406,20407,20408,20409,20410,20411,20412,20413,20414,20415,20416,20417,20418,20419,20420,20421,20422,20423,20424,20425,20426,20427,20428,20429,20430,20431,20432,20433,20434,20435,20436,20437,20438,20439,20440,20441,20442,20443,20444,20445,20446,20447,20448,20449,20496,20537,20538,20539); -- SQL資料尚未加入
+UPDATE `armor` SET `time` = 20160 WHERE `item_id` IN (14771,14773,14775,14776); -- SQL資料尚未加入
+UPDATE `armor` SET `time` = 43200 WHERE `item_id` IN (20503,20504,20535,20536); -- SQL資料尚未加入
+UPDATE `armor` SET `duration` = 360 WHERE `item_id` IN (14753,14754,14755,14756,14757,14758,14759,14760,14761,14762,14763,14764); -- SQL資料尚未加入
 
 -- 武器修正
 UPDATE `weapon` SET `m_dam` = 11 WHERE `item_id` = 748; -- 噶爾林特的橡木杖
@@ -1147,15 +1155,40 @@ UPDATE `weapon` SET `weight` = 1150 WHERE `item_id` IN (9441,9529); -- 王朝盾/封
 UPDATE `weapon` SET `p_dam` = 422 WHERE `item_id` IN (10226,10467,10468,10469,11309,11310,11311,11312); -- 伊克魯斯之弩/伊克魯斯之弩 節射/伊克魯斯之弩 導引/伊克魯斯之弩 偵測/伊克魯斯之弩-集中/伊克魯斯之弩-集中 節射/伊克魯斯之弩-集中 導引/伊克魯斯之弩-集中 偵測
 UPDATE `weapon` SET `p_dam` = 325, `m_dam` = 222, `atk_speed` = 325 WHERE `item_id` IN (10252,10527,10528,10529); -- 王朝魔杖/王朝魔杖 魔力上升/王朝魔杖 魂體轉換/王朝魔杖 靈活思緒
 UPDATE `weapon` SET `atk_speed` = 325 WHERE `item_id` IN (10530,10531,10532); -- 王朝毀滅者 怒擊/王朝毀滅者 強健/王朝毀滅者 Rsk.偵測
-UPDATE `weapon` SET `bodypart` = 'rhand' WHERE `item_id` IN (13556,13557,20114,20126,20128,20140,20142,20154,20156,20168,20170,20258,20264); -- 飛空艇操控舵/飛空艇大砲/祭司釘鎚-活動/夜叉釘鎚-活動/月蝕斧-活動/工藝戰斧-活動/卡倚巴奴之骨-活動/樂園-活動/火龍之首-活動/玄武岩戰鎚-活動/祕儀權杖-活動/法國麵包吐司鎚/法國麵包香郁杖/
-UPDATE `weapon` SET `bodypart` = 'lrhand', `weaponType` = 'bigblunt' WHERE `item_id` IN (9819,13530,13531,13532,13533,13534,13535,13536,13537,13538,13560,13561,13562,13563,13564,13565,13566,13567,13568,13809);  -- 鬥爭旗幟/古魯丁旗幟/狄恩旗幟/奇岩旗幟/歐瑞旗幟/亞丁旗幟/因納得立旗幟/高達特旗幟/魯因旗幟/修加特旗幟/古魯丁 守護之物/狄恩 守護之物/奇岩 守護之物/歐瑞 守護之物/亞丁 守護之物/因納得立 守護之物/高達特 守護之物/魯因 守護之物/修加特 守護之物/宮廷魔法師的魔法棒
+UPDATE `weapon` SET `bodypart` = 'rhand' WHERE `item_id` IN (13556,13557,20114,20126,20128,20140,20142,20154,20156,20168,20170,20258,20264); -- 飛空艇操控舵/飛空艇大砲/祭司釘鎚-活動/夜叉釘鎚-活動/月蝕斧-活動/工藝戰斧-活動/卡倚巴奴之骨-活動/樂園-活動/火龍之首-活動/玄武岩戰鎚-活動/祕儀權杖-活動/法國麵包吐司鎚/法國麵包香郁/
+UPDATE `weapon` SET `bodypart` = 'lrhand', `weaponType` = 'bigblunt' WHERE `item_id` IN (9819,13530,13531,13532,13533,13534,13535,13536,13537,13538,13560,13561,13562,13563,13564,13565,13566,13567,13568);  -- 鬥爭旗幟/古魯丁旗幟/狄恩旗幟/奇岩旗幟/歐瑞旗幟/亞丁旗幟/因納得立旗幟/高達特旗幟/魯因旗幟/修加特旗幟/古魯丁 守護之物/狄恩 守護之物/奇岩 守護之物/歐瑞 守護之物/亞丁 守護之物/因納得立 守護之物/高達特 守護之物/魯因 守護之物/修加特 守護之物
+UPDATE `weapon` SET `bodypart` = 'lrhand', `weaponType` = 'bigblunt' WHERE `item_id` IN (13539,13809,13981,20113,20115,20127,20129,20141,20143,20155,20157,20169,20171,20259,20265); -- 大師余義的魔杖/宮廷魔法師的魔法棒/怪物用(龍馬軍戰鬥兵)/下巨人之鎚-活動/山羊頭之杖-活動/矮人巨鎚-活動/惡魔魔杖-活動/星爆-活動/邪靈魔杖-活動/末日毀滅者-活動/世界樹樹枝-活動/狩龍之斧-活動/帝國權杖-活動/法國麵包牛角鎚/法國麵包麻花杖
 UPDATE `weapon` SET `bodypart` = 'lrhand', `weaponType` = 'pole' WHERE `item_id` = 10277; -- 怪物用(貝希莫槍)
 UPDATE `weapon` SET `bodypart` = 'lrhand', `weaponType` = 'dual' WHERE `item_id` = 10278; -- 怪物用(貝希莫雙刀)
 UPDATE `weapon` SET `bodypart` = 'lhand' WHERE `item_id` = 13770;  -- 艾罕米亞卡修之盾
 UPDATE `weapon` SET `weaponType` = 'dual' WHERE `item_id` = 1299; -- 二刀流 測試用
 UPDATE `weapon` SET `weaponType` = 'bigsword' WHERE `item_id` = 13842; -- 蒂雅特雙手武器
-UPDATE `weapon` SET `weaponType` = 'none' WHERE `item_id` = 13980; -- 怪物用(龍馬軍作戰步兵盾)
+UPDATE `weapon` SET `weaponType` = 'none' WHERE `item_id` IN (13525,13980); -- 格勒西亞士兵盾牌/怪物用(龍馬軍作戰步兵盾)
 UPDATE `weapon` SET `weaponType` = 'bigsword' WHERE `item_id` = 13983; -- 怪物用(死亡騎士_2hs)
+UPDATE `weapon` SET `time` = 20160 WHERE `item_id` IN (14774); -- SQL資料尚未加入
+
+-- 其他物品修正
+Delete From `items` Where (`item_id` > 708 and `item_id` < 725); -- 和防具同名稱的其他物品
+UPDATE `etcitem` SET `consume_type` = 'normal' WHERE `item_id` IN (731,732,949,950,953,954,957,958,961,962); -- 武器強化結晶卷軸/防具強化結晶卷軸
+UPDATE `etcitem` SET `weight` = 10 WHERE `item_id` IN (5342,5343); -- 回聲水晶-大悲咒/回聲水晶-聖歌
+UPDATE `etcitem` SET `weight` = 0 WHERE `item_id` IN (10017,10649); -- 珊瑚的寶箱鑰匙/祝福的羽毛
+UPDATE `etcitem` SET `weight` = 60 WHERE `item_id` IN (10114,13099); -- 封印的王朝符印碎片/封印的祕儀符印碎片
+UPDATE `etcitem` SET `weight` = 30 WHERE `item_id` IN (10115,10116,13100,13101); -- 製作卷軸(封印的王朝符印60%)/製作卷軸(封印的王朝符印100%)/製作卷軸(封印的祕儀符印60%)/製作卷軸(封印的祕儀符印100%)
+UPDATE `etcitem` SET `consume_type` = 'normal', `weight` = 1370 WHERE `item_id` = 10117; -- 渾沌的封印的王朝符印
+UPDATE `etcitem` SET `consume_type` = 'normal', `weight` = 1390 WHERE `item_id` = 10118; -- 渾沌的 王朝符印
+UPDATE `etcitem` SET `consume_type` = 'normal' WHERE `item_id` IN (10414,10480,10481,10482,10607,13382); -- 壺精交換券/紅色搜魂石-階段15/藍色搜魂石-階段15/綠色搜魂石-階段15/壺精封印手鐲-魯道夫/格蘭肯的禮盒-活動用
+UPDATE `etcitem` SET `consume_type` = 'stackable' WHERE `item_id` IN (13033,13040,13041,13059,13149,13150,13151,13152); -- 瞬間體力治癒藥水/火屬性強化劑/水屬性強化劑/遠距離防禦能力提升藥水/菲拉卡最終鑰匙/菲拉卡萬能鑰匙/菲拉卡活力充能藥水
+UPDATE `etcitem` SET `consume_type` = 'stackable' WHERE `item_id` IN (13420,13421,20025,20026,20027,20028,20033,20034); -- 點心/蛋糕/自由傳送卷軸/追加入場券-欲界(深淵之廳)/追加入場券-近緣欲界/追加入場券-欲界(深淵迷宮)/自由傳送旗/萬聖節糖果-活動用
+UPDATE `etcitem` SET `weight` = 20 WHERE `item_id` IN (13071,13072,13073); -- 紅色搜魂石-階段16/藍色搜魂石-階段16/綠色搜魂石-階段16
+UPDATE `etcitem` SET `weight` = 1170 WHERE `item_id` IN (13077,13102); -- 渾沌的祕儀符印/渾沌的封印的祕儀符印
+UPDATE `etcitem` SET `weight` = 100 WHERE `item_id` IN (13277,13278);-- 能量星石/高級能量星石
+UPDATE `etcitem` SET `time` = 240 WHERE `item_id` IN (20075,20076,20077,20078); -- 聖誕老人的禮物-喜悅/趣味/幸運/幸運
+UPDATE `etcitem` SET `time` = 480 WHERE `item_id` IN (20103,20104.20105,20106); -- 聖誕慶典卷軸-重裝戰士/輕裝戰士/牧師/巫師
+UPDATE `etcitem` SET `time` = 720 WHERE `item_id` IN (20107,20108); -- 聖誕老人的武器交換券
+UPDATE `etcitem` SET `time` = 1440 WHERE `item_id` IN (20320); -- 生日蛋糕
+UPDATE `etcitem` SET `time` = 10080 WHERE `item_id` IN (20339,20340,20345,20346,20351,20352); -- 經驗值古文/SP古文/結晶型古文
+UPDATE `etcitem` SET `time` = 21600 WHERE `item_id` IN (20190); -- 情人節裝飾品
+UPDATE `etcitem` SET `time` = 43200 WHERE `item_id` IN (13027,14728,20199); -- 格蘭肯的禮盒/活動-礦石晶體/夢幻的情人節蛋糕
 
 -- 增加物品效果
 UPDATE `armor` SET `skill` = '3633-2;' WHERE `item_id` = '6841';                               -- 城主的王冠
