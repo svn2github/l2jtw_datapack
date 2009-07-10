@@ -1122,7 +1122,6 @@ UPDATE `armor` SET `m_def` = 71  WHERE `item_id` IN (9452,11604); -- «Ê¦Lªº¤ý´Â¦
 UPDATE `armor` SET `m_def` = 95  WHERE `item_id` IN (9453,11602); -- «Ê¦Lªº¤ý´Â¶µÁå
 UPDATE `armor` SET `m_def` = 79  WHERE `item_id` IN (9455,11601); -- ¤ý´Â¦ÕÀô
 UPDATE `armor` SET `m_def` = 106 WHERE `item_id` IN (9456,11599); -- ¤ý´Â¶µÁå
-UPDATE `armor` SET `armor_type` = 'none' WHERE `item_id` IN (9422,9423,9424,9429,9430,9431,9438,9439,9440,9516,9517,9518,9521,9522,9523,9526,9527,9528,13137,13138,13139,13140,13141,13142,13143,13144,13145,13146,13147,13148,13439,13440,13442,13443,13445,13446,13449,13450,13452,13453,13455,13456,14109,14110,14113,14114,14116,14117,14584,14585,14587,14588,14590,14591); -- ÀY²¯/¤â®M/¾c
 UPDATE `armor` SET `armor_type` = 'light' WHERE `item_id` IN (9670,9671); -- ¤gµÛ¤W¦ç/¤gµÛ¤U¦ç
 UPDATE `armor` SET `armor_type` = 'heavy' WHERE `item_id` IN (9821,9831,10019,10020); -- ¤Û¶H¸Ë³Æ-·ù»}²¯¥Ò/¶i¶¥«¬ªü¨©©Ô²¯¥Ò/Âê¤l¯Ý¥Ò/¿ûÅK×H¥Ò
 UPDATE `armor` SET `armor_type` = 'light' WHERE `item_id` IN (9824,9834,10021,10022); -- ¤Û¶H¸Ë³Æ-·ù»}Â§ªA/¶i¶¥«¬ªü¨©©ÔÂ§ªA/¤ô´¹·à¥ÖÅ¨­m/¤ô´¹·à¥Ö×H¥Ò

@@ -1,9495 +1,9606 @@
-/************ Made in Taiwan ************/
+DROP TABLE IF EXISTS `etcitem_name`;
+CREATE TABLE `etcitem_name` (
+  `item_id` int(10) NOT NULL default '0',
+  `name` varchar(120) NOT NULL default '',
+  PRIMARY KEY  (`item_id`)
+) DEFAULT CHARSET=utf8;
 
-/***** 貳幕-破滅國境 09-06-08 *****/
-/***** itemname-tw *****/
-UPDATE `etcitem` SET `name` ='木箭' WHERE `item_id` = 17;
-UPDATE `etcitem` SET `name` ='(不使用)' WHERE `item_id` = 53;
-UPDATE `etcitem` SET `name` ='(不使用)' WHERE `item_id` = 54;
-UPDATE `etcitem` SET `name` ='開心壺精 7日/組-活動用' WHERE `item_id` = 55;
-UPDATE `etcitem` SET `name` ='嗚咽壺精 7日/組-活動用' WHERE `item_id` = 56;
-UPDATE `etcitem` SET `name` ='金幣' WHERE `item_id` = 57;
-UPDATE `etcitem` SET `name` ='紅色藥水' WHERE `item_id` = 65;
-UPDATE `etcitem` SET `name` ='(不使用)' WHERE `item_id` = 136;
-UPDATE `etcitem` SET `name` ='(不使用)' WHERE `item_id` = 137;
-UPDATE `etcitem` SET `name` ='(不使用)' WHERE `item_id` = 138;
-UPDATE `etcitem` SET `name` ='怒氣壺精 7日/組' WHERE `item_id` = 139;
-UPDATE `etcitem` SET `name` ='開心壺精 7日/組' WHERE `item_id` = 140;
-UPDATE `etcitem` SET `name` ='嗚咽壺精 7日/組' WHERE `item_id` = 141;
-UPDATE `etcitem` SET `name` ='(不使用)' WHERE `item_id` = 163;
-UPDATE `etcitem` SET `name` ='怒氣壺精 7日/組-活動用' WHERE `item_id` = 170;
-UPDATE `etcitem` SET `name` ='椅子' WHERE `item_id` = 686;
-UPDATE `etcitem` SET `name` ='達靈的信函' WHERE `item_id` = 687;
-UPDATE `etcitem` SET `name` ='拉普吉兒的手帕' WHERE `item_id` = 688;
-UPDATE `etcitem` SET `name` ='阿路基恩的詩集' WHERE `item_id` = 689;
-UPDATE `etcitem` SET `name` ='何布帝恩的歌詞集' WHERE `item_id` = 690;
-UPDATE `etcitem` SET `name` ='羅曼史小說' WHERE `item_id` = 691;
-UPDATE `etcitem` SET `name` ='阿路基恩的信函' WHERE `item_id` = 692;
-UPDATE `etcitem` SET `name` ='葛雷妮絲的信' WHERE `item_id` = 693;
-UPDATE `etcitem` SET `name` ='材料明細' WHERE `item_id` = 694;
-UPDATE `etcitem` SET `name` ='瑪瑙獸的血' WHERE `item_id` = 695;
-UPDATE `etcitem` SET `name` ='瑪那吸血鬼的皮' WHERE `item_id` = 696;
-UPDATE `etcitem` SET `name` ='翼魔的角' WHERE `item_id` = 697;
-UPDATE `etcitem` SET `name` ='吉伯特的名單' WHERE `item_id` = 698;
-UPDATE `etcitem` SET `name` ='獸人的鼻子' WHERE `item_id` = 699;
-UPDATE `etcitem` SET `name` ='哈柏哥布林骨符' WHERE `item_id` = 700;
-UPDATE `etcitem` SET `name` ='蘑菇汁' WHERE `item_id` = 701;
-UPDATE `etcitem` SET `name` ='狼皮' WHERE `item_id` = 702;
-UPDATE `etcitem` SET `name` ='巨大蜘蛛的毒囊' WHERE `item_id` = 703;
-UPDATE `etcitem` SET `name` ='退燒藥' WHERE `item_id` = 704;
-UPDATE `etcitem` SET `name` ='獸人的羽毛護身符' WHERE `item_id` = 705;
-UPDATE `etcitem` SET `name` ='邪惡蜥蜴之爪' WHERE `item_id` = 706;
-UPDATE `etcitem` SET `name` ='蘑菇孢囊' WHERE `item_id` = 707;
-UPDATE `etcitem` SET `name` ='精靈頭飾' WHERE `item_id` = 708;
-UPDATE `etcitem` SET `name` ='皮襯衫' WHERE `item_id` = 709;
-UPDATE `etcitem` SET `name` ='硬皮襯衫' WHERE `item_id` = 710;
-UPDATE `etcitem` SET `name` ='骨片胸甲' WHERE `item_id` = 711;
-UPDATE `etcitem` SET `name` ='半身盔甲' WHERE `item_id` = 712;
-UPDATE `etcitem` SET `name` ='皮褲' WHERE `item_id` = 713;
-UPDATE `etcitem` SET `name` ='硬皮褲' WHERE `item_id` = 714;
-UPDATE `etcitem` SET `name` ='骨片脛甲' WHERE `item_id` = 715;
-UPDATE `etcitem` SET `name` ='金屬脛甲' WHERE `item_id` = 716;
-UPDATE `etcitem` SET `name` ='皮手套' WHERE `item_id` = 717;
-UPDATE `etcitem` SET `name` ='硬皮手套' WHERE `item_id` = 718;
-UPDATE `etcitem` SET `name` ='高級皮手套' WHERE `item_id` = 719;
-UPDATE `etcitem` SET `name` ='強化手套' WHERE `item_id` = 720;
-UPDATE `etcitem` SET `name` ='皮靴' WHERE `item_id` = 721;
-UPDATE `etcitem` SET `name` ='硬皮靴' WHERE `item_id` = 722;
-UPDATE `etcitem` SET `name` ='高級皮靴' WHERE `item_id` = 723;
-UPDATE `etcitem` SET `name` ='強化靴' WHERE `item_id` = 724;
-UPDATE `etcitem` SET `name` ='體力治癒輔助藥水' WHERE `item_id` = 725;
-UPDATE `etcitem` SET `name` ='魔力治癒輔助藥水' WHERE `item_id` = 726;
-UPDATE `etcitem` SET `name` ='高級體力治癒藥水' WHERE `item_id` = 727;
-UPDATE `etcitem` SET `name` ='魔力治癒藥水' WHERE `item_id` = 728;
-UPDATE `etcitem` SET `name` ='武器強化卷軸-A級' WHERE `item_id` = 729;
-UPDATE `etcitem` SET `name` ='防具強化卷軸-A級' WHERE `item_id` = 730;
-UPDATE `etcitem` SET `name` ='武器強化結晶卷軸-A級' WHERE `item_id` = 731;
-UPDATE `etcitem` SET `name` ='防具強化結晶卷軸-A級' WHERE `item_id` = 732;
-UPDATE `etcitem` SET `name` ='奮鬥藥水' WHERE `item_id` = 733;
-UPDATE `etcitem` SET `name` ='移動加速藥水' WHERE `item_id` = 734;
-UPDATE `etcitem` SET `name` ='攻擊加速藥水' WHERE `item_id` = 735;
-UPDATE `etcitem` SET `name` ='返回卷軸' WHERE `item_id` = 736;
-UPDATE `etcitem` SET `name` ='復活卷軸' WHERE `item_id` = 737;
-UPDATE `etcitem` SET `name` ='斷劍之柄' WHERE `item_id` = 739;
-UPDATE `etcitem` SET `name` ='斷裂的刀身' WHERE `item_id` = 740;
-UPDATE `etcitem` SET `name` ='斷裂的刀鋒' WHERE `item_id` = 741;
-UPDATE `etcitem` SET `name` ='阿爾特蘭的紙條' WHERE `item_id` = 742;
-UPDATE `etcitem` SET `name` ='科班得的治癒藥' WHERE `item_id` = 745;
-UPDATE `etcitem` SET `name` ='艾貝里烏斯的清單' WHERE `item_id` = 746;
-UPDATE `etcitem` SET `name` ='緣份水晶' WHERE `item_id` = 750;
-UPDATE `etcitem` SET `name` ='破碎的緣份水晶' WHERE `item_id` = 751;
-UPDATE `etcitem` SET `name` ='獸人的羽毛護身符' WHERE `item_id` = 752;
-UPDATE `etcitem` SET `name` ='銀光樹葉胸針' WHERE `item_id` = 753;
-UPDATE `etcitem` SET `name` ='克雷娜斯的信' WHERE `item_id` = 755;
-UPDATE `etcitem` SET `name` ='曼陀羅草根' WHERE `item_id` = 756;
-UPDATE `etcitem` SET `name` ='曼陀羅精油' WHERE `item_id` = 757;
-UPDATE `etcitem` SET `name` ='克雷娜斯的收據' WHERE `item_id` = 758;
-UPDATE `etcitem` SET `name` ='刻印古文字的劍' WHERE `item_id` = 759;
-UPDATE `etcitem` SET `name` ='恐怖之劍' WHERE `item_id` = 760;
-UPDATE `etcitem` SET `name` ='死神之劍' WHERE `item_id` = 761;
-UPDATE `etcitem` SET `name` ='灰骨碎片' WHERE `item_id` = 762;
-UPDATE `etcitem` SET `name` ='以斯帖的信' WHERE `item_id` = 763;
-UPDATE `etcitem` SET `name` ='亞本的推薦函' WHERE `item_id` = 764;
-UPDATE `etcitem` SET `name` ='陰謀者名單' WHERE `item_id` = 765;
-UPDATE `etcitem` SET `name` ='莎布琳的印章戒指' WHERE `item_id` = 766;
-UPDATE `etcitem` SET `name` ='被封印的卷軸' WHERE `item_id` = 767;
-UPDATE `etcitem` SET `name` ='羅恩的鑰匙' WHERE `item_id` = 768;
-UPDATE `etcitem` SET `name` ='萊克德的遺骸' WHERE `item_id` = 769;
-UPDATE `etcitem` SET `name` ='榮耀之盾' WHERE `item_id` = 770;
-UPDATE `etcitem` SET `name` ='沙依特斯的遺骸' WHERE `item_id` = 771;
-UPDATE `etcitem` SET `name` ='特雷爾的遺骸' WHERE `item_id` = 772;
-UPDATE `etcitem` SET `name` ='帕力莫的遺骸' WHERE `item_id` = 773;
-UPDATE `etcitem` SET `name` ='墮落的榮耀之劍' WHERE `item_id` = 774;
-UPDATE `etcitem` SET `name` ='榮耀之劍' WHERE `item_id` = 775;
-UPDATE `etcitem` SET `name` ='無名劍' WHERE `item_id` = 776;
-UPDATE `etcitem` SET `name` ='黑冰之劍' WHERE `item_id` = 777;
-UPDATE `etcitem` SET `name` ='阿羅帝恩的信' WHERE `item_id` = 778;
-UPDATE `etcitem` SET `name` ='莎布琳的戒指' WHERE `item_id` = 779;
-UPDATE `etcitem` SET `name` ='亞本的信' WHERE `item_id` = 780;
-UPDATE `etcitem` SET `name` ='麥德克勞的項鍊' WHERE `item_id` = 781;
-UPDATE `etcitem` SET `name` ='阿蘭克爾的信' WHERE `item_id` = 782;
-UPDATE `etcitem` SET `name` ='阿蘭克爾的字條' WHERE `item_id` = 783;
-UPDATE `etcitem` SET `name` ='玻璃匕首' WHERE `item_id` = 784;
-UPDATE `etcitem` SET `name` ='破碎的玻璃匕首' WHERE `item_id` = 785;
-UPDATE `etcitem` SET `name` ='亡靈守衛的匕首' WHERE `item_id` = 786;
-UPDATE `etcitem` SET `name` ='柯魯拉之鑰' WHERE `item_id` = 787;
-UPDATE `etcitem` SET `name` ='午夜瑪瑙之項鍊' WHERE `item_id` = 788;
-UPDATE `etcitem` SET `name` ='月光曲的私語' WHERE `item_id` = 789;
-UPDATE `etcitem` SET `name` ='血之波形刃' WHERE `item_id` = 790;
-UPDATE `etcitem` SET `name` ='卡爾倫的頭髏' WHERE `item_id` = 791;
-UPDATE `etcitem` SET `name` ='卡爾倫的肋骨' WHERE `item_id` = 792;
-UPDATE `etcitem` SET `name` ='卡爾倫的大腿骨' WHERE `item_id` = 793;
-UPDATE `etcitem` SET `name` ='聖者的骨灰罐' WHERE `item_id` = 794;
-UPDATE `etcitem` SET `name` ='阿斯巴特釘鎚' WHERE `item_id` = 795;
-UPDATE `etcitem` SET `name` ='羅伊恩的信函' WHERE `item_id` = 796;
-UPDATE `etcitem` SET `name` ='曼紐爾的信函' WHERE `item_id` = 797;
-UPDATE `etcitem` SET `name` ='巴蘭克德的信函' WHERE `item_id` = 798;
-UPDATE `etcitem` SET `name` ='葛魯特的信函' WHERE `item_id` = 799;
-UPDATE `etcitem` SET `name` ='娜仙的魔法書' WHERE `item_id` = 800;
-UPDATE `etcitem` SET `name` ='娜仙受詛咒的魔法書' WHERE `item_id` = 801;
-UPDATE `etcitem` SET `name` ='嗜血匕首' WHERE `item_id` = 802;
-UPDATE `etcitem` SET `name` ='血腥匕首' WHERE `item_id` = 803;
-UPDATE `etcitem` SET `name` ='軒尼斯魔杖' WHERE `item_id` = 804;
-UPDATE `etcitem` SET `name` ='品特的憑據' WHERE `item_id` = 805;
-UPDATE `etcitem` SET `name` ='飛龍的爪' WHERE `item_id` = 806;
-UPDATE `etcitem` SET `name` ='無瑕的飛龍爪' WHERE `item_id` = 807;
-UPDATE `etcitem` SET `name` ='普西金的信' WHERE `item_id` = 808;
-UPDATE `etcitem` SET `name` ='骨頭碎片' WHERE `item_id` = 809;
-UPDATE `etcitem` SET `name` ='阿爾特蘭的信' WHERE `item_id` = 810;
-UPDATE `etcitem` SET `name` ='油紙' WHERE `item_id` = 811;
-UPDATE `etcitem` SET `name` ='金剛石原石' WHERE `item_id` = 812;
-UPDATE `etcitem` SET `name` ='心臟石' WHERE `item_id` = 813;
-UPDATE `etcitem` SET `name` ='普西金的收據' WHERE `item_id` = 814;
-UPDATE `etcitem` SET `name` ='皮帶' WHERE `item_id` = 815;
-UPDATE `etcitem` SET `name` ='黑寡婦' WHERE `item_id` = 816;
-UPDATE `etcitem` SET `name` ='米索莉瓶' WHERE `item_id` = 817;
-UPDATE `etcitem` SET `name` ='格蕾斯獨角獸的角' WHERE `item_id` = 818;
-UPDATE `etcitem` SET `name` ='飛龍的骨' WHERE `item_id` = 819;
-UPDATE `etcitem` SET `name` ='扎哈克的汁液' WHERE `item_id` = 820;
-UPDATE `etcitem` SET `name` ='骨刀' WHERE `item_id` = 821;
-UPDATE `etcitem` SET `name` ='飛龍刀' WHERE `item_id` = 822;
-UPDATE `etcitem` SET `name` ='鈍匕首' WHERE `item_id` = 823;
-UPDATE `etcitem` SET `name` ='西瑞爾的紙條' WHERE `item_id` = 824;
-UPDATE `etcitem` SET `name` ='萊恩的信' WHERE `item_id` = 825;
-UPDATE `etcitem` SET `name` ='銀色種子' WHERE `item_id` = 826;
-UPDATE `etcitem` SET `name` ='星塵' WHERE `item_id` = 827;
-UPDATE `etcitem` SET `name` ='覺醒之歌' WHERE `item_id` = 828;
-UPDATE `etcitem` SET `name` ='靈魂匕首' WHERE `item_id` = 829;
-UPDATE `etcitem` SET `name` ='克里娜斯的勳章' WHERE `item_id` = 830;
-UPDATE `etcitem` SET `name` ='回音水晶' WHERE `item_id` = 831;
-UPDATE `etcitem` SET `name` ='綠色回音水晶' WHERE `item_id` = 832;
-UPDATE `etcitem` SET `name` ='紅色回音水晶' WHERE `item_id` = 833;
-UPDATE `etcitem` SET `name` ='藍綠色回音水晶' WHERE `item_id` = 834;
-UPDATE `etcitem` SET `name` ='藍色回音水晶' WHERE `item_id` = 835;
-UPDATE `etcitem` SET `name` ='克里娜斯的魔法書' WHERE `item_id` = 836;
-UPDATE `etcitem` SET `name` ='精靈粉末' WHERE `item_id` = 837;
-UPDATE `etcitem` SET `name` ='貝立歐樂的信' WHERE `item_id` = 838;
-UPDATE `etcitem` SET `name` ='伊克魯斯的召喚卷軸' WHERE `item_id` = 839;
-UPDATE `etcitem` SET `name` ='德雷巴奴的頭蓋骨' WHERE `item_id` = 840;
-UPDATE `etcitem` SET `name` ='伊克魯斯的委託書' WHERE `item_id` = 841;
-UPDATE `etcitem` SET `name` ='邪惡蜥蜴墨水' WHERE `item_id` = 842;
-UPDATE `etcitem` SET `name` ='阿科蘭托斯的經典' WHERE `item_id` = 843;
-UPDATE `etcitem` SET `name` ='阿科蘭托斯的經典(1~10頁)' WHERE `item_id` = 844;
-UPDATE `etcitem` SET `name` ='遺蹟之道' WHERE `item_id` = 937;
-UPDATE `etcitem` SET `name` ='試驗甲板' WHERE `item_id` = 938;
-UPDATE `etcitem` SET `name` ='卡拉試練道具11' WHERE `item_id` = 939;
-UPDATE `etcitem` SET `name` ='卡拉試練道具12' WHERE `item_id` = 940;
-UPDATE `etcitem` SET `name` ='卡拉勇氣的憑據' WHERE `item_id` = 941;
-UPDATE `etcitem` SET `name` ='卡拉正義的憑證' WHERE `item_id` = 942;
-UPDATE `etcitem` SET `name` ='卡拉絕望的憑證' WHERE `item_id` = 943;
-UPDATE `etcitem` SET `name` ='死亡騎士的頭骨' WHERE `item_id` = 944;
-UPDATE `etcitem` SET `name` ='武器強化卷軸-B級' WHERE `item_id` = 947;
-UPDATE `etcitem` SET `name` ='防具強化卷軸-B級' WHERE `item_id` = 948;
-UPDATE `etcitem` SET `name` ='武器強化結晶卷軸-B級' WHERE `item_id` = 949;
-UPDATE `etcitem` SET `name` ='防具強化結晶卷軸-B級' WHERE `item_id` = 950;
-UPDATE `etcitem` SET `name` ='武器強化卷軸-C級' WHERE `item_id` = 951;
-UPDATE `etcitem` SET `name` ='防具強化卷軸-C級' WHERE `item_id` = 952;
-UPDATE `etcitem` SET `name` ='武器強化結晶卷軸-C級' WHERE `item_id` = 953;
-UPDATE `etcitem` SET `name` ='防具強化結晶卷軸-C級' WHERE `item_id` = 954;
-UPDATE `etcitem` SET `name` ='武器強化卷軸-D級' WHERE `item_id` = 955;
-UPDATE `etcitem` SET `name` ='防具強化卷軸-D級' WHERE `item_id` = 956;
-UPDATE `etcitem` SET `name` ='武器強化結晶卷軸-D級' WHERE `item_id` = 957;
-UPDATE `etcitem` SET `name` ='防具強化結晶卷軸-D級' WHERE `item_id` = 958;
-UPDATE `etcitem` SET `name` ='武器強化卷軸-S級' WHERE `item_id` = 959;
-UPDATE `etcitem` SET `name` ='防具強化卷軸-S級' WHERE `item_id` = 960;
-UPDATE `etcitem` SET `name` ='武器強化結晶卷軸-S級' WHERE `item_id` = 961;
-UPDATE `etcitem` SET `name` ='防具強化結晶卷軸-S級' WHERE `item_id` = 962;
-UPDATE `etcitem` SET `name` ='獸人的箭頭' WHERE `item_id` = 963;
-UPDATE `etcitem` SET `name` ='艾貝里烏斯的信' WHERE `item_id` = 964;
-UPDATE `etcitem` SET `name` ='長青護身符' WHERE `item_id` = 965;
-UPDATE `etcitem` SET `name` ='樹精之淚' WHERE `item_id` = 966;
-UPDATE `etcitem` SET `name` ='科班得的治癒藥' WHERE `item_id` = 967;
-UPDATE `etcitem` SET `name` ='卡羅伊德的信函' WHERE `item_id` = 968;
-UPDATE `etcitem` SET `name` ='塞克提諾的推薦函' WHERE `item_id` = 969;
-UPDATE `etcitem` SET `name` ='塞克提諾的推薦函' WHERE `item_id` = 970;
-UPDATE `etcitem` SET `name` ='捕魂器' WHERE `item_id` = 971;
-UPDATE `etcitem` SET `name` ='油罐' WHERE `item_id` = 972;
-UPDATE `etcitem` SET `name` ='殭屍頭' WHERE `item_id` = 973;
-UPDATE `etcitem` SET `name` ='史提班德的頭' WHERE `item_id` = 974;
-UPDATE `etcitem` SET `name` ='哨兵的標章' WHERE `item_id` = 976;
-UPDATE `etcitem` SET `name` ='哨兵的標章' WHERE `item_id` = 977;
-UPDATE `etcitem` SET `name` ='頭骨碎片護身符' WHERE `item_id` = 978;
-UPDATE `etcitem` SET `name` ='血矛護身符' WHERE `item_id` = 979;
-UPDATE `etcitem` SET `name` ='零' WHERE `item_id` = 980;
-UPDATE `etcitem` SET `name` ='艾斯蘭德的推薦函' WHERE `item_id` = 982;
-UPDATE `etcitem` SET `name` ='肯特奈爾的信' WHERE `item_id` = 983;
-UPDATE `etcitem` SET `name` ='瑪瑙護身符' WHERE `item_id` = 984;
-UPDATE `etcitem` SET `name` ='瑪瑙護身符' WHERE `item_id` = 985;
-UPDATE `etcitem` SET `name` ='古代卷軸' WHERE `item_id` = 986;
-UPDATE `etcitem` SET `name` ='古代的粘土字板' WHERE `item_id` = 987;
-UPDATE `etcitem` SET `name` ='卡勒帝亞的譯本' WHERE `item_id` = 988;
-UPDATE `etcitem` SET `name` ='阿科蘭托斯的經典(4頁)' WHERE `item_id` = 1001;
-UPDATE `etcitem` SET `name` ='阿科蘭托斯的經典(5頁)' WHERE `item_id` = 1002;
-UPDATE `etcitem` SET `name` ='阿科蘭托斯的經典(6頁)' WHERE `item_id` = 1003;
-UPDATE `etcitem` SET `name` ='阿科蘭托斯的經典(7頁)' WHERE `item_id` = 1004;
-UPDATE `etcitem` SET `name` ='阿科蘭托斯的經典(8頁)' WHERE `item_id` = 1005;
-UPDATE `etcitem` SET `name` ='阿科蘭托斯的經典(9頁)' WHERE `item_id` = 1006;
-UPDATE `etcitem` SET `name` ='阿科蘭托斯的經典(10頁)' WHERE `item_id` = 1007;
-UPDATE `etcitem` SET `name` ='何瑞斯的收據' WHERE `item_id` = 1008;
-UPDATE `etcitem` SET `name` ='何瑞斯的收據' WHERE `item_id` = 1009;
-UPDATE `etcitem` SET `name` ='高崙的碎片' WHERE `item_id` = 1010;
-UPDATE `etcitem` SET `name` ='工具箱' WHERE `item_id` = 1011;
-UPDATE `etcitem` SET `name` ='送貨清單' WHERE `item_id` = 1012;
-UPDATE `etcitem` SET `name` ='沉重的木箱' WHERE `item_id` = 1013;
-UPDATE `etcitem` SET `name` ='布捆' WHERE `item_id` = 1014;
-UPDATE `etcitem` SET `name` ='粘土罐' WHERE `item_id` = 1015;
-UPDATE `etcitem` SET `name` ='傑克森的收據' WHERE `item_id` = 1016;
-UPDATE `etcitem` SET `name` ='蘇菲亞的收據' WHERE `item_id` = 1017;
-UPDATE `etcitem` SET `name` ='蘭特的收據' WHERE `item_id` = 1018;
-UPDATE `etcitem` SET `name` ='公文' WHERE `item_id` = 1019;
-UPDATE `etcitem` SET `name` ='火焰碎片' WHERE `item_id` = 1020;
-UPDATE `etcitem` SET `name` ='寒冰碎片' WHERE `item_id` = 1021;
-UPDATE `etcitem` SET `name` ='莉里絲的信' WHERE `item_id` = 1022;
-UPDATE `etcitem` SET `name` ='泰恩的日記' WHERE `item_id` = 1023;
-UPDATE `etcitem` SET `name` ='金剛石原石' WHERE `item_id` = 1024;
-UPDATE `etcitem` SET `name` ='粘土寫字板' WHERE `item_id` = 1025;
-UPDATE `etcitem` SET `name` ='銀蜘蛛絲' WHERE `item_id` = 1026;
-UPDATE `etcitem` SET `name` ='烏諾連的收據' WHERE `item_id` = 1027;
-UPDATE `etcitem` SET `name` ='克里米斯的傳票' WHERE `item_id` = 1028;
-UPDATE `etcitem` SET `name` ='茄科植物之葉' WHERE `item_id` = 1029;
-UPDATE `etcitem` SET `name` ='破碎頭骨' WHERE `item_id` = 1030;
-UPDATE `etcitem` SET `name` ='完美頭骨' WHERE `item_id` = 1031;
-UPDATE `etcitem` SET `name` ='狐狗的毛皮' WHERE `item_id` = 1032;
-UPDATE `etcitem` SET `name` ='狐狗的毛線' WHERE `item_id` = 1033;
-UPDATE `etcitem` SET `name` ='少女的玩偶' WHERE `item_id` = 1034;
-UPDATE `etcitem` SET `name` ='瘟疫之塵' WHERE `item_id` = 1035;
-UPDATE `etcitem` SET `name` ='安德莉亞的信' WHERE `item_id` = 1036;
-UPDATE `etcitem` SET `name` ='世界樹果實' WHERE `item_id` = 1037;
-UPDATE `etcitem` SET `name` ='魯米爾的第一首詩' WHERE `item_id` = 1038;
-UPDATE `etcitem` SET `name` ='魯米爾的第三首詩' WHERE `item_id` = 1039;
-UPDATE `etcitem` SET `name` ='魯米爾的第四首詩' WHERE `item_id` = 1040;
-UPDATE `etcitem` SET `name` ='魯米爾的第五首詩' WHERE `item_id` = 1041;
-UPDATE `etcitem` SET `name` ='鼠人尖牙' WHERE `item_id` = 1042;
-UPDATE `etcitem` SET `name` ='巴魯爾骯髒的尖牙' WHERE `item_id` = 1043;
-UPDATE `etcitem` SET `name` ='克魯納克的頭骨' WHERE `item_id` = 1044;
-UPDATE `etcitem` SET `name` ='殭屍皮' WHERE `item_id` = 1045;
-UPDATE `etcitem` SET `name` ='夢魘水晶' WHERE `item_id` = 1046;
-UPDATE `etcitem` SET `name` ='魔法書-日光術' WHERE `item_id` = 1047;
-UPDATE `etcitem` SET `name` ='魔法書-力量強化' WHERE `item_id` = 1048;
-UPDATE `etcitem` SET `name` ='魔法書-冰箭術' WHERE `item_id` = 1049;
-UPDATE `etcitem` SET `name` ='魔法書-急救術' WHERE `item_id` = 1050;
-UPDATE `etcitem` SET `name` ='魔法書-吸血鬼之吻' WHERE `item_id` = 1051;
-UPDATE `etcitem` SET `name` ='魔法書-火焰狂襲' WHERE `item_id` = 1052;
-UPDATE `etcitem` SET `name` ='魔法書-療毒術' WHERE `item_id` = 1053;
-UPDATE `etcitem` SET `name` ='魔法書-集體治癒術' WHERE `item_id` = 1054;
-UPDATE `etcitem` SET `name` ='魔法書-毒咒術' WHERE `item_id` = 1055;
-UPDATE `etcitem` SET `name` ='魔法書-弱化術' WHERE `item_id` = 1056;
-UPDATE `etcitem` SET `name` ='魔法書-召喚食物' WHERE `item_id` = 1057;
-UPDATE `etcitem` SET `name` ='魔法書-保護盾' WHERE `item_id` = 1058;
-UPDATE `etcitem` SET `name` ='魔法書-辨敵術' WHERE `item_id` = 1059;
-UPDATE `etcitem` SET `name` ='體力治癒藥水' WHERE `item_id` = 1060;
-UPDATE `etcitem` SET `name` ='強力體力治癒藥水' WHERE `item_id` = 1061;
-UPDATE `etcitem` SET `name` ='加速藥水' WHERE `item_id` = 1062;
-UPDATE `etcitem` SET `name` ='畢業證書' WHERE `item_id` = 1063;
-UPDATE `etcitem` SET `name` ='畢業證書' WHERE `item_id` = 1064;
-UPDATE `etcitem` SET `name` ='畢業證書' WHERE `item_id` = 1065;
-UPDATE `etcitem` SET `name` ='畢業證書' WHERE `item_id` = 1066;
-UPDATE `etcitem` SET `name` ='推薦函' WHERE `item_id` = 1067;
-UPDATE `etcitem` SET `name` ='推薦函' WHERE `item_id` = 1068;
-UPDATE `etcitem` SET `name` ='世界樹之葉' WHERE `item_id` = 1069;
-UPDATE `etcitem` SET `name` ='深淵之血' WHERE `item_id` = 1070;
-UPDATE `etcitem` SET `name` ='風信子符咒' WHERE `item_id` = 1071;
-UPDATE `etcitem` SET `name` ='風信子符咒' WHERE `item_id` = 1072;
-UPDATE `etcitem` SET `name` ='新手體力治癒藥水' WHERE `item_id` = 1073;
-UPDATE `etcitem` SET `name` ='船票-說話之島往古魯丁' WHERE `item_id` = 1074;
-UPDATE `etcitem` SET `name` ='船票-古魯丁往說話之島' WHERE `item_id` = 1075;
-UPDATE `etcitem` SET `name` ='卡爾雷因的信' WHERE `item_id` = 1076;
-UPDATE `etcitem` SET `name` ='毒囊' WHERE `item_id` = 1077;
-UPDATE `etcitem` SET `name` ='風之碎片' WHERE `item_id` = 1078;
-UPDATE `etcitem` SET `name` ='達靈的收據' WHERE `item_id` = 1079;
-UPDATE `etcitem` SET `name` ='巴烏洛的藥水' WHERE `item_id` = 1080;
-UPDATE `etcitem` SET `name` ='瑪瑙獸眼' WHERE `item_id` = 1081;
-UPDATE `etcitem` SET `name` ='染色石' WHERE `item_id` = 1082;
-UPDATE `etcitem` SET `name` ='魅魔的血' WHERE `item_id` = 1083;
-UPDATE `etcitem` SET `name` ='古魯丁領主的標章' WHERE `item_id` = 1084;
-UPDATE `etcitem` SET `name` ='獸人的骨項鍊' WHERE `item_id` = 1085;
-UPDATE `etcitem` SET `name` ='狼人的尖牙' WHERE `item_id` = 1086;
-UPDATE `etcitem` SET `name` ='巨大蜘蛛的腳' WHERE `item_id` = 1087;
-UPDATE `etcitem` SET `name` ='安德理亞斯的信' WHERE `item_id` = 1088;
-UPDATE `etcitem` SET `name` ='儀式匕首' WHERE `item_id` = 1089;
-UPDATE `etcitem` SET `name` ='德雷比安葡萄酒' WHERE `item_id` = 1090;
-UPDATE `etcitem` SET `name` ='凱勒米爾的經典' WHERE `item_id` = 1091;
-UPDATE `etcitem` SET `name` ='阿路基恩的信' WHERE `item_id` = 1092;
-UPDATE `etcitem` SET `name` ='阿路基恩的信' WHERE `item_id` = 1093;
-UPDATE `etcitem` SET `name` ='阿路基恩的信' WHERE `item_id` = 1094;
-UPDATE `etcitem` SET `name` ='魔法書-攻擊強化' WHERE `item_id` = 1095;
-UPDATE `etcitem` SET `name` ='魔法書-元素治癒' WHERE `item_id` = 1096;
-UPDATE `etcitem` SET `name` ='魔法書-能量奪取' WHERE `item_id` = 1097;
-UPDATE `etcitem` SET `name` ='魔法書-風之疾走' WHERE `item_id` = 1098;
-UPDATE `etcitem` SET `name` ='魔法書-風之鎖' WHERE `item_id` = 1099;
-UPDATE `etcitem` SET `name` ='諾曼的信' WHERE `item_id` = 1106;
-UPDATE `etcitem` SET `name` ='骨碎片' WHERE `item_id` = 1107;
-UPDATE `etcitem` SET `name` ='亞本的信' WHERE `item_id` = 1108;
-UPDATE `etcitem` SET `name` ='宗師羅伊恩的信' WHERE `item_id` = 1109;
-UPDATE `etcitem` SET `name` ='骨碎片' WHERE `item_id` = 1110;
-UPDATE `etcitem` SET `name` ='金剛石原石' WHERE `item_id` = 1111;
-UPDATE `etcitem` SET `name` ='世界樹之葉' WHERE `item_id` = 1112;
-UPDATE `etcitem` SET `name` ='米特拉爾之血' WHERE `item_id` = 1113;
-UPDATE `etcitem` SET `name` ='獸人的羽毛護身符' WHERE `item_id` = 1114;
-UPDATE `etcitem` SET `name` ='獸人的骨項鍊' WHERE `item_id` = 1115;
-UPDATE `etcitem` SET `name` ='獸人的羽毛護身符' WHERE `item_id` = 1116;
-UPDATE `etcitem` SET `name` ='獸人的骨項鍊' WHERE `item_id` = 1117;
-UPDATE `etcitem` SET `name` ='蘑菇孢囊' WHERE `item_id` = 1118;
-UPDATE `etcitem` SET `name` ='科班得的治癒藥' WHERE `item_id` = 1130;
-UPDATE `etcitem` SET `name` ='科班得的治癒藥' WHERE `item_id` = 1131;
-UPDATE `etcitem` SET `name` ='科班得的治癒藥' WHERE `item_id` = 1132;
-UPDATE `etcitem` SET `name` ='科班得的治癒藥' WHERE `item_id` = 1133;
-UPDATE `etcitem` SET `name` ='科班得的治癒藥' WHERE `item_id` = 1134;
-UPDATE `etcitem` SET `name` ='精靈封印之杖' WHERE `item_id` = 1135;
-UPDATE `etcitem` SET `name` ='精靈封印之杖' WHERE `item_id` = 1136;
-UPDATE `etcitem` SET `name` ='精靈封印之杖' WHERE `item_id` = 1137;
-UPDATE `etcitem` SET `name` ='阿伊努的信' WHERE `item_id` = 1138;
-UPDATE `etcitem` SET `name` ='鬥士聯會的標章' WHERE `item_id` = 1139;
-UPDATE `etcitem` SET `name` ='生銹的青銅劍' WHERE `item_id` = 1140;
-UPDATE `etcitem` SET `name` ='生銹的青銅劍' WHERE `item_id` = 1141;
-UPDATE `etcitem` SET `name` ='辛普龍的信' WHERE `item_id` = 1143;
-UPDATE `etcitem` SET `name` ='巨大毒蜘蛛的腳' WHERE `item_id` = 1144;
-UPDATE `etcitem` SET `name` ='鬥士的勳章' WHERE `item_id` = 1145;
-UPDATE `etcitem` SET `name` ='魔法書-狂風之擊' WHERE `item_id` = 1150;
-UPDATE `etcitem` SET `name` ='魔法書-自我治癒' WHERE `item_id` = 1151;
-UPDATE `etcitem` SET `name` ='魔法書-治癒術' WHERE `item_id` = 1152;
-UPDATE `etcitem` SET `name` ='潔妮恩的信' WHERE `item_id` = 1153;
-UPDATE `etcitem` SET `name` ='崗哨刀' WHERE `item_id` = 1154;
-UPDATE `etcitem` SET `name` ='崗哨刀' WHERE `item_id` = 1155;
-UPDATE `etcitem` SET `name` ='崗哨刀' WHERE `item_id` = 1156;
-UPDATE `etcitem` SET `name` ='老舊的青銅劍' WHERE `item_id` = 1157;
-UPDATE `etcitem` SET `name` ='骨碎片' WHERE `item_id` = 1158;
-UPDATE `etcitem` SET `name` ='精靈的頭蓋骨' WHERE `item_id` = 1159;
-UPDATE `etcitem` SET `name` ='深淵魔精石' WHERE `item_id` = 1160;
-UPDATE `etcitem` SET `name` ='儀式劍' WHERE `item_id` = 1161;
-UPDATE `etcitem` SET `name` ='領主的貨幣-警衛隊長巴堤亞' WHERE `item_id` = 1162;
-UPDATE `etcitem` SET `name` ='領主的貨幣-大神官雷門德' WHERE `item_id` = 1163;
-UPDATE `etcitem` SET `name` ='領主的貨幣-警衛隊長貝茲庫' WHERE `item_id` = 1164;
-UPDATE `etcitem` SET `name` ='領主的貨幣-大神官雷比安' WHERE `item_id` = 1165;
-UPDATE `etcitem` SET `name` ='領主的貨幣-警衛隊長革爾泊特' WHERE `item_id` = 1166;
-UPDATE `etcitem` SET `name` ='領主的貨幣-大神官比奧帝' WHERE `item_id` = 1167;
-UPDATE `etcitem` SET `name` ='古魯丁警衛隊的標章' WHERE `item_id` = 1168;
-UPDATE `etcitem` SET `name` ='食人妖項鍊' WHERE `item_id` = 1169;
-UPDATE `etcitem` SET `name` ='殷海薩教團標章' WHERE `item_id` = 1170;
-UPDATE `etcitem` SET `name` ='殷海薩十字徽章' WHERE `item_id` = 1171;
-UPDATE `etcitem` SET `name` ='古魯丁警衛隊標章' WHERE `item_id` = 1172;
-UPDATE `etcitem` SET `name` ='巨大毒蜘蛛的腳' WHERE `item_id` = 1173;
-UPDATE `etcitem` SET `name` ='殷海薩教團標章' WHERE `item_id` = 1174;
-UPDATE `etcitem` SET `name` ='蜥蜴人圖騰' WHERE `item_id` = 1175;
-UPDATE `etcitem` SET `name` ='古魯丁警衛隊標章' WHERE `item_id` = 1176;
-UPDATE `etcitem` SET `name` ='巨大蜘蛛的皮' WHERE `item_id` = 1177;
-UPDATE `etcitem` SET `name` ='殷海薩教團標章' WHERE `item_id` = 1178;
-UPDATE `etcitem` SET `name` ='恐怖的頭蓋骨' WHERE `item_id` = 1179;
-UPDATE `etcitem` SET `name` ='貝茲庫的信' WHERE `item_id` = 1180;
-UPDATE `etcitem` SET `name` ='史巴托骨頭' WHERE `item_id` = 1183;
-UPDATE `etcitem` SET `name` ='光之馬蹄' WHERE `item_id` = 1184;
-UPDATE `etcitem` SET `name` ='通緝令' WHERE `item_id` = 1185;
-UPDATE `etcitem` SET `name` ='被竊的珠寶' WHERE `item_id` = 1186;
-UPDATE `etcitem` SET `name` ='被竊的魔法書' WHERE `item_id` = 1187;
-UPDATE `etcitem` SET `name` ='被竊的戒指' WHERE `item_id` = 1188;
-UPDATE `etcitem` SET `name` ='被竊的項鍊' WHERE `item_id` = 1189;
-UPDATE `etcitem` SET `name` ='貝茲庫的推薦函' WHERE `item_id` = 1190;
-UPDATE `etcitem` SET `name` ='教團回收章' WHERE `item_id` = 1191;
-UPDATE `etcitem` SET `name` ='教團委託章' WHERE `item_id` = 1192;
-UPDATE `etcitem` SET `name` ='勒莫尼爾的書' WHERE `item_id` = 1193;
-UPDATE `etcitem` SET `name` ='維維安特的書' WHERE `item_id` = 1194;
-UPDATE `etcitem` SET `name` ='辛普龍的書' WHERE `item_id` = 1195;
-UPDATE `etcitem` SET `name` ='普拉卡的書' WHERE `item_id` = 1196;
-UPDATE `etcitem` SET `name` ='噶爾林特的證書' WHERE `item_id` = 1197;
-UPDATE `etcitem` SET `name` ='母親的墜子' WHERE `item_id` = 1198;
-UPDATE `etcitem` SET `name` ='母親的項鍊' WHERE `item_id` = 1199;
-UPDATE `etcitem` SET `name` ='勒莫尼爾的契約' WHERE `item_id` = 1200;
-UPDATE `etcitem` SET `name` ='信仰憑證' WHERE `item_id` = 1201;
-UPDATE `etcitem` SET `name` ='索日烏斯的信' WHERE `item_id` = 1202;
-UPDATE `etcitem` SET `name` ='克魯托的箱子' WHERE `item_id` = 1203;
-UPDATE `etcitem` SET `name` ='精靈騎士胸針' WHERE `item_id` = 1204;
-UPDATE `etcitem` SET `name` ='黃玉碎片' WHERE `item_id` = 1205;
-UPDATE `etcitem` SET `name` ='綠寶石碎片' WHERE `item_id` = 1206;
-UPDATE `etcitem` SET `name` ='雷奧利亞的信' WHERE `item_id` = 1207;
-UPDATE `etcitem` SET `name` ='普雷根的信紙撕頁1' WHERE `item_id` = 1208;
-UPDATE `etcitem` SET `name` ='普雷根的信紙撕頁2' WHERE `item_id` = 1209;
-UPDATE `etcitem` SET `name` ='普雷根的信紙撕頁3' WHERE `item_id` = 1210;
-UPDATE `etcitem` SET `name` ='普雷根的信紙撕頁4' WHERE `item_id` = 1211;
-UPDATE `etcitem` SET `name` ='莫列蒂的藥草' WHERE `item_id` = 1212;
-UPDATE `etcitem` SET `name` ='莫列蒂的信' WHERE `item_id` = 1214;
-UPDATE `etcitem` SET `name` ='普雷根的信' WHERE `item_id` = 1215;
-UPDATE `etcitem` SET `name` ='榮耀的警衛隊員證' WHERE `item_id` = 1216;
-UPDATE `etcitem` SET `name` ='雷奧利亞的推薦函' WHERE `item_id` = 1217;
-UPDATE `etcitem` SET `name` ='羅格里亞的信' WHERE `item_id` = 1218;
-UPDATE `etcitem` SET `name` ='紅毛' WHERE `item_id` = 1219;
-UPDATE `etcitem` SET `name` ='魔力紅寶石' WHERE `item_id` = 1220;
-UPDATE `etcitem` SET `name` ='純淨的海藍寶石' WHERE `item_id` = 1221;
-UPDATE `etcitem` SET `name` ='美味的蘋果' WHERE `item_id` = 1222;
-UPDATE `etcitem` SET `name` ='黃金樹葉' WHERE `item_id` = 1223;
-UPDATE `etcitem` SET `name` ='不朽的愛' WHERE `item_id` = 1224;
-UPDATE `etcitem` SET `name` ='紫水晶' WHERE `item_id` = 1225;
-UPDATE `etcitem` SET `name` ='高貴紫水晶' WHERE `item_id` = 1226;
-UPDATE `etcitem` SET `name` ='羅格里亞的推薦函' WHERE `item_id` = 1227;
-UPDATE `etcitem` SET `name` ='橄欖石' WHERE `item_id` = 1228;
-UPDATE `etcitem` SET `name` ='豐盈橄欖石' WHERE `item_id` = 1229;
-UPDATE `etcitem` SET `name` ='不朽鑽石' WHERE `item_id` = 1230;
-UPDATE `etcitem` SET `name` ='水晶勳章' WHERE `item_id` = 1231;
-UPDATE `etcitem` SET `name` ='騙子的錢幣' WHERE `item_id` = 1232;
-UPDATE `etcitem` SET `name` ='亞拉娜的日記' WHERE `item_id` = 1233;
-UPDATE `etcitem` SET `name` ='蜥蜴王的旨令' WHERE `item_id` = 1234;
-UPDATE `etcitem` SET `name` ='神諭之葉' WHERE `item_id` = 1235;
-UPDATE `etcitem` SET `name` ='亞拉娜的殘缺日記' WHERE `item_id` = 1236;
-UPDATE `etcitem` SET `name` ='派勒斯的護身符' WHERE `item_id` = 1237;
-UPDATE `etcitem` SET `name` ='獸化狼人的頭蓋骨' WHERE `item_id` = 1238;
-UPDATE `etcitem` SET `name` ='維爾吉爾的信' WHERE `item_id` = 1239;
-UPDATE `etcitem` SET `name` ='骷髏的護身符' WHERE `item_id` = 1240;
-UPDATE `etcitem` SET `name` ='巨大毒蜘蛛的殼' WHERE `item_id` = 1241;
-UPDATE `etcitem` SET `name` ='縛毒蜘蛛絲' WHERE `item_id` = 1242;
-UPDATE `etcitem` SET `name` ='永眠的棺材' WHERE `item_id` = 1243;
-UPDATE `etcitem` SET `name` ='深淵凝視' WHERE `item_id` = 1244;
-UPDATE `etcitem` SET `name` ='席琳的號召' WHERE `item_id` = 1245;
-UPDATE `etcitem` SET `name` ='阿爾克尼亞的信' WHERE `item_id` = 1246;
-UPDATE `etcitem` SET `name` ='雷坎的字條' WHERE `item_id` = 1247;
-UPDATE `etcitem` SET `name` ='月石獸的臼齒' WHERE `item_id` = 1248;
-UPDATE `etcitem` SET `name` ='雷坎之刀' WHERE `item_id` = 1249;
-UPDATE `etcitem` SET `name` ='席琳之淚' WHERE `item_id` = 1250;
-UPDATE `etcitem` SET `name` ='阿爾克尼亞的推薦函' WHERE `item_id` = 1251;
-UPDATE `etcitem` SET `name` ='鋼鐵之心' WHERE `item_id` = 1252;
-UPDATE `etcitem` SET `name` ='憤怒種子' WHERE `item_id` = 1253;
-UPDATE `etcitem` SET `name` ='絕望種子' WHERE `item_id` = 1254;
-UPDATE `etcitem` SET `name` ='恐懼種子' WHERE `item_id` = 1255;
-UPDATE `etcitem` SET `name` ='狂亂種子' WHERE `item_id` = 1256;
-UPDATE `etcitem` SET `name` ='家族的遺骨' WHERE `item_id` = 1257;
-UPDATE `etcitem` SET `name` ='瓦瑞卡的藥水' WHERE `item_id` = 1258;
-UPDATE `etcitem` SET `name` ='惡臭殭屍的膝蓋骨' WHERE `item_id` = 1259;
-UPDATE `etcitem` SET `name` ='狂亂之心' WHERE `item_id` = 1260;
-UPDATE `etcitem` SET `name` ='黑暗寶石' WHERE `item_id` = 1261;
-UPDATE `etcitem` SET `name` ='錫德拉的信' WHERE `item_id` = 1262;
-UPDATE `etcitem` SET `name` ='白皮紙' WHERE `item_id` = 1263;
-UPDATE `etcitem` SET `name` ='血的古文字' WHERE `item_id` = 1264;
-UPDATE `etcitem` SET `name` ='凱勒米爾之書' WHERE `item_id` = 1265;
-UPDATE `etcitem` SET `name` ='阿多紐斯的祈禱' WHERE `item_id` = 1266;
-UPDATE `etcitem` SET `name` ='懺悔者標章' WHERE `item_id` = 1267;
-UPDATE `etcitem` SET `name` ='蒼白的骨碎片' WHERE `item_id` = 1268;
-UPDATE `etcitem` SET `name` ='安塔利爾之書' WHERE `item_id` = 1269;
-UPDATE `etcitem` SET `name` ='深淵之珠' WHERE `item_id` = 1270;
-UPDATE `etcitem` SET `name` ='見習騎士的標章' WHERE `item_id` = 1271;
-UPDATE `etcitem` SET `name` ='葛雷妮絲的護身符' WHERE `item_id` = 1272;
-UPDATE `etcitem` SET `name` ='世界樹樹液' WHERE `item_id` = 1273;
-UPDATE `etcitem` SET `name` ='幸運之罐' WHERE `item_id` = 1274;
-UPDATE `etcitem` SET `name` ='塔瑪托的項鍊' WHERE `item_id` = 1275;
-UPDATE `etcitem` SET `name` ='克魯托的字條' WHERE `item_id` = 1276;
-UPDATE `etcitem` SET `name` ='幸運之鑰' WHERE `item_id` = 1277;
-UPDATE `etcitem` SET `name` ='蠟燭' WHERE `item_id` = 1278;
-UPDATE `etcitem` SET `name` ='藥草芳香劑' WHERE `item_id` = 1279;
-UPDATE `etcitem` SET `name` ='光之地圖' WHERE `item_id` = 1280;
-UPDATE `etcitem` SET `name` ='火焰之鑰' WHERE `item_id` = 1281;
-UPDATE `etcitem` SET `name` ='火焰耳環' WHERE `item_id` = 1282;
-UPDATE `etcitem` SET `name` ='破碎的青銅鏡' WHERE `item_id` = 1283;
-UPDATE `etcitem` SET `name` ='風之羽毛' WHERE `item_id` = 1284;
-UPDATE `etcitem` SET `name` ='風之手鐲' WHERE `item_id` = 1285;
-UPDATE `etcitem` SET `name` ='羅摩的日記' WHERE `item_id` = 1286;
-UPDATE `etcitem` SET `name` ='閃耀的小鵝卵石' WHERE `item_id` = 1287;
-UPDATE `etcitem` SET `name` ='水之項鍊' WHERE `item_id` = 1288;
-UPDATE `etcitem` SET `name` ='生鏽的金幣' WHERE `item_id` = 1289;
-UPDATE `etcitem` SET `name` ='紅土' WHERE `item_id` = 1290;
-UPDATE `etcitem` SET `name` ='大地戒指' WHERE `item_id` = 1291;
-UPDATE `etcitem` SET `name` ='季節之珠' WHERE `item_id` = 1292;
-UPDATE `etcitem` SET `name` ='生鏽的鑰匙' WHERE `item_id` = 1293;
-UPDATE `etcitem` SET `name` ='魔法書-防禦強化' WHERE `item_id` = 1294;
-UPDATE `etcitem` SET `name` ='掠奪者的尖牙' WHERE `item_id` = 1334;
-UPDATE `etcitem` SET `name` ='哥布林木棒' WHERE `item_id` = 1335;
-UPDATE `etcitem` SET `name` ='玻璃碎片' WHERE `item_id` = 1336;
-UPDATE `etcitem` SET `name` ='綠寶石' WHERE `item_id` = 1337;
-UPDATE `etcitem` SET `name` ='藍色瑪瑙' WHERE `item_id` = 1338;
-UPDATE `etcitem` SET `name` ='瑪瑙' WHERE `item_id` = 1339;
-UPDATE `etcitem` SET `name` ='銀色樹葉' WHERE `item_id` = 1340;
-UPDATE `etcitem` SET `name` ='骨箭' WHERE `item_id` = 1341;
-UPDATE `etcitem` SET `name` ='鐵箭' WHERE `item_id` = 1342;
-UPDATE `etcitem` SET `name` ='銀箭' WHERE `item_id` = 1343;
-UPDATE `etcitem` SET `name` ='米索莉箭' WHERE `item_id` = 1344;
-UPDATE `etcitem` SET `name` ='閃耀箭' WHERE `item_id` = 1345;
-UPDATE `etcitem` SET `name` ='石高崙心臟' WHERE `item_id` = 1346;
-UPDATE `etcitem` SET `name` ='眼怪的肉' WHERE `item_id` = 1347;
-UPDATE `etcitem` SET `name` ='邪惡蜥蜴的沙囊' WHERE `item_id` = 1348;
-UPDATE `etcitem` SET `name` ='解剖圖' WHERE `item_id` = 1349;
-UPDATE `etcitem` SET `name` ='殭屍頭' WHERE `item_id` = 1350;
-UPDATE `etcitem` SET `name` ='殭屍心' WHERE `item_id` = 1351;
-UPDATE `etcitem` SET `name` ='殭屍肝' WHERE `item_id` = 1352;
-UPDATE `etcitem` SET `name` ='亡者頭蓋骨' WHERE `item_id` = 1353;
-UPDATE `etcitem` SET `name` ='亡者肋骨' WHERE `item_id` = 1354;
-UPDATE `etcitem` SET `name` ='亡者脊骨' WHERE `item_id` = 1355;
-UPDATE `etcitem` SET `name` ='亡者臂骨' WHERE `item_id` = 1356;
-UPDATE `etcitem` SET `name` ='亡者腿骨' WHERE `item_id` = 1357;
-UPDATE `etcitem` SET `name` ='完整亡者遺骨' WHERE `item_id` = 1358;
-UPDATE `etcitem` SET `name` ='紅十字階級章' WHERE `item_id` = 1359;
-UPDATE `etcitem` SET `name` ='藍十字階級章' WHERE `item_id` = 1360;
-UPDATE `etcitem` SET `name` ='黑十字階級章' WHERE `item_id` = 1361;
-UPDATE `etcitem` SET `name` ='蜘蛛的殼' WHERE `item_id` = 1362;
-UPDATE `etcitem` SET `name` ='蜘蛛的絲' WHERE `item_id` = 1363;
-UPDATE `etcitem` SET `name` ='蜘蛛的毒囊' WHERE `item_id` = 1364;
-UPDATE `etcitem` SET `name` ='破碎的石心' WHERE `item_id` = 1365;
-UPDATE `etcitem` SET `name` ='眼怪的水晶體' WHERE `item_id` = 1366;
-UPDATE `etcitem` SET `name` ='狼爪' WHERE `item_id` = 1367;
-UPDATE `etcitem` SET `name` ='安普的鐵鍊' WHERE `item_id` = 1368;
-UPDATE `etcitem` SET `name` ='黑獅的標誌' WHERE `item_id` = 1369;
-UPDATE `etcitem` SET `name` ='魔法書-水漩渦' WHERE `item_id` = 1370;
-UPDATE `etcitem` SET `name` ='魔法書-風漩術' WHERE `item_id` = 1371;
-UPDATE `etcitem` SET `name` ='魔法書-赤焰燃燒' WHERE `item_id` = 1372;
-UPDATE `etcitem` SET `name` ='魔法寶石' WHERE `item_id` = 1373;
-UPDATE `etcitem` SET `name` ='強力移動加速藥水' WHERE `item_id` = 1374;
-UPDATE `etcitem` SET `name` ='強力攻擊加速藥水' WHERE `item_id` = 1375;
-UPDATE `etcitem` SET `name` ='魔法書-解毒術' WHERE `item_id` = 1377;
-UPDATE `etcitem` SET `name` ='魔法書-聖癒術' WHERE `item_id` = 1378;
-UPDATE `etcitem` SET `name` ='魔法書-止血術' WHERE `item_id` = 1379;
-UPDATE `etcitem` SET `name` ='魔法書-纏繞之足' WHERE `item_id` = 1380;
-UPDATE `etcitem` SET `name` ='魔法書-冰凍之擊' WHERE `item_id` = 1381;
-UPDATE `etcitem` SET `name` ='魔法書-能量破壞' WHERE `item_id` = 1382;
-UPDATE `etcitem` SET `name` ='魔法書-施毒術' WHERE `item_id` = 1383;
-UPDATE `etcitem` SET `name` ='魔法書-疾風衝刺' WHERE `item_id` = 1384;
-UPDATE `etcitem` SET `name` ='魔法書-回復術' WHERE `item_id` = 1385;
-UPDATE `etcitem` SET `name` ='魔法書-不死生物破壞' WHERE `item_id` = 1386;
-UPDATE `etcitem` SET `name` ='魔法書-毒性抵抗' WHERE `item_id` = 1387;
-UPDATE `etcitem` SET `name` ='魔法書-心靈防護' WHERE `item_id` = 1388;
-UPDATE `etcitem` SET `name` ='魔法書-神聖武器' WHERE `item_id` = 1389;
-UPDATE `etcitem` SET `name` ='魔法書-強癒術' WHERE `item_id` = 1390;
-UPDATE `etcitem` SET `name` ='魔法書-魔力催化' WHERE `item_id` = 1391;
-UPDATE `etcitem` SET `name` ='魔法書-狂戰士魂' WHERE `item_id` = 1392;
-UPDATE `etcitem` SET `name` ='魔法書-快捷術' WHERE `item_id` = 1393;
-UPDATE `etcitem` SET `name` ='魔法書-催眠術' WHERE `item_id` = 1394;
-UPDATE `etcitem` SET `name` ='魔法書-水之陷落' WHERE `item_id` = 1395;
-UPDATE `etcitem` SET `name` ='魔法書-風之陷落' WHERE `item_id` = 1396;
-UPDATE `etcitem` SET `name` ='魔法書-氣息平靜' WHERE `item_id` = 1397;
-UPDATE `etcitem` SET `name` ='魔法書-弱點偵測' WHERE `item_id` = 1398;
-UPDATE `etcitem` SET `name` ='魔法書-精神專注' WHERE `item_id` = 1399;
-UPDATE `etcitem` SET `name` ='魔法書-火之陷落' WHERE `item_id` = 1400;
-UPDATE `etcitem` SET `name` ='魔法書-靈活思緒' WHERE `item_id` = 1401;
-UPDATE `etcitem` SET `name` ='魔法書-敏捷術' WHERE `item_id` = 1402;
-UPDATE `etcitem` SET `name` ='魔法書-召喚戰鬥貓' WHERE `item_id` = 1403;
-UPDATE `etcitem` SET `name` ='魔法書-使魔魔力回復' WHERE `item_id` = 1404;
-UPDATE `etcitem` SET `name` ='魔法書-使魔生命回復' WHERE `item_id` = 1405;
-UPDATE `etcitem` SET `name` ='魔法書-快速使魔' WHERE `item_id` = 1406;
-UPDATE `etcitem` SET `name` ='魔法書-睿智使魔' WHERE `item_id` = 1407;
-UPDATE `etcitem` SET `name` ='魔法書-強力使魔' WHERE `item_id` = 1408;
-UPDATE `etcitem` SET `name` ='魔法書-緩速術' WHERE `item_id` = 1409;
-UPDATE `etcitem` SET `name` ='魔法書-劇毒之雲' WHERE `item_id` = 1410;
-UPDATE `etcitem` SET `name` ='魔法書-精神燃燒' WHERE `item_id` = 1411;
-UPDATE `etcitem` SET `name` ='魔法書-水之防護' WHERE `item_id` = 1412;
-UPDATE `etcitem` SET `name` ='魔法書-風之防護' WHERE `item_id` = 1413;
-UPDATE `etcitem` SET `name` ='魔法書-火之防護' WHERE `item_id` = 1414;
-UPDATE `etcitem` SET `name` ='魔法書-樹精之足' WHERE `item_id` = 1415;
-UPDATE `etcitem` SET `name` ='魔法書-混亂之咒' WHERE `item_id` = 1416;
-UPDATE `etcitem` SET `name` ='魔法書-土之陷落' WHERE `item_id` = 1417;
-UPDATE `etcitem` SET `name` ='魔法書-毒之陷落' WHERE `item_id` = 1418;
-UPDATE `etcitem` SET `name` ='血之證' WHERE `item_id` = 1419;
-UPDATE `etcitem` SET `name` ='材料明細' WHERE `item_id` = 1420;
-UPDATE `etcitem` SET `name` ='索尼亞的植物書' WHERE `item_id` = 1421;
-UPDATE `etcitem` SET `name` ='紅色曼陀羅草根' WHERE `item_id` = 1422;
-UPDATE `etcitem` SET `name` ='白色曼陀羅草根' WHERE `item_id` = 1423;
-UPDATE `etcitem` SET `name` ='紅色曼陀羅草汁' WHERE `item_id` = 1424;
-UPDATE `etcitem` SET `name` ='透明曼陀羅草汁' WHERE `item_id` = 1425;
-UPDATE `etcitem` SET `name` ='傑伊庫伯的昆蟲書' WHERE `item_id` = 1426;
-UPDATE `etcitem` SET `name` ='花蜜' WHERE `item_id` = 1427;
-UPDATE `etcitem` SET `name` ='蜂王漿' WHERE `item_id` = 1428;
-UPDATE `etcitem` SET `name` ='蜂蜜' WHERE `item_id` = 1429;
-UPDATE `etcitem` SET `name` ='黃金蜂蜜' WHERE `item_id` = 1430;
-UPDATE `etcitem` SET `name` ='帕諾的契約' WHERE `item_id` = 1431;
-UPDATE `etcitem` SET `name` ='哈柏哥布林羽毛護身符' WHERE `item_id` = 1432;
-UPDATE `etcitem` SET `name` ='狄恩馬鈴薯' WHERE `item_id` = 1433;
-UPDATE `etcitem` SET `name` ='哥爾黎布卡的植物書' WHERE `item_id` = 1434;
-UPDATE `etcitem` SET `name` ='綠色沼澤青苔' WHERE `item_id` = 1435;
-UPDATE `etcitem` SET `name` ='棕色沼澤青苔' WHERE `item_id` = 1436;
-UPDATE `etcitem` SET `name` ='綠色青苔捆' WHERE `item_id` = 1437;
-UPDATE `etcitem` SET `name` ='棕色青苔捆' WHERE `item_id` = 1438;
-UPDATE `etcitem` SET `name` ='羅爾蘭德的生物書' WHERE `item_id` = 1439;
-UPDATE `etcitem` SET `name` ='眼怪的屍體' WHERE `item_id` = 1440;
-UPDATE `etcitem` SET `name` ='眼怪的肉' WHERE `item_id` = 1441;
-UPDATE `etcitem` SET `name` ='約拿斯的肉排料理' WHERE `item_id` = 1442;
-UPDATE `etcitem` SET `name` ='約拿斯的肉排料理' WHERE `item_id` = 1443;
-UPDATE `etcitem` SET `name` ='約拿斯的肉排料理' WHERE `item_id` = 1444;
-UPDATE `etcitem` SET `name` ='約拿斯的肉排料理' WHERE `item_id` = 1445;
-UPDATE `etcitem` SET `name` ='約拿斯的肉排料理' WHERE `item_id` = 1446;
-UPDATE `etcitem` SET `name` ='米麗恩的料理評價' WHERE `item_id` = 1447;
-UPDATE `etcitem` SET `name` ='米麗恩的料理評價' WHERE `item_id` = 1448;
-UPDATE `etcitem` SET `name` ='米麗恩的料理評價' WHERE `item_id` = 1449;
-UPDATE `etcitem` SET `name` ='米麗恩的料理評價' WHERE `item_id` = 1450;
-UPDATE `etcitem` SET `name` ='米麗恩的料理評價' WHERE `item_id` = 1451;
-UPDATE `etcitem` SET `name` ='鳥妖羽翎' WHERE `item_id` = 1452;
-UPDATE `etcitem` SET `name` ='梅杜莎毒液' WHERE `item_id` = 1453;
-UPDATE `etcitem` SET `name` ='亞龍的牙齒' WHERE `item_id` = 1454;
-UPDATE `etcitem` SET `name` ='約拿斯的沙拉料理食譜' WHERE `item_id` = 1455;
-UPDATE `etcitem` SET `name` ='約拿斯的醬汁料理食譜' WHERE `item_id` = 1456;
-UPDATE `etcitem` SET `name` ='約拿斯的牛排料理食譜' WHERE `item_id` = 1457;
-UPDATE `etcitem` SET `name` ='結晶-D級' WHERE `item_id` = 1458;
-UPDATE `etcitem` SET `name` ='結晶-C級' WHERE `item_id` = 1459;
-UPDATE `etcitem` SET `name` ='結晶-B級' WHERE `item_id` = 1460;
-UPDATE `etcitem` SET `name` ='結晶-A級' WHERE `item_id` = 1461;
-UPDATE `etcitem` SET `name` ='結晶-S級' WHERE `item_id` = 1462;
-UPDATE `etcitem` SET `name` ='靈魂彈-D級' WHERE `item_id` = 1463;
-UPDATE `etcitem` SET `name` ='靈魂彈-C級' WHERE `item_id` = 1464;
-UPDATE `etcitem` SET `name` ='靈魂彈-B級' WHERE `item_id` = 1465;
-UPDATE `etcitem` SET `name` ='靈魂彈-A級' WHERE `item_id` = 1466;
-UPDATE `etcitem` SET `name` ='靈魂彈-S級' WHERE `item_id` = 1467;
-UPDATE `etcitem` SET `name` ='古魯丁粹取人參' WHERE `item_id` = 1468;
-UPDATE `etcitem` SET `name` ='古魯丁苦艾酒' WHERE `item_id` = 1469;
-UPDATE `etcitem` SET `name` ='血清抗劑' WHERE `item_id` = 1470;
-UPDATE `etcitem` SET `name` ='卡沙狼的尖牙' WHERE `item_id` = 1473;
-UPDATE `etcitem` SET `name` ='盜墓者的頭' WHERE `item_id` = 1474;
-UPDATE `etcitem` SET `name` ='黑色靈魂石' WHERE `item_id` = 1475;
-UPDATE `etcitem` SET `name` ='紅色靈魂石' WHERE `item_id` = 1476;
-UPDATE `etcitem` SET `name` ='瑪剌庫狼人的頭' WHERE `item_id` = 1477;
-UPDATE `etcitem` SET `name` ='黑翼蝙蝠的尖牙' WHERE `item_id` = 1478;
-UPDATE `etcitem` SET `name` ='巴蘭卡的附身靈' WHERE `item_id` = 1479;
-UPDATE `etcitem` SET `name` ='卡沙的附身靈' WHERE `item_id` = 1480;
-UPDATE `etcitem` SET `name` ='卡沙的結晶' WHERE `item_id` = 1481;
-UPDATE `etcitem` SET `name` ='黑毛狼皮' WHERE `item_id` = 1482;
-UPDATE `etcitem` SET `name` ='哥布林項鍊' WHERE `item_id` = 1483;
-UPDATE `etcitem` SET `name` ='哥布林墜子' WHERE `item_id` = 1484;
-UPDATE `etcitem` SET `name` ='哥布林王墜子' WHERE `item_id` = 1485;
-UPDATE `etcitem` SET `name` ='可疑的留言紙條' WHERE `item_id` = 1486;
-UPDATE `etcitem` SET `name` ='可疑的合約書' WHERE `item_id` = 1487;
-UPDATE `etcitem` SET `name` ='橄欖石礦石' WHERE `item_id` = 1488;
-UPDATE `etcitem` SET `name` ='破損的地圖碎片' WHERE `item_id` = 1489;
-UPDATE `etcitem` SET `name` ='隱藏的礦脈地圖' WHERE `item_id` = 1490;
-UPDATE `etcitem` SET `name` ='蝙蝠的尖牙' WHERE `item_id` = 1491;
-UPDATE `etcitem` SET `name` ='浮石' WHERE `item_id` = 1492;
-UPDATE `etcitem` SET `name` ='狼蛛網' WHERE `item_id` = 1493;
-UPDATE `etcitem` SET `name` ='狼蛛網噴口' WHERE `item_id` = 1494;
-UPDATE `etcitem` SET `name` ='巨大蜘蛛皮' WHERE `item_id` = 1495;
-UPDATE `etcitem` SET `name` ='火焰憑證' WHERE `item_id` = 1496;
-UPDATE `etcitem` SET `name` ='火焰項鍊' WHERE `item_id` = 1497;
-UPDATE `etcitem` SET `name` ='礦工資格證明' WHERE `item_id` = 1498;
-UPDATE `etcitem` SET `name` ='拉培倫的推薦函' WHERE `item_id` = 1499;
-UPDATE `etcitem` SET `name` ='黑斯吐伊圖騰' WHERE `item_id` = 1500;
-UPDATE `etcitem` SET `name` ='瑪剌庫狼血族圖騰' WHERE `item_id` = 1501;
-UPDATE `etcitem` SET `name` ='祖母的珍珠' WHERE `item_id` = 1502;
-UPDATE `etcitem` SET `name` ='祖母的鏡子' WHERE `item_id` = 1503;
-UPDATE `etcitem` SET `name` ='祖母的項鍊' WHERE `item_id` = 1504;
-UPDATE `etcitem` SET `name` ='祖母的髮飾' WHERE `item_id` = 1505;
-UPDATE `etcitem` SET `name` ='魔法書-混亂術' WHERE `item_id` = 1512;
-UPDATE `etcitem` SET `name` ='魔法書-迷魅術' WHERE `item_id` = 1513;
-UPDATE `etcitem` SET `name` ='魔法書-返生術' WHERE `item_id` = 1514;
-UPDATE `etcitem` SET `name` ='魔法書-伊娃之吻' WHERE `item_id` = 1515;
-UPDATE `etcitem` SET `name` ='魔法書-死體能量吸收' WHERE `item_id` = 1516;
-UPDATE `etcitem` SET `name` ='魔法書-心靈轉換' WHERE `item_id` = 1517;
-UPDATE `etcitem` SET `name` ='護身符-靈火頌歌' WHERE `item_id` = 1518;
-UPDATE `etcitem` SET `name` ='護身符-帕格立歐力量' WHERE `item_id` = 1519;
-UPDATE `etcitem` SET `name` ='護身符-帕格立歐祝福' WHERE `item_id` = 1520;
-UPDATE `etcitem` SET `name` ='護身符-聖火頌歌' WHERE `item_id` = 1521;
-UPDATE `etcitem` SET `name` ='護身符-狂戰頌歌' WHERE `item_id` = 1522;
-UPDATE `etcitem` SET `name` ='護身符-鐵壁頌歌' WHERE `item_id` = 1523;
-UPDATE `etcitem` SET `name` ='護身符-聖靈之盾' WHERE `item_id` = 1524;
-UPDATE `etcitem` SET `name` ='護身符-生命吸收' WHERE `item_id` = 1525;
-UPDATE `etcitem` SET `name` ='護身符-心之恐懼' WHERE `item_id` = 1526;
-UPDATE `etcitem` SET `name` ='護身符-痛苦之刺' WHERE `item_id` = 1527;
-UPDATE `etcitem` SET `name` ='護身符-混亂封印' WHERE `item_id` = 1528;
-UPDATE `etcitem` SET `name` ='護身符-睡夢之靈' WHERE `item_id` = 1529;
-UPDATE `etcitem` SET `name` ='護身符-緩速封印' WHERE `item_id` = 1530;
-UPDATE `etcitem` SET `name` ='護身符-戰慄之火' WHERE `item_id` = 1531;
-UPDATE `etcitem` SET `name` ='護身符-火焰震撼' WHERE `item_id` = 1532;
-UPDATE `etcitem` SET `name` ='護身符-靈氣沉淪' WHERE `item_id` = 1533;
-UPDATE `etcitem` SET `name` ='護身符-心靈喪失' WHERE `item_id` = 1534;
-UPDATE `etcitem` SET `name` ='護身符-寒霜之焰' WHERE `item_id` = 1535;
-UPDATE `etcitem` SET `name` ='護身符-約束封印' WHERE `item_id` = 1536;
-UPDATE `etcitem` SET `name` ='護身符-劇毒封印' WHERE `item_id` = 1537;
-UPDATE `etcitem` SET `name` ='祝福的返回卷軸' WHERE `item_id` = 1538;
-UPDATE `etcitem` SET `name` ='終極治癒藥水' WHERE `item_id` = 1539;
-UPDATE `etcitem` SET `name` ='瞬間體力治癒藥水' WHERE `item_id` = 1540;
-UPDATE `etcitem` SET `name` ='蜂蜜坎達魯' WHERE `item_id` = 1541;
-UPDATE `etcitem` SET `name` ='灰熊皮斗篷' WHERE `item_id` = 1542;
-UPDATE `etcitem` SET `name` ='血腥斧' WHERE `item_id` = 1543;
-UPDATE `etcitem` SET `name` ='祖先的頭蓋骨' WHERE `item_id` = 1544;
-UPDATE `etcitem` SET `name` ='蜘蛛粉末' WHERE `item_id` = 1545;
-UPDATE `etcitem` SET `name` ='深海之珠' WHERE `item_id` = 1546;
-UPDATE `etcitem` SET `name` ='波特的物品明細' WHERE `item_id` = 1547;
-UPDATE `etcitem` SET `name` ='礦工長靴' WHERE `item_id` = 1548;
-UPDATE `etcitem` SET `name` ='礦工尖鎬' WHERE `item_id` = 1549;
-UPDATE `etcitem` SET `name` ='轟隆火藥' WHERE `item_id` = 1550;
-UPDATE `etcitem` SET `name` ='紅石啤酒' WHERE `item_id` = 1551;
-UPDATE `etcitem` SET `name` ='波特的臭襪子' WHERE `item_id` = 1552;
-UPDATE `etcitem` SET `name` ='哈拓斯的指示' WHERE `item_id` = 1553;
-UPDATE `etcitem` SET `name` ='哈拓斯的指示' WHERE `item_id` = 1554;
-UPDATE `etcitem` SET `name` ='哈拓斯的指示' WHERE `item_id` = 1555;
-UPDATE `etcitem` SET `name` ='寄給黑暗精靈的密函' WHERE `item_id` = 1556;
-UPDATE `etcitem` SET `name` ='寄給人類的密函' WHERE `item_id` = 1557;
-UPDATE `etcitem` SET `name` ='寄給精靈的密函' WHERE `item_id` = 1558;
-UPDATE `etcitem` SET `name` ='高普的合約書' WHERE `item_id` = 1559;
-UPDATE `etcitem` SET `name` ='黎普的合約書' WHERE `item_id` = 1560;
-UPDATE `etcitem` SET `name` ='精靈葡萄酒' WHERE `item_id` = 1561;
-UPDATE `etcitem` SET `name` ='白龍普的骰子' WHERE `item_id` = 1562;
-UPDATE `etcitem` SET `name` ='白龍普的合約書' WHERE `item_id` = 1563;
-UPDATE `etcitem` SET `name` ='海藍寶石' WHERE `item_id` = 1564;
-UPDATE `etcitem` SET `name` ='金綠寶石' WHERE `item_id` = 1565;
-UPDATE `etcitem` SET `name` ='寶石箱子' WHERE `item_id` = 1566;
-UPDATE `etcitem` SET `name` ='煤塊' WHERE `item_id` = 1567;
-UPDATE `etcitem` SET `name` ='白龍普的信' WHERE `item_id` = 1568;
-UPDATE `etcitem` SET `name` ='野莓派' WHERE `item_id` = 1569;
-UPDATE `etcitem` SET `name` ='蝙蝠之圖' WHERE `item_id` = 1570;
-UPDATE `etcitem` SET `name` ='星鑽' WHERE `item_id` = 1571;
-UPDATE `etcitem` SET `name` ='星石' WHERE `item_id` = 1572;
-UPDATE `etcitem` SET `name` ='星石' WHERE `item_id` = 1573;
-UPDATE `etcitem` SET `name` ='米麗恩的料理評價' WHERE `item_id` = 1574;
-UPDATE `etcitem` SET `name` ='米麗恩的料理評價' WHERE `item_id` = 1575;
-UPDATE `etcitem` SET `name` ='米麗恩的料理評價' WHERE `item_id` = 1576;
-UPDATE `etcitem` SET `name` ='米麗恩的料理評價' WHERE `item_id` = 1577;
-UPDATE `etcitem` SET `name` ='綠血' WHERE `item_id` = 1578;
-UPDATE `etcitem` SET `name` ='哥布林棲息地地圖' WHERE `item_id` = 1579;
-UPDATE `etcitem` SET `name` ='庫勒卡鼠人的尖牙' WHERE `item_id` = 1580;
-UPDATE `etcitem` SET `name` ='背叛者的報告' WHERE `item_id` = 1581;
-UPDATE `etcitem` SET `name` ='背叛者的報告' WHERE `item_id` = 1582;
-UPDATE `etcitem` SET `name` ='背叛者的報告' WHERE `item_id` = 1583;
-UPDATE `etcitem` SET `name` ='背叛者的報告' WHERE `item_id` = 1584;
-UPDATE `etcitem` SET `name` ='背叛者的報告' WHERE `item_id` = 1585;
-UPDATE `etcitem` SET `name` ='背叛者的報告' WHERE `item_id` = 1586;
-UPDATE `etcitem` SET `name` ='背叛者的報告' WHERE `item_id` = 1587;
-UPDATE `etcitem` SET `name` ='背叛者的報告' WHERE `item_id` = 1588;
-UPDATE `etcitem` SET `name` ='背叛者的報告' WHERE `item_id` = 1589;
-UPDATE `etcitem` SET `name` ='背叛者的報告' WHERE `item_id` = 1590;
-UPDATE `etcitem` SET `name` ='背叛者之頸' WHERE `item_id` = 1591;
-UPDATE `etcitem` SET `name` ='突襲者標章' WHERE `item_id` = 1592;
-UPDATE `etcitem` SET `name` ='石榴果實' WHERE `item_id` = 1593;
-UPDATE `etcitem` SET `name` ='皮袋' WHERE `item_id` = 1594;
-UPDATE `etcitem` SET `name` ='皮袋' WHERE `item_id` = 1595;
-UPDATE `etcitem` SET `name` ='皮袋' WHERE `item_id` = 1596;
-UPDATE `etcitem` SET `name` ='裝滿的皮袋' WHERE `item_id` = 1597;
-UPDATE `etcitem` SET `name` ='裝滿的皮袋' WHERE `item_id` = 1598;
-UPDATE `etcitem` SET `name` ='裝滿的皮袋' WHERE `item_id` = 1599;
-UPDATE `etcitem` SET `name` ='卡沙熊之爪' WHERE `item_id` = 1600;
-UPDATE `etcitem` SET `name` ='卡沙刀刃蜘蛛之爪' WHERE `item_id` = 1601;
-UPDATE `etcitem` SET `name` ='猩紅火蜥蜴的鱗片' WHERE `item_id` = 1602;
-UPDATE `etcitem` SET `name` ='火鬥魂卷軸' WHERE `item_id` = 1603;
-UPDATE `etcitem` SET `name` ='羅西克的信' WHERE `item_id` = 1604;
-UPDATE `etcitem` SET `name` ='坎塔克的推薦函' WHERE `item_id` = 1605;
-UPDATE `etcitem` SET `name` ='無花果果實' WHERE `item_id` = 1606;
-UPDATE `etcitem` SET `name` ='皮袋' WHERE `item_id` = 1607;
-UPDATE `etcitem` SET `name` ='裝滿的皮袋' WHERE `item_id` = 1608;
-UPDATE `etcitem` SET `name` ='普庫獸人的牙' WHERE `item_id` = 1609;
-UPDATE `etcitem` SET `name` ='鼠人的尖牙' WHERE `item_id` = 1610;
-UPDATE `etcitem` SET `name` ='朗克蜥蜴人戰士的牙齒' WHERE `item_id` = 1611;
-UPDATE `etcitem` SET `name` ='菲林蜥蜴人戰士的牙齒' WHERE `item_id` = 1612;
-UPDATE `etcitem` SET `name` ='鋼鐵意志卷軸' WHERE `item_id` = 1613;
-UPDATE `etcitem` SET `name` ='托魯庫的信' WHERE `item_id` = 1614;
-UPDATE `etcitem` SET `name` ='卡巴塔里之圖騰' WHERE `item_id` = 1615;
-UPDATE `etcitem` SET `name` ='火花符咒' WHERE `item_id` = 1616;
-UPDATE `etcitem` SET `name` ='卡沙熊之皮' WHERE `item_id` = 1617;
-UPDATE `etcitem` SET `name` ='卡沙刀刃蜘蛛之皮' WHERE `item_id` = 1618;
-UPDATE `etcitem` SET `name` ='火炎蛋' WHERE `item_id` = 1619;
-UPDATE `etcitem` SET `name` ='黑斯吐伊的面具' WHERE `item_id` = 1620;
-UPDATE `etcitem` SET `name` ='火炎蛋' WHERE `item_id` = 1621;
-UPDATE `etcitem` SET `name` ='圖騰靈之爪' WHERE `item_id` = 1622;
-UPDATE `etcitem` SET `name` ='塔塔魯的推薦函' WHERE `item_id` = 1623;
-UPDATE `etcitem` SET `name` ='火焰符咒' WHERE `item_id` = 1624;
-UPDATE `etcitem` SET `name` ='灰熊血' WHERE `item_id` = 1625;
-UPDATE `etcitem` SET `name` ='血釜' WHERE `item_id` = 1626;
-UPDATE `etcitem` SET `name` ='靈魂之網' WHERE `item_id` = 1627;
-UPDATE `etcitem` SET `name` ='封印的都勒卡惡靈' WHERE `item_id` = 1628;
-UPDATE `etcitem` SET `name` ='都勒卡的附身靈' WHERE `item_id` = 1629;
-UPDATE `etcitem` SET `name` ='圖騰靈之血' WHERE `item_id` = 1630;
-UPDATE `etcitem` SET `name` ='施咒者的面具' WHERE `item_id` = 1631;
-UPDATE `etcitem` SET `name` ='希爾貝黎的戒指' WHERE `item_id` = 1632;
-UPDATE `etcitem` SET `name` ='第一次合格證書' WHERE `item_id` = 1633;
-UPDATE `etcitem` SET `name` ='第二次合格證書' WHERE `item_id` = 1634;
-UPDATE `etcitem` SET `name` ='最終合格證書' WHERE `item_id` = 1635;
-UPDATE `etcitem` SET `name` ='布基鼠人的尖牙' WHERE `item_id` = 1636;
-UPDATE `etcitem` SET `name` ='布基鼠人隊長的尖牙' WHERE `item_id` = 1637;
-UPDATE `etcitem` SET `name` ='克魯托的信函' WHERE `item_id` = 1638;
-UPDATE `etcitem` SET `name` ='盜賊的足跡' WHERE `item_id` = 1639;
-UPDATE `etcitem` SET `name` ='被竊的祕密箱' WHERE `item_id` = 1640;
-UPDATE `etcitem` SET `name` ='祕密箱' WHERE `item_id` = 1641;
-UPDATE `etcitem` SET `name` ='掠奪者之戒' WHERE `item_id` = 1642;
-UPDATE `etcitem` SET `name` ='皮皮的推薦函' WHERE `item_id` = 1643;
-UPDATE `etcitem` SET `name` ='勞特的移動卷軸' WHERE `item_id` = 1644;
-UPDATE `etcitem` SET `name` ='魅魔內衣' WHERE `item_id` = 1645;
-UPDATE `etcitem` SET `name` ='米恩的信' WHERE `item_id` = 1646;
-UPDATE `etcitem` SET `name` ='布隆克的錠塊' WHERE `item_id` = 1647;
-UPDATE `etcitem` SET `name` ='恰里之斧' WHERE `item_id` = 1648;
-UPDATE `etcitem` SET `name` ='吉門普的藥水' WHERE `item_id` = 1649;
-UPDATE `etcitem` SET `name` ='布隆克的酬勞' WHERE `item_id` = 1650;
-UPDATE `etcitem` SET `name` ='恰里的酬勞' WHERE `item_id` = 1651;
-UPDATE `etcitem` SET `name` ='吉門普的酬勞' WHERE `item_id` = 1652;
-UPDATE `etcitem` SET `name` ='熊畫像' WHERE `item_id` = 1653;
-UPDATE `etcitem` SET `name` ='狼蛛畫像' WHERE `item_id` = 1654;
-UPDATE `etcitem` SET `name` ='蜂蜜罐' WHERE `item_id` = 1655;
-UPDATE `etcitem` SET `name` ='珠子' WHERE `item_id` = 1656;
-UPDATE `etcitem` SET `name` ='珠子包裹' WHERE `item_id` = 1657;
-UPDATE `etcitem` SET `name` ='守門人符咒' WHERE `item_id` = 1658;
-UPDATE `etcitem` SET `name` ='守門人信物' WHERE `item_id` = 1659;
-UPDATE `etcitem` SET `name` ='盜賊的鑰匙' WHERE `item_id` = 1661;
-UPDATE `etcitem` SET `name` ='木頭' WHERE `item_id` = 1662;
-UPDATE `etcitem` SET `name` ='樹枝(不使用)' WHERE `item_id` = 1663;
-UPDATE `etcitem` SET `name` ='鐵屑' WHERE `item_id` = 1664;
-UPDATE `etcitem` SET `name` ='地圖-亞丁' WHERE `item_id` = 1665;
-UPDATE `etcitem` SET `name` ='製作卷軸(木箭100%)' WHERE `item_id` = 1666;
-UPDATE `etcitem` SET `name` ='魔法書-召喚闇魔' WHERE `item_id` = 1667;
-UPDATE `etcitem` SET `name` ='魔法書-召喚魔法貓' WHERE `item_id` = 1668;
-UPDATE `etcitem` SET `name` ='魔法書-召喚戰鬥獨角獸' WHERE `item_id` = 1669;
-UPDATE `etcitem` SET `name` ='魔法書-召喚夢幻獨角獸' WHERE `item_id` = 1670;
-UPDATE `etcitem` SET `name` ='魔法書-召喚影魔' WHERE `item_id` = 1671;
-UPDATE `etcitem` SET `name` ='__' WHERE `item_id` = 1672;
-UPDATE `etcitem` SET `name` ='__' WHERE `item_id` = 1673;
-UPDATE `etcitem` SET `name` ='安特之樹枝' WHERE `item_id` = 1674;
-UPDATE `etcitem` SET `name` ='獸人之血' WHERE `item_id` = 1675;
-UPDATE `etcitem` SET `name` ='獸人之骨' WHERE `item_id` = 1676;
-UPDATE `etcitem` SET `name` ='滾燙的油' WHERE `item_id` = 1677;
-UPDATE `etcitem` SET `name` ='線(不使用)' WHERE `item_id` = 1678;
-UPDATE `etcitem` SET `name` ='青銅' WHERE `item_id` = 1679;
-UPDATE `etcitem` SET `name` ='毛皮' WHERE `item_id` = 1680;
-UPDATE `etcitem` SET `name` ='精靈石' WHERE `item_id` = 1681;
-UPDATE `etcitem` SET `name` ='聖靈之淚' WHERE `item_id` = 1682;
-UPDATE `etcitem` SET `name` ='米索莉' WHERE `item_id` = 1683;
-UPDATE `etcitem` SET `name` ='耐久的枝葉' WHERE `item_id` = 1684;
-UPDATE `etcitem` SET `name` ='木製模具' WHERE `item_id` = 1685;
-UPDATE `etcitem` SET `name` ='安特之樹皮' WHERE `item_id` = 1686;
-UPDATE `etcitem` SET `name` ='粗糙的骨粉(不使用)' WHERE `item_id` = 1687;
-UPDATE `etcitem` SET `name` ='精製鐵塊' WHERE `item_id` = 1688;
-UPDATE `etcitem` SET `name` ='皮(不使用)' WHERE `item_id` = 1689;
-UPDATE `etcitem` SET `name` ='弓弦' WHERE `item_id` = 1690;
-UPDATE `etcitem` SET `name` ='鐵製模具' WHERE `item_id` = 1691;
-UPDATE `etcitem` SET `name` ='強化繩索(不使用)' WHERE `item_id` = 1692;
-UPDATE `etcitem` SET `name` ='精製青銅' WHERE `item_id` = 1693;
-UPDATE `etcitem` SET `name` ='安特藥水' WHERE `item_id` = 1694;
-UPDATE `etcitem` SET `name` ='魔法紙' WHERE `item_id` = 1695;
-UPDATE `etcitem` SET `name` ='灼熱的油' WHERE `item_id` = 1696;
-UPDATE `etcitem` SET `name` ='魔法粉' WHERE `item_id` = 1697;
-UPDATE `etcitem` SET `name` ='精製的米索莉' WHERE `item_id` = 1698;
-UPDATE `etcitem` SET `name` ='強化鋼鐵' WHERE `item_id` = 1699;
-UPDATE `etcitem` SET `name` ='奧里哈魯根(不使用)' WHERE `item_id` = 1700;
-UPDATE `etcitem` SET `name` ='魔力液' WHERE `item_id` = 1701;
-UPDATE `etcitem` SET `name` ='金屬模具' WHERE `item_id` = 1702;
-UPDATE `etcitem` SET `name` ='高等鐵塊' WHERE `item_id` = 1703;
-UPDATE `etcitem` SET `name` ='憎恨石' WHERE `item_id` = 1704;
-UPDATE `etcitem` SET `name` ='智慧葉' WHERE `item_id` = 1705;
-UPDATE `etcitem` SET `name` ='藍鑽碎片' WHERE `item_id` = 1706;
-UPDATE `etcitem` SET `name` ='聖者的臼齒' WHERE `item_id` = 1707;
-UPDATE `etcitem` SET `name` ='混濁水晶' WHERE `item_id` = 1708;
-UPDATE `etcitem` SET `name` ='刺尾獅之血' WHERE `item_id` = 1709;
-UPDATE `etcitem` SET `name` ='虎眼水晶' WHERE `item_id` = 1710;
-UPDATE `etcitem` SET `name` ='豹之爪' WHERE `item_id` = 1711;
-UPDATE `etcitem` SET `name` ='皮鞋材料' WHERE `item_id` = 1712;
-UPDATE `etcitem` SET `name` ='皮外衣材料' WHERE `item_id` = 1713;
-UPDATE `etcitem` SET `name` ='皮長襪材料' WHERE `item_id` = 1714;
-UPDATE `etcitem` SET `name` ='皮頭盔材料' WHERE `item_id` = 1715;
-UPDATE `etcitem` SET `name` ='皮手套的外織物' WHERE `item_id` = 1716;
-UPDATE `etcitem` SET `name` ='皮手套的內襯' WHERE `item_id` = 1717;
-UPDATE `etcitem` SET `name` ='黑骨碎片' WHERE `item_id` = 1718;
-UPDATE `etcitem` SET `name` ='硬皮襯衣材料' WHERE `item_id` = 1719;
-UPDATE `etcitem` SET `name` ='深藍骨碎片' WHERE `item_id` = 1720;
-UPDATE `etcitem` SET `name` ='硬皮綁腿材料' WHERE `item_id` = 1721;
-UPDATE `etcitem` SET `name` ='長靴材料(無用)' WHERE `item_id` = 1722;
-UPDATE `etcitem` SET `name` ='皮靴材料' WHERE `item_id` = 1723;
-UPDATE `etcitem` SET `name` ='骷髏碎片' WHERE `item_id` = 1724;
-UPDATE `etcitem` SET `name` ='黑暗長襪材料' WHERE `item_id` = 1725;
-UPDATE `etcitem` SET `name` ='高級皮手套的內襯' WHERE `item_id` = 1726;
-UPDATE `etcitem` SET `name` ='高級皮手套的外織物' WHERE `item_id` = 1727;
-UPDATE `etcitem` SET `name` ='鋼鐵鱗' WHERE `item_id` = 1728;
-UPDATE `etcitem` SET `name` ='純白布料' WHERE `item_id` = 1729;
-UPDATE `etcitem` SET `name` ='淨化藥水' WHERE `item_id` = 1730;
-UPDATE `etcitem` SET `name` ='脛甲鋼鐵鱗' WHERE `item_id` = 1731;
-UPDATE `etcitem` SET `name` ='皮革配件' WHERE `item_id` = 1732;
-UPDATE `etcitem` SET `name` ='長鋼鐵板' WHERE `item_id` = 1733;
-UPDATE `etcitem` SET `name` ='小型皮革配件' WHERE `item_id` = 1734;
-UPDATE `etcitem` SET `name` ='短鋼鐵板' WHERE `item_id` = 1735;
-UPDATE `etcitem` SET `name` ='鋼鐵靴的原料' WHERE `item_id` = 1736;
-UPDATE `etcitem` SET `name` ='鋼鐵靴的模具' WHERE `item_id` = 1737;
-UPDATE `etcitem` SET `name` ='寬刀刃' WHERE `item_id` = 1738;
-UPDATE `etcitem` SET `name` ='寬劍鑄模' WHERE `item_id` = 1739;
-UPDATE `etcitem` SET `name` ='修剪過的柳樹' WHERE `item_id` = 1740;
-UPDATE `etcitem` SET `name` ='杖' WHERE `item_id` = 1741;
-UPDATE `etcitem` SET `name` ='紅柳杉樹枝' WHERE `item_id` = 1742;
-UPDATE `etcitem` SET `name` ='短刀刃' WHERE `item_id` = 1743;
-UPDATE `etcitem` SET `name` ='短刀鑄模' WHERE `item_id` = 1744;
-UPDATE `etcitem` SET `name` ='刺擊刀刃' WHERE `item_id` = 1745;
-UPDATE `etcitem` SET `name` ='短矛刀刃' WHERE `item_id` = 1746;
-UPDATE `etcitem` SET `name` ='閃耀刃' WHERE `item_id` = 1747;
-UPDATE `etcitem` SET `name` ='反射劍鑄模' WHERE `item_id` = 1748;
-UPDATE `etcitem` SET `name` ='世界樹的樹枝' WHERE `item_id` = 1749;
-UPDATE `etcitem` SET `name` ='黑暗森林之葉' WHERE `item_id` = 1750;
-UPDATE `etcitem` SET `name` ='鋼鐵塊' WHERE `item_id` = 1751;
-UPDATE `etcitem` SET `name` ='碎劍者的碎片' WHERE `item_id` = 1752;
-UPDATE `etcitem` SET `name` ='碎劍者的鑄模' WHERE `item_id` = 1753;
-UPDATE `etcitem` SET `name` ='鐵弓鑄模' WHERE `item_id` = 1754;
-UPDATE `etcitem` SET `name` ='金屬杖' WHERE `item_id` = 1755;
-UPDATE `etcitem` SET `name` ='軍刀工匠之靈' WHERE `item_id` = 1756;
-UPDATE `etcitem` SET `name` ='軍刀劍身' WHERE `item_id` = 1757;
-UPDATE `etcitem` SET `name` ='軍刀鑄模' WHERE `item_id` = 1758;
-UPDATE `etcitem` SET `name` ='刺客之血' WHERE `item_id` = 1759;
-UPDATE `etcitem` SET `name` ='刺客劍身' WHERE `item_id` = 1760;
-UPDATE `etcitem` SET `name` ='刺客劍身鑄模' WHERE `item_id` = 1761;
-UPDATE `etcitem` SET `name` ='三叉戟碎片' WHERE `item_id` = 1762;
-UPDATE `etcitem` SET `name` ='紅寶石碎片' WHERE `item_id` = 1763;
-UPDATE `etcitem` SET `name` ='深海水' WHERE `item_id` = 1764;
-UPDATE `etcitem` SET `name` ='脊骨碎片' WHERE `item_id` = 1765;
-UPDATE `etcitem` SET `name` ='脊骨模型' WHERE `item_id` = 1766;
-UPDATE `etcitem` SET `name` ='審判的魔法碎片' WHERE `item_id` = 1767;
-UPDATE `etcitem` SET `name` ='審判模型' WHERE `item_id` = 1768;
-UPDATE `etcitem` SET `name` ='法咒魔杖之碎片' WHERE `item_id` = 1769;
-UPDATE `etcitem` SET `name` ='魔法長笛' WHERE `item_id` = 1770;
-UPDATE `etcitem` SET `name` ='精靈杖' WHERE `item_id` = 1771;
-UPDATE `etcitem` SET `name` ='世界樹樹葉' WHERE `item_id` = 1772;
-UPDATE `etcitem` SET `name` ='矮人三叉戟的碎片' WHERE `item_id` = 1773;
-UPDATE `etcitem` SET `name` ='雙手劍的碎片' WHERE `item_id` = 1774;
-UPDATE `etcitem` SET `name` ='雙手劍的鑄模' WHERE `item_id` = 1775;
-UPDATE `etcitem` SET `name` ='狼牙棒的碎片' WHERE `item_id` = 1776;
-UPDATE `etcitem` SET `name` ='鐵棒碎片' WHERE `item_id` = 1777;
-UPDATE `etcitem` SET `name` ='森林神的骨頭碎片' WHERE `item_id` = 1778;
-UPDATE `etcitem` SET `name` ='森林神的鬃毛' WHERE `item_id` = 1779;
-UPDATE `etcitem` SET `name` ='純青銅塊' WHERE `item_id` = 1780;
-UPDATE `etcitem` SET `name` ='腰弩弓身' WHERE `item_id` = 1781;
-UPDATE `etcitem` SET `name` ='腰弩附屬品' WHERE `item_id` = 1782;
-UPDATE `etcitem` SET `name` ='惡靈之血' WHERE `item_id` = 1783;
-UPDATE `etcitem` SET `name` ='受詛咒的皮' WHERE `item_id` = 1784;
-UPDATE `etcitem` SET `name` ='精靈礦石' WHERE `item_id` = 1785;
-UPDATE `etcitem` SET `name` ='製作卷軸(寬劍100%)' WHERE `item_id` = 1786;
-UPDATE `etcitem` SET `name` ='製作卷軸(柳木魔杖100%)' WHERE `item_id` = 1787;
-UPDATE `etcitem` SET `name` ='製作卷軸(弓100%)' WHERE `item_id` = 1788;
-UPDATE `etcitem` SET `name` ='製作卷軸(柏木魔杖100%)' WHERE `item_id` = 1789;
-UPDATE `etcitem` SET `name` ='製作卷軸(短刀100%)' WHERE `item_id` = 1790;
-UPDATE `etcitem` SET `name` ='製作卷軸(刺擊刀100%)' WHERE `item_id` = 1791;
-UPDATE `etcitem` SET `name` ='製作卷軸(短矛100%)' WHERE `item_id` = 1792;
-UPDATE `etcitem` SET `name` ='製作卷軸(反射劍100%)' WHERE `item_id` = 1793;
-UPDATE `etcitem` SET `name` ='製作卷軸(森林弓100%)' WHERE `item_id` = 1794;
-UPDATE `etcitem` SET `name` ='製作卷軸(皮鞋100%)' WHERE `item_id` = 1795;
-UPDATE `etcitem` SET `name` ='製作卷軸(皮外衣100%)' WHERE `item_id` = 1796;
-UPDATE `etcitem` SET `name` ='製作卷軸(皮長襪100%)' WHERE `item_id` = 1797;
-UPDATE `etcitem` SET `name` ='製作卷軸(皮頭盔100%)' WHERE `item_id` = 1798;
-UPDATE `etcitem` SET `name` ='製作卷軸(皮手套100%)' WHERE `item_id` = 1799;
-UPDATE `etcitem` SET `name` ='製作卷軸(骨片胸甲100%)' WHERE `item_id` = 1800;
-UPDATE `etcitem` SET `name` ='製作卷軸(骨片脛甲100%)' WHERE `item_id` = 1801;
-UPDATE `etcitem` SET `name` ='製作卷軸(幻滅項鍊100%)' WHERE `item_id` = 1802;
-UPDATE `etcitem` SET `name` ='製作卷軸(智慧項鍊100%)' WHERE `item_id` = 1803;
-UPDATE `etcitem` SET `name` ='製作卷軸(靈魂彈-D級100%)' WHERE `item_id` = 1804;
-UPDATE `etcitem` SET `name` ='製作卷軸(靈魂彈-C級100%)' WHERE `item_id` = 1805;
-UPDATE `etcitem` SET `name` ='製作卷軸(靈魂彈-B級100%)' WHERE `item_id` = 1806;
-UPDATE `etcitem` SET `name` ='製作卷軸(靈魂彈-A級100%)' WHERE `item_id` = 1807;
-UPDATE `etcitem` SET `name` ='製作卷軸(靈魂彈-S級100%)' WHERE `item_id` = 1808;
-UPDATE `etcitem` SET `name` ='製作卷軸(耐久的枝葉)' WHERE `item_id` = 1809;
-UPDATE `etcitem` SET `name` ='製作卷軸(木製模具)' WHERE `item_id` = 1810;
-UPDATE `etcitem` SET `name` ='製作卷軸(安特之樹皮)' WHERE `item_id` = 1811;
-UPDATE `etcitem` SET `name` ='製作卷軸(顆粒狀的骨粉)(無用)' WHERE `item_id` = 1812;
-UPDATE `etcitem` SET `name` ='製作卷軸(精製鐵塊)' WHERE `item_id` = 1813;
-UPDATE `etcitem` SET `name` ='製作卷軸(皮革100%)' WHERE `item_id` = 1814;
-UPDATE `etcitem` SET `name` ='製作卷軸(弓弦)' WHERE `item_id` = 1815;
-UPDATE `etcitem` SET `name` ='製作卷軸(鐵製模具)' WHERE `item_id` = 1816;
-UPDATE `etcitem` SET `name` ='製作卷軸(強化繩索100%)' WHERE `item_id` = 1817;
-UPDATE `etcitem` SET `name` ='製作卷軸(精製青銅)' WHERE `item_id` = 1818;
-UPDATE `etcitem` SET `name` ='製作卷軸(安特藥水)' WHERE `item_id` = 1819;
-UPDATE `etcitem` SET `name` ='製作卷軸(魔法紙)' WHERE `item_id` = 1820;
-UPDATE `etcitem` SET `name` ='製作卷軸(灼熱的油)' WHERE `item_id` = 1821;
-UPDATE `etcitem` SET `name` ='製作卷軸(魔法粉)' WHERE `item_id` = 1822;
-UPDATE `etcitem` SET `name` ='製作卷軸(精製的米索莉)' WHERE `item_id` = 1823;
-UPDATE `etcitem` SET `name` ='製作卷軸(強化鋼鐵)' WHERE `item_id` = 1824;
-UPDATE `etcitem` SET `name` ='製作卷軸(奧里哈魯根100%)' WHERE `item_id` = 1825;
-UPDATE `etcitem` SET `name` ='製作卷軸(魔力液)' WHERE `item_id` = 1826;
-UPDATE `etcitem` SET `name` ='製作卷軸(金屬模具)' WHERE `item_id` = 1827;
-UPDATE `etcitem` SET `name` ='製作卷軸(高等級鐵塊)' WHERE `item_id` = 1828;
-UPDATE `etcitem` SET `name` ='根據地返回卷軸' WHERE `item_id` = 1829;
-UPDATE `etcitem` SET `name` ='城堡返回卷軸' WHERE `item_id` = 1830;
-UPDATE `etcitem` SET `name` ='解毒草' WHERE `item_id` = 1831;
-UPDATE `etcitem` SET `name` ='濃縮解毒藥' WHERE `item_id` = 1832;
-UPDATE `etcitem` SET `name` ='繃帶' WHERE `item_id` = 1833;
-UPDATE `etcitem` SET `name` ='強力繃帶' WHERE `item_id` = 1834;
-UPDATE `etcitem` SET `name` ='靈魂彈-普通' WHERE `item_id` = 1835;
-UPDATE `etcitem` SET `name` ='肯德尼爾的命令' WHERE `item_id` = 1836;
-UPDATE `etcitem` SET `name` ='肯德尼爾的命令' WHERE `item_id` = 1837;
-UPDATE `etcitem` SET `name` ='肯德尼爾的命令' WHERE `item_id` = 1838;
-UPDATE `etcitem` SET `name` ='肯德尼爾的命令' WHERE `item_id` = 1839;
-UPDATE `etcitem` SET `name` ='肯德尼爾的命令' WHERE `item_id` = 1840;
-UPDATE `etcitem` SET `name` ='肯德尼爾的命令' WHERE `item_id` = 1841;
-UPDATE `etcitem` SET `name` ='肯德尼爾的命令' WHERE `item_id` = 1842;
-UPDATE `etcitem` SET `name` ='肯德尼爾的命令' WHERE `item_id` = 1843;
-UPDATE `etcitem` SET `name` ='卡布獸人首領項鍊' WHERE `item_id` = 1844;
-UPDATE `etcitem` SET `name` ='卡布獸人首領項鍊' WHERE `item_id` = 1845;
-UPDATE `etcitem` SET `name` ='土瑞克頸鍊' WHERE `item_id` = 1846;
-UPDATE `etcitem` SET `name` ='土瑞克勳章' WHERE `item_id` = 1847;
-UPDATE `etcitem` SET `name` ='瓷器的碎片' WHERE `item_id` = 1848;
-UPDATE `etcitem` SET `name` ='銅製飾品的碎片' WHERE `item_id` = 1849;
-UPDATE `etcitem` SET `name` ='青銅鏡的碎片' WHERE `item_id` = 1850;
-UPDATE `etcitem` SET `name` ='玉石項鍊的珠子' WHERE `item_id` = 1851;
-UPDATE `etcitem` SET `name` ='古代瓷器' WHERE `item_id` = 1852;
-UPDATE `etcitem` SET `name` ='古老的銅製冠冕' WHERE `item_id` = 1853;
-UPDATE `etcitem` SET `name` ='古老的青銅鏡' WHERE `item_id` = 1854;
-UPDATE `etcitem` SET `name` ='古老的玉石項鍊' WHERE `item_id` = 1855;
-UPDATE `etcitem` SET `name` ='護身符-生命禮讚' WHERE `item_id` = 1856;
-UPDATE `etcitem` SET `name` ='尼比特狐狗的尖牙' WHERE `item_id` = 1857;
-UPDATE `etcitem` SET `name` ='尼比特狐狗的尖牙' WHERE `item_id` = 1858;
-UPDATE `etcitem` SET `name` ='尼比特狐狗的尖牙' WHERE `item_id` = 1859;
-UPDATE `etcitem` SET `name` ='尼比特狐狗的尖牙' WHERE `item_id` = 1860;
-UPDATE `etcitem` SET `name` ='尼比特狐狗的尖牙' WHERE `item_id` = 1861;
-UPDATE `etcitem` SET `name` ='尼比特狐狗的尖牙' WHERE `item_id` = 1862;
-UPDATE `etcitem` SET `name` ='地圖-艾爾摩' WHERE `item_id` = 1863;
-UPDATE `etcitem` SET `name` ='樹枝' WHERE `item_id` = 1864;
-UPDATE `etcitem` SET `name` ='研磨劑' WHERE `item_id` = 1865;
-UPDATE `etcitem` SET `name` ='軟皮' WHERE `item_id` = 1866;
-UPDATE `etcitem` SET `name` ='動物的皮' WHERE `item_id` = 1867;
-UPDATE `etcitem` SET `name` ='線' WHERE `item_id` = 1868;
-UPDATE `etcitem` SET `name` ='鋼鐵礦' WHERE `item_id` = 1869;
-UPDATE `etcitem` SET `name` ='煤礦' WHERE `item_id` = 1870;
-UPDATE `etcitem` SET `name` ='木炭' WHERE `item_id` = 1871;
-UPDATE `etcitem` SET `name` ='動物的骨頭' WHERE `item_id` = 1872;
-UPDATE `etcitem` SET `name` ='銀塊' WHERE `item_id` = 1873;
-UPDATE `etcitem` SET `name` ='奧里哈魯根原石' WHERE `item_id` = 1874;
-UPDATE `etcitem` SET `name` ='純石' WHERE `item_id` = 1875;
-UPDATE `etcitem` SET `name` ='米索莉原石' WHERE `item_id` = 1876;
-UPDATE `etcitem` SET `name` ='金剛石塊' WHERE `item_id` = 1877;
-UPDATE `etcitem` SET `name` ='絞線' WHERE `item_id` = 1878;
-UPDATE `etcitem` SET `name` ='炭焦' WHERE `item_id` = 1879;
-UPDATE `etcitem` SET `name` ='鐵' WHERE `item_id` = 1880;
-UPDATE `etcitem` SET `name` ='顆粒狀的骨粉' WHERE `item_id` = 1881;
-UPDATE `etcitem` SET `name` ='皮革' WHERE `item_id` = 1882;
-UPDATE `etcitem` SET `name` ='鐵鑄模' WHERE `item_id` = 1883;
-UPDATE `etcitem` SET `name` ='強化繩索' WHERE `item_id` = 1884;
-UPDATE `etcitem` SET `name` ='高級軟皮' WHERE `item_id` = 1885;
-UPDATE `etcitem` SET `name` ='銀鑄模' WHERE `item_id` = 1886;
-UPDATE `etcitem` SET `name` ='純化的研磨劑' WHERE `item_id` = 1887;
-UPDATE `etcitem` SET `name` ='合成的炭焦' WHERE `item_id` = 1888;
-UPDATE `etcitem` SET `name` ='合成的絞線' WHERE `item_id` = 1889;
-UPDATE `etcitem` SET `name` ='米索莉合金' WHERE `item_id` = 1890;
-UPDATE `etcitem` SET `name` ='工匠模具' WHERE `item_id` = 1891;
-UPDATE `etcitem` SET `name` ='鐵匠模具' WHERE `item_id` = 1892;
-UPDATE `etcitem` SET `name` ='奧里哈魯根' WHERE `item_id` = 1893;
-UPDATE `etcitem` SET `name` ='高級皮革' WHERE `item_id` = 1894;
-UPDATE `etcitem` SET `name` ='金屬纖維' WHERE `item_id` = 1895;
-UPDATE `etcitem` SET `name` ='幻滅項鍊的鍊子' WHERE `item_id` = 1896;
-UPDATE `etcitem` SET `name` ='智慧項鍊的鍊子' WHERE `item_id` = 1897;
-UPDATE `etcitem` SET `name` ='藍鑽項鍊的鍊子' WHERE `item_id` = 1898;
-UPDATE `etcitem` SET `name` ='奉獻項鍊的鍊子' WHERE `item_id` = 1899;
-UPDATE `etcitem` SET `name` ='魔力項鍊的鍊子' WHERE `item_id` = 1900;
-UPDATE `etcitem` SET `name` ='虎眼耳環的石頭' WHERE `item_id` = 1901;
-UPDATE `etcitem` SET `name` ='精靈耳環的珠子' WHERE `item_id` = 1902;
-UPDATE `etcitem` SET `name` ='精靈戒指的組件' WHERE `item_id` = 1903;
-UPDATE `etcitem` SET `name` ='精靈項鍊的珠子' WHERE `item_id` = 1904;
-UPDATE `etcitem` SET `name` ='瑪瑙獸眼耳環的寶石' WHERE `item_id` = 1905;
-UPDATE `etcitem` SET `name` ='米索莉戒指的金屬線' WHERE `item_id` = 1906;
-UPDATE `etcitem` SET `name` ='黑暗項鍊的寶石' WHERE `item_id` = 1907;
-UPDATE `etcitem` SET `name` ='月長石耳環的金屬線' WHERE `item_id` = 1908;
-UPDATE `etcitem` SET `name` ='水石戒指的金屬線' WHERE `item_id` = 1909;
-UPDATE `etcitem` SET `name` ='水石項鍊的鍊子' WHERE `item_id` = 1910;
-UPDATE `etcitem` SET `name` ='守護耳環的寶石' WHERE `item_id` = 1911;
-UPDATE `etcitem` SET `name` ='守護戒指的寶石' WHERE `item_id` = 1912;
-UPDATE `etcitem` SET `name` ='守護項鍊的寶石' WHERE `item_id` = 1913;
-UPDATE `etcitem` SET `name` ='封印耳環的寶石' WHERE `item_id` = 1914;
-UPDATE `etcitem` SET `name` ='永生戒指的寶石' WHERE `item_id` = 1915;
-UPDATE `etcitem` SET `name` ='人魚之淚的淚珠' WHERE `item_id` = 1916;
-UPDATE `etcitem` SET `name` ='賢者項鍊的鍊子' WHERE `item_id` = 1917;
-UPDATE `etcitem` SET `name` ='娜仙耳環的寶石' WHERE `item_id` = 1918;
-UPDATE `etcitem` SET `name` ='賢者戒指的寶石' WHERE `item_id` = 1919;
-UPDATE `etcitem` SET `name` ='封印項鍊的鍊子' WHERE `item_id` = 1920;
-UPDATE `etcitem` SET `name` ='皮鞋的材料' WHERE `item_id` = 1921;
-UPDATE `etcitem` SET `name` ='皮外衣的圖樣' WHERE `item_id` = 1922;
-UPDATE `etcitem` SET `name` ='皮長襪的圖樣' WHERE `item_id` = 1923;
-UPDATE `etcitem` SET `name` ='皮頭盔的組件' WHERE `item_id` = 1924;
-UPDATE `etcitem` SET `name` ='皮手套的材料' WHERE `item_id` = 1925;
-UPDATE `etcitem` SET `name` ='骨片胸甲的原料' WHERE `item_id` = 1926;
-UPDATE `etcitem` SET `name` ='硬皮襯衫的圖樣' WHERE `item_id` = 1927;
-UPDATE `etcitem` SET `name` ='骨片脛甲的原料' WHERE `item_id` = 1928;
-UPDATE `etcitem` SET `name` ='硬皮脛甲的材料' WHERE `item_id` = 1929;
-UPDATE `etcitem` SET `name` ='長靴的材料' WHERE `item_id` = 1930;
-UPDATE `etcitem` SET `name` ='皮靴的材料' WHERE `item_id` = 1931;
-UPDATE `etcitem` SET `name` ='骨頭盔的組件' WHERE `item_id` = 1932;
-UPDATE `etcitem` SET `name` ='黑暗長襪的布料' WHERE `item_id` = 1933;
-UPDATE `etcitem` SET `name` ='高級皮手套的材料' WHERE `item_id` = 1934;
-UPDATE `etcitem` SET `name` ='鱗甲的原料' WHERE `item_id` = 1935;
-UPDATE `etcitem` SET `name` ='純白外衣的圖樣' WHERE `item_id` = 1936;
-UPDATE `etcitem` SET `name` ='鱗脛甲的原料' WHERE `item_id` = 1937;
-UPDATE `etcitem` SET `name` ='米索莉板甲的原料' WHERE `item_id` = 1938;
-UPDATE `etcitem` SET `name` ='米索莉板脛甲的原料' WHERE `item_id` = 1939;
-UPDATE `etcitem` SET `name` ='鋼鐵靴的組件' WHERE `item_id` = 1940;
-UPDATE `etcitem` SET `name` ='鎖子甲的原料' WHERE `item_id` = 1941;
-UPDATE `etcitem` SET `name` ='刺尾獅皮襯衫的材料' WHERE `item_id` = 1942;
-UPDATE `etcitem` SET `name` ='刺尾獅皮脛甲的組件' WHERE `item_id` = 1943;
-UPDATE `etcitem` SET `name` ='米索莉外衣的布料' WHERE `item_id` = 1944;
-UPDATE `etcitem` SET `name` ='米索莉長襪的材料' WHERE `item_id` = 1945;
-UPDATE `etcitem` SET `name` ='安魂長手套的圖樣' WHERE `item_id` = 1946;
-UPDATE `etcitem` SET `name` ='鳶形盾的原料' WHERE `item_id` = 1947;
-UPDATE `etcitem` SET `name` ='力量靴的圖樣' WHERE `item_id` = 1948;
-UPDATE `etcitem` SET `name` ='米索莉手套的組件' WHERE `item_id` = 1949;
-UPDATE `etcitem` SET `name` ='半身盔甲的原料' WHERE `item_id` = 1950;
-UPDATE `etcitem` SET `name` ='金屬脛甲的原料' WHERE `item_id` = 1951;
-UPDATE `etcitem` SET `name` ='火蜥蜴皮甲的組件' WHERE `item_id` = 1952;
-UPDATE `etcitem` SET `name` ='賢者破衣的材料' WHERE `item_id` = 1953;
-UPDATE `etcitem` SET `name` ='卡勒米安長襪的圖樣' WHERE `item_id` = 1954;
-UPDATE `etcitem` SET `name` ='鎖鏈頭盔的組件' WHERE `item_id` = 1955;
-UPDATE `etcitem` SET `name` ='方盾的原料' WHERE `item_id` = 1956;
-UPDATE `etcitem` SET `name` ='襲擊靴的原料' WHERE `item_id` = 1957;
-UPDATE `etcitem` SET `name` ='強化米索莉靴的組件' WHERE `item_id` = 1958;
-UPDATE `etcitem` SET `name` ='鏈甲衫的原料' WHERE `item_id` = 1959;
-UPDATE `etcitem` SET `name` ='鏈脛甲的原料' WHERE `item_id` = 1960;
-UPDATE `etcitem` SET `name` ='強化米索莉襯衫的布料' WHERE `item_id` = 1961;
-UPDATE `etcitem` SET `name` ='卡勒米安外衣的圖樣' WHERE `item_id` = 1962;
-UPDATE `etcitem` SET `name` ='食人魔力量長手套的原料' WHERE `item_id` = 1963;
-UPDATE `etcitem` SET `name` ='厄達拉克塔盾的原料' WHERE `item_id` = 1964;
-UPDATE `etcitem` SET `name` ='金屬頭盔的原料' WHERE `item_id` = 1965;
-UPDATE `etcitem` SET `name` ='金屬皮甲的原料' WHERE `item_id` = 1966;
-UPDATE `etcitem` SET `name` ='金屬皮脛甲的原料' WHERE `item_id` = 1967;
-UPDATE `etcitem` SET `name` ='矮人鏈甲衫的原料' WHERE `item_id` = 1968;
-UPDATE `etcitem` SET `name` ='矮人鏈脛甲的原料' WHERE `item_id` = 1969;
-UPDATE `etcitem` SET `name` ='封印長袍的布料' WHERE `item_id` = 1970;
-UPDATE `etcitem` SET `name` ='巨型頭盔的原料' WHERE `item_id` = 1971;
-UPDATE `etcitem` SET `name` ='騎士盾的材料' WHERE `item_id` = 1972;
-UPDATE `etcitem` SET `name` ='帕格立歐之手的組件' WHERE `item_id` = 1973;
-UPDATE `etcitem` SET `name` ='緋紅靴的布料' WHERE `item_id` = 1974;
-UPDATE `etcitem` SET `name` ='覆皮皮甲的組件' WHERE `item_id` = 1975;
-UPDATE `etcitem` SET `name` ='覆皮脛甲的材料' WHERE `item_id` = 1976;
-UPDATE `etcitem` SET `name` ='合金盔甲的材料' WHERE `item_id` = 1977;
-UPDATE `etcitem` SET `name` ='塔盾的材料' WHERE `item_id` = 1978;
-UPDATE `etcitem` SET `name` ='惡魔外衣的布料' WHERE `item_id` = 1979;
-UPDATE `etcitem` SET `name` ='惡魔長襪的圖樣' WHERE `item_id` = 1980;
-UPDATE `etcitem` SET `name` ='米索莉長手套的組件' WHERE `item_id` = 1981;
-UPDATE `etcitem` SET `name` ='被遺忘的靴的圖樣' WHERE `item_id` = 1982;
-UPDATE `etcitem` SET `name` ='閃耀頭箍的圖樣' WHERE `item_id` = 1983;
-UPDATE `etcitem` SET `name` ='覆殼皮甲的圖樣' WHERE `item_id` = 1984;
-UPDATE `etcitem` SET `name` ='覆殼脛甲的材料' WHERE `item_id` = 1985;
-UPDATE `etcitem` SET `name` ='全身盔甲的原料' WHERE `item_id` = 1986;
-UPDATE `etcitem` SET `name` ='飛龍皮甲的材料' WHERE `item_id` = 1987;
-UPDATE `etcitem` SET `name` ='神聖外衣的布料' WHERE `item_id` = 1988;
-UPDATE `etcitem` SET `name` ='神聖長襪的圖樣' WHERE `item_id` = 1989;
-UPDATE `etcitem` SET `name` ='米索莉頭盔的圖樣' WHERE `item_id` = 1990;
-UPDATE `etcitem` SET `name` ='瑪那帽的圖樣' WHERE `item_id` = 1991;
-UPDATE `etcitem` SET `name` ='佩勒迪亞頭巾的原料' WHERE `item_id` = 1992;
-UPDATE `etcitem` SET `name` ='日蝕頭巾的材料' WHERE `item_id` = 1993;
-UPDATE `etcitem` SET `name` ='召喚頭巾的材料' WHERE `item_id` = 1994;
-UPDATE `etcitem` SET `name` ='元素頭巾的原料' WHERE `item_id` = 1995;
-UPDATE `etcitem` SET `name` ='恩寵頭巾的材料' WHERE `item_id` = 1996;
-UPDATE `etcitem` SET `name` ='不死鳥頭巾的原料' WHERE `item_id` = 1997;
-UPDATE `etcitem` SET `name` ='輔助頭巾的原料' WHERE `item_id` = 1998;
-UPDATE `etcitem` SET `name` ='火焰帽的組件' WHERE `item_id` = 1999;
-UPDATE `etcitem` SET `name` ='塔魯帽的組件' WHERE `item_id` = 2000;
-UPDATE `etcitem` SET `name` ='阿巴敦帽的組件' WHERE `item_id` = 2001;
-UPDATE `etcitem` SET `name` ='盟約帽的圖樣' WHERE `item_id` = 2002;
-UPDATE `etcitem` SET `name` ='死靈長手套的圖樣' WHERE `item_id` = 2003;
-UPDATE `etcitem` SET `name` ='金剛石靴的組件' WHERE `item_id` = 2004;
-UPDATE `etcitem` SET `name` ='寬劍的劍身' WHERE `item_id` = 2005;
-UPDATE `etcitem` SET `name` ='柳木魔杖的金屬塊' WHERE `item_id` = 2006;
-UPDATE `etcitem` SET `name` ='弓的金屬塊' WHERE `item_id` = 2007;
-UPDATE `etcitem` SET `name` ='柏木魔杖的金屬塊' WHERE `item_id` = 2008;
-UPDATE `etcitem` SET `name` ='短刀的刀身' WHERE `item_id` = 2009;
-UPDATE `etcitem` SET `name` ='刺擊刀的刀身' WHERE `item_id` = 2010;
-UPDATE `etcitem` SET `name` ='短矛刀身' WHERE `item_id` = 2011;
-UPDATE `etcitem` SET `name` ='反射劍的劍身' WHERE `item_id` = 2012;
-UPDATE `etcitem` SET `name` ='森林弓的柄' WHERE `item_id` = 2013;
-UPDATE `etcitem` SET `name` ='鋼鎚的金屬塊' WHERE `item_id` = 2014;
-UPDATE `etcitem` SET `name` ='碎劍者的劍身' WHERE `item_id` = 2015;
-UPDATE `etcitem` SET `name` ='合金弓的柄' WHERE `item_id` = 2016;
-UPDATE `etcitem` SET `name` ='軍刀的刀身' WHERE `item_id` = 2017;
-UPDATE `etcitem` SET `name` ='刺客刀的刀身' WHERE `item_id` = 2018;
-UPDATE `etcitem` SET `name` ='三叉戟的刀身' WHERE `item_id` = 2019;
-UPDATE `etcitem` SET `name` ='深淵誘惑組件' WHERE `item_id` = 2020;
-UPDATE `etcitem` SET `name` ='椎骨之劍的劍身' WHERE `item_id` = 2021;
-UPDATE `etcitem` SET `name` ='審判之鎚的刀身' WHERE `item_id` = 2022;
-UPDATE `etcitem` SET `name` ='法咒魔杖的金屬塊' WHERE `item_id` = 2023;
-UPDATE `etcitem` SET `name` ='精靈弓的柄' WHERE `item_id` = 2024;
-UPDATE `etcitem` SET `name` ='矮人三叉戟的刀身' WHERE `item_id` = 2025;
-UPDATE `etcitem` SET `name` ='雙手劍的劍身' WHERE `item_id` = 2026;
-UPDATE `etcitem` SET `name` ='狼牙棒的金屬塊' WHERE `item_id` = 2027;
-UPDATE `etcitem` SET `name` ='森林神之刀的刀身' WHERE `item_id` = 2028;
-UPDATE `etcitem` SET `name` ='腰弩的柄' WHERE `item_id` = 2029;
-UPDATE `etcitem` SET `name` ='染血卷冊組件' WHERE `item_id` = 2030;
-UPDATE `etcitem` SET `name` ='流星鎚的金屬塊' WHERE `item_id` = 2031;
-UPDATE `etcitem` SET `name` ='山羊頭之杖的金屬塊' WHERE `item_id` = 2032;
-UPDATE `etcitem` SET `name` ='翼之矛的刀身' WHERE `item_id` = 2033;
-UPDATE `etcitem` SET `name` ='革命劍的劍身' WHERE `item_id` = 2034;
-UPDATE `etcitem` SET `name` ='塔巴曲刃斧的金屬塊' WHERE `item_id` = 2035;
-UPDATE `etcitem` SET `name` ='頭顱破壞者的金屬塊' WHERE `item_id` = 2036;
-UPDATE `etcitem` SET `name` ='巨大骨棒的金屬塊' WHERE `item_id` = 2037;
-UPDATE `etcitem` SET `name` ='突刺刀的刀緣' WHERE `item_id` = 2038;
-UPDATE `etcitem` SET `name` ='拳套刀的刀緣' WHERE `item_id` = 2039;
-UPDATE `etcitem` SET `name` ='強化長弓的柄' WHERE `item_id` = 2040;
-UPDATE `etcitem` SET `name` ='火鎚的金屬塊' WHERE `item_id` = 2041;
-UPDATE `etcitem` SET `name` ='染血十字架的組件' WHERE `item_id` = 2042;
-UPDATE `etcitem` SET `name` ='無界之眼的石塊' WHERE `item_id` = 2043;
-UPDATE `etcitem` SET `name` ='受詛咒的突刺刀刀緣' WHERE `item_id` = 2044;
-UPDATE `etcitem` SET `name` ='藍色水晶骷髏的頭骨' WHERE `item_id` = 2045;
-UPDATE `etcitem` SET `name` ='惡魔尖牙的尖端' WHERE `item_id` = 2046;
-UPDATE `etcitem` SET `name` ='雙刃大砍刀的刀身' WHERE `item_id` = 2047;
-UPDATE `etcitem` SET `name` ='碎骨者的金屬塊' WHERE `item_id` = 2048;
-UPDATE `etcitem` SET `name` ='阿吐巴鎚的金屬塊' WHERE `item_id` = 2049;
-UPDATE `etcitem` SET `name` ='魂靈魔杖的金屬塊' WHERE `item_id` = 2050;
-UPDATE `etcitem` SET `name` ='生命手杖的柄' WHERE `item_id` = 2051;
-UPDATE `etcitem` SET `name` ='米索莉匕首的刀身' WHERE `item_id` = 2052;
-UPDATE `etcitem` SET `name` ='波浪刀的刀緣' WHERE `item_id` = 2053;
-UPDATE `etcitem` SET `name` ='風暴弓的柄' WHERE `item_id` = 2054;
-UPDATE `etcitem` SET `name` ='闊矛的刀身' WHERE `item_id` = 2055;
-UPDATE `etcitem` SET `name` ='金剛杵的模具' WHERE `item_id` = 2056;
-UPDATE `etcitem` SET `name` ='剩餘的古代藥水' WHERE `item_id` = 2057;
-UPDATE `etcitem` SET `name` ='阿吐巴釘鎚的金屬塊' WHERE `item_id` = 2058;
-UPDATE `etcitem` SET `name` ='焰形劍的劍身' WHERE `item_id` = 2059;
-UPDATE `etcitem` SET `name` ='暴風之劍的劍身' WHERE `item_id` = 2060;
-UPDATE `etcitem` SET `name` ='重鎚的金屬塊' WHERE `item_id` = 2061;
-UPDATE `etcitem` SET `name` ='大鐮刀的刀緣' WHERE `item_id` = 2062;
-UPDATE `etcitem` SET `name` ='戰斧的金屬塊' WHERE `item_id` = 2063;
-UPDATE `etcitem` SET `name` ='戰錐的金屬塊' WHERE `item_id` = 2064;
-UPDATE `etcitem` SET `name` ='顱骨雕刻者的金屬塊' WHERE `item_id` = 2065;
-UPDATE `etcitem` SET `name` ='巨大末日鎚的金屬塊' WHERE `item_id` = 2066;
-UPDATE `etcitem` SET `name` ='水晶魔杖的金屬塊' WHERE `item_id` = 2067;
-UPDATE `etcitem` SET `name` ='信仰手杖的柄' WHERE `item_id` = 2068;
-UPDATE `etcitem` SET `name` ='巨大末日斧的刀身' WHERE `item_id` = 2069;
-UPDATE `etcitem` SET `name` ='受詛咒匕首的刀身' WHERE `item_id` = 2070;
-UPDATE `etcitem` SET `name` ='狼之針的刀緣' WHERE `item_id` = 2071;
-UPDATE `etcitem` SET `name` ='黑暗精靈匕首的刀緣' WHERE `item_id` = 2072;
-UPDATE `etcitem` SET `name` ='圓月輪的刀緣' WHERE `item_id` = 2073;
-UPDATE `etcitem` SET `name` ='冰晶弓的柄' WHERE `item_id` = 2074;
-UPDATE `etcitem` SET `name` ='歐西斯闊矛的刀身' WHERE `item_id` = 2075;
-UPDATE `etcitem` SET `name` ='殺戮者的刀身' WHERE `item_id` = 2076;
-UPDATE `etcitem` SET `name` ='彎刀的刀身' WHERE `item_id` = 2077;
-UPDATE `etcitem` SET `name` ='武士刀的刀身' WHERE `item_id` = 2078;
-UPDATE `etcitem` SET `name` ='貝卡合金的刀身' WHERE `item_id` = 2079;
-UPDATE `etcitem` SET `name` ='靈魂之劍的劍身' WHERE `item_id` = 2080;
-UPDATE `etcitem` SET `name` ='襲擊劍的劍身' WHERE `item_id` = 2081;
-UPDATE `etcitem` SET `name` ='受詛咒魔杖的金屬塊' WHERE `item_id` = 2082;
-UPDATE `etcitem` SET `name` ='袖珍刀的刀身' WHERE `item_id` = 2083;
-UPDATE `etcitem` SET `name` ='魔炎匕首的刀身' WHERE `item_id` = 2084;
-UPDATE `etcitem` SET `name` ='元素弓的柄' WHERE `item_id` = 2085;
-UPDATE `etcitem` SET `name` ='高級精靈弓的金屬塊' WHERE `item_id` = 2086;
-UPDATE `etcitem` SET `name` ='精靈之淚的淚珠' WHERE `item_id` = 2087;
-UPDATE `etcitem` SET `name` ='榮譽號角的碎片' WHERE `item_id` = 2088;
-UPDATE `etcitem` SET `name` ='卡里埔士劍的劍身' WHERE `item_id` = 2089;
-UPDATE `etcitem` SET `name` ='迷惑之劍的劍身' WHERE `item_id` = 2090;
-UPDATE `etcitem` SET `name` ='大和劍的劍身' WHERE `item_id` = 2091;
-UPDATE `etcitem` SET `name` ='何門奎思之劍的劍身' WHERE `item_id` = 2092;
-UPDATE `etcitem` SET `name` ='長柄戰斧的刀身' WHERE `item_id` = 2093;
-UPDATE `etcitem` SET `name` ='極限之劍的劍身' WHERE `item_id` = 2094;
-UPDATE `etcitem` SET `name` ='夢魘劍的劍身' WHERE `item_id` = 2095;
-UPDATE `etcitem` SET `name` ='死息之劍的劍身' WHERE `item_id` = 2096;
-UPDATE `etcitem` SET `name` ='巨戰斧的刀身' WHERE `item_id` = 2097;
-UPDATE `etcitem` SET `name` ='夢想斧的刀身' WHERE `item_id` = 2098;
-UPDATE `etcitem` SET `name` ='永恆手杖的金屬塊' WHERE `item_id` = 2099;
-UPDATE `etcitem` SET `name` ='佩勒迪亞魔杖的金屬塊' WHERE `item_id` = 2100;
-UPDATE `etcitem` SET `name` ='地獄魔杖的金屬塊' WHERE `item_id` = 2101;
-UPDATE `etcitem` SET `name` ='帕格立歐之鎚的金屬塊' WHERE `item_id` = 2102;
-UPDATE `etcitem` SET `name` ='賢者魔杖的金屬塊' WHERE `item_id` = 2103;
-UPDATE `etcitem` SET `name` ='自然之棍的金屬塊' WHERE `item_id` = 2104;
-UPDATE `etcitem` SET `name` ='煉獄之鎚的金屬塊' WHERE `item_id` = 2105;
-UPDATE `etcitem` SET `name` ='優雅匕首的刀身' WHERE `item_id` = 2106;
-UPDATE `etcitem` SET `name` ='黑暗狂嘯者的刀身' WHERE `item_id` = 2107;
-UPDATE `etcitem` SET `name` ='拳刃的刀身' WHERE `item_id` = 2108;
-UPDATE `etcitem` SET `name` ='阿卡特長弓的柄' WHERE `item_id` = 2109;
-UPDATE `etcitem` SET `name` ='異教徒之書組件' WHERE `item_id` = 2110;
-UPDATE `etcitem` SET `name` ='詛咒人偶的碎片' WHERE `item_id` = 2111;
-UPDATE `etcitem` SET `name` ='帕格立歐之斧的刀身' WHERE `item_id` = 2112;
-UPDATE `etcitem` SET `name` ='蠍子的刀身' WHERE `item_id` = 2113;
-UPDATE `etcitem` SET `name` ='黑寡婦的金屬塊' WHERE `item_id` = 2114;
-UPDATE `etcitem` SET `name` ='瑟魯基長劍的劍身' WHERE `item_id` = 2115;
-UPDATE `etcitem` SET `name` ='亡者魔杖的金屬塊' WHERE `item_id` = 2116;
-UPDATE `etcitem` SET `name` ='食屍鬼魔杖的金屬塊' WHERE `item_id` = 2117;
-UPDATE `etcitem` SET `name` ='惡魔魔杖的金屬塊' WHERE `item_id` = 2118;
-UPDATE `etcitem` SET `name` ='水晶匕首的刀身' WHERE `item_id` = 2119;
-UPDATE `etcitem` SET `name` ='巨型帕塔拳刃的刀身' WHERE `item_id` = 2120;
-UPDATE `etcitem` SET `name` ='卓越弓的柄' WHERE `item_id` = 2121;
-UPDATE `etcitem` SET `name` ='歐西斯戰斧的刀身' WHERE `item_id` = 2122;
-UPDATE `etcitem` SET `name` ='智慧蠟燭的模型' WHERE `item_id` = 2123;
-UPDATE `etcitem` SET `name` ='受祝福的樹枝碎片' WHERE `item_id` = 2124;
-UPDATE `etcitem` SET `name` ='不死鳥羽毛片' WHERE `item_id` = 2125;
-UPDATE `etcitem` SET `name` ='地獄犬之眼的碎片' WHERE `item_id` = 2126;
-UPDATE `etcitem` SET `name` ='毀滅卷軸之頁' WHERE `item_id` = 2127;
-UPDATE `etcitem` SET `name` ='黑龍爪的尖端' WHERE `item_id` = 2128;
-UPDATE `etcitem` SET `name` ='少許的三眼烏鴉羽毛' WHERE `item_id` = 2129;
-UPDATE `etcitem` SET `name` ='寶石-D級' WHERE `item_id` = 2130;
-UPDATE `etcitem` SET `name` ='寶石-C級' WHERE `item_id` = 2131;
-UPDATE `etcitem` SET `name` ='寶石-B級' WHERE `item_id` = 2132;
-UPDATE `etcitem` SET `name` ='寶石-A級' WHERE `item_id` = 2133;
-UPDATE `etcitem` SET `name` ='寶石-S級' WHERE `item_id` = 2134;
-UPDATE `etcitem` SET `name` ='製作卷軸(絞線100%)' WHERE `item_id` = 2135;
-UPDATE `etcitem` SET `name` ='製作卷軸(炭焦100%)' WHERE `item_id` = 2136;
-UPDATE `etcitem` SET `name` ='製作卷軸(鐵100%)' WHERE `item_id` = 2137;
-UPDATE `etcitem` SET `name` ='製作卷軸(顆粒狀的骨粉100%)' WHERE `item_id` = 2138;
-UPDATE `etcitem` SET `name` ='製作卷軸(鐵鑄模100%)' WHERE `item_id` = 2139;
-UPDATE `etcitem` SET `name` ='製作卷軸(高級軟皮100%)' WHERE `item_id` = 2140;
-UPDATE `etcitem` SET `name` ='製作卷軸(銀鑄模100%)' WHERE `item_id` = 2141;
-UPDATE `etcitem` SET `name` ='製作卷軸(純化的研磨劑100%)' WHERE `item_id` = 2142;
-UPDATE `etcitem` SET `name` ='製作卷軸(合成的炭焦100%)' WHERE `item_id` = 2143;
-UPDATE `etcitem` SET `name` ='製作卷軸(合成的絞線100%)' WHERE `item_id` = 2144;
-UPDATE `etcitem` SET `name` ='製作卷軸(米索莉合金100%)' WHERE `item_id` = 2145;
-UPDATE `etcitem` SET `name` ='製作卷軸(工匠模具100%)' WHERE `item_id` = 2146;
-UPDATE `etcitem` SET `name` ='製作卷軸(鐵匠模具100%)' WHERE `item_id` = 2147;
-UPDATE `etcitem` SET `name` ='製作卷軸(高級皮革100%)' WHERE `item_id` = 2148;
-UPDATE `etcitem` SET `name` ='製作卷軸(金屬纖維100%)' WHERE `item_id` = 2149;
-UPDATE `etcitem` SET `name` ='製作卷軸(藍鑽項鍊100%)' WHERE `item_id` = 2150;
-UPDATE `etcitem` SET `name` ='製作卷軸(奉獻項鍊100%)' WHERE `item_id` = 2151;
-UPDATE `etcitem` SET `name` ='製作卷軸(魔力項鍊100%)' WHERE `item_id` = 2152;
-UPDATE `etcitem` SET `name` ='製作卷軸(虎眼耳環100%)' WHERE `item_id` = 2153;
-UPDATE `etcitem` SET `name` ='製作卷軸(精靈耳環100%)' WHERE `item_id` = 2154;
-UPDATE `etcitem` SET `name` ='製作卷軸(精靈戒指100%)' WHERE `item_id` = 2155;
-UPDATE `etcitem` SET `name` ='製作卷軸(精靈項鍊100%)' WHERE `item_id` = 2156;
-UPDATE `etcitem` SET `name` ='製作卷軸(瑪瑙獸眼耳環100%)' WHERE `item_id` = 2157;
-UPDATE `etcitem` SET `name` ='製作卷軸(米索莉戒指100%)' WHERE `item_id` = 2158;
-UPDATE `etcitem` SET `name` ='製作卷軸(黑暗項鍊100%)' WHERE `item_id` = 2159;
-UPDATE `etcitem` SET `name` ='製作卷軸(月長石耳環100%)' WHERE `item_id` = 2160;
-UPDATE `etcitem` SET `name` ='製作卷軸(水石戒指100%)' WHERE `item_id` = 2161;
-UPDATE `etcitem` SET `name` ='製作卷軸(水石項鍊100%)' WHERE `item_id` = 2162;
-UPDATE `etcitem` SET `name` ='製作卷軸(守護耳環100%)' WHERE `item_id` = 2163;
-UPDATE `etcitem` SET `name` ='製作卷軸(守護戒指100%)' WHERE `item_id` = 2164;
-UPDATE `etcitem` SET `name` ='製作卷軸(守護項鍊100%)' WHERE `item_id` = 2165;
-UPDATE `etcitem` SET `name` ='製作卷軸(封印耳環100%)' WHERE `item_id` = 2166;
-UPDATE `etcitem` SET `name` ='製作卷軸(永生戒指100%)' WHERE `item_id` = 2167;
-UPDATE `etcitem` SET `name` ='製作卷軸(人魚之淚100%)' WHERE `item_id` = 2168;
-UPDATE `etcitem` SET `name` ='製作卷軸(封印項鍊100%)' WHERE `item_id` = 2169;
-UPDATE `etcitem` SET `name` ='製作卷軸(娜仙耳環100%)' WHERE `item_id` = 2170;
-UPDATE `etcitem` SET `name` ='製作卷軸((賢者戒指100%)' WHERE `item_id` = 2171;
-UPDATE `etcitem` SET `name` ='製作卷軸(賢者項鍊100%)' WHERE `item_id` = 2172;
-UPDATE `etcitem` SET `name` ='製作卷軸(硬皮襯衫100%)' WHERE `item_id` = 2173;
-UPDATE `etcitem` SET `name` ='製作卷軸(硬皮脛甲100%)' WHERE `item_id` = 2174;
-UPDATE `etcitem` SET `name` ='製作卷軸(長靴100%)' WHERE `item_id` = 2175;
-UPDATE `etcitem` SET `name` ='製作卷軸(皮靴100%)' WHERE `item_id` = 2176;
-UPDATE `etcitem` SET `name` ='製作卷軸(骨頭盔100%)' WHERE `item_id` = 2177;
-UPDATE `etcitem` SET `name` ='製作卷軸(黑暗長襪100%)' WHERE `item_id` = 2178;
-UPDATE `etcitem` SET `name` ='製作卷軸(高級皮手套100%)' WHERE `item_id` = 2179;
-UPDATE `etcitem` SET `name` ='製作卷軸(鱗甲100%)' WHERE `item_id` = 2180;
-UPDATE `etcitem` SET `name` ='製作卷軸(純白外衣100%)' WHERE `item_id` = 2181;
-UPDATE `etcitem` SET `name` ='製作卷軸(鱗脛甲100%)' WHERE `item_id` = 2182;
-UPDATE `etcitem` SET `name` ='製作卷軸(米索莉板甲100%)' WHERE `item_id` = 2183;
-UPDATE `etcitem` SET `name` ='製作卷軸(米索莉板脛甲100%)' WHERE `item_id` = 2184;
-UPDATE `etcitem` SET `name` ='製作卷軸(鋼鐵靴100%)' WHERE `item_id` = 2185;
-UPDATE `etcitem` SET `name` ='製作卷軸(鎖子甲100%)' WHERE `item_id` = 2186;
-UPDATE `etcitem` SET `name` ='製作卷軸(刺尾獅皮襯衫100%)' WHERE `item_id` = 2187;
-UPDATE `etcitem` SET `name` ='製作卷軸(刺尾獅皮脛甲100%)' WHERE `item_id` = 2188;
-UPDATE `etcitem` SET `name` ='製作卷軸(米索莉外衣100%)' WHERE `item_id` = 2189;
-UPDATE `etcitem` SET `name` ='製作卷軸(米索莉長襪100%)' WHERE `item_id` = 2190;
-UPDATE `etcitem` SET `name` ='製作卷軸(安魂長手套100%)' WHERE `item_id` = 2191;
-UPDATE `etcitem` SET `name` ='製作卷軸(鳶形盾100%)' WHERE `item_id` = 2192;
-UPDATE `etcitem` SET `name` ='製作卷軸(力量靴100%)' WHERE `item_id` = 2193;
-UPDATE `etcitem` SET `name` ='製作卷軸(米索莉手套100%)' WHERE `item_id` = 2194;
-UPDATE `etcitem` SET `name` ='製作卷軸(半身盔甲100%)' WHERE `item_id` = 2195;
-UPDATE `etcitem` SET `name` ='製作卷軸(金屬脛甲100%)' WHERE `item_id` = 2196;
-UPDATE `etcitem` SET `name` ='製作卷軸(火蜥蜴皮甲100%)' WHERE `item_id` = 2197;
-UPDATE `etcitem` SET `name` ='製作卷軸(賢者的破衣100%)' WHERE `item_id` = 2198;
-UPDATE `etcitem` SET `name` ='製作卷軸(卡勒米安長襪100%)' WHERE `item_id` = 2199;
-UPDATE `etcitem` SET `name` ='製作卷軸(鎖鏈頭盔100%)' WHERE `item_id` = 2200;
-UPDATE `etcitem` SET `name` ='製作卷軸(方盾100%)' WHERE `item_id` = 2201;
-UPDATE `etcitem` SET `name` ='製作卷軸(襲擊靴100%)' WHERE `item_id` = 2202;
-UPDATE `etcitem` SET `name` ='製作卷軸(強化米索莉靴100%)' WHERE `item_id` = 2203;
-UPDATE `etcitem` SET `name` ='製作卷軸(鏈甲衫100%)' WHERE `item_id` = 2204;
-UPDATE `etcitem` SET `name` ='製作卷軸(鏈脛甲100%)' WHERE `item_id` = 2205;
-UPDATE `etcitem` SET `name` ='製作卷軸(強化米索莉襯衫100%)' WHERE `item_id` = 2206;
-UPDATE `etcitem` SET `name` ='製作卷軸(卡勒米安外衣100%)' WHERE `item_id` = 2207;
-UPDATE `etcitem` SET `name` ='製作卷軸(食人魔力量長手套100%)' WHERE `item_id` = 2208;
-UPDATE `etcitem` SET `name` ='製作卷軸(厄達拉克塔盾100%)' WHERE `item_id` = 2209;
-UPDATE `etcitem` SET `name` ='製作卷軸(金屬頭盔100%)' WHERE `item_id` = 2210;
-UPDATE `etcitem` SET `name` ='製作卷軸(金屬皮甲100%)' WHERE `item_id` = 2211;
-UPDATE `etcitem` SET `name` ='製作卷軸(金屬皮脛甲100%)' WHERE `item_id` = 2212;
-UPDATE `etcitem` SET `name` ='製作卷軸(矮人鏈甲衫100%)' WHERE `item_id` = 2213;
-UPDATE `etcitem` SET `name` ='製作卷軸(矮人鏈脛甲100%)' WHERE `item_id` = 2214;
-UPDATE `etcitem` SET `name` ='製作卷軸(封印長袍100%)' WHERE `item_id` = 2215;
-UPDATE `etcitem` SET `name` ='製作卷軸(巨型頭盔100%)' WHERE `item_id` = 2216;
-UPDATE `etcitem` SET `name` ='製作卷軸(騎士盾100%)' WHERE `item_id` = 2217;
-UPDATE `etcitem` SET `name` ='製作卷軸(帕格立歐之手100%)' WHERE `item_id` = 2218;
-UPDATE `etcitem` SET `name` ='製作卷軸(緋紅靴100%)' WHERE `item_id` = 2219;
-UPDATE `etcitem` SET `name` ='製作卷軸(覆皮皮甲100%)' WHERE `item_id` = 2220;
-UPDATE `etcitem` SET `name` ='製作卷軸(覆皮脛甲100%)' WHERE `item_id` = 2221;
-UPDATE `etcitem` SET `name` ='製作卷軸(合金盔甲100%)' WHERE `item_id` = 2222;
-UPDATE `etcitem` SET `name` ='製作卷軸(塔盾100%)' WHERE `item_id` = 2223;
-UPDATE `etcitem` SET `name` ='製作卷軸(惡魔外衣100%)' WHERE `item_id` = 2224;
-UPDATE `etcitem` SET `name` ='製作卷軸(惡魔長襪100%)' WHERE `item_id` = 2225;
-UPDATE `etcitem` SET `name` ='製作卷軸(米索莉長手套100%)' WHERE `item_id` = 2226;
-UPDATE `etcitem` SET `name` ='製作卷軸(被遺忘的靴100%)' WHERE `item_id` = 2227;
-UPDATE `etcitem` SET `name` ='製作卷軸(閃耀頭箍100%)' WHERE `item_id` = 2228;
-UPDATE `etcitem` SET `name` ='製作卷軸(覆殼皮甲100%)' WHERE `item_id` = 2229;
-UPDATE `etcitem` SET `name` ='製作卷軸(覆殼脛甲100%)' WHERE `item_id` = 2230;
-UPDATE `etcitem` SET `name` ='製作卷軸(全身盔甲100%)' WHERE `item_id` = 2231;
-UPDATE `etcitem` SET `name` ='製作卷軸(飛龍皮甲100%)' WHERE `item_id` = 2232;
-UPDATE `etcitem` SET `name` ='製作卷軸(神聖外衣100%)' WHERE `item_id` = 2233;
-UPDATE `etcitem` SET `name` ='製作卷軸(神聖長襪100%)' WHERE `item_id` = 2234;
-UPDATE `etcitem` SET `name` ='製作卷軸(米索莉頭盔100%)' WHERE `item_id` = 2235;
-UPDATE `etcitem` SET `name` ='製作卷軸(瑪那帽100%)' WHERE `item_id` = 2236;
-UPDATE `etcitem` SET `name` ='製作卷軸(佩勒迪亞頭巾100%)' WHERE `item_id` = 2237;
-UPDATE `etcitem` SET `name` ='製作卷軸(日蝕頭巾100%)' WHERE `item_id` = 2238;
-UPDATE `etcitem` SET `name` ='製作卷軸(召喚頭巾100%)' WHERE `item_id` = 2239;
-UPDATE `etcitem` SET `name` ='製作卷軸(元素頭巾100%)' WHERE `item_id` = 2240;
-UPDATE `etcitem` SET `name` ='製作卷軸(恩寵頭巾100%)' WHERE `item_id` = 2241;
-UPDATE `etcitem` SET `name` ='製作卷軸(不死鳥頭巾100%)' WHERE `item_id` = 2242;
-UPDATE `etcitem` SET `name` ='製作卷軸(輔助頭巾100%)' WHERE `item_id` = 2243;
-UPDATE `etcitem` SET `name` ='製作卷軸(火焰帽100%)' WHERE `item_id` = 2244;
-UPDATE `etcitem` SET `name` ='製作卷軸(塔魯帽100%)' WHERE `item_id` = 2245;
-UPDATE `etcitem` SET `name` ='製作卷軸(阿巴敦帽100%)' WHERE `item_id` = 2246;
-UPDATE `etcitem` SET `name` ='製作卷軸(盟約帽100%)' WHERE `item_id` = 2247;
-UPDATE `etcitem` SET `name` ='製作卷軸(死靈長手套100%)' WHERE `item_id` = 2248;
-UPDATE `etcitem` SET `name` ='製作卷軸(金剛石靴100%)' WHERE `item_id` = 2249;
-UPDATE `etcitem` SET `name` ='製作卷軸(骨箭100%)' WHERE `item_id` = 2250;
-UPDATE `etcitem` SET `name` ='製作卷軸(鐵箭100%)' WHERE `item_id` = 2251;
-UPDATE `etcitem` SET `name` ='製作卷軸(鋼鎚100%)' WHERE `item_id` = 2252;
-UPDATE `etcitem` SET `name` ='製作卷軸(碎劍者100%)' WHERE `item_id` = 2253;
-UPDATE `etcitem` SET `name` ='製作卷軸(合金弓100%)' WHERE `item_id` = 2254;
-UPDATE `etcitem` SET `name` ='製作卷軸(軍刀100%)' WHERE `item_id` = 2255;
-UPDATE `etcitem` SET `name` ='製作卷軸(刺客刀100%)' WHERE `item_id` = 2256;
-UPDATE `etcitem` SET `name` ='製作卷軸(三叉戟100%)' WHERE `item_id` = 2257;
-UPDATE `etcitem` SET `name` ='製作卷軸(深淵誘惑100%)' WHERE `item_id` = 2258;
-UPDATE `etcitem` SET `name` ='製作卷軸(椎骨之劍100%)' WHERE `item_id` = 2259;
-UPDATE `etcitem` SET `name` ='製作卷軸(審判之鎚100%)' WHERE `item_id` = 2260;
-UPDATE `etcitem` SET `name` ='製作卷軸(法咒魔杖100%)' WHERE `item_id` = 2261;
-UPDATE `etcitem` SET `name` ='製作卷軸(精靈弓100%)' WHERE `item_id` = 2262;
-UPDATE `etcitem` SET `name` ='製作卷軸(矮人三叉戟100%)' WHERE `item_id` = 2263;
-UPDATE `etcitem` SET `name` ='製作卷軸(雙手劍100%)' WHERE `item_id` = 2264;
-UPDATE `etcitem` SET `name` ='製作卷軸(狼牙棒100%)' WHERE `item_id` = 2265;
-UPDATE `etcitem` SET `name` ='製作卷軸(森林神之刀100%)' WHERE `item_id` = 2266;
-UPDATE `etcitem` SET `name` ='製作卷軸(腰弩100%)' WHERE `item_id` = 2267;
-UPDATE `etcitem` SET `name` ='製作卷軸(染血卷冊100%)' WHERE `item_id` = 2268;
-UPDATE `etcitem` SET `name` ='製作卷軸(流星鎚100%)' WHERE `item_id` = 2269;
-UPDATE `etcitem` SET `name` ='製作卷軸(山羊頭之杖100%)' WHERE `item_id` = 2270;
-UPDATE `etcitem` SET `name` ='製作卷軸(翼之矛100%)' WHERE `item_id` = 2271;
-UPDATE `etcitem` SET `name` ='製作卷軸(革命劍100%)' WHERE `item_id` = 2272;
-UPDATE `etcitem` SET `name` ='製作卷軸(塔巴曲刃斧100%)' WHERE `item_id` = 2273;
-UPDATE `etcitem` SET `name` ='製作卷軸(頭顱破壞者100%)' WHERE `item_id` = 2274;
-UPDATE `etcitem` SET `name` ='製作卷軸(巨大骨棒100%)' WHERE `item_id` = 2275;
-UPDATE `etcitem` SET `name` ='製作卷軸(突刺刀100%)' WHERE `item_id` = 2276;
-UPDATE `etcitem` SET `name` ='製作卷軸(拳套刀100%)' WHERE `item_id` = 2277;
-UPDATE `etcitem` SET `name` ='製作卷軸(強化長弓100%)' WHERE `item_id` = 2278;
-UPDATE `etcitem` SET `name` ='製作卷軸(火鎚100%)' WHERE `item_id` = 2279;
-UPDATE `etcitem` SET `name` ='製作卷軸(染血十字架100%)' WHERE `item_id` = 2280;
-UPDATE `etcitem` SET `name` ='製作卷軸(無界之眼100%)' WHERE `item_id` = 2281;
-UPDATE `etcitem` SET `name` ='製作卷軸(受詛咒的突刺刀100%)' WHERE `item_id` = 2282;
-UPDATE `etcitem` SET `name` ='製作卷軸(藍色水晶骷髏100%)' WHERE `item_id` = 2283;
-UPDATE `etcitem` SET `name` ='製作卷軸(惡魔尖牙100%)' WHERE `item_id` = 2284;
-UPDATE `etcitem` SET `name` ='製作卷軸(雙刃大砍刀100%)' WHERE `item_id` = 2285;
-UPDATE `etcitem` SET `name` ='製作卷軸(碎骨者100%)' WHERE `item_id` = 2286;
-UPDATE `etcitem` SET `name` ='製作卷軸(阿吐巴鎚100%)' WHERE `item_id` = 2287;
-UPDATE `etcitem` SET `name` ='製作卷軸(魂靈魔杖100%)' WHERE `item_id` = 2288;
-UPDATE `etcitem` SET `name` ='製作卷軸(生命手杖100%)' WHERE `item_id` = 2289;
-UPDATE `etcitem` SET `name` ='製作卷軸(米索莉匕首100%)' WHERE `item_id` = 2290;
-UPDATE `etcitem` SET `name` ='製作卷軸(波浪刀100%)' WHERE `item_id` = 2291;
-UPDATE `etcitem` SET `name` ='製作卷軸(風暴弓100%)' WHERE `item_id` = 2292;
-UPDATE `etcitem` SET `name` ='製作卷軸(闊矛100%)' WHERE `item_id` = 2293;
-UPDATE `etcitem` SET `name` ='製作卷軸(金剛杵100%)' WHERE `item_id` = 2294;
-UPDATE `etcitem` SET `name` ='製作卷軸(古代藥水100%)' WHERE `item_id` = 2295;
-UPDATE `etcitem` SET `name` ='製作卷軸(阿吐巴釘鎚100%)' WHERE `item_id` = 2296;
-UPDATE `etcitem` SET `name` ='製作卷軸(焰形劍100%)' WHERE `item_id` = 2297;
-UPDATE `etcitem` SET `name` ='製作卷軸(暴風之劍100%)' WHERE `item_id` = 2298;
-UPDATE `etcitem` SET `name` ='製作卷軸(重鎚100%)' WHERE `item_id` = 2299;
-UPDATE `etcitem` SET `name` ='製作卷軸(大鐮刀100%)' WHERE `item_id` = 2300;
-UPDATE `etcitem` SET `name` ='製作卷軸(戰斧100%)' WHERE `item_id` = 2301;
-UPDATE `etcitem` SET `name` ='製作卷軸(戰錐100%)' WHERE `item_id` = 2302;
-UPDATE `etcitem` SET `name` ='製作卷軸(顱骨雕刻者100%)' WHERE `item_id` = 2303;
-UPDATE `etcitem` SET `name` ='製作卷軸(巨大末日鎚100%)' WHERE `item_id` = 2304;
-UPDATE `etcitem` SET `name` ='製作卷軸(水晶魔杖100%)' WHERE `item_id` = 2305;
-UPDATE `etcitem` SET `name` ='製作卷軸(信仰手杖100%)' WHERE `item_id` = 2306;
-UPDATE `etcitem` SET `name` ='製作卷軸(巨大末日斧100%)' WHERE `item_id` = 2307;
-UPDATE `etcitem` SET `name` ='製作卷軸(受詛咒的匕首100%)' WHERE `item_id` = 2308;
-UPDATE `etcitem` SET `name` ='製作卷軸(狼之針100%)' WHERE `item_id` = 2309;
-UPDATE `etcitem` SET `name` ='製作卷軸(黑暗精靈匕首100%)' WHERE `item_id` = 2310;
-UPDATE `etcitem` SET `name` ='製作卷軸(圓月輪100%)' WHERE `item_id` = 2311;
-UPDATE `etcitem` SET `name` ='製作卷軸(冰晶弓100%)' WHERE `item_id` = 2312;
-UPDATE `etcitem` SET `name` ='製作卷軸(歐西斯闊矛100%)' WHERE `item_id` = 2313;
-UPDATE `etcitem` SET `name` ='製作卷軸(殺戮者100%)' WHERE `item_id` = 2314;
-UPDATE `etcitem` SET `name` ='製作卷軸(彎刀100%)' WHERE `item_id` = 2315;
-UPDATE `etcitem` SET `name` ='製作卷軸(武士刀100%)' WHERE `item_id` = 2316;
-UPDATE `etcitem` SET `name` ='製作卷軸(貝卡合金100%)' WHERE `item_id` = 2317;
-UPDATE `etcitem` SET `name` ='製作卷軸(靈魂之劍100%)' WHERE `item_id` = 2318;
-UPDATE `etcitem` SET `name` ='製作卷軸(襲擊劍100%)' WHERE `item_id` = 2319;
-UPDATE `etcitem` SET `name` ='製作卷軸(受詛咒的魔杖100%)' WHERE `item_id` = 2320;
-UPDATE `etcitem` SET `name` ='製作卷軸(袖珍刀100%)' WHERE `item_id` = 2321;
-UPDATE `etcitem` SET `name` ='製作卷軸(魔炎匕首100%)' WHERE `item_id` = 2322;
-UPDATE `etcitem` SET `name` ='製作卷軸(元素弓100%)' WHERE `item_id` = 2323;
-UPDATE `etcitem` SET `name` ='製作卷軸(高級精靈弓100%)' WHERE `item_id` = 2324;
-UPDATE `etcitem` SET `name` ='製作卷軸(精靈之淚100%)' WHERE `item_id` = 2325;
-UPDATE `etcitem` SET `name` ='製作卷軸(榮譽號角100%)' WHERE `item_id` = 2326;
-UPDATE `etcitem` SET `name` ='製作卷軸(卡里埔士劍100%)' WHERE `item_id` = 2327;
-UPDATE `etcitem` SET `name` ='製作卷軸(迷惑之劍100%)' WHERE `item_id` = 2328;
-UPDATE `etcitem` SET `name` ='製作卷軸(大和劍100%)' WHERE `item_id` = 2329;
-UPDATE `etcitem` SET `name` ='製作卷軸(何門奎思之劍100%)' WHERE `item_id` = 2330;
-UPDATE `etcitem` SET `name` ='製作卷軸(長柄戰斧100%)' WHERE `item_id` = 2331;
-UPDATE `etcitem` SET `name` ='製作卷軸(極限之劍100%)' WHERE `item_id` = 2332;
-UPDATE `etcitem` SET `name` ='製作卷軸(夢魘劍100%)' WHERE `item_id` = 2333;
-UPDATE `etcitem` SET `name` ='製作卷軸(死息之劍100%)' WHERE `item_id` = 2334;
-UPDATE `etcitem` SET `name` ='製作卷軸(巨戰斧100%)' WHERE `item_id` = 2335;
-UPDATE `etcitem` SET `name` ='製作卷軸(夢想斧100%)' WHERE `item_id` = 2336;
-UPDATE `etcitem` SET `name` ='製作卷軸(永恆手杖100%)' WHERE `item_id` = 2337;
-UPDATE `etcitem` SET `name` ='製作卷軸(佩勒迪亞魔杖100%)' WHERE `item_id` = 2338;
-UPDATE `etcitem` SET `name` ='製作卷軸(地獄魔杖100%)' WHERE `item_id` = 2339;
-UPDATE `etcitem` SET `name` ='製作卷軸(帕格立歐之鎚100%)' WHERE `item_id` = 2340;
-UPDATE `etcitem` SET `name` ='製作卷軸(賢者魔杖100%)' WHERE `item_id` = 2341;
-UPDATE `etcitem` SET `name` ='製作卷軸(自然之棍100%)' WHERE `item_id` = 2342;
-UPDATE `etcitem` SET `name` ='製作卷軸(煉獄之鎚100%)' WHERE `item_id` = 2343;
-UPDATE `etcitem` SET `name` ='製作卷軸(優雅匕首100%)' WHERE `item_id` = 2344;
-UPDATE `etcitem` SET `name` ='製作卷軸(黑暗狂嘯者100%)' WHERE `item_id` = 2345;
-UPDATE `etcitem` SET `name` ='製作卷軸(拳刃100%)' WHERE `item_id` = 2346;
-UPDATE `etcitem` SET `name` ='製作卷軸(阿卡特長弓100%)' WHERE `item_id` = 2347;
-UPDATE `etcitem` SET `name` ='製作卷軸(異教徒之書100%)' WHERE `item_id` = 2348;
-UPDATE `etcitem` SET `name` ='製作卷軸(詛咒人偶100%)' WHERE `item_id` = 2349;
-UPDATE `etcitem` SET `name` ='製作卷軸(帕格立歐之斧100%)' WHERE `item_id` = 2350;
-UPDATE `etcitem` SET `name` ='製作卷軸(蠍子100%)' WHERE `item_id` = 2351;
-UPDATE `etcitem` SET `name` ='製作卷軸(黑寡婦100%)' WHERE `item_id` = 2352;
-UPDATE `etcitem` SET `name` ='製作卷軸(瑟魯基長劍100%)' WHERE `item_id` = 2353;
-UPDATE `etcitem` SET `name` ='製作卷軸(亡者魔杖100%)' WHERE `item_id` = 2354;
-UPDATE `etcitem` SET `name` ='製作卷軸(食屍鬼魔杖100%)' WHERE `item_id` = 2355;
-UPDATE `etcitem` SET `name` ='製作卷軸(惡魔魔杖100%)' WHERE `item_id` = 2356;
-UPDATE `etcitem` SET `name` ='製作卷軸(水晶匕首100%)' WHERE `item_id` = 2357;
-UPDATE `etcitem` SET `name` ='製作卷軸(巨型帕塔拳刃100%)' WHERE `item_id` = 2358;
-UPDATE `etcitem` SET `name` ='製作卷軸(卓越弓100%)' WHERE `item_id` = 2359;
-UPDATE `etcitem` SET `name` ='製作卷軸(歐西斯戰斧100%)' WHERE `item_id` = 2360;
-UPDATE `etcitem` SET `name` ='製作卷軸(智慧蠟燭100%)' WHERE `item_id` = 2361;
-UPDATE `etcitem` SET `name` ='製作卷軸(受祝福的樹枝100%)' WHERE `item_id` = 2362;
-UPDATE `etcitem` SET `name` ='製作卷軸(不死鳥羽毛100%)' WHERE `item_id` = 2363;
-UPDATE `etcitem` SET `name` ='製作卷軸(地獄犬之眼100%)' WHERE `item_id` = 2364;
-UPDATE `etcitem` SET `name` ='製作卷軸(毀滅卷軸100%)' WHERE `item_id` = 2365;
-UPDATE `etcitem` SET `name` ='製作卷軸(黑龍爪100%)' WHERE `item_id` = 2366;
-UPDATE `etcitem` SET `name` ='製作卷軸(三眼烏鴉的羽毛100%)' WHERE `item_id` = 2367;
-UPDATE `etcitem` SET `name` ='狼項鍊' WHERE `item_id` = 2375;
-UPDATE `etcitem` SET `name` ='受詛咒的骨' WHERE `item_id` = 2508;
-UPDATE `etcitem` SET `name` ='魔靈彈-普通' WHERE `item_id` = 2509;
-UPDATE `etcitem` SET `name` ='魔靈彈-D級' WHERE `item_id` = 2510;
-UPDATE `etcitem` SET `name` ='魔靈彈-C級' WHERE `item_id` = 2511;
-UPDATE `etcitem` SET `name` ='魔靈彈-B級' WHERE `item_id` = 2512;
-UPDATE `etcitem` SET `name` ='魔靈彈-A級' WHERE `item_id` = 2513;
-UPDATE `etcitem` SET `name` ='魔靈彈-S級' WHERE `item_id` = 2514;
-UPDATE `etcitem` SET `name` ='狼食' WHERE `item_id` = 2515;
-UPDATE `etcitem` SET `name` ='挑戰者標章' WHERE `item_id` = 2627;
-UPDATE `etcitem` SET `name` ='凱許的信' WHERE `item_id` = 2628;
-UPDATE `etcitem` SET `name` ='觀察者之眼' WHERE `item_id` = 2629;
-UPDATE `etcitem` SET `name` ='觀察者之眼' WHERE `item_id` = 2630;
-UPDATE `etcitem` SET `name` ='西斯拉瑟的卷軸' WHERE `item_id` = 2631;
-UPDATE `etcitem` SET `name` ='破碎鑰匙' WHERE `item_id` = 2632;
-UPDATE `etcitem` SET `name` ='使命標章' WHERE `item_id` = 2633;
-UPDATE `etcitem` SET `name` ='德詩丁的信' WHERE `item_id` = 2634;
-UPDATE `etcitem` SET `name` ='騎士之淚' WHERE `item_id` = 2635;
-UPDATE `etcitem` SET `name` ='奧比諾之鏡' WHERE `item_id` = 2636;
-UPDATE `etcitem` SET `name` ='懺悔之淚' WHERE `item_id` = 2637;
-UPDATE `etcitem` SET `name` ='報告的片段' WHERE `item_id` = 2638;
-UPDATE `etcitem` SET `name` ='塔利亞斯的報告' WHERE `item_id` = 2639;
-UPDATE `etcitem` SET `name` ='忠誠之淚' WHERE `item_id` = 2640;
-UPDATE `etcitem` SET `name` ='義勇軍的遺物' WHERE `item_id` = 2641;
-UPDATE `etcitem` SET `name` ='聖者的骨灰罈' WHERE `item_id` = 2642;
-UPDATE `etcitem` SET `name` ='亞太法特的頭骨' WHERE `item_id` = 2643;
-UPDATE `etcitem` SET `name` ='亞太法特的肋骨' WHERE `item_id` = 2644;
-UPDATE `etcitem` SET `name` ='亞太法特的腿骨' WHERE `item_id` = 2645;
-UPDATE `etcitem` SET `name` ='溫達伍德的信' WHERE `item_id` = 2646;
-UPDATE `etcitem` SET `name` ='都普尼的信' WHERE `item_id` = 2647;
-UPDATE `etcitem` SET `name` ='泰瑞的單子' WHERE `item_id` = 2648;
-UPDATE `etcitem` SET `name` ='泰瑞的單子' WHERE `item_id` = 2649;
-UPDATE `etcitem` SET `name` ='泰瑞的信' WHERE `item_id` = 2650;
-UPDATE `etcitem` SET `name` ='畢克特的信' WHERE `item_id` = 2651;
-UPDATE `etcitem` SET `name` ='鷹眼的信' WHERE `item_id` = 2652;
-UPDATE `etcitem` SET `name` ='神祕的魔精石' WHERE `item_id` = 2653;
-UPDATE `etcitem` SET `name` ='豺狼魔精石' WHERE `item_id` = 2654;
-UPDATE `etcitem` SET `name` ='土瑞克魔精石' WHERE `item_id` = 2655;
-UPDATE `etcitem` SET `name` ='螞蟻魔精石' WHERE `item_id` = 2656;
-UPDATE `etcitem` SET `name` ='突倫克食人妖魔精石' WHERE `item_id` = 2657;
-UPDATE `etcitem` SET `name` ='泰瑞的箱子' WHERE `item_id` = 2658;
-UPDATE `etcitem` SET `name` ='畢克特的請求' WHERE `item_id` = 2659;
-UPDATE `etcitem` SET `name` ='梅杜莎鱗片' WHERE `item_id` = 2660;
-UPDATE `etcitem` SET `name` ='賽勒諾斯魔精石' WHERE `item_id` = 2661;
-UPDATE `etcitem` SET `name` ='分析的要求' WHERE `item_id` = 2662;
-UPDATE `etcitem` SET `name` ='瑪莉娜的信' WHERE `item_id` = 2663;
-UPDATE `etcitem` SET `name` ='實驗工具' WHERE `item_id` = 2664;
-UPDATE `etcitem` SET `name` ='分析的結果' WHERE `item_id` = 2665;
-UPDATE `etcitem` SET `name` ='泰瑞的單子' WHERE `item_id` = 2666;
-UPDATE `etcitem` SET `name` ='宿主的清單' WHERE `item_id` = 2667;
-UPDATE `etcitem` SET `name` ='深淵魔精石' WHERE `item_id` = 2668;
-UPDATE `etcitem` SET `name` ='深淵魔精石' WHERE `item_id` = 2669;
-UPDATE `etcitem` SET `name` ='深淵魔精石' WHERE `item_id` = 2670;
-UPDATE `etcitem` SET `name` ='深淵魔精石' WHERE `item_id` = 2671;
-UPDATE `etcitem` SET `name` ='泰瑞的報告' WHERE `item_id` = 2672;
-UPDATE `etcitem` SET `name` ='巡守者標章' WHERE `item_id` = 2673;
-UPDATE `etcitem` SET `name` ='探求者標章' WHERE `item_id` = 2674;
-UPDATE `etcitem` SET `name` ='米麗恩的印章' WHERE `item_id` = 2675;
-UPDATE `etcitem` SET `name` ='米麗恩的印章' WHERE `item_id` = 2676;
-UPDATE `etcitem` SET `name` ='米麗恩的印章' WHERE `item_id` = 2677;
-UPDATE `etcitem` SET `name` ='米麗恩的指示' WHERE `item_id` = 2678;
-UPDATE `etcitem` SET `name` ='瑪利亞的信' WHERE `item_id` = 2679;
-UPDATE `etcitem` SET `name` ='瑪利亞的信' WHERE `item_id` = 2680;
-UPDATE `etcitem` SET `name` ='盧卡斯的信' WHERE `item_id` = 2681;
-UPDATE `etcitem` SET `name` ='露希拉的手提包' WHERE `item_id` = 2682;
-UPDATE `etcitem` SET `name` ='克瑞塔的信' WHERE `item_id` = 2683;
-UPDATE `etcitem` SET `name` ='克瑞塔的繪畫' WHERE `item_id` = 2684;
-UPDATE `etcitem` SET `name` ='克瑞塔的繪畫' WHERE `item_id` = 2685;
-UPDATE `etcitem` SET `name` ='克瑞塔的繪畫' WHERE `item_id` = 2686;
-UPDATE `etcitem` SET `name` ='棕色卷軸殘片' WHERE `item_id` = 2687;
-UPDATE `etcitem` SET `name` ='純淨水晶' WHERE `item_id` = 2688;
-UPDATE `etcitem` SET `name` ='大神官標章' WHERE `item_id` = 2689;
-UPDATE `etcitem` SET `name` ='大巫師標章' WHERE `item_id` = 2690;
-UPDATE `etcitem` SET `name` ='賢者標章' WHERE `item_id` = 2691;
-UPDATE `etcitem` SET `name` ='錫爾巴銀的信' WHERE `item_id` = 2692;
-UPDATE `etcitem` SET `name` ='錫爾巴銀的憑證' WHERE `item_id` = 2693;
-UPDATE `etcitem` SET `name` ='久黎克的清單' WHERE `item_id` = 2694;
-UPDATE `etcitem` SET `name` ='搜索者的皮' WHERE `item_id` = 2695;
-UPDATE `etcitem` SET `name` ='巫師項鍊' WHERE `item_id` = 2696;
-UPDATE `etcitem` SET `name` ='束縛靈的頭皮' WHERE `item_id` = 2697;
-UPDATE `etcitem` SET `name` ='大巫師久黎克的標章' WHERE `item_id` = 2698;
-UPDATE `etcitem` SET `name` ='克洛諾斯的信' WHERE `item_id` = 2699;
-UPDATE `etcitem` SET `name` ='戴特的鑰匙' WHERE `item_id` = 2700;
-UPDATE `etcitem` SET `name` ='克瑞塔的信' WHERE `item_id` = 2701;
-UPDATE `etcitem` SET `name` ='戴特的信' WHERE `item_id` = 2702;
-UPDATE `etcitem` SET `name` ='戴特的日記' WHERE `item_id` = 2703;
-UPDATE `etcitem` SET `name` ='勞特的信封' WHERE `item_id` = 2704;
-UPDATE `etcitem` SET `name` ='特黎夫的戒指' WHERE `item_id` = 2705;
-UPDATE `etcitem` SET `name` ='知識的經典第一冊' WHERE `item_id` = 2706;
-UPDATE `etcitem` SET `name` ='知識的經典第二冊' WHERE `item_id` = 2707;
-UPDATE `etcitem` SET `name` ='知識的經典第三冊' WHERE `item_id` = 2708;
-UPDATE `etcitem` SET `name` ='知識的經典第四冊' WHERE `item_id` = 2709;
-UPDATE `etcitem` SET `name` ='巴爾昆的請求' WHERE `item_id` = 2710;
-UPDATE `etcitem` SET `name` ='坡伊坦的帳簿' WHERE `item_id` = 2711;
-UPDATE `etcitem` SET `name` ='知識的經典' WHERE `item_id` = 2712;
-UPDATE `etcitem` SET `name` ='烈酒' WHERE `item_id` = 2713;
-UPDATE `etcitem` SET `name` ='純淨水晶' WHERE `item_id` = 2714;
-UPDATE `etcitem` SET `name` ='賢者卡席安的材料清單' WHERE `item_id` = 2715;
-UPDATE `etcitem` SET `name` ='食屍鬼的皮革' WHERE `item_id` = 2716;
-UPDATE `etcitem` SET `name` ='梅杜莎的血' WHERE `item_id` = 2717;
-UPDATE `etcitem` SET `name` ='赤色束縛的汁液' WHERE `item_id` = 2718;
-UPDATE `etcitem` SET `name` ='附法翼魔的爪' WHERE `item_id` = 2719;
-UPDATE `etcitem` SET `name` ='克洛諾斯標章' WHERE `item_id` = 2720;
-UPDATE `etcitem` SET `name` ='求道者標章' WHERE `item_id` = 2721;
-UPDATE `etcitem` SET `name` ='賢者的書' WHERE `item_id` = 2722;
-UPDATE `etcitem` SET `name` ='試練標章' WHERE `item_id` = 2723;
-UPDATE `etcitem` SET `name` ='火焰的心' WHERE `item_id` = 2724;
-UPDATE `etcitem` SET `name` ='火焰的精華' WHERE `item_id` = 2725;
-UPDATE `etcitem` SET `name` ='吉安德的書' WHERE `item_id` = 2726;
-UPDATE `etcitem` SET `name` ='灰色徽章' WHERE `item_id` = 2727;
-UPDATE `etcitem` SET `name` ='那希爾的圖畫' WHERE `item_id` = 2728;
-UPDATE `etcitem` SET `name` ='那希爾的頭髮' WHERE `item_id` = 2729;
-UPDATE `etcitem` SET `name` ='殷海薩之像' WHERE `item_id` = 2730;
-UPDATE `etcitem` SET `name` ='黑暗權能' WHERE `item_id` = 2731;
-UPDATE `etcitem` SET `name` ='柳之破片' WHERE `item_id` = 2732;
-UPDATE `etcitem` SET `name` ='謠言紙條' WHERE `item_id` = 2733;
-UPDATE `etcitem` SET `name` ='信賴標章' WHERE `item_id` = 2734;
-UPDATE `etcitem` SET `name` ='要給精靈的信' WHERE `item_id` = 2735;
-UPDATE `etcitem` SET `name` ='要給黑暗精靈的信' WHERE `item_id` = 2736;
-UPDATE `etcitem` SET `name` ='要給矮人的信' WHERE `item_id` = 2737;
-UPDATE `etcitem` SET `name` ='要給半獸人的信' WHERE `item_id` = 2738;
-UPDATE `etcitem` SET `name` ='要給瑟瑞辛的信' WHERE `item_id` = 2739;
-UPDATE `etcitem` SET `name` ='黑暗精靈的信賴證' WHERE `item_id` = 2740;
-UPDATE `etcitem` SET `name` ='精靈的信賴證' WHERE `item_id` = 2741;
-UPDATE `etcitem` SET `name` ='矮人的信賴證' WHERE `item_id` = 2742;
-UPDATE `etcitem` SET `name` ='半獸人的信賴證' WHERE `item_id` = 2743;
-UPDATE `etcitem` SET `name` ='霍爾林特的推薦函' WHERE `item_id` = 2744;
-UPDATE `etcitem` SET `name` ='阿斯特黎羅司的命令書' WHERE `item_id` = 2745;
-UPDATE `etcitem` SET `name` ='風之呼吸' WHERE `item_id` = 2746;
-UPDATE `etcitem` SET `name` ='翠綠的種子' WHERE `item_id` = 2747;
-UPDATE `etcitem` SET `name` ='提費爾的信' WHERE `item_id` = 2748;
-UPDATE `etcitem` SET `name` ='邪惡蜥蜴守護者的血' WHERE `item_id` = 2749;
-UPDATE `etcitem` SET `name` ='蚜蟲' WHERE `item_id` = 2750;
-UPDATE `etcitem` SET `name` ='司塔卡拓體液' WHERE `item_id` = 2751;
-UPDATE `etcitem` SET `name` ='邪惡蜥蜴血漿' WHERE `item_id` = 2752;
-UPDATE `etcitem` SET `name` ='蜜汁' WHERE `item_id` = 2753;
-UPDATE `etcitem` SET `name` ='司塔卡拓膿水' WHERE `item_id` = 2754;
-UPDATE `etcitem` SET `name` ='克萊頓的命令書' WHERE `item_id` = 2755;
-UPDATE `etcitem` SET `name` ='洛塔的附身靈' WHERE `item_id` = 2756;
-UPDATE `etcitem` SET `name` ='要給瑪拉其亞的信' WHERE `item_id` = 2757;
-UPDATE `etcitem` SET `name` ='瑪拉其亞的信' WHERE `item_id` = 2758;
-UPDATE `etcitem` SET `name` ='要給尼古拉的信' WHERE `item_id` = 2759;
-UPDATE `etcitem` SET `name` ='尼古拉的命令書' WHERE `item_id` = 2760;
-UPDATE `etcitem` SET `name` ='破塔的心臟' WHERE `item_id` = 2761;
-UPDATE `etcitem` SET `name` ='決鬥者標章' WHERE `item_id` = 2762;
-UPDATE `etcitem` SET `name` ='指令書-古魯丁' WHERE `item_id` = 2763;
-UPDATE `etcitem` SET `name` ='指令書-狄恩' WHERE `item_id` = 2764;
-UPDATE `etcitem` SET `name` ='指令書-奇岩' WHERE `item_id` = 2765;
-UPDATE `etcitem` SET `name` ='指令書-歐瑞' WHERE `item_id` = 2766;
-UPDATE `etcitem` SET `name` ='指令書-亞丁' WHERE `item_id` = 2767;
-UPDATE `etcitem` SET `name` ='破壞者的破片' WHERE `item_id` = 2768;
-UPDATE `etcitem` SET `name` ='雄蟻觸角' WHERE `item_id` = 2769;
-UPDATE `etcitem` SET `name` ='雄性司塔卡拓的甲殼質' WHERE `item_id` = 2770;
-UPDATE `etcitem` SET `name` ='死亡追蹤者的尖牙' WHERE `item_id` = 2771;
-UPDATE `etcitem` SET `name` ='團長的項鍊' WHERE `item_id` = 2772;
-UPDATE `etcitem` SET `name` ='赤色束縛的鎖鏈' WHERE `item_id` = 2773;
-UPDATE `etcitem` SET `name` ='族長的護身符' WHERE `item_id` = 2774;
-UPDATE `etcitem` SET `name` ='附法眼怪的肉' WHERE `item_id` = 2775;
-UPDATE `etcitem` SET `name` ='塔林獸人的戒指' WHERE `item_id` = 2776;
-UPDATE `etcitem` SET `name` ='塔林獸人的箭' WHERE `item_id` = 2777;
-UPDATE `etcitem` SET `name` ='最終審查指令書' WHERE `item_id` = 2778;
-UPDATE `etcitem` SET `name` ='艾斯庫洛的皮革' WHERE `item_id` = 2779;
-UPDATE `etcitem` SET `name` ='克雷特的破片' WHERE `item_id` = 2780;
-UPDATE `etcitem` SET `name` ='葛雷迪斯的皮革' WHERE `item_id` = 2781;
-UPDATE `etcitem` SET `name` ='提瑪克獸人王的腰帶' WHERE `item_id` = 2782;
-UPDATE `etcitem` SET `name` ='拉金之鎚' WHERE `item_id` = 2783;
-UPDATE `etcitem` SET `name` ='露樂的信' WHERE `item_id` = 2784;
-UPDATE `etcitem` SET `name` ='阿蘭克爾的委任狀' WHERE `item_id` = 2785;
-UPDATE `etcitem` SET `name` ='理爾殷的命令書' WHERE `item_id` = 2786;
-UPDATE `etcitem` SET `name` ='德魯的圖騰' WHERE `item_id` = 2787;
-UPDATE `etcitem` SET `name` ='理爾殷的命令書' WHERE `item_id` = 2788;
-UPDATE `etcitem` SET `name` ='首領卡其斯的牙齒' WHERE `item_id` = 2789;
-UPDATE `etcitem` SET `name` ='理爾殷的報告書' WHERE `item_id` = 2790;
-UPDATE `etcitem` SET `name` ='奇怪的地圖' WHERE `item_id` = 2791;
-UPDATE `etcitem` SET `name` ='朗伯特的地圖' WHERE `item_id` = 2792;
-UPDATE `etcitem` SET `name` ='阿蘭克爾的信' WHERE `item_id` = 2793;
-UPDATE `etcitem` SET `name` ='阿蘭克爾的命令書' WHERE `item_id` = 2794;
-UPDATE `etcitem` SET `name` ='葡萄酒清單' WHERE `item_id` = 2795;
-UPDATE `etcitem` SET `name` ='特威提的合約書' WHERE `item_id` = 2796;
-UPDATE `etcitem` SET `name` ='紅色孢粉' WHERE `item_id` = 2797;
-UPDATE `etcitem` SET `name` ='瑪魯克葡萄酒' WHERE `item_id` = 2798;
-UPDATE `etcitem` SET `name` ='古老的指令書' WHERE `item_id` = 2799;
-UPDATE `etcitem` SET `name` ='傑克斯的日記' WHERE `item_id` = 2800;
-UPDATE `etcitem` SET `name` ='地圖碎片' WHERE `item_id` = 2801;
-UPDATE `etcitem` SET `name` ='地圖碎片' WHERE `item_id` = 2802;
-UPDATE `etcitem` SET `name` ='索特的地圖' WHERE `item_id` = 2803;
-UPDATE `etcitem` SET `name` ='馬克歐的地圖' WHERE `item_id` = 2804;
-UPDATE `etcitem` SET `name` ='合起來的地圖' WHERE `item_id` = 2805;
-UPDATE `etcitem` SET `name` ='生銹的鑰匙' WHERE `item_id` = 2806;
-UPDATE `etcitem` SET `name` ='金塊' WHERE `item_id` = 2807;
-UPDATE `etcitem` SET `name` ='阿蘭克爾的推薦函' WHERE `item_id` = 2808;
-UPDATE `etcitem` SET `name` ='探索者標章' WHERE `item_id` = 2809;
-UPDATE `etcitem` SET `name` ='裴琳的報告書' WHERE `item_id` = 2810;
-UPDATE `etcitem` SET `name` ='克莉絲蒂娜的信' WHERE `item_id` = 2811;
-UPDATE `etcitem` SET `name` ='溫蒂的圖畫' WHERE `item_id` = 2812;
-UPDATE `etcitem` SET `name` ='黃金神像' WHERE `item_id` = 2813;
-UPDATE `etcitem` SET `name` ='溫蒂的小鵝卵石' WHERE `item_id` = 2814;
-UPDATE `etcitem` SET `name` ='索日烏斯的命令書' WHERE `item_id` = 2815;
-UPDATE `etcitem` SET `name` ='第一個機密文件' WHERE `item_id` = 2816;
-UPDATE `etcitem` SET `name` ='第二個機密文件' WHERE `item_id` = 2817;
-UPDATE `etcitem` SET `name` ='第三個機密文件' WHERE `item_id` = 2818;
-UPDATE `etcitem` SET `name` ='第四個機密文件' WHERE `item_id` = 2819;
-UPDATE `etcitem` SET `name` ='治癒者標章' WHERE `item_id` = 2820;
-UPDATE `etcitem` SET `name` ='變革者標章' WHERE `item_id` = 2821;
-UPDATE `etcitem` SET `name` ='變革之書' WHERE `item_id` = 2822;
-UPDATE `etcitem` SET `name` ='介紹信' WHERE `item_id` = 2823;
-UPDATE `etcitem` SET `name` ='史拉的信' WHERE `item_id` = 2824;
-UPDATE `etcitem` SET `name` ='問候信' WHERE `item_id` = 2825;
-UPDATE `etcitem` SET `name` ='豺狼的貨幣' WHERE `item_id` = 2826;
-UPDATE `etcitem` SET `name` ='卡塔利的信' WHERE `item_id` = 2827;
-UPDATE `etcitem` SET `name` ='尼庫利的信' WHERE `item_id` = 2828;
-UPDATE `etcitem` SET `name` ='不死生物清單' WHERE `item_id` = 2829;
-UPDATE `etcitem` SET `name` ='拉姆斯的信' WHERE `item_id` = 2830;
-UPDATE `etcitem` SET `name` ='日記碎片' WHERE `item_id` = 2831;
-UPDATE `etcitem` SET `name` ='巨大釘子' WHERE `item_id` = 2832;
-UPDATE `etcitem` SET `name` ='背叛者的信' WHERE `item_id` = 2833;
-UPDATE `etcitem` SET `name` ='骨頭片' WHERE `item_id` = 2834;
-UPDATE `etcitem` SET `name` ='骨頭片' WHERE `item_id` = 2835;
-UPDATE `etcitem` SET `name` ='骨頭片' WHERE `item_id` = 2836;
-UPDATE `etcitem` SET `name` ='骨頭片' WHERE `item_id` = 2837;
-UPDATE `etcitem` SET `name` ='骨頭片' WHERE `item_id` = 2838;
-UPDATE `etcitem` SET `name` ='骨頭片' WHERE `item_id` = 2839;
-UPDATE `etcitem` SET `name` ='巫師標章' WHERE `item_id` = 2840;
-UPDATE `etcitem` SET `name` ='露凱的信' WHERE `item_id` = 2841;
-UPDATE `etcitem` SET `name` ='帕瑞那的信' WHERE `item_id` = 2842;
-UPDATE `etcitem` SET `name` ='紫丁香符咒' WHERE `item_id` = 2843;
-UPDATE `etcitem` SET `name` ='黃金種子' WHERE `item_id` = 2844;
-UPDATE `etcitem` SET `name` ='黃金種子' WHERE `item_id` = 2845;
-UPDATE `etcitem` SET `name` ='黃金種子' WHERE `item_id` = 2846;
-UPDATE `etcitem` SET `name` ='元素樂譜' WHERE `item_id` = 2847;
-UPDATE `etcitem` SET `name` ='眩惑水滴' WHERE `item_id` = 2848;
-UPDATE `etcitem` SET `name` ='火焰的結晶' WHERE `item_id` = 2849;
-UPDATE `etcitem` SET `name` ='鳥妖的羽毛' WHERE `item_id` = 2850;
-UPDATE `etcitem` SET `name` ='亞龍翅膀之骨' WHERE `item_id` = 2851;
-UPDATE `etcitem` SET `name` ='溫德薩斯之鬃' WHERE `item_id` = 2852;
-UPDATE `etcitem` SET `name` ='附法眼怪殼' WHERE `item_id` = 2853;
-UPDATE `etcitem` SET `name` ='附法岩石高崙的石頭粉' WHERE `item_id` = 2854;
-UPDATE `etcitem` SET `name` ='附法鋼鐵高崙的破片' WHERE `item_id` = 2855;
-UPDATE `etcitem` SET `name` ='水之音標' WHERE `item_id` = 2856;
-UPDATE `etcitem` SET `name` ='火之音標' WHERE `item_id` = 2857;
-UPDATE `etcitem` SET `name` ='風之音標' WHERE `item_id` = 2858;
-UPDATE `etcitem` SET `name` ='大地之音標' WHERE `item_id` = 2859;
-UPDATE `etcitem` SET `name` ='火蜥蜴的符咒' WHERE `item_id` = 2860;
-UPDATE `etcitem` SET `name` ='風妖精的符咒' WHERE `item_id` = 2861;
-UPDATE `etcitem` SET `name` ='水妖精的符咒' WHERE `item_id` = 2862;
-UPDATE `etcitem` SET `name` ='大地之蛇的符咒' WHERE `item_id` = 2863;
-UPDATE `etcitem` SET `name` ='巴蘭克的推薦函' WHERE `item_id` = 2864;
-UPDATE `etcitem` SET `name` ='斐拉爾的推薦函' WHERE `item_id` = 2865;
-UPDATE `etcitem` SET `name` ='亞琳的推薦函' WHERE `item_id` = 2866;
-UPDATE `etcitem` SET `name` ='巨匠標章' WHERE `item_id` = 2867;
-UPDATE `etcitem` SET `name` ='傭兵派遣書' WHERE `item_id` = 2868;
-UPDATE `etcitem` SET `name` ='卡謬兒的圖畫' WHERE `item_id` = 2869;
-UPDATE `etcitem` SET `name` ='卡謬兒的項鍊' WHERE `item_id` = 2870;
-UPDATE `etcitem` SET `name` ='傳送裝置的圖畫' WHERE `item_id` = 2871;
-UPDATE `etcitem` SET `name` ='傳送裝置' WHERE `item_id` = 2872;
-UPDATE `etcitem` SET `name` ='克魯瑪建築學' WHERE `item_id` = 2873;
-UPDATE `etcitem` SET `name` ='克魯瑪報告書' WHERE `item_id` = 2874;
-UPDATE `etcitem` SET `name` ='解毒藥材料清單' WHERE `item_id` = 2875;
-UPDATE `etcitem` SET `name` ='奇異的蜜蜂之毒針' WHERE `item_id` = 2876;
-UPDATE `etcitem` SET `name` ='沼澤蜘蛛的蜘蛛網' WHERE `item_id` = 2877;
-UPDATE `etcitem` SET `name` ='水蛭之血' WHERE `item_id` = 2878;
-UPDATE `etcitem` SET `name` ='戰爭靈標章' WHERE `item_id` = 2879;
-UPDATE `etcitem` SET `name` ='報酬的圖騰' WHERE `item_id` = 2880;
-UPDATE `etcitem` SET `name` ='塔林獸人之頭' WHERE `item_id` = 2881;
-UPDATE `etcitem` SET `name` ='戰爭靈的圖騰' WHERE `item_id` = 2882;
-UPDATE `etcitem` SET `name` ='奧瑞米的合約書' WHERE `item_id` = 2883;
-UPDATE `etcitem` SET `name` ='破塔的眼' WHERE `item_id` = 2884;
-UPDATE `etcitem` SET `name` ='艾斯庫洛之鱗' WHERE `item_id` = 2885;
-UPDATE `etcitem` SET `name` ='莫狄奧之爪' WHERE `item_id` = 2886;
-UPDATE `etcitem` SET `name` ='布拉齊的遺骨' WHERE `item_id` = 2887;
-UPDATE `etcitem` SET `name` ='佩克隆的圖騰' WHERE `item_id` = 2888;
-UPDATE `etcitem` SET `name` ='托那努依的頭骨' WHERE `item_id` = 2889;
-UPDATE `etcitem` SET `name` ='托那努依的肋骨' WHERE `item_id` = 2890;
-UPDATE `etcitem` SET `name` ='托那努依的脊骨' WHERE `item_id` = 2891;
-UPDATE `etcitem` SET `name` ='托那努依的臂骨' WHERE `item_id` = 2892;
-UPDATE `etcitem` SET `name` ='托那努依的大腿骨' WHERE `item_id` = 2893;
-UPDATE `etcitem` SET `name` ='托那努依的遺骨' WHERE `item_id` = 2894;
-UPDATE `etcitem` SET `name` ='瑪拉其亞的圖騰' WHERE `item_id` = 2895;
-UPDATE `etcitem` SET `name` ='火努摩特的頭骨' WHERE `item_id` = 2896;
-UPDATE `etcitem` SET `name` ='火努摩特的肋骨' WHERE `item_id` = 2897;
-UPDATE `etcitem` SET `name` ='火努摩特的脊骨' WHERE `item_id` = 2898;
-UPDATE `etcitem` SET `name` ='火努摩特的臂骨' WHERE `item_id` = 2899;
-UPDATE `etcitem` SET `name` ='火努摩特的大腿骨' WHERE `item_id` = 2900;
-UPDATE `etcitem` SET `name` ='火努摩特的遺骨' WHERE `item_id` = 2901;
-UPDATE `etcitem` SET `name` ='拉凱的圖騰' WHERE `item_id` = 2902;
-UPDATE `etcitem` SET `name` ='維維安特的信' WHERE `item_id` = 2903;
-UPDATE `etcitem` SET `name` ='昆蟲圖鑑' WHERE `item_id` = 2904;
-UPDATE `etcitem` SET `name` ='契魯那的頭骨' WHERE `item_id` = 2905;
-UPDATE `etcitem` SET `name` ='契魯那的肋骨' WHERE `item_id` = 2906;
-UPDATE `etcitem` SET `name` ='契魯那的脊骨' WHERE `item_id` = 2907;
-UPDATE `etcitem` SET `name` ='契魯那的臂骨' WHERE `item_id` = 2908;
-UPDATE `etcitem` SET `name` ='契魯那的大腿骨' WHERE `item_id` = 2909;
-UPDATE `etcitem` SET `name` ='契魯那的遺骨' WHERE `item_id` = 2910;
-UPDATE `etcitem` SET `name` ='布拉齊的遺骨' WHERE `item_id` = 2911;
-UPDATE `etcitem` SET `name` ='托那努依的遺骨' WHERE `item_id` = 2912;
-UPDATE `etcitem` SET `name` ='火努摩特的遺骨' WHERE `item_id` = 2913;
-UPDATE `etcitem` SET `name` ='契魯那的遺骨' WHERE `item_id` = 2914;
-UPDATE `etcitem` SET `name` ='壞掉的傳送裝置' WHERE `item_id` = 2916;
-UPDATE `etcitem` SET `name` ='封印戒指的寶石' WHERE `item_id` = 2917;
-UPDATE `etcitem` SET `name` ='米索莉鱗脛甲材料' WHERE `item_id` = 2918;
-UPDATE `etcitem` SET `name` ='鎖脛甲材料' WHERE `item_id` = 2919;
-UPDATE `etcitem` SET `name` ='精靈米索莉外衣的圖樣' WHERE `item_id` = 2920;
-UPDATE `etcitem` SET `name` ='精靈米索莉襪的圖樣' WHERE `item_id` = 2921;
-UPDATE `etcitem` SET `name` ='鎖子頭盔的組件' WHERE `item_id` = 2922;
-UPDATE `etcitem` SET `name` ='刺尾獅皮靴的內襯' WHERE `item_id` = 2923;
-UPDATE `etcitem` SET `name` ='鎖子長靴組件' WHERE `item_id` = 2924;
-UPDATE `etcitem` SET `name` ='精靈米索莉靴的組件' WHERE `item_id` = 2925;
-UPDATE `etcitem` SET `name` ='刺尾獅皮手套的內襯' WHERE `item_id` = 2926;
-UPDATE `etcitem` SET `name` ='鎖子甲長手套的圖樣' WHERE `item_id` = 2927;
-UPDATE `etcitem` SET `name` ='精靈米索莉手套的組件' WHERE `item_id` = 2928;
-UPDATE `etcitem` SET `name` ='鎖子盾的碎片' WHERE `item_id` = 2929;
-UPDATE `etcitem` SET `name` ='金屬板頭盔的組件' WHERE `item_id` = 2930;
-UPDATE `etcitem` SET `name` ='火蜥蜴皮靴的內襯' WHERE `item_id` = 2931;
-UPDATE `etcitem` SET `name` ='金屬靴的組件' WHERE `item_id` = 2932;
-UPDATE `etcitem` SET `name` ='賢者的舊手套內襯' WHERE `item_id` = 2933;
-UPDATE `etcitem` SET `name` ='金屬盾的碎片' WHERE `item_id` = 2934;
-UPDATE `etcitem` SET `name` ='強化米索莉脛甲的碎片' WHERE `item_id` = 2935;
-UPDATE `etcitem` SET `name` ='鏈頭巾的圖樣' WHERE `item_id` = 2936;
-UPDATE `etcitem` SET `name` ='鏈甲靴的碎片' WHERE `item_id` = 2937;
-UPDATE `etcitem` SET `name` ='卡勒米安長靴的組件' WHERE `item_id` = 2938;
-UPDATE `etcitem` SET `name` ='金屬皮長靴內襯' WHERE `item_id` = 2939;
-UPDATE `etcitem` SET `name` ='矮人鏈靴的碎片' WHERE `item_id` = 2940;
-UPDATE `etcitem` SET `name` ='封印長靴的圖樣' WHERE `item_id` = 2941;
-UPDATE `etcitem` SET `name` ='強化米索莉手套的組件' WHERE `item_id` = 2942;
-UPDATE `etcitem` SET `name` ='鏈手套的組件' WHERE `item_id` = 2943;
-UPDATE `etcitem` SET `name` ='卡勒米安手套的布料' WHERE `item_id` = 2944;
-UPDATE `etcitem` SET `name` ='鏈盾的碎片' WHERE `item_id` = 2945;
-UPDATE `etcitem` SET `name` ='金屬皮手套的組件' WHERE `item_id` = 2946;
-UPDATE `etcitem` SET `name` ='矮人鏈盾的碎片' WHERE `item_id` = 2947;
-UPDATE `etcitem` SET `name` ='覆皮長靴的內襯' WHERE `item_id` = 2948;
-UPDATE `etcitem` SET `name` ='矮人鏈手套的組件' WHERE `item_id` = 2949;
-UPDATE `etcitem` SET `name` ='封印手套的圖樣' WHERE `item_id` = 2950;
-UPDATE `etcitem` SET `name` ='覆皮手套的組件' WHERE `item_id` = 2951;
-UPDATE `etcitem` SET `name` ='惡魔長靴的布料' WHERE `item_id` = 2952;
-UPDATE `etcitem` SET `name` ='惡魔手套的布料' WHERE `item_id` = 2953;
-UPDATE `etcitem` SET `name` ='覆殼長靴的材料' WHERE `item_id` = 2954;
-UPDATE `etcitem` SET `name` ='覆殼手套的材料' WHERE `item_id` = 2955;
-UPDATE `etcitem` SET `name` ='合金靴的碎片' WHERE `item_id` = 2956;
-UPDATE `etcitem` SET `name` ='合金頭盔的組件' WHERE `item_id` = 2957;
-UPDATE `etcitem` SET `name` ='聖恩靴的布料' WHERE `item_id` = 2958;
-UPDATE `etcitem` SET `name` ='全覆式頭盔的組件' WHERE `item_id` = 2959;
-UPDATE `etcitem` SET `name` ='飛龍皮長靴的組件' WHERE `item_id` = 2960;
-UPDATE `etcitem` SET `name` ='全覆式長靴的碎片' WHERE `item_id` = 2961;
-UPDATE `etcitem` SET `name` ='飛龍皮手套的組件' WHERE `item_id` = 2962;
-UPDATE `etcitem` SET `name` ='全覆式長手套的碎片' WHERE `item_id` = 2963;
-UPDATE `etcitem` SET `name` ='神聖手套的圖樣' WHERE `item_id` = 2964;
-UPDATE `etcitem` SET `name` ='聖恩手套的布料' WHERE `item_id` = 2965;
-UPDATE `etcitem` SET `name` ='全覆式盾的碎片' WHERE `item_id` = 2966;
-UPDATE `etcitem` SET `name` ='精靈長劍的劍身' WHERE `item_id` = 2967;
-UPDATE `etcitem` SET `name` ='矮人戰鎚的金屬塊' WHERE `item_id` = 2968;
-UPDATE `etcitem` SET `name` ='夜叉釘鎚的金屬塊' WHERE `item_id` = 2969;
-UPDATE `etcitem` SET `name` ='製作卷軸(封印戒指100%)' WHERE `item_id` = 2970;
-UPDATE `etcitem` SET `name` ='製作卷軸(米索莉鱗脛甲100%)' WHERE `item_id` = 2971;
-UPDATE `etcitem` SET `name` ='製作卷軸(鎖脛甲100%)' WHERE `item_id` = 2972;
-UPDATE `etcitem` SET `name` ='製作卷軸(精靈米索莉外衣100%)' WHERE `item_id` = 2973;
-UPDATE `etcitem` SET `name` ='製作卷軸(精靈米索莉襪100%)' WHERE `item_id` = 2974;
-UPDATE `etcitem` SET `name` ='製作卷軸(鎖子頭盔100%)' WHERE `item_id` = 2975;
-UPDATE `etcitem` SET `name` ='製作卷軸(刺尾獅皮靴100%)' WHERE `item_id` = 2976;
-UPDATE `etcitem` SET `name` ='製作卷軸(鎖子長靴100%)' WHERE `item_id` = 2977;
-UPDATE `etcitem` SET `name` ='製作卷軸(精靈米索莉靴100%)' WHERE `item_id` = 2978;
-UPDATE `etcitem` SET `name` ='製作卷軸(刺尾獅皮手套100%)' WHERE `item_id` = 2979;
-UPDATE `etcitem` SET `name` ='製作卷軸(鎖子甲長手套100%)' WHERE `item_id` = 2980;
-UPDATE `etcitem` SET `name` ='製作卷軸(精靈米索莉手套100%)' WHERE `item_id` = 2981;
-UPDATE `etcitem` SET `name` ='製作卷軸(鎖子盾100%)' WHERE `item_id` = 2982;
-UPDATE `etcitem` SET `name` ='製作卷軸(金屬板頭盔100%)' WHERE `item_id` = 2983;
-UPDATE `etcitem` SET `name` ='製作卷軸(火蜥蜴皮靴100%)' WHERE `item_id` = 2984;
-UPDATE `etcitem` SET `name` ='製作卷軸(金屬靴100%)' WHERE `item_id` = 2985;
-UPDATE `etcitem` SET `name` ='製作卷軸(賢者的舊手套100%)' WHERE `item_id` = 2986;
-UPDATE `etcitem` SET `name` ='製作卷軸(金屬盾100%)' WHERE `item_id` = 2987;
-UPDATE `etcitem` SET `name` ='製作卷軸(強化米索莉脛甲100%)' WHERE `item_id` = 2988;
-UPDATE `etcitem` SET `name` ='製作卷軸(鏈頭巾100%)' WHERE `item_id` = 2989;
-UPDATE `etcitem` SET `name` ='製作卷軸(鏈甲靴100%)' WHERE `item_id` = 2990;
-UPDATE `etcitem` SET `name` ='製作卷軸(卡勒米安長靴100%)' WHERE `item_id` = 2991;
-UPDATE `etcitem` SET `name` ='製作卷軸(金屬皮長靴100%)' WHERE `item_id` = 2992;
-UPDATE `etcitem` SET `name` ='製作卷軸(矮人鏈靴100%)' WHERE `item_id` = 2993;
-UPDATE `etcitem` SET `name` ='製作卷軸(封印長靴100%)' WHERE `item_id` = 2994;
-UPDATE `etcitem` SET `name` ='製作卷軸(強化米索莉手套100%)' WHERE `item_id` = 2995;
-UPDATE `etcitem` SET `name` ='製作卷軸(鏈手套100%)' WHERE `item_id` = 2996;
-UPDATE `etcitem` SET `name` ='製作卷軸(卡勒米安手套100%)' WHERE `item_id` = 2997;
-UPDATE `etcitem` SET `name` ='製作卷軸(鏈盾100%)' WHERE `item_id` = 2998;
-UPDATE `etcitem` SET `name` ='製作卷軸(金屬皮手套100%)' WHERE `item_id` = 2999;
-UPDATE `etcitem` SET `name` ='製作卷軸(矮人鏈盾100%)' WHERE `item_id` = 3000;
-UPDATE `etcitem` SET `name` ='製作卷軸(覆皮長靴100%)' WHERE `item_id` = 3001;
-UPDATE `etcitem` SET `name` ='製作卷軸(矮人鏈手套100%)' WHERE `item_id` = 3002;
-UPDATE `etcitem` SET `name` ='製作卷軸(封印手套100%)' WHERE `item_id` = 3003;
-UPDATE `etcitem` SET `name` ='製作卷軸(覆皮手套100%)' WHERE `item_id` = 3004;
-UPDATE `etcitem` SET `name` ='製作卷軸(惡魔長靴100%)' WHERE `item_id` = 3005;
-UPDATE `etcitem` SET `name` ='製作卷軸(惡魔手套100%)' WHERE `item_id` = 3006;
-UPDATE `etcitem` SET `name` ='製作卷軸(覆殼長靴100%)' WHERE `item_id` = 3007;
-UPDATE `etcitem` SET `name` ='製作卷軸(覆殼手套100%)' WHERE `item_id` = 3008;
-UPDATE `etcitem` SET `name` ='製作卷軸(合金靴100%)' WHERE `item_id` = 3009;
-UPDATE `etcitem` SET `name` ='製作卷軸(合金頭盔100%)' WHERE `item_id` = 3010;
-UPDATE `etcitem` SET `name` ='製作卷軸(聖恩靴100%)' WHERE `item_id` = 3011;
-UPDATE `etcitem` SET `name` ='製作卷軸(全覆式頭盔100%)' WHERE `item_id` = 3012;
-UPDATE `etcitem` SET `name` ='製作卷軸(飛龍皮長靴100%)' WHERE `item_id` = 3013;
-UPDATE `etcitem` SET `name` ='製作卷軸(全覆式長靴100%)' WHERE `item_id` = 3014;
-UPDATE `etcitem` SET `name` ='製作卷軸(飛龍皮手套100%)' WHERE `item_id` = 3015;
-UPDATE `etcitem` SET `name` ='製作卷軸(全覆式長手套100%)' WHERE `item_id` = 3016;
-UPDATE `etcitem` SET `name` ='製作卷軸(神聖手套100%)' WHERE `item_id` = 3017;
-UPDATE `etcitem` SET `name` ='製作卷軸(聖恩手套100%)' WHERE `item_id` = 3018;
-UPDATE `etcitem` SET `name` ='製作卷軸(全覆式盾100%)' WHERE `item_id` = 3019;
-UPDATE `etcitem` SET `name` ='製作卷軸(精靈長劍100%)' WHERE `item_id` = 3020;
-UPDATE `etcitem` SET `name` ='製作卷軸(矮人戰鎚100%)' WHERE `item_id` = 3021;
-UPDATE `etcitem` SET `name` ='製作卷軸(夜叉釘鎚100%)' WHERE `item_id` = 3022;
-UPDATE `etcitem` SET `name` ='製作卷軸(下巨人鑰匙100%)' WHERE `item_id` = 3023;
-UPDATE `etcitem` SET `name` ='製作卷軸(熟練工戒指100%)' WHERE `item_id` = 3024;
-UPDATE `etcitem` SET `name` ='製作卷軸(琥珀珠100%)' WHERE `item_id` = 3025;
-UPDATE `etcitem` SET `name` ='下巨人鑰匙' WHERE `item_id` = 3030;
-UPDATE `etcitem` SET `name` ='魔精石' WHERE `item_id` = 3031;
-UPDATE `etcitem` SET `name` ='製作卷軸(魔靈彈-D級100%)' WHERE `item_id` = 3032;
-UPDATE `etcitem` SET `name` ='製作卷軸(魔靈彈-C級100%)' WHERE `item_id` = 3033;
-UPDATE `etcitem` SET `name` ='製作卷軸(魔靈彈-B級100%)' WHERE `item_id` = 3034;
-UPDATE `etcitem` SET `name` ='製作卷軸(魔靈彈-A級100%)' WHERE `item_id` = 3035;
-UPDATE `etcitem` SET `name` ='製作卷軸(魔靈彈-S級100%)' WHERE `item_id` = 3036;
-UPDATE `etcitem` SET `name` ='卡康的信' WHERE `item_id` = 3037;
-UPDATE `etcitem` SET `name` ='設計圖-召喚機械高崙' WHERE `item_id` = 3038;
-UPDATE `etcitem` SET `name` ='魔法書-召喚暴風晶體' WHERE `item_id` = 3039;
-UPDATE `etcitem` SET `name` ='魔法書-召喚吸血晶體' WHERE `item_id` = 3040;
-UPDATE `etcitem` SET `name` ='魔法書-召喚干擾晶體' WHERE `item_id` = 3041;
-UPDATE `etcitem` SET `name` ='魔法書-蒐集生命' WHERE `item_id` = 3042;
-UPDATE `etcitem` SET `name` ='魔法書-神聖之擊' WHERE `item_id` = 3043;
-UPDATE `etcitem` SET `name` ='魔法書-戰慄' WHERE `item_id` = 3044;
-UPDATE `etcitem` SET `name` ='魔法書-召喚治癒晶體' WHERE `item_id` = 3045;
-UPDATE `etcitem` SET `name` ='魔法書-獻祭' WHERE `item_id` = 3046;
-UPDATE `etcitem` SET `name` ='魔法書-鋼鐵意志' WHERE `item_id` = 3047;
-UPDATE `etcitem` SET `name` ='魔法書-還擊' WHERE `item_id` = 3048;
-UPDATE `etcitem` SET `name` ='魔法書-屍疫' WHERE `item_id` = 3049;
-UPDATE `etcitem` SET `name` ='魔法書-衰弱術' WHERE `item_id` = 3050;
-UPDATE `etcitem` SET `name` ='魔法書-精神屏障' WHERE `item_id` = 3051;
-UPDATE `etcitem` SET `name` ='魔法書-遲緩術' WHERE `item_id` = 3052;
-UPDATE `etcitem` SET `name` ='魔法書-神聖祝福' WHERE `item_id` = 3053;
-UPDATE `etcitem` SET `name` ='魔法書-召喚毒蛇晶體' WHERE `item_id` = 3054;
-UPDATE `etcitem` SET `name` ='魔法書-怒雷強擊' WHERE `item_id` = 3055;
-UPDATE `etcitem` SET `name` ='魔法書-召喚黑暗豹' WHERE `item_id` = 3056;
-UPDATE `etcitem` SET `name` ='魔法書-召喚起死回生者' WHERE `item_id` = 3057;
-UPDATE `etcitem` SET `name` ='魔法書-召喚腐屍' WHERE `item_id` = 3058;
-UPDATE `etcitem` SET `name` ='魔法書-屍體爆裂' WHERE `item_id` = 3059;
-UPDATE `etcitem` SET `name` ='魔法書-遺忘術' WHERE `item_id` = 3060;
-UPDATE `etcitem` SET `name` ='魔法書-迷魅之咒' WHERE `item_id` = 3061;
-UPDATE `etcitem` SET `name` ='魔法書-恐懼之咒' WHERE `item_id` = 3062;
-UPDATE `etcitem` SET `name` ='魔法書-定身術' WHERE `item_id` = 3063;
-UPDATE `etcitem` SET `name` ='魔法書-沉默術' WHERE `item_id` = 3064;
-UPDATE `etcitem` SET `name` ='魔法書-死亡之刺' WHERE `item_id` = 3065;
-UPDATE `etcitem` SET `name` ='魔法書-死之糾結' WHERE `item_id` = 3066;
-UPDATE `etcitem` SET `name` ='魔法書-吸血鬼之爪' WHERE `item_id` = 3067;
-UPDATE `etcitem` SET `name` ='魔法書-活力激發' WHERE `item_id` = 3068;
-UPDATE `etcitem` SET `name` ='魔法書-安靈曲' WHERE `item_id` = 3069;
-UPDATE `etcitem` SET `name` ='魔法書-不死生物束縛' WHERE `item_id` = 3070;
-UPDATE `etcitem` SET `name` ='魔法書-鎮魂曲' WHERE `item_id` = 3071;
-UPDATE `etcitem` SET `name` ='魔法書-淨化' WHERE `item_id` = 3072;
-UPDATE `etcitem` SET `name` ='魔法書-天之箭' WHERE `item_id` = 3073;
-UPDATE `etcitem` SET `name` ='魔法書-風之陷落' WHERE `item_id` = 3074;
-UPDATE `etcitem` SET `name` ='魔法書-赤燄之輪' WHERE `item_id` = 3075;
-UPDATE `etcitem` SET `name` ='魔法書-風之爆裂' WHERE `item_id` = 3076;
-UPDATE `etcitem` SET `name` ='魔法書-燃燒之體' WHERE `item_id` = 3077;
-UPDATE `etcitem` SET `name` ='魔法書-腐蝕術' WHERE `item_id` = 3078;
-UPDATE `etcitem` SET `name` ='魔法書-魔法消除' WHERE `item_id` = 3079;
-UPDATE `etcitem` SET `name` ='魔法書-沉睡之雲' WHERE `item_id` = 3080;
-UPDATE `etcitem` SET `name` ='魔法書-精神爆發' WHERE `item_id` = 3081;
-UPDATE `etcitem` SET `name` ='魔法書-水之陷落' WHERE `item_id` = 3082;
-UPDATE `etcitem` SET `name` ='魔法書-冰凍之牆' WHERE `item_id` = 3083;
-UPDATE `etcitem` SET `name` ='魔法書-冰之鎖' WHERE `item_id` = 3084;
-UPDATE `etcitem` SET `name` ='魔法書-水之爆裂' WHERE `item_id` = 3085;
-UPDATE `etcitem` SET `name` ='魔法書-寒霜之箭' WHERE `item_id` = 3086;
-UPDATE `etcitem` SET `name` ='魔法書-冰之匕' WHERE `item_id` = 3087;
-UPDATE `etcitem` SET `name` ='魔法書-凍結之體' WHERE `item_id` = 3088;
-UPDATE `etcitem` SET `name` ='魔法書-颶風術' WHERE `item_id` = 3089;
-UPDATE `etcitem` SET `name` ='魔法書-暴風雨' WHERE `item_id` = 3090;
-UPDATE `etcitem` SET `name` ='魔法書-使魔魔法盾' WHERE `item_id` = 3091;
-UPDATE `etcitem` SET `name` ='魔法書-使魔能量盾' WHERE `item_id` = 3092;
-UPDATE `etcitem` SET `name` ='魔法書-使魔速度激發' WHERE `item_id` = 3093;
-UPDATE `etcitem` SET `name` ='魔法書-充沛活力' WHERE `item_id` = 3094;
-UPDATE `etcitem` SET `name` ='魔法書-魔法屏障' WHERE `item_id` = 3095;
-UPDATE `etcitem` SET `name` ='魔法書-神佑之體' WHERE `item_id` = 3096;
-UPDATE `etcitem` SET `name` ='魔法書-神佑之魂' WHERE `item_id` = 3097;
-UPDATE `etcitem` SET `name` ='魔法書-回歸術' WHERE `item_id` = 3098;
-UPDATE `etcitem` SET `name` ='魔法書-速度激發' WHERE `item_id` = 3099;
-UPDATE `etcitem` SET `name` ='魔法書-導引' WHERE `item_id` = 3100;
-UPDATE `etcitem` SET `name` ='魔法書-死之呢喃' WHERE `item_id` = 3101;
-UPDATE `etcitem` SET `name` ='魔法書-祝福之盾' WHERE `item_id` = 3102;
-UPDATE `etcitem` SET `name` ='護身符-帕格立歐智慧' WHERE `item_id` = 3103;
-UPDATE `etcitem` SET `name` ='護身符-帕格立歐榮光' WHERE `item_id` = 3104;
-UPDATE `etcitem` SET `name` ='護身符-寒冬封印' WHERE `item_id` = 3105;
-UPDATE `etcitem` SET `name` ='護身符-火焰封印' WHERE `item_id` = 3106;
-UPDATE `etcitem` SET `name` ='護身符-黑暗封印' WHERE `item_id` = 3107;
-UPDATE `etcitem` SET `name` ='護身符-幻惑封印' WHERE `item_id` = 3108;
-UPDATE `etcitem` SET `name` ='護身符-沉默封印' WHERE `item_id` = 3109;
-UPDATE `etcitem` SET `name` ='護身符-生命封印' WHERE `item_id` = 3110;
-UPDATE `etcitem` SET `name` ='護身符-遲鈍封印' WHERE `item_id` = 3111;
-UPDATE `etcitem` SET `name` ='護身符-帕格立歐之眼' WHERE `item_id` = 3112;
-UPDATE `etcitem` SET `name` ='護身符-帕格立歐之盾' WHERE `item_id` = 3113;
-UPDATE `etcitem` SET `name` ='護身符-竊取精髓' WHERE `item_id` = 3114;
-UPDATE `etcitem` SET `name` ='護身符-極冰之燄' WHERE `item_id` = 3115;
-UPDATE `etcitem` SET `name` ='護身符-狂暴頌歌' WHERE `item_id` = 3116;
-UPDATE `etcitem` SET `name` ='護身符-迴避頌歌' WHERE `item_id` = 3117;
-UPDATE `etcitem` SET `name` ='護身符-盛怒頌歌' WHERE `item_id` = 3118;
-UPDATE `etcitem` SET `name` ='公會會員標章' WHERE `item_id` = 3119;
-UPDATE `etcitem` SET `name` ='巴爾昆的推薦函' WHERE `item_id` = 3120;
-UPDATE `etcitem` SET `name` ='曼陀羅漿果' WHERE `item_id` = 3121;
-UPDATE `etcitem` SET `name` ='阿爾特蘭的指示' WHERE `item_id` = 3122;
-UPDATE `etcitem` SET `name` ='阿爾特蘭的介紹信' WHERE `item_id` = 3123;
-UPDATE `etcitem` SET `name` ='阿爾特蘭的介紹信' WHERE `item_id` = 3124;
-UPDATE `etcitem` SET `name` ='諾曼的指示' WHERE `item_id` = 3125;
-UPDATE `etcitem` SET `name` ='諾曼的收據' WHERE `item_id` = 3126;
-UPDATE `etcitem` SET `name` ='丹寧的指示' WHERE `item_id` = 3127;
-UPDATE `etcitem` SET `name` ='丹寧的鑰匙' WHERE `item_id` = 3128;
-UPDATE `etcitem` SET `name` ='諾曼的材料清單' WHERE `item_id` = 3129;
-UPDATE `etcitem` SET `name` ='灰骨粉末' WHERE `item_id` = 3130;
-UPDATE `etcitem` SET `name` ='花崗岩磨刀石' WHERE `item_id` = 3131;
-UPDATE `etcitem` SET `name` ='紅色顏料' WHERE `item_id` = 3132;
-UPDATE `etcitem` SET `name` ='飾帶紗線' WHERE `item_id` = 3133;
-UPDATE `etcitem` SET `name` ='熟練工的寶石' WHERE `item_id` = 3134;
-UPDATE `etcitem` SET `name` ='品特的指示' WHERE `item_id` = 3135;
-UPDATE `etcitem` SET `name` ='琥珀珠' WHERE `item_id` = 3136;
-UPDATE `etcitem` SET `name` ='琥珀塊' WHERE `item_id` = 3137;
-UPDATE `etcitem` SET `name` ='熟練工的裝飾球' WHERE `item_id` = 3138;
-UPDATE `etcitem` SET `name` ='熟練工的戒指' WHERE `item_id` = 3139;
-UPDATE `etcitem` SET `name` ='生命標章' WHERE `item_id` = 3140;
-UPDATE `etcitem` SET `name` ='卡爾狄恩的信' WHERE `item_id` = 3141;
-UPDATE `etcitem` SET `name` ='甘菊符咒' WHERE `item_id` = 3142;
-UPDATE `etcitem` SET `name` ='長老的信' WHERE `item_id` = 3143;
-UPDATE `etcitem` SET `name` ='月光花符咒' WHERE `item_id` = 3144;
-UPDATE `etcitem` SET `name` ='聖杯的圖鑑' WHERE `item_id` = 3145;
-UPDATE `etcitem` SET `name` ='塔里亞的信' WHERE `item_id` = 3146;
-UPDATE `etcitem` SET `name` ='塔里亞的信' WHERE `item_id` = 3147;
-UPDATE `etcitem` SET `name` ='塔里亞的教材' WHERE `item_id` = 3148;
-UPDATE `etcitem` SET `name` ='普西金的清單' WHERE `item_id` = 3149;
-UPDATE `etcitem` SET `name` ='精煉米索莉杯' WHERE `item_id` = 3150;
-UPDATE `etcitem` SET `name` ='阿爾克尼亞的合約書' WHERE `item_id` = 3151;
-UPDATE `etcitem` SET `name` ='阿爾克尼亞的教材' WHERE `item_id` = 3152;
-UPDATE `etcitem` SET `name` ='阿多紐斯的清單' WHERE `item_id` = 3153;
-UPDATE `etcitem` SET `name` ='安塔利爾的經典手抄本' WHERE `item_id` = 3154;
-UPDATE `etcitem` SET `name` ='星塵' WHERE `item_id` = 3155;
-UPDATE `etcitem` SET `name` ='伊塞兒的指示書' WHERE `item_id` = 3156;
-UPDATE `etcitem` SET `name` ='伊塞兒的信' WHERE `item_id` = 3157;
-UPDATE `etcitem` SET `name` ='純淨聖杯' WHERE `item_id` = 3158;
-UPDATE `etcitem` SET `name` ='獨角獸之淚' WHERE `item_id` = 3159;
-UPDATE `etcitem` SET `name` ='生命之水' WHERE `item_id` = 3160;
-UPDATE `etcitem` SET `name` ='純米索莉礦石' WHERE `item_id` = 3161;
-UPDATE `etcitem` SET `name` ='兵蟻蟻酸' WHERE `item_id` = 3162;
-UPDATE `etcitem` SET `name` ='亞龍爪' WHERE `item_id` = 3163;
-UPDATE `etcitem` SET `name` ='蜘蛛汁液' WHERE `item_id` = 3164;
-UPDATE `etcitem` SET `name` ='鳥妖的絨毛' WHERE `item_id` = 3165;
-UPDATE `etcitem` SET `name` ='泰林的矛刀身' WHERE `item_id` = 3166;
-UPDATE `etcitem` SET `name` ='泰林的矛柄' WHERE `item_id` = 3167;
-UPDATE `etcitem` SET `name` ='泰林的紅寶石' WHERE `item_id` = 3168;
-UPDATE `etcitem` SET `name` ='泰林的海藍寶石' WHERE `item_id` = 3169;
-UPDATE `etcitem` SET `name` ='泰林的紫水晶' WHERE `item_id` = 3170;
-UPDATE `etcitem` SET `name` ='泰林的橄欖石' WHERE `item_id` = 3171;
-UPDATE `etcitem` SET `name` ='命運標章' WHERE `item_id` = 3172;
-UPDATE `etcitem` SET `name` ='凱拉的信' WHERE `item_id` = 3173;
-UPDATE `etcitem` SET `name` ='梅德休斯的骨灰罈' WHERE `item_id` = 3174;
-UPDATE `etcitem` SET `name` ='卡姍德拉的遺骨' WHERE `item_id` = 3175;
-UPDATE `etcitem` SET `name` ='藥草學教材' WHERE `item_id` = 3176;
-UPDATE `etcitem` SET `name` ='伊夏的材料清單' WHERE `item_id` = 3177;
-UPDATE `etcitem` SET `name` ='梅杜莎之血' WHERE `item_id` = 3178;
-UPDATE `etcitem` SET `name` ='沼澤蜘蛛的體液' WHERE `item_id` = 3179;
-UPDATE `etcitem` SET `name` ='死亡追蹤者的分泌物' WHERE `item_id` = 3180;
-UPDATE `etcitem` SET `name` ='暴君的體液' WHERE `item_id` = 3181;
-UPDATE `etcitem` SET `name` ='茄科植物之根' WHERE `item_id` = 3182;
-UPDATE `etcitem` SET `name` ='顛茄' WHERE `item_id` = 3183;
-UPDATE `etcitem` SET `name` ='艾爾杜斯的頭骨' WHERE `item_id` = 3184;
-UPDATE `etcitem` SET `name` ='艾爾杜斯的頭骨' WHERE `item_id` = 3185;
-UPDATE `etcitem` SET `name` ='艾爾杜斯的憑據' WHERE `item_id` = 3186;
-UPDATE `etcitem` SET `name` ='默示錄手抄本' WHERE `item_id` = 3187;
-UPDATE `etcitem` SET `name` ='凱拉的指示書' WHERE `item_id` = 3188;
-UPDATE `etcitem` SET `name` ='凱拉的推薦函' WHERE `item_id` = 3189;
-UPDATE `etcitem` SET `name` ='沼澤符咒' WHERE `item_id` = 3190;
-UPDATE `etcitem` SET `name` ='提費爾的信' WHERE `item_id` = 3191;
-UPDATE `etcitem` SET `name` ='阿爾克尼亞的筆記' WHERE `item_id` = 3192;
-UPDATE `etcitem` SET `name` ='小精靈的石榴石' WHERE `item_id` = 3193;
-UPDATE `etcitem` SET `name` ='葛雷迪斯的頭骨' WHERE `item_id` = 3194;
-UPDATE `etcitem` SET `name` ='卡魯食人妖的頭骨' WHERE `item_id` = 3195;
-UPDATE `etcitem` SET `name` ='布賴卡獸人王的頭骨' WHERE `item_id` = 3196;
-UPDATE `etcitem` SET `name` ='里多蜥蜴人族長的頭骨' WHERE `item_id` = 3197;
-UPDATE `etcitem` SET `name` ='紅色精靈粉末' WHERE `item_id` = 3198;
-UPDATE `etcitem` SET `name` ='安特提米里藍的種子' WHERE `item_id` = 3199;
-UPDATE `etcitem` SET `name` ='黑色柳葉' WHERE `item_id` = 3200;
-UPDATE `etcitem` SET `name` ='安特提米里藍的樹液' WHERE `item_id` = 3201;
-UPDATE `etcitem` SET `name` ='阿爾克尼亞之信' WHERE `item_id` = 3202;
-UPDATE `etcitem` SET `name` ='榮譽標章' WHERE `item_id` = 3203;
-UPDATE `etcitem` SET `name` ='伯其恩指令書' WHERE `item_id` = 3204;
-UPDATE `etcitem` SET `name` ='瑪那宣的破片' WHERE `item_id` = 3205;
-UPDATE `etcitem` SET `name` ='暴君的爪' WHERE `item_id` = 3206;
-UPDATE `etcitem` SET `name` ='邪惡蜥蜴守護者之牙' WHERE `item_id` = 3207;
-UPDATE `etcitem` SET `name` ='伯其恩指令書' WHERE `item_id` = 3208;
-UPDATE `etcitem` SET `name` ='權力項鍊' WHERE `item_id` = 3209;
-UPDATE `etcitem` SET `name` ='齊安塔的指令書' WHERE `item_id` = 3210;
-UPDATE `etcitem` SET `name` ='布賴卡的玉璽' WHERE `item_id` = 3211;
-UPDATE `etcitem` SET `name` ='安庫的玉璽' WHERE `item_id` = 3212;
-UPDATE `etcitem` SET `name` ='普庫的玉璽' WHERE `item_id` = 3213;
-UPDATE `etcitem` SET `name` ='土瑞克的玉璽' WHERE `item_id` = 3214;
-UPDATE `etcitem` SET `name` ='雷沃恩特的玉璽' WHERE `item_id` = 3215;
-UPDATE `etcitem` SET `name` ='齊安塔的指令書' WHERE `item_id` = 3216;
-UPDATE `etcitem` SET `name` ='齊安塔的指令書' WHERE `item_id` = 3217;
-UPDATE `etcitem` SET `name` ='塔林獸人頭骨' WHERE `item_id` = 3218;
-UPDATE `etcitem` SET `name` ='提瑪克獸人的頭' WHERE `item_id` = 3219;
-UPDATE `etcitem` SET `name` ='玉璽箱' WHERE `item_id` = 3220;
-UPDATE `etcitem` SET `name` ='帕辛卡的頭' WHERE `item_id` = 3221;
-UPDATE `etcitem` SET `name` ='夫土斯的頭' WHERE `item_id` = 3222;
-UPDATE `etcitem` SET `name` ='伏特爾的手套' WHERE `item_id` = 3223;
-UPDATE `etcitem` SET `name` ='安庫獸人王的頭' WHERE `item_id` = 3224;
-UPDATE `etcitem` SET `name` ='開普拉手套' WHERE `item_id` = 3225;
-UPDATE `etcitem` SET `name` ='馬肯食人妖的頭' WHERE `item_id` = 3226;
-UPDATE `etcitem` SET `name` ='布萊手套' WHERE `item_id` = 3227;
-UPDATE `etcitem` SET `name` ='瑪拉其亞的信' WHERE `item_id` = 3228;
-UPDATE `etcitem` SET `name` ='瑪拉其亞的信' WHERE `item_id` = 3229;
-UPDATE `etcitem` SET `name` ='卡斯曼的信' WHERE `item_id` = 3230;
-UPDATE `etcitem` SET `name` ='卡斯曼的信' WHERE `item_id` = 3231;
-UPDATE `etcitem` SET `name` ='卡斯曼的信' WHERE `item_id` = 3232;
-UPDATE `etcitem` SET `name` ='德里的合約書' WHERE `item_id` = 3233;
-UPDATE `etcitem` SET `name` ='雄性司塔卡拓的殼' WHERE `item_id` = 3234;
-UPDATE `etcitem` SET `name` ='利塔那比的指令書' WHERE `item_id` = 3235;
-UPDATE `etcitem` SET `name` ='塔多斯的玉璽' WHERE `item_id` = 3236;
-UPDATE `etcitem` SET `name` ='儀禮之箱' WHERE `item_id` = 3237;
-UPDATE `etcitem` SET `name` ='繁榮標章' WHERE `item_id` = 3238;
-UPDATE `etcitem` SET `name` ='考驗的戒指' WHERE `item_id` = 3239;
-UPDATE `etcitem` SET `name` ='考驗的戒指' WHERE `item_id` = 3240;
-UPDATE `etcitem` SET `name` ='舊的帳本' WHERE `item_id` = 3241;
-UPDATE `etcitem` SET `name` ='祝福的種子' WHERE `item_id` = 3242;
-UPDATE `etcitem` SET `name` ='艾米俐的配方' WHERE `item_id` = 3243;
-UPDATE `etcitem` SET `name` ='莉里絲的精靈餅乾' WHERE `item_id` = 3244;
-UPDATE `etcitem` SET `name` ='梅芙石板的破片' WHERE `item_id` = 3245;
-UPDATE `etcitem` SET `name` ='回收許可' WHERE `item_id` = 3246;
-UPDATE `etcitem` SET `name` ='拉克琳的催收公告' WHERE `item_id` = 3247;
-UPDATE `etcitem` SET `name` ='拉克琳的催收公告' WHERE `item_id` = 3248;
-UPDATE `etcitem` SET `name` ='拉克琳的催收公告' WHERE `item_id` = 3249;
-UPDATE `etcitem` SET `name` ='拉克琳的催收公告' WHERE `item_id` = 3250;
-UPDATE `etcitem` SET `name` ='拉克琳的催收公告' WHERE `item_id` = 3251;
-UPDATE `etcitem` SET `name` ='商人恰里的捐獻' WHERE `item_id` = 3252;
-UPDATE `etcitem` SET `name` ='商人米恩的捐獻' WHERE `item_id` = 3253;
-UPDATE `etcitem` SET `name` ='瑪里夫紅帽的捐獻' WHERE `item_id` = 3254;
-UPDATE `etcitem` SET `name` ='瑪里夫紅帽的請求' WHERE `item_id` = 3255;
-UPDATE `etcitem` SET `name` ='大師多瑪的捐獻' WHERE `item_id` = 3256;
-UPDATE `etcitem` SET `name` ='波特的繳納收據' WHERE `item_id` = 3257;
-UPDATE `etcitem` SET `name` ='捐獻的收據' WHERE `item_id` = 3258;
-UPDATE `etcitem` SET `name` ='捐獻的收據' WHERE `item_id` = 3259;
-UPDATE `etcitem` SET `name` ='捐獻的收據' WHERE `item_id` = 3260;
-UPDATE `etcitem` SET `name` ='捐獻的收據' WHERE `item_id` = 3261;
-UPDATE `etcitem` SET `name` ='捐獻的收據' WHERE `item_id` = 3262;
-UPDATE `etcitem` SET `name` ='吐魯克的委任狀' WHERE `item_id` = 3263;
-UPDATE `etcitem` SET `name` ='布萊特的材料清單' WHERE `item_id` = 3264;
-UPDATE `etcitem` SET `name` ='曼陀羅花瓣' WHERE `item_id` = 3265;
-UPDATE `etcitem` SET `name` ='緋紅苔' WHERE `item_id` = 3266;
-UPDATE `etcitem` SET `name` ='曼陀羅花圈' WHERE `item_id` = 3267;
-UPDATE `etcitem` SET `name` ='帕曼的指示書' WHERE `item_id` = 3268;
-UPDATE `etcitem` SET `name` ='帕曼的信' WHERE `item_id` = 3269;
-UPDATE `etcitem` SET `name` ='黏土團' WHERE `item_id` = 3270;
-UPDATE `etcitem` SET `name` ='鑰匙孔的模子' WHERE `item_id` = 3271;
-UPDATE `etcitem` SET `name` ='尼古拉的清單' WHERE `item_id` = 3272;
-UPDATE `etcitem` SET `name` ='司塔卡拓的殼' WHERE `item_id` = 3273;
-UPDATE `etcitem` SET `name` ='安皮克奧的毒腺' WHERE `item_id` = 3274;
-UPDATE `etcitem` SET `name` ='蜘蛛刺' WHERE `item_id` = 3275;
-UPDATE `etcitem` SET `name` ='優勝標章' WHERE `item_id` = 3276;
-UPDATE `etcitem` SET `name` ='艾斯卡倫的信' WHERE `item_id` = 3277;
-UPDATE `etcitem` SET `name` ='瑪森的信' WHERE `item_id` = 3278;
-UPDATE `etcitem` SET `name` ='鋼鐵玫瑰戒指' WHERE `item_id` = 3279;
-UPDATE `etcitem` SET `name` ='艾斯卡倫的信' WHERE `item_id` = 3280;
-UPDATE `etcitem` SET `name` ='白玫瑰徽章' WHERE `item_id` = 3281;
-UPDATE `etcitem` SET `name` ='葛魯特的信' WHERE `item_id` = 3282;
-UPDATE `etcitem` SET `name` ='艾斯卡倫的信' WHERE `item_id` = 3283;
-UPDATE `etcitem` SET `name` ='牟恩的指令書' WHERE `item_id` = 3284;
-UPDATE `etcitem` SET `name` ='牟恩的指令書' WHERE `item_id` = 3285;
-UPDATE `etcitem` SET `name` ='牟恩的信' WHERE `item_id` = 3286;
-UPDATE `etcitem` SET `name` ='鳥妖的蛋' WHERE `item_id` = 3287;
-UPDATE `etcitem` SET `name` ='梅杜莎的毒液' WHERE `item_id` = 3288;
-UPDATE `etcitem` SET `name` ='溫德薩斯的膽汁' WHERE `item_id` = 3289;
-UPDATE `etcitem` SET `name` ='血腥之斧菁英的頭' WHERE `item_id` = 3290;
-UPDATE `etcitem` SET `name` ='食腐王之頭' WHERE `item_id` = 3291;
-UPDATE `etcitem` SET `name` ='里多蜥蜴人的尖牙' WHERE `item_id` = 3292;
-UPDATE `etcitem` SET `name` ='人馬標章' WHERE `item_id` = 3293;
-UPDATE `etcitem` SET `name` ='伯納德的介紹信' WHERE `item_id` = 3294;
-UPDATE `etcitem` SET `name` ='漢彌爾的信' WHERE `item_id` = 3295;
-UPDATE `etcitem` SET `name` ='漢彌爾的信' WHERE `item_id` = 3296;
-UPDATE `etcitem` SET `name` ='漢彌爾的信' WHERE `item_id` = 3297;
-UPDATE `etcitem` SET `name` ='第一個獵人的古文' WHERE `item_id` = 3298;
-UPDATE `etcitem` SET `name` ='第二個獵人的古文' WHERE `item_id` = 3299;
-UPDATE `etcitem` SET `name` ='卡迪斯護身符' WHERE `item_id` = 3300;
-UPDATE `etcitem` SET `name` ='蛇的護身符' WHERE `item_id` = 3301;
-UPDATE `etcitem` SET `name` ='米索莉環' WHERE `item_id` = 3302;
-UPDATE `etcitem` SET `name` ='司塔卡拓的甲殼質' WHERE `item_id` = 3303;
-UPDATE `etcitem` SET `name` ='強化弓弦' WHERE `item_id` = 3304;
-UPDATE `etcitem` SET `name` ='瑪那宣之角' WHERE `item_id` = 3305;
-UPDATE `etcitem` SET `name` ='蜥蜴人之血' WHERE `item_id` = 3306;
-UPDATE `etcitem` SET `name` ='黑魔法標章' WHERE `item_id` = 3307;
-UPDATE `etcitem` SET `name` ='奧瑞米的圖鑑' WHERE `item_id` = 3308;
-UPDATE `etcitem` SET `name` ='亞歷珊卓的帳簿' WHERE `item_id` = 3309;
-UPDATE `etcitem` SET `name` ='益克的清單' WHERE `item_id` = 3310;
-UPDATE `etcitem` SET `name` ='邪惡亞龍之牙' WHERE `item_id` = 3311;
-UPDATE `etcitem` SET `name` ='里多蜥蜴人符咒' WHERE `item_id` = 3312;
-UPDATE `etcitem` SET `name` ='附法高崙的心臟石' WHERE `item_id` = 3313;
-UPDATE `etcitem` SET `name` ='拉盧斯的販賣紀錄' WHERE `item_id` = 3314;
-UPDATE `etcitem` SET `name` ='尼斯特樂的買入紀錄' WHERE `item_id` = 3315;
-UPDATE `etcitem` SET `name` ='雷歐波爾德的日誌' WHERE `item_id` = 3316;
-UPDATE `etcitem` SET `name` ='阿科蘭托斯的寶石' WHERE `item_id` = 3317;
-UPDATE `etcitem` SET `name` ='阿科蘭托斯的寶石' WHERE `item_id` = 3318;
-UPDATE `etcitem` SET `name` ='阿科蘭托斯的寶石' WHERE `item_id` = 3319;
-UPDATE `etcitem` SET `name` ='阿科蘭托斯的寶石' WHERE `item_id` = 3320;
-UPDATE `etcitem` SET `name` ='阿科蘭托斯的寶石' WHERE `item_id` = 3321;
-UPDATE `etcitem` SET `name` ='阿科蘭托斯的寶石' WHERE `item_id` = 3322;
-UPDATE `etcitem` SET `name` ='硫磺' WHERE `item_id` = 3323;
-UPDATE `etcitem` SET `name` ='奧瑞米的指示書' WHERE `item_id` = 3324;
-UPDATE `etcitem` SET `name` ='奧瑞米的信' WHERE `item_id` = 3325;
-UPDATE `etcitem` SET `name` ='奧瑞米的信' WHERE `item_id` = 3326;
-UPDATE `etcitem` SET `name` ='巴司柏閣下之信' WHERE `item_id` = 3327;
-UPDATE `etcitem` SET `name` ='瓦丁的聖徽' WHERE `item_id` = 3328;
-UPDATE `etcitem` SET `name` ='塔林獸人的護身符' WHERE `item_id` = 3329;
-UPDATE `etcitem` SET `name` ='瓦丁的許可證' WHERE `item_id` = 3330;
-UPDATE `etcitem` SET `name` ='益克的護身符' WHERE `item_id` = 3331;
-UPDATE `etcitem` SET `name` ='封印的水晶' WHERE `item_id` = 3332;
-UPDATE `etcitem` SET `name` ='煉獄的鑰匙' WHERE `item_id` = 3333;
-UPDATE `etcitem` SET `name` ='勒魯的封印水晶' WHERE `item_id` = 3334;
-UPDATE `etcitem` SET `name` ='硫磺' WHERE `item_id` = 3335;
-UPDATE `etcitem` SET `name` ='元素使標章' WHERE `item_id` = 3336;
-UPDATE `etcitem` SET `name` ='里多蜥蜴人的符咒' WHERE `item_id` = 3337;
-UPDATE `etcitem` SET `name` ='紅色孢子粉末' WHERE `item_id` = 3338;
-UPDATE `etcitem` SET `name` ='卡魯食人妖圖騰' WHERE `item_id` = 3339;
-UPDATE `etcitem` SET `name` ='瑪那宣的破片' WHERE `item_id` = 3340;
-UPDATE `etcitem` SET `name` ='布賴卡獸人的圖騰' WHERE `item_id` = 3341;
-UPDATE `etcitem` SET `name` ='赤色魔精石' WHERE `item_id` = 3342;
-UPDATE `etcitem` SET `name` ='暴君之爪' WHERE `item_id` = 3343;
-UPDATE `etcitem` SET `name` ='雄蟻之翼' WHERE `item_id` = 3344;
-UPDATE `etcitem` SET `name` ='溫德薩斯的牙' WHERE `item_id` = 3345;
-UPDATE `etcitem` SET `name` ='亞龍的尖牙' WHERE `item_id` = 3346;
-UPDATE `etcitem` SET `name` ='拉盧斯的清單' WHERE `item_id` = 3347;
-UPDATE `etcitem` SET `name` ='拉盧斯的清單' WHERE `item_id` = 3348;
-UPDATE `etcitem` SET `name` ='拉盧斯的清單' WHERE `item_id` = 3349;
-UPDATE `etcitem` SET `name` ='拉盧斯的清單' WHERE `item_id` = 3350;
-UPDATE `etcitem` SET `name` ='拉盧斯的清單' WHERE `item_id` = 3351;
-UPDATE `etcitem` SET `name` ='葛拉緹亞之信' WHERE `item_id` = 3352;
-UPDATE `etcitem` SET `name` ='見習用祕儀紙牌' WHERE `item_id` = 3353;
-UPDATE `etcitem` SET `name` ='艾爾摩斯的祕儀紙牌' WHERE `item_id` = 3354;
-UPDATE `etcitem` SET `name` ='坎摩尼爾的祕儀紙牌' WHERE `item_id` = 3355;
-UPDATE `etcitem` SET `name` ='貝瑟斯的祕儀紙牌' WHERE `item_id` = 3356;
-UPDATE `etcitem` SET `name` ='巴賽里拉的祕儀紙牌' WHERE `item_id` = 3357;
-UPDATE `etcitem` SET `name` ='凱薩緹歐的祕儀紙牌' WHERE `item_id` = 3358;
-UPDATE `etcitem` SET `name` ='布萊恩里的祕儀紙牌' WHERE `item_id` = 3359;
-UPDATE `etcitem` SET `name` ='開戰的水晶' WHERE `item_id` = 3360;
-UPDATE `etcitem` SET `name` ='進行的水晶' WHERE `item_id` = 3361;
-UPDATE `etcitem` SET `name` ='犯規的水晶' WHERE `item_id` = 3362;
-UPDATE `etcitem` SET `name` ='敗北的水晶' WHERE `item_id` = 3363;
-UPDATE `etcitem` SET `name` ='勝利的水晶' WHERE `item_id` = 3364;
-UPDATE `etcitem` SET `name` ='開戰的水晶' WHERE `item_id` = 3365;
-UPDATE `etcitem` SET `name` ='進行的水晶' WHERE `item_id` = 3366;
-UPDATE `etcitem` SET `name` ='犯規的水晶' WHERE `item_id` = 3367;
-UPDATE `etcitem` SET `name` ='敗北的水晶' WHERE `item_id` = 3368;
-UPDATE `etcitem` SET `name` ='勝利的水晶' WHERE `item_id` = 3369;
-UPDATE `etcitem` SET `name` ='開戰的水晶' WHERE `item_id` = 3370;
-UPDATE `etcitem` SET `name` ='進行的水晶' WHERE `item_id` = 3371;
-UPDATE `etcitem` SET `name` ='犯規的水晶' WHERE `item_id` = 3372;
-UPDATE `etcitem` SET `name` ='敗北的水晶' WHERE `item_id` = 3373;
-UPDATE `etcitem` SET `name` ='勝利的水晶' WHERE `item_id` = 3374;
-UPDATE `etcitem` SET `name` ='開戰的水晶' WHERE `item_id` = 3375;
-UPDATE `etcitem` SET `name` ='進行的水晶' WHERE `item_id` = 3376;
-UPDATE `etcitem` SET `name` ='犯規的水晶' WHERE `item_id` = 3377;
-UPDATE `etcitem` SET `name` ='敗北的水晶' WHERE `item_id` = 3378;
-UPDATE `etcitem` SET `name` ='勝利的水晶' WHERE `item_id` = 3379;
-UPDATE `etcitem` SET `name` ='開戰的水晶' WHERE `item_id` = 3380;
-UPDATE `etcitem` SET `name` ='進行的水晶' WHERE `item_id` = 3381;
-UPDATE `etcitem` SET `name` ='犯規的水晶' WHERE `item_id` = 3382;
-UPDATE `etcitem` SET `name` ='敗北的水晶' WHERE `item_id` = 3383;
-UPDATE `etcitem` SET `name` ='勝利的水晶' WHERE `item_id` = 3384;
-UPDATE `etcitem` SET `name` ='開戰的水晶' WHERE `item_id` = 3385;
-UPDATE `etcitem` SET `name` ='進行的水晶' WHERE `item_id` = 3386;
-UPDATE `etcitem` SET `name` ='犯規的水晶' WHERE `item_id` = 3387;
-UPDATE `etcitem` SET `name` ='敗北的水晶' WHERE `item_id` = 3388;
-UPDATE `etcitem` SET `name` ='勝利的水晶' WHERE `item_id` = 3389;
-UPDATE `etcitem` SET `name` ='君主標章' WHERE `item_id` = 3390;
-UPDATE `etcitem` SET `name` ='儀禮項鍊' WHERE `item_id` = 3391;
-UPDATE `etcitem` SET `name` ='巴勒庫斯符咒' WHERE `item_id` = 3392;
-UPDATE `etcitem` SET `name` ='泰吐斯符咒' WHERE `item_id` = 3393;
-UPDATE `etcitem` SET `name` ='哈拓斯符咒' WHERE `item_id` = 3394;
-UPDATE `etcitem` SET `name` ='塔庫納符咒' WHERE `item_id` = 3395;
-UPDATE `etcitem` SET `name` ='齊安塔符咒' WHERE `item_id` = 3396;
-UPDATE `etcitem` SET `name` ='瑪拉其亞的指令書' WHERE `item_id` = 3397;
-UPDATE `etcitem` SET `name` ='布賴卡獸人的尖牙' WHERE `item_id` = 3398;
-UPDATE `etcitem` SET `name` ='瑪拉其亞的護身符' WHERE `item_id` = 3399;
-UPDATE `etcitem` SET `name` ='巨大獸人的尖牙' WHERE `item_id` = 3400;
-UPDATE `etcitem` SET `name` ='蘇瑪黎之信' WHERE `item_id` = 3401;
-UPDATE `etcitem` SET `name` ='烏魯吐的劍身' WHERE `item_id` = 3402;
-UPDATE `etcitem` SET `name` ='提瑪克獸人的頭骨' WHERE `item_id` = 3403;
-UPDATE `etcitem` SET `name` ='鑲嵌劍的頭骨' WHERE `item_id` = 3404;
-UPDATE `etcitem` SET `name` ='那魯加斧的刀身' WHERE `item_id` = 3405;
-UPDATE `etcitem` SET `name` ='儀式之斧' WHERE `item_id` = 3406;
-UPDATE `etcitem` SET `name` ='沼澤蜘蛛的觸毛' WHERE `item_id` = 3407;
-UPDATE `etcitem` SET `name` ='沼澤蜘蛛的腳' WHERE `item_id` = 3408;
-UPDATE `etcitem` SET `name` ='手工蜘蛛胸針' WHERE `item_id` = 3409;
-UPDATE `etcitem` SET `name` ='附法眼怪的角膜' WHERE `item_id` = 3410;
-UPDATE `etcitem` SET `name` ='眼怪木刻' WHERE `item_id` = 3411;
-UPDATE `etcitem` SET `name` ='灰熊尖牙項鍊' WHERE `item_id` = 3412;
-UPDATE `etcitem` SET `name` ='瑪田庫斯的符咒' WHERE `item_id` = 3413;
-UPDATE `etcitem` SET `name` ='羅格那獸人之頭' WHERE `item_id` = 3414;
-UPDATE `etcitem` SET `name` ='羅格那首領的公文' WHERE `item_id` = 3415;
-UPDATE `etcitem` SET `name` ='永生的火焰' WHERE `item_id` = 3416;
-UPDATE `etcitem` SET `name` ='動物愛護者協會會員名單' WHERE `item_id` = 3417;
-UPDATE `etcitem` SET `name` ='動物虐殺者名單' WHERE `item_id` = 3418;
-UPDATE `etcitem` SET `name` ='動物虐殺者名單' WHERE `item_id` = 3419;
-UPDATE `etcitem` SET `name` ='動物虐殺者名單' WHERE `item_id` = 3420;
-UPDATE `etcitem` SET `name` ='動物虐殺者名單' WHERE `item_id` = 3421;
-UPDATE `etcitem` SET `name` ='動物虐殺者名單' WHERE `item_id` = 3422;
-UPDATE `etcitem` SET `name` ='血染的尖牙' WHERE `item_id` = 3423;
-UPDATE `etcitem` SET `name` ='血染的長爪' WHERE `item_id` = 3424;
-UPDATE `etcitem` SET `name` ='血染的巨勾' WHERE `item_id` = 3425;
-UPDATE `etcitem` SET `name` ='血染的卡沙尖牙' WHERE `item_id` = 3426;
-UPDATE `etcitem` SET `name` ='血染的狼蛛爪' WHERE `item_id` = 3427;
-UPDATE `etcitem` SET `name` ='水晶胸針' WHERE `item_id` = 3428;
-UPDATE `etcitem` SET `name` ='魔法書-終極治癒術' WHERE `item_id` = 3429;
-UPDATE `etcitem` SET `name` ='魔法書-終極急救術' WHERE `item_id` = 3430;
-UPDATE `etcitem` SET `name` ='魔法書-終極集體治癒術' WHERE `item_id` = 3431;
-UPDATE `etcitem` SET `name` ='魔法書-治療術' WHERE `item_id` = 3432;
-UPDATE `etcitem` SET `name` ='精靈模型' WHERE `item_id` = 3433;
-UPDATE `etcitem` SET `name` ='可口可樂' WHERE `item_id` = 3434;
-UPDATE `etcitem` SET `name` ='nVidia' WHERE `item_id` = 3435;
-UPDATE `etcitem` SET `name` ='滑鼠' WHERE `item_id` = 3436;
-UPDATE `etcitem` SET `name` ='商人的帳簿' WHERE `item_id` = 3437;
-UPDATE `etcitem` SET `name` ='巨商的帳簿' WHERE `item_id` = 3438;
-UPDATE `etcitem` SET `name` ='貨物箱子' WHERE `item_id` = 3440;
-UPDATE `etcitem` SET `name` ='貨物箱子' WHERE `item_id` = 3441;
-UPDATE `etcitem` SET `name` ='貨物箱子' WHERE `item_id` = 3442;
-UPDATE `etcitem` SET `name` ='貨物箱子' WHERE `item_id` = 3443;
-UPDATE `etcitem` SET `name` ='古魯丁蘋果' WHERE `item_id` = 3444;
-UPDATE `etcitem` SET `name` ='狄恩玉米粉' WHERE `item_id` = 3445;
-UPDATE `etcitem` SET `name` ='惡狼的皮' WHERE `item_id` = 3446;
-UPDATE `etcitem` SET `name` ='月長石' WHERE `item_id` = 3447;
-UPDATE `etcitem` SET `name` ='古魯丁麵粉' WHERE `item_id` = 3448;
-UPDATE `etcitem` SET `name` ='蜘蛛絲繩子' WHERE `item_id` = 3449;
-UPDATE `etcitem` SET `name` ='紫翠玉' WHERE `item_id` = 3450;
-UPDATE `etcitem` SET `name` ='銀製茶具' WHERE `item_id` = 3451;
-UPDATE `etcitem` SET `name` ='機械高崙零件' WHERE `item_id` = 3452;
-UPDATE `etcitem` SET `name` ='火焰綠寶石' WHERE `item_id` = 3453;
-UPDATE `etcitem` SET `name` ='阿貝拉絲綢禮服' WHERE `item_id` = 3454;
-UPDATE `etcitem` SET `name` ='貝里歐斯陶瓷壺' WHERE `item_id` = 3455;
-UPDATE `etcitem` SET `name` ='皇室之鑽' WHERE `item_id` = 3456;
-UPDATE `etcitem` SET `name` ='席琳雕像-頭部' WHERE `item_id` = 3457;
-UPDATE `etcitem` SET `name` ='席琳雕像-軀幹' WHERE `item_id` = 3458;
-UPDATE `etcitem` SET `name` ='席琳雕像-手臂' WHERE `item_id` = 3459;
-UPDATE `etcitem` SET `name` ='席琳雕像-腿部' WHERE `item_id` = 3460;
-UPDATE `etcitem` SET `name` ='完整的席琳雕像' WHERE `item_id` = 3461;
-UPDATE `etcitem` SET `name` ='古代黏土版碎片-第一片' WHERE `item_id` = 3462;
-UPDATE `etcitem` SET `name` ='古代黏土版碎片-第二片' WHERE `item_id` = 3463;
-UPDATE `etcitem` SET `name` ='古代黏土版碎片-第三片' WHERE `item_id` = 3464;
-UPDATE `etcitem` SET `name` ='古代黏土版碎片-第四片' WHERE `item_id` = 3465;
-UPDATE `etcitem` SET `name` ='完整的黏土版' WHERE `item_id` = 3466;
-UPDATE `etcitem` SET `name` ='願望藥水' WHERE `item_id` = 3467;
-UPDATE `etcitem` SET `name` ='古代王冠' WHERE `item_id` = 3468;
-UPDATE `etcitem` SET `name` ='王權證明書' WHERE `item_id` = 3469;
-UPDATE `etcitem` SET `name` ='金塊' WHERE `item_id` = 3470;
-UPDATE `etcitem` SET `name` ='血之梅杜莎' WHERE `item_id` = 3472;
-UPDATE `etcitem` SET `name` ='血之狼' WHERE `item_id` = 3473;
-UPDATE `etcitem` SET `name` ='血之劇毒邪惡蜥蜴' WHERE `item_id` = 3474;
-UPDATE `etcitem` SET `name` ='血之德雷巴奴' WHERE `item_id` = 3475;
-UPDATE `etcitem` SET `name` ='血之魅魔' WHERE `item_id` = 3476;
-UPDATE `etcitem` SET `name` ='血之龍' WHERE `item_id` = 3477;
-UPDATE `etcitem` SET `name` ='巴列斯的血之龍' WHERE `item_id` = 3478;
-UPDATE `etcitem` SET `name` ='瑪朗的血之狼' WHERE `item_id` = 3479;
-UPDATE `etcitem` SET `name` ='妮亞的血之梅杜莎' WHERE `item_id` = 3480;
-UPDATE `etcitem` SET `name` ='黃金龍' WHERE `item_id` = 3481;
-UPDATE `etcitem` SET `name` ='黃金翼龍' WHERE `item_id` = 3482;
-UPDATE `etcitem` SET `name` ='黃金騎士' WHERE `item_id` = 3483;
-UPDATE `etcitem` SET `name` ='黃金巨人' WHERE `item_id` = 3484;
-UPDATE `etcitem` SET `name` ='黃金飛龍' WHERE `item_id` = 3485;
-UPDATE `etcitem` SET `name` ='黃金亞龍' WHERE `item_id` = 3486;
-UPDATE `etcitem` SET `name` ='巴列斯的黃金龍' WHERE `item_id` = 3487;
-UPDATE `etcitem` SET `name` ='瑪朗的黃金巨人' WHERE `item_id` = 3488;
-UPDATE `etcitem` SET `name` ='妮亞的黃金翼龍' WHERE `item_id` = 3489;
-UPDATE `etcitem` SET `name` ='銀獨角獸' WHERE `item_id` = 3490;
-UPDATE `etcitem` SET `name` ='銀妖精' WHERE `item_id` = 3491;
-UPDATE `etcitem` SET `name` ='銀樹精' WHERE `item_id` = 3492;
-UPDATE `etcitem` SET `name` ='銀龍' WHERE `item_id` = 3493;
-UPDATE `etcitem` SET `name` ='銀高崙' WHERE `item_id` = 3494;
-UPDATE `etcitem` SET `name` ='銀水精' WHERE `item_id` = 3495;
-UPDATE `etcitem` SET `name` ='巴列斯的銀龍' WHERE `item_id` = 3496;
-UPDATE `etcitem` SET `name` ='瑪朗的銀樹精' WHERE `item_id` = 3497;
-UPDATE `etcitem` SET `name` ='妮亞的銀妖精' WHERE `item_id` = 3498;
-UPDATE `etcitem` SET `name` ='精靈粉末' WHERE `item_id` = 3499;
-UPDATE `etcitem` SET `name` ='風龍笛' WHERE `item_id` = 3500;
-UPDATE `etcitem` SET `name` ='星龍笛' WHERE `item_id` = 3501;
-UPDATE `etcitem` SET `name` ='黃昏龍笛' WHERE `item_id` = 3502;
-UPDATE `etcitem` SET `name` ='送貨員證明' WHERE `item_id` = 3503;
-UPDATE `etcitem` SET `name` ='基魯那的號角' WHERE `item_id` = 3504;
-UPDATE `etcitem` SET `name` ='米索莉鑄模' WHERE `item_id` = 3505;
-UPDATE `etcitem` SET `name` ='血色的信' WHERE `item_id` = 3506;
-UPDATE `etcitem` SET `name` ='補給物資' WHERE `item_id` = 3507;
-UPDATE `etcitem` SET `name` ='補給物資' WHERE `item_id` = 3508;
-UPDATE `etcitem` SET `name` ='阿蘭克爾的貨幣' WHERE `item_id` = 3509;
-UPDATE `etcitem` SET `name` ='典獄長的感謝函' WHERE `item_id` = 3510;
-UPDATE `etcitem` SET `name` ='黑箱子' WHERE `item_id` = 3511;
-UPDATE `etcitem` SET `name` ='特製溫德薩斯火腿' WHERE `item_id` = 3512;
-UPDATE `etcitem` SET `name` ='賽勒諾斯的心臟' WHERE `item_id` = 3513;
-UPDATE `etcitem` SET `name` ='奇岩城鎮的送貨委託書' WHERE `item_id` = 3514;
-UPDATE `etcitem` SET `name` ='古魯丁村莊的送貨委託書' WHERE `item_id` = 3515;
-UPDATE `etcitem` SET `name` ='獵人村莊的送貨委託書' WHERE `item_id` = 3516;
-UPDATE `etcitem` SET `name` ='赤色送貨收據' WHERE `item_id` = 3517;
-UPDATE `etcitem` SET `name` ='青色送貨收據' WHERE `item_id` = 3518;
-UPDATE `etcitem` SET `name` ='送貨員專家證明' WHERE `item_id` = 3519;
-UPDATE `etcitem` SET `name` ='領受證' WHERE `item_id` = 3520;
-UPDATE `etcitem` SET `name` ='領受證' WHERE `item_id` = 3521;
-UPDATE `etcitem` SET `name` ='卷軸' WHERE `item_id` = 3522;
-UPDATE `etcitem` SET `name` ='信' WHERE `item_id` = 3523;
-UPDATE `etcitem` SET `name` ='書' WHERE `item_id` = 3524;
-UPDATE `etcitem` SET `name` ='文件' WHERE `item_id` = 3525;
-UPDATE `etcitem` SET `name` ='信' WHERE `item_id` = 3526;
-UPDATE `etcitem` SET `name` ='包袱' WHERE `item_id` = 3527;
-UPDATE `etcitem` SET `name` ='信' WHERE `item_id` = 3528;
-UPDATE `etcitem` SET `name` ='畫' WHERE `item_id` = 3529;
-UPDATE `etcitem` SET `name` ='甕' WHERE `item_id` = 3530;
-UPDATE `etcitem` SET `name` ='箱子' WHERE `item_id` = 3531;
-UPDATE `etcitem` SET `name` ='甕' WHERE `item_id` = 3532;
-UPDATE `etcitem` SET `name` ='箱子' WHERE `item_id` = 3533;
-UPDATE `etcitem` SET `name` ='機械裝置' WHERE `item_id` = 3534;
-UPDATE `etcitem` SET `name` ='寶石箱' WHERE `item_id` = 3535;
-UPDATE `etcitem` SET `name` ='寶石箱' WHERE `item_id` = 3536;
-UPDATE `etcitem` SET `name` ='信' WHERE `item_id` = 3537;
-UPDATE `etcitem` SET `name` ='書' WHERE `item_id` = 3538;
-UPDATE `etcitem` SET `name` ='雕刻品' WHERE `item_id` = 3539;
-UPDATE `etcitem` SET `name` ='箱子' WHERE `item_id` = 3540;
-UPDATE `etcitem` SET `name` ='雕刻品' WHERE `item_id` = 3541;
-UPDATE `etcitem` SET `name` ='寶石箱' WHERE `item_id` = 3542;
-UPDATE `etcitem` SET `name` ='文件' WHERE `item_id` = 3543;
-UPDATE `etcitem` SET `name` ='藥瓶' WHERE `item_id` = 3544;
-UPDATE `etcitem` SET `name` ='雕刻品' WHERE `item_id` = 3545;
-UPDATE `etcitem` SET `name` ='礦石' WHERE `item_id` = 3546;
-UPDATE `etcitem` SET `name` ='書' WHERE `item_id` = 3547;
-UPDATE `etcitem` SET `name` ='卷軸' WHERE `item_id` = 3548;
-UPDATE `etcitem` SET `name` ='畫' WHERE `item_id` = 3549;
-UPDATE `etcitem` SET `name` ='布匹' WHERE `item_id` = 3550;
-UPDATE `etcitem` SET `name` ='甕' WHERE `item_id` = 3551;
-UPDATE `etcitem` SET `name` ='鑽石' WHERE `item_id` = 3552;
-UPDATE `etcitem` SET `name` ='寶石箱' WHERE `item_id` = 3553;
-UPDATE `etcitem` SET `name` ='金塊' WHERE `item_id` = 3554;
-UPDATE `etcitem` SET `name` ='包袱' WHERE `item_id` = 3555;
-UPDATE `etcitem` SET `name` ='信' WHERE `item_id` = 3556;
-UPDATE `etcitem` SET `name` ='布匹' WHERE `item_id` = 3557;
-UPDATE `etcitem` SET `name` ='書' WHERE `item_id` = 3558;
-UPDATE `etcitem` SET `name` ='礦石' WHERE `item_id` = 3559;
-UPDATE `etcitem` SET `name` ='藥瓶' WHERE `item_id` = 3560;
-UPDATE `etcitem` SET `name` ='小箱子' WHERE `item_id` = 3561;
-UPDATE `etcitem` SET `name` ='文件' WHERE `item_id` = 3562;
-UPDATE `etcitem` SET `name` ='卷軸' WHERE `item_id` = 3563;
-UPDATE `etcitem` SET `name` ='文件' WHERE `item_id` = 3564;
-UPDATE `etcitem` SET `name` ='箱子' WHERE `item_id` = 3565;
-UPDATE `etcitem` SET `name` ='包袱' WHERE `item_id` = 3566;
-UPDATE `etcitem` SET `name` ='鑰匙' WHERE `item_id` = 3567;
-UPDATE `etcitem` SET `name` ='機械裝置' WHERE `item_id` = 3568;
-UPDATE `etcitem` SET `name` ='文件' WHERE `item_id` = 3569;
-UPDATE `etcitem` SET `name` ='小箱子' WHERE `item_id` = 3570;
-UPDATE `etcitem` SET `name` ='包袱' WHERE `item_id` = 3571;
-UPDATE `etcitem` SET `name` ='箱子' WHERE `item_id` = 3572;
-UPDATE `etcitem` SET `name` ='畫' WHERE `item_id` = 3573;
-UPDATE `etcitem` SET `name` ='卷軸' WHERE `item_id` = 3574;
-UPDATE `etcitem` SET `name` ='箱子' WHERE `item_id` = 3575;
-UPDATE `etcitem` SET `name` ='甕' WHERE `item_id` = 3576;
-UPDATE `etcitem` SET `name` ='寶石箱' WHERE `item_id` = 3577;
-UPDATE `etcitem` SET `name` ='書' WHERE `item_id` = 3578;
-UPDATE `etcitem` SET `name` ='藥瓶' WHERE `item_id` = 3579;
-UPDATE `etcitem` SET `name` ='卷軸' WHERE `item_id` = 3580;
-UPDATE `etcitem` SET `name` ='小箱子' WHERE `item_id` = 3581;
-UPDATE `etcitem` SET `name` ='藥瓶' WHERE `item_id` = 3582;
-UPDATE `etcitem` SET `name` ='卷軸' WHERE `item_id` = 3583;
-UPDATE `etcitem` SET `name` ='信' WHERE `item_id` = 3584;
-UPDATE `etcitem` SET `name` ='寶石箱' WHERE `item_id` = 3585;
-UPDATE `etcitem` SET `name` ='樣本' WHERE `item_id` = 3586;
-UPDATE `etcitem` SET `name` ='包袱' WHERE `item_id` = 3587;
-UPDATE `etcitem` SET `name` ='書' WHERE `item_id` = 3588;
-UPDATE `etcitem` SET `name` ='領受證' WHERE `item_id` = 3589;
-UPDATE `etcitem` SET `name` ='領受證' WHERE `item_id` = 3590;
-UPDATE `etcitem` SET `name` ='領受證' WHERE `item_id` = 3591;
-UPDATE `etcitem` SET `name` ='領受證' WHERE `item_id` = 3592;
-UPDATE `etcitem` SET `name` ='領受證' WHERE `item_id` = 3593;
-UPDATE `etcitem` SET `name` ='領受證' WHERE `item_id` = 3594;
-UPDATE `etcitem` SET `name` ='領受證' WHERE `item_id` = 3595;
-UPDATE `etcitem` SET `name` ='領受證' WHERE `item_id` = 3596;
-UPDATE `etcitem` SET `name` ='領受證' WHERE `item_id` = 3597;
-UPDATE `etcitem` SET `name` ='領受證' WHERE `item_id` = 3598;
-UPDATE `etcitem` SET `name` ='領受證' WHERE `item_id` = 3599;
-UPDATE `etcitem` SET `name` ='領受證' WHERE `item_id` = 3600;
-UPDATE `etcitem` SET `name` ='領受證' WHERE `item_id` = 3601;
-UPDATE `etcitem` SET `name` ='領受證' WHERE `item_id` = 3602;
-UPDATE `etcitem` SET `name` ='領受證' WHERE `item_id` = 3603;
-UPDATE `etcitem` SET `name` ='領受證' WHERE `item_id` = 3604;
-UPDATE `etcitem` SET `name` ='領受證' WHERE `item_id` = 3605;
-UPDATE `etcitem` SET `name` ='領受證' WHERE `item_id` = 3606;
-UPDATE `etcitem` SET `name` ='領受證' WHERE `item_id` = 3607;
-UPDATE `etcitem` SET `name` ='領受證' WHERE `item_id` = 3608;
-UPDATE `etcitem` SET `name` ='領受證' WHERE `item_id` = 3609;
-UPDATE `etcitem` SET `name` ='領受證' WHERE `item_id` = 3610;
-UPDATE `etcitem` SET `name` ='領受證' WHERE `item_id` = 3611;
-UPDATE `etcitem` SET `name` ='領受證' WHERE `item_id` = 3612;
-UPDATE `etcitem` SET `name` ='領受證' WHERE `item_id` = 3613;
-UPDATE `etcitem` SET `name` ='領受證' WHERE `item_id` = 3614;
-UPDATE `etcitem` SET `name` ='領受證' WHERE `item_id` = 3615;
-UPDATE `etcitem` SET `name` ='領受證' WHERE `item_id` = 3616;
-UPDATE `etcitem` SET `name` ='領受證' WHERE `item_id` = 3617;
-UPDATE `etcitem` SET `name` ='領受證' WHERE `item_id` = 3618;
-UPDATE `etcitem` SET `name` ='領受證' WHERE `item_id` = 3619;
-UPDATE `etcitem` SET `name` ='領受證' WHERE `item_id` = 3620;
-UPDATE `etcitem` SET `name` ='領受證' WHERE `item_id` = 3621;
-UPDATE `etcitem` SET `name` ='領受證' WHERE `item_id` = 3622;
-UPDATE `etcitem` SET `name` ='領受證' WHERE `item_id` = 3623;
-UPDATE `etcitem` SET `name` ='領受證' WHERE `item_id` = 3624;
-UPDATE `etcitem` SET `name` ='領受證' WHERE `item_id` = 3625;
-UPDATE `etcitem` SET `name` ='領受證' WHERE `item_id` = 3626;
-UPDATE `etcitem` SET `name` ='領受證' WHERE `item_id` = 3627;
-UPDATE `etcitem` SET `name` ='領受證' WHERE `item_id` = 3628;
-UPDATE `etcitem` SET `name` ='領受證' WHERE `item_id` = 3629;
-UPDATE `etcitem` SET `name` ='領受證' WHERE `item_id` = 3630;
-UPDATE `etcitem` SET `name` ='領受證' WHERE `item_id` = 3631;
-UPDATE `etcitem` SET `name` ='領受證' WHERE `item_id` = 3632;
-UPDATE `etcitem` SET `name` ='領受證' WHERE `item_id` = 3633;
-UPDATE `etcitem` SET `name` ='領受證' WHERE `item_id` = 3634;
-UPDATE `etcitem` SET `name` ='領受證' WHERE `item_id` = 3635;
-UPDATE `etcitem` SET `name` ='領受證' WHERE `item_id` = 3636;
-UPDATE `etcitem` SET `name` ='領受證' WHERE `item_id` = 3637;
-UPDATE `etcitem` SET `name` ='領受證' WHERE `item_id` = 3638;
-UPDATE `etcitem` SET `name` ='領受證' WHERE `item_id` = 3639;
-UPDATE `etcitem` SET `name` ='領受證' WHERE `item_id` = 3640;
-UPDATE `etcitem` SET `name` ='領受證' WHERE `item_id` = 3641;
-UPDATE `etcitem` SET `name` ='領受證' WHERE `item_id` = 3642;
-UPDATE `etcitem` SET `name` ='領受證' WHERE `item_id` = 3643;
-UPDATE `etcitem` SET `name` ='領受證' WHERE `item_id` = 3644;
-UPDATE `etcitem` SET `name` ='領受證' WHERE `item_id` = 3645;
-UPDATE `etcitem` SET `name` ='領受證' WHERE `item_id` = 3646;
-UPDATE `etcitem` SET `name` ='領受證' WHERE `item_id` = 3647;
-UPDATE `etcitem` SET `name` ='領受證' WHERE `item_id` = 3648;
-UPDATE `etcitem` SET `name` ='領受證' WHERE `item_id` = 3649;
-UPDATE `etcitem` SET `name` ='領受證' WHERE `item_id` = 3650;
-UPDATE `etcitem` SET `name` ='領受證' WHERE `item_id` = 3651;
-UPDATE `etcitem` SET `name` ='領受證' WHERE `item_id` = 3652;
-UPDATE `etcitem` SET `name` ='領受證' WHERE `item_id` = 3653;
-UPDATE `etcitem` SET `name` ='領受證' WHERE `item_id` = 3654;
-UPDATE `etcitem` SET `name` ='領受證' WHERE `item_id` = 3655;
-UPDATE `etcitem` SET `name` ='眼怪的眼' WHERE `item_id` = 3656;
-UPDATE `etcitem` SET `name` ='路行蜘蛛的爪' WHERE `item_id` = 3657;
-UPDATE `etcitem` SET `name` ='豺狼軍官服' WHERE `item_id` = 3658;
-UPDATE `etcitem` SET `name` ='阿蘭克爾的頭' WHERE `item_id` = 3659;
-UPDATE `etcitem` SET `name` ='血腥蜜蜂毒針' WHERE `item_id` = 3660;
-UPDATE `etcitem` SET `name` ='鬼魂之火的火源' WHERE `item_id` = 3661;
-UPDATE `etcitem` SET `name` ='飄蕩之血' WHERE `item_id` = 3662;
-UPDATE `etcitem` SET `name` ='箱子' WHERE `item_id` = 3663;
-UPDATE `etcitem` SET `name` ='寶石箱' WHERE `item_id` = 3664;
-UPDATE `etcitem` SET `name` ='甕' WHERE `item_id` = 3665;
-UPDATE `etcitem` SET `name` ='金塊' WHERE `item_id` = 3666;
-UPDATE `etcitem` SET `name` ='書' WHERE `item_id` = 3667;
-UPDATE `etcitem` SET `name` ='包袱' WHERE `item_id` = 3668;
-UPDATE `etcitem` SET `name` ='甕' WHERE `item_id` = 3669;
-UPDATE `etcitem` SET `name` ='小箱子' WHERE `item_id` = 3670;
-UPDATE `etcitem` SET `name` ='索比亞的指令書' WHERE `item_id` = 3671;
-UPDATE `etcitem` SET `name` ='索比亞的指令書' WHERE `item_id` = 3672;
-UPDATE `etcitem` SET `name` ='索比亞的指令書' WHERE `item_id` = 3673;
-UPDATE `etcitem` SET `name` ='索比亞的指令書' WHERE `item_id` = 3674;
-UPDATE `etcitem` SET `name` ='獅子之爪' WHERE `item_id` = 3675;
-UPDATE `etcitem` SET `name` ='獅子之眼' WHERE `item_id` = 3676;
-UPDATE `etcitem` SET `name` ='亞丁商業同盟貨幣' WHERE `item_id` = 3677;
-UPDATE `etcitem` SET `name` ='鍊金術教材' WHERE `item_id` = 3678;
-UPDATE `etcitem` SET `name` ='魔法藥水祕方' WHERE `item_id` = 3679;
-UPDATE `etcitem` SET `name` ='馬堤爾德材料目錄-第二張' WHERE `item_id` = 3680;
-UPDATE `etcitem` SET `name` ='馬堤爾德材料目錄-第一張' WHERE `item_id` = 3681;
-UPDATE `etcitem` SET `name` ='馬堤爾德之珠' WHERE `item_id` = 3682;
-UPDATE `etcitem` SET `name` ='禁止的愛情祕卷' WHERE `item_id` = 3683;
-UPDATE `etcitem` SET `name` ='安柏邪惡蜥蜴的鱗' WHERE `item_id` = 3684;
-UPDATE `etcitem` SET `name` ='風之靈魂石' WHERE `item_id` = 3685;
-UPDATE `etcitem` SET `name` ='玻璃眼' WHERE `item_id` = 3686;
-UPDATE `etcitem` SET `name` ='薄霧撕裂者的外殼' WHERE `item_id` = 3687;
-UPDATE `etcitem` SET `name` ='賽勒諾斯的角' WHERE `item_id` = 3688;
-UPDATE `etcitem` SET `name` ='兵蟻的蚜蟲' WHERE `item_id` = 3689;
-UPDATE `etcitem` SET `name` ='暴君的甲殼破片' WHERE `item_id` = 3690;
-UPDATE `etcitem` SET `name` ='食人妖的血' WHERE `item_id` = 3691;
-UPDATE `etcitem` SET `name` ='獵人資格證-一團' WHERE `item_id` = 3692;
-UPDATE `etcitem` SET `name` ='獵人資格證-二團' WHERE `item_id` = 3693;
-UPDATE `etcitem` SET `name` ='月桂樹裝飾夾' WHERE `item_id` = 3694;
-UPDATE `etcitem` SET `name` ='指示書-一團資格考驗' WHERE `item_id` = 3695;
-UPDATE `etcitem` SET `name` ='指示書-二團資格考驗' WHERE `item_id` = 3696;
-UPDATE `etcitem` SET `name` ='齊白霖的委託書' WHERE `item_id` = 3697;
-UPDATE `etcitem` SET `name` ='血水晶-純度1' WHERE `item_id` = 3698;
-UPDATE `etcitem` SET `name` ='血水晶-純度2' WHERE `item_id` = 3699;
-UPDATE `etcitem` SET `name` ='血水晶-純度3' WHERE `item_id` = 3700;
-UPDATE `etcitem` SET `name` ='血水晶-純度4' WHERE `item_id` = 3701;
-UPDATE `etcitem` SET `name` ='血水晶-純度5' WHERE `item_id` = 3702;
-UPDATE `etcitem` SET `name` ='血水晶-純度6' WHERE `item_id` = 3703;
-UPDATE `etcitem` SET `name` ='血水晶-純度7' WHERE `item_id` = 3704;
-UPDATE `etcitem` SET `name` ='血水晶-純度8' WHERE `item_id` = 3705;
-UPDATE `etcitem` SET `name` ='血水晶-純度9' WHERE `item_id` = 3706;
-UPDATE `etcitem` SET `name` ='血水晶-純度10' WHERE `item_id` = 3707;
-UPDATE `etcitem` SET `name` ='破碎的血水晶' WHERE `item_id` = 3708;
-UPDATE `etcitem` SET `name` ='邪惡蜥蜴守護者的鱗' WHERE `item_id` = 3709;
-UPDATE `etcitem` SET `name` ='卡魯特藥草' WHERE `item_id` = 3710;
-UPDATE `etcitem` SET `name` ='哈卡的頭' WHERE `item_id` = 3711;
-UPDATE `etcitem` SET `name` ='札卡的頭' WHERE `item_id` = 3712;
-UPDATE `etcitem` SET `name` ='瑪爾卡的頭' WHERE `item_id` = 3713;
-UPDATE `etcitem` SET `name` ='溫德薩斯阿勒伏的皮' WHERE `item_id` = 3714;
-UPDATE `etcitem` SET `name` ='青色魔精石' WHERE `item_id` = 3715;
-UPDATE `etcitem` SET `name` ='腐海孢子' WHERE `item_id` = 3716;
-UPDATE `etcitem` SET `name` ='提瑪克獸人圖騰' WHERE `item_id` = 3717;
-UPDATE `etcitem` SET `name` ='崔沙林的蛛絲' WHERE `item_id` = 3718;
-UPDATE `etcitem` SET `name` ='安普勒斯果實' WHERE `item_id` = 3719;
-UPDATE `etcitem` SET `name` ='烽火水晶' WHERE `item_id` = 3720;
-UPDATE `etcitem` SET `name` ='帝國樣式的箭頭' WHERE `item_id` = 3721;
-UPDATE `etcitem` SET `name` ='阿吐的頭' WHERE `item_id` = 3722;
-UPDATE `etcitem` SET `name` ='藍卡的頭' WHERE `item_id` = 3723;
-UPDATE `etcitem` SET `name` ='特力茲卡的頭' WHERE `item_id` = 3724;
-UPDATE `etcitem` SET `name` ='摩特拉的頭' WHERE `item_id` = 3725;
-UPDATE `etcitem` SET `name` ='卡朗特的頭' WHERE `item_id` = 3726;
-UPDATE `etcitem` SET `name` ='委託受領證' WHERE `item_id` = 3727;
-UPDATE `etcitem` SET `name` ='委託受領證' WHERE `item_id` = 3728;
-UPDATE `etcitem` SET `name` ='委託受領證' WHERE `item_id` = 3729;
-UPDATE `etcitem` SET `name` ='委託受領證' WHERE `item_id` = 3730;
-UPDATE `etcitem` SET `name` ='委託受領證' WHERE `item_id` = 3731;
-UPDATE `etcitem` SET `name` ='委託受領證' WHERE `item_id` = 3732;
-UPDATE `etcitem` SET `name` ='委託受領證' WHERE `item_id` = 3733;
-UPDATE `etcitem` SET `name` ='委託受領證' WHERE `item_id` = 3734;
-UPDATE `etcitem` SET `name` ='委託受領證' WHERE `item_id` = 3735;
-UPDATE `etcitem` SET `name` ='委託受領證' WHERE `item_id` = 3736;
-UPDATE `etcitem` SET `name` ='委託受領證' WHERE `item_id` = 3737;
-UPDATE `etcitem` SET `name` ='委託受領證' WHERE `item_id` = 3738;
-UPDATE `etcitem` SET `name` ='委託受領證' WHERE `item_id` = 3739;
-UPDATE `etcitem` SET `name` ='委託受領證' WHERE `item_id` = 3740;
-UPDATE `etcitem` SET `name` ='委託受領證' WHERE `item_id` = 3741;
-UPDATE `etcitem` SET `name` ='委託受領證' WHERE `item_id` = 3742;
-UPDATE `etcitem` SET `name` ='委託受領證' WHERE `item_id` = 3743;
-UPDATE `etcitem` SET `name` ='委託受領證' WHERE `item_id` = 3744;
-UPDATE `etcitem` SET `name` ='委託受領證' WHERE `item_id` = 3745;
-UPDATE `etcitem` SET `name` ='委託受領證' WHERE `item_id` = 3746;
-UPDATE `etcitem` SET `name` ='委託受領證' WHERE `item_id` = 3747;
-UPDATE `etcitem` SET `name` ='委託受領證' WHERE `item_id` = 3748;
-UPDATE `etcitem` SET `name` ='委託受領證' WHERE `item_id` = 3749;
-UPDATE `etcitem` SET `name` ='委託受領證' WHERE `item_id` = 3750;
-UPDATE `etcitem` SET `name` ='委託受領證' WHERE `item_id` = 3751;
-UPDATE `etcitem` SET `name` ='委託受領證' WHERE `item_id` = 3752;
-UPDATE `etcitem` SET `name` ='委託受領證' WHERE `item_id` = 3753;
-UPDATE `etcitem` SET `name` ='委託受領證' WHERE `item_id` = 3754;
-UPDATE `etcitem` SET `name` ='委託受領證' WHERE `item_id` = 3755;
-UPDATE `etcitem` SET `name` ='委託受領證' WHERE `item_id` = 3756;
-UPDATE `etcitem` SET `name` ='委託受領證' WHERE `item_id` = 3757;
-UPDATE `etcitem` SET `name` ='委託受領證' WHERE `item_id` = 3758;
-UPDATE `etcitem` SET `name` ='委託受領證' WHERE `item_id` = 3759;
-UPDATE `etcitem` SET `name` ='委託受領證' WHERE `item_id` = 3760;
-UPDATE `etcitem` SET `name` ='委託受領證' WHERE `item_id` = 3761;
-UPDATE `etcitem` SET `name` ='委託受領證' WHERE `item_id` = 3762;
-UPDATE `etcitem` SET `name` ='委託受領證' WHERE `item_id` = 3763;
-UPDATE `etcitem` SET `name` ='委託受領證' WHERE `item_id` = 3764;
-UPDATE `etcitem` SET `name` ='委託受領證' WHERE `item_id` = 3765;
-UPDATE `etcitem` SET `name` ='委託受領證' WHERE `item_id` = 3766;
-UPDATE `etcitem` SET `name` ='委託受領證' WHERE `item_id` = 3767;
-UPDATE `etcitem` SET `name` ='委託受領證' WHERE `item_id` = 3768;
-UPDATE `etcitem` SET `name` ='軍神卡迪斯圖騰' WHERE `item_id` = 3769;
-UPDATE `etcitem` SET `name` ='提瑪克玉石項鍊' WHERE `item_id` = 3770;
-UPDATE `etcitem` SET `name` ='附法岩石高崙的破片' WHERE `item_id` = 3771;
-UPDATE `etcitem` SET `name` ='巨大眼怪的肉' WHERE `item_id` = 3772;
-UPDATE `etcitem` SET `name` ='邪惡亞龍的蛋' WHERE `item_id` = 3773;
-UPDATE `etcitem` SET `name` ='邪惡蜥蜴守護者的爪' WHERE `item_id` = 3774;
-UPDATE `etcitem` SET `name` ='亡者鎖鏈' WHERE `item_id` = 3775;
-UPDATE `etcitem` SET `name` ='溫德薩斯的牙' WHERE `item_id` = 3776;
-UPDATE `etcitem` SET `name` ='葛雷迪斯的頭骨' WHERE `item_id` = 3777;
-UPDATE `etcitem` SET `name` ='泰可黑曜石項鍊' WHERE `item_id` = 3778;
-UPDATE `etcitem` SET `name` ='卡魯食人妖的頭' WHERE `item_id` = 3779;
-UPDATE `etcitem` SET `name` ='塔林的象牙符咒' WHERE `item_id` = 3780;
-UPDATE `etcitem` SET `name` ='拿拉克的頸項' WHERE `item_id` = 3781;
-UPDATE `etcitem` SET `name` ='附法翼魔的角' WHERE `item_id` = 3782;
-UPDATE `etcitem` SET `name` ='盤繞的蛇圖騰' WHERE `item_id` = 3783;
-UPDATE `etcitem` SET `name` ='卡迪斯圖騰' WHERE `item_id` = 3784;
-UPDATE `etcitem` SET `name` ='卡毅克的頭' WHERE `item_id` = 3785;
-UPDATE `etcitem` SET `name` ='可洛比的毒囊' WHERE `item_id` = 3786;
-UPDATE `etcitem` SET `name` ='伊娃的符咒' WHERE `item_id` = 3787;
-UPDATE `etcitem` SET `name` ='下巨人的石板' WHERE `item_id` = 3788;
-UPDATE `etcitem` SET `name` ='史奈曼的經典' WHERE `item_id` = 3789;
-UPDATE `etcitem` SET `name` ='腐爛樹的孢子' WHERE `item_id` = 3790;
-UPDATE `etcitem` SET `name` ='崔沙林的毒囊' WHERE `item_id` = 3791;
-UPDATE `etcitem` SET `name` ='泰可獸人圖騰' WHERE `item_id` = 3792;
-UPDATE `etcitem` SET `name` ='哈里特的鱗項鍊' WHERE `item_id` = 3793;
-UPDATE `etcitem` SET `name` ='古代帝國的貨銅幣' WHERE `item_id` = 3794;
-UPDATE `etcitem` SET `name` ='帕克蘭的皮' WHERE `item_id` = 3795;
-UPDATE `etcitem` SET `name` ='颶風碎片' WHERE `item_id` = 3796;
-UPDATE `etcitem` SET `name` ='海嘯碎片' WHERE `item_id` = 3797;
-UPDATE `etcitem` SET `name` ='片奴的鬃毛' WHERE `item_id` = 3798;
-UPDATE `etcitem` SET `name` ='木精碎片' WHERE `item_id` = 3799;
-UPDATE `etcitem` SET `name` ='賽勒諾斯的銀色鬃毛' WHERE `item_id` = 3800;
-UPDATE `etcitem` SET `name` ='塔爾克食人妖圖騰' WHERE `item_id` = 3801;
-UPDATE `etcitem` SET `name` ='奧昆的頭' WHERE `item_id` = 3802;
-UPDATE `etcitem` SET `name` ='卡克蘭的頭' WHERE `item_id` = 3803;
-UPDATE `etcitem` SET `name` ='那勒西斯的靈魂石' WHERE `item_id` = 3804;
-UPDATE `etcitem` SET `name` ='帝萊普之眼' WHERE `item_id` = 3805;
-UPDATE `etcitem` SET `name` ='獨角獸的角' WHERE `item_id` = 3806;
-UPDATE `etcitem` SET `name` ='克爾諾斯的黃金鬃毛' WHERE `item_id` = 3807;
-UPDATE `etcitem` SET `name` ='死刑犯的頭骨' WHERE `item_id` = 3808;
-UPDATE `etcitem` SET `name` ='特拉庇斯的胸像' WHERE `item_id` = 3809;
-UPDATE `etcitem` SET `name` ='卡德姆斯親衛隊之劍' WHERE `item_id` = 3810;
-UPDATE `etcitem` SET `name` ='貨幣圖鑑' WHERE `item_id` = 3811;
-UPDATE `etcitem` SET `name` ='卡第斯的黃金龍' WHERE `item_id` = 3812;
-UPDATE `etcitem` SET `name` ='銅幣收集會會員證一級' WHERE `item_id` = 3813;
-UPDATE `etcitem` SET `name` ='銅幣收集會會員證二級' WHERE `item_id` = 3814;
-UPDATE `etcitem` SET `name` ='銅幣收集會會員證三級' WHERE `item_id` = 3815;
-UPDATE `etcitem` SET `name` ='妖精石' WHERE `item_id` = 3816;
-UPDATE `etcitem` SET `name` ='純白妖精石' WHERE `item_id` = 3817;
-UPDATE `etcitem` SET `name` ='妖精石的材料清單' WHERE `item_id` = 3818;
-UPDATE `etcitem` SET `name` ='純白妖精石的材料清單' WHERE `item_id` = 3819;
-UPDATE `etcitem` SET `name` ='安皮克奧的背皮' WHERE `item_id` = 3820;
-UPDATE `etcitem` SET `name` ='附子汁液' WHERE `item_id` = 3821;
-UPDATE `etcitem` SET `name` ='飛龍艾薩里恩的麟' WHERE `item_id` = 3822;
-UPDATE `etcitem` SET `name` ='飛龍艾薩里恩的蛋' WHERE `item_id` = 3823;
-UPDATE `etcitem` SET `name` ='飛龍座芙的鱗' WHERE `item_id` = 3824;
-UPDATE `etcitem` SET `name` ='飛龍座芙的蛋' WHERE `item_id` = 3825;
-UPDATE `etcitem` SET `name` ='飛龍卡理布藍的麟' WHERE `item_id` = 3826;
-UPDATE `etcitem` SET `name` ='飛龍卡理布藍的蛋' WHERE `item_id` = 3827;
-UPDATE `etcitem` SET `name` ='亞龍舒簡特的麟' WHERE `item_id` = 3828;
-UPDATE `etcitem` SET `name` ='亞龍舒簡特的蛋' WHERE `item_id` = 3829;
-UPDATE `etcitem` SET `name` ='亞龍桑骸的麟' WHERE `item_id` = 3830;
-UPDATE `etcitem` SET `name` ='亞龍桑骸的蛋' WHERE `item_id` = 3831;
-UPDATE `etcitem` SET `name` ='哈里特藥草' WHERE `item_id` = 3832;
-UPDATE `etcitem` SET `name` ='巴諾爾藥草' WHERE `item_id` = 3833;
-UPDATE `etcitem` SET `name` ='奧耶豺狼藥草' WHERE `item_id` = 3834;
-UPDATE `etcitem` SET `name` ='伊娃的血' WHERE `item_id` = 3835;
-UPDATE `etcitem` SET `name` ='阿特萊雅的貨幣' WHERE `item_id` = 3836;
-UPDATE `etcitem` SET `name` ='忠誠的憑證' WHERE `item_id` = 3837;
-UPDATE `etcitem` SET `name` ='製作卷軸(巨人的動力裝置25%)' WHERE `item_id` = 3838;
-UPDATE `etcitem` SET `name` ='薄霧飛龍的蛋' WHERE `item_id` = 3839;
-UPDATE `etcitem` SET `name` ='部列特亞龍的蛋' WHERE `item_id` = 3840;
-UPDATE `etcitem` SET `name` ='飛龍的蛋' WHERE `item_id` = 3841;
-UPDATE `etcitem` SET `name` ='雷亞龍的蛋' WHERE `item_id` = 3842;
-UPDATE `etcitem` SET `name` ='鵲胸針' WHERE `item_id` = 3843;
-UPDATE `etcitem` SET `name` ='隕石水晶' WHERE `item_id` = 3844;
-UPDATE `etcitem` SET `name` ='損壞的巨人動力裝置' WHERE `item_id` = 3845;
-UPDATE `etcitem` SET `name` ='巨人動力裝置' WHERE `item_id` = 3846;
-UPDATE `etcitem` SET `name` ='皇室的鑰匙' WHERE `item_id` = 3847;
-UPDATE `etcitem` SET `name` ='不死生物的灰' WHERE `item_id` = 3848;
-UPDATE `etcitem` SET `name` ='血腥之斧徽章' WHERE `item_id` = 3849;
-UPDATE `etcitem` SET `name` ='德魯蜥蜴人的牙' WHERE `item_id` = 3850;
-UPDATE `etcitem` SET `name` ='司塔卡拓的爪' WHERE `item_id` = 3851;
-UPDATE `etcitem` SET `name` ='加布里爾的羽毛' WHERE `item_id` = 3852;
-UPDATE `etcitem` SET `name` ='瑪許追蹤者的角' WHERE `item_id` = 3853;
-UPDATE `etcitem` SET `name` ='瑪許飛龍的爪' WHERE `item_id` = 3854;
-UPDATE `etcitem` SET `name` ='科蘭洛特的皮' WHERE `item_id` = 3855;
-UPDATE `etcitem` SET `name` ='罕羅特的腳' WHERE `item_id` = 3856;
-UPDATE `etcitem` SET `name` ='祭物的遺骨' WHERE `item_id` = 3857;
-UPDATE `etcitem` SET `name` ='地龍圖騰' WHERE `item_id` = 3858;
-UPDATE `etcitem` SET `name` ='深淵寶石的破片' WHERE `item_id` = 3859;
-UPDATE `etcitem` SET `name` ='深淵寶石的破片' WHERE `item_id` = 3860;
-UPDATE `etcitem` SET `name` ='深淵寶石的破片' WHERE `item_id` = 3861;
-UPDATE `etcitem` SET `name` ='寶石守護者瑪拉的尖牙' WHERE `item_id` = 3862;
-UPDATE `etcitem` SET `name` ='寶石守護者姆斯派爾的尖牙' WHERE `item_id` = 3863;
-UPDATE `etcitem` SET `name` ='守護者憑證' WHERE `item_id` = 3864;
-UPDATE `etcitem` SET `name` ='傳送石' WHERE `item_id` = 3865;
-UPDATE `etcitem` SET `name` ='古斯達夫的密函' WHERE `item_id` = 3866;
-UPDATE `etcitem` SET `name` ='古斯達夫的密函' WHERE `item_id` = 3867;
-UPDATE `etcitem` SET `name` ='古斯達夫的密函' WHERE `item_id` = 3868;
-UPDATE `etcitem` SET `name` ='審判的玉璽' WHERE `item_id` = 3869;
-UPDATE `etcitem` SET `name` ='盼望之證' WHERE `item_id` = 3870;
-UPDATE `etcitem` SET `name` ='黑色鐵砧公會紀念幣' WHERE `item_id` = 3871;
-UPDATE `etcitem` SET `name` ='解毒藥材料清單' WHERE `item_id` = 3872;
-UPDATE `etcitem` SET `name` ='信賴的保證' WHERE `item_id` = 3873;
-UPDATE `etcitem` SET `name` ='決議之證' WHERE `item_id` = 3874;
-UPDATE `etcitem` SET `name` ='L2Day-文字A' WHERE `item_id` = 3875;
-UPDATE `etcitem` SET `name` ='L2Day-文字C' WHERE `item_id` = 3876;
-UPDATE `etcitem` SET `name` ='L2Day-文字E' WHERE `item_id` = 3877;
-UPDATE `etcitem` SET `name` ='L2Day-文字F' WHERE `item_id` = 3878;
-UPDATE `etcitem` SET `name` ='L2Day-文字G' WHERE `item_id` = 3879;
-UPDATE `etcitem` SET `name` ='L2Day-文字H' WHERE `item_id` = 3880;
-UPDATE `etcitem` SET `name` ='L2Day-文字I' WHERE `item_id` = 3881;
-UPDATE `etcitem` SET `name` ='L2Day-文字L' WHERE `item_id` = 3882;
-UPDATE `etcitem` SET `name` ='L2Day-文字N' WHERE `item_id` = 3883;
-UPDATE `etcitem` SET `name` ='L2Day-文字O' WHERE `item_id` = 3884;
-UPDATE `etcitem` SET `name` ='L2Day-文字R' WHERE `item_id` = 3885;
-UPDATE `etcitem` SET `name` ='L2Day-文字S' WHERE `item_id` = 3886;
-UPDATE `etcitem` SET `name` ='L2Day-文字T' WHERE `item_id` = 3887;
-UPDATE `etcitem` SET `name` ='L2Day-文字II' WHERE `item_id` = 3888;
-UPDATE `etcitem` SET `name` ='恢復之藥' WHERE `item_id` = 3889;
-UPDATE `etcitem` SET `name` ='征服者標章' WHERE `item_id` = 3890;
-UPDATE `etcitem` SET `name` ='L2Day-導引卷軸' WHERE `item_id` = 3926;
-UPDATE `etcitem` SET `name` ='L2Day-死之呢喃卷軸' WHERE `item_id` = 3927;
-UPDATE `etcitem` SET `name` ='L2Day-弱點偵測卷軸' WHERE `item_id` = 3928;
-UPDATE `etcitem` SET `name` ='L2Day-靈活思緒卷軸' WHERE `item_id` = 3929;
-UPDATE `etcitem` SET `name` ='L2Day-速度激發卷軸' WHERE `item_id` = 3930;
-UPDATE `etcitem` SET `name` ='L2Day-敏捷術卷軸' WHERE `item_id` = 3931;
-UPDATE `etcitem` SET `name` ='L2Day-魔力催化卷軸' WHERE `item_id` = 3932;
-UPDATE `etcitem` SET `name` ='L2Day-力量強化卷軸' WHERE `item_id` = 3933;
-UPDATE `etcitem` SET `name` ='L2Day-風之疾走卷軸' WHERE `item_id` = 3934;
-UPDATE `etcitem` SET `name` ='L2Day-保護盾卷軸' WHERE `item_id` = 3935;
-UPDATE `etcitem` SET `name` ='祝福的復活卷軸' WHERE `item_id` = 3936;
-UPDATE `etcitem` SET `name` ='設計圖-召喚攻城高崙' WHERE `item_id` = 3940;
-UPDATE `etcitem` SET `name` ='魔法書-團體返生術' WHERE `item_id` = 3941;
-UPDATE `etcitem` SET `name` ='魔法書-隊伍回歸術' WHERE `item_id` = 3942;
-UPDATE `etcitem` SET `name` ='護身符-帕格立歐之心' WHERE `item_id` = 3943;
-UPDATE `etcitem` SET `name` ='魔法書-減輕負重' WHERE `item_id` = 3944;
-UPDATE `etcitem` SET `name` ='船票-說話之島往奇岩' WHERE `item_id` = 3945;
-UPDATE `etcitem` SET `name` ='船票-奇岩往說話之島' WHERE `item_id` = 3946;
-UPDATE `etcitem` SET `name` ='祝福的魔靈彈-普通' WHERE `item_id` = 3947;
-UPDATE `etcitem` SET `name` ='祝福的魔靈彈-D級' WHERE `item_id` = 3948;
-UPDATE `etcitem` SET `name` ='祝福的魔靈彈-C級' WHERE `item_id` = 3949;
-UPDATE `etcitem` SET `name` ='祝福的魔靈彈-B級' WHERE `item_id` = 3950;
-UPDATE `etcitem` SET `name` ='祝福的魔靈彈-A級' WHERE `item_id` = 3951;
-UPDATE `etcitem` SET `name` ='祝福的魔靈彈-S級' WHERE `item_id` = 3952;
-UPDATE `etcitem` SET `name` ='製作卷軸(祝福的魔靈彈-D級100%)' WHERE `item_id` = 3953;
-UPDATE `etcitem` SET `name` ='製作卷軸(祝福的魔靈彈-C級100%)' WHERE `item_id` = 3954;
-UPDATE `etcitem` SET `name` ='製作卷軸(祝福的魔靈彈-B級100%)' WHERE `item_id` = 3955;
-UPDATE `etcitem` SET `name` ='製作卷軸(祝福的魔靈彈-A級100%)' WHERE `item_id` = 3956;
-UPDATE `etcitem` SET `name` ='製作卷軸(祝福的魔靈彈-S級100%)' WHERE `item_id` = 3957;
-UPDATE `etcitem` SET `name` ='L2Day-祝福的返回卷軸' WHERE `item_id` = 3958;
-UPDATE `etcitem` SET `name` ='L2Day-祝福的復活卷軸' WHERE `item_id` = 3959;
-UPDATE `etcitem` SET `name` ='傭兵配置表(劍/固定)' WHERE `item_id` = 3960;
-UPDATE `etcitem` SET `name` ='傭兵配置表(槍/固定)' WHERE `item_id` = 3961;
-UPDATE `etcitem` SET `name` ='傭兵配置表(弓/固定)' WHERE `item_id` = 3962;
-UPDATE `etcitem` SET `name` ='傭兵配置表(牧師/固定)' WHERE `item_id` = 3963;
-UPDATE `etcitem` SET `name` ='傭兵配置表(巫師/固定)' WHERE `item_id` = 3964;
-UPDATE `etcitem` SET `name` ='傭兵配置表(劍/移動)' WHERE `item_id` = 3965;
-UPDATE `etcitem` SET `name` ='傭兵配置表(槍/移動)' WHERE `item_id` = 3966;
-UPDATE `etcitem` SET `name` ='傭兵配置表(弓/移動)' WHERE `item_id` = 3967;
-UPDATE `etcitem` SET `name` ='傭兵配置表(牧師/移動)' WHERE `item_id` = 3968;
-UPDATE `etcitem` SET `name` ='傭兵配置表(巫師/移動)' WHERE `item_id` = 3969;
-UPDATE `etcitem` SET `name` ='傭兵配置表(傳送師1)' WHERE `item_id` = 3970;
-UPDATE `etcitem` SET `name` ='傭兵配置表(傳送師2)' WHERE `item_id` = 3971;
-UPDATE `etcitem` SET `name` ='傭兵配置表(傳送師3)' WHERE `item_id` = 3972;
-UPDATE `etcitem` SET `name` ='傭兵配置表(劍/固定)' WHERE `item_id` = 3973;
-UPDATE `etcitem` SET `name` ='傭兵配置表(槍/固定)' WHERE `item_id` = 3974;
-UPDATE `etcitem` SET `name` ='傭兵配置表(弓/固定)' WHERE `item_id` = 3975;
-UPDATE `etcitem` SET `name` ='傭兵配置表(牧師/固定)' WHERE `item_id` = 3976;
-UPDATE `etcitem` SET `name` ='傭兵配置表(巫師/固定)' WHERE `item_id` = 3977;
-UPDATE `etcitem` SET `name` ='傭兵配置表(劍/移動)' WHERE `item_id` = 3978;
-UPDATE `etcitem` SET `name` ='傭兵配置表(槍/移動)' WHERE `item_id` = 3979;
-UPDATE `etcitem` SET `name` ='傭兵配置表(弓/移動)' WHERE `item_id` = 3980;
-UPDATE `etcitem` SET `name` ='傭兵配置表(牧師/移動)' WHERE `item_id` = 3981;
-UPDATE `etcitem` SET `name` ='傭兵配置表(巫師/移動)' WHERE `item_id` = 3982;
-UPDATE `etcitem` SET `name` ='傭兵配置表(傳送師1)' WHERE `item_id` = 3983;
-UPDATE `etcitem` SET `name` ='傭兵配置表(傳送師2)' WHERE `item_id` = 3984;
-UPDATE `etcitem` SET `name` ='傭兵配置表(傳送師3)' WHERE `item_id` = 3985;
-UPDATE `etcitem` SET `name` ='傭兵配置表(劍/固定)' WHERE `item_id` = 3986;
-UPDATE `etcitem` SET `name` ='傭兵配置表(槍/固定)' WHERE `item_id` = 3987;
-UPDATE `etcitem` SET `name` ='傭兵配置表(弓/固定)' WHERE `item_id` = 3988;
-UPDATE `etcitem` SET `name` ='傭兵配置表(牧師/固定)' WHERE `item_id` = 3989;
-UPDATE `etcitem` SET `name` ='傭兵配置表(巫師/固定)' WHERE `item_id` = 3990;
-UPDATE `etcitem` SET `name` ='傭兵配置表(劍/移動)' WHERE `item_id` = 3991;
-UPDATE `etcitem` SET `name` ='傭兵配置表(槍/移動)' WHERE `item_id` = 3992;
-UPDATE `etcitem` SET `name` ='傭兵配置表(弓/移動)' WHERE `item_id` = 3993;
-UPDATE `etcitem` SET `name` ='傭兵配置表(牧師/移動)' WHERE `item_id` = 3994;
-UPDATE `etcitem` SET `name` ='傭兵配置表(巫師/移動)' WHERE `item_id` = 3995;
-UPDATE `etcitem` SET `name` ='傭兵配置表(傳送師1)' WHERE `item_id` = 3996;
-UPDATE `etcitem` SET `name` ='傭兵配置表(傳送師2)' WHERE `item_id` = 3997;
-UPDATE `etcitem` SET `name` ='傭兵配置表(傳送師3)' WHERE `item_id` = 3998;
-UPDATE `etcitem` SET `name` ='傭兵配置表(劍/固定)' WHERE `item_id` = 3999;
-UPDATE `etcitem` SET `name` ='傭兵配置表(槍/固定)' WHERE `item_id` = 4000;
-UPDATE `etcitem` SET `name` ='傭兵配置表(弓/固定)' WHERE `item_id` = 4001;
-UPDATE `etcitem` SET `name` ='傭兵配置表(牧師/固定)' WHERE `item_id` = 4002;
-UPDATE `etcitem` SET `name` ='傭兵配置表(巫師/固定)' WHERE `item_id` = 4003;
-UPDATE `etcitem` SET `name` ='傭兵配置表(劍/移動)' WHERE `item_id` = 4004;
-UPDATE `etcitem` SET `name` ='傭兵配置表(槍/移動)' WHERE `item_id` = 4005;
-UPDATE `etcitem` SET `name` ='傭兵配置表(弓/移動)' WHERE `item_id` = 4006;
-UPDATE `etcitem` SET `name` ='傭兵配置表(牧師/移動)' WHERE `item_id` = 4007;
-UPDATE `etcitem` SET `name` ='傭兵配置表(巫師/移動)' WHERE `item_id` = 4008;
-UPDATE `etcitem` SET `name` ='傭兵配置表(傳送師1)' WHERE `item_id` = 4009;
-UPDATE `etcitem` SET `name` ='傭兵配置表(傳送師2)' WHERE `item_id` = 4010;
-UPDATE `etcitem` SET `name` ='傭兵配置表(傳送師3)' WHERE `item_id` = 4011;
-UPDATE `etcitem` SET `name` ='傭兵配置表(劍/固定)' WHERE `item_id` = 4012;
-UPDATE `etcitem` SET `name` ='傭兵配置表(槍/固定)' WHERE `item_id` = 4013;
-UPDATE `etcitem` SET `name` ='傭兵配置表(弓/固定)' WHERE `item_id` = 4014;
-UPDATE `etcitem` SET `name` ='傭兵配置表(牧師/固定)' WHERE `item_id` = 4015;
-UPDATE `etcitem` SET `name` ='傭兵配置表(巫師/固定)' WHERE `item_id` = 4016;
-UPDATE `etcitem` SET `name` ='傭兵配置表(劍/移動)' WHERE `item_id` = 4017;
-UPDATE `etcitem` SET `name` ='傭兵配置表(槍/移動)' WHERE `item_id` = 4018;
-UPDATE `etcitem` SET `name` ='傭兵配置表(弓/移動)' WHERE `item_id` = 4019;
-UPDATE `etcitem` SET `name` ='傭兵配置表(牧師/移動)' WHERE `item_id` = 4020;
-UPDATE `etcitem` SET `name` ='傭兵配置表(巫師/移動)' WHERE `item_id` = 4021;
-UPDATE `etcitem` SET `name` ='傭兵配置表(傳送師1)' WHERE `item_id` = 4022;
-UPDATE `etcitem` SET `name` ='傭兵配置表(傳送師2)' WHERE `item_id` = 4023;
-UPDATE `etcitem` SET `name` ='傭兵配置表(傳送師3)' WHERE `item_id` = 4024;
-UPDATE `etcitem` SET `name` ='傭兵配置表(傳送師4)' WHERE `item_id` = 4025;
-UPDATE `etcitem` SET `name` ='傭兵配置表(傳送師5)' WHERE `item_id` = 4026;
-UPDATE `etcitem` SET `name` ='色紙(紅色)' WHERE `item_id` = 4029;
-UPDATE `etcitem` SET `name` ='色紙(橘黃色)' WHERE `item_id` = 4030;
-UPDATE `etcitem` SET `name` ='色紙(黃色)' WHERE `item_id` = 4031;
-UPDATE `etcitem` SET `name` ='色紙(綠色)' WHERE `item_id` = 4032;
-UPDATE `etcitem` SET `name` ='色紙(藍色)' WHERE `item_id` = 4033;
-UPDATE `etcitem` SET `name` ='色紙(紫色)' WHERE `item_id` = 4034;
-UPDATE `etcitem` SET `name` ='色紙(白色)' WHERE `item_id` = 4035;
-UPDATE `etcitem` SET `name` ='色紙(黑色)' WHERE `item_id` = 4036;
-UPDATE `etcitem` SET `name` ='幸運貨幣' WHERE `item_id` = 4037;
-UPDATE `etcitem` SET `name` ='幼龍飼料' WHERE `item_id` = 4038;
-UPDATE `etcitem` SET `name` ='鑄模的黏劑' WHERE `item_id` = 4039;
-UPDATE `etcitem` SET `name` ='鑄模的潤滑劑' WHERE `item_id` = 4040;
-UPDATE `etcitem` SET `name` ='鑄模的強化劑' WHERE `item_id` = 4041;
-UPDATE `etcitem` SET `name` ='恩尼亞' WHERE `item_id` = 4042;
-UPDATE `etcitem` SET `name` ='亞索沛' WHERE `item_id` = 4043;
-UPDATE `etcitem` SET `name` ='梭芷' WHERE `item_id` = 4044;
-UPDATE `etcitem` SET `name` ='巨匠骨架' WHERE `item_id` = 4045;
-UPDATE `etcitem` SET `name` ='巨匠砧鎖' WHERE `item_id` = 4046;
-UPDATE `etcitem` SET `name` ='刀匠鑄模' WHERE `item_id` = 4047;
-UPDATE `etcitem` SET `name` ='巨匠模具' WHERE `item_id` = 4048;
-UPDATE `etcitem` SET `name` ='金剛石耳環的寶石' WHERE `item_id` = 4049;
-UPDATE `etcitem` SET `name` ='金剛石戒指的金屬線' WHERE `item_id` = 4050;
-UPDATE `etcitem` SET `name` ='金剛石項鍊的鍊子' WHERE `item_id` = 4051;
-UPDATE `etcitem` SET `name` ='黑光耳環的碎片' WHERE `item_id` = 4052;
-UPDATE `etcitem` SET `name` ='黑光戒指的金屬線' WHERE `item_id` = 4053;
-UPDATE `etcitem` SET `name` ='黑光項鍊的珠子' WHERE `item_id` = 4054;
-UPDATE `etcitem` SET `name` ='合金盾的碎片' WHERE `item_id` = 4055;
-UPDATE `etcitem` SET `name` ='夏隆胸甲的碎片' WHERE `item_id` = 4056;
-UPDATE `etcitem` SET `name` ='夏隆脛甲的材料' WHERE `item_id` = 4057;
-UPDATE `etcitem` SET `name` ='毀滅靴的碎片' WHERE `item_id` = 4058;
-UPDATE `etcitem` SET `name` ='寧靜靴的布料' WHERE `item_id` = 4059;
-UPDATE `etcitem` SET `name` ='守護神靴的布料' WHERE `item_id` = 4060;
-UPDATE `etcitem` SET `name` ='佩勒迪亞靴的圖樣' WHERE `item_id` = 4061;
-UPDATE `etcitem` SET `name` ='元素靴的內襯' WHERE `item_id` = 4062;
-UPDATE `etcitem` SET `name` ='恩寵靴的內襯' WHERE `item_id` = 4063;
-UPDATE `etcitem` SET `name` ='阿巴敦胸甲的碎片' WHERE `item_id` = 4064;
-UPDATE `etcitem` SET `name` ='阿巴敦脛甲材料' WHERE `item_id` = 4065;
-UPDATE `etcitem` SET `name` ='夏隆皮衫的布料' WHERE `item_id` = 4066;
-UPDATE `etcitem` SET `name` ='夏隆皮脛甲的材料' WHERE `item_id` = 4067;
-UPDATE `etcitem` SET `name` ='阿巴敦皮甲的內襯' WHERE `item_id` = 4068;
-UPDATE `etcitem` SET `name` ='夏隆外衣的布料' WHERE `item_id` = 4069;
-UPDATE `etcitem` SET `name` ='夏隆長襪的布料' WHERE `item_id` = 4070;
-UPDATE `etcitem` SET `name` ='阿巴敦長袍的布料' WHERE `item_id` = 4071;
-UPDATE `etcitem` SET `name` ='阿巴敦頭箍的圖樣' WHERE `item_id` = 4072;
-UPDATE `etcitem` SET `name` ='封印的阿巴敦手套的碎片' WHERE `item_id` = 4073;
-UPDATE `etcitem` SET `name` ='寧靜鏈手套的組件' WHERE `item_id` = 4074;
-UPDATE `etcitem` SET `name` ='守護神手套的組件' WHERE `item_id` = 4075;
-UPDATE `etcitem` SET `name` ='祝福手套的圖樣' WHERE `item_id` = 4076;
-UPDATE `etcitem` SET `name` ='末日盾的碎片' WHERE `item_id` = 4077;
-UPDATE `etcitem` SET `name` ='青狼胸甲的碎片' WHERE `item_id` = 4078;
-UPDATE `etcitem` SET `name` ='祝福靴的組件' WHERE `item_id` = 4079;
-UPDATE `etcitem` SET `name` ='青狼脛甲的材料' WHERE `item_id` = 4080;
-UPDATE `etcitem` SET `name` ='末日金屬盔甲的合金' WHERE `item_id` = 4081;
-UPDATE `etcitem` SET `name` ='青狼皮甲的材料' WHERE `item_id` = 4082;
-UPDATE `etcitem` SET `name` ='末日皮甲的組件' WHERE `item_id` = 4083;
-UPDATE `etcitem` SET `name` ='青狼外衣的布料' WHERE `item_id` = 4084;
-UPDATE `etcitem` SET `name` ='末日外衣的圖樣' WHERE `item_id` = 4085;
-UPDATE `etcitem` SET `name` ='青狼長襪的圖樣' WHERE `item_id` = 4086;
-UPDATE `etcitem` SET `name` ='末日長襪的圖樣' WHERE `item_id` = 4087;
-UPDATE `etcitem` SET `name` ='青狼頭盔的組件' WHERE `item_id` = 4088;
-UPDATE `etcitem` SET `name` ='末日頭盔的圖樣' WHERE `item_id` = 4089;
-UPDATE `etcitem` SET `name` ='封印的青狼長靴的圖樣' WHERE `item_id` = 4090;
-UPDATE `etcitem` SET `name` ='封印的末日手套的碎片' WHERE `item_id` = 4091;
-UPDATE `etcitem` SET `name` ='元素手套的內襯' WHERE `item_id` = 4092;
-UPDATE `etcitem` SET `name` ='恩寵手套的內襯' WHERE `item_id` = 4093;
-UPDATE `etcitem` SET `name` ='毀滅長手套的布料' WHERE `item_id` = 4094;
-UPDATE `etcitem` SET `name` ='佩勒迪亞手套的圖樣' WHERE `item_id` = 4095;
-UPDATE `etcitem` SET `name` ='封印的青狼手套的布料' WHERE `item_id` = 4096;
-UPDATE `etcitem` SET `name` ='封印的夏隆靴的組件' WHERE `item_id` = 4097;
-UPDATE `etcitem` SET `name` ='封印的阿巴敦靴的組件' WHERE `item_id` = 4098;
-UPDATE `etcitem` SET `name` ='封印的末日靴的碎片' WHERE `item_id` = 4099;
-UPDATE `etcitem` SET `name` ='封印的夏隆長手套的碎片' WHERE `item_id` = 4100;
-UPDATE `etcitem` SET `name` ='夏隆盾的碎片' WHERE `item_id` = 4101;
-UPDATE `etcitem` SET `name` ='夏隆頭盔的組件' WHERE `item_id` = 4102;
-UPDATE `etcitem` SET `name` ='帕塔拳刃的刀身' WHERE `item_id` = 4103;
-UPDATE `etcitem` SET `name` ='巨劍的刀身' WHERE `item_id` = 4104;
-UPDATE `etcitem` SET `name` ='巨大戰斧的金屬塊' WHERE `item_id` = 4105;
-UPDATE `etcitem` SET `name` ='精靈魔杖的金屬塊' WHERE `item_id` = 4106;
-UPDATE `etcitem` SET `name` ='柯貝克劍的劍身' WHERE `item_id` = 4107;
-UPDATE `etcitem` SET `name` ='聖堂之劍的刀身' WHERE `item_id` = 4108;
-UPDATE `etcitem` SET `name` ='波形刃的刀身' WHERE `item_id` = 4109;
-UPDATE `etcitem` SET `name` ='地獄刀的刀身' WHERE `item_id` = 4110;
-UPDATE `etcitem` SET `name` ='阿斯拉爪的刀身' WHERE `item_id` = 4111;
-UPDATE `etcitem` SET `name` ='黑暗精靈長弓的柄' WHERE `item_id` = 4112;
-UPDATE `etcitem` SET `name` ='巨斧的金屬塊' WHERE `item_id` = 4113;
-UPDATE `etcitem` SET `name` ='大馬士革刀的劍身' WHERE `item_id` = 4114;
-UPDATE `etcitem` SET `name` ='長槍的刀身' WHERE `item_id` = 4115;
-UPDATE `etcitem` SET `name` ='亡者榮譽的石材' WHERE `item_id` = 4116;
-UPDATE `etcitem` SET `name` ='工藝戰斧的刀身' WHERE `item_id` = 4117;
-UPDATE `etcitem` SET `name` ='邪靈魔杖的金屬塊' WHERE `item_id` = 4118;
-UPDATE `etcitem` SET `name` ='惡魔短劍的刀身' WHERE `item_id` = 4119;
-UPDATE `etcitem` SET `name` ='博利恩拳套的刃部' WHERE `item_id` = 4120;
-UPDATE `etcitem` SET `name` ='冒險弓的柄' WHERE `item_id` = 4121;
-UPDATE `etcitem` SET `name` ='製作卷軸(巨匠骨架100%)' WHERE `item_id` = 4122;
-UPDATE `etcitem` SET `name` ='製作卷軸(巨匠砧鎖100%)' WHERE `item_id` = 4123;
-UPDATE `etcitem` SET `name` ='製作卷軸(刀匠鑄模100%)' WHERE `item_id` = 4124;
-UPDATE `etcitem` SET `name` ='製作卷軸(巨匠模具100%)' WHERE `item_id` = 4125;
-UPDATE `etcitem` SET `name` ='製作卷軸(金剛石耳環100%)' WHERE `item_id` = 4126;
-UPDATE `etcitem` SET `name` ='製作卷軸(金剛石戒指100%)' WHERE `item_id` = 4127;
-UPDATE `etcitem` SET `name` ='製作卷軸(金剛石項鍊100%)' WHERE `item_id` = 4128;
-UPDATE `etcitem` SET `name` ='製作卷軸(黑光耳環100%)' WHERE `item_id` = 4129;
-UPDATE `etcitem` SET `name` ='製作卷軸(黑光戒指100%)' WHERE `item_id` = 4130;
-UPDATE `etcitem` SET `name` ='製作卷軸(黑光項鍊100%)' WHERE `item_id` = 4131;
-UPDATE `etcitem` SET `name` ='製作卷軸(合金盾100%)' WHERE `item_id` = 4132;
-UPDATE `etcitem` SET `name` ='製作卷軸(夏隆胸甲100%)' WHERE `item_id` = 4133;
-UPDATE `etcitem` SET `name` ='製作卷軸(夏隆脛甲100%)' WHERE `item_id` = 4134;
-UPDATE `etcitem` SET `name` ='製作卷軸(毀滅靴100%)' WHERE `item_id` = 4135;
-UPDATE `etcitem` SET `name` ='製作卷軸(寧靜靴100%)' WHERE `item_id` = 4136;
-UPDATE `etcitem` SET `name` ='製作卷軸(守護神靴100%)' WHERE `item_id` = 4137;
-UPDATE `etcitem` SET `name` ='製作卷軸(佩勒迪亞靴100%)' WHERE `item_id` = 4138;
-UPDATE `etcitem` SET `name` ='製作卷軸(元素靴100%)' WHERE `item_id` = 4139;
-UPDATE `etcitem` SET `name` ='製作卷軸(恩寵靴100%)' WHERE `item_id` = 4140;
-UPDATE `etcitem` SET `name` ='製作卷軸(阿巴敦胸甲100%)' WHERE `item_id` = 4141;
-UPDATE `etcitem` SET `name` ='製作卷軸(阿巴敦脛甲100%)' WHERE `item_id` = 4142;
-UPDATE `etcitem` SET `name` ='製作卷軸(夏隆皮衫100%)' WHERE `item_id` = 4143;
-UPDATE `etcitem` SET `name` ='製作卷軸(夏隆皮脛甲100%)' WHERE `item_id` = 4144;
-UPDATE `etcitem` SET `name` ='製作卷軸(阿巴敦皮甲100%)' WHERE `item_id` = 4145;
-UPDATE `etcitem` SET `name` ='製作卷軸(夏隆外衣100%)' WHERE `item_id` = 4146;
-UPDATE `etcitem` SET `name` ='製作卷軸(夏隆長襪100%)' WHERE `item_id` = 4147;
-UPDATE `etcitem` SET `name` ='製作卷軸(阿巴敦長袍100%)' WHERE `item_id` = 4148;
-UPDATE `etcitem` SET `name` ='製作卷軸(阿巴敦頭箍100%)' WHERE `item_id` = 4149;
-UPDATE `etcitem` SET `name` ='製作卷軸(封印的阿巴敦手套100%)' WHERE `item_id` = 4150;
-UPDATE `etcitem` SET `name` ='製作卷軸(寧靜鏈手套100%)' WHERE `item_id` = 4151;
-UPDATE `etcitem` SET `name` ='製作卷軸(守護神手套100%)' WHERE `item_id` = 4152;
-UPDATE `etcitem` SET `name` ='製作卷軸(祝福手套100%)' WHERE `item_id` = 4153;
-UPDATE `etcitem` SET `name` ='製作卷軸(末日盾100%)' WHERE `item_id` = 4154;
-UPDATE `etcitem` SET `name` ='製作卷軸(青狼胸甲100%)' WHERE `item_id` = 4155;
-UPDATE `etcitem` SET `name` ='製作卷軸(祝福靴100%)' WHERE `item_id` = 4156;
-UPDATE `etcitem` SET `name` ='製作卷軸(青狼脛甲100%)' WHERE `item_id` = 4157;
-UPDATE `etcitem` SET `name` ='製作卷軸(末日金屬盔甲100%)' WHERE `item_id` = 4158;
-UPDATE `etcitem` SET `name` ='製作卷軸(青狼皮甲100%)' WHERE `item_id` = 4159;
-UPDATE `etcitem` SET `name` ='製作卷軸(末日皮甲100%)' WHERE `item_id` = 4160;
-UPDATE `etcitem` SET `name` ='製作卷軸(青狼外衣100%)' WHERE `item_id` = 4161;
-UPDATE `etcitem` SET `name` ='製作卷軸(末日外衣100%)' WHERE `item_id` = 4162;
-UPDATE `etcitem` SET `name` ='製作卷軸(青狼長襪100%)' WHERE `item_id` = 4163;
-UPDATE `etcitem` SET `name` ='製作卷軸(末日長襪100%)' WHERE `item_id` = 4164;
-UPDATE `etcitem` SET `name` ='製作卷軸(青狼頭盔100%)' WHERE `item_id` = 4165;
-UPDATE `etcitem` SET `name` ='製作卷軸(末日頭盔100%)' WHERE `item_id` = 4166;
-UPDATE `etcitem` SET `name` ='製作卷軸(封印的青狼長靴100%)' WHERE `item_id` = 4167;
-UPDATE `etcitem` SET `name` ='製作卷軸(封印的末日手套100%)' WHERE `item_id` = 4168;
-UPDATE `etcitem` SET `name` ='製作卷軸(元素手套100%)' WHERE `item_id` = 4169;
-UPDATE `etcitem` SET `name` ='製作卷軸(恩寵手套100%)' WHERE `item_id` = 4170;
-UPDATE `etcitem` SET `name` ='製作卷軸(毀滅長手套100%)' WHERE `item_id` = 4171;
-UPDATE `etcitem` SET `name` ='製作卷軸(佩勒迪亞手套100%)' WHERE `item_id` = 4172;
-UPDATE `etcitem` SET `name` ='製作卷軸(封印的青狼手套100%)' WHERE `item_id` = 4173;
-UPDATE `etcitem` SET `name` ='製作卷軸(封印的夏隆靴100%)' WHERE `item_id` = 4174;
-UPDATE `etcitem` SET `name` ='製作卷軸(封印的阿巴敦靴100%)' WHERE `item_id` = 4175;
-UPDATE `etcitem` SET `name` ='製作卷軸(封印的末日靴100%)' WHERE `item_id` = 4176;
-UPDATE `etcitem` SET `name` ='製作卷軸(封印的夏隆長手套100%)' WHERE `item_id` = 4177;
-UPDATE `etcitem` SET `name` ='製作卷軸(夏隆盾100%)' WHERE `item_id` = 4178;
-UPDATE `etcitem` SET `name` ='製作卷軸(夏隆頭盔100%)' WHERE `item_id` = 4179;
-UPDATE `etcitem` SET `name` ='製作卷軸(銀箭100%)' WHERE `item_id` = 4180;
-UPDATE `etcitem` SET `name` ='製作卷軸(帕塔拳刃100%)' WHERE `item_id` = 4181;
-UPDATE `etcitem` SET `name` ='製作卷軸(巨劍100%)' WHERE `item_id` = 4182;
-UPDATE `etcitem` SET `name` ='製作卷軸(巨大戰斧100%)' WHERE `item_id` = 4183;
-UPDATE `etcitem` SET `name` ='製作卷軸(精靈魔杖100%)' WHERE `item_id` = 4184;
-UPDATE `etcitem` SET `name` ='製作卷軸(柯貝克劍100%)' WHERE `item_id` = 4185;
-UPDATE `etcitem` SET `name` ='製作卷軸(聖堂之劍100%)' WHERE `item_id` = 4186;
-UPDATE `etcitem` SET `name` ='製作卷軸(波形刃100%)' WHERE `item_id` = 4187;
-UPDATE `etcitem` SET `name` ='製作卷軸(地獄刀100%)' WHERE `item_id` = 4188;
-UPDATE `etcitem` SET `name` ='製作卷軸(阿斯拉爪100%)' WHERE `item_id` = 4189;
-UPDATE `etcitem` SET `name` ='製作卷軸(黑暗精靈長弓100%)' WHERE `item_id` = 4190;
-UPDATE `etcitem` SET `name` ='製作卷軸(巨斧100%)' WHERE `item_id` = 4191;
-UPDATE `etcitem` SET `name` ='製作卷軸(大馬士革刀100%)' WHERE `item_id` = 4192;
-UPDATE `etcitem` SET `name` ='製作卷軸(長槍100%)' WHERE `item_id` = 4193;
-UPDATE `etcitem` SET `name` ='製作卷軸(亡者榮譽100%)' WHERE `item_id` = 4194;
-UPDATE `etcitem` SET `name` ='製作卷軸(工藝戰斧100%)' WHERE `item_id` = 4195;
-UPDATE `etcitem` SET `name` ='製作卷軸(邪靈魔杖100%)' WHERE `item_id` = 4196;
-UPDATE `etcitem` SET `name` ='製作卷軸(惡魔短劍100%)' WHERE `item_id` = 4197;
-UPDATE `etcitem` SET `name` ='製作卷軸(博利恩拳套100%)' WHERE `item_id` = 4198;
-UPDATE `etcitem` SET `name` ='製作卷軸(冒險弓100%)' WHERE `item_id` = 4199;
-UPDATE `etcitem` SET `name` ='魔法書-生命治癒' WHERE `item_id` = 4200;
-UPDATE `etcitem` SET `name` ='魔法書-抵抗休克' WHERE `item_id` = 4201;
-UPDATE `etcitem` SET `name` ='魔法書-生命吸取' WHERE `item_id` = 4203;
-UPDATE `etcitem` SET `name` ='護身符-帕格立歐迅捷' WHERE `item_id` = 4204;
-UPDATE `etcitem` SET `name` ='護身符-帕格立歐憤怒' WHERE `item_id` = 4205;
-UPDATE `etcitem` SET `name` ='魔法書-痛苦轉移' WHERE `item_id` = 4206;
-UPDATE `etcitem` SET `name` ='魔法書-魔力再生' WHERE `item_id` = 4207;
-UPDATE `etcitem` SET `name` ='魔法書-暗影詛咒' WHERE `item_id` = 4208;
-UPDATE `etcitem` SET `name` ='L2Event-紅心碎片1' WHERE `item_id` = 4209;
-UPDATE `etcitem` SET `name` ='L2Event-紅心碎片2' WHERE `item_id` = 4210;
-UPDATE `etcitem` SET `name` ='L2Event-紅心碎片3' WHERE `item_id` = 4211;
-UPDATE `etcitem` SET `name` ='L2Event-紅心碎片4' WHERE `item_id` = 4212;
-UPDATE `etcitem` SET `name` ='L2Event-紅心碎片5' WHERE `item_id` = 4213;
-UPDATE `etcitem` SET `name` ='L2Event-紅心碎片6' WHERE `item_id` = 4214;
-UPDATE `etcitem` SET `name` ='L2Event-紅心碎片7' WHERE `item_id` = 4215;
-UPDATE `etcitem` SET `name` ='L2Event-紅心碎片8' WHERE `item_id` = 4216;
-UPDATE `etcitem` SET `name` ='L2Event-紅心碎片9' WHERE `item_id` = 4217;
-UPDATE `etcitem` SET `name` ='L2Event-魔力再生卷軸' WHERE `item_id` = 4218;
-UPDATE `etcitem` SET `name` ='骰子' WHERE `item_id` = 4232;
-UPDATE `etcitem` SET `name` ='劍身鑄模' WHERE `item_id` = 4239;
-UPDATE `etcitem` SET `name` ='特威提的票據' WHERE `item_id` = 4240;
-UPDATE `etcitem` SET `name` ='巡察報告1' WHERE `item_id` = 4241;
-UPDATE `etcitem` SET `name` ='巡察報告2' WHERE `item_id` = 4242;
-UPDATE `etcitem` SET `name` ='巡察報告3' WHERE `item_id` = 4243;
-UPDATE `etcitem` SET `name` ='巡察報告4' WHERE `item_id` = 4244;
-UPDATE `etcitem` SET `name` ='武器交易契約' WHERE `item_id` = 4245;
-UPDATE `etcitem` SET `name` ='攻擊指令書' WHERE `item_id` = 4246;
-UPDATE `etcitem` SET `name` ='銀天秤證明書' WHERE `item_id` = 4247;
-UPDATE `etcitem` SET `name` ='羅倫陶的貨物箱' WHERE `item_id` = 4248;
-UPDATE `etcitem` SET `name` ='豺狼軍官的頭' WHERE `item_id` = 4249;
-UPDATE `etcitem` SET `name` ='翡翠石' WHERE `item_id` = 4250;
-UPDATE `etcitem` SET `name` ='古神像' WHERE `item_id` = 4251;
-UPDATE `etcitem` SET `name` ='哥弗勒多若哈梅爾的胸像' WHERE `item_id` = 4252;
-UPDATE `etcitem` SET `name` ='暗影之眼' WHERE `item_id` = 4253;
-UPDATE `etcitem` SET `name` ='特級會員參加資格證' WHERE `item_id` = 4254;
-UPDATE `etcitem` SET `name` ='商業同盟的貨物' WHERE `item_id` = 4255;
-UPDATE `etcitem` SET `name` ='阿格擬斯聖標' WHERE `item_id` = 4256;
-UPDATE `etcitem` SET `name` ='阿格擬斯念珠' WHERE `item_id` = 4257;
-UPDATE `etcitem` SET `name` ='不吉的圖騰' WHERE `item_id` = 4258;
-UPDATE `etcitem` SET `name` ='熊皮' WHERE `item_id` = 4259;
-UPDATE `etcitem` SET `name` ='安庫獸人頭' WHERE `item_id` = 4260;
-UPDATE `etcitem` SET `name` ='獸人頭捆' WHERE `item_id` = 4261;
-UPDATE `etcitem` SET `name` ='獸人頭捆' WHERE `item_id` = 4262;
-UPDATE `etcitem` SET `name` ='獸人頭捆' WHERE `item_id` = 4263;
-UPDATE `etcitem` SET `name` ='獸人頭捆' WHERE `item_id` = 4264;
-UPDATE `etcitem` SET `name` ='獸人頭捆' WHERE `item_id` = 4265;
-UPDATE `etcitem` SET `name` ='獸人頭捆' WHERE `item_id` = 4266;
-UPDATE `etcitem` SET `name` ='獸人頭捆' WHERE `item_id` = 4267;
-UPDATE `etcitem` SET `name` ='給甄妮佛的箱子' WHERE `item_id` = 4268;
-UPDATE `etcitem` SET `name` ='遠征隊遺物' WHERE `item_id` = 4269;
-UPDATE `etcitem` SET `name` ='破舊的鑰匙' WHERE `item_id` = 4270;
-UPDATE `etcitem` SET `name` ='破舊的劍柄' WHERE `item_id` = 4271;
-UPDATE `etcitem` SET `name` ='符咒項鍊' WHERE `item_id` = 4272;
-UPDATE `etcitem` SET `name` ='殷海薩的聖標' WHERE `item_id` = 4273;
-UPDATE `etcitem` SET `name` ='犧牲者臂骨' WHERE `item_id` = 4274;
-UPDATE `etcitem` SET `name` ='犧牲者腿骨' WHERE `item_id` = 4275;
-UPDATE `etcitem` SET `name` ='犧牲者頭骨' WHERE `item_id` = 4276;
-UPDATE `etcitem` SET `name` ='犧牲者肋骨' WHERE `item_id` = 4277;
-UPDATE `etcitem` SET `name` ='犧牲者脊椎' WHERE `item_id` = 4278;
-UPDATE `etcitem` SET `name` ='放骨頭的罈' WHERE `item_id` = 4279;
-UPDATE `etcitem` SET `name` ='無用的骨頭' WHERE `item_id` = 4280;
-UPDATE `etcitem` SET `name` ='召喚靈魂的粉' WHERE `item_id` = 4281;
-UPDATE `etcitem` SET `name` ='裝屍袋' WHERE `item_id` = 4282;
-UPDATE `etcitem` SET `name` ='青蛙王子' WHERE `item_id` = 4283;
-UPDATE `etcitem` SET `name` ='蒼蠅粉' WHERE `item_id` = 4284;
-UPDATE `etcitem` SET `name` ='新型計算機' WHERE `item_id` = 4285;
-UPDATE `etcitem` SET `name` ='寶石獸的結晶' WHERE `item_id` = 4286;
-UPDATE `etcitem` SET `name` ='下巨人的動力裝置' WHERE `item_id` = 4287;
-UPDATE `etcitem` SET `name` ='哈奈林的信' WHERE `item_id` = 4288;
-UPDATE `etcitem` SET `name` ='哈奈林的信' WHERE `item_id` = 4289;
-UPDATE `etcitem` SET `name` ='哈奈林的信' WHERE `item_id` = 4290;
-UPDATE `etcitem` SET `name` ='聖櫃的鑰匙' WHERE `item_id` = 4291;
-UPDATE `etcitem` SET `name` ='聖櫃的鑰匙' WHERE `item_id` = 4292;
-UPDATE `etcitem` SET `name` ='聖櫃的鑰匙' WHERE `item_id` = 4293;
-UPDATE `etcitem` SET `name` ='白布' WHERE `item_id` = 4294;
-UPDATE `etcitem` SET `name` ='染血的布' WHERE `item_id` = 4295;
-UPDATE `etcitem` SET `name` ='茍斯達的指令書' WHERE `item_id` = 4296;
-UPDATE `etcitem` SET `name` ='蜥蜴人的牙' WHERE `item_id` = 4297;
-UPDATE `etcitem` SET `name` ='木桶' WHERE `item_id` = 4298;
-UPDATE `etcitem` SET `name` ='作戰計畫書1/10' WHERE `item_id` = 4299;
-UPDATE `etcitem` SET `name` ='作戰計畫書2/10' WHERE `item_id` = 4300;
-UPDATE `etcitem` SET `name` ='作戰計畫書3/10' WHERE `item_id` = 4301;
-UPDATE `etcitem` SET `name` ='作戰計畫書4/10' WHERE `item_id` = 4302;
-UPDATE `etcitem` SET `name` ='作戰計畫書5/10' WHERE `item_id` = 4303;
-UPDATE `etcitem` SET `name` ='作戰計畫書6/10' WHERE `item_id` = 4304;
-UPDATE `etcitem` SET `name` ='作戰計畫書7/10' WHERE `item_id` = 4305;
-UPDATE `etcitem` SET `name` ='作戰計畫書8/10' WHERE `item_id` = 4306;
-UPDATE `etcitem` SET `name` ='作戰計畫書9/10' WHERE `item_id` = 4307;
-UPDATE `etcitem` SET `name` ='作戰計畫書10/10' WHERE `item_id` = 4308;
-UPDATE `etcitem` SET `name` ='完成的作戰計畫書' WHERE `item_id` = 4309;
-UPDATE `etcitem` SET `name` ='艾森海內的票據' WHERE `item_id` = 4310;
-UPDATE `etcitem` SET `name` ='吉力恩的日記' WHERE `item_id` = 4311;
-UPDATE `etcitem` SET `name` ='吉力恩的紙條' WHERE `item_id` = 4312;
-UPDATE `etcitem` SET `name` ='未完的樂譜' WHERE `item_id` = 4313;
-UPDATE `etcitem` SET `name` ='吉力恩的心臟' WHERE `item_id` = 4314;
-UPDATE `etcitem` SET `name` ='甘地一族聖物' WHERE `item_id` = 4315;
-UPDATE `etcitem` SET `name` ='史汪的笛子' WHERE `item_id` = 4316;
-UPDATE `etcitem` SET `name` ='史汪的信' WHERE `item_id` = 4317;
-UPDATE `etcitem` SET `name` ='活動服' WHERE `item_id` = 4318;
-UPDATE `etcitem` SET `name` ='娜娜琳的笛子' WHERE `item_id` = 4319;
-UPDATE `etcitem` SET `name` ='沙布琳的黑啤酒' WHERE `item_id` = 4320;
-UPDATE `etcitem` SET `name` ='偷來的黑啤酒' WHERE `item_id` = 4321;
-UPDATE `etcitem` SET `name` ='偷來的活動服' WHERE `item_id` = 4322;
-UPDATE `etcitem` SET `name` ='衣服箱子鑰匙' WHERE `item_id` = 4323;
-UPDATE `etcitem` SET `name` ='啤酒箱子鑰匙' WHERE `item_id` = 4324;
-UPDATE `etcitem` SET `name` ='妖精的葉子' WHERE `item_id` = 4325;
-UPDATE `etcitem` SET `name` ='食腐鼠人的頭' WHERE `item_id` = 4326;
-UPDATE `etcitem` SET `name` ='土瑞克軍犬的尾巴' WHERE `item_id` = 4327;
-UPDATE `etcitem` SET `name` ='暴君之王的心臟' WHERE `item_id` = 4328;
-UPDATE `etcitem` SET `name` ='崔沙林多得的毒囊' WHERE `item_id` = 4329;
-UPDATE `etcitem` SET `name` ='懺悔者手銬' WHERE `item_id` = 4330;
-UPDATE `etcitem` SET `name` ='懺悔者手銬組合法' WHERE `item_id` = 4331;
-UPDATE `etcitem` SET `name` ='塔爾克護身項鍊' WHERE `item_id` = 4332;
-UPDATE `etcitem` SET `name` ='預賽參加資格證' WHERE `item_id` = 4333;
-UPDATE `etcitem` SET `name` ='工蟻體液' WHERE `item_id` = 4334;
-UPDATE `etcitem` SET `name` ='雄蟻神經組織' WHERE `item_id` = 4335;
-UPDATE `etcitem` SET `name` ='卡席安的酵素劑' WHERE `item_id` = 4336;
-UPDATE `etcitem` SET `name` ='鱷魚皮' WHERE `item_id` = 4337;
-UPDATE `etcitem` SET `name` ='藍色鱷魚皮' WHERE `item_id` = 4338;
-UPDATE `etcitem` SET `name` ='鑲嵌寶石藍色鱷魚皮' WHERE `item_id` = 4339;
-UPDATE `etcitem` SET `name` ='皮帶製作許可證' WHERE `item_id` = 4340;
-UPDATE `etcitem` SET `name` ='背包製作許可證' WHERE `item_id` = 4341;
-UPDATE `etcitem` SET `name` ='水之水晶' WHERE `item_id` = 4342;
-UPDATE `etcitem` SET `name` ='火之水晶' WHERE `item_id` = 4343;
-UPDATE `etcitem` SET `name` ='風之水晶' WHERE `item_id` = 4344;
-UPDATE `etcitem` SET `name` ='土之水晶' WHERE `item_id` = 4345;
-UPDATE `etcitem` SET `name` ='暗之水晶' WHERE `item_id` = 4346;
-UPDATE `etcitem` SET `name` ='光之水晶' WHERE `item_id` = 4347;
-UPDATE `etcitem` SET `name` ='翡翠石' WHERE `item_id` = 4348;
-UPDATE `etcitem` SET `name` ='古代胸像' WHERE `item_id` = 4349;
-UPDATE `etcitem` SET `name` ='雕刻家費蘿娜的作品' WHERE `item_id` = 4350;
-UPDATE `etcitem` SET `name` ='雕刻家費蘿娜的作品-原型' WHERE `item_id` = 4351;
-UPDATE `etcitem` SET `name` ='古代女神像-真品' WHERE `item_id` = 4352;
-UPDATE `etcitem` SET `name` ='古代女神像-複製品' WHERE `item_id` = 4353;
-UPDATE `etcitem` SET `name` ='古代女神像-贗品' WHERE `item_id` = 4354;
-UPDATE `etcitem` SET `name` ='藍色伊娃' WHERE `item_id` = 4355;
-UPDATE `etcitem` SET `name` ='金色殷海薩' WHERE `item_id` = 4356;
-UPDATE `etcitem` SET `name` ='銀色席琳' WHERE `item_id` = 4357;
-UPDATE `etcitem` SET `name` ='血紅色帕格立歐' WHERE `item_id` = 4358;
-UPDATE `etcitem` SET `name` ='裝滿酒的桶子' WHERE `item_id` = 4359;
-UPDATE `etcitem` SET `name` ='寶石色甲蟲' WHERE `item_id` = 4360;
-UPDATE `etcitem` SET `name` ='辛貝米內的花' WHERE `item_id` = 4361;
-UPDATE `etcitem` SET `name` ='奇妙的人偶' WHERE `item_id` = 4362;
-UPDATE `etcitem` SET `name` ='紅色洋裝' WHERE `item_id` = 4363;
-UPDATE `etcitem` SET `name` ='隕石球珠' WHERE `item_id` = 4364;
-UPDATE `etcitem` SET `name` ='殼酒' WHERE `item_id` = 4365;
-UPDATE `etcitem` SET `name` ='王子的優勝紀念盃' WHERE `item_id` = 4366;
-UPDATE `etcitem` SET `name` ='王子的自傳' WHERE `item_id` = 4367;
-UPDATE `etcitem` SET `name` ='王子的胸像' WHERE `item_id` = 4368;
-UPDATE `etcitem` SET `name` ='絲手巾' WHERE `item_id` = 4369;
-UPDATE `etcitem` SET `name` ='華麗酒杯' WHERE `item_id` = 4370;
-UPDATE `etcitem` SET `name` ='黑暗的杖' WHERE `item_id` = 4371;
-UPDATE `etcitem` SET `name` ='魅魔香水' WHERE `item_id` = 4372;
-UPDATE `etcitem` SET `name` ='魅魔鏡子' WHERE `item_id` = 4373;
-UPDATE `etcitem` SET `name` ='黑暗之心' WHERE `item_id` = 4374;
-UPDATE `etcitem` SET `name` ='獸人王室圖騰' WHERE `item_id` = 4375;
-UPDATE `etcitem` SET `name` ='豬踩過的珍珠' WHERE `item_id` = 4376;
-UPDATE `etcitem` SET `name` ='豬獠牙' WHERE `item_id` = 4377;
-UPDATE `etcitem` SET `name` ='地瓜' WHERE `item_id` = 4378;
-UPDATE `etcitem` SET `name` ='獸爪' WHERE `item_id` = 4379;
-UPDATE `etcitem` SET `name` ='獸毛' WHERE `item_id` = 4380;
-UPDATE `etcitem` SET `name` ='人蔘根' WHERE `item_id` = 4381;
-UPDATE `etcitem` SET `name` ='蜂蜜罈' WHERE `item_id` = 4382;
-UPDATE `etcitem` SET `name` ='熊膽' WHERE `item_id` = 4383;
-UPDATE `etcitem` SET `name` ='新鮮鮭魚' WHERE `item_id` = 4384;
-UPDATE `etcitem` SET `name` ='飯團' WHERE `item_id` = 4385;
-UPDATE `etcitem` SET `name` ='阿貝拉香料' WHERE `item_id` = 4386;
-UPDATE `etcitem` SET `name` ='幸運兔草' WHERE `item_id` = 4387;
-UPDATE `etcitem` SET `name` ='瑪爾勘的支票' WHERE `item_id` = 4388;
-UPDATE `etcitem` SET `name` ='保管箱鑰匙' WHERE `item_id` = 4389;
-UPDATE `etcitem` SET `name` ='矮人皇室玉璽' WHERE `item_id` = 4390;
-UPDATE `etcitem` SET `name` ='矮人皇室之冠' WHERE `item_id` = 4391;
-UPDATE `etcitem` SET `name` ='矮人舞蹈教材' WHERE `item_id` = 4392;
-UPDATE `etcitem` SET `name` ='計算機' WHERE `item_id` = 4393;
-UPDATE `etcitem` SET `name` ='哈奈林的白花' WHERE `item_id` = 4394;
-UPDATE `etcitem` SET `name` ='哈奈林的紅花' WHERE `item_id` = 4395;
-UPDATE `etcitem` SET `name` ='哈奈林的黃花' WHERE `item_id` = 4396;
-UPDATE `etcitem` SET `name` ='聖者的書' WHERE `item_id` = 4397;
-UPDATE `etcitem` SET `name` ='聖者的血' WHERE `item_id` = 4398;
-UPDATE `etcitem` SET `name` ='聖者的樹枝' WHERE `item_id` = 4399;
-UPDATE `etcitem` SET `name` ='白布' WHERE `item_id` = 4400;
-UPDATE `etcitem` SET `name` ='綠色因次石' WHERE `item_id` = 4401;
-UPDATE `etcitem` SET `name` ='藍色因次石' WHERE `item_id` = 4402;
-UPDATE `etcitem` SET `name` ='紅色因次石' WHERE `item_id` = 4403;
-UPDATE `etcitem` SET `name` ='綠色因次石破片' WHERE `item_id` = 4404;
-UPDATE `etcitem` SET `name` ='藍色因次石破片' WHERE `item_id` = 4405;
-UPDATE `etcitem` SET `name` ='紅色因次石破片' WHERE `item_id` = 4406;
-UPDATE `etcitem` SET `name` ='艾森海內的票據' WHERE `item_id` = 4407;
-UPDATE `etcitem` SET `name` ='樂譜-愛情之歌' WHERE `item_id` = 4408;
-UPDATE `etcitem` SET `name` ='樂譜-決戰之歌' WHERE `item_id` = 4409;
-UPDATE `etcitem` SET `name` ='樂譜-旅行之歌' WHERE `item_id` = 4410;
-UPDATE `etcitem` SET `name` ='回聲水晶-旅行之歌' WHERE `item_id` = 4411;
-UPDATE `etcitem` SET `name` ='回聲水晶-決戰之歌' WHERE `item_id` = 4412;
-UPDATE `etcitem` SET `name` ='回聲水晶-愛情之歌' WHERE `item_id` = 4413;
-UPDATE `etcitem` SET `name` ='回聲水晶-孤獨之歌' WHERE `item_id` = 4414;
-UPDATE `etcitem` SET `name` ='回聲水晶-祝典之歌' WHERE `item_id` = 4415;
-UPDATE `etcitem` SET `name` ='回聲水晶-慶祝之歌' WHERE `item_id` = 4416;
-UPDATE `etcitem` SET `name` ='回聲水晶-喜劇之歌' WHERE `item_id` = 4417;
-UPDATE `etcitem` SET `name` ='樂譜-慶祝之歌' WHERE `item_id` = 4418;
-UPDATE `etcitem` SET `name` ='樂譜-喜劇之歌' WHERE `item_id` = 4419;
-UPDATE `etcitem` SET `name` ='樂譜-孤獨之歌' WHERE `item_id` = 4420;
-UPDATE `etcitem` SET `name` ='樂譜-祝典之歌' WHERE `item_id` = 4421;
-UPDATE `etcitem` SET `name` ='風龍號角' WHERE `item_id` = 4422;
-UPDATE `etcitem` SET `name` ='星龍號角' WHERE `item_id` = 4423;
-UPDATE `etcitem` SET `name` ='黃昏龍號角' WHERE `item_id` = 4424;
-UPDATE `etcitem` SET `name` ='贖罪者手銬' WHERE `item_id` = 4425;
-UPDATE `etcitem` SET `name` ='贖罪者手銬' WHERE `item_id` = 4426;
-UPDATE `etcitem` SET `name` ='鱷魚皮帶' WHERE `item_id` = 4427;
-UPDATE `etcitem` SET `name` ='藍色鱷魚皮帶' WHERE `item_id` = 4428;
-UPDATE `etcitem` SET `name` ='寶石鱷魚皮帶' WHERE `item_id` = 4429;
-UPDATE `etcitem` SET `name` ='皮背包' WHERE `item_id` = 4430;
-UPDATE `etcitem` SET `name` ='藍色皮背包' WHERE `item_id` = 4431;
-UPDATE `etcitem` SET `name` ='寶石皮背包' WHERE `item_id` = 4432;
-UPDATE `etcitem` SET `name` ='元素石粉末' WHERE `item_id` = 4433;
-UPDATE `etcitem` SET `name` ='元素石碎片' WHERE `item_id` = 4434;
-UPDATE `etcitem` SET `name` ='元素石破塊' WHERE `item_id` = 4435;
-UPDATE `etcitem` SET `name` ='本特列的清單' WHERE `item_id` = 4436;
-UPDATE `etcitem` SET `name` ='卡薩的委託書' WHERE `item_id` = 4437;
-UPDATE `etcitem` SET `name` ='關節拳的刃' WHERE `item_id` = 4438;
-UPDATE `etcitem` SET `name` ='阿巴敦盾的破片' WHERE `item_id` = 4439;
-UPDATE `etcitem` SET `name` ='製作卷軸(關節拳100%)' WHERE `item_id` = 4440;
-UPDATE `etcitem` SET `name` ='製作卷軸(阿巴敦盾100%)' WHERE `item_id` = 4441;
-UPDATE `etcitem` SET `name` ='彩券' WHERE `item_id` = 4442;
-UPDATE `etcitem` SET `name` ='怪物賽票-單勝' WHERE `item_id` = 4443;
-UPDATE `etcitem` SET `name` ='怪物賽票-複勝' WHERE `item_id` = 4444;
-UPDATE `etcitem` SET `name` ='力量染料<Str+1Con-3>' WHERE `item_id` = 4445;
-UPDATE `etcitem` SET `name` ='力量染料<Str+1Dex-3>' WHERE `item_id` = 4446;
-UPDATE `etcitem` SET `name` ='體質染料<Con+1Str-3>' WHERE `item_id` = 4447;
-UPDATE `etcitem` SET `name` ='體質染料<Con+1Dex-3>' WHERE `item_id` = 4448;
-UPDATE `etcitem` SET `name` ='敏捷染料<Dex+1Str-3>' WHERE `item_id` = 4449;
-UPDATE `etcitem` SET `name` ='敏捷染料<Dex+1Con-3>' WHERE `item_id` = 4450;
-UPDATE `etcitem` SET `name` ='智力染料<Int+1Men-3>' WHERE `item_id` = 4451;
-UPDATE `etcitem` SET `name` ='智力染料<Int+1Wit-3>' WHERE `item_id` = 4452;
-UPDATE `etcitem` SET `name` ='精神染料<Men+1Int-3>' WHERE `item_id` = 4453;
-UPDATE `etcitem` SET `name` ='精神染料<Men+1Wit-3>' WHERE `item_id` = 4454;
-UPDATE `etcitem` SET `name` ='智慧染料<Wit+1Int-3>' WHERE `item_id` = 4455;
-UPDATE `etcitem` SET `name` ='智慧染料<Wit+1Men-3>' WHERE `item_id` = 4456;
-UPDATE `etcitem` SET `name` ='力量染料<Str+1Con-2>' WHERE `item_id` = 4457;
-UPDATE `etcitem` SET `name` ='力量染料<Str+1Dex-2>' WHERE `item_id` = 4458;
-UPDATE `etcitem` SET `name` ='體質染料<Con+1Str-2>' WHERE `item_id` = 4459;
-UPDATE `etcitem` SET `name` ='體質染料<Con+1Dex-2>' WHERE `item_id` = 4460;
-UPDATE `etcitem` SET `name` ='敏捷染料<Dex+1Str-2>' WHERE `item_id` = 4461;
-UPDATE `etcitem` SET `name` ='敏捷染料<Dex+1Con-2>' WHERE `item_id` = 4462;
-UPDATE `etcitem` SET `name` ='智力染料<Int+1Men-2>' WHERE `item_id` = 4463;
-UPDATE `etcitem` SET `name` ='智力染料<Int+1Wit-2>' WHERE `item_id` = 4464;
-UPDATE `etcitem` SET `name` ='精神染料<Men+1Int-2>' WHERE `item_id` = 4465;
-UPDATE `etcitem` SET `name` ='精神染料<Men+1Wit-2>' WHERE `item_id` = 4466;
-UPDATE `etcitem` SET `name` ='智慧染料<Wit+1Int-2>' WHERE `item_id` = 4467;
-UPDATE `etcitem` SET `name` ='智慧染料<Wit+1Men-2>' WHERE `item_id` = 4468;
-UPDATE `etcitem` SET `name` ='力量染料<Str+1Con-1>' WHERE `item_id` = 4469;
-UPDATE `etcitem` SET `name` ='力量染料<Str+1Dex-1>' WHERE `item_id` = 4470;
-UPDATE `etcitem` SET `name` ='體質染料<Con+1Str-1>' WHERE `item_id` = 4471;
-UPDATE `etcitem` SET `name` ='體質染料<Con+1Dex-1>' WHERE `item_id` = 4472;
-UPDATE `etcitem` SET `name` ='敏捷染料<Dex+1Str-1>' WHERE `item_id` = 4473;
-UPDATE `etcitem` SET `name` ='敏捷染料<Dex+1Con-1>' WHERE `item_id` = 4474;
-UPDATE `etcitem` SET `name` ='智力染料<Int+1Men-1>' WHERE `item_id` = 4475;
-UPDATE `etcitem` SET `name` ='智力染料<Int+1Wit-1>' WHERE `item_id` = 4476;
-UPDATE `etcitem` SET `name` ='精神染料<Men+1Int-1>' WHERE `item_id` = 4477;
-UPDATE `etcitem` SET `name` ='精神染料<Men+1Wit-1>' WHERE `item_id` = 4478;
-UPDATE `etcitem` SET `name` ='智慧染料<Wit+1Int-1>' WHERE `item_id` = 4479;
-UPDATE `etcitem` SET `name` ='智慧染料<Wit+1Men-1>' WHERE `item_id` = 4480;
-UPDATE `etcitem` SET `name` ='高級力量染料<Str+1Con-3>' WHERE `item_id` = 4481;
-UPDATE `etcitem` SET `name` ='高級力量染料<Str+1Dex-3>' WHERE `item_id` = 4482;
-UPDATE `etcitem` SET `name` ='高級體質染料<Con+1Str-3>' WHERE `item_id` = 4483;
-UPDATE `etcitem` SET `name` ='高級體質染料<Con+1Dex-3>' WHERE `item_id` = 4484;
-UPDATE `etcitem` SET `name` ='高級敏捷染料<Dex+1Str-3>' WHERE `item_id` = 4485;
-UPDATE `etcitem` SET `name` ='高級敏捷染料<Dex+1Con-3>' WHERE `item_id` = 4486;
-UPDATE `etcitem` SET `name` ='高級智力染料<Int+1Men-3>' WHERE `item_id` = 4487;
-UPDATE `etcitem` SET `name` ='高級智力染料<Int+1Wit-3>' WHERE `item_id` = 4488;
-UPDATE `etcitem` SET `name` ='高級精神染料<Men+1Int-3>' WHERE `item_id` = 4489;
-UPDATE `etcitem` SET `name` ='高級精神染料<Men+1Wit-3>' WHERE `item_id` = 4490;
-UPDATE `etcitem` SET `name` ='高級智慧染料<Wit+1Int-3>' WHERE `item_id` = 4491;
-UPDATE `etcitem` SET `name` ='高級智慧染料<Wit+1Men-3>' WHERE `item_id` = 4492;
-UPDATE `etcitem` SET `name` ='高級力量染料<Str+1Con-2>' WHERE `item_id` = 4493;
-UPDATE `etcitem` SET `name` ='高級力量染料<Str+1Dex-2>' WHERE `item_id` = 4494;
-UPDATE `etcitem` SET `name` ='高級體質染料<Con+1Str-2>' WHERE `item_id` = 4495;
-UPDATE `etcitem` SET `name` ='高級體質染料<Con+1Dex-2>' WHERE `item_id` = 4496;
-UPDATE `etcitem` SET `name` ='高級敏捷染料<Dex+1Str-2>' WHERE `item_id` = 4497;
-UPDATE `etcitem` SET `name` ='高級敏捷染料<Dex+1Con-2>' WHERE `item_id` = 4498;
-UPDATE `etcitem` SET `name` ='高級智力染料<Int+1Men-2>' WHERE `item_id` = 4499;
-UPDATE `etcitem` SET `name` ='高級智力染料<Int+1Wit-2>' WHERE `item_id` = 4500;
-UPDATE `etcitem` SET `name` ='高級精神染料<Men+1Int-2>' WHERE `item_id` = 4501;
-UPDATE `etcitem` SET `name` ='高級精神染料<Men+1Wit-2>' WHERE `item_id` = 4502;
-UPDATE `etcitem` SET `name` ='高級智慧染料<Wit+1Int-2>' WHERE `item_id` = 4503;
-UPDATE `etcitem` SET `name` ='高級智慧染料<Wit+1Men-2>' WHERE `item_id` = 4504;
-UPDATE `etcitem` SET `name` ='高級力量染料<Str+2Con-4>' WHERE `item_id` = 4505;
-UPDATE `etcitem` SET `name` ='高級力量染料<Str+2Dex-4>' WHERE `item_id` = 4506;
-UPDATE `etcitem` SET `name` ='高級體質染料<Con+2Str-4>' WHERE `item_id` = 4507;
-UPDATE `etcitem` SET `name` ='高級體質染料<Con+2Dex-4>' WHERE `item_id` = 4508;
-UPDATE `etcitem` SET `name` ='高級敏捷染料<Dex+2Str-4>' WHERE `item_id` = 4509;
-UPDATE `etcitem` SET `name` ='高級敏捷染料<Dex+2Con-4>' WHERE `item_id` = 4510;
-UPDATE `etcitem` SET `name` ='高級智力染料<Int+2Men-4>' WHERE `item_id` = 4511;
-UPDATE `etcitem` SET `name` ='高級智力染料<Int+2Wit-4>' WHERE `item_id` = 4512;
-UPDATE `etcitem` SET `name` ='高級精神染料<Men+2Int-4>' WHERE `item_id` = 4513;
-UPDATE `etcitem` SET `name` ='高級精神染料<Men+2Wit-4>' WHERE `item_id` = 4514;
-UPDATE `etcitem` SET `name` ='高級智慧染料<Wit+2Int-4>' WHERE `item_id` = 4515;
-UPDATE `etcitem` SET `name` ='高級智慧染料<Wit+2Men-4>' WHERE `item_id` = 4516;
-UPDATE `etcitem` SET `name` ='高級力量染料<Str+2Con-3>' WHERE `item_id` = 4517;
-UPDATE `etcitem` SET `name` ='高級力量染料<Str+2Dex-3>' WHERE `item_id` = 4518;
-UPDATE `etcitem` SET `name` ='高級體質染料<Con+2Str-3>' WHERE `item_id` = 4519;
-UPDATE `etcitem` SET `name` ='高級體質染料<Con+2Dex-3>' WHERE `item_id` = 4520;
-UPDATE `etcitem` SET `name` ='高級敏捷染料<Dex+2Str-3>' WHERE `item_id` = 4521;
-UPDATE `etcitem` SET `name` ='高級敏捷染料<Dex+2Con-3>' WHERE `item_id` = 4522;
-UPDATE `etcitem` SET `name` ='高級智力染料<Int+2Men-3>' WHERE `item_id` = 4523;
-UPDATE `etcitem` SET `name` ='高級智力染料<Int+2Wit-3>' WHERE `item_id` = 4524;
-UPDATE `etcitem` SET `name` ='高級精神染料<Men+2Int-3>' WHERE `item_id` = 4525;
-UPDATE `etcitem` SET `name` ='高級精神染料<Men+2Wit-3>' WHERE `item_id` = 4526;
-UPDATE `etcitem` SET `name` ='高級智慧染料<Wit+2Int-3>' WHERE `item_id` = 4527;
-UPDATE `etcitem` SET `name` ='高級智慧染料<Wit+2Men-3>' WHERE `item_id` = 4528;
-UPDATE `etcitem` SET `name` ='高級力量染料<Str+3Con-5>' WHERE `item_id` = 4529;
-UPDATE `etcitem` SET `name` ='高級力量染料<Str+3Dex-5>' WHERE `item_id` = 4530;
-UPDATE `etcitem` SET `name` ='高級體質染料<Con+3Str-5>' WHERE `item_id` = 4531;
-UPDATE `etcitem` SET `name` ='高級體質染料<Con+3Dex-5>' WHERE `item_id` = 4532;
-UPDATE `etcitem` SET `name` ='高級敏捷染料<Dex+3Str-5>' WHERE `item_id` = 4533;
-UPDATE `etcitem` SET `name` ='高級敏捷染料<Dex+3Con-5>' WHERE `item_id` = 4534;
-UPDATE `etcitem` SET `name` ='高級智力染料<Int+3Men-5>' WHERE `item_id` = 4535;
-UPDATE `etcitem` SET `name` ='高級智力染料<Int+3Wit-5>' WHERE `item_id` = 4536;
-UPDATE `etcitem` SET `name` ='高級精神染料<Men+3Int-5>' WHERE `item_id` = 4537;
-UPDATE `etcitem` SET `name` ='高級精神染料<Men+3Wit-5>' WHERE `item_id` = 4538;
-UPDATE `etcitem` SET `name` ='高級智慧染料<Wit+3Int-5>' WHERE `item_id` = 4539;
-UPDATE `etcitem` SET `name` ='高級智慧染料<Wit+3Men-5>' WHERE `item_id` = 4540;
-UPDATE `etcitem` SET `name` ='高級力量染料<Str+3Con-4>' WHERE `item_id` = 4541;
-UPDATE `etcitem` SET `name` ='高級力量染料<Str+3Dex-4>' WHERE `item_id` = 4542;
-UPDATE `etcitem` SET `name` ='高級體質染料<Con+3Str-4>' WHERE `item_id` = 4543;
-UPDATE `etcitem` SET `name` ='高級體質染料<Con+3Dex-4>' WHERE `item_id` = 4544;
-UPDATE `etcitem` SET `name` ='高級敏捷染料<Dex+3Str-4>' WHERE `item_id` = 4545;
-UPDATE `etcitem` SET `name` ='高級敏捷染料<Dex+3Con-4>' WHERE `item_id` = 4546;
-UPDATE `etcitem` SET `name` ='高級智力染料<Int+3Men-4>' WHERE `item_id` = 4547;
-UPDATE `etcitem` SET `name` ='高級智力染料<Int+3Wit-4>' WHERE `item_id` = 4548;
-UPDATE `etcitem` SET `name` ='高級精神染料<Men+3Int-4>' WHERE `item_id` = 4549;
-UPDATE `etcitem` SET `name` ='高級精神染料<Men+3Wit-4>' WHERE `item_id` = 4550;
-UPDATE `etcitem` SET `name` ='高級智慧染料<Wit+3Int-4>' WHERE `item_id` = 4551;
-UPDATE `etcitem` SET `name` ='高級智慧染料<Wit+3Men-4>' WHERE `item_id` = 4552;
-UPDATE `etcitem` SET `name` ='高級力量染料<Str+1Con-1>' WHERE `item_id` = 4553;
-UPDATE `etcitem` SET `name` ='高級力量染料<Str+1Dex-1>' WHERE `item_id` = 4554;
-UPDATE `etcitem` SET `name` ='高級體質染料<Con+1Str-1>' WHERE `item_id` = 4555;
-UPDATE `etcitem` SET `name` ='高級體質染料<Con+1Dex-1>' WHERE `item_id` = 4556;
-UPDATE `etcitem` SET `name` ='高級敏捷染料<Dex+1Str-1>' WHERE `item_id` = 4557;
-UPDATE `etcitem` SET `name` ='高級敏捷染料<Dex+1Con-1>' WHERE `item_id` = 4558;
-UPDATE `etcitem` SET `name` ='高級智力染料<Int+1Men-1>' WHERE `item_id` = 4559;
-UPDATE `etcitem` SET `name` ='高級智力染料<Int+1Wit-1>' WHERE `item_id` = 4560;
-UPDATE `etcitem` SET `name` ='高級精神染料<Men+1Int-1>' WHERE `item_id` = 4561;
-UPDATE `etcitem` SET `name` ='高級精神染料<Men+1Wit-1>' WHERE `item_id` = 4562;
-UPDATE `etcitem` SET `name` ='高級智慧染料<Wit+1Int-1>' WHERE `item_id` = 4563;
-UPDATE `etcitem` SET `name` ='高級智慧染料<Wit+1Men-1>' WHERE `item_id` = 4564;
-UPDATE `etcitem` SET `name` ='高級力量染料<Str+4Con-6>' WHERE `item_id` = 4565;
-UPDATE `etcitem` SET `name` ='高級力量染料<Str+4Dex-6>' WHERE `item_id` = 4566;
-UPDATE `etcitem` SET `name` ='高級體質染料<Con+4Str-6>' WHERE `item_id` = 4567;
-UPDATE `etcitem` SET `name` ='高級體質染料<Con+4Dex-6>' WHERE `item_id` = 4568;
-UPDATE `etcitem` SET `name` ='高級敏捷染料<Dex+4Str-6>' WHERE `item_id` = 4569;
-UPDATE `etcitem` SET `name` ='高級敏捷染料<Dex+4Con-6>' WHERE `item_id` = 4570;
-UPDATE `etcitem` SET `name` ='高級智力染料<Int+4Men-6>' WHERE `item_id` = 4571;
-UPDATE `etcitem` SET `name` ='高級智力染料<Int+4Wit-6>' WHERE `item_id` = 4572;
-UPDATE `etcitem` SET `name` ='高級精神染料<Men+4Int-6>' WHERE `item_id` = 4573;
-UPDATE `etcitem` SET `name` ='高級精神染料<Men+4Wit-6>' WHERE `item_id` = 4574;
-UPDATE `etcitem` SET `name` ='高級智慧染料<Wit+4Int-6>' WHERE `item_id` = 4575;
-UPDATE `etcitem` SET `name` ='高級智慧染料<Wit+4Men-6>' WHERE `item_id` = 4576;
-UPDATE `etcitem` SET `name` ='高級力量染料<Str+4Con-5>' WHERE `item_id` = 4577;
-UPDATE `etcitem` SET `name` ='高級力量染料<Str+4Dex-5>' WHERE `item_id` = 4578;
-UPDATE `etcitem` SET `name` ='高級體質染料<Con+4Str-5>' WHERE `item_id` = 4579;
-UPDATE `etcitem` SET `name` ='高級體質染料<Con+4Dex-5>' WHERE `item_id` = 4580;
-UPDATE `etcitem` SET `name` ='高級敏捷染料<Dex+4Str-5>' WHERE `item_id` = 4581;
-UPDATE `etcitem` SET `name` ='高級敏捷染料<Dex+4Con-5>' WHERE `item_id` = 4582;
-UPDATE `etcitem` SET `name` ='高級智力染料<Int+4Men-5>' WHERE `item_id` = 4583;
-UPDATE `etcitem` SET `name` ='高級智力染料<Int+4Wit-5>' WHERE `item_id` = 4584;
-UPDATE `etcitem` SET `name` ='高級精神染料<Men+4Int-5>' WHERE `item_id` = 4585;
-UPDATE `etcitem` SET `name` ='高級精神染料<Men+4Wit-5>' WHERE `item_id` = 4586;
-UPDATE `etcitem` SET `name` ='高級智慧染料<Wit+4Int-5>' WHERE `item_id` = 4587;
-UPDATE `etcitem` SET `name` ='高級智慧染料<Wit+4Men-5>' WHERE `item_id` = 4588;
-UPDATE `etcitem` SET `name` ='高級力量染料<Str+2Con-2>' WHERE `item_id` = 4589;
-UPDATE `etcitem` SET `name` ='高級力量染料<Str+2Dex-2>' WHERE `item_id` = 4590;
-UPDATE `etcitem` SET `name` ='高級體質染料<Con+2Str-2>' WHERE `item_id` = 4591;
-UPDATE `etcitem` SET `name` ='高級體質染料<Con+2Dex-2>' WHERE `item_id` = 4592;
-UPDATE `etcitem` SET `name` ='高級敏捷染料<Dex+2Str-2>' WHERE `item_id` = 4593;
-UPDATE `etcitem` SET `name` ='高級敏捷染料<Dex+2Con-2>' WHERE `item_id` = 4594;
-UPDATE `etcitem` SET `name` ='高級智力染料<Int+2Men-2>' WHERE `item_id` = 4595;
-UPDATE `etcitem` SET `name` ='高級智力染料<Int+2Wit-2>' WHERE `item_id` = 4596;
-UPDATE `etcitem` SET `name` ='高級精神染料<Men+2Int-2>' WHERE `item_id` = 4597;
-UPDATE `etcitem` SET `name` ='高級精神染料<Men+2Wit-2>' WHERE `item_id` = 4598;
-UPDATE `etcitem` SET `name` ='高級智慧染料<Wit+2Int-2>' WHERE `item_id` = 4599;
-UPDATE `etcitem` SET `name` ='高級智慧染料<Wit+2Men-2>' WHERE `item_id` = 4600;
-UPDATE `etcitem` SET `name` ='高級力量染料<Str+3Con-3>' WHERE `item_id` = 4601;
-UPDATE `etcitem` SET `name` ='高級力量染料<Str+3Dex-3>' WHERE `item_id` = 4602;
-UPDATE `etcitem` SET `name` ='高級體質染料<Con+3Str-3>' WHERE `item_id` = 4603;
-UPDATE `etcitem` SET `name` ='高級體質染料<Con+3Dex-3>' WHERE `item_id` = 4604;
-UPDATE `etcitem` SET `name` ='高級敏捷染料<Dex+3Str-3>' WHERE `item_id` = 4605;
-UPDATE `etcitem` SET `name` ='高級敏捷染料<Dex+3Con-3>' WHERE `item_id` = 4606;
-UPDATE `etcitem` SET `name` ='高級智力染料<Int+3Men-3>' WHERE `item_id` = 4607;
-UPDATE `etcitem` SET `name` ='高級智力染料<Int+3Wit-3>' WHERE `item_id` = 4608;
-UPDATE `etcitem` SET `name` ='高級精神染料<Men+3Int-3>' WHERE `item_id` = 4609;
-UPDATE `etcitem` SET `name` ='高級精神染料<Men+3Wit-3>' WHERE `item_id` = 4610;
-UPDATE `etcitem` SET `name` ='高級智慧染料<Wit+3Int-3>' WHERE `item_id` = 4611;
-UPDATE `etcitem` SET `name` ='高級智慧染料<Wit+3Men-3>' WHERE `item_id` = 4612;
-UPDATE `etcitem` SET `name` ='高級力量染料<Str+4Con-4>' WHERE `item_id` = 4613;
-UPDATE `etcitem` SET `name` ='高級力量染料<Str+4Dex-4>' WHERE `item_id` = 4614;
-UPDATE `etcitem` SET `name` ='高級體質染料<Con+4Str-4>' WHERE `item_id` = 4615;
-UPDATE `etcitem` SET `name` ='高級體質染料<Con+4Dex-4>' WHERE `item_id` = 4616;
-UPDATE `etcitem` SET `name` ='高級敏捷染料<Dex+4Str-4>' WHERE `item_id` = 4617;
-UPDATE `etcitem` SET `name` ='高級敏捷染料<Dex+4Con-4>' WHERE `item_id` = 4618;
-UPDATE `etcitem` SET `name` ='高級智力染料<Int+4Men-4>' WHERE `item_id` = 4619;
-UPDATE `etcitem` SET `name` ='高級智力染料<Int+4Wit-4>' WHERE `item_id` = 4620;
-UPDATE `etcitem` SET `name` ='高級精神染料<Men+4Int-4>' WHERE `item_id` = 4621;
-UPDATE `etcitem` SET `name` ='高級精神染料<Men+4Wit-4>' WHERE `item_id` = 4622;
-UPDATE `etcitem` SET `name` ='高級智慧染料<Wit+4Int-4>' WHERE `item_id` = 4623;
-UPDATE `etcitem` SET `name` ='高級智慧染料<Wit+4Men-4>' WHERE `item_id` = 4624;
-UPDATE `etcitem` SET `name` ='骰子(紅心)' WHERE `item_id` = 4625;
-UPDATE `etcitem` SET `name` ='骰子(黑桃)' WHERE `item_id` = 4626;
-UPDATE `etcitem` SET `name` ='骰子(梅花)' WHERE `item_id` = 4627;
-UPDATE `etcitem` SET `name` ='骰子(方塊)' WHERE `item_id` = 4628;
-UPDATE `etcitem` SET `name` ='紅色搜魂石' WHERE `item_id` = 4629;
-UPDATE `etcitem` SET `name` ='紅色搜魂石-階段1' WHERE `item_id` = 4630;
-UPDATE `etcitem` SET `name` ='紅色搜魂石-階段2' WHERE `item_id` = 4631;
-UPDATE `etcitem` SET `name` ='紅色搜魂石-階段3' WHERE `item_id` = 4632;
-UPDATE `etcitem` SET `name` ='紅色搜魂石-階段4' WHERE `item_id` = 4633;
-UPDATE `etcitem` SET `name` ='紅色搜魂石-階段5' WHERE `item_id` = 4634;
-UPDATE `etcitem` SET `name` ='紅色搜魂石-階段6' WHERE `item_id` = 4635;
-UPDATE `etcitem` SET `name` ='紅色搜魂石-階段7' WHERE `item_id` = 4636;
-UPDATE `etcitem` SET `name` ='紅色搜魂石-階段8' WHERE `item_id` = 4637;
-UPDATE `etcitem` SET `name` ='紅色搜魂石-階段9' WHERE `item_id` = 4638;
-UPDATE `etcitem` SET `name` ='紅色搜魂石-階段10' WHERE `item_id` = 4639;
-UPDATE `etcitem` SET `name` ='綠色搜魂石' WHERE `item_id` = 4640;
-UPDATE `etcitem` SET `name` ='綠色搜魂石-階段1' WHERE `item_id` = 4641;
-UPDATE `etcitem` SET `name` ='綠色搜魂石-階段2' WHERE `item_id` = 4642;
-UPDATE `etcitem` SET `name` ='綠色搜魂石-階段3' WHERE `item_id` = 4643;
-UPDATE `etcitem` SET `name` ='綠色搜魂石-階段4' WHERE `item_id` = 4644;
-UPDATE `etcitem` SET `name` ='綠色搜魂石-階段5' WHERE `item_id` = 4645;
-UPDATE `etcitem` SET `name` ='綠色搜魂石-階段6' WHERE `item_id` = 4646;
-UPDATE `etcitem` SET `name` ='綠色搜魂石-階段7' WHERE `item_id` = 4647;
-UPDATE `etcitem` SET `name` ='綠色搜魂石-階段8' WHERE `item_id` = 4648;
-UPDATE `etcitem` SET `name` ='綠色搜魂石-階段9' WHERE `item_id` = 4649;
-UPDATE `etcitem` SET `name` ='綠色搜魂石-階段10' WHERE `item_id` = 4650;
-UPDATE `etcitem` SET `name` ='藍色搜魂石' WHERE `item_id` = 4651;
-UPDATE `etcitem` SET `name` ='藍色搜魂石-階段1' WHERE `item_id` = 4652;
-UPDATE `etcitem` SET `name` ='藍色搜魂石-階段2' WHERE `item_id` = 4653;
-UPDATE `etcitem` SET `name` ='藍色搜魂石-階段3' WHERE `item_id` = 4654;
-UPDATE `etcitem` SET `name` ='藍色搜魂石-階段4' WHERE `item_id` = 4655;
-UPDATE `etcitem` SET `name` ='藍色搜魂石-階段5' WHERE `item_id` = 4656;
-UPDATE `etcitem` SET `name` ='藍色搜魂石-階段6' WHERE `item_id` = 4657;
-UPDATE `etcitem` SET `name` ='藍色搜魂石-階段7' WHERE `item_id` = 4658;
-UPDATE `etcitem` SET `name` ='藍色搜魂石-階段8' WHERE `item_id` = 4659;
-UPDATE `etcitem` SET `name` ='藍色搜魂石-階段9' WHERE `item_id` = 4660;
-UPDATE `etcitem` SET `name` ='藍色搜魂石-階段10' WHERE `item_id` = 4661;
-UPDATE `etcitem` SET `name` ='破碎的紅色搜魂石' WHERE `item_id` = 4662;
-UPDATE `etcitem` SET `name` ='破碎的綠色搜魂石' WHERE `item_id` = 4663;
-UPDATE `etcitem` SET `name` ='破碎的藍色搜魂石' WHERE `item_id` = 4664;
-UPDATE `etcitem` SET `name` ='雷里亞的靈魂石' WHERE `item_id` = 4666;
-UPDATE `etcitem` SET `name` ='柯爾能的因分尼恩之杖' WHERE `item_id` = 4667;
-UPDATE `etcitem` SET `name` ='勾爾昆達的因分尼恩之杖' WHERE `item_id` = 4668;
-UPDATE `etcitem` SET `name` ='哈勒特的因分尼恩之杖' WHERE `item_id` = 4669;
-UPDATE `etcitem` SET `name` ='巨匠里澳林的鎚子' WHERE `item_id` = 4670;
-UPDATE `etcitem` SET `name` ='巨匠里澳林的鑄模' WHERE `item_id` = 4671;
-UPDATE `etcitem` SET `name` ='因分尼恩研磨劑' WHERE `item_id` = 4672;
-UPDATE `etcitem` SET `name` ='紅色試管小刀' WHERE `item_id` = 4673;
-UPDATE `etcitem` SET `name` ='榮譽勳章' WHERE `item_id` = 4674;
-UPDATE `etcitem` SET `name` ='友誼勳章' WHERE `item_id` = 4675;
-UPDATE `etcitem` SET `name` ='勝利勳章' WHERE `item_id` = 4676;
-UPDATE `etcitem` SET `name` ='逃離藥水' WHERE `item_id` = 4677;
-UPDATE `etcitem` SET `name` ='寬恕卷軸' WHERE `item_id` = 4678;
-UPDATE `etcitem` SET `name` ='伊娃的祝福' WHERE `item_id` = 4679;
-UPDATE `etcitem` SET `name` ='復仇的藥水' WHERE `item_id` = 4680;
-UPDATE `etcitem` SET `name` ='魔法書-太陽閃光' WHERE `item_id` = 4906;
-UPDATE `etcitem` SET `name` ='魔法書-太陽火焰' WHERE `item_id` = 4907;
-UPDATE `etcitem` SET `name` ='魔法書-暗影閃光' WHERE `item_id` = 4908;
-UPDATE `etcitem` SET `name` ='魔法書-暗影火焰' WHERE `item_id` = 4909;
-UPDATE `etcitem` SET `name` ='魔法書-吸血怒擊' WHERE `item_id` = 4910;
-UPDATE `etcitem` SET `name` ='魔法書-詛咒之疾' WHERE `item_id` = 4911;
-UPDATE `etcitem` SET `name` ='魔法書-祝禱' WHERE `item_id` = 4912;
-UPDATE `etcitem` SET `name` ='魔法書-恐懼訊息' WHERE `item_id` = 4913;
-UPDATE `etcitem` SET `name` ='魔法書-伊娃的小夜曲' WHERE `item_id` = 4914;
-UPDATE `etcitem` SET `name` ='設計圖-召喚野豬加農砲' WHERE `item_id` = 4915;
-UPDATE `etcitem` SET `name` ='魔法書-能量彈' WHERE `item_id` = 4916;
-UPDATE `etcitem` SET `name` ='魔法書-靈氣彈' WHERE `item_id` = 4917;
-UPDATE `etcitem` SET `name` ='魔法書-召喚銀色貓' WHERE `item_id` = 4918;
-UPDATE `etcitem` SET `name` ='魔法書-召喚藍眼獨角獸' WHERE `item_id` = 4919;
-UPDATE `etcitem` SET `name` ='魔法書-召喚失魂者' WHERE `item_id` = 4920;
-UPDATE `etcitem` SET `name` ='設計圖-召喚大炸彈' WHERE `item_id` = 4921;
-UPDATE `etcitem` SET `name` ='魔法書-召喚麻痺晶體' WHERE `item_id` = 4922;
-UPDATE `etcitem` SET `name` ='魔法書-召喚水液晶體' WHERE `item_id` = 4923;
-UPDATE `etcitem` SET `name` ='魔法書-召喚火光晶體' WHERE `item_id` = 4924;
-UPDATE `etcitem` SET `name` ='護身符-帕格立歐神速' WHERE `item_id` = 4925;
-UPDATE `etcitem` SET `name` ='護身符-靈魂守護' WHERE `item_id` = 4926;
-UPDATE `etcitem` SET `name` ='護身符-復仇頌歌' WHERE `item_id` = 4927;
-UPDATE `etcitem` SET `name` ='魔法書-火的種子' WHERE `item_id` = 4928;
-UPDATE `etcitem` SET `name` ='魔法書-水的種子' WHERE `item_id` = 4929;
-UPDATE `etcitem` SET `name` ='魔法書-風的種子' WHERE `item_id` = 4930;
-UPDATE `etcitem` SET `name` ='魔法書-光暈交響曲' WHERE `item_id` = 4931;
-UPDATE `etcitem` SET `name` ='魔法書-地獄火' WHERE `item_id` = 4932;
-UPDATE `etcitem` SET `name` ='魔法書-暴風雪' WHERE `item_id` = 4933;
-UPDATE `etcitem` SET `name` ='魔法書-惡魔之風' WHERE `item_id` = 4934;
-UPDATE `etcitem` SET `name` ='魔法書-元素交響曲' WHERE `item_id` = 4935;
-UPDATE `etcitem` SET `name` ='製作卷軸(阿巴敦盾60%)' WHERE `item_id` = 4936;
-UPDATE `etcitem` SET `name` ='製作卷軸(金剛石耳環70%)' WHERE `item_id` = 4937;
-UPDATE `etcitem` SET `name` ='製作卷軸(金剛石戒指70%)' WHERE `item_id` = 4938;
-UPDATE `etcitem` SET `name` ='製作卷軸(金剛石項鍊70%)' WHERE `item_id` = 4939;
-UPDATE `etcitem` SET `name` ='製作卷軸(夏隆胸甲60%)' WHERE `item_id` = 4940;
-UPDATE `etcitem` SET `name` ='製作卷軸(夏隆脛甲60%)' WHERE `item_id` = 4941;
-UPDATE `etcitem` SET `name` ='製作卷軸(寧靜靴60%)' WHERE `item_id` = 4942;
-UPDATE `etcitem` SET `name` ='製作卷軸(守護神靴60%)' WHERE `item_id` = 4943;
-UPDATE `etcitem` SET `name` ='製作卷軸(阿巴敦胸甲60%)' WHERE `item_id` = 4944;
-UPDATE `etcitem` SET `name` ='製作卷軸(阿巴敦脛甲60%)' WHERE `item_id` = 4945;
-UPDATE `etcitem` SET `name` ='製作卷軸(夏隆皮衫60%)' WHERE `item_id` = 4946;
-UPDATE `etcitem` SET `name` ='製作卷軸(夏隆皮脛甲60%)' WHERE `item_id` = 4947;
-UPDATE `etcitem` SET `name` ='製作卷軸(阿巴敦皮甲60%)' WHERE `item_id` = 4948;
-UPDATE `etcitem` SET `name` ='製作卷軸(夏隆外衣60%)' WHERE `item_id` = 4949;
-UPDATE `etcitem` SET `name` ='製作卷軸(夏隆長襪60%)' WHERE `item_id` = 4950;
-UPDATE `etcitem` SET `name` ='製作卷軸(阿巴敦長袍60%)' WHERE `item_id` = 4951;
-UPDATE `etcitem` SET `name` ='製作卷軸(阿巴敦頭箍60%)' WHERE `item_id` = 4952;
-UPDATE `etcitem` SET `name` ='製作卷軸(封印的阿巴敦手套60%)' WHERE `item_id` = 4953;
-UPDATE `etcitem` SET `name` ='製作卷軸(寧靜鏈手套60%)' WHERE `item_id` = 4954;
-UPDATE `etcitem` SET `name` ='製作卷軸(守護神手套60%)' WHERE `item_id` = 4955;
-UPDATE `etcitem` SET `name` ='製作卷軸(祝福手套60%)' WHERE `item_id` = 4956;
-UPDATE `etcitem` SET `name` ='製作卷軸(祝福靴60%)' WHERE `item_id` = 4957;
-UPDATE `etcitem` SET `name` ='製作卷軸(封印的夏隆靴60%)' WHERE `item_id` = 4958;
-UPDATE `etcitem` SET `name` ='製作卷軸(封印的阿巴敦靴60%)' WHERE `item_id` = 4959;
-UPDATE `etcitem` SET `name` ='製作卷軸(封印的夏隆長手套60%)' WHERE `item_id` = 4960;
-UPDATE `etcitem` SET `name` ='製作卷軸(夏隆盾60%)' WHERE `item_id` = 4961;
-UPDATE `etcitem` SET `name` ='製作卷軸(夏隆頭盔60%)' WHERE `item_id` = 4962;
-UPDATE `etcitem` SET `name` ='製作卷軸(巨劍60%)' WHERE `item_id` = 4963;
-UPDATE `etcitem` SET `name` ='製作卷軸(巨大戰斧60%)' WHERE `item_id` = 4964;
-UPDATE `etcitem` SET `name` ='製作卷軸(精靈魔杖60%)' WHERE `item_id` = 4965;
-UPDATE `etcitem` SET `name` ='製作卷軸(柯貝克劍60%)' WHERE `item_id` = 4966;
-UPDATE `etcitem` SET `name` ='製作卷軸(聖堂之劍60%)' WHERE `item_id` = 4967;
-UPDATE `etcitem` SET `name` ='製作卷軸(波形刃60%)' WHERE `item_id` = 4968;
-UPDATE `etcitem` SET `name` ='製作卷軸(地獄刀60%)' WHERE `item_id` = 4969;
-UPDATE `etcitem` SET `name` ='製作卷軸(阿斯拉爪60%)' WHERE `item_id` = 4970;
-UPDATE `etcitem` SET `name` ='製作卷軸(黑暗精靈長弓60%)' WHERE `item_id` = 4971;
-UPDATE `etcitem` SET `name` ='製作卷軸(巨斧60%)' WHERE `item_id` = 4972;
-UPDATE `etcitem` SET `name` ='製作卷軸(黑光耳環70%)' WHERE `item_id` = 4973;
-UPDATE `etcitem` SET `name` ='製作卷軸(黑光戒指70%)' WHERE `item_id` = 4974;
-UPDATE `etcitem` SET `name` ='製作卷軸(黑光項鍊70%)' WHERE `item_id` = 4975;
-UPDATE `etcitem` SET `name` ='製作卷軸(毀滅靴60%)' WHERE `item_id` = 4976;
-UPDATE `etcitem` SET `name` ='製作卷軸(佩勒迪亞靴60%)' WHERE `item_id` = 4977;
-UPDATE `etcitem` SET `name` ='製作卷軸(元素靴60%)' WHERE `item_id` = 4978;
-UPDATE `etcitem` SET `name` ='製作卷軸(恩寵靴60%)' WHERE `item_id` = 4979;
-UPDATE `etcitem` SET `name` ='製作卷軸(末日盾60%)' WHERE `item_id` = 4980;
-UPDATE `etcitem` SET `name` ='製作卷軸(青狼胸甲60%)' WHERE `item_id` = 4981;
-UPDATE `etcitem` SET `name` ='製作卷軸(青狼脛甲60%)' WHERE `item_id` = 4982;
-UPDATE `etcitem` SET `name` ='製作卷軸(末日金屬盔甲60%)' WHERE `item_id` = 4983;
-UPDATE `etcitem` SET `name` ='製作卷軸(青狼皮甲60%)' WHERE `item_id` = 4984;
-UPDATE `etcitem` SET `name` ='製作卷軸(末日皮甲60%)' WHERE `item_id` = 4985;
-UPDATE `etcitem` SET `name` ='製作卷軸(青狼外衣60%)' WHERE `item_id` = 4986;
-UPDATE `etcitem` SET `name` ='製作卷軸(末日外衣60%)' WHERE `item_id` = 4987;
-UPDATE `etcitem` SET `name` ='製作卷軸(青狼長襪60%)' WHERE `item_id` = 4988;
-UPDATE `etcitem` SET `name` ='製作卷軸(末日長襪60%)' WHERE `item_id` = 4989;
-UPDATE `etcitem` SET `name` ='製作卷軸(青狼頭盔60%)' WHERE `item_id` = 4990;
-UPDATE `etcitem` SET `name` ='製作卷軸(末日頭盔60%)' WHERE `item_id` = 4991;
-UPDATE `etcitem` SET `name` ='製作卷軸(封印的青狼長靴60%)' WHERE `item_id` = 4992;
-UPDATE `etcitem` SET `name` ='製作卷軸(封印的末日手套60%)' WHERE `item_id` = 4993;
-UPDATE `etcitem` SET `name` ='製作卷軸(元素手套60%)' WHERE `item_id` = 4994;
-UPDATE `etcitem` SET `name` ='製作卷軸(恩寵手套60%)' WHERE `item_id` = 4995;
-UPDATE `etcitem` SET `name` ='製作卷軸(毀滅長手套60%)' WHERE `item_id` = 4996;
-UPDATE `etcitem` SET `name` ='製作卷軸(佩勒迪亞手套60%)' WHERE `item_id` = 4997;
-UPDATE `etcitem` SET `name` ='製作卷軸(封印的青狼手套60%)' WHERE `item_id` = 4998;
-UPDATE `etcitem` SET `name` ='製作卷軸(封印的末日靴60%)' WHERE `item_id` = 4999;
-UPDATE `etcitem` SET `name` ='製作卷軸(大馬士革刀60%)' WHERE `item_id` = 5000;
-UPDATE `etcitem` SET `name` ='製作卷軸(長槍60%)' WHERE `item_id` = 5001;
-UPDATE `etcitem` SET `name` ='製作卷軸(亡者榮譽60%)' WHERE `item_id` = 5002;
-UPDATE `etcitem` SET `name` ='製作卷軸(工藝戰斧60%)' WHERE `item_id` = 5003;
-UPDATE `etcitem` SET `name` ='製作卷軸(邪靈魔杖60%)' WHERE `item_id` = 5004;
-UPDATE `etcitem` SET `name` ='製作卷軸(惡魔短劍60%)' WHERE `item_id` = 5005;
-UPDATE `etcitem` SET `name` ='製作卷軸(博利恩拳套60%)' WHERE `item_id` = 5006;
-UPDATE `etcitem` SET `name` ='製作卷軸(冒險弓60%)' WHERE `item_id` = 5007;
-UPDATE `etcitem` SET `name` ='製作卷軸(帕塔拳刃60%)' WHERE `item_id` = 5008;
-UPDATE `etcitem` SET `name` ='同盟優勝紀念' WHERE `item_id` = 5009;
-UPDATE `etcitem` SET `name` ='回聲水晶-勝利之歌' WHERE `item_id` = 5010;
-UPDATE `etcitem` SET `name` ='命運之星' WHERE `item_id` = 5011;
-UPDATE `etcitem` SET `name` ='雷坎的紙條' WHERE `item_id` = 5012;
-UPDATE `etcitem` SET `name` ='魔法書-元素之擊' WHERE `item_id` = 5013;
-UPDATE `etcitem` SET `name` ='魔法書-元素交響曲' WHERE `item_id` = 5014;
-UPDATE `etcitem` SET `name` ='魔法書-元素風暴' WHERE `item_id` = 5015;
-UPDATE `etcitem` SET `name` ='黑暗柯塔種子' WHERE `item_id` = 5016;
-UPDATE `etcitem` SET `name` ='紅色柯塔種子' WHERE `item_id` = 5017;
-UPDATE `etcitem` SET `name` ='冷氣柯塔種子' WHERE `item_id` = 5018;
-UPDATE `etcitem` SET `name` ='藍色柯塔種子' WHERE `item_id` = 5019;
-UPDATE `etcitem` SET `name` ='金色柯塔種子' WHERE `item_id` = 5020;
-UPDATE `etcitem` SET `name` ='魯特柯塔種子' WHERE `item_id` = 5021;
-UPDATE `etcitem` SET `name` ='沙漠柯塔種子' WHERE `item_id` = 5022;
-UPDATE `etcitem` SET `name` ='藍色柯柏種子' WHERE `item_id` = 5023;
-UPDATE `etcitem` SET `name` ='藍色柯塔種子' WHERE `item_id` = 5024;
-UPDATE `etcitem` SET `name` ='金色柯塔種子' WHERE `item_id` = 5025;
-UPDATE `etcitem` SET `name` ='魯特柯塔種子' WHERE `item_id` = 5026;
-UPDATE `etcitem` SET `name` ='沙漠柯塔種子' WHERE `item_id` = 5027;
-UPDATE `etcitem` SET `name` ='紅色柯柏種子' WHERE `item_id` = 5028;
-UPDATE `etcitem` SET `name` ='冷氣柯柏種子' WHERE `item_id` = 5029;
-UPDATE `etcitem` SET `name` ='芒刺柯柏種子' WHERE `item_id` = 5030;
-UPDATE `etcitem` SET `name` ='金色柯柏種子' WHERE `item_id` = 5031;
-UPDATE `etcitem` SET `name` ='巨大柯柏種子' WHERE `item_id` = 5032;
-UPDATE `etcitem` SET `name` ='紅色柯柏種子' WHERE `item_id` = 5033;
-UPDATE `etcitem` SET `name` ='冷氣柯柏種子' WHERE `item_id` = 5034;
-UPDATE `etcitem` SET `name` ='藍色柯柏種子' WHERE `item_id` = 5035;
-UPDATE `etcitem` SET `name` ='芒刺柯柏種子' WHERE `item_id` = 5036;
-UPDATE `etcitem` SET `name` ='金色柯柏種子' WHERE `item_id` = 5037;
-UPDATE `etcitem` SET `name` ='巨大柯柏種子' WHERE `item_id` = 5038;
-UPDATE `etcitem` SET `name` ='紅色柯德朗種子' WHERE `item_id` = 5039;
-UPDATE `etcitem` SET `name` ='雙生柯德朗種子' WHERE `item_id` = 5040;
-UPDATE `etcitem` SET `name` ='沙漠柯德朗種子' WHERE `item_id` = 5041;
-UPDATE `etcitem` SET `name` ='黑暗柯塔種子' WHERE `item_id` = 5042;
-UPDATE `etcitem` SET `name` ='紅色柯塔種子' WHERE `item_id` = 5043;
-UPDATE `etcitem` SET `name` ='藍色柯塔種子' WHERE `item_id` = 5044;
-UPDATE `etcitem` SET `name` ='紅色柯柏種子' WHERE `item_id` = 5045;
-UPDATE `etcitem` SET `name` ='冷氣柯柏種子' WHERE `item_id` = 5046;
-UPDATE `etcitem` SET `name` ='藍色柯柏種子' WHERE `item_id` = 5047;
-UPDATE `etcitem` SET `name` ='芒刺柯柏種子' WHERE `item_id` = 5048;
-UPDATE `etcitem` SET `name` ='海洋柯德朗種子' WHERE `item_id` = 5049;
-UPDATE `etcitem` SET `name` ='冷氣柯德朗種子' WHERE `item_id` = 5050;
-UPDATE `etcitem` SET `name` ='藍色柯德朗種子' WHERE `item_id` = 5051;
-UPDATE `etcitem` SET `name` ='雙生柯德朗種子' WHERE `item_id` = 5052;
-UPDATE `etcitem` SET `name` ='芒刺柯柏種子' WHERE `item_id` = 5053;
-UPDATE `etcitem` SET `name` ='金色柯柏種子' WHERE `item_id` = 5054;
-UPDATE `etcitem` SET `name` ='巨大柯柏種子' WHERE `item_id` = 5055;
-UPDATE `etcitem` SET `name` ='紅色柯德朗種子' WHERE `item_id` = 5056;
-UPDATE `etcitem` SET `name` ='冷氣柯德朗種子' WHERE `item_id` = 5057;
-UPDATE `etcitem` SET `name` ='藍色柯德朗種子' WHERE `item_id` = 5058;
-UPDATE `etcitem` SET `name` ='雙生柯德朗種子' WHERE `item_id` = 5059;
-UPDATE `etcitem` SET `name` ='巨大柯德朗種子' WHERE `item_id` = 5060;
-UPDATE `etcitem` SET `name` ='沙漠柯德朗種子' WHERE `item_id` = 5061;
-UPDATE `etcitem` SET `name` ='垃圾' WHERE `item_id` = 5062;
-UPDATE `etcitem` SET `name` ='垃圾' WHERE `item_id` = 5063;
-UPDATE `etcitem` SET `name` ='垃圾' WHERE `item_id` = 5064;
-UPDATE `etcitem` SET `name` ='冷氣柯塔' WHERE `item_id` = 5065;
-UPDATE `etcitem` SET `name` ='燃燒柯塔' WHERE `item_id` = 5066;
-UPDATE `etcitem` SET `name` ='藍色柯塔' WHERE `item_id` = 5067;
-UPDATE `etcitem` SET `name` ='紅色柯塔' WHERE `item_id` = 5068;
-UPDATE `etcitem` SET `name` ='金色柯塔' WHERE `item_id` = 5069;
-UPDATE `etcitem` SET `name` ='沙漠柯塔' WHERE `item_id` = 5070;
-UPDATE `etcitem` SET `name` ='魯特柯塔' WHERE `item_id` = 5071;
-UPDATE `etcitem` SET `name` ='雙生柯塔' WHERE `item_id` = 5072;
-UPDATE `etcitem` SET `name` ='黑暗柯塔' WHERE `item_id` = 5073;
-UPDATE `etcitem` SET `name` ='閃耀柯塔' WHERE `item_id` = 5074;
-UPDATE `etcitem` SET `name` ='冷氣柯柏' WHERE `item_id` = 5075;
-UPDATE `etcitem` SET `name` ='燃燒柯柏' WHERE `item_id` = 5076;
-UPDATE `etcitem` SET `name` ='藍色柯柏' WHERE `item_id` = 5077;
-UPDATE `etcitem` SET `name` ='紅色柯柏' WHERE `item_id` = 5078;
-UPDATE `etcitem` SET `name` ='金色柯柏' WHERE `item_id` = 5079;
-UPDATE `etcitem` SET `name` ='沙漠柯柏' WHERE `item_id` = 5080;
-UPDATE `etcitem` SET `name` ='海洋柯柏' WHERE `item_id` = 5081;
-UPDATE `etcitem` SET `name` ='芒刺柯柏' WHERE `item_id` = 5082;
-UPDATE `etcitem` SET `name` ='斑點柯柏' WHERE `item_id` = 5083;
-UPDATE `etcitem` SET `name` ='巨大柯柏' WHERE `item_id` = 5084;
-UPDATE `etcitem` SET `name` ='冷氣柯德朗' WHERE `item_id` = 5085;
-UPDATE `etcitem` SET `name` ='燃燒柯德朗' WHERE `item_id` = 5086;
-UPDATE `etcitem` SET `name` ='藍色柯德朗' WHERE `item_id` = 5087;
-UPDATE `etcitem` SET `name` ='紅色柯德朗' WHERE `item_id` = 5088;
-UPDATE `etcitem` SET `name` ='斑點柯德朗' WHERE `item_id` = 5089;
-UPDATE `etcitem` SET `name` ='沙漠柯德朗' WHERE `item_id` = 5090;
-UPDATE `etcitem` SET `name` ='海洋柯德朗' WHERE `item_id` = 5091;
-UPDATE `etcitem` SET `name` ='雙生柯德朗' WHERE `item_id` = 5092;
-UPDATE `etcitem` SET `name` ='芒刺柯德朗' WHERE `item_id` = 5093;
-UPDATE `etcitem` SET `name` ='巨大柯德朗' WHERE `item_id` = 5094;
-UPDATE `etcitem` SET `name` ='成熟的冷氣柯塔' WHERE `item_id` = 5095;
-UPDATE `etcitem` SET `name` ='成熟的燃燒柯塔' WHERE `item_id` = 5096;
-UPDATE `etcitem` SET `name` ='成熟的藍色柯塔' WHERE `item_id` = 5097;
-UPDATE `etcitem` SET `name` ='成熟的紅色柯塔' WHERE `item_id` = 5098;
-UPDATE `etcitem` SET `name` ='成熟的金色柯塔' WHERE `item_id` = 5099;
-UPDATE `etcitem` SET `name` ='成熟的沙漠柯塔' WHERE `item_id` = 5100;
-UPDATE `etcitem` SET `name` ='成熟的魯特柯塔' WHERE `item_id` = 5101;
-UPDATE `etcitem` SET `name` ='成熟的雙生柯塔' WHERE `item_id` = 5102;
-UPDATE `etcitem` SET `name` ='成熟的黑暗柯塔' WHERE `item_id` = 5103;
-UPDATE `etcitem` SET `name` ='成熟的閃耀柯塔' WHERE `item_id` = 5104;
-UPDATE `etcitem` SET `name` ='成熟的冷氣柯柏' WHERE `item_id` = 5105;
-UPDATE `etcitem` SET `name` ='成熟的燃燒柯柏' WHERE `item_id` = 5106;
-UPDATE `etcitem` SET `name` ='成熟的藍色柯柏' WHERE `item_id` = 5107;
-UPDATE `etcitem` SET `name` ='成熟的紅色柯柏' WHERE `item_id` = 5108;
-UPDATE `etcitem` SET `name` ='成熟的金色柯柏' WHERE `item_id` = 5109;
-UPDATE `etcitem` SET `name` ='成熟的沙漠柯柏' WHERE `item_id` = 5110;
-UPDATE `etcitem` SET `name` ='成熟的海洋柯柏' WHERE `item_id` = 5111;
-UPDATE `etcitem` SET `name` ='成熟的芒刺柯柏' WHERE `item_id` = 5112;
-UPDATE `etcitem` SET `name` ='成熟的斑點柯柏' WHERE `item_id` = 5113;
-UPDATE `etcitem` SET `name` ='成熟的巨大柯柏' WHERE `item_id` = 5114;
-UPDATE `etcitem` SET `name` ='成熟的冷氣柯德朗' WHERE `item_id` = 5115;
-UPDATE `etcitem` SET `name` ='成熟的燃燒柯德朗' WHERE `item_id` = 5116;
-UPDATE `etcitem` SET `name` ='成熟的藍色柯德朗' WHERE `item_id` = 5117;
-UPDATE `etcitem` SET `name` ='成熟的紅色柯德朗' WHERE `item_id` = 5118;
-UPDATE `etcitem` SET `name` ='成熟的斑點柯德朗' WHERE `item_id` = 5119;
-UPDATE `etcitem` SET `name` ='成熟的沙漠柯德朗' WHERE `item_id` = 5120;
-UPDATE `etcitem` SET `name` ='成熟的海洋柯德朗' WHERE `item_id` = 5121;
-UPDATE `etcitem` SET `name` ='成熟的雙生柯德朗' WHERE `item_id` = 5122;
-UPDATE `etcitem` SET `name` ='成熟的芒刺柯德朗' WHERE `item_id` = 5123;
-UPDATE `etcitem` SET `name` ='成熟的巨大柯德朗' WHERE `item_id` = 5124;
-UPDATE `etcitem` SET `name` ='收割機' WHERE `item_id` = 5125;
-UPDATE `etcitem` SET `name` ='二刀流製作印花' WHERE `item_id` = 5126;
-UPDATE `etcitem` SET `name` ='壓縮靈魂彈-普通' WHERE `item_id` = 5134;
-UPDATE `etcitem` SET `name` ='壓縮靈魂彈-D級' WHERE `item_id` = 5135;
-UPDATE `etcitem` SET `name` ='壓縮靈魂彈-C級' WHERE `item_id` = 5136;
-UPDATE `etcitem` SET `name` ='壓縮靈魂彈-B級' WHERE `item_id` = 5137;
-UPDATE `etcitem` SET `name` ='壓縮靈魂彈-A級' WHERE `item_id` = 5138;
-UPDATE `etcitem` SET `name` ='壓縮靈魂彈-S級' WHERE `item_id` = 5139;
-UPDATE `etcitem` SET `name` ='壓縮魔靈彈-普通' WHERE `item_id` = 5140;
-UPDATE `etcitem` SET `name` ='壓縮魔靈彈-D級' WHERE `item_id` = 5141;
-UPDATE `etcitem` SET `name` ='壓縮魔靈彈-C級' WHERE `item_id` = 5142;
-UPDATE `etcitem` SET `name` ='壓縮魔靈彈-B級' WHERE `item_id` = 5143;
-UPDATE `etcitem` SET `name` ='壓縮魔靈彈-A級' WHERE `item_id` = 5144;
-UPDATE `etcitem` SET `name` ='壓縮魔靈彈-S級' WHERE `item_id` = 5145;
-UPDATE `etcitem` SET `name` ='祝福的壓縮魔靈彈-普通' WHERE `item_id` = 5146;
-UPDATE `etcitem` SET `name` ='祝福的壓縮魔靈彈-D級' WHERE `item_id` = 5147;
-UPDATE `etcitem` SET `name` ='祝福的壓縮魔靈彈-C級' WHERE `item_id` = 5148;
-UPDATE `etcitem` SET `name` ='祝福的壓縮魔靈彈-B級' WHERE `item_id` = 5149;
-UPDATE `etcitem` SET `name` ='祝福的壓縮魔靈彈-A級' WHERE `item_id` = 5150;
-UPDATE `etcitem` SET `name` ='祝福的壓縮魔靈彈-S級' WHERE `item_id` = 5151;
-UPDATE `etcitem` SET `name` ='魔力壓縮器' WHERE `item_id` = 5152;
-UPDATE `etcitem` SET `name` ='製作卷軸(壓縮靈魂彈-D級100%)' WHERE `item_id` = 5153;
-UPDATE `etcitem` SET `name` ='製作卷軸(壓縮靈魂彈-C級100%)' WHERE `item_id` = 5154;
-UPDATE `etcitem` SET `name` ='製作卷軸(壓縮靈魂彈-B級100%)' WHERE `item_id` = 5155;
-UPDATE `etcitem` SET `name` ='製作卷軸(壓縮靈魂彈-A級100%)' WHERE `item_id` = 5156;
-UPDATE `etcitem` SET `name` ='製作卷軸(壓縮靈魂彈-S級100%)' WHERE `item_id` = 5157;
-UPDATE `etcitem` SET `name` ='製作卷軸(壓縮魔靈彈-D級100%)' WHERE `item_id` = 5158;
-UPDATE `etcitem` SET `name` ='製作卷軸(壓縮魔靈彈-C級100%)' WHERE `item_id` = 5159;
-UPDATE `etcitem` SET `name` ='製作卷軸(壓縮魔靈彈-B級100%)' WHERE `item_id` = 5160;
-UPDATE `etcitem` SET `name` ='製作卷軸(壓縮魔靈彈-A級100%)' WHERE `item_id` = 5161;
-UPDATE `etcitem` SET `name` ='製作卷軸(壓縮魔靈彈-S級100%)' WHERE `item_id` = 5162;
-UPDATE `etcitem` SET `name` ='製作卷軸(祝福的壓縮魔靈彈-D級100%)' WHERE `item_id` = 5163;
-UPDATE `etcitem` SET `name` ='製作卷軸(祝福的壓縮魔靈彈-C級100%)' WHERE `item_id` = 5164;
-UPDATE `etcitem` SET `name` ='製作卷軸(祝福的壓縮魔靈彈-B級100%)' WHERE `item_id` = 5165;
-UPDATE `etcitem` SET `name` ='製作卷軸(祝福的壓縮魔靈彈-A級100%)' WHERE `item_id` = 5166;
-UPDATE `etcitem` SET `name` ='製作卷軸(祝福的壓縮魔靈彈-S級100%)' WHERE `item_id` = 5167;
-UPDATE `etcitem` SET `name` ='座龍飼料' WHERE `item_id` = 5168;
-UPDATE `etcitem` SET `name` ='高級座龍飼料' WHERE `item_id` = 5169;
-UPDATE `etcitem` SET `name` ='D級魔法繩子' WHERE `item_id` = 5192;
-UPDATE `etcitem` SET `name` ='C級魔法繩子' WHERE `item_id` = 5193;
-UPDATE `etcitem` SET `name` ='B級魔法繩子' WHERE `item_id` = 5194;
-UPDATE `etcitem` SET `name` ='A級魔法繩子' WHERE `item_id` = 5195;
-UPDATE `etcitem` SET `name` ='S級魔法繩子' WHERE `item_id` = 5196;
-UPDATE `etcitem` SET `name` ='箱子鑰匙-8級' WHERE `item_id` = 5197;
-UPDATE `etcitem` SET `name` ='箱子鑰匙-7級' WHERE `item_id` = 5198;
-UPDATE `etcitem` SET `name` ='箱子鑰匙-6級' WHERE `item_id` = 5199;
-UPDATE `etcitem` SET `name` ='箱子鑰匙-5級' WHERE `item_id` = 5200;
-UPDATE `etcitem` SET `name` ='箱子鑰匙-4級' WHERE `item_id` = 5201;
-UPDATE `etcitem` SET `name` ='箱子鑰匙-3級' WHERE `item_id` = 5202;
-UPDATE `etcitem` SET `name` ='箱子鑰匙-2級' WHERE `item_id` = 5203;
-UPDATE `etcitem` SET `name` ='箱子鑰匙-1級' WHERE `item_id` = 5204;
-UPDATE `etcitem` SET `name` ='傭兵配置表(劍/固定)' WHERE `item_id` = 5205;
-UPDATE `etcitem` SET `name` ='傭兵配置表(槍/固定)' WHERE `item_id` = 5206;
-UPDATE `etcitem` SET `name` ='傭兵配置表(弓/固定)' WHERE `item_id` = 5207;
-UPDATE `etcitem` SET `name` ='傭兵配置表(牧師/固定)' WHERE `item_id` = 5208;
-UPDATE `etcitem` SET `name` ='傭兵配置表(巫師/固定)' WHERE `item_id` = 5209;
-UPDATE `etcitem` SET `name` ='傭兵配置表(劍/移動)' WHERE `item_id` = 5210;
-UPDATE `etcitem` SET `name` ='傭兵配置表(槍/移動)' WHERE `item_id` = 5211;
-UPDATE `etcitem` SET `name` ='傭兵配置表(弓/移動)' WHERE `item_id` = 5212;
-UPDATE `etcitem` SET `name` ='傭兵配置表(牧師/移動)' WHERE `item_id` = 5213;
-UPDATE `etcitem` SET `name` ='傭兵配置表(巫師/移動)' WHERE `item_id` = 5214;
-UPDATE `etcitem` SET `name` ='傭兵配置表(傳送師1)' WHERE `item_id` = 5215;
-UPDATE `etcitem` SET `name` ='傭兵配置表(傳送師2)' WHERE `item_id` = 5218;
-UPDATE `etcitem` SET `name` ='傭兵配置表(傳送師3)' WHERE `item_id` = 5219;
-UPDATE `etcitem` SET `name` ='金屬強化劑' WHERE `item_id` = 5220;
-UPDATE `etcitem` SET `name` ='冷氣柯柏種子' WHERE `item_id` = 5221;
-UPDATE `etcitem` SET `name` ='藍色柯柏種子' WHERE `item_id` = 5222;
-UPDATE `etcitem` SET `name` ='芒刺柯柏種子' WHERE `item_id` = 5223;
-UPDATE `etcitem` SET `name` ='金色柯柏種子' WHERE `item_id` = 5224;
-UPDATE `etcitem` SET `name` ='巨大柯柏種子' WHERE `item_id` = 5225;
-UPDATE `etcitem` SET `name` ='紅色柯德朗種子' WHERE `item_id` = 5226;
-UPDATE `etcitem` SET `name` ='海洋柯德朗種子' WHERE `item_id` = 5227;
-UPDATE `etcitem` SET `name` ='垃圾' WHERE `item_id` = 5228;
-UPDATE `etcitem` SET `name` ='垃圾' WHERE `item_id` = 5229;
-UPDATE `etcitem` SET `name` ='製作卷軸(米索莉箭100%)' WHERE `item_id` = 5230;
-UPDATE `etcitem` SET `name` ='製作卷軸(金屬強化劑100%)' WHERE `item_id` = 5231;
-UPDATE `etcitem` SET `name` ='白布' WHERE `item_id` = 5232;
-UPDATE `etcitem` SET `name` ='疑問藥水' WHERE `item_id` = 5234;
-UPDATE `etcitem` SET `name` ='整形藥水-A' WHERE `item_id` = 5235;
-UPDATE `etcitem` SET `name` ='整形藥水-B' WHERE `item_id` = 5236;
-UPDATE `etcitem` SET `name` ='整形藥水-C' WHERE `item_id` = 5237;
-UPDATE `etcitem` SET `name` ='染髮藥水-A' WHERE `item_id` = 5238;
-UPDATE `etcitem` SET `name` ='染髮藥水-B' WHERE `item_id` = 5239;
-UPDATE `etcitem` SET `name` ='染髮藥水-C' WHERE `item_id` = 5240;
-UPDATE `etcitem` SET `name` ='染髮藥水-D' WHERE `item_id` = 5241;
-UPDATE `etcitem` SET `name` ='造型藥水-A' WHERE `item_id` = 5242;
-UPDATE `etcitem` SET `name` ='造型藥水-B' WHERE `item_id` = 5243;
-UPDATE `etcitem` SET `name` ='造型藥水-C' WHERE `item_id` = 5244;
-UPDATE `etcitem` SET `name` ='造型藥水-D' WHERE `item_id` = 5245;
-UPDATE `etcitem` SET `name` ='造型藥水-E' WHERE `item_id` = 5246;
-UPDATE `etcitem` SET `name` ='造型藥水-F' WHERE `item_id` = 5247;
-UPDATE `etcitem` SET `name` ='造型藥水-G' WHERE `item_id` = 5248;
-UPDATE `etcitem` SET `name` ='天堂II服務一週年紀念物品' WHERE `item_id` = 5249;
-UPDATE `etcitem` SET `name` ='高級壓縮靈魂彈-普通' WHERE `item_id` = 5250;
-UPDATE `etcitem` SET `name` ='高級壓縮靈魂彈-D級' WHERE `item_id` = 5251;
-UPDATE `etcitem` SET `name` ='高級壓縮靈魂彈-C級' WHERE `item_id` = 5252;
-UPDATE `etcitem` SET `name` ='高級壓縮靈魂彈-B級' WHERE `item_id` = 5253;
-UPDATE `etcitem` SET `name` ='高級壓縮靈魂彈-A級' WHERE `item_id` = 5254;
-UPDATE `etcitem` SET `name` ='高級壓縮靈魂彈-S級' WHERE `item_id` = 5255;
-UPDATE `etcitem` SET `name` ='高級壓縮魔靈彈-普通' WHERE `item_id` = 5256;
-UPDATE `etcitem` SET `name` ='高級壓縮魔靈彈-D級' WHERE `item_id` = 5257;
-UPDATE `etcitem` SET `name` ='高級壓縮魔靈彈-C級' WHERE `item_id` = 5258;
-UPDATE `etcitem` SET `name` ='高級壓縮魔靈彈-B級' WHERE `item_id` = 5259;
-UPDATE `etcitem` SET `name` ='高級壓縮魔靈彈-A級' WHERE `item_id` = 5260;
-UPDATE `etcitem` SET `name` ='高級壓縮魔靈彈-S級' WHERE `item_id` = 5261;
-UPDATE `etcitem` SET `name` ='高級祝福的壓縮魔靈彈-普通' WHERE `item_id` = 5262;
-UPDATE `etcitem` SET `name` ='高級祝福的壓縮魔靈彈-D級' WHERE `item_id` = 5263;
-UPDATE `etcitem` SET `name` ='高級祝福的壓縮魔靈彈-C級' WHERE `item_id` = 5264;
-UPDATE `etcitem` SET `name` ='高級祝福的壓縮魔靈彈-B級' WHERE `item_id` = 5265;
-UPDATE `etcitem` SET `name` ='高級祝福的壓縮魔靈彈-A級' WHERE `item_id` = 5266;
-UPDATE `etcitem` SET `name` ='高級祝福的壓縮魔靈彈-S級' WHERE `item_id` = 5267;
-UPDATE `etcitem` SET `name` ='製作卷軸(高級壓縮靈魂彈-D級100%)' WHERE `item_id` = 5268;
-UPDATE `etcitem` SET `name` ='製作卷軸(高級壓縮靈魂彈-C級100%)' WHERE `item_id` = 5269;
-UPDATE `etcitem` SET `name` ='製作卷軸(高級壓縮靈魂彈-B級100%)' WHERE `item_id` = 5270;
-UPDATE `etcitem` SET `name` ='製作卷軸(高級壓縮靈魂彈-A級100%)' WHERE `item_id` = 5271;
-UPDATE `etcitem` SET `name` ='製作卷軸(高級壓縮靈魂彈-S級100%)' WHERE `item_id` = 5272;
-UPDATE `etcitem` SET `name` ='製作卷軸(高級壓縮魔靈彈-D級100%)' WHERE `item_id` = 5273;
-UPDATE `etcitem` SET `name` ='製作卷軸(高級壓縮魔靈彈-C級100%)' WHERE `item_id` = 5274;
-UPDATE `etcitem` SET `name` ='製作卷軸(高級壓縮魔靈彈-B級100%)' WHERE `item_id` = 5275;
-UPDATE `etcitem` SET `name` ='製作卷軸(高級壓縮魔靈彈-A級100%)' WHERE `item_id` = 5276;
-UPDATE `etcitem` SET `name` ='製作卷軸(高級壓縮魔靈彈-S級100%)' WHERE `item_id` = 5277;
-UPDATE `etcitem` SET `name` ='製作卷軸(高級祝福的壓縮魔靈彈-D級100%)' WHERE `item_id` = 5278;
-UPDATE `etcitem` SET `name` ='製作卷軸(高級祝福的壓縮魔靈彈-C級100%)' WHERE `item_id` = 5279;
-UPDATE `etcitem` SET `name` ='製作卷軸(高級祝福的壓縮魔靈彈-B級100%)' WHERE `item_id` = 5280;
-UPDATE `etcitem` SET `name` ='製作卷軸(高級祝福的壓縮魔靈彈-A級100%)' WHERE `item_id` = 5281;
-UPDATE `etcitem` SET `name` ='製作卷軸(高級祝福的壓縮魔靈彈-S級100%)' WHERE `item_id` = 5282;
-UPDATE `etcitem` SET `name` ='麻糬' WHERE `item_id` = 5283;
-UPDATE `etcitem` SET `name` ='製作卷軸(封印的黑暗水晶皮甲60%)' WHERE `item_id` = 5332;
-UPDATE `etcitem` SET `name` ='製作卷軸(封印的黑暗水晶皮甲100%)' WHERE `item_id` = 5333;
-UPDATE `etcitem` SET `name` ='製作卷軸(封印的塔魯皮甲60%)' WHERE `item_id` = 5334;
-UPDATE `etcitem` SET `name` ='製作卷軸(封印的塔魯皮甲100%)' WHERE `item_id` = 5335;
-UPDATE `etcitem` SET `name` ='製作卷軸(封印的夢魘皮甲60%)' WHERE `item_id` = 5336;
-UPDATE `etcitem` SET `name` ='製作卷軸(封印的夢魘皮甲100%)' WHERE `item_id` = 5337;
-UPDATE `etcitem` SET `name` ='製作卷軸(封印的聖威皮甲60%)' WHERE `item_id` = 5338;
-UPDATE `etcitem` SET `name` ='製作卷軸(封印的聖威皮甲100%)' WHERE `item_id` = 5339;
-UPDATE `etcitem` SET `name` ='製作卷軸(封印的黑暗水晶皮脛甲60%)' WHERE `item_id` = 5340;
-UPDATE `etcitem` SET `name` ='製作卷軸(封印的黑暗水晶皮脛甲100%)' WHERE `item_id` = 5341;
-UPDATE `etcitem` SET `name` ='回聲水晶-大悲咒' WHERE `item_id` = 5342;
-UPDATE `etcitem` SET `name` ='回聲水晶-聖歌' WHERE `item_id` = 5343;
-UPDATE `etcitem` SET `name` ='(無用)製作卷軸(聖威耳環70%)' WHERE `item_id` = 5344;
-UPDATE `etcitem` SET `name` ='(無用)製作卷軸(聖威耳環100%)' WHERE `item_id` = 5345;
-UPDATE `etcitem` SET `name` ='製作卷軸(封印的塔魯外衣60%)' WHERE `item_id` = 5346;
-UPDATE `etcitem` SET `name` ='製作卷軸(封印的塔魯外衣100%)' WHERE `item_id` = 5347;
-UPDATE `etcitem` SET `name` ='製作卷軸(封印的黑暗水晶長袍60%)' WHERE `item_id` = 5348;
-UPDATE `etcitem` SET `name` ='製作卷軸(封印的黑暗水晶長袍100%)' WHERE `item_id` = 5349;
-UPDATE `etcitem` SET `name` ='製作卷軸(封印的夢魘長袍60%)' WHERE `item_id` = 5350;
-UPDATE `etcitem` SET `name` ='製作卷軸(封印的夢魘長袍100%)' WHERE `item_id` = 5351;
-UPDATE `etcitem` SET `name` ='製作卷軸(封印的聖威長袍60%)' WHERE `item_id` = 5352;
-UPDATE `etcitem` SET `name` ='製作卷軸(封印的聖威長袍100%)' WHERE `item_id` = 5353;
-UPDATE `etcitem` SET `name` ='製作卷軸(封印的塔魯長襪60%)' WHERE `item_id` = 5354;
-UPDATE `etcitem` SET `name` ='製作卷軸(封印的塔魯長襪100%)' WHERE `item_id` = 5355;
-UPDATE `etcitem` SET `name` ='(無用)製作卷軸(不死鳥項鍊70%)' WHERE `item_id` = 5356;
-UPDATE `etcitem` SET `name` ='(無用)製作卷軸(不死鳥項鍊100%)' WHERE `item_id` = 5357;
-UPDATE `etcitem` SET `name` ='(無用)製作卷軸(聖威項鍊70%)' WHERE `item_id` = 5358;
-UPDATE `etcitem` SET `name` ='(無用)製作卷軸(聖威項鍊100%)' WHERE `item_id` = 5359;
-UPDATE `etcitem` SET `name` ='(無用)製作卷軸(不死鳥戒指70%)' WHERE `item_id` = 5360;
-UPDATE `etcitem` SET `name` ='(無用)製作卷軸(不死鳥戒指100%)' WHERE `item_id` = 5361;
-UPDATE `etcitem` SET `name` ='(無用)製作卷軸(聖威戒指70%)' WHERE `item_id` = 5362;
-UPDATE `etcitem` SET `name` ='(無用)製作卷軸(聖威戒指100%)' WHERE `item_id` = 5363;
-UPDATE `etcitem` SET `name` ='製作卷軸(封印的黑暗水晶盾60%)' WHERE `item_id` = 5364;
-UPDATE `etcitem` SET `name` ='製作卷軸(封印的黑暗水晶盾100%)' WHERE `item_id` = 5365;
-UPDATE `etcitem` SET `name` ='製作卷軸(封印的夢魘盾60%)' WHERE `item_id` = 5366;
-UPDATE `etcitem` SET `name` ='製作卷軸(封印的夢魘盾100%)' WHERE `item_id` = 5367;
-UPDATE `etcitem` SET `name` ='製作卷軸(封印的黑暗水晶靴60%)' WHERE `item_id` = 5368;
-UPDATE `etcitem` SET `name` ='製作卷軸(封印的黑暗水晶靴100%)' WHERE `item_id` = 5369;
-UPDATE `etcitem` SET `name` ='製作卷軸(封印的塔魯靴60%)' WHERE `item_id` = 5370;
-UPDATE `etcitem` SET `name` ='製作卷軸(封印的塔魯靴100%)' WHERE `item_id` = 5371;
-UPDATE `etcitem` SET `name` ='製作卷軸(封印的煉獄靴60%)' WHERE `item_id` = 5372;
-UPDATE `etcitem` SET `name` ='製作卷軸(封印的煉獄靴100%)' WHERE `item_id` = 5373;
-UPDATE `etcitem` SET `name` ='製作卷軸(封印的勁風靴60%)' WHERE `item_id` = 5374;
-UPDATE `etcitem` SET `name` ='製作卷軸(封印的勁風靴100%)' WHERE `item_id` = 5375;
-UPDATE `etcitem` SET `name` ='製作卷軸(封印的黑光靴60%)' WHERE `item_id` = 5376;
-UPDATE `etcitem` SET `name` ='製作卷軸(封印的黑光靴100%)' WHERE `item_id` = 5377;
-UPDATE `etcitem` SET `name` ='製作卷軸(封印的不死鳥靴60%)' WHERE `item_id` = 5378;
-UPDATE `etcitem` SET `name` ='製作卷軸(封印的不死鳥靴100%)' WHERE `item_id` = 5379;
-UPDATE `etcitem` SET `name` ='製作卷軸(封印的夢魘靴60%)' WHERE `item_id` = 5380;
-UPDATE `etcitem` SET `name` ='製作卷軸(封印的夢魘靴100%)' WHERE `item_id` = 5381;
-UPDATE `etcitem` SET `name` ='製作卷軸(封印的聖威靴60%)' WHERE `item_id` = 5382;
-UPDATE `etcitem` SET `name` ='製作卷軸(封印的聖威靴100%)' WHERE `item_id` = 5383;
-UPDATE `etcitem` SET `name` ='製作卷軸(封印的黑暗軍靴60%)' WHERE `item_id` = 5384;
-UPDATE `etcitem` SET `name` ='製作卷軸(封印的黑暗軍靴100%)' WHERE `item_id` = 5385;
-UPDATE `etcitem` SET `name` ='製作卷軸(封印的幻影靴60%)' WHERE `item_id` = 5386;
-UPDATE `etcitem` SET `name` ='製作卷軸(封印的幻影靴100%)' WHERE `item_id` = 5387;
-UPDATE `etcitem` SET `name` ='製作卷軸(封印的地獄犬靴60%)' WHERE `item_id` = 5388;
-UPDATE `etcitem` SET `name` ='製作卷軸(封印的地獄犬靴100%)' WHERE `item_id` = 5389;
-UPDATE `etcitem` SET `name` ='製作卷軸(封印的帕黎恩靴60%)' WHERE `item_id` = 5390;
-UPDATE `etcitem` SET `name` ='製作卷軸(封印的帕黎恩靴100%)' WHERE `item_id` = 5391;
-UPDATE `etcitem` SET `name` ='製作卷軸(封印的黑暗水晶手套60%)' WHERE `item_id` = 5392;
-UPDATE `etcitem` SET `name` ='製作卷軸(封印的黑暗水晶手套100%)' WHERE `item_id` = 5393;
-UPDATE `etcitem` SET `name` ='製作卷軸(封印的塔魯手套60%)' WHERE `item_id` = 5394;
-UPDATE `etcitem` SET `name` ='製作卷軸(封印的塔魯手套100%)' WHERE `item_id` = 5395;
-UPDATE `etcitem` SET `name` ='製作卷軸(封印的煉獄手套60%)' WHERE `item_id` = 5396;
-UPDATE `etcitem` SET `name` ='製作卷軸(封印的煉獄手套100%)' WHERE `item_id` = 5397;
-UPDATE `etcitem` SET `name` ='製作卷軸(封印的勁風手套60%)' WHERE `item_id` = 5398;
-UPDATE `etcitem` SET `name` ='製作卷軸(封印的勁風手套100%)' WHERE `item_id` = 5399;
-UPDATE `etcitem` SET `name` ='製作卷軸(封印的黑光手套60%)' WHERE `item_id` = 5400;
-UPDATE `etcitem` SET `name` ='製作卷軸(封印的黑光手套100%)' WHERE `item_id` = 5401;
-UPDATE `etcitem` SET `name` ='製作卷軸(封印的不死鳥手套60%)' WHERE `item_id` = 5402;
-UPDATE `etcitem` SET `name` ='製作卷軸(封印的不死鳥手套100%)' WHERE `item_id` = 5403;
-UPDATE `etcitem` SET `name` ='製作卷軸(封印的夢魘手套60%)' WHERE `item_id` = 5404;
-UPDATE `etcitem` SET `name` ='製作卷軸(封印的夢魘手套100%)' WHERE `item_id` = 5405;
-UPDATE `etcitem` SET `name` ='製作卷軸(封印的聖威手套60%)' WHERE `item_id` = 5406;
-UPDATE `etcitem` SET `name` ='製作卷軸(封印的聖威手套100%)' WHERE `item_id` = 5407;
-UPDATE `etcitem` SET `name` ='製作卷軸(封印的黑暗軍手套60%)' WHERE `item_id` = 5408;
-UPDATE `etcitem` SET `name` ='製作卷軸(封印的黑暗軍手套100%)' WHERE `item_id` = 5409;
-UPDATE `etcitem` SET `name` ='製作卷軸(封印的幻影手套60%)' WHERE `item_id` = 5410;
-UPDATE `etcitem` SET `name` ='製作卷軸(封印的幻影手套100%)' WHERE `item_id` = 5411;
-UPDATE `etcitem` SET `name` ='製作卷軸(封印的地獄犬手套60%)' WHERE `item_id` = 5412;
-UPDATE `etcitem` SET `name` ='製作卷軸(封印的地獄犬手套100%)' WHERE `item_id` = 5413;
-UPDATE `etcitem` SET `name` ='製作卷軸(封印的帕黎恩手套60%)' WHERE `item_id` = 5414;
-UPDATE `etcitem` SET `name` ='製作卷軸(封印的帕黎恩手套100%)' WHERE `item_id` = 5415;
-UPDATE `etcitem` SET `name` ='製作卷軸(封印的黑暗水晶胸甲60%)' WHERE `item_id` = 5416;
-UPDATE `etcitem` SET `name` ='製作卷軸(封印的黑暗水晶胸甲100%)' WHERE `item_id` = 5417;
-UPDATE `etcitem` SET `name` ='製作卷軸(封印的塔魯金屬盔甲60%)' WHERE `item_id` = 5418;
-UPDATE `etcitem` SET `name` ='製作卷軸(封印的塔魯金屬盔甲100%)' WHERE `item_id` = 5419;
-UPDATE `etcitem` SET `name` ='製作卷軸(封印的夢魘盔甲60%)' WHERE `item_id` = 5420;
-UPDATE `etcitem` SET `name` ='製作卷軸(封印的夢魘盔甲100%)' WHERE `item_id` = 5421;
-UPDATE `etcitem` SET `name` ='製作卷軸(封印的聖威金屬盔甲60%)' WHERE `item_id` = 5422;
-UPDATE `etcitem` SET `name` ='製作卷軸(封印的聖威金屬盔甲100%)' WHERE `item_id` = 5423;
-UPDATE `etcitem` SET `name` ='製作卷軸(封印的黑暗水晶脛甲60%)' WHERE `item_id` = 5424;
-UPDATE `etcitem` SET `name` ='製作卷軸(封印的黑暗水晶脛甲100%)' WHERE `item_id` = 5425;
-UPDATE `etcitem` SET `name` ='製作卷軸(封印的黑暗水晶頭盔60%)' WHERE `item_id` = 5426;
-UPDATE `etcitem` SET `name` ='製作卷軸(封印的黑暗水晶頭盔100%)' WHERE `item_id` = 5427;
-UPDATE `etcitem` SET `name` ='製作卷軸(封印的塔魯帽60%)' WHERE `item_id` = 5428;
-UPDATE `etcitem` SET `name` ='製作卷軸(封印的塔魯帽100%)' WHERE `item_id` = 5429;
-UPDATE `etcitem` SET `name` ='製作卷軸(封印的夢魘頭盔60%)' WHERE `item_id` = 5430;
-UPDATE `etcitem` SET `name` ='製作卷軸(封印的夢魘頭盔100%)' WHERE `item_id` = 5431;
-UPDATE `etcitem` SET `name` ='製作卷軸(封印的聖威頭箍60%)' WHERE `item_id` = 5432;
-UPDATE `etcitem` SET `name` ='製作卷軸(封印的聖威頭箍100%)' WHERE `item_id` = 5433;
-UPDATE `etcitem` SET `name` ='製作卷軸(斬龍刀60%)' WHERE `item_id` = 5434;
-UPDATE `etcitem` SET `name` ='製作卷軸(斬龍刀100%)' WHERE `item_id` = 5435;
-UPDATE `etcitem` SET `name` ='製作卷軸(狂戰士之刃100%)' WHERE `item_id` = 5436;
-UPDATE `etcitem` SET `name` ='製作卷軸(重型劍100%)' WHERE `item_id` = 5437;
-UPDATE `etcitem` SET `name` ='製作卷軸(流星雨60%)' WHERE `item_id` = 5438;
-UPDATE `etcitem` SET `name` ='製作卷軸(流星雨100%)' WHERE `item_id` = 5439;
-UPDATE `etcitem` SET `name` ='製作卷軸(樂園60%)' WHERE `item_id` = 5440;
-UPDATE `etcitem` SET `name` ='製作卷軸(樂園100%)' WHERE `item_id` = 5441;
-UPDATE `etcitem` SET `name` ='製作卷軸(靈魂弓60%)' WHERE `item_id` = 5442;
-UPDATE `etcitem` SET `name` ='製作卷軸(靈魂弓100%)' WHERE `item_id` = 5443;
-UPDATE `etcitem` SET `name` ='製作卷軸(顱之弓60%)' WHERE `item_id` = 5444;
-UPDATE `etcitem` SET `name` ='製作卷軸(顱之弓100%)' WHERE `item_id` = 5445;
-UPDATE `etcitem` SET `name` ='製作卷軸(血腥之蘭60%)' WHERE `item_id` = 5446;
-UPDATE `etcitem` SET `name` ='製作卷軸(血腥之蘭100%)' WHERE `item_id` = 5447;
-UPDATE `etcitem` SET `name` ='製作卷軸(魂體分離器60%)' WHERE `item_id` = 5448;
-UPDATE `etcitem` SET `name` ='製作卷軸(魂體分離器100%)' WHERE `item_id` = 5449;
-UPDATE `etcitem` SET `name` ='製作卷軸(龍牙60%)' WHERE `item_id` = 5450;
-UPDATE `etcitem` SET `name` ='製作卷軸(龍牙100%)' WHERE `item_id` = 5451;
-UPDATE `etcitem` SET `name` ='製作卷軸(血旋風60%)' WHERE `item_id` = 5452;
-UPDATE `etcitem` SET `name` ='製作卷軸(血旋風100%)' WHERE `item_id` = 5453;
-UPDATE `etcitem` SET `name` ='製作卷軸(歐西斯戰戟60%)' WHERE `item_id` = 5454;
-UPDATE `etcitem` SET `name` ='製作卷軸(歐西斯戰戟100%)' WHERE `item_id` = 5455;
-UPDATE `etcitem` SET `name` ='製作卷軸(塔魯闊矛60%)' WHERE `item_id` = 5456;
-UPDATE `etcitem` SET `name` ='製作卷軸(塔魯闊矛100%)' WHERE `item_id` = 5457;
-UPDATE `etcitem` SET `name` ='製作卷軸(長柄戰戟60%)' WHERE `item_id` = 5458;
-UPDATE `etcitem` SET `name` ='製作卷軸(長柄戰戟100%)' WHERE `item_id` = 5459;
-UPDATE `etcitem` SET `name` ='製作卷軸(帕黎恩魔杖60%)' WHERE `item_id` = 5460;
-UPDATE `etcitem` SET `name` ='製作卷軸(帕黎恩魔杖100%)' WHERE `item_id` = 5461;
-UPDATE `etcitem` SET `name` ='製作卷軸(世界樹樹枝60%)' WHERE `item_id` = 5462;
-UPDATE `etcitem` SET `name` ='製作卷軸(世界樹樹枝100%)' WHERE `item_id` = 5463;
-UPDATE `etcitem` SET `name` ='製作卷軸(黑暗軍刀60%)' WHERE `item_id` = 5464;
-UPDATE `etcitem` SET `name` ='製作卷軸(黑暗軍刀100%)' WHERE `item_id` = 5465;
-UPDATE `etcitem` SET `name` ='製作卷軸(奇蹟劍60%)' WHERE `item_id` = 5466;
-UPDATE `etcitem` SET `name` ='製作卷軸(奇蹟劍100%)' WHERE `item_id` = 5467;
-UPDATE `etcitem` SET `name` ='製作卷軸(元素劍60%)' WHERE `item_id` = 5468;
-UPDATE `etcitem` SET `name` ='製作卷軸(元素劍100%)' WHERE `item_id` = 5469;
-UPDATE `etcitem` SET `name` ='製作卷軸(塔魯刀60%)' WHERE `item_id` = 5470;
-UPDATE `etcitem` SET `name` ='製作卷軸(塔魯刀100%)' WHERE `item_id` = 5471;
-UPDATE `etcitem` SET `name` ='製作卷軸(金屬絲100%)' WHERE `item_id` = 5472;
-UPDATE `etcitem` SET `name` ='製作卷軸(強化金屬板100%)' WHERE `item_id` = 5473;
-UPDATE `etcitem` SET `name` ='製作卷軸(里澳林的模具100%)' WHERE `item_id` = 5474;
-UPDATE `etcitem` SET `name` ='製作卷軸(戰爭工匠的模具100%)' WHERE `item_id` = 5475;
-UPDATE `etcitem` SET `name` ='製作卷軸(名匠砧鎖100%)' WHERE `item_id` = 5476;
-UPDATE `etcitem` SET `name` ='製作卷軸(戰爭工匠的骨架100%)' WHERE `item_id` = 5477;
-UPDATE `etcitem` SET `name` ='封印的黑暗水晶皮甲的圖樣' WHERE `item_id` = 5478;
-UPDATE `etcitem` SET `name` ='封印的塔魯皮甲的圖樣' WHERE `item_id` = 5479;
-UPDATE `etcitem` SET `name` ='封印的夢魘皮甲的布料' WHERE `item_id` = 5480;
-UPDATE `etcitem` SET `name` ='封印的聖威皮甲的布料' WHERE `item_id` = 5481;
-UPDATE `etcitem` SET `name` ='封印的黑暗水晶皮脛甲的組件' WHERE `item_id` = 5482;
-UPDATE `etcitem` SET `name` ='不死鳥耳環的寶石' WHERE `item_id` = 5483;
-UPDATE `etcitem` SET `name` ='聖威耳環的寶石' WHERE `item_id` = 5484;
-UPDATE `etcitem` SET `name` ='封印的塔魯外衣的材料' WHERE `item_id` = 5485;
-UPDATE `etcitem` SET `name` ='封印的黑暗水晶長袍的布料' WHERE `item_id` = 5486;
-UPDATE `etcitem` SET `name` ='封印的夢魘長袍的布料' WHERE `item_id` = 5487;
-UPDATE `etcitem` SET `name` ='封印的聖威長袍的布料' WHERE `item_id` = 5488;
-UPDATE `etcitem` SET `name` ='封印的塔魯長襪的布料' WHERE `item_id` = 5489;
-UPDATE `etcitem` SET `name` ='不死鳥項鍊的珠子' WHERE `item_id` = 5490;
-UPDATE `etcitem` SET `name` ='聖威項鍊的珠子' WHERE `item_id` = 5491;
-UPDATE `etcitem` SET `name` ='不死鳥戒指的寶石' WHERE `item_id` = 5492;
-UPDATE `etcitem` SET `name` ='聖威戒指的寶石' WHERE `item_id` = 5493;
-UPDATE `etcitem` SET `name` ='封印的黑暗水晶盾碎片' WHERE `item_id` = 5494;
-UPDATE `etcitem` SET `name` ='封印的夢魘盾碎片' WHERE `item_id` = 5495;
-UPDATE `etcitem` SET `name` ='封印的黑暗水晶靴的內襯' WHERE `item_id` = 5496;
-UPDATE `etcitem` SET `name` ='封印的塔魯靴的內襯' WHERE `item_id` = 5497;
-UPDATE `etcitem` SET `name` ='封印的煉獄靴的內襯' WHERE `item_id` = 5498;
-UPDATE `etcitem` SET `name` ='封印的勁風靴的內襯' WHERE `item_id` = 5499;
-UPDATE `etcitem` SET `name` ='封印的黑光靴的內襯' WHERE `item_id` = 5500;
-UPDATE `etcitem` SET `name` ='封印的不死鳥靴的內襯' WHERE `item_id` = 5501;
-UPDATE `etcitem` SET `name` ='封印的夢魘靴的內襯' WHERE `item_id` = 5502;
-UPDATE `etcitem` SET `name` ='封印的聖威靴的內襯' WHERE `item_id` = 5503;
-UPDATE `etcitem` SET `name` ='封印的黑暗軍靴的內襯' WHERE `item_id` = 5504;
-UPDATE `etcitem` SET `name` ='封印的幻影靴的內襯' WHERE `item_id` = 5505;
-UPDATE `etcitem` SET `name` ='封印的地獄犬靴的內襯' WHERE `item_id` = 5506;
-UPDATE `etcitem` SET `name` ='封印的帕黎恩靴的內襯' WHERE `item_id` = 5507;
-UPDATE `etcitem` SET `name` ='封印的黑暗水晶手套的組件' WHERE `item_id` = 5508;
-UPDATE `etcitem` SET `name` ='封印的塔魯手套的組件' WHERE `item_id` = 5509;
-UPDATE `etcitem` SET `name` ='封印的煉獄手套的組件' WHERE `item_id` = 5510;
-UPDATE `etcitem` SET `name` ='封印的勁風手套的組件' WHERE `item_id` = 5511;
-UPDATE `etcitem` SET `name` ='封印的黑光手套的組件' WHERE `item_id` = 5512;
-UPDATE `etcitem` SET `name` ='封印的不死鳥手套的組件' WHERE `item_id` = 5513;
-UPDATE `etcitem` SET `name` ='封印的夢魘手套的組件' WHERE `item_id` = 5514;
-UPDATE `etcitem` SET `name` ='封印的聖威手套的組件' WHERE `item_id` = 5515;
-UPDATE `etcitem` SET `name` ='封印的黑暗軍手套的組件' WHERE `item_id` = 5516;
-UPDATE `etcitem` SET `name` ='封印的幻影手套的組件' WHERE `item_id` = 5517;
-UPDATE `etcitem` SET `name` ='封印的地獄犬手套的組件' WHERE `item_id` = 5518;
-UPDATE `etcitem` SET `name` ='封印的帕黎恩手套的組件' WHERE `item_id` = 5519;
-UPDATE `etcitem` SET `name` ='封印的黑暗水晶胸甲的圖樣' WHERE `item_id` = 5520;
-UPDATE `etcitem` SET `name` ='封印的塔魯金屬盔甲的圖樣' WHERE `item_id` = 5521;
-UPDATE `etcitem` SET `name` ='封印的夢魘盔甲的圖樣' WHERE `item_id` = 5522;
-UPDATE `etcitem` SET `name` ='封印的聖威金屬盔甲的圖樣' WHERE `item_id` = 5523;
-UPDATE `etcitem` SET `name` ='封印的黑暗水晶脛甲的圖樣' WHERE `item_id` = 5524;
-UPDATE `etcitem` SET `name` ='封印的黑暗水晶頭盔的組件' WHERE `item_id` = 5525;
-UPDATE `etcitem` SET `name` ='封印的塔魯帽的組件' WHERE `item_id` = 5526;
-UPDATE `etcitem` SET `name` ='封印的夢魘頭盔的組件' WHERE `item_id` = 5527;
-UPDATE `etcitem` SET `name` ='封印的聖威頭箍的組件' WHERE `item_id` = 5528;
-UPDATE `etcitem` SET `name` ='斬龍刀的刀身' WHERE `item_id` = 5529;
-UPDATE `etcitem` SET `name` ='狂戰士之刃的刀身' WHERE `item_id` = 5530;
-UPDATE `etcitem` SET `name` ='重型劍的刀身' WHERE `item_id` = 5531;
-UPDATE `etcitem` SET `name` ='流星雨的金屬塊' WHERE `item_id` = 5532;
-UPDATE `etcitem` SET `name` ='樂園的金屬塊' WHERE `item_id` = 5533;
-UPDATE `etcitem` SET `name` ='靈魂弓的柄' WHERE `item_id` = 5534;
-UPDATE `etcitem` SET `name` ='顱之弓的柄' WHERE `item_id` = 5535;
-UPDATE `etcitem` SET `name` ='血腥之蘭的刀身' WHERE `item_id` = 5536;
-UPDATE `etcitem` SET `name` ='魂體分離器的刀身' WHERE `item_id` = 5537;
-UPDATE `etcitem` SET `name` ='龍牙的刀身' WHERE `item_id` = 5538;
-UPDATE `etcitem` SET `name` ='血旋風的刀身' WHERE `item_id` = 5539;
-UPDATE `etcitem` SET `name` ='歐西斯戰戟的刀身' WHERE `item_id` = 5540;
-UPDATE `etcitem` SET `name` ='塔魯闊矛的刀身' WHERE `item_id` = 5541;
-UPDATE `etcitem` SET `name` ='長柄戰戟的刀身' WHERE `item_id` = 5542;
-UPDATE `etcitem` SET `name` ='帕黎恩魔杖的金屬塊' WHERE `item_id` = 5543;
-UPDATE `etcitem` SET `name` ='世界樹樹枝的金屬塊' WHERE `item_id` = 5544;
-UPDATE `etcitem` SET `name` ='黑暗軍刀的刀身' WHERE `item_id` = 5545;
-UPDATE `etcitem` SET `name` ='奇蹟劍的刀身' WHERE `item_id` = 5546;
-UPDATE `etcitem` SET `name` ='元素劍的刀身' WHERE `item_id` = 5547;
-UPDATE `etcitem` SET `name` ='塔魯刀的刀身' WHERE `item_id` = 5548;
-UPDATE `etcitem` SET `name` ='金屬絲' WHERE `item_id` = 5549;
-UPDATE `etcitem` SET `name` ='強化金屬板' WHERE `item_id` = 5550;
-UPDATE `etcitem` SET `name` ='里澳林的模具' WHERE `item_id` = 5551;
-UPDATE `etcitem` SET `name` ='戰爭工匠的模具' WHERE `item_id` = 5552;
-UPDATE `etcitem` SET `name` ='名匠砧鎖' WHERE `item_id` = 5553;
-UPDATE `etcitem` SET `name` ='戰爭工匠的骨架' WHERE `item_id` = 5554;
-UPDATE `etcitem` SET `name` ='愛的憑證' WHERE `item_id` = 5555;
-UPDATE `etcitem` SET `name` ='伯利恆之星' WHERE `item_id` = 5556;
-UPDATE `etcitem` SET `name` ='珍珠裝飾' WHERE `item_id` = 5557;
-UPDATE `etcitem` SET `name` ='樅木樹枝' WHERE `item_id` = 5558;
-UPDATE `etcitem` SET `name` ='花盆' WHERE `item_id` = 5559;
-UPDATE `etcitem` SET `name` ='聖誕樹' WHERE `item_id` = 5560;
-UPDATE `etcitem` SET `name` ='高級聖誕樹' WHERE `item_id` = 5561;
-UPDATE `etcitem` SET `name` ='回聲水晶-聖樂1' WHERE `item_id` = 5562;
-UPDATE `etcitem` SET `name` ='回聲水晶-聖樂2' WHERE `item_id` = 5563;
-UPDATE `etcitem` SET `name` ='回聲水晶-聖樂3' WHERE `item_id` = 5564;
-UPDATE `etcitem` SET `name` ='回聲水晶-聖樂4' WHERE `item_id` = 5565;
-UPDATE `etcitem` SET `name` ='回聲水晶-聖樂5' WHERE `item_id` = 5566;
-UPDATE `etcitem` SET `name` ='問候信' WHERE `item_id` = 5567;
-UPDATE `etcitem` SET `name` ='問候信' WHERE `item_id` = 5568;
-UPDATE `etcitem` SET `name` ='水的古文字' WHERE `item_id` = 5569;
-UPDATE `etcitem` SET `name` ='水的符咒' WHERE `item_id` = 5570;
-UPDATE `etcitem` SET `name` ='風的古文字' WHERE `item_id` = 5571;
-UPDATE `etcitem` SET `name` ='風的符咒' WHERE `item_id` = 5572;
-UPDATE `etcitem` SET `name` ='火的古文字' WHERE `item_id` = 5573;
-UPDATE `etcitem` SET `name` ='火的符咒' WHERE `item_id` = 5574;
-UPDATE `etcitem` SET `name` ='古代的金幣' WHERE `item_id` = 5575;
-UPDATE `etcitem` SET `name` ='紅色搜魂石-階段11' WHERE `item_id` = 5577;
-UPDATE `etcitem` SET `name` ='綠色搜魂石-階段11' WHERE `item_id` = 5578;
-UPDATE `etcitem` SET `name` ='藍色搜魂石-階段11' WHERE `item_id` = 5579;
-UPDATE `etcitem` SET `name` ='紅色搜魂石-階段12' WHERE `item_id` = 5580;
-UPDATE `etcitem` SET `name` ='綠色搜魂石-階段12' WHERE `item_id` = 5581;
-UPDATE `etcitem` SET `name` ='藍色搜魂石-階段12' WHERE `item_id` = 5582;
-UPDATE `etcitem` SET `name` ='回聲水晶-聖樂6' WHERE `item_id` = 5583;
-UPDATE `etcitem` SET `name` ='回聲水晶-聖樂7' WHERE `item_id` = 5584;
-UPDATE `etcitem` SET `name` ='回聲水晶-聖樂8' WHERE `item_id` = 5585;
-UPDATE `etcitem` SET `name` ='回聲水晶-聖樂9' WHERE `item_id` = 5586;
-UPDATE `etcitem` SET `name` ='回聲水晶-聖樂10' WHERE `item_id` = 5587;
-UPDATE `etcitem` SET `name` ='天堂II初學者導覽' WHERE `item_id` = 5588;
-UPDATE `etcitem` SET `name` ='能量石' WHERE `item_id` = 5589;
-UPDATE `etcitem` SET `name` ='鬥志藥水' WHERE `item_id` = 5591;
-UPDATE `etcitem` SET `name` ='強力鬥志藥水' WHERE `item_id` = 5592;
-UPDATE `etcitem` SET `name` ='初級SP卷軸' WHERE `item_id` = 5593;
-UPDATE `etcitem` SET `name` ='中級SP卷軸' WHERE `item_id` = 5594;
-UPDATE `etcitem` SET `name` ='高級SP卷軸' WHERE `item_id` = 5595;
-UPDATE `etcitem` SET `name` ='改良黑暗柯塔種子' WHERE `item_id` = 5650;
-UPDATE `etcitem` SET `name` ='改良紅色柯塔種子' WHERE `item_id` = 5651;
-UPDATE `etcitem` SET `name` ='改良冷氣柯塔種子' WHERE `item_id` = 5652;
-UPDATE `etcitem` SET `name` ='改良藍色柯塔種子' WHERE `item_id` = 5653;
-UPDATE `etcitem` SET `name` ='改良金色柯塔種子' WHERE `item_id` = 5654;
-UPDATE `etcitem` SET `name` ='改良魯特柯塔種子' WHERE `item_id` = 5655;
-UPDATE `etcitem` SET `name` ='改良沙漠柯塔種子' WHERE `item_id` = 5656;
-UPDATE `etcitem` SET `name` ='改良藍色柯柏種子' WHERE `item_id` = 5657;
-UPDATE `etcitem` SET `name` ='改良藍色柯塔種子' WHERE `item_id` = 5658;
-UPDATE `etcitem` SET `name` ='改良金色柯塔種子' WHERE `item_id` = 5659;
-UPDATE `etcitem` SET `name` ='改良魯特柯塔種子' WHERE `item_id` = 5660;
-UPDATE `etcitem` SET `name` ='改良沙漠柯塔種子' WHERE `item_id` = 5661;
-UPDATE `etcitem` SET `name` ='改良紅色柯柏種子' WHERE `item_id` = 5662;
-UPDATE `etcitem` SET `name` ='改良冷氣柯柏種子' WHERE `item_id` = 5663;
-UPDATE `etcitem` SET `name` ='改良芒刺柯柏種子' WHERE `item_id` = 5664;
-UPDATE `etcitem` SET `name` ='改良金色柯柏種子' WHERE `item_id` = 5665;
-UPDATE `etcitem` SET `name` ='改良巨大柯柏種子' WHERE `item_id` = 5666;
-UPDATE `etcitem` SET `name` ='改良紅色柯柏種子' WHERE `item_id` = 5667;
-UPDATE `etcitem` SET `name` ='改良冷氣柯柏種子' WHERE `item_id` = 5668;
-UPDATE `etcitem` SET `name` ='改良藍色柯柏種子' WHERE `item_id` = 5669;
-UPDATE `etcitem` SET `name` ='改良芒刺柯柏種子' WHERE `item_id` = 5670;
-UPDATE `etcitem` SET `name` ='改良金色柯柏種子' WHERE `item_id` = 5671;
-UPDATE `etcitem` SET `name` ='改良巨大柯柏種子' WHERE `item_id` = 5672;
-UPDATE `etcitem` SET `name` ='改良紅色柯德朗種子' WHERE `item_id` = 5673;
-UPDATE `etcitem` SET `name` ='改良雙生柯德朗種子' WHERE `item_id` = 5674;
-UPDATE `etcitem` SET `name` ='改良沙漠柯德朗種子' WHERE `item_id` = 5675;
-UPDATE `etcitem` SET `name` ='改良黑暗柯塔種子' WHERE `item_id` = 5676;
-UPDATE `etcitem` SET `name` ='改良紅色柯塔種子' WHERE `item_id` = 5677;
-UPDATE `etcitem` SET `name` ='改良藍色柯塔種子' WHERE `item_id` = 5678;
-UPDATE `etcitem` SET `name` ='改良紅色柯柏種子' WHERE `item_id` = 5679;
-UPDATE `etcitem` SET `name` ='改良冷氣柯柏種子' WHERE `item_id` = 5680;
-UPDATE `etcitem` SET `name` ='改良藍色柯柏種子' WHERE `item_id` = 5681;
-UPDATE `etcitem` SET `name` ='改良芒刺柯柏種子' WHERE `item_id` = 5682;
-UPDATE `etcitem` SET `name` ='改良海洋柯德朗種子' WHERE `item_id` = 5683;
-UPDATE `etcitem` SET `name` ='改良冷氣柯德朗種子' WHERE `item_id` = 5684;
-UPDATE `etcitem` SET `name` ='改良藍色柯德朗種子' WHERE `item_id` = 5685;
-UPDATE `etcitem` SET `name` ='改良雙生柯德朗種子' WHERE `item_id` = 5686;
-UPDATE `etcitem` SET `name` ='改良芒刺柯柏種子' WHERE `item_id` = 5687;
-UPDATE `etcitem` SET `name` ='改良金色柯柏種子' WHERE `item_id` = 5688;
-UPDATE `etcitem` SET `name` ='改良巨大柯柏種子' WHERE `item_id` = 5689;
-UPDATE `etcitem` SET `name` ='改良紅色柯德朗種子' WHERE `item_id` = 5690;
-UPDATE `etcitem` SET `name` ='改良冷氣柯德朗種子' WHERE `item_id` = 5691;
-UPDATE `etcitem` SET `name` ='改良藍色柯德朗種子' WHERE `item_id` = 5692;
-UPDATE `etcitem` SET `name` ='改良雙生柯德朗種子' WHERE `item_id` = 5693;
-UPDATE `etcitem` SET `name` ='改良巨大柯德朗種子' WHERE `item_id` = 5694;
-UPDATE `etcitem` SET `name` ='改良沙漠柯德朗種子' WHERE `item_id` = 5695;
-UPDATE `etcitem` SET `name` ='改良冷氣柯柏種子' WHERE `item_id` = 5696;
-UPDATE `etcitem` SET `name` ='改良藍色柯柏種子' WHERE `item_id` = 5697;
-UPDATE `etcitem` SET `name` ='改良芒刺柯柏種子' WHERE `item_id` = 5698;
-UPDATE `etcitem` SET `name` ='改良金色柯柏種子' WHERE `item_id` = 5699;
-UPDATE `etcitem` SET `name` ='改良巨大柯柏種子' WHERE `item_id` = 5700;
-UPDATE `etcitem` SET `name` ='改良紅色柯德朗種子' WHERE `item_id` = 5701;
-UPDATE `etcitem` SET `name` ='改良海洋柯德朗種子' WHERE `item_id` = 5702;
-UPDATE `etcitem` SET `name` ='幸運符咒-普通' WHERE `item_id` = 5703;
-UPDATE `etcitem` SET `name` ='七個封印的實錄' WHERE `item_id` = 5707;
-UPDATE `etcitem` SET `name` ='領主的認可' WHERE `item_id` = 5708;
-UPDATE `etcitem` SET `name` ='製作卷軸(封印的夏隆長手套100%)' WHERE `item_id` = 5741;
-UPDATE `etcitem` SET `name` ='製作卷軸(封印的夏隆長手套60%)' WHERE `item_id` = 5742;
-UPDATE `etcitem` SET `name` ='製作卷軸(封印的阿巴敦手套100%)' WHERE `item_id` = 5743;
-UPDATE `etcitem` SET `name` ='製作卷軸(封印的阿巴敦手套60%)' WHERE `item_id` = 5744;
-UPDATE `etcitem` SET `name` ='製作卷軸(封印的青狼手套100%)' WHERE `item_id` = 5745;
-UPDATE `etcitem` SET `name` ='製作卷軸(封印的青狼手套60%)' WHERE `item_id` = 5746;
-UPDATE `etcitem` SET `name` ='製作卷軸(封印的末日手套100%)' WHERE `item_id` = 5747;
-UPDATE `etcitem` SET `name` ='製作卷軸(封印的末日手套60%)' WHERE `item_id` = 5748;
-UPDATE `etcitem` SET `name` ='製作卷軸(封印的夏隆靴100%)' WHERE `item_id` = 5749;
-UPDATE `etcitem` SET `name` ='製作卷軸(封印的夏隆靴60%)' WHERE `item_id` = 5750;
-UPDATE `etcitem` SET `name` ='製作卷軸(封印的阿巴敦靴100%)' WHERE `item_id` = 5751;
-UPDATE `etcitem` SET `name` ='製作卷軸(封印的阿巴敦靴60%)' WHERE `item_id` = 5752;
-UPDATE `etcitem` SET `name` ='製作卷軸(封印的青狼長靴100%)' WHERE `item_id` = 5753;
-UPDATE `etcitem` SET `name` ='製作卷軸(封印的青狼長靴60%)' WHERE `item_id` = 5754;
-UPDATE `etcitem` SET `name` ='製作卷軸(封印的末日靴100%)' WHERE `item_id` = 5755;
-UPDATE `etcitem` SET `name` ='製作卷軸(封印的末日靴60%)' WHERE `item_id` = 5756;
-UPDATE `etcitem` SET `name` ='封印的夏隆長手套的碎片' WHERE `item_id` = 5757;
-UPDATE `etcitem` SET `name` ='封印的阿巴敦手套的碎片' WHERE `item_id` = 5758;
-UPDATE `etcitem` SET `name` ='封印的青狼手套的布料' WHERE `item_id` = 5759;
-UPDATE `etcitem` SET `name` ='封印的末日手套的碎片' WHERE `item_id` = 5760;
-UPDATE `etcitem` SET `name` ='封印的夏隆靴的的組件' WHERE `item_id` = 5761;
-UPDATE `etcitem` SET `name` ='封印的阿巴敦靴的組件' WHERE `item_id` = 5762;
-UPDATE `etcitem` SET `name` ='封印的青狼長靴的組件' WHERE `item_id` = 5763;
-UPDATE `etcitem` SET `name` ='封印的末日靴的碎片' WHERE `item_id` = 5764;
-UPDATE `etcitem` SET `name` ='新手用靈魂彈-普通' WHERE `item_id` = 5789;
-UPDATE `etcitem` SET `name` ='新手用魔靈彈-普通' WHERE `item_id` = 5790;
-UPDATE `etcitem` SET `name` ='幸運符咒-D級' WHERE `item_id` = 5803;
-UPDATE `etcitem` SET `name` ='幸運符咒-C級' WHERE `item_id` = 5804;
-UPDATE `etcitem` SET `name` ='幸運符咒-B級' WHERE `item_id` = 5805;
-UPDATE `etcitem` SET `name` ='幸運符咒-A級' WHERE `item_id` = 5806;
-UPDATE `etcitem` SET `name` ='幸運符咒-S級' WHERE `item_id` = 5807;
-UPDATE `etcitem` SET `name` ='魔法書-怒濤奔浪' WHERE `item_id` = 5809;
-UPDATE `etcitem` SET `name` ='魔法書-火山爆發' WHERE `item_id` = 5810;
-UPDATE `etcitem` SET `name` ='魔法書-團體緩速術' WHERE `item_id` = 5811;
-UPDATE `etcitem` SET `name` ='魔法書-使魔極限防禦' WHERE `item_id` = 5812;
-UPDATE `etcitem` SET `name` ='魔法書-使魔治療術' WHERE `item_id` = 5813;
-UPDATE `etcitem` SET `name` ='魔法書-使魔祝福' WHERE `item_id` = 5814;
-UPDATE `etcitem` SET `name` ='魔法書-野性魔力' WHERE `item_id` = 5815;
-UPDATE `etcitem` SET `name` ='魔法書-伊娃之盾' WHERE `item_id` = 5816;
-UPDATE `etcitem` SET `name` ='改良黑暗柯塔' WHERE `item_id` = 5818;
-UPDATE `etcitem` SET `name` ='改良紅色柯塔' WHERE `item_id` = 5819;
-UPDATE `etcitem` SET `name` ='改良冷氣柯塔' WHERE `item_id` = 5820;
-UPDATE `etcitem` SET `name` ='改良藍色柯塔' WHERE `item_id` = 5821;
-UPDATE `etcitem` SET `name` ='改良金色柯塔' WHERE `item_id` = 5822;
-UPDATE `etcitem` SET `name` ='改良魯特柯塔' WHERE `item_id` = 5823;
-UPDATE `etcitem` SET `name` ='改良沙漠柯塔' WHERE `item_id` = 5824;
-UPDATE `etcitem` SET `name` ='改良紅色柯柏' WHERE `item_id` = 5825;
-UPDATE `etcitem` SET `name` ='改良冷氣柯柏' WHERE `item_id` = 5826;
-UPDATE `etcitem` SET `name` ='改良藍色柯柏' WHERE `item_id` = 5827;
-UPDATE `etcitem` SET `name` ='改良芒刺柯柏' WHERE `item_id` = 5828;
-UPDATE `etcitem` SET `name` ='改良金色柯柏' WHERE `item_id` = 5829;
-UPDATE `etcitem` SET `name` ='改良巨大柯柏' WHERE `item_id` = 5830;
-UPDATE `etcitem` SET `name` ='改良紅色柯德朗' WHERE `item_id` = 5831;
-UPDATE `etcitem` SET `name` ='改良海洋柯德朗' WHERE `item_id` = 5832;
-UPDATE `etcitem` SET `name` ='改良冷氣柯德朗' WHERE `item_id` = 5833;
-UPDATE `etcitem` SET `name` ='改良藍色柯德朗' WHERE `item_id` = 5834;
-UPDATE `etcitem` SET `name` ='改良雙生柯德朗' WHERE `item_id` = 5835;
-UPDATE `etcitem` SET `name` ='改良巨大柯德朗' WHERE `item_id` = 5836;
-UPDATE `etcitem` SET `name` ='改良沙漠柯德朗' WHERE `item_id` = 5837;
-UPDATE `etcitem` SET `name` ='成熟的改良黑暗柯塔' WHERE `item_id` = 5838;
-UPDATE `etcitem` SET `name` ='成熟的改良紅色柯塔' WHERE `item_id` = 5839;
-UPDATE `etcitem` SET `name` ='成熟的改良冷氣柯塔' WHERE `item_id` = 5840;
-UPDATE `etcitem` SET `name` ='成熟的改良藍色柯塔' WHERE `item_id` = 5841;
-UPDATE `etcitem` SET `name` ='成熟的改良金色柯塔' WHERE `item_id` = 5842;
-UPDATE `etcitem` SET `name` ='成熟的改良魯特柯塔' WHERE `item_id` = 5843;
-UPDATE `etcitem` SET `name` ='成熟的改良沙漠柯塔' WHERE `item_id` = 5844;
-UPDATE `etcitem` SET `name` ='成熟的改良紅色柯柏' WHERE `item_id` = 5845;
-UPDATE `etcitem` SET `name` ='成熟的改良冷氣柯柏' WHERE `item_id` = 5846;
-UPDATE `etcitem` SET `name` ='成熟的改良藍色柯柏' WHERE `item_id` = 5847;
-UPDATE `etcitem` SET `name` ='成熟的改良芒刺柯柏' WHERE `item_id` = 5848;
-UPDATE `etcitem` SET `name` ='成熟的改良金色柯柏' WHERE `item_id` = 5849;
-UPDATE `etcitem` SET `name` ='成熟的改良巨大柯柏' WHERE `item_id` = 5850;
-UPDATE `etcitem` SET `name` ='成熟的改良紅色柯德朗' WHERE `item_id` = 5851;
-UPDATE `etcitem` SET `name` ='成熟的改良海洋柯德朗' WHERE `item_id` = 5852;
-UPDATE `etcitem` SET `name` ='成熟的改良冷氣柯德朗' WHERE `item_id` = 5853;
-UPDATE `etcitem` SET `name` ='成熟的改良藍色柯德朗' WHERE `item_id` = 5854;
-UPDATE `etcitem` SET `name` ='成熟的改良雙生柯德朗' WHERE `item_id` = 5855;
-UPDATE `etcitem` SET `name` ='成熟的改良巨大柯德朗' WHERE `item_id` = 5856;
-UPDATE `etcitem` SET `name` ='成熟的改良沙漠柯德朗' WHERE `item_id` = 5857;
-UPDATE `etcitem` SET `name` ='祝福的根據地返回卷軸' WHERE `item_id` = 5858;
-UPDATE `etcitem` SET `name` ='祝福的城堡返回卷軸' WHERE `item_id` = 5859;
-UPDATE `etcitem` SET `name` ='翼蛇的蛋' WHERE `item_id` = 5860;
-UPDATE `etcitem` SET `name` ='翼蛇的蛋' WHERE `item_id` = 5861;
-UPDATE `etcitem` SET `name` ='契約之石' WHERE `item_id` = 5862;
-UPDATE `etcitem` SET `name` ='鱷魚族的牙' WHERE `item_id` = 5863;
-UPDATE `etcitem` SET `name` ='謎樣的地圖碎片' WHERE `item_id` = 5864;
-UPDATE `etcitem` SET `name` ='動物型孢子' WHERE `item_id` = 5865;
-UPDATE `etcitem` SET `name` ='植物型孢子' WHERE `item_id` = 5866;
-UPDATE `etcitem` SET `name` ='翡翠石' WHERE `item_id` = 5867;
-UPDATE `etcitem` SET `name` ='蛇的鱗片' WHERE `item_id` = 5868;
-UPDATE `etcitem` SET `name` ='亞丁居民的遺骸' WHERE `item_id` = 5869;
-UPDATE `etcitem` SET `name` ='補給證' WHERE `item_id` = 5870;
-UPDATE `etcitem` SET `name` ='可疑的文件碎片' WHERE `item_id` = 5871;
-UPDATE `etcitem` SET `name` ='補給品' WHERE `item_id` = 5872;
-UPDATE `etcitem` SET `name` ='海盜的寶箱' WHERE `item_id` = 5873;
-UPDATE `etcitem` SET `name` ='賽頓的銀髮' WHERE `item_id` = 5874;
-UPDATE `etcitem` SET `name` ='下巨人的燈' WHERE `item_id` = 5875;
-UPDATE `etcitem` SET `name` ='下巨人的燈' WHERE `item_id` = 5876;
-UPDATE `etcitem` SET `name` ='下巨人的燈' WHERE `item_id` = 5877;
-UPDATE `etcitem` SET `name` ='下巨人的燈' WHERE `item_id` = 5878;
-UPDATE `etcitem` SET `name` ='下巨人的燈' WHERE `item_id` = 5879;
-UPDATE `etcitem` SET `name` ='破裂的下巨人的燈' WHERE `item_id` = 5880;
-UPDATE `etcitem` SET `name` ='刀刃司塔卡拓的牙' WHERE `item_id` = 5881;
-UPDATE `etcitem` SET `name` ='爆裂的碎片' WHERE `item_id` = 5882;
-UPDATE `etcitem` SET `name` ='凝結的碎片' WHERE `item_id` = 5883;
-UPDATE `etcitem` SET `name` ='洞穴獸的牙' WHERE `item_id` = 5884;
-UPDATE `etcitem` SET `name` ='死亡波動的火光' WHERE `item_id` = 5885;
-UPDATE `etcitem` SET `name` ='封印的神祕石' WHERE `item_id` = 5886;
-UPDATE `etcitem` SET `name` ='神祕石' WHERE `item_id` = 5887;
-UPDATE `etcitem` SET `name` ='卡拉克的角' WHERE `item_id` = 5888;
-UPDATE `etcitem` SET `name` ='洞穴咆哮者的頭骨' WHERE `item_id` = 5889;
-UPDATE `etcitem` SET `name` ='謎樣的書' WHERE `item_id` = 5890;
-UPDATE `etcitem` SET `name` ='古代的基礎辭典' WHERE `item_id` = 5891;
-UPDATE `etcitem` SET `name` ='古代的中級辭典' WHERE `item_id` = 5892;
-UPDATE `etcitem` SET `name` ='安樹的樹葉' WHERE `item_id` = 5893;
-UPDATE `etcitem` SET `name` ='寒冷的石頭' WHERE `item_id` = 5894;
-UPDATE `etcitem` SET `name` ='里特隆的果實' WHERE `item_id` = 5895;
-UPDATE `etcitem` SET `name` ='月野花' WHERE `item_id` = 5896;
-UPDATE `etcitem` SET `name` ='吸血鬼的體液' WHERE `item_id` = 5897;
-UPDATE `etcitem` SET `name` ='特級會員證' WHERE `item_id` = 5898;
-UPDATE `etcitem` SET `name` ='凱依的銅幣' WHERE `item_id` = 5899;
-UPDATE `etcitem` SET `name` ='銅幣收集冊' WHERE `item_id` = 5900;
-UPDATE `etcitem` SET `name` ='祭物的鮮血' WHERE `item_id` = 5901;
-UPDATE `etcitem` SET `name` ='古代魔法的卷軸' WHERE `item_id` = 5902;
-UPDATE `etcitem` SET `name` ='古代的骨灰罐' WHERE `item_id` = 5903;
-UPDATE `etcitem` SET `name` ='衛斯理的混合石' WHERE `item_id` = 5904;
-UPDATE `etcitem` SET `name` ='教師的混合石' WHERE `item_id` = 5905;
-UPDATE `etcitem` SET `name` ='5週年紀念禮盒(點心10個/組)' WHERE `item_id` = 5906;
-UPDATE `etcitem` SET `name` ='5週年紀念禮盒(點心9個/組)' WHERE `item_id` = 5907;
-UPDATE `etcitem` SET `name` ='紅色搜魂石-階段13' WHERE `item_id` = 5908;
-UPDATE `etcitem` SET `name` ='5週年紀念禮盒(點心8個/組)' WHERE `item_id` = 5909;
-UPDATE `etcitem` SET `name` ='5週年紀念禮盒(點心7個/組)' WHERE `item_id` = 5910;
-UPDATE `etcitem` SET `name` ='綠色搜魂石-階段13' WHERE `item_id` = 5911;
-UPDATE `etcitem` SET `name` ='5週年紀念禮盒(點心6個/組)' WHERE `item_id` = 5912;
-UPDATE `etcitem` SET `name` ='5週年紀念禮盒(蛋糕3個/組)' WHERE `item_id` = 5913;
-UPDATE `etcitem` SET `name` ='藍色搜魂石-階段13' WHERE `item_id` = 5914;
-UPDATE `etcitem` SET `name` ='海盜的藏寶圖' WHERE `item_id` = 5915;
-UPDATE `etcitem` SET `name` ='魔法書頁的碎片' WHERE `item_id` = 5916;
-UPDATE `etcitem` SET `name` ='克蘭波的魔法書-火之章' WHERE `item_id` = 5917;
-UPDATE `etcitem` SET `name` ='克蘭波的魔法書-水之章' WHERE `item_id` = 5918;
-UPDATE `etcitem` SET `name` ='克蘭波的魔法書-風之章' WHERE `item_id` = 5919;
-UPDATE `etcitem` SET `name` ='克蘭波的魔法書-地之章' WHERE `item_id` = 5920;
-UPDATE `etcitem` SET `name` ='無用的紙碎片' WHERE `item_id` = 5921;
-UPDATE `etcitem` SET `name` ='巨人的高崙設計圖-第1張' WHERE `item_id` = 5922;
-UPDATE `etcitem` SET `name` ='巨人的高崙設計圖-第2張' WHERE `item_id` = 5923;
-UPDATE `etcitem` SET `name` ='巨人的高崙設計圖-第3張' WHERE `item_id` = 5924;
-UPDATE `etcitem` SET `name` ='巨人的高崙設計圖-第4張' WHERE `item_id` = 5925;
-UPDATE `etcitem` SET `name` ='巨人的高崙設計圖-第5張' WHERE `item_id` = 5926;
-UPDATE `etcitem` SET `name` ='巨人的魔法理論-第1篇' WHERE `item_id` = 5927;
-UPDATE `etcitem` SET `name` ='巨人的魔法理論-第2篇' WHERE `item_id` = 5928;
-UPDATE `etcitem` SET `name` ='巨人的魔法理論-第3篇' WHERE `item_id` = 5929;
-UPDATE `etcitem` SET `name` ='巨人的魔法理論-第4篇' WHERE `item_id` = 5930;
-UPDATE `etcitem` SET `name` ='巨人的魔法理論-第5篇' WHERE `item_id` = 5931;
-UPDATE `etcitem` SET `name` ='巨人的建築指南-第1章' WHERE `item_id` = 5932;
-UPDATE `etcitem` SET `name` ='巨人的建築指南-第2章' WHERE `item_id` = 5933;
-UPDATE `etcitem` SET `name` ='巨人的建築指南-第3章' WHERE `item_id` = 5934;
-UPDATE `etcitem` SET `name` ='巨人的建築指南-第4章' WHERE `item_id` = 5935;
-UPDATE `etcitem` SET `name` ='巨人的建築指南-第5章' WHERE `item_id` = 5936;
-UPDATE `etcitem` SET `name` ='巨人的醫學理論-第1篇' WHERE `item_id` = 5937;
-UPDATE `etcitem` SET `name` ='巨人的醫學理論-第2篇' WHERE `item_id` = 5938;
-UPDATE `etcitem` SET `name` ='巨人的醫學理論-第3篇' WHERE `item_id` = 5939;
-UPDATE `etcitem` SET `name` ='巨人的醫學理論-第4篇' WHERE `item_id` = 5940;
-UPDATE `etcitem` SET `name` ='巨人的醫學理論-第5篇' WHERE `item_id` = 5941;
-UPDATE `etcitem` SET `name` ='巨人的情書' WHERE `item_id` = 5942;
-UPDATE `etcitem` SET `name` ='巨人的塗鴉' WHERE `item_id` = 5943;
-UPDATE `etcitem` SET `name` ='古代的羊皮紙' WHERE `item_id` = 5944;
-UPDATE `etcitem` SET `name` ='巨人的科學理論-第1章' WHERE `item_id` = 5945;
-UPDATE `etcitem` SET `name` ='巨人的科學理論-第2章' WHERE `item_id` = 5946;
-UPDATE `etcitem` SET `name` ='巨人的科學理論-第3章' WHERE `item_id` = 5947;
-UPDATE `etcitem` SET `name` ='巨人的科學理論-第4章' WHERE `item_id` = 5948;
-UPDATE `etcitem` SET `name` ='巨人的科學理論-第5章' WHERE `item_id` = 5949;
-UPDATE `etcitem` SET `name` ='下巨人文化年鑑-第1篇' WHERE `item_id` = 5950;
-UPDATE `etcitem` SET `name` ='下巨人文化年鑑-第2篇' WHERE `item_id` = 5951;
-UPDATE `etcitem` SET `name` ='下巨人文化年鑑-第3篇' WHERE `item_id` = 5952;
-UPDATE `etcitem` SET `name` ='下巨人文化年鑑-第4篇' WHERE `item_id` = 5953;
-UPDATE `etcitem` SET `name` ='下巨人文化年鑑-第5篇' WHERE `item_id` = 5954;
-UPDATE `etcitem` SET `name` ='下巨人古書籍' WHERE `item_id` = 5955;
-UPDATE `etcitem` SET `name` ='15年產葡萄酒' WHERE `item_id` = 5956;
-UPDATE `etcitem` SET `name` ='30年產葡萄酒' WHERE `item_id` = 5957;
-UPDATE `etcitem` SET `name` ='60年產葡萄酒' WHERE `item_id` = 5958;
-UPDATE `etcitem` SET `name` ='里特隆甜點製作卷軸' WHERE `item_id` = 5959;
-UPDATE `etcitem` SET `name` ='里特隆果凍' WHERE `item_id` = 5960;
-UPDATE `etcitem` SET `name` ='凱依的銀之邪惡蜥蜴' WHERE `item_id` = 5961;
-UPDATE `etcitem` SET `name` ='凱依的黃金高崙' WHERE `item_id` = 5962;
-UPDATE `etcitem` SET `name` ='凱依的血之龍' WHERE `item_id` = 5963;
-UPDATE `etcitem` SET `name` ='倉庫管理員的紀念章' WHERE `item_id` = 5964;
-UPDATE `etcitem` SET `name` ='空的卷軸' WHERE `item_id` = 5965;
-UPDATE `etcitem` SET `name` ='紅色古代的文獻' WHERE `item_id` = 5966;
-UPDATE `etcitem` SET `name` ='藍色古代的文獻' WHERE `item_id` = 5967;
-UPDATE `etcitem` SET `name` ='黑色古代的文獻' WHERE `item_id` = 5968;
-UPDATE `etcitem` SET `name` ='白色古代的文獻' WHERE `item_id` = 5969;
-UPDATE `etcitem` SET `name` ='古代的幸運信' WHERE `item_id` = 5970;
-UPDATE `etcitem` SET `name` ='古代人的笑話集' WHERE `item_id` = 5971;
-UPDATE `etcitem` SET `name` ='封印的默示錄-貪慾之章' WHERE `item_id` = 5972;
-UPDATE `etcitem` SET `name` ='封印的默示錄-啟示之章' WHERE `item_id` = 5973;
-UPDATE `etcitem` SET `name` ='封印的默示錄-戰亂之章' WHERE `item_id` = 5974;
-UPDATE `etcitem` SET `name` ='封印的默示錄-懲戒之章' WHERE `item_id` = 5975;
-UPDATE `etcitem` SET `name` ='封印的默示錄-覺醒之章' WHERE `item_id` = 5976;
-UPDATE `etcitem` SET `name` ='封印的默示錄-災難之章' WHERE `item_id` = 5977;
-UPDATE `etcitem` SET `name` ='封印的默示錄-降臨之章' WHERE `item_id` = 5978;
-UPDATE `etcitem` SET `name` ='帝國的史詩-第1篇' WHERE `item_id` = 5979;
-UPDATE `etcitem` SET `name` ='帝國的史詩-第2篇' WHERE `item_id` = 5980;
-UPDATE `etcitem` SET `name` ='帝國的史詩-第3篇' WHERE `item_id` = 5981;
-UPDATE `etcitem` SET `name` ='帝國的史詩-第4篇' WHERE `item_id` = 5982;
-UPDATE `etcitem` SET `name` ='帝國的史詩-第5篇' WHERE `item_id` = 5983;
-UPDATE `etcitem` SET `name` ='帝國的系譜-第1篇' WHERE `item_id` = 5984;
-UPDATE `etcitem` SET `name` ='帝國的系譜-第2篇' WHERE `item_id` = 5985;
-UPDATE `etcitem` SET `name` ='帝國的系譜-第3篇' WHERE `item_id` = 5986;
-UPDATE `etcitem` SET `name` ='帝國的系譜-第4篇' WHERE `item_id` = 5987;
-UPDATE `etcitem` SET `name` ='帝國的系譜-第5篇' WHERE `item_id` = 5988;
-UPDATE `etcitem` SET `name` ='傲慢之塔設計圖-第1層' WHERE `item_id` = 5989;
-UPDATE `etcitem` SET `name` ='傲慢之塔設計圖-第2層' WHERE `item_id` = 5990;
-UPDATE `etcitem` SET `name` ='傲慢之塔設計圖-第3層' WHERE `item_id` = 5991;
-UPDATE `etcitem` SET `name` ='傲慢之塔設計圖-第4層' WHERE `item_id` = 5992;
-UPDATE `etcitem` SET `name` ='傲慢之塔設計圖-第5層' WHERE `item_id` = 5993;
-UPDATE `etcitem` SET `name` ='傲慢之塔設計圖-第6層' WHERE `item_id` = 5994;
-UPDATE `etcitem` SET `name` ='傲慢之塔設計圖-第7層' WHERE `item_id` = 5995;
-UPDATE `etcitem` SET `name` ='傲慢之塔設計圖-第8層' WHERE `item_id` = 5996;
-UPDATE `etcitem` SET `name` ='傲慢之塔設計圖-第9層' WHERE `item_id` = 5997;
-UPDATE `etcitem` SET `name` ='傲慢之塔設計圖-第10層' WHERE `item_id` = 5998;
-UPDATE `etcitem` SET `name` ='傲慢之塔設計圖-第11層' WHERE `item_id` = 5999;
-UPDATE `etcitem` SET `name` ='傲慢之塔設計圖-第12層' WHERE `item_id` = 6000;
-UPDATE `etcitem` SET `name` ='傲慢之塔設計圖-第13層' WHERE `item_id` = 6001;
-UPDATE `etcitem` SET `name` ='古代的陶瓷器' WHERE `item_id` = 6002;
-UPDATE `etcitem` SET `name` ='古代的陶瓷器-名器' WHERE `item_id` = 6003;
-UPDATE `etcitem` SET `name` ='古代的陶瓷器-上級' WHERE `item_id` = 6004;
-UPDATE `etcitem` SET `name` ='古代的陶瓷器-下級' WHERE `item_id` = 6005;
-UPDATE `etcitem` SET `name` ='古代的陶瓷器-最下級' WHERE `item_id` = 6006;
-UPDATE `etcitem` SET `name` ='試劑包' WHERE `item_id` = 6007;
-UPDATE `etcitem` SET `name` ='試劑包' WHERE `item_id` = 6008;
-UPDATE `etcitem` SET `name` ='試劑包' WHERE `item_id` = 6009;
-UPDATE `etcitem` SET `name` ='試劑保管盒' WHERE `item_id` = 6010;
-UPDATE `etcitem` SET `name` ='亞龍的血' WHERE `item_id` = 6011;
-UPDATE `etcitem` SET `name` ='熔岩石' WHERE `item_id` = 6012;
-UPDATE `etcitem` SET `name` ='月石破片' WHERE `item_id` = 6013;
-UPDATE `etcitem` SET `name` ='腐爛的碎片' WHERE `item_id` = 6014;
-UPDATE `etcitem` SET `name` ='惡魔的血' WHERE `item_id` = 6015;
-UPDATE `etcitem` SET `name` ='因分尼恩原石' WHERE `item_id` = 6016;
-UPDATE `etcitem` SET `name` ='血的根' WHERE `item_id` = 6017;
-UPDATE `etcitem` SET `name` ='火山灰' WHERE `item_id` = 6018;
-UPDATE `etcitem` SET `name` ='汞' WHERE `item_id` = 6019;
-UPDATE `etcitem` SET `name` ='硫磺' WHERE `item_id` = 6020;
-UPDATE `etcitem` SET `name` ='龍的原生質' WHERE `item_id` = 6021;
-UPDATE `etcitem` SET `name` ='岩漿粉末' WHERE `item_id` = 6022;
-UPDATE `etcitem` SET `name` ='月亮粉末' WHERE `item_id` = 6023;
-UPDATE `etcitem` SET `name` ='腐屍的原生質' WHERE `item_id` = 6024;
-UPDATE `etcitem` SET `name` ='惡魔的原生質' WHERE `item_id` = 6025;
-UPDATE `etcitem` SET `name` ='地獄粉末' WHERE `item_id` = 6026;
-UPDATE `etcitem` SET `name` ='龍的精華' WHERE `item_id` = 6027;
-UPDATE `etcitem` SET `name` ='烈火的精華' WHERE `item_id` = 6028;
-UPDATE `etcitem` SET `name` ='路娜根特' WHERE `item_id` = 6029;
-UPDATE `etcitem` SET `name` ='午夜的油' WHERE `item_id` = 6030;
-UPDATE `etcitem` SET `name` ='惡魔的精華' WHERE `item_id` = 6031;
-UPDATE `etcitem` SET `name` ='深淵的油' WHERE `item_id` = 6032;
-UPDATE `etcitem` SET `name` ='地獄業火的油' WHERE `item_id` = 6033;
-UPDATE `etcitem` SET `name` ='夢魘的油' WHERE `item_id` = 6034;
-UPDATE `etcitem` SET `name` ='施法加速藥水' WHERE `item_id` = 6035;
-UPDATE `etcitem` SET `name` ='強力施法加速藥水' WHERE `item_id` = 6036;
-UPDATE `etcitem` SET `name` ='睡眠解除卷軸' WHERE `item_id` = 6037;
-UPDATE `etcitem` SET `name` ='高級傭兵配置表(劍/固定)' WHERE `item_id` = 6038;
-UPDATE `etcitem` SET `name` ='高級傭兵配置表(槍/固定)' WHERE `item_id` = 6039;
-UPDATE `etcitem` SET `name` ='高級傭兵配置表(弓/固定)' WHERE `item_id` = 6040;
-UPDATE `etcitem` SET `name` ='高級傭兵配置表(牧師/固定)' WHERE `item_id` = 6041;
-UPDATE `etcitem` SET `name` ='高級傭兵配置表(巫師/固定)' WHERE `item_id` = 6042;
-UPDATE `etcitem` SET `name` ='高級傭兵配置表(劍/移動)' WHERE `item_id` = 6043;
-UPDATE `etcitem` SET `name` ='高級傭兵配置表(槍/移動)' WHERE `item_id` = 6044;
-UPDATE `etcitem` SET `name` ='高級傭兵配置表(弓/移動)' WHERE `item_id` = 6045;
-UPDATE `etcitem` SET `name` ='高級傭兵配置表(牧師/移動)' WHERE `item_id` = 6046;
-UPDATE `etcitem` SET `name` ='高級傭兵配置表(巫師/移動)' WHERE `item_id` = 6047;
-UPDATE `etcitem` SET `name` ='垃圾' WHERE `item_id` = 6048;
-UPDATE `etcitem` SET `name` ='垃圾' WHERE `item_id` = 6049;
-UPDATE `etcitem` SET `name` ='垃圾' WHERE `item_id` = 6050;
-UPDATE `etcitem` SET `name` ='高級傭兵配置表(劍/固定)' WHERE `item_id` = 6051;
-UPDATE `etcitem` SET `name` ='高級傭兵配置表(槍/固定)' WHERE `item_id` = 6052;
-UPDATE `etcitem` SET `name` ='高級傭兵配置表(弓/固定)' WHERE `item_id` = 6053;
-UPDATE `etcitem` SET `name` ='高級傭兵配置表(牧師/固定)' WHERE `item_id` = 6054;
-UPDATE `etcitem` SET `name` ='高級傭兵配置表(巫師/固定)' WHERE `item_id` = 6055;
-UPDATE `etcitem` SET `name` ='高級傭兵配置表(劍/移動)' WHERE `item_id` = 6056;
-UPDATE `etcitem` SET `name` ='高級傭兵配置表(槍/移動)' WHERE `item_id` = 6057;
-UPDATE `etcitem` SET `name` ='高級傭兵配置表(弓/移動)' WHERE `item_id` = 6058;
-UPDATE `etcitem` SET `name` ='高級傭兵配置表(牧師/移動)' WHERE `item_id` = 6059;
-UPDATE `etcitem` SET `name` ='高級傭兵配置表(巫師/移動)' WHERE `item_id` = 6060;
-UPDATE `etcitem` SET `name` ='垃圾' WHERE `item_id` = 6061;
-UPDATE `etcitem` SET `name` ='垃圾' WHERE `item_id` = 6062;
-UPDATE `etcitem` SET `name` ='垃圾' WHERE `item_id` = 6063;
-UPDATE `etcitem` SET `name` ='高級傭兵配置表(劍/固定)' WHERE `item_id` = 6064;
-UPDATE `etcitem` SET `name` ='高級傭兵配置表(槍/固定)' WHERE `item_id` = 6065;
-UPDATE `etcitem` SET `name` ='高級傭兵配置表(弓/固定)' WHERE `item_id` = 6066;
-UPDATE `etcitem` SET `name` ='高級傭兵配置表(牧師/固定)' WHERE `item_id` = 6067;
-UPDATE `etcitem` SET `name` ='高級傭兵配置表(巫師/固定)' WHERE `item_id` = 6068;
-UPDATE `etcitem` SET `name` ='高級傭兵配置表(劍/移動)' WHERE `item_id` = 6069;
-UPDATE `etcitem` SET `name` ='高級傭兵配置表(槍/移動)' WHERE `item_id` = 6070;
-UPDATE `etcitem` SET `name` ='高級傭兵配置表(弓/移動)' WHERE `item_id` = 6071;
-UPDATE `etcitem` SET `name` ='高級傭兵配置表(牧師/移動)' WHERE `item_id` = 6072;
-UPDATE `etcitem` SET `name` ='高級傭兵配置表(巫師/移動)' WHERE `item_id` = 6073;
-UPDATE `etcitem` SET `name` ='垃圾' WHERE `item_id` = 6074;
-UPDATE `etcitem` SET `name` ='垃圾' WHERE `item_id` = 6075;
-UPDATE `etcitem` SET `name` ='垃圾' WHERE `item_id` = 6076;
-UPDATE `etcitem` SET `name` ='高級傭兵配置表(劍/固定)' WHERE `item_id` = 6077;
-UPDATE `etcitem` SET `name` ='高級傭兵配置表(槍/固定)' WHERE `item_id` = 6078;
-UPDATE `etcitem` SET `name` ='高級傭兵配置表(弓/固定)' WHERE `item_id` = 6079;
-UPDATE `etcitem` SET `name` ='高級傭兵配置表(牧師/固定)' WHERE `item_id` = 6080;
-UPDATE `etcitem` SET `name` ='高級傭兵配置表(巫師/固定)' WHERE `item_id` = 6081;
-UPDATE `etcitem` SET `name` ='高級傭兵配置表(劍/移動)' WHERE `item_id` = 6082;
-UPDATE `etcitem` SET `name` ='高級傭兵配置表(槍/移動)' WHERE `item_id` = 6083;
-UPDATE `etcitem` SET `name` ='高級傭兵配置表(弓/移動)' WHERE `item_id` = 6084;
-UPDATE `etcitem` SET `name` ='高級傭兵配置表(牧師/移動)' WHERE `item_id` = 6085;
-UPDATE `etcitem` SET `name` ='高級傭兵配置表(巫師/移動)' WHERE `item_id` = 6086;
-UPDATE `etcitem` SET `name` ='垃圾' WHERE `item_id` = 6087;
-UPDATE `etcitem` SET `name` ='垃圾' WHERE `item_id` = 6088;
-UPDATE `etcitem` SET `name` ='垃圾' WHERE `item_id` = 6089;
-UPDATE `etcitem` SET `name` ='高級傭兵配置表(劍/固定)' WHERE `item_id` = 6090;
-UPDATE `etcitem` SET `name` ='高級傭兵配置表(槍/固定)' WHERE `item_id` = 6091;
-UPDATE `etcitem` SET `name` ='高級傭兵配置表(弓/固定)' WHERE `item_id` = 6092;
-UPDATE `etcitem` SET `name` ='高級傭兵配置表(牧師/固定)' WHERE `item_id` = 6093;
-UPDATE `etcitem` SET `name` ='高級傭兵配置表(巫師/固定)' WHERE `item_id` = 6094;
-UPDATE `etcitem` SET `name` ='高級傭兵配置表(劍/移動)' WHERE `item_id` = 6095;
-UPDATE `etcitem` SET `name` ='高級傭兵配置表(槍/移動)' WHERE `item_id` = 6096;
-UPDATE `etcitem` SET `name` ='高級傭兵配置表(弓/移動)' WHERE `item_id` = 6097;
-UPDATE `etcitem` SET `name` ='高級傭兵配置表(牧師/移動)' WHERE `item_id` = 6098;
-UPDATE `etcitem` SET `name` ='高級傭兵配置表(巫師/移動)' WHERE `item_id` = 6099;
-UPDATE `etcitem` SET `name` ='垃圾' WHERE `item_id` = 6100;
-UPDATE `etcitem` SET `name` ='垃圾' WHERE `item_id` = 6101;
-UPDATE `etcitem` SET `name` ='垃圾' WHERE `item_id` = 6102;
-UPDATE `etcitem` SET `name` ='垃圾' WHERE `item_id` = 6103;
-UPDATE `etcitem` SET `name` ='垃圾' WHERE `item_id` = 6104;
-UPDATE `etcitem` SET `name` ='高級傭兵配置表(劍/固定)' WHERE `item_id` = 6105;
-UPDATE `etcitem` SET `name` ='高級傭兵配置表(槍/固定)' WHERE `item_id` = 6106;
-UPDATE `etcitem` SET `name` ='高級傭兵配置表(弓/固定)' WHERE `item_id` = 6107;
-UPDATE `etcitem` SET `name` ='高級傭兵配置表(牧師/固定)' WHERE `item_id` = 6108;
-UPDATE `etcitem` SET `name` ='高級傭兵配置表(巫師/固定)' WHERE `item_id` = 6109;
-UPDATE `etcitem` SET `name` ='高級傭兵配置表(劍/移動)' WHERE `item_id` = 6110;
-UPDATE `etcitem` SET `name` ='高級傭兵配置表(槍/移動)' WHERE `item_id` = 6111;
-UPDATE `etcitem` SET `name` ='高級傭兵配置表(弓/移動)' WHERE `item_id` = 6112;
-UPDATE `etcitem` SET `name` ='高級傭兵配置表(牧師/移動)' WHERE `item_id` = 6113;
-UPDATE `etcitem` SET `name` ='高級傭兵配置表(巫師/移動)' WHERE `item_id` = 6114;
-UPDATE `etcitem` SET `name` ='黎明傭兵配置表(劍/固定)' WHERE `item_id` = 6115;
-UPDATE `etcitem` SET `name` ='黎明傭兵配置表(槍/固定)' WHERE `item_id` = 6116;
-UPDATE `etcitem` SET `name` ='黎明傭兵配置表(弓/固定)' WHERE `item_id` = 6117;
-UPDATE `etcitem` SET `name` ='黎明傭兵配置表(牧師/固定)' WHERE `item_id` = 6118;
-UPDATE `etcitem` SET `name` ='黎明傭兵配置表(巫師/固定)' WHERE `item_id` = 6119;
-UPDATE `etcitem` SET `name` ='黎明傭兵配置表(劍/移動)' WHERE `item_id` = 6120;
-UPDATE `etcitem` SET `name` ='黎明傭兵配置表(槍/移動)' WHERE `item_id` = 6121;
-UPDATE `etcitem` SET `name` ='黎明傭兵配置表(弓/移動)' WHERE `item_id` = 6122;
-UPDATE `etcitem` SET `name` ='黎明傭兵配置表(牧師/移動)' WHERE `item_id` = 6123;
-UPDATE `etcitem` SET `name` ='黎明傭兵配置表(巫師/移動)' WHERE `item_id` = 6124;
-UPDATE `etcitem` SET `name` ='黎明傭兵配置表(劍/固定)' WHERE `item_id` = 6125;
-UPDATE `etcitem` SET `name` ='黎明傭兵配置表(槍/固定)' WHERE `item_id` = 6126;
-UPDATE `etcitem` SET `name` ='黎明傭兵配置表(弓/固定)' WHERE `item_id` = 6127;
-UPDATE `etcitem` SET `name` ='黎明傭兵配置表(牧師/固定)' WHERE `item_id` = 6128;
-UPDATE `etcitem` SET `name` ='黎明傭兵配置表(巫師/固定)' WHERE `item_id` = 6129;
-UPDATE `etcitem` SET `name` ='黎明傭兵配置表(劍/移動)' WHERE `item_id` = 6130;
-UPDATE `etcitem` SET `name` ='黎明傭兵配置表(槍/移動)' WHERE `item_id` = 6131;
-UPDATE `etcitem` SET `name` ='黎明傭兵配置表(弓/移動)' WHERE `item_id` = 6132;
-UPDATE `etcitem` SET `name` ='黎明傭兵配置表(牧師/移動)' WHERE `item_id` = 6133;
-UPDATE `etcitem` SET `name` ='黎明傭兵配置表(巫師/移動)' WHERE `item_id` = 6134;
-UPDATE `etcitem` SET `name` ='黎明傭兵配置表(劍/固定)' WHERE `item_id` = 6135;
-UPDATE `etcitem` SET `name` ='黎明傭兵配置表(槍/固定)' WHERE `item_id` = 6136;
-UPDATE `etcitem` SET `name` ='黎明傭兵配置表(弓/固定)' WHERE `item_id` = 6137;
-UPDATE `etcitem` SET `name` ='黎明傭兵配置表(牧師/固定)' WHERE `item_id` = 6138;
-UPDATE `etcitem` SET `name` ='黎明傭兵配置表(巫師/固定)' WHERE `item_id` = 6139;
-UPDATE `etcitem` SET `name` ='黎明傭兵配置表(劍/移動)' WHERE `item_id` = 6140;
-UPDATE `etcitem` SET `name` ='黎明傭兵配置表(槍/移動)' WHERE `item_id` = 6141;
-UPDATE `etcitem` SET `name` ='黎明傭兵配置表(弓/移動)' WHERE `item_id` = 6142;
-UPDATE `etcitem` SET `name` ='黎明傭兵配置表(牧師/移動)' WHERE `item_id` = 6143;
-UPDATE `etcitem` SET `name` ='黎明傭兵配置表(巫師/移動)' WHERE `item_id` = 6144;
-UPDATE `etcitem` SET `name` ='黎明傭兵配置表(劍/固定)' WHERE `item_id` = 6145;
-UPDATE `etcitem` SET `name` ='黎明傭兵配置表(槍/固定)' WHERE `item_id` = 6146;
-UPDATE `etcitem` SET `name` ='黎明傭兵配置表(弓/固定)' WHERE `item_id` = 6147;
-UPDATE `etcitem` SET `name` ='黎明傭兵配置表(牧師/固定)' WHERE `item_id` = 6148;
-UPDATE `etcitem` SET `name` ='黎明傭兵配置表(巫師/固定)' WHERE `item_id` = 6149;
-UPDATE `etcitem` SET `name` ='黎明傭兵配置表(劍/移動)' WHERE `item_id` = 6150;
-UPDATE `etcitem` SET `name` ='黎明傭兵配置表(槍/移動)' WHERE `item_id` = 6151;
-UPDATE `etcitem` SET `name` ='黎明傭兵配置表(弓/移動)' WHERE `item_id` = 6152;
-UPDATE `etcitem` SET `name` ='黎明傭兵配置表(牧師/移動)' WHERE `item_id` = 6153;
-UPDATE `etcitem` SET `name` ='黎明傭兵配置表(巫師/移動)' WHERE `item_id` = 6154;
-UPDATE `etcitem` SET `name` ='黎明傭兵配置表(劍/固定)' WHERE `item_id` = 6155;
-UPDATE `etcitem` SET `name` ='黎明傭兵配置表(槍/固定)' WHERE `item_id` = 6156;
-UPDATE `etcitem` SET `name` ='黎明傭兵配置表(弓/固定)' WHERE `item_id` = 6157;
-UPDATE `etcitem` SET `name` ='黎明傭兵配置表(牧師/固定)' WHERE `item_id` = 6158;
-UPDATE `etcitem` SET `name` ='黎明傭兵配置表(巫師/固定)' WHERE `item_id` = 6159;
-UPDATE `etcitem` SET `name` ='黎明傭兵配置表(劍/移動)' WHERE `item_id` = 6160;
-UPDATE `etcitem` SET `name` ='黎明傭兵配置表(槍/移動)' WHERE `item_id` = 6161;
-UPDATE `etcitem` SET `name` ='黎明傭兵配置表(弓/移動)' WHERE `item_id` = 6162;
-UPDATE `etcitem` SET `name` ='黎明傭兵配置表(牧師/移動)' WHERE `item_id` = 6163;
-UPDATE `etcitem` SET `name` ='黎明傭兵配置表(巫師/移動)' WHERE `item_id` = 6164;
-UPDATE `etcitem` SET `name` ='黎明傭兵配置表(劍/固定)' WHERE `item_id` = 6165;
-UPDATE `etcitem` SET `name` ='黎明傭兵配置表(槍/固定)' WHERE `item_id` = 6166;
-UPDATE `etcitem` SET `name` ='黎明傭兵配置表(弓/固定)' WHERE `item_id` = 6167;
-UPDATE `etcitem` SET `name` ='黎明傭兵配置表(牧師/固定)' WHERE `item_id` = 6168;
-UPDATE `etcitem` SET `name` ='黎明傭兵配置表(巫師/固定)' WHERE `item_id` = 6169;
-UPDATE `etcitem` SET `name` ='黎明傭兵配置表(劍/移動)' WHERE `item_id` = 6170;
-UPDATE `etcitem` SET `name` ='黎明傭兵配置表(槍/移動)' WHERE `item_id` = 6171;
-UPDATE `etcitem` SET `name` ='黎明傭兵配置表(弓/移動)' WHERE `item_id` = 6172;
-UPDATE `etcitem` SET `name` ='黎明傭兵配置表(牧師/移動)' WHERE `item_id` = 6173;
-UPDATE `etcitem` SET `name` ='黎明傭兵配置表(巫師/移動)' WHERE `item_id` = 6174;
-UPDATE `etcitem` SET `name` ='高級訓練兵配置表(劍/固定)' WHERE `item_id` = 6175;
-UPDATE `etcitem` SET `name` ='高級訓練兵配置表(槍/固定)' WHERE `item_id` = 6176;
-UPDATE `etcitem` SET `name` ='高級訓練兵配置表(弓/固定)' WHERE `item_id` = 6177;
-UPDATE `etcitem` SET `name` ='高級訓練兵配置表(牧師/固定)' WHERE `item_id` = 6178;
-UPDATE `etcitem` SET `name` ='高級訓練兵配置表(巫師/固定)' WHERE `item_id` = 6179;
-UPDATE `etcitem` SET `name` ='高級訓練兵配置表(劍/移動)' WHERE `item_id` = 6180;
-UPDATE `etcitem` SET `name` ='高級訓練兵配置表(槍/移動)' WHERE `item_id` = 6181;
-UPDATE `etcitem` SET `name` ='高級訓練兵配置表(弓/移動)' WHERE `item_id` = 6182;
-UPDATE `etcitem` SET `name` ='高級訓練兵配置表(牧師/移動)' WHERE `item_id` = 6183;
-UPDATE `etcitem` SET `name` ='高級訓練兵配置表(巫師/移動)' WHERE `item_id` = 6184;
-UPDATE `etcitem` SET `name` ='高級訓練兵配置表(劍/固定)' WHERE `item_id` = 6185;
-UPDATE `etcitem` SET `name` ='高級訓練兵配置表(槍/固定)' WHERE `item_id` = 6186;
-UPDATE `etcitem` SET `name` ='高級訓練兵配置表(弓/固定)' WHERE `item_id` = 6187;
-UPDATE `etcitem` SET `name` ='高級訓練兵配置表(牧師/固定)' WHERE `item_id` = 6188;
-UPDATE `etcitem` SET `name` ='高級訓練兵配置表(巫師/固定)' WHERE `item_id` = 6189;
-UPDATE `etcitem` SET `name` ='高級訓練兵配置表(劍/移動)' WHERE `item_id` = 6190;
-UPDATE `etcitem` SET `name` ='高級訓練兵配置表(槍/移動)' WHERE `item_id` = 6191;
-UPDATE `etcitem` SET `name` ='高級訓練兵配置表(弓/移動)' WHERE `item_id` = 6192;
-UPDATE `etcitem` SET `name` ='高級訓練兵配置表(牧師/移動)' WHERE `item_id` = 6193;
-UPDATE `etcitem` SET `name` ='高級訓練兵配置表(巫師/移動)' WHERE `item_id` = 6194;
-UPDATE `etcitem` SET `name` ='高級訓練兵配置表(劍/固定)' WHERE `item_id` = 6195;
-UPDATE `etcitem` SET `name` ='高級訓練兵配置表(槍/固定)' WHERE `item_id` = 6196;
-UPDATE `etcitem` SET `name` ='高級訓練兵配置表(弓/固定)' WHERE `item_id` = 6197;
-UPDATE `etcitem` SET `name` ='高級訓練兵配置表(牧師/固定)' WHERE `item_id` = 6198;
-UPDATE `etcitem` SET `name` ='高級訓練兵配置表(巫師/固定)' WHERE `item_id` = 6199;
-UPDATE `etcitem` SET `name` ='高級訓練兵配置表(劍/移動)' WHERE `item_id` = 6200;
-UPDATE `etcitem` SET `name` ='高級訓練兵配置表(槍/移動)' WHERE `item_id` = 6201;
-UPDATE `etcitem` SET `name` ='高級訓練兵配置表(弓/移動)' WHERE `item_id` = 6202;
-UPDATE `etcitem` SET `name` ='高級訓練兵配置表(牧師/移動)' WHERE `item_id` = 6203;
-UPDATE `etcitem` SET `name` ='高級訓練兵配置表(巫師/移動)' WHERE `item_id` = 6204;
-UPDATE `etcitem` SET `name` ='高級訓練兵配置表(劍/固定)' WHERE `item_id` = 6205;
-UPDATE `etcitem` SET `name` ='高級訓練兵配置表(槍/固定)' WHERE `item_id` = 6206;
-UPDATE `etcitem` SET `name` ='高級訓練兵配置表(弓/固定)' WHERE `item_id` = 6207;
-UPDATE `etcitem` SET `name` ='高級訓練兵配置表(牧師/固定)' WHERE `item_id` = 6208;
-UPDATE `etcitem` SET `name` ='高級訓練兵配置表(巫師/固定)' WHERE `item_id` = 6209;
-UPDATE `etcitem` SET `name` ='高級訓練兵配置表(劍/移動)' WHERE `item_id` = 6210;
-UPDATE `etcitem` SET `name` ='高級訓練兵配置表(槍/移動)' WHERE `item_id` = 6211;
-UPDATE `etcitem` SET `name` ='高級訓練兵配置表(弓/移動)' WHERE `item_id` = 6212;
-UPDATE `etcitem` SET `name` ='高級訓練兵配置表(牧師/移動)' WHERE `item_id` = 6213;
-UPDATE `etcitem` SET `name` ='高級訓練兵配置表(巫師/移動)' WHERE `item_id` = 6214;
-UPDATE `etcitem` SET `name` ='高級訓練兵配置表(劍/固定)' WHERE `item_id` = 6215;
-UPDATE `etcitem` SET `name` ='高級訓練兵配置表(槍/固定)' WHERE `item_id` = 6216;
-UPDATE `etcitem` SET `name` ='高級訓練兵配置表(弓/固定)' WHERE `item_id` = 6217;
-UPDATE `etcitem` SET `name` ='高級訓練兵配置表(牧師/固定)' WHERE `item_id` = 6218;
-UPDATE `etcitem` SET `name` ='高級訓練兵配置表(巫師/固定)' WHERE `item_id` = 6219;
-UPDATE `etcitem` SET `name` ='高級訓練兵配置表(劍/移動)' WHERE `item_id` = 6220;
-UPDATE `etcitem` SET `name` ='高級訓練兵配置表(槍/移動)' WHERE `item_id` = 6221;
-UPDATE `etcitem` SET `name` ='高級訓練兵配置表(弓/移動)' WHERE `item_id` = 6222;
-UPDATE `etcitem` SET `name` ='高級訓練兵配置表(牧師/移動)' WHERE `item_id` = 6223;
-UPDATE `etcitem` SET `name` ='高級訓練兵配置表(巫師/移動)' WHERE `item_id` = 6224;
-UPDATE `etcitem` SET `name` ='高級訓練兵配置表(劍/固定)' WHERE `item_id` = 6225;
-UPDATE `etcitem` SET `name` ='高級訓練兵配置表(槍/固定)' WHERE `item_id` = 6226;
-UPDATE `etcitem` SET `name` ='高級訓練兵配置表(弓/固定)' WHERE `item_id` = 6227;
-UPDATE `etcitem` SET `name` ='高級訓練兵配置表(牧師/固定)' WHERE `item_id` = 6228;
-UPDATE `etcitem` SET `name` ='高級訓練兵配置表(巫師/固定)' WHERE `item_id` = 6229;
-UPDATE `etcitem` SET `name` ='高級訓練兵配置表(劍/移動)' WHERE `item_id` = 6230;
-UPDATE `etcitem` SET `name` ='高級訓練兵配置表(槍/移動)' WHERE `item_id` = 6231;
-UPDATE `etcitem` SET `name` ='高級訓練兵配置表(弓/移動)' WHERE `item_id` = 6232;
-UPDATE `etcitem` SET `name` ='高級訓練兵配置表(牧師/移動)' WHERE `item_id` = 6233;
-UPDATE `etcitem` SET `name` ='高級訓練兵配置表(巫師/移動)' WHERE `item_id` = 6234;
-UPDATE `etcitem` SET `name` ='訓練兵配置表(劍/固定)' WHERE `item_id` = 6235;
-UPDATE `etcitem` SET `name` ='訓練兵配置表(槍/固定)' WHERE `item_id` = 6236;
-UPDATE `etcitem` SET `name` ='訓練兵配置表(弓/固定)' WHERE `item_id` = 6237;
-UPDATE `etcitem` SET `name` ='訓練兵配置表(牧師/固定)' WHERE `item_id` = 6238;
-UPDATE `etcitem` SET `name` ='訓練兵配置表(巫師/固定)' WHERE `item_id` = 6239;
-UPDATE `etcitem` SET `name` ='訓練兵配置表(劍/移動)' WHERE `item_id` = 6240;
-UPDATE `etcitem` SET `name` ='訓練兵配置表(槍/移動)' WHERE `item_id` = 6241;
-UPDATE `etcitem` SET `name` ='訓練兵配置表(弓/移動)' WHERE `item_id` = 6242;
-UPDATE `etcitem` SET `name` ='訓練兵配置表(牧師/移動)' WHERE `item_id` = 6243;
-UPDATE `etcitem` SET `name` ='訓練兵配置表(巫師/移動)' WHERE `item_id` = 6244;
-UPDATE `etcitem` SET `name` ='訓練兵配置表(劍/固定)' WHERE `item_id` = 6245;
-UPDATE `etcitem` SET `name` ='訓練兵配置表(槍/固定)' WHERE `item_id` = 6246;
-UPDATE `etcitem` SET `name` ='訓練兵配置表(弓/固定)' WHERE `item_id` = 6247;
-UPDATE `etcitem` SET `name` ='訓練兵配置表(牧師/固定)' WHERE `item_id` = 6248;
-UPDATE `etcitem` SET `name` ='訓練兵配置表(巫師/固定)' WHERE `item_id` = 6249;
-UPDATE `etcitem` SET `name` ='訓練兵配置表(劍/移動)' WHERE `item_id` = 6250;
-UPDATE `etcitem` SET `name` ='訓練兵配置表(槍/移動)' WHERE `item_id` = 6251;
-UPDATE `etcitem` SET `name` ='訓練兵配置表(弓/移動)' WHERE `item_id` = 6252;
-UPDATE `etcitem` SET `name` ='訓練兵配置表(牧師/移動)' WHERE `item_id` = 6253;
-UPDATE `etcitem` SET `name` ='訓練兵配置表(巫師/移動)' WHERE `item_id` = 6254;
-UPDATE `etcitem` SET `name` ='訓練兵配置表(劍/固定)' WHERE `item_id` = 6255;
-UPDATE `etcitem` SET `name` ='訓練兵配置表(槍/固定)' WHERE `item_id` = 6256;
-UPDATE `etcitem` SET `name` ='訓練兵配置表(弓/固定)' WHERE `item_id` = 6257;
-UPDATE `etcitem` SET `name` ='訓練兵配置表(牧師/固定)' WHERE `item_id` = 6258;
-UPDATE `etcitem` SET `name` ='訓練兵配置表(巫師/固定)' WHERE `item_id` = 6259;
-UPDATE `etcitem` SET `name` ='訓練兵配置表(劍/移動)' WHERE `item_id` = 6260;
-UPDATE `etcitem` SET `name` ='訓練兵配置表(槍/移動)' WHERE `item_id` = 6261;
-UPDATE `etcitem` SET `name` ='訓練兵配置表(弓/移動)' WHERE `item_id` = 6262;
-UPDATE `etcitem` SET `name` ='訓練兵配置表(牧師/移動)' WHERE `item_id` = 6263;
-UPDATE `etcitem` SET `name` ='訓練兵配置表(巫師/移動)' WHERE `item_id` = 6264;
-UPDATE `etcitem` SET `name` ='訓練兵配置表(劍/固定)' WHERE `item_id` = 6265;
-UPDATE `etcitem` SET `name` ='訓練兵配置表(槍/固定)' WHERE `item_id` = 6266;
-UPDATE `etcitem` SET `name` ='訓練兵配置表(弓/固定)' WHERE `item_id` = 6267;
-UPDATE `etcitem` SET `name` ='訓練兵配置表(牧師/固定)' WHERE `item_id` = 6268;
-UPDATE `etcitem` SET `name` ='訓練兵配置表(巫師/固定)' WHERE `item_id` = 6269;
-UPDATE `etcitem` SET `name` ='訓練兵配置表(劍/移動)' WHERE `item_id` = 6270;
-UPDATE `etcitem` SET `name` ='訓練兵配置表(槍/移動)' WHERE `item_id` = 6271;
-UPDATE `etcitem` SET `name` ='訓練兵配置表(弓/移動)' WHERE `item_id` = 6272;
-UPDATE `etcitem` SET `name` ='訓練兵配置表(牧師/移動)' WHERE `item_id` = 6273;
-UPDATE `etcitem` SET `name` ='訓練兵配置表(巫師/移動)' WHERE `item_id` = 6274;
-UPDATE `etcitem` SET `name` ='訓練兵配置表(劍/固定)' WHERE `item_id` = 6275;
-UPDATE `etcitem` SET `name` ='訓練兵配置表(槍/固定)' WHERE `item_id` = 6276;
-UPDATE `etcitem` SET `name` ='訓練兵配置表(弓/固定)' WHERE `item_id` = 6277;
-UPDATE `etcitem` SET `name` ='訓練兵配置表(牧師/固定)' WHERE `item_id` = 6278;
-UPDATE `etcitem` SET `name` ='訓練兵配置表(巫師/固定)' WHERE `item_id` = 6279;
-UPDATE `etcitem` SET `name` ='訓練兵配置表(劍/移動)' WHERE `item_id` = 6280;
-UPDATE `etcitem` SET `name` ='訓練兵配置表(槍/移動)' WHERE `item_id` = 6281;
-UPDATE `etcitem` SET `name` ='訓練兵配置表(弓/移動)' WHERE `item_id` = 6282;
-UPDATE `etcitem` SET `name` ='訓練兵配置表(牧師/移動)' WHERE `item_id` = 6283;
-UPDATE `etcitem` SET `name` ='訓練兵配置表(巫師/移動)' WHERE `item_id` = 6284;
-UPDATE `etcitem` SET `name` ='訓練兵配置表(劍/固定)' WHERE `item_id` = 6285;
-UPDATE `etcitem` SET `name` ='訓練兵配置表(槍/固定)' WHERE `item_id` = 6286;
-UPDATE `etcitem` SET `name` ='訓練兵配置表(弓/固定)' WHERE `item_id` = 6287;
-UPDATE `etcitem` SET `name` ='訓練兵配置表(牧師/固定)' WHERE `item_id` = 6288;
-UPDATE `etcitem` SET `name` ='訓練兵配置表(巫師/固定)' WHERE `item_id` = 6289;
-UPDATE `etcitem` SET `name` ='訓練兵配置表(劍/移動)' WHERE `item_id` = 6290;
-UPDATE `etcitem` SET `name` ='訓練兵配置表(槍/移動)' WHERE `item_id` = 6291;
-UPDATE `etcitem` SET `name` ='訓練兵配置表(弓/移動)' WHERE `item_id` = 6292;
-UPDATE `etcitem` SET `name` ='訓練兵配置表(牧師/移動)' WHERE `item_id` = 6293;
-UPDATE `etcitem` SET `name` ='訓練兵配置表(巫師/移動)' WHERE `item_id` = 6294;
-UPDATE `etcitem` SET `name` ='那芙琳戰士配置表' WHERE `item_id` = 6295;
-UPDATE `etcitem` SET `name` ='那芙琳咒術士配置表' WHERE `item_id` = 6296;
-UPDATE `etcitem` SET `name` ='那芙琳戰士配置表' WHERE `item_id` = 6297;
-UPDATE `etcitem` SET `name` ='那芙琳咒術士配置表' WHERE `item_id` = 6298;
-UPDATE `etcitem` SET `name` ='那芙琳戰士配置表' WHERE `item_id` = 6299;
-UPDATE `etcitem` SET `name` ='那芙琳咒術士配置表' WHERE `item_id` = 6300;
-UPDATE `etcitem` SET `name` ='那芙琳戰士配置表' WHERE `item_id` = 6301;
-UPDATE `etcitem` SET `name` ='那芙琳咒術士配置表' WHERE `item_id` = 6302;
-UPDATE `etcitem` SET `name` ='那芙琳戰士配置表' WHERE `item_id` = 6303;
-UPDATE `etcitem` SET `name` ='那芙琳咒術士配置表' WHERE `item_id` = 6304;
-UPDATE `etcitem` SET `name` ='那芙琳戰士配置表' WHERE `item_id` = 6305;
-UPDATE `etcitem` SET `name` ='那芙琳咒術士配置表' WHERE `item_id` = 6306;
-UPDATE `etcitem` SET `name` ='飛龍飼料' WHERE `item_id` = 6316;
-UPDATE `etcitem` SET `name` ='材料混合說明' WHERE `item_id` = 6317;
-UPDATE `etcitem` SET `name` ='血焰' WHERE `item_id` = 6318;
-UPDATE `etcitem` SET `name` ='米密爾的泉水' WHERE `item_id` = 6319;
-UPDATE `etcitem` SET `name` ='純銀' WHERE `item_id` = 6320;
-UPDATE `etcitem` SET `name` ='真金' WHERE `item_id` = 6321;
-UPDATE `etcitem` SET `name` ='賢者之石' WHERE `item_id` = 6322;
-UPDATE `etcitem` SET `name` ='製作卷軸(封印的不死鳥項鍊70%)' WHERE `item_id` = 6329;
-UPDATE `etcitem` SET `name` ='製作卷軸(封印的不死鳥項鍊100%)' WHERE `item_id` = 6330;
-UPDATE `etcitem` SET `name` ='製作卷軸(封印的不死鳥耳環70%)' WHERE `item_id` = 6331;
-UPDATE `etcitem` SET `name` ='製作卷軸(封印的不死鳥耳環100%)' WHERE `item_id` = 6332;
-UPDATE `etcitem` SET `name` ='製作卷軸(封印的不死鳥戒指70%)' WHERE `item_id` = 6333;
-UPDATE `etcitem` SET `name` ='製作卷軸(封印的不死鳥戒指100%)' WHERE `item_id` = 6334;
-UPDATE `etcitem` SET `name` ='製作卷軸(封印的聖威項鍊70%)' WHERE `item_id` = 6335;
-UPDATE `etcitem` SET `name` ='製作卷軸(封印的聖威項鍊100%)' WHERE `item_id` = 6336;
-UPDATE `etcitem` SET `name` ='製作卷軸(封印的聖威耳環70%)' WHERE `item_id` = 6337;
-UPDATE `etcitem` SET `name` ='製作卷軸(封印的聖威耳環100%)' WHERE `item_id` = 6338;
-UPDATE `etcitem` SET `name` ='製作卷軸(封印的聖威戒指70%)' WHERE `item_id` = 6339;
-UPDATE `etcitem` SET `name` ='製作卷軸(封印的聖威戒指100%)' WHERE `item_id` = 6340;
-UPDATE `etcitem` SET `name` ='封印的不死鳥耳環的寶石' WHERE `item_id` = 6341;
-UPDATE `etcitem` SET `name` ='封印的聖威耳環的寶石' WHERE `item_id` = 6342;
-UPDATE `etcitem` SET `name` ='封印的不死鳥項鍊的珠子' WHERE `item_id` = 6343;
-UPDATE `etcitem` SET `name` ='封印的聖威項鍊的珠子' WHERE `item_id` = 6344;
-UPDATE `etcitem` SET `name` ='封印的不死鳥戒指的寶石' WHERE `item_id` = 6345;
-UPDATE `etcitem` SET `name` ='封印的聖威戒指的寶石' WHERE `item_id` = 6346;
-UPDATE `etcitem` SET `name` ='護身符-帕格立歐敬意' WHERE `item_id` = 6350;
-UPDATE `etcitem` SET `name` ='護身符-生命祭禮' WHERE `item_id` = 6351;
-UPDATE `etcitem` SET `name` ='魔法書-祈禱' WHERE `item_id` = 6352;
-UPDATE `etcitem` SET `name` ='藍色寶石' WHERE `item_id` = 6353;
-UPDATE `etcitem` SET `name` ='藍色封印石' WHERE `item_id` = 6360;
-UPDATE `etcitem` SET `name` ='綠色封印石' WHERE `item_id` = 6361;
-UPDATE `etcitem` SET `name` ='紅色封印石' WHERE `item_id` = 6362;
-UPDATE `etcitem` SET `name` ='被竊的因分尼恩原石' WHERE `item_id` = 6363;
-UPDATE `etcitem` SET `name` ='祝福的寵物復活卷軸' WHERE `item_id` = 6387;
-UPDATE `etcitem` SET `name` ='領主的認可' WHERE `item_id` = 6388;
-UPDATE `etcitem` SET `name` ='葫蘆種子' WHERE `item_id` = 6389;
-UPDATE `etcitem` SET `name` ='大葫蘆種子' WHERE `item_id` = 6390;
-UPDATE `etcitem` SET `name` ='神酒' WHERE `item_id` = 6391;
-UPDATE `etcitem` SET `name` ='活動-紀念章' WHERE `item_id` = 6392;
-UPDATE `etcitem` SET `name` ='活動-光彩紀念章' WHERE `item_id` = 6393;
-UPDATE `etcitem` SET `name` ='護身符-掠奪頌歌' WHERE `item_id` = 6395;
-UPDATE `etcitem` SET `name` ='護身符-獵鷹頌歌' WHERE `item_id` = 6396;
-UPDATE `etcitem` SET `name` ='護身符-嗜血頌歌' WHERE `item_id` = 6397;
-UPDATE `etcitem` SET `name` ='魔法書-聖化之體' WHERE `item_id` = 6398;
-UPDATE `etcitem` SET `name` ='兔子紋章' WHERE `item_id` = 6399;
-UPDATE `etcitem` SET `name` ='鬣狗紋章' WHERE `item_id` = 6400;
-UPDATE `etcitem` SET `name` ='狐狸紋章' WHERE `item_id` = 6401;
-UPDATE `etcitem` SET `name` ='狼紋章' WHERE `item_id` = 6402;
-UPDATE `etcitem` SET `name` ='妖精火花' WHERE `item_id` = 6403;
-UPDATE `etcitem` SET `name` ='火藥' WHERE `item_id` = 6404;
-UPDATE `etcitem` SET `name` ='鎂' WHERE `item_id` = 6405;
-UPDATE `etcitem` SET `name` ='煙火' WHERE `item_id` = 6406;
-UPDATE `etcitem` SET `name` ='大煙火' WHERE `item_id` = 6407;
-UPDATE `etcitem` SET `name` ='2006戰鬥錦標賽-鬥志藥水' WHERE `item_id` = 6409;
-UPDATE `etcitem` SET `name` ='2006戰鬥錦標賽-瞬間體力治癒藥水' WHERE `item_id` = 6410;
-UPDATE `etcitem` SET `name` ='敏捷的綠色小魚' WHERE `item_id` = 6411;
-UPDATE `etcitem` SET `name` ='暴躁的綠色小魚' WHERE `item_id` = 6412;
-UPDATE `etcitem` SET `name` ='寬扁的綠色小魚' WHERE `item_id` = 6413;
-UPDATE `etcitem` SET `name` ='敏捷的綠色魚' WHERE `item_id` = 6414;
-UPDATE `etcitem` SET `name` ='暴躁的綠色魚' WHERE `item_id` = 6415;
-UPDATE `etcitem` SET `name` ='寬扁的綠色魚' WHERE `item_id` = 6416;
-UPDATE `etcitem` SET `name` ='敏捷的綠色大魚' WHERE `item_id` = 6417;
-UPDATE `etcitem` SET `name` ='暴躁的綠色大魚' WHERE `item_id` = 6418;
-UPDATE `etcitem` SET `name` ='寬扁的綠色大魚' WHERE `item_id` = 6419;
-UPDATE `etcitem` SET `name` ='敏捷的翡翠小魚' WHERE `item_id` = 6420;
-UPDATE `etcitem` SET `name` ='暴躁的翡翠小魚' WHERE `item_id` = 6421;
-UPDATE `etcitem` SET `name` ='寬扁的翡翠小魚' WHERE `item_id` = 6422;
-UPDATE `etcitem` SET `name` ='敏捷的翡翠魚' WHERE `item_id` = 6423;
-UPDATE `etcitem` SET `name` ='暴躁的翡翠魚' WHERE `item_id` = 6424;
-UPDATE `etcitem` SET `name` ='寬扁的翡翠魚' WHERE `item_id` = 6425;
-UPDATE `etcitem` SET `name` ='敏捷的翡翠大魚' WHERE `item_id` = 6426;
-UPDATE `etcitem` SET `name` ='暴躁的翡翠大魚' WHERE `item_id` = 6427;
-UPDATE `etcitem` SET `name` ='寬扁的翡翠大魚' WHERE `item_id` = 6428;
-UPDATE `etcitem` SET `name` ='敏捷的藍色小魚' WHERE `item_id` = 6429;
-UPDATE `etcitem` SET `name` ='暴躁的藍色小魚' WHERE `item_id` = 6430;
-UPDATE `etcitem` SET `name` ='寬扁的藍色小魚' WHERE `item_id` = 6431;
-UPDATE `etcitem` SET `name` ='敏捷的藍色魚' WHERE `item_id` = 6432;
-UPDATE `etcitem` SET `name` ='暴躁的藍色魚' WHERE `item_id` = 6433;
-UPDATE `etcitem` SET `name` ='寬扁的藍色魚' WHERE `item_id` = 6434;
-UPDATE `etcitem` SET `name` ='敏捷的藍色大魚' WHERE `item_id` = 6435;
-UPDATE `etcitem` SET `name` ='暴躁的藍色大魚' WHERE `item_id` = 6436;
-UPDATE `etcitem` SET `name` ='寬扁的藍色大魚' WHERE `item_id` = 6437;
-UPDATE `etcitem` SET `name` ='敏捷的黃色小魚' WHERE `item_id` = 6438;
-UPDATE `etcitem` SET `name` ='暴躁的黃色小魚' WHERE `item_id` = 6439;
-UPDATE `etcitem` SET `name` ='寬扁的黃色小魚' WHERE `item_id` = 6440;
-UPDATE `etcitem` SET `name` ='敏捷的黃色魚' WHERE `item_id` = 6441;
-UPDATE `etcitem` SET `name` ='暴躁的黃色魚' WHERE `item_id` = 6442;
-UPDATE `etcitem` SET `name` ='寬扁的黃色魚' WHERE `item_id` = 6443;
-UPDATE `etcitem` SET `name` ='敏捷的黃色大魚' WHERE `item_id` = 6444;
-UPDATE `etcitem` SET `name` ='暴躁的黃色大魚' WHERE `item_id` = 6445;
-UPDATE `etcitem` SET `name` ='寬扁的黃色大魚' WHERE `item_id` = 6446;
-UPDATE `etcitem` SET `name` ='敏捷的橙色小魚' WHERE `item_id` = 6447;
-UPDATE `etcitem` SET `name` ='暴躁的橙色小魚' WHERE `item_id` = 6448;
-UPDATE `etcitem` SET `name` ='寬扁的橙色小魚' WHERE `item_id` = 6449;
-UPDATE `etcitem` SET `name` ='敏捷的橙色魚' WHERE `item_id` = 6450;
-UPDATE `etcitem` SET `name` ='暴躁的橙色魚' WHERE `item_id` = 6451;
-UPDATE `etcitem` SET `name` ='寬扁的橙色魚' WHERE `item_id` = 6452;
-UPDATE `etcitem` SET `name` ='敏捷的橙色大魚' WHERE `item_id` = 6453;
-UPDATE `etcitem` SET `name` ='暴躁的橙色大魚' WHERE `item_id` = 6454;
-UPDATE `etcitem` SET `name` ='寬扁的橙色大魚' WHERE `item_id` = 6455;
-UPDATE `etcitem` SET `name` ='敏捷的紫色小魚' WHERE `item_id` = 6456;
-UPDATE `etcitem` SET `name` ='暴躁的紫色小魚' WHERE `item_id` = 6457;
-UPDATE `etcitem` SET `name` ='寬扁的紫色小魚' WHERE `item_id` = 6458;
-UPDATE `etcitem` SET `name` ='敏捷的紫色魚' WHERE `item_id` = 6459;
-UPDATE `etcitem` SET `name` ='暴躁的紫色魚' WHERE `item_id` = 6460;
-UPDATE `etcitem` SET `name` ='寬扁的紫色魚' WHERE `item_id` = 6461;
-UPDATE `etcitem` SET `name` ='敏捷的紫色大魚' WHERE `item_id` = 6462;
-UPDATE `etcitem` SET `name` ='暴躁的紫色大魚' WHERE `item_id` = 6463;
-UPDATE `etcitem` SET `name` ='寬扁的紫色大魚' WHERE `item_id` = 6464;
-UPDATE `etcitem` SET `name` ='敏捷的紅色小魚' WHERE `item_id` = 6465;
-UPDATE `etcitem` SET `name` ='暴躁的紅色小魚' WHERE `item_id` = 6466;
-UPDATE `etcitem` SET `name` ='寬扁的紅色小魚' WHERE `item_id` = 6467;
-UPDATE `etcitem` SET `name` ='敏捷的紅色魚' WHERE `item_id` = 6468;
-UPDATE `etcitem` SET `name` ='暴躁的紅色魚' WHERE `item_id` = 6469;
-UPDATE `etcitem` SET `name` ='寬扁的紅色魚' WHERE `item_id` = 6470;
-UPDATE `etcitem` SET `name` ='敏捷的紅色大魚' WHERE `item_id` = 6471;
-UPDATE `etcitem` SET `name` ='暴躁的紅色大魚' WHERE `item_id` = 6472;
-UPDATE `etcitem` SET `name` ='寬扁的紅色大魚' WHERE `item_id` = 6473;
-UPDATE `etcitem` SET `name` ='敏捷的白色小魚' WHERE `item_id` = 6474;
-UPDATE `etcitem` SET `name` ='暴躁的白色小魚' WHERE `item_id` = 6475;
-UPDATE `etcitem` SET `name` ='寬扁的白色小魚' WHERE `item_id` = 6476;
-UPDATE `etcitem` SET `name` ='敏捷的白色魚' WHERE `item_id` = 6477;
-UPDATE `etcitem` SET `name` ='暴躁的白色魚' WHERE `item_id` = 6478;
-UPDATE `etcitem` SET `name` ='寬扁的白色魚' WHERE `item_id` = 6479;
-UPDATE `etcitem` SET `name` ='敏捷的白色大魚' WHERE `item_id` = 6480;
-UPDATE `etcitem` SET `name` ='暴躁的白色大魚' WHERE `item_id` = 6481;
-UPDATE `etcitem` SET `name` ='寬扁的白色大魚' WHERE `item_id` = 6482;
-UPDATE `etcitem` SET `name` ='敏捷的黑色小魚' WHERE `item_id` = 6483;
-UPDATE `etcitem` SET `name` ='暴躁的黑色小魚' WHERE `item_id` = 6484;
-UPDATE `etcitem` SET `name` ='寬扁的黑色小魚' WHERE `item_id` = 6485;
-UPDATE `etcitem` SET `name` ='敏捷的黑色魚' WHERE `item_id` = 6486;
-UPDATE `etcitem` SET `name` ='暴躁的黑色魚' WHERE `item_id` = 6487;
-UPDATE `etcitem` SET `name` ='寬扁的黑色魚' WHERE `item_id` = 6488;
-UPDATE `etcitem` SET `name` ='敏捷的黑色大魚' WHERE `item_id` = 6489;
-UPDATE `etcitem` SET `name` ='暴躁的黑色大魚' WHERE `item_id` = 6490;
-UPDATE `etcitem` SET `name` ='寬扁的黑色大魚' WHERE `item_id` = 6491;
-UPDATE `etcitem` SET `name` ='綠色小寶箱' WHERE `item_id` = 6492;
-UPDATE `etcitem` SET `name` ='綠色寶箱' WHERE `item_id` = 6493;
-UPDATE `etcitem` SET `name` ='綠色大寶箱' WHERE `item_id` = 6494;
-UPDATE `etcitem` SET `name` ='翡翠小寶箱' WHERE `item_id` = 6495;
-UPDATE `etcitem` SET `name` ='翡翠寶箱' WHERE `item_id` = 6496;
-UPDATE `etcitem` SET `name` ='翡翠大寶箱' WHERE `item_id` = 6497;
-UPDATE `etcitem` SET `name` ='藍色小寶箱' WHERE `item_id` = 6498;
-UPDATE `etcitem` SET `name` ='藍色寶箱' WHERE `item_id` = 6499;
-UPDATE `etcitem` SET `name` ='藍色大寶箱' WHERE `item_id` = 6500;
-UPDATE `etcitem` SET `name` ='黃色小寶箱' WHERE `item_id` = 6501;
-UPDATE `etcitem` SET `name` ='黃色寶箱' WHERE `item_id` = 6502;
-UPDATE `etcitem` SET `name` ='黃色大寶箱' WHERE `item_id` = 6503;
-UPDATE `etcitem` SET `name` ='橙色小寶箱' WHERE `item_id` = 6504;
-UPDATE `etcitem` SET `name` ='橙色寶箱' WHERE `item_id` = 6505;
-UPDATE `etcitem` SET `name` ='橙色大寶箱' WHERE `item_id` = 6506;
-UPDATE `etcitem` SET `name` ='紫色小寶箱' WHERE `item_id` = 6507;
-UPDATE `etcitem` SET `name` ='紫色寶箱' WHERE `item_id` = 6508;
-UPDATE `etcitem` SET `name` ='紫色大寶箱' WHERE `item_id` = 6509;
-UPDATE `etcitem` SET `name` ='紅色小寶箱' WHERE `item_id` = 6510;
-UPDATE `etcitem` SET `name` ='紅色寶箱' WHERE `item_id` = 6511;
-UPDATE `etcitem` SET `name` ='紅色大寶箱' WHERE `item_id` = 6512;
-UPDATE `etcitem` SET `name` ='白色小寶箱' WHERE `item_id` = 6513;
-UPDATE `etcitem` SET `name` ='白色寶箱' WHERE `item_id` = 6514;
-UPDATE `etcitem` SET `name` ='白色大寶箱' WHERE `item_id` = 6515;
-UPDATE `etcitem` SET `name` ='黑色小寶箱' WHERE `item_id` = 6516;
-UPDATE `etcitem` SET `name` ='黑色寶箱' WHERE `item_id` = 6517;
-UPDATE `etcitem` SET `name` ='黑色大寶箱' WHERE `item_id` = 6518;
-UPDATE `etcitem` SET `name` ='綠色魚餌-下等' WHERE `item_id` = 6519;
-UPDATE `etcitem` SET `name` ='綠色魚餌-中等' WHERE `item_id` = 6520;
-UPDATE `etcitem` SET `name` ='綠色魚餌-高等' WHERE `item_id` = 6521;
-UPDATE `etcitem` SET `name` ='紫色魚餌-下等' WHERE `item_id` = 6522;
-UPDATE `etcitem` SET `name` ='紫色魚餌-中等' WHERE `item_id` = 6523;
-UPDATE `etcitem` SET `name` ='紫色魚餌-高等' WHERE `item_id` = 6524;
-UPDATE `etcitem` SET `name` ='黃色魚餌-下等' WHERE `item_id` = 6525;
-UPDATE `etcitem` SET `name` ='黃色魚餌-中等' WHERE `item_id` = 6526;
-UPDATE `etcitem` SET `name` ='黃色魚餌-高等' WHERE `item_id` = 6527;
-UPDATE `etcitem` SET `name` ='活動用魚餌' WHERE `item_id` = 6528;
-UPDATE `etcitem` SET `name` ='漁靈彈-普通' WHERE `item_id` = 6535;
-UPDATE `etcitem` SET `name` ='漁靈彈-D級' WHERE `item_id` = 6536;
-UPDATE `etcitem` SET `name` ='漁靈彈-C級' WHERE `item_id` = 6537;
-UPDATE `etcitem` SET `name` ='漁靈彈-B級' WHERE `item_id` = 6538;
-UPDATE `etcitem` SET `name` ='漁靈彈-A級' WHERE `item_id` = 6539;
-UPDATE `etcitem` SET `name` ='漁靈彈-S級' WHERE `item_id` = 6540;
-UPDATE `etcitem` SET `name` ='藍色柯巴' WHERE `item_id` = 6541;
-UPDATE `etcitem` SET `name` ='紅色柯巴' WHERE `item_id` = 6542;
-UPDATE `etcitem` SET `name` ='金色柯巴' WHERE `item_id` = 6543;
-UPDATE `etcitem` SET `name` ='沙漠柯巴' WHERE `item_id` = 6544;
-UPDATE `etcitem` SET `name` ='海洋柯巴' WHERE `item_id` = 6545;
-UPDATE `etcitem` SET `name` ='雙生柯巴' WHERE `item_id` = 6546;
-UPDATE `etcitem` SET `name` ='巨大柯巴' WHERE `item_id` = 6547;
-UPDATE `etcitem` SET `name` ='改良藍色柯巴' WHERE `item_id` = 6548;
-UPDATE `etcitem` SET `name` ='改良紅色柯巴' WHERE `item_id` = 6549;
-UPDATE `etcitem` SET `name` ='改良金色柯巴' WHERE `item_id` = 6550;
-UPDATE `etcitem` SET `name` ='改良沙漠柯巴' WHERE `item_id` = 6551;
-UPDATE `etcitem` SET `name` ='改良海洋柯巴' WHERE `item_id` = 6552;
-UPDATE `etcitem` SET `name` ='改良雙生柯巴' WHERE `item_id` = 6553;
-UPDATE `etcitem` SET `name` ='改良巨大柯巴' WHERE `item_id` = 6554;
-UPDATE `etcitem` SET `name` ='成熟的藍色柯巴' WHERE `item_id` = 6555;
-UPDATE `etcitem` SET `name` ='成熟的紅色柯巴' WHERE `item_id` = 6556;
-UPDATE `etcitem` SET `name` ='成熟的金色柯巴' WHERE `item_id` = 6557;
-UPDATE `etcitem` SET `name` ='成熟的沙漠柯巴' WHERE `item_id` = 6558;
-UPDATE `etcitem` SET `name` ='成熟的海洋柯巴' WHERE `item_id` = 6559;
-UPDATE `etcitem` SET `name` ='成熟的雙生柯巴' WHERE `item_id` = 6560;
-UPDATE `etcitem` SET `name` ='成熟的巨大柯巴' WHERE `item_id` = 6561;
-UPDATE `etcitem` SET `name` ='成熟的改良藍色柯巴' WHERE `item_id` = 6562;
-UPDATE `etcitem` SET `name` ='成熟的改良紅色柯巴' WHERE `item_id` = 6563;
-UPDATE `etcitem` SET `name` ='成熟的改良金色柯巴' WHERE `item_id` = 6564;
-UPDATE `etcitem` SET `name` ='成熟的改良沙漠柯巴' WHERE `item_id` = 6565;
-UPDATE `etcitem` SET `name` ='成熟的改良海洋柯巴' WHERE `item_id` = 6566;
-UPDATE `etcitem` SET `name` ='成熟的改良雙生柯巴' WHERE `item_id` = 6567;
-UPDATE `etcitem` SET `name` ='成熟的改良巨大柯巴' WHERE `item_id` = 6568;
-UPDATE `etcitem` SET `name` ='祝福的武器強化卷軸-A級' WHERE `item_id` = 6569;
-UPDATE `etcitem` SET `name` ='祝福的防具強化卷軸-A級' WHERE `item_id` = 6570;
-UPDATE `etcitem` SET `name` ='祝福的武器強化卷軸-B級' WHERE `item_id` = 6571;
-UPDATE `etcitem` SET `name` ='祝福的防具強化卷軸-B級' WHERE `item_id` = 6572;
-UPDATE `etcitem` SET `name` ='祝福的武器強化卷軸-C級' WHERE `item_id` = 6573;
-UPDATE `etcitem` SET `name` ='祝福的防具強化卷軸-C級' WHERE `item_id` = 6574;
-UPDATE `etcitem` SET `name` ='祝福的武器強化卷軸-D級' WHERE `item_id` = 6575;
-UPDATE `etcitem` SET `name` ='祝福的防具強化卷軸-D級' WHERE `item_id` = 6576;
-UPDATE `etcitem` SET `name` ='祝福的武器強化卷軸-S級' WHERE `item_id` = 6577;
-UPDATE `etcitem` SET `name` ='祝福的防具強化卷軸-S級' WHERE `item_id` = 6578;
-UPDATE `etcitem` SET `name` ='巨人的經典' WHERE `item_id` = 6622;
-UPDATE `etcitem` SET `name` ='模型-任務道具1' WHERE `item_id` = 6623;
-UPDATE `etcitem` SET `name` ='模型-任務道具2' WHERE `item_id` = 6624;
-UPDATE `etcitem` SET `name` ='模型-任務道具3' WHERE `item_id` = 6625;
-UPDATE `etcitem` SET `name` ='模型-任務道具4' WHERE `item_id` = 6626;
-UPDATE `etcitem` SET `name` ='模型-任務道具5' WHERE `item_id` = 6627;
-UPDATE `etcitem` SET `name` ='模型-任務道具6' WHERE `item_id` = 6628;
-UPDATE `etcitem` SET `name` ='模型-任務道具7' WHERE `item_id` = 6629;
-UPDATE `etcitem` SET `name` ='模型-任務道具8' WHERE `item_id` = 6630;
-UPDATE `etcitem` SET `name` ='模型-任務道具9' WHERE `item_id` = 6631;
-UPDATE `etcitem` SET `name` ='模型-任務道具10' WHERE `item_id` = 6632;
-UPDATE `etcitem` SET `name` ='模型-一般道具1' WHERE `item_id` = 6633;
-UPDATE `etcitem` SET `name` ='模型-一般道具2' WHERE `item_id` = 6634;
-UPDATE `etcitem` SET `name` ='模型-一般道具3' WHERE `item_id` = 6635;
-UPDATE `etcitem` SET `name` ='模型-一般道具4' WHERE `item_id` = 6636;
-UPDATE `etcitem` SET `name` ='模型-一般道具5' WHERE `item_id` = 6637;
-UPDATE `etcitem` SET `name` ='模型-一般道具6' WHERE `item_id` = 6638;
-UPDATE `etcitem` SET `name` ='模型-一般道具7' WHERE `item_id` = 6639;
-UPDATE `etcitem` SET `name` ='模型-一般道具8' WHERE `item_id` = 6640;
-UPDATE `etcitem` SET `name` ='模型-一般道具9' WHERE `item_id` = 6641;
-UPDATE `etcitem` SET `name` ='模型-一般道具10' WHERE `item_id` = 6642;
-UPDATE `etcitem` SET `name` ='金色香料' WHERE `item_id` = 6643;
-UPDATE `etcitem` SET `name` ='水晶香料' WHERE `item_id` = 6644;
-UPDATE `etcitem` SET `name` ='野獸靈魂彈' WHERE `item_id` = 6645;
-UPDATE `etcitem` SET `name` ='野獸魔靈彈' WHERE `item_id` = 6646;
-UPDATE `etcitem` SET `name` ='祝福的野獸魔靈彈' WHERE `item_id` = 6647;
-UPDATE `etcitem` SET `name` ='小野牛之笛' WHERE `item_id` = 6648;
-UPDATE `etcitem` SET `name` ='小老虎之鐘' WHERE `item_id` = 6649;
-UPDATE `etcitem` SET `name` ='小笑翠鳥之笛' WHERE `item_id` = 6650;
-UPDATE `etcitem` SET `name` ='貴族通行證' WHERE `item_id` = 6651;
-UPDATE `etcitem` SET `name` ='火龍加持護符' WHERE `item_id` = 6652;
-UPDATE `etcitem` SET `name` ='救護的護符-解除死亡之火' WHERE `item_id` = 6653;
-UPDATE `etcitem` SET `name` ='火龍之炎護符' WHERE `item_id` = 6654;
-UPDATE `etcitem` SET `name` ='火龍刺殺護符' WHERE `item_id` = 6655;
-UPDATE `etcitem` SET `name` ='獸人城鎮返回卷軸' WHERE `item_id` = 6663;
-UPDATE `etcitem` SET `name` ='賽勒諾斯城鎮返回卷軸' WHERE `item_id` = 6664;
-UPDATE `etcitem` SET `name` ='寶箱鑰匙-1級' WHERE `item_id` = 6665;
-UPDATE `etcitem` SET `name` ='寶箱鑰匙-2級' WHERE `item_id` = 6666;
-UPDATE `etcitem` SET `name` ='寶箱鑰匙-3級' WHERE `item_id` = 6667;
-UPDATE `etcitem` SET `name` ='寶箱鑰匙-4級' WHERE `item_id` = 6668;
-UPDATE `etcitem` SET `name` ='寶箱鑰匙-5級' WHERE `item_id` = 6669;
-UPDATE `etcitem` SET `name` ='寶箱鑰匙-6級' WHERE `item_id` = 6670;
-UPDATE `etcitem` SET `name` ='寶箱鑰匙-7級' WHERE `item_id` = 6671;
-UPDATE `etcitem` SET `name` ='寶箱鑰匙-8級' WHERE `item_id` = 6672;
-UPDATE `etcitem` SET `name` ='慶典金幣' WHERE `item_id` = 6673;
-UPDATE `etcitem` SET `name` ='忘卻之刃的刀身' WHERE `item_id` = 6688;
-UPDATE `etcitem` SET `name` ='玄武岩戰鎚的金屬塊' WHERE `item_id` = 6689;
-UPDATE `etcitem` SET `name` ='帝國權杖的碎片' WHERE `item_id` = 6690;
-UPDATE `etcitem` SET `name` ='天使殺手的劍身' WHERE `item_id` = 6691;
-UPDATE `etcitem` SET `name` ='閃耀弓的柄' WHERE `item_id` = 6692;
-UPDATE `etcitem` SET `name` ='狩龍之斧的刃部' WHERE `item_id` = 6693;
-UPDATE `etcitem` SET `name` ='聖者之矛的刃部' WHERE `item_id` = 6694;
-UPDATE `etcitem` SET `name` ='惡魔獵爪的刃部' WHERE `item_id` = 6695;
-UPDATE `etcitem` SET `name` ='天國審判的刀身' WHERE `item_id` = 6696;
-UPDATE `etcitem` SET `name` ='祕儀權杖的金屬塊' WHERE `item_id` = 6697;
-UPDATE `etcitem` SET `name` ='封印的泰狄奧森耳環碎片' WHERE `item_id` = 6698;
-UPDATE `etcitem` SET `name` ='封印的泰狄奧森戒指寶石' WHERE `item_id` = 6699;
-UPDATE `etcitem` SET `name` ='封印的泰狄奧森項鍊金屬線' WHERE `item_id` = 6700;
-UPDATE `etcitem` SET `name` ='封印的帝國聖軍胸甲組件' WHERE `item_id` = 6701;
-UPDATE `etcitem` SET `name` ='封印的帝國聖軍脛甲組件' WHERE `item_id` = 6702;
-UPDATE `etcitem` SET `name` ='封印的帝國聖軍長手套圖樣' WHERE `item_id` = 6703;
-UPDATE `etcitem` SET `name` ='封印的帝國聖軍長靴圖樣' WHERE `item_id` = 6704;
-UPDATE `etcitem` SET `name` ='封印的帝國聖軍盾碎片' WHERE `item_id` = 6705;
-UPDATE `etcitem` SET `name` ='封印的帝國聖軍頭盔組件' WHERE `item_id` = 6706;
-UPDATE `etcitem` SET `name` ='封印的紅龍皮甲組件' WHERE `item_id` = 6707;
-UPDATE `etcitem` SET `name` ='封印的紅龍皮手套布料' WHERE `item_id` = 6708;
-UPDATE `etcitem` SET `name` ='封印的紅龍皮靴圖樣' WHERE `item_id` = 6709;
-UPDATE `etcitem` SET `name` ='封印的紅龍皮盔組件' WHERE `item_id` = 6710;
-UPDATE `etcitem` SET `name` ='封印的大祕儀長袍組件' WHERE `item_id` = 6711;
-UPDATE `etcitem` SET `name` ='封印的大祕儀手套布料' WHERE `item_id` = 6712;
-UPDATE `etcitem` SET `name` ='封印的大祕儀長靴組件' WHERE `item_id` = 6713;
-UPDATE `etcitem` SET `name` ='封印的大祕儀頭箍組件' WHERE `item_id` = 6714;
-UPDATE `etcitem` SET `name` ='改良巨大柯巴種子' WHERE `item_id` = 6727;
-UPDATE `etcitem` SET `name` ='改良海洋柯巴種子' WHERE `item_id` = 6728;
-UPDATE `etcitem` SET `name` ='改良海洋柯巴種子' WHERE `item_id` = 6729;
-UPDATE `etcitem` SET `name` ='改良海洋柯巴種子' WHERE `item_id` = 6730;
-UPDATE `etcitem` SET `name` ='改良紅色柯巴種子' WHERE `item_id` = 6731;
-UPDATE `etcitem` SET `name` ='改良紅色柯巴種子' WHERE `item_id` = 6732;
-UPDATE `etcitem` SET `name` ='改良紅色柯巴種子' WHERE `item_id` = 6733;
-UPDATE `etcitem` SET `name` ='改良紅色柯巴種子' WHERE `item_id` = 6734;
-UPDATE `etcitem` SET `name` ='改良紅色柯巴種子' WHERE `item_id` = 6735;
-UPDATE `etcitem` SET `name` ='改良沙漠柯巴種子' WHERE `item_id` = 6736;
-UPDATE `etcitem` SET `name` ='改良沙漠柯巴種子' WHERE `item_id` = 6737;
-UPDATE `etcitem` SET `name` ='改良沙漠柯巴種子' WHERE `item_id` = 6738;
-UPDATE `etcitem` SET `name` ='改良沙漠柯巴種子' WHERE `item_id` = 6739;
-UPDATE `etcitem` SET `name` ='改良沙漠柯巴種子' WHERE `item_id` = 6740;
-UPDATE `etcitem` SET `name` ='改良雙生柯巴種子' WHERE `item_id` = 6741;
-UPDATE `etcitem` SET `name` ='改良藍色柯巴種子' WHERE `item_id` = 6742;
-UPDATE `etcitem` SET `name` ='改良藍色柯巴種子' WHERE `item_id` = 6743;
-UPDATE `etcitem` SET `name` ='改良藍色柯巴種子' WHERE `item_id` = 6744;
-UPDATE `etcitem` SET `name` ='改良藍色柯巴種子' WHERE `item_id` = 6745;
-UPDATE `etcitem` SET `name` ='改良藍色柯巴種子' WHERE `item_id` = 6746;
-UPDATE `etcitem` SET `name` ='改良金色柯巴種子' WHERE `item_id` = 6747;
-UPDATE `etcitem` SET `name` ='改良金色柯巴種子' WHERE `item_id` = 6748;
-UPDATE `etcitem` SET `name` ='改良金色柯巴種子' WHERE `item_id` = 6749;
-UPDATE `etcitem` SET `name` ='改良金色柯巴種子' WHERE `item_id` = 6750;
-UPDATE `etcitem` SET `name` ='改良金色柯巴種子' WHERE `item_id` = 6751;
-UPDATE `etcitem` SET `name` ='改良金色柯巴種子' WHERE `item_id` = 6752;
-UPDATE `etcitem` SET `name` ='巨大柯巴種子' WHERE `item_id` = 6753;
-UPDATE `etcitem` SET `name` ='海洋柯巴種子' WHERE `item_id` = 6754;
-UPDATE `etcitem` SET `name` ='海洋柯巴種子' WHERE `item_id` = 6755;
-UPDATE `etcitem` SET `name` ='海洋柯巴種子' WHERE `item_id` = 6756;
-UPDATE `etcitem` SET `name` ='紅色柯巴種子' WHERE `item_id` = 6757;
-UPDATE `etcitem` SET `name` ='紅色柯巴種子' WHERE `item_id` = 6758;
-UPDATE `etcitem` SET `name` ='紅色柯巴種子' WHERE `item_id` = 6759;
-UPDATE `etcitem` SET `name` ='紅色柯巴種子' WHERE `item_id` = 6760;
-UPDATE `etcitem` SET `name` ='紅色柯巴種子' WHERE `item_id` = 6761;
-UPDATE `etcitem` SET `name` ='沙漠柯巴種子' WHERE `item_id` = 6762;
-UPDATE `etcitem` SET `name` ='沙漠柯巴種子' WHERE `item_id` = 6763;
-UPDATE `etcitem` SET `name` ='沙漠柯巴種子' WHERE `item_id` = 6764;
-UPDATE `etcitem` SET `name` ='沙漠柯巴種子' WHERE `item_id` = 6765;
-UPDATE `etcitem` SET `name` ='沙漠柯巴種子' WHERE `item_id` = 6766;
-UPDATE `etcitem` SET `name` ='雙生柯巴種子' WHERE `item_id` = 6767;
-UPDATE `etcitem` SET `name` ='藍色柯巴種子' WHERE `item_id` = 6768;
-UPDATE `etcitem` SET `name` ='藍色柯巴種子' WHERE `item_id` = 6769;
-UPDATE `etcitem` SET `name` ='藍色柯巴種子' WHERE `item_id` = 6770;
-UPDATE `etcitem` SET `name` ='藍色柯巴種子' WHERE `item_id` = 6771;
-UPDATE `etcitem` SET `name` ='藍色柯巴種子' WHERE `item_id` = 6772;
-UPDATE `etcitem` SET `name` ='金色柯巴種子' WHERE `item_id` = 6773;
-UPDATE `etcitem` SET `name` ='金色柯巴種子' WHERE `item_id` = 6774;
-UPDATE `etcitem` SET `name` ='金色柯巴種子' WHERE `item_id` = 6775;
-UPDATE `etcitem` SET `name` ='金色柯巴種子' WHERE `item_id` = 6776;
-UPDATE `etcitem` SET `name` ='金色柯巴種子' WHERE `item_id` = 6777;
-UPDATE `etcitem` SET `name` ='金色柯巴種子' WHERE `item_id` = 6778;
-UPDATE `etcitem` SET `name` ='傭兵配置表(劍/固定)' WHERE `item_id` = 6779;
-UPDATE `etcitem` SET `name` ='傭兵配置表(槍/固定)' WHERE `item_id` = 6780;
-UPDATE `etcitem` SET `name` ='傭兵配置表(弓/固定)' WHERE `item_id` = 6781;
-UPDATE `etcitem` SET `name` ='傭兵配置表(牧師/固定)' WHERE `item_id` = 6782;
-UPDATE `etcitem` SET `name` ='傭兵配置表(巫師/固定)' WHERE `item_id` = 6783;
-UPDATE `etcitem` SET `name` ='傭兵配置表(劍/移動)' WHERE `item_id` = 6784;
-UPDATE `etcitem` SET `name` ='傭兵配置表(槍/移動)' WHERE `item_id` = 6785;
-UPDATE `etcitem` SET `name` ='傭兵配置表(弓/移動)' WHERE `item_id` = 6786;
-UPDATE `etcitem` SET `name` ='傭兵配置表(牧師/移動)' WHERE `item_id` = 6787;
-UPDATE `etcitem` SET `name` ='傭兵配置表(巫師/移動)' WHERE `item_id` = 6788;
-UPDATE `etcitem` SET `name` ='傭兵配置表(傳送師1)' WHERE `item_id` = 6789;
-UPDATE `etcitem` SET `name` ='傭兵配置表(傳送師2)' WHERE `item_id` = 6790;
-UPDATE `etcitem` SET `name` ='傭兵配置表(傳送師3)' WHERE `item_id` = 6791;
-UPDATE `etcitem` SET `name` ='高級傭兵配置表(劍/固定)' WHERE `item_id` = 6792;
-UPDATE `etcitem` SET `name` ='高級傭兵配置表(槍/固定)' WHERE `item_id` = 6793;
-UPDATE `etcitem` SET `name` ='高級傭兵配置表(弓/固定)' WHERE `item_id` = 6794;
-UPDATE `etcitem` SET `name` ='高級傭兵配置表(牧師/固定)' WHERE `item_id` = 6795;
-UPDATE `etcitem` SET `name` ='高級傭兵配置表(巫師/固定)' WHERE `item_id` = 6796;
-UPDATE `etcitem` SET `name` ='高級傭兵配置表(劍/移動)' WHERE `item_id` = 6797;
-UPDATE `etcitem` SET `name` ='高級傭兵配置表(槍/移動)' WHERE `item_id` = 6798;
-UPDATE `etcitem` SET `name` ='高級傭兵配置表(弓/移動)' WHERE `item_id` = 6799;
-UPDATE `etcitem` SET `name` ='高級傭兵配置表(牧師/移動)' WHERE `item_id` = 6800;
-UPDATE `etcitem` SET `name` ='高級傭兵配置表(巫師/移動)' WHERE `item_id` = 6801;
-UPDATE `etcitem` SET `name` ='黎明傭兵配置表(劍/固定)' WHERE `item_id` = 6802;
-UPDATE `etcitem` SET `name` ='黎明傭兵配置表(槍/固定)' WHERE `item_id` = 6803;
-UPDATE `etcitem` SET `name` ='黎明傭兵配置表(弓/固定)' WHERE `item_id` = 6804;
-UPDATE `etcitem` SET `name` ='黎明傭兵配置表(牧師/固定)' WHERE `item_id` = 6805;
-UPDATE `etcitem` SET `name` ='黎明傭兵配置表(巫師/固定)' WHERE `item_id` = 6806;
-UPDATE `etcitem` SET `name` ='黎明傭兵配置表(劍/移動)' WHERE `item_id` = 6807;
-UPDATE `etcitem` SET `name` ='黎明傭兵配置表(槍/移動)' WHERE `item_id` = 6808;
-UPDATE `etcitem` SET `name` ='黎明傭兵配置表(弓/移動)' WHERE `item_id` = 6809;
-UPDATE `etcitem` SET `name` ='黎明傭兵配置表(牧師/移動)' WHERE `item_id` = 6810;
-UPDATE `etcitem` SET `name` ='黎明傭兵配置表(巫師/移動)' WHERE `item_id` = 6811;
-UPDATE `etcitem` SET `name` ='高級訓練兵配置表(劍/固定)' WHERE `item_id` = 6812;
-UPDATE `etcitem` SET `name` ='高級訓練兵配置表(槍/固定)' WHERE `item_id` = 6813;
-UPDATE `etcitem` SET `name` ='高級訓練兵配置表(弓/固定)' WHERE `item_id` = 6814;
-UPDATE `etcitem` SET `name` ='高級訓練兵配置表(牧師/固定)' WHERE `item_id` = 6815;
-UPDATE `etcitem` SET `name` ='高級訓練兵配置表(巫師/固定)' WHERE `item_id` = 6816;
-UPDATE `etcitem` SET `name` ='高級訓練兵配置表(劍/移動)' WHERE `item_id` = 6817;
-UPDATE `etcitem` SET `name` ='高級訓練兵配置表(槍/移動)' WHERE `item_id` = 6818;
-UPDATE `etcitem` SET `name` ='高級訓練兵配置表(弓/移動)' WHERE `item_id` = 6819;
-UPDATE `etcitem` SET `name` ='高級訓練兵配置表(牧師/移動)' WHERE `item_id` = 6820;
-UPDATE `etcitem` SET `name` ='高級訓練兵配置表(巫師/移動)' WHERE `item_id` = 6821;
-UPDATE `etcitem` SET `name` ='訓練兵配置表(劍/固定)' WHERE `item_id` = 6822;
-UPDATE `etcitem` SET `name` ='訓練兵配置表(槍/固定)' WHERE `item_id` = 6823;
-UPDATE `etcitem` SET `name` ='訓練兵配置表(弓/固定)' WHERE `item_id` = 6824;
-UPDATE `etcitem` SET `name` ='訓練兵配置表(牧師/固定)' WHERE `item_id` = 6825;
-UPDATE `etcitem` SET `name` ='訓練兵配置表(巫師/固定)' WHERE `item_id` = 6826;
-UPDATE `etcitem` SET `name` ='訓練兵配置表(劍/移動)' WHERE `item_id` = 6827;
-UPDATE `etcitem` SET `name` ='訓練兵配置表(槍/移動)' WHERE `item_id` = 6828;
-UPDATE `etcitem` SET `name` ='訓練兵配置表(弓/移動)' WHERE `item_id` = 6829;
-UPDATE `etcitem` SET `name` ='訓練兵配置表(牧師/移動)' WHERE `item_id` = 6830;
-UPDATE `etcitem` SET `name` ='訓練兵配置表(巫師/移動)' WHERE `item_id` = 6831;
-UPDATE `etcitem` SET `name` ='那芙琳戰士配置表' WHERE `item_id` = 6832;
-UPDATE `etcitem` SET `name` ='那芙琳咒術士配置表' WHERE `item_id` = 6833;
-UPDATE `etcitem` SET `name` ='製作卷軸(封印的泰狄奧森耳環70%)' WHERE `item_id` = 6847;
-UPDATE `etcitem` SET `name` ='製作卷軸(封印的泰狄奧森耳環100%)' WHERE `item_id` = 6848;
-UPDATE `etcitem` SET `name` ='製作卷軸(封印的泰狄奧森戒指70%)' WHERE `item_id` = 6849;
-UPDATE `etcitem` SET `name` ='製作卷軸(封印的泰狄奧森戒指100%)' WHERE `item_id` = 6850;
-UPDATE `etcitem` SET `name` ='製作卷軸(封印的泰狄奧森項鍊70%)' WHERE `item_id` = 6851;
-UPDATE `etcitem` SET `name` ='製作卷軸(封印的泰狄奧森項鍊100%)' WHERE `item_id` = 6852;
-UPDATE `etcitem` SET `name` ='製作卷軸(封印的帝國聖軍胸甲60%)' WHERE `item_id` = 6853;
-UPDATE `etcitem` SET `name` ='製作卷軸(封印的帝國聖軍胸甲100%)' WHERE `item_id` = 6854;
-UPDATE `etcitem` SET `name` ='製作卷軸(封印的帝國聖軍脛甲60%)' WHERE `item_id` = 6855;
-UPDATE `etcitem` SET `name` ='製作卷軸(封印的帝國聖軍脛甲100%)' WHERE `item_id` = 6856;
-UPDATE `etcitem` SET `name` ='製作卷軸(封印的帝國聖軍長手套60%)' WHERE `item_id` = 6857;
-UPDATE `etcitem` SET `name` ='製作卷軸(封印的帝國聖軍長手套100%)' WHERE `item_id` = 6858;
-UPDATE `etcitem` SET `name` ='製作卷軸(封印的帝國聖軍長靴60%)' WHERE `item_id` = 6859;
-UPDATE `etcitem` SET `name` ='製作卷軸(封印的帝國聖軍長靴100%)' WHERE `item_id` = 6860;
-UPDATE `etcitem` SET `name` ='製作卷軸(封印的帝國聖軍盾60%)' WHERE `item_id` = 6861;
-UPDATE `etcitem` SET `name` ='製作卷軸(封印的帝國聖軍盾100%)' WHERE `item_id` = 6862;
-UPDATE `etcitem` SET `name` ='製作卷軸(封印的帝國聖軍頭盔60%)' WHERE `item_id` = 6863;
-UPDATE `etcitem` SET `name` ='製作卷軸(封印的帝國聖軍頭盔100%)' WHERE `item_id` = 6864;
-UPDATE `etcitem` SET `name` ='製作卷軸(封印的紅龍皮甲60%)' WHERE `item_id` = 6865;
-UPDATE `etcitem` SET `name` ='製作卷軸(封印的紅龍皮甲100%)' WHERE `item_id` = 6866;
-UPDATE `etcitem` SET `name` ='製作卷軸(封印的紅龍皮手套60%)' WHERE `item_id` = 6867;
-UPDATE `etcitem` SET `name` ='製作卷軸(封印的紅龍皮手套100%)' WHERE `item_id` = 6868;
-UPDATE `etcitem` SET `name` ='製作卷軸(封印的紅龍皮靴60%)' WHERE `item_id` = 6869;
-UPDATE `etcitem` SET `name` ='製作卷軸(封印的紅龍皮靴100%)' WHERE `item_id` = 6870;
-UPDATE `etcitem` SET `name` ='製作卷軸(封印的紅龍皮盔60%)' WHERE `item_id` = 6871;
-UPDATE `etcitem` SET `name` ='製作卷軸(封印的紅龍皮盔100%)' WHERE `item_id` = 6872;
-UPDATE `etcitem` SET `name` ='製作卷軸(封印的大祕儀長袍60%)' WHERE `item_id` = 6873;
-UPDATE `etcitem` SET `name` ='製作卷軸(封印的大祕儀長袍100%)' WHERE `item_id` = 6874;
-UPDATE `etcitem` SET `name` ='製作卷軸(封印的大祕儀手套60%)' WHERE `item_id` = 6875;
-UPDATE `etcitem` SET `name` ='製作卷軸(封印的大祕儀手套100%)' WHERE `item_id` = 6876;
-UPDATE `etcitem` SET `name` ='製作卷軸(封印的大祕儀長靴60%)' WHERE `item_id` = 6877;
-UPDATE `etcitem` SET `name` ='製作卷軸(封印的大祕儀長靴100%)' WHERE `item_id` = 6878;
-UPDATE `etcitem` SET `name` ='製作卷軸(封印的大祕儀頭箍60%)' WHERE `item_id` = 6879;
-UPDATE `etcitem` SET `name` ='製作卷軸(封印的大祕儀頭箍100%)' WHERE `item_id` = 6880;
-UPDATE `etcitem` SET `name` ='製作卷軸(忘卻之刃60%)' WHERE `item_id` = 6881;
-UPDATE `etcitem` SET `name` ='製作卷軸(忘卻之刃100%)' WHERE `item_id` = 6882;
-UPDATE `etcitem` SET `name` ='製作卷軸(玄武岩戰鎚60%)' WHERE `item_id` = 6883;
-UPDATE `etcitem` SET `name` ='製作卷軸(玄武岩戰鎚100%)' WHERE `item_id` = 6884;
-UPDATE `etcitem` SET `name` ='製作卷軸(帝國權杖60%)' WHERE `item_id` = 6885;
-UPDATE `etcitem` SET `name` ='製作卷軸(帝國權杖100%)' WHERE `item_id` = 6886;
-UPDATE `etcitem` SET `name` ='製作卷軸(天使殺手60%)' WHERE `item_id` = 6887;
-UPDATE `etcitem` SET `name` ='製作卷軸(天使殺手100%)' WHERE `item_id` = 6888;
-UPDATE `etcitem` SET `name` ='製作卷軸(閃耀弓60%)' WHERE `item_id` = 6889;
-UPDATE `etcitem` SET `name` ='製作卷軸(閃耀弓100%)' WHERE `item_id` = 6890;
-UPDATE `etcitem` SET `name` ='製作卷軸(狩龍之斧60%)' WHERE `item_id` = 6891;
-UPDATE `etcitem` SET `name` ='製作卷軸(狩龍之斧100%)' WHERE `item_id` = 6892;
-UPDATE `etcitem` SET `name` ='製作卷軸(聖者之矛60%)' WHERE `item_id` = 6893;
-UPDATE `etcitem` SET `name` ='製作卷軸(聖者之矛100%)' WHERE `item_id` = 6894;
-UPDATE `etcitem` SET `name` ='製作卷軸(惡魔獵爪60%)' WHERE `item_id` = 6895;
-UPDATE `etcitem` SET `name` ='製作卷軸(惡魔獵爪100%)' WHERE `item_id` = 6896;
-UPDATE `etcitem` SET `name` ='製作卷軸(天國審判60%)' WHERE `item_id` = 6897;
-UPDATE `etcitem` SET `name` ='製作卷軸(天國審判100%)' WHERE `item_id` = 6898;
-UPDATE `etcitem` SET `name` ='製作卷軸(祕儀權杖60%)' WHERE `item_id` = 6899;
-UPDATE `etcitem` SET `name` ='製作卷軸(祕儀權杖100%)' WHERE `item_id` = 6900;
-UPDATE `etcitem` SET `name` ='製作卷軸(閃耀箭100%)' WHERE `item_id` = 6901;
-UPDATE `etcitem` SET `name` ='音樂盒M' WHERE `item_id` = 6903;
-UPDATE `etcitem` SET `name` ='舞會面具的布料' WHERE `item_id` = 6904;
-UPDATE `etcitem` SET `name` ='名媛髮飾的碎片' WHERE `item_id` = 6905;
-UPDATE `etcitem` SET `name` ='海盜眼罩的帶子' WHERE `item_id` = 6906;
-UPDATE `etcitem` SET `name` ='單片眼鏡的碎片' WHERE `item_id` = 6907;
-UPDATE `etcitem` SET `name` ='魚油' WHERE `item_id` = 6908;
-UPDATE `etcitem` SET `name` ='中級魚油' WHERE `item_id` = 6909;
-UPDATE `etcitem` SET `name` ='高級魚油' WHERE `item_id` = 6910;
-UPDATE `etcitem` SET `name` ='魚鱗' WHERE `item_id` = 6911;
-UPDATE `etcitem` SET `name` ='閃亮的魚鱗' WHERE `item_id` = 6912;
-UPDATE `etcitem` SET `name` ='魚寶石' WHERE `item_id` = 6913;
-UPDATE `etcitem` SET `name` ='閃亮的魚寶石' WHERE `item_id` = 6914;
-UPDATE `etcitem` SET `name` ='細魚刺' WHERE `item_id` = 6915;
-UPDATE `etcitem` SET `name` ='粗魚刺' WHERE `item_id` = 6916;
-UPDATE `etcitem` SET `name` ='製作卷軸(中級魚油100%)' WHERE `item_id` = 6920;
-UPDATE `etcitem` SET `name` ='製作卷軸(高級魚油100%)' WHERE `item_id` = 6921;
-UPDATE `etcitem` SET `name` ='製作卷軸(舞會面具100%)' WHERE `item_id` = 6922;
-UPDATE `etcitem` SET `name` ='製作卷軸(名媛髮飾100%)' WHERE `item_id` = 6923;
-UPDATE `etcitem` SET `name` ='製作卷軸(海盜眼罩100%)' WHERE `item_id` = 6924;
-UPDATE `etcitem` SET `name` ='製作卷軸(單片眼鏡100%)' WHERE `item_id` = 6925;
-UPDATE `etcitem` SET `name` ='製作卷軸(體力治癒藥水100%)' WHERE `item_id` = 6926;
-UPDATE `etcitem` SET `name` ='製作卷軸(強力體力治癒藥水100%)' WHERE `item_id` = 6927;
-UPDATE `etcitem` SET `name` ='製作卷軸(終極治癒藥水100%)' WHERE `item_id` = 6928;
-UPDATE `etcitem` SET `name` ='製作卷軸(解毒草100%)' WHERE `item_id` = 6929;
-UPDATE `etcitem` SET `name` ='製作卷軸(濃縮解毒藥100%)' WHERE `item_id` = 6930;
-UPDATE `etcitem` SET `name` ='製作卷軸(繃帶100%)' WHERE `item_id` = 6931;
-UPDATE `etcitem` SET `name` ='製作卷軸(強力繃帶100%)' WHERE `item_id` = 6932;
-UPDATE `etcitem` SET `name` ='製作卷軸(移動加速藥水100%)' WHERE `item_id` = 6933;
-UPDATE `etcitem` SET `name` ='製作卷軸(攻擊加速藥水100%)' WHERE `item_id` = 6934;
-UPDATE `etcitem` SET `name` ='製作卷軸(強力移動加速藥水100%)' WHERE `item_id` = 6935;
-UPDATE `etcitem` SET `name` ='製作卷軸(強力攻擊加速藥水100%)' WHERE `item_id` = 6936;
-UPDATE `etcitem` SET `name` ='製作卷軸(施法加速藥水100%)' WHERE `item_id` = 6937;
-UPDATE `etcitem` SET `name` ='製作卷軸(強力施法加速藥水100%)' WHERE `item_id` = 6938;
-UPDATE `etcitem` SET `name` ='製作卷軸(疑問藥水100%)' WHERE `item_id` = 6939;
-UPDATE `etcitem` SET `name` ='製作卷軸(整形藥水-A100%)' WHERE `item_id` = 6940;
-UPDATE `etcitem` SET `name` ='製作卷軸(整形藥水-B100%)' WHERE `item_id` = 6941;
-UPDATE `etcitem` SET `name` ='製作卷軸(整形藥水-C100%)' WHERE `item_id` = 6942;
-UPDATE `etcitem` SET `name` ='製作卷軸(染髮藥水-A100%)' WHERE `item_id` = 6943;
-UPDATE `etcitem` SET `name` ='製作卷軸(染髮藥水-B100%)' WHERE `item_id` = 6944;
-UPDATE `etcitem` SET `name` ='製作卷軸(染髮藥水-C100%)' WHERE `item_id` = 6945;
-UPDATE `etcitem` SET `name` ='製作卷軸(染髮藥水-D100%)' WHERE `item_id` = 6946;
-UPDATE `etcitem` SET `name` ='製作卷軸(造型藥水-A100%)' WHERE `item_id` = 6947;
-UPDATE `etcitem` SET `name` ='製作卷軸(造型藥水-B100%)' WHERE `item_id` = 6948;
-UPDATE `etcitem` SET `name` ='製作卷軸(造型藥水-C100%)' WHERE `item_id` = 6949;
-UPDATE `etcitem` SET `name` ='製作卷軸(造型藥水-D100%)' WHERE `item_id` = 6950;
-UPDATE `etcitem` SET `name` ='製作卷軸(造型藥水-E100%)' WHERE `item_id` = 6951;
-UPDATE `etcitem` SET `name` ='製作卷軸(造型藥水-F100%)' WHERE `item_id` = 6952;
-UPDATE `etcitem` SET `name` ='製作卷軸(造型藥水-G100%)' WHERE `item_id` = 6953;
-UPDATE `etcitem` SET `name` ='製作卷軸(力量染料<Str+1Con-1>100%)' WHERE `item_id` = 6954;
-UPDATE `etcitem` SET `name` ='製作卷軸(力量染料<Str+1Dex-1>100%)' WHERE `item_id` = 6955;
-UPDATE `etcitem` SET `name` ='製作卷軸(體質染料<Con+1Str-1>100%)' WHERE `item_id` = 6956;
-UPDATE `etcitem` SET `name` ='製作卷軸(體質染料<Con+1Dex-1>100%)' WHERE `item_id` = 6957;
-UPDATE `etcitem` SET `name` ='製作卷軸(敏捷染料<Dex+1Str-1>100%)' WHERE `item_id` = 6958;
-UPDATE `etcitem` SET `name` ='製作卷軸(敏捷染料<Dex+1Con-1>100%)' WHERE `item_id` = 6959;
-UPDATE `etcitem` SET `name` ='製作卷軸(智力染料<Int+1Men-1>100%)' WHERE `item_id` = 6960;
-UPDATE `etcitem` SET `name` ='製作卷軸(智力染料<Int+1Wit-1>100%)' WHERE `item_id` = 6961;
-UPDATE `etcitem` SET `name` ='製作卷軸(精神染料<Men+1Int-1>100%)' WHERE `item_id` = 6962;
-UPDATE `etcitem` SET `name` ='製作卷軸(精神染料<Men+1Wit-1>100%)' WHERE `item_id` = 6963;
-UPDATE `etcitem` SET `name` ='製作卷軸(智慧染料<Wit+1Int-1>100%)' WHERE `item_id` = 6964;
-UPDATE `etcitem` SET `name` ='製作卷軸(智慧染料<Wit+1Men-1>100%)' WHERE `item_id` = 6965;
-UPDATE `etcitem` SET `name` ='製作卷軸(高級力量染料<Str+1Con-1>100%)' WHERE `item_id` = 6966;
-UPDATE `etcitem` SET `name` ='製作卷軸(高級力量染料<Str+1Dex-1>100%)' WHERE `item_id` = 6967;
-UPDATE `etcitem` SET `name` ='製作卷軸(高級體質染料<Con+1Str-1>100%)' WHERE `item_id` = 6968;
-UPDATE `etcitem` SET `name` ='製作卷軸(高級體質染料<Con+1Dex-1>100%)' WHERE `item_id` = 6969;
-UPDATE `etcitem` SET `name` ='製作卷軸(高級敏捷染料<Dex+1Str-1>100%)' WHERE `item_id` = 6970;
-UPDATE `etcitem` SET `name` ='製作卷軸(高級敏捷染料<Dex+1Con-1>100%)' WHERE `item_id` = 6971;
-UPDATE `etcitem` SET `name` ='製作卷軸(高級智力染料<Int+1Men-1>100%)' WHERE `item_id` = 6972;
-UPDATE `etcitem` SET `name` ='製作卷軸(高級智力染料<Int+1Wit-1>100%)' WHERE `item_id` = 6973;
-UPDATE `etcitem` SET `name` ='製作卷軸(高級精神染料<Men+1Int-1>100%)' WHERE `item_id` = 6974;
-UPDATE `etcitem` SET `name` ='製作卷軸(高級精神染料<Men+1Wit-1>100%)' WHERE `item_id` = 6975;
-UPDATE `etcitem` SET `name` ='製作卷軸(高級智慧染料<Wit+1Int-1>100%)' WHERE `item_id` = 6976;
-UPDATE `etcitem` SET `name` ='製作卷軸(高級智慧染料<Wit+1Men-1>100%)' WHERE `item_id` = 6977;
-UPDATE `etcitem` SET `name` ='製作卷軸(高級力量染料<Str+2Con-2>100%)' WHERE `item_id` = 6978;
-UPDATE `etcitem` SET `name` ='製作卷軸(高級力量染料<Str+2Dex-2>100%)' WHERE `item_id` = 6979;
-UPDATE `etcitem` SET `name` ='製作卷軸(高級體質染料<Con+2Str-2>100%)' WHERE `item_id` = 6980;
-UPDATE `etcitem` SET `name` ='製作卷軸(高級體質染料<Con+2Dex-2>100%)' WHERE `item_id` = 6981;
-UPDATE `etcitem` SET `name` ='製作卷軸(高級敏捷染料<Dex+2Str-2>100%)' WHERE `item_id` = 6982;
-UPDATE `etcitem` SET `name` ='製作卷軸(高級敏捷染料<Dex+2Con-2>100%)' WHERE `item_id` = 6983;
-UPDATE `etcitem` SET `name` ='製作卷軸(高級智力染料<Int+2Men-2>100%)' WHERE `item_id` = 6984;
-UPDATE `etcitem` SET `name` ='製作卷軸(高級智力染料<Int+2Wit-2>100%)' WHERE `item_id` = 6985;
-UPDATE `etcitem` SET `name` ='製作卷軸(高級精神染料<Men+2Int-2>100%)' WHERE `item_id` = 6986;
-UPDATE `etcitem` SET `name` ='製作卷軸(高級精神染料<Men+2Wit-2>100%)' WHERE `item_id` = 6987;
-UPDATE `etcitem` SET `name` ='製作卷軸(高級智慧染料<Wit+2Int-2>100%)' WHERE `item_id` = 6988;
-UPDATE `etcitem` SET `name` ='製作卷軸(高級智慧染料<Wit+2Men-2>100%)' WHERE `item_id` = 6989;
-UPDATE `etcitem` SET `name` ='製作卷軸(高級力量染料<Str+3Con-3>100%)' WHERE `item_id` = 6990;
-UPDATE `etcitem` SET `name` ='製作卷軸(高級力量染料<Str+3Dex-3>100%)' WHERE `item_id` = 6991;
-UPDATE `etcitem` SET `name` ='製作卷軸(高級體質染料<Con+3Str-3>100%)' WHERE `item_id` = 6992;
-UPDATE `etcitem` SET `name` ='製作卷軸(高級體質染料<Con+3Dex-3>100%)' WHERE `item_id` = 6993;
-UPDATE `etcitem` SET `name` ='製作卷軸(高級敏捷染料<Dex+3Str-3>100%)' WHERE `item_id` = 6994;
-UPDATE `etcitem` SET `name` ='製作卷軸(高級敏捷染料<Dex+3Con-3>100%)' WHERE `item_id` = 6995;
-UPDATE `etcitem` SET `name` ='製作卷軸(高級智力染料<Int+3Men-3>100%)' WHERE `item_id` = 6996;
-UPDATE `etcitem` SET `name` ='製作卷軸(高級智力染料<Int+3Wit-3>100%)' WHERE `item_id` = 6997;
-UPDATE `etcitem` SET `name` ='製作卷軸(高級精神染料<Men+3Int-3>100%)' WHERE `item_id` = 6998;
-UPDATE `etcitem` SET `name` ='製作卷軸(高級精神染料<Men+3Wit-3>100%)' WHERE `item_id` = 6999;
-UPDATE `etcitem` SET `name` ='製作卷軸(高級智慧染料<Wit+3Int-3>100%)' WHERE `item_id` = 7000;
-UPDATE `etcitem` SET `name` ='製作卷軸(高級智慧染料<Wit+3Men-3>100%)' WHERE `item_id` = 7001;
-UPDATE `etcitem` SET `name` ='製作卷軸(高級力量染料<Str+4Con-4>100%)' WHERE `item_id` = 7002;
-UPDATE `etcitem` SET `name` ='製作卷軸(高級力量染料<Str+4Dex-4>100%)' WHERE `item_id` = 7003;
-UPDATE `etcitem` SET `name` ='製作卷軸(高級體質染料<Con+4Str-4>100%)' WHERE `item_id` = 7004;
-UPDATE `etcitem` SET `name` ='製作卷軸(高級體質染料<Con+4Dex-4>100%)' WHERE `item_id` = 7005;
-UPDATE `etcitem` SET `name` ='製作卷軸(高級敏捷染料<Dex+4Str-4>100%)' WHERE `item_id` = 7006;
-UPDATE `etcitem` SET `name` ='製作卷軸(高級敏捷染料<Dex+4Con-4>100%)' WHERE `item_id` = 7007;
-UPDATE `etcitem` SET `name` ='製作卷軸(高級智力染料<Int+4Men-4>100%)' WHERE `item_id` = 7008;
-UPDATE `etcitem` SET `name` ='製作卷軸(高級智力染料<Int+4Wit-4>100%)' WHERE `item_id` = 7009;
-UPDATE `etcitem` SET `name` ='製作卷軸(高級精神染料<Men+4Int-4>100%)' WHERE `item_id` = 7010;
-UPDATE `etcitem` SET `name` ='製作卷軸(高級精神染料<Men+4Wit-4>100%)' WHERE `item_id` = 7011;
-UPDATE `etcitem` SET `name` ='製作卷軸(高級智慧染料<Wit+4Int-4>100%)' WHERE `item_id` = 7012;
-UPDATE `etcitem` SET `name` ='製作卷軸(高級智慧染料<Wit+4Men-4>100%)' WHERE `item_id` = 7013;
-UPDATE `etcitem` SET `name` ='藍色柯柏種子' WHERE `item_id` = 7016;
-UPDATE `etcitem` SET `name` ='藍色柯德朗種子' WHERE `item_id` = 7017;
-UPDATE `etcitem` SET `name` ='藍色柯德朗種子' WHERE `item_id` = 7018;
-UPDATE `etcitem` SET `name` ='冷氣柯柏種子' WHERE `item_id` = 7019;
-UPDATE `etcitem` SET `name` ='冷氣柯塔種子' WHERE `item_id` = 7020;
-UPDATE `etcitem` SET `name` ='冷氣柯德朗種子' WHERE `item_id` = 7021;
-UPDATE `etcitem` SET `name` ='冷氣柯德朗種子' WHERE `item_id` = 7022;
-UPDATE `etcitem` SET `name` ='沙漠柯德朗種子' WHERE `item_id` = 7023;
-UPDATE `etcitem` SET `name` ='沙漠柯德朗種子' WHERE `item_id` = 7024;
-UPDATE `etcitem` SET `name` ='金色柯柏種子' WHERE `item_id` = 7025;
-UPDATE `etcitem` SET `name` ='金色柯塔種子' WHERE `item_id` = 7026;
-UPDATE `etcitem` SET `name` ='巨大柯柏種子' WHERE `item_id` = 7027;
-UPDATE `etcitem` SET `name` ='巨大柯德朗種子' WHERE `item_id` = 7028;
-UPDATE `etcitem` SET `name` ='巨大柯德朗種子' WHERE `item_id` = 7029;
-UPDATE `etcitem` SET `name` ='改良藍色柯柏種子' WHERE `item_id` = 7030;
-UPDATE `etcitem` SET `name` ='改良藍色柯德朗種子' WHERE `item_id` = 7031;
-UPDATE `etcitem` SET `name` ='改良藍色柯德朗種子' WHERE `item_id` = 7032;
-UPDATE `etcitem` SET `name` ='改良冷氣柯柏種子' WHERE `item_id` = 7033;
-UPDATE `etcitem` SET `name` ='改良冷氣柯塔種子' WHERE `item_id` = 7034;
-UPDATE `etcitem` SET `name` ='改良冷氣柯德朗種子' WHERE `item_id` = 7035;
-UPDATE `etcitem` SET `name` ='改良冷氣柯德朗種子' WHERE `item_id` = 7036;
-UPDATE `etcitem` SET `name` ='改良沙漠柯德朗種子' WHERE `item_id` = 7037;
-UPDATE `etcitem` SET `name` ='改良沙漠柯德朗種子' WHERE `item_id` = 7038;
-UPDATE `etcitem` SET `name` ='改良金色柯柏種子' WHERE `item_id` = 7039;
-UPDATE `etcitem` SET `name` ='改良金色柯塔種子' WHERE `item_id` = 7040;
-UPDATE `etcitem` SET `name` ='改良巨大柯柏種子' WHERE `item_id` = 7041;
-UPDATE `etcitem` SET `name` ='改良巨大柯德朗種子' WHERE `item_id` = 7042;
-UPDATE `etcitem` SET `name` ='改良巨大柯德朗種子' WHERE `item_id` = 7043;
-UPDATE `etcitem` SET `name` ='改良紅色柯柏種子' WHERE `item_id` = 7044;
-UPDATE `etcitem` SET `name` ='改良紅色柯德朗種子' WHERE `item_id` = 7045;
-UPDATE `etcitem` SET `name` ='改良紅色柯德朗種子' WHERE `item_id` = 7046;
-UPDATE `etcitem` SET `name` ='改良海洋柯德朗種子' WHERE `item_id` = 7047;
-UPDATE `etcitem` SET `name` ='改良海洋柯德朗種子' WHERE `item_id` = 7048;
-UPDATE `etcitem` SET `name` ='改良海洋柯德朗種子' WHERE `item_id` = 7049;
-UPDATE `etcitem` SET `name` ='改良雙生柯德朗種子' WHERE `item_id` = 7050;
-UPDATE `etcitem` SET `name` ='紅色柯柏種子' WHERE `item_id` = 7051;
-UPDATE `etcitem` SET `name` ='紅色柯德朗種子' WHERE `item_id` = 7052;
-UPDATE `etcitem` SET `name` ='紅色柯德朗種子' WHERE `item_id` = 7053;
-UPDATE `etcitem` SET `name` ='海洋柯德朗種子' WHERE `item_id` = 7054;
-UPDATE `etcitem` SET `name` ='海洋柯德朗種子' WHERE `item_id` = 7055;
-UPDATE `etcitem` SET `name` ='海洋柯德朗種子' WHERE `item_id` = 7056;
-UPDATE `etcitem` SET `name` ='雙生柯德朗種子' WHERE `item_id` = 7057;
-UPDATE `etcitem` SET `name` ='回聲水晶-生日之歌' WHERE `item_id` = 7061;
-UPDATE `etcitem` SET `name` ='回聲水晶-婚禮之歌' WHERE `item_id` = 7062;
-UPDATE `etcitem` SET `name` ='地圖-亡者的森林' WHERE `item_id` = 7063;
-UPDATE `etcitem` SET `name` ='莉迪亞的日記' WHERE `item_id` = 7064;
-UPDATE `etcitem` SET `name` ='莉迪亞的信' WHERE `item_id` = 7065;
-UPDATE `etcitem` SET `name` ='契約書' WHERE `item_id` = 7066;
-UPDATE `etcitem` SET `name` ='特製魚餌1' WHERE `item_id` = 7067;
-UPDATE `etcitem` SET `name` ='特製魚餌2' WHERE `item_id` = 7068;
-UPDATE `etcitem` SET `name` ='特製魚餌3' WHERE `item_id` = 7069;
-UPDATE `etcitem` SET `name` ='特製魚餌4' WHERE `item_id` = 7070;
-UPDATE `etcitem` SET `name` ='特殊魚1' WHERE `item_id` = 7071;
-UPDATE `etcitem` SET `name` ='特殊魚2' WHERE `item_id` = 7072;
-UPDATE `etcitem` SET `name` ='特殊魚3' WHERE `item_id` = 7073;
-UPDATE `etcitem` SET `name` ='特殊魚4' WHERE `item_id` = 7074;
-UPDATE `etcitem` SET `name` ='陵墓通行證' WHERE `item_id` = 7075;
-UPDATE `etcitem` SET `name` ='神祕的布' WHERE `item_id` = 7076;
-UPDATE `etcitem` SET `name` ='寶石的箱子' WHERE `item_id` = 7077;
-UPDATE `etcitem` SET `name` ='針線盒' WHERE `item_id` = 7078;
-UPDATE `etcitem` SET `name` ='次元的碎片' WHERE `item_id` = 7079;
-UPDATE `etcitem` SET `name` ='冰晶' WHERE `item_id` = 7080;
-UPDATE `etcitem` SET `name` ='神聖的智慧之石' WHERE `item_id` = 7081;
-UPDATE `etcitem` SET `name` ='公會情報誌' WHERE `item_id` = 7082;
-UPDATE `etcitem` SET `name` ='公會情報誌' WHERE `item_id` = 7083;
-UPDATE `etcitem` SET `name` ='公會情報誌' WHERE `item_id` = 7084;
-UPDATE `etcitem` SET `name` ='公會情報誌' WHERE `item_id` = 7085;
-UPDATE `etcitem` SET `name` ='公會情報誌' WHERE `item_id` = 7086;
-UPDATE `etcitem` SET `name` ='破舊的書' WHERE `item_id` = 7087;
-UPDATE `etcitem` SET `name` ='破舊的書' WHERE `item_id` = 7088;
-UPDATE `etcitem` SET `name` ='破舊的書' WHERE `item_id` = 7089;
-UPDATE `etcitem` SET `name` ='破舊的書' WHERE `item_id` = 7090;
-UPDATE `etcitem` SET `name` ='公會情報誌' WHERE `item_id` = 7091;
-UPDATE `etcitem` SET `name` ='公會情報誌' WHERE `item_id` = 7092;
-UPDATE `etcitem` SET `name` ='墮落騎士的文件' WHERE `item_id` = 7093;
-UPDATE `etcitem` SET `name` ='世界樹守護者的文件' WHERE `item_id` = 7094;
-UPDATE `etcitem` SET `name` ='關於拜爾之歌的批判' WHERE `item_id` = 7095;
-UPDATE `etcitem` SET `name` ='劍聖艾伊恩的末路' WHERE `item_id` = 7096;
-UPDATE `etcitem` SET `name` ='關於白色羽翼軍團的考察' WHERE `item_id` = 7097;
-UPDATE `etcitem` SET `name` ='關於背叛者穆哈克的記錄' WHERE `item_id` = 7098;
-UPDATE `etcitem` SET `name` ='卡巴塔里的祕傳書' WHERE `item_id` = 7099;
-UPDATE `etcitem` SET `name` ='血統、關於此的珍貴性' WHERE `item_id` = 7100;
-UPDATE `etcitem` SET `name` ='英靈的附身、關於此的危險性' WHERE `item_id` = 7101;
-UPDATE `etcitem` SET `name` ='石碑的守護天使-上篇' WHERE `item_id` = 7102;
-UPDATE `etcitem` SET `name` ='石碑的守護天使-上篇' WHERE `item_id` = 7103;
-UPDATE `etcitem` SET `name` ='石碑的守護天使-上篇' WHERE `item_id` = 7104;
-UPDATE `etcitem` SET `name` ='石碑的守護天使-下篇' WHERE `item_id` = 7105;
-UPDATE `etcitem` SET `name` ='石碑的守護天使-下篇' WHERE `item_id` = 7106;
-UPDATE `etcitem` SET `name` ='石碑的守護天使-下篇' WHERE `item_id` = 7107;
-UPDATE `etcitem` SET `name` ='公會機密報告書' WHERE `item_id` = 7108;
-UPDATE `etcitem` SET `name` ='公會機密報告書' WHERE `item_id` = 7109;
-UPDATE `etcitem` SET `name` ='奇茲的研究日誌' WHERE `item_id` = 7110;
-UPDATE `etcitem` SET `name` ='拉帝斯的研究日誌' WHERE `item_id` = 7111;
-UPDATE `etcitem` SET `name` ='諾提斯的研究日誌' WHERE `item_id` = 7112;
-UPDATE `etcitem` SET `name` ='禮服鞋的箱子' WHERE `item_id` = 7113;
-UPDATE `etcitem` SET `name` ='折價券-野牛' WHERE `item_id` = 7114;
-UPDATE `etcitem` SET `name` ='折價券-老虎' WHERE `item_id` = 7115;
-UPDATE `etcitem` SET `name` ='折價券-笑翠鳥' WHERE `item_id` = 7116;
-UPDATE `etcitem` SET `name` ='返回卷軸-說話之島村莊' WHERE `item_id` = 7117;
-UPDATE `etcitem` SET `name` ='返回卷軸-精靈村莊' WHERE `item_id` = 7118;
-UPDATE `etcitem` SET `name` ='返回卷軸-黑暗精靈村莊' WHERE `item_id` = 7119;
-UPDATE `etcitem` SET `name` ='返回卷軸-半獸人村莊' WHERE `item_id` = 7120;
-UPDATE `etcitem` SET `name` ='返回卷軸-矮人村莊' WHERE `item_id` = 7121;
-UPDATE `etcitem` SET `name` ='返回卷軸-古魯丁村莊' WHERE `item_id` = 7122;
-UPDATE `etcitem` SET `name` ='返回卷軸-古魯丁城鎮' WHERE `item_id` = 7123;
-UPDATE `etcitem` SET `name` ='返回卷軸-狄恩城鎮' WHERE `item_id` = 7124;
-UPDATE `etcitem` SET `name` ='返回卷軸-芙羅蘭村莊' WHERE `item_id` = 7125;
-UPDATE `etcitem` SET `name` ='返回卷軸-奇岩城鎮' WHERE `item_id` = 7126;
-UPDATE `etcitem` SET `name` ='返回卷軸-哈汀學院' WHERE `item_id` = 7127;
-UPDATE `etcitem` SET `name` ='返回卷軸-水上都市海音斯' WHERE `item_id` = 7128;
-UPDATE `etcitem` SET `name` ='返回卷軸-歐瑞城鎮' WHERE `item_id` = 7129;
-UPDATE `etcitem` SET `name` ='返回卷軸-象牙塔' WHERE `item_id` = 7130;
-UPDATE `etcitem` SET `name` ='返回卷軸-獵人村莊' WHERE `item_id` = 7131;
-UPDATE `etcitem` SET `name` ='返回卷軸-亞丁城鎮' WHERE `item_id` = 7132;
-UPDATE `etcitem` SET `name` ='返回卷軸-高達特城鎮' WHERE `item_id` = 7133;
-UPDATE `etcitem` SET `name` ='返回卷軸-魯因城鎮' WHERE `item_id` = 7134;
-UPDATE `etcitem` SET `name` ='返回卷軸-修加特城鎮' WHERE `item_id` = 7135;
-UPDATE `etcitem` SET `name` ='水果籃' WHERE `item_id` = 7136;
-UPDATE `etcitem` SET `name` ='香料' WHERE `item_id` = 7137;
-UPDATE `etcitem` SET `name` ='蜂蜜袋子' WHERE `item_id` = 7138;
-UPDATE `etcitem` SET `name` ='里多蜥蜴人的手環' WHERE `item_id` = 7139;
-UPDATE `etcitem` SET `name` ='殷海薩聖徽' WHERE `item_id` = 7140;
-UPDATE `etcitem` SET `name` ='殷海薩聖徽' WHERE `item_id` = 7141;
-UPDATE `etcitem` SET `name` ='精靈的頭骨' WHERE `item_id` = 7142;
-UPDATE `etcitem` SET `name` ='大神官的信' WHERE `item_id` = 7143;
-UPDATE `etcitem` SET `name` ='冒險家的寶石' WHERE `item_id` = 7144;
-UPDATE `etcitem` SET `name` ='冒險家的寶石' WHERE `item_id` = 7145;
-UPDATE `etcitem` SET `name` ='封印報告書的箱子' WHERE `item_id` = 7146;
-UPDATE `etcitem` SET `name` ='報告書的箱子' WHERE `item_id` = 7147;
-UPDATE `etcitem` SET `name` ='莉迪亞的髮飾' WHERE `item_id` = 7148;
-UPDATE `etcitem` SET `name` ='銀槍鑰匙' WHERE `item_id` = 7149;
-UPDATE `etcitem` SET `name` ='銀槍' WHERE `item_id` = 7150;
-UPDATE `etcitem` SET `name` ='奇怪的圖騰娃娃' WHERE `item_id` = 7151;
-UPDATE `etcitem` SET `name` ='花' WHERE `item_id` = 7152;
-UPDATE `etcitem` SET `name` ='殷海薩聖徽' WHERE `item_id` = 7153;
-UPDATE `etcitem` SET `name` ='破裂的殷海薩聖徽' WHERE `item_id` = 7154;
-UPDATE `etcitem` SET `name` ='莉迪亞的禮服' WHERE `item_id` = 7155;
-UPDATE `etcitem` SET `name` ='奇怪的圖騰娃娃' WHERE `item_id` = 7156;
-UPDATE `etcitem` SET `name` ='寶石的鑰匙' WHERE `item_id` = 7157;
-UPDATE `etcitem` SET `name` ='奇怪的圖騰娃娃' WHERE `item_id` = 7158;
-UPDATE `etcitem` SET `name` ='餅乾禮品組' WHERE `item_id` = 7159;
-UPDATE `etcitem` SET `name` ='特製葡萄酒' WHERE `item_id` = 7160;
-UPDATE `etcitem` SET `name` ='紗線球' WHERE `item_id` = 7161;
-UPDATE `etcitem` SET `name` ='原石' WHERE `item_id` = 7162;
-UPDATE `etcitem` SET `name` ='強化鋼鐵片' WHERE `item_id` = 7163;
-UPDATE `etcitem` SET `name` ='世族的印章' WHERE `item_id` = 7164;
-UPDATE `etcitem` SET `name` ='地圖' WHERE `item_id` = 7165;
-UPDATE `etcitem` SET `name` ='藥草' WHERE `item_id` = 7166;
-UPDATE `etcitem` SET `name` ='封印晶體' WHERE `item_id` = 7167;
-UPDATE `etcitem` SET `name` ='聖者之血' WHERE `item_id` = 7168;
-UPDATE `etcitem` SET `name` ='聖者之血' WHERE `item_id` = 7169;
-UPDATE `etcitem` SET `name` ='光之印記' WHERE `item_id` = 7170;
-UPDATE `etcitem` SET `name` ='服從寶珠' WHERE `item_id` = 7171;
-UPDATE `etcitem` SET `name` ='聖者的舍利' WHERE `item_id` = 7172;
-UPDATE `etcitem` SET `name` ='戰士的羽飾' WHERE `item_id` = 7173;
-UPDATE `etcitem` SET `name` ='咒術之牙' WHERE `item_id` = 7174;
-UPDATE `etcitem` SET `name` ='龍之牙' WHERE `item_id` = 7175;
-UPDATE `etcitem` SET `name` ='理斯的信' WHERE `item_id` = 7176;
-UPDATE `etcitem` SET `name` ='若哈梅爾的信' WHERE `item_id` = 7177;
-UPDATE `etcitem` SET `name` ='黑骨護符項鍊' WHERE `item_id` = 7178;
-UPDATE `etcitem` SET `name` ='紅骨護符項鍊' WHERE `item_id` = 7179;
-UPDATE `etcitem` SET `name` ='疑問的香袋' WHERE `item_id` = 7180;
-UPDATE `etcitem` SET `name` ='五色珠' WHERE `item_id` = 7181;
-UPDATE `etcitem` SET `name` ='偵查隊的報告書' WHERE `item_id` = 7182;
-UPDATE `etcitem` SET `name` ='發亮的五色珠' WHERE `item_id` = 7183;
-UPDATE `etcitem` SET `name` ='發亮的紅色珠子' WHERE `item_id` = 7184;
-UPDATE `etcitem` SET `name` ='純粹的寶石' WHERE `item_id` = 7185;
-UPDATE `etcitem` SET `name` ='野牛的角' WHERE `item_id` = 7186;
-UPDATE `etcitem` SET `name` ='尼芬帝斯的種子' WHERE `item_id` = 7187;
-UPDATE `etcitem` SET `name` ='使徒的證據' WHERE `item_id` = 7188;
-UPDATE `etcitem` SET `name` ='黑暗之眼' WHERE `item_id` = 7189;
-UPDATE `etcitem` SET `name` ='黑暗的邪念' WHERE `item_id` = 7190;
-UPDATE `etcitem` SET `name` ='破裂的寶珠' WHERE `item_id` = 7191;
-UPDATE `etcitem` SET `name` ='未完成召喚的寶珠' WHERE `item_id` = 7192;
-UPDATE `etcitem` SET `name` ='召喚的寶珠' WHERE `item_id` = 7193;
-UPDATE `etcitem` SET `name` ='惡魔的精髓' WHERE `item_id` = 7194;
-UPDATE `etcitem` SET `name` ='蛋' WHERE `item_id` = 7195;
-UPDATE `etcitem` SET `name` ='蛋的償金' WHERE `item_id` = 7196;
-UPDATE `etcitem` SET `name` ='特產酒' WHERE `item_id` = 7197;
-UPDATE `etcitem` SET `name` ='特產酒的償金' WHERE `item_id` = 7198;
-UPDATE `etcitem` SET `name` ='芙拉瓦的葉子' WHERE `item_id` = 7199;
-UPDATE `etcitem` SET `name` ='野牛的肉' WHERE `item_id` = 7200;
-UPDATE `etcitem` SET `name` ='羚羊的角' WHERE `item_id` = 7201;
-UPDATE `etcitem` SET `name` ='尼芬帝斯的身體' WHERE `item_id` = 7202;
-UPDATE `etcitem` SET `name` ='班德斯那奇琳的腳底' WHERE `item_id` = 7203;
-UPDATE `etcitem` SET `name` ='祕傳的香料' WHERE `item_id` = 7204;
-UPDATE `etcitem` SET `name` ='醬油罈' WHERE `item_id` = 7205;
-UPDATE `etcitem` SET `name` ='配送的蛋' WHERE `item_id` = 7206;
-UPDATE `etcitem` SET `name` ='配送的特產酒' WHERE `item_id` = 7207;
-UPDATE `etcitem` SET `name` ='熱食的箱子' WHERE `item_id` = 7208;
-UPDATE `etcitem` SET `name` ='烏巴魯巴的食物' WHERE `item_id` = 7209;
-UPDATE `etcitem` SET `name` ='特製雪人肉' WHERE `item_id` = 7210;
-UPDATE `etcitem` SET `name` ='肯特拉的友好憑證-階段1' WHERE `item_id` = 7211;
-UPDATE `etcitem` SET `name` ='肯特拉的友好憑證-階段2' WHERE `item_id` = 7212;
-UPDATE `etcitem` SET `name` ='肯特拉的友好憑證-階段3' WHERE `item_id` = 7213;
-UPDATE `etcitem` SET `name` ='肯特拉的友好憑證-階段4' WHERE `item_id` = 7214;
-UPDATE `etcitem` SET `name` ='肯特拉的友好憑證-階段5' WHERE `item_id` = 7215;
-UPDATE `etcitem` SET `name` ='巴瑞卡的階級章-士兵' WHERE `item_id` = 7216;
-UPDATE `etcitem` SET `name` ='巴瑞卡的階級章-士官' WHERE `item_id` = 7217;
-UPDATE `etcitem` SET `name` ='巴瑞卡的階級章-軍官' WHERE `item_id` = 7218;
-UPDATE `etcitem` SET `name` ='勇猛的圖騰' WHERE `item_id` = 7219;
-UPDATE `etcitem` SET `name` ='智慧的圖騰' WHERE `item_id` = 7220;
-UPDATE `etcitem` SET `name` ='巴瑞卡的友好憑證-階段1' WHERE `item_id` = 7221;
-UPDATE `etcitem` SET `name` ='巴瑞卡的友好憑證-階段2' WHERE `item_id` = 7222;
-UPDATE `etcitem` SET `name` ='巴瑞卡的友好憑證-階段3' WHERE `item_id` = 7223;
-UPDATE `etcitem` SET `name` ='巴瑞卡的友好憑證-階段4' WHERE `item_id` = 7224;
-UPDATE `etcitem` SET `name` ='巴瑞卡的友好憑證-階段5' WHERE `item_id` = 7225;
-UPDATE `etcitem` SET `name` ='肯特拉的階級章-士兵' WHERE `item_id` = 7226;
-UPDATE `etcitem` SET `name` ='肯特拉的階級章-士官' WHERE `item_id` = 7227;
-UPDATE `etcitem` SET `name` ='肯特拉的階級章-軍官' WHERE `item_id` = 7228;
-UPDATE `etcitem` SET `name` ='勇猛的羽飾' WHERE `item_id` = 7229;
-UPDATE `etcitem` SET `name` ='智慧的羽飾' WHERE `item_id` = 7230;
-UPDATE `etcitem` SET `name` ='軍用品箱子' WHERE `item_id` = 7231;
-UPDATE `etcitem` SET `name` ='軍用品箱子' WHERE `item_id` = 7232;
-UPDATE `etcitem` SET `name` ='巴瑞卡賽勒諾斯的鬃毛' WHERE `item_id` = 7233;
-UPDATE `etcitem` SET `name` ='肯特拉獸人的牙' WHERE `item_id` = 7234;
-UPDATE `etcitem` SET `name` ='夏帝斯的頭' WHERE `item_id` = 7235;
-UPDATE `etcitem` SET `name` ='摩斯的頭' WHERE `item_id` = 7236;
-UPDATE `etcitem` SET `name` ='被竊的綠色圖騰' WHERE `item_id` = 7237;
-UPDATE `etcitem` SET `name` ='綠色圖騰' WHERE `item_id` = 7238;
-UPDATE `etcitem` SET `name` ='阿修塔爾的冰之心臟' WHERE `item_id` = 7239;
-UPDATE `etcitem` SET `name` ='黑卡頓的頭' WHERE `item_id` = 7240;
-UPDATE `etcitem` SET `name` ='泰爾的頭' WHERE `item_id` = 7241;
-UPDATE `etcitem` SET `name` ='被竊的紅色圖騰' WHERE `item_id` = 7242;
-UPDATE `etcitem` SET `name` ='紅色圖騰' WHERE `item_id` = 7243;
-UPDATE `etcitem` SET `name` ='那斯特倫的火焰心臟' WHERE `item_id` = 7244;
-UPDATE `etcitem` SET `name` ='補給品箱子' WHERE `item_id` = 7245;
-UPDATE `etcitem` SET `name` ='黃金羊的標誌-新兵' WHERE `item_id` = 7246;
-UPDATE `etcitem` SET `name` ='黃金羊的標誌-精銳兵' WHERE `item_id` = 7247;
-UPDATE `etcitem` SET `name` ='思布林特司塔卡拓的甲殼' WHERE `item_id` = 7248;
-UPDATE `etcitem` SET `name` ='尼多司塔卡拓的甲殼' WHERE `item_id` = 7249;
-UPDATE `etcitem` SET `name` ='司塔卡拓之爪' WHERE `item_id` = 7250;
-UPDATE `etcitem` SET `name` ='黃金羊的銅幣' WHERE `item_id` = 7251;
-UPDATE `etcitem` SET `name` ='克羅琳的日誌' WHERE `item_id` = 7252;
-UPDATE `etcitem` SET `name` ='考古學者的信' WHERE `item_id` = 7253;
-UPDATE `etcitem` SET `name` ='破裂的遺物碎片' WHERE `item_id` = 7254;
-UPDATE `etcitem` SET `name` ='封印的箱子' WHERE `item_id` = 7255;
-UPDATE `etcitem` SET `name` ='亞雷提雅的聖杯' WHERE `item_id` = 7256;
-UPDATE `etcitem` SET `name` ='帝夏思的聖杯' WHERE `item_id` = 7257;
-UPDATE `etcitem` SET `name` ='梅卡拉的聖杯' WHERE `item_id` = 7258;
-UPDATE `etcitem` SET `name` ='莫利格爾的聖杯' WHERE `item_id` = 7259;
-UPDATE `etcitem` SET `name` ='禮拜堂的鑰匙' WHERE `item_id` = 7260;
-UPDATE `etcitem` SET `name` ='使用過的陵墓通行證' WHERE `item_id` = 7261;
-UPDATE `etcitem` SET `name` ='破舊的胸針' WHERE `item_id` = 7262;
-UPDATE `etcitem` SET `name` ='給沃爾昆的行李' WHERE `item_id` = 7263;
-UPDATE `etcitem` SET `name` ='火炬' WHERE `item_id` = 7264;
-UPDATE `etcitem` SET `name` ='巴庫艾力特的原石' WHERE `item_id` = 7265;
-UPDATE `etcitem` SET `name` ='巴庫艾力特' WHERE `item_id` = 7266;
-UPDATE `etcitem` SET `name` ='浮游石-單次用' WHERE `item_id` = 7267;
-UPDATE `etcitem` SET `name` ='祕傳的交感石' WHERE `item_id` = 7268;
-UPDATE `etcitem` SET `name` ='祕傳的交感石' WHERE `item_id` = 7269;
-UPDATE `etcitem` SET `name` ='祕傳的交感石' WHERE `item_id` = 7270;
-UPDATE `etcitem` SET `name` ='祕傳的交感石' WHERE `item_id` = 7271;
-UPDATE `etcitem` SET `name` ='祕傳的交感石' WHERE `item_id` = 7272;
-UPDATE `etcitem` SET `name` ='祕傳的交感石' WHERE `item_id` = 7273;
-UPDATE `etcitem` SET `name` ='祕傳的交感石' WHERE `item_id` = 7274;
-UPDATE `etcitem` SET `name` ='祕傳的交感石' WHERE `item_id` = 7275;
-UPDATE `etcitem` SET `name` ='祕傳的交感石' WHERE `item_id` = 7276;
-UPDATE `etcitem` SET `name` ='祕傳的交感石' WHERE `item_id` = 7277;
-UPDATE `etcitem` SET `name` ='祕傳的交感石' WHERE `item_id` = 7278;
-UPDATE `etcitem` SET `name` ='祕傳的交感石' WHERE `item_id` = 7279;
-UPDATE `etcitem` SET `name` ='祕傳的交感石' WHERE `item_id` = 7280;
-UPDATE `etcitem` SET `name` ='祕傳的交感石' WHERE `item_id` = 7281;
-UPDATE `etcitem` SET `name` ='祕傳的交感石' WHERE `item_id` = 7282;
-UPDATE `etcitem` SET `name` ='祕傳的交感石' WHERE `item_id` = 7283;
-UPDATE `etcitem` SET `name` ='祕傳的交感石' WHERE `item_id` = 7284;
-UPDATE `etcitem` SET `name` ='祕傳的交感石' WHERE `item_id` = 7285;
-UPDATE `etcitem` SET `name` ='祕傳的交感石' WHERE `item_id` = 7286;
-UPDATE `etcitem` SET `name` ='祕傳的交感石' WHERE `item_id` = 7287;
-UPDATE `etcitem` SET `name` ='祕傳的交感石' WHERE `item_id` = 7288;
-UPDATE `etcitem` SET `name` ='祕傳的交感石' WHERE `item_id` = 7289;
-UPDATE `etcitem` SET `name` ='祕傳的交感石' WHERE `item_id` = 7290;
-UPDATE `etcitem` SET `name` ='祕傳的交感石' WHERE `item_id` = 7291;
-UPDATE `etcitem` SET `name` ='祕傳的交感石' WHERE `item_id` = 7292;
-UPDATE `etcitem` SET `name` ='祕傳的交感石' WHERE `item_id` = 7293;
-UPDATE `etcitem` SET `name` ='祕傳的交感石' WHERE `item_id` = 7294;
-UPDATE `etcitem` SET `name` ='祕傳的交感石' WHERE `item_id` = 7295;
-UPDATE `etcitem` SET `name` ='祕傳的交感石' WHERE `item_id` = 7296;
-UPDATE `etcitem` SET `name` ='祕傳的交感石' WHERE `item_id` = 7297;
-UPDATE `etcitem` SET `name` ='祕傳的交感石' WHERE `item_id` = 7298;
-UPDATE `etcitem` SET `name` ='祕傳的交感石-二回' WHERE `item_id` = 7299;
-UPDATE `etcitem` SET `name` ='祕傳的交感石-二回' WHERE `item_id` = 7300;
-UPDATE `etcitem` SET `name` ='祕傳的交感石-二回' WHERE `item_id` = 7301;
-UPDATE `etcitem` SET `name` ='祕傳的交感石-二回' WHERE `item_id` = 7302;
-UPDATE `etcitem` SET `name` ='祕傳的交感石-二回' WHERE `item_id` = 7303;
-UPDATE `etcitem` SET `name` ='祕傳的交感石-二回' WHERE `item_id` = 7304;
-UPDATE `etcitem` SET `name` ='祕傳的交感石-二回' WHERE `item_id` = 7305;
-UPDATE `etcitem` SET `name` ='祕傳的交感石-二回' WHERE `item_id` = 7306;
-UPDATE `etcitem` SET `name` ='祕傳的交感石-二回' WHERE `item_id` = 7307;
-UPDATE `etcitem` SET `name` ='祕傳的交感石-二回' WHERE `item_id` = 7308;
-UPDATE `etcitem` SET `name` ='祕傳的交感石-二回' WHERE `item_id` = 7309;
-UPDATE `etcitem` SET `name` ='祕傳的交感石-二回' WHERE `item_id` = 7310;
-UPDATE `etcitem` SET `name` ='祕傳的交感石-二回' WHERE `item_id` = 7311;
-UPDATE `etcitem` SET `name` ='祕傳的交感石-二回' WHERE `item_id` = 7312;
-UPDATE `etcitem` SET `name` ='祕傳的交感石-二回' WHERE `item_id` = 7313;
-UPDATE `etcitem` SET `name` ='祕傳的交感石-二回' WHERE `item_id` = 7314;
-UPDATE `etcitem` SET `name` ='祕傳的交感石-二回' WHERE `item_id` = 7315;
-UPDATE `etcitem` SET `name` ='祕傳的交感石-二回' WHERE `item_id` = 7316;
-UPDATE `etcitem` SET `name` ='祕傳的交感石-二回' WHERE `item_id` = 7317;
-UPDATE `etcitem` SET `name` ='祕傳的交感石-二回' WHERE `item_id` = 7318;
-UPDATE `etcitem` SET `name` ='祕傳的交感石-二回' WHERE `item_id` = 7319;
-UPDATE `etcitem` SET `name` ='祕傳的交感石-二回' WHERE `item_id` = 7320;
-UPDATE `etcitem` SET `name` ='祕傳的交感石-二回' WHERE `item_id` = 7321;
-UPDATE `etcitem` SET `name` ='祕傳的交感石-二回' WHERE `item_id` = 7322;
-UPDATE `etcitem` SET `name` ='祕傳的交感石-二回' WHERE `item_id` = 7323;
-UPDATE `etcitem` SET `name` ='祕傳的交感石-二回' WHERE `item_id` = 7324;
-UPDATE `etcitem` SET `name` ='祕傳的交感石-二回' WHERE `item_id` = 7325;
-UPDATE `etcitem` SET `name` ='祕傳的交感石-二回' WHERE `item_id` = 7326;
-UPDATE `etcitem` SET `name` ='祕傳的交感石-二回' WHERE `item_id` = 7327;
-UPDATE `etcitem` SET `name` ='祕傳的交感石-二回' WHERE `item_id` = 7328;
-UPDATE `etcitem` SET `name` ='祕傳的交感石-二回' WHERE `item_id` = 7329;
-UPDATE `etcitem` SET `name` ='祕傳的交感石-三回' WHERE `item_id` = 7330;
-UPDATE `etcitem` SET `name` ='祕傳的交感石-三回' WHERE `item_id` = 7331;
-UPDATE `etcitem` SET `name` ='祕傳的交感石-三回' WHERE `item_id` = 7332;
-UPDATE `etcitem` SET `name` ='祕傳的交感石-三回' WHERE `item_id` = 7333;
-UPDATE `etcitem` SET `name` ='祕傳的交感石-三回' WHERE `item_id` = 7334;
-UPDATE `etcitem` SET `name` ='祕傳的交感石-三回' WHERE `item_id` = 7335;
-UPDATE `etcitem` SET `name` ='祕傳的交感石-三回' WHERE `item_id` = 7336;
-UPDATE `etcitem` SET `name` ='祕傳的交感石-三回' WHERE `item_id` = 7337;
-UPDATE `etcitem` SET `name` ='祕傳的交感石-三回' WHERE `item_id` = 7338;
-UPDATE `etcitem` SET `name` ='祕傳的交感石-三回' WHERE `item_id` = 7339;
-UPDATE `etcitem` SET `name` ='祕傳的交感石-三回' WHERE `item_id` = 7340;
-UPDATE `etcitem` SET `name` ='祕傳的交感石-三回' WHERE `item_id` = 7341;
-UPDATE `etcitem` SET `name` ='祕傳的交感石-三回' WHERE `item_id` = 7342;
-UPDATE `etcitem` SET `name` ='祕傳的交感石-三回' WHERE `item_id` = 7343;
-UPDATE `etcitem` SET `name` ='祕傳的交感石-三回' WHERE `item_id` = 7344;
-UPDATE `etcitem` SET `name` ='祕傳的交感石-三回' WHERE `item_id` = 7345;
-UPDATE `etcitem` SET `name` ='祕傳的交感石-三回' WHERE `item_id` = 7346;
-UPDATE `etcitem` SET `name` ='祕傳的交感石-三回' WHERE `item_id` = 7347;
-UPDATE `etcitem` SET `name` ='祕傳的交感石-三回' WHERE `item_id` = 7348;
-UPDATE `etcitem` SET `name` ='祕傳的交感石-三回' WHERE `item_id` = 7349;
-UPDATE `etcitem` SET `name` ='祕傳的交感石-三回' WHERE `item_id` = 7350;
-UPDATE `etcitem` SET `name` ='祕傳的交感石-三回' WHERE `item_id` = 7351;
-UPDATE `etcitem` SET `name` ='祕傳的交感石-三回' WHERE `item_id` = 7352;
-UPDATE `etcitem` SET `name` ='祕傳的交感石-三回' WHERE `item_id` = 7353;
-UPDATE `etcitem` SET `name` ='祕傳的交感石-三回' WHERE `item_id` = 7354;
-UPDATE `etcitem` SET `name` ='祕傳的交感石-三回' WHERE `item_id` = 7355;
-UPDATE `etcitem` SET `name` ='祕傳的交感石-三回' WHERE `item_id` = 7356;
-UPDATE `etcitem` SET `name` ='祕傳的交感石-三回' WHERE `item_id` = 7357;
-UPDATE `etcitem` SET `name` ='祕傳的交感石-三回' WHERE `item_id` = 7358;
-UPDATE `etcitem` SET `name` ='祕傳的交感石-三回' WHERE `item_id` = 7359;
-UPDATE `etcitem` SET `name` ='祕傳的交感石-三回' WHERE `item_id` = 7360;
-UPDATE `etcitem` SET `name` ='祕傳的交感石-四回' WHERE `item_id` = 7361;
-UPDATE `etcitem` SET `name` ='祕傳的交感石-四回' WHERE `item_id` = 7362;
-UPDATE `etcitem` SET `name` ='祕傳的交感石-四回' WHERE `item_id` = 7363;
-UPDATE `etcitem` SET `name` ='祕傳的交感石-四回' WHERE `item_id` = 7364;
-UPDATE `etcitem` SET `name` ='祕傳的交感石-四回' WHERE `item_id` = 7365;
-UPDATE `etcitem` SET `name` ='祕傳的交感石-四回' WHERE `item_id` = 7366;
-UPDATE `etcitem` SET `name` ='祕傳的交感石-四回' WHERE `item_id` = 7367;
-UPDATE `etcitem` SET `name` ='祕傳的交感石-四回' WHERE `item_id` = 7368;
-UPDATE `etcitem` SET `name` ='祕傳的交感石-四回' WHERE `item_id` = 7369;
-UPDATE `etcitem` SET `name` ='祕傳的交感石-四回' WHERE `item_id` = 7370;
-UPDATE `etcitem` SET `name` ='祕傳的交感石-四回' WHERE `item_id` = 7371;
-UPDATE `etcitem` SET `name` ='祕傳的交感石-四回' WHERE `item_id` = 7372;
-UPDATE `etcitem` SET `name` ='祕傳的交感石-四回' WHERE `item_id` = 7373;
-UPDATE `etcitem` SET `name` ='祕傳的交感石-四回' WHERE `item_id` = 7374;
-UPDATE `etcitem` SET `name` ='祕傳的交感石-四回' WHERE `item_id` = 7375;
-UPDATE `etcitem` SET `name` ='祕傳的交感石-四回' WHERE `item_id` = 7376;
-UPDATE `etcitem` SET `name` ='祕傳的交感石-四回' WHERE `item_id` = 7377;
-UPDATE `etcitem` SET `name` ='祕傳的交感石-四回' WHERE `item_id` = 7378;
-UPDATE `etcitem` SET `name` ='祕傳的交感石-四回' WHERE `item_id` = 7379;
-UPDATE `etcitem` SET `name` ='祕傳的交感石-四回' WHERE `item_id` = 7380;
-UPDATE `etcitem` SET `name` ='祕傳的交感石-四回' WHERE `item_id` = 7381;
-UPDATE `etcitem` SET `name` ='祕傳的交感石-四回' WHERE `item_id` = 7382;
-UPDATE `etcitem` SET `name` ='祕傳的交感石-四回' WHERE `item_id` = 7383;
-UPDATE `etcitem` SET `name` ='祕傳的交感石-四回' WHERE `item_id` = 7384;
-UPDATE `etcitem` SET `name` ='祕傳的交感石-四回' WHERE `item_id` = 7385;
-UPDATE `etcitem` SET `name` ='祕傳的交感石-四回' WHERE `item_id` = 7386;
-UPDATE `etcitem` SET `name` ='祕傳的交感石-四回' WHERE `item_id` = 7387;
-UPDATE `etcitem` SET `name` ='祕傳的交感石-四回' WHERE `item_id` = 7388;
-UPDATE `etcitem` SET `name` ='祕傳的交感石-四回' WHERE `item_id` = 7389;
-UPDATE `etcitem` SET `name` ='祕傳的交感石-四回' WHERE `item_id` = 7390;
-UPDATE `etcitem` SET `name` ='祕傳的交感石-四回' WHERE `item_id` = 7391;
-UPDATE `etcitem` SET `name` ='祕傳的交感石-五回' WHERE `item_id` = 7392;
-UPDATE `etcitem` SET `name` ='祕傳的交感石-五回' WHERE `item_id` = 7393;
-UPDATE `etcitem` SET `name` ='祕傳的交感石-五回' WHERE `item_id` = 7394;
-UPDATE `etcitem` SET `name` ='祕傳的交感石-五回' WHERE `item_id` = 7395;
-UPDATE `etcitem` SET `name` ='祕傳的交感石-五回' WHERE `item_id` = 7396;
-UPDATE `etcitem` SET `name` ='祕傳的交感石-五回' WHERE `item_id` = 7397;
-UPDATE `etcitem` SET `name` ='祕傳的交感石-五回' WHERE `item_id` = 7398;
-UPDATE `etcitem` SET `name` ='祕傳的交感石-五回' WHERE `item_id` = 7399;
-UPDATE `etcitem` SET `name` ='祕傳的交感石-五回' WHERE `item_id` = 7400;
-UPDATE `etcitem` SET `name` ='祕傳的交感石-五回' WHERE `item_id` = 7401;
-UPDATE `etcitem` SET `name` ='祕傳的交感石-五回' WHERE `item_id` = 7402;
-UPDATE `etcitem` SET `name` ='祕傳的交感石-五回' WHERE `item_id` = 7403;
-UPDATE `etcitem` SET `name` ='祕傳的交感石-五回' WHERE `item_id` = 7404;
-UPDATE `etcitem` SET `name` ='祕傳的交感石-五回' WHERE `item_id` = 7405;
-UPDATE `etcitem` SET `name` ='祕傳的交感石-五回' WHERE `item_id` = 7406;
-UPDATE `etcitem` SET `name` ='祕傳的交感石-五回' WHERE `item_id` = 7407;
-UPDATE `etcitem` SET `name` ='祕傳的交感石-五回' WHERE `item_id` = 7408;
-UPDATE `etcitem` SET `name` ='祕傳的交感石-五回' WHERE `item_id` = 7409;
-UPDATE `etcitem` SET `name` ='祕傳的交感石-五回' WHERE `item_id` = 7410;
-UPDATE `etcitem` SET `name` ='祕傳的交感石-五回' WHERE `item_id` = 7411;
-UPDATE `etcitem` SET `name` ='祕傳的交感石-五回' WHERE `item_id` = 7412;
-UPDATE `etcitem` SET `name` ='祕傳的交感石-五回' WHERE `item_id` = 7413;
-UPDATE `etcitem` SET `name` ='祕傳的交感石-五回' WHERE `item_id` = 7414;
-UPDATE `etcitem` SET `name` ='祕傳的交感石-五回' WHERE `item_id` = 7415;
-UPDATE `etcitem` SET `name` ='祕傳的交感石-五回' WHERE `item_id` = 7416;
-UPDATE `etcitem` SET `name` ='祕傳的交感石-五回' WHERE `item_id` = 7417;
-UPDATE `etcitem` SET `name` ='祕傳的交感石-五回' WHERE `item_id` = 7418;
-UPDATE `etcitem` SET `name` ='祕傳的交感石-五回' WHERE `item_id` = 7419;
-UPDATE `etcitem` SET `name` ='祕傳的交感石-五回' WHERE `item_id` = 7420;
-UPDATE `etcitem` SET `name` ='祕傳的交感石-五回' WHERE `item_id` = 7421;
-UPDATE `etcitem` SET `name` ='祕傳的交感石-五回' WHERE `item_id` = 7422;
-UPDATE `etcitem` SET `name` ='祕傳的交感石-六回' WHERE `item_id` = 7423;
-UPDATE `etcitem` SET `name` ='祕傳的交感石-六回' WHERE `item_id` = 7424;
-UPDATE `etcitem` SET `name` ='祕傳的交感石-六回' WHERE `item_id` = 7425;
-UPDATE `etcitem` SET `name` ='祕傳的交感石-六回' WHERE `item_id` = 7426;
-UPDATE `etcitem` SET `name` ='祕傳的交感石-六回' WHERE `item_id` = 7427;
-UPDATE `etcitem` SET `name` ='祕傳的交感石-六回' WHERE `item_id` = 7428;
-UPDATE `etcitem` SET `name` ='祕傳的交感石-六回' WHERE `item_id` = 7429;
-UPDATE `etcitem` SET `name` ='祕傳的交感石-六回' WHERE `item_id` = 7430;
-UPDATE `etcitem` SET `name` ='祕傳的交感石-六回' WHERE `item_id` = 7431;
-UPDATE `etcitem` SET `name` ='祕傳的交感石-六回' WHERE `item_id` = 7432;
-UPDATE `etcitem` SET `name` ='祕傳的交感石-六回' WHERE `item_id` = 7433;
-UPDATE `etcitem` SET `name` ='祕傳的交感石-六回' WHERE `item_id` = 7434;
-UPDATE `etcitem` SET `name` ='祕傳的交感石-六回' WHERE `item_id` = 7435;
-UPDATE `etcitem` SET `name` ='祕傳的交感石-六回' WHERE `item_id` = 7436;
-UPDATE `etcitem` SET `name` ='祕傳的交感石-六回' WHERE `item_id` = 7437;
-UPDATE `etcitem` SET `name` ='祕傳的交感石-六回' WHERE `item_id` = 7438;
-UPDATE `etcitem` SET `name` ='祕傳的交感石-六回' WHERE `item_id` = 7439;
-UPDATE `etcitem` SET `name` ='祕傳的交感石-六回' WHERE `item_id` = 7440;
-UPDATE `etcitem` SET `name` ='祕傳的交感石-六回' WHERE `item_id` = 7441;
-UPDATE `etcitem` SET `name` ='祕傳的交感石-六回' WHERE `item_id` = 7442;
-UPDATE `etcitem` SET `name` ='祕傳的交感石-六回' WHERE `item_id` = 7443;
-UPDATE `etcitem` SET `name` ='祕傳的交感石-六回' WHERE `item_id` = 7444;
-UPDATE `etcitem` SET `name` ='祕傳的交感石-六回' WHERE `item_id` = 7445;
-UPDATE `etcitem` SET `name` ='祕傳的交感石-六回' WHERE `item_id` = 7446;
-UPDATE `etcitem` SET `name` ='祕傳的交感石-六回' WHERE `item_id` = 7447;
-UPDATE `etcitem` SET `name` ='祕傳的交感石-六回' WHERE `item_id` = 7448;
-UPDATE `etcitem` SET `name` ='祕傳的交感石-六回' WHERE `item_id` = 7449;
-UPDATE `etcitem` SET `name` ='祕傳的交感石-六回' WHERE `item_id` = 7450;
-UPDATE `etcitem` SET `name` ='祕傳的交感石-六回' WHERE `item_id` = 7451;
-UPDATE `etcitem` SET `name` ='祕傳的交感石-六回' WHERE `item_id` = 7452;
-UPDATE `etcitem` SET `name` ='祕傳的交感石-六回' WHERE `item_id` = 7453;
-UPDATE `etcitem` SET `name` ='祕傳的交感石-七回' WHERE `item_id` = 7454;
-UPDATE `etcitem` SET `name` ='祕傳的交感石-七回' WHERE `item_id` = 7455;
-UPDATE `etcitem` SET `name` ='祕傳的交感石-七回' WHERE `item_id` = 7456;
-UPDATE `etcitem` SET `name` ='祕傳的交感石-七回' WHERE `item_id` = 7457;
-UPDATE `etcitem` SET `name` ='祕傳的交感石-七回' WHERE `item_id` = 7458;
-UPDATE `etcitem` SET `name` ='祕傳的交感石-七回' WHERE `item_id` = 7459;
-UPDATE `etcitem` SET `name` ='祕傳的交感石-七回' WHERE `item_id` = 7460;
-UPDATE `etcitem` SET `name` ='祕傳的交感石-七回' WHERE `item_id` = 7461;
-UPDATE `etcitem` SET `name` ='祕傳的交感石-七回' WHERE `item_id` = 7462;
-UPDATE `etcitem` SET `name` ='祕傳的交感石-七回' WHERE `item_id` = 7463;
-UPDATE `etcitem` SET `name` ='祕傳的交感石-七回' WHERE `item_id` = 7464;
-UPDATE `etcitem` SET `name` ='祕傳的交感石-七回' WHERE `item_id` = 7465;
-UPDATE `etcitem` SET `name` ='祕傳的交感石-七回' WHERE `item_id` = 7466;
-UPDATE `etcitem` SET `name` ='祕傳的交感石-七回' WHERE `item_id` = 7467;
-UPDATE `etcitem` SET `name` ='祕傳的交感石-七回' WHERE `item_id` = 7468;
-UPDATE `etcitem` SET `name` ='祕傳的交感石-七回' WHERE `item_id` = 7469;
-UPDATE `etcitem` SET `name` ='祕傳的交感石-七回' WHERE `item_id` = 7470;
-UPDATE `etcitem` SET `name` ='祕傳的交感石-七回' WHERE `item_id` = 7471;
-UPDATE `etcitem` SET `name` ='祕傳的交感石-七回' WHERE `item_id` = 7472;
-UPDATE `etcitem` SET `name` ='祕傳的交感石-七回' WHERE `item_id` = 7473;
-UPDATE `etcitem` SET `name` ='祕傳的交感石-七回' WHERE `item_id` = 7474;
-UPDATE `etcitem` SET `name` ='祕傳的交感石-七回' WHERE `item_id` = 7475;
-UPDATE `etcitem` SET `name` ='祕傳的交感石-七回' WHERE `item_id` = 7476;
-UPDATE `etcitem` SET `name` ='祕傳的交感石-七回' WHERE `item_id` = 7477;
-UPDATE `etcitem` SET `name` ='祕傳的交感石-七回' WHERE `item_id` = 7478;
-UPDATE `etcitem` SET `name` ='祕傳的交感石-七回' WHERE `item_id` = 7479;
-UPDATE `etcitem` SET `name` ='祕傳的交感石-七回' WHERE `item_id` = 7480;
-UPDATE `etcitem` SET `name` ='祕傳的交感石-七回' WHERE `item_id` = 7481;
-UPDATE `etcitem` SET `name` ='祕傳的交感石-七回' WHERE `item_id` = 7482;
-UPDATE `etcitem` SET `name` ='祕傳的交感石-七回' WHERE `item_id` = 7483;
-UPDATE `etcitem` SET `name` ='祕傳的交感石-七回' WHERE `item_id` = 7484;
-UPDATE `etcitem` SET `name` ='哈里夏標章' WHERE `item_id` = 7485;
-UPDATE `etcitem` SET `name` ='哈里夏標章' WHERE `item_id` = 7486;
-UPDATE `etcitem` SET `name` ='哈里夏標章' WHERE `item_id` = 7487;
-UPDATE `etcitem` SET `name` ='哈里夏標章' WHERE `item_id` = 7488;
-UPDATE `etcitem` SET `name` ='哈里夏標章' WHERE `item_id` = 7489;
-UPDATE `etcitem` SET `name` ='哈里夏標章' WHERE `item_id` = 7490;
-UPDATE `etcitem` SET `name` ='哈里夏標章' WHERE `item_id` = 7491;
-UPDATE `etcitem` SET `name` ='哈里夏標章' WHERE `item_id` = 7492;
-UPDATE `etcitem` SET `name` ='哈里夏標章' WHERE `item_id` = 7493;
-UPDATE `etcitem` SET `name` ='哈里夏標章' WHERE `item_id` = 7494;
-UPDATE `etcitem` SET `name` ='哈里夏標章' WHERE `item_id` = 7495;
-UPDATE `etcitem` SET `name` ='哈里夏標章' WHERE `item_id` = 7496;
-UPDATE `etcitem` SET `name` ='哈里夏標章' WHERE `item_id` = 7497;
-UPDATE `etcitem` SET `name` ='哈里夏標章' WHERE `item_id` = 7498;
-UPDATE `etcitem` SET `name` ='哈里夏標章' WHERE `item_id` = 7499;
-UPDATE `etcitem` SET `name` ='哈里夏標章' WHERE `item_id` = 7500;
-UPDATE `etcitem` SET `name` ='哈里夏標章' WHERE `item_id` = 7501;
-UPDATE `etcitem` SET `name` ='哈里夏標章' WHERE `item_id` = 7502;
-UPDATE `etcitem` SET `name` ='哈里夏標章' WHERE `item_id` = 7503;
-UPDATE `etcitem` SET `name` ='哈里夏標章' WHERE `item_id` = 7504;
-UPDATE `etcitem` SET `name` ='哈里夏標章' WHERE `item_id` = 7505;
-UPDATE `etcitem` SET `name` ='哈里夏標章' WHERE `item_id` = 7506;
-UPDATE `etcitem` SET `name` ='哈里夏標章' WHERE `item_id` = 7507;
-UPDATE `etcitem` SET `name` ='哈里夏標章' WHERE `item_id` = 7508;
-UPDATE `etcitem` SET `name` ='哈里夏標章' WHERE `item_id` = 7509;
-UPDATE `etcitem` SET `name` ='哈里夏標章' WHERE `item_id` = 7510;
-UPDATE `etcitem` SET `name` ='哈里夏標章' WHERE `item_id` = 7511;
-UPDATE `etcitem` SET `name` ='哈里夏標章' WHERE `item_id` = 7512;
-UPDATE `etcitem` SET `name` ='哈里夏標章' WHERE `item_id` = 7513;
-UPDATE `etcitem` SET `name` ='哈里夏標章' WHERE `item_id` = 7514;
-UPDATE `etcitem` SET `name` ='哈里夏標章' WHERE `item_id` = 7515;
-UPDATE `etcitem` SET `name` ='冰柱' WHERE `item_id` = 7516;
-UPDATE `etcitem` SET `name` ='多拿斯的料理' WHERE `item_id` = 7517;
-UPDATE `etcitem` SET `name` ='多拿斯的料理筆記之一' WHERE `item_id` = 7518;
-UPDATE `etcitem` SET `name` ='刨冰' WHERE `item_id` = 7519;
-UPDATE `etcitem` SET `name` ='冰淇淋' WHERE `item_id` = 7520;
-UPDATE `etcitem` SET `name` ='冰晶寶石' WHERE `item_id` = 7521;
-UPDATE `etcitem` SET `name` ='貢物' WHERE `item_id` = 7522;
-UPDATE `etcitem` SET `name` ='貢物' WHERE `item_id` = 7523;
-UPDATE `etcitem` SET `name` ='貢物' WHERE `item_id` = 7524;
-UPDATE `etcitem` SET `name` ='貢物' WHERE `item_id` = 7525;
-UPDATE `etcitem` SET `name` ='古代辭典' WHERE `item_id` = 7526;
-UPDATE `etcitem` SET `name` ='古代辭典' WHERE `item_id` = 7527;
-UPDATE `etcitem` SET `name` ='噴口' WHERE `item_id` = 7528;
-UPDATE `etcitem` SET `name` ='調查報告書' WHERE `item_id` = 7529;
-UPDATE `etcitem` SET `name` ='調查報告書' WHERE `item_id` = 7530;
-UPDATE `etcitem` SET `name` ='調查報告書' WHERE `item_id` = 7531;
-UPDATE `etcitem` SET `name` ='調查報告書' WHERE `item_id` = 7532;
-UPDATE `etcitem` SET `name` ='調查報告書' WHERE `item_id` = 7533;
-UPDATE `etcitem` SET `name` ='冰晶花' WHERE `item_id` = 7534;
-UPDATE `etcitem` SET `name` ='純粹的冰晶' WHERE `item_id` = 7535;
-UPDATE `etcitem` SET `name` ='絕對零度的啤酒' WHERE `item_id` = 7536;
-UPDATE `etcitem` SET `name` ='豪華的晚餐' WHERE `item_id` = 7537;
-UPDATE `etcitem` SET `name` ='營養的魚湯' WHERE `item_id` = 7538;
-UPDATE `etcitem` SET `name` ='絕對零度的伏特加' WHERE `item_id` = 7539;
-UPDATE `etcitem` SET `name` ='銀水晶' WHERE `item_id` = 7540;
-UPDATE `etcitem` SET `name` ='紅水晶' WHERE `item_id` = 7541;
-UPDATE `etcitem` SET `name` ='吸血鬼的心臟' WHERE `item_id` = 7542;
-UPDATE `etcitem` SET `name` ='死者的腦' WHERE `item_id` = 7543;
-UPDATE `etcitem` SET `name` ='黑魔導士的肋骨' WHERE `item_id` = 7544;
-UPDATE `etcitem` SET `name` ='死者的肝' WHERE `item_id` = 7545;
-UPDATE `etcitem` SET `name` ='高級鮮肉' WHERE `item_id` = 7546;
-UPDATE `etcitem` SET `name` ='幼獸鮮肉' WHERE `item_id` = 7547;
-UPDATE `etcitem` SET `name` ='地圖碎片' WHERE `item_id` = 7548;
-UPDATE `etcitem` SET `name` ='黃色地圖' WHERE `item_id` = 7549;
-UPDATE `etcitem` SET `name` ='地圖碎片' WHERE `item_id` = 7550;
-UPDATE `etcitem` SET `name` ='象牙白地圖' WHERE `item_id` = 7551;
-UPDATE `etcitem` SET `name` ='破碎的寶石碎片' WHERE `item_id` = 7552;
-UPDATE `etcitem` SET `name` ='金光寶石' WHERE `item_id` = 7553;
-UPDATE `etcitem` SET `name` ='說話之島村莊回歸卷軸' WHERE `item_id` = 7554;
-UPDATE `etcitem` SET `name` ='精靈村莊回歸卷軸' WHERE `item_id` = 7555;
-UPDATE `etcitem` SET `name` ='黑暗精靈村莊回歸卷軸' WHERE `item_id` = 7556;
-UPDATE `etcitem` SET `name` ='半獸人村莊回歸卷軸' WHERE `item_id` = 7557;
-UPDATE `etcitem` SET `name` ='矮人村莊回歸卷軸' WHERE `item_id` = 7558;
-UPDATE `etcitem` SET `name` ='奇岩城鎮回歸卷軸' WHERE `item_id` = 7559;
-UPDATE `etcitem` SET `name` ='釣魚手冊' WHERE `item_id` = 7561;
-UPDATE `etcitem` SET `name` ='因次鑽石' WHERE `item_id` = 7562;
-UPDATE `etcitem` SET `name` ='葛爾拉圖次的訂單' WHERE `item_id` = 7563;
-UPDATE `etcitem` SET `name` ='葛爾拉圖次的訂單' WHERE `item_id` = 7564;
-UPDATE `etcitem` SET `name` ='葛爾拉圖次的訂單' WHERE `item_id` = 7565;
-UPDATE `etcitem` SET `name` ='淨化的魔法項鍊' WHERE `item_id` = 7566;
-UPDATE `etcitem` SET `name` ='寶石粉末' WHERE `item_id` = 7567;
-UPDATE `etcitem` SET `name` ='魔法的劍柄' WHERE `item_id` = 7568;
-UPDATE `etcitem` SET `name` ='稀有的金色幸運草銅錢' WHERE `item_id` = 7569;
-UPDATE `etcitem` SET `name` ='旅者的證件' WHERE `item_id` = 7570;
-UPDATE `etcitem` SET `name` ='巴烏洛的信' WHERE `item_id` = 7571;
-UPDATE `etcitem` SET `name` ='阿黎爾的推薦書' WHERE `item_id` = 7572;
-UPDATE `etcitem` SET `name` ='露絲林的紙條' WHERE `item_id` = 7573;
-UPDATE `etcitem` SET `name` ='非常昂貴的項鍊' WHERE `item_id` = 7574;
-UPDATE `etcitem` SET `name` ='紅龍之弓的柄' WHERE `item_id` = 7579;
-UPDATE `etcitem` SET `name` ='製作卷軸(紅龍之弓60%)' WHERE `item_id` = 7580;
-UPDATE `etcitem` SET `name` ='製作卷軸(紅龍之弓100%)' WHERE `item_id` = 7581;
-UPDATE `etcitem` SET `name` ='幼兒香料' WHERE `item_id` = 7582;
-UPDATE `etcitem` SET `name` ='寵物交換券-野牛' WHERE `item_id` = 7583;
-UPDATE `etcitem` SET `name` ='寵物交換券-老虎' WHERE `item_id` = 7584;
-UPDATE `etcitem` SET `name` ='寵物交換券-笑翠鳥' WHERE `item_id` = 7585;
-UPDATE `etcitem` SET `name` ='甘美的水' WHERE `item_id` = 7586;
-UPDATE `etcitem` SET `name` ='17人的腳步' WHERE `item_id` = 7587;
-UPDATE `etcitem` SET `name` ='褪色的詩集' WHERE `item_id` = 7588;
-UPDATE `etcitem` SET `name` ='遺忘之歌的回聲水晶' WHERE `item_id` = 7589;
-UPDATE `etcitem` SET `name` ='金色的頭髮' WHERE `item_id` = 7590;
-UPDATE `etcitem` SET `name` ='女神的戒指-水之羈絆' WHERE `item_id` = 7591;
-UPDATE `etcitem` SET `name` ='女神的項鍊-綠之永恆' WHERE `item_id` = 7592;
-UPDATE `etcitem` SET `name` ='女神的手杖-雨之詩歌' WHERE `item_id` = 7593;
-UPDATE `etcitem` SET `name` ='聖物箱子' WHERE `item_id` = 7594;
-UPDATE `etcitem` SET `name` ='束縛的寶珠' WHERE `item_id` = 7595;
-UPDATE `etcitem` SET `name` ='咒術材料' WHERE `item_id` = 7596;
-UPDATE `etcitem` SET `name` ='瑪魯克魅魔之爪' WHERE `item_id` = 7597;
-UPDATE `etcitem` SET `name` ='紅色苔蘚' WHERE `item_id` = 7598;
-UPDATE `etcitem` SET `name` ='拉荷拉各提的靈藥' WHERE `item_id` = 7599;
-UPDATE `etcitem` SET `name` ='古老的塔羅牌-財富' WHERE `item_id` = 7600;
-UPDATE `etcitem` SET `name` ='古老的塔羅牌-權勢' WHERE `item_id` = 7601;
-UPDATE `etcitem` SET `name` ='古老的塔羅牌-愛' WHERE `item_id` = 7602;
-UPDATE `etcitem` SET `name` ='古老的塔羅牌-知識' WHERE `item_id` = 7603;
-UPDATE `etcitem` SET `name` ='元素使奇茲的信' WHERE `item_id` = 7604;
-UPDATE `etcitem` SET `name` ='借來的生命之藥' WHERE `item_id` = 7605;
-UPDATE `etcitem` SET `name` ='卡玫崙的治療劑' WHERE `item_id` = 7606;
-UPDATE `etcitem` SET `name` ='修理過的威瑪三號冷卻裝置' WHERE `item_id` = 7607;
-UPDATE `etcitem` SET `name` ='密封的文件封套' WHERE `item_id` = 7608;
-UPDATE `etcitem` SET `name` ='捕魚證' WHERE `item_id` = 7609;
-UPDATE `etcitem` SET `name` ='風魚餌' WHERE `item_id` = 7610;
-UPDATE `etcitem` SET `name` ='冰魚餌' WHERE `item_id` = 7611;
-UPDATE `etcitem` SET `name` ='地魚餌' WHERE `item_id` = 7612;
-UPDATE `etcitem` SET `name` ='炎魚餌' WHERE `item_id` = 7613;
-UPDATE `etcitem` SET `name` ='風魚餌釣箱' WHERE `item_id` = 7614;
-UPDATE `etcitem` SET `name` ='冰魚餌釣箱' WHERE `item_id` = 7615;
-UPDATE `etcitem` SET `name` ='地魚餌釣箱' WHERE `item_id` = 7616;
-UPDATE `etcitem` SET `name` ='炎魚餌釣箱' WHERE `item_id` = 7617;
-UPDATE `etcitem` SET `name` ='返回卷軸-肯特拉獸人部落' WHERE `item_id` = 7618;
-UPDATE `etcitem` SET `name` ='返回卷軸-巴瑞卡賽勒諾斯部落' WHERE `item_id` = 7619;
-UPDATE `etcitem` SET `name` ='不使用' WHERE `item_id` = 7620;
-UPDATE `etcitem` SET `name` ='風的菁華' WHERE `item_id` = 7621;
-UPDATE `etcitem` SET `name` ='遺失的魚餌材料' WHERE `item_id` = 7622;
-UPDATE `etcitem` SET `name` ='塔爾克邪惡蜥蜴的眼睛' WHERE `item_id` = 7623;
-UPDATE `etcitem` SET `name` ='赤色飛龍的心臟' WHERE `item_id` = 7624;
-UPDATE `etcitem` SET `name` ='怪異的高崙設計圖' WHERE `item_id` = 7625;
-UPDATE `etcitem` SET `name` ='琪琪的信' WHERE `item_id` = 7626;
-UPDATE `etcitem` SET `name` ='小玻璃箱' WHERE `item_id` = 7627;
-UPDATE `etcitem` SET `name` ='露凱的樂譜' WHERE `item_id` = 7628;
-UPDATE `etcitem` SET `name` ='掠奪物-白色貨箱' WHERE `item_id` = 7629;
-UPDATE `etcitem` SET `name` ='掠奪物-藍色貨箱' WHERE `item_id` = 7630;
-UPDATE `etcitem` SET `name` ='掠奪物-黃色貨箱' WHERE `item_id` = 7631;
-UPDATE `etcitem` SET `name` ='掠奪物-紅色文件箱' WHERE `item_id` = 7632;
-UPDATE `etcitem` SET `name` ='掠奪物-紫色文件箱' WHERE `item_id` = 7633;
-UPDATE `etcitem` SET `name` ='掠奪物-褐色行囊' WHERE `item_id` = 7634;
-UPDATE `etcitem` SET `name` ='掠奪物-灰色行囊' WHERE `item_id` = 7635;
-UPDATE `etcitem` SET `name` ='擄獲物-黃色行囊' WHERE `item_id` = 7636;
-UPDATE `etcitem` SET `name` ='擄獲物-褐色行囊' WHERE `item_id` = 7637;
-UPDATE `etcitem` SET `name` ='魔法書-召喚暴風晶體群' WHERE `item_id` = 7638;
-UPDATE `etcitem` SET `name` ='魔法書-召喚水液晶體群' WHERE `item_id` = 7639;
-UPDATE `etcitem` SET `name` ='魔法書-召喚干擾晶體群' WHERE `item_id` = 7640;
-UPDATE `etcitem` SET `name` ='魔法書-召喚皇后貓' WHERE `item_id` = 7641;
-UPDATE `etcitem` SET `name` ='魔法書-召喚天使獨角獸' WHERE `item_id` = 7642;
-UPDATE `etcitem` SET `name` ='魔法書-召喚夜靈' WHERE `item_id` = 7643;
-UPDATE `etcitem` SET `name` ='魔法書-召喚受詛咒者' WHERE `item_id` = 7644;
-UPDATE `etcitem` SET `name` ='魔法書-生命之衡' WHERE `item_id` = 7645;
-UPDATE `etcitem` SET `name` ='魔法書-末日詛咒' WHERE `item_id` = 7646;
-UPDATE `etcitem` SET `name` ='魔法書-深淵詛咒' WHERE `item_id` = 7647;
-UPDATE `etcitem` SET `name` ='魔法書-渾沌的奧祕' WHERE `item_id` = 7648;
-UPDATE `etcitem` SET `name` ='魔法書-炎之旋流' WHERE `item_id` = 7649;
-UPDATE `etcitem` SET `name` ='魔法書-冰之旋流' WHERE `item_id` = 7650;
-UPDATE `etcitem` SET `name` ='魔法書-風之旋流' WHERE `item_id` = 7651;
-UPDATE `etcitem` SET `name` ='魔法書-光之旋流' WHERE `item_id` = 7652;
-UPDATE `etcitem` SET `name` ='魔法書-闇之旋流' WHERE `item_id` = 7653;
-UPDATE `etcitem` SET `name` ='魔法書-群體敏捷禁制咒' WHERE `item_id` = 7654;
-UPDATE `etcitem` SET `name` ='魔法書-群體魔力禁制咒' WHERE `item_id` = 7655;
-UPDATE `etcitem` SET `name` ='魔法書-鬥者使魔' WHERE `item_id` = 7656;
-UPDATE `etcitem` SET `name` ='魔法書-巫師使魔' WHERE `item_id` = 7657;
-UPDATE `etcitem` SET `name` ='魔法書-殺手使魔' WHERE `item_id` = 7658;
-UPDATE `etcitem` SET `name` ='魔法書-終極使魔' WHERE `item_id` = 7659;
-UPDATE `etcitem` SET `name` ='魔法書-敏捷禁制咒' WHERE `item_id` = 7660;
-UPDATE `etcitem` SET `name` ='魔法書-魔力禁制咒' WHERE `item_id` = 7661;
-UPDATE `etcitem` SET `name` ='魔法書-元素加護' WHERE `item_id` = 7662;
-UPDATE `etcitem` SET `name` ='魔法書-神聖加護' WHERE `item_id` = 7663;
-UPDATE `etcitem` SET `name` ='魔法書-奧祕加護' WHERE `item_id` = 7664;
-UPDATE `etcitem` SET `name` ='魔法書-水之預言' WHERE `item_id` = 7665;
-UPDATE `etcitem` SET `name` ='魔法書-火之預言' WHERE `item_id` = 7666;
-UPDATE `etcitem` SET `name` ='魔法書-風之預言' WHERE `item_id` = 7667;
-UPDATE `etcitem` SET `name` ='魔法書-防禦禁制結界' WHERE `item_id` = 7668;
-UPDATE `etcitem` SET `name` ='魔法書-速度禁制結界' WHERE `item_id` = 7669;
-UPDATE `etcitem` SET `name` ='魔法書-群體防禦禁制結界' WHERE `item_id` = 7670;
-UPDATE `etcitem` SET `name` ='魔法書-群體速度禁制結界' WHERE `item_id` = 7671;
-UPDATE `etcitem` SET `name` ='護身符-聖靈頌歌' WHERE `item_id` = 7672;
-UPDATE `etcitem` SET `name` ='護身符-凱旋頌歌' WHERE `item_id` = 7673;
-UPDATE `etcitem` SET `name` ='護身符-帕格立歐凝視' WHERE `item_id` = 7674;
-UPDATE `etcitem` SET `name` ='護身符-帕格立歐之魂' WHERE `item_id` = 7675;
-UPDATE `etcitem` SET `name` ='護身符-絕望封印' WHERE `item_id` = 7676;
-UPDATE `etcitem` SET `name` ='維爾吉爾的信' WHERE `item_id` = 7677;
-UPDATE `etcitem` SET `name` ='凱拉蒂的信' WHERE `item_id` = 7678;
-UPDATE `etcitem` SET `name` ='凱拉蒂的信' WHERE `item_id` = 7679;
-UPDATE `etcitem` SET `name` ='狸耳布料' WHERE `item_id` = 7684;
-UPDATE `etcitem` SET `name` ='無法者眼罩帶子' WHERE `item_id` = 7685;
-UPDATE `etcitem` SET `name` ='淑女髮飾碎片' WHERE `item_id` = 7686;
-UPDATE `etcitem` SET `name` ='兔耳布料' WHERE `item_id` = 7687;
-UPDATE `etcitem` SET `name` ='貓耳布料' WHERE `item_id` = 7688;
-UPDATE `etcitem` SET `name` ='製作卷軸(狸耳100%)' WHERE `item_id` = 7689;
-UPDATE `etcitem` SET `name` ='製作卷軸(無法者眼罩100%)' WHERE `item_id` = 7690;
-UPDATE `etcitem` SET `name` ='製作卷軸(淑女髮飾100%)' WHERE `item_id` = 7691;
-UPDATE `etcitem` SET `name` ='製作卷軸(兔耳100%)' WHERE `item_id` = 7692;
-UPDATE `etcitem` SET `name` ='製作卷軸(貓耳100%)' WHERE `item_id` = 7693;
-UPDATE `etcitem` SET `name` ='勿忘草髮飾碎片' WHERE `item_id` = 7697;
-UPDATE `etcitem` SET `name` ='雛菊髮飾碎片' WHERE `item_id` = 7698;
-UPDATE `etcitem` SET `name` ='製作卷軸(勿忘草髮飾100%)' WHERE `item_id` = 7699;
-UPDATE `etcitem` SET `name` ='製作卷軸(雛菊髮飾100%)' WHERE `item_id` = 7700;
-UPDATE `etcitem` SET `name` ='擄獲物-灰色行囊' WHERE `item_id` = 7725;
-UPDATE `etcitem` SET `name` ='初學者用-敏捷的綠色小魚' WHERE `item_id` = 7726;
-UPDATE `etcitem` SET `name` ='初學者用-暴躁的綠色小魚' WHERE `item_id` = 7727;
-UPDATE `etcitem` SET `name` ='初學者用-寬扁的綠色小魚' WHERE `item_id` = 7728;
-UPDATE `etcitem` SET `name` ='初學者用-敏捷的綠色魚' WHERE `item_id` = 7729;
-UPDATE `etcitem` SET `name` ='初學者用-暴躁的綠色魚' WHERE `item_id` = 7730;
-UPDATE `etcitem` SET `name` ='初學者用-寬扁的綠色魚' WHERE `item_id` = 7731;
-UPDATE `etcitem` SET `name` ='初學者用-敏捷的綠色大魚' WHERE `item_id` = 7732;
-UPDATE `etcitem` SET `name` ='初學者用-暴躁的綠色大魚' WHERE `item_id` = 7733;
-UPDATE `etcitem` SET `name` ='初學者用-寬扁的綠色大魚' WHERE `item_id` = 7734;
-UPDATE `etcitem` SET `name` ='初學者用-敏捷的翡翠小魚' WHERE `item_id` = 7735;
-UPDATE `etcitem` SET `name` ='初學者用-暴躁的翡翠小魚' WHERE `item_id` = 7736;
-UPDATE `etcitem` SET `name` ='初學者用-寬扁的翡翠小魚' WHERE `item_id` = 7737;
-UPDATE `etcitem` SET `name` ='初學者用-敏捷的翡翠魚' WHERE `item_id` = 7738;
-UPDATE `etcitem` SET `name` ='初學者用-暴躁的翡翠魚' WHERE `item_id` = 7739;
-UPDATE `etcitem` SET `name` ='初學者用-寬扁的翡翠魚' WHERE `item_id` = 7740;
-UPDATE `etcitem` SET `name` ='初學者用-敏捷的翡翠大魚' WHERE `item_id` = 7741;
-UPDATE `etcitem` SET `name` ='初學者用-暴躁的翡翠大魚' WHERE `item_id` = 7742;
-UPDATE `etcitem` SET `name` ='初學者用-寬扁的翡翠大魚' WHERE `item_id` = 7743;
-UPDATE `etcitem` SET `name` ='初學者用-敏捷的藍色小魚' WHERE `item_id` = 7744;
-UPDATE `etcitem` SET `name` ='初學者用-暴躁的藍色小魚' WHERE `item_id` = 7745;
-UPDATE `etcitem` SET `name` ='初學者用-寬扁的藍色小魚' WHERE `item_id` = 7746;
-UPDATE `etcitem` SET `name` ='初學者用-敏捷的藍色魚' WHERE `item_id` = 7747;
-UPDATE `etcitem` SET `name` ='初學者用-暴躁的藍色魚' WHERE `item_id` = 7748;
-UPDATE `etcitem` SET `name` ='初學者用-寬扁的藍色魚' WHERE `item_id` = 7749;
-UPDATE `etcitem` SET `name` ='初學者用-敏捷的藍色大魚' WHERE `item_id` = 7750;
-UPDATE `etcitem` SET `name` ='初學者用-暴躁的藍色大魚' WHERE `item_id` = 7751;
-UPDATE `etcitem` SET `name` ='初學者用-寬扁的藍色大魚' WHERE `item_id` = 7752;
-UPDATE `etcitem` SET `name` ='初學者用-敏捷的黃色小魚' WHERE `item_id` = 7753;
-UPDATE `etcitem` SET `name` ='初學者用-暴躁的黃色小魚' WHERE `item_id` = 7754;
-UPDATE `etcitem` SET `name` ='初學者用-寬扁的黃色小魚' WHERE `item_id` = 7755;
-UPDATE `etcitem` SET `name` ='初學者用-敏捷的黃色魚' WHERE `item_id` = 7756;
-UPDATE `etcitem` SET `name` ='初學者用-暴躁的黃色魚' WHERE `item_id` = 7757;
-UPDATE `etcitem` SET `name` ='初學者用-寬扁的黃色魚' WHERE `item_id` = 7758;
-UPDATE `etcitem` SET `name` ='初學者用-敏捷的黃色大魚' WHERE `item_id` = 7759;
-UPDATE `etcitem` SET `name` ='初學者用-暴躁的黃色大魚' WHERE `item_id` = 7760;
-UPDATE `etcitem` SET `name` ='初學者用-寬扁的黃色大魚' WHERE `item_id` = 7761;
-UPDATE `etcitem` SET `name` ='初學者用-敏捷的橙色小魚' WHERE `item_id` = 7762;
-UPDATE `etcitem` SET `name` ='初學者用-暴躁的橙色小魚' WHERE `item_id` = 7763;
-UPDATE `etcitem` SET `name` ='初學者用-寬扁的橙色小魚' WHERE `item_id` = 7764;
-UPDATE `etcitem` SET `name` ='初學者用-敏捷的橙色魚' WHERE `item_id` = 7765;
-UPDATE `etcitem` SET `name` ='初學者用-暴躁的橙色魚' WHERE `item_id` = 7766;
-UPDATE `etcitem` SET `name` ='初學者用-寬扁的橙色魚' WHERE `item_id` = 7767;
-UPDATE `etcitem` SET `name` ='初學者用-敏捷的橙色大魚' WHERE `item_id` = 7768;
-UPDATE `etcitem` SET `name` ='初學者用-暴躁的橙色大魚' WHERE `item_id` = 7769;
-UPDATE `etcitem` SET `name` ='初學者用-寬扁的橙色大魚' WHERE `item_id` = 7770;
-UPDATE `etcitem` SET `name` ='初學者用-敏捷的紫色小魚' WHERE `item_id` = 7771;
-UPDATE `etcitem` SET `name` ='初學者用-暴躁的紫色小魚' WHERE `item_id` = 7772;
-UPDATE `etcitem` SET `name` ='初學者用-寬扁的紫色小魚' WHERE `item_id` = 7773;
-UPDATE `etcitem` SET `name` ='初學者用-敏捷的紫色魚' WHERE `item_id` = 7774;
-UPDATE `etcitem` SET `name` ='初學者用-暴躁的紫色魚' WHERE `item_id` = 7775;
-UPDATE `etcitem` SET `name` ='初學者用-寬扁的紫色魚' WHERE `item_id` = 7776;
-UPDATE `etcitem` SET `name` ='初學者用-敏捷的紫色大魚' WHERE `item_id` = 7777;
-UPDATE `etcitem` SET `name` ='初學者用-暴躁的紫色大魚' WHERE `item_id` = 7778;
-UPDATE `etcitem` SET `name` ='初學者用-寬扁的紫色大魚' WHERE `item_id` = 7779;
-UPDATE `etcitem` SET `name` ='初學者用-敏捷的紅色小魚' WHERE `item_id` = 7780;
-UPDATE `etcitem` SET `name` ='初學者用-暴躁的紅色小魚' WHERE `item_id` = 7781;
-UPDATE `etcitem` SET `name` ='初學者用-寬扁的紅色小魚' WHERE `item_id` = 7782;
-UPDATE `etcitem` SET `name` ='初學者用-敏捷的紅色魚' WHERE `item_id` = 7783;
-UPDATE `etcitem` SET `name` ='初學者用-暴躁的紅色魚' WHERE `item_id` = 7784;
-UPDATE `etcitem` SET `name` ='初學者用-寬扁的紅色魚' WHERE `item_id` = 7785;
-UPDATE `etcitem` SET `name` ='初學者用-敏捷的紅色大魚' WHERE `item_id` = 7786;
-UPDATE `etcitem` SET `name` ='初學者用-暴躁的紅色大魚' WHERE `item_id` = 7787;
-UPDATE `etcitem` SET `name` ='初學者用-寬扁的紅色大魚' WHERE `item_id` = 7788;
-UPDATE `etcitem` SET `name` ='初學者用-敏捷的白色小魚' WHERE `item_id` = 7789;
-UPDATE `etcitem` SET `name` ='初學者用-暴躁的白色小魚' WHERE `item_id` = 7790;
-UPDATE `etcitem` SET `name` ='初學者用-寬扁的白色小魚' WHERE `item_id` = 7791;
-UPDATE `etcitem` SET `name` ='初學者用-敏捷的白色魚' WHERE `item_id` = 7792;
-UPDATE `etcitem` SET `name` ='初學者用-暴躁的白色魚' WHERE `item_id` = 7793;
-UPDATE `etcitem` SET `name` ='初學者用-寬扁的白色魚' WHERE `item_id` = 7794;
-UPDATE `etcitem` SET `name` ='初學者用-敏捷的白色大魚' WHERE `item_id` = 7795;
-UPDATE `etcitem` SET `name` ='初學者用-暴躁的白色大魚' WHERE `item_id` = 7796;
-UPDATE `etcitem` SET `name` ='初學者用-寬扁的白色大魚' WHERE `item_id` = 7797;
-UPDATE `etcitem` SET `name` ='初學者用-敏捷的黑色小魚' WHERE `item_id` = 7798;
-UPDATE `etcitem` SET `name` ='初學者用-暴躁的黑色小魚' WHERE `item_id` = 7799;
-UPDATE `etcitem` SET `name` ='初學者用-寬扁的黑色小魚' WHERE `item_id` = 7800;
-UPDATE `etcitem` SET `name` ='初學者用-敏捷的黑色魚' WHERE `item_id` = 7801;
-UPDATE `etcitem` SET `name` ='初學者用-暴躁的黑色魚' WHERE `item_id` = 7802;
-UPDATE `etcitem` SET `name` ='初學者用-寬扁的黑色魚' WHERE `item_id` = 7803;
-UPDATE `etcitem` SET `name` ='初學者用-敏捷的黑色大魚' WHERE `item_id` = 7804;
-UPDATE `etcitem` SET `name` ='初學者用-暴躁的黑色大魚' WHERE `item_id` = 7805;
-UPDATE `etcitem` SET `name` ='初學者用-寬扁的黑色大魚' WHERE `item_id` = 7806;
-UPDATE `etcitem` SET `name` ='綠色魚餌-初學者用' WHERE `item_id` = 7807;
-UPDATE `etcitem` SET `name` ='紫色魚餌-初學者用' WHERE `item_id` = 7808;
-UPDATE `etcitem` SET `name` ='黃色魚餌-初學者用' WHERE `item_id` = 7809;
-UPDATE `etcitem` SET `name` ='見習冒險家專用-武器交換券' WHERE `item_id` = 7832;
-UPDATE `etcitem` SET `name` ='旅者專用-魔法防具交換券' WHERE `item_id` = 7833;
-UPDATE `etcitem` SET `name` ='護身符-疫病封印' WHERE `item_id` = 7835;
-UPDATE `etcitem` SET `name` ='聖誕帽' WHERE `item_id` = 7838;
-UPDATE `etcitem` SET `name` ='船票-魯因往古魯丁' WHERE `item_id` = 7904;
-UPDATE `etcitem` SET `name` ='船票-古魯丁往魯因' WHERE `item_id` = 7905;
-UPDATE `etcitem` SET `name` ='火之祝福' WHERE `item_id` = 7906;
-UPDATE `etcitem` SET `name` ='水之祝福' WHERE `item_id` = 7907;
-UPDATE `etcitem` SET `name` ='風之祝福' WHERE `item_id` = 7908;
-UPDATE `etcitem` SET `name` ='地之祝福' WHERE `item_id` = 7909;
-UPDATE `etcitem` SET `name` ='暗之祝福' WHERE `item_id` = 7910;
-UPDATE `etcitem` SET `name` ='聖之祝福' WHERE `item_id` = 7911;
-UPDATE `etcitem` SET `name` ='火之結晶' WHERE `item_id` = 7912;
-UPDATE `etcitem` SET `name` ='水之結晶' WHERE `item_id` = 7913;
-UPDATE `etcitem` SET `name` ='風之結晶' WHERE `item_id` = 7914;
-UPDATE `etcitem` SET `name` ='地之結晶' WHERE `item_id` = 7915;
-UPDATE `etcitem` SET `name` ='暗之結晶' WHERE `item_id` = 7916;
-UPDATE `etcitem` SET `name` ='聖之結晶' WHERE `item_id` = 7917;
-UPDATE `etcitem` SET `name` ='傭兵配置表(劍/固定)' WHERE `item_id` = 7918;
-UPDATE `etcitem` SET `name` ='傭兵配置表(槍/固定)' WHERE `item_id` = 7919;
-UPDATE `etcitem` SET `name` ='傭兵配置表(弓/固定)' WHERE `item_id` = 7920;
-UPDATE `etcitem` SET `name` ='傭兵配置表(牧師/固定)' WHERE `item_id` = 7921;
-UPDATE `etcitem` SET `name` ='傭兵配置表(巫師/固定)' WHERE `item_id` = 7922;
-UPDATE `etcitem` SET `name` ='傭兵配置表(劍/移動)' WHERE `item_id` = 7923;
-UPDATE `etcitem` SET `name` ='傭兵配置表(槍/移動)' WHERE `item_id` = 7924;
-UPDATE `etcitem` SET `name` ='傭兵配置表(弓/移動)' WHERE `item_id` = 7925;
-UPDATE `etcitem` SET `name` ='傭兵配置表(牧師/移動)' WHERE `item_id` = 7926;
-UPDATE `etcitem` SET `name` ='傭兵配置表(巫師/移動)' WHERE `item_id` = 7927;
-UPDATE `etcitem` SET `name` ='傭兵配置表(傳送師1)' WHERE `item_id` = 7928;
-UPDATE `etcitem` SET `name` ='傭兵配置表(傳送師2)' WHERE `item_id` = 7929;
-UPDATE `etcitem` SET `name` ='傭兵配置表(傳送師3)' WHERE `item_id` = 7930;
-UPDATE `etcitem` SET `name` ='高級傭兵配置表(劍/固定)' WHERE `item_id` = 7931;
-UPDATE `etcitem` SET `name` ='高級傭兵配置表(槍/固定)' WHERE `item_id` = 7932;
-UPDATE `etcitem` SET `name` ='高級傭兵配置表(弓/固定)' WHERE `item_id` = 7933;
-UPDATE `etcitem` SET `name` ='高級傭兵配置表(牧師/固定)' WHERE `item_id` = 7934;
-UPDATE `etcitem` SET `name` ='高級傭兵配置表(巫師/固定)' WHERE `item_id` = 7935;
-UPDATE `etcitem` SET `name` ='高級傭兵配置表(劍/移動)' WHERE `item_id` = 7936;
-UPDATE `etcitem` SET `name` ='高級傭兵配置表(槍/移動)' WHERE `item_id` = 7937;
-UPDATE `etcitem` SET `name` ='高級傭兵配置表(弓/移動)' WHERE `item_id` = 7938;
-UPDATE `etcitem` SET `name` ='高級傭兵配置表(牧師/移動)' WHERE `item_id` = 7939;
-UPDATE `etcitem` SET `name` ='高級傭兵配置表(巫師/移動)' WHERE `item_id` = 7940;
-UPDATE `etcitem` SET `name` ='黎明傭兵配置表(劍/固定)' WHERE `item_id` = 7941;
-UPDATE `etcitem` SET `name` ='黎明傭兵配置表(槍/固定)' WHERE `item_id` = 7942;
-UPDATE `etcitem` SET `name` ='黎明傭兵配置表(弓/固定)' WHERE `item_id` = 7943;
-UPDATE `etcitem` SET `name` ='黎明傭兵配置表(牧師/固定)' WHERE `item_id` = 7944;
-UPDATE `etcitem` SET `name` ='黎明傭兵配置表(巫師/固定)' WHERE `item_id` = 7945;
-UPDATE `etcitem` SET `name` ='黎明傭兵配置表(劍/移動)' WHERE `item_id` = 7946;
-UPDATE `etcitem` SET `name` ='黎明傭兵配置表(槍/移動)' WHERE `item_id` = 7947;
-UPDATE `etcitem` SET `name` ='黎明傭兵配置表(弓/移動)' WHERE `item_id` = 7948;
-UPDATE `etcitem` SET `name` ='黎明傭兵配置表(牧師/移動)' WHERE `item_id` = 7949;
-UPDATE `etcitem` SET `name` ='黎明傭兵配置表(巫師/移動)' WHERE `item_id` = 7950;
-UPDATE `etcitem` SET `name` ='高級訓練兵配置表(劍/固定)' WHERE `item_id` = 7951;
-UPDATE `etcitem` SET `name` ='高級訓練兵配置表(槍/固定)' WHERE `item_id` = 7952;
-UPDATE `etcitem` SET `name` ='高級訓練兵配置表(弓/固定)' WHERE `item_id` = 7953;
-UPDATE `etcitem` SET `name` ='高級訓練兵配置表(牧師/固定)' WHERE `item_id` = 7954;
-UPDATE `etcitem` SET `name` ='高級訓練兵配置表(巫師/固定)' WHERE `item_id` = 7955;
-UPDATE `etcitem` SET `name` ='高級訓練兵配置表(劍/移動)' WHERE `item_id` = 7956;
-UPDATE `etcitem` SET `name` ='高級訓練兵配置表(槍/移動)' WHERE `item_id` = 7957;
-UPDATE `etcitem` SET `name` ='高級訓練兵配置表(弓/移動)' WHERE `item_id` = 7958;
-UPDATE `etcitem` SET `name` ='高級訓練兵配置表(牧師/移動)' WHERE `item_id` = 7959;
-UPDATE `etcitem` SET `name` ='高級訓練兵配置表(巫師/移動)' WHERE `item_id` = 7960;
-UPDATE `etcitem` SET `name` ='訓練兵配置表(劍/固定)' WHERE `item_id` = 7961;
-UPDATE `etcitem` SET `name` ='訓練兵配置表(槍/固定)' WHERE `item_id` = 7962;
-UPDATE `etcitem` SET `name` ='訓練兵配置表(弓/固定)' WHERE `item_id` = 7963;
-UPDATE `etcitem` SET `name` ='訓練兵配置表(牧師/固定)' WHERE `item_id` = 7964;
-UPDATE `etcitem` SET `name` ='訓練兵配置表(巫師/固定)' WHERE `item_id` = 7965;
-UPDATE `etcitem` SET `name` ='訓練兵配置表(劍/移動)' WHERE `item_id` = 7966;
-UPDATE `etcitem` SET `name` ='訓練兵配置表(槍/移動)' WHERE `item_id` = 7967;
-UPDATE `etcitem` SET `name` ='訓練兵配置表(弓/移動)' WHERE `item_id` = 7968;
-UPDATE `etcitem` SET `name` ='訓練兵配置表(牧師/移動)' WHERE `item_id` = 7969;
-UPDATE `etcitem` SET `name` ='訓練兵配置表(巫師/移動)' WHERE `item_id` = 7970;
-UPDATE `etcitem` SET `name` ='那芙琳戰士配置表' WHERE `item_id` = 7971;
-UPDATE `etcitem` SET `name` ='那芙琳咒術士配置表' WHERE `item_id` = 7972;
-UPDATE `etcitem` SET `name` ='傭兵配置表(劍/固定)' WHERE `item_id` = 7973;
-UPDATE `etcitem` SET `name` ='傭兵配置表(槍/固定)' WHERE `item_id` = 7974;
-UPDATE `etcitem` SET `name` ='傭兵配置表(弓/固定)' WHERE `item_id` = 7975;
-UPDATE `etcitem` SET `name` ='傭兵配置表(牧師/固定)' WHERE `item_id` = 7976;
-UPDATE `etcitem` SET `name` ='傭兵配置表(巫師/固定)' WHERE `item_id` = 7977;
-UPDATE `etcitem` SET `name` ='傭兵配置表(劍/移動)' WHERE `item_id` = 7978;
-UPDATE `etcitem` SET `name` ='傭兵配置表(槍/移動)' WHERE `item_id` = 7979;
-UPDATE `etcitem` SET `name` ='傭兵配置表(弓/移動)' WHERE `item_id` = 7980;
-UPDATE `etcitem` SET `name` ='傭兵配置表(牧師/移動)' WHERE `item_id` = 7981;
-UPDATE `etcitem` SET `name` ='傭兵配置表(巫師/移動)' WHERE `item_id` = 7982;
-UPDATE `etcitem` SET `name` ='傭兵配置表(傳送師1)' WHERE `item_id` = 7983;
-UPDATE `etcitem` SET `name` ='傭兵配置表(傳送師2)' WHERE `item_id` = 7984;
-UPDATE `etcitem` SET `name` ='傭兵配置表(傳送師3)' WHERE `item_id` = 7985;
-UPDATE `etcitem` SET `name` ='傭兵配置表(傳送師4)' WHERE `item_id` = 7986;
-UPDATE `etcitem` SET `name` ='傭兵配置表(傳送師5)' WHERE `item_id` = 7987;
-UPDATE `etcitem` SET `name` ='高級傭兵配置表(劍/固定)' WHERE `item_id` = 7988;
-UPDATE `etcitem` SET `name` ='高級傭兵配置表(槍/固定)' WHERE `item_id` = 7989;
-UPDATE `etcitem` SET `name` ='高級傭兵配置表(弓/固定)' WHERE `item_id` = 7990;
-UPDATE `etcitem` SET `name` ='高級傭兵配置表(牧師/固定)' WHERE `item_id` = 7991;
-UPDATE `etcitem` SET `name` ='高級傭兵配置表(巫師/固定)' WHERE `item_id` = 7992;
-UPDATE `etcitem` SET `name` ='高級傭兵配置表(劍/移動)' WHERE `item_id` = 7993;
-UPDATE `etcitem` SET `name` ='高級傭兵配置表(槍/移動)' WHERE `item_id` = 7994;
-UPDATE `etcitem` SET `name` ='高級傭兵配置表(弓/移動)' WHERE `item_id` = 7995;
-UPDATE `etcitem` SET `name` ='高級傭兵配置表(牧師/移動)' WHERE `item_id` = 7996;
-UPDATE `etcitem` SET `name` ='高級傭兵配置表(巫師/移動)' WHERE `item_id` = 7997;
-UPDATE `etcitem` SET `name` ='黎明傭兵配置表(劍/固定)' WHERE `item_id` = 7998;
-UPDATE `etcitem` SET `name` ='黎明傭兵配置表(槍/固定)' WHERE `item_id` = 7999;
-UPDATE `etcitem` SET `name` ='黎明傭兵配置表(弓/固定)' WHERE `item_id` = 8000;
-UPDATE `etcitem` SET `name` ='黎明傭兵配置表(牧師/固定)' WHERE `item_id` = 8001;
-UPDATE `etcitem` SET `name` ='黎明傭兵配置表(巫師/固定)' WHERE `item_id` = 8002;
-UPDATE `etcitem` SET `name` ='黎明傭兵配置表(劍/移動)' WHERE `item_id` = 8003;
-UPDATE `etcitem` SET `name` ='黎明傭兵配置表(槍/移動)' WHERE `item_id` = 8004;
-UPDATE `etcitem` SET `name` ='黎明傭兵配置表(弓/移動)' WHERE `item_id` = 8005;
-UPDATE `etcitem` SET `name` ='黎明傭兵配置表(牧師/移動)' WHERE `item_id` = 8006;
-UPDATE `etcitem` SET `name` ='黎明傭兵配置表(巫師/移動)' WHERE `item_id` = 8007;
-UPDATE `etcitem` SET `name` ='高級訓練兵配置表(劍/固定)' WHERE `item_id` = 8008;
-UPDATE `etcitem` SET `name` ='高級訓練兵配置表(槍/固定)' WHERE `item_id` = 8009;
-UPDATE `etcitem` SET `name` ='高級訓練兵配置表(弓/固定)' WHERE `item_id` = 8010;
-UPDATE `etcitem` SET `name` ='高級訓練兵配置表(牧師/固定)' WHERE `item_id` = 8011;
-UPDATE `etcitem` SET `name` ='高級訓練兵配置表(巫師/固定)' WHERE `item_id` = 8012;
-UPDATE `etcitem` SET `name` ='高級訓練兵配置表(劍/移動)' WHERE `item_id` = 8013;
-UPDATE `etcitem` SET `name` ='高級訓練兵配置表(槍/移動)' WHERE `item_id` = 8014;
-UPDATE `etcitem` SET `name` ='高級訓練兵配置表(弓/移動)' WHERE `item_id` = 8015;
-UPDATE `etcitem` SET `name` ='高級訓練兵配置表(牧師/移動)' WHERE `item_id` = 8016;
-UPDATE `etcitem` SET `name` ='高級訓練兵配置表(巫師/移動)' WHERE `item_id` = 8017;
-UPDATE `etcitem` SET `name` ='訓練兵配置表(劍/固定)' WHERE `item_id` = 8018;
-UPDATE `etcitem` SET `name` ='訓練兵配置表(槍/固定)' WHERE `item_id` = 8019;
-UPDATE `etcitem` SET `name` ='訓練兵配置表(弓/固定)' WHERE `item_id` = 8020;
-UPDATE `etcitem` SET `name` ='訓練兵配置表(牧師/固定)' WHERE `item_id` = 8021;
-UPDATE `etcitem` SET `name` ='訓練兵配置表(巫師/固定)' WHERE `item_id` = 8022;
-UPDATE `etcitem` SET `name` ='訓練兵配置表(劍/移動)' WHERE `item_id` = 8023;
-UPDATE `etcitem` SET `name` ='訓練兵配置表(槍/移動)' WHERE `item_id` = 8024;
-UPDATE `etcitem` SET `name` ='訓練兵配置表(弓/移動)' WHERE `item_id` = 8025;
-UPDATE `etcitem` SET `name` ='訓練兵配置表(牧師/移動)' WHERE `item_id` = 8026;
-UPDATE `etcitem` SET `name` ='訓練兵配置表(巫師/移動)' WHERE `item_id` = 8027;
-UPDATE `etcitem` SET `name` ='那芙琳戰士配置表' WHERE `item_id` = 8028;
-UPDATE `etcitem` SET `name` ='那芙琳咒術士配置表' WHERE `item_id` = 8029;
-UPDATE `etcitem` SET `name` ='溫泉神酒' WHERE `item_id` = 8030;
-UPDATE `etcitem` SET `name` ='溫泉礦泉水' WHERE `item_id` = 8031;
-UPDATE `etcitem` SET `name` ='溫泉湧泉水' WHERE `item_id` = 8032;
-UPDATE `etcitem` SET `name` ='溫泉硫磺' WHERE `item_id` = 8033;
-UPDATE `etcitem` SET `name` ='溫泉根據地爭奪參賽證' WHERE `item_id` = 8034;
-UPDATE `etcitem` SET `name` ='溫泉地文字A' WHERE `item_id` = 8035;
-UPDATE `etcitem` SET `name` ='溫泉地文字B' WHERE `item_id` = 8036;
-UPDATE `etcitem` SET `name` ='溫泉地文字C' WHERE `item_id` = 8037;
-UPDATE `etcitem` SET `name` ='溫泉地文字D' WHERE `item_id` = 8038;
-UPDATE `etcitem` SET `name` ='溫泉地文字E' WHERE `item_id` = 8039;
-UPDATE `etcitem` SET `name` ='溫泉地文字F' WHERE `item_id` = 8040;
-UPDATE `etcitem` SET `name` ='溫泉地文字G' WHERE `item_id` = 8041;
-UPDATE `etcitem` SET `name` ='溫泉地文字H' WHERE `item_id` = 8042;
-UPDATE `etcitem` SET `name` ='溫泉地文字I' WHERE `item_id` = 8043;
-UPDATE `etcitem` SET `name` ='溫泉地文字J' WHERE `item_id` = 8044;
-UPDATE `etcitem` SET `name` ='溫泉地文字K' WHERE `item_id` = 8045;
-UPDATE `etcitem` SET `name` ='溫泉地文字L' WHERE `item_id` = 8046;
-UPDATE `etcitem` SET `name` ='溫泉地文字N' WHERE `item_id` = 8047;
-UPDATE `etcitem` SET `name` ='溫泉地文字O' WHERE `item_id` = 8048;
-UPDATE `etcitem` SET `name` ='溫泉地文字P' WHERE `item_id` = 8049;
-UPDATE `etcitem` SET `name` ='溫泉地文字R' WHERE `item_id` = 8050;
-UPDATE `etcitem` SET `name` ='溫泉地文字S' WHERE `item_id` = 8051;
-UPDATE `etcitem` SET `name` ='溫泉地文字T' WHERE `item_id` = 8052;
-UPDATE `etcitem` SET `name` ='溫泉地文字U' WHERE `item_id` = 8053;
-UPDATE `etcitem` SET `name` ='溫泉地文字W' WHERE `item_id` = 8054;
-UPDATE `etcitem` SET `name` ='溫泉地文字Y' WHERE `item_id` = 8055;
-UPDATE `etcitem` SET `name` ='輝煌之間的鑰匙' WHERE `item_id` = 8056;
-UPDATE `etcitem` SET `name` ='銀血' WHERE `item_id` = 8057;
-UPDATE `etcitem` SET `name` ='被鎖住的研究日誌' WHERE `item_id` = 8058;
-UPDATE `etcitem` SET `name` ='研究日誌' WHERE `item_id` = 8059;
-UPDATE `etcitem` SET `name` ='謎樣的鑰匙' WHERE `item_id` = 8060;
-UPDATE `etcitem` SET `name` ='潦草的筆記' WHERE `item_id` = 8061;
-UPDATE `etcitem` SET `name` ='雄性蜥蜴人血' WHERE `item_id` = 8062;
-UPDATE `etcitem` SET `name` ='阿朗尼得王的腳' WHERE `item_id` = 8063;
-UPDATE `etcitem` SET `name` ='見習生標章' WHERE `item_id` = 8064;
-UPDATE `etcitem` SET `name` ='變色的見習生標章' WHERE `item_id` = 8065;
-UPDATE `etcitem` SET `name` ='死靈法師的心臟' WHERE `item_id` = 8066;
-UPDATE `etcitem` SET `name` ='主教標章' WHERE `item_id` = 8067;
-UPDATE `etcitem` SET `name` ='邪教徒圖騰' WHERE `item_id` = 8068;
-UPDATE `etcitem` SET `name` ='修道僧經典' WHERE `item_id` = 8069;
-UPDATE `etcitem` SET `name` ='寶瓶' WHERE `item_id` = 8070;
-UPDATE `etcitem` SET `name` ='裝著聖杯之水的寶瓶' WHERE `item_id` = 8071;
-UPDATE `etcitem` SET `name` ='羚羊皮革' WHERE `item_id` = 8072;
-UPDATE `etcitem` SET `name` ='芙琳泰沙的結界破咒書' WHERE `item_id` = 8073;
-UPDATE `etcitem` SET `name` ='監視者之眼' WHERE `item_id` = 8074;
-UPDATE `etcitem` SET `name` ='怪岩高崙的碎片' WHERE `item_id` = 8075;
-UPDATE `etcitem` SET `name` ='德魯蜥蜴人的鱗片' WHERE `item_id` = 8076;
-UPDATE `etcitem` SET `name` ='銀冰晶' WHERE `item_id` = 8077;
-UPDATE `etcitem` SET `name` ='黑冰晶' WHERE `item_id` = 8078;
-UPDATE `etcitem` SET `name` ='美紗的信' WHERE `item_id` = 8079;
-UPDATE `etcitem` SET `name` ='雷普利的信' WHERE `item_id` = 8080;
-UPDATE `etcitem` SET `name` ='便條紙的片段' WHERE `item_id` = 8081;
-UPDATE `etcitem` SET `name` ='報告書的片段' WHERE `item_id` = 8082;
-UPDATE `etcitem` SET `name` ='偵查兵的偵查記錄' WHERE `item_id` = 8083;
-UPDATE `etcitem` SET `name` ='純粹的結晶' WHERE `item_id` = 8084;
-UPDATE `etcitem` SET `name` ='司塔卡拓的牙齒' WHERE `item_id` = 8085;
-UPDATE `etcitem` SET `name` ='藏有聖火的寶箱' WHERE `item_id` = 8086;
-UPDATE `etcitem` SET `name` ='受詛咒的人偶' WHERE `item_id` = 8087;
-UPDATE `etcitem` SET `name` ='半獸人的陪葬品' WHERE `item_id` = 8088;
-UPDATE `etcitem` SET `name` ='受詛咒的陪葬品' WHERE `item_id` = 8089;
-UPDATE `etcitem` SET `name` ='電波探測器' WHERE `item_id` = 8090;
-UPDATE `etcitem` SET `name` ='電波探測器' WHERE `item_id` = 8091;
-UPDATE `etcitem` SET `name` ='望遠鏡高崙殘骸' WHERE `item_id` = 8092;
-UPDATE `etcitem` SET `name` ='高崙發信裝置' WHERE `item_id` = 8093;
-UPDATE `etcitem` SET `name` ='儲藏媒介' WHERE `item_id` = 8094;
-UPDATE `etcitem` SET `name` ='儲藏媒介' WHERE `item_id` = 8095;
-UPDATE `etcitem` SET `name` ='雙刀高崙運作記錄器' WHERE `item_id` = 8096;
-UPDATE `etcitem` SET `name` ='X-688' WHERE `item_id` = 8097;
-UPDATE `etcitem` SET `name` ='鐵道員的補給物資' WHERE `item_id` = 8098;
-UPDATE `etcitem` SET `name` ='山賊團的證物' WHERE `item_id` = 8099;
-UPDATE `etcitem` SET `name` ='故障高崙的碎片' WHERE `item_id` = 8100;
-UPDATE `etcitem` SET `name` ='矮人的囑託' WHERE `item_id` = 8101;
-UPDATE `etcitem` SET `name` ='冒險者指南書' WHERE `item_id` = 8153;
-UPDATE `etcitem` SET `name` ='生命藥草' WHERE `item_id` = 8154;
-UPDATE `etcitem` SET `name` ='瑪那藥草' WHERE `item_id` = 8155;
-UPDATE `etcitem` SET `name` ='力量藥草' WHERE `item_id` = 8156;
-UPDATE `etcitem` SET `name` ='魔力藥草' WHERE `item_id` = 8157;
-UPDATE `etcitem` SET `name` ='死神骸骨-C級' WHERE `item_id` = 8158;
-UPDATE `etcitem` SET `name` ='死神骸骨-B級' WHERE `item_id` = 8159;
-UPDATE `etcitem` SET `name` ='死神骸骨-A級' WHERE `item_id` = 8160;
-UPDATE `etcitem` SET `name` ='龍之心-C級' WHERE `item_id` = 8161;
-UPDATE `etcitem` SET `name` ='龍之心-B級' WHERE `item_id` = 8162;
-UPDATE `etcitem` SET `name` ='龍之心-A級' WHERE `item_id` = 8163;
-UPDATE `etcitem` SET `name` ='大地之卵-C級' WHERE `item_id` = 8164;
-UPDATE `etcitem` SET `name` ='大地之卵-B級' WHERE `item_id` = 8165;
-UPDATE `etcitem` SET `name` ='大地之卵-A級' WHERE `item_id` = 8166;
-UPDATE `etcitem` SET `name` ='假生命之核-C級' WHERE `item_id` = 8167;
-UPDATE `etcitem` SET `name` ='假生命之核-B級' WHERE `item_id` = 8168;
-UPDATE `etcitem` SET `name` ='假生命之核-A級' WHERE `item_id` = 8169;
-UPDATE `etcitem` SET `name` ='天使之魂-C級' WHERE `item_id` = 8170;
-UPDATE `etcitem` SET `name` ='天使之魂-B級' WHERE `item_id` = 8171;
-UPDATE `etcitem` SET `name` ='天使之魂-A級' WHERE `item_id` = 8172;
-UPDATE `etcitem` SET `name` ='創造的搖籃-C級(不使用)' WHERE `item_id` = 8173;
-UPDATE `etcitem` SET `name` ='創造的搖籃-B級(不使用)' WHERE `item_id` = 8174;
-UPDATE `etcitem` SET `name` ='創造的搖籃' WHERE `item_id` = 8175;
-UPDATE `etcitem` SET `name` ='破滅的墓碑' WHERE `item_id` = 8176;
-UPDATE `etcitem` SET `name` ='破魂之矢' WHERE `item_id` = 8192;
-UPDATE `etcitem` SET `name` ='漁夫藥水-綠色' WHERE `item_id` = 8193;
-UPDATE `etcitem` SET `name` ='漁夫藥水-翡翠' WHERE `item_id` = 8194;
-UPDATE `etcitem` SET `name` ='漁夫藥水-藍色' WHERE `item_id` = 8195;
-UPDATE `etcitem` SET `name` ='漁夫藥水-黃色' WHERE `item_id` = 8196;
-UPDATE `etcitem` SET `name` ='漁夫藥水-橙色' WHERE `item_id` = 8197;
-UPDATE `etcitem` SET `name` ='漁夫藥水-紫色' WHERE `item_id` = 8198;
-UPDATE `etcitem` SET `name` ='漁夫藥水-紅色' WHERE `item_id` = 8199;
-UPDATE `etcitem` SET `name` ='漁夫藥水-白色' WHERE `item_id` = 8200;
-UPDATE `etcitem` SET `name` ='漁夫藥水-黑色' WHERE `item_id` = 8201;
-UPDATE `etcitem` SET `name` ='漁夫恢復藥水' WHERE `item_id` = 8202;
-UPDATE `etcitem` SET `name` ='雙生柯德朗種子' WHERE `item_id` = 8223;
-UPDATE `etcitem` SET `name` ='巨大柯德朗種子' WHERE `item_id` = 8224;
-UPDATE `etcitem` SET `name` ='沙漠柯德朗種子' WHERE `item_id` = 8225;
-UPDATE `etcitem` SET `name` ='藍色柯巴種子' WHERE `item_id` = 8226;
-UPDATE `etcitem` SET `name` ='紅色柯巴種子' WHERE `item_id` = 8227;
-UPDATE `etcitem` SET `name` ='金色柯巴種子' WHERE `item_id` = 8228;
-UPDATE `etcitem` SET `name` ='沙漠柯巴種子' WHERE `item_id` = 8229;
-UPDATE `etcitem` SET `name` ='改良雙生柯德朗種子' WHERE `item_id` = 8230;
-UPDATE `etcitem` SET `name` ='改良巨大柯德朗種子' WHERE `item_id` = 8231;
-UPDATE `etcitem` SET `name` ='改良沙漠柯德朗種子' WHERE `item_id` = 8232;
-UPDATE `etcitem` SET `name` ='改良藍色柯巴種子' WHERE `item_id` = 8233;
-UPDATE `etcitem` SET `name` ='改良紅色柯巴種子' WHERE `item_id` = 8234;
-UPDATE `etcitem` SET `name` ='改良金色柯巴種子' WHERE `item_id` = 8235;
-UPDATE `etcitem` SET `name` ='改良沙漠柯巴種子' WHERE `item_id` = 8236;
-UPDATE `etcitem` SET `name` ='黑暗柯塔種子' WHERE `item_id` = 8237;
-UPDATE `etcitem` SET `name` ='紅色柯塔種子' WHERE `item_id` = 8238;
-UPDATE `etcitem` SET `name` ='冷氣柯塔種子' WHERE `item_id` = 8239;
-UPDATE `etcitem` SET `name` ='藍色柯塔種子' WHERE `item_id` = 8240;
-UPDATE `etcitem` SET `name` ='金色柯塔種子' WHERE `item_id` = 8241;
-UPDATE `etcitem` SET `name` ='魯特柯塔種子' WHERE `item_id` = 8242;
-UPDATE `etcitem` SET `name` ='沙漠柯塔種子' WHERE `item_id` = 8243;
-UPDATE `etcitem` SET `name` ='紅色柯柏種子' WHERE `item_id` = 8244;
-UPDATE `etcitem` SET `name` ='冷氣柯柏種子' WHERE `item_id` = 8245;
-UPDATE `etcitem` SET `name` ='藍色柯柏種子' WHERE `item_id` = 8246;
-UPDATE `etcitem` SET `name` ='芒刺柯柏種子' WHERE `item_id` = 8247;
-UPDATE `etcitem` SET `name` ='金色柯柏種子' WHERE `item_id` = 8248;
-UPDATE `etcitem` SET `name` ='巨大柯柏種子' WHERE `item_id` = 8249;
-UPDATE `etcitem` SET `name` ='紅色柯德朗種子' WHERE `item_id` = 8250;
-UPDATE `etcitem` SET `name` ='海洋柯德朗種子' WHERE `item_id` = 8251;
-UPDATE `etcitem` SET `name` ='冷氣柯德朗種子' WHERE `item_id` = 8252;
-UPDATE `etcitem` SET `name` ='藍色柯德朗種子' WHERE `item_id` = 8253;
-UPDATE `etcitem` SET `name` ='雙生柯德朗種子' WHERE `item_id` = 8254;
-UPDATE `etcitem` SET `name` ='改良黑暗柯塔種子' WHERE `item_id` = 8255;
-UPDATE `etcitem` SET `name` ='改良紅色柯塔種子' WHERE `item_id` = 8256;
-UPDATE `etcitem` SET `name` ='改良冷氣柯塔種子' WHERE `item_id` = 8257;
-UPDATE `etcitem` SET `name` ='改良藍色柯塔種子' WHERE `item_id` = 8258;
-UPDATE `etcitem` SET `name` ='改良金色柯塔種子' WHERE `item_id` = 8259;
-UPDATE `etcitem` SET `name` ='改良魯特柯塔種子' WHERE `item_id` = 8260;
-UPDATE `etcitem` SET `name` ='改良沙漠柯塔種子' WHERE `item_id` = 8261;
-UPDATE `etcitem` SET `name` ='改良紅色柯柏種子' WHERE `item_id` = 8262;
-UPDATE `etcitem` SET `name` ='改良冷氣柯柏種子' WHERE `item_id` = 8263;
-UPDATE `etcitem` SET `name` ='改良藍色柯柏種子' WHERE `item_id` = 8264;
-UPDATE `etcitem` SET `name` ='改良芒刺柯柏種子' WHERE `item_id` = 8265;
-UPDATE `etcitem` SET `name` ='改良金色柯柏種子' WHERE `item_id` = 8266;
-UPDATE `etcitem` SET `name` ='改良巨大柯柏種子' WHERE `item_id` = 8267;
-UPDATE `etcitem` SET `name` ='改良紅色柯德朗種子' WHERE `item_id` = 8268;
-UPDATE `etcitem` SET `name` ='改良海洋柯德朗種子' WHERE `item_id` = 8269;
-UPDATE `etcitem` SET `name` ='改良冷氣柯德朗種子' WHERE `item_id` = 8270;
-UPDATE `etcitem` SET `name` ='改良藍色柯德朗種子' WHERE `item_id` = 8271;
-UPDATE `etcitem` SET `name` ='改良雙生柯德朗種子' WHERE `item_id` = 8272;
-UPDATE `etcitem` SET `name` ='等候室鑰匙' WHERE `item_id` = 8273;
-UPDATE `etcitem` SET `name` ='禮拜堂鑰匙' WHERE `item_id` = 8274;
-UPDATE `etcitem` SET `name` ='黑色鑰匙' WHERE `item_id` = 8275;
-UPDATE `etcitem` SET `name` ='瑟琪娜的鱗片' WHERE `item_id` = 8276;
-UPDATE `etcitem` SET `name` ='提米斯的鱗片' WHERE `item_id` = 8277;
-UPDATE `etcitem` SET `name` ='馮伊黎翁的碎片' WHERE `item_id` = 8278;
-UPDATE `etcitem` SET `name` ='黑卡特原型的中樞' WHERE `item_id` = 8279;
-UPDATE `etcitem` SET `name` ='岱依封的碎片' WHERE `item_id` = 8280;
-UPDATE `etcitem` SET `name` ='克拉奇的中樞' WHERE `item_id` = 8281;
-UPDATE `etcitem` SET `name` ='拉何的牙齒' WHERE `item_id` = 8282;
-UPDATE `etcitem` SET `name` ='巨大毒胡蜂的針' WHERE `item_id` = 8283;
-UPDATE `etcitem` SET `name` ='雲紋寶石' WHERE `item_id` = 8284;
-UPDATE `etcitem` SET `name` ='幼阿朗尼得的爪' WHERE `item_id` = 8285;
-UPDATE `etcitem` SET `name` ='裝著精靈氣息的容器' WHERE `item_id` = 8286;
-UPDATE `etcitem` SET `name` ='星石' WHERE `item_id` = 8287;
-UPDATE `etcitem` SET `name` ='由米的信' WHERE `item_id` = 8288;
-UPDATE `etcitem` SET `name` ='星石' WHERE `item_id` = 8289;
-UPDATE `etcitem` SET `name` ='帕比爾的花' WHERE `item_id` = 8290;
-UPDATE `etcitem` SET `name` ='亞特蘭達的心臟' WHERE `item_id` = 8291;
-UPDATE `etcitem` SET `name` ='溫蒂的項鍊' WHERE `item_id` = 8292;
-UPDATE `etcitem` SET `name` ='訓練師資格證' WHERE `item_id` = 8293;
-UPDATE `etcitem` SET `name` ='製作卷軸(鋼劍100%)' WHERE `item_id` = 8294;
-UPDATE `etcitem` SET `name` ='製作卷軸(下巨人之劍100%)' WHERE `item_id` = 8295;
-UPDATE `etcitem` SET `name` ='製作卷軸(帕格立歐之劍100%)' WHERE `item_id` = 8296;
-UPDATE `etcitem` SET `name` ='製作卷軸(守護神之劍100%)' WHERE `item_id` = 8297;
-UPDATE `etcitem` SET `name` ='製作卷軸(守護神之劍60%)' WHERE `item_id` = 8298;
-UPDATE `etcitem` SET `name` ='製作卷軸(煉獄之主100%)' WHERE `item_id` = 8299;
-UPDATE `etcitem` SET `name` ='製作卷軸(煉獄之主60%)' WHERE `item_id` = 8300;
-UPDATE `etcitem` SET `name` ='製作卷軸(祭司之劍100%)' WHERE `item_id` = 8301;
-UPDATE `etcitem` SET `name` ='製作卷軸(魔霧之劍100%)' WHERE `item_id` = 8302;
-UPDATE `etcitem` SET `name` ='製作卷軸(奧祕之刃100%)' WHERE `item_id` = 8303;
-UPDATE `etcitem` SET `name` ='製作卷軸(日蝕劍100%)' WHERE `item_id` = 8304;
-UPDATE `etcitem` SET `name` ='製作卷軸(巫師之淚100%)' WHERE `item_id` = 8305;
-UPDATE `etcitem` SET `name` ='製作卷軸(巫師之淚60%)' WHERE `item_id` = 8306;
-UPDATE `etcitem` SET `name` ='製作卷軸(祭司釘鎚100%)' WHERE `item_id` = 8307;
-UPDATE `etcitem` SET `name` ='製作卷軸(月蝕斧100%)' WHERE `item_id` = 8308;
-UPDATE `etcitem` SET `name` ='製作卷軸(破咒者100%)' WHERE `item_id` = 8309;
-UPDATE `etcitem` SET `name` ='製作卷軸(破咒者60%)' WHERE `item_id` = 8310;
-UPDATE `etcitem` SET `name` ='製作卷軸(卡倚巴奴之骨100%)' WHERE `item_id` = 8311;
-UPDATE `etcitem` SET `name` ='製作卷軸(卡倚巴奴之骨60%)' WHERE `item_id` = 8312;
-UPDATE `etcitem` SET `name` ='製作卷軸(英魂之眼100%)' WHERE `item_id` = 8313;
-UPDATE `etcitem` SET `name` ='製作卷軸(英魂之眼60%)' WHERE `item_id` = 8314;
-UPDATE `etcitem` SET `name` ='製作卷軸(火龍之首100%)' WHERE `item_id` = 8315;
-UPDATE `etcitem` SET `name` ='製作卷軸(火龍之首60%)' WHERE `item_id` = 8316;
-UPDATE `etcitem` SET `name` ='製作卷軸(下巨人之鎚100%)' WHERE `item_id` = 8317;
-UPDATE `etcitem` SET `name` ='製作卷軸(矮人巨鎚100%)' WHERE `item_id` = 8318;
-UPDATE `etcitem` SET `name` ='製作卷軸(卡拉克衝角100%)' WHERE `item_id` = 8319;
-UPDATE `etcitem` SET `name` ='製作卷軸(破壞者巨鎚100%)' WHERE `item_id` = 8320;
-UPDATE `etcitem` SET `name` ='製作卷軸(暴風雪巨鎚100%)' WHERE `item_id` = 8321;
-UPDATE `etcitem` SET `name` ='製作卷軸(暴風雪巨鎚60%)' WHERE `item_id` = 8322;
-UPDATE `etcitem` SET `name` ='製作卷軸(星爆100%)' WHERE `item_id` = 8323;
-UPDATE `etcitem` SET `name` ='製作卷軸(星爆60%)' WHERE `item_id` = 8324;
-UPDATE `etcitem` SET `name` ='製作卷軸(末日毀滅者100%)' WHERE `item_id` = 8325;
-UPDATE `etcitem` SET `name` ='製作卷軸(末日毀滅者60%)' WHERE `item_id` = 8326;
-UPDATE `etcitem` SET `name` ='鋼劍劍身' WHERE `item_id` = 8327;
-UPDATE `etcitem` SET `name` ='下巨人之劍劍身' WHERE `item_id` = 8328;
-UPDATE `etcitem` SET `name` ='帕格立歐之劍劍身' WHERE `item_id` = 8329;
-UPDATE `etcitem` SET `name` ='守護神之劍劍身' WHERE `item_id` = 8330;
-UPDATE `etcitem` SET `name` ='煉獄之主刃部' WHERE `item_id` = 8331;
-UPDATE `etcitem` SET `name` ='祭司之劍劍身' WHERE `item_id` = 8332;
-UPDATE `etcitem` SET `name` ='魔霧之劍劍身' WHERE `item_id` = 8333;
-UPDATE `etcitem` SET `name` ='奧祕之刃劍身' WHERE `item_id` = 8334;
-UPDATE `etcitem` SET `name` ='日蝕劍劍身' WHERE `item_id` = 8335;
-UPDATE `etcitem` SET `name` ='巫師之淚刃部' WHERE `item_id` = 8336;
-UPDATE `etcitem` SET `name` ='祭司釘鎚金屬塊' WHERE `item_id` = 8337;
-UPDATE `etcitem` SET `name` ='月蝕斧金屬塊' WHERE `item_id` = 8338;
-UPDATE `etcitem` SET `name` ='破咒者金屬塊' WHERE `item_id` = 8339;
-UPDATE `etcitem` SET `name` ='卡倚巴奴之骨金屬塊' WHERE `item_id` = 8340;
-UPDATE `etcitem` SET `name` ='英魂之眼組件' WHERE `item_id` = 8341;
-UPDATE `etcitem` SET `name` ='火龍之首組件' WHERE `item_id` = 8342;
-UPDATE `etcitem` SET `name` ='下巨人之鎚組件' WHERE `item_id` = 8343;
-UPDATE `etcitem` SET `name` ='矮人巨鎚組件' WHERE `item_id` = 8344;
-UPDATE `etcitem` SET `name` ='卡拉克衝角組件' WHERE `item_id` = 8345;
-UPDATE `etcitem` SET `name` ='破壞者巨鎚組件' WHERE `item_id` = 8346;
-UPDATE `etcitem` SET `name` ='暴風雪巨鎚金屬塊' WHERE `item_id` = 8347;
-UPDATE `etcitem` SET `name` ='星爆金屬塊' WHERE `item_id` = 8348;
-UPDATE `etcitem` SET `name` ='末日毀滅者金屬塊' WHERE `item_id` = 8349;
-UPDATE `etcitem` SET `name` ='黑色魚鱗' WHERE `item_id` = 8351;
-UPDATE `etcitem` SET `name` ='紅色魚鱗' WHERE `item_id` = 8352;
-UPDATE `etcitem` SET `name` ='綠色魚鱗' WHERE `item_id` = 8353;
-UPDATE `etcitem` SET `name` ='黃色魚鱗' WHERE `item_id` = 8354;
-UPDATE `etcitem` SET `name` ='藍色魚鱗' WHERE `item_id` = 8355;
-UPDATE `etcitem` SET `name` ='白色魚鱗' WHERE `item_id` = 8356;
-UPDATE `etcitem` SET `name` ='橙色魚鱗' WHERE `item_id` = 8357;
-UPDATE `etcitem` SET `name` ='紫色魚鱗' WHERE `item_id` = 8358;
-UPDATE `etcitem` SET `name` ='翡翠魚鱗' WHERE `item_id` = 8359;
-UPDATE `etcitem` SET `name` ='冒險家寶箱-C級飾品' WHERE `item_id` = 8360;
-UPDATE `etcitem` SET `name` ='冒險家寶箱-B級飾品' WHERE `item_id` = 8361;
-UPDATE `etcitem` SET `name` ='冒險家寶箱-頭飾' WHERE `item_id` = 8362;
-UPDATE `etcitem` SET `name` ='冒險家寶箱-創造的搖籃' WHERE `item_id` = 8363;
-UPDATE `etcitem` SET `name` ='製作卷軸(派對尖帽100%)' WHERE `item_id` = 8364;
-UPDATE `etcitem` SET `name` ='製作卷軸(派對尖帽70%)' WHERE `item_id` = 8365;
-UPDATE `etcitem` SET `name` ='製作卷軸(吟遊詩人帽100%)' WHERE `item_id` = 8366;
-UPDATE `etcitem` SET `name` ='製作卷軸(吟遊詩人帽70%)' WHERE `item_id` = 8367;
-UPDATE `etcitem` SET `name` ='製作卷軸(工匠的護目鏡100%)' WHERE `item_id` = 8368;
-UPDATE `etcitem` SET `name` ='製作卷軸(工匠的護目鏡70%)' WHERE `item_id` = 8369;
-UPDATE `etcitem` SET `name` ='製作卷軸(勝利者尖角100%)' WHERE `item_id` = 8370;
-UPDATE `etcitem` SET `name` ='製作卷軸(小天使之翼100%)' WHERE `item_id` = 8371;
-UPDATE `etcitem` SET `name` ='製作卷軸(小妖精觸角100%)' WHERE `item_id` = 8372;
-UPDATE `etcitem` SET `name` ='派對尖帽布料' WHERE `item_id` = 8373;
-UPDATE `etcitem` SET `name` ='吟遊詩人帽布料' WHERE `item_id` = 8374;
-UPDATE `etcitem` SET `name` ='工匠的護目鏡材料' WHERE `item_id` = 8375;
-UPDATE `etcitem` SET `name` ='勝利者尖角組件' WHERE `item_id` = 8376;
-UPDATE `etcitem` SET `name` ='小天使之翼組件' WHERE `item_id` = 8377;
-UPDATE `etcitem` SET `name` ='小妖精觸角組件' WHERE `item_id` = 8378;
-UPDATE `etcitem` SET `name` ='石化卷軸' WHERE `item_id` = 8379;
-UPDATE `etcitem` SET `name` ='魔法書-背叛' WHERE `item_id` = 8380;
-UPDATE `etcitem` SET `name` ='魔法書-恐懼結界' WHERE `item_id` = 8381;
-UPDATE `etcitem` SET `name` ='魔法書-暗影詛咒結界' WHERE `item_id` = 8382;
-UPDATE `etcitem` SET `name` ='魔法書-火之陷落結界' WHERE `item_id` = 8383;
-UPDATE `etcitem` SET `name` ='魔法書-水之陷落結界' WHERE `item_id` = 8384;
-UPDATE `etcitem` SET `name` ='魔法書-風之陷落結界' WHERE `item_id` = 8385;
-UPDATE `etcitem` SET `name` ='魔法書-思緒紊亂' WHERE `item_id` = 8386;
-UPDATE `etcitem` SET `name` ='魔法書-召喚受詛咒之骨' WHERE `item_id` = 8387;
-UPDATE `etcitem` SET `name` ='魔法書-高級力量強化' WHERE `item_id` = 8388;
-UPDATE `etcitem` SET `name` ='魔法書-高級保護盾' WHERE `item_id` = 8389;
-UPDATE `etcitem` SET `name` ='護身符-戰爭頌歌' WHERE `item_id` = 8390;
-UPDATE `etcitem` SET `name` ='護身符-大地頌歌' WHERE `item_id` = 8391;
-UPDATE `etcitem` SET `name` ='魔法書-聖之防護' WHERE `item_id` = 8392;
-UPDATE `etcitem` SET `name` ='魔法書-暗之防護' WHERE `item_id` = 8393;
-UPDATE `etcitem` SET `name` ='魔法書-失神術' WHERE `item_id` = 8394;
-UPDATE `etcitem` SET `name` ='魔法書-使魔消除' WHERE `item_id` = 8395;
-UPDATE `etcitem` SET `name` ='魔法書-魔力反噬' WHERE `item_id` = 8396;
-UPDATE `etcitem` SET `name` ='魔法書-澄澈思緒' WHERE `item_id` = 8397;
-UPDATE `etcitem` SET `name` ='魔法書-魔力燃燒' WHERE `item_id` = 8398;
-UPDATE `etcitem` SET `name` ='魔法書-魔力風暴' WHERE `item_id` = 8399;
-UPDATE `etcitem` SET `name` ='魔法書-破邪法' WHERE `item_id` = 8400;
-UPDATE `etcitem` SET `name` ='魔法書-極大治癒術' WHERE `item_id` = 8401;
-UPDATE `etcitem` SET `name` ='魔法書-極大集體治癒術' WHERE `item_id` = 8402;
-UPDATE `etcitem` SET `name` ='高級-敏捷的綠色小魚' WHERE `item_id` = 8403;
-UPDATE `etcitem` SET `name` ='高級-暴躁的綠色小魚' WHERE `item_id` = 8404;
-UPDATE `etcitem` SET `name` ='高級-寬扁的綠色小魚' WHERE `item_id` = 8405;
-UPDATE `etcitem` SET `name` ='高級-敏捷的綠色魚' WHERE `item_id` = 8406;
-UPDATE `etcitem` SET `name` ='高級-暴躁的綠色魚' WHERE `item_id` = 8407;
-UPDATE `etcitem` SET `name` ='高級-寬扁的綠色魚' WHERE `item_id` = 8408;
-UPDATE `etcitem` SET `name` ='高級-敏捷的綠色大魚' WHERE `item_id` = 8409;
-UPDATE `etcitem` SET `name` ='高級-暴躁的綠色大魚' WHERE `item_id` = 8410;
-UPDATE `etcitem` SET `name` ='高級-寬扁的綠色大魚' WHERE `item_id` = 8411;
-UPDATE `etcitem` SET `name` ='高級-敏捷的翡翠小魚' WHERE `item_id` = 8412;
-UPDATE `etcitem` SET `name` ='高級-暴躁的翡翠小魚' WHERE `item_id` = 8413;
-UPDATE `etcitem` SET `name` ='高級-寬扁的翡翠小魚' WHERE `item_id` = 8414;
-UPDATE `etcitem` SET `name` ='高級-敏捷的翡翠魚' WHERE `item_id` = 8415;
-UPDATE `etcitem` SET `name` ='高級-暴躁的翡翠魚' WHERE `item_id` = 8416;
-UPDATE `etcitem` SET `name` ='高級-寬扁的翡翠魚' WHERE `item_id` = 8417;
-UPDATE `etcitem` SET `name` ='高級-敏捷的翡翠大魚' WHERE `item_id` = 8418;
-UPDATE `etcitem` SET `name` ='高級-暴躁的翡翠大魚' WHERE `item_id` = 8419;
-UPDATE `etcitem` SET `name` ='高級-寬扁的翡翠大魚' WHERE `item_id` = 8420;
-UPDATE `etcitem` SET `name` ='高級-敏捷的藍色小魚' WHERE `item_id` = 8421;
-UPDATE `etcitem` SET `name` ='高級-暴躁的藍色小魚' WHERE `item_id` = 8422;
-UPDATE `etcitem` SET `name` ='高級-寬扁的藍色小魚' WHERE `item_id` = 8423;
-UPDATE `etcitem` SET `name` ='高級-敏捷的藍色魚' WHERE `item_id` = 8424;
-UPDATE `etcitem` SET `name` ='高級-暴躁的藍色魚' WHERE `item_id` = 8425;
-UPDATE `etcitem` SET `name` ='高級-寬扁的藍色魚' WHERE `item_id` = 8426;
-UPDATE `etcitem` SET `name` ='高級-敏捷的藍色大魚' WHERE `item_id` = 8427;
-UPDATE `etcitem` SET `name` ='高級-暴躁的藍色大魚' WHERE `item_id` = 8428;
-UPDATE `etcitem` SET `name` ='高級-寬扁的藍色大魚' WHERE `item_id` = 8429;
-UPDATE `etcitem` SET `name` ='高級-敏捷的黃色小魚' WHERE `item_id` = 8430;
-UPDATE `etcitem` SET `name` ='高級-暴躁的黃色小魚' WHERE `item_id` = 8431;
-UPDATE `etcitem` SET `name` ='高級-寬扁的黃色小魚' WHERE `item_id` = 8432;
-UPDATE `etcitem` SET `name` ='高級-敏捷的黃色魚' WHERE `item_id` = 8433;
-UPDATE `etcitem` SET `name` ='高級-暴躁的黃色魚' WHERE `item_id` = 8434;
-UPDATE `etcitem` SET `name` ='高級-寬扁的黃色魚' WHERE `item_id` = 8435;
-UPDATE `etcitem` SET `name` ='高級-敏捷的黃色大魚' WHERE `item_id` = 8436;
-UPDATE `etcitem` SET `name` ='高級-暴躁的黃色大魚' WHERE `item_id` = 8437;
-UPDATE `etcitem` SET `name` ='高級-寬扁的黃色大魚' WHERE `item_id` = 8438;
-UPDATE `etcitem` SET `name` ='高級-敏捷的橙色小魚' WHERE `item_id` = 8439;
-UPDATE `etcitem` SET `name` ='高級-暴躁的橙色小魚' WHERE `item_id` = 8440;
-UPDATE `etcitem` SET `name` ='高級-寬扁的橙色小魚' WHERE `item_id` = 8441;
-UPDATE `etcitem` SET `name` ='高級-敏捷的橙色魚' WHERE `item_id` = 8442;
-UPDATE `etcitem` SET `name` ='高級-暴躁的橙色魚' WHERE `item_id` = 8443;
-UPDATE `etcitem` SET `name` ='高級-寬扁的橙色魚' WHERE `item_id` = 8444;
-UPDATE `etcitem` SET `name` ='高級-敏捷的橙色大魚' WHERE `item_id` = 8445;
-UPDATE `etcitem` SET `name` ='高級-暴躁的橙色大魚' WHERE `item_id` = 8446;
-UPDATE `etcitem` SET `name` ='高級-寬扁的橙色大魚' WHERE `item_id` = 8447;
-UPDATE `etcitem` SET `name` ='高級-敏捷的紫色小魚' WHERE `item_id` = 8448;
-UPDATE `etcitem` SET `name` ='高級-暴躁的紫色小魚' WHERE `item_id` = 8449;
-UPDATE `etcitem` SET `name` ='高級-寬扁的紫色小魚' WHERE `item_id` = 8450;
-UPDATE `etcitem` SET `name` ='高級-敏捷的紫色魚' WHERE `item_id` = 8451;
-UPDATE `etcitem` SET `name` ='高級-暴躁的紫色魚' WHERE `item_id` = 8452;
-UPDATE `etcitem` SET `name` ='高級-寬扁的紫色魚' WHERE `item_id` = 8453;
-UPDATE `etcitem` SET `name` ='高級-敏捷的紫色大魚' WHERE `item_id` = 8454;
-UPDATE `etcitem` SET `name` ='高級-暴躁的紫色大魚' WHERE `item_id` = 8455;
-UPDATE `etcitem` SET `name` ='高級-寬扁的紫色大魚' WHERE `item_id` = 8456;
-UPDATE `etcitem` SET `name` ='高級-敏捷的紅色小魚' WHERE `item_id` = 8457;
-UPDATE `etcitem` SET `name` ='高級-暴躁的紅色小魚' WHERE `item_id` = 8458;
-UPDATE `etcitem` SET `name` ='高級-寬扁的紅色小魚' WHERE `item_id` = 8459;
-UPDATE `etcitem` SET `name` ='高級-敏捷的紅色魚' WHERE `item_id` = 8460;
-UPDATE `etcitem` SET `name` ='高級-暴躁的紅色魚' WHERE `item_id` = 8461;
-UPDATE `etcitem` SET `name` ='高級-寬扁的紅色魚' WHERE `item_id` = 8462;
-UPDATE `etcitem` SET `name` ='高級-敏捷的紅色大魚' WHERE `item_id` = 8463;
-UPDATE `etcitem` SET `name` ='高級-暴躁的紅色大魚' WHERE `item_id` = 8464;
-UPDATE `etcitem` SET `name` ='高級-寬扁的紅色大魚' WHERE `item_id` = 8465;
-UPDATE `etcitem` SET `name` ='高級-敏捷的白色小魚' WHERE `item_id` = 8466;
-UPDATE `etcitem` SET `name` ='高級-暴躁的白色小魚' WHERE `item_id` = 8467;
-UPDATE `etcitem` SET `name` ='高級-寬扁的白色小魚' WHERE `item_id` = 8468;
-UPDATE `etcitem` SET `name` ='高級-敏捷的白色魚' WHERE `item_id` = 8469;
-UPDATE `etcitem` SET `name` ='高級-暴躁的白色魚' WHERE `item_id` = 8470;
-UPDATE `etcitem` SET `name` ='高級-寬扁的白色魚' WHERE `item_id` = 8471;
-UPDATE `etcitem` SET `name` ='高級-敏捷的白色大魚' WHERE `item_id` = 8472;
-UPDATE `etcitem` SET `name` ='高級-暴躁的白色大魚' WHERE `item_id` = 8473;
-UPDATE `etcitem` SET `name` ='高級-寬扁的白色大魚' WHERE `item_id` = 8474;
-UPDATE `etcitem` SET `name` ='高級-敏捷的黑色小魚' WHERE `item_id` = 8475;
-UPDATE `etcitem` SET `name` ='高級-暴躁的黑色小魚' WHERE `item_id` = 8476;
-UPDATE `etcitem` SET `name` ='高級-寬扁的黑色小魚' WHERE `item_id` = 8477;
-UPDATE `etcitem` SET `name` ='高級-敏捷的黑色魚' WHERE `item_id` = 8478;
-UPDATE `etcitem` SET `name` ='高級-暴躁的黑色魚' WHERE `item_id` = 8479;
-UPDATE `etcitem` SET `name` ='高級-寬扁的黑色魚' WHERE `item_id` = 8480;
-UPDATE `etcitem` SET `name` ='高級-敏捷的黑色大魚' WHERE `item_id` = 8481;
-UPDATE `etcitem` SET `name` ='高級-暴躁的黑色大魚' WHERE `item_id` = 8482;
-UPDATE `etcitem` SET `name` ='高級-寬扁的黑色大魚' WHERE `item_id` = 8483;
-UPDATE `etcitem` SET `name` ='漁靈餌' WHERE `item_id` = 8484;
-UPDATE `etcitem` SET `name` ='漁靈餌-夜釣用' WHERE `item_id` = 8485;
-UPDATE `etcitem` SET `name` ='漁靈餌-初學者用' WHERE `item_id` = 8486;
-UPDATE `etcitem` SET `name` ='製作卷軸(破壞者巨鎚60%)' WHERE `item_id` = 8487;
-UPDATE `etcitem` SET `name` ='紋路的鎚子' WHERE `item_id` = 8488;
-UPDATE `etcitem` SET `name` ='惡魔的眼球' WHERE `item_id` = 8489;
-UPDATE `etcitem` SET `name` ='黑斯提亞的妖精石' WHERE `item_id` = 8490;
-UPDATE `etcitem` SET `name` ='退化高崙的中樞' WHERE `item_id` = 8491;
-UPDATE `etcitem` SET `name` ='法斯騰的牙齒' WHERE `item_id` = 8492;
-UPDATE `etcitem` SET `name` ='夏伊德的爪' WHERE `item_id` = 8493;
-UPDATE `etcitem` SET `name` ='熾炎石巨人的中樞' WHERE `item_id` = 8494;
-UPDATE `etcitem` SET `name` ='灰色星之書' WHERE `item_id` = 8495;
-UPDATE `etcitem` SET `name` ='古魯丁夜光魚餌' WHERE `item_id` = 8496;
-UPDATE `etcitem` SET `name` ='狄恩夜光魚餌' WHERE `item_id` = 8497;
-UPDATE `etcitem` SET `name` ='奇岩夜光魚餌' WHERE `item_id` = 8498;
-UPDATE `etcitem` SET `name` ='歐瑞夜光魚餌' WHERE `item_id` = 8499;
-UPDATE `etcitem` SET `name` ='亞丁夜光魚餌' WHERE `item_id` = 8500;
-UPDATE `etcitem` SET `name` ='因納得立夜光魚餌' WHERE `item_id` = 8501;
-UPDATE `etcitem` SET `name` ='因納得立夜光魚餌' WHERE `item_id` = 8502;
-UPDATE `etcitem` SET `name` ='魯因夜光魚餌' WHERE `item_id` = 8503;
-UPDATE `etcitem` SET `name` ='修加特夜光魚餌' WHERE `item_id` = 8504;
-UPDATE `etcitem` SET `name` ='綠色夜光魚餌-下等' WHERE `item_id` = 8505;
-UPDATE `etcitem` SET `name` ='綠色夜光魚餌-中等' WHERE `item_id` = 8506;
-UPDATE `etcitem` SET `name` ='綠色夜光魚餌-高等' WHERE `item_id` = 8507;
-UPDATE `etcitem` SET `name` ='紫色夜光魚餌-下等' WHERE `item_id` = 8508;
-UPDATE `etcitem` SET `name` ='紫色夜光魚餌-中等' WHERE `item_id` = 8509;
-UPDATE `etcitem` SET `name` ='紫色夜光魚餌-高等' WHERE `item_id` = 8510;
-UPDATE `etcitem` SET `name` ='黃色夜光魚餌-下等' WHERE `item_id` = 8511;
-UPDATE `etcitem` SET `name` ='黃色夜光魚餌-中等' WHERE `item_id` = 8512;
-UPDATE `etcitem` SET `name` ='黃色夜光魚餌-高等' WHERE `item_id` = 8513;
-UPDATE `etcitem` SET `name` ='古代矮人們殘留的夢' WHERE `item_id` = 8514;
-UPDATE `etcitem` SET `name` ='勇氣護符-普通' WHERE `item_id` = 8515;
-UPDATE `etcitem` SET `name` ='勇氣護符-D級' WHERE `item_id` = 8516;
-UPDATE `etcitem` SET `name` ='勇氣護符-C級' WHERE `item_id` = 8517;
-UPDATE `etcitem` SET `name` ='勇氣護符-B級' WHERE `item_id` = 8518;
-UPDATE `etcitem` SET `name` ='勇氣護符-A級' WHERE `item_id` = 8519;
-UPDATE `etcitem` SET `name` ='勇氣護符-S級' WHERE `item_id` = 8520;
-UPDATE `etcitem` SET `name` ='海洋柯巴種子' WHERE `item_id` = 8521;
-UPDATE `etcitem` SET `name` ='改良海洋柯巴種子' WHERE `item_id` = 8522;
-UPDATE `etcitem` SET `name` ='雙生柯巴種子' WHERE `item_id` = 8523;
-UPDATE `etcitem` SET `name` ='改良雙生柯巴種子' WHERE `item_id` = 8524;
-UPDATE `etcitem` SET `name` ='巨大柯巴種子' WHERE `item_id` = 8525;
-UPDATE `etcitem` SET `name` ='改良巨大柯巴種子' WHERE `item_id` = 8526;
-UPDATE `etcitem` SET `name` ='冒險家寶箱-C級飾品(下級)' WHERE `item_id` = 8534;
-UPDATE `etcitem` SET `name` ='冒險家寶箱-C級飾品(中級)' WHERE `item_id` = 8535;
-UPDATE `etcitem` SET `name` ='冒險家寶箱-C級飾品(上級)' WHERE `item_id` = 8536;
-UPDATE `etcitem` SET `name` ='冒險家寶箱-B級飾品(下級)' WHERE `item_id` = 8537;
-UPDATE `etcitem` SET `name` ='冒險家寶箱-B級飾品(上級)' WHERE `item_id` = 8538;
-UPDATE `etcitem` SET `name` ='冒險家寶箱-頭飾' WHERE `item_id` = 8539;
-UPDATE `etcitem` SET `name` ='冒險家寶箱-創造的搖籃' WHERE `item_id` = 8540;
-UPDATE `etcitem` SET `name` ='見習旅者的標章' WHERE `item_id` = 8542;
-UPDATE `etcitem` SET `name` ='珠子包裹' WHERE `item_id` = 8543;
-UPDATE `etcitem` SET `name` ='提莫拉獸人的頭' WHERE `item_id` = 8544;
-UPDATE `etcitem` SET `name` ='卡沙蜘蛛的牙齒' WHERE `item_id` = 8545;
-UPDATE `etcitem` SET `name` ='巴爾德雷巴奴的角' WHERE `item_id` = 8546;
-UPDATE `etcitem` SET `name` ='老舊的箱子' WHERE `item_id` = 8547;
-UPDATE `etcitem` SET `name` ='溫泉魚餌' WHERE `item_id` = 8548;
-UPDATE `etcitem` SET `name` ='布朗蜥蜴人的血' WHERE `item_id` = 8549;
-UPDATE `etcitem` SET `name` ='比卡特阿朗尼得的腿' WHERE `item_id` = 8550;
-UPDATE `etcitem` SET `name` ='勝利的聲援道具箱子' WHERE `item_id` = 8551;
-UPDATE `etcitem` SET `name` ='紅魔鬼面具組件' WHERE `item_id` = 8553;
-UPDATE `etcitem` SET `name` ='製作卷軸(紅魔鬼面具100%)' WHERE `item_id` = 8554;
-UPDATE `etcitem` SET `name` ='回聲水晶-VIVA Victory Korea' WHERE `item_id` = 8555;
-UPDATE `etcitem` SET `name` ='破魂的露水' WHERE `item_id` = 8556;
-UPDATE `etcitem` SET `name` ='活動禮品箱' WHERE `item_id` = 8570;
-UPDATE `etcitem` SET `name` ='活動禮品箱' WHERE `item_id` = 8571;
-UPDATE `etcitem` SET `name` ='活動禮品箱' WHERE `item_id` = 8572;
-UPDATE `etcitem` SET `name` ='活動禮品箱' WHERE `item_id` = 8573;
-UPDATE `etcitem` SET `name` ='活動禮品箱' WHERE `item_id` = 8574;
-UPDATE `etcitem` SET `name` ='活動禮品箱' WHERE `item_id` = 8575;
-UPDATE `etcitem` SET `name` ='免費武器交換券' WHERE `item_id` = 8592;
-UPDATE `etcitem` SET `name` ='武器交換券-D級' WHERE `item_id` = 8593;
-UPDATE `etcitem` SET `name` ='恢復卷軸-普通' WHERE `item_id` = 8594;
-UPDATE `etcitem` SET `name` ='恢復卷軸-D級' WHERE `item_id` = 8595;
-UPDATE `etcitem` SET `name` ='恢復卷軸-C級' WHERE `item_id` = 8596;
-UPDATE `etcitem` SET `name` ='恢復卷軸-B級' WHERE `item_id` = 8597;
-UPDATE `etcitem` SET `name` ='恢復卷軸-A級' WHERE `item_id` = 8598;
-UPDATE `etcitem` SET `name` ='恢復卷軸-S級' WHERE `item_id` = 8599;
-UPDATE `etcitem` SET `name` ='生命藥草' WHERE `item_id` = 8600;
-UPDATE `etcitem` SET `name` ='強力生命藥草' WHERE `item_id` = 8601;
-UPDATE `etcitem` SET `name` ='超強力生命藥草' WHERE `item_id` = 8602;
-UPDATE `etcitem` SET `name` ='瑪那藥草' WHERE `item_id` = 8603;
-UPDATE `etcitem` SET `name` ='強力瑪那藥草' WHERE `item_id` = 8604;
-UPDATE `etcitem` SET `name` ='超強力瑪那藥草' WHERE `item_id` = 8605;
-UPDATE `etcitem` SET `name` ='力量藥草' WHERE `item_id` = 8606;
-UPDATE `etcitem` SET `name` ='魔力藥草' WHERE `item_id` = 8607;
-UPDATE `etcitem` SET `name` ='攻擊加速藥草' WHERE `item_id` = 8608;
-UPDATE `etcitem` SET `name` ='施法加速藥草' WHERE `item_id` = 8609;
-UPDATE `etcitem` SET `name` ='致命攻擊藥草-機率' WHERE `item_id` = 8610;
-UPDATE `etcitem` SET `name` ='移動加速藥草' WHERE `item_id` = 8611;
-UPDATE `etcitem` SET `name` ='戰士用藥草' WHERE `item_id` = 8612;
-UPDATE `etcitem` SET `name` ='法師用藥草' WHERE `item_id` = 8613;
-UPDATE `etcitem` SET `name` ='恢復藥草' WHERE `item_id` = 8614;
-UPDATE `etcitem` SET `name` ='召喚水晶' WHERE `item_id` = 8615;
-UPDATE `etcitem` SET `name` ='魔法書-召喚戰友' WHERE `item_id` = 8616;
-UPDATE `etcitem` SET `name` ='魔法書-招來咒言' WHERE `item_id` = 8617;
-UPDATE `etcitem` SET `name` ='古書-神威加持(譯本)' WHERE `item_id` = 8618;
-UPDATE `etcitem` SET `name` ='古書-神威加持(古本)' WHERE `item_id` = 8619;
-UPDATE `etcitem` SET `name` ='古書-神威加持(抄本)' WHERE `item_id` = 8620;
-UPDATE `etcitem` SET `name` ='古書-神威加持(祕本)' WHERE `item_id` = 8621;
-UPDATE `etcitem` SET `name` ='生命靈藥-普通' WHERE `item_id` = 8622;
-UPDATE `etcitem` SET `name` ='生命靈藥-D級' WHERE `item_id` = 8623;
-UPDATE `etcitem` SET `name` ='生命靈藥-C級' WHERE `item_id` = 8624;
-UPDATE `etcitem` SET `name` ='生命靈藥-B級' WHERE `item_id` = 8625;
-UPDATE `etcitem` SET `name` ='生命靈藥-A級' WHERE `item_id` = 8626;
-UPDATE `etcitem` SET `name` ='生命靈藥-S級' WHERE `item_id` = 8627;
-UPDATE `etcitem` SET `name` ='精神靈藥-普通' WHERE `item_id` = 8628;
-UPDATE `etcitem` SET `name` ='精神靈藥-D級' WHERE `item_id` = 8629;
-UPDATE `etcitem` SET `name` ='精神靈藥-C級' WHERE `item_id` = 8630;
-UPDATE `etcitem` SET `name` ='精神靈藥-B級' WHERE `item_id` = 8631;
-UPDATE `etcitem` SET `name` ='精神靈藥-A級' WHERE `item_id` = 8632;
-UPDATE `etcitem` SET `name` ='精神靈藥-S級' WHERE `item_id` = 8633;
-UPDATE `etcitem` SET `name` ='鬥志靈藥-普通' WHERE `item_id` = 8634;
-UPDATE `etcitem` SET `name` ='鬥志靈藥-D級' WHERE `item_id` = 8635;
-UPDATE `etcitem` SET `name` ='鬥志靈藥-C級' WHERE `item_id` = 8636;
-UPDATE `etcitem` SET `name` ='鬥志靈藥-B級' WHERE `item_id` = 8637;
-UPDATE `etcitem` SET `name` ='鬥志靈藥-A級' WHERE `item_id` = 8638;
-UPDATE `etcitem` SET `name` ='鬥志靈藥-S級' WHERE `item_id` = 8639;
-UPDATE `etcitem` SET `name` ='製作卷軸(生命靈藥-普通100%)' WHERE `item_id` = 8640;
-UPDATE `etcitem` SET `name` ='製作卷軸(生命靈藥-D級100%)' WHERE `item_id` = 8641;
-UPDATE `etcitem` SET `name` ='製作卷軸(生命靈藥-C級100%)' WHERE `item_id` = 8642;
-UPDATE `etcitem` SET `name` ='製作卷軸(生命靈藥-B級100%)' WHERE `item_id` = 8643;
-UPDATE `etcitem` SET `name` ='製作卷軸(生命靈藥-A級100%)' WHERE `item_id` = 8644;
-UPDATE `etcitem` SET `name` ='製作卷軸(生命靈藥-S級100%)' WHERE `item_id` = 8645;
-UPDATE `etcitem` SET `name` ='製作卷軸(精神靈藥-普通100%)' WHERE `item_id` = 8646;
-UPDATE `etcitem` SET `name` ='製作卷軸(精神靈藥-D級100%)' WHERE `item_id` = 8647;
-UPDATE `etcitem` SET `name` ='製作卷軸(精神靈藥-C級100%)' WHERE `item_id` = 8648;
-UPDATE `etcitem` SET `name` ='製作卷軸(精神靈藥-B級100%)' WHERE `item_id` = 8649;
-UPDATE `etcitem` SET `name` ='製作卷軸(精神靈藥-A級100%)' WHERE `item_id` = 8650;
-UPDATE `etcitem` SET `name` ='製作卷軸(精神靈藥-S級100%)' WHERE `item_id` = 8651;
-UPDATE `etcitem` SET `name` ='製作卷軸(鬥志靈藥-普通100%)' WHERE `item_id` = 8652;
-UPDATE `etcitem` SET `name` ='製作卷軸(鬥志靈藥-D級100%)' WHERE `item_id` = 8653;
-UPDATE `etcitem` SET `name` ='製作卷軸(鬥志靈藥-C級100%)' WHERE `item_id` = 8654;
-UPDATE `etcitem` SET `name` ='製作卷軸(鬥志靈藥-B級100%)' WHERE `item_id` = 8655;
-UPDATE `etcitem` SET `name` ='製作卷軸(鬥志靈藥-A級100%)' WHERE `item_id` = 8656;
-UPDATE `etcitem` SET `name` ='製作卷軸(鬥志靈藥-S級100%)' WHERE `item_id` = 8657;
-UPDATE `etcitem` SET `name` ='神祕的溶劑' WHERE `item_id` = 8658;
-UPDATE `etcitem` SET `name` ='萬聖節寶箱' WHERE `item_id` = 8659;
-UPDATE `etcitem` SET `name` ='疑問藥水(活動用)' WHERE `item_id` = 8663;
-UPDATE `etcitem` SET `name` ='整形藥水-A(活動用)' WHERE `item_id` = 8664;
-UPDATE `etcitem` SET `name` ='整形藥水-B(活動用)' WHERE `item_id` = 8665;
-UPDATE `etcitem` SET `name` ='整形藥水-C(活動用)' WHERE `item_id` = 8666;
-UPDATE `etcitem` SET `name` ='染髮藥水-A(活動用)' WHERE `item_id` = 8667;
-UPDATE `etcitem` SET `name` ='染髮藥水-B(活動用)' WHERE `item_id` = 8668;
-UPDATE `etcitem` SET `name` ='染髮藥水-C(活動用)' WHERE `item_id` = 8669;
-UPDATE `etcitem` SET `name` ='染髮藥水-D(活動用)' WHERE `item_id` = 8670;
-UPDATE `etcitem` SET `name` ='造型藥水-A(活動用)' WHERE `item_id` = 8671;
-UPDATE `etcitem` SET `name` ='造型藥水-B(活動用)' WHERE `item_id` = 8672;
-UPDATE `etcitem` SET `name` ='造型藥水-C(活動用)' WHERE `item_id` = 8673;
-UPDATE `etcitem` SET `name` ='造型藥水-D(活動用)' WHERE `item_id` = 8674;
-UPDATE `etcitem` SET `name` ='造型藥水-E(活動用)' WHERE `item_id` = 8675;
-UPDATE `etcitem` SET `name` ='造型藥水-F(活動用)' WHERE `item_id` = 8676;
-UPDATE `etcitem` SET `name` ='造型藥水-G(活動用)' WHERE `item_id` = 8677;
-UPDATE `etcitem` SET `name` ='製作卷軸(希露冰刃60%)' WHERE `item_id` = 8690;
-UPDATE `etcitem` SET `name` ='製作卷軸(希露冰刃100%)' WHERE `item_id` = 8691;
-UPDATE `etcitem` SET `name` ='製作卷軸(伊波斯巨劍60%)' WHERE `item_id` = 8692;
-UPDATE `etcitem` SET `name` ='製作卷軸(伊波斯巨劍100%)' WHERE `item_id` = 8693;
-UPDATE `etcitem` SET `name` ='製作卷軸(貝拉凱爾聖斧60%)' WHERE `item_id` = 8694;
-UPDATE `etcitem` SET `name` ='製作卷軸(貝拉凱爾聖斧100%)' WHERE `item_id` = 8695;
-UPDATE `etcitem` SET `name` ='製作卷軸(貝希莫斯巨叉60%)' WHERE `item_id` = 8696;
-UPDATE `etcitem` SET `name` ='製作卷軸(貝希莫斯巨叉100%)' WHERE `item_id` = 8697;
-UPDATE `etcitem` SET `name` ='製作卷軸(那卡風暴60%)' WHERE `item_id` = 8698;
-UPDATE `etcitem` SET `name` ='製作卷軸(那卡風暴100%)' WHERE `item_id` = 8699;
-UPDATE `etcitem` SET `name` ='製作卷軸(岱依封長戟60%)' WHERE `item_id` = 8700;
-UPDATE `etcitem` SET `name` ='製作卷軸(岱依封長戟100%)' WHERE `item_id` = 8701;
-UPDATE `etcitem` SET `name` ='製作卷軸(夏伊德獵弓60%)' WHERE `item_id` = 8702;
-UPDATE `etcitem` SET `name` ='製作卷軸(夏伊德獵弓100%)' WHERE `item_id` = 8703;
-UPDATE `etcitem` SET `name` ='製作卷軸(索貝克颶風60%)' WHERE `item_id` = 8704;
-UPDATE `etcitem` SET `name` ='製作卷軸(索貝克颶風100%)' WHERE `item_id` = 8705;
-UPDATE `etcitem` SET `name` ='製作卷軸(緹米絲之舌60%)' WHERE `item_id` = 8706;
-UPDATE `etcitem` SET `name` ='製作卷軸(緹米絲之舌100%)' WHERE `item_id` = 8707;
-UPDATE `etcitem` SET `name` ='製作卷軸(卡布里歐之手60%)' WHERE `item_id` = 8708;
-UPDATE `etcitem` SET `name` ='製作卷軸(卡布里歐之手100%)' WHERE `item_id` = 8709;
-UPDATE `etcitem` SET `name` ='製作卷軸(惡魔結晶60%)' WHERE `item_id` = 8710;
-UPDATE `etcitem` SET `name` ='製作卷軸(惡魔結晶100%)' WHERE `item_id` = 8711;
-UPDATE `etcitem` SET `name` ='希露冰刃刀身' WHERE `item_id` = 8712;
-UPDATE `etcitem` SET `name` ='伊波斯巨劍劍身' WHERE `item_id` = 8713;
-UPDATE `etcitem` SET `name` ='貝拉凱爾聖斧碎片' WHERE `item_id` = 8714;
-UPDATE `etcitem` SET `name` ='貝希莫斯巨叉碎片' WHERE `item_id` = 8715;
-UPDATE `etcitem` SET `name` ='那卡風暴碎片' WHERE `item_id` = 8716;
-UPDATE `etcitem` SET `name` ='岱依封長戟刃部' WHERE `item_id` = 8717;
-UPDATE `etcitem` SET `name` ='夏伊德獵弓柄' WHERE `item_id` = 8718;
-UPDATE `etcitem` SET `name` ='索貝克颶風刀緣' WHERE `item_id` = 8719;
-UPDATE `etcitem` SET `name` ='緹米絲之舌碎片' WHERE `item_id` = 8720;
-UPDATE `etcitem` SET `name` ='卡布里歐之手金屬塊' WHERE `item_id` = 8721;
-UPDATE `etcitem` SET `name` ='惡魔結晶碎片' WHERE `item_id` = 8722;
-UPDATE `etcitem` SET `name` ='生命石-46級' WHERE `item_id` = 8723;
-UPDATE `etcitem` SET `name` ='生命石-49級' WHERE `item_id` = 8724;
-UPDATE `etcitem` SET `name` ='生命石-52級' WHERE `item_id` = 8725;
-UPDATE `etcitem` SET `name` ='生命石-55級' WHERE `item_id` = 8726;
-UPDATE `etcitem` SET `name` ='生命石-58級' WHERE `item_id` = 8727;
-UPDATE `etcitem` SET `name` ='生命石-61級' WHERE `item_id` = 8728;
-UPDATE `etcitem` SET `name` ='生命石-64級' WHERE `item_id` = 8729;
-UPDATE `etcitem` SET `name` ='生命石-67級' WHERE `item_id` = 8730;
-UPDATE `etcitem` SET `name` ='生命石-70級' WHERE `item_id` = 8731;
-UPDATE `etcitem` SET `name` ='生命石-76級' WHERE `item_id` = 8732;
-UPDATE `etcitem` SET `name` ='中級生命石-46級' WHERE `item_id` = 8733;
-UPDATE `etcitem` SET `name` ='中級生命石-49級' WHERE `item_id` = 8734;
-UPDATE `etcitem` SET `name` ='中級生命石-52級' WHERE `item_id` = 8735;
-UPDATE `etcitem` SET `name` ='中級生命石-55級' WHERE `item_id` = 8736;
-UPDATE `etcitem` SET `name` ='中級生命石-58級' WHERE `item_id` = 8737;
-UPDATE `etcitem` SET `name` ='中級生命石-61級' WHERE `item_id` = 8738;
-UPDATE `etcitem` SET `name` ='中級生命石-64級' WHERE `item_id` = 8739;
-UPDATE `etcitem` SET `name` ='中級生命石-67級' WHERE `item_id` = 8740;
-UPDATE `etcitem` SET `name` ='中級生命石-70級' WHERE `item_id` = 8741;
-UPDATE `etcitem` SET `name` ='中級生命石-76級' WHERE `item_id` = 8742;
-UPDATE `etcitem` SET `name` ='高級生命石-46級' WHERE `item_id` = 8743;
-UPDATE `etcitem` SET `name` ='高級生命石-49級' WHERE `item_id` = 8744;
-UPDATE `etcitem` SET `name` ='高級生命石-52級' WHERE `item_id` = 8745;
-UPDATE `etcitem` SET `name` ='高級生命石-55級' WHERE `item_id` = 8746;
-UPDATE `etcitem` SET `name` ='高級生命石-58級' WHERE `item_id` = 8747;
-UPDATE `etcitem` SET `name` ='高級生命石-61級' WHERE `item_id` = 8748;
-UPDATE `etcitem` SET `name` ='高級生命石-64級' WHERE `item_id` = 8749;
-UPDATE `etcitem` SET `name` ='高級生命石-67級' WHERE `item_id` = 8750;
-UPDATE `etcitem` SET `name` ='高級生命石-70級' WHERE `item_id` = 8751;
-UPDATE `etcitem` SET `name` ='高級生命石-76級' WHERE `item_id` = 8752;
-UPDATE `etcitem` SET `name` ='特級生命石-46級' WHERE `item_id` = 8753;
-UPDATE `etcitem` SET `name` ='特級生命石-49級' WHERE `item_id` = 8754;
-UPDATE `etcitem` SET `name` ='特級生命石-52級' WHERE `item_id` = 8755;
-UPDATE `etcitem` SET `name` ='特級生命石-55級' WHERE `item_id` = 8756;
-UPDATE `etcitem` SET `name` ='特級生命石-58級' WHERE `item_id` = 8757;
-UPDATE `etcitem` SET `name` ='特級生命石-61級' WHERE `item_id` = 8758;
-UPDATE `etcitem` SET `name` ='特級生命石-64級' WHERE `item_id` = 8759;
-UPDATE `etcitem` SET `name` ='特級生命石-67級' WHERE `item_id` = 8760;
-UPDATE `etcitem` SET `name` ='特級生命石-70級' WHERE `item_id` = 8761;
-UPDATE `etcitem` SET `name` ='特級生命石-76級' WHERE `item_id` = 8762;
-UPDATE `etcitem` SET `name` ='獵捕石' WHERE `item_id` = 8764;
-UPDATE `etcitem` SET `name` ='紅色珠子' WHERE `item_id` = 8765;
-UPDATE `etcitem` SET `name` ='精靈的珠子' WHERE `item_id` = 8766;
-UPDATE `etcitem` SET `name` ='暴龍的爪子' WHERE `item_id` = 8767;
-UPDATE `etcitem` SET `name` ='日記本片段' WHERE `item_id` = 8768;
-UPDATE `etcitem` SET `name` ='探險隊員的紙條' WHERE `item_id` = 8769;
-UPDATE `etcitem` SET `name` ='似鳥龍的爪子' WHERE `item_id` = 8770;
-UPDATE `etcitem` SET `name` ='恐爪龍的骨頭' WHERE `item_id` = 8771;
-UPDATE `etcitem` SET `name` ='厚頭龍的皮革' WHERE `item_id` = 8772;
-UPDATE `etcitem` SET `name` ='演習用可羅津捕獲器' WHERE `item_id` = 8773;
-UPDATE `etcitem` SET `name` ='恐龍活體組織' WHERE `item_id` = 8774;
-UPDATE `etcitem` SET `name` ='古代之卵' WHERE `item_id` = 8775;
-UPDATE `etcitem` SET `name` ='平原恐龍的骨頭' WHERE `item_id` = 8776;
-UPDATE `etcitem` SET `name` ='太古生命體的技術' WHERE `item_id` = 8777;
-UPDATE `etcitem` SET `name` ='曼塔拉薩的蛋' WHERE `item_id` = 8778;
-UPDATE `etcitem` SET `name` ='似鳥龍的爪子' WHERE `item_id` = 8779;
-UPDATE `etcitem` SET `name` ='恐爪龍的骨頭碎片' WHERE `item_id` = 8780;
-UPDATE `etcitem` SET `name` ='智慧的碑文' WHERE `item_id` = 8781;
-UPDATE `etcitem` SET `name` ='卡茲克的碎片' WHERE `item_id` = 8782;
-UPDATE `etcitem` SET `name` ='骨頭粉末' WHERE `item_id` = 8783;
-UPDATE `etcitem` SET `name` ='卡茲克' WHERE `item_id` = 8784;
-UPDATE `etcitem` SET `name` ='恐龍牙項鍊' WHERE `item_id` = 8785;
-UPDATE `etcitem` SET `name` ='原始藥水' WHERE `item_id` = 8786;
-UPDATE `etcitem` SET `name` ='蛛網膜果實' WHERE `item_id` = 8787;
-UPDATE `etcitem` SET `name` ='無上的寶石' WHERE `item_id` = 8868;
-UPDATE `etcitem` SET `name` ='幻象裝備交換券-D級' WHERE `item_id` = 8869;
-UPDATE `etcitem` SET `name` ='幻象裝備交換券-C級' WHERE `item_id` = 8870;
-UPDATE `etcitem` SET `name` ='戰略指南書' WHERE `item_id` = 8871;
-UPDATE `etcitem` SET `name` ='無煙火藥粉末' WHERE `item_id` = 8872;
-UPDATE `etcitem` SET `name` ='不死鳥之血' WHERE `item_id` = 8873;
-UPDATE `etcitem` SET `name` ='殷海薩聖水' WHERE `item_id` = 8874;
-UPDATE `etcitem` SET `name` ='戰鬥徽章' WHERE `item_id` = 8875;
-UPDATE `etcitem` SET `name` ='魔法徽章' WHERE `item_id` = 8876;
-UPDATE `etcitem` SET `name` ='魔法書-不死鳥之魂' WHERE `item_id` = 8877;
-UPDATE `etcitem` SET `name` ='魔法書-召喚國王貓' WHERE `item_id` = 8878;
-UPDATE `etcitem` SET `name` ='魔法書-召喚輝煌獨角獸' WHERE `item_id` = 8879;
-UPDATE `etcitem` SET `name` ='魔法書-召喚幽冥之主' WHERE `item_id` = 8880;
-UPDATE `etcitem` SET `name` ='魔法書-淨罪' WHERE `item_id` = 8881;
-UPDATE `etcitem` SET `name` ='魔法書-救贖' WHERE `item_id` = 8882;
-UPDATE `etcitem` SET `name` ='魔法書-祕術免疫' WHERE `item_id` = 8883;
-UPDATE `etcitem` SET `name` ='魔法書-咒文偏移' WHERE `item_id` = 8884;
-UPDATE `etcitem` SET `name` ='護身符-輝煌頌歌' WHERE `item_id` = 8885;
-UPDATE `etcitem` SET `name` ='護身符-帕格立歐必勝' WHERE `item_id` = 8886;
-UPDATE `etcitem` SET `name` ='護身符-帕格立歐聖徽' WHERE `item_id` = 8887;
-UPDATE `etcitem` SET `name` ='護身符-帕格立歐奮戰' WHERE `item_id` = 8888;
-UPDATE `etcitem` SET `name` ='護身符-門扉頌歌' WHERE `item_id` = 8889;
-UPDATE `etcitem` SET `name` ='魔法書-召喚吸引晶體' WHERE `item_id` = 8890;
-UPDATE `etcitem` SET `name` ='魔法書-靈氣閃光' WHERE `item_id` = 8891;
-UPDATE `etcitem` SET `name` ='古代兵法書-鐵壁陣勢' WHERE `item_id` = 8892;
-UPDATE `etcitem` SET `name` ='古代兵法書-高歌陣勢' WHERE `item_id` = 8893;
-UPDATE `etcitem` SET `name` ='古代兵法書-剛毅陣勢' WHERE `item_id` = 8894;
-UPDATE `etcitem` SET `name` ='古代兵法書-奮戰陣勢' WHERE `item_id` = 8895;
-UPDATE `etcitem` SET `name` ='古代兵法書-激鬥陣勢' WHERE `item_id` = 8896;
-UPDATE `etcitem` SET `name` ='古代兵法書-狙擊陣勢' WHERE `item_id` = 8897;
-UPDATE `etcitem` SET `name` ='古代兵法書-暗殺陣勢' WHERE `item_id` = 8898;
-UPDATE `etcitem` SET `name` ='古代魔法書-爆炎' WHERE `item_id` = 8899;
-UPDATE `etcitem` SET `name` ='古代魔法書-烈風' WHERE `item_id` = 8900;
-UPDATE `etcitem` SET `name` ='古代魔法書-海嘯' WHERE `item_id` = 8901;
-UPDATE `etcitem` SET `name` ='古代魔法書-末日' WHERE `item_id` = 8902;
-UPDATE `etcitem` SET `name` ='古代魔法書-煉獄' WHERE `item_id` = 8903;
-UPDATE `etcitem` SET `name` ='古代魔法書-次元裂縫' WHERE `item_id` = 8904;
-UPDATE `etcitem` SET `name` ='古代魔法書-純淨' WHERE `item_id` = 8905;
-UPDATE `etcitem` SET `name` ='古代魔法書-奇蹟' WHERE `item_id` = 8906;
-UPDATE `etcitem` SET `name` ='古代魔法書-不滅之火' WHERE `item_id` = 8907;
-UPDATE `etcitem` SET `name` ='古代魔法書-魔力泉源' WHERE `item_id` = 8908;
-UPDATE `etcitem` SET `name` ='設計圖-召喚奇襲加農砲' WHERE `item_id` = 8909;
-UPDATE `etcitem` SET `name` ='船票-原始之島往魯因' WHERE `item_id` = 8924;
-UPDATE `etcitem` SET `name` ='船票-魯因往原始之島' WHERE `item_id` = 8925;
-UPDATE `etcitem` SET `name` ='多明尼克的信物' WHERE `item_id` = 8939;
-UPDATE `etcitem` SET `name` ='未來的憑證-人類' WHERE `item_id` = 8940;
-UPDATE `etcitem` SET `name` ='未來的憑證-矮人' WHERE `item_id` = 8941;
-UPDATE `etcitem` SET `name` ='未來的憑證-精靈' WHERE `item_id` = 8942;
-UPDATE `etcitem` SET `name` ='未來的憑證-黑暗精靈' WHERE `item_id` = 8943;
-UPDATE `etcitem` SET `name` ='未來的憑證-半獸人' WHERE `item_id` = 8944;
-UPDATE `etcitem` SET `name` ='魔法書-天國聖盾' WHERE `item_id` = 8945;
-UPDATE `etcitem` SET `name` ='魔法書-默禱' WHERE `item_id` = 8946;
-UPDATE `etcitem` SET `name` ='強力生命藥草' WHERE `item_id` = 8952;
-UPDATE `etcitem` SET `name` ='強力瑪那藥草' WHERE `item_id` = 8953;
-UPDATE `etcitem` SET `name` ='藍色原始水晶' WHERE `item_id` = 8954;
-UPDATE `etcitem` SET `name` ='綠色原始水晶' WHERE `item_id` = 8955;
-UPDATE `etcitem` SET `name` ='紅色原始水晶' WHERE `item_id` = 8956;
-UPDATE `etcitem` SET `name` ='幻象裝備交換券-活動用' WHERE `item_id` = 8957;
-UPDATE `etcitem` SET `name` ='幻象裝備交換券-活動用' WHERE `item_id` = 8958;
-UPDATE `etcitem` SET `name` ='消耗品交換券-活動用' WHERE `item_id` = 8959;
-UPDATE `etcitem` SET `name` ='無等級幻象防具套裝禮盒' WHERE `item_id` = 8960;
-UPDATE `etcitem` SET `name` ='D級幻象防具組禮盒' WHERE `item_id` = 8961;
-UPDATE `etcitem` SET `name` ='C級幻象防具組禮盒' WHERE `item_id` = 8962;
-UPDATE `etcitem` SET `name` ='B級幻象防具組禮盒' WHERE `item_id` = 8963;
-UPDATE `etcitem` SET `name` ='A級幻象防具組禮盒' WHERE `item_id` = 8964;
-UPDATE `etcitem` SET `name` ='S級幻象防具組禮盒' WHERE `item_id` = 8965;
-UPDATE `etcitem` SET `name` ='無等級消耗品組禮盒(戰士用)' WHERE `item_id` = 8966;
-UPDATE `etcitem` SET `name` ='D級消耗品組禮盒(戰士用)' WHERE `item_id` = 8967;
-UPDATE `etcitem` SET `name` ='C級消耗品組禮盒(戰士用)' WHERE `item_id` = 8968;
-UPDATE `etcitem` SET `name` ='B級消耗品組禮盒(戰士用)' WHERE `item_id` = 8969;
-UPDATE `etcitem` SET `name` ='A級消耗品組禮盒(戰士用)' WHERE `item_id` = 8970;
-UPDATE `etcitem` SET `name` ='A、S級消耗品組禮盒(戰士用)' WHERE `item_id` = 8971;
-UPDATE `etcitem` SET `name` ='合金弓木箭' WHERE `item_id` = 9104;
-UPDATE `etcitem` SET `name` ='腰弩骨箭' WHERE `item_id` = 9105;
-UPDATE `etcitem` SET `name` ='阿卡特長弓鐵箭' WHERE `item_id` = 9106;
-UPDATE `etcitem` SET `name` ='黑暗精靈長弓銀箭' WHERE `item_id` = 9107;
-UPDATE `etcitem` SET `name` ='顱之弓米索莉箭' WHERE `item_id` = 9108;
-UPDATE `etcitem` SET `name` ='靈魂弓米索莉箭' WHERE `item_id` = 9109;
-UPDATE `etcitem` SET `name` ='無等級幻象防具套裝禮盒(重裝用)' WHERE `item_id` = 9110;
-UPDATE `etcitem` SET `name` ='D級幻象防具組禮盒(重裝用)' WHERE `item_id` = 9111;
-UPDATE `etcitem` SET `name` ='C級幻象防具組禮盒(重裝用)' WHERE `item_id` = 9112;
-UPDATE `etcitem` SET `name` ='B級幻象防具組禮盒(重裝用)' WHERE `item_id` = 9113;
-UPDATE `etcitem` SET `name` ='A級幻象防具組禮盒(重裝用)' WHERE `item_id` = 9114;
-UPDATE `etcitem` SET `name` ='A級幻象防具組禮盒(重裝用)' WHERE `item_id` = 9115;
-UPDATE `etcitem` SET `name` ='無等級幻象防具套裝禮盒(輕裝用)' WHERE `item_id` = 9116;
-UPDATE `etcitem` SET `name` ='D級幻象防具組禮盒(輕裝用)' WHERE `item_id` = 9117;
-UPDATE `etcitem` SET `name` ='C級幻象防具組禮盒(輕裝用)' WHERE `item_id` = 9118;
-UPDATE `etcitem` SET `name` ='B級幻象防具組禮盒(輕裝用)' WHERE `item_id` = 9119;
-UPDATE `etcitem` SET `name` ='A級幻象防具組禮盒(輕裝用)' WHERE `item_id` = 9120;
-UPDATE `etcitem` SET `name` ='A級幻象防具組禮盒(輕裝用)' WHERE `item_id` = 9121;
-UPDATE `etcitem` SET `name` ='無等級幻象防具套裝禮盒(長袍用)' WHERE `item_id` = 9122;
-UPDATE `etcitem` SET `name` ='D級幻象防具組禮盒(長袍用)' WHERE `item_id` = 9123;
-UPDATE `etcitem` SET `name` ='C級幻象防具組禮盒(長袍用)' WHERE `item_id` = 9124;
-UPDATE `etcitem` SET `name` ='B級幻象防具組禮盒(長袍用)' WHERE `item_id` = 9125;
-UPDATE `etcitem` SET `name` ='A級幻象防具組禮盒(長袍用)' WHERE `item_id` = 9126;
-UPDATE `etcitem` SET `name` ='A級幻象防具組禮盒(長袍用)' WHERE `item_id` = 9127;
-UPDATE `etcitem` SET `name` ='無等級消耗品組禮盒(法師用)' WHERE `item_id` = 9130;
-UPDATE `etcitem` SET `name` ='D級消耗品組禮盒(法師用)' WHERE `item_id` = 9131;
-UPDATE `etcitem` SET `name` ='C級消耗品組禮盒(法師用)' WHERE `item_id` = 9132;
-UPDATE `etcitem` SET `name` ='B級消耗品組禮盒(法師用)' WHERE `item_id` = 9133;
-UPDATE `etcitem` SET `name` ='A級消耗品組禮盒(法師用)' WHERE `item_id` = 9134;
-UPDATE `etcitem` SET `name` ='A、S級消耗品組禮盒(法師用)' WHERE `item_id` = 9135;
-UPDATE `etcitem` SET `name` ='聖誕帽' WHERE `item_id` = 9139;
-UPDATE `etcitem` SET `name` ='豬豬幣' WHERE `item_id` = 9142;
-UPDATE `etcitem` SET `name` ='黃金豬豬幣' WHERE `item_id` = 9143;
-UPDATE `etcitem` SET `name` ='豬豬禮盒' WHERE `item_id` = 9144;
-UPDATE `etcitem` SET `name` ='導引卷軸-活動用' WHERE `item_id` = 9146;
-UPDATE `etcitem` SET `name` ='死之呢喃卷軸-活動用' WHERE `item_id` = 9147;
-UPDATE `etcitem` SET `name` ='弱點偵測卷軸-活動用' WHERE `item_id` = 9148;
-UPDATE `etcitem` SET `name` ='靈活思緒卷軸-活動用' WHERE `item_id` = 9149;
-UPDATE `etcitem` SET `name` ='速度激發卷軸-活動用' WHERE `item_id` = 9150;
-UPDATE `etcitem` SET `name` ='敏捷術卷軸-活動用' WHERE `item_id` = 9151;
-UPDATE `etcitem` SET `name` ='魔力催化卷軸-活動用' WHERE `item_id` = 9152;
-UPDATE `etcitem` SET `name` ='力量強化卷軸-活動用' WHERE `item_id` = 9153;
-UPDATE `etcitem` SET `name` ='風之疾走卷軸-活動用' WHERE `item_id` = 9154;
-UPDATE `etcitem` SET `name` ='保護盾卷軸-活動用' WHERE `item_id` = 9155;
-UPDATE `etcitem` SET `name` ='祝福的返回卷軸-活動用' WHERE `item_id` = 9156;
-UPDATE `etcitem` SET `name` ='祝福的復活卷軸-活動用' WHERE `item_id` = 9157;
-UPDATE `etcitem` SET `name` ='聖誕鹿角帽' WHERE `item_id` = 9161;
-UPDATE `etcitem` SET `name` ='紅色賢者之石鍊成陣' WHERE `item_id` = 9162;
-UPDATE `etcitem` SET `name` ='藍色賢者之石鍊成陣' WHERE `item_id` = 9163;
-UPDATE `etcitem` SET `name` ='橙色賢者之石鍊成陣' WHERE `item_id` = 9164;
-UPDATE `etcitem` SET `name` ='黑色賢者之石鍊成陣' WHERE `item_id` = 9165;
-UPDATE `etcitem` SET `name` ='白色賢者之石鍊成陣' WHERE `item_id` = 9166;
-UPDATE `etcitem` SET `name` ='綠色賢者之石鍊成陣' WHERE `item_id` = 9167;
-UPDATE `etcitem` SET `name` ='賢者之石原石' WHERE `item_id` = 9168;
-UPDATE `etcitem` SET `name` ='賢者之石變換式' WHERE `item_id` = 9169;
-UPDATE `etcitem` SET `name` ='魔法試劑' WHERE `item_id` = 9170;
-UPDATE `etcitem` SET `name` ='紅色賢者之石' WHERE `item_id` = 9171;
-UPDATE `etcitem` SET `name` ='藍色賢者之石' WHERE `item_id` = 9172;
-UPDATE `etcitem` SET `name` ='橙色賢者之石' WHERE `item_id` = 9173;
-UPDATE `etcitem` SET `name` ='黑色賢者之石' WHERE `item_id` = 9174;
-UPDATE `etcitem` SET `name` ='白色賢者之石' WHERE `item_id` = 9175;
-UPDATE `etcitem` SET `name` ='綠色賢者之石' WHERE `item_id` = 9176;
-UPDATE `etcitem` SET `name` ='鍊金術士的寶箱鑰匙' WHERE `item_id` = 9205;
-UPDATE `etcitem` SET `name` ='終極治癒藥水-活動用' WHERE `item_id` = 9206;
-UPDATE `etcitem` SET `name` ='瞬間體力治癒藥水-活動用' WHERE `item_id` = 9207;
-UPDATE `etcitem` SET `name` ='王朝之魂' WHERE `item_id` = 9451;
-UPDATE `etcitem` SET `name` ='製作卷軸(封印的王朝盔甲60%)' WHERE `item_id` = 9482;
-UPDATE `etcitem` SET `name` ='製作卷軸(封印的王朝脛甲60%)' WHERE `item_id` = 9483;
-UPDATE `etcitem` SET `name` ='製作卷軸(封印的王朝頭盔60%)' WHERE `item_id` = 9484;
-UPDATE `etcitem` SET `name` ='製作卷軸(封印的王朝長手套60%)' WHERE `item_id` = 9485;
-UPDATE `etcitem` SET `name` ='製作卷軸(封印的王朝長靴60%)' WHERE `item_id` = 9486;
-UPDATE `etcitem` SET `name` ='製作卷軸(封印的王朝皮甲60%)' WHERE `item_id` = 9487;
-UPDATE `etcitem` SET `name` ='製作卷軸(封印的王朝皮脛甲60%)' WHERE `item_id` = 9488;
-UPDATE `etcitem` SET `name` ='製作卷軸(封印的王朝皮頭盔60%)' WHERE `item_id` = 9489;
-UPDATE `etcitem` SET `name` ='製作卷軸(封印的王朝皮手套60%)' WHERE `item_id` = 9490;
-UPDATE `etcitem` SET `name` ='製作卷軸(封印的王朝皮長靴60%)' WHERE `item_id` = 9491;
-UPDATE `etcitem` SET `name` ='製作卷軸(封印的王朝外衣60%)' WHERE `item_id` = 9492;
-UPDATE `etcitem` SET `name` ='製作卷軸(封印的王朝長襪60%)' WHERE `item_id` = 9493;
-UPDATE `etcitem` SET `name` ='製作卷軸(封印的王朝頭箍60%)' WHERE `item_id` = 9494;
-UPDATE `etcitem` SET `name` ='製作卷軸(封印的王朝手套60%)' WHERE `item_id` = 9495;
-UPDATE `etcitem` SET `name` ='製作卷軸(封印的王朝鞋60%)' WHERE `item_id` = 9496;
-UPDATE `etcitem` SET `name` ='製作卷軸(封印的王朝盾60%)' WHERE `item_id` = 9497;
-UPDATE `etcitem` SET `name` ='製作卷軸(封印的王朝盔甲100%)' WHERE `item_id` = 9498;
-UPDATE `etcitem` SET `name` ='製作卷軸(封印的王朝脛甲100%)' WHERE `item_id` = 9499;
-UPDATE `etcitem` SET `name` ='製作卷軸(封印的王朝頭盔100%)' WHERE `item_id` = 9500;
-UPDATE `etcitem` SET `name` ='製作卷軸(封印的王朝長手套100%)' WHERE `item_id` = 9501;
-UPDATE `etcitem` SET `name` ='製作卷軸(封印的王朝長靴100%)' WHERE `item_id` = 9502;
-UPDATE `etcitem` SET `name` ='製作卷軸(封印的王朝皮甲100%)' WHERE `item_id` = 9503;
-UPDATE `etcitem` SET `name` ='製作卷軸(封印的王朝皮脛甲100%)' WHERE `item_id` = 9504;
-UPDATE `etcitem` SET `name` ='製作卷軸(封印的王朝皮頭盔100%)' WHERE `item_id` = 9505;
-UPDATE `etcitem` SET `name` ='製作卷軸(封印的王朝皮手套100%)' WHERE `item_id` = 9506;
-UPDATE `etcitem` SET `name` ='製作卷軸(封印的王朝皮長靴100%)' WHERE `item_id` = 9507;
-UPDATE `etcitem` SET `name` ='製作卷軸(封印的王朝外衣100%)' WHERE `item_id` = 9508;
-UPDATE `etcitem` SET `name` ='製作卷軸(封印的王朝長襪100%)' WHERE `item_id` = 9509;
-UPDATE `etcitem` SET `name` ='製作卷軸(封印的王朝頭箍100%)' WHERE `item_id` = 9510;
-UPDATE `etcitem` SET `name` ='製作卷軸(封印的王朝手套100%)' WHERE `item_id` = 9511;
-UPDATE `etcitem` SET `name` ='製作卷軸(封印的王朝鞋100%)' WHERE `item_id` = 9512;
-UPDATE `etcitem` SET `name` ='製作卷軸(封印的王朝盾100%)' WHERE `item_id` = 9513;
-UPDATE `etcitem` SET `name` ='封印的王朝盔甲碎片' WHERE `item_id` = 9530;
-UPDATE `etcitem` SET `name` ='封印的王朝脛甲碎片' WHERE `item_id` = 9531;
-UPDATE `etcitem` SET `name` ='封印的王朝頭盔碎片' WHERE `item_id` = 9532;
-UPDATE `etcitem` SET `name` ='封印的王朝長手套碎片' WHERE `item_id` = 9533;
-UPDATE `etcitem` SET `name` ='封印的王朝長靴碎片' WHERE `item_id` = 9534;
-UPDATE `etcitem` SET `name` ='封印的王朝皮甲碎片' WHERE `item_id` = 9535;
-UPDATE `etcitem` SET `name` ='封印的王朝皮脛甲碎片' WHERE `item_id` = 9536;
-UPDATE `etcitem` SET `name` ='封印的王朝皮頭盔碎片' WHERE `item_id` = 9537;
-UPDATE `etcitem` SET `name` ='封印的王朝皮手套碎片' WHERE `item_id` = 9538;
-UPDATE `etcitem` SET `name` ='封印的王朝皮長靴碎片' WHERE `item_id` = 9539;
-UPDATE `etcitem` SET `name` ='封印的王朝外衣碎片' WHERE `item_id` = 9540;
-UPDATE `etcitem` SET `name` ='封印的王朝長襪碎片' WHERE `item_id` = 9541;
-UPDATE `etcitem` SET `name` ='封印的王朝頭箍碎片' WHERE `item_id` = 9542;
-UPDATE `etcitem` SET `name` ='封印的王朝手套碎片' WHERE `item_id` = 9543;
-UPDATE `etcitem` SET `name` ='封印的王朝鞋碎片' WHERE `item_id` = 9544;
-UPDATE `etcitem` SET `name` ='封印的王朝盾碎片' WHERE `item_id` = 9545;
-UPDATE `etcitem` SET `name` ='火之原石' WHERE `item_id` = 9546;
-UPDATE `etcitem` SET `name` ='水之原石' WHERE `item_id` = 9547;
-UPDATE `etcitem` SET `name` ='地之原石' WHERE `item_id` = 9548;
-UPDATE `etcitem` SET `name` ='風之原石' WHERE `item_id` = 9549;
-UPDATE `etcitem` SET `name` ='暗之原石' WHERE `item_id` = 9550;
-UPDATE `etcitem` SET `name` ='聖之原石' WHERE `item_id` = 9551;
-UPDATE `etcitem` SET `name` ='火之水晶' WHERE `item_id` = 9552;
-UPDATE `etcitem` SET `name` ='水之水晶' WHERE `item_id` = 9553;
-UPDATE `etcitem` SET `name` ='地之水晶' WHERE `item_id` = 9554;
-UPDATE `etcitem` SET `name` ='風之水晶' WHERE `item_id` = 9555;
-UPDATE `etcitem` SET `name` ='暗之水晶' WHERE `item_id` = 9556;
-UPDATE `etcitem` SET `name` ='聖之水晶' WHERE `item_id` = 9557;
-UPDATE `etcitem` SET `name` ='火之寶石' WHERE `item_id` = 9558;
-UPDATE `etcitem` SET `name` ='水之寶石' WHERE `item_id` = 9559;
-UPDATE `etcitem` SET `name` ='地之寶石' WHERE `item_id` = 9560;
-UPDATE `etcitem` SET `name` ='風之寶石' WHERE `item_id` = 9561;
-UPDATE `etcitem` SET `name` ='暗之寶石' WHERE `item_id` = 9562;
-UPDATE `etcitem` SET `name` ='聖之寶石' WHERE `item_id` = 9563;
-UPDATE `etcitem` SET `name` ='火之力' WHERE `item_id` = 9564;
-UPDATE `etcitem` SET `name` ='水之力' WHERE `item_id` = 9565;
-UPDATE `etcitem` SET `name` ='地之力' WHERE `item_id` = 9566;
-UPDATE `etcitem` SET `name` ='風之力' WHERE `item_id` = 9567;
-UPDATE `etcitem` SET `name` ='暗之力' WHERE `item_id` = 9568;
-UPDATE `etcitem` SET `name` ='聖之力' WHERE `item_id` = 9569;
-UPDATE `etcitem` SET `name` ='紅色搜魂石-階段14' WHERE `item_id` = 9570;
-UPDATE `etcitem` SET `name` ='藍色搜魂石-階段14' WHERE `item_id` = 9571;
-UPDATE `etcitem` SET `name` ='綠色搜魂石-階段14' WHERE `item_id` = 9572;
-UPDATE `etcitem` SET `name` ='生命石-80級' WHERE `item_id` = 9573;
-UPDATE `etcitem` SET `name` ='中級生命石-80級' WHERE `item_id` = 9574;
-UPDATE `etcitem` SET `name` ='高級生命石-80級' WHERE `item_id` = 9575;
-UPDATE `etcitem` SET `name` ='特級生命石-80級' WHERE `item_id` = 9576;
-UPDATE `etcitem` SET `name` ='橙色罪惡種子碎片' WHERE `item_id` = 9593;
-UPDATE `etcitem` SET `name` ='綠色罪惡種子碎片' WHERE `item_id` = 9594;
-UPDATE `etcitem` SET `name` ='藍色罪惡種子碎片' WHERE `item_id` = 9595;
-UPDATE `etcitem` SET `name` ='紅色罪惡種子碎片' WHERE `item_id` = 9596;
-UPDATE `etcitem` SET `name` ='白色罪惡種子碎片' WHERE `item_id` = 9597;
-UPDATE `etcitem` SET `name` ='黑色罪惡種子碎片' WHERE `item_id` = 9598;
-UPDATE `etcitem` SET `name` ='惡魔的古書' WHERE `item_id` = 9599;
-UPDATE `etcitem` SET `name` ='隱藏的第一頁' WHERE `item_id` = 9600;
-UPDATE `etcitem` SET `name` ='隱藏的第二頁' WHERE `item_id` = 9601;
-UPDATE `etcitem` SET `name` ='惡魔的契約書片段' WHERE `item_id` = 9602;
-UPDATE `etcitem` SET `name` ='地獄邊界道具5' WHERE `item_id` = 9603;
-UPDATE `etcitem` SET `name` ='地獄邊界道具6' WHERE `item_id` = 9604;
-UPDATE `etcitem` SET `name` ='王朝劍碎片' WHERE `item_id` = 9616;
-UPDATE `etcitem` SET `name` ='王朝之刃碎片' WHERE `item_id` = 9617;
-UPDATE `etcitem` SET `name` ='王朝幻影劍碎片' WHERE `item_id` = 9618;
-UPDATE `etcitem` SET `name` ='王朝弓碎片' WHERE `item_id` = 9619;
-UPDATE `etcitem` SET `name` ='王朝小刀碎片' WHERE `item_id` = 9620;
-UPDATE `etcitem` SET `name` ='王朝長柄戰戟碎片' WHERE `item_id` = 9621;
-UPDATE `etcitem` SET `name` ='王朝戰鎚碎片' WHERE `item_id` = 9622;
-UPDATE `etcitem` SET `name` ='王朝釘鎚碎片' WHERE `item_id` = 9623;
-UPDATE `etcitem` SET `name` ='王朝拳套爪碎片' WHERE `item_id` = 9624;
-UPDATE `etcitem` SET `name` ='巨人的經典-遺忘篇' WHERE `item_id` = 9625;
-UPDATE `etcitem` SET `name` ='巨人的經典-訓練篇' WHERE `item_id` = 9626;
-UPDATE `etcitem` SET `name` ='巨人的經典-熟練篇' WHERE `item_id` = 9627;
-UPDATE `etcitem` SET `name` ='雷那特' WHERE `item_id` = 9628;
-UPDATE `etcitem` SET `name` ='亞德曼合金' WHERE `item_id` = 9629;
-UPDATE `etcitem` SET `name` ='奧里哈魯根合金' WHERE `item_id` = 9630;
-UPDATE `etcitem` SET `name` ='最高級皮革' WHERE `item_id` = 9631;
-UPDATE `etcitem` SET `name` ='木製弩箭' WHERE `item_id` = 9632;
-UPDATE `etcitem` SET `name` ='骨製弩箭' WHERE `item_id` = 9633;
-UPDATE `etcitem` SET `name` ='鋼鐵弩箭' WHERE `item_id` = 9634;
-UPDATE `etcitem` SET `name` ='銀弩箭' WHERE `item_id` = 9635;
-UPDATE `etcitem` SET `name` ='米索莉弩箭' WHERE `item_id` = 9636;
-UPDATE `etcitem` SET `name` ='閃耀弩箭' WHERE `item_id` = 9637;
-UPDATE `etcitem` SET `name` ='返回卷軸-英魂之島村莊' WHERE `item_id` = 9647;
-UPDATE `etcitem` SET `name` ='變身刻印書-瑪瑙獸' WHERE `item_id` = 9648;
-UPDATE `etcitem` SET `name` ='變身刻印書-死亡之刃' WHERE `item_id` = 9649;
-UPDATE `etcitem` SET `name` ='變身刻印書-門徒聖杯' WHERE `item_id` = 9650;
-UPDATE `etcitem` SET `name` ='變身刻印書-獨角獸' WHERE `item_id` = 9651;
-UPDATE `etcitem` SET `name` ='變身刻印書-莉莉恩騎士' WHERE `item_id` = 9652;
-UPDATE `etcitem` SET `name` ='變身刻印書-高崙守護者' WHERE `item_id` = 9653;
-UPDATE `etcitem` SET `name` ='變身刻印書-煉獄龍獸' WHERE `item_id` = 9654;
-UPDATE `etcitem` SET `name` ='變身刻印書-暴烈龍' WHERE `item_id` = 9655;
-UPDATE `etcitem` SET `name` ='鬃狼飼料' WHERE `item_id` = 9668;
-UPDATE `etcitem` SET `name` ='魔法葫蘆' WHERE `item_id` = 9672;
-UPDATE `etcitem` SET `name` ='聖水' WHERE `item_id` = 9673;
-UPDATE `etcitem` SET `name` ='達里昂的許可證' WHERE `item_id` = 9674;
-UPDATE `etcitem` SET `name` ='祈禱文的碎片' WHERE `item_id` = 9675;
-UPDATE `etcitem` SET `name` ='背叛者的憑證' WHERE `item_id` = 9676;
-UPDATE `etcitem` SET `name` ='魔法之石' WHERE `item_id` = 9678;
-UPDATE `etcitem` SET `name` ='鋼鐵之城設計圖' WHERE `item_id` = 9679;
-UPDATE `etcitem` SET `name` ='稀薄的魔法精氣' WHERE `item_id` = 9680;
-UPDATE `etcitem` SET `name` ='魔法精氣' WHERE `item_id` = 9681;
-UPDATE `etcitem` SET `name` ='保存的魔法精氣' WHERE `item_id` = 9682;
-UPDATE `etcitem` SET `name` ='沙亞龍的尖牙' WHERE `item_id` = 9683;
-UPDATE `etcitem` SET `name` ='原住民的寶物' WHERE `item_id` = 9684;
-UPDATE `etcitem` SET `name` ='黑暗之門的鑰匙' WHERE `item_id` = 9685;
-UPDATE `etcitem` SET `name` ='破壞之門的鑰匙' WHERE `item_id` = 9686;
-UPDATE `etcitem` SET `name` ='血之門的鑰匙' WHERE `item_id` = 9687;
-UPDATE `etcitem` SET `name` ='弩砲爆破炸彈' WHERE `item_id` = 9688;
-UPDATE `etcitem` SET `name` ='湖的精氣' WHERE `item_id` = 9689;
-UPDATE `etcitem` SET `name` ='被污染的水晶' WHERE `item_id` = 9690;
-UPDATE `etcitem` SET `name` ='水龍的鱗片' WHERE `item_id` = 9691;
-UPDATE `etcitem` SET `name` ='赤珊瑚' WHERE `item_id` = 9692;
-UPDATE `etcitem` SET `name` ='水晶碎片' WHERE `item_id` = 9693;
-UPDATE `etcitem` SET `name` ='祕密花園的鑰匙' WHERE `item_id` = 9694;
-UPDATE `etcitem` SET `name` ='湛藍水晶' WHERE `item_id` = 9695;
-UPDATE `etcitem` SET `name` ='赤紅水晶' WHERE `item_id` = 9696;
-UPDATE `etcitem` SET `name` ='透明水晶' WHERE `item_id` = 9697;
-UPDATE `etcitem` SET `name` ='湛藍珊瑚鑰匙' WHERE `item_id` = 9698;
-UPDATE `etcitem` SET `name` ='赤紅珊瑚鑰匙' WHERE `item_id` = 9699;
-UPDATE `etcitem` SET `name` ='水龍的爪' WHERE `item_id` = 9700;
-UPDATE `etcitem` SET `name` ='魔法陣封印鑰匙' WHERE `item_id` = 9701;
-UPDATE `etcitem` SET `name` ='商隊靈藥' WHERE `item_id` = 9702;
-UPDATE `etcitem` SET `name` ='闇天使之門的鑰匙' WHERE `item_id` = 9703;
-UPDATE `etcitem` SET `name` ='紀錄之門的鑰匙' WHERE `item_id` = 9704;
-UPDATE `etcitem` SET `name` ='觀察之門的鑰匙' WHERE `item_id` = 9705;
-UPDATE `etcitem` SET `name` ='斯比裘拉之門的鑰匙' WHERE `item_id` = 9706;
-UPDATE `etcitem` SET `name` ='鑰匙-諸天之上' WHERE `item_id` = 9707;
-UPDATE `etcitem` SET `name` ='鑰匙-佛拉赫爾哈' WHERE `item_id` = 9708;
-UPDATE `etcitem` SET `name` ='亞爾比泰魯之門的鑰匙' WHERE `item_id` = 9709;
-UPDATE `etcitem` SET `name` ='鑰匙-雷歐波爾德' WHERE `item_id` = 9710;
-UPDATE `etcitem` SET `name` ='預測之門的鑰匙' WHERE `item_id` = 9711;
-UPDATE `etcitem` SET `name` ='大空洞之門的鑰匙' WHERE `item_id` = 9712;
-UPDATE `etcitem` SET `name` ='諾爾妮之力' WHERE `item_id` = 9713;
-UPDATE `etcitem` SET `name` ='惡魔刻紋鑰匙' WHERE `item_id` = 9714;
-UPDATE `etcitem` SET `name` ='巨大鑰匙' WHERE `item_id` = 9715;
-UPDATE `etcitem` SET `name` ='英魂之島村莊回歸卷軸' WHERE `item_id` = 9716;
-UPDATE `etcitem` SET `name` ='艾勒諾斯的重要情報' WHERE `item_id` = 9717;
-UPDATE `etcitem` SET `name` ='緋紅公爵夫人報告書' WHERE `item_id` = 9718;
-UPDATE `etcitem` SET `name` ='襲擊者名單' WHERE `item_id` = 9719;
-UPDATE `etcitem` SET `name` ='急速冷卻裝置' WHERE `item_id` = 9721;
-UPDATE `etcitem` SET `name` ='祕傳的交感石' WHERE `item_id` = 9722;
-UPDATE `etcitem` SET `name` ='祕傳的交感石' WHERE `item_id` = 9723;
-UPDATE `etcitem` SET `name` ='祕傳的交感石' WHERE `item_id` = 9724;
-UPDATE `etcitem` SET `name` ='祕傳的交感石-二回' WHERE `item_id` = 9725;
-UPDATE `etcitem` SET `name` ='祕傳的交感石-二回' WHERE `item_id` = 9726;
-UPDATE `etcitem` SET `name` ='祕傳的交感石-二回' WHERE `item_id` = 9727;
-UPDATE `etcitem` SET `name` ='祕傳的交感石-三回' WHERE `item_id` = 9728;
-UPDATE `etcitem` SET `name` ='祕傳的交感石-三回' WHERE `item_id` = 9729;
-UPDATE `etcitem` SET `name` ='祕傳的交感石-三回' WHERE `item_id` = 9730;
-UPDATE `etcitem` SET `name` ='祕傳的交感石-四回' WHERE `item_id` = 9731;
-UPDATE `etcitem` SET `name` ='祕傳的交感石-四回' WHERE `item_id` = 9732;
-UPDATE `etcitem` SET `name` ='祕傳的交感石-四回' WHERE `item_id` = 9733;
-UPDATE `etcitem` SET `name` ='祕傳的交感石-五回' WHERE `item_id` = 9734;
-UPDATE `etcitem` SET `name` ='祕傳的交感石-五回' WHERE `item_id` = 9735;
-UPDATE `etcitem` SET `name` ='祕傳的交感石-五回' WHERE `item_id` = 9736;
-UPDATE `etcitem` SET `name` ='祕傳的交感石-六回' WHERE `item_id` = 9737;
-UPDATE `etcitem` SET `name` ='祕傳的交感石-六回' WHERE `item_id` = 9738;
-UPDATE `etcitem` SET `name` ='祕傳的交感石-六回' WHERE `item_id` = 9739;
-UPDATE `etcitem` SET `name` ='哈里夏標章' WHERE `item_id` = 9740;
-UPDATE `etcitem` SET `name` ='哈里夏標章' WHERE `item_id` = 9741;
-UPDATE `etcitem` SET `name` ='哈里夏標章' WHERE `item_id` = 9742;
-UPDATE `etcitem` SET `name` ='光之紀念章' WHERE `item_id` = 9743;
-UPDATE `etcitem` SET `name` ='赤紅光的寶石' WHERE `item_id` = 9744;
-UPDATE `etcitem` SET `name` ='黑回聲水晶' WHERE `item_id` = 9745;
-UPDATE `etcitem` SET `name` ='摩斯特洛隊長的羽毛' WHERE `item_id` = 9746;
-UPDATE `etcitem` SET `name` ='紅蜘蛛的爪' WHERE `item_id` = 9747;
-UPDATE `etcitem` SET `name` ='摩斯特洛的羽毛' WHERE `item_id` = 9748;
-UPDATE `etcitem` SET `name` ='菲林蜥蜴人戰士的頭' WHERE `item_id` = 9749;
-UPDATE `etcitem` SET `name` ='巨大毒蜘蛛的腿' WHERE `item_id` = 9750;
-UPDATE `etcitem` SET `name` ='突倫食人妖的心臟' WHERE `item_id` = 9751;
-UPDATE `etcitem` SET `name` ='修巴音的推薦函' WHERE `item_id` = 9752;
-UPDATE `etcitem` SET `name` ='特巴音的推薦函' WHERE `item_id` = 9753;
-UPDATE `etcitem` SET `name` ='布賴卡獸人頭' WHERE `item_id` = 9754;
-UPDATE `etcitem` SET `name` ='訊息金屬板' WHERE `item_id` = 9755;
-UPDATE `etcitem` SET `name` ='報告書-東' WHERE `item_id` = 9756;
-UPDATE `etcitem` SET `name` ='報告書-北' WHERE `item_id` = 9757;
-UPDATE `etcitem` SET `name` ='哈爾卡凱梅德的信' WHERE `item_id` = 9758;
-UPDATE `etcitem` SET `name` ='田納因的推薦函' WHERE `item_id` = 9759;
-UPDATE `etcitem` SET `name` ='奧克魯斯的推薦函' WHERE `item_id` = 9760;
-UPDATE `etcitem` SET `name` ='低溫處理細胞組織' WHERE `item_id` = 9761;
-UPDATE `etcitem` SET `name` ='豺狼命令書' WHERE `item_id` = 9762;
-UPDATE `etcitem` SET `name` ='豺狼編制表' WHERE `item_id` = 9763;
-UPDATE `etcitem` SET `name` ='寇比安的命令書' WHERE `item_id` = 9764;
-UPDATE `etcitem` SET `name` ='人類連絡文件' WHERE `item_id` = 9765;
-UPDATE `etcitem` SET `name` ='人類回覆文件' WHERE `item_id` = 9766;
-UPDATE `etcitem` SET `name` ='黑暗精靈連絡文件' WHERE `item_id` = 9767;
-UPDATE `etcitem` SET `name` ='黑暗精靈回覆文件' WHERE `item_id` = 9768;
-UPDATE `etcitem` SET `name` ='寄給西烏奈的報告書' WHERE `item_id` = 9769;
-UPDATE `etcitem` SET `name` ='空魔法水晶球' WHERE `item_id` = 9770;
-UPDATE `etcitem` SET `name` ='捕獲大津的魔法水晶球' WHERE `item_id` = 9771;
-UPDATE `etcitem` SET `name` ='特殊部隊竊取檔案的評價報告書' WHERE `item_id` = 9772;
-UPDATE `etcitem` SET `name` ='怨恨的結晶' WHERE `item_id` = 9773;
-UPDATE `etcitem` SET `name` ='怨恨的結晶集合體' WHERE `item_id` = 9774;
-UPDATE `etcitem` SET `name` ='手抄本內頁' WHERE `item_id` = 9775;
-UPDATE `etcitem` SET `name` ='封印的種族書冊暗號文隱藏頁' WHERE `item_id` = 9776;
-UPDATE `etcitem` SET `name` ='闇天使祕密團體審問者的訓練兵徽章' WHERE `item_id` = 9777;
-UPDATE `etcitem` SET `name` ='襲擊委託書碎片' WHERE `item_id` = 9778;
-UPDATE `etcitem` SET `name` ='葛雷迪斯襲擊委託書' WHERE `item_id` = 9779;
-UPDATE `etcitem` SET `name` ='瑪那宣控制符' WHERE `item_id` = 9780;
-UPDATE `etcitem` SET `name` ='封印的種族書冊巨人研究文件' WHERE `item_id` = 9781;
-UPDATE `etcitem` SET `name` ='闇天使祕密團體審問者的徽章' WHERE `item_id` = 9782;
-UPDATE `etcitem` SET `name` ='解除精神封印的回聲水晶' WHERE `item_id` = 9783;
-UPDATE `etcitem` SET `name` ='帕爾米的信' WHERE `item_id` = 9784;
-UPDATE `etcitem` SET `name` ='精製的水晶樣本' WHERE `item_id` = 9785;
-UPDATE `etcitem` SET `name` ='安定的靈氣' WHERE `item_id` = 9786;
-UPDATE `etcitem` SET `name` ='靈氣' WHERE `item_id` = 9787;
-UPDATE `etcitem` SET `name` ='咒文明細書' WHERE `item_id` = 9788;
-UPDATE `etcitem` SET `name` ='玻璃虎的結晶' WHERE `item_id` = 9789;
-UPDATE `etcitem` SET `name` ='空刻印書' WHERE `item_id` = 9790;
-UPDATE `etcitem` SET `name` ='變身刻印書-瑪瑙獸' WHERE `item_id` = 9791;
-UPDATE `etcitem` SET `name` ='倉庫補給品確認書' WHERE `item_id` = 9792;
-UPDATE `etcitem` SET `name` ='雜貨店的補給品確認書' WHERE `item_id` = 9793;
-UPDATE `etcitem` SET `name` ='武器店的補給品確認書' WHERE `item_id` = 9794;
-UPDATE `etcitem` SET `name` ='補給品現況報告書' WHERE `item_id` = 9795;
-UPDATE `etcitem` SET `name` ='黃金山丘魔物之爪' WHERE `item_id` = 9796;
-UPDATE `etcitem` SET `name` ='收容所罪犯首領的標章' WHERE `item_id` = 9797;
-UPDATE `etcitem` SET `name` ='地下監獄魔物的階級章碎片' WHERE `item_id` = 9798;
-UPDATE `etcitem` SET `name` ='狼的尾巴' WHERE `item_id` = 9799;
-UPDATE `etcitem` SET `name` ='勞庫的設計圖' WHERE `item_id` = 9800;
-UPDATE `etcitem` SET `name` ='惡魔公爵的設計圖' WHERE `item_id` = 9801;
-UPDATE `etcitem` SET `name` ='金庫鑰匙' WHERE `item_id` = 9802;
-UPDATE `etcitem` SET `name` ='封印的文件' WHERE `item_id` = 9803;
-UPDATE `etcitem` SET `name` ='亞龍的心臟' WHERE `item_id` = 9804;
-UPDATE `etcitem` SET `name` ='凱克洛普斯的推薦函' WHERE `item_id` = 9805;
-UPDATE `etcitem` SET `name` ='碎魂者認證書' WHERE `item_id` = 9806;
-UPDATE `etcitem` SET `name` ='狼的尾巴' WHERE `item_id` = 9807;
-UPDATE `etcitem` SET `name` ='摩斯特洛的爪' WHERE `item_id` = 9808;
-UPDATE `etcitem` SET `name` ='灰狐狗的尖牙' WHERE `item_id` = 9809;
-UPDATE `etcitem` SET `name` ='黑狼的尖牙' WHERE `item_id` = 9810;
-UPDATE `etcitem` SET `name` ='要塞軍票' WHERE `item_id` = 9811;
-UPDATE `etcitem` SET `name` ='城堡軍票' WHERE `item_id` = 9812;
-UPDATE `etcitem` SET `name` ='死神骸骨' WHERE `item_id` = 9814;
-UPDATE `etcitem` SET `name` ='龍之心' WHERE `item_id` = 9815;
-UPDATE `etcitem` SET `name` ='大地之卵' WHERE `item_id` = 9816;
-UPDATE `etcitem` SET `name` ='假生命之核' WHERE `item_id` = 9817;
-UPDATE `etcitem` SET `name` ='天使之魂' WHERE `item_id` = 9818;
-UPDATE `etcitem` SET `name` ='惡魔溫熱的血' WHERE `item_id` = 9849;
-UPDATE `etcitem` SET `name` ='商隊初級認證書' WHERE `item_id` = 9850;
-UPDATE `etcitem` SET `name` ='商隊中級認證書' WHERE `item_id` = 9851;
-UPDATE `etcitem` SET `name` ='商隊高級認證書' WHERE `item_id` = 9852;
-UPDATE `etcitem` SET `name` ='友情與信賴的憑證' WHERE `item_id` = 9853;
-UPDATE `etcitem` SET `name` ='修業證書' WHERE `item_id` = 9881;
-UPDATE `etcitem` SET `name` ='黑鬃狼項鍊' WHERE `item_id` = 9882;
-UPDATE `etcitem` SET `name` ='變身卷軸-豬' WHERE `item_id` = 9897;
-UPDATE `etcitem` SET `name` ='高等SP卷軸' WHERE `item_id` = 9898;
-UPDATE `etcitem` SET `name` ='血的盟誓' WHERE `item_id` = 9910;
-UPDATE `etcitem` SET `name` ='血的決議' WHERE `item_id` = 9911;
-UPDATE `etcitem` SET `name` ='騎士肩章' WHERE `item_id` = 9912;
-UPDATE `etcitem` SET `name` ='製作卷軸(王朝劍60%)' WHERE `item_id` = 9967;
-UPDATE `etcitem` SET `name` ='製作卷軸(王朝之刃60%)' WHERE `item_id` = 9968;
-UPDATE `etcitem` SET `name` ='製作卷軸(王朝幻影劍60%)' WHERE `item_id` = 9969;
-UPDATE `etcitem` SET `name` ='製作卷軸(王朝弓60%)' WHERE `item_id` = 9970;
-UPDATE `etcitem` SET `name` ='製作卷軸(王朝小刀60%)' WHERE `item_id` = 9971;
-UPDATE `etcitem` SET `name` ='製作卷軸(王朝長柄戰戟60%)' WHERE `item_id` = 9972;
-UPDATE `etcitem` SET `name` ='製作卷軸(王朝戰鎚60%)' WHERE `item_id` = 9973;
-UPDATE `etcitem` SET `name` ='製作卷軸(王朝釘鎚60%)' WHERE `item_id` = 9974;
-UPDATE `etcitem` SET `name` ='製作卷軸(王朝拳套爪60%)' WHERE `item_id` = 9975;
-UPDATE `etcitem` SET `name` ='製作卷軸(王朝劍100%)' WHERE `item_id` = 9976;
-UPDATE `etcitem` SET `name` ='製作卷軸(王朝之刃100%)' WHERE `item_id` = 9977;
-UPDATE `etcitem` SET `name` ='製作卷軸(王朝幻影劍100%)' WHERE `item_id` = 9978;
-UPDATE `etcitem` SET `name` ='製作卷軸(王朝弓100%)' WHERE `item_id` = 9979;
-UPDATE `etcitem` SET `name` ='製作卷軸(王朝小刀100%)' WHERE `item_id` = 9980;
-UPDATE `etcitem` SET `name` ='製作卷軸(王朝長柄戰戟100%)' WHERE `item_id` = 9981;
-UPDATE `etcitem` SET `name` ='製作卷軸(王朝戰鎚100%)' WHERE `item_id` = 9982;
-UPDATE `etcitem` SET `name` ='製作卷軸(王朝釘鎚100%)' WHERE `item_id` = 9983;
-UPDATE `etcitem` SET `name` ='製作卷軸(王朝拳套爪100%)' WHERE `item_id` = 9984;
-UPDATE `etcitem` SET `name` ='製作卷軸(封印的王朝耳環(70%)' WHERE `item_id` = 9985;
-UPDATE `etcitem` SET `name` ='製作卷軸(封印的王朝項鍊(70%)' WHERE `item_id` = 9986;
-UPDATE `etcitem` SET `name` ='製作卷軸(封印的王朝戒指(70%)' WHERE `item_id` = 9987;
-UPDATE `etcitem` SET `name` ='製作卷軸(封印的王朝耳環100%)' WHERE `item_id` = 9988;
-UPDATE `etcitem` SET `name` ='製作卷軸(封印的王朝項鍊100%)' WHERE `item_id` = 9989;
-UPDATE `etcitem` SET `name` ='製作卷軸(封印的王朝戒指100%)' WHERE `item_id` = 9990;
-UPDATE `etcitem` SET `name` ='封印的王朝耳環寶石' WHERE `item_id` = 9991;
-UPDATE `etcitem` SET `name` ='封印的王朝項鍊寶石' WHERE `item_id` = 9992;
-UPDATE `etcitem` SET `name` ='封印的王朝戒指寶石' WHERE `item_id` = 9993;
-UPDATE `etcitem` SET `name` ='地獄邊界地圖' WHERE `item_id` = 9994;
-UPDATE `etcitem` SET `name` ='火屬性強化藥' WHERE `item_id` = 9997;
-UPDATE `etcitem` SET `name` ='水屬性強化藥' WHERE `item_id` = 9998;
-UPDATE `etcitem` SET `name` ='地屬性強化藥' WHERE `item_id` = 9999;
-UPDATE `etcitem` SET `name` ='風屬性強化藥' WHERE `item_id` = 10000;
-UPDATE `etcitem` SET `name` ='暗屬性強化藥' WHERE `item_id` = 10001;
-UPDATE `etcitem` SET `name` ='聖屬性強化藥' WHERE `item_id` = 10002;
-UPDATE `etcitem` SET `name` ='蠍子的毒針' WHERE `item_id` = 10012;
-UPDATE `etcitem` SET `name` ='競賽印章' WHERE `item_id` = 10013;
-UPDATE `etcitem` SET `name` ='控制室卡片' WHERE `item_id` = 10014;
-UPDATE `etcitem` SET `name` ='監獄門鑰匙' WHERE `item_id` = 10015;
-UPDATE `etcitem` SET `name` ='地下儲藏所鑰匙' WHERE `item_id` = 10016;
-UPDATE `etcitem` SET `name` ='珊瑚的寶箱鑰匙' WHERE `item_id` = 10017;
-UPDATE `etcitem` SET `name` ='戰鬥教範-墮落之箭' WHERE `item_id` = 10025;
-UPDATE `etcitem` SET `name` ='戰鬥教範-墮落之擊' WHERE `item_id` = 10026;
-UPDATE `etcitem` SET `name` ='戰鬥教範-察覺陷阱' WHERE `item_id` = 10027;
-UPDATE `etcitem` SET `name` ='戰鬥教範-拆除陷阱' WHERE `item_id` = 10028;
-UPDATE `etcitem` SET `name` ='戰鬥教範-黑暗之擊' WHERE `item_id` = 10029;
-UPDATE `etcitem` SET `name` ='戰鬥教範-黑暗破擊' WHERE `item_id` = 10030;
-UPDATE `etcitem` SET `name` ='戰鬥教範-二連刺' WHERE `item_id` = 10031;
-UPDATE `etcitem` SET `name` ='戰鬥教範-深淵赤焰' WHERE `item_id` = 10032;
-UPDATE `etcitem` SET `name` ='戰鬥教範-黑暗爆裂' WHERE `item_id` = 10033;
-UPDATE `etcitem` SET `name` ='戰鬥教範-變換目標' WHERE `item_id` = 10034;
-UPDATE `etcitem` SET `name` ='戰鬥教範-轉換生命石' WHERE `item_id` = 10035;
-UPDATE `etcitem` SET `name` ='戰鬥教範-展翅' WHERE `item_id` = 10036;
-UPDATE `etcitem` SET `name` ='戰鬥教範-刀刃連斬' WHERE `item_id` = 10037;
-UPDATE `etcitem` SET `name` ='戰鬥教範-劇痛碎擊' WHERE `item_id` = 10038;
-UPDATE `etcitem` SET `name` ='戰鬥教範-迸裂' WHERE `item_id` = 10039;
-UPDATE `etcitem` SET `name` ='戰鬥教範-生命轉魂' WHERE `item_id` = 10040;
-UPDATE `etcitem` SET `name` ='戰鬥教範-輕蔑' WHERE `item_id` = 10041;
-UPDATE `etcitem` SET `name` ='戰鬥教範-三連刺' WHERE `item_id` = 10042;
-UPDATE `etcitem` SET `name` ='戰鬥教範-閃耀之鋒' WHERE `item_id` = 10043;
-UPDATE `etcitem` SET `name` ='戰鬥教範-擊潰' WHERE `item_id` = 10044;
-UPDATE `etcitem` SET `name` ='戰鬥教範-劇痛靈魂' WHERE `item_id` = 10045;
-UPDATE `etcitem` SET `name` ='戰鬥教範-黑暗火焰' WHERE `item_id` = 10046;
-UPDATE `etcitem` SET `name` ='戰鬥教範-湮滅之輪' WHERE `item_id` = 10047;
-UPDATE `etcitem` SET `name` ='戰鬥教範-神威詛咒' WHERE `item_id` = 10048;
-UPDATE `etcitem` SET `name` ='戰鬥教範-神威竊取' WHERE `item_id` = 10049;
-UPDATE `etcitem` SET `name` ='戰鬥教範-閃逝' WHERE `item_id` = 10050;
-UPDATE `etcitem` SET `name` ='戰鬥教範-靈魂轉移' WHERE `item_id` = 10051;
-UPDATE `etcitem` SET `name` ='戰鬥教範-雙重射擊' WHERE `item_id` = 10052;
-UPDATE `etcitem` SET `name` ='戰鬥教範-上衝射擊' WHERE `item_id` = 10053;
-UPDATE `etcitem` SET `name` ='戰鬥教範-致命輪盤' WHERE `item_id` = 10054;
-UPDATE `etcitem` SET `name` ='戰鬥教範-誘惑' WHERE `item_id` = 10055;
-UPDATE `etcitem` SET `name` ='戰鬥教範-製作生物藥劑' WHERE `item_id` = 10056;
-UPDATE `etcitem` SET `name` ='戰鬥教範-製作黑暗種子' WHERE `item_id` = 10057;
-UPDATE `etcitem` SET `name` ='戰鬥教範-火陷阱' WHERE `item_id` = 10058;
-UPDATE `etcitem` SET `name` ='戰鬥教範-毒陷阱' WHERE `item_id` = 10059;
-UPDATE `etcitem` SET `name` ='戰鬥教範-緩速陷阱' WHERE `item_id` = 10060;
-UPDATE `etcitem` SET `name` ='戰鬥教範-閃光陷阱' WHERE `item_id` = 10061;
-UPDATE `etcitem` SET `name` ='戰鬥教範-約束陷阱' WHERE `item_id` = 10062;
-UPDATE `etcitem` SET `name` ='戰鬥教範-弩箭筒-A級' WHERE `item_id` = 10063;
-UPDATE `etcitem` SET `name` ='戰鬥教範-弩箭筒-S級' WHERE `item_id` = 10064;
-UPDATE `etcitem` SET `name` ='戰鬥教範-治療黑暗種子' WHERE `item_id` = 10065;
-UPDATE `etcitem` SET `name` ='戰鬥教範-誘餌' WHERE `item_id` = 10066;
-UPDATE `etcitem` SET `name` ='戰鬥教範-連鎖閃電' WHERE `item_id` = 10067;
-UPDATE `etcitem` SET `name` ='戰鬥教範-諸天之上' WHERE `item_id` = 10068;
-UPDATE `etcitem` SET `name` ='戰鬥教範-雷歐波爾德' WHERE `item_id` = 10069;
-UPDATE `etcitem` SET `name` ='戰鬥教範-轉換武器' WHERE `item_id` = 10070;
-UPDATE `etcitem` SET `name` ='戰鬥教範-弩箭筒-B級' WHERE `item_id` = 10071;
-UPDATE `etcitem` SET `name` ='戰鬥教範-力量加持' WHERE `item_id` = 10072;
-UPDATE `etcitem` SET `name` ='戰鬥教範-火速攻擊' WHERE `item_id` = 10073;
-UPDATE `etcitem` SET `name` ='戰鬥教範-暴怒之魂' WHERE `item_id` = 10074;
-UPDATE `etcitem` SET `name` ='戰鬥教範-劍盾' WHERE `item_id` = 10075;
-UPDATE `etcitem` SET `name` ='戰鬥教範-卸除武器' WHERE `item_id` = 10076;
-UPDATE `etcitem` SET `name` ='戰鬥教範-快速射擊' WHERE `item_id` = 10077;
-UPDATE `etcitem` SET `name` ='戰鬥教範-死亡印記' WHERE `item_id` = 10078;
-UPDATE `etcitem` SET `name` ='戰鬥教範-勇氣' WHERE `item_id` = 10079;
-UPDATE `etcitem` SET `name` ='戰鬥教範-暴戾之氣' WHERE `item_id` = 10080;
-UPDATE `etcitem` SET `name` ='戰鬥教範-轉魂催化' WHERE `item_id` = 10081;
-UPDATE `etcitem` SET `name` ='戰鬥教範-幽暗保護' WHERE `item_id` = 10082;
-UPDATE `etcitem` SET `name` ='戰鬥教範-黑暗武器' WHERE `item_id` = 10083;
-UPDATE `etcitem` SET `name` ='戰鬥教範-闇天使的驕傲' WHERE `item_id` = 10084;
-UPDATE `etcitem` SET `name` ='戰鬥教範-臣服邪惡' WHERE `item_id` = 10085;
-UPDATE `etcitem` SET `name` ='戰鬥教範-出血射擊' WHERE `item_id` = 10086;
-UPDATE `etcitem` SET `name` ='戰鬥教範-精銳射擊' WHERE `item_id` = 10087;
-UPDATE `etcitem` SET `name` ='戰鬥教範-真實目標' WHERE `item_id` = 10088;
-UPDATE `etcitem` SET `name` ='戰鬥教範-植入黑暗種子' WHERE `item_id` = 10089;
-UPDATE `etcitem` SET `name` ='戰鬥教範-弗萊格拉克' WHERE `item_id` = 10090;
-UPDATE `etcitem` SET `name` ='戰鬥教範-最終形體' WHERE `item_id` = 10091;
-UPDATE `etcitem` SET `name` ='戰鬥教範-縫影' WHERE `item_id` = 10092;
-UPDATE `etcitem` SET `name` ='戰鬥教範-絕音' WHERE `item_id` = 10093;
-UPDATE `etcitem` SET `name` ='戰鬥教範-疾襲' WHERE `item_id` = 10094;
-UPDATE `etcitem` SET `name` ='戰鬥教範-風暴強襲' WHERE `item_id` = 10095;
-UPDATE `etcitem` SET `name` ='戰鬥教範-展翼強襲' WHERE `item_id` = 10096;
-UPDATE `etcitem` SET `name` ='戰鬥教範-肩部突擊' WHERE `item_id` = 10097;
-UPDATE `etcitem` SET `name` ='戰鬥教範-刀刃亂舞' WHERE `item_id` = 10098;
-UPDATE `etcitem` SET `name` ='魔法書-火焰計數' WHERE `item_id` = 10099;
-UPDATE `etcitem` SET `name` ='魔法書-冰晶' WHERE `item_id` = 10100;
-UPDATE `etcitem` SET `name` ='魔法書-冰之霸權' WHERE `item_id` = 10101;
-UPDATE `etcitem` SET `name` ='魔法書-風之霸權' WHERE `item_id` = 10102;
-UPDATE `etcitem` SET `name` ='魔法書-神聖之力' WHERE `item_id` = 10103;
-UPDATE `etcitem` SET `name` ='魔法書-魔力回復' WHERE `item_id` = 10104;
-UPDATE `etcitem` SET `name` ='護身符-保護頌歌' WHERE `item_id` = 10105;
-UPDATE `etcitem` SET `name` ='護身符-阻絕封印' WHERE `item_id` = 10106;
-UPDATE `etcitem` SET `name` ='魔法書-炎旋爆破' WHERE `item_id` = 10107;
-UPDATE `etcitem` SET `name` ='魔法書-冰旋巨鎚' WHERE `item_id` = 10108;
-UPDATE `etcitem` SET `name` ='魔法書-風旋重擊' WHERE `item_id` = 10109;
-UPDATE `etcitem` SET `name` ='魔法書-隕石術' WHERE `item_id` = 10110;
-UPDATE `etcitem` SET `name` ='魔法書-墜星術' WHERE `item_id` = 10111;
-UPDATE `etcitem` SET `name` ='黑暗種子' WHERE `item_id` = 10112;
-UPDATE `etcitem` SET `name` ='特殊弩箭' WHERE `item_id` = 10113;
-UPDATE `etcitem` SET `name` ='封印的王朝符印碎片' WHERE `item_id` = 10114;
-UPDATE `etcitem` SET `name` ='製作卷軸(封印的王朝符印60%)' WHERE `item_id` = 10115;
-UPDATE `etcitem` SET `name` ='製作卷軸(封印的王朝符印100%)' WHERE `item_id` = 10116;
-UPDATE `etcitem` SET `name` ='渾沌的封印的王朝符印' WHERE `item_id` = 10117;
-UPDATE `etcitem` SET `name` ='渾沌的 王朝符印' WHERE `item_id` = 10118;
-UPDATE `etcitem` SET `name` ='要塞返回卷軸' WHERE `item_id` = 10129;
-UPDATE `etcitem` SET `name` ='祝福的要塞返回卷軸' WHERE `item_id` = 10130;
-UPDATE `etcitem` SET `name` ='瑪瑙獸變身卷軸' WHERE `item_id` = 10131;
-UPDATE `etcitem` SET `name` ='死亡之刃變身卷軸' WHERE `item_id` = 10132;
-UPDATE `etcitem` SET `name` ='門徒聖杯變身卷軸' WHERE `item_id` = 10133;
-UPDATE `etcitem` SET `name` ='獨角獸變身卷軸' WHERE `item_id` = 10134;
-UPDATE `etcitem` SET `name` ='莉莉恩騎士變身卷軸' WHERE `item_id` = 10135;
-UPDATE `etcitem` SET `name` ='高崙守護者變身卷軸' WHERE `item_id` = 10136;
-UPDATE `etcitem` SET `name` ='煉獄龍獸變身卷軸' WHERE `item_id` = 10137;
-UPDATE `etcitem` SET `name` ='暴烈龍變身卷軸' WHERE `item_id` = 10138;
-UPDATE `etcitem` SET `name` ='戰場卷軸-護盾大師' WHERE `item_id` = 10143;
-UPDATE `etcitem` SET `name` ='戰場卷軸-巫師' WHERE `item_id` = 10144;
-UPDATE `etcitem` SET `name` ='戰場卷軸-牧師' WHERE `item_id` = 10145;
-UPDATE `etcitem` SET `name` ='戰場卷軸-匕首大師' WHERE `item_id` = 10146;
-UPDATE `etcitem` SET `name` ='戰場卷軸-弓術大師' WHERE `item_id` = 10147;
-UPDATE `etcitem` SET `name` ='戰場卷軸-狂戰士' WHERE `item_id` = 10148;
-UPDATE `etcitem` SET `name` ='戰場祝福的返回卷軸' WHERE `item_id` = 10149;
-UPDATE `etcitem` SET `name` ='戰場祝福的復活卷軸' WHERE `item_id` = 10150;
-UPDATE `etcitem` SET `name` ='戰場變身卷軸' WHERE `item_id` = 10151;
-UPDATE `etcitem` SET `name` ='戰場體力恢復藥水' WHERE `item_id` = 10152;
-UPDATE `etcitem` SET `name` ='戰場魔力恢復藥水' WHERE `item_id` = 10153;
-UPDATE `etcitem` SET `name` ='戰場鬥志恢復藥水' WHERE `item_id` = 10154;
-UPDATE `etcitem` SET `name` ='精神強化藥水' WHERE `item_id` = 10155;
-UPDATE `etcitem` SET `name` ='梅杜莎的藥水' WHERE `item_id` = 10156;
-UPDATE `etcitem` SET `name` ='瞬間加速藥水' WHERE `item_id` = 10157;
-UPDATE `etcitem` SET `name` ='阻絆繩' WHERE `item_id` = 10159;
-UPDATE `etcitem` SET `name` ='受詛咒的紅色搜魂石-階段14' WHERE `item_id` = 10160;
-UPDATE `etcitem` SET `name` ='受詛咒的藍色搜魂石-階段14' WHERE `item_id` = 10161;
-UPDATE `etcitem` SET `name` ='受詛咒的綠色搜魂石-階段14' WHERE `item_id` = 10162;
-UPDATE `etcitem` SET `name` ='狼項鍊' WHERE `item_id` = 10163;
-UPDATE `etcitem` SET `name` ='動物虐殺者名單' WHERE `item_id` = 10164;
-UPDATE `etcitem` SET `name` ='血染的紅爪' WHERE `item_id` = 10165;
-UPDATE `etcitem` SET `name` ='溫泉鬥志藥水' WHERE `item_id` = 10166;
-UPDATE `etcitem` SET `name` ='黑暗柯塔種子' WHERE `item_id` = 10171;
-UPDATE `etcitem` SET `name` ='紅色柯塔種子' WHERE `item_id` = 10172;
-UPDATE `etcitem` SET `name` ='冷氣柯塔種子' WHERE `item_id` = 10173;
-UPDATE `etcitem` SET `name` ='藍色柯塔種子' WHERE `item_id` = 10174;
-UPDATE `etcitem` SET `name` ='香甜水果雞尾酒' WHERE `item_id` = 10178;
-UPDATE `etcitem` SET `name` ='爽口水果雞尾酒' WHERE `item_id` = 10179;
-UPDATE `etcitem` SET `name` ='戰鬥教範-刺入射擊' WHERE `item_id` = 10180;
-UPDATE `etcitem` SET `name` ='戰鬥教範-印記抹除' WHERE `item_id` = 10181;
-UPDATE `etcitem` SET `name` ='戰鬥教範-極限逃脫' WHERE `item_id` = 10182;
-UPDATE `etcitem` SET `name` ='戰鬥教範-製作特殊弩箭' WHERE `item_id` = 10183;
-UPDATE `etcitem` SET `name` ='戰鬥教範-壓縮修復術' WHERE `item_id` = 10184;
-UPDATE `etcitem` SET `name` ='戰鬥教範-摧毀直覺' WHERE `item_id` = 10185;
-UPDATE `etcitem` SET `name` ='戰鬥教範-修復術' WHERE `item_id` = 10186;
-UPDATE `etcitem` SET `name` ='戰鬥教範-忘卻' WHERE `item_id` = 10187;
-UPDATE `etcitem` SET `name` ='戰鬥教範-皮膚破損' WHERE `item_id` = 10188;
-UPDATE `etcitem` SET `name` ='戰鬥教範-保護直覺' WHERE `item_id` = 10189;
-UPDATE `etcitem` SET `name` ='戰鬥教範-吸血鬼動念' WHERE `item_id` = 10190;
-UPDATE `etcitem` SET `name` ='戰鬥教範-魔法動念' WHERE `item_id` = 10191;
-UPDATE `etcitem` SET `name` ='戰鬥教範-虛弱' WHERE `item_id` = 10192;
-UPDATE `etcitem` SET `name` ='戰鬥教範-體質弱化' WHERE `item_id` = 10193;
-UPDATE `etcitem` SET `name` ='戰鬥教範-惡意' WHERE `item_id` = 10194;
-UPDATE `etcitem` SET `name` ='戰鬥教範-心靈耗竭' WHERE `item_id` = 10195;
-UPDATE `etcitem` SET `name` ='戰鬥教範-靈魂和諧' WHERE `item_id` = 10196;
-UPDATE `etcitem` SET `name` ='改良黑暗柯塔種子' WHERE `item_id` = 10197;
-UPDATE `etcitem` SET `name` ='改良紅色柯塔種子' WHERE `item_id` = 10198;
-UPDATE `etcitem` SET `name` ='改良冷氣柯塔種子' WHERE `item_id` = 10199;
-UPDATE `etcitem` SET `name` ='改良藍色柯塔種子' WHERE `item_id` = 10200;
-UPDATE `etcitem` SET `name` ='改良金色柯塔種子' WHERE `item_id` = 10201;
-UPDATE `etcitem` SET `name` ='金色柯塔種子' WHERE `item_id` = 10202;
-UPDATE `etcitem` SET `name` ='魔法書-回音魔力催化' WHERE `item_id` = 10203;
-UPDATE `etcitem` SET `name` ='戰鬥教範-魂魄匯集' WHERE `item_id` = 10204;
-UPDATE `etcitem` SET `name` ='白色罪惡種子塊' WHERE `item_id` = 10205;
-UPDATE `etcitem` SET `name` ='黑色罪惡種子塊' WHERE `item_id` = 10206;
-UPDATE `etcitem` SET `name` ='發明家' WHERE `item_id` = 10213;
-UPDATE `etcitem` SET `name` ='1級寶袋' WHERE `item_id` = 10254;
-UPDATE `etcitem` SET `name` ='2級寶袋' WHERE `item_id` = 10255;
-UPDATE `etcitem` SET `name` ='3級寶袋' WHERE `item_id` = 10256;
-UPDATE `etcitem` SET `name` ='4級寶袋' WHERE `item_id` = 10257;
-UPDATE `etcitem` SET `name` ='5級寶袋' WHERE `item_id` = 10258;
-UPDATE `etcitem` SET `name` ='6級寶袋' WHERE `item_id` = 10259;
-UPDATE `etcitem` SET `name` ='攻擊加速飲料' WHERE `item_id` = 10260;
-UPDATE `etcitem` SET `name` ='命中強化飲料' WHERE `item_id` = 10261;
-UPDATE `etcitem` SET `name` ='爆擊威力強化飲料' WHERE `item_id` = 10262;
-UPDATE `etcitem` SET `name` ='爆擊機率強化飲料' WHERE `item_id` = 10263;
-UPDATE `etcitem` SET `name` ='施法加速飲料' WHERE `item_id` = 10264;
-UPDATE `etcitem` SET `name` ='迴避強化飲料' WHERE `item_id` = 10265;
-UPDATE `etcitem` SET `name` ='魔力強化飲料' WHERE `item_id` = 10266;
-UPDATE `etcitem` SET `name` ='攻擊力強化飲料' WHERE `item_id` = 10267;
-UPDATE `etcitem` SET `name` ='移動加速飲料' WHERE `item_id` = 10268;
-UPDATE `etcitem` SET `name` ='防禦力強化飲料' WHERE `item_id` = 10269;
-UPDATE `etcitem` SET `name` ='MP消耗量減少飲料' WHERE `item_id` = 10270;
-UPDATE `etcitem` SET `name` ='神奇果汁12' WHERE `item_id` = 10271;
-UPDATE `etcitem` SET `name` ='寶袋碎片' WHERE `item_id` = 10272;
-UPDATE `etcitem` SET `name` ='兔子變身卷軸' WHERE `item_id` = 10274;
-UPDATE `etcitem` SET `name` ='戰鬥教範-曲速' WHERE `item_id` = 10275;
-UPDATE `etcitem` SET `name` ='戰鬥教範-靈魂震盪' WHERE `item_id` = 10276;
-UPDATE `etcitem` SET `name` ='瑪瑙獸變身書' WHERE `item_id` = 10279;
-UPDATE `etcitem` SET `name` ='認證書-副職業 初學者' WHERE `item_id` = 10280;
-UPDATE `etcitem` SET `name` ='認證書-副職業 鬥士' WHERE `item_id` = 10281;
-UPDATE `etcitem` SET `name` ='認證書-副職業 騎士' WHERE `item_id` = 10282;
-UPDATE `etcitem` SET `name` ='認證書-副職業 盜賊' WHERE `item_id` = 10283;
-UPDATE `etcitem` SET `name` ='認證書-副職業 巫師' WHERE `item_id` = 10284;
-UPDATE `etcitem` SET `name` ='認證書-副職業 牧師' WHERE `item_id` = 10285;
-UPDATE `etcitem` SET `name` ='認證書-副職業 召喚士' WHERE `item_id` = 10286;
-UPDATE `etcitem` SET `name` ='認證書-副職業 法師' WHERE `item_id` = 10287;
-UPDATE `etcitem` SET `name` ='變身刻印書-聖恩騎士' WHERE `item_id` = 10288;
-UPDATE `etcitem` SET `name` ='變身刻印書-聖恩鬥士' WHERE `item_id` = 10289;
-UPDATE `etcitem` SET `name` ='變身刻印書-聖恩盜賊' WHERE `item_id` = 10290;
-UPDATE `etcitem` SET `name` ='變身刻印書-聖恩牧師' WHERE `item_id` = 10291;
-UPDATE `etcitem` SET `name` ='變身刻印書-聖恩巫師' WHERE `item_id` = 10292;
-UPDATE `etcitem` SET `name` ='變身刻印書-聖恩法師' WHERE `item_id` = 10293;
-UPDATE `etcitem` SET `name` ='變身刻印書-聖恩召喚士' WHERE `item_id` = 10294;
-UPDATE `etcitem` SET `name` ='變身刻印書-札肯' WHERE `item_id` = 10295;
-UPDATE `etcitem` SET `name` ='變身刻印書-亞納' WHERE `item_id` = 10296;
-UPDATE `etcitem` SET `name` ='變身刻印書-貝諾姆' WHERE `item_id` = 10297;
-UPDATE `etcitem` SET `name` ='變身刻印書-高登' WHERE `item_id` = 10298;
-UPDATE `etcitem` SET `name` ='變身刻印書-勞庫' WHERE `item_id` = 10299;
-UPDATE `etcitem` SET `name` ='變身刻印書-基亞齊' WHERE `item_id` = 10300;
-UPDATE `etcitem` SET `name` ='變身刻印書-惡魔公爵' WHERE `item_id` = 10301;
-UPDATE `etcitem` SET `name` ='變身刻印書-異教徒' WHERE `item_id` = 10302;
-UPDATE `etcitem` SET `name` ='變身刻印書-貝里大師' WHERE `item_id` = 10303;
-UPDATE `etcitem` SET `name` ='變身刻印書-劍齒虎' WHERE `item_id` = 10304;
-UPDATE `etcitem` SET `name` ='變身刻印書-奧耶豺狼' WHERE `item_id` = 10305;
-UPDATE `etcitem` SET `name` ='變身刻印書-人偶刀手' WHERE `item_id` = 10306;
-UPDATE `etcitem` SET `name` ='白鬃狼項鍊' WHERE `item_id` = 10307;
-UPDATE `etcitem` SET `name` ='赤紅風龍號角' WHERE `item_id` = 10308;
-UPDATE `etcitem` SET `name` ='赤紅星龍號角' WHERE `item_id` = 10309;
-UPDATE `etcitem` SET `name` ='赤紅黃昏龍號角' WHERE `item_id` = 10310;
-UPDATE `etcitem` SET `name` ='改良型野牛之笛' WHERE `item_id` = 10311;
-UPDATE `etcitem` SET `name` ='改良型老虎之鐘' WHERE `item_id` = 10312;
-UPDATE `etcitem` SET `name` ='改良型笑翠鳥之笛' WHERE `item_id` = 10313;
-UPDATE `etcitem` SET `name` ='魔物的武器' WHERE `item_id` = 10327;
-UPDATE `etcitem` SET `name` ='被竊的貨物' WHERE `item_id` = 10328;
-UPDATE `etcitem` SET `name` ='憎恨的結晶' WHERE `item_id` = 10329;
-UPDATE `etcitem` SET `name` ='破舊的藏寶圖' WHERE `item_id` = 10330;
-UPDATE `etcitem` SET `name` ='桑寧的委任書' WHERE `item_id` = 10331;
-UPDATE `etcitem` SET `name` ='帕諾的委任書' WHERE `item_id` = 10332;
-UPDATE `etcitem` SET `name` ='阿蘭克爾的委任書' WHERE `item_id` = 10333;
-UPDATE `etcitem` SET `name` ='徽章-教團之手' WHERE `item_id` = 10334;
-UPDATE `etcitem` SET `name` ='巨人的實驗工具破片' WHERE `item_id` = 10335;
-UPDATE `etcitem` SET `name` ='巨人的實驗工具' WHERE `item_id` = 10336;
-UPDATE `etcitem` SET `name` ='巨人技術研究報告' WHERE `item_id` = 10337;
-UPDATE `etcitem` SET `name` ='洛克的報告' WHERE `item_id` = 10338;
-UPDATE `etcitem` SET `name` ='徽章-教團之足' WHERE `item_id` = 10339;
-UPDATE `etcitem` SET `name` ='調查官報告破片' WHERE `item_id` = 10340;
-UPDATE `etcitem` SET `name` ='教團的聲明書' WHERE `item_id` = 10341;
-UPDATE `etcitem` SET `name` ='黑暗精靈訓練生的遺物' WHERE `item_id` = 10342;
-UPDATE `etcitem` SET `name` ='安古斯的推薦函' WHERE `item_id` = 10343;
-UPDATE `etcitem` SET `name` ='朴皮娜的推薦函' WHERE `item_id` = 10344;
-UPDATE `etcitem` SET `name` ='文件箱的鑰匙破片' WHERE `item_id` = 10345;
-UPDATE `etcitem` SET `name` ='文件箱' WHERE `item_id` = 10346;
-UPDATE `etcitem` SET `name` ='黑暗結晶' WHERE `item_id` = 10347;
-UPDATE `etcitem` SET `name` ='黑暗氧化物' WHERE `item_id` = 10348;
-UPDATE `etcitem` SET `name` ='女神之劍暗號文' WHERE `item_id` = 10349;
-UPDATE `etcitem` SET `name` ='前任者調查書' WHERE `item_id` = 10350;
-UPDATE `etcitem` SET `name` ='天使探索暗號文' WHERE `item_id` = 10351;
-UPDATE `etcitem` SET `name` ='預言書破片' WHERE `item_id` = 10352;
-UPDATE `etcitem` SET `name` ='墮落天使的血' WHERE `item_id` = 10353;
-UPDATE `etcitem` SET `name` ='封印的預言書-神之道' WHERE `item_id` = 10354;
-UPDATE `etcitem` SET `name` ='預言書-神之道' WHERE `item_id` = 10355;
-UPDATE `etcitem` SET `name` ='空的回聲水晶' WHERE `item_id` = 10356;
-UPDATE `etcitem` SET `name` ='天使治癒藥' WHERE `item_id` = 10357;
-UPDATE `etcitem` SET `name` ='天使的訊息' WHERE `item_id` = 10358;
-UPDATE `etcitem` SET `name` ='金屬板' WHERE `item_id` = 10359;
-UPDATE `etcitem` SET `name` ='金屬破片' WHERE `item_id` = 10360;
-UPDATE `etcitem` SET `name` ='尼古拉的地圖' WHERE `item_id` = 10361;
-UPDATE `etcitem` SET `name` ='羅萊恩證書' WHERE `item_id` = 10362;
-UPDATE `etcitem` SET `name` ='金屬板' WHERE `item_id` = 10363;
-UPDATE `etcitem` SET `name` ='金屬破片' WHERE `item_id` = 10364;
-UPDATE `etcitem` SET `name` ='尼古拉的地圖' WHERE `item_id` = 10365;
-UPDATE `etcitem` SET `name` ='金屬板-研究日誌' WHERE `item_id` = 10366;
-UPDATE `etcitem` SET `name` ='里多蜥蜴人的飾品' WHERE `item_id` = 10367;
-UPDATE `etcitem` SET `name` ='金屬板' WHERE `item_id` = 10368;
-UPDATE `etcitem` SET `name` ='金屬破片' WHERE `item_id` = 10369;
-UPDATE `etcitem` SET `name` ='金屬板-解碼本' WHERE `item_id` = 10370;
-UPDATE `etcitem` SET `name` ='修復的金屬板' WHERE `item_id` = 10371;
-UPDATE `etcitem` SET `name` ='紅石' WHERE `item_id` = 10372;
-UPDATE `etcitem` SET `name` ='製作卷軸(伊克魯斯之劍60%)' WHERE `item_id` = 10373;
-UPDATE `etcitem` SET `name` ='製作卷軸(伊克魯斯分解者60%)' WHERE `item_id` = 10374;
-UPDATE `etcitem` SET `name` ='製作卷軸(伊克魯斯之靈60%)' WHERE `item_id` = 10375;
-UPDATE `etcitem` SET `name` ='製作卷軸(伊克魯斯重兵刃60%)' WHERE `item_id` = 10376;
-UPDATE `etcitem` SET `name` ='製作卷軸(伊克魯斯三叉戟60%)' WHERE `item_id` = 10377;
-UPDATE `etcitem` SET `name` ='製作卷軸(伊克魯斯之鎚60%)' WHERE `item_id` = 10378;
-UPDATE `etcitem` SET `name` ='製作卷軸(伊克魯斯之手60%)' WHERE `item_id` = 10379;
-UPDATE `etcitem` SET `name` ='製作卷軸(伊克魯斯手杖60%)' WHERE `item_id` = 10380;
-UPDATE `etcitem` SET `name` ='製作卷軸(伊克魯斯之弓60%)' WHERE `item_id` = 10381;
-UPDATE `etcitem` SET `name` ='製作卷軸(伊克魯斯刺劍60%)' WHERE `item_id` = 10382;
-UPDATE `etcitem` SET `name` ='製作卷軸(伊克魯斯翼刃60%)' WHERE `item_id` = 10383;
-UPDATE `etcitem` SET `name` ='製作卷軸(伊克魯斯之弩60%)' WHERE `item_id` = 10384;
-UPDATE `etcitem` SET `name` ='製作卷軸(伊克魯斯之劍100%)' WHERE `item_id` = 10385;
-UPDATE `etcitem` SET `name` ='製作卷軸(伊克魯斯分解者100%)' WHERE `item_id` = 10386;
-UPDATE `etcitem` SET `name` ='製作卷軸(伊克魯斯之靈100%)' WHERE `item_id` = 10387;
-UPDATE `etcitem` SET `name` ='製作卷軸(伊克魯斯重兵刃100%)' WHERE `item_id` = 10388;
-UPDATE `etcitem` SET `name` ='製作卷軸(伊克魯斯三叉戟100%)' WHERE `item_id` = 10389;
-UPDATE `etcitem` SET `name` ='製作卷軸(伊克魯斯之鎚100%)' WHERE `item_id` = 10390;
-UPDATE `etcitem` SET `name` ='製作卷軸(伊克魯斯之手100%)' WHERE `item_id` = 10391;
-UPDATE `etcitem` SET `name` ='製作卷軸(伊克魯斯手杖100%)' WHERE `item_id` = 10392;
-UPDATE `etcitem` SET `name` ='製作卷軸(伊克魯斯之弓100%)' WHERE `item_id` = 10393;
-UPDATE `etcitem` SET `name` ='製作卷軸(伊克魯斯刺劍100%)' WHERE `item_id` = 10394;
-UPDATE `etcitem` SET `name` ='製作卷軸(伊克魯斯翼刃100%)' WHERE `item_id` = 10395;
-UPDATE `etcitem` SET `name` ='製作卷軸(伊克魯斯之弩100%)' WHERE `item_id` = 10396;
-UPDATE `etcitem` SET `name` ='伊克魯斯之劍碎片' WHERE `item_id` = 10397;
-UPDATE `etcitem` SET `name` ='伊克魯斯分解者碎片' WHERE `item_id` = 10398;
-UPDATE `etcitem` SET `name` ='伊克魯斯之靈碎片' WHERE `item_id` = 10399;
-UPDATE `etcitem` SET `name` ='伊克魯斯重兵刃碎片' WHERE `item_id` = 10400;
-UPDATE `etcitem` SET `name` ='伊克魯斯三叉戟碎片' WHERE `item_id` = 10401;
-UPDATE `etcitem` SET `name` ='伊克魯斯之鎚碎片' WHERE `item_id` = 10402;
-UPDATE `etcitem` SET `name` ='伊克魯斯之手碎片' WHERE `item_id` = 10403;
-UPDATE `etcitem` SET `name` ='伊克魯斯手杖碎片' WHERE `item_id` = 10404;
-UPDATE `etcitem` SET `name` ='伊克魯斯之弓碎片' WHERE `item_id` = 10405;
-UPDATE `etcitem` SET `name` ='伊克魯斯刺劍碎片' WHERE `item_id` = 10406;
-UPDATE `etcitem` SET `name` ='伊克魯斯翼刃碎片' WHERE `item_id` = 10407;
-UPDATE `etcitem` SET `name` ='古老壺精' WHERE `item_id` = 10408;
-UPDATE `etcitem` SET `name` ='靈魂之瓶' WHERE `item_id` = 10409;
-UPDATE `etcitem` SET `name` ='裝滿的靈魂之瓶-5個靈魂' WHERE `item_id` = 10410;
-UPDATE `etcitem` SET `name` ='裝滿的靈魂之瓶-5個靈魂(戰場用)' WHERE `item_id` = 10411;
-UPDATE `etcitem` SET `name` ='裝滿的靈魂之瓶-10個靈魂' WHERE `item_id` = 10412;
-UPDATE `etcitem` SET `name` ='王朝之魂II' WHERE `item_id` = 10413;
-UPDATE `etcitem` SET `name` ='壺精交換券' WHERE `item_id` = 10414;
-UPDATE `etcitem` SET `name` ='改良幼寵物飼料' WHERE `item_id` = 10425;
-UPDATE `etcitem` SET `name` ='座狼項鍊' WHERE `item_id` = 10426;
-UPDATE `etcitem` SET `name` ='托里士的白金紀念章' WHERE `item_id` = 10427;
-UPDATE `etcitem` SET `name` ='托里士的錫質紀念章' WHERE `item_id` = 10428;
-UPDATE `etcitem` SET `name` ='托里士的鉛質紀念章' WHERE `item_id` = 10429;
-UPDATE `etcitem` SET `name` ='托里士的鋅質紀念章' WHERE `item_id` = 10430;
-UPDATE `etcitem` SET `name` ='托里士的銅質紀念章' WHERE `item_id` = 10431;
-UPDATE `etcitem` SET `name` ='柯爾堂的生命藥草' WHERE `item_id` = 10432;
-UPDATE `etcitem` SET `name` ='柯爾堂的瑪那藥草' WHERE `item_id` = 10433;
-UPDATE `etcitem` SET `name` ='魔法防具套裝' WHERE `item_id` = 10473;
-UPDATE `etcitem` SET `name` ='紅色搜魂石-階段15' WHERE `item_id` = 10480;
-UPDATE `etcitem` SET `name` ='藍色搜魂石-階段15' WHERE `item_id` = 10481;
-UPDATE `etcitem` SET `name` ='綠色搜魂石-階段15' WHERE `item_id` = 10482;
-UPDATE `etcitem` SET `name` ='生命石-82級' WHERE `item_id` = 10483;
-UPDATE `etcitem` SET `name` ='中級生命石-82級' WHERE `item_id` = 10484;
-UPDATE `etcitem` SET `name` ='高級生命石-82級' WHERE `item_id` = 10485;
-UPDATE `etcitem` SET `name` ='特級生命石-82級' WHERE `item_id` = 10486;
-UPDATE `etcitem` SET `name` ='壓縮野獸靈魂彈' WHERE `item_id` = 10515;
-UPDATE `etcitem` SET `name` ='壓縮野獸魔靈彈' WHERE `item_id` = 10516;
-UPDATE `etcitem` SET `name` ='祝福的壓縮野獸魔靈彈' WHERE `item_id` = 10517;
-UPDATE `etcitem` SET `name` ='回聲水晶-倉木麻衣' WHERE `item_id` = 10520;
-UPDATE `etcitem` SET `name` ='粗劣的火之原石' WHERE `item_id` = 10521;
-UPDATE `etcitem` SET `name` ='粗劣的水之原石' WHERE `item_id` = 10522;
-UPDATE `etcitem` SET `name` ='粗劣的地之原石' WHERE `item_id` = 10523;
-UPDATE `etcitem` SET `name` ='粗劣的風之原石' WHERE `item_id` = 10524;
-UPDATE `etcitem` SET `name` ='粗劣的暗之原石' WHERE `item_id` = 10525;
-UPDATE `etcitem` SET `name` ='粗劣的聖之原石' WHERE `item_id` = 10526;
-UPDATE `etcitem` SET `name` ='製作卷軸(王朝魔杖60%)' WHERE `item_id` = 10544;
-UPDATE `etcitem` SET `name` ='製作卷軸(王朝毀滅者60%)' WHERE `item_id` = 10545;
-UPDATE `etcitem` SET `name` ='王朝魔杖碎片' WHERE `item_id` = 10546;
-UPDATE `etcitem` SET `name` ='王朝毀滅者碎片' WHERE `item_id` = 10547;
-UPDATE `etcitem` SET `name` ='遺忘祕傳書-古文保護' WHERE `item_id` = 10549;
-UPDATE `etcitem` SET `name` ='遺忘祕傳書-元素保護' WHERE `item_id` = 10550;
-UPDATE `etcitem` SET `name` ='遺忘祕傳書-團結保護' WHERE `item_id` = 10551;
-UPDATE `etcitem` SET `name` ='遺忘祕傳書-戰士的意志' WHERE `item_id` = 10552;
-UPDATE `etcitem` SET `name` ='遺忘祕傳書-弓手的意志' WHERE `item_id` = 10553;
-UPDATE `etcitem` SET `name` ='遺忘祕傳書-抗魔裝甲' WHERE `item_id` = 10554;
-UPDATE `etcitem` SET `name` ='遺忘祕傳書-復仇種子' WHERE `item_id` = 10555;
-UPDATE `etcitem` SET `name` ='遺忘祕傳書-地獄狂嘯' WHERE `item_id` = 10556;
-UPDATE `etcitem` SET `name` ='遺忘祕傳書-風暴之歌' WHERE `item_id` = 10557;
-UPDATE `etcitem` SET `name` ='遺忘祕傳書-刀刃風暴' WHERE `item_id` = 10558;
-UPDATE `etcitem` SET `name` ='遺忘祕傳書-第六感' WHERE `item_id` = 10559;
-UPDATE `etcitem` SET `name` ='遺忘祕傳書-弱點揭露' WHERE `item_id` = 10560;
-UPDATE `etcitem` SET `name` ='遺忘祕傳書-狂熱鬥志' WHERE `item_id` = 10561;
-UPDATE `etcitem` SET `name` ='遺忘祕傳書-御風' WHERE `item_id` = 10562;
-UPDATE `etcitem` SET `name` ='遺忘祕傳書-鬼行' WHERE `item_id` = 10563;
-UPDATE `etcitem` SET `name` ='遺忘祕傳書-火焰之鷹' WHERE `item_id` = 10564;
-UPDATE `etcitem` SET `name` ='遺忘祕傳書-箭雨' WHERE `item_id` = 10565;
-UPDATE `etcitem` SET `name` ='遺忘祕傳書-鬼刺' WHERE `item_id` = 10566;
-UPDATE `etcitem` SET `name` ='遺忘祕傳書-恐懼佈滿' WHERE `item_id` = 10567;
-UPDATE `etcitem` SET `name` ='遺忘祕傳書-武器封鎖' WHERE `item_id` = 10568;
-UPDATE `etcitem` SET `name` ='遺忘祕傳書-毀滅之力' WHERE `item_id` = 10569;
-UPDATE `etcitem` SET `name` ='遺忘祕傳書-壞滅衝擊' WHERE `item_id` = 10570;
-UPDATE `etcitem` SET `name` ='遺忘祕傳書-高崙裝甲' WHERE `item_id` = 10571;
-UPDATE `etcitem` SET `name` ='遺忘祕傳書-火焰裝甲' WHERE `item_id` = 10572;
-UPDATE `etcitem` SET `name` ='遺忘祕傳書-寒霜裝甲' WHERE `item_id` = 10573;
-UPDATE `etcitem` SET `name` ='遺忘祕傳書-風暴裝甲' WHERE `item_id` = 10574;
-UPDATE `etcitem` SET `name` ='遺忘祕傳書-吸血迷霧' WHERE `item_id` = 10575;
-UPDATE `etcitem` SET `name` ='遺忘祕傳書-使魔屏障' WHERE `item_id` = 10576;
-UPDATE `etcitem` SET `name` ='遺忘祕傳書-極度忠誠' WHERE `item_id` = 10577;
-UPDATE `etcitem` SET `name` ='遺忘祕傳書-相互呼應' WHERE `item_id` = 10578;
-UPDATE `etcitem` SET `name` ='遺忘祕傳書-提升戰鬥' WHERE `item_id` = 10579;
-UPDATE `etcitem` SET `name` ='遺忘祕傳書-提升魔法' WHERE `item_id` = 10580;
-UPDATE `etcitem` SET `name` ='遺忘祕傳書-提升狀態' WHERE `item_id` = 10581;
-UPDATE `etcitem` SET `name` ='遺忘祕傳書-提升致命攻擊' WHERE `item_id` = 10582;
-UPDATE `etcitem` SET `name` ='遺忘祕傳書-提升盾防禦' WHERE `item_id` = 10583;
-UPDATE `etcitem` SET `name` ='遺忘祕傳書-提升行動力' WHERE `item_id` = 10584;
-UPDATE `etcitem` SET `name` ='遺忘祕傳書-崇高自我獻祭' WHERE `item_id` = 10585;
-UPDATE `etcitem` SET `name` ='遺忘祕傳書-伊娃祝福' WHERE `item_id` = 10586;
-UPDATE `etcitem` SET `name` ='遺忘祕傳書-吸血鬼之王' WHERE `item_id` = 10587;
-UPDATE `etcitem` SET `name` ='遺忘祕傳書-霸權纏繞' WHERE `item_id` = 10588;
-UPDATE `etcitem` SET `name` ='遺忘祕傳書-極限封印' WHERE `item_id` = 10589;
-UPDATE `etcitem` SET `name` ='魔法書-召喚聰慧晶體' WHERE `item_id` = 10590;
-UPDATE `etcitem` SET `name` ='遺忘祕傳書-鳳凰之魂' WHERE `item_id` = 10591;
-UPDATE `etcitem` SET `name` ='遺忘祕傳書-伊娃意志' WHERE `item_id` = 10592;
-UPDATE `etcitem` SET `name` ='遺忘祕傳書-席琳之痛' WHERE `item_id` = 10593;
-UPDATE `etcitem` SET `name` ='遺忘祕傳書-野性射擊' WHERE `item_id` = 10594;
-UPDATE `etcitem` SET `name` ='遺忘祕傳書-強雷震盪' WHERE `item_id` = 10595;
-UPDATE `etcitem` SET `name` ='戰鬥教範-靈魂淨罪' WHERE `item_id` = 10596;
-UPDATE `etcitem` SET `name` ='戰鬥教範-生命流動詛咒' WHERE `item_id` = 10597;
-UPDATE `etcitem` SET `name` ='戰鬥教範-魂之旋流' WHERE `item_id` = 10598;
-UPDATE `etcitem` SET `name` ='戰鬥教範-魂旋破滅' WHERE `item_id` = 10599;
-UPDATE `etcitem` SET `name` ='戰鬥教範-靈魂屏障' WHERE `item_id` = 10600;
-UPDATE `etcitem` SET `name` ='戰鬥教範-強雷屏障' WHERE `item_id` = 10601;
-UPDATE `etcitem` SET `name` ='戰鬥教範-魂靈強擊' WHERE `item_id` = 10602;
-UPDATE `etcitem` SET `name` ='戰鬥教範-背叛印記' WHERE `item_id` = 10603;
-UPDATE `etcitem` SET `name` ='戰鬥教範-疾襲衝擊' WHERE `item_id` = 10604;
-UPDATE `etcitem` SET `name` ='戰鬥教範-集體卸除武器' WHERE `item_id` = 10605;
-UPDATE `etcitem` SET `name` ='壺精封印手鐲-魯道夫' WHERE `item_id` = 10607;
-UPDATE `etcitem` SET `name` ='護身符-戰鬥頌歌' WHERE `item_id` = 10608;
-UPDATE `etcitem` SET `name` ='護身符-致命攻擊頌歌' WHERE `item_id` = 10609;
-UPDATE `etcitem` SET `name` ='護身符-血之覺醒頌歌' WHERE `item_id` = 10610;
-UPDATE `etcitem` SET `name` ='白座狼項鍊' WHERE `item_id` = 10611;
-UPDATE `etcitem` SET `name` ='認證書-副職業專家' WHERE `item_id` = 10612;
-UPDATE `etcitem` SET `name` ='神祕的晶體' WHERE `item_id` = 10632;
-UPDATE `etcitem` SET `name` ='粗糙的藍色晶體碎片' WHERE `item_id` = 10633;
-UPDATE `etcitem` SET `name` ='粗糙的黃色晶體碎片' WHERE `item_id` = 10634;
-UPDATE `etcitem` SET `name` ='粗糙的綠色晶體碎片' WHERE `item_id` = 10635;
-UPDATE `etcitem` SET `name` ='粗糙的紅色晶體碎片' WHERE `item_id` = 10636;
-UPDATE `etcitem` SET `name` ='粗糙的白色晶體碎片' WHERE `item_id` = 10637;
-UPDATE `etcitem` SET `name` ='粗糙的黑色晶體碎片' WHERE `item_id` = 10638;
-UPDATE `etcitem` SET `name` ='鼠幣' WHERE `item_id` = 10639;
-UPDATE `etcitem` SET `name` ='複製的葫蘆種子' WHERE `item_id` = 10640;
-UPDATE `etcitem` SET `name` ='複製的大葫蘆種子' WHERE `item_id` = 10641;
-UPDATE `etcitem` SET `name` ='細緻的藍色晶體碎片' WHERE `item_id` = 10642;
-UPDATE `etcitem` SET `name` ='細緻的黃色晶體碎片' WHERE `item_id` = 10643;
-UPDATE `etcitem` SET `name` ='細緻的綠色晶體碎片' WHERE `item_id` = 10644;
-UPDATE `etcitem` SET `name` ='細緻的紅色晶體碎片' WHERE `item_id` = 10645;
-UPDATE `etcitem` SET `name` ='細緻的白色晶體碎片' WHERE `item_id` = 10646;
-UPDATE `etcitem` SET `name` ='細緻的黑色晶體碎片' WHERE `item_id` = 10647;
-UPDATE `etcitem` SET `name` ='祝福的羽毛' WHERE `item_id` = 10649;
-UPDATE `etcitem` SET `name` ='冒險家專用返回卷軸' WHERE `item_id` = 10650;
-UPDATE `etcitem` SET `name` ='傳送師變身卷軸-活動用' WHERE `item_id` = 10651;
-UPDATE `etcitem` SET `name` ='傳送師之淚-活動用' WHERE `item_id` = 10652;
-UPDATE `etcitem` SET `name` ='警衛兵變身卷軸-活動用' WHERE `item_id` = 10653;
-UPDATE `etcitem` SET `name` ='警衛兵佈告文-活動用' WHERE `item_id` = 10654;
-UPDATE `etcitem` SET `name` ='生命力吸收藥草' WHERE `item_id` = 10655;
-UPDATE `etcitem` SET `name` ='致命攻擊藥草-威力' WHERE `item_id` = 10656;
-UPDATE `etcitem` SET `name` ='疑問藥草' WHERE `item_id` = 10657;
-UPDATE `etcitem` SET `name` ='寵物召喚道具-戰士用' WHERE `item_id` = 10661;
-UPDATE `etcitem` SET `name` ='寵物召喚道具-法師用' WHERE `item_id` = 10662;
-UPDATE `etcitem` SET `name` ='寵物召喚道具-混合用' WHERE `item_id` = 10663;
-UPDATE `etcitem` SET `name` ='寵物召喚道具-戰士寵物' WHERE `item_id` = 10664;
-UPDATE `etcitem` SET `name` ='寵物召喚道具-戰士寵物' WHERE `item_id` = 10665;
-UPDATE `etcitem` SET `name` ='活力充能藥劑' WHERE `item_id` = 10666;
-UPDATE `etcitem` SET `name` ='開拓者補給品(2級)' WHERE `item_id` = 10836;
-UPDATE `etcitem` SET `name` ='開拓者補給品(4級)' WHERE `item_id` = 10837;
-UPDATE `etcitem` SET `name` ='開拓者補給品(5級)' WHERE `item_id` = 10838;
-UPDATE `etcitem` SET `name` ='開拓者補給品(6級)' WHERE `item_id` = 10839;
-UPDATE `etcitem` SET `name` ='開拓者補給品(7級)' WHERE `item_id` = 10840;
-UPDATE `etcitem` SET `name` ='開拓者補給品(8級)' WHERE `item_id` = 10841;
-UPDATE `etcitem` SET `name` ='開拓者補給品(11級)' WHERE `item_id` = 10842;
-UPDATE `etcitem` SET `name` ='開拓者補給品(12級)' WHERE `item_id` = 10843;
-UPDATE `etcitem` SET `name` ='開拓者補給品(13級)' WHERE `item_id` = 10844;
-UPDATE `etcitem` SET `name` ='開拓者補給品(14級)' WHERE `item_id` = 10845;
-UPDATE `etcitem` SET `name` ='開拓者補給品(15級)' WHERE `item_id` = 10846;
-UPDATE `etcitem` SET `name` ='開拓者補給品(18級)' WHERE `item_id` = 10847;
-UPDATE `etcitem` SET `name` ='開拓者補給品(19級)' WHERE `item_id` = 10848;
-UPDATE `etcitem` SET `name` ='開拓者補給品(20級)' WHERE `item_id` = 10849;
-UPDATE `etcitem` SET `name` ='開拓者補給品(21級)' WHERE `item_id` = 10850;
-UPDATE `etcitem` SET `name` ='開拓者補給品(22級)' WHERE `item_id` = 10851;
-UPDATE `etcitem` SET `name` ='開拓者補給品(25級)' WHERE `item_id` = 10852;
-UPDATE `etcitem` SET `name` ='開拓者補給品(26級)' WHERE `item_id` = 10853;
-UPDATE `etcitem` SET `name` ='開拓者補給品(27級)' WHERE `item_id` = 10854;
-UPDATE `etcitem` SET `name` ='開拓者補給品(28級)' WHERE `item_id` = 10855;
-UPDATE `etcitem` SET `name` ='開拓者補給品(29級)' WHERE `item_id` = 10856;
-UPDATE `etcitem` SET `name` ='開拓者補給品(32級)' WHERE `item_id` = 10857;
-UPDATE `etcitem` SET `name` ='開拓者補給品(33級)' WHERE `item_id` = 10858;
-UPDATE `etcitem` SET `name` ='開拓者補給品(34級)' WHERE `item_id` = 10859;
-UPDATE `etcitem` SET `name` ='開拓者補給品(35級)' WHERE `item_id` = 10860;
-UPDATE `etcitem` SET `name` ='開拓者補給品(36級)' WHERE `item_id` = 10861;
-UPDATE `etcitem` SET `name` ='開拓者補給品(38級)' WHERE `item_id` = 10862;
-UPDATE `etcitem` SET `name` ='開拓者補給品(39級)' WHERE `item_id` = 10863;
-UPDATE `etcitem` SET `name` ='開拓者補給品(40級)' WHERE `item_id` = 10864;
-UPDATE `etcitem` SET `name` ='開拓者補給品(41級)' WHERE `item_id` = 10865;
-UPDATE `etcitem` SET `name` ='能量礦石' WHERE `item_id` = 10866;
-UPDATE `etcitem` SET `name` ='血染的布片' WHERE `item_id` = 10867;
-UPDATE `etcitem` SET `name` ='雜貨商人的解毒草' WHERE `item_id` = 10868;
-UPDATE `etcitem` SET `name` ='卡沙蜘蛛的腐液' WHERE `item_id` = 10869;
-UPDATE `etcitem` SET `name` ='武器用強化輔助石-D級' WHERE `item_id` = 12362;
-UPDATE `etcitem` SET `name` ='武器用強化輔助石-C級' WHERE `item_id` = 12363;
-UPDATE `etcitem` SET `name` ='武器用強化輔助石-B級' WHERE `item_id` = 12364;
-UPDATE `etcitem` SET `name` ='武器用強化輔助石-A級' WHERE `item_id` = 12365;
-UPDATE `etcitem` SET `name` ='武器用強化輔助石-S級' WHERE `item_id` = 12366;
-UPDATE `etcitem` SET `name` ='防具用強化輔助石-D級' WHERE `item_id` = 12367;
-UPDATE `etcitem` SET `name` ='防具用強化輔助石-C級' WHERE `item_id` = 12368;
-UPDATE `etcitem` SET `name` ='防具用強化輔助石-B級' WHERE `item_id` = 12369;
-UPDATE `etcitem` SET `name` ='防具用強化輔助石-A級' WHERE `item_id` = 12370;
-UPDATE `etcitem` SET `name` ='防具用強化輔助石-S級' WHERE `item_id` = 12371;
-UPDATE `etcitem` SET `name` ='財富的研磨強化劑' WHERE `item_id` = 12374;
-UPDATE `etcitem` SET `name` ='渾沌的巨劍' WHERE `item_id` = 12375;
-UPDATE `etcitem` SET `name` ='渾沌的巨斧' WHERE `item_id` = 12376;
-UPDATE `etcitem` SET `name` ='渾沌的無名之勝' WHERE `item_id` = 12377;
-UPDATE `etcitem` SET `name` ='渾沌的黑暗精靈長弓' WHERE `item_id` = 12378;
-UPDATE `etcitem` SET `name` ='渾沌的聖堂之劍' WHERE `item_id` = 12379;
-UPDATE `etcitem` SET `name` ='渾沌的破咒者' WHERE `item_id` = 12380;
-UPDATE `etcitem` SET `name` ='渾沌的阿斯拉爪' WHERE `item_id` = 12381;
-UPDATE `etcitem` SET `name` ='渾沌的暴風雪巨鎚' WHERE `item_id` = 12382;
-UPDATE `etcitem` SET `name` ='渾沌的突襲鈍劍' WHERE `item_id` = 12383;
-UPDATE `etcitem` SET `name` ='渾沌的精靈魔杖' WHERE `item_id` = 12384;
-UPDATE `etcitem` SET `name` ='渾沌的波形刃' WHERE `item_id` = 12385;
-UPDATE `etcitem` SET `name` ='渾沌的柯貝克劍' WHERE `item_id` = 12386;
-UPDATE `etcitem` SET `name` ='渾沌的和平使者' WHERE `item_id` = 12387;
-UPDATE `etcitem` SET `name` ='渾沌的巨大戰斧' WHERE `item_id` = 12388;
-UPDATE `etcitem` SET `name` ='渾沌的地獄刀' WHERE `item_id` = 12389;
-UPDATE `etcitem` SET `name` ='渾沌的守護神之劍' WHERE `item_id` = 12390;
-UPDATE `etcitem` SET `name` ='渾沌的大馬士革刀' WHERE `item_id` = 12391;
-UPDATE `etcitem` SET `name` ='渾沌的裂解劍' WHERE `item_id` = 12392;
-UPDATE `etcitem` SET `name` ='渾沌的長槍' WHERE `item_id` = 12393;
-UPDATE `etcitem` SET `name` ='渾沌的博利恩拳套' WHERE `item_id` = 12394;
-UPDATE `etcitem` SET `name` ='渾沌的邪靈魔杖' WHERE `item_id` = 12395;
-UPDATE `etcitem` SET `name` ='渾沌的亡者榮譽' WHERE `item_id` = 12396;
-UPDATE `etcitem` SET `name` ='渾沌的星爆' WHERE `item_id` = 12397;
-UPDATE `etcitem` SET `name` ='渾沌的工藝戰斧' WHERE `item_id` = 12398;
-UPDATE `etcitem` SET `name` ='渾沌的惡魔短劍' WHERE `item_id` = 12399;
-UPDATE `etcitem` SET `name` ='渾沌的卡倚巴奴之骨' WHERE `item_id` = 12400;
-UPDATE `etcitem` SET `name` ='渾沌的華麗細劍' WHERE `item_id` = 12401;
-UPDATE `etcitem` SET `name` ='渾沌的巫師之淚' WHERE `item_id` = 12402;
-UPDATE `etcitem` SET `name` ='渾沌的冒險弓' WHERE `item_id` = 12403;
-UPDATE `etcitem` SET `name` ='渾沌的冥犬之牙' WHERE `item_id` = 12404;
-UPDATE `etcitem` SET `name` ='渾沌的帕黎恩魔杖' WHERE `item_id` = 12405;
-UPDATE `etcitem` SET `name` ='渾沌的末日咒詛' WHERE `item_id` = 12406;
-UPDATE `etcitem` SET `name` ='渾沌的天雷' WHERE `item_id` = 12407;
-UPDATE `etcitem` SET `name` ='渾沌的流星雨' WHERE `item_id` = 12408;
-UPDATE `etcitem` SET `name` ='渾沌的血旋風' WHERE `item_id` = 12409;
-UPDATE `etcitem` SET `name` ='渾沌的血腥之蘭' WHERE `item_id` = 12410;
-UPDATE `etcitem` SET `name` ='渾沌的元素劍' WHERE `item_id` = 12411;
-UPDATE `etcitem` SET `name` ='渾沌的英魂之眼' WHERE `item_id` = 12412;
-UPDATE `etcitem` SET `name` ='渾沌的煉獄之主' WHERE `item_id` = 12413;
-UPDATE `etcitem` SET `name` ='渾沌的顱之弓' WHERE `item_id` = 12414;
-UPDATE `etcitem` SET `name` ='渾沌的塔魯刀' WHERE `item_id` = 12415;
-UPDATE `etcitem` SET `name` ='渾沌的破壞者巨鎚' WHERE `item_id` = 12416;
-UPDATE `etcitem` SET `name` ='渾沌的神怨' WHERE `item_id` = 12417;
-UPDATE `etcitem` SET `name` ='渾沌的長柄戰戟' WHERE `item_id` = 12418;
-UPDATE `etcitem` SET `name` ='渾沌的貪婪刺劍' WHERE `item_id` = 12419;
-UPDATE `etcitem` SET `name` ='渾沌的黑暗軍刀' WHERE `item_id` = 12420;
-UPDATE `etcitem` SET `name` ='渾沌的死神使者' WHERE `item_id` = 12421;
-UPDATE `etcitem` SET `name` ='渾沌的末日毀滅者' WHERE `item_id` = 12422;
-UPDATE `etcitem` SET `name` ='渾沌的龍牙' WHERE `item_id` = 12423;
-UPDATE `etcitem` SET `name` ='渾沌的斬龍刀' WHERE `item_id` = 12424;
-UPDATE `etcitem` SET `name` ='渾沌的火龍之首' WHERE `item_id` = 12425;
-UPDATE `etcitem` SET `name` ='渾沌的世界樹樹枝' WHERE `item_id` = 12426;
-UPDATE `etcitem` SET `name` ='渾沌的奇蹟劍' WHERE `item_id` = 12427;
-UPDATE `etcitem` SET `name` ='渾沌的靈魂弩' WHERE `item_id` = 12428;
-UPDATE `etcitem` SET `name` ='渾沌的魂體分離器' WHERE `item_id` = 12429;
-UPDATE `etcitem` SET `name` ='渾沌的樂園' WHERE `item_id` = 12430;
-UPDATE `etcitem` SET `name` ='渾沌的靈魂弓' WHERE `item_id` = 12431;
-UPDATE `etcitem` SET `name` ='渾沌的塔魯闊矛' WHERE `item_id` = 12432;
-UPDATE `etcitem` SET `name` ='渾沌的那卡風暴' WHERE `item_id` = 12433;
-UPDATE `etcitem` SET `name` ='渾沌的惡魔結晶' WHERE `item_id` = 12434;
-UPDATE `etcitem` SET `name` ='渾沌的貝拉凱爾聖斧' WHERE `item_id` = 12435;
-UPDATE `etcitem` SET `name` ='渾沌的復仇爆弩' WHERE `item_id` = 12436;
-UPDATE `etcitem` SET `name` ='渾沌的貝希莫斯巨叉' WHERE `item_id` = 12437;
-UPDATE `etcitem` SET `name` ='渾沌的光明守護之劍' WHERE `item_id` = 12438;
-UPDATE `etcitem` SET `name` ='渾沌的夏伊德獵弓' WHERE `item_id` = 12439;
-UPDATE `etcitem` SET `name` ='渾沌的伊波斯巨劍' WHERE `item_id` = 12440;
-UPDATE `etcitem` SET `name` ='渾沌的索貝克颶風' WHERE `item_id` = 12441;
-UPDATE `etcitem` SET `name` ='渾沌的希露冰刃' WHERE `item_id` = 12442;
-UPDATE `etcitem` SET `name` ='渾沌的閃光之珠' WHERE `item_id` = 12443;
-UPDATE `etcitem` SET `name` ='渾沌的岱依封長戟' WHERE `item_id` = 12444;
-UPDATE `etcitem` SET `name` ='渾沌的緹米絲之舌' WHERE `item_id` = 12445;
-UPDATE `etcitem` SET `name` ='渾沌的卡布里歐之手' WHERE `item_id` = 12446;
-UPDATE `etcitem` SET `name` ='渾沌的勝利之劍格蘭' WHERE `item_id` = 12447;
-UPDATE `etcitem` SET `name` ='渾沌的惡魔獵爪' WHERE `item_id` = 12448;
-UPDATE `etcitem` SET `name` ='渾沌的紅龍之弓' WHERE `item_id` = 12449;
-UPDATE `etcitem` SET `name` ='渾沌的狩龍之斧' WHERE `item_id` = 12450;
-UPDATE `etcitem` SET `name` ='渾沌的烈焚天' WHERE `item_id` = 12451;
-UPDATE `etcitem` SET `name` ='渾沌的玄武岩戰鎚' WHERE `item_id` = 12452;
-UPDATE `etcitem` SET `name` ='渾沌的薩倫伽神弩' WHERE `item_id` = 12453;
-UPDATE `etcitem` SET `name` ='渾沌的聖者之矛' WHERE `item_id` = 12454;
-UPDATE `etcitem` SET `name` ='渾沌的祕儀權杖' WHERE `item_id` = 12455;
-UPDATE `etcitem` SET `name` ='渾沌的天使殺手' WHERE `item_id` = 12456;
-UPDATE `etcitem` SET `name` ='渾沌的帝國權杖' WHERE `item_id` = 12457;
-UPDATE `etcitem` SET `name` ='渾沌的忘卻之刃' WHERE `item_id` = 12458;
-UPDATE `etcitem` SET `name` ='渾沌的天國審判' WHERE `item_id` = 12459;
-UPDATE `etcitem` SET `name` ='渾沌的王朝古代劍' WHERE `item_id` = 12460;
-UPDATE `etcitem` SET `name` ='渾沌的王朝小刀' WHERE `item_id` = 12461;
-UPDATE `etcitem` SET `name` ='渾沌的王朝細劍' WHERE `item_id` = 12462;
-UPDATE `etcitem` SET `name` ='渾沌的王朝釘鎚' WHERE `item_id` = 12463;
-UPDATE `etcitem` SET `name` ='渾沌的王朝拳套爪' WHERE `item_id` = 12464;
-UPDATE `etcitem` SET `name` ='渾沌的王朝弓' WHERE `item_id` = 12465;
-UPDATE `etcitem` SET `name` ='渾沌的王朝之刃' WHERE `item_id` = 12466;
-UPDATE `etcitem` SET `name` ='渾沌的王朝劍' WHERE `item_id` = 12467;
-UPDATE `etcitem` SET `name` ='渾沌的王朝魔杖' WHERE `item_id` = 12468;
-UPDATE `etcitem` SET `name` ='渾沌的王朝戰鎚' WHERE `item_id` = 12469;
-UPDATE `etcitem` SET `name` ='渾沌的王朝毀滅者' WHERE `item_id` = 12470;
-UPDATE `etcitem` SET `name` ='渾沌的王朝十字弓' WHERE `item_id` = 12471;
-UPDATE `etcitem` SET `name` ='渾沌的王朝幻影劍' WHERE `item_id` = 12472;
-UPDATE `etcitem` SET `name` ='渾沌的王朝長柄戰戟' WHERE `item_id` = 12473;
-UPDATE `etcitem` SET `name` ='渾沌的伊克魯斯分解者' WHERE `item_id` = 12474;
-UPDATE `etcitem` SET `name` ='渾沌的伊克魯斯之劍' WHERE `item_id` = 12475;
-UPDATE `etcitem` SET `name` ='渾沌的伊克魯斯之弩' WHERE `item_id` = 12476;
-UPDATE `etcitem` SET `name` ='渾沌的伊克魯斯刺劍' WHERE `item_id` = 12477;
-UPDATE `etcitem` SET `name` ='渾沌的伊克魯斯之靈' WHERE `item_id` = 12478;
-UPDATE `etcitem` SET `name` ='渾沌的伊克魯斯之弓' WHERE `item_id` = 12479;
-UPDATE `etcitem` SET `name` ='渾沌的伊克魯斯翼刃' WHERE `item_id` = 12480;
-UPDATE `etcitem` SET `name` ='渾沌的伊克魯斯三叉戟' WHERE `item_id` = 12481;
-UPDATE `etcitem` SET `name` ='渾沌的伊克魯斯之鎚' WHERE `item_id` = 12482;
-UPDATE `etcitem` SET `name` ='渾沌的伊克魯斯之手' WHERE `item_id` = 12483;
-UPDATE `etcitem` SET `name` ='渾沌的伊克魯斯重兵刃' WHERE `item_id` = 12484;
-UPDATE `etcitem` SET `name` ='渾沌的伊克魯斯手杖' WHERE `item_id` = 12485;
-UPDATE `etcitem` SET `name` ='渾沌的封印的夏隆長手套' WHERE `item_id` = 12486;
-UPDATE `etcitem` SET `name` ='渾沌的封印的夏隆靴' WHERE `item_id` = 12487;
-UPDATE `etcitem` SET `name` ='渾沌的封印的阿巴敦手套' WHERE `item_id` = 12488;
-UPDATE `etcitem` SET `name` ='渾沌的封印的阿巴敦靴' WHERE `item_id` = 12489;
-UPDATE `etcitem` SET `name` ='渾沌的夏隆皮脛甲' WHERE `item_id` = 12490;
-UPDATE `etcitem` SET `name` ='渾沌的夏隆皮衫' WHERE `item_id` = 12491;
-UPDATE `etcitem` SET `name` ='渾沌的夏隆脛甲' WHERE `item_id` = 12492;
-UPDATE `etcitem` SET `name` ='渾沌的夏隆長手套' WHERE `item_id` = 12493;
-UPDATE `etcitem` SET `name` ='渾沌的夏隆長手套' WHERE `item_id` = 12494;
-UPDATE `etcitem` SET `name` ='渾沌的夏隆長手套' WHERE `item_id` = 12495;
-UPDATE `etcitem` SET `name` ='渾沌的夏隆靴' WHERE `item_id` = 12496;
-UPDATE `etcitem` SET `name` ='渾沌的夏隆靴' WHERE `item_id` = 12497;
-UPDATE `etcitem` SET `name` ='渾沌的夏隆靴' WHERE `item_id` = 12498;
-UPDATE `etcitem` SET `name` ='渾沌的夏隆盾' WHERE `item_id` = 12499;
-UPDATE `etcitem` SET `name` ='渾沌的夏隆頭盔' WHERE `item_id` = 12500;
-UPDATE `etcitem` SET `name` ='渾沌的夏隆胸甲' WHERE `item_id` = 12501;
-UPDATE `etcitem` SET `name` ='渾沌的阿巴敦手套' WHERE `item_id` = 12502;
-UPDATE `etcitem` SET `name` ='渾沌的阿巴敦手套' WHERE `item_id` = 12503;
-UPDATE `etcitem` SET `name` ='渾沌的阿巴敦手套' WHERE `item_id` = 12504;
-UPDATE `etcitem` SET `name` ='渾沌的阿巴敦皮甲' WHERE `item_id` = 12505;
-UPDATE `etcitem` SET `name` ='渾沌的阿巴敦長袍' WHERE `item_id` = 12506;
-UPDATE `etcitem` SET `name` ='渾沌的阿巴敦靴' WHERE `item_id` = 12507;
-UPDATE `etcitem` SET `name` ='渾沌的阿巴敦靴' WHERE `item_id` = 12508;
-UPDATE `etcitem` SET `name` ='渾沌的阿巴敦靴' WHERE `item_id` = 12509;
-UPDATE `etcitem` SET `name` ='渾沌的阿巴敦頭箍' WHERE `item_id` = 12510;
-UPDATE `etcitem` SET `name` ='渾沌的阿巴敦盾' WHERE `item_id` = 12511;
-UPDATE `etcitem` SET `name` ='渾沌的阿巴敦脛甲' WHERE `item_id` = 12512;
-UPDATE `etcitem` SET `name` ='渾沌的阿巴敦胸甲' WHERE `item_id` = 12513;
-UPDATE `etcitem` SET `name` ='渾沌的夏隆外衣' WHERE `item_id` = 12514;
-UPDATE `etcitem` SET `name` ='渾沌的夏隆長襪' WHERE `item_id` = 12515;
-UPDATE `etcitem` SET `name` ='渾沌的末日手套' WHERE `item_id` = 12516;
-UPDATE `etcitem` SET `name` ='渾沌的末日手套' WHERE `item_id` = 12517;
-UPDATE `etcitem` SET `name` ='渾沌的末日手套' WHERE `item_id` = 12518;
-UPDATE `etcitem` SET `name` ='渾沌的末日靴' WHERE `item_id` = 12519;
-UPDATE `etcitem` SET `name` ='渾沌的末日靴' WHERE `item_id` = 12520;
-UPDATE `etcitem` SET `name` ='渾沌的末日靴' WHERE `item_id` = 12521;
-UPDATE `etcitem` SET `name` ='渾沌的末日盾' WHERE `item_id` = 12522;
-UPDATE `etcitem` SET `name` ='渾沌的末日金屬盔甲' WHERE `item_id` = 12523;
-UPDATE `etcitem` SET `name` ='渾沌的末日頭盔' WHERE `item_id` = 12524;
-UPDATE `etcitem` SET `name` ='渾沌的末日皮甲' WHERE `item_id` = 12525;
-UPDATE `etcitem` SET `name` ='渾沌的封印的末日手套' WHERE `item_id` = 12526;
-UPDATE `etcitem` SET `name` ='渾沌的封印的末日靴' WHERE `item_id` = 12527;
-UPDATE `etcitem` SET `name` ='渾沌的封印的青狼長靴' WHERE `item_id` = 12528;
-UPDATE `etcitem` SET `name` ='渾沌的封印的青狼手套' WHERE `item_id` = 12529;
-UPDATE `etcitem` SET `name` ='渾沌的末日外衣' WHERE `item_id` = 12530;
-UPDATE `etcitem` SET `name` ='渾沌的青狼脛甲' WHERE `item_id` = 12531;
-UPDATE `etcitem` SET `name` ='渾沌的青狼皮甲' WHERE `item_id` = 12532;
-UPDATE `etcitem` SET `name` ='渾沌的青狼長靴' WHERE `item_id` = 12533;
-UPDATE `etcitem` SET `name` ='渾沌的青狼長靴' WHERE `item_id` = 12534;
-UPDATE `etcitem` SET `name` ='渾沌的青狼長靴' WHERE `item_id` = 12535;
-UPDATE `etcitem` SET `name` ='渾沌的青狼手套' WHERE `item_id` = 12536;
-UPDATE `etcitem` SET `name` ='渾沌的青狼手套' WHERE `item_id` = 12537;
-UPDATE `etcitem` SET `name` ='渾沌的青狼手套' WHERE `item_id` = 12538;
-UPDATE `etcitem` SET `name` ='渾沌的青狼外衣' WHERE `item_id` = 12539;
-UPDATE `etcitem` SET `name` ='渾沌的青狼頭盔' WHERE `item_id` = 12540;
-UPDATE `etcitem` SET `name` ='渾沌的青狼長襪' WHERE `item_id` = 12541;
-UPDATE `etcitem` SET `name` ='渾沌的青狼胸甲' WHERE `item_id` = 12542;
-UPDATE `etcitem` SET `name` ='渾沌的末日長襪' WHERE `item_id` = 12543;
-UPDATE `etcitem` SET `name` ='渾沌的黑暗水晶脛甲' WHERE `item_id` = 12544;
-UPDATE `etcitem` SET `name` ='渾沌的黑暗水晶手套' WHERE `item_id` = 12545;
-UPDATE `etcitem` SET `name` ='渾沌的黑暗水晶手套' WHERE `item_id` = 12546;
-UPDATE `etcitem` SET `name` ='渾沌的黑暗水晶手套' WHERE `item_id` = 12547;
-UPDATE `etcitem` SET `name` ='渾沌的黑暗水晶皮甲' WHERE `item_id` = 12548;
-UPDATE `etcitem` SET `name` ='渾沌的黑暗水晶長袍' WHERE `item_id` = 12549;
-UPDATE `etcitem` SET `name` ='渾沌的黑暗水晶靴' WHERE `item_id` = 12550;
-UPDATE `etcitem` SET `name` ='渾沌的黑暗水晶靴' WHERE `item_id` = 12551;
-UPDATE `etcitem` SET `name` ='渾沌的黑暗水晶靴' WHERE `item_id` = 12552;
-UPDATE `etcitem` SET `name` ='渾沌的黑暗水晶盾' WHERE `item_id` = 12553;
-UPDATE `etcitem` SET `name` ='渾沌的黑暗水晶頭盔' WHERE `item_id` = 12554;
-UPDATE `etcitem` SET `name` ='渾沌的黑暗水晶胸甲' WHERE `item_id` = 12555;
-UPDATE `etcitem` SET `name` ='渾沌的黑暗水晶皮脛甲' WHERE `item_id` = 12556;
-UPDATE `etcitem` SET `name` ='渾沌的封印的黑暗水晶脛甲' WHERE `item_id` = 12557;
-UPDATE `etcitem` SET `name` ='渾沌的封印的黑暗水晶手套' WHERE `item_id` = 12558;
-UPDATE `etcitem` SET `name` ='渾沌的封印的黑暗水晶皮甲' WHERE `item_id` = 12559;
-UPDATE `etcitem` SET `name` ='渾沌的封印的黑暗水晶長袍' WHERE `item_id` = 12560;
-UPDATE `etcitem` SET `name` ='渾沌的封印的黑暗水晶靴' WHERE `item_id` = 12561;
-UPDATE `etcitem` SET `name` ='渾沌的封印的黑暗水晶盾' WHERE `item_id` = 12562;
-UPDATE `etcitem` SET `name` ='渾沌的封印的黑暗水晶頭盔' WHERE `item_id` = 12563;
-UPDATE `etcitem` SET `name` ='渾沌的封印的黑暗水晶胸甲' WHERE `item_id` = 12564;
-UPDATE `etcitem` SET `name` ='渾沌的封印的黑暗水晶皮脛甲' WHERE `item_id` = 12565;
-UPDATE `etcitem` SET `name` ='渾沌的封印的塔魯手套' WHERE `item_id` = 12566;
-UPDATE `etcitem` SET `name` ='渾沌的封印的塔魯皮甲' WHERE `item_id` = 12567;
-UPDATE `etcitem` SET `name` ='渾沌的封印的塔魯靴' WHERE `item_id` = 12568;
-UPDATE `etcitem` SET `name` ='渾沌的封印的塔魯外衣' WHERE `item_id` = 12569;
-UPDATE `etcitem` SET `name` ='渾沌的封印的塔魯金屬盔甲' WHERE `item_id` = 12570;
-UPDATE `etcitem` SET `name` ='渾沌的封印的塔魯帽' WHERE `item_id` = 12571;
-UPDATE `etcitem` SET `name` ='渾沌的封印的塔魯長襪' WHERE `item_id` = 12572;
-UPDATE `etcitem` SET `name` ='(不使用)渾沌的聖靈斗篷' WHERE `item_id` = 12573;
-UPDATE `etcitem` SET `name` ='渾沌的塔魯手套' WHERE `item_id` = 12574;
-UPDATE `etcitem` SET `name` ='渾沌的塔魯手套' WHERE `item_id` = 12575;
-UPDATE `etcitem` SET `name` ='渾沌的塔魯手套' WHERE `item_id` = 12576;
-UPDATE `etcitem` SET `name` ='渾沌的塔魯皮甲' WHERE `item_id` = 12577;
-UPDATE `etcitem` SET `name` ='渾沌的塔魯靴' WHERE `item_id` = 12578;
-UPDATE `etcitem` SET `name` ='渾沌的塔魯靴' WHERE `item_id` = 12579;
-UPDATE `etcitem` SET `name` ='渾沌的塔魯靴' WHERE `item_id` = 12580;
-UPDATE `etcitem` SET `name` ='渾沌的塔魯外衣' WHERE `item_id` = 12581;
-UPDATE `etcitem` SET `name` ='渾沌的塔魯金屬盔甲' WHERE `item_id` = 12582;
-UPDATE `etcitem` SET `name` ='渾沌的塔魯帽' WHERE `item_id` = 12583;
-UPDATE `etcitem` SET `name` ='渾沌的塔魯長襪' WHERE `item_id` = 12584;
-UPDATE `etcitem` SET `name` ='渾沌的聖威手套' WHERE `item_id` = 12585;
-UPDATE `etcitem` SET `name` ='渾沌的聖威手套' WHERE `item_id` = 12586;
-UPDATE `etcitem` SET `name` ='渾沌的聖威手套' WHERE `item_id` = 12587;
-UPDATE `etcitem` SET `name` ='渾沌的聖威皮甲' WHERE `item_id` = 12588;
-UPDATE `etcitem` SET `name` ='渾沌的聖威長袍' WHERE `item_id` = 12589;
-UPDATE `etcitem` SET `name` ='渾沌的聖威靴' WHERE `item_id` = 12590;
-UPDATE `etcitem` SET `name` ='渾沌的聖威靴' WHERE `item_id` = 12591;
-UPDATE `etcitem` SET `name` ='渾沌的聖威靴' WHERE `item_id` = 12592;
-UPDATE `etcitem` SET `name` ='渾沌的聖威頭箍' WHERE `item_id` = 12593;
-UPDATE `etcitem` SET `name` ='渾沌的聖威金屬盔甲' WHERE `item_id` = 12594;
-UPDATE `etcitem` SET `name` ='渾沌的封印的聖威手套' WHERE `item_id` = 12595;
-UPDATE `etcitem` SET `name` ='渾沌的封印的聖威皮甲' WHERE `item_id` = 12596;
-UPDATE `etcitem` SET `name` ='渾沌的封印的聖威長袍' WHERE `item_id` = 12597;
-UPDATE `etcitem` SET `name` ='渾沌的封印的聖威靴' WHERE `item_id` = 12598;
-UPDATE `etcitem` SET `name` ='渾沌的封印的聖威頭箍' WHERE `item_id` = 12599;
-UPDATE `etcitem` SET `name` ='渾沌的封印的聖威金屬盔甲' WHERE `item_id` = 12600;
-UPDATE `etcitem` SET `name` ='渾沌的封印的夢魘盔甲' WHERE `item_id` = 12601;
-UPDATE `etcitem` SET `name` ='渾沌的封印的夢魘手套' WHERE `item_id` = 12602;
-UPDATE `etcitem` SET `name` ='渾沌的封印的夢魘皮甲' WHERE `item_id` = 12603;
-UPDATE `etcitem` SET `name` ='渾沌的封印的夢魘長袍' WHERE `item_id` = 12604;
-UPDATE `etcitem` SET `name` ='渾沌的封印的夢魘靴' WHERE `item_id` = 12605;
-UPDATE `etcitem` SET `name` ='渾沌的封印的夢魘盾' WHERE `item_id` = 12606;
-UPDATE `etcitem` SET `name` ='渾沌的封印的夢魘頭盔' WHERE `item_id` = 12607;
-UPDATE `etcitem` SET `name` ='渾沌的夢魘盔甲' WHERE `item_id` = 12608;
-UPDATE `etcitem` SET `name` ='渾沌的夢魘手套' WHERE `item_id` = 12609;
-UPDATE `etcitem` SET `name` ='渾沌的夢魘手套' WHERE `item_id` = 12610;
-UPDATE `etcitem` SET `name` ='渾沌的夢魘手套' WHERE `item_id` = 12611;
-UPDATE `etcitem` SET `name` ='渾沌的夢魘皮甲' WHERE `item_id` = 12612;
-UPDATE `etcitem` SET `name` ='渾沌的夢魘長袍' WHERE `item_id` = 12613;
-UPDATE `etcitem` SET `name` ='渾沌的夢魘靴' WHERE `item_id` = 12614;
-UPDATE `etcitem` SET `name` ='渾沌的夢魘靴' WHERE `item_id` = 12615;
-UPDATE `etcitem` SET `name` ='渾沌的夢魘靴' WHERE `item_id` = 12616;
-UPDATE `etcitem` SET `name` ='渾沌的夢魘盾' WHERE `item_id` = 12617;
-UPDATE `etcitem` SET `name` ='渾沌的夢魘頭盔' WHERE `item_id` = 12618;
-UPDATE `etcitem` SET `name` ='渾沌的紅龍皮手套' WHERE `item_id` = 12619;
-UPDATE `etcitem` SET `name` ='渾沌的紅龍皮靴' WHERE `item_id` = 12620;
-UPDATE `etcitem` SET `name` ='渾沌的紅龍皮甲' WHERE `item_id` = 12621;
-UPDATE `etcitem` SET `name` ='渾沌的紅龍皮盔' WHERE `item_id` = 12622;
-UPDATE `etcitem` SET `name` ='渾沌的大祕儀手套' WHERE `item_id` = 12623;
-UPDATE `etcitem` SET `name` ='渾沌的大祕儀長袍' WHERE `item_id` = 12624;
-UPDATE `etcitem` SET `name` ='渾沌的大祕儀長靴' WHERE `item_id` = 12625;
-UPDATE `etcitem` SET `name` ='渾沌的大祕儀頭箍' WHERE `item_id` = 12626;
-UPDATE `etcitem` SET `name` ='渾沌的封印的紅龍皮手套' WHERE `item_id` = 12627;
-UPDATE `etcitem` SET `name` ='渾沌的封印的紅龍皮靴' WHERE `item_id` = 12628;
-UPDATE `etcitem` SET `name` ='渾沌的封印的紅龍皮甲' WHERE `item_id` = 12629;
-UPDATE `etcitem` SET `name` ='渾沌的封印的紅龍皮盔' WHERE `item_id` = 12630;
-UPDATE `etcitem` SET `name` ='渾沌的封印的大祕儀手套' WHERE `item_id` = 12631;
-UPDATE `etcitem` SET `name` ='渾沌的封印的大祕儀長袍' WHERE `item_id` = 12632;
-UPDATE `etcitem` SET `name` ='渾沌的封印的大祕儀長靴' WHERE `item_id` = 12633;
-UPDATE `etcitem` SET `name` ='渾沌的封印的大祕儀頭箍' WHERE `item_id` = 12634;
-UPDATE `etcitem` SET `name` ='渾沌的封印的帝國聖軍脛甲' WHERE `item_id` = 12635;
-UPDATE `etcitem` SET `name` ='渾沌的封印的帝國聖軍長手套' WHERE `item_id` = 12636;
-UPDATE `etcitem` SET `name` ='渾沌的封印的帝國聖軍長靴' WHERE `item_id` = 12637;
-UPDATE `etcitem` SET `name` ='渾沌的封印的帝國聖軍盾' WHERE `item_id` = 12638;
-UPDATE `etcitem` SET `name` ='渾沌的封印的帝國聖軍頭盔' WHERE `item_id` = 12639;
-UPDATE `etcitem` SET `name` ='渾沌的封印的帝國聖軍胸甲' WHERE `item_id` = 12640;
-UPDATE `etcitem` SET `name` ='渾沌的帝國聖軍脛甲' WHERE `item_id` = 12641;
-UPDATE `etcitem` SET `name` ='渾沌的帝國聖軍長手套' WHERE `item_id` = 12642;
-UPDATE `etcitem` SET `name` ='渾沌的帝國聖軍長靴' WHERE `item_id` = 12643;
-UPDATE `etcitem` SET `name` ='渾沌的帝國聖軍盾' WHERE `item_id` = 12644;
-UPDATE `etcitem` SET `name` ='渾沌的帝國聖軍頭盔' WHERE `item_id` = 12645;
-UPDATE `etcitem` SET `name` ='渾沌的帝國聖軍胸甲' WHERE `item_id` = 12646;
-UPDATE `etcitem` SET `name` ='渾沌的王朝脛甲' WHERE `item_id` = 12647;
-UPDATE `etcitem` SET `name` ='渾沌的王朝長手套' WHERE `item_id` = 12648;
-UPDATE `etcitem` SET `name` ='渾沌的王朝手套' WHERE `item_id` = 12649;
-UPDATE `etcitem` SET `name` ='渾沌的王朝皮手套' WHERE `item_id` = 12650;
-UPDATE `etcitem` SET `name` ='渾沌的王朝皮脛甲' WHERE `item_id` = 12651;
-UPDATE `etcitem` SET `name` ='渾沌的王朝皮甲' WHERE `item_id` = 12652;
-UPDATE `etcitem` SET `name` ='渾沌的王朝皮甲' WHERE `item_id` = 12653;
-UPDATE `etcitem` SET `name` ='渾沌的王朝皮甲' WHERE `item_id` = 12654;
-UPDATE `etcitem` SET `name` ='渾沌的王朝皮甲' WHERE `item_id` = 12655;
-UPDATE `etcitem` SET `name` ='渾沌的王朝皮甲' WHERE `item_id` = 12656;
-UPDATE `etcitem` SET `name` ='渾沌的王朝皮甲' WHERE `item_id` = 12657;
-UPDATE `etcitem` SET `name` ='渾沌的王朝皮甲' WHERE `item_id` = 12658;
-UPDATE `etcitem` SET `name` ='渾沌的王朝皮長靴' WHERE `item_id` = 12659;
-UPDATE `etcitem` SET `name` ='渾沌的王朝皮頭盔' WHERE `item_id` = 12660;
-UPDATE `etcitem` SET `name` ='渾沌的王朝長靴' WHERE `item_id` = 12661;
-UPDATE `etcitem` SET `name` ='渾沌的王朝盔甲' WHERE `item_id` = 12662;
-UPDATE `etcitem` SET `name` ='渾沌的王朝盔甲' WHERE `item_id` = 12663;
-UPDATE `etcitem` SET `name` ='渾沌的王朝盔甲' WHERE `item_id` = 12664;
-UPDATE `etcitem` SET `name` ='渾沌的王朝盔甲' WHERE `item_id` = 12665;
-UPDATE `etcitem` SET `name` ='渾沌的王朝盔甲' WHERE `item_id` = 12666;
-UPDATE `etcitem` SET `name` ='渾沌的王朝盾' WHERE `item_id` = 12667;
-UPDATE `etcitem` SET `name` ='渾沌的王朝鞋' WHERE `item_id` = 12668;
-UPDATE `etcitem` SET `name` ='渾沌的王朝銀絲緞外衣' WHERE `item_id` = 12669;
-UPDATE `etcitem` SET `name` ='渾沌的王朝銀絲緞外衣' WHERE `item_id` = 12670;
-UPDATE `etcitem` SET `name` ='渾沌的王朝銀絲緞外衣' WHERE `item_id` = 12671;
-UPDATE `etcitem` SET `name` ='渾沌的王朝銀絲緞外衣' WHERE `item_id` = 12672;
-UPDATE `etcitem` SET `name` ='渾沌的王朝銀絲緞外衣' WHERE `item_id` = 12673;
-UPDATE `etcitem` SET `name` ='渾沌的王朝頭箍' WHERE `item_id` = 12674;
-UPDATE `etcitem` SET `name` ='渾沌的王朝寶石皮甲' WHERE `item_id` = 12675;
-UPDATE `etcitem` SET `name` ='渾沌的王朝寶石皮甲' WHERE `item_id` = 12676;
-UPDATE `etcitem` SET `name` ='渾沌的王朝寶石皮甲' WHERE `item_id` = 12677;
-UPDATE `etcitem` SET `name` ='渾沌的王朝寶石皮甲' WHERE `item_id` = 12678;
-UPDATE `etcitem` SET `name` ='渾沌的王朝寶石皮甲' WHERE `item_id` = 12679;
-UPDATE `etcitem` SET `name` ='渾沌的王朝寶石皮甲' WHERE `item_id` = 12680;
-UPDATE `etcitem` SET `name` ='渾沌的王朝寶石皮甲' WHERE `item_id` = 12681;
-UPDATE `etcitem` SET `name` ='渾沌的王朝外衣' WHERE `item_id` = 12682;
-UPDATE `etcitem` SET `name` ='渾沌的王朝外衣' WHERE `item_id` = 12683;
-UPDATE `etcitem` SET `name` ='渾沌的王朝外衣' WHERE `item_id` = 12684;
-UPDATE `etcitem` SET `name` ='渾沌的王朝外衣' WHERE `item_id` = 12685;
-UPDATE `etcitem` SET `name` ='渾沌的王朝外衣' WHERE `item_id` = 12686;
-UPDATE `etcitem` SET `name` ='渾沌的王朝白金盔甲' WHERE `item_id` = 12687;
-UPDATE `etcitem` SET `name` ='渾沌的王朝白金盔甲' WHERE `item_id` = 12688;
-UPDATE `etcitem` SET `name` ='渾沌的王朝白金盔甲' WHERE `item_id` = 12689;
-UPDATE `etcitem` SET `name` ='渾沌的王朝白金盔甲' WHERE `item_id` = 12690;
-UPDATE `etcitem` SET `name` ='渾沌的王朝白金盔甲' WHERE `item_id` = 12691;
-UPDATE `etcitem` SET `name` ='渾沌的王朝頭盔' WHERE `item_id` = 12692;
-UPDATE `etcitem` SET `name` ='渾沌的王朝長襪' WHERE `item_id` = 12693;
-UPDATE `etcitem` SET `name` ='渾沌的封印的王朝脛甲' WHERE `item_id` = 12694;
-UPDATE `etcitem` SET `name` ='渾沌的封印的王朝長手套' WHERE `item_id` = 12695;
-UPDATE `etcitem` SET `name` ='渾沌的封印的王朝手套' WHERE `item_id` = 12696;
-UPDATE `etcitem` SET `name` ='渾沌的封印的王朝皮手套' WHERE `item_id` = 12697;
-UPDATE `etcitem` SET `name` ='渾沌的封印的王朝皮脛甲' WHERE `item_id` = 12698;
-UPDATE `etcitem` SET `name` ='渾沌的封印的王朝皮甲' WHERE `item_id` = 12699;
-UPDATE `etcitem` SET `name` ='渾沌的封印的王朝皮長靴' WHERE `item_id` = 12700;
-UPDATE `etcitem` SET `name` ='渾沌的封印的王朝皮頭盔' WHERE `item_id` = 12701;
-UPDATE `etcitem` SET `name` ='渾沌的封印的王朝長靴' WHERE `item_id` = 12702;
-UPDATE `etcitem` SET `name` ='渾沌的封印的王朝盔甲' WHERE `item_id` = 12703;
-UPDATE `etcitem` SET `name` ='渾沌的封印的王朝盾' WHERE `item_id` = 12704;
-UPDATE `etcitem` SET `name` ='渾沌的封印的王朝鞋' WHERE `item_id` = 12705;
-UPDATE `etcitem` SET `name` ='渾沌的封印的王朝頭箍' WHERE `item_id` = 12706;
-UPDATE `etcitem` SET `name` ='渾沌的封印的王朝外衣' WHERE `item_id` = 12707;
-UPDATE `etcitem` SET `name` ='渾沌的封印的王朝頭盔' WHERE `item_id` = 12708;
-UPDATE `etcitem` SET `name` ='渾沌的封印的王朝長襪' WHERE `item_id` = 12709;
-UPDATE `etcitem` SET `name` ='渾沌的金剛石耳環' WHERE `item_id` = 12710;
-UPDATE `etcitem` SET `name` ='渾沌的金剛石項鍊' WHERE `item_id` = 12711;
-UPDATE `etcitem` SET `name` ='渾沌的金剛石戒指' WHERE `item_id` = 12712;
-UPDATE `etcitem` SET `name` ='渾沌的黑光耳環' WHERE `item_id` = 12713;
-UPDATE `etcitem` SET `name` ='渾沌的黑光項鍊' WHERE `item_id` = 12714;
-UPDATE `etcitem` SET `name` ='渾沌的黑光戒指' WHERE `item_id` = 12715;
-UPDATE `etcitem` SET `name` ='渾沌的封印的不死鳥項鍊' WHERE `item_id` = 12716;
-UPDATE `etcitem` SET `name` ='渾沌的封印的不死鳥戒指' WHERE `item_id` = 12717;
-UPDATE `etcitem` SET `name` ='渾沌的封印的不死鳥耳環' WHERE `item_id` = 12718;
-UPDATE `etcitem` SET `name` ='渾沌的不死鳥項鍊' WHERE `item_id` = 12719;
-UPDATE `etcitem` SET `name` ='渾沌的不死鳥戒指' WHERE `item_id` = 12720;
-UPDATE `etcitem` SET `name` ='渾沌的不死鳥耳環' WHERE `item_id` = 12721;
-UPDATE `etcitem` SET `name` ='渾沌的聖威項鍊' WHERE `item_id` = 12722;
-UPDATE `etcitem` SET `name` ='渾沌的聖威戒指' WHERE `item_id` = 12723;
-UPDATE `etcitem` SET `name` ='渾沌的聖威耳環' WHERE `item_id` = 12724;
-UPDATE `etcitem` SET `name` ='渾沌的封印的聖威項鍊' WHERE `item_id` = 12725;
-UPDATE `etcitem` SET `name` ='渾沌的封印的聖威戒指' WHERE `item_id` = 12726;
-UPDATE `etcitem` SET `name` ='渾沌的封印的聖威耳環' WHERE `item_id` = 12727;
-UPDATE `etcitem` SET `name` ='渾沌的封印的泰狄奧森項鍊' WHERE `item_id` = 12728;
-UPDATE `etcitem` SET `name` ='渾沌的封印的泰狄奧森戒指' WHERE `item_id` = 12729;
-UPDATE `etcitem` SET `name` ='渾沌的封印的泰狄奧森耳環' WHERE `item_id` = 12730;
-UPDATE `etcitem` SET `name` ='渾沌的泰狄奧森項鍊' WHERE `item_id` = 12731;
-UPDATE `etcitem` SET `name` ='渾沌的泰狄奧森戒指' WHERE `item_id` = 12732;
-UPDATE `etcitem` SET `name` ='渾沌的泰狄奧森耳環' WHERE `item_id` = 12733;
-UPDATE `etcitem` SET `name` ='渾沌的王朝項鍊' WHERE `item_id` = 12734;
-UPDATE `etcitem` SET `name` ='渾沌的王朝戒指' WHERE `item_id` = 12735;
-UPDATE `etcitem` SET `name` ='渾沌的王朝耳環' WHERE `item_id` = 12736;
-UPDATE `etcitem` SET `name` ='渾沌的封印的王朝項鍊' WHERE `item_id` = 12737;
-UPDATE `etcitem` SET `name` ='渾沌的封印的王朝戒指' WHERE `item_id` = 12738;
-UPDATE `etcitem` SET `name` ='渾沌的封印的王朝耳環' WHERE `item_id` = 12739;
-UPDATE `etcitem` SET `name` ='闇天使村莊移動卷軸' WHERE `item_id` = 12753;
-UPDATE `etcitem` SET `name` ='飾品用生命石-46級' WHERE `item_id` = 12754;
-UPDATE `etcitem` SET `name` ='飾品用生命石-49級' WHERE `item_id` = 12755;
-UPDATE `etcitem` SET `name` ='飾品用生命石-52級' WHERE `item_id` = 12756;
-UPDATE `etcitem` SET `name` ='飾品用生命石-55級' WHERE `item_id` = 12757;
-UPDATE `etcitem` SET `name` ='飾品用生命石-58級' WHERE `item_id` = 12758;
-UPDATE `etcitem` SET `name` ='飾品用生命石-61級' WHERE `item_id` = 12759;
-UPDATE `etcitem` SET `name` ='飾品用生命石-64級' WHERE `item_id` = 12760;
-UPDATE `etcitem` SET `name` ='飾品用生命石-67級' WHERE `item_id` = 12761;
-UPDATE `etcitem` SET `name` ='飾品用生命石-70級' WHERE `item_id` = 12762;
-UPDATE `etcitem` SET `name` ='飾品用生命石-76級' WHERE `item_id` = 12763;
-UPDATE `etcitem` SET `name` ='魚箱子' WHERE `item_id` = 12764;
-UPDATE `etcitem` SET `name` ='種子罐' WHERE `item_id` = 12765;
-UPDATE `etcitem` SET `name` ='遺忘祕傳書-迴避反擊' WHERE `item_id` = 12768;
-UPDATE `etcitem` SET `name` ='遺忘祕傳書-迴避契機' WHERE `item_id` = 12769;
-UPDATE `etcitem` SET `name` ='遺忘祕傳書-迴避激發' WHERE `item_id` = 12770;
-UPDATE `etcitem` SET `name` ='遺忘祕傳書-影步' WHERE `item_id` = 12771;
-UPDATE `etcitem` SET `name` ='魔法書-審問者' WHERE `item_id` = 12772;
-UPDATE `etcitem` SET `name` ='戰鬥教範-重建之體' WHERE `item_id` = 12773;
-UPDATE `etcitem` SET `name` ='戰鬥教範-血之契約' WHERE `item_id` = 12774;
-UPDATE `etcitem` SET `name` ='戰鬥教範-植入末日種子' WHERE `item_id` = 12775;
-UPDATE `etcitem` SET `name` ='戰鬥教範-忘卻陷阱' WHERE `item_id` = 12776;
-UPDATE `etcitem` SET `name` ='戰鬥教範-止痛術' WHERE `item_id` = 12777;
-UPDATE `etcitem` SET `name` ='戰鬥教範-捕魂網' WHERE `item_id` = 12778;
-UPDATE `etcitem` SET `name` ='戰場恢復卷軸' WHERE `item_id` = 12819;
-UPDATE `etcitem` SET `name` ='設計圖-召喚高崙商人' WHERE `item_id` = 12820;
-UPDATE `etcitem` SET `name` ='飾品用生命石-80級' WHERE `item_id` = 12821;
-UPDATE `etcitem` SET `name` ='飾品用生命石-82級' WHERE `item_id` = 12822;
-UPDATE `etcitem` SET `name` ='卡席安的藍色水晶' WHERE `item_id` = 12823;
-UPDATE `etcitem` SET `name` ='開拓者補給品(1級)' WHERE `item_id` = 12824;
-UPDATE `etcitem` SET `name` ='開拓者補給品(3級)' WHERE `item_id` = 12825;
-UPDATE `etcitem` SET `name` ='開拓者補給品(9級)' WHERE `item_id` = 12826;
-UPDATE `etcitem` SET `name` ='開拓者補給品(10級)' WHERE `item_id` = 12827;
-UPDATE `etcitem` SET `name` ='開拓者補給品(16級)' WHERE `item_id` = 12828;
-UPDATE `etcitem` SET `name` ='開拓者補給品(17級)' WHERE `item_id` = 12829;
-UPDATE `etcitem` SET `name` ='開拓者補給品(23級)' WHERE `item_id` = 12830;
-UPDATE `etcitem` SET `name` ='開拓者補給品(24級)' WHERE `item_id` = 12831;
-UPDATE `etcitem` SET `name` ='開拓者補給品(30級)' WHERE `item_id` = 12832;
-UPDATE `etcitem` SET `name` ='開拓者補給品(31級)' WHERE `item_id` = 12833;
-UPDATE `etcitem` SET `name` ='開拓者補給品(37級)' WHERE `item_id` = 12834;
-UPDATE `etcitem` SET `name` ='飾品用生命石-46級' WHERE `item_id` = 12840;
-UPDATE `etcitem` SET `name` ='飾品用生命石-49級' WHERE `item_id` = 12841;
-UPDATE `etcitem` SET `name` ='飾品用生命石-52級' WHERE `item_id` = 12842;
-UPDATE `etcitem` SET `name` ='飾品用生命石-55級' WHERE `item_id` = 12843;
-UPDATE `etcitem` SET `name` ='飾品用生命石-58級' WHERE `item_id` = 12844;
-UPDATE `etcitem` SET `name` ='飾品用生命石-61級' WHERE `item_id` = 12845;
-UPDATE `etcitem` SET `name` ='飾品用生命石-64級' WHERE `item_id` = 12846;
-UPDATE `etcitem` SET `name` ='飾品用生命石-67級' WHERE `item_id` = 12847;
-UPDATE `etcitem` SET `name` ='飾品用生命石-70級' WHERE `item_id` = 12848;
-UPDATE `etcitem` SET `name` ='飾品用生命石-76級' WHERE `item_id` = 12849;
-UPDATE `etcitem` SET `name` ='飾品用生命石-80級' WHERE `item_id` = 12850;
-UPDATE `etcitem` SET `name` ='飾品用生命石-82級' WHERE `item_id` = 12851;
-UPDATE `etcitem` SET `name` ='欲界的精華' WHERE `item_id` = 13002;
-UPDATE `etcitem` SET `name` ='開拓者獎勵品-D級' WHERE `item_id` = 13003;
-UPDATE `etcitem` SET `name` ='開拓者獎勵品-C級' WHERE `item_id` = 13004;
-UPDATE `etcitem` SET `name` ='開拓者獎勵品-B級' WHERE `item_id` = 13005;
-UPDATE `etcitem` SET `name` ='開拓者獎勵品-A級' WHERE `item_id` = 13006;
-UPDATE `etcitem` SET `name` ='開拓者獎勵品-S級' WHERE `item_id` = 13007;
-UPDATE `etcitem` SET `name` ='魔法書-神佑之血' WHERE `item_id` = 13008;
-UPDATE `etcitem` SET `name` ='追加入場券-欲界(深淵之廳)' WHERE `item_id` = 13010;
-UPDATE `etcitem` SET `name` ='追加入場券-近緣欲界' WHERE `item_id` = 13011;
-UPDATE `etcitem` SET `name` ='追加入場券-欲界(深淵迷宮)' WHERE `item_id` = 13012;
-UPDATE `etcitem` SET `name` ='哥斯徒的箱子' WHERE `item_id` = 13013;
-UPDATE `etcitem` SET `name` ='貨物箱子的印記' WHERE `item_id` = 13014;
-UPDATE `etcitem` SET `name` ='自由傳送書' WHERE `item_id` = 13015;
-UPDATE `etcitem` SET `name` ='自由傳送卷軸' WHERE `item_id` = 13016;
-UPDATE `etcitem` SET `name` ='白鼬鼠狩獵幫手項鍊' WHERE `item_id` = 13017;
-UPDATE `etcitem` SET `name` ='妖精公主狩獵幫手項鍊' WHERE `item_id` = 13018;
-UPDATE `etcitem` SET `name` ='野獸鬥士狩獵幫手項鍊' WHERE `item_id` = 13019;
-UPDATE `etcitem` SET `name` ='狐狸術士狩獵幫手項鍊' WHERE `item_id` = 13020;
-UPDATE `etcitem` SET `name` ='彩色稱號' WHERE `item_id` = 13021;
-UPDATE `etcitem` SET `name` ='格蘭肯的禮盒 限時30日' WHERE `item_id` = 13027;
-UPDATE `etcitem` SET `name` ='活力充能藥草' WHERE `item_id` = 13028;
-UPDATE `etcitem` SET `name` ='活力充能變身藥草-提米提藍' WHERE `item_id` = 13029;
-UPDATE `etcitem` SET `name` ='活力充能變身藥草-火山岩高崙' WHERE `item_id` = 13030;
-UPDATE `etcitem` SET `name` ='活力充能變身藥草-雪人' WHERE `item_id` = 13031;
-UPDATE `etcitem` SET `name` ='菲拉卡即時盾' WHERE `item_id` = 13032;
-UPDATE `etcitem` SET `name` ='瞬間體力治癒藥水' WHERE `item_id` = 13033;
-UPDATE `etcitem` SET `name` ='菲拉卡靈魂彈-D級' WHERE `item_id` = 13037;
-UPDATE `etcitem` SET `name` ='水的精華' WHERE `item_id` = 13038;
-UPDATE `etcitem` SET `name` ='火的精華' WHERE `item_id` = 13039;
-UPDATE `etcitem` SET `name` ='火屬性強化劑' WHERE `item_id` = 13040;
-UPDATE `etcitem` SET `name` ='水屬性強化劑' WHERE `item_id` = 13041;
-UPDATE `etcitem` SET `name` ='菲拉卡靈魂彈-C級' WHERE `item_id` = 13045;
-UPDATE `etcitem` SET `name` ='菲拉卡武器升級 階段1' WHERE `item_id` = 13046;
-UPDATE `etcitem` SET `name` ='菲拉卡武器升級 階段2' WHERE `item_id` = 13047;
-UPDATE `etcitem` SET `name` ='菲拉卡解毒劑' WHERE `item_id` = 13048;
-UPDATE `etcitem` SET `name` ='神聖武器加持' WHERE `item_id` = 13049;
-UPDATE `etcitem` SET `name` ='頭飾' WHERE `item_id` = 13051;
-UPDATE `etcitem` SET `name` ='菲拉卡靈魂彈-A級' WHERE `item_id` = 13055;
-UPDATE `etcitem` SET `name` ='武器升級 階段1' WHERE `item_id` = 13056;
-UPDATE `etcitem` SET `name` ='武器升級 階段2' WHERE `item_id` = 13057;
-UPDATE `etcitem` SET `name` ='遠距離防禦能力提升藥水' WHERE `item_id` = 13059;
-UPDATE `etcitem` SET `name` ='洋鐵高崙變身魔杖' WHERE `item_id` = 13060;
-UPDATE `etcitem` SET `name` ='飛空艇操作桿' WHERE `item_id` = 13063;
-UPDATE `etcitem` SET `name` ='飛空艇艦炮操作桿' WHERE `item_id` = 13064;
-UPDATE `etcitem` SET `name` ='幸運七的寶物' WHERE `item_id` = 13065;
-UPDATE `etcitem` SET `name` ='幸運七的寶物' WHERE `item_id` = 13066;
-UPDATE `etcitem` SET `name` ='夢幻島代幣' WHERE `item_id` = 13067;
-UPDATE `etcitem` SET `name` ='夢幻島代幣(網咖)' WHERE `item_id` = 13068;
-UPDATE `etcitem` SET `name` ='長生之夢' WHERE `item_id` = 13069;
-UPDATE `etcitem` SET `name` ='獎品包箱子 測試' WHERE `item_id` = 13070;
-UPDATE `etcitem` SET `name` ='紅色搜魂石-階段16' WHERE `item_id` = 13071;
-UPDATE `etcitem` SET `name` ='藍色搜魂石-階段16' WHERE `item_id` = 13072;
-UPDATE `etcitem` SET `name` ='綠色搜魂石-階段16' WHERE `item_id` = 13073;
-UPDATE `etcitem` SET `name` ='渾沌的祕儀符印' WHERE `item_id` = 13077;
-UPDATE `etcitem` SET `name` ='自由傳送書 1張/組' WHERE `item_id` = 13079;
-UPDATE `etcitem` SET `name` ='自由傳送卷軸 30張/組' WHERE `item_id` = 13080;
-UPDATE `etcitem` SET `name` ='欲界入場券組' WHERE `item_id` = 13081;
-UPDATE `etcitem` SET `name` ='祝福的羽毛 3張/組' WHERE `item_id` = 13082;
-UPDATE `etcitem` SET `name` ='壺精-愛心 30日/組' WHERE `item_id` = 13083;
-UPDATE `etcitem` SET `name` ='南瓜變身魔杖 30日/組' WHERE `item_id` = 13084;
-UPDATE `etcitem` SET `name` ='欲界入場券 3種組' WHERE `item_id` = 13085;
-UPDATE `etcitem` SET `name` ='戰鬥貓帽 30日/組' WHERE `item_id` = 13086;
-UPDATE `etcitem` SET `name` ='皇后貓帽 30日/組' WHERE `item_id` = 13087;
-UPDATE `etcitem` SET `name` ='眼怪帽 30日/組' WHERE `item_id` = 13088;
-UPDATE `etcitem` SET `name` ='棕熊帽 30日/組' WHERE `item_id` = 13089;
-UPDATE `etcitem` SET `name` ='蘑菇帽 30日/組' WHERE `item_id` = 13090;
-UPDATE `etcitem` SET `name` ='骷髏帽 30日/組' WHERE `item_id` = 13091;
-UPDATE `etcitem` SET `name` ='似鳥龍帽 30日/組' WHERE `item_id` = 13092;
-UPDATE `etcitem` SET `name` ='國王貓帽 30日/組' WHERE `item_id` = 13093;
-UPDATE `etcitem` SET `name` ='銀色貓帽 30日/組' WHERE `item_id` = 13094;
-UPDATE `etcitem` SET `name` ='OX 魔杖 30日/組' WHERE `item_id` = 13095;
-UPDATE `etcitem` SET `name` ='剪刀石頭布魔杖 30日/組' WHERE `item_id` = 13096;
-UPDATE `etcitem` SET `name` ='淡紫鬃馬手鐲組' WHERE `item_id` = 13097;
-UPDATE `etcitem` SET `name` ='彩色稱號 3張/組' WHERE `item_id` = 13098;
-UPDATE `etcitem` SET `name` ='封印的祕儀符印碎片' WHERE `item_id` = 13099;
-UPDATE `etcitem` SET `name` ='製作卷軸(封印的祕儀符印60%)' WHERE `item_id` = 13100;
-UPDATE `etcitem` SET `name` ='製作卷軸(封印的祕儀符印100%)' WHERE `item_id` = 13101;
-UPDATE `etcitem` SET `name` ='渾沌的封印的祕儀符印' WHERE `item_id` = 13102;
-UPDATE `etcitem` SET `name` ='自由傳送書 1張/組' WHERE `item_id` = 13103;
-UPDATE `etcitem` SET `name` ='自由傳送卷軸 30張/組' WHERE `item_id` = 13104;
-UPDATE `etcitem` SET `name` ='欲界入場券  3種組' WHERE `item_id` = 13105;
-UPDATE `etcitem` SET `name` ='祝福的羽毛 3張/組' WHERE `item_id` = 13106;
-UPDATE `etcitem` SET `name` ='愛心壺精 30日/組' WHERE `item_id` = 13107;
-UPDATE `etcitem` SET `name` ='南瓜變身魔杖 30日/組' WHERE `item_id` = 13108;
-UPDATE `etcitem` SET `name` ='欲界入場券 3種組' WHERE `item_id` = 13109;
-UPDATE `etcitem` SET `name` ='戰鬥貓帽 30日/組' WHERE `item_id` = 13110;
-UPDATE `etcitem` SET `name` ='皇后貓帽 30日/組' WHERE `item_id` = 13111;
-UPDATE `etcitem` SET `name` ='眼怪帽 30日/組' WHERE `item_id` = 13112;
-UPDATE `etcitem` SET `name` ='棕熊帽 30日/組' WHERE `item_id` = 13113;
-UPDATE `etcitem` SET `name` ='蘑菇帽 30日/組' WHERE `item_id` = 13114;
-UPDATE `etcitem` SET `name` ='骷髏帽 30日/組' WHERE `item_id` = 13115;
-UPDATE `etcitem` SET `name` ='似鳥龍帽 30日/組' WHERE `item_id` = 13116;
-UPDATE `etcitem` SET `name` ='國王貓帽 30日/組' WHERE `item_id` = 13117;
-UPDATE `etcitem` SET `name` ='銀色貓帽 30日/組' WHERE `item_id` = 13118;
-UPDATE `etcitem` SET `name` ='O/X 魔杖 30日/組' WHERE `item_id` = 13119;
-UPDATE `etcitem` SET `name` ='剪刀/石頭/布魔杖 30日/組' WHERE `item_id` = 13120;
-UPDATE `etcitem` SET `name` ='淡紫鬃馬 7日/組' WHERE `item_id` = 13121;
-UPDATE `etcitem` SET `name` ='彩色稱號 3張/組' WHERE `item_id` = 13122;
-UPDATE `etcitem` SET `name` ='自由傳送書組' WHERE `item_id` = 13123;
-UPDATE `etcitem` SET `name` ='彩色稱號 1張/組' WHERE `item_id` = 13124;
-UPDATE `etcitem` SET `name` ='自由傳送卷軸 10張/組' WHERE `item_id` = 13125;
-UPDATE `etcitem` SET `name` ='維他命體驗組-活動用' WHERE `item_id` = 13126;
-UPDATE `etcitem` SET `name` ='促銷用組2' WHERE `item_id` = 13127;
-UPDATE `etcitem` SET `name` ='不死鳥之羽' WHERE `item_id` = 13128;
-UPDATE `etcitem` SET `name` ='菲拉卡返回卷軸' WHERE `item_id` = 13129;
-UPDATE `etcitem` SET `name` ='神殿的祕冊' WHERE `item_id` = 13130;
-UPDATE `etcitem` SET `name` ='神殿的祕冊' WHERE `item_id` = 13131;
-UPDATE `etcitem` SET `name` ='神殿的祕冊' WHERE `item_id` = 13132;
-UPDATE `etcitem` SET `name` ='神殿的祕冊' WHERE `item_id` = 13133;
-UPDATE `etcitem` SET `name` ='神殿的祕冊' WHERE `item_id` = 13134;
-UPDATE `etcitem` SET `name` ='神殿的祕冊' WHERE `item_id` = 13135;
-UPDATE `etcitem` SET `name` ='神殿的祕冊' WHERE `item_id` = 13136;
-UPDATE `etcitem` SET `name` ='菲拉卡最終鑰匙' WHERE `item_id` = 13149;
-UPDATE `etcitem` SET `name` ='菲拉卡萬能鑰匙' WHERE `item_id` = 13150;
-UPDATE `etcitem` SET `name` ='菲拉卡活力充能藥水(100%)' WHERE `item_id` = 13151;
-UPDATE `etcitem` SET `name` ='菲拉卡活力充能藥水(50%)' WHERE `item_id` = 13152;
-UPDATE `etcitem` SET `name` ='欲界(深淵之廳) 15張 箱子' WHERE `item_id` = 13225;
-UPDATE `etcitem` SET `name` ='近緣欲界 15張 箱子' WHERE `item_id` = 13226;
-UPDATE `etcitem` SET `name` ='欲界(深淵迷宮) 15張 箱子' WHERE `item_id` = 13227;
-UPDATE `etcitem` SET `name` ='欲界(深淵之廳) 15張/組' WHERE `item_id` = 13228;
-UPDATE `etcitem` SET `name` ='近緣欲界 15張/組' WHERE `item_id` = 13229;
-UPDATE `etcitem` SET `name` ='欲界(深淵迷宮) 15張/組' WHERE `item_id` = 13230;
-UPDATE `etcitem` SET `name` ='欲界(深淵之廳) 5張/組' WHERE `item_id` = 13231;
-UPDATE `etcitem` SET `name` ='近緣欲界 5張/組' WHERE `item_id` = 13232;
-UPDATE `etcitem` SET `name` ='欲界(深淵迷宮) 5張/組' WHERE `item_id` = 13233;
-UPDATE `etcitem` SET `name` ='格蘭肯的禮盒-7日' WHERE `item_id` = 13255;
-UPDATE `etcitem` SET `name` ='格蘭肯的禮盒組' WHERE `item_id` = 13256;
-UPDATE `etcitem` SET `name` ='格蘭肯的禮盒組-活動用' WHERE `item_id` = 13257;
-UPDATE `etcitem` SET `name` ='格蘭肯的祝福返回卷軸' WHERE `item_id` = 13258;
-UPDATE `etcitem` SET `name` ='格蘭肯的祝福復活卷軸' WHERE `item_id` = 13259;
-UPDATE `etcitem` SET `name` ='格蘭肯的回聲水晶-旅行之歌' WHERE `item_id` = 13261;
-UPDATE `etcitem` SET `name` ='格蘭肯的回聲水晶-決戰之歌' WHERE `item_id` = 13262;
-UPDATE `etcitem` SET `name` ='格蘭肯的回聲水晶-愛情之歌' WHERE `item_id` = 13263;
-UPDATE `etcitem` SET `name` ='格蘭肯的回聲水晶-孤獨之歌' WHERE `item_id` = 13264;
-UPDATE `etcitem` SET `name` ='格蘭肯的回聲水晶-祝典之歌' WHERE `item_id` = 13265;
-UPDATE `etcitem` SET `name` ='格蘭肯的回聲水晶-慶祝之歌' WHERE `item_id` = 13266;
-UPDATE `etcitem` SET `name` ='格蘭肯的回聲水晶-喜劇之歌' WHERE `item_id` = 13267;
-UPDATE `etcitem` SET `name` ='格蘭肯的煙火' WHERE `item_id` = 13268;
-UPDATE `etcitem` SET `name` ='格蘭肯的大煙火' WHERE `item_id` = 13269;
-UPDATE `etcitem` SET `name` ='開拓者獎勵品-奧歐卡輪' WHERE `item_id` = 13270;
-UPDATE `etcitem` SET `name` ='開拓者獎勵品-奧爾卡輪' WHERE `item_id` = 13271;
-UPDATE `etcitem` SET `name` ='開拓者獎勵品-奧耶卡輪' WHERE `item_id` = 13272;
-UPDATE `etcitem` SET `name` ='狩獵幫手交換券-5小時' WHERE `item_id` = 13273;
-UPDATE `etcitem` SET `name` ='狩獵幫手交換券-7日' WHERE `item_id` = 13274;
-UPDATE `etcitem` SET `name` ='狩獵幫手交換券 3張/組' WHERE `item_id` = 13275;
-UPDATE `etcitem` SET `name` ='狩獵幫手交換券 1張/組' WHERE `item_id` = 13276;
-UPDATE `etcitem` SET `name` ='能量星石' WHERE `item_id` = 13277;
-UPDATE `etcitem` SET `name` ='高級能量星石' WHERE `item_id` = 13278;
-UPDATE `etcitem` SET `name` ='祝福的羽毛 1張/組' WHERE `item_id` = 13279;
-UPDATE `etcitem` SET `name` ='愛心壺精 7日/組' WHERE `item_id` = 13280;
-UPDATE `etcitem` SET `name` ='南瓜變身魔杖 7日/組' WHERE `item_id` = 13281;
-UPDATE `etcitem` SET `name` ='戰鬥貓帽 7日/組' WHERE `item_id` = 13282;
-UPDATE `etcitem` SET `name` ='皇后貓帽 7日/組' WHERE `item_id` = 13283;
-UPDATE `etcitem` SET `name` ='眼怪帽 7日/組' WHERE `item_id` = 13284;
-UPDATE `etcitem` SET `name` ='棕熊帽 7日/組' WHERE `item_id` = 13285;
-UPDATE `etcitem` SET `name` ='蘑菇帽 7日/組' WHERE `item_id` = 13286;
-UPDATE `etcitem` SET `name` ='骷髏帽 7日/組' WHERE `item_id` = 13287;
-UPDATE `etcitem` SET `name` ='似鳥龍帽 7日/組' WHERE `item_id` = 13288;
-UPDATE `etcitem` SET `name` ='國王貓帽 7日/組' WHERE `item_id` = 13289;
-UPDATE `etcitem` SET `name` ='銀色貓帽 7日/組' WHERE `item_id` = 13290;
-UPDATE `etcitem` SET `name` ='OX 魔杖 7日/組' WHERE `item_id` = 13291;
-UPDATE `etcitem` SET `name` ='剪刀石頭布魔杖 7日/組' WHERE `item_id` = 13292;
-UPDATE `etcitem` SET `name` ='追加入場券-欲界(深淵之廳)-活動用' WHERE `item_id` = 13297;
-UPDATE `etcitem` SET `name` ='追加入場券-近緣欲界-活動用' WHERE `item_id` = 13298;
-UPDATE `etcitem` SET `name` ='追加入場券-欲界(深淵迷宮)-活動用' WHERE `item_id` = 13299;
-UPDATE `etcitem` SET `name` ='祝福的羽毛-活動用' WHERE `item_id` = 13300;
-UPDATE `etcitem` SET `name` ='自由傳送書-活動用' WHERE `item_id` = 13301;
-UPDATE `etcitem` SET `name` ='自由傳送卷軸-活動用' WHERE `item_id` = 13302;
-UPDATE `etcitem` SET `name` ='白鼬鼠狩獵幫手項鍊-活動用' WHERE `item_id` = 13303;
-UPDATE `etcitem` SET `name` ='妖精公主狩獵幫手項鍊-活動用' WHERE `item_id` = 13304;
-UPDATE `etcitem` SET `name` ='野獸鬥士狩獵幫手項鍊-活動用' WHERE `item_id` = 13305;
-UPDATE `etcitem` SET `name` ='狐狸術士狩獵幫手項鍊-活動用' WHERE `item_id` = 13306;
-UPDATE `etcitem` SET `name` ='彩色稱號-活動用' WHERE `item_id` = 13307;
-UPDATE `etcitem` SET `name` ='自由傳送書 1張/組-活動用' WHERE `item_id` = 13341;
-UPDATE `etcitem` SET `name` ='自由傳送卷軸 30張/組-活動用' WHERE `item_id` = 13342;
-UPDATE `etcitem` SET `name` ='祝福的羽毛 3張/組-活動用' WHERE `item_id` = 13343;
-UPDATE `etcitem` SET `name` ='愛心壺精 30日/組-活動用' WHERE `item_id` = 13344;
-UPDATE `etcitem` SET `name` ='南瓜變身魔杖 30日/組-活動用' WHERE `item_id` = 13345;
-UPDATE `etcitem` SET `name` ='欲界入場券 3種組-活動用' WHERE `item_id` = 13346;
-UPDATE `etcitem` SET `name` ='戰鬥貓帽 30日/組-活動用' WHERE `item_id` = 13347;
-UPDATE `etcitem` SET `name` ='皇后貓帽 30日/組-活動用' WHERE `item_id` = 13348;
-UPDATE `etcitem` SET `name` ='眼怪帽 30日/組-活動用' WHERE `item_id` = 13349;
-UPDATE `etcitem` SET `name` ='棕熊帽 30日/組-活動用' WHERE `item_id` = 13350;
-UPDATE `etcitem` SET `name` ='蘑菇帽 30日/組-活動用' WHERE `item_id` = 13351;
-UPDATE `etcitem` SET `name` ='骷髏帽 30日/組-活動用' WHERE `item_id` = 13352;
-UPDATE `etcitem` SET `name` ='似鳥龍帽 30日/組-活動用' WHERE `item_id` = 13353;
-UPDATE `etcitem` SET `name` ='國王貓帽 30日/組-活動用' WHERE `item_id` = 13354;
-UPDATE `etcitem` SET `name` ='銀色貓帽 30日/組-活動用' WHERE `item_id` = 13355;
-UPDATE `etcitem` SET `name` ='O/X 魔杖 30日/組-活動用' WHERE `item_id` = 13356;
-UPDATE `etcitem` SET `name` ='剪刀/石頭/布魔杖 30日/組-活動用' WHERE `item_id` = 13357;
-UPDATE `etcitem` SET `name` ='淡紫鬃馬 7日/組-活動用' WHERE `item_id` = 13358;
-UPDATE `etcitem` SET `name` ='彩色稱號 3張/組-活動用' WHERE `item_id` = 13359;
-UPDATE `etcitem` SET `name` ='彩色稱號 1張/組-活動用' WHERE `item_id` = 13360;
-UPDATE `etcitem` SET `name` ='自由傳送卷軸 10張/組-活動用' WHERE `item_id` = 13361;
-UPDATE `etcitem` SET `name` ='欲界(深淵之廳) 15張/組-活動用' WHERE `item_id` = 13362;
-UPDATE `etcitem` SET `name` ='近緣欲界15張/組-活動用' WHERE `item_id` = 13363;
-UPDATE `etcitem` SET `name` ='欲界(深淵迷宮) 15張/組-活動用' WHERE `item_id` = 13364;
-UPDATE `etcitem` SET `name` ='欲界(深淵之廳) 5張/組-活動用' WHERE `item_id` = 13365;
-UPDATE `etcitem` SET `name` ='近緣欲界5張/組-活動用' WHERE `item_id` = 13366;
-UPDATE `etcitem` SET `name` ='欲界(深淵迷宮) 5張/組-活動用' WHERE `item_id` = 13367;
-UPDATE `etcitem` SET `name` ='祝福的羽毛 1張/組-活動用' WHERE `item_id` = 13368;
-UPDATE `etcitem` SET `name` ='愛心壺精 7日/組-活動用' WHERE `item_id` = 13369;
-UPDATE `etcitem` SET `name` ='南瓜變身魔杖 7日/組-活動用' WHERE `item_id` = 13370;
-UPDATE `etcitem` SET `name` ='戰鬥貓帽 7日/組-活動用' WHERE `item_id` = 13371;
-UPDATE `etcitem` SET `name` ='皇后貓帽 7日/組-活動用' WHERE `item_id` = 13372;
-UPDATE `etcitem` SET `name` ='眼怪帽 7日/組-活動用' WHERE `item_id` = 13373;
-UPDATE `etcitem` SET `name` ='棕熊帽 7日/組-活動用' WHERE `item_id` = 13374;
-UPDATE `etcitem` SET `name` ='蘑菇帽 7日/組-活動用' WHERE `item_id` = 13375;
-UPDATE `etcitem` SET `name` ='骷髏帽 7日/組-活動用' WHERE `item_id` = 13376;
-UPDATE `etcitem` SET `name` ='似鳥龍帽 7日/組-活動用' WHERE `item_id` = 13377;
-UPDATE `etcitem` SET `name` ='國王貓帽 7日/組-活動用' WHERE `item_id` = 13378;
-UPDATE `etcitem` SET `name` ='銀色貓帽 7日/組-活動用' WHERE `item_id` = 13379;
-UPDATE `etcitem` SET `name` ='OX 魔杖 7日/組-活動用' WHERE `item_id` = 13380;
-UPDATE `etcitem` SET `name` ='剪刀石頭布魔杖 7日/組-活動用' WHERE `item_id` = 13381;
-UPDATE `etcitem` SET `name` ='格蘭肯的禮盒-活動用 限時30日' WHERE `item_id` = 13382;
-UPDATE `etcitem` SET `name` ='狩獵幫手交換券-5小時-活動用' WHERE `item_id` = 13383;
-UPDATE `etcitem` SET `name` ='狩獵幫手交換券 3張/組-活動用' WHERE `item_id` = 13384;
-UPDATE `etcitem` SET `name` ='狩獵幫手交換券 1張/組-活動用' WHERE `item_id` = 13385;
-UPDATE `etcitem` SET `name` ='夢幻的藍色水晶' WHERE `item_id` = 13386;
-UPDATE `etcitem` SET `name` ='夢幻的綠色水晶' WHERE `item_id` = 13387;
-UPDATE `etcitem` SET `name` ='夢幻的紅色水晶' WHERE `item_id` = 13388;
-UPDATE `etcitem` SET `name` ='返回卷軸-說話之島' WHERE `item_id` = 13395;
-UPDATE `etcitem` SET `name` ='返回卷軸-精靈村莊' WHERE `item_id` = 13396;
-UPDATE `etcitem` SET `name` ='返回卷軸-黑暗精靈村莊' WHERE `item_id` = 13397;
-UPDATE `etcitem` SET `name` ='返回卷軸-半獸人村莊' WHERE `item_id` = 13398;
-UPDATE `etcitem` SET `name` ='返回卷軸-矮人村莊' WHERE `item_id` = 13399;
-UPDATE `etcitem` SET `name` ='返回卷軸-古魯丁村莊' WHERE `item_id` = 13400;
-UPDATE `etcitem` SET `name` ='返回卷軸-古魯丁城鎮' WHERE `item_id` = 13401;
-UPDATE `etcitem` SET `name` ='返回卷軸-狄恩城鎮' WHERE `item_id` = 13402;
-UPDATE `etcitem` SET `name` ='返回卷軸-芙羅蘭村莊' WHERE `item_id` = 13403;
-UPDATE `etcitem` SET `name` ='返回卷軸-奇岩城鎮' WHERE `item_id` = 13404;
-UPDATE `etcitem` SET `name` ='返回卷軸-哈汀學院' WHERE `item_id` = 13405;
-UPDATE `etcitem` SET `name` ='返回卷軸-水上都市海音斯' WHERE `item_id` = 13406;
-UPDATE `etcitem` SET `name` ='返回卷軸-歐瑞城鎮' WHERE `item_id` = 13407;
-UPDATE `etcitem` SET `name` ='返回卷軸-象牙塔' WHERE `item_id` = 13408;
-UPDATE `etcitem` SET `name` ='返回卷軸-獵人村莊' WHERE `item_id` = 13409;
-UPDATE `etcitem` SET `name` ='返回卷軸-亞丁城鎮' WHERE `item_id` = 13410;
-UPDATE `etcitem` SET `name` ='返回卷軸-高達特城鎮' WHERE `item_id` = 13411;
-UPDATE `etcitem` SET `name` ='返回卷軸-魯因城鎮' WHERE `item_id` = 13412;
-UPDATE `etcitem` SET `name` ='返回卷軸-修加特城鎮' WHERE `item_id` = 13413;
-UPDATE `etcitem` SET `name` ='返回卷軸-英魂之島村莊' WHERE `item_id` = 13414;
-UPDATE `etcitem` SET `name` ='L2Day-文字Y' WHERE `item_id` = 13417;
-UPDATE `etcitem` SET `name` ='L2Day-文字5' WHERE `item_id` = 13418;
-UPDATE `etcitem` SET `name` ='五週年紀念徽章' WHERE `item_id` = 13419;
-UPDATE `etcitem` SET `name` ='點心' WHERE `item_id` = 13420;
-UPDATE `etcitem` SET `name` ='蛋糕' WHERE `item_id` = 13421;
-UPDATE `etcitem` SET `name` ='返回卷軸2張/箱' WHERE `item_id` = 13422;
-UPDATE `etcitem` SET `name` ='原石2個/箱' WHERE `item_id` = 13423;
-UPDATE `etcitem` SET `name` ='飲料3個/箱' WHERE `item_id` = 13424;
-UPDATE `etcitem` SET `name` ='返回卷軸 1張/箱' WHERE `item_id` = 13425;
-UPDATE `etcitem` SET `name` ='原石1個/箱' WHERE `item_id` = 13426;
-UPDATE `etcitem` SET `name` ='飲料2個/箱' WHERE `item_id` = 13427;
-UPDATE `etcitem` SET `name` ='飲料1個/箱' WHERE `item_id` = 13428;
-UPDATE `etcitem` SET `name` ='大師余義的武器強化卷軸' WHERE `item_id` = 13540;
-UPDATE `etcitem` SET `name` ='余義的強化寶箱' WHERE `item_id` = 13541;
-UPDATE `etcitem` SET `name` ='余義的強化報酬晶體' WHERE `item_id` = 13542;
-UPDATE `etcitem` SET `name` ='玩偶騎士狩獵幫手項鍊' WHERE `item_id` = 13548;
-UPDATE `etcitem` SET `name` ='精靈術士狩獵幫手項鍊' WHERE `item_id` = 13549;
-UPDATE `etcitem` SET `name` ='貓頭鷹術士狩獵幫手項鍊' WHERE `item_id` = 13550;
-UPDATE `etcitem` SET `name` ='烏龜道士狩獵幫手項鍊' WHERE `item_id` = 13551;
-UPDATE `etcitem` SET `name` ='魔法書-最終飛行型態' WHERE `item_id` = 13552;
-UPDATE `etcitem` SET `name` ='魔法書-靈鳥獵鷹' WHERE `item_id` = 13553;
-UPDATE `etcitem` SET `name` ='魔法書-靈鳥貓頭鷹' WHERE `item_id` = 13554;
-UPDATE `etcitem` SET `name` ='合體變身卷軸' WHERE `item_id` = 13555;
-UPDATE `etcitem` SET `name` ='飛空艇召喚許可證' WHERE `item_id` = 13559;
-UPDATE `etcitem` SET `name` ='古魯丁人類傭兵變身卷軸' WHERE `item_id` = 13569;
-UPDATE `etcitem` SET `name` ='古魯丁精靈傭兵變身卷軸' WHERE `item_id` = 13570;
-UPDATE `etcitem` SET `name` ='古魯丁黑暗精靈傭兵變身卷軸' WHERE `item_id` = 13571;
-UPDATE `etcitem` SET `name` ='古魯丁半獸人傭兵變身卷軸' WHERE `item_id` = 13572;
-UPDATE `etcitem` SET `name` ='古魯丁矮人傭兵變身卷軸' WHERE `item_id` = 13573;
-UPDATE `etcitem` SET `name` ='古魯丁闇天使傭兵變身卷軸' WHERE `item_id` = 13574;
-UPDATE `etcitem` SET `name` ='古魯丁騎士傭兵變身卷軸' WHERE `item_id` = 13575;
-UPDATE `etcitem` SET `name` ='古魯丁弓手傭兵變身卷軸' WHERE `item_id` = 13576;
-UPDATE `etcitem` SET `name` ='古魯丁巫師傭兵變身卷軸' WHERE `item_id` = 13577;
-UPDATE `etcitem` SET `name` ='古魯丁百人隊長傭兵變身卷軸' WHERE `item_id` = 13578;
-UPDATE `etcitem` SET `name` ='古魯丁騎士隊長傭兵變身卷軸' WHERE `item_id` = 13579;
-UPDATE `etcitem` SET `name` ='古魯丁司令官傭兵變身卷軸' WHERE `item_id` = 13580;
-UPDATE `etcitem` SET `name` ='狄恩人類傭兵變身卷軸' WHERE `item_id` = 13581;
-UPDATE `etcitem` SET `name` ='狄恩精靈傭兵變身卷軸' WHERE `item_id` = 13582;
-UPDATE `etcitem` SET `name` ='狄恩黑暗精靈傭兵變身卷軸' WHERE `item_id` = 13583;
-UPDATE `etcitem` SET `name` ='狄恩半獸人傭兵變身卷軸' WHERE `item_id` = 13584;
-UPDATE `etcitem` SET `name` ='狄恩矮人傭兵變身卷軸' WHERE `item_id` = 13585;
-UPDATE `etcitem` SET `name` ='狄恩闇天使傭兵變身卷軸' WHERE `item_id` = 13586;
-UPDATE `etcitem` SET `name` ='狄恩騎士傭兵變身卷軸' WHERE `item_id` = 13587;
-UPDATE `etcitem` SET `name` ='狄恩弓手傭兵變身卷軸' WHERE `item_id` = 13588;
-UPDATE `etcitem` SET `name` ='狄恩巫師傭兵變身卷軸' WHERE `item_id` = 13589;
-UPDATE `etcitem` SET `name` ='狄恩百人隊長傭兵變身卷軸' WHERE `item_id` = 13590;
-UPDATE `etcitem` SET `name` ='狄恩騎士隊長傭兵變身卷軸' WHERE `item_id` = 13591;
-UPDATE `etcitem` SET `name` ='狄恩司令官傭兵變身卷軸' WHERE `item_id` = 13592;
-UPDATE `etcitem` SET `name` ='奇岩人類傭兵變身卷軸' WHERE `item_id` = 13593;
-UPDATE `etcitem` SET `name` ='奇岩精靈傭兵變身卷軸' WHERE `item_id` = 13594;
-UPDATE `etcitem` SET `name` ='奇岩黑暗精靈傭兵變身卷軸' WHERE `item_id` = 13595;
-UPDATE `etcitem` SET `name` ='奇岩半獸人傭兵變身卷軸' WHERE `item_id` = 13596;
-UPDATE `etcitem` SET `name` ='奇岩矮人傭兵變身卷軸' WHERE `item_id` = 13597;
-UPDATE `etcitem` SET `name` ='奇岩闇天使傭兵變身卷軸' WHERE `item_id` = 13598;
-UPDATE `etcitem` SET `name` ='奇岩騎士傭兵變身卷軸' WHERE `item_id` = 13599;
-UPDATE `etcitem` SET `name` ='奇岩弓手傭兵變身卷軸' WHERE `item_id` = 13600;
-UPDATE `etcitem` SET `name` ='奇岩巫師傭兵變身卷軸' WHERE `item_id` = 13601;
-UPDATE `etcitem` SET `name` ='奇岩百人隊長傭兵變身卷軸' WHERE `item_id` = 13602;
-UPDATE `etcitem` SET `name` ='奇岩騎士隊長傭兵變身卷軸' WHERE `item_id` = 13603;
-UPDATE `etcitem` SET `name` ='奇岩司令官傭兵變身卷軸' WHERE `item_id` = 13604;
-UPDATE `etcitem` SET `name` ='歐瑞人類傭兵變身卷軸' WHERE `item_id` = 13605;
-UPDATE `etcitem` SET `name` ='歐瑞精靈傭兵變身卷軸' WHERE `item_id` = 13606;
-UPDATE `etcitem` SET `name` ='歐瑞黑暗精靈傭兵變身卷軸' WHERE `item_id` = 13607;
-UPDATE `etcitem` SET `name` ='歐瑞半獸人傭兵變身卷軸' WHERE `item_id` = 13608;
-UPDATE `etcitem` SET `name` ='歐瑞矮人傭兵變身卷軸' WHERE `item_id` = 13609;
-UPDATE `etcitem` SET `name` ='歐瑞闇天使傭兵變身卷軸' WHERE `item_id` = 13610;
-UPDATE `etcitem` SET `name` ='歐瑞騎士傭兵變身卷軸' WHERE `item_id` = 13611;
-UPDATE `etcitem` SET `name` ='歐瑞弓手傭兵變身卷軸' WHERE `item_id` = 13612;
-UPDATE `etcitem` SET `name` ='歐瑞巫師傭兵變身卷軸' WHERE `item_id` = 13613;
-UPDATE `etcitem` SET `name` ='歐瑞百人隊長傭兵變身卷軸' WHERE `item_id` = 13614;
-UPDATE `etcitem` SET `name` ='歐瑞騎士隊長傭兵變身卷軸' WHERE `item_id` = 13615;
-UPDATE `etcitem` SET `name` ='歐瑞司令官傭兵變身卷軸' WHERE `item_id` = 13616;
-UPDATE `etcitem` SET `name` ='亞丁人類傭兵變身卷軸' WHERE `item_id` = 13617;
-UPDATE `etcitem` SET `name` ='亞丁精靈傭兵變身卷軸' WHERE `item_id` = 13618;
-UPDATE `etcitem` SET `name` ='亞丁黑暗精靈傭兵變身卷軸' WHERE `item_id` = 13619;
-UPDATE `etcitem` SET `name` ='亞丁半獸人傭兵變身卷軸' WHERE `item_id` = 13620;
-UPDATE `etcitem` SET `name` ='亞丁矮人傭兵變身卷軸' WHERE `item_id` = 13621;
-UPDATE `etcitem` SET `name` ='亞丁闇天使傭兵變身卷軸' WHERE `item_id` = 13622;
-UPDATE `etcitem` SET `name` ='亞丁騎士傭兵變身卷軸' WHERE `item_id` = 13623;
-UPDATE `etcitem` SET `name` ='亞丁弓手傭兵變身卷軸' WHERE `item_id` = 13624;
-UPDATE `etcitem` SET `name` ='亞丁巫師傭兵變身卷軸' WHERE `item_id` = 13625;
-UPDATE `etcitem` SET `name` ='亞丁百人隊長傭兵變身卷軸' WHERE `item_id` = 13626;
-UPDATE `etcitem` SET `name` ='亞丁騎士隊長傭兵變身卷軸' WHERE `item_id` = 13627;
-UPDATE `etcitem` SET `name` ='亞丁司令官傭兵變身卷軸' WHERE `item_id` = 13628;
-UPDATE `etcitem` SET `name` ='因納得立人類傭兵變身卷軸' WHERE `item_id` = 13629;
-UPDATE `etcitem` SET `name` ='因納得立精靈傭兵變身卷軸' WHERE `item_id` = 13630;
-UPDATE `etcitem` SET `name` ='因納得立黑暗精靈傭兵變身卷軸' WHERE `item_id` = 13631;
-UPDATE `etcitem` SET `name` ='因納得立半獸人傭兵變身卷軸' WHERE `item_id` = 13632;
-UPDATE `etcitem` SET `name` ='因納得立矮人傭兵變身卷軸' WHERE `item_id` = 13633;
-UPDATE `etcitem` SET `name` ='因納得立闇天使傭兵變身卷軸' WHERE `item_id` = 13634;
-UPDATE `etcitem` SET `name` ='因納得立騎士傭兵變身卷軸' WHERE `item_id` = 13635;
-UPDATE `etcitem` SET `name` ='因納得立弓手傭兵變身卷軸' WHERE `item_id` = 13636;
-UPDATE `etcitem` SET `name` ='因納得立巫師傭兵變身卷軸' WHERE `item_id` = 13637;
-UPDATE `etcitem` SET `name` ='因納得立百人隊長傭兵變身卷軸' WHERE `item_id` = 13638;
-UPDATE `etcitem` SET `name` ='因納得立騎士隊長傭兵變身卷軸' WHERE `item_id` = 13639;
-UPDATE `etcitem` SET `name` ='因納得立司令官傭兵變身卷軸' WHERE `item_id` = 13640;
-UPDATE `etcitem` SET `name` ='高達特人類傭兵變身卷軸' WHERE `item_id` = 13641;
-UPDATE `etcitem` SET `name` ='高達特精靈傭兵變身卷軸' WHERE `item_id` = 13642;
-UPDATE `etcitem` SET `name` ='高達特黑暗精靈傭兵變身卷軸' WHERE `item_id` = 13643;
-UPDATE `etcitem` SET `name` ='高達特半獸人傭兵變身卷軸' WHERE `item_id` = 13644;
-UPDATE `etcitem` SET `name` ='高達特矮人傭兵變身卷軸' WHERE `item_id` = 13645;
-UPDATE `etcitem` SET `name` ='高達特闇天使傭兵變身卷軸' WHERE `item_id` = 13646;
-UPDATE `etcitem` SET `name` ='高達特騎士傭兵變身卷軸' WHERE `item_id` = 13647;
-UPDATE `etcitem` SET `name` ='高達特弓手傭兵變身卷軸' WHERE `item_id` = 13648;
-UPDATE `etcitem` SET `name` ='高達特巫師傭兵變身卷軸' WHERE `item_id` = 13649;
-UPDATE `etcitem` SET `name` ='高達特百人隊長傭兵變身卷軸' WHERE `item_id` = 13650;
-UPDATE `etcitem` SET `name` ='高達特騎士隊長傭兵變身卷軸' WHERE `item_id` = 13651;
-UPDATE `etcitem` SET `name` ='高達特司令官傭兵變身卷軸' WHERE `item_id` = 13652;
-UPDATE `etcitem` SET `name` ='魯因人類傭兵變身卷軸' WHERE `item_id` = 13653;
-UPDATE `etcitem` SET `name` ='魯因精靈傭兵變身卷軸' WHERE `item_id` = 13654;
-UPDATE `etcitem` SET `name` ='魯因黑暗精靈傭兵變身卷軸' WHERE `item_id` = 13655;
-UPDATE `etcitem` SET `name` ='魯因半獸人傭兵變身卷軸' WHERE `item_id` = 13656;
-UPDATE `etcitem` SET `name` ='魯因矮人傭兵變身卷軸' WHERE `item_id` = 13657;
-UPDATE `etcitem` SET `name` ='魯因闇天使傭兵變身卷軸' WHERE `item_id` = 13658;
-UPDATE `etcitem` SET `name` ='魯因騎士傭兵變身卷軸' WHERE `item_id` = 13659;
-UPDATE `etcitem` SET `name` ='魯因弓手傭兵變身卷軸' WHERE `item_id` = 13660;
-UPDATE `etcitem` SET `name` ='魯因巫師傭兵變身卷軸' WHERE `item_id` = 13661;
-UPDATE `etcitem` SET `name` ='魯因百人隊長傭兵變身卷軸' WHERE `item_id` = 13662;
-UPDATE `etcitem` SET `name` ='魯因騎士隊長傭兵變身卷軸' WHERE `item_id` = 13663;
-UPDATE `etcitem` SET `name` ='魯因司令官傭兵變身卷軸' WHERE `item_id` = 13664;
-UPDATE `etcitem` SET `name` ='修加特人類傭兵變身卷軸' WHERE `item_id` = 13665;
-UPDATE `etcitem` SET `name` ='修加特精靈傭兵變身卷軸' WHERE `item_id` = 13666;
-UPDATE `etcitem` SET `name` ='修加特黑暗精靈傭兵變身卷軸' WHERE `item_id` = 13667;
-UPDATE `etcitem` SET `name` ='修加特半獸人傭兵變身卷軸' WHERE `item_id` = 13668;
-UPDATE `etcitem` SET `name` ='修加特矮人傭兵變身卷軸' WHERE `item_id` = 13669;
-UPDATE `etcitem` SET `name` ='修加特闇天使傭兵變身卷軸' WHERE `item_id` = 13670;
-UPDATE `etcitem` SET `name` ='修加特騎士傭兵變身卷軸' WHERE `item_id` = 13671;
-UPDATE `etcitem` SET `name` ='修加特弓手傭兵變身卷軸' WHERE `item_id` = 13672;
-UPDATE `etcitem` SET `name` ='修加特巫師傭兵變身卷軸' WHERE `item_id` = 13673;
-UPDATE `etcitem` SET `name` ='修加特百人隊長傭兵變身卷軸' WHERE `item_id` = 13674;
-UPDATE `etcitem` SET `name` ='修加特騎士隊長傭兵變身卷軸' WHERE `item_id` = 13675;
-UPDATE `etcitem` SET `name` ='修加特司令官傭兵變身卷軸' WHERE `item_id` = 13676;
-UPDATE `etcitem` SET `name` ='古魯丁偽裝卷軸' WHERE `item_id` = 13677;
-UPDATE `etcitem` SET `name` ='狄恩偽裝卷軸' WHERE `item_id` = 13678;
-UPDATE `etcitem` SET `name` ='奇岩偽裝卷軸' WHERE `item_id` = 13679;
-UPDATE `etcitem` SET `name` ='歐瑞偽裝卷軸' WHERE `item_id` = 13680;
-UPDATE `etcitem` SET `name` ='亞丁偽裝卷軸' WHERE `item_id` = 13681;
-UPDATE `etcitem` SET `name` ='因納得立偽裝卷軸' WHERE `item_id` = 13682;
-UPDATE `etcitem` SET `name` ='高達特偽裝卷軸' WHERE `item_id` = 13683;
-UPDATE `etcitem` SET `name` ='魯因偽裝卷軸' WHERE `item_id` = 13684;
-UPDATE `etcitem` SET `name` ='修加特偽裝卷軸' WHERE `item_id` = 13685;
-UPDATE `etcitem` SET `name` ='封印的騎士斗篷' WHERE `item_id` = 13686;
-UPDATE `etcitem` SET `name` ='柯塞勒斯的憑證-階段1' WHERE `item_id` = 13691;
-UPDATE `etcitem` SET `name` ='柯塞勒斯的憑證-階段2' WHERE `item_id` = 13692;
-UPDATE `etcitem` SET `name` ='格勒西亞紀念幣' WHERE `item_id` = 13693;
-UPDATE `etcitem` SET `name` ='格勒西亞鑰匙' WHERE `item_id` = 13694;
-UPDATE `etcitem` SET `name` ='古魯丁補給箱-魔法別針 B、C級' WHERE `item_id` = 13695;
-UPDATE `etcitem` SET `name` ='狄恩補給箱-魔法別針 B、C級' WHERE `item_id` = 13696;
-UPDATE `etcitem` SET `name` ='奇岩補給箱-魔法別針 B、C級' WHERE `item_id` = 13697;
-UPDATE `etcitem` SET `name` ='歐瑞補給箱-魔法別針 B、C級' WHERE `item_id` = 13698;
-UPDATE `etcitem` SET `name` ='亞丁補給箱-魔法別針 B、C級' WHERE `item_id` = 13699;
-UPDATE `etcitem` SET `name` ='因納得立補給箱-魔法別針 B、C級' WHERE `item_id` = 13700;
-UPDATE `etcitem` SET `name` ='高達特補給箱-魔法別針 B、C級' WHERE `item_id` = 13701;
-UPDATE `etcitem` SET `name` ='魯因補給箱-魔法別針 B、C級' WHERE `item_id` = 13702;
-UPDATE `etcitem` SET `name` ='修加特補給箱-魔法別針 B、C級' WHERE `item_id` = 13703;
-UPDATE `etcitem` SET `name` ='古魯丁補給箱-魔法小袋 B、C級' WHERE `item_id` = 13704;
-UPDATE `etcitem` SET `name` ='狄恩補給箱-魔法小袋 B、C級' WHERE `item_id` = 13705;
-UPDATE `etcitem` SET `name` ='奇岩補給箱-魔法小袋 B、C級' WHERE `item_id` = 13706;
-UPDATE `etcitem` SET `name` ='歐瑞補給箱-魔法小袋 B、C級' WHERE `item_id` = 13707;
-UPDATE `etcitem` SET `name` ='亞丁補給箱-魔法小袋 B、C級' WHERE `item_id` = 13708;
-UPDATE `etcitem` SET `name` ='因納得立補給箱-魔法小袋 B、C級' WHERE `item_id` = 13709;
-UPDATE `etcitem` SET `name` ='高達特補給箱-魔法小袋 B、C級' WHERE `item_id` = 13710;
-UPDATE `etcitem` SET `name` ='魯因補給箱-魔法小袋 B、C級' WHERE `item_id` = 13711;
-UPDATE `etcitem` SET `name` ='修加特補給箱-魔法小袋 B、C級' WHERE `item_id` = 13712;
-UPDATE `etcitem` SET `name` ='古魯丁補給箱-腰帶 B、C級' WHERE `item_id` = 13713;
-UPDATE `etcitem` SET `name` ='狄恩補給箱-腰帶 B、C級' WHERE `item_id` = 13714;
-UPDATE `etcitem` SET `name` ='奇岩補給箱-腰帶 B、C級' WHERE `item_id` = 13715;
-UPDATE `etcitem` SET `name` ='歐瑞補給箱-腰帶 B、C級' WHERE `item_id` = 13716;
-UPDATE `etcitem` SET `name` ='亞丁補給箱-腰帶 B、C級' WHERE `item_id` = 13717;
-UPDATE `etcitem` SET `name` ='因納得立補給箱-腰帶 B、C級' WHERE `item_id` = 13718;
-UPDATE `etcitem` SET `name` ='高達特補給箱-腰帶 B、C級' WHERE `item_id` = 13719;
-UPDATE `etcitem` SET `name` ='魯因補給箱-腰帶 B、C級' WHERE `item_id` = 13720;
-UPDATE `etcitem` SET `name` ='修加特補給箱-腰帶 B、C級' WHERE `item_id` = 13721;
-UPDATE `etcitem` SET `name` ='奧林匹亞標章' WHERE `item_id` = 13722;
-UPDATE `etcitem` SET `name` ='圖案-高級MP恢復石' WHERE `item_id` = 13723;
-UPDATE `etcitem` SET `name` ='圖案-高級HP MP恢復石' WHERE `item_id` = 13724;
-UPDATE `etcitem` SET `name` ='圖案-恢復之石' WHERE `item_id` = 13725;
-UPDATE `etcitem` SET `name` ='圖案-能量星石' WHERE `item_id` = 13726;
-UPDATE `etcitem` SET `name` ='圖案-高級能量星石' WHERE `item_id` = 13727;
-UPDATE `etcitem` SET `name` ='熟練書-星石萃取技術 LV1' WHERE `item_id` = 13728;
-UPDATE `etcitem` SET `name` ='熟練書-星石萃取技術 LV2' WHERE `item_id` = 13729;
-UPDATE `etcitem` SET `name` ='熟練書-星石萃取技術 LV3' WHERE `item_id` = 13730;
-UPDATE `etcitem` SET `name` ='古魯丁祝福的返回卷軸' WHERE `item_id` = 13731;
-UPDATE `etcitem` SET `name` ='狄恩祝福的返回卷軸' WHERE `item_id` = 13732;
-UPDATE `etcitem` SET `name` ='奇岩祝福的返回卷軸' WHERE `item_id` = 13733;
-UPDATE `etcitem` SET `name` ='歐瑞祝福的返回卷軸' WHERE `item_id` = 13734;
-UPDATE `etcitem` SET `name` ='亞丁祝福的返回卷軸' WHERE `item_id` = 13735;
-UPDATE `etcitem` SET `name` ='因納得立祝福的返回卷軸' WHERE `item_id` = 13736;
-UPDATE `etcitem` SET `name` ='高達特祝福的返回卷軸' WHERE `item_id` = 13737;
-UPDATE `etcitem` SET `name` ='魯因祝福的返回卷軸' WHERE `item_id` = 13738;
-UPDATE `etcitem` SET `name` ='修加特祝福的返回卷軸' WHERE `item_id` = 13739;
-UPDATE `etcitem` SET `name` ='金剛砂碎片' WHERE `item_id` = 13749;
-UPDATE `etcitem` SET `name` ='勇士的瞬間體力治癒藥水' WHERE `item_id` = 13750;
-UPDATE `etcitem` SET `name` ='古魯丁領地徽章' WHERE `item_id` = 13757;
-UPDATE `etcitem` SET `name` ='狄恩領地徽章' WHERE `item_id` = 13758;
-UPDATE `etcitem` SET `name` ='奇岩領地徽章' WHERE `item_id` = 13759;
-UPDATE `etcitem` SET `name` ='歐瑞領地徽章' WHERE `item_id` = 13760;
-UPDATE `etcitem` SET `name` ='亞丁領地徽章' WHERE `item_id` = 13761;
-UPDATE `etcitem` SET `name` ='因納得立領地徽章' WHERE `item_id` = 13762;
-UPDATE `etcitem` SET `name` ='高達特領地徽章' WHERE `item_id` = 13763;
-UPDATE `etcitem` SET `name` ='魯因領地徽章' WHERE `item_id` = 13764;
-UPDATE `etcitem` SET `name` ='修加特領地徽章' WHERE `item_id` = 13765;
-UPDATE `etcitem` SET `name` ='一般傭兵證書' WHERE `item_id` = 13766;
-UPDATE `etcitem` SET `name` ='精銳傭兵證書' WHERE `item_id` = 13767;
-UPDATE `etcitem` SET `name` ='最高精銳傭兵證書' WHERE `item_id` = 13768;
-UPDATE `etcitem` SET `name` ='人造再生腫瘤體產生器' WHERE `item_id` = 13769;
-UPDATE `etcitem` SET `name` ='強鹼性軟膏' WHERE `item_id` = 13771;
-UPDATE `etcitem` SET `name` ='醫療繃帶' WHERE `item_id` = 13772;
-UPDATE `etcitem` SET `name` ='保存之香' WHERE `item_id` = 13773;
-UPDATE `etcitem` SET `name` ='退魔之香' WHERE `item_id` = 13774;
-UPDATE `etcitem` SET `name` ='返生靈藥' WHERE `item_id` = 13775;
-UPDATE `etcitem` SET `name` ='援助的甲蟲石' WHERE `item_id` = 13776;
-UPDATE `etcitem` SET `name` ='寶石裝飾的戰鬥補給品' WHERE `item_id` = 13777;
-UPDATE `etcitem` SET `name` ='螺鈿裝飾的戰鬥補給品' WHERE `item_id` = 13778;
-UPDATE `etcitem` SET `name` ='黃金裝飾的戰鬥補給品' WHERE `item_id` = 13779;
-UPDATE `etcitem` SET `name` ='白銀裝飾的戰鬥補給品' WHERE `item_id` = 13780;
-UPDATE `etcitem` SET `name` ='青銅裝飾的戰鬥補給品' WHERE `item_id` = 13781;
-UPDATE `etcitem` SET `name` ='沒有裝飾的戰鬥補給品' WHERE `item_id` = 13782;
-UPDATE `etcitem` SET `name` ='不起眼的戰鬥補給品' WHERE `item_id` = 13783;
-UPDATE `etcitem` SET `name` ='很普通的戰鬥補給品' WHERE `item_id` = 13784;
-UPDATE `etcitem` SET `name` ='看似破舊的戰鬥補給品' WHERE `item_id` = 13785;
-UPDATE `etcitem` SET `name` ='可有可無的戰鬥補給品' WHERE `item_id` = 13786;
-UPDATE `etcitem` SET `name` ='強力膠' WHERE `item_id` = 13787;
-UPDATE `etcitem` SET `name` ='地雷' WHERE `item_id` = 13788;
-UPDATE `etcitem` SET `name` ='柯雷塔的晶體 名稱隱藏卷軸' WHERE `item_id` = 13793;
-UPDATE `etcitem` SET `name` ='變身體-翻滾方塊變身卷軸' WHERE `item_id` = 13794;
-UPDATE `etcitem` SET `name` ='變身體-翻滾方塊變身卷軸' WHERE `item_id` = 13795;
-UPDATE `etcitem` SET `name` ='解放的靈魂之核' WHERE `item_id` = 13796;
-UPDATE `etcitem` SET `name` ='解放的靈魂之淚' WHERE `item_id` = 13797;
-UPDATE `etcitem` SET `name` ='靈魂的片段' WHERE `item_id` = 13798;
-UPDATE `etcitem` SET `name` ='古代人的寶物袋子' WHERE `item_id` = 13799;
-UPDATE `etcitem` SET `name` ='青蛙變身卷軸' WHERE `item_id` = 13800;
-UPDATE `etcitem` SET `name` ='小孩變身卷軸' WHERE `item_id` = 13801;
-UPDATE `etcitem` SET `name` ='艾爾摩亞丁的聖水' WHERE `item_id` = 13808;
-UPDATE `etcitem` SET `name` ='大神官歐魯芬的信函' WHERE `item_id` = 13810;
-UPDATE `etcitem` SET `name` ='柯塞勒斯的推薦函-不滅之種' WHERE `item_id` = 13811;
-UPDATE `etcitem` SET `name` ='柯塞勒斯的推薦函-破滅之種' WHERE `item_id` = 13812;
-UPDATE `etcitem` SET `name` ='庫羅普的推薦函' WHERE `item_id` = 13813;
-UPDATE `etcitem` SET `name` ='雅各的項鍊' WHERE `item_id` = 13814;
-UPDATE `etcitem` SET `name` ='庫羅普的慰靈祭邀請信函' WHERE `item_id` = 13815;
-UPDATE `etcitem` SET `name` ='死者的藥草' WHERE `item_id` = 13816;
-UPDATE `etcitem` SET `name` ='神官凱因的調查報告書' WHERE `item_id` = 13817;
-UPDATE `etcitem` SET `name` ='亞太法特卿的推薦函' WHERE `item_id` = 13818;
-UPDATE `etcitem` SET `name` ='原住民的手套' WHERE `item_id` = 13819;
-UPDATE `etcitem` SET `name` ='青蛙大王的珠子' WHERE `item_id` = 13820;
-UPDATE `etcitem` SET `name` ='泰絲奶奶的糖果包' WHERE `item_id` = 13821;
-UPDATE `etcitem` SET `name` ='黎明警衛隊員身分證' WHERE `item_id` = 13822;
-UPDATE `etcitem` SET `name` ='史奈曼皇帝的契約書' WHERE `item_id` = 13823;
-UPDATE `etcitem` SET `name` ='財富的古代封印石' WHERE `item_id` = 13824;
-UPDATE `etcitem` SET `name` ='殷海薩聖杯' WHERE `item_id` = 13825;
-UPDATE `etcitem` SET `name` ='皇帝的血' WHERE `item_id` = 13826;
-UPDATE `etcitem` SET `name` ='艾森的推薦函' WHERE `item_id` = 13827;
-UPDATE `etcitem` SET `name` ='祈禱文_皇帝的鑰匙' WHERE `item_id` = 13828;
-UPDATE `etcitem` SET `name` ='謎樣的手抄本' WHERE `item_id` = 13829;
-UPDATE `etcitem` SET `name` ='突倫 卡默士的細胞組織' WHERE `item_id` = 13830;
-UPDATE `etcitem` SET `name` ='豺狼 亞留修的細胞組織' WHERE `item_id` = 13831;
-UPDATE `etcitem` SET `name` ='赤色哈圖 奧迪司的細胞組織' WHERE `item_id` = 13832;
-UPDATE `etcitem` SET `name` ='預言者 普勞羅素的細胞組織' WHERE `item_id` = 13833;
-UPDATE `etcitem` SET `name` ='刀刃 奧迪司的細胞組織' WHERE `item_id` = 13834;
-UPDATE `etcitem` SET `name` ='奇異 普內的細胞組織' WHERE `item_id` = 13835;
-UPDATE `etcitem` SET `name` ='卡倚 亞比高爾的細胞組織' WHERE `item_id` = 13836;
-UPDATE `etcitem` SET `name` ='騎士 孟塔那的細胞組織' WHERE `item_id` = 13837;
-UPDATE `etcitem` SET `name` ='畢諾姆斯 史托拉斯的細胞組織' WHERE `item_id` = 13838;
-UPDATE `etcitem` SET `name` ='凱爾 比拉特的細胞組織' WHERE `item_id` = 13839;
-UPDATE `etcitem` SET `name` ='百眼的 阿羅梭的細胞組織' WHERE `item_id` = 13840;
-UPDATE `etcitem` SET `name` ='龍馬團護身符' WHERE `item_id` = 13841;
-UPDATE `etcitem` SET `name` ='星石萃取卷軸' WHERE `item_id` = 13844;
-UPDATE `etcitem` SET `name` ='封印的印章' WHERE `item_id` = 13846;
-UPDATE `etcitem` SET `name` ='疑問的碎片' WHERE `item_id` = 13847;
-UPDATE `etcitem` SET `name` ='無頭騎士盔甲' WHERE `item_id` = 13848;
-UPDATE `etcitem` SET `name` ='曼陀羅草根' WHERE `item_id` = 13849;
-UPDATE `etcitem` SET `name` ='血腥之斧黑肩章' WHERE `item_id` = 13850;
-UPDATE `etcitem` SET `name` ='隕石球珠' WHERE `item_id` = 13851;
-UPDATE `etcitem` SET `name` ='調查官曼特波的文件' WHERE `item_id` = 13852;
-UPDATE `etcitem` SET `name` ='破碎的黑暗破片粉末' WHERE `item_id` = 13853;
-UPDATE `etcitem` SET `name` ='破碎的光芒破片粉末' WHERE `item_id` = 13854;
-UPDATE `etcitem` SET `name` ='神聖的光之破片' WHERE `item_id` = 13855;
-UPDATE `etcitem` SET `name` ='騎士標章' WHERE `item_id` = 13856;
-UPDATE `etcitem` SET `name` ='雷坤的證明書' WHERE `item_id` = 13857;
-UPDATE `etcitem` SET `name` ='粗劣的紅色星石萃取石' WHERE `item_id` = 13858;
-UPDATE `etcitem` SET `name` ='粗劣的藍色星石萃取石' WHERE `item_id` = 13859;
-UPDATE `etcitem` SET `name` ='粗劣的綠色星石萃取石' WHERE `item_id` = 13860;
-UPDATE `etcitem` SET `name` ='暴走精靈的碎片-水' WHERE `item_id` = 13861;
-UPDATE `etcitem` SET `name` ='暴走精靈的碎片-風' WHERE `item_id` = 13862;
-UPDATE `etcitem` SET `name` ='不完整的靈魂之核' WHERE `item_id` = 13863;
-UPDATE `etcitem` SET `name` ='蒂雅特印章' WHERE `item_id` = 13864;
-UPDATE `etcitem` SET `name` ='龍馬團圖騰' WHERE `item_id` = 13865;
-UPDATE `etcitem` SET `name` ='靈魂的片段' WHERE `item_id` = 13866;
-UPDATE `etcitem` SET `name` ='蒂雅特氣息' WHERE `item_id` = 13867;
-UPDATE `etcitem` SET `name` ='艾罕 克羅迪庫斯徽章' WHERE `item_id` = 13868;
-UPDATE `etcitem` SET `name` ='艾罕 克蘭尼庫斯徽章' WHERE `item_id` = 13869;
-UPDATE `etcitem` SET `name` ='屍妖水晶' WHERE `item_id` = 13870;
-UPDATE `etcitem` SET `name` ='禿鷹的金色羽毛' WHERE `item_id` = 13871;
-UPDATE `etcitem` SET `name` ='被吞食的頭蓋骨' WHERE `item_id` = 13872;
-UPDATE `etcitem` SET `name` ='被吞食的胸骨' WHERE `item_id` = 13873;
-UPDATE `etcitem` SET `name` ='被吞食的碎骨' WHERE `item_id` = 13874;
-UPDATE `etcitem` SET `name` ='亡者遺骸' WHERE `item_id` = 13875;
-UPDATE `etcitem` SET `name` ='班席女王的眼球' WHERE `item_id` = 13876;
-UPDATE `etcitem` SET `name` ='龍獸的肉' WHERE `item_id` = 13877;
-UPDATE `etcitem` SET `name` ='腐臭的血' WHERE `item_id` = 13878;
-UPDATE `etcitem` SET `name` ='龍獸的餌' WHERE `item_id` = 13879;
-UPDATE `etcitem` SET `name` ='變種龍獸翼的角' WHERE `item_id` = 13880;
-UPDATE `etcitem` SET `name` ='封印的聖靈斗篷' WHERE `item_id` = 13893;
-UPDATE `etcitem` SET `name` ='封印的魔法別針-C級' WHERE `item_id` = 13898;
-UPDATE `etcitem` SET `name` ='封印的魔法別針-B級' WHERE `item_id` = 13899;
-UPDATE `etcitem` SET `name` ='封印的魔法別針-A級' WHERE `item_id` = 13900;
-UPDATE `etcitem` SET `name` ='封印的魔法別針-S級' WHERE `item_id` = 13901;
-UPDATE `etcitem` SET `name` ='下級魔法別針-C級' WHERE `item_id` = 13902;
-UPDATE `etcitem` SET `name` ='中級魔法別針-C級' WHERE `item_id` = 13903;
-UPDATE `etcitem` SET `name` ='上級魔法別針-C級' WHERE `item_id` = 13904;
-UPDATE `etcitem` SET `name` ='特級魔法別針-C級' WHERE `item_id` = 13905;
-UPDATE `etcitem` SET `name` ='下級魔法別針-B級' WHERE `item_id` = 13906;
-UPDATE `etcitem` SET `name` ='中級魔法別針-B級' WHERE `item_id` = 13907;
-UPDATE `etcitem` SET `name` ='上級魔法別針-B級' WHERE `item_id` = 13908;
-UPDATE `etcitem` SET `name` ='特級魔法別針-B級' WHERE `item_id` = 13909;
-UPDATE `etcitem` SET `name` ='下級魔法別針-A級' WHERE `item_id` = 13910;
-UPDATE `etcitem` SET `name` ='中級魔法別針-A級' WHERE `item_id` = 13911;
-UPDATE `etcitem` SET `name` ='上級魔法別針-A級' WHERE `item_id` = 13912;
-UPDATE `etcitem` SET `name` ='特級魔法別針-A級' WHERE `item_id` = 13913;
-UPDATE `etcitem` SET `name` ='下級魔法別針-S級' WHERE `item_id` = 13914;
-UPDATE `etcitem` SET `name` ='中級魔法別針-S級' WHERE `item_id` = 13915;
-UPDATE `etcitem` SET `name` ='上級魔法別針-S級' WHERE `item_id` = 13916;
-UPDATE `etcitem` SET `name` ='特級魔法別針-S級' WHERE `item_id` = 13917;
-UPDATE `etcitem` SET `name` ='封印的魔法小袋-C級' WHERE `item_id` = 13918;
-UPDATE `etcitem` SET `name` ='封印的魔法小袋-B級' WHERE `item_id` = 13919;
-UPDATE `etcitem` SET `name` ='封印的魔法小袋-A級' WHERE `item_id` = 13920;
-UPDATE `etcitem` SET `name` ='封印的魔法小袋-S級' WHERE `item_id` = 13921;
-UPDATE `etcitem` SET `name` ='下級魔法小袋-C級' WHERE `item_id` = 13922;
-UPDATE `etcitem` SET `name` ='中級魔法小袋-C級' WHERE `item_id` = 13923;
-UPDATE `etcitem` SET `name` ='上級魔法小袋-C級' WHERE `item_id` = 13924;
-UPDATE `etcitem` SET `name` ='特級魔法小袋-C級' WHERE `item_id` = 13925;
-UPDATE `etcitem` SET `name` ='下級魔法小袋-B級' WHERE `item_id` = 13926;
-UPDATE `etcitem` SET `name` ='中級魔法小袋-B級' WHERE `item_id` = 13927;
-UPDATE `etcitem` SET `name` ='上級魔法小袋-B級' WHERE `item_id` = 13928;
-UPDATE `etcitem` SET `name` ='特級魔法小袋-B級' WHERE `item_id` = 13929;
-UPDATE `etcitem` SET `name` ='下級魔法小袋-A級' WHERE `item_id` = 13930;
-UPDATE `etcitem` SET `name` ='中級魔法小袋-A級' WHERE `item_id` = 13931;
-UPDATE `etcitem` SET `name` ='上級魔法小袋-A級' WHERE `item_id` = 13932;
-UPDATE `etcitem` SET `name` ='特級魔法小袋-A級' WHERE `item_id` = 13933;
-UPDATE `etcitem` SET `name` ='下級魔法小袋-S級' WHERE `item_id` = 13934;
-UPDATE `etcitem` SET `name` ='中級魔法小袋-S級' WHERE `item_id` = 13935;
-UPDATE `etcitem` SET `name` ='上級魔法小袋-S級' WHERE `item_id` = 13936;
-UPDATE `etcitem` SET `name` ='特級魔法小袋-S級' WHERE `item_id` = 13937;
-UPDATE `etcitem` SET `name` ='魔法書-星石萃取技能' WHERE `item_id` = 13970;
-UPDATE `etcitem` SET `name` ='S80級武器箱子-活動用' WHERE `item_id` = 13988;
-UPDATE `etcitem` SET `name` ='S80級防具箱子-活動用' WHERE `item_id` = 13989;
-UPDATE `etcitem` SET `name` ='S級武器箱子-活動用' WHERE `item_id` = 13990;
-UPDATE `etcitem` SET `name` ='S級防具箱子-活動用' WHERE `item_id` = 13991;
-UPDATE `etcitem` SET `name` ='S級飾品箱子-活動用' WHERE `item_id` = 13992;
-UPDATE `etcitem` SET `name` ='圖案-火之水晶' WHERE `item_id` = 13993;
-UPDATE `etcitem` SET `name` ='圖案-水之水晶' WHERE `item_id` = 13994;
-UPDATE `etcitem` SET `name` ='圖案-風之水晶' WHERE `item_id` = 13995;
-UPDATE `etcitem` SET `name` ='圖案-地之水晶' WHERE `item_id` = 13996;
-UPDATE `etcitem` SET `name` ='圖案-暗之水晶' WHERE `item_id` = 13997;
-UPDATE `etcitem` SET `name` ='圖案-聖之水晶' WHERE `item_id` = 13998;
-UPDATE `etcitem` SET `name` ='古魯丁補給箱-頭飾' WHERE `item_id` = 13999;
-UPDATE `etcitem` SET `name` ='狄恩補給箱-頭飾' WHERE `item_id` = 14000;
-UPDATE `etcitem` SET `name` ='奇岩補給箱-頭飾' WHERE `item_id` = 14001;
-UPDATE `etcitem` SET `name` ='歐瑞補給箱-頭飾' WHERE `item_id` = 14002;
-UPDATE `etcitem` SET `name` ='亞丁補給箱-頭飾' WHERE `item_id` = 14003;
-UPDATE `etcitem` SET `name` ='因納得立補給箱-頭飾' WHERE `item_id` = 14004;
-UPDATE `etcitem` SET `name` ='高達特補給箱-頭飾' WHERE `item_id` = 14005;
-UPDATE `etcitem` SET `name` ='魯因補給箱-頭飾' WHERE `item_id` = 14006;
-UPDATE `etcitem` SET `name` ='修加特補給箱-頭飾' WHERE `item_id` = 14007;
-UPDATE `etcitem` SET `name` ='飾品用生命石-84級' WHERE `item_id` = 14008;
-UPDATE `etcitem` SET `name` ='紅色星石萃取石' WHERE `item_id` = 14009;
-UPDATE `etcitem` SET `name` ='藍色星石萃取石' WHERE `item_id` = 14010;
-UPDATE `etcitem` SET `name` ='綠色星石萃取石' WHERE `item_id` = 14011;
-UPDATE `etcitem` SET `name` ='中級紅色星石萃取石' WHERE `item_id` = 14012;
-UPDATE `etcitem` SET `name` ='中級藍色星石萃取石' WHERE `item_id` = 14013;
-UPDATE `etcitem` SET `name` ='中級綠色星石萃取石' WHERE `item_id` = 14014;
-UPDATE `etcitem` SET `name` ='火能量凝結石' WHERE `item_id` = 14015;
-UPDATE `etcitem` SET `name` ='水能量凝結石' WHERE `item_id` = 14016;
-UPDATE `etcitem` SET `name` ='風能量凝結石' WHERE `item_id` = 14017;
-UPDATE `etcitem` SET `name` ='地能量凝結石' WHERE `item_id` = 14018;
-UPDATE `etcitem` SET `name` ='黑暗能量凝結石' WHERE `item_id` = 14019;
-UPDATE `etcitem` SET `name` ='神聖能量凝結石' WHERE `item_id` = 14020;
-UPDATE `etcitem` SET `name` ='中級火能量凝結石' WHERE `item_id` = 14021;
-UPDATE `etcitem` SET `name` ='中級水能量凝結石' WHERE `item_id` = 14022;
-UPDATE `etcitem` SET `name` ='中級風能量凝結石' WHERE `item_id` = 14023;
-UPDATE `etcitem` SET `name` ='中級地能量凝結石' WHERE `item_id` = 14024;
-UPDATE `etcitem` SET `name` ='中級黑暗能量凝結石' WHERE `item_id` = 14025;
-UPDATE `etcitem` SET `name` ='中級神聖能量凝結石' WHERE `item_id` = 14026;
-UPDATE `etcitem` SET `name` ='圖案-體力石' WHERE `item_id` = 14028;
-UPDATE `etcitem` SET `name` ='圖案-瑪那石' WHERE `item_id` = 14029;
-UPDATE `etcitem` SET `name` ='圖案-恢復石' WHERE `item_id` = 14030;
-UPDATE `etcitem` SET `name` ='圖案-破壞石' WHERE `item_id` = 14031;
-UPDATE `etcitem` SET `name` ='圖案-無敵石' WHERE `item_id` = 14032;
-UPDATE `etcitem` SET `name` ='圖案-快速石' WHERE `item_id` = 14033;
-UPDATE `etcitem` SET `name` ='圖案-迅速石' WHERE `item_id` = 14034;
-UPDATE `etcitem` SET `name` ='圖案-集中石' WHERE `item_id` = 14035;
-UPDATE `etcitem` SET `name` ='圖案-悠游石' WHERE `item_id` = 14036;
-UPDATE `etcitem` SET `name` ='圖案-豐饒石' WHERE `item_id` = 14037;
-UPDATE `etcitem` SET `name` ='體力石' WHERE `item_id` = 14038;
-UPDATE `etcitem` SET `name` ='高級體力石' WHERE `item_id` = 14039;
-UPDATE `etcitem` SET `name` ='瑪那石' WHERE `item_id` = 14040;
-UPDATE `etcitem` SET `name` ='高級瑪那石' WHERE `item_id` = 14041;
-UPDATE `etcitem` SET `name` ='恢復石' WHERE `item_id` = 14042;
-UPDATE `etcitem` SET `name` ='高級恢復石' WHERE `item_id` = 14043;
-UPDATE `etcitem` SET `name` ='破壞石' WHERE `item_id` = 14044;
-UPDATE `etcitem` SET `name` ='無敵石' WHERE `item_id` = 14045;
-UPDATE `etcitem` SET `name` ='快速石' WHERE `item_id` = 14046;
-UPDATE `etcitem` SET `name` ='迅速石' WHERE `item_id` = 14047;
-UPDATE `etcitem` SET `name` ='集中石' WHERE `item_id` = 14048;
-UPDATE `etcitem` SET `name` ='悠游石' WHERE `item_id` = 14049;
-UPDATE `etcitem` SET `name` ='豐饒石' WHERE `item_id` = 14050;
-UPDATE `etcitem` SET `name` ='恢復之石' WHERE `item_id` = 14051;
-UPDATE `etcitem` SET `name` ='薄暮貴族強化石' WHERE `item_id` = 14052;
-UPDATE `etcitem` SET `name` ='活力充能飲料' WHERE `item_id` = 14055;
-UPDATE `etcitem` SET `name` ='玩偶騎士召喚項鍊' WHERE `item_id` = 14061;
-UPDATE `etcitem` SET `name` ='精靈術士召喚項鍊' WHERE `item_id` = 14062;
-UPDATE `etcitem` SET `name` ='貓頭鷹術士召喚項鍊' WHERE `item_id` = 14063;
-UPDATE `etcitem` SET `name` ='烏龜道士召喚項鍊' WHERE `item_id` = 14064;
-UPDATE `etcitem` SET `name` ='高級狩獵幫手交換券 5小時' WHERE `item_id` = 14065;
-UPDATE `etcitem` SET `name` ='活力充能飲料-活動用' WHERE `item_id` = 14068;
-UPDATE `etcitem` SET `name` ='高級狩獵幫手交換券-活動用 5小時' WHERE `item_id` = 14074;
-UPDATE `etcitem` SET `name` ='武器用強化輔助石-D級-活動用' WHERE `item_id` = 14078;
-UPDATE `etcitem` SET `name` ='武器用強化輔助石-C級-活動用' WHERE `item_id` = 14079;
-UPDATE `etcitem` SET `name` ='武器用強化輔助石-B級-活動用' WHERE `item_id` = 14080;
-UPDATE `etcitem` SET `name` ='武器用強化輔助石-A級-活動用' WHERE `item_id` = 14081;
-UPDATE `etcitem` SET `name` ='武器用強化輔助石-S級-活動用' WHERE `item_id` = 14082;
-UPDATE `etcitem` SET `name` ='防具用強化輔助石-D級-活動用' WHERE `item_id` = 14083;
-UPDATE `etcitem` SET `name` ='防具用強化輔助石-C級-活動用' WHERE `item_id` = 14084;
-UPDATE `etcitem` SET `name` ='防具用強化輔助石-B級-活動用' WHERE `item_id` = 14085;
-UPDATE `etcitem` SET `name` ='防具用強化輔助石-A級-活動用' WHERE `item_id` = 14086;
-UPDATE `etcitem` SET `name` ='防具用強化輔助石-S級-活動用' WHERE `item_id` = 14087;
-UPDATE `etcitem` SET `name` ='生命石-84級' WHERE `item_id` = 14166;
-UPDATE `etcitem` SET `name` ='中級生命石-84級' WHERE `item_id` = 14167;
-UPDATE `etcitem` SET `name` ='高級生命石-84級' WHERE `item_id` = 14168;
-UPDATE `etcitem` SET `name` ='特級生命石-84級' WHERE `item_id` = 14169;
-UPDATE `etcitem` SET `name` ='遺忘祕傳書-復仇種子' WHERE `item_id` = 14170;
-UPDATE `etcitem` SET `name` ='遺忘祕傳書-地獄狂嘯' WHERE `item_id` = 14171;
-UPDATE `etcitem` SET `name` ='遺忘祕傳書-鳳凰之魂' WHERE `item_id` = 14172;
-UPDATE `etcitem` SET `name` ='遺忘祕傳書-伊娃意志' WHERE `item_id` = 14173;
-UPDATE `etcitem` SET `name` ='遺忘祕傳書-席琳之痛' WHERE `item_id` = 14174;
-UPDATE `etcitem` SET `name` ='遺忘祕傳書-狂熱鬥志' WHERE `item_id` = 14175;
-UPDATE `etcitem` SET `name` ='遺忘祕傳書-御風' WHERE `item_id` = 14176;
-UPDATE `etcitem` SET `name` ='遺忘祕傳書-鬼行' WHERE `item_id` = 14177;
-UPDATE `etcitem` SET `name` ='遺忘祕傳書-火焰之鷹' WHERE `item_id` = 14178;
-UPDATE `etcitem` SET `name` ='遺忘祕傳書-箭雨' WHERE `item_id` = 14179;
-UPDATE `etcitem` SET `name` ='遺忘祕傳書-鬼刺' WHERE `item_id` = 14180;
-UPDATE `etcitem` SET `name` ='遺忘祕傳書-恐懼佈滿' WHERE `item_id` = 14181;
-UPDATE `etcitem` SET `name` ='遺忘祕傳書-毀滅之力' WHERE `item_id` = 14182;
-UPDATE `etcitem` SET `name` ='遺忘祕傳書-壞滅衝擊' WHERE `item_id` = 14183;
-UPDATE `etcitem` SET `name` ='遺忘祕傳書-高崙裝甲' WHERE `item_id` = 14184;
-UPDATE `etcitem` SET `name` ='遺忘祕傳書-野性射擊' WHERE `item_id` = 14185;
-UPDATE `etcitem` SET `name` ='遺忘祕傳書-強雷震盪' WHERE `item_id` = 14186;
-UPDATE `etcitem` SET `name` ='遺忘祕傳書-火焰裝甲' WHERE `item_id` = 14187;
-UPDATE `etcitem` SET `name` ='遺忘祕傳書-寒霜裝甲' WHERE `item_id` = 14188;
-UPDATE `etcitem` SET `name` ='遺忘祕傳書-風暴裝甲' WHERE `item_id` = 14189;
-UPDATE `etcitem` SET `name` ='遺忘祕傳書-吸血迷霧' WHERE `item_id` = 14190;
-UPDATE `etcitem` SET `name` ='遺忘祕傳書-隕石術' WHERE `item_id` = 14191;
-UPDATE `etcitem` SET `name` ='遺忘祕傳書-墜星術' WHERE `item_id` = 14192;
-UPDATE `etcitem` SET `name` ='遺忘祕傳書-崇高自我獻祭' WHERE `item_id` = 14193;
-UPDATE `etcitem` SET `name` ='遺忘祕傳書-伊娃祝福' WHERE `item_id` = 14194;
-UPDATE `etcitem` SET `name` ='遺忘祕傳書-吸血鬼之王' WHERE `item_id` = 14195;
-UPDATE `etcitem` SET `name` ='遺忘祕傳書-霸權纏繞' WHERE `item_id` = 14196;
-UPDATE `etcitem` SET `name` ='遺忘祕傳書-極限封印' WHERE `item_id` = 14197;
-UPDATE `etcitem` SET `name` ='遺忘祕傳書-純淨之歌' WHERE `item_id` = 14198;
-UPDATE `etcitem` SET `name` ='遺忘祕傳書-狂戰士之舞' WHERE `item_id` = 14199;
-UPDATE `etcitem` SET `name` ='遺忘祕傳書-召喚小鳳凰' WHERE `item_id` = 14200;
-UPDATE `etcitem` SET `name` ='遺忘祕傳書-最大凝神聚氣' WHERE `item_id` = 14201;
-UPDATE `etcitem` SET `name` ='遺忘祕傳書-最大波動凝聚' WHERE `item_id` = 14202;
-UPDATE `etcitem` SET `name` ='遺忘祕傳書-武器封鎖' WHERE `item_id` = 14203;
-UPDATE `etcitem` SET `name` ='遺忘祕傳書-貓之靈' WHERE `item_id` = 14204;
-UPDATE `etcitem` SET `name` ='遺忘祕傳書-獨角獸之靈' WHERE `item_id` = 14205;
-UPDATE `etcitem` SET `name` ='遺忘祕傳書-幻影之靈' WHERE `item_id` = 14206;
-UPDATE `etcitem` SET `name` ='遺忘祕傳書-禦魔術' WHERE `item_id` = 14207;
-UPDATE `etcitem` SET `name` ='遺忘祕傳書-最終祕密' WHERE `item_id` = 14208;
-UPDATE `etcitem` SET `name` ='遺忘祕傳書-隱藏' WHERE `item_id` = 14209;
-UPDATE `etcitem` SET `name` ='遺忘祕傳書-精通雙匕首' WHERE `item_id` = 14210;
-UPDATE `etcitem` SET `name` ='遺忘祕傳書-七箭' WHERE `item_id` = 14211;
-UPDATE `etcitem` SET `name` ='遺忘祕傳書-啟蒙-巫師' WHERE `item_id` = 14212;
-UPDATE `etcitem` SET `name` ='遺忘祕傳書-啟蒙-牧師' WHERE `item_id` = 14213;
-UPDATE `etcitem` SET `name` ='遺忘祕傳書-行動頌歌' WHERE `item_id` = 14214;
-UPDATE `etcitem` SET `name` ='遺忘祕傳書-帕格立歐戰鬥' WHERE `item_id` = 14215;
-UPDATE `etcitem` SET `name` ='遺忘祕傳書-帕格立歐致命' WHERE `item_id` = 14216;
-UPDATE `etcitem` SET `name` ='遺忘祕傳書-帕格立歐狀態' WHERE `item_id` = 14217;
-UPDATE `etcitem` SET `name` ='遺忘祕傳書-雙重打擊' WHERE `item_id` = 14218;
-UPDATE `etcitem` SET `name` ='遺忘祕傳書-法師的意志' WHERE `item_id` = 14219;
-UPDATE `etcitem` SET `name` ='遺忘祕傳書-沉默之心' WHERE `item_id` = 14220;
-UPDATE `etcitem` SET `name` ='遺忘祕傳書-石化退返' WHERE `item_id` = 14221;
-UPDATE `etcitem` SET `name` ='遺忘祕傳書-幸運之擊' WHERE `item_id` = 14222;
-UPDATE `etcitem` SET `name` ='遺忘祕傳書-以眼還眼' WHERE `item_id` = 14223;
-UPDATE `etcitem` SET `name` ='遺忘祕傳書-帕黎恩詛咒' WHERE `item_id` = 14224;
-UPDATE `etcitem` SET `name` ='遺忘祕傳書-反制爆擊' WHERE `item_id` = 14225;
-UPDATE `etcitem` SET `name` ='遺忘祕傳書-帕格立歐突擊' WHERE `item_id` = 14226;
-UPDATE `etcitem` SET `name` ='遺忘祕傳書-劇烈暴怒' WHERE `item_id` = 14227;
-UPDATE `etcitem` SET `name` ='怒氣壺精 30日/組' WHERE `item_id` = 14228;
-UPDATE `etcitem` SET `name` ='開心壺精 30日/組' WHERE `item_id` = 14229;
-UPDATE `etcitem` SET `name` ='嗚咽壺精 30日/組' WHERE `item_id` = 14230;
-UPDATE `etcitem` SET `name` ='黃鬃獅子騎乘手鐲 7日/組' WHERE `item_id` = 14231;
-UPDATE `etcitem` SET `name` ='蒸汽甲蟲騎乘手鐲 7日/組' WHERE `item_id` = 14232;
-UPDATE `etcitem` SET `name` ='活力充能飲料1個/組' WHERE `item_id` = 14233;
-UPDATE `etcitem` SET `name` ='雪人變身魔杖 30日/組' WHERE `item_id` = 14234;
-UPDATE `etcitem` SET `name` ='草人變身魔杖 30日/組' WHERE `item_id` = 14235;
-UPDATE `etcitem` SET `name` ='洋鐵高崙變身魔杖 30日/組' WHERE `item_id` = 14236;
-UPDATE `etcitem` SET `name` ='男生泰迪熊壺精 30日/組' WHERE `item_id` = 14237;
-UPDATE `etcitem` SET `name` ='女生泰迪熊壺精 30日/組' WHERE `item_id` = 14238;
-UPDATE `etcitem` SET `name` ='高級狩獵幫手交換券 2張/組' WHERE `item_id` = 14239;
-UPDATE `etcitem` SET `name` ='黃鬃獅子騎乘手鐲 7日/組-活動用' WHERE `item_id` = 14240;
-UPDATE `etcitem` SET `name` ='蒸汽甲蟲騎乘手鐲 7日/組-活動用' WHERE `item_id` = 14241;
-UPDATE `etcitem` SET `name` ='活力充能飲料1個/組-活動用' WHERE `item_id` = 14242;
-UPDATE `etcitem` SET `name` ='雪人變身魔杖 30日/組-活動用' WHERE `item_id` = 14243;
-UPDATE `etcitem` SET `name` ='草人變身魔杖 30日/組-活動用' WHERE `item_id` = 14244;
-UPDATE `etcitem` SET `name` ='洋鐵高崙變身魔杖 30日/組-活動用' WHERE `item_id` = 14245;
-UPDATE `etcitem` SET `name` ='男生泰迪熊壺精 30日/組-活動用' WHERE `item_id` = 14246;
-UPDATE `etcitem` SET `name` ='女生泰迪熊壺精 30日/組-活動用' WHERE `item_id` = 14247;
-UPDATE `etcitem` SET `name` ='高級狩獵幫手交換券 1張/組' WHERE `item_id` = 14248;
-UPDATE `etcitem` SET `name` ='怒氣壺精 30日/組-活動用' WHERE `item_id` = 14249;
-UPDATE `etcitem` SET `name` ='開心壺精 30日/組-活動用' WHERE `item_id` = 14250;
-UPDATE `etcitem` SET `name` ='嗚咽壺精 30日/組-活動用' WHERE `item_id` = 14251;
-UPDATE `etcitem` SET `name` ='武器用強化輔助石-D級/組-活動用' WHERE `item_id` = 14252;
-UPDATE `etcitem` SET `name` ='武器用強化輔助石-C級/組-活動用' WHERE `item_id` = 14253;
-UPDATE `etcitem` SET `name` ='武器用強化輔助石-B級/組-活動用' WHERE `item_id` = 14254;
-UPDATE `etcitem` SET `name` ='武器用強化輔助石-A級/組-活動用' WHERE `item_id` = 14255;
-UPDATE `etcitem` SET `name` ='武器用強化輔助石-S級/組-活動用' WHERE `item_id` = 14256;
-UPDATE `etcitem` SET `name` ='防具用強化輔助石-D級/組-活動用' WHERE `item_id` = 14257;
-UPDATE `etcitem` SET `name` ='防具用強化輔助石-C級/組-活動用' WHERE `item_id` = 14258;
-UPDATE `etcitem` SET `name` ='防具用強化輔助石-B級/組-活動用' WHERE `item_id` = 14259;
-UPDATE `etcitem` SET `name` ='防具用強化輔助石-A級/組-活動用' WHERE `item_id` = 14260;
-UPDATE `etcitem` SET `name` ='防具用強化輔助石-S級/組-活動用' WHERE `item_id` = 14261;
-UPDATE `etcitem` SET `name` ='雪人變身魔杖 7日/組' WHERE `item_id` = 14262;
-UPDATE `etcitem` SET `name` ='草人變身魔杖 7日/組' WHERE `item_id` = 14263;
-UPDATE `etcitem` SET `name` ='洋鐵高崙變身魔杖 7日/組' WHERE `item_id` = 14264;
-UPDATE `etcitem` SET `name` ='男生泰迪熊壺精 7日/組' WHERE `item_id` = 14265;
-UPDATE `etcitem` SET `name` ='女生泰迪熊壺精 7日/組' WHERE `item_id` = 14266;
-UPDATE `etcitem` SET `name` ='怒氣壺精 7日/組' WHERE `item_id` = 14267;
-UPDATE `etcitem` SET `name` ='開心壺精 7日/組' WHERE `item_id` = 14268;
-UPDATE `etcitem` SET `name` ='嗚咽壺精 7日/組' WHERE `item_id` = 14269;
-UPDATE `etcitem` SET `name` ='雪人變身魔杖 7日/組-活動用' WHERE `item_id` = 14270;
-UPDATE `etcitem` SET `name` ='草人變身魔杖 7日/組-活動用' WHERE `item_id` = 14271;
-UPDATE `etcitem` SET `name` ='洋鐵高崙變身魔杖 7日/組-活動用' WHERE `item_id` = 14272;
-UPDATE `etcitem` SET `name` ='男生泰迪熊壺精 7日/組-活動用' WHERE `item_id` = 14273;
-UPDATE `etcitem` SET `name` ='女生泰迪熊壺精 7日/組-活動用' WHERE `item_id` = 14274;
-UPDATE `etcitem` SET `name` ='怒氣壺精 7日/組-活動用' WHERE `item_id` = 14275;
-UPDATE `etcitem` SET `name` ='開心壺精 7日/組-活動用' WHERE `item_id` = 14276;
-UPDATE `etcitem` SET `name` ='嗚咽壺精 7日/組-活動用' WHERE `item_id` = 14277;
-UPDATE `etcitem` SET `name` ='武器用強化輔助石-D級/組' WHERE `item_id` = 14278;
-UPDATE `etcitem` SET `name` ='武器用強化輔助石-C級/組' WHERE `item_id` = 14279;
-UPDATE `etcitem` SET `name` ='武器用強化輔助石-B級/組' WHERE `item_id` = 14280;
-UPDATE `etcitem` SET `name` ='武器用強化輔助石-A級/組' WHERE `item_id` = 14281;
-UPDATE `etcitem` SET `name` ='武器用強化輔助石-S級/組' WHERE `item_id` = 14282;
-UPDATE `etcitem` SET `name` ='防具用強化輔助石-D級/組' WHERE `item_id` = 14283;
-UPDATE `etcitem` SET `name` ='防具用強化輔助石-C級/組' WHERE `item_id` = 14284;
-UPDATE `etcitem` SET `name` ='防具用強化輔助石-B級/組' WHERE `item_id` = 14285;
-UPDATE `etcitem` SET `name` ='防具用強化輔助石-A級/組' WHERE `item_id` = 14286;
-UPDATE `etcitem` SET `name` ='防具用強化輔助石-S級/組' WHERE `item_id` = 14287;
-UPDATE `etcitem` SET `name` ='活力充能飲料 3個/組' WHERE `item_id` = 14288;
-UPDATE `etcitem` SET `name` ='活力充能飲料 3個/組-活動用' WHERE `item_id` = 14289;
-UPDATE `etcitem` SET `name` ='高級狩獵幫手交換券 2張/組-活動用' WHERE `item_id` = 14290;
-UPDATE `etcitem` SET `name` ='高級狩獵幫手交換券 1張/組-活動用' WHERE `item_id` = 14291;
-UPDATE `etcitem` SET `name` ='瑟魯基長劍' WHERE `item_id` = 14292;
-UPDATE `etcitem` SET `name` ='亡者魔杖' WHERE `item_id` = 14293;
-UPDATE `etcitem` SET `name` ='食屍鬼魔杖' WHERE `item_id` = 14294;
-UPDATE `etcitem` SET `name` ='惡魔魔杖' WHERE `item_id` = 14295;
-UPDATE `etcitem` SET `name` ='水晶匕首' WHERE `item_id` = 14296;
-UPDATE `etcitem` SET `name` ='巨型帕塔拳刃' WHERE `item_id` = 14297;
-UPDATE `etcitem` SET `name` ='卓越弓' WHERE `item_id` = 14298;
-UPDATE `etcitem` SET `name` ='歐西斯戰斧' WHERE `item_id` = 14299;
-UPDATE `etcitem` SET `name` ='夜叉釘鎚' WHERE `item_id` = 14300;
-UPDATE `etcitem` SET `name` ='彎刀*彎刀' WHERE `item_id` = 14301;
-UPDATE `etcitem` SET `name` ='狂戰士之刃' WHERE `item_id` = 14302;
-UPDATE `etcitem` SET `name` ='水晶匕首' WHERE `item_id` = 14303;
-UPDATE `etcitem` SET `name` ='日蝕劍' WHERE `item_id` = 14304;
-UPDATE `etcitem` SET `name` ='月蝕斧' WHERE `item_id` = 14305;
-UPDATE `etcitem` SET `name` ='矮人巨鎚' WHERE `item_id` = 14306;
-UPDATE `etcitem` SET `name` ='上將刺劍' WHERE `item_id` = 14307;
-UPDATE `etcitem` SET `name` ='劍齒虎' WHERE `item_id` = 14308;
-UPDATE `etcitem` SET `name` ='滅形弩' WHERE `item_id` = 14309;
-UPDATE `etcitem` SET `name` ='大馬士革刀' WHERE `item_id` = 14310;
-UPDATE `etcitem` SET `name` ='長槍' WHERE `item_id` = 14311;
-UPDATE `etcitem` SET `name` ='亡者榮譽' WHERE `item_id` = 14312;
-UPDATE `etcitem` SET `name` ='工藝戰斧' WHERE `item_id` = 14313;
-UPDATE `etcitem` SET `name` ='邪靈魔杖' WHERE `item_id` = 14314;
-UPDATE `etcitem` SET `name` ='惡魔短劍' WHERE `item_id` = 14315;
-UPDATE `etcitem` SET `name` ='博利恩拳套' WHERE `item_id` = 14316;
-UPDATE `etcitem` SET `name` ='冒險弓' WHERE `item_id` = 14317;
-UPDATE `etcitem` SET `name` ='瑟魯基長劍*瑟魯基長劍' WHERE `item_id` = 14318;
-UPDATE `etcitem` SET `name` ='惡魔短劍' WHERE `item_id` = 14319;
-UPDATE `etcitem` SET `name` ='守護神之劍' WHERE `item_id` = 14320;
-UPDATE `etcitem` SET `name` ='巫師之淚' WHERE `item_id` = 14321;
-UPDATE `etcitem` SET `name` ='卡倚巴奴之骨' WHERE `item_id` = 14322;
-UPDATE `etcitem` SET `name` ='星爆' WHERE `item_id` = 14323;
-UPDATE `etcitem` SET `name` ='華麗細劍' WHERE `item_id` = 14324;
-UPDATE `etcitem` SET `name` ='裂解劍' WHERE `item_id` = 14325;
-UPDATE `etcitem` SET `name` ='冥犬之牙' WHERE `item_id` = 14326;
-UPDATE `etcitem` SET `name` ='希露冰刃' WHERE `item_id` = 14327;
-UPDATE `etcitem` SET `name` ='伊波斯巨劍' WHERE `item_id` = 14328;
-UPDATE `etcitem` SET `name` ='貝拉凱爾聖斧' WHERE `item_id` = 14329;
-UPDATE `etcitem` SET `name` ='貝希莫斯巨叉' WHERE `item_id` = 14330;
-UPDATE `etcitem` SET `name` ='那卡風暴' WHERE `item_id` = 14331;
-UPDATE `etcitem` SET `name` ='岱依封長戟' WHERE `item_id` = 14332;
-UPDATE `etcitem` SET `name` ='夏伊德獵弓' WHERE `item_id` = 14333;
-UPDATE `etcitem` SET `name` ='索貝克颶風' WHERE `item_id` = 14334;
-UPDATE `etcitem` SET `name` ='緹米絲之舌' WHERE `item_id` = 14335;
-UPDATE `etcitem` SET `name` ='卡布里歐之手' WHERE `item_id` = 14336;
-UPDATE `etcitem` SET `name` ='惡魔結晶' WHERE `item_id` = 14337;
-UPDATE `etcitem` SET `name` ='塔魯刀*大馬士革刀' WHERE `item_id` = 14338;
-UPDATE `etcitem` SET `name` ='閃光之珠' WHERE `item_id` = 14339;
-UPDATE `etcitem` SET `name` ='光明守護之劍' WHERE `item_id` = 14340;
-UPDATE `etcitem` SET `name` ='復仇爆弩' WHERE `item_id` = 14341;
-UPDATE `etcitem` SET `name` ='封印項鍊' WHERE `item_id` = 14342;
-UPDATE `etcitem` SET `name` ='娜仙耳環' WHERE `item_id` = 14343;
-UPDATE `etcitem` SET `name` ='封印戒指' WHERE `item_id` = 14344;
-UPDATE `etcitem` SET `name` ='黑光耳環' WHERE `item_id` = 14345;
-UPDATE `etcitem` SET `name` ='黑光戒指' WHERE `item_id` = 14346;
-UPDATE `etcitem` SET `name` ='黑光項鍊' WHERE `item_id` = 14347;
-UPDATE `etcitem` SET `name` ='聖威耳環' WHERE `item_id` = 14348;
-UPDATE `etcitem` SET `name` ='聖威戒指' WHERE `item_id` = 14349;
-UPDATE `etcitem` SET `name` ='聖威項鍊' WHERE `item_id` = 14350;
-UPDATE `etcitem` SET `name` ='格勒西亞紀念幣' WHERE `item_id` = 14351;
-UPDATE `etcitem` SET `name` ='疑問的雕像' WHERE `item_id` = 14352;
-UPDATE `etcitem` SET `name` ='疑問的雕像' WHERE `item_id` = 14353;
-UPDATE `etcitem` SET `name` ='疑問的雕像' WHERE `item_id` = 14354;
-UPDATE `etcitem` SET `name` ='疑問的雕像' WHERE `item_id` = 14355;
-UPDATE `etcitem` SET `name` ='疑問的雕像' WHERE `item_id` = 14356;
-UPDATE `etcitem` SET `name` ='疑問的雕像' WHERE `item_id` = 14357;
-UPDATE `etcitem` SET `name` ='疑問的雕像' WHERE `item_id` = 14358;
-UPDATE `etcitem` SET `name` ='疑問的雕像' WHERE `item_id` = 14359;
-UPDATE `etcitem` SET `name` ='疑問的雕像' WHERE `item_id` = 14360;
-UPDATE `etcitem` SET `name` ='染血的布' WHERE `item_id` = 14361;
-UPDATE `etcitem` SET `name` ='白布' WHERE `item_id` = 14362;
-UPDATE `etcitem` SET `name` ='磨坊工具組' WHERE `item_id` = 14530;
-UPDATE `etcitem` SET `name` ='古魯丁補給箱-魔法別針 S、A級' WHERE `item_id` = 14531;
-UPDATE `etcitem` SET `name` ='狄恩補給箱-魔法別針 S、A級' WHERE `item_id` = 14532;
-UPDATE `etcitem` SET `name` ='奇岩補給箱-魔法別針 S、A級' WHERE `item_id` = 14533;
-UPDATE `etcitem` SET `name` ='歐瑞補給箱-魔法別針 S、A級' WHERE `item_id` = 14534;
-UPDATE `etcitem` SET `name` ='亞丁補給箱-魔法別針 S、A級' WHERE `item_id` = 14535;
-UPDATE `etcitem` SET `name` ='因納得立補給箱-魔法別針 S、A級' WHERE `item_id` = 14536;
-UPDATE `etcitem` SET `name` ='高達特補給箱-魔法別針 S、A級' WHERE `item_id` = 14537;
-UPDATE `etcitem` SET `name` ='魯因補給箱-魔法別針 S、A級' WHERE `item_id` = 14538;
-UPDATE `etcitem` SET `name` ='修加特補給箱-魔法別針 S、A級' WHERE `item_id` = 14539;
-UPDATE `etcitem` SET `name` ='古魯丁補給箱-魔法小袋 S、A級' WHERE `item_id` = 14540;
-UPDATE `etcitem` SET `name` ='狄恩補給箱-魔法小袋 S、A級' WHERE `item_id` = 14541;
-UPDATE `etcitem` SET `name` ='奇岩補給箱-魔法小袋 S、A級' WHERE `item_id` = 14542;
-UPDATE `etcitem` SET `name` ='歐瑞補給箱-魔法小袋 S、A級' WHERE `item_id` = 14543;
-UPDATE `etcitem` SET `name` ='亞丁補給箱-魔法小袋 S、A級' WHERE `item_id` = 14544;
-UPDATE `etcitem` SET `name` ='因納得立補給箱-魔法小袋 S、A級' WHERE `item_id` = 14545;
-UPDATE `etcitem` SET `name` ='高達特補給箱-魔法小袋 S、A級' WHERE `item_id` = 14546;
-UPDATE `etcitem` SET `name` ='魯因補給箱-魔法小袋 S、A級' WHERE `item_id` = 14547;
-UPDATE `etcitem` SET `name` ='修加特補給箱-魔法小袋 S、A級' WHERE `item_id` = 14548;
-UPDATE `etcitem` SET `name` ='古魯丁補給箱-腰帶 S、A級' WHERE `item_id` = 14549;
-UPDATE `etcitem` SET `name` ='狄恩補給箱-腰帶 S、A級' WHERE `item_id` = 14550;
-UPDATE `etcitem` SET `name` ='奇岩補給箱-腰帶 S、A級' WHERE `item_id` = 14551;
-UPDATE `etcitem` SET `name` ='歐瑞補給箱-腰帶 S、A級' WHERE `item_id` = 14552;
-UPDATE `etcitem` SET `name` ='亞丁補給箱-腰帶 S、A級' WHERE `item_id` = 14553;
-UPDATE `etcitem` SET `name` ='因納得立補給箱-腰帶 S、A級' WHERE `item_id` = 14554;
-UPDATE `etcitem` SET `name` ='高達特補給箱-腰帶 S、A級' WHERE `item_id` = 14555;
-UPDATE `etcitem` SET `name` ='魯因補給箱-腰帶 S、A級' WHERE `item_id` = 14556;
-UPDATE `etcitem` SET `name` ='修加特補給箱-腰帶 S、A級' WHERE `item_id` = 14557;
-UPDATE `etcitem` SET `name` ='活動點數' WHERE `item_id` = 14559;
-UPDATE `etcitem` SET `name` ='封印的古代斗篷' WHERE `item_id` = 14603;
-UPDATE `etcitem` SET `name` ='格勒西亞憑證' WHERE `item_id` = 14607;
-UPDATE `etcitem` SET `name` ='聖誕紅色襪子' WHERE `item_id` = 14612;
-UPDATE `etcitem` SET `name` ='聖誕輔助魔法禮物組' WHERE `item_id` = 14614;
-UPDATE `etcitem` SET `name` ='聖誕慶典卷軸-法師型' WHERE `item_id` = 14615;
-UPDATE `etcitem` SET `name` ='聖誕老人的禮物' WHERE `item_id` = 14616;
-UPDATE `etcitem` SET `name` ='壺精封印手鐲-魯道夫' WHERE `item_id` = 14618;
-UPDATE `etcitem` SET `name` ='聖誕老人的武器交換券' WHERE `item_id` = 14619;
-UPDATE `etcitem` SET `name` ='聖誕老人的武器交換券' WHERE `item_id` = 14620;
-UPDATE `etcitem` SET `name` ='下級戰鬥報酬箱' WHERE `item_id` = 14635;
-UPDATE `etcitem` SET `name` ='中級戰鬥報酬箱' WHERE `item_id` = 14636;
-UPDATE `etcitem` SET `name` ='高級戰鬥報酬箱' WHERE `item_id` = 14637;
-UPDATE `etcitem` SET `name` ='特級戰鬥報酬箱' WHERE `item_id` = 14638;
-UPDATE `etcitem` SET `name` ='活動-雙刃大砍刀' WHERE `item_id` = 14639;
-UPDATE `etcitem` SET `name` ='活動-碎骨者' WHERE `item_id` = 14640;
-UPDATE `etcitem` SET `name` ='活動-阿吐巴鎚' WHERE `item_id` = 14641;
-UPDATE `etcitem` SET `name` ='活動-魂靈魔杖' WHERE `item_id` = 14642;
-UPDATE `etcitem` SET `name` ='活動-生命手杖' WHERE `item_id` = 14643;
-UPDATE `etcitem` SET `name` ='活動-阿吐巴釘鎚' WHERE `item_id` = 14644;
-UPDATE `etcitem` SET `name` ='活動-米索莉匕首' WHERE `item_id` = 14645;
-UPDATE `etcitem` SET `name` ='活動-波浪刀' WHERE `item_id` = 14646;
-UPDATE `etcitem` SET `name` ='活動-風暴弓' WHERE `item_id` = 14647;
-UPDATE `etcitem` SET `name` ='活動-闊矛' WHERE `item_id` = 14648;
-UPDATE `etcitem` SET `name` ='活動-精靈長劍' WHERE `item_id` = 14649;
-UPDATE `etcitem` SET `name` ='活動-瑟魯基長劍' WHERE `item_id` = 14650;
-UPDATE `etcitem` SET `name` ='活動-亡者魔杖' WHERE `item_id` = 14651;
-UPDATE `etcitem` SET `name` ='活動-食屍鬼魔杖' WHERE `item_id` = 14652;
-UPDATE `etcitem` SET `name` ='活動-惡魔魔杖' WHERE `item_id` = 14653;
-UPDATE `etcitem` SET `name` ='活動-水晶匕首' WHERE `item_id` = 14654;
-UPDATE `etcitem` SET `name` ='活動-巨型帕塔拳刃' WHERE `item_id` = 14655;
-UPDATE `etcitem` SET `name` ='活動-卓越弓' WHERE `item_id` = 14656;
-UPDATE `etcitem` SET `name` ='活動-歐西斯戰斧' WHERE `item_id` = 14657;
-UPDATE `etcitem` SET `name` ='活動-夜叉釘鎚' WHERE `item_id` = 14658;
-UPDATE `etcitem` SET `name` ='活動-狂戰士之刃' WHERE `item_id` = 14659;
-UPDATE `etcitem` SET `name` ='活動-日蝕劍' WHERE `item_id` = 14660;
-UPDATE `etcitem` SET `name` ='活動-月蝕斧' WHERE `item_id` = 14661;
-UPDATE `etcitem` SET `name` ='活動-矮人巨鎚' WHERE `item_id` = 14662;
-UPDATE `etcitem` SET `name` ='活動-武士刀*武士刀' WHERE `item_id` = 14663;
-UPDATE `etcitem` SET `name` ='魯道夫之鼻' WHERE `item_id` = 14673;
-UPDATE `etcitem` SET `name` ='壺精的新年禮物' WHERE `item_id` = 14676;
-UPDATE `etcitem` SET `name` ='壺精的新年禮物' WHERE `item_id` = 14677;
-UPDATE `etcitem` SET `name` ='新羅之珠-B' WHERE `item_id` = 14678;
-UPDATE `etcitem` SET `name` ='新羅之珠-A' WHERE `item_id` = 14679;
-UPDATE `etcitem` SET `name` ='新羅之珠-S' WHERE `item_id` = 14680;
-UPDATE `etcitem` SET `name` ='新羅之珠-S80' WHERE `item_id` = 14681;
-UPDATE `etcitem` SET `name` ='超強力生命靈藥-普通' WHERE `item_id` = 14682;
-UPDATE `etcitem` SET `name` ='超強力生命靈藥-D級' WHERE `item_id` = 14683;
-UPDATE `etcitem` SET `name` ='超強力生命靈藥-C級' WHERE `item_id` = 14684;
-UPDATE `etcitem` SET `name` ='超強力生命靈藥-B級' WHERE `item_id` = 14685;
-UPDATE `etcitem` SET `name` ='超強力生命靈藥-A級' WHERE `item_id` = 14686;
-UPDATE `etcitem` SET `name` ='超強力生命靈藥-S級' WHERE `item_id` = 14687;
-UPDATE `etcitem` SET `name` ='超強力精神靈藥-普通' WHERE `item_id` = 14688;
-UPDATE `etcitem` SET `name` ='超強力精神靈藥-D級' WHERE `item_id` = 14689;
-UPDATE `etcitem` SET `name` ='超強力精神靈藥-C級' WHERE `item_id` = 14690;
-UPDATE `etcitem` SET `name` ='超強力精神靈藥-B級' WHERE `item_id` = 14691;
-UPDATE `etcitem` SET `name` ='超強力精神靈藥-A級' WHERE `item_id` = 14692;
-UPDATE `etcitem` SET `name` ='超強力精神靈藥-S級' WHERE `item_id` = 14693;
-UPDATE `etcitem` SET `name` ='超強力鬥志靈藥-普通' WHERE `item_id` = 14694;
-UPDATE `etcitem` SET `name` ='超強力鬥志靈藥-D級' WHERE `item_id` = 14695;
-UPDATE `etcitem` SET `name` ='超強力鬥志靈藥-C級' WHERE `item_id` = 14696;
-UPDATE `etcitem` SET `name` ='超強力鬥志靈藥-B級' WHERE `item_id` = 14697;
-UPDATE `etcitem` SET `name` ='超強力鬥志靈藥-A級' WHERE `item_id` = 14698;
-UPDATE `etcitem` SET `name` ='超強力鬥志靈藥-S級' WHERE `item_id` = 14699;
-UPDATE `etcitem` SET `name` ='超強力體力治癒藥水' WHERE `item_id` = 14700;
-UPDATE `etcitem` SET `name` ='超強力瞬間體力治癒藥水' WHERE `item_id` = 14701;
-UPDATE `etcitem` SET `name` ='武器用強化輔助石-D級' WHERE `item_id` = 14702;
-UPDATE `etcitem` SET `name` ='武器用強化輔助石-C級' WHERE `item_id` = 14703;
-UPDATE `etcitem` SET `name` ='武器用強化輔助石-B級' WHERE `item_id` = 14704;
-UPDATE `etcitem` SET `name` ='武器用強化輔助石-A級' WHERE `item_id` = 14705;
-UPDATE `etcitem` SET `name` ='武器用強化輔助石-S級' WHERE `item_id` = 14706;
-UPDATE `etcitem` SET `name` ='防具用強化輔助石-D級' WHERE `item_id` = 14707;
-UPDATE `etcitem` SET `name` ='防具用強化輔助石-C級' WHERE `item_id` = 14708;
-UPDATE `etcitem` SET `name` ='防具用強化輔助石-B級' WHERE `item_id` = 14709;
-UPDATE `etcitem` SET `name` ='防具用強化輔助石-A級' WHERE `item_id` = 14710;
-UPDATE `etcitem` SET `name` ='防具用強化輔助石-S級' WHERE `item_id` = 14711;
-UPDATE `etcitem` SET `name` ='超強力普通靈藥禮盒組' WHERE `item_id` = 14713;
-UPDATE `etcitem` SET `name` ='超強力D級靈藥禮盒組' WHERE `item_id` = 14714;
-UPDATE `etcitem` SET `name` ='超強力C級靈藥禮盒組' WHERE `item_id` = 14715;
-UPDATE `etcitem` SET `name` ='超強力B級靈藥禮盒組' WHERE `item_id` = 14716;
-UPDATE `etcitem` SET `name` ='超強力A級靈藥禮盒組' WHERE `item_id` = 14717;
-UPDATE `etcitem` SET `name` ='超強力S級靈藥禮盒組' WHERE `item_id` = 14718;
-UPDATE `etcitem` SET `name` ='活力充能活動壓縮包' WHERE `item_id` = 14719;
-UPDATE `etcitem` SET `name` ='活動-豬豬幣' WHERE `item_id` = 14720;
-UPDATE `etcitem` SET `name` ='活動-黃金豬豬幣' WHERE `item_id` = 14721;
-UPDATE `etcitem` SET `name` ='活動-邱比特的恢復疲勞劑' WHERE `item_id` = 14722;
-UPDATE `etcitem` SET `name` ='活動-邱比特的強力恢復疲勞劑' WHERE `item_id` = 14723;
-UPDATE `etcitem` SET `name` ='活動-哞哞牛召喚卷軸' WHERE `item_id` = 14724;
-UPDATE `etcitem` SET `name` ='活動-超神牛召喚卷軸' WHERE `item_id` = 14725;
-UPDATE `etcitem` SET `name` ='活動-憂鬱哞哞牛召喚卷軸' WHERE `item_id` = 14726;
-UPDATE `etcitem` SET `name` ='活動-憂鬱超神牛召喚卷軸' WHERE `item_id` = 14727;
-UPDATE `etcitem` SET `name` ='活動-礦石晶體 限時30日' WHERE `item_id` = 14728;
-UPDATE `etcitem` SET `name` ='活動-水晶晶體' WHERE `item_id` = 14729;
-UPDATE `etcitem` SET `name` ='活動-金色水晶晶體碎片' WHERE `item_id` = 14730;
-UPDATE `etcitem` SET `name` ='活動-銀色水晶晶體碎片' WHERE `item_id` = 14731;
-UPDATE `etcitem` SET `name` ='活動-銅色水晶晶體碎片' WHERE `item_id` = 14732;
-UPDATE `etcitem` SET `name` ='活動-褐色水晶晶體碎片' WHERE `item_id` = 14733;
-UPDATE `etcitem` SET `name` ='活動-透明色水晶晶體碎片' WHERE `item_id` = 14734;
-UPDATE `etcitem` SET `name` ='活動-淡紫色水晶晶體碎片' WHERE `item_id` = 14735;
-UPDATE `etcitem` SET `name` ='活動-粉紅色水晶晶體碎片' WHERE `item_id` = 14736;
-UPDATE `etcitem` SET `name` ='活動-暗棕色水晶晶體碎片' WHERE `item_id` = 14737;
-UPDATE `etcitem` SET `name` ='活動-深黑色水晶晶體碎片' WHERE `item_id` = 14738;
-UPDATE `etcitem` SET `name` ='活動-新鮮牛奶' WHERE `item_id` = 14739;
-UPDATE `etcitem` SET `name` ='活動-拯救牛群活動壓縮包' WHERE `item_id` = 14740;
-UPDATE `etcitem` SET `name` ='活動-活力充能藥草茶 5分' WHERE `item_id` = 14741;
-UPDATE `etcitem` SET `name` ='活動-活力充能藥草茶 10分' WHERE `item_id` = 14742;
-UPDATE `etcitem` SET `name` ='活動-活力充能藥草茶 20分' WHERE `item_id` = 14743;
-UPDATE `etcitem` SET `name` ='活動-活力充能藥草茶 30分' WHERE `item_id` = 14744;
-UPDATE `etcitem` SET `name` ='活動-活力充能藥草茶 60分' WHERE `item_id` = 14745;
-UPDATE `etcitem` SET `name` ='活動用-追加入場券-邊緣欲界' WHERE `item_id` = 14765;
-UPDATE `etcitem` SET `name` ='特大白色情人節糖果籃' WHERE `item_id` = 14766;
-UPDATE `etcitem` SET `name` ='白色情人節糖果籃' WHERE `item_id` = 14767;
-UPDATE `etcitem` SET `name` ='白色情人節單身包裹' WHERE `item_id` = 14768;
-UPDATE `etcitem` SET `name` ='白色情人節糖果' WHERE `item_id` = 14769;
-UPDATE `etcitem` SET `name` ='脫離單身祈願燭' WHERE `item_id` = 14770;
-UPDATE `etcitem` SET `name` ='法國麵包藥草' WHERE `item_id` = 14777;
-UPDATE `etcitem` SET `name` ='奶油泡芙藥草' WHERE `item_id` = 14778;
-UPDATE `etcitem` SET `name` ='起司蛋糕藥草' WHERE `item_id` = 14779;
-UPDATE `etcitem` SET `name` ='辣白菜泡菜' WHERE `item_id` = 20000;
-UPDATE `etcitem` SET `name` ='辣白菜泡菜' WHERE `item_id` = 20001;
-UPDATE `etcitem` SET `name` ='辣白菜泡菜' WHERE `item_id` = 20002;
-UPDATE `etcitem` SET `name` ='酸甜白泡菜' WHERE `item_id` = 20003;
-UPDATE `etcitem` SET `name` ='活力人蔘' WHERE `item_id` = 20004;
-UPDATE `etcitem` SET `name` ='活力紅蔘' WHERE `item_id` = 20005;
-UPDATE `etcitem` SET `name` ='自由傳送卷軸' WHERE `item_id` = 20025;
-UPDATE `etcitem` SET `name` ='追加入場券-欲界(深淵之廳)' WHERE `item_id` = 20026;
-UPDATE `etcitem` SET `name` ='追加入場券-近緣欲界' WHERE `item_id` = 20027;
-UPDATE `etcitem` SET `name` ='追加入場券-欲界(深淵迷宮)' WHERE `item_id` = 20028;
-UPDATE `etcitem` SET `name` ='自由傳送旗' WHERE `item_id` = 20033;
-UPDATE `etcitem` SET `name` ='萬聖節糖果-活動用' WHERE `item_id` = 20034;
-UPDATE `etcitem` SET `name` ='媽祖壺精組' WHERE `item_id` = 20035;
-UPDATE `etcitem` SET `name` ='金面媽祖壺精組' WHERE `item_id` = 20036;
-UPDATE `etcitem` SET `name` ='黑面媽祖壺精組' WHERE `item_id` = 20037;
-UPDATE `etcitem` SET `name` ='媽祖壺精 30日/組 大頭' WHERE `item_id` = 20038;
-UPDATE `etcitem` SET `name` ='金面媽祖壺精 30日/組 復活' WHERE `item_id` = 20039;
-UPDATE `etcitem` SET `name` ='黑面媽祖壺精 30日/組 返回' WHERE `item_id` = 20040;
-UPDATE `etcitem` SET `name` ='普萊皮塔壺精組' WHERE `item_id` = 20041;
-UPDATE `etcitem` SET `name` ='普萊皮塔壺精 30日/組 大頭' WHERE `item_id` = 20042;
-UPDATE `etcitem` SET `name` ='普萊皮塔壺精 30日/組 復活' WHERE `item_id` = 20043;
-UPDATE `etcitem` SET `name` ='普萊皮塔壺精 30日/組 返回' WHERE `item_id` = 20044;
-UPDATE `etcitem` SET `name` ='粗框眼鏡組 敏捷術' WHERE `item_id` = 20045;
-UPDATE `etcitem` SET `name` ='爆炸頭組' WHERE `item_id` = 20046;
-UPDATE `etcitem` SET `name` ='爆炸頭組 大頭，煙火' WHERE `item_id` = 20047;
-UPDATE `etcitem` SET `name` ='爆炸頭組 風之疾走' WHERE `item_id` = 20048;
-UPDATE `etcitem` SET `name` ='制服帽組' WHERE `item_id` = 20049;
-UPDATE `etcitem` SET `name` ='刺客斗笠組' WHERE `item_id` = 20050;
-UPDATE `etcitem` SET `name` ='暴走族口罩組' WHERE `item_id` = 20051;
-UPDATE `etcitem` SET `name` ='緞帶髮飾組' WHERE `item_id` = 20052;
-UPDATE `etcitem` SET `name` ='白羽黃金假面組' WHERE `item_id` = 20053;
-UPDATE `etcitem` SET `name` ='自由傳送卷軸 1張/組' WHERE `item_id` = 20054;
-UPDATE `etcitem` SET `name` ='追加入場券-欲界（深淵之廳） 1張/組' WHERE `item_id` = 20055;
-UPDATE `etcitem` SET `name` ='追加入場券-近緣欲界 1張/組' WHERE `item_id` = 20056;
-UPDATE `etcitem` SET `name` ='追加入場券-欲界（深淵迷宮） 1張/組' WHERE `item_id` = 20057;
-UPDATE `etcitem` SET `name` ='淡紫鬃馬手鐲組' WHERE `item_id` = 20058;
-UPDATE `etcitem` SET `name` ='淡紫鬃馬手鐲 30日/組' WHERE `item_id` = 20059;
-UPDATE `etcitem` SET `name` ='戰鬥貓帽組' WHERE `item_id` = 20060;
-UPDATE `etcitem` SET `name` ='骷髏帽組' WHERE `item_id` = 20061;
-UPDATE `etcitem` SET `name` ='自由傳送旗組' WHERE `item_id` = 20062;
-UPDATE `etcitem` SET `name` ='寶寶貓熊壺精組' WHERE `item_id` = 20069;
-UPDATE `etcitem` SET `name` ='團團貓熊壺精組' WHERE `item_id` = 20070;
-UPDATE `etcitem` SET `name` ='圓圓貓熊壺精組' WHERE `item_id` = 20071;
-UPDATE `etcitem` SET `name` ='寶寶貓熊壺精 15日/組 大頭' WHERE `item_id` = 20072;
-UPDATE `etcitem` SET `name` ='團團貓熊壺精 15日/組 復活' WHERE `item_id` = 20073;
-UPDATE `etcitem` SET `name` ='圓圓貓熊壺精 15日/組 返回' WHERE `item_id` = 20074;
-UPDATE `etcitem` SET `name` ='聖誕老人的禮物-喜悅 限時4小時' WHERE `item_id` = 20075;
-UPDATE `etcitem` SET `name` ='聖誕老人的禮物-趣味 限時4小時' WHERE `item_id` = 20076;
-UPDATE `etcitem` SET `name` ='聖誕老人的禮物-幸運 限時4小時' WHERE `item_id` = 20077;
-UPDATE `etcitem` SET `name` ='聖誕老人的禮物-幸運 限時4小時' WHERE `item_id` = 20078;
-UPDATE `etcitem` SET `name` ='幸運福袋組' WHERE `item_id` = 20079;
-UPDATE `etcitem` SET `name` ='幸運四葉草組' WHERE `item_id` = 20080;
-UPDATE `etcitem` SET `name` ='幸運福袋' WHERE `item_id` = 20081;
-UPDATE `etcitem` SET `name` ='幸運四葉草' WHERE `item_id` = 20082;
-UPDATE `etcitem` SET `name` ='聖誕的奇蹟組' WHERE `item_id` = 20092;
-UPDATE `etcitem` SET `name` ='聖誕的奇蹟' WHERE `item_id` = 20093;
-UPDATE `etcitem` SET `name` ='神祕禮服-活動組' WHERE `item_id` = 20096;
-UPDATE `etcitem` SET `name` ='神祕禮服-活動' WHERE `item_id` = 20097;
-UPDATE `etcitem` SET `name` ='聖誕老人的禮物組' WHERE `item_id` = 20101;
-UPDATE `etcitem` SET `name` ='聖誕老人的禮物組' WHERE `item_id` = 20102;
-UPDATE `etcitem` SET `name` ='聖誕慶典卷軸-重裝戰士 限時8小時' WHERE `item_id` = 20103;
-UPDATE `etcitem` SET `name` ='聖誕慶典卷軸-輕裝戰士 限時8小時' WHERE `item_id` = 20104;
-UPDATE `etcitem` SET `name` ='聖誕慶典卷軸-牧師 限時8小時' WHERE `item_id` = 20105;
-UPDATE `etcitem` SET `name` ='聖誕慶典卷軸-巫師 限時8小時' WHERE `item_id` = 20106;
-UPDATE `etcitem` SET `name` ='聖誕老人的武器交換券 限時12小時' WHERE `item_id` = 20107;
-UPDATE `etcitem` SET `name` ='聖誕老人的武器交換券 限時12小時' WHERE `item_id` = 20108;
-UPDATE `etcitem` SET `name` ='追加入場券-近緣欲界 5張/組' WHERE `item_id` = 20179;
-UPDATE `etcitem` SET `name` ='追加入場券-近緣欲界 10張/組' WHERE `item_id` = 20180;
-UPDATE `etcitem` SET `name` ='自由傳送卷軸 5張/組' WHERE `item_id` = 20181;
-UPDATE `etcitem` SET `name` ='自由傳送卷軸 10張/組' WHERE `item_id` = 20182;
-UPDATE `etcitem` SET `name` ='自由傳送旗 5張/組' WHERE `item_id` = 20183;
-UPDATE `etcitem` SET `name` ='自由傳送旗 10張/組' WHERE `item_id` = 20184;
-UPDATE `etcitem` SET `name` ='追加入場券-欲界（深淵之廳） 5張/組' WHERE `item_id` = 20185;
-UPDATE `etcitem` SET `name` ='追加入場券-欲界（深淵迷宮） 5張/組' WHERE `item_id` = 20186;
-UPDATE `etcitem` SET `name` ='追加入場券-欲界（深淵之廳） 10張/組' WHERE `item_id` = 20187;
-UPDATE `etcitem` SET `name` ='追加入場券-欲界（深淵迷宮） 10張/組' WHERE `item_id` = 20188;
-UPDATE `etcitem` SET `name` ='情人節裝飾品組' WHERE `item_id` = 20189;
-UPDATE `etcitem` SET `name` ='情人節裝飾品 限時15日' WHERE `item_id` = 20190;
-UPDATE `etcitem` SET `name` ='情人節祕密咒語' WHERE `item_id` = 20191;
-UPDATE `etcitem` SET `name` ='情人節黑巧克力' WHERE `item_id` = 20192;
-UPDATE `etcitem` SET `name` ='情人節白巧克力' WHERE `item_id` = 20193;
-UPDATE `etcitem` SET `name` ='情人節鮮奶油' WHERE `item_id` = 20194;
-UPDATE `etcitem` SET `name` ='平淡的情人節蛋糕' WHERE `item_id` = 20195;
-UPDATE `etcitem` SET `name` ='普通的情人節蛋糕' WHERE `item_id` = 20196;
-UPDATE `etcitem` SET `name` ='美味的情人節蛋糕' WHERE `item_id` = 20197;
-UPDATE `etcitem` SET `name` ='完美的情人節蛋糕' WHERE `item_id` = 20198;
-UPDATE `etcitem` SET `name` ='夢幻的情人節蛋糕 限時30日' WHERE `item_id` = 20199;
-UPDATE `etcitem` SET `name` ='情人節白色特殊禮品組' WHERE `item_id` = 20210;
-UPDATE `etcitem` SET `name` ='情人節黑色特殊禮品組' WHERE `item_id` = 20211;
-UPDATE `etcitem` SET `name` ='巧克力餅乾' WHERE `item_id` = 20214;
-UPDATE `etcitem` SET `name` ='白色招財貓壺精組' WHERE `item_id` = 20215;
-UPDATE `etcitem` SET `name` ='黑色招財貓壺精組' WHERE `item_id` = 20216;
-UPDATE `etcitem` SET `name` ='棕色招財貓壺精組' WHERE `item_id` = 20217;
-UPDATE `etcitem` SET `name` ='白色招財貓壺精 7日/組 復活' WHERE `item_id` = 20218;
-UPDATE `etcitem` SET `name` ='黑色招財貓壺精 7日/組 返回' WHERE `item_id` = 20219;
-UPDATE `etcitem` SET `name` ='棕色招財貓壺精 7日/組 活力' WHERE `item_id` = 20220;
-UPDATE `etcitem` SET `name` ='獨眼蝙蝠群壺精組' WHERE `item_id` = 20227;
-UPDATE `etcitem` SET `name` ='獨眼蝙蝠群壺精 7日/組 暗之防護' WHERE `item_id` = 20228;
-UPDATE `etcitem` SET `name` ='獨眼蝙蝠群壺精 7日/組 活力' WHERE `item_id` = 20229;
-UPDATE `etcitem` SET `name` ='飛馬壺精組' WHERE `item_id` = 20233;
-UPDATE `etcitem` SET `name` ='飛馬壺精組 7日/組 風之疾走' WHERE `item_id` = 20234;
-UPDATE `etcitem` SET `name` ='飛馬壺精組 7日/組 返回' WHERE `item_id` = 20235;
-UPDATE `etcitem` SET `name` ='黃衣土地公組' WHERE `item_id` = 20239;
-UPDATE `etcitem` SET `name` ='藍衣土地公組' WHERE `item_id` = 20240;
-UPDATE `etcitem` SET `name` ='綠衣土地公組' WHERE `item_id` = 20241;
-UPDATE `etcitem` SET `name` ='黃衣土地公 7日/組 終極治癒術' WHERE `item_id` = 20242;
-UPDATE `etcitem` SET `name` ='藍衣土地公 7日/組 還擊' WHERE `item_id` = 20243;
-UPDATE `etcitem` SET `name` ='綠衣土地公 7日/組 魔力再生' WHERE `item_id` = 20244;
-UPDATE `etcitem` SET `name` ='食人妖壺精組' WHERE `item_id` = 20251;
-UPDATE `etcitem` SET `name` ='愛心壺精組-活動' WHERE `item_id` = 20254;
-UPDATE `etcitem` SET `name` ='法國麵包的遺產' WHERE `item_id` = 20271;
-UPDATE `etcitem` SET `name` ='法國麵包藥草' WHERE `item_id` = 20272;
-UPDATE `etcitem` SET `name` ='奶油泡芙藥草' WHERE `item_id` = 20273;
-UPDATE `etcitem` SET `name` ='起司蛋糕藥草' WHERE `item_id` = 20274;
-UPDATE `etcitem` SET `name` ='法國麵包的遺產-闇天使' WHERE `item_id` = 20277;
-UPDATE `etcitem` SET `name` ='爆炸頭組-金色' WHERE `item_id` = 20278;
-UPDATE `etcitem` SET `name` ='爆炸頭組-粉紅色' WHERE `item_id` = 20279;
-UPDATE `etcitem` SET `name` ='返回卷軸-芙羅蘭村莊' WHERE `item_id` = 20380;
-UPDATE `etcitem` SET `name` ='返回卷軸-奇岩城鎮' WHERE `item_id` = 20381;
-UPDATE `etcitem` SET `name` ='返回卷軸-哈汀學院' WHERE `item_id` = 20382;
-UPDATE `etcitem` SET `name` ='返回卷軸-水上都市海音斯' WHERE `item_id` = 20383;
-UPDATE `etcitem` SET `name` ='返回卷軸-歐瑞城鎮' WHERE `item_id` = 20384;
-UPDATE `etcitem` SET `name` ='返回卷軸-象牙塔' WHERE `item_id` = 20385;
-UPDATE `etcitem` SET `name` ='返回卷軸-獵人村莊' WHERE `item_id` = 20386;
-UPDATE `etcitem` SET `name` ='返回卷軸-亞丁城鎮' WHERE `item_id` = 20387;
-UPDATE `etcitem` SET `name` ='返回卷軸-高達特城鎮' WHERE `item_id` = 20388;
-UPDATE `etcitem` SET `name` ='返回卷軸-魯因城鎮' WHERE `item_id` = 20389;
-UPDATE `etcitem` SET `name` ='返回卷軸-修加特城鎮' WHERE `item_id` = 20390;
-UPDATE `etcitem` SET `name` ='活力維持藥水' WHERE `item_id` = 20391;
-UPDATE `etcitem` SET `name` ='活力充能藥水' WHERE `item_id` = 20392;
-UPDATE `etcitem` SET `name` ='香甜水果雞尾酒' WHERE `item_id` = 20393;
-UPDATE `etcitem` SET `name` ='爽口水果雞尾酒' WHERE `item_id` = 20394;
-UPDATE `etcitem` SET `name` ='蒸汽甲蟲騎乘手鐲組' WHERE `item_id` = 20395;
-UPDATE `etcitem` SET `name` ='初學者升級組' WHERE `item_id` = 20397;
-UPDATE `etcitem` SET `name` ='急速成長組' WHERE `item_id` = 20398;
-UPDATE `etcitem` SET `name` ='勤勞者帽子 7日/組 神佑之體' WHERE `item_id` = 20402;
-UPDATE `etcitem` SET `name` ='勤勞者帽子 7日/組 神佑之魂' WHERE `item_id` = 20403;
-UPDATE `etcitem` SET `name` ='勤勞者帽子組' WHERE `item_id` = 20404;
-UPDATE `etcitem` SET `name` ='金面媽祖壺精 7日/組' WHERE `item_id` = 20451;
-UPDATE `etcitem` SET `name` ='SP古文 30% 5小時/組' WHERE `item_id` = 20554;
-UPDATE `etcitem` SET `name` ='羽毛古文 24小時/組' WHERE `item_id` = 20566;
-UPDATE `etcitem` SET `name` ='小型幸運箱' WHERE `item_id` = 22000;
-UPDATE `etcitem` SET `name` ='中型幸運箱' WHERE `item_id` = 22001;
-UPDATE `etcitem` SET `name` ='大型幸運箱' WHERE `item_id` = 22002;
-UPDATE `etcitem` SET `name` ='小型幸運晶體' WHERE `item_id` = 22003;
-UPDATE `etcitem` SET `name` ='中型幸運晶體' WHERE `item_id` = 22004;
-UPDATE `etcitem` SET `name` ='大型幸運晶體' WHERE `item_id` = 22005;
-UPDATE `etcitem` SET `name` ='武器強化卷軸-D級' WHERE `item_id` = 22006;
-UPDATE `etcitem` SET `name` ='武器強化卷軸-C級' WHERE `item_id` = 22007;
-UPDATE `etcitem` SET `name` ='武器強化卷軸-B級' WHERE `item_id` = 22008;
-UPDATE `etcitem` SET `name` ='武器強化卷軸-A級' WHERE `item_id` = 22009;
-UPDATE `etcitem` SET `name` ='防具強化卷軸-D級' WHERE `item_id` = 22010;
-UPDATE `etcitem` SET `name` ='防具強化卷軸-C級' WHERE `item_id` = 22011;
-UPDATE `etcitem` SET `name` ='防具強化卷軸-B級' WHERE `item_id` = 22012;
-UPDATE `etcitem` SET `name` ='防具強化卷軸-A級' WHERE `item_id` = 22013;
-UPDATE `etcitem` SET `name` ='古代武器強化結晶-B級' WHERE `item_id` = 22014;
-UPDATE `etcitem` SET `name` ='古代武器強化結晶-A級' WHERE `item_id` = 22015;
-UPDATE `etcitem` SET `name` ='古代防具強化結晶-B級' WHERE `item_id` = 22016;
-UPDATE `etcitem` SET `name` ='古代防具強化結晶-A級' WHERE `item_id` = 22017;
-UPDATE `etcitem` SET `name` ='神聖武器強化結晶-B級' WHERE `item_id` = 22018;
-UPDATE `etcitem` SET `name` ='神聖武器強化結晶-A級' WHERE `item_id` = 22019;
-UPDATE `etcitem` SET `name` ='神聖防具強化結晶-B級' WHERE `item_id` = 22020;
-UPDATE `etcitem` SET `name` ='神聖防具強化結晶-A級' WHERE `item_id` = 22021;
-UPDATE `etcitem` SET `name` ='強力攻擊加速藥水' WHERE `item_id` = 22022;
-UPDATE `etcitem` SET `name` ='強力移動加速藥水' WHERE `item_id` = 22023;
-UPDATE `etcitem` SET `name` ='瞬間體力治癒藥水' WHERE `item_id` = 22024;
-UPDATE `etcitem` SET `name` ='終極治癒藥水' WHERE `item_id` = 22025;
-UPDATE `etcitem` SET `name` ='強力體力治癒藥水' WHERE `item_id` = 22026;
-UPDATE `etcitem` SET `name` ='鬥志靈藥-D級' WHERE `item_id` = 22027;
-UPDATE `etcitem` SET `name` ='鬥志靈藥-C級' WHERE `item_id` = 22028;
-UPDATE `etcitem` SET `name` ='鬥志靈藥-B級' WHERE `item_id` = 22029;
-UPDATE `etcitem` SET `name` ='鬥志靈藥-A級' WHERE `item_id` = 22030;
-UPDATE `etcitem` SET `name` ='鬥志靈藥-S級' WHERE `item_id` = 22031;
-UPDATE `etcitem` SET `name` ='生命靈藥-D級' WHERE `item_id` = 22032;
-UPDATE `etcitem` SET `name` ='生命靈藥-C級' WHERE `item_id` = 22033;
-UPDATE `etcitem` SET `name` ='生命靈藥-B級' WHERE `item_id` = 22034;
-UPDATE `etcitem` SET `name` ='生命靈藥-A級' WHERE `item_id` = 22035;
-UPDATE `etcitem` SET `name` ='生命靈藥-S級' WHERE `item_id` = 22036;
-UPDATE `etcitem` SET `name` ='鬥志藥水' WHERE `item_id` = 22037;
-UPDATE `etcitem` SET `name` ='魔力治癒藥水' WHERE `item_id` = 22038;
-UPDATE `etcitem` SET `name` ='風之疾走卷軸' WHERE `item_id` = 22039;
-UPDATE `etcitem` SET `name` ='速度激發卷軸' WHERE `item_id` = 22040;
-UPDATE `etcitem` SET `name` ='力量強化卷軸' WHERE `item_id` = 22041;
-UPDATE `etcitem` SET `name` ='保護盾卷軸' WHERE `item_id` = 22042;
-UPDATE `etcitem` SET `name` ='死之呢喃卷軸' WHERE `item_id` = 22043;
-UPDATE `etcitem` SET `name` ='導引卷軸' WHERE `item_id` = 22044;
-UPDATE `etcitem` SET `name` ='魔力催化卷軸' WHERE `item_id` = 22045;
-UPDATE `etcitem` SET `name` ='靈活思緒卷軸' WHERE `item_id` = 22046;
-UPDATE `etcitem` SET `name` ='吸血怒擊卷軸' WHERE `item_id` = 22047;
-UPDATE `etcitem` SET `name` ='神佑之體卷軸' WHERE `item_id` = 22048;
-UPDATE `etcitem` SET `name` ='狂戰士魂卷軸' WHERE `item_id` = 22049;
-UPDATE `etcitem` SET `name` ='魔法屏障卷軸' WHERE `item_id` = 22050;
-UPDATE `etcitem` SET `name` ='神佑之魂卷軸' WHERE `item_id` = 22051;
-UPDATE `etcitem` SET `name` ='澄澈思緒卷軸' WHERE `item_id` = 22052;
-UPDATE `etcitem` SET `name` ='野性魔力卷軸' WHERE `item_id` = 22053;
-UPDATE `etcitem` SET `name` ='經驗值古文 限時24小時' WHERE `item_id` = 22054;
-UPDATE `etcitem` SET `name` ='經驗值古文 限時168小時' WHERE `item_id` = 22055;
-UPDATE `etcitem` SET `name` ='經驗值古文 限時336小時' WHERE `item_id` = 22056;
-UPDATE `etcitem` SET `name` ='經驗值古文 限時720小時' WHERE `item_id` = 22057;
-UPDATE `etcitem` SET `name` ='SP古文 限時24小時' WHERE `item_id` = 22058;
-UPDATE `etcitem` SET `name` ='SP古文 限時168小時' WHERE `item_id` = 22059;
-UPDATE `etcitem` SET `name` ='SP古文 限時336小時' WHERE `item_id` = 22060;
-UPDATE `etcitem` SET `name` ='SP古文 限時720小時' WHERE `item_id` = 22061;
-UPDATE `etcitem` SET `name` ='結晶型古文 限時24小時' WHERE `item_id` = 22062;
-UPDATE `etcitem` SET `name` ='結晶型古文 限時168小時' WHERE `item_id` = 22063;
-UPDATE `etcitem` SET `name` ='結晶型古文 限時336小時' WHERE `item_id` = 22064;
-UPDATE `etcitem` SET `name` ='結晶型古文 限時720小時' WHERE `item_id` = 22065;
-UPDATE `etcitem` SET `name` ='羽毛古文 限時24小時' WHERE `item_id` = 22066;
-UPDATE `etcitem` SET `name` ='骨箭' WHERE `item_id` = 22067;
-UPDATE `etcitem` SET `name` ='鐵箭' WHERE `item_id` = 22068;
-UPDATE `etcitem` SET `name` ='銀箭' WHERE `item_id` = 22069;
-UPDATE `etcitem` SET `name` ='米索莉之箭' WHERE `item_id` = 22070;
-UPDATE `etcitem` SET `name` ='閃耀箭' WHERE `item_id` = 22071;
-UPDATE `etcitem` SET `name` ='祝福的魔靈彈-D級' WHERE `item_id` = 22072;
-UPDATE `etcitem` SET `name` ='祝福的魔靈彈-C級' WHERE `item_id` = 22073;
-UPDATE `etcitem` SET `name` ='祝福的魔靈彈-B級' WHERE `item_id` = 22074;
-UPDATE `etcitem` SET `name` ='祝福的魔靈彈-A級' WHERE `item_id` = 22075;
-UPDATE `etcitem` SET `name` ='祝福的魔靈彈-S級' WHERE `item_id` = 22076;
-UPDATE `etcitem` SET `name` ='魔靈彈-D級' WHERE `item_id` = 22077;
-UPDATE `etcitem` SET `name` ='魔靈彈-C級' WHERE `item_id` = 22078;
-UPDATE `etcitem` SET `name` ='魔靈彈-B級' WHERE `item_id` = 22079;
-UPDATE `etcitem` SET `name` ='魔靈彈-A級' WHERE `item_id` = 22080;
-UPDATE `etcitem` SET `name` ='魔靈彈-S級' WHERE `item_id` = 22081;
-UPDATE `etcitem` SET `name` ='靈魂彈-D級' WHERE `item_id` = 22082;
-UPDATE `etcitem` SET `name` ='靈魂彈-C級' WHERE `item_id` = 22083;
-UPDATE `etcitem` SET `name` ='靈魂彈-B級' WHERE `item_id` = 22084;
-UPDATE `etcitem` SET `name` ='靈魂彈-A級' WHERE `item_id` = 22085;
-UPDATE `etcitem` SET `name` ='靈魂彈-S級' WHERE `item_id` = 22086;
-UPDATE `etcitem` SET `name` ='戰士卷軸冊' WHERE `item_id` = 22087;
-UPDATE `etcitem` SET `name` ='法師卷軸冊' WHERE `item_id` = 22088;
-UPDATE `etcitem` SET `name` ='骨箭筒' WHERE `item_id` = 22089;
-UPDATE `etcitem` SET `name` ='鐵箭筒' WHERE `item_id` = 22090;
-UPDATE `etcitem` SET `name` ='銀箭筒' WHERE `item_id` = 22091;
-UPDATE `etcitem` SET `name` ='米索莉之箭筒' WHERE `item_id` = 22092;
-UPDATE `etcitem` SET `name` ='閃耀箭筒' WHERE `item_id` = 22093;
-UPDATE `etcitem` SET `name` ='祝福的魔靈彈組-D級' WHERE `item_id` = 22094;
-UPDATE `etcitem` SET `name` ='祝福的魔靈彈組-C級' WHERE `item_id` = 22095;
-UPDATE `etcitem` SET `name` ='祝福的魔靈彈組-B級' WHERE `item_id` = 22096;
-UPDATE `etcitem` SET `name` ='祝福的魔靈彈組-A級' WHERE `item_id` = 22097;
-UPDATE `etcitem` SET `name` ='祝福的魔靈彈組-S級' WHERE `item_id` = 22098;
-UPDATE `etcitem` SET `name` ='魔靈彈組-D級' WHERE `item_id` = 22099;
-UPDATE `etcitem` SET `name` ='魔靈彈組-C級' WHERE `item_id` = 22100;
-UPDATE `etcitem` SET `name` ='魔靈彈組-B級' WHERE `item_id` = 22101;
-UPDATE `etcitem` SET `name` ='魔靈彈組-A級' WHERE `item_id` = 22102;
-UPDATE `etcitem` SET `name` ='魔靈彈組-S級' WHERE `item_id` = 22103;
-UPDATE `etcitem` SET `name` ='靈魂彈組-D級' WHERE `item_id` = 22104;
-UPDATE `etcitem` SET `name` ='靈魂彈組-C級' WHERE `item_id` = 22105;
-UPDATE `etcitem` SET `name` ='靈魂彈組-B級' WHERE `item_id` = 22106;
-UPDATE `etcitem` SET `name` ='靈魂彈組-A級' WHERE `item_id` = 22107;
-UPDATE `etcitem` SET `name` ='靈魂彈組-S級' WHERE `item_id` = 22108;
-UPDATE `etcitem` SET `name` ='祝福的魔靈彈大型組合包-D級' WHERE `item_id` = 22109;
-UPDATE `etcitem` SET `name` ='祝福的魔靈彈大型組合包-C級' WHERE `item_id` = 22110;
-UPDATE `etcitem` SET `name` ='祝福的魔靈彈大型組合包-B級' WHERE `item_id` = 22111;
-UPDATE `etcitem` SET `name` ='祝福的魔靈彈大型組合包-A級' WHERE `item_id` = 22112;
-UPDATE `etcitem` SET `name` ='祝福的魔靈彈大型組合包-S級' WHERE `item_id` = 22113;
-UPDATE `etcitem` SET `name` ='魔靈彈大型組合包-D級' WHERE `item_id` = 22114;
-UPDATE `etcitem` SET `name` ='魔靈彈大型組合包-C級' WHERE `item_id` = 22115;
-UPDATE `etcitem` SET `name` ='魔靈彈大型組合包-B級' WHERE `item_id` = 22116;
-UPDATE `etcitem` SET `name` ='魔靈彈大型組合包-A級' WHERE `item_id` = 22117;
-UPDATE `etcitem` SET `name` ='魔靈彈大型組合包-S級' WHERE `item_id` = 22118;
-UPDATE `etcitem` SET `name` ='靈魂彈大型組合包-D級' WHERE `item_id` = 22119;
-UPDATE `etcitem` SET `name` ='靈魂彈大型組合包-C級' WHERE `item_id` = 22120;
-UPDATE `etcitem` SET `name` ='靈魂彈大型組合包-B級' WHERE `item_id` = 22121;
-UPDATE `etcitem` SET `name` ='靈魂彈大型組合包-A級' WHERE `item_id` = 22122;
-UPDATE `etcitem` SET `name` ='靈魂彈大型組合包-S級' WHERE `item_id` = 22123;
-UPDATE `etcitem` SET `name` ='包裝的雛菊髮飾' WHERE `item_id` = 22124;
-UPDATE `etcitem` SET `name` ='包裝的勿忘草髮飾' WHERE `item_id` = 22125;
-UPDATE `etcitem` SET `name` ='包裝的無法者眼罩' WHERE `item_id` = 22126;
-UPDATE `etcitem` SET `name` ='包裝的海盜眼罩' WHERE `item_id` = 22127;
-UPDATE `etcitem` SET `name` ='包裝的單片眼鏡' WHERE `item_id` = 22128;
-UPDATE `etcitem` SET `name` ='包裝的紅魔鬼面具' WHERE `item_id` = 22129;
-UPDATE `etcitem` SET `name` ='包裝的勝利者尖角' WHERE `item_id` = 22130;
-UPDATE `etcitem` SET `name` ='包裝的舞會面具' WHERE `item_id` = 22131;
-UPDATE `etcitem` SET `name` ='包裝的紅色舞會面具' WHERE `item_id` = 22132;
-UPDATE `etcitem` SET `name` ='包裝的貓耳' WHERE `item_id` = 22133;
-UPDATE `etcitem` SET `name` ='包裝的名媛髮飾' WHERE `item_id` = 22134;
-UPDATE `etcitem` SET `name` ='包裝的狸耳' WHERE `item_id` = 22135;
-UPDATE `etcitem` SET `name` ='包裝的兔耳' WHERE `item_id` = 22136;
-UPDATE `etcitem` SET `name` ='包裝的小天使之翼' WHERE `item_id` = 22137;
-UPDATE `etcitem` SET `name` ='包裝的小妖精觸角' WHERE `item_id` = 22138;
-UPDATE `etcitem` SET `name` ='包裝的吟遊詩人帽' WHERE `item_id` = 22139;
-UPDATE `etcitem` SET `name` ='包裝的工匠的護目鏡' WHERE `item_id` = 22140;
-UPDATE `etcitem` SET `name` ='包裝的寵物交換券-野牛' WHERE `item_id` = 22141;
-UPDATE `etcitem` SET `name` ='包裝的寵物交換券-老虎' WHERE `item_id` = 22142;
-UPDATE `etcitem` SET `name` ='包裝的寵物交換券-笑翠鳥' WHERE `item_id` = 22143;
-UPDATE `etcitem` SET `name` ='骨製弩箭' WHERE `item_id` = 22144;
-UPDATE `etcitem` SET `name` ='鋼鐵弩箭' WHERE `item_id` = 22145;
-UPDATE `etcitem` SET `name` ='銀弩箭' WHERE `item_id` = 22146;
-UPDATE `etcitem` SET `name` ='米索莉弩箭' WHERE `item_id` = 22147;
-UPDATE `etcitem` SET `name` ='閃耀弩箭' WHERE `item_id` = 22148;
-UPDATE `etcitem` SET `name` ='骨製弩箭筒' WHERE `item_id` = 22149;
-UPDATE `etcitem` SET `name` ='鋼鐵弩箭筒' WHERE `item_id` = 22150;
-UPDATE `etcitem` SET `name` ='銀弩箭筒' WHERE `item_id` = 22151;
-UPDATE `etcitem` SET `name` ='米索莉弩箭筒' WHERE `item_id` = 22152;
-UPDATE `etcitem` SET `name` ='閃耀弩箭筒' WHERE `item_id` = 22153;
-UPDATE `etcitem` SET `name` ='紅色相撲選手壺精組' WHERE `item_id` = 20280;
-UPDATE `etcitem` SET `name` ='紅色相撲選手壺精 7日/組 死之呢喃' WHERE `item_id` = 20281;
-UPDATE `etcitem` SET `name` ='藍色相撲選手壺精組' WHERE `item_id` = 20282;
-UPDATE `etcitem` SET `name` ='藍色相撲選手壺精 7日/組 野性魔力' WHERE `item_id` = 20283;
-UPDATE `etcitem` SET `name` ='相撲大決鬥壺精組' WHERE `item_id` = 20284;
-UPDATE `etcitem` SET `name` ='相撲大決鬥壺精 7日/組 大頭 / 煙火' WHERE `item_id` = 20285;
-UPDATE `etcitem` SET `name` ='玩偶熊壺精組' WHERE `item_id` = 20286;
-UPDATE `etcitem` SET `name` ='玩偶熊壺精 7日/組 返回' WHERE `item_id` = 20287;
-UPDATE `etcitem` SET `name` ='玩偶熊壺精 7日/組 復活' WHERE `item_id` = 20288;
-UPDATE `etcitem` SET `name` ='玩偶熊壺精 7日/組 活力' WHERE `item_id` = 20289;
-UPDATE `etcitem` SET `name` ='財神爺壺精組' WHERE `item_id` = 20290;
-UPDATE `etcitem` SET `name` ='財神爺壺精 7日/組 活力' WHERE `item_id` = 20291;
-UPDATE `etcitem` SET `name` ='樹精壺精組' WHERE `item_id` = 20292;
-UPDATE `etcitem` SET `name` ='元寶牛壺精組' WHERE `item_id` = 20293;
-UPDATE `etcitem` SET `name` ='元寶牛壺精 7日/組 風之疾走' WHERE `item_id` = 20294;
-UPDATE `etcitem` SET `name` ='吉利牛壺精組' WHERE `item_id` = 20295;
-UPDATE `etcitem` SET `name` ='吉利牛壺精 7日/組 拜年禮物' WHERE `item_id` = 20296;
-UPDATE `etcitem` SET `name` ='生日蛋糕組 活力' WHERE `item_id` = 20314;
-UPDATE `etcitem` SET `name` ='護目鏡組' WHERE `item_id` = 20315;
-UPDATE `etcitem` SET `name` ='拿破崙帽組' WHERE `item_id` = 20316;
-UPDATE `etcitem` SET `name` ='牛角髮飾組' WHERE `item_id` = 20317;
-UPDATE `etcitem` SET `name` ='黑寶石面具組' WHERE `item_id` = 20318;
-UPDATE `etcitem` SET `name` ='塑膠假髮組' WHERE `item_id` = 20319;
-UPDATE `etcitem` SET `name` ='生日蛋糕 活力-限時24小時' WHERE `item_id` = 20320;
-UPDATE `etcitem` SET `name` ='野獸靈魂彈組' WHERE `item_id` = 20326;
-UPDATE `etcitem` SET `name` ='野獸魔靈彈組' WHERE `item_id` = 20327;
-UPDATE `etcitem` SET `name` ='祝福的野獸魔靈彈組' WHERE `item_id` = 20328;
-UPDATE `etcitem` SET `name` ='野獸靈魂彈大型組合包' WHERE `item_id` = 20329;
-UPDATE `etcitem` SET `name` ='野獸魔靈彈大型組合包' WHERE `item_id` = 20330;
-UPDATE `etcitem` SET `name` ='祝福的野獸魔靈彈大型組合包' WHERE `item_id` = 20331;
-UPDATE `etcitem` SET `name` ='野獸靈魂彈' WHERE `item_id` = 20332;
-UPDATE `etcitem` SET `name` ='野獸魔靈彈' WHERE `item_id` = 20333;
-UPDATE `etcitem` SET `name` ='祝福的野獸魔靈彈' WHERE `item_id` = 20334;
-UPDATE `etcitem` SET `name` ='經驗值古文 30% 限時5小時' WHERE `item_id` = 20335;
-UPDATE `etcitem` SET `name` ='經驗值古文 50% 限時5小時' WHERE `item_id` = 20336;
-UPDATE `etcitem` SET `name` ='經驗值古文 30% 限時10小時' WHERE `item_id` = 20337;
-UPDATE `etcitem` SET `name` ='經驗值古文 50% 限時10小時' WHERE `item_id` = 20338;
-UPDATE `etcitem` SET `name` ='經驗值古文 30% 限時7日' WHERE `item_id` = 20339;
-UPDATE `etcitem` SET `name` ='經驗值古文 50% 限時7日' WHERE `item_id` = 20340;
-UPDATE `etcitem` SET `name` ='SP古文 30% 限時5小時' WHERE `item_id` = 20341;
-UPDATE `etcitem` SET `name` ='SP古文 50% 限時5小時' WHERE `item_id` = 20342;
-UPDATE `etcitem` SET `name` ='SP古文 30% 限時10小時' WHERE `item_id` = 20343;
-UPDATE `etcitem` SET `name` ='SP古文 50% 限時10小時' WHERE `item_id` = 20344;
-UPDATE `etcitem` SET `name` ='SP古文 30% 限時7日' WHERE `item_id` = 20345;
-UPDATE `etcitem` SET `name` ='SP古文 50% 限時7日' WHERE `item_id` = 20346;
-UPDATE `etcitem` SET `name` ='結晶型古文 3級 限時5小時' WHERE `item_id` = 20347;
-UPDATE `etcitem` SET `name` ='結晶型古文 5級 限時5小時' WHERE `item_id` = 20348;
-UPDATE `etcitem` SET `name` ='結晶型古文 3級 限時10小時' WHERE `item_id` = 20349;
-UPDATE `etcitem` SET `name` ='結晶型古文 5級 限時10小時' WHERE `item_id` = 20350;
-UPDATE `etcitem` SET `name` ='結晶型古文 3級 限時7日' WHERE `item_id` = 20351;
-UPDATE `etcitem` SET `name` ='結晶型古文 5級 限時7日' WHERE `item_id` = 20352;
-UPDATE `etcitem` SET `name` ='強力鬥志藥水' WHERE `item_id` = 20353;
-UPDATE `etcitem` SET `name` ='鬥志靈藥-D級' WHERE `item_id` = 20354;
-UPDATE `etcitem` SET `name` ='鬥志靈藥-C級' WHERE `item_id` = 20355;
-UPDATE `etcitem` SET `name` ='鬥志靈藥-B級' WHERE `item_id` = 20356;
-UPDATE `etcitem` SET `name` ='鬥志靈藥-A級' WHERE `item_id` = 20357;
-UPDATE `etcitem` SET `name` ='鬥志靈藥-S級' WHERE `item_id` = 20358;
-UPDATE `etcitem` SET `name` ='生命靈藥-D級' WHERE `item_id` = 20359;
-UPDATE `etcitem` SET `name` ='生命靈藥-C級' WHERE `item_id` = 20360;
-UPDATE `etcitem` SET `name` ='生命靈藥-B級' WHERE `item_id` = 20361;
-UPDATE `etcitem` SET `name` ='生命靈藥-A級' WHERE `item_id` = 20362;
-UPDATE `etcitem` SET `name` ='生命靈藥-S級' WHERE `item_id` = 20363;
-UPDATE `etcitem` SET `name` ='瑪瑙獸變身卷軸' WHERE `item_id` = 20364;
-UPDATE `etcitem` SET `name` ='死亡之刃變身卷軸' WHERE `item_id` = 20365;
-UPDATE `etcitem` SET `name` ='門徒聖杯變身卷軸' WHERE `item_id` = 20366;
-UPDATE `etcitem` SET `name` ='獨角獸變身卷軸' WHERE `item_id` = 20367;
-UPDATE `etcitem` SET `name` ='莉莉恩騎士變身卷軸' WHERE `item_id` = 20368;
-UPDATE `etcitem` SET `name` ='高崙守護者變身卷軸' WHERE `item_id` = 20369;
-UPDATE `etcitem` SET `name` ='煉獄龍獸變身卷軸' WHERE `item_id` = 20370;
-UPDATE `etcitem` SET `name` ='暴烈龍變身卷軸' WHERE `item_id` = 20371;
-UPDATE `etcitem` SET `name` ='返回卷軸-說話之島' WHERE `item_id` = 20372;
-UPDATE `etcitem` SET `name` ='返回卷軸-精靈村莊' WHERE `item_id` = 20373;
-UPDATE `etcitem` SET `name` ='返回卷軸-黑暗精靈村莊' WHERE `item_id` = 20374;
-UPDATE `etcitem` SET `name` ='返回卷軸-半獸人村莊' WHERE `item_id` = 20375;
-UPDATE `etcitem` SET `name` ='返回卷軸-矮人村莊' WHERE `item_id` = 20376;
-UPDATE `etcitem` SET `name` ='返回卷軸-古魯丁村莊' WHERE `item_id` = 20377;
-UPDATE `etcitem` SET `name` ='返回卷軸-古魯丁城鎮' WHERE `item_id` = 20378;
-UPDATE `etcitem` SET `name` ='返回卷軸-狄恩城鎮' WHERE `item_id` = 20379;
-
-/***** Done by vdmyagami！ *****/
+-- ----------------------------
+-- Records of etcitem_name
+-- ----------------------------
+INSERT INTO `etcitem_name` VALUES
+(17, '木箭'),
+(53, '(不使用)'),
+(54, '(不使用)'),
+(55, '開心壺精 7日/組-活動用'),
+(56, '嗚咽壺精 7日/組-活動用'),
+(57, '金幣'),
+(65, '紅色藥水'),
+(136, '(不使用)'),
+(137, '(不使用)'),
+(138, '(不使用)'),
+(139, '怒氣壺精 7日/組'),
+(140, '開心壺精 7日/組'),
+(141, '嗚咽壺精 7日/組'),
+(163, '(不使用)'),
+(170, '怒氣壺精 7日/組-活動用'),
+(686, '椅子'),
+(687, '達靈的信函'),
+(688, '拉普吉兒的手帕'),
+(689, '阿路基恩的詩集'),
+(690, '何布帝恩的歌詞集'),
+(691, '羅曼史小說'),
+(692, '阿路基恩的信函'),
+(693, '葛雷妮絲的信'),
+(694, '材料明細'),
+(695, '瑪瑙獸的血'),
+(696, '瑪那吸血鬼的皮'),
+(697, '翼魔的角'),
+(698, '吉伯特的名單'),
+(699, '獸人的鼻子'),
+(700, '哈柏哥布林骨符'),
+(701, '蘑菇汁'),
+(702, '狼皮'),
+(703, '巨大蜘蛛的毒囊'),
+(704, '退燒藥'),
+(705, '獸人的羽毛護身符'),
+(706, '邪惡蜥蜴之爪'),
+(707, '蘑菇孢囊'),
+(708, '精靈頭飾'),
+(709, '皮襯衫'),
+(710, '硬皮襯衫'),
+(711, '骨片胸甲'),
+(712, '半身盔甲'),
+(713, '皮褲'),
+(714, '硬皮褲'),
+(715, '骨片脛甲'),
+(716, '金屬脛甲'),
+(717, '皮手套'),
+(718, '硬皮手套'),
+(719, '高級皮手套'),
+(720, '強化手套'),
+(721, '皮靴'),
+(722, '硬皮靴'),
+(723, '高級皮靴'),
+(724, '強化靴'),
+(725, '體力治癒輔助藥水'),
+(726, '魔力治癒輔助藥水'),
+(727, '高級體力治癒藥水'),
+(728, '魔力治癒藥水'),
+(729, '武器強化卷軸-A級'),
+(730, '防具強化卷軸-A級'),
+(731, '武器強化結晶卷軸-A級'),
+(732, '防具強化結晶卷軸-A級'),
+(733, '奮鬥藥水'),
+(734, '移動加速藥水'),
+(735, '攻擊加速藥水'),
+(736, '返回卷軸'),
+(737, '復活卷軸'),
+(739, '斷劍之柄'),
+(740, '斷裂的刀身'),
+(741, '斷裂的刀鋒'),
+(742, '阿爾特蘭的紙條'),
+(745, '科班得的治癒藥'),
+(746, '艾貝里烏斯的清單'),
+(750, '緣份水晶'),
+(751, '破碎的緣份水晶'),
+(752, '獸人的羽毛護身符'),
+(753, '銀光樹葉胸針'),
+(755, '克雷娜斯的信'),
+(756, '曼陀羅草根'),
+(757, '曼陀羅精油'),
+(758, '克雷娜斯的收據'),
+(759, '刻印古文字的劍'),
+(760, '恐怖之劍'),
+(761, '死神之劍'),
+(762, '灰骨碎片'),
+(763, '以斯帖的信'),
+(764, '亞本的推薦函'),
+(765, '陰謀者名單'),
+(766, '莎布琳的印章戒指'),
+(767, '被封印的卷軸'),
+(768, '羅恩的鑰匙'),
+(769, '萊克德的遺骸'),
+(770, '榮耀之盾'),
+(771, '沙依特斯的遺骸'),
+(772, '特雷爾的遺骸'),
+(773, '帕力莫的遺骸'),
+(774, '墮落的榮耀之劍'),
+(775, '榮耀之劍'),
+(776, '無名劍'),
+(777, '黑冰之劍'),
+(778, '阿羅帝恩的信'),
+(779, '莎布琳的戒指'),
+(780, '亞本的信'),
+(781, '麥德克勞的項鍊'),
+(782, '阿蘭克爾的信'),
+(783, '阿蘭克爾的字條'),
+(784, '玻璃匕首'),
+(785, '破碎的玻璃匕首'),
+(786, '亡靈守衛的匕首'),
+(787, '柯魯拉之鑰'),
+(788, '午夜瑪瑙之項鍊'),
+(789, '月光曲的私語'),
+(790, '血之波形刃'),
+(791, '卡爾倫的頭髏'),
+(792, '卡爾倫的肋骨'),
+(793, '卡爾倫的大腿骨'),
+(794, '聖者的骨灰罐'),
+(795, '阿斯巴特釘鎚'),
+(796, '羅伊恩的信函'),
+(797, '曼紐爾的信函'),
+(798, '巴蘭克德的信函'),
+(799, '葛魯特的信函'),
+(800, '娜仙的魔法書'),
+(801, '娜仙受詛咒的魔法書'),
+(802, '嗜血匕首'),
+(803, '血腥匕首'),
+(804, '軒尼斯魔杖'),
+(805, '品特的憑據'),
+(806, '飛龍的爪'),
+(807, '無瑕的飛龍爪'),
+(808, '普西金的信'),
+(809, '骨頭碎片'),
+(810, '阿爾特蘭的信'),
+(811, '油紙'),
+(812, '金剛石原石'),
+(813, '心臟石'),
+(814, '普西金的收據'),
+(815, '皮帶'),
+(816, '黑寡婦'),
+(817, '米索莉瓶'),
+(818, '格蕾斯獨角獸的角'),
+(819, '飛龍的骨'),
+(820, '扎哈克的汁液'),
+(821, '骨刀'),
+(822, '飛龍刀'),
+(823, '鈍匕首'),
+(824, '西瑞爾的紙條'),
+(825, '萊恩的信'),
+(826, '銀色種子'),
+(827, '星塵'),
+(828, '覺醒之歌'),
+(829, '靈魂匕首'),
+(830, '克里娜斯的勳章'),
+(831, '回音水晶'),
+(832, '綠色回音水晶'),
+(833, '紅色回音水晶'),
+(834, '藍綠色回音水晶'),
+(835, '藍色回音水晶'),
+(836, '克里娜斯的魔法書'),
+(837, '精靈粉末'),
+(838, '貝立歐樂的信'),
+(839, '伊克魯斯的召喚卷軸'),
+(840, '德雷巴奴的頭蓋骨'),
+(841, '伊克魯斯的委託書'),
+(842, '邪惡蜥蜴墨水'),
+(843, '阿科蘭托斯的經典'),
+(844, '阿科蘭托斯的經典(1~10頁)'),
+(937, '遺蹟之道'),
+(938, '試驗甲板'),
+(939, '卡拉試練道具11'),
+(940, '卡拉試練道具12'),
+(941, '卡拉勇氣的憑據'),
+(942, '卡拉正義的憑證'),
+(943, '卡拉絕望的憑證'),
+(944, '死亡騎士的頭骨'),
+(947, '武器強化卷軸-B級'),
+(948, '防具強化卷軸-B級'),
+(949, '武器強化結晶卷軸-B級'),
+(950, '防具強化結晶卷軸-B級'),
+(951, '武器強化卷軸-C級'),
+(952, '防具強化卷軸-C級'),
+(953, '武器強化結晶卷軸-C級'),
+(954, '防具強化結晶卷軸-C級'),
+(955, '武器強化卷軸-D級'),
+(956, '防具強化卷軸-D級'),
+(957, '武器強化結晶卷軸-D級'),
+(958, '防具強化結晶卷軸-D級'),
+(959, '武器強化卷軸-S級'),
+(960, '防具強化卷軸-S級'),
+(961, '武器強化結晶卷軸-S級'),
+(962, '防具強化結晶卷軸-S級'),
+(963, '獸人的箭頭'),
+(964, '艾貝里烏斯的信'),
+(965, '長青護身符'),
+(966, '樹精之淚'),
+(967, '科班得的治癒藥'),
+(968, '卡羅伊德的信函'),
+(969, '塞克提諾的推薦函'),
+(970, '塞克提諾的推薦函'),
+(971, '捕魂器'),
+(972, '油罐'),
+(973, '殭屍頭'),
+(974, '史提班德的頭'),
+(976, '哨兵的標章'),
+(977, '哨兵的標章'),
+(978, '頭骨碎片護身符'),
+(979, '血矛護身符'),
+(980, '零'),
+(982, '艾斯蘭德的推薦函'),
+(983, '肯特奈爾的信'),
+(984, '瑪瑙護身符'),
+(985, '瑪瑙護身符'),
+(986, '古代卷軸'),
+(987, '古代的粘土字板'),
+(988, '卡勒帝亞的譯本'),
+(1001, '阿科蘭托斯的經典(4頁)'),
+(1002, '阿科蘭托斯的經典(5頁)'),
+(1003, '阿科蘭托斯的經典(6頁)'),
+(1004, '阿科蘭托斯的經典(7頁)'),
+(1005, '阿科蘭托斯的經典(8頁)'),
+(1006, '阿科蘭托斯的經典(9頁)'),
+(1007, '阿科蘭托斯的經典(10頁)'),
+(1008, '何瑞斯的收據'),
+(1009, '何瑞斯的收據'),
+(1010, '高崙的碎片'),
+(1011, '工具箱'),
+(1012, '送貨清單'),
+(1013, '沉重的木箱'),
+(1014, '布捆'),
+(1015, '粘土罐'),
+(1016, '傑克森的收據'),
+(1017, '蘇菲亞的收據'),
+(1018, '蘭特的收據'),
+(1019, '公文'),
+(1020, '火焰碎片'),
+(1021, '寒冰碎片'),
+(1022, '莉里絲的信'),
+(1023, '泰恩的日記'),
+(1024, '金剛石原石'),
+(1025, '粘土寫字板'),
+(1026, '銀蜘蛛絲'),
+(1027, '烏諾連的收據'),
+(1028, '克里米斯的傳票'),
+(1029, '茄科植物之葉'),
+(1030, '破碎頭骨'),
+(1031, '完美頭骨'),
+(1032, '狐狗的毛皮'),
+(1033, '狐狗的毛線'),
+(1034, '少女的玩偶'),
+(1035, '瘟疫之塵'),
+(1036, '安德莉亞的信'),
+(1037, '世界樹果實'),
+(1038, '魯米爾的第一首詩'),
+(1039, '魯米爾的第三首詩'),
+(1040, '魯米爾的第四首詩'),
+(1041, '魯米爾的第五首詩'),
+(1042, '鼠人尖牙'),
+(1043, '巴魯爾骯髒的尖牙'),
+(1044, '克魯納克的頭骨'),
+(1045, '殭屍皮'),
+(1046, '夢魘水晶'),
+(1047, '魔法書-日光術'),
+(1048, '魔法書-力量強化'),
+(1049, '魔法書-冰箭術'),
+(1050, '魔法書-急救術'),
+(1051, '魔法書-吸血鬼之吻'),
+(1052, '魔法書-火焰狂襲'),
+(1053, '魔法書-療毒術'),
+(1054, '魔法書-集體治癒術'),
+(1055, '魔法書-毒咒術'),
+(1056, '魔法書-弱化術'),
+(1057, '魔法書-召喚食物'),
+(1058, '魔法書-保護盾'),
+(1059, '魔法書-辨敵術'),
+(1060, '體力治癒藥水'),
+(1061, '強力體力治癒藥水'),
+(1062, '加速藥水'),
+(1063, '畢業證書'),
+(1064, '畢業證書'),
+(1065, '畢業證書'),
+(1066, '畢業證書'),
+(1067, '推薦函'),
+(1068, '推薦函'),
+(1069, '世界樹之葉'),
+(1070, '深淵之血'),
+(1071, '風信子符咒'),
+(1072, '風信子符咒'),
+(1073, '新手體力治癒藥水'),
+(1074, '船票-說話之島往古魯丁'),
+(1075, '船票-古魯丁往說話之島'),
+(1076, '卡爾雷因的信'),
+(1077, '毒囊'),
+(1078, '風之碎片'),
+(1079, '達靈的收據'),
+(1080, '巴烏洛的藥水'),
+(1081, '瑪瑙獸眼'),
+(1082, '染色石'),
+(1083, '魅魔的血'),
+(1084, '古魯丁領主的標章'),
+(1085, '獸人的骨項鍊'),
+(1086, '狼人的尖牙'),
+(1087, '巨大蜘蛛的腳'),
+(1088, '安德理亞斯的信'),
+(1089, '儀式匕首'),
+(1090, '德雷比安葡萄酒'),
+(1091, '凱勒米爾的經典'),
+(1092, '阿路基恩的信'),
+(1093, '阿路基恩的信'),
+(1094, '阿路基恩的信'),
+(1095, '魔法書-攻擊強化'),
+(1096, '魔法書-元素治癒'),
+(1097, '魔法書-能量奪取'),
+(1098, '魔法書-風之疾走'),
+(1099, '魔法書-風之鎖'),
+(1106, '諾曼的信'),
+(1107, '骨碎片'),
+(1108, '亞本的信'),
+(1109, '宗師羅伊恩的信'),
+(1110, '骨碎片'),
+(1111, '金剛石原石'),
+(1112, '世界樹之葉'),
+(1113, '米特拉爾之血'),
+(1114, '獸人的羽毛護身符'),
+(1115, '獸人的骨項鍊'),
+(1116, '獸人的羽毛護身符'),
+(1117, '獸人的骨項鍊'),
+(1118, '蘑菇孢囊'),
+(1130, '科班得的治癒藥'),
+(1131, '科班得的治癒藥'),
+(1132, '科班得的治癒藥'),
+(1133, '科班得的治癒藥'),
+(1134, '科班得的治癒藥'),
+(1135, '精靈封印之杖'),
+(1136, '精靈封印之杖'),
+(1137, '精靈封印之杖'),
+(1138, '阿伊努的信'),
+(1139, '鬥士聯會的標章'),
+(1140, '生銹的青銅劍'),
+(1141, '生銹的青銅劍'),
+(1143, '辛普龍的信'),
+(1144, '巨大毒蜘蛛的腳'),
+(1145, '鬥士的勳章'),
+(1150, '魔法書-狂風之擊'),
+(1151, '魔法書-自我治癒'),
+(1152, '魔法書-治癒術'),
+(1153, '潔妮恩的信'),
+(1154, '崗哨刀'),
+(1155, '崗哨刀'),
+(1156, '崗哨刀'),
+(1157, '老舊的青銅劍'),
+(1158, '骨碎片'),
+(1159, '精靈的頭蓋骨'),
+(1160, '深淵魔精石'),
+(1161, '儀式劍'),
+(1162, '領主的貨幣-警衛隊長巴堤亞'),
+(1163, '領主的貨幣-大神官雷門德'),
+(1164, '領主的貨幣-警衛隊長貝茲庫'),
+(1165, '領主的貨幣-大神官雷比安'),
+(1166, '領主的貨幣-警衛隊長革爾泊特'),
+(1167, '領主的貨幣-大神官比奧帝'),
+(1168, '古魯丁警衛隊的標章'),
+(1169, '食人妖項鍊'),
+(1170, '殷海薩教團標章'),
+(1171, '殷海薩十字徽章'),
+(1172, '古魯丁警衛隊標章'),
+(1173, '巨大毒蜘蛛的腳'),
+(1174, '殷海薩教團標章'),
+(1175, '蜥蜴人圖騰'),
+(1176, '古魯丁警衛隊標章'),
+(1177, '巨大蜘蛛的皮'),
+(1178, '殷海薩教團標章'),
+(1179, '恐怖的頭蓋骨'),
+(1180, '貝茲庫的信'),
+(1183, '史巴托骨頭'),
+(1184, '光之馬蹄'),
+(1185, '通緝令'),
+(1186, '被竊的珠寶'),
+(1187, '被竊的魔法書'),
+(1188, '被竊的戒指'),
+(1189, '被竊的項鍊'),
+(1190, '貝茲庫的推薦函'),
+(1191, '教團回收章'),
+(1192, '教團委託章'),
+(1193, '勒莫尼爾的書'),
+(1194, '維維安特的書'),
+(1195, '辛普龍的書'),
+(1196, '普拉卡的書'),
+(1197, '噶爾林特的證書'),
+(1198, '母親的墜子'),
+(1199, '母親的項鍊'),
+(1200, '勒莫尼爾的契約'),
+(1201, '信仰憑證'),
+(1202, '索日烏斯的信'),
+(1203, '克魯托的箱子'),
+(1204, '精靈騎士胸針'),
+(1205, '黃玉碎片'),
+(1206, '綠寶石碎片'),
+(1207, '雷奧利亞的信'),
+(1208, '普雷根的信紙撕頁1'),
+(1209, '普雷根的信紙撕頁2'),
+(1210, '普雷根的信紙撕頁3'),
+(1211, '普雷根的信紙撕頁4'),
+(1212, '莫列蒂的藥草'),
+(1214, '莫列蒂的信'),
+(1215, '普雷根的信'),
+(1216, '榮耀的警衛隊員證'),
+(1217, '雷奧利亞的推薦函'),
+(1218, '羅格里亞的信'),
+(1219, '紅毛'),
+(1220, '魔力紅寶石'),
+(1221, '純淨的海藍寶石'),
+(1222, '美味的蘋果'),
+(1223, '黃金樹葉'),
+(1224, '不朽的愛'),
+(1225, '紫水晶'),
+(1226, '高貴紫水晶'),
+(1227, '羅格里亞的推薦函'),
+(1228, '橄欖石'),
+(1229, '豐盈橄欖石'),
+(1230, '不朽鑽石'),
+(1231, '水晶勳章'),
+(1232, '騙子的錢幣'),
+(1233, '亞拉娜的日記'),
+(1234, '蜥蜴王的旨令'),
+(1235, '神諭之葉'),
+(1236, '亞拉娜的殘缺日記'),
+(1237, '派勒斯的護身符'),
+(1238, '獸化狼人的頭蓋骨'),
+(1239, '維爾吉爾的信'),
+(1240, '骷髏的護身符'),
+(1241, '巨大毒蜘蛛的殼'),
+(1242, '縛毒蜘蛛絲'),
+(1243, '永眠的棺材'),
+(1244, '深淵凝視'),
+(1245, '席琳的號召'),
+(1246, '阿爾克尼亞的信'),
+(1247, '雷坎的字條'),
+(1248, '月石獸的臼齒'),
+(1249, '雷坎之刀'),
+(1250, '席琳之淚'),
+(1251, '阿爾克尼亞的推薦函'),
+(1252, '鋼鐵之心'),
+(1253, '憤怒種子'),
+(1254, '絕望種子'),
+(1255, '恐懼種子'),
+(1256, '狂亂種子'),
+(1257, '家族的遺骨'),
+(1258, '瓦瑞卡的藥水'),
+(1259, '惡臭殭屍的膝蓋骨'),
+(1260, '狂亂之心'),
+(1261, '黑暗寶石'),
+(1262, '錫德拉的信'),
+(1263, '白皮紙'),
+(1264, '血的古文字'),
+(1265, '凱勒米爾之書'),
+(1266, '阿多紐斯的祈禱'),
+(1267, '懺悔者標章'),
+(1268, '蒼白的骨碎片'),
+(1269, '安塔利爾之書'),
+(1270, '深淵之珠'),
+(1271, '見習騎士的標章'),
+(1272, '葛雷妮絲的護身符'),
+(1273, '世界樹樹液'),
+(1274, '幸運之罐'),
+(1275, '塔瑪托的項鍊'),
+(1276, '克魯托的字條'),
+(1277, '幸運之鑰'),
+(1278, '蠟燭'),
+(1279, '藥草芳香劑'),
+(1280, '光之地圖'),
+(1281, '火焰之鑰'),
+(1282, '火焰耳環'),
+(1283, '破碎的青銅鏡'),
+(1284, '風之羽毛'),
+(1285, '風之手鐲'),
+(1286, '羅摩的日記'),
+(1287, '閃耀的小鵝卵石'),
+(1288, '水之項鍊'),
+(1289, '生鏽的金幣'),
+(1290, '紅土'),
+(1291, '大地戒指'),
+(1292, '季節之珠'),
+(1293, '生鏽的鑰匙'),
+(1294, '魔法書-防禦強化'),
+(1334, '掠奪者的尖牙'),
+(1335, '哥布林木棒'),
+(1336, '玻璃碎片'),
+(1337, '綠寶石'),
+(1338, '藍色瑪瑙'),
+(1339, '瑪瑙'),
+(1340, '銀色樹葉'),
+(1341, '骨箭'),
+(1342, '鐵箭'),
+(1343, '銀箭'),
+(1344, '米索莉箭'),
+(1345, '閃耀箭'),
+(1346, '石高崙心臟'),
+(1347, '眼怪的肉'),
+(1348, '邪惡蜥蜴的沙囊'),
+(1349, '解剖圖'),
+(1350, '殭屍頭'),
+(1351, '殭屍心'),
+(1352, '殭屍肝'),
+(1353, '亡者頭蓋骨'),
+(1354, '亡者肋骨'),
+(1355, '亡者脊骨'),
+(1356, '亡者臂骨'),
+(1357, '亡者腿骨'),
+(1358, '完整亡者遺骨'),
+(1359, '紅十字階級章'),
+(1360, '藍十字階級章'),
+(1361, '黑十字階級章'),
+(1362, '蜘蛛的殼'),
+(1363, '蜘蛛的絲'),
+(1364, '蜘蛛的毒囊'),
+(1365, '破碎的石心'),
+(1366, '眼怪的水晶體'),
+(1367, '狼爪'),
+(1368, '安普的鐵鍊'),
+(1369, '黑獅的標誌'),
+(1370, '魔法書-水漩渦'),
+(1371, '魔法書-風漩術'),
+(1372, '魔法書-赤焰燃燒'),
+(1373, '魔法寶石'),
+(1374, '強力移動加速藥水'),
+(1375, '強力攻擊加速藥水'),
+(1377, '魔法書-解毒術'),
+(1378, '魔法書-聖癒術'),
+(1379, '魔法書-止血術'),
+(1380, '魔法書-纏繞之足'),
+(1381, '魔法書-冰凍之擊'),
+(1382, '魔法書-能量破壞'),
+(1383, '魔法書-施毒術'),
+(1384, '魔法書-疾風衝刺'),
+(1385, '魔法書-回復術'),
+(1386, '魔法書-不死生物破壞'),
+(1387, '魔法書-毒性抵抗'),
+(1388, '魔法書-心靈防護'),
+(1389, '魔法書-神聖武器'),
+(1390, '魔法書-強癒術'),
+(1391, '魔法書-魔力催化'),
+(1392, '魔法書-狂戰士魂'),
+(1393, '魔法書-快捷術'),
+(1394, '魔法書-催眠術'),
+(1395, '魔法書-水之陷落'),
+(1396, '魔法書-風之陷落'),
+(1397, '魔法書-氣息平靜'),
+(1398, '魔法書-弱點偵測'),
+(1399, '魔法書-精神專注'),
+(1400, '魔法書-火之陷落'),
+(1401, '魔法書-靈活思緒'),
+(1402, '魔法書-敏捷術'),
+(1403, '魔法書-召喚戰鬥貓'),
+(1404, '魔法書-使魔魔力回復'),
+(1405, '魔法書-使魔生命回復'),
+(1406, '魔法書-快速使魔'),
+(1407, '魔法書-睿智使魔'),
+(1408, '魔法書-強力使魔'),
+(1409, '魔法書-緩速術'),
+(1410, '魔法書-劇毒之雲'),
+(1411, '魔法書-精神燃燒'),
+(1412, '魔法書-水之防護'),
+(1413, '魔法書-風之防護'),
+(1414, '魔法書-火之防護'),
+(1415, '魔法書-樹精之足'),
+(1416, '魔法書-混亂之咒'),
+(1417, '魔法書-土之陷落'),
+(1418, '魔法書-毒之陷落'),
+(1419, '血之證'),
+(1420, '材料明細'),
+(1421, '索尼亞的植物書'),
+(1422, '紅色曼陀羅草根'),
+(1423, '白色曼陀羅草根'),
+(1424, '紅色曼陀羅草汁'),
+(1425, '透明曼陀羅草汁'),
+(1426, '傑伊庫伯的昆蟲書'),
+(1427, '花蜜'),
+(1428, '蜂王漿'),
+(1429, '蜂蜜'),
+(1430, '黃金蜂蜜'),
+(1431, '帕諾的契約'),
+(1432, '哈柏哥布林羽毛護身符'),
+(1433, '狄恩馬鈴薯'),
+(1434, '哥爾黎布卡的植物書'),
+(1435, '綠色沼澤青苔'),
+(1436, '棕色沼澤青苔'),
+(1437, '綠色青苔捆'),
+(1438, '棕色青苔捆'),
+(1439, '羅爾蘭德的生物書'),
+(1440, '眼怪的屍體'),
+(1441, '眼怪的肉'),
+(1442, '約拿斯的肉排料理'),
+(1443, '約拿斯的肉排料理'),
+(1444, '約拿斯的肉排料理'),
+(1445, '約拿斯的肉排料理'),
+(1446, '約拿斯的肉排料理'),
+(1447, '米麗恩的料理評價'),
+(1448, '米麗恩的料理評價'),
+(1449, '米麗恩的料理評價'),
+(1450, '米麗恩的料理評價'),
+(1451, '米麗恩的料理評價'),
+(1452, '鳥妖羽翎'),
+(1453, '梅杜莎毒液'),
+(1454, '亞龍的牙齒'),
+(1455, '約拿斯的沙拉料理食譜'),
+(1456, '約拿斯的醬汁料理食譜'),
+(1457, '約拿斯的牛排料理食譜'),
+(1458, '結晶-D級'),
+(1459, '結晶-C級'),
+(1460, '結晶-B級'),
+(1461, '結晶-A級'),
+(1462, '結晶-S級'),
+(1463, '靈魂彈-D級'),
+(1464, '靈魂彈-C級'),
+(1465, '靈魂彈-B級'),
+(1466, '靈魂彈-A級'),
+(1467, '靈魂彈-S級'),
+(1468, '古魯丁粹取人參'),
+(1469, '古魯丁苦艾酒'),
+(1470, '血清抗劑'),
+(1473, '卡沙狼的尖牙'),
+(1474, '盜墓者的頭'),
+(1475, '黑色靈魂石'),
+(1476, '紅色靈魂石'),
+(1477, '瑪剌庫狼人的頭'),
+(1478, '黑翼蝙蝠的尖牙'),
+(1479, '巴蘭卡的附身靈'),
+(1480, '卡沙的附身靈'),
+(1481, '卡沙的結晶'),
+(1482, '黑毛狼皮'),
+(1483, '哥布林項鍊'),
+(1484, '哥布林墜子'),
+(1485, '哥布林王墜子'),
+(1486, '可疑的留言紙條'),
+(1487, '可疑的合約書'),
+(1488, '橄欖石礦石'),
+(1489, '破損的地圖碎片'),
+(1490, '隱藏的礦脈地圖'),
+(1491, '蝙蝠的尖牙'),
+(1492, '浮石'),
+(1493, '狼蛛網'),
+(1494, '狼蛛網噴口'),
+(1495, '巨大蜘蛛皮'),
+(1496, '火焰憑證'),
+(1497, '火焰項鍊'),
+(1498, '礦工資格證明'),
+(1499, '拉培倫的推薦函'),
+(1500, '黑斯吐伊圖騰'),
+(1501, '瑪剌庫狼血族圖騰'),
+(1502, '祖母的珍珠'),
+(1503, '祖母的鏡子'),
+(1504, '祖母的項鍊'),
+(1505, '祖母的髮飾'),
+(1512, '魔法書-混亂術'),
+(1513, '魔法書-迷魅術'),
+(1514, '魔法書-返生術'),
+(1515, '魔法書-伊娃之吻'),
+(1516, '魔法書-死體能量吸收'),
+(1517, '魔法書-心靈轉換'),
+(1518, '護身符-靈火頌歌'),
+(1519, '護身符-帕格立歐力量'),
+(1520, '護身符-帕格立歐祝福'),
+(1521, '護身符-聖火頌歌'),
+(1522, '護身符-狂戰頌歌'),
+(1523, '護身符-鐵壁頌歌'),
+(1524, '護身符-聖靈之盾'),
+(1525, '護身符-生命吸收'),
+(1526, '護身符-心之恐懼'),
+(1527, '護身符-痛苦之刺'),
+(1528, '護身符-混亂封印'),
+(1529, '護身符-睡夢之靈'),
+(1530, '護身符-緩速封印'),
+(1531, '護身符-戰慄之火'),
+(1532, '護身符-火焰震撼'),
+(1533, '護身符-靈氣沉淪'),
+(1534, '護身符-心靈喪失'),
+(1535, '護身符-寒霜之焰'),
+(1536, '護身符-約束封印'),
+(1537, '護身符-劇毒封印'),
+(1538, '祝福的返回卷軸'),
+(1539, '終極治癒藥水'),
+(1540, '瞬間體力治癒藥水'),
+(1541, '蜂蜜坎達魯'),
+(1542, '灰熊皮斗篷'),
+(1543, '血腥斧'),
+(1544, '祖先的頭蓋骨'),
+(1545, '蜘蛛粉末'),
+(1546, '深海之珠'),
+(1547, '波特的物品明細'),
+(1548, '礦工長靴'),
+(1549, '礦工尖鎬'),
+(1550, '轟隆火藥'),
+(1551, '紅石啤酒'),
+(1552, '波特的臭襪子'),
+(1553, '哈拓斯的指示'),
+(1554, '哈拓斯的指示'),
+(1555, '哈拓斯的指示'),
+(1556, '寄給黑暗精靈的密函'),
+(1557, '寄給人類的密函'),
+(1558, '寄給精靈的密函'),
+(1559, '高普的合約書'),
+(1560, '黎普的合約書'),
+(1561, '精靈葡萄酒'),
+(1562, '白龍普的骰子'),
+(1563, '白龍普的合約書'),
+(1564, '海藍寶石'),
+(1565, '金綠寶石'),
+(1566, '寶石箱子'),
+(1567, '煤塊'),
+(1568, '白龍普的信'),
+(1569, '野莓派'),
+(1570, '蝙蝠之圖'),
+(1571, '星鑽'),
+(1572, '星石'),
+(1573, '星石'),
+(1574, '米麗恩的料理評價'),
+(1575, '米麗恩的料理評價'),
+(1576, '米麗恩的料理評價'),
+(1577, '米麗恩的料理評價'),
+(1578, '綠血'),
+(1579, '哥布林棲息地地圖'),
+(1580, '庫勒卡鼠人的尖牙'),
+(1581, '背叛者的報告'),
+(1582, '背叛者的報告'),
+(1583, '背叛者的報告'),
+(1584, '背叛者的報告'),
+(1585, '背叛者的報告'),
+(1586, '背叛者的報告'),
+(1587, '背叛者的報告'),
+(1588, '背叛者的報告'),
+(1589, '背叛者的報告'),
+(1590, '背叛者的報告'),
+(1591, '背叛者之頸'),
+(1592, '突襲者標章'),
+(1593, '石榴果實'),
+(1594, '皮袋'),
+(1595, '皮袋'),
+(1596, '皮袋'),
+(1597, '裝滿的皮袋'),
+(1598, '裝滿的皮袋'),
+(1599, '裝滿的皮袋'),
+(1600, '卡沙熊之爪'),
+(1601, '卡沙刀刃蜘蛛之爪'),
+(1602, '猩紅火蜥蜴的鱗片'),
+(1603, '火鬥魂卷軸'),
+(1604, '羅西克的信'),
+(1605, '坎塔克的推薦函'),
+(1606, '無花果果實'),
+(1607, '皮袋'),
+(1608, '裝滿的皮袋'),
+(1609, '普庫獸人的牙'),
+(1610, '鼠人的尖牙'),
+(1611, '朗克蜥蜴人戰士的牙齒'),
+(1612, '菲林蜥蜴人戰士的牙齒'),
+(1613, '鋼鐵意志卷軸'),
+(1614, '托魯庫的信'),
+(1615, '卡巴塔里之圖騰'),
+(1616, '火花符咒'),
+(1617, '卡沙熊之皮'),
+(1618, '卡沙刀刃蜘蛛之皮'),
+(1619, '火炎蛋'),
+(1620, '黑斯吐伊的面具'),
+(1621, '火炎蛋'),
+(1622, '圖騰靈之爪'),
+(1623, '塔塔魯的推薦函'),
+(1624, '火焰符咒'),
+(1625, '灰熊血'),
+(1626, '血釜'),
+(1627, '靈魂之網'),
+(1628, '封印的都勒卡惡靈'),
+(1629, '都勒卡的附身靈'),
+(1630, '圖騰靈之血'),
+(1631, '施咒者的面具'),
+(1632, '希爾貝黎的戒指'),
+(1633, '第一次合格證書'),
+(1634, '第二次合格證書'),
+(1635, '最終合格證書'),
+(1636, '布基鼠人的尖牙'),
+(1637, '布基鼠人隊長的尖牙'),
+(1638, '克魯托的信函'),
+(1639, '盜賊的足跡'),
+(1640, '被竊的祕密箱'),
+(1641, '祕密箱'),
+(1642, '掠奪者之戒'),
+(1643, '皮皮的推薦函'),
+(1644, '勞特的移動卷軸'),
+(1645, '魅魔內衣'),
+(1646, '米恩的信'),
+(1647, '布隆克的錠塊'),
+(1648, '恰里之斧'),
+(1649, '吉門普的藥水'),
+(1650, '布隆克的酬勞'),
+(1651, '恰里的酬勞'),
+(1652, '吉門普的酬勞'),
+(1653, '熊畫像'),
+(1654, '狼蛛畫像'),
+(1655, '蜂蜜罐'),
+(1656, '珠子'),
+(1657, '珠子包裹'),
+(1658, '守門人符咒'),
+(1659, '守門人信物'),
+(1661, '盜賊的鑰匙'),
+(1662, '木頭'),
+(1663, '樹枝(不使用)'),
+(1664, '鐵屑'),
+(1665, '地圖-亞丁'),
+(1666, '製作卷軸(木箭100%)'),
+(1667, '魔法書-召喚闇魔'),
+(1668, '魔法書-召喚魔法貓'),
+(1669, '魔法書-召喚戰鬥獨角獸'),
+(1670, '魔法書-召喚夢幻獨角獸'),
+(1671, '魔法書-召喚影魔'),
+(1672, '__'),
+(1673, '__'),
+(1674, '安特之樹枝'),
+(1675, '獸人之血'),
+(1676, '獸人之骨'),
+(1677, '滾燙的油'),
+(1678, '線(不使用)'),
+(1679, '青銅'),
+(1680, '毛皮'),
+(1681, '精靈石'),
+(1682, '聖靈之淚'),
+(1683, '米索莉'),
+(1684, '耐久的枝葉'),
+(1685, '木製模具'),
+(1686, '安特之樹皮'),
+(1687, '粗糙的骨粉(不使用)'),
+(1688, '精製鐵塊'),
+(1689, '皮(不使用)'),
+(1690, '弓弦'),
+(1691, '鐵製模具'),
+(1692, '強化繩索(不使用)'),
+(1693, '精製青銅'),
+(1694, '安特藥水'),
+(1695, '魔法紙'),
+(1696, '灼熱的油'),
+(1697, '魔法粉'),
+(1698, '精製的米索莉'),
+(1699, '強化鋼鐵'),
+(1700, '奧里哈魯根(不使用)'),
+(1701, '魔力液'),
+(1702, '金屬模具'),
+(1703, '高等鐵塊'),
+(1704, '憎恨石'),
+(1705, '智慧葉'),
+(1706, '藍鑽碎片'),
+(1707, '聖者的臼齒'),
+(1708, '混濁水晶'),
+(1709, '刺尾獅之血'),
+(1710, '虎眼水晶'),
+(1711, '豹之爪'),
+(1712, '皮鞋材料'),
+(1713, '皮外衣材料'),
+(1714, '皮長襪材料'),
+(1715, '皮頭盔材料'),
+(1716, '皮手套的外織物'),
+(1717, '皮手套的內襯'),
+(1718, '黑骨碎片'),
+(1719, '硬皮襯衣材料'),
+(1720, '深藍骨碎片'),
+(1721, '硬皮綁腿材料'),
+(1722, '長靴材料(無用)'),
+(1723, '皮靴材料'),
+(1724, '骷髏碎片'),
+(1725, '黑暗長襪材料'),
+(1726, '高級皮手套的內襯'),
+(1727, '高級皮手套的外織物'),
+(1728, '鋼鐵鱗'),
+(1729, '純白布料'),
+(1730, '淨化藥水'),
+(1731, '脛甲鋼鐵鱗'),
+(1732, '皮革配件'),
+(1733, '長鋼鐵板'),
+(1734, '小型皮革配件'),
+(1735, '短鋼鐵板'),
+(1736, '鋼鐵靴的原料'),
+(1737, '鋼鐵靴的模具'),
+(1738, '寬刀刃'),
+(1739, '寬劍鑄模'),
+(1740, '修剪過的柳樹'),
+(1741, '杖'),
+(1742, '紅柳杉樹枝'),
+(1743, '短刀刃'),
+(1744, '短刀鑄模'),
+(1745, '刺擊刀刃'),
+(1746, '短矛刀刃'),
+(1747, '閃耀刃'),
+(1748, '反射劍鑄模'),
+(1749, '世界樹的樹枝'),
+(1750, '黑暗森林之葉'),
+(1751, '鋼鐵塊'),
+(1752, '碎劍者的碎片'),
+(1753, '碎劍者的鑄模'),
+(1754, '鐵弓鑄模'),
+(1755, '金屬杖'),
+(1756, '軍刀工匠之靈'),
+(1757, '軍刀劍身'),
+(1758, '軍刀鑄模'),
+(1759, '刺客之血'),
+(1760, '刺客劍身'),
+(1761, '刺客劍身鑄模'),
+(1762, '三叉戟碎片'),
+(1763, '紅寶石碎片'),
+(1764, '深海水'),
+(1765, '脊骨碎片'),
+(1766, '脊骨模型'),
+(1767, '審判的魔法碎片'),
+(1768, '審判模型'),
+(1769, '法咒魔杖之碎片'),
+(1770, '魔法長笛'),
+(1771, '精靈杖'),
+(1772, '世界樹樹葉'),
+(1773, '矮人三叉戟的碎片'),
+(1774, '雙手劍的碎片'),
+(1775, '雙手劍的鑄模'),
+(1776, '狼牙棒的碎片'),
+(1777, '鐵棒碎片'),
+(1778, '森林神的骨頭碎片'),
+(1779, '森林神的鬃毛'),
+(1780, '純青銅塊'),
+(1781, '腰弩弓身'),
+(1782, '腰弩附屬品'),
+(1783, '惡靈之血'),
+(1784, '受詛咒的皮'),
+(1785, '精靈礦石'),
+(1786, '製作卷軸(寬劍100%)'),
+(1787, '製作卷軸(柳木魔杖100%)'),
+(1788, '製作卷軸(弓100%)'),
+(1789, '製作卷軸(柏木魔杖100%)'),
+(1790, '製作卷軸(短刀100%)'),
+(1791, '製作卷軸(刺擊刀100%)'),
+(1792, '製作卷軸(短矛100%)'),
+(1793, '製作卷軸(反射劍100%)'),
+(1794, '製作卷軸(森林弓100%)'),
+(1795, '製作卷軸(皮鞋100%)'),
+(1796, '製作卷軸(皮外衣100%)'),
+(1797, '製作卷軸(皮長襪100%)'),
+(1798, '製作卷軸(皮頭盔100%)'),
+(1799, '製作卷軸(皮手套100%)'),
+(1800, '製作卷軸(骨片胸甲100%)'),
+(1801, '製作卷軸(骨片脛甲100%)'),
+(1802, '製作卷軸(幻滅項鍊100%)'),
+(1803, '製作卷軸(智慧項鍊100%)'),
+(1804, '製作卷軸(靈魂彈-D級100%)'),
+(1805, '製作卷軸(靈魂彈-C級100%)'),
+(1806, '製作卷軸(靈魂彈-B級100%)'),
+(1807, '製作卷軸(靈魂彈-A級100%)'),
+(1808, '製作卷軸(靈魂彈-S級100%)'),
+(1809, '製作卷軸(耐久的枝葉)'),
+(1810, '製作卷軸(木製模具)'),
+(1811, '製作卷軸(安特之樹皮)'),
+(1812, '製作卷軸(顆粒狀的骨粉)(無用)'),
+(1813, '製作卷軸(精製鐵塊)'),
+(1814, '製作卷軸(皮革100%)'),
+(1815, '製作卷軸(弓弦)'),
+(1816, '製作卷軸(鐵製模具)'),
+(1817, '製作卷軸(強化繩索100%)'),
+(1818, '製作卷軸(精製青銅)'),
+(1819, '製作卷軸(安特藥水)'),
+(1820, '製作卷軸(魔法紙)'),
+(1821, '製作卷軸(灼熱的油)'),
+(1822, '製作卷軸(魔法粉)'),
+(1823, '製作卷軸(精製的米索莉)'),
+(1824, '製作卷軸(強化鋼鐵)'),
+(1825, '製作卷軸(奧里哈魯根100%)'),
+(1826, '製作卷軸(魔力液)'),
+(1827, '製作卷軸(金屬模具)'),
+(1828, '製作卷軸(高等級鐵塊)'),
+(1829, '根據地返回卷軸'),
+(1830, '城堡返回卷軸'),
+(1831, '解毒草'),
+(1832, '濃縮解毒藥'),
+(1833, '繃帶'),
+(1834, '強力繃帶'),
+(1835, '靈魂彈-普通'),
+(1836, '肯德尼爾的命令'),
+(1837, '肯德尼爾的命令'),
+(1838, '肯德尼爾的命令'),
+(1839, '肯德尼爾的命令'),
+(1840, '肯德尼爾的命令'),
+(1841, '肯德尼爾的命令'),
+(1842, '肯德尼爾的命令'),
+(1843, '肯德尼爾的命令'),
+(1844, '卡布獸人首領項鍊'),
+(1845, '卡布獸人首領項鍊'),
+(1846, '土瑞克頸鍊'),
+(1847, '土瑞克勳章'),
+(1848, '瓷器的碎片'),
+(1849, '銅製飾品的碎片'),
+(1850, '青銅鏡的碎片'),
+(1851, '玉石項鍊的珠子'),
+(1852, '古代瓷器'),
+(1853, '古老的銅製冠冕'),
+(1854, '古老的青銅鏡'),
+(1855, '古老的玉石項鍊'),
+(1856, '護身符-生命禮讚'),
+(1857, '尼比特狐狗的尖牙'),
+(1858, '尼比特狐狗的尖牙'),
+(1859, '尼比特狐狗的尖牙'),
+(1860, '尼比特狐狗的尖牙'),
+(1861, '尼比特狐狗的尖牙'),
+(1862, '尼比特狐狗的尖牙'),
+(1863, '地圖-艾爾摩'),
+(1864, '樹枝'),
+(1865, '研磨劑'),
+(1866, '軟皮'),
+(1867, '動物的皮'),
+(1868, '線'),
+(1869, '鋼鐵礦'),
+(1870, '煤礦'),
+(1871, '木炭'),
+(1872, '動物的骨頭'),
+(1873, '銀塊'),
+(1874, '奧里哈魯根原石'),
+(1875, '純石'),
+(1876, '米索莉原石'),
+(1877, '金剛石塊'),
+(1878, '絞線'),
+(1879, '炭焦'),
+(1880, '鐵'),
+(1881, '顆粒狀的骨粉'),
+(1882, '皮革'),
+(1883, '鐵鑄模'),
+(1884, '強化繩索'),
+(1885, '高級軟皮'),
+(1886, '銀鑄模'),
+(1887, '純化的研磨劑'),
+(1888, '合成的炭焦'),
+(1889, '合成的絞線'),
+(1890, '米索莉合金'),
+(1891, '工匠模具'),
+(1892, '鐵匠模具'),
+(1893, '奧里哈魯根'),
+(1894, '高級皮革'),
+(1895, '金屬纖維'),
+(1896, '幻滅項鍊的鍊子'),
+(1897, '智慧項鍊的鍊子'),
+(1898, '藍鑽項鍊的鍊子'),
+(1899, '奉獻項鍊的鍊子'),
+(1900, '魔力項鍊的鍊子'),
+(1901, '虎眼耳環的石頭'),
+(1902, '精靈耳環的珠子'),
+(1903, '精靈戒指的組件'),
+(1904, '精靈項鍊的珠子'),
+(1905, '瑪瑙獸眼耳環的寶石'),
+(1906, '米索莉戒指的金屬線'),
+(1907, '黑暗項鍊的寶石'),
+(1908, '月長石耳環的金屬線'),
+(1909, '水石戒指的金屬線'),
+(1910, '水石項鍊的鍊子'),
+(1911, '守護耳環的寶石'),
+(1912, '守護戒指的寶石'),
+(1913, '守護項鍊的寶石'),
+(1914, '封印耳環的寶石'),
+(1915, '永生戒指的寶石'),
+(1916, '人魚之淚的淚珠'),
+(1917, '賢者項鍊的鍊子'),
+(1918, '娜仙耳環的寶石'),
+(1919, '賢者戒指的寶石'),
+(1920, '封印項鍊的鍊子'),
+(1921, '皮鞋的材料'),
+(1922, '皮外衣的圖樣'),
+(1923, '皮長襪的圖樣'),
+(1924, '皮頭盔的組件'),
+(1925, '皮手套的材料'),
+(1926, '骨片胸甲的原料'),
+(1927, '硬皮襯衫的圖樣'),
+(1928, '骨片脛甲的原料'),
+(1929, '硬皮脛甲的材料'),
+(1930, '長靴的材料'),
+(1931, '皮靴的材料'),
+(1932, '骨頭盔的組件'),
+(1933, '黑暗長襪的布料'),
+(1934, '高級皮手套的材料'),
+(1935, '鱗甲的原料'),
+(1936, '純白外衣的圖樣'),
+(1937, '鱗脛甲的原料'),
+(1938, '米索莉板甲的原料'),
+(1939, '米索莉板脛甲的原料'),
+(1940, '鋼鐵靴的組件'),
+(1941, '鎖子甲的原料'),
+(1942, '刺尾獅皮襯衫的材料'),
+(1943, '刺尾獅皮脛甲的組件'),
+(1944, '米索莉外衣的布料'),
+(1945, '米索莉長襪的材料'),
+(1946, '安魂長手套的圖樣'),
+(1947, '鳶形盾的原料'),
+(1948, '力量靴的圖樣'),
+(1949, '米索莉手套的組件'),
+(1950, '半身盔甲的原料'),
+(1951, '金屬脛甲的原料'),
+(1952, '火蜥蜴皮甲的組件'),
+(1953, '賢者破衣的材料'),
+(1954, '卡勒米安長襪的圖樣'),
+(1955, '鎖鏈頭盔的組件'),
+(1956, '方盾的原料'),
+(1957, '襲擊靴的原料'),
+(1958, '強化米索莉靴的組件'),
+(1959, '鏈甲衫的原料'),
+(1960, '鏈脛甲的原料'),
+(1961, '強化米索莉襯衫的布料'),
+(1962, '卡勒米安外衣的圖樣'),
+(1963, '食人魔力量長手套的原料'),
+(1964, '厄達拉克塔盾的原料'),
+(1965, '金屬頭盔的原料'),
+(1966, '金屬皮甲的原料'),
+(1967, '金屬皮脛甲的原料'),
+(1968, '矮人鏈甲衫的原料'),
+(1969, '矮人鏈脛甲的原料'),
+(1970, '封印長袍的布料'),
+(1971, '巨型頭盔的原料'),
+(1972, '騎士盾的材料'),
+(1973, '帕格立歐之手的組件'),
+(1974, '緋紅靴的布料'),
+(1975, '覆皮皮甲的組件'),
+(1976, '覆皮脛甲的材料'),
+(1977, '合金盔甲的材料'),
+(1978, '塔盾的材料'),
+(1979, '惡魔外衣的布料'),
+(1980, '惡魔長襪的圖樣'),
+(1981, '米索莉長手套的組件'),
+(1982, '被遺忘的靴的圖樣'),
+(1983, '閃耀頭箍的圖樣'),
+(1984, '覆殼皮甲的圖樣'),
+(1985, '覆殼脛甲的材料'),
+(1986, '全身盔甲的原料'),
+(1987, '飛龍皮甲的材料'),
+(1988, '神聖外衣的布料'),
+(1989, '神聖長襪的圖樣'),
+(1990, '米索莉頭盔的圖樣'),
+(1991, '瑪那帽的圖樣'),
+(1992, '佩勒迪亞頭巾的原料'),
+(1993, '日蝕頭巾的材料'),
+(1994, '召喚頭巾的材料'),
+(1995, '元素頭巾的原料'),
+(1996, '恩寵頭巾的材料'),
+(1997, '不死鳥頭巾的原料'),
+(1998, '輔助頭巾的原料'),
+(1999, '火焰帽的組件'),
+(2000, '塔魯帽的組件'),
+(2001, '阿巴敦帽的組件'),
+(2002, '盟約帽的圖樣'),
+(2003, '死靈長手套的圖樣'),
+(2004, '金剛石靴的組件'),
+(2005, '寬劍的劍身'),
+(2006, '柳木魔杖的金屬塊'),
+(2007, '弓的金屬塊'),
+(2008, '柏木魔杖的金屬塊'),
+(2009, '短刀的刀身'),
+(2010, '刺擊刀的刀身'),
+(2011, '短矛刀身'),
+(2012, '反射劍的劍身'),
+(2013, '森林弓的柄'),
+(2014, '鋼鎚的金屬塊'),
+(2015, '碎劍者的劍身'),
+(2016, '合金弓的柄'),
+(2017, '軍刀的刀身'),
+(2018, '刺客刀的刀身'),
+(2019, '三叉戟的刀身'),
+(2020, '深淵誘惑組件'),
+(2021, '椎骨之劍的劍身'),
+(2022, '審判之鎚的刀身'),
+(2023, '法咒魔杖的金屬塊'),
+(2024, '精靈弓的柄'),
+(2025, '矮人三叉戟的刀身'),
+(2026, '雙手劍的劍身'),
+(2027, '狼牙棒的金屬塊'),
+(2028, '森林神之刀的刀身'),
+(2029, '腰弩的柄'),
+(2030, '染血卷冊組件'),
+(2031, '流星鎚的金屬塊'),
+(2032, '山羊頭之杖的金屬塊'),
+(2033, '翼之矛的刀身'),
+(2034, '革命劍的劍身'),
+(2035, '塔巴曲刃斧的金屬塊'),
+(2036, '頭顱破壞者的金屬塊'),
+(2037, '巨大骨棒的金屬塊'),
+(2038, '突刺刀的刀緣'),
+(2039, '拳套刀的刀緣'),
+(2040, '強化長弓的柄'),
+(2041, '火鎚的金屬塊'),
+(2042, '染血十字架的組件'),
+(2043, '無界之眼的石塊'),
+(2044, '受詛咒的突刺刀刀緣'),
+(2045, '藍色水晶骷髏的頭骨'),
+(2046, '惡魔尖牙的尖端'),
+(2047, '雙刃大砍刀的刀身'),
+(2048, '碎骨者的金屬塊'),
+(2049, '阿吐巴鎚的金屬塊'),
+(2050, '魂靈魔杖的金屬塊'),
+(2051, '生命手杖的柄'),
+(2052, '米索莉匕首的刀身'),
+(2053, '波浪刀的刀緣'),
+(2054, '風暴弓的柄'),
+(2055, '闊矛的刀身'),
+(2056, '金剛杵的模具'),
+(2057, '剩餘的古代藥水'),
+(2058, '阿吐巴釘鎚的金屬塊'),
+(2059, '焰形劍的劍身'),
+(2060, '暴風之劍的劍身'),
+(2061, '重鎚的金屬塊'),
+(2062, '大鐮刀的刀緣'),
+(2063, '戰斧的金屬塊'),
+(2064, '戰錐的金屬塊'),
+(2065, '顱骨雕刻者的金屬塊'),
+(2066, '巨大末日鎚的金屬塊'),
+(2067, '水晶魔杖的金屬塊'),
+(2068, '信仰手杖的柄'),
+(2069, '巨大末日斧的刀身'),
+(2070, '受詛咒匕首的刀身'),
+(2071, '狼之針的刀緣'),
+(2072, '黑暗精靈匕首的刀緣'),
+(2073, '圓月輪的刀緣'),
+(2074, '冰晶弓的柄'),
+(2075, '歐西斯闊矛的刀身'),
+(2076, '殺戮者的刀身'),
+(2077, '彎刀的刀身'),
+(2078, '武士刀的刀身'),
+(2079, '貝卡合金的刀身'),
+(2080, '靈魂之劍的劍身'),
+(2081, '襲擊劍的劍身'),
+(2082, '受詛咒魔杖的金屬塊'),
+(2083, '袖珍刀的刀身'),
+(2084, '魔炎匕首的刀身'),
+(2085, '元素弓的柄'),
+(2086, '高級精靈弓的金屬塊'),
+(2087, '精靈之淚的淚珠'),
+(2088, '榮譽號角的碎片'),
+(2089, '卡里埔士劍的劍身'),
+(2090, '迷惑之劍的劍身'),
+(2091, '大和劍的劍身'),
+(2092, '何門奎思之劍的劍身'),
+(2093, '長柄戰斧的刀身'),
+(2094, '極限之劍的劍身'),
+(2095, '夢魘劍的劍身'),
+(2096, '死息之劍的劍身'),
+(2097, '巨戰斧的刀身'),
+(2098, '夢想斧的刀身'),
+(2099, '永恆手杖的金屬塊'),
+(2100, '佩勒迪亞魔杖的金屬塊'),
+(2101, '地獄魔杖的金屬塊'),
+(2102, '帕格立歐之鎚的金屬塊'),
+(2103, '賢者魔杖的金屬塊'),
+(2104, '自然之棍的金屬塊'),
+(2105, '煉獄之鎚的金屬塊'),
+(2106, '優雅匕首的刀身'),
+(2107, '黑暗狂嘯者的刀身'),
+(2108, '拳刃的刀身'),
+(2109, '阿卡特長弓的柄'),
+(2110, '異教徒之書組件'),
+(2111, '詛咒人偶的碎片'),
+(2112, '帕格立歐之斧的刀身'),
+(2113, '蠍子的刀身'),
+(2114, '黑寡婦的金屬塊'),
+(2115, '瑟魯基長劍的劍身'),
+(2116, '亡者魔杖的金屬塊'),
+(2117, '食屍鬼魔杖的金屬塊'),
+(2118, '惡魔魔杖的金屬塊'),
+(2119, '水晶匕首的刀身'),
+(2120, '巨型帕塔拳刃的刀身'),
+(2121, '卓越弓的柄'),
+(2122, '歐西斯戰斧的刀身'),
+(2123, '智慧蠟燭的模型'),
+(2124, '受祝福的樹枝碎片'),
+(2125, '不死鳥羽毛片'),
+(2126, '地獄犬之眼的碎片'),
+(2127, '毀滅卷軸之頁'),
+(2128, '黑龍爪的尖端'),
+(2129, '少許的三眼烏鴉羽毛'),
+(2130, '寶石-D級'),
+(2131, '寶石-C級'),
+(2132, '寶石-B級'),
+(2133, '寶石-A級'),
+(2134, '寶石-S級'),
+(2135, '製作卷軸(絞線100%)'),
+(2136, '製作卷軸(炭焦100%)'),
+(2137, '製作卷軸(鐵100%)'),
+(2138, '製作卷軸(顆粒狀的骨粉100%)'),
+(2139, '製作卷軸(鐵鑄模100%)'),
+(2140, '製作卷軸(高級軟皮100%)'),
+(2141, '製作卷軸(銀鑄模100%)'),
+(2142, '製作卷軸(純化的研磨劑100%)'),
+(2143, '製作卷軸(合成的炭焦100%)'),
+(2144, '製作卷軸(合成的絞線100%)'),
+(2145, '製作卷軸(米索莉合金100%)'),
+(2146, '製作卷軸(工匠模具100%)'),
+(2147, '製作卷軸(鐵匠模具100%)'),
+(2148, '製作卷軸(高級皮革100%)'),
+(2149, '製作卷軸(金屬纖維100%)'),
+(2150, '製作卷軸(藍鑽項鍊100%)'),
+(2151, '製作卷軸(奉獻項鍊100%)'),
+(2152, '製作卷軸(魔力項鍊100%)'),
+(2153, '製作卷軸(虎眼耳環100%)'),
+(2154, '製作卷軸(精靈耳環100%)'),
+(2155, '製作卷軸(精靈戒指100%)'),
+(2156, '製作卷軸(精靈項鍊100%)'),
+(2157, '製作卷軸(瑪瑙獸眼耳環100%)'),
+(2158, '製作卷軸(米索莉戒指100%)'),
+(2159, '製作卷軸(黑暗項鍊100%)'),
+(2160, '製作卷軸(月長石耳環100%)'),
+(2161, '製作卷軸(水石戒指100%)'),
+(2162, '製作卷軸(水石項鍊100%)'),
+(2163, '製作卷軸(守護耳環100%)'),
+(2164, '製作卷軸(守護戒指100%)'),
+(2165, '製作卷軸(守護項鍊100%)'),
+(2166, '製作卷軸(封印耳環100%)'),
+(2167, '製作卷軸(永生戒指100%)'),
+(2168, '製作卷軸(人魚之淚100%)'),
+(2169, '製作卷軸(封印項鍊100%)'),
+(2170, '製作卷軸(娜仙耳環100%)'),
+(2171, '製作卷軸((賢者戒指100%)'),
+(2172, '製作卷軸(賢者項鍊100%)'),
+(2173, '製作卷軸(硬皮襯衫100%)'),
+(2174, '製作卷軸(硬皮脛甲100%)'),
+(2175, '製作卷軸(長靴100%)'),
+(2176, '製作卷軸(皮靴100%)'),
+(2177, '製作卷軸(骨頭盔100%)'),
+(2178, '製作卷軸(黑暗長襪100%)'),
+(2179, '製作卷軸(高級皮手套100%)'),
+(2180, '製作卷軸(鱗甲100%)'),
+(2181, '製作卷軸(純白外衣100%)'),
+(2182, '製作卷軸(鱗脛甲100%)'),
+(2183, '製作卷軸(米索莉板甲100%)'),
+(2184, '製作卷軸(米索莉板脛甲100%)'),
+(2185, '製作卷軸(鋼鐵靴100%)'),
+(2186, '製作卷軸(鎖子甲100%)'),
+(2187, '製作卷軸(刺尾獅皮襯衫100%)'),
+(2188, '製作卷軸(刺尾獅皮脛甲100%)'),
+(2189, '製作卷軸(米索莉外衣100%)'),
+(2190, '製作卷軸(米索莉長襪100%)'),
+(2191, '製作卷軸(安魂長手套100%)'),
+(2192, '製作卷軸(鳶形盾100%)'),
+(2193, '製作卷軸(力量靴100%)'),
+(2194, '製作卷軸(米索莉手套100%)'),
+(2195, '製作卷軸(半身盔甲100%)'),
+(2196, '製作卷軸(金屬脛甲100%)'),
+(2197, '製作卷軸(火蜥蜴皮甲100%)'),
+(2198, '製作卷軸(賢者的破衣100%)'),
+(2199, '製作卷軸(卡勒米安長襪100%)'),
+(2200, '製作卷軸(鎖鏈頭盔100%)'),
+(2201, '製作卷軸(方盾100%)'),
+(2202, '製作卷軸(襲擊靴100%)'),
+(2203, '製作卷軸(強化米索莉靴100%)'),
+(2204, '製作卷軸(鏈甲衫100%)'),
+(2205, '製作卷軸(鏈脛甲100%)'),
+(2206, '製作卷軸(強化米索莉襯衫100%)'),
+(2207, '製作卷軸(卡勒米安外衣100%)'),
+(2208, '製作卷軸(食人魔力量長手套100%)'),
+(2209, '製作卷軸(厄達拉克塔盾100%)'),
+(2210, '製作卷軸(金屬頭盔100%)'),
+(2211, '製作卷軸(金屬皮甲100%)'),
+(2212, '製作卷軸(金屬皮脛甲100%)'),
+(2213, '製作卷軸(矮人鏈甲衫100%)'),
+(2214, '製作卷軸(矮人鏈脛甲100%)'),
+(2215, '製作卷軸(封印長袍100%)'),
+(2216, '製作卷軸(巨型頭盔100%)'),
+(2217, '製作卷軸(騎士盾100%)'),
+(2218, '製作卷軸(帕格立歐之手100%)'),
+(2219, '製作卷軸(緋紅靴100%)'),
+(2220, '製作卷軸(覆皮皮甲100%)'),
+(2221, '製作卷軸(覆皮脛甲100%)'),
+(2222, '製作卷軸(合金盔甲100%)'),
+(2223, '製作卷軸(塔盾100%)'),
+(2224, '製作卷軸(惡魔外衣100%)'),
+(2225, '製作卷軸(惡魔長襪100%)'),
+(2226, '製作卷軸(米索莉長手套100%)'),
+(2227, '製作卷軸(被遺忘的靴100%)'),
+(2228, '製作卷軸(閃耀頭箍100%)'),
+(2229, '製作卷軸(覆殼皮甲100%)'),
+(2230, '製作卷軸(覆殼脛甲100%)'),
+(2231, '製作卷軸(全身盔甲100%)'),
+(2232, '製作卷軸(飛龍皮甲100%)'),
+(2233, '製作卷軸(神聖外衣100%)'),
+(2234, '製作卷軸(神聖長襪100%)'),
+(2235, '製作卷軸(米索莉頭盔100%)'),
+(2236, '製作卷軸(瑪那帽100%)'),
+(2237, '製作卷軸(佩勒迪亞頭巾100%)'),
+(2238, '製作卷軸(日蝕頭巾100%)'),
+(2239, '製作卷軸(召喚頭巾100%)'),
+(2240, '製作卷軸(元素頭巾100%)'),
+(2241, '製作卷軸(恩寵頭巾100%)'),
+(2242, '製作卷軸(不死鳥頭巾100%)'),
+(2243, '製作卷軸(輔助頭巾100%)'),
+(2244, '製作卷軸(火焰帽100%)'),
+(2245, '製作卷軸(塔魯帽100%)'),
+(2246, '製作卷軸(阿巴敦帽100%)'),
+(2247, '製作卷軸(盟約帽100%)'),
+(2248, '製作卷軸(死靈長手套100%)'),
+(2249, '製作卷軸(金剛石靴100%)'),
+(2250, '製作卷軸(骨箭100%)'),
+(2251, '製作卷軸(鐵箭100%)'),
+(2252, '製作卷軸(鋼鎚100%)'),
+(2253, '製作卷軸(碎劍者100%)'),
+(2254, '製作卷軸(合金弓100%)'),
+(2255, '製作卷軸(軍刀100%)'),
+(2256, '製作卷軸(刺客刀100%)'),
+(2257, '製作卷軸(三叉戟100%)'),
+(2258, '製作卷軸(深淵誘惑100%)'),
+(2259, '製作卷軸(椎骨之劍100%)'),
+(2260, '製作卷軸(審判之鎚100%)'),
+(2261, '製作卷軸(法咒魔杖100%)'),
+(2262, '製作卷軸(精靈弓100%)'),
+(2263, '製作卷軸(矮人三叉戟100%)'),
+(2264, '製作卷軸(雙手劍100%)'),
+(2265, '製作卷軸(狼牙棒100%)'),
+(2266, '製作卷軸(森林神之刀100%)'),
+(2267, '製作卷軸(腰弩100%)'),
+(2268, '製作卷軸(染血卷冊100%)'),
+(2269, '製作卷軸(流星鎚100%)'),
+(2270, '製作卷軸(山羊頭之杖100%)'),
+(2271, '製作卷軸(翼之矛100%)'),
+(2272, '製作卷軸(革命劍100%)'),
+(2273, '製作卷軸(塔巴曲刃斧100%)'),
+(2274, '製作卷軸(頭顱破壞者100%)'),
+(2275, '製作卷軸(巨大骨棒100%)'),
+(2276, '製作卷軸(突刺刀100%)'),
+(2277, '製作卷軸(拳套刀100%)'),
+(2278, '製作卷軸(強化長弓100%)'),
+(2279, '製作卷軸(火鎚100%)'),
+(2280, '製作卷軸(染血十字架100%)'),
+(2281, '製作卷軸(無界之眼100%)'),
+(2282, '製作卷軸(受詛咒的突刺刀100%)'),
+(2283, '製作卷軸(藍色水晶骷髏100%)'),
+(2284, '製作卷軸(惡魔尖牙100%)'),
+(2285, '製作卷軸(雙刃大砍刀100%)'),
+(2286, '製作卷軸(碎骨者100%)'),
+(2287, '製作卷軸(阿吐巴鎚100%)'),
+(2288, '製作卷軸(魂靈魔杖100%)'),
+(2289, '製作卷軸(生命手杖100%)'),
+(2290, '製作卷軸(米索莉匕首100%)'),
+(2291, '製作卷軸(波浪刀100%)'),
+(2292, '製作卷軸(風暴弓100%)'),
+(2293, '製作卷軸(闊矛100%)'),
+(2294, '製作卷軸(金剛杵100%)'),
+(2295, '製作卷軸(古代藥水100%)'),
+(2296, '製作卷軸(阿吐巴釘鎚100%)'),
+(2297, '製作卷軸(焰形劍100%)'),
+(2298, '製作卷軸(暴風之劍100%)'),
+(2299, '製作卷軸(重鎚100%)'),
+(2300, '製作卷軸(大鐮刀100%)'),
+(2301, '製作卷軸(戰斧100%)'),
+(2302, '製作卷軸(戰錐100%)'),
+(2303, '製作卷軸(顱骨雕刻者100%)'),
+(2304, '製作卷軸(巨大末日鎚100%)'),
+(2305, '製作卷軸(水晶魔杖100%)'),
+(2306, '製作卷軸(信仰手杖100%)'),
+(2307, '製作卷軸(巨大末日斧100%)'),
+(2308, '製作卷軸(受詛咒的匕首100%)'),
+(2309, '製作卷軸(狼之針100%)'),
+(2310, '製作卷軸(黑暗精靈匕首100%)'),
+(2311, '製作卷軸(圓月輪100%)'),
+(2312, '製作卷軸(冰晶弓100%)'),
+(2313, '製作卷軸(歐西斯闊矛100%)'),
+(2314, '製作卷軸(殺戮者100%)'),
+(2315, '製作卷軸(彎刀100%)'),
+(2316, '製作卷軸(武士刀100%)'),
+(2317, '製作卷軸(貝卡合金100%)'),
+(2318, '製作卷軸(靈魂之劍100%)'),
+(2319, '製作卷軸(襲擊劍100%)'),
+(2320, '製作卷軸(受詛咒的魔杖100%)'),
+(2321, '製作卷軸(袖珍刀100%)'),
+(2322, '製作卷軸(魔炎匕首100%)'),
+(2323, '製作卷軸(元素弓100%)'),
+(2324, '製作卷軸(高級精靈弓100%)'),
+(2325, '製作卷軸(精靈之淚100%)'),
+(2326, '製作卷軸(榮譽號角100%)'),
+(2327, '製作卷軸(卡里埔士劍100%)'),
+(2328, '製作卷軸(迷惑之劍100%)'),
+(2329, '製作卷軸(大和劍100%)'),
+(2330, '製作卷軸(何門奎思之劍100%)'),
+(2331, '製作卷軸(長柄戰斧100%)'),
+(2332, '製作卷軸(極限之劍100%)'),
+(2333, '製作卷軸(夢魘劍100%)'),
+(2334, '製作卷軸(死息之劍100%)'),
+(2335, '製作卷軸(巨戰斧100%)'),
+(2336, '製作卷軸(夢想斧100%)'),
+(2337, '製作卷軸(永恆手杖100%)'),
+(2338, '製作卷軸(佩勒迪亞魔杖100%)'),
+(2339, '製作卷軸(地獄魔杖100%)'),
+(2340, '製作卷軸(帕格立歐之鎚100%)'),
+(2341, '製作卷軸(賢者魔杖100%)'),
+(2342, '製作卷軸(自然之棍100%)'),
+(2343, '製作卷軸(煉獄之鎚100%)'),
+(2344, '製作卷軸(優雅匕首100%)'),
+(2345, '製作卷軸(黑暗狂嘯者100%)'),
+(2346, '製作卷軸(拳刃100%)'),
+(2347, '製作卷軸(阿卡特長弓100%)'),
+(2348, '製作卷軸(異教徒之書100%)'),
+(2349, '製作卷軸(詛咒人偶100%)'),
+(2350, '製作卷軸(帕格立歐之斧100%)'),
+(2351, '製作卷軸(蠍子100%)'),
+(2352, '製作卷軸(黑寡婦100%)'),
+(2353, '製作卷軸(瑟魯基長劍100%)'),
+(2354, '製作卷軸(亡者魔杖100%)'),
+(2355, '製作卷軸(食屍鬼魔杖100%)'),
+(2356, '製作卷軸(惡魔魔杖100%)'),
+(2357, '製作卷軸(水晶匕首100%)'),
+(2358, '製作卷軸(巨型帕塔拳刃100%)'),
+(2359, '製作卷軸(卓越弓100%)'),
+(2360, '製作卷軸(歐西斯戰斧100%)'),
+(2361, '製作卷軸(智慧蠟燭100%)'),
+(2362, '製作卷軸(受祝福的樹枝100%)'),
+(2363, '製作卷軸(不死鳥羽毛100%)'),
+(2364, '製作卷軸(地獄犬之眼100%)'),
+(2365, '製作卷軸(毀滅卷軸100%)'),
+(2366, '製作卷軸(黑龍爪100%)'),
+(2367, '製作卷軸(三眼烏鴉的羽毛100%)'),
+(2375, '狼項鍊'),
+(2508, '受詛咒的骨'),
+(2509, '魔靈彈-普通'),
+(2510, '魔靈彈-D級'),
+(2511, '魔靈彈-C級'),
+(2512, '魔靈彈-B級'),
+(2513, '魔靈彈-A級'),
+(2514, '魔靈彈-S級'),
+(2515, '狼食'),
+(2627, '挑戰者標章'),
+(2628, '凱許的信'),
+(2629, '觀察者之眼'),
+(2630, '觀察者之眼'),
+(2631, '西斯拉瑟的卷軸'),
+(2632, '破碎鑰匙'),
+(2633, '使命標章'),
+(2634, '德詩丁的信'),
+(2635, '騎士之淚'),
+(2636, '奧比諾之鏡'),
+(2637, '懺悔之淚'),
+(2638, '報告的片段'),
+(2639, '塔利亞斯的報告'),
+(2640, '忠誠之淚'),
+(2641, '義勇軍的遺物'),
+(2642, '聖者的骨灰罈'),
+(2643, '亞太法特的頭骨'),
+(2644, '亞太法特的肋骨'),
+(2645, '亞太法特的腿骨'),
+(2646, '溫達伍德的信'),
+(2647, '都普尼的信'),
+(2648, '泰瑞的單子'),
+(2649, '泰瑞的單子'),
+(2650, '泰瑞的信'),
+(2651, '畢克特的信'),
+(2652, '鷹眼的信'),
+(2653, '神祕的魔精石'),
+(2654, '豺狼魔精石'),
+(2655, '土瑞克魔精石'),
+(2656, '螞蟻魔精石'),
+(2657, '突倫克食人妖魔精石'),
+(2658, '泰瑞的箱子'),
+(2659, '畢克特的請求'),
+(2660, '梅杜莎鱗片'),
+(2661, '賽勒諾斯魔精石'),
+(2662, '分析的要求'),
+(2663, '瑪莉娜的信'),
+(2664, '實驗工具'),
+(2665, '分析的結果'),
+(2666, '泰瑞的單子'),
+(2667, '宿主的清單'),
+(2668, '深淵魔精石'),
+(2669, '深淵魔精石'),
+(2670, '深淵魔精石'),
+(2671, '深淵魔精石'),
+(2672, '泰瑞的報告'),
+(2673, '巡守者標章'),
+(2674, '探求者標章'),
+(2675, '米麗恩的印章'),
+(2676, '米麗恩的印章'),
+(2677, '米麗恩的印章'),
+(2678, '米麗恩的指示'),
+(2679, '瑪利亞的信'),
+(2680, '瑪利亞的信'),
+(2681, '盧卡斯的信'),
+(2682, '露希拉的手提包'),
+(2683, '克瑞塔的信'),
+(2684, '克瑞塔的繪畫'),
+(2685, '克瑞塔的繪畫'),
+(2686, '克瑞塔的繪畫'),
+(2687, '棕色卷軸殘片'),
+(2688, '純淨水晶'),
+(2689, '大神官標章'),
+(2690, '大巫師標章'),
+(2691, '賢者標章'),
+(2692, '錫爾巴銀的信'),
+(2693, '錫爾巴銀的憑證'),
+(2694, '久黎克的清單'),
+(2695, '搜索者的皮'),
+(2696, '巫師項鍊'),
+(2697, '束縛靈的頭皮'),
+(2698, '大巫師久黎克的標章'),
+(2699, '克洛諾斯的信'),
+(2700, '戴特的鑰匙'),
+(2701, '克瑞塔的信'),
+(2702, '戴特的信'),
+(2703, '戴特的日記'),
+(2704, '勞特的信封'),
+(2705, '特黎夫的戒指'),
+(2706, '知識的經典第一冊'),
+(2707, '知識的經典第二冊'),
+(2708, '知識的經典第三冊'),
+(2709, '知識的經典第四冊'),
+(2710, '巴爾昆的請求'),
+(2711, '坡伊坦的帳簿'),
+(2712, '知識的經典'),
+(2713, '烈酒'),
+(2714, '純淨水晶'),
+(2715, '賢者卡席安的材料清單'),
+(2716, '食屍鬼的皮革'),
+(2717, '梅杜莎的血'),
+(2718, '赤色束縛的汁液'),
+(2719, '附法翼魔的爪'),
+(2720, '克洛諾斯標章'),
+(2721, '求道者標章'),
+(2722, '賢者的書'),
+(2723, '試練標章'),
+(2724, '火焰的心'),
+(2725, '火焰的精華'),
+(2726, '吉安德的書'),
+(2727, '灰色徽章'),
+(2728, '那希爾的圖畫'),
+(2729, '那希爾的頭髮'),
+(2730, '殷海薩之像'),
+(2731, '黑暗權能'),
+(2732, '柳之破片'),
+(2733, '謠言紙條'),
+(2734, '信賴標章'),
+(2735, '要給精靈的信'),
+(2736, '要給黑暗精靈的信'),
+(2737, '要給矮人的信'),
+(2738, '要給半獸人的信'),
+(2739, '要給瑟瑞辛的信'),
+(2740, '黑暗精靈的信賴證'),
+(2741, '精靈的信賴證'),
+(2742, '矮人的信賴證'),
+(2743, '半獸人的信賴證'),
+(2744, '霍爾林特的推薦函'),
+(2745, '阿斯特黎羅司的命令書'),
+(2746, '風之呼吸'),
+(2747, '翠綠的種子'),
+(2748, '提費爾的信'),
+(2749, '邪惡蜥蜴守護者的血'),
+(2750, '蚜蟲'),
+(2751, '司塔卡拓體液'),
+(2752, '邪惡蜥蜴血漿'),
+(2753, '蜜汁'),
+(2754, '司塔卡拓膿水'),
+(2755, '克萊頓的命令書'),
+(2756, '洛塔的附身靈'),
+(2757, '要給瑪拉其亞的信'),
+(2758, '瑪拉其亞的信'),
+(2759, '要給尼古拉的信'),
+(2760, '尼古拉的命令書'),
+(2761, '破塔的心臟'),
+(2762, '決鬥者標章'),
+(2763, '指令書-古魯丁'),
+(2764, '指令書-狄恩'),
+(2765, '指令書-奇岩'),
+(2766, '指令書-歐瑞'),
+(2767, '指令書-亞丁'),
+(2768, '破壞者的破片'),
+(2769, '雄蟻觸角'),
+(2770, '雄性司塔卡拓的甲殼質'),
+(2771, '死亡追蹤者的尖牙'),
+(2772, '團長的項鍊'),
+(2773, '赤色束縛的鎖鏈'),
+(2774, '族長的護身符'),
+(2775, '附法眼怪的肉'),
+(2776, '塔林獸人的戒指'),
+(2777, '塔林獸人的箭'),
+(2778, '最終審查指令書'),
+(2779, '艾斯庫洛的皮革'),
+(2780, '克雷特的破片'),
+(2781, '葛雷迪斯的皮革'),
+(2782, '提瑪克獸人王的腰帶'),
+(2783, '拉金之鎚'),
+(2784, '露樂的信'),
+(2785, '阿蘭克爾的委任狀'),
+(2786, '理爾殷的命令書'),
+(2787, '德魯的圖騰'),
+(2788, '理爾殷的命令書'),
+(2789, '首領卡其斯的牙齒'),
+(2790, '理爾殷的報告書'),
+(2791, '奇怪的地圖'),
+(2792, '朗伯特的地圖'),
+(2793, '阿蘭克爾的信'),
+(2794, '阿蘭克爾的命令書'),
+(2795, '葡萄酒清單'),
+(2796, '特威提的合約書'),
+(2797, '紅色孢粉'),
+(2798, '瑪魯克葡萄酒'),
+(2799, '古老的指令書'),
+(2800, '傑克斯的日記'),
+(2801, '地圖碎片'),
+(2802, '地圖碎片'),
+(2803, '索特的地圖'),
+(2804, '馬克歐的地圖'),
+(2805, '合起來的地圖'),
+(2806, '生銹的鑰匙'),
+(2807, '金塊'),
+(2808, '阿蘭克爾的推薦函'),
+(2809, '探索者標章'),
+(2810, '裴琳的報告書'),
+(2811, '克莉絲蒂娜的信'),
+(2812, '溫蒂的圖畫'),
+(2813, '黃金神像'),
+(2814, '溫蒂的小鵝卵石'),
+(2815, '索日烏斯的命令書'),
+(2816, '第一個機密文件'),
+(2817, '第二個機密文件'),
+(2818, '第三個機密文件'),
+(2819, '第四個機密文件'),
+(2820, '治癒者標章'),
+(2821, '變革者標章'),
+(2822, '變革之書'),
+(2823, '介紹信'),
+(2824, '史拉的信'),
+(2825, '問候信'),
+(2826, '豺狼的貨幣'),
+(2827, '卡塔利的信'),
+(2828, '尼庫利的信'),
+(2829, '不死生物清單'),
+(2830, '拉姆斯的信'),
+(2831, '日記碎片'),
+(2832, '巨大釘子'),
+(2833, '背叛者的信'),
+(2834, '骨頭片'),
+(2835, '骨頭片'),
+(2836, '骨頭片'),
+(2837, '骨頭片'),
+(2838, '骨頭片'),
+(2839, '骨頭片'),
+(2840, '巫師標章'),
+(2841, '露凱的信'),
+(2842, '帕瑞那的信'),
+(2843, '紫丁香符咒'),
+(2844, '黃金種子'),
+(2845, '黃金種子'),
+(2846, '黃金種子'),
+(2847, '元素樂譜'),
+(2848, '眩惑水滴'),
+(2849, '火焰的結晶'),
+(2850, '鳥妖的羽毛'),
+(2851, '亞龍翅膀之骨'),
+(2852, '溫德薩斯之鬃'),
+(2853, '附法眼怪殼'),
+(2854, '附法岩石高崙的石頭粉'),
+(2855, '附法鋼鐵高崙的破片'),
+(2856, '水之音標'),
+(2857, '火之音標'),
+(2858, '風之音標'),
+(2859, '大地之音標'),
+(2860, '火蜥蜴的符咒'),
+(2861, '風妖精的符咒'),
+(2862, '水妖精的符咒'),
+(2863, '大地之蛇的符咒'),
+(2864, '巴蘭克的推薦函'),
+(2865, '斐拉爾的推薦函'),
+(2866, '亞琳的推薦函'),
+(2867, '巨匠標章'),
+(2868, '傭兵派遣書'),
+(2869, '卡謬兒的圖畫'),
+(2870, '卡謬兒的項鍊'),
+(2871, '傳送裝置的圖畫'),
+(2872, '傳送裝置'),
+(2873, '克魯瑪建築學'),
+(2874, '克魯瑪報告書'),
+(2875, '解毒藥材料清單'),
+(2876, '奇異的蜜蜂之毒針'),
+(2877, '沼澤蜘蛛的蜘蛛網'),
+(2878, '水蛭之血'),
+(2879, '戰爭靈標章'),
+(2880, '報酬的圖騰'),
+(2881, '塔林獸人之頭'),
+(2882, '戰爭靈的圖騰'),
+(2883, '奧瑞米的合約書'),
+(2884, '破塔的眼'),
+(2885, '艾斯庫洛之鱗'),
+(2886, '莫狄奧之爪'),
+(2887, '布拉齊的遺骨'),
+(2888, '佩克隆的圖騰'),
+(2889, '托那努依的頭骨'),
+(2890, '托那努依的肋骨'),
+(2891, '托那努依的脊骨'),
+(2892, '托那努依的臂骨'),
+(2893, '托那努依的大腿骨'),
+(2894, '托那努依的遺骨'),
+(2895, '瑪拉其亞的圖騰'),
+(2896, '火努摩特的頭骨'),
+(2897, '火努摩特的肋骨'),
+(2898, '火努摩特的脊骨'),
+(2899, '火努摩特的臂骨'),
+(2900, '火努摩特的大腿骨'),
+(2901, '火努摩特的遺骨'),
+(2902, '拉凱的圖騰'),
+(2903, '維維安特的信'),
+(2904, '昆蟲圖鑑'),
+(2905, '契魯那的頭骨'),
+(2906, '契魯那的肋骨'),
+(2907, '契魯那的脊骨'),
+(2908, '契魯那的臂骨'),
+(2909, '契魯那的大腿骨'),
+(2910, '契魯那的遺骨'),
+(2911, '布拉齊的遺骨'),
+(2912, '托那努依的遺骨'),
+(2913, '火努摩特的遺骨'),
+(2914, '契魯那的遺骨'),
+(2916, '壞掉的傳送裝置'),
+(2917, '封印戒指的寶石'),
+(2918, '米索莉鱗脛甲材料'),
+(2919, '鎖脛甲材料'),
+(2920, '精靈米索莉外衣的圖樣'),
+(2921, '精靈米索莉襪的圖樣'),
+(2922, '鎖子頭盔的組件'),
+(2923, '刺尾獅皮靴的內襯'),
+(2924, '鎖子長靴組件'),
+(2925, '精靈米索莉靴的組件'),
+(2926, '刺尾獅皮手套的內襯'),
+(2927, '鎖子甲長手套的圖樣'),
+(2928, '精靈米索莉手套的組件'),
+(2929, '鎖子盾的碎片'),
+(2930, '金屬板頭盔的組件'),
+(2931, '火蜥蜴皮靴的內襯'),
+(2932, '金屬靴的組件'),
+(2933, '賢者的舊手套內襯'),
+(2934, '金屬盾的碎片'),
+(2935, '強化米索莉脛甲的碎片'),
+(2936, '鏈頭巾的圖樣'),
+(2937, '鏈甲靴的碎片'),
+(2938, '卡勒米安長靴的組件'),
+(2939, '金屬皮長靴內襯'),
+(2940, '矮人鏈靴的碎片'),
+(2941, '封印長靴的圖樣'),
+(2942, '強化米索莉手套的組件'),
+(2943, '鏈手套的組件'),
+(2944, '卡勒米安手套的布料'),
+(2945, '鏈盾的碎片'),
+(2946, '金屬皮手套的組件'),
+(2947, '矮人鏈盾的碎片'),
+(2948, '覆皮長靴的內襯'),
+(2949, '矮人鏈手套的組件'),
+(2950, '封印手套的圖樣'),
+(2951, '覆皮手套的組件'),
+(2952, '惡魔長靴的布料'),
+(2953, '惡魔手套的布料'),
+(2954, '覆殼長靴的材料'),
+(2955, '覆殼手套的材料'),
+(2956, '合金靴的碎片'),
+(2957, '合金頭盔的組件'),
+(2958, '聖恩靴的布料'),
+(2959, '全覆式頭盔的組件'),
+(2960, '飛龍皮長靴的組件'),
+(2961, '全覆式長靴的碎片'),
+(2962, '飛龍皮手套的組件'),
+(2963, '全覆式長手套的碎片'),
+(2964, '神聖手套的圖樣'),
+(2965, '聖恩手套的布料'),
+(2966, '全覆式盾的碎片'),
+(2967, '精靈長劍的劍身'),
+(2968, '矮人戰鎚的金屬塊'),
+(2969, '夜叉釘鎚的金屬塊'),
+(2970, '製作卷軸(封印戒指100%)'),
+(2971, '製作卷軸(米索莉鱗脛甲100%)'),
+(2972, '製作卷軸(鎖脛甲100%)'),
+(2973, '製作卷軸(精靈米索莉外衣100%)'),
+(2974, '製作卷軸(精靈米索莉襪100%)'),
+(2975, '製作卷軸(鎖子頭盔100%)'),
+(2976, '製作卷軸(刺尾獅皮靴100%)'),
+(2977, '製作卷軸(鎖子長靴100%)'),
+(2978, '製作卷軸(精靈米索莉靴100%)'),
+(2979, '製作卷軸(刺尾獅皮手套100%)'),
+(2980, '製作卷軸(鎖子甲長手套100%)'),
+(2981, '製作卷軸(精靈米索莉手套100%)'),
+(2982, '製作卷軸(鎖子盾100%)'),
+(2983, '製作卷軸(金屬板頭盔100%)'),
+(2984, '製作卷軸(火蜥蜴皮靴100%)'),
+(2985, '製作卷軸(金屬靴100%)'),
+(2986, '製作卷軸(賢者的舊手套100%)'),
+(2987, '製作卷軸(金屬盾100%)'),
+(2988, '製作卷軸(強化米索莉脛甲100%)'),
+(2989, '製作卷軸(鏈頭巾100%)'),
+(2990, '製作卷軸(鏈甲靴100%)'),
+(2991, '製作卷軸(卡勒米安長靴100%)'),
+(2992, '製作卷軸(金屬皮長靴100%)'),
+(2993, '製作卷軸(矮人鏈靴100%)'),
+(2994, '製作卷軸(封印長靴100%)'),
+(2995, '製作卷軸(強化米索莉手套100%)'),
+(2996, '製作卷軸(鏈手套100%)'),
+(2997, '製作卷軸(卡勒米安手套100%)'),
+(2998, '製作卷軸(鏈盾100%)'),
+(2999, '製作卷軸(金屬皮手套100%)'),
+(3000, '製作卷軸(矮人鏈盾100%)'),
+(3001, '製作卷軸(覆皮長靴100%)'),
+(3002, '製作卷軸(矮人鏈手套100%)'),
+(3003, '製作卷軸(封印手套100%)'),
+(3004, '製作卷軸(覆皮手套100%)'),
+(3005, '製作卷軸(惡魔長靴100%)'),
+(3006, '製作卷軸(惡魔手套100%)'),
+(3007, '製作卷軸(覆殼長靴100%)'),
+(3008, '製作卷軸(覆殼手套100%)'),
+(3009, '製作卷軸(合金靴100%)'),
+(3010, '製作卷軸(合金頭盔100%)'),
+(3011, '製作卷軸(聖恩靴100%)'),
+(3012, '製作卷軸(全覆式頭盔100%)'),
+(3013, '製作卷軸(飛龍皮長靴100%)'),
+(3014, '製作卷軸(全覆式長靴100%)'),
+(3015, '製作卷軸(飛龍皮手套100%)'),
+(3016, '製作卷軸(全覆式長手套100%)'),
+(3017, '製作卷軸(神聖手套100%)'),
+(3018, '製作卷軸(聖恩手套100%)'),
+(3019, '製作卷軸(全覆式盾100%)'),
+(3020, '製作卷軸(精靈長劍100%)'),
+(3021, '製作卷軸(矮人戰鎚100%)'),
+(3022, '製作卷軸(夜叉釘鎚100%)'),
+(3023, '製作卷軸(下巨人鑰匙100%)'),
+(3024, '製作卷軸(熟練工戒指100%)'),
+(3025, '製作卷軸(琥珀珠100%)'),
+(3030, '下巨人鑰匙'),
+(3031, '魔精石'),
+(3032, '製作卷軸(魔靈彈-D級100%)'),
+(3033, '製作卷軸(魔靈彈-C級100%)'),
+(3034, '製作卷軸(魔靈彈-B級100%)'),
+(3035, '製作卷軸(魔靈彈-A級100%)'),
+(3036, '製作卷軸(魔靈彈-S級100%)'),
+(3037, '卡康的信'),
+(3038, '設計圖-召喚機械高崙'),
+(3039, '魔法書-召喚暴風晶體'),
+(3040, '魔法書-召喚吸血晶體'),
+(3041, '魔法書-召喚干擾晶體'),
+(3042, '魔法書-蒐集生命'),
+(3043, '魔法書-神聖之擊'),
+(3044, '魔法書-戰慄'),
+(3045, '魔法書-召喚治癒晶體'),
+(3046, '魔法書-獻祭'),
+(3047, '魔法書-鋼鐵意志'),
+(3048, '魔法書-還擊'),
+(3049, '魔法書-屍疫'),
+(3050, '魔法書-衰弱術'),
+(3051, '魔法書-精神屏障'),
+(3052, '魔法書-遲緩術'),
+(3053, '魔法書-神聖祝福'),
+(3054, '魔法書-召喚毒蛇晶體'),
+(3055, '魔法書-怒雷強擊'),
+(3056, '魔法書-召喚黑暗豹'),
+(3057, '魔法書-召喚起死回生者'),
+(3058, '魔法書-召喚腐屍'),
+(3059, '魔法書-屍體爆裂'),
+(3060, '魔法書-遺忘術'),
+(3061, '魔法書-迷魅之咒'),
+(3062, '魔法書-恐懼之咒'),
+(3063, '魔法書-定身術'),
+(3064, '魔法書-沉默術'),
+(3065, '魔法書-死亡之刺'),
+(3066, '魔法書-死之糾結'),
+(3067, '魔法書-吸血鬼之爪'),
+(3068, '魔法書-活力激發'),
+(3069, '魔法書-安靈曲'),
+(3070, '魔法書-不死生物束縛'),
+(3071, '魔法書-鎮魂曲'),
+(3072, '魔法書-淨化'),
+(3073, '魔法書-天之箭'),
+(3074, '魔法書-風之陷落'),
+(3075, '魔法書-赤燄之輪'),
+(3076, '魔法書-風之爆裂'),
+(3077, '魔法書-燃燒之體'),
+(3078, '魔法書-腐蝕術'),
+(3079, '魔法書-魔法消除'),
+(3080, '魔法書-沉睡之雲'),
+(3081, '魔法書-精神爆發'),
+(3082, '魔法書-水之陷落'),
+(3083, '魔法書-冰凍之牆'),
+(3084, '魔法書-冰之鎖'),
+(3085, '魔法書-水之爆裂'),
+(3086, '魔法書-寒霜之箭'),
+(3087, '魔法書-冰之匕'),
+(3088, '魔法書-凍結之體'),
+(3089, '魔法書-颶風術'),
+(3090, '魔法書-暴風雨'),
+(3091, '魔法書-使魔魔法盾'),
+(3092, '魔法書-使魔能量盾'),
+(3093, '魔法書-使魔速度激發'),
+(3094, '魔法書-充沛活力'),
+(3095, '魔法書-魔法屏障'),
+(3096, '魔法書-神佑之體'),
+(3097, '魔法書-神佑之魂'),
+(3098, '魔法書-回歸術'),
+(3099, '魔法書-速度激發'),
+(3100, '魔法書-導引'),
+(3101, '魔法書-死之呢喃'),
+(3102, '魔法書-祝福之盾'),
+(3103, '護身符-帕格立歐智慧'),
+(3104, '護身符-帕格立歐榮光'),
+(3105, '護身符-寒冬封印'),
+(3106, '護身符-火焰封印'),
+(3107, '護身符-黑暗封印'),
+(3108, '護身符-幻惑封印'),
+(3109, '護身符-沉默封印'),
+(3110, '護身符-生命封印'),
+(3111, '護身符-遲鈍封印'),
+(3112, '護身符-帕格立歐之眼'),
+(3113, '護身符-帕格立歐之盾'),
+(3114, '護身符-竊取精髓'),
+(3115, '護身符-極冰之燄'),
+(3116, '護身符-狂暴頌歌'),
+(3117, '護身符-迴避頌歌'),
+(3118, '護身符-盛怒頌歌'),
+(3119, '公會會員標章'),
+(3120, '巴爾昆的推薦函'),
+(3121, '曼陀羅漿果'),
+(3122, '阿爾特蘭的指示'),
+(3123, '阿爾特蘭的介紹信'),
+(3124, '阿爾特蘭的介紹信'),
+(3125, '諾曼的指示'),
+(3126, '諾曼的收據'),
+(3127, '丹寧的指示'),
+(3128, '丹寧的鑰匙'),
+(3129, '諾曼的材料清單'),
+(3130, '灰骨粉末'),
+(3131, '花崗岩磨刀石'),
+(3132, '紅色顏料'),
+(3133, '飾帶紗線'),
+(3134, '熟練工的寶石'),
+(3135, '品特的指示'),
+(3136, '琥珀珠'),
+(3137, '琥珀塊'),
+(3138, '熟練工的裝飾球'),
+(3139, '熟練工的戒指'),
+(3140, '生命標章'),
+(3141, '卡爾狄恩的信'),
+(3142, '甘菊符咒'),
+(3143, '長老的信'),
+(3144, '月光花符咒'),
+(3145, '聖杯的圖鑑'),
+(3146, '塔里亞的信'),
+(3147, '塔里亞的信'),
+(3148, '塔里亞的教材'),
+(3149, '普西金的清單'),
+(3150, '精煉米索莉杯'),
+(3151, '阿爾克尼亞的合約書'),
+(3152, '阿爾克尼亞的教材'),
+(3153, '阿多紐斯的清單'),
+(3154, '安塔利爾的經典手抄本'),
+(3155, '星塵'),
+(3156, '伊塞兒的指示書'),
+(3157, '伊塞兒的信'),
+(3158, '純淨聖杯'),
+(3159, '獨角獸之淚'),
+(3160, '生命之水'),
+(3161, '純米索莉礦石'),
+(3162, '兵蟻蟻酸'),
+(3163, '亞龍爪'),
+(3164, '蜘蛛汁液'),
+(3165, '鳥妖的絨毛'),
+(3166, '泰林的矛刀身'),
+(3167, '泰林的矛柄'),
+(3168, '泰林的紅寶石'),
+(3169, '泰林的海藍寶石'),
+(3170, '泰林的紫水晶'),
+(3171, '泰林的橄欖石'),
+(3172, '命運標章'),
+(3173, '凱拉的信'),
+(3174, '梅德休斯的骨灰罈'),
+(3175, '卡姍德拉的遺骨'),
+(3176, '藥草學教材'),
+(3177, '伊夏的材料清單'),
+(3178, '梅杜莎之血'),
+(3179, '沼澤蜘蛛的體液'),
+(3180, '死亡追蹤者的分泌物'),
+(3181, '暴君的體液'),
+(3182, '茄科植物之根'),
+(3183, '顛茄'),
+(3184, '艾爾杜斯的頭骨'),
+(3185, '艾爾杜斯的頭骨'),
+(3186, '艾爾杜斯的憑據'),
+(3187, '默示錄手抄本'),
+(3188, '凱拉的指示書'),
+(3189, '凱拉的推薦函'),
+(3190, '沼澤符咒'),
+(3191, '提費爾的信'),
+(3192, '阿爾克尼亞的筆記'),
+(3193, '小精靈的石榴石'),
+(3194, '葛雷迪斯的頭骨'),
+(3195, '卡魯食人妖的頭骨'),
+(3196, '布賴卡獸人王的頭骨'),
+(3197, '里多蜥蜴人族長的頭骨'),
+(3198, '紅色精靈粉末'),
+(3199, '安特提米里藍的種子'),
+(3200, '黑色柳葉'),
+(3201, '安特提米里藍的樹液'),
+(3202, '阿爾克尼亞之信'),
+(3203, '榮譽標章'),
+(3204, '伯其恩指令書'),
+(3205, '瑪那宣的破片'),
+(3206, '暴君的爪'),
+(3207, '邪惡蜥蜴守護者之牙'),
+(3208, '伯其恩指令書'),
+(3209, '權力項鍊'),
+(3210, '齊安塔的指令書'),
+(3211, '布賴卡的玉璽'),
+(3212, '安庫的玉璽'),
+(3213, '普庫的玉璽'),
+(3214, '土瑞克的玉璽'),
+(3215, '雷沃恩特的玉璽'),
+(3216, '齊安塔的指令書'),
+(3217, '齊安塔的指令書'),
+(3218, '塔林獸人頭骨'),
+(3219, '提瑪克獸人的頭'),
+(3220, '玉璽箱'),
+(3221, '帕辛卡的頭'),
+(3222, '夫土斯的頭'),
+(3223, '伏特爾的手套'),
+(3224, '安庫獸人王的頭'),
+(3225, '開普拉手套'),
+(3226, '馬肯食人妖的頭'),
+(3227, '布萊手套'),
+(3228, '瑪拉其亞的信'),
+(3229, '瑪拉其亞的信'),
+(3230, '卡斯曼的信'),
+(3231, '卡斯曼的信'),
+(3232, '卡斯曼的信'),
+(3233, '德里的合約書'),
+(3234, '雄性司塔卡拓的殼'),
+(3235, '利塔那比的指令書'),
+(3236, '塔多斯的玉璽'),
+(3237, '儀禮之箱'),
+(3238, '繁榮標章'),
+(3239, '考驗的戒指'),
+(3240, '考驗的戒指'),
+(3241, '舊的帳本'),
+(3242, '祝福的種子'),
+(3243, '艾米俐的配方'),
+(3244, '莉里絲的精靈餅乾'),
+(3245, '梅芙石板的破片'),
+(3246, '回收許可'),
+(3247, '拉克琳的催收公告'),
+(3248, '拉克琳的催收公告'),
+(3249, '拉克琳的催收公告'),
+(3250, '拉克琳的催收公告'),
+(3251, '拉克琳的催收公告'),
+(3252, '商人恰里的捐獻'),
+(3253, '商人米恩的捐獻'),
+(3254, '瑪里夫紅帽的捐獻'),
+(3255, '瑪里夫紅帽的請求'),
+(3256, '大師多瑪的捐獻'),
+(3257, '波特的繳納收據'),
+(3258, '捐獻的收據'),
+(3259, '捐獻的收據'),
+(3260, '捐獻的收據'),
+(3261, '捐獻的收據'),
+(3262, '捐獻的收據'),
+(3263, '吐魯克的委任狀'),
+(3264, '布萊特的材料清單'),
+(3265, '曼陀羅花瓣'),
+(3266, '緋紅苔'),
+(3267, '曼陀羅花圈'),
+(3268, '帕曼的指示書'),
+(3269, '帕曼的信'),
+(3270, '黏土團'),
+(3271, '鑰匙孔的模子'),
+(3272, '尼古拉的清單'),
+(3273, '司塔卡拓的殼'),
+(3274, '安皮克奧的毒腺'),
+(3275, '蜘蛛刺'),
+(3276, '優勝標章'),
+(3277, '艾斯卡倫的信'),
+(3278, '瑪森的信'),
+(3279, '鋼鐵玫瑰戒指'),
+(3280, '艾斯卡倫的信'),
+(3281, '白玫瑰徽章'),
+(3282, '葛魯特的信'),
+(3283, '艾斯卡倫的信'),
+(3284, '牟恩的指令書'),
+(3285, '牟恩的指令書'),
+(3286, '牟恩的信'),
+(3287, '鳥妖的蛋'),
+(3288, '梅杜莎的毒液'),
+(3289, '溫德薩斯的膽汁'),
+(3290, '血腥之斧菁英的頭'),
+(3291, '食腐王之頭'),
+(3292, '里多蜥蜴人的尖牙'),
+(3293, '人馬標章'),
+(3294, '伯納德的介紹信'),
+(3295, '漢彌爾的信'),
+(3296, '漢彌爾的信'),
+(3297, '漢彌爾的信'),
+(3298, '第一個獵人的古文'),
+(3299, '第二個獵人的古文'),
+(3300, '卡迪斯護身符'),
+(3301, '蛇的護身符'),
+(3302, '米索莉環'),
+(3303, '司塔卡拓的甲殼質'),
+(3304, '強化弓弦'),
+(3305, '瑪那宣之角'),
+(3306, '蜥蜴人之血'),
+(3307, '黑魔法標章'),
+(3308, '奧瑞米的圖鑑'),
+(3309, '亞歷珊卓的帳簿'),
+(3310, '益克的清單'),
+(3311, '邪惡亞龍之牙'),
+(3312, '里多蜥蜴人符咒'),
+(3313, '附法高崙的心臟石'),
+(3314, '拉盧斯的販賣紀錄'),
+(3315, '尼斯特樂的買入紀錄'),
+(3316, '雷歐波爾德的日誌'),
+(3317, '阿科蘭托斯的寶石'),
+(3318, '阿科蘭托斯的寶石'),
+(3319, '阿科蘭托斯的寶石'),
+(3320, '阿科蘭托斯的寶石'),
+(3321, '阿科蘭托斯的寶石'),
+(3322, '阿科蘭托斯的寶石'),
+(3323, '硫磺'),
+(3324, '奧瑞米的指示書'),
+(3325, '奧瑞米的信'),
+(3326, '奧瑞米的信'),
+(3327, '巴司柏閣下之信'),
+(3328, '瓦丁的聖徽'),
+(3329, '塔林獸人的護身符'),
+(3330, '瓦丁的許可證'),
+(3331, '益克的護身符'),
+(3332, '封印的水晶'),
+(3333, '煉獄的鑰匙'),
+(3334, '勒魯的封印水晶'),
+(3335, '硫磺'),
+(3336, '元素使標章'),
+(3337, '里多蜥蜴人的符咒'),
+(3338, '紅色孢子粉末'),
+(3339, '卡魯食人妖圖騰'),
+(3340, '瑪那宣的破片'),
+(3341, '布賴卡獸人的圖騰'),
+(3342, '赤色魔精石'),
+(3343, '暴君之爪'),
+(3344, '雄蟻之翼'),
+(3345, '溫德薩斯的牙'),
+(3346, '亞龍的尖牙'),
+(3347, '拉盧斯的清單'),
+(3348, '拉盧斯的清單'),
+(3349, '拉盧斯的清單'),
+(3350, '拉盧斯的清單'),
+(3351, '拉盧斯的清單'),
+(3352, '葛拉緹亞之信'),
+(3353, '見習用祕儀紙牌'),
+(3354, '艾爾摩斯的祕儀紙牌'),
+(3355, '坎摩尼爾的祕儀紙牌'),
+(3356, '貝瑟斯的祕儀紙牌'),
+(3357, '巴賽里拉的祕儀紙牌'),
+(3358, '凱薩緹歐的祕儀紙牌'),
+(3359, '布萊恩里的祕儀紙牌'),
+(3360, '開戰的水晶'),
+(3361, '進行的水晶'),
+(3362, '犯規的水晶'),
+(3363, '敗北的水晶'),
+(3364, '勝利的水晶'),
+(3365, '開戰的水晶'),
+(3366, '進行的水晶'),
+(3367, '犯規的水晶'),
+(3368, '敗北的水晶'),
+(3369, '勝利的水晶'),
+(3370, '開戰的水晶'),
+(3371, '進行的水晶'),
+(3372, '犯規的水晶'),
+(3373, '敗北的水晶'),
+(3374, '勝利的水晶'),
+(3375, '開戰的水晶'),
+(3376, '進行的水晶'),
+(3377, '犯規的水晶'),
+(3378, '敗北的水晶'),
+(3379, '勝利的水晶'),
+(3380, '開戰的水晶'),
+(3381, '進行的水晶'),
+(3382, '犯規的水晶'),
+(3383, '敗北的水晶'),
+(3384, '勝利的水晶'),
+(3385, '開戰的水晶'),
+(3386, '進行的水晶'),
+(3387, '犯規的水晶'),
+(3388, '敗北的水晶'),
+(3389, '勝利的水晶'),
+(3390, '君主標章'),
+(3391, '儀禮項鍊'),
+(3392, '巴勒庫斯符咒'),
+(3393, '泰吐斯符咒'),
+(3394, '哈拓斯符咒'),
+(3395, '塔庫納符咒'),
+(3396, '齊安塔符咒'),
+(3397, '瑪拉其亞的指令書'),
+(3398, '布賴卡獸人的尖牙'),
+(3399, '瑪拉其亞的護身符'),
+(3400, '巨大獸人的尖牙'),
+(3401, '蘇瑪黎之信'),
+(3402, '烏魯吐的劍身'),
+(3403, '提瑪克獸人的頭骨'),
+(3404, '鑲嵌劍的頭骨'),
+(3405, '那魯加斧的刀身'),
+(3406, '儀式之斧'),
+(3407, '沼澤蜘蛛的觸毛'),
+(3408, '沼澤蜘蛛的腳'),
+(3409, '手工蜘蛛胸針'),
+(3410, '附法眼怪的角膜'),
+(3411, '眼怪木刻'),
+(3412, '灰熊尖牙項鍊'),
+(3413, '瑪田庫斯的符咒'),
+(3414, '羅格那獸人之頭'),
+(3415, '羅格那首領的公文'),
+(3416, '永生的火焰'),
+(3417, '動物愛護者協會會員名單'),
+(3418, '動物虐殺者名單'),
+(3419, '動物虐殺者名單'),
+(3420, '動物虐殺者名單'),
+(3421, '動物虐殺者名單'),
+(3422, '動物虐殺者名單'),
+(3423, '血染的尖牙'),
+(3424, '血染的長爪'),
+(3425, '血染的巨勾'),
+(3426, '血染的卡沙尖牙'),
+(3427, '血染的狼蛛爪'),
+(3428, '水晶胸針'),
+(3429, '魔法書-終極治癒術'),
+(3430, '魔法書-終極急救術'),
+(3431, '魔法書-終極集體治癒術'),
+(3432, '魔法書-治療術'),
+(3433, '精靈模型'),
+(3434, '可口可樂'),
+(3435, 'nVidia'),
+(3436, '滑鼠'),
+(3437, '商人的帳簿'),
+(3438, '巨商的帳簿'),
+(3440, '貨物箱子'),
+(3441, '貨物箱子'),
+(3442, '貨物箱子'),
+(3443, '貨物箱子'),
+(3444, '古魯丁蘋果'),
+(3445, '狄恩玉米粉'),
+(3446, '惡狼的皮'),
+(3447, '月長石'),
+(3448, '古魯丁麵粉'),
+(3449, '蜘蛛絲繩子'),
+(3450, '紫翠玉'),
+(3451, '銀製茶具'),
+(3452, '機械高崙零件'),
+(3453, '火焰綠寶石'),
+(3454, '阿貝拉絲綢禮服'),
+(3455, '貝里歐斯陶瓷壺'),
+(3456, '皇室之鑽'),
+(3457, '席琳雕像-頭部'),
+(3458, '席琳雕像-軀幹'),
+(3459, '席琳雕像-手臂'),
+(3460, '席琳雕像-腿部'),
+(3461, '完整的席琳雕像'),
+(3462, '古代黏土版碎片-第一片'),
+(3463, '古代黏土版碎片-第二片'),
+(3464, '古代黏土版碎片-第三片'),
+(3465, '古代黏土版碎片-第四片'),
+(3466, '完整的黏土版'),
+(3467, '願望藥水'),
+(3468, '古代王冠'),
+(3469, '王權證明書'),
+(3470, '金塊'),
+(3472, '血之梅杜莎'),
+(3473, '血之狼'),
+(3474, '血之劇毒邪惡蜥蜴'),
+(3475, '血之德雷巴奴'),
+(3476, '血之魅魔'),
+(3477, '血之龍'),
+(3478, '巴列斯的血之龍'),
+(3479, '瑪朗的血之狼'),
+(3480, '妮亞的血之梅杜莎'),
+(3481, '黃金龍'),
+(3482, '黃金翼龍'),
+(3483, '黃金騎士'),
+(3484, '黃金巨人'),
+(3485, '黃金飛龍'),
+(3486, '黃金亞龍'),
+(3487, '巴列斯的黃金龍'),
+(3488, '瑪朗的黃金巨人'),
+(3489, '妮亞的黃金翼龍'),
+(3490, '銀獨角獸'),
+(3491, '銀妖精'),
+(3492, '銀樹精'),
+(3493, '銀龍'),
+(3494, '銀高崙'),
+(3495, '銀水精'),
+(3496, '巴列斯的銀龍'),
+(3497, '瑪朗的銀樹精'),
+(3498, '妮亞的銀妖精'),
+(3499, '精靈粉末'),
+(3500, '風龍笛'),
+(3501, '星龍笛'),
+(3502, '黃昏龍笛'),
+(3503, '送貨員證明'),
+(3504, '基魯那的號角'),
+(3505, '米索莉鑄模'),
+(3506, '血色的信'),
+(3507, '補給物資'),
+(3508, '補給物資'),
+(3509, '阿蘭克爾的貨幣'),
+(3510, '典獄長的感謝函'),
+(3511, '黑箱子'),
+(3512, '特製溫德薩斯火腿'),
+(3513, '賽勒諾斯的心臟'),
+(3514, '奇岩城鎮的送貨委託書'),
+(3515, '古魯丁村莊的送貨委託書'),
+(3516, '獵人村莊的送貨委託書'),
+(3517, '赤色送貨收據'),
+(3518, '青色送貨收據'),
+(3519, '送貨員專家證明'),
+(3520, '領受證'),
+(3521, '領受證'),
+(3522, '卷軸'),
+(3523, '信'),
+(3524, '書'),
+(3525, '文件'),
+(3526, '信'),
+(3527, '包袱'),
+(3528, '信'),
+(3529, '畫'),
+(3530, '甕'),
+(3531, '箱子'),
+(3532, '甕'),
+(3533, '箱子'),
+(3534, '機械裝置'),
+(3535, '寶石箱'),
+(3536, '寶石箱'),
+(3537, '信'),
+(3538, '書'),
+(3539, '雕刻品'),
+(3540, '箱子'),
+(3541, '雕刻品'),
+(3542, '寶石箱'),
+(3543, '文件'),
+(3544, '藥瓶'),
+(3545, '雕刻品'),
+(3546, '礦石'),
+(3547, '書'),
+(3548, '卷軸'),
+(3549, '畫'),
+(3550, '布匹'),
+(3551, '甕'),
+(3552, '鑽石'),
+(3553, '寶石箱'),
+(3554, '金塊'),
+(3555, '包袱'),
+(3556, '信'),
+(3557, '布匹'),
+(3558, '書'),
+(3559, '礦石'),
+(3560, '藥瓶'),
+(3561, '小箱子'),
+(3562, '文件'),
+(3563, '卷軸'),
+(3564, '文件'),
+(3565, '箱子'),
+(3566, '包袱'),
+(3567, '鑰匙'),
+(3568, '機械裝置'),
+(3569, '文件'),
+(3570, '小箱子'),
+(3571, '包袱'),
+(3572, '箱子'),
+(3573, '畫'),
+(3574, '卷軸'),
+(3575, '箱子'),
+(3576, '甕'),
+(3577, '寶石箱'),
+(3578, '書'),
+(3579, '藥瓶'),
+(3580, '卷軸'),
+(3581, '小箱子'),
+(3582, '藥瓶'),
+(3583, '卷軸'),
+(3584, '信'),
+(3585, '寶石箱'),
+(3586, '樣本'),
+(3587, '包袱'),
+(3588, '書'),
+(3589, '領受證'),
+(3590, '領受證'),
+(3591, '領受證'),
+(3592, '領受證'),
+(3593, '領受證'),
+(3594, '領受證'),
+(3595, '領受證'),
+(3596, '領受證'),
+(3597, '領受證'),
+(3598, '領受證'),
+(3599, '領受證'),
+(3600, '領受證'),
+(3601, '領受證'),
+(3602, '領受證'),
+(3603, '領受證'),
+(3604, '領受證'),
+(3605, '領受證'),
+(3606, '領受證'),
+(3607, '領受證'),
+(3608, '領受證'),
+(3609, '領受證'),
+(3610, '領受證'),
+(3611, '領受證'),
+(3612, '領受證'),
+(3613, '領受證'),
+(3614, '領受證'),
+(3615, '領受證'),
+(3616, '領受證'),
+(3617, '領受證'),
+(3618, '領受證'),
+(3619, '領受證'),
+(3620, '領受證'),
+(3621, '領受證'),
+(3622, '領受證'),
+(3623, '領受證'),
+(3624, '領受證'),
+(3625, '領受證'),
+(3626, '領受證'),
+(3627, '領受證'),
+(3628, '領受證'),
+(3629, '領受證'),
+(3630, '領受證'),
+(3631, '領受證'),
+(3632, '領受證'),
+(3633, '領受證'),
+(3634, '領受證'),
+(3635, '領受證'),
+(3636, '領受證'),
+(3637, '領受證'),
+(3638, '領受證'),
+(3639, '領受證'),
+(3640, '領受證'),
+(3641, '領受證'),
+(3642, '領受證'),
+(3643, '領受證'),
+(3644, '領受證'),
+(3645, '領受證'),
+(3646, '領受證'),
+(3647, '領受證'),
+(3648, '領受證'),
+(3649, '領受證'),
+(3650, '領受證'),
+(3651, '領受證'),
+(3652, '領受證'),
+(3653, '領受證'),
+(3654, '領受證'),
+(3655, '領受證'),
+(3656, '眼怪的眼'),
+(3657, '路行蜘蛛的爪'),
+(3658, '豺狼軍官服'),
+(3659, '阿蘭克爾的頭'),
+(3660, '血腥蜜蜂毒針'),
+(3661, '鬼魂之火的火源'),
+(3662, '飄蕩之血'),
+(3663, '箱子'),
+(3664, '寶石箱'),
+(3665, '甕'),
+(3666, '金塊'),
+(3667, '書'),
+(3668, '包袱'),
+(3669, '甕'),
+(3670, '小箱子'),
+(3671, '索比亞的指令書'),
+(3672, '索比亞的指令書'),
+(3673, '索比亞的指令書'),
+(3674, '索比亞的指令書'),
+(3675, '獅子之爪'),
+(3676, '獅子之眼'),
+(3677, '亞丁商業同盟貨幣'),
+(3678, '鍊金術教材'),
+(3679, '魔法藥水祕方'),
+(3680, '馬堤爾德材料目錄-第二張'),
+(3681, '馬堤爾德材料目錄-第一張'),
+(3682, '馬堤爾德之珠'),
+(3683, '禁止的愛情祕卷'),
+(3684, '安柏邪惡蜥蜴的鱗'),
+(3685, '風之靈魂石'),
+(3686, '玻璃眼'),
+(3687, '薄霧撕裂者的外殼'),
+(3688, '賽勒諾斯的角'),
+(3689, '兵蟻的蚜蟲'),
+(3690, '暴君的甲殼破片'),
+(3691, '食人妖的血'),
+(3692, '獵人資格證-一團'),
+(3693, '獵人資格證-二團'),
+(3694, '月桂樹裝飾夾'),
+(3695, '指示書-一團資格考驗'),
+(3696, '指示書-二團資格考驗'),
+(3697, '齊白霖的委託書'),
+(3698, '血水晶-純度1'),
+(3699, '血水晶-純度2'),
+(3700, '血水晶-純度3'),
+(3701, '血水晶-純度4'),
+(3702, '血水晶-純度5'),
+(3703, '血水晶-純度6'),
+(3704, '血水晶-純度7'),
+(3705, '血水晶-純度8'),
+(3706, '血水晶-純度9'),
+(3707, '血水晶-純度10'),
+(3708, '破碎的血水晶'),
+(3709, '邪惡蜥蜴守護者的鱗'),
+(3710, '卡魯特藥草'),
+(3711, '哈卡的頭'),
+(3712, '札卡的頭'),
+(3713, '瑪爾卡的頭'),
+(3714, '溫德薩斯阿勒伏的皮'),
+(3715, '青色魔精石'),
+(3716, '腐海孢子'),
+(3717, '提瑪克獸人圖騰'),
+(3718, '崔沙林的蛛絲'),
+(3719, '安普勒斯果實'),
+(3720, '烽火水晶'),
+(3721, '帝國樣式的箭頭'),
+(3722, '阿吐的頭'),
+(3723, '藍卡的頭'),
+(3724, '特力茲卡的頭'),
+(3725, '摩特拉的頭'),
+(3726, '卡朗特的頭'),
+(3727, '委託受領證'),
+(3728, '委託受領證'),
+(3729, '委託受領證'),
+(3730, '委託受領證'),
+(3731, '委託受領證'),
+(3732, '委託受領證'),
+(3733, '委託受領證'),
+(3734, '委託受領證'),
+(3735, '委託受領證'),
+(3736, '委託受領證'),
+(3737, '委託受領證'),
+(3738, '委託受領證'),
+(3739, '委託受領證'),
+(3740, '委託受領證'),
+(3741, '委託受領證'),
+(3742, '委託受領證'),
+(3743, '委託受領證'),
+(3744, '委託受領證'),
+(3745, '委託受領證'),
+(3746, '委託受領證'),
+(3747, '委託受領證'),
+(3748, '委託受領證'),
+(3749, '委託受領證'),
+(3750, '委託受領證'),
+(3751, '委託受領證'),
+(3752, '委託受領證'),
+(3753, '委託受領證'),
+(3754, '委託受領證'),
+(3755, '委託受領證'),
+(3756, '委託受領證'),
+(3757, '委託受領證'),
+(3758, '委託受領證'),
+(3759, '委託受領證'),
+(3760, '委託受領證'),
+(3761, '委託受領證'),
+(3762, '委託受領證'),
+(3763, '委託受領證'),
+(3764, '委託受領證'),
+(3765, '委託受領證'),
+(3766, '委託受領證'),
+(3767, '委託受領證'),
+(3768, '委託受領證'),
+(3769, '軍神卡迪斯圖騰'),
+(3770, '提瑪克玉石項鍊'),
+(3771, '附法岩石高崙的破片'),
+(3772, '巨大眼怪的肉'),
+(3773, '邪惡亞龍的蛋'),
+(3774, '邪惡蜥蜴守護者的爪'),
+(3775, '亡者鎖鏈'),
+(3776, '溫德薩斯的牙'),
+(3777, '葛雷迪斯的頭骨'),
+(3778, '泰可黑曜石項鍊'),
+(3779, '卡魯食人妖的頭'),
+(3780, '塔林的象牙符咒'),
+(3781, '拿拉克的頸項'),
+(3782, '附法翼魔的角'),
+(3783, '盤繞的蛇圖騰'),
+(3784, '卡迪斯圖騰'),
+(3785, '卡毅克的頭'),
+(3786, '可洛比的毒囊'),
+(3787, '伊娃的符咒'),
+(3788, '下巨人的石板'),
+(3789, '史奈曼的經典'),
+(3790, '腐爛樹的孢子'),
+(3791, '崔沙林的毒囊'),
+(3792, '泰可獸人圖騰'),
+(3793, '哈里特的鱗項鍊'),
+(3794, '古代帝國的貨銅幣'),
+(3795, '帕克蘭的皮'),
+(3796, '颶風碎片'),
+(3797, '海嘯碎片'),
+(3798, '片奴的鬃毛'),
+(3799, '木精碎片'),
+(3800, '賽勒諾斯的銀色鬃毛'),
+(3801, '塔爾克食人妖圖騰'),
+(3802, '奧昆的頭'),
+(3803, '卡克蘭的頭'),
+(3804, '那勒西斯的靈魂石'),
+(3805, '帝萊普之眼'),
+(3806, '獨角獸的角'),
+(3807, '克爾諾斯的黃金鬃毛'),
+(3808, '死刑犯的頭骨'),
+(3809, '特拉庇斯的胸像'),
+(3810, '卡德姆斯親衛隊之劍'),
+(3811, '貨幣圖鑑'),
+(3812, '卡第斯的黃金龍'),
+(3813, '銅幣收集會會員證一級'),
+(3814, '銅幣收集會會員證二級'),
+(3815, '銅幣收集會會員證三級'),
+(3816, '妖精石'),
+(3817, '純白妖精石'),
+(3818, '妖精石的材料清單'),
+(3819, '純白妖精石的材料清單'),
+(3820, '安皮克奧的背皮'),
+(3821, '附子汁液'),
+(3822, '飛龍艾薩里恩的麟'),
+(3823, '飛龍艾薩里恩的蛋'),
+(3824, '飛龍座芙的鱗'),
+(3825, '飛龍座芙的蛋'),
+(3826, '飛龍卡理布藍的麟'),
+(3827, '飛龍卡理布藍的蛋'),
+(3828, '亞龍舒簡特的麟'),
+(3829, '亞龍舒簡特的蛋'),
+(3830, '亞龍桑骸的麟'),
+(3831, '亞龍桑骸的蛋'),
+(3832, '哈里特藥草'),
+(3833, '巴諾爾藥草'),
+(3834, '奧耶豺狼藥草'),
+(3835, '伊娃的血'),
+(3836, '阿特萊雅的貨幣'),
+(3837, '忠誠的憑證'),
+(3838, '製作卷軸(巨人的動力裝置25%)'),
+(3839, '薄霧飛龍的蛋'),
+(3840, '部列特亞龍的蛋'),
+(3841, '飛龍的蛋'),
+(3842, '雷亞龍的蛋'),
+(3843, '鵲胸針'),
+(3844, '隕石水晶'),
+(3845, '損壞的巨人動力裝置'),
+(3846, '巨人動力裝置'),
+(3847, '皇室的鑰匙'),
+(3848, '不死生物的灰'),
+(3849, '血腥之斧徽章'),
+(3850, '德魯蜥蜴人的牙'),
+(3851, '司塔卡拓的爪'),
+(3852, '加布里爾的羽毛'),
+(3853, '瑪許追蹤者的角'),
+(3854, '瑪許飛龍的爪'),
+(3855, '科蘭洛特的皮'),
+(3856, '罕羅特的腳'),
+(3857, '祭物的遺骨'),
+(3858, '地龍圖騰'),
+(3859, '深淵寶石的破片'),
+(3860, '深淵寶石的破片'),
+(3861, '深淵寶石的破片'),
+(3862, '寶石守護者瑪拉的尖牙'),
+(3863, '寶石守護者姆斯派爾的尖牙'),
+(3864, '守護者憑證'),
+(3865, '傳送石'),
+(3866, '古斯達夫的密函'),
+(3867, '古斯達夫的密函'),
+(3868, '古斯達夫的密函'),
+(3869, '審判的玉璽'),
+(3870, '盼望之證'),
+(3871, '黑色鐵砧公會紀念幣'),
+(3872, '解毒藥材料清單'),
+(3873, '信賴的保證'),
+(3874, '決議之證'),
+(3875, 'L2Day-文字A'),
+(3876, 'L2Day-文字C'),
+(3877, 'L2Day-文字E'),
+(3878, 'L2Day-文字F'),
+(3879, 'L2Day-文字G'),
+(3880, 'L2Day-文字H'),
+(3881, 'L2Day-文字I'),
+(3882, 'L2Day-文字L'),
+(3883, 'L2Day-文字N'),
+(3884, 'L2Day-文字O'),
+(3885, 'L2Day-文字R'),
+(3886, 'L2Day-文字S'),
+(3887, 'L2Day-文字T'),
+(3888, 'L2Day-文字II'),
+(3889, '恢復之藥'),
+(3890, '征服者標章'),
+(3926, 'L2Day-導引卷軸'),
+(3927, 'L2Day-死之呢喃卷軸'),
+(3928, 'L2Day-弱點偵測卷軸'),
+(3929, 'L2Day-靈活思緒卷軸'),
+(3930, 'L2Day-速度激發卷軸'),
+(3931, 'L2Day-敏捷術卷軸'),
+(3932, 'L2Day-魔力催化卷軸'),
+(3933, 'L2Day-力量強化卷軸'),
+(3934, 'L2Day-風之疾走卷軸'),
+(3935, 'L2Day-保護盾卷軸'),
+(3936, '祝福的復活卷軸'),
+(3940, '設計圖-召喚攻城高崙'),
+(3941, '魔法書-團體返生術'),
+(3942, '魔法書-隊伍回歸術'),
+(3943, '護身符-帕格立歐之心'),
+(3944, '魔法書-減輕負重'),
+(3945, '船票-說話之島往奇岩'),
+(3946, '船票-奇岩往說話之島'),
+(3947, '祝福的魔靈彈-普通'),
+(3948, '祝福的魔靈彈-D級'),
+(3949, '祝福的魔靈彈-C級'),
+(3950, '祝福的魔靈彈-B級'),
+(3951, '祝福的魔靈彈-A級'),
+(3952, '祝福的魔靈彈-S級'),
+(3953, '製作卷軸(祝福的魔靈彈-D級100%)'),
+(3954, '製作卷軸(祝福的魔靈彈-C級100%)'),
+(3955, '製作卷軸(祝福的魔靈彈-B級100%)'),
+(3956, '製作卷軸(祝福的魔靈彈-A級100%)'),
+(3957, '製作卷軸(祝福的魔靈彈-S級100%)'),
+(3958, 'L2Day-祝福的返回卷軸'),
+(3959, 'L2Day-祝福的復活卷軸'),
+(3960, '傭兵配置表(劍/固定)'),
+(3961, '傭兵配置表(槍/固定)'),
+(3962, '傭兵配置表(弓/固定)'),
+(3963, '傭兵配置表(牧師/固定)'),
+(3964, '傭兵配置表(巫師/固定)'),
+(3965, '傭兵配置表(劍/移動)'),
+(3966, '傭兵配置表(槍/移動)'),
+(3967, '傭兵配置表(弓/移動)'),
+(3968, '傭兵配置表(牧師/移動)'),
+(3969, '傭兵配置表(巫師/移動)'),
+(3970, '傭兵配置表(傳送師1)'),
+(3971, '傭兵配置表(傳送師2)'),
+(3972, '傭兵配置表(傳送師3)'),
+(3973, '傭兵配置表(劍/固定)'),
+(3974, '傭兵配置表(槍/固定)'),
+(3975, '傭兵配置表(弓/固定)'),
+(3976, '傭兵配置表(牧師/固定)'),
+(3977, '傭兵配置表(巫師/固定)'),
+(3978, '傭兵配置表(劍/移動)'),
+(3979, '傭兵配置表(槍/移動)'),
+(3980, '傭兵配置表(弓/移動)'),
+(3981, '傭兵配置表(牧師/移動)'),
+(3982, '傭兵配置表(巫師/移動)'),
+(3983, '傭兵配置表(傳送師1)'),
+(3984, '傭兵配置表(傳送師2)'),
+(3985, '傭兵配置表(傳送師3)'),
+(3986, '傭兵配置表(劍/固定)'),
+(3987, '傭兵配置表(槍/固定)'),
+(3988, '傭兵配置表(弓/固定)'),
+(3989, '傭兵配置表(牧師/固定)'),
+(3990, '傭兵配置表(巫師/固定)'),
+(3991, '傭兵配置表(劍/移動)'),
+(3992, '傭兵配置表(槍/移動)'),
+(3993, '傭兵配置表(弓/移動)'),
+(3994, '傭兵配置表(牧師/移動)'),
+(3995, '傭兵配置表(巫師/移動)'),
+(3996, '傭兵配置表(傳送師1)'),
+(3997, '傭兵配置表(傳送師2)'),
+(3998, '傭兵配置表(傳送師3)'),
+(3999, '傭兵配置表(劍/固定)'),
+(4000, '傭兵配置表(槍/固定)'),
+(4001, '傭兵配置表(弓/固定)'),
+(4002, '傭兵配置表(牧師/固定)'),
+(4003, '傭兵配置表(巫師/固定)'),
+(4004, '傭兵配置表(劍/移動)'),
+(4005, '傭兵配置表(槍/移動)'),
+(4006, '傭兵配置表(弓/移動)'),
+(4007, '傭兵配置表(牧師/移動)'),
+(4008, '傭兵配置表(巫師/移動)'),
+(4009, '傭兵配置表(傳送師1)'),
+(4010, '傭兵配置表(傳送師2)'),
+(4011, '傭兵配置表(傳送師3)'),
+(4012, '傭兵配置表(劍/固定)'),
+(4013, '傭兵配置表(槍/固定)'),
+(4014, '傭兵配置表(弓/固定)'),
+(4015, '傭兵配置表(牧師/固定)'),
+(4016, '傭兵配置表(巫師/固定)'),
+(4017, '傭兵配置表(劍/移動)'),
+(4018, '傭兵配置表(槍/移動)'),
+(4019, '傭兵配置表(弓/移動)'),
+(4020, '傭兵配置表(牧師/移動)'),
+(4021, '傭兵配置表(巫師/移動)'),
+(4022, '傭兵配置表(傳送師1)'),
+(4023, '傭兵配置表(傳送師2)'),
+(4024, '傭兵配置表(傳送師3)'),
+(4025, '傭兵配置表(傳送師4)'),
+(4026, '傭兵配置表(傳送師5)'),
+(4029, '色紙(紅色)'),
+(4030, '色紙(橘黃色)'),
+(4031, '色紙(黃色)'),
+(4032, '色紙(綠色)'),
+(4033, '色紙(藍色)'),
+(4034, '色紙(紫色)'),
+(4035, '色紙(白色)'),
+(4036, '色紙(黑色)'),
+(4037, '幸運貨幣'),
+(4038, '幼龍飼料'),
+(4039, '鑄模的黏劑'),
+(4040, '鑄模的潤滑劑'),
+(4041, '鑄模的強化劑'),
+(4042, '恩尼亞'),
+(4043, '亞索沛'),
+(4044, '梭芷'),
+(4045, '巨匠骨架'),
+(4046, '巨匠砧鎖'),
+(4047, '刀匠鑄模'),
+(4048, '巨匠模具'),
+(4049, '金剛石耳環的寶石'),
+(4050, '金剛石戒指的金屬線'),
+(4051, '金剛石項鍊的鍊子'),
+(4052, '黑光耳環的碎片'),
+(4053, '黑光戒指的金屬線'),
+(4054, '黑光項鍊的珠子'),
+(4055, '合金盾的碎片'),
+(4056, '夏隆胸甲的碎片'),
+(4057, '夏隆脛甲的材料'),
+(4058, '毀滅靴的碎片'),
+(4059, '寧靜靴的布料'),
+(4060, '守護神靴的布料'),
+(4061, '佩勒迪亞靴的圖樣'),
+(4062, '元素靴的內襯'),
+(4063, '恩寵靴的內襯'),
+(4064, '阿巴敦胸甲的碎片'),
+(4065, '阿巴敦脛甲材料'),
+(4066, '夏隆皮衫的布料'),
+(4067, '夏隆皮脛甲的材料'),
+(4068, '阿巴敦皮甲的內襯'),
+(4069, '夏隆外衣的布料'),
+(4070, '夏隆長襪的布料'),
+(4071, '阿巴敦長袍的布料'),
+(4072, '阿巴敦頭箍的圖樣'),
+(4073, '封印的阿巴敦手套的碎片'),
+(4074, '寧靜鏈手套的組件'),
+(4075, '守護神手套的組件'),
+(4076, '祝福手套的圖樣'),
+(4077, '末日盾的碎片'),
+(4078, '青狼胸甲的碎片'),
+(4079, '祝福靴的組件'),
+(4080, '青狼脛甲的材料'),
+(4081, '末日金屬盔甲的合金'),
+(4082, '青狼皮甲的材料'),
+(4083, '末日皮甲的組件'),
+(4084, '青狼外衣的布料'),
+(4085, '末日外衣的圖樣'),
+(4086, '青狼長襪的圖樣'),
+(4087, '末日長襪的圖樣'),
+(4088, '青狼頭盔的組件'),
+(4089, '末日頭盔的圖樣'),
+(4090, '封印的青狼長靴的圖樣'),
+(4091, '封印的末日手套的碎片'),
+(4092, '元素手套的內襯'),
+(4093, '恩寵手套的內襯'),
+(4094, '毀滅長手套的布料'),
+(4095, '佩勒迪亞手套的圖樣'),
+(4096, '封印的青狼手套的布料'),
+(4097, '封印的夏隆靴的組件'),
+(4098, '封印的阿巴敦靴的組件'),
+(4099, '封印的末日靴的碎片'),
+(4100, '封印的夏隆長手套的碎片'),
+(4101, '夏隆盾的碎片'),
+(4102, '夏隆頭盔的組件'),
+(4103, '帕塔拳刃的刀身'),
+(4104, '巨劍的刀身'),
+(4105, '巨大戰斧的金屬塊'),
+(4106, '精靈魔杖的金屬塊'),
+(4107, '柯貝克劍的劍身'),
+(4108, '聖堂之劍的刀身'),
+(4109, '波形刃的刀身'),
+(4110, '地獄刀的刀身'),
+(4111, '阿斯拉爪的刀身'),
+(4112, '黑暗精靈長弓的柄'),
+(4113, '巨斧的金屬塊'),
+(4114, '大馬士革刀的劍身'),
+(4115, '長槍的刀身'),
+(4116, '亡者榮譽的石材'),
+(4117, '工藝戰斧的刀身'),
+(4118, '邪靈魔杖的金屬塊'),
+(4119, '惡魔短劍的刀身'),
+(4120, '博利恩拳套的刃部'),
+(4121, '冒險弓的柄'),
+(4122, '製作卷軸(巨匠骨架100%)'),
+(4123, '製作卷軸(巨匠砧鎖100%)'),
+(4124, '製作卷軸(刀匠鑄模100%)'),
+(4125, '製作卷軸(巨匠模具100%)'),
+(4126, '製作卷軸(金剛石耳環100%)'),
+(4127, '製作卷軸(金剛石戒指100%)'),
+(4128, '製作卷軸(金剛石項鍊100%)'),
+(4129, '製作卷軸(黑光耳環100%)'),
+(4130, '製作卷軸(黑光戒指100%)'),
+(4131, '製作卷軸(黑光項鍊100%)'),
+(4132, '製作卷軸(合金盾100%)'),
+(4133, '製作卷軸(夏隆胸甲100%)'),
+(4134, '製作卷軸(夏隆脛甲100%)'),
+(4135, '製作卷軸(毀滅靴100%)'),
+(4136, '製作卷軸(寧靜靴100%)'),
+(4137, '製作卷軸(守護神靴100%)'),
+(4138, '製作卷軸(佩勒迪亞靴100%)'),
+(4139, '製作卷軸(元素靴100%)'),
+(4140, '製作卷軸(恩寵靴100%)'),
+(4141, '製作卷軸(阿巴敦胸甲100%)'),
+(4142, '製作卷軸(阿巴敦脛甲100%)'),
+(4143, '製作卷軸(夏隆皮衫100%)'),
+(4144, '製作卷軸(夏隆皮脛甲100%)'),
+(4145, '製作卷軸(阿巴敦皮甲100%)'),
+(4146, '製作卷軸(夏隆外衣100%)'),
+(4147, '製作卷軸(夏隆長襪100%)'),
+(4148, '製作卷軸(阿巴敦長袍100%)'),
+(4149, '製作卷軸(阿巴敦頭箍100%)'),
+(4150, '製作卷軸(封印的阿巴敦手套100%)'),
+(4151, '製作卷軸(寧靜鏈手套100%)'),
+(4152, '製作卷軸(守護神手套100%)'),
+(4153, '製作卷軸(祝福手套100%)'),
+(4154, '製作卷軸(末日盾100%)'),
+(4155, '製作卷軸(青狼胸甲100%)'),
+(4156, '製作卷軸(祝福靴100%)'),
+(4157, '製作卷軸(青狼脛甲100%)'),
+(4158, '製作卷軸(末日金屬盔甲100%)'),
+(4159, '製作卷軸(青狼皮甲100%)'),
+(4160, '製作卷軸(末日皮甲100%)'),
+(4161, '製作卷軸(青狼外衣100%)'),
+(4162, '製作卷軸(末日外衣100%)'),
+(4163, '製作卷軸(青狼長襪100%)'),
+(4164, '製作卷軸(末日長襪100%)'),
+(4165, '製作卷軸(青狼頭盔100%)'),
+(4166, '製作卷軸(末日頭盔100%)'),
+(4167, '製作卷軸(封印的青狼長靴100%)'),
+(4168, '製作卷軸(封印的末日手套100%)'),
+(4169, '製作卷軸(元素手套100%)'),
+(4170, '製作卷軸(恩寵手套100%)'),
+(4171, '製作卷軸(毀滅長手套100%)'),
+(4172, '製作卷軸(佩勒迪亞手套100%)'),
+(4173, '製作卷軸(封印的青狼手套100%)'),
+(4174, '製作卷軸(封印的夏隆靴100%)'),
+(4175, '製作卷軸(封印的阿巴敦靴100%)'),
+(4176, '製作卷軸(封印的末日靴100%)'),
+(4177, '製作卷軸(封印的夏隆長手套100%)'),
+(4178, '製作卷軸(夏隆盾100%)'),
+(4179, '製作卷軸(夏隆頭盔100%)'),
+(4180, '製作卷軸(銀箭100%)'),
+(4181, '製作卷軸(帕塔拳刃100%)'),
+(4182, '製作卷軸(巨劍100%)'),
+(4183, '製作卷軸(巨大戰斧100%)'),
+(4184, '製作卷軸(精靈魔杖100%)'),
+(4185, '製作卷軸(柯貝克劍100%)'),
+(4186, '製作卷軸(聖堂之劍100%)'),
+(4187, '製作卷軸(波形刃100%)'),
+(4188, '製作卷軸(地獄刀100%)'),
+(4189, '製作卷軸(阿斯拉爪100%)'),
+(4190, '製作卷軸(黑暗精靈長弓100%)'),
+(4191, '製作卷軸(巨斧100%)'),
+(4192, '製作卷軸(大馬士革刀100%)'),
+(4193, '製作卷軸(長槍100%)'),
+(4194, '製作卷軸(亡者榮譽100%)'),
+(4195, '製作卷軸(工藝戰斧100%)'),
+(4196, '製作卷軸(邪靈魔杖100%)'),
+(4197, '製作卷軸(惡魔短劍100%)'),
+(4198, '製作卷軸(博利恩拳套100%)'),
+(4199, '製作卷軸(冒險弓100%)'),
+(4200, '魔法書-生命治癒'),
+(4201, '魔法書-抵抗休克'),
+(4203, '魔法書-生命吸取'),
+(4204, '護身符-帕格立歐迅捷'),
+(4205, '護身符-帕格立歐憤怒'),
+(4206, '魔法書-痛苦轉移'),
+(4207, '魔法書-魔力再生'),
+(4208, '魔法書-暗影詛咒'),
+(4209, 'L2Event-紅心碎片1'),
+(4210, 'L2Event-紅心碎片2'),
+(4211, 'L2Event-紅心碎片3'),
+(4212, 'L2Event-紅心碎片4'),
+(4213, 'L2Event-紅心碎片5'),
+(4214, 'L2Event-紅心碎片6'),
+(4215, 'L2Event-紅心碎片7'),
+(4216, 'L2Event-紅心碎片8'),
+(4217, 'L2Event-紅心碎片9'),
+(4218, 'L2Event-魔力再生卷軸'),
+(4232, '骰子'),
+(4239, '劍身鑄模'),
+(4240, '特威提的票據'),
+(4241, '巡察報告1'),
+(4242, '巡察報告2'),
+(4243, '巡察報告3'),
+(4244, '巡察報告4'),
+(4245, '武器交易契約'),
+(4246, '攻擊指令書'),
+(4247, '銀天秤證明書'),
+(4248, '羅倫陶的貨物箱'),
+(4249, '豺狼軍官的頭'),
+(4250, '翡翠石'),
+(4251, '古神像'),
+(4252, '哥弗勒多若哈梅爾的胸像'),
+(4253, '暗影之眼'),
+(4254, '特級會員參加資格證'),
+(4255, '商業同盟的貨物'),
+(4256, '阿格擬斯聖標'),
+(4257, '阿格擬斯念珠'),
+(4258, '不吉的圖騰'),
+(4259, '熊皮'),
+(4260, '安庫獸人頭'),
+(4261, '獸人頭捆'),
+(4262, '獸人頭捆'),
+(4263, '獸人頭捆'),
+(4264, '獸人頭捆'),
+(4265, '獸人頭捆'),
+(4266, '獸人頭捆'),
+(4267, '獸人頭捆'),
+(4268, '給甄妮佛的箱子'),
+(4269, '遠征隊遺物'),
+(4270, '破舊的鑰匙'),
+(4271, '破舊的劍柄'),
+(4272, '符咒項鍊'),
+(4273, '殷海薩的聖標'),
+(4274, '犧牲者臂骨'),
+(4275, '犧牲者腿骨'),
+(4276, '犧牲者頭骨'),
+(4277, '犧牲者肋骨'),
+(4278, '犧牲者脊椎'),
+(4279, '放骨頭的罈'),
+(4280, '無用的骨頭'),
+(4281, '召喚靈魂的粉'),
+(4282, '裝屍袋'),
+(4283, '青蛙王子'),
+(4284, '蒼蠅粉'),
+(4285, '新型計算機'),
+(4286, '寶石獸的結晶'),
+(4287, '下巨人的動力裝置'),
+(4288, '哈奈林的信'),
+(4289, '哈奈林的信'),
+(4290, '哈奈林的信'),
+(4291, '聖櫃的鑰匙'),
+(4292, '聖櫃的鑰匙'),
+(4293, '聖櫃的鑰匙'),
+(4294, '白布'),
+(4295, '染血的布'),
+(4296, '茍斯達的指令書'),
+(4297, '蜥蜴人的牙'),
+(4298, '木桶'),
+(4299, '作戰計畫書1/10'),
+(4300, '作戰計畫書2/10'),
+(4301, '作戰計畫書3/10'),
+(4302, '作戰計畫書4/10'),
+(4303, '作戰計畫書5/10'),
+(4304, '作戰計畫書6/10'),
+(4305, '作戰計畫書7/10'),
+(4306, '作戰計畫書8/10'),
+(4307, '作戰計畫書9/10'),
+(4308, '作戰計畫書10/10'),
+(4309, '完成的作戰計畫書'),
+(4310, '艾森海內的票據'),
+(4311, '吉力恩的日記'),
+(4312, '吉力恩的紙條'),
+(4313, '未完的樂譜'),
+(4314, '吉力恩的心臟'),
+(4315, '甘地一族聖物'),
+(4316, '史汪的笛子'),
+(4317, '史汪的信'),
+(4318, '活動服'),
+(4319, '娜娜琳的笛子'),
+(4320, '沙布琳的黑啤酒'),
+(4321, '偷來的黑啤酒'),
+(4322, '偷來的活動服'),
+(4323, '衣服箱子鑰匙'),
+(4324, '啤酒箱子鑰匙'),
+(4325, '妖精的葉子'),
+(4326, '食腐鼠人的頭'),
+(4327, '土瑞克軍犬的尾巴'),
+(4328, '暴君之王的心臟'),
+(4329, '崔沙林多得的毒囊'),
+(4330, '懺悔者手銬'),
+(4331, '懺悔者手銬組合法'),
+(4332, '塔爾克護身項鍊'),
+(4333, '預賽參加資格證'),
+(4334, '工蟻體液'),
+(4335, '雄蟻神經組織'),
+(4336, '卡席安的酵素劑'),
+(4337, '鱷魚皮'),
+(4338, '藍色鱷魚皮'),
+(4339, '鑲嵌寶石藍色鱷魚皮'),
+(4340, '皮帶製作許可證'),
+(4341, '背包製作許可證'),
+(4342, '水之水晶'),
+(4343, '火之水晶'),
+(4344, '風之水晶'),
+(4345, '土之水晶'),
+(4346, '暗之水晶'),
+(4347, '光之水晶'),
+(4348, '翡翠石'),
+(4349, '古代胸像'),
+(4350, '雕刻家費蘿娜的作品'),
+(4351, '雕刻家費蘿娜的作品-原型'),
+(4352, '古代女神像-真品'),
+(4353, '古代女神像-複製品'),
+(4354, '古代女神像-贗品'),
+(4355, '藍色伊娃'),
+(4356, '金色殷海薩'),
+(4357, '銀色席琳'),
+(4358, '血紅色帕格立歐'),
+(4359, '裝滿酒的桶子'),
+(4360, '寶石色甲蟲'),
+(4361, '辛貝米內的花'),
+(4362, '奇妙的人偶'),
+(4363, '紅色洋裝'),
+(4364, '隕石球珠'),
+(4365, '殼酒'),
+(4366, '王子的優勝紀念盃'),
+(4367, '王子的自傳'),
+(4368, '王子的胸像'),
+(4369, '絲手巾'),
+(4370, '華麗酒杯'),
+(4371, '黑暗的杖'),
+(4372, '魅魔香水'),
+(4373, '魅魔鏡子'),
+(4374, '黑暗之心'),
+(4375, '獸人王室圖騰'),
+(4376, '豬踩過的珍珠'),
+(4377, '豬獠牙'),
+(4378, '地瓜'),
+(4379, '獸爪'),
+(4380, '獸毛'),
+(4381, '人蔘根'),
+(4382, '蜂蜜罈'),
+(4383, '熊膽'),
+(4384, '新鮮鮭魚'),
+(4385, '飯團'),
+(4386, '阿貝拉香料'),
+(4387, '幸運兔草'),
+(4388, '瑪爾勘的支票'),
+(4389, '保管箱鑰匙'),
+(4390, '矮人皇室玉璽'),
+(4391, '矮人皇室之冠'),
+(4392, '矮人舞蹈教材'),
+(4393, '計算機'),
+(4394, '哈奈林的白花'),
+(4395, '哈奈林的紅花'),
+(4396, '哈奈林的黃花'),
+(4397, '聖者的書'),
+(4398, '聖者的血'),
+(4399, '聖者的樹枝'),
+(4400, '白布'),
+(4401, '綠色因次石'),
+(4402, '藍色因次石'),
+(4403, '紅色因次石'),
+(4404, '綠色因次石破片'),
+(4405, '藍色因次石破片'),
+(4406, '紅色因次石破片'),
+(4407, '艾森海內的票據'),
+(4408, '樂譜-愛情之歌'),
+(4409, '樂譜-決戰之歌'),
+(4410, '樂譜-旅行之歌'),
+(4411, '回聲水晶-旅行之歌'),
+(4412, '回聲水晶-決戰之歌'),
+(4413, '回聲水晶-愛情之歌'),
+(4414, '回聲水晶-孤獨之歌'),
+(4415, '回聲水晶-祝典之歌'),
+(4416, '回聲水晶-慶祝之歌'),
+(4417, '回聲水晶-喜劇之歌'),
+(4418, '樂譜-慶祝之歌'),
+(4419, '樂譜-喜劇之歌'),
+(4420, '樂譜-孤獨之歌'),
+(4421, '樂譜-祝典之歌'),
+(4422, '風龍號角'),
+(4423, '星龍號角'),
+(4424, '黃昏龍號角'),
+(4425, '贖罪者手銬'),
+(4426, '贖罪者手銬'),
+(4427, '鱷魚皮帶'),
+(4428, '藍色鱷魚皮帶'),
+(4429, '寶石鱷魚皮帶'),
+(4430, '皮背包'),
+(4431, '藍色皮背包'),
+(4432, '寶石皮背包'),
+(4433, '元素石粉末'),
+(4434, '元素石碎片'),
+(4435, '元素石破塊'),
+(4436, '本特列的清單'),
+(4437, '卡薩的委託書'),
+(4438, '關節拳的刃'),
+(4439, '阿巴敦盾的破片'),
+(4440, '製作卷軸(關節拳100%)'),
+(4441, '製作卷軸(阿巴敦盾100%)'),
+(4442, '彩券'),
+(4443, '怪物賽票-單勝'),
+(4444, '怪物賽票-複勝'),
+(4445, '力量染料<Str+1Con-3>'),
+(4446, '力量染料<Str+1Dex-3>'),
+(4447, '體質染料<Con+1Str-3>'),
+(4448, '體質染料<Con+1Dex-3>'),
+(4449, '敏捷染料<Dex+1Str-3>'),
+(4450, '敏捷染料<Dex+1Con-3>'),
+(4451, '智力染料<Int+1Men-3>'),
+(4452, '智力染料<Int+1Wit-3>'),
+(4453, '精神染料<Men+1Int-3>'),
+(4454, '精神染料<Men+1Wit-3>'),
+(4455, '智慧染料<Wit+1Int-3>'),
+(4456, '智慧染料<Wit+1Men-3>'),
+(4457, '力量染料<Str+1Con-2>'),
+(4458, '力量染料<Str+1Dex-2>'),
+(4459, '體質染料<Con+1Str-2>'),
+(4460, '體質染料<Con+1Dex-2>'),
+(4461, '敏捷染料<Dex+1Str-2>'),
+(4462, '敏捷染料<Dex+1Con-2>'),
+(4463, '智力染料<Int+1Men-2>'),
+(4464, '智力染料<Int+1Wit-2>'),
+(4465, '精神染料<Men+1Int-2>'),
+(4466, '精神染料<Men+1Wit-2>'),
+(4467, '智慧染料<Wit+1Int-2>'),
+(4468, '智慧染料<Wit+1Men-2>'),
+(4469, '力量染料<Str+1Con-1>'),
+(4470, '力量染料<Str+1Dex-1>'),
+(4471, '體質染料<Con+1Str-1>'),
+(4472, '體質染料<Con+1Dex-1>'),
+(4473, '敏捷染料<Dex+1Str-1>'),
+(4474, '敏捷染料<Dex+1Con-1>'),
+(4475, '智力染料<Int+1Men-1>'),
+(4476, '智力染料<Int+1Wit-1>'),
+(4477, '精神染料<Men+1Int-1>'),
+(4478, '精神染料<Men+1Wit-1>'),
+(4479, '智慧染料<Wit+1Int-1>'),
+(4480, '智慧染料<Wit+1Men-1>'),
+(4481, '高級力量染料<Str+1Con-3>'),
+(4482, '高級力量染料<Str+1Dex-3>'),
+(4483, '高級體質染料<Con+1Str-3>'),
+(4484, '高級體質染料<Con+1Dex-3>'),
+(4485, '高級敏捷染料<Dex+1Str-3>'),
+(4486, '高級敏捷染料<Dex+1Con-3>'),
+(4487, '高級智力染料<Int+1Men-3>'),
+(4488, '高級智力染料<Int+1Wit-3>'),
+(4489, '高級精神染料<Men+1Int-3>'),
+(4490, '高級精神染料<Men+1Wit-3>'),
+(4491, '高級智慧染料<Wit+1Int-3>'),
+(4492, '高級智慧染料<Wit+1Men-3>'),
+(4493, '高級力量染料<Str+1Con-2>'),
+(4494, '高級力量染料<Str+1Dex-2>'),
+(4495, '高級體質染料<Con+1Str-2>'),
+(4496, '高級體質染料<Con+1Dex-2>'),
+(4497, '高級敏捷染料<Dex+1Str-2>'),
+(4498, '高級敏捷染料<Dex+1Con-2>'),
+(4499, '高級智力染料<Int+1Men-2>'),
+(4500, '高級智力染料<Int+1Wit-2>'),
+(4501, '高級精神染料<Men+1Int-2>'),
+(4502, '高級精神染料<Men+1Wit-2>'),
+(4503, '高級智慧染料<Wit+1Int-2>'),
+(4504, '高級智慧染料<Wit+1Men-2>'),
+(4505, '高級力量染料<Str+2Con-4>'),
+(4506, '高級力量染料<Str+2Dex-4>'),
+(4507, '高級體質染料<Con+2Str-4>'),
+(4508, '高級體質染料<Con+2Dex-4>'),
+(4509, '高級敏捷染料<Dex+2Str-4>'),
+(4510, '高級敏捷染料<Dex+2Con-4>'),
+(4511, '高級智力染料<Int+2Men-4>'),
+(4512, '高級智力染料<Int+2Wit-4>'),
+(4513, '高級精神染料<Men+2Int-4>'),
+(4514, '高級精神染料<Men+2Wit-4>'),
+(4515, '高級智慧染料<Wit+2Int-4>'),
+(4516, '高級智慧染料<Wit+2Men-4>'),
+(4517, '高級力量染料<Str+2Con-3>'),
+(4518, '高級力量染料<Str+2Dex-3>'),
+(4519, '高級體質染料<Con+2Str-3>'),
+(4520, '高級體質染料<Con+2Dex-3>'),
+(4521, '高級敏捷染料<Dex+2Str-3>'),
+(4522, '高級敏捷染料<Dex+2Con-3>'),
+(4523, '高級智力染料<Int+2Men-3>'),
+(4524, '高級智力染料<Int+2Wit-3>'),
+(4525, '高級精神染料<Men+2Int-3>'),
+(4526, '高級精神染料<Men+2Wit-3>'),
+(4527, '高級智慧染料<Wit+2Int-3>'),
+(4528, '高級智慧染料<Wit+2Men-3>'),
+(4529, '高級力量染料<Str+3Con-5>'),
+(4530, '高級力量染料<Str+3Dex-5>'),
+(4531, '高級體質染料<Con+3Str-5>'),
+(4532, '高級體質染料<Con+3Dex-5>'),
+(4533, '高級敏捷染料<Dex+3Str-5>'),
+(4534, '高級敏捷染料<Dex+3Con-5>'),
+(4535, '高級智力染料<Int+3Men-5>'),
+(4536, '高級智力染料<Int+3Wit-5>'),
+(4537, '高級精神染料<Men+3Int-5>'),
+(4538, '高級精神染料<Men+3Wit-5>'),
+(4539, '高級智慧染料<Wit+3Int-5>'),
+(4540, '高級智慧染料<Wit+3Men-5>'),
+(4541, '高級力量染料<Str+3Con-4>'),
+(4542, '高級力量染料<Str+3Dex-4>'),
+(4543, '高級體質染料<Con+3Str-4>'),
+(4544, '高級體質染料<Con+3Dex-4>'),
+(4545, '高級敏捷染料<Dex+3Str-4>'),
+(4546, '高級敏捷染料<Dex+3Con-4>'),
+(4547, '高級智力染料<Int+3Men-4>'),
+(4548, '高級智力染料<Int+3Wit-4>'),
+(4549, '高級精神染料<Men+3Int-4>'),
+(4550, '高級精神染料<Men+3Wit-4>'),
+(4551, '高級智慧染料<Wit+3Int-4>'),
+(4552, '高級智慧染料<Wit+3Men-4>'),
+(4553, '高級力量染料<Str+1Con-1>'),
+(4554, '高級力量染料<Str+1Dex-1>'),
+(4555, '高級體質染料<Con+1Str-1>'),
+(4556, '高級體質染料<Con+1Dex-1>'),
+(4557, '高級敏捷染料<Dex+1Str-1>'),
+(4558, '高級敏捷染料<Dex+1Con-1>'),
+(4559, '高級智力染料<Int+1Men-1>'),
+(4560, '高級智力染料<Int+1Wit-1>'),
+(4561, '高級精神染料<Men+1Int-1>'),
+(4562, '高級精神染料<Men+1Wit-1>'),
+(4563, '高級智慧染料<Wit+1Int-1>'),
+(4564, '高級智慧染料<Wit+1Men-1>'),
+(4565, '高級力量染料<Str+4Con-6>'),
+(4566, '高級力量染料<Str+4Dex-6>'),
+(4567, '高級體質染料<Con+4Str-6>'),
+(4568, '高級體質染料<Con+4Dex-6>'),
+(4569, '高級敏捷染料<Dex+4Str-6>'),
+(4570, '高級敏捷染料<Dex+4Con-6>'),
+(4571, '高級智力染料<Int+4Men-6>'),
+(4572, '高級智力染料<Int+4Wit-6>'),
+(4573, '高級精神染料<Men+4Int-6>'),
+(4574, '高級精神染料<Men+4Wit-6>'),
+(4575, '高級智慧染料<Wit+4Int-6>'),
+(4576, '高級智慧染料<Wit+4Men-6>'),
+(4577, '高級力量染料<Str+4Con-5>'),
+(4578, '高級力量染料<Str+4Dex-5>'),
+(4579, '高級體質染料<Con+4Str-5>'),
+(4580, '高級體質染料<Con+4Dex-5>'),
+(4581, '高級敏捷染料<Dex+4Str-5>'),
+(4582, '高級敏捷染料<Dex+4Con-5>'),
+(4583, '高級智力染料<Int+4Men-5>'),
+(4584, '高級智力染料<Int+4Wit-5>'),
+(4585, '高級精神染料<Men+4Int-5>'),
+(4586, '高級精神染料<Men+4Wit-5>'),
+(4587, '高級智慧染料<Wit+4Int-5>'),
+(4588, '高級智慧染料<Wit+4Men-5>'),
+(4589, '高級力量染料<Str+2Con-2>'),
+(4590, '高級力量染料<Str+2Dex-2>'),
+(4591, '高級體質染料<Con+2Str-2>'),
+(4592, '高級體質染料<Con+2Dex-2>'),
+(4593, '高級敏捷染料<Dex+2Str-2>'),
+(4594, '高級敏捷染料<Dex+2Con-2>'),
+(4595, '高級智力染料<Int+2Men-2>'),
+(4596, '高級智力染料<Int+2Wit-2>'),
+(4597, '高級精神染料<Men+2Int-2>'),
+(4598, '高級精神染料<Men+2Wit-2>'),
+(4599, '高級智慧染料<Wit+2Int-2>'),
+(4600, '高級智慧染料<Wit+2Men-2>'),
+(4601, '高級力量染料<Str+3Con-3>'),
+(4602, '高級力量染料<Str+3Dex-3>'),
+(4603, '高級體質染料<Con+3Str-3>'),
+(4604, '高級體質染料<Con+3Dex-3>'),
+(4605, '高級敏捷染料<Dex+3Str-3>'),
+(4606, '高級敏捷染料<Dex+3Con-3>'),
+(4607, '高級智力染料<Int+3Men-3>'),
+(4608, '高級智力染料<Int+3Wit-3>'),
+(4609, '高級精神染料<Men+3Int-3>'),
+(4610, '高級精神染料<Men+3Wit-3>'),
+(4611, '高級智慧染料<Wit+3Int-3>'),
+(4612, '高級智慧染料<Wit+3Men-3>'),
+(4613, '高級力量染料<Str+4Con-4>'),
+(4614, '高級力量染料<Str+4Dex-4>'),
+(4615, '高級體質染料<Con+4Str-4>'),
+(4616, '高級體質染料<Con+4Dex-4>'),
+(4617, '高級敏捷染料<Dex+4Str-4>'),
+(4618, '高級敏捷染料<Dex+4Con-4>'),
+(4619, '高級智力染料<Int+4Men-4>'),
+(4620, '高級智力染料<Int+4Wit-4>'),
+(4621, '高級精神染料<Men+4Int-4>'),
+(4622, '高級精神染料<Men+4Wit-4>'),
+(4623, '高級智慧染料<Wit+4Int-4>'),
+(4624, '高級智慧染料<Wit+4Men-4>'),
+(4625, '骰子(紅心)'),
+(4626, '骰子(黑桃)'),
+(4627, '骰子(梅花)'),
+(4628, '骰子(方塊)'),
+(4629, '紅色搜魂石'),
+(4630, '紅色搜魂石-階段1'),
+(4631, '紅色搜魂石-階段2'),
+(4632, '紅色搜魂石-階段3'),
+(4633, '紅色搜魂石-階段4'),
+(4634, '紅色搜魂石-階段5'),
+(4635, '紅色搜魂石-階段6'),
+(4636, '紅色搜魂石-階段7'),
+(4637, '紅色搜魂石-階段8'),
+(4638, '紅色搜魂石-階段9'),
+(4639, '紅色搜魂石-階段10'),
+(4640, '綠色搜魂石'),
+(4641, '綠色搜魂石-階段1'),
+(4642, '綠色搜魂石-階段2'),
+(4643, '綠色搜魂石-階段3'),
+(4644, '綠色搜魂石-階段4'),
+(4645, '綠色搜魂石-階段5'),
+(4646, '綠色搜魂石-階段6'),
+(4647, '綠色搜魂石-階段7'),
+(4648, '綠色搜魂石-階段8'),
+(4649, '綠色搜魂石-階段9'),
+(4650, '綠色搜魂石-階段10'),
+(4651, '藍色搜魂石'),
+(4652, '藍色搜魂石-階段1'),
+(4653, '藍色搜魂石-階段2'),
+(4654, '藍色搜魂石-階段3'),
+(4655, '藍色搜魂石-階段4'),
+(4656, '藍色搜魂石-階段5'),
+(4657, '藍色搜魂石-階段6'),
+(4658, '藍色搜魂石-階段7'),
+(4659, '藍色搜魂石-階段8'),
+(4660, '藍色搜魂石-階段9'),
+(4661, '藍色搜魂石-階段10'),
+(4662, '破碎的紅色搜魂石'),
+(4663, '破碎的綠色搜魂石'),
+(4664, '破碎的藍色搜魂石'),
+(4666, '雷里亞的靈魂石'),
+(4667, '柯爾能的因分尼恩之杖'),
+(4668, '勾爾昆達的因分尼恩之杖'),
+(4669, '哈勒特的因分尼恩之杖'),
+(4670, '巨匠里澳林的鎚子'),
+(4671, '巨匠里澳林的鑄模'),
+(4672, '因分尼恩研磨劑'),
+(4673, '紅色試管小刀'),
+(4674, '榮譽勳章'),
+(4675, '友誼勳章'),
+(4676, '勝利勳章'),
+(4677, '逃離藥水'),
+(4678, '寬恕卷軸'),
+(4679, '伊娃的祝福'),
+(4680, '復仇的藥水'),
+(4906, '魔法書-太陽閃光'),
+(4907, '魔法書-太陽火焰'),
+(4908, '魔法書-暗影閃光'),
+(4909, '魔法書-暗影火焰'),
+(4910, '魔法書-吸血怒擊'),
+(4911, '魔法書-詛咒之疾'),
+(4912, '魔法書-祝禱'),
+(4913, '魔法書-恐懼訊息'),
+(4914, '魔法書-伊娃的小夜曲'),
+(4915, '設計圖-召喚野豬加農砲'),
+(4916, '魔法書-能量彈'),
+(4917, '魔法書-靈氣彈'),
+(4918, '魔法書-召喚銀色貓'),
+(4919, '魔法書-召喚藍眼獨角獸'),
+(4920, '魔法書-召喚失魂者'),
+(4921, '設計圖-召喚大炸彈'),
+(4922, '魔法書-召喚麻痺晶體'),
+(4923, '魔法書-召喚水液晶體'),
+(4924, '魔法書-召喚火光晶體'),
+(4925, '護身符-帕格立歐神速'),
+(4926, '護身符-靈魂守護'),
+(4927, '護身符-復仇頌歌'),
+(4928, '魔法書-火的種子'),
+(4929, '魔法書-水的種子'),
+(4930, '魔法書-風的種子'),
+(4931, '魔法書-光暈交響曲'),
+(4932, '魔法書-地獄火'),
+(4933, '魔法書-暴風雪'),
+(4934, '魔法書-惡魔之風'),
+(4935, '魔法書-元素交響曲'),
+(4936, '製作卷軸(阿巴敦盾60%)'),
+(4937, '製作卷軸(金剛石耳環70%)'),
+(4938, '製作卷軸(金剛石戒指70%)'),
+(4939, '製作卷軸(金剛石項鍊70%)'),
+(4940, '製作卷軸(夏隆胸甲60%)'),
+(4941, '製作卷軸(夏隆脛甲60%)'),
+(4942, '製作卷軸(寧靜靴60%)'),
+(4943, '製作卷軸(守護神靴60%)'),
+(4944, '製作卷軸(阿巴敦胸甲60%)'),
+(4945, '製作卷軸(阿巴敦脛甲60%)'),
+(4946, '製作卷軸(夏隆皮衫60%)'),
+(4947, '製作卷軸(夏隆皮脛甲60%)'),
+(4948, '製作卷軸(阿巴敦皮甲60%)'),
+(4949, '製作卷軸(夏隆外衣60%)'),
+(4950, '製作卷軸(夏隆長襪60%)'),
+(4951, '製作卷軸(阿巴敦長袍60%)'),
+(4952, '製作卷軸(阿巴敦頭箍60%)'),
+(4953, '製作卷軸(封印的阿巴敦手套60%)'),
+(4954, '製作卷軸(寧靜鏈手套60%)'),
+(4955, '製作卷軸(守護神手套60%)'),
+(4956, '製作卷軸(祝福手套60%)'),
+(4957, '製作卷軸(祝福靴60%)'),
+(4958, '製作卷軸(封印的夏隆靴60%)'),
+(4959, '製作卷軸(封印的阿巴敦靴60%)'),
+(4960, '製作卷軸(封印的夏隆長手套60%)'),
+(4961, '製作卷軸(夏隆盾60%)'),
+(4962, '製作卷軸(夏隆頭盔60%)'),
+(4963, '製作卷軸(巨劍60%)'),
+(4964, '製作卷軸(巨大戰斧60%)'),
+(4965, '製作卷軸(精靈魔杖60%)'),
+(4966, '製作卷軸(柯貝克劍60%)'),
+(4967, '製作卷軸(聖堂之劍60%)'),
+(4968, '製作卷軸(波形刃60%)'),
+(4969, '製作卷軸(地獄刀60%)'),
+(4970, '製作卷軸(阿斯拉爪60%)'),
+(4971, '製作卷軸(黑暗精靈長弓60%)'),
+(4972, '製作卷軸(巨斧60%)'),
+(4973, '製作卷軸(黑光耳環70%)'),
+(4974, '製作卷軸(黑光戒指70%)'),
+(4975, '製作卷軸(黑光項鍊70%)'),
+(4976, '製作卷軸(毀滅靴60%)'),
+(4977, '製作卷軸(佩勒迪亞靴60%)'),
+(4978, '製作卷軸(元素靴60%)'),
+(4979, '製作卷軸(恩寵靴60%)'),
+(4980, '製作卷軸(末日盾60%)'),
+(4981, '製作卷軸(青狼胸甲60%)'),
+(4982, '製作卷軸(青狼脛甲60%)'),
+(4983, '製作卷軸(末日金屬盔甲60%)'),
+(4984, '製作卷軸(青狼皮甲60%)'),
+(4985, '製作卷軸(末日皮甲60%)'),
+(4986, '製作卷軸(青狼外衣60%)'),
+(4987, '製作卷軸(末日外衣60%)'),
+(4988, '製作卷軸(青狼長襪60%)'),
+(4989, '製作卷軸(末日長襪60%)'),
+(4990, '製作卷軸(青狼頭盔60%)'),
+(4991, '製作卷軸(末日頭盔60%)'),
+(4992, '製作卷軸(封印的青狼長靴60%)'),
+(4993, '製作卷軸(封印的末日手套60%)'),
+(4994, '製作卷軸(元素手套60%)'),
+(4995, '製作卷軸(恩寵手套60%)'),
+(4996, '製作卷軸(毀滅長手套60%)'),
+(4997, '製作卷軸(佩勒迪亞手套60%)'),
+(4998, '製作卷軸(封印的青狼手套60%)'),
+(4999, '製作卷軸(封印的末日靴60%)'),
+(5000, '製作卷軸(大馬士革刀60%)'),
+(5001, '製作卷軸(長槍60%)'),
+(5002, '製作卷軸(亡者榮譽60%)'),
+(5003, '製作卷軸(工藝戰斧60%)'),
+(5004, '製作卷軸(邪靈魔杖60%)'),
+(5005, '製作卷軸(惡魔短劍60%)'),
+(5006, '製作卷軸(博利恩拳套60%)'),
+(5007, '製作卷軸(冒險弓60%)'),
+(5008, '製作卷軸(帕塔拳刃60%)'),
+(5009, '同盟優勝紀念'),
+(5010, '回聲水晶-勝利之歌'),
+(5011, '命運之星'),
+(5012, '雷坎的紙條'),
+(5013, '魔法書-元素之擊'),
+(5014, '魔法書-元素交響曲'),
+(5015, '魔法書-元素風暴'),
+(5016, '黑暗柯塔種子'),
+(5017, '紅色柯塔種子'),
+(5018, '冷氣柯塔種子'),
+(5019, '藍色柯塔種子'),
+(5020, '金色柯塔種子'),
+(5021, '魯特柯塔種子'),
+(5022, '沙漠柯塔種子'),
+(5023, '藍色柯柏種子'),
+(5024, '藍色柯塔種子'),
+(5025, '金色柯塔種子'),
+(5026, '魯特柯塔種子'),
+(5027, '沙漠柯塔種子'),
+(5028, '紅色柯柏種子'),
+(5029, '冷氣柯柏種子'),
+(5030, '芒刺柯柏種子'),
+(5031, '金色柯柏種子'),
+(5032, '巨大柯柏種子'),
+(5033, '紅色柯柏種子'),
+(5034, '冷氣柯柏種子'),
+(5035, '藍色柯柏種子'),
+(5036, '芒刺柯柏種子'),
+(5037, '金色柯柏種子'),
+(5038, '巨大柯柏種子'),
+(5039, '紅色柯德朗種子'),
+(5040, '雙生柯德朗種子'),
+(5041, '沙漠柯德朗種子'),
+(5042, '黑暗柯塔種子'),
+(5043, '紅色柯塔種子'),
+(5044, '藍色柯塔種子'),
+(5045, '紅色柯柏種子'),
+(5046, '冷氣柯柏種子'),
+(5047, '藍色柯柏種子'),
+(5048, '芒刺柯柏種子'),
+(5049, '海洋柯德朗種子'),
+(5050, '冷氣柯德朗種子'),
+(5051, '藍色柯德朗種子'),
+(5052, '雙生柯德朗種子'),
+(5053, '芒刺柯柏種子'),
+(5054, '金色柯柏種子'),
+(5055, '巨大柯柏種子'),
+(5056, '紅色柯德朗種子'),
+(5057, '冷氣柯德朗種子'),
+(5058, '藍色柯德朗種子'),
+(5059, '雙生柯德朗種子'),
+(5060, '巨大柯德朗種子'),
+(5061, '沙漠柯德朗種子'),
+(5062, '垃圾'),
+(5063, '垃圾'),
+(5064, '垃圾'),
+(5065, '冷氣柯塔'),
+(5066, '燃燒柯塔'),
+(5067, '藍色柯塔'),
+(5068, '紅色柯塔'),
+(5069, '金色柯塔'),
+(5070, '沙漠柯塔'),
+(5071, '魯特柯塔'),
+(5072, '雙生柯塔'),
+(5073, '黑暗柯塔'),
+(5074, '閃耀柯塔'),
+(5075, '冷氣柯柏'),
+(5076, '燃燒柯柏'),
+(5077, '藍色柯柏'),
+(5078, '紅色柯柏'),
+(5079, '金色柯柏'),
+(5080, '沙漠柯柏'),
+(5081, '海洋柯柏'),
+(5082, '芒刺柯柏'),
+(5083, '斑點柯柏'),
+(5084, '巨大柯柏'),
+(5085, '冷氣柯德朗'),
+(5086, '燃燒柯德朗'),
+(5087, '藍色柯德朗'),
+(5088, '紅色柯德朗'),
+(5089, '斑點柯德朗'),
+(5090, '沙漠柯德朗'),
+(5091, '海洋柯德朗'),
+(5092, '雙生柯德朗'),
+(5093, '芒刺柯德朗'),
+(5094, '巨大柯德朗'),
+(5095, '成熟的冷氣柯塔'),
+(5096, '成熟的燃燒柯塔'),
+(5097, '成熟的藍色柯塔'),
+(5098, '成熟的紅色柯塔'),
+(5099, '成熟的金色柯塔'),
+(5100, '成熟的沙漠柯塔'),
+(5101, '成熟的魯特柯塔'),
+(5102, '成熟的雙生柯塔'),
+(5103, '成熟的黑暗柯塔'),
+(5104, '成熟的閃耀柯塔'),
+(5105, '成熟的冷氣柯柏'),
+(5106, '成熟的燃燒柯柏'),
+(5107, '成熟的藍色柯柏'),
+(5108, '成熟的紅色柯柏'),
+(5109, '成熟的金色柯柏'),
+(5110, '成熟的沙漠柯柏'),
+(5111, '成熟的海洋柯柏'),
+(5112, '成熟的芒刺柯柏'),
+(5113, '成熟的斑點柯柏'),
+(5114, '成熟的巨大柯柏'),
+(5115, '成熟的冷氣柯德朗'),
+(5116, '成熟的燃燒柯德朗'),
+(5117, '成熟的藍色柯德朗'),
+(5118, '成熟的紅色柯德朗'),
+(5119, '成熟的斑點柯德朗'),
+(5120, '成熟的沙漠柯德朗'),
+(5121, '成熟的海洋柯德朗'),
+(5122, '成熟的雙生柯德朗'),
+(5123, '成熟的芒刺柯德朗'),
+(5124, '成熟的巨大柯德朗'),
+(5125, '收割機'),
+(5126, '二刀流製作印花'),
+(5134, '壓縮靈魂彈-普通'),
+(5135, '壓縮靈魂彈-D級'),
+(5136, '壓縮靈魂彈-C級'),
+(5137, '壓縮靈魂彈-B級'),
+(5138, '壓縮靈魂彈-A級'),
+(5139, '壓縮靈魂彈-S級'),
+(5140, '壓縮魔靈彈-普通'),
+(5141, '壓縮魔靈彈-D級'),
+(5142, '壓縮魔靈彈-C級'),
+(5143, '壓縮魔靈彈-B級'),
+(5144, '壓縮魔靈彈-A級'),
+(5145, '壓縮魔靈彈-S級'),
+(5146, '祝福的壓縮魔靈彈-普通'),
+(5147, '祝福的壓縮魔靈彈-D級'),
+(5148, '祝福的壓縮魔靈彈-C級'),
+(5149, '祝福的壓縮魔靈彈-B級'),
+(5150, '祝福的壓縮魔靈彈-A級'),
+(5151, '祝福的壓縮魔靈彈-S級'),
+(5152, '魔力壓縮器'),
+(5153, '製作卷軸(壓縮靈魂彈-D級100%)'),
+(5154, '製作卷軸(壓縮靈魂彈-C級100%)'),
+(5155, '製作卷軸(壓縮靈魂彈-B級100%)'),
+(5156, '製作卷軸(壓縮靈魂彈-A級100%)'),
+(5157, '製作卷軸(壓縮靈魂彈-S級100%)'),
+(5158, '製作卷軸(壓縮魔靈彈-D級100%)'),
+(5159, '製作卷軸(壓縮魔靈彈-C級100%)'),
+(5160, '製作卷軸(壓縮魔靈彈-B級100%)'),
+(5161, '製作卷軸(壓縮魔靈彈-A級100%)'),
+(5162, '製作卷軸(壓縮魔靈彈-S級100%)'),
+(5163, '製作卷軸(祝福的壓縮魔靈彈-D級100%)'),
+(5164, '製作卷軸(祝福的壓縮魔靈彈-C級100%)'),
+(5165, '製作卷軸(祝福的壓縮魔靈彈-B級100%)'),
+(5166, '製作卷軸(祝福的壓縮魔靈彈-A級100%)'),
+(5167, '製作卷軸(祝福的壓縮魔靈彈-S級100%)'),
+(5168, '座龍飼料'),
+(5169, '高級座龍飼料'),
+(5192, 'D級魔法繩子'),
+(5193, 'C級魔法繩子'),
+(5194, 'B級魔法繩子'),
+(5195, 'A級魔法繩子'),
+(5196, 'S級魔法繩子'),
+(5197, '箱子鑰匙-8級'),
+(5198, '箱子鑰匙-7級'),
+(5199, '箱子鑰匙-6級'),
+(5200, '箱子鑰匙-5級'),
+(5201, '箱子鑰匙-4級'),
+(5202, '箱子鑰匙-3級'),
+(5203, '箱子鑰匙-2級'),
+(5204, '箱子鑰匙-1級'),
+(5205, '傭兵配置表(劍/固定)'),
+(5206, '傭兵配置表(槍/固定)'),
+(5207, '傭兵配置表(弓/固定)'),
+(5208, '傭兵配置表(牧師/固定)'),
+(5209, '傭兵配置表(巫師/固定)'),
+(5210, '傭兵配置表(劍/移動)'),
+(5211, '傭兵配置表(槍/移動)'),
+(5212, '傭兵配置表(弓/移動)'),
+(5213, '傭兵配置表(牧師/移動)'),
+(5214, '傭兵配置表(巫師/移動)'),
+(5215, '傭兵配置表(傳送師1)'),
+(5218, '傭兵配置表(傳送師2)'),
+(5219, '傭兵配置表(傳送師3)'),
+(5220, '金屬強化劑'),
+(5221, '冷氣柯柏種子'),
+(5222, '藍色柯柏種子'),
+(5223, '芒刺柯柏種子'),
+(5224, '金色柯柏種子'),
+(5225, '巨大柯柏種子'),
+(5226, '紅色柯德朗種子'),
+(5227, '海洋柯德朗種子'),
+(5228, '垃圾'),
+(5229, '垃圾'),
+(5230, '製作卷軸(米索莉箭100%)'),
+(5231, '製作卷軸(金屬強化劑100%)'),
+(5232, '白布'),
+(5234, '疑問藥水'),
+(5235, '整形藥水-A'),
+(5236, '整形藥水-B'),
+(5237, '整形藥水-C'),
+(5238, '染髮藥水-A'),
+(5239, '染髮藥水-B'),
+(5240, '染髮藥水-C'),
+(5241, '染髮藥水-D'),
+(5242, '造型藥水-A'),
+(5243, '造型藥水-B'),
+(5244, '造型藥水-C'),
+(5245, '造型藥水-D'),
+(5246, '造型藥水-E'),
+(5247, '造型藥水-F'),
+(5248, '造型藥水-G'),
+(5249, '天堂II服務一週年紀念物品'),
+(5250, '高級壓縮靈魂彈-普通'),
+(5251, '高級壓縮靈魂彈-D級'),
+(5252, '高級壓縮靈魂彈-C級'),
+(5253, '高級壓縮靈魂彈-B級'),
+(5254, '高級壓縮靈魂彈-A級'),
+(5255, '高級壓縮靈魂彈-S級'),
+(5256, '高級壓縮魔靈彈-普通'),
+(5257, '高級壓縮魔靈彈-D級'),
+(5258, '高級壓縮魔靈彈-C級'),
+(5259, '高級壓縮魔靈彈-B級'),
+(5260, '高級壓縮魔靈彈-A級'),
+(5261, '高級壓縮魔靈彈-S級'),
+(5262, '高級祝福的壓縮魔靈彈-普通'),
+(5263, '高級祝福的壓縮魔靈彈-D級'),
+(5264, '高級祝福的壓縮魔靈彈-C級'),
+(5265, '高級祝福的壓縮魔靈彈-B級'),
+(5266, '高級祝福的壓縮魔靈彈-A級'),
+(5267, '高級祝福的壓縮魔靈彈-S級'),
+(5268, '製作卷軸(高級壓縮靈魂彈-D級100%)'),
+(5269, '製作卷軸(高級壓縮靈魂彈-C級100%)'),
+(5270, '製作卷軸(高級壓縮靈魂彈-B級100%)'),
+(5271, '製作卷軸(高級壓縮靈魂彈-A級100%)'),
+(5272, '製作卷軸(高級壓縮靈魂彈-S級100%)'),
+(5273, '製作卷軸(高級壓縮魔靈彈-D級100%)'),
+(5274, '製作卷軸(高級壓縮魔靈彈-C級100%)'),
+(5275, '製作卷軸(高級壓縮魔靈彈-B級100%)'),
+(5276, '製作卷軸(高級壓縮魔靈彈-A級100%)'),
+(5277, '製作卷軸(高級壓縮魔靈彈-S級100%)'),
+(5278, '製作卷軸(高級祝福的壓縮魔靈彈-D級100%)'),
+(5279, '製作卷軸(高級祝福的壓縮魔靈彈-C級100%)'),
+(5280, '製作卷軸(高級祝福的壓縮魔靈彈-B級100%)'),
+(5281, '製作卷軸(高級祝福的壓縮魔靈彈-A級100%)'),
+(5282, '製作卷軸(高級祝福的壓縮魔靈彈-S級100%)'),
+(5283, '麻糬'),
+(5332, '製作卷軸(封印的黑暗水晶皮甲60%)'),
+(5333, '製作卷軸(封印的黑暗水晶皮甲100%)'),
+(5334, '製作卷軸(封印的塔魯皮甲60%)'),
+(5335, '製作卷軸(封印的塔魯皮甲100%)'),
+(5336, '製作卷軸(封印的夢魘皮甲60%)'),
+(5337, '製作卷軸(封印的夢魘皮甲100%)'),
+(5338, '製作卷軸(封印的聖威皮甲60%)'),
+(5339, '製作卷軸(封印的聖威皮甲100%)'),
+(5340, '製作卷軸(封印的黑暗水晶皮脛甲60%)'),
+(5341, '製作卷軸(封印的黑暗水晶皮脛甲100%)'),
+(5342, '回聲水晶-大悲咒'),
+(5343, '回聲水晶-聖歌'),
+(5344, '(無用)製作卷軸(聖威耳環70%)'),
+(5345, '(無用)製作卷軸(聖威耳環100%)'),
+(5346, '製作卷軸(封印的塔魯外衣60%)'),
+(5347, '製作卷軸(封印的塔魯外衣100%)'),
+(5348, '製作卷軸(封印的黑暗水晶長袍60%)'),
+(5349, '製作卷軸(封印的黑暗水晶長袍100%)'),
+(5350, '製作卷軸(封印的夢魘長袍60%)'),
+(5351, '製作卷軸(封印的夢魘長袍100%)'),
+(5352, '製作卷軸(封印的聖威長袍60%)'),
+(5353, '製作卷軸(封印的聖威長袍100%)'),
+(5354, '製作卷軸(封印的塔魯長襪60%)'),
+(5355, '製作卷軸(封印的塔魯長襪100%)'),
+(5356, '(無用)製作卷軸(不死鳥項鍊70%)'),
+(5357, '(無用)製作卷軸(不死鳥項鍊100%)'),
+(5358, '(無用)製作卷軸(聖威項鍊70%)'),
+(5359, '(無用)製作卷軸(聖威項鍊100%)'),
+(5360, '(無用)製作卷軸(不死鳥戒指70%)'),
+(5361, '(無用)製作卷軸(不死鳥戒指100%)'),
+(5362, '(無用)製作卷軸(聖威戒指70%)'),
+(5363, '(無用)製作卷軸(聖威戒指100%)'),
+(5364, '製作卷軸(封印的黑暗水晶盾60%)'),
+(5365, '製作卷軸(封印的黑暗水晶盾100%)'),
+(5366, '製作卷軸(封印的夢魘盾60%)'),
+(5367, '製作卷軸(封印的夢魘盾100%)'),
+(5368, '製作卷軸(封印的黑暗水晶靴60%)'),
+(5369, '製作卷軸(封印的黑暗水晶靴100%)'),
+(5370, '製作卷軸(封印的塔魯靴60%)'),
+(5371, '製作卷軸(封印的塔魯靴100%)'),
+(5372, '製作卷軸(封印的煉獄靴60%)'),
+(5373, '製作卷軸(封印的煉獄靴100%)'),
+(5374, '製作卷軸(封印的勁風靴60%)'),
+(5375, '製作卷軸(封印的勁風靴100%)'),
+(5376, '製作卷軸(封印的黑光靴60%)'),
+(5377, '製作卷軸(封印的黑光靴100%)'),
+(5378, '製作卷軸(封印的不死鳥靴60%)'),
+(5379, '製作卷軸(封印的不死鳥靴100%)'),
+(5380, '製作卷軸(封印的夢魘靴60%)'),
+(5381, '製作卷軸(封印的夢魘靴100%)'),
+(5382, '製作卷軸(封印的聖威靴60%)'),
+(5383, '製作卷軸(封印的聖威靴100%)'),
+(5384, '製作卷軸(封印的黑暗軍靴60%)'),
+(5385, '製作卷軸(封印的黑暗軍靴100%)'),
+(5386, '製作卷軸(封印的幻影靴60%)'),
+(5387, '製作卷軸(封印的幻影靴100%)'),
+(5388, '製作卷軸(封印的地獄犬靴60%)'),
+(5389, '製作卷軸(封印的地獄犬靴100%)'),
+(5390, '製作卷軸(封印的帕黎恩靴60%)'),
+(5391, '製作卷軸(封印的帕黎恩靴100%)'),
+(5392, '製作卷軸(封印的黑暗水晶手套60%)'),
+(5393, '製作卷軸(封印的黑暗水晶手套100%)'),
+(5394, '製作卷軸(封印的塔魯手套60%)'),
+(5395, '製作卷軸(封印的塔魯手套100%)'),
+(5396, '製作卷軸(封印的煉獄手套60%)'),
+(5397, '製作卷軸(封印的煉獄手套100%)'),
+(5398, '製作卷軸(封印的勁風手套60%)'),
+(5399, '製作卷軸(封印的勁風手套100%)'),
+(5400, '製作卷軸(封印的黑光手套60%)'),
+(5401, '製作卷軸(封印的黑光手套100%)'),
+(5402, '製作卷軸(封印的不死鳥手套60%)'),
+(5403, '製作卷軸(封印的不死鳥手套100%)'),
+(5404, '製作卷軸(封印的夢魘手套60%)'),
+(5405, '製作卷軸(封印的夢魘手套100%)'),
+(5406, '製作卷軸(封印的聖威手套60%)'),
+(5407, '製作卷軸(封印的聖威手套100%)'),
+(5408, '製作卷軸(封印的黑暗軍手套60%)'),
+(5409, '製作卷軸(封印的黑暗軍手套100%)'),
+(5410, '製作卷軸(封印的幻影手套60%)'),
+(5411, '製作卷軸(封印的幻影手套100%)'),
+(5412, '製作卷軸(封印的地獄犬手套60%)'),
+(5413, '製作卷軸(封印的地獄犬手套100%)'),
+(5414, '製作卷軸(封印的帕黎恩手套60%)'),
+(5415, '製作卷軸(封印的帕黎恩手套100%)'),
+(5416, '製作卷軸(封印的黑暗水晶胸甲60%)'),
+(5417, '製作卷軸(封印的黑暗水晶胸甲100%)'),
+(5418, '製作卷軸(封印的塔魯金屬盔甲60%)'),
+(5419, '製作卷軸(封印的塔魯金屬盔甲100%)'),
+(5420, '製作卷軸(封印的夢魘盔甲60%)'),
+(5421, '製作卷軸(封印的夢魘盔甲100%)'),
+(5422, '製作卷軸(封印的聖威金屬盔甲60%)'),
+(5423, '製作卷軸(封印的聖威金屬盔甲100%)'),
+(5424, '製作卷軸(封印的黑暗水晶脛甲60%)'),
+(5425, '製作卷軸(封印的黑暗水晶脛甲100%)'),
+(5426, '製作卷軸(封印的黑暗水晶頭盔60%)'),
+(5427, '製作卷軸(封印的黑暗水晶頭盔100%)'),
+(5428, '製作卷軸(封印的塔魯帽60%)'),
+(5429, '製作卷軸(封印的塔魯帽100%)'),
+(5430, '製作卷軸(封印的夢魘頭盔60%)'),
+(5431, '製作卷軸(封印的夢魘頭盔100%)'),
+(5432, '製作卷軸(封印的聖威頭箍60%)'),
+(5433, '製作卷軸(封印的聖威頭箍100%)'),
+(5434, '製作卷軸(斬龍刀60%)'),
+(5435, '製作卷軸(斬龍刀100%)'),
+(5436, '製作卷軸(狂戰士之刃100%)'),
+(5437, '製作卷軸(重型劍100%)'),
+(5438, '製作卷軸(流星雨60%)'),
+(5439, '製作卷軸(流星雨100%)'),
+(5440, '製作卷軸(樂園60%)'),
+(5441, '製作卷軸(樂園100%)'),
+(5442, '製作卷軸(靈魂弓60%)'),
+(5443, '製作卷軸(靈魂弓100%)'),
+(5444, '製作卷軸(顱之弓60%)'),
+(5445, '製作卷軸(顱之弓100%)'),
+(5446, '製作卷軸(血腥之蘭60%)'),
+(5447, '製作卷軸(血腥之蘭100%)'),
+(5448, '製作卷軸(魂體分離器60%)'),
+(5449, '製作卷軸(魂體分離器100%)'),
+(5450, '製作卷軸(龍牙60%)'),
+(5451, '製作卷軸(龍牙100%)'),
+(5452, '製作卷軸(血旋風60%)'),
+(5453, '製作卷軸(血旋風100%)'),
+(5454, '製作卷軸(歐西斯戰戟60%)'),
+(5455, '製作卷軸(歐西斯戰戟100%)'),
+(5456, '製作卷軸(塔魯闊矛60%)'),
+(5457, '製作卷軸(塔魯闊矛100%)'),
+(5458, '製作卷軸(長柄戰戟60%)'),
+(5459, '製作卷軸(長柄戰戟100%)'),
+(5460, '製作卷軸(帕黎恩魔杖60%)'),
+(5461, '製作卷軸(帕黎恩魔杖100%)'),
+(5462, '製作卷軸(世界樹樹枝60%)'),
+(5463, '製作卷軸(世界樹樹枝100%)'),
+(5464, '製作卷軸(黑暗軍刀60%)'),
+(5465, '製作卷軸(黑暗軍刀100%)'),
+(5466, '製作卷軸(奇蹟劍60%)'),
+(5467, '製作卷軸(奇蹟劍100%)'),
+(5468, '製作卷軸(元素劍60%)'),
+(5469, '製作卷軸(元素劍100%)'),
+(5470, '製作卷軸(塔魯刀60%)'),
+(5471, '製作卷軸(塔魯刀100%)'),
+(5472, '製作卷軸(金屬絲100%)'),
+(5473, '製作卷軸(強化金屬板100%)'),
+(5474, '製作卷軸(里澳林的模具100%)'),
+(5475, '製作卷軸(戰爭工匠的模具100%)'),
+(5476, '製作卷軸(名匠砧鎖100%)'),
+(5477, '製作卷軸(戰爭工匠的骨架100%)'),
+(5478, '封印的黑暗水晶皮甲的圖樣'),
+(5479, '封印的塔魯皮甲的圖樣'),
+(5480, '封印的夢魘皮甲的布料'),
+(5481, '封印的聖威皮甲的布料'),
+(5482, '封印的黑暗水晶皮脛甲的組件'),
+(5483, '不死鳥耳環的寶石'),
+(5484, '聖威耳環的寶石'),
+(5485, '封印的塔魯外衣的材料'),
+(5486, '封印的黑暗水晶長袍的布料'),
+(5487, '封印的夢魘長袍的布料'),
+(5488, '封印的聖威長袍的布料'),
+(5489, '封印的塔魯長襪的布料'),
+(5490, '不死鳥項鍊的珠子'),
+(5491, '聖威項鍊的珠子'),
+(5492, '不死鳥戒指的寶石'),
+(5493, '聖威戒指的寶石'),
+(5494, '封印的黑暗水晶盾碎片'),
+(5495, '封印的夢魘盾碎片'),
+(5496, '封印的黑暗水晶靴的內襯'),
+(5497, '封印的塔魯靴的內襯'),
+(5498, '封印的煉獄靴的內襯'),
+(5499, '封印的勁風靴的內襯'),
+(5500, '封印的黑光靴的內襯'),
+(5501, '封印的不死鳥靴的內襯'),
+(5502, '封印的夢魘靴的內襯'),
+(5503, '封印的聖威靴的內襯'),
+(5504, '封印的黑暗軍靴的內襯'),
+(5505, '封印的幻影靴的內襯'),
+(5506, '封印的地獄犬靴的內襯'),
+(5507, '封印的帕黎恩靴的內襯'),
+(5508, '封印的黑暗水晶手套的組件'),
+(5509, '封印的塔魯手套的組件'),
+(5510, '封印的煉獄手套的組件'),
+(5511, '封印的勁風手套的組件'),
+(5512, '封印的黑光手套的組件'),
+(5513, '封印的不死鳥手套的組件'),
+(5514, '封印的夢魘手套的組件'),
+(5515, '封印的聖威手套的組件'),
+(5516, '封印的黑暗軍手套的組件'),
+(5517, '封印的幻影手套的組件'),
+(5518, '封印的地獄犬手套的組件'),
+(5519, '封印的帕黎恩手套的組件'),
+(5520, '封印的黑暗水晶胸甲的圖樣'),
+(5521, '封印的塔魯金屬盔甲的圖樣'),
+(5522, '封印的夢魘盔甲的圖樣'),
+(5523, '封印的聖威金屬盔甲的圖樣'),
+(5524, '封印的黑暗水晶脛甲的圖樣'),
+(5525, '封印的黑暗水晶頭盔的組件'),
+(5526, '封印的塔魯帽的組件'),
+(5527, '封印的夢魘頭盔的組件'),
+(5528, '封印的聖威頭箍的組件'),
+(5529, '斬龍刀的刀身'),
+(5530, '狂戰士之刃的刀身'),
+(5531, '重型劍的刀身'),
+(5532, '流星雨的金屬塊'),
+(5533, '樂園的金屬塊'),
+(5534, '靈魂弓的柄'),
+(5535, '顱之弓的柄'),
+(5536, '血腥之蘭的刀身'),
+(5537, '魂體分離器的刀身'),
+(5538, '龍牙的刀身'),
+(5539, '血旋風的刀身'),
+(5540, '歐西斯戰戟的刀身'),
+(5541, '塔魯闊矛的刀身'),
+(5542, '長柄戰戟的刀身'),
+(5543, '帕黎恩魔杖的金屬塊'),
+(5544, '世界樹樹枝的金屬塊'),
+(5545, '黑暗軍刀的刀身'),
+(5546, '奇蹟劍的刀身'),
+(5547, '元素劍的刀身'),
+(5548, '塔魯刀的刀身'),
+(5549, '金屬絲'),
+(5550, '強化金屬板'),
+(5551, '里澳林的模具'),
+(5552, '戰爭工匠的模具'),
+(5553, '名匠砧鎖'),
+(5554, '戰爭工匠的骨架'),
+(5555, '愛的憑證'),
+(5556, '伯利恆之星'),
+(5557, '珍珠裝飾'),
+(5558, '樅木樹枝'),
+(5559, '花盆'),
+(5560, '聖誕樹'),
+(5561, '高級聖誕樹'),
+(5562, '回聲水晶-聖樂1'),
+(5563, '回聲水晶-聖樂2'),
+(5564, '回聲水晶-聖樂3'),
+(5565, '回聲水晶-聖樂4'),
+(5566, '回聲水晶-聖樂5'),
+(5567, '問候信'),
+(5568, '問候信'),
+(5569, '水的古文字'),
+(5570, '水的符咒'),
+(5571, '風的古文字'),
+(5572, '風的符咒'),
+(5573, '火的古文字'),
+(5574, '火的符咒'),
+(5575, '古代的金幣'),
+(5577, '紅色搜魂石-階段11'),
+(5578, '綠色搜魂石-階段11'),
+(5579, '藍色搜魂石-階段11'),
+(5580, '紅色搜魂石-階段12'),
+(5581, '綠色搜魂石-階段12'),
+(5582, '藍色搜魂石-階段12'),
+(5583, '回聲水晶-聖樂6'),
+(5584, '回聲水晶-聖樂7'),
+(5585, '回聲水晶-聖樂8'),
+(5586, '回聲水晶-聖樂9'),
+(5587, '回聲水晶-聖樂10'),
+(5588, '天堂II初學者導覽'),
+(5589, '能量石'),
+(5591, '鬥志藥水'),
+(5592, '強力鬥志藥水'),
+(5593, '初級SP卷軸'),
+(5594, '中級SP卷軸'),
+(5595, '高級SP卷軸'),
+(5650, '改良黑暗柯塔種子'),
+(5651, '改良紅色柯塔種子'),
+(5652, '改良冷氣柯塔種子'),
+(5653, '改良藍色柯塔種子'),
+(5654, '改良金色柯塔種子'),
+(5655, '改良魯特柯塔種子'),
+(5656, '改良沙漠柯塔種子'),
+(5657, '改良藍色柯柏種子'),
+(5658, '改良藍色柯塔種子'),
+(5659, '改良金色柯塔種子'),
+(5660, '改良魯特柯塔種子'),
+(5661, '改良沙漠柯塔種子'),
+(5662, '改良紅色柯柏種子'),
+(5663, '改良冷氣柯柏種子'),
+(5664, '改良芒刺柯柏種子'),
+(5665, '改良金色柯柏種子'),
+(5666, '改良巨大柯柏種子'),
+(5667, '改良紅色柯柏種子'),
+(5668, '改良冷氣柯柏種子'),
+(5669, '改良藍色柯柏種子'),
+(5670, '改良芒刺柯柏種子'),
+(5671, '改良金色柯柏種子'),
+(5672, '改良巨大柯柏種子'),
+(5673, '改良紅色柯德朗種子'),
+(5674, '改良雙生柯德朗種子'),
+(5675, '改良沙漠柯德朗種子'),
+(5676, '改良黑暗柯塔種子'),
+(5677, '改良紅色柯塔種子'),
+(5678, '改良藍色柯塔種子'),
+(5679, '改良紅色柯柏種子'),
+(5680, '改良冷氣柯柏種子'),
+(5681, '改良藍色柯柏種子'),
+(5682, '改良芒刺柯柏種子'),
+(5683, '改良海洋柯德朗種子'),
+(5684, '改良冷氣柯德朗種子'),
+(5685, '改良藍色柯德朗種子'),
+(5686, '改良雙生柯德朗種子'),
+(5687, '改良芒刺柯柏種子'),
+(5688, '改良金色柯柏種子'),
+(5689, '改良巨大柯柏種子'),
+(5690, '改良紅色柯德朗種子'),
+(5691, '改良冷氣柯德朗種子'),
+(5692, '改良藍色柯德朗種子'),
+(5693, '改良雙生柯德朗種子'),
+(5694, '改良巨大柯德朗種子'),
+(5695, '改良沙漠柯德朗種子'),
+(5696, '改良冷氣柯柏種子'),
+(5697, '改良藍色柯柏種子'),
+(5698, '改良芒刺柯柏種子'),
+(5699, '改良金色柯柏種子'),
+(5700, '改良巨大柯柏種子'),
+(5701, '改良紅色柯德朗種子'),
+(5702, '改良海洋柯德朗種子'),
+(5703, '幸運符咒-普通'),
+(5707, '七個封印的實錄'),
+(5708, '領主的認可'),
+(5741, '製作卷軸(封印的夏隆長手套100%)'),
+(5742, '製作卷軸(封印的夏隆長手套60%)'),
+(5743, '製作卷軸(封印的阿巴敦手套100%)'),
+(5744, '製作卷軸(封印的阿巴敦手套60%)'),
+(5745, '製作卷軸(封印的青狼手套100%)'),
+(5746, '製作卷軸(封印的青狼手套60%)'),
+(5747, '製作卷軸(封印的末日手套100%)'),
+(5748, '製作卷軸(封印的末日手套60%)'),
+(5749, '製作卷軸(封印的夏隆靴100%)'),
+(5750, '製作卷軸(封印的夏隆靴60%)'),
+(5751, '製作卷軸(封印的阿巴敦靴100%)'),
+(5752, '製作卷軸(封印的阿巴敦靴60%)'),
+(5753, '製作卷軸(封印的青狼長靴100%)'),
+(5754, '製作卷軸(封印的青狼長靴60%)'),
+(5755, '製作卷軸(封印的末日靴100%)'),
+(5756, '製作卷軸(封印的末日靴60%)'),
+(5757, '封印的夏隆長手套的碎片'),
+(5758, '封印的阿巴敦手套的碎片'),
+(5759, '封印的青狼手套的布料'),
+(5760, '封印的末日手套的碎片'),
+(5761, '封印的夏隆靴的的組件'),
+(5762, '封印的阿巴敦靴的組件'),
+(5763, '封印的青狼長靴的組件'),
+(5764, '封印的末日靴的碎片'),
+(5789, '新手用靈魂彈-普通'),
+(5790, '新手用魔靈彈-普通'),
+(5803, '幸運符咒-D級'),
+(5804, '幸運符咒-C級'),
+(5805, '幸運符咒-B級'),
+(5806, '幸運符咒-A級'),
+(5807, '幸運符咒-S級'),
+(5809, '魔法書-怒濤奔浪'),
+(5810, '魔法書-火山爆發'),
+(5811, '魔法書-團體緩速術'),
+(5812, '魔法書-使魔極限防禦'),
+(5813, '魔法書-使魔治療術'),
+(5814, '魔法書-使魔祝福'),
+(5815, '魔法書-野性魔力'),
+(5816, '魔法書-伊娃之盾'),
+(5818, '改良黑暗柯塔'),
+(5819, '改良紅色柯塔'),
+(5820, '改良冷氣柯塔'),
+(5821, '改良藍色柯塔'),
+(5822, '改良金色柯塔'),
+(5823, '改良魯特柯塔'),
+(5824, '改良沙漠柯塔'),
+(5825, '改良紅色柯柏'),
+(5826, '改良冷氣柯柏'),
+(5827, '改良藍色柯柏'),
+(5828, '改良芒刺柯柏'),
+(5829, '改良金色柯柏'),
+(5830, '改良巨大柯柏'),
+(5831, '改良紅色柯德朗'),
+(5832, '改良海洋柯德朗'),
+(5833, '改良冷氣柯德朗'),
+(5834, '改良藍色柯德朗'),
+(5835, '改良雙生柯德朗'),
+(5836, '改良巨大柯德朗'),
+(5837, '改良沙漠柯德朗'),
+(5838, '成熟的改良黑暗柯塔'),
+(5839, '成熟的改良紅色柯塔'),
+(5840, '成熟的改良冷氣柯塔'),
+(5841, '成熟的改良藍色柯塔'),
+(5842, '成熟的改良金色柯塔'),
+(5843, '成熟的改良魯特柯塔'),
+(5844, '成熟的改良沙漠柯塔'),
+(5845, '成熟的改良紅色柯柏'),
+(5846, '成熟的改良冷氣柯柏'),
+(5847, '成熟的改良藍色柯柏'),
+(5848, '成熟的改良芒刺柯柏'),
+(5849, '成熟的改良金色柯柏'),
+(5850, '成熟的改良巨大柯柏'),
+(5851, '成熟的改良紅色柯德朗'),
+(5852, '成熟的改良海洋柯德朗'),
+(5853, '成熟的改良冷氣柯德朗'),
+(5854, '成熟的改良藍色柯德朗'),
+(5855, '成熟的改良雙生柯德朗'),
+(5856, '成熟的改良巨大柯德朗'),
+(5857, '成熟的改良沙漠柯德朗'),
+(5858, '祝福的根據地返回卷軸'),
+(5859, '祝福的城堡返回卷軸'),
+(5860, '翼蛇的蛋'),
+(5861, '翼蛇的蛋'),
+(5862, '契約之石'),
+(5863, '鱷魚族的牙'),
+(5864, '謎樣的地圖碎片'),
+(5865, '動物型孢子'),
+(5866, '植物型孢子'),
+(5867, '翡翠石'),
+(5868, '蛇的鱗片'),
+(5869, '亞丁居民的遺骸'),
+(5870, '補給證'),
+(5871, '可疑的文件碎片'),
+(5872, '補給品'),
+(5873, '海盜的寶箱'),
+(5874, '賽頓的銀髮'),
+(5875, '下巨人的燈'),
+(5876, '下巨人的燈'),
+(5877, '下巨人的燈'),
+(5878, '下巨人的燈'),
+(5879, '下巨人的燈'),
+(5880, '破裂的下巨人的燈'),
+(5881, '刀刃司塔卡拓的牙'),
+(5882, '爆裂的碎片'),
+(5883, '凝結的碎片'),
+(5884, '洞穴獸的牙'),
+(5885, '死亡波動的火光'),
+(5886, '封印的神祕石'),
+(5887, '神祕石'),
+(5888, '卡拉克的角'),
+(5889, '洞穴咆哮者的頭骨'),
+(5890, '謎樣的書'),
+(5891, '古代的基礎辭典'),
+(5892, '古代的中級辭典'),
+(5893, '安樹的樹葉'),
+(5894, '寒冷的石頭'),
+(5895, '里特隆的果實'),
+(5896, '月野花'),
+(5897, '吸血鬼的體液'),
+(5898, '特級會員證'),
+(5899, '凱依的銅幣'),
+(5900, '銅幣收集冊'),
+(5901, '祭物的鮮血'),
+(5902, '古代魔法的卷軸'),
+(5903, '古代的骨灰罐'),
+(5904, '衛斯理的混合石'),
+(5905, '教師的混合石'),
+(5906, '5週年紀念禮盒(點心10個/組)'),
+(5907, '5週年紀念禮盒(點心9個/組)'),
+(5908, '紅色搜魂石-階段13'),
+(5909, '5週年紀念禮盒(點心8個/組)'),
+(5910, '5週年紀念禮盒(點心7個/組)'),
+(5911, '綠色搜魂石-階段13'),
+(5912, '5週年紀念禮盒(點心6個/組)'),
+(5913, '5週年紀念禮盒(蛋糕3個/組)'),
+(5914, '藍色搜魂石-階段13'),
+(5915, '海盜的藏寶圖'),
+(5916, '魔法書頁的碎片'),
+(5917, '克蘭波的魔法書-火之章'),
+(5918, '克蘭波的魔法書-水之章'),
+(5919, '克蘭波的魔法書-風之章'),
+(5920, '克蘭波的魔法書-地之章'),
+(5921, '無用的紙碎片'),
+(5922, '巨人的高崙設計圖-第1張'),
+(5923, '巨人的高崙設計圖-第2張'),
+(5924, '巨人的高崙設計圖-第3張'),
+(5925, '巨人的高崙設計圖-第4張'),
+(5926, '巨人的高崙設計圖-第5張'),
+(5927, '巨人的魔法理論-第1篇'),
+(5928, '巨人的魔法理論-第2篇'),
+(5929, '巨人的魔法理論-第3篇'),
+(5930, '巨人的魔法理論-第4篇'),
+(5931, '巨人的魔法理論-第5篇'),
+(5932, '巨人的建築指南-第1章'),
+(5933, '巨人的建築指南-第2章'),
+(5934, '巨人的建築指南-第3章'),
+(5935, '巨人的建築指南-第4章'),
+(5936, '巨人的建築指南-第5章'),
+(5937, '巨人的醫學理論-第1篇'),
+(5938, '巨人的醫學理論-第2篇'),
+(5939, '巨人的醫學理論-第3篇'),
+(5940, '巨人的醫學理論-第4篇'),
+(5941, '巨人的醫學理論-第5篇'),
+(5942, '巨人的情書'),
+(5943, '巨人的塗鴉'),
+(5944, '古代的羊皮紙'),
+(5945, '巨人的科學理論-第1章'),
+(5946, '巨人的科學理論-第2章'),
+(5947, '巨人的科學理論-第3章'),
+(5948, '巨人的科學理論-第4章'),
+(5949, '巨人的科學理論-第5章'),
+(5950, '下巨人文化年鑑-第1篇'),
+(5951, '下巨人文化年鑑-第2篇'),
+(5952, '下巨人文化年鑑-第3篇'),
+(5953, '下巨人文化年鑑-第4篇'),
+(5954, '下巨人文化年鑑-第5篇'),
+(5955, '下巨人古書籍'),
+(5956, '15年產葡萄酒'),
+(5957, '30年產葡萄酒'),
+(5958, '60年產葡萄酒'),
+(5959, '里特隆甜點製作卷軸'),
+(5960, '里特隆果凍'),
+(5961, '凱依的銀之邪惡蜥蜴'),
+(5962, '凱依的黃金高崙'),
+(5963, '凱依的血之龍'),
+(5964, '倉庫管理員的紀念章'),
+(5965, '空的卷軸'),
+(5966, '紅色古代的文獻'),
+(5967, '藍色古代的文獻'),
+(5968, '黑色古代的文獻'),
+(5969, '白色古代的文獻'),
+(5970, '古代的幸運信'),
+(5971, '古代人的笑話集'),
+(5972, '封印的默示錄-貪慾之章'),
+(5973, '封印的默示錄-啟示之章'),
+(5974, '封印的默示錄-戰亂之章'),
+(5975, '封印的默示錄-懲戒之章'),
+(5976, '封印的默示錄-覺醒之章'),
+(5977, '封印的默示錄-災難之章'),
+(5978, '封印的默示錄-降臨之章'),
+(5979, '帝國的史詩-第1篇'),
+(5980, '帝國的史詩-第2篇'),
+(5981, '帝國的史詩-第3篇'),
+(5982, '帝國的史詩-第4篇'),
+(5983, '帝國的史詩-第5篇'),
+(5984, '帝國的系譜-第1篇'),
+(5985, '帝國的系譜-第2篇'),
+(5986, '帝國的系譜-第3篇'),
+(5987, '帝國的系譜-第4篇'),
+(5988, '帝國的系譜-第5篇'),
+(5989, '傲慢之塔設計圖-第1層'),
+(5990, '傲慢之塔設計圖-第2層'),
+(5991, '傲慢之塔設計圖-第3層'),
+(5992, '傲慢之塔設計圖-第4層'),
+(5993, '傲慢之塔設計圖-第5層'),
+(5994, '傲慢之塔設計圖-第6層'),
+(5995, '傲慢之塔設計圖-第7層'),
+(5996, '傲慢之塔設計圖-第8層'),
+(5997, '傲慢之塔設計圖-第9層'),
+(5998, '傲慢之塔設計圖-第10層'),
+(5999, '傲慢之塔設計圖-第11層'),
+(6000, '傲慢之塔設計圖-第12層'),
+(6001, '傲慢之塔設計圖-第13層'),
+(6002, '古代的陶瓷器'),
+(6003, '古代的陶瓷器-名器'),
+(6004, '古代的陶瓷器-上級'),
+(6005, '古代的陶瓷器-下級'),
+(6006, '古代的陶瓷器-最下級'),
+(6007, '試劑包'),
+(6008, '試劑包'),
+(6009, '試劑包'),
+(6010, '試劑保管盒'),
+(6011, '亞龍的血'),
+(6012, '熔岩石'),
+(6013, '月石破片'),
+(6014, '腐爛的碎片'),
+(6015, '惡魔的血'),
+(6016, '因分尼恩原石'),
+(6017, '血的根'),
+(6018, '火山灰'),
+(6019, '汞'),
+(6020, '硫磺'),
+(6021, '龍的原生質'),
+(6022, '岩漿粉末'),
+(6023, '月亮粉末'),
+(6024, '腐屍的原生質'),
+(6025, '惡魔的原生質'),
+(6026, '地獄粉末'),
+(6027, '龍的精華'),
+(6028, '烈火的精華'),
+(6029, '路娜根特'),
+(6030, '午夜的油'),
+(6031, '惡魔的精華'),
+(6032, '深淵的油'),
+(6033, '地獄業火的油'),
+(6034, '夢魘的油'),
+(6035, '施法加速藥水'),
+(6036, '強力施法加速藥水'),
+(6037, '睡眠解除卷軸'),
+(6038, '高級傭兵配置表(劍/固定)'),
+(6039, '高級傭兵配置表(槍/固定)'),
+(6040, '高級傭兵配置表(弓/固定)'),
+(6041, '高級傭兵配置表(牧師/固定)'),
+(6042, '高級傭兵配置表(巫師/固定)'),
+(6043, '高級傭兵配置表(劍/移動)'),
+(6044, '高級傭兵配置表(槍/移動)'),
+(6045, '高級傭兵配置表(弓/移動)'),
+(6046, '高級傭兵配置表(牧師/移動)'),
+(6047, '高級傭兵配置表(巫師/移動)'),
+(6048, '垃圾'),
+(6049, '垃圾'),
+(6050, '垃圾'),
+(6051, '高級傭兵配置表(劍/固定)'),
+(6052, '高級傭兵配置表(槍/固定)'),
+(6053, '高級傭兵配置表(弓/固定)'),
+(6054, '高級傭兵配置表(牧師/固定)'),
+(6055, '高級傭兵配置表(巫師/固定)'),
+(6056, '高級傭兵配置表(劍/移動)'),
+(6057, '高級傭兵配置表(槍/移動)'),
+(6058, '高級傭兵配置表(弓/移動)'),
+(6059, '高級傭兵配置表(牧師/移動)'),
+(6060, '高級傭兵配置表(巫師/移動)'),
+(6061, '垃圾'),
+(6062, '垃圾'),
+(6063, '垃圾'),
+(6064, '高級傭兵配置表(劍/固定)'),
+(6065, '高級傭兵配置表(槍/固定)'),
+(6066, '高級傭兵配置表(弓/固定)'),
+(6067, '高級傭兵配置表(牧師/固定)'),
+(6068, '高級傭兵配置表(巫師/固定)'),
+(6069, '高級傭兵配置表(劍/移動)'),
+(6070, '高級傭兵配置表(槍/移動)'),
+(6071, '高級傭兵配置表(弓/移動)'),
+(6072, '高級傭兵配置表(牧師/移動)'),
+(6073, '高級傭兵配置表(巫師/移動)'),
+(6074, '垃圾'),
+(6075, '垃圾'),
+(6076, '垃圾'),
+(6077, '高級傭兵配置表(劍/固定)'),
+(6078, '高級傭兵配置表(槍/固定)'),
+(6079, '高級傭兵配置表(弓/固定)'),
+(6080, '高級傭兵配置表(牧師/固定)'),
+(6081, '高級傭兵配置表(巫師/固定)'),
+(6082, '高級傭兵配置表(劍/移動)'),
+(6083, '高級傭兵配置表(槍/移動)'),
+(6084, '高級傭兵配置表(弓/移動)'),
+(6085, '高級傭兵配置表(牧師/移動)'),
+(6086, '高級傭兵配置表(巫師/移動)'),
+(6087, '垃圾'),
+(6088, '垃圾'),
+(6089, '垃圾'),
+(6090, '高級傭兵配置表(劍/固定)'),
+(6091, '高級傭兵配置表(槍/固定)'),
+(6092, '高級傭兵配置表(弓/固定)'),
+(6093, '高級傭兵配置表(牧師/固定)'),
+(6094, '高級傭兵配置表(巫師/固定)'),
+(6095, '高級傭兵配置表(劍/移動)'),
+(6096, '高級傭兵配置表(槍/移動)'),
+(6097, '高級傭兵配置表(弓/移動)'),
+(6098, '高級傭兵配置表(牧師/移動)'),
+(6099, '高級傭兵配置表(巫師/移動)'),
+(6100, '垃圾'),
+(6101, '垃圾'),
+(6102, '垃圾'),
+(6103, '垃圾'),
+(6104, '垃圾'),
+(6105, '高級傭兵配置表(劍/固定)'),
+(6106, '高級傭兵配置表(槍/固定)'),
+(6107, '高級傭兵配置表(弓/固定)'),
+(6108, '高級傭兵配置表(牧師/固定)'),
+(6109, '高級傭兵配置表(巫師/固定)'),
+(6110, '高級傭兵配置表(劍/移動)'),
+(6111, '高級傭兵配置表(槍/移動)'),
+(6112, '高級傭兵配置表(弓/移動)'),
+(6113, '高級傭兵配置表(牧師/移動)'),
+(6114, '高級傭兵配置表(巫師/移動)'),
+(6115, '黎明傭兵配置表(劍/固定)'),
+(6116, '黎明傭兵配置表(槍/固定)'),
+(6117, '黎明傭兵配置表(弓/固定)'),
+(6118, '黎明傭兵配置表(牧師/固定)'),
+(6119, '黎明傭兵配置表(巫師/固定)'),
+(6120, '黎明傭兵配置表(劍/移動)'),
+(6121, '黎明傭兵配置表(槍/移動)'),
+(6122, '黎明傭兵配置表(弓/移動)'),
+(6123, '黎明傭兵配置表(牧師/移動)'),
+(6124, '黎明傭兵配置表(巫師/移動)'),
+(6125, '黎明傭兵配置表(劍/固定)'),
+(6126, '黎明傭兵配置表(槍/固定)'),
+(6127, '黎明傭兵配置表(弓/固定)'),
+(6128, '黎明傭兵配置表(牧師/固定)'),
+(6129, '黎明傭兵配置表(巫師/固定)'),
+(6130, '黎明傭兵配置表(劍/移動)'),
+(6131, '黎明傭兵配置表(槍/移動)'),
+(6132, '黎明傭兵配置表(弓/移動)'),
+(6133, '黎明傭兵配置表(牧師/移動)'),
+(6134, '黎明傭兵配置表(巫師/移動)'),
+(6135, '黎明傭兵配置表(劍/固定)'),
+(6136, '黎明傭兵配置表(槍/固定)'),
+(6137, '黎明傭兵配置表(弓/固定)'),
+(6138, '黎明傭兵配置表(牧師/固定)'),
+(6139, '黎明傭兵配置表(巫師/固定)'),
+(6140, '黎明傭兵配置表(劍/移動)'),
+(6141, '黎明傭兵配置表(槍/移動)'),
+(6142, '黎明傭兵配置表(弓/移動)'),
+(6143, '黎明傭兵配置表(牧師/移動)'),
+(6144, '黎明傭兵配置表(巫師/移動)'),
+(6145, '黎明傭兵配置表(劍/固定)'),
+(6146, '黎明傭兵配置表(槍/固定)'),
+(6147, '黎明傭兵配置表(弓/固定)'),
+(6148, '黎明傭兵配置表(牧師/固定)'),
+(6149, '黎明傭兵配置表(巫師/固定)'),
+(6150, '黎明傭兵配置表(劍/移動)'),
+(6151, '黎明傭兵配置表(槍/移動)'),
+(6152, '黎明傭兵配置表(弓/移動)'),
+(6153, '黎明傭兵配置表(牧師/移動)'),
+(6154, '黎明傭兵配置表(巫師/移動)'),
+(6155, '黎明傭兵配置表(劍/固定)'),
+(6156, '黎明傭兵配置表(槍/固定)'),
+(6157, '黎明傭兵配置表(弓/固定)'),
+(6158, '黎明傭兵配置表(牧師/固定)'),
+(6159, '黎明傭兵配置表(巫師/固定)'),
+(6160, '黎明傭兵配置表(劍/移動)'),
+(6161, '黎明傭兵配置表(槍/移動)'),
+(6162, '黎明傭兵配置表(弓/移動)'),
+(6163, '黎明傭兵配置表(牧師/移動)'),
+(6164, '黎明傭兵配置表(巫師/移動)'),
+(6165, '黎明傭兵配置表(劍/固定)'),
+(6166, '黎明傭兵配置表(槍/固定)'),
+(6167, '黎明傭兵配置表(弓/固定)'),
+(6168, '黎明傭兵配置表(牧師/固定)'),
+(6169, '黎明傭兵配置表(巫師/固定)'),
+(6170, '黎明傭兵配置表(劍/移動)'),
+(6171, '黎明傭兵配置表(槍/移動)'),
+(6172, '黎明傭兵配置表(弓/移動)'),
+(6173, '黎明傭兵配置表(牧師/移動)'),
+(6174, '黎明傭兵配置表(巫師/移動)'),
+(6175, '高級訓練兵配置表(劍/固定)'),
+(6176, '高級訓練兵配置表(槍/固定)'),
+(6177, '高級訓練兵配置表(弓/固定)'),
+(6178, '高級訓練兵配置表(牧師/固定)'),
+(6179, '高級訓練兵配置表(巫師/固定)'),
+(6180, '高級訓練兵配置表(劍/移動)'),
+(6181, '高級訓練兵配置表(槍/移動)'),
+(6182, '高級訓練兵配置表(弓/移動)'),
+(6183, '高級訓練兵配置表(牧師/移動)'),
+(6184, '高級訓練兵配置表(巫師/移動)'),
+(6185, '高級訓練兵配置表(劍/固定)'),
+(6186, '高級訓練兵配置表(槍/固定)'),
+(6187, '高級訓練兵配置表(弓/固定)'),
+(6188, '高級訓練兵配置表(牧師/固定)'),
+(6189, '高級訓練兵配置表(巫師/固定)'),
+(6190, '高級訓練兵配置表(劍/移動)'),
+(6191, '高級訓練兵配置表(槍/移動)'),
+(6192, '高級訓練兵配置表(弓/移動)'),
+(6193, '高級訓練兵配置表(牧師/移動)'),
+(6194, '高級訓練兵配置表(巫師/移動)'),
+(6195, '高級訓練兵配置表(劍/固定)'),
+(6196, '高級訓練兵配置表(槍/固定)'),
+(6197, '高級訓練兵配置表(弓/固定)'),
+(6198, '高級訓練兵配置表(牧師/固定)'),
+(6199, '高級訓練兵配置表(巫師/固定)'),
+(6200, '高級訓練兵配置表(劍/移動)'),
+(6201, '高級訓練兵配置表(槍/移動)'),
+(6202, '高級訓練兵配置表(弓/移動)'),
+(6203, '高級訓練兵配置表(牧師/移動)'),
+(6204, '高級訓練兵配置表(巫師/移動)'),
+(6205, '高級訓練兵配置表(劍/固定)'),
+(6206, '高級訓練兵配置表(槍/固定)'),
+(6207, '高級訓練兵配置表(弓/固定)'),
+(6208, '高級訓練兵配置表(牧師/固定)'),
+(6209, '高級訓練兵配置表(巫師/固定)'),
+(6210, '高級訓練兵配置表(劍/移動)'),
+(6211, '高級訓練兵配置表(槍/移動)'),
+(6212, '高級訓練兵配置表(弓/移動)'),
+(6213, '高級訓練兵配置表(牧師/移動)'),
+(6214, '高級訓練兵配置表(巫師/移動)'),
+(6215, '高級訓練兵配置表(劍/固定)'),
+(6216, '高級訓練兵配置表(槍/固定)'),
+(6217, '高級訓練兵配置表(弓/固定)'),
+(6218, '高級訓練兵配置表(牧師/固定)'),
+(6219, '高級訓練兵配置表(巫師/固定)'),
+(6220, '高級訓練兵配置表(劍/移動)'),
+(6221, '高級訓練兵配置表(槍/移動)'),
+(6222, '高級訓練兵配置表(弓/移動)'),
+(6223, '高級訓練兵配置表(牧師/移動)'),
+(6224, '高級訓練兵配置表(巫師/移動)'),
+(6225, '高級訓練兵配置表(劍/固定)'),
+(6226, '高級訓練兵配置表(槍/固定)'),
+(6227, '高級訓練兵配置表(弓/固定)'),
+(6228, '高級訓練兵配置表(牧師/固定)'),
+(6229, '高級訓練兵配置表(巫師/固定)'),
+(6230, '高級訓練兵配置表(劍/移動)'),
+(6231, '高級訓練兵配置表(槍/移動)'),
+(6232, '高級訓練兵配置表(弓/移動)'),
+(6233, '高級訓練兵配置表(牧師/移動)'),
+(6234, '高級訓練兵配置表(巫師/移動)'),
+(6235, '訓練兵配置表(劍/固定)'),
+(6236, '訓練兵配置表(槍/固定)'),
+(6237, '訓練兵配置表(弓/固定)'),
+(6238, '訓練兵配置表(牧師/固定)'),
+(6239, '訓練兵配置表(巫師/固定)'),
+(6240, '訓練兵配置表(劍/移動)'),
+(6241, '訓練兵配置表(槍/移動)'),
+(6242, '訓練兵配置表(弓/移動)'),
+(6243, '訓練兵配置表(牧師/移動)'),
+(6244, '訓練兵配置表(巫師/移動)'),
+(6245, '訓練兵配置表(劍/固定)'),
+(6246, '訓練兵配置表(槍/固定)'),
+(6247, '訓練兵配置表(弓/固定)'),
+(6248, '訓練兵配置表(牧師/固定)'),
+(6249, '訓練兵配置表(巫師/固定)'),
+(6250, '訓練兵配置表(劍/移動)'),
+(6251, '訓練兵配置表(槍/移動)'),
+(6252, '訓練兵配置表(弓/移動)'),
+(6253, '訓練兵配置表(牧師/移動)'),
+(6254, '訓練兵配置表(巫師/移動)'),
+(6255, '訓練兵配置表(劍/固定)'),
+(6256, '訓練兵配置表(槍/固定)'),
+(6257, '訓練兵配置表(弓/固定)'),
+(6258, '訓練兵配置表(牧師/固定)'),
+(6259, '訓練兵配置表(巫師/固定)'),
+(6260, '訓練兵配置表(劍/移動)'),
+(6261, '訓練兵配置表(槍/移動)'),
+(6262, '訓練兵配置表(弓/移動)'),
+(6263, '訓練兵配置表(牧師/移動)'),
+(6264, '訓練兵配置表(巫師/移動)'),
+(6265, '訓練兵配置表(劍/固定)'),
+(6266, '訓練兵配置表(槍/固定)'),
+(6267, '訓練兵配置表(弓/固定)'),
+(6268, '訓練兵配置表(牧師/固定)'),
+(6269, '訓練兵配置表(巫師/固定)'),
+(6270, '訓練兵配置表(劍/移動)'),
+(6271, '訓練兵配置表(槍/移動)'),
+(6272, '訓練兵配置表(弓/移動)'),
+(6273, '訓練兵配置表(牧師/移動)'),
+(6274, '訓練兵配置表(巫師/移動)'),
+(6275, '訓練兵配置表(劍/固定)'),
+(6276, '訓練兵配置表(槍/固定)'),
+(6277, '訓練兵配置表(弓/固定)'),
+(6278, '訓練兵配置表(牧師/固定)'),
+(6279, '訓練兵配置表(巫師/固定)'),
+(6280, '訓練兵配置表(劍/移動)'),
+(6281, '訓練兵配置表(槍/移動)'),
+(6282, '訓練兵配置表(弓/移動)'),
+(6283, '訓練兵配置表(牧師/移動)'),
+(6284, '訓練兵配置表(巫師/移動)'),
+(6285, '訓練兵配置表(劍/固定)'),
+(6286, '訓練兵配置表(槍/固定)'),
+(6287, '訓練兵配置表(弓/固定)'),
+(6288, '訓練兵配置表(牧師/固定)'),
+(6289, '訓練兵配置表(巫師/固定)'),
+(6290, '訓練兵配置表(劍/移動)'),
+(6291, '訓練兵配置表(槍/移動)'),
+(6292, '訓練兵配置表(弓/移動)'),
+(6293, '訓練兵配置表(牧師/移動)'),
+(6294, '訓練兵配置表(巫師/移動)'),
+(6295, '那芙琳戰士配置表'),
+(6296, '那芙琳咒術士配置表'),
+(6297, '那芙琳戰士配置表'),
+(6298, '那芙琳咒術士配置表'),
+(6299, '那芙琳戰士配置表'),
+(6300, '那芙琳咒術士配置表'),
+(6301, '那芙琳戰士配置表'),
+(6302, '那芙琳咒術士配置表'),
+(6303, '那芙琳戰士配置表'),
+(6304, '那芙琳咒術士配置表'),
+(6305, '那芙琳戰士配置表'),
+(6306, '那芙琳咒術士配置表'),
+(6316, '飛龍飼料'),
+(6317, '材料混合說明'),
+(6318, '血焰'),
+(6319, '米密爾的泉水'),
+(6320, '純銀'),
+(6321, '真金'),
+(6322, '賢者之石'),
+(6329, '製作卷軸(封印的不死鳥項鍊70%)'),
+(6330, '製作卷軸(封印的不死鳥項鍊100%)'),
+(6331, '製作卷軸(封印的不死鳥耳環70%)'),
+(6332, '製作卷軸(封印的不死鳥耳環100%)'),
+(6333, '製作卷軸(封印的不死鳥戒指70%)'),
+(6334, '製作卷軸(封印的不死鳥戒指100%)'),
+(6335, '製作卷軸(封印的聖威項鍊70%)'),
+(6336, '製作卷軸(封印的聖威項鍊100%)'),
+(6337, '製作卷軸(封印的聖威耳環70%)'),
+(6338, '製作卷軸(封印的聖威耳環100%)'),
+(6339, '製作卷軸(封印的聖威戒指70%)'),
+(6340, '製作卷軸(封印的聖威戒指100%)'),
+(6341, '封印的不死鳥耳環的寶石'),
+(6342, '封印的聖威耳環的寶石'),
+(6343, '封印的不死鳥項鍊的珠子'),
+(6344, '封印的聖威項鍊的珠子'),
+(6345, '封印的不死鳥戒指的寶石'),
+(6346, '封印的聖威戒指的寶石'),
+(6350, '護身符-帕格立歐敬意'),
+(6351, '護身符-生命祭禮'),
+(6352, '魔法書-祈禱'),
+(6353, '藍色寶石'),
+(6360, '藍色封印石'),
+(6361, '綠色封印石'),
+(6362, '紅色封印石'),
+(6363, '被竊的因分尼恩原石'),
+(6387, '祝福的寵物復活卷軸'),
+(6388, '領主的認可'),
+(6389, '葫蘆種子'),
+(6390, '大葫蘆種子'),
+(6391, '神酒'),
+(6392, '活動-紀念章'),
+(6393, '活動-光彩紀念章'),
+(6395, '護身符-掠奪頌歌'),
+(6396, '護身符-獵鷹頌歌'),
+(6397, '護身符-嗜血頌歌'),
+(6398, '魔法書-聖化之體'),
+(6399, '兔子紋章'),
+(6400, '鬣狗紋章'),
+(6401, '狐狸紋章'),
+(6402, '狼紋章'),
+(6403, '妖精火花'),
+(6404, '火藥'),
+(6405, '鎂'),
+(6406, '煙火'),
+(6407, '大煙火'),
+(6409, '2006戰鬥錦標賽-鬥志藥水'),
+(6410, '2006戰鬥錦標賽-瞬間體力治癒藥水'),
+(6411, '敏捷的綠色小魚'),
+(6412, '暴躁的綠色小魚'),
+(6413, '寬扁的綠色小魚'),
+(6414, '敏捷的綠色魚'),
+(6415, '暴躁的綠色魚'),
+(6416, '寬扁的綠色魚'),
+(6417, '敏捷的綠色大魚'),
+(6418, '暴躁的綠色大魚'),
+(6419, '寬扁的綠色大魚'),
+(6420, '敏捷的翡翠小魚'),
+(6421, '暴躁的翡翠小魚'),
+(6422, '寬扁的翡翠小魚'),
+(6423, '敏捷的翡翠魚'),
+(6424, '暴躁的翡翠魚'),
+(6425, '寬扁的翡翠魚'),
+(6426, '敏捷的翡翠大魚'),
+(6427, '暴躁的翡翠大魚'),
+(6428, '寬扁的翡翠大魚'),
+(6429, '敏捷的藍色小魚'),
+(6430, '暴躁的藍色小魚'),
+(6431, '寬扁的藍色小魚'),
+(6432, '敏捷的藍色魚'),
+(6433, '暴躁的藍色魚'),
+(6434, '寬扁的藍色魚'),
+(6435, '敏捷的藍色大魚'),
+(6436, '暴躁的藍色大魚'),
+(6437, '寬扁的藍色大魚'),
+(6438, '敏捷的黃色小魚'),
+(6439, '暴躁的黃色小魚'),
+(6440, '寬扁的黃色小魚'),
+(6441, '敏捷的黃色魚'),
+(6442, '暴躁的黃色魚'),
+(6443, '寬扁的黃色魚'),
+(6444, '敏捷的黃色大魚'),
+(6445, '暴躁的黃色大魚'),
+(6446, '寬扁的黃色大魚'),
+(6447, '敏捷的橙色小魚'),
+(6448, '暴躁的橙色小魚'),
+(6449, '寬扁的橙色小魚'),
+(6450, '敏捷的橙色魚'),
+(6451, '暴躁的橙色魚'),
+(6452, '寬扁的橙色魚'),
+(6453, '敏捷的橙色大魚'),
+(6454, '暴躁的橙色大魚'),
+(6455, '寬扁的橙色大魚'),
+(6456, '敏捷的紫色小魚'),
+(6457, '暴躁的紫色小魚'),
+(6458, '寬扁的紫色小魚'),
+(6459, '敏捷的紫色魚'),
+(6460, '暴躁的紫色魚'),
+(6461, '寬扁的紫色魚'),
+(6462, '敏捷的紫色大魚'),
+(6463, '暴躁的紫色大魚'),
+(6464, '寬扁的紫色大魚'),
+(6465, '敏捷的紅色小魚'),
+(6466, '暴躁的紅色小魚'),
+(6467, '寬扁的紅色小魚'),
+(6468, '敏捷的紅色魚'),
+(6469, '暴躁的紅色魚'),
+(6470, '寬扁的紅色魚'),
+(6471, '敏捷的紅色大魚'),
+(6472, '暴躁的紅色大魚'),
+(6473, '寬扁的紅色大魚'),
+(6474, '敏捷的白色小魚'),
+(6475, '暴躁的白色小魚'),
+(6476, '寬扁的白色小魚'),
+(6477, '敏捷的白色魚'),
+(6478, '暴躁的白色魚'),
+(6479, '寬扁的白色魚'),
+(6480, '敏捷的白色大魚'),
+(6481, '暴躁的白色大魚'),
+(6482, '寬扁的白色大魚'),
+(6483, '敏捷的黑色小魚'),
+(6484, '暴躁的黑色小魚'),
+(6485, '寬扁的黑色小魚'),
+(6486, '敏捷的黑色魚'),
+(6487, '暴躁的黑色魚'),
+(6488, '寬扁的黑色魚'),
+(6489, '敏捷的黑色大魚'),
+(6490, '暴躁的黑色大魚'),
+(6491, '寬扁的黑色大魚'),
+(6492, '綠色小寶箱'),
+(6493, '綠色寶箱'),
+(6494, '綠色大寶箱'),
+(6495, '翡翠小寶箱'),
+(6496, '翡翠寶箱'),
+(6497, '翡翠大寶箱'),
+(6498, '藍色小寶箱'),
+(6499, '藍色寶箱'),
+(6500, '藍色大寶箱'),
+(6501, '黃色小寶箱'),
+(6502, '黃色寶箱'),
+(6503, '黃色大寶箱'),
+(6504, '橙色小寶箱'),
+(6505, '橙色寶箱'),
+(6506, '橙色大寶箱'),
+(6507, '紫色小寶箱'),
+(6508, '紫色寶箱'),
+(6509, '紫色大寶箱'),
+(6510, '紅色小寶箱'),
+(6511, '紅色寶箱'),
+(6512, '紅色大寶箱'),
+(6513, '白色小寶箱'),
+(6514, '白色寶箱'),
+(6515, '白色大寶箱'),
+(6516, '黑色小寶箱'),
+(6517, '黑色寶箱'),
+(6518, '黑色大寶箱'),
+(6519, '綠色魚餌-下等'),
+(6520, '綠色魚餌-中等'),
+(6521, '綠色魚餌-高等'),
+(6522, '紫色魚餌-下等'),
+(6523, '紫色魚餌-中等'),
+(6524, '紫色魚餌-高等'),
+(6525, '黃色魚餌-下等'),
+(6526, '黃色魚餌-中等'),
+(6527, '黃色魚餌-高等'),
+(6528, '活動用魚餌'),
+(6535, '漁靈彈-普通'),
+(6536, '漁靈彈-D級'),
+(6537, '漁靈彈-C級'),
+(6538, '漁靈彈-B級'),
+(6539, '漁靈彈-A級'),
+(6540, '漁靈彈-S級'),
+(6541, '藍色柯巴'),
+(6542, '紅色柯巴'),
+(6543, '金色柯巴'),
+(6544, '沙漠柯巴'),
+(6545, '海洋柯巴'),
+(6546, '雙生柯巴'),
+(6547, '巨大柯巴'),
+(6548, '改良藍色柯巴'),
+(6549, '改良紅色柯巴'),
+(6550, '改良金色柯巴'),
+(6551, '改良沙漠柯巴'),
+(6552, '改良海洋柯巴'),
+(6553, '改良雙生柯巴'),
+(6554, '改良巨大柯巴'),
+(6555, '成熟的藍色柯巴'),
+(6556, '成熟的紅色柯巴'),
+(6557, '成熟的金色柯巴'),
+(6558, '成熟的沙漠柯巴'),
+(6559, '成熟的海洋柯巴'),
+(6560, '成熟的雙生柯巴'),
+(6561, '成熟的巨大柯巴'),
+(6562, '成熟的改良藍色柯巴'),
+(6563, '成熟的改良紅色柯巴'),
+(6564, '成熟的改良金色柯巴'),
+(6565, '成熟的改良沙漠柯巴'),
+(6566, '成熟的改良海洋柯巴'),
+(6567, '成熟的改良雙生柯巴'),
+(6568, '成熟的改良巨大柯巴'),
+(6569, '祝福的武器強化卷軸-A級'),
+(6570, '祝福的防具強化卷軸-A級'),
+(6571, '祝福的武器強化卷軸-B級'),
+(6572, '祝福的防具強化卷軸-B級'),
+(6573, '祝福的武器強化卷軸-C級'),
+(6574, '祝福的防具強化卷軸-C級'),
+(6575, '祝福的武器強化卷軸-D級'),
+(6576, '祝福的防具強化卷軸-D級'),
+(6577, '祝福的武器強化卷軸-S級'),
+(6578, '祝福的防具強化卷軸-S級'),
+(6622, '巨人的經典'),
+(6623, '模型-任務道具1'),
+(6624, '模型-任務道具2'),
+(6625, '模型-任務道具3'),
+(6626, '模型-任務道具4'),
+(6627, '模型-任務道具5'),
+(6628, '模型-任務道具6'),
+(6629, '模型-任務道具7'),
+(6630, '模型-任務道具8'),
+(6631, '模型-任務道具9'),
+(6632, '模型-任務道具10'),
+(6633, '模型-一般道具1'),
+(6634, '模型-一般道具2'),
+(6635, '模型-一般道具3'),
+(6636, '模型-一般道具4'),
+(6637, '模型-一般道具5'),
+(6638, '模型-一般道具6'),
+(6639, '模型-一般道具7'),
+(6640, '模型-一般道具8'),
+(6641, '模型-一般道具9'),
+(6642, '模型-一般道具10'),
+(6643, '金色香料'),
+(6644, '水晶香料'),
+(6645, '野獸靈魂彈'),
+(6646, '野獸魔靈彈'),
+(6647, '祝福的野獸魔靈彈'),
+(6648, '小野牛之笛'),
+(6649, '小老虎之鐘'),
+(6650, '小笑翠鳥之笛'),
+(6651, '貴族通行證'),
+(6652, '火龍加持護符'),
+(6653, '救護的護符-解除死亡之火'),
+(6654, '火龍之炎護符'),
+(6655, '火龍刺殺護符'),
+(6663, '獸人城鎮返回卷軸'),
+(6664, '賽勒諾斯城鎮返回卷軸'),
+(6665, '寶箱鑰匙-1級'),
+(6666, '寶箱鑰匙-2級'),
+(6667, '寶箱鑰匙-3級'),
+(6668, '寶箱鑰匙-4級'),
+(6669, '寶箱鑰匙-5級'),
+(6670, '寶箱鑰匙-6級'),
+(6671, '寶箱鑰匙-7級'),
+(6672, '寶箱鑰匙-8級'),
+(6673, '慶典金幣'),
+(6688, '忘卻之刃的刀身'),
+(6689, '玄武岩戰鎚的金屬塊'),
+(6690, '帝國權杖的碎片'),
+(6691, '天使殺手的劍身'),
+(6692, '閃耀弓的柄'),
+(6693, '狩龍之斧的刃部'),
+(6694, '聖者之矛的刃部'),
+(6695, '惡魔獵爪的刃部'),
+(6696, '天國審判的刀身'),
+(6697, '祕儀權杖的金屬塊'),
+(6698, '封印的泰狄奧森耳環碎片'),
+(6699, '封印的泰狄奧森戒指寶石'),
+(6700, '封印的泰狄奧森項鍊金屬線'),
+(6701, '封印的帝國聖軍胸甲組件'),
+(6702, '封印的帝國聖軍脛甲組件'),
+(6703, '封印的帝國聖軍長手套圖樣'),
+(6704, '封印的帝國聖軍長靴圖樣'),
+(6705, '封印的帝國聖軍盾碎片'),
+(6706, '封印的帝國聖軍頭盔組件'),
+(6707, '封印的紅龍皮甲組件'),
+(6708, '封印的紅龍皮手套布料'),
+(6709, '封印的紅龍皮靴圖樣'),
+(6710, '封印的紅龍皮盔組件'),
+(6711, '封印的大祕儀長袍組件'),
+(6712, '封印的大祕儀手套布料'),
+(6713, '封印的大祕儀長靴組件'),
+(6714, '封印的大祕儀頭箍組件'),
+(6727, '改良巨大柯巴種子'),
+(6728, '改良海洋柯巴種子'),
+(6729, '改良海洋柯巴種子'),
+(6730, '改良海洋柯巴種子'),
+(6731, '改良紅色柯巴種子'),
+(6732, '改良紅色柯巴種子'),
+(6733, '改良紅色柯巴種子'),
+(6734, '改良紅色柯巴種子'),
+(6735, '改良紅色柯巴種子'),
+(6736, '改良沙漠柯巴種子'),
+(6737, '改良沙漠柯巴種子'),
+(6738, '改良沙漠柯巴種子'),
+(6739, '改良沙漠柯巴種子'),
+(6740, '改良沙漠柯巴種子'),
+(6741, '改良雙生柯巴種子'),
+(6742, '改良藍色柯巴種子'),
+(6743, '改良藍色柯巴種子'),
+(6744, '改良藍色柯巴種子'),
+(6745, '改良藍色柯巴種子'),
+(6746, '改良藍色柯巴種子'),
+(6747, '改良金色柯巴種子'),
+(6748, '改良金色柯巴種子'),
+(6749, '改良金色柯巴種子'),
+(6750, '改良金色柯巴種子'),
+(6751, '改良金色柯巴種子'),
+(6752, '改良金色柯巴種子'),
+(6753, '巨大柯巴種子'),
+(6754, '海洋柯巴種子'),
+(6755, '海洋柯巴種子'),
+(6756, '海洋柯巴種子'),
+(6757, '紅色柯巴種子'),
+(6758, '紅色柯巴種子'),
+(6759, '紅色柯巴種子'),
+(6760, '紅色柯巴種子'),
+(6761, '紅色柯巴種子'),
+(6762, '沙漠柯巴種子'),
+(6763, '沙漠柯巴種子'),
+(6764, '沙漠柯巴種子'),
+(6765, '沙漠柯巴種子'),
+(6766, '沙漠柯巴種子'),
+(6767, '雙生柯巴種子'),
+(6768, '藍色柯巴種子'),
+(6769, '藍色柯巴種子'),
+(6770, '藍色柯巴種子'),
+(6771, '藍色柯巴種子'),
+(6772, '藍色柯巴種子'),
+(6773, '金色柯巴種子'),
+(6774, '金色柯巴種子'),
+(6775, '金色柯巴種子'),
+(6776, '金色柯巴種子'),
+(6777, '金色柯巴種子'),
+(6778, '金色柯巴種子'),
+(6779, '傭兵配置表(劍/固定)'),
+(6780, '傭兵配置表(槍/固定)'),
+(6781, '傭兵配置表(弓/固定)'),
+(6782, '傭兵配置表(牧師/固定)'),
+(6783, '傭兵配置表(巫師/固定)'),
+(6784, '傭兵配置表(劍/移動)'),
+(6785, '傭兵配置表(槍/移動)'),
+(6786, '傭兵配置表(弓/移動)'),
+(6787, '傭兵配置表(牧師/移動)'),
+(6788, '傭兵配置表(巫師/移動)'),
+(6789, '傭兵配置表(傳送師1)'),
+(6790, '傭兵配置表(傳送師2)'),
+(6791, '傭兵配置表(傳送師3)'),
+(6792, '高級傭兵配置表(劍/固定)'),
+(6793, '高級傭兵配置表(槍/固定)'),
+(6794, '高級傭兵配置表(弓/固定)'),
+(6795, '高級傭兵配置表(牧師/固定)'),
+(6796, '高級傭兵配置表(巫師/固定)'),
+(6797, '高級傭兵配置表(劍/移動)'),
+(6798, '高級傭兵配置表(槍/移動)'),
+(6799, '高級傭兵配置表(弓/移動)'),
+(6800, '高級傭兵配置表(牧師/移動)'),
+(6801, '高級傭兵配置表(巫師/移動)'),
+(6802, '黎明傭兵配置表(劍/固定)'),
+(6803, '黎明傭兵配置表(槍/固定)'),
+(6804, '黎明傭兵配置表(弓/固定)'),
+(6805, '黎明傭兵配置表(牧師/固定)'),
+(6806, '黎明傭兵配置表(巫師/固定)'),
+(6807, '黎明傭兵配置表(劍/移動)'),
+(6808, '黎明傭兵配置表(槍/移動)'),
+(6809, '黎明傭兵配置表(弓/移動)'),
+(6810, '黎明傭兵配置表(牧師/移動)'),
+(6811, '黎明傭兵配置表(巫師/移動)'),
+(6812, '高級訓練兵配置表(劍/固定)'),
+(6813, '高級訓練兵配置表(槍/固定)'),
+(6814, '高級訓練兵配置表(弓/固定)'),
+(6815, '高級訓練兵配置表(牧師/固定)'),
+(6816, '高級訓練兵配置表(巫師/固定)'),
+(6817, '高級訓練兵配置表(劍/移動)'),
+(6818, '高級訓練兵配置表(槍/移動)'),
+(6819, '高級訓練兵配置表(弓/移動)'),
+(6820, '高級訓練兵配置表(牧師/移動)'),
+(6821, '高級訓練兵配置表(巫師/移動)'),
+(6822, '訓練兵配置表(劍/固定)'),
+(6823, '訓練兵配置表(槍/固定)'),
+(6824, '訓練兵配置表(弓/固定)'),
+(6825, '訓練兵配置表(牧師/固定)'),
+(6826, '訓練兵配置表(巫師/固定)'),
+(6827, '訓練兵配置表(劍/移動)'),
+(6828, '訓練兵配置表(槍/移動)'),
+(6829, '訓練兵配置表(弓/移動)'),
+(6830, '訓練兵配置表(牧師/移動)'),
+(6831, '訓練兵配置表(巫師/移動)'),
+(6832, '那芙琳戰士配置表'),
+(6833, '那芙琳咒術士配置表'),
+(6847, '製作卷軸(封印的泰狄奧森耳環70%)'),
+(6848, '製作卷軸(封印的泰狄奧森耳環100%)'),
+(6849, '製作卷軸(封印的泰狄奧森戒指70%)'),
+(6850, '製作卷軸(封印的泰狄奧森戒指100%)'),
+(6851, '製作卷軸(封印的泰狄奧森項鍊70%)'),
+(6852, '製作卷軸(封印的泰狄奧森項鍊100%)'),
+(6853, '製作卷軸(封印的帝國聖軍胸甲60%)'),
+(6854, '製作卷軸(封印的帝國聖軍胸甲100%)'),
+(6855, '製作卷軸(封印的帝國聖軍脛甲60%)'),
+(6856, '製作卷軸(封印的帝國聖軍脛甲100%)'),
+(6857, '製作卷軸(封印的帝國聖軍長手套60%)'),
+(6858, '製作卷軸(封印的帝國聖軍長手套100%)'),
+(6859, '製作卷軸(封印的帝國聖軍長靴60%)'),
+(6860, '製作卷軸(封印的帝國聖軍長靴100%)'),
+(6861, '製作卷軸(封印的帝國聖軍盾60%)'),
+(6862, '製作卷軸(封印的帝國聖軍盾100%)'),
+(6863, '製作卷軸(封印的帝國聖軍頭盔60%)'),
+(6864, '製作卷軸(封印的帝國聖軍頭盔100%)'),
+(6865, '製作卷軸(封印的紅龍皮甲60%)'),
+(6866, '製作卷軸(封印的紅龍皮甲100%)'),
+(6867, '製作卷軸(封印的紅龍皮手套60%)'),
+(6868, '製作卷軸(封印的紅龍皮手套100%)'),
+(6869, '製作卷軸(封印的紅龍皮靴60%)'),
+(6870, '製作卷軸(封印的紅龍皮靴100%)'),
+(6871, '製作卷軸(封印的紅龍皮盔60%)'),
+(6872, '製作卷軸(封印的紅龍皮盔100%)'),
+(6873, '製作卷軸(封印的大祕儀長袍60%)'),
+(6874, '製作卷軸(封印的大祕儀長袍100%)'),
+(6875, '製作卷軸(封印的大祕儀手套60%)'),
+(6876, '製作卷軸(封印的大祕儀手套100%)'),
+(6877, '製作卷軸(封印的大祕儀長靴60%)'),
+(6878, '製作卷軸(封印的大祕儀長靴100%)'),
+(6879, '製作卷軸(封印的大祕儀頭箍60%)'),
+(6880, '製作卷軸(封印的大祕儀頭箍100%)'),
+(6881, '製作卷軸(忘卻之刃60%)'),
+(6882, '製作卷軸(忘卻之刃100%)'),
+(6883, '製作卷軸(玄武岩戰鎚60%)'),
+(6884, '製作卷軸(玄武岩戰鎚100%)'),
+(6885, '製作卷軸(帝國權杖60%)'),
+(6886, '製作卷軸(帝國權杖100%)'),
+(6887, '製作卷軸(天使殺手60%)'),
+(6888, '製作卷軸(天使殺手100%)'),
+(6889, '製作卷軸(閃耀弓60%)'),
+(6890, '製作卷軸(閃耀弓100%)'),
+(6891, '製作卷軸(狩龍之斧60%)'),
+(6892, '製作卷軸(狩龍之斧100%)'),
+(6893, '製作卷軸(聖者之矛60%)'),
+(6894, '製作卷軸(聖者之矛100%)'),
+(6895, '製作卷軸(惡魔獵爪60%)'),
+(6896, '製作卷軸(惡魔獵爪100%)'),
+(6897, '製作卷軸(天國審判60%)'),
+(6898, '製作卷軸(天國審判100%)'),
+(6899, '製作卷軸(祕儀權杖60%)'),
+(6900, '製作卷軸(祕儀權杖100%)'),
+(6901, '製作卷軸(閃耀箭100%)'),
+(6903, '音樂盒M'),
+(6904, '舞會面具的布料'),
+(6905, '名媛髮飾的碎片'),
+(6906, '海盜眼罩的帶子'),
+(6907, '單片眼鏡的碎片'),
+(6908, '魚油'),
+(6909, '中級魚油'),
+(6910, '高級魚油'),
+(6911, '魚鱗'),
+(6912, '閃亮的魚鱗'),
+(6913, '魚寶石'),
+(6914, '閃亮的魚寶石'),
+(6915, '細魚刺'),
+(6916, '粗魚刺'),
+(6920, '製作卷軸(中級魚油100%)'),
+(6921, '製作卷軸(高級魚油100%)'),
+(6922, '製作卷軸(舞會面具100%)'),
+(6923, '製作卷軸(名媛髮飾100%)'),
+(6924, '製作卷軸(海盜眼罩100%)'),
+(6925, '製作卷軸(單片眼鏡100%)'),
+(6926, '製作卷軸(體力治癒藥水100%)'),
+(6927, '製作卷軸(強力體力治癒藥水100%)'),
+(6928, '製作卷軸(終極治癒藥水100%)'),
+(6929, '製作卷軸(解毒草100%)'),
+(6930, '製作卷軸(濃縮解毒藥100%)'),
+(6931, '製作卷軸(繃帶100%)'),
+(6932, '製作卷軸(強力繃帶100%)'),
+(6933, '製作卷軸(移動加速藥水100%)'),
+(6934, '製作卷軸(攻擊加速藥水100%)'),
+(6935, '製作卷軸(強力移動加速藥水100%)'),
+(6936, '製作卷軸(強力攻擊加速藥水100%)'),
+(6937, '製作卷軸(施法加速藥水100%)'),
+(6938, '製作卷軸(強力施法加速藥水100%)'),
+(6939, '製作卷軸(疑問藥水100%)'),
+(6940, '製作卷軸(整形藥水-A100%)'),
+(6941, '製作卷軸(整形藥水-B100%)'),
+(6942, '製作卷軸(整形藥水-C100%)'),
+(6943, '製作卷軸(染髮藥水-A100%)'),
+(6944, '製作卷軸(染髮藥水-B100%)'),
+(6945, '製作卷軸(染髮藥水-C100%)'),
+(6946, '製作卷軸(染髮藥水-D100%)'),
+(6947, '製作卷軸(造型藥水-A100%)'),
+(6948, '製作卷軸(造型藥水-B100%)'),
+(6949, '製作卷軸(造型藥水-C100%)'),
+(6950, '製作卷軸(造型藥水-D100%)'),
+(6951, '製作卷軸(造型藥水-E100%)'),
+(6952, '製作卷軸(造型藥水-F100%)'),
+(6953, '製作卷軸(造型藥水-G100%)'),
+(6954, '製作卷軸(力量染料<Str+1Con-1>100%)'),
+(6955, '製作卷軸(力量染料<Str+1Dex-1>100%)'),
+(6956, '製作卷軸(體質染料<Con+1Str-1>100%)'),
+(6957, '製作卷軸(體質染料<Con+1Dex-1>100%)'),
+(6958, '製作卷軸(敏捷染料<Dex+1Str-1>100%)'),
+(6959, '製作卷軸(敏捷染料<Dex+1Con-1>100%)'),
+(6960, '製作卷軸(智力染料<Int+1Men-1>100%)'),
+(6961, '製作卷軸(智力染料<Int+1Wit-1>100%)'),
+(6962, '製作卷軸(精神染料<Men+1Int-1>100%)'),
+(6963, '製作卷軸(精神染料<Men+1Wit-1>100%)'),
+(6964, '製作卷軸(智慧染料<Wit+1Int-1>100%)'),
+(6965, '製作卷軸(智慧染料<Wit+1Men-1>100%)'),
+(6966, '製作卷軸(高級力量染料<Str+1Con-1>100%)'),
+(6967, '製作卷軸(高級力量染料<Str+1Dex-1>100%)'),
+(6968, '製作卷軸(高級體質染料<Con+1Str-1>100%)'),
+(6969, '製作卷軸(高級體質染料<Con+1Dex-1>100%)'),
+(6970, '製作卷軸(高級敏捷染料<Dex+1Str-1>100%)'),
+(6971, '製作卷軸(高級敏捷染料<Dex+1Con-1>100%)'),
+(6972, '製作卷軸(高級智力染料<Int+1Men-1>100%)'),
+(6973, '製作卷軸(高級智力染料<Int+1Wit-1>100%)'),
+(6974, '製作卷軸(高級精神染料<Men+1Int-1>100%)'),
+(6975, '製作卷軸(高級精神染料<Men+1Wit-1>100%)'),
+(6976, '製作卷軸(高級智慧染料<Wit+1Int-1>100%)'),
+(6977, '製作卷軸(高級智慧染料<Wit+1Men-1>100%)'),
+(6978, '製作卷軸(高級力量染料<Str+2Con-2>100%)'),
+(6979, '製作卷軸(高級力量染料<Str+2Dex-2>100%)'),
+(6980, '製作卷軸(高級體質染料<Con+2Str-2>100%)'),
+(6981, '製作卷軸(高級體質染料<Con+2Dex-2>100%)'),
+(6982, '製作卷軸(高級敏捷染料<Dex+2Str-2>100%)'),
+(6983, '製作卷軸(高級敏捷染料<Dex+2Con-2>100%)'),
+(6984, '製作卷軸(高級智力染料<Int+2Men-2>100%)'),
+(6985, '製作卷軸(高級智力染料<Int+2Wit-2>100%)'),
+(6986, '製作卷軸(高級精神染料<Men+2Int-2>100%)'),
+(6987, '製作卷軸(高級精神染料<Men+2Wit-2>100%)'),
+(6988, '製作卷軸(高級智慧染料<Wit+2Int-2>100%)'),
+(6989, '製作卷軸(高級智慧染料<Wit+2Men-2>100%)'),
+(6990, '製作卷軸(高級力量染料<Str+3Con-3>100%)'),
+(6991, '製作卷軸(高級力量染料<Str+3Dex-3>100%)'),
+(6992, '製作卷軸(高級體質染料<Con+3Str-3>100%)'),
+(6993, '製作卷軸(高級體質染料<Con+3Dex-3>100%)'),
+(6994, '製作卷軸(高級敏捷染料<Dex+3Str-3>100%)'),
+(6995, '製作卷軸(高級敏捷染料<Dex+3Con-3>100%)'),
+(6996, '製作卷軸(高級智力染料<Int+3Men-3>100%)'),
+(6997, '製作卷軸(高級智力染料<Int+3Wit-3>100%)'),
+(6998, '製作卷軸(高級精神染料<Men+3Int-3>100%)'),
+(6999, '製作卷軸(高級精神染料<Men+3Wit-3>100%)'),
+(7000, '製作卷軸(高級智慧染料<Wit+3Int-3>100%)'),
+(7001, '製作卷軸(高級智慧染料<Wit+3Men-3>100%)'),
+(7002, '製作卷軸(高級力量染料<Str+4Con-4>100%)'),
+(7003, '製作卷軸(高級力量染料<Str+4Dex-4>100%)'),
+(7004, '製作卷軸(高級體質染料<Con+4Str-4>100%)'),
+(7005, '製作卷軸(高級體質染料<Con+4Dex-4>100%)'),
+(7006, '製作卷軸(高級敏捷染料<Dex+4Str-4>100%)'),
+(7007, '製作卷軸(高級敏捷染料<Dex+4Con-4>100%)'),
+(7008, '製作卷軸(高級智力染料<Int+4Men-4>100%)'),
+(7009, '製作卷軸(高級智力染料<Int+4Wit-4>100%)'),
+(7010, '製作卷軸(高級精神染料<Men+4Int-4>100%)'),
+(7011, '製作卷軸(高級精神染料<Men+4Wit-4>100%)'),
+(7012, '製作卷軸(高級智慧染料<Wit+4Int-4>100%)'),
+(7013, '製作卷軸(高級智慧染料<Wit+4Men-4>100%)'),
+(7016, '藍色柯柏種子'),
+(7017, '藍色柯德朗種子'),
+(7018, '藍色柯德朗種子'),
+(7019, '冷氣柯柏種子'),
+(7020, '冷氣柯塔種子'),
+(7021, '冷氣柯德朗種子'),
+(7022, '冷氣柯德朗種子'),
+(7023, '沙漠柯德朗種子'),
+(7024, '沙漠柯德朗種子'),
+(7025, '金色柯柏種子'),
+(7026, '金色柯塔種子'),
+(7027, '巨大柯柏種子'),
+(7028, '巨大柯德朗種子'),
+(7029, '巨大柯德朗種子'),
+(7030, '改良藍色柯柏種子'),
+(7031, '改良藍色柯德朗種子'),
+(7032, '改良藍色柯德朗種子'),
+(7033, '改良冷氣柯柏種子'),
+(7034, '改良冷氣柯塔種子'),
+(7035, '改良冷氣柯德朗種子'),
+(7036, '改良冷氣柯德朗種子'),
+(7037, '改良沙漠柯德朗種子'),
+(7038, '改良沙漠柯德朗種子'),
+(7039, '改良金色柯柏種子'),
+(7040, '改良金色柯塔種子'),
+(7041, '改良巨大柯柏種子'),
+(7042, '改良巨大柯德朗種子'),
+(7043, '改良巨大柯德朗種子'),
+(7044, '改良紅色柯柏種子'),
+(7045, '改良紅色柯德朗種子'),
+(7046, '改良紅色柯德朗種子'),
+(7047, '改良海洋柯德朗種子'),
+(7048, '改良海洋柯德朗種子'),
+(7049, '改良海洋柯德朗種子'),
+(7050, '改良雙生柯德朗種子'),
+(7051, '紅色柯柏種子'),
+(7052, '紅色柯德朗種子'),
+(7053, '紅色柯德朗種子'),
+(7054, '海洋柯德朗種子'),
+(7055, '海洋柯德朗種子'),
+(7056, '海洋柯德朗種子'),
+(7057, '雙生柯德朗種子'),
+(7061, '回聲水晶-生日之歌'),
+(7062, '回聲水晶-婚禮之歌'),
+(7063, '地圖-亡者的森林'),
+(7064, '莉迪亞的日記'),
+(7065, '莉迪亞的信'),
+(7066, '契約書'),
+(7067, '特製魚餌1'),
+(7068, '特製魚餌2'),
+(7069, '特製魚餌3'),
+(7070, '特製魚餌4'),
+(7071, '特殊魚1'),
+(7072, '特殊魚2'),
+(7073, '特殊魚3'),
+(7074, '特殊魚4'),
+(7075, '陵墓通行證'),
+(7076, '神祕的布'),
+(7077, '寶石的箱子'),
+(7078, '針線盒'),
+(7079, '次元的碎片'),
+(7080, '冰晶'),
+(7081, '神聖的智慧之石'),
+(7082, '公會情報誌'),
+(7083, '公會情報誌'),
+(7084, '公會情報誌'),
+(7085, '公會情報誌'),
+(7086, '公會情報誌'),
+(7087, '破舊的書'),
+(7088, '破舊的書'),
+(7089, '破舊的書'),
+(7090, '破舊的書'),
+(7091, '公會情報誌'),
+(7092, '公會情報誌'),
+(7093, '墮落騎士的文件'),
+(7094, '世界樹守護者的文件'),
+(7095, '關於拜爾之歌的批判'),
+(7096, '劍聖艾伊恩的末路'),
+(7097, '關於白色羽翼軍團的考察'),
+(7098, '關於背叛者穆哈克的記錄'),
+(7099, '卡巴塔里的祕傳書'),
+(7100, '血統、關於此的珍貴性'),
+(7101, '英靈的附身、關於此的危險性'),
+(7102, '石碑的守護天使-上篇'),
+(7103, '石碑的守護天使-上篇'),
+(7104, '石碑的守護天使-上篇'),
+(7105, '石碑的守護天使-下篇'),
+(7106, '石碑的守護天使-下篇'),
+(7107, '石碑的守護天使-下篇'),
+(7108, '公會機密報告書'),
+(7109, '公會機密報告書'),
+(7110, '奇茲的研究日誌'),
+(7111, '拉帝斯的研究日誌'),
+(7112, '諾提斯的研究日誌'),
+(7113, '禮服鞋的箱子'),
+(7114, '折價券-野牛'),
+(7115, '折價券-老虎'),
+(7116, '折價券-笑翠鳥'),
+(7117, '返回卷軸-說話之島村莊'),
+(7118, '返回卷軸-精靈村莊'),
+(7119, '返回卷軸-黑暗精靈村莊'),
+(7120, '返回卷軸-半獸人村莊'),
+(7121, '返回卷軸-矮人村莊'),
+(7122, '返回卷軸-古魯丁村莊'),
+(7123, '返回卷軸-古魯丁城鎮'),
+(7124, '返回卷軸-狄恩城鎮'),
+(7125, '返回卷軸-芙羅蘭村莊'),
+(7126, '返回卷軸-奇岩城鎮'),
+(7127, '返回卷軸-哈汀學院'),
+(7128, '返回卷軸-水上都市海音斯'),
+(7129, '返回卷軸-歐瑞城鎮'),
+(7130, '返回卷軸-象牙塔'),
+(7131, '返回卷軸-獵人村莊'),
+(7132, '返回卷軸-亞丁城鎮'),
+(7133, '返回卷軸-高達特城鎮'),
+(7134, '返回卷軸-魯因城鎮'),
+(7135, '返回卷軸-修加特城鎮'),
+(7136, '水果籃'),
+(7137, '香料'),
+(7138, '蜂蜜袋子'),
+(7139, '里多蜥蜴人的手環'),
+(7140, '殷海薩聖徽'),
+(7141, '殷海薩聖徽'),
+(7142, '精靈的頭骨'),
+(7143, '大神官的信'),
+(7144, '冒險家的寶石'),
+(7145, '冒險家的寶石'),
+(7146, '封印報告書的箱子'),
+(7147, '報告書的箱子'),
+(7148, '莉迪亞的髮飾'),
+(7149, '銀槍鑰匙'),
+(7150, '銀槍'),
+(7151, '奇怪的圖騰娃娃'),
+(7152, '花'),
+(7153, '殷海薩聖徽'),
+(7154, '破裂的殷海薩聖徽'),
+(7155, '莉迪亞的禮服'),
+(7156, '奇怪的圖騰娃娃'),
+(7157, '寶石的鑰匙'),
+(7158, '奇怪的圖騰娃娃'),
+(7159, '餅乾禮品組'),
+(7160, '特製葡萄酒'),
+(7161, '紗線球'),
+(7162, '原石'),
+(7163, '強化鋼鐵片'),
+(7164, '世族的印章'),
+(7165, '地圖'),
+(7166, '藥草'),
+(7167, '封印晶體'),
+(7168, '聖者之血'),
+(7169, '聖者之血'),
+(7170, '光之印記'),
+(7171, '服從寶珠'),
+(7172, '聖者的舍利'),
+(7173, '戰士的羽飾'),
+(7174, '咒術之牙'),
+(7175, '龍之牙'),
+(7176, '理斯的信'),
+(7177, '若哈梅爾的信'),
+(7178, '黑骨護符項鍊'),
+(7179, '紅骨護符項鍊'),
+(7180, '疑問的香袋'),
+(7181, '五色珠'),
+(7182, '偵查隊的報告書'),
+(7183, '發亮的五色珠'),
+(7184, '發亮的紅色珠子'),
+(7185, '純粹的寶石'),
+(7186, '野牛的角'),
+(7187, '尼芬帝斯的種子'),
+(7188, '使徒的證據'),
+(7189, '黑暗之眼'),
+(7190, '黑暗的邪念'),
+(7191, '破裂的寶珠'),
+(7192, '未完成召喚的寶珠'),
+(7193, '召喚的寶珠'),
+(7194, '惡魔的精髓'),
+(7195, '蛋'),
+(7196, '蛋的償金'),
+(7197, '特產酒'),
+(7198, '特產酒的償金'),
+(7199, '芙拉瓦的葉子'),
+(7200, '野牛的肉'),
+(7201, '羚羊的角'),
+(7202, '尼芬帝斯的身體'),
+(7203, '班德斯那奇琳的腳底'),
+(7204, '祕傳的香料'),
+(7205, '醬油罈'),
+(7206, '配送的蛋'),
+(7207, '配送的特產酒'),
+(7208, '熱食的箱子'),
+(7209, '烏巴魯巴的食物'),
+(7210, '特製雪人肉'),
+(7211, '肯特拉的友好憑證-階段1'),
+(7212, '肯特拉的友好憑證-階段2'),
+(7213, '肯特拉的友好憑證-階段3'),
+(7214, '肯特拉的友好憑證-階段4'),
+(7215, '肯特拉的友好憑證-階段5'),
+(7216, '巴瑞卡的階級章-士兵'),
+(7217, '巴瑞卡的階級章-士官'),
+(7218, '巴瑞卡的階級章-軍官'),
+(7219, '勇猛的圖騰'),
+(7220, '智慧的圖騰'),
+(7221, '巴瑞卡的友好憑證-階段1'),
+(7222, '巴瑞卡的友好憑證-階段2'),
+(7223, '巴瑞卡的友好憑證-階段3'),
+(7224, '巴瑞卡的友好憑證-階段4'),
+(7225, '巴瑞卡的友好憑證-階段5'),
+(7226, '肯特拉的階級章-士兵'),
+(7227, '肯特拉的階級章-士官'),
+(7228, '肯特拉的階級章-軍官'),
+(7229, '勇猛的羽飾'),
+(7230, '智慧的羽飾'),
+(7231, '軍用品箱子'),
+(7232, '軍用品箱子'),
+(7233, '巴瑞卡賽勒諾斯的鬃毛'),
+(7234, '肯特拉獸人的牙'),
+(7235, '夏帝斯的頭'),
+(7236, '摩斯的頭'),
+(7237, '被竊的綠色圖騰'),
+(7238, '綠色圖騰'),
+(7239, '阿修塔爾的冰之心臟'),
+(7240, '黑卡頓的頭'),
+(7241, '泰爾的頭'),
+(7242, '被竊的紅色圖騰'),
+(7243, '紅色圖騰'),
+(7244, '那斯特倫的火焰心臟'),
+(7245, '補給品箱子'),
+(7246, '黃金羊的標誌-新兵'),
+(7247, '黃金羊的標誌-精銳兵'),
+(7248, '思布林特司塔卡拓的甲殼'),
+(7249, '尼多司塔卡拓的甲殼'),
+(7250, '司塔卡拓之爪'),
+(7251, '黃金羊的銅幣'),
+(7252, '克羅琳的日誌'),
+(7253, '考古學者的信'),
+(7254, '破裂的遺物碎片'),
+(7255, '封印的箱子'),
+(7256, '亞雷提雅的聖杯'),
+(7257, '帝夏思的聖杯'),
+(7258, '梅卡拉的聖杯'),
+(7259, '莫利格爾的聖杯'),
+(7260, '禮拜堂的鑰匙'),
+(7261, '使用過的陵墓通行證'),
+(7262, '破舊的胸針'),
+(7263, '給沃爾昆的行李'),
+(7264, '火炬'),
+(7265, '巴庫艾力特的原石'),
+(7266, '巴庫艾力特'),
+(7267, '浮游石-單次用'),
+(7268, '祕傳的交感石'),
+(7269, '祕傳的交感石'),
+(7270, '祕傳的交感石'),
+(7271, '祕傳的交感石'),
+(7272, '祕傳的交感石'),
+(7273, '祕傳的交感石'),
+(7274, '祕傳的交感石'),
+(7275, '祕傳的交感石'),
+(7276, '祕傳的交感石'),
+(7277, '祕傳的交感石'),
+(7278, '祕傳的交感石'),
+(7279, '祕傳的交感石'),
+(7280, '祕傳的交感石'),
+(7281, '祕傳的交感石'),
+(7282, '祕傳的交感石'),
+(7283, '祕傳的交感石'),
+(7284, '祕傳的交感石'),
+(7285, '祕傳的交感石'),
+(7286, '祕傳的交感石'),
+(7287, '祕傳的交感石'),
+(7288, '祕傳的交感石'),
+(7289, '祕傳的交感石'),
+(7290, '祕傳的交感石'),
+(7291, '祕傳的交感石'),
+(7292, '祕傳的交感石'),
+(7293, '祕傳的交感石'),
+(7294, '祕傳的交感石'),
+(7295, '祕傳的交感石'),
+(7296, '祕傳的交感石'),
+(7297, '祕傳的交感石'),
+(7298, '祕傳的交感石'),
+(7299, '祕傳的交感石-二回'),
+(7300, '祕傳的交感石-二回'),
+(7301, '祕傳的交感石-二回'),
+(7302, '祕傳的交感石-二回'),
+(7303, '祕傳的交感石-二回'),
+(7304, '祕傳的交感石-二回'),
+(7305, '祕傳的交感石-二回'),
+(7306, '祕傳的交感石-二回'),
+(7307, '祕傳的交感石-二回'),
+(7308, '祕傳的交感石-二回'),
+(7309, '祕傳的交感石-二回'),
+(7310, '祕傳的交感石-二回'),
+(7311, '祕傳的交感石-二回'),
+(7312, '祕傳的交感石-二回'),
+(7313, '祕傳的交感石-二回'),
+(7314, '祕傳的交感石-二回'),
+(7315, '祕傳的交感石-二回'),
+(7316, '祕傳的交感石-二回'),
+(7317, '祕傳的交感石-二回'),
+(7318, '祕傳的交感石-二回'),
+(7319, '祕傳的交感石-二回'),
+(7320, '祕傳的交感石-二回'),
+(7321, '祕傳的交感石-二回'),
+(7322, '祕傳的交感石-二回'),
+(7323, '祕傳的交感石-二回'),
+(7324, '祕傳的交感石-二回'),
+(7325, '祕傳的交感石-二回'),
+(7326, '祕傳的交感石-二回'),
+(7327, '祕傳的交感石-二回'),
+(7328, '祕傳的交感石-二回'),
+(7329, '祕傳的交感石-二回'),
+(7330, '祕傳的交感石-三回'),
+(7331, '祕傳的交感石-三回'),
+(7332, '祕傳的交感石-三回'),
+(7333, '祕傳的交感石-三回'),
+(7334, '祕傳的交感石-三回'),
+(7335, '祕傳的交感石-三回'),
+(7336, '祕傳的交感石-三回'),
+(7337, '祕傳的交感石-三回'),
+(7338, '祕傳的交感石-三回'),
+(7339, '祕傳的交感石-三回'),
+(7340, '祕傳的交感石-三回'),
+(7341, '祕傳的交感石-三回'),
+(7342, '祕傳的交感石-三回'),
+(7343, '祕傳的交感石-三回'),
+(7344, '祕傳的交感石-三回'),
+(7345, '祕傳的交感石-三回'),
+(7346, '祕傳的交感石-三回'),
+(7347, '祕傳的交感石-三回'),
+(7348, '祕傳的交感石-三回'),
+(7349, '祕傳的交感石-三回'),
+(7350, '祕傳的交感石-三回'),
+(7351, '祕傳的交感石-三回'),
+(7352, '祕傳的交感石-三回'),
+(7353, '祕傳的交感石-三回'),
+(7354, '祕傳的交感石-三回'),
+(7355, '祕傳的交感石-三回'),
+(7356, '祕傳的交感石-三回'),
+(7357, '祕傳的交感石-三回'),
+(7358, '祕傳的交感石-三回'),
+(7359, '祕傳的交感石-三回'),
+(7360, '祕傳的交感石-三回'),
+(7361, '祕傳的交感石-四回'),
+(7362, '祕傳的交感石-四回'),
+(7363, '祕傳的交感石-四回'),
+(7364, '祕傳的交感石-四回'),
+(7365, '祕傳的交感石-四回'),
+(7366, '祕傳的交感石-四回'),
+(7367, '祕傳的交感石-四回'),
+(7368, '祕傳的交感石-四回'),
+(7369, '祕傳的交感石-四回'),
+(7370, '祕傳的交感石-四回'),
+(7371, '祕傳的交感石-四回'),
+(7372, '祕傳的交感石-四回'),
+(7373, '祕傳的交感石-四回'),
+(7374, '祕傳的交感石-四回'),
+(7375, '祕傳的交感石-四回'),
+(7376, '祕傳的交感石-四回'),
+(7377, '祕傳的交感石-四回'),
+(7378, '祕傳的交感石-四回'),
+(7379, '祕傳的交感石-四回'),
+(7380, '祕傳的交感石-四回'),
+(7381, '祕傳的交感石-四回'),
+(7382, '祕傳的交感石-四回'),
+(7383, '祕傳的交感石-四回'),
+(7384, '祕傳的交感石-四回'),
+(7385, '祕傳的交感石-四回'),
+(7386, '祕傳的交感石-四回'),
+(7387, '祕傳的交感石-四回'),
+(7388, '祕傳的交感石-四回'),
+(7389, '祕傳的交感石-四回'),
+(7390, '祕傳的交感石-四回'),
+(7391, '祕傳的交感石-四回'),
+(7392, '祕傳的交感石-五回'),
+(7393, '祕傳的交感石-五回'),
+(7394, '祕傳的交感石-五回'),
+(7395, '祕傳的交感石-五回'),
+(7396, '祕傳的交感石-五回'),
+(7397, '祕傳的交感石-五回'),
+(7398, '祕傳的交感石-五回'),
+(7399, '祕傳的交感石-五回'),
+(7400, '祕傳的交感石-五回'),
+(7401, '祕傳的交感石-五回'),
+(7402, '祕傳的交感石-五回'),
+(7403, '祕傳的交感石-五回'),
+(7404, '祕傳的交感石-五回'),
+(7405, '祕傳的交感石-五回'),
+(7406, '祕傳的交感石-五回'),
+(7407, '祕傳的交感石-五回'),
+(7408, '祕傳的交感石-五回'),
+(7409, '祕傳的交感石-五回'),
+(7410, '祕傳的交感石-五回'),
+(7411, '祕傳的交感石-五回'),
+(7412, '祕傳的交感石-五回'),
+(7413, '祕傳的交感石-五回'),
+(7414, '祕傳的交感石-五回'),
+(7415, '祕傳的交感石-五回'),
+(7416, '祕傳的交感石-五回'),
+(7417, '祕傳的交感石-五回'),
+(7418, '祕傳的交感石-五回'),
+(7419, '祕傳的交感石-五回'),
+(7420, '祕傳的交感石-五回'),
+(7421, '祕傳的交感石-五回'),
+(7422, '祕傳的交感石-五回'),
+(7423, '祕傳的交感石-六回'),
+(7424, '祕傳的交感石-六回'),
+(7425, '祕傳的交感石-六回'),
+(7426, '祕傳的交感石-六回'),
+(7427, '祕傳的交感石-六回'),
+(7428, '祕傳的交感石-六回'),
+(7429, '祕傳的交感石-六回'),
+(7430, '祕傳的交感石-六回'),
+(7431, '祕傳的交感石-六回'),
+(7432, '祕傳的交感石-六回'),
+(7433, '祕傳的交感石-六回'),
+(7434, '祕傳的交感石-六回'),
+(7435, '祕傳的交感石-六回'),
+(7436, '祕傳的交感石-六回'),
+(7437, '祕傳的交感石-六回'),
+(7438, '祕傳的交感石-六回'),
+(7439, '祕傳的交感石-六回'),
+(7440, '祕傳的交感石-六回'),
+(7441, '祕傳的交感石-六回'),
+(7442, '祕傳的交感石-六回'),
+(7443, '祕傳的交感石-六回'),
+(7444, '祕傳的交感石-六回'),
+(7445, '祕傳的交感石-六回'),
+(7446, '祕傳的交感石-六回'),
+(7447, '祕傳的交感石-六回'),
+(7448, '祕傳的交感石-六回'),
+(7449, '祕傳的交感石-六回'),
+(7450, '祕傳的交感石-六回'),
+(7451, '祕傳的交感石-六回'),
+(7452, '祕傳的交感石-六回'),
+(7453, '祕傳的交感石-六回'),
+(7454, '祕傳的交感石-七回'),
+(7455, '祕傳的交感石-七回'),
+(7456, '祕傳的交感石-七回'),
+(7457, '祕傳的交感石-七回'),
+(7458, '祕傳的交感石-七回'),
+(7459, '祕傳的交感石-七回'),
+(7460, '祕傳的交感石-七回'),
+(7461, '祕傳的交感石-七回'),
+(7462, '祕傳的交感石-七回'),
+(7463, '祕傳的交感石-七回'),
+(7464, '祕傳的交感石-七回'),
+(7465, '祕傳的交感石-七回'),
+(7466, '祕傳的交感石-七回'),
+(7467, '祕傳的交感石-七回'),
+(7468, '祕傳的交感石-七回'),
+(7469, '祕傳的交感石-七回'),
+(7470, '祕傳的交感石-七回'),
+(7471, '祕傳的交感石-七回'),
+(7472, '祕傳的交感石-七回'),
+(7473, '祕傳的交感石-七回'),
+(7474, '祕傳的交感石-七回'),
+(7475, '祕傳的交感石-七回'),
+(7476, '祕傳的交感石-七回'),
+(7477, '祕傳的交感石-七回'),
+(7478, '祕傳的交感石-七回'),
+(7479, '祕傳的交感石-七回'),
+(7480, '祕傳的交感石-七回'),
+(7481, '祕傳的交感石-七回'),
+(7482, '祕傳的交感石-七回'),
+(7483, '祕傳的交感石-七回'),
+(7484, '祕傳的交感石-七回'),
+(7485, '哈里夏標章'),
+(7486, '哈里夏標章'),
+(7487, '哈里夏標章'),
+(7488, '哈里夏標章'),
+(7489, '哈里夏標章'),
+(7490, '哈里夏標章'),
+(7491, '哈里夏標章'),
+(7492, '哈里夏標章'),
+(7493, '哈里夏標章'),
+(7494, '哈里夏標章'),
+(7495, '哈里夏標章'),
+(7496, '哈里夏標章'),
+(7497, '哈里夏標章'),
+(7498, '哈里夏標章'),
+(7499, '哈里夏標章'),
+(7500, '哈里夏標章'),
+(7501, '哈里夏標章'),
+(7502, '哈里夏標章'),
+(7503, '哈里夏標章'),
+(7504, '哈里夏標章'),
+(7505, '哈里夏標章'),
+(7506, '哈里夏標章'),
+(7507, '哈里夏標章'),
+(7508, '哈里夏標章'),
+(7509, '哈里夏標章'),
+(7510, '哈里夏標章'),
+(7511, '哈里夏標章'),
+(7512, '哈里夏標章'),
+(7513, '哈里夏標章'),
+(7514, '哈里夏標章'),
+(7515, '哈里夏標章'),
+(7516, '冰柱'),
+(7517, '多拿斯的料理'),
+(7518, '多拿斯的料理筆記之一'),
+(7519, '刨冰'),
+(7520, '冰淇淋'),
+(7521, '冰晶寶石'),
+(7522, '貢物'),
+(7523, '貢物'),
+(7524, '貢物'),
+(7525, '貢物'),
+(7526, '古代辭典'),
+(7527, '古代辭典'),
+(7528, '噴口'),
+(7529, '調查報告書'),
+(7530, '調查報告書'),
+(7531, '調查報告書'),
+(7532, '調查報告書'),
+(7533, '調查報告書'),
+(7534, '冰晶花'),
+(7535, '純粹的冰晶'),
+(7536, '絕對零度的啤酒'),
+(7537, '豪華的晚餐'),
+(7538, '營養的魚湯'),
+(7539, '絕對零度的伏特加'),
+(7540, '銀水晶'),
+(7541, '紅水晶'),
+(7542, '吸血鬼的心臟'),
+(7543, '死者的腦'),
+(7544, '黑魔導士的肋骨'),
+(7545, '死者的肝'),
+(7546, '高級鮮肉'),
+(7547, '幼獸鮮肉'),
+(7548, '地圖碎片'),
+(7549, '黃色地圖'),
+(7550, '地圖碎片'),
+(7551, '象牙白地圖'),
+(7552, '破碎的寶石碎片'),
+(7553, '金光寶石'),
+(7554, '說話之島村莊回歸卷軸'),
+(7555, '精靈村莊回歸卷軸'),
+(7556, '黑暗精靈村莊回歸卷軸'),
+(7557, '半獸人村莊回歸卷軸'),
+(7558, '矮人村莊回歸卷軸'),
+(7559, '奇岩城鎮回歸卷軸'),
+(7561, '釣魚手冊'),
+(7562, '因次鑽石'),
+(7563, '葛爾拉圖次的訂單'),
+(7564, '葛爾拉圖次的訂單'),
+(7565, '葛爾拉圖次的訂單'),
+(7566, '淨化的魔法項鍊'),
+(7567, '寶石粉末'),
+(7568, '魔法的劍柄'),
+(7569, '稀有的金色幸運草銅錢'),
+(7570, '旅者的證件'),
+(7571, '巴烏洛的信'),
+(7572, '阿黎爾的推薦書'),
+(7573, '露絲林的紙條'),
+(7574, '非常昂貴的項鍊'),
+(7579, '紅龍之弓的柄'),
+(7580, '製作卷軸(紅龍之弓60%)'),
+(7581, '製作卷軸(紅龍之弓100%)'),
+(7582, '幼兒香料'),
+(7583, '寵物交換券-野牛'),
+(7584, '寵物交換券-老虎'),
+(7585, '寵物交換券-笑翠鳥'),
+(7586, '甘美的水'),
+(7587, '17人的腳步'),
+(7588, '褪色的詩集'),
+(7589, '遺忘之歌的回聲水晶'),
+(7590, '金色的頭髮'),
+(7591, '女神的戒指-水之羈絆'),
+(7592, '女神的項鍊-綠之永恆'),
+(7593, '女神的手杖-雨之詩歌'),
+(7594, '聖物箱子'),
+(7595, '束縛的寶珠'),
+(7596, '咒術材料'),
+(7597, '瑪魯克魅魔之爪'),
+(7598, '紅色苔蘚'),
+(7599, '拉荷拉各提的靈藥'),
+(7600, '古老的塔羅牌-財富'),
+(7601, '古老的塔羅牌-權勢'),
+(7602, '古老的塔羅牌-愛'),
+(7603, '古老的塔羅牌-知識'),
+(7604, '元素使奇茲的信'),
+(7605, '借來的生命之藥'),
+(7606, '卡玫崙的治療劑'),
+(7607, '修理過的威瑪三號冷卻裝置'),
+(7608, '密封的文件封套'),
+(7609, '捕魚證'),
+(7610, '風魚餌'),
+(7611, '冰魚餌'),
+(7612, '地魚餌'),
+(7613, '炎魚餌'),
+(7614, '風魚餌釣箱'),
+(7615, '冰魚餌釣箱'),
+(7616, '地魚餌釣箱'),
+(7617, '炎魚餌釣箱'),
+(7618, '返回卷軸-肯特拉獸人部落'),
+(7619, '返回卷軸-巴瑞卡賽勒諾斯部落'),
+(7620, '不使用'),
+(7621, '風的菁華'),
+(7622, '遺失的魚餌材料'),
+(7623, '塔爾克邪惡蜥蜴的眼睛'),
+(7624, '赤色飛龍的心臟'),
+(7625, '怪異的高崙設計圖'),
+(7626, '琪琪的信'),
+(7627, '小玻璃箱'),
+(7628, '露凱的樂譜'),
+(7629, '掠奪物-白色貨箱'),
+(7630, '掠奪物-藍色貨箱'),
+(7631, '掠奪物-黃色貨箱'),
+(7632, '掠奪物-紅色文件箱'),
+(7633, '掠奪物-紫色文件箱'),
+(7634, '掠奪物-褐色行囊'),
+(7635, '掠奪物-灰色行囊'),
+(7636, '擄獲物-黃色行囊'),
+(7637, '擄獲物-褐色行囊'),
+(7638, '魔法書-召喚暴風晶體群'),
+(7639, '魔法書-召喚水液晶體群'),
+(7640, '魔法書-召喚干擾晶體群'),
+(7641, '魔法書-召喚皇后貓'),
+(7642, '魔法書-召喚天使獨角獸'),
+(7643, '魔法書-召喚夜靈'),
+(7644, '魔法書-召喚受詛咒者'),
+(7645, '魔法書-生命之衡'),
+(7646, '魔法書-末日詛咒'),
+(7647, '魔法書-深淵詛咒'),
+(7648, '魔法書-渾沌的奧祕'),
+(7649, '魔法書-炎之旋流'),
+(7650, '魔法書-冰之旋流'),
+(7651, '魔法書-風之旋流'),
+(7652, '魔法書-光之旋流'),
+(7653, '魔法書-闇之旋流'),
+(7654, '魔法書-群體敏捷禁制咒'),
+(7655, '魔法書-群體魔力禁制咒'),
+(7656, '魔法書-鬥者使魔'),
+(7657, '魔法書-巫師使魔'),
+(7658, '魔法書-殺手使魔'),
+(7659, '魔法書-終極使魔'),
+(7660, '魔法書-敏捷禁制咒'),
+(7661, '魔法書-魔力禁制咒'),
+(7662, '魔法書-元素加護'),
+(7663, '魔法書-神聖加護'),
+(7664, '魔法書-奧祕加護'),
+(7665, '魔法書-水之預言'),
+(7666, '魔法書-火之預言'),
+(7667, '魔法書-風之預言'),
+(7668, '魔法書-防禦禁制結界'),
+(7669, '魔法書-速度禁制結界'),
+(7670, '魔法書-群體防禦禁制結界'),
+(7671, '魔法書-群體速度禁制結界'),
+(7672, '護身符-聖靈頌歌'),
+(7673, '護身符-凱旋頌歌'),
+(7674, '護身符-帕格立歐凝視'),
+(7675, '護身符-帕格立歐之魂'),
+(7676, '護身符-絕望封印'),
+(7677, '維爾吉爾的信'),
+(7678, '凱拉蒂的信'),
+(7679, '凱拉蒂的信'),
+(7684, '狸耳布料'),
+(7685, '無法者眼罩帶子'),
+(7686, '淑女髮飾碎片'),
+(7687, '兔耳布料'),
+(7688, '貓耳布料'),
+(7689, '製作卷軸(狸耳100%)'),
+(7690, '製作卷軸(無法者眼罩100%)'),
+(7691, '製作卷軸(淑女髮飾100%)'),
+(7692, '製作卷軸(兔耳100%)'),
+(7693, '製作卷軸(貓耳100%)'),
+(7697, '勿忘草髮飾碎片'),
+(7698, '雛菊髮飾碎片'),
+(7699, '製作卷軸(勿忘草髮飾100%)'),
+(7700, '製作卷軸(雛菊髮飾100%)'),
+(7725, '擄獲物-灰色行囊'),
+(7726, '初學者用-敏捷的綠色小魚'),
+(7727, '初學者用-暴躁的綠色小魚'),
+(7728, '初學者用-寬扁的綠色小魚'),
+(7729, '初學者用-敏捷的綠色魚'),
+(7730, '初學者用-暴躁的綠色魚'),
+(7731, '初學者用-寬扁的綠色魚'),
+(7732, '初學者用-敏捷的綠色大魚'),
+(7733, '初學者用-暴躁的綠色大魚'),
+(7734, '初學者用-寬扁的綠色大魚'),
+(7735, '初學者用-敏捷的翡翠小魚'),
+(7736, '初學者用-暴躁的翡翠小魚'),
+(7737, '初學者用-寬扁的翡翠小魚'),
+(7738, '初學者用-敏捷的翡翠魚'),
+(7739, '初學者用-暴躁的翡翠魚'),
+(7740, '初學者用-寬扁的翡翠魚'),
+(7741, '初學者用-敏捷的翡翠大魚'),
+(7742, '初學者用-暴躁的翡翠大魚'),
+(7743, '初學者用-寬扁的翡翠大魚'),
+(7744, '初學者用-敏捷的藍色小魚'),
+(7745, '初學者用-暴躁的藍色小魚'),
+(7746, '初學者用-寬扁的藍色小魚'),
+(7747, '初學者用-敏捷的藍色魚'),
+(7748, '初學者用-暴躁的藍色魚'),
+(7749, '初學者用-寬扁的藍色魚'),
+(7750, '初學者用-敏捷的藍色大魚'),
+(7751, '初學者用-暴躁的藍色大魚'),
+(7752, '初學者用-寬扁的藍色大魚'),
+(7753, '初學者用-敏捷的黃色小魚'),
+(7754, '初學者用-暴躁的黃色小魚'),
+(7755, '初學者用-寬扁的黃色小魚'),
+(7756, '初學者用-敏捷的黃色魚'),
+(7757, '初學者用-暴躁的黃色魚'),
+(7758, '初學者用-寬扁的黃色魚'),
+(7759, '初學者用-敏捷的黃色大魚'),
+(7760, '初學者用-暴躁的黃色大魚'),
+(7761, '初學者用-寬扁的黃色大魚'),
+(7762, '初學者用-敏捷的橙色小魚'),
+(7763, '初學者用-暴躁的橙色小魚'),
+(7764, '初學者用-寬扁的橙色小魚'),
+(7765, '初學者用-敏捷的橙色魚'),
+(7766, '初學者用-暴躁的橙色魚'),
+(7767, '初學者用-寬扁的橙色魚'),
+(7768, '初學者用-敏捷的橙色大魚'),
+(7769, '初學者用-暴躁的橙色大魚'),
+(7770, '初學者用-寬扁的橙色大魚'),
+(7771, '初學者用-敏捷的紫色小魚'),
+(7772, '初學者用-暴躁的紫色小魚'),
+(7773, '初學者用-寬扁的紫色小魚'),
+(7774, '初學者用-敏捷的紫色魚'),
+(7775, '初學者用-暴躁的紫色魚'),
+(7776, '初學者用-寬扁的紫色魚'),
+(7777, '初學者用-敏捷的紫色大魚'),
+(7778, '初學者用-暴躁的紫色大魚'),
+(7779, '初學者用-寬扁的紫色大魚'),
+(7780, '初學者用-敏捷的紅色小魚'),
+(7781, '初學者用-暴躁的紅色小魚'),
+(7782, '初學者用-寬扁的紅色小魚'),
+(7783, '初學者用-敏捷的紅色魚'),
+(7784, '初學者用-暴躁的紅色魚'),
+(7785, '初學者用-寬扁的紅色魚'),
+(7786, '初學者用-敏捷的紅色大魚'),
+(7787, '初學者用-暴躁的紅色大魚'),
+(7788, '初學者用-寬扁的紅色大魚'),
+(7789, '初學者用-敏捷的白色小魚'),
+(7790, '初學者用-暴躁的白色小魚'),
+(7791, '初學者用-寬扁的白色小魚'),
+(7792, '初學者用-敏捷的白色魚'),
+(7793, '初學者用-暴躁的白色魚'),
+(7794, '初學者用-寬扁的白色魚'),
+(7795, '初學者用-敏捷的白色大魚'),
+(7796, '初學者用-暴躁的白色大魚'),
+(7797, '初學者用-寬扁的白色大魚'),
+(7798, '初學者用-敏捷的黑色小魚'),
+(7799, '初學者用-暴躁的黑色小魚'),
+(7800, '初學者用-寬扁的黑色小魚'),
+(7801, '初學者用-敏捷的黑色魚'),
+(7802, '初學者用-暴躁的黑色魚'),
+(7803, '初學者用-寬扁的黑色魚'),
+(7804, '初學者用-敏捷的黑色大魚'),
+(7805, '初學者用-暴躁的黑色大魚'),
+(7806, '初學者用-寬扁的黑色大魚'),
+(7807, '綠色魚餌-初學者用'),
+(7808, '紫色魚餌-初學者用'),
+(7809, '黃色魚餌-初學者用'),
+(7832, '見習冒險家專用-武器交換券'),
+(7833, '旅者專用-魔法防具交換券'),
+(7835, '護身符-疫病封印'),
+(7838, '聖誕帽'),
+(7904, '船票-魯因往古魯丁'),
+(7905, '船票-古魯丁往魯因'),
+(7906, '火之祝福'),
+(7907, '水之祝福'),
+(7908, '風之祝福'),
+(7909, '地之祝福'),
+(7910, '暗之祝福'),
+(7911, '聖之祝福'),
+(7912, '火之結晶'),
+(7913, '水之結晶'),
+(7914, '風之結晶'),
+(7915, '地之結晶'),
+(7916, '暗之結晶'),
+(7917, '聖之結晶'),
+(7918, '傭兵配置表(劍/固定)'),
+(7919, '傭兵配置表(槍/固定)'),
+(7920, '傭兵配置表(弓/固定)'),
+(7921, '傭兵配置表(牧師/固定)'),
+(7922, '傭兵配置表(巫師/固定)'),
+(7923, '傭兵配置表(劍/移動)'),
+(7924, '傭兵配置表(槍/移動)'),
+(7925, '傭兵配置表(弓/移動)'),
+(7926, '傭兵配置表(牧師/移動)'),
+(7927, '傭兵配置表(巫師/移動)'),
+(7928, '傭兵配置表(傳送師1)'),
+(7929, '傭兵配置表(傳送師2)'),
+(7930, '傭兵配置表(傳送師3)'),
+(7931, '高級傭兵配置表(劍/固定)'),
+(7932, '高級傭兵配置表(槍/固定)'),
+(7933, '高級傭兵配置表(弓/固定)'),
+(7934, '高級傭兵配置表(牧師/固定)'),
+(7935, '高級傭兵配置表(巫師/固定)'),
+(7936, '高級傭兵配置表(劍/移動)'),
+(7937, '高級傭兵配置表(槍/移動)'),
+(7938, '高級傭兵配置表(弓/移動)'),
+(7939, '高級傭兵配置表(牧師/移動)'),
+(7940, '高級傭兵配置表(巫師/移動)'),
+(7941, '黎明傭兵配置表(劍/固定)'),
+(7942, '黎明傭兵配置表(槍/固定)'),
+(7943, '黎明傭兵配置表(弓/固定)'),
+(7944, '黎明傭兵配置表(牧師/固定)'),
+(7945, '黎明傭兵配置表(巫師/固定)'),
+(7946, '黎明傭兵配置表(劍/移動)'),
+(7947, '黎明傭兵配置表(槍/移動)'),
+(7948, '黎明傭兵配置表(弓/移動)'),
+(7949, '黎明傭兵配置表(牧師/移動)'),
+(7950, '黎明傭兵配置表(巫師/移動)'),
+(7951, '高級訓練兵配置表(劍/固定)'),
+(7952, '高級訓練兵配置表(槍/固定)'),
+(7953, '高級訓練兵配置表(弓/固定)'),
+(7954, '高級訓練兵配置表(牧師/固定)'),
+(7955, '高級訓練兵配置表(巫師/固定)'),
+(7956, '高級訓練兵配置表(劍/移動)'),
+(7957, '高級訓練兵配置表(槍/移動)'),
+(7958, '高級訓練兵配置表(弓/移動)'),
+(7959, '高級訓練兵配置表(牧師/移動)'),
+(7960, '高級訓練兵配置表(巫師/移動)'),
+(7961, '訓練兵配置表(劍/固定)'),
+(7962, '訓練兵配置表(槍/固定)'),
+(7963, '訓練兵配置表(弓/固定)'),
+(7964, '訓練兵配置表(牧師/固定)'),
+(7965, '訓練兵配置表(巫師/固定)'),
+(7966, '訓練兵配置表(劍/移動)'),
+(7967, '訓練兵配置表(槍/移動)'),
+(7968, '訓練兵配置表(弓/移動)'),
+(7969, '訓練兵配置表(牧師/移動)'),
+(7970, '訓練兵配置表(巫師/移動)'),
+(7971, '那芙琳戰士配置表'),
+(7972, '那芙琳咒術士配置表'),
+(7973, '傭兵配置表(劍/固定)'),
+(7974, '傭兵配置表(槍/固定)'),
+(7975, '傭兵配置表(弓/固定)'),
+(7976, '傭兵配置表(牧師/固定)'),
+(7977, '傭兵配置表(巫師/固定)'),
+(7978, '傭兵配置表(劍/移動)'),
+(7979, '傭兵配置表(槍/移動)'),
+(7980, '傭兵配置表(弓/移動)'),
+(7981, '傭兵配置表(牧師/移動)'),
+(7982, '傭兵配置表(巫師/移動)'),
+(7983, '傭兵配置表(傳送師1)'),
+(7984, '傭兵配置表(傳送師2)'),
+(7985, '傭兵配置表(傳送師3)'),
+(7986, '傭兵配置表(傳送師4)'),
+(7987, '傭兵配置表(傳送師5)'),
+(7988, '高級傭兵配置表(劍/固定)'),
+(7989, '高級傭兵配置表(槍/固定)'),
+(7990, '高級傭兵配置表(弓/固定)'),
+(7991, '高級傭兵配置表(牧師/固定)'),
+(7992, '高級傭兵配置表(巫師/固定)'),
+(7993, '高級傭兵配置表(劍/移動)'),
+(7994, '高級傭兵配置表(槍/移動)'),
+(7995, '高級傭兵配置表(弓/移動)'),
+(7996, '高級傭兵配置表(牧師/移動)'),
+(7997, '高級傭兵配置表(巫師/移動)'),
+(7998, '黎明傭兵配置表(劍/固定)'),
+(7999, '黎明傭兵配置表(槍/固定)'),
+(8000, '黎明傭兵配置表(弓/固定)'),
+(8001, '黎明傭兵配置表(牧師/固定)'),
+(8002, '黎明傭兵配置表(巫師/固定)'),
+(8003, '黎明傭兵配置表(劍/移動)'),
+(8004, '黎明傭兵配置表(槍/移動)'),
+(8005, '黎明傭兵配置表(弓/移動)'),
+(8006, '黎明傭兵配置表(牧師/移動)'),
+(8007, '黎明傭兵配置表(巫師/移動)'),
+(8008, '高級訓練兵配置表(劍/固定)'),
+(8009, '高級訓練兵配置表(槍/固定)'),
+(8010, '高級訓練兵配置表(弓/固定)'),
+(8011, '高級訓練兵配置表(牧師/固定)'),
+(8012, '高級訓練兵配置表(巫師/固定)'),
+(8013, '高級訓練兵配置表(劍/移動)'),
+(8014, '高級訓練兵配置表(槍/移動)'),
+(8015, '高級訓練兵配置表(弓/移動)'),
+(8016, '高級訓練兵配置表(牧師/移動)'),
+(8017, '高級訓練兵配置表(巫師/移動)'),
+(8018, '訓練兵配置表(劍/固定)'),
+(8019, '訓練兵配置表(槍/固定)'),
+(8020, '訓練兵配置表(弓/固定)'),
+(8021, '訓練兵配置表(牧師/固定)'),
+(8022, '訓練兵配置表(巫師/固定)'),
+(8023, '訓練兵配置表(劍/移動)'),
+(8024, '訓練兵配置表(槍/移動)'),
+(8025, '訓練兵配置表(弓/移動)'),
+(8026, '訓練兵配置表(牧師/移動)'),
+(8027, '訓練兵配置表(巫師/移動)'),
+(8028, '那芙琳戰士配置表'),
+(8029, '那芙琳咒術士配置表'),
+(8030, '溫泉神酒'),
+(8031, '溫泉礦泉水'),
+(8032, '溫泉湧泉水'),
+(8033, '溫泉硫磺'),
+(8034, '溫泉根據地爭奪參賽證'),
+(8035, '溫泉地文字A'),
+(8036, '溫泉地文字B'),
+(8037, '溫泉地文字C'),
+(8038, '溫泉地文字D'),
+(8039, '溫泉地文字E'),
+(8040, '溫泉地文字F'),
+(8041, '溫泉地文字G'),
+(8042, '溫泉地文字H'),
+(8043, '溫泉地文字I'),
+(8044, '溫泉地文字J'),
+(8045, '溫泉地文字K'),
+(8046, '溫泉地文字L'),
+(8047, '溫泉地文字N'),
+(8048, '溫泉地文字O'),
+(8049, '溫泉地文字P'),
+(8050, '溫泉地文字R'),
+(8051, '溫泉地文字S'),
+(8052, '溫泉地文字T'),
+(8053, '溫泉地文字U'),
+(8054, '溫泉地文字W'),
+(8055, '溫泉地文字Y'),
+(8056, '輝煌之間的鑰匙'),
+(8057, '銀血'),
+(8058, '被鎖住的研究日誌'),
+(8059, '研究日誌'),
+(8060, '謎樣的鑰匙'),
+(8061, '潦草的筆記'),
+(8062, '雄性蜥蜴人血'),
+(8063, '阿朗尼得王的腳'),
+(8064, '見習生標章'),
+(8065, '變色的見習生標章'),
+(8066, '死靈法師的心臟'),
+(8067, '主教標章'),
+(8068, '邪教徒圖騰'),
+(8069, '修道僧經典'),
+(8070, '寶瓶'),
+(8071, '裝著聖杯之水的寶瓶'),
+(8072, '羚羊皮革'),
+(8073, '芙琳泰沙的結界破咒書'),
+(8074, '監視者之眼'),
+(8075, '怪岩高崙的碎片'),
+(8076, '德魯蜥蜴人的鱗片'),
+(8077, '銀冰晶'),
+(8078, '黑冰晶'),
+(8079, '美紗的信'),
+(8080, '雷普利的信'),
+(8081, '便條紙的片段'),
+(8082, '報告書的片段'),
+(8083, '偵查兵的偵查記錄'),
+(8084, '純粹的結晶'),
+(8085, '司塔卡拓的牙齒'),
+(8086, '藏有聖火的寶箱'),
+(8087, '受詛咒的人偶'),
+(8088, '半獸人的陪葬品'),
+(8089, '受詛咒的陪葬品'),
+(8090, '電波探測器'),
+(8091, '電波探測器'),
+(8092, '望遠鏡高崙殘骸'),
+(8093, '高崙發信裝置'),
+(8094, '儲藏媒介'),
+(8095, '儲藏媒介'),
+(8096, '雙刀高崙運作記錄器'),
+(8097, 'X-688'),
+(8098, '鐵道員的補給物資'),
+(8099, '山賊團的證物'),
+(8100, '故障高崙的碎片'),
+(8101, '矮人的囑託'),
+(8153, '冒險者指南書'),
+(8154, '生命藥草'),
+(8155, '瑪那藥草'),
+(8156, '力量藥草'),
+(8157, '魔力藥草'),
+(8158, '死神骸骨-C級'),
+(8159, '死神骸骨-B級'),
+(8160, '死神骸骨-A級'),
+(8161, '龍之心-C級'),
+(8162, '龍之心-B級'),
+(8163, '龍之心-A級'),
+(8164, '大地之卵-C級'),
+(8165, '大地之卵-B級'),
+(8166, '大地之卵-A級'),
+(8167, '假生命之核-C級'),
+(8168, '假生命之核-B級'),
+(8169, '假生命之核-A級'),
+(8170, '天使之魂-C級'),
+(8171, '天使之魂-B級'),
+(8172, '天使之魂-A級'),
+(8173, '創造的搖籃-C級(不使用)'),
+(8174, '創造的搖籃-B級(不使用)'),
+(8175, '創造的搖籃'),
+(8176, '破滅的墓碑'),
+(8192, '破魂之矢'),
+(8193, '漁夫藥水-綠色'),
+(8194, '漁夫藥水-翡翠'),
+(8195, '漁夫藥水-藍色'),
+(8196, '漁夫藥水-黃色'),
+(8197, '漁夫藥水-橙色'),
+(8198, '漁夫藥水-紫色'),
+(8199, '漁夫藥水-紅色'),
+(8200, '漁夫藥水-白色'),
+(8201, '漁夫藥水-黑色'),
+(8202, '漁夫恢復藥水'),
+(8223, '雙生柯德朗種子'),
+(8224, '巨大柯德朗種子'),
+(8225, '沙漠柯德朗種子'),
+(8226, '藍色柯巴種子'),
+(8227, '紅色柯巴種子'),
+(8228, '金色柯巴種子'),
+(8229, '沙漠柯巴種子'),
+(8230, '改良雙生柯德朗種子'),
+(8231, '改良巨大柯德朗種子'),
+(8232, '改良沙漠柯德朗種子'),
+(8233, '改良藍色柯巴種子'),
+(8234, '改良紅色柯巴種子'),
+(8235, '改良金色柯巴種子'),
+(8236, '改良沙漠柯巴種子'),
+(8237, '黑暗柯塔種子'),
+(8238, '紅色柯塔種子'),
+(8239, '冷氣柯塔種子'),
+(8240, '藍色柯塔種子'),
+(8241, '金色柯塔種子'),
+(8242, '魯特柯塔種子'),
+(8243, '沙漠柯塔種子'),
+(8244, '紅色柯柏種子'),
+(8245, '冷氣柯柏種子'),
+(8246, '藍色柯柏種子'),
+(8247, '芒刺柯柏種子'),
+(8248, '金色柯柏種子'),
+(8249, '巨大柯柏種子'),
+(8250, '紅色柯德朗種子'),
+(8251, '海洋柯德朗種子'),
+(8252, '冷氣柯德朗種子'),
+(8253, '藍色柯德朗種子'),
+(8254, '雙生柯德朗種子'),
+(8255, '改良黑暗柯塔種子'),
+(8256, '改良紅色柯塔種子'),
+(8257, '改良冷氣柯塔種子'),
+(8258, '改良藍色柯塔種子'),
+(8259, '改良金色柯塔種子'),
+(8260, '改良魯特柯塔種子'),
+(8261, '改良沙漠柯塔種子'),
+(8262, '改良紅色柯柏種子'),
+(8263, '改良冷氣柯柏種子'),
+(8264, '改良藍色柯柏種子'),
+(8265, '改良芒刺柯柏種子'),
+(8266, '改良金色柯柏種子'),
+(8267, '改良巨大柯柏種子'),
+(8268, '改良紅色柯德朗種子'),
+(8269, '改良海洋柯德朗種子'),
+(8270, '改良冷氣柯德朗種子'),
+(8271, '改良藍色柯德朗種子'),
+(8272, '改良雙生柯德朗種子'),
+(8273, '等候室鑰匙'),
+(8274, '禮拜堂鑰匙'),
+(8275, '黑色鑰匙'),
+(8276, '瑟琪娜的鱗片'),
+(8277, '提米斯的鱗片'),
+(8278, '馮伊黎翁的碎片'),
+(8279, '黑卡特原型的中樞'),
+(8280, '岱依封的碎片'),
+(8281, '克拉奇的中樞'),
+(8282, '拉何的牙齒'),
+(8283, '巨大毒胡蜂的針'),
+(8284, '雲紋寶石'),
+(8285, '幼阿朗尼得的爪'),
+(8286, '裝著精靈氣息的容器'),
+(8287, '星石'),
+(8288, '由米的信'),
+(8289, '星石'),
+(8290, '帕比爾的花'),
+(8291, '亞特蘭達的心臟'),
+(8292, '溫蒂的項鍊'),
+(8293, '訓練師資格證'),
+(8294, '製作卷軸(鋼劍100%)'),
+(8295, '製作卷軸(下巨人之劍100%)'),
+(8296, '製作卷軸(帕格立歐之劍100%)'),
+(8297, '製作卷軸(守護神之劍100%)'),
+(8298, '製作卷軸(守護神之劍60%)'),
+(8299, '製作卷軸(煉獄之主100%)'),
+(8300, '製作卷軸(煉獄之主60%)'),
+(8301, '製作卷軸(祭司之劍100%)'),
+(8302, '製作卷軸(魔霧之劍100%)'),
+(8303, '製作卷軸(奧祕之刃100%)'),
+(8304, '製作卷軸(日蝕劍100%)'),
+(8305, '製作卷軸(巫師之淚100%)'),
+(8306, '製作卷軸(巫師之淚60%)'),
+(8307, '製作卷軸(祭司釘鎚100%)'),
+(8308, '製作卷軸(月蝕斧100%)'),
+(8309, '製作卷軸(破咒者100%)'),
+(8310, '製作卷軸(破咒者60%)'),
+(8311, '製作卷軸(卡倚巴奴之骨100%)'),
+(8312, '製作卷軸(卡倚巴奴之骨60%)'),
+(8313, '製作卷軸(英魂之眼100%)'),
+(8314, '製作卷軸(英魂之眼60%)'),
+(8315, '製作卷軸(火龍之首100%)'),
+(8316, '製作卷軸(火龍之首60%)'),
+(8317, '製作卷軸(下巨人之鎚100%)'),
+(8318, '製作卷軸(矮人巨鎚100%)'),
+(8319, '製作卷軸(卡拉克衝角100%)'),
+(8320, '製作卷軸(破壞者巨鎚100%)'),
+(8321, '製作卷軸(暴風雪巨鎚100%)'),
+(8322, '製作卷軸(暴風雪巨鎚60%)'),
+(8323, '製作卷軸(星爆100%)'),
+(8324, '製作卷軸(星爆60%)'),
+(8325, '製作卷軸(末日毀滅者100%)'),
+(8326, '製作卷軸(末日毀滅者60%)'),
+(8327, '鋼劍劍身'),
+(8328, '下巨人之劍劍身'),
+(8329, '帕格立歐之劍劍身'),
+(8330, '守護神之劍劍身'),
+(8331, '煉獄之主刃部'),
+(8332, '祭司之劍劍身'),
+(8333, '魔霧之劍劍身'),
+(8334, '奧祕之刃劍身'),
+(8335, '日蝕劍劍身'),
+(8336, '巫師之淚刃部'),
+(8337, '祭司釘鎚金屬塊'),
+(8338, '月蝕斧金屬塊'),
+(8339, '破咒者金屬塊'),
+(8340, '卡倚巴奴之骨金屬塊'),
+(8341, '英魂之眼組件'),
+(8342, '火龍之首組件'),
+(8343, '下巨人之鎚組件'),
+(8344, '矮人巨鎚組件'),
+(8345, '卡拉克衝角組件'),
+(8346, '破壞者巨鎚組件'),
+(8347, '暴風雪巨鎚金屬塊'),
+(8348, '星爆金屬塊'),
+(8349, '末日毀滅者金屬塊'),
+(8351, '黑色魚鱗'),
+(8352, '紅色魚鱗'),
+(8353, '綠色魚鱗'),
+(8354, '黃色魚鱗'),
+(8355, '藍色魚鱗'),
+(8356, '白色魚鱗'),
+(8357, '橙色魚鱗'),
+(8358, '紫色魚鱗'),
+(8359, '翡翠魚鱗'),
+(8360, '冒險家寶箱-C級飾品'),
+(8361, '冒險家寶箱-B級飾品'),
+(8362, '冒險家寶箱-頭飾'),
+(8363, '冒險家寶箱-創造的搖籃'),
+(8364, '製作卷軸(派對尖帽100%)'),
+(8365, '製作卷軸(派對尖帽70%)'),
+(8366, '製作卷軸(吟遊詩人帽100%)'),
+(8367, '製作卷軸(吟遊詩人帽70%)'),
+(8368, '製作卷軸(工匠的護目鏡100%)'),
+(8369, '製作卷軸(工匠的護目鏡70%)'),
+(8370, '製作卷軸(勝利者尖角100%)'),
+(8371, '製作卷軸(小天使之翼100%)'),
+(8372, '製作卷軸(小妖精觸角100%)'),
+(8373, '派對尖帽布料'),
+(8374, '吟遊詩人帽布料'),
+(8375, '工匠的護目鏡材料'),
+(8376, '勝利者尖角組件'),
+(8377, '小天使之翼組件'),
+(8378, '小妖精觸角組件'),
+(8379, '石化卷軸'),
+(8380, '魔法書-背叛'),
+(8381, '魔法書-恐懼結界'),
+(8382, '魔法書-暗影詛咒結界'),
+(8383, '魔法書-火之陷落結界'),
+(8384, '魔法書-水之陷落結界'),
+(8385, '魔法書-風之陷落結界'),
+(8386, '魔法書-思緒紊亂'),
+(8387, '魔法書-召喚受詛咒之骨'),
+(8388, '魔法書-高級力量強化'),
+(8389, '魔法書-高級保護盾'),
+(8390, '護身符-戰爭頌歌'),
+(8391, '護身符-大地頌歌'),
+(8392, '魔法書-聖之防護'),
+(8393, '魔法書-暗之防護'),
+(8394, '魔法書-失神術'),
+(8395, '魔法書-使魔消除'),
+(8396, '魔法書-魔力反噬'),
+(8397, '魔法書-澄澈思緒'),
+(8398, '魔法書-魔力燃燒'),
+(8399, '魔法書-魔力風暴'),
+(8400, '魔法書-破邪法'),
+(8401, '魔法書-極大治癒術'),
+(8402, '魔法書-極大集體治癒術'),
+(8403, '高級-敏捷的綠色小魚'),
+(8404, '高級-暴躁的綠色小魚'),
+(8405, '高級-寬扁的綠色小魚'),
+(8406, '高級-敏捷的綠色魚'),
+(8407, '高級-暴躁的綠色魚'),
+(8408, '高級-寬扁的綠色魚'),
+(8409, '高級-敏捷的綠色大魚'),
+(8410, '高級-暴躁的綠色大魚'),
+(8411, '高級-寬扁的綠色大魚'),
+(8412, '高級-敏捷的翡翠小魚'),
+(8413, '高級-暴躁的翡翠小魚'),
+(8414, '高級-寬扁的翡翠小魚'),
+(8415, '高級-敏捷的翡翠魚'),
+(8416, '高級-暴躁的翡翠魚'),
+(8417, '高級-寬扁的翡翠魚'),
+(8418, '高級-敏捷的翡翠大魚'),
+(8419, '高級-暴躁的翡翠大魚'),
+(8420, '高級-寬扁的翡翠大魚'),
+(8421, '高級-敏捷的藍色小魚'),
+(8422, '高級-暴躁的藍色小魚'),
+(8423, '高級-寬扁的藍色小魚'),
+(8424, '高級-敏捷的藍色魚'),
+(8425, '高級-暴躁的藍色魚'),
+(8426, '高級-寬扁的藍色魚'),
+(8427, '高級-敏捷的藍色大魚'),
+(8428, '高級-暴躁的藍色大魚'),
+(8429, '高級-寬扁的藍色大魚'),
+(8430, '高級-敏捷的黃色小魚'),
+(8431, '高級-暴躁的黃色小魚'),
+(8432, '高級-寬扁的黃色小魚'),
+(8433, '高級-敏捷的黃色魚'),
+(8434, '高級-暴躁的黃色魚'),
+(8435, '高級-寬扁的黃色魚'),
+(8436, '高級-敏捷的黃色大魚'),
+(8437, '高級-暴躁的黃色大魚'),
+(8438, '高級-寬扁的黃色大魚'),
+(8439, '高級-敏捷的橙色小魚'),
+(8440, '高級-暴躁的橙色小魚'),
+(8441, '高級-寬扁的橙色小魚'),
+(8442, '高級-敏捷的橙色魚'),
+(8443, '高級-暴躁的橙色魚'),
+(8444, '高級-寬扁的橙色魚'),
+(8445, '高級-敏捷的橙色大魚'),
+(8446, '高級-暴躁的橙色大魚'),
+(8447, '高級-寬扁的橙色大魚'),
+(8448, '高級-敏捷的紫色小魚'),
+(8449, '高級-暴躁的紫色小魚'),
+(8450, '高級-寬扁的紫色小魚'),
+(8451, '高級-敏捷的紫色魚'),
+(8452, '高級-暴躁的紫色魚'),
+(8453, '高級-寬扁的紫色魚'),
+(8454, '高級-敏捷的紫色大魚'),
+(8455, '高級-暴躁的紫色大魚'),
+(8456, '高級-寬扁的紫色大魚'),
+(8457, '高級-敏捷的紅色小魚'),
+(8458, '高級-暴躁的紅色小魚'),
+(8459, '高級-寬扁的紅色小魚'),
+(8460, '高級-敏捷的紅色魚'),
+(8461, '高級-暴躁的紅色魚'),
+(8462, '高級-寬扁的紅色魚'),
+(8463, '高級-敏捷的紅色大魚'),
+(8464, '高級-暴躁的紅色大魚'),
+(8465, '高級-寬扁的紅色大魚'),
+(8466, '高級-敏捷的白色小魚'),
+(8467, '高級-暴躁的白色小魚'),
+(8468, '高級-寬扁的白色小魚'),
+(8469, '高級-敏捷的白色魚'),
+(8470, '高級-暴躁的白色魚'),
+(8471, '高級-寬扁的白色魚'),
+(8472, '高級-敏捷的白色大魚'),
+(8473, '高級-暴躁的白色大魚'),
+(8474, '高級-寬扁的白色大魚'),
+(8475, '高級-敏捷的黑色小魚'),
+(8476, '高級-暴躁的黑色小魚'),
+(8477, '高級-寬扁的黑色小魚'),
+(8478, '高級-敏捷的黑色魚'),
+(8479, '高級-暴躁的黑色魚'),
+(8480, '高級-寬扁的黑色魚'),
+(8481, '高級-敏捷的黑色大魚'),
+(8482, '高級-暴躁的黑色大魚'),
+(8483, '高級-寬扁的黑色大魚'),
+(8484, '漁靈餌'),
+(8485, '漁靈餌-夜釣用'),
+(8486, '漁靈餌-初學者用'),
+(8487, '製作卷軸(破壞者巨鎚60%)'),
+(8488, '紋路的鎚子'),
+(8489, '惡魔的眼球'),
+(8490, '黑斯提亞的妖精石'),
+(8491, '退化高崙的中樞'),
+(8492, '法斯騰的牙齒'),
+(8493, '夏伊德的爪'),
+(8494, '熾炎石巨人的中樞'),
+(8495, '灰色星之書'),
+(8496, '古魯丁夜光魚餌'),
+(8497, '狄恩夜光魚餌'),
+(8498, '奇岩夜光魚餌'),
+(8499, '歐瑞夜光魚餌'),
+(8500, '亞丁夜光魚餌'),
+(8501, '因納得立夜光魚餌'),
+(8502, '因納得立夜光魚餌'),
+(8503, '魯因夜光魚餌'),
+(8504, '修加特夜光魚餌'),
+(8505, '綠色夜光魚餌-下等'),
+(8506, '綠色夜光魚餌-中等'),
+(8507, '綠色夜光魚餌-高等'),
+(8508, '紫色夜光魚餌-下等'),
+(8509, '紫色夜光魚餌-中等'),
+(8510, '紫色夜光魚餌-高等'),
+(8511, '黃色夜光魚餌-下等'),
+(8512, '黃色夜光魚餌-中等'),
+(8513, '黃色夜光魚餌-高等'),
+(8514, '古代矮人們殘留的夢'),
+(8515, '勇氣護符-普通'),
+(8516, '勇氣護符-D級'),
+(8517, '勇氣護符-C級'),
+(8518, '勇氣護符-B級'),
+(8519, '勇氣護符-A級'),
+(8520, '勇氣護符-S級'),
+(8521, '海洋柯巴種子'),
+(8522, '改良海洋柯巴種子'),
+(8523, '雙生柯巴種子'),
+(8524, '改良雙生柯巴種子'),
+(8525, '巨大柯巴種子'),
+(8526, '改良巨大柯巴種子'),
+(8534, '冒險家寶箱-C級飾品(下級)'),
+(8535, '冒險家寶箱-C級飾品(中級)'),
+(8536, '冒險家寶箱-C級飾品(上級)'),
+(8537, '冒險家寶箱-B級飾品(下級)'),
+(8538, '冒險家寶箱-B級飾品(上級)'),
+(8539, '冒險家寶箱-頭飾'),
+(8540, '冒險家寶箱-創造的搖籃'),
+(8542, '見習旅者的標章'),
+(8543, '珠子包裹'),
+(8544, '提莫拉獸人的頭'),
+(8545, '卡沙蜘蛛的牙齒'),
+(8546, '巴爾德雷巴奴的角'),
+(8547, '老舊的箱子'),
+(8548, '溫泉魚餌'),
+(8549, '布朗蜥蜴人的血'),
+(8550, '比卡特阿朗尼得的腿'),
+(8551, '勝利的聲援道具箱子'),
+(8553, '紅魔鬼面具組件'),
+(8554, '製作卷軸(紅魔鬼面具100%)'),
+(8555, '回聲水晶-VIVA Victory Korea'),
+(8556, '破魂的露水'),
+(8570, '活動禮品箱'),
+(8571, '活動禮品箱'),
+(8572, '活動禮品箱'),
+(8573, '活動禮品箱'),
+(8574, '活動禮品箱'),
+(8575, '活動禮品箱'),
+(8592, '免費武器交換券'),
+(8593, '武器交換券-D級'),
+(8594, '恢復卷軸-普通'),
+(8595, '恢復卷軸-D級'),
+(8596, '恢復卷軸-C級'),
+(8597, '恢復卷軸-B級'),
+(8598, '恢復卷軸-A級'),
+(8599, '恢復卷軸-S級'),
+(8600, '生命藥草'),
+(8601, '強力生命藥草'),
+(8602, '超強力生命藥草'),
+(8603, '瑪那藥草'),
+(8604, '強力瑪那藥草'),
+(8605, '超強力瑪那藥草'),
+(8606, '力量藥草'),
+(8607, '魔力藥草'),
+(8608, '攻擊加速藥草'),
+(8609, '施法加速藥草'),
+(8610, '致命攻擊藥草-機率'),
+(8611, '移動加速藥草'),
+(8612, '戰士用藥草'),
+(8613, '法師用藥草'),
+(8614, '恢復藥草'),
+(8615, '召喚水晶'),
+(8616, '魔法書-召喚戰友'),
+(8617, '魔法書-招來咒言'),
+(8618, '古書-神威加持(譯本)'),
+(8619, '古書-神威加持(古本)'),
+(8620, '古書-神威加持(抄本)'),
+(8621, '古書-神威加持(祕本)'),
+(8622, '生命靈藥-普通'),
+(8623, '生命靈藥-D級'),
+(8624, '生命靈藥-C級'),
+(8625, '生命靈藥-B級'),
+(8626, '生命靈藥-A級'),
+(8627, '生命靈藥-S級'),
+(8628, '精神靈藥-普通'),
+(8629, '精神靈藥-D級'),
+(8630, '精神靈藥-C級'),
+(8631, '精神靈藥-B級'),
+(8632, '精神靈藥-A級'),
+(8633, '精神靈藥-S級'),
+(8634, '鬥志靈藥-普通'),
+(8635, '鬥志靈藥-D級'),
+(8636, '鬥志靈藥-C級'),
+(8637, '鬥志靈藥-B級'),
+(8638, '鬥志靈藥-A級'),
+(8639, '鬥志靈藥-S級'),
+(8640, '製作卷軸(生命靈藥-普通100%)'),
+(8641, '製作卷軸(生命靈藥-D級100%)'),
+(8642, '製作卷軸(生命靈藥-C級100%)'),
+(8643, '製作卷軸(生命靈藥-B級100%)'),
+(8644, '製作卷軸(生命靈藥-A級100%)'),
+(8645, '製作卷軸(生命靈藥-S級100%)'),
+(8646, '製作卷軸(精神靈藥-普通100%)'),
+(8647, '製作卷軸(精神靈藥-D級100%)'),
+(8648, '製作卷軸(精神靈藥-C級100%)'),
+(8649, '製作卷軸(精神靈藥-B級100%)'),
+(8650, '製作卷軸(精神靈藥-A級100%)'),
+(8651, '製作卷軸(精神靈藥-S級100%)'),
+(8652, '製作卷軸(鬥志靈藥-普通100%)'),
+(8653, '製作卷軸(鬥志靈藥-D級100%)'),
+(8654, '製作卷軸(鬥志靈藥-C級100%)'),
+(8655, '製作卷軸(鬥志靈藥-B級100%)'),
+(8656, '製作卷軸(鬥志靈藥-A級100%)'),
+(8657, '製作卷軸(鬥志靈藥-S級100%)'),
+(8658, '神祕的溶劑'),
+(8659, '萬聖節寶箱'),
+(8663, '疑問藥水(活動用)'),
+(8664, '整形藥水-A(活動用)'),
+(8665, '整形藥水-B(活動用)'),
+(8666, '整形藥水-C(活動用)'),
+(8667, '染髮藥水-A(活動用)'),
+(8668, '染髮藥水-B(活動用)'),
+(8669, '染髮藥水-C(活動用)'),
+(8670, '染髮藥水-D(活動用)'),
+(8671, '造型藥水-A(活動用)'),
+(8672, '造型藥水-B(活動用)'),
+(8673, '造型藥水-C(活動用)'),
+(8674, '造型藥水-D(活動用)'),
+(8675, '造型藥水-E(活動用)'),
+(8676, '造型藥水-F(活動用)'),
+(8677, '造型藥水-G(活動用)'),
+(8690, '製作卷軸(希露冰刃60%)'),
+(8691, '製作卷軸(希露冰刃100%)'),
+(8692, '製作卷軸(伊波斯巨劍60%)'),
+(8693, '製作卷軸(伊波斯巨劍100%)'),
+(8694, '製作卷軸(貝拉凱爾聖斧60%)'),
+(8695, '製作卷軸(貝拉凱爾聖斧100%)'),
+(8696, '製作卷軸(貝希莫斯巨叉60%)'),
+(8697, '製作卷軸(貝希莫斯巨叉100%)'),
+(8698, '製作卷軸(那卡風暴60%)'),
+(8699, '製作卷軸(那卡風暴100%)'),
+(8700, '製作卷軸(岱依封長戟60%)'),
+(8701, '製作卷軸(岱依封長戟100%)'),
+(8702, '製作卷軸(夏伊德獵弓60%)'),
+(8703, '製作卷軸(夏伊德獵弓100%)'),
+(8704, '製作卷軸(索貝克颶風60%)'),
+(8705, '製作卷軸(索貝克颶風100%)'),
+(8706, '製作卷軸(緹米絲之舌60%)'),
+(8707, '製作卷軸(緹米絲之舌100%)'),
+(8708, '製作卷軸(卡布里歐之手60%)'),
+(8709, '製作卷軸(卡布里歐之手100%)'),
+(8710, '製作卷軸(惡魔結晶60%)'),
+(8711, '製作卷軸(惡魔結晶100%)'),
+(8712, '希露冰刃刀身'),
+(8713, '伊波斯巨劍劍身'),
+(8714, '貝拉凱爾聖斧碎片'),
+(8715, '貝希莫斯巨叉碎片'),
+(8716, '那卡風暴碎片'),
+(8717, '岱依封長戟刃部'),
+(8718, '夏伊德獵弓柄'),
+(8719, '索貝克颶風刀緣'),
+(8720, '緹米絲之舌碎片'),
+(8721, '卡布里歐之手金屬塊'),
+(8722, '惡魔結晶碎片'),
+(8723, '生命石-46級'),
+(8724, '生命石-49級'),
+(8725, '生命石-52級'),
+(8726, '生命石-55級'),
+(8727, '生命石-58級'),
+(8728, '生命石-61級'),
+(8729, '生命石-64級'),
+(8730, '生命石-67級'),
+(8731, '生命石-70級'),
+(8732, '生命石-76級'),
+(8733, '中級生命石-46級'),
+(8734, '中級生命石-49級'),
+(8735, '中級生命石-52級'),
+(8736, '中級生命石-55級'),
+(8737, '中級生命石-58級'),
+(8738, '中級生命石-61級'),
+(8739, '中級生命石-64級'),
+(8740, '中級生命石-67級'),
+(8741, '中級生命石-70級'),
+(8742, '中級生命石-76級'),
+(8743, '高級生命石-46級'),
+(8744, '高級生命石-49級'),
+(8745, '高級生命石-52級'),
+(8746, '高級生命石-55級'),
+(8747, '高級生命石-58級'),
+(8748, '高級生命石-61級'),
+(8749, '高級生命石-64級'),
+(8750, '高級生命石-67級'),
+(8751, '高級生命石-70級'),
+(8752, '高級生命石-76級'),
+(8753, '特級生命石-46級'),
+(8754, '特級生命石-49級'),
+(8755, '特級生命石-52級'),
+(8756, '特級生命石-55級'),
+(8757, '特級生命石-58級'),
+(8758, '特級生命石-61級'),
+(8759, '特級生命石-64級'),
+(8760, '特級生命石-67級'),
+(8761, '特級生命石-70級'),
+(8762, '特級生命石-76級'),
+(8764, '獵捕石'),
+(8765, '紅色珠子'),
+(8766, '精靈的珠子'),
+(8767, '暴龍的爪子'),
+(8768, '日記本片段'),
+(8769, '探險隊員的紙條'),
+(8770, '似鳥龍的爪子'),
+(8771, '恐爪龍的骨頭'),
+(8772, '厚頭龍的皮革'),
+(8773, '演習用可羅津捕獲器'),
+(8774, '恐龍活體組織'),
+(8775, '古代之卵'),
+(8776, '平原恐龍的骨頭'),
+(8777, '太古生命體的技術'),
+(8778, '曼塔拉薩的蛋'),
+(8779, '似鳥龍的爪子'),
+(8780, '恐爪龍的骨頭碎片'),
+(8781, '智慧的碑文'),
+(8782, '卡茲克的碎片'),
+(8783, '骨頭粉末'),
+(8784, '卡茲克'),
+(8785, '恐龍牙項鍊'),
+(8786, '原始藥水'),
+(8787, '蛛網膜果實'),
+(8868, '無上的寶石'),
+(8869, '幻象裝備交換券-D級'),
+(8870, '幻象裝備交換券-C級'),
+(8871, '戰略指南書'),
+(8872, '無煙火藥粉末'),
+(8873, '不死鳥之血'),
+(8874, '殷海薩聖水'),
+(8875, '戰鬥徽章'),
+(8876, '魔法徽章'),
+(8877, '魔法書-不死鳥之魂'),
+(8878, '魔法書-召喚國王貓'),
+(8879, '魔法書-召喚輝煌獨角獸'),
+(8880, '魔法書-召喚幽冥之主'),
+(8881, '魔法書-淨罪'),
+(8882, '魔法書-救贖'),
+(8883, '魔法書-祕術免疫'),
+(8884, '魔法書-咒文偏移'),
+(8885, '護身符-輝煌頌歌'),
+(8886, '護身符-帕格立歐必勝'),
+(8887, '護身符-帕格立歐聖徽'),
+(8888, '護身符-帕格立歐奮戰'),
+(8889, '護身符-門扉頌歌'),
+(8890, '魔法書-召喚吸引晶體'),
+(8891, '魔法書-靈氣閃光'),
+(8892, '古代兵法書-鐵壁陣勢'),
+(8893, '古代兵法書-高歌陣勢'),
+(8894, '古代兵法書-剛毅陣勢'),
+(8895, '古代兵法書-奮戰陣勢'),
+(8896, '古代兵法書-激鬥陣勢'),
+(8897, '古代兵法書-狙擊陣勢'),
+(8898, '古代兵法書-暗殺陣勢'),
+(8899, '古代魔法書-爆炎'),
+(8900, '古代魔法書-烈風'),
+(8901, '古代魔法書-海嘯'),
+(8902, '古代魔法書-末日'),
+(8903, '古代魔法書-煉獄'),
+(8904, '古代魔法書-次元裂縫'),
+(8905, '古代魔法書-純淨'),
+(8906, '古代魔法書-奇蹟'),
+(8907, '古代魔法書-不滅之火'),
+(8908, '古代魔法書-魔力泉源'),
+(8909, '設計圖-召喚奇襲加農砲'),
+(8924, '船票-原始之島往魯因'),
+(8925, '船票-魯因往原始之島'),
+(8939, '多明尼克的信物'),
+(8940, '未來的憑證-人類'),
+(8941, '未來的憑證-矮人'),
+(8942, '未來的憑證-精靈'),
+(8943, '未來的憑證-黑暗精靈'),
+(8944, '未來的憑證-半獸人'),
+(8945, '魔法書-天國聖盾'),
+(8946, '魔法書-默禱'),
+(8952, '強力生命藥草'),
+(8953, '強力瑪那藥草'),
+(8954, '藍色原始水晶'),
+(8955, '綠色原始水晶'),
+(8956, '紅色原始水晶'),
+(8957, '幻象裝備交換券-活動用'),
+(8958, '幻象裝備交換券-活動用'),
+(8959, '消耗品交換券-活動用'),
+(8960, '無等級幻象防具套裝禮盒'),
+(8961, 'D級幻象防具組禮盒'),
+(8962, 'C級幻象防具組禮盒'),
+(8963, 'B級幻象防具組禮盒'),
+(8964, 'A級幻象防具組禮盒'),
+(8965, 'S級幻象防具組禮盒'),
+(8966, '無等級消耗品組禮盒(戰士用)'),
+(8967, 'D級消耗品組禮盒(戰士用)'),
+(8968, 'C級消耗品組禮盒(戰士用)'),
+(8969, 'B級消耗品組禮盒(戰士用)'),
+(8970, 'A級消耗品組禮盒(戰士用)'),
+(8971, 'A、S級消耗品組禮盒(戰士用)'),
+(9104, '合金弓木箭'),
+(9105, '腰弩骨箭'),
+(9106, '阿卡特長弓鐵箭'),
+(9107, '黑暗精靈長弓銀箭'),
+(9108, '顱之弓米索莉箭'),
+(9109, '靈魂弓米索莉箭'),
+(9110, '無等級幻象防具套裝禮盒(重裝用)'),
+(9111, 'D級幻象防具組禮盒(重裝用)'),
+(9112, 'C級幻象防具組禮盒(重裝用)'),
+(9113, 'B級幻象防具組禮盒(重裝用)'),
+(9114, 'A級幻象防具組禮盒(重裝用)'),
+(9115, 'A級幻象防具組禮盒(重裝用)'),
+(9116, '無等級幻象防具套裝禮盒(輕裝用)'),
+(9117, 'D級幻象防具組禮盒(輕裝用)'),
+(9118, 'C級幻象防具組禮盒(輕裝用)'),
+(9119, 'B級幻象防具組禮盒(輕裝用)'),
+(9120, 'A級幻象防具組禮盒(輕裝用)'),
+(9121, 'A級幻象防具組禮盒(輕裝用)'),
+(9122, '無等級幻象防具套裝禮盒(長袍用)'),
+(9123, 'D級幻象防具組禮盒(長袍用)'),
+(9124, 'C級幻象防具組禮盒(長袍用)'),
+(9125, 'B級幻象防具組禮盒(長袍用)'),
+(9126, 'A級幻象防具組禮盒(長袍用)'),
+(9127, 'A級幻象防具組禮盒(長袍用)'),
+(9130, '無等級消耗品組禮盒(法師用)'),
+(9131, 'D級消耗品組禮盒(法師用)'),
+(9132, 'C級消耗品組禮盒(法師用)'),
+(9133, 'B級消耗品組禮盒(法師用)'),
+(9134, 'A級消耗品組禮盒(法師用)'),
+(9135, 'A、S級消耗品組禮盒(法師用)'),
+(9139, '聖誕帽'),
+(9142, '豬豬幣'),
+(9143, '黃金豬豬幣'),
+(9144, '豬豬禮盒'),
+(9146, '導引卷軸-活動用'),
+(9147, '死之呢喃卷軸-活動用'),
+(9148, '弱點偵測卷軸-活動用'),
+(9149, '靈活思緒卷軸-活動用'),
+(9150, '速度激發卷軸-活動用'),
+(9151, '敏捷術卷軸-活動用'),
+(9152, '魔力催化卷軸-活動用'),
+(9153, '力量強化卷軸-活動用'),
+(9154, '風之疾走卷軸-活動用'),
+(9155, '保護盾卷軸-活動用'),
+(9156, '祝福的返回卷軸-活動用'),
+(9157, '祝福的復活卷軸-活動用'),
+(9161, '聖誕鹿角帽'),
+(9162, '紅色賢者之石鍊成陣'),
+(9163, '藍色賢者之石鍊成陣'),
+(9164, '橙色賢者之石鍊成陣'),
+(9165, '黑色賢者之石鍊成陣'),
+(9166, '白色賢者之石鍊成陣'),
+(9167, '綠色賢者之石鍊成陣'),
+(9168, '賢者之石原石'),
+(9169, '賢者之石變換式'),
+(9170, '魔法試劑'),
+(9171, '紅色賢者之石'),
+(9172, '藍色賢者之石'),
+(9173, '橙色賢者之石'),
+(9174, '黑色賢者之石'),
+(9175, '白色賢者之石'),
+(9176, '綠色賢者之石'),
+(9205, '鍊金術士的寶箱鑰匙'),
+(9206, '終極治癒藥水-活動用'),
+(9207, '瞬間體力治癒藥水-活動用'),
+(9451, '王朝之魂'),
+(9482, '製作卷軸(封印的王朝盔甲60%)'),
+(9483, '製作卷軸(封印的王朝脛甲60%)'),
+(9484, '製作卷軸(封印的王朝頭盔60%)'),
+(9485, '製作卷軸(封印的王朝長手套60%)'),
+(9486, '製作卷軸(封印的王朝長靴60%)'),
+(9487, '製作卷軸(封印的王朝皮甲60%)'),
+(9488, '製作卷軸(封印的王朝皮脛甲60%)'),
+(9489, '製作卷軸(封印的王朝皮頭盔60%)'),
+(9490, '製作卷軸(封印的王朝皮手套60%)'),
+(9491, '製作卷軸(封印的王朝皮長靴60%)'),
+(9492, '製作卷軸(封印的王朝外衣60%)'),
+(9493, '製作卷軸(封印的王朝長襪60%)'),
+(9494, '製作卷軸(封印的王朝頭箍60%)'),
+(9495, '製作卷軸(封印的王朝手套60%)'),
+(9496, '製作卷軸(封印的王朝鞋60%)'),
+(9497, '製作卷軸(封印的王朝盾60%)'),
+(9498, '製作卷軸(封印的王朝盔甲100%)'),
+(9499, '製作卷軸(封印的王朝脛甲100%)'),
+(9500, '製作卷軸(封印的王朝頭盔100%)'),
+(9501, '製作卷軸(封印的王朝長手套100%)'),
+(9502, '製作卷軸(封印的王朝長靴100%)'),
+(9503, '製作卷軸(封印的王朝皮甲100%)'),
+(9504, '製作卷軸(封印的王朝皮脛甲100%)'),
+(9505, '製作卷軸(封印的王朝皮頭盔100%)'),
+(9506, '製作卷軸(封印的王朝皮手套100%)'),
+(9507, '製作卷軸(封印的王朝皮長靴100%)'),
+(9508, '製作卷軸(封印的王朝外衣100%)'),
+(9509, '製作卷軸(封印的王朝長襪100%)'),
+(9510, '製作卷軸(封印的王朝頭箍100%)'),
+(9511, '製作卷軸(封印的王朝手套100%)'),
+(9512, '製作卷軸(封印的王朝鞋100%)'),
+(9513, '製作卷軸(封印的王朝盾100%)'),
+(9530, '封印的王朝盔甲碎片'),
+(9531, '封印的王朝脛甲碎片'),
+(9532, '封印的王朝頭盔碎片'),
+(9533, '封印的王朝長手套碎片'),
+(9534, '封印的王朝長靴碎片'),
+(9535, '封印的王朝皮甲碎片'),
+(9536, '封印的王朝皮脛甲碎片'),
+(9537, '封印的王朝皮頭盔碎片'),
+(9538, '封印的王朝皮手套碎片'),
+(9539, '封印的王朝皮長靴碎片'),
+(9540, '封印的王朝外衣碎片'),
+(9541, '封印的王朝長襪碎片'),
+(9542, '封印的王朝頭箍碎片'),
+(9543, '封印的王朝手套碎片'),
+(9544, '封印的王朝鞋碎片'),
+(9545, '封印的王朝盾碎片'),
+(9546, '火之原石'),
+(9547, '水之原石'),
+(9548, '地之原石'),
+(9549, '風之原石'),
+(9550, '暗之原石'),
+(9551, '聖之原石'),
+(9552, '火之水晶'),
+(9553, '水之水晶'),
+(9554, '地之水晶'),
+(9555, '風之水晶'),
+(9556, '暗之水晶'),
+(9557, '聖之水晶'),
+(9558, '火之寶石'),
+(9559, '水之寶石'),
+(9560, '地之寶石'),
+(9561, '風之寶石'),
+(9562, '暗之寶石'),
+(9563, '聖之寶石'),
+(9564, '火之力'),
+(9565, '水之力'),
+(9566, '地之力'),
+(9567, '風之力'),
+(9568, '暗之力'),
+(9569, '聖之力'),
+(9570, '紅色搜魂石-階段14'),
+(9571, '藍色搜魂石-階段14'),
+(9572, '綠色搜魂石-階段14'),
+(9573, '生命石-80級'),
+(9574, '中級生命石-80級'),
+(9575, '高級生命石-80級'),
+(9576, '特級生命石-80級'),
+(9593, '橙色罪惡種子碎片'),
+(9594, '綠色罪惡種子碎片'),
+(9595, '藍色罪惡種子碎片'),
+(9596, '紅色罪惡種子碎片'),
+(9597, '白色罪惡種子碎片'),
+(9598, '黑色罪惡種子碎片'),
+(9599, '惡魔的古書'),
+(9600, '隱藏的第一頁'),
+(9601, '隱藏的第二頁'),
+(9602, '惡魔的契約書片段'),
+(9603, '地獄邊界道具5'),
+(9604, '地獄邊界道具6'),
+(9616, '王朝劍碎片'),
+(9617, '王朝之刃碎片'),
+(9618, '王朝幻影劍碎片'),
+(9619, '王朝弓碎片'),
+(9620, '王朝小刀碎片'),
+(9621, '王朝長柄戰戟碎片'),
+(9622, '王朝戰鎚碎片'),
+(9623, '王朝釘鎚碎片'),
+(9624, '王朝拳套爪碎片'),
+(9625, '巨人的經典-遺忘篇'),
+(9626, '巨人的經典-訓練篇'),
+(9627, '巨人的經典-熟練篇'),
+(9628, '雷那特'),
+(9629, '亞德曼合金'),
+(9630, '奧里哈魯根合金'),
+(9631, '最高級皮革'),
+(9632, '木製弩箭'),
+(9633, '骨製弩箭'),
+(9634, '鋼鐵弩箭'),
+(9635, '銀弩箭'),
+(9636, '米索莉弩箭'),
+(9637, '閃耀弩箭'),
+(9647, '返回卷軸-英魂之島村莊'),
+(9648, '變身刻印書-瑪瑙獸'),
+(9649, '變身刻印書-死亡之刃'),
+(9650, '變身刻印書-門徒聖杯'),
+(9651, '變身刻印書-獨角獸'),
+(9652, '變身刻印書-莉莉恩騎士'),
+(9653, '變身刻印書-高崙守護者'),
+(9654, '變身刻印書-煉獄龍獸'),
+(9655, '變身刻印書-暴烈龍'),
+(9668, '鬃狼飼料'),
+(9672, '魔法葫蘆'),
+(9673, '聖水'),
+(9674, '達里昂的許可證'),
+(9675, '祈禱文的碎片'),
+(9676, '背叛者的憑證'),
+(9678, '魔法之石'),
+(9679, '鋼鐵之城設計圖'),
+(9680, '稀薄的魔法精氣'),
+(9681, '魔法精氣'),
+(9682, '保存的魔法精氣'),
+(9683, '沙亞龍的尖牙'),
+(9684, '原住民的寶物'),
+(9685, '黑暗之門的鑰匙'),
+(9686, '破壞之門的鑰匙'),
+(9687, '血之門的鑰匙'),
+(9688, '弩砲爆破炸彈'),
+(9689, '湖的精氣'),
+(9690, '被污染的水晶'),
+(9691, '水龍的鱗片'),
+(9692, '赤珊瑚'),
+(9693, '水晶碎片'),
+(9694, '祕密花園的鑰匙'),
+(9695, '湛藍水晶'),
+(9696, '赤紅水晶'),
+(9697, '透明水晶'),
+(9698, '湛藍珊瑚鑰匙'),
+(9699, '赤紅珊瑚鑰匙'),
+(9700, '水龍的爪'),
+(9701, '魔法陣封印鑰匙'),
+(9702, '商隊靈藥'),
+(9703, '闇天使之門的鑰匙'),
+(9704, '紀錄之門的鑰匙'),
+(9705, '觀察之門的鑰匙'),
+(9706, '斯比裘拉之門的鑰匙'),
+(9707, '鑰匙-諸天之上'),
+(9708, '鑰匙-佛拉赫爾哈'),
+(9709, '亞爾比泰魯之門的鑰匙'),
+(9710, '鑰匙-雷歐波爾德'),
+(9711, '預測之門的鑰匙'),
+(9712, '大空洞之門的鑰匙'),
+(9713, '諾爾妮之力'),
+(9714, '惡魔刻紋鑰匙'),
+(9715, '巨大鑰匙'),
+(9716, '英魂之島村莊回歸卷軸'),
+(9717, '艾勒諾斯的重要情報'),
+(9718, '緋紅公爵夫人報告書'),
+(9719, '襲擊者名單'),
+(9721, '急速冷卻裝置'),
+(9722, '祕傳的交感石'),
+(9723, '祕傳的交感石'),
+(9724, '祕傳的交感石'),
+(9725, '祕傳的交感石-二回'),
+(9726, '祕傳的交感石-二回'),
+(9727, '祕傳的交感石-二回'),
+(9728, '祕傳的交感石-三回'),
+(9729, '祕傳的交感石-三回'),
+(9730, '祕傳的交感石-三回'),
+(9731, '祕傳的交感石-四回'),
+(9732, '祕傳的交感石-四回'),
+(9733, '祕傳的交感石-四回'),
+(9734, '祕傳的交感石-五回'),
+(9735, '祕傳的交感石-五回'),
+(9736, '祕傳的交感石-五回'),
+(9737, '祕傳的交感石-六回'),
+(9738, '祕傳的交感石-六回'),
+(9739, '祕傳的交感石-六回'),
+(9740, '哈里夏標章'),
+(9741, '哈里夏標章'),
+(9742, '哈里夏標章'),
+(9743, '光之紀念章'),
+(9744, '赤紅光的寶石'),
+(9745, '黑回聲水晶'),
+(9746, '摩斯特洛隊長的羽毛'),
+(9747, '紅蜘蛛的爪'),
+(9748, '摩斯特洛的羽毛'),
+(9749, '菲林蜥蜴人戰士的頭'),
+(9750, '巨大毒蜘蛛的腿'),
+(9751, '突倫食人妖的心臟'),
+(9752, '修巴音的推薦函'),
+(9753, '特巴音的推薦函'),
+(9754, '布賴卡獸人頭'),
+(9755, '訊息金屬板'),
+(9756, '報告書-東'),
+(9757, '報告書-北'),
+(9758, '哈爾卡凱梅德的信'),
+(9759, '田納因的推薦函'),
+(9760, '奧克魯斯的推薦函'),
+(9761, '低溫處理細胞組織'),
+(9762, '豺狼命令書'),
+(9763, '豺狼編制表'),
+(9764, '寇比安的命令書'),
+(9765, '人類連絡文件'),
+(9766, '人類回覆文件'),
+(9767, '黑暗精靈連絡文件'),
+(9768, '黑暗精靈回覆文件'),
+(9769, '寄給西烏奈的報告書'),
+(9770, '空魔法水晶球'),
+(9771, '捕獲大津的魔法水晶球'),
+(9772, '特殊部隊竊取檔案的評價報告書'),
+(9773, '怨恨的結晶'),
+(9774, '怨恨的結晶集合體'),
+(9775, '手抄本內頁'),
+(9776, '封印的種族書冊暗號文隱藏頁'),
+(9777, '闇天使祕密團體審問者的訓練兵徽章'),
+(9778, '襲擊委託書碎片'),
+(9779, '葛雷迪斯襲擊委託書'),
+(9780, '瑪那宣控制符'),
+(9781, '封印的種族書冊巨人研究文件'),
+(9782, '闇天使祕密團體審問者的徽章'),
+(9783, '解除精神封印的回聲水晶'),
+(9784, '帕爾米的信'),
+(9785, '精製的水晶樣本'),
+(9786, '安定的靈氣'),
+(9787, '靈氣'),
+(9788, '咒文明細書'),
+(9789, '玻璃虎的結晶'),
+(9790, '空刻印書'),
+(9791, '變身刻印書-瑪瑙獸'),
+(9792, '倉庫補給品確認書'),
+(9793, '雜貨店的補給品確認書'),
+(9794, '武器店的補給品確認書'),
+(9795, '補給品現況報告書'),
+(9796, '黃金山丘魔物之爪'),
+(9797, '收容所罪犯首領的標章'),
+(9798, '地下監獄魔物的階級章碎片'),
+(9799, '狼的尾巴'),
+(9800, '勞庫的設計圖'),
+(9801, '惡魔公爵的設計圖'),
+(9802, '金庫鑰匙'),
+(9803, '封印的文件'),
+(9804, '亞龍的心臟'),
+(9805, '凱克洛普斯的推薦函'),
+(9806, '碎魂者認證書'),
+(9807, '狼的尾巴'),
+(9808, '摩斯特洛的爪'),
+(9809, '灰狐狗的尖牙'),
+(9810, '黑狼的尖牙'),
+(9811, '要塞軍票'),
+(9812, '城堡軍票'),
+(9814, '死神骸骨'),
+(9815, '龍之心'),
+(9816, '大地之卵'),
+(9817, '假生命之核'),
+(9818, '天使之魂'),
+(9849, '惡魔溫熱的血'),
+(9850, '商隊初級認證書'),
+(9851, '商隊中級認證書'),
+(9852, '商隊高級認證書'),
+(9853, '友情與信賴的憑證'),
+(9881, '修業證書'),
+(9882, '黑鬃狼項鍊'),
+(9897, '變身卷軸-豬'),
+(9898, '高等SP卷軸'),
+(9910, '血的盟誓'),
+(9911, '血的決議'),
+(9912, '騎士肩章'),
+(9967, '製作卷軸(王朝劍60%)'),
+(9968, '製作卷軸(王朝之刃60%)'),
+(9969, '製作卷軸(王朝幻影劍60%)'),
+(9970, '製作卷軸(王朝弓60%)'),
+(9971, '製作卷軸(王朝小刀60%)'),
+(9972, '製作卷軸(王朝長柄戰戟60%)'),
+(9973, '製作卷軸(王朝戰鎚60%)'),
+(9974, '製作卷軸(王朝釘鎚60%)'),
+(9975, '製作卷軸(王朝拳套爪60%)'),
+(9976, '製作卷軸(王朝劍100%)'),
+(9977, '製作卷軸(王朝之刃100%)'),
+(9978, '製作卷軸(王朝幻影劍100%)'),
+(9979, '製作卷軸(王朝弓100%)'),
+(9980, '製作卷軸(王朝小刀100%)'),
+(9981, '製作卷軸(王朝長柄戰戟100%)'),
+(9982, '製作卷軸(王朝戰鎚100%)'),
+(9983, '製作卷軸(王朝釘鎚100%)'),
+(9984, '製作卷軸(王朝拳套爪100%)'),
+(9985, '製作卷軸(封印的王朝耳環(70%)'),
+(9986, '製作卷軸(封印的王朝項鍊(70%)'),
+(9987, '製作卷軸(封印的王朝戒指(70%)'),
+(9988, '製作卷軸(封印的王朝耳環100%)'),
+(9989, '製作卷軸(封印的王朝項鍊100%)'),
+(9990, '製作卷軸(封印的王朝戒指100%)'),
+(9991, '封印的王朝耳環寶石'),
+(9992, '封印的王朝項鍊寶石'),
+(9993, '封印的王朝戒指寶石'),
+(9994, '地獄邊界地圖'),
+(9997, '火屬性強化藥'),
+(9998, '水屬性強化藥'),
+(9999, '地屬性強化藥'),
+(10000, '風屬性強化藥'),
+(10001, '暗屬性強化藥'),
+(10002, '聖屬性強化藥'),
+(10012, '蠍子的毒針'),
+(10013, '競賽印章'),
+(10014, '控制室卡片'),
+(10015, '監獄門鑰匙'),
+(10016, '地下儲藏所鑰匙'),
+(10017, '珊瑚的寶箱鑰匙'),
+(10025, '戰鬥教範-墮落之箭'),
+(10026, '戰鬥教範-墮落之擊'),
+(10027, '戰鬥教範-察覺陷阱'),
+(10028, '戰鬥教範-拆除陷阱'),
+(10029, '戰鬥教範-黑暗之擊'),
+(10030, '戰鬥教範-黑暗破擊'),
+(10031, '戰鬥教範-二連刺'),
+(10032, '戰鬥教範-深淵赤焰'),
+(10033, '戰鬥教範-黑暗爆裂'),
+(10034, '戰鬥教範-變換目標'),
+(10035, '戰鬥教範-轉換生命石'),
+(10036, '戰鬥教範-展翅'),
+(10037, '戰鬥教範-刀刃連斬'),
+(10038, '戰鬥教範-劇痛碎擊'),
+(10039, '戰鬥教範-迸裂'),
+(10040, '戰鬥教範-生命轉魂'),
+(10041, '戰鬥教範-輕蔑'),
+(10042, '戰鬥教範-三連刺'),
+(10043, '戰鬥教範-閃耀之鋒'),
+(10044, '戰鬥教範-擊潰'),
+(10045, '戰鬥教範-劇痛靈魂'),
+(10046, '戰鬥教範-黑暗火焰'),
+(10047, '戰鬥教範-湮滅之輪'),
+(10048, '戰鬥教範-神威詛咒'),
+(10049, '戰鬥教範-神威竊取'),
+(10050, '戰鬥教範-閃逝'),
+(10051, '戰鬥教範-靈魂轉移'),
+(10052, '戰鬥教範-雙重射擊'),
+(10053, '戰鬥教範-上衝射擊'),
+(10054, '戰鬥教範-致命輪盤'),
+(10055, '戰鬥教範-誘惑'),
+(10056, '戰鬥教範-製作生物藥劑'),
+(10057, '戰鬥教範-製作黑暗種子'),
+(10058, '戰鬥教範-火陷阱'),
+(10059, '戰鬥教範-毒陷阱'),
+(10060, '戰鬥教範-緩速陷阱'),
+(10061, '戰鬥教範-閃光陷阱'),
+(10062, '戰鬥教範-約束陷阱'),
+(10063, '戰鬥教範-弩箭筒-A級'),
+(10064, '戰鬥教範-弩箭筒-S級'),
+(10065, '戰鬥教範-治療黑暗種子'),
+(10066, '戰鬥教範-誘餌'),
+(10067, '戰鬥教範-連鎖閃電'),
+(10068, '戰鬥教範-諸天之上'),
+(10069, '戰鬥教範-雷歐波爾德'),
+(10070, '戰鬥教範-轉換武器'),
+(10071, '戰鬥教範-弩箭筒-B級'),
+(10072, '戰鬥教範-力量加持'),
+(10073, '戰鬥教範-火速攻擊'),
+(10074, '戰鬥教範-暴怒之魂'),
+(10075, '戰鬥教範-劍盾'),
+(10076, '戰鬥教範-卸除武器'),
+(10077, '戰鬥教範-快速射擊'),
+(10078, '戰鬥教範-死亡印記'),
+(10079, '戰鬥教範-勇氣'),
+(10080, '戰鬥教範-暴戾之氣'),
+(10081, '戰鬥教範-轉魂催化'),
+(10082, '戰鬥教範-幽暗保護'),
+(10083, '戰鬥教範-黑暗武器'),
+(10084, '戰鬥教範-闇天使的驕傲'),
+(10085, '戰鬥教範-臣服邪惡'),
+(10086, '戰鬥教範-出血射擊'),
+(10087, '戰鬥教範-精銳射擊'),
+(10088, '戰鬥教範-真實目標'),
+(10089, '戰鬥教範-植入黑暗種子'),
+(10090, '戰鬥教範-弗萊格拉克'),
+(10091, '戰鬥教範-最終形體'),
+(10092, '戰鬥教範-縫影'),
+(10093, '戰鬥教範-絕音'),
+(10094, '戰鬥教範-疾襲'),
+(10095, '戰鬥教範-風暴強襲'),
+(10096, '戰鬥教範-展翼強襲'),
+(10097, '戰鬥教範-肩部突擊'),
+(10098, '戰鬥教範-刀刃亂舞'),
+(10099, '魔法書-火焰計數'),
+(10100, '魔法書-冰晶'),
+(10101, '魔法書-冰之霸權'),
+(10102, '魔法書-風之霸權'),
+(10103, '魔法書-神聖之力'),
+(10104, '魔法書-魔力回復'),
+(10105, '護身符-保護頌歌'),
+(10106, '護身符-阻絕封印'),
+(10107, '魔法書-炎旋爆破'),
+(10108, '魔法書-冰旋巨鎚'),
+(10109, '魔法書-風旋重擊'),
+(10110, '魔法書-隕石術'),
+(10111, '魔法書-墜星術'),
+(10112, '黑暗種子'),
+(10113, '特殊弩箭'),
+(10114, '封印的王朝符印碎片'),
+(10115, '製作卷軸(封印的王朝符印60%)'),
+(10116, '製作卷軸(封印的王朝符印100%)'),
+(10117, '渾沌的封印的王朝符印'),
+(10118, '渾沌的王朝符印'),
+(10129, '要塞返回卷軸'),
+(10130, '祝福的要塞返回卷軸'),
+(10131, '瑪瑙獸變身卷軸'),
+(10132, '死亡之刃變身卷軸'),
+(10133, '門徒聖杯變身卷軸'),
+(10134, '獨角獸變身卷軸'),
+(10135, '莉莉恩騎士變身卷軸'),
+(10136, '高崙守護者變身卷軸'),
+(10137, '煉獄龍獸變身卷軸'),
+(10138, '暴烈龍變身卷軸'),
+(10143, '戰場卷軸-護盾大師'),
+(10144, '戰場卷軸-巫師'),
+(10145, '戰場卷軸-牧師'),
+(10146, '戰場卷軸-匕首大師'),
+(10147, '戰場卷軸-弓術大師'),
+(10148, '戰場卷軸-狂戰士'),
+(10149, '戰場祝福的返回卷軸'),
+(10150, '戰場祝福的復活卷軸'),
+(10151, '戰場變身卷軸'),
+(10152, '戰場體力恢復藥水'),
+(10153, '戰場魔力恢復藥水'),
+(10154, '戰場鬥志恢復藥水'),
+(10155, '精神強化藥水'),
+(10156, '梅杜莎的藥水'),
+(10157, '瞬間加速藥水'),
+(10159, '阻絆繩'),
+(10160, '受詛咒的紅色搜魂石-階段14'),
+(10161, '受詛咒的藍色搜魂石-階段14'),
+(10162, '受詛咒的綠色搜魂石-階段14'),
+(10163, '狼項鍊'),
+(10164, '動物虐殺者名單'),
+(10165, '血染的紅爪'),
+(10166, '溫泉鬥志藥水'),
+(10171, '黑暗柯塔種子'),
+(10172, '紅色柯塔種子'),
+(10173, '冷氣柯塔種子'),
+(10174, '藍色柯塔種子'),
+(10178, '香甜水果雞尾酒'),
+(10179, '爽口水果雞尾酒'),
+(10180, '戰鬥教範-刺入射擊'),
+(10181, '戰鬥教範-印記抹除'),
+(10182, '戰鬥教範-極限逃脫'),
+(10183, '戰鬥教範-製作特殊弩箭'),
+(10184, '戰鬥教範-壓縮修復術'),
+(10185, '戰鬥教範-摧毀直覺'),
+(10186, '戰鬥教範-修復術'),
+(10187, '戰鬥教範-忘卻'),
+(10188, '戰鬥教範-皮膚破損'),
+(10189, '戰鬥教範-保護直覺'),
+(10190, '戰鬥教範-吸血鬼動念'),
+(10191, '戰鬥教範-魔法動念'),
+(10192, '戰鬥教範-虛弱'),
+(10193, '戰鬥教範-體質弱化'),
+(10194, '戰鬥教範-惡意'),
+(10195, '戰鬥教範-心靈耗竭'),
+(10196, '戰鬥教範-靈魂和諧'),
+(10197, '改良黑暗柯塔種子'),
+(10198, '改良紅色柯塔種子'),
+(10199, '改良冷氣柯塔種子'),
+(10200, '改良藍色柯塔種子'),
+(10201, '改良金色柯塔種子'),
+(10202, '金色柯塔種子'),
+(10203, '魔法書-回音魔力催化'),
+(10204, '戰鬥教範-魂魄匯集'),
+(10205, '白色罪惡種子塊'),
+(10206, '黑色罪惡種子塊'),
+(10213, '發明家'),
+(10254, '1級寶袋'),
+(10255, '2級寶袋'),
+(10256, '3級寶袋'),
+(10257, '4級寶袋'),
+(10258, '5級寶袋'),
+(10259, '6級寶袋'),
+(10260, '攻擊加速飲料'),
+(10261, '命中強化飲料'),
+(10262, '爆擊威力強化飲料'),
+(10263, '爆擊機率強化飲料'),
+(10264, '施法加速飲料'),
+(10265, '迴避強化飲料'),
+(10266, '魔力強化飲料'),
+(10267, '攻擊力強化飲料'),
+(10268, '移動加速飲料'),
+(10269, '防禦力強化飲料'),
+(10270, 'MP消耗量減少飲料'),
+(10271, '神奇果汁12'),
+(10272, '寶袋碎片'),
+(10274, '兔子變身卷軸'),
+(10275, '戰鬥教範-曲速'),
+(10276, '戰鬥教範-靈魂震盪'),
+(10279, '瑪瑙獸變身書'),
+(10280, '認證書-副職業 初學者'),
+(10281, '認證書-副職業 鬥士'),
+(10282, '認證書-副職業 騎士'),
+(10283, '認證書-副職業 盜賊'),
+(10284, '認證書-副職業 巫師'),
+(10285, '認證書-副職業 牧師'),
+(10286, '認證書-副職業 召喚士'),
+(10287, '認證書-副職業 法師'),
+(10288, '變身刻印書-聖恩騎士'),
+(10289, '變身刻印書-聖恩鬥士'),
+(10290, '變身刻印書-聖恩盜賊'),
+(10291, '變身刻印書-聖恩牧師'),
+(10292, '變身刻印書-聖恩巫師'),
+(10293, '變身刻印書-聖恩法師'),
+(10294, '變身刻印書-聖恩召喚士'),
+(10295, '變身刻印書-札肯'),
+(10296, '變身刻印書-亞納'),
+(10297, '變身刻印書-貝諾姆'),
+(10298, '變身刻印書-高登'),
+(10299, '變身刻印書-勞庫'),
+(10300, '變身刻印書-基亞齊'),
+(10301, '變身刻印書-惡魔公爵'),
+(10302, '變身刻印書-異教徒'),
+(10303, '變身刻印書-貝里大師'),
+(10304, '變身刻印書-劍齒虎'),
+(10305, '變身刻印書-奧耶豺狼'),
+(10306, '變身刻印書-人偶刀手'),
+(10307, '白鬃狼項鍊'),
+(10308, '赤紅風龍號角'),
+(10309, '赤紅星龍號角'),
+(10310, '赤紅黃昏龍號角'),
+(10311, '改良型野牛之笛'),
+(10312, '改良型老虎之鐘'),
+(10313, '改良型笑翠鳥之笛'),
+(10327, '魔物的武器'),
+(10328, '被竊的貨物'),
+(10329, '憎恨的結晶'),
+(10330, '破舊的藏寶圖'),
+(10331, '桑寧的委任書'),
+(10332, '帕諾的委任書'),
+(10333, '阿蘭克爾的委任書'),
+(10334, '徽章-教團之手'),
+(10335, '巨人的實驗工具破片'),
+(10336, '巨人的實驗工具'),
+(10337, '巨人技術研究報告'),
+(10338, '洛克的報告'),
+(10339, '徽章-教團之足'),
+(10340, '調查官報告破片'),
+(10341, '教團的聲明書'),
+(10342, '黑暗精靈訓練生的遺物'),
+(10343, '安古斯的推薦函'),
+(10344, '朴皮娜的推薦函'),
+(10345, '文件箱的鑰匙破片'),
+(10346, '文件箱'),
+(10347, '黑暗結晶'),
+(10348, '黑暗氧化物'),
+(10349, '女神之劍暗號文'),
+(10350, '前任者調查書'),
+(10351, '天使探索暗號文'),
+(10352, '預言書破片'),
+(10353, '墮落天使的血'),
+(10354, '封印的預言書-神之道'),
+(10355, '預言書-神之道'),
+(10356, '空的回聲水晶'),
+(10357, '天使治癒藥'),
+(10358, '天使的訊息'),
+(10359, '金屬板'),
+(10360, '金屬破片'),
+(10361, '尼古拉的地圖'),
+(10362, '羅萊恩證書'),
+(10363, '金屬板'),
+(10364, '金屬破片'),
+(10365, '尼古拉的地圖'),
+(10366, '金屬板-研究日誌'),
+(10367, '里多蜥蜴人的飾品'),
+(10368, '金屬板'),
+(10369, '金屬破片'),
+(10370, '金屬板-解碼本'),
+(10371, '修復的金屬板'),
+(10372, '紅石'),
+(10373, '製作卷軸(伊克魯斯之劍60%)'),
+(10374, '製作卷軸(伊克魯斯分解者60%)'),
+(10375, '製作卷軸(伊克魯斯之靈60%)'),
+(10376, '製作卷軸(伊克魯斯重兵刃60%)'),
+(10377, '製作卷軸(伊克魯斯三叉戟60%)'),
+(10378, '製作卷軸(伊克魯斯之鎚60%)'),
+(10379, '製作卷軸(伊克魯斯之手60%)'),
+(10380, '製作卷軸(伊克魯斯手杖60%)'),
+(10381, '製作卷軸(伊克魯斯之弓60%)'),
+(10382, '製作卷軸(伊克魯斯刺劍60%)'),
+(10383, '製作卷軸(伊克魯斯翼刃60%)'),
+(10384, '製作卷軸(伊克魯斯之弩60%)'),
+(10385, '製作卷軸(伊克魯斯之劍100%)'),
+(10386, '製作卷軸(伊克魯斯分解者100%)'),
+(10387, '製作卷軸(伊克魯斯之靈100%)'),
+(10388, '製作卷軸(伊克魯斯重兵刃100%)'),
+(10389, '製作卷軸(伊克魯斯三叉戟100%)'),
+(10390, '製作卷軸(伊克魯斯之鎚100%)'),
+(10391, '製作卷軸(伊克魯斯之手100%)'),
+(10392, '製作卷軸(伊克魯斯手杖100%)'),
+(10393, '製作卷軸(伊克魯斯之弓100%)'),
+(10394, '製作卷軸(伊克魯斯刺劍100%)'),
+(10395, '製作卷軸(伊克魯斯翼刃100%)'),
+(10396, '製作卷軸(伊克魯斯之弩100%)'),
+(10397, '伊克魯斯之劍碎片'),
+(10398, '伊克魯斯分解者碎片'),
+(10399, '伊克魯斯之靈碎片'),
+(10400, '伊克魯斯重兵刃碎片'),
+(10401, '伊克魯斯三叉戟碎片'),
+(10402, '伊克魯斯之鎚碎片'),
+(10403, '伊克魯斯之手碎片'),
+(10404, '伊克魯斯手杖碎片'),
+(10405, '伊克魯斯之弓碎片'),
+(10406, '伊克魯斯刺劍碎片'),
+(10407, '伊克魯斯翼刃碎片'),
+(10408, '古老壺精'),
+(10409, '靈魂之瓶'),
+(10410, '裝滿的靈魂之瓶-5個靈魂'),
+(10411, '裝滿的靈魂之瓶-5個靈魂(戰場用)'),
+(10412, '裝滿的靈魂之瓶-10個靈魂'),
+(10413, '王朝之魂II'),
+(10414, '壺精交換券'),
+(10425, '改良幼寵物飼料'),
+(10426, '座狼項鍊'),
+(10427, '托里士的白金紀念章'),
+(10428, '托里士的錫質紀念章'),
+(10429, '托里士的鉛質紀念章'),
+(10430, '托里士的鋅質紀念章'),
+(10431, '托里士的銅質紀念章'),
+(10432, '柯爾堂的生命藥草'),
+(10433, '柯爾堂的瑪那藥草'),
+(10473, '魔法防具套裝'),
+(10480, '紅色搜魂石-階段15'),
+(10481, '藍色搜魂石-階段15'),
+(10482, '綠色搜魂石-階段15'),
+(10483, '生命石-82級'),
+(10484, '中級生命石-82級'),
+(10485, '高級生命石-82級'),
+(10486, '特級生命石-82級'),
+(10515, '壓縮野獸靈魂彈'),
+(10516, '壓縮野獸魔靈彈'),
+(10517, '祝福的壓縮野獸魔靈彈'),
+(10520, '回聲水晶-倉木麻衣'),
+(10521, '粗劣的火之原石'),
+(10522, '粗劣的水之原石'),
+(10523, '粗劣的地之原石'),
+(10524, '粗劣的風之原石'),
+(10525, '粗劣的暗之原石'),
+(10526, '粗劣的聖之原石'),
+(10544, '製作卷軸(王朝魔杖60%)'),
+(10545, '製作卷軸(王朝毀滅者60%)'),
+(10546, '王朝魔杖碎片'),
+(10547, '王朝毀滅者碎片'),
+(10549, '遺忘祕傳書-古文保護'),
+(10550, '遺忘祕傳書-元素保護'),
+(10551, '遺忘祕傳書-團結保護'),
+(10552, '遺忘祕傳書-戰士的意志'),
+(10553, '遺忘祕傳書-弓手的意志'),
+(10554, '遺忘祕傳書-抗魔裝甲'),
+(10555, '遺忘祕傳書-復仇種子'),
+(10556, '遺忘祕傳書-地獄狂嘯'),
+(10557, '遺忘祕傳書-風暴之歌'),
+(10558, '遺忘祕傳書-刀刃風暴'),
+(10559, '遺忘祕傳書-第六感'),
+(10560, '遺忘祕傳書-弱點揭露'),
+(10561, '遺忘祕傳書-狂熱鬥志'),
+(10562, '遺忘祕傳書-御風'),
+(10563, '遺忘祕傳書-鬼行'),
+(10564, '遺忘祕傳書-火焰之鷹'),
+(10565, '遺忘祕傳書-箭雨'),
+(10566, '遺忘祕傳書-鬼刺'),
+(10567, '遺忘祕傳書-恐懼佈滿'),
+(10568, '遺忘祕傳書-武器封鎖'),
+(10569, '遺忘祕傳書-毀滅之力'),
+(10570, '遺忘祕傳書-壞滅衝擊'),
+(10571, '遺忘祕傳書-高崙裝甲'),
+(10572, '遺忘祕傳書-火焰裝甲'),
+(10573, '遺忘祕傳書-寒霜裝甲'),
+(10574, '遺忘祕傳書-風暴裝甲'),
+(10575, '遺忘祕傳書-吸血迷霧'),
+(10576, '遺忘祕傳書-使魔屏障'),
+(10577, '遺忘祕傳書-極度忠誠'),
+(10578, '遺忘祕傳書-相互呼應'),
+(10579, '遺忘祕傳書-提升戰鬥'),
+(10580, '遺忘祕傳書-提升魔法'),
+(10581, '遺忘祕傳書-提升狀態'),
+(10582, '遺忘祕傳書-提升致命攻擊'),
+(10583, '遺忘祕傳書-提升盾防禦'),
+(10584, '遺忘祕傳書-提升行動力'),
+(10585, '遺忘祕傳書-崇高自我獻祭'),
+(10586, '遺忘祕傳書-伊娃祝福'),
+(10587, '遺忘祕傳書-吸血鬼之王'),
+(10588, '遺忘祕傳書-霸權纏繞'),
+(10589, '遺忘祕傳書-極限封印'),
+(10590, '魔法書-召喚聰慧晶體'),
+(10591, '遺忘祕傳書-鳳凰之魂'),
+(10592, '遺忘祕傳書-伊娃意志'),
+(10593, '遺忘祕傳書-席琳之痛'),
+(10594, '遺忘祕傳書-野性射擊'),
+(10595, '遺忘祕傳書-強雷震盪'),
+(10596, '戰鬥教範-靈魂淨罪'),
+(10597, '戰鬥教範-生命流動詛咒'),
+(10598, '戰鬥教範-魂之旋流'),
+(10599, '戰鬥教範-魂旋破滅'),
+(10600, '戰鬥教範-靈魂屏障'),
+(10601, '戰鬥教範-強雷屏障'),
+(10602, '戰鬥教範-魂靈強擊'),
+(10603, '戰鬥教範-背叛印記'),
+(10604, '戰鬥教範-疾襲衝擊'),
+(10605, '戰鬥教範-集體卸除武器'),
+(10607, '壺精封印手鐲-魯道夫'),
+(10608, '護身符-戰鬥頌歌'),
+(10609, '護身符-致命攻擊頌歌'),
+(10610, '護身符-血之覺醒頌歌'),
+(10611, '白座狼項鍊'),
+(10612, '認證書-副職業專家'),
+(10632, '神祕的晶體'),
+(10633, '粗糙的藍色晶體碎片'),
+(10634, '粗糙的黃色晶體碎片'),
+(10635, '粗糙的綠色晶體碎片'),
+(10636, '粗糙的紅色晶體碎片'),
+(10637, '粗糙的白色晶體碎片'),
+(10638, '粗糙的黑色晶體碎片'),
+(10639, '鼠幣'),
+(10640, '複製的葫蘆種子'),
+(10641, '複製的大葫蘆種子'),
+(10642, '細緻的藍色晶體碎片'),
+(10643, '細緻的黃色晶體碎片'),
+(10644, '細緻的綠色晶體碎片'),
+(10645, '細緻的紅色晶體碎片'),
+(10646, '細緻的白色晶體碎片'),
+(10647, '細緻的黑色晶體碎片'),
+(10649, '祝福的羽毛'),
+(10650, '冒險家專用返回卷軸'),
+(10651, '傳送師變身卷軸-活動用'),
+(10652, '傳送師之淚-活動用'),
+(10653, '警衛兵變身卷軸-活動用'),
+(10654, '警衛兵佈告文-活動用'),
+(10655, '生命力吸收藥草'),
+(10656, '致命攻擊藥草-威力'),
+(10657, '疑問藥草'),
+(10661, '寵物召喚道具-戰士用'),
+(10662, '寵物召喚道具-法師用'),
+(10663, '寵物召喚道具-混合用'),
+(10664, '寵物召喚道具-戰士寵物'),
+(10665, '寵物召喚道具-戰士寵物'),
+(10666, '活力充能藥劑'),
+(10836, '開拓者補給品(2級)'),
+(10837, '開拓者補給品(4級)'),
+(10838, '開拓者補給品(5級)'),
+(10839, '開拓者補給品(6級)'),
+(10840, '開拓者補給品(7級)'),
+(10841, '開拓者補給品(8級)'),
+(10842, '開拓者補給品(11級)'),
+(10843, '開拓者補給品(12級)'),
+(10844, '開拓者補給品(13級)'),
+(10845, '開拓者補給品(14級)'),
+(10846, '開拓者補給品(15級)'),
+(10847, '開拓者補給品(18級)'),
+(10848, '開拓者補給品(19級)'),
+(10849, '開拓者補給品(20級)'),
+(10850, '開拓者補給品(21級)'),
+(10851, '開拓者補給品(22級)'),
+(10852, '開拓者補給品(25級)'),
+(10853, '開拓者補給品(26級)'),
+(10854, '開拓者補給品(27級)'),
+(10855, '開拓者補給品(28級)'),
+(10856, '開拓者補給品(29級)'),
+(10857, '開拓者補給品(32級)'),
+(10858, '開拓者補給品(33級)'),
+(10859, '開拓者補給品(34級)'),
+(10860, '開拓者補給品(35級)'),
+(10861, '開拓者補給品(36級)'),
+(10862, '開拓者補給品(38級)'),
+(10863, '開拓者補給品(39級)'),
+(10864, '開拓者補給品(40級)'),
+(10865, '開拓者補給品(41級)'),
+(10866, '能量礦石'),
+(10867, '血染的布片'),
+(10868, '雜貨商人的解毒草'),
+(10869, '卡沙蜘蛛的腐液'),
+(12362, '武器用強化輔助石-D級'),
+(12363, '武器用強化輔助石-C級'),
+(12364, '武器用強化輔助石-B級'),
+(12365, '武器用強化輔助石-A級'),
+(12366, '武器用強化輔助石-S級'),
+(12367, '防具用強化輔助石-D級'),
+(12368, '防具用強化輔助石-C級'),
+(12369, '防具用強化輔助石-B級'),
+(12370, '防具用強化輔助石-A級'),
+(12371, '防具用強化輔助石-S級'),
+(12374, '財富的研磨強化劑'),
+(12375, '渾沌的巨劍'),
+(12376, '渾沌的巨斧'),
+(12377, '渾沌的無名之勝'),
+(12378, '渾沌的黑暗精靈長弓'),
+(12379, '渾沌的聖堂之劍'),
+(12380, '渾沌的破咒者'),
+(12381, '渾沌的阿斯拉爪'),
+(12382, '渾沌的暴風雪巨鎚'),
+(12383, '渾沌的突襲鈍劍'),
+(12384, '渾沌的精靈魔杖'),
+(12385, '渾沌的波形刃'),
+(12386, '渾沌的柯貝克劍'),
+(12387, '渾沌的和平使者'),
+(12388, '渾沌的巨大戰斧'),
+(12389, '渾沌的地獄刀'),
+(12390, '渾沌的守護神之劍'),
+(12391, '渾沌的大馬士革刀'),
+(12392, '渾沌的裂解劍'),
+(12393, '渾沌的長槍'),
+(12394, '渾沌的博利恩拳套'),
+(12395, '渾沌的邪靈魔杖'),
+(12396, '渾沌的亡者榮譽'),
+(12397, '渾沌的星爆'),
+(12398, '渾沌的工藝戰斧'),
+(12399, '渾沌的惡魔短劍'),
+(12400, '渾沌的卡倚巴奴之骨'),
+(12401, '渾沌的華麗細劍'),
+(12402, '渾沌的巫師之淚'),
+(12403, '渾沌的冒險弓'),
+(12404, '渾沌的冥犬之牙'),
+(12405, '渾沌的帕黎恩魔杖'),
+(12406, '渾沌的末日咒詛'),
+(12407, '渾沌的天雷'),
+(12408, '渾沌的流星雨'),
+(12409, '渾沌的血旋風'),
+(12410, '渾沌的血腥之蘭'),
+(12411, '渾沌的元素劍'),
+(12412, '渾沌的英魂之眼'),
+(12413, '渾沌的煉獄之主'),
+(12414, '渾沌的顱之弓'),
+(12415, '渾沌的塔魯刀'),
+(12416, '渾沌的破壞者巨鎚'),
+(12417, '渾沌的神怨'),
+(12418, '渾沌的長柄戰戟'),
+(12419, '渾沌的貪婪刺劍'),
+(12420, '渾沌的黑暗軍刀'),
+(12421, '渾沌的死神使者'),
+(12422, '渾沌的末日毀滅者'),
+(12423, '渾沌的龍牙'),
+(12424, '渾沌的斬龍刀'),
+(12425, '渾沌的火龍之首'),
+(12426, '渾沌的世界樹樹枝'),
+(12427, '渾沌的奇蹟劍'),
+(12428, '渾沌的靈魂弩'),
+(12429, '渾沌的魂體分離器'),
+(12430, '渾沌的樂園'),
+(12431, '渾沌的靈魂弓'),
+(12432, '渾沌的塔魯闊矛'),
+(12433, '渾沌的那卡風暴'),
+(12434, '渾沌的惡魔結晶'),
+(12435, '渾沌的貝拉凱爾聖斧'),
+(12436, '渾沌的復仇爆弩'),
+(12437, '渾沌的貝希莫斯巨叉'),
+(12438, '渾沌的光明守護之劍'),
+(12439, '渾沌的夏伊德獵弓'),
+(12440, '渾沌的伊波斯巨劍'),
+(12441, '渾沌的索貝克颶風'),
+(12442, '渾沌的希露冰刃'),
+(12443, '渾沌的閃光之珠'),
+(12444, '渾沌的岱依封長戟'),
+(12445, '渾沌的緹米絲之舌'),
+(12446, '渾沌的卡布里歐之手'),
+(12447, '渾沌的勝利之劍格蘭'),
+(12448, '渾沌的惡魔獵爪'),
+(12449, '渾沌的紅龍之弓'),
+(12450, '渾沌的狩龍之斧'),
+(12451, '渾沌的烈焚天'),
+(12452, '渾沌的玄武岩戰鎚'),
+(12453, '渾沌的薩倫伽神弩'),
+(12454, '渾沌的聖者之矛'),
+(12455, '渾沌的祕儀權杖'),
+(12456, '渾沌的天使殺手'),
+(12457, '渾沌的帝國權杖'),
+(12458, '渾沌的忘卻之刃'),
+(12459, '渾沌的天國審判'),
+(12460, '渾沌的王朝古代劍'),
+(12461, '渾沌的王朝小刀'),
+(12462, '渾沌的王朝細劍'),
+(12463, '渾沌的王朝釘鎚'),
+(12464, '渾沌的王朝拳套爪'),
+(12465, '渾沌的王朝弓'),
+(12466, '渾沌的王朝之刃'),
+(12467, '渾沌的王朝劍'),
+(12468, '渾沌的王朝魔杖'),
+(12469, '渾沌的王朝戰鎚'),
+(12470, '渾沌的王朝毀滅者'),
+(12471, '渾沌的王朝十字弓'),
+(12472, '渾沌的王朝幻影劍'),
+(12473, '渾沌的王朝長柄戰戟'),
+(12474, '渾沌的伊克魯斯分解者'),
+(12475, '渾沌的伊克魯斯之劍'),
+(12476, '渾沌的伊克魯斯之弩'),
+(12477, '渾沌的伊克魯斯刺劍'),
+(12478, '渾沌的伊克魯斯之靈'),
+(12479, '渾沌的伊克魯斯之弓'),
+(12480, '渾沌的伊克魯斯翼刃'),
+(12481, '渾沌的伊克魯斯三叉戟'),
+(12482, '渾沌的伊克魯斯之鎚'),
+(12483, '渾沌的伊克魯斯之手'),
+(12484, '渾沌的伊克魯斯重兵刃'),
+(12485, '渾沌的伊克魯斯手杖'),
+(12486, '渾沌的封印的夏隆長手套'),
+(12487, '渾沌的封印的夏隆靴'),
+(12488, '渾沌的封印的阿巴敦手套'),
+(12489, '渾沌的封印的阿巴敦靴'),
+(12490, '渾沌的夏隆皮脛甲'),
+(12491, '渾沌的夏隆皮衫'),
+(12492, '渾沌的夏隆脛甲'),
+(12493, '渾沌的夏隆長手套'),
+(12494, '渾沌的夏隆長手套'),
+(12495, '渾沌的夏隆長手套'),
+(12496, '渾沌的夏隆靴'),
+(12497, '渾沌的夏隆靴'),
+(12498, '渾沌的夏隆靴'),
+(12499, '渾沌的夏隆盾'),
+(12500, '渾沌的夏隆頭盔'),
+(12501, '渾沌的夏隆胸甲'),
+(12502, '渾沌的阿巴敦手套'),
+(12503, '渾沌的阿巴敦手套'),
+(12504, '渾沌的阿巴敦手套'),
+(12505, '渾沌的阿巴敦皮甲'),
+(12506, '渾沌的阿巴敦長袍'),
+(12507, '渾沌的阿巴敦靴'),
+(12508, '渾沌的阿巴敦靴'),
+(12509, '渾沌的阿巴敦靴'),
+(12510, '渾沌的阿巴敦頭箍'),
+(12511, '渾沌的阿巴敦盾'),
+(12512, '渾沌的阿巴敦脛甲'),
+(12513, '渾沌的阿巴敦胸甲'),
+(12514, '渾沌的夏隆外衣'),
+(12515, '渾沌的夏隆長襪'),
+(12516, '渾沌的末日手套'),
+(12517, '渾沌的末日手套'),
+(12518, '渾沌的末日手套'),
+(12519, '渾沌的末日靴'),
+(12520, '渾沌的末日靴'),
+(12521, '渾沌的末日靴'),
+(12522, '渾沌的末日盾'),
+(12523, '渾沌的末日金屬盔甲'),
+(12524, '渾沌的末日頭盔'),
+(12525, '渾沌的末日皮甲'),
+(12526, '渾沌的封印的末日手套'),
+(12527, '渾沌的封印的末日靴'),
+(12528, '渾沌的封印的青狼長靴'),
+(12529, '渾沌的封印的青狼手套'),
+(12530, '渾沌的末日外衣'),
+(12531, '渾沌的青狼脛甲'),
+(12532, '渾沌的青狼皮甲'),
+(12533, '渾沌的青狼長靴'),
+(12534, '渾沌的青狼長靴'),
+(12535, '渾沌的青狼長靴'),
+(12536, '渾沌的青狼手套'),
+(12537, '渾沌的青狼手套'),
+(12538, '渾沌的青狼手套'),
+(12539, '渾沌的青狼外衣'),
+(12540, '渾沌的青狼頭盔'),
+(12541, '渾沌的青狼長襪'),
+(12542, '渾沌的青狼胸甲'),
+(12543, '渾沌的末日長襪'),
+(12544, '渾沌的黑暗水晶脛甲'),
+(12545, '渾沌的黑暗水晶手套'),
+(12546, '渾沌的黑暗水晶手套'),
+(12547, '渾沌的黑暗水晶手套'),
+(12548, '渾沌的黑暗水晶皮甲'),
+(12549, '渾沌的黑暗水晶長袍'),
+(12550, '渾沌的黑暗水晶靴'),
+(12551, '渾沌的黑暗水晶靴'),
+(12552, '渾沌的黑暗水晶靴'),
+(12553, '渾沌的黑暗水晶盾'),
+(12554, '渾沌的黑暗水晶頭盔'),
+(12555, '渾沌的黑暗水晶胸甲'),
+(12556, '渾沌的黑暗水晶皮脛甲'),
+(12557, '渾沌的封印的黑暗水晶脛甲'),
+(12558, '渾沌的封印的黑暗水晶手套'),
+(12559, '渾沌的封印的黑暗水晶皮甲'),
+(12560, '渾沌的封印的黑暗水晶長袍'),
+(12561, '渾沌的封印的黑暗水晶靴'),
+(12562, '渾沌的封印的黑暗水晶盾'),
+(12563, '渾沌的封印的黑暗水晶頭盔'),
+(12564, '渾沌的封印的黑暗水晶胸甲'),
+(12565, '渾沌的封印的黑暗水晶皮脛甲'),
+(12566, '渾沌的封印的塔魯手套'),
+(12567, '渾沌的封印的塔魯皮甲'),
+(12568, '渾沌的封印的塔魯靴'),
+(12569, '渾沌的封印的塔魯外衣'),
+(12570, '渾沌的封印的塔魯金屬盔甲'),
+(12571, '渾沌的封印的塔魯帽'),
+(12572, '渾沌的封印的塔魯長襪'),
+(12573, '(不使用)渾沌的聖靈斗篷'),
+(12574, '渾沌的塔魯手套'),
+(12575, '渾沌的塔魯手套'),
+(12576, '渾沌的塔魯手套'),
+(12577, '渾沌的塔魯皮甲'),
+(12578, '渾沌的塔魯靴'),
+(12579, '渾沌的塔魯靴'),
+(12580, '渾沌的塔魯靴'),
+(12581, '渾沌的塔魯外衣'),
+(12582, '渾沌的塔魯金屬盔甲'),
+(12583, '渾沌的塔魯帽'),
+(12584, '渾沌的塔魯長襪'),
+(12585, '渾沌的聖威手套'),
+(12586, '渾沌的聖威手套'),
+(12587, '渾沌的聖威手套'),
+(12588, '渾沌的聖威皮甲'),
+(12589, '渾沌的聖威長袍'),
+(12590, '渾沌的聖威靴'),
+(12591, '渾沌的聖威靴'),
+(12592, '渾沌的聖威靴'),
+(12593, '渾沌的聖威頭箍'),
+(12594, '渾沌的聖威金屬盔甲'),
+(12595, '渾沌的封印的聖威手套'),
+(12596, '渾沌的封印的聖威皮甲'),
+(12597, '渾沌的封印的聖威長袍'),
+(12598, '渾沌的封印的聖威靴'),
+(12599, '渾沌的封印的聖威頭箍'),
+(12600, '渾沌的封印的聖威金屬盔甲'),
+(12601, '渾沌的封印的夢魘盔甲'),
+(12602, '渾沌的封印的夢魘手套'),
+(12603, '渾沌的封印的夢魘皮甲'),
+(12604, '渾沌的封印的夢魘長袍'),
+(12605, '渾沌的封印的夢魘靴'),
+(12606, '渾沌的封印的夢魘盾'),
+(12607, '渾沌的封印的夢魘頭盔'),
+(12608, '渾沌的夢魘盔甲'),
+(12609, '渾沌的夢魘手套'),
+(12610, '渾沌的夢魘手套'),
+(12611, '渾沌的夢魘手套'),
+(12612, '渾沌的夢魘皮甲'),
+(12613, '渾沌的夢魘長袍'),
+(12614, '渾沌的夢魘靴'),
+(12615, '渾沌的夢魘靴'),
+(12616, '渾沌的夢魘靴'),
+(12617, '渾沌的夢魘盾'),
+(12618, '渾沌的夢魘頭盔'),
+(12619, '渾沌的紅龍皮手套'),
+(12620, '渾沌的紅龍皮靴'),
+(12621, '渾沌的紅龍皮甲'),
+(12622, '渾沌的紅龍皮盔'),
+(12623, '渾沌的大祕儀手套'),
+(12624, '渾沌的大祕儀長袍'),
+(12625, '渾沌的大祕儀長靴'),
+(12626, '渾沌的大祕儀頭箍'),
+(12627, '渾沌的封印的紅龍皮手套'),
+(12628, '渾沌的封印的紅龍皮靴'),
+(12629, '渾沌的封印的紅龍皮甲'),
+(12630, '渾沌的封印的紅龍皮盔'),
+(12631, '渾沌的封印的大祕儀手套'),
+(12632, '渾沌的封印的大祕儀長袍'),
+(12633, '渾沌的封印的大祕儀長靴'),
+(12634, '渾沌的封印的大祕儀頭箍'),
+(12635, '渾沌的封印的帝國聖軍脛甲'),
+(12636, '渾沌的封印的帝國聖軍長手套'),
+(12637, '渾沌的封印的帝國聖軍長靴'),
+(12638, '渾沌的封印的帝國聖軍盾'),
+(12639, '渾沌的封印的帝國聖軍頭盔'),
+(12640, '渾沌的封印的帝國聖軍胸甲'),
+(12641, '渾沌的帝國聖軍脛甲'),
+(12642, '渾沌的帝國聖軍長手套'),
+(12643, '渾沌的帝國聖軍長靴'),
+(12644, '渾沌的帝國聖軍盾'),
+(12645, '渾沌的帝國聖軍頭盔'),
+(12646, '渾沌的帝國聖軍胸甲'),
+(12647, '渾沌的王朝脛甲'),
+(12648, '渾沌的王朝長手套'),
+(12649, '渾沌的王朝手套'),
+(12650, '渾沌的王朝皮手套'),
+(12651, '渾沌的王朝皮脛甲'),
+(12652, '渾沌的王朝皮甲'),
+(12653, '渾沌的王朝皮甲'),
+(12654, '渾沌的王朝皮甲'),
+(12655, '渾沌的王朝皮甲'),
+(12656, '渾沌的王朝皮甲'),
+(12657, '渾沌的王朝皮甲'),
+(12658, '渾沌的王朝皮甲'),
+(12659, '渾沌的王朝皮長靴'),
+(12660, '渾沌的王朝皮頭盔'),
+(12661, '渾沌的王朝長靴'),
+(12662, '渾沌的王朝盔甲'),
+(12663, '渾沌的王朝盔甲'),
+(12664, '渾沌的王朝盔甲'),
+(12665, '渾沌的王朝盔甲'),
+(12666, '渾沌的王朝盔甲'),
+(12667, '渾沌的王朝盾'),
+(12668, '渾沌的王朝鞋'),
+(12669, '渾沌的王朝銀絲緞外衣'),
+(12670, '渾沌的王朝銀絲緞外衣'),
+(12671, '渾沌的王朝銀絲緞外衣'),
+(12672, '渾沌的王朝銀絲緞外衣'),
+(12673, '渾沌的王朝銀絲緞外衣'),
+(12674, '渾沌的王朝頭箍'),
+(12675, '渾沌的王朝寶石皮甲'),
+(12676, '渾沌的王朝寶石皮甲'),
+(12677, '渾沌的王朝寶石皮甲'),
+(12678, '渾沌的王朝寶石皮甲'),
+(12679, '渾沌的王朝寶石皮甲'),
+(12680, '渾沌的王朝寶石皮甲'),
+(12681, '渾沌的王朝寶石皮甲'),
+(12682, '渾沌的王朝外衣'),
+(12683, '渾沌的王朝外衣'),
+(12684, '渾沌的王朝外衣'),
+(12685, '渾沌的王朝外衣'),
+(12686, '渾沌的王朝外衣'),
+(12687, '渾沌的王朝白金盔甲'),
+(12688, '渾沌的王朝白金盔甲'),
+(12689, '渾沌的王朝白金盔甲'),
+(12690, '渾沌的王朝白金盔甲'),
+(12691, '渾沌的王朝白金盔甲'),
+(12692, '渾沌的王朝頭盔'),
+(12693, '渾沌的王朝長襪'),
+(12694, '渾沌的封印的王朝脛甲'),
+(12695, '渾沌的封印的王朝長手套'),
+(12696, '渾沌的封印的王朝手套'),
+(12697, '渾沌的封印的王朝皮手套'),
+(12698, '渾沌的封印的王朝皮脛甲'),
+(12699, '渾沌的封印的王朝皮甲'),
+(12700, '渾沌的封印的王朝皮長靴'),
+(12701, '渾沌的封印的王朝皮頭盔'),
+(12702, '渾沌的封印的王朝長靴'),
+(12703, '渾沌的封印的王朝盔甲'),
+(12704, '渾沌的封印的王朝盾'),
+(12705, '渾沌的封印的王朝鞋'),
+(12706, '渾沌的封印的王朝頭箍'),
+(12707, '渾沌的封印的王朝外衣'),
+(12708, '渾沌的封印的王朝頭盔'),
+(12709, '渾沌的封印的王朝長襪'),
+(12710, '渾沌的金剛石耳環'),
+(12711, '渾沌的金剛石項鍊'),
+(12712, '渾沌的金剛石戒指'),
+(12713, '渾沌的黑光耳環'),
+(12714, '渾沌的黑光項鍊'),
+(12715, '渾沌的黑光戒指'),
+(12716, '渾沌的封印的不死鳥項鍊'),
+(12717, '渾沌的封印的不死鳥戒指'),
+(12718, '渾沌的封印的不死鳥耳環'),
+(12719, '渾沌的不死鳥項鍊'),
+(12720, '渾沌的不死鳥戒指'),
+(12721, '渾沌的不死鳥耳環'),
+(12722, '渾沌的聖威項鍊'),
+(12723, '渾沌的聖威戒指'),
+(12724, '渾沌的聖威耳環'),
+(12725, '渾沌的封印的聖威項鍊'),
+(12726, '渾沌的封印的聖威戒指'),
+(12727, '渾沌的封印的聖威耳環'),
+(12728, '渾沌的封印的泰狄奧森項鍊'),
+(12729, '渾沌的封印的泰狄奧森戒指'),
+(12730, '渾沌的封印的泰狄奧森耳環'),
+(12731, '渾沌的泰狄奧森項鍊'),
+(12732, '渾沌的泰狄奧森戒指'),
+(12733, '渾沌的泰狄奧森耳環'),
+(12734, '渾沌的王朝項鍊'),
+(12735, '渾沌的王朝戒指'),
+(12736, '渾沌的王朝耳環'),
+(12737, '渾沌的封印的王朝項鍊'),
+(12738, '渾沌的封印的王朝戒指'),
+(12739, '渾沌的封印的王朝耳環'),
+(12753, '闇天使村莊移動卷軸'),
+(12754, '飾品用生命石-46級'),
+(12755, '飾品用生命石-49級'),
+(12756, '飾品用生命石-52級'),
+(12757, '飾品用生命石-55級'),
+(12758, '飾品用生命石-58級'),
+(12759, '飾品用生命石-61級'),
+(12760, '飾品用生命石-64級'),
+(12761, '飾品用生命石-67級'),
+(12762, '飾品用生命石-70級'),
+(12763, '飾品用生命石-76級'),
+(12764, '魚箱子'),
+(12765, '種子罐'),
+(12768, '遺忘祕傳書-迴避反擊'),
+(12769, '遺忘祕傳書-迴避契機'),
+(12770, '遺忘祕傳書-迴避激發'),
+(12771, '遺忘祕傳書-影步'),
+(12772, '魔法書-審問者'),
+(12773, '戰鬥教範-重建之體'),
+(12774, '戰鬥教範-血之契約'),
+(12775, '戰鬥教範-植入末日種子'),
+(12776, '戰鬥教範-忘卻陷阱'),
+(12777, '戰鬥教範-止痛術'),
+(12778, '戰鬥教範-捕魂網'),
+(12819, '戰場恢復卷軸'),
+(12820, '設計圖-召喚高崙商人'),
+(12821, '飾品用生命石-80級'),
+(12822, '飾品用生命石-82級'),
+(12823, '卡席安的藍色水晶'),
+(12824, '開拓者補給品(1級)'),
+(12825, '開拓者補給品(3級)'),
+(12826, '開拓者補給品(9級)'),
+(12827, '開拓者補給品(10級)'),
+(12828, '開拓者補給品(16級)'),
+(12829, '開拓者補給品(17級)'),
+(12830, '開拓者補給品(23級)'),
+(12831, '開拓者補給品(24級)'),
+(12832, '開拓者補給品(30級)'),
+(12833, '開拓者補給品(31級)'),
+(12834, '開拓者補給品(37級)'),
+(12840, '飾品用生命石-46級'),
+(12841, '飾品用生命石-49級'),
+(12842, '飾品用生命石-52級'),
+(12843, '飾品用生命石-55級'),
+(12844, '飾品用生命石-58級'),
+(12845, '飾品用生命石-61級'),
+(12846, '飾品用生命石-64級'),
+(12847, '飾品用生命石-67級'),
+(12848, '飾品用生命石-70級'),
+(12849, '飾品用生命石-76級'),
+(12850, '飾品用生命石-80級'),
+(12851, '飾品用生命石-82級'),
+(13002, '欲界的精華'),
+(13003, '開拓者獎勵品-D級'),
+(13004, '開拓者獎勵品-C級'),
+(13005, '開拓者獎勵品-B級'),
+(13006, '開拓者獎勵品-A級'),
+(13007, '開拓者獎勵品-S級'),
+(13008, '魔法書-神佑之血'),
+(13010, '追加入場券-欲界(深淵之廳)'),
+(13011, '追加入場券-近緣欲界'),
+(13012, '追加入場券-欲界(深淵迷宮)'),
+(13013, '哥斯徒的箱子'),
+(13014, '貨物箱子的印記'),
+(13015, '自由傳送書'),
+(13016, '自由傳送卷軸'),
+(13017, '白鼬鼠狩獵幫手項鍊'),
+(13018, '妖精公主狩獵幫手項鍊'),
+(13019, '野獸鬥士狩獵幫手項鍊'),
+(13020, '狐狸術士狩獵幫手項鍊'),
+(13021, '彩色稱號'),
+(13027, '格蘭肯的禮盒 限時30日'),
+(13028, '活力充能藥草'),
+(13029, '活力充能變身藥草-提米提藍'),
+(13030, '活力充能變身藥草-火山岩高崙'),
+(13031, '活力充能變身藥草-雪人'),
+(13032, '菲拉卡即時盾'),
+(13033, '瞬間體力治癒藥水'),
+(13037, '菲拉卡靈魂彈-D級'),
+(13038, '水的精華'),
+(13039, '火的精華'),
+(13040, '火屬性強化劑'),
+(13041, '水屬性強化劑'),
+(13045, '菲拉卡靈魂彈-C級'),
+(13046, '菲拉卡武器升級 階段1'),
+(13047, '菲拉卡武器升級 階段2'),
+(13048, '菲拉卡解毒劑'),
+(13049, '神聖武器加持'),
+(13051, '頭飾'),
+(13055, '菲拉卡靈魂彈-A級'),
+(13056, '武器升級 階段1'),
+(13057, '武器升級 階段2'),
+(13059, '遠距離防禦能力提升藥水'),
+(13060, '洋鐵高崙變身魔杖'),
+(13063, '飛空艇操作桿'),
+(13064, '飛空艇艦炮操作桿'),
+(13065, '幸運七的寶物'),
+(13066, '幸運七的寶物'),
+(13067, '夢幻島代幣'),
+(13068, '夢幻島代幣(網咖)'),
+(13069, '長生之夢'),
+(13070, '獎品包箱子 測試'),
+(13071, '紅色搜魂石-階段16'),
+(13072, '藍色搜魂石-階段16'),
+(13073, '綠色搜魂石-階段16'),
+(13077, '渾沌的祕儀符印'),
+(13079, '自由傳送書 1張/組'),
+(13080, '自由傳送卷軸 30張/組'),
+(13081, '欲界入場券組'),
+(13082, '祝福的羽毛 3張/組'),
+(13083, '壺精-愛心 30日/組'),
+(13084, '南瓜變身魔杖 30日/組'),
+(13085, '欲界入場券 3種組'),
+(13086, '戰鬥貓帽 30日/組'),
+(13087, '皇后貓帽 30日/組'),
+(13088, '眼怪帽 30日/組'),
+(13089, '棕熊帽 30日/組'),
+(13090, '蘑菇帽 30日/組'),
+(13091, '骷髏帽 30日/組'),
+(13092, '似鳥龍帽 30日/組'),
+(13093, '國王貓帽 30日/組'),
+(13094, '銀色貓帽 30日/組'),
+(13095, 'OX 魔杖 30日/組'),
+(13096, '剪刀石頭布魔杖 30日/組'),
+(13097, '淡紫鬃馬手鐲組'),
+(13098, '彩色稱號 3張/組'),
+(13099, '封印的祕儀符印碎片'),
+(13100, '製作卷軸(封印的祕儀符印60%)'),
+(13101, '製作卷軸(封印的祕儀符印100%)'),
+(13102, '渾沌的封印的祕儀符印'),
+(13103, '自由傳送書 1張/組'),
+(13104, '自由傳送卷軸 30張/組'),
+(13105, '欲界入場券  3種組'),
+(13106, '祝福的羽毛 3張/組'),
+(13107, '愛心壺精 30日/組'),
+(13108, '南瓜變身魔杖 30日/組'),
+(13109, '欲界入場券 3種組'),
+(13110, '戰鬥貓帽 30日/組'),
+(13111, '皇后貓帽 30日/組'),
+(13112, '眼怪帽 30日/組'),
+(13113, '棕熊帽 30日/組'),
+(13114, '蘑菇帽 30日/組'),
+(13115, '骷髏帽 30日/組'),
+(13116, '似鳥龍帽 30日/組'),
+(13117, '國王貓帽 30日/組'),
+(13118, '銀色貓帽 30日/組'),
+(13119, 'O/X 魔杖 30日/組'),
+(13120, '剪刀/石頭/布魔杖 30日/組'),
+(13121, '淡紫鬃馬 7日/組'),
+(13122, '彩色稱號 3張/組'),
+(13123, '自由傳送書組'),
+(13124, '彩色稱號 1張/組'),
+(13125, '自由傳送卷軸 10張/組'),
+(13126, '維他命體驗組-活動用'),
+(13127, '促銷用組2'),
+(13128, '不死鳥之羽'),
+(13129, '菲拉卡返回卷軸'),
+(13130, '神殿的祕冊'),
+(13131, '神殿的祕冊'),
+(13132, '神殿的祕冊'),
+(13133, '神殿的祕冊'),
+(13134, '神殿的祕冊'),
+(13135, '神殿的祕冊'),
+(13136, '神殿的祕冊'),
+(13149, '菲拉卡最終鑰匙'),
+(13150, '菲拉卡萬能鑰匙'),
+(13151, '菲拉卡活力充能藥水(100%)'),
+(13152, '菲拉卡活力充能藥水(50%)'),
+(13225, '欲界(深淵之廳) 15張 箱子'),
+(13226, '近緣欲界 15張 箱子'),
+(13227, '欲界(深淵迷宮) 15張 箱子'),
+(13228, '欲界(深淵之廳) 15張/組'),
+(13229, '近緣欲界 15張/組'),
+(13230, '欲界(深淵迷宮) 15張/組'),
+(13231, '欲界(深淵之廳) 5張/組'),
+(13232, '近緣欲界 5張/組'),
+(13233, '欲界(深淵迷宮) 5張/組'),
+(13255, '格蘭肯的禮盒-7日'),
+(13256, '格蘭肯的禮盒組'),
+(13257, '格蘭肯的禮盒組-活動用'),
+(13258, '格蘭肯的祝福返回卷軸'),
+(13259, '格蘭肯的祝福復活卷軸'),
+(13261, '格蘭肯的回聲水晶-旅行之歌'),
+(13262, '格蘭肯的回聲水晶-決戰之歌'),
+(13263, '格蘭肯的回聲水晶-愛情之歌'),
+(13264, '格蘭肯的回聲水晶-孤獨之歌'),
+(13265, '格蘭肯的回聲水晶-祝典之歌'),
+(13266, '格蘭肯的回聲水晶-慶祝之歌'),
+(13267, '格蘭肯的回聲水晶-喜劇之歌'),
+(13268, '格蘭肯的煙火'),
+(13269, '格蘭肯的大煙火'),
+(13270, '開拓者獎勵品-奧歐卡輪'),
+(13271, '開拓者獎勵品-奧爾卡輪'),
+(13272, '開拓者獎勵品-奧耶卡輪'),
+(13273, '狩獵幫手交換券-5小時'),
+(13274, '狩獵幫手交換券-7日'),
+(13275, '狩獵幫手交換券 3張/組'),
+(13276, '狩獵幫手交換券 1張/組'),
+(13277, '能量星石'),
+(13278, '高級能量星石'),
+(13279, '祝福的羽毛 1張/組'),
+(13280, '愛心壺精 7日/組'),
+(13281, '南瓜變身魔杖 7日/組'),
+(13282, '戰鬥貓帽 7日/組'),
+(13283, '皇后貓帽 7日/組'),
+(13284, '眼怪帽 7日/組'),
+(13285, '棕熊帽 7日/組'),
+(13286, '蘑菇帽 7日/組'),
+(13287, '骷髏帽 7日/組'),
+(13288, '似鳥龍帽 7日/組'),
+(13289, '國王貓帽 7日/組'),
+(13290, '銀色貓帽 7日/組'),
+(13291, 'OX 魔杖 7日/組'),
+(13292, '剪刀石頭布魔杖 7日/組'),
+(13297, '追加入場券-欲界(深淵之廳)-活動用'),
+(13298, '追加入場券-近緣欲界-活動用'),
+(13299, '追加入場券-欲界(深淵迷宮)-活動用'),
+(13300, '祝福的羽毛-活動用'),
+(13301, '自由傳送書-活動用'),
+(13302, '自由傳送卷軸-活動用'),
+(13303, '白鼬鼠狩獵幫手項鍊-活動用'),
+(13304, '妖精公主狩獵幫手項鍊-活動用'),
+(13305, '野獸鬥士狩獵幫手項鍊-活動用'),
+(13306, '狐狸術士狩獵幫手項鍊-活動用'),
+(13307, '彩色稱號-活動用'),
+(13341, '自由傳送書 1張/組-活動用'),
+(13342, '自由傳送卷軸 30張/組-活動用'),
+(13343, '祝福的羽毛 3張/組-活動用'),
+(13344, '愛心壺精 30日/組-活動用'),
+(13345, '南瓜變身魔杖 30日/組-活動用'),
+(13346, '欲界入場券 3種組-活動用'),
+(13347, '戰鬥貓帽 30日/組-活動用'),
+(13348, '皇后貓帽 30日/組-活動用'),
+(13349, '眼怪帽 30日/組-活動用'),
+(13350, '棕熊帽 30日/組-活動用'),
+(13351, '蘑菇帽 30日/組-活動用'),
+(13352, '骷髏帽 30日/組-活動用'),
+(13353, '似鳥龍帽 30日/組-活動用'),
+(13354, '國王貓帽 30日/組-活動用'),
+(13355, '銀色貓帽 30日/組-活動用'),
+(13356, 'O/X 魔杖 30日/組-活動用'),
+(13357, '剪刀/石頭/布魔杖 30日/組-活動用'),
+(13358, '淡紫鬃馬 7日/組-活動用'),
+(13359, '彩色稱號 3張/組-活動用'),
+(13360, '彩色稱號 1張/組-活動用'),
+(13361, '自由傳送卷軸 10張/組-活動用'),
+(13362, '欲界(深淵之廳) 15張/組-活動用'),
+(13363, '近緣欲界15張/組-活動用'),
+(13364, '欲界(深淵迷宮) 15張/組-活動用'),
+(13365, '欲界(深淵之廳) 5張/組-活動用'),
+(13366, '近緣欲界5張/組-活動用'),
+(13367, '欲界(深淵迷宮) 5張/組-活動用'),
+(13368, '祝福的羽毛 1張/組-活動用'),
+(13369, '愛心壺精 7日/組-活動用'),
+(13370, '南瓜變身魔杖 7日/組-活動用'),
+(13371, '戰鬥貓帽 7日/組-活動用'),
+(13372, '皇后貓帽 7日/組-活動用'),
+(13373, '眼怪帽 7日/組-活動用'),
+(13374, '棕熊帽 7日/組-活動用'),
+(13375, '蘑菇帽 7日/組-活動用'),
+(13376, '骷髏帽 7日/組-活動用'),
+(13377, '似鳥龍帽 7日/組-活動用'),
+(13378, '國王貓帽 7日/組-活動用'),
+(13379, '銀色貓帽 7日/組-活動用'),
+(13380, 'OX 魔杖 7日/組-活動用'),
+(13381, '剪刀石頭布魔杖 7日/組-活動用'),
+(13382, '格蘭肯的禮盒-活動用 限時30日'),
+(13383, '狩獵幫手交換券-5小時-活動用'),
+(13384, '狩獵幫手交換券 3張/組-活動用'),
+(13385, '狩獵幫手交換券 1張/組-活動用'),
+(13386, '夢幻的藍色水晶'),
+(13387, '夢幻的綠色水晶'),
+(13388, '夢幻的紅色水晶'),
+(13395, '返回卷軸-說話之島'),
+(13396, '返回卷軸-精靈村莊'),
+(13397, '返回卷軸-黑暗精靈村莊'),
+(13398, '返回卷軸-半獸人村莊'),
+(13399, '返回卷軸-矮人村莊'),
+(13400, '返回卷軸-古魯丁村莊'),
+(13401, '返回卷軸-古魯丁城鎮'),
+(13402, '返回卷軸-狄恩城鎮'),
+(13403, '返回卷軸-芙羅蘭村莊'),
+(13404, '返回卷軸-奇岩城鎮'),
+(13405, '返回卷軸-哈汀學院'),
+(13406, '返回卷軸-水上都市海音斯'),
+(13407, '返回卷軸-歐瑞城鎮'),
+(13408, '返回卷軸-象牙塔'),
+(13409, '返回卷軸-獵人村莊'),
+(13410, '返回卷軸-亞丁城鎮'),
+(13411, '返回卷軸-高達特城鎮'),
+(13412, '返回卷軸-魯因城鎮'),
+(13413, '返回卷軸-修加特城鎮'),
+(13414, '返回卷軸-英魂之島村莊'),
+(13417, 'L2Day-文字Y'),
+(13418, 'L2Day-文字5'),
+(13419, '五週年紀念徽章'),
+(13420, '點心'),
+(13421, '蛋糕'),
+(13422, '返回卷軸2張/箱'),
+(13423, '原石2個/箱'),
+(13424, '飲料3個/箱'),
+(13425, '返回卷軸 1張/箱'),
+(13426, '原石1個/箱'),
+(13427, '飲料2個/箱'),
+(13428, '飲料1個/箱'),
+(13540, '大師余義的武器強化卷軸'),
+(13541, '余義的強化寶箱'),
+(13542, '余義的強化報酬晶體'),
+(13548, '玩偶騎士狩獵幫手項鍊'),
+(13549, '精靈術士狩獵幫手項鍊'),
+(13550, '貓頭鷹術士狩獵幫手項鍊'),
+(13551, '烏龜道士狩獵幫手項鍊'),
+(13552, '魔法書-最終飛行型態'),
+(13553, '魔法書-靈鳥獵鷹'),
+(13554, '魔法書-靈鳥貓頭鷹'),
+(13555, '合體變身卷軸'),
+(13559, '飛空艇召喚許可證'),
+(13569, '古魯丁人類傭兵變身卷軸'),
+(13570, '古魯丁精靈傭兵變身卷軸'),
+(13571, '古魯丁黑暗精靈傭兵變身卷軸'),
+(13572, '古魯丁半獸人傭兵變身卷軸'),
+(13573, '古魯丁矮人傭兵變身卷軸'),
+(13574, '古魯丁闇天使傭兵變身卷軸'),
+(13575, '古魯丁騎士傭兵變身卷軸'),
+(13576, '古魯丁弓手傭兵變身卷軸'),
+(13577, '古魯丁巫師傭兵變身卷軸'),
+(13578, '古魯丁百人隊長傭兵變身卷軸'),
+(13579, '古魯丁騎士隊長傭兵變身卷軸'),
+(13580, '古魯丁司令官傭兵變身卷軸'),
+(13581, '狄恩人類傭兵變身卷軸'),
+(13582, '狄恩精靈傭兵變身卷軸'),
+(13583, '狄恩黑暗精靈傭兵變身卷軸'),
+(13584, '狄恩半獸人傭兵變身卷軸'),
+(13585, '狄恩矮人傭兵變身卷軸'),
+(13586, '狄恩闇天使傭兵變身卷軸'),
+(13587, '狄恩騎士傭兵變身卷軸'),
+(13588, '狄恩弓手傭兵變身卷軸'),
+(13589, '狄恩巫師傭兵變身卷軸'),
+(13590, '狄恩百人隊長傭兵變身卷軸'),
+(13591, '狄恩騎士隊長傭兵變身卷軸'),
+(13592, '狄恩司令官傭兵變身卷軸'),
+(13593, '奇岩人類傭兵變身卷軸'),
+(13594, '奇岩精靈傭兵變身卷軸'),
+(13595, '奇岩黑暗精靈傭兵變身卷軸'),
+(13596, '奇岩半獸人傭兵變身卷軸'),
+(13597, '奇岩矮人傭兵變身卷軸'),
+(13598, '奇岩闇天使傭兵變身卷軸'),
+(13599, '奇岩騎士傭兵變身卷軸'),
+(13600, '奇岩弓手傭兵變身卷軸'),
+(13601, '奇岩巫師傭兵變身卷軸'),
+(13602, '奇岩百人隊長傭兵變身卷軸'),
+(13603, '奇岩騎士隊長傭兵變身卷軸'),
+(13604, '奇岩司令官傭兵變身卷軸'),
+(13605, '歐瑞人類傭兵變身卷軸'),
+(13606, '歐瑞精靈傭兵變身卷軸'),
+(13607, '歐瑞黑暗精靈傭兵變身卷軸'),
+(13608, '歐瑞半獸人傭兵變身卷軸'),
+(13609, '歐瑞矮人傭兵變身卷軸'),
+(13610, '歐瑞闇天使傭兵變身卷軸'),
+(13611, '歐瑞騎士傭兵變身卷軸'),
+(13612, '歐瑞弓手傭兵變身卷軸'),
+(13613, '歐瑞巫師傭兵變身卷軸'),
+(13614, '歐瑞百人隊長傭兵變身卷軸'),
+(13615, '歐瑞騎士隊長傭兵變身卷軸'),
+(13616, '歐瑞司令官傭兵變身卷軸'),
+(13617, '亞丁人類傭兵變身卷軸'),
+(13618, '亞丁精靈傭兵變身卷軸'),
+(13619, '亞丁黑暗精靈傭兵變身卷軸'),
+(13620, '亞丁半獸人傭兵變身卷軸'),
+(13621, '亞丁矮人傭兵變身卷軸'),
+(13622, '亞丁闇天使傭兵變身卷軸'),
+(13623, '亞丁騎士傭兵變身卷軸'),
+(13624, '亞丁弓手傭兵變身卷軸'),
+(13625, '亞丁巫師傭兵變身卷軸'),
+(13626, '亞丁百人隊長傭兵變身卷軸'),
+(13627, '亞丁騎士隊長傭兵變身卷軸'),
+(13628, '亞丁司令官傭兵變身卷軸'),
+(13629, '因納得立人類傭兵變身卷軸'),
+(13630, '因納得立精靈傭兵變身卷軸'),
+(13631, '因納得立黑暗精靈傭兵變身卷軸'),
+(13632, '因納得立半獸人傭兵變身卷軸'),
+(13633, '因納得立矮人傭兵變身卷軸'),
+(13634, '因納得立闇天使傭兵變身卷軸'),
+(13635, '因納得立騎士傭兵變身卷軸'),
+(13636, '因納得立弓手傭兵變身卷軸'),
+(13637, '因納得立巫師傭兵變身卷軸'),
+(13638, '因納得立百人隊長傭兵變身卷軸'),
+(13639, '因納得立騎士隊長傭兵變身卷軸'),
+(13640, '因納得立司令官傭兵變身卷軸'),
+(13641, '高達特人類傭兵變身卷軸'),
+(13642, '高達特精靈傭兵變身卷軸'),
+(13643, '高達特黑暗精靈傭兵變身卷軸'),
+(13644, '高達特半獸人傭兵變身卷軸'),
+(13645, '高達特矮人傭兵變身卷軸'),
+(13646, '高達特闇天使傭兵變身卷軸'),
+(13647, '高達特騎士傭兵變身卷軸'),
+(13648, '高達特弓手傭兵變身卷軸'),
+(13649, '高達特巫師傭兵變身卷軸'),
+(13650, '高達特百人隊長傭兵變身卷軸'),
+(13651, '高達特騎士隊長傭兵變身卷軸'),
+(13652, '高達特司令官傭兵變身卷軸'),
+(13653, '魯因人類傭兵變身卷軸'),
+(13654, '魯因精靈傭兵變身卷軸'),
+(13655, '魯因黑暗精靈傭兵變身卷軸'),
+(13656, '魯因半獸人傭兵變身卷軸'),
+(13657, '魯因矮人傭兵變身卷軸'),
+(13658, '魯因闇天使傭兵變身卷軸'),
+(13659, '魯因騎士傭兵變身卷軸'),
+(13660, '魯因弓手傭兵變身卷軸'),
+(13661, '魯因巫師傭兵變身卷軸'),
+(13662, '魯因百人隊長傭兵變身卷軸'),
+(13663, '魯因騎士隊長傭兵變身卷軸'),
+(13664, '魯因司令官傭兵變身卷軸'),
+(13665, '修加特人類傭兵變身卷軸'),
+(13666, '修加特精靈傭兵變身卷軸'),
+(13667, '修加特黑暗精靈傭兵變身卷軸'),
+(13668, '修加特半獸人傭兵變身卷軸'),
+(13669, '修加特矮人傭兵變身卷軸'),
+(13670, '修加特闇天使傭兵變身卷軸'),
+(13671, '修加特騎士傭兵變身卷軸'),
+(13672, '修加特弓手傭兵變身卷軸'),
+(13673, '修加特巫師傭兵變身卷軸'),
+(13674, '修加特百人隊長傭兵變身卷軸'),
+(13675, '修加特騎士隊長傭兵變身卷軸'),
+(13676, '修加特司令官傭兵變身卷軸'),
+(13677, '古魯丁偽裝卷軸'),
+(13678, '狄恩偽裝卷軸'),
+(13679, '奇岩偽裝卷軸'),
+(13680, '歐瑞偽裝卷軸'),
+(13681, '亞丁偽裝卷軸'),
+(13682, '因納得立偽裝卷軸'),
+(13683, '高達特偽裝卷軸'),
+(13684, '魯因偽裝卷軸'),
+(13685, '修加特偽裝卷軸'),
+(13686, '封印的騎士斗篷'),
+(13691, '柯塞勒斯的憑證-階段1'),
+(13692, '柯塞勒斯的憑證-階段2'),
+(13693, '格勒西亞紀念幣'),
+(13694, '格勒西亞鑰匙'),
+(13695, '古魯丁補給箱-魔法別針 B、C級'),
+(13696, '狄恩補給箱-魔法別針 B、C級'),
+(13697, '奇岩補給箱-魔法別針 B、C級'),
+(13698, '歐瑞補給箱-魔法別針 B、C級'),
+(13699, '亞丁補給箱-魔法別針 B、C級'),
+(13700, '因納得立補給箱-魔法別針 B、C級'),
+(13701, '高達特補給箱-魔法別針 B、C級'),
+(13702, '魯因補給箱-魔法別針 B、C級'),
+(13703, '修加特補給箱-魔法別針 B、C級'),
+(13704, '古魯丁補給箱-魔法小袋 B、C級'),
+(13705, '狄恩補給箱-魔法小袋 B、C級'),
+(13706, '奇岩補給箱-魔法小袋 B、C級'),
+(13707, '歐瑞補給箱-魔法小袋 B、C級'),
+(13708, '亞丁補給箱-魔法小袋 B、C級'),
+(13709, '因納得立補給箱-魔法小袋 B、C級'),
+(13710, '高達特補給箱-魔法小袋 B、C級'),
+(13711, '魯因補給箱-魔法小袋 B、C級'),
+(13712, '修加特補給箱-魔法小袋 B、C級'),
+(13713, '古魯丁補給箱-腰帶 B、C級'),
+(13714, '狄恩補給箱-腰帶 B、C級'),
+(13715, '奇岩補給箱-腰帶 B、C級'),
+(13716, '歐瑞補給箱-腰帶 B、C級'),
+(13717, '亞丁補給箱-腰帶 B、C級'),
+(13718, '因納得立補給箱-腰帶 B、C級'),
+(13719, '高達特補給箱-腰帶 B、C級'),
+(13720, '魯因補給箱-腰帶 B、C級'),
+(13721, '修加特補給箱-腰帶 B、C級'),
+(13722, '奧林匹亞標章'),
+(13723, '圖案-高級MP恢復石'),
+(13724, '圖案-高級HP MP恢復石'),
+(13725, '圖案-恢復之石'),
+(13726, '圖案-能量星石'),
+(13727, '圖案-高級能量星石'),
+(13728, '熟練書-星石萃取技術 LV1'),
+(13729, '熟練書-星石萃取技術 LV2'),
+(13730, '熟練書-星石萃取技術 LV3'),
+(13731, '古魯丁祝福的返回卷軸'),
+(13732, '狄恩祝福的返回卷軸'),
+(13733, '奇岩祝福的返回卷軸'),
+(13734, '歐瑞祝福的返回卷軸'),
+(13735, '亞丁祝福的返回卷軸'),
+(13736, '因納得立祝福的返回卷軸'),
+(13737, '高達特祝福的返回卷軸'),
+(13738, '魯因祝福的返回卷軸'),
+(13739, '修加特祝福的返回卷軸'),
+(13749, '金剛砂碎片'),
+(13750, '勇士的瞬間體力治癒藥水'),
+(13757, '古魯丁領地徽章'),
+(13758, '狄恩領地徽章'),
+(13759, '奇岩領地徽章'),
+(13760, '歐瑞領地徽章'),
+(13761, '亞丁領地徽章'),
+(13762, '因納得立領地徽章'),
+(13763, '高達特領地徽章'),
+(13764, '魯因領地徽章'),
+(13765, '修加特領地徽章'),
+(13766, '一般傭兵證書'),
+(13767, '精銳傭兵證書'),
+(13768, '最高精銳傭兵證書'),
+(13769, '人造再生腫瘤體產生器'),
+(13771, '強鹼性軟膏'),
+(13772, '醫療繃帶'),
+(13773, '保存之香'),
+(13774, '退魔之香'),
+(13775, '返生靈藥'),
+(13776, '援助的甲蟲石'),
+(13777, '寶石裝飾的戰鬥補給品'),
+(13778, '螺鈿裝飾的戰鬥補給品'),
+(13779, '黃金裝飾的戰鬥補給品'),
+(13780, '白銀裝飾的戰鬥補給品'),
+(13781, '青銅裝飾的戰鬥補給品'),
+(13782, '沒有裝飾的戰鬥補給品'),
+(13783, '不起眼的戰鬥補給品'),
+(13784, '很普通的戰鬥補給品'),
+(13785, '看似破舊的戰鬥補給品'),
+(13786, '可有可無的戰鬥補給品'),
+(13787, '強力膠'),
+(13788, '地雷'),
+(13793, '柯雷塔的晶體 名稱隱藏卷軸'),
+(13794, '變身體-翻滾方塊變身卷軸'),
+(13795, '變身體-翻滾方塊變身卷軸'),
+(13796, '解放的靈魂之核'),
+(13797, '解放的靈魂之淚'),
+(13798, '靈魂的片段'),
+(13799, '古代人的寶物袋子'),
+(13800, '青蛙變身卷軸'),
+(13801, '小孩變身卷軸'),
+(13808, '艾爾摩亞丁的聖水'),
+(13810, '大神官歐魯芬的信函'),
+(13811, '柯塞勒斯的推薦函-不滅之種'),
+(13812, '柯塞勒斯的推薦函-破滅之種'),
+(13813, '庫羅普的推薦函'),
+(13814, '雅各的項鍊'),
+(13815, '庫羅普的慰靈祭邀請信函'),
+(13816, '死者的藥草'),
+(13817, '神官凱因的調查報告書'),
+(13818, '亞太法特卿的推薦函'),
+(13819, '原住民的手套'),
+(13820, '青蛙大王的珠子'),
+(13821, '泰絲奶奶的糖果包'),
+(13822, '黎明警衛隊員身分證'),
+(13823, '史奈曼皇帝的契約書'),
+(13824, '財富的古代封印石'),
+(13825, '殷海薩聖杯'),
+(13826, '皇帝的血'),
+(13827, '艾森的推薦函'),
+(13828, '祈禱文_皇帝的鑰匙'),
+(13829, '謎樣的手抄本'),
+(13830, '突倫 卡默士的細胞組織'),
+(13831, '豺狼 亞留修的細胞組織'),
+(13832, '赤色哈圖 奧迪司的細胞組織'),
+(13833, '預言者 普勞羅素的細胞組織'),
+(13834, '刀刃 奧迪司的細胞組織'),
+(13835, '奇異 普內的細胞組織'),
+(13836, '卡倚 亞比高爾的細胞組織'),
+(13837, '騎士 孟塔那的細胞組織'),
+(13838, '畢諾姆斯 史托拉斯的細胞組織'),
+(13839, '凱爾 比拉特的細胞組織'),
+(13840, '百眼的 阿羅梭的細胞組織'),
+(13841, '龍馬團護身符'),
+(13844, '星石萃取卷軸'),
+(13846, '封印的印章'),
+(13847, '疑問的碎片'),
+(13848, '無頭騎士盔甲'),
+(13849, '曼陀羅草根'),
+(13850, '血腥之斧黑肩章'),
+(13851, '隕石球珠'),
+(13852, '調查官曼特波的文件'),
+(13853, '破碎的黑暗破片粉末'),
+(13854, '破碎的光芒破片粉末'),
+(13855, '神聖的光之破片'),
+(13856, '騎士標章'),
+(13857, '雷坤的證明書'),
+(13858, '粗劣的紅色星石萃取石'),
+(13859, '粗劣的藍色星石萃取石'),
+(13860, '粗劣的綠色星石萃取石'),
+(13861, '暴走精靈的碎片-水'),
+(13862, '暴走精靈的碎片-風'),
+(13863, '不完整的靈魂之核'),
+(13864, '蒂雅特印章'),
+(13865, '龍馬團圖騰'),
+(13866, '靈魂的片段'),
+(13867, '蒂雅特氣息'),
+(13868, '艾罕 克羅迪庫斯徽章'),
+(13869, '艾罕 克蘭尼庫斯徽章'),
+(13870, '屍妖水晶'),
+(13871, '禿鷹的金色羽毛'),
+(13872, '被吞食的頭蓋骨'),
+(13873, '被吞食的胸骨'),
+(13874, '被吞食的碎骨'),
+(13875, '亡者遺骸'),
+(13876, '班席女王的眼球'),
+(13877, '龍獸的肉'),
+(13878, '腐臭的血'),
+(13879, '龍獸的餌'),
+(13880, '變種龍獸翼的角'),
+(13893, '封印的聖靈斗篷'),
+(13898, '封印的魔法別針-C級'),
+(13899, '封印的魔法別針-B級'),
+(13900, '封印的魔法別針-A級'),
+(13901, '封印的魔法別針-S級'),
+(13902, '下級魔法別針-C級'),
+(13903, '中級魔法別針-C級'),
+(13904, '上級魔法別針-C級'),
+(13905, '特級魔法別針-C級'),
+(13906, '下級魔法別針-B級'),
+(13907, '中級魔法別針-B級'),
+(13908, '上級魔法別針-B級'),
+(13909, '特級魔法別針-B級'),
+(13910, '下級魔法別針-A級'),
+(13911, '中級魔法別針-A級'),
+(13912, '上級魔法別針-A級'),
+(13913, '特級魔法別針-A級'),
+(13914, '下級魔法別針-S級'),
+(13915, '中級魔法別針-S級'),
+(13916, '上級魔法別針-S級'),
+(13917, '特級魔法別針-S級'),
+(13918, '封印的魔法小袋-C級'),
+(13919, '封印的魔法小袋-B級'),
+(13920, '封印的魔法小袋-A級'),
+(13921, '封印的魔法小袋-S級'),
+(13922, '下級魔法小袋-C級'),
+(13923, '中級魔法小袋-C級'),
+(13924, '上級魔法小袋-C級'),
+(13925, '特級魔法小袋-C級'),
+(13926, '下級魔法小袋-B級'),
+(13927, '中級魔法小袋-B級'),
+(13928, '上級魔法小袋-B級'),
+(13929, '特級魔法小袋-B級'),
+(13930, '下級魔法小袋-A級'),
+(13931, '中級魔法小袋-A級'),
+(13932, '上級魔法小袋-A級'),
+(13933, '特級魔法小袋-A級'),
+(13934, '下級魔法小袋-S級'),
+(13935, '中級魔法小袋-S級'),
+(13936, '上級魔法小袋-S級'),
+(13937, '特級魔法小袋-S級'),
+(13970, '魔法書-星石萃取技能'),
+(13988, 'S80級武器箱子-活動用'),
+(13989, 'S80級防具箱子-活動用'),
+(13990, 'S級武器箱子-活動用'),
+(13991, 'S級防具箱子-活動用'),
+(13992, 'S級飾品箱子-活動用'),
+(13993, '圖案-火之水晶'),
+(13994, '圖案-水之水晶'),
+(13995, '圖案-風之水晶'),
+(13996, '圖案-地之水晶'),
+(13997, '圖案-暗之水晶'),
+(13998, '圖案-聖之水晶'),
+(13999, '古魯丁補給箱-頭飾'),
+(14000, '狄恩補給箱-頭飾'),
+(14001, '奇岩補給箱-頭飾'),
+(14002, '歐瑞補給箱-頭飾'),
+(14003, '亞丁補給箱-頭飾'),
+(14004, '因納得立補給箱-頭飾'),
+(14005, '高達特補給箱-頭飾'),
+(14006, '魯因補給箱-頭飾'),
+(14007, '修加特補給箱-頭飾'),
+(14008, '飾品用生命石-84級'),
+(14009, '紅色星石萃取石'),
+(14010, '藍色星石萃取石'),
+(14011, '綠色星石萃取石'),
+(14012, '中級紅色星石萃取石'),
+(14013, '中級藍色星石萃取石'),
+(14014, '中級綠色星石萃取石'),
+(14015, '火能量凝結石'),
+(14016, '水能量凝結石'),
+(14017, '風能量凝結石'),
+(14018, '地能量凝結石'),
+(14019, '黑暗能量凝結石'),
+(14020, '神聖能量凝結石'),
+(14021, '中級火能量凝結石'),
+(14022, '中級水能量凝結石'),
+(14023, '中級風能量凝結石'),
+(14024, '中級地能量凝結石'),
+(14025, '中級黑暗能量凝結石'),
+(14026, '中級神聖能量凝結石'),
+(14028, '圖案-體力石'),
+(14029, '圖案-瑪那石'),
+(14030, '圖案-恢復石'),
+(14031, '圖案-破壞石'),
+(14032, '圖案-無敵石'),
+(14033, '圖案-快速石'),
+(14034, '圖案-迅速石'),
+(14035, '圖案-集中石'),
+(14036, '圖案-悠游石'),
+(14037, '圖案-豐饒石'),
+(14038, '體力石'),
+(14039, '高級體力石'),
+(14040, '瑪那石'),
+(14041, '高級瑪那石'),
+(14042, '恢復石'),
+(14043, '高級恢復石'),
+(14044, '破壞石'),
+(14045, '無敵石'),
+(14046, '快速石'),
+(14047, '迅速石'),
+(14048, '集中石'),
+(14049, '悠游石'),
+(14050, '豐饒石'),
+(14051, '恢復之石'),
+(14052, '薄暮貴族強化石'),
+(14055, '活力充能飲料'),
+(14061, '玩偶騎士召喚項鍊'),
+(14062, '精靈術士召喚項鍊'),
+(14063, '貓頭鷹術士召喚項鍊'),
+(14064, '烏龜道士召喚項鍊'),
+(14065, '高級狩獵幫手交換券 5小時'),
+(14068, '活力充能飲料-活動用'),
+(14074, '高級狩獵幫手交換券-活動用 5小時'),
+(14078, '武器用強化輔助石-D級-活動用'),
+(14079, '武器用強化輔助石-C級-活動用'),
+(14080, '武器用強化輔助石-B級-活動用'),
+(14081, '武器用強化輔助石-A級-活動用'),
+(14082, '武器用強化輔助石-S級-活動用'),
+(14083, '防具用強化輔助石-D級-活動用'),
+(14084, '防具用強化輔助石-C級-活動用'),
+(14085, '防具用強化輔助石-B級-活動用'),
+(14086, '防具用強化輔助石-A級-活動用'),
+(14087, '防具用強化輔助石-S級-活動用'),
+(14166, '生命石-84級'),
+(14167, '中級生命石-84級'),
+(14168, '高級生命石-84級'),
+(14169, '特級生命石-84級'),
+(14170, '遺忘祕傳書-復仇種子'),
+(14171, '遺忘祕傳書-地獄狂嘯'),
+(14172, '遺忘祕傳書-鳳凰之魂'),
+(14173, '遺忘祕傳書-伊娃意志'),
+(14174, '遺忘祕傳書-席琳之痛'),
+(14175, '遺忘祕傳書-狂熱鬥志'),
+(14176, '遺忘祕傳書-御風'),
+(14177, '遺忘祕傳書-鬼行'),
+(14178, '遺忘祕傳書-火焰之鷹'),
+(14179, '遺忘祕傳書-箭雨'),
+(14180, '遺忘祕傳書-鬼刺'),
+(14181, '遺忘祕傳書-恐懼佈滿'),
+(14182, '遺忘祕傳書-毀滅之力'),
+(14183, '遺忘祕傳書-壞滅衝擊'),
+(14184, '遺忘祕傳書-高崙裝甲'),
+(14185, '遺忘祕傳書-野性射擊'),
+(14186, '遺忘祕傳書-強雷震盪'),
+(14187, '遺忘祕傳書-火焰裝甲'),
+(14188, '遺忘祕傳書-寒霜裝甲'),
+(14189, '遺忘祕傳書-風暴裝甲'),
+(14190, '遺忘祕傳書-吸血迷霧'),
+(14191, '遺忘祕傳書-隕石術'),
+(14192, '遺忘祕傳書-墜星術'),
+(14193, '遺忘祕傳書-崇高自我獻祭'),
+(14194, '遺忘祕傳書-伊娃祝福'),
+(14195, '遺忘祕傳書-吸血鬼之王'),
+(14196, '遺忘祕傳書-霸權纏繞'),
+(14197, '遺忘祕傳書-極限封印'),
+(14198, '遺忘祕傳書-純淨之歌'),
+(14199, '遺忘祕傳書-狂戰士之舞'),
+(14200, '遺忘祕傳書-召喚小鳳凰'),
+(14201, '遺忘祕傳書-最大凝神聚氣'),
+(14202, '遺忘祕傳書-最大波動凝聚'),
+(14203, '遺忘祕傳書-武器封鎖'),
+(14204, '遺忘祕傳書-貓之靈'),
+(14205, '遺忘祕傳書-獨角獸之靈'),
+(14206, '遺忘祕傳書-幻影之靈'),
+(14207, '遺忘祕傳書-禦魔術'),
+(14208, '遺忘祕傳書-最終祕密'),
+(14209, '遺忘祕傳書-隱藏'),
+(14210, '遺忘祕傳書-精通雙匕首'),
+(14211, '遺忘祕傳書-七箭'),
+(14212, '遺忘祕傳書-啟蒙-巫師'),
+(14213, '遺忘祕傳書-啟蒙-牧師'),
+(14214, '遺忘祕傳書-行動頌歌'),
+(14215, '遺忘祕傳書-帕格立歐戰鬥'),
+(14216, '遺忘祕傳書-帕格立歐致命'),
+(14217, '遺忘祕傳書-帕格立歐狀態'),
+(14218, '遺忘祕傳書-雙重打擊'),
+(14219, '遺忘祕傳書-法師的意志'),
+(14220, '遺忘祕傳書-沉默之心'),
+(14221, '遺忘祕傳書-石化退返'),
+(14222, '遺忘祕傳書-幸運之擊'),
+(14223, '遺忘祕傳書-以眼還眼'),
+(14224, '遺忘祕傳書-帕黎恩詛咒'),
+(14225, '遺忘祕傳書-反制爆擊'),
+(14226, '遺忘祕傳書-帕格立歐突擊'),
+(14227, '遺忘祕傳書-劇烈暴怒'),
+(14228, '怒氣壺精 30日/組'),
+(14229, '開心壺精 30日/組'),
+(14230, '嗚咽壺精 30日/組'),
+(14231, '黃鬃獅子騎乘手鐲 7日/組'),
+(14232, '蒸汽甲蟲騎乘手鐲 7日/組'),
+(14233, '活力充能飲料1個/組'),
+(14234, '雪人變身魔杖 30日/組'),
+(14235, '草人變身魔杖 30日/組'),
+(14236, '洋鐵高崙變身魔杖 30日/組'),
+(14237, '男生泰迪熊壺精 30日/組'),
+(14238, '女生泰迪熊壺精 30日/組'),
+(14239, '高級狩獵幫手交換券 2張/組'),
+(14240, '黃鬃獅子騎乘手鐲 7日/組-活動用'),
+(14241, '蒸汽甲蟲騎乘手鐲 7日/組-活動用'),
+(14242, '活力充能飲料1個/組-活動用'),
+(14243, '雪人變身魔杖 30日/組-活動用'),
+(14244, '草人變身魔杖 30日/組-活動用'),
+(14245, '洋鐵高崙變身魔杖 30日/組-活動用'),
+(14246, '男生泰迪熊壺精 30日/組-活動用'),
+(14247, '女生泰迪熊壺精 30日/組-活動用'),
+(14248, '高級狩獵幫手交換券 1張/組'),
+(14249, '怒氣壺精 30日/組-活動用'),
+(14250, '開心壺精 30日/組-活動用'),
+(14251, '嗚咽壺精 30日/組-活動用'),
+(14252, '武器用強化輔助石-D級/組-活動用'),
+(14253, '武器用強化輔助石-C級/組-活動用'),
+(14254, '武器用強化輔助石-B級/組-活動用'),
+(14255, '武器用強化輔助石-A級/組-活動用'),
+(14256, '武器用強化輔助石-S級/組-活動用'),
+(14257, '防具用強化輔助石-D級/組-活動用'),
+(14258, '防具用強化輔助石-C級/組-活動用'),
+(14259, '防具用強化輔助石-B級/組-活動用'),
+(14260, '防具用強化輔助石-A級/組-活動用'),
+(14261, '防具用強化輔助石-S級/組-活動用'),
+(14262, '雪人變身魔杖 7日/組'),
+(14263, '草人變身魔杖 7日/組'),
+(14264, '洋鐵高崙變身魔杖 7日/組'),
+(14265, '男生泰迪熊壺精 7日/組'),
+(14266, '女生泰迪熊壺精 7日/組'),
+(14267, '怒氣壺精 7日/組'),
+(14268, '開心壺精 7日/組'),
+(14269, '嗚咽壺精 7日/組'),
+(14270, '雪人變身魔杖 7日/組-活動用'),
+(14271, '草人變身魔杖 7日/組-活動用'),
+(14272, '洋鐵高崙變身魔杖 7日/組-活動用'),
+(14273, '男生泰迪熊壺精 7日/組-活動用'),
+(14274, '女生泰迪熊壺精 7日/組-活動用'),
+(14275, '怒氣壺精 7日/組-活動用'),
+(14276, '開心壺精 7日/組-活動用'),
+(14277, '嗚咽壺精 7日/組-活動用'),
+(14278, '武器用強化輔助石-D級/組'),
+(14279, '武器用強化輔助石-C級/組'),
+(14280, '武器用強化輔助石-B級/組'),
+(14281, '武器用強化輔助石-A級/組'),
+(14282, '武器用強化輔助石-S級/組'),
+(14283, '防具用強化輔助石-D級/組'),
+(14284, '防具用強化輔助石-C級/組'),
+(14285, '防具用強化輔助石-B級/組'),
+(14286, '防具用強化輔助石-A級/組'),
+(14287, '防具用強化輔助石-S級/組'),
+(14288, '活力充能飲料 3個/組'),
+(14289, '活力充能飲料 3個/組-活動用'),
+(14290, '高級狩獵幫手交換券 2張/組-活動用'),
+(14291, '高級狩獵幫手交換券 1張/組-活動用'),
+(14292, '瑟魯基長劍'),
+(14293, '亡者魔杖'),
+(14294, '食屍鬼魔杖'),
+(14295, '惡魔魔杖'),
+(14296, '水晶匕首'),
+(14297, '巨型帕塔拳刃'),
+(14298, '卓越弓'),
+(14299, '歐西斯戰斧'),
+(14300, '夜叉釘鎚'),
+(14301, '彎刀*彎刀'),
+(14302, '狂戰士之刃'),
+(14303, '水晶匕首'),
+(14304, '日蝕劍'),
+(14305, '月蝕斧'),
+(14306, '矮人巨鎚'),
+(14307, '上將刺劍'),
+(14308, '劍齒虎'),
+(14309, '滅形弩'),
+(14310, '大馬士革刀'),
+(14311, '長槍'),
+(14312, '亡者榮譽'),
+(14313, '工藝戰斧'),
+(14314, '邪靈魔杖'),
+(14315, '惡魔短劍'),
+(14316, '博利恩拳套'),
+(14317, '冒險弓'),
+(14318, '瑟魯基長劍*瑟魯基長劍'),
+(14319, '惡魔短劍'),
+(14320, '守護神之劍'),
+(14321, '巫師之淚'),
+(14322, '卡倚巴奴之骨'),
+(14323, '星爆'),
+(14324, '華麗細劍'),
+(14325, '裂解劍'),
+(14326, '冥犬之牙'),
+(14327, '希露冰刃'),
+(14328, '伊波斯巨劍'),
+(14329, '貝拉凱爾聖斧'),
+(14330, '貝希莫斯巨叉'),
+(14331, '那卡風暴'),
+(14332, '岱依封長戟'),
+(14333, '夏伊德獵弓'),
+(14334, '索貝克颶風'),
+(14335, '緹米絲之舌'),
+(14336, '卡布里歐之手'),
+(14337, '惡魔結晶'),
+(14338, '塔魯刀*大馬士革刀'),
+(14339, '閃光之珠'),
+(14340, '光明守護之劍'),
+(14341, '復仇爆弩'),
+(14342, '封印項鍊'),
+(14343, '娜仙耳環'),
+(14344, '封印戒指'),
+(14345, '黑光耳環'),
+(14346, '黑光戒指'),
+(14347, '黑光項鍊'),
+(14348, '聖威耳環'),
+(14349, '聖威戒指'),
+(14350, '聖威項鍊'),
+(14351, '格勒西亞紀念幣'),
+(14352, '疑問的雕像'),
+(14353, '疑問的雕像'),
+(14354, '疑問的雕像'),
+(14355, '疑問的雕像'),
+(14356, '疑問的雕像'),
+(14357, '疑問的雕像'),
+(14358, '疑問的雕像'),
+(14359, '疑問的雕像'),
+(14360, '疑問的雕像'),
+(14361, '染血的布'),
+(14362, '白布'),
+(14530, '磨坊工具組'),
+(14531, '古魯丁補給箱-魔法別針 S、A級'),
+(14532, '狄恩補給箱-魔法別針 S、A級'),
+(14533, '奇岩補給箱-魔法別針 S、A級'),
+(14534, '歐瑞補給箱-魔法別針 S、A級'),
+(14535, '亞丁補給箱-魔法別針 S、A級'),
+(14536, '因納得立補給箱-魔法別針 S、A級'),
+(14537, '高達特補給箱-魔法別針 S、A級'),
+(14538, '魯因補給箱-魔法別針 S、A級'),
+(14539, '修加特補給箱-魔法別針 S、A級'),
+(14540, '古魯丁補給箱-魔法小袋 S、A級'),
+(14541, '狄恩補給箱-魔法小袋 S、A級'),
+(14542, '奇岩補給箱-魔法小袋 S、A級'),
+(14543, '歐瑞補給箱-魔法小袋 S、A級'),
+(14544, '亞丁補給箱-魔法小袋 S、A級'),
+(14545, '因納得立補給箱-魔法小袋 S、A級'),
+(14546, '高達特補給箱-魔法小袋 S、A級'),
+(14547, '魯因補給箱-魔法小袋 S、A級'),
+(14548, '修加特補給箱-魔法小袋 S、A級'),
+(14549, '古魯丁補給箱-腰帶 S、A級'),
+(14550, '狄恩補給箱-腰帶 S、A級'),
+(14551, '奇岩補給箱-腰帶 S、A級'),
+(14552, '歐瑞補給箱-腰帶 S、A級'),
+(14553, '亞丁補給箱-腰帶 S、A級'),
+(14554, '因納得立補給箱-腰帶 S、A級'),
+(14555, '高達特補給箱-腰帶 S、A級'),
+(14556, '魯因補給箱-腰帶 S、A級'),
+(14557, '修加特補給箱-腰帶 S、A級'),
+(14559, '活動點數'),
+(14603, '封印的古代斗篷'),
+(14607, '格勒西亞憑證'),
+(14612, '聖誕紅色襪子'),
+(14614, '聖誕輔助魔法禮物組'),
+(14615, '聖誕慶典卷軸-法師型'),
+(14616, '聖誕老人的禮物'),
+(14618, '壺精封印手鐲-魯道夫'),
+(14619, '聖誕老人的武器交換券'),
+(14620, '聖誕老人的武器交換券'),
+(14635, '下級戰鬥報酬箱'),
+(14636, '中級戰鬥報酬箱'),
+(14637, '高級戰鬥報酬箱'),
+(14638, '特級戰鬥報酬箱'),
+(14639, '活動-雙刃大砍刀'),
+(14640, '活動-碎骨者'),
+(14641, '活動-阿吐巴鎚'),
+(14642, '活動-魂靈魔杖'),
+(14643, '活動-生命手杖'),
+(14644, '活動-阿吐巴釘鎚'),
+(14645, '活動-米索莉匕首'),
+(14646, '活動-波浪刀'),
+(14647, '活動-風暴弓'),
+(14648, '活動-闊矛'),
+(14649, '活動-精靈長劍'),
+(14650, '活動-瑟魯基長劍'),
+(14651, '活動-亡者魔杖'),
+(14652, '活動-食屍鬼魔杖'),
+(14653, '活動-惡魔魔杖'),
+(14654, '活動-水晶匕首'),
+(14655, '活動-巨型帕塔拳刃'),
+(14656, '活動-卓越弓'),
+(14657, '活動-歐西斯戰斧'),
+(14658, '活動-夜叉釘鎚'),
+(14659, '活動-狂戰士之刃'),
+(14660, '活動-日蝕劍'),
+(14661, '活動-月蝕斧'),
+(14662, '活動-矮人巨鎚'),
+(14663, '活動-武士刀*武士刀'),
+(14673, '魯道夫之鼻'),
+(14676, '壺精的新年禮物'),
+(14677, '壺精的新年禮物'),
+(14678, '新羅之珠-B'),
+(14679, '新羅之珠-A'),
+(14680, '新羅之珠-S'),
+(14681, '新羅之珠-S80'),
+(14682, '超強力生命靈藥-普通'),
+(14683, '超強力生命靈藥-D級'),
+(14684, '超強力生命靈藥-C級'),
+(14685, '超強力生命靈藥-B級'),
+(14686, '超強力生命靈藥-A級'),
+(14687, '超強力生命靈藥-S級'),
+(14688, '超強力精神靈藥-普通'),
+(14689, '超強力精神靈藥-D級'),
+(14690, '超強力精神靈藥-C級'),
+(14691, '超強力精神靈藥-B級'),
+(14692, '超強力精神靈藥-A級'),
+(14693, '超強力精神靈藥-S級'),
+(14694, '超強力鬥志靈藥-普通'),
+(14695, '超強力鬥志靈藥-D級'),
+(14696, '超強力鬥志靈藥-C級'),
+(14697, '超強力鬥志靈藥-B級'),
+(14698, '超強力鬥志靈藥-A級'),
+(14699, '超強力鬥志靈藥-S級'),
+(14700, '超強力體力治癒藥水'),
+(14701, '超強力瞬間體力治癒藥水'),
+(14702, '武器用強化輔助石-D級'),
+(14703, '武器用強化輔助石-C級'),
+(14704, '武器用強化輔助石-B級'),
+(14705, '武器用強化輔助石-A級'),
+(14706, '武器用強化輔助石-S級'),
+(14707, '防具用強化輔助石-D級'),
+(14708, '防具用強化輔助石-C級'),
+(14709, '防具用強化輔助石-B級'),
+(14710, '防具用強化輔助石-A級'),
+(14711, '防具用強化輔助石-S級'),
+(14713, '超強力普通靈藥禮盒組'),
+(14714, '超強力D級靈藥禮盒組'),
+(14715, '超強力C級靈藥禮盒組'),
+(14716, '超強力B級靈藥禮盒組'),
+(14717, '超強力A級靈藥禮盒組'),
+(14718, '超強力S級靈藥禮盒組'),
+(14719, '活力充能活動壓縮包'),
+(14720, '活動-豬豬幣'),
+(14721, '活動-黃金豬豬幣'),
+(14722, '活動-邱比特的恢復疲勞劑'),
+(14723, '活動-邱比特的強力恢復疲勞劑'),
+(14724, '活動-哞哞牛召喚卷軸'),
+(14725, '活動-超神牛召喚卷軸'),
+(14726, '活動-憂鬱哞哞牛召喚卷軸'),
+(14727, '活動-憂鬱超神牛召喚卷軸'),
+(14728, '活動-礦石晶體 限時30日'),
+(14729, '活動-水晶晶體'),
+(14730, '活動-金色水晶晶體碎片'),
+(14731, '活動-銀色水晶晶體碎片'),
+(14732, '活動-銅色水晶晶體碎片'),
+(14733, '活動-褐色水晶晶體碎片'),
+(14734, '活動-透明色水晶晶體碎片'),
+(14735, '活動-淡紫色水晶晶體碎片'),
+(14736, '活動-粉紅色水晶晶體碎片'),
+(14737, '活動-暗棕色水晶晶體碎片'),
+(14738, '活動-深黑色水晶晶體碎片'),
+(14739, '活動-新鮮牛奶'),
+(14740, '活動-拯救牛群活動壓縮包'),
+(14741, '活動-活力充能藥草茶 5分'),
+(14742, '活動-活力充能藥草茶 10分'),
+(14743, '活動-活力充能藥草茶 20分'),
+(14744, '活動-活力充能藥草茶 30分'),
+(14745, '活動-活力充能藥草茶 60分'),
+(14765, '活動用-追加入場券-邊緣欲界'),
+(14766, '特大白色情人節糖果籃'),
+(14767, '白色情人節糖果籃'),
+(14768, '白色情人節單身包裹'),
+(14769, '白色情人節糖果'),
+(14770, '脫離單身祈願燭'),
+(14777, '法國麵包藥草'),
+(14778, '奶油泡芙藥草'),
+(14779, '起司蛋糕藥草'),
+(20000, '辣白菜泡菜'),
+(20001, '辣白菜泡菜'),
+(20002, '辣白菜泡菜'),
+(20003, '酸甜白泡菜'),
+(20004, '活力人蔘'),
+(20005, '活力紅蔘'),
+(20025, '自由傳送卷軸'),
+(20026, '追加入場券-欲界(深淵之廳)'),
+(20027, '追加入場券-近緣欲界'),
+(20028, '追加入場券-欲界(深淵迷宮)'),
+(20033, '自由傳送旗'),
+(20034, '萬聖節糖果-活動用'),
+(20035, '媽祖壺精組'),
+(20036, '金面媽祖壺精組'),
+(20037, '黑面媽祖壺精組'),
+(20038, '媽祖壺精 30日/組 大頭'),
+(20039, '金面媽祖壺精 30日/組 復活'),
+(20040, '黑面媽祖壺精 30日/組 返回'),
+(20041, '普萊皮塔壺精組'),
+(20042, '普萊皮塔壺精 30日/組 大頭'),
+(20043, '普萊皮塔壺精 30日/組 復活'),
+(20044, '普萊皮塔壺精 30日/組 返回'),
+(20045, '粗框眼鏡組 敏捷術'),
+(20046, '爆炸頭組'),
+(20047, '爆炸頭組 大頭，煙火'),
+(20048, '爆炸頭組 風之疾走'),
+(20049, '制服帽組'),
+(20050, '刺客斗笠組'),
+(20051, '暴走族口罩組'),
+(20052, '緞帶髮飾組'),
+(20053, '白羽黃金假面組'),
+(20054, '自由傳送卷軸 1張/組'),
+(20055, '追加入場券-欲界（深淵之廳） 1張/組'),
+(20056, '追加入場券-近緣欲界 1張/組'),
+(20057, '追加入場券-欲界（深淵迷宮） 1張/組'),
+(20058, '淡紫鬃馬手鐲組'),
+(20059, '淡紫鬃馬手鐲 30日/組'),
+(20060, '戰鬥貓帽組'),
+(20061, '骷髏帽組'),
+(20062, '自由傳送旗組'),
+(20069, '寶寶貓熊壺精組'),
+(20070, '團團貓熊壺精組'),
+(20071, '圓圓貓熊壺精組'),
+(20072, '寶寶貓熊壺精 15日/組 大頭'),
+(20073, '團團貓熊壺精 15日/組 復活'),
+(20074, '圓圓貓熊壺精 15日/組 返回'),
+(20075, '聖誕老人的禮物-喜悅 限時4小時'),
+(20076, '聖誕老人的禮物-趣味 限時4小時'),
+(20077, '聖誕老人的禮物-幸運 限時4小時'),
+(20078, '聖誕老人的禮物-幸運 限時4小時'),
+(20079, '幸運福袋組'),
+(20080, '幸運四葉草組'),
+(20081, '幸運福袋'),
+(20082, '幸運四葉草'),
+(20092, '聖誕的奇蹟組'),
+(20093, '聖誕的奇蹟'),
+(20096, '神祕禮服-活動組'),
+(20097, '神祕禮服-活動'),
+(20101, '聖誕老人的禮物組'),
+(20102, '聖誕老人的禮物組'),
+(20103, '聖誕慶典卷軸-重裝戰士 限時8小時'),
+(20104, '聖誕慶典卷軸-輕裝戰士 限時8小時'),
+(20105, '聖誕慶典卷軸-牧師 限時8小時'),
+(20106, '聖誕慶典卷軸-巫師 限時8小時'),
+(20107, '聖誕老人的武器交換券 限時12小時'),
+(20108, '聖誕老人的武器交換券 限時12小時'),
+(20179, '追加入場券-近緣欲界 5張/組'),
+(20180, '追加入場券-近緣欲界 10張/組'),
+(20181, '自由傳送卷軸 5張/組'),
+(20182, '自由傳送卷軸 10張/組'),
+(20183, '自由傳送旗 5張/組'),
+(20184, '自由傳送旗 10張/組'),
+(20185, '追加入場券-欲界（深淵之廳） 5張/組'),
+(20186, '追加入場券-欲界（深淵迷宮） 5張/組'),
+(20187, '追加入場券-欲界（深淵之廳） 10張/組'),
+(20188, '追加入場券-欲界（深淵迷宮） 10張/組'),
+(20189, '情人節裝飾品組'),
+(20190, '情人節裝飾品 限時15日'),
+(20191, '情人節祕密咒語'),
+(20192, '情人節黑巧克力'),
+(20193, '情人節白巧克力'),
+(20194, '情人節鮮奶油'),
+(20195, '平淡的情人節蛋糕'),
+(20196, '普通的情人節蛋糕'),
+(20197, '美味的情人節蛋糕'),
+(20198, '完美的情人節蛋糕'),
+(20199, '夢幻的情人節蛋糕 限時30日'),
+(20210, '情人節白色特殊禮品組'),
+(20211, '情人節黑色特殊禮品組'),
+(20214, '巧克力餅乾'),
+(20215, '白色招財貓壺精組'),
+(20216, '黑色招財貓壺精組'),
+(20217, '棕色招財貓壺精組'),
+(20218, '白色招財貓壺精 7日/組 復活'),
+(20219, '黑色招財貓壺精 7日/組 返回'),
+(20220, '棕色招財貓壺精 7日/組 活力'),
+(20227, '獨眼蝙蝠群壺精組'),
+(20228, '獨眼蝙蝠群壺精 7日/組 暗之防護'),
+(20229, '獨眼蝙蝠群壺精 7日/組 活力'),
+(20233, '飛馬壺精組'),
+(20234, '飛馬壺精組 7日/組 風之疾走'),
+(20235, '飛馬壺精組 7日/組 返回'),
+(20239, '黃衣土地公組'),
+(20240, '藍衣土地公組'),
+(20241, '綠衣土地公組'),
+(20242, '黃衣土地公 7日/組 終極治癒術'),
+(20243, '藍衣土地公 7日/組 還擊'),
+(20244, '綠衣土地公 7日/組 魔力再生'),
+(20251, '食人妖壺精組'),
+(20254, '愛心壺精組-活動'),
+(20271, '法國麵包的遺產'),
+(20272, '法國麵包藥草'),
+(20273, '奶油泡芙藥草'),
+(20274, '起司蛋糕藥草'),
+(20277, '法國麵包的遺產-闇天使'),
+(20278, '爆炸頭組-金色'),
+(20279, '爆炸頭組-粉紅色'),
+(20280, '紅色相撲選手壺精組'),
+(20281, '紅色相撲選手壺精 7日/組 死之呢喃'),
+(20282, '藍色相撲選手壺精組'),
+(20283, '藍色相撲選手壺精 7日/組 野性魔力'),
+(20284, '相撲大決鬥壺精組'),
+(20285, '相撲大決鬥壺精 7日/組 大頭 / 煙火'),
+(20286, '玩偶熊壺精組'),
+(20287, '玩偶熊壺精 7日/組 返回'),
+(20288, '玩偶熊壺精 7日/組 復活'),
+(20289, '玩偶熊壺精 7日/組 活力'),
+(20290, '財神爺壺精組'),
+(20291, '財神爺壺精 7日/組 活力'),
+(20292, '樹精壺精組'),
+(20293, '元寶牛壺精組'),
+(20294, '元寶牛壺精 7日/組 風之疾走'),
+(20295, '吉利牛壺精組'),
+(20296, '吉利牛壺精 7日/組 拜年禮物'),
+(20314, '生日蛋糕組 活力'),
+(20315, '護目鏡組'),
+(20316, '拿破崙帽組'),
+(20317, '牛角髮飾組'),
+(20318, '黑寶石面具組'),
+(20319, '塑膠假髮組'),
+(20320, '生日蛋糕 活力-限時24小時'),
+(20326, '野獸靈魂彈組'),
+(20327, '野獸魔靈彈組'),
+(20328, '祝福的野獸魔靈彈組'),
+(20329, '野獸靈魂彈大型組合包'),
+(20330, '野獸魔靈彈大型組合包'),
+(20331, '祝福的野獸魔靈彈大型組合包'),
+(20332, '野獸靈魂彈'),
+(20333, '野獸魔靈彈'),
+(20334, '祝福的野獸魔靈彈'),
+(20335, '經驗值古文 30% 限時5小時'),
+(20336, '經驗值古文 50% 限時5小時'),
+(20337, '經驗值古文 30% 限時10小時'),
+(20338, '經驗值古文 50% 限時10小時'),
+(20339, '經驗值古文 30% 限時7日'),
+(20340, '經驗值古文 50% 限時7日'),
+(20341, 'SP古文 30% 限時5小時'),
+(20342, 'SP古文 50% 限時5小時'),
+(20343, 'SP古文 30% 限時10小時'),
+(20344, 'SP古文 50% 限時10小時'),
+(20345, 'SP古文 30% 限時7日'),
+(20346, 'SP古文 50% 限時7日'),
+(20347, '結晶型古文 3級 限時5小時'),
+(20348, '結晶型古文 5級 限時5小時'),
+(20349, '結晶型古文 3級 限時10小時'),
+(20350, '結晶型古文 5級 限時10小時'),
+(20351, '結晶型古文 3級 限時7日'),
+(20352, '結晶型古文 5級 限時7日'),
+(20353, '強力鬥志藥水'),
+(20354, '鬥志靈藥-D級'),
+(20355, '鬥志靈藥-C級'),
+(20356, '鬥志靈藥-B級'),
+(20357, '鬥志靈藥-A級'),
+(20358, '鬥志靈藥-S級'),
+(20359, '生命靈藥-D級'),
+(20360, '生命靈藥-C級'),
+(20361, '生命靈藥-B級'),
+(20362, '生命靈藥-A級'),
+(20363, '生命靈藥-S級'),
+(20364, '瑪瑙獸變身卷軸'),
+(20365, '死亡之刃變身卷軸'),
+(20366, '門徒聖杯變身卷軸'),
+(20367, '獨角獸變身卷軸'),
+(20368, '莉莉恩騎士變身卷軸'),
+(20369, '高崙守護者變身卷軸'),
+(20370, '煉獄龍獸變身卷軸'),
+(20371, '暴烈龍變身卷軸'),
+(20372, '返回卷軸-說話之島'),
+(20373, '返回卷軸-精靈村莊'),
+(20374, '返回卷軸-黑暗精靈村莊'),
+(20375, '返回卷軸-半獸人村莊'),
+(20376, '返回卷軸-矮人村莊'),
+(20377, '返回卷軸-古魯丁村莊'),
+(20378, '返回卷軸-古魯丁城鎮'),
+(20379, '返回卷軸-狄恩城鎮'),
+(20380, '返回卷軸-芙羅蘭村莊'),
+(20381, '返回卷軸-奇岩城鎮'),
+(20382, '返回卷軸-哈汀學院'),
+(20383, '返回卷軸-水上都市海音斯'),
+(20384, '返回卷軸-歐瑞城鎮'),
+(20385, '返回卷軸-象牙塔'),
+(20386, '返回卷軸-獵人村莊'),
+(20387, '返回卷軸-亞丁城鎮'),
+(20388, '返回卷軸-高達特城鎮'),
+(20389, '返回卷軸-魯因城鎮'),
+(20390, '返回卷軸-修加特城鎮'),
+(20391, '活力維持藥水'),
+(20392, '活力充能藥水'),
+(20393, '香甜水果雞尾酒'),
+(20394, '爽口水果雞尾酒'),
+(20395, '蒸汽甲蟲騎乘手鐲組'),
+(20397, '初學者升級組'),
+(20398, '急速成長組'),
+(20402, '勤勞者帽子 7日/組 神佑之體'),
+(20403, '勤勞者帽子 7日/組 神佑之魂'),
+(20404, '勤勞者帽子組'),
+(20450, '媽祖壺精 7日/組'),
+(20451, '金面媽祖壺精 7日/組'),
+(20452, '黑面媽祖壺精 7日/組'),
+(20453, '普萊皮塔壺精 7日/組'),
+(20454, '普萊皮塔壺精 7日/組'),
+(20455, '普萊皮塔壺精 7日/組'),
+(20456, '寶寶貓熊壺精 7日/組'),
+(20457, '團團貓熊壺精 7日/組'),
+(20458, '圓圓貓熊壺精 7日/組'),
+(20459, '粗框眼鏡 7日/組'),
+(20460, '爆炸頭 7日/組'),
+(20461, '爆炸頭 7日/組'),
+(20462, '制服帽 7日/組'),
+(20463, '刺客斗笠 7日/組'),
+(20464, '暴走族口罩 7日/組'),
+(20465, '緞帶髮飾 7日/組'),
+(20466, '白羽黃金假面 7日/組'),
+(20467, '戰鬥貓帽 7日/組'),
+(20468, '骷髏帽 7日/組'),
+(20469, '金色爆炸頭 7日/組'),
+(20470, '粉紅色爆炸頭 7日/組'),
+(20471, '護目鏡 7日/組'),
+(20472, '拿破崙帽 7日/組'),
+(20473, '牛角髮飾 7日/組'),
+(20474, '黑寶石面具 7日/組'),
+(20475, '塑膠假髮 7日/組'),
+(20476, '雛菊髮飾 7日/組'),
+(20477, '勿忘草髮飾 7日/組'),
+(20478, '無法者眼罩 7日/組'),
+(20479, '海盜眼罩 7日/組'),
+(20480, '單片眼鏡 7日/組'),
+(20481, '紅魔鬼面具 7日/組'),
+(20482, '勝利者尖角 7日/組'),
+(20483, '舞會面具 7日/組'),
+(20484, '紅色舞會面具 7日/組'),
+(20485, '貓耳 7日/組'),
+(20486, '名媛髮飾 7日/組'),
+(20487, '狸耳 7日/組'),
+(20488, '兔耳 7日/組'),
+(20489, '小天使之翼 7日/組'),
+(20490, '小妖精觸角 7日/組'),
+(20491, '吟遊詩人帽 7日/組'),
+(20492, '工匠的護目鏡 7日/組'),
+(20493, '淡紫鬃馬騎乘手鐲 7日/組'),
+(20494, '蒸汽甲蟲騎乘手鐲 7日/組'),
+(20497, '母親的花環-活動 愛的祝福-限時24小時'),
+(20498, '母親的花環 愛的祝福-限時3日'),
+(20502, '黃鬃獅子騎乘手鐲'),
+(20503, '黃鬃獅子騎乘手鐲 限時30日'),
+(20504, '蒸汽甲蟲騎乘手鐲 限時30日'),
+(20505, '果樹女神壺精組'),
+(20506, '果樹女神壺精 7日/組'),
+(20507, '母親的花環 24小時/組-活動'),
+(20508, '母親的花環 3日/組'),
+(20509, '皇后貓帽組'),
+(20510, '國王貓帽組'),
+(20511, '銀色貓帽組'),
+(20512, '黃鬃獅子騎乘手鐲組'),
+(20513, '黃鬃獅子騎乘手鐲 30日/組 限時30日'),
+(20514, '蒸汽甲蟲騎乘手鐲 30日/組 限時30日'),
+(20515, '巨型幸運箱'),
+(20516, '巨型幸運晶體'),
+(20517, '武器強化卷軸-S級'),
+(20518, '防具強化卷軸-S級'),
+(20519, '古代武器強化結晶-S級'),
+(20520, '古代防具強化結晶-S級'),
+(20521, '神聖武器強化結晶-S級'),
+(20522, '神聖防具強化結晶-S級'),
+(20523, '水之防護卷軸'),
+(20524, '風之防護卷軸'),
+(20525, '火之防護卷軸'),
+(20526, '聖之防護卷軸'),
+(20527, '暗之防護卷軸'),
+(20528, '心靈防護卷軸'),
+(20529, '弱點偵測卷軸'),
+(20530, '精神專注卷軸'),
+(20531, '祝福之盾卷軸'),
+(20532, '敏捷術卷軸'),
+(20533, '強癒術卷軸'),
+(20534, '伊娃之盾卷軸'),
+(20540, '蒸汽甲蟲騎乘手鐲 30日/組'),
+(20541, '黃鬃獅子騎乘手鐲 30日/組'),
+(20542, '爆炸頭 7日/組'),
+(20543, '粗框眼鏡 7日/組'),
+(20544, '刺客斗笠 7日/組'),
+(20545, '攻擊加速飲料'),
+(20546, '爆擊機率強化飲料'),
+(20547, '移動加速飲料'),
+(20548, '經驗值古文 30% 5小時/組'),
+(20549, '經驗值古文 50% 5小時/組'),
+(20550, '經驗值古文 30% 10小時/組'),
+(20551, '經驗值古文 50% 10小時/組'),
+(20552, '經驗值古文 30% 7日/組'),
+(20553, '經驗值古文 50% 7日/組'),
+(20554, 'SP古文 30% 5小時/組'),
+(20555, 'SP古文 50% 5小時/組'),
+(20556, 'SP古文 30% 10小時/組'),
+(20557, 'SP古文 50% 10小時/組'),
+(20558, 'SP古文 30% 7日/組'),
+(20559, 'SP古文 50% 7日/組'),
+(20560, '結晶型古文 3級 5小時/組'),
+(20561, '結晶型古文 5級 5小時/組'),
+(20562, '結晶型古文 3級 10小時/組'),
+(20563, '結晶型古文 5級 10小時/組'),
+(20564, '結晶型古文 3級 7日/組'),
+(20565, '結晶型古文 5級 7日/組'),
+(20566, '羽毛古文 24小時/組'),
+(22000, '小型幸運箱'),
+(22001, '中型幸運箱'),
+(22002, '大型幸運箱'),
+(22003, '小型幸運晶體'),
+(22004, '中型幸運晶體'),
+(22005, '大型幸運晶體'),
+(22006, '武器強化卷軸-D級'),
+(22007, '武器強化卷軸-C級'),
+(22008, '武器強化卷軸-B級'),
+(22009, '武器強化卷軸-A級'),
+(22010, '防具強化卷軸-D級'),
+(22011, '防具強化卷軸-C級'),
+(22012, '防具強化卷軸-B級'),
+(22013, '防具強化卷軸-A級'),
+(22014, '古代武器強化結晶-B級'),
+(22015, '古代武器強化結晶-A級'),
+(22016, '古代防具強化結晶-B級'),
+(22017, '古代防具強化結晶-A級'),
+(22018, '神聖武器強化結晶-B級'),
+(22019, '神聖武器強化結晶-A級'),
+(22020, '神聖防具強化結晶-B級'),
+(22021, '神聖防具強化結晶-A級'),
+(22022, '強力攻擊加速藥水'),
+(22023, '強力移動加速藥水'),
+(22024, '瞬間體力治癒藥水'),
+(22025, '終極治癒藥水'),
+(22026, '強力體力治癒藥水'),
+(22027, '鬥志靈藥-D級'),
+(22028, '鬥志靈藥-C級'),
+(22029, '鬥志靈藥-B級'),
+(22030, '鬥志靈藥-A級'),
+(22031, '鬥志靈藥-S級'),
+(22032, '生命靈藥-D級'),
+(22033, '生命靈藥-C級'),
+(22034, '生命靈藥-B級'),
+(22035, '生命靈藥-A級'),
+(22036, '生命靈藥-S級'),
+(22037, '鬥志藥水'),
+(22038, '魔力治癒藥水'),
+(22039, '風之疾走卷軸'),
+(22040, '速度激發卷軸'),
+(22041, '力量強化卷軸'),
+(22042, '保護盾卷軸'),
+(22043, '死之呢喃卷軸'),
+(22044, '導引卷軸'),
+(22045, '魔力催化卷軸'),
+(22046, '靈活思緒卷軸'),
+(22047, '吸血怒擊卷軸'),
+(22048, '神佑之體卷軸'),
+(22049, '狂戰士魂卷軸'),
+(22050, '魔法屏障卷軸'),
+(22051, '神佑之魂卷軸'),
+(22052, '澄澈思緒卷軸'),
+(22053, '野性魔力卷軸'),
+(22054, '經驗值古文 限時24小時'),
+(22055, '經驗值古文 限時168小時'),
+(22056, '經驗值古文 限時336小時'),
+(22057, '經驗值古文 限時720小時'),
+(22058, 'SP古文 限時24小時'),
+(22059, 'SP古文 限時168小時'),
+(22060, 'SP古文 限時336小時'),
+(22061, 'SP古文 限時720小時'),
+(22062, '結晶型古文 限時24小時'),
+(22063, '結晶型古文 限時168小時'),
+(22064, '結晶型古文 限時336小時'),
+(22065, '結晶型古文 限時720小時'),
+(22066, '羽毛古文 限時24小時'),
+(22067, '骨箭'),
+(22068, '鐵箭'),
+(22069, '銀箭'),
+(22070, '米索莉之箭'),
+(22071, '閃耀箭'),
+(22072, '祝福的魔靈彈-D級'),
+(22073, '祝福的魔靈彈-C級'),
+(22074, '祝福的魔靈彈-B級'),
+(22075, '祝福的魔靈彈-A級'),
+(22076, '祝福的魔靈彈-S級'),
+(22077, '魔靈彈-D級'),
+(22078, '魔靈彈-C級'),
+(22079, '魔靈彈-B級'),
+(22080, '魔靈彈-A級'),
+(22081, '魔靈彈-S級'),
+(22082, '靈魂彈-D級'),
+(22083, '靈魂彈-C級'),
+(22084, '靈魂彈-B級'),
+(22085, '靈魂彈-A級'),
+(22086, '靈魂彈-S級'),
+(22087, '戰士卷軸冊'),
+(22088, '法師卷軸冊'),
+(22089, '骨箭筒'),
+(22090, '鐵箭筒'),
+(22091, '銀箭筒'),
+(22092, '米索莉之箭筒'),
+(22093, '閃耀箭筒'),
+(22094, '祝福的魔靈彈組-D級'),
+(22095, '祝福的魔靈彈組-C級'),
+(22096, '祝福的魔靈彈組-B級'),
+(22097, '祝福的魔靈彈組-A級'),
+(22098, '祝福的魔靈彈組-S級'),
+(22099, '魔靈彈組-D級'),
+(22100, '魔靈彈組-C級'),
+(22101, '魔靈彈組-B級'),
+(22102, '魔靈彈組-A級'),
+(22103, '魔靈彈組-S級'),
+(22104, '靈魂彈組-D級'),
+(22105, '靈魂彈組-C級'),
+(22106, '靈魂彈組-B級'),
+(22107, '靈魂彈組-A級'),
+(22108, '靈魂彈組-S級'),
+(22109, '祝福的魔靈彈大型組合包-D級'),
+(22110, '祝福的魔靈彈大型組合包-C級'),
+(22111, '祝福的魔靈彈大型組合包-B級'),
+(22112, '祝福的魔靈彈大型組合包-A級'),
+(22113, '祝福的魔靈彈大型組合包-S級'),
+(22114, '魔靈彈大型組合包-D級'),
+(22115, '魔靈彈大型組合包-C級'),
+(22116, '魔靈彈大型組合包-B級'),
+(22117, '魔靈彈大型組合包-A級'),
+(22118, '魔靈彈大型組合包-S級'),
+(22119, '靈魂彈大型組合包-D級'),
+(22120, '靈魂彈大型組合包-C級'),
+(22121, '靈魂彈大型組合包-B級'),
+(22122, '靈魂彈大型組合包-A級'),
+(22123, '靈魂彈大型組合包-S級'),
+(22124, '包裝的雛菊髮飾'),
+(22125, '包裝的勿忘草髮飾'),
+(22126, '包裝的無法者眼罩'),
+(22127, '包裝的海盜眼罩'),
+(22128, '包裝的單片眼鏡'),
+(22129, '包裝的紅魔鬼面具'),
+(22130, '包裝的勝利者尖角'),
+(22131, '包裝的舞會面具'),
+(22132, '包裝的紅色舞會面具'),
+(22133, '包裝的貓耳'),
+(22134, '包裝的名媛髮飾'),
+(22135, '包裝的狸耳'),
+(22136, '包裝的兔耳'),
+(22137, '包裝的小天使之翼'),
+(22138, '包裝的小妖精觸角'),
+(22139, '包裝的吟遊詩人帽'),
+(22140, '包裝的工匠的護目鏡'),
+(22141, '包裝的寵物交換券-野牛'),
+(22142, '包裝的寵物交換券-老虎'),
+(22143, '包裝的寵物交換券-笑翠鳥'),
+(22144, '骨製弩箭'),
+(22145, '鋼鐵弩箭'),
+(22146, '銀弩箭'),
+(22147, '米索莉弩箭'),
+(22148, '閃耀弩箭'),
+(22149, '骨製弩箭筒'),
+(22150, '鋼鐵弩箭筒'),
+(22151, '銀弩箭筒'),
+(22152, '米索莉弩箭筒'),
+(22153, '閃耀弩箭筒');
+Update `etcitem`, `etcitem_name` SET `etcitem`.`name`=`etcitem_name`.`name` WHERE `etcitem`.`item_id`=`etcitem_name`.`item_id`;
+DROP TABLE IF EXISTS `etcitem_name`;

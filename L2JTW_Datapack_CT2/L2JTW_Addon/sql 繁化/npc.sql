@@ -35,6 +35,7 @@ UPDATE `npc` SET `name` = '財神爺' WHERE `id` = 1523;
 UPDATE `npc` SET `name` = '樹精壺精' WHERE `id` = 1524;
 UPDATE `npc` SET `name` = '元寶牛壺精' WHERE `id` = 1525;
 UPDATE `npc` SET `name` = '吉利牛壺精' WHERE `id` = 1526;
+UPDATE `npc` SET `name` = '果樹女神壺精' WHERE `id` = 1527;
 UPDATE `npc` SET `name` = '皇后喵喵', `title` = '情人節使者' WHERE `id` = 4301;
 UPDATE `npc` SET `name` = '狼' WHERE `id` = 12077;
 UPDATE `npc` SET `name` = '風幼龍' WHERE `id` = 12311;

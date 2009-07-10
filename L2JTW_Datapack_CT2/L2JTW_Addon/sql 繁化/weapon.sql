@@ -1,3362 +1,3369 @@
-/************ Made in Taiwan ************/
+DROP TABLE IF EXISTS `weapon_name`;
+CREATE TABLE `weapon_name` (
+  `item_id` int(10) NOT NULL default '0',
+  `name` varchar(120) NOT NULL default '',
+  PRIMARY KEY  (`item_id`)
+) DEFAULT CHARSET=utf8;
 
-/***** 貳幕-破滅國境 09-06-08 *****/
-/***** itemname-tw *****/ 
-UPDATE `weapon` SET `name` ='短劍' WHERE `item_id` = 1;
-UPDATE `weapon` SET `name` ='長劍' WHERE `item_id` = 2;
-UPDATE `weapon` SET `name` ='寬劍' WHERE `item_id` = 3;
-UPDATE `weapon` SET `name` ='木棒' WHERE `item_id` = 4;
-UPDATE `weapon` SET `name` ='釘鎚' WHERE `item_id` = 5;
-UPDATE `weapon` SET `name` ='見習生法杖' WHERE `item_id` = 6;
-UPDATE `weapon` SET `name` ='見習生之杖' WHERE `item_id` = 7;
-UPDATE `weapon` SET `name` ='柳木魔杖' WHERE `item_id` = 8;
-UPDATE `weapon` SET `name` ='柏木魔杖' WHERE `item_id` = 9;
-UPDATE `weapon` SET `name` ='匕首' WHERE `item_id` = 10;
-UPDATE `weapon` SET `name` ='骨製匕首' WHERE `item_id` = 11;
-UPDATE `weapon` SET `name` ='小刀' WHERE `item_id` = 12;
-UPDATE `weapon` SET `name` ='短弓' WHERE `item_id` = 13;
-UPDATE `weapon` SET `name` ='弓' WHERE `item_id` = 14;
-UPDATE `weapon` SET `name` ='短矛' WHERE `item_id` = 15;
-UPDATE `weapon` SET `name` ='長矛' WHERE `item_id` = 16;
-UPDATE `weapon` SET `name` ='皮盾牌' WHERE `item_id` = 18;
-UPDATE `weapon` SET `name` ='小盾牌' WHERE `item_id` = 19;
-UPDATE `weapon` SET `name` ='小圓盾' WHERE `item_id` = 20;
-UPDATE `weapon` SET `name` ='薄暮雙刀' WHERE `item_id` = 52;
-UPDATE `weapon` SET `name` ='羅馬劍' WHERE `item_id` = 66;
-UPDATE `weapon` SET `name` ='歐西斯之劍' WHERE `item_id` = 67;
-UPDATE `weapon` SET `name` ='彎刃大刀' WHERE `item_id` = 68;
-UPDATE `weapon` SET `name` ='重劍' WHERE `item_id` = 69;
-UPDATE `weapon` SET `name` ='雙刃大砍刀' WHERE `item_id` = 70;
-UPDATE `weapon` SET `name` ='焰形劍' WHERE `item_id` = 71;
-UPDATE `weapon` SET `name` ='暴風之劍' WHERE `item_id` = 72;
-UPDATE `weapon` SET `name` ='彎刀' WHERE `item_id` = 73;
-UPDATE `weapon` SET `name` ='武士刀' WHERE `item_id` = 74;
-UPDATE `weapon` SET `name` ='卡里埔士劍' WHERE `item_id` = 75;
-UPDATE `weapon` SET `name` ='迷惑之劍' WHERE `item_id` = 76;
-UPDATE `weapon` SET `name` ='大和劍' WHERE `item_id` = 77;
-UPDATE `weapon` SET `name` ='巨劍' WHERE `item_id` = 78;
-UPDATE `weapon` SET `name` ='大馬士革刀' WHERE `item_id` = 79;
-UPDATE `weapon` SET `name` ='塔魯刀' WHERE `item_id` = 80;
-UPDATE `weapon` SET `name` ='斬龍刀' WHERE `item_id` = 81;
-UPDATE `weapon` SET `name` ='神之刃' WHERE `item_id` = 82;
-UPDATE `weapon` SET `name` ='魔法之劍' WHERE `item_id` = 83;
-UPDATE `weapon` SET `name` ='何門奎思之劍' WHERE `item_id` = 84;
-UPDATE `weapon` SET `name` ='幻影劍' WHERE `item_id` = 85;
-UPDATE `weapon` SET `name` ='鷹之斧' WHERE `item_id` = 86;
-UPDATE `weapon` SET `name` ='鋼鎚' WHERE `item_id` = 87;
-UPDATE `weapon` SET `name` ='流星鎚' WHERE `item_id` = 88;
-UPDATE `weapon` SET `name` ='重鎚' WHERE `item_id` = 89;
-UPDATE `weapon` SET `name` ='山羊頭之杖' WHERE `item_id` = 90;
-UPDATE `weapon` SET `name` ='巨大戰斧' WHERE `item_id` = 91;
-UPDATE `weapon` SET `name` ='精靈魔杖' WHERE `item_id` = 92;
-UPDATE `weapon` SET `name` ='翼之矛' WHERE `item_id` = 93;
-UPDATE `weapon` SET `name` ='貝卡合金' WHERE `item_id` = 94;
-UPDATE `weapon` SET `name` ='長柄戰斧' WHERE `item_id` = 95;
-UPDATE `weapon` SET `name` ='大鐮刀' WHERE `item_id` = 96;
-UPDATE `weapon` SET `name` ='長槍' WHERE `item_id` = 97;
-UPDATE `weapon` SET `name` ='長柄戰戟' WHERE `item_id` = 98;
-UPDATE `weapon` SET `name` ='見習生魔法書' WHERE `item_id` = 99;
-UPDATE `weapon` SET `name` ='巫毒人偶' WHERE `item_id` = 100;
-UPDATE `weapon` SET `name` ='智慧卷軸' WHERE `item_id` = 101;
-UPDATE `weapon` SET `name` ='圓盾' WHERE `item_id` = 102;
-UPDATE `weapon` SET `name` ='塔盾' WHERE `item_id` = 103;
-UPDATE `weapon` SET `name` ='勝利盾' WHERE `item_id` = 104;
-UPDATE `weapon` SET `name` ='毀滅盾' WHERE `item_id` = 105;
-UPDATE `weapon` SET `name` ='闇龍盾' WHERE `item_id` = 106;
-UPDATE `weapon` SET `name` ='合金盾' WHERE `item_id` = 107;
-UPDATE `weapon` SET `name` ='優質盾' WHERE `item_id` = 108;
-UPDATE `weapon` SET `name` ='日蝕盾' WHERE `item_id` = 109;
-UPDATE `weapon` SET `name` ='末日盾' WHERE `item_id` = 110;
-UPDATE `weapon` SET `name` ='盟約盾' WHERE `item_id` = 111;
-UPDATE `weapon` SET `name` ='反射劍' WHERE `item_id` = 120;
-UPDATE `weapon` SET `name` ='水影劍' WHERE `item_id` = 121;
-UPDATE `weapon` SET `name` ='精鍛劍' WHERE `item_id` = 122;
-UPDATE `weapon` SET `name` ='軍刀' WHERE `item_id` = 123;
-UPDATE `weapon` SET `name` ='雙手劍' WHERE `item_id` = 124;
-UPDATE `weapon` SET `name` ='椎骨之劍' WHERE `item_id` = 125;
-UPDATE `weapon` SET `name` ='工匠之劍' WHERE `item_id` = 126;
-UPDATE `weapon` SET `name` ='緋紅劍' WHERE `item_id` = 127;
-UPDATE `weapon` SET `name` ='騎士劍' WHERE `item_id` = 128;
-UPDATE `weapon` SET `name` ='革命劍' WHERE `item_id` = 129;
-UPDATE `weapon` SET `name` ='精靈劍' WHERE `item_id` = 130;
-UPDATE `weapon` SET `name` ='靈魂之劍' WHERE `item_id` = 131;
-UPDATE `weapon` SET `name` ='極限之劍' WHERE `item_id` = 132;
-UPDATE `weapon` SET `name` ='襲擊劍' WHERE `item_id` = 133;
-UPDATE `weapon` SET `name` ='夢魘劍' WHERE `item_id` = 134;
-UPDATE `weapon` SET `name` ='瑟魯基長劍' WHERE `item_id` = 135;
-UPDATE `weapon` SET `name` ='柯貝克劍' WHERE `item_id` = 142;
-UPDATE `weapon` SET `name` ='神祕劍' WHERE `item_id` = 143;
-UPDATE `weapon` SET `name` ='密術劍' WHERE `item_id` = 144;
-UPDATE `weapon` SET `name` ='死息之劍' WHERE `item_id` = 145;
-UPDATE `weapon` SET `name` ='食屍鬼之劍' WHERE `item_id` = 146;
-UPDATE `weapon` SET `name` ='黑暗之淚' WHERE `item_id` = 147;
-UPDATE `weapon` SET `name` ='聖堂之劍' WHERE `item_id` = 148;
-UPDATE `weapon` SET `name` ='生命之劍' WHERE `item_id` = 149;
-UPDATE `weapon` SET `name` ='元素劍' WHERE `item_id` = 150;
-UPDATE `weapon` SET `name` ='奇蹟劍' WHERE `item_id` = 151;
-UPDATE `weapon` SET `name` ='重鑿刀' WHERE `item_id` = 152;
-UPDATE `weapon` SET `name` ='鐮刀' WHERE `item_id` = 153;
-UPDATE `weapon` SET `name` ='矮人釘鎚' WHERE `item_id` = 154;
-UPDATE `weapon` SET `name` ='魔鎚' WHERE `item_id` = 155;
-UPDATE `weapon` SET `name` ='手斧' WHERE `item_id` = 156;
-UPDATE `weapon` SET `name` ='狼牙棒' WHERE `item_id` = 157;
-UPDATE `weapon` SET `name` ='塔巴曲刃斧' WHERE `item_id` = 158;
-UPDATE `weapon` SET `name` ='碎骨者' WHERE `item_id` = 159;
-UPDATE `weapon` SET `name` ='戰斧' WHERE `item_id` = 160;
-UPDATE `weapon` SET `name` ='戰錐' WHERE `item_id` = 161;
-UPDATE `weapon` SET `name` ='巨戰斧' WHERE `item_id` = 162;
-UPDATE `weapon` SET `name` ='樂園' WHERE `item_id` = 164;
-UPDATE `weapon` SET `name` ='海魯門之鎚' WHERE `item_id` = 165;
-UPDATE `weapon` SET `name` ='巨大釘鎚' WHERE `item_id` = 166;
-UPDATE `weapon` SET `name` ='解剖刀' WHERE `item_id` = 167;
-UPDATE `weapon` SET `name` ='工作鎚' WHERE `item_id` = 168;
-UPDATE `weapon` SET `name` ='頭顱破壞者' WHERE `item_id` = 169;
-UPDATE `weapon` SET `name` ='亡者榮譽' WHERE `item_id` = 171;
-UPDATE `weapon` SET `name` ='巨大骨棒' WHERE `item_id` = 172;
-UPDATE `weapon` SET `name` ='顱骨雕刻者' WHERE `item_id` = 173;
-UPDATE `weapon` SET `name` ='夢想斧' WHERE `item_id` = 174;
-UPDATE `weapon` SET `name` ='工藝戰斧' WHERE `item_id` = 175;
-UPDATE `weapon` SET `name` ='見習生魔杖' WHERE `item_id` = 176;
-UPDATE `weapon` SET `name` ='法師魔杖' WHERE `item_id` = 177;
-UPDATE `weapon` SET `name` ='骨頭魔杖' WHERE `item_id` = 178;
-UPDATE `weapon` SET `name` ='祈禱者之鎚' WHERE `item_id` = 179;
-UPDATE `weapon` SET `name` ='審判之鎚' WHERE `item_id` = 180;
-UPDATE `weapon` SET `name` ='奇蹟之鎚' WHERE `item_id` = 181;
-UPDATE `weapon` SET `name` ='末日之鎚' WHERE `item_id` = 182;
-UPDATE `weapon` SET `name` ='神祕魔杖' WHERE `item_id` = 183;
-UPDATE `weapon` SET `name` ='法咒魔杖' WHERE `item_id` = 184;
-UPDATE `weapon` SET `name` ='瑪那魔杖' WHERE `item_id` = 185;
-UPDATE `weapon` SET `name` ='巫術魔杖' WHERE `item_id` = 186;
-UPDATE `weapon` SET `name` ='阿吐巴鎚' WHERE `item_id` = 187;
-UPDATE `weapon` SET `name` ='魂靈魔杖' WHERE `item_id` = 188;
-UPDATE `weapon` SET `name` ='生命手杖' WHERE `item_id` = 189;
-UPDATE `weapon` SET `name` ='阿吐巴釘鎚' WHERE `item_id` = 190;
-UPDATE `weapon` SET `name` ='巨大末日鎚' WHERE `item_id` = 191;
-UPDATE `weapon` SET `name` ='水晶魔杖' WHERE `item_id` = 192;
-UPDATE `weapon` SET `name` ='信仰手杖' WHERE `item_id` = 193;
-UPDATE `weapon` SET `name` ='巨大末日斧' WHERE `item_id` = 194;
-UPDATE `weapon` SET `name` ='受詛咒的魔杖' WHERE `item_id` = 195;
-UPDATE `weapon` SET `name` ='永恆手杖' WHERE `item_id` = 196;
-UPDATE `weapon` SET `name` ='佩勒迪亞魔杖' WHERE `item_id` = 197;
-UPDATE `weapon` SET `name` ='地獄魔杖' WHERE `item_id` = 198;
-UPDATE `weapon` SET `name` ='帕格立歐之鎚' WHERE `item_id` = 199;
-UPDATE `weapon` SET `name` ='賢者魔杖' WHERE `item_id` = 200;
-UPDATE `weapon` SET `name` ='自然之棍' WHERE `item_id` = 201;
-UPDATE `weapon` SET `name` ='煉獄之鎚' WHERE `item_id` = 202;
-UPDATE `weapon` SET `name` ='帕格立歐之斧' WHERE `item_id` = 203;
-UPDATE `weapon` SET `name` ='亡者魔杖' WHERE `item_id` = 204;
-UPDATE `weapon` SET `name` ='食屍鬼魔杖' WHERE `item_id` = 205;
-UPDATE `weapon` SET `name` ='惡魔魔杖' WHERE `item_id` = 206;
-UPDATE `weapon` SET `name` ='幻影魔杖' WHERE `item_id` = 207;
-UPDATE `weapon` SET `name` ='封印魔杖' WHERE `item_id` = 208;
-UPDATE `weapon` SET `name` ='神聖魔杖' WHERE `item_id` = 209;
-UPDATE `weapon` SET `name` ='邪靈魔杖' WHERE `item_id` = 210;
-UPDATE `weapon` SET `name` ='高貴魔杖' WHERE `item_id` = 211;
-UPDATE `weapon` SET `name` ='帕黎恩魔杖' WHERE `item_id` = 212;
-UPDATE `weapon` SET `name` ='世界樹樹枝' WHERE `item_id` = 213;
-UPDATE `weapon` SET `name` ='真魔杖' WHERE `item_id` = 214;
-UPDATE `weapon` SET `name` ='末日匕首' WHERE `item_id` = 215;
-UPDATE `weapon` SET `name` ='短刀' WHERE `item_id` = 216;
-UPDATE `weapon` SET `name` ='閃耀刀' WHERE `item_id` = 217;
-UPDATE `weapon` SET `name` ='投擲刀' WHERE `item_id` = 218;
-UPDATE `weapon` SET `name` ='碎劍者' WHERE `item_id` = 219;
-UPDATE `weapon` SET `name` ='手工匕首' WHERE `item_id` = 220;
-UPDATE `weapon` SET `name` ='刺客刀' WHERE `item_id` = 221;
-UPDATE `weapon` SET `name` ='短匕首' WHERE `item_id` = 222;
-UPDATE `weapon` SET `name` ='反曲刀' WHERE `item_id` = 223;
-UPDATE `weapon` SET `name` ='突刺刀' WHERE `item_id` = 224;
-UPDATE `weapon` SET `name` ='米索莉匕首' WHERE `item_id` = 225;
-UPDATE `weapon` SET `name` ='受詛咒的匕首' WHERE `item_id` = 226;
-UPDATE `weapon` SET `name` ='袖珍刀' WHERE `item_id` = 227;
-UPDATE `weapon` SET `name` ='水晶匕首' WHERE `item_id` = 228;
-UPDATE `weapon` SET `name` ='波形刃' WHERE `item_id` = 229;
-UPDATE `weapon` SET `name` ='狼之針' WHERE `item_id` = 230;
-UPDATE `weapon` SET `name` ='優雅匕首' WHERE `item_id` = 231;
-UPDATE `weapon` SET `name` ='黑暗精靈匕首' WHERE `item_id` = 232;
-UPDATE `weapon` SET `name` ='黑暗狂嘯者' WHERE `item_id` = 233;
-UPDATE `weapon` SET `name` ='惡魔短劍' WHERE `item_id` = 234;
-UPDATE `weapon` SET `name` ='血腥之蘭' WHERE `item_id` = 235;
-UPDATE `weapon` SET `name` ='魂體分離器' WHERE `item_id` = 236;
-UPDATE `weapon` SET `name` ='龍刀' WHERE `item_id` = 237;
-UPDATE `weapon` SET `name` ='瑪那匕首' WHERE `item_id` = 238;
-UPDATE `weapon` SET `name` ='神祕刀' WHERE `item_id` = 239;
-UPDATE `weapon` SET `name` ='法咒刀' WHERE `item_id` = 240;
-UPDATE `weapon` SET `name` ='森林神之刀' WHERE `item_id` = 241;
-UPDATE `weapon` SET `name` ='魔炎匕首' WHERE `item_id` = 242;
-UPDATE `weapon` SET `name` ='地獄刀' WHERE `item_id` = 243;
-UPDATE `weapon` SET `name` ='精靈戰士之拳' WHERE `item_id` = 244;
-UPDATE `weapon` SET `name` ='黑暗精靈戰士之拳' WHERE `item_id` = 245;
-UPDATE `weapon` SET `name` ='人類戰士之拳' WHERE `item_id` = 246;
-UPDATE `weapon` SET `name` ='矮人戰士之拳' WHERE `item_id` = 247;
-UPDATE `weapon` SET `name` ='半獸人戰士之拳' WHERE `item_id` = 248;
-UPDATE `weapon` SET `name` ='精靈魔法師之拳' WHERE `item_id` = 249;
-UPDATE `weapon` SET `name` ='黑暗精靈法師之拳' WHERE `item_id` = 250;
-UPDATE `weapon` SET `name` ='人類魔法師之拳' WHERE `item_id` = 251;
-UPDATE `weapon` SET `name` ='半獸人巫醫之拳' WHERE `item_id` = 252;
-UPDATE `weapon` SET `name` ='銀釘手套' WHERE `item_id` = 253;
-UPDATE `weapon` SET `name` ='鋼鐵手套' WHERE `item_id` = 254;
-UPDATE `weapon` SET `name` ='狐狸之爪' WHERE `item_id` = 255;
-UPDATE `weapon` SET `name` ='搏擊手套' WHERE `item_id` = 256;
-UPDATE `weapon` SET `name` ='毒蛇之牙' WHERE `item_id` = 257;
-UPDATE `weapon` SET `name` ='拳套爪' WHERE `item_id` = 258;
-UPDATE `weapon` SET `name` ='單刃刀' WHERE `item_id` = 259;
-UPDATE `weapon` SET `name` ='三刃刀' WHERE `item_id` = 260;
-UPDATE `weapon` SET `name` ='拳套刀' WHERE `item_id` = 261;
-UPDATE `weapon` SET `name` ='波浪刀' WHERE `item_id` = 262;
-UPDATE `weapon` SET `name` ='圓月輪' WHERE `item_id` = 263;
-UPDATE `weapon` SET `name` ='帕塔拳刃' WHERE `item_id` = 264;
-UPDATE `weapon` SET `name` ='拳刃' WHERE `item_id` = 265;
-UPDATE `weapon` SET `name` ='巨型帕塔拳刃' WHERE `item_id` = 266;
-UPDATE `weapon` SET `name` ='阿斯拉爪' WHERE `item_id` = 267;
-UPDATE `weapon` SET `name` ='博利恩拳套' WHERE `item_id` = 268;
-UPDATE `weapon` SET `name` ='血旋風' WHERE `item_id` = 269;
-UPDATE `weapon` SET `name` ='龍牙' WHERE `item_id` = 270;
-UPDATE `weapon` SET `name` ='獵人之弓' WHERE `item_id` = 271;
-UPDATE `weapon` SET `name` ='森林弓' WHERE `item_id` = 272;
-UPDATE `weapon` SET `name` ='合金弓' WHERE `item_id` = 273;
-UPDATE `weapon` SET `name` ='強化弓' WHERE `item_id` = 274;
-UPDATE `weapon` SET `name` ='長弓' WHERE `item_id` = 275;
-UPDATE `weapon` SET `name` ='精靈弓' WHERE `item_id` = 276;
-UPDATE `weapon` SET `name` ='黑暗精靈弓' WHERE `item_id` = 277;
-UPDATE `weapon` SET `name` ='腰弩' WHERE `item_id` = 278;
-UPDATE `weapon` SET `name` ='強化長弓' WHERE `item_id` = 279;
-UPDATE `weapon` SET `name` ='風暴弓' WHERE `item_id` = 280;
-UPDATE `weapon` SET `name` ='冰晶弓' WHERE `item_id` = 281;
-UPDATE `weapon` SET `name` ='元素弓' WHERE `item_id` = 282;
-UPDATE `weapon` SET `name` ='阿卡特長弓' WHERE `item_id` = 283;
-UPDATE `weapon` SET `name` ='黑暗精靈長弓' WHERE `item_id` = 284;
-UPDATE `weapon` SET `name` ='高級精靈弓' WHERE `item_id` = 285;
-UPDATE `weapon` SET `name` ='卓越弓' WHERE `item_id` = 286;
-UPDATE `weapon` SET `name` ='冒險弓' WHERE `item_id` = 287;
-UPDATE `weapon` SET `name` ='顱之弓' WHERE `item_id` = 288;
-UPDATE `weapon` SET `name` ='靈魂弓' WHERE `item_id` = 289;
-UPDATE `weapon` SET `name` ='真 弓' WHERE `item_id` = 290;
-UPDATE `weapon` SET `name` ='三叉戟' WHERE `item_id` = 291;
-UPDATE `weapon` SET `name` ='矛' WHERE `item_id` = 292;
-UPDATE `weapon` SET `name` ='戰鎚' WHERE `item_id` = 293;
-UPDATE `weapon` SET `name` ='火鎚' WHERE `item_id` = 294;
-UPDATE `weapon` SET `name` ='矮人三叉戟' WHERE `item_id` = 295;
-UPDATE `weapon` SET `name` ='矮人之矛' WHERE `item_id` = 296;
-UPDATE `weapon` SET `name` ='闊矛' WHERE `item_id` = 297;
-UPDATE `weapon` SET `name` ='歐西斯闊矛' WHERE `item_id` = 298;
-UPDATE `weapon` SET `name` ='歐西斯戰斧' WHERE `item_id` = 299;
-UPDATE `weapon` SET `name` ='巨斧' WHERE `item_id` = 300;
-UPDATE `weapon` SET `name` ='蠍子' WHERE `item_id` = 301;
-UPDATE `weapon` SET `name` ='殺戮者' WHERE `item_id` = 302;
-UPDATE `weapon` SET `name` ='黑寡婦' WHERE `item_id` = 303;
-UPDATE `weapon` SET `name` ='歐西斯戰戟' WHERE `item_id` = 304;
-UPDATE `weapon` SET `name` ='塔魯闊矛' WHERE `item_id` = 305;
-UPDATE `weapon` SET `name` ='龍斧' WHERE `item_id` = 306;
-UPDATE `weapon` SET `name` ='奧拉齊莉長槍' WHERE `item_id` = 307;
-UPDATE `weapon` SET `name` ='水牛角' WHERE `item_id` = 308;
-UPDATE `weapon` SET `name` ='伊娃之淚' WHERE `item_id` = 309;
-UPDATE `weapon` SET `name` ='聖者遺骨' WHERE `item_id` = 310;
-UPDATE `weapon` SET `name` ='祝福的十字架' WHERE `item_id` = 311;
-UPDATE `weapon` SET `name` ='生命樹枝' WHERE `item_id` = 312;
-UPDATE `weapon` SET `name` ='深淵誘惑' WHERE `item_id` = 313;
-UPDATE `weapon` SET `name` ='復仇的證據' WHERE `item_id` = 314;
-UPDATE `weapon` SET `name` ='神聖的卷冊' WHERE `item_id` = 315;
-UPDATE `weapon` SET `name` ='聖者之血' WHERE `item_id` = 316;
-UPDATE `weapon` SET `name` ='染血卷冊' WHERE `item_id` = 317;
-UPDATE `weapon` SET `name` ='染血十字架' WHERE `item_id` = 318;
-UPDATE `weapon` SET `name` ='無界之眼' WHERE `item_id` = 319;
-UPDATE `weapon` SET `name` ='藍色水晶骷髏' WHERE `item_id` = 320;
-UPDATE `weapon` SET `name` ='惡魔尖牙' WHERE `item_id` = 321;
-UPDATE `weapon` SET `name` ='金剛杵' WHERE `item_id` = 322;
-UPDATE `weapon` SET `name` ='古代藥水' WHERE `item_id` = 323;
-UPDATE `weapon` SET `name` ='精靈之淚' WHERE `item_id` = 324;
-UPDATE `weapon` SET `name` ='榮譽號角' WHERE `item_id` = 325;
-UPDATE `weapon` SET `name` ='異教徒之書' WHERE `item_id` = 326;
-UPDATE `weapon` SET `name` ='詛咒人偶' WHERE `item_id` = 327;
-UPDATE `weapon` SET `name` ='智慧蠟燭' WHERE `item_id` = 328;
-UPDATE `weapon` SET `name` ='受祝福的樹枝' WHERE `item_id` = 329;
-UPDATE `weapon` SET `name` ='不死鳥羽毛' WHERE `item_id` = 330;
-UPDATE `weapon` SET `name` ='地獄犬之眼' WHERE `item_id` = 331;
-UPDATE `weapon` SET `name` ='毀滅卷軸' WHERE `item_id` = 332;
-UPDATE `weapon` SET `name` ='黑龍爪' WHERE `item_id` = 333;
-UPDATE `weapon` SET `name` ='三眼烏鴉的羽毛' WHERE `item_id` = 334;
-UPDATE `weapon` SET `name` ='靈魂水晶' WHERE `item_id` = 335;
-UPDATE `weapon` SET `name` ='瑪那卷軸' WHERE `item_id` = 336;
-UPDATE `weapon` SET `name` ='殘殺卷軸' WHERE `item_id` = 337;
-UPDATE `weapon` SET `name` ='亞龍的頭骨' WHERE `item_id` = 338;
-UPDATE `weapon` SET `name` ='血水晶' WHERE `item_id` = 339;
-UPDATE `weapon` SET `name` ='獨角獸的角' WHERE `item_id` = 340;
-UPDATE `weapon` SET `name` ='被遺忘的卷冊' WHERE `item_id` = 341;
-UPDATE `weapon` SET `name` ='魔法笛子' WHERE `item_id` = 342;
-UPDATE `weapon` SET `name` ='破魔箭' WHERE `item_id` = 343;
-UPDATE `weapon` SET `name` ='族長的證據' WHERE `item_id` = 344;
-UPDATE `weapon` SET `name` ='死亡劍' WHERE `item_id` = 345;
-UPDATE `weapon` SET `name` ='墮天使之淚' WHERE `item_id` = 346;
-UPDATE `weapon` SET `name` ='骨盾' WHERE `item_id` = 625;
-UPDATE `weapon` SET `name` ='青銅盾' WHERE `item_id` = 626;
-UPDATE `weapon` SET `name` ='鼓盾' WHERE `item_id` = 627;
-UPDATE `weapon` SET `name` ='圓木盾' WHERE `item_id` = 628;
-UPDATE `weapon` SET `name` ='鳶形盾' WHERE `item_id` = 629;
-UPDATE `weapon` SET `name` ='方盾' WHERE `item_id` = 630;
-UPDATE `weapon` SET `name` ='厄達拉克塔盾' WHERE `item_id` = 631;
-UPDATE `weapon` SET `name` ='騎士盾' WHERE `item_id` = 632;
-UPDATE `weapon` SET `name` ='夏隆盾' WHERE `item_id` = 633;
-UPDATE `weapon` SET `name` ='龍盾' WHERE `item_id` = 634;
-UPDATE `weapon` SET `name` ='狼盾' WHERE `item_id` = 635;
-UPDATE `weapon` SET `name` ='光龍盾' WHERE `item_id` = 636;
-UPDATE `weapon` SET `name` ='勇猛盾' WHERE `item_id` = 637;
-UPDATE `weapon` SET `name` ='榮譽盾' WHERE `item_id` = 638;
-UPDATE `weapon` SET `name` ='紅焰盾' WHERE `item_id` = 639;
-UPDATE `weapon` SET `name` ='精靈水晶盾' WHERE `item_id` = 640;
-UPDATE `weapon` SET `name` ='黑暗水晶盾' WHERE `item_id` = 641;
-UPDATE `weapon` SET `name` ='精靈鞘盾' WHERE `item_id` = 642;
-UPDATE `weapon` SET `name` ='黑暗鞘盾' WHERE `item_id` = 643;
-UPDATE `weapon` SET `name` ='地獄盾' WHERE `item_id` = 644;
-UPDATE `weapon` SET `name` ='工藝盾' WHERE `item_id` = 645;
-UPDATE `weapon` SET `name` ='寧靜盾' WHERE `item_id` = 646;
-UPDATE `weapon` SET `name` ='勁風盾' WHERE `item_id` = 647;
-UPDATE `weapon` SET `name` ='草原盾' WHERE `item_id` = 648;
-UPDATE `weapon` SET `name` ='煉獄盾' WHERE `item_id` = 649;
-UPDATE `weapon` SET `name` ='聚合盾' WHERE `item_id` = 650;
-UPDATE `weapon` SET `name` ='神弓盾' WHERE `item_id` = 651;
-UPDATE `weapon` SET `name` ='守護神盾' WHERE `item_id` = 652;
-UPDATE `weapon` SET `name` ='射手盾' WHERE `item_id` = 653;
-UPDATE `weapon` SET `name` ='瑪那盾' WHERE `item_id` = 654;
-UPDATE `weapon` SET `name` ='賢者盾' WHERE `item_id` = 655;
-UPDATE `weapon` SET `name` ='佩勒迪亞盾' WHERE `item_id` = 656;
-UPDATE `weapon` SET `name` ='地獄盾' WHERE `item_id` = 657;
-UPDATE `weapon` SET `name` ='黑光盾' WHERE `item_id` = 658;
-UPDATE `weapon` SET `name` ='召喚盾' WHERE `item_id` = 659;
-UPDATE `weapon` SET `name` ='異界盾' WHERE `item_id` = 660;
-UPDATE `weapon` SET `name` ='元素之盾' WHERE `item_id` = 661;
-UPDATE `weapon` SET `name` ='幻影盾' WHERE `item_id` = 662;
-UPDATE `weapon` SET `name` ='恩寵盾牌' WHERE `item_id` = 663;
-UPDATE `weapon` SET `name` ='聖靈盾' WHERE `item_id` = 664;
-UPDATE `weapon` SET `name` ='不死鳥之盾' WHERE `item_id` = 665;
-UPDATE `weapon` SET `name` ='地獄犬之盾' WHERE `item_id` = 666;
-UPDATE `weapon` SET `name` ='輔助盾' WHERE `item_id` = 667;
-UPDATE `weapon` SET `name` ='祝福盾' WHERE `item_id` = 668;
-UPDATE `weapon` SET `name` ='火焰盾' WHERE `item_id` = 669;
-UPDATE `weapon` SET `name` ='銅盾' WHERE `item_id` = 670;
-UPDATE `weapon` SET `name` ='血盾' WHERE `item_id` = 671;
-UPDATE `weapon` SET `name` ='完美盾' WHERE `item_id` = 672;
-UPDATE `weapon` SET `name` ='阿巴敦盾' WHERE `item_id` = 673;
-UPDATE `weapon` SET `name` ='聖恩盾' WHERE `item_id` = 674;
-UPDATE `weapon` SET `name` ='團結之劍' WHERE `item_id` = 738;
-UPDATE `weapon` SET `name` ='哨兵之劍' WHERE `item_id` = 743;
-UPDATE `weapon` SET `name` ='哨兵魔杖' WHERE `item_id` = 744;
-UPDATE `weapon` SET `name` ='熟練之杖' WHERE `item_id` = 747;
-UPDATE `weapon` SET `name` ='噶爾林特的橡木杖' WHERE `item_id` = 748;
-UPDATE `weapon` SET `name` ='零' WHERE `item_id` = 749;
-UPDATE `weapon` SET `name` ='夕陽之杖' WHERE `item_id` = 754;
-UPDATE `weapon` SET `name` ='骷髏小圓盾' WHERE `item_id` = 945;
-UPDATE `weapon` SET `name` ='骷髏匕首' WHERE `item_id` = 946;
-UPDATE `weapon` SET `name` ='血騎兵' WHERE `item_id` = 975;
-UPDATE `weapon` SET `name` ='夕陽之劍' WHERE `item_id` = 981;
-UPDATE `weapon` SET `name` ='怪異匕首' WHERE `item_id` = 989;
-UPDATE `weapon` SET `name` ='生銹的青銅劍' WHERE `item_id` = 1142;
-UPDATE `weapon` SET `name` ='奈提的弓' WHERE `item_id` = 1181;
-UPDATE `weapon` SET `name` ='奈提的匕首' WHERE `item_id` = 1182;
-UPDATE `weapon` SET `name` ='警衛隊之弓' WHERE `item_id` = 1213;
-UPDATE `weapon` SET `name` ='長劍-Kamex用' WHERE `item_id` = 1295;
-UPDATE `weapon` SET `name` ='羅馬劍-Kamex用' WHERE `item_id` = 1296;
-UPDATE `weapon` SET `name` ='重劍-Kamex用' WHERE `item_id` = 1297;
-UPDATE `weapon` SET `name` ='卡里埔士劍-Kamex用' WHERE `item_id` = 1298;
-UPDATE `weapon` SET `name` ='二刀流 測試用' WHERE `item_id` = 1299;
-UPDATE `weapon` SET `name` ='見習生之杖-Kamex用' WHERE `item_id` = 1300;
-UPDATE `weapon` SET `name` ='重鎚-Kamex用' WHERE `item_id` = 1301;
-UPDATE `weapon` SET `name` ='貝卡合金-Kamex用' WHERE `item_id` = 1302;
-UPDATE `weapon` SET `name` ='長槍-Kamex用' WHERE `item_id` = 1303;
-UPDATE `weapon` SET `name` ='法咒魔杖-Kamex用' WHERE `item_id` = 1304;
-UPDATE `weapon` SET `name` ='小刀-Kamex用' WHERE `item_id` = 1305;
-UPDATE `weapon` SET `name` ='手工匕首-Kamex用' WHERE `item_id` = 1306;
-UPDATE `weapon` SET `name` ='弓-動畫用' WHERE `item_id` = 1307;
-UPDATE `weapon` SET `name` ='恩寵盾牌-Kamex用' WHERE `item_id` = 1328;
-UPDATE `weapon` SET `name` ='勝利之盾-Kamex用' WHERE `item_id` = 1329;
-UPDATE `weapon` SET `name` ='夏隆的護盾-Kamex用' WHERE `item_id` = 1330;
-UPDATE `weapon` SET `name` ='異界之盾-Kamex用' WHERE `item_id` = 1331;
-UPDATE `weapon` SET `name` ='騎士之盾-Kamex用' WHERE `item_id` = 1332;
-UPDATE `weapon` SET `name` ='刺擊刀' WHERE `item_id` = 1333;
-UPDATE `weapon` SET `name` ='警衛兵矛' WHERE `item_id` = 1376;
-UPDATE `weapon` SET `name` ='賽勒諾斯吹箭' WHERE `item_id` = 1471;
-UPDATE `weapon` SET `name` ='死亡騎士吹箭' WHERE `item_id` = 1472;
-UPDATE `weapon` SET `name` ='屠夫之劍' WHERE `item_id` = 1510;
-UPDATE `weapon` SET `name` ='銀匠鎚' WHERE `item_id` = 1511;
-UPDATE `weapon` SET `name` ='受詛咒的突刺刀' WHERE `item_id` = 1660;
-UPDATE `weapon` SET `name` ='訓練手套' WHERE `item_id` = 2368;
-UPDATE `weapon` SET `name` ='見習騎士之劍' WHERE `item_id` = 2369;
-UPDATE `weapon` SET `name` ='會員之棒' WHERE `item_id` = 2370;
-UPDATE `weapon` SET `name` ='屠夫拳刃' WHERE `item_id` = 2371;
-UPDATE `weapon` SET `name` ='熟練匕首' WHERE `item_id` = 2372;
-UPDATE `weapon` SET `name` ='怪異之杖' WHERE `item_id` = 2373;
-UPDATE `weapon` SET `name` ='夕陽匕首' WHERE `item_id` = 2374;
-UPDATE `weapon` SET `name` ='鎖子盾' WHERE `item_id` = 2493;
-UPDATE `weapon` SET `name` ='金屬盾' WHERE `item_id` = 2494;
-UPDATE `weapon` SET `name` ='鏈盾' WHERE `item_id` = 2495;
-UPDATE `weapon` SET `name` ='矮人鏈盾' WHERE `item_id` = 2496;
-UPDATE `weapon` SET `name` ='全覆式盾' WHERE `item_id` = 2497;
-UPDATE `weapon` SET `name` ='夢魘盾' WHERE `item_id` = 2498;
-UPDATE `weapon` SET `name` ='精靈長劍' WHERE `item_id` = 2499;
-UPDATE `weapon` SET `name` ='黑暗軍刀' WHERE `item_id` = 2500;
-UPDATE `weapon` SET `name` ='骨棒' WHERE `item_id` = 2501;
-UPDATE `weapon` SET `name` ='矮人戰鎚' WHERE `item_id` = 2502;
-UPDATE `weapon` SET `name` ='夜叉釘鎚' WHERE `item_id` = 2503;
-UPDATE `weapon` SET `name` ='流星雨' WHERE `item_id` = 2504;
-UPDATE `weapon` SET `name` ='鋼鐵鑽' WHERE `item_id` = 2505;
-UPDATE `weapon` SET `name` ='蜥蜴矛' WHERE `item_id` = 2507;
-UPDATE `weapon` SET `name` ='軍刀*軍刀' WHERE `item_id` = 2516;
-UPDATE `weapon` SET `name` ='軍刀*重劍' WHERE `item_id` = 2517;
-UPDATE `weapon` SET `name` ='軍刀*椎骨之劍' WHERE `item_id` = 2518;
-UPDATE `weapon` SET `name` ='軍刀*工匠之劍' WHERE `item_id` = 2519;
-UPDATE `weapon` SET `name` ='軍刀*騎士劍' WHERE `item_id` = 2520;
-UPDATE `weapon` SET `name` ='軍刀*緋紅劍' WHERE `item_id` = 2521;
-UPDATE `weapon` SET `name` ='軍刀*精靈劍' WHERE `item_id` = 2522;
-UPDATE `weapon` SET `name` ='軍刀*革命劍' WHERE `item_id` = 2523;
-UPDATE `weapon` SET `name` ='軍刀*精靈長劍' WHERE `item_id` = 2524;
-UPDATE `weapon` SET `name` ='重劍*重劍' WHERE `item_id` = 2525;
-UPDATE `weapon` SET `name` ='重劍*椎骨之劍' WHERE `item_id` = 2526;
-UPDATE `weapon` SET `name` ='重劍*工匠之劍' WHERE `item_id` = 2527;
-UPDATE `weapon` SET `name` ='重劍*騎士劍' WHERE `item_id` = 2528;
-UPDATE `weapon` SET `name` ='重劍*緋紅劍' WHERE `item_id` = 2529;
-UPDATE `weapon` SET `name` ='重劍*精靈劍' WHERE `item_id` = 2530;
-UPDATE `weapon` SET `name` ='重劍*革命劍' WHERE `item_id` = 2531;
-UPDATE `weapon` SET `name` ='重劍*精靈長劍' WHERE `item_id` = 2532;
-UPDATE `weapon` SET `name` ='椎骨之劍*椎骨之劍' WHERE `item_id` = 2533;
-UPDATE `weapon` SET `name` ='椎骨之劍*工匠之劍' WHERE `item_id` = 2534;
-UPDATE `weapon` SET `name` ='椎骨之劍*騎士劍' WHERE `item_id` = 2535;
-UPDATE `weapon` SET `name` ='椎骨之劍*緋紅劍' WHERE `item_id` = 2536;
-UPDATE `weapon` SET `name` ='椎骨之劍*精靈劍' WHERE `item_id` = 2537;
-UPDATE `weapon` SET `name` ='椎骨之劍*革命劍' WHERE `item_id` = 2538;
-UPDATE `weapon` SET `name` ='椎骨之劍*精靈長劍' WHERE `item_id` = 2539;
-UPDATE `weapon` SET `name` ='工匠之劍*工匠之劍' WHERE `item_id` = 2540;
-UPDATE `weapon` SET `name` ='工匠之劍*騎士劍' WHERE `item_id` = 2541;
-UPDATE `weapon` SET `name` ='工匠之劍*緋紅劍' WHERE `item_id` = 2542;
-UPDATE `weapon` SET `name` ='工匠之劍*精靈劍' WHERE `item_id` = 2543;
-UPDATE `weapon` SET `name` ='工匠之劍*革命劍' WHERE `item_id` = 2544;
-UPDATE `weapon` SET `name` ='工匠之劍*精靈長劍' WHERE `item_id` = 2545;
-UPDATE `weapon` SET `name` ='騎士劍*騎士劍' WHERE `item_id` = 2546;
-UPDATE `weapon` SET `name` ='騎士劍*緋紅劍' WHERE `item_id` = 2547;
-UPDATE `weapon` SET `name` ='騎士劍*精靈劍' WHERE `item_id` = 2548;
-UPDATE `weapon` SET `name` ='騎士劍*革命劍' WHERE `item_id` = 2549;
-UPDATE `weapon` SET `name` ='騎士劍*精靈長劍' WHERE `item_id` = 2550;
-UPDATE `weapon` SET `name` ='緋紅劍*緋紅劍' WHERE `item_id` = 2551;
-UPDATE `weapon` SET `name` ='緋紅劍*精靈劍' WHERE `item_id` = 2552;
-UPDATE `weapon` SET `name` ='緋紅劍*革命劍' WHERE `item_id` = 2553;
-UPDATE `weapon` SET `name` ='緋紅劍*精靈長劍' WHERE `item_id` = 2554;
-UPDATE `weapon` SET `name` ='精靈劍*精靈劍' WHERE `item_id` = 2555;
-UPDATE `weapon` SET `name` ='精靈劍*革命劍' WHERE `item_id` = 2556;
-UPDATE `weapon` SET `name` ='精靈劍*精靈長劍' WHERE `item_id` = 2557;
-UPDATE `weapon` SET `name` ='革命劍*革命劍' WHERE `item_id` = 2558;
-UPDATE `weapon` SET `name` ='革命劍*精靈長劍' WHERE `item_id` = 2559;
-UPDATE `weapon` SET `name` ='精靈長劍*精靈長劍' WHERE `item_id` = 2560;
-UPDATE `weapon` SET `name` ='暴風之劍*暴風之劍' WHERE `item_id` = 2561;
-UPDATE `weapon` SET `name` ='暴風之劍*彎刀' WHERE `item_id` = 2562;
-UPDATE `weapon` SET `name` ='暴風之劍*武士刀' WHERE `item_id` = 2563;
-UPDATE `weapon` SET `name` ='暴風之劍*靈魂之劍' WHERE `item_id` = 2564;
-UPDATE `weapon` SET `name` ='暴風之劍*襲擊劍' WHERE `item_id` = 2565;
-UPDATE `weapon` SET `name` ='暴風之劍*卡里埔士劍' WHERE `item_id` = 2566;
-UPDATE `weapon` SET `name` ='暴風之劍*極限之劍' WHERE `item_id` = 2567;
-UPDATE `weapon` SET `name` ='暴風之劍*迷惑之劍' WHERE `item_id` = 2568;
-UPDATE `weapon` SET `name` ='暴風之劍*夢魘劍' WHERE `item_id` = 2569;
-UPDATE `weapon` SET `name` ='暴風之劍*大和劍' WHERE `item_id` = 2570;
-UPDATE `weapon` SET `name` ='暴風之劍*瑟魯基長劍' WHERE `item_id` = 2571;
-UPDATE `weapon` SET `name` ='彎刀*彎刀' WHERE `item_id` = 2572;
-UPDATE `weapon` SET `name` ='彎刀*武士刀' WHERE `item_id` = 2573;
-UPDATE `weapon` SET `name` ='彎刀*靈魂之劍' WHERE `item_id` = 2574;
-UPDATE `weapon` SET `name` ='彎刀*襲擊劍' WHERE `item_id` = 2575;
-UPDATE `weapon` SET `name` ='彎刀*卡里埔士劍' WHERE `item_id` = 2576;
-UPDATE `weapon` SET `name` ='彎刀*極限之劍' WHERE `item_id` = 2577;
-UPDATE `weapon` SET `name` ='彎刀*迷惑之劍' WHERE `item_id` = 2578;
-UPDATE `weapon` SET `name` ='彎刀*夢魘劍' WHERE `item_id` = 2579;
-UPDATE `weapon` SET `name` ='彎刀*大和劍' WHERE `item_id` = 2580;
-UPDATE `weapon` SET `name` ='彎刀*瑟魯基長劍' WHERE `item_id` = 2581;
-UPDATE `weapon` SET `name` ='武士刀*武士刀' WHERE `item_id` = 2582;
-UPDATE `weapon` SET `name` ='武士刀*靈魂之劍' WHERE `item_id` = 2583;
-UPDATE `weapon` SET `name` ='武士刀*襲擊劍' WHERE `item_id` = 2584;
-UPDATE `weapon` SET `name` ='武士刀*卡里埔士劍' WHERE `item_id` = 2585;
-UPDATE `weapon` SET `name` ='武士刀*極限之劍' WHERE `item_id` = 2586;
-UPDATE `weapon` SET `name` ='武士刀*迷惑之劍' WHERE `item_id` = 2587;
-UPDATE `weapon` SET `name` ='武士刀*夢魘劍' WHERE `item_id` = 2588;
-UPDATE `weapon` SET `name` ='武士刀*大和劍' WHERE `item_id` = 2589;
-UPDATE `weapon` SET `name` ='武士刀*瑟魯基長劍' WHERE `item_id` = 2590;
-UPDATE `weapon` SET `name` ='靈魂之劍*靈魂之劍' WHERE `item_id` = 2591;
-UPDATE `weapon` SET `name` ='靈魂之劍*襲擊劍' WHERE `item_id` = 2592;
-UPDATE `weapon` SET `name` ='靈魂之劍*卡里埔士劍' WHERE `item_id` = 2593;
-UPDATE `weapon` SET `name` ='靈魂之劍*極限之劍' WHERE `item_id` = 2594;
-UPDATE `weapon` SET `name` ='靈魂之劍*迷惑之劍' WHERE `item_id` = 2595;
-UPDATE `weapon` SET `name` ='靈魂之劍*夢魘劍' WHERE `item_id` = 2596;
-UPDATE `weapon` SET `name` ='靈魂之劍*大和劍' WHERE `item_id` = 2597;
-UPDATE `weapon` SET `name` ='靈魂之劍*瑟魯基長劍' WHERE `item_id` = 2598;
-UPDATE `weapon` SET `name` ='襲擊劍*襲擊劍' WHERE `item_id` = 2599;
-UPDATE `weapon` SET `name` ='襲擊劍*卡里埔士劍' WHERE `item_id` = 2600;
-UPDATE `weapon` SET `name` ='襲擊劍*極限之劍' WHERE `item_id` = 2601;
-UPDATE `weapon` SET `name` ='襲擊劍*迷惑之劍' WHERE `item_id` = 2602;
-UPDATE `weapon` SET `name` ='襲擊劍*夢魘劍' WHERE `item_id` = 2603;
-UPDATE `weapon` SET `name` ='襲擊劍*大和劍' WHERE `item_id` = 2604;
-UPDATE `weapon` SET `name` ='襲擊劍*瑟魯基長劍' WHERE `item_id` = 2605;
-UPDATE `weapon` SET `name` ='卡里埔士劍*卡里埔士劍' WHERE `item_id` = 2606;
-UPDATE `weapon` SET `name` ='卡里埔士劍*極限之劍' WHERE `item_id` = 2607;
-UPDATE `weapon` SET `name` ='卡里埔士劍*迷惑之劍' WHERE `item_id` = 2608;
-UPDATE `weapon` SET `name` ='卡里埔士劍*夢魘劍' WHERE `item_id` = 2609;
-UPDATE `weapon` SET `name` ='卡里埔士劍*大和劍' WHERE `item_id` = 2610;
-UPDATE `weapon` SET `name` ='卡里埔士劍*瑟魯基長劍' WHERE `item_id` = 2611;
-UPDATE `weapon` SET `name` ='極限之劍*極限之劍' WHERE `item_id` = 2612;
-UPDATE `weapon` SET `name` ='極限之劍*迷惑之劍' WHERE `item_id` = 2613;
-UPDATE `weapon` SET `name` ='極限之劍*夢魘劍' WHERE `item_id` = 2614;
-UPDATE `weapon` SET `name` ='極限之劍*大和劍' WHERE `item_id` = 2615;
-UPDATE `weapon` SET `name` ='極限之劍*瑟魯基長劍' WHERE `item_id` = 2616;
-UPDATE `weapon` SET `name` ='迷惑之劍*迷惑之劍' WHERE `item_id` = 2617;
-UPDATE `weapon` SET `name` ='迷惑之劍*夢魘劍' WHERE `item_id` = 2618;
-UPDATE `weapon` SET `name` ='迷惑之劍*大和劍' WHERE `item_id` = 2619;
-UPDATE `weapon` SET `name` ='迷惑之劍*瑟魯基長劍' WHERE `item_id` = 2620;
-UPDATE `weapon` SET `name` ='夢魘劍*夢魘劍' WHERE `item_id` = 2621;
-UPDATE `weapon` SET `name` ='夢魘劍*大和劍' WHERE `item_id` = 2622;
-UPDATE `weapon` SET `name` ='夢魘劍*瑟魯基長劍' WHERE `item_id` = 2623;
-UPDATE `weapon` SET `name` ='大和劍*大和劍' WHERE `item_id` = 2624;
-UPDATE `weapon` SET `name` ='大和劍*瑟魯基長劍' WHERE `item_id` = 2625;
-UPDATE `weapon` SET `name` ='瑟魯基長劍*瑟魯基長劍' WHERE `item_id` = 2626;
-UPDATE `weapon` SET `name` ='舊騎士之劍' WHERE `item_id` = 2915;
-UPDATE `weapon` SET `name` ='泰林之矛' WHERE `item_id` = 3026;
-UPDATE `weapon` SET `name` ='舊騎士之劍' WHERE `item_id` = 3027;
-UPDATE `weapon` SET `name` ='新月弓' WHERE `item_id` = 3028;
-UPDATE `weapon` SET `name` ='封印之劍' WHERE `item_id` = 3029;
-UPDATE `weapon` SET `name` ='閃光的尖牙' WHERE `item_id` = 3439;
-UPDATE `weapon` SET `name` ='齊白霖的短劍' WHERE `item_id` = 3471;
-UPDATE `weapon` SET `name` ='幽靈狼牙' WHERE `item_id` = 3902;
-UPDATE `weapon` SET `name` ='米索莉狼牙' WHERE `item_id` = 3903;
-UPDATE `weapon` SET `name` ='森林狼牙' WHERE `item_id` = 3904;
-UPDATE `weapon` SET `name` ='奧里哈魯根狼牙' WHERE `item_id` = 3905;
-UPDATE `weapon` SET `name` ='索蒂德狼牙' WHERE `item_id` = 3906;
-UPDATE `weapon` SET `name` ='地獄犬狼牙' WHERE `item_id` = 3907;
-UPDATE `weapon` SET `name` ='土狼狼牙' WHERE `item_id` = 3908;
-UPDATE `weapon` SET `name` ='冰結晶狼牙' WHERE `item_id` = 3909;
-UPDATE `weapon` SET `name` ='青狼狼牙' WHERE `item_id` = 3910;
-UPDATE `weapon` SET `name` ='潘里亞狼牙' WHERE `item_id` = 3911;
-UPDATE `weapon` SET `name` ='巨蛇之牙' WHERE `item_id` = 3919;
-UPDATE `weapon` SET `name` ='蛇吻' WHERE `item_id` = 3920;
-UPDATE `weapon` SET `name` ='影牙' WHERE `item_id` = 3921;
-UPDATE `weapon` SET `name` ='艾里亞之牙' WHERE `item_id` = 3922;
-UPDATE `weapon` SET `name` ='拷刑者' WHERE `item_id` = 3923;
-UPDATE `weapon` SET `name` ='巫努艾之牙' WHERE `item_id` = 3924;
-UPDATE `weapon` SET `name` ='災疫斷絕' WHERE `item_id` = 3925;
-UPDATE `weapon` SET `name` ='怪物用(下巨人)' WHERE `item_id` = 3937;
-UPDATE `weapon` SET `name` ='怪物用(下巨人魔法師武器)' WHERE `item_id` = 3938;
-UPDATE `weapon` SET `name` ='怪物用(班席)' WHERE `item_id` = 3939;
-UPDATE `weapon` SET `name` ='花束' WHERE `item_id` = 4027;
-UPDATE `weapon` SET `name` ='怪物用(下巨人的武器)' WHERE `item_id` = 4028;
-UPDATE `weapon` SET `name` ='克魯諾齊塔納' WHERE `item_id` = 4202;
-UPDATE `weapon` SET `name` ='夢之劍' WHERE `item_id` = 4219;
-UPDATE `weapon` SET `name` ='夢之刀' WHERE `item_id` = 4220;
-UPDATE `weapon` SET `name` ='泛在斧' WHERE `item_id` = 4221;
-UPDATE `weapon` SET `name` ='夢之盾' WHERE `item_id` = 4222;
-UPDATE `weapon` SET `name` ='泛在盾' WHERE `item_id` = 4223;
-UPDATE `weapon` SET `name` ='關節拳' WHERE `item_id` = 4233;
-UPDATE `weapon` SET `name` ='幼龍專用65級武器' WHERE `item_id` = 4237;
-UPDATE `weapon` SET `name` ='幼龍專用75級武器' WHERE `item_id` = 4238;
-UPDATE `weapon` SET `name` ='試管小刀' WHERE `item_id` = 4665;
-UPDATE `weapon` SET `name` ='暴風之劍 Crt.怒擊' WHERE `item_id` = 4681;
-UPDATE `weapon` SET `name` ='暴風之劍 偵測' WHERE `item_id` = 4682;
-UPDATE `weapon` SET `name` ='暴風之劍 輕裝' WHERE `item_id` = 4683;
-UPDATE `weapon` SET `name` ='彎刀 導引' WHERE `item_id` = 4684;
-UPDATE `weapon` SET `name` ='彎刀 背擊' WHERE `item_id` = 4685;
-UPDATE `weapon` SET `name` ='彎刀 Rsk.迴避' WHERE `item_id` = 4686;
-UPDATE `weapon` SET `name` ='武士刀 偵測' WHERE `item_id` = 4687;
-UPDATE `weapon` SET `name` ='武士刀 Crt.傷害' WHERE `item_id` = 4688;
-UPDATE `weapon` SET `name` ='武士刀 速度激發' WHERE `item_id` = 4689;
-UPDATE `weapon` SET `name` ='靈魂之劍 Crt.傷害' WHERE `item_id` = 4690;
-UPDATE `weapon` SET `name` ='靈魂之劍 Crt.施毒' WHERE `item_id` = 4691;
-UPDATE `weapon` SET `name` ='靈魂之劍 速度激發' WHERE `item_id` = 4692;
-UPDATE `weapon` SET `name` ='襲擊劍 偵測' WHERE `item_id` = 4693;
-UPDATE `weapon` SET `name` ='襲擊劍 Crt.吸收' WHERE `item_id` = 4694;
-UPDATE `weapon` SET `name` ='襲擊劍 Crt.施毒' WHERE `item_id` = 4695;
-UPDATE `weapon` SET `name` ='卡里埔士劍 導引' WHERE `item_id` = 4696;
-UPDATE `weapon` SET `name` ='卡里埔士劍 偵測' WHERE `item_id` = 4697;
-UPDATE `weapon` SET `name` ='卡里埔士劍 Crt.傷害' WHERE `item_id` = 4698;
-UPDATE `weapon` SET `name` ='迷惑之劍 偵測' WHERE `item_id` = 4699;
-UPDATE `weapon` SET `name` ='迷惑之劍 強健' WHERE `item_id` = 4700;
-UPDATE `weapon` SET `name` ='迷惑之劍 Rsk.速度激發' WHERE `item_id` = 4701;
-UPDATE `weapon` SET `name` ='大和劍 偵測' WHERE `item_id` = 4702;
-UPDATE `weapon` SET `name` ='大和劍 Crt.傷害' WHERE `item_id` = 4703;
-UPDATE `weapon` SET `name` ='大和劍 速度激發' WHERE `item_id` = 4704;
-UPDATE `weapon` SET `name` ='夢魘劍 強健' WHERE `item_id` = 4705;
-UPDATE `weapon` SET `name` ='夢魘劍 偵測' WHERE `item_id` = 4706;
-UPDATE `weapon` SET `name` ='夢魘劍 輕裝' WHERE `item_id` = 4707;
-UPDATE `weapon` SET `name` ='瑟魯基長劍 偵測' WHERE `item_id` = 4708;
-UPDATE `weapon` SET `name` ='瑟魯基長劍 Crt.傷害' WHERE `item_id` = 4709;
-UPDATE `weapon` SET `name` ='瑟魯基長劍 速度激發' WHERE `item_id` = 4710;
-UPDATE `weapon` SET `name` ='焰形劍 Crt.傷害' WHERE `item_id` = 4711;
-UPDATE `weapon` SET `name` ='焰形劍 偵測' WHERE `item_id` = 4712;
-UPDATE `weapon` SET `name` ='焰形劍 輕裝' WHERE `item_id` = 4713;
-UPDATE `weapon` SET `name` ='柯貝克劍 導引' WHERE `item_id` = 4714;
-UPDATE `weapon` SET `name` ='柯貝克劍 偵測' WHERE `item_id` = 4715;
-UPDATE `weapon` SET `name` ='柯貝克劍 背擊' WHERE `item_id` = 4716;
-UPDATE `weapon` SET `name` ='大馬士革刀 偵測' WHERE `item_id` = 4717;
-UPDATE `weapon` SET `name` ='大馬士革刀 Crt.傷害' WHERE `item_id` = 4718;
-UPDATE `weapon` SET `name` ='大馬士革刀 速度激發' WHERE `item_id` = 4719;
-UPDATE `weapon` SET `name` ='塔魯刀 強健' WHERE `item_id` = 4720;
-UPDATE `weapon` SET `name` ='塔魯刀 Rsk.迴避' WHERE `item_id` = 4721;
-UPDATE `weapon` SET `name` ='塔魯刀 Rsk.速度激發' WHERE `item_id` = 4722;
-UPDATE `weapon` SET `name` ='巨劍 強健' WHERE `item_id` = 4723;
-UPDATE `weapon` SET `name` ='巨劍 Crt.傷害' WHERE `item_id` = 4724;
-UPDATE `weapon` SET `name` ='巨劍 偵測' WHERE `item_id` = 4725;
-UPDATE `weapon` SET `name` ='重鎚 強健' WHERE `item_id` = 4726;
-UPDATE `weapon` SET `name` ='重鎚 Rsk.偵測' WHERE `item_id` = 4727;
-UPDATE `weapon` SET `name` ='重鎚 速度激發' WHERE `item_id` = 4728;
-UPDATE `weapon` SET `name` ='戰斧 怒擊' WHERE `item_id` = 4729;
-UPDATE `weapon` SET `name` ='戰斧 Rsk.偵測' WHERE `item_id` = 4730;
-UPDATE `weapon` SET `name` ='戰斧 速度激發' WHERE `item_id` = 4731;
-UPDATE `weapon` SET `name` ='戰錐 怒擊' WHERE `item_id` = 4732;
-UPDATE `weapon` SET `name` ='戰錐 Rsk.偵測' WHERE `item_id` = 4733;
-UPDATE `weapon` SET `name` ='戰錐 速度激發' WHERE `item_id` = 4734;
-UPDATE `weapon` SET `name` ='顱骨雕刻者 怒擊' WHERE `item_id` = 4735;
-UPDATE `weapon` SET `name` ='顱骨雕刻者 強健' WHERE `item_id` = 4736;
-UPDATE `weapon` SET `name` ='顱骨雕刻者 Rsk.偵測' WHERE `item_id` = 4737;
-UPDATE `weapon` SET `name` ='矮人戰鎚 怒擊' WHERE `item_id` = 4738;
-UPDATE `weapon` SET `name` ='矮人戰鎚 強健' WHERE `item_id` = 4739;
-UPDATE `weapon` SET `name` ='矮人戰鎚 速度激發' WHERE `item_id` = 4740;
-UPDATE `weapon` SET `name` ='巨戰斧 怒擊' WHERE `item_id` = 4741;
-UPDATE `weapon` SET `name` ='巨戰斧 強健' WHERE `item_id` = 4742;
-UPDATE `weapon` SET `name` ='巨戰斧 速度激發' WHERE `item_id` = 4743;
-UPDATE `weapon` SET `name` ='夜叉釘鎚 怒擊' WHERE `item_id` = 4744;
-UPDATE `weapon` SET `name` ='夜叉釘鎚 強健' WHERE `item_id` = 4745;
-UPDATE `weapon` SET `name` ='夜叉釘鎚 Rsk.偵測' WHERE `item_id` = 4746;
-UPDATE `weapon` SET `name` ='巨大戰斧 怒擊' WHERE `item_id` = 4747;
-UPDATE `weapon` SET `name` ='巨大戰斧 強健' WHERE `item_id` = 4748;
-UPDATE `weapon` SET `name` ='巨大戰斧 Rsk.偵測' WHERE `item_id` = 4749;
-UPDATE `weapon` SET `name` ='亡者榮譽 怒擊' WHERE `item_id` = 4750;
-UPDATE `weapon` SET `name` ='亡者榮譽 強健' WHERE `item_id` = 4751;
-UPDATE `weapon` SET `name` ='亡者榮譽 速度激發' WHERE `item_id` = 4752;
-UPDATE `weapon` SET `name` ='工藝戰斧 強健' WHERE `item_id` = 4753;
-UPDATE `weapon` SET `name` ='工藝戰斧 Rsk.偵測' WHERE `item_id` = 4754;
-UPDATE `weapon` SET `name` ='工藝戰斧 速度激發' WHERE `item_id` = 4755;
-UPDATE `weapon` SET `name` ='流星雨 強健' WHERE `item_id` = 4756;
-UPDATE `weapon` SET `name` ='流星雨 偵測' WHERE `item_id` = 4757;
-UPDATE `weapon` SET `name` ='流星雨 P.偵測' WHERE `item_id` = 4758;
-UPDATE `weapon` SET `name` ='受詛咒的匕首 Crt.出血' WHERE `item_id` = 4759;
-UPDATE `weapon` SET `name` ='受詛咒的匕首 Crt.施毒' WHERE `item_id` = 4760;
-UPDATE `weapon` SET `name` ='受詛咒的匕首 Rsk.速度激發' WHERE `item_id` = 4761;
-UPDATE `weapon` SET `name` ='黑暗精靈匕首 偵測' WHERE `item_id` = 4762;
-UPDATE `weapon` SET `name` ='黑暗精靈匕首 背擊' WHERE `item_id` = 4763;
-UPDATE `weapon` SET `name` ='黑暗精靈匕首 致命力量' WHERE `item_id` = 4764;
-UPDATE `weapon` SET `name` ='袖珍刀 Crt.出血' WHERE `item_id` = 4765;
-UPDATE `weapon` SET `name` ='袖珍刀 Crt.施毒' WHERE `item_id` = 4766;
-UPDATE `weapon` SET `name` ='袖珍刀 致命力量' WHERE `item_id` = 4767;
-UPDATE `weapon` SET `name` ='優雅匕首 迴避' WHERE `item_id` = 4768;
-UPDATE `weapon` SET `name` ='優雅匕首 偵測' WHERE `item_id` = 4769;
-UPDATE `weapon` SET `name` ='優雅匕首 背擊' WHERE `item_id` = 4770;
-UPDATE `weapon` SET `name` ='黑暗狂嘯者 迴避' WHERE `item_id` = 4771;
-UPDATE `weapon` SET `name` ='黑暗狂嘯者 偵測' WHERE `item_id` = 4772;
-UPDATE `weapon` SET `name` ='黑暗狂嘯者 Crt.出血' WHERE `item_id` = 4773;
-UPDATE `weapon` SET `name` ='水晶匕首 Crt.出血' WHERE `item_id` = 4774;
-UPDATE `weapon` SET `name` ='水晶匕首 Crt.施毒' WHERE `item_id` = 4775;
-UPDATE `weapon` SET `name` ='水晶匕首 致命力量' WHERE `item_id` = 4776;
-UPDATE `weapon` SET `name` ='波形刃 迴避' WHERE `item_id` = 4777;
-UPDATE `weapon` SET `name` ='波形刃 偵測' WHERE `item_id` = 4778;
-UPDATE `weapon` SET `name` ='波形刃 背擊' WHERE `item_id` = 4779;
-UPDATE `weapon` SET `name` ='惡魔短劍 Crt.出血' WHERE `item_id` = 4780;
-UPDATE `weapon` SET `name` ='惡魔短劍 Crt.施毒' WHERE `item_id` = 4781;
-UPDATE `weapon` SET `name` ='惡魔短劍 致命力量' WHERE `item_id` = 4782;
-UPDATE `weapon` SET `name` ='血腥之蘭 迴避' WHERE `item_id` = 4783;
-UPDATE `weapon` SET `name` ='血腥之蘭 偵測' WHERE `item_id` = 4784;
-UPDATE `weapon` SET `name` ='血腥之蘭 背擊' WHERE `item_id` = 4785;
-UPDATE `weapon` SET `name` ='地獄刀 偵測' WHERE `item_id` = 4786;
-UPDATE `weapon` SET `name` ='地獄刀 背擊' WHERE `item_id` = 4787;
-UPDATE `weapon` SET `name` ='地獄刀 致命力量' WHERE `item_id` = 4788;
-UPDATE `weapon` SET `name` ='圓月輪 Crt.吸收' WHERE `item_id` = 4789;
-UPDATE `weapon` SET `name` ='圓月輪 Crt.施毒' WHERE `item_id` = 4790;
-UPDATE `weapon` SET `name` ='圓月輪 Rsk.速度激發' WHERE `item_id` = 4791;
-UPDATE `weapon` SET `name` ='拳刃 Rsk.迴避' WHERE `item_id` = 4792;
-UPDATE `weapon` SET `name` ='拳刃 Rsk.速度激發' WHERE `item_id` = 4793;
-UPDATE `weapon` SET `name` ='拳刃 速度激發' WHERE `item_id` = 4794;
-UPDATE `weapon` SET `name` ='巨型帕塔拳刃 Crt.吸收' WHERE `item_id` = 4795;
-UPDATE `weapon` SET `name` ='巨型帕塔拳刃 Crt.施毒' WHERE `item_id` = 4796;
-UPDATE `weapon` SET `name` ='巨型帕塔拳刃 Rsk.速度激發' WHERE `item_id` = 4797;
-UPDATE `weapon` SET `name` ='關節拳 Rsk.迴避' WHERE `item_id` = 4798;
-UPDATE `weapon` SET `name` ='關節拳 Rsk.速度激發' WHERE `item_id` = 4799;
-UPDATE `weapon` SET `name` ='關節拳 速度激發' WHERE `item_id` = 4800;
-UPDATE `weapon` SET `name` ='阿斯拉爪 Crt.施毒' WHERE `item_id` = 4801;
-UPDATE `weapon` SET `name` ='阿斯拉爪 Rsk.迴避' WHERE `item_id` = 4802;
-UPDATE `weapon` SET `name` ='阿斯拉爪 Rsk.速度激發' WHERE `item_id` = 4803;
-UPDATE `weapon` SET `name` ='博利恩拳套 Crt.吸收' WHERE `item_id` = 4804;
-UPDATE `weapon` SET `name` ='博利恩拳套 Crt.施毒' WHERE `item_id` = 4805;
-UPDATE `weapon` SET `name` ='博利恩拳套 Rsk.速度激發' WHERE `item_id` = 4806;
-UPDATE `weapon` SET `name` ='血旋風 Crt.吸收' WHERE `item_id` = 4807;
-UPDATE `weapon` SET `name` ='血旋風 Rsk.迴避' WHERE `item_id` = 4808;
-UPDATE `weapon` SET `name` ='血旋風 速度激發' WHERE `item_id` = 4809;
-UPDATE `weapon` SET `name` ='冰晶弓 導引' WHERE `item_id` = 4810;
-UPDATE `weapon` SET `name` ='冰晶弓 迴避' WHERE `item_id` = 4811;
-UPDATE `weapon` SET `name` ='冰晶弓 快速恢復' WHERE `item_id` = 4812;
-UPDATE `weapon` SET `name` ='元素弓 導引' WHERE `item_id` = 4813;
-UPDATE `weapon` SET `name` ='元素弓 簡擊' WHERE `item_id` = 4814;
-UPDATE `weapon` SET `name` ='元素弓 快速恢復' WHERE `item_id` = 4815;
-UPDATE `weapon` SET `name` ='高級精靈弓 迴避' WHERE `item_id` = 4816;
-UPDATE `weapon` SET `name` ='高級精靈弓 簡擊' WHERE `item_id` = 4817;
-UPDATE `weapon` SET `name` ='高級精靈弓 節射' WHERE `item_id` = 4818;
-UPDATE `weapon` SET `name` ='阿卡特長弓 導引' WHERE `item_id` = 4819;
-UPDATE `weapon` SET `name` ='阿卡特長弓 迴避' WHERE `item_id` = 4820;
-UPDATE `weapon` SET `name` ='阿卡特長弓 簡擊' WHERE `item_id` = 4821;
-UPDATE `weapon` SET `name` ='卓越弓 導引' WHERE `item_id` = 4822;
-UPDATE `weapon` SET `name` ='卓越弓 簡擊' WHERE `item_id` = 4823;
-UPDATE `weapon` SET `name` ='卓越弓 節射' WHERE `item_id` = 4824;
-UPDATE `weapon` SET `name` ='黑暗精靈長弓 迴避' WHERE `item_id` = 4825;
-UPDATE `weapon` SET `name` ='黑暗精靈長弓 Crt.出血' WHERE `item_id` = 4826;
-UPDATE `weapon` SET `name` ='黑暗精靈長弓 簡擊' WHERE `item_id` = 4827;
-UPDATE `weapon` SET `name` ='冒險弓 導引' WHERE `item_id` = 4828;
-UPDATE `weapon` SET `name` ='冒險弓 快速恢復' WHERE `item_id` = 4829;
-UPDATE `weapon` SET `name` ='冒險弓 節射' WHERE `item_id` = 4830;
-UPDATE `weapon` SET `name` ='顱之弓 Crt.出血' WHERE `item_id` = 4831;
-UPDATE `weapon` SET `name` ='顱之弓 魔力上升' WHERE `item_id` = 4832;
-UPDATE `weapon` SET `name` ='顱之弓 快速恢復' WHERE `item_id` = 4833;
-UPDATE `weapon` SET `name` ='大鐮刀 怒擊' WHERE `item_id` = 4834;
-UPDATE `weapon` SET `name` ='大鐮刀 Crt.衝擊' WHERE `item_id` = 4835;
-UPDATE `weapon` SET `name` ='大鐮刀 輕裝' WHERE `item_id` = 4836;
-UPDATE `weapon` SET `name` ='歐西斯闊矛 怒擊' WHERE `item_id` = 4837;
-UPDATE `weapon` SET `name` ='歐西斯闊矛 Crt.衝擊' WHERE `item_id` = 4838;
-UPDATE `weapon` SET `name` ='歐西斯闊矛 遠程打擊' WHERE `item_id` = 4839;
-UPDATE `weapon` SET `name` ='殺戮者 Crt.衝擊' WHERE `item_id` = 4840;
-UPDATE `weapon` SET `name` ='殺戮者 遠程打擊' WHERE `item_id` = 4841;
-UPDATE `weapon` SET `name` ='殺戮者 寬幅打擊' WHERE `item_id` = 4842;
-UPDATE `weapon` SET `name` ='貝卡合金 Crt.衝擊' WHERE `item_id` = 4843;
-UPDATE `weapon` SET `name` ='貝卡合金 遠程打擊' WHERE `item_id` = 4844;
-UPDATE `weapon` SET `name` ='貝卡合金 輕裝' WHERE `item_id` = 4845;
-UPDATE `weapon` SET `name` ='蠍子 怒擊' WHERE `item_id` = 4846;
-UPDATE `weapon` SET `name` ='蠍子 Crt.衝擊' WHERE `item_id` = 4847;
-UPDATE `weapon` SET `name` ='蠍子 遠程打擊' WHERE `item_id` = 4848;
-UPDATE `weapon` SET `name` ='黑寡婦 Crt.衝擊' WHERE `item_id` = 4849;
-UPDATE `weapon` SET `name` ='黑寡婦 遠程打擊' WHERE `item_id` = 4850;
-UPDATE `weapon` SET `name` ='黑寡婦 寬幅打擊' WHERE `item_id` = 4851;
-UPDATE `weapon` SET `name` ='歐西斯戰斧 Crt.衝擊' WHERE `item_id` = 4852;
-UPDATE `weapon` SET `name` ='歐西斯戰斧 遠程打擊' WHERE `item_id` = 4853;
-UPDATE `weapon` SET `name` ='歐西斯戰斧 寬幅打擊' WHERE `item_id` = 4854;
-UPDATE `weapon` SET `name` ='巨斧 怒擊' WHERE `item_id` = 4855;
-UPDATE `weapon` SET `name` ='巨斧 Crt.衝擊' WHERE `item_id` = 4856;
-UPDATE `weapon` SET `name` ='巨斧 輕裝' WHERE `item_id` = 4857;
-UPDATE `weapon` SET `name` ='長槍 怒擊' WHERE `item_id` = 4858;
-UPDATE `weapon` SET `name` ='長槍 Crt.衝擊' WHERE `item_id` = 4859;
-UPDATE `weapon` SET `name` ='長槍 遠程打擊' WHERE `item_id` = 4860;
-UPDATE `weapon` SET `name` ='長柄戰戟 Crt.衝擊' WHERE `item_id` = 4861;
-UPDATE `weapon` SET `name` ='長柄戰戟 遠程打擊' WHERE `item_id` = 4862;
-UPDATE `weapon` SET `name` ='長柄戰戟 寬幅打擊' WHERE `item_id` = 4863;
-UPDATE `weapon` SET `name` ='巨大末日鎚 魔法強癒' WHERE `item_id` = 4864;
-UPDATE `weapon` SET `name` ='巨大末日鎚 魔法心靈防護' WHERE `item_id` = 4865;
-UPDATE `weapon` SET `name` ='巨大末日鎚 魔法束縛' WHERE `item_id` = 4866;
-UPDATE `weapon` SET `name` ='水晶魔杖 Rsk.迴避' WHERE `item_id` = 4867;
-UPDATE `weapon` SET `name` ='水晶魔杖 魔力上升' WHERE `item_id` = 4868;
-UPDATE `weapon` SET `name` ='水晶魔杖 魔法神佑之體' WHERE `item_id` = 4869;
-UPDATE `weapon` SET `name` ='巨大末日斧 魔法毒咒' WHERE `item_id` = 4870;
-UPDATE `weapon` SET `name` ='巨大末日斧 魔法弱化' WHERE `item_id` = 4871;
-UPDATE `weapon` SET `name` ='巨大末日斧 魔法混亂' WHERE `item_id` = 4872;
-UPDATE `weapon` SET `name` ='受詛咒的魔杖 魔法束縛' WHERE `item_id` = 4873;
-UPDATE `weapon` SET `name` ='受詛咒的魔杖 魔法毒咒' WHERE `item_id` = 4874;
-UPDATE `weapon` SET `name` ='受詛咒的魔杖 魔法弱化' WHERE `item_id` = 4875;
-UPDATE `weapon` SET `name` ='佩勒迪亞魔杖 魔法強癒' WHERE `item_id` = 4876;
-UPDATE `weapon` SET `name` ='佩勒迪亞魔杖 魔法心靈防護' WHERE `item_id` = 4877;
-UPDATE `weapon` SET `name` ='佩勒迪亞魔杖 魔法束縛' WHERE `item_id` = 4878;
-UPDATE `weapon` SET `name` ='帕格立歐之鎚 Rsk.迴避' WHERE `item_id` = 4879;
-UPDATE `weapon` SET `name` ='帕格立歐之鎚 魔法毒咒' WHERE `item_id` = 4880;
-UPDATE `weapon` SET `name` ='帕格立歐之鎚 魔法弱化' WHERE `item_id` = 4881;
-UPDATE `weapon` SET `name` ='賢者魔杖 魔法束縛' WHERE `item_id` = 4882;
-UPDATE `weapon` SET `name` ='賢者魔杖 魔法毒咒' WHERE `item_id` = 4883;
-UPDATE `weapon` SET `name` ='賢者魔杖 魔法弱化' WHERE `item_id` = 4884;
-UPDATE `weapon` SET `name` ='帕格立歐之斧 魔力上升' WHERE `item_id` = 4885;
-UPDATE `weapon` SET `name` ='帕格立歐之斧 魔法弱化' WHERE `item_id` = 4886;
-UPDATE `weapon` SET `name` ='帕格立歐之斧 魔法混亂' WHERE `item_id` = 4887;
-UPDATE `weapon` SET `name` ='亡者魔杖 魔法強癒' WHERE `item_id` = 4888;
-UPDATE `weapon` SET `name` ='亡者魔杖 魔法心靈防護' WHERE `item_id` = 4889;
-UPDATE `weapon` SET `name` ='亡者魔杖 魔法束縛' WHERE `item_id` = 4890;
-UPDATE `weapon` SET `name` ='食屍鬼魔杖 Rsk.迴避' WHERE `item_id` = 4891;
-UPDATE `weapon` SET `name` ='食屍鬼魔杖 魔力上升' WHERE `item_id` = 4892;
-UPDATE `weapon` SET `name` ='食屍鬼魔杖 魔法神佑之體' WHERE `item_id` = 4893;
-UPDATE `weapon` SET `name` ='惡魔魔杖 魔法毒咒' WHERE `item_id` = 4894;
-UPDATE `weapon` SET `name` ='惡魔魔杖 魔法弱化' WHERE `item_id` = 4895;
-UPDATE `weapon` SET `name` ='惡魔魔杖 魔法混亂' WHERE `item_id` = 4896;
-UPDATE `weapon` SET `name` ='精靈魔杖 魔法強癒' WHERE `item_id` = 4897;
-UPDATE `weapon` SET `name` ='精靈魔杖 魔法心靈防護' WHERE `item_id` = 4898;
-UPDATE `weapon` SET `name` ='精靈魔杖 魔法束縛' WHERE `item_id` = 4899;
-UPDATE `weapon` SET `name` ='邪靈魔杖 魔法偵測' WHERE `item_id` = 4900;
-UPDATE `weapon` SET `name` ='邪靈魔杖 魔法神佑之體' WHERE `item_id` = 4901;
-UPDATE `weapon` SET `name` ='邪靈魔杖 魔法毒咒' WHERE `item_id` = 4902;
-UPDATE `weapon` SET `name` ='帕黎恩魔杖' WHERE `item_id` = 4903;
-UPDATE `weapon` SET `name` ='帕黎恩魔杖' WHERE `item_id` = 4904;
-UPDATE `weapon` SET `name` ='帕黎恩魔杖' WHERE `item_id` = 4905;
-UPDATE `weapon` SET `name` ='怪物用(代伊拉)' WHERE `item_id` = 5127;
-UPDATE `weapon` SET `name` ='怪物用(可羅津)' WHERE `item_id` = 5128;
-UPDATE `weapon` SET `name` ='怪物用(人偶刀手)' WHERE `item_id` = 5129;
-UPDATE `weapon` SET `name` ='怪物用(諾司)' WHERE `item_id` = 5130;
-UPDATE `weapon` SET `name` ='怪物用(帕伊特)' WHERE `item_id` = 5131;
-UPDATE `weapon` SET `name` ='怪物用(巨矛)' WHERE `item_id` = 5132;
-UPDATE `weapon` SET `name` ='克魯諾鈴鼓' WHERE `item_id` = 5133;
-UPDATE `weapon` SET `name` ='蛇形刺' WHERE `item_id` = 5176;
-UPDATE `weapon` SET `name` ='飛龍角' WHERE `item_id` = 5177;
-UPDATE `weapon` SET `name` ='攻擊角' WHERE `item_id` = 5178;
-UPDATE `weapon` SET `name` ='龍切裂者' WHERE `item_id` = 5179;
-UPDATE `weapon` SET `name` ='蛇持矛者' WHERE `item_id` = 5180;
-UPDATE `weapon` SET `name` ='金剛石鑽' WHERE `item_id` = 5181;
-UPDATE `weapon` SET `name` ='蛇碎牙' WHERE `item_id` = 5187;
-UPDATE `weapon` SET `name` ='達哈克之牙' WHERE `item_id` = 5188;
-UPDATE `weapon` SET `name` ='緋紅血牙' WHERE `item_id` = 5189;
-UPDATE `weapon` SET `name` ='龍切牙' WHERE `item_id` = 5190;
-UPDATE `weapon` SET `name` ='鬼碎牙' WHERE `item_id` = 5191;
-UPDATE `weapon` SET `name` ='狼用75級武器' WHERE `item_id` = 5217;
-UPDATE `weapon` SET `name` ='柯貝克劍*柯貝克劍' WHERE `item_id` = 5233;
-UPDATE `weapon` SET `name` ='瑞韓德' WHERE `item_id` = 5284;
-UPDATE `weapon` SET `name` ='重型劍' WHERE `item_id` = 5285;
-UPDATE `weapon` SET `name` ='狂戰士之刃' WHERE `item_id` = 5286;
-UPDATE `weapon` SET `name` ='封印的黑暗水晶盾' WHERE `item_id` = 5292;
-UPDATE `weapon` SET `name` ='封印的夢魘盾' WHERE `item_id` = 5315;
-UPDATE `weapon` SET `name` ='帕黎恩魔杖 魔力上升' WHERE `item_id` = 5596;
-UPDATE `weapon` SET `name` ='帕黎恩魔杖 魂體轉換' WHERE `item_id` = 5597;
-UPDATE `weapon` SET `name` ='帕黎恩魔杖 靈活思緒' WHERE `item_id` = 5598;
-UPDATE `weapon` SET `name` ='流星雨 偵測' WHERE `item_id` = 5599;
-UPDATE `weapon` SET `name` ='流星雨 Crt.出血' WHERE `item_id` = 5600;
-UPDATE `weapon` SET `name` ='流星雨 Rsk.速度激發' WHERE `item_id` = 5601;
-UPDATE `weapon` SET `name` ='樂園 強健' WHERE `item_id` = 5602;
-UPDATE `weapon` SET `name` ='樂園 怒擊' WHERE `item_id` = 5603;
-UPDATE `weapon` SET `name` ='樂園 Crt.吸收' WHERE `item_id` = 5604;
-UPDATE `weapon` SET `name` ='世界樹樹枝 魂體轉換' WHERE `item_id` = 5605;
-UPDATE `weapon` SET `name` ='世界樹樹枝 魔法傷害' WHERE `item_id` = 5606;
-UPDATE `weapon` SET `name` ='世界樹樹枝 靈活思緒' WHERE `item_id` = 5607;
-UPDATE `weapon` SET `name` ='顱之弓 輕裝' WHERE `item_id` = 5608;
-UPDATE `weapon` SET `name` ='顱之弓 Crt.出血' WHERE `item_id` = 5609;
-UPDATE `weapon` SET `name` ='顱之弓 魔力上升' WHERE `item_id` = 5610;
-UPDATE `weapon` SET `name` ='靈魂弓 節射' WHERE `item_id` = 5611;
-UPDATE `weapon` SET `name` ='靈魂弓 快速恢復' WHERE `item_id` = 5612;
-UPDATE `weapon` SET `name` ='靈魂弓 Crt.施毒' WHERE `item_id` = 5613;
-UPDATE `weapon` SET `name` ='血腥之蘭 偵測' WHERE `item_id` = 5614;
-UPDATE `weapon` SET `name` ='血腥之蘭 背擊' WHERE `item_id` = 5615;
-UPDATE `weapon` SET `name` ='血腥之蘭 Crt.出血' WHERE `item_id` = 5616;
-UPDATE `weapon` SET `name` ='魂體分離器 導引' WHERE `item_id` = 5617;
-UPDATE `weapon` SET `name` ='魂體分離器 Crt.傷害' WHERE `item_id` = 5618;
-UPDATE `weapon` SET `name` ='魂體分離器 Rsk.速度激發' WHERE `item_id` = 5619;
-UPDATE `weapon` SET `name` ='血旋風 速度激發' WHERE `item_id` = 5620;
-UPDATE `weapon` SET `name` ='血旋風 偵測' WHERE `item_id` = 5621;
-UPDATE `weapon` SET `name` ='血旋風 怒擊' WHERE `item_id` = 5622;
-UPDATE `weapon` SET `name` ='龍牙 Rsk.迴避' WHERE `item_id` = 5623;
-UPDATE `weapon` SET `name` ='龍牙 導引' WHERE `item_id` = 5624;
-UPDATE `weapon` SET `name` ='龍牙 強健' WHERE `item_id` = 5625;
-UPDATE `weapon` SET `name` ='長柄戰戟 速度激發' WHERE `item_id` = 5626;
-UPDATE `weapon` SET `name` ='長柄戰戟 Crt.衝擊' WHERE `item_id` = 5627;
-UPDATE `weapon` SET `name` ='長柄戰戟 寬幅打擊' WHERE `item_id` = 5628;
-UPDATE `weapon` SET `name` ='歐西斯戰戟' WHERE `item_id` = 5629;
-UPDATE `weapon` SET `name` ='歐西斯戰戟' WHERE `item_id` = 5630;
-UPDATE `weapon` SET `name` ='歐西斯戰戟' WHERE `item_id` = 5631;
-UPDATE `weapon` SET `name` ='塔魯闊矛 導引' WHERE `item_id` = 5632;
-UPDATE `weapon` SET `name` ='塔魯闊矛 強健' WHERE `item_id` = 5633;
-UPDATE `weapon` SET `name` ='塔魯闊矛 寬幅打擊' WHERE `item_id` = 5634;
-UPDATE `weapon` SET `name` ='塔魯刀 Crt.施毒' WHERE `item_id` = 5635;
-UPDATE `weapon` SET `name` ='塔魯刀 速度激發' WHERE `item_id` = 5636;
-UPDATE `weapon` SET `name` ='塔魯刀 怒擊' WHERE `item_id` = 5637;
-UPDATE `weapon` SET `name` ='元素劍 魔法之力' WHERE `item_id` = 5638;
-UPDATE `weapon` SET `name` ='元素劍 魔法麻痺' WHERE `item_id` = 5639;
-UPDATE `weapon` SET `name` ='元素劍 魔力催化' WHERE `item_id` = 5640;
-UPDATE `weapon` SET `name` ='奇蹟劍 魔法之力' WHERE `item_id` = 5641;
-UPDATE `weapon` SET `name` ='奇蹟劍 魔法沉默' WHERE `item_id` = 5642;
-UPDATE `weapon` SET `name` ='奇蹟劍 靈活思緒' WHERE `item_id` = 5643;
-UPDATE `weapon` SET `name` ='斬龍刀 強健' WHERE `item_id` = 5644;
-UPDATE `weapon` SET `name` ='斬龍刀 Crt.出血' WHERE `item_id` = 5645;
-UPDATE `weapon` SET `name` ='斬龍刀 Crt.吸收' WHERE `item_id` = 5646;
-UPDATE `weapon` SET `name` ='黑暗軍刀 Crt.傷害' WHERE `item_id` = 5647;
-UPDATE `weapon` SET `name` ='黑暗軍刀 強健' WHERE `item_id` = 5648;
-UPDATE `weapon` SET `name` ='黑暗軍刀 Rsk.偵測' WHERE `item_id` = 5649;
-UPDATE `weapon` SET `name` ='柯貝克劍*柯貝克劍' WHERE `item_id` = 5704;
-UPDATE `weapon` SET `name` ='柯貝克劍*大馬士革刀' WHERE `item_id` = 5705;
-UPDATE `weapon` SET `name` ='大馬士革刀*大馬士革刀' WHERE `item_id` = 5706;
-UPDATE `weapon` SET `name` ='怪物用(棍棒)' WHERE `item_id` = 5791;
-UPDATE `weapon` SET `name` ='怪物用(狼牙棒)' WHERE `item_id` = 5792;
-UPDATE `weapon` SET `name` ='怪物用(權杖)' WHERE `item_id` = 5793;
-UPDATE `weapon` SET `name` ='怪物用(指揮棒)' WHERE `item_id` = 5794;
-UPDATE `weapon` SET `name` ='怪物用(矛)' WHERE `item_id` = 5795;
-UPDATE `weapon` SET `name` ='怪物用(斧)' WHERE `item_id` = 5796;
-UPDATE `weapon` SET `name` ='怪物用(指揮棒)' WHERE `item_id` = 5797;
-UPDATE `weapon` SET `name` ='怪物用(權杖)' WHERE `item_id` = 5798;
-UPDATE `weapon` SET `name` ='怪物用(那芙琳盾)' WHERE `item_id` = 5799;
-UPDATE `weapon` SET `name` ='怪物用(那芙琳劍)' WHERE `item_id` = 5800;
-UPDATE `weapon` SET `name` ='NPC專用(黃昏)' WHERE `item_id` = 5801;
-UPDATE `weapon` SET `name` ='NPC專用(黎明)' WHERE `item_id` = 5802;
-UPDATE `weapon` SET `name` ='克魯諾杖鐘' WHERE `item_id` = 5817;
-UPDATE `weapon` SET `name` ='極限之劍 導引' WHERE `item_id` = 6307;
-UPDATE `weapon` SET `name` ='極限之劍 Crt.吸收' WHERE `item_id` = 6308;
-UPDATE `weapon` SET `name` ='極限之劍 強健' WHERE `item_id` = 6309;
-UPDATE `weapon` SET `name` ='死息之劍 魔力催化' WHERE `item_id` = 6310;
-UPDATE `weapon` SET `name` ='死息之劍 魔法之力' WHERE `item_id` = 6311;
-UPDATE `weapon` SET `name` ='死息之劍 魔法沉默' WHERE `item_id` = 6312;
-UPDATE `weapon` SET `name` ='何門奎思之劍 靈活思緒' WHERE `item_id` = 6313;
-UPDATE `weapon` SET `name` ='何門奎思之劍 魂體轉換' WHERE `item_id` = 6314;
-UPDATE `weapon` SET `name` ='何門奎思之劍 魔法麻痺' WHERE `item_id` = 6315;
-UPDATE `weapon` SET `name` ='狂戰士之刃 偵測' WHERE `item_id` = 6347;
-UPDATE `weapon` SET `name` ='狂戰士之刃 Crt.傷害' WHERE `item_id` = 6348;
-UPDATE `weapon` SET `name` ='狂戰士之刃 速度激發' WHERE `item_id` = 6349;
-UPDATE `weapon` SET `name` ='彎刃大刀-新手用' WHERE `item_id` = 6354;
-UPDATE `weapon` SET `name` ='法師魔杖-新手用' WHERE `item_id` = 6355;
-UPDATE `weapon` SET `name` ='黑暗精靈匕首 Rsk.速度激發' WHERE `item_id` = 6356;
-UPDATE `weapon` SET `name` ='袖珍刀 Rsk.速度激發' WHERE `item_id` = 6357;
-UPDATE `weapon` SET `name` ='水晶匕首 Crt.傷害' WHERE `item_id` = 6358;
-UPDATE `weapon` SET `name` ='惡魔短劍 Crt.傷害' WHERE `item_id` = 6359;
-UPDATE `weapon` SET `name` ='忘卻之刃' WHERE `item_id` = 6364;
-UPDATE `weapon` SET `name` ='玄武岩戰鎚' WHERE `item_id` = 6365;
-UPDATE `weapon` SET `name` ='帝國權杖' WHERE `item_id` = 6366;
-UPDATE `weapon` SET `name` ='天使殺手' WHERE `item_id` = 6367;
-UPDATE `weapon` SET `name` ='閃耀弓' WHERE `item_id` = 6368;
-UPDATE `weapon` SET `name` ='狩龍之斧' WHERE `item_id` = 6369;
-UPDATE `weapon` SET `name` ='聖者之矛' WHERE `item_id` = 6370;
-UPDATE `weapon` SET `name` ='惡魔獵爪' WHERE `item_id` = 6371;
-UPDATE `weapon` SET `name` ='天國審判' WHERE `item_id` = 6372;
-UPDATE `weapon` SET `name` ='帝國聖軍盾' WHERE `item_id` = 6377;
-UPDATE `weapon` SET `name` ='雛鴨桿' WHERE `item_id` = 6529;
-UPDATE `weapon` SET `name` ='信天翁桿' WHERE `item_id` = 6530;
-UPDATE `weapon` SET `name` ='送子鳥桿' WHERE `item_id` = 6531;
-UPDATE `weapon` SET `name` ='翠鳥桿' WHERE `item_id` = 6532;
-UPDATE `weapon` SET `name` ='天鵝座長竿' WHERE `item_id` = 6533;
-UPDATE `weapon` SET `name` ='海神崔坦長竿' WHERE `item_id` = 6534;
-UPDATE `weapon` SET `name` ='祕儀權杖' WHERE `item_id` = 6579;
-UPDATE `weapon` SET `name` ='塔魯刀*黑暗軍刀' WHERE `item_id` = 6580;
-UPDATE `weapon` SET `name` ='忘卻之刃 速度激發' WHERE `item_id` = 6581;
-UPDATE `weapon` SET `name` ='忘卻之刃 強健' WHERE `item_id` = 6582;
-UPDATE `weapon` SET `name` ='忘卻之刃 偵測' WHERE `item_id` = 6583;
-UPDATE `weapon` SET `name` ='玄武岩戰鎚 HP吸收' WHERE `item_id` = 6584;
-UPDATE `weapon` SET `name` ='玄武岩戰鎚 強健' WHERE `item_id` = 6585;
-UPDATE `weapon` SET `name` ='玄武岩戰鎚 體力再生' WHERE `item_id` = 6586;
-UPDATE `weapon` SET `name` ='帝國權杖 魔力催化' WHERE `item_id` = 6587;
-UPDATE `weapon` SET `name` ='帝國權杖 魔力再生' WHERE `item_id` = 6588;
-UPDATE `weapon` SET `name` ='帝國權杖 魔法束縛' WHERE `item_id` = 6589;
-UPDATE `weapon` SET `name` ='天使殺手 Crt.傷害' WHERE `item_id` = 6590;
-UPDATE `weapon` SET `name` ='天使殺手 HP吸收' WHERE `item_id` = 6591;
-UPDATE `weapon` SET `name` ='天使殺手 速度激發' WHERE `item_id` = 6592;
-UPDATE `weapon` SET `name` ='閃耀弓 節射' WHERE `item_id` = 6593;
-UPDATE `weapon` SET `name` ='閃耀弓 偵測' WHERE `item_id` = 6594;
-UPDATE `weapon` SET `name` ='閃耀弓 Crt.緩速' WHERE `item_id` = 6595;
-UPDATE `weapon` SET `name` ='狩龍之斧 體力再生' WHERE `item_id` = 6596;
-UPDATE `weapon` SET `name` ='狩龍之斧 強健' WHERE `item_id` = 6597;
-UPDATE `weapon` SET `name` ='狩龍之斧 HP吸收' WHERE `item_id` = 6598;
-UPDATE `weapon` SET `name` ='聖者之矛 強健' WHERE `item_id` = 6599;
-UPDATE `weapon` SET `name` ='聖者之矛 導引' WHERE `item_id` = 6600;
-UPDATE `weapon` SET `name` ='聖者之矛 速度激發' WHERE `item_id` = 6601;
-UPDATE `weapon` SET `name` ='惡魔獵爪 偵測' WHERE `item_id` = 6602;
-UPDATE `weapon` SET `name` ='惡魔獵爪 強健' WHERE `item_id` = 6603;
-UPDATE `weapon` SET `name` ='惡魔獵爪 Crt.衝擊' WHERE `item_id` = 6604;
-UPDATE `weapon` SET `name` ='天國審判 速度激發' WHERE `item_id` = 6605;
-UPDATE `weapon` SET `name` ='天國審判 強健' WHERE `item_id` = 6606;
-UPDATE `weapon` SET `name` ='天國審判 偵測' WHERE `item_id` = 6607;
-UPDATE `weapon` SET `name` ='祕儀權杖 靈活思緒' WHERE `item_id` = 6608;
-UPDATE `weapon` SET `name` ='祕儀權杖 魔力再生' WHERE `item_id` = 6609;
-UPDATE `weapon` SET `name` ='祕儀權杖 魔力上升' WHERE `item_id` = 6610;
-UPDATE `weapon` SET `name` ='無限聖劍' WHERE `item_id` = 6611;
-UPDATE `weapon` SET `name` ='無限滅斬' WHERE `item_id` = 6612;
-UPDATE `weapon` SET `name` ='無限霸斧' WHERE `item_id` = 6613;
-UPDATE `weapon` SET `name` ='無限神杖' WHERE `item_id` = 6614;
-UPDATE `weapon` SET `name` ='無限巨鎚' WHERE `item_id` = 6615;
-UPDATE `weapon` SET `name` ='無限魔杖' WHERE `item_id` = 6616;
-UPDATE `weapon` SET `name` ='無限鬼殺' WHERE `item_id` = 6617;
-UPDATE `weapon` SET `name` ='無限殛牙' WHERE `item_id` = 6618;
-UPDATE `weapon` SET `name` ='無限斷空' WHERE `item_id` = 6619;
-UPDATE `weapon` SET `name` ='無限鬥翼' WHERE `item_id` = 6620;
-UPDATE `weapon` SET `name` ='無限烈槍' WHERE `item_id` = 6621;
-UPDATE `weapon` SET `name` ='封印的帝國聖軍盾' WHERE `item_id` = 6678;
-UPDATE `weapon` SET `name` ='怪物用(賽勒諾斯射手)' WHERE `item_id` = 6715;
-UPDATE `weapon` SET `name` ='怪物用(賽勒諾斯咒術士)' WHERE `item_id` = 6716;
-UPDATE `weapon` SET `name` ='怪物用(殷海薩戰士)' WHERE `item_id` = 6717;
-UPDATE `weapon` SET `name` ='怪物用(殷海薩法師)' WHERE `item_id` = 6718;
-UPDATE `weapon` SET `name` ='怪物用(肯特拉獸人隊長)' WHERE `item_id` = 6719;
-UPDATE `weapon` SET `name` ='怪物用(哈里夏的影子)' WHERE `item_id` = 6720;
-UPDATE `weapon` SET `name` ='怪物用(帝國戰將殭屍盾)' WHERE `item_id` = 6721;
-UPDATE `weapon` SET `name` ='怪物用(亞利曼那斯)' WHERE `item_id` = 6722;
-UPDATE `weapon` SET `name` ='怪物用(吸血鬼戰士)' WHERE `item_id` = 6723;
-UPDATE `weapon` SET `name` ='血盟之盾' WHERE `item_id` = 6902;
-UPDATE `weapon` SET `name` ='怪物用(毒針)' WHERE `item_id` = 6917;
-UPDATE `weapon` SET `name` ='怪物用(賽勒諾斯盾)' WHERE `item_id` = 6918;
-UPDATE `weapon` SET `name` ='怪物用(肯特拉獸人盾)' WHERE `item_id` = 6919;
-UPDATE `weapon` SET `name` ='怪物用(黑龍盾)' WHERE `item_id` = 7014;
-UPDATE `weapon` SET `name` ='城盟之盾' WHERE `item_id` = 7015;
-UPDATE `weapon` SET `name` ='克魯諾達布卡' WHERE `item_id` = 7058;
-UPDATE `weapon` SET `name` ='怪物用(釣竿)' WHERE `item_id` = 7560;
-UPDATE `weapon` SET `name` ='紅龍之弓' WHERE `item_id` = 7575;
-UPDATE `weapon` SET `name` ='紅龍之弓 節射' WHERE `item_id` = 7576;
-UPDATE `weapon` SET `name` ='紅龍之弓 偵測' WHERE `item_id` = 7577;
-UPDATE `weapon` SET `name` ='紅龍之弓 Crt.緩速' WHERE `item_id` = 7578;
-UPDATE `weapon` SET `name` ='信仰手杖 魔力上升' WHERE `item_id` = 7701;
-UPDATE `weapon` SET `name` ='信仰手杖 魔法束縛' WHERE `item_id` = 7702;
-UPDATE `weapon` SET `name` ='信仰手杖 魔法心靈防護' WHERE `item_id` = 7703;
-UPDATE `weapon` SET `name` ='永恆手杖 魔力催化' WHERE `item_id` = 7704;
-UPDATE `weapon` SET `name` ='永恆手杖 Rsk.迴避' WHERE `item_id` = 7705;
-UPDATE `weapon` SET `name` ='永恆手杖 魔法神佑之體' WHERE `item_id` = 7706;
-UPDATE `weapon` SET `name` ='夢想斧 魔法之力' WHERE `item_id` = 7707;
-UPDATE `weapon` SET `name` ='夢想斧 魔法毒咒' WHERE `item_id` = 7708;
-UPDATE `weapon` SET `name` ='夢想斧 魔法弱化' WHERE `item_id` = 7709;
-UPDATE `weapon` SET `name` ='自然之棍 靈活思緒' WHERE `item_id` = 7710;
-UPDATE `weapon` SET `name` ='自然之棍 魔法心靈防護' WHERE `item_id` = 7711;
-UPDATE `weapon` SET `name` ='自然之棍 魔法束縛' WHERE `item_id` = 7712;
-UPDATE `weapon` SET `name` ='煉獄之鎚 魔力上升' WHERE `item_id` = 7713;
-UPDATE `weapon` SET `name` ='煉獄之鎚 魔法沉默' WHERE `item_id` = 7714;
-UPDATE `weapon` SET `name` ='煉獄之鎚 魂體轉換' WHERE `item_id` = 7715;
-UPDATE `weapon` SET `name` ='地獄魔杖 靈活思緒' WHERE `item_id` = 7716;
-UPDATE `weapon` SET `name` ='地獄魔杖 魔法沉默' WHERE `item_id` = 7717;
-UPDATE `weapon` SET `name` ='地獄魔杖 魔法麻痺' WHERE `item_id` = 7718;
-UPDATE `weapon` SET `name` ='長柄戰斧 Crt.衝擊' WHERE `item_id` = 7719;
-UPDATE `weapon` SET `name` ='長柄戰斧 遠程打擊' WHERE `item_id` = 7720;
-UPDATE `weapon` SET `name` ='長柄戰斧 寬幅打擊' WHERE `item_id` = 7721;
-UPDATE `weapon` SET `name` ='聖堂之劍 靈活思緒' WHERE `item_id` = 7722;
-UPDATE `weapon` SET `name` ='聖堂之劍 魔法弱化' WHERE `item_id` = 7723;
-UPDATE `weapon` SET `name` ='聖堂之劍 魔法強癒' WHERE `item_id` = 7724;
-UPDATE `weapon` SET `name` ='魔炎匕首 魔力上升' WHERE `item_id` = 7810;
-UPDATE `weapon` SET `name` ='魔炎匕首 魔法束縛' WHERE `item_id` = 7811;
-UPDATE `weapon` SET `name` ='魔炎匕首 魔法沉默' WHERE `item_id` = 7812;
-UPDATE `weapon` SET `name` ='地獄刀 魔法強癒' WHERE `item_id` = 7813;
-UPDATE `weapon` SET `name` ='地獄刀 魔法心靈防護' WHERE `item_id` = 7814;
-UPDATE `weapon` SET `name` ='地獄刀 魔法弱化' WHERE `item_id` = 7815;
-UPDATE `weapon` SET `name` ='見習冒險家魔杖' WHERE `item_id` = 7816;
-UPDATE `weapon` SET `name` ='見習冒險家骨棒' WHERE `item_id` = 7817;
-UPDATE `weapon` SET `name` ='見習冒險家匕首' WHERE `item_id` = 7818;
-UPDATE `weapon` SET `name` ='見習冒險家拳套' WHERE `item_id` = 7819;
-UPDATE `weapon` SET `name` ='見習冒險家之弓' WHERE `item_id` = 7820;
-UPDATE `weapon` SET `name` ='見習冒險家之劍' WHERE `item_id` = 7821;
-UPDATE `weapon` SET `name` ='旅者釘鎚' WHERE `item_id` = 7822;
-UPDATE `weapon` SET `name` ='旅者黑暗精靈弓' WHERE `item_id` = 7823;
-UPDATE `weapon` SET `name` ='旅者長弓' WHERE `item_id` = 7824;
-UPDATE `weapon` SET `name` ='旅者魔杖' WHERE `item_id` = 7825;
-UPDATE `weapon` SET `name` ='旅者重劍' WHERE `item_id` = 7826;
-UPDATE `weapon` SET `name` ='旅者之書' WHERE `item_id` = 7827;
-UPDATE `weapon` SET `name` ='旅者單刃刀' WHERE `item_id` = 7828;
-UPDATE `weapon` SET `name` ='旅者鷹之斧' WHERE `item_id` = 7829;
-UPDATE `weapon` SET `name` ='旅者短匕首' WHERE `item_id` = 7830;
-UPDATE `weapon` SET `name` ='旅者之矛' WHERE `item_id` = 7831;
-UPDATE `weapon` SET `name` ='怪物用(工藝戰斧)' WHERE `item_id` = 7834;
-UPDATE `weapon` SET `name` ='鋼劍' WHERE `item_id` = 7880;
-UPDATE `weapon` SET `name` ='下巨人之劍' WHERE `item_id` = 7881;
-UPDATE `weapon` SET `name` ='帕格立歐之劍' WHERE `item_id` = 7882;
-UPDATE `weapon` SET `name` ='守護神之劍' WHERE `item_id` = 7883;
-UPDATE `weapon` SET `name` ='煉獄之主' WHERE `item_id` = 7884;
-UPDATE `weapon` SET `name` ='祭司之劍' WHERE `item_id` = 7885;
-UPDATE `weapon` SET `name` ='魔霧之劍' WHERE `item_id` = 7886;
-UPDATE `weapon` SET `name` ='奧祕之刃' WHERE `item_id` = 7887;
-UPDATE `weapon` SET `name` ='日蝕劍' WHERE `item_id` = 7888;
-UPDATE `weapon` SET `name` ='巫師之淚' WHERE `item_id` = 7889;
-UPDATE `weapon` SET `name` ='祭司釘鎚' WHERE `item_id` = 7890;
-UPDATE `weapon` SET `name` ='月蝕斧' WHERE `item_id` = 7891;
-UPDATE `weapon` SET `name` ='破咒者' WHERE `item_id` = 7892;
-UPDATE `weapon` SET `name` ='卡倚巴奴之骨' WHERE `item_id` = 7893;
-UPDATE `weapon` SET `name` ='英魂之眼' WHERE `item_id` = 7894;
-UPDATE `weapon` SET `name` ='火龍之首' WHERE `item_id` = 7895;
-UPDATE `weapon` SET `name` ='下巨人之鎚' WHERE `item_id` = 7896;
-UPDATE `weapon` SET `name` ='矮人巨鎚' WHERE `item_id` = 7897;
-UPDATE `weapon` SET `name` ='卡拉克衝角' WHERE `item_id` = 7898;
-UPDATE `weapon` SET `name` ='破壞者巨鎚' WHERE `item_id` = 7899;
-UPDATE `weapon` SET `name` ='暴風雪巨鎚' WHERE `item_id` = 7900;
-UPDATE `weapon` SET `name` ='星爆' WHERE `item_id` = 7901;
-UPDATE `weapon` SET `name` ='末日毀滅者' WHERE `item_id` = 7902;
-UPDATE `weapon` SET `name` ='芙琳泰沙之劍' WHERE `item_id` = 7903;
-UPDATE `weapon` SET `name` ='帕格立歐之劍 偵測' WHERE `item_id` = 8102;
-UPDATE `weapon` SET `name` ='帕格立歐之劍 強健' WHERE `item_id` = 8103;
-UPDATE `weapon` SET `name` ='帕格立歐之劍 Crt.吸收' WHERE `item_id` = 8104;
-UPDATE `weapon` SET `name` ='守護神之劍 Crt.吸收' WHERE `item_id` = 8105;
-UPDATE `weapon` SET `name` ='守護神之劍 強健' WHERE `item_id` = 8106;
-UPDATE `weapon` SET `name` ='守護神之劍 Crt.出血' WHERE `item_id` = 8107;
-UPDATE `weapon` SET `name` ='煉獄之主 速度激發' WHERE `item_id` = 8108;
-UPDATE `weapon` SET `name` ='煉獄之主 Crt.傷害' WHERE `item_id` = 8109;
-UPDATE `weapon` SET `name` ='煉獄之主 偵測' WHERE `item_id` = 8110;
-UPDATE `weapon` SET `name` ='奧祕之刃 靈活思緒' WHERE `item_id` = 8111;
-UPDATE `weapon` SET `name` ='奧祕之刃 魔法之力' WHERE `item_id` = 8112;
-UPDATE `weapon` SET `name` ='奧祕之刃 魔法弱化' WHERE `item_id` = 8113;
-UPDATE `weapon` SET `name` ='日蝕劍 魔力催化' WHERE `item_id` = 8114;
-UPDATE `weapon` SET `name` ='日蝕劍 魔法之力' WHERE `item_id` = 8115;
-UPDATE `weapon` SET `name` ='日蝕劍 魔法沉默' WHERE `item_id` = 8116;
-UPDATE `weapon` SET `name` ='巫師之淚 靈活思緒' WHERE `item_id` = 8117;
-UPDATE `weapon` SET `name` ='巫師之淚 魔法之力' WHERE `item_id` = 8118;
-UPDATE `weapon` SET `name` ='巫師之淚 魂體轉換' WHERE `item_id` = 8119;
-UPDATE `weapon` SET `name` ='矮人巨鎚 強健' WHERE `item_id` = 8120;
-UPDATE `weapon` SET `name` ='矮人巨鎚 怒擊' WHERE `item_id` = 8121;
-UPDATE `weapon` SET `name` ='矮人巨鎚 Crt.出血' WHERE `item_id` = 8122;
-UPDATE `weapon` SET `name` ='卡拉克衝角 偵測' WHERE `item_id` = 8123;
-UPDATE `weapon` SET `name` ='卡拉克衝角 速度激發' WHERE `item_id` = 8124;
-UPDATE `weapon` SET `name` ='卡拉克衝角 Crt.吸收' WHERE `item_id` = 8125;
-UPDATE `weapon` SET `name` ='破壞者巨鎚 強健' WHERE `item_id` = 8126;
-UPDATE `weapon` SET `name` ='破壞者巨鎚 速度激發' WHERE `item_id` = 8127;
-UPDATE `weapon` SET `name` ='破壞者巨鎚 Crt.吸收' WHERE `item_id` = 8128;
-UPDATE `weapon` SET `name` ='暴風雪巨鎚 偵測' WHERE `item_id` = 8129;
-UPDATE `weapon` SET `name` ='暴風雪巨鎚 怒擊' WHERE `item_id` = 8130;
-UPDATE `weapon` SET `name` ='暴風雪巨鎚 Crt.出血' WHERE `item_id` = 8131;
-UPDATE `weapon` SET `name` ='星爆 強健' WHERE `item_id` = 8132;
-UPDATE `weapon` SET `name` ='星爆 速度激發' WHERE `item_id` = 8133;
-UPDATE `weapon` SET `name` ='星爆 Rsk.偵測' WHERE `item_id` = 8134;
-UPDATE `weapon` SET `name` ='末日毀滅者 強健' WHERE `item_id` = 8135;
-UPDATE `weapon` SET `name` ='末日毀滅者 怒擊' WHERE `item_id` = 8136;
-UPDATE `weapon` SET `name` ='末日毀滅者 Rsk.速度激發' WHERE `item_id` = 8137;
-UPDATE `weapon` SET `name` ='月蝕斧 魂體轉換' WHERE `item_id` = 8138;
-UPDATE `weapon` SET `name` ='月蝕斧 魔法之力' WHERE `item_id` = 8139;
-UPDATE `weapon` SET `name` ='月蝕斧 魔法束縛' WHERE `item_id` = 8140;
-UPDATE `weapon` SET `name` ='破咒者 靈活思緒' WHERE `item_id` = 8141;
-UPDATE `weapon` SET `name` ='破咒者 魔法心靈防護' WHERE `item_id` = 8142;
-UPDATE `weapon` SET `name` ='破咒者 魔法束縛' WHERE `item_id` = 8143;
-UPDATE `weapon` SET `name` ='卡倚巴奴之骨 魔力上升' WHERE `item_id` = 8144;
-UPDATE `weapon` SET `name` ='卡倚巴奴之骨 魔法沉默' WHERE `item_id` = 8145;
-UPDATE `weapon` SET `name` ='卡倚巴奴之骨 魂體轉換' WHERE `item_id` = 8146;
-UPDATE `weapon` SET `name` ='英魂之眼 魔力上升' WHERE `item_id` = 8147;
-UPDATE `weapon` SET `name` ='英魂之眼 魔法毒咒' WHERE `item_id` = 8148;
-UPDATE `weapon` SET `name` ='英魂之眼 靈活思緒' WHERE `item_id` = 8149;
-UPDATE `weapon` SET `name` ='火龍之首 靈活思緒' WHERE `item_id` = 8150;
-UPDATE `weapon` SET `name` ='火龍之首 魔法之力' WHERE `item_id` = 8151;
-UPDATE `weapon` SET `name` ='火龍之首 魔法沉默' WHERE `item_id` = 8152;
-UPDATE `weapon` SET `name` ='魔劍‧薩雷奇' WHERE `item_id` = 8190;
-UPDATE `weapon` SET `name` ='怪物用(benom_sword)' WHERE `item_id` = 8203;
-UPDATE `weapon` SET `name` ='怪物用(follower_of_frintessa_calibur)' WHERE `item_id` = 8204;
-UPDATE `weapon` SET `name` ='怪物用(heretic_priest_sickle)' WHERE `item_id` = 8205;
-UPDATE `weapon` SET `name` ='怪物用(heretic_priest_sword)' WHERE `item_id` = 8206;
-UPDATE `weapon` SET `name` ='怪物用(heretic_privates_axe)' WHERE `item_id` = 8207;
-UPDATE `weapon` SET `name` ='怪物用(heretic_privates_staff)' WHERE `item_id` = 8208;
-UPDATE `weapon` SET `name` ='怪物用(lidia_von_helmann_sword)' WHERE `item_id` = 8209;
-UPDATE `weapon` SET `name` ='怪物用(monk_warrior_shield)' WHERE `item_id` = 8210;
-UPDATE `weapon` SET `name` ='怪物用(monk_warrior_sword)' WHERE `item_id` = 8211;
-UPDATE `weapon` SET `name` ='怪物用(solina_brother_mace)' WHERE `item_id` = 8212;
-UPDATE `weapon` SET `name` ='怪物用(solina_father_mace)' WHERE `item_id` = 8213;
-UPDATE `weapon` SET `name` ='怪物用(solina_priest_pole)' WHERE `item_id` = 8214;
-UPDATE `weapon` SET `name` ='怪物用(zombie_enlisted_man_sword)' WHERE `item_id` = 8215;
-UPDATE `weapon` SET `name` ='怪物用(zombie_enlisted_man_claw)' WHERE `item_id` = 8216;
-UPDATE `weapon` SET `name` ='怪物用(zombie_gateguard_spear)' WHERE `item_id` = 8217;
-UPDATE `weapon` SET `name` ='怪物用(zombie_laborer_axe)' WHERE `item_id` = 8218;
-UPDATE `weapon` SET `name` ='怪物用(zombie_laborer_sword)' WHERE `item_id` = 8219;
-UPDATE `weapon` SET `name` ='怪物用(apostle_grail_bow)' WHERE `item_id` = 8220;
-UPDATE `weapon` SET `name` ='怪物用(apostle_grail_spear)' WHERE `item_id` = 8221;
-UPDATE `weapon` SET `name` ='怪物用(follower_of_frintessa_tran_calibur)' WHERE `item_id` = 8222;
-UPDATE `weapon` SET `name` ='克魯諾瑪拉卡斯' WHERE `item_id` = 8350;
-UPDATE `weapon` SET `name` ='怪物用(強化弓)' WHERE `item_id` = 8527;
-UPDATE `weapon` SET `name` ='怪物用(末日之鎚)' WHERE `item_id` = 8528;
-UPDATE `weapon` SET `name` ='怪物用(小刀)' WHERE `item_id` = 8529;
-UPDATE `weapon` SET `name` ='怪物用(見習騎士之劍)' WHERE `item_id` = 8530;
-UPDATE `weapon` SET `name` ='怪物用(骨頭魔杖)' WHERE `item_id` = 8531;
-UPDATE `weapon` SET `name` ='怪物用(椎骨之劍)' WHERE `item_id` = 8532;
-UPDATE `weapon` SET `name` ='怪物用(緋紅劍)' WHERE `item_id` = 8533;
-UPDATE `weapon` SET `name` ='見習生魔杖-禮券活動用' WHERE `item_id` = 8576;
-UPDATE `weapon` SET `name` ='骨棒-禮券活動用' WHERE `item_id` = 8577;
-UPDATE `weapon` SET `name` ='閃耀刀-禮券活動用' WHERE `item_id` = 8578;
-UPDATE `weapon` SET `name` ='搏擊手套-禮券活動用' WHERE `item_id` = 8579;
-UPDATE `weapon` SET `name` ='森林弓-禮券活動用' WHERE `item_id` = 8580;
-UPDATE `weapon` SET `name` ='長劍-禮券活動用' WHERE `item_id` = 8581;
-UPDATE `weapon` SET `name` ='祈禱者之鎚-禮券活動用' WHERE `item_id` = 8582;
-UPDATE `weapon` SET `name` ='黑暗精靈弓-禮券活動用' WHERE `item_id` = 8583;
-UPDATE `weapon` SET `name` ='長弓-禮券活動用' WHERE `item_id` = 8584;
-UPDATE `weapon` SET `name` ='瑪那魔杖-禮券活動用' WHERE `item_id` = 8585;
-UPDATE `weapon` SET `name` ='重劍-禮券活動用' WHERE `item_id` = 8586;
-UPDATE `weapon` SET `name` ='神聖的卷冊-禮券活動用' WHERE `item_id` = 8587;
-UPDATE `weapon` SET `name` ='單刃刀-禮券活動用' WHERE `item_id` = 8588;
-UPDATE `weapon` SET `name` ='鷹之斧-禮券活動用' WHERE `item_id` = 8589;
-UPDATE `weapon` SET `name` ='短匕首-禮券活動用' WHERE `item_id` = 8590;
-UPDATE `weapon` SET `name` ='矛-禮券活動用' WHERE `item_id` = 8591;
-UPDATE `weapon` SET `name` ='希露冰刃' WHERE `item_id` = 8678;
-UPDATE `weapon` SET `name` ='伊波斯巨劍' WHERE `item_id` = 8679;
-UPDATE `weapon` SET `name` ='貝拉凱爾聖斧' WHERE `item_id` = 8680;
-UPDATE `weapon` SET `name` ='貝希莫斯巨叉' WHERE `item_id` = 8681;
-UPDATE `weapon` SET `name` ='那卡風暴' WHERE `item_id` = 8682;
-UPDATE `weapon` SET `name` ='岱依封長戟' WHERE `item_id` = 8683;
-UPDATE `weapon` SET `name` ='夏伊德獵弓' WHERE `item_id` = 8684;
-UPDATE `weapon` SET `name` ='索貝克颶風' WHERE `item_id` = 8685;
-UPDATE `weapon` SET `name` ='緹米絲之舌' WHERE `item_id` = 8686;
-UPDATE `weapon` SET `name` ='卡布里歐之手' WHERE `item_id` = 8687;
-UPDATE `weapon` SET `name` ='惡魔結晶' WHERE `item_id` = 8688;
-UPDATE `weapon` SET `name` ='血劍‧阿卡瑪那夫' WHERE `item_id` = 8689;
-UPDATE `weapon` SET `name` ='耶爾可羅獵捕器' WHERE `item_id` = 8763;
-UPDATE `weapon` SET `name` ='希露冰刃 速度激發' WHERE `item_id` = 8788;
-UPDATE `weapon` SET `name` ='希露冰刃 強健' WHERE `item_id` = 8789;
-UPDATE `weapon` SET `name` ='希露冰刃 Crt.施毒' WHERE `item_id` = 8790;
-UPDATE `weapon` SET `name` ='伊波斯巨劍 偵測' WHERE `item_id` = 8791;
-UPDATE `weapon` SET `name` ='伊波斯巨劍 速度激發' WHERE `item_id` = 8792;
-UPDATE `weapon` SET `name` ='伊波斯巨劍 強健' WHERE `item_id` = 8793;
-UPDATE `weapon` SET `name` ='貝拉凱爾聖斧 強健' WHERE `item_id` = 8794;
-UPDATE `weapon` SET `name` ='貝拉凱爾聖斧 速度激發' WHERE `item_id` = 8795;
-UPDATE `weapon` SET `name` ='貝拉凱爾聖斧 偵測' WHERE `item_id` = 8796;
-UPDATE `weapon` SET `name` ='貝希莫斯巨叉 偵測' WHERE `item_id` = 8797;
-UPDATE `weapon` SET `name` ='貝希莫斯巨叉 強健' WHERE `item_id` = 8798;
-UPDATE `weapon` SET `name` ='貝希莫斯巨叉 怒擊' WHERE `item_id` = 8799;
-UPDATE `weapon` SET `name` ='那卡風暴 偵測' WHERE `item_id` = 8800;
-UPDATE `weapon` SET `name` ='那卡風暴 Crt.傷害' WHERE `item_id` = 8801;
-UPDATE `weapon` SET `name` ='那卡風暴 背擊' WHERE `item_id` = 8802;
-UPDATE `weapon` SET `name` ='岱依封長戟 Crt.衝擊' WHERE `item_id` = 8803;
-UPDATE `weapon` SET `name` ='岱依封長戟 遠程打擊' WHERE `item_id` = 8804;
-UPDATE `weapon` SET `name` ='岱依封長戟 寬幅打擊' WHERE `item_id` = 8805;
-UPDATE `weapon` SET `name` ='夏伊德獵弓 節射' WHERE `item_id` = 8806;
-UPDATE `weapon` SET `name` ='夏伊德獵弓 偵測' WHERE `item_id` = 8807;
-UPDATE `weapon` SET `name` ='夏伊德獵弓 快速恢復' WHERE `item_id` = 8808;
-UPDATE `weapon` SET `name` ='索貝克颶風 Rsk,速度激發' WHERE `item_id` = 8809;
-UPDATE `weapon` SET `name` ='索貝克颶風 速度激發' WHERE `item_id` = 8810;
-UPDATE `weapon` SET `name` ='索貝克颶風 Crt.吸收' WHERE `item_id` = 8811;
-UPDATE `weapon` SET `name` ='緹米絲之舌 魔力上升' WHERE `item_id` = 8812;
-UPDATE `weapon` SET `name` ='緹米絲之舌 魔法心靈防護' WHERE `item_id` = 8813;
-UPDATE `weapon` SET `name` ='緹米絲之舌 魔法偵測' WHERE `item_id` = 8814;
-UPDATE `weapon` SET `name` ='卡布里歐之手 魂體轉換' WHERE `item_id` = 8815;
-UPDATE `weapon` SET `name` ='卡布里歐之手 魔力上升' WHERE `item_id` = 8816;
-UPDATE `weapon` SET `name` ='卡布里歐之手 魔法沉默' WHERE `item_id` = 8817;
-UPDATE `weapon` SET `name` ='惡魔結晶 魔力上升' WHERE `item_id` = 8818;
-UPDATE `weapon` SET `name` ='惡魔結晶 靈活思緒' WHERE `item_id` = 8819;
-UPDATE `weapon` SET `name` ='惡魔結晶 魔法心靈防護' WHERE `item_id` = 8820;
-UPDATE `weapon` SET `name` ='幻象裝備-雙手劍' WHERE `item_id` = 8821;
-UPDATE `weapon` SET `name` ='幻象裝備-緋紅劍' WHERE `item_id` = 8822;
-UPDATE `weapon` SET `name` ='幻象裝備-狼牙棒' WHERE `item_id` = 8823;
-UPDATE `weapon` SET `name` ='幻象裝備-巫術魔杖' WHERE `item_id` = 8824;
-UPDATE `weapon` SET `name` ='幻象裝備-反曲刀' WHERE `item_id` = 8825;
-UPDATE `weapon` SET `name` ='幻象裝備-瑪那匕首' WHERE `item_id` = 8826;
-UPDATE `weapon` SET `name` ='幻象裝備-三刃刀' WHERE `item_id` = 8827;
-UPDATE `weapon` SET `name` ='幻象裝備-腰弩' WHERE `item_id` = 8828;
-UPDATE `weapon` SET `name` ='幻象裝備-戰鎚' WHERE `item_id` = 8829;
-UPDATE `weapon` SET `name` ='幻象裝備-武士刀' WHERE `item_id` = 8830;
-UPDATE `weapon` SET `name` ='幻象裝備-貝卡合金' WHERE `item_id` = 8831;
-UPDATE `weapon` SET `name` ='幻象裝備-受詛咒的魔杖' WHERE `item_id` = 8832;
-UPDATE `weapon` SET `name` ='幻象裝備-袖珍刀' WHERE `item_id` = 8833;
-UPDATE `weapon` SET `name` ='幻象裝備-魔炎匕首' WHERE `item_id` = 8834;
-UPDATE `weapon` SET `name` ='幻象裝備-元素弓' WHERE `item_id` = 8835;
-UPDATE `weapon` SET `name` ='幻象裝備-矮人戰鎚' WHERE `item_id` = 8836;
-UPDATE `weapon` SET `name` ='幻象裝備-革命劍*革命劍' WHERE `item_id` = 8837;
-UPDATE `weapon` SET `name` ='幻象裝備-關節拳' WHERE `item_id` = 8838;
-UPDATE `weapon` SET `name` ='幻象裝備-迷惑之劍' WHERE `item_id` = 8839;
-UPDATE `weapon` SET `name` ='幻象裝備-長柄戰斧' WHERE `item_id` = 8840;
-UPDATE `weapon` SET `name` ='幻象裝備-永恆手杖' WHERE `item_id` = 8841;
-UPDATE `weapon` SET `name` ='幻象裝備-地獄魔杖' WHERE `item_id` = 8842;
-UPDATE `weapon` SET `name` ='幻象裝備-帕格立歐之鎚' WHERE `item_id` = 8843;
-UPDATE `weapon` SET `name` ='幻象裝備-黑暗狂嘯者' WHERE `item_id` = 8844;
-UPDATE `weapon` SET `name` ='幻象裝備-阿卡特長弓' WHERE `item_id` = 8845;
-UPDATE `weapon` SET `name` ='幻象裝備-帕格立歐之劍' WHERE `item_id` = 8846;
-UPDATE `weapon` SET `name` ='幻象裝備-拳刃' WHERE `item_id` = 8847;
-UPDATE `weapon` SET `name` ='幻象裝備-暴風之劍*暴風之劍' WHERE `item_id` = 8848;
-UPDATE `weapon` SET `name` ='幻象裝備-巨劍' WHERE `item_id` = 8849;
-UPDATE `weapon` SET `name` ='幻象裝備-巨大戰斧' WHERE `item_id` = 8850;
-UPDATE `weapon` SET `name` ='幻象裝備-精靈魔杖' WHERE `item_id` = 8851;
-UPDATE `weapon` SET `name` ='幻象裝備-柯貝克劍' WHERE `item_id` = 8852;
-UPDATE `weapon` SET `name` ='幻象裝備-聖堂之劍' WHERE `item_id` = 8853;
-UPDATE `weapon` SET `name` ='幻象裝備-波形刃' WHERE `item_id` = 8854;
-UPDATE `weapon` SET `name` ='幻象裝備-阿斯拉爪' WHERE `item_id` = 8855;
-UPDATE `weapon` SET `name` ='幻象裝備-黑暗精靈長弓' WHERE `item_id` = 8856;
-UPDATE `weapon` SET `name` ='幻象裝備-迷惑之劍*迷惑之劍' WHERE `item_id` = 8857;
-UPDATE `weapon` SET `name` ='幻象裝備-巨斧' WHERE `item_id` = 8858;
-UPDATE `weapon` SET `name` ='幻象裝備-塔魯刀' WHERE `item_id` = 8859;
-UPDATE `weapon` SET `name` ='幻象裝備-長柄戰戟' WHERE `item_id` = 8860;
-UPDATE `weapon` SET `name` ='幻象裝備-帕黎恩魔杖' WHERE `item_id` = 8861;
-UPDATE `weapon` SET `name` ='幻象裝備-血腥之蘭' WHERE `item_id` = 8862;
-UPDATE `weapon` SET `name` ='幻象裝備-血旋風' WHERE `item_id` = 8863;
-UPDATE `weapon` SET `name` ='幻象裝備-顱之弓' WHERE `item_id` = 8864;
-UPDATE `weapon` SET `name` ='幻象裝備-柯貝克劍*柯貝克劍' WHERE `item_id` = 8865;
-UPDATE `weapon` SET `name` ='幻象裝備-流星雨' WHERE `item_id` = 8866;
-UPDATE `weapon` SET `name` ='幻象裝備-煉獄之主' WHERE `item_id` = 8867;
-UPDATE `weapon` SET `name` ='幻象裝備-迷惑之劍' WHERE `item_id` = 8926;
-UPDATE `weapon` SET `name` ='幻象裝備-長柄戰斧' WHERE `item_id` = 8927;
-UPDATE `weapon` SET `name` ='幻象裝備-永恆手杖' WHERE `item_id` = 8928;
-UPDATE `weapon` SET `name` ='幻象裝備-地獄魔杖' WHERE `item_id` = 8929;
-UPDATE `weapon` SET `name` ='幻象裝備-帕格立歐之鎚' WHERE `item_id` = 8930;
-UPDATE `weapon` SET `name` ='幻象裝備-黑暗狂嘯者' WHERE `item_id` = 8931;
-UPDATE `weapon` SET `name` ='幻象裝備-阿卡特長弓' WHERE `item_id` = 8932;
-UPDATE `weapon` SET `name` ='幻象裝備-帕格立歐之劍' WHERE `item_id` = 8933;
-UPDATE `weapon` SET `name` ='幻象裝備-拳刃' WHERE `item_id` = 8934;
-UPDATE `weapon` SET `name` ='測試用細劍' WHERE `item_id` = 8935;
-UPDATE `weapon` SET `name` ='幻象裝備-暴風之劍*暴風之劍' WHERE `item_id` = 8937;
-UPDATE `weapon` SET `name` ='塔魯刀*大馬士革刀' WHERE `item_id` = 8938;
-UPDATE `weapon` SET `name` ='幻象裝備-長矛' WHERE `item_id` = 8972;
-UPDATE `weapon` SET `name` ='幻象裝備-彎刃大刀' WHERE `item_id` = 8973;
-UPDATE `weapon` SET `name` ='幻象裝備-鋼鎚' WHERE `item_id` = 8974;
-UPDATE `weapon` SET `name` ='幻象裝備-巫毒人偶' WHERE `item_id` = 8975;
-UPDATE `weapon` SET `name` ='幻象裝備-魔鎚' WHERE `item_id` = 8976;
-UPDATE `weapon` SET `name` ='幻象裝備-法師魔杖' WHERE `item_id` = 8977;
-UPDATE `weapon` SET `name` ='幻象裝備-碎劍者' WHERE `item_id` = 8978;
-UPDATE `weapon` SET `name` ='幻象裝備-毒蛇之牙' WHERE `item_id` = 8979;
-UPDATE `weapon` SET `name` ='幻象裝備-合金弓' WHERE `item_id` = 8980;
-UPDATE `weapon` SET `name` ='幻象裝備-祝福的十字架' WHERE `item_id` = 8981;
-UPDATE `weapon` SET `name` ='幻象裝備-雙手劍' WHERE `item_id` = 8982;
-UPDATE `weapon` SET `name` ='幻象裝備-緋紅劍' WHERE `item_id` = 8983;
-UPDATE `weapon` SET `name` ='幻象裝備-狼牙棒' WHERE `item_id` = 8984;
-UPDATE `weapon` SET `name` ='幻象裝備-巫術魔杖' WHERE `item_id` = 8985;
-UPDATE `weapon` SET `name` ='幻象裝備-反曲刀' WHERE `item_id` = 8986;
-UPDATE `weapon` SET `name` ='幻象裝備-瑪那匕首' WHERE `item_id` = 8987;
-UPDATE `weapon` SET `name` ='幻象裝備-三刃刀' WHERE `item_id` = 8988;
-UPDATE `weapon` SET `name` ='幻象裝備-腰弩' WHERE `item_id` = 8989;
-UPDATE `weapon` SET `name` ='幻象裝備-戰鎚' WHERE `item_id` = 8990;
-UPDATE `weapon` SET `name` ='幻象裝備-迷惑之劍' WHERE `item_id` = 8991;
-UPDATE `weapon` SET `name` ='幻象裝備-長柄戰斧' WHERE `item_id` = 8992;
-UPDATE `weapon` SET `name` ='幻象裝備-永恆手杖' WHERE `item_id` = 8993;
-UPDATE `weapon` SET `name` ='幻象裝備-地獄魔杖' WHERE `item_id` = 8994;
-UPDATE `weapon` SET `name` ='幻象裝備-帕格立歐之鎚' WHERE `item_id` = 8995;
-UPDATE `weapon` SET `name` ='幻象裝備-黑暗狂嘯者' WHERE `item_id` = 8996;
-UPDATE `weapon` SET `name` ='幻象裝備-阿卡特長弓' WHERE `item_id` = 8997;
-UPDATE `weapon` SET `name` ='幻象裝備-帕格立歐之劍' WHERE `item_id` = 8998;
-UPDATE `weapon` SET `name` ='幻象裝備-拳刃' WHERE `item_id` = 8999;
-UPDATE `weapon` SET `name` ='幻象裝備-暴風之劍*暴風之劍' WHERE `item_id` = 9000;
-UPDATE `weapon` SET `name` ='幻象裝備-巨劍' WHERE `item_id` = 9001;
-UPDATE `weapon` SET `name` ='幻象裝備-巨大戰斧' WHERE `item_id` = 9002;
-UPDATE `weapon` SET `name` ='幻象裝備-精靈魔杖' WHERE `item_id` = 9003;
-UPDATE `weapon` SET `name` ='幻象裝備-柯貝克劍' WHERE `item_id` = 9004;
-UPDATE `weapon` SET `name` ='幻象裝備-聖堂之劍' WHERE `item_id` = 9005;
-UPDATE `weapon` SET `name` ='幻象裝備-波形刃' WHERE `item_id` = 9006;
-UPDATE `weapon` SET `name` ='幻象裝備-阿斯拉爪' WHERE `item_id` = 9007;
-UPDATE `weapon` SET `name` ='幻象裝備-黑暗精靈長弓' WHERE `item_id` = 9008;
-UPDATE `weapon` SET `name` ='幻象裝備-迷惑之劍*迷惑之劍' WHERE `item_id` = 9009;
-UPDATE `weapon` SET `name` ='幻象裝備-巨斧' WHERE `item_id` = 9010;
-UPDATE `weapon` SET `name` ='幻象裝備-塔魯刀' WHERE `item_id` = 9011;
-UPDATE `weapon` SET `name` ='幻象裝備-長柄戰戟' WHERE `item_id` = 9012;
-UPDATE `weapon` SET `name` ='幻象裝備-帕黎恩魔杖' WHERE `item_id` = 9013;
-UPDATE `weapon` SET `name` ='幻象裝備-血腥之蘭' WHERE `item_id` = 9014;
-UPDATE `weapon` SET `name` ='幻象裝備-血旋風' WHERE `item_id` = 9015;
-UPDATE `weapon` SET `name` ='幻象裝備-顱之弓' WHERE `item_id` = 9016;
-UPDATE `weapon` SET `name` ='幻象裝備-柯貝克劍*柯貝克劍' WHERE `item_id` = 9017;
-UPDATE `weapon` SET `name` ='幻象裝備-流星雨' WHERE `item_id` = 9018;
-UPDATE `weapon` SET `name` ='幻象裝備-煉獄之主' WHERE `item_id` = 9019;
-UPDATE `weapon` SET `name` ='幻象裝備-柯貝克劍*大馬士革刀' WHERE `item_id` = 9020;
-UPDATE `weapon` SET `name` ='幻象裝備-斬龍刀' WHERE `item_id` = 9021;
-UPDATE `weapon` SET `name` ='幻象裝備-奇蹟劍' WHERE `item_id` = 9022;
-UPDATE `weapon` SET `name` ='幻象裝備-樂園' WHERE `item_id` = 9023;
-UPDATE `weapon` SET `name` ='幻象裝備-世界樹樹枝' WHERE `item_id` = 9024;
-UPDATE `weapon` SET `name` ='幻象裝備-魂體分離器' WHERE `item_id` = 9025;
-UPDATE `weapon` SET `name` ='幻象裝備-龍牙' WHERE `item_id` = 9026;
-UPDATE `weapon` SET `name` ='幻象裝備-靈魂弓' WHERE `item_id` = 9027;
-UPDATE `weapon` SET `name` ='幻象裝備-塔魯闊矛' WHERE `item_id` = 9028;
-UPDATE `weapon` SET `name` ='幻象裝備-黑暗軍刀' WHERE `item_id` = 9029;
-UPDATE `weapon` SET `name` ='幻象裝備-骨盾' WHERE `item_id` = 9036;
-UPDATE `weapon` SET `name` ='幻象裝備-圓木盾' WHERE `item_id` = 9044;
-UPDATE `weapon` SET `name` ='幻象裝備-合金盾' WHERE `item_id` = 9056;
-UPDATE `weapon` SET `name` ='幻象裝備-夏隆盾' WHERE `item_id` = 9070;
-UPDATE `weapon` SET `name` ='幻象裝備-黑暗水晶盾' WHERE `item_id` = 9084;
-UPDATE `weapon` SET `name` ='幻象裝備-夢魘盾' WHERE `item_id` = 9129;
-UPDATE `weapon` SET `name` ='巴拉卡斯劍(單手)' WHERE `item_id` = 9136;
-UPDATE `weapon` SET `name` ='巴拉卡斯劍(雙手)' WHERE `item_id` = 9137;
-UPDATE `weapon` SET `name` ='邱比特之弓' WHERE `item_id` = 9140;
-UPDATE `weapon` SET `name` ='邱比特之弓-活動用' WHERE `item_id` = 9141;
-UPDATE `weapon` SET `name` ='細劍' WHERE `item_id` = 9209;
-UPDATE `weapon` SET `name` ='曲刀' WHERE `item_id` = 9210;
-UPDATE `weapon` SET `name` ='曲刀' WHERE `item_id` = 9211;
-UPDATE `weapon` SET `name` ='獵槍' WHERE `item_id` = 9212;
-UPDATE `weapon` SET `name` ='鈍劍' WHERE `item_id` = 9213;
-UPDATE `weapon` SET `name` ='鈍劍' WHERE `item_id` = 9214;
-UPDATE `weapon` SET `name` ='鈍劍' WHERE `item_id` = 9215;
-UPDATE `weapon` SET `name` ='突襲曲刀' WHERE `item_id` = 9216;
-UPDATE `weapon` SET `name` ='短弩' WHERE `item_id` = 9217;
-UPDATE `weapon` SET `name` ='刺劍' WHERE `item_id` = 9218;
-UPDATE `weapon` SET `name` ='刺劍' WHERE `item_id` = 9219;
-UPDATE `weapon` SET `name` ='獵劍' WHERE `item_id` = 9220;
-UPDATE `weapon` SET `name` ='十字弓' WHERE `item_id` = 9221;
-UPDATE `weapon` SET `name` ='銳劍' WHERE `item_id` = 9222;
-UPDATE `weapon` SET `name` ='格鬥劍' WHERE `item_id` = 9223;
-UPDATE `weapon` SET `name` ='爆破之臂' WHERE `item_id` = 9224;
-UPDATE `weapon` SET `name` ='巨銳劍' WHERE `item_id` = 9225;
-UPDATE `weapon` SET `name` ='將軍格鬥劍' WHERE `item_id` = 9226;
-UPDATE `weapon` SET `name` ='齒輪弩' WHERE `item_id` = 9227;
-UPDATE `weapon` SET `name` ='軍用刺劍' WHERE `item_id` = 9228;
-UPDATE `weapon` SET `name` ='軍用刺劍 Crt.怒擊' WHERE `item_id` = 9229;
-UPDATE `weapon` SET `name` ='軍用刺劍 偵測' WHERE `item_id` = 9230;
-UPDATE `weapon` SET `name` ='軍用刺劍 輕裝' WHERE `item_id` = 9231;
-UPDATE `weapon` SET `name` ='席拉格重劍' WHERE `item_id` = 9232;
-UPDATE `weapon` SET `name` ='席拉格重劍 Crt.傷害' WHERE `item_id` = 9233;
-UPDATE `weapon` SET `name` ='席拉格重劍 偵測' WHERE `item_id` = 9234;
-UPDATE `weapon` SET `name` ='席拉格重劍 輕裝' WHERE `item_id` = 9235;
-UPDATE `weapon` SET `name` ='強弩' WHERE `item_id` = 9236;
-UPDATE `weapon` SET `name` ='強弩 導引' WHERE `item_id` = 9237;
-UPDATE `weapon` SET `name` ='強弩 迴避' WHERE `item_id` = 9238;
-UPDATE `weapon` SET `name` ='強弩 快速恢復' WHERE `item_id` = 9239;
-UPDATE `weapon` SET `name` ='騎兵細劍' WHERE `item_id` = 9240;
-UPDATE `weapon` SET `name` ='騎兵細劍 導引' WHERE `item_id` = 9241;
-UPDATE `weapon` SET `name` ='騎兵細劍 背擊' WHERE `item_id` = 9242;
-UPDATE `weapon` SET `name` ='騎兵細劍 Rsk.迴避' WHERE `item_id` = 9243;
-UPDATE `weapon` SET `name` ='騎兵細劍' WHERE `item_id` = 9244;
-UPDATE `weapon` SET `name` ='騎兵細劍 偵測' WHERE `item_id` = 9245;
-UPDATE `weapon` SET `name` ='騎兵細劍 Crt.傷害' WHERE `item_id` = 9246;
-UPDATE `weapon` SET `name` ='騎兵細劍 速度激發' WHERE `item_id` = 9247;
-UPDATE `weapon` SET `name` ='騎兵細劍' WHERE `item_id` = 9248;
-UPDATE `weapon` SET `name` ='騎兵細劍 Crt.傷害' WHERE `item_id` = 9249;
-UPDATE `weapon` SET `name` ='騎兵細劍 Crt.施毒' WHERE `item_id` = 9250;
-UPDATE `weapon` SET `name` ='騎兵細劍 速度激發' WHERE `item_id` = 9251;
-UPDATE `weapon` SET `name` ='騎兵細劍' WHERE `item_id` = 9252;
-UPDATE `weapon` SET `name` ='騎兵細劍 偵測' WHERE `item_id` = 9253;
-UPDATE `weapon` SET `name` ='騎兵細劍 Crt.吸收' WHERE `item_id` = 9254;
-UPDATE `weapon` SET `name` ='騎兵細劍 Crt.施毒' WHERE `item_id` = 9255;
-UPDATE `weapon` SET `name` ='弩砲' WHERE `item_id` = 9256;
-UPDATE `weapon` SET `name` ='弩砲 導引' WHERE `item_id` = 9257;
-UPDATE `weapon` SET `name` ='弩砲 簡擊' WHERE `item_id` = 9258;
-UPDATE `weapon` SET `name` ='弩砲 快速恢復' WHERE `item_id` = 9259;
-UPDATE `weapon` SET `name` ='弩砲' WHERE `item_id` = 9260;
-UPDATE `weapon` SET `name` ='弩砲 迴避' WHERE `item_id` = 9261;
-UPDATE `weapon` SET `name` ='弩砲 簡擊' WHERE `item_id` = 9262;
-UPDATE `weapon` SET `name` ='弩砲 節射' WHERE `item_id` = 9263;
-UPDATE `weapon` SET `name` ='瞬殺使者' WHERE `item_id` = 9264;
-UPDATE `weapon` SET `name` ='瞬殺使者 導引' WHERE `item_id` = 9265;
-UPDATE `weapon` SET `name` ='瞬殺使者 偵測' WHERE `item_id` = 9266;
-UPDATE `weapon` SET `name` ='瞬殺使者 Crt.傷害' WHERE `item_id` = 9267;
-UPDATE `weapon` SET `name` ='瞬殺使者' WHERE `item_id` = 9268;
-UPDATE `weapon` SET `name` ='瞬殺使者 偵測' WHERE `item_id` = 9269;
-UPDATE `weapon` SET `name` ='瞬殺使者 強健' WHERE `item_id` = 9270;
-UPDATE `weapon` SET `name` ='瞬殺使者 Rsk.速度激發' WHERE `item_id` = 9271;
-UPDATE `weapon` SET `name` ='瞬殺使者' WHERE `item_id` = 9272;
-UPDATE `weapon` SET `name` ='瞬殺使者 偵測' WHERE `item_id` = 9273;
-UPDATE `weapon` SET `name` ='瞬殺使者 Crt.傷害' WHERE `item_id` = 9274;
-UPDATE `weapon` SET `name` ='瞬殺使者 速度激發' WHERE `item_id` = 9275;
-UPDATE `weapon` SET `name` ='瞬殺使者' WHERE `item_id` = 9276;
-UPDATE `weapon` SET `name` ='瞬殺使者 強健' WHERE `item_id` = 9277;
-UPDATE `weapon` SET `name` ='瞬殺使者 偵測' WHERE `item_id` = 9278;
-UPDATE `weapon` SET `name` ='瞬殺使者 輕裝' WHERE `item_id` = 9279;
-UPDATE `weapon` SET `name` ='瞬殺使者' WHERE `item_id` = 9280;
-UPDATE `weapon` SET `name` ='瞬殺使者 導引' WHERE `item_id` = 9281;
-UPDATE `weapon` SET `name` ='瞬殺使者 Crt.吸收' WHERE `item_id` = 9282;
-UPDATE `weapon` SET `name` ='瞬殺使者 強健' WHERE `item_id` = 9283;
-UPDATE `weapon` SET `name` ='莫北巨刃' WHERE `item_id` = 9284;
-UPDATE `weapon` SET `name` ='莫北巨刃 偵測' WHERE `item_id` = 9285;
-UPDATE `weapon` SET `name` ='莫北巨刃 強健' WHERE `item_id` = 9286;
-UPDATE `weapon` SET `name` ='莫北巨刃 Crt.吸收' WHERE `item_id` = 9287;
-UPDATE `weapon` SET `name` ='塔斯蘭弩' WHERE `item_id` = 9288;
-UPDATE `weapon` SET `name` ='塔斯蘭弩 導引' WHERE `item_id` = 9289;
-UPDATE `weapon` SET `name` ='塔斯蘭弩 迴避' WHERE `item_id` = 9290;
-UPDATE `weapon` SET `name` ='塔斯蘭弩 簡擊' WHERE `item_id` = 9291;
-UPDATE `weapon` SET `name` ='上將刺劍' WHERE `item_id` = 9292;
-UPDATE `weapon` SET `name` ='上將刺劍 偵測' WHERE `item_id` = 9293;
-UPDATE `weapon` SET `name` ='上將刺劍 Crt.傷害' WHERE `item_id` = 9294;
-UPDATE `weapon` SET `name` ='上將刺劍 速度激發' WHERE `item_id` = 9295;
-UPDATE `weapon` SET `name` ='劍齒虎' WHERE `item_id` = 9296;
-UPDATE `weapon` SET `name` ='劍齒虎 偵測' WHERE `item_id` = 9297;
-UPDATE `weapon` SET `name` ='劍齒虎 Crt.傷害' WHERE `item_id` = 9298;
-UPDATE `weapon` SET `name` ='劍齒虎 速度激發' WHERE `item_id` = 9299;
-UPDATE `weapon` SET `name` ='滅形弩' WHERE `item_id` = 9300;
-UPDATE `weapon` SET `name` ='滅形弩 導引' WHERE `item_id` = 9301;
-UPDATE `weapon` SET `name` ='滅形弩 簡擊' WHERE `item_id` = 9302;
-UPDATE `weapon` SET `name` ='滅形弩 節射' WHERE `item_id` = 9303;
-UPDATE `weapon` SET `name` ='突襲鈍劍' WHERE `item_id` = 9304;
-UPDATE `weapon` SET `name` ='突襲鈍劍 導引' WHERE `item_id` = 9305;
-UPDATE `weapon` SET `name` ='突襲鈍劍 偵測' WHERE `item_id` = 9306;
-UPDATE `weapon` SET `name` ='突襲鈍劍 背擊' WHERE `item_id` = 9307;
-UPDATE `weapon` SET `name` ='無名之勝' WHERE `item_id` = 9308;
-UPDATE `weapon` SET `name` ='無名之勝 強健' WHERE `item_id` = 9309;
-UPDATE `weapon` SET `name` ='無名之勝 Crt.傷害' WHERE `item_id` = 9310;
-UPDATE `weapon` SET `name` ='無名之勝 偵測' WHERE `item_id` = 9311;
-UPDATE `weapon` SET `name` ='和平使者' WHERE `item_id` = 9312;
-UPDATE `weapon` SET `name` ='和平使者 迴避' WHERE `item_id` = 9313;
-UPDATE `weapon` SET `name` ='和平使者 Crt.出血' WHERE `item_id` = 9314;
-UPDATE `weapon` SET `name` ='和平使者 簡擊' WHERE `item_id` = 9315;
-UPDATE `weapon` SET `name` ='華麗細劍' WHERE `item_id` = 9316;
-UPDATE `weapon` SET `name` ='華麗細劍 偵測' WHERE `item_id` = 9317;
-UPDATE `weapon` SET `name` ='華麗細劍 Crt.傷害' WHERE `item_id` = 9318;
-UPDATE `weapon` SET `name` ='華麗細劍 速度激發' WHERE `item_id` = 9319;
-UPDATE `weapon` SET `name` ='裂解劍' WHERE `item_id` = 9320;
-UPDATE `weapon` SET `name` ='裂解劍 Crt.吸收' WHERE `item_id` = 9321;
-UPDATE `weapon` SET `name` ='裂解劍 強健' WHERE `item_id` = 9322;
-UPDATE `weapon` SET `name` ='裂解劍 Crt.出血' WHERE `item_id` = 9323;
-UPDATE `weapon` SET `name` ='冥犬之牙' WHERE `item_id` = 9324;
-UPDATE `weapon` SET `name` ='冥犬之牙 導引' WHERE `item_id` = 9325;
-UPDATE `weapon` SET `name` ='冥犬之牙 快速恢復' WHERE `item_id` = 9326;
-UPDATE `weapon` SET `name` ='冥犬之牙 節射' WHERE `item_id` = 9327;
-UPDATE `weapon` SET `name` ='天雷' WHERE `item_id` = 9328;
-UPDATE `weapon` SET `name` ='天雷 Crt.施毒' WHERE `item_id` = 9329;
-UPDATE `weapon` SET `name` ='天雷 速度激發' WHERE `item_id` = 9330;
-UPDATE `weapon` SET `name` ='天雷 怒擊' WHERE `item_id` = 9331;
-UPDATE `weapon` SET `name` ='神怨' WHERE `item_id` = 9332;
-UPDATE `weapon` SET `name` ='神怨 速度激發' WHERE `item_id` = 9333;
-UPDATE `weapon` SET `name` ='神怨 Crt.傷害' WHERE `item_id` = 9334;
-UPDATE `weapon` SET `name` ='神怨 偵測' WHERE `item_id` = 9335;
-UPDATE `weapon` SET `name` ='末日咒詛' WHERE `item_id` = 9336;
-UPDATE `weapon` SET `name` ='末日咒詛 輕裝' WHERE `item_id` = 9337;
-UPDATE `weapon` SET `name` ='末日咒詛 Crt.出血' WHERE `item_id` = 9338;
-UPDATE `weapon` SET `name` ='末日咒詛 魔力上升' WHERE `item_id` = 9339;
-UPDATE `weapon` SET `name` ='貪婪刺劍' WHERE `item_id` = 9340;
-UPDATE `weapon` SET `name` ='貪婪刺劍 Crt.傷害' WHERE `item_id` = 9341;
-UPDATE `weapon` SET `name` ='貪婪刺劍 強健' WHERE `item_id` = 9342;
-UPDATE `weapon` SET `name` ='貪婪刺劍 Rsk.偵測' WHERE `item_id` = 9343;
-UPDATE `weapon` SET `name` ='死神使者' WHERE `item_id` = 9344;
-UPDATE `weapon` SET `name` ='死神使者 強健' WHERE `item_id` = 9345;
-UPDATE `weapon` SET `name` ='死神使者 Crt.出血' WHERE `item_id` = 9346;
-UPDATE `weapon` SET `name` ='死神使者 Crt.吸收' WHERE `item_id` = 9347;
-UPDATE `weapon` SET `name` ='靈魂弩' WHERE `item_id` = 9348;
-UPDATE `weapon` SET `name` ='靈魂弩 節射' WHERE `item_id` = 9349;
-UPDATE `weapon` SET `name` ='靈魂弩 快速恢復' WHERE `item_id` = 9350;
-UPDATE `weapon` SET `name` ='靈魂弩 Crt.施毒' WHERE `item_id` = 9351;
-UPDATE `weapon` SET `name` ='閃光之珠' WHERE `item_id` = 9352;
-UPDATE `weapon` SET `name` ='閃光之珠 速度激發' WHERE `item_id` = 9353;
-UPDATE `weapon` SET `name` ='閃光之珠 強健' WHERE `item_id` = 9354;
-UPDATE `weapon` SET `name` ='閃光之珠 Crt.施毒' WHERE `item_id` = 9355;
-UPDATE `weapon` SET `name` ='光明守護之劍' WHERE `item_id` = 9356;
-UPDATE `weapon` SET `name` ='光明守護之劍 偵測' WHERE `item_id` = 9357;
-UPDATE `weapon` SET `name` ='光明守護之劍 速度激發' WHERE `item_id` = 9358;
-UPDATE `weapon` SET `name` ='光明守護之劍 強健' WHERE `item_id` = 9359;
-UPDATE `weapon` SET `name` ='復仇爆弩' WHERE `item_id` = 9360;
-UPDATE `weapon` SET `name` ='復仇爆弩 節射' WHERE `item_id` = 9361;
-UPDATE `weapon` SET `name` ='復仇爆弩 偵測' WHERE `item_id` = 9362;
-UPDATE `weapon` SET `name` ='復仇爆弩 快速恢復' WHERE `item_id` = 9363;
-UPDATE `weapon` SET `name` ='烈焚天' WHERE `item_id` = 9364;
-UPDATE `weapon` SET `name` ='烈焚天 速度激發' WHERE `item_id` = 9365;
-UPDATE `weapon` SET `name` ='烈焚天 強健' WHERE `item_id` = 9366;
-UPDATE `weapon` SET `name` ='烈焚天 偵測' WHERE `item_id` = 9367;
-UPDATE `weapon` SET `name` ='勝利之劍格蘭' WHERE `item_id` = 9368;
-UPDATE `weapon` SET `name` ='勝利之劍格蘭 速度激發' WHERE `item_id` = 9369;
-UPDATE `weapon` SET `name` ='勝利之劍格蘭 強健' WHERE `item_id` = 9370;
-UPDATE `weapon` SET `name` ='勝利之劍格蘭 偵測' WHERE `item_id` = 9371;
-UPDATE `weapon` SET `name` ='薩倫伽神弩' WHERE `item_id` = 9372;
-UPDATE `weapon` SET `name` ='薩倫伽神弩 節射' WHERE `item_id` = 9373;
-UPDATE `weapon` SET `name` ='薩倫伽神弩 偵測' WHERE `item_id` = 9374;
-UPDATE `weapon` SET `name` ='薩倫伽神弩 Crt.緩速' WHERE `item_id` = 9375;
-UPDATE `weapon` SET `name` ='王朝細劍' WHERE `item_id` = 9376;
-UPDATE `weapon` SET `name` ='王朝細劍 偵測' WHERE `item_id` = 9377;
-UPDATE `weapon` SET `name` ='王朝細劍 強健' WHERE `item_id` = 9378;
-UPDATE `weapon` SET `name` ='王朝細劍 輕裝' WHERE `item_id` = 9379;
-UPDATE `weapon` SET `name` ='王朝古代劍' WHERE `item_id` = 9380;
-UPDATE `weapon` SET `name` ='王朝古代劍 偵測' WHERE `item_id` = 9381;
-UPDATE `weapon` SET `name` ='王朝古代劍 強健' WHERE `item_id` = 9382;
-UPDATE `weapon` SET `name` ='王朝古代劍 輕裝' WHERE `item_id` = 9383;
-UPDATE `weapon` SET `name` ='王朝十字弓' WHERE `item_id` = 9384;
-UPDATE `weapon` SET `name` ='王朝十字弓 節射' WHERE `item_id` = 9385;
-UPDATE `weapon` SET `name` ='王朝十字弓 導引' WHERE `item_id` = 9386;
-UPDATE `weapon` SET `name` ='王朝十字弓 偵測' WHERE `item_id` = 9387;
-UPDATE `weapon` SET `name` ='無限瞬閃' WHERE `item_id` = 9388;
-UPDATE `weapon` SET `name` ='無限岩裂' WHERE `item_id` = 9389;
-UPDATE `weapon` SET `name` ='無限追魂' WHERE `item_id` = 9390;
-UPDATE `weapon` SET `name` ='王朝盾' WHERE `item_id` = 9441;
-UPDATE `weapon` SET `name` ='王朝劍' WHERE `item_id` = 9442;
-UPDATE `weapon` SET `name` ='王朝之刃' WHERE `item_id` = 9443;
-UPDATE `weapon` SET `name` ='王朝幻影劍' WHERE `item_id` = 9444;
-UPDATE `weapon` SET `name` ='王朝弓' WHERE `item_id` = 9445;
-UPDATE `weapon` SET `name` ='王朝小刀' WHERE `item_id` = 9446;
-UPDATE `weapon` SET `name` ='王朝長柄戰戟' WHERE `item_id` = 9447;
-UPDATE `weapon` SET `name` ='王朝戰鎚' WHERE `item_id` = 9448;
-UPDATE `weapon` SET `name` ='王朝釘鎚' WHERE `item_id` = 9449;
-UPDATE `weapon` SET `name` ='王朝拳套爪' WHERE `item_id` = 9450;
-UPDATE `weapon` SET `name` ='封印的王朝盾' WHERE `item_id` = 9529;
-UPDATE `weapon` SET `name` ='怪物用(淚r1)' WHERE `item_id` = 9638;
-UPDATE `weapon` SET `name` ='怪物用(淚r2)' WHERE `item_id` = 9639;
-UPDATE `weapon` SET `name` ='怪物用(淚r3)' WHERE `item_id` = 9640;
-UPDATE `weapon` SET `name` ='怪物用(淚l1)' WHERE `item_id` = 9641;
-UPDATE `weapon` SET `name` ='怪物用(淚l2)' WHERE `item_id` = 9642;
-UPDATE `weapon` SET `name` ='怪物用(淚l3)' WHERE `item_id` = 9643;
-UPDATE `weapon` SET `name` ='npc專用(弩)' WHERE `item_id` = 9644;
-UPDATE `weapon` SET `name` ='npc專用(大劍)' WHERE `item_id` = 9645;
-UPDATE `weapon` SET `name` ='npc專用(細劍)' WHERE `item_id` = 9646;
-UPDATE `weapon` SET `name` ='強化狼尖牙' WHERE `item_id` = 9656;
-UPDATE `weapon` SET `name` ='強化土狼狼牙' WHERE `item_id` = 9657;
-UPDATE `weapon` SET `name` ='強化索蒂德狼牙' WHERE `item_id` = 9658;
-UPDATE `weapon` SET `name` ='強化地獄犬狼牙' WHERE `item_id` = 9659;
-UPDATE `weapon` SET `name` ='奧里哈魯根合金狼牙' WHERE `item_id` = 9660;
-UPDATE `weapon` SET `name` ='強化潘里亞狼牙' WHERE `item_id` = 9661;
-UPDATE `weapon` SET `name` ='戰士之劍' WHERE `item_id` = 9720;
-UPDATE `weapon` SET `name` ='怪物用(獸人軍官)' WHERE `item_id` = 9813;
-UPDATE `weapon` SET `name` ='鬥爭旗幟' WHERE `item_id` = 9819;
-UPDATE `weapon` SET `name` ='幻象裝備-騎兵細劍' WHERE `item_id` = 9840;
-UPDATE `weapon` SET `name` ='幻象裝備-騎士席拉格重劍' WHERE `item_id` = 9841;
-UPDATE `weapon` SET `name` ='幻象裝備-弩砲' WHERE `item_id` = 9842;
-UPDATE `weapon` SET `name` ='幻象裝備-瞬殺使者' WHERE `item_id` = 9843;
-UPDATE `weapon` SET `name` ='幻象裝備-莫北巨刃' WHERE `item_id` = 9844;
-UPDATE `weapon` SET `name` ='幻象裝備-塔斯蘭弩' WHERE `item_id` = 9845;
-UPDATE `weapon` SET `name` ='幻象裝備-突襲鈍劍' WHERE `item_id` = 9846;
-UPDATE `weapon` SET `name` ='幻象裝備-無名之勝' WHERE `item_id` = 9847;
-UPDATE `weapon` SET `name` ='幻象裝備-和平使者' WHERE `item_id` = 9848;
-UPDATE `weapon` SET `name` ='王朝劍 偵測' WHERE `item_id` = 9854;
-UPDATE `weapon` SET `name` ='王朝劍 強健' WHERE `item_id` = 9855;
-UPDATE `weapon` SET `name` ='王朝劍 輕裝' WHERE `item_id` = 9856;
-UPDATE `weapon` SET `name` ='王朝之刃 偵測' WHERE `item_id` = 9857;
-UPDATE `weapon` SET `name` ='王朝之刃 強健' WHERE `item_id` = 9858;
-UPDATE `weapon` SET `name` ='王朝之刃 輕裝' WHERE `item_id` = 9859;
-UPDATE `weapon` SET `name` ='王朝幻影劍 靈活思緒' WHERE `item_id` = 9860;
-UPDATE `weapon` SET `name` ='王朝幻影劍 魔力上升' WHERE `item_id` = 9861;
-UPDATE `weapon` SET `name` ='王朝幻影劍 魂體轉換' WHERE `item_id` = 9862;
-UPDATE `weapon` SET `name` ='王朝弓 節射' WHERE `item_id` = 9863;
-UPDATE `weapon` SET `name` ='王朝弓 導引' WHERE `item_id` = 9864;
-UPDATE `weapon` SET `name` ='王朝弓 偵測' WHERE `item_id` = 9865;
-UPDATE `weapon` SET `name` ='王朝小刀 偵測' WHERE `item_id` = 9866;
-UPDATE `weapon` SET `name` ='王朝小刀 迴避' WHERE `item_id` = 9867;
-UPDATE `weapon` SET `name` ='王朝小刀 Crt.傷害' WHERE `item_id` = 9868;
-UPDATE `weapon` SET `name` ='王朝長柄戰戟 怒擊' WHERE `item_id` = 9869;
-UPDATE `weapon` SET `name` ='王朝長柄戰戟 Crt.衝擊' WHERE `item_id` = 9870;
-UPDATE `weapon` SET `name` ='王朝長柄戰戟 輕裝' WHERE `item_id` = 9871;
-UPDATE `weapon` SET `name` ='王朝戰鎚 怒擊' WHERE `item_id` = 9872;
-UPDATE `weapon` SET `name` ='王朝戰鎚 強健' WHERE `item_id` = 9873;
-UPDATE `weapon` SET `name` ='王朝戰鎚 Rsk.偵測' WHERE `item_id` = 9874;
-UPDATE `weapon` SET `name` ='王朝釘鎚 魔力上升' WHERE `item_id` = 9875;
-UPDATE `weapon` SET `name` ='王朝釘鎚 魂體轉換' WHERE `item_id` = 9876;
-UPDATE `weapon` SET `name` ='王朝釘鎚 靈活思緒' WHERE `item_id` = 9877;
-UPDATE `weapon` SET `name` ='王朝拳套爪 Rsk.迴避' WHERE `item_id` = 9878;
-UPDATE `weapon` SET `name` ='王朝拳套爪 偵測' WHERE `item_id` = 9879;
-UPDATE `weapon` SET `name` ='王朝拳套爪 速度激發' WHERE `item_id` = 9880;
-UPDATE `weapon` SET `name` ='進階型彎刃大刀' WHERE `item_id` = 9901;
-UPDATE `weapon` SET `name` ='進階型長矛' WHERE `item_id` = 9902;
-UPDATE `weapon` SET `name` ='進階型鋼鎚' WHERE `item_id` = 9903;
-UPDATE `weapon` SET `name` ='進階型碎劍者' WHERE `item_id` = 9904;
-UPDATE `weapon` SET `name` ='進階型毒蛇之牙' WHERE `item_id` = 9905;
-UPDATE `weapon` SET `name` ='進階型合金弓' WHERE `item_id` = 9906;
-UPDATE `weapon` SET `name` ='進階型魔鎚' WHERE `item_id` = 9907;
-UPDATE `weapon` SET `name` ='進階型法師魔杖' WHERE `item_id` = 9908;
-UPDATE `weapon` SET `name` ='短弩' WHERE `item_id` = 9995;
-UPDATE `weapon` SET `name` ='短弩' WHERE `item_id` = 9996;
-UPDATE `weapon` SET `name` ='鈍劍' WHERE `item_id` = 10003;
-UPDATE `weapon` SET `name` ='王朝雙刀' WHERE `item_id` = 10004;
-UPDATE `weapon` SET `name` ='幻象裝備-鈍劍' WHERE `item_id` = 10005;
-UPDATE `weapon` SET `name` ='幻象裝備-突襲曲刀' WHERE `item_id` = 10006;
-UPDATE `weapon` SET `name` ='幻象裝備-短弩' WHERE `item_id` = 10007;
-UPDATE `weapon` SET `name` ='幻象裝備-瞬殺使者' WHERE `item_id` = 10008;
-UPDATE `weapon` SET `name` ='幻象裝備-莫北巨刃' WHERE `item_id` = 10009;
-UPDATE `weapon` SET `name` ='幻象裝備-塔斯蘭弩' WHERE `item_id` = 10010;
-UPDATE `weapon` SET `name` ='幻象裝備-巨戰斧' WHERE `item_id` = 10011;
-UPDATE `weapon` SET `name` ='幻象裝備-巨戰斧' WHERE `item_id` = 10125;
-UPDATE `weapon` SET `name` ='怪物專用(弩)' WHERE `item_id` = 10128;
-UPDATE `weapon` SET `name` ='豬豬塔糖' WHERE `item_id` = 10167;
-UPDATE `weapon` SET `name` ='npc專用(弓)' WHERE `item_id` = 10212;
-UPDATE `weapon` SET `name` ='伊克魯斯之劍' WHERE `item_id` = 10215;
-UPDATE `weapon` SET `name` ='伊克魯斯分解者' WHERE `item_id` = 10216;
-UPDATE `weapon` SET `name` ='伊克魯斯之靈' WHERE `item_id` = 10217;
-UPDATE `weapon` SET `name` ='伊克魯斯重兵刃' WHERE `item_id` = 10218;
-UPDATE `weapon` SET `name` ='伊克魯斯三叉戟' WHERE `item_id` = 10219;
-UPDATE `weapon` SET `name` ='伊克魯斯之鎚' WHERE `item_id` = 10220;
-UPDATE `weapon` SET `name` ='伊克魯斯之手' WHERE `item_id` = 10221;
-UPDATE `weapon` SET `name` ='伊克魯斯手杖' WHERE `item_id` = 10222;
-UPDATE `weapon` SET `name` ='伊克魯斯之弓' WHERE `item_id` = 10223;
-UPDATE `weapon` SET `name` ='伊克魯斯刺劍' WHERE `item_id` = 10224;
-UPDATE `weapon` SET `name` ='伊克魯斯翼刃' WHERE `item_id` = 10225;
-UPDATE `weapon` SET `name` ='伊克魯斯之弩' WHERE `item_id` = 10226;
-UPDATE `weapon` SET `name` ='王朝魔杖' WHERE `item_id` = 10252;
-UPDATE `weapon` SET `name` ='王朝毀滅者' WHERE `item_id` = 10253;
-UPDATE `weapon` SET `name` ='怪物用(貝希莫槍)' WHERE `item_id` = 10277;
-UPDATE `weapon` SET `name` ='怪物用(貝希莫雙刀)' WHERE `item_id` = 10278;
-UPDATE `weapon` SET `name` ='伊克魯斯雙刀' WHERE `item_id` = 10415;
-UPDATE `weapon` SET `name` ='伊克魯斯之劍 偵測' WHERE `item_id` = 10434;
-UPDATE `weapon` SET `name` ='伊克魯斯之劍 強健' WHERE `item_id` = 10435;
-UPDATE `weapon` SET `name` ='伊克魯斯之劍 輕裝' WHERE `item_id` = 10436;
-UPDATE `weapon` SET `name` ='伊克魯斯重兵刃 偵測' WHERE `item_id` = 10437;
-UPDATE `weapon` SET `name` ='伊克魯斯重兵刃 強健' WHERE `item_id` = 10438;
-UPDATE `weapon` SET `name` ='伊克魯斯重兵刃 輕裝' WHERE `item_id` = 10439;
-UPDATE `weapon` SET `name` ='伊克魯斯之靈 靈活思緒' WHERE `item_id` = 10440;
-UPDATE `weapon` SET `name` ='伊克魯斯之靈 魔力上升' WHERE `item_id` = 10441;
-UPDATE `weapon` SET `name` ='伊克魯斯之靈 魂體轉換' WHERE `item_id` = 10442;
-UPDATE `weapon` SET `name` ='伊克魯斯之弓 節射' WHERE `item_id` = 10443;
-UPDATE `weapon` SET `name` ='伊克魯斯之弓 導引' WHERE `item_id` = 10444;
-UPDATE `weapon` SET `name` ='伊克魯斯之弓 偵測' WHERE `item_id` = 10445;
-UPDATE `weapon` SET `name` ='伊克魯斯分解者 偵測' WHERE `item_id` = 10446;
-UPDATE `weapon` SET `name` ='伊克魯斯分解者 迴避' WHERE `item_id` = 10447;
-UPDATE `weapon` SET `name` ='伊克魯斯分解者 Crt.傷害' WHERE `item_id` = 10448;
-UPDATE `weapon` SET `name` ='伊克魯斯三叉戟 怒擊' WHERE `item_id` = 10449;
-UPDATE `weapon` SET `name` ='伊克魯斯三叉戟 Crt.衝擊' WHERE `item_id` = 10450;
-UPDATE `weapon` SET `name` ='伊克魯斯三叉戟 輕裝' WHERE `item_id` = 10451;
-UPDATE `weapon` SET `name` ='伊克魯斯之鎚 怒擊' WHERE `item_id` = 10452;
-UPDATE `weapon` SET `name` ='伊克魯斯之鎚 強健' WHERE `item_id` = 10453;
-UPDATE `weapon` SET `name` ='伊克魯斯之鎚 Rsk.偵測' WHERE `item_id` = 10454;
-UPDATE `weapon` SET `name` ='伊克魯斯手杖 魔力上升' WHERE `item_id` = 10455;
-UPDATE `weapon` SET `name` ='伊克魯斯手杖 魂體轉換' WHERE `item_id` = 10456;
-UPDATE `weapon` SET `name` ='伊克魯斯手杖 靈活思緒' WHERE `item_id` = 10457;
-UPDATE `weapon` SET `name` ='伊克魯斯之手 Rsk.迴避' WHERE `item_id` = 10458;
-UPDATE `weapon` SET `name` ='伊克魯斯之手 偵測' WHERE `item_id` = 10459;
-UPDATE `weapon` SET `name` ='伊克魯斯之手 速度激發' WHERE `item_id` = 10460;
-UPDATE `weapon` SET `name` ='伊克魯斯刺劍 偵測' WHERE `item_id` = 10461;
-UPDATE `weapon` SET `name` ='伊克魯斯刺劍 強健' WHERE `item_id` = 10462;
-UPDATE `weapon` SET `name` ='伊克魯斯刺劍 輕裝' WHERE `item_id` = 10463;
-UPDATE `weapon` SET `name` ='伊克魯斯翼刃 偵測' WHERE `item_id` = 10464;
-UPDATE `weapon` SET `name` ='伊克魯斯翼刃 強健' WHERE `item_id` = 10465;
-UPDATE `weapon` SET `name` ='伊克魯斯翼刃 輕裝' WHERE `item_id` = 10466;
-UPDATE `weapon` SET `name` ='伊克魯斯之弩 節射' WHERE `item_id` = 10467;
-UPDATE `weapon` SET `name` ='伊克魯斯之弩 導引' WHERE `item_id` = 10468;
-UPDATE `weapon` SET `name` ='伊克魯斯之弩 偵測' WHERE `item_id` = 10469;
-UPDATE `weapon` SET `name` ='幻象裝備-見習生魔杖' WHERE `item_id` = 10474;
-UPDATE `weapon` SET `name` ='幻象裝備-骨棒' WHERE `item_id` = 10475;
-UPDATE `weapon` SET `name` ='幻象裝備-閃耀刀' WHERE `item_id` = 10476;
-UPDATE `weapon` SET `name` ='幻象裝備-搏擊手套' WHERE `item_id` = 10477;
-UPDATE `weapon` SET `name` ='幻象裝備-森林弓' WHERE `item_id` = 10478;
-UPDATE `weapon` SET `name` ='幻象裝備-長劍' WHERE `item_id` = 10479;
-UPDATE `weapon` SET `name` ='王朝魔杖 魔力上升' WHERE `item_id` = 10527;
-UPDATE `weapon` SET `name` ='王朝魔杖 魂體轉換' WHERE `item_id` = 10528;
-UPDATE `weapon` SET `name` ='王朝魔杖 靈活思緒' WHERE `item_id` = 10529;
-UPDATE `weapon` SET `name` ='王朝毀滅者 怒擊' WHERE `item_id` = 10530;
-UPDATE `weapon` SET `name` ='王朝毀滅者 強健' WHERE `item_id` = 10531;
-UPDATE `weapon` SET `name` ='王朝毀滅者 Rsk.偵測' WHERE `item_id` = 10532;
-UPDATE `weapon` SET `name` ='怪物用(透明盾)' WHERE `item_id` = 10548;
-UPDATE `weapon` SET `name` ='希露冰刃 {對戰用} 速度激發' WHERE `item_id` = 10667;
-UPDATE `weapon` SET `name` ='希露冰刃 {對戰用} 強健' WHERE `item_id` = 10668;
-UPDATE `weapon` SET `name` ='希露冰刃 {對戰用} Crt.施毒' WHERE `item_id` = 10669;
-UPDATE `weapon` SET `name` ='伊波斯巨劍 {對戰用} 偵測' WHERE `item_id` = 10670;
-UPDATE `weapon` SET `name` ='伊波斯巨劍 {對戰用} 速度激發' WHERE `item_id` = 10671;
-UPDATE `weapon` SET `name` ='伊波斯巨劍 {對戰用} 強健' WHERE `item_id` = 10672;
-UPDATE `weapon` SET `name` ='貝拉凱爾聖斧 {對戰用} 強健' WHERE `item_id` = 10673;
-UPDATE `weapon` SET `name` ='貝拉凱爾聖斧 {對戰用} 速度激發' WHERE `item_id` = 10674;
-UPDATE `weapon` SET `name` ='貝拉凱爾聖斧 {對戰用} 偵測' WHERE `item_id` = 10675;
-UPDATE `weapon` SET `name` ='貝希莫斯巨叉 {對戰用} 偵測' WHERE `item_id` = 10676;
-UPDATE `weapon` SET `name` ='貝希莫斯巨叉 {對戰用} 強健' WHERE `item_id` = 10677;
-UPDATE `weapon` SET `name` ='貝希莫斯巨叉 {對戰用} 怒擊' WHERE `item_id` = 10678;
-UPDATE `weapon` SET `name` ='那卡風暴 {對戰用} 偵測' WHERE `item_id` = 10679;
-UPDATE `weapon` SET `name` ='那卡風暴 {對戰用} Crt.傷害' WHERE `item_id` = 10680;
-UPDATE `weapon` SET `name` ='那卡風暴 {對戰用} 背擊' WHERE `item_id` = 10681;
-UPDATE `weapon` SET `name` ='岱依封長戟 {對戰用} Crt.衝擊' WHERE `item_id` = 10682;
-UPDATE `weapon` SET `name` ='岱依封長戟 {對戰用} 遠程打擊' WHERE `item_id` = 10683;
-UPDATE `weapon` SET `name` ='岱依封長戟 {對戰用} 寬幅打擊' WHERE `item_id` = 10684;
-UPDATE `weapon` SET `name` ='夏伊德獵弓 {對戰用} 節射' WHERE `item_id` = 10685;
-UPDATE `weapon` SET `name` ='夏伊德獵弓 {對戰用} 偵測' WHERE `item_id` = 10686;
-UPDATE `weapon` SET `name` ='夏伊德獵弓 {對戰用} 快速恢復' WHERE `item_id` = 10687;
-UPDATE `weapon` SET `name` ='索貝克颶風 {對戰用} Rsk.速度激發' WHERE `item_id` = 10688;
-UPDATE `weapon` SET `name` ='索貝克颶風 {對戰用} 速度激發' WHERE `item_id` = 10689;
-UPDATE `weapon` SET `name` ='索貝克颶風 {對戰用} Crt.吸收' WHERE `item_id` = 10690;
-UPDATE `weapon` SET `name` ='緹米絲之舌 {對戰用} 魔力上升' WHERE `item_id` = 10691;
-UPDATE `weapon` SET `name` ='緹米絲之舌 {對戰用} 魔法心靈防護' WHERE `item_id` = 10692;
-UPDATE `weapon` SET `name` ='緹米絲之舌 {對戰用} 魔法偵測' WHERE `item_id` = 10693;
-UPDATE `weapon` SET `name` ='卡布里歐之手 {對戰用} 魂體轉換' WHERE `item_id` = 10694;
-UPDATE `weapon` SET `name` ='卡布里歐之手 {對戰用} 魔力上升' WHERE `item_id` = 10695;
-UPDATE `weapon` SET `name` ='卡布里歐之手 {對戰用} 魔法沉默' WHERE `item_id` = 10696;
-UPDATE `weapon` SET `name` ='惡魔結晶 {對戰用} 魔力上升' WHERE `item_id` = 10697;
-UPDATE `weapon` SET `name` ='惡魔結晶 {對戰用} 靈活思緒' WHERE `item_id` = 10698;
-UPDATE `weapon` SET `name` ='惡魔結晶 {對戰用} 魔法心靈防護' WHERE `item_id` = 10699;
-UPDATE `weapon` SET `name` ='閃光之珠 {對戰用} 速度激發' WHERE `item_id` = 10700;
-UPDATE `weapon` SET `name` ='閃光之珠 {對戰用} 強健' WHERE `item_id` = 10701;
-UPDATE `weapon` SET `name` ='閃光之珠 {對戰用} Crt.施毒' WHERE `item_id` = 10702;
-UPDATE `weapon` SET `name` ='光明守護之劍 {對戰用} 偵測' WHERE `item_id` = 10703;
-UPDATE `weapon` SET `name` ='光明守護之劍 {對戰用} 速度激發' WHERE `item_id` = 10704;
-UPDATE `weapon` SET `name` ='光明守護之劍 {對戰用} 強健' WHERE `item_id` = 10705;
-UPDATE `weapon` SET `name` ='復仇爆弩 {對戰用} 節射' WHERE `item_id` = 10706;
-UPDATE `weapon` SET `name` ='復仇爆弩 {對戰用} 偵測' WHERE `item_id` = 10707;
-UPDATE `weapon` SET `name` ='復仇爆弩 {對戰用} 快速恢復' WHERE `item_id` = 10708;
-UPDATE `weapon` SET `name` ='塔魯刀*大馬士革刀 {對戰用}' WHERE `item_id` = 10709;
-UPDATE `weapon` SET `name` ='忘卻之刃 {對戰用} 速度激發' WHERE `item_id` = 10710;
-UPDATE `weapon` SET `name` ='忘卻之刃 {對戰用} 強健' WHERE `item_id` = 10711;
-UPDATE `weapon` SET `name` ='忘卻之刃 {對戰用} 偵測' WHERE `item_id` = 10712;
-UPDATE `weapon` SET `name` ='天國審判 {對戰用} 速度激發' WHERE `item_id` = 10713;
-UPDATE `weapon` SET `name` ='天國審判 {對戰用} 強健' WHERE `item_id` = 10714;
-UPDATE `weapon` SET `name` ='天國審判 {對戰用} 偵測' WHERE `item_id` = 10715;
-UPDATE `weapon` SET `name` ='玄武岩戰鎚 {對戰用} HP吸收' WHERE `item_id` = 10716;
-UPDATE `weapon` SET `name` ='玄武岩戰鎚 {對戰用} 強健' WHERE `item_id` = 10717;
-UPDATE `weapon` SET `name` ='玄武岩戰鎚 {對戰用} 體力再生' WHERE `item_id` = 10718;
-UPDATE `weapon` SET `name` ='狩龍之斧 {對戰用} 體力再生' WHERE `item_id` = 10719;
-UPDATE `weapon` SET `name` ='狩龍之斧 {對戰用} 強健' WHERE `item_id` = 10720;
-UPDATE `weapon` SET `name` ='狩龍之斧 {對戰用} HP吸收' WHERE `item_id` = 10721;
-UPDATE `weapon` SET `name` ='天使殺手 {對戰用} Crt.傷害' WHERE `item_id` = 10722;
-UPDATE `weapon` SET `name` ='天使殺手 {對戰用} HP吸收' WHERE `item_id` = 10723;
-UPDATE `weapon` SET `name` ='天使殺手 {對戰用} 速度激發' WHERE `item_id` = 10724;
-UPDATE `weapon` SET `name` ='聖者之矛 {對戰用} 強健' WHERE `item_id` = 10725;
-UPDATE `weapon` SET `name` ='聖者之矛 {對戰用} 導引' WHERE `item_id` = 10726;
-UPDATE `weapon` SET `name` ='聖者之矛 {對戰用} 速度激發' WHERE `item_id` = 10727;
-UPDATE `weapon` SET `name` ='惡魔獵爪 {對戰用} 偵測' WHERE `item_id` = 10728;
-UPDATE `weapon` SET `name` ='惡魔獵爪 {對戰用} 強健' WHERE `item_id` = 10729;
-UPDATE `weapon` SET `name` ='惡魔獵爪 {對戰用} Crt.衝擊' WHERE `item_id` = 10730;
-UPDATE `weapon` SET `name` ='祕儀權杖 {對戰用} 靈活思緒' WHERE `item_id` = 10731;
-UPDATE `weapon` SET `name` ='祕儀權杖 {對戰用} 魔力再生' WHERE `item_id` = 10732;
-UPDATE `weapon` SET `name` ='祕儀權杖 {對戰用} 魔力上升' WHERE `item_id` = 10733;
-UPDATE `weapon` SET `name` ='帝國權杖 {對戰用} 魔力催化' WHERE `item_id` = 10734;
-UPDATE `weapon` SET `name` ='帝國權杖 {對戰用} 魔力再生' WHERE `item_id` = 10735;
-UPDATE `weapon` SET `name` ='帝國權杖 {對戰用} 魔法束縛' WHERE `item_id` = 10736;
-UPDATE `weapon` SET `name` ='紅龍之弓 {對戰用} 節射' WHERE `item_id` = 10737;
-UPDATE `weapon` SET `name` ='紅龍之弓 {對戰用} 偵測' WHERE `item_id` = 10738;
-UPDATE `weapon` SET `name` ='紅龍之弓 {對戰用} Crt.緩速' WHERE `item_id` = 10739;
-UPDATE `weapon` SET `name` ='烈焚天 {對戰用} 速度激發' WHERE `item_id` = 10740;
-UPDATE `weapon` SET `name` ='烈焚天 {對戰用} 強健' WHERE `item_id` = 10741;
-UPDATE `weapon` SET `name` ='烈焚天 {對戰用} 偵測' WHERE `item_id` = 10742;
-UPDATE `weapon` SET `name` ='勝利之劍格蘭 {對戰用} 速度激發' WHERE `item_id` = 10743;
-UPDATE `weapon` SET `name` ='勝利之劍格蘭 {對戰用} 強健' WHERE `item_id` = 10744;
-UPDATE `weapon` SET `name` ='勝利之劍格蘭 {對戰用} 偵測' WHERE `item_id` = 10745;
-UPDATE `weapon` SET `name` ='薩倫伽神弩 {對戰用} 節射' WHERE `item_id` = 10746;
-UPDATE `weapon` SET `name` ='薩倫伽神弩 {對戰用} 偵測' WHERE `item_id` = 10747;
-UPDATE `weapon` SET `name` ='薩倫伽神弩 {對戰用} Crt.緩速' WHERE `item_id` = 10748;
-UPDATE `weapon` SET `name` ='塔魯刀*黑暗軍刀 {對戰用}' WHERE `item_id` = 10749;
-UPDATE `weapon` SET `name` ='王朝劍 {對戰用} 偵測' WHERE `item_id` = 10750;
-UPDATE `weapon` SET `name` ='王朝劍 {對戰用} 強健' WHERE `item_id` = 10751;
-UPDATE `weapon` SET `name` ='王朝劍 {對戰用} 輕裝' WHERE `item_id` = 10752;
-UPDATE `weapon` SET `name` ='王朝之刃 {對戰用} 偵測' WHERE `item_id` = 10753;
-UPDATE `weapon` SET `name` ='王朝之刃 {對戰用} 強健' WHERE `item_id` = 10754;
-UPDATE `weapon` SET `name` ='王朝之刃 {對戰用} 輕裝' WHERE `item_id` = 10755;
-UPDATE `weapon` SET `name` ='王朝戰鎚 {對戰用} 怒擊' WHERE `item_id` = 10756;
-UPDATE `weapon` SET `name` ='王朝戰鎚 {對戰用} 強健' WHERE `item_id` = 10757;
-UPDATE `weapon` SET `name` ='王朝戰鎚 {對戰用} Rsk.偵測' WHERE `item_id` = 10758;
-UPDATE `weapon` SET `name` ='王朝毀滅者 {對戰用} 怒擊' WHERE `item_id` = 10759;
-UPDATE `weapon` SET `name` ='王朝毀滅者 {對戰用} 強健' WHERE `item_id` = 10760;
-UPDATE `weapon` SET `name` ='王朝毀滅者 {對戰用} Rsk.偵測' WHERE `item_id` = 10761;
-UPDATE `weapon` SET `name` ='王朝小刀 {對戰用} 偵測' WHERE `item_id` = 10762;
-UPDATE `weapon` SET `name` ='王朝小刀 {對戰用} 迴避' WHERE `item_id` = 10763;
-UPDATE `weapon` SET `name` ='王朝小刀 {對戰用} Crt.傷害' WHERE `item_id` = 10764;
-UPDATE `weapon` SET `name` ='王朝長柄戰戟 {對戰用} 怒擊' WHERE `item_id` = 10765;
-UPDATE `weapon` SET `name` ='王朝長柄戰戟 {對戰用} Crt.衝擊' WHERE `item_id` = 10766;
-UPDATE `weapon` SET `name` ='王朝長柄戰戟 {對戰用} 輕裝' WHERE `item_id` = 10767;
-UPDATE `weapon` SET `name` ='王朝拳套爪 {對戰用} Rsk.迴避' WHERE `item_id` = 10768;
-UPDATE `weapon` SET `name` ='王朝拳套爪 {對戰用} 偵測' WHERE `item_id` = 10769;
-UPDATE `weapon` SET `name` ='王朝拳套爪 {對戰用} 速度激發' WHERE `item_id` = 10770;
-UPDATE `weapon` SET `name` ='王朝幻影劍 {對戰用} 靈活思緒' WHERE `item_id` = 10771;
-UPDATE `weapon` SET `name` ='王朝幻影劍 {對戰用} 魔力上升' WHERE `item_id` = 10772;
-UPDATE `weapon` SET `name` ='王朝幻影劍 {對戰用} 魂體轉換' WHERE `item_id` = 10773;
-UPDATE `weapon` SET `name` ='王朝釘鎚 {對戰用} 魔力上升' WHERE `item_id` = 10774;
-UPDATE `weapon` SET `name` ='王朝釘鎚 {對戰用} 魂體轉換' WHERE `item_id` = 10775;
-UPDATE `weapon` SET `name` ='王朝釘鎚 {對戰用} 靈活思緒' WHERE `item_id` = 10776;
-UPDATE `weapon` SET `name` ='王朝魔杖 {對戰用} 魔力上升' WHERE `item_id` = 10777;
-UPDATE `weapon` SET `name` ='王朝魔杖 {對戰用} 魂體轉換' WHERE `item_id` = 10778;
-UPDATE `weapon` SET `name` ='王朝魔杖 {對戰用} 靈活思緒' WHERE `item_id` = 10779;
-UPDATE `weapon` SET `name` ='王朝弓 {對戰用} 節射' WHERE `item_id` = 10780;
-UPDATE `weapon` SET `name` ='王朝弓 {對戰用} 導引' WHERE `item_id` = 10781;
-UPDATE `weapon` SET `name` ='王朝弓 {對戰用} 偵測' WHERE `item_id` = 10782;
-UPDATE `weapon` SET `name` ='王朝細劍 {對戰用} 偵測' WHERE `item_id` = 10783;
-UPDATE `weapon` SET `name` ='王朝細劍 {對戰用} 強健' WHERE `item_id` = 10784;
-UPDATE `weapon` SET `name` ='王朝細劍 {對戰用} 輕裝' WHERE `item_id` = 10785;
-UPDATE `weapon` SET `name` ='王朝古代劍 {對戰用} 偵測' WHERE `item_id` = 10786;
-UPDATE `weapon` SET `name` ='王朝古代劍 {對戰用} 強健' WHERE `item_id` = 10787;
-UPDATE `weapon` SET `name` ='王朝古代劍 {對戰用} 輕裝' WHERE `item_id` = 10788;
-UPDATE `weapon` SET `name` ='王朝十字弓 {對戰用} 節射' WHERE `item_id` = 10789;
-UPDATE `weapon` SET `name` ='王朝十字弓 {對戰用} 導引' WHERE `item_id` = 10790;
-UPDATE `weapon` SET `name` ='王朝十字弓 {對戰用} 偵測' WHERE `item_id` = 10791;
-UPDATE `weapon` SET `name` ='王朝雙刀 {對戰用}' WHERE `item_id` = 10792;
-UPDATE `weapon` SET `name` ='巨劍-雷鳴' WHERE `item_id` = 10870;
-UPDATE `weapon` SET `name` ='巨劍-雷鳴 強健' WHERE `item_id` = 10871;
-UPDATE `weapon` SET `name` ='巨劍-雷鳴 Crt.傷害' WHERE `item_id` = 10872;
-UPDATE `weapon` SET `name` ='巨劍-雷鳴 偵測' WHERE `item_id` = 10873;
-UPDATE `weapon` SET `name` ='巨斧-電擊' WHERE `item_id` = 10874;
-UPDATE `weapon` SET `name` ='巨斧-電擊 怒擊' WHERE `item_id` = 10875;
-UPDATE `weapon` SET `name` ='巨斧-電擊 Crt.衝擊' WHERE `item_id` = 10876;
-UPDATE `weapon` SET `name` ='巨斧-電擊 輕裝' WHERE `item_id` = 10877;
-UPDATE `weapon` SET `name` ='極限之劍*極限之劍-破壞' WHERE `item_id` = 10878;
-UPDATE `weapon` SET `name` ='極限之劍*迷惑之劍-破壞' WHERE `item_id` = 10879;
-UPDATE `weapon` SET `name` ='極限之劍*夢魘劍-破壞' WHERE `item_id` = 10880;
-UPDATE `weapon` SET `name` ='極限之劍*大和劍-破壞' WHERE `item_id` = 10881;
-UPDATE `weapon` SET `name` ='無名之勝-雷鳴' WHERE `item_id` = 10882;
-UPDATE `weapon` SET `name` ='無名之勝-雷鳴 強健' WHERE `item_id` = 10883;
-UPDATE `weapon` SET `name` ='無名之勝-雷鳴 Crt.傷害' WHERE `item_id` = 10884;
-UPDATE `weapon` SET `name` ='無名之勝-雷鳴 偵測' WHERE `item_id` = 10885;
-UPDATE `weapon` SET `name` ='黑暗精靈長弓-集中' WHERE `item_id` = 10886;
-UPDATE `weapon` SET `name` ='黑暗精靈長弓-集中 迴避' WHERE `item_id` = 10887;
-UPDATE `weapon` SET `name` ='黑暗精靈長弓-集中 Crt.出血' WHERE `item_id` = 10888;
-UPDATE `weapon` SET `name` ='黑暗精靈長弓-集中 簡擊' WHERE `item_id` = 10889;
-UPDATE `weapon` SET `name` ='迷惑之劍*迷惑之劍-破壞' WHERE `item_id` = 10890;
-UPDATE `weapon` SET `name` ='迷惑之劍*夢魘劍-破壞' WHERE `item_id` = 10891;
-UPDATE `weapon` SET `name` ='迷惑之劍*大和劍-破壞' WHERE `item_id` = 10892;
-UPDATE `weapon` SET `name` ='聖堂之劍-自然' WHERE `item_id` = 10893;
-UPDATE `weapon` SET `name` ='聖堂之劍-自然 靈活思緒' WHERE `item_id` = 10894;
-UPDATE `weapon` SET `name` ='聖堂之劍-自然 魔法弱化' WHERE `item_id` = 10895;
-UPDATE `weapon` SET `name` ='聖堂之劍-自然 魔法強癒' WHERE `item_id` = 10896;
-UPDATE `weapon` SET `name` ='暴風之劍*瑟魯基長劍-破壞' WHERE `item_id` = 10897;
-UPDATE `weapon` SET `name` ='破咒者-海嘯' WHERE `item_id` = 10898;
-UPDATE `weapon` SET `name` ='破咒者-海嘯 靈活思緒' WHERE `item_id` = 10899;
-UPDATE `weapon` SET `name` ='破咒者-海嘯 魔法心靈防護' WHERE `item_id` = 10900;
-UPDATE `weapon` SET `name` ='破咒者-海嘯 魔法束縛' WHERE `item_id` = 10901;
-UPDATE `weapon` SET `name` ='阿斯拉爪-破壞' WHERE `item_id` = 10902;
-UPDATE `weapon` SET `name` ='阿斯拉爪-破壞 Crt.施毒' WHERE `item_id` = 10903;
-UPDATE `weapon` SET `name` ='阿斯拉爪-破壞 Rsk.迴避' WHERE `item_id` = 10904;
-UPDATE `weapon` SET `name` ='阿斯拉爪-破壞 Rsk.速度激發' WHERE `item_id` = 10905;
-UPDATE `weapon` SET `name` ='暴風雪巨鎚-雷鳴' WHERE `item_id` = 10906;
-UPDATE `weapon` SET `name` ='暴風雪巨鎚-雷鳴 偵測' WHERE `item_id` = 10907;
-UPDATE `weapon` SET `name` ='暴風雪巨鎚-雷鳴 怒擊' WHERE `item_id` = 10908;
-UPDATE `weapon` SET `name` ='暴風雪巨鎚-雷鳴 Crt.出血' WHERE `item_id` = 10909;
-UPDATE `weapon` SET `name` ='夢魘劍*夢魘劍-破壞' WHERE `item_id` = 10910;
-UPDATE `weapon` SET `name` ='夢魘劍*大和劍-破壞' WHERE `item_id` = 10911;
-UPDATE `weapon` SET `name` ='突襲鈍劍-破壞' WHERE `item_id` = 10912;
-UPDATE `weapon` SET `name` ='突襲鈍劍-破壞 導引' WHERE `item_id` = 10913;
-UPDATE `weapon` SET `name` ='突襲鈍劍-破壞 偵測' WHERE `item_id` = 10914;
-UPDATE `weapon` SET `name` ='突襲鈍劍-破壞 背擊' WHERE `item_id` = 10915;
-UPDATE `weapon` SET `name` ='精靈魔杖-海嘯' WHERE `item_id` = 10916;
-UPDATE `weapon` SET `name` ='精靈魔杖-海嘯 魔法強癒' WHERE `item_id` = 10917;
-UPDATE `weapon` SET `name` ='精靈魔杖-海嘯 魔法心靈防護' WHERE `item_id` = 10918;
-UPDATE `weapon` SET `name` ='精靈魔杖-海嘯 魔法束縛' WHERE `item_id` = 10919;
-UPDATE `weapon` SET `name` ='大和劍*大和劍-破壞' WHERE `item_id` = 10920;
-UPDATE `weapon` SET `name` ='卡里埔士劍*極限之劍-破壞' WHERE `item_id` = 10921;
-UPDATE `weapon` SET `name` ='卡里埔士劍*迷惑之劍-破壞' WHERE `item_id` = 10922;
-UPDATE `weapon` SET `name` ='卡里埔士劍*夢魘劍-破壞' WHERE `item_id` = 10923;
-UPDATE `weapon` SET `name` ='卡里埔士劍*大和劍-破壞' WHERE `item_id` = 10924;
-UPDATE `weapon` SET `name` ='卡里埔士劍*卡里埔士劍-破壞' WHERE `item_id` = 10925;
-UPDATE `weapon` SET `name` ='波形刃-混亂' WHERE `item_id` = 10926;
-UPDATE `weapon` SET `name` ='波形刃-混亂 迴避' WHERE `item_id` = 10927;
-UPDATE `weapon` SET `name` ='波形刃-混亂 偵測' WHERE `item_id` = 10928;
-UPDATE `weapon` SET `name` ='波形刃-混亂 背擊' WHERE `item_id` = 10929;
-UPDATE `weapon` SET `name` ='柯貝克劍-破壞' WHERE `item_id` = 10930;
-UPDATE `weapon` SET `name` ='柯貝克劍-破壞 導引' WHERE `item_id` = 10931;
-UPDATE `weapon` SET `name` ='柯貝克劍-破壞 偵測' WHERE `item_id` = 10932;
-UPDATE `weapon` SET `name` ='柯貝克劍-破壞 背擊' WHERE `item_id` = 10933;
-UPDATE `weapon` SET `name` ='和平使者-集中' WHERE `item_id` = 10934;
-UPDATE `weapon` SET `name` ='和平使者-集中 迴避' WHERE `item_id` = 10935;
-UPDATE `weapon` SET `name` ='和平使者-集中 Crt.出血' WHERE `item_id` = 10936;
-UPDATE `weapon` SET `name` ='和平使者-集中 簡擊' WHERE `item_id` = 10937;
-UPDATE `weapon` SET `name` ='巨大戰斧-大地' WHERE `item_id` = 10938;
-UPDATE `weapon` SET `name` ='巨大戰斧-大地 怒擊' WHERE `item_id` = 10939;
-UPDATE `weapon` SET `name` ='巨大戰斧-大地 強健' WHERE `item_id` = 10940;
-UPDATE `weapon` SET `name` ='巨大戰斧-大地 Rsk.偵測' WHERE `item_id` = 10941;
-UPDATE `weapon` SET `name` ='地獄刀-混亂' WHERE `item_id` = 10942;
-UPDATE `weapon` SET `name` ='地獄刀-混亂 魔法強癒' WHERE `item_id` = 10943;
-UPDATE `weapon` SET `name` ='地獄刀-混亂 魔法心靈防護' WHERE `item_id` = 10944;
-UPDATE `weapon` SET `name` ='地獄刀-混亂 魔法弱化' WHERE `item_id` = 10945;
-UPDATE `weapon` SET `name` ='襲擊劍*瑟魯基長劍-破壞' WHERE `item_id` = 10946;
-UPDATE `weapon` SET `name` ='彎刀*瑟魯基長劍-破壞' WHERE `item_id` = 10947;
-UPDATE `weapon` SET `name` ='靈魂之劍*瑟魯基長劍-破壞' WHERE `item_id` = 10948;
-UPDATE `weapon` SET `name` ='武士刀*瑟魯基長劍-破壞' WHERE `item_id` = 10949;
-UPDATE `weapon` SET `name` ='極限之劍*瑟魯基長劍-破壞' WHERE `item_id` = 10950;
-UPDATE `weapon` SET `name` ='迷惑之劍*瑟魯基長劍-破壞' WHERE `item_id` = 10951;
-UPDATE `weapon` SET `name` ='夢魘劍*瑟魯基長劍-破壞' WHERE `item_id` = 10952;
-UPDATE `weapon` SET `name` ='大和劍*瑟魯基長劍-破壞' WHERE `item_id` = 10953;
-UPDATE `weapon` SET `name` ='卡里埔士劍*瑟魯基長劍-破壞' WHERE `item_id` = 10954;
-UPDATE `weapon` SET `name` ='守護神之劍-疾風' WHERE `item_id` = 10955;
-UPDATE `weapon` SET `name` ='守護神之劍-疾風 Crt.吸收' WHERE `item_id` = 10956;
-UPDATE `weapon` SET `name` ='守護神之劍-疾風 強健' WHERE `item_id` = 10957;
-UPDATE `weapon` SET `name` ='守護神之劍-疾風 Crt.出血' WHERE `item_id` = 10958;
-UPDATE `weapon` SET `name` ='大馬士革刀-大地' WHERE `item_id` = 10959;
-UPDATE `weapon` SET `name` ='大馬士革刀-大地 偵測' WHERE `item_id` = 10960;
-UPDATE `weapon` SET `name` ='大馬士革刀-大地 Crt.傷害' WHERE `item_id` = 10961;
-UPDATE `weapon` SET `name` ='大馬士革刀-大地 速度激發' WHERE `item_id` = 10962;
-UPDATE `weapon` SET `name` ='裂解劍-疾風' WHERE `item_id` = 10963;
-UPDATE `weapon` SET `name` ='裂解劍-疾風 Crt.吸收' WHERE `item_id` = 10964;
-UPDATE `weapon` SET `name` ='裂解劍-疾風 強健' WHERE `item_id` = 10965;
-UPDATE `weapon` SET `name` ='裂解劍-疾風 Crt.出血' WHERE `item_id` = 10966;
-UPDATE `weapon` SET `name` ='長槍-大地' WHERE `item_id` = 10967;
-UPDATE `weapon` SET `name` ='長槍-大地 怒擊' WHERE `item_id` = 10968;
-UPDATE `weapon` SET `name` ='長槍-大地 Crt.衝擊' WHERE `item_id` = 10969;
-UPDATE `weapon` SET `name` ='長槍-大地 遠程打擊' WHERE `item_id` = 10970;
-UPDATE `weapon` SET `name` ='博利恩拳套-疾風' WHERE `item_id` = 10971;
-UPDATE `weapon` SET `name` ='博利恩拳套-疾風 Crt.吸收' WHERE `item_id` = 10972;
-UPDATE `weapon` SET `name` ='博利恩拳套-疾風 Crt.施毒' WHERE `item_id` = 10973;
-UPDATE `weapon` SET `name` ='博利恩拳套-疾風 Rsk.速度激發' WHERE `item_id` = 10974;
-UPDATE `weapon` SET `name` ='邪靈魔杖-聖靈' WHERE `item_id` = 10975;
-UPDATE `weapon` SET `name` ='邪靈魔杖-聖靈 魔法偵測' WHERE `item_id` = 10976;
-UPDATE `weapon` SET `name` ='邪靈魔杖-聖靈 魔法神佑之體' WHERE `item_id` = 10977;
-UPDATE `weapon` SET `name` ='邪靈魔杖-聖靈 魔法毒咒' WHERE `item_id` = 10978;
-UPDATE `weapon` SET `name` ='亡者榮譽-山崩' WHERE `item_id` = 10979;
-UPDATE `weapon` SET `name` ='亡者榮譽-山崩 怒擊' WHERE `item_id` = 10980;
-UPDATE `weapon` SET `name` ='亡者榮譽-山崩 強健' WHERE `item_id` = 10981;
-UPDATE `weapon` SET `name` ='亡者榮譽-山崩 速度激發' WHERE `item_id` = 10982;
-UPDATE `weapon` SET `name` ='星爆-疾風' WHERE `item_id` = 10983;
-UPDATE `weapon` SET `name` ='星爆-疾風 強健' WHERE `item_id` = 10984;
-UPDATE `weapon` SET `name` ='星爆-疾風 速度激發' WHERE `item_id` = 10985;
-UPDATE `weapon` SET `name` ='星爆-疾風 Rsk.偵測' WHERE `item_id` = 10986;
-UPDATE `weapon` SET `name` ='瑟魯基長劍*瑟魯基長劍-山崩' WHERE `item_id` = 10987;
-UPDATE `weapon` SET `name` ='工藝戰斧-山崩' WHERE `item_id` = 10988;
-UPDATE `weapon` SET `name` ='工藝戰斧-山崩 強健' WHERE `item_id` = 10989;
-UPDATE `weapon` SET `name` ='工藝戰斧-山崩 Rsk.偵測' WHERE `item_id` = 10990;
-UPDATE `weapon` SET `name` ='工藝戰斧-山崩 速度激發' WHERE `item_id` = 10991;
-UPDATE `weapon` SET `name` ='惡魔短劍-疾風' WHERE `item_id` = 10992;
-UPDATE `weapon` SET `name` ='惡魔短劍-疾風 Crt.出血' WHERE `item_id` = 10993;
-UPDATE `weapon` SET `name` ='惡魔短劍-疾風 Crt.施毒' WHERE `item_id` = 10994;
-UPDATE `weapon` SET `name` ='惡魔短劍-疾風 致命力量' WHERE `item_id` = 10995;
-UPDATE `weapon` SET `name` ='惡魔短劍-疾風 Crt.傷害' WHERE `item_id` = 10996;
-UPDATE `weapon` SET `name` ='卡倚巴奴之骨-大地' WHERE `item_id` = 10997;
-UPDATE `weapon` SET `name` ='卡倚巴奴之骨-大地 魔力上升' WHERE `item_id` = 10998;
-UPDATE `weapon` SET `name` ='卡倚巴奴之骨-大地 魔法沉默' WHERE `item_id` = 10999;
-UPDATE `weapon` SET `name` ='卡倚巴奴之骨-大地 魂體轉換' WHERE `item_id` = 11000;
-UPDATE `weapon` SET `name` ='華麗細劍-大地' WHERE `item_id` = 11001;
-UPDATE `weapon` SET `name` ='華麗細劍-大地 偵測' WHERE `item_id` = 11002;
-UPDATE `weapon` SET `name` ='華麗細劍-大地 Crt.傷害' WHERE `item_id` = 11003;
-UPDATE `weapon` SET `name` ='華麗細劍-大地 速度激發' WHERE `item_id` = 11004;
-UPDATE `weapon` SET `name` ='巫師之淚-聰明' WHERE `item_id` = 11005;
-UPDATE `weapon` SET `name` ='巫師之淚-聰明 靈活思緒' WHERE `item_id` = 11006;
-UPDATE `weapon` SET `name` ='巫師之淚-聰明 魔法之力' WHERE `item_id` = 11007;
-UPDATE `weapon` SET `name` ='巫師之淚-聰明 魂體轉換' WHERE `item_id` = 11008;
-UPDATE `weapon` SET `name` ='冒險弓-大地' WHERE `item_id` = 11009;
-UPDATE `weapon` SET `name` ='冒險弓-大地 導引' WHERE `item_id` = 11010;
-UPDATE `weapon` SET `name` ='冒險弓-大地 快速恢復' WHERE `item_id` = 11011;
-UPDATE `weapon` SET `name` ='冒險弓-大地 節射' WHERE `item_id` = 11012;
-UPDATE `weapon` SET `name` ='冥犬之牙-大地' WHERE `item_id` = 11013;
-UPDATE `weapon` SET `name` ='冥犬之牙-大地 導引' WHERE `item_id` = 11014;
-UPDATE `weapon` SET `name` ='冥犬之牙-大地 快速恢復' WHERE `item_id` = 11015;
-UPDATE `weapon` SET `name` ='冥犬之牙-大地 節射' WHERE `item_id` = 11016;
-UPDATE `weapon` SET `name` ='帕黎恩魔杖-海嘯' WHERE `item_id` = 11017;
-UPDATE `weapon` SET `name` ='帕黎恩魔杖-海嘯 魔力上升' WHERE `item_id` = 11018;
-UPDATE `weapon` SET `name` ='帕黎恩魔杖-海嘯 魂體轉換' WHERE `item_id` = 11019;
-UPDATE `weapon` SET `name` ='帕黎恩魔杖-海嘯 靈活思緒' WHERE `item_id` = 11020;
-UPDATE `weapon` SET `name` ='末日咒詛-集中' WHERE `item_id` = 11021;
-UPDATE `weapon` SET `name` ='末日咒詛-集中 輕裝' WHERE `item_id` = 11022;
-UPDATE `weapon` SET `name` ='末日咒詛-集中 Crt.出血' WHERE `item_id` = 11023;
-UPDATE `weapon` SET `name` ='末日咒詛-集中 魔力上升' WHERE `item_id` = 11024;
-UPDATE `weapon` SET `name` ='天雷-破壞' WHERE `item_id` = 11025;
-UPDATE `weapon` SET `name` ='天雷-破壞 Crt.施毒' WHERE `item_id` = 11026;
-UPDATE `weapon` SET `name` ='天雷-破壞 速度激發' WHERE `item_id` = 11027;
-UPDATE `weapon` SET `name` ='天雷-破壞 怒擊' WHERE `item_id` = 11028;
-UPDATE `weapon` SET `name` ='流星雨-大地' WHERE `item_id` = 11029;
-UPDATE `weapon` SET `name` ='流星雨-大地 偵測' WHERE `item_id` = 11030;
-UPDATE `weapon` SET `name` ='流星雨-大地 Crt.出血' WHERE `item_id` = 11031;
-UPDATE `weapon` SET `name` ='流星雨-大地 Rsk.速度激發' WHERE `item_id` = 11032;
-UPDATE `weapon` SET `name` ='血旋風-破壞' WHERE `item_id` = 11033;
-UPDATE `weapon` SET `name` ='血旋風-破壞 速度激發' WHERE `item_id` = 11034;
-UPDATE `weapon` SET `name` ='血旋風-破壞 偵測' WHERE `item_id` = 11035;
-UPDATE `weapon` SET `name` ='血旋風-破壞 怒擊' WHERE `item_id` = 11036;
-UPDATE `weapon` SET `name` ='血腥之蘭-混亂' WHERE `item_id` = 11037;
-UPDATE `weapon` SET `name` ='血腥之蘭-混亂 偵測' WHERE `item_id` = 11038;
-UPDATE `weapon` SET `name` ='血腥之蘭-混亂 背擊' WHERE `item_id` = 11039;
-UPDATE `weapon` SET `name` ='血腥之蘭-混亂 Crt.出血' WHERE `item_id` = 11040;
-UPDATE `weapon` SET `name` ='元素劍-海嘯' WHERE `item_id` = 11041;
-UPDATE `weapon` SET `name` ='元素劍-海嘯 魔法之力' WHERE `item_id` = 11042;
-UPDATE `weapon` SET `name` ='元素劍-海嘯 魔法麻痺' WHERE `item_id` = 11043;
-UPDATE `weapon` SET `name` ='元素劍-海嘯 魔力催化' WHERE `item_id` = 11044;
-UPDATE `weapon` SET `name` ='英魂之眼-海嘯' WHERE `item_id` = 11045;
-UPDATE `weapon` SET `name` ='英魂之眼-海嘯 魔力上升' WHERE `item_id` = 11046;
-UPDATE `weapon` SET `name` ='英魂之眼-海嘯 魔法毒咒' WHERE `item_id` = 11047;
-UPDATE `weapon` SET `name` ='英魂之眼-海嘯 靈活思緒' WHERE `item_id` = 11048;
-UPDATE `weapon` SET `name` ='煉獄之主-集中' WHERE `item_id` = 11049;
-UPDATE `weapon` SET `name` ='煉獄之主-集中 速度激發' WHERE `item_id` = 11050;
-UPDATE `weapon` SET `name` ='煉獄之主-集中 Crt.傷害' WHERE `item_id` = 11051;
-UPDATE `weapon` SET `name` ='煉獄之主-集中 偵測' WHERE `item_id` = 11052;
-UPDATE `weapon` SET `name` ='顱之弓-集中' WHERE `item_id` = 11053;
-UPDATE `weapon` SET `name` ='顱之弓-集中 輕裝' WHERE `item_id` = 11054;
-UPDATE `weapon` SET `name` ='顱之弓-集中 Crt.出血' WHERE `item_id` = 11055;
-UPDATE `weapon` SET `name` ='顱之弓-集中 魔力上升' WHERE `item_id` = 11056;
-UPDATE `weapon` SET `name` ='柯貝克劍*柯貝克劍-破壞' WHERE `item_id` = 11057;
-UPDATE `weapon` SET `name` ='塔魯刀-破壞' WHERE `item_id` = 11058;
-UPDATE `weapon` SET `name` ='塔魯刀-破壞 Crt.施毒' WHERE `item_id` = 11059;
-UPDATE `weapon` SET `name` ='塔魯刀-破壞 速度激發' WHERE `item_id` = 11060;
-UPDATE `weapon` SET `name` ='塔魯刀-破壞 怒擊' WHERE `item_id` = 11061;
-UPDATE `weapon` SET `name` ='破壞者巨鎚-雷鳴' WHERE `item_id` = 11062;
-UPDATE `weapon` SET `name` ='破壞者巨鎚-雷鳴 強健' WHERE `item_id` = 11063;
-UPDATE `weapon` SET `name` ='破壞者巨鎚-雷鳴 速度激發' WHERE `item_id` = 11064;
-UPDATE `weapon` SET `name` ='破壞者巨鎚-雷鳴 Crt.吸收' WHERE `item_id` = 11065;
-UPDATE `weapon` SET `name` ='神怨-集中' WHERE `item_id` = 11066;
-UPDATE `weapon` SET `name` ='神怨-集中 速度激發' WHERE `item_id` = 11067;
-UPDATE `weapon` SET `name` ='神怨-集中 Crt.傷害' WHERE `item_id` = 11068;
-UPDATE `weapon` SET `name` ='神怨-集中 偵測' WHERE `item_id` = 11069;
-UPDATE `weapon` SET `name` ='長柄戰戟-雷鳴' WHERE `item_id` = 11070;
-UPDATE `weapon` SET `name` ='長柄戰戟-雷鳴 速度激發' WHERE `item_id` = 11071;
-UPDATE `weapon` SET `name` ='長柄戰戟-雷鳴 Crt.衝擊' WHERE `item_id` = 11072;
-UPDATE `weapon` SET `name` ='長柄戰戟-雷鳴 寬幅打擊' WHERE `item_id` = 11073;
-UPDATE `weapon` SET `name` ='柯貝克劍*大馬士革刀-破壞' WHERE `item_id` = 11074;
-UPDATE `weapon` SET `name` ='貪婪刺劍-電擊' WHERE `item_id` = 11075;
-UPDATE `weapon` SET `name` ='貪婪刺劍-電擊 Crt.傷害' WHERE `item_id` = 11076;
-UPDATE `weapon` SET `name` ='貪婪刺劍-電擊 強健' WHERE `item_id` = 11077;
-UPDATE `weapon` SET `name` ='貪婪刺劍-電擊 Rsk.偵測' WHERE `item_id` = 11078;
-UPDATE `weapon` SET `name` ='大馬士革刀*大馬士革刀-電擊' WHERE `item_id` = 11079;
-UPDATE `weapon` SET `name` ='黑暗軍刀-電擊' WHERE `item_id` = 11080;
-UPDATE `weapon` SET `name` ='黑暗軍刀-電擊 Crt.傷害' WHERE `item_id` = 11081;
-UPDATE `weapon` SET `name` ='黑暗軍刀-電擊 強健' WHERE `item_id` = 11082;
-UPDATE `weapon` SET `name` ='黑暗軍刀-電擊 Rsk.偵測' WHERE `item_id` = 11083;
-UPDATE `weapon` SET `name` ='死神使者-惡靈' WHERE `item_id` = 11084;
-UPDATE `weapon` SET `name` ='死神使者-惡靈 強健' WHERE `item_id` = 11085;
-UPDATE `weapon` SET `name` ='死神使者-惡靈 Crt.出血' WHERE `item_id` = 11086;
-UPDATE `weapon` SET `name` ='死神使者-惡靈 Crt.吸收' WHERE `item_id` = 11087;
-UPDATE `weapon` SET `name` ='末日毀滅者-電擊' WHERE `item_id` = 11088;
-UPDATE `weapon` SET `name` ='末日毀滅者-電擊 強健' WHERE `item_id` = 11089;
-UPDATE `weapon` SET `name` ='末日毀滅者-電擊 怒擊' WHERE `item_id` = 11090;
-UPDATE `weapon` SET `name` ='末日毀滅者-電擊 Rsk.速度激發' WHERE `item_id` = 11091;
-UPDATE `weapon` SET `name` ='龍牙-大地' WHERE `item_id` = 11092;
-UPDATE `weapon` SET `name` ='龍牙-大地 Rsk.迴避' WHERE `item_id` = 11093;
-UPDATE `weapon` SET `name` ='龍牙-大地 導引' WHERE `item_id` = 11094;
-UPDATE `weapon` SET `name` ='龍牙-大地 強健' WHERE `item_id` = 11095;
-UPDATE `weapon` SET `name` ='斬龍刀-惡靈' WHERE `item_id` = 11096;
-UPDATE `weapon` SET `name` ='斬龍刀-惡靈 強健' WHERE `item_id` = 11097;
-UPDATE `weapon` SET `name` ='斬龍刀-惡靈 Crt.出血' WHERE `item_id` = 11098;
-UPDATE `weapon` SET `name` ='斬龍刀-惡靈 Crt.吸收' WHERE `item_id` = 11099;
-UPDATE `weapon` SET `name` ='火龍之首-智慧' WHERE `item_id` = 11100;
-UPDATE `weapon` SET `name` ='火龍之首-智慧 靈活思緒' WHERE `item_id` = 11101;
-UPDATE `weapon` SET `name` ='火龍之首-智慧 魔法之力' WHERE `item_id` = 11102;
-UPDATE `weapon` SET `name` ='火龍之首-智慧 魔法沉默' WHERE `item_id` = 11103;
-UPDATE `weapon` SET `name` ='世界樹樹枝-自然' WHERE `item_id` = 11104;
-UPDATE `weapon` SET `name` ='世界樹樹枝-自然 魂體轉換' WHERE `item_id` = 11105;
-UPDATE `weapon` SET `name` ='世界樹樹枝-自然 魔法傷害' WHERE `item_id` = 11106;
-UPDATE `weapon` SET `name` ='世界樹樹枝-自然 靈活思緒' WHERE `item_id` = 11107;
-UPDATE `weapon` SET `name` ='奇蹟劍-聖靈' WHERE `item_id` = 11108;
-UPDATE `weapon` SET `name` ='奇蹟劍-聖靈 魔法之力' WHERE `item_id` = 11109;
-UPDATE `weapon` SET `name` ='奇蹟劍-聖靈 魔法沉默' WHERE `item_id` = 11110;
-UPDATE `weapon` SET `name` ='奇蹟劍-聖靈 靈活思緒' WHERE `item_id` = 11111;
-UPDATE `weapon` SET `name` ='靈魂弩-千里眼' WHERE `item_id` = 11112;
-UPDATE `weapon` SET `name` ='靈魂弩-千里眼 節射' WHERE `item_id` = 11113;
-UPDATE `weapon` SET `name` ='靈魂弩-千里眼 快速恢復' WHERE `item_id` = 11114;
-UPDATE `weapon` SET `name` ='靈魂弩-千里眼 Crt.施毒' WHERE `item_id` = 11115;
-UPDATE `weapon` SET `name` ='魂體分離器-溫和' WHERE `item_id` = 11116;
-UPDATE `weapon` SET `name` ='魂體分離器-溫和 導引' WHERE `item_id` = 11117;
-UPDATE `weapon` SET `name` ='魂體分離器-溫和 Crt.傷害' WHERE `item_id` = 11118;
-UPDATE `weapon` SET `name` ='魂體分離器-溫和 Rsk.速度激發' WHERE `item_id` = 11119;
-UPDATE `weapon` SET `name` ='樂園-疾風' WHERE `item_id` = 11120;
-UPDATE `weapon` SET `name` ='樂園-疾風 強健' WHERE `item_id` = 11121;
-UPDATE `weapon` SET `name` ='樂園-疾風 怒擊' WHERE `item_id` = 11122;
-UPDATE `weapon` SET `name` ='樂園-疾風 Crt.吸收' WHERE `item_id` = 11123;
-UPDATE `weapon` SET `name` ='靈魂弓-千里眼' WHERE `item_id` = 11124;
-UPDATE `weapon` SET `name` ='靈魂弓-千里眼 節射' WHERE `item_id` = 11125;
-UPDATE `weapon` SET `name` ='靈魂弓-千里眼 快速恢復' WHERE `item_id` = 11126;
-UPDATE `weapon` SET `name` ='靈魂弓-千里眼 Crt.施毒' WHERE `item_id` = 11127;
-UPDATE `weapon` SET `name` ='塔魯闊矛-溫和' WHERE `item_id` = 11128;
-UPDATE `weapon` SET `name` ='塔魯闊矛-溫和 導引' WHERE `item_id` = 11129;
-UPDATE `weapon` SET `name` ='塔魯闊矛-溫和 強健' WHERE `item_id` = 11130;
-UPDATE `weapon` SET `name` ='塔魯闊矛-溫和 寬幅打擊' WHERE `item_id` = 11131;
-UPDATE `weapon` SET `name` ='強化地獄犬狼牙' WHERE `item_id` = 11132;
-UPDATE `weapon` SET `name` ='那卡風暴-臼齒' WHERE `item_id` = 11133;
-UPDATE `weapon` SET `name` ='那卡風暴-臼齒 偵測' WHERE `item_id` = 11134;
-UPDATE `weapon` SET `name` ='那卡風暴-臼齒 Crt.傷害' WHERE `item_id` = 11135;
-UPDATE `weapon` SET `name` ='那卡風暴-臼齒 背擊' WHERE `item_id` = 11136;
-UPDATE `weapon` SET `name` ='惡魔結晶-智慧' WHERE `item_id` = 11137;
-UPDATE `weapon` SET `name` ='惡魔結晶-智慧 魔力上升' WHERE `item_id` = 11138;
-UPDATE `weapon` SET `name` ='惡魔結晶-智慧 靈活思緒' WHERE `item_id` = 11139;
-UPDATE `weapon` SET `name` ='惡魔結晶-智慧 魔法心靈防護' WHERE `item_id` = 11140;
-UPDATE `weapon` SET `name` ='貝拉凱爾聖斧-溫和' WHERE `item_id` = 11141;
-UPDATE `weapon` SET `name` ='貝拉凱爾聖斧-溫和 強健' WHERE `item_id` = 11142;
-UPDATE `weapon` SET `name` ='貝拉凱爾聖斧-溫和 速度激發' WHERE `item_id` = 11143;
-UPDATE `weapon` SET `name` ='貝拉凱爾聖斧-溫和 偵測' WHERE `item_id` = 11144;
-UPDATE `weapon` SET `name` ='復仇爆弩-集中' WHERE `item_id` = 11145;
-UPDATE `weapon` SET `name` ='復仇爆弩-集中 節射' WHERE `item_id` = 11146;
-UPDATE `weapon` SET `name` ='復仇爆弩-集中 偵測' WHERE `item_id` = 11147;
-UPDATE `weapon` SET `name` ='復仇爆弩-集中 快速恢復' WHERE `item_id` = 11148;
-UPDATE `weapon` SET `name` ='貝希莫斯巨叉-破壞' WHERE `item_id` = 11149;
-UPDATE `weapon` SET `name` ='貝希莫斯巨叉-破壞 偵測' WHERE `item_id` = 11150;
-UPDATE `weapon` SET `name` ='貝希莫斯巨叉-破壞 強健' WHERE `item_id` = 11151;
-UPDATE `weapon` SET `name` ='貝希莫斯巨叉-破壞 怒擊' WHERE `item_id` = 11152;
-UPDATE `weapon` SET `name` ='光明守護之劍-大地' WHERE `item_id` = 11153;
-UPDATE `weapon` SET `name` ='光明守護之劍-大地 偵測' WHERE `item_id` = 11154;
-UPDATE `weapon` SET `name` ='光明守護之劍-大地 速度激發' WHERE `item_id` = 11155;
-UPDATE `weapon` SET `name` ='光明守護之劍-大地 強健' WHERE `item_id` = 11156;
-UPDATE `weapon` SET `name` ='夏伊德獵弓-集中' WHERE `item_id` = 11157;
-UPDATE `weapon` SET `name` ='夏伊德獵弓-集中 節射' WHERE `item_id` = 11158;
-UPDATE `weapon` SET `name` ='夏伊德獵弓-集中 偵測' WHERE `item_id` = 11159;
-UPDATE `weapon` SET `name` ='夏伊德獵弓-集中 快速恢復' WHERE `item_id` = 11160;
-UPDATE `weapon` SET `name` ='伊波斯巨劍-大地' WHERE `item_id` = 11161;
-UPDATE `weapon` SET `name` ='伊波斯巨劍-大地 偵測' WHERE `item_id` = 11162;
-UPDATE `weapon` SET `name` ='伊波斯巨劍-大地 速度激發' WHERE `item_id` = 11163;
-UPDATE `weapon` SET `name` ='伊波斯巨劍-大地 強健' WHERE `item_id` = 11164;
-UPDATE `weapon` SET `name` ='索貝克颶風-山崩' WHERE `item_id` = 11165;
-UPDATE `weapon` SET `name` ='索貝克颶風-山崩 Rsk.速度激發' WHERE `item_id` = 11166;
-UPDATE `weapon` SET `name` ='索貝克颶風-山崩 速度激發' WHERE `item_id` = 11167;
-UPDATE `weapon` SET `name` ='索貝克颶風-山崩 Crt.吸收' WHERE `item_id` = 11168;
-UPDATE `weapon` SET `name` ='希露冰刃-山崩' WHERE `item_id` = 11169;
-UPDATE `weapon` SET `name` ='希露冰刃-山崩 速度激發' WHERE `item_id` = 11170;
-UPDATE `weapon` SET `name` ='希露冰刃-山崩 強健' WHERE `item_id` = 11171;
-UPDATE `weapon` SET `name` ='希露冰刃-山崩 Crt.施毒' WHERE `item_id` = 11172;
-UPDATE `weapon` SET `name` ='閃光之珠-山崩' WHERE `item_id` = 11173;
-UPDATE `weapon` SET `name` ='閃光之珠-山崩 速度激發' WHERE `item_id` = 11174;
-UPDATE `weapon` SET `name` ='閃光之珠-山崩 強健' WHERE `item_id` = 11175;
-UPDATE `weapon` SET `name` ='閃光之珠-山崩 Crt.施毒' WHERE `item_id` = 11176;
-UPDATE `weapon` SET `name` ='岱依封長戟-山崩' WHERE `item_id` = 11177;
-UPDATE `weapon` SET `name` ='岱依封長戟-山崩 Crt.衝擊' WHERE `item_id` = 11178;
-UPDATE `weapon` SET `name` ='岱依封長戟-山崩 遠程打擊' WHERE `item_id` = 11179;
-UPDATE `weapon` SET `name` ='岱依封長戟-山崩 寬幅打擊' WHERE `item_id` = 11180;
-UPDATE `weapon` SET `name` ='塔魯刀*大馬士革刀-山崩' WHERE `item_id` = 11181;
-UPDATE `weapon` SET `name` ='緹米絲之舌-聰明' WHERE `item_id` = 11182;
-UPDATE `weapon` SET `name` ='緹米絲之舌-聰明 魔力上升' WHERE `item_id` = 11183;
-UPDATE `weapon` SET `name` ='緹米絲之舌-聰明 魔法心靈防護' WHERE `item_id` = 11184;
-UPDATE `weapon` SET `name` ='緹米絲之舌-聰明 魔法偵測' WHERE `item_id` = 11185;
-UPDATE `weapon` SET `name` ='卡布里歐之手-聰明' WHERE `item_id` = 11186;
-UPDATE `weapon` SET `name` ='卡布里歐之手-聰明 魂體轉換' WHERE `item_id` = 11187;
-UPDATE `weapon` SET `name` ='卡布里歐之手-聰明 魔力上升' WHERE `item_id` = 11188;
-UPDATE `weapon` SET `name` ='卡布里歐之手-聰明 魔法沉默' WHERE `item_id` = 11189;
-UPDATE `weapon` SET `name` ='勝利之劍格蘭-電擊' WHERE `item_id` = 11190;
-UPDATE `weapon` SET `name` ='勝利之劍格蘭-電擊 速度激發' WHERE `item_id` = 11191;
-UPDATE `weapon` SET `name` ='勝利之劍格蘭-電擊 強健' WHERE `item_id` = 11192;
-UPDATE `weapon` SET `name` ='勝利之劍格蘭-電擊 偵測' WHERE `item_id` = 11193;
-UPDATE `weapon` SET `name` ='惡魔獵爪-電擊' WHERE `item_id` = 11194;
-UPDATE `weapon` SET `name` ='惡魔獵爪-電擊 偵測' WHERE `item_id` = 11195;
-UPDATE `weapon` SET `name` ='惡魔獵爪-電擊 強健' WHERE `item_id` = 11196;
-UPDATE `weapon` SET `name` ='惡魔獵爪-電擊 Crt.衝擊' WHERE `item_id` = 11197;
-UPDATE `weapon` SET `name` ='紅龍之弓-大地' WHERE `item_id` = 11198;
-UPDATE `weapon` SET `name` ='紅龍之弓-大地 節射' WHERE `item_id` = 11199;
-UPDATE `weapon` SET `name` ='紅龍之弓-大地 偵測' WHERE `item_id` = 11200;
-UPDATE `weapon` SET `name` ='紅龍之弓-大地 Crt.緩速' WHERE `item_id` = 11201;
-UPDATE `weapon` SET `name` ='狩龍之斧-電擊' WHERE `item_id` = 11202;
-UPDATE `weapon` SET `name` ='狩龍之斧-電擊 體力再生' WHERE `item_id` = 11203;
-UPDATE `weapon` SET `name` ='狩龍之斧-電擊 強健' WHERE `item_id` = 11204;
-UPDATE `weapon` SET `name` ='狩龍之斧-電擊 HP吸收' WHERE `item_id` = 11205;
-UPDATE `weapon` SET `name` ='烈焚天-雷鳴' WHERE `item_id` = 11206;
-UPDATE `weapon` SET `name` ='烈焚天-雷鳴 速度激發' WHERE `item_id` = 11207;
-UPDATE `weapon` SET `name` ='烈焚天-雷鳴 強健' WHERE `item_id` = 11208;
-UPDATE `weapon` SET `name` ='烈焚天-雷鳴 偵測' WHERE `item_id` = 11209;
-UPDATE `weapon` SET `name` ='玄武岩戰鎚-集中' WHERE `item_id` = 11210;
-UPDATE `weapon` SET `name` ='玄武岩戰鎚-集中 HP吸收' WHERE `item_id` = 11211;
-UPDATE `weapon` SET `name` ='玄武岩戰鎚-集中 強健' WHERE `item_id` = 11212;
-UPDATE `weapon` SET `name` ='玄武岩戰鎚-集中 體力再生' WHERE `item_id` = 11213;
-UPDATE `weapon` SET `name` ='薩倫伽神弩-大地' WHERE `item_id` = 11214;
-UPDATE `weapon` SET `name` ='薩倫伽神弩-大地 節射' WHERE `item_id` = 11215;
-UPDATE `weapon` SET `name` ='薩倫伽神弩-大地 偵測' WHERE `item_id` = 11216;
-UPDATE `weapon` SET `name` ='薩倫伽神弩-大地 Crt.緩速' WHERE `item_id` = 11217;
-UPDATE `weapon` SET `name` ='聖者之矛-破壞' WHERE `item_id` = 11218;
-UPDATE `weapon` SET `name` ='聖者之矛-破壞 強健' WHERE `item_id` = 11219;
-UPDATE `weapon` SET `name` ='聖者之矛-破壞 導引' WHERE `item_id` = 11220;
-UPDATE `weapon` SET `name` ='聖者之矛-破壞 速度激發' WHERE `item_id` = 11221;
-UPDATE `weapon` SET `name` ='祕儀權杖-自然' WHERE `item_id` = 11222;
-UPDATE `weapon` SET `name` ='祕儀權杖-自然 靈活思緒' WHERE `item_id` = 11223;
-UPDATE `weapon` SET `name` ='祕儀權杖-自然 魔力再生' WHERE `item_id` = 11224;
-UPDATE `weapon` SET `name` ='祕儀權杖-自然 魔力上升' WHERE `item_id` = 11225;
-UPDATE `weapon` SET `name` ='天使殺手-集中' WHERE `item_id` = 11226;
-UPDATE `weapon` SET `name` ='天使殺手-集中 Crt.傷害' WHERE `item_id` = 11227;
-UPDATE `weapon` SET `name` ='天使殺手-集中 HP吸收' WHERE `item_id` = 11228;
-UPDATE `weapon` SET `name` ='天使殺手-集中 速度激發' WHERE `item_id` = 11229;
-UPDATE `weapon` SET `name` ='帝國權杖-自然' WHERE `item_id` = 11230;
-UPDATE `weapon` SET `name` ='帝國權杖-自然 魔力催化' WHERE `item_id` = 11231;
-UPDATE `weapon` SET `name` ='帝國權杖-自然 魔力再生' WHERE `item_id` = 11232;
-UPDATE `weapon` SET `name` ='帝國權杖-自然 魔法束縛' WHERE `item_id` = 11233;
-UPDATE `weapon` SET `name` ='塔魯刀*黑暗軍刀-雷鳴' WHERE `item_id` = 11234;
-UPDATE `weapon` SET `name` ='忘卻之刃-雷鳴' WHERE `item_id` = 11235;
-UPDATE `weapon` SET `name` ='忘卻之刃-雷鳴 速度激發' WHERE `item_id` = 11236;
-UPDATE `weapon` SET `name` ='忘卻之刃-雷鳴 強健' WHERE `item_id` = 11237;
-UPDATE `weapon` SET `name` ='忘卻之刃-雷鳴 偵測' WHERE `item_id` = 11238;
-UPDATE `weapon` SET `name` ='天國審判-電擊' WHERE `item_id` = 11239;
-UPDATE `weapon` SET `name` ='天國審判-電擊 速度激發' WHERE `item_id` = 11240;
-UPDATE `weapon` SET `name` ='天國審判-電擊 強健' WHERE `item_id` = 11241;
-UPDATE `weapon` SET `name` ='天國審判-電擊 偵測' WHERE `item_id` = 11242;
-UPDATE `weapon` SET `name` ='王朝古代劍-疾風' WHERE `item_id` = 11243;
-UPDATE `weapon` SET `name` ='王朝古代劍-疾風 偵測' WHERE `item_id` = 11244;
-UPDATE `weapon` SET `name` ='王朝古代劍-疾風 強健' WHERE `item_id` = 11245;
-UPDATE `weapon` SET `name` ='王朝古代劍-疾風 輕裝' WHERE `item_id` = 11246;
-UPDATE `weapon` SET `name` ='王朝小刀-疾風' WHERE `item_id` = 11247;
-UPDATE `weapon` SET `name` ='王朝小刀-疾風 偵測' WHERE `item_id` = 11248;
-UPDATE `weapon` SET `name` ='王朝小刀-疾風 迴避' WHERE `item_id` = 11249;
-UPDATE `weapon` SET `name` ='王朝小刀-疾風 Crt.傷害' WHERE `item_id` = 11250;
-UPDATE `weapon` SET `name` ='王朝雙刀-大地' WHERE `item_id` = 11251;
-UPDATE `weapon` SET `name` ='王朝細劍-大地' WHERE `item_id` = 11252;
-UPDATE `weapon` SET `name` ='王朝細劍-大地 偵測' WHERE `item_id` = 11253;
-UPDATE `weapon` SET `name` ='王朝細劍-大地 強健' WHERE `item_id` = 11254;
-UPDATE `weapon` SET `name` ='王朝細劍-大地 輕裝' WHERE `item_id` = 11255;
-UPDATE `weapon` SET `name` ='王朝釘鎚-大地' WHERE `item_id` = 11256;
-UPDATE `weapon` SET `name` ='王朝釘鎚-大地 魔力上升' WHERE `item_id` = 11257;
-UPDATE `weapon` SET `name` ='王朝釘鎚-大地 魂體轉換' WHERE `item_id` = 11258;
-UPDATE `weapon` SET `name` ='王朝釘鎚-大地 靈活思緒' WHERE `item_id` = 11259;
-UPDATE `weapon` SET `name` ='王朝拳套爪-疾風' WHERE `item_id` = 11260;
-UPDATE `weapon` SET `name` ='王朝拳套爪-疾風 Rsk.迴避' WHERE `item_id` = 11261;
-UPDATE `weapon` SET `name` ='王朝拳套爪-疾風 偵測' WHERE `item_id` = 11262;
-UPDATE `weapon` SET `name` ='王朝拳套爪-疾風 速度激發' WHERE `item_id` = 11263;
-UPDATE `weapon` SET `name` ='王朝弓-疾風' WHERE `item_id` = 11264;
-UPDATE `weapon` SET `name` ='王朝弓-疾風 節射' WHERE `item_id` = 11265;
-UPDATE `weapon` SET `name` ='王朝弓-疾風 導引' WHERE `item_id` = 11266;
-UPDATE `weapon` SET `name` ='王朝弓-疾風 偵測' WHERE `item_id` = 11267;
-UPDATE `weapon` SET `name` ='王朝之刃-疾風' WHERE `item_id` = 11268;
-UPDATE `weapon` SET `name` ='王朝之刃-疾風 偵測' WHERE `item_id` = 11269;
-UPDATE `weapon` SET `name` ='王朝之刃-疾風 強健' WHERE `item_id` = 11270;
-UPDATE `weapon` SET `name` ='王朝之刃-疾風 輕裝' WHERE `item_id` = 11271;
-UPDATE `weapon` SET `name` ='王朝劍-大地' WHERE `item_id` = 11272;
-UPDATE `weapon` SET `name` ='王朝劍-大地 偵測' WHERE `item_id` = 11273;
-UPDATE `weapon` SET `name` ='王朝劍-大地 強健' WHERE `item_id` = 11274;
-UPDATE `weapon` SET `name` ='王朝劍-大地 輕裝' WHERE `item_id` = 11275;
-UPDATE `weapon` SET `name` ='王朝魔杖-聖靈' WHERE `item_id` = 11276;
-UPDATE `weapon` SET `name` ='王朝魔杖-聖靈 魔力上升' WHERE `item_id` = 11277;
-UPDATE `weapon` SET `name` ='王朝魔杖-聖靈 魂體轉換' WHERE `item_id` = 11278;
-UPDATE `weapon` SET `name` ='王朝魔杖-聖靈 靈活思緒' WHERE `item_id` = 11279;
-UPDATE `weapon` SET `name` ='王朝戰鎚-山崩' WHERE `item_id` = 11280;
-UPDATE `weapon` SET `name` ='王朝戰鎚-山崩 怒擊' WHERE `item_id` = 11281;
-UPDATE `weapon` SET `name` ='王朝戰鎚-山崩 強健' WHERE `item_id` = 11282;
-UPDATE `weapon` SET `name` ='王朝戰鎚-山崩 Rsk.偵測' WHERE `item_id` = 11283;
-UPDATE `weapon` SET `name` ='王朝毀滅者-疾風' WHERE `item_id` = 11284;
-UPDATE `weapon` SET `name` ='王朝毀滅者-疾風 怒擊' WHERE `item_id` = 11285;
-UPDATE `weapon` SET `name` ='王朝毀滅者-疾風 強健' WHERE `item_id` = 11286;
-UPDATE `weapon` SET `name` ='王朝毀滅者-疾風 Rsk.偵測' WHERE `item_id` = 11287;
-UPDATE `weapon` SET `name` ='王朝十字弓-疾風' WHERE `item_id` = 11288;
-UPDATE `weapon` SET `name` ='王朝十字弓-疾風 節射' WHERE `item_id` = 11289;
-UPDATE `weapon` SET `name` ='王朝十字弓-疾風 導引' WHERE `item_id` = 11290;
-UPDATE `weapon` SET `name` ='王朝十字弓-疾風 偵測' WHERE `item_id` = 11291;
-UPDATE `weapon` SET `name` ='王朝幻影劍-自然' WHERE `item_id` = 11292;
-UPDATE `weapon` SET `name` ='王朝幻影劍-自然 靈活思緒' WHERE `item_id` = 11293;
-UPDATE `weapon` SET `name` ='王朝幻影劍-自然 魔力上升' WHERE `item_id` = 11294;
-UPDATE `weapon` SET `name` ='王朝幻影劍-自然 魂體轉換' WHERE `item_id` = 11295;
-UPDATE `weapon` SET `name` ='王朝長柄戰戟-大地' WHERE `item_id` = 11296;
-UPDATE `weapon` SET `name` ='王朝長柄戰戟-大地 怒擊' WHERE `item_id` = 11297;
-UPDATE `weapon` SET `name` ='王朝長柄戰戟-大地 Crt.衝擊' WHERE `item_id` = 11298;
-UPDATE `weapon` SET `name` ='王朝長柄戰戟-大地 輕裝' WHERE `item_id` = 11299;
-UPDATE `weapon` SET `name` ='伊克魯斯雙刀-破壞' WHERE `item_id` = 11300;
-UPDATE `weapon` SET `name` ='伊克魯斯分解者-混亂' WHERE `item_id` = 11301;
-UPDATE `weapon` SET `name` ='伊克魯斯分解者-混亂 偵測' WHERE `item_id` = 11302;
-UPDATE `weapon` SET `name` ='伊克魯斯分解者-混亂 迴避' WHERE `item_id` = 11303;
-UPDATE `weapon` SET `name` ='伊克魯斯分解者-混亂 Crt.傷害' WHERE `item_id` = 11304;
-UPDATE `weapon` SET `name` ='伊克魯斯之劍-破壞' WHERE `item_id` = 11305;
-UPDATE `weapon` SET `name` ='伊克魯斯之劍-破壞 偵測' WHERE `item_id` = 11306;
-UPDATE `weapon` SET `name` ='伊克魯斯之劍-破壞 強健' WHERE `item_id` = 11307;
-UPDATE `weapon` SET `name` ='伊克魯斯之劍-破壞 輕裝' WHERE `item_id` = 11308;
-UPDATE `weapon` SET `name` ='伊克魯斯之弩-集中' WHERE `item_id` = 11309;
-UPDATE `weapon` SET `name` ='伊克魯斯之弩-集中 節射' WHERE `item_id` = 11310;
-UPDATE `weapon` SET `name` ='伊克魯斯之弩-集中 導引' WHERE `item_id` = 11311;
-UPDATE `weapon` SET `name` ='伊克魯斯之弩-集中 偵測' WHERE `item_id` = 11312;
-UPDATE `weapon` SET `name` ='伊克魯斯刺劍-破壞' WHERE `item_id` = 11313;
-UPDATE `weapon` SET `name` ='伊克魯斯刺劍-破壞 偵測' WHERE `item_id` = 11314;
-UPDATE `weapon` SET `name` ='伊克魯斯刺劍-破壞 強健' WHERE `item_id` = 11315;
-UPDATE `weapon` SET `name` ='伊克魯斯刺劍-破壞 輕裝' WHERE `item_id` = 11316;
-UPDATE `weapon` SET `name` ='伊克魯斯之靈-自然' WHERE `item_id` = 11317;
-UPDATE `weapon` SET `name` ='伊克魯斯之靈-自然 靈活思緒' WHERE `item_id` = 11318;
-UPDATE `weapon` SET `name` ='伊克魯斯之靈-自然 魔力上升' WHERE `item_id` = 11319;
-UPDATE `weapon` SET `name` ='伊克魯斯之靈-自然 魂體轉換' WHERE `item_id` = 11320;
-UPDATE `weapon` SET `name` ='伊克魯斯之弓-集中' WHERE `item_id` = 11321;
-UPDATE `weapon` SET `name` ='伊克魯斯之弓-集中 節射' WHERE `item_id` = 11322;
-UPDATE `weapon` SET `name` ='伊克魯斯之弓-集中 導引' WHERE `item_id` = 11323;
-UPDATE `weapon` SET `name` ='伊克魯斯之弓-集中 偵測' WHERE `item_id` = 11324;
-UPDATE `weapon` SET `name` ='伊克魯斯翼刃-雷鳴' WHERE `item_id` = 11325;
-UPDATE `weapon` SET `name` ='伊克魯斯翼刃-雷鳴 偵測' WHERE `item_id` = 11326;
-UPDATE `weapon` SET `name` ='伊克魯斯翼刃-雷鳴 強健' WHERE `item_id` = 11327;
-UPDATE `weapon` SET `name` ='伊克魯斯翼刃-雷鳴 輕裝' WHERE `item_id` = 11328;
-UPDATE `weapon` SET `name` ='伊克魯斯三叉戟-電擊' WHERE `item_id` = 11329;
-UPDATE `weapon` SET `name` ='伊克魯斯三叉戟-電擊 怒擊' WHERE `item_id` = 11330;
-UPDATE `weapon` SET `name` ='伊克魯斯三叉戟-電擊 Crt.衝擊' WHERE `item_id` = 11331;
-UPDATE `weapon` SET `name` ='伊克魯斯三叉戟-電擊 輕裝' WHERE `item_id` = 11332;
-UPDATE `weapon` SET `name` ='伊克魯斯之鎚-大地' WHERE `item_id` = 11333;
-UPDATE `weapon` SET `name` ='伊克魯斯之鎚-大地 怒擊' WHERE `item_id` = 11334;
-UPDATE `weapon` SET `name` ='伊克魯斯之鎚-大地 強健' WHERE `item_id` = 11335;
-UPDATE `weapon` SET `name` ='伊克魯斯之鎚-大地 Rsk.偵測' WHERE `item_id` = 11336;
-UPDATE `weapon` SET `name` ='伊克魯斯之手-破壞' WHERE `item_id` = 11337;
-UPDATE `weapon` SET `name` ='伊克魯斯之手-破壞 Rsk.迴避' WHERE `item_id` = 11338;
-UPDATE `weapon` SET `name` ='伊克魯斯之手-破壞 偵測' WHERE `item_id` = 11339;
-UPDATE `weapon` SET `name` ='伊克魯斯之手-破壞 速度激發' WHERE `item_id` = 11340;
-UPDATE `weapon` SET `name` ='伊克魯斯重兵刃-雷鳴' WHERE `item_id` = 11341;
-UPDATE `weapon` SET `name` ='伊克魯斯重兵刃-雷鳴 偵測' WHERE `item_id` = 11342;
-UPDATE `weapon` SET `name` ='伊克魯斯重兵刃-雷鳴 強健' WHERE `item_id` = 11343;
-UPDATE `weapon` SET `name` ='伊克魯斯重兵刃-雷鳴 輕裝' WHERE `item_id` = 11344;
-UPDATE `weapon` SET `name` ='伊克魯斯手杖-海嘯' WHERE `item_id` = 11345;
-UPDATE `weapon` SET `name` ='伊克魯斯手杖-海嘯 魔力上升' WHERE `item_id` = 11346;
-UPDATE `weapon` SET `name` ='伊克魯斯手杖-海嘯 魂體轉換' WHERE `item_id` = 11347;
-UPDATE `weapon` SET `name` ='伊克魯斯手杖-海嘯 靈活思緒' WHERE `item_id` = 11348;
-UPDATE `weapon` SET `name` ='夏隆盾' WHERE `item_id` = 11362;
-UPDATE `weapon` SET `name` ='阿巴敦盾' WHERE `item_id` = 11374;
-UPDATE `weapon` SET `name` ='末日盾' WHERE `item_id` = 11385;
-UPDATE `weapon` SET `name` ='黑暗水晶盾' WHERE `item_id` = 11416;
-UPDATE `weapon` SET `name` ='封印的黑暗水晶盾' WHERE `item_id` = 11425;
-UPDATE `weapon` SET `name` ='封印的夢魘盾' WHERE `item_id` = 11469;
-UPDATE `weapon` SET `name` ='夢魘盾' WHERE `item_id` = 11480;
-UPDATE `weapon` SET `name` ='封印的帝國聖軍盾' WHERE `item_id` = 11502;
-UPDATE `weapon` SET `name` ='帝國聖軍盾' WHERE `item_id` = 11508;
-UPDATE `weapon` SET `name` ='王朝盾' WHERE `item_id` = 11532;
-UPDATE `weapon` SET `name` ='封印的王朝盾' WHERE `item_id` = 11569;
-UPDATE `weapon` SET `name` ='基本型-鋼劍' WHERE `item_id` = 11605;
-UPDATE `weapon` SET `name` ='基本型-強化弓' WHERE `item_id` = 11606;
-UPDATE `weapon` SET `name` ='基本型-細劍' WHERE `item_id` = 11607;
-UPDATE `weapon` SET `name` ='基本型-拳套爪' WHERE `item_id` = 11608;
-UPDATE `weapon` SET `name` ='基本型-復仇的證據' WHERE `item_id` = 11609;
-UPDATE `weapon` SET `name` ='基本型-骨頭魔杖' WHERE `item_id` = 11610;
-UPDATE `weapon` SET `name` ='基本型-祭司之劍' WHERE `item_id` = 11611;
-UPDATE `weapon` SET `name` ='基本型-生命樹枝' WHERE `item_id` = 11612;
-UPDATE `weapon` SET `name` ='基本型-手工匕首' WHERE `item_id` = 11613;
-UPDATE `weapon` SET `name` ='基本型-軍刀' WHERE `item_id` = 11614;
-UPDATE `weapon` SET `name` ='基本型-解剖刀' WHERE `item_id` = 11615;
-UPDATE `weapon` SET `name` ='基本型-深淵誘惑' WHERE `item_id` = 11616;
-UPDATE `weapon` SET `name` ='基本型-刺客刀' WHERE `item_id` = 11617;
-UPDATE `weapon` SET `name` ='基本型-工作鎚' WHERE `item_id` = 11618;
-UPDATE `weapon` SET `name` ='基本型-智慧卷軸' WHERE `item_id` = 11619;
-UPDATE `weapon` SET `name` ='基本型-曲刀' WHERE `item_id` = 11620;
-UPDATE `weapon` SET `name` ='基本型-曲刀' WHERE `item_id` = 11621;
-UPDATE `weapon` SET `name` ='基本型-三叉戟' WHERE `item_id` = 11622;
-UPDATE `weapon` SET `name` ='基本型-手斧' WHERE `item_id` = 11623;
-UPDATE `weapon` SET `name` ='基本型-獵槍' WHERE `item_id` = 11624;
-UPDATE `weapon` SET `name` ='基本型-重型劍' WHERE `item_id` = 11625;
-UPDATE `weapon` SET `name` ='基本型-巨大釘鎚' WHERE `item_id` = 11626;
-UPDATE `weapon` SET `name` ='基本型-祈禱者之鎚' WHERE `item_id` = 11627;
-UPDATE `weapon` SET `name` ='基本型-騎士劍' WHERE `item_id` = 11628;
-UPDATE `weapon` SET `name` ='基本型-黑暗精靈弓' WHERE `item_id` = 11629;
-UPDATE `weapon` SET `name` ='基本型-末日之鎚' WHERE `item_id` = 11630;
-UPDATE `weapon` SET `name` ='基本型-矮人三叉戟' WHERE `item_id` = 11631;
-UPDATE `weapon` SET `name` ='基本型-長弓' WHERE `item_id` = 11632;
-UPDATE `weapon` SET `name` ='基本型-瑪那魔杖' WHERE `item_id` = 11633;
-UPDATE `weapon` SET `name` ='基本型-神祕魔杖' WHERE `item_id` = 11634;
-UPDATE `weapon` SET `name` ='基本型-重劍' WHERE `item_id` = 11635;
-UPDATE `weapon` SET `name` ='基本型-椎骨之劍' WHERE `item_id` = 11636;
-UPDATE `weapon` SET `name` ='基本型-神聖的卷冊' WHERE `item_id` = 11637;
-UPDATE `weapon` SET `name` ='基本型-審判之鎚' WHERE `item_id` = 11638;
-UPDATE `weapon` SET `name` ='基本型-突襲曲刀' WHERE `item_id` = 11639;
-UPDATE `weapon` SET `name` ='基本型-精靈弓' WHERE `item_id` = 11640;
-UPDATE `weapon` SET `name` ='基本型-奇蹟之鎚' WHERE `item_id` = 11641;
-UPDATE `weapon` SET `name` ='基本型-單刃刀' WHERE `item_id` = 11642;
-UPDATE `weapon` SET `name` ='基本型-工匠之劍' WHERE `item_id` = 11643;
-UPDATE `weapon` SET `name` ='基本型-法咒魔杖' WHERE `item_id` = 11644;
-UPDATE `weapon` SET `name` ='基本型-鷹之斧' WHERE `item_id` = 11645;
-UPDATE `weapon` SET `name` ='基本型-短匕首' WHERE `item_id` = 11646;
-UPDATE `weapon` SET `name` ='基本型-矛' WHERE `item_id` = 11647;
-UPDATE `weapon` SET `name` ='基本型-鈍劍' WHERE `item_id` = 11648;
-UPDATE `weapon` SET `name` ='基本型-鈍劍' WHERE `item_id` = 11649;
-UPDATE `weapon` SET `name` ='基本型-鈍劍' WHERE `item_id` = 11650;
-UPDATE `weapon` SET `name` ='基本型-鈍劍' WHERE `item_id` = 11651;
-UPDATE `weapon` SET `name` ='基本型-短弩' WHERE `item_id` = 11652;
-UPDATE `weapon` SET `name` ='基本型-短弩' WHERE `item_id` = 11653;
-UPDATE `weapon` SET `name` ='基本型-短弩' WHERE `item_id` = 11654;
-UPDATE `weapon` SET `name` ='基本型-魔法之劍' WHERE `item_id` = 11655;
-UPDATE `weapon` SET `name` ='基本型-神祕劍' WHERE `item_id` = 11656;
-UPDATE `weapon` SET `name` ='基本型-密術劍' WHERE `item_id` = 11657;
-UPDATE `weapon` SET `name` ='基本型-軍刀*軍刀' WHERE `item_id` = 11658;
-UPDATE `weapon` SET `name` ='基本型-腰弩' WHERE `item_id` = 11659;
-UPDATE `weapon` SET `name` ='基本型-森林神之刀' WHERE `item_id` = 11660;
-UPDATE `weapon` SET `name` ='基本型-矮人之矛' WHERE `item_id` = 11661;
-UPDATE `weapon` SET `name` ='基本型-瑪那匕首' WHERE `item_id` = 11662;
-UPDATE `weapon` SET `name` ='基本型-巫術魔杖' WHERE `item_id` = 11663;
-UPDATE `weapon` SET `name` ='基本型-神祕刀' WHERE `item_id` = 11664;
-UPDATE `weapon` SET `name` ='基本型-三刃刀' WHERE `item_id` = 11665;
-UPDATE `weapon` SET `name` ='基本型-狼牙棒' WHERE `item_id` = 11666;
-UPDATE `weapon` SET `name` ='基本型-雙手劍' WHERE `item_id` = 11667;
-UPDATE `weapon` SET `name` ='基本型-刺劍' WHERE `item_id` = 11668;
-UPDATE `weapon` SET `name` ='基本型-刺劍' WHERE `item_id` = 11669;
-UPDATE `weapon` SET `name` ='基本型-精靈劍' WHERE `item_id` = 11670;
-UPDATE `weapon` SET `name` ='基本型-戰鎚' WHERE `item_id` = 11671;
-UPDATE `weapon` SET `name` ='基本型-法咒刀' WHERE `item_id` = 11672;
-UPDATE `weapon` SET `name` ='基本型-反曲刀' WHERE `item_id` = 11673;
-UPDATE `weapon` SET `name` ='基本型-十字弓' WHERE `item_id` = 11674;
-UPDATE `weapon` SET `name` ='基本型-緋紅劍' WHERE `item_id` = 11675;
-UPDATE `weapon` SET `name` ='基本型-染血卷冊' WHERE `item_id` = 11676;
-UPDATE `weapon` SET `name` ='基本型-獵劍' WHERE `item_id` = 11677;
-UPDATE `weapon` SET `name` ='基本型-聖者之血' WHERE `item_id` = 11678;
-UPDATE `weapon` SET `name` ='基本型-軍刀*騎士劍' WHERE `item_id` = 11679;
-UPDATE `weapon` SET `name` ='基本型-軍刀*重劍' WHERE `item_id` = 11680;
-UPDATE `weapon` SET `name` ='基本型-軍刀*椎骨之劍' WHERE `item_id` = 11681;
-UPDATE `weapon` SET `name` ='基本型-軍刀*工匠之劍' WHERE `item_id` = 11682;
-UPDATE `weapon` SET `name` ='基本型-強化長弓' WHERE `item_id` = 11683;
-UPDATE `weapon` SET `name` ='基本型-騎士劍*騎士劍' WHERE `item_id` = 11684;
-UPDATE `weapon` SET `name` ='基本型-突刺刀' WHERE `item_id` = 11685;
-UPDATE `weapon` SET `name` ='基本型-流星鎚' WHERE `item_id` = 11686;
-UPDATE `weapon` SET `name` ='基本型-重劍*騎士劍' WHERE `item_id` = 11687;
-UPDATE `weapon` SET `name` ='基本型-重劍*重劍' WHERE `item_id` = 11688;
-UPDATE `weapon` SET `name` ='基本型-重劍*椎骨之劍' WHERE `item_id` = 11689;
-UPDATE `weapon` SET `name` ='基本型-重劍*工匠之劍' WHERE `item_id` = 11690;
-UPDATE `weapon` SET `name` ='基本型-拳套刀' WHERE `item_id` = 11691;
-UPDATE `weapon` SET `name` ='基本型-祭司釘鎚' WHERE `item_id` = 11692;
-UPDATE `weapon` SET `name` ='基本型-山羊頭之杖' WHERE `item_id` = 11693;
-UPDATE `weapon` SET `name` ='基本型-軍刀*精靈劍' WHERE `item_id` = 11694;
-UPDATE `weapon` SET `name` ='基本型-軍刀*緋紅劍' WHERE `item_id` = 11695;
-UPDATE `weapon` SET `name` ='基本型-魔霧之劍' WHERE `item_id` = 11696;
-UPDATE `weapon` SET `name` ='基本型-頭顱破壞者' WHERE `item_id` = 11697;
-UPDATE `weapon` SET `name` ='基本型-椎骨之劍*騎士劍' WHERE `item_id` = 11698;
-UPDATE `weapon` SET `name` ='基本型-椎骨之劍*椎骨之劍' WHERE `item_id` = 11699;
-UPDATE `weapon` SET `name` ='基本型-椎骨之劍*工匠之劍' WHERE `item_id` = 11700;
-UPDATE `weapon` SET `name` ='基本型-爆破之臂' WHERE `item_id` = 11701;
-UPDATE `weapon` SET `name` ='基本型-銳劍' WHERE `item_id` = 11702;
-UPDATE `weapon` SET `name` ='基本型-翼之矛' WHERE `item_id` = 11703;
-UPDATE `weapon` SET `name` ='基本型-工匠之劍*騎士劍' WHERE `item_id` = 11704;
-UPDATE `weapon` SET `name` ='基本型-工匠之劍*工匠之劍' WHERE `item_id` = 11705;
-UPDATE `weapon` SET `name` ='基本型-受詛咒的突刺刀' WHERE `item_id` = 11706;
-UPDATE `weapon` SET `name` ='基本型-格鬥劍' WHERE `item_id` = 11707;
-UPDATE `weapon` SET `name` ='基本型-塔巴曲刃斧' WHERE `item_id` = 11708;
-UPDATE `weapon` SET `name` ='基本型-染血十字架' WHERE `item_id` = 11709;
-UPDATE `weapon` SET `name` ='基本型-下巨人之劍' WHERE `item_id` = 11710;
-UPDATE `weapon` SET `name` ='基本型-下巨人之鎚' WHERE `item_id` = 11711;
-UPDATE `weapon` SET `name` ='基本型-火鎚' WHERE `item_id` = 11712;
-UPDATE `weapon` SET `name` ='基本型-巨大骨棒' WHERE `item_id` = 11713;
-UPDATE `weapon` SET `name` ='基本型-革命劍' WHERE `item_id` = 11714;
-UPDATE `weapon` SET `name` ='基本型-惡魔尖牙' WHERE `item_id` = 11715;
-UPDATE `weapon` SET `name` ='基本型-騎士劍*精靈劍' WHERE `item_id` = 11716;
-UPDATE `weapon` SET `name` ='基本型-騎士劍*緋紅劍' WHERE `item_id` = 11717;
-UPDATE `weapon` SET `name` ='基本型-重劍*精靈劍' WHERE `item_id` = 11718;
-UPDATE `weapon` SET `name` ='基本型-重劍*緋紅劍' WHERE `item_id` = 11719;
-UPDATE `weapon` SET `name` ='基本型-椎骨之劍*精靈劍' WHERE `item_id` = 11720;
-UPDATE `weapon` SET `name` ='基本型-椎骨之劍*緋紅劍' WHERE `item_id` = 11721;
-UPDATE `weapon` SET `name` ='基本型-工匠之劍*精靈劍' WHERE `item_id` = 11722;
-UPDATE `weapon` SET `name` ='基本型-工匠之劍*緋紅劍' WHERE `item_id` = 11723;
-UPDATE `weapon` SET `name` ='基本型-巨銳劍' WHERE `item_id` = 11724;
-UPDATE `weapon` SET `name` ='基本型-闊矛' WHERE `item_id` = 11725;
-UPDATE `weapon` SET `name` ='基本型-米索莉匕首' WHERE `item_id` = 11726;
-UPDATE `weapon` SET `name` ='基本型-碎骨者' WHERE `item_id` = 11727;
-UPDATE `weapon` SET `name` ='基本型-風暴弓' WHERE `item_id` = 11728;
-UPDATE `weapon` SET `name` ='基本型-生命手杖' WHERE `item_id` = 11729;
-UPDATE `weapon` SET `name` ='基本型-波浪刀' WHERE `item_id` = 11730;
-UPDATE `weapon` SET `name` ='基本型-阿吐巴釘鎚' WHERE `item_id` = 11731;
-UPDATE `weapon` SET `name` ='基本型-阿吐巴鎚' WHERE `item_id` = 11732;
-UPDATE `weapon` SET `name` ='基本型-精靈長劍' WHERE `item_id` = 11733;
-UPDATE `weapon` SET `name` ='基本型-將軍格鬥劍' WHERE `item_id` = 11734;
-UPDATE `weapon` SET `name` ='基本型-齒輪弩' WHERE `item_id` = 11735;
-UPDATE `weapon` SET `name` ='基本型-雙刃大砍刀' WHERE `item_id` = 11736;
-UPDATE `weapon` SET `name` ='基本型-魂靈魔杖' WHERE `item_id` = 11737;
-UPDATE `weapon` SET `name` ='基本型-軍刀*革命劍' WHERE `item_id` = 11738;
-UPDATE `weapon` SET `name` ='基本型-精靈劍*精靈劍' WHERE `item_id` = 11739;
-UPDATE `weapon` SET `name` ='基本型-緋紅劍*精靈劍' WHERE `item_id` = 11740;
-UPDATE `weapon` SET `name` ='基本型-緋紅劍*緋紅劍' WHERE `item_id` = 11741;
-UPDATE `weapon` SET `name` ='基本型-騎士劍*革命劍' WHERE `item_id` = 11742;
-UPDATE `weapon` SET `name` ='基本型-重劍*革命劍' WHERE `item_id` = 11743;
-UPDATE `weapon` SET `name` ='基本型-椎骨之劍*革命劍' WHERE `item_id` = 11744;
-UPDATE `weapon` SET `name` ='基本型-工匠之劍*革命劍' WHERE `item_id` = 11745;
-UPDATE `weapon` SET `name` ='基本型-狼之針' WHERE `item_id` = 11746;
-UPDATE `weapon` SET `name` ='基本型-黑暗精靈匕首' WHERE `item_id` = 11747;
-UPDATE `weapon` SET `name` ='基本型-奧祕之刃' WHERE `item_id` = 11748;
-UPDATE `weapon` SET `name` ='基本型-殺戮者' WHERE `item_id` = 11749;
-UPDATE `weapon` SET `name` ='基本型-戰斧' WHERE `item_id` = 11750;
-UPDATE `weapon` SET `name` ='基本型-大鐮刀' WHERE `item_id` = 11751;
-UPDATE `weapon` SET `name` ='基本型-軍刀*精靈長劍' WHERE `item_id` = 11752;
-UPDATE `weapon` SET `name` ='基本型-軍用刺劍' WHERE `item_id` = 11753;
-UPDATE `weapon` SET `name` ='基本型-席拉格重劍' WHERE `item_id` = 11754;
-UPDATE `weapon` SET `name` ='基本型-顱骨雕刻者' WHERE `item_id` = 11755;
-UPDATE `weapon` SET `name` ='基本型-暴風之劍' WHERE `item_id` = 11756;
-UPDATE `weapon` SET `name` ='基本型-信仰手杖' WHERE `item_id` = 11757;
-UPDATE `weapon` SET `name` ='基本型-強弩' WHERE `item_id` = 11758;
-UPDATE `weapon` SET `name` ='基本型-冰晶弓' WHERE `item_id` = 11759;
-UPDATE `weapon` SET `name` ='基本型-歐西斯闊矛' WHERE `item_id` = 11760;
-UPDATE `weapon` SET `name` ='基本型-戰錐' WHERE `item_id` = 11761;
-UPDATE `weapon` SET `name` ='基本型-受詛咒的匕首' WHERE `item_id` = 11762;
-UPDATE `weapon` SET `name` ='基本型-圓月輪' WHERE `item_id` = 11763;
-UPDATE `weapon` SET `name` ='基本型-水晶魔杖' WHERE `item_id` = 11764;
-UPDATE `weapon` SET `name` ='基本型-重鎚' WHERE `item_id` = 11765;
-UPDATE `weapon` SET `name` ='基本型-焰形劍' WHERE `item_id` = 11766;
-UPDATE `weapon` SET `name` ='基本型-巨大末日斧' WHERE `item_id` = 11767;
-UPDATE `weapon` SET `name` ='基本型-巨大末日鎚' WHERE `item_id` = 11768;
-UPDATE `weapon` SET `name` ='基本型-騎士劍*精靈長劍' WHERE `item_id` = 11769;
-UPDATE `weapon` SET `name` ='基本型-重劍*精靈長劍' WHERE `item_id` = 11770;
-UPDATE `weapon` SET `name` ='基本型-椎骨之劍*精靈長劍' WHERE `item_id` = 11771;
-UPDATE `weapon` SET `name` ='基本型-精靈劍*革命劍' WHERE `item_id` = 11772;
-UPDATE `weapon` SET `name` ='基本型-工匠之劍*精靈長劍' WHERE `item_id` = 11773;
-UPDATE `weapon` SET `name` ='基本型-緋紅劍*革命劍' WHERE `item_id` = 11774;
-UPDATE `weapon` SET `name` ='基本型-高級精靈弓' WHERE `item_id` = 11775;
-UPDATE `weapon` SET `name` ='基本型-關節拳' WHERE `item_id` = 11776;
-UPDATE `weapon` SET `name` ='基本型-矮人戰鎚' WHERE `item_id` = 11777;
-UPDATE `weapon` SET `name` ='基本型-襲擊劍' WHERE `item_id` = 11778;
-UPDATE `weapon` SET `name` ='基本型-魔炎匕首' WHERE `item_id` = 11779;
-UPDATE `weapon` SET `name` ='基本型-弩砲' WHERE `item_id` = 11780;
-UPDATE `weapon` SET `name` ='基本型-弩砲' WHERE `item_id` = 11781;
-UPDATE `weapon` SET `name` ='基本型-貝卡合金' WHERE `item_id` = 11782;
-UPDATE `weapon` SET `name` ='基本型-彎刀' WHERE `item_id` = 11783;
-UPDATE `weapon` SET `name` ='基本型-騎兵細劍' WHERE `item_id` = 11784;
-UPDATE `weapon` SET `name` ='基本型-騎兵細劍' WHERE `item_id` = 11785;
-UPDATE `weapon` SET `name` ='基本型-騎兵細劍' WHERE `item_id` = 11786;
-UPDATE `weapon` SET `name` ='基本型-騎兵細劍' WHERE `item_id` = 11787;
-UPDATE `weapon` SET `name` ='基本型-袖珍刀' WHERE `item_id` = 11788;
-UPDATE `weapon` SET `name` ='基本型-靈魂之劍' WHERE `item_id` = 11789;
-UPDATE `weapon` SET `name` ='基本型-元素弓' WHERE `item_id` = 11790;
-UPDATE `weapon` SET `name` ='基本型-精靈劍*精靈長劍' WHERE `item_id` = 11791;
-UPDATE `weapon` SET `name` ='基本型-榮譽號角' WHERE `item_id` = 11792;
-UPDATE `weapon` SET `name` ='基本型-受詛咒的魔杖' WHERE `item_id` = 11793;
-UPDATE `weapon` SET `name` ='基本型-武士刀' WHERE `item_id` = 11794;
-UPDATE `weapon` SET `name` ='基本型-緋紅劍*精靈長劍' WHERE `item_id` = 11795;
-UPDATE `weapon` SET `name` ='基本型-革命劍*革命劍' WHERE `item_id` = 11796;
-UPDATE `weapon` SET `name` ='基本型-革命劍*精靈長劍' WHERE `item_id` = 11797;
-UPDATE `weapon` SET `name` ='基本型-精靈長劍*精靈長劍' WHERE `item_id` = 11798;
-UPDATE `weapon` SET `name` ='基本型-永恆手杖' WHERE `item_id` = 11799;
-UPDATE `weapon` SET `name` ='基本型-優雅匕首' WHERE `item_id` = 11800;
-UPDATE `weapon` SET `name` ='基本型-極限之劍' WHERE `item_id` = 11801;
-UPDATE `weapon` SET `name` ='基本型-夢想斧' WHERE `item_id` = 11802;
-UPDATE `weapon` SET `name` ='基本型-黑暗狂嘯者' WHERE `item_id` = 11803;
-UPDATE `weapon` SET `name` ='基本型-自然之棍' WHERE `item_id` = 11804;
-UPDATE `weapon` SET `name` ='基本型-死息之劍' WHERE `item_id` = 11805;
-UPDATE `weapon` SET `name` ='基本型-煉獄之鎚' WHERE `item_id` = 11806;
-UPDATE `weapon` SET `name` ='基本型-迷惑之劍' WHERE `item_id` = 11807;
-UPDATE `weapon` SET `name` ='基本型-瞬殺使者' WHERE `item_id` = 11808;
-UPDATE `weapon` SET `name` ='基本型-瞬殺使者' WHERE `item_id` = 11809;
-UPDATE `weapon` SET `name` ='基本型-瞬殺使者' WHERE `item_id` = 11810;
-UPDATE `weapon` SET `name` ='基本型-瞬殺使者' WHERE `item_id` = 11811;
-UPDATE `weapon` SET `name` ='基本型-瞬殺使者' WHERE `item_id` = 11812;
-UPDATE `weapon` SET `name` ='基本型-帕格立歐之劍' WHERE `item_id` = 11813;
-UPDATE `weapon` SET `name` ='基本型-阿卡特長弓' WHERE `item_id` = 11814;
-UPDATE `weapon` SET `name` ='基本型-夢魘劍' WHERE `item_id` = 11815;
-UPDATE `weapon` SET `name` ='基本型-巨戰斧' WHERE `item_id` = 11816;
-UPDATE `weapon` SET `name` ='基本型-異教徒之書' WHERE `item_id` = 11817;
-UPDATE `weapon` SET `name` ='基本型-莫北巨刃' WHERE `item_id` = 11818;
-UPDATE `weapon` SET `name` ='基本型-地獄魔杖' WHERE `item_id` = 11819;
-UPDATE `weapon` SET `name` ='基本型-大和劍' WHERE `item_id` = 11820;
-UPDATE `weapon` SET `name` ='基本型-卡里埔士劍' WHERE `item_id` = 11821;
-UPDATE `weapon` SET `name` ='基本型-卡拉克的角' WHERE `item_id` = 11822;
-UPDATE `weapon` SET `name` ='基本型-塔斯蘭弩' WHERE `item_id` = 11823;
-UPDATE `weapon` SET `name` ='基本型-帕格立歐之鎚' WHERE `item_id` = 11824;
-UPDATE `weapon` SET `name` ='基本型-佩勒迪亞魔杖' WHERE `item_id` = 11825;
-UPDATE `weapon` SET `name` ='基本型-長柄戰斧' WHERE `item_id` = 11826;
-UPDATE `weapon` SET `name` ='基本型-拳刃' WHERE `item_id` = 11827;
-UPDATE `weapon` SET `name` ='基本型-賢者魔杖' WHERE `item_id` = 11828;
-UPDATE `weapon` SET `name` ='基本型-何門奎思之劍' WHERE `item_id` = 11829;
-UPDATE `weapon` SET `name` ='基本型-蠍子' WHERE `item_id` = 11830;
-UPDATE `weapon` SET `name` ='基本型-暴風之劍*暴風之劍' WHERE `item_id` = 11831;
-UPDATE `weapon` SET `name` ='基本型-黑寡婦' WHERE `item_id` = 11832;
-UPDATE `weapon` SET `name` ='基本型-帕格立歐之斧' WHERE `item_id` = 11833;
-UPDATE `weapon` SET `name` ='基本型-暴風之劍*襲擊劍' WHERE `item_id` = 11834;
-UPDATE `weapon` SET `name` ='基本型-暴風之劍*彎刀' WHERE `item_id` = 11835;
-UPDATE `weapon` SET `name` ='基本型-暴風之劍*靈魂之劍' WHERE `item_id` = 11836;
-UPDATE `weapon` SET `name` ='基本型-暴風之劍*武士刀' WHERE `item_id` = 11837;
-UPDATE `weapon` SET `name` ='基本型-食屍鬼魔杖' WHERE `item_id` = 11838;
-UPDATE `weapon` SET `name` ='基本型-巨型帕塔拳刃' WHERE `item_id` = 11839;
-UPDATE `weapon` SET `name` ='基本型-矮人巨鎚' WHERE `item_id` = 11840;
-UPDATE `weapon` SET `name` ='基本型-襲擊劍*襲擊劍' WHERE `item_id` = 11841;
-UPDATE `weapon` SET `name` ='基本型-亡者魔杖' WHERE `item_id` = 11842;
-UPDATE `weapon` SET `name` ='基本型-狂戰士之刃' WHERE `item_id` = 11843;
-UPDATE `weapon` SET `name` ='基本型-滅形弩' WHERE `item_id` = 11844;
-UPDATE `weapon` SET `name` ='基本型-彎刀*襲擊劍' WHERE `item_id` = 11845;
-UPDATE `weapon` SET `name` ='基本型-彎刀*彎刀' WHERE `item_id` = 11846;
-UPDATE `weapon` SET `name` ='基本型-彎刀*靈魂之劍' WHERE `item_id` = 11847;
-UPDATE `weapon` SET `name` ='基本型-彎刀*武士刀' WHERE `item_id` = 11848;
-UPDATE `weapon` SET `name` ='基本型-劍齒虎' WHERE `item_id` = 11849;
-UPDATE `weapon` SET `name` ='基本型-日蝕劍' WHERE `item_id` = 11850;
-UPDATE `weapon` SET `name` ='基本型-靈魂之劍*襲擊劍' WHERE `item_id` = 11851;
-UPDATE `weapon` SET `name` ='基本型-靈魂之劍*靈魂之劍' WHERE `item_id` = 11852;
-UPDATE `weapon` SET `name` ='基本型-瑟魯基長劍' WHERE `item_id` = 11853;
-UPDATE `weapon` SET `name` ='基本型-上將刺劍' WHERE `item_id` = 11854;
-UPDATE `weapon` SET `name` ='基本型-惡魔魔杖' WHERE `item_id` = 11855;
-UPDATE `weapon` SET `name` ='基本型-夜叉釘鎚' WHERE `item_id` = 11856;
-UPDATE `weapon` SET `name` ='基本型-卓越弓' WHERE `item_id` = 11857;
-UPDATE `weapon` SET `name` ='基本型-歐西斯戰斧' WHERE `item_id` = 11858;
-UPDATE `weapon` SET `name` ='基本型-月蝕斧' WHERE `item_id` = 11859;
-UPDATE `weapon` SET `name` ='基本型-武士刀*襲擊劍' WHERE `item_id` = 11860;
-UPDATE `weapon` SET `name` ='基本型-武士刀*靈魂之劍' WHERE `item_id` = 11861;
-UPDATE `weapon` SET `name` ='基本型-武士刀*武士刀' WHERE `item_id` = 11862;
-UPDATE `weapon` SET `name` ='基本型-水晶匕首' WHERE `item_id` = 11863;
-UPDATE `weapon` SET `name` ='基本型-暴風之劍*極限之劍' WHERE `item_id` = 11864;
-UPDATE `weapon` SET `name` ='基本型-暴風之劍*迷惑之劍' WHERE `item_id` = 11865;
-UPDATE `weapon` SET `name` ='基本型-暴風之劍*夢魘劍' WHERE `item_id` = 11866;
-UPDATE `weapon` SET `name` ='基本型-暴風之劍*大和劍' WHERE `item_id` = 11867;
-UPDATE `weapon` SET `name` ='基本型-暴風之劍*卡里埔士劍' WHERE `item_id` = 11868;
-UPDATE `weapon` SET `name` ='基本型-襲擊劍*極限之劍' WHERE `item_id` = 11869;
-UPDATE `weapon` SET `name` ='基本型-襲擊劍*迷惑之劍' WHERE `item_id` = 11870;
-UPDATE `weapon` SET `name` ='基本型-襲擊劍*夢魘劍' WHERE `item_id` = 11871;
-UPDATE `weapon` SET `name` ='基本型-襲擊劍*大和劍' WHERE `item_id` = 11872;
-UPDATE `weapon` SET `name` ='基本型-襲擊劍*卡里埔士劍' WHERE `item_id` = 11873;
-UPDATE `weapon` SET `name` ='基本型-彎刀*極限之劍' WHERE `item_id` = 11874;
-UPDATE `weapon` SET `name` ='基本型-彎刀*迷惑之劍' WHERE `item_id` = 11875;
-UPDATE `weapon` SET `name` ='基本型-彎刀*夢魘劍' WHERE `item_id` = 11876;
-UPDATE `weapon` SET `name` ='基本型-彎刀*大和劍' WHERE `item_id` = 11877;
-UPDATE `weapon` SET `name` ='基本型-彎刀*卡里埔士劍' WHERE `item_id` = 11878;
-UPDATE `weapon` SET `name` ='基本型-靈魂之劍*極限之劍' WHERE `item_id` = 11879;
-UPDATE `weapon` SET `name` ='基本型-靈魂之劍*迷惑之劍' WHERE `item_id` = 11880;
-UPDATE `weapon` SET `name` ='基本型-靈魂之劍*夢魘劍' WHERE `item_id` = 11881;
-UPDATE `weapon` SET `name` ='基本型-靈魂之劍*大和劍' WHERE `item_id` = 11882;
-UPDATE `weapon` SET `name` ='基本型-靈魂之劍*卡里埔士劍' WHERE `item_id` = 11883;
-UPDATE `weapon` SET `name` ='基本型-武士刀*極限之劍' WHERE `item_id` = 11884;
-UPDATE `weapon` SET `name` ='基本型-武士刀*迷惑之劍' WHERE `item_id` = 11885;
-UPDATE `weapon` SET `name` ='基本型-武士刀*夢魘劍' WHERE `item_id` = 11886;
-UPDATE `weapon` SET `name` ='基本型-武士刀*大和劍' WHERE `item_id` = 11887;
-UPDATE `weapon` SET `name` ='基本型-武士刀*卡里埔士劍' WHERE `item_id` = 11888;
-UPDATE `weapon` SET `name` ='基本型-巨劍' WHERE `item_id` = 11889;
-UPDATE `weapon` SET `name` ='基本型-巨斧' WHERE `item_id` = 11890;
-UPDATE `weapon` SET `name` ='基本型-極限之劍*極限之劍' WHERE `item_id` = 11891;
-UPDATE `weapon` SET `name` ='基本型-極限之劍*迷惑之劍' WHERE `item_id` = 11892;
-UPDATE `weapon` SET `name` ='基本型-極限之劍*夢魘劍' WHERE `item_id` = 11893;
-UPDATE `weapon` SET `name` ='基本型-極限之劍*大和劍' WHERE `item_id` = 11894;
-UPDATE `weapon` SET `name` ='基本型-無名之勝' WHERE `item_id` = 11895;
-UPDATE `weapon` SET `name` ='基本型-黑暗精靈長弓' WHERE `item_id` = 11896;
-UPDATE `weapon` SET `name` ='基本型-迷惑之劍*迷惑之劍' WHERE `item_id` = 11897;
-UPDATE `weapon` SET `name` ='基本型-迷惑之劍*夢魘劍' WHERE `item_id` = 11898;
-UPDATE `weapon` SET `name` ='基本型-迷惑之劍*大和劍' WHERE `item_id` = 11899;
-UPDATE `weapon` SET `name` ='基本型-聖堂之劍' WHERE `item_id` = 11900;
-UPDATE `weapon` SET `name` ='基本型-暴風之劍*瑟魯基長劍' WHERE `item_id` = 11901;
-UPDATE `weapon` SET `name` ='基本型-破咒者' WHERE `item_id` = 11902;
-UPDATE `weapon` SET `name` ='基本型-阿斯拉爪' WHERE `item_id` = 11903;
-UPDATE `weapon` SET `name` ='基本型-暴風雪巨鎚' WHERE `item_id` = 11904;
-UPDATE `weapon` SET `name` ='基本型-夢魘劍*夢魘劍' WHERE `item_id` = 11905;
-UPDATE `weapon` SET `name` ='基本型-夢魘劍*大和劍' WHERE `item_id` = 11906;
-UPDATE `weapon` SET `name` ='基本型-突襲鈍劍' WHERE `item_id` = 11907;
-UPDATE `weapon` SET `name` ='基本型-精靈魔杖' WHERE `item_id` = 11908;
-UPDATE `weapon` SET `name` ='基本型-大和劍*大和劍' WHERE `item_id` = 11909;
-UPDATE `weapon` SET `name` ='基本型-卡里埔士劍*極限之劍' WHERE `item_id` = 11910;
-UPDATE `weapon` SET `name` ='基本型-卡里埔士劍*迷惑之劍' WHERE `item_id` = 11911;
-UPDATE `weapon` SET `name` ='基本型-卡里埔士劍*夢魘劍' WHERE `item_id` = 11912;
-UPDATE `weapon` SET `name` ='基本型-卡里埔士劍*大和劍' WHERE `item_id` = 11913;
-UPDATE `weapon` SET `name` ='基本型-卡里埔士劍*卡里埔士劍' WHERE `item_id` = 11914;
-UPDATE `weapon` SET `name` ='基本型-波形刃' WHERE `item_id` = 11915;
-UPDATE `weapon` SET `name` ='基本型-柯貝克劍' WHERE `item_id` = 11916;
-UPDATE `weapon` SET `name` ='基本型-和平使者' WHERE `item_id` = 11917;
-UPDATE `weapon` SET `name` ='基本型-巨大戰斧' WHERE `item_id` = 11918;
-UPDATE `weapon` SET `name` ='基本型-地獄刀' WHERE `item_id` = 11919;
-UPDATE `weapon` SET `name` ='基本型-襲擊劍*瑟魯基長劍' WHERE `item_id` = 11920;
-UPDATE `weapon` SET `name` ='基本型-彎刀*瑟魯基長劍' WHERE `item_id` = 11921;
-UPDATE `weapon` SET `name` ='基本型-靈魂之劍*瑟魯基長劍' WHERE `item_id` = 11922;
-UPDATE `weapon` SET `name` ='基本型-武士刀*瑟魯基長劍' WHERE `item_id` = 11923;
-UPDATE `weapon` SET `name` ='基本型-極限之劍*瑟魯基長劍' WHERE `item_id` = 11924;
-UPDATE `weapon` SET `name` ='基本型-迷惑之劍*瑟魯基長劍' WHERE `item_id` = 11925;
-UPDATE `weapon` SET `name` ='基本型-夢魘劍*瑟魯基長劍' WHERE `item_id` = 11926;
-UPDATE `weapon` SET `name` ='基本型-大和劍*瑟魯基長劍' WHERE `item_id` = 11927;
-UPDATE `weapon` SET `name` ='基本型-卡里埔士劍*瑟魯基長劍' WHERE `item_id` = 11928;
-UPDATE `weapon` SET `name` ='基本型-守護神之劍' WHERE `item_id` = 11929;
-UPDATE `weapon` SET `name` ='基本型-大馬士革刀' WHERE `item_id` = 11930;
-UPDATE `weapon` SET `name` ='基本型-裂解劍' WHERE `item_id` = 11931;
-UPDATE `weapon` SET `name` ='基本型-長槍' WHERE `item_id` = 11932;
-UPDATE `weapon` SET `name` ='基本型-博利恩拳套' WHERE `item_id` = 11933;
-UPDATE `weapon` SET `name` ='基本型-邪靈魔杖' WHERE `item_id` = 11934;
-UPDATE `weapon` SET `name` ='基本型-亡者榮譽' WHERE `item_id` = 11935;
-UPDATE `weapon` SET `name` ='基本型-星爆' WHERE `item_id` = 11936;
-UPDATE `weapon` SET `name` ='基本型-瑟魯基長劍*瑟魯基長劍' WHERE `item_id` = 11937;
-UPDATE `weapon` SET `name` ='基本型-工藝戰斧' WHERE `item_id` = 11938;
-UPDATE `weapon` SET `name` ='基本型-惡魔短劍' WHERE `item_id` = 11939;
-UPDATE `weapon` SET `name` ='基本型-惡魔短劍' WHERE `item_id` = 11940;
-UPDATE `weapon` SET `name` ='基本型-卡倚巴奴之骨' WHERE `item_id` = 11941;
-UPDATE `weapon` SET `name` ='基本型-華麗細劍' WHERE `item_id` = 11942;
-UPDATE `weapon` SET `name` ='基本型-巫師之淚' WHERE `item_id` = 11943;
-UPDATE `weapon` SET `name` ='基本型-冒險弓' WHERE `item_id` = 11944;
-UPDATE `weapon` SET `name` ='基本型-冥犬之牙' WHERE `item_id` = 11945;
-UPDATE `weapon` SET `name` ='基本型-帕黎恩魔杖' WHERE `item_id` = 11946;
-UPDATE `weapon` SET `name` ='基本型-末日咒詛' WHERE `item_id` = 11947;
-UPDATE `weapon` SET `name` ='基本型-天雷' WHERE `item_id` = 11948;
-UPDATE `weapon` SET `name` ='基本型-流星雨' WHERE `item_id` = 11949;
-UPDATE `weapon` SET `name` ='基本型-血旋風' WHERE `item_id` = 11950;
-UPDATE `weapon` SET `name` ='基本型-血腥之蘭' WHERE `item_id` = 11951;
-UPDATE `weapon` SET `name` ='基本型-元素劍' WHERE `item_id` = 11952;
-UPDATE `weapon` SET `name` ='基本型-英魂之眼' WHERE `item_id` = 11953;
-UPDATE `weapon` SET `name` ='基本型-煉獄之主' WHERE `item_id` = 11954;
-UPDATE `weapon` SET `name` ='基本型-顱之弓' WHERE `item_id` = 11955;
-UPDATE `weapon` SET `name` ='基本型-柯貝克劍*柯貝克劍' WHERE `item_id` = 11956;
-UPDATE `weapon` SET `name` ='基本型-塔魯刀' WHERE `item_id` = 11957;
-UPDATE `weapon` SET `name` ='基本型-破壞者巨鎚' WHERE `item_id` = 11958;
-UPDATE `weapon` SET `name` ='基本型-神怨' WHERE `item_id` = 11959;
-UPDATE `weapon` SET `name` ='基本型-長柄戰戟' WHERE `item_id` = 11960;
-UPDATE `weapon` SET `name` ='基本型-柯貝克劍*大馬士革刀' WHERE `item_id` = 11961;
-UPDATE `weapon` SET `name` ='基本型-貪婪刺劍' WHERE `item_id` = 11962;
-UPDATE `weapon` SET `name` ='基本型-大馬士革刀*大馬士革刀' WHERE `item_id` = 11963;
-UPDATE `weapon` SET `name` ='基本型-黑暗軍刀' WHERE `item_id` = 11964;
-UPDATE `weapon` SET `name` ='基本型-死神使者' WHERE `item_id` = 11965;
-UPDATE `weapon` SET `name` ='基本型-末日毀滅者' WHERE `item_id` = 11966;
-UPDATE `weapon` SET `name` ='基本型-龍牙' WHERE `item_id` = 11967;
-UPDATE `weapon` SET `name` ='基本型-斬龍刀' WHERE `item_id` = 11968;
-UPDATE `weapon` SET `name` ='基本型-火龍之首' WHERE `item_id` = 11969;
-UPDATE `weapon` SET `name` ='基本型-世界樹樹枝' WHERE `item_id` = 11970;
-UPDATE `weapon` SET `name` ='基本型-奇蹟劍' WHERE `item_id` = 11971;
-UPDATE `weapon` SET `name` ='基本型-靈魂弩' WHERE `item_id` = 11972;
-UPDATE `weapon` SET `name` ='基本型-魂體分離器' WHERE `item_id` = 11973;
-UPDATE `weapon` SET `name` ='基本型-樂園' WHERE `item_id` = 11974;
-UPDATE `weapon` SET `name` ='基本型-靈魂弓' WHERE `item_id` = 11975;
-UPDATE `weapon` SET `name` ='基本型-塔魯闊矛' WHERE `item_id` = 11976;
-UPDATE `weapon` SET `name` ='基本型-那卡風暴' WHERE `item_id` = 11977;
-UPDATE `weapon` SET `name` ='基本型-惡魔結晶' WHERE `item_id` = 11978;
-UPDATE `weapon` SET `name` ='基本型-貝拉凱爾聖斧' WHERE `item_id` = 11979;
-UPDATE `weapon` SET `name` ='基本型-復仇爆弩' WHERE `item_id` = 11980;
-UPDATE `weapon` SET `name` ='基本型-貝希莫斯巨叉' WHERE `item_id` = 11981;
-UPDATE `weapon` SET `name` ='基本型-光明守護之劍' WHERE `item_id` = 11982;
-UPDATE `weapon` SET `name` ='基本型-夏伊德獵弓' WHERE `item_id` = 11983;
-UPDATE `weapon` SET `name` ='基本型-伊波斯巨劍' WHERE `item_id` = 11984;
-UPDATE `weapon` SET `name` ='基本型-索貝克颶風' WHERE `item_id` = 11985;
-UPDATE `weapon` SET `name` ='基本型-希露冰刃' WHERE `item_id` = 11986;
-UPDATE `weapon` SET `name` ='基本型-閃光之珠' WHERE `item_id` = 11987;
-UPDATE `weapon` SET `name` ='基本型-岱依封長戟' WHERE `item_id` = 11988;
-UPDATE `weapon` SET `name` ='基本型-塔魯刀*大馬士革刀' WHERE `item_id` = 11989;
-UPDATE `weapon` SET `name` ='基本型-緹米絲之舌' WHERE `item_id` = 11990;
-UPDATE `weapon` SET `name` ='基本型-卡布里歐之手' WHERE `item_id` = 11991;
-UPDATE `weapon` SET `name` ='基本型-勝利之劍格蘭' WHERE `item_id` = 11992;
-UPDATE `weapon` SET `name` ='基本型-惡魔獵爪' WHERE `item_id` = 11993;
-UPDATE `weapon` SET `name` ='基本型-紅龍之弓' WHERE `item_id` = 11994;
-UPDATE `weapon` SET `name` ='基本型-狩龍之斧' WHERE `item_id` = 11995;
-UPDATE `weapon` SET `name` ='基本型-烈焚天' WHERE `item_id` = 11996;
-UPDATE `weapon` SET `name` ='基本型-玄武岩戰鎚' WHERE `item_id` = 11997;
-UPDATE `weapon` SET `name` ='基本型-薩倫伽神弩' WHERE `item_id` = 11998;
-UPDATE `weapon` SET `name` ='基本型-聖者之矛' WHERE `item_id` = 11999;
-UPDATE `weapon` SET `name` ='基本型-祕儀權杖' WHERE `item_id` = 12000;
-UPDATE `weapon` SET `name` ='基本型-天使殺手' WHERE `item_id` = 12001;
-UPDATE `weapon` SET `name` ='基本型-帝國權杖' WHERE `item_id` = 12002;
-UPDATE `weapon` SET `name` ='基本型-塔魯刀*黑暗軍刀' WHERE `item_id` = 12003;
-UPDATE `weapon` SET `name` ='基本型-忘卻之刃' WHERE `item_id` = 12004;
-UPDATE `weapon` SET `name` ='基本型-天國審判' WHERE `item_id` = 12005;
-UPDATE `weapon` SET `name` ='基本型-青銅盾' WHERE `item_id` = 12013;
-UPDATE `weapon` SET `name` ='基本型-鼓盾' WHERE `item_id` = 12025;
-UPDATE `weapon` SET `name` ='基本型-圓木盾' WHERE `item_id` = 12051;
-UPDATE `weapon` SET `name` ='基本型-鎖子盾' WHERE `item_id` = 12063;
-UPDATE `weapon` SET `name` ='基本型-鳶形盾' WHERE `item_id` = 12069;
-UPDATE `weapon` SET `name` ='基本型-方盾' WHERE `item_id` = 12073;
-UPDATE `weapon` SET `name` ='基本型-金屬盾' WHERE `item_id` = 12078;
-UPDATE `weapon` SET `name` ='基本型-厄達拉克塔盾' WHERE `item_id` = 12091;
-UPDATE `weapon` SET `name` ='基本型-鏈盾' WHERE `item_id` = 12096;
-UPDATE `weapon` SET `name` ='基本型-矮人鏈盾' WHERE `item_id` = 12102;
-UPDATE `weapon` SET `name` ='基本型-騎士盾' WHERE `item_id` = 12107;
-UPDATE `weapon` SET `name` ='基本型-合金盾' WHERE `item_id` = 12126;
-UPDATE `weapon` SET `name` ='基本型-塔盾' WHERE `item_id` = 12129;
-UPDATE `weapon` SET `name` ='基本型-全覆式盾' WHERE `item_id` = 12143;
-UPDATE `weapon` SET `name` ='基本型-夏隆盾' WHERE `item_id` = 12159;
-UPDATE `weapon` SET `name` ='基本型-阿巴敦盾' WHERE `item_id` = 12171;
-UPDATE `weapon` SET `name` ='基本型-末日盾' WHERE `item_id` = 12183;
-UPDATE `weapon` SET `name` ='基本型-黑暗水晶盾' WHERE `item_id` = 12215;
-UPDATE `weapon` SET `name` ='基本型-封印的黑暗水晶盾' WHERE `item_id` = 12225;
-UPDATE `weapon` SET `name` ='基本型-封印的夢魘盾' WHERE `item_id` = 12268;
-UPDATE `weapon` SET `name` ='基本型-夢魘盾' WHERE `item_id` = 12279;
-UPDATE `weapon` SET `name` ='基本型-封印的帝國聖軍盾' WHERE `item_id` = 12302;
-UPDATE `weapon` SET `name` ='基本型-帝國聖軍盾' WHERE `item_id` = 12308;
-UPDATE `weapon` SET `name` ='O形魔杖 限時30日' WHERE `item_id` = 12793;
-UPDATE `weapon` SET `name` ='X形魔杖 限時30日' WHERE `item_id` = 12794;
-UPDATE `weapon` SET `name` ='剪刀魔杖 限時30日' WHERE `item_id` = 12795;
-UPDATE `weapon` SET `name` ='石頭魔杖 限時30日' WHERE `item_id` = 12796;
-UPDATE `weapon` SET `name` ='布魔杖 限時30日' WHERE `item_id` = 12797;
-UPDATE `weapon` SET `name` ='雪人變身魔杖' WHERE `item_id` = 12798;
-UPDATE `weapon` SET `name` ='草人變身魔杖' WHERE `item_id` = 12799;
-UPDATE `weapon` SET `name` ='南瓜變身魔杖 限時30日' WHERE `item_id` = 12800;
-UPDATE `weapon` SET `name` ='弔唁用花盆A' WHERE `item_id` = 12801;
-UPDATE `weapon` SET `name` ='弔唁用花盆B' WHERE `item_id` = 12802;
-UPDATE `weapon` SET `name` ='祝賀用花盆A' WHERE `item_id` = 12803;
-UPDATE `weapon` SET `name` ='祝賀用花盆B' WHERE `item_id` = 12804;
-UPDATE `weapon` SET `name` ='裝飾用花' WHERE `item_id` = 12805;
-UPDATE `weapon` SET `name` ='炸彈' WHERE `item_id` = 12806;
-UPDATE `weapon` SET `name` ='方向指示標誌' WHERE `item_id` = 12807;
-UPDATE `weapon` SET `name` ='水果籃' WHERE `item_id` = 12808;
-UPDATE `weapon` SET `name` ='裝飾用貝殼' WHERE `item_id` = 12809;
-UPDATE `weapon` SET `name` ='萬聖節南瓜' WHERE `item_id` = 12810;
-UPDATE `weapon` SET `name` ='幻象裝備-守門人變身魔杖' WHERE `item_id` = 12814;
-UPDATE `weapon` SET `name` ='那卡風暴-臼齒 {對戰用} 偵測' WHERE `item_id` = 12852;
-UPDATE `weapon` SET `name` ='那卡風暴-臼齒 {對戰用} Crt.傷害' WHERE `item_id` = 12853;
-UPDATE `weapon` SET `name` ='那卡風暴-臼齒 {對戰用} 背擊' WHERE `item_id` = 12854;
-UPDATE `weapon` SET `name` ='惡魔結晶-智慧 {對戰用} 魔力上升' WHERE `item_id` = 12855;
-UPDATE `weapon` SET `name` ='惡魔結晶-智慧 {對戰用} 靈活思緒' WHERE `item_id` = 12856;
-UPDATE `weapon` SET `name` ='惡魔結晶-智慧 {對戰用} 魔法心靈防護' WHERE `item_id` = 12857;
-UPDATE `weapon` SET `name` ='貝拉凱爾聖斧-溫和 {對戰用} 強健' WHERE `item_id` = 12858;
-UPDATE `weapon` SET `name` ='貝拉凱爾聖斧-溫和 {對戰用} 速度激發' WHERE `item_id` = 12859;
-UPDATE `weapon` SET `name` ='貝拉凱爾聖斧-溫和 {對戰用} 偵測' WHERE `item_id` = 12860;
-UPDATE `weapon` SET `name` ='復仇爆弩-集中 {對戰用} 節射' WHERE `item_id` = 12861;
-UPDATE `weapon` SET `name` ='復仇爆弩-集中 {對戰用} 偵測' WHERE `item_id` = 12862;
-UPDATE `weapon` SET `name` ='復仇爆弩-集中 {對戰用} 快速恢復' WHERE `item_id` = 12863;
-UPDATE `weapon` SET `name` ='貝希莫斯巨叉-破壞 {對戰用} 偵測' WHERE `item_id` = 12864;
-UPDATE `weapon` SET `name` ='貝希莫斯巨叉-破壞 {對戰用} 強健' WHERE `item_id` = 12865;
-UPDATE `weapon` SET `name` ='貝希莫斯巨叉-破壞 {對戰用} 怒擊' WHERE `item_id` = 12866;
-UPDATE `weapon` SET `name` ='光明守護之劍-大地 {對戰用} 偵測' WHERE `item_id` = 12867;
-UPDATE `weapon` SET `name` ='光明守護之劍-大地 {對戰用} 速度激發' WHERE `item_id` = 12868;
-UPDATE `weapon` SET `name` ='光明守護之劍-大地 {對戰用} 強健' WHERE `item_id` = 12869;
-UPDATE `weapon` SET `name` ='夏伊德獵弓-集中 {對戰用} 節射' WHERE `item_id` = 12870;
-UPDATE `weapon` SET `name` ='夏伊德獵弓-集中 {對戰用} 偵測' WHERE `item_id` = 12871;
-UPDATE `weapon` SET `name` ='夏伊德獵弓-集中 {對戰用} 快速恢復' WHERE `item_id` = 12872;
-UPDATE `weapon` SET `name` ='伊波斯巨劍-大地 {對戰用} 偵測' WHERE `item_id` = 12873;
-UPDATE `weapon` SET `name` ='伊波斯巨劍-大地 {對戰用} 速度激發' WHERE `item_id` = 12874;
-UPDATE `weapon` SET `name` ='伊波斯巨劍-大地 {對戰用} 強健' WHERE `item_id` = 12875;
-UPDATE `weapon` SET `name` ='索貝克颶風-山崩 {對戰用} Rsk.速度激發' WHERE `item_id` = 12876;
-UPDATE `weapon` SET `name` ='索貝克颶風-山崩 {對戰用} 速度激發' WHERE `item_id` = 12877;
-UPDATE `weapon` SET `name` ='索貝克颶風-山崩 {對戰用} Crt.吸收' WHERE `item_id` = 12878;
-UPDATE `weapon` SET `name` ='希露冰刃-山崩 {對戰用} 速度激發' WHERE `item_id` = 12879;
-UPDATE `weapon` SET `name` ='希露冰刃-山崩 {對戰用} 強健' WHERE `item_id` = 12880;
-UPDATE `weapon` SET `name` ='希露冰刃-山崩 {對戰用} Crt.施毒' WHERE `item_id` = 12881;
-UPDATE `weapon` SET `name` ='閃光之珠-山崩 {對戰用} 速度激發' WHERE `item_id` = 12882;
-UPDATE `weapon` SET `name` ='閃光之珠-山崩 {對戰用} 強健' WHERE `item_id` = 12883;
-UPDATE `weapon` SET `name` ='閃光之珠-山崩 {對戰用} Crt.施毒' WHERE `item_id` = 12884;
-UPDATE `weapon` SET `name` ='岱依封長戟-山崩 {對戰用} Crt. 衝擊' WHERE `item_id` = 12885;
-UPDATE `weapon` SET `name` ='岱依封長戟-山崩 {對戰用} 遠程打擊' WHERE `item_id` = 12886;
-UPDATE `weapon` SET `name` ='岱依封長戟-山崩 {對戰用} 寬幅打擊' WHERE `item_id` = 12887;
-UPDATE `weapon` SET `name` ='塔魯刀*大馬士革刀-山崩 {對戰用}' WHERE `item_id` = 12888;
-UPDATE `weapon` SET `name` ='緹米絲之舌-聰明 {對戰用} 魔力上升' WHERE `item_id` = 12889;
-UPDATE `weapon` SET `name` ='緹米絲之舌-聰明 {對戰用} 魔法心靈防護' WHERE `item_id` = 12890;
-UPDATE `weapon` SET `name` ='緹米絲之舌-聰明 {對戰用} 魔法偵測' WHERE `item_id` = 12891;
-UPDATE `weapon` SET `name` ='卡布里歐之手-聰明 {對戰用} 魂體轉換' WHERE `item_id` = 12892;
-UPDATE `weapon` SET `name` ='卡布里歐之手-聰明 {對戰用} 魔力上升' WHERE `item_id` = 12893;
-UPDATE `weapon` SET `name` ='卡布里歐之手-聰明 {對戰用} 魔法沉默' WHERE `item_id` = 12894;
-UPDATE `weapon` SET `name` ='勝利之劍格蘭-電擊 {對戰用} 速度激發' WHERE `item_id` = 12895;
-UPDATE `weapon` SET `name` ='勝利之劍格蘭-電擊 {對戰用} 強健' WHERE `item_id` = 12896;
-UPDATE `weapon` SET `name` ='勝利之劍格蘭-電擊 {對戰用} 偵測' WHERE `item_id` = 12897;
-UPDATE `weapon` SET `name` ='惡魔獵爪-電擊 {對戰用} 偵測' WHERE `item_id` = 12898;
-UPDATE `weapon` SET `name` ='惡魔獵爪-電擊 {對戰用} 強健' WHERE `item_id` = 12899;
-UPDATE `weapon` SET `name` ='惡魔獵爪-電擊 {對戰用} Crt.衝擊' WHERE `item_id` = 12900;
-UPDATE `weapon` SET `name` ='紅龍之弓-大地 {對戰用} 節射' WHERE `item_id` = 12901;
-UPDATE `weapon` SET `name` ='紅龍之弓-大地 {對戰用} 偵測' WHERE `item_id` = 12902;
-UPDATE `weapon` SET `name` ='紅龍之弓-大地 {對戰用} Crt.緩速' WHERE `item_id` = 12903;
-UPDATE `weapon` SET `name` ='狩龍之斧-電擊 {對戰用} 體力再生' WHERE `item_id` = 12904;
-UPDATE `weapon` SET `name` ='狩龍之斧-電擊 {對戰用} 強健' WHERE `item_id` = 12905;
-UPDATE `weapon` SET `name` ='狩龍之斧-電擊 {對戰用} HP吸收' WHERE `item_id` = 12906;
-UPDATE `weapon` SET `name` ='烈焚天-雷鳴 {對戰用} 速度激發' WHERE `item_id` = 12907;
-UPDATE `weapon` SET `name` ='烈焚天-雷鳴 {對戰用} 強健' WHERE `item_id` = 12908;
-UPDATE `weapon` SET `name` ='烈焚天-雷鳴 {對戰用} 偵測' WHERE `item_id` = 12909;
-UPDATE `weapon` SET `name` ='玄武岩戰鎚-集中 {對戰用} HP吸收' WHERE `item_id` = 12910;
-UPDATE `weapon` SET `name` ='玄武岩戰鎚-集中 {對戰用} 強健' WHERE `item_id` = 12911;
-UPDATE `weapon` SET `name` ='玄武岩戰鎚-集中 {對戰用} 體力再生' WHERE `item_id` = 12912;
-UPDATE `weapon` SET `name` ='薩倫伽神弩-大地 {對戰用} 節射' WHERE `item_id` = 12913;
-UPDATE `weapon` SET `name` ='薩倫伽神弩-大地 {對戰用} 偵測' WHERE `item_id` = 12914;
-UPDATE `weapon` SET `name` ='薩倫伽神弩-大地 {對戰用} Crt.緩速' WHERE `item_id` = 12915;
-UPDATE `weapon` SET `name` ='聖者之矛-破壞 {對戰用} 強健' WHERE `item_id` = 12916;
-UPDATE `weapon` SET `name` ='聖者之矛-破壞 {對戰用} 導引' WHERE `item_id` = 12917;
-UPDATE `weapon` SET `name` ='聖者之矛-破壞 {對戰用} 速度激發' WHERE `item_id` = 12918;
-UPDATE `weapon` SET `name` ='祕儀權杖-自然 {對戰用} 靈活思緒' WHERE `item_id` = 12919;
-UPDATE `weapon` SET `name` ='祕儀權杖-自然 {對戰用} 魔力再生' WHERE `item_id` = 12920;
-UPDATE `weapon` SET `name` ='祕儀權杖-自然 {對戰用} 魔力上升' WHERE `item_id` = 12921;
-UPDATE `weapon` SET `name` ='天使殺手-集中 {對戰用} Crt.傷害' WHERE `item_id` = 12922;
-UPDATE `weapon` SET `name` ='天使殺手-集中 {對戰用} HP吸收' WHERE `item_id` = 12923;
-UPDATE `weapon` SET `name` ='天使殺手-集中 {對戰用} 速度激發' WHERE `item_id` = 12924;
-UPDATE `weapon` SET `name` ='帝國權杖-自然 {對戰用} 魔力催化' WHERE `item_id` = 12925;
-UPDATE `weapon` SET `name` ='帝國權杖-自然 {對戰用} 魔力再生' WHERE `item_id` = 12926;
-UPDATE `weapon` SET `name` ='帝國權杖-自然 {對戰用} 魔法束縛' WHERE `item_id` = 12927;
-UPDATE `weapon` SET `name` ='塔魯刀*黑暗軍刀-雷鳴 {對戰用}' WHERE `item_id` = 12928;
-UPDATE `weapon` SET `name` ='忘卻之刃-雷鳴 {對戰用} 速度激發' WHERE `item_id` = 12929;
-UPDATE `weapon` SET `name` ='忘卻之刃-雷鳴 {對戰用} 強健' WHERE `item_id` = 12930;
-UPDATE `weapon` SET `name` ='忘卻之刃-雷鳴 {對戰用} 偵測' WHERE `item_id` = 12931;
-UPDATE `weapon` SET `name` ='天國審判-電擊 {對戰用} 速度激發' WHERE `item_id` = 12932;
-UPDATE `weapon` SET `name` ='天國審判-電擊 {對戰用} 強健' WHERE `item_id` = 12933;
-UPDATE `weapon` SET `name` ='天國審判-電擊 {對戰用} 偵測' WHERE `item_id` = 12934;
-UPDATE `weapon` SET `name` ='王朝古代劍-疾風 {對戰用} 偵測' WHERE `item_id` = 12935;
-UPDATE `weapon` SET `name` ='王朝古代劍-疾風 {對戰用} 強健' WHERE `item_id` = 12936;
-UPDATE `weapon` SET `name` ='王朝古代劍-疾風 {對戰用} 輕裝' WHERE `item_id` = 12937;
-UPDATE `weapon` SET `name` ='王朝小刀-疾風 {對戰用} 偵測' WHERE `item_id` = 12938;
-UPDATE `weapon` SET `name` ='王朝小刀-疾風 {對戰用} 迴避' WHERE `item_id` = 12939;
-UPDATE `weapon` SET `name` ='王朝小刀-疾風 {對戰用} Crt.傷害' WHERE `item_id` = 12940;
-UPDATE `weapon` SET `name` ='王朝雙刀-大地 {對戰用}' WHERE `item_id` = 12941;
-UPDATE `weapon` SET `name` ='王朝細劍-大地 {對戰用} 偵測' WHERE `item_id` = 12942;
-UPDATE `weapon` SET `name` ='王朝細劍-大地 {對戰用} 強健' WHERE `item_id` = 12943;
-UPDATE `weapon` SET `name` ='王朝細劍-大地 {對戰用} 輕裝' WHERE `item_id` = 12944;
-UPDATE `weapon` SET `name` ='王朝釘鎚-大地 {對戰用} 魔力上升' WHERE `item_id` = 12945;
-UPDATE `weapon` SET `name` ='王朝釘鎚-大地 {對戰用} 魂體轉換' WHERE `item_id` = 12946;
-UPDATE `weapon` SET `name` ='王朝釘鎚-大地 {對戰用} 靈活思緒' WHERE `item_id` = 12947;
-UPDATE `weapon` SET `name` ='王朝拳套爪-疾風 {對戰用} Rsk.迴避' WHERE `item_id` = 12948;
-UPDATE `weapon` SET `name` ='王朝拳套爪-疾風 {對戰用} 偵測' WHERE `item_id` = 12949;
-UPDATE `weapon` SET `name` ='王朝拳套爪-疾風 {對戰用} 速度激發' WHERE `item_id` = 12950;
-UPDATE `weapon` SET `name` ='王朝弓-疾風 {對戰用} 節射' WHERE `item_id` = 12951;
-UPDATE `weapon` SET `name` ='王朝弓-疾風 {對戰用} 導引' WHERE `item_id` = 12952;
-UPDATE `weapon` SET `name` ='王朝弓-疾風 {對戰用} 偵測' WHERE `item_id` = 12953;
-UPDATE `weapon` SET `name` ='王朝之刃-疾風 {對戰用} 偵測' WHERE `item_id` = 12954;
-UPDATE `weapon` SET `name` ='王朝之刃-疾風 {對戰用} 強健' WHERE `item_id` = 12955;
-UPDATE `weapon` SET `name` ='王朝之刃-疾風 {對戰用} 輕裝' WHERE `item_id` = 12956;
-UPDATE `weapon` SET `name` ='王朝劍-大地 {對戰用} 偵測' WHERE `item_id` = 12957;
-UPDATE `weapon` SET `name` ='王朝劍-大地 {對戰用} 強健' WHERE `item_id` = 12958;
-UPDATE `weapon` SET `name` ='王朝劍-大地 {對戰用} 輕裝' WHERE `item_id` = 12959;
-UPDATE `weapon` SET `name` ='王朝魔杖-聖靈 {對戰用} 魔力上升' WHERE `item_id` = 12960;
-UPDATE `weapon` SET `name` ='王朝魔杖-聖靈 {對戰用} 魂體轉換' WHERE `item_id` = 12961;
-UPDATE `weapon` SET `name` ='王朝魔杖-聖靈 {對戰用} 靈活思緒' WHERE `item_id` = 12962;
-UPDATE `weapon` SET `name` ='王朝戰鎚-山崩 {對戰用} 怒擊' WHERE `item_id` = 12963;
-UPDATE `weapon` SET `name` ='王朝戰鎚-山崩 {對戰用} 強健' WHERE `item_id` = 12964;
-UPDATE `weapon` SET `name` ='王朝戰鎚-山崩 {對戰用} Rsk.偵測' WHERE `item_id` = 12965;
-UPDATE `weapon` SET `name` ='王朝毀滅者-疾風 {對戰用} 怒擊' WHERE `item_id` = 12966;
-UPDATE `weapon` SET `name` ='王朝毀滅者-疾風 {對戰用} 強健' WHERE `item_id` = 12967;
-UPDATE `weapon` SET `name` ='王朝毀滅者-疾風 {對戰用} Rsk.偵測' WHERE `item_id` = 12968;
-UPDATE `weapon` SET `name` ='王朝十字弓-疾風 {對戰用} 節射' WHERE `item_id` = 12969;
-UPDATE `weapon` SET `name` ='王朝十字弓-疾風 {對戰用} 導引' WHERE `item_id` = 12970;
-UPDATE `weapon` SET `name` ='王朝十字弓-疾風 {對戰用} 偵測' WHERE `item_id` = 12971;
-UPDATE `weapon` SET `name` ='王朝幻影劍-自然 {對戰用} 靈活思緒' WHERE `item_id` = 12972;
-UPDATE `weapon` SET `name` ='王朝幻影劍-自然 {對戰用} 魔力上升' WHERE `item_id` = 12973;
-UPDATE `weapon` SET `name` ='王朝幻影劍-自然 {對戰用} 魂體轉換' WHERE `item_id` = 12974;
-UPDATE `weapon` SET `name` ='王朝長柄戰戟-大地 {對戰用} 怒擊' WHERE `item_id` = 12975;
-UPDATE `weapon` SET `name` ='王朝長柄戰戟-大地 {對戰用} Crt.衝擊' WHERE `item_id` = 12976;
-UPDATE `weapon` SET `name` ='王朝長柄戰戟-大地 {對戰用} 輕裝' WHERE `item_id` = 12977;
-UPDATE `weapon` SET `name` ='精靈之劍' WHERE `item_id` = 13034;
-UPDATE `weapon` SET `name` ='強化精靈之劍' WHERE `item_id` = 13035;
-UPDATE `weapon` SET `name` ='冰與火之劍' WHERE `item_id` = 13036;
-UPDATE `weapon` SET `name` ='古代遺產之劍' WHERE `item_id` = 13042;
-UPDATE `weapon` SET `name` ='強化古代遺產之劍' WHERE `item_id` = 13043;
-UPDATE `weapon` SET `name` ='完全化古代遺產之劍' WHERE `item_id` = 13044;
-UPDATE `weapon` SET `name` ='賽勒諾斯之槍' WHERE `item_id` = 13052;
-UPDATE `weapon` SET `name` ='強化賽勒諾斯之槍' WHERE `item_id` = 13053;
-UPDATE `weapon` SET `name` ='完全化賽勒諾斯之槍' WHERE `item_id` = 13054;
-UPDATE `weapon` SET `name` ='怪物用(男爵夫人雇員)' WHERE `item_id` = 13061;
-UPDATE `weapon` SET `name` ='怪物用(雇員之友)' WHERE `item_id` = 13062;
-UPDATE `weapon` SET `name` ='限時-長矛 限時60分鐘' WHERE `item_id` = 13153;
-UPDATE `weapon` SET `name` ='限時-彎刃大刀 限時60分鐘' WHERE `item_id` = 13154;
-UPDATE `weapon` SET `name` ='限時-鋼鎚 限時60分鐘' WHERE `item_id` = 13155;
-UPDATE `weapon` SET `name` ='限時-巫毒人偶 限時60分鐘' WHERE `item_id` = 13156;
-UPDATE `weapon` SET `name` ='限時-魔鎚 限時60分鐘' WHERE `item_id` = 13157;
-UPDATE `weapon` SET `name` ='限時-法師魔杖 限時60分鐘' WHERE `item_id` = 13158;
-UPDATE `weapon` SET `name` ='限時-碎劍者 限時60分鐘' WHERE `item_id` = 13159;
-UPDATE `weapon` SET `name` ='限時-毒蛇之牙 限時60分鐘' WHERE `item_id` = 13160;
-UPDATE `weapon` SET `name` ='限時-合金弓 限時60分鐘' WHERE `item_id` = 13161;
-UPDATE `weapon` SET `name` ='限時-祝福的十字架 限時60分鐘' WHERE `item_id` = 13162;
-UPDATE `weapon` SET `name` ='限時-重劍*緋紅劍 限時60分鐘' WHERE `item_id` = 13163;
-UPDATE `weapon` SET `name` ='限時-雙刃大砍刀 限時60分鐘' WHERE `item_id` = 13164;
-UPDATE `weapon` SET `name` ='限時-碎骨者 限時60分鐘' WHERE `item_id` = 13165;
-UPDATE `weapon` SET `name` ='限時-阿吐巴鎚 限時60分鐘' WHERE `item_id` = 13166;
-UPDATE `weapon` SET `name` ='限時-魂靈魔杖 限時60分鐘' WHERE `item_id` = 13167;
-UPDATE `weapon` SET `name` ='限時-生命手杖 限時60分鐘' WHERE `item_id` = 13168;
-UPDATE `weapon` SET `name` ='限時-阿吐巴釘鎚 限時60分鐘' WHERE `item_id` = 13169;
-UPDATE `weapon` SET `name` ='限時-米索莉匕首 限時60分鐘' WHERE `item_id` = 13170;
-UPDATE `weapon` SET `name` ='限時-波浪刀 限時60分鐘' WHERE `item_id` = 13171;
-UPDATE `weapon` SET `name` ='限時-風暴弓 限時60分鐘' WHERE `item_id` = 13172;
-UPDATE `weapon` SET `name` ='限時-闊矛 限時60分鐘' WHERE `item_id` = 13173;
-UPDATE `weapon` SET `name` ='限時-精靈長劍 限時60分鐘' WHERE `item_id` = 13174;
-UPDATE `weapon` SET `name` ='限時-巨銳劍 限時60分鐘' WHERE `item_id` = 13175;
-UPDATE `weapon` SET `name` ='限時-將軍格鬥劍 限時60分鐘' WHERE `item_id` = 13176;
-UPDATE `weapon` SET `name` ='限時-齒輪弩 限時60分鐘' WHERE `item_id` = 13177;
-UPDATE `weapon` SET `name` ='限時-瑟魯基長劍 限時60分鐘' WHERE `item_id` = 13178;
-UPDATE `weapon` SET `name` ='限時-亡者魔杖 限時60分鐘' WHERE `item_id` = 13179;
-UPDATE `weapon` SET `name` ='限時-食屍鬼魔杖 限時60分鐘' WHERE `item_id` = 13180;
-UPDATE `weapon` SET `name` ='限時-惡魔魔杖 限時60分鐘' WHERE `item_id` = 13181;
-UPDATE `weapon` SET `name` ='限時-水晶匕首 限時60分鐘' WHERE `item_id` = 13182;
-UPDATE `weapon` SET `name` ='限時-巨型帕塔拳刃 限時60分鐘' WHERE `item_id` = 13183;
-UPDATE `weapon` SET `name` ='限時-卓越弓 限時60分鐘' WHERE `item_id` = 13184;
-UPDATE `weapon` SET `name` ='限時-歐西斯戰斧 限時60分鐘' WHERE `item_id` = 13185;
-UPDATE `weapon` SET `name` ='限時-夜叉釘鎚 限時60分鐘' WHERE `item_id` = 13186;
-UPDATE `weapon` SET `name` ='限時-彎刀*彎刀 限時60分鐘' WHERE `item_id` = 13187;
-UPDATE `weapon` SET `name` ='限時-上將刺劍 限時60分鐘' WHERE `item_id` = 13188;
-UPDATE `weapon` SET `name` ='限時-劍齒虎 限時60分鐘' WHERE `item_id` = 13189;
-UPDATE `weapon` SET `name` ='限時-滅形弩 限時60分鐘' WHERE `item_id` = 13190;
-UPDATE `weapon` SET `name` ='限時-日蝕劍 限時60分鐘' WHERE `item_id` = 13191;
-UPDATE `weapon` SET `name` ='限時-月蝕斧 限時60分鐘' WHERE `item_id` = 13192;
-UPDATE `weapon` SET `name` ='限時-矮人巨鎚 限時60分鐘' WHERE `item_id` = 13193;
-UPDATE `weapon` SET `name` ='限時-大馬士革刀 限時60分鐘' WHERE `item_id` = 13194;
-UPDATE `weapon` SET `name` ='限時-長槍 限時60分鐘' WHERE `item_id` = 13195;
-UPDATE `weapon` SET `name` ='限時-亡者榮譽 限時60分鐘' WHERE `item_id` = 13196;
-UPDATE `weapon` SET `name` ='限時-工藝戰斧 限時60分鐘' WHERE `item_id` = 13197;
-UPDATE `weapon` SET `name` ='限時-邪靈魔杖 限時60分鐘' WHERE `item_id` = 13198;
-UPDATE `weapon` SET `name` ='限時-惡魔短劍 限時60分鐘' WHERE `item_id` = 13199;
-UPDATE `weapon` SET `name` ='限時-博利恩拳套 限時60分鐘' WHERE `item_id` = 13200;
-UPDATE `weapon` SET `name` ='限時-冒險弓 限時60分鐘' WHERE `item_id` = 13201;
-UPDATE `weapon` SET `name` ='限時-瑟魯基長劍*瑟魯基長劍 限時60分鐘' WHERE `item_id` = 13202;
-UPDATE `weapon` SET `name` ='限時-守護神之劍 限時60分鐘' WHERE `item_id` = 13203;
-UPDATE `weapon` SET `name` ='限時-巫師之淚 限時60分鐘' WHERE `item_id` = 13204;
-UPDATE `weapon` SET `name` ='限時-卡倚巴奴之骨 限時60分鐘' WHERE `item_id` = 13205;
-UPDATE `weapon` SET `name` ='限時-星爆 限時60分鐘' WHERE `item_id` = 13206;
-UPDATE `weapon` SET `name` ='限時-華麗細劍 限時60分鐘' WHERE `item_id` = 13207;
-UPDATE `weapon` SET `name` ='限時-裂解劍 限時60分鐘' WHERE `item_id` = 13208;
-UPDATE `weapon` SET `name` ='限時-冥犬之牙 限時60分鐘' WHERE `item_id` = 13209;
-UPDATE `weapon` SET `name` ='限時-希露冰刃 限時60分鐘' WHERE `item_id` = 13210;
-UPDATE `weapon` SET `name` ='限時-伊波斯巨劍 限時60分鐘' WHERE `item_id` = 13211;
-UPDATE `weapon` SET `name` ='限時-貝拉凱爾聖斧 限時60分鐘' WHERE `item_id` = 13212;
-UPDATE `weapon` SET `name` ='限時-貝希莫斯巨叉 限時60分鐘' WHERE `item_id` = 13213;
-UPDATE `weapon` SET `name` ='限時-那卡風暴 限時60分鐘' WHERE `item_id` = 13214;
-UPDATE `weapon` SET `name` ='限時-岱依封長戟 限時60分鐘' WHERE `item_id` = 13215;
-UPDATE `weapon` SET `name` ='限時-夏伊德獵弓 限時60分鐘' WHERE `item_id` = 13216;
-UPDATE `weapon` SET `name` ='限時-索貝克颶風 限時60分鐘' WHERE `item_id` = 13217;
-UPDATE `weapon` SET `name` ='限時-緹米絲之舌 限時60分鐘' WHERE `item_id` = 13218;
-UPDATE `weapon` SET `name` ='限時-卡布里歐之手 限時60分鐘' WHERE `item_id` = 13219;
-UPDATE `weapon` SET `name` ='限時-惡魔結晶 限時60分鐘' WHERE `item_id` = 13220;
-UPDATE `weapon` SET `name` ='限時-塔魯刀*大馬士革刀 限時60分鐘' WHERE `item_id` = 13221;
-UPDATE `weapon` SET `name` ='限時-閃光之珠 限時60分鐘' WHERE `item_id` = 13222;
-UPDATE `weapon` SET `name` ='限時-光明守護之劍 限時60分鐘' WHERE `item_id` = 13223;
-UPDATE `weapon` SET `name` ='限時-復仇爆弩 限時60分鐘' WHERE `item_id` = 13224;
-UPDATE `weapon` SET `name` ='O形魔杖 限時7日' WHERE `item_id` = 13248;
-UPDATE `weapon` SET `name` ='X形魔杖 限時7日' WHERE `item_id` = 13249;
-UPDATE `weapon` SET `name` ='剪刀魔杖 限時7日' WHERE `item_id` = 13250;
-UPDATE `weapon` SET `name` ='石頭魔杖 限時7日' WHERE `item_id` = 13251;
-UPDATE `weapon` SET `name` ='布魔杖 限時7日' WHERE `item_id` = 13252;
-UPDATE `weapon` SET `name` ='南瓜變身魔杖 限時7日' WHERE `item_id` = 13253;
-UPDATE `weapon` SET `name` ='O形魔杖-活動用 限時30日' WHERE `item_id` = 13319;
-UPDATE `weapon` SET `name` ='X形魔杖-活動用 限時30日' WHERE `item_id` = 13320;
-UPDATE `weapon` SET `name` ='剪刀魔杖-活動用 限時30日' WHERE `item_id` = 13321;
-UPDATE `weapon` SET `name` ='石頭魔杖-活動用 限時30日' WHERE `item_id` = 13322;
-UPDATE `weapon` SET `name` ='布魔杖-活動用 限時30日' WHERE `item_id` = 13323;
-UPDATE `weapon` SET `name` ='南瓜變身魔杖-活動用 限時30日' WHERE `item_id` = 13324;
-UPDATE `weapon` SET `name` ='O形魔杖-活動用 限時7日' WHERE `item_id` = 13334;
-UPDATE `weapon` SET `name` ='X形魔杖-活動用 限時7日' WHERE `item_id` = 13335;
-UPDATE `weapon` SET `name` ='剪刀魔杖-活動用 限時7日' WHERE `item_id` = 13336;
-UPDATE `weapon` SET `name` ='石頭魔杖-活動用 限時7日' WHERE `item_id` = 13337;
-UPDATE `weapon` SET `name` ='布魔杖-活動用 限時7日' WHERE `item_id` = 13338;
-UPDATE `weapon` SET `name` ='南瓜變身魔杖-活動用 限時7日' WHERE `item_id` = 13339;
-UPDATE `weapon` SET `name` ='薄暮盾(不使用)' WHERE `item_id` = 13447;
-UPDATE `weapon` SET `name` ='薄暮切刃' WHERE `item_id` = 13457;
-UPDATE `weapon` SET `name` ='薄暮殺刃' WHERE `item_id` = 13458;
-UPDATE `weapon` SET `name` ='薄暮爆刃' WHERE `item_id` = 13459;
-UPDATE `weapon` SET `name` ='薄暮鉋刀' WHERE `item_id` = 13460;
-UPDATE `weapon` SET `name` ='薄暮戰爪' WHERE `item_id` = 13461;
-UPDATE `weapon` SET `name` ='薄暮風暴者' WHERE `item_id` = 13462;
-UPDATE `weapon` SET `name` ='薄暮復仇者' WHERE `item_id` = 13463;
-UPDATE `weapon` SET `name` ='薄暮報恨者' WHERE `item_id` = 13464;
-UPDATE `weapon` SET `name` ='薄暮術杖' WHERE `item_id` = 13465;
-UPDATE `weapon` SET `name` ='薄暮詩杖' WHERE `item_id` = 13466;
-UPDATE `weapon` SET `name` ='薄暮投弓' WHERE `item_id` = 13467;
-UPDATE `weapon` SET `name` ='薄暮螯針' WHERE `item_id` = 13468;
-UPDATE `weapon` SET `name` ='薄暮射靈' WHERE `item_id` = 13469;
-UPDATE `weapon` SET `name` ='薄暮槍刃' WHERE `item_id` = 13470;
-UPDATE `weapon` SET `name` ='薄暮衛盾' WHERE `item_id` = 13471;
-UPDATE `weapon` SET `name` ='格勒西亞士兵單手劍' WHERE `item_id` = 13524;
-UPDATE `weapon` SET `name` ='格勒西亞士兵盾牌' WHERE `item_id` = 13525;
-UPDATE `weapon` SET `name` ='測試雙匕首' WHERE `item_id` = 13528;
-UPDATE `weapon` SET `name` ='古魯丁旗幟' WHERE `item_id` = 13530;
-UPDATE `weapon` SET `name` ='狄恩旗幟' WHERE `item_id` = 13531;
-UPDATE `weapon` SET `name` ='奇岩旗幟' WHERE `item_id` = 13532;
-UPDATE `weapon` SET `name` ='歐瑞旗幟' WHERE `item_id` = 13533;
-UPDATE `weapon` SET `name` ='亞丁旗幟' WHERE `item_id` = 13534;
-UPDATE `weapon` SET `name` ='因納得立旗幟' WHERE `item_id` = 13535;
-UPDATE `weapon` SET `name` ='高達特旗幟' WHERE `item_id` = 13536;
-UPDATE `weapon` SET `name` ='魯因旗幟' WHERE `item_id` = 13537;
-UPDATE `weapon` SET `name` ='修加特旗幟' WHERE `item_id` = 13538;
-UPDATE `weapon` SET `name` ='大師余義的魔杖' WHERE `item_id` = 13539;
-UPDATE `weapon` SET `name` ='飛空艇操控舵' WHERE `item_id` = 13556;
-UPDATE `weapon` SET `name` ='飛空艇大砲' WHERE `item_id` = 13557;
-UPDATE `weapon` SET `name` ='飛空艇砲彈' WHERE `item_id` = 13558;
-UPDATE `weapon` SET `name` ='古魯丁 守護之物' WHERE `item_id` = 13560;
-UPDATE `weapon` SET `name` ='狄恩 守護之物' WHERE `item_id` = 13561;
-UPDATE `weapon` SET `name` ='奇岩 守護之物' WHERE `item_id` = 13562;
-UPDATE `weapon` SET `name` ='歐瑞 守護之物' WHERE `item_id` = 13563;
-UPDATE `weapon` SET `name` ='亞丁 守護之物' WHERE `item_id` = 13564;
-UPDATE `weapon` SET `name` ='因納得立 守護之物' WHERE `item_id` = 13565;
-UPDATE `weapon` SET `name` ='高達特 守護之物' WHERE `item_id` = 13566;
-UPDATE `weapon` SET `name` ='魯因 守護之物' WHERE `item_id` = 13567;
-UPDATE `weapon` SET `name` ='修加特 守護之物' WHERE `item_id` = 13568;
-UPDATE `weapon` SET `name` ='奧林匹亞勇士的武器 (未定)' WHERE `item_id` = 13755;
-UPDATE `weapon` SET `name` ='幻象裝備-艾罕米亞卡修之盾' WHERE `item_id` = 13770;
-UPDATE `weapon` SET `name` ='紅色玩具鎚' WHERE `item_id` = 13789;
-UPDATE `weapon` SET `name` ='藍色玩具鎚' WHERE `item_id` = 13790;
-UPDATE `weapon` SET `name` ='作古的紅色玩具鎚' WHERE `item_id` = 13791;
-UPDATE `weapon` SET `name` ='作古的藍色玩具鎚' WHERE `item_id` = 13792;
-UPDATE `weapon` SET `name` ='宮廷魔法師的魔法棒' WHERE `item_id` = 13809;
-UPDATE `weapon` SET `name` ='蒂雅特雙手武器' WHERE `item_id` = 13842;
-UPDATE `weapon` SET `name` ='龍輕裝步兵武器' WHERE `item_id` = 13843;
-UPDATE `weapon` SET `name` ='屬性大師仁的劍' WHERE `item_id` = 13845;
-UPDATE `weapon` SET `name` ='屬性大師楊的劍' WHERE `item_id` = 13881;
-UPDATE `weapon` SET `name` ='王朝雙匕首' WHERE `item_id` = 13882;
-UPDATE `weapon` SET `name` ='伊克魯斯雙匕首' WHERE `item_id` = 13883;
-UPDATE `weapon` SET `name` ='薄暮雙匕首' WHERE `item_id` = 13884;
-UPDATE `weapon` SET `name` ='夢幻的紅色玩具鎚' WHERE `item_id` = 13971;
-UPDATE `weapon` SET `name` ='夢幻的藍色玩具鎚' WHERE `item_id` = 13972;
-UPDATE `weapon` SET `name` ='夢幻的作古紅色玩具鎚' WHERE `item_id` = 13973;
-UPDATE `weapon` SET `name` ='夢幻的作古藍色玩具鎚' WHERE `item_id` = 13974;
-UPDATE `weapon` SET `name` ='怪物用(龍馬軍上級隊長)' WHERE `item_id` = 13978;
-UPDATE `weapon` SET `name` ='怪物用(龍馬軍作戰步兵劍)' WHERE `item_id` = 13979;
-UPDATE `weapon` SET `name` ='怪物用(龍馬軍作戰步兵盾)' WHERE `item_id` = 13980;
-UPDATE `weapon` SET `name` ='怪物用(龍馬軍戰鬥兵)' WHERE `item_id` = 13981;
-UPDATE `weapon` SET `name` ='怪物用(死亡騎士_槍)' WHERE `item_id` = 13982;
-UPDATE `weapon` SET `name` ='怪物用(死亡騎士_2hs)' WHERE `item_id` = 13983;
-UPDATE `weapon` SET `name` ='怪物用(死亡殺手_1hs)' WHERE `item_id` = 13984;
-UPDATE `weapon` SET `name` ='怪物用(死亡殺手_r)' WHERE `item_id` = 13985;
-UPDATE `weapon` SET `name` ='怪物用(死亡殺手_l)' WHERE `item_id` = 13986;
-UPDATE `weapon` SET `name` ='怪物用(野蠻戰士)' WHERE `item_id` = 13987;
-UPDATE `weapon` SET `name` ='雪人變身魔杖 限時30日' WHERE `item_id` = 14056;
-UPDATE `weapon` SET `name` ='草人變身魔杖 限時30日' WHERE `item_id` = 14057;
-UPDATE `weapon` SET `name` ='洋鐵高崙變身魔杖 限時30日' WHERE `item_id` = 14058;
-UPDATE `weapon` SET `name` ='雪人變身魔杖-活動用 限時30日' WHERE `item_id` = 14069;
-UPDATE `weapon` SET `name` ='草人變身魔杖-活動用 限時30日' WHERE `item_id` = 14070;
-UPDATE `weapon` SET `name` ='洋鐵高崙變身魔杖-活動用 限時30日' WHERE `item_id` = 14071;
-UPDATE `weapon` SET `name` ='雪人變身魔杖 限時7日' WHERE `item_id` = 14088;
-UPDATE `weapon` SET `name` ='稻草人傑克變身魔杖 限時7日' WHERE `item_id` = 14089;
-UPDATE `weapon` SET `name` ='洋鐵高崙變身魔杖 限時7日' WHERE `item_id` = 14090;
-UPDATE `weapon` SET `name` ='雪人變身魔杖-活動用 限時7日' WHERE `item_id` = 14096;
-UPDATE `weapon` SET `name` ='稻草人傑克變身魔杖-活動用 限時7日' WHERE `item_id` = 14097;
-UPDATE `weapon` SET `name` ='洋鐵高崙變身魔杖-活動用 限時7日' WHERE `item_id` = 14098;
-UPDATE `weapon` SET `name` ='封印的薄暮衛盾' WHERE `item_id` = 14111;
-UPDATE `weapon` SET `name` ='薄暮切刃 速度激發' WHERE `item_id` = 14118;
-UPDATE `weapon` SET `name` ='薄暮切刃 強健' WHERE `item_id` = 14119;
-UPDATE `weapon` SET `name` ='薄暮切刃 偵測' WHERE `item_id` = 14120;
-UPDATE `weapon` SET `name` ='薄暮殺刃 速度激發' WHERE `item_id` = 14121;
-UPDATE `weapon` SET `name` ='薄暮殺刃 強健' WHERE `item_id` = 14122;
-UPDATE `weapon` SET `name` ='薄暮殺刃 偵測' WHERE `item_id` = 14123;
-UPDATE `weapon` SET `name` ='薄暮爆刃 魔力上升' WHERE `item_id` = 14124;
-UPDATE `weapon` SET `name` ='薄暮爆刃 靈活思緒' WHERE `item_id` = 14125;
-UPDATE `weapon` SET `name` ='薄暮爆刃 魔法束縛' WHERE `item_id` = 14126;
-UPDATE `weapon` SET `name` ='薄暮鉋刀 Crt.傷害' WHERE `item_id` = 14127;
-UPDATE `weapon` SET `name` ='薄暮鉋刀 HP吸收' WHERE `item_id` = 14128;
-UPDATE `weapon` SET `name` ='薄暮鉋刀 速度激發' WHERE `item_id` = 14129;
-UPDATE `weapon` SET `name` ='薄暮戰爪 偵測' WHERE `item_id` = 14130;
-UPDATE `weapon` SET `name` ='薄暮戰爪 強健' WHERE `item_id` = 14131;
-UPDATE `weapon` SET `name` ='薄暮戰爪 Crt.衝擊' WHERE `item_id` = 14132;
-UPDATE `weapon` SET `name` ='薄暮風暴者 強健' WHERE `item_id` = 14133;
-UPDATE `weapon` SET `name` ='薄暮風暴者 導引' WHERE `item_id` = 14134;
-UPDATE `weapon` SET `name` ='薄暮風暴者 速度激發' WHERE `item_id` = 14135;
-UPDATE `weapon` SET `name` ='薄暮復仇者 HP吸收' WHERE `item_id` = 14136;
-UPDATE `weapon` SET `name` ='薄暮復仇者 強健' WHERE `item_id` = 14137;
-UPDATE `weapon` SET `name` ='薄暮復仇者 體力再生' WHERE `item_id` = 14138;
-UPDATE `weapon` SET `name` ='薄暮報恨者 體力再生' WHERE `item_id` = 14139;
-UPDATE `weapon` SET `name` ='薄暮報恨者 強健' WHERE `item_id` = 14140;
-UPDATE `weapon` SET `name` ='薄暮報恨者 HP吸收' WHERE `item_id` = 14141;
-UPDATE `weapon` SET `name` ='薄暮術杖 靈活思緒' WHERE `item_id` = 14142;
-UPDATE `weapon` SET `name` ='薄暮術杖 魔力再生' WHERE `item_id` = 14143;
-UPDATE `weapon` SET `name` ='薄暮術杖 魔力上升' WHERE `item_id` = 14144;
-UPDATE `weapon` SET `name` ='薄暮詩杖 魔力催化' WHERE `item_id` = 14145;
-UPDATE `weapon` SET `name` ='薄暮詩杖 魔力再生' WHERE `item_id` = 14146;
-UPDATE `weapon` SET `name` ='薄暮詩杖 魔法束縛' WHERE `item_id` = 14147;
-UPDATE `weapon` SET `name` ='薄暮投弓 節射' WHERE `item_id` = 14148;
-UPDATE `weapon` SET `name` ='薄暮投弓 偵測' WHERE `item_id` = 14149;
-UPDATE `weapon` SET `name` ='薄暮投弓 Crt.緩速' WHERE `item_id` = 14150;
-UPDATE `weapon` SET `name` ='薄暮螯針 速度激發' WHERE `item_id` = 14151;
-UPDATE `weapon` SET `name` ='薄暮螯針 強健' WHERE `item_id` = 14152;
-UPDATE `weapon` SET `name` ='薄暮螯針 偵測' WHERE `item_id` = 14153;
-UPDATE `weapon` SET `name` ='薄暮射靈 節射' WHERE `item_id` = 14154;
-UPDATE `weapon` SET `name` ='薄暮射靈 偵測' WHERE `item_id` = 14155;
-UPDATE `weapon` SET `name` ='薄暮射靈 Crt.緩速' WHERE `item_id` = 14156;
-UPDATE `weapon` SET `name` ='薄暮槍刃 速度激發' WHERE `item_id` = 14157;
-UPDATE `weapon` SET `name` ='薄暮槍刃 強健' WHERE `item_id` = 14158;
-UPDATE `weapon` SET `name` ='薄暮槍刃 偵測' WHERE `item_id` = 14159;
-UPDATE `weapon` SET `name` ='伊克魯斯之劍 {對戰用}' WHERE `item_id` = 14363;
-UPDATE `weapon` SET `name` ='伊克魯斯分解者 {對戰用}' WHERE `item_id` = 14364;
-UPDATE `weapon` SET `name` ='伊克魯斯之靈 {對戰用}' WHERE `item_id` = 14365;
-UPDATE `weapon` SET `name` ='伊克魯斯重兵刃 {對戰用}' WHERE `item_id` = 14366;
-UPDATE `weapon` SET `name` ='伊克魯斯三叉戟 {對戰用}' WHERE `item_id` = 14367;
-UPDATE `weapon` SET `name` ='伊克魯斯之鎚 {對戰用}' WHERE `item_id` = 14368;
-UPDATE `weapon` SET `name` ='伊克魯斯之手 {對戰用}' WHERE `item_id` = 14369;
-UPDATE `weapon` SET `name` ='伊克魯斯手杖 {對戰用}' WHERE `item_id` = 14370;
-UPDATE `weapon` SET `name` ='伊克魯斯之弓 {對戰用}' WHERE `item_id` = 14371;
-UPDATE `weapon` SET `name` ='伊克魯斯刺劍 {對戰用}' WHERE `item_id` = 14372;
-UPDATE `weapon` SET `name` ='伊克魯斯翼刃 {對戰用}' WHERE `item_id` = 14373;
-UPDATE `weapon` SET `name` ='伊克魯斯之弩 {對戰用}' WHERE `item_id` = 14374;
-UPDATE `weapon` SET `name` ='伊克魯斯雙刀 {對戰用}' WHERE `item_id` = 14375;
-UPDATE `weapon` SET `name` ='伊克魯斯之劍 {對戰用} 偵測' WHERE `item_id` = 14376;
-UPDATE `weapon` SET `name` ='伊克魯斯之劍 {對戰用} 強健' WHERE `item_id` = 14377;
-UPDATE `weapon` SET `name` ='伊克魯斯之劍 {對戰用} 輕裝' WHERE `item_id` = 14378;
-UPDATE `weapon` SET `name` ='伊克魯斯重兵刃 {對戰用} 偵測' WHERE `item_id` = 14379;
-UPDATE `weapon` SET `name` ='伊克魯斯重兵刃 {對戰用} 強健' WHERE `item_id` = 14380;
-UPDATE `weapon` SET `name` ='伊克魯斯重兵刃 {對戰用} 輕裝' WHERE `item_id` = 14381;
-UPDATE `weapon` SET `name` ='伊克魯斯之靈 {對戰用} 靈活思緒' WHERE `item_id` = 14382;
-UPDATE `weapon` SET `name` ='伊克魯斯之靈 {對戰用} 魔力上升' WHERE `item_id` = 14383;
-UPDATE `weapon` SET `name` ='伊克魯斯之靈 {對戰用} 魂體轉換' WHERE `item_id` = 14384;
-UPDATE `weapon` SET `name` ='伊克魯斯之弓 {對戰用} 節射' WHERE `item_id` = 14385;
-UPDATE `weapon` SET `name` ='伊克魯斯之弓 {對戰用} 導引' WHERE `item_id` = 14386;
-UPDATE `weapon` SET `name` ='伊克魯斯之弓 {對戰用} 偵測' WHERE `item_id` = 14387;
-UPDATE `weapon` SET `name` ='伊克魯斯分解者 {對戰用} 偵測' WHERE `item_id` = 14388;
-UPDATE `weapon` SET `name` ='伊克魯斯分解者 {對戰用} 迴避' WHERE `item_id` = 14389;
-UPDATE `weapon` SET `name` ='伊克魯斯分解者 {對戰用} Crt.傷害' WHERE `item_id` = 14390;
-UPDATE `weapon` SET `name` ='伊克魯斯三叉戟 {對戰用} 怒擊' WHERE `item_id` = 14391;
-UPDATE `weapon` SET `name` ='伊克魯斯三叉戟 {對戰用} Crt.衝擊' WHERE `item_id` = 14392;
-UPDATE `weapon` SET `name` ='伊克魯斯三叉戟 {對戰用} 輕裝' WHERE `item_id` = 14393;
-UPDATE `weapon` SET `name` ='伊克魯斯之鎚 {對戰用} 怒擊' WHERE `item_id` = 14394;
-UPDATE `weapon` SET `name` ='伊克魯斯之鎚 {對戰用} 強健' WHERE `item_id` = 14395;
-UPDATE `weapon` SET `name` ='伊克魯斯之鎚 {對戰用} Rsk.偵測' WHERE `item_id` = 14396;
-UPDATE `weapon` SET `name` ='伊克魯斯手杖 {對戰用} 魔力上升' WHERE `item_id` = 14397;
-UPDATE `weapon` SET `name` ='伊克魯斯手杖 {對戰用} 魂體轉換' WHERE `item_id` = 14398;
-UPDATE `weapon` SET `name` ='伊克魯斯手杖 {對戰用} 靈活思緒' WHERE `item_id` = 14399;
-UPDATE `weapon` SET `name` ='伊克魯斯之手 {對戰用} Rsk.迴避' WHERE `item_id` = 14400;
-UPDATE `weapon` SET `name` ='伊克魯斯之手 {對戰用} 偵測' WHERE `item_id` = 14401;
-UPDATE `weapon` SET `name` ='伊克魯斯之手 {對戰用} 速度激發' WHERE `item_id` = 14402;
-UPDATE `weapon` SET `name` ='伊克魯斯刺劍 {對戰用} 偵測' WHERE `item_id` = 14403;
-UPDATE `weapon` SET `name` ='伊克魯斯刺劍 {對戰用} 強健' WHERE `item_id` = 14404;
-UPDATE `weapon` SET `name` ='伊克魯斯刺劍 {對戰用} 輕裝' WHERE `item_id` = 14405;
-UPDATE `weapon` SET `name` ='伊克魯斯翼刃 {對戰用} 偵測' WHERE `item_id` = 14406;
-UPDATE `weapon` SET `name` ='伊克魯斯翼刃 {對戰用} 強健' WHERE `item_id` = 14407;
-UPDATE `weapon` SET `name` ='伊克魯斯翼刃 {對戰用} 輕裝' WHERE `item_id` = 14408;
-UPDATE `weapon` SET `name` ='伊克魯斯之弩 {對戰用} 節射' WHERE `item_id` = 14409;
-UPDATE `weapon` SET `name` ='伊克魯斯之弩 {對戰用} 導引' WHERE `item_id` = 14410;
-UPDATE `weapon` SET `name` ='伊克魯斯之弩 {對戰用} 偵測' WHERE `item_id` = 14411;
-UPDATE `weapon` SET `name` ='伊克魯斯雙刀-破壞 {對戰用}' WHERE `item_id` = 14412;
-UPDATE `weapon` SET `name` ='伊克魯斯分解者-混亂 {對戰用}' WHERE `item_id` = 14413;
-UPDATE `weapon` SET `name` ='伊克魯斯分解者-混亂 {對戰用} 偵測' WHERE `item_id` = 14414;
-UPDATE `weapon` SET `name` ='伊克魯斯分解者-混亂 {對戰用} 迴避' WHERE `item_id` = 14415;
-UPDATE `weapon` SET `name` ='伊克魯斯分解者-混亂 {對戰用} Crt.傷害' WHERE `item_id` = 14416;
-UPDATE `weapon` SET `name` ='伊克魯斯之劍-破壞 {對戰用}' WHERE `item_id` = 14417;
-UPDATE `weapon` SET `name` ='伊克魯斯之劍-破壞 {對戰用} 偵測' WHERE `item_id` = 14418;
-UPDATE `weapon` SET `name` ='伊克魯斯之劍-破壞 {對戰用} 強健' WHERE `item_id` = 14419;
-UPDATE `weapon` SET `name` ='伊克魯斯之劍-破壞 {對戰用} 輕裝' WHERE `item_id` = 14420;
-UPDATE `weapon` SET `name` ='伊克魯斯之弩-集中 {對戰用}' WHERE `item_id` = 14421;
-UPDATE `weapon` SET `name` ='伊克魯斯之弩-集中 {對戰用} 節射' WHERE `item_id` = 14422;
-UPDATE `weapon` SET `name` ='伊克魯斯之弩-集中 {對戰用} 導引' WHERE `item_id` = 14423;
-UPDATE `weapon` SET `name` ='伊克魯斯之弩-集中 {對戰用} 偵測' WHERE `item_id` = 14424;
-UPDATE `weapon` SET `name` ='伊克魯斯刺劍-破壞 {對戰用}' WHERE `item_id` = 14425;
-UPDATE `weapon` SET `name` ='伊克魯斯刺劍-破壞 {對戰用} 偵測' WHERE `item_id` = 14426;
-UPDATE `weapon` SET `name` ='伊克魯斯刺劍-破壞 {對戰用} 強健' WHERE `item_id` = 14427;
-UPDATE `weapon` SET `name` ='伊克魯斯刺劍-破壞 {對戰用} 輕裝' WHERE `item_id` = 14428;
-UPDATE `weapon` SET `name` ='伊克魯斯之靈-自然 {對戰用}' WHERE `item_id` = 14429;
-UPDATE `weapon` SET `name` ='伊克魯斯之靈-自然 {對戰用} 靈活思緒' WHERE `item_id` = 14430;
-UPDATE `weapon` SET `name` ='伊克魯斯之靈-自然 {對戰用} 魔力上升' WHERE `item_id` = 14431;
-UPDATE `weapon` SET `name` ='伊克魯斯之靈-自然 {對戰用} 魂體轉換' WHERE `item_id` = 14432;
-UPDATE `weapon` SET `name` ='伊克魯斯之弓-集中 {對戰用}' WHERE `item_id` = 14433;
-UPDATE `weapon` SET `name` ='伊克魯斯之弓-集中 {對戰用} 節射' WHERE `item_id` = 14434;
-UPDATE `weapon` SET `name` ='伊克魯斯之弓-集中 {對戰用} 導引' WHERE `item_id` = 14435;
-UPDATE `weapon` SET `name` ='伊克魯斯之弓-集中 {對戰用} 偵測' WHERE `item_id` = 14436;
-UPDATE `weapon` SET `name` ='伊克魯斯翼刃-雷鳴 {對戰用}' WHERE `item_id` = 14437;
-UPDATE `weapon` SET `name` ='伊克魯斯翼刃-雷鳴 {對戰用} 偵測' WHERE `item_id` = 14438;
-UPDATE `weapon` SET `name` ='伊克魯斯翼刃-雷鳴 {對戰用} 強健' WHERE `item_id` = 14439;
-UPDATE `weapon` SET `name` ='伊克魯斯翼刃-雷鳴 {對戰用} 輕裝' WHERE `item_id` = 14440;
-UPDATE `weapon` SET `name` ='伊克魯斯三叉戟-電擊 {對戰用}' WHERE `item_id` = 14441;
-UPDATE `weapon` SET `name` ='伊克魯斯三叉戟-電擊 {對戰用} 怒擊' WHERE `item_id` = 14442;
-UPDATE `weapon` SET `name` ='伊克魯斯三叉戟-電擊 {對戰用} Crt.衝擊' WHERE `item_id` = 14443;
-UPDATE `weapon` SET `name` ='伊克魯斯三叉戟-電擊 {對戰用} 輕裝' WHERE `item_id` = 14444;
-UPDATE `weapon` SET `name` ='伊克魯斯之鎚-大地 {對戰用}' WHERE `item_id` = 14445;
-UPDATE `weapon` SET `name` ='伊克魯斯之鎚-大地 {對戰用} 怒擊' WHERE `item_id` = 14446;
-UPDATE `weapon` SET `name` ='伊克魯斯之鎚-大地 {對戰用} 強健' WHERE `item_id` = 14447;
-UPDATE `weapon` SET `name` ='伊克魯斯之鎚-大地 {對戰用} Rsk.偵測' WHERE `item_id` = 14448;
-UPDATE `weapon` SET `name` ='伊克魯斯之手-破壞 {對戰用}' WHERE `item_id` = 14449;
-UPDATE `weapon` SET `name` ='伊克魯斯之手-破壞 {對戰用} Rsk.迴避' WHERE `item_id` = 14450;
-UPDATE `weapon` SET `name` ='伊克魯斯之手-破壞 {對戰用} 偵測' WHERE `item_id` = 14451;
-UPDATE `weapon` SET `name` ='伊克魯斯之手-破壞 {對戰用} 速度激發' WHERE `item_id` = 14452;
-UPDATE `weapon` SET `name` ='伊克魯斯重兵刃-雷鳴 {對戰用}' WHERE `item_id` = 14453;
-UPDATE `weapon` SET `name` ='伊克魯斯重兵刃-雷鳴 {對戰用} 偵測' WHERE `item_id` = 14454;
-UPDATE `weapon` SET `name` ='伊克魯斯重兵刃-雷鳴 {對戰用} 強健' WHERE `item_id` = 14455;
-UPDATE `weapon` SET `name` ='伊克魯斯重兵刃-雷鳴 {對戰用} 輕裝' WHERE `item_id` = 14456;
-UPDATE `weapon` SET `name` ='伊克魯斯手杖-海嘯 {對戰用}' WHERE `item_id` = 14457;
-UPDATE `weapon` SET `name` ='伊克魯斯手杖-海嘯 {對戰用} 魔力上升' WHERE `item_id` = 14458;
-UPDATE `weapon` SET `name` ='伊克魯斯手杖-海嘯 {對戰用} 魂體轉換' WHERE `item_id` = 14459;
-UPDATE `weapon` SET `name` ='伊克魯斯手杖-海嘯 {對戰用} 靈活思緒' WHERE `item_id` = 14460;
-UPDATE `weapon` SET `name` ='伊克魯斯雙匕首 {對戰用}' WHERE `item_id` = 14461;
-UPDATE `weapon` SET `name` ='薄暮雙刀 {對戰用}' WHERE `item_id` = 14462;
-UPDATE `weapon` SET `name` ='薄暮切刃 {對戰用}' WHERE `item_id` = 14463;
-UPDATE `weapon` SET `name` ='薄暮殺刃 {對戰用}' WHERE `item_id` = 14464;
-UPDATE `weapon` SET `name` ='薄暮爆刃 {對戰用}' WHERE `item_id` = 14465;
-UPDATE `weapon` SET `name` ='薄暮鉋刀 {對戰用}' WHERE `item_id` = 14466;
-UPDATE `weapon` SET `name` ='薄暮戰爪 {對戰用}' WHERE `item_id` = 14467;
-UPDATE `weapon` SET `name` ='薄暮風暴者 {對戰用}' WHERE `item_id` = 14468;
-UPDATE `weapon` SET `name` ='薄暮復仇者 {對戰用}' WHERE `item_id` = 14469;
-UPDATE `weapon` SET `name` ='薄暮報恨者 {對戰用}' WHERE `item_id` = 14470;
-UPDATE `weapon` SET `name` ='薄暮術杖 {對戰用}' WHERE `item_id` = 14471;
-UPDATE `weapon` SET `name` ='薄暮詩杖 {對戰用}' WHERE `item_id` = 14472;
-UPDATE `weapon` SET `name` ='薄暮投弓 {對戰用}' WHERE `item_id` = 14473;
-UPDATE `weapon` SET `name` ='薄暮螯針 {對戰用}' WHERE `item_id` = 14474;
-UPDATE `weapon` SET `name` ='薄暮射靈 {對戰用}' WHERE `item_id` = 14475;
-UPDATE `weapon` SET `name` ='薄暮槍刃 {對戰用}' WHERE `item_id` = 14476;
-UPDATE `weapon` SET `name` ='薄暮雙匕首 {對戰用}' WHERE `item_id` = 14477;
-UPDATE `weapon` SET `name` ='薄暮切刃 {對戰用} 速度激發' WHERE `item_id` = 14478;
-UPDATE `weapon` SET `name` ='薄暮切刃 {對戰用} 強健' WHERE `item_id` = 14479;
-UPDATE `weapon` SET `name` ='薄暮切刃 {對戰用} 偵測' WHERE `item_id` = 14480;
-UPDATE `weapon` SET `name` ='薄暮殺刃 {對戰用} 速度激發' WHERE `item_id` = 14481;
-UPDATE `weapon` SET `name` ='薄暮殺刃 {對戰用} 強健' WHERE `item_id` = 14482;
-UPDATE `weapon` SET `name` ='薄暮殺刃 {對戰用} 偵測' WHERE `item_id` = 14483;
-UPDATE `weapon` SET `name` ='薄暮爆刃 {對戰用} 魔力上升' WHERE `item_id` = 14484;
-UPDATE `weapon` SET `name` ='薄暮爆刃 {對戰用} 靈活思緒' WHERE `item_id` = 14485;
-UPDATE `weapon` SET `name` ='薄暮爆刃 {對戰用} 魔法束縛' WHERE `item_id` = 14486;
-UPDATE `weapon` SET `name` ='薄暮鉋刀 {對戰用} Crt.傷害' WHERE `item_id` = 14487;
-UPDATE `weapon` SET `name` ='薄暮鉋刀 {對戰用} HP吸收' WHERE `item_id` = 14488;
-UPDATE `weapon` SET `name` ='薄暮鉋刀 {對戰用} 速度激發' WHERE `item_id` = 14489;
-UPDATE `weapon` SET `name` ='薄暮戰爪 {對戰用} 偵測' WHERE `item_id` = 14490;
-UPDATE `weapon` SET `name` ='薄暮戰爪 {對戰用} 強健' WHERE `item_id` = 14491;
-UPDATE `weapon` SET `name` ='薄暮戰爪 {對戰用} Crt.衝擊' WHERE `item_id` = 14492;
-UPDATE `weapon` SET `name` ='薄暮風暴者 {對戰用} 強健' WHERE `item_id` = 14493;
-UPDATE `weapon` SET `name` ='薄暮風暴者 {對戰用} 導引' WHERE `item_id` = 14494;
-UPDATE `weapon` SET `name` ='薄暮風暴者 {對戰用} 速度激發' WHERE `item_id` = 14495;
-UPDATE `weapon` SET `name` ='薄暮復仇者 {對戰用} HP吸收' WHERE `item_id` = 14496;
-UPDATE `weapon` SET `name` ='薄暮復仇者 {對戰用} 強健' WHERE `item_id` = 14497;
-UPDATE `weapon` SET `name` ='薄暮復仇者 {對戰用} 體力再生' WHERE `item_id` = 14498;
-UPDATE `weapon` SET `name` ='薄暮報恨者 {對戰用} 體力再生' WHERE `item_id` = 14499;
-UPDATE `weapon` SET `name` ='薄暮報恨者 {對戰用} 強健' WHERE `item_id` = 14500;
-UPDATE `weapon` SET `name` ='薄暮報恨者 {對戰用} HP吸收' WHERE `item_id` = 14501;
-UPDATE `weapon` SET `name` ='薄暮術杖 {對戰用} 靈活思緒' WHERE `item_id` = 14502;
-UPDATE `weapon` SET `name` ='薄暮術杖 {對戰用} 魔力再生' WHERE `item_id` = 14503;
-UPDATE `weapon` SET `name` ='薄暮術杖 {對戰用} 魔力上升' WHERE `item_id` = 14504;
-UPDATE `weapon` SET `name` ='薄暮詩杖 {對戰用} 魔力催化' WHERE `item_id` = 14505;
-UPDATE `weapon` SET `name` ='薄暮詩杖 {對戰用} 魔力再生' WHERE `item_id` = 14506;
-UPDATE `weapon` SET `name` ='薄暮詩杖 {對戰用} 魔法束縛' WHERE `item_id` = 14507;
-UPDATE `weapon` SET `name` ='薄暮投弓 {對戰用} 節射' WHERE `item_id` = 14508;
-UPDATE `weapon` SET `name` ='薄暮投弓 {對戰用} 偵測' WHERE `item_id` = 14509;
-UPDATE `weapon` SET `name` ='薄暮投弓 {對戰用} Crt.緩速' WHERE `item_id` = 14510;
-UPDATE `weapon` SET `name` ='薄暮螯針 {對戰用} 速度激發' WHERE `item_id` = 14511;
-UPDATE `weapon` SET `name` ='薄暮螯針 {對戰用} 強健' WHERE `item_id` = 14512;
-UPDATE `weapon` SET `name` ='薄暮螯針 {對戰用} 偵測' WHERE `item_id` = 14513;
-UPDATE `weapon` SET `name` ='薄暮射靈 {對戰用} 節射' WHERE `item_id` = 14514;
-UPDATE `weapon` SET `name` ='薄暮射靈 {對戰用} 偵測' WHERE `item_id` = 14515;
-UPDATE `weapon` SET `name` ='薄暮射靈 {對戰用} Crt.緩速' WHERE `item_id` = 14516;
-UPDATE `weapon` SET `name` ='薄暮槍刃 {對戰用} 速度激發' WHERE `item_id` = 14517;
-UPDATE `weapon` SET `name` ='薄暮槍刃 {對戰用} 強健' WHERE `item_id` = 14518;
-UPDATE `weapon` SET `name` ='薄暮槍刃 {對戰用} 偵測' WHERE `item_id` = 14519;
-UPDATE `weapon` SET `name` ='王朝雙匕首-疾風' WHERE `item_id` = 14526;
-UPDATE `weapon` SET `name` ='伊克魯斯雙匕首-混亂' WHERE `item_id` = 14527;
-UPDATE `weapon` SET `name` ='王朝雙匕首-疾風 {對戰用}' WHERE `item_id` = 14528;
-UPDATE `weapon` SET `name` ='伊克魯斯雙匕首-混亂 {對戰用}' WHERE `item_id` = 14529;
-UPDATE `weapon` SET `name` ='王朝雙匕首 {對戰用}' WHERE `item_id` = 14558;
-UPDATE `weapon` SET `name` ='華德納家族匕首' WHERE `item_id` = 14560;
-UPDATE `weapon` SET `name` ='華德納家族殺刃' WHERE `item_id` = 14561;
-UPDATE `weapon` SET `name` ='亞席頓家族劍' WHERE `item_id` = 14562;
-UPDATE `weapon` SET `name` ='亞席頓家族爪' WHERE `item_id` = 14563;
-UPDATE `weapon` SET `name` ='愛司德斯家族殺刃' WHERE `item_id` = 14564;
-UPDATE `weapon` SET `name` ='愛司德斯家族巨鎚' WHERE `item_id` = 14565;
-UPDATE `weapon` SET `name` ='德伊克家族魔杖' WHERE `item_id` = 14566;
-UPDATE `weapon` SET `name` ='德伊克家族手杖' WHERE `item_id` = 14567;
-UPDATE `weapon` SET `name` ='卡德姆斯家族弓' WHERE `item_id` = 14568;
-UPDATE `weapon` SET `name` ='卡德姆斯家族釘鎚' WHERE `item_id` = 14569;
-UPDATE `weapon` SET `name` ='杭特家族雙刀' WHERE `item_id` = 14570;
-UPDATE `weapon` SET `name` ='杭特家族矛' WHERE `item_id` = 14571;
-UPDATE `weapon` SET `name` ='阿巴葛伊家族魔杖' WHERE `item_id` = 14572;
-UPDATE `weapon` SET `name` ='阿巴葛伊家族巨鎚' WHERE `item_id` = 14573;
-UPDATE `weapon` SET `name` ='胡爾特家族矛' WHERE `item_id` = 14574;
-UPDATE `weapon` SET `name` ='胡爾特家族匕首' WHERE `item_id` = 14575;
-UPDATE `weapon` SET `name` ='歐文家族釘鎚' WHERE `item_id` = 14576;
-UPDATE `weapon` SET `name` ='歐文家族爪' WHERE `item_id` = 14577;
-UPDATE `weapon` SET `name` ='華德納家族切裂者' WHERE `item_id` = 14578;
-UPDATE `weapon` SET `name` ='亞席頓家族銳劍' WHERE `item_id` = 14579;
-UPDATE `weapon` SET `name` ='愛司德斯家族切裂者' WHERE `item_id` = 14580;
-UPDATE `weapon` SET `name` ='卡德姆斯家族刺劍' WHERE `item_id` = 14581;
-UPDATE `weapon` SET `name` ='格勒西亞士兵雙手劍' WHERE `item_id` = 14606;
-UPDATE `weapon` SET `name` ='聖誕老人的希露冰刃' WHERE `item_id` = 14621;
-UPDATE `weapon` SET `name` ='聖誕老人的伊波斯巨劍' WHERE `item_id` = 14622;
-UPDATE `weapon` SET `name` ='聖誕老人的貝拉凱爾聖斧' WHERE `item_id` = 14623;
-UPDATE `weapon` SET `name` ='聖誕老人的貝希莫斯巨叉' WHERE `item_id` = 14624;
-UPDATE `weapon` SET `name` ='聖誕老人的那卡風暴' WHERE `item_id` = 14625;
-UPDATE `weapon` SET `name` ='聖誕老人的岱依封長戟' WHERE `item_id` = 14626;
-UPDATE `weapon` SET `name` ='聖誕老人的夏伊德獵弓' WHERE `item_id` = 14627;
-UPDATE `weapon` SET `name` ='聖誕老人的索貝克颶風' WHERE `item_id` = 14628;
-UPDATE `weapon` SET `name` ='聖誕老人的緹米絲之舌' WHERE `item_id` = 14629;
-UPDATE `weapon` SET `name` ='聖誕老人的卡布里歐之手' WHERE `item_id` = 14630;
-UPDATE `weapon` SET `name` ='聖誕老人的惡魔結晶' WHERE `item_id` = 14631;
-UPDATE `weapon` SET `name` ='聖誕老人的閃光之珠' WHERE `item_id` = 14632;
-UPDATE `weapon` SET `name` ='聖誕老人的復仇爆弩' WHERE `item_id` = 14633;
-UPDATE `weapon` SET `name` ='聖誕老人的光明守護之劍' WHERE `item_id` = 14634;
-UPDATE `weapon` SET `name` ='聖誕老人的塔魯刀*大馬士革刀' WHERE `item_id` = 14674;
-UPDATE `weapon` SET `name` ='玫瑰豬糖果 限時14日' WHERE `item_id` = 14774;
-UPDATE `weapon` SET `name` ='法國麵包劍' WHERE `item_id` = 14780;
-UPDATE `weapon` SET `name` ='法國麵包匕首' WHERE `item_id` = 14781;
-UPDATE `weapon` SET `name` ='法國麵包雙手劍' WHERE `item_id` = 14782;
-UPDATE `weapon` SET `name` ='法國麵包釘鎚' WHERE `item_id` = 14783;
-UPDATE `weapon` SET `name` ='法國麵包雙手鎚' WHERE `item_id` = 14784;
-UPDATE `weapon` SET `name` ='法國麵包槍' WHERE `item_id` = 14785;
-UPDATE `weapon` SET `name` ='法國麵包弓' WHERE `item_id` = 14786;
-UPDATE `weapon` SET `name` ='法國麵包拳套' WHERE `item_id` = 14787;
-UPDATE `weapon` SET `name` ='法國麵包魔法劍' WHERE `item_id` = 14788;
-UPDATE `weapon` SET `name` ='法國麵包杖' WHERE `item_id` = 14789;
-UPDATE `weapon` SET `name` ='法國麵包雙手杖' WHERE `item_id` = 14790;
-UPDATE `weapon` SET `name` ='法國麵包盾' WHERE `item_id` = 14791;
-UPDATE `weapon` SET `name` ='法國麵包細劍' WHERE `item_id` = 14792;
-UPDATE `weapon` SET `name` ='法國麵包古代劍' WHERE `item_id` = 14793;
-UPDATE `weapon` SET `name` ='法國麵包弩' WHERE `item_id` = 14794;
-UPDATE `weapon` SET `name` ='法國麵包雙刀' WHERE `item_id` = 14795;
-UPDATE `weapon` SET `name` ='法國麵包雙匕首' WHERE `item_id` = 14797;
-UPDATE `weapon` SET `name` ='革命劍-活動 限時4小時' WHERE `item_id` = 20109;
-UPDATE `weapon` SET `name` ='下巨人之劍-活動 限時4小時' WHERE `item_id` = 20110;
-UPDATE `weapon` SET `name` ='突刺刀-活動 限時4小時' WHERE `item_id` = 20111;
-UPDATE `weapon` SET `name` ='塔巴曲刃斧-活動 限時4小時' WHERE `item_id` = 20112;
-UPDATE `weapon` SET `name` ='下巨人之鎚-活動 限時4小時' WHERE `item_id` = 20113;
-UPDATE `weapon` SET `name` ='祭司釘鎚-活動 限時4小時' WHERE `item_id` = 20114;
-UPDATE `weapon` SET `name` ='山羊頭之杖-活動 限時4小時' WHERE `item_id` = 20115;
-UPDATE `weapon` SET `name` ='拳套刀-活動 限時4小時' WHERE `item_id` = 20116;
-UPDATE `weapon` SET `name` ='強化長弓-活動 限時4小時' WHERE `item_id` = 20117;
-UPDATE `weapon` SET `name` ='翼之矛-活動 限時4小時' WHERE `item_id` = 20118;
-UPDATE `weapon` SET `name` ='工匠之劍*工匠之劍-活動 限時4小時' WHERE `item_id` = 20119;
-UPDATE `weapon` SET `name` ='銳劍-活動 限時4小時' WHERE `item_id` = 20120;
-UPDATE `weapon` SET `name` ='格鬥劍-活動 限時4小時' WHERE `item_id` = 20121;
-UPDATE `weapon` SET `name` ='爆破之臂-活動 限時4小時' WHERE `item_id` = 20122;
-UPDATE `weapon` SET `name` ='瑟魯基長劍-活動 限時4小時' WHERE `item_id` = 20123;
-UPDATE `weapon` SET `name` ='狂戰士之刃-活動 限時4小時' WHERE `item_id` = 20124;
-UPDATE `weapon` SET `name` ='水晶匕首-活動 限時4小時' WHERE `item_id` = 20125;
-UPDATE `weapon` SET `name` ='夜叉釘鎚-活動 限時4小時' WHERE `item_id` = 20126;
-UPDATE `weapon` SET `name` ='矮人巨鎚-活動 限時4小時' WHERE `item_id` = 20127;
-UPDATE `weapon` SET `name` ='月蝕斧-活動 限時4小時' WHERE `item_id` = 20128;
-UPDATE `weapon` SET `name` ='惡魔魔杖-活動 限時4小時' WHERE `item_id` = 20129;
-UPDATE `weapon` SET `name` ='巨型帕塔拳刃-活動 限時4小時' WHERE `item_id` = 20130;
-UPDATE `weapon` SET `name` ='卓越弓-活動 限時4小時' WHERE `item_id` = 20131;
-UPDATE `weapon` SET `name` ='歐西斯戰斧-活動 限時4小時' WHERE `item_id` = 20132;
-UPDATE `weapon` SET `name` ='武士刀*武士刀-活動 限時4小時' WHERE `item_id` = 20133;
-UPDATE `weapon` SET `name` ='上將刺劍-活動 限時4小時' WHERE `item_id` = 20134;
-UPDATE `weapon` SET `name` ='劍齒虎-活動 限時4小時' WHERE `item_id` = 20135;
-UPDATE `weapon` SET `name` ='滅形弩-活動 限時4小時' WHERE `item_id` = 20136;
-UPDATE `weapon` SET `name` ='大馬士革刀-活動 限時4小時' WHERE `item_id` = 20137;
-UPDATE `weapon` SET `name` ='守護神之劍-活動 限時4小時' WHERE `item_id` = 20138;
-UPDATE `weapon` SET `name` ='惡魔短劍-活動 限時4小時' WHERE `item_id` = 20139;
-UPDATE `weapon` SET `name` ='工藝戰斧-活動 限時4小時' WHERE `item_id` = 20140;
-UPDATE `weapon` SET `name` ='星爆-活動 限時4小時' WHERE `item_id` = 20141;
-UPDATE `weapon` SET `name` ='卡倚巴奴之骨-活動 限時4小時' WHERE `item_id` = 20142;
-UPDATE `weapon` SET `name` ='邪靈魔杖-活動 限時4小時' WHERE `item_id` = 20143;
-UPDATE `weapon` SET `name` ='博利恩拳套-活動 限時4小時' WHERE `item_id` = 20144;
-UPDATE `weapon` SET `name` ='冒險弓-活動 限時4小時' WHERE `item_id` = 20145;
-UPDATE `weapon` SET `name` ='長槍-活動 限時4小時' WHERE `item_id` = 20146;
-UPDATE `weapon` SET `name` ='瑟魯基長劍*瑟魯基長劍-活動 限時4小時' WHERE `item_id` = 20147;
-UPDATE `weapon` SET `name` ='華麗細劍-活動 限時4小時' WHERE `item_id` = 20148;
-UPDATE `weapon` SET `name` ='裂解劍-活動 限時4小時' WHERE `item_id` = 20149;
-UPDATE `weapon` SET `name` ='冥犬之牙-活動 限時4小時' WHERE `item_id` = 20150;
-UPDATE `weapon` SET `name` ='黑暗軍刀-活動 限時4小時' WHERE `item_id` = 20151;
-UPDATE `weapon` SET `name` ='斬龍刀-活動 限時4小時' WHERE `item_id` = 20152;
-UPDATE `weapon` SET `name` ='魂體分離器-活動 限時4小時' WHERE `item_id` = 20153;
-UPDATE `weapon` SET `name` ='樂園-活動 限時4小時' WHERE `item_id` = 20154;
-UPDATE `weapon` SET `name` ='末日毀滅者-活動 限時4小時' WHERE `item_id` = 20155;
-UPDATE `weapon` SET `name` ='火龍之首-活動 限時4小時' WHERE `item_id` = 20156;
-UPDATE `weapon` SET `name` ='世界樹樹枝-活動 限時4小時' WHERE `item_id` = 20157;
-UPDATE `weapon` SET `name` ='龍牙-活動 限時4小時' WHERE `item_id` = 20158;
-UPDATE `weapon` SET `name` ='靈魂弓-活動 限時4小時' WHERE `item_id` = 20159;
-UPDATE `weapon` SET `name` ='塔魯闊矛-活動 限時4小時' WHERE `item_id` = 20160;
-UPDATE `weapon` SET `name` ='大馬士革刀*大馬士革刀-活動 限時4小時' WHERE `item_id` = 20161;
-UPDATE `weapon` SET `name` ='貪婪刺劍-活動 限時4小時' WHERE `item_id` = 20162;
-UPDATE `weapon` SET `name` ='死神使者-活動 限時4小時' WHERE `item_id` = 20163;
-UPDATE `weapon` SET `name` ='靈魂弩-活動 限時4小時' WHERE `item_id` = 20164;
-UPDATE `weapon` SET `name` ='忘卻之刃-活動 限時4小時' WHERE `item_id` = 20165;
-UPDATE `weapon` SET `name` ='天國審判-活動 限時4小時' WHERE `item_id` = 20166;
-UPDATE `weapon` SET `name` ='天使殺手-活動 限時4小時' WHERE `item_id` = 20167;
-UPDATE `weapon` SET `name` ='玄武岩戰鎚-活動 限時4小時' WHERE `item_id` = 20168;
-UPDATE `weapon` SET `name` ='狩龍之斧-活動 限時4小時' WHERE `item_id` = 20169;
-UPDATE `weapon` SET `name` ='祕儀權杖-活動 限時4小時' WHERE `item_id` = 20170;
-UPDATE `weapon` SET `name` ='帝國權杖-活動 限時4小時' WHERE `item_id` = 20171;
-UPDATE `weapon` SET `name` ='惡魔獵爪-活動 限時4小時' WHERE `item_id` = 20172;
-UPDATE `weapon` SET `name` ='紅龍之弓-活動 限時4小時' WHERE `item_id` = 20173;
-UPDATE `weapon` SET `name` ='聖者之矛-活動 限時4小時' WHERE `item_id` = 20174;
-UPDATE `weapon` SET `name` ='塔魯刀*黑暗軍刀-活動 限時4小時' WHERE `item_id` = 20175;
-UPDATE `weapon` SET `name` ='烈焚天-活動 限時4小時' WHERE `item_id` = 20176;
-UPDATE `weapon` SET `name` ='勝利之劍格蘭-活動 限時4小時' WHERE `item_id` = 20177;
-UPDATE `weapon` SET `name` ='薩倫伽神弩-活動 限時4小時' WHERE `item_id` = 20178;
-UPDATE `weapon` SET `name` ='法國麵包棍子劍 限時7日' WHERE `item_id` = 20255;
-UPDATE `weapon` SET `name` ='法國麵包糖蜜劍 限時7日' WHERE `item_id` = 20256;
-UPDATE `weapon` SET `name` ='法國麵包長型劍 限時7日' WHERE `item_id` = 20257;
-UPDATE `weapon` SET `name` ='法國麵包吐司鎚 限時7日' WHERE `item_id` = 20258;
-UPDATE `weapon` SET `name` ='法國麵包牛角鎚 限時7日' WHERE `item_id` = 20259;
-UPDATE `weapon` SET `name` ='法國麵包美味槍 限時7日' WHERE `item_id` = 20260;
-UPDATE `weapon` SET `name` ='法國麵包波堤弓 限時7日' WHERE `item_id` = 20261;
-UPDATE `weapon` SET `name` ='法國麵包貝果拳 限時7日' WHERE `item_id` = 20262;
-UPDATE `weapon` SET `name` ='法國麵包可頌劍 限時7日' WHERE `item_id` = 20263;
-UPDATE `weapon` SET `name` ='法國麵包香郁杖 限時7日' WHERE `item_id` = 20264;
-UPDATE `weapon` SET `name` ='法國麵包麻花杖 限時7日' WHERE `item_id` = 20265;
-UPDATE `weapon` SET `name` ='法國麵包菠蘿盾 限時7日' WHERE `item_id` = 20266;
-UPDATE `weapon` SET `name` ='法國麵包細刃劍 限時7日' WHERE `item_id` = 20267;
-UPDATE `weapon` SET `name` ='法國麵包巨型劍 限時7日' WHERE `item_id` = 20268;
-UPDATE `weapon` SET `name` ='法國麵包大亨弩 限時7日' WHERE `item_id` = 20269;
-UPDATE `weapon` SET `name` ='法國麵包雙刀 限時7日' WHERE `item_id` = 20270;
-
-/***** Done by vdmyagami！ *****/ 
+-- ----------------------------
+-- Records of weapon_name
+-- ----------------------------
+INSERT INTO `weapon_name` VALUES
+(1, '短劍'),
+(2, '長劍'),
+(3, '寬劍'),
+(4, '木棒'),
+(5, '釘鎚'),
+(6, '見習生法杖'),
+(7, '見習生之杖'),
+(8, '柳木魔杖'),
+(9, '柏木魔杖'),
+(10, '匕首'),
+(11, '骨製匕首'),
+(12, '小刀'),
+(13, '短弓'),
+(14, '弓'),
+(15, '短矛'),
+(16, '長矛'),
+(18, '皮盾牌'),
+(19, '小盾牌'),
+(20, '小圓盾'),
+(52, '薄暮雙刀'),
+(66, '羅馬劍'),
+(67, '歐西斯之劍'),
+(68, '彎刃大刀'),
+(69, '重劍'),
+(70, '雙刃大砍刀'),
+(71, '焰形劍'),
+(72, '暴風之劍'),
+(73, '彎刀'),
+(74, '武士刀'),
+(75, '卡里埔士劍'),
+(76, '迷惑之劍'),
+(77, '大和劍'),
+(78, '巨劍'),
+(79, '大馬士革刀'),
+(80, '塔魯刀'),
+(81, '斬龍刀'),
+(82, '神之刃'),
+(83, '魔法之劍'),
+(84, '何門奎思之劍'),
+(85, '幻影劍'),
+(86, '鷹之斧'),
+(87, '鋼鎚'),
+(88, '流星鎚'),
+(89, '重鎚'),
+(90, '山羊頭之杖'),
+(91, '巨大戰斧'),
+(92, '精靈魔杖'),
+(93, '翼之矛'),
+(94, '貝卡合金'),
+(95, '長柄戰斧'),
+(96, '大鐮刀'),
+(97, '長槍'),
+(98, '長柄戰戟'),
+(99, '見習生魔法書'),
+(100, '巫毒人偶'),
+(101, '智慧卷軸'),
+(102, '圓盾'),
+(103, '塔盾'),
+(104, '勝利盾'),
+(105, '毀滅盾'),
+(106, '闇龍盾'),
+(107, '合金盾'),
+(108, '優質盾'),
+(109, '日蝕盾'),
+(110, '末日盾'),
+(111, '盟約盾'),
+(120, '反射劍'),
+(121, '水影劍'),
+(122, '精鍛劍'),
+(123, '軍刀'),
+(124, '雙手劍'),
+(125, '椎骨之劍'),
+(126, '工匠之劍'),
+(127, '緋紅劍'),
+(128, '騎士劍'),
+(129, '革命劍'),
+(130, '精靈劍'),
+(131, '靈魂之劍'),
+(132, '極限之劍'),
+(133, '襲擊劍'),
+(134, '夢魘劍'),
+(135, '瑟魯基長劍'),
+(142, '柯貝克劍'),
+(143, '神祕劍'),
+(144, '密術劍'),
+(145, '死息之劍'),
+(146, '食屍鬼之劍'),
+(147, '黑暗之淚'),
+(148, '聖堂之劍'),
+(149, '生命之劍'),
+(150, '元素劍'),
+(151, '奇蹟劍'),
+(152, '重鑿刀'),
+(153, '鐮刀'),
+(154, '矮人釘鎚'),
+(155, '魔鎚'),
+(156, '手斧'),
+(157, '狼牙棒'),
+(158, '塔巴曲刃斧'),
+(159, '碎骨者'),
+(160, '戰斧'),
+(161, '戰錐'),
+(162, '巨戰斧'),
+(164, '樂園'),
+(165, '海魯門之鎚'),
+(166, '巨大釘鎚'),
+(167, '解剖刀'),
+(168, '工作鎚'),
+(169, '頭顱破壞者'),
+(171, '亡者榮譽'),
+(172, '巨大骨棒'),
+(173, '顱骨雕刻者'),
+(174, '夢想斧'),
+(175, '工藝戰斧'),
+(176, '見習生魔杖'),
+(177, '法師魔杖'),
+(178, '骨頭魔杖'),
+(179, '祈禱者之鎚'),
+(180, '審判之鎚'),
+(181, '奇蹟之鎚'),
+(182, '末日之鎚'),
+(183, '神祕魔杖'),
+(184, '法咒魔杖'),
+(185, '瑪那魔杖'),
+(186, '巫術魔杖'),
+(187, '阿吐巴鎚'),
+(188, '魂靈魔杖'),
+(189, '生命手杖'),
+(190, '阿吐巴釘鎚'),
+(191, '巨大末日鎚'),
+(192, '水晶魔杖'),
+(193, '信仰手杖'),
+(194, '巨大末日斧'),
+(195, '受詛咒的魔杖'),
+(196, '永恆手杖'),
+(197, '佩勒迪亞魔杖'),
+(198, '地獄魔杖'),
+(199, '帕格立歐之鎚'),
+(200, '賢者魔杖'),
+(201, '自然之棍'),
+(202, '煉獄之鎚'),
+(203, '帕格立歐之斧'),
+(204, '亡者魔杖'),
+(205, '食屍鬼魔杖'),
+(206, '惡魔魔杖'),
+(207, '幻影魔杖'),
+(208, '封印魔杖'),
+(209, '神聖魔杖'),
+(210, '邪靈魔杖'),
+(211, '高貴魔杖'),
+(212, '帕黎恩魔杖'),
+(213, '世界樹樹枝'),
+(214, '真魔杖'),
+(215, '末日匕首'),
+(216, '短刀'),
+(217, '閃耀刀'),
+(218, '投擲刀'),
+(219, '碎劍者'),
+(220, '手工匕首'),
+(221, '刺客刀'),
+(222, '短匕首'),
+(223, '反曲刀'),
+(224, '突刺刀'),
+(225, '米索莉匕首'),
+(226, '受詛咒的匕首'),
+(227, '袖珍刀'),
+(228, '水晶匕首'),
+(229, '波形刃'),
+(230, '狼之針'),
+(231, '優雅匕首'),
+(232, '黑暗精靈匕首'),
+(233, '黑暗狂嘯者'),
+(234, '惡魔短劍'),
+(235, '血腥之蘭'),
+(236, '魂體分離器'),
+(237, '龍刀'),
+(238, '瑪那匕首'),
+(239, '神祕刀'),
+(240, '法咒刀'),
+(241, '森林神之刀'),
+(242, '魔炎匕首'),
+(243, '地獄刀'),
+(244, '精靈戰士之拳'),
+(245, '黑暗精靈戰士之拳'),
+(246, '人類戰士之拳'),
+(247, '矮人戰士之拳'),
+(248, '半獸人戰士之拳'),
+(249, '精靈魔法師之拳'),
+(250, '黑暗精靈法師之拳'),
+(251, '人類魔法師之拳'),
+(252, '半獸人巫醫之拳'),
+(253, '銀釘手套'),
+(254, '鋼鐵手套'),
+(255, '狐狸之爪'),
+(256, '搏擊手套'),
+(257, '毒蛇之牙'),
+(258, '拳套爪'),
+(259, '單刃刀'),
+(260, '三刃刀'),
+(261, '拳套刀'),
+(262, '波浪刀'),
+(263, '圓月輪'),
+(264, '帕塔拳刃'),
+(265, '拳刃'),
+(266, '巨型帕塔拳刃'),
+(267, '阿斯拉爪'),
+(268, '博利恩拳套'),
+(269, '血旋風'),
+(270, '龍牙'),
+(271, '獵人之弓'),
+(272, '森林弓'),
+(273, '合金弓'),
+(274, '強化弓'),
+(275, '長弓'),
+(276, '精靈弓'),
+(277, '黑暗精靈弓'),
+(278, '腰弩'),
+(279, '強化長弓'),
+(280, '風暴弓'),
+(281, '冰晶弓'),
+(282, '元素弓'),
+(283, '阿卡特長弓'),
+(284, '黑暗精靈長弓'),
+(285, '高級精靈弓'),
+(286, '卓越弓'),
+(287, '冒險弓'),
+(288, '顱之弓'),
+(289, '靈魂弓'),
+(290, '真 弓'),
+(291, '三叉戟'),
+(292, '矛'),
+(293, '戰鎚'),
+(294, '火鎚'),
+(295, '矮人三叉戟'),
+(296, '矮人之矛'),
+(297, '闊矛'),
+(298, '歐西斯闊矛'),
+(299, '歐西斯戰斧'),
+(300, '巨斧'),
+(301, '蠍子'),
+(302, '殺戮者'),
+(303, '黑寡婦'),
+(304, '歐西斯戰戟'),
+(305, '塔魯闊矛'),
+(306, '龍斧'),
+(307, '奧拉齊莉長槍'),
+(308, '水牛角'),
+(309, '伊娃之淚'),
+(310, '聖者遺骨'),
+(311, '祝福的十字架'),
+(312, '生命樹枝'),
+(313, '深淵誘惑'),
+(314, '復仇的證據'),
+(315, '神聖的卷冊'),
+(316, '聖者之血'),
+(317, '染血卷冊'),
+(318, '染血十字架'),
+(319, '無界之眼'),
+(320, '藍色水晶骷髏'),
+(321, '惡魔尖牙'),
+(322, '金剛杵'),
+(323, '古代藥水'),
+(324, '精靈之淚'),
+(325, '榮譽號角'),
+(326, '異教徒之書'),
+(327, '詛咒人偶'),
+(328, '智慧蠟燭'),
+(329, '受祝福的樹枝'),
+(330, '不死鳥羽毛'),
+(331, '地獄犬之眼'),
+(332, '毀滅卷軸'),
+(333, '黑龍爪'),
+(334, '三眼烏鴉的羽毛'),
+(335, '靈魂水晶'),
+(336, '瑪那卷軸'),
+(337, '殘殺卷軸'),
+(338, '亞龍的頭骨'),
+(339, '血水晶'),
+(340, '獨角獸的角'),
+(341, '被遺忘的卷冊'),
+(342, '魔法笛子'),
+(343, '破魔箭'),
+(344, '族長的證據'),
+(345, '死亡劍'),
+(346, '墮天使之淚'),
+(625, '骨盾'),
+(626, '青銅盾'),
+(627, '鼓盾'),
+(628, '圓木盾'),
+(629, '鳶形盾'),
+(630, '方盾'),
+(631, '厄達拉克塔盾'),
+(632, '騎士盾'),
+(633, '夏隆盾'),
+(634, '龍盾'),
+(635, '狼盾'),
+(636, '光龍盾'),
+(637, '勇猛盾'),
+(638, '榮譽盾'),
+(639, '紅焰盾'),
+(640, '精靈水晶盾'),
+(641, '黑暗水晶盾'),
+(642, '精靈鞘盾'),
+(643, '黑暗鞘盾'),
+(644, '地獄盾'),
+(645, '工藝盾'),
+(646, '寧靜盾'),
+(647, '勁風盾'),
+(648, '草原盾'),
+(649, '煉獄盾'),
+(650, '聚合盾'),
+(651, '神弓盾'),
+(652, '守護神盾'),
+(653, '射手盾'),
+(654, '瑪那盾'),
+(655, '賢者盾'),
+(656, '佩勒迪亞盾'),
+(657, '地獄盾'),
+(658, '黑光盾'),
+(659, '召喚盾'),
+(660, '異界盾'),
+(661, '元素之盾'),
+(662, '幻影盾'),
+(663, '恩寵盾牌'),
+(664, '聖靈盾'),
+(665, '不死鳥之盾'),
+(666, '地獄犬之盾'),
+(667, '輔助盾'),
+(668, '祝福盾'),
+(669, '火焰盾'),
+(670, '銅盾'),
+(671, '血盾'),
+(672, '完美盾'),
+(673, '阿巴敦盾'),
+(674, '聖恩盾'),
+(738, '團結之劍'),
+(743, '哨兵之劍'),
+(744, '哨兵魔杖'),
+(747, '熟練之杖'),
+(748, '噶爾林特的橡木杖'),
+(749, '零'),
+(754, '夕陽之杖'),
+(945, '骷髏小圓盾'),
+(946, '骷髏匕首'),
+(975, '血騎兵'),
+(981, '夕陽之劍'),
+(989, '怪異匕首'),
+(1142, '生銹的青銅劍'),
+(1181, '奈提的弓'),
+(1182, '奈提的匕首'),
+(1213, '警衛隊之弓'),
+(1295, '長劍-Kamex用'),
+(1296, '羅馬劍-Kamex用'),
+(1297, '重劍-Kamex用'),
+(1298, '卡里埔士劍-Kamex用'),
+(1299, '二刀流 測試用'),
+(1300, '見習生之杖-Kamex用'),
+(1301, '重鎚-Kamex用'),
+(1302, '貝卡合金-Kamex用'),
+(1303, '長槍-Kamex用'),
+(1304, '法咒魔杖-Kamex用'),
+(1305, '小刀-Kamex用'),
+(1306, '手工匕首-Kamex用'),
+(1307, '弓-動畫用'),
+(1328, '恩寵盾牌-Kamex用'),
+(1329, '勝利之盾-Kamex用'),
+(1330, '夏隆的護盾-Kamex用'),
+(1331, '異界之盾-Kamex用'),
+(1332, '騎士之盾-Kamex用'),
+(1333, '刺擊刀'),
+(1376, '警衛兵矛'),
+(1471, '賽勒諾斯吹箭'),
+(1472, '死亡騎士吹箭'),
+(1510, '屠夫之劍'),
+(1511, '銀匠鎚'),
+(1660, '受詛咒的突刺刀'),
+(2368, '訓練手套'),
+(2369, '見習騎士之劍'),
+(2370, '會員之棒'),
+(2371, '屠夫拳刃'),
+(2372, '熟練匕首'),
+(2373, '怪異之杖'),
+(2374, '夕陽匕首'),
+(2493, '鎖子盾'),
+(2494, '金屬盾'),
+(2495, '鏈盾'),
+(2496, '矮人鏈盾'),
+(2497, '全覆式盾'),
+(2498, '夢魘盾'),
+(2499, '精靈長劍'),
+(2500, '黑暗軍刀'),
+(2501, '骨棒'),
+(2502, '矮人戰鎚'),
+(2503, '夜叉釘鎚'),
+(2504, '流星雨'),
+(2505, '鋼鐵鑽'),
+(2507, '蜥蜴矛'),
+(2516, '軍刀*軍刀'),
+(2517, '軍刀*重劍'),
+(2518, '軍刀*椎骨之劍'),
+(2519, '軍刀*工匠之劍'),
+(2520, '軍刀*騎士劍'),
+(2521, '軍刀*緋紅劍'),
+(2522, '軍刀*精靈劍'),
+(2523, '軍刀*革命劍'),
+(2524, '軍刀*精靈長劍'),
+(2525, '重劍*重劍'),
+(2526, '重劍*椎骨之劍'),
+(2527, '重劍*工匠之劍'),
+(2528, '重劍*騎士劍'),
+(2529, '重劍*緋紅劍'),
+(2530, '重劍*精靈劍'),
+(2531, '重劍*革命劍'),
+(2532, '重劍*精靈長劍'),
+(2533, '椎骨之劍*椎骨之劍'),
+(2534, '椎骨之劍*工匠之劍'),
+(2535, '椎骨之劍*騎士劍'),
+(2536, '椎骨之劍*緋紅劍'),
+(2537, '椎骨之劍*精靈劍'),
+(2538, '椎骨之劍*革命劍'),
+(2539, '椎骨之劍*精靈長劍'),
+(2540, '工匠之劍*工匠之劍'),
+(2541, '工匠之劍*騎士劍'),
+(2542, '工匠之劍*緋紅劍'),
+(2543, '工匠之劍*精靈劍'),
+(2544, '工匠之劍*革命劍'),
+(2545, '工匠之劍*精靈長劍'),
+(2546, '騎士劍*騎士劍'),
+(2547, '騎士劍*緋紅劍'),
+(2548, '騎士劍*精靈劍'),
+(2549, '騎士劍*革命劍'),
+(2550, '騎士劍*精靈長劍'),
+(2551, '緋紅劍*緋紅劍'),
+(2552, '緋紅劍*精靈劍'),
+(2553, '緋紅劍*革命劍'),
+(2554, '緋紅劍*精靈長劍'),
+(2555, '精靈劍*精靈劍'),
+(2556, '精靈劍*革命劍'),
+(2557, '精靈劍*精靈長劍'),
+(2558, '革命劍*革命劍'),
+(2559, '革命劍*精靈長劍'),
+(2560, '精靈長劍*精靈長劍'),
+(2561, '暴風之劍*暴風之劍'),
+(2562, '暴風之劍*彎刀'),
+(2563, '暴風之劍*武士刀'),
+(2564, '暴風之劍*靈魂之劍'),
+(2565, '暴風之劍*襲擊劍'),
+(2566, '暴風之劍*卡里埔士劍'),
+(2567, '暴風之劍*極限之劍'),
+(2568, '暴風之劍*迷惑之劍'),
+(2569, '暴風之劍*夢魘劍'),
+(2570, '暴風之劍*大和劍'),
+(2571, '暴風之劍*瑟魯基長劍'),
+(2572, '彎刀*彎刀'),
+(2573, '彎刀*武士刀'),
+(2574, '彎刀*靈魂之劍'),
+(2575, '彎刀*襲擊劍'),
+(2576, '彎刀*卡里埔士劍'),
+(2577, '彎刀*極限之劍'),
+(2578, '彎刀*迷惑之劍'),
+(2579, '彎刀*夢魘劍'),
+(2580, '彎刀*大和劍'),
+(2581, '彎刀*瑟魯基長劍'),
+(2582, '武士刀*武士刀'),
+(2583, '武士刀*靈魂之劍'),
+(2584, '武士刀*襲擊劍'),
+(2585, '武士刀*卡里埔士劍'),
+(2586, '武士刀*極限之劍'),
+(2587, '武士刀*迷惑之劍'),
+(2588, '武士刀*夢魘劍'),
+(2589, '武士刀*大和劍'),
+(2590, '武士刀*瑟魯基長劍'),
+(2591, '靈魂之劍*靈魂之劍'),
+(2592, '靈魂之劍*襲擊劍'),
+(2593, '靈魂之劍*卡里埔士劍'),
+(2594, '靈魂之劍*極限之劍'),
+(2595, '靈魂之劍*迷惑之劍'),
+(2596, '靈魂之劍*夢魘劍'),
+(2597, '靈魂之劍*大和劍'),
+(2598, '靈魂之劍*瑟魯基長劍'),
+(2599, '襲擊劍*襲擊劍'),
+(2600, '襲擊劍*卡里埔士劍'),
+(2601, '襲擊劍*極限之劍'),
+(2602, '襲擊劍*迷惑之劍'),
+(2603, '襲擊劍*夢魘劍'),
+(2604, '襲擊劍*大和劍'),
+(2605, '襲擊劍*瑟魯基長劍'),
+(2606, '卡里埔士劍*卡里埔士劍'),
+(2607, '卡里埔士劍*極限之劍'),
+(2608, '卡里埔士劍*迷惑之劍'),
+(2609, '卡里埔士劍*夢魘劍'),
+(2610, '卡里埔士劍*大和劍'),
+(2611, '卡里埔士劍*瑟魯基長劍'),
+(2612, '極限之劍*極限之劍'),
+(2613, '極限之劍*迷惑之劍'),
+(2614, '極限之劍*夢魘劍'),
+(2615, '極限之劍*大和劍'),
+(2616, '極限之劍*瑟魯基長劍'),
+(2617, '迷惑之劍*迷惑之劍'),
+(2618, '迷惑之劍*夢魘劍'),
+(2619, '迷惑之劍*大和劍'),
+(2620, '迷惑之劍*瑟魯基長劍'),
+(2621, '夢魘劍*夢魘劍'),
+(2622, '夢魘劍*大和劍'),
+(2623, '夢魘劍*瑟魯基長劍'),
+(2624, '大和劍*大和劍'),
+(2625, '大和劍*瑟魯基長劍'),
+(2626, '瑟魯基長劍*瑟魯基長劍'),
+(2915, '舊騎士之劍'),
+(3026, '泰林之矛'),
+(3027, '舊騎士之劍'),
+(3028, '新月弓'),
+(3029, '封印之劍'),
+(3439, '閃光的尖牙'),
+(3471, '齊白霖的短劍'),
+(3902, '幽靈狼牙'),
+(3903, '米索莉狼牙'),
+(3904, '森林狼牙'),
+(3905, '奧里哈魯根狼牙'),
+(3906, '索蒂德狼牙'),
+(3907, '地獄犬狼牙'),
+(3908, '土狼狼牙'),
+(3909, '冰結晶狼牙'),
+(3910, '青狼狼牙'),
+(3911, '潘里亞狼牙'),
+(3919, '巨蛇之牙'),
+(3920, '蛇吻'),
+(3921, '影牙'),
+(3922, '艾里亞之牙'),
+(3923, '拷刑者'),
+(3924, '巫努艾之牙'),
+(3925, '災疫斷絕'),
+(3937, '怪物用(下巨人)'),
+(3938, '怪物用(下巨人魔法師武器)'),
+(3939, '怪物用(班席)'),
+(4027, '花束'),
+(4028, '怪物用(下巨人的武器)'),
+(4202, '克魯諾齊塔納'),
+(4219, '夢之劍'),
+(4220, '夢之刀'),
+(4221, '泛在斧'),
+(4222, '夢之盾'),
+(4223, '泛在盾'),
+(4233, '關節拳'),
+(4237, '幼龍專用65級武器'),
+(4238, '幼龍專用75級武器'),
+(4665, '試管小刀'),
+(4681, '暴風之劍 Crt.怒擊'),
+(4682, '暴風之劍 偵測'),
+(4683, '暴風之劍 輕裝'),
+(4684, '彎刀 導引'),
+(4685, '彎刀 背擊'),
+(4686, '彎刀 Rsk.迴避'),
+(4687, '武士刀 偵測'),
+(4688, '武士刀 Crt.傷害'),
+(4689, '武士刀 速度激發'),
+(4690, '靈魂之劍 Crt.傷害'),
+(4691, '靈魂之劍 Crt.施毒'),
+(4692, '靈魂之劍 速度激發'),
+(4693, '襲擊劍 偵測'),
+(4694, '襲擊劍 Crt.吸收'),
+(4695, '襲擊劍 Crt.施毒'),
+(4696, '卡里埔士劍 導引'),
+(4697, '卡里埔士劍 偵測'),
+(4698, '卡里埔士劍 Crt.傷害'),
+(4699, '迷惑之劍 偵測'),
+(4700, '迷惑之劍 強健'),
+(4701, '迷惑之劍 Rsk.速度激發'),
+(4702, '大和劍 偵測'),
+(4703, '大和劍 Crt.傷害'),
+(4704, '大和劍 速度激發'),
+(4705, '夢魘劍 強健'),
+(4706, '夢魘劍 偵測'),
+(4707, '夢魘劍 輕裝'),
+(4708, '瑟魯基長劍 偵測'),
+(4709, '瑟魯基長劍 Crt.傷害'),
+(4710, '瑟魯基長劍 速度激發'),
+(4711, '焰形劍 Crt.傷害'),
+(4712, '焰形劍 偵測'),
+(4713, '焰形劍 輕裝'),
+(4714, '柯貝克劍 導引'),
+(4715, '柯貝克劍 偵測'),
+(4716, '柯貝克劍 背擊'),
+(4717, '大馬士革刀 偵測'),
+(4718, '大馬士革刀 Crt.傷害'),
+(4719, '大馬士革刀 速度激發'),
+(4720, '塔魯刀 強健'),
+(4721, '塔魯刀 Rsk.迴避'),
+(4722, '塔魯刀 Rsk.速度激發'),
+(4723, '巨劍 強健'),
+(4724, '巨劍 Crt.傷害'),
+(4725, '巨劍 偵測'),
+(4726, '重鎚 強健'),
+(4727, '重鎚 Rsk.偵測'),
+(4728, '重鎚 速度激發'),
+(4729, '戰斧 怒擊'),
+(4730, '戰斧 Rsk.偵測'),
+(4731, '戰斧 速度激發'),
+(4732, '戰錐 怒擊'),
+(4733, '戰錐 Rsk.偵測'),
+(4734, '戰錐 速度激發'),
+(4735, '顱骨雕刻者 怒擊'),
+(4736, '顱骨雕刻者 強健'),
+(4737, '顱骨雕刻者 Rsk.偵測'),
+(4738, '矮人戰鎚 怒擊'),
+(4739, '矮人戰鎚 強健'),
+(4740, '矮人戰鎚 速度激發'),
+(4741, '巨戰斧 怒擊'),
+(4742, '巨戰斧 強健'),
+(4743, '巨戰斧 速度激發'),
+(4744, '夜叉釘鎚 怒擊'),
+(4745, '夜叉釘鎚 強健'),
+(4746, '夜叉釘鎚 Rsk.偵測'),
+(4747, '巨大戰斧 怒擊'),
+(4748, '巨大戰斧 強健'),
+(4749, '巨大戰斧 Rsk.偵測'),
+(4750, '亡者榮譽 怒擊'),
+(4751, '亡者榮譽 強健'),
+(4752, '亡者榮譽 速度激發'),
+(4753, '工藝戰斧 強健'),
+(4754, '工藝戰斧 Rsk.偵測'),
+(4755, '工藝戰斧 速度激發'),
+(4756, '流星雨 強健'),
+(4757, '流星雨 偵測'),
+(4758, '流星雨 P.偵測'),
+(4759, '受詛咒的匕首 Crt.出血'),
+(4760, '受詛咒的匕首 Crt.施毒'),
+(4761, '受詛咒的匕首 Rsk.速度激發'),
+(4762, '黑暗精靈匕首 偵測'),
+(4763, '黑暗精靈匕首 背擊'),
+(4764, '黑暗精靈匕首 致命力量'),
+(4765, '袖珍刀 Crt.出血'),
+(4766, '袖珍刀 Crt.施毒'),
+(4767, '袖珍刀 致命力量'),
+(4768, '優雅匕首 迴避'),
+(4769, '優雅匕首 偵測'),
+(4770, '優雅匕首 背擊'),
+(4771, '黑暗狂嘯者 迴避'),
+(4772, '黑暗狂嘯者 偵測'),
+(4773, '黑暗狂嘯者 Crt.出血'),
+(4774, '水晶匕首 Crt.出血'),
+(4775, '水晶匕首 Crt.施毒'),
+(4776, '水晶匕首 致命力量'),
+(4777, '波形刃 迴避'),
+(4778, '波形刃 偵測'),
+(4779, '波形刃 背擊'),
+(4780, '惡魔短劍 Crt.出血'),
+(4781, '惡魔短劍 Crt.施毒'),
+(4782, '惡魔短劍 致命力量'),
+(4783, '血腥之蘭 迴避'),
+(4784, '血腥之蘭 偵測'),
+(4785, '血腥之蘭 背擊'),
+(4786, '地獄刀 偵測'),
+(4787, '地獄刀 背擊'),
+(4788, '地獄刀 致命力量'),
+(4789, '圓月輪 Crt.吸收'),
+(4790, '圓月輪 Crt.施毒'),
+(4791, '圓月輪 Rsk.速度激發'),
+(4792, '拳刃 Rsk.迴避'),
+(4793, '拳刃 Rsk.速度激發'),
+(4794, '拳刃 速度激發'),
+(4795, '巨型帕塔拳刃 Crt.吸收'),
+(4796, '巨型帕塔拳刃 Crt.施毒'),
+(4797, '巨型帕塔拳刃 Rsk.速度激發'),
+(4798, '關節拳 Rsk.迴避'),
+(4799, '關節拳 Rsk.速度激發'),
+(4800, '關節拳 速度激發'),
+(4801, '阿斯拉爪 Crt.施毒'),
+(4802, '阿斯拉爪 Rsk.迴避'),
+(4803, '阿斯拉爪 Rsk.速度激發'),
+(4804, '博利恩拳套 Crt.吸收'),
+(4805, '博利恩拳套 Crt.施毒'),
+(4806, '博利恩拳套 Rsk.速度激發'),
+(4807, '血旋風 Crt.吸收'),
+(4808, '血旋風 Rsk.迴避'),
+(4809, '血旋風 速度激發'),
+(4810, '冰晶弓 導引'),
+(4811, '冰晶弓 迴避'),
+(4812, '冰晶弓 快速恢復'),
+(4813, '元素弓 導引'),
+(4814, '元素弓 簡擊'),
+(4815, '元素弓 快速恢復'),
+(4816, '高級精靈弓 迴避'),
+(4817, '高級精靈弓 簡擊'),
+(4818, '高級精靈弓 節射'),
+(4819, '阿卡特長弓 導引'),
+(4820, '阿卡特長弓 迴避'),
+(4821, '阿卡特長弓 簡擊'),
+(4822, '卓越弓 導引'),
+(4823, '卓越弓 簡擊'),
+(4824, '卓越弓 節射'),
+(4825, '黑暗精靈長弓 迴避'),
+(4826, '黑暗精靈長弓 Crt.出血'),
+(4827, '黑暗精靈長弓 簡擊'),
+(4828, '冒險弓 導引'),
+(4829, '冒險弓 快速恢復'),
+(4830, '冒險弓 節射'),
+(4831, '顱之弓 Crt.出血'),
+(4832, '顱之弓 魔力上升'),
+(4833, '顱之弓 快速恢復'),
+(4834, '大鐮刀 怒擊'),
+(4835, '大鐮刀 Crt.衝擊'),
+(4836, '大鐮刀 輕裝'),
+(4837, '歐西斯闊矛 怒擊'),
+(4838, '歐西斯闊矛 Crt.衝擊'),
+(4839, '歐西斯闊矛 遠程打擊'),
+(4840, '殺戮者 Crt.衝擊'),
+(4841, '殺戮者 遠程打擊'),
+(4842, '殺戮者 寬幅打擊'),
+(4843, '貝卡合金 Crt.衝擊'),
+(4844, '貝卡合金 遠程打擊'),
+(4845, '貝卡合金 輕裝'),
+(4846, '蠍子 怒擊'),
+(4847, '蠍子 Crt.衝擊'),
+(4848, '蠍子 遠程打擊'),
+(4849, '黑寡婦 Crt.衝擊'),
+(4850, '黑寡婦 遠程打擊'),
+(4851, '黑寡婦 寬幅打擊'),
+(4852, '歐西斯戰斧 Crt.衝擊'),
+(4853, '歐西斯戰斧 遠程打擊'),
+(4854, '歐西斯戰斧 寬幅打擊'),
+(4855, '巨斧 怒擊'),
+(4856, '巨斧 Crt.衝擊'),
+(4857, '巨斧 輕裝'),
+(4858, '長槍 怒擊'),
+(4859, '長槍 Crt.衝擊'),
+(4860, '長槍 遠程打擊'),
+(4861, '長柄戰戟 Crt.衝擊'),
+(4862, '長柄戰戟 遠程打擊'),
+(4863, '長柄戰戟 寬幅打擊'),
+(4864, '巨大末日鎚 魔法強癒'),
+(4865, '巨大末日鎚 魔法心靈防護'),
+(4866, '巨大末日鎚 魔法束縛'),
+(4867, '水晶魔杖 Rsk.迴避'),
+(4868, '水晶魔杖 魔力上升'),
+(4869, '水晶魔杖 魔法神佑之體'),
+(4870, '巨大末日斧 魔法毒咒'),
+(4871, '巨大末日斧 魔法弱化'),
+(4872, '巨大末日斧 魔法混亂'),
+(4873, '受詛咒的魔杖 魔法束縛'),
+(4874, '受詛咒的魔杖 魔法毒咒'),
+(4875, '受詛咒的魔杖 魔法弱化'),
+(4876, '佩勒迪亞魔杖 魔法強癒'),
+(4877, '佩勒迪亞魔杖 魔法心靈防護'),
+(4878, '佩勒迪亞魔杖 魔法束縛'),
+(4879, '帕格立歐之鎚 Rsk.迴避'),
+(4880, '帕格立歐之鎚 魔法毒咒'),
+(4881, '帕格立歐之鎚 魔法弱化'),
+(4882, '賢者魔杖 魔法束縛'),
+(4883, '賢者魔杖 魔法毒咒'),
+(4884, '賢者魔杖 魔法弱化'),
+(4885, '帕格立歐之斧 魔力上升'),
+(4886, '帕格立歐之斧 魔法弱化'),
+(4887, '帕格立歐之斧 魔法混亂'),
+(4888, '亡者魔杖 魔法強癒'),
+(4889, '亡者魔杖 魔法心靈防護'),
+(4890, '亡者魔杖 魔法束縛'),
+(4891, '食屍鬼魔杖 Rsk.迴避'),
+(4892, '食屍鬼魔杖 魔力上升'),
+(4893, '食屍鬼魔杖 魔法神佑之體'),
+(4894, '惡魔魔杖 魔法毒咒'),
+(4895, '惡魔魔杖 魔法弱化'),
+(4896, '惡魔魔杖 魔法混亂'),
+(4897, '精靈魔杖 魔法強癒'),
+(4898, '精靈魔杖 魔法心靈防護'),
+(4899, '精靈魔杖 魔法束縛'),
+(4900, '邪靈魔杖 魔法偵測'),
+(4901, '邪靈魔杖 魔法神佑之體'),
+(4902, '邪靈魔杖 魔法毒咒'),
+(4903, '帕黎恩魔杖'),
+(4904, '帕黎恩魔杖'),
+(4905, '帕黎恩魔杖'),
+(5127, '怪物用(代伊拉)'),
+(5128, '怪物用(可羅津)'),
+(5129, '怪物用(人偶刀手)'),
+(5130, '怪物用(諾司)'),
+(5131, '怪物用(帕伊特)'),
+(5132, '怪物用(巨矛)'),
+(5133, '克魯諾鈴鼓'),
+(5176, '蛇形刺'),
+(5177, '飛龍角'),
+(5178, '攻擊角'),
+(5179, '龍切裂者'),
+(5180, '蛇持矛者'),
+(5181, '金剛石鑽'),
+(5187, '蛇碎牙'),
+(5188, '達哈克之牙'),
+(5189, '緋紅血牙'),
+(5190, '龍切牙'),
+(5191, '鬼碎牙'),
+(5217, '狼用75級武器'),
+(5233, '柯貝克劍*柯貝克劍'),
+(5284, '瑞韓德'),
+(5285, '重型劍'),
+(5286, '狂戰士之刃'),
+(5292, '封印的黑暗水晶盾'),
+(5315, '封印的夢魘盾'),
+(5596, '帕黎恩魔杖 魔力上升'),
+(5597, '帕黎恩魔杖 魂體轉換'),
+(5598, '帕黎恩魔杖 靈活思緒'),
+(5599, '流星雨 偵測'),
+(5600, '流星雨 Crt.出血'),
+(5601, '流星雨 Rsk.速度激發'),
+(5602, '樂園 強健'),
+(5603, '樂園 怒擊'),
+(5604, '樂園 Crt.吸收'),
+(5605, '世界樹樹枝 魂體轉換'),
+(5606, '世界樹樹枝 魔法傷害'),
+(5607, '世界樹樹枝 靈活思緒'),
+(5608, '顱之弓 輕裝'),
+(5609, '顱之弓 Crt.出血'),
+(5610, '顱之弓 魔力上升'),
+(5611, '靈魂弓 節射'),
+(5612, '靈魂弓 快速恢復'),
+(5613, '靈魂弓 Crt.施毒'),
+(5614, '血腥之蘭 偵測'),
+(5615, '血腥之蘭 背擊'),
+(5616, '血腥之蘭 Crt.出血'),
+(5617, '魂體分離器 導引'),
+(5618, '魂體分離器 Crt.傷害'),
+(5619, '魂體分離器 Rsk.速度激發'),
+(5620, '血旋風 速度激發'),
+(5621, '血旋風 偵測'),
+(5622, '血旋風 怒擊'),
+(5623, '龍牙 Rsk.迴避'),
+(5624, '龍牙 導引'),
+(5625, '龍牙 強健'),
+(5626, '長柄戰戟 速度激發'),
+(5627, '長柄戰戟 Crt.衝擊'),
+(5628, '長柄戰戟 寬幅打擊'),
+(5629, '歐西斯戰戟'),
+(5630, '歐西斯戰戟'),
+(5631, '歐西斯戰戟'),
+(5632, '塔魯闊矛 導引'),
+(5633, '塔魯闊矛 強健'),
+(5634, '塔魯闊矛 寬幅打擊'),
+(5635, '塔魯刀 Crt.施毒'),
+(5636, '塔魯刀 速度激發'),
+(5637, '塔魯刀 怒擊'),
+(5638, '元素劍 魔法之力'),
+(5639, '元素劍 魔法麻痺'),
+(5640, '元素劍 魔力催化'),
+(5641, '奇蹟劍 魔法之力'),
+(5642, '奇蹟劍 魔法沉默'),
+(5643, '奇蹟劍 靈活思緒'),
+(5644, '斬龍刀 強健'),
+(5645, '斬龍刀 Crt.出血'),
+(5646, '斬龍刀 Crt.吸收'),
+(5647, '黑暗軍刀 Crt.傷害'),
+(5648, '黑暗軍刀 強健'),
+(5649, '黑暗軍刀 Rsk.偵測'),
+(5704, '柯貝克劍*柯貝克劍'),
+(5705, '柯貝克劍*大馬士革刀'),
+(5706, '大馬士革刀*大馬士革刀'),
+(5791, '怪物用(棍棒)'),
+(5792, '怪物用(狼牙棒)'),
+(5793, '怪物用(權杖)'),
+(5794, '怪物用(指揮棒)'),
+(5795, '怪物用(矛)'),
+(5796, '怪物用(斧)'),
+(5797, '怪物用(指揮棒)'),
+(5798, '怪物用(權杖)'),
+(5799, '怪物用(那芙琳盾)'),
+(5800, '怪物用(那芙琳劍)'),
+(5801, 'NPC專用(黃昏)'),
+(5802, 'NPC專用(黎明)'),
+(5817, '克魯諾杖鐘'),
+(6307, '極限之劍 導引'),
+(6308, '極限之劍 Crt.吸收'),
+(6309, '極限之劍 強健'),
+(6310, '死息之劍 魔力催化'),
+(6311, '死息之劍 魔法之力'),
+(6312, '死息之劍 魔法沉默'),
+(6313, '何門奎思之劍 靈活思緒'),
+(6314, '何門奎思之劍 魂體轉換'),
+(6315, '何門奎思之劍 魔法麻痺'),
+(6347, '狂戰士之刃 偵測'),
+(6348, '狂戰士之刃 Crt.傷害'),
+(6349, '狂戰士之刃 速度激發'),
+(6354, '彎刃大刀-新手用'),
+(6355, '法師魔杖-新手用'),
+(6356, '黑暗精靈匕首 Rsk.速度激發'),
+(6357, '袖珍刀 Rsk.速度激發'),
+(6358, '水晶匕首 Crt.傷害'),
+(6359, '惡魔短劍 Crt.傷害'),
+(6364, '忘卻之刃'),
+(6365, '玄武岩戰鎚'),
+(6366, '帝國權杖'),
+(6367, '天使殺手'),
+(6368, '閃耀弓'),
+(6369, '狩龍之斧'),
+(6370, '聖者之矛'),
+(6371, '惡魔獵爪'),
+(6372, '天國審判'),
+(6377, '帝國聖軍盾'),
+(6529, '雛鴨桿'),
+(6530, '信天翁桿'),
+(6531, '送子鳥桿'),
+(6532, '翠鳥桿'),
+(6533, '天鵝座長竿'),
+(6534, '海神崔坦長竿'),
+(6579, '祕儀權杖'),
+(6580, '塔魯刀*黑暗軍刀'),
+(6581, '忘卻之刃 速度激發'),
+(6582, '忘卻之刃 強健'),
+(6583, '忘卻之刃 偵測'),
+(6584, '玄武岩戰鎚 HP吸收'),
+(6585, '玄武岩戰鎚 強健'),
+(6586, '玄武岩戰鎚 體力再生'),
+(6587, '帝國權杖 魔力催化'),
+(6588, '帝國權杖 魔力再生'),
+(6589, '帝國權杖 魔法束縛'),
+(6590, '天使殺手 Crt.傷害'),
+(6591, '天使殺手 HP吸收'),
+(6592, '天使殺手 速度激發'),
+(6593, '閃耀弓 節射'),
+(6594, '閃耀弓 偵測'),
+(6595, '閃耀弓 Crt.緩速'),
+(6596, '狩龍之斧 體力再生'),
+(6597, '狩龍之斧 強健'),
+(6598, '狩龍之斧 HP吸收'),
+(6599, '聖者之矛 強健'),
+(6600, '聖者之矛 導引'),
+(6601, '聖者之矛 速度激發'),
+(6602, '惡魔獵爪 偵測'),
+(6603, '惡魔獵爪 強健'),
+(6604, '惡魔獵爪 Crt.衝擊'),
+(6605, '天國審判 速度激發'),
+(6606, '天國審判 強健'),
+(6607, '天國審判 偵測'),
+(6608, '祕儀權杖 靈活思緒'),
+(6609, '祕儀權杖 魔力再生'),
+(6610, '祕儀權杖 魔力上升'),
+(6611, '無限聖劍'),
+(6612, '無限滅斬'),
+(6613, '無限霸斧'),
+(6614, '無限神杖'),
+(6615, '無限巨鎚'),
+(6616, '無限魔杖'),
+(6617, '無限鬼殺'),
+(6618, '無限殛牙'),
+(6619, '無限斷空'),
+(6620, '無限鬥翼'),
+(6621, '無限烈槍'),
+(6678, '封印的帝國聖軍盾'),
+(6715, '怪物用(賽勒諾斯射手)'),
+(6716, '怪物用(賽勒諾斯咒術士)'),
+(6717, '怪物用(殷海薩戰士)'),
+(6718, '怪物用(殷海薩法師)'),
+(6719, '怪物用(肯特拉獸人隊長)'),
+(6720, '怪物用(哈里夏的影子)'),
+(6721, '怪物用(帝國戰將殭屍盾)'),
+(6722, '怪物用(亞利曼那斯)'),
+(6723, '怪物用(吸血鬼戰士)'),
+(6902, '血盟之盾'),
+(6917, '怪物用(毒針)'),
+(6918, '怪物用(賽勒諾斯盾)'),
+(6919, '怪物用(肯特拉獸人盾)'),
+(7014, '怪物用(黑龍盾)'),
+(7015, '城盟之盾'),
+(7058, '克魯諾達布卡'),
+(7560, '怪物用(釣竿)'),
+(7575, '紅龍之弓'),
+(7576, '紅龍之弓 節射'),
+(7577, '紅龍之弓 偵測'),
+(7578, '紅龍之弓 Crt.緩速'),
+(7701, '信仰手杖 魔力上升'),
+(7702, '信仰手杖 魔法束縛'),
+(7703, '信仰手杖 魔法心靈防護'),
+(7704, '永恆手杖 魔力催化'),
+(7705, '永恆手杖 Rsk.迴避'),
+(7706, '永恆手杖 魔法神佑之體'),
+(7707, '夢想斧 魔法之力'),
+(7708, '夢想斧 魔法毒咒'),
+(7709, '夢想斧 魔法弱化'),
+(7710, '自然之棍 靈活思緒'),
+(7711, '自然之棍 魔法心靈防護'),
+(7712, '自然之棍 魔法束縛'),
+(7713, '煉獄之鎚 魔力上升'),
+(7714, '煉獄之鎚 魔法沉默'),
+(7715, '煉獄之鎚 魂體轉換'),
+(7716, '地獄魔杖 靈活思緒'),
+(7717, '地獄魔杖 魔法沉默'),
+(7718, '地獄魔杖 魔法麻痺'),
+(7719, '長柄戰斧 Crt.衝擊'),
+(7720, '長柄戰斧 遠程打擊'),
+(7721, '長柄戰斧 寬幅打擊'),
+(7722, '聖堂之劍 靈活思緒'),
+(7723, '聖堂之劍 魔法弱化'),
+(7724, '聖堂之劍 魔法強癒'),
+(7810, '魔炎匕首 魔力上升'),
+(7811, '魔炎匕首 魔法束縛'),
+(7812, '魔炎匕首 魔法沉默'),
+(7813, '地獄刀 魔法強癒'),
+(7814, '地獄刀 魔法心靈防護'),
+(7815, '地獄刀 魔法弱化'),
+(7816, '見習冒險家魔杖'),
+(7817, '見習冒險家骨棒'),
+(7818, '見習冒險家匕首'),
+(7819, '見習冒險家拳套'),
+(7820, '見習冒險家之弓'),
+(7821, '見習冒險家之劍'),
+(7822, '旅者釘鎚'),
+(7823, '旅者黑暗精靈弓'),
+(7824, '旅者長弓'),
+(7825, '旅者魔杖'),
+(7826, '旅者重劍'),
+(7827, '旅者之書'),
+(7828, '旅者單刃刀'),
+(7829, '旅者鷹之斧'),
+(7830, '旅者短匕首'),
+(7831, '旅者之矛'),
+(7834, '怪物用(工藝戰斧)'),
+(7880, '鋼劍'),
+(7881, '下巨人之劍'),
+(7882, '帕格立歐之劍'),
+(7883, '守護神之劍'),
+(7884, '煉獄之主'),
+(7885, '祭司之劍'),
+(7886, '魔霧之劍'),
+(7887, '奧祕之刃'),
+(7888, '日蝕劍'),
+(7889, '巫師之淚'),
+(7890, '祭司釘鎚'),
+(7891, '月蝕斧'),
+(7892, '破咒者'),
+(7893, '卡倚巴奴之骨'),
+(7894, '英魂之眼'),
+(7895, '火龍之首'),
+(7896, '下巨人之鎚'),
+(7897, '矮人巨鎚'),
+(7898, '卡拉克衝角'),
+(7899, '破壞者巨鎚'),
+(7900, '暴風雪巨鎚'),
+(7901, '星爆'),
+(7902, '末日毀滅者'),
+(7903, '芙琳泰沙之劍'),
+(8102, '帕格立歐之劍 偵測'),
+(8103, '帕格立歐之劍 強健'),
+(8104, '帕格立歐之劍 Crt.吸收'),
+(8105, '守護神之劍 Crt.吸收'),
+(8106, '守護神之劍 強健'),
+(8107, '守護神之劍 Crt.出血'),
+(8108, '煉獄之主 速度激發'),
+(8109, '煉獄之主 Crt.傷害'),
+(8110, '煉獄之主 偵測'),
+(8111, '奧祕之刃 靈活思緒'),
+(8112, '奧祕之刃 魔法之力'),
+(8113, '奧祕之刃 魔法弱化'),
+(8114, '日蝕劍 魔力催化'),
+(8115, '日蝕劍 魔法之力'),
+(8116, '日蝕劍 魔法沉默'),
+(8117, '巫師之淚 靈活思緒'),
+(8118, '巫師之淚 魔法之力'),
+(8119, '巫師之淚 魂體轉換'),
+(8120, '矮人巨鎚 強健'),
+(8121, '矮人巨鎚 怒擊'),
+(8122, '矮人巨鎚 Crt.出血'),
+(8123, '卡拉克衝角 偵測'),
+(8124, '卡拉克衝角 速度激發'),
+(8125, '卡拉克衝角 Crt.吸收'),
+(8126, '破壞者巨鎚 強健'),
+(8127, '破壞者巨鎚 速度激發'),
+(8128, '破壞者巨鎚 Crt.吸收'),
+(8129, '暴風雪巨鎚 偵測'),
+(8130, '暴風雪巨鎚 怒擊'),
+(8131, '暴風雪巨鎚 Crt.出血'),
+(8132, '星爆 強健'),
+(8133, '星爆 速度激發'),
+(8134, '星爆 Rsk.偵測'),
+(8135, '末日毀滅者 強健'),
+(8136, '末日毀滅者 怒擊'),
+(8137, '末日毀滅者 Rsk.速度激發'),
+(8138, '月蝕斧 魂體轉換'),
+(8139, '月蝕斧 魔法之力'),
+(8140, '月蝕斧 魔法束縛'),
+(8141, '破咒者 靈活思緒'),
+(8142, '破咒者 魔法心靈防護'),
+(8143, '破咒者 魔法束縛'),
+(8144, '卡倚巴奴之骨 魔力上升'),
+(8145, '卡倚巴奴之骨 魔法沉默'),
+(8146, '卡倚巴奴之骨 魂體轉換'),
+(8147, '英魂之眼 魔力上升'),
+(8148, '英魂之眼 魔法毒咒'),
+(8149, '英魂之眼 靈活思緒'),
+(8150, '火龍之首 靈活思緒'),
+(8151, '火龍之首 魔法之力'),
+(8152, '火龍之首 魔法沉默'),
+(8190, '魔劍‧薩雷奇'),
+(8203, '怪物用(benom_sword)'),
+(8204, '怪物用(follower_of_frintessa_calibur)'),
+(8205, '怪物用(heretic_priest_sickle)'),
+(8206, '怪物用(heretic_priest_sword)'),
+(8207, '怪物用(heretic_privates_axe)'),
+(8208, '怪物用(heretic_privates_staff)'),
+(8209, '怪物用(lidia_von_helmann_sword)'),
+(8210, '怪物用(monk_warrior_shield)'),
+(8211, '怪物用(monk_warrior_sword)'),
+(8212, '怪物用(solina_brother_mace)'),
+(8213, '怪物用(solina_father_mace)'),
+(8214, '怪物用(solina_priest_pole)'),
+(8215, '怪物用(zombie_enlisted_man_sword)'),
+(8216, '怪物用(zombie_enlisted_man_claw)'),
+(8217, '怪物用(zombie_gateguard_spear)'),
+(8218, '怪物用(zombie_laborer_axe)'),
+(8219, '怪物用(zombie_laborer_sword)'),
+(8220, '怪物用(apostle_grail_bow)'),
+(8221, '怪物用(apostle_grail_spear)'),
+(8222, '怪物用(follower_of_frintessa_tran_calibur)'),
+(8350, '克魯諾瑪拉卡斯'),
+(8527, '怪物用(強化弓)'),
+(8528, '怪物用(末日之鎚)'),
+(8529, '怪物用(小刀)'),
+(8530, '怪物用(見習騎士之劍)'),
+(8531, '怪物用(骨頭魔杖)'),
+(8532, '怪物用(椎骨之劍)'),
+(8533, '怪物用(緋紅劍)'),
+(8576, '見習生魔杖-禮券活動用'),
+(8577, '骨棒-禮券活動用'),
+(8578, '閃耀刀-禮券活動用'),
+(8579, '搏擊手套-禮券活動用'),
+(8580, '森林弓-禮券活動用'),
+(8581, '長劍-禮券活動用'),
+(8582, '祈禱者之鎚-禮券活動用'),
+(8583, '黑暗精靈弓-禮券活動用'),
+(8584, '長弓-禮券活動用'),
+(8585, '瑪那魔杖-禮券活動用'),
+(8586, '重劍-禮券活動用'),
+(8587, '神聖的卷冊-禮券活動用'),
+(8588, '單刃刀-禮券活動用'),
+(8589, '鷹之斧-禮券活動用'),
+(8590, '短匕首-禮券活動用'),
+(8591, '矛-禮券活動用'),
+(8678, '希露冰刃'),
+(8679, '伊波斯巨劍'),
+(8680, '貝拉凱爾聖斧'),
+(8681, '貝希莫斯巨叉'),
+(8682, '那卡風暴'),
+(8683, '岱依封長戟'),
+(8684, '夏伊德獵弓'),
+(8685, '索貝克颶風'),
+(8686, '緹米絲之舌'),
+(8687, '卡布里歐之手'),
+(8688, '惡魔結晶'),
+(8689, '血劍‧阿卡瑪那夫'),
+(8763, '耶爾可羅獵捕器'),
+(8788, '希露冰刃 速度激發'),
+(8789, '希露冰刃 強健'),
+(8790, '希露冰刃 Crt.施毒'),
+(8791, '伊波斯巨劍 偵測'),
+(8792, '伊波斯巨劍 速度激發'),
+(8793, '伊波斯巨劍 強健'),
+(8794, '貝拉凱爾聖斧 強健'),
+(8795, '貝拉凱爾聖斧 速度激發'),
+(8796, '貝拉凱爾聖斧 偵測'),
+(8797, '貝希莫斯巨叉 偵測'),
+(8798, '貝希莫斯巨叉 強健'),
+(8799, '貝希莫斯巨叉 怒擊'),
+(8800, '那卡風暴 偵測'),
+(8801, '那卡風暴 Crt.傷害'),
+(8802, '那卡風暴 背擊'),
+(8803, '岱依封長戟 Crt.衝擊'),
+(8804, '岱依封長戟 遠程打擊'),
+(8805, '岱依封長戟 寬幅打擊'),
+(8806, '夏伊德獵弓 節射'),
+(8807, '夏伊德獵弓 偵測'),
+(8808, '夏伊德獵弓 快速恢復'),
+(8809, '索貝克颶風 Rsk,速度激發'),
+(8810, '索貝克颶風 速度激發'),
+(8811, '索貝克颶風 Crt.吸收'),
+(8812, '緹米絲之舌 魔力上升'),
+(8813, '緹米絲之舌 魔法心靈防護'),
+(8814, '緹米絲之舌 魔法偵測'),
+(8815, '卡布里歐之手 魂體轉換'),
+(8816, '卡布里歐之手 魔力上升'),
+(8817, '卡布里歐之手 魔法沉默'),
+(8818, '惡魔結晶 魔力上升'),
+(8819, '惡魔結晶 靈活思緒'),
+(8820, '惡魔結晶 魔法心靈防護'),
+(8821, '幻象裝備-雙手劍'),
+(8822, '幻象裝備-緋紅劍'),
+(8823, '幻象裝備-狼牙棒'),
+(8824, '幻象裝備-巫術魔杖'),
+(8825, '幻象裝備-反曲刀'),
+(8826, '幻象裝備-瑪那匕首'),
+(8827, '幻象裝備-三刃刀'),
+(8828, '幻象裝備-腰弩'),
+(8829, '幻象裝備-戰鎚'),
+(8830, '幻象裝備-武士刀'),
+(8831, '幻象裝備-貝卡合金'),
+(8832, '幻象裝備-受詛咒的魔杖'),
+(8833, '幻象裝備-袖珍刀'),
+(8834, '幻象裝備-魔炎匕首'),
+(8835, '幻象裝備-元素弓'),
+(8836, '幻象裝備-矮人戰鎚'),
+(8837, '幻象裝備-革命劍*革命劍'),
+(8838, '幻象裝備-關節拳'),
+(8839, '幻象裝備-迷惑之劍'),
+(8840, '幻象裝備-長柄戰斧'),
+(8841, '幻象裝備-永恆手杖'),
+(8842, '幻象裝備-地獄魔杖'),
+(8843, '幻象裝備-帕格立歐之鎚'),
+(8844, '幻象裝備-黑暗狂嘯者'),
+(8845, '幻象裝備-阿卡特長弓'),
+(8846, '幻象裝備-帕格立歐之劍'),
+(8847, '幻象裝備-拳刃'),
+(8848, '幻象裝備-暴風之劍*暴風之劍'),
+(8849, '幻象裝備-巨劍'),
+(8850, '幻象裝備-巨大戰斧'),
+(8851, '幻象裝備-精靈魔杖'),
+(8852, '幻象裝備-柯貝克劍'),
+(8853, '幻象裝備-聖堂之劍'),
+(8854, '幻象裝備-波形刃'),
+(8855, '幻象裝備-阿斯拉爪'),
+(8856, '幻象裝備-黑暗精靈長弓'),
+(8857, '幻象裝備-迷惑之劍*迷惑之劍'),
+(8858, '幻象裝備-巨斧'),
+(8859, '幻象裝備-塔魯刀'),
+(8860, '幻象裝備-長柄戰戟'),
+(8861, '幻象裝備-帕黎恩魔杖'),
+(8862, '幻象裝備-血腥之蘭'),
+(8863, '幻象裝備-血旋風'),
+(8864, '幻象裝備-顱之弓'),
+(8865, '幻象裝備-柯貝克劍*柯貝克劍'),
+(8866, '幻象裝備-流星雨'),
+(8867, '幻象裝備-煉獄之主'),
+(8926, '幻象裝備-迷惑之劍'),
+(8927, '幻象裝備-長柄戰斧'),
+(8928, '幻象裝備-永恆手杖'),
+(8929, '幻象裝備-地獄魔杖'),
+(8930, '幻象裝備-帕格立歐之鎚'),
+(8931, '幻象裝備-黑暗狂嘯者'),
+(8932, '幻象裝備-阿卡特長弓'),
+(8933, '幻象裝備-帕格立歐之劍'),
+(8934, '幻象裝備-拳刃'),
+(8935, '測試用細劍'),
+(8937, '幻象裝備-暴風之劍*暴風之劍'),
+(8938, '塔魯刀*大馬士革刀'),
+(8972, '幻象裝備-長矛'),
+(8973, '幻象裝備-彎刃大刀'),
+(8974, '幻象裝備-鋼鎚'),
+(8975, '幻象裝備-巫毒人偶'),
+(8976, '幻象裝備-魔鎚'),
+(8977, '幻象裝備-法師魔杖'),
+(8978, '幻象裝備-碎劍者'),
+(8979, '幻象裝備-毒蛇之牙'),
+(8980, '幻象裝備-合金弓'),
+(8981, '幻象裝備-祝福的十字架'),
+(8982, '幻象裝備-雙手劍'),
+(8983, '幻象裝備-緋紅劍'),
+(8984, '幻象裝備-狼牙棒'),
+(8985, '幻象裝備-巫術魔杖'),
+(8986, '幻象裝備-反曲刀'),
+(8987, '幻象裝備-瑪那匕首'),
+(8988, '幻象裝備-三刃刀'),
+(8989, '幻象裝備-腰弩'),
+(8990, '幻象裝備-戰鎚'),
+(8991, '幻象裝備-迷惑之劍'),
+(8992, '幻象裝備-長柄戰斧'),
+(8993, '幻象裝備-永恆手杖'),
+(8994, '幻象裝備-地獄魔杖'),
+(8995, '幻象裝備-帕格立歐之鎚'),
+(8996, '幻象裝備-黑暗狂嘯者'),
+(8997, '幻象裝備-阿卡特長弓'),
+(8998, '幻象裝備-帕格立歐之劍'),
+(8999, '幻象裝備-拳刃'),
+(9000, '幻象裝備-暴風之劍*暴風之劍'),
+(9001, '幻象裝備-巨劍'),
+(9002, '幻象裝備-巨大戰斧'),
+(9003, '幻象裝備-精靈魔杖'),
+(9004, '幻象裝備-柯貝克劍'),
+(9005, '幻象裝備-聖堂之劍'),
+(9006, '幻象裝備-波形刃'),
+(9007, '幻象裝備-阿斯拉爪'),
+(9008, '幻象裝備-黑暗精靈長弓'),
+(9009, '幻象裝備-迷惑之劍*迷惑之劍'),
+(9010, '幻象裝備-巨斧'),
+(9011, '幻象裝備-塔魯刀'),
+(9012, '幻象裝備-長柄戰戟'),
+(9013, '幻象裝備-帕黎恩魔杖'),
+(9014, '幻象裝備-血腥之蘭'),
+(9015, '幻象裝備-血旋風'),
+(9016, '幻象裝備-顱之弓'),
+(9017, '幻象裝備-柯貝克劍*柯貝克劍'),
+(9018, '幻象裝備-流星雨'),
+(9019, '幻象裝備-煉獄之主'),
+(9020, '幻象裝備-柯貝克劍*大馬士革刀'),
+(9021, '幻象裝備-斬龍刀'),
+(9022, '幻象裝備-奇蹟劍'),
+(9023, '幻象裝備-樂園'),
+(9024, '幻象裝備-世界樹樹枝'),
+(9025, '幻象裝備-魂體分離器'),
+(9026, '幻象裝備-龍牙'),
+(9027, '幻象裝備-靈魂弓'),
+(9028, '幻象裝備-塔魯闊矛'),
+(9029, '幻象裝備-黑暗軍刀'),
+(9036, '幻象裝備-骨盾'),
+(9044, '幻象裝備-圓木盾'),
+(9056, '幻象裝備-合金盾'),
+(9070, '幻象裝備-夏隆盾'),
+(9084, '幻象裝備-黑暗水晶盾'),
+(9129, '幻象裝備-夢魘盾'),
+(9136, '巴拉卡斯劍(單手)'),
+(9137, '巴拉卡斯劍(雙手)'),
+(9140, '邱比特之弓'),
+(9141, '邱比特之弓-活動用'),
+(9209, '細劍'),
+(9210, '曲刀'),
+(9211, '曲刀'),
+(9212, '獵槍'),
+(9213, '鈍劍'),
+(9214, '鈍劍'),
+(9215, '鈍劍'),
+(9216, '突襲曲刀'),
+(9217, '短弩'),
+(9218, '刺劍'),
+(9219, '刺劍'),
+(9220, '獵劍'),
+(9221, '十字弓'),
+(9222, '銳劍'),
+(9223, '格鬥劍'),
+(9224, '爆破之臂'),
+(9225, '巨銳劍'),
+(9226, '將軍格鬥劍'),
+(9227, '齒輪弩'),
+(9228, '軍用刺劍'),
+(9229, '軍用刺劍 Crt.怒擊'),
+(9230, '軍用刺劍 偵測'),
+(9231, '軍用刺劍 輕裝'),
+(9232, '席拉格重劍'),
+(9233, '席拉格重劍 Crt.傷害'),
+(9234, '席拉格重劍 偵測'),
+(9235, '席拉格重劍 輕裝'),
+(9236, '強弩'),
+(9237, '強弩 導引'),
+(9238, '強弩 迴避'),
+(9239, '強弩 快速恢復'),
+(9240, '騎兵細劍'),
+(9241, '騎兵細劍 導引'),
+(9242, '騎兵細劍 背擊'),
+(9243, '騎兵細劍 Rsk.迴避'),
+(9244, '騎兵細劍'),
+(9245, '騎兵細劍 偵測'),
+(9246, '騎兵細劍 Crt.傷害'),
+(9247, '騎兵細劍 速度激發'),
+(9248, '騎兵細劍'),
+(9249, '騎兵細劍 Crt.傷害'),
+(9250, '騎兵細劍 Crt.施毒'),
+(9251, '騎兵細劍 速度激發'),
+(9252, '騎兵細劍'),
+(9253, '騎兵細劍 偵測'),
+(9254, '騎兵細劍 Crt.吸收'),
+(9255, '騎兵細劍 Crt.施毒'),
+(9256, '弩砲'),
+(9257, '弩砲 導引'),
+(9258, '弩砲 簡擊'),
+(9259, '弩砲 快速恢復'),
+(9260, '弩砲'),
+(9261, '弩砲 迴避'),
+(9262, '弩砲 簡擊'),
+(9263, '弩砲 節射'),
+(9264, '瞬殺使者'),
+(9265, '瞬殺使者 導引'),
+(9266, '瞬殺使者 偵測'),
+(9267, '瞬殺使者 Crt.傷害'),
+(9268, '瞬殺使者'),
+(9269, '瞬殺使者 偵測'),
+(9270, '瞬殺使者 強健'),
+(9271, '瞬殺使者 Rsk.速度激發'),
+(9272, '瞬殺使者'),
+(9273, '瞬殺使者 偵測'),
+(9274, '瞬殺使者 Crt.傷害'),
+(9275, '瞬殺使者 速度激發'),
+(9276, '瞬殺使者'),
+(9277, '瞬殺使者 強健'),
+(9278, '瞬殺使者 偵測'),
+(9279, '瞬殺使者 輕裝'),
+(9280, '瞬殺使者'),
+(9281, '瞬殺使者 導引'),
+(9282, '瞬殺使者 Crt.吸收'),
+(9283, '瞬殺使者 強健'),
+(9284, '莫北巨刃'),
+(9285, '莫北巨刃 偵測'),
+(9286, '莫北巨刃 強健'),
+(9287, '莫北巨刃 Crt.吸收'),
+(9288, '塔斯蘭弩'),
+(9289, '塔斯蘭弩 導引'),
+(9290, '塔斯蘭弩 迴避'),
+(9291, '塔斯蘭弩 簡擊'),
+(9292, '上將刺劍'),
+(9293, '上將刺劍 偵測'),
+(9294, '上將刺劍 Crt.傷害'),
+(9295, '上將刺劍 速度激發'),
+(9296, '劍齒虎'),
+(9297, '劍齒虎 偵測'),
+(9298, '劍齒虎 Crt.傷害'),
+(9299, '劍齒虎 速度激發'),
+(9300, '滅形弩'),
+(9301, '滅形弩 導引'),
+(9302, '滅形弩 簡擊'),
+(9303, '滅形弩 節射'),
+(9304, '突襲鈍劍'),
+(9305, '突襲鈍劍 導引'),
+(9306, '突襲鈍劍 偵測'),
+(9307, '突襲鈍劍 背擊'),
+(9308, '無名之勝'),
+(9309, '無名之勝 強健'),
+(9310, '無名之勝 Crt.傷害'),
+(9311, '無名之勝 偵測'),
+(9312, '和平使者'),
+(9313, '和平使者 迴避'),
+(9314, '和平使者 Crt.出血'),
+(9315, '和平使者 簡擊'),
+(9316, '華麗細劍'),
+(9317, '華麗細劍 偵測'),
+(9318, '華麗細劍 Crt.傷害'),
+(9319, '華麗細劍 速度激發'),
+(9320, '裂解劍'),
+(9321, '裂解劍 Crt.吸收'),
+(9322, '裂解劍 強健'),
+(9323, '裂解劍 Crt.出血'),
+(9324, '冥犬之牙'),
+(9325, '冥犬之牙 導引'),
+(9326, '冥犬之牙 快速恢復'),
+(9327, '冥犬之牙 節射'),
+(9328, '天雷'),
+(9329, '天雷 Crt.施毒'),
+(9330, '天雷 速度激發'),
+(9331, '天雷 怒擊'),
+(9332, '神怨'),
+(9333, '神怨 速度激發'),
+(9334, '神怨 Crt.傷害'),
+(9335, '神怨 偵測'),
+(9336, '末日咒詛'),
+(9337, '末日咒詛 輕裝'),
+(9338, '末日咒詛 Crt.出血'),
+(9339, '末日咒詛 魔力上升'),
+(9340, '貪婪刺劍'),
+(9341, '貪婪刺劍 Crt.傷害'),
+(9342, '貪婪刺劍 強健'),
+(9343, '貪婪刺劍 Rsk.偵測'),
+(9344, '死神使者'),
+(9345, '死神使者 強健'),
+(9346, '死神使者 Crt.出血'),
+(9347, '死神使者 Crt.吸收'),
+(9348, '靈魂弩'),
+(9349, '靈魂弩 節射'),
+(9350, '靈魂弩 快速恢復'),
+(9351, '靈魂弩 Crt.施毒'),
+(9352, '閃光之珠'),
+(9353, '閃光之珠 速度激發'),
+(9354, '閃光之珠 強健'),
+(9355, '閃光之珠 Crt.施毒'),
+(9356, '光明守護之劍'),
+(9357, '光明守護之劍 偵測'),
+(9358, '光明守護之劍 速度激發'),
+(9359, '光明守護之劍 強健'),
+(9360, '復仇爆弩'),
+(9361, '復仇爆弩 節射'),
+(9362, '復仇爆弩 偵測'),
+(9363, '復仇爆弩 快速恢復'),
+(9364, '烈焚天'),
+(9365, '烈焚天 速度激發'),
+(9366, '烈焚天 強健'),
+(9367, '烈焚天 偵測'),
+(9368, '勝利之劍格蘭'),
+(9369, '勝利之劍格蘭 速度激發'),
+(9370, '勝利之劍格蘭 強健'),
+(9371, '勝利之劍格蘭 偵測'),
+(9372, '薩倫伽神弩'),
+(9373, '薩倫伽神弩 節射'),
+(9374, '薩倫伽神弩 偵測'),
+(9375, '薩倫伽神弩 Crt.緩速'),
+(9376, '王朝細劍'),
+(9377, '王朝細劍 偵測'),
+(9378, '王朝細劍 強健'),
+(9379, '王朝細劍 輕裝'),
+(9380, '王朝古代劍'),
+(9381, '王朝古代劍 偵測'),
+(9382, '王朝古代劍 強健'),
+(9383, '王朝古代劍 輕裝'),
+(9384, '王朝十字弓'),
+(9385, '王朝十字弓 節射'),
+(9386, '王朝十字弓 導引'),
+(9387, '王朝十字弓 偵測'),
+(9388, '無限瞬閃'),
+(9389, '無限岩裂'),
+(9390, '無限追魂'),
+(9441, '王朝盾'),
+(9442, '王朝劍'),
+(9443, '王朝之刃'),
+(9444, '王朝幻影劍'),
+(9445, '王朝弓'),
+(9446, '王朝小刀'),
+(9447, '王朝長柄戰戟'),
+(9448, '王朝戰鎚'),
+(9449, '王朝釘鎚'),
+(9450, '王朝拳套爪'),
+(9529, '封印的王朝盾'),
+(9638, '怪物用(淚r1)'),
+(9639, '怪物用(淚r2)'),
+(9640, '怪物用(淚r3)'),
+(9641, '怪物用(淚l1)'),
+(9642, '怪物用(淚l2)'),
+(9643, '怪物用(淚l3)'),
+(9644, 'npc專用(弩)'),
+(9645, 'npc專用(大劍)'),
+(9646, 'npc專用(細劍)'),
+(9656, '強化狼尖牙'),
+(9657, '強化土狼狼牙'),
+(9658, '強化索蒂德狼牙'),
+(9659, '強化地獄犬狼牙'),
+(9660, '奧里哈魯根合金狼牙'),
+(9661, '強化潘里亞狼牙'),
+(9720, '戰士之劍'),
+(9813, '怪物用(獸人軍官)'),
+(9819, '鬥爭旗幟'),
+(9840, '幻象裝備-騎兵細劍'),
+(9841, '幻象裝備-騎士席拉格重劍'),
+(9842, '幻象裝備-弩砲'),
+(9843, '幻象裝備-瞬殺使者'),
+(9844, '幻象裝備-莫北巨刃'),
+(9845, '幻象裝備-塔斯蘭弩'),
+(9846, '幻象裝備-突襲鈍劍'),
+(9847, '幻象裝備-無名之勝'),
+(9848, '幻象裝備-和平使者'),
+(9854, '王朝劍 偵測'),
+(9855, '王朝劍 強健'),
+(9856, '王朝劍 輕裝'),
+(9857, '王朝之刃 偵測'),
+(9858, '王朝之刃 強健'),
+(9859, '王朝之刃 輕裝'),
+(9860, '王朝幻影劍 靈活思緒'),
+(9861, '王朝幻影劍 魔力上升'),
+(9862, '王朝幻影劍 魂體轉換'),
+(9863, '王朝弓 節射'),
+(9864, '王朝弓 導引'),
+(9865, '王朝弓 偵測'),
+(9866, '王朝小刀 偵測'),
+(9867, '王朝小刀 迴避'),
+(9868, '王朝小刀 Crt.傷害'),
+(9869, '王朝長柄戰戟 怒擊'),
+(9870, '王朝長柄戰戟 Crt.衝擊'),
+(9871, '王朝長柄戰戟 輕裝'),
+(9872, '王朝戰鎚 怒擊'),
+(9873, '王朝戰鎚 強健'),
+(9874, '王朝戰鎚 Rsk.偵測'),
+(9875, '王朝釘鎚 魔力上升'),
+(9876, '王朝釘鎚 魂體轉換'),
+(9877, '王朝釘鎚 靈活思緒'),
+(9878, '王朝拳套爪 Rsk.迴避'),
+(9879, '王朝拳套爪 偵測'),
+(9880, '王朝拳套爪 速度激發'),
+(9901, '進階型彎刃大刀'),
+(9902, '進階型長矛'),
+(9903, '進階型鋼鎚'),
+(9904, '進階型碎劍者'),
+(9905, '進階型毒蛇之牙'),
+(9906, '進階型合金弓'),
+(9907, '進階型魔鎚'),
+(9908, '進階型法師魔杖'),
+(9995, '短弩'),
+(9996, '短弩'),
+(10003, '鈍劍'),
+(10004, '王朝雙刀'),
+(10005, '幻象裝備-鈍劍'),
+(10006, '幻象裝備-突襲曲刀'),
+(10007, '幻象裝備-短弩'),
+(10008, '幻象裝備-瞬殺使者'),
+(10009, '幻象裝備-莫北巨刃'),
+(10010, '幻象裝備-塔斯蘭弩'),
+(10011, '幻象裝備-巨戰斧'),
+(10125, '幻象裝備-巨戰斧'),
+(10128, '怪物專用(弩)'),
+(10167, '豬豬塔糖'),
+(10212, 'npc專用(弓)'),
+(10215, '伊克魯斯之劍'),
+(10216, '伊克魯斯分解者'),
+(10217, '伊克魯斯之靈'),
+(10218, '伊克魯斯重兵刃'),
+(10219, '伊克魯斯三叉戟'),
+(10220, '伊克魯斯之鎚'),
+(10221, '伊克魯斯之手'),
+(10222, '伊克魯斯手杖'),
+(10223, '伊克魯斯之弓'),
+(10224, '伊克魯斯刺劍'),
+(10225, '伊克魯斯翼刃'),
+(10226, '伊克魯斯之弩'),
+(10252, '王朝魔杖'),
+(10253, '王朝毀滅者'),
+(10277, '怪物用(貝希莫槍)'),
+(10278, '怪物用(貝希莫雙刀)'),
+(10415, '伊克魯斯雙刀'),
+(10434, '伊克魯斯之劍 偵測'),
+(10435, '伊克魯斯之劍 強健'),
+(10436, '伊克魯斯之劍 輕裝'),
+(10437, '伊克魯斯重兵刃 偵測'),
+(10438, '伊克魯斯重兵刃 強健'),
+(10439, '伊克魯斯重兵刃 輕裝'),
+(10440, '伊克魯斯之靈 靈活思緒'),
+(10441, '伊克魯斯之靈 魔力上升'),
+(10442, '伊克魯斯之靈 魂體轉換'),
+(10443, '伊克魯斯之弓 節射'),
+(10444, '伊克魯斯之弓 導引'),
+(10445, '伊克魯斯之弓 偵測'),
+(10446, '伊克魯斯分解者 偵測'),
+(10447, '伊克魯斯分解者 迴避'),
+(10448, '伊克魯斯分解者 Crt.傷害'),
+(10449, '伊克魯斯三叉戟 怒擊'),
+(10450, '伊克魯斯三叉戟 Crt.衝擊'),
+(10451, '伊克魯斯三叉戟 輕裝'),
+(10452, '伊克魯斯之鎚 怒擊'),
+(10453, '伊克魯斯之鎚 強健'),
+(10454, '伊克魯斯之鎚 Rsk.偵測'),
+(10455, '伊克魯斯手杖 魔力上升'),
+(10456, '伊克魯斯手杖 魂體轉換'),
+(10457, '伊克魯斯手杖 靈活思緒'),
+(10458, '伊克魯斯之手 Rsk.迴避'),
+(10459, '伊克魯斯之手 偵測'),
+(10460, '伊克魯斯之手 速度激發'),
+(10461, '伊克魯斯刺劍 偵測'),
+(10462, '伊克魯斯刺劍 強健'),
+(10463, '伊克魯斯刺劍 輕裝'),
+(10464, '伊克魯斯翼刃 偵測'),
+(10465, '伊克魯斯翼刃 強健'),
+(10466, '伊克魯斯翼刃 輕裝'),
+(10467, '伊克魯斯之弩 節射'),
+(10468, '伊克魯斯之弩 導引'),
+(10469, '伊克魯斯之弩 偵測'),
+(10474, '幻象裝備-見習生魔杖'),
+(10475, '幻象裝備-骨棒'),
+(10476, '幻象裝備-閃耀刀'),
+(10477, '幻象裝備-搏擊手套'),
+(10478, '幻象裝備-森林弓'),
+(10479, '幻象裝備-長劍'),
+(10527, '王朝魔杖 魔力上升'),
+(10528, '王朝魔杖 魂體轉換'),
+(10529, '王朝魔杖 靈活思緒'),
+(10530, '王朝毀滅者 怒擊'),
+(10531, '王朝毀滅者 強健'),
+(10532, '王朝毀滅者 Rsk.偵測'),
+(10548, '怪物用(透明盾)'),
+(10667, '希露冰刃 {對戰用} 速度激發'),
+(10668, '希露冰刃 {對戰用} 強健'),
+(10669, '希露冰刃 {對戰用} Crt.施毒'),
+(10670, '伊波斯巨劍 {對戰用} 偵測'),
+(10671, '伊波斯巨劍 {對戰用} 速度激發'),
+(10672, '伊波斯巨劍 {對戰用} 強健'),
+(10673, '貝拉凱爾聖斧 {對戰用} 強健'),
+(10674, '貝拉凱爾聖斧 {對戰用} 速度激發'),
+(10675, '貝拉凱爾聖斧 {對戰用} 偵測'),
+(10676, '貝希莫斯巨叉 {對戰用} 偵測'),
+(10677, '貝希莫斯巨叉 {對戰用} 強健'),
+(10678, '貝希莫斯巨叉 {對戰用} 怒擊'),
+(10679, '那卡風暴 {對戰用} 偵測'),
+(10680, '那卡風暴 {對戰用} Crt.傷害'),
+(10681, '那卡風暴 {對戰用} 背擊'),
+(10682, '岱依封長戟 {對戰用} Crt.衝擊'),
+(10683, '岱依封長戟 {對戰用} 遠程打擊'),
+(10684, '岱依封長戟 {對戰用} 寬幅打擊'),
+(10685, '夏伊德獵弓 {對戰用} 節射'),
+(10686, '夏伊德獵弓 {對戰用} 偵測'),
+(10687, '夏伊德獵弓 {對戰用} 快速恢復'),
+(10688, '索貝克颶風 {對戰用} Rsk.速度激發'),
+(10689, '索貝克颶風 {對戰用} 速度激發'),
+(10690, '索貝克颶風 {對戰用} Crt.吸收'),
+(10691, '緹米絲之舌 {對戰用} 魔力上升'),
+(10692, '緹米絲之舌 {對戰用} 魔法心靈防護'),
+(10693, '緹米絲之舌 {對戰用} 魔法偵測'),
+(10694, '卡布里歐之手 {對戰用} 魂體轉換'),
+(10695, '卡布里歐之手 {對戰用} 魔力上升'),
+(10696, '卡布里歐之手 {對戰用} 魔法沉默'),
+(10697, '惡魔結晶 {對戰用} 魔力上升'),
+(10698, '惡魔結晶 {對戰用} 靈活思緒'),
+(10699, '惡魔結晶 {對戰用} 魔法心靈防護'),
+(10700, '閃光之珠 {對戰用} 速度激發'),
+(10701, '閃光之珠 {對戰用} 強健'),
+(10702, '閃光之珠 {對戰用} Crt.施毒'),
+(10703, '光明守護之劍 {對戰用} 偵測'),
+(10704, '光明守護之劍 {對戰用} 速度激發'),
+(10705, '光明守護之劍 {對戰用} 強健'),
+(10706, '復仇爆弩 {對戰用} 節射'),
+(10707, '復仇爆弩 {對戰用} 偵測'),
+(10708, '復仇爆弩 {對戰用} 快速恢復'),
+(10709, '塔魯刀*大馬士革刀 {對戰用}'),
+(10710, '忘卻之刃 {對戰用} 速度激發'),
+(10711, '忘卻之刃 {對戰用} 強健'),
+(10712, '忘卻之刃 {對戰用} 偵測'),
+(10713, '天國審判 {對戰用} 速度激發'),
+(10714, '天國審判 {對戰用} 強健'),
+(10715, '天國審判 {對戰用} 偵測'),
+(10716, '玄武岩戰鎚 {對戰用} HP吸收'),
+(10717, '玄武岩戰鎚 {對戰用} 強健'),
+(10718, '玄武岩戰鎚 {對戰用} 體力再生'),
+(10719, '狩龍之斧 {對戰用} 體力再生'),
+(10720, '狩龍之斧 {對戰用} 強健'),
+(10721, '狩龍之斧 {對戰用} HP吸收'),
+(10722, '天使殺手 {對戰用} Crt.傷害'),
+(10723, '天使殺手 {對戰用} HP吸收'),
+(10724, '天使殺手 {對戰用} 速度激發'),
+(10725, '聖者之矛 {對戰用} 強健'),
+(10726, '聖者之矛 {對戰用} 導引'),
+(10727, '聖者之矛 {對戰用} 速度激發'),
+(10728, '惡魔獵爪 {對戰用} 偵測'),
+(10729, '惡魔獵爪 {對戰用} 強健'),
+(10730, '惡魔獵爪 {對戰用} Crt.衝擊'),
+(10731, '祕儀權杖 {對戰用} 靈活思緒'),
+(10732, '祕儀權杖 {對戰用} 魔力再生'),
+(10733, '祕儀權杖 {對戰用} 魔力上升'),
+(10734, '帝國權杖 {對戰用} 魔力催化'),
+(10735, '帝國權杖 {對戰用} 魔力再生'),
+(10736, '帝國權杖 {對戰用} 魔法束縛'),
+(10737, '紅龍之弓 {對戰用} 節射'),
+(10738, '紅龍之弓 {對戰用} 偵測'),
+(10739, '紅龍之弓 {對戰用} Crt.緩速'),
+(10740, '烈焚天 {對戰用} 速度激發'),
+(10741, '烈焚天 {對戰用} 強健'),
+(10742, '烈焚天 {對戰用} 偵測'),
+(10743, '勝利之劍格蘭 {對戰用} 速度激發'),
+(10744, '勝利之劍格蘭 {對戰用} 強健'),
+(10745, '勝利之劍格蘭 {對戰用} 偵測'),
+(10746, '薩倫伽神弩 {對戰用} 節射'),
+(10747, '薩倫伽神弩 {對戰用} 偵測'),
+(10748, '薩倫伽神弩 {對戰用} Crt.緩速'),
+(10749, '塔魯刀*黑暗軍刀 {對戰用}'),
+(10750, '王朝劍 {對戰用} 偵測'),
+(10751, '王朝劍 {對戰用} 強健'),
+(10752, '王朝劍 {對戰用} 輕裝'),
+(10753, '王朝之刃 {對戰用} 偵測'),
+(10754, '王朝之刃 {對戰用} 強健'),
+(10755, '王朝之刃 {對戰用} 輕裝'),
+(10756, '王朝戰鎚 {對戰用} 怒擊'),
+(10757, '王朝戰鎚 {對戰用} 強健'),
+(10758, '王朝戰鎚 {對戰用} Rsk.偵測'),
+(10759, '王朝毀滅者 {對戰用} 怒擊'),
+(10760, '王朝毀滅者 {對戰用} 強健'),
+(10761, '王朝毀滅者 {對戰用} Rsk.偵測'),
+(10762, '王朝小刀 {對戰用} 偵測'),
+(10763, '王朝小刀 {對戰用} 迴避'),
+(10764, '王朝小刀 {對戰用} Crt.傷害'),
+(10765, '王朝長柄戰戟 {對戰用} 怒擊'),
+(10766, '王朝長柄戰戟 {對戰用} Crt.衝擊'),
+(10767, '王朝長柄戰戟 {對戰用} 輕裝'),
+(10768, '王朝拳套爪 {對戰用} Rsk.迴避'),
+(10769, '王朝拳套爪 {對戰用} 偵測'),
+(10770, '王朝拳套爪 {對戰用} 速度激發'),
+(10771, '王朝幻影劍 {對戰用} 靈活思緒'),
+(10772, '王朝幻影劍 {對戰用} 魔力上升'),
+(10773, '王朝幻影劍 {對戰用} 魂體轉換'),
+(10774, '王朝釘鎚 {對戰用} 魔力上升'),
+(10775, '王朝釘鎚 {對戰用} 魂體轉換'),
+(10776, '王朝釘鎚 {對戰用} 靈活思緒'),
+(10777, '王朝魔杖 {對戰用} 魔力上升'),
+(10778, '王朝魔杖 {對戰用} 魂體轉換'),
+(10779, '王朝魔杖 {對戰用} 靈活思緒'),
+(10780, '王朝弓 {對戰用} 節射'),
+(10781, '王朝弓 {對戰用} 導引'),
+(10782, '王朝弓 {對戰用} 偵測'),
+(10783, '王朝細劍 {對戰用} 偵測'),
+(10784, '王朝細劍 {對戰用} 強健'),
+(10785, '王朝細劍 {對戰用} 輕裝'),
+(10786, '王朝古代劍 {對戰用} 偵測'),
+(10787, '王朝古代劍 {對戰用} 強健'),
+(10788, '王朝古代劍 {對戰用} 輕裝'),
+(10789, '王朝十字弓 {對戰用} 節射'),
+(10790, '王朝十字弓 {對戰用} 導引'),
+(10791, '王朝十字弓 {對戰用} 偵測'),
+(10792, '王朝雙刀 {對戰用}'),
+(10870, '巨劍-雷鳴'),
+(10871, '巨劍-雷鳴 強健'),
+(10872, '巨劍-雷鳴 Crt.傷害'),
+(10873, '巨劍-雷鳴 偵測'),
+(10874, '巨斧-電擊'),
+(10875, '巨斧-電擊 怒擊'),
+(10876, '巨斧-電擊 Crt.衝擊'),
+(10877, '巨斧-電擊 輕裝'),
+(10878, '極限之劍*極限之劍-破壞'),
+(10879, '極限之劍*迷惑之劍-破壞'),
+(10880, '極限之劍*夢魘劍-破壞'),
+(10881, '極限之劍*大和劍-破壞'),
+(10882, '無名之勝-雷鳴'),
+(10883, '無名之勝-雷鳴 強健'),
+(10884, '無名之勝-雷鳴 Crt.傷害'),
+(10885, '無名之勝-雷鳴 偵測'),
+(10886, '黑暗精靈長弓-集中'),
+(10887, '黑暗精靈長弓-集中 迴避'),
+(10888, '黑暗精靈長弓-集中 Crt.出血'),
+(10889, '黑暗精靈長弓-集中 簡擊'),
+(10890, '迷惑之劍*迷惑之劍-破壞'),
+(10891, '迷惑之劍*夢魘劍-破壞'),
+(10892, '迷惑之劍*大和劍-破壞'),
+(10893, '聖堂之劍-自然'),
+(10894, '聖堂之劍-自然 靈活思緒'),
+(10895, '聖堂之劍-自然 魔法弱化'),
+(10896, '聖堂之劍-自然 魔法強癒'),
+(10897, '暴風之劍*瑟魯基長劍-破壞'),
+(10898, '破咒者-海嘯'),
+(10899, '破咒者-海嘯 靈活思緒'),
+(10900, '破咒者-海嘯 魔法心靈防護'),
+(10901, '破咒者-海嘯 魔法束縛'),
+(10902, '阿斯拉爪-破壞'),
+(10903, '阿斯拉爪-破壞 Crt.施毒'),
+(10904, '阿斯拉爪-破壞 Rsk.迴避'),
+(10905, '阿斯拉爪-破壞 Rsk.速度激發'),
+(10906, '暴風雪巨鎚-雷鳴'),
+(10907, '暴風雪巨鎚-雷鳴 偵測'),
+(10908, '暴風雪巨鎚-雷鳴 怒擊'),
+(10909, '暴風雪巨鎚-雷鳴 Crt.出血'),
+(10910, '夢魘劍*夢魘劍-破壞'),
+(10911, '夢魘劍*大和劍-破壞'),
+(10912, '突襲鈍劍-破壞'),
+(10913, '突襲鈍劍-破壞 導引'),
+(10914, '突襲鈍劍-破壞 偵測'),
+(10915, '突襲鈍劍-破壞 背擊'),
+(10916, '精靈魔杖-海嘯'),
+(10917, '精靈魔杖-海嘯 魔法強癒'),
+(10918, '精靈魔杖-海嘯 魔法心靈防護'),
+(10919, '精靈魔杖-海嘯 魔法束縛'),
+(10920, '大和劍*大和劍-破壞'),
+(10921, '卡里埔士劍*極限之劍-破壞'),
+(10922, '卡里埔士劍*迷惑之劍-破壞'),
+(10923, '卡里埔士劍*夢魘劍-破壞'),
+(10924, '卡里埔士劍*大和劍-破壞'),
+(10925, '卡里埔士劍*卡里埔士劍-破壞'),
+(10926, '波形刃-混亂'),
+(10927, '波形刃-混亂 迴避'),
+(10928, '波形刃-混亂 偵測'),
+(10929, '波形刃-混亂 背擊'),
+(10930, '柯貝克劍-破壞'),
+(10931, '柯貝克劍-破壞 導引'),
+(10932, '柯貝克劍-破壞 偵測'),
+(10933, '柯貝克劍-破壞 背擊'),
+(10934, '和平使者-集中'),
+(10935, '和平使者-集中 迴避'),
+(10936, '和平使者-集中 Crt.出血'),
+(10937, '和平使者-集中 簡擊'),
+(10938, '巨大戰斧-大地'),
+(10939, '巨大戰斧-大地 怒擊'),
+(10940, '巨大戰斧-大地 強健'),
+(10941, '巨大戰斧-大地 Rsk.偵測'),
+(10942, '地獄刀-混亂'),
+(10943, '地獄刀-混亂 魔法強癒'),
+(10944, '地獄刀-混亂 魔法心靈防護'),
+(10945, '地獄刀-混亂 魔法弱化'),
+(10946, '襲擊劍*瑟魯基長劍-破壞'),
+(10947, '彎刀*瑟魯基長劍-破壞'),
+(10948, '靈魂之劍*瑟魯基長劍-破壞'),
+(10949, '武士刀*瑟魯基長劍-破壞'),
+(10950, '極限之劍*瑟魯基長劍-破壞'),
+(10951, '迷惑之劍*瑟魯基長劍-破壞'),
+(10952, '夢魘劍*瑟魯基長劍-破壞'),
+(10953, '大和劍*瑟魯基長劍-破壞'),
+(10954, '卡里埔士劍*瑟魯基長劍-破壞'),
+(10955, '守護神之劍-疾風'),
+(10956, '守護神之劍-疾風 Crt.吸收'),
+(10957, '守護神之劍-疾風 強健'),
+(10958, '守護神之劍-疾風 Crt.出血'),
+(10959, '大馬士革刀-大地'),
+(10960, '大馬士革刀-大地 偵測'),
+(10961, '大馬士革刀-大地 Crt.傷害'),
+(10962, '大馬士革刀-大地 速度激發'),
+(10963, '裂解劍-疾風'),
+(10964, '裂解劍-疾風 Crt.吸收'),
+(10965, '裂解劍-疾風 強健'),
+(10966, '裂解劍-疾風 Crt.出血'),
+(10967, '長槍-大地'),
+(10968, '長槍-大地 怒擊'),
+(10969, '長槍-大地 Crt.衝擊'),
+(10970, '長槍-大地 遠程打擊'),
+(10971, '博利恩拳套-疾風'),
+(10972, '博利恩拳套-疾風 Crt.吸收'),
+(10973, '博利恩拳套-疾風 Crt.施毒'),
+(10974, '博利恩拳套-疾風 Rsk.速度激發'),
+(10975, '邪靈魔杖-聖靈'),
+(10976, '邪靈魔杖-聖靈 魔法偵測'),
+(10977, '邪靈魔杖-聖靈 魔法神佑之體'),
+(10978, '邪靈魔杖-聖靈 魔法毒咒'),
+(10979, '亡者榮譽-山崩'),
+(10980, '亡者榮譽-山崩 怒擊'),
+(10981, '亡者榮譽-山崩 強健'),
+(10982, '亡者榮譽-山崩 速度激發'),
+(10983, '星爆-疾風'),
+(10984, '星爆-疾風 強健'),
+(10985, '星爆-疾風 速度激發'),
+(10986, '星爆-疾風 Rsk.偵測'),
+(10987, '瑟魯基長劍*瑟魯基長劍-山崩'),
+(10988, '工藝戰斧-山崩'),
+(10989, '工藝戰斧-山崩 強健'),
+(10990, '工藝戰斧-山崩 Rsk.偵測'),
+(10991, '工藝戰斧-山崩 速度激發'),
+(10992, '惡魔短劍-疾風'),
+(10993, '惡魔短劍-疾風 Crt.出血'),
+(10994, '惡魔短劍-疾風 Crt.施毒'),
+(10995, '惡魔短劍-疾風 致命力量'),
+(10996, '惡魔短劍-疾風 Crt.傷害'),
+(10997, '卡倚巴奴之骨-大地'),
+(10998, '卡倚巴奴之骨-大地 魔力上升'),
+(10999, '卡倚巴奴之骨-大地 魔法沉默'),
+(11000, '卡倚巴奴之骨-大地 魂體轉換'),
+(11001, '華麗細劍-大地'),
+(11002, '華麗細劍-大地 偵測'),
+(11003, '華麗細劍-大地 Crt.傷害'),
+(11004, '華麗細劍-大地 速度激發'),
+(11005, '巫師之淚-聰明'),
+(11006, '巫師之淚-聰明 靈活思緒'),
+(11007, '巫師之淚-聰明 魔法之力'),
+(11008, '巫師之淚-聰明 魂體轉換'),
+(11009, '冒險弓-大地'),
+(11010, '冒險弓-大地 導引'),
+(11011, '冒險弓-大地 快速恢復'),
+(11012, '冒險弓-大地 節射'),
+(11013, '冥犬之牙-大地'),
+(11014, '冥犬之牙-大地 導引'),
+(11015, '冥犬之牙-大地 快速恢復'),
+(11016, '冥犬之牙-大地 節射'),
+(11017, '帕黎恩魔杖-海嘯'),
+(11018, '帕黎恩魔杖-海嘯 魔力上升'),
+(11019, '帕黎恩魔杖-海嘯 魂體轉換'),
+(11020, '帕黎恩魔杖-海嘯 靈活思緒'),
+(11021, '末日咒詛-集中'),
+(11022, '末日咒詛-集中 輕裝'),
+(11023, '末日咒詛-集中 Crt.出血'),
+(11024, '末日咒詛-集中 魔力上升'),
+(11025, '天雷-破壞'),
+(11026, '天雷-破壞 Crt.施毒'),
+(11027, '天雷-破壞 速度激發'),
+(11028, '天雷-破壞 怒擊'),
+(11029, '流星雨-大地'),
+(11030, '流星雨-大地 偵測'),
+(11031, '流星雨-大地 Crt.出血'),
+(11032, '流星雨-大地 Rsk.速度激發'),
+(11033, '血旋風-破壞'),
+(11034, '血旋風-破壞 速度激發'),
+(11035, '血旋風-破壞 偵測'),
+(11036, '血旋風-破壞 怒擊'),
+(11037, '血腥之蘭-混亂'),
+(11038, '血腥之蘭-混亂 偵測'),
+(11039, '血腥之蘭-混亂 背擊'),
+(11040, '血腥之蘭-混亂 Crt.出血'),
+(11041, '元素劍-海嘯'),
+(11042, '元素劍-海嘯 魔法之力'),
+(11043, '元素劍-海嘯 魔法麻痺'),
+(11044, '元素劍-海嘯 魔力催化'),
+(11045, '英魂之眼-海嘯'),
+(11046, '英魂之眼-海嘯 魔力上升'),
+(11047, '英魂之眼-海嘯 魔法毒咒'),
+(11048, '英魂之眼-海嘯 靈活思緒'),
+(11049, '煉獄之主-集中'),
+(11050, '煉獄之主-集中 速度激發'),
+(11051, '煉獄之主-集中 Crt.傷害'),
+(11052, '煉獄之主-集中 偵測'),
+(11053, '顱之弓-集中'),
+(11054, '顱之弓-集中 輕裝'),
+(11055, '顱之弓-集中 Crt.出血'),
+(11056, '顱之弓-集中 魔力上升'),
+(11057, '柯貝克劍*柯貝克劍-破壞'),
+(11058, '塔魯刀-破壞'),
+(11059, '塔魯刀-破壞 Crt.施毒'),
+(11060, '塔魯刀-破壞 速度激發'),
+(11061, '塔魯刀-破壞 怒擊'),
+(11062, '破壞者巨鎚-雷鳴'),
+(11063, '破壞者巨鎚-雷鳴 強健'),
+(11064, '破壞者巨鎚-雷鳴 速度激發'),
+(11065, '破壞者巨鎚-雷鳴 Crt.吸收'),
+(11066, '神怨-集中'),
+(11067, '神怨-集中 速度激發'),
+(11068, '神怨-集中 Crt.傷害'),
+(11069, '神怨-集中 偵測'),
+(11070, '長柄戰戟-雷鳴'),
+(11071, '長柄戰戟-雷鳴 速度激發'),
+(11072, '長柄戰戟-雷鳴 Crt.衝擊'),
+(11073, '長柄戰戟-雷鳴 寬幅打擊'),
+(11074, '柯貝克劍*大馬士革刀-破壞'),
+(11075, '貪婪刺劍-電擊'),
+(11076, '貪婪刺劍-電擊 Crt.傷害'),
+(11077, '貪婪刺劍-電擊 強健'),
+(11078, '貪婪刺劍-電擊 Rsk.偵測'),
+(11079, '大馬士革刀*大馬士革刀-電擊'),
+(11080, '黑暗軍刀-電擊'),
+(11081, '黑暗軍刀-電擊 Crt.傷害'),
+(11082, '黑暗軍刀-電擊 強健'),
+(11083, '黑暗軍刀-電擊 Rsk.偵測'),
+(11084, '死神使者-惡靈'),
+(11085, '死神使者-惡靈 強健'),
+(11086, '死神使者-惡靈 Crt.出血'),
+(11087, '死神使者-惡靈 Crt.吸收'),
+(11088, '末日毀滅者-電擊'),
+(11089, '末日毀滅者-電擊 強健'),
+(11090, '末日毀滅者-電擊 怒擊'),
+(11091, '末日毀滅者-電擊 Rsk.速度激發'),
+(11092, '龍牙-大地'),
+(11093, '龍牙-大地 Rsk.迴避'),
+(11094, '龍牙-大地 導引'),
+(11095, '龍牙-大地 強健'),
+(11096, '斬龍刀-惡靈'),
+(11097, '斬龍刀-惡靈 強健'),
+(11098, '斬龍刀-惡靈 Crt.出血'),
+(11099, '斬龍刀-惡靈 Crt.吸收'),
+(11100, '火龍之首-智慧'),
+(11101, '火龍之首-智慧 靈活思緒'),
+(11102, '火龍之首-智慧 魔法之力'),
+(11103, '火龍之首-智慧 魔法沉默'),
+(11104, '世界樹樹枝-自然'),
+(11105, '世界樹樹枝-自然 魂體轉換'),
+(11106, '世界樹樹枝-自然 魔法傷害'),
+(11107, '世界樹樹枝-自然 靈活思緒'),
+(11108, '奇蹟劍-聖靈'),
+(11109, '奇蹟劍-聖靈 魔法之力'),
+(11110, '奇蹟劍-聖靈 魔法沉默'),
+(11111, '奇蹟劍-聖靈 靈活思緒'),
+(11112, '靈魂弩-千里眼'),
+(11113, '靈魂弩-千里眼 節射'),
+(11114, '靈魂弩-千里眼 快速恢復'),
+(11115, '靈魂弩-千里眼 Crt.施毒'),
+(11116, '魂體分離器-溫和'),
+(11117, '魂體分離器-溫和 導引'),
+(11118, '魂體分離器-溫和 Crt.傷害'),
+(11119, '魂體分離器-溫和 Rsk.速度激發'),
+(11120, '樂園-疾風'),
+(11121, '樂園-疾風 強健'),
+(11122, '樂園-疾風 怒擊'),
+(11123, '樂園-疾風 Crt.吸收'),
+(11124, '靈魂弓-千里眼'),
+(11125, '靈魂弓-千里眼 節射'),
+(11126, '靈魂弓-千里眼 快速恢復'),
+(11127, '靈魂弓-千里眼 Crt.施毒'),
+(11128, '塔魯闊矛-溫和'),
+(11129, '塔魯闊矛-溫和 導引'),
+(11130, '塔魯闊矛-溫和 強健'),
+(11131, '塔魯闊矛-溫和 寬幅打擊'),
+(11132, '強化地獄犬狼牙'),
+(11133, '那卡風暴-臼齒'),
+(11134, '那卡風暴-臼齒 偵測'),
+(11135, '那卡風暴-臼齒 Crt.傷害'),
+(11136, '那卡風暴-臼齒 背擊'),
+(11137, '惡魔結晶-智慧'),
+(11138, '惡魔結晶-智慧 魔力上升'),
+(11139, '惡魔結晶-智慧 靈活思緒'),
+(11140, '惡魔結晶-智慧 魔法心靈防護'),
+(11141, '貝拉凱爾聖斧-溫和'),
+(11142, '貝拉凱爾聖斧-溫和 強健'),
+(11143, '貝拉凱爾聖斧-溫和 速度激發'),
+(11144, '貝拉凱爾聖斧-溫和 偵測'),
+(11145, '復仇爆弩-集中'),
+(11146, '復仇爆弩-集中 節射'),
+(11147, '復仇爆弩-集中 偵測'),
+(11148, '復仇爆弩-集中 快速恢復'),
+(11149, '貝希莫斯巨叉-破壞'),
+(11150, '貝希莫斯巨叉-破壞 偵測'),
+(11151, '貝希莫斯巨叉-破壞 強健'),
+(11152, '貝希莫斯巨叉-破壞 怒擊'),
+(11153, '光明守護之劍-大地'),
+(11154, '光明守護之劍-大地 偵測'),
+(11155, '光明守護之劍-大地 速度激發'),
+(11156, '光明守護之劍-大地 強健'),
+(11157, '夏伊德獵弓-集中'),
+(11158, '夏伊德獵弓-集中 節射'),
+(11159, '夏伊德獵弓-集中 偵測'),
+(11160, '夏伊德獵弓-集中 快速恢復'),
+(11161, '伊波斯巨劍-大地'),
+(11162, '伊波斯巨劍-大地 偵測'),
+(11163, '伊波斯巨劍-大地 速度激發'),
+(11164, '伊波斯巨劍-大地 強健'),
+(11165, '索貝克颶風-山崩'),
+(11166, '索貝克颶風-山崩 Rsk.速度激發'),
+(11167, '索貝克颶風-山崩 速度激發'),
+(11168, '索貝克颶風-山崩 Crt.吸收'),
+(11169, '希露冰刃-山崩'),
+(11170, '希露冰刃-山崩 速度激發'),
+(11171, '希露冰刃-山崩 強健'),
+(11172, '希露冰刃-山崩 Crt.施毒'),
+(11173, '閃光之珠-山崩'),
+(11174, '閃光之珠-山崩 速度激發'),
+(11175, '閃光之珠-山崩 強健'),
+(11176, '閃光之珠-山崩 Crt.施毒'),
+(11177, '岱依封長戟-山崩'),
+(11178, '岱依封長戟-山崩 Crt.衝擊'),
+(11179, '岱依封長戟-山崩 遠程打擊'),
+(11180, '岱依封長戟-山崩 寬幅打擊'),
+(11181, '塔魯刀*大馬士革刀-山崩'),
+(11182, '緹米絲之舌-聰明'),
+(11183, '緹米絲之舌-聰明 魔力上升'),
+(11184, '緹米絲之舌-聰明 魔法心靈防護'),
+(11185, '緹米絲之舌-聰明 魔法偵測'),
+(11186, '卡布里歐之手-聰明'),
+(11187, '卡布里歐之手-聰明 魂體轉換'),
+(11188, '卡布里歐之手-聰明 魔力上升'),
+(11189, '卡布里歐之手-聰明 魔法沉默'),
+(11190, '勝利之劍格蘭-電擊'),
+(11191, '勝利之劍格蘭-電擊 速度激發'),
+(11192, '勝利之劍格蘭-電擊 強健'),
+(11193, '勝利之劍格蘭-電擊 偵測'),
+(11194, '惡魔獵爪-電擊'),
+(11195, '惡魔獵爪-電擊 偵測'),
+(11196, '惡魔獵爪-電擊 強健'),
+(11197, '惡魔獵爪-電擊 Crt.衝擊'),
+(11198, '紅龍之弓-大地'),
+(11199, '紅龍之弓-大地 節射'),
+(11200, '紅龍之弓-大地 偵測'),
+(11201, '紅龍之弓-大地 Crt.緩速'),
+(11202, '狩龍之斧-電擊'),
+(11203, '狩龍之斧-電擊 體力再生'),
+(11204, '狩龍之斧-電擊 強健'),
+(11205, '狩龍之斧-電擊 HP吸收'),
+(11206, '烈焚天-雷鳴'),
+(11207, '烈焚天-雷鳴 速度激發'),
+(11208, '烈焚天-雷鳴 強健'),
+(11209, '烈焚天-雷鳴 偵測'),
+(11210, '玄武岩戰鎚-集中'),
+(11211, '玄武岩戰鎚-集中 HP吸收'),
+(11212, '玄武岩戰鎚-集中 強健'),
+(11213, '玄武岩戰鎚-集中 體力再生'),
+(11214, '薩倫伽神弩-大地'),
+(11215, '薩倫伽神弩-大地 節射'),
+(11216, '薩倫伽神弩-大地 偵測'),
+(11217, '薩倫伽神弩-大地 Crt.緩速'),
+(11218, '聖者之矛-破壞'),
+(11219, '聖者之矛-破壞 強健'),
+(11220, '聖者之矛-破壞 導引'),
+(11221, '聖者之矛-破壞 速度激發'),
+(11222, '祕儀權杖-自然'),
+(11223, '祕儀權杖-自然 靈活思緒'),
+(11224, '祕儀權杖-自然 魔力再生'),
+(11225, '祕儀權杖-自然 魔力上升'),
+(11226, '天使殺手-集中'),
+(11227, '天使殺手-集中 Crt.傷害'),
+(11228, '天使殺手-集中 HP吸收'),
+(11229, '天使殺手-集中 速度激發'),
+(11230, '帝國權杖-自然'),
+(11231, '帝國權杖-自然 魔力催化'),
+(11232, '帝國權杖-自然 魔力再生'),
+(11233, '帝國權杖-自然 魔法束縛'),
+(11234, '塔魯刀*黑暗軍刀-雷鳴'),
+(11235, '忘卻之刃-雷鳴'),
+(11236, '忘卻之刃-雷鳴 速度激發'),
+(11237, '忘卻之刃-雷鳴 強健'),
+(11238, '忘卻之刃-雷鳴 偵測'),
+(11239, '天國審判-電擊'),
+(11240, '天國審判-電擊 速度激發'),
+(11241, '天國審判-電擊 強健'),
+(11242, '天國審判-電擊 偵測'),
+(11243, '王朝古代劍-疾風'),
+(11244, '王朝古代劍-疾風 偵測'),
+(11245, '王朝古代劍-疾風 強健'),
+(11246, '王朝古代劍-疾風 輕裝'),
+(11247, '王朝小刀-疾風'),
+(11248, '王朝小刀-疾風 偵測'),
+(11249, '王朝小刀-疾風 迴避'),
+(11250, '王朝小刀-疾風 Crt.傷害'),
+(11251, '王朝雙刀-大地'),
+(11252, '王朝細劍-大地'),
+(11253, '王朝細劍-大地 偵測'),
+(11254, '王朝細劍-大地 強健'),
+(11255, '王朝細劍-大地 輕裝'),
+(11256, '王朝釘鎚-大地'),
+(11257, '王朝釘鎚-大地 魔力上升'),
+(11258, '王朝釘鎚-大地 魂體轉換'),
+(11259, '王朝釘鎚-大地 靈活思緒'),
+(11260, '王朝拳套爪-疾風'),
+(11261, '王朝拳套爪-疾風 Rsk.迴避'),
+(11262, '王朝拳套爪-疾風 偵測'),
+(11263, '王朝拳套爪-疾風 速度激發'),
+(11264, '王朝弓-疾風'),
+(11265, '王朝弓-疾風 節射'),
+(11266, '王朝弓-疾風 導引'),
+(11267, '王朝弓-疾風 偵測'),
+(11268, '王朝之刃-疾風'),
+(11269, '王朝之刃-疾風 偵測'),
+(11270, '王朝之刃-疾風 強健'),
+(11271, '王朝之刃-疾風 輕裝'),
+(11272, '王朝劍-大地'),
+(11273, '王朝劍-大地 偵測'),
+(11274, '王朝劍-大地 強健'),
+(11275, '王朝劍-大地 輕裝'),
+(11276, '王朝魔杖-聖靈'),
+(11277, '王朝魔杖-聖靈 魔力上升'),
+(11278, '王朝魔杖-聖靈 魂體轉換'),
+(11279, '王朝魔杖-聖靈 靈活思緒'),
+(11280, '王朝戰鎚-山崩'),
+(11281, '王朝戰鎚-山崩 怒擊'),
+(11282, '王朝戰鎚-山崩 強健'),
+(11283, '王朝戰鎚-山崩 Rsk.偵測'),
+(11284, '王朝毀滅者-疾風'),
+(11285, '王朝毀滅者-疾風 怒擊'),
+(11286, '王朝毀滅者-疾風 強健'),
+(11287, '王朝毀滅者-疾風 Rsk.偵測'),
+(11288, '王朝十字弓-疾風'),
+(11289, '王朝十字弓-疾風 節射'),
+(11290, '王朝十字弓-疾風 導引'),
+(11291, '王朝十字弓-疾風 偵測'),
+(11292, '王朝幻影劍-自然'),
+(11293, '王朝幻影劍-自然 靈活思緒'),
+(11294, '王朝幻影劍-自然 魔力上升'),
+(11295, '王朝幻影劍-自然 魂體轉換'),
+(11296, '王朝長柄戰戟-大地'),
+(11297, '王朝長柄戰戟-大地 怒擊'),
+(11298, '王朝長柄戰戟-大地 Crt.衝擊'),
+(11299, '王朝長柄戰戟-大地 輕裝'),
+(11300, '伊克魯斯雙刀-破壞'),
+(11301, '伊克魯斯分解者-混亂'),
+(11302, '伊克魯斯分解者-混亂 偵測'),
+(11303, '伊克魯斯分解者-混亂 迴避'),
+(11304, '伊克魯斯分解者-混亂 Crt.傷害'),
+(11305, '伊克魯斯之劍-破壞'),
+(11306, '伊克魯斯之劍-破壞 偵測'),
+(11307, '伊克魯斯之劍-破壞 強健'),
+(11308, '伊克魯斯之劍-破壞 輕裝'),
+(11309, '伊克魯斯之弩-集中'),
+(11310, '伊克魯斯之弩-集中 節射'),
+(11311, '伊克魯斯之弩-集中 導引'),
+(11312, '伊克魯斯之弩-集中 偵測'),
+(11313, '伊克魯斯刺劍-破壞'),
+(11314, '伊克魯斯刺劍-破壞 偵測'),
+(11315, '伊克魯斯刺劍-破壞 強健'),
+(11316, '伊克魯斯刺劍-破壞 輕裝'),
+(11317, '伊克魯斯之靈-自然'),
+(11318, '伊克魯斯之靈-自然 靈活思緒'),
+(11319, '伊克魯斯之靈-自然 魔力上升'),
+(11320, '伊克魯斯之靈-自然 魂體轉換'),
+(11321, '伊克魯斯之弓-集中'),
+(11322, '伊克魯斯之弓-集中 節射'),
+(11323, '伊克魯斯之弓-集中 導引'),
+(11324, '伊克魯斯之弓-集中 偵測'),
+(11325, '伊克魯斯翼刃-雷鳴'),
+(11326, '伊克魯斯翼刃-雷鳴 偵測'),
+(11327, '伊克魯斯翼刃-雷鳴 強健'),
+(11328, '伊克魯斯翼刃-雷鳴 輕裝'),
+(11329, '伊克魯斯三叉戟-電擊'),
+(11330, '伊克魯斯三叉戟-電擊 怒擊'),
+(11331, '伊克魯斯三叉戟-電擊 Crt.衝擊'),
+(11332, '伊克魯斯三叉戟-電擊 輕裝'),
+(11333, '伊克魯斯之鎚-大地'),
+(11334, '伊克魯斯之鎚-大地 怒擊'),
+(11335, '伊克魯斯之鎚-大地 強健'),
+(11336, '伊克魯斯之鎚-大地 Rsk.偵測'),
+(11337, '伊克魯斯之手-破壞'),
+(11338, '伊克魯斯之手-破壞 Rsk.迴避'),
+(11339, '伊克魯斯之手-破壞 偵測'),
+(11340, '伊克魯斯之手-破壞 速度激發'),
+(11341, '伊克魯斯重兵刃-雷鳴'),
+(11342, '伊克魯斯重兵刃-雷鳴 偵測'),
+(11343, '伊克魯斯重兵刃-雷鳴 強健'),
+(11344, '伊克魯斯重兵刃-雷鳴 輕裝'),
+(11345, '伊克魯斯手杖-海嘯'),
+(11346, '伊克魯斯手杖-海嘯 魔力上升'),
+(11347, '伊克魯斯手杖-海嘯 魂體轉換'),
+(11348, '伊克魯斯手杖-海嘯 靈活思緒'),
+(11362, '夏隆盾'),
+(11374, '阿巴敦盾'),
+(11385, '末日盾'),
+(11416, '黑暗水晶盾'),
+(11425, '封印的黑暗水晶盾'),
+(11469, '封印的夢魘盾'),
+(11480, '夢魘盾'),
+(11502, '封印的帝國聖軍盾'),
+(11508, '帝國聖軍盾'),
+(11532, '王朝盾'),
+(11569, '封印的王朝盾'),
+(11605, '基本型-鋼劍'),
+(11606, '基本型-強化弓'),
+(11607, '基本型-細劍'),
+(11608, '基本型-拳套爪'),
+(11609, '基本型-復仇的證據'),
+(11610, '基本型-骨頭魔杖'),
+(11611, '基本型-祭司之劍'),
+(11612, '基本型-生命樹枝'),
+(11613, '基本型-手工匕首'),
+(11614, '基本型-軍刀'),
+(11615, '基本型-解剖刀'),
+(11616, '基本型-深淵誘惑'),
+(11617, '基本型-刺客刀'),
+(11618, '基本型-工作鎚'),
+(11619, '基本型-智慧卷軸'),
+(11620, '基本型-曲刀'),
+(11621, '基本型-曲刀'),
+(11622, '基本型-三叉戟'),
+(11623, '基本型-手斧'),
+(11624, '基本型-獵槍'),
+(11625, '基本型-重型劍'),
+(11626, '基本型-巨大釘鎚'),
+(11627, '基本型-祈禱者之鎚'),
+(11628, '基本型-騎士劍'),
+(11629, '基本型-黑暗精靈弓'),
+(11630, '基本型-末日之鎚'),
+(11631, '基本型-矮人三叉戟'),
+(11632, '基本型-長弓'),
+(11633, '基本型-瑪那魔杖'),
+(11634, '基本型-神祕魔杖'),
+(11635, '基本型-重劍'),
+(11636, '基本型-椎骨之劍'),
+(11637, '基本型-神聖的卷冊'),
+(11638, '基本型-審判之鎚'),
+(11639, '基本型-突襲曲刀'),
+(11640, '基本型-精靈弓'),
+(11641, '基本型-奇蹟之鎚'),
+(11642, '基本型-單刃刀'),
+(11643, '基本型-工匠之劍'),
+(11644, '基本型-法咒魔杖'),
+(11645, '基本型-鷹之斧'),
+(11646, '基本型-短匕首'),
+(11647, '基本型-矛'),
+(11648, '基本型-鈍劍'),
+(11649, '基本型-鈍劍'),
+(11650, '基本型-鈍劍'),
+(11651, '基本型-鈍劍'),
+(11652, '基本型-短弩'),
+(11653, '基本型-短弩'),
+(11654, '基本型-短弩'),
+(11655, '基本型-魔法之劍'),
+(11656, '基本型-神祕劍'),
+(11657, '基本型-密術劍'),
+(11658, '基本型-軍刀*軍刀'),
+(11659, '基本型-腰弩'),
+(11660, '基本型-森林神之刀'),
+(11661, '基本型-矮人之矛'),
+(11662, '基本型-瑪那匕首'),
+(11663, '基本型-巫術魔杖'),
+(11664, '基本型-神祕刀'),
+(11665, '基本型-三刃刀'),
+(11666, '基本型-狼牙棒'),
+(11667, '基本型-雙手劍'),
+(11668, '基本型-刺劍'),
+(11669, '基本型-刺劍'),
+(11670, '基本型-精靈劍'),
+(11671, '基本型-戰鎚'),
+(11672, '基本型-法咒刀'),
+(11673, '基本型-反曲刀'),
+(11674, '基本型-十字弓'),
+(11675, '基本型-緋紅劍'),
+(11676, '基本型-染血卷冊'),
+(11677, '基本型-獵劍'),
+(11678, '基本型-聖者之血'),
+(11679, '基本型-軍刀*騎士劍'),
+(11680, '基本型-軍刀*重劍'),
+(11681, '基本型-軍刀*椎骨之劍'),
+(11682, '基本型-軍刀*工匠之劍'),
+(11683, '基本型-強化長弓'),
+(11684, '基本型-騎士劍*騎士劍'),
+(11685, '基本型-突刺刀'),
+(11686, '基本型-流星鎚'),
+(11687, '基本型-重劍*騎士劍'),
+(11688, '基本型-重劍*重劍'),
+(11689, '基本型-重劍*椎骨之劍'),
+(11690, '基本型-重劍*工匠之劍'),
+(11691, '基本型-拳套刀'),
+(11692, '基本型-祭司釘鎚'),
+(11693, '基本型-山羊頭之杖'),
+(11694, '基本型-軍刀*精靈劍'),
+(11695, '基本型-軍刀*緋紅劍'),
+(11696, '基本型-魔霧之劍'),
+(11697, '基本型-頭顱破壞者'),
+(11698, '基本型-椎骨之劍*騎士劍'),
+(11699, '基本型-椎骨之劍*椎骨之劍'),
+(11700, '基本型-椎骨之劍*工匠之劍'),
+(11701, '基本型-爆破之臂'),
+(11702, '基本型-銳劍'),
+(11703, '基本型-翼之矛'),
+(11704, '基本型-工匠之劍*騎士劍'),
+(11705, '基本型-工匠之劍*工匠之劍'),
+(11706, '基本型-受詛咒的突刺刀'),
+(11707, '基本型-格鬥劍'),
+(11708, '基本型-塔巴曲刃斧'),
+(11709, '基本型-染血十字架'),
+(11710, '基本型-下巨人之劍'),
+(11711, '基本型-下巨人之鎚'),
+(11712, '基本型-火鎚'),
+(11713, '基本型-巨大骨棒'),
+(11714, '基本型-革命劍'),
+(11715, '基本型-惡魔尖牙'),
+(11716, '基本型-騎士劍*精靈劍'),
+(11717, '基本型-騎士劍*緋紅劍'),
+(11718, '基本型-重劍*精靈劍'),
+(11719, '基本型-重劍*緋紅劍'),
+(11720, '基本型-椎骨之劍*精靈劍'),
+(11721, '基本型-椎骨之劍*緋紅劍'),
+(11722, '基本型-工匠之劍*精靈劍'),
+(11723, '基本型-工匠之劍*緋紅劍'),
+(11724, '基本型-巨銳劍'),
+(11725, '基本型-闊矛'),
+(11726, '基本型-米索莉匕首'),
+(11727, '基本型-碎骨者'),
+(11728, '基本型-風暴弓'),
+(11729, '基本型-生命手杖'),
+(11730, '基本型-波浪刀'),
+(11731, '基本型-阿吐巴釘鎚'),
+(11732, '基本型-阿吐巴鎚'),
+(11733, '基本型-精靈長劍'),
+(11734, '基本型-將軍格鬥劍'),
+(11735, '基本型-齒輪弩'),
+(11736, '基本型-雙刃大砍刀'),
+(11737, '基本型-魂靈魔杖'),
+(11738, '基本型-軍刀*革命劍'),
+(11739, '基本型-精靈劍*精靈劍'),
+(11740, '基本型-緋紅劍*精靈劍'),
+(11741, '基本型-緋紅劍*緋紅劍'),
+(11742, '基本型-騎士劍*革命劍'),
+(11743, '基本型-重劍*革命劍'),
+(11744, '基本型-椎骨之劍*革命劍'),
+(11745, '基本型-工匠之劍*革命劍'),
+(11746, '基本型-狼之針'),
+(11747, '基本型-黑暗精靈匕首'),
+(11748, '基本型-奧祕之刃'),
+(11749, '基本型-殺戮者'),
+(11750, '基本型-戰斧'),
+(11751, '基本型-大鐮刀'),
+(11752, '基本型-軍刀*精靈長劍'),
+(11753, '基本型-軍用刺劍'),
+(11754, '基本型-席拉格重劍'),
+(11755, '基本型-顱骨雕刻者'),
+(11756, '基本型-暴風之劍'),
+(11757, '基本型-信仰手杖'),
+(11758, '基本型-強弩'),
+(11759, '基本型-冰晶弓'),
+(11760, '基本型-歐西斯闊矛'),
+(11761, '基本型-戰錐'),
+(11762, '基本型-受詛咒的匕首'),
+(11763, '基本型-圓月輪'),
+(11764, '基本型-水晶魔杖'),
+(11765, '基本型-重鎚'),
+(11766, '基本型-焰形劍'),
+(11767, '基本型-巨大末日斧'),
+(11768, '基本型-巨大末日鎚'),
+(11769, '基本型-騎士劍*精靈長劍'),
+(11770, '基本型-重劍*精靈長劍'),
+(11771, '基本型-椎骨之劍*精靈長劍'),
+(11772, '基本型-精靈劍*革命劍'),
+(11773, '基本型-工匠之劍*精靈長劍'),
+(11774, '基本型-緋紅劍*革命劍'),
+(11775, '基本型-高級精靈弓'),
+(11776, '基本型-關節拳'),
+(11777, '基本型-矮人戰鎚'),
+(11778, '基本型-襲擊劍'),
+(11779, '基本型-魔炎匕首'),
+(11780, '基本型-弩砲'),
+(11781, '基本型-弩砲'),
+(11782, '基本型-貝卡合金'),
+(11783, '基本型-彎刀'),
+(11784, '基本型-騎兵細劍'),
+(11785, '基本型-騎兵細劍'),
+(11786, '基本型-騎兵細劍'),
+(11787, '基本型-騎兵細劍'),
+(11788, '基本型-袖珍刀'),
+(11789, '基本型-靈魂之劍'),
+(11790, '基本型-元素弓'),
+(11791, '基本型-精靈劍*精靈長劍'),
+(11792, '基本型-榮譽號角'),
+(11793, '基本型-受詛咒的魔杖'),
+(11794, '基本型-武士刀'),
+(11795, '基本型-緋紅劍*精靈長劍'),
+(11796, '基本型-革命劍*革命劍'),
+(11797, '基本型-革命劍*精靈長劍'),
+(11798, '基本型-精靈長劍*精靈長劍'),
+(11799, '基本型-永恆手杖'),
+(11800, '基本型-優雅匕首'),
+(11801, '基本型-極限之劍'),
+(11802, '基本型-夢想斧'),
+(11803, '基本型-黑暗狂嘯者'),
+(11804, '基本型-自然之棍'),
+(11805, '基本型-死息之劍'),
+(11806, '基本型-煉獄之鎚'),
+(11807, '基本型-迷惑之劍'),
+(11808, '基本型-瞬殺使者'),
+(11809, '基本型-瞬殺使者'),
+(11810, '基本型-瞬殺使者'),
+(11811, '基本型-瞬殺使者'),
+(11812, '基本型-瞬殺使者'),
+(11813, '基本型-帕格立歐之劍'),
+(11814, '基本型-阿卡特長弓'),
+(11815, '基本型-夢魘劍'),
+(11816, '基本型-巨戰斧'),
+(11817, '基本型-異教徒之書'),
+(11818, '基本型-莫北巨刃'),
+(11819, '基本型-地獄魔杖'),
+(11820, '基本型-大和劍'),
+(11821, '基本型-卡里埔士劍'),
+(11822, '基本型-卡拉克的角'),
+(11823, '基本型-塔斯蘭弩'),
+(11824, '基本型-帕格立歐之鎚'),
+(11825, '基本型-佩勒迪亞魔杖'),
+(11826, '基本型-長柄戰斧'),
+(11827, '基本型-拳刃'),
+(11828, '基本型-賢者魔杖'),
+(11829, '基本型-何門奎思之劍'),
+(11830, '基本型-蠍子'),
+(11831, '基本型-暴風之劍*暴風之劍'),
+(11832, '基本型-黑寡婦'),
+(11833, '基本型-帕格立歐之斧'),
+(11834, '基本型-暴風之劍*襲擊劍'),
+(11835, '基本型-暴風之劍*彎刀'),
+(11836, '基本型-暴風之劍*靈魂之劍'),
+(11837, '基本型-暴風之劍*武士刀'),
+(11838, '基本型-食屍鬼魔杖'),
+(11839, '基本型-巨型帕塔拳刃'),
+(11840, '基本型-矮人巨鎚'),
+(11841, '基本型-襲擊劍*襲擊劍'),
+(11842, '基本型-亡者魔杖'),
+(11843, '基本型-狂戰士之刃'),
+(11844, '基本型-滅形弩'),
+(11845, '基本型-彎刀*襲擊劍'),
+(11846, '基本型-彎刀*彎刀'),
+(11847, '基本型-彎刀*靈魂之劍'),
+(11848, '基本型-彎刀*武士刀'),
+(11849, '基本型-劍齒虎'),
+(11850, '基本型-日蝕劍'),
+(11851, '基本型-靈魂之劍*襲擊劍'),
+(11852, '基本型-靈魂之劍*靈魂之劍'),
+(11853, '基本型-瑟魯基長劍'),
+(11854, '基本型-上將刺劍'),
+(11855, '基本型-惡魔魔杖'),
+(11856, '基本型-夜叉釘鎚'),
+(11857, '基本型-卓越弓'),
+(11858, '基本型-歐西斯戰斧'),
+(11859, '基本型-月蝕斧'),
+(11860, '基本型-武士刀*襲擊劍'),
+(11861, '基本型-武士刀*靈魂之劍'),
+(11862, '基本型-武士刀*武士刀'),
+(11863, '基本型-水晶匕首'),
+(11864, '基本型-暴風之劍*極限之劍'),
+(11865, '基本型-暴風之劍*迷惑之劍'),
+(11866, '基本型-暴風之劍*夢魘劍'),
+(11867, '基本型-暴風之劍*大和劍'),
+(11868, '基本型-暴風之劍*卡里埔士劍'),
+(11869, '基本型-襲擊劍*極限之劍'),
+(11870, '基本型-襲擊劍*迷惑之劍'),
+(11871, '基本型-襲擊劍*夢魘劍'),
+(11872, '基本型-襲擊劍*大和劍'),
+(11873, '基本型-襲擊劍*卡里埔士劍'),
+(11874, '基本型-彎刀*極限之劍'),
+(11875, '基本型-彎刀*迷惑之劍'),
+(11876, '基本型-彎刀*夢魘劍'),
+(11877, '基本型-彎刀*大和劍'),
+(11878, '基本型-彎刀*卡里埔士劍'),
+(11879, '基本型-靈魂之劍*極限之劍'),
+(11880, '基本型-靈魂之劍*迷惑之劍'),
+(11881, '基本型-靈魂之劍*夢魘劍'),
+(11882, '基本型-靈魂之劍*大和劍'),
+(11883, '基本型-靈魂之劍*卡里埔士劍'),
+(11884, '基本型-武士刀*極限之劍'),
+(11885, '基本型-武士刀*迷惑之劍'),
+(11886, '基本型-武士刀*夢魘劍'),
+(11887, '基本型-武士刀*大和劍'),
+(11888, '基本型-武士刀*卡里埔士劍'),
+(11889, '基本型-巨劍'),
+(11890, '基本型-巨斧'),
+(11891, '基本型-極限之劍*極限之劍'),
+(11892, '基本型-極限之劍*迷惑之劍'),
+(11893, '基本型-極限之劍*夢魘劍'),
+(11894, '基本型-極限之劍*大和劍'),
+(11895, '基本型-無名之勝'),
+(11896, '基本型-黑暗精靈長弓'),
+(11897, '基本型-迷惑之劍*迷惑之劍'),
+(11898, '基本型-迷惑之劍*夢魘劍'),
+(11899, '基本型-迷惑之劍*大和劍'),
+(11900, '基本型-聖堂之劍'),
+(11901, '基本型-暴風之劍*瑟魯基長劍'),
+(11902, '基本型-破咒者'),
+(11903, '基本型-阿斯拉爪'),
+(11904, '基本型-暴風雪巨鎚'),
+(11905, '基本型-夢魘劍*夢魘劍'),
+(11906, '基本型-夢魘劍*大和劍'),
+(11907, '基本型-突襲鈍劍'),
+(11908, '基本型-精靈魔杖'),
+(11909, '基本型-大和劍*大和劍'),
+(11910, '基本型-卡里埔士劍*極限之劍'),
+(11911, '基本型-卡里埔士劍*迷惑之劍'),
+(11912, '基本型-卡里埔士劍*夢魘劍'),
+(11913, '基本型-卡里埔士劍*大和劍'),
+(11914, '基本型-卡里埔士劍*卡里埔士劍'),
+(11915, '基本型-波形刃'),
+(11916, '基本型-柯貝克劍'),
+(11917, '基本型-和平使者'),
+(11918, '基本型-巨大戰斧'),
+(11919, '基本型-地獄刀'),
+(11920, '基本型-襲擊劍*瑟魯基長劍'),
+(11921, '基本型-彎刀*瑟魯基長劍'),
+(11922, '基本型-靈魂之劍*瑟魯基長劍'),
+(11923, '基本型-武士刀*瑟魯基長劍'),
+(11924, '基本型-極限之劍*瑟魯基長劍'),
+(11925, '基本型-迷惑之劍*瑟魯基長劍'),
+(11926, '基本型-夢魘劍*瑟魯基長劍'),
+(11927, '基本型-大和劍*瑟魯基長劍'),
+(11928, '基本型-卡里埔士劍*瑟魯基長劍'),
+(11929, '基本型-守護神之劍'),
+(11930, '基本型-大馬士革刀'),
+(11931, '基本型-裂解劍'),
+(11932, '基本型-長槍'),
+(11933, '基本型-博利恩拳套'),
+(11934, '基本型-邪靈魔杖'),
+(11935, '基本型-亡者榮譽'),
+(11936, '基本型-星爆'),
+(11937, '基本型-瑟魯基長劍*瑟魯基長劍'),
+(11938, '基本型-工藝戰斧'),
+(11939, '基本型-惡魔短劍'),
+(11940, '基本型-惡魔短劍'),
+(11941, '基本型-卡倚巴奴之骨'),
+(11942, '基本型-華麗細劍'),
+(11943, '基本型-巫師之淚'),
+(11944, '基本型-冒險弓'),
+(11945, '基本型-冥犬之牙'),
+(11946, '基本型-帕黎恩魔杖'),
+(11947, '基本型-末日咒詛'),
+(11948, '基本型-天雷'),
+(11949, '基本型-流星雨'),
+(11950, '基本型-血旋風'),
+(11951, '基本型-血腥之蘭'),
+(11952, '基本型-元素劍'),
+(11953, '基本型-英魂之眼'),
+(11954, '基本型-煉獄之主'),
+(11955, '基本型-顱之弓'),
+(11956, '基本型-柯貝克劍*柯貝克劍'),
+(11957, '基本型-塔魯刀'),
+(11958, '基本型-破壞者巨鎚'),
+(11959, '基本型-神怨'),
+(11960, '基本型-長柄戰戟'),
+(11961, '基本型-柯貝克劍*大馬士革刀'),
+(11962, '基本型-貪婪刺劍'),
+(11963, '基本型-大馬士革刀*大馬士革刀'),
+(11964, '基本型-黑暗軍刀'),
+(11965, '基本型-死神使者'),
+(11966, '基本型-末日毀滅者'),
+(11967, '基本型-龍牙'),
+(11968, '基本型-斬龍刀'),
+(11969, '基本型-火龍之首'),
+(11970, '基本型-世界樹樹枝'),
+(11971, '基本型-奇蹟劍'),
+(11972, '基本型-靈魂弩'),
+(11973, '基本型-魂體分離器'),
+(11974, '基本型-樂園'),
+(11975, '基本型-靈魂弓'),
+(11976, '基本型-塔魯闊矛'),
+(11977, '基本型-那卡風暴'),
+(11978, '基本型-惡魔結晶'),
+(11979, '基本型-貝拉凱爾聖斧'),
+(11980, '基本型-復仇爆弩'),
+(11981, '基本型-貝希莫斯巨叉'),
+(11982, '基本型-光明守護之劍'),
+(11983, '基本型-夏伊德獵弓'),
+(11984, '基本型-伊波斯巨劍'),
+(11985, '基本型-索貝克颶風'),
+(11986, '基本型-希露冰刃'),
+(11987, '基本型-閃光之珠'),
+(11988, '基本型-岱依封長戟'),
+(11989, '基本型-塔魯刀*大馬士革刀'),
+(11990, '基本型-緹米絲之舌'),
+(11991, '基本型-卡布里歐之手'),
+(11992, '基本型-勝利之劍格蘭'),
+(11993, '基本型-惡魔獵爪'),
+(11994, '基本型-紅龍之弓'),
+(11995, '基本型-狩龍之斧'),
+(11996, '基本型-烈焚天'),
+(11997, '基本型-玄武岩戰鎚'),
+(11998, '基本型-薩倫伽神弩'),
+(11999, '基本型-聖者之矛'),
+(12000, '基本型-祕儀權杖'),
+(12001, '基本型-天使殺手'),
+(12002, '基本型-帝國權杖'),
+(12003, '基本型-塔魯刀*黑暗軍刀'),
+(12004, '基本型-忘卻之刃'),
+(12005, '基本型-天國審判'),
+(12013, '基本型-青銅盾'),
+(12025, '基本型-鼓盾'),
+(12051, '基本型-圓木盾'),
+(12063, '基本型-鎖子盾'),
+(12069, '基本型-鳶形盾'),
+(12073, '基本型-方盾'),
+(12078, '基本型-金屬盾'),
+(12091, '基本型-厄達拉克塔盾'),
+(12096, '基本型-鏈盾'),
+(12102, '基本型-矮人鏈盾'),
+(12107, '基本型-騎士盾'),
+(12126, '基本型-合金盾'),
+(12129, '基本型-塔盾'),
+(12143, '基本型-全覆式盾'),
+(12159, '基本型-夏隆盾'),
+(12171, '基本型-阿巴敦盾'),
+(12183, '基本型-末日盾'),
+(12215, '基本型-黑暗水晶盾'),
+(12225, '基本型-封印的黑暗水晶盾'),
+(12268, '基本型-封印的夢魘盾'),
+(12279, '基本型-夢魘盾'),
+(12302, '基本型-封印的帝國聖軍盾'),
+(12308, '基本型-帝國聖軍盾'),
+(12793, 'O形魔杖 限時30日'),
+(12794, 'X形魔杖 限時30日'),
+(12795, '剪刀魔杖 限時30日'),
+(12796, '石頭魔杖 限時30日'),
+(12797, '布魔杖 限時30日'),
+(12798, '雪人變身魔杖'),
+(12799, '草人變身魔杖'),
+(12800, '南瓜變身魔杖 限時30日'),
+(12801, '弔唁用花盆A'),
+(12802, '弔唁用花盆B'),
+(12803, '祝賀用花盆A'),
+(12804, '祝賀用花盆B'),
+(12805, '裝飾用花'),
+(12806, '炸彈'),
+(12807, '方向指示標誌'),
+(12808, '水果籃'),
+(12809, '裝飾用貝殼'),
+(12810, '萬聖節南瓜'),
+(12814, '幻象裝備-守門人變身魔杖'),
+(12852, '那卡風暴-臼齒 {對戰用} 偵測'),
+(12853, '那卡風暴-臼齒 {對戰用} Crt.傷害'),
+(12854, '那卡風暴-臼齒 {對戰用} 背擊'),
+(12855, '惡魔結晶-智慧 {對戰用} 魔力上升'),
+(12856, '惡魔結晶-智慧 {對戰用} 靈活思緒'),
+(12857, '惡魔結晶-智慧 {對戰用} 魔法心靈防護'),
+(12858, '貝拉凱爾聖斧-溫和 {對戰用} 強健'),
+(12859, '貝拉凱爾聖斧-溫和 {對戰用} 速度激發'),
+(12860, '貝拉凱爾聖斧-溫和 {對戰用} 偵測'),
+(12861, '復仇爆弩-集中 {對戰用} 節射'),
+(12862, '復仇爆弩-集中 {對戰用} 偵測'),
+(12863, '復仇爆弩-集中 {對戰用} 快速恢復'),
+(12864, '貝希莫斯巨叉-破壞 {對戰用} 偵測'),
+(12865, '貝希莫斯巨叉-破壞 {對戰用} 強健'),
+(12866, '貝希莫斯巨叉-破壞 {對戰用} 怒擊'),
+(12867, '光明守護之劍-大地 {對戰用} 偵測'),
+(12868, '光明守護之劍-大地 {對戰用} 速度激發'),
+(12869, '光明守護之劍-大地 {對戰用} 強健'),
+(12870, '夏伊德獵弓-集中 {對戰用} 節射'),
+(12871, '夏伊德獵弓-集中 {對戰用} 偵測'),
+(12872, '夏伊德獵弓-集中 {對戰用} 快速恢復'),
+(12873, '伊波斯巨劍-大地 {對戰用} 偵測'),
+(12874, '伊波斯巨劍-大地 {對戰用} 速度激發'),
+(12875, '伊波斯巨劍-大地 {對戰用} 強健'),
+(12876, '索貝克颶風-山崩 {對戰用} Rsk.速度激發'),
+(12877, '索貝克颶風-山崩 {對戰用} 速度激發'),
+(12878, '索貝克颶風-山崩 {對戰用} Crt.吸收'),
+(12879, '希露冰刃-山崩 {對戰用} 速度激發'),
+(12880, '希露冰刃-山崩 {對戰用} 強健'),
+(12881, '希露冰刃-山崩 {對戰用} Crt.施毒'),
+(12882, '閃光之珠-山崩 {對戰用} 速度激發'),
+(12883, '閃光之珠-山崩 {對戰用} 強健'),
+(12884, '閃光之珠-山崩 {對戰用} Crt.施毒'),
+(12885, '岱依封長戟-山崩 {對戰用} Crt. 衝擊'),
+(12886, '岱依封長戟-山崩 {對戰用} 遠程打擊'),
+(12887, '岱依封長戟-山崩 {對戰用} 寬幅打擊'),
+(12888, '塔魯刀*大馬士革刀-山崩 {對戰用}'),
+(12889, '緹米絲之舌-聰明 {對戰用} 魔力上升'),
+(12890, '緹米絲之舌-聰明 {對戰用} 魔法心靈防護'),
+(12891, '緹米絲之舌-聰明 {對戰用} 魔法偵測'),
+(12892, '卡布里歐之手-聰明 {對戰用} 魂體轉換'),
+(12893, '卡布里歐之手-聰明 {對戰用} 魔力上升'),
+(12894, '卡布里歐之手-聰明 {對戰用} 魔法沉默'),
+(12895, '勝利之劍格蘭-電擊 {對戰用} 速度激發'),
+(12896, '勝利之劍格蘭-電擊 {對戰用} 強健'),
+(12897, '勝利之劍格蘭-電擊 {對戰用} 偵測'),
+(12898, '惡魔獵爪-電擊 {對戰用} 偵測'),
+(12899, '惡魔獵爪-電擊 {對戰用} 強健'),
+(12900, '惡魔獵爪-電擊 {對戰用} Crt.衝擊'),
+(12901, '紅龍之弓-大地 {對戰用} 節射'),
+(12902, '紅龍之弓-大地 {對戰用} 偵測'),
+(12903, '紅龍之弓-大地 {對戰用} Crt.緩速'),
+(12904, '狩龍之斧-電擊 {對戰用} 體力再生'),
+(12905, '狩龍之斧-電擊 {對戰用} 強健'),
+(12906, '狩龍之斧-電擊 {對戰用} HP吸收'),
+(12907, '烈焚天-雷鳴 {對戰用} 速度激發'),
+(12908, '烈焚天-雷鳴 {對戰用} 強健'),
+(12909, '烈焚天-雷鳴 {對戰用} 偵測'),
+(12910, '玄武岩戰鎚-集中 {對戰用} HP吸收'),
+(12911, '玄武岩戰鎚-集中 {對戰用} 強健'),
+(12912, '玄武岩戰鎚-集中 {對戰用} 體力再生'),
+(12913, '薩倫伽神弩-大地 {對戰用} 節射'),
+(12914, '薩倫伽神弩-大地 {對戰用} 偵測'),
+(12915, '薩倫伽神弩-大地 {對戰用} Crt.緩速'),
+(12916, '聖者之矛-破壞 {對戰用} 強健'),
+(12917, '聖者之矛-破壞 {對戰用} 導引'),
+(12918, '聖者之矛-破壞 {對戰用} 速度激發'),
+(12919, '祕儀權杖-自然 {對戰用} 靈活思緒'),
+(12920, '祕儀權杖-自然 {對戰用} 魔力再生'),
+(12921, '祕儀權杖-自然 {對戰用} 魔力上升'),
+(12922, '天使殺手-集中 {對戰用} Crt.傷害'),
+(12923, '天使殺手-集中 {對戰用} HP吸收'),
+(12924, '天使殺手-集中 {對戰用} 速度激發'),
+(12925, '帝國權杖-自然 {對戰用} 魔力催化'),
+(12926, '帝國權杖-自然 {對戰用} 魔力再生'),
+(12927, '帝國權杖-自然 {對戰用} 魔法束縛'),
+(12928, '塔魯刀*黑暗軍刀-雷鳴 {對戰用}'),
+(12929, '忘卻之刃-雷鳴 {對戰用} 速度激發'),
+(12930, '忘卻之刃-雷鳴 {對戰用} 強健'),
+(12931, '忘卻之刃-雷鳴 {對戰用} 偵測'),
+(12932, '天國審判-電擊 {對戰用} 速度激發'),
+(12933, '天國審判-電擊 {對戰用} 強健'),
+(12934, '天國審判-電擊 {對戰用} 偵測'),
+(12935, '王朝古代劍-疾風 {對戰用} 偵測'),
+(12936, '王朝古代劍-疾風 {對戰用} 強健'),
+(12937, '王朝古代劍-疾風 {對戰用} 輕裝'),
+(12938, '王朝小刀-疾風 {對戰用} 偵測'),
+(12939, '王朝小刀-疾風 {對戰用} 迴避'),
+(12940, '王朝小刀-疾風 {對戰用} Crt.傷害'),
+(12941, '王朝雙刀-大地 {對戰用}'),
+(12942, '王朝細劍-大地 {對戰用} 偵測'),
+(12943, '王朝細劍-大地 {對戰用} 強健'),
+(12944, '王朝細劍-大地 {對戰用} 輕裝'),
+(12945, '王朝釘鎚-大地 {對戰用} 魔力上升'),
+(12946, '王朝釘鎚-大地 {對戰用} 魂體轉換'),
+(12947, '王朝釘鎚-大地 {對戰用} 靈活思緒'),
+(12948, '王朝拳套爪-疾風 {對戰用} Rsk.迴避'),
+(12949, '王朝拳套爪-疾風 {對戰用} 偵測'),
+(12950, '王朝拳套爪-疾風 {對戰用} 速度激發'),
+(12951, '王朝弓-疾風 {對戰用} 節射'),
+(12952, '王朝弓-疾風 {對戰用} 導引'),
+(12953, '王朝弓-疾風 {對戰用} 偵測'),
+(12954, '王朝之刃-疾風 {對戰用} 偵測'),
+(12955, '王朝之刃-疾風 {對戰用} 強健'),
+(12956, '王朝之刃-疾風 {對戰用} 輕裝'),
+(12957, '王朝劍-大地 {對戰用} 偵測'),
+(12958, '王朝劍-大地 {對戰用} 強健'),
+(12959, '王朝劍-大地 {對戰用} 輕裝'),
+(12960, '王朝魔杖-聖靈 {對戰用} 魔力上升'),
+(12961, '王朝魔杖-聖靈 {對戰用} 魂體轉換'),
+(12962, '王朝魔杖-聖靈 {對戰用} 靈活思緒'),
+(12963, '王朝戰鎚-山崩 {對戰用} 怒擊'),
+(12964, '王朝戰鎚-山崩 {對戰用} 強健'),
+(12965, '王朝戰鎚-山崩 {對戰用} Rsk.偵測'),
+(12966, '王朝毀滅者-疾風 {對戰用} 怒擊'),
+(12967, '王朝毀滅者-疾風 {對戰用} 強健'),
+(12968, '王朝毀滅者-疾風 {對戰用} Rsk.偵測'),
+(12969, '王朝十字弓-疾風 {對戰用} 節射'),
+(12970, '王朝十字弓-疾風 {對戰用} 導引'),
+(12971, '王朝十字弓-疾風 {對戰用} 偵測'),
+(12972, '王朝幻影劍-自然 {對戰用} 靈活思緒'),
+(12973, '王朝幻影劍-自然 {對戰用} 魔力上升'),
+(12974, '王朝幻影劍-自然 {對戰用} 魂體轉換'),
+(12975, '王朝長柄戰戟-大地 {對戰用} 怒擊'),
+(12976, '王朝長柄戰戟-大地 {對戰用} Crt.衝擊'),
+(12977, '王朝長柄戰戟-大地 {對戰用} 輕裝'),
+(13034, '精靈之劍'),
+(13035, '強化精靈之劍'),
+(13036, '冰與火之劍'),
+(13042, '古代遺產之劍'),
+(13043, '強化古代遺產之劍'),
+(13044, '完全化古代遺產之劍'),
+(13052, '賽勒諾斯之槍'),
+(13053, '強化賽勒諾斯之槍'),
+(13054, '完全化賽勒諾斯之槍'),
+(13061, '怪物用(男爵夫人雇員)'),
+(13062, '怪物用(雇員之友)'),
+(13153, '限時-長矛 限時60分鐘'),
+(13154, '限時-彎刃大刀 限時60分鐘'),
+(13155, '限時-鋼鎚 限時60分鐘'),
+(13156, '限時-巫毒人偶 限時60分鐘'),
+(13157, '限時-魔鎚 限時60分鐘'),
+(13158, '限時-法師魔杖 限時60分鐘'),
+(13159, '限時-碎劍者 限時60分鐘'),
+(13160, '限時-毒蛇之牙 限時60分鐘'),
+(13161, '限時-合金弓 限時60分鐘'),
+(13162, '限時-祝福的十字架 限時60分鐘'),
+(13163, '限時-重劍*緋紅劍 限時60分鐘'),
+(13164, '限時-雙刃大砍刀 限時60分鐘'),
+(13165, '限時-碎骨者 限時60分鐘'),
+(13166, '限時-阿吐巴鎚 限時60分鐘'),
+(13167, '限時-魂靈魔杖 限時60分鐘'),
+(13168, '限時-生命手杖 限時60分鐘'),
+(13169, '限時-阿吐巴釘鎚 限時60分鐘'),
+(13170, '限時-米索莉匕首 限時60分鐘'),
+(13171, '限時-波浪刀 限時60分鐘'),
+(13172, '限時-風暴弓 限時60分鐘'),
+(13173, '限時-闊矛 限時60分鐘'),
+(13174, '限時-精靈長劍 限時60分鐘'),
+(13175, '限時-巨銳劍 限時60分鐘'),
+(13176, '限時-將軍格鬥劍 限時60分鐘'),
+(13177, '限時-齒輪弩 限時60分鐘'),
+(13178, '限時-瑟魯基長劍 限時60分鐘'),
+(13179, '限時-亡者魔杖 限時60分鐘'),
+(13180, '限時-食屍鬼魔杖 限時60分鐘'),
+(13181, '限時-惡魔魔杖 限時60分鐘'),
+(13182, '限時-水晶匕首 限時60分鐘'),
+(13183, '限時-巨型帕塔拳刃 限時60分鐘'),
+(13184, '限時-卓越弓 限時60分鐘'),
+(13185, '限時-歐西斯戰斧 限時60分鐘'),
+(13186, '限時-夜叉釘鎚 限時60分鐘'),
+(13187, '限時-彎刀*彎刀 限時60分鐘'),
+(13188, '限時-上將刺劍 限時60分鐘'),
+(13189, '限時-劍齒虎 限時60分鐘'),
+(13190, '限時-滅形弩 限時60分鐘'),
+(13191, '限時-日蝕劍 限時60分鐘'),
+(13192, '限時-月蝕斧 限時60分鐘'),
+(13193, '限時-矮人巨鎚 限時60分鐘'),
+(13194, '限時-大馬士革刀 限時60分鐘'),
+(13195, '限時-長槍 限時60分鐘'),
+(13196, '限時-亡者榮譽 限時60分鐘'),
+(13197, '限時-工藝戰斧 限時60分鐘'),
+(13198, '限時-邪靈魔杖 限時60分鐘'),
+(13199, '限時-惡魔短劍 限時60分鐘'),
+(13200, '限時-博利恩拳套 限時60分鐘'),
+(13201, '限時-冒險弓 限時60分鐘'),
+(13202, '限時-瑟魯基長劍*瑟魯基長劍 限時60分鐘'),
+(13203, '限時-守護神之劍 限時60分鐘'),
+(13204, '限時-巫師之淚 限時60分鐘'),
+(13205, '限時-卡倚巴奴之骨 限時60分鐘'),
+(13206, '限時-星爆 限時60分鐘'),
+(13207, '限時-華麗細劍 限時60分鐘'),
+(13208, '限時-裂解劍 限時60分鐘'),
+(13209, '限時-冥犬之牙 限時60分鐘'),
+(13210, '限時-希露冰刃 限時60分鐘'),
+(13211, '限時-伊波斯巨劍 限時60分鐘'),
+(13212, '限時-貝拉凱爾聖斧 限時60分鐘'),
+(13213, '限時-貝希莫斯巨叉 限時60分鐘'),
+(13214, '限時-那卡風暴 限時60分鐘'),
+(13215, '限時-岱依封長戟 限時60分鐘'),
+(13216, '限時-夏伊德獵弓 限時60分鐘'),
+(13217, '限時-索貝克颶風 限時60分鐘'),
+(13218, '限時-緹米絲之舌 限時60分鐘'),
+(13219, '限時-卡布里歐之手 限時60分鐘'),
+(13220, '限時-惡魔結晶 限時60分鐘'),
+(13221, '限時-塔魯刀*大馬士革刀 限時60分鐘'),
+(13222, '限時-閃光之珠 限時60分鐘'),
+(13223, '限時-光明守護之劍 限時60分鐘'),
+(13224, '限時-復仇爆弩 限時60分鐘'),
+(13248, 'O形魔杖 限時7日'),
+(13249, 'X形魔杖 限時7日'),
+(13250, '剪刀魔杖 限時7日'),
+(13251, '石頭魔杖 限時7日'),
+(13252, '布魔杖 限時7日'),
+(13253, '南瓜變身魔杖 限時7日'),
+(13319, 'O形魔杖-活動用 限時30日'),
+(13320, 'X形魔杖-活動用 限時30日'),
+(13321, '剪刀魔杖-活動用 限時30日'),
+(13322, '石頭魔杖-活動用 限時30日'),
+(13323, '布魔杖-活動用 限時30日'),
+(13324, '南瓜變身魔杖-活動用 限時30日'),
+(13334, 'O形魔杖-活動用 限時7日'),
+(13335, 'X形魔杖-活動用 限時7日'),
+(13336, '剪刀魔杖-活動用 限時7日'),
+(13337, '石頭魔杖-活動用 限時7日'),
+(13338, '布魔杖-活動用 限時7日'),
+(13339, '南瓜變身魔杖-活動用 限時7日'),
+(13447, '薄暮盾(不使用)'),
+(13457, '薄暮切刃'),
+(13458, '薄暮殺刃'),
+(13459, '薄暮爆刃'),
+(13460, '薄暮鉋刀'),
+(13461, '薄暮戰爪'),
+(13462, '薄暮風暴者'),
+(13463, '薄暮復仇者'),
+(13464, '薄暮報恨者'),
+(13465, '薄暮術杖'),
+(13466, '薄暮詩杖'),
+(13467, '薄暮投弓'),
+(13468, '薄暮螯針'),
+(13469, '薄暮射靈'),
+(13470, '薄暮槍刃'),
+(13471, '薄暮衛盾'),
+(13524, '格勒西亞士兵單手劍'),
+(13525, '格勒西亞士兵盾牌'),
+(13528, '測試雙匕首'),
+(13530, '古魯丁旗幟'),
+(13531, '狄恩旗幟'),
+(13532, '奇岩旗幟'),
+(13533, '歐瑞旗幟'),
+(13534, '亞丁旗幟'),
+(13535, '因納得立旗幟'),
+(13536, '高達特旗幟'),
+(13537, '魯因旗幟'),
+(13538, '修加特旗幟'),
+(13539, '大師余義的魔杖'),
+(13556, '飛空艇操控舵'),
+(13557, '飛空艇大砲'),
+(13558, '飛空艇砲彈'),
+(13560, '古魯丁 守護之物'),
+(13561, '狄恩 守護之物'),
+(13562, '奇岩 守護之物'),
+(13563, '歐瑞 守護之物'),
+(13564, '亞丁 守護之物'),
+(13565, '因納得立 守護之物'),
+(13566, '高達特 守護之物'),
+(13567, '魯因 守護之物'),
+(13568, '修加特 守護之物'),
+(13755, '奧林匹亞勇士的武器 (未定)'),
+(13770, '幻象裝備-艾罕米亞卡修之盾'),
+(13789, '紅色玩具鎚'),
+(13790, '藍色玩具鎚'),
+(13791, '作古的紅色玩具鎚'),
+(13792, '作古的藍色玩具鎚'),
+(13809, '宮廷魔法師的魔法棒'),
+(13842, '蒂雅特雙手武器'),
+(13843, '龍輕裝步兵武器'),
+(13845, '屬性大師仁的劍'),
+(13881, '屬性大師楊的劍'),
+(13882, '王朝雙匕首'),
+(13883, '伊克魯斯雙匕首'),
+(13884, '薄暮雙匕首'),
+(13971, '夢幻的紅色玩具鎚'),
+(13972, '夢幻的藍色玩具鎚'),
+(13973, '夢幻的作古紅色玩具鎚'),
+(13974, '夢幻的作古藍色玩具鎚'),
+(13978, '怪物用(龍馬軍上級隊長)'),
+(13979, '怪物用(龍馬軍作戰步兵劍)'),
+(13980, '怪物用(龍馬軍作戰步兵盾)'),
+(13981, '怪物用(龍馬軍戰鬥兵)'),
+(13982, '怪物用(死亡騎士_槍)'),
+(13983, '怪物用(死亡騎士_2hs)'),
+(13984, '怪物用(死亡殺手_1hs)'),
+(13985, '怪物用(死亡殺手_r)'),
+(13986, '怪物用(死亡殺手_l)'),
+(13987, '怪物用(野蠻戰士)'),
+(14056, '雪人變身魔杖 限時30日'),
+(14057, '草人變身魔杖 限時30日'),
+(14058, '洋鐵高崙變身魔杖 限時30日'),
+(14069, '雪人變身魔杖-活動用 限時30日'),
+(14070, '草人變身魔杖-活動用 限時30日'),
+(14071, '洋鐵高崙變身魔杖-活動用 限時30日'),
+(14088, '雪人變身魔杖 限時7日'),
+(14089, '稻草人傑克變身魔杖 限時7日'),
+(14090, '洋鐵高崙變身魔杖 限時7日'),
+(14096, '雪人變身魔杖-活動用 限時7日'),
+(14097, '稻草人傑克變身魔杖-活動用 限時7日'),
+(14098, '洋鐵高崙變身魔杖-活動用 限時7日'),
+(14111, '封印的薄暮衛盾'),
+(14118, '薄暮切刃 速度激發'),
+(14119, '薄暮切刃 強健'),
+(14120, '薄暮切刃 偵測'),
+(14121, '薄暮殺刃 速度激發'),
+(14122, '薄暮殺刃 強健'),
+(14123, '薄暮殺刃 偵測'),
+(14124, '薄暮爆刃 魔力上升'),
+(14125, '薄暮爆刃 靈活思緒'),
+(14126, '薄暮爆刃 魔法束縛'),
+(14127, '薄暮鉋刀 Crt.傷害'),
+(14128, '薄暮鉋刀 HP吸收'),
+(14129, '薄暮鉋刀 速度激發'),
+(14130, '薄暮戰爪 偵測'),
+(14131, '薄暮戰爪 強健'),
+(14132, '薄暮戰爪 Crt.衝擊'),
+(14133, '薄暮風暴者 強健'),
+(14134, '薄暮風暴者 導引'),
+(14135, '薄暮風暴者 速度激發'),
+(14136, '薄暮復仇者 HP吸收'),
+(14137, '薄暮復仇者 強健'),
+(14138, '薄暮復仇者 體力再生'),
+(14139, '薄暮報恨者 體力再生'),
+(14140, '薄暮報恨者 強健'),
+(14141, '薄暮報恨者 HP吸收'),
+(14142, '薄暮術杖 靈活思緒'),
+(14143, '薄暮術杖 魔力再生'),
+(14144, '薄暮術杖 魔力上升'),
+(14145, '薄暮詩杖 魔力催化'),
+(14146, '薄暮詩杖 魔力再生'),
+(14147, '薄暮詩杖 魔法束縛'),
+(14148, '薄暮投弓 節射'),
+(14149, '薄暮投弓 偵測'),
+(14150, '薄暮投弓 Crt.緩速'),
+(14151, '薄暮螯針 速度激發'),
+(14152, '薄暮螯針 強健'),
+(14153, '薄暮螯針 偵測'),
+(14154, '薄暮射靈 節射'),
+(14155, '薄暮射靈 偵測'),
+(14156, '薄暮射靈 Crt.緩速'),
+(14157, '薄暮槍刃 速度激發'),
+(14158, '薄暮槍刃 強健'),
+(14159, '薄暮槍刃 偵測'),
+(14363, '伊克魯斯之劍 {對戰用}'),
+(14364, '伊克魯斯分解者 {對戰用}'),
+(14365, '伊克魯斯之靈 {對戰用}'),
+(14366, '伊克魯斯重兵刃 {對戰用}'),
+(14367, '伊克魯斯三叉戟 {對戰用}'),
+(14368, '伊克魯斯之鎚 {對戰用}'),
+(14369, '伊克魯斯之手 {對戰用}'),
+(14370, '伊克魯斯手杖 {對戰用}'),
+(14371, '伊克魯斯之弓 {對戰用}'),
+(14372, '伊克魯斯刺劍 {對戰用}'),
+(14373, '伊克魯斯翼刃 {對戰用}'),
+(14374, '伊克魯斯之弩 {對戰用}'),
+(14375, '伊克魯斯雙刀 {對戰用}'),
+(14376, '伊克魯斯之劍 {對戰用} 偵測'),
+(14377, '伊克魯斯之劍 {對戰用} 強健'),
+(14378, '伊克魯斯之劍 {對戰用} 輕裝'),
+(14379, '伊克魯斯重兵刃 {對戰用} 偵測'),
+(14380, '伊克魯斯重兵刃 {對戰用} 強健'),
+(14381, '伊克魯斯重兵刃 {對戰用} 輕裝'),
+(14382, '伊克魯斯之靈 {對戰用} 靈活思緒'),
+(14383, '伊克魯斯之靈 {對戰用} 魔力上升'),
+(14384, '伊克魯斯之靈 {對戰用} 魂體轉換'),
+(14385, '伊克魯斯之弓 {對戰用} 節射'),
+(14386, '伊克魯斯之弓 {對戰用} 導引'),
+(14387, '伊克魯斯之弓 {對戰用} 偵測'),
+(14388, '伊克魯斯分解者 {對戰用} 偵測'),
+(14389, '伊克魯斯分解者 {對戰用} 迴避'),
+(14390, '伊克魯斯分解者 {對戰用} Crt.傷害'),
+(14391, '伊克魯斯三叉戟 {對戰用} 怒擊'),
+(14392, '伊克魯斯三叉戟 {對戰用} Crt.衝擊'),
+(14393, '伊克魯斯三叉戟 {對戰用} 輕裝'),
+(14394, '伊克魯斯之鎚 {對戰用} 怒擊'),
+(14395, '伊克魯斯之鎚 {對戰用} 強健'),
+(14396, '伊克魯斯之鎚 {對戰用} Rsk.偵測'),
+(14397, '伊克魯斯手杖 {對戰用} 魔力上升'),
+(14398, '伊克魯斯手杖 {對戰用} 魂體轉換'),
+(14399, '伊克魯斯手杖 {對戰用} 靈活思緒'),
+(14400, '伊克魯斯之手 {對戰用} Rsk.迴避'),
+(14401, '伊克魯斯之手 {對戰用} 偵測'),
+(14402, '伊克魯斯之手 {對戰用} 速度激發'),
+(14403, '伊克魯斯刺劍 {對戰用} 偵測'),
+(14404, '伊克魯斯刺劍 {對戰用} 強健'),
+(14405, '伊克魯斯刺劍 {對戰用} 輕裝'),
+(14406, '伊克魯斯翼刃 {對戰用} 偵測'),
+(14407, '伊克魯斯翼刃 {對戰用} 強健'),
+(14408, '伊克魯斯翼刃 {對戰用} 輕裝'),
+(14409, '伊克魯斯之弩 {對戰用} 節射'),
+(14410, '伊克魯斯之弩 {對戰用} 導引'),
+(14411, '伊克魯斯之弩 {對戰用} 偵測'),
+(14412, '伊克魯斯雙刀-破壞 {對戰用}'),
+(14413, '伊克魯斯分解者-混亂 {對戰用}'),
+(14414, '伊克魯斯分解者-混亂 {對戰用} 偵測'),
+(14415, '伊克魯斯分解者-混亂 {對戰用} 迴避'),
+(14416, '伊克魯斯分解者-混亂 {對戰用} Crt.傷害'),
+(14417, '伊克魯斯之劍-破壞 {對戰用}'),
+(14418, '伊克魯斯之劍-破壞 {對戰用} 偵測'),
+(14419, '伊克魯斯之劍-破壞 {對戰用} 強健'),
+(14420, '伊克魯斯之劍-破壞 {對戰用} 輕裝'),
+(14421, '伊克魯斯之弩-集中 {對戰用}'),
+(14422, '伊克魯斯之弩-集中 {對戰用} 節射'),
+(14423, '伊克魯斯之弩-集中 {對戰用} 導引'),
+(14424, '伊克魯斯之弩-集中 {對戰用} 偵測'),
+(14425, '伊克魯斯刺劍-破壞 {對戰用}'),
+(14426, '伊克魯斯刺劍-破壞 {對戰用} 偵測'),
+(14427, '伊克魯斯刺劍-破壞 {對戰用} 強健'),
+(14428, '伊克魯斯刺劍-破壞 {對戰用} 輕裝'),
+(14429, '伊克魯斯之靈-自然 {對戰用}'),
+(14430, '伊克魯斯之靈-自然 {對戰用} 靈活思緒'),
+(14431, '伊克魯斯之靈-自然 {對戰用} 魔力上升'),
+(14432, '伊克魯斯之靈-自然 {對戰用} 魂體轉換'),
+(14433, '伊克魯斯之弓-集中 {對戰用}'),
+(14434, '伊克魯斯之弓-集中 {對戰用} 節射'),
+(14435, '伊克魯斯之弓-集中 {對戰用} 導引'),
+(14436, '伊克魯斯之弓-集中 {對戰用} 偵測'),
+(14437, '伊克魯斯翼刃-雷鳴 {對戰用}'),
+(14438, '伊克魯斯翼刃-雷鳴 {對戰用} 偵測'),
+(14439, '伊克魯斯翼刃-雷鳴 {對戰用} 強健'),
+(14440, '伊克魯斯翼刃-雷鳴 {對戰用} 輕裝'),
+(14441, '伊克魯斯三叉戟-電擊 {對戰用}'),
+(14442, '伊克魯斯三叉戟-電擊 {對戰用} 怒擊'),
+(14443, '伊克魯斯三叉戟-電擊 {對戰用} Crt.衝擊'),
+(14444, '伊克魯斯三叉戟-電擊 {對戰用} 輕裝'),
+(14445, '伊克魯斯之鎚-大地 {對戰用}'),
+(14446, '伊克魯斯之鎚-大地 {對戰用} 怒擊'),
+(14447, '伊克魯斯之鎚-大地 {對戰用} 強健'),
+(14448, '伊克魯斯之鎚-大地 {對戰用} Rsk.偵測'),
+(14449, '伊克魯斯之手-破壞 {對戰用}'),
+(14450, '伊克魯斯之手-破壞 {對戰用} Rsk.迴避'),
+(14451, '伊克魯斯之手-破壞 {對戰用} 偵測'),
+(14452, '伊克魯斯之手-破壞 {對戰用} 速度激發'),
+(14453, '伊克魯斯重兵刃-雷鳴 {對戰用}'),
+(14454, '伊克魯斯重兵刃-雷鳴 {對戰用} 偵測'),
+(14455, '伊克魯斯重兵刃-雷鳴 {對戰用} 強健'),
+(14456, '伊克魯斯重兵刃-雷鳴 {對戰用} 輕裝'),
+(14457, '伊克魯斯手杖-海嘯 {對戰用}'),
+(14458, '伊克魯斯手杖-海嘯 {對戰用} 魔力上升'),
+(14459, '伊克魯斯手杖-海嘯 {對戰用} 魂體轉換'),
+(14460, '伊克魯斯手杖-海嘯 {對戰用} 靈活思緒'),
+(14461, '伊克魯斯雙匕首 {對戰用}'),
+(14462, '薄暮雙刀 {對戰用}'),
+(14463, '薄暮切刃 {對戰用}'),
+(14464, '薄暮殺刃 {對戰用}'),
+(14465, '薄暮爆刃 {對戰用}'),
+(14466, '薄暮鉋刀 {對戰用}'),
+(14467, '薄暮戰爪 {對戰用}'),
+(14468, '薄暮風暴者 {對戰用}'),
+(14469, '薄暮復仇者 {對戰用}'),
+(14470, '薄暮報恨者 {對戰用}'),
+(14471, '薄暮術杖 {對戰用}'),
+(14472, '薄暮詩杖 {對戰用}'),
+(14473, '薄暮投弓 {對戰用}'),
+(14474, '薄暮螯針 {對戰用}'),
+(14475, '薄暮射靈 {對戰用}'),
+(14476, '薄暮槍刃 {對戰用}'),
+(14477, '薄暮雙匕首 {對戰用}'),
+(14478, '薄暮切刃 {對戰用} 速度激發'),
+(14479, '薄暮切刃 {對戰用} 強健'),
+(14480, '薄暮切刃 {對戰用} 偵測'),
+(14481, '薄暮殺刃 {對戰用} 速度激發'),
+(14482, '薄暮殺刃 {對戰用} 強健'),
+(14483, '薄暮殺刃 {對戰用} 偵測'),
+(14484, '薄暮爆刃 {對戰用} 魔力上升'),
+(14485, '薄暮爆刃 {對戰用} 靈活思緒'),
+(14486, '薄暮爆刃 {對戰用} 魔法束縛'),
+(14487, '薄暮鉋刀 {對戰用} Crt.傷害'),
+(14488, '薄暮鉋刀 {對戰用} HP吸收'),
+(14489, '薄暮鉋刀 {對戰用} 速度激發'),
+(14490, '薄暮戰爪 {對戰用} 偵測'),
+(14491, '薄暮戰爪 {對戰用} 強健'),
+(14492, '薄暮戰爪 {對戰用} Crt.衝擊'),
+(14493, '薄暮風暴者 {對戰用} 強健'),
+(14494, '薄暮風暴者 {對戰用} 導引'),
+(14495, '薄暮風暴者 {對戰用} 速度激發'),
+(14496, '薄暮復仇者 {對戰用} HP吸收'),
+(14497, '薄暮復仇者 {對戰用} 強健'),
+(14498, '薄暮復仇者 {對戰用} 體力再生'),
+(14499, '薄暮報恨者 {對戰用} 體力再生'),
+(14500, '薄暮報恨者 {對戰用} 強健'),
+(14501, '薄暮報恨者 {對戰用} HP吸收'),
+(14502, '薄暮術杖 {對戰用} 靈活思緒'),
+(14503, '薄暮術杖 {對戰用} 魔力再生'),
+(14504, '薄暮術杖 {對戰用} 魔力上升'),
+(14505, '薄暮詩杖 {對戰用} 魔力催化'),
+(14506, '薄暮詩杖 {對戰用} 魔力再生'),
+(14507, '薄暮詩杖 {對戰用} 魔法束縛'),
+(14508, '薄暮投弓 {對戰用} 節射'),
+(14509, '薄暮投弓 {對戰用} 偵測'),
+(14510, '薄暮投弓 {對戰用} Crt.緩速'),
+(14511, '薄暮螯針 {對戰用} 速度激發'),
+(14512, '薄暮螯針 {對戰用} 強健'),
+(14513, '薄暮螯針 {對戰用} 偵測'),
+(14514, '薄暮射靈 {對戰用} 節射'),
+(14515, '薄暮射靈 {對戰用} 偵測'),
+(14516, '薄暮射靈 {對戰用} Crt.緩速'),
+(14517, '薄暮槍刃 {對戰用} 速度激發'),
+(14518, '薄暮槍刃 {對戰用} 強健'),
+(14519, '薄暮槍刃 {對戰用} 偵測'),
+(14526, '王朝雙匕首-疾風'),
+(14527, '伊克魯斯雙匕首-混亂'),
+(14528, '王朝雙匕首-疾風 {對戰用}'),
+(14529, '伊克魯斯雙匕首-混亂 {對戰用}'),
+(14558, '王朝雙匕首 {對戰用}'),
+(14560, '華徳納家族匕首'),
+(14561, '華徳納家族殺刃'),
+(14562, '亞席頓家族劍'),
+(14563, '亞席頓家族爪'),
+(14564, '愛司德斯家族殺刃'),
+(14565, '愛司德斯家族巨鎚'),
+(14566, '德伊克家族魔杖'),
+(14567, '德伊克家族手杖'),
+(14568, '卡德姆斯家族弓'),
+(14569, '卡德姆斯家族釘鎚'),
+(14570, '杭特家族雙刀'),
+(14571, '杭特家族矛'),
+(14572, '阿巴葛伊家族魔杖'),
+(14573, '阿巴葛伊家族巨鎚'),
+(14574, '胡爾特家族矛'),
+(14575, '胡爾特家族匕首'),
+(14576, '歐文家族釘鎚'),
+(14577, '歐文家族爪'),
+(14578, '華徳納家族切裂者'),
+(14579, '亞席頓家族銳劍'),
+(14580, '愛司德斯家族切裂者'),
+(14581, '卡德姆斯家族刺劍'),
+(14606, '格勒西亞士兵雙手劍'),
+(14621, '聖誕老人的希露冰刃'),
+(14622, '聖誕老人的伊波斯巨劍'),
+(14623, '聖誕老人的貝拉凱爾聖斧'),
+(14624, '聖誕老人的貝希莫斯巨叉'),
+(14625, '聖誕老人的那卡風暴'),
+(14626, '聖誕老人的岱依封長戟'),
+(14627, '聖誕老人的夏伊德獵弓'),
+(14628, '聖誕老人的索貝克颶風'),
+(14629, '聖誕老人的緹米絲之舌'),
+(14630, '聖誕老人的卡布里歐之手'),
+(14631, '聖誕老人的惡魔結晶'),
+(14632, '聖誕老人的閃光之珠'),
+(14633, '聖誕老人的復仇爆弩'),
+(14634, '聖誕老人的光明守護之劍'),
+(14674, '聖誕老人的塔魯刀*大馬士革刀'),
+(14774, '玫瑰豬糖果 限時14日'),
+(14780, '法國麵包劍'),
+(14781, '法國麵包匕首'),
+(14782, '法國麵包雙手劍'),
+(14783, '法國麵包釘鎚'),
+(14784, '法國麵包雙手鎚'),
+(14785, '法國麵包槍'),
+(14786, '法國麵包弓'),
+(14787, '法國麵包拳套'),
+(14788, '法國麵包魔法劍'),
+(14789, '法國麵包杖'),
+(14790, '法國麵包雙手杖'),
+(14791, '法國麵包盾'),
+(14792, '法國麵包細劍'),
+(14793, '法國麵包古代劍'),
+(14794, '法國麵包弩'),
+(14795, '法國麵包雙刀'),
+(14797, '法國麵包雙匕首'),
+(20109, '革命劍-活動 限時4小時'),
+(20110, '下巨人之劍-活動 限時4小時'),
+(20111, '突刺刀-活動 限時4小時'),
+(20112, '塔巴曲刃斧-活動 限時4小時'),
+(20113, '下巨人之鎚-活動 限時4小時'),
+(20114, '祭司釘鎚-活動 限時4小時'),
+(20115, '山羊頭之杖-活動 限時4小時'),
+(20116, '拳套刀-活動 限時4小時'),
+(20117, '強化長弓-活動 限時4小時'),
+(20118, '翼之矛-活動 限時4小時'),
+(20119, '工匠之劍*工匠之劍-活動 限時4小時'),
+(20120, '銳劍-活動 限時4小時'),
+(20121, '格鬥劍-活動 限時4小時'),
+(20122, '爆破之臂-活動 限時4小時'),
+(20123, '瑟魯基長劍-活動 限時4小時'),
+(20124, '狂戰士之刃-活動 限時4小時'),
+(20125, '水晶匕首-活動 限時4小時'),
+(20126, '夜叉釘鎚-活動 限時4小時'),
+(20127, '矮人巨鎚-活動 限時4小時'),
+(20128, '月蝕斧-活動 限時4小時'),
+(20129, '惡魔魔杖-活動 限時4小時'),
+(20130, '巨型帕塔拳刃-活動 限時4小時'),
+(20131, '卓越弓-活動 限時4小時'),
+(20132, '歐西斯戰斧-活動 限時4小時'),
+(20133, '武士刀*武士刀-活動 限時4小時'),
+(20134, '上將刺劍-活動 限時4小時'),
+(20135, '劍齒虎-活動 限時4小時'),
+(20136, '滅形弩-活動 限時4小時'),
+(20137, '大馬士革刀-活動 限時4小時'),
+(20138, '守護神之劍-活動 限時4小時'),
+(20139, '惡魔短劍-活動 限時4小時'),
+(20140, '工藝戰斧-活動 限時4小時'),
+(20141, '星爆-活動 限時4小時'),
+(20142, '卡倚巴奴之骨-活動 限時4小時'),
+(20143, '邪靈魔杖-活動 限時4小時'),
+(20144, '博利恩拳套-活動 限時4小時'),
+(20145, '冒險弓-活動 限時4小時'),
+(20146, '長槍-活動 限時4小時'),
+(20147, '瑟魯基長劍*瑟魯基長劍-活動 限時4小時'),
+(20148, '華麗細劍-活動 限時4小時'),
+(20149, '裂解劍-活動 限時4小時'),
+(20150, '冥犬之牙-活動 限時4小時'),
+(20151, '黑暗軍刀-活動 限時4小時'),
+(20152, '斬龍刀-活動 限時4小時'),
+(20153, '魂體分離器-活動 限時4小時'),
+(20154, '樂園-活動 限時4小時'),
+(20155, '末日毀滅者-活動 限時4小時'),
+(20156, '火龍之首-活動 限時4小時'),
+(20157, '世界樹樹枝-活動 限時4小時'),
+(20158, '龍牙-活動 限時4小時'),
+(20159, '靈魂弓-活動 限時4小時'),
+(20160, '塔魯闊矛-活動 限時4小時'),
+(20161, '大馬士革刀*大馬士革刀-活動 限時4小時'),
+(20162, '貪婪刺劍-活動 限時4小時'),
+(20163, '死神使者-活動 限時4小時'),
+(20164, '靈魂弩-活動 限時4小時'),
+(20165, '忘卻之刃-活動 限時4小時'),
+(20166, '天國審判-活動 限時4小時'),
+(20167, '天使殺手-活動 限時4小時'),
+(20168, '玄武岩戰鎚-活動 限時4小時'),
+(20169, '狩龍之斧-活動 限時4小時'),
+(20170, '祕儀權杖-活動 限時4小時'),
+(20171, '帝國權杖-活動 限時4小時'),
+(20172, '惡魔獵爪-活動 限時4小時'),
+(20173, '紅龍之弓-活動 限時4小時'),
+(20174, '聖者之矛-活動 限時4小時'),
+(20175, '塔魯刀*黑暗軍刀-活動 限時4小時'),
+(20176, '烈焚天-活動 限時4小時'),
+(20177, '勝利之劍格蘭-活動 限時4小時'),
+(20178, '薩倫伽神弩-活動 限時4小時'),
+(20255, '法國麵包棍子劍 限時7日'),
+(20256, '法國麵包糖蜜劍 限時7日'),
+(20257, '法國麵包長型劍 限時7日'),
+(20258, '法國麵包吐司鎚 限時7日'),
+(20259, '法國麵包牛角鎚 限時7日'),
+(20260, '法國麵包美味槍 限時7日'),
+(20261, '法國麵包波堤弓 限時7日'),
+(20262, '法國麵包貝果拳 限時7日'),
+(20263, '法國麵包可頌劍 限時7日'),
+(20264, '法國麵包香郁杖 限時7日'),
+(20265, '法國麵包麻花杖 限時7日'),
+(20266, '法國麵包菠蘿盾 限時7日'),
+(20267, '法國麵包細刃劍 限時7日'),
+(20268, '法國麵包巨型劍 限時7日'),
+(20269, '法國麵包大亨弩 限時7日'),
+(20270, '法國麵包雙刀 限時7日');
+Update `weapon`, `weapon_name` SET `weapon`.`name`=`weapon_name`.`name` WHERE `weapon`.`item_id`=`weapon_name`.`item_id`;
+DROP TABLE IF EXISTS `weapon_name`;

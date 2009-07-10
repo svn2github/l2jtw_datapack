@@ -1,2541 +1,2602 @@
-/************ Made in Taiwan ************/
+DROP TABLE IF EXISTS `armor_name`;
+CREATE TABLE `armor_name` (
+  `item_id` int(10) NOT NULL default '0',
+  `name` varchar(120) NOT NULL default '',
+  PRIMARY KEY  (`item_id`)
+) DEFAULT CHARSET=utf8;
 
-/***** 貳幕-破滅國境 09-06-08 *****/
-/***** itemname-tw *****/ 
-UPDATE `armor` SET `name` ='布襯衫' WHERE `item_id` = 21;
-UPDATE `armor` SET `name` ='皮襯衫' WHERE `item_id` = 22;
-UPDATE `armor` SET `name` ='木胸甲' WHERE `item_id` = 23;
-UPDATE `armor` SET `name` ='骨胸甲' WHERE `item_id` = 24;
-UPDATE `armor` SET `name` ='骨片胸甲' WHERE `item_id` = 25;
-UPDATE `armor` SET `name` ='青銅胸甲' WHERE `item_id` = 26;
-UPDATE `armor` SET `name` ='硬皮襯衫' WHERE `item_id` = 27;
-UPDATE `armor` SET `name` ='布質褲' WHERE `item_id` = 28;
-UPDATE `armor` SET `name` ='皮質褲' WHERE `item_id` = 29;
-UPDATE `armor` SET `name` ='硬皮褲' WHERE `item_id` = 30;
-UPDATE `armor` SET `name` ='骨製脛甲' WHERE `item_id` = 31;
-UPDATE `armor` SET `name` ='骨片脛甲' WHERE `item_id` = 32;
-UPDATE `armor` SET `name` ='硬皮脛甲' WHERE `item_id` = 33;
-UPDATE `armor` SET `name` ='青銅脛甲' WHERE `item_id` = 34;
-UPDATE `armor` SET `name` ='布鞋' WHERE `item_id` = 35;
-UPDATE `armor` SET `name` ='皮涼鞋' WHERE `item_id` = 36;
-UPDATE `armor` SET `name` ='皮鞋' WHERE `item_id` = 37;
-UPDATE `armor` SET `name` ='短靴' WHERE `item_id` = 38;
-UPDATE `armor` SET `name` ='長靴' WHERE `item_id` = 39;
-UPDATE `armor` SET `name` ='皮靴' WHERE `item_id` = 40;
-UPDATE `armor` SET `name` ='布帽' WHERE `item_id` = 41;
-UPDATE `armor` SET `name` ='皮帽' WHERE `item_id` = 42;
-UPDATE `armor` SET `name` ='木頭盔' WHERE `item_id` = 43;
-UPDATE `armor` SET `name` ='皮頭盔' WHERE `item_id` = 44;
-UPDATE `armor` SET `name` ='骨頭盔' WHERE `item_id` = 45;
-UPDATE `armor` SET `name` ='青銅頭盔' WHERE `item_id` = 46;
-UPDATE `armor` SET `name` ='頭盔' WHERE `item_id` = 47;
-UPDATE `armor` SET `name` ='短手套' WHERE `item_id` = 48;
-UPDATE `armor` SET `name` ='手套' WHERE `item_id` = 49;
-UPDATE `armor` SET `name` ='皮手套' WHERE `item_id` = 50;
-UPDATE `armor` SET `name` ='腕甲' WHERE `item_id` = 51;
-UPDATE `armor` SET `name` ='米索莉護甲' WHERE `item_id` = 58;
-UPDATE `armor` SET `name` ='米索莉脛甲' WHERE `item_id` = 59;
-UPDATE `armor` SET `name` ='合金盔甲' WHERE `item_id` = 60;
-UPDATE `armor` SET `name` ='米索莉手套' WHERE `item_id` = 61;
-UPDATE `armor` SET `name` ='強化米索莉靴' WHERE `item_id` = 62;
-UPDATE `armor` SET `name` ='長手套' WHERE `item_id` = 63;
-UPDATE `armor` SET `name` ='合金靴' WHERE `item_id` = 64;
-UPDATE `armor` SET `name` ='見習生耳環' WHERE `item_id` = 112;
-UPDATE `armor` SET `name` ='法師耳環' WHERE `item_id` = 113;
-UPDATE `armor` SET `name` ='力量耳環' WHERE `item_id` = 114;
-UPDATE `armor` SET `name` ='智慧耳環' WHERE `item_id` = 115;
-UPDATE `armor` SET `name` ='魔法戒指' WHERE `item_id` = 116;
-UPDATE `armor` SET `name` ='瑪那戒指' WHERE `item_id` = 117;
-UPDATE `armor` SET `name` ='魔法項鍊' WHERE `item_id` = 118;
-UPDATE `armor` SET `name` ='封印項鍊' WHERE `item_id` = 119;
-UPDATE `armor` SET `name` ='鎖子胸甲' WHERE `item_id` = 347;
-UPDATE `armor` SET `name` ='鱗甲' WHERE `item_id` = 348;
-UPDATE `armor` SET `name` ='合金鱗甲' WHERE `item_id` = 349;
-UPDATE `armor` SET `name` ='矮人鱗甲' WHERE `item_id` = 350;
-UPDATE `armor` SET `name` ='狂暴盔甲' WHERE `item_id` = 351;
-UPDATE `armor` SET `name` ='鎖子甲' WHERE `item_id` = 352;
-UPDATE `armor` SET `name` ='半身盔甲' WHERE `item_id` = 353;
-UPDATE `armor` SET `name` ='鏈甲衫' WHERE `item_id` = 354;
-UPDATE `armor` SET `name` ='矮人鏈甲衫' WHERE `item_id` = 355;
-UPDATE `armor` SET `name` ='全身盔甲' WHERE `item_id` = 356;
-UPDATE `armor` SET `name` ='夏隆胸甲' WHERE `item_id` = 357;
-UPDATE `armor` SET `name` ='青狼胸甲' WHERE `item_id` = 358;
-UPDATE `armor` SET `name` ='光龍盔甲' WHERE `item_id` = 359;
-UPDATE `armor` SET `name` ='勝利胸甲' WHERE `item_id` = 360;
-UPDATE `armor` SET `name` ='勇猛胸甲' WHERE `item_id` = 361;
-UPDATE `armor` SET `name` ='榮譽盔甲' WHERE `item_id` = 362;
-UPDATE `armor` SET `name` ='紅焰盔甲' WHERE `item_id` = 363;
-UPDATE `armor` SET `name` ='精靈水晶胸甲' WHERE `item_id` = 364;
-UPDATE `armor` SET `name` ='黑暗水晶胸甲' WHERE `item_id` = 365;
-UPDATE `armor` SET `name` ='毀滅盔甲' WHERE `item_id` = 366;
-UPDATE `armor` SET `name` ='闇龍盔甲' WHERE `item_id` = 367;
-UPDATE `armor` SET `name` ='精靈鞘甲' WHERE `item_id` = 368;
-UPDATE `armor` SET `name` ='黑暗鞘甲' WHERE `item_id` = 369;
-UPDATE `armor` SET `name` ='合金護甲' WHERE `item_id` = 370;
-UPDATE `armor` SET `name` ='地獄金屬板' WHERE `item_id` = 371;
-UPDATE `armor` SET `name` ='工藝金屬板' WHERE `item_id` = 372;
-UPDATE `armor` SET `name` ='優質盔甲' WHERE `item_id` = 373;
-UPDATE `armor` SET `name` ='夢魘盔甲' WHERE `item_id` = 374;
-UPDATE `armor` SET `name` ='龍鱗甲' WHERE `item_id` = 375;
-UPDATE `armor` SET `name` ='鋼鐵脛甲' WHERE `item_id` = 376;
-UPDATE `armor` SET `name` ='鱗脛甲' WHERE `item_id` = 377;
-UPDATE `armor` SET `name` ='合金鱗脛甲' WHERE `item_id` = 378;
-UPDATE `armor` SET `name` ='矮人鱗脛甲' WHERE `item_id` = 379;
-UPDATE `armor` SET `name` ='金屬脛甲' WHERE `item_id` = 380;
-UPDATE `armor` SET `name` ='鏈脛甲' WHERE `item_id` = 381;
-UPDATE `armor` SET `name` ='矮人鏈脛甲' WHERE `item_id` = 382;
-UPDATE `armor` SET `name` ='夏隆脛甲' WHERE `item_id` = 383;
-UPDATE `armor` SET `name` ='狼脛甲' WHERE `item_id` = 384;
-UPDATE `armor` SET `name` ='勝利脛甲' WHERE `item_id` = 385;
-UPDATE `armor` SET `name` ='勇猛脛甲' WHERE `item_id` = 386;
-UPDATE `armor` SET `name` ='精靈水晶脛甲' WHERE `item_id` = 387;
-UPDATE `armor` SET `name` ='黑暗水晶脛甲' WHERE `item_id` = 388;
-UPDATE `armor` SET `name` ='龍鱗脛甲' WHERE `item_id` = 389;
-UPDATE `armor` SET `name` ='緊身襯衫' WHERE `item_id` = 390;
-UPDATE `armor` SET `name` ='水晶獅皮襯衫' WHERE `item_id` = 391;
-UPDATE `armor` SET `name` ='獅皮襯衫' WHERE `item_id` = 392;
-UPDATE `armor` SET `name` ='米索莉板甲' WHERE `item_id` = 393;
-UPDATE `armor` SET `name` ='強化皮襯衫' WHERE `item_id` = 394;
-UPDATE `armor` SET `name` ='刺尾獅皮襯衫' WHERE `item_id` = 395;
-UPDATE `armor` SET `name` ='火蜥蜴皮甲' WHERE `item_id` = 396;
-UPDATE `armor` SET `name` ='強化米索莉襯衫' WHERE `item_id` = 397;
-UPDATE `armor` SET `name` ='金屬皮甲' WHERE `item_id` = 398;
-UPDATE `armor` SET `name` ='覆皮皮甲' WHERE `item_id` = 399;
-UPDATE `armor` SET `name` ='覆殼皮甲' WHERE `item_id` = 400;
-UPDATE `armor` SET `name` ='飛龍皮甲' WHERE `item_id` = 401;
-UPDATE `armor` SET `name` ='寧靜鏈甲' WHERE `item_id` = 402;
-UPDATE `armor` SET `name` ='勁風鏈甲' WHERE `item_id` = 403;
-UPDATE `armor` SET `name` ='草原皮甲' WHERE `item_id` = 404;
-UPDATE `armor` SET `name` ='煉獄皮甲' WHERE `item_id` = 405;
-UPDATE `armor` SET `name` ='聚合皮甲' WHERE `item_id` = 406;
-UPDATE `armor` SET `name` ='神弓皮甲' WHERE `item_id` = 407;
-UPDATE `armor` SET `name` ='守護神皮甲' WHERE `item_id` = 408;
-UPDATE `armor` SET `name` ='射手皮甲' WHERE `item_id` = 409;
-UPDATE `armor` SET `name` ='獨角獸皮甲' WHERE `item_id` = 410;
-UPDATE `armor` SET `name` ='龍皮甲' WHERE `item_id` = 411;
-UPDATE `armor` SET `name` ='緊身褲' WHERE `item_id` = 412;
-UPDATE `armor` SET `name` ='水晶獅皮脛甲' WHERE `item_id` = 413;
-UPDATE `armor` SET `name` ='獅子皮脛甲' WHERE `item_id` = 414;
-UPDATE `armor` SET `name` ='米索莉板脛甲' WHERE `item_id` = 415;
-UPDATE `armor` SET `name` ='強化皮脛甲' WHERE `item_id` = 416;
-UPDATE `armor` SET `name` ='刺尾獅皮脛甲' WHERE `item_id` = 417;
-UPDATE `armor` SET `name` ='金屬皮脛甲' WHERE `item_id` = 418;
-UPDATE `armor` SET `name` ='覆皮脛甲' WHERE `item_id` = 419;
-UPDATE `armor` SET `name` ='覆殼脛甲' WHERE `item_id` = 420;
-UPDATE `armor` SET `name` ='草原脛甲' WHERE `item_id` = 421;
-UPDATE `armor` SET `name` ='煉獄脛甲' WHERE `item_id` = 422;
-UPDATE `armor` SET `name` ='守護神皮脛甲' WHERE `item_id` = 423;
-UPDATE `armor` SET `name` ='射手皮脛甲' WHERE `item_id` = 424;
-UPDATE `armor` SET `name` ='見習生外衣' WHERE `item_id` = 425;
-UPDATE `armor` SET `name` ='外衣' WHERE `item_id` = 426;
-UPDATE `armor` SET `name` ='棉質長袍' WHERE `item_id` = 427;
-UPDATE `armor` SET `name` ='佩里奧堤外衣' WHERE `item_id` = 428;
-UPDATE `armor` SET `name` ='皮外衣' WHERE `item_id` = 429;
-UPDATE `armor` SET `name` ='奉獻長袍' WHERE `item_id` = 430;
-UPDATE `armor` SET `name` ='巫術長袍' WHERE `item_id` = 431;
-UPDATE `armor` SET `name` ='受詛咒的外衣' WHERE `item_id` = 432;
-UPDATE `armor` SET `name` ='精靈外衣' WHERE `item_id` = 433;
-UPDATE `armor` SET `name` ='純白外衣' WHERE `item_id` = 434;
-UPDATE `armor` SET `name` ='法師外衣' WHERE `item_id` = 435;
-UPDATE `armor` SET `name` ='知識外衣' WHERE `item_id` = 436;
-UPDATE `armor` SET `name` ='米索莉外衣' WHERE `item_id` = 437;
-UPDATE `armor` SET `name` ='賢者的破衣' WHERE `item_id` = 438;
-UPDATE `armor` SET `name` ='卡勒米安外衣' WHERE `item_id` = 439;
-UPDATE `armor` SET `name` ='封印長袍' WHERE `item_id` = 440;
-UPDATE `armor` SET `name` ='惡魔外衣' WHERE `item_id` = 441;
-UPDATE `armor` SET `name` ='神聖外衣' WHERE `item_id` = 442;
-UPDATE `armor` SET `name` ='瑪那外衣' WHERE `item_id` = 443;
-UPDATE `armor` SET `name` ='賢者長袍' WHERE `item_id` = 444;
-UPDATE `armor` SET `name` ='佩勒迪亞外衣' WHERE `item_id` = 445;
-UPDATE `armor` SET `name` ='地獄外衣' WHERE `item_id` = 446;
-UPDATE `armor` SET `name` ='日蝕外衣' WHERE `item_id` = 447;
-UPDATE `armor` SET `name` ='黑光長袍' WHERE `item_id` = 448;
-UPDATE `armor` SET `name` ='召喚外衣' WHERE `item_id` = 449;
-UPDATE `armor` SET `name` ='異界長袍' WHERE `item_id` = 450;
-UPDATE `armor` SET `name` ='元素外衣' WHERE `item_id` = 451;
-UPDATE `armor` SET `name` ='幻影外衣' WHERE `item_id` = 452;
-UPDATE `armor` SET `name` ='恩寵外衣' WHERE `item_id` = 453;
-UPDATE `armor` SET `name` ='聖靈長袍' WHERE `item_id` = 454;
-UPDATE `armor` SET `name` ='不死鳥外衣' WHERE `item_id` = 455;
-UPDATE `armor` SET `name` ='地獄犬外衣' WHERE `item_id` = 456;
-UPDATE `armor` SET `name` ='輔助外衣' WHERE `item_id` = 457;
-UPDATE `armor` SET `name` ='祝福長袍' WHERE `item_id` = 458;
-UPDATE `armor` SET `name` ='帕黎恩長袍' WHERE `item_id` = 459;
-UPDATE `armor` SET `name` ='真長袍' WHERE `item_id` = 460;
-UPDATE `armor` SET `name` ='見習生長襪' WHERE `item_id` = 461;
-UPDATE `armor` SET `name` ='長襪' WHERE `item_id` = 462;
-UPDATE `armor` SET `name` ='佩里奧堤長襪' WHERE `item_id` = 463;
-UPDATE `armor` SET `name` ='皮長襪' WHERE `item_id` = 464;
-UPDATE `armor` SET `name` ='受詛咒的長襪' WHERE `item_id` = 465;
-UPDATE `armor` SET `name` ='精靈長襪' WHERE `item_id` = 466;
-UPDATE `armor` SET `name` ='黑暗長襪' WHERE `item_id` = 467;
-UPDATE `armor` SET `name` ='法師長襪' WHERE `item_id` = 468;
-UPDATE `armor` SET `name` ='知識長襪' WHERE `item_id` = 469;
-UPDATE `armor` SET `name` ='米索莉長襪' WHERE `item_id` = 470;
-UPDATE `armor` SET `name` ='卡勒米安長襪' WHERE `item_id` = 471;
-UPDATE `armor` SET `name` ='惡魔長襪' WHERE `item_id` = 472;
-UPDATE `armor` SET `name` ='神聖長襪' WHERE `item_id` = 473;
-UPDATE `armor` SET `name` ='瑪那長襪' WHERE `item_id` = 474;
-UPDATE `armor` SET `name` ='佩勒迪亞長襪' WHERE `item_id` = 475;
-UPDATE `armor` SET `name` ='地獄長襪' WHERE `item_id` = 476;
-UPDATE `armor` SET `name` ='日蝕長襪' WHERE `item_id` = 477;
-UPDATE `armor` SET `name` ='召喚長襪' WHERE `item_id` = 478;
-UPDATE `armor` SET `name` ='元素長襪' WHERE `item_id` = 479;
-UPDATE `armor` SET `name` ='幻影長襪' WHERE `item_id` = 480;
-UPDATE `armor` SET `name` ='恩寵長襪' WHERE `item_id` = 481;
-UPDATE `armor` SET `name` ='不死鳥長襪' WHERE `item_id` = 482;
-UPDATE `armor` SET `name` ='地獄犬長襪' WHERE `item_id` = 483;
-UPDATE `armor` SET `name` ='輔助長襪' WHERE `item_id` = 484;
-UPDATE `armor` SET `name` ='力量圖騰' WHERE `item_id` = 485;
-UPDATE `armor` SET `name` ='火之圖騰' WHERE `item_id` = 486;
-UPDATE `armor` SET `name` ='堅強圖騰' WHERE `item_id` = 487;
-UPDATE `armor` SET `name` ='火焰圖騰' WHERE `item_id` = 488;
-UPDATE `armor` SET `name` ='銅之圖騰' WHERE `item_id` = 489;
-UPDATE `armor` SET `name` ='血之圖騰' WHERE `item_id` = 490;
-UPDATE `armor` SET `name` ='完美圖騰' WHERE `item_id` = 491;
-UPDATE `armor` SET `name` ='靈魂圖騰' WHERE `item_id` = 492;
-UPDATE `armor` SET `name` ='阿巴敦圖騰' WHERE `item_id` = 493;
-UPDATE `armor` SET `name` ='末日圖騰' WHERE `item_id` = 494;
-UPDATE `armor` SET `name` ='盟約圖騰' WHERE `item_id` = 495;
-UPDATE `armor` SET `name` ='神聖圖騰' WHERE `item_id` = 496;
-UPDATE `armor` SET `name` ='鎖鏈頭盔' WHERE `item_id` = 497;
-UPDATE `armor` SET `name` ='金屬頭盔' WHERE `item_id` = 498;
-UPDATE `armor` SET `name` ='米索莉頭盔' WHERE `item_id` = 499;
-UPDATE `armor` SET `name` ='巨型頭盔' WHERE `item_id` = 500;
-UPDATE `armor` SET `name` ='鋼鐵面罩' WHERE `item_id` = 501;
-UPDATE `armor` SET `name` ='閉鎖頭盔' WHERE `item_id` = 502;
-UPDATE `armor` SET `name` ='夏隆頭盔' WHERE `item_id` = 503;
-UPDATE `armor` SET `name` ='龍頭盔' WHERE `item_id` = 504;
-UPDATE `armor` SET `name` ='狼頭盔' WHERE `item_id` = 505;
-UPDATE `armor` SET `name` ='光龍頭盔' WHERE `item_id` = 506;
-UPDATE `armor` SET `name` ='勝利頭盔' WHERE `item_id` = 507;
-UPDATE `armor` SET `name` ='勇猛頭盔' WHERE `item_id` = 508;
-UPDATE `armor` SET `name` ='榮譽頭盔' WHERE `item_id` = 509;
-UPDATE `armor` SET `name` ='紅焰頭盔' WHERE `item_id` = 510;
-UPDATE `armor` SET `name` ='精靈水晶頭盔' WHERE `item_id` = 511;
-UPDATE `armor` SET `name` ='黑暗水晶頭盔' WHERE `item_id` = 512;
-UPDATE `armor` SET `name` ='毀滅頭盔' WHERE `item_id` = 513;
-UPDATE `armor` SET `name` ='闇龍頭盔' WHERE `item_id` = 514;
-UPDATE `armor` SET `name` ='精靈鞘盔' WHERE `item_id` = 515;
-UPDATE `armor` SET `name` ='黑暗鞘盔' WHERE `item_id` = 516;
-UPDATE `armor` SET `name` ='合金頭盔' WHERE `item_id` = 517;
-UPDATE `armor` SET `name` ='地獄頭盔' WHERE `item_id` = 518;
-UPDATE `armor` SET `name` ='工藝頭盔' WHERE `item_id` = 519;
-UPDATE `armor` SET `name` ='優質頭盔' WHERE `item_id` = 520;
-UPDATE `armor` SET `name` ='寧靜頭盔' WHERE `item_id` = 521;
-UPDATE `armor` SET `name` ='勁風頭盔' WHERE `item_id` = 522;
-UPDATE `armor` SET `name` ='草原頭盔' WHERE `item_id` = 523;
-UPDATE `armor` SET `name` ='煉獄頭盔' WHERE `item_id` = 524;
-UPDATE `armor` SET `name` ='聚合頭盔' WHERE `item_id` = 525;
-UPDATE `armor` SET `name` ='神弓頭盔' WHERE `item_id` = 526;
-UPDATE `armor` SET `name` ='守護神頭盔' WHERE `item_id` = 527;
-UPDATE `armor` SET `name` ='射手頭盔' WHERE `item_id` = 528;
-UPDATE `armor` SET `name` ='瑪那帽' WHERE `item_id` = 529;
-UPDATE `armor` SET `name` ='賢者帽' WHERE `item_id` = 530;
-UPDATE `armor` SET `name` ='佩勒迪亞頭巾' WHERE `item_id` = 531;
-UPDATE `armor` SET `name` ='地獄頭巾' WHERE `item_id` = 532;
-UPDATE `armor` SET `name` ='日蝕頭巾' WHERE `item_id` = 533;
-UPDATE `armor` SET `name` ='黑光頭巾' WHERE `item_id` = 534;
-UPDATE `armor` SET `name` ='召喚頭巾' WHERE `item_id` = 535;
-UPDATE `armor` SET `name` ='異界頭巾' WHERE `item_id` = 536;
-UPDATE `armor` SET `name` ='元素頭巾' WHERE `item_id` = 537;
-UPDATE `armor` SET `name` ='幻影頭巾' WHERE `item_id` = 538;
-UPDATE `armor` SET `name` ='恩寵頭巾' WHERE `item_id` = 539;
-UPDATE `armor` SET `name` ='聖靈頭巾' WHERE `item_id` = 540;
-UPDATE `armor` SET `name` ='不死鳥頭巾' WHERE `item_id` = 541;
-UPDATE `armor` SET `name` ='地獄犬頭巾' WHERE `item_id` = 542;
-UPDATE `armor` SET `name` ='輔助頭巾' WHERE `item_id` = 543;
-UPDATE `armor` SET `name` ='祝福頭巾' WHERE `item_id` = 544;
-UPDATE `armor` SET `name` ='火焰帽' WHERE `item_id` = 545;
-UPDATE `armor` SET `name` ='銅帽' WHERE `item_id` = 546;
-UPDATE `armor` SET `name` ='塔魯帽' WHERE `item_id` = 547;
-UPDATE `armor` SET `name` ='完美帽' WHERE `item_id` = 548;
-UPDATE `armor` SET `name` ='阿巴敦帽' WHERE `item_id` = 549;
-UPDATE `armor` SET `name` ='末日帽' WHERE `item_id` = 550;
-UPDATE `armor` SET `name` ='盟約帽' WHERE `item_id` = 551;
-UPDATE `armor` SET `name` ='聖恩帽' WHERE `item_id` = 552;
-UPDATE `armor` SET `name` ='鋼鐵靴' WHERE `item_id` = 553;
-UPDATE `armor` SET `name` ='封印的夏隆靴' WHERE `item_id` = 554;
-UPDATE `armor` SET `name` ='龍靴' WHERE `item_id` = 555;
-UPDATE `armor` SET `name` ='狼靴' WHERE `item_id` = 556;
-UPDATE `armor` SET `name` ='光龍靴' WHERE `item_id` = 557;
-UPDATE `armor` SET `name` ='勝利靴' WHERE `item_id` = 558;
-UPDATE `armor` SET `name` ='勇猛靴' WHERE `item_id` = 559;
-UPDATE `armor` SET `name` ='榮譽靴' WHERE `item_id` = 560;
-UPDATE `armor` SET `name` ='紅焰靴' WHERE `item_id` = 561;
-UPDATE `armor` SET `name` ='精靈水晶靴' WHERE `item_id` = 562;
-UPDATE `armor` SET `name` ='黑暗水晶靴' WHERE `item_id` = 563;
-UPDATE `armor` SET `name` ='毀滅靴' WHERE `item_id` = 564;
-UPDATE `armor` SET `name` ='闇龍靴' WHERE `item_id` = 565;
-UPDATE `armor` SET `name` ='精靈鞘靴' WHERE `item_id` = 566;
-UPDATE `armor` SET `name` ='黑暗鞘靴' WHERE `item_id` = 567;
-UPDATE `armor` SET `name` ='合金靴(無用)' WHERE `item_id` = 568;
-UPDATE `armor` SET `name` ='地獄靴' WHERE `item_id` = 569;
-UPDATE `armor` SET `name` ='工藝靴' WHERE `item_id` = 570;
-UPDATE `armor` SET `name` ='優質靴' WHERE `item_id` = 571;
-UPDATE `armor` SET `name` ='寧靜靴' WHERE `item_id` = 572;
-UPDATE `armor` SET `name` ='勁風靴' WHERE `item_id` = 573;
-UPDATE `armor` SET `name` ='草原靴' WHERE `item_id` = 574;
-UPDATE `armor` SET `name` ='煉獄靴' WHERE `item_id` = 575;
-UPDATE `armor` SET `name` ='聚合靴' WHERE `item_id` = 576;
-UPDATE `armor` SET `name` ='神弓靴' WHERE `item_id` = 577;
-UPDATE `armor` SET `name` ='守護神靴' WHERE `item_id` = 578;
-UPDATE `armor` SET `name` ='射手靴' WHERE `item_id` = 579;
-UPDATE `armor` SET `name` ='瑪那靴' WHERE `item_id` = 580;
-UPDATE `armor` SET `name` ='賢者靴' WHERE `item_id` = 581;
-UPDATE `armor` SET `name` ='佩勒迪亞靴' WHERE `item_id` = 582;
-UPDATE `armor` SET `name` ='聖威靴' WHERE `item_id` = 583;
-UPDATE `armor` SET `name` ='日蝕靴' WHERE `item_id` = 584;
-UPDATE `armor` SET `name` ='黑光靴' WHERE `item_id` = 585;
-UPDATE `armor` SET `name` ='召喚靴' WHERE `item_id` = 586;
-UPDATE `armor` SET `name` ='異界靴' WHERE `item_id` = 587;
-UPDATE `armor` SET `name` ='元素靴' WHERE `item_id` = 588;
-UPDATE `armor` SET `name` ='幻影靴' WHERE `item_id` = 589;
-UPDATE `armor` SET `name` ='恩寵靴' WHERE `item_id` = 590;
-UPDATE `armor` SET `name` ='聖靈靴' WHERE `item_id` = 591;
-UPDATE `armor` SET `name` ='不死鳥之靴' WHERE `item_id` = 592;
-UPDATE `armor` SET `name` ='地獄犬之靴' WHERE `item_id` = 593;
-UPDATE `armor` SET `name` ='輔助靴' WHERE `item_id` = 594;
-UPDATE `armor` SET `name` ='祝福靴' WHERE `item_id` = 595;
-UPDATE `armor` SET `name` ='火焰靴' WHERE `item_id` = 596;
-UPDATE `armor` SET `name` ='銅靴' WHERE `item_id` = 597;
-UPDATE `armor` SET `name` ='塔魯靴' WHERE `item_id` = 598;
-UPDATE `armor` SET `name` ='完美靴' WHERE `item_id` = 599;
-UPDATE `armor` SET `name` ='封印的阿巴敦靴' WHERE `item_id` = 600;
-UPDATE `armor` SET `name` ='封印的末日靴' WHERE `item_id` = 601;
-UPDATE `armor` SET `name` ='盟約靴' WHERE `item_id` = 602;
-UPDATE `armor` SET `name` ='聖恩靴' WHERE `item_id` = 603;
-UPDATE `armor` SET `name` ='高級皮手套' WHERE `item_id` = 604;
-UPDATE `armor` SET `name` ='長皮手套' WHERE `item_id` = 605;
-UPDATE `armor` SET `name` ='安魂長手套' WHERE `item_id` = 606;
-UPDATE `armor` SET `name` ='食人魔力量長手套' WHERE `item_id` = 607;
-UPDATE `armor` SET `name` ='米索莉長手套' WHERE `item_id` = 608;
-UPDATE `armor` SET `name` ='死靈長手套' WHERE `item_id` = 609;
-UPDATE `armor` SET `name` ='聖騎士長手套' WHERE `item_id` = 610;
-UPDATE `armor` SET `name` ='吸魂長手套' WHERE `item_id` = 611;
-UPDATE `armor` SET `name` ='封印的夏隆長手套' WHERE `item_id` = 612;
-UPDATE `armor` SET `name` ='沙龍手套' WHERE `item_id` = 613;
-UPDATE `armor` SET `name` ='騎士斗篷' WHERE `item_id` = 614;
-UPDATE `armor` SET `name` ='蜘蛛網斗篷' WHERE `item_id` = 615;
-UPDATE `armor` SET `name` ='魔法斗篷' WHERE `item_id` = 616;
-UPDATE `armor` SET `name` ='米索莉斗篷' WHERE `item_id` = 617;
-UPDATE `armor` SET `name` ='護身斗篷' WHERE `item_id` = 618;
-UPDATE `armor` SET `name` ='(不使用)古代斗篷' WHERE `item_id` = 619;
-UPDATE `armor` SET `name` ='守護斗篷' WHERE `item_id` = 620;
-UPDATE `armor` SET `name` ='地獄斗篷' WHERE `item_id` = 621;
-UPDATE `armor` SET `name` ='(不使用)聖靈斗篷' WHERE `item_id` = 622;
-UPDATE `armor` SET `name` ='神聖斗篷' WHERE `item_id` = 623;
-UPDATE `armor` SET `name` ='隱身斗篷' WHERE `item_id` = 624;
-UPDATE `armor` SET `name` ='絹絲內衣' WHERE `item_id` = 675;
-UPDATE `armor` SET `name` ='純白內衣' WHERE `item_id` = 676;
-UPDATE `armor` SET `name` ='連身泳衣' WHERE `item_id` = 677;
-UPDATE `armor` SET `name` ='比基尼泳衣' WHERE `item_id` = 678;
-UPDATE `armor` SET `name` ='受詛咒的內衣' WHERE `item_id` = 679;
-UPDATE `armor` SET `name` ='米索莉內衣' WHERE `item_id` = 680;
-UPDATE `armor` SET `name` ='迷惑內衣' WHERE `item_id` = 681;
-UPDATE `armor` SET `name` ='惡魔內衣' WHERE `item_id` = 682;
-UPDATE `armor` SET `name` ='神聖內衣' WHERE `item_id` = 683;
-UPDATE `armor` SET `name` ='規製泳衣' WHERE `item_id` = 684;
-UPDATE `armor` SET `name` ='水晶泳衣' WHERE `item_id` = 685;
-UPDATE `armor` SET `name` ='貓眼耳環' WHERE `item_id` = 845;
-UPDATE `armor` SET `name` ='珊瑚耳環' WHERE `item_id` = 846;
-UPDATE `armor` SET `name` ='紅新月耳環' WHERE `item_id` = 847;
-UPDATE `armor` SET `name` ='魔力耳環' WHERE `item_id` = 848;
-UPDATE `armor` SET `name` ='虎眼耳環' WHERE `item_id` = 849;
-UPDATE `armor` SET `name` ='精靈耳環' WHERE `item_id` = 850;
-UPDATE `armor` SET `name` ='瑪瑙獸眼耳環' WHERE `item_id` = 851;
-UPDATE `armor` SET `name` ='月長石耳環' WHERE `item_id` = 852;
-UPDATE `armor` SET `name` ='守護耳環' WHERE `item_id` = 853;
-UPDATE `armor` SET `name` ='封印耳環' WHERE `item_id` = 854;
-UPDATE `armor` SET `name` ='娜仙耳環' WHERE `item_id` = 855;
-UPDATE `armor` SET `name` ='金剛石耳環' WHERE `item_id` = 856;
-UPDATE `armor` SET `name` ='神聖耳環' WHERE `item_id` = 857;
-UPDATE `armor` SET `name` ='泰狄奧森耳環' WHERE `item_id` = 858;
-UPDATE `armor` SET `name` ='瑪那耳環' WHERE `item_id` = 859;
-UPDATE `armor` SET `name` ='賢者耳環' WHERE `item_id` = 860;
-UPDATE `armor` SET `name` ='佩勒迪亞耳環' WHERE `item_id` = 861;
-UPDATE `armor` SET `name` ='聖威耳環' WHERE `item_id` = 862;
-UPDATE `armor` SET `name` ='日蝕耳環' WHERE `item_id` = 863;
-UPDATE `armor` SET `name` ='黑光耳環' WHERE `item_id` = 864;
-UPDATE `armor` SET `name` ='召喚耳環' WHERE `item_id` = 865;
-UPDATE `armor` SET `name` ='異界耳環' WHERE `item_id` = 866;
-UPDATE `armor` SET `name` ='元素耳環' WHERE `item_id` = 867;
-UPDATE `armor` SET `name` ='幻影耳環' WHERE `item_id` = 868;
-UPDATE `armor` SET `name` ='恩寵耳環' WHERE `item_id` = 869;
-UPDATE `armor` SET `name` ='聖靈耳環' WHERE `item_id` = 870;
-UPDATE `armor` SET `name` ='不死鳥耳環' WHERE `item_id` = 871;
-UPDATE `armor` SET `name` ='地獄犬耳環' WHERE `item_id` = 872;
-UPDATE `armor` SET `name` ='輔助耳環' WHERE `item_id` = 873;
-UPDATE `armor` SET `name` ='祝福耳環' WHERE `item_id` = 874;
-UPDATE `armor` SET `name` ='知識戒指' WHERE `item_id` = 875;
-UPDATE `armor` SET `name` ='幻滅戒指' WHERE `item_id` = 876;
-UPDATE `armor` SET `name` ='智慧戒指' WHERE `item_id` = 877;
-UPDATE `armor` SET `name` ='藍色珊瑚戒指' WHERE `item_id` = 878;
-UPDATE `armor` SET `name` ='魔力戒指' WHERE `item_id` = 879;
-UPDATE `armor` SET `name` ='黑珍珠戒指' WHERE `item_id` = 880;
-UPDATE `armor` SET `name` ='精靈戒指' WHERE `item_id` = 881;
-UPDATE `armor` SET `name` ='米索莉戒指' WHERE `item_id` = 882;
-UPDATE `armor` SET `name` ='水石戒指' WHERE `item_id` = 883;
-UPDATE `armor` SET `name` ='守護戒指' WHERE `item_id` = 884;
-UPDATE `armor` SET `name` ='永生戒指' WHERE `item_id` = 885;
-UPDATE `armor` SET `name` ='封印戒指' WHERE `item_id` = 886;
-UPDATE `armor` SET `name` ='金剛石戒指' WHERE `item_id` = 887;
-UPDATE `armor` SET `name` ='神聖戒指' WHERE `item_id` = 888;
-UPDATE `armor` SET `name` ='泰狄奧森戒指' WHERE `item_id` = 889;
-UPDATE `armor` SET `name` ='奉獻戒指' WHERE `item_id` = 890;
-UPDATE `armor` SET `name` ='賢者戒指' WHERE `item_id` = 891;
-UPDATE `armor` SET `name` ='佩勒迪亞戒指' WHERE `item_id` = 892;
-UPDATE `armor` SET `name` ='聖威戒指' WHERE `item_id` = 893;
-UPDATE `armor` SET `name` ='日蝕戒指' WHERE `item_id` = 894;
-UPDATE `armor` SET `name` ='黑光戒指' WHERE `item_id` = 895;
-UPDATE `armor` SET `name` ='召喚戒指' WHERE `item_id` = 896;
-UPDATE `armor` SET `name` ='異界戒指' WHERE `item_id` = 897;
-UPDATE `armor` SET `name` ='元素戒指' WHERE `item_id` = 898;
-UPDATE `armor` SET `name` ='幻影戒指' WHERE `item_id` = 899;
-UPDATE `armor` SET `name` ='恩寵戒指' WHERE `item_id` = 900;
-UPDATE `armor` SET `name` ='聖靈戒指' WHERE `item_id` = 901;
-UPDATE `armor` SET `name` ='不死鳥戒指' WHERE `item_id` = 902;
-UPDATE `armor` SET `name` ='地獄犬的戒指' WHERE `item_id` = 903;
-UPDATE `armor` SET `name` ='輔助戒指' WHERE `item_id` = 904;
-UPDATE `armor` SET `name` ='祝福戒指' WHERE `item_id` = 905;
-UPDATE `armor` SET `name` ='知識項鍊' WHERE `item_id` = 906;
-UPDATE `armor` SET `name` ='幻滅項鍊' WHERE `item_id` = 907;
-UPDATE `armor` SET `name` ='智慧項鍊' WHERE `item_id` = 908;
-UPDATE `armor` SET `name` ='藍鑽項鍊' WHERE `item_id` = 909;
-UPDATE `armor` SET `name` ='奉獻項鍊' WHERE `item_id` = 910;
-UPDATE `armor` SET `name` ='魔力項鍊' WHERE `item_id` = 911;
-UPDATE `armor` SET `name` ='古森林項鍊' WHERE `item_id` = 912;
-UPDATE `armor` SET `name` ='精靈項鍊' WHERE `item_id` = 913;
-UPDATE `armor` SET `name` ='黑暗項鍊' WHERE `item_id` = 914;
-UPDATE `armor` SET `name` ='水石項鍊' WHERE `item_id` = 915;
-UPDATE `armor` SET `name` ='守護項鍊' WHERE `item_id` = 916;
-UPDATE `armor` SET `name` ='人魚之淚' WHERE `item_id` = 917;
-UPDATE `armor` SET `name` ='金剛石項鍊' WHERE `item_id` = 918;
-UPDATE `armor` SET `name` ='神聖項鍊' WHERE `item_id` = 919;
-UPDATE `armor` SET `name` ='泰狄奧森項鍊' WHERE `item_id` = 920;
-UPDATE `armor` SET `name` ='瑪那項鍊' WHERE `item_id` = 921;
-UPDATE `armor` SET `name` ='賢者項鍊' WHERE `item_id` = 922;
-UPDATE `armor` SET `name` ='佩勒迪亞項鍊' WHERE `item_id` = 923;
-UPDATE `armor` SET `name` ='聖威項鍊' WHERE `item_id` = 924;
-UPDATE `armor` SET `name` ='日蝕項鍊' WHERE `item_id` = 925;
-UPDATE `armor` SET `name` ='黑光項鍊' WHERE `item_id` = 926;
-UPDATE `armor` SET `name` ='召喚項鍊' WHERE `item_id` = 927;
-UPDATE `armor` SET `name` ='異界項鍊' WHERE `item_id` = 928;
-UPDATE `armor` SET `name` ='元素項鍊' WHERE `item_id` = 929;
-UPDATE `armor` SET `name` ='幻影項鍊' WHERE `item_id` = 930;
-UPDATE `armor` SET `name` ='恩寵項鍊' WHERE `item_id` = 931;
-UPDATE `armor` SET `name` ='聖靈項鍊' WHERE `item_id` = 932;
-UPDATE `armor` SET `name` ='不死鳥項鍊' WHERE `item_id` = 933;
-UPDATE `armor` SET `name` ='地獄犬項鍊' WHERE `item_id` = 934;
-UPDATE `armor` SET `name` ='輔助項鍊' WHERE `item_id` = 935;
-UPDATE `armor` SET `name` ='祝福項鍊' WHERE `item_id` = 936;
-UPDATE `armor` SET `name` ='券000' WHERE `item_id` = 990;
-UPDATE `armor` SET `name` ='券001' WHERE `item_id` = 991;
-UPDATE `armor` SET `name` ='券002' WHERE `item_id` = 992;
-UPDATE `armor` SET `name` ='券003' WHERE `item_id` = 993;
-UPDATE `armor` SET `name` ='券004' WHERE `item_id` = 994;
-UPDATE `armor` SET `name` ='券005' WHERE `item_id` = 995;
-UPDATE `armor` SET `name` ='券006' WHERE `item_id` = 996;
-UPDATE `armor` SET `name` ='券007' WHERE `item_id` = 997;
-UPDATE `armor` SET `name` ='券008' WHERE `item_id` = 998;
-UPDATE `armor` SET `name` ='券009' WHERE `item_id` = 999;
-UPDATE `armor` SET `name` ='券010' WHERE `item_id` = 1000;
-UPDATE `armor` SET `name` ='棉質外衣' WHERE `item_id` = 1100;
-UPDATE `armor` SET `name` ='奉獻外衣' WHERE `item_id` = 1101;
-UPDATE `armor` SET `name` ='巫術外衣' WHERE `item_id` = 1102;
-UPDATE `armor` SET `name` ='棉質長襪' WHERE `item_id` = 1103;
-UPDATE `armor` SET `name` ='奉獻長襪' WHERE `item_id` = 1104;
-UPDATE `armor` SET `name` ='巫術長襪' WHERE `item_id` = 1105;
-UPDATE `armor` SET `name` ='短皮手套' WHERE `item_id` = 1119;
-UPDATE `armor` SET `name` ='帕格立歐的手' WHERE `item_id` = 1120;
-UPDATE `armor` SET `name` ='見習生的鞋' WHERE `item_id` = 1121;
-UPDATE `armor` SET `name` ='棉質涼鞋' WHERE `item_id` = 1122;
-UPDATE `armor` SET `name` ='藍鹿皮靴' WHERE `item_id` = 1123;
-UPDATE `armor` SET `name` ='力量靴' WHERE `item_id` = 1124;
-UPDATE `armor` SET `name` ='襲擊靴' WHERE `item_id` = 1125;
-UPDATE `armor` SET `name` ='緋紅靴' WHERE `item_id` = 1126;
-UPDATE `armor` SET `name` ='被遺忘的靴' WHERE `item_id` = 1127;
-UPDATE `armor` SET `name` ='金剛石靴' WHERE `item_id` = 1128;
-UPDATE `armor` SET `name` ='粗糙皮鞋' WHERE `item_id` = 1129;
-UPDATE `armor` SET `name` ='見習騎士襯衫' WHERE `item_id` = 1146;
-UPDATE `armor` SET `name` ='見習騎士褲' WHERE `item_id` = 1147;
-UPDATE `armor` SET `name` ='硬皮頭盔' WHERE `item_id` = 1148;
-UPDATE `armor` SET `name` ='閃耀頭箍' WHERE `item_id` = 1149;
-UPDATE `armor` SET `name` ='合金鱗甲-動畫用' WHERE `item_id` = 1308;
-UPDATE `armor` SET `name` ='米索莉胸甲-Kamex用' WHERE `item_id` = 1309;
-UPDATE `armor` SET `name` ='巫術外衣-Kamex用' WHERE `item_id` = 1310;
-UPDATE `armor` SET `name` ='水晶獅皮襯衫-Kamex用' WHERE `item_id` = 1311;
-UPDATE `armor` SET `name` ='純白外衣-Kamex用' WHERE `item_id` = 1312;
-UPDATE `armor` SET `name` ='合金鱗脛甲-動畫用' WHERE `item_id` = 1313;
-UPDATE `armor` SET `name` ='米索莉脛甲-Kamex用' WHERE `item_id` = 1314;
-UPDATE `armor` SET `name` ='巫術長襪-Kamex用' WHERE `item_id` = 1315;
-UPDATE `armor` SET `name` ='水晶獅皮綁腿-Kamex用' WHERE `item_id` = 1316;
-UPDATE `armor` SET `name` ='黑暗長襪-Kamex用' WHERE `item_id` = 1317;
-UPDATE `armor` SET `name` ='手套-Kamex動畫用' WHERE `item_id` = 1318;
-UPDATE `armor` SET `name` ='皮手套-Kamex用' WHERE `item_id` = 1319;
-UPDATE `armor` SET `name` ='高級皮手套-Kamex用' WHERE `item_id` = 1320;
-UPDATE `armor` SET `name` ='安魂長手套-Kamex用' WHERE `item_id` = 1321;
-UPDATE `armor` SET `name` ='腕甲-Kamex用' WHERE `item_id` = 1322;
-UPDATE `armor` SET `name` ='皮鞋-動畫用' WHERE `item_id` = 1323;
-UPDATE `armor` SET `name` ='短靴-Kamex用' WHERE `item_id` = 1324;
-UPDATE `armor` SET `name` ='皮靴-Kamex用' WHERE `item_id` = 1325;
-UPDATE `armor` SET `name` ='鋼鐵靴-Kamex用' WHERE `item_id` = 1326;
-UPDATE `armor` SET `name` ='長靴-Kamex用' WHERE `item_id` = 1327;
-UPDATE `armor` SET `name` ='勇氣項鍊' WHERE `item_id` = 1506;
-UPDATE `armor` SET `name` ='勇猛項鍊' WHERE `item_id` = 1507;
-UPDATE `armor` SET `name` ='小熊戒指' WHERE `item_id` = 1508;
-UPDATE `armor` SET `name` ='螢火蟲戒指' WHERE `item_id` = 1509;
-UPDATE `armor` SET `name` ='阿巴敦胸甲' WHERE `item_id` = 2376;
-UPDATE `armor` SET `name` ='米索莉鱗脛甲' WHERE `item_id` = 2377;
-UPDATE `armor` SET `name` ='鎖脛甲' WHERE `item_id` = 2378;
-UPDATE `armor` SET `name` ='阿巴敦脛甲' WHERE `item_id` = 2379;
-UPDATE `armor` SET `name` ='青狼脛甲' WHERE `item_id` = 2380;
-UPDATE `armor` SET `name` ='末日金屬盔甲' WHERE `item_id` = 2381;
-UPDATE `armor` SET `name` ='塔魯金屬盔甲' WHERE `item_id` = 2382;
-UPDATE `armor` SET `name` ='聖威金屬盔甲' WHERE `item_id` = 2383;
-UPDATE `armor` SET `name` ='夏隆皮衫' WHERE `item_id` = 2384;
-UPDATE `armor` SET `name` ='黑暗水晶皮甲' WHERE `item_id` = 2385;
-UPDATE `armor` SET `name` ='木製脛甲' WHERE `item_id` = 2386;
-UPDATE `armor` SET `name` ='強化米索莉脛甲' WHERE `item_id` = 2387;
-UPDATE `armor` SET `name` ='夏隆皮脛甲' WHERE `item_id` = 2388;
-UPDATE `armor` SET `name` ='黑暗水晶皮脛甲' WHERE `item_id` = 2389;
-UPDATE `armor` SET `name` ='阿巴敦皮甲' WHERE `item_id` = 2390;
-UPDATE `armor` SET `name` ='青狼皮甲' WHERE `item_id` = 2391;
-UPDATE `armor` SET `name` ='末日皮甲' WHERE `item_id` = 2392;
-UPDATE `armor` SET `name` ='塔魯皮甲' WHERE `item_id` = 2393;
-UPDATE `armor` SET `name` ='夢魘皮甲' WHERE `item_id` = 2394;
-UPDATE `armor` SET `name` ='聖威皮甲' WHERE `item_id` = 2395;
-UPDATE `armor` SET `name` ='精靈米索莉外衣' WHERE `item_id` = 2396;
-UPDATE `armor` SET `name` ='夏隆外衣' WHERE `item_id` = 2397;
-UPDATE `armor` SET `name` ='青狼外衣' WHERE `item_id` = 2398;
-UPDATE `armor` SET `name` ='末日外衣' WHERE `item_id` = 2399;
-UPDATE `armor` SET `name` ='塔魯外衣' WHERE `item_id` = 2400;
-UPDATE `armor` SET `name` ='精靈米索莉襪' WHERE `item_id` = 2401;
-UPDATE `armor` SET `name` ='夏隆長襪' WHERE `item_id` = 2402;
-UPDATE `armor` SET `name` ='青狼長襪' WHERE `item_id` = 2403;
-UPDATE `armor` SET `name` ='末日長襪' WHERE `item_id` = 2404;
-UPDATE `armor` SET `name` ='塔魯長襪' WHERE `item_id` = 2405;
-UPDATE `armor` SET `name` ='阿巴敦長袍' WHERE `item_id` = 2406;
-UPDATE `armor` SET `name` ='黑暗水晶長袍' WHERE `item_id` = 2407;
-UPDATE `armor` SET `name` ='夢魘長袍' WHERE `item_id` = 2408;
-UPDATE `armor` SET `name` ='聖威長袍' WHERE `item_id` = 2409;
-UPDATE `armor` SET `name` ='夢魘圖騰' WHERE `item_id` = 2410;
-UPDATE `armor` SET `name` ='鎖子頭盔' WHERE `item_id` = 2411;
-UPDATE `armor` SET `name` ='金屬板頭盔' WHERE `item_id` = 2412;
-UPDATE `armor` SET `name` ='鏈頭巾' WHERE `item_id` = 2413;
-UPDATE `armor` SET `name` ='全覆式頭盔' WHERE `item_id` = 2414;
-UPDATE `armor` SET `name` ='阿巴敦頭箍' WHERE `item_id` = 2415;
-UPDATE `armor` SET `name` ='青狼頭盔' WHERE `item_id` = 2416;
-UPDATE `armor` SET `name` ='末日頭盔' WHERE `item_id` = 2417;
-UPDATE `armor` SET `name` ='夢魘頭盔' WHERE `item_id` = 2418;
-UPDATE `armor` SET `name` ='聖威頭箍' WHERE `item_id` = 2419;
-UPDATE `armor` SET `name` ='龍帽盔' WHERE `item_id` = 2420;
-UPDATE `armor` SET `name` ='真頭巾' WHERE `item_id` = 2421;
-UPDATE `armor` SET `name` ='強化皮靴' WHERE `item_id` = 2422;
-UPDATE `armor` SET `name` ='知識長靴' WHERE `item_id` = 2423;
-UPDATE `armor` SET `name` ='刺尾獅皮靴' WHERE `item_id` = 2424;
-UPDATE `armor` SET `name` ='鎖子長靴' WHERE `item_id` = 2425;
-UPDATE `armor` SET `name` ='精靈米索莉靴' WHERE `item_id` = 2426;
-UPDATE `armor` SET `name` ='火蜥蜴皮靴' WHERE `item_id` = 2427;
-UPDATE `armor` SET `name` ='金屬靴' WHERE `item_id` = 2428;
-UPDATE `armor` SET `name` ='鏈甲靴' WHERE `item_id` = 2429;
-UPDATE `armor` SET `name` ='卡勒米安長靴' WHERE `item_id` = 2430;
-UPDATE `armor` SET `name` ='金屬皮長靴' WHERE `item_id` = 2431;
-UPDATE `armor` SET `name` ='矮人鏈靴' WHERE `item_id` = 2432;
-UPDATE `armor` SET `name` ='封印長靴' WHERE `item_id` = 2433;
-UPDATE `armor` SET `name` ='覆皮長靴' WHERE `item_id` = 2434;
-UPDATE `armor` SET `name` ='惡魔長靴' WHERE `item_id` = 2435;
-UPDATE `armor` SET `name` ='覆殼長靴' WHERE `item_id` = 2436;
-UPDATE `armor` SET `name` ='飛龍皮長靴' WHERE `item_id` = 2437;
-UPDATE `armor` SET `name` ='全覆式長靴' WHERE `item_id` = 2438;
-UPDATE `armor` SET `name` ='封印的青狼長靴' WHERE `item_id` = 2439;
-UPDATE `armor` SET `name` ='夢魘靴' WHERE `item_id` = 2440;
-UPDATE `armor` SET `name` ='黑暗軍長靴' WHERE `item_id` = 2441;
-UPDATE `armor` SET `name` ='帕黎恩長靴' WHERE `item_id` = 2442;
-UPDATE `armor` SET `name` ='龍皮靴' WHERE `item_id` = 2443;
-UPDATE `armor` SET `name` ='真長靴' WHERE `item_id` = 2444;
-UPDATE `armor` SET `name` ='龍鱗靴' WHERE `item_id` = 2445;
-UPDATE `armor` SET `name` ='強化皮手套' WHERE `item_id` = 2446;
-UPDATE `armor` SET `name` ='知識手套' WHERE `item_id` = 2447;
-UPDATE `armor` SET `name` ='刺尾獅皮手套' WHERE `item_id` = 2448;
-UPDATE `armor` SET `name` ='鎖子甲長手套' WHERE `item_id` = 2449;
-UPDATE `armor` SET `name` ='精靈米索莉手套' WHERE `item_id` = 2450;
-UPDATE `armor` SET `name` ='賢者的舊手套' WHERE `item_id` = 2451;
-UPDATE `armor` SET `name` ='強化米索莉手套' WHERE `item_id` = 2452;
-UPDATE `armor` SET `name` ='鏈手套' WHERE `item_id` = 2453;
-UPDATE `armor` SET `name` ='卡勒米安手套' WHERE `item_id` = 2454;
-UPDATE `armor` SET `name` ='金屬皮手套' WHERE `item_id` = 2455;
-UPDATE `armor` SET `name` ='矮人鏈手套' WHERE `item_id` = 2456;
-UPDATE `armor` SET `name` ='封印手套' WHERE `item_id` = 2457;
-UPDATE `armor` SET `name` ='覆皮手套' WHERE `item_id` = 2458;
-UPDATE `armor` SET `name` ='惡魔手套' WHERE `item_id` = 2459;
-UPDATE `armor` SET `name` ='覆殼手套' WHERE `item_id` = 2460;
-UPDATE `armor` SET `name` ='飛龍皮手套' WHERE `item_id` = 2461;
-UPDATE `armor` SET `name` ='全覆式長手套' WHERE `item_id` = 2462;
-UPDATE `armor` SET `name` ='神聖手套' WHERE `item_id` = 2463;
-UPDATE `armor` SET `name` ='封印的阿巴敦手套' WHERE `item_id` = 2464;
-UPDATE `armor` SET `name` ='寧靜鏈手套' WHERE `item_id` = 2465;
-UPDATE `armor` SET `name` ='守護神手套' WHERE `item_id` = 2466;
-UPDATE `armor` SET `name` ='祝福手套' WHERE `item_id` = 2467;
-UPDATE `armor` SET `name` ='聖恩手套' WHERE `item_id` = 2468;
-UPDATE `armor` SET `name` ='煉獄手套' WHERE `item_id` = 2469;
-UPDATE `armor` SET `name` ='幻影手套' WHERE `item_id` = 2470;
-UPDATE `armor` SET `name` ='黑暗軍手套' WHERE `item_id` = 2471;
-UPDATE `armor` SET `name` ='黑暗水晶手套' WHERE `item_id` = 2472;
-UPDATE `armor` SET `name` ='真手套' WHERE `item_id` = 2473;
-UPDATE `armor` SET `name` ='帕黎恩手套' WHERE `item_id` = 2474;
-UPDATE `armor` SET `name` ='封印的末日手套' WHERE `item_id` = 2475;
-UPDATE `armor` SET `name` ='龍護手' WHERE `item_id` = 2476;
-UPDATE `armor` SET `name` ='龍皮手套' WHERE `item_id` = 2477;
-UPDATE `armor` SET `name` ='塔魯手套' WHERE `item_id` = 2478;
-UPDATE `armor` SET `name` ='夢魘手套' WHERE `item_id` = 2479;
-UPDATE `armor` SET `name` ='元素手套' WHERE `item_id` = 2480;
-UPDATE `armor` SET `name` ='恩寵手套' WHERE `item_id` = 2481;
-UPDATE `armor` SET `name` ='聖威手套' WHERE `item_id` = 2482;
-UPDATE `armor` SET `name` ='勁風手套' WHERE `item_id` = 2483;
-UPDATE `armor` SET `name` ='地獄犬手套' WHERE `item_id` = 2484;
-UPDATE `armor` SET `name` ='毀滅長手套' WHERE `item_id` = 2485;
-UPDATE `armor` SET `name` ='佩勒迪亞手套' WHERE `item_id` = 2486;
-UPDATE `armor` SET `name` ='封印的青狼手套' WHERE `item_id` = 2487;
-UPDATE `armor` SET `name` ='不死鳥手套' WHERE `item_id` = 2488;
-UPDATE `armor` SET `name` ='黑光手套' WHERE `item_id` = 2489;
-UPDATE `armor` SET `name` ='沉默斗篷' WHERE `item_id` = 2490;
-UPDATE `armor` SET `name` ='金絲斗篷' WHERE `item_id` = 2491;
-UPDATE `armor` SET `name` ='陰影斗篷' WHERE `item_id` = 2492;
-UPDATE `armor` SET `name` ='狼皮甲' WHERE `item_id` = 2506;
-UPDATE `armor` SET `name` ='狼用防具' WHERE `item_id` = 3891;
-UPDATE `armor` SET `name` ='狼用硬皮甲' WHERE `item_id` = 3892;
-UPDATE `armor` SET `name` ='狼用木甲' WHERE `item_id` = 3893;
-UPDATE `armor` SET `name` ='狼用麟甲' WHERE `item_id` = 3894;
-UPDATE `armor` SET `name` ='狼用骨製甲' WHERE `item_id` = 3895;
-UPDATE `armor` SET `name` ='狼用鱗甲' WHERE `item_id` = 3896;
-UPDATE `armor` SET `name` ='狼用青銅甲' WHERE `item_id` = 3897;
-UPDATE `armor` SET `name` ='狼用金屬甲' WHERE `item_id` = 3898;
-UPDATE `armor` SET `name` ='狼用鐵甲' WHERE `item_id` = 3899;
-UPDATE `armor` SET `name` ='狼用高級鋼甲' WHERE `item_id` = 3900;
-UPDATE `armor` SET `name` ='狼用米索莉甲' WHERE `item_id` = 3901;
-UPDATE `armor` SET `name` ='幼龍用軟甲' WHERE `item_id` = 3912;
-UPDATE `armor` SET `name` ='幼龍用鱗甲' WHERE `item_id` = 3913;
-UPDATE `armor` SET `name` ='幼龍用鎖子甲' WHERE `item_id` = 3914;
-UPDATE `armor` SET `name` ='幼龍用青銅外衣' WHERE `item_id` = 3915;
-UPDATE `armor` SET `name` ='幼龍用鐵外衣' WHERE `item_id` = 3916;
-UPDATE `armor` SET `name` ='幼龍用影鋼甲' WHERE `item_id` = 3917;
-UPDATE `armor` SET `name` ='幼龍用米索莉外衣' WHERE `item_id` = 3918;
-UPDATE `armor` SET `name` ='夢之盔甲' WHERE `item_id` = 4224;
-UPDATE `armor` SET `name` ='夢之長襪' WHERE `item_id` = 4225;
-UPDATE `armor` SET `name` ='夢之手套' WHERE `item_id` = 4226;
-UPDATE `armor` SET `name` ='夢之靴' WHERE `item_id` = 4227;
-UPDATE `armor` SET `name` ='泛在盔甲' WHERE `item_id` = 4228;
-UPDATE `armor` SET `name` ='泛在長襪' WHERE `item_id` = 4229;
-UPDATE `armor` SET `name` ='泛在手套' WHERE `item_id` = 4230;
-UPDATE `armor` SET `name` ='泛在靴' WHERE `item_id` = 4231;
-UPDATE `armor` SET `name` ='幼龍專用65級防具' WHERE `item_id` = 4234;
-UPDATE `armor` SET `name` ='幼龍專用75級防具' WHERE `item_id` = 4235;
-UPDATE `armor` SET `name` ='臨時道具' WHERE `item_id` = 4236;
-UPDATE `armor` SET `name` ='米索莉裝甲' WHERE `item_id` = 5170;
-UPDATE `armor` SET `name` ='鎖子裝甲' WHERE `item_id` = 5171;
-UPDATE `armor` SET `name` ='龍裝甲' WHERE `item_id` = 5172;
-UPDATE `armor` SET `name` ='血裝甲' WHERE `item_id` = 5173;
-UPDATE `armor` SET `name` ='蛇裝甲' WHERE `item_id` = 5174;
-UPDATE `armor` SET `name` ='地獄裝甲' WHERE `item_id` = 5175;
-UPDATE `armor` SET `name` ='幼龍的哥肯外衣' WHERE `item_id` = 5182;
-UPDATE `armor` SET `name` ='幼龍的蛇金屬甲' WHERE `item_id` = 5183;
-UPDATE `armor` SET `name` ='幼龍的緋紅金屬甲' WHERE `item_id` = 5184;
-UPDATE `armor` SET `name` ='幼龍的龍金屬甲' WHERE `item_id` = 5185;
-UPDATE `armor` SET `name` ='幼龍的地獄金屬甲' WHERE `item_id` = 5186;
-UPDATE `armor` SET `name` ='狼用75級防具' WHERE `item_id` = 5216;
-UPDATE `armor` SET `name` ='封印的黑暗水晶胸甲' WHERE `item_id` = 5287;
-UPDATE `armor` SET `name` ='封印的黑暗水晶脛甲' WHERE `item_id` = 5288;
-UPDATE `armor` SET `name` ='封印的黑暗水晶頭盔' WHERE `item_id` = 5289;
-UPDATE `armor` SET `name` ='封印的黑暗水晶手套' WHERE `item_id` = 5290;
-UPDATE `armor` SET `name` ='封印的黑暗水晶靴' WHERE `item_id` = 5291;
-UPDATE `armor` SET `name` ='封印的塔魯金屬盔甲' WHERE `item_id` = 5293;
-UPDATE `armor` SET `name` ='封印的塔魯帽' WHERE `item_id` = 5294;
-UPDATE `armor` SET `name` ='封印的塔魯手套' WHERE `item_id` = 5295;
-UPDATE `armor` SET `name` ='封印的塔魯靴' WHERE `item_id` = 5296;
-UPDATE `armor` SET `name` ='封印的黑暗水晶皮甲' WHERE `item_id` = 5297;
-UPDATE `armor` SET `name` ='封印的黑暗水晶皮脛甲' WHERE `item_id` = 5298;
-UPDATE `armor` SET `name` ='封印的煉獄手套' WHERE `item_id` = 5299;
-UPDATE `armor` SET `name` ='封印的煉獄靴' WHERE `item_id` = 5300;
-UPDATE `armor` SET `name` ='封印的塔魯皮甲' WHERE `item_id` = 5301;
-UPDATE `armor` SET `name` ='封印的勁風手套' WHERE `item_id` = 5302;
-UPDATE `armor` SET `name` ='封印的勁風靴' WHERE `item_id` = 5303;
-UPDATE `armor` SET `name` ='封印的塔魯外衣' WHERE `item_id` = 5304;
-UPDATE `armor` SET `name` ='封印的塔魯長襪' WHERE `item_id` = 5305;
-UPDATE `armor` SET `name` ='封印的黑光手套' WHERE `item_id` = 5306;
-UPDATE `armor` SET `name` ='封印的黑光靴' WHERE `item_id` = 5307;
-UPDATE `armor` SET `name` ='封印的黑暗水晶長袍' WHERE `item_id` = 5308;
-UPDATE `armor` SET `name` ='封印的不死鳥手套' WHERE `item_id` = 5309;
-UPDATE `armor` SET `name` ='封印的不死鳥靴' WHERE `item_id` = 5310;
-UPDATE `armor` SET `name` ='封印的夢魘盔甲' WHERE `item_id` = 5311;
-UPDATE `armor` SET `name` ='封印的夢魘頭盔' WHERE `item_id` = 5312;
-UPDATE `armor` SET `name` ='封印的夢魘手套' WHERE `item_id` = 5313;
-UPDATE `armor` SET `name` ='封印的夢魘靴' WHERE `item_id` = 5314;
-UPDATE `armor` SET `name` ='封印的聖威金屬盔甲' WHERE `item_id` = 5316;
-UPDATE `armor` SET `name` ='封印的聖威頭箍' WHERE `item_id` = 5317;
-UPDATE `armor` SET `name` ='封印的聖威手套' WHERE `item_id` = 5318;
-UPDATE `armor` SET `name` ='封印的聖威靴' WHERE `item_id` = 5319;
-UPDATE `armor` SET `name` ='封印的夢魘皮甲' WHERE `item_id` = 5320;
-UPDATE `armor` SET `name` ='封印的黑暗軍手套' WHERE `item_id` = 5321;
-UPDATE `armor` SET `name` ='封印的黑暗軍靴' WHERE `item_id` = 5322;
-UPDATE `armor` SET `name` ='封印的聖威皮甲' WHERE `item_id` = 5323;
-UPDATE `armor` SET `name` ='封印的幻影手套' WHERE `item_id` = 5324;
-UPDATE `armor` SET `name` ='封印的幻影靴' WHERE `item_id` = 5325;
-UPDATE `armor` SET `name` ='封印的夢魘長袍' WHERE `item_id` = 5326;
-UPDATE `armor` SET `name` ='封印的地獄犬手套' WHERE `item_id` = 5327;
-UPDATE `armor` SET `name` ='封印的地獄犬靴' WHERE `item_id` = 5328;
-UPDATE `armor` SET `name` ='封印的聖威長袍' WHERE `item_id` = 5329;
-UPDATE `armor` SET `name` ='封印的帕黎恩手套' WHERE `item_id` = 5330;
-UPDATE `armor` SET `name` ='封印的帕黎恩靴' WHERE `item_id` = 5331;
-UPDATE `armor` SET `name` ='雜音的測驗' WHERE `item_id` = 5576;
-UPDATE `armor` SET `name` ='鳴響鞋' WHERE `item_id` = 5590;
-UPDATE `armor` SET `name` ='封印的夏隆長手套' WHERE `item_id` = 5709;
-UPDATE `armor` SET `name` ='夏隆長手套 重裝用' WHERE `item_id` = 5710;
-UPDATE `armor` SET `name` ='夏隆長手套 輕裝用' WHERE `item_id` = 5711;
-UPDATE `armor` SET `name` ='夏隆長手套 長袍用' WHERE `item_id` = 5712;
-UPDATE `armor` SET `name` ='封印的阿巴敦手套' WHERE `item_id` = 5713;
-UPDATE `armor` SET `name` ='阿巴敦手套 重裝用' WHERE `item_id` = 5714;
-UPDATE `armor` SET `name` ='阿巴敦手套 輕裝用' WHERE `item_id` = 5715;
-UPDATE `armor` SET `name` ='阿巴敦手套 長袍用' WHERE `item_id` = 5716;
-UPDATE `armor` SET `name` ='封印的青狼手套' WHERE `item_id` = 5717;
-UPDATE `armor` SET `name` ='青狼手套 重裝用' WHERE `item_id` = 5718;
-UPDATE `armor` SET `name` ='青狼手套 輕裝用' WHERE `item_id` = 5719;
-UPDATE `armor` SET `name` ='青狼手套 長袍用' WHERE `item_id` = 5720;
-UPDATE `armor` SET `name` ='封印的末日手套' WHERE `item_id` = 5721;
-UPDATE `armor` SET `name` ='末日手套 重裝用' WHERE `item_id` = 5722;
-UPDATE `armor` SET `name` ='末日手套 輕裝用' WHERE `item_id` = 5723;
-UPDATE `armor` SET `name` ='末日手套 長袍用' WHERE `item_id` = 5724;
-UPDATE `armor` SET `name` ='封印的夏隆靴' WHERE `item_id` = 5725;
-UPDATE `armor` SET `name` ='夏隆靴 重裝用' WHERE `item_id` = 5726;
-UPDATE `armor` SET `name` ='夏隆靴 輕裝用' WHERE `item_id` = 5727;
-UPDATE `armor` SET `name` ='夏隆靴 長袍用' WHERE `item_id` = 5728;
-UPDATE `armor` SET `name` ='封印的阿巴敦靴' WHERE `item_id` = 5729;
-UPDATE `armor` SET `name` ='阿巴敦靴 重裝用' WHERE `item_id` = 5730;
-UPDATE `armor` SET `name` ='阿巴敦靴 輕裝用' WHERE `item_id` = 5731;
-UPDATE `armor` SET `name` ='阿巴敦靴 長袍用' WHERE `item_id` = 5732;
-UPDATE `armor` SET `name` ='封印的青狼長靴' WHERE `item_id` = 5733;
-UPDATE `armor` SET `name` ='青狼長靴 重裝用' WHERE `item_id` = 5734;
-UPDATE `armor` SET `name` ='青狼長靴 輕裝用' WHERE `item_id` = 5735;
-UPDATE `armor` SET `name` ='青狼長靴 長袍用' WHERE `item_id` = 5736;
-UPDATE `armor` SET `name` ='封印的末日靴' WHERE `item_id` = 5737;
-UPDATE `armor` SET `name` ='末日靴 重裝用' WHERE `item_id` = 5738;
-UPDATE `armor` SET `name` ='末日靴 輕裝用' WHERE `item_id` = 5739;
-UPDATE `armor` SET `name` ='末日靴 長袍用' WHERE `item_id` = 5740;
-UPDATE `armor` SET `name` ='黑暗水晶手套 重裝用' WHERE `item_id` = 5765;
-UPDATE `armor` SET `name` ='黑暗水晶手套 輕裝用' WHERE `item_id` = 5766;
-UPDATE `armor` SET `name` ='黑暗水晶手套 長袍用' WHERE `item_id` = 5767;
-UPDATE `armor` SET `name` ='塔魯手套 重裝用' WHERE `item_id` = 5768;
-UPDATE `armor` SET `name` ='塔魯手套 輕裝用' WHERE `item_id` = 5769;
-UPDATE `armor` SET `name` ='塔魯手套 長袍用' WHERE `item_id` = 5770;
-UPDATE `armor` SET `name` ='夢魘手套 重裝用' WHERE `item_id` = 5771;
-UPDATE `armor` SET `name` ='夢魘手套 輕裝用' WHERE `item_id` = 5772;
-UPDATE `armor` SET `name` ='夢魘手套 長袍用' WHERE `item_id` = 5773;
-UPDATE `armor` SET `name` ='聖威手套 重裝用' WHERE `item_id` = 5774;
-UPDATE `armor` SET `name` ='聖威手套 輕裝用' WHERE `item_id` = 5775;
-UPDATE `armor` SET `name` ='聖威手套 長袍用' WHERE `item_id` = 5776;
-UPDATE `armor` SET `name` ='黑暗水晶靴 重裝用' WHERE `item_id` = 5777;
-UPDATE `armor` SET `name` ='黑暗水晶靴 輕裝用' WHERE `item_id` = 5778;
-UPDATE `armor` SET `name` ='黑暗水晶靴 長袍用' WHERE `item_id` = 5779;
-UPDATE `armor` SET `name` ='塔魯靴 重裝用' WHERE `item_id` = 5780;
-UPDATE `armor` SET `name` ='塔魯靴 輕裝用' WHERE `item_id` = 5781;
-UPDATE `armor` SET `name` ='塔魯靴 長袍用' WHERE `item_id` = 5782;
-UPDATE `armor` SET `name` ='夢魘靴 重裝用' WHERE `item_id` = 5783;
-UPDATE `armor` SET `name` ='夢魘靴 輕裝用' WHERE `item_id` = 5784;
-UPDATE `armor` SET `name` ='夢魘靴 長袍用' WHERE `item_id` = 5785;
-UPDATE `armor` SET `name` ='聖威靴 重裝用' WHERE `item_id` = 5786;
-UPDATE `armor` SET `name` ='聖威靴 輕裝用' WHERE `item_id` = 5787;
-UPDATE `armor` SET `name` ='聖威靴 長袍用' WHERE `item_id` = 5788;
-UPDATE `armor` SET `name` ='舞會面具' WHERE `item_id` = 5808;
-UPDATE `armor` SET `name` ='封印的不死鳥項鍊' WHERE `item_id` = 6323;
-UPDATE `armor` SET `name` ='封印的不死鳥耳環' WHERE `item_id` = 6324;
-UPDATE `armor` SET `name` ='封印的不死鳥戒指' WHERE `item_id` = 6325;
-UPDATE `armor` SET `name` ='封印的聖威項鍊' WHERE `item_id` = 6326;
-UPDATE `armor` SET `name` ='封印的聖威耳環' WHERE `item_id` = 6327;
-UPDATE `armor` SET `name` ='封印的聖威戒指' WHERE `item_id` = 6328;
-UPDATE `armor` SET `name` ='帝國聖軍胸甲' WHERE `item_id` = 6373;
-UPDATE `armor` SET `name` ='帝國聖軍脛甲' WHERE `item_id` = 6374;
-UPDATE `armor` SET `name` ='帝國聖軍長手套' WHERE `item_id` = 6375;
-UPDATE `armor` SET `name` ='帝國聖軍長靴' WHERE `item_id` = 6376;
-UPDATE `armor` SET `name` ='帝國聖軍頭盔' WHERE `item_id` = 6378;
-UPDATE `armor` SET `name` ='紅龍皮甲' WHERE `item_id` = 6379;
-UPDATE `armor` SET `name` ='紅龍皮手套' WHERE `item_id` = 6380;
-UPDATE `armor` SET `name` ='紅龍皮靴' WHERE `item_id` = 6381;
-UPDATE `armor` SET `name` ='紅龍皮盔' WHERE `item_id` = 6382;
-UPDATE `armor` SET `name` ='大祕儀長袍' WHERE `item_id` = 6383;
-UPDATE `armor` SET `name` ='大祕儀手套' WHERE `item_id` = 6384;
-UPDATE `armor` SET `name` ='大祕儀長靴' WHERE `item_id` = 6385;
-UPDATE `armor` SET `name` ='大祕儀頭箍' WHERE `item_id` = 6386;
-UPDATE `armor` SET `name` ='紅色舞會面具' WHERE `item_id` = 6394;
-UPDATE `armor` SET `name` ='禮服' WHERE `item_id` = 6408;
-UPDATE `armor` SET `name` ='安塔瑞斯耳環' WHERE `item_id` = 6656;
-UPDATE `armor` SET `name` ='巴拉卡斯項鍊' WHERE `item_id` = 6657;
-UPDATE `armor` SET `name` ='巴溫戒指' WHERE `item_id` = 6658;
-UPDATE `armor` SET `name` ='札肯耳環' WHERE `item_id` = 6659;
-UPDATE `armor` SET `name` ='巨蟻女王戒指' WHERE `item_id` = 6660;
-UPDATE `armor` SET `name` ='奧爾芬耳環' WHERE `item_id` = 6661;
-UPDATE `armor` SET `name` ='核心戒指' WHERE `item_id` = 6662;
-UPDATE `armor` SET `name` ='封印的帝國聖軍胸甲' WHERE `item_id` = 6674;
-UPDATE `armor` SET `name` ='封印的帝國聖軍脛甲' WHERE `item_id` = 6675;
-UPDATE `armor` SET `name` ='封印的帝國聖軍長手套' WHERE `item_id` = 6676;
-UPDATE `armor` SET `name` ='封印的帝國聖軍長靴' WHERE `item_id` = 6677;
-UPDATE `armor` SET `name` ='封印的帝國聖軍頭盔' WHERE `item_id` = 6679;
-UPDATE `armor` SET `name` ='封印的紅龍皮甲' WHERE `item_id` = 6680;
-UPDATE `armor` SET `name` ='封印的紅龍皮手套' WHERE `item_id` = 6681;
-UPDATE `armor` SET `name` ='封印的紅龍皮靴' WHERE `item_id` = 6682;
-UPDATE `armor` SET `name` ='封印的紅龍皮盔' WHERE `item_id` = 6683;
-UPDATE `armor` SET `name` ='封印的大祕儀長袍' WHERE `item_id` = 6684;
-UPDATE `armor` SET `name` ='封印的大祕儀手套' WHERE `item_id` = 6685;
-UPDATE `armor` SET `name` ='封印的大祕儀長靴' WHERE `item_id` = 6686;
-UPDATE `armor` SET `name` ='封印的大祕儀頭箍' WHERE `item_id` = 6687;
-UPDATE `armor` SET `name` ='封印的泰狄奧森耳環' WHERE `item_id` = 6724;
-UPDATE `armor` SET `name` ='封印的泰狄奧森戒指' WHERE `item_id` = 6725;
-UPDATE `armor` SET `name` ='封印的泰狄奧森項鍊' WHERE `item_id` = 6726;
-UPDATE `armor` SET `name` ='因納得立之環' WHERE `item_id` = 6834;
-UPDATE `armor` SET `name` ='狄恩之環' WHERE `item_id` = 6835;
-UPDATE `armor` SET `name` ='高達特之環' WHERE `item_id` = 6836;
-UPDATE `armor` SET `name` ='歐瑞之環' WHERE `item_id` = 6837;
-UPDATE `armor` SET `name` ='古魯丁之環' WHERE `item_id` = 6838;
-UPDATE `armor` SET `name` ='奇岩之環' WHERE `item_id` = 6839;
-UPDATE `armor` SET `name` ='亞丁之環' WHERE `item_id` = 6840;
-UPDATE `armor` SET `name` ='城主的王冠' WHERE `item_id` = 6841;
-UPDATE `armor` SET `name` ='命運之翼' WHERE `item_id` = 6842;
-UPDATE `armor` SET `name` ='貓耳' WHERE `item_id` = 6843;
-UPDATE `armor` SET `name` ='名媛髮飾' WHERE `item_id` = 6844;
-UPDATE `armor` SET `name` ='海盜眼罩' WHERE `item_id` = 6845;
-UPDATE `armor` SET `name` ='單片眼鏡' WHERE `item_id` = 6846;
-UPDATE `armor` SET `name` ='2006TGS限定頭飾' WHERE `item_id` = 7059;
-UPDATE `armor` SET `name` ='泰狄奧森髮飾' WHERE `item_id` = 7060;
-UPDATE `armor` SET `name` ='狸耳' WHERE `item_id` = 7680;
-UPDATE `armor` SET `name` ='無法者眼罩' WHERE `item_id` = 7681;
-UPDATE `armor` SET `name` ='淑女髮飾' WHERE `item_id` = 7682;
-UPDATE `armor` SET `name` ='兔耳' WHERE `item_id` = 7683;
-UPDATE `armor` SET `name` ='貴族三重冕' WHERE `item_id` = 7694;
-UPDATE `armor` SET `name` ='勿忘草髮飾' WHERE `item_id` = 7695;
-UPDATE `armor` SET `name` ='雛菊髮飾' WHERE `item_id` = 7696;
-UPDATE `armor` SET `name` ='聖誕帽' WHERE `item_id` = 7836;
-UPDATE `armor` SET `name` ='金邊面具-白色' WHERE `item_id` = 7837;
-UPDATE `armor` SET `name` ='金邊面具-黑色' WHERE `item_id` = 7839;
-UPDATE `armor` SET `name` ='兔耳-活動用' WHERE `item_id` = 7840;
-UPDATE `armor` SET `name` ='狸耳-活動用' WHERE `item_id` = 7841;
-UPDATE `armor` SET `name` ='貓耳-活動用' WHERE `item_id` = 7842;
-UPDATE `armor` SET `name` ='海盜眼罩-活動用' WHERE `item_id` = 7843;
-UPDATE `armor` SET `name` ='單片眼鏡-活動用' WHERE `item_id` = 7844;
-UPDATE `armor` SET `name` ='無法者的眼罩-活動用' WHERE `item_id` = 7845;
-UPDATE `armor` SET `name` ='淑女髮飾-活動用' WHERE `item_id` = 7846;
-UPDATE `armor` SET `name` ='名媛髮飾-活動用' WHERE `item_id` = 7847;
-UPDATE `armor` SET `name` ='勿忘草髮飾-活動用' WHERE `item_id` = 7848;
-UPDATE `armor` SET `name` ='雛菊髮飾-活動用' WHERE `item_id` = 7849;
-UPDATE `armor` SET `name` ='盟誓頭盔' WHERE `item_id` = 7850;
-UPDATE `armor` SET `name` ='盟誓盔甲' WHERE `item_id` = 7851;
-UPDATE `armor` SET `name` ='盟誓護手 重裝用' WHERE `item_id` = 7852;
-UPDATE `armor` SET `name` ='盟誓軍靴 重裝用' WHERE `item_id` = 7853;
-UPDATE `armor` SET `name` ='盟誓禮服' WHERE `item_id` = 7854;
-UPDATE `armor` SET `name` ='盟誓手套 輕裝用' WHERE `item_id` = 7855;
-UPDATE `armor` SET `name` ='盟誓禮鞋 輕裝用' WHERE `item_id` = 7856;
-UPDATE `armor` SET `name` ='盟誓長袍' WHERE `item_id` = 7857;
-UPDATE `armor` SET `name` ='盟誓絲手套 長袍用' WHERE `item_id` = 7858;
-UPDATE `armor` SET `name` ='盟誓涼鞋 長袍用' WHERE `item_id` = 7859;
-UPDATE `armor` SET `name` ='阿貝拉頭盔' WHERE `item_id` = 7860;
-UPDATE `armor` SET `name` ='阿貝拉盔甲' WHERE `item_id` = 7861;
-UPDATE `armor` SET `name` ='阿貝拉護手 重裝用' WHERE `item_id` = 7862;
-UPDATE `armor` SET `name` ='阿貝拉軍靴 重裝用' WHERE `item_id` = 7863;
-UPDATE `armor` SET `name` ='阿貝拉禮服' WHERE `item_id` = 7864;
-UPDATE `armor` SET `name` ='阿貝拉手套 輕裝用' WHERE `item_id` = 7865;
-UPDATE `armor` SET `name` ='阿貝拉禮鞋 輕裝用' WHERE `item_id` = 7866;
-UPDATE `armor` SET `name` ='阿貝拉長袍' WHERE `item_id` = 7867;
-UPDATE `armor` SET `name` ='阿貝拉絲手套 長袍用' WHERE `item_id` = 7868;
-UPDATE `armor` SET `name` ='阿貝拉涼鞋 長袍用' WHERE `item_id` = 7869;
-UPDATE `armor` SET `name` ='封印的阿貝拉頭盔' WHERE `item_id` = 7870;
-UPDATE `armor` SET `name` ='封印的阿貝拉盔甲' WHERE `item_id` = 7871;
-UPDATE `armor` SET `name` ='封印的阿貝拉護手' WHERE `item_id` = 7872;
-UPDATE `armor` SET `name` ='封印的阿貝拉軍靴' WHERE `item_id` = 7873;
-UPDATE `armor` SET `name` ='封印的阿貝拉禮服' WHERE `item_id` = 7874;
-UPDATE `armor` SET `name` ='封印的阿貝拉皮手套' WHERE `item_id` = 7875;
-UPDATE `armor` SET `name` ='封印的阿貝拉禮鞋' WHERE `item_id` = 7876;
-UPDATE `armor` SET `name` ='封印的阿貝拉外衣' WHERE `item_id` = 7877;
-UPDATE `armor` SET `name` ='封印的阿貝拉絲手套' WHERE `item_id` = 7878;
-UPDATE `armor` SET `name` ='封印的阿貝拉涼鞋' WHERE `item_id` = 7879;
-UPDATE `armor` SET `name` ='狩獵挑戰者頭箍' WHERE `item_id` = 8177;
-UPDATE `armor` SET `name` ='狩獵探險家頭箍' WHERE `item_id` = 8178;
-UPDATE `armor` SET `name` ='狩獵大師頭箍' WHERE `item_id` = 8179;
-UPDATE `armor` SET `name` ='冰雪妖精希露頭箍' WHERE `item_id` = 8180;
-UPDATE `armor` SET `name` ='學院頭箍' WHERE `item_id` = 8181;
-UPDATE `armor` SET `name` ='魯因之環' WHERE `item_id` = 8182;
-UPDATE `armor` SET `name` ='修加特之環' WHERE `item_id` = 8183;
-UPDATE `armor` SET `name` ='派對尖帽' WHERE `item_id` = 8184;
-UPDATE `armor` SET `name` ='吟遊詩人帽' WHERE `item_id` = 8185;
-UPDATE `armor` SET `name` ='工匠的護目鏡' WHERE `item_id` = 8186;
-UPDATE `armor` SET `name` ='勝利者尖角' WHERE `item_id` = 8187;
-UPDATE `armor` SET `name` ='小天使之翼' WHERE `item_id` = 8188;
-UPDATE `armor` SET `name` ='小妖精觸角' WHERE `item_id` = 8189;
-UPDATE `armor` SET `name` ='芙琳泰沙的項鍊' WHERE `item_id` = 8191;
-UPDATE `armor` SET `name` ='小型胸背帶' WHERE `item_id` = 8541;
-UPDATE `armor` SET `name` ='紅魔鬼面具' WHERE `item_id` = 8552;
-UPDATE `armor` SET `name` ='派對尖帽-活動用' WHERE `item_id` = 8557;
-UPDATE `armor` SET `name` ='飛翔的鳥兒-活動用' WHERE `item_id` = 8558;
-UPDATE `armor` SET `name` ='花冠' WHERE `item_id` = 8559;
-UPDATE `armor` SET `name` ='熊熊帽' WHERE `item_id` = 8560;
-UPDATE `armor` SET `name` ='豬豬帽' WHERE `item_id` = 8561;
-UPDATE `armor` SET `name` ='小丑帽' WHERE `item_id` = 8562;
-UPDATE `armor` SET `name` ='魔法師帽' WHERE `item_id` = 8563;
-UPDATE `armor` SET `name` ='花花公子帽' WHERE `item_id` = 8564;
-UPDATE `armor` SET `name` ='浪漫圓帽' WHERE `item_id` = 8565;
-UPDATE `armor` SET `name` ='鋼鐵之環' WHERE `item_id` = 8566;
-UPDATE `armor` SET `name` ='巴拉卡斯的龍焰' WHERE `item_id` = 8567;
-UPDATE `armor` SET `name` ='安塔瑞斯的怒吼' WHERE `item_id` = 8568;
-UPDATE `armor` SET `name` ='半緣假面' WHERE `item_id` = 8569;
-UPDATE `armor` SET `name` ='萬聖節尖角' WHERE `item_id` = 8660;
-UPDATE `armor` SET `name` ='萬聖節面具' WHERE `item_id` = 8661;
-UPDATE `armor` SET `name` ='小妖精觸角-活動用' WHERE `item_id` = 8662;
-UPDATE `armor` SET `name` ='黑羽假面-活動用' WHERE `item_id` = 8910;
-UPDATE `armor` SET `name` ='闇剎面具-活動用' WHERE `item_id` = 8911;
-UPDATE `armor` SET `name` ='花冠' WHERE `item_id` = 8912;
-UPDATE `armor` SET `name` ='蝴蝶髮飾' WHERE `item_id` = 8913;
-UPDATE `armor` SET `name` ='高貴黃金之環' WHERE `item_id` = 8914;
-UPDATE `armor` SET `name` ='高貴白銀之環' WHERE `item_id` = 8915;
-UPDATE `armor` SET `name` ='獨眼' WHERE `item_id` = 8916;
-UPDATE `armor` SET `name` ='女神之環' WHERE `item_id` = 8917;
-UPDATE `armor` SET `name` ='皮革帽' WHERE `item_id` = 8918;
-UPDATE `armor` SET `name` ='提督軍帽-活動用' WHERE `item_id` = 8919;
-UPDATE `armor` SET `name` ='天使之環' WHERE `item_id` = 8920;
-UPDATE `armor` SET `name` ='惡魔之環' WHERE `item_id` = 8921;
-UPDATE `armor` SET `name` ='海賊帽' WHERE `item_id` = 8922;
-UPDATE `armor` SET `name` ='疤痕' WHERE `item_id` = 8923;
-UPDATE `armor` SET `name` ='聖誕鹿角帽' WHERE `item_id` = 8936;
-UPDATE `armor` SET `name` ='L2Day-兔耳' WHERE `item_id` = 8947;
-UPDATE `armor` SET `name` ='L2Day-小天使之翼' WHERE `item_id` = 8948;
-UPDATE `armor` SET `name` ='L2Day-小妖精觸角' WHERE `item_id` = 8949;
-UPDATE `armor` SET `name` ='L2Day-吟遊詩人帽' WHERE `item_id` = 8950;
-UPDATE `armor` SET `name` ='L2Day-工匠的護目鏡' WHERE `item_id` = 8951;
-UPDATE `armor` SET `name` ='幻象防具-青銅胸甲' WHERE `item_id` = 9030;
-UPDATE `armor` SET `name` ='幻象裝備-青銅脛甲' WHERE `item_id` = 9031;
-UPDATE `armor` SET `name` ='幻象裝備-硬皮襯衫' WHERE `item_id` = 9032;
-UPDATE `armor` SET `name` ='幻象裝備-硬皮脛甲' WHERE `item_id` = 9033;
-UPDATE `armor` SET `name` ='幻象裝備-巫術外衣' WHERE `item_id` = 9034;
-UPDATE `armor` SET `name` ='幻象裝備-巫術長襪' WHERE `item_id` = 9035;
-UPDATE `armor` SET `name` ='幻象裝備-硬皮頭盔' WHERE `item_id` = 9037;
-UPDATE `armor` SET `name` ='幻象裝備-長靴' WHERE `item_id` = 9038;
-UPDATE `armor` SET `name` ='幻象裝備-腕甲' WHERE `item_id` = 9039;
-UPDATE `armor` SET `name` ='幻象裝備-米索莉護甲' WHERE `item_id` = 9040;
-UPDATE `armor` SET `name` ='幻象裝備-米索莉脛甲' WHERE `item_id` = 9041;
-UPDATE `armor` SET `name` ='幻象裝備-長手套' WHERE `item_id` = 9042;
-UPDATE `armor` SET `name` ='幻象裝備-鋼鐵靴' WHERE `item_id` = 9043;
-UPDATE `armor` SET `name` ='幻象裝備-強化皮襯衫' WHERE `item_id` = 9045;
-UPDATE `armor` SET `name` ='幻象裝備-強化皮脛甲' WHERE `item_id` = 9046;
-UPDATE `armor` SET `name` ='幻象裝備-強化皮手套' WHERE `item_id` = 9047;
-UPDATE `armor` SET `name` ='幻象裝備-強化皮靴' WHERE `item_id` = 9048;
-UPDATE `armor` SET `name` ='幻象裝備-知識外衣' WHERE `item_id` = 9049;
-UPDATE `armor` SET `name` ='幻象裝備-知識長襪' WHERE `item_id` = 9050;
-UPDATE `armor` SET `name` ='幻象裝備-知識手套' WHERE `item_id` = 9051;
-UPDATE `armor` SET `name` ='幻象裝備-知識長靴' WHERE `item_id` = 9052;
-UPDATE `armor` SET `name` ='幻象裝備-頭盔' WHERE `item_id` = 9053;
-UPDATE `armor` SET `name` ='幻象裝備-合金盔甲' WHERE `item_id` = 9054;
-UPDATE `armor` SET `name` ='幻象裝備-合金靴' WHERE `item_id` = 9055;
-UPDATE `armor` SET `name` ='幻象裝備-合金頭盔' WHERE `item_id` = 9057;
-UPDATE `armor` SET `name` ='幻象裝備-覆殼皮甲' WHERE `item_id` = 9058;
-UPDATE `armor` SET `name` ='幻象裝備-覆殼脛甲' WHERE `item_id` = 9059;
-UPDATE `armor` SET `name` ='幻象裝備-覆殼長靴' WHERE `item_id` = 9060;
-UPDATE `armor` SET `name` ='幻象裝備-覆殼手套' WHERE `item_id` = 9061;
-UPDATE `armor` SET `name` ='幻象裝備-惡魔外衣' WHERE `item_id` = 9062;
-UPDATE `armor` SET `name` ='幻象裝備-惡魔長襪' WHERE `item_id` = 9063;
-UPDATE `armor` SET `name` ='幻象裝備-惡魔長靴' WHERE `item_id` = 9064;
-UPDATE `armor` SET `name` ='幻象裝備-惡魔手套' WHERE `item_id` = 9065;
-UPDATE `armor` SET `name` ='幻象裝備-閃耀頭箍' WHERE `item_id` = 9066;
-UPDATE `armor` SET `name` ='幻象裝備-夏隆胸甲' WHERE `item_id` = 9067;
-UPDATE `armor` SET `name` ='幻象裝備-夏隆脛甲' WHERE `item_id` = 9068;
-UPDATE `armor` SET `name` ='幻象裝備-夏隆頭盔' WHERE `item_id` = 9069;
-UPDATE `armor` SET `name` ='幻象裝備-夏隆長手套' WHERE `item_id` = 9071;
-UPDATE `armor` SET `name` ='幻象裝備-夏隆靴' WHERE `item_id` = 9072;
-UPDATE `armor` SET `name` ='幻象裝備-夏隆皮衫' WHERE `item_id` = 9073;
-UPDATE `armor` SET `name` ='幻象裝備-夏隆皮脛甲' WHERE `item_id` = 9074;
-UPDATE `armor` SET `name` ='幻象裝備-夏隆長手套' WHERE `item_id` = 9075;
-UPDATE `armor` SET `name` ='幻象裝備-夏隆靴' WHERE `item_id` = 9076;
-UPDATE `armor` SET `name` ='幻象裝備-夏隆外衣' WHERE `item_id` = 9077;
-UPDATE `armor` SET `name` ='幻象裝備-夏隆長襪' WHERE `item_id` = 9078;
-UPDATE `armor` SET `name` ='幻象裝備-夏隆長手套' WHERE `item_id` = 9079;
-UPDATE `armor` SET `name` ='幻象裝備-夏隆靴' WHERE `item_id` = 9080;
-UPDATE `armor` SET `name` ='幻象裝備-黑暗水晶胸甲' WHERE `item_id` = 9081;
-UPDATE `armor` SET `name` ='幻象裝備-黑暗水晶脛甲' WHERE `item_id` = 9082;
-UPDATE `armor` SET `name` ='幻象裝備-黑暗水晶頭盔' WHERE `item_id` = 9083;
-UPDATE `armor` SET `name` ='幻象裝備-黑暗水晶手套' WHERE `item_id` = 9085;
-UPDATE `armor` SET `name` ='幻象裝備-黑暗水晶靴' WHERE `item_id` = 9086;
-UPDATE `armor` SET `name` ='幻象裝備-黑暗水晶皮甲' WHERE `item_id` = 9087;
-UPDATE `armor` SET `name` ='幻象裝備-黑暗水晶皮脛甲' WHERE `item_id` = 9088;
-UPDATE `armor` SET `name` ='幻象裝備-黑暗水晶手套' WHERE `item_id` = 9089;
-UPDATE `armor` SET `name` ='幻象裝備-黑暗水晶靴' WHERE `item_id` = 9090;
-UPDATE `armor` SET `name` ='幻象裝備-黑暗水晶長袍' WHERE `item_id` = 9091;
-UPDATE `armor` SET `name` ='幻象裝備-黑暗水晶手套' WHERE `item_id` = 9092;
-UPDATE `armor` SET `name` ='幻象裝備-黑暗水晶靴' WHERE `item_id` = 9093;
-UPDATE `armor` SET `name` ='幻象裝備-聖威金屬盔甲' WHERE `item_id` = 9094;
-UPDATE `armor` SET `name` ='幻象裝備-聖威頭箍' WHERE `item_id` = 9095;
-UPDATE `armor` SET `name` ='幻象裝備-聖威手套' WHERE `item_id` = 9096;
-UPDATE `armor` SET `name` ='幻象裝備-聖威靴' WHERE `item_id` = 9097;
-UPDATE `armor` SET `name` ='幻象裝備-聖威皮甲' WHERE `item_id` = 9098;
-UPDATE `armor` SET `name` ='幻象裝備-聖威手套' WHERE `item_id` = 9099;
-UPDATE `armor` SET `name` ='幻象裝備-聖威靴' WHERE `item_id` = 9100;
-UPDATE `armor` SET `name` ='幻象裝備-聖威長袍' WHERE `item_id` = 9101;
-UPDATE `armor` SET `name` ='幻象裝備-聖威手套' WHERE `item_id` = 9102;
-UPDATE `armor` SET `name` ='幻象裝備-聖威靴' WHERE `item_id` = 9103;
-UPDATE `armor` SET `name` ='幻象裝備-米索莉長手套' WHERE `item_id` = 9128;
-UPDATE `armor` SET `name` ='聖誕帽' WHERE `item_id` = 9138;
-UPDATE `armor` SET `name` ='小天使之翼-活動用' WHERE `item_id` = 9145;
-UPDATE `armor` SET `name` ='黃金之環-活動用' WHERE `item_id` = 9158;
-UPDATE `armor` SET `name` ='白銀之環-活動用' WHERE `item_id` = 9159;
-UPDATE `armor` SET `name` ='中世紀皮帽-活動用' WHERE `item_id` = 9160;
-UPDATE `armor` SET `name` ='幻象裝備-熊熊帽 復活' WHERE `item_id` = 9177;
-UPDATE `armor` SET `name` ='幻象裝備-豬豬帽 復活' WHERE `item_id` = 9178;
-UPDATE `armor` SET `name` ='幻象裝備-小丑帽 復活' WHERE `item_id` = 9179;
-UPDATE `armor` SET `name` ='幻象裝備-魔法師帽 復活' WHERE `item_id` = 9180;
-UPDATE `armor` SET `name` ='幻象裝備-花花公子帽 復活' WHERE `item_id` = 9181;
-UPDATE `armor` SET `name` ='幻象裝備-浪漫圓帽 復活' WHERE `item_id` = 9182;
-UPDATE `armor` SET `name` ='幻象裝備-鋼鐵之環 復活' WHERE `item_id` = 9183;
-UPDATE `armor` SET `name` ='幻象裝備-熊熊帽 返回' WHERE `item_id` = 9184;
-UPDATE `armor` SET `name` ='幻象裝備-豬豬帽 返回' WHERE `item_id` = 9185;
-UPDATE `armor` SET `name` ='幻象裝備-小丑帽 返回' WHERE `item_id` = 9186;
-UPDATE `armor` SET `name` ='幻象裝備-魔法師帽 返回' WHERE `item_id` = 9187;
-UPDATE `armor` SET `name` ='幻象裝備-花花公子帽 返回' WHERE `item_id` = 9188;
-UPDATE `armor` SET `name` ='幻象裝備-浪漫圓帽 返回' WHERE `item_id` = 9189;
-UPDATE `armor` SET `name` ='幻象裝備-鋼鐵之環 返回' WHERE `item_id` = 9190;
-UPDATE `armor` SET `name` ='幻象裝備-熊熊帽 大頭' WHERE `item_id` = 9191;
-UPDATE `armor` SET `name` ='幻象裝備-豬豬帽 大頭' WHERE `item_id` = 9192;
-UPDATE `armor` SET `name` ='幻象裝備-小丑帽 大頭' WHERE `item_id` = 9193;
-UPDATE `armor` SET `name` ='幻象裝備-魔法師帽 大頭' WHERE `item_id` = 9194;
-UPDATE `armor` SET `name` ='幻象裝備-花花公子帽 大頭' WHERE `item_id` = 9195;
-UPDATE `armor` SET `name` ='幻象裝備-浪漫圓帽 大頭' WHERE `item_id` = 9196;
-UPDATE `armor` SET `name` ='幻象裝備-鋼鐵之環 大頭' WHERE `item_id` = 9197;
-UPDATE `armor` SET `name` ='幻象裝備-熊熊帽 煙火' WHERE `item_id` = 9198;
-UPDATE `armor` SET `name` ='幻象裝備-豬豬帽 煙火' WHERE `item_id` = 9199;
-UPDATE `armor` SET `name` ='幻象裝備-小丑帽 煙火' WHERE `item_id` = 9200;
-UPDATE `armor` SET `name` ='幻象裝備-魔法師帽 煙火' WHERE `item_id` = 9201;
-UPDATE `armor` SET `name` ='幻象裝備-花花公子帽 煙火' WHERE `item_id` = 9202;
-UPDATE `armor` SET `name` ='幻象裝備-浪漫圓帽 煙火' WHERE `item_id` = 9203;
-UPDATE `armor` SET `name` ='幻象裝備-鋼鐵之環 煙火' WHERE `item_id` = 9204;
-UPDATE `armor` SET `name` ='幻影面具-活動用' WHERE `item_id` = 9208;
-UPDATE `armor` SET `name` ='人類頭箍' WHERE `item_id` = 9391;
-UPDATE `armor` SET `name` ='精靈頭箍' WHERE `item_id` = 9392;
-UPDATE `armor` SET `name` ='黑暗精靈頭箍' WHERE `item_id` = 9393;
-UPDATE `armor` SET `name` ='半獸人頭箍' WHERE `item_id` = 9394;
-UPDATE `armor` SET `name` ='矮人頭箍' WHERE `item_id` = 9395;
-UPDATE `armor` SET `name` ='闇天使頭箍' WHERE `item_id` = 9396;
-UPDATE `armor` SET `name` ='護盾大師頭箍' WHERE `item_id` = 9397;
-UPDATE `armor` SET `name` ='詩人頭箍' WHERE `item_id` = 9398;
-UPDATE `armor` SET `name` ='力量大師頭箍' WHERE `item_id` = 9399;
-UPDATE `armor` SET `name` ='武器大師頭箍' WHERE `item_id` = 9400;
-UPDATE `armor` SET `name` ='匕首大師頭箍' WHERE `item_id` = 9401;
-UPDATE `armor` SET `name` ='弓術大師頭箍' WHERE `item_id` = 9402;
-UPDATE `armor` SET `name` ='巫師頭箍' WHERE `item_id` = 9403;
-UPDATE `armor` SET `name` ='召喚士頭箍' WHERE `item_id` = 9404;
-UPDATE `armor` SET `name` ='牧師頭箍' WHERE `item_id` = 9405;
-UPDATE `armor` SET `name` ='魔法師頭箍' WHERE `item_id` = 9406;
-UPDATE `armor` SET `name` ='武器大師頭箍(闇天使專用)' WHERE `item_id` = 9407;
-UPDATE `armor` SET `name` ='弓術大師頭箍(闇天使專用)' WHERE `item_id` = 9408;
-UPDATE `armor` SET `name` ='黑色幻影面具-活動用' WHERE `item_id` = 9409;
-UPDATE `armor` SET `name` ='人類高級頭箍' WHERE `item_id` = 9410;
-UPDATE `armor` SET `name` ='精靈高級頭箍' WHERE `item_id` = 9411;
-UPDATE `armor` SET `name` ='黑暗精靈高級頭箍' WHERE `item_id` = 9412;
-UPDATE `armor` SET `name` ='半獸人高級頭箍' WHERE `item_id` = 9413;
-UPDATE `armor` SET `name` ='矮人高級頭箍' WHERE `item_id` = 9414;
-UPDATE `armor` SET `name` ='闇天使高級頭箍' WHERE `item_id` = 9415;
-UPDATE `armor` SET `name` ='王朝盔甲' WHERE `item_id` = 9416;
-UPDATE `armor` SET `name` ='王朝盔甲 護盾大師' WHERE `item_id` = 9417;
-UPDATE `armor` SET `name` ='王朝盔甲 武器大師' WHERE `item_id` = 9418;
-UPDATE `armor` SET `name` ='王朝盔甲 力量大師' WHERE `item_id` = 9419;
-UPDATE `armor` SET `name` ='王朝盔甲 詩人' WHERE `item_id` = 9420;
-UPDATE `armor` SET `name` ='王朝脛甲' WHERE `item_id` = 9421;
-UPDATE `armor` SET `name` ='王朝頭盔' WHERE `item_id` = 9422;
-UPDATE `armor` SET `name` ='王朝長手套 重裝用' WHERE `item_id` = 9423;
-UPDATE `armor` SET `name` ='王朝長靴 重裝用' WHERE `item_id` = 9424;
-UPDATE `armor` SET `name` ='王朝皮甲' WHERE `item_id` = 9425;
-UPDATE `armor` SET `name` ='王朝皮甲 匕首大師' WHERE `item_id` = 9426;
-UPDATE `armor` SET `name` ='王朝皮甲 弓箭大師' WHERE `item_id` = 9427;
-UPDATE `armor` SET `name` ='王朝皮脛甲' WHERE `item_id` = 9428;
-UPDATE `armor` SET `name` ='王朝皮頭盔' WHERE `item_id` = 9429;
-UPDATE `armor` SET `name` ='王朝皮手套 輕裝用' WHERE `item_id` = 9430;
-UPDATE `armor` SET `name` ='王朝皮長靴 輕裝用' WHERE `item_id` = 9431;
-UPDATE `armor` SET `name` ='王朝外衣' WHERE `item_id` = 9432;
-UPDATE `armor` SET `name` ='王朝外衣 牧師' WHERE `item_id` = 9433;
-UPDATE `armor` SET `name` ='王朝外衣 法師' WHERE `item_id` = 9434;
-UPDATE `armor` SET `name` ='王朝外衣 召喚士' WHERE `item_id` = 9435;
-UPDATE `armor` SET `name` ='王朝外衣 巫師' WHERE `item_id` = 9436;
-UPDATE `armor` SET `name` ='王朝長襪' WHERE `item_id` = 9437;
-UPDATE `armor` SET `name` ='王朝頭箍' WHERE `item_id` = 9438;
-UPDATE `armor` SET `name` ='王朝手套 長袍用' WHERE `item_id` = 9439;
-UPDATE `armor` SET `name` ='王朝鞋 長袍用' WHERE `item_id` = 9440;
-UPDATE `armor` SET `name` ='封印的王朝耳環' WHERE `item_id` = 9452;
-UPDATE `armor` SET `name` ='封印的王朝項鍊' WHERE `item_id` = 9453;
-UPDATE `armor` SET `name` ='封印的王朝戒指' WHERE `item_id` = 9454;
-UPDATE `armor` SET `name` ='王朝耳環' WHERE `item_id` = 9455;
-UPDATE `armor` SET `name` ='王朝項鍊' WHERE `item_id` = 9456;
-UPDATE `armor` SET `name` ='王朝戒指' WHERE `item_id` = 9457;
-UPDATE `armor` SET `name` ='王朝耳環 衝擊抗性' WHERE `item_id` = 9458;
-UPDATE `armor` SET `name` ='王朝項鍊 衝擊抗性' WHERE `item_id` = 9459;
-UPDATE `armor` SET `name` ='王朝戒指 衝擊抗性' WHERE `item_id` = 9460;
-UPDATE `armor` SET `name` ='王朝耳環 施毒抗性' WHERE `item_id` = 9461;
-UPDATE `armor` SET `name` ='王朝項鍊 施毒抗性' WHERE `item_id` = 9462;
-UPDATE `armor` SET `name` ='王朝戒指 施毒抗性' WHERE `item_id` = 9463;
-UPDATE `armor` SET `name` ='王朝耳環 出血抗性' WHERE `item_id` = 9464;
-UPDATE `armor` SET `name` ='王朝項鍊 出血抗性' WHERE `item_id` = 9465;
-UPDATE `armor` SET `name` ='王朝戒指 出血抗性' WHERE `item_id` = 9466;
-UPDATE `armor` SET `name` ='王朝耳環 睡眠抗性' WHERE `item_id` = 9467;
-UPDATE `armor` SET `name` ='王朝項鍊 睡眠抗性' WHERE `item_id` = 9468;
-UPDATE `armor` SET `name` ='王朝戒指 睡眠抗性' WHERE `item_id` = 9469;
-UPDATE `armor` SET `name` ='王朝耳環 麻痺抗性' WHERE `item_id` = 9470;
-UPDATE `armor` SET `name` ='王朝項鍊 麻痺抗性' WHERE `item_id` = 9471;
-UPDATE `armor` SET `name` ='王朝戒指 麻痺抗性' WHERE `item_id` = 9472;
-UPDATE `armor` SET `name` ='王朝耳環 束縛抗性' WHERE `item_id` = 9473;
-UPDATE `armor` SET `name` ='王朝項鍊 束縛抗性' WHERE `item_id` = 9474;
-UPDATE `armor` SET `name` ='王朝戒指 束縛抗性' WHERE `item_id` = 9475;
-UPDATE `armor` SET `name` ='王朝耳環 恐懼抗性' WHERE `item_id` = 9476;
-UPDATE `armor` SET `name` ='王朝項鍊 恐懼抗性' WHERE `item_id` = 9477;
-UPDATE `armor` SET `name` ='王朝戒指 恐懼抗性' WHERE `item_id` = 9478;
-UPDATE `armor` SET `name` ='王朝耳環(不使用) 黑暗抗性' WHERE `item_id` = 9479;
-UPDATE `armor` SET `name` ='王朝項鍊(不使用) 黑暗抗性' WHERE `item_id` = 9480;
-UPDATE `armor` SET `name` ='王朝戒指(不使用) 黑暗抗性' WHERE `item_id` = 9481;
-UPDATE `armor` SET `name` ='封印的王朝盔甲' WHERE `item_id` = 9514;
-UPDATE `armor` SET `name` ='封印的王朝脛甲' WHERE `item_id` = 9515;
-UPDATE `armor` SET `name` ='封印的王朝頭盔' WHERE `item_id` = 9516;
-UPDATE `armor` SET `name` ='封印的王朝長手套' WHERE `item_id` = 9517;
-UPDATE `armor` SET `name` ='封印的王朝長靴' WHERE `item_id` = 9518;
-UPDATE `armor` SET `name` ='封印的王朝皮甲' WHERE `item_id` = 9519;
-UPDATE `armor` SET `name` ='封印的王朝皮脛甲' WHERE `item_id` = 9520;
-UPDATE `armor` SET `name` ='封印的王朝皮頭盔' WHERE `item_id` = 9521;
-UPDATE `armor` SET `name` ='封印的王朝皮手套' WHERE `item_id` = 9522;
-UPDATE `armor` SET `name` ='封印的王朝皮長靴' WHERE `item_id` = 9523;
-UPDATE `armor` SET `name` ='封印的王朝外衣' WHERE `item_id` = 9524;
-UPDATE `armor` SET `name` ='封印的王朝長襪' WHERE `item_id` = 9525;
-UPDATE `armor` SET `name` ='封印的王朝頭箍' WHERE `item_id` = 9526;
-UPDATE `armor` SET `name` ='封印的王朝手套' WHERE `item_id` = 9527;
-UPDATE `armor` SET `name` ='封印的王朝鞋' WHERE `item_id` = 9528;
-UPDATE `armor` SET `name` ='普通襯衫' WHERE `item_id` = 9577;
-UPDATE `armor` SET `name` ='棉質襯衫' WHERE `item_id` = 9578;
-UPDATE `armor` SET `name` ='絲質襯衫' WHERE `item_id` = 9579;
-UPDATE `armor` SET `name` ='薄皮質襯衫' WHERE `item_id` = 9580;
-UPDATE `armor` SET `name` ='鱗片襯衫' WHERE `item_id` = 9581;
-UPDATE `armor` SET `name` ='米索莉襯衫' WHERE `item_id` = 9582;
-UPDATE `armor` SET `name` ='條紋普通襯衫' WHERE `item_id` = 9583;
-UPDATE `armor` SET `name` ='條紋棉質襯衫' WHERE `item_id` = 9584;
-UPDATE `armor` SET `name` ='條紋絲質襯衫' WHERE `item_id` = 9585;
-UPDATE `armor` SET `name` ='薄條紋皮質襯衫' WHERE `item_id` = 9586;
-UPDATE `armor` SET `name` ='條紋鱗片襯衫' WHERE `item_id` = 9587;
-UPDATE `armor` SET `name` ='條紋米索莉襯衫' WHERE `item_id` = 9588;
-UPDATE `armor` SET `name` ='鐵手鐲' WHERE `item_id` = 9589;
-UPDATE `armor` SET `name` ='青銅手鐲' WHERE `item_id` = 9590;
-UPDATE `armor` SET `name` ='鋼鐵手鐲' WHERE `item_id` = 9591;
-UPDATE `armor` SET `name` ='米索莉手鐲' WHERE `item_id` = 9592;
-UPDATE `armor` SET `name` ='壺精封印手鐲-虹彩根據地' WHERE `item_id` = 9605;
-UPDATE `armor` SET `name` ='壺精封印手鐲-野獸農莊' WHERE `item_id` = 9606;
-UPDATE `armor` SET `name` ='壺精封印手鐲-古魯丁' WHERE `item_id` = 9607;
-UPDATE `armor` SET `name` ='壺精封印手鐲-狄恩' WHERE `item_id` = 9608;
-UPDATE `armor` SET `name` ='壺精封印手鐲-奇岩' WHERE `item_id` = 9609;
-UPDATE `armor` SET `name` ='壺精封印手鐲-歐瑞' WHERE `item_id` = 9610;
-UPDATE `armor` SET `name` ='壺精封印手鐲-亞丁' WHERE `item_id` = 9611;
-UPDATE `armor` SET `name` ='壺精封印手鐲-因納得立' WHERE `item_id` = 9612;
-UPDATE `armor` SET `name` ='壺精封印手鐲-高達特' WHERE `item_id` = 9613;
-UPDATE `armor` SET `name` ='壺精封印手鐲-魯因' WHERE `item_id` = 9614;
-UPDATE `armor` SET `name` ='壺精封印手鐲-修加特' WHERE `item_id` = 9615;
-UPDATE `armor` SET `name` ='鬃狼鱗甲' WHERE `item_id` = 9662;
-UPDATE `armor` SET `name` ='鬃狼青銅甲' WHERE `item_id` = 9663;
-UPDATE `armor` SET `name` ='鬃狼金屬甲' WHERE `item_id` = 9664;
-UPDATE `armor` SET `name` ='鬃狼米索莉甲' WHERE `item_id` = 9665;
-UPDATE `armor` SET `name` ='鬃狼奧里哈魯根甲' WHERE `item_id` = 9666;
-UPDATE `armor` SET `name` ='鬃狼奧里哈魯根合金甲' WHERE `item_id` = 9667;
-UPDATE `armor` SET `name` ='土著頭巾' WHERE `item_id` = 9669;
-UPDATE `armor` SET `name` ='土著上衣' WHERE `item_id` = 9670;
-UPDATE `armor` SET `name` ='土著下衣' WHERE `item_id` = 9671;
-UPDATE `armor` SET `name` ='風精靈戒指' WHERE `item_id` = 9677;
-UPDATE `armor` SET `name` ='幻象裝備-盟誓頭盔' WHERE `item_id` = 9820;
-UPDATE `armor` SET `name` ='幻象裝備-盟誓盔甲' WHERE `item_id` = 9821;
-UPDATE `armor` SET `name` ='幻象裝備-盟誓護手 重裝用' WHERE `item_id` = 9822;
-UPDATE `armor` SET `name` ='幻象裝備-盟誓軍靴 重裝用' WHERE `item_id` = 9823;
-UPDATE `armor` SET `name` ='幻象裝備-盟誓禮服' WHERE `item_id` = 9824;
-UPDATE `armor` SET `name` ='幻象裝備-盟誓手套 輕裝用' WHERE `item_id` = 9825;
-UPDATE `armor` SET `name` ='幻象裝備-盟誓禮鞋 輕裝用' WHERE `item_id` = 9826;
-UPDATE `armor` SET `name` ='幻象裝備-盟誓長袍' WHERE `item_id` = 9827;
-UPDATE `armor` SET `name` ='幻象裝備-盟誓絲質手套 長袍用' WHERE `item_id` = 9828;
-UPDATE `armor` SET `name` ='幻象裝備-盟誓涼鞋 長袍用' WHERE `item_id` = 9829;
-UPDATE `armor` SET `name` ='進階型阿貝拉頭盔' WHERE `item_id` = 9830;
-UPDATE `armor` SET `name` ='進階型阿貝拉盔甲' WHERE `item_id` = 9831;
-UPDATE `armor` SET `name` ='進階型阿貝拉護手 重裝用' WHERE `item_id` = 9832;
-UPDATE `armor` SET `name` ='進階型阿貝拉軍靴 重裝用' WHERE `item_id` = 9833;
-UPDATE `armor` SET `name` ='進階型阿貝拉禮服' WHERE `item_id` = 9834;
-UPDATE `armor` SET `name` ='進階型阿貝拉手套 輕裝用' WHERE `item_id` = 9835;
-UPDATE `armor` SET `name` ='進階型阿貝拉禮鞋 輕裝用' WHERE `item_id` = 9836;
-UPDATE `armor` SET `name` ='進階型阿貝拉長袍' WHERE `item_id` = 9837;
-UPDATE `armor` SET `name` ='進階型阿貝拉絲質手套 長袍用' WHERE `item_id` = 9838;
-UPDATE `armor` SET `name` ='進階型阿貝拉涼鞋 長袍用' WHERE `item_id` = 9839;
-UPDATE `armor` SET `name` ='熊熊帽 大頭' WHERE `item_id` = 9883;
-UPDATE `armor` SET `name` ='豬豬帽 大頭' WHERE `item_id` = 9884;
-UPDATE `armor` SET `name` ='小丑帽 大頭' WHERE `item_id` = 9885;
-UPDATE `armor` SET `name` ='魔法師帽 大頭' WHERE `item_id` = 9886;
-UPDATE `armor` SET `name` ='花花公子帽 大頭' WHERE `item_id` = 9887;
-UPDATE `armor` SET `name` ='浪漫圓帽 大頭' WHERE `item_id` = 9888;
-UPDATE `armor` SET `name` ='鋼鐵頭箍 大頭' WHERE `item_id` = 9889;
-UPDATE `armor` SET `name` ='熊熊帽 煙火' WHERE `item_id` = 9890;
-UPDATE `armor` SET `name` ='豬豬帽 煙火' WHERE `item_id` = 9891;
-UPDATE `armor` SET `name` ='小丑帽 煙火' WHERE `item_id` = 9892;
-UPDATE `armor` SET `name` ='魔法師帽 煙火' WHERE `item_id` = 9893;
-UPDATE `armor` SET `name` ='花花公子帽 煙火' WHERE `item_id` = 9894;
-UPDATE `armor` SET `name` ='浪漫圓帽 煙火' WHERE `item_id` = 9895;
-UPDATE `armor` SET `name` ='鋼鐵頭箍 煙火' WHERE `item_id` = 9896;
-UPDATE `armor` SET `name` ='重量減輕戒指' WHERE `item_id` = 9899;
-UPDATE `armor` SET `name` ='靜音之步戒指' WHERE `item_id` = 9900;
-UPDATE `armor` SET `name` ='壺精封印手鐲' WHERE `item_id` = 9909;
-UPDATE `armor` SET `name` ='護身符測試' WHERE `item_id` = 9913;
-UPDATE `armor` SET `name` ='青色護身符-攻擊力' WHERE `item_id` = 9914;
-UPDATE `armor` SET `name` ='青色護身符-魔法致命攻擊機率' WHERE `item_id` = 9915;
-UPDATE `armor` SET `name` ='青色護身符-狂暴' WHERE `item_id` = 9916;
-UPDATE `armor` SET `name` ='赤色護身符-使用MP小幅減少' WHERE `item_id` = 9917;
-UPDATE `armor` SET `name` ='赤色護身符-使用MP大幅減少' WHERE `item_id` = 9918;
-UPDATE `armor` SET `name` ='青色護身符-傷害反射' WHERE `item_id` = 9919;
-UPDATE `armor` SET `name` ='青色護身符-透明化' WHERE `item_id` = 9920;
-UPDATE `armor` SET `name` ='青色護身符-盾牌防禦' WHERE `item_id` = 9921;
-UPDATE `armor` SET `name` ='黑色護身符-繃帶' WHERE `item_id` = 9922;
-UPDATE `armor` SET `name` ='黑色護身符-逃脫' WHERE `item_id` = 9923;
-UPDATE `armor` SET `name` ='青色護身符-治療威力增加' WHERE `item_id` = 9924;
-UPDATE `armor` SET `name` ='赤色護身符-HP/CP恢復' WHERE `item_id` = 9925;
-UPDATE `armor` SET `name` ='青色護身符-防禦力' WHERE `item_id` = 9926;
-UPDATE `armor` SET `name` ='青色護身符-魔法防禦力' WHERE `item_id` = 9927;
-UPDATE `armor` SET `name` ='赤色護身符-MP恢復速度' WHERE `item_id` = 9928;
-UPDATE `armor` SET `name` ='青色護身符-盾牌防禦率增加' WHERE `item_id` = 9929;
-UPDATE `armor` SET `name` ='青色護身符-迴避' WHERE `item_id` = 9930;
-UPDATE `armor` SET `name` ='赤色護身符-MP緩和' WHERE `item_id` = 9931;
-UPDATE `armor` SET `name` ='青色護身符-加護' WHERE `item_id` = 9932;
-UPDATE `armor` SET `name` ='黃色護身符-攻擊力' WHERE `item_id` = 9933;
-UPDATE `armor` SET `name` ='黃色護身符-攻擊速度' WHERE `item_id` = 9934;
-UPDATE `armor` SET `name` ='黃色護身符-魔法防禦力' WHERE `item_id` = 9935;
-UPDATE `armor` SET `name` ='黃色護身符-魔法力' WHERE `item_id` = 9936;
-UPDATE `armor` SET `name` ='黃色護身符-施法速度' WHERE `item_id` = 9937;
-UPDATE `armor` SET `name` ='黃色護身符-命中' WHERE `item_id` = 9938;
-UPDATE `armor` SET `name` ='黃色護身符-防禦力' WHERE `item_id` = 9939;
-UPDATE `armor` SET `name` ='黃色護身符-速度增加' WHERE `item_id` = 9940;
-UPDATE `armor` SET `name` ='黃色護身符-移動速度' WHERE `item_id` = 9941;
-UPDATE `armor` SET `name` ='黃色護身符-致命攻擊減少' WHERE `item_id` = 9942;
-UPDATE `armor` SET `name` ='黃色護身符-致命攻擊威力' WHERE `item_id` = 9943;
-UPDATE `armor` SET `name` ='黃色護身符-致命攻擊迴避' WHERE `item_id` = 9944;
-UPDATE `armor` SET `name` ='黃色護身符-迴避' WHERE `item_id` = 9945;
-UPDATE `armor` SET `name` ='黃色護身符-治療威力' WHERE `item_id` = 9946;
-UPDATE `armor` SET `name` ='黃色護身符-CP恢復量' WHERE `item_id` = 9947;
-UPDATE `armor` SET `name` ='黃色護身符-HP恢復量' WHERE `item_id` = 9948;
-UPDATE `armor` SET `name` ='黃色護身符-MP恢復量' WHERE `item_id` = 9949;
-UPDATE `armor` SET `name` ='灰色護身符-重量標準' WHERE `item_id` = 9950;
-UPDATE `armor` SET `name` ='灰色護身符-中級精通釣魚' WHERE `item_id` = 9951;
-UPDATE `armor` SET `name` ='橙色護身符-溫泉鬥志藥水' WHERE `item_id` = 9952;
-UPDATE `armor` SET `name` ='橙色護身符-生命靈藥' WHERE `item_id` = 9953;
-UPDATE `armor` SET `name` ='橙色護身符-精神靈藥' WHERE `item_id` = 9954;
-UPDATE `armor` SET `name` ='黑色護身符-魔法沉默解除' WHERE `item_id` = 9955;
-UPDATE `armor` SET `name` ='黑色護身符-魔法逃脫' WHERE `item_id` = 9956;
-UPDATE `armor` SET `name` ='黑色護身符-物理逃脫' WHERE `item_id` = 9957;
-UPDATE `armor` SET `name` ='黑色護身符-物理沉默解除' WHERE `item_id` = 9958;
-UPDATE `armor` SET `name` ='黑色護身符-沉默解除' WHERE `item_id` = 9959;
-UPDATE `armor` SET `name` ='白色護身符-恐懼抗性' WHERE `item_id` = 9960;
-UPDATE `armor` SET `name` ='白色護身符-麻痺抗性' WHERE `item_id` = 9961;
-UPDATE `armor` SET `name` ='白色護身符-休克抗性' WHERE `item_id` = 9962;
-UPDATE `armor` SET `name` ='白色護身符-睡眠抗性' WHERE `item_id` = 9963;
-UPDATE `armor` SET `name` ='白色護身符-出血抗性' WHERE `item_id` = 9964;
-UPDATE `armor` SET `name` ='白色護身符-魔法消除抗性' WHERE `item_id` = 9965;
-UPDATE `armor` SET `name` ='白色護身符-束縛抗性' WHERE `item_id` = 9966;
-UPDATE `armor` SET `name` ='壺精封印手鐲-要塞' WHERE `item_id` = 10018;
-UPDATE `armor` SET `name` ='鎖子胸甲' WHERE `item_id` = 10019;
-UPDATE `armor` SET `name` ='鋼鐵脛甲' WHERE `item_id` = 10020;
-UPDATE `armor` SET `name` ='水晶獅皮襯衫' WHERE `item_id` = 10021;
-UPDATE `armor` SET `name` ='水晶獅皮脛甲' WHERE `item_id` = 10022;
-UPDATE `armor` SET `name` ='受詛咒的外衣' WHERE `item_id` = 10023;
-UPDATE `armor` SET `name` ='受詛咒的長襪' WHERE `item_id` = 10024;
-UPDATE `armor` SET `name` ='王朝符印' WHERE `item_id` = 10119;
-UPDATE `armor` SET `name` ='封印的王朝符印' WHERE `item_id` = 10120;
-UPDATE `armor` SET `name` ='封印的祕儀符印' WHERE `item_id` = 10121;
-UPDATE `armor` SET `name` ='紅新月耳環' WHERE `item_id` = 10122;
-UPDATE `armor` SET `name` ='奉獻項鍊' WHERE `item_id` = 10123;
-UPDATE `armor` SET `name` ='奉獻戒指' WHERE `item_id` = 10124;
-UPDATE `armor` SET `name` ='王朝皮甲 力量大師' WHERE `item_id` = 10126;
-UPDATE `armor` SET `name` ='王朝皮甲 武器大師' WHERE `item_id` = 10127;
-UPDATE `armor` SET `name` ='壺精手鐲' WHERE `item_id` = 10139;
-UPDATE `armor` SET `name` ='祝福的返回戒指' WHERE `item_id` = 10140;
-UPDATE `armor` SET `name` ='灰色護身符-雪人變身' WHERE `item_id` = 10141;
-UPDATE `armor` SET `name` ='灰色護身符-野牛變身' WHERE `item_id` = 10142;
-UPDATE `armor` SET `name` ='灰色護身符-高級精通釣魚' WHERE `item_id` = 10158;
-UPDATE `armor` SET `name` ='王朝皮甲 法師' WHERE `item_id` = 10168;
-UPDATE `armor` SET `name` ='魔法師頭箍(闇天使專用)' WHERE `item_id` = 10169;
-UPDATE `armor` SET `name` ='巴爾勒的耳環' WHERE `item_id` = 10170;
-UPDATE `armor` SET `name` ='妖怪頭箍-活動用' WHERE `item_id` = 10175;
-UPDATE `armor` SET `name` ='半緣假面-活動用' WHERE `item_id` = 10176;
-UPDATE `armor` SET `name` ='闇剎面具-活動用' WHERE `item_id` = 10177;
-UPDATE `armor` SET `name` ='進階型條紋鱗片襯衫' WHERE `item_id` = 10207;
-UPDATE `armor` SET `name` ='進階型條紋米索莉襯衫' WHERE `item_id` = 10208;
-UPDATE `armor` SET `name` ='進階型鋼鐵手鐲' WHERE `item_id` = 10209;
-UPDATE `armor` SET `name` ='進階型米索莉手鐲' WHERE `item_id` = 10210;
-UPDATE `armor` SET `name` ='祝福的復活戒指' WHERE `item_id` = 10211;
-UPDATE `armor` SET `name` ='王朝皮甲 召喚士' WHERE `item_id` = 10214;
-UPDATE `armor` SET `name` ='王朝白金盔甲' WHERE `item_id` = 10227;
-UPDATE `armor` SET `name` ='王朝白金盔甲 護盾大師' WHERE `item_id` = 10228;
-UPDATE `armor` SET `name` ='王朝白金盔甲 武器大師' WHERE `item_id` = 10229;
-UPDATE `armor` SET `name` ='王朝白金盔甲 力量大師' WHERE `item_id` = 10230;
-UPDATE `armor` SET `name` ='王朝白金盔甲 詩人' WHERE `item_id` = 10231;
-UPDATE `armor` SET `name` ='王朝寶石皮甲' WHERE `item_id` = 10232;
-UPDATE `armor` SET `name` ='王朝寶石皮甲 匕首大師' WHERE `item_id` = 10233;
-UPDATE `armor` SET `name` ='王朝寶石皮甲 弓箭大師' WHERE `item_id` = 10234;
-UPDATE `armor` SET `name` ='王朝銀絲緞外衣' WHERE `item_id` = 10235;
-UPDATE `armor` SET `name` ='王朝銀絲緞外衣 牧師' WHERE `item_id` = 10236;
-UPDATE `armor` SET `name` ='王朝銀絲緞外衣 法師' WHERE `item_id` = 10237;
-UPDATE `armor` SET `name` ='王朝銀絲緞外衣 召喚士' WHERE `item_id` = 10238;
-UPDATE `armor` SET `name` ='王朝銀絲緞外衣 巫師' WHERE `item_id` = 10239;
-UPDATE `armor` SET `name` ='鳥窩帽' WHERE `item_id` = 10240;
-UPDATE `armor` SET `name` ='紫色維京頭箍' WHERE `item_id` = 10241;
-UPDATE `armor` SET `name` ='金色維京頭箍' WHERE `item_id` = 10242;
-UPDATE `armor` SET `name` ='貓熊帽' WHERE `item_id` = 10243;
-UPDATE `armor` SET `name` ='白羊帽' WHERE `item_id` = 10244;
-UPDATE `armor` SET `name` ='黑羊帽' WHERE `item_id` = 10245;
-UPDATE `armor` SET `name` ='青蛙帽' WHERE `item_id` = 10246;
-UPDATE `armor` SET `name` ='魚帽' WHERE `item_id` = 10247;
-UPDATE `armor` SET `name` ='草帽' WHERE `item_id` = 10248;
-UPDATE `armor` SET `name` ='弱雞帽' WHERE `item_id` = 10249;
-UPDATE `armor` SET `name` ='探險家帽-活動用' WHERE `item_id` = 10250;
-UPDATE `armor` SET `name` ='中世紀舞會面具' WHERE `item_id` = 10251;
-UPDATE `armor` SET `name` ='騎乘狼召喚手鐲' WHERE `item_id` = 10273;
-UPDATE `armor` SET `name` ='巴列斯戒指' WHERE `item_id` = 10314;
-UPDATE `armor` SET `name` ='幻象裝備-紫色維京頭箍' WHERE `item_id` = 10315;
-UPDATE `armor` SET `name` ='壺精封印手鐲-小天使 煙火' WHERE `item_id` = 10316;
-UPDATE `armor` SET `name` ='壺精封印手鐲-小天使 大頭' WHERE `item_id` = 10317;
-UPDATE `armor` SET `name` ='壺精封印手鐲-小天使 返回' WHERE `item_id` = 10318;
-UPDATE `armor` SET `name` ='壺精封印手鐲-小天使 復活' WHERE `item_id` = 10319;
-UPDATE `armor` SET `name` ='壺精封印手鐲-小天使' WHERE `item_id` = 10320;
-UPDATE `armor` SET `name` ='幻象裝備-金色維京頭箍' WHERE `item_id` = 10321;
-UPDATE `armor` SET `name` ='壺精封印手鐲-小惡魔 煙火' WHERE `item_id` = 10322;
-UPDATE `armor` SET `name` ='壺精封印手鐲-小惡魔 大頭' WHERE `item_id` = 10323;
-UPDATE `armor` SET `name` ='壺精封印手鐲-小惡魔 返回' WHERE `item_id` = 10324;
-UPDATE `armor` SET `name` ='壺精封印手鐲-小惡魔 復活' WHERE `item_id` = 10325;
-UPDATE `armor` SET `name` ='壺精封印手鐲-小惡魔' WHERE `item_id` = 10326;
-UPDATE `armor` SET `name` ='青色護身符-爆發' WHERE `item_id` = 10416;
-UPDATE `armor` SET `name` ='青色護身符-魔法爆發力' WHERE `item_id` = 10417;
-UPDATE `armor` SET `name` ='白色護身符-風暴' WHERE `item_id` = 10418;
-UPDATE `armor` SET `name` ='白色護身符-黑暗' WHERE `item_id` = 10419;
-UPDATE `armor` SET `name` ='白色護身符-水' WHERE `item_id` = 10420;
-UPDATE `armor` SET `name` ='白色護身符-火' WHERE `item_id` = 10421;
-UPDATE `armor` SET `name` ='白色護身符-光' WHERE `item_id` = 10422;
-UPDATE `armor` SET `name` ='青色護身符-自爆攻擊' WHERE `item_id` = 10423;
-UPDATE `armor` SET `name` ='青色護身符-終極治癒' WHERE `item_id` = 10424;
-UPDATE `armor` SET `name` ='幻象裝備-紅新月耳環' WHERE `item_id` = 10470;
-UPDATE `armor` SET `name` ='幻象裝備-奉獻戒指' WHERE `item_id` = 10471;
-UPDATE `armor` SET `name` ='幻象裝備-奉獻項鍊' WHERE `item_id` = 10472;
-UPDATE `armor` SET `name` ='王朝寶石皮甲 力量大師' WHERE `item_id` = 10487;
-UPDATE `armor` SET `name` ='王朝寶石皮甲 武器大師' WHERE `item_id` = 10488;
-UPDATE `armor` SET `name` ='王朝寶石皮甲 法師' WHERE `item_id` = 10489;
-UPDATE `armor` SET `name` ='王朝寶石皮甲 召喚士' WHERE `item_id` = 10490;
-UPDATE `armor` SET `name` ='絲質襯衫 HP' WHERE `item_id` = 10491;
-UPDATE `armor` SET `name` ='絲質襯衫 MP' WHERE `item_id` = 10492;
-UPDATE `armor` SET `name` ='絲質襯衫 CP' WHERE `item_id` = 10493;
-UPDATE `armor` SET `name` ='薄皮質襯衫 HP' WHERE `item_id` = 10494;
-UPDATE `armor` SET `name` ='薄皮質襯衫 MP' WHERE `item_id` = 10495;
-UPDATE `armor` SET `name` ='薄皮質襯衫 CP' WHERE `item_id` = 10496;
-UPDATE `armor` SET `name` ='鱗片襯衫 HP' WHERE `item_id` = 10497;
-UPDATE `armor` SET `name` ='鱗片襯衫 MP' WHERE `item_id` = 10498;
-UPDATE `armor` SET `name` ='鱗片襯衫 CP' WHERE `item_id` = 10499;
-UPDATE `armor` SET `name` ='米索莉襯衫 HP' WHERE `item_id` = 10500;
-UPDATE `armor` SET `name` ='米索莉襯衫 MP' WHERE `item_id` = 10501;
-UPDATE `armor` SET `name` ='米索莉襯衫 CP' WHERE `item_id` = 10502;
-UPDATE `armor` SET `name` ='條紋絲質襯衫 HP' WHERE `item_id` = 10503;
-UPDATE `armor` SET `name` ='條紋絲質襯衫 MP' WHERE `item_id` = 10504;
-UPDATE `armor` SET `name` ='條紋絲質襯衫 CP' WHERE `item_id` = 10505;
-UPDATE `armor` SET `name` ='薄條紋皮質襯衫 HP' WHERE `item_id` = 10506;
-UPDATE `armor` SET `name` ='薄條紋皮質襯衫 MP' WHERE `item_id` = 10507;
-UPDATE `armor` SET `name` ='薄條紋皮質襯衫 CP' WHERE `item_id` = 10508;
-UPDATE `armor` SET `name` ='條紋鱗片襯衫 HP' WHERE `item_id` = 10509;
-UPDATE `armor` SET `name` ='條紋鱗片襯衫 MP' WHERE `item_id` = 10510;
-UPDATE `armor` SET `name` ='條紋鱗片襯衫 CP' WHERE `item_id` = 10511;
-UPDATE `armor` SET `name` ='條紋米索莉襯衫 HP' WHERE `item_id` = 10512;
-UPDATE `armor` SET `name` ='條紋米索莉襯衫 MP' WHERE `item_id` = 10513;
-UPDATE `armor` SET `name` ='條紋米索莉襯衫 CP' WHERE `item_id` = 10514;
-UPDATE `armor` SET `name` ='赤色護身符-生命力' WHERE `item_id` = 10518;
-UPDATE `armor` SET `name` ='白色護身符-大地' WHERE `item_id` = 10519;
-UPDATE `armor` SET `name` ='青色護身符-攻擊力' WHERE `item_id` = 10533;
-UPDATE `armor` SET `name` ='青色護身符-盾牌防禦' WHERE `item_id` = 10534;
-UPDATE `armor` SET `name` ='黃色護身符-防禦力' WHERE `item_id` = 10535;
-UPDATE `armor` SET `name` ='黃色護身符-魔法力' WHERE `item_id` = 10536;
-UPDATE `armor` SET `name` ='黃色護身符-迴避' WHERE `item_id` = 10537;
-UPDATE `armor` SET `name` ='黃色護身符-治療威力' WHERE `item_id` = 10538;
-UPDATE `armor` SET `name` ='黃色護身符-CP恢復量' WHERE `item_id` = 10539;
-UPDATE `armor` SET `name` ='黃色護身符-HP恢復量' WHERE `item_id` = 10540;
-UPDATE `armor` SET `name` ='黃色護身符-次級MP恢復量' WHERE `item_id` = 10541;
-UPDATE `armor` SET `name` ='赤色護身符-HP/CP恢復' WHERE `item_id` = 10542;
-UPDATE `armor` SET `name` ='黃色護身符-移動速度' WHERE `item_id` = 10543;
-UPDATE `armor` SET `name` ='壺精封印手鐲-魯道夫' WHERE `item_id` = 10606;
-UPDATE `armor` SET `name` ='鳥窩帽-活動用' WHERE `item_id` = 10613;
-UPDATE `armor` SET `name` ='白羊帽-活動用' WHERE `item_id` = 10614;
-UPDATE `armor` SET `name` ='黑羊帽-活動用' WHERE `item_id` = 10615;
-UPDATE `armor` SET `name` ='草帽-活動用' WHERE `item_id` = 10616;
-UPDATE `armor` SET `name` ='螞蟻帽 2008年' WHERE `item_id` = 10617;
-UPDATE `armor` SET `name` ='豺狼帽 2008年' WHERE `item_id` = 10618;
-UPDATE `armor` SET `name` ='狼帽 2008年' WHERE `item_id` = 10619;
-UPDATE `armor` SET `name` ='幻象裝備-螞蟻帽 祝福返回' WHERE `item_id` = 10620;
-UPDATE `armor` SET `name` ='幻象裝備-螞蟻帽 祝福復活' WHERE `item_id` = 10621;
-UPDATE `armor` SET `name` ='幻象裝備-螞蟻帽 煙火' WHERE `item_id` = 10622;
-UPDATE `armor` SET `name` ='幻象裝備-螞蟻帽 大頭' WHERE `item_id` = 10623;
-UPDATE `armor` SET `name` ='幻象裝備-豺狼帽 祝福返回' WHERE `item_id` = 10624;
-UPDATE `armor` SET `name` ='幻象裝備-豺狼帽 祝福復活' WHERE `item_id` = 10625;
-UPDATE `armor` SET `name` ='幻象裝備-豺狼帽 煙火' WHERE `item_id` = 10626;
-UPDATE `armor` SET `name` ='幻象裝備-豺狼帽 大頭' WHERE `item_id` = 10627;
-UPDATE `armor` SET `name` ='幻象裝備-狼帽 祝福返回' WHERE `item_id` = 10628;
-UPDATE `armor` SET `name` ='幻象裝備-狼帽 祝福復活' WHERE `item_id` = 10629;
-UPDATE `armor` SET `name` ='幻象裝備-狼帽 煙火' WHERE `item_id` = 10630;
-UPDATE `armor` SET `name` ='幻象裝備-狼帽 大頭' WHERE `item_id` = 10631;
-UPDATE `armor` SET `name` ='寵物飾品(無用)' WHERE `item_id` = 10658;
-UPDATE `armor` SET `name` ='壺精召喚手鐲-猴子' WHERE `item_id` = 10659;
-UPDATE `armor` SET `name` ='壺精召喚手鐲-獅鷲' WHERE `item_id` = 10660;
-UPDATE `armor` SET `name` ='夢魘盔甲 {對戰用}' WHERE `item_id` = 10793;
-UPDATE `armor` SET `name` ='聖威金屬盔甲 {對戰用}' WHERE `item_id` = 10794;
-UPDATE `armor` SET `name` ='夢魘皮甲 {對戰用}' WHERE `item_id` = 10795;
-UPDATE `armor` SET `name` ='聖威皮甲 {對戰用}' WHERE `item_id` = 10796;
-UPDATE `armor` SET `name` ='夢魘長袍 {對戰用}' WHERE `item_id` = 10797;
-UPDATE `armor` SET `name` ='聖威長袍 {對戰用}' WHERE `item_id` = 10798;
-UPDATE `armor` SET `name` ='帝國聖軍胸甲 {對戰用}' WHERE `item_id` = 10799;
-UPDATE `armor` SET `name` ='紅龍皮甲 {對戰用}' WHERE `item_id` = 10800;
-UPDATE `armor` SET `name` ='大祕儀長袍 {對戰用}' WHERE `item_id` = 10801;
-UPDATE `armor` SET `name` ='王朝盔甲 {對戰用}' WHERE `item_id` = 10802;
-UPDATE `armor` SET `name` ='王朝盔甲 {對戰用} 護盾大師' WHERE `item_id` = 10803;
-UPDATE `armor` SET `name` ='王朝盔甲 {對戰用} 武器大師' WHERE `item_id` = 10804;
-UPDATE `armor` SET `name` ='王朝盔甲 {對戰用} 力量大師' WHERE `item_id` = 10805;
-UPDATE `armor` SET `name` ='王朝盔甲 {對戰用} 詩人' WHERE `item_id` = 10806;
-UPDATE `armor` SET `name` ='王朝皮甲 {對戰用}' WHERE `item_id` = 10807;
-UPDATE `armor` SET `name` ='王朝皮甲 {對戰用} 匕首大師' WHERE `item_id` = 10808;
-UPDATE `armor` SET `name` ='王朝皮甲 {對戰用} 弓箭大師' WHERE `item_id` = 10809;
-UPDATE `armor` SET `name` ='王朝外衣 {對戰用}' WHERE `item_id` = 10810;
-UPDATE `armor` SET `name` ='王朝外衣 {對戰用} 牧師' WHERE `item_id` = 10811;
-UPDATE `armor` SET `name` ='王朝外衣 {對戰用} 法師' WHERE `item_id` = 10812;
-UPDATE `armor` SET `name` ='王朝外衣 {對戰用} 召喚士' WHERE `item_id` = 10813;
-UPDATE `armor` SET `name` ='王朝外衣 {對戰用} 巫師' WHERE `item_id` = 10814;
-UPDATE `armor` SET `name` ='王朝皮甲 {對戰用} 力量大師' WHERE `item_id` = 10815;
-UPDATE `armor` SET `name` ='王朝皮甲 {對戰用} 武器大師' WHERE `item_id` = 10816;
-UPDATE `armor` SET `name` ='王朝皮甲 {對戰用} 法師' WHERE `item_id` = 10817;
-UPDATE `armor` SET `name` ='王朝皮甲 {對戰用} 召喚士' WHERE `item_id` = 10818;
-UPDATE `armor` SET `name` ='王朝白金盔甲 {對戰用}' WHERE `item_id` = 10819;
-UPDATE `armor` SET `name` ='王朝白金盔甲 {對戰用} 護盾大師' WHERE `item_id` = 10820;
-UPDATE `armor` SET `name` ='王朝白金盔甲 {對戰用} 武器大師' WHERE `item_id` = 10821;
-UPDATE `armor` SET `name` ='王朝白金盔甲 {對戰用} 力量大師' WHERE `item_id` = 10822;
-UPDATE `armor` SET `name` ='王朝白金盔甲 {對戰用} 詩人' WHERE `item_id` = 10823;
-UPDATE `armor` SET `name` ='王朝寶石皮甲 {對戰用}' WHERE `item_id` = 10824;
-UPDATE `armor` SET `name` ='王朝寶石皮甲 {對戰用} 匕首大師' WHERE `item_id` = 10825;
-UPDATE `armor` SET `name` ='王朝寶石皮甲 {對戰用} 弓箭大師' WHERE `item_id` = 10826;
-UPDATE `armor` SET `name` ='王朝銀絲緞外衣 {對戰用}' WHERE `item_id` = 10827;
-UPDATE `armor` SET `name` ='王朝銀絲緞外衣 {對戰用} 牧師' WHERE `item_id` = 10828;
-UPDATE `armor` SET `name` ='王朝銀絲緞外衣 {對戰用} 法師' WHERE `item_id` = 10829;
-UPDATE `armor` SET `name` ='王朝銀絲緞外衣 {對戰用} 召喚士' WHERE `item_id` = 10830;
-UPDATE `armor` SET `name` ='王朝銀絲緞外衣 {對戰用} 巫師' WHERE `item_id` = 10831;
-UPDATE `armor` SET `name` ='王朝寶石皮甲 {對戰用} 力量大師' WHERE `item_id` = 10832;
-UPDATE `armor` SET `name` ='王朝寶石皮甲 {對戰用} 武器大師' WHERE `item_id` = 10833;
-UPDATE `armor` SET `name` ='王朝寶石皮甲 {對戰用} 法師' WHERE `item_id` = 10834;
-UPDATE `armor` SET `name` ='王朝寶石皮甲 {對戰用} 召喚士' WHERE `item_id` = 10835;
-UPDATE `armor` SET `name` ='封印的夏隆長手套' WHERE `item_id` = 11349;
-UPDATE `armor` SET `name` ='封印的夏隆靴' WHERE `item_id` = 11350;
-UPDATE `armor` SET `name` ='封印的阿巴敦手套' WHERE `item_id` = 11351;
-UPDATE `armor` SET `name` ='封印的阿巴敦靴' WHERE `item_id` = 11352;
-UPDATE `armor` SET `name` ='夏隆皮脛甲' WHERE `item_id` = 11353;
-UPDATE `armor` SET `name` ='夏隆皮衫' WHERE `item_id` = 11354;
-UPDATE `armor` SET `name` ='夏隆脛甲' WHERE `item_id` = 11355;
-UPDATE `armor` SET `name` ='夏隆長手套 重裝用' WHERE `item_id` = 11356;
-UPDATE `armor` SET `name` ='夏隆長手套 輕裝用' WHERE `item_id` = 11357;
-UPDATE `armor` SET `name` ='夏隆長手套 長袍用' WHERE `item_id` = 11358;
-UPDATE `armor` SET `name` ='夏隆靴 重裝用' WHERE `item_id` = 11359;
-UPDATE `armor` SET `name` ='夏隆靴 輕裝用' WHERE `item_id` = 11360;
-UPDATE `armor` SET `name` ='夏隆靴 長袍用' WHERE `item_id` = 11361;
-UPDATE `armor` SET `name` ='夏隆頭盔 重裝用' WHERE `item_id` = 11363;
-UPDATE `armor` SET `name` ='夏隆胸甲' WHERE `item_id` = 11364;
-UPDATE `armor` SET `name` ='阿巴敦手套 重裝用' WHERE `item_id` = 11365;
-UPDATE `armor` SET `name` ='阿巴敦手套 輕裝用' WHERE `item_id` = 11366;
-UPDATE `armor` SET `name` ='阿巴敦手套 長袍用' WHERE `item_id` = 11367;
-UPDATE `armor` SET `name` ='阿巴敦皮甲' WHERE `item_id` = 11368;
-UPDATE `armor` SET `name` ='阿巴敦長袍' WHERE `item_id` = 11369;
-UPDATE `armor` SET `name` ='阿巴敦靴 重裝用' WHERE `item_id` = 11370;
-UPDATE `armor` SET `name` ='阿巴敦靴 輕裝用' WHERE `item_id` = 11371;
-UPDATE `armor` SET `name` ='阿巴敦靴 長袍用' WHERE `item_id` = 11372;
-UPDATE `armor` SET `name` ='阿巴敦頭箍 重裝用' WHERE `item_id` = 11373;
-UPDATE `armor` SET `name` ='阿巴敦脛甲' WHERE `item_id` = 11375;
-UPDATE `armor` SET `name` ='阿巴敦胸甲' WHERE `item_id` = 11376;
-UPDATE `armor` SET `name` ='夏隆外衣' WHERE `item_id` = 11377;
-UPDATE `armor` SET `name` ='夏隆長襪' WHERE `item_id` = 11378;
-UPDATE `armor` SET `name` ='末日手套 重裝用' WHERE `item_id` = 11379;
-UPDATE `armor` SET `name` ='末日手套 輕裝用' WHERE `item_id` = 11380;
-UPDATE `armor` SET `name` ='末日手套 長袍用' WHERE `item_id` = 11381;
-UPDATE `armor` SET `name` ='末日靴 重裝用' WHERE `item_id` = 11382;
-UPDATE `armor` SET `name` ='末日靴 輕裝用' WHERE `item_id` = 11383;
-UPDATE `armor` SET `name` ='末日靴 長袍用' WHERE `item_id` = 11384;
-UPDATE `armor` SET `name` ='末日金屬盔甲' WHERE `item_id` = 11386;
-UPDATE `armor` SET `name` ='末日頭盔 重裝用' WHERE `item_id` = 11387;
-UPDATE `armor` SET `name` ='末日皮甲' WHERE `item_id` = 11388;
-UPDATE `armor` SET `name` ='封印的末日手套' WHERE `item_id` = 11389;
-UPDATE `armor` SET `name` ='封印的末日靴' WHERE `item_id` = 11390;
-UPDATE `armor` SET `name` ='封印的青狼長靴' WHERE `item_id` = 11391;
-UPDATE `armor` SET `name` ='封印的青狼手套' WHERE `item_id` = 11392;
-UPDATE `armor` SET `name` ='末日外衣' WHERE `item_id` = 11393;
-UPDATE `armor` SET `name` ='青狼脛甲' WHERE `item_id` = 11394;
-UPDATE `armor` SET `name` ='青狼皮甲' WHERE `item_id` = 11395;
-UPDATE `armor` SET `name` ='青狼長靴 重裝用' WHERE `item_id` = 11396;
-UPDATE `armor` SET `name` ='青狼長靴 輕裝用' WHERE `item_id` = 11397;
-UPDATE `armor` SET `name` ='青狼長靴 長袍用' WHERE `item_id` = 11398;
-UPDATE `armor` SET `name` ='青狼手套 重裝用' WHERE `item_id` = 11399;
-UPDATE `armor` SET `name` ='青狼手套 輕裝用' WHERE `item_id` = 11400;
-UPDATE `armor` SET `name` ='青狼手套 長袍用' WHERE `item_id` = 11401;
-UPDATE `armor` SET `name` ='青狼外衣' WHERE `item_id` = 11402;
-UPDATE `armor` SET `name` ='青狼頭盔 重裝用' WHERE `item_id` = 11403;
-UPDATE `armor` SET `name` ='青狼長襪' WHERE `item_id` = 11404;
-UPDATE `armor` SET `name` ='青狼胸甲' WHERE `item_id` = 11405;
-UPDATE `armor` SET `name` ='末日長襪' WHERE `item_id` = 11406;
-UPDATE `armor` SET `name` ='黑暗水晶脛甲' WHERE `item_id` = 11407;
-UPDATE `armor` SET `name` ='黑暗水晶手套 重裝用' WHERE `item_id` = 11408;
-UPDATE `armor` SET `name` ='黑暗水晶手套 輕裝用' WHERE `item_id` = 11409;
-UPDATE `armor` SET `name` ='黑暗水晶手套 長袍用' WHERE `item_id` = 11410;
-UPDATE `armor` SET `name` ='黑暗水晶皮甲' WHERE `item_id` = 11411;
-UPDATE `armor` SET `name` ='黑暗水晶長袍' WHERE `item_id` = 11412;
-UPDATE `armor` SET `name` ='黑暗水晶靴 重裝用' WHERE `item_id` = 11413;
-UPDATE `armor` SET `name` ='黑暗水晶靴 輕裝用' WHERE `item_id` = 11414;
-UPDATE `armor` SET `name` ='黑暗水晶靴 長袍用' WHERE `item_id` = 11415;
-UPDATE `armor` SET `name` ='黑暗水晶頭盔 重裝用' WHERE `item_id` = 11417;
-UPDATE `armor` SET `name` ='黑暗水晶胸甲' WHERE `item_id` = 11418;
-UPDATE `armor` SET `name` ='黑暗水晶皮脛甲' WHERE `item_id` = 11419;
-UPDATE `armor` SET `name` ='封印的黑暗水晶脛甲' WHERE `item_id` = 11420;
-UPDATE `armor` SET `name` ='封印的黑暗水晶手套' WHERE `item_id` = 11421;
-UPDATE `armor` SET `name` ='封印的黑暗水晶皮甲' WHERE `item_id` = 11422;
-UPDATE `armor` SET `name` ='封印的黑暗水晶長袍' WHERE `item_id` = 11423;
-UPDATE `armor` SET `name` ='封印的黑暗水晶靴' WHERE `item_id` = 11424;
-UPDATE `armor` SET `name` ='封印的黑暗水晶頭盔 重裝用' WHERE `item_id` = 11426;
-UPDATE `armor` SET `name` ='封印的黑暗水晶胸甲' WHERE `item_id` = 11427;
-UPDATE `armor` SET `name` ='封印的黑暗水晶皮脛甲' WHERE `item_id` = 11428;
-UPDATE `armor` SET `name` ='封印的塔魯手套' WHERE `item_id` = 11429;
-UPDATE `armor` SET `name` ='封印的塔魯皮甲' WHERE `item_id` = 11430;
-UPDATE `armor` SET `name` ='封印的塔魯靴' WHERE `item_id` = 11431;
-UPDATE `armor` SET `name` ='封印的塔魯外衣' WHERE `item_id` = 11432;
-UPDATE `armor` SET `name` ='封印的塔魯金屬盔甲' WHERE `item_id` = 11433;
-UPDATE `armor` SET `name` ='封印的塔魯帽 重裝用' WHERE `item_id` = 11434;
-UPDATE `armor` SET `name` ='封印的塔魯長襪' WHERE `item_id` = 11435;
-UPDATE `armor` SET `name` ='(不使用)聖靈斗篷' WHERE `item_id` = 11436;
-UPDATE `armor` SET `name` ='塔魯手套 重裝用' WHERE `item_id` = 11437;
-UPDATE `armor` SET `name` ='塔魯手套 輕裝用' WHERE `item_id` = 11438;
-UPDATE `armor` SET `name` ='塔魯手套 長袍用' WHERE `item_id` = 11439;
-UPDATE `armor` SET `name` ='塔魯皮甲' WHERE `item_id` = 11440;
-UPDATE `armor` SET `name` ='塔魯靴 重裝用' WHERE `item_id` = 11441;
-UPDATE `armor` SET `name` ='塔魯靴 輕裝用' WHERE `item_id` = 11442;
-UPDATE `armor` SET `name` ='塔魯靴 長袍用' WHERE `item_id` = 11443;
-UPDATE `armor` SET `name` ='塔魯外衣' WHERE `item_id` = 11444;
-UPDATE `armor` SET `name` ='塔魯金屬盔甲' WHERE `item_id` = 11445;
-UPDATE `armor` SET `name` ='塔魯帽 重裝用' WHERE `item_id` = 11446;
-UPDATE `armor` SET `name` ='塔魯長襪' WHERE `item_id` = 11447;
-UPDATE `armor` SET `name` ='聖威手套 重裝用' WHERE `item_id` = 11448;
-UPDATE `armor` SET `name` ='聖威手套 輕裝用' WHERE `item_id` = 11449;
-UPDATE `armor` SET `name` ='聖威手套 長袍用' WHERE `item_id` = 11450;
-UPDATE `armor` SET `name` ='聖威皮甲' WHERE `item_id` = 11451;
-UPDATE `armor` SET `name` ='聖威長袍' WHERE `item_id` = 11452;
-UPDATE `armor` SET `name` ='聖威靴 重裝用' WHERE `item_id` = 11453;
-UPDATE `armor` SET `name` ='聖威靴 輕裝用' WHERE `item_id` = 11454;
-UPDATE `armor` SET `name` ='聖威靴 長袍用' WHERE `item_id` = 11455;
-UPDATE `armor` SET `name` ='聖威頭箍 重裝用' WHERE `item_id` = 11456;
-UPDATE `armor` SET `name` ='聖威金屬盔甲' WHERE `item_id` = 11457;
-UPDATE `armor` SET `name` ='封印的聖威手套' WHERE `item_id` = 11458;
-UPDATE `armor` SET `name` ='封印的聖威皮甲' WHERE `item_id` = 11459;
-UPDATE `armor` SET `name` ='封印的聖威長袍' WHERE `item_id` = 11460;
-UPDATE `armor` SET `name` ='封印的聖威靴' WHERE `item_id` = 11461;
-UPDATE `armor` SET `name` ='封印的聖威頭箍 重裝用' WHERE `item_id` = 11462;
-UPDATE `armor` SET `name` ='封印的聖威金屬盔甲' WHERE `item_id` = 11463;
-UPDATE `armor` SET `name` ='封印的夢魘盔甲' WHERE `item_id` = 11464;
-UPDATE `armor` SET `name` ='封印的夢魘手套' WHERE `item_id` = 11465;
-UPDATE `armor` SET `name` ='封印的夢魘皮甲' WHERE `item_id` = 11466;
-UPDATE `armor` SET `name` ='封印的夢魘長袍' WHERE `item_id` = 11467;
-UPDATE `armor` SET `name` ='封印的夢魘靴' WHERE `item_id` = 11468;
-UPDATE `armor` SET `name` ='封印的夢魘頭盔 重裝用' WHERE `item_id` = 11470;
-UPDATE `armor` SET `name` ='夢魘盔甲' WHERE `item_id` = 11471;
-UPDATE `armor` SET `name` ='夢魘手套 重裝用' WHERE `item_id` = 11472;
-UPDATE `armor` SET `name` ='夢魘手套 輕裝用' WHERE `item_id` = 11473;
-UPDATE `armor` SET `name` ='夢魘手套 長袍用' WHERE `item_id` = 11474;
-UPDATE `armor` SET `name` ='夢魘皮甲' WHERE `item_id` = 11475;
-UPDATE `armor` SET `name` ='夢魘長袍' WHERE `item_id` = 11476;
-UPDATE `armor` SET `name` ='夢魘靴 重裝用' WHERE `item_id` = 11477;
-UPDATE `armor` SET `name` ='夢魘靴 輕裝用' WHERE `item_id` = 11478;
-UPDATE `armor` SET `name` ='夢魘靴 長袍用' WHERE `item_id` = 11479;
-UPDATE `armor` SET `name` ='夢魘頭盔 重裝用' WHERE `item_id` = 11481;
-UPDATE `armor` SET `name` ='鬃狼奧里哈魯根甲' WHERE `item_id` = 11482;
-UPDATE `armor` SET `name` ='紅龍皮手套' WHERE `item_id` = 11483;
-UPDATE `armor` SET `name` ='紅龍皮靴' WHERE `item_id` = 11484;
-UPDATE `armor` SET `name` ='紅龍皮甲' WHERE `item_id` = 11485;
-UPDATE `armor` SET `name` ='紅龍皮盔' WHERE `item_id` = 11486;
-UPDATE `armor` SET `name` ='大祕儀手套' WHERE `item_id` = 11487;
-UPDATE `armor` SET `name` ='大祕儀長袍' WHERE `item_id` = 11488;
-UPDATE `armor` SET `name` ='大祕儀長靴' WHERE `item_id` = 11489;
-UPDATE `armor` SET `name` ='大祕儀頭箍' WHERE `item_id` = 11490;
-UPDATE `armor` SET `name` ='封印的紅龍皮手套' WHERE `item_id` = 11491;
-UPDATE `armor` SET `name` ='封印的紅龍皮靴' WHERE `item_id` = 11492;
-UPDATE `armor` SET `name` ='封印的紅龍皮甲' WHERE `item_id` = 11493;
-UPDATE `armor` SET `name` ='封印的紅龍皮盔' WHERE `item_id` = 11494;
-UPDATE `armor` SET `name` ='封印的大祕儀手套' WHERE `item_id` = 11495;
-UPDATE `armor` SET `name` ='封印的大祕儀長袍' WHERE `item_id` = 11496;
-UPDATE `armor` SET `name` ='封印的大祕儀長靴' WHERE `item_id` = 11497;
-UPDATE `armor` SET `name` ='封印的大祕儀頭箍' WHERE `item_id` = 11498;
-UPDATE `armor` SET `name` ='封印的帝國聖軍脛甲' WHERE `item_id` = 11499;
-UPDATE `armor` SET `name` ='封印的帝國聖軍長手套' WHERE `item_id` = 11500;
-UPDATE `armor` SET `name` ='封印的帝國聖軍長靴' WHERE `item_id` = 11501;
-UPDATE `armor` SET `name` ='封印的帝國聖軍頭盔' WHERE `item_id` = 11503;
-UPDATE `armor` SET `name` ='封印的帝國聖軍胸甲' WHERE `item_id` = 11504;
-UPDATE `armor` SET `name` ='帝國聖軍脛甲' WHERE `item_id` = 11505;
-UPDATE `armor` SET `name` ='帝國聖軍長手套' WHERE `item_id` = 11506;
-UPDATE `armor` SET `name` ='帝國聖軍長靴' WHERE `item_id` = 11507;
-UPDATE `armor` SET `name` ='帝國聖軍頭盔' WHERE `item_id` = 11509;
-UPDATE `armor` SET `name` ='帝國聖軍胸甲' WHERE `item_id` = 11510;
-UPDATE `armor` SET `name` ='鬃狼奧里哈魯根合金甲' WHERE `item_id` = 11511;
-UPDATE `armor` SET `name` ='王朝脛甲' WHERE `item_id` = 11512;
-UPDATE `armor` SET `name` ='王朝長手套' WHERE `item_id` = 11513;
-UPDATE `armor` SET `name` ='王朝手套' WHERE `item_id` = 11514;
-UPDATE `armor` SET `name` ='王朝皮手套' WHERE `item_id` = 11515;
-UPDATE `armor` SET `name` ='王朝皮脛甲' WHERE `item_id` = 11516;
-UPDATE `armor` SET `name` ='王朝皮甲' WHERE `item_id` = 11517;
-UPDATE `armor` SET `name` ='王朝皮甲' WHERE `item_id` = 11518;
-UPDATE `armor` SET `name` ='王朝皮甲' WHERE `item_id` = 11519;
-UPDATE `armor` SET `name` ='王朝皮甲' WHERE `item_id` = 11520;
-UPDATE `armor` SET `name` ='王朝皮甲' WHERE `item_id` = 11521;
-UPDATE `armor` SET `name` ='王朝皮甲' WHERE `item_id` = 11522;
-UPDATE `armor` SET `name` ='王朝皮甲' WHERE `item_id` = 11523;
-UPDATE `armor` SET `name` ='王朝皮長靴' WHERE `item_id` = 11524;
-UPDATE `armor` SET `name` ='王朝皮頭盔' WHERE `item_id` = 11525;
-UPDATE `armor` SET `name` ='王朝長靴' WHERE `item_id` = 11526;
-UPDATE `armor` SET `name` ='王朝盔甲' WHERE `item_id` = 11527;
-UPDATE `armor` SET `name` ='王朝盔甲' WHERE `item_id` = 11528;
-UPDATE `armor` SET `name` ='王朝盔甲' WHERE `item_id` = 11529;
-UPDATE `armor` SET `name` ='王朝盔甲' WHERE `item_id` = 11530;
-UPDATE `armor` SET `name` ='王朝盔甲' WHERE `item_id` = 11531;
-UPDATE `armor` SET `name` ='王朝鞋' WHERE `item_id` = 11533;
-UPDATE `armor` SET `name` ='王朝銀絲緞外衣' WHERE `item_id` = 11534;
-UPDATE `armor` SET `name` ='王朝銀絲緞外衣' WHERE `item_id` = 11535;
-UPDATE `armor` SET `name` ='王朝銀絲緞外衣' WHERE `item_id` = 11536;
-UPDATE `armor` SET `name` ='王朝銀絲緞外衣' WHERE `item_id` = 11537;
-UPDATE `armor` SET `name` ='王朝銀絲緞外衣' WHERE `item_id` = 11538;
-UPDATE `armor` SET `name` ='王朝頭箍' WHERE `item_id` = 11539;
-UPDATE `armor` SET `name` ='王朝寶石皮甲' WHERE `item_id` = 11540;
-UPDATE `armor` SET `name` ='王朝寶石皮甲' WHERE `item_id` = 11541;
-UPDATE `armor` SET `name` ='王朝寶石皮甲' WHERE `item_id` = 11542;
-UPDATE `armor` SET `name` ='王朝寶石皮甲' WHERE `item_id` = 11543;
-UPDATE `armor` SET `name` ='王朝寶石皮甲' WHERE `item_id` = 11544;
-UPDATE `armor` SET `name` ='王朝寶石皮甲' WHERE `item_id` = 11545;
-UPDATE `armor` SET `name` ='王朝寶石皮甲' WHERE `item_id` = 11546;
-UPDATE `armor` SET `name` ='王朝外衣' WHERE `item_id` = 11547;
-UPDATE `armor` SET `name` ='王朝外衣' WHERE `item_id` = 11548;
-UPDATE `armor` SET `name` ='王朝外衣' WHERE `item_id` = 11549;
-UPDATE `armor` SET `name` ='王朝外衣' WHERE `item_id` = 11550;
-UPDATE `armor` SET `name` ='王朝外衣' WHERE `item_id` = 11551;
-UPDATE `armor` SET `name` ='王朝白金盔甲' WHERE `item_id` = 11552;
-UPDATE `armor` SET `name` ='王朝白金盔甲' WHERE `item_id` = 11553;
-UPDATE `armor` SET `name` ='王朝白金盔甲' WHERE `item_id` = 11554;
-UPDATE `armor` SET `name` ='王朝白金盔甲' WHERE `item_id` = 11555;
-UPDATE `armor` SET `name` ='王朝白金盔甲' WHERE `item_id` = 11556;
-UPDATE `armor` SET `name` ='王朝頭盔 重裝用' WHERE `item_id` = 11557;
-UPDATE `armor` SET `name` ='王朝長襪' WHERE `item_id` = 11558;
-UPDATE `armor` SET `name` ='封印的王朝脛甲' WHERE `item_id` = 11559;
-UPDATE `armor` SET `name` ='封印的王朝長手套' WHERE `item_id` = 11560;
-UPDATE `armor` SET `name` ='封印的王朝手套' WHERE `item_id` = 11561;
-UPDATE `armor` SET `name` ='封印的王朝皮手套' WHERE `item_id` = 11562;
-UPDATE `armor` SET `name` ='封印的王朝皮脛甲' WHERE `item_id` = 11563;
-UPDATE `armor` SET `name` ='封印的王朝皮甲' WHERE `item_id` = 11564;
-UPDATE `armor` SET `name` ='封印的王朝皮長靴' WHERE `item_id` = 11565;
-UPDATE `armor` SET `name` ='封印的王朝皮頭盔' WHERE `item_id` = 11566;
-UPDATE `armor` SET `name` ='封印的王朝長靴' WHERE `item_id` = 11567;
-UPDATE `armor` SET `name` ='封印的王朝盔甲' WHERE `item_id` = 11568;
-UPDATE `armor` SET `name` ='封印的王朝鞋' WHERE `item_id` = 11570;
-UPDATE `armor` SET `name` ='封印的王朝頭箍' WHERE `item_id` = 11571;
-UPDATE `armor` SET `name` ='封印的王朝外衣' WHERE `item_id` = 11572;
-UPDATE `armor` SET `name` ='封印的王朝頭盔' WHERE `item_id` = 11573;
-UPDATE `armor` SET `name` ='封印的王朝長襪' WHERE `item_id` = 11574;
-UPDATE `armor` SET `name` ='金剛石耳環' WHERE `item_id` = 11575;
-UPDATE `armor` SET `name` ='金剛石項鍊' WHERE `item_id` = 11576;
-UPDATE `armor` SET `name` ='金剛石戒指' WHERE `item_id` = 11577;
-UPDATE `armor` SET `name` ='黑光耳環' WHERE `item_id` = 11578;
-UPDATE `armor` SET `name` ='黑光項鍊' WHERE `item_id` = 11579;
-UPDATE `armor` SET `name` ='黑光戒指' WHERE `item_id` = 11580;
-UPDATE `armor` SET `name` ='封印的不死鳥項鍊' WHERE `item_id` = 11581;
-UPDATE `armor` SET `name` ='封印的不死鳥戒指' WHERE `item_id` = 11582;
-UPDATE `armor` SET `name` ='封印的不死鳥耳環' WHERE `item_id` = 11583;
-UPDATE `armor` SET `name` ='不死鳥項鍊' WHERE `item_id` = 11584;
-UPDATE `armor` SET `name` ='不死鳥戒指' WHERE `item_id` = 11585;
-UPDATE `armor` SET `name` ='不死鳥耳環' WHERE `item_id` = 11586;
-UPDATE `armor` SET `name` ='聖威項鍊' WHERE `item_id` = 11587;
-UPDATE `armor` SET `name` ='聖威戒指' WHERE `item_id` = 11588;
-UPDATE `armor` SET `name` ='聖威耳環' WHERE `item_id` = 11589;
-UPDATE `armor` SET `name` ='封印的聖威項鍊' WHERE `item_id` = 11590;
-UPDATE `armor` SET `name` ='封印的聖威戒指' WHERE `item_id` = 11591;
-UPDATE `armor` SET `name` ='封印的聖威耳環' WHERE `item_id` = 11592;
-UPDATE `armor` SET `name` ='封印的泰狄奧森項鍊' WHERE `item_id` = 11593;
-UPDATE `armor` SET `name` ='封印的泰狄奧森戒指' WHERE `item_id` = 11594;
-UPDATE `armor` SET `name` ='封印的泰狄奧森耳環' WHERE `item_id` = 11595;
-UPDATE `armor` SET `name` ='泰狄奧森項鍊' WHERE `item_id` = 11596;
-UPDATE `armor` SET `name` ='泰狄奧森戒指' WHERE `item_id` = 11597;
-UPDATE `armor` SET `name` ='泰狄奧森耳環' WHERE `item_id` = 11598;
-UPDATE `armor` SET `name` ='王朝項鍊' WHERE `item_id` = 11599;
-UPDATE `armor` SET `name` ='王朝戒指' WHERE `item_id` = 11600;
-UPDATE `armor` SET `name` ='王朝耳環' WHERE `item_id` = 11601;
-UPDATE `armor` SET `name` ='封印的王朝項鍊' WHERE `item_id` = 11602;
-UPDATE `armor` SET `name` ='封印的王朝戒指' WHERE `item_id` = 11603;
-UPDATE `armor` SET `name` ='封印的王朝耳環' WHERE `item_id` = 11604;
-UPDATE `armor` SET `name` ='基本型-皮靴' WHERE `item_id` = 12006;
-UPDATE `armor` SET `name` ='基本型-高級皮手套' WHERE `item_id` = 12007;
-UPDATE `armor` SET `name` ='基本型-鎖子胸甲' WHERE `item_id` = 12008;
-UPDATE `armor` SET `name` ='基本型-骨頭盔' WHERE `item_id` = 12009;
-UPDATE `armor` SET `name` ='基本型-受詛咒的外衣' WHERE `item_id` = 12010;
-UPDATE `armor` SET `name` ='基本型-受詛咒的長襪' WHERE `item_id` = 12011;
-UPDATE `armor` SET `name` ='基本型-鋼鐵脛甲' WHERE `item_id` = 12012;
-UPDATE `armor` SET `name` ='基本型-水晶獅皮脛甲' WHERE `item_id` = 12014;
-UPDATE `armor` SET `name` ='基本型-水晶獅皮襯衫' WHERE `item_id` = 12015;
-UPDATE `armor` SET `name` ='基本型-長皮手套' WHERE `item_id` = 12016;
-UPDATE `armor` SET `name` ='基本型-黑暗長襪' WHERE `item_id` = 12017;
-UPDATE `armor` SET `name` ='基本型-法師外衣' WHERE `item_id` = 12018;
-UPDATE `armor` SET `name` ='基本型-法師長襪' WHERE `item_id` = 12019;
-UPDATE `armor` SET `name` ='基本型-獅子皮脛甲' WHERE `item_id` = 12020;
-UPDATE `armor` SET `name` ='基本型-獅皮襯衫' WHERE `item_id` = 12021;
-UPDATE `armor` SET `name` ='基本型-純白外衣' WHERE `item_id` = 12022;
-UPDATE `armor` SET `name` ='基本型-鱗脛甲' WHERE `item_id` = 12023;
-UPDATE `armor` SET `name` ='基本型-鱗甲' WHERE `item_id` = 12024;
-UPDATE `armor` SET `name` ='基本型-精靈外衣' WHERE `item_id` = 12026;
-UPDATE `armor` SET `name` ='基本型-精靈長襪' WHERE `item_id` = 12027;
-UPDATE `armor` SET `name` ='基本型-青銅頭盔' WHERE `item_id` = 12028;
-UPDATE `armor` SET `name` ='基本型-藍鹿皮靴' WHERE `item_id` = 12029;
-UPDATE `armor` SET `name` ='基本型-矮人鱗甲' WHERE `item_id` = 12030;
-UPDATE `armor` SET `name` ='基本型-米索莉護甲' WHERE `item_id` = 12031;
-UPDATE `armor` SET `name` ='基本型-合金鱗甲' WHERE `item_id` = 12032;
-UPDATE `armor` SET `name` ='基本型-鋼鐵靴' WHERE `item_id` = 12033;
-UPDATE `armor` SET `name` ='基本型-強化皮脛甲' WHERE `item_id` = 12034;
-UPDATE `armor` SET `name` ='基本型-強化皮靴' WHERE `item_id` = 12035;
-UPDATE `armor` SET `name` ='基本型-強化皮襯衫' WHERE `item_id` = 12036;
-UPDATE `armor` SET `name` ='基本型-強化皮手套' WHERE `item_id` = 12037;
-UPDATE `armor` SET `name` ='基本型-長手套' WHERE `item_id` = 12038;
-UPDATE `armor` SET `name` ='基本型-矮人鱗脛甲' WHERE `item_id` = 12039;
-UPDATE `armor` SET `name` ='基本型-棉質襯衫' WHERE `item_id` = 12040;
-UPDATE `armor` SET `name` ='基本型-米索莉脛甲' WHERE `item_id` = 12041;
-UPDATE `armor` SET `name` ='基本型-米索莉板脛甲' WHERE `item_id` = 12042;
-UPDATE `armor` SET `name` ='基本型-米索莉板甲' WHERE `item_id` = 12043;
-UPDATE `armor` SET `name` ='基本型-狂暴盔甲' WHERE `item_id` = 12044;
-UPDATE `armor` SET `name` ='基本型-知識長靴' WHERE `item_id` = 12045;
-UPDATE `armor` SET `name` ='基本型-知識手套' WHERE `item_id` = 12046;
-UPDATE `armor` SET `name` ='基本型-知識外衣' WHERE `item_id` = 12047;
-UPDATE `armor` SET `name` ='基本型-知識長襪' WHERE `item_id` = 12048;
-UPDATE `armor` SET `name` ='基本型-合金鱗脛甲' WHERE `item_id` = 12049;
-UPDATE `armor` SET `name` ='基本型-頭盔' WHERE `item_id` = 12050;
-UPDATE `armor` SET `name` ='基本型-刺尾獅皮脛甲' WHERE `item_id` = 12052;
-UPDATE `armor` SET `name` ='基本型-刺尾獅皮靴' WHERE `item_id` = 12053;
-UPDATE `armor` SET `name` ='基本型-刺尾獅皮襯衫' WHERE `item_id` = 12054;
-UPDATE `armor` SET `name` ='基本型-刺尾獅皮手套' WHERE `item_id` = 12055;
-UPDATE `armor` SET `name` ='基本型-米索莉鱗脛甲' WHERE `item_id` = 12056;
-UPDATE `armor` SET `name` ='基本型-米索莉外衣' WHERE `item_id` = 12057;
-UPDATE `armor` SET `name` ='基本型-米索莉長襪' WHERE `item_id` = 12058;
-UPDATE `armor` SET `name` ='基本型-鎖子甲' WHERE `item_id` = 12059;
-UPDATE `armor` SET `name` ='基本型-鎖脛甲' WHERE `item_id` = 12060;
-UPDATE `armor` SET `name` ='基本型-鎖子甲長手套' WHERE `item_id` = 12061;
-UPDATE `armor` SET `name` ='基本型-鎖子長靴' WHERE `item_id` = 12062;
-UPDATE `armor` SET `name` ='基本型-鎖子頭盔' WHERE `item_id` = 12064;
-UPDATE `armor` SET `name` ='基本型-精靈米索莉手套' WHERE `item_id` = 12065;
-UPDATE `armor` SET `name` ='基本型-精靈米索莉靴' WHERE `item_id` = 12066;
-UPDATE `armor` SET `name` ='基本型-條紋棉質襯衫' WHERE `item_id` = 12067;
-UPDATE `armor` SET `name` ='基本型-安魂長手套' WHERE `item_id` = 12068;
-UPDATE `armor` SET `name` ='基本型-力量靴' WHERE `item_id` = 12070;
-UPDATE `armor` SET `name` ='基本型-襲擊靴' WHERE `item_id` = 12071;
-UPDATE `armor` SET `name` ='基本型-米索莉手套' WHERE `item_id` = 12072;
-UPDATE `armor` SET `name` ='基本型-火蜥蜴皮甲' WHERE `item_id` = 12074;
-UPDATE `armor` SET `name` ='基本型-火蜥蜴皮靴' WHERE `item_id` = 12075;
-UPDATE `armor` SET `name` ='基本型-食人魔力量長手套' WHERE `item_id` = 12076;
-UPDATE `armor` SET `name` ='基本型-金屬靴' WHERE `item_id` = 12077;
-UPDATE `armor` SET `name` ='基本型-金屬板頭盔' WHERE `item_id` = 12079;
-UPDATE `armor` SET `name` ='基本型-金屬脛甲' WHERE `item_id` = 12080;
-UPDATE `armor` SET `name` ='基本型-半身盔甲' WHERE `item_id` = 12081;
-UPDATE `armor` SET `name` ='基本型-賢者的舊手套' WHERE `item_id` = 12082;
-UPDATE `armor` SET `name` ='基本型-賢者的破衣' WHERE `item_id` = 12083;
-UPDATE `armor` SET `name` ='基本型-強化米索莉脛甲' WHERE `item_id` = 12084;
-UPDATE `armor` SET `name` ='基本型-強化米索莉靴' WHERE `item_id` = 12085;
-UPDATE `armor` SET `name` ='基本型-強化米索莉襯衫' WHERE `item_id` = 12086;
-UPDATE `armor` SET `name` ='基本型-強化米索莉手套' WHERE `item_id` = 12087;
-UPDATE `armor` SET `name` ='基本型-矮人鏈靴' WHERE `item_id` = 12088;
-UPDATE `armor` SET `name` ='基本型-封印長靴' WHERE `item_id` = 12089;
-UPDATE `armor` SET `name` ='基本型-鏈頭巾' WHERE `item_id` = 12090;
-UPDATE `armor` SET `name` ='基本型-鏈手套' WHERE `item_id` = 12092;
-UPDATE `armor` SET `name` ='基本型-鏈甲靴' WHERE `item_id` = 12093;
-UPDATE `armor` SET `name` ='基本型-鏈脛甲' WHERE `item_id` = 12094;
-UPDATE `armor` SET `name` ='基本型-鏈甲衫' WHERE `item_id` = 12095;
-UPDATE `armor` SET `name` ='基本型-卡勒米安手套' WHERE `item_id` = 12097;
-UPDATE `armor` SET `name` ='基本型-卡勒米安長靴' WHERE `item_id` = 12098;
-UPDATE `armor` SET `name` ='基本型-卡勒米安外衣' WHERE `item_id` = 12099;
-UPDATE `armor` SET `name` ='基本型-卡勒米安長襪' WHERE `item_id` = 12100;
-UPDATE `armor` SET `name` ='基本型-金屬皮長靴' WHERE `item_id` = 12101;
-UPDATE `armor` SET `name` ='基本型-金屬皮脛甲' WHERE `item_id` = 12103;
-UPDATE `armor` SET `name` ='基本型-金屬皮手套' WHERE `item_id` = 12104;
-UPDATE `armor` SET `name` ='基本型-金屬皮甲' WHERE `item_id` = 12105;
-UPDATE `armor` SET `name` ='基本型-巨型頭盔' WHERE `item_id` = 12106;
-UPDATE `armor` SET `name` ='基本型-矮人鏈手套' WHERE `item_id` = 12108;
-UPDATE `armor` SET `name` ='基本型-矮人鏈脛甲' WHERE `item_id` = 12109;
-UPDATE `armor` SET `name` ='基本型-矮人鏈甲衫' WHERE `item_id` = 12110;
-UPDATE `armor` SET `name` ='基本型-覆皮脛甲' WHERE `item_id` = 12111;
-UPDATE `armor` SET `name` ='基本型-覆皮手套' WHERE `item_id` = 12112;
-UPDATE `armor` SET `name` ='基本型-覆皮皮甲' WHERE `item_id` = 12113;
-UPDATE `armor` SET `name` ='基本型-覆皮長靴' WHERE `item_id` = 12114;
-UPDATE `armor` SET `name` ='基本型-封印長袍' WHERE `item_id` = 12115;
-UPDATE `armor` SET `name` ='基本型-封印手套' WHERE `item_id` = 12116;
-UPDATE `armor` SET `name` ='基本型-絲質襯衫' WHERE `item_id` = 12117;
-UPDATE `armor` SET `name` ='基本型-緋紅靴' WHERE `item_id` = 12118;
-UPDATE `armor` SET `name` ='基本型-米索莉長手套' WHERE `item_id` = 12119;
-UPDATE `armor` SET `name` ='基本型-閃耀頭箍' WHERE `item_id` = 12120;
-UPDATE `armor` SET `name` ='基本型-惡魔長靴' WHERE `item_id` = 12121;
-UPDATE `armor` SET `name` ='基本型-惡魔手套' WHERE `item_id` = 12122;
-UPDATE `armor` SET `name` ='基本型-惡魔外衣' WHERE `item_id` = 12123;
-UPDATE `armor` SET `name` ='基本型-惡魔長襪' WHERE `item_id` = 12124;
-UPDATE `armor` SET `name` ='基本型-合金靴' WHERE `item_id` = 12125;
-UPDATE `armor` SET `name` ='基本型-合金頭盔' WHERE `item_id` = 12127;
-UPDATE `armor` SET `name` ='基本型-合金盔甲' WHERE `item_id` = 12128;
-UPDATE `armor` SET `name` ='基本型-覆殼脛甲' WHERE `item_id` = 12130;
-UPDATE `armor` SET `name` ='基本型-覆殼手套' WHERE `item_id` = 12131;
-UPDATE `armor` SET `name` ='基本型-覆殼長靴' WHERE `item_id` = 12132;
-UPDATE `armor` SET `name` ='基本型-覆殼皮甲' WHERE `item_id` = 12133;
-UPDATE `armor` SET `name` ='基本型-飛龍皮手套' WHERE `item_id` = 12134;
-UPDATE `armor` SET `name` ='基本型-飛龍皮甲' WHERE `item_id` = 12135;
-UPDATE `armor` SET `name` ='基本型-飛龍皮長靴' WHERE `item_id` = 12136;
-UPDATE `armor` SET `name` ='基本型-神聖手套' WHERE `item_id` = 12137;
-UPDATE `armor` SET `name` ='基本型-神聖外衣' WHERE `item_id` = 12138;
-UPDATE `armor` SET `name` ='基本型-神聖長襪' WHERE `item_id` = 12139;
-UPDATE `armor` SET `name` ='基本型-條紋絲質襯衫' WHERE `item_id` = 12140;
-UPDATE `armor` SET `name` ='基本型-全覆式長手套' WHERE `item_id` = 12141;
-UPDATE `armor` SET `name` ='基本型-全覆式長靴' WHERE `item_id` = 12142;
-UPDATE `armor` SET `name` ='基本型-全身盔甲' WHERE `item_id` = 12144;
-UPDATE `armor` SET `name` ='基本型-全覆式頭盔' WHERE `item_id` = 12145;
-UPDATE `armor` SET `name` ='基本型-封印的夏隆長手套' WHERE `item_id` = 12146;
-UPDATE `armor` SET `name` ='基本型-封印的夏隆靴' WHERE `item_id` = 12147;
-UPDATE `armor` SET `name` ='基本型-封印的阿巴敦手套' WHERE `item_id` = 12148;
-UPDATE `armor` SET `name` ='基本型-封印的阿巴敦靴' WHERE `item_id` = 12149;
-UPDATE `armor` SET `name` ='基本型-夏隆皮脛甲' WHERE `item_id` = 12150;
-UPDATE `armor` SET `name` ='基本型-夏隆皮衫' WHERE `item_id` = 12151;
-UPDATE `armor` SET `name` ='基本型-夏隆脛甲' WHERE `item_id` = 12152;
-UPDATE `armor` SET `name` ='基本型-夏隆長手套 重裝用' WHERE `item_id` = 12153;
-UPDATE `armor` SET `name` ='基本型-夏隆長手套 輕裝用' WHERE `item_id` = 12154;
-UPDATE `armor` SET `name` ='基本型-夏隆長手套 長袍用' WHERE `item_id` = 12155;
-UPDATE `armor` SET `name` ='基本型-夏隆靴 重裝用' WHERE `item_id` = 12156;
-UPDATE `armor` SET `name` ='基本型-夏隆靴 輕裝用' WHERE `item_id` = 12157;
-UPDATE `armor` SET `name` ='基本型-夏隆靴 長袍用' WHERE `item_id` = 12158;
-UPDATE `armor` SET `name` ='基本型-夏隆頭盔' WHERE `item_id` = 12160;
-UPDATE `armor` SET `name` ='基本型-夏隆胸甲' WHERE `item_id` = 12161;
-UPDATE `armor` SET `name` ='基本型-阿巴敦手套 重裝用' WHERE `item_id` = 12162;
-UPDATE `armor` SET `name` ='基本型-阿巴敦手套 輕裝用' WHERE `item_id` = 12163;
-UPDATE `armor` SET `name` ='基本型-阿巴敦手套 長袍用' WHERE `item_id` = 12164;
-UPDATE `armor` SET `name` ='基本型-阿巴敦皮甲' WHERE `item_id` = 12165;
-UPDATE `armor` SET `name` ='基本型-阿巴敦長袍' WHERE `item_id` = 12166;
-UPDATE `armor` SET `name` ='基本型-阿巴敦靴 重裝用' WHERE `item_id` = 12167;
-UPDATE `armor` SET `name` ='基本型-阿巴敦靴 輕裝用' WHERE `item_id` = 12168;
-UPDATE `armor` SET `name` ='基本型-阿巴敦靴 長袍用' WHERE `item_id` = 12169;
-UPDATE `armor` SET `name` ='基本型-阿巴敦頭箍' WHERE `item_id` = 12170;
-UPDATE `armor` SET `name` ='基本型-阿巴敦脛甲' WHERE `item_id` = 12172;
-UPDATE `armor` SET `name` ='基本型-阿巴敦胸甲' WHERE `item_id` = 12173;
-UPDATE `armor` SET `name` ='基本型-薄皮質襯衫' WHERE `item_id` = 12174;
-UPDATE `armor` SET `name` ='基本型-夏隆外衣' WHERE `item_id` = 12175;
-UPDATE `armor` SET `name` ='基本型-夏隆長襪' WHERE `item_id` = 12176;
-UPDATE `armor` SET `name` ='基本型-末日手套 重裝用' WHERE `item_id` = 12177;
-UPDATE `armor` SET `name` ='基本型-末日手套 輕裝用' WHERE `item_id` = 12178;
-UPDATE `armor` SET `name` ='基本型-末日手套 長袍用' WHERE `item_id` = 12179;
-UPDATE `armor` SET `name` ='基本型-末日靴 重裝用' WHERE `item_id` = 12180;
-UPDATE `armor` SET `name` ='基本型-末日靴 輕裝用' WHERE `item_id` = 12181;
-UPDATE `armor` SET `name` ='基本型-末日靴 長袍用' WHERE `item_id` = 12182;
-UPDATE `armor` SET `name` ='基本型-末日金屬盔甲' WHERE `item_id` = 12184;
-UPDATE `armor` SET `name` ='基本型-末日頭盔' WHERE `item_id` = 12185;
-UPDATE `armor` SET `name` ='基本型-末日皮甲' WHERE `item_id` = 12186;
-UPDATE `armor` SET `name` ='基本型-封印的末日手套' WHERE `item_id` = 12187;
-UPDATE `armor` SET `name` ='基本型-封印的末日靴' WHERE `item_id` = 12188;
-UPDATE `armor` SET `name` ='基本型-封印的青狼長靴' WHERE `item_id` = 12189;
-UPDATE `armor` SET `name` ='基本型-封印的青狼手套' WHERE `item_id` = 12190;
-UPDATE `armor` SET `name` ='基本型-薄條紋皮質襯衫' WHERE `item_id` = 12191;
-UPDATE `armor` SET `name` ='基本型-末日外衣' WHERE `item_id` = 12192;
-UPDATE `armor` SET `name` ='基本型-青狼脛甲' WHERE `item_id` = 12193;
-UPDATE `armor` SET `name` ='基本型-青狼皮甲' WHERE `item_id` = 12194;
-UPDATE `armor` SET `name` ='基本型-青狼長靴 重裝用' WHERE `item_id` = 12195;
-UPDATE `armor` SET `name` ='基本型-青狼長靴 輕裝用' WHERE `item_id` = 12196;
-UPDATE `armor` SET `name` ='基本型-青狼長靴 長袍用' WHERE `item_id` = 12197;
-UPDATE `armor` SET `name` ='基本型-青狼手套 重裝用' WHERE `item_id` = 12198;
-UPDATE `armor` SET `name` ='基本型-青狼手套 輕裝用' WHERE `item_id` = 12199;
-UPDATE `armor` SET `name` ='基本型-青狼手套 長袍用' WHERE `item_id` = 12200;
-UPDATE `armor` SET `name` ='基本型-青狼外衣' WHERE `item_id` = 12201;
-UPDATE `armor` SET `name` ='基本型-青狼頭盔' WHERE `item_id` = 12202;
-UPDATE `armor` SET `name` ='基本型-青狼長襪' WHERE `item_id` = 12203;
-UPDATE `armor` SET `name` ='基本型-青狼胸甲' WHERE `item_id` = 12204;
-UPDATE `armor` SET `name` ='基本型-末日長襪' WHERE `item_id` = 12205;
-UPDATE `armor` SET `name` ='基本型-黑暗水晶脛甲' WHERE `item_id` = 12206;
-UPDATE `armor` SET `name` ='基本型-黑暗水晶手套 重裝用' WHERE `item_id` = 12207;
-UPDATE `armor` SET `name` ='基本型-黑暗水晶手套 輕裝用' WHERE `item_id` = 12208;
-UPDATE `armor` SET `name` ='基本型-黑暗水晶手套 長袍用' WHERE `item_id` = 12209;
-UPDATE `armor` SET `name` ='基本型-黑暗水晶皮甲' WHERE `item_id` = 12210;
-UPDATE `armor` SET `name` ='基本型-黑暗水晶長袍' WHERE `item_id` = 12211;
-UPDATE `armor` SET `name` ='基本型-黑暗水晶靴 重裝用' WHERE `item_id` = 12212;
-UPDATE `armor` SET `name` ='基本型-黑暗水晶靴 輕裝用' WHERE `item_id` = 12213;
-UPDATE `armor` SET `name` ='基本型-黑暗水晶靴 長袍用' WHERE `item_id` = 12214;
-UPDATE `armor` SET `name` ='基本型-黑暗水晶頭盔' WHERE `item_id` = 12216;
-UPDATE `armor` SET `name` ='基本型-黑暗水晶胸甲' WHERE `item_id` = 12217;
-UPDATE `armor` SET `name` ='基本型-黑暗水晶皮脛甲' WHERE `item_id` = 12218;
-UPDATE `armor` SET `name` ='基本型-鱗片襯衫' WHERE `item_id` = 12219;
-UPDATE `armor` SET `name` ='基本型-封印的黑暗水晶脛甲' WHERE `item_id` = 12220;
-UPDATE `armor` SET `name` ='基本型-封印的黑暗水晶手套' WHERE `item_id` = 12221;
-UPDATE `armor` SET `name` ='基本型-封印的黑暗水晶皮甲' WHERE `item_id` = 12222;
-UPDATE `armor` SET `name` ='基本型-封印的黑暗水晶長袍' WHERE `item_id` = 12223;
-UPDATE `armor` SET `name` ='基本型-封印的黑暗水晶靴' WHERE `item_id` = 12224;
-UPDATE `armor` SET `name` ='基本型-封印的黑暗水晶頭盔' WHERE `item_id` = 12226;
-UPDATE `armor` SET `name` ='基本型-封印的黑暗水晶胸甲' WHERE `item_id` = 12227;
-UPDATE `armor` SET `name` ='基本型-封印的黑暗水晶皮脛甲' WHERE `item_id` = 12228;
-UPDATE `armor` SET `name` ='基本型-封印的塔魯手套' WHERE `item_id` = 12229;
-UPDATE `armor` SET `name` ='基本型-封印的塔魯皮甲' WHERE `item_id` = 12230;
-UPDATE `armor` SET `name` ='基本型-封印的塔魯靴' WHERE `item_id` = 12231;
-UPDATE `armor` SET `name` ='基本型-封印的塔魯外衣' WHERE `item_id` = 12232;
-UPDATE `armor` SET `name` ='基本型-封印的塔魯金屬盔甲' WHERE `item_id` = 12233;
-UPDATE `armor` SET `name` ='基本型-封印的塔魯帽' WHERE `item_id` = 12234;
-UPDATE `armor` SET `name` ='基本型-封印的塔魯長襪' WHERE `item_id` = 12235;
-UPDATE `armor` SET `name` ='基本型-塔魯手套 重裝用' WHERE `item_id` = 12236;
-UPDATE `armor` SET `name` ='基本型-塔魯手套 輕裝用' WHERE `item_id` = 12237;
-UPDATE `armor` SET `name` ='基本型-塔魯手套 長袍用' WHERE `item_id` = 12238;
-UPDATE `armor` SET `name` ='基本型-塔魯皮甲' WHERE `item_id` = 12239;
-UPDATE `armor` SET `name` ='基本型-塔魯靴 重裝用' WHERE `item_id` = 12240;
-UPDATE `armor` SET `name` ='基本型-塔魯靴 輕裝用' WHERE `item_id` = 12241;
-UPDATE `armor` SET `name` ='基本型-塔魯靴 長袍用' WHERE `item_id` = 12242;
-UPDATE `armor` SET `name` ='基本型-塔魯外衣' WHERE `item_id` = 12243;
-UPDATE `armor` SET `name` ='基本型-塔魯金屬盔甲' WHERE `item_id` = 12244;
-UPDATE `armor` SET `name` ='基本型-塔魯帽' WHERE `item_id` = 12245;
-UPDATE `armor` SET `name` ='基本型-塔魯長襪' WHERE `item_id` = 12246;
-UPDATE `armor` SET `name` ='基本型-聖威手套 重裝用' WHERE `item_id` = 12247;
-UPDATE `armor` SET `name` ='基本型-聖威手套 輕裝用' WHERE `item_id` = 12248;
-UPDATE `armor` SET `name` ='基本型-聖威手套 長袍用' WHERE `item_id` = 12249;
-UPDATE `armor` SET `name` ='基本型-聖威皮甲' WHERE `item_id` = 12250;
-UPDATE `armor` SET `name` ='基本型-聖威長袍' WHERE `item_id` = 12251;
-UPDATE `armor` SET `name` ='基本型-聖威靴 重裝用' WHERE `item_id` = 12252;
-UPDATE `armor` SET `name` ='基本型-聖威靴 輕裝用' WHERE `item_id` = 12253;
-UPDATE `armor` SET `name` ='基本型-聖威靴 長袍用' WHERE `item_id` = 12254;
-UPDATE `armor` SET `name` ='基本型-聖威頭箍' WHERE `item_id` = 12255;
-UPDATE `armor` SET `name` ='基本型-聖威金屬盔甲' WHERE `item_id` = 12256;
-UPDATE `armor` SET `name` ='基本型-封印的聖威手套' WHERE `item_id` = 12257;
-UPDATE `armor` SET `name` ='基本型-封印的聖威皮甲' WHERE `item_id` = 12258;
-UPDATE `armor` SET `name` ='基本型-封印的聖威長袍' WHERE `item_id` = 12259;
-UPDATE `armor` SET `name` ='基本型-封印的聖威靴' WHERE `item_id` = 12260;
-UPDATE `armor` SET `name` ='基本型-封印的聖威頭箍' WHERE `item_id` = 12261;
-UPDATE `armor` SET `name` ='基本型-封印的聖威金屬盔甲' WHERE `item_id` = 12262;
-UPDATE `armor` SET `name` ='基本型-封印的夢魘盔甲' WHERE `item_id` = 12263;
-UPDATE `armor` SET `name` ='基本型-封印的夢魘手套' WHERE `item_id` = 12264;
-UPDATE `armor` SET `name` ='基本型-封印的夢魘皮甲' WHERE `item_id` = 12265;
-UPDATE `armor` SET `name` ='基本型-封印的夢魘長袍' WHERE `item_id` = 12266;
-UPDATE `armor` SET `name` ='基本型-封印的夢魘靴' WHERE `item_id` = 12267;
-UPDATE `armor` SET `name` ='基本型-封印的夢魘頭盔' WHERE `item_id` = 12269;
-UPDATE `armor` SET `name` ='基本型-夢魘盔甲' WHERE `item_id` = 12270;
-UPDATE `armor` SET `name` ='基本型-夢魘手套 重裝用' WHERE `item_id` = 12271;
-UPDATE `armor` SET `name` ='基本型-夢魘手套 輕裝用' WHERE `item_id` = 12272;
-UPDATE `armor` SET `name` ='基本型-夢魘手套 長袍用' WHERE `item_id` = 12273;
-UPDATE `armor` SET `name` ='基本型-夢魘皮甲' WHERE `item_id` = 12274;
-UPDATE `armor` SET `name` ='基本型-夢魘長袍' WHERE `item_id` = 12275;
-UPDATE `armor` SET `name` ='基本型-夢魘靴 重裝用' WHERE `item_id` = 12276;
-UPDATE `armor` SET `name` ='基本型-夢魘靴 輕裝用' WHERE `item_id` = 12277;
-UPDATE `armor` SET `name` ='基本型-夢魘靴 長袍用' WHERE `item_id` = 12278;
-UPDATE `armor` SET `name` ='基本型-夢魘頭盔' WHERE `item_id` = 12280;
-UPDATE `armor` SET `name` ='基本型-條紋鱗片襯衫' WHERE `item_id` = 12281;
-UPDATE `armor` SET `name` ='基本型-紅龍皮手套' WHERE `item_id` = 12282;
-UPDATE `armor` SET `name` ='基本型-紅龍皮靴' WHERE `item_id` = 12283;
-UPDATE `armor` SET `name` ='基本型-紅龍皮甲' WHERE `item_id` = 12284;
-UPDATE `armor` SET `name` ='基本型-紅龍皮盔' WHERE `item_id` = 12285;
-UPDATE `armor` SET `name` ='基本型-大祕儀手套' WHERE `item_id` = 12286;
-UPDATE `armor` SET `name` ='基本型-大祕儀長袍' WHERE `item_id` = 12287;
-UPDATE `armor` SET `name` ='基本型-大祕儀長靴' WHERE `item_id` = 12288;
-UPDATE `armor` SET `name` ='基本型-大祕儀頭箍' WHERE `item_id` = 12289;
-UPDATE `armor` SET `name` ='基本型-米索莉襯衫' WHERE `item_id` = 12290;
-UPDATE `armor` SET `name` ='基本型-封印的紅龍皮手套' WHERE `item_id` = 12291;
-UPDATE `armor` SET `name` ='基本型-封印的紅龍皮靴' WHERE `item_id` = 12292;
-UPDATE `armor` SET `name` ='基本型-封印的紅龍皮甲' WHERE `item_id` = 12293;
-UPDATE `armor` SET `name` ='基本型-封印的紅龍皮盔' WHERE `item_id` = 12294;
-UPDATE `armor` SET `name` ='基本型-封印的大祕儀手套' WHERE `item_id` = 12295;
-UPDATE `armor` SET `name` ='基本型-封印的大祕儀長袍' WHERE `item_id` = 12296;
-UPDATE `armor` SET `name` ='基本型-封印的大祕儀長靴' WHERE `item_id` = 12297;
-UPDATE `armor` SET `name` ='基本型-封印的大祕儀頭箍' WHERE `item_id` = 12298;
-UPDATE `armor` SET `name` ='基本型-封印的帝國聖軍脛甲' WHERE `item_id` = 12299;
-UPDATE `armor` SET `name` ='基本型-封印的帝國聖軍長手套' WHERE `item_id` = 12300;
-UPDATE `armor` SET `name` ='基本型-封印的帝國聖軍長靴' WHERE `item_id` = 12301;
-UPDATE `armor` SET `name` ='基本型-封印的帝國聖軍頭盔' WHERE `item_id` = 12303;
-UPDATE `armor` SET `name` ='基本型-封印的帝國聖軍胸甲' WHERE `item_id` = 12304;
-UPDATE `armor` SET `name` ='基本型-帝國聖軍脛甲' WHERE `item_id` = 12305;
-UPDATE `armor` SET `name` ='基本型-帝國聖軍長手套' WHERE `item_id` = 12306;
-UPDATE `armor` SET `name` ='基本型-帝國聖軍長靴' WHERE `item_id` = 12307;
-UPDATE `armor` SET `name` ='基本型-帝國聖軍頭盔' WHERE `item_id` = 12309;
-UPDATE `armor` SET `name` ='基本型-帝國聖軍胸甲' WHERE `item_id` = 12310;
-UPDATE `armor` SET `name` ='基本型-紅新月耳環' WHERE `item_id` = 12311;
-UPDATE `armor` SET `name` ='基本型-奉獻項鍊' WHERE `item_id` = 12312;
-UPDATE `armor` SET `name` ='基本型-奉獻戒指' WHERE `item_id` = 12313;
-UPDATE `armor` SET `name` ='基本型-魔力耳環' WHERE `item_id` = 12314;
-UPDATE `armor` SET `name` ='基本型-魔力項鍊' WHERE `item_id` = 12315;
-UPDATE `armor` SET `name` ='基本型-魔力戒指' WHERE `item_id` = 12316;
-UPDATE `armor` SET `name` ='基本型-古森林項鍊' WHERE `item_id` = 12317;
-UPDATE `armor` SET `name` ='基本型-虎眼耳環' WHERE `item_id` = 12318;
-UPDATE `armor` SET `name` ='基本型-黑珍珠戒指' WHERE `item_id` = 12319;
-UPDATE `armor` SET `name` ='基本型-精靈項鍊' WHERE `item_id` = 12320;
-UPDATE `armor` SET `name` ='基本型-精靈戒指' WHERE `item_id` = 12321;
-UPDATE `armor` SET `name` ='基本型-精靈耳環' WHERE `item_id` = 12322;
-UPDATE `armor` SET `name` ='基本型-米索莉戒指' WHERE `item_id` = 12323;
-UPDATE `armor` SET `name` ='基本型-黑暗項鍊' WHERE `item_id` = 12324;
-UPDATE `armor` SET `name` ='基本型-瑪瑙獸眼耳環' WHERE `item_id` = 12325;
-UPDATE `armor` SET `name` ='基本型-月長石耳環' WHERE `item_id` = 12326;
-UPDATE `armor` SET `name` ='基本型-水石項鍊' WHERE `item_id` = 12327;
-UPDATE `armor` SET `name` ='基本型-水石戒指' WHERE `item_id` = 12328;
-UPDATE `armor` SET `name` ='基本型-守護耳環' WHERE `item_id` = 12329;
-UPDATE `armor` SET `name` ='基本型-守護項鍊' WHERE `item_id` = 12330;
-UPDATE `armor` SET `name` ='基本型-守護戒指' WHERE `item_id` = 12331;
-UPDATE `armor` SET `name` ='基本型-封印耳環' WHERE `item_id` = 12332;
-UPDATE `armor` SET `name` ='基本型-永生戒指' WHERE `item_id` = 12333;
-UPDATE `armor` SET `name` ='基本型-人魚之淚' WHERE `item_id` = 12334;
-UPDATE `armor` SET `name` ='基本型-娜仙耳環' WHERE `item_id` = 12335;
-UPDATE `armor` SET `name` ='基本型-封印項鍊' WHERE `item_id` = 12336;
-UPDATE `armor` SET `name` ='基本型-封印戒指' WHERE `item_id` = 12337;
-UPDATE `armor` SET `name` ='基本型-金剛石耳環' WHERE `item_id` = 12338;
-UPDATE `armor` SET `name` ='基本型-金剛石項鍊' WHERE `item_id` = 12339;
-UPDATE `armor` SET `name` ='基本型-金剛石戒指' WHERE `item_id` = 12340;
-UPDATE `armor` SET `name` ='基本型-黑光耳環' WHERE `item_id` = 12341;
-UPDATE `armor` SET `name` ='基本型-黑光項鍊' WHERE `item_id` = 12342;
-UPDATE `armor` SET `name` ='基本型-黑光戒指' WHERE `item_id` = 12343;
-UPDATE `armor` SET `name` ='基本型-封印的不死鳥項鍊' WHERE `item_id` = 12344;
-UPDATE `armor` SET `name` ='基本型-封印的不死鳥耳環' WHERE `item_id` = 12345;
-UPDATE `armor` SET `name` ='基本型-封印的不死鳥戒指' WHERE `item_id` = 12346;
-UPDATE `armor` SET `name` ='基本型-不死鳥項鍊' WHERE `item_id` = 12347;
-UPDATE `armor` SET `name` ='基本型-不死鳥戒指' WHERE `item_id` = 12348;
-UPDATE `armor` SET `name` ='基本型-不死鳥耳環' WHERE `item_id` = 12349;
-UPDATE `armor` SET `name` ='基本型-封印的聖威項鍊' WHERE `item_id` = 12350;
-UPDATE `armor` SET `name` ='基本型-封印的聖威戒指' WHERE `item_id` = 12351;
-UPDATE `armor` SET `name` ='基本型-封印的聖威耳環' WHERE `item_id` = 12352;
-UPDATE `armor` SET `name` ='基本型-聖威項鍊' WHERE `item_id` = 12353;
-UPDATE `armor` SET `name` ='基本型-聖威戒指' WHERE `item_id` = 12354;
-UPDATE `armor` SET `name` ='基本型-聖威耳環' WHERE `item_id` = 12355;
-UPDATE `armor` SET `name` ='基本型-封印的泰狄奧森項鍊' WHERE `item_id` = 12356;
-UPDATE `armor` SET `name` ='基本型-封印的泰狄奧森戒指' WHERE `item_id` = 12357;
-UPDATE `armor` SET `name` ='基本型-封印的泰狄奧森耳環' WHERE `item_id` = 12358;
-UPDATE `armor` SET `name` ='基本型-泰狄奧森項鍊' WHERE `item_id` = 12359;
-UPDATE `armor` SET `name` ='基本型-泰狄奧森戒指' WHERE `item_id` = 12360;
-UPDATE `armor` SET `name` ='基本型-泰狄奧森耳環' WHERE `item_id` = 12361;
-UPDATE `armor` SET `name` ='猴子帽' WHERE `item_id` = 12372;
-UPDATE `armor` SET `name` ='豬仔帽' WHERE `item_id` = 12373;
-UPDATE `armor` SET `name` ='小寵物用鱗甲' WHERE `item_id` = 12740;
-UPDATE `armor` SET `name` ='小寵物用青銅甲' WHERE `item_id` = 12741;
-UPDATE `armor` SET `name` ='小寵物用金屬甲' WHERE `item_id` = 12742;
-UPDATE `armor` SET `name` ='小寵物用米索莉甲' WHERE `item_id` = 12743;
-UPDATE `armor` SET `name` ='小寵物用奧里哈魯根甲' WHERE `item_id` = 12744;
-UPDATE `armor` SET `name` ='小寵物用奧里哈魯根合金甲' WHERE `item_id` = 12745;
-UPDATE `armor` SET `name` ='水晶墜子' WHERE `item_id` = 12746;
-UPDATE `armor` SET `name` ='紅寶石墜子' WHERE `item_id` = 12747;
-UPDATE `armor` SET `name` ='藍寶石墜子' WHERE `item_id` = 12748;
-UPDATE `armor` SET `name` ='鑽石墜子' WHERE `item_id` = 12749;
-UPDATE `armor` SET `name` ='恩尼亞墜子' WHERE `item_id` = 12750;
-UPDATE `armor` SET `name` ='梭芷墜子' WHERE `item_id` = 12751;
-UPDATE `armor` SET `name` ='亞索沛墜子' WHERE `item_id` = 12752;
-UPDATE `armor` SET `name` ='黃金頭箍' WHERE `item_id` = 12766;
-UPDATE `armor` SET `name` ='白銀頭箍' WHERE `item_id` = 12767;
-UPDATE `armor` SET `name` ='壺精封印手鐲-小天使' WHERE `item_id` = 12779;
-UPDATE `armor` SET `name` ='壺精封印手鐲-小惡魔' WHERE `item_id` = 12780;
-UPDATE `armor` SET `name` ='豺狼帽' WHERE `item_id` = 12781;
-UPDATE `armor` SET `name` ='戰鬥貓帽 限時30日' WHERE `item_id` = 12782;
-UPDATE `armor` SET `name` ='皇后貓帽 限時30日' WHERE `item_id` = 12783;
-UPDATE `armor` SET `name` ='螞蟻帽' WHERE `item_id` = 12784;
-UPDATE `armor` SET `name` ='狼帽' WHERE `item_id` = 12785;
-UPDATE `armor` SET `name` ='眼怪帽 限時30日' WHERE `item_id` = 12786;
-UPDATE `armor` SET `name` ='棕熊帽 限時30日' WHERE `item_id` = 12787;
-UPDATE `armor` SET `name` ='蘑菇帽 限時30日' WHERE `item_id` = 12788;
-UPDATE `armor` SET `name` ='骷髏帽 限時30日' WHERE `item_id` = 12789;
-UPDATE `armor` SET `name` ='似鳥龍帽 限時30日' WHERE `item_id` = 12790;
-UPDATE `armor` SET `name` ='國王貓帽 限時30日' WHERE `item_id` = 12791;
-UPDATE `armor` SET `name` ='銀色貓帽 限時30日' WHERE `item_id` = 12792;
-UPDATE `armor` SET `name` ='祕儀符印' WHERE `item_id` = 12811;
-UPDATE `armor` SET `name` ='王朝符印' WHERE `item_id` = 12812;
-UPDATE `armor` SET `name` ='薄暮符印' WHERE `item_id` = 12813;
-UPDATE `armor` SET `name` ='赤色護身符-最大CP' WHERE `item_id` = 12815;
-UPDATE `armor` SET `name` ='赤色護身符-CP恢復量' WHERE `item_id` = 12816;
-UPDATE `armor` SET `name` ='黃色護身符-力量提升' WHERE `item_id` = 12817;
-UPDATE `armor` SET `name` ='黃色護身符-傷害轉移' WHERE `item_id` = 12818;
-UPDATE `armor` SET `name` ='幻象裝備-熊熊帽' WHERE `item_id` = 12835;
-UPDATE `armor` SET `name` ='幻象裝備-豬豬帽' WHERE `item_id` = 12836;
-UPDATE `armor` SET `name` ='幻象裝備-小丑帽' WHERE `item_id` = 12837;
-UPDATE `armor` SET `name` ='魚帽-活動用' WHERE `item_id` = 12838;
-UPDATE `armor` SET `name` ='中世紀舞會面具-活動用' WHERE `item_id` = 12839;
-UPDATE `armor` SET `name` ='夏隆頭盔 輕裝用' WHERE `item_id` = 12978;
-UPDATE `armor` SET `name` ='夏隆頭盔 長袍用' WHERE `item_id` = 12979;
-UPDATE `armor` SET `name` ='阿巴敦頭箍 輕裝用' WHERE `item_id` = 12980;
-UPDATE `armor` SET `name` ='阿巴敦頭箍 長袍用' WHERE `item_id` = 12981;
-UPDATE `armor` SET `name` ='末日頭盔 輕裝用' WHERE `item_id` = 12982;
-UPDATE `armor` SET `name` ='末日頭盔 長袍用' WHERE `item_id` = 12983;
-UPDATE `armor` SET `name` ='青狼頭盔 輕裝用' WHERE `item_id` = 12984;
-UPDATE `armor` SET `name` ='青狼頭盔 長袍用' WHERE `item_id` = 12985;
-UPDATE `armor` SET `name` ='黑暗水晶頭盔 輕裝用' WHERE `item_id` = 12986;
-UPDATE `armor` SET `name` ='黑暗水晶頭盔 長袍用' WHERE `item_id` = 12987;
-UPDATE `armor` SET `name` ='塔魯帽 輕裝用' WHERE `item_id` = 12988;
-UPDATE `armor` SET `name` ='塔魯帽 長袍用' WHERE `item_id` = 12989;
-UPDATE `armor` SET `name` ='聖威頭箍 輕裝用' WHERE `item_id` = 12990;
-UPDATE `armor` SET `name` ='聖威頭箍 長袍用' WHERE `item_id` = 12991;
-UPDATE `armor` SET `name` ='夢魘頭盔 輕裝用' WHERE `item_id` = 12992;
-UPDATE `armor` SET `name` ='夢魘頭盔 長袍用' WHERE `item_id` = 12993;
-UPDATE `armor` SET `name` ='封印的黑暗水晶頭盔 輕裝用' WHERE `item_id` = 12994;
-UPDATE `armor` SET `name` ='封印的黑暗水晶頭盔 長袍用' WHERE `item_id` = 12995;
-UPDATE `armor` SET `name` ='封印的塔魯帽 輕裝用' WHERE `item_id` = 12996;
-UPDATE `armor` SET `name` ='封印的塔魯帽 長袍用' WHERE `item_id` = 12997;
-UPDATE `armor` SET `name` ='封印的聖威頭箍 輕裝用' WHERE `item_id` = 12998;
-UPDATE `armor` SET `name` ='封印的聖威頭箍 長袍用' WHERE `item_id` = 12999;
-UPDATE `armor` SET `name` ='封印的夢魘頭盔 輕裝用' WHERE `item_id` = 13000;
-UPDATE `armor` SET `name` ='封印的夢魘頭盔 長袍用' WHERE `item_id` = 13001;
-UPDATE `armor` SET `name` ='淡紫鬃馬騎乘手鐲 限時7日' WHERE `item_id` = 13022;
-UPDATE `armor` SET `name` ='愛心壺精 限時30日' WHERE `item_id` = 13023;
-UPDATE `armor` SET `name` ='怒氣壺精 限時30日' WHERE `item_id` = 13024;
-UPDATE `armor` SET `name` ='開心壺精 限時30日' WHERE `item_id` = 13025;
-UPDATE `armor` SET `name` ='嗚咽壺精 限時30日' WHERE `item_id` = 13026;
-UPDATE `armor` SET `name` ='底格里斯專用防具' WHERE `item_id` = 13050;
-UPDATE `armor` SET `name` ='賽勒諾斯頭飾' WHERE `item_id` = 13058;
-UPDATE `armor` SET `name` ='幻象裝備-魔術師帽' WHERE `item_id` = 13074;
-UPDATE `armor` SET `name` ='幻象裝備-黑色面具' WHERE `item_id` = 13075;
-UPDATE `armor` SET `name` ='幻象裝備-蜻蜓護目鏡' WHERE `item_id` = 13076;
-UPDATE `armor` SET `name` ='祕儀符印' WHERE `item_id` = 13078;
-UPDATE `armor` SET `name` ='薄暮頭盔' WHERE `item_id` = 13137;
-UPDATE `armor` SET `name` ='薄暮皮頭盔' WHERE `item_id` = 13138;
-UPDATE `armor` SET `name` ='薄暮頭箍' WHERE `item_id` = 13139;
-UPDATE `armor` SET `name` ='薄暮貴族頭盔' WHERE `item_id` = 13140;
-UPDATE `armor` SET `name` ='薄暮貴族皮頭盔' WHERE `item_id` = 13141;
-UPDATE `armor` SET `name` ='薄暮貴族頭箍' WHERE `item_id` = 13142;
-UPDATE `armor` SET `name` ='封印的薄暮頭盔' WHERE `item_id` = 13143;
-UPDATE `armor` SET `name` ='封印的薄暮皮頭盔' WHERE `item_id` = 13144;
-UPDATE `armor` SET `name` ='封印的薄暮頭箍' WHERE `item_id` = 13145;
-UPDATE `armor` SET `name` ='封印的薄暮貴族頭盔' WHERE `item_id` = 13146;
-UPDATE `armor` SET `name` ='封印的薄暮貴族皮頭盔' WHERE `item_id` = 13147;
-UPDATE `armor` SET `name` ='封印的薄暮貴族頭箍' WHERE `item_id` = 13148;
-UPDATE `armor` SET `name` ='巴瑞卡卡輪(巴瑞卡賽勒諾斯用)' WHERE `item_id` = 13234;
-UPDATE `armor` SET `name` ='肯特拉卡輪(肯特拉獸人用)' WHERE `item_id` = 13235;
-UPDATE `armor` SET `name` ='奧歐卡輪' WHERE `item_id` = 13236;
-UPDATE `armor` SET `name` ='奧爾卡輪' WHERE `item_id` = 13237;
-UPDATE `armor` SET `name` ='奧耶卡輪' WHERE `item_id` = 13238;
-UPDATE `armor` SET `name` ='戰鬥貓帽 限時7日' WHERE `item_id` = 13239;
-UPDATE `armor` SET `name` ='皇后貓帽 限時7日' WHERE `item_id` = 13240;
-UPDATE `armor` SET `name` ='眼怪帽 限時7日' WHERE `item_id` = 13241;
-UPDATE `armor` SET `name` ='棕熊帽 限時7日' WHERE `item_id` = 13242;
-UPDATE `armor` SET `name` ='蘑菇帽 限時7日' WHERE `item_id` = 13243;
-UPDATE `armor` SET `name` ='骷髏帽 限時7日' WHERE `item_id` = 13244;
-UPDATE `armor` SET `name` ='似鳥龍帽 限時7日' WHERE `item_id` = 13245;
-UPDATE `armor` SET `name` ='國王貓帽 限時7日' WHERE `item_id` = 13246;
-UPDATE `armor` SET `name` ='銀色貓帽 限時7日' WHERE `item_id` = 13247;
-UPDATE `armor` SET `name` ='愛心壺精 限時7日' WHERE `item_id` = 13254;
-UPDATE `armor` SET `name` ='格蘭肯的鳴響鞋 限時10小時' WHERE `item_id` = 13260;
-UPDATE `armor` SET `name` ='菲拉卡耳環' WHERE `item_id` = 13293;
-UPDATE `armor` SET `name` ='菲拉卡戒指' WHERE `item_id` = 13294;
-UPDATE `armor` SET `name` ='菲拉卡手鐲' WHERE `item_id` = 13295;
-UPDATE `armor` SET `name` ='菲拉卡衫' WHERE `item_id` = 13296;
-UPDATE `armor` SET `name` ='淡紫鬃馬騎乘手鐲-活動用 限時7日' WHERE `item_id` = 13308;
-UPDATE `armor` SET `name` ='愛心壺精-活動用 限時30日' WHERE `item_id` = 13309;
-UPDATE `armor` SET `name` ='戰鬥貓帽-活動用 限時30日' WHERE `item_id` = 13310;
-UPDATE `armor` SET `name` ='皇后貓帽-活動用 限時30日' WHERE `item_id` = 13311;
-UPDATE `armor` SET `name` ='眼怪帽-活動用 限時30日' WHERE `item_id` = 13312;
-UPDATE `armor` SET `name` ='棕熊帽-活動用 限時30日' WHERE `item_id` = 13313;
-UPDATE `armor` SET `name` ='蘑菇帽-活動用 限時30日' WHERE `item_id` = 13314;
-UPDATE `armor` SET `name` ='骷髏帽-活動用 限時30日' WHERE `item_id` = 13315;
-UPDATE `armor` SET `name` ='似鳥龍帽-活動用 限時30日' WHERE `item_id` = 13316;
-UPDATE `armor` SET `name` ='國王貓帽-活動用 限時30日' WHERE `item_id` = 13317;
-UPDATE `armor` SET `name` ='銀色貓帽-活動用 限時30日' WHERE `item_id` = 13318;
-UPDATE `armor` SET `name` ='戰鬥貓帽-活動用 限時7日' WHERE `item_id` = 13325;
-UPDATE `armor` SET `name` ='皇后貓帽-活動用 限時7日' WHERE `item_id` = 13326;
-UPDATE `armor` SET `name` ='眼怪帽-活動用 限時7日' WHERE `item_id` = 13327;
-UPDATE `armor` SET `name` ='棕熊帽-活動用 限時7日' WHERE `item_id` = 13328;
-UPDATE `armor` SET `name` ='蘑菇帽-活動用 限時7日' WHERE `item_id` = 13329;
-UPDATE `armor` SET `name` ='骷髏帽-活動用 限時7日' WHERE `item_id` = 13330;
-UPDATE `armor` SET `name` ='似鳥龍帽-活動用 限時7日' WHERE `item_id` = 13331;
-UPDATE `armor` SET `name` ='國王貓帽-活動用 限時7日' WHERE `item_id` = 13332;
-UPDATE `armor` SET `name` ='銀色貓帽-活動用 限時7日' WHERE `item_id` = 13333;
-UPDATE `armor` SET `name` ='愛心壺精-活動用 限時7日' WHERE `item_id` = 13340;
-UPDATE `armor` SET `name` ='柯雷塔鱗片襯衫 CP' WHERE `item_id` = 13389;
-UPDATE `armor` SET `name` ='柯雷塔米索莉襯衫 CP' WHERE `item_id` = 13390;
-UPDATE `armor` SET `name` ='柯雷塔條紋鱗片襯衫 CP' WHERE `item_id` = 13391;
-UPDATE `armor` SET `name` ='柯雷塔條紋米索莉襯衫 CP' WHERE `item_id` = 13392;
-UPDATE `armor` SET `name` ='幻象裝備-猴子帽' WHERE `item_id` = 13393;
-UPDATE `armor` SET `name` ='幻象裝備-豬仔帽' WHERE `item_id` = 13394;
-UPDATE `armor` SET `name` ='青蛙帽' WHERE `item_id` = 13415;
-UPDATE `armor` SET `name` ='弱雞帽' WHERE `item_id` = 13416;
-UPDATE `armor` SET `name` ='熊熊帽-活動用' WHERE `item_id` = 13429;
-UPDATE `armor` SET `name` ='豬豬帽-活動用' WHERE `item_id` = 13430;
-UPDATE `armor` SET `name` ='小丑帽-活動用' WHERE `item_id` = 13431;
-UPDATE `armor` SET `name` ='薄暮胸甲' WHERE `item_id` = 13432;
-UPDATE `armor` SET `name` ='薄暮皮胸甲' WHERE `item_id` = 13433;
-UPDATE `armor` SET `name` ='薄暮外衣' WHERE `item_id` = 13434;
-UPDATE `armor` SET `name` ='薄暮貴族胸甲' WHERE `item_id` = 13435;
-UPDATE `armor` SET `name` ='薄暮貴族皮胸甲' WHERE `item_id` = 13436;
-UPDATE `armor` SET `name` ='薄暮貴族外衣' WHERE `item_id` = 13437;
-UPDATE `armor` SET `name` ='薄暮脛甲' WHERE `item_id` = 13438;
-UPDATE `armor` SET `name` ='薄暮護手' WHERE `item_id` = 13439;
-UPDATE `armor` SET `name` ='薄暮靴' WHERE `item_id` = 13440;
-UPDATE `armor` SET `name` ='薄暮皮脛甲' WHERE `item_id` = 13441;
-UPDATE `armor` SET `name` ='薄暮皮手套' WHERE `item_id` = 13442;
-UPDATE `armor` SET `name` ='薄暮皮靴' WHERE `item_id` = 13443;
-UPDATE `armor` SET `name` ='薄暮長襪' WHERE `item_id` = 13444;
-UPDATE `armor` SET `name` ='薄暮手套' WHERE `item_id` = 13445;
-UPDATE `armor` SET `name` ='薄暮鞋' WHERE `item_id` = 13446;
-UPDATE `armor` SET `name` ='薄暮貴族脛甲' WHERE `item_id` = 13448;
-UPDATE `armor` SET `name` ='薄暮貴族護手' WHERE `item_id` = 13449;
-UPDATE `armor` SET `name` ='薄暮貴族靴' WHERE `item_id` = 13450;
-UPDATE `armor` SET `name` ='薄暮貴族皮脛甲' WHERE `item_id` = 13451;
-UPDATE `armor` SET `name` ='薄暮貴族皮手套' WHERE `item_id` = 13452;
-UPDATE `armor` SET `name` ='薄暮貴族皮靴' WHERE `item_id` = 13453;
-UPDATE `armor` SET `name` ='薄暮貴族長襪' WHERE `item_id` = 13454;
-UPDATE `armor` SET `name` ='薄暮貴族手套' WHERE `item_id` = 13455;
-UPDATE `armor` SET `name` ='薄暮貴族鞋' WHERE `item_id` = 13456;
-UPDATE `armor` SET `name` ='因納得立勇猛頭箍' WHERE `item_id` = 13472;
-UPDATE `armor` SET `name` ='亞丁 勇猛頭箍' WHERE `item_id` = 13473;
-UPDATE `armor` SET `name` ='狄恩 勇猛頭箍' WHERE `item_id` = 13474;
-UPDATE `armor` SET `name` ='狄恩 射手頭箍' WHERE `item_id` = 13475;
-UPDATE `armor` SET `name` ='因納得立 射手頭箍' WHERE `item_id` = 13476;
-UPDATE `armor` SET `name` ='歐瑞 射手頭箍' WHERE `item_id` = 13477;
-UPDATE `armor` SET `name` ='古魯丁 賢者頭箍' WHERE `item_id` = 13478;
-UPDATE `armor` SET `name` ='魯因 賢者頭箍' WHERE `item_id` = 13479;
-UPDATE `armor` SET `name` ='奇岩 賢者頭箍' WHERE `item_id` = 13480;
-UPDATE `armor` SET `name` ='高達特 鬥爭頭箍' WHERE `item_id` = 13481;
-UPDATE `armor` SET `name` ='修加特 鬥爭頭箍' WHERE `item_id` = 13482;
-UPDATE `armor` SET `name` ='歐瑞 鬥爭頭箍' WHERE `item_id` = 13483;
-UPDATE `armor` SET `name` ='古魯丁 寧靜頭箍' WHERE `item_id` = 13484;
-UPDATE `armor` SET `name` ='修加特 寧靜頭箍' WHERE `item_id` = 13485;
-UPDATE `armor` SET `name` ='亞丁 寧靜頭箍' WHERE `item_id` = 13486;
-UPDATE `armor` SET `name` ='魯因 寧靜頭箍' WHERE `item_id` = 13487;
-UPDATE `armor` SET `name` ='生日帽' WHERE `item_id` = 13488;
-UPDATE `armor` SET `name` ='萬聖節帽' WHERE `item_id` = 13489;
-UPDATE `armor` SET `name` ='穿箭蘋果' WHERE `item_id` = 13490;
-UPDATE `armor` SET `name` ='凸眼' WHERE `item_id` = 13491;
-UPDATE `armor` SET `name` ='學士帽' WHERE `item_id` = 13492;
-UPDATE `armor` SET `name` ='時髦嘉年華頭箍' WHERE `item_id` = 13493;
-UPDATE `armor` SET `name` ='時髦天使戒指' WHERE `item_id` = 13494;
-UPDATE `armor` SET `name` ='時髦惡魔的角' WHERE `item_id` = 13495;
-UPDATE `armor` SET `name` ='時髦船長帽' WHERE `item_id` = 13496;
-UPDATE `armor` SET `name` ='時髦小雞帽' WHERE `item_id` = 13497;
-UPDATE `armor` SET `name` ='時髦法師帽' WHERE `item_id` = 13498;
-UPDATE `armor` SET `name` ='時髦小丑帽' WHERE `item_id` = 13499;
-UPDATE `armor` SET `name` ='時髦黑羽假面' WHERE `item_id` = 13500;
-UPDATE `armor` SET `name` ='時髦浪漫圓帽' WHERE `item_id` = 13501;
-UPDATE `armor` SET `name` ='時髦嘉年華頭箍' WHERE `item_id` = 13502;
-UPDATE `armor` SET `name` ='時髦中世紀舞會面具' WHERE `item_id` = 13503;
-UPDATE `armor` SET `name` ='時髦花花公子帽' WHERE `item_id` = 13504;
-UPDATE `armor` SET `name` ='時髦魚帽' WHERE `item_id` = 13505;
-UPDATE `armor` SET `name` ='進階型城主的王冠' WHERE `item_id` = 13506;
-UPDATE `armor` SET `name` ='火焰頭箍' WHERE `item_id` = 13507;
-UPDATE `armor` SET `name` ='結冰頭箍' WHERE `item_id` = 13508;
-UPDATE `armor` SET `name` ='暴風頭箍' WHERE `item_id` = 13509;
-UPDATE `armor` SET `name` ='震盪頭箍' WHERE `item_id` = 13510;
-UPDATE `armor` SET `name` ='黑暗頭箍' WHERE `item_id` = 13511;
-UPDATE `armor` SET `name` ='輝煌頭箍' WHERE `item_id` = 13512;
-UPDATE `armor` SET `name` ='採礦帽' WHERE `item_id` = 13513;
-UPDATE `armor` SET `name` ='進階型採礦帽' WHERE `item_id` = 13514;
-UPDATE `armor` SET `name` ='探險帽' WHERE `item_id` = 13515;
-UPDATE `armor` SET `name` ='進階型探險帽' WHERE `item_id` = 13516;
-UPDATE `armor` SET `name` ='活動-狸帽' WHERE `item_id` = 13517;
-UPDATE `armor` SET `name` ='活動-魔術師帽' WHERE `item_id` = 13518;
-UPDATE `armor` SET `name` ='活動-黑色面具' WHERE `item_id` = 13519;
-UPDATE `armor` SET `name` ='活動-珍島犬帽' WHERE `item_id` = 13520;
-UPDATE `armor` SET `name` ='活動-獅子狗帽' WHERE `item_id` = 13521;
-UPDATE `armor` SET `name` ='活動-蜻蜓護目鏡' WHERE `item_id` = 13522;
-UPDATE `armor` SET `name` ='活動-天堂紀念頭箍' WHERE `item_id` = 13523;
-UPDATE `armor` SET `name` ='測試皮帶' WHERE `item_id` = 13526;
-UPDATE `armor` SET `name` ='測試斗篷' WHERE `item_id` = 13527;
-UPDATE `armor` SET `name` ='測試符印' WHERE `item_id` = 13529;
-UPDATE `armor` SET `name` ='壺精召喚手鐲-採集' WHERE `item_id` = 13543;
-UPDATE `armor` SET `name` ='壺精召喚手鐲-男生泰迪熊' WHERE `item_id` = 13544;
-UPDATE `armor` SET `name` ='壺精召喚手鐲-女生泰迪熊' WHERE `item_id` = 13545;
-UPDATE `armor` SET `name` ='蒸汽甲蟲騎乘手鐲' WHERE `item_id` = 13546;
-UPDATE `armor` SET `name` ='黃鬃獅子騎乘手鐲' WHERE `item_id` = 13547;
-UPDATE `armor` SET `name` ='騎士斗篷' WHERE `item_id` = 13687;
-UPDATE `armor` SET `name` ='騎士斗篷-輕裝備專用' WHERE `item_id` = 13688;
-UPDATE `armor` SET `name` ='騎士斗篷-長袍裝專用' WHERE `item_id` = 13689;
-UPDATE `armor` SET `name` ='騎士斗篷-闇天使專用' WHERE `item_id` = 13690;
-UPDATE `armor` SET `name` ='古魯丁 水的守護項鍊' WHERE `item_id` = 13740;
-UPDATE `armor` SET `name` ='狄恩 聖的守護項鍊' WHERE `item_id` = 13741;
-UPDATE `armor` SET `name` ='奇岩 風的守護項鍊' WHERE `item_id` = 13742;
-UPDATE `armor` SET `name` ='歐瑞 暗的守護項鍊' WHERE `item_id` = 13743;
-UPDATE `armor` SET `name` ='亞丁 地的守護項鍊' WHERE `item_id` = 13744;
-UPDATE `armor` SET `name` ='因納得立 水的守護項鍊' WHERE `item_id` = 13745;
-UPDATE `armor` SET `name` ='高達特 火的守護項鍊' WHERE `item_id` = 13746;
-UPDATE `armor` SET `name` ='魯因 火的守護項鍊' WHERE `item_id` = 13747;
-UPDATE `armor` SET `name` ='修加特 風的守護項鍊' WHERE `item_id` = 13748;
-UPDATE `armor` SET `name` ='勇士的T恤' WHERE `item_id` = 13751;
-UPDATE `armor` SET `name` ='奧林匹亞勇士的戒指' WHERE `item_id` = 13752;
-UPDATE `armor` SET `name` ='奧林匹亞勇士的項鍊' WHERE `item_id` = 13753;
-UPDATE `armor` SET `name` ='奧林匹亞勇士的耳環' WHERE `item_id` = 13754;
-UPDATE `armor` SET `name` ='壺精召喚手鐲-騎士' WHERE `item_id` = 13756;
-UPDATE `armor` SET `name` ='原住民的頭巾' WHERE `item_id` = 13802;
-UPDATE `armor` SET `name` ='原住民的上衣' WHERE `item_id` = 13803;
-UPDATE `armor` SET `name` ='原住民的下衣' WHERE `item_id` = 13804;
-UPDATE `armor` SET `name` ='黎明警衛隊員的頭盔' WHERE `item_id` = 13805;
-UPDATE `armor` SET `name` ='黎明警衛隊員的上衣' WHERE `item_id` = 13806;
-UPDATE `armor` SET `name` ='黎明警衛隊員的下衣' WHERE `item_id` = 13807;
-UPDATE `armor` SET `name` ='封印的祕儀符印' WHERE `item_id` = 13885;
-UPDATE `armor` SET `name` ='封印的王朝符印' WHERE `item_id` = 13886;
-UPDATE `armor` SET `name` ='封印的薄暮符印' WHERE `item_id` = 13887;
-UPDATE `armor` SET `name` ='封印的領主斗篷' WHERE `item_id` = 13888;
-UPDATE `armor` SET `name` ='聖靈斗篷-闇天使專用' WHERE `item_id` = 13889;
-UPDATE `armor` SET `name` ='聖靈斗篷' WHERE `item_id` = 13890;
-UPDATE `armor` SET `name` ='聖靈斗篷-輕裝備專用' WHERE `item_id` = 13891;
-UPDATE `armor` SET `name` ='聖靈斗篷-長袍裝專用' WHERE `item_id` = 13892;
-UPDATE `armor` SET `name` ='布腰帶' WHERE `item_id` = 13894;
-UPDATE `armor` SET `name` ='皮腰帶' WHERE `item_id` = 13895;
-UPDATE `armor` SET `name` ='鋼鐵腰帶' WHERE `item_id` = 13896;
-UPDATE `armor` SET `name` ='米索莉腰帶' WHERE `item_id` = 13897;
-UPDATE `armor` SET `name` ='下級魔法小袋布腰帶' WHERE `item_id` = 13938;
-UPDATE `armor` SET `name` ='普通魔法小袋布腰帶' WHERE `item_id` = 13939;
-UPDATE `armor` SET `name` ='上級魔法小袋布腰帶' WHERE `item_id` = 13940;
-UPDATE `armor` SET `name` ='特級魔法小袋布腰帶' WHERE `item_id` = 13941;
-UPDATE `armor` SET `name` ='下級魔法小袋皮腰帶' WHERE `item_id` = 13942;
-UPDATE `armor` SET `name` ='普通魔法小袋皮腰帶' WHERE `item_id` = 13943;
-UPDATE `armor` SET `name` ='上級魔法小袋皮腰帶' WHERE `item_id` = 13944;
-UPDATE `armor` SET `name` ='特級魔法小袋皮腰帶' WHERE `item_id` = 13945;
-UPDATE `armor` SET `name` ='下級魔法小袋鋼鐵腰帶' WHERE `item_id` = 13946;
-UPDATE `armor` SET `name` ='普通魔法小袋鋼鐵腰帶' WHERE `item_id` = 13947;
-UPDATE `armor` SET `name` ='上級魔法小袋鋼鐵腰帶' WHERE `item_id` = 13948;
-UPDATE `armor` SET `name` ='特級魔法小袋鋼鐵腰帶' WHERE `item_id` = 13949;
-UPDATE `armor` SET `name` ='下級魔法小袋米索莉腰帶' WHERE `item_id` = 13950;
-UPDATE `armor` SET `name` ='普通魔法小袋米索莉腰帶' WHERE `item_id` = 13951;
-UPDATE `armor` SET `name` ='上級魔法小袋米索莉腰帶' WHERE `item_id` = 13952;
-UPDATE `armor` SET `name` ='特級魔法小袋米索莉腰帶' WHERE `item_id` = 13953;
-UPDATE `armor` SET `name` ='下級魔法別針布腰帶' WHERE `item_id` = 13954;
-UPDATE `armor` SET `name` ='普通魔法別針布腰帶' WHERE `item_id` = 13955;
-UPDATE `armor` SET `name` ='上級魔法別針布腰帶' WHERE `item_id` = 13956;
-UPDATE `armor` SET `name` ='特級魔法別針布腰帶' WHERE `item_id` = 13957;
-UPDATE `armor` SET `name` ='下級魔法別針皮腰帶' WHERE `item_id` = 13958;
-UPDATE `armor` SET `name` ='普通魔法別針皮腰帶' WHERE `item_id` = 13959;
-UPDATE `armor` SET `name` ='上級魔法別針皮腰帶' WHERE `item_id` = 13960;
-UPDATE `armor` SET `name` ='特級魔法別針皮腰帶' WHERE `item_id` = 13961;
-UPDATE `armor` SET `name` ='下級魔法別針鋼鐵腰帶' WHERE `item_id` = 13962;
-UPDATE `armor` SET `name` ='普通魔法別針鋼鐵腰帶' WHERE `item_id` = 13963;
-UPDATE `armor` SET `name` ='上級魔法別針鋼鐵腰帶' WHERE `item_id` = 13964;
-UPDATE `armor` SET `name` ='特級魔法別針鋼鐵腰帶' WHERE `item_id` = 13965;
-UPDATE `armor` SET `name` ='下級魔法別針米索莉腰帶' WHERE `item_id` = 13966;
-UPDATE `armor` SET `name` ='普通魔法別針米索莉腰帶' WHERE `item_id` = 13967;
-UPDATE `armor` SET `name` ='上級魔法別針米索莉腰帶' WHERE `item_id` = 13968;
-UPDATE `armor` SET `name` ='特級魔法別針米索莉腰帶' WHERE `item_id` = 13969;
-UPDATE `armor` SET `name` ='毒瓶1' WHERE `item_id` = 13975;
-UPDATE `armor` SET `name` ='毒瓶2' WHERE `item_id` = 13976;
-UPDATE `armor` SET `name` ='毒瓶3' WHERE `item_id` = 13977;
-UPDATE `armor` SET `name` ='能量凝結裝置召喚手鐲' WHERE `item_id` = 14027;
-UPDATE `armor` SET `name` ='黃鬃獅子騎乘手鐲 限時7日' WHERE `item_id` = 14053;
-UPDATE `armor` SET `name` ='蒸汽甲蟲騎乘手鐲 限時7日' WHERE `item_id` = 14054;
-UPDATE `armor` SET `name` ='男生泰迪熊壺精手鐲 限時30日' WHERE `item_id` = 14059;
-UPDATE `armor` SET `name` ='女生泰迪熊壺精手鐲 限時30日' WHERE `item_id` = 14060;
-UPDATE `armor` SET `name` ='黃鬃獅子騎乘手鐲-活動用 限時7日' WHERE `item_id` = 14066;
-UPDATE `armor` SET `name` ='蒸汽甲蟲騎乘手鐲-活動用 限時7日' WHERE `item_id` = 14067;
-UPDATE `armor` SET `name` ='男生泰迪熊壺精手鐲-活動用 限時30日' WHERE `item_id` = 14072;
-UPDATE `armor` SET `name` ='女生泰迪熊壺精手鐲-活動用 限時30日' WHERE `item_id` = 14073;
-UPDATE `armor` SET `name` ='怒氣壺精-活動用 限時30日' WHERE `item_id` = 14075;
-UPDATE `armor` SET `name` ='開心壺精-活動用 限時30日' WHERE `item_id` = 14076;
-UPDATE `armor` SET `name` ='嗚咽壺精-活動用 限時30日' WHERE `item_id` = 14077;
-UPDATE `armor` SET `name` ='男生泰迪熊壺精手鐲 限時7日' WHERE `item_id` = 14091;
-UPDATE `armor` SET `name` ='女生泰迪熊壺精手鐲 限時7日' WHERE `item_id` = 14092;
-UPDATE `armor` SET `name` ='怒氣壺精 限時7日' WHERE `item_id` = 14093;
-UPDATE `armor` SET `name` ='開心壺精 限時7日' WHERE `item_id` = 14094;
-UPDATE `armor` SET `name` ='嗚咽壺精 限時7日' WHERE `item_id` = 14095;
-UPDATE `armor` SET `name` ='男生泰迪熊壺精手鐲-活動用 限時7日' WHERE `item_id` = 14099;
-UPDATE `armor` SET `name` ='女生泰迪熊壺精手鐲-活動用 限時7日' WHERE `item_id` = 14100;
-UPDATE `armor` SET `name` ='怒氣壺精-活動用 限時7日' WHERE `item_id` = 14101;
-UPDATE `armor` SET `name` ='開心壺精-活動用 限時7日' WHERE `item_id` = 14102;
-UPDATE `armor` SET `name` ='嗚咽壺精-活動用 限時7日' WHERE `item_id` = 14103;
-UPDATE `armor` SET `name` ='幻象裝備-能量凝結裝置召喚手鐲' WHERE `item_id` = 14104;
-UPDATE `armor` SET `name` ='封印的薄暮胸甲' WHERE `item_id` = 14105;
-UPDATE `armor` SET `name` ='封印的薄暮皮胸甲' WHERE `item_id` = 14106;
-UPDATE `armor` SET `name` ='封印的薄暮外衣' WHERE `item_id` = 14107;
-UPDATE `armor` SET `name` ='封印的薄暮脛甲' WHERE `item_id` = 14108;
-UPDATE `armor` SET `name` ='封印的薄暮護手' WHERE `item_id` = 14109;
-UPDATE `armor` SET `name` ='封印的薄暮靴' WHERE `item_id` = 14110;
-UPDATE `armor` SET `name` ='封印的薄暮皮脛甲' WHERE `item_id` = 14112;
-UPDATE `armor` SET `name` ='封印的薄暮皮手套' WHERE `item_id` = 14113;
-UPDATE `armor` SET `name` ='封印的薄暮皮靴' WHERE `item_id` = 14114;
-UPDATE `armor` SET `name` ='封印的薄暮長襪' WHERE `item_id` = 14115;
-UPDATE `armor` SET `name` ='封印的薄暮手套' WHERE `item_id` = 14116;
-UPDATE `armor` SET `name` ='封印的薄暮鞋' WHERE `item_id` = 14117;
-UPDATE `armor` SET `name` ='封印的薄暮耳環' WHERE `item_id` = 14160;
-UPDATE `armor` SET `name` ='封印的薄暮項鍊' WHERE `item_id` = 14161;
-UPDATE `armor` SET `name` ='封印的薄暮戒指' WHERE `item_id` = 14162;
-UPDATE `armor` SET `name` ='薄暮耳環' WHERE `item_id` = 14163;
-UPDATE `armor` SET `name` ='薄暮項鍊' WHERE `item_id` = 14164;
-UPDATE `armor` SET `name` ='薄暮戒指' WHERE `item_id` = 14165;
-UPDATE `armor` SET `name` ='薄暮胸甲 {對戰用}' WHERE `item_id` = 14520;
-UPDATE `armor` SET `name` ='薄暮皮胸甲 {對戰用}' WHERE `item_id` = 14521;
-UPDATE `armor` SET `name` ='薄暮外衣 {對戰用}' WHERE `item_id` = 14522;
-UPDATE `armor` SET `name` ='薄暮貴族胸甲 {對戰用}' WHERE `item_id` = 14523;
-UPDATE `armor` SET `name` ='薄暮貴族皮胸甲 {對戰用}' WHERE `item_id` = 14524;
-UPDATE `armor` SET `name` ='薄暮貴族外衣 {對戰用}' WHERE `item_id` = 14525;
-UPDATE `armor` SET `name` ='鬥爭阿貝拉頭盔' WHERE `item_id` = 14582;
-UPDATE `armor` SET `name` ='鬥爭阿貝拉盔甲' WHERE `item_id` = 14583;
-UPDATE `armor` SET `name` ='鬥爭阿貝拉護手 重裝用' WHERE `item_id` = 14584;
-UPDATE `armor` SET `name` ='鬥爭阿貝拉軍軍靴 重裝用' WHERE `item_id` = 14585;
-UPDATE `armor` SET `name` ='鬥爭阿貝拉軍禮服' WHERE `item_id` = 14586;
-UPDATE `armor` SET `name` ='鬥爭阿貝拉軍手套 輕裝用' WHERE `item_id` = 14587;
-UPDATE `armor` SET `name` ='鬥爭阿貝拉軍禮鞋 輕裝用' WHERE `item_id` = 14588;
-UPDATE `armor` SET `name` ='鬥爭阿貝拉軍長袍' WHERE `item_id` = 14589;
-UPDATE `armor` SET `name` ='鬥爭阿貝拉軍絲手套 長袍用' WHERE `item_id` = 14590;
-UPDATE `armor` SET `name` ='鬥爭阿貝拉軍涼鞋 長袍用' WHERE `item_id` = 14591;
-UPDATE `armor` SET `name` ='古魯丁 地的守護戒指' WHERE `item_id` = 14592;
-UPDATE `armor` SET `name` ='狄恩 水的守護戒指' WHERE `item_id` = 14593;
-UPDATE `armor` SET `name` ='奇岩 火的守護戒指' WHERE `item_id` = 14594;
-UPDATE `armor` SET `name` ='歐瑞 地的守護戒指' WHERE `item_id` = 14595;
-UPDATE `armor` SET `name` ='亞丁 聖的守護戒指' WHERE `item_id` = 14596;
-UPDATE `armor` SET `name` ='因納得立 聖的守護戒指' WHERE `item_id` = 14597;
-UPDATE `armor` SET `name` ='高達特 暗的守護戒指' WHERE `item_id` = 14598;
-UPDATE `armor` SET `name` ='魯因 風的守護戒指' WHERE `item_id` = 14599;
-UPDATE `armor` SET `name` ='修加特 暗的守護戒指' WHERE `item_id` = 14600;
-UPDATE `armor` SET `name` ='古代斗篷-闇天使專用 闇天使用' WHERE `item_id` = 14601;
-UPDATE `armor` SET `name` ='古代斗篷' WHERE `item_id` = 14602;
-UPDATE `armor` SET `name` ='赤色護身符-領地守護者' WHERE `item_id` = 14604;
-UPDATE `armor` SET `name` ='赤色護身符-領地護衛軍' WHERE `item_id` = 14605;
-UPDATE `armor` SET `name` ='古代斗篷-輕裝備專用' WHERE `item_id` = 14608;
-UPDATE `armor` SET `name` ='古代斗篷' WHERE `item_id` = 14609;
-UPDATE `armor` SET `name` ='古代斗篷-長袍裝專用' WHERE `item_id` = 14610;
-UPDATE `armor` SET `name` ='魯道夫之鼻' WHERE `item_id` = 14611;
-UPDATE `armor` SET `name` ='剪刀-石頭-布聖誕帽' WHERE `item_id` = 14613;
-UPDATE `armor` SET `name` ='壺精封印手鐲-魯道夫' WHERE `item_id` = 14617;
-UPDATE `armor` SET `name` ='古魯丁 守護耳環' WHERE `item_id` = 14664;
-UPDATE `armor` SET `name` ='狄恩 守護耳環' WHERE `item_id` = 14665;
-UPDATE `armor` SET `name` ='奇岩 守護耳環' WHERE `item_id` = 14666;
-UPDATE `armor` SET `name` ='歐瑞 守護耳環' WHERE `item_id` = 14667;
-UPDATE `armor` SET `name` ='亞丁 守護耳環' WHERE `item_id` = 14668;
-UPDATE `armor` SET `name` ='因納得立 守護耳環' WHERE `item_id` = 14669;
-UPDATE `armor` SET `name` ='高達特 守護耳環' WHERE `item_id` = 14670;
-UPDATE `armor` SET `name` ='魯因 守護耳環' WHERE `item_id` = 14671;
-UPDATE `armor` SET `name` ='修加特 守護耳環' WHERE `item_id` = 14672;
-UPDATE `armor` SET `name` ='壺精封印手鐲-新羅' WHERE `item_id` = 14675;
-UPDATE `armor` SET `name` ='牛牛帽' WHERE `item_id` = 14712;
-UPDATE `armor` SET `name` ='活動用-時髦小雞帽' WHERE `item_id` = 14746;
-UPDATE `armor` SET `name` ='活動用-時髦黑羽假面' WHERE `item_id` = 14747;
-UPDATE `armor` SET `name` ='活動用-時髦嘉年華頭箍' WHERE `item_id` = 14748;
-UPDATE `armor` SET `name` ='爆炸頭假髮' WHERE `item_id` = 14749;
-UPDATE `armor` SET `name` ='斗笠' WHERE `item_id` = 14750;
-UPDATE `armor` SET `name` ='伶俐眼鏡' WHERE `item_id` = 14751;
-UPDATE `armor` SET `name` ='活動用-中世紀舞會面具' WHERE `item_id` = 14752;
-UPDATE `armor` SET `name` ='幻象裝備-時髦小雞帽 返回' WHERE `item_id` = 14753;
-UPDATE `armor` SET `name` ='幻象裝備-時髦小雞帽 大頭' WHERE `item_id` = 14754;
-UPDATE `armor` SET `name` ='幻象裝備-時髦小雞帽 煙火' WHERE `item_id` = 14755;
-UPDATE `armor` SET `name` ='幻象裝備-時髦黑羽假面 返回' WHERE `item_id` = 14756;
-UPDATE `armor` SET `name` ='幻象裝備-時髦黑羽假面 大頭' WHERE `item_id` = 14757;
-UPDATE `armor` SET `name` ='幻象裝備-時髦黑羽假面 煙火' WHERE `item_id` = 14758;
-UPDATE `armor` SET `name` ='幻象裝備-時髦嘉年華頭箍 返回' WHERE `item_id` = 14759;
-UPDATE `armor` SET `name` ='幻象裝備-時髦嘉年華頭箍 大頭' WHERE `item_id` = 14760;
-UPDATE `armor` SET `name` ='幻象裝備-時髦嘉年華頭箍 煙火' WHERE `item_id` = 14761;
-UPDATE `armor` SET `name` ='幻象裝備-中世紀舞會面具 返回' WHERE `item_id` = 14762;
-UPDATE `armor` SET `name` ='幻象裝備-中世紀舞會面具 大頭' WHERE `item_id` = 14763;
-UPDATE `armor` SET `name` ='幻象裝備-中世紀舞會面具 煙火' WHERE `item_id` = 14764;
-UPDATE `armor` SET `name` ='戰鬥貓帽 限時14日' WHERE `item_id` = 14771;
-UPDATE `armor` SET `name` ='花冠' WHERE `item_id` = 14772;
-UPDATE `armor` SET `name` ='禮服 限時14日' WHERE `item_id` = 14773;
-UPDATE `armor` SET `name` ='壺精封印手鐲-愛心 限時14日' WHERE `item_id` = 14775;
-UPDATE `armor` SET `name` ='壺精封印手鐲-啾啾 限時14日' WHERE `item_id` = 14776;
-UPDATE `armor` SET `name` ='法國麵包符印' WHERE `item_id` = 14796;
-UPDATE `armor` SET `name` ='爆炸頭假髮-黑色' WHERE `item_id` = 14798;
-UPDATE `armor` SET `name` ='爆炸頭假髮-金色' WHERE `item_id` = 14799;
-UPDATE `armor` SET `name` ='爆炸頭假髮-粉紅色' WHERE `item_id` = 14800;
-UPDATE `armor` SET `name` ='壺精封印手鐲-媽祖' WHERE `item_id` = 20006;
-UPDATE `armor` SET `name` ='壺精封印手鐲-金面媽祖' WHERE `item_id` = 20007;
-UPDATE `armor` SET `name` ='壺精封印手鐲-黑面媽祖' WHERE `item_id` = 20008;
-UPDATE `armor` SET `name` ='壺精封印手鐲-媽祖 大頭-限時30日' WHERE `item_id` = 20009;
-UPDATE `armor` SET `name` ='壺精封印手鐲-金面媽祖 復活-限時30日' WHERE `item_id` = 20010;
-UPDATE `armor` SET `name` ='壺精封印手鐲-黑面媽祖 返回-限時30日' WHERE `item_id` = 20011;
-UPDATE `armor` SET `name` ='壺精封印手鐲-普萊皮塔' WHERE `item_id` = 20012;
-UPDATE `armor` SET `name` ='壺精封印手鐲-普萊皮塔 大頭-限時30日' WHERE `item_id` = 20013;
-UPDATE `armor` SET `name` ='壺精封印手鐲-普萊皮塔 復活-限時30日' WHERE `item_id` = 20014;
-UPDATE `armor` SET `name` ='壺精封印手鐲-普萊皮塔 返回-限時30日' WHERE `item_id` = 20015;
-UPDATE `armor` SET `name` ='粗框眼鏡 敏捷術' WHERE `item_id` = 20016;
-UPDATE `armor` SET `name` ='爆炸頭' WHERE `item_id` = 20017;
-UPDATE `armor` SET `name` ='爆炸頭 大頭，煙火' WHERE `item_id` = 20018;
-UPDATE `armor` SET `name` ='爆炸頭 風之疾走' WHERE `item_id` = 20019;
-UPDATE `armor` SET `name` ='制服帽' WHERE `item_id` = 20020;
-UPDATE `armor` SET `name` ='刺客斗笠' WHERE `item_id` = 20021;
-UPDATE `armor` SET `name` ='暴走族口罩' WHERE `item_id` = 20022;
-UPDATE `armor` SET `name` ='緞帶髮飾' WHERE `item_id` = 20023;
-UPDATE `armor` SET `name` ='白羽黃金假面' WHERE `item_id` = 20024;
-UPDATE `armor` SET `name` ='淡紫鬃馬騎乘手鐲' WHERE `item_id` = 20029;
-UPDATE `armor` SET `name` ='淡紫鬃馬騎乘手鐲 限時30日' WHERE `item_id` = 20030;
-UPDATE `armor` SET `name` ='戰鬥貓帽' WHERE `item_id` = 20031;
-UPDATE `armor` SET `name` ='骷髏帽' WHERE `item_id` = 20032;
-UPDATE `armor` SET `name` ='壺精封印手鐲-寶寶貓熊' WHERE `item_id` = 20063;
-UPDATE `armor` SET `name` ='壺精封印手鐲-團團貓熊' WHERE `item_id` = 20064;
-UPDATE `armor` SET `name` ='壺精封印手鐲-圓圓貓熊' WHERE `item_id` = 20065;
-UPDATE `armor` SET `name` ='壺精封印手鐲-寶寶貓熊 大頭-限時15日' WHERE `item_id` = 20066;
-UPDATE `armor` SET `name` ='壺精封印手鐲-團團貓熊 復活-限時15日' WHERE `item_id` = 20067;
-UPDATE `armor` SET `name` ='壺精封印手鐲-圓圓貓熊 返回-限時15日' WHERE `item_id` = 20068;
-UPDATE `armor` SET `name` ='爆炸頭 活力-限時3小時' WHERE `item_id` = 20083;
-UPDATE `armor` SET `name` ='爆炸頭 活力-限時3日' WHERE `item_id` = 20084;
-UPDATE `armor` SET `name` ='爆炸頭 活力-限時30日' WHERE `item_id` = 20085;
-UPDATE `armor` SET `name` ='粗框眼鏡 活力-限時3小時' WHERE `item_id` = 20086;
-UPDATE `armor` SET `name` ='粗框眼鏡 活力-限時3日' WHERE `item_id` = 20087;
-UPDATE `armor` SET `name` ='粗框眼鏡 活力-限時30日' WHERE `item_id` = 20088;
-UPDATE `armor` SET `name` ='刺客斗笠 活力-限時3小時' WHERE `item_id` = 20089;
-UPDATE `armor` SET `name` ='刺客斗笠 活力-限時3日' WHERE `item_id` = 20090;
-UPDATE `armor` SET `name` ='刺客斗笠 活力-限時30日' WHERE `item_id` = 20091;
-UPDATE `armor` SET `name` ='壺精封印手鐲-魯道夫 活力-限時30日' WHERE `item_id` = 20094;
-UPDATE `armor` SET `name` ='聖誕鹿角帽' WHERE `item_id` = 20095;
-UPDATE `armor` SET `name` ='禮服-活動 1小時幻象' WHERE `item_id` = 20098;
-UPDATE `armor` SET `name` ='禮服-活動 限時7日' WHERE `item_id` = 20099;
-UPDATE `armor` SET `name` ='剪刀-石頭-布聖誕帽 限時24小時' WHERE `item_id` = 20100;
-UPDATE `armor` SET `name` ='壺精封印手鐲-愛心 活力-限時3日' WHERE `item_id` = 20200;
-UPDATE `armor` SET `name` ='壺精封印手鐲-愛心 活力-限時7日' WHERE `item_id` = 20201;
-UPDATE `armor` SET `name` ='壺精封印手鐲-愛心 活力-限時15日' WHERE `item_id` = 20202;
-UPDATE `armor` SET `name` ='壺精封印手鐲-愛心 活力-限時30日' WHERE `item_id` = 20203;
-UPDATE `armor` SET `name` ='巨蟻女王戒指-活動 限時3日' WHERE `item_id` = 20204;
-UPDATE `armor` SET `name` ='巨蟻女王戒指-活動 限時7日' WHERE `item_id` = 20205;
-UPDATE `armor` SET `name` ='巨蟻女王戒指-活動 限時15日' WHERE `item_id` = 20206;
-UPDATE `armor` SET `name` ='札肯耳環-活動 限時3日' WHERE `item_id` = 20207;
-UPDATE `armor` SET `name` ='札肯耳環-活動 限時7日' WHERE `item_id` = 20208;
-UPDATE `armor` SET `name` ='札肯耳環-活動 限時15日' WHERE `item_id` = 20209;
-UPDATE `armor` SET `name` ='壺精封印手鐲-白色邱比特' WHERE `item_id` = 20212;
-UPDATE `armor` SET `name` ='壺精封印手鐲-黑色邱比特' WHERE `item_id` = 20213;
-UPDATE `armor` SET `name` ='壺精封印手鐲-白色招財貓' WHERE `item_id` = 20221;
-UPDATE `armor` SET `name` ='壺精封印手鐲-黑色招財貓' WHERE `item_id` = 20222;
-UPDATE `armor` SET `name` ='壺精封印手鐲-棕色招財貓' WHERE `item_id` = 20223;
-UPDATE `armor` SET `name` ='壺精封印手鐲-白色招財貓 復活-限時7日' WHERE `item_id` = 20224;
-UPDATE `armor` SET `name` ='壺精封印手鐲-黑色招財貓 返回-限時7日' WHERE `item_id` = 20225;
-UPDATE `armor` SET `name` ='壺精封印手鐲-棕色招財貓 活力-限時7日' WHERE `item_id` = 20226;
-UPDATE `armor` SET `name` ='壺精封印手鐲-獨眼蝙蝠群' WHERE `item_id` = 20230;
-UPDATE `armor` SET `name` ='壺精封印手鐲-獨眼蝙蝠群 暗之防護-限時7日' WHERE `item_id` = 20231;
-UPDATE `armor` SET `name` ='壺精封印手鐲-獨眼蝙蝠群 活力-限時7日' WHERE `item_id` = 20232;
-UPDATE `armor` SET `name` ='壺精封印手鐲-飛馬' WHERE `item_id` = 20236;
-UPDATE `armor` SET `name` ='壺精封印手鐲-飛馬 風之疾走-限時7日' WHERE `item_id` = 20237;
-UPDATE `armor` SET `name` ='壺精封印手鐲-飛馬 返回-限時7日' WHERE `item_id` = 20238;
-UPDATE `armor` SET `name` ='壺精封印手鐲-黃衣土地公' WHERE `item_id` = 20245;
-UPDATE `armor` SET `name` ='壺精封印手鐲-藍衣土地公' WHERE `item_id` = 20246;
-UPDATE `armor` SET `name` ='壺精封印手鐲-綠衣土地公' WHERE `item_id` = 20247;
-UPDATE `armor` SET `name` ='壺精封印手鐲-黃衣土地公 終極治癒術-限時7日' WHERE `item_id` = 20248;
-UPDATE `armor` SET `name` ='壺精封印手鐲-藍衣土地公 還擊-限時7日' WHERE `item_id` = 20249;
-UPDATE `armor` SET `name` ='壺精封印手鐲-綠衣土地公 魔力再生-限時7日' WHERE `item_id` = 20250;
-UPDATE `armor` SET `name` ='壺精封印手鐲-食人妖' WHERE `item_id` = 20252;
-UPDATE `armor` SET `name` ='愛心壺精-活動' WHERE `item_id` = 20253;
-UPDATE `armor` SET `name` ='爆炸頭-金色' WHERE `item_id` = 20275;
-UPDATE `armor` SET `name` ='爆炸頭-粉紅色' WHERE `item_id` = 20276;
-UPDATE `armor` SET `name` ='壺精封印手鐲-紅色相撲選手' WHERE `item_id` = 20297;
-UPDATE `armor` SET `name` ='壺精封印手鐲-紅色相撲選手 死之呢喃-限時7日' WHERE `item_id` = 20298;
-UPDATE `armor` SET `name` ='壺精封印手鐲-藍色相撲選手' WHERE `item_id` = 20299;
-UPDATE `armor` SET `name` ='壺精封印手鐲-藍色相撲選手 野性魔力-限時7日' WHERE `item_id` = 20300;
-UPDATE `armor` SET `name` ='壺精封印手鐲-相撲大決鬥' WHERE `item_id` = 20301;
-UPDATE `armor` SET `name` ='壺精封印手鐲-相撲大決鬥 大頭 / 煙火-限時7日' WHERE `item_id` = 20302;
-UPDATE `armor` SET `name` ='壺精封印手鐲-玩偶熊' WHERE `item_id` = 20303;
-UPDATE `armor` SET `name` ='壺精封印手鐲-玩偶熊 返回-限時7日' WHERE `item_id` = 20304;
-UPDATE `armor` SET `name` ='壺精封印手鐲-玩偶熊 復活-限時7日' WHERE `item_id` = 20305;
-UPDATE `armor` SET `name` ='壺精封印手鐲-玩偶熊 活力-限時7日' WHERE `item_id` = 20306;
-UPDATE `armor` SET `name` ='壺精封印手鐲-財神爺' WHERE `item_id` = 20307;
-UPDATE `armor` SET `name` ='壺精封印手鐲-財神爺 活力-限時7日' WHERE `item_id` = 20308;
-UPDATE `armor` SET `name` ='壺精封印手鐲-樹精' WHERE `item_id` = 20309;
-UPDATE `armor` SET `name` ='壺精封印手鐲-元寶牛' WHERE `item_id` = 20310;
-UPDATE `armor` SET `name` ='壺精封印手鐲-元寶牛 風之疾走-限時7日' WHERE `item_id` = 20311;
-UPDATE `armor` SET `name` ='壺精封印手鐲-吉利牛' WHERE `item_id` = 20312;
-UPDATE `armor` SET `name` ='壺精封印手鐲-吉利牛 拜年禮物-限時7日' WHERE `item_id` = 20313;
-UPDATE `armor` SET `name` ='護目鏡' WHERE `item_id` = 20321;
-UPDATE `armor` SET `name` ='拿破崙帽' WHERE `item_id` = 20322;
-UPDATE `armor` SET `name` ='牛角髮飾' WHERE `item_id` = 20323;
-UPDATE `armor` SET `name` ='黑寶石面具' WHERE `item_id` = 20324;
-UPDATE `armor` SET `name` ='塑膠假髮' WHERE `item_id` = 20325;
-UPDATE `armor` SET `name` ='蒸汽甲蟲騎乘手鐲' WHERE `item_id` = 20396;
-UPDATE `armor` SET `name` ='勤勞者帽子 神佑之體-限時7日' WHERE `item_id` = 20399;
-UPDATE `armor` SET `name` ='勤勞者帽子 神佑之魂-限時7日' WHERE `item_id` = 20400;
-UPDATE `armor` SET `name` ='勤勞者帽子' WHERE `item_id` = 20401;
-UPDATE `armor` SET `name` ='壺精封印手鐲-金面媽祖 復活-限時7日' WHERE `item_id` = 20406;
-UPDATE `armor` SET `name` ='幻象裝備-狼帽 祝福返回' WHERE `item_id` = 22154;
-UPDATE `armor` SET `name` ='幻象裝備-狼帽 祝福復活' WHERE `item_id` = 22155;
-UPDATE `armor` SET `name` ='雛菊髮飾' WHERE `item_id` = 22156;
-UPDATE `armor` SET `name` ='勿忘草髮飾' WHERE `item_id` = 22157;
-UPDATE `armor` SET `name` ='無法者眼罩' WHERE `item_id` = 22158;
-UPDATE `armor` SET `name` ='海盜眼罩' WHERE `item_id` = 22159;
-UPDATE `armor` SET `name` ='單片眼鏡' WHERE `item_id` = 22160;
-UPDATE `armor` SET `name` ='紅魔鬼面具' WHERE `item_id` = 22161;
-UPDATE `armor` SET `name` ='勝利者尖角' WHERE `item_id` = 22162;
-UPDATE `armor` SET `name` ='舞會面具' WHERE `item_id` = 22163;
-UPDATE `armor` SET `name` ='紅色舞會面具' WHERE `item_id` = 22164;
-UPDATE `armor` SET `name` ='貓耳' WHERE `item_id` = 22165;
-UPDATE `armor` SET `name` ='名媛髮飾' WHERE `item_id` = 22166;
-UPDATE `armor` SET `name` ='狸耳' WHERE `item_id` = 22167;
-UPDATE `armor` SET `name` ='兔耳' WHERE `item_id` = 22168;
-UPDATE `armor` SET `name` ='小天使之翼' WHERE `item_id` = 22169;
-UPDATE `armor` SET `name` ='小妖精觸角' WHERE `item_id` = 22170;
-UPDATE `armor` SET `name` ='吟遊詩人帽' WHERE `item_id` = 22171;
-UPDATE `armor` SET `name` ='工匠的護目鏡' WHERE `item_id` = 22172;
-
-/***** Done by vdmyagami！ *****/ 
+-- ----------------------------
+-- Records of armor_name
+-- ----------------------------
+INSERT INTO `armor_name` VALUES
+(21, '布襯衫'),
+(22, '皮襯衫'),
+(23, '木胸甲'),
+(24, '骨胸甲'),
+(25, '骨片胸甲'),
+(26, '青銅胸甲'),
+(27, '硬皮襯衫'),
+(28, '布質褲'),
+(29, '皮質褲'),
+(30, '硬皮褲'),
+(31, '骨製脛甲'),
+(32, '骨片脛甲'),
+(33, '硬皮脛甲'),
+(34, '青銅脛甲'),
+(35, '布鞋'),
+(36, '皮涼鞋'),
+(37, '皮鞋'),
+(38, '短靴'),
+(39, '長靴'),
+(40, '皮靴'),
+(41, '布帽'),
+(42, '皮帽'),
+(43, '木頭盔'),
+(44, '皮頭盔'),
+(45, '骨頭盔'),
+(46, '青銅頭盔'),
+(47, '頭盔'),
+(48, '短手套'),
+(49, '手套'),
+(50, '皮手套'),
+(51, '腕甲'),
+(58, '米索莉護甲'),
+(59, '米索莉脛甲'),
+(60, '合金盔甲'),
+(61, '米索莉手套'),
+(62, '強化米索莉靴'),
+(63, '長手套'),
+(64, '合金靴'),
+(112, '見習生耳環'),
+(113, '法師耳環'),
+(114, '力量耳環'),
+(115, '智慧耳環'),
+(116, '魔法戒指'),
+(117, '瑪那戒指'),
+(118, '魔法項鍊'),
+(119, '封印項鍊'),
+(347, '鎖子胸甲'),
+(348, '鱗甲'),
+(349, '合金鱗甲'),
+(350, '矮人鱗甲'),
+(351, '狂暴盔甲'),
+(352, '鎖子甲'),
+(353, '半身盔甲'),
+(354, '鏈甲衫'),
+(355, '矮人鏈甲衫'),
+(356, '全身盔甲'),
+(357, '夏隆胸甲'),
+(358, '青狼胸甲'),
+(359, '光龍盔甲'),
+(360, '勝利胸甲'),
+(361, '勇猛胸甲'),
+(362, '榮譽盔甲'),
+(363, '紅焰盔甲'),
+(364, '精靈水晶胸甲'),
+(365, '黑暗水晶胸甲'),
+(366, '毀滅盔甲'),
+(367, '闇龍盔甲'),
+(368, '精靈鞘甲'),
+(369, '黑暗鞘甲'),
+(370, '合金護甲'),
+(371, '地獄金屬板'),
+(372, '工藝金屬板'),
+(373, '優質盔甲'),
+(374, '夢魘盔甲'),
+(375, '龍鱗甲'),
+(376, '鋼鐵脛甲'),
+(377, '鱗脛甲'),
+(378, '合金鱗脛甲'),
+(379, '矮人鱗脛甲'),
+(380, '金屬脛甲'),
+(381, '鏈脛甲'),
+(382, '矮人鏈脛甲'),
+(383, '夏隆脛甲'),
+(384, '狼脛甲'),
+(385, '勝利脛甲'),
+(386, '勇猛脛甲'),
+(387, '精靈水晶脛甲'),
+(388, '黑暗水晶脛甲'),
+(389, '龍鱗脛甲'),
+(390, '緊身襯衫'),
+(391, '水晶獅皮襯衫'),
+(392, '獅皮襯衫'),
+(393, '米索莉板甲'),
+(394, '強化皮襯衫'),
+(395, '刺尾獅皮襯衫'),
+(396, '火蜥蜴皮甲'),
+(397, '強化米索莉襯衫'),
+(398, '金屬皮甲'),
+(399, '覆皮皮甲'),
+(400, '覆殼皮甲'),
+(401, '飛龍皮甲'),
+(402, '寧靜鏈甲'),
+(403, '勁風鏈甲'),
+(404, '草原皮甲'),
+(405, '煉獄皮甲'),
+(406, '聚合皮甲'),
+(407, '神弓皮甲'),
+(408, '守護神皮甲'),
+(409, '射手皮甲'),
+(410, '獨角獸皮甲'),
+(411, '龍皮甲'),
+(412, '緊身褲'),
+(413, '水晶獅皮脛甲'),
+(414, '獅子皮脛甲'),
+(415, '米索莉板脛甲'),
+(416, '強化皮脛甲'),
+(417, '刺尾獅皮脛甲'),
+(418, '金屬皮脛甲'),
+(419, '覆皮脛甲'),
+(420, '覆殼脛甲'),
+(421, '草原脛甲'),
+(422, '煉獄脛甲'),
+(423, '守護神皮脛甲'),
+(424, '射手皮脛甲'),
+(425, '見習生外衣'),
+(426, '外衣'),
+(427, '棉質長袍'),
+(428, '佩里奧堤外衣'),
+(429, '皮外衣'),
+(430, '奉獻長袍'),
+(431, '巫術長袍'),
+(432, '受詛咒的外衣'),
+(433, '精靈外衣'),
+(434, '純白外衣'),
+(435, '法師外衣'),
+(436, '知識外衣'),
+(437, '米索莉外衣'),
+(438, '賢者的破衣'),
+(439, '卡勒米安外衣'),
+(440, '封印長袍'),
+(441, '惡魔外衣'),
+(442, '神聖外衣'),
+(443, '瑪那外衣'),
+(444, '賢者長袍'),
+(445, '佩勒迪亞外衣'),
+(446, '地獄外衣'),
+(447, '日蝕外衣'),
+(448, '黑光長袍'),
+(449, '召喚外衣'),
+(450, '異界長袍'),
+(451, '元素外衣'),
+(452, '幻影外衣'),
+(453, '恩寵外衣'),
+(454, '聖靈長袍'),
+(455, '不死鳥外衣'),
+(456, '地獄犬外衣'),
+(457, '輔助外衣'),
+(458, '祝福長袍'),
+(459, '帕黎恩長袍'),
+(460, '真長袍'),
+(461, '見習生長襪'),
+(462, '長襪'),
+(463, '佩里奧堤長襪'),
+(464, '皮長襪'),
+(465, '受詛咒的長襪'),
+(466, '精靈長襪'),
+(467, '黑暗長襪'),
+(468, '法師長襪'),
+(469, '知識長襪'),
+(470, '米索莉長襪'),
+(471, '卡勒米安長襪'),
+(472, '惡魔長襪'),
+(473, '神聖長襪'),
+(474, '瑪那長襪'),
+(475, '佩勒迪亞長襪'),
+(476, '地獄長襪'),
+(477, '日蝕長襪'),
+(478, '召喚長襪'),
+(479, '元素長襪'),
+(480, '幻影長襪'),
+(481, '恩寵長襪'),
+(482, '不死鳥長襪'),
+(483, '地獄犬長襪'),
+(484, '輔助長襪'),
+(485, '力量圖騰'),
+(486, '火之圖騰'),
+(487, '堅強圖騰'),
+(488, '火焰圖騰'),
+(489, '銅之圖騰'),
+(490, '血之圖騰'),
+(491, '完美圖騰'),
+(492, '靈魂圖騰'),
+(493, '阿巴敦圖騰'),
+(494, '末日圖騰'),
+(495, '盟約圖騰'),
+(496, '神聖圖騰'),
+(497, '鎖鏈頭盔'),
+(498, '金屬頭盔'),
+(499, '米索莉頭盔'),
+(500, '巨型頭盔'),
+(501, '鋼鐵面罩'),
+(502, '閉鎖頭盔'),
+(503, '夏隆頭盔'),
+(504, '龍頭盔'),
+(505, '狼頭盔'),
+(506, '光龍頭盔'),
+(507, '勝利頭盔'),
+(508, '勇猛頭盔'),
+(509, '榮譽頭盔'),
+(510, '紅焰頭盔'),
+(511, '精靈水晶頭盔'),
+(512, '黑暗水晶頭盔'),
+(513, '毀滅頭盔'),
+(514, '闇龍頭盔'),
+(515, '精靈鞘盔'),
+(516, '黑暗鞘盔'),
+(517, '合金頭盔'),
+(518, '地獄頭盔'),
+(519, '工藝頭盔'),
+(520, '優質頭盔'),
+(521, '寧靜頭盔'),
+(522, '勁風頭盔'),
+(523, '草原頭盔'),
+(524, '煉獄頭盔'),
+(525, '聚合頭盔'),
+(526, '神弓頭盔'),
+(527, '守護神頭盔'),
+(528, '射手頭盔'),
+(529, '瑪那帽'),
+(530, '賢者帽'),
+(531, '佩勒迪亞頭巾'),
+(532, '地獄頭巾'),
+(533, '日蝕頭巾'),
+(534, '黑光頭巾'),
+(535, '召喚頭巾'),
+(536, '異界頭巾'),
+(537, '元素頭巾'),
+(538, '幻影頭巾'),
+(539, '恩寵頭巾'),
+(540, '聖靈頭巾'),
+(541, '不死鳥頭巾'),
+(542, '地獄犬頭巾'),
+(543, '輔助頭巾'),
+(544, '祝福頭巾'),
+(545, '火焰帽'),
+(546, '銅帽'),
+(547, '塔魯帽'),
+(548, '完美帽'),
+(549, '阿巴敦帽'),
+(550, '末日帽'),
+(551, '盟約帽'),
+(552, '聖恩帽'),
+(553, '鋼鐵靴'),
+(554, '封印的夏隆靴'),
+(555, '龍靴'),
+(556, '狼靴'),
+(557, '光龍靴'),
+(558, '勝利靴'),
+(559, '勇猛靴'),
+(560, '榮譽靴'),
+(561, '紅焰靴'),
+(562, '精靈水晶靴'),
+(563, '黑暗水晶靴'),
+(564, '毀滅靴'),
+(565, '闇龍靴'),
+(566, '精靈鞘靴'),
+(567, '黑暗鞘靴'),
+(568, '合金靴(無用)'),
+(569, '地獄靴'),
+(570, '工藝靴'),
+(571, '優質靴'),
+(572, '寧靜靴'),
+(573, '勁風靴'),
+(574, '草原靴'),
+(575, '煉獄靴'),
+(576, '聚合靴'),
+(577, '神弓靴'),
+(578, '守護神靴'),
+(579, '射手靴'),
+(580, '瑪那靴'),
+(581, '賢者靴'),
+(582, '佩勒迪亞靴'),
+(583, '聖威靴'),
+(584, '日蝕靴'),
+(585, '黑光靴'),
+(586, '召喚靴'),
+(587, '異界靴'),
+(588, '元素靴'),
+(589, '幻影靴'),
+(590, '恩寵靴'),
+(591, '聖靈靴'),
+(592, '不死鳥之靴'),
+(593, '地獄犬之靴'),
+(594, '輔助靴'),
+(595, '祝福靴'),
+(596, '火焰靴'),
+(597, '銅靴'),
+(598, '塔魯靴'),
+(599, '完美靴'),
+(600, '封印的阿巴敦靴'),
+(601, '封印的末日靴'),
+(602, '盟約靴'),
+(603, '聖恩靴'),
+(604, '高級皮手套'),
+(605, '長皮手套'),
+(606, '安魂長手套'),
+(607, '食人魔力量長手套'),
+(608, '米索莉長手套'),
+(609, '死靈長手套'),
+(610, '聖騎士長手套'),
+(611, '吸魂長手套'),
+(612, '封印的夏隆長手套'),
+(613, '沙龍手套'),
+(614, '騎士斗篷'),
+(615, '蜘蛛網斗篷'),
+(616, '魔法斗篷'),
+(617, '米索莉斗篷'),
+(618, '護身斗篷'),
+(619, '(不使用)古代斗篷'),
+(620, '守護斗篷'),
+(621, '地獄斗篷'),
+(622, '(不使用)聖靈斗篷'),
+(623, '神聖斗篷'),
+(624, '隱身斗篷'),
+(675, '絹絲內衣'),
+(676, '純白內衣'),
+(677, '連身泳衣'),
+(678, '比基尼泳衣'),
+(679, '受詛咒的內衣'),
+(680, '米索莉內衣'),
+(681, '迷惑內衣'),
+(682, '惡魔內衣'),
+(683, '神聖內衣'),
+(684, '規製泳衣'),
+(685, '水晶泳衣'),
+(845, '貓眼耳環'),
+(846, '珊瑚耳環'),
+(847, '紅新月耳環'),
+(848, '魔力耳環'),
+(849, '虎眼耳環'),
+(850, '精靈耳環'),
+(851, '瑪瑙獸眼耳環'),
+(852, '月長石耳環'),
+(853, '守護耳環'),
+(854, '封印耳環'),
+(855, '娜仙耳環'),
+(856, '金剛石耳環'),
+(857, '神聖耳環'),
+(858, '泰狄奧森耳環'),
+(859, '瑪那耳環'),
+(860, '賢者耳環'),
+(861, '佩勒迪亞耳環'),
+(862, '聖威耳環'),
+(863, '日蝕耳環'),
+(864, '黑光耳環'),
+(865, '召喚耳環'),
+(866, '異界耳環'),
+(867, '元素耳環'),
+(868, '幻影耳環'),
+(869, '恩寵耳環'),
+(870, '聖靈耳環'),
+(871, '不死鳥耳環'),
+(872, '地獄犬耳環'),
+(873, '輔助耳環'),
+(874, '祝福耳環'),
+(875, '知識戒指'),
+(876, '幻滅戒指'),
+(877, '智慧戒指'),
+(878, '藍色珊瑚戒指'),
+(879, '魔力戒指'),
+(880, '黑珍珠戒指'),
+(881, '精靈戒指'),
+(882, '米索莉戒指'),
+(883, '水石戒指'),
+(884, '守護戒指'),
+(885, '永生戒指'),
+(886, '封印戒指'),
+(887, '金剛石戒指'),
+(888, '神聖戒指'),
+(889, '泰狄奧森戒指'),
+(890, '奉獻戒指'),
+(891, '賢者戒指'),
+(892, '佩勒迪亞戒指'),
+(893, '聖威戒指'),
+(894, '日蝕戒指'),
+(895, '黑光戒指'),
+(896, '召喚戒指'),
+(897, '異界戒指'),
+(898, '元素戒指'),
+(899, '幻影戒指'),
+(900, '恩寵戒指'),
+(901, '聖靈戒指'),
+(902, '不死鳥戒指'),
+(903, '地獄犬的戒指'),
+(904, '輔助戒指'),
+(905, '祝福戒指'),
+(906, '知識項鍊'),
+(907, '幻滅項鍊'),
+(908, '智慧項鍊'),
+(909, '藍鑽項鍊'),
+(910, '奉獻項鍊'),
+(911, '魔力項鍊'),
+(912, '古森林項鍊'),
+(913, '精靈項鍊'),
+(914, '黑暗項鍊'),
+(915, '水石項鍊'),
+(916, '守護項鍊'),
+(917, '人魚之淚'),
+(918, '金剛石項鍊'),
+(919, '神聖項鍊'),
+(920, '泰狄奧森項鍊'),
+(921, '瑪那項鍊'),
+(922, '賢者項鍊'),
+(923, '佩勒迪亞項鍊'),
+(924, '聖威項鍊'),
+(925, '日蝕項鍊'),
+(926, '黑光項鍊'),
+(927, '召喚項鍊'),
+(928, '異界項鍊'),
+(929, '元素項鍊'),
+(930, '幻影項鍊'),
+(931, '恩寵項鍊'),
+(932, '聖靈項鍊'),
+(933, '不死鳥項鍊'),
+(934, '地獄犬項鍊'),
+(935, '輔助項鍊'),
+(936, '祝福項鍊'),
+(990, '劵000'),
+(991, '劵001'),
+(992, '劵002'),
+(993, '劵003'),
+(994, '劵004'),
+(995, '劵005'),
+(996, '劵006'),
+(997, '劵007'),
+(998, '劵008'),
+(999, '劵009'),
+(1000, '劵010'),
+(1100, '棉質外衣'),
+(1101, '奉獻外衣'),
+(1102, '巫術外衣'),
+(1103, '棉質長襪'),
+(1104, '奉獻長襪'),
+(1105, '巫術長襪'),
+(1119, '短皮手套'),
+(1120, '帕格立歐的手'),
+(1121, '見習生的鞋'),
+(1122, '棉質涼鞋'),
+(1123, '藍鹿皮靴'),
+(1124, '力量靴'),
+(1125, '襲擊靴'),
+(1126, '緋紅靴'),
+(1127, '被遺忘的靴'),
+(1128, '金剛石靴'),
+(1129, '粗糙皮鞋'),
+(1146, '見習騎士襯衫'),
+(1147, '見習騎士褲'),
+(1148, '硬皮頭盔'),
+(1149, '閃耀頭箍'),
+(1308, '合金鱗甲-動畫用'),
+(1309, '米索莉胸甲-Kamex用'),
+(1310, '巫術外衣-Kamex用'),
+(1311, '水晶獅皮襯衫-Kamex用'),
+(1312, '純白外衣-Kamex用'),
+(1313, '合金鱗脛甲-動畫用'),
+(1314, '米索莉脛甲-Kamex用'),
+(1315, '巫術長襪-Kamex用'),
+(1316, '水晶獅皮綁腿-Kamex用'),
+(1317, '黑暗長襪-Kamex用'),
+(1318, '手套-Kamex動畫用'),
+(1319, '皮手套-Kamex用'),
+(1320, '高級皮手套-Kamex用'),
+(1321, '安魂長手套-Kamex用'),
+(1322, '腕甲-Kamex用'),
+(1323, '皮鞋-動畫用'),
+(1324, '短靴-Kamex用'),
+(1325, '皮靴-Kamex用'),
+(1326, '鋼鐵靴-Kamex用'),
+(1327, '長靴-Kamex用'),
+(1506, '勇氣項鍊'),
+(1507, '勇猛項鍊'),
+(1508, '小熊戒指'),
+(1509, '螢火蟲戒指'),
+(2376, '阿巴敦胸甲'),
+(2377, '米索莉鱗脛甲'),
+(2378, '鎖脛甲'),
+(2379, '阿巴敦脛甲'),
+(2380, '青狼脛甲'),
+(2381, '末日金屬盔甲'),
+(2382, '塔魯金屬盔甲'),
+(2383, '聖威金屬盔甲'),
+(2384, '夏隆皮衫'),
+(2385, '黑暗水晶皮甲'),
+(2386, '木製脛甲'),
+(2387, '強化米索莉脛甲'),
+(2388, '夏隆皮脛甲'),
+(2389, '黑暗水晶皮脛甲'),
+(2390, '阿巴敦皮甲'),
+(2391, '青狼皮甲'),
+(2392, '末日皮甲'),
+(2393, '塔魯皮甲'),
+(2394, '夢魘皮甲'),
+(2395, '聖威皮甲'),
+(2396, '精靈米索莉外衣'),
+(2397, '夏隆外衣'),
+(2398, '青狼外衣'),
+(2399, '末日外衣'),
+(2400, '塔魯外衣'),
+(2401, '精靈米索莉襪'),
+(2402, '夏隆長襪'),
+(2403, '青狼長襪'),
+(2404, '末日長襪'),
+(2405, '塔魯長襪'),
+(2406, '阿巴敦長袍'),
+(2407, '黑暗水晶長袍'),
+(2408, '夢魘長袍'),
+(2409, '聖威長袍'),
+(2410, '夢魘圖騰'),
+(2411, '鎖子頭盔'),
+(2412, '金屬板頭盔'),
+(2413, '鏈頭巾'),
+(2414, '全覆式頭盔'),
+(2415, '阿巴敦頭箍'),
+(2416, '青狼頭盔'),
+(2417, '末日頭盔'),
+(2418, '夢魘頭盔'),
+(2419, '聖威頭箍'),
+(2420, '龍帽盔'),
+(2421, '真頭巾'),
+(2422, '強化皮靴'),
+(2423, '知識長靴'),
+(2424, '刺尾獅皮靴'),
+(2425, '鎖子長靴'),
+(2426, '精靈米索莉靴'),
+(2427, '火蜥蜴皮靴'),
+(2428, '金屬靴'),
+(2429, '鏈甲靴'),
+(2430, '卡勒米安長靴'),
+(2431, '金屬皮長靴'),
+(2432, '矮人鏈靴'),
+(2433, '封印長靴'),
+(2434, '覆皮長靴'),
+(2435, '惡魔長靴'),
+(2436, '覆殼長靴'),
+(2437, '飛龍皮長靴'),
+(2438, '全覆式長靴'),
+(2439, '封印的青狼長靴'),
+(2440, '夢魘靴'),
+(2441, '黑暗軍長靴'),
+(2442, '帕黎恩長靴'),
+(2443, '龍皮靴'),
+(2444, '真長靴'),
+(2445, '龍鱗靴'),
+(2446, '強化皮手套'),
+(2447, '知識手套'),
+(2448, '刺尾獅皮手套'),
+(2449, '鎖子甲長手套'),
+(2450, '精靈米索莉手套'),
+(2451, '賢者的舊手套'),
+(2452, '強化米索莉手套'),
+(2453, '鏈手套'),
+(2454, '卡勒米安手套'),
+(2455, '金屬皮手套'),
+(2456, '矮人鏈手套'),
+(2457, '封印手套'),
+(2458, '覆皮手套'),
+(2459, '惡魔手套'),
+(2460, '覆殼手套'),
+(2461, '飛龍皮手套'),
+(2462, '全覆式長手套'),
+(2463, '神聖手套'),
+(2464, '封印的阿巴敦手套'),
+(2465, '寧靜鏈手套'),
+(2466, '守護神手套'),
+(2467, '祝福手套'),
+(2468, '聖恩手套'),
+(2469, '煉獄手套'),
+(2470, '幻影手套'),
+(2471, '黑暗軍手套'),
+(2472, '黑暗水晶手套'),
+(2473, '真手套'),
+(2474, '帕黎恩手套'),
+(2475, '封印的末日手套'),
+(2476, '龍護手'),
+(2477, '龍皮手套'),
+(2478, '塔魯手套'),
+(2479, '夢魘手套'),
+(2480, '元素手套'),
+(2481, '恩寵手套'),
+(2482, '聖威手套'),
+(2483, '勁風手套'),
+(2484, '地獄犬手套'),
+(2485, '毀滅長手套'),
+(2486, '佩勒迪亞手套'),
+(2487, '封印的青狼手套'),
+(2488, '不死鳥手套'),
+(2489, '黑光手套'),
+(2490, '沉默斗篷'),
+(2491, '金絲斗篷'),
+(2492, '陰影斗篷'),
+(2506, '狼皮甲'),
+(3891, '狼用防具'),
+(3892, '狼用硬皮甲'),
+(3893, '狼用木甲'),
+(3894, '狼用麟甲'),
+(3895, '狼用骨製甲'),
+(3896, '狼用鱗甲'),
+(3897, '狼用青銅甲'),
+(3898, '狼用金屬甲'),
+(3899, '狼用鐵甲'),
+(3900, '狼用高級鋼甲'),
+(3901, '狼用米索莉甲'),
+(3912, '幼龍用軟甲'),
+(3913, '幼龍用鱗甲'),
+(3914, '幼龍用鎖子甲'),
+(3915, '幼龍用青銅外衣'),
+(3916, '幼龍用鐵外衣'),
+(3917, '幼龍用影鋼甲'),
+(3918, '幼龍用米索莉外衣'),
+(4224, '夢之盔甲'),
+(4225, '夢之長襪'),
+(4226, '夢之手套'),
+(4227, '夢之靴'),
+(4228, '泛在盔甲'),
+(4229, '泛在長襪'),
+(4230, '泛在手套'),
+(4231, '泛在靴'),
+(4234, '幼龍專用65級防具'),
+(4235, '幼龍專用75級防具'),
+(4236, '臨時道具'),
+(5170, '米索莉裝甲'),
+(5171, '鎖子裝甲'),
+(5172, '龍裝甲'),
+(5173, '血裝甲'),
+(5174, '蛇裝甲'),
+(5175, '地獄裝甲'),
+(5182, '幼龍的哥肯外衣'),
+(5183, '幼龍的蛇金屬甲'),
+(5184, '幼龍的緋紅金屬甲'),
+(5185, '幼龍的龍金屬甲'),
+(5186, '幼龍的地獄金屬甲'),
+(5216, '狼用75級防具'),
+(5287, '封印的黑暗水晶胸甲'),
+(5288, '封印的黑暗水晶脛甲'),
+(5289, '封印的黑暗水晶頭盔'),
+(5290, '封印的黑暗水晶手套'),
+(5291, '封印的黑暗水晶靴'),
+(5293, '封印的塔魯金屬盔甲'),
+(5294, '封印的塔魯帽'),
+(5295, '封印的塔魯手套'),
+(5296, '封印的塔魯靴'),
+(5297, '封印的黑暗水晶皮甲'),
+(5298, '封印的黑暗水晶皮脛甲'),
+(5299, '封印的煉獄手套'),
+(5300, '封印的煉獄靴'),
+(5301, '封印的塔魯皮甲'),
+(5302, '封印的勁風手套'),
+(5303, '封印的勁風靴'),
+(5304, '封印的塔魯外衣'),
+(5305, '封印的塔魯長襪'),
+(5306, '封印的黑光手套'),
+(5307, '封印的黑光靴'),
+(5308, '封印的黑暗水晶長袍'),
+(5309, '封印的不死鳥手套'),
+(5310, '封印的不死鳥靴'),
+(5311, '封印的夢魘盔甲'),
+(5312, '封印的夢魘頭盔'),
+(5313, '封印的夢魘手套'),
+(5314, '封印的夢魘靴'),
+(5316, '封印的聖威金屬盔甲'),
+(5317, '封印的聖威頭箍'),
+(5318, '封印的聖威手套'),
+(5319, '封印的聖威靴'),
+(5320, '封印的夢魘皮甲'),
+(5321, '封印的黑暗軍手套'),
+(5322, '封印的黑暗軍靴'),
+(5323, '封印的聖威皮甲'),
+(5324, '封印的幻影手套'),
+(5325, '封印的幻影靴'),
+(5326, '封印的夢魘長袍'),
+(5327, '封印的地獄犬手套'),
+(5328, '封印的地獄犬靴'),
+(5329, '封印的聖威長袍'),
+(5330, '封印的帕黎恩手套'),
+(5331, '封印的帕黎恩靴'),
+(5576, '雜音的測驗'),
+(5590, '鳴響鞋'),
+(5709, '封印的夏隆長手套'),
+(5710, '夏隆長手套 重裝用'),
+(5711, '夏隆長手套 輕裝用'),
+(5712, '夏隆長手套 長袍用'),
+(5713, '封印的阿巴敦手套'),
+(5714, '阿巴敦手套 重裝用'),
+(5715, '阿巴敦手套 輕裝用'),
+(5716, '阿巴敦手套 長袍用'),
+(5717, '封印的青狼手套'),
+(5718, '青狼手套 重裝用'),
+(5719, '青狼手套 輕裝用'),
+(5720, '青狼手套 長袍用'),
+(5721, '封印的末日手套'),
+(5722, '末日手套 重裝用'),
+(5723, '末日手套 輕裝用'),
+(5724, '末日手套 長袍用'),
+(5725, '封印的夏隆靴'),
+(5726, '夏隆靴 重裝用'),
+(5727, '夏隆靴 輕裝用'),
+(5728, '夏隆靴 長袍用'),
+(5729, '封印的阿巴敦靴'),
+(5730, '阿巴敦靴 重裝用'),
+(5731, '阿巴敦靴 輕裝用'),
+(5732, '阿巴敦靴 長袍用'),
+(5733, '封印的青狼長靴'),
+(5734, '青狼長靴 重裝用'),
+(5735, '青狼長靴 輕裝用'),
+(5736, '青狼長靴 長袍用'),
+(5737, '封印的末日靴'),
+(5738, '末日靴 重裝用'),
+(5739, '末日靴 輕裝用'),
+(5740, '末日靴 長袍用'),
+(5765, '黑暗水晶手套 重裝用'),
+(5766, '黑暗水晶手套 輕裝用'),
+(5767, '黑暗水晶手套 長袍用'),
+(5768, '塔魯手套 重裝用'),
+(5769, '塔魯手套 輕裝用'),
+(5770, '塔魯手套 長袍用'),
+(5771, '夢魘手套 重裝用'),
+(5772, '夢魘手套 輕裝用'),
+(5773, '夢魘手套 長袍用'),
+(5774, '聖威手套 重裝用'),
+(5775, '聖威手套 輕裝用'),
+(5776, '聖威手套 長袍用'),
+(5777, '黑暗水晶靴 重裝用'),
+(5778, '黑暗水晶靴 輕裝用'),
+(5779, '黑暗水晶靴 長袍用'),
+(5780, '塔魯靴 重裝用'),
+(5781, '塔魯靴 輕裝用'),
+(5782, '塔魯靴 長袍用'),
+(5783, '夢魘靴 重裝用'),
+(5784, '夢魘靴 輕裝用'),
+(5785, '夢魘靴 長袍用'),
+(5786, '聖威靴 重裝用'),
+(5787, '聖威靴 輕裝用'),
+(5788, '聖威靴 長袍用'),
+(5808, '舞會面具'),
+(6323, '封印的不死鳥項鍊'),
+(6324, '封印的不死鳥耳環'),
+(6325, '封印的不死鳥戒指'),
+(6326, '封印的聖威項鍊'),
+(6327, '封印的聖威耳環'),
+(6328, '封印的聖威戒指'),
+(6373, '帝國聖軍胸甲'),
+(6374, '帝國聖軍脛甲'),
+(6375, '帝國聖軍長手套'),
+(6376, '帝國聖軍長靴'),
+(6378, '帝國聖軍頭盔'),
+(6379, '紅龍皮甲'),
+(6380, '紅龍皮手套'),
+(6381, '紅龍皮靴'),
+(6382, '紅龍皮盔'),
+(6383, '大祕儀長袍'),
+(6384, '大祕儀手套'),
+(6385, '大祕儀長靴'),
+(6386, '大祕儀頭箍'),
+(6394, '紅色舞會面具'),
+(6408, '禮服'),
+(6656, '安塔瑞斯耳環'),
+(6657, '巴拉卡斯項鍊'),
+(6658, '巴溫戒指'),
+(6659, '札肯耳環'),
+(6660, '巨蟻女王戒指'),
+(6661, '奧爾芬耳環'),
+(6662, '核心戒指'),
+(6674, '封印的帝國聖軍胸甲'),
+(6675, '封印的帝國聖軍脛甲'),
+(6676, '封印的帝國聖軍長手套'),
+(6677, '封印的帝國聖軍長靴'),
+(6679, '封印的帝國聖軍頭盔'),
+(6680, '封印的紅龍皮甲'),
+(6681, '封印的紅龍皮手套'),
+(6682, '封印的紅龍皮靴'),
+(6683, '封印的紅龍皮盔'),
+(6684, '封印的大祕儀長袍'),
+(6685, '封印的大祕儀手套'),
+(6686, '封印的大祕儀長靴'),
+(6687, '封印的大祕儀頭箍'),
+(6724, '封印的泰狄奧森耳環'),
+(6725, '封印的泰狄奧森戒指'),
+(6726, '封印的泰狄奧森項鍊'),
+(6834, '因納得立之環'),
+(6835, '狄恩之環'),
+(6836, '高達特之環'),
+(6837, '歐瑞之環'),
+(6838, '古魯丁之環'),
+(6839, '奇岩之環'),
+(6840, '亞丁之環'),
+(6841, '城主的王冠'),
+(6842, '命運之翼'),
+(6843, '貓耳'),
+(6844, '名媛髮飾'),
+(6845, '海盜眼罩'),
+(6846, '單片眼鏡'),
+(7059, '2006TGS限定頭飾'),
+(7060, '泰狄奧森髮飾'),
+(7680, '狸耳'),
+(7681, '無法者眼罩'),
+(7682, '淑女髮飾'),
+(7683, '兔耳'),
+(7694, '貴族三重冕'),
+(7695, '勿忘草髮飾'),
+(7696, '雛菊髮飾'),
+(7836, '聖誕帽'),
+(7837, '金邊面具-白色'),
+(7839, '金邊面具-黑色'),
+(7840, '兔耳-活動用'),
+(7841, '狸耳-活動用'),
+(7842, '貓耳-活動用'),
+(7843, '海盜眼罩-活動用'),
+(7844, '單片眼鏡-活動用'),
+(7845, '無法者的眼罩-活動用'),
+(7846, '淑女髮飾-活動用'),
+(7847, '名媛髮飾-活動用'),
+(7848, '勿忘草髮飾-活動用'),
+(7849, '雛菊髮飾-活動用'),
+(7850, '盟誓頭盔'),
+(7851, '盟誓盔甲'),
+(7852, '盟誓護手 重裝用'),
+(7853, '盟誓軍靴 重裝用'),
+(7854, '盟誓禮服'),
+(7855, '盟誓手套 輕裝用'),
+(7856, '盟誓禮鞋 輕裝用'),
+(7857, '盟誓長袍'),
+(7858, '盟誓絲手套 長袍用'),
+(7859, '盟誓涼鞋 長袍用'),
+(7860, '阿貝拉頭盔'),
+(7861, '阿貝拉盔甲'),
+(7862, '阿貝拉護手 重裝用'),
+(7863, '阿貝拉軍靴 重裝用'),
+(7864, '阿貝拉禮服'),
+(7865, '阿貝拉手套 輕裝用'),
+(7866, '阿貝拉禮鞋 輕裝用'),
+(7867, '阿貝拉長袍'),
+(7868, '阿貝拉絲手套 長袍用'),
+(7869, '阿貝拉涼鞋 長袍用'),
+(7870, '封印的阿貝拉頭盔'),
+(7871, '封印的阿貝拉盔甲'),
+(7872, '封印的阿貝拉護手'),
+(7873, '封印的阿貝拉軍靴'),
+(7874, '封印的阿貝拉禮服'),
+(7875, '封印的阿貝拉皮手套'),
+(7876, '封印的阿貝拉禮鞋'),
+(7877, '封印的阿貝拉外衣'),
+(7878, '封印的阿貝拉絲手套'),
+(7879, '封印的阿貝拉涼鞋'),
+(8177, '狩獵挑戰者頭箍'),
+(8178, '狩獵探險家頭箍'),
+(8179, '狩獵大師頭箍'),
+(8180, '冰雪妖精希露頭箍'),
+(8181, '學院頭箍'),
+(8182, '魯因之環'),
+(8183, '修加特之環'),
+(8184, '派對尖帽'),
+(8185, '吟遊詩人帽'),
+(8186, '工匠的護目鏡'),
+(8187, '勝利者尖角'),
+(8188, '小天使之翼'),
+(8189, '小妖精觸角'),
+(8191, '芙琳泰沙的項鍊'),
+(8541, '小型胸背帶'),
+(8552, '紅魔鬼面具'),
+(8557, '派對尖帽-活動用'),
+(8558, '飛翔的鳥兒-活動用'),
+(8559, '花冠'),
+(8560, '熊熊帽'),
+(8561, '豬豬帽'),
+(8562, '小丑帽'),
+(8563, '魔法師帽'),
+(8564, '花花公子帽'),
+(8565, '浪漫圓帽'),
+(8566, '鋼鐵之環'),
+(8567, '巴拉卡斯的龍焰'),
+(8568, '安塔瑞斯的怒吼'),
+(8569, '半緣假面'),
+(8660, '萬聖節尖角'),
+(8661, '萬聖節面具'),
+(8662, '小妖精觸角-活動用'),
+(8910, '黑羽假面-活動用'),
+(8911, '闇剎面具-活動用'),
+(8912, '花冠'),
+(8913, '蝴蝶髮飾'),
+(8914, '高貴黃金之環'),
+(8915, '高貴白銀之環'),
+(8916, '獨眼'),
+(8917, '女神之環'),
+(8918, '皮革帽'),
+(8919, '提督軍帽-活動用'),
+(8920, '天使之環'),
+(8921, '惡魔之環'),
+(8922, '海賊帽'),
+(8923, '疤痕'),
+(8936, '聖誕鹿角帽'),
+(8947, 'L2Day-兔耳'),
+(8948, 'L2Day-小天使之翼'),
+(8949, 'L2Day-小妖精觸角'),
+(8950, 'L2Day-吟遊詩人帽'),
+(8951, 'L2Day-工匠的護目鏡'),
+(9030, '幻象防具-青銅胸甲'),
+(9031, '幻象裝備-青銅脛甲'),
+(9032, '幻象裝備-硬皮襯衫'),
+(9033, '幻象裝備-硬皮脛甲'),
+(9034, '幻象裝備-巫術外衣'),
+(9035, '幻象裝備-巫術長襪'),
+(9037, '幻象裝備-硬皮頭盔'),
+(9038, '幻象裝備-長靴'),
+(9039, '幻象裝備-腕甲'),
+(9040, '幻象裝備-米索莉護甲'),
+(9041, '幻象裝備-米索莉脛甲'),
+(9042, '幻象裝備-長手套'),
+(9043, '幻象裝備-鋼鐵靴'),
+(9045, '幻象裝備-強化皮襯衫'),
+(9046, '幻象裝備-強化皮脛甲'),
+(9047, '幻象裝備-強化皮手套'),
+(9048, '幻象裝備-強化皮靴'),
+(9049, '幻象裝備-知識外衣'),
+(9050, '幻象裝備-知識長襪'),
+(9051, '幻象裝備-知識手套'),
+(9052, '幻象裝備-知識長靴'),
+(9053, '幻象裝備-頭盔'),
+(9054, '幻象裝備-合金盔甲'),
+(9055, '幻象裝備-合金靴'),
+(9057, '幻象裝備-合金頭盔'),
+(9058, '幻象裝備-覆殼皮甲'),
+(9059, '幻象裝備-覆殼脛甲'),
+(9060, '幻象裝備-覆殼長靴'),
+(9061, '幻象裝備-覆殼手套'),
+(9062, '幻象裝備-惡魔外衣'),
+(9063, '幻象裝備-惡魔長襪'),
+(9064, '幻象裝備-惡魔長靴'),
+(9065, '幻象裝備-惡魔手套'),
+(9066, '幻象裝備-閃耀頭箍'),
+(9067, '幻象裝備-夏隆胸甲'),
+(9068, '幻象裝備-夏隆脛甲'),
+(9069, '幻象裝備-夏隆頭盔'),
+(9071, '幻象裝備-夏隆長手套'),
+(9072, '幻象裝備-夏隆靴'),
+(9073, '幻象裝備-夏隆皮衫'),
+(9074, '幻象裝備-夏隆皮脛甲'),
+(9075, '幻象裝備-夏隆長手套'),
+(9076, '幻象裝備-夏隆靴'),
+(9077, '幻象裝備-夏隆外衣'),
+(9078, '幻象裝備-夏隆長襪'),
+(9079, '幻象裝備-夏隆長手套'),
+(9080, '幻象裝備-夏隆靴'),
+(9081, '幻象裝備-黑暗水晶胸甲'),
+(9082, '幻象裝備-黑暗水晶脛甲'),
+(9083, '幻象裝備-黑暗水晶頭盔'),
+(9085, '幻象裝備-黑暗水晶手套'),
+(9086, '幻象裝備-黑暗水晶靴'),
+(9087, '幻象裝備-黑暗水晶皮甲'),
+(9088, '幻象裝備-黑暗水晶皮脛甲'),
+(9089, '幻象裝備-黑暗水晶手套'),
+(9090, '幻象裝備-黑暗水晶靴'),
+(9091, '幻象裝備-黑暗水晶長袍'),
+(9092, '幻象裝備-黑暗水晶手套'),
+(9093, '幻象裝備-黑暗水晶靴'),
+(9094, '幻象裝備-聖威金屬盔甲'),
+(9095, '幻象裝備-聖威頭箍'),
+(9096, '幻象裝備-聖威手套'),
+(9097, '幻象裝備-聖威靴'),
+(9098, '幻象裝備-聖威皮甲'),
+(9099, '幻象裝備-聖威手套'),
+(9100, '幻象裝備-聖威靴'),
+(9101, '幻象裝備-聖威長袍'),
+(9102, '幻象裝備-聖威手套'),
+(9103, '幻象裝備-聖威靴'),
+(9128, '幻象裝備-米索莉長手套'),
+(9138, '聖誕帽'),
+(9145, '小天使之翼-活動用'),
+(9158, '黃金之環-活動用'),
+(9159, '白銀之環-活動用'),
+(9160, '中世紀皮帽-活動用'),
+(9177, '幻象裝備-熊熊帽 復活'),
+(9178, '幻象裝備-豬豬帽 復活'),
+(9179, '幻象裝備-小丑帽 復活'),
+(9180, '幻象裝備-魔法師帽 復活'),
+(9181, '幻象裝備-花花公子帽 復活'),
+(9182, '幻象裝備-浪漫圓帽 復活'),
+(9183, '幻象裝備-鋼鐵之環 復活'),
+(9184, '幻象裝備-熊熊帽 返回'),
+(9185, '幻象裝備-豬豬帽 返回'),
+(9186, '幻象裝備-小丑帽 返回'),
+(9187, '幻象裝備-魔法師帽 返回'),
+(9188, '幻象裝備-花花公子帽 返回'),
+(9189, '幻象裝備-浪漫圓帽 返回'),
+(9190, '幻象裝備-鋼鐵之環 返回'),
+(9191, '幻象裝備-熊熊帽 大頭'),
+(9192, '幻象裝備-豬豬帽 大頭'),
+(9193, '幻象裝備-小丑帽 大頭'),
+(9194, '幻象裝備-魔法師帽 大頭'),
+(9195, '幻象裝備-花花公子帽 大頭'),
+(9196, '幻象裝備-浪漫圓帽 大頭'),
+(9197, '幻象裝備-鋼鐵之環 大頭'),
+(9198, '幻象裝備-熊熊帽 煙火'),
+(9199, '幻象裝備-豬豬帽 煙火'),
+(9200, '幻象裝備-小丑帽 煙火'),
+(9201, '幻象裝備-魔法師帽 煙火'),
+(9202, '幻象裝備-花花公子帽 煙火'),
+(9203, '幻象裝備-浪漫圓帽 煙火'),
+(9204, '幻象裝備-鋼鐵之環 煙火'),
+(9208, '幻影面具-活動用'),
+(9391, '人類頭箍'),
+(9392, '精靈頭箍'),
+(9393, '黑暗精靈頭箍'),
+(9394, '半獸人頭箍'),
+(9395, '矮人頭箍'),
+(9396, '闇天使頭箍'),
+(9397, '護盾大師頭箍'),
+(9398, '詩人頭箍'),
+(9399, '力量大師頭箍'),
+(9400, '武器大師頭箍'),
+(9401, '匕首大師頭箍'),
+(9402, '弓術大師頭箍'),
+(9403, '巫師頭箍'),
+(9404, '召喚士頭箍'),
+(9405, '牧師頭箍'),
+(9406, '魔法師頭箍'),
+(9407, '武器大師頭箍(闇天使專用)'),
+(9408, '弓術大師頭箍(闇天使專用)'),
+(9409, '黑色幻影面具-活動用'),
+(9410, '人類高級頭箍'),
+(9411, '精靈高級頭箍'),
+(9412, '黑暗精靈高級頭箍'),
+(9413, '半獸人高級頭箍'),
+(9414, '矮人高級頭箍'),
+(9415, '闇天使高級頭箍'),
+(9416, '王朝盔甲'),
+(9417, '王朝盔甲 護盾大師'),
+(9418, '王朝盔甲 武器大師'),
+(9419, '王朝盔甲 力量大師'),
+(9420, '王朝盔甲 詩人'),
+(9421, '王朝脛甲'),
+(9422, '王朝頭盔'),
+(9423, '王朝長手套 重裝用'),
+(9424, '王朝長靴 重裝用'),
+(9425, '王朝皮甲'),
+(9426, '王朝皮甲 匕首大師'),
+(9427, '王朝皮甲 弓箭大師'),
+(9428, '王朝皮脛甲'),
+(9429, '王朝皮頭盔'),
+(9430, '王朝皮手套 輕裝用'),
+(9431, '王朝皮長靴 輕裝用'),
+(9432, '王朝外衣'),
+(9433, '王朝外衣 牧師'),
+(9434, '王朝外衣 法師'),
+(9435, '王朝外衣 召喚士'),
+(9436, '王朝外衣 巫師'),
+(9437, '王朝長襪'),
+(9438, '王朝頭箍'),
+(9439, '王朝手套 長袍用'),
+(9440, '王朝鞋 長袍用'),
+(9452, '封印的王朝耳環'),
+(9453, '封印的王朝項鍊'),
+(9454, '封印的王朝戒指'),
+(9455, '王朝耳環'),
+(9456, '王朝項鍊'),
+(9457, '王朝戒指'),
+(9458, '王朝耳環 衝擊抗性'),
+(9459, '王朝項鍊 衝擊抗性'),
+(9460, '王朝戒指 衝擊抗性'),
+(9461, '王朝耳環 施毒抗性'),
+(9462, '王朝項鍊 施毒抗性'),
+(9463, '王朝戒指 施毒抗性'),
+(9464, '王朝耳環 出血抗性'),
+(9465, '王朝項鍊 出血抗性'),
+(9466, '王朝戒指 出血抗性'),
+(9467, '王朝耳環 睡眠抗性'),
+(9468, '王朝項鍊 睡眠抗性'),
+(9469, '王朝戒指 睡眠抗性'),
+(9470, '王朝耳環 麻痺抗性'),
+(9471, '王朝項鍊 麻痺抗性'),
+(9472, '王朝戒指 麻痺抗性'),
+(9473, '王朝耳環 束縛抗性'),
+(9474, '王朝項鍊 束縛抗性'),
+(9475, '王朝戒指 束縛抗性'),
+(9476, '王朝耳環 恐懼抗性'),
+(9477, '王朝項鍊 恐懼抗性'),
+(9478, '王朝戒指 恐懼抗性'),
+(9479, '王朝耳環(不使用) 黑暗抗性'),
+(9480, '王朝項鍊(不使用) 黑暗抗性'),
+(9481, '王朝戒指(不使用) 黑暗抗性'),
+(9514, '封印的王朝盔甲'),
+(9515, '封印的王朝脛甲'),
+(9516, '封印的王朝頭盔'),
+(9517, '封印的王朝長手套'),
+(9518, '封印的王朝長靴'),
+(9519, '封印的王朝皮甲'),
+(9520, '封印的王朝皮脛甲'),
+(9521, '封印的王朝皮頭盔'),
+(9522, '封印的王朝皮手套'),
+(9523, '封印的王朝皮長靴'),
+(9524, '封印的王朝外衣'),
+(9525, '封印的王朝長襪'),
+(9526, '封印的王朝頭箍'),
+(9527, '封印的王朝手套'),
+(9528, '封印的王朝鞋'),
+(9577, '普通襯衫'),
+(9578, '棉質襯衫'),
+(9579, '絲質襯衫'),
+(9580, '薄皮質襯衫'),
+(9581, '鱗片襯衫'),
+(9582, '米索莉襯衫'),
+(9583, '條紋普通襯衫'),
+(9584, '條紋棉質襯衫'),
+(9585, '條紋絲質襯衫'),
+(9586, '薄條紋皮質襯衫'),
+(9587, '條紋鱗片襯衫'),
+(9588, '條紋米索莉襯衫'),
+(9589, '鐵手鐲'),
+(9590, '青銅手鐲'),
+(9591, '鋼鐵手鐲'),
+(9592, '米索莉手鐲'),
+(9605, '壺精封印手鐲-虹彩根據地'),
+(9606, '壺精封印手鐲-野獸農莊'),
+(9607, '壺精封印手鐲-古魯丁'),
+(9608, '壺精封印手鐲-狄恩'),
+(9609, '壺精封印手鐲-奇岩'),
+(9610, '壺精封印手鐲-歐瑞'),
+(9611, '壺精封印手鐲-亞丁'),
+(9612, '壺精封印手鐲-因納得立'),
+(9613, '壺精封印手鐲-高達特'),
+(9614, '壺精封印手鐲-魯因'),
+(9615, '壺精封印手鐲-修加特'),
+(9662, '鬃狼鱗甲'),
+(9663, '鬃狼青銅甲'),
+(9664, '鬃狼金屬甲'),
+(9665, '鬃狼米索莉甲'),
+(9666, '鬃狼奧里哈魯根甲'),
+(9667, '鬃狼奧里哈魯根合金甲'),
+(9669, '土著頭巾'),
+(9670, '土著上衣'),
+(9671, '土著下衣'),
+(9677, '風精靈戒指'),
+(9820, '幻象裝備-盟誓頭盔'),
+(9821, '幻象裝備-盟誓盔甲'),
+(9822, '幻象裝備-盟誓護手 重裝用'),
+(9823, '幻象裝備-盟誓軍靴 重裝用'),
+(9824, '幻象裝備-盟誓禮服'),
+(9825, '幻象裝備-盟誓手套 輕裝用'),
+(9826, '幻象裝備-盟誓禮鞋 輕裝用'),
+(9827, '幻象裝備-盟誓長袍'),
+(9828, '幻象裝備-盟誓絲質手套 長袍用'),
+(9829, '幻象裝備-盟誓涼鞋 長袍用'),
+(9830, '進階型阿貝拉頭盔'),
+(9831, '進階型阿貝拉盔甲'),
+(9832, '進階型阿貝拉護手 重裝用'),
+(9833, '進階型阿貝拉軍靴 重裝用'),
+(9834, '進階型阿貝拉禮服'),
+(9835, '進階型阿貝拉手套 輕裝用'),
+(9836, '進階型阿貝拉禮鞋 輕裝用'),
+(9837, '進階型阿貝拉長袍'),
+(9838, '進階型阿貝拉絲質手套 長袍用'),
+(9839, '進階型阿貝拉涼鞋 長袍用'),
+(9883, '熊熊帽 大頭'),
+(9884, '豬豬帽 大頭'),
+(9885, '小丑帽 大頭'),
+(9886, '魔法師帽 大頭'),
+(9887, '花花公子帽 大頭'),
+(9888, '浪漫圓帽 大頭'),
+(9889, '鋼鐵頭箍 大頭'),
+(9890, '熊熊帽 煙火'),
+(9891, '豬豬帽 煙火'),
+(9892, '小丑帽 煙火'),
+(9893, '魔法師帽 煙火'),
+(9894, '花花公子帽 煙火'),
+(9895, '浪漫圓帽 煙火'),
+(9896, '鋼鐵頭箍 煙火'),
+(9899, '重量減輕戒指'),
+(9900, '靜音之步戒指'),
+(9909, '壺精封印手鐲'),
+(9913, '護身符測試'),
+(9914, '青色護身符-攻擊力'),
+(9915, '青色護身符-魔法致命攻擊機率'),
+(9916, '青色護身符-狂暴'),
+(9917, '赤色護身符-使用MP小幅減少'),
+(9918, '赤色護身符-使用MP大幅減少'),
+(9919, '青色護身符-傷害反射'),
+(9920, '青色護身符-透明化'),
+(9921, '青色護身符-盾牌防禦'),
+(9922, '黑色護身符-繃帶'),
+(9923, '黑色護身符-逃脫'),
+(9924, '青色護身符-治療威力增加'),
+(9925, '赤色護身符-HP/CP恢復'),
+(9926, '青色護身符-防禦力'),
+(9927, '青色護身符-魔法防禦力'),
+(9928, '赤色護身符-MP恢復速度'),
+(9929, '青色護身符-盾牌防禦率增加'),
+(9930, '青色護身符-迴避'),
+(9931, '赤色護身符-MP緩和'),
+(9932, '青色護身符-加護'),
+(9933, '黃色護身符-攻擊力'),
+(9934, '黃色護身符-攻擊速度'),
+(9935, '黃色護身符-魔法防禦力'),
+(9936, '黃色護身符-魔法力'),
+(9937, '黃色護身符-施法速度'),
+(9938, '黃色護身符-命中'),
+(9939, '黃色護身符-防禦力'),
+(9940, '黃色護身符-速度增加'),
+(9941, '黃色護身符-移動速度'),
+(9942, '黃色護身符-致命攻擊減少'),
+(9943, '黃色護身符-致命攻擊威力'),
+(9944, '黃色護身符-致命攻擊迴避'),
+(9945, '黃色護身符-迴避'),
+(9946, '黃色護身符-治療威力'),
+(9947, '黃色護身符-CP恢復量'),
+(9948, '黃色護身符-HP恢復量'),
+(9949, '黃色護身符-MP恢復量'),
+(9950, '灰色護身符-重量標準'),
+(9951, '灰色護身符-中級精通釣魚'),
+(9952, '橙色護身符-溫泉鬥志藥水'),
+(9953, '橙色護身符-生命靈藥'),
+(9954, '橙色護身符-精神靈藥'),
+(9955, '黑色護身符-魔法沉默解除'),
+(9956, '黑色護身符-魔法逃脫'),
+(9957, '黑色護身符-物理逃脫'),
+(9958, '黑色護身符-物理沉默解除'),
+(9959, '黑色護身符-沉默解除'),
+(9960, '白色護身符-恐懼抗性'),
+(9961, '白色護身符-麻痺抗性'),
+(9962, '白色護身符-休克抗性'),
+(9963, '白色護身符-睡眠抗性'),
+(9964, '白色護身符-出血抗性'),
+(9965, '白色護身符-魔法消除抗性'),
+(9966, '白色護身符-束縛抗性'),
+(10018, '壺精封印手鐲-要塞'),
+(10019, '鎖子胸甲'),
+(10020, '鋼鐵脛甲'),
+(10021, '水晶獅皮襯衫'),
+(10022, '水晶獅皮脛甲'),
+(10023, '受詛咒的外衣'),
+(10024, '受詛咒的長襪'),
+(10119, '王朝符印'),
+(10120, '封印的王朝符印'),
+(10121, '封印的祕儀符印'),
+(10122, '紅新月耳環'),
+(10123, '奉獻項鍊'),
+(10124, '奉獻戒指'),
+(10126, '王朝皮甲 力量大師'),
+(10127, '王朝皮甲 武器大師'),
+(10139, '壺精手鐲'),
+(10140, '祝福的返回戒指'),
+(10141, '灰色護身符-雪人變身'),
+(10142, '灰色護身符-野牛變身'),
+(10158, '灰色護身符-高級精通釣魚'),
+(10168, '王朝皮甲 法師'),
+(10169, '魔法師頭箍(闇天使專用)'),
+(10170, '巴爾勒的耳環'),
+(10175, '妖怪頭箍-活動用'),
+(10176, '半緣假面-活動用'),
+(10177, '闇剎面具-活動用'),
+(10207, '進階型條紋鱗片襯衫'),
+(10208, '進階型條紋米索莉襯衫'),
+(10209, '進階型鋼鐵手鐲'),
+(10210, '進階型米索莉手鐲'),
+(10211, '祝福的復活戒指'),
+(10214, '王朝皮甲 召喚士'),
+(10227, '王朝白金盔甲'),
+(10228, '王朝白金盔甲 護盾大師'),
+(10229, '王朝白金盔甲 武器大師'),
+(10230, '王朝白金盔甲 力量大師'),
+(10231, '王朝白金盔甲 詩人'),
+(10232, '王朝寶石皮甲'),
+(10233, '王朝寶石皮甲 匕首大師'),
+(10234, '王朝寶石皮甲 弓箭大師'),
+(10235, '王朝銀絲緞外衣'),
+(10236, '王朝銀絲緞外衣 牧師'),
+(10237, '王朝銀絲緞外衣 法師'),
+(10238, '王朝銀絲緞外衣 召喚士'),
+(10239, '王朝銀絲緞外衣 巫師'),
+(10240, '鳥窩帽'),
+(10241, '紫色維京頭箍'),
+(10242, '金色維京頭箍'),
+(10243, '貓熊帽'),
+(10244, '白羊帽'),
+(10245, '黑羊帽'),
+(10246, '青蛙帽'),
+(10247, '魚帽'),
+(10248, '草帽'),
+(10249, '弱雞帽'),
+(10250, '探險家帽-活動用'),
+(10251, '中世紀舞會面具'),
+(10273, '騎乘狼召喚手鐲'),
+(10314, '巴列斯戒指'),
+(10315, '幻象裝備-紫色維京頭箍'),
+(10316, '壺精封印手鐲-小天使 煙火'),
+(10317, '壺精封印手鐲-小天使 大頭'),
+(10318, '壺精封印手鐲-小天使 返回'),
+(10319, '壺精封印手鐲-小天使 復活'),
+(10320, '壺精封印手鐲-小天使'),
+(10321, '幻象裝備-金色維京頭箍'),
+(10322, '壺精封印手鐲-小惡魔 煙火'),
+(10323, '壺精封印手鐲-小惡魔 大頭'),
+(10324, '壺精封印手鐲-小惡魔 返回'),
+(10325, '壺精封印手鐲-小惡魔 復活'),
+(10326, '壺精封印手鐲-小惡魔'),
+(10416, '青色護身符-爆發'),
+(10417, '青色護身符-魔法爆發力'),
+(10418, '白色護身符-風暴'),
+(10419, '白色護身符-黑暗'),
+(10420, '白色護身符-水'),
+(10421, '白色護身符-火'),
+(10422, '白色護身符-光'),
+(10423, '青色護身符-自爆攻擊'),
+(10424, '青色護身符-終極治癒'),
+(10470, '幻象裝備-紅新月耳環'),
+(10471, '幻象裝備-奉獻戒指'),
+(10472, '幻象裝備-奉獻項鍊'),
+(10487, '王朝寶石皮甲 力量大師'),
+(10488, '王朝寶石皮甲 武器大師'),
+(10489, '王朝寶石皮甲 法師'),
+(10490, '王朝寶石皮甲 召喚士'),
+(10491, '絲質襯衫 HP'),
+(10492, '絲質襯衫 MP'),
+(10493, '絲質襯衫 CP'),
+(10494, '薄皮質襯衫 HP'),
+(10495, '薄皮質襯衫 MP'),
+(10496, '薄皮質襯衫 CP'),
+(10497, '鱗片襯衫 HP'),
+(10498, '鱗片襯衫 MP'),
+(10499, '鱗片襯衫 CP'),
+(10500, '米索莉襯衫 HP'),
+(10501, '米索莉襯衫 MP'),
+(10502, '米索莉襯衫 CP'),
+(10503, '條紋絲質襯衫 HP'),
+(10504, '條紋絲質襯衫 MP'),
+(10505, '條紋絲質襯衫 CP'),
+(10506, '薄條紋皮質襯衫 HP'),
+(10507, '薄條紋皮質襯衫 MP'),
+(10508, '薄條紋皮質襯衫 CP'),
+(10509, '條紋鱗片襯衫 HP'),
+(10510, '條紋鱗片襯衫 MP'),
+(10511, '條紋鱗片襯衫 CP'),
+(10512, '條紋米索莉襯衫 HP'),
+(10513, '條紋米索莉襯衫 MP'),
+(10514, '條紋米索莉襯衫 CP'),
+(10518, '赤色護身符-生命力'),
+(10519, '白色護身符-大地'),
+(10533, '青色護身符-攻擊力'),
+(10534, '青色護身符-盾牌防禦'),
+(10535, '黃色護身符-防禦力'),
+(10536, '黃色護身符-魔法力'),
+(10537, '黃色護身符-迴避'),
+(10538, '黃色護身符-治療威力'),
+(10539, '黃色護身符-CP恢復量'),
+(10540, '黃色護身符-HP恢復量'),
+(10541, '黃色護身符-次級MP恢復量'),
+(10542, '赤色護身符-HP/CP恢復'),
+(10543, '黃色護身符-移動速度'),
+(10606, '壺精封印手鐲-魯道夫'),
+(10613, '鳥窩帽-活動用'),
+(10614, '白羊帽-活動用'),
+(10615, '黑羊帽-活動用'),
+(10616, '草帽-活動用'),
+(10617, '螞蟻帽 2008年'),
+(10618, '豺狼帽 2008年'),
+(10619, '狼帽 2008年'),
+(10620, '幻象裝備-螞蟻帽 祝福返回'),
+(10621, '幻象裝備-螞蟻帽 祝福復活'),
+(10622, '幻象裝備-螞蟻帽 煙火'),
+(10623, '幻象裝備-螞蟻帽 大頭'),
+(10624, '幻象裝備-豺狼帽 祝福返回'),
+(10625, '幻象裝備-豺狼帽 祝福復活'),
+(10626, '幻象裝備-豺狼帽 煙火'),
+(10627, '幻象裝備-豺狼帽 大頭'),
+(10628, '幻象裝備-狼帽 祝福返回'),
+(10629, '幻象裝備-狼帽 祝福復活'),
+(10630, '幻象裝備-狼帽 煙火'),
+(10631, '幻象裝備-狼帽 大頭'),
+(10658, '寵物飾品(無用)'),
+(10659, '壺精召喚手鐲-猴子'),
+(10660, '壺精召喚手鐲-獅鷲'),
+(10793, '夢魘盔甲 {對戰用}'),
+(10794, '聖威金屬盔甲 {對戰用}'),
+(10795, '夢魘皮甲 {對戰用}'),
+(10796, '聖威皮甲 {對戰用}'),
+(10797, '夢魘長袍 {對戰用}'),
+(10798, '聖威長袍 {對戰用}'),
+(10799, '帝國聖軍胸甲 {對戰用}'),
+(10800, '紅龍皮甲 {對戰用}'),
+(10801, '大祕儀長袍 {對戰用}'),
+(10802, '王朝盔甲 {對戰用}'),
+(10803, '王朝盔甲 {對戰用} 護盾大師'),
+(10804, '王朝盔甲 {對戰用} 武器大師'),
+(10805, '王朝盔甲 {對戰用} 力量大師'),
+(10806, '王朝盔甲 {對戰用} 詩人'),
+(10807, '王朝皮甲 {對戰用}'),
+(10808, '王朝皮甲 {對戰用} 匕首大師'),
+(10809, '王朝皮甲 {對戰用} 弓箭大師'),
+(10810, '王朝外衣 {對戰用}'),
+(10811, '王朝外衣 {對戰用} 牧師'),
+(10812, '王朝外衣 {對戰用} 法師'),
+(10813, '王朝外衣 {對戰用} 召喚士'),
+(10814, '王朝外衣 {對戰用} 巫師'),
+(10815, '王朝皮甲 {對戰用} 力量大師'),
+(10816, '王朝皮甲 {對戰用} 武器大師'),
+(10817, '王朝皮甲 {對戰用} 法師'),
+(10818, '王朝皮甲 {對戰用} 召喚士'),
+(10819, '王朝白金盔甲 {對戰用}'),
+(10820, '王朝白金盔甲 {對戰用} 護盾大師'),
+(10821, '王朝白金盔甲 {對戰用} 武器大師'),
+(10822, '王朝白金盔甲 {對戰用} 力量大師'),
+(10823, '王朝白金盔甲 {對戰用} 詩人'),
+(10824, '王朝寶石皮甲 {對戰用}'),
+(10825, '王朝寶石皮甲 {對戰用} 匕首大師'),
+(10826, '王朝寶石皮甲 {對戰用} 弓箭大師'),
+(10827, '王朝銀絲緞外衣 {對戰用}'),
+(10828, '王朝銀絲緞外衣 {對戰用} 牧師'),
+(10829, '王朝銀絲緞外衣 {對戰用} 法師'),
+(10830, '王朝銀絲緞外衣 {對戰用} 召喚士'),
+(10831, '王朝銀絲緞外衣 {對戰用} 巫師'),
+(10832, '王朝寶石皮甲 {對戰用} 力量大師'),
+(10833, '王朝寶石皮甲 {對戰用} 武器大師'),
+(10834, '王朝寶石皮甲 {對戰用} 法師'),
+(10835, '王朝寶石皮甲 {對戰用} 召喚士'),
+(11349, '封印的夏隆長手套'),
+(11350, '封印的夏隆靴'),
+(11351, '封印的阿巴敦手套'),
+(11352, '封印的阿巴敦靴'),
+(11353, '夏隆皮脛甲'),
+(11354, '夏隆皮衫'),
+(11355, '夏隆脛甲'),
+(11356, '夏隆長手套 重裝用'),
+(11357, '夏隆長手套 輕裝用'),
+(11358, '夏隆長手套 長袍用'),
+(11359, '夏隆靴 重裝用'),
+(11360, '夏隆靴 輕裝用'),
+(11361, '夏隆靴 長袍用'),
+(11363, '夏隆頭盔 重裝用'),
+(11364, '夏隆胸甲'),
+(11365, '阿巴敦手套 重裝用'),
+(11366, '阿巴敦手套 輕裝用'),
+(11367, '阿巴敦手套 長袍用'),
+(11368, '阿巴敦皮甲'),
+(11369, '阿巴敦長袍'),
+(11370, '阿巴敦靴 重裝用'),
+(11371, '阿巴敦靴 輕裝用'),
+(11372, '阿巴敦靴 長袍用'),
+(11373, '阿巴敦頭箍 重裝用'),
+(11375, '阿巴敦脛甲'),
+(11376, '阿巴敦胸甲'),
+(11377, '夏隆外衣'),
+(11378, '夏隆長襪'),
+(11379, '末日手套 重裝用'),
+(11380, '末日手套 輕裝用'),
+(11381, '末日手套 長袍用'),
+(11382, '末日靴 重裝用'),
+(11383, '末日靴 輕裝用'),
+(11384, '末日靴 長袍用'),
+(11386, '末日金屬盔甲'),
+(11387, '末日頭盔 重裝用'),
+(11388, '末日皮甲'),
+(11389, '封印的末日手套'),
+(11390, '封印的末日靴'),
+(11391, '封印的青狼長靴'),
+(11392, '封印的青狼手套'),
+(11393, '末日外衣'),
+(11394, '青狼脛甲'),
+(11395, '青狼皮甲'),
+(11396, '青狼長靴 重裝用'),
+(11397, '青狼長靴 輕裝用'),
+(11398, '青狼長靴 長袍用'),
+(11399, '青狼手套 重裝用'),
+(11400, '青狼手套 輕裝用'),
+(11401, '青狼手套 長袍用'),
+(11402, '青狼外衣'),
+(11403, '青狼頭盔 重裝用'),
+(11404, '青狼長襪'),
+(11405, '青狼胸甲'),
+(11406, '末日長襪'),
+(11407, '黑暗水晶脛甲'),
+(11408, '黑暗水晶手套 重裝用'),
+(11409, '黑暗水晶手套 輕裝用'),
+(11410, '黑暗水晶手套 長袍用'),
+(11411, '黑暗水晶皮甲'),
+(11412, '黑暗水晶長袍'),
+(11413, '黑暗水晶靴 重裝用'),
+(11414, '黑暗水晶靴 輕裝用'),
+(11415, '黑暗水晶靴 長袍用'),
+(11417, '黑暗水晶頭盔 重裝用'),
+(11418, '黑暗水晶胸甲'),
+(11419, '黑暗水晶皮脛甲'),
+(11420, '封印的黑暗水晶脛甲'),
+(11421, '封印的黑暗水晶手套'),
+(11422, '封印的黑暗水晶皮甲'),
+(11423, '封印的黑暗水晶長袍'),
+(11424, '封印的黑暗水晶靴'),
+(11426, '封印的黑暗水晶頭盔 重裝用'),
+(11427, '封印的黑暗水晶胸甲'),
+(11428, '封印的黑暗水晶皮脛甲'),
+(11429, '封印的塔魯手套'),
+(11430, '封印的塔魯皮甲'),
+(11431, '封印的塔魯靴'),
+(11432, '封印的塔魯外衣'),
+(11433, '封印的塔魯金屬盔甲'),
+(11434, '封印的塔魯帽 重裝用'),
+(11435, '封印的塔魯長襪'),
+(11436, '(不使用)聖靈斗篷'),
+(11437, '塔魯手套 重裝用'),
+(11438, '塔魯手套 輕裝用'),
+(11439, '塔魯手套 長袍用'),
+(11440, '塔魯皮甲'),
+(11441, '塔魯靴 重裝用'),
+(11442, '塔魯靴 輕裝用'),
+(11443, '塔魯靴 長袍用'),
+(11444, '塔魯外衣'),
+(11445, '塔魯金屬盔甲'),
+(11446, '塔魯帽 重裝用'),
+(11447, '塔魯長襪'),
+(11448, '聖威手套 重裝用'),
+(11449, '聖威手套 輕裝用'),
+(11450, '聖威手套 長袍用'),
+(11451, '聖威皮甲'),
+(11452, '聖威長袍'),
+(11453, '聖威靴 重裝用'),
+(11454, '聖威靴 輕裝用'),
+(11455, '聖威靴 長袍用'),
+(11456, '聖威頭箍 重裝用'),
+(11457, '聖威金屬盔甲'),
+(11458, '封印的聖威手套'),
+(11459, '封印的聖威皮甲'),
+(11460, '封印的聖威長袍'),
+(11461, '封印的聖威靴'),
+(11462, '封印的聖威頭箍 重裝用'),
+(11463, '封印的聖威金屬盔甲'),
+(11464, '封印的夢魘盔甲'),
+(11465, '封印的夢魘手套'),
+(11466, '封印的夢魘皮甲'),
+(11467, '封印的夢魘長袍'),
+(11468, '封印的夢魘靴'),
+(11470, '封印的夢魘頭盔 重裝用'),
+(11471, '夢魘盔甲'),
+(11472, '夢魘手套 重裝用'),
+(11473, '夢魘手套 輕裝用'),
+(11474, '夢魘手套 長袍用'),
+(11475, '夢魘皮甲'),
+(11476, '夢魘長袍'),
+(11477, '夢魘靴 重裝用'),
+(11478, '夢魘靴 輕裝用'),
+(11479, '夢魘靴 長袍用'),
+(11481, '夢魘頭盔 重裝用'),
+(11482, '鬃狼奧里哈魯根甲'),
+(11483, '紅龍皮手套'),
+(11484, '紅龍皮靴'),
+(11485, '紅龍皮甲'),
+(11486, '紅龍皮盔'),
+(11487, '大祕儀手套'),
+(11488, '大祕儀長袍'),
+(11489, '大祕儀長靴'),
+(11490, '大祕儀頭箍'),
+(11491, '封印的紅龍皮手套'),
+(11492, '封印的紅龍皮靴'),
+(11493, '封印的紅龍皮甲'),
+(11494, '封印的紅龍皮盔'),
+(11495, '封印的大祕儀手套'),
+(11496, '封印的大祕儀長袍'),
+(11497, '封印的大祕儀長靴'),
+(11498, '封印的大祕儀頭箍'),
+(11499, '封印的帝國聖軍脛甲'),
+(11500, '封印的帝國聖軍長手套'),
+(11501, '封印的帝國聖軍長靴'),
+(11503, '封印的帝國聖軍頭盔'),
+(11504, '封印的帝國聖軍胸甲'),
+(11505, '帝國聖軍脛甲'),
+(11506, '帝國聖軍長手套'),
+(11507, '帝國聖軍長靴'),
+(11509, '帝國聖軍頭盔'),
+(11510, '帝國聖軍胸甲'),
+(11511, '鬃狼奧里哈魯根合金甲'),
+(11512, '王朝脛甲'),
+(11513, '王朝長手套'),
+(11514, '王朝手套'),
+(11515, '王朝皮手套'),
+(11516, '王朝皮脛甲'),
+(11517, '王朝皮甲'),
+(11518, '王朝皮甲'),
+(11519, '王朝皮甲'),
+(11520, '王朝皮甲'),
+(11521, '王朝皮甲'),
+(11522, '王朝皮甲'),
+(11523, '王朝皮甲'),
+(11524, '王朝皮長靴'),
+(11525, '王朝皮頭盔'),
+(11526, '王朝長靴'),
+(11527, '王朝盔甲'),
+(11528, '王朝盔甲'),
+(11529, '王朝盔甲'),
+(11530, '王朝盔甲'),
+(11531, '王朝盔甲'),
+(11533, '王朝鞋'),
+(11534, '王朝銀絲緞外衣'),
+(11535, '王朝銀絲緞外衣'),
+(11536, '王朝銀絲緞外衣'),
+(11537, '王朝銀絲緞外衣'),
+(11538, '王朝銀絲緞外衣'),
+(11539, '王朝頭箍'),
+(11540, '王朝寶石皮甲'),
+(11541, '王朝寶石皮甲'),
+(11542, '王朝寶石皮甲'),
+(11543, '王朝寶石皮甲'),
+(11544, '王朝寶石皮甲'),
+(11545, '王朝寶石皮甲'),
+(11546, '王朝寶石皮甲'),
+(11547, '王朝外衣'),
+(11548, '王朝外衣'),
+(11549, '王朝外衣'),
+(11550, '王朝外衣'),
+(11551, '王朝外衣'),
+(11552, '王朝白金盔甲'),
+(11553, '王朝白金盔甲'),
+(11554, '王朝白金盔甲'),
+(11555, '王朝白金盔甲'),
+(11556, '王朝白金盔甲'),
+(11557, '王朝頭盔 重裝用'),
+(11558, '王朝長襪'),
+(11559, '封印的王朝脛甲'),
+(11560, '封印的王朝長手套'),
+(11561, '封印的王朝手套'),
+(11562, '封印的王朝皮手套'),
+(11563, '封印的王朝皮脛甲'),
+(11564, '封印的王朝皮甲'),
+(11565, '封印的王朝皮長靴'),
+(11566, '封印的王朝皮頭盔'),
+(11567, '封印的王朝長靴'),
+(11568, '封印的王朝盔甲'),
+(11570, '封印的王朝鞋'),
+(11571, '封印的王朝頭箍'),
+(11572, '封印的王朝外衣'),
+(11573, '封印的王朝頭盔'),
+(11574, '封印的王朝長襪'),
+(11575, '金剛石耳環'),
+(11576, '金剛石項鍊'),
+(11577, '金剛石戒指'),
+(11578, '黑光耳環'),
+(11579, '黑光項鍊'),
+(11580, '黑光戒指'),
+(11581, '封印的不死鳥項鍊'),
+(11582, '封印的不死鳥戒指'),
+(11583, '封印的不死鳥耳環'),
+(11584, '不死鳥項鍊'),
+(11585, '不死鳥戒指'),
+(11586, '不死鳥耳環'),
+(11587, '聖威項鍊'),
+(11588, '聖威戒指'),
+(11589, '聖威耳環'),
+(11590, '封印的聖威項鍊'),
+(11591, '封印的聖威戒指'),
+(11592, '封印的聖威耳環'),
+(11593, '封印的泰狄奧森項鍊'),
+(11594, '封印的泰狄奧森戒指'),
+(11595, '封印的泰狄奧森耳環'),
+(11596, '泰狄奧森項鍊'),
+(11597, '泰狄奧森戒指'),
+(11598, '泰狄奧森耳環'),
+(11599, '王朝項鍊'),
+(11600, '王朝戒指'),
+(11601, '王朝耳環'),
+(11602, '封印的王朝項鍊'),
+(11603, '封印的王朝戒指'),
+(11604, '封印的王朝耳環'),
+(12006, '基本型-皮靴'),
+(12007, '基本型-高級皮手套'),
+(12008, '基本型-鎖子胸甲'),
+(12009, '基本型-骨頭盔'),
+(12010, '基本型-受詛咒的外衣'),
+(12011, '基本型-受詛咒的長襪'),
+(12012, '基本型-鋼鐵脛甲'),
+(12014, '基本型-水晶獅皮脛甲'),
+(12015, '基本型-水晶獅皮襯衫'),
+(12016, '基本型-長皮手套'),
+(12017, '基本型-黑暗長襪'),
+(12018, '基本型-法師外衣'),
+(12019, '基本型-法師長襪'),
+(12020, '基本型-獅子皮脛甲'),
+(12021, '基本型-獅皮襯衫'),
+(12022, '基本型-純白外衣'),
+(12023, '基本型-鱗脛甲'),
+(12024, '基本型-鱗甲'),
+(12026, '基本型-精靈外衣'),
+(12027, '基本型-精靈長襪'),
+(12028, '基本型-青銅頭盔'),
+(12029, '基本型-藍鹿皮靴'),
+(12030, '基本型-矮人鱗甲'),
+(12031, '基本型-米索莉護甲'),
+(12032, '基本型-合金鱗甲'),
+(12033, '基本型-鋼鐵靴'),
+(12034, '基本型-強化皮脛甲'),
+(12035, '基本型-強化皮靴'),
+(12036, '基本型-強化皮襯衫'),
+(12037, '基本型-強化皮手套'),
+(12038, '基本型-長手套'),
+(12039, '基本型-矮人鱗脛甲'),
+(12040, '基本型-棉質襯衫'),
+(12041, '基本型-米索莉脛甲'),
+(12042, '基本型-米索莉板脛甲'),
+(12043, '基本型-米索莉板甲'),
+(12044, '基本型-狂暴盔甲'),
+(12045, '基本型-知識長靴'),
+(12046, '基本型-知識手套'),
+(12047, '基本型-知識外衣'),
+(12048, '基本型-知識長襪'),
+(12049, '基本型-合金鱗脛甲'),
+(12050, '基本型-頭盔'),
+(12052, '基本型-刺尾獅皮脛甲'),
+(12053, '基本型-刺尾獅皮靴'),
+(12054, '基本型-刺尾獅皮襯衫'),
+(12055, '基本型-刺尾獅皮手套'),
+(12056, '基本型-米索莉鱗脛甲'),
+(12057, '基本型-米索莉外衣'),
+(12058, '基本型-米索莉長襪'),
+(12059, '基本型-鎖子甲'),
+(12060, '基本型-鎖脛甲'),
+(12061, '基本型-鎖子甲長手套'),
+(12062, '基本型-鎖子長靴'),
+(12064, '基本型-鎖子頭盔'),
+(12065, '基本型-精靈米索莉手套'),
+(12066, '基本型-精靈米索莉靴'),
+(12067, '基本型-條紋棉質襯衫'),
+(12068, '基本型-安魂長手套'),
+(12070, '基本型-力量靴'),
+(12071, '基本型-襲擊靴'),
+(12072, '基本型-米索莉手套'),
+(12074, '基本型-火蜥蜴皮甲'),
+(12075, '基本型-火蜥蜴皮靴'),
+(12076, '基本型-食人魔力量長手套'),
+(12077, '基本型-金屬靴'),
+(12079, '基本型-金屬板頭盔'),
+(12080, '基本型-金屬脛甲'),
+(12081, '基本型-半身盔甲'),
+(12082, '基本型-賢者的舊手套'),
+(12083, '基本型-賢者的破衣'),
+(12084, '基本型-強化米索莉脛甲'),
+(12085, '基本型-強化米索莉靴'),
+(12086, '基本型-強化米索莉襯衫'),
+(12087, '基本型-強化米索莉手套'),
+(12088, '基本型-矮人鏈靴'),
+(12089, '基本型-封印長靴'),
+(12090, '基本型-鏈頭巾'),
+(12092, '基本型-鏈手套'),
+(12093, '基本型-鏈甲靴'),
+(12094, '基本型-鏈脛甲'),
+(12095, '基本型-鏈甲衫'),
+(12097, '基本型-卡勒米安手套'),
+(12098, '基本型-卡勒米安長靴'),
+(12099, '基本型-卡勒米安外衣'),
+(12100, '基本型-卡勒米安長襪'),
+(12101, '基本型-金屬皮長靴'),
+(12103, '基本型-金屬皮脛甲'),
+(12104, '基本型-金屬皮手套'),
+(12105, '基本型-金屬皮甲'),
+(12106, '基本型-巨型頭盔'),
+(12108, '基本型-矮人鏈手套'),
+(12109, '基本型-矮人鏈脛甲'),
+(12110, '基本型-矮人鏈甲衫'),
+(12111, '基本型-覆皮脛甲'),
+(12112, '基本型-覆皮手套'),
+(12113, '基本型-覆皮皮甲'),
+(12114, '基本型-覆皮長靴'),
+(12115, '基本型-封印長袍'),
+(12116, '基本型-封印手套'),
+(12117, '基本型-絲質襯衫'),
+(12118, '基本型-緋紅靴'),
+(12119, '基本型-米索莉長手套'),
+(12120, '基本型-閃耀頭箍'),
+(12121, '基本型-惡魔長靴'),
+(12122, '基本型-惡魔手套'),
+(12123, '基本型-惡魔外衣'),
+(12124, '基本型-惡魔長襪'),
+(12125, '基本型-合金靴'),
+(12127, '基本型-合金頭盔'),
+(12128, '基本型-合金盔甲'),
+(12130, '基本型-覆殼脛甲'),
+(12131, '基本型-覆殼手套'),
+(12132, '基本型-覆殼長靴'),
+(12133, '基本型-覆殼皮甲'),
+(12134, '基本型-飛龍皮手套'),
+(12135, '基本型-飛龍皮甲'),
+(12136, '基本型-飛龍皮長靴'),
+(12137, '基本型-神聖手套'),
+(12138, '基本型-神聖外衣'),
+(12139, '基本型-神聖長襪'),
+(12140, '基本型-條紋絲質襯衫'),
+(12141, '基本型-全覆式長手套'),
+(12142, '基本型-全覆式長靴'),
+(12144, '基本型-全身盔甲'),
+(12145, '基本型-全覆式頭盔'),
+(12146, '基本型-封印的夏隆長手套'),
+(12147, '基本型-封印的夏隆靴'),
+(12148, '基本型-封印的阿巴敦手套'),
+(12149, '基本型-封印的阿巴敦靴'),
+(12150, '基本型-夏隆皮脛甲'),
+(12151, '基本型-夏隆皮衫'),
+(12152, '基本型-夏隆脛甲'),
+(12153, '基本型-夏隆長手套 重裝用'),
+(12154, '基本型-夏隆長手套 輕裝用'),
+(12155, '基本型-夏隆長手套 長袍用'),
+(12156, '基本型-夏隆靴 重裝用'),
+(12157, '基本型-夏隆靴 輕裝用'),
+(12158, '基本型-夏隆靴 長袍用'),
+(12160, '基本型-夏隆頭盔'),
+(12161, '基本型-夏隆胸甲'),
+(12162, '基本型-阿巴敦手套 重裝用'),
+(12163, '基本型-阿巴敦手套 輕裝用'),
+(12164, '基本型-阿巴敦手套 長袍用'),
+(12165, '基本型-阿巴敦皮甲'),
+(12166, '基本型-阿巴敦長袍'),
+(12167, '基本型-阿巴敦靴 重裝用'),
+(12168, '基本型-阿巴敦靴 輕裝用'),
+(12169, '基本型-阿巴敦靴 長袍用'),
+(12170, '基本型-阿巴敦頭箍'),
+(12172, '基本型-阿巴敦脛甲'),
+(12173, '基本型-阿巴敦胸甲'),
+(12174, '基本型-薄皮質襯衫'),
+(12175, '基本型-夏隆外衣'),
+(12176, '基本型-夏隆長襪'),
+(12177, '基本型-末日手套 重裝用'),
+(12178, '基本型-末日手套 輕裝用'),
+(12179, '基本型-末日手套 長袍用'),
+(12180, '基本型-末日靴 重裝用'),
+(12181, '基本型-末日靴 輕裝用'),
+(12182, '基本型-末日靴 長袍用'),
+(12184, '基本型-末日金屬盔甲'),
+(12185, '基本型-末日頭盔'),
+(12186, '基本型-末日皮甲'),
+(12187, '基本型-封印的末日手套'),
+(12188, '基本型-封印的末日靴'),
+(12189, '基本型-封印的青狼長靴'),
+(12190, '基本型-封印的青狼手套'),
+(12191, '基本型-薄條紋皮質襯衫'),
+(12192, '基本型-末日外衣'),
+(12193, '基本型-青狼脛甲'),
+(12194, '基本型-青狼皮甲'),
+(12195, '基本型-青狼長靴 重裝用'),
+(12196, '基本型-青狼長靴 輕裝用'),
+(12197, '基本型-青狼長靴 長袍用'),
+(12198, '基本型-青狼手套 重裝用'),
+(12199, '基本型-青狼手套 輕裝用'),
+(12200, '基本型-青狼手套 長袍用'),
+(12201, '基本型-青狼外衣'),
+(12202, '基本型-青狼頭盔'),
+(12203, '基本型-青狼長襪'),
+(12204, '基本型-青狼胸甲'),
+(12205, '基本型-末日長襪'),
+(12206, '基本型-黑暗水晶脛甲'),
+(12207, '基本型-黑暗水晶手套 重裝用'),
+(12208, '基本型-黑暗水晶手套 輕裝用'),
+(12209, '基本型-黑暗水晶手套 長袍用'),
+(12210, '基本型-黑暗水晶皮甲'),
+(12211, '基本型-黑暗水晶長袍'),
+(12212, '基本型-黑暗水晶靴 重裝用'),
+(12213, '基本型-黑暗水晶靴 輕裝用'),
+(12214, '基本型-黑暗水晶靴 長袍用'),
+(12216, '基本型-黑暗水晶頭盔'),
+(12217, '基本型-黑暗水晶胸甲'),
+(12218, '基本型-黑暗水晶皮脛甲'),
+(12219, '基本型-鱗片襯衫'),
+(12220, '基本型-封印的黑暗水晶脛甲'),
+(12221, '基本型-封印的黑暗水晶手套'),
+(12222, '基本型-封印的黑暗水晶皮甲'),
+(12223, '基本型-封印的黑暗水晶長袍'),
+(12224, '基本型-封印的黑暗水晶靴'),
+(12226, '基本型-封印的黑暗水晶頭盔'),
+(12227, '基本型-封印的黑暗水晶胸甲'),
+(12228, '基本型-封印的黑暗水晶皮脛甲'),
+(12229, '基本型-封印的塔魯手套'),
+(12230, '基本型-封印的塔魯皮甲'),
+(12231, '基本型-封印的塔魯靴'),
+(12232, '基本型-封印的塔魯外衣'),
+(12233, '基本型-封印的塔魯金屬盔甲'),
+(12234, '基本型-封印的塔魯帽'),
+(12235, '基本型-封印的塔魯長襪'),
+(12236, '基本型-塔魯手套 重裝用'),
+(12237, '基本型-塔魯手套 輕裝用'),
+(12238, '基本型-塔魯手套 長袍用'),
+(12239, '基本型-塔魯皮甲'),
+(12240, '基本型-塔魯靴 重裝用'),
+(12241, '基本型-塔魯靴 輕裝用'),
+(12242, '基本型-塔魯靴 長袍用'),
+(12243, '基本型-塔魯外衣'),
+(12244, '基本型-塔魯金屬盔甲'),
+(12245, '基本型-塔魯帽'),
+(12246, '基本型-塔魯長襪'),
+(12247, '基本型-聖威手套 重裝用'),
+(12248, '基本型-聖威手套 輕裝用'),
+(12249, '基本型-聖威手套 長袍用'),
+(12250, '基本型-聖威皮甲'),
+(12251, '基本型-聖威長袍'),
+(12252, '基本型-聖威靴 重裝用'),
+(12253, '基本型-聖威靴 輕裝用'),
+(12254, '基本型-聖威靴 長袍用'),
+(12255, '基本型-聖威頭箍'),
+(12256, '基本型-聖威金屬盔甲'),
+(12257, '基本型-封印的聖威手套'),
+(12258, '基本型-封印的聖威皮甲'),
+(12259, '基本型-封印的聖威長袍'),
+(12260, '基本型-封印的聖威靴'),
+(12261, '基本型-封印的聖威頭箍'),
+(12262, '基本型-封印的聖威金屬盔甲'),
+(12263, '基本型-封印的夢魘盔甲'),
+(12264, '基本型-封印的夢魘手套'),
+(12265, '基本型-封印的夢魘皮甲'),
+(12266, '基本型-封印的夢魘長袍'),
+(12267, '基本型-封印的夢魘靴'),
+(12269, '基本型-封印的夢魘頭盔'),
+(12270, '基本型-夢魘盔甲'),
+(12271, '基本型-夢魘手套 重裝用'),
+(12272, '基本型-夢魘手套 輕裝用'),
+(12273, '基本型-夢魘手套 長袍用'),
+(12274, '基本型-夢魘皮甲'),
+(12275, '基本型-夢魘長袍'),
+(12276, '基本型-夢魘靴 重裝用'),
+(12277, '基本型-夢魘靴 輕裝用'),
+(12278, '基本型-夢魘靴 長袍用'),
+(12280, '基本型-夢魘頭盔'),
+(12281, '基本型-條紋鱗片襯衫'),
+(12282, '基本型-紅龍皮手套'),
+(12283, '基本型-紅龍皮靴'),
+(12284, '基本型-紅龍皮甲'),
+(12285, '基本型-紅龍皮盔'),
+(12286, '基本型-大祕儀手套'),
+(12287, '基本型-大祕儀長袍'),
+(12288, '基本型-大祕儀長靴'),
+(12289, '基本型-大祕儀頭箍'),
+(12290, '基本型-米索莉襯衫'),
+(12291, '基本型-封印的紅龍皮手套'),
+(12292, '基本型-封印的紅龍皮靴'),
+(12293, '基本型-封印的紅龍皮甲'),
+(12294, '基本型-封印的紅龍皮盔'),
+(12295, '基本型-封印的大祕儀手套'),
+(12296, '基本型-封印的大祕儀長袍'),
+(12297, '基本型-封印的大祕儀長靴'),
+(12298, '基本型-封印的大祕儀頭箍'),
+(12299, '基本型-封印的帝國聖軍脛甲'),
+(12300, '基本型-封印的帝國聖軍長手套'),
+(12301, '基本型-封印的帝國聖軍長靴'),
+(12303, '基本型-封印的帝國聖軍頭盔'),
+(12304, '基本型-封印的帝國聖軍胸甲'),
+(12305, '基本型-帝國聖軍脛甲'),
+(12306, '基本型-帝國聖軍長手套'),
+(12307, '基本型-帝國聖軍長靴'),
+(12309, '基本型-帝國聖軍頭盔'),
+(12310, '基本型-帝國聖軍胸甲'),
+(12311, '基本型-紅新月耳環'),
+(12312, '基本型-奉獻項鍊'),
+(12313, '基本型-奉獻戒指'),
+(12314, '基本型-魔力耳環'),
+(12315, '基本型-魔力項鍊'),
+(12316, '基本型-魔力戒指'),
+(12317, '基本型-古森林項鍊'),
+(12318, '基本型-虎眼耳環'),
+(12319, '基本型-黑珍珠戒指'),
+(12320, '基本型-精靈項鍊'),
+(12321, '基本型-精靈戒指'),
+(12322, '基本型-精靈耳環'),
+(12323, '基本型-米索莉戒指'),
+(12324, '基本型-黑暗項鍊'),
+(12325, '基本型-瑪瑙獸眼耳環'),
+(12326, '基本型-月長石耳環'),
+(12327, '基本型-水石項鍊'),
+(12328, '基本型-水石戒指'),
+(12329, '基本型-守護耳環'),
+(12330, '基本型-守護項鍊'),
+(12331, '基本型-守護戒指'),
+(12332, '基本型-封印耳環'),
+(12333, '基本型-永生戒指'),
+(12334, '基本型-人魚之淚'),
+(12335, '基本型-娜仙耳環'),
+(12336, '基本型-封印項鍊'),
+(12337, '基本型-封印戒指'),
+(12338, '基本型-金剛石耳環'),
+(12339, '基本型-金剛石項鍊'),
+(12340, '基本型-金剛石戒指'),
+(12341, '基本型-黑光耳環'),
+(12342, '基本型-黑光項鍊'),
+(12343, '基本型-黑光戒指'),
+(12344, '基本型-封印的不死鳥項鍊'),
+(12345, '基本型-封印的不死鳥耳環'),
+(12346, '基本型-封印的不死鳥戒指'),
+(12347, '基本型-不死鳥項鍊'),
+(12348, '基本型-不死鳥戒指'),
+(12349, '基本型-不死鳥耳環'),
+(12350, '基本型-封印的聖威項鍊'),
+(12351, '基本型-封印的聖威戒指'),
+(12352, '基本型-封印的聖威耳環'),
+(12353, '基本型-聖威項鍊'),
+(12354, '基本型-聖威戒指'),
+(12355, '基本型-聖威耳環'),
+(12356, '基本型-封印的泰狄奧森項鍊'),
+(12357, '基本型-封印的泰狄奧森戒指'),
+(12358, '基本型-封印的泰狄奧森耳環'),
+(12359, '基本型-泰狄奧森項鍊'),
+(12360, '基本型-泰狄奧森戒指'),
+(12361, '基本型-泰狄奧森耳環'),
+(12372, '猴子帽'),
+(12373, '豬仔帽'),
+(12740, '小寵物用鱗甲'),
+(12741, '小寵物用青銅甲'),
+(12742, '小寵物用金屬甲'),
+(12743, '小寵物用米索莉甲'),
+(12744, '小寵物用奧里哈魯根甲'),
+(12745, '小寵物用奧里哈魯根合金甲'),
+(12746, '水晶墜子'),
+(12747, '紅寶石墜子'),
+(12748, '藍寶石墜子'),
+(12749, '鑽石墜子'),
+(12750, '恩尼亞墜子'),
+(12751, '梭芷墜子'),
+(12752, '亞索沛墜子'),
+(12766, '黃金頭箍'),
+(12767, '白銀頭箍'),
+(12779, '壺精封印手鐲-小天使'),
+(12780, '壺精封印手鐲-小惡魔'),
+(12781, '豺狼帽'),
+(12782, '戰鬥貓帽 限時30日'),
+(12783, '皇后貓帽 限時30日'),
+(12784, '螞蟻帽'),
+(12785, '狼帽'),
+(12786, '眼怪帽 限時30日'),
+(12787, '棕熊帽 限時30日'),
+(12788, '蘑菇帽 限時30日'),
+(12789, '骷髏帽 限時30日'),
+(12790, '似鳥龍帽 限時30日'),
+(12791, '國王貓帽 限時30日'),
+(12792, '銀色貓帽 限時30日'),
+(12811, '祕儀符印'),
+(12812, '王朝符印'),
+(12813, '薄暮符印'),
+(12815, '赤色護身符-最大CP'),
+(12816, '赤色護身符-CP恢復量'),
+(12817, '黃色護身符-力量提升'),
+(12818, '黃色護身符-傷害轉移'),
+(12835, '幻象裝備-熊熊帽'),
+(12836, '幻象裝備-豬豬帽'),
+(12837, '幻象裝備-小丑帽'),
+(12838, '魚帽-活動用'),
+(12839, '中世紀舞會面具-活動用'),
+(12978, '夏隆頭盔 輕裝用'),
+(12979, '夏隆頭盔 長袍用'),
+(12980, '阿巴敦頭箍 輕裝用'),
+(12981, '阿巴敦頭箍 長袍用'),
+(12982, '末日頭盔 輕裝用'),
+(12983, '末日頭盔 長袍用'),
+(12984, '青狼頭盔 輕裝用'),
+(12985, '青狼頭盔 長袍用'),
+(12986, '黑暗水晶頭盔 輕裝用'),
+(12987, '黑暗水晶頭盔 長袍用'),
+(12988, '塔魯帽 輕裝用'),
+(12989, '塔魯帽 長袍用'),
+(12990, '聖威頭箍 輕裝用'),
+(12991, '聖威頭箍 長袍用'),
+(12992, '夢魘頭盔 輕裝用'),
+(12993, '夢魘頭盔 長袍用'),
+(12994, '封印的黑暗水晶頭盔 輕裝用'),
+(12995, '封印的黑暗水晶頭盔 長袍用'),
+(12996, '封印的塔魯帽 輕裝用'),
+(12997, '封印的塔魯帽 長袍用'),
+(12998, '封印的聖威頭箍 輕裝用'),
+(12999, '封印的聖威頭箍 長袍用'),
+(13000, '封印的夢魘頭盔 輕裝用'),
+(13001, '封印的夢魘頭盔 長袍用'),
+(13022, '淡紫鬃馬騎乘手鐲 限時7日'),
+(13023, '愛心壺精 限時30日'),
+(13024, '怒氣壺精 限時30日'),
+(13025, '開心壺精 限時30日'),
+(13026, '嗚咽壺精 限時30日'),
+(13050, '底格里斯專用防具'),
+(13058, '賽勒諾斯頭飾'),
+(13074, '幻象裝備-魔術師帽'),
+(13075, '幻象裝備-黑色面具'),
+(13076, '幻象裝備-蜻蜓護目鏡'),
+(13078, '祕儀符印'),
+(13137, '薄暮頭盔'),
+(13138, '薄暮皮頭盔'),
+(13139, '薄暮頭箍'),
+(13140, '薄暮貴族頭盔'),
+(13141, '薄暮貴族皮頭盔'),
+(13142, '薄暮貴族頭箍'),
+(13143, '封印的薄暮頭盔'),
+(13144, '封印的薄暮皮頭盔'),
+(13145, '封印的薄暮頭箍'),
+(13146, '封印的薄暮貴族頭盔'),
+(13147, '封印的薄暮貴族皮頭盔'),
+(13148, '封印的薄暮貴族頭箍'),
+(13234, '巴瑞卡卡輪(巴瑞卡賽勒諾斯用)'),
+(13235, '肯特拉卡輪(肯特拉獸人用)'),
+(13236, '奧歐卡輪'),
+(13237, '奧爾卡輪'),
+(13238, '奧耶卡輪'),
+(13239, '戰鬥貓帽 限時7日'),
+(13240, '皇后貓帽 限時7日'),
+(13241, '眼怪帽 限時7日'),
+(13242, '棕熊帽 限時7日'),
+(13243, '蘑菇帽 限時7日'),
+(13244, '骷髏帽 限時7日'),
+(13245, '似鳥龍帽 限時7日'),
+(13246, '國王貓帽 限時7日'),
+(13247, '銀色貓帽 限時7日'),
+(13254, '愛心壺精 限時7日'),
+(13260, '格蘭肯的鳴響鞋 限時10小時'),
+(13293, '菲拉卡耳環'),
+(13294, '菲拉卡戒指'),
+(13295, '菲拉卡手鐲'),
+(13296, '菲拉卡衫'),
+(13308, '淡紫鬃馬騎乘手鐲-活動用 限時7日'),
+(13309, '愛心壺精-活動用 限時30日'),
+(13310, '戰鬥貓帽-活動用 限時30日'),
+(13311, '皇后貓帽-活動用 限時30日'),
+(13312, '眼怪帽-活動用 限時30日'),
+(13313, '棕熊帽-活動用 限時30日'),
+(13314, '蘑菇帽-活動用 限時30日'),
+(13315, '骷髏帽-活動用 限時30日'),
+(13316, '似鳥龍帽-活動用 限時30日'),
+(13317, '國王貓帽-活動用 限時30日'),
+(13318, '銀色貓帽-活動用 限時30日'),
+(13325, '戰鬥貓帽-活動用 限時7日'),
+(13326, '皇后貓帽-活動用 限時7日'),
+(13327, '眼怪帽-活動用 限時7日'),
+(13328, '棕熊帽-活動用 限時7日'),
+(13329, '蘑菇帽-活動用 限時7日'),
+(13330, '骷髏帽-活動用 限時7日'),
+(13331, '似鳥龍帽-活動用 限時7日'),
+(13332, '國王貓帽-活動用 限時7日'),
+(13333, '銀色貓帽-活動用 限時7日'),
+(13340, '愛心壺精-活動用 限時7日'),
+(13389, '柯雷塔鱗片襯衫 CP'),
+(13390, '柯雷塔米索莉襯衫 CP'),
+(13391, '柯雷塔條紋鱗片襯衫 CP'),
+(13392, '柯雷塔條紋米索莉襯衫 CP'),
+(13393, '幻象裝備-猴子帽'),
+(13394, '幻象裝備-豬仔帽'),
+(13415, '青蛙帽'),
+(13416, '弱雞帽'),
+(13429, '熊熊帽-活動用'),
+(13430, '豬豬帽-活動用'),
+(13431, '小丑帽-活動用'),
+(13432, '薄暮胸甲'),
+(13433, '薄暮皮胸甲'),
+(13434, '薄暮外衣'),
+(13435, '薄暮貴族胸甲'),
+(13436, '薄暮貴族皮胸甲'),
+(13437, '薄暮貴族外衣'),
+(13438, '薄暮脛甲'),
+(13439, '薄暮護手'),
+(13440, '薄暮靴'),
+(13441, '薄暮皮脛甲'),
+(13442, '薄暮皮手套'),
+(13443, '薄暮皮靴'),
+(13444, '薄暮長襪'),
+(13445, '薄暮手套'),
+(13446, '薄暮鞋'),
+(13448, '薄暮貴族脛甲'),
+(13449, '薄暮貴族護手'),
+(13450, '薄暮貴族靴'),
+(13451, '薄暮貴族皮脛甲'),
+(13452, '薄暮貴族皮手套'),
+(13453, '薄暮貴族皮靴'),
+(13454, '薄暮貴族長襪'),
+(13455, '薄暮貴族手套'),
+(13456, '薄暮貴族鞋'),
+(13472, '因納得立勇猛頭箍'),
+(13473, '亞丁 勇猛頭箍'),
+(13474, '狄恩 勇猛頭箍'),
+(13475, '狄恩 射手頭箍'),
+(13476, '因納得立 射手頭箍'),
+(13477, '歐瑞 射手頭箍'),
+(13478, '古魯丁 賢者頭箍'),
+(13479, '魯因 賢者頭箍'),
+(13480, '奇岩 賢者頭箍'),
+(13481, '高達特 鬥爭頭箍'),
+(13482, '修加特 鬥爭頭箍'),
+(13483, '歐瑞 鬥爭頭箍'),
+(13484, '古魯丁 寧靜頭箍'),
+(13485, '修加特 寧靜頭箍'),
+(13486, '亞丁 寧靜頭箍'),
+(13487, '魯因 寧靜頭箍'),
+(13488, '生日帽'),
+(13489, '萬聖節帽'),
+(13490, '穿箭蘋果'),
+(13491, '凸眼'),
+(13492, '學士帽'),
+(13493, '時髦嘉年華頭箍'),
+(13494, '時髦天使戒指'),
+(13495, '時髦惡魔的角'),
+(13496, '時髦船長帽'),
+(13497, '時髦小雞帽'),
+(13498, '時髦法師帽'),
+(13499, '時髦小丑帽'),
+(13500, '時髦黑羽假面'),
+(13501, '時髦浪漫圓帽'),
+(13502, '時髦嘉年華頭箍'),
+(13503, '時髦中世紀舞會面具'),
+(13504, '時髦花花公子帽'),
+(13505, '時髦魚帽'),
+(13506, '進階型城主的王冠'),
+(13507, '火焰頭箍'),
+(13508, '結冰頭箍'),
+(13509, '暴風頭箍'),
+(13510, '震盪頭箍'),
+(13511, '黑暗頭箍'),
+(13512, '輝煌頭箍'),
+(13513, '採礦帽'),
+(13514, '進階型採礦帽'),
+(13515, '探險帽'),
+(13516, '進階型探險帽'),
+(13517, '活動-狸帽'),
+(13518, '活動-魔術師帽'),
+(13519, '活動-黑色面具'),
+(13520, '活動-珍島犬帽'),
+(13521, '活動-獅子狗帽'),
+(13522, '活動-蜻蜓護目鏡'),
+(13523, '活動-天堂紀念頭箍'),
+(13526, '測試皮帶'),
+(13527, '測試斗篷'),
+(13529, '測試符印'),
+(13543, '壺精召喚手鐲-採集'),
+(13544, '壺精召喚手鐲-男生泰迪熊'),
+(13545, '壺精召喚手鐲-女生泰迪熊'),
+(13546, '蒸汽甲蟲騎乘手鐲'),
+(13547, '黃鬃獅子騎乘手鐲'),
+(13687, '騎士斗篷-重裝備專用'),
+(13688, '騎士斗篷-輕裝備專用'),
+(13689, '騎士斗篷-長袍裝專用'),
+(13690, '騎士斗篷-闇天使專用'),
+(13740, '古魯丁 水的守護項鍊'),
+(13741, '狄恩 聖的守護項鍊'),
+(13742, '奇岩 風的守護項鍊'),
+(13743, '歐瑞 暗的守護項鍊'),
+(13744, '亞丁 地的守護項鍊'),
+(13745, '因納得立 水的守護項鍊'),
+(13746, '高達特 火的守護項鍊'),
+(13747, '魯因 火的守護項鍊'),
+(13748, '修加特 風的守護項鍊'),
+(13751, '勇士的T恤'),
+(13752, '奧林匹亞勇士的戒指'),
+(13753, '奧林匹亞勇士的項鍊'),
+(13754, '奧林匹亞勇士的耳環'),
+(13756, '壺精召喚手鐲-騎士'),
+(13802, '原住民的頭巾'),
+(13803, '原住民的上衣'),
+(13804, '原住民的下衣'),
+(13805, '黎明警衛隊員的頭盔'),
+(13806, '黎明警衛隊員的上衣'),
+(13807, '黎明警衛隊員的下衣'),
+(13885, '封印的祕儀符印'),
+(13886, '封印的王朝符印'),
+(13887, '封印的薄暮符印'),
+(13888, '封印的領主斗篷'),
+(13889, '聖靈斗篷-闇天使專用'),
+(13890, '聖靈斗篷-重裝備專用'),
+(13891, '聖靈斗篷-輕裝備專用'),
+(13892, '聖靈斗篷-長袍裝專用'),
+(13894, '布腰帶'),
+(13895, '皮腰帶'),
+(13896, '鋼鐵腰帶'),
+(13897, '米索莉腰帶'),
+(13938, '下級魔法小袋布腰帶'),
+(13939, '普通魔法小袋布腰帶'),
+(13940, '上級魔法小袋布腰帶'),
+(13941, '特級魔法小袋布腰帶'),
+(13942, '下級魔法小袋皮腰帶'),
+(13943, '普通魔法小袋皮腰帶'),
+(13944, '上級魔法小袋皮腰帶'),
+(13945, '特級魔法小袋皮腰帶'),
+(13946, '下級魔法小袋鋼鐵腰帶'),
+(13947, '普通魔法小袋鋼鐵腰帶'),
+(13948, '上級魔法小袋鋼鐵腰帶'),
+(13949, '特級魔法小袋鋼鐵腰帶'),
+(13950, '下級魔法小袋米索莉腰帶'),
+(13951, '普通魔法小袋米索莉腰帶'),
+(13952, '上級魔法小袋米索莉腰帶'),
+(13953, '特級魔法小袋米索莉腰帶'),
+(13954, '下級魔法別針布腰帶'),
+(13955, '普通魔法別針布腰帶'),
+(13956, '上級魔法別針布腰帶'),
+(13957, '特級魔法別針布腰帶'),
+(13958, '下級魔法別針皮腰帶'),
+(13959, '普通魔法別針皮腰帶'),
+(13960, '上級魔法別針皮腰帶'),
+(13961, '特級魔法別針皮腰帶'),
+(13962, '下級魔法別針鋼鐵腰帶'),
+(13963, '普通魔法別針鋼鐵腰帶'),
+(13964, '上級魔法別針鋼鐵腰帶'),
+(13965, '特級魔法別針鋼鐵腰帶'),
+(13966, '下級魔法別針米索莉腰帶'),
+(13967, '普通魔法別針米索莉腰帶'),
+(13968, '上級魔法別針米索莉腰帶'),
+(13969, '特級魔法別針米索莉腰帶'),
+(13975, '毒瓶1'),
+(13976, '毒瓶2'),
+(13977, '毒瓶3'),
+(14027, '能量凝結裝置召喚手鐲'),
+(14053, '黃鬃獅子騎乘手鐲 限時7日'),
+(14054, '蒸汽甲蟲騎乘手鐲 限時7日'),
+(14059, '男生泰迪熊壺精手鐲 限時30日'),
+(14060, '女生泰迪熊壺精手鐲 限時30日'),
+(14066, '黃鬃獅子騎乘手鐲-活動用 限時7日'),
+(14067, '蒸汽甲蟲騎乘手鐲-活動用 限時7日'),
+(14072, '男生泰迪熊壺精手鐲-活動用 限時30日'),
+(14073, '女生泰迪熊壺精手鐲-活動用 限時30日'),
+(14075, '怒氣壺精-活動用 限時30日'),
+(14076, '開心壺精-活動用 限時30日'),
+(14077, '嗚咽壺精-活動用 限時30日'),
+(14091, '男生泰迪熊壺精手鐲 限時7日'),
+(14092, '女生泰迪熊壺精手鐲 限時7日'),
+(14093, '怒氣壺精 限時7日'),
+(14094, '開心壺精 限時7日'),
+(14095, '嗚咽壺精 限時7日'),
+(14099, '男生泰迪熊壺精手鐲-活動用 限時7日'),
+(14100, '女生泰迪熊壺精手鐲-活動用 限時7日'),
+(14101, '怒氣壺精-活動用 限時7日'),
+(14102, '開心壺精-活動用 限時7日'),
+(14103, '嗚咽壺精-活動用 限時7日'),
+(14104, '幻象裝備-能量凝結裝置召喚手鐲'),
+(14105, '封印的薄暮胸甲'),
+(14106, '封印的薄暮皮胸甲'),
+(14107, '封印的薄暮外衣'),
+(14108, '封印的薄暮脛甲'),
+(14109, '封印的薄暮護手'),
+(14110, '封印的薄暮靴'),
+(14112, '封印的薄暮皮脛甲'),
+(14113, '封印的薄暮皮手套'),
+(14114, '封印的薄暮皮靴'),
+(14115, '封印的薄暮長襪'),
+(14116, '封印的薄暮手套'),
+(14117, '封印的薄暮鞋'),
+(14160, '封印的薄暮耳環'),
+(14161, '封印的薄暮項鍊'),
+(14162, '封印的薄暮戒指'),
+(14163, '薄暮耳環'),
+(14164, '薄暮項鍊'),
+(14165, '薄暮戒指'),
+(14520, '薄暮胸甲 {對戰用}'),
+(14521, '薄暮皮胸甲 {對戰用}'),
+(14522, '薄暮外衣 {對戰用}'),
+(14523, '薄暮貴族胸甲 {對戰用}'),
+(14524, '薄暮貴族皮胸甲 {對戰用}'),
+(14525, '薄暮貴族外衣 {對戰用}'),
+(14582, '鬥爭阿貝拉頭盔'),
+(14583, '鬥爭阿貝拉盔甲'),
+(14584, '鬥爭阿貝拉護手 重裝用'),
+(14585, '鬥爭阿貝拉軍軍靴 重裝用'),
+(14586, '鬥爭阿貝拉軍禮服'),
+(14587, '鬥爭阿貝拉軍手套 輕裝用'),
+(14588, '鬥爭阿貝拉軍禮鞋 輕裝用'),
+(14589, '鬥爭阿貝拉軍長袍'),
+(14590, '鬥爭阿貝拉軍絲手套 長袍用'),
+(14591, '鬥爭阿貝拉軍涼鞋 長袍用'),
+(14592, '古魯丁 地的守護戒指'),
+(14593, '狄恩 水的守護戒指'),
+(14594, '奇岩 火的守護戒指'),
+(14595, '歐瑞 地的守護戒指'),
+(14596, '亞丁 聖的守護戒指'),
+(14597, '因納得立 聖的守護戒指'),
+(14598, '高達特 暗的守護戒指'),
+(14599, '魯因 風的守護戒指'),
+(14600, '修加特 暗的守護戒指'),
+(14601, '古代斗篷-闇天使專用 闇天使用'),
+(14602, '古代斗篷'),
+(14604, '赤色護身符-領地守護者'),
+(14605, '赤色護身符-領地護衛軍'),
+(14608, '古代斗篷-輕裝備專用'),
+(14609, '古代斗篷-重裝備專用'),
+(14610, '古代斗篷-長袍裝專用'),
+(14611, '魯道夫之鼻'),
+(14613, '剪刀-石頭-布聖誕帽'),
+(14617, '壺精封印手鐲-魯道夫'),
+(14664, '古魯丁 守護耳環'),
+(14665, '狄恩 守護耳環'),
+(14666, '奇岩 守護耳環'),
+(14667, '歐瑞 守護耳環'),
+(14668, '亞丁 守護耳環'),
+(14669, '因納得立 守護耳環'),
+(14670, '高達特 守護耳環'),
+(14671, '魯因 守護耳環'),
+(14672, '修加特 守護耳環'),
+(14675, '壺精封印手鐲-新羅'),
+(14712, '牛牛帽'),
+(14746, '活動用-時髦小雞帽'),
+(14747, '活動用-時髦黑羽假面'),
+(14748, '活動用-時髦嘉年華頭箍'),
+(14749, '爆炸頭假髮'),
+(14750, '斗笠'),
+(14751, '伶俐眼鏡'),
+(14752, '活動用-中世紀舞會面具'),
+(14753, '幻象裝備-時髦小雞帽 返回'),
+(14754, '幻象裝備-時髦小雞帽 大頭'),
+(14755, '幻象裝備-時髦小雞帽 煙火'),
+(14756, '幻象裝備-時髦黑羽假面 返回'),
+(14757, '幻象裝備-時髦黑羽假面 大頭'),
+(14758, '幻象裝備-時髦黑羽假面 煙火'),
+(14759, '幻象裝備-時髦嘉年華頭箍 返回'),
+(14760, '幻象裝備-時髦嘉年華頭箍 大頭'),
+(14761, '幻象裝備-時髦嘉年華頭箍 煙火'),
+(14762, '幻象裝備-中世紀舞會面具 返回'),
+(14763, '幻象裝備-中世紀舞會面具 大頭'),
+(14764, '幻象裝備-中世紀舞會面具 煙火'),
+(14771, '戰鬥貓帽 限時14日'),
+(14772, '花冠'),
+(14773, '禮服 限時14日'),
+(14775, '壺精封印手鐲-愛心 限時14日'),
+(14776, '壺精封印手鐲-啾啾 限時14日'),
+(14796, '法國麵包符印'),
+(14798, '爆炸頭假髮-黑色'),
+(14799, '爆炸頭假髮-金色'),
+(14800, '爆炸頭假髮-粉紅色'),
+(20006, '壺精封印手鐲-媽祖'),
+(20007, '壺精封印手鐲-金面媽祖'),
+(20008, '壺精封印手鐲-黑面媽祖'),
+(20009, '壺精封印手鐲-媽祖 大頭-限時30日'),
+(20010, '壺精封印手鐲-金面媽祖 復活-限時30日'),
+(20011, '壺精封印手鐲-黑面媽祖 返回-限時30日'),
+(20012, '壺精封印手鐲-普萊皮塔'),
+(20013, '壺精封印手鐲-普萊皮塔 大頭-限時30日'),
+(20014, '壺精封印手鐲-普萊皮塔 復活-限時30日'),
+(20015, '壺精封印手鐲-普萊皮塔 返回-限時30日'),
+(20016, '粗框眼鏡 敏捷術'),
+(20017, '爆炸頭'),
+(20018, '爆炸頭 大頭，煙火'),
+(20019, '爆炸頭 風之疾走'),
+(20020, '制服帽'),
+(20021, '刺客斗笠'),
+(20022, '暴走族口罩'),
+(20023, '緞帶髮飾'),
+(20024, '白羽黃金假面'),
+(20029, '淡紫鬃馬騎乘手鐲'),
+(20030, '淡紫鬃馬騎乘手鐲 限時30日'),
+(20031, '戰鬥貓帽'),
+(20032, '骷髏帽'),
+(20063, '壺精封印手鐲-寶寶貓熊'),
+(20064, '壺精封印手鐲-團團貓熊'),
+(20065, '壺精封印手鐲-圓圓貓熊'),
+(20066, '壺精封印手鐲-寶寶貓熊 大頭-限時15日'),
+(20067, '壺精封印手鐲-團團貓熊 復活-限時15日'),
+(20068, '壺精封印手鐲-圓圓貓熊 返回-限時15日'),
+(20083, '爆炸頭 活力-限時3小時'),
+(20084, '爆炸頭 活力-限時3日'),
+(20085, '爆炸頭 活力-限時30日'),
+(20086, '粗框眼鏡 活力-限時3小時'),
+(20087, '粗框眼鏡 活力-限時3日'),
+(20088, '粗框眼鏡 活力-限時30日'),
+(20089, '刺客斗笠 活力-限時3小時'),
+(20090, '刺客斗笠 活力-限時3日'),
+(20091, '刺客斗笠 活力-限時30日'),
+(20094, '壺精封印手鐲-魯道夫 活力-限時30日'),
+(20095, '聖誕鹿角帽'),
+(20098, '禮服-活動 1小時幻象'),
+(20099, '禮服-活動 限時7日'),
+(20100, '剪刀-石頭-布聖誕帽 限時24小時'),
+(20200, '壺精封印手鐲-愛心 活力-限時3日'),
+(20201, '壺精封印手鐲-愛心 活力-限時7日'),
+(20202, '壺精封印手鐲-愛心 活力-限時15日'),
+(20203, '壺精封印手鐲-愛心 活力-限時30日'),
+(20204, '巨蟻女王戒指-活動 限時3日'),
+(20205, '巨蟻女王戒指-活動 限時7日'),
+(20206, '巨蟻女王戒指-活動 限時15日'),
+(20207, '札肯耳環-活動 限時3日'),
+(20208, '札肯耳環-活動 限時7日'),
+(20209, '札肯耳環-活動 限時15日'),
+(20212, '壺精封印手鐲-白色邱比特'),
+(20213, '壺精封印手鐲-黑色邱比特'),
+(20221, '壺精封印手鐲-白色招財貓'),
+(20222, '壺精封印手鐲-黑色招財貓'),
+(20223, '壺精封印手鐲-棕色招財貓'),
+(20224, '壺精封印手鐲-白色招財貓 復活-限時7日'),
+(20225, '壺精封印手鐲-黑色招財貓 返回-限時7日'),
+(20226, '壺精封印手鐲-棕色招財貓 活力-限時7日'),
+(20230, '壺精封印手鐲-獨眼蝙蝠群'),
+(20231, '壺精封印手鐲-獨眼蝙蝠群 暗之防護-限時7日'),
+(20232, '壺精封印手鐲-獨眼蝙蝠群 活力-限時7日'),
+(20236, '壺精封印手鐲-飛馬'),
+(20237, '壺精封印手鐲-飛馬 風之疾走-限時7日'),
+(20238, '壺精封印手鐲-飛馬 返回-限時7日'),
+(20245, '壺精封印手鐲-黃衣土地公'),
+(20246, '壺精封印手鐲-藍衣土地公'),
+(20247, '壺精封印手鐲-綠衣土地公'),
+(20248, '壺精封印手鐲-黃衣土地公 終極治癒術-限時7日'),
+(20249, '壺精封印手鐲-藍衣土地公 還擊-限時7日'),
+(20250, '壺精封印手鐲-綠衣土地公 魔力再生-限時7日'),
+(20252, '壺精封印手鐲-食人妖'),
+(20253, '愛心壺精-活動'),
+(20275, '爆炸頭-金色'),
+(20276, '爆炸頭-粉紅色'),
+(20297, '壺精封印手鐲-紅色相撲選手'),
+(20298, '壺精封印手鐲-紅色相撲選手 死之呢喃-限時7日'),
+(20299, '壺精封印手鐲-藍色相撲選手'),
+(20300, '壺精封印手鐲-藍色相撲選手 野性魔力-限時7日'),
+(20301, '壺精封印手鐲-相撲大決鬥'),
+(20302, '壺精封印手鐲-相撲大決鬥 大頭 / 煙火-限時7日'),
+(20303, '壺精封印手鐲-玩偶熊'),
+(20304, '壺精封印手鐲-玩偶熊 返回-限時7日'),
+(20305, '壺精封印手鐲-玩偶熊 復活-限時7日'),
+(20306, '壺精封印手鐲-玩偶熊 活力-限時7日'),
+(20307, '壺精封印手鐲-財神爺'),
+(20308, '壺精封印手鐲-財神爺 活力-限時7日'),
+(20309, '壺精封印手鐲-樹精'),
+(20310, '壺精封印手鐲-元寶牛'),
+(20311, '壺精封印手鐲-元寶牛 風之疾走-限時7日'),
+(20312, '壺精封印手鐲-吉利牛'),
+(20313, '壺精封印手鐲-吉利牛 拜年禮物-限時7日'),
+(20321, '護目鏡'),
+(20322, '拿破崙帽'),
+(20323, '牛角髮飾'),
+(20324, '黑寶石面具'),
+(20325, '塑膠假髮'),
+(20396, '蒸汽甲蟲騎乘手鐲'),
+(20399, '勤勞者帽子 神佑之體-限時7日'),
+(20400, '勤勞者帽子 神佑之魂-限時7日'),
+(20401, '勤勞者帽子'),
+(20405, '壺精封印手鐲-媽祖 大頭-限時7日'),
+(20406, '壺精封印手鐲-金面媽祖 復活-限時7日'),
+(20407, '壺精封印手鐲-黑面媽祖 返回-限時7日'),
+(20408, '壺精封印手鐲-普萊皮塔 大頭-限時7日'),
+(20409, '壺精封印手鐲-普萊皮塔 復活-限時7日'),
+(20410, '壺精封印手鐲-普萊皮塔 返回-限時7日'),
+(20411, '壺精封印手鐲-寶寶貓熊 大頭-限時7日'),
+(20412, '壺精封印手鐲-團團貓熊 復活-限時7日'),
+(20413, '壺精封印手鐲-圓圓貓熊 返回-限時7日'),
+(20414, '粗框眼鏡 敏捷術-限時7日'),
+(20415, '爆炸頭 大頭，煙火-限時7日'),
+(20416, '爆炸頭 風之疾走-限時7日'),
+(20417, '制服帽 祝福復活-限時7日'),
+(20418, '刺客斗笠 風之疾走-限時7日'),
+(20419, '暴走族口罩 敏捷術-限時7日'),
+(20420, '緞帶髮飾 還擊-限時7日'),
+(20421, '白羽黃金假面 魔力再生-限時7日'),
+(20422, '戰鬥貓帽 終極治癒術-限時7日'),
+(20423, '骷髏帽 死之呢喃-限時7日'),
+(20424, '爆炸頭-金色 敏捷術-限時7日'),
+(20425, '爆炸頭-粉紅色 野性魔力-限時7日'),
+(20426, '護目鏡 風之疾走-限時7日'),
+(20427, '拿破崙帽 魔力再生-限時7日'),
+(20428, '牛角髮飾 還擊-限時7日'),
+(20429, '黑寶石面具 活力-限時7日'),
+(20430, '塑膠假髮 祝福返回-限時7日'),
+(20431, '雛菊髮飾 暗之防護-限時7日'),
+(20432, '勿忘草髮飾 風之疾走-限時7日'),
+(20433, '無法者眼罩 死之呢喃-限時7日'),
+(20434, '海盜眼罩 敏捷術-限時7日'),
+(20435, '單片眼鏡 野性魔力-限時7日'),
+(20436, '紅魔鬼面具 魔力再生-限時7日'),
+(20437, '勝利者尖角 還擊-限時7日'),
+(20438, '舞會面具 終極治癒術-限時7日'),
+(20439, '紅色舞會面具 暗之防護-限時7日'),
+(20440, '貓耳 風之疾走-限時7日'),
+(20441, '名媛髮飾 死之呢喃-限時7日'),
+(20442, '狸耳 敏捷術-限時7日'),
+(20443, '兔耳 野性魔力-限時7日'),
+(20444, '小天使之翼 魔力再生-限時7日'),
+(20445, '小妖精觸角 還擊-限時7日'),
+(20446, '吟遊詩人帽 終極治癒術-限時7日'),
+(20447, '工匠的護目鏡 活力-限時7日'),
+(20448, '淡紫鬃馬騎乘手鐲 限時7日'),
+(20449, '蒸汽甲蟲騎乘手鐲 限時7日'),
+(20495, '壺精封印手鐲-果樹女神'),
+(20496, '壺精封印手鐲-果樹女神 心靈防護-限時7日'),
+(20499, '皇后貓帽'),
+(20500, '國王貓帽'),
+(20501, '銀色貓帽'),
+(20535, '蒸汽甲蟲騎乘手鐲 限時30日'),
+(20536, '黃鬃獅子騎乘手鐲 限時30日'),
+(20537, '爆炸頭 活力-限時7日'),
+(20538, '粗框眼鏡 活力-限時7日'),
+(20539, '刺客斗笠 活力-限時7日'),
+(22154, '幻象裝備-狼帽 祝福返回'),
+(22155, '幻象裝備-狼帽 祝福復活'),
+(22156, '雛菊髮飾'),
+(22157, '勿忘草髮飾'),
+(22158, '無法者眼罩'),
+(22159, '海盜眼罩'),
+(22160, '單片眼鏡'),
+(22161, '紅魔鬼面具'),
+(22162, '勝利者尖角'),
+(22163, '舞會面具'),
+(22164, '紅色舞會面具'),
+(22165, '貓耳'),
+(22166, '名媛髮飾'),
+(22167, '狸耳'),
+(22168, '兔耳'),
+(22169, '小天使之翼'),
+(22170, '小妖精觸角'),
+(22171, '吟遊詩人帽'),
+(22172, '工匠的護目鏡');
+Update `armor`, `armor_name` SET `armor`.`name`=`armor_name`.`name` WHERE `armor`.`item_id`=`armor_name`.`item_id`;
+DROP TABLE IF EXISTS `armor_name`;
