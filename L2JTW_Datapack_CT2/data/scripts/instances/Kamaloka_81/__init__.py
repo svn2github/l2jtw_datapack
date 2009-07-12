@@ -43,13 +43,13 @@ def isWithinLevel(player):
 
 def checkPrimaryConditions(player):
 	if not player.getParty():
-		player.sendPacket(SystemMessage(2101))
+		player.sendPacket(SystemMessage(SystemMessageId.NOT_IN_PARTY_CANT_ENTER))
 		return False
 	if not player.getParty().isLeader(player):
-		player.sendPacket(SystemMessage(2185))
+		player.sendPacket(SystemMessage(SystemMessageId.ONLY_PARTY_LEADER_CAN_ENTER))
 		return False
 	if not isPartySizeOk(player):
-		player.sendPacket(SystemMessage(2102))
+		player.sendPacket(SystemMessage(SystemMessageId.PARTY_EXCEEDED_THE_LIMIT_CANT_ENTER))
 	if not isWithinLevel(player):
 		sm = SystemMessage(SystemMessageId.C1_LEVEL_REQUIREMENT_NOT_SUFFICIENT)
 		sm.addCharName(player)
@@ -70,7 +70,7 @@ def checkNewInstanceConditions(player):
 		player.sendPacket(sm)
 		return False
 	if not player.getParty().isLeader(player):
-		player.sendPacket(SystemMessage(2185))
+		player.sendPacket(SystemMessage(SystemMessageId.ONLY_PARTY_LEADER_CAN_ENTER))
 		return False
 	party = player.getParty()
 	if party == None:
@@ -226,7 +226,7 @@ class Quest (JQuest) :
 				return
 			instanceObj = InstanceManager.getInstance().getInstance(instanceId)
 			if instanceObj.getCountPlayers()>=KamaPartySize[dataIndex]:
-				player.sendPacket(SystemMessage(2102))
+				player.sendPacket(SystemMessage(SystemMessageId.PARTY_EXCEEDED_THE_LIMIT_CANT_ENTER))
 				return
 			tele.instanceId = instanceId
 			player.removeActiveBuffForKama()
@@ -258,9 +258,12 @@ class Quest (JQuest) :
 					world.startRoom.npclist[newNpc] = False
 				if npcId == 29147 :
 					instanceObj = InstanceManager.getInstance().getInstance(self.currentWorld)
-					player.sendPacket(SystemMessage.sendString("從現在起將會限制進入即時地區：「欲界 (深淵迷宮)」。下一次的進場時間可透過「/即時地區」指令來查詢。"))
-					instanceObj.setDuration(5)
+					instanceObj.setDuration(300000)
 					instanceObj.removeNpcs()
+					party = player.getParty()
+					if party != None:
+						for partyMember in party.getPartyMembers().toArray():
+							partyMember.sendPacket(SystemMessage.sendString("從現在起將會限制進入即時地區：「欲界 (深淵迷宮)」。下一次的進場時間可透過「/即時地區」指令來查詢。"))
 		return
 
 QUEST = Quest(-1, qn, "Kamaloka")

@@ -41,13 +41,13 @@ def isWithinLevel(player):
 
 def checkPrimaryConditions(player):
 	if not player.getParty():
-		player.sendPacket(SystemMessage(2101))
+		player.sendPacket(SystemMessage(SystemMessageId.NOT_IN_PARTY_CANT_ENTER))
 		return False
 	if not player.getParty().isLeader(player):
-		player.sendPacket(SystemMessage(2185))
+		player.sendPacket(SystemMessage(SystemMessageId.ONLY_PARTY_LEADER_CAN_ENTER))
 		return False
 	if not isPartySizeOk(player):
-		player.sendPacket(SystemMessage(2102))
+		player.sendPacket(SystemMessage(SystemMessageId.PARTY_EXCEEDED_THE_LIMIT_CANT_ENTER))
 	if not isWithinLevel(player):
 		sm = SystemMessage(SystemMessageId.C1_LEVEL_REQUIREMENT_NOT_SUFFICIENT)
 		sm.addCharName(player)
@@ -68,7 +68,7 @@ def checkNewInstanceConditions(player):
 		player.sendPacket(sm)
 		return False
 	if not player.getParty().isLeader(player):
-		player.sendPacket(SystemMessage(2185))
+		player.sendPacket(SystemMessage(SystemMessageId.ONLY_PARTY_LEADER_CAN_ENTER))
 		return False
 	party = player.getParty()
 	if party == None:
@@ -150,7 +150,7 @@ class Quest (JQuest) :
 		self.world_ids = []
 		self.currentWorld = 0
 
-	def onAdvEvent (self,event,npc,player) :
+	def onAdvEvent (self,event,npc,player):
 		return str(event)
 
 	def onTalk (self,npc,player):
@@ -190,7 +190,7 @@ class Quest (JQuest) :
 						partyMember.removeActiveBuffForKama()
 						teleportPlayer(self,partyMember,tele)
 		else:
-			#party already in kamaloka
+			#party already in Kamaloka
 			foundworld = False
 			for worldid in self.world_ids:
 				if worldid == instanceId:
@@ -200,7 +200,7 @@ class Quest (JQuest) :
 				return
 			instanceObj = InstanceManager.getInstance().getInstance(instanceId)
 			if instanceObj.getCountPlayers()>=KamaPartySize[dataIndex]:
-				player.sendPacket(SystemMessage(2102))
+				player.sendPacket(SystemMessage(SystemMessageId.PARTY_EXCEEDED_THE_LIMIT_CANT_ENTER))
 				return
 			tele.instanceId = instanceId
 			player.removeActiveBuffForKama()
@@ -217,7 +217,7 @@ class Quest (JQuest) :
 			if world.status == 0 :
 				if npcId == KamaMob[0] :
 					instanceObj = InstanceManager.getInstance().getInstance(self.currentWorld)
-					instanceObj.setDuration(5)
+					instanceObj.setDuration(300000)
 					instanceObj.removeNpcs()
 					return
 

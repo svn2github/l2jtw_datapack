@@ -53,10 +53,10 @@ def checkKillProgress(npc,room):
 def checkCondition(player):
 	party = player.getParty()
 	if not party :
-		player.sendPacket(SystemMessage(2101))
+		player.sendPacket(SystemMessage(SystemMessageId.NOT_IN_PARTY_CANT_ENTER))
 		return False
 	if not player.getParty().isLeader(player) :
-		player.sendPacket(SystemMessage(2185))
+		player.sendPacket(SystemMessage(SystemMessageId.ONLY_PARTY_LEADER_CAN_ENTER))
 		return False
 	for partyMember in party.getPartyMembers().toArray() :
 		if not partyMember.getLevel() >= 78 :
@@ -73,7 +73,9 @@ def checkCondition(player):
 	for partyMember in player.getParty().getPartyMembers().toArray() :
 		item = partyMember.getInventory().getItemByItemId(CRYSTAL)
 		if not item:
-			partyMember.sendPacket(SystemMessage.sendString("「被污染的水晶」數量不足。"))	
+			sm = SystemMessage(SystemMessageId.C1_ITEM_REQUIREMENT_NOT_SUFFICIENT)
+			sm.addCharName(partyMember)
+			player.sendPacket(sm)
 			return False
 	return True
 
@@ -144,107 +146,107 @@ def runHall(self,world):
 	world.status=0
 	world.startRoom = PyObject()
 	world.startRoom.npclist = {}
-	newNpc = self.addSpawn(22314, 141740, 150330, -11817, 6633, False,0,False, world.instanceId)
+	newNpc = self.addSpawn(22314, 141740, 150330, -11817, 6633, False, 0, False, world.instanceId)
 	world.startRoom.npclist[newNpc]=False
-	newNpc = self.addSpawn(22314, 141233, 149960, -11817, 49187, False,0,False, world.instanceId)
+	newNpc = self.addSpawn(22314, 141233, 149960, -11817, 49187, False, 0, False, world.instanceId)
 	world.startRoom.npclist[newNpc]=False
-	newNpc = self.addSpawn(22314, 141866, 150723, -11817, 13147, False,0,False, world.instanceId)
+	newNpc = self.addSpawn(22314, 141866, 150723, -11817, 13147, False, 0, False, world.instanceId)
 	world.startRoom.npclist[newNpc]=False
-	newNpc = self.addSpawn(22314, 142276, 151105, -11817, 7823, False,0,False, world.instanceId)
+	newNpc = self.addSpawn(22314, 142276, 151105, -11817, 7823, False, 0, False, world.instanceId)
 	world.startRoom.npclist[newNpc]=False
-	newNpc = self.addSpawn(22314, 142102, 151640, -11817, 20226, False,0,False, world.instanceId)
+	newNpc = self.addSpawn(22314, 142102, 151640, -11817, 20226, False, 0, False, world.instanceId)
 	world.startRoom.npclist[newNpc]=False
-	newNpc = self.addSpawn(22314, 142093, 152269, -11817, 3445, False,0,False, world.instanceId)
+	newNpc = self.addSpawn(22314, 142093, 152269, -11817, 3445, False, 0, False, world.instanceId)
 	world.startRoom.npclist[newNpc]=False
-	newNpc = self.addSpawn(22314, 141569, 152994, -11817, 22617, False,0,False, world.instanceId)
+	newNpc = self.addSpawn(22314, 141569, 152994, -11817, 22617, False, 0, False, world.instanceId)
 	world.startRoom.npclist[newNpc]=False
-	newNpc = self.addSpawn(22314, 141083, 153210, -11817, 28405, False,0,False, world.instanceId)
+	newNpc = self.addSpawn(22314, 141083, 153210, -11817, 28405, False, 0, False, world.instanceId)
 	world.startRoom.npclist[newNpc]=False
-	newNpc = self.addSpawn(22314, 140469, 152415, -11817, 41700, False,0,False, world.instanceId)
+	newNpc = self.addSpawn(22314, 140469, 152415, -11817, 41700, False, 0, False, world.instanceId)
 	world.startRoom.npclist[newNpc]=False
-	newNpc = self.addSpawn(22314, 140180, 151635, -11817, 45729, False,0,False, world.instanceId)
+	newNpc = self.addSpawn(22314, 140180, 151635, -11817, 45729, False, 0, False, world.instanceId)
 	world.startRoom.npclist[newNpc]=False
-	newNpc = self.addSpawn(22314, 140490, 151126, -11817, 54857, False,0,False, world.instanceId)
+	newNpc = self.addSpawn(22314, 140490, 151126, -11817, 54857, False, 0, False, world.instanceId)
 	world.startRoom.npclist[newNpc]=False
-	newNpc = self.addSpawn(22315, 140930, 150269, -11817, 17591, False,0,False, world.instanceId)
+	newNpc = self.addSpawn(22315, 140930, 150269, -11817, 17591, False, 0, False, world.instanceId)
 	world.startRoom.npclist[newNpc]=False
-	newNpc = self.addSpawn(22315, 141203, 150210, -11817, 64400, False,0,False, world.instanceId)
+	newNpc = self.addSpawn(22315, 141203, 150210, -11817, 64400, False, 0, False, world.instanceId)
 	world.startRoom.npclist[newNpc]=False
-	newNpc = self.addSpawn(22315, 141360, 150357, -11817, 9093, False,0,False, world.instanceId)
+	newNpc = self.addSpawn(22315, 141360, 150357, -11817, 9093, False, 0, False, world.instanceId)
 	world.startRoom.npclist[newNpc]=False
-	newNpc = self.addSpawn(22315, 142255, 151694, -11817, 14655, False,0,False, world.instanceId)
+	newNpc = self.addSpawn(22315, 142255, 151694, -11817, 14655, False, 0, False, world.instanceId)
 	world.startRoom.npclist[newNpc]=False
-	newNpc = self.addSpawn(22315, 141920, 151124, -11817, 8191, False,0,False, world.instanceId)
+	newNpc = self.addSpawn(22315, 141920, 151124, -11817, 8191, False, 0, False, world.instanceId)
 	world.startRoom.npclist[newNpc]=False
-	newNpc = self.addSpawn(22315, 141911, 152734, -11817, 21600, False,0,False, world.instanceId)
+	newNpc = self.addSpawn(22315, 141911, 152734, -11817, 21600, False, 0, False, world.instanceId)
 	world.startRoom.npclist[newNpc]=False
-	newNpc = self.addSpawn(22315, 141032, 152929, -11817, 32791, False,0,False, world.instanceId)
+	newNpc = self.addSpawn(22315, 141032, 152929, -11817, 32791, False, 0, False, world.instanceId)
 	world.startRoom.npclist[newNpc]=False
-	newNpc = self.addSpawn(22315, 140317, 151837, -11817, 43864, False,0,False, world.instanceId)
+	newNpc = self.addSpawn(22315, 140317, 151837, -11817, 43864, False, 0, False, world.instanceId)
 	world.startRoom.npclist[newNpc]=False
-	newNpc = self.addSpawn(22315, 140183, 151939, -11817, 25981, False,0,False, world.instanceId)
+	newNpc = self.addSpawn(22315, 140183, 151939, -11817, 25981, False, 0, False, world.instanceId)
 	world.startRoom.npclist[newNpc]=False
-	newNpc = self.addSpawn(22316, 140944, 152724, -11817, 12529, False,0,False, world.instanceId)
+	newNpc = self.addSpawn(22316, 140944, 152724, -11817, 12529, False, 0, False, world.instanceId)
 	world.startRoom.npclist[newNpc]=False
-	newNpc = self.addSpawn(22316, 141301, 154428, -11817, 17207, False,0,False, world.instanceId)
+	newNpc = self.addSpawn(22316, 141301, 154428, -11817, 17207, False, 0, False, world.instanceId)
 	world.startRoom.npclist[newNpc]=False
-	newNpc = self.addSpawn(22316, 142499, 154437, -11817, 65478, False,0,False, world.instanceId)
+	newNpc = self.addSpawn(22316, 142499, 154437, -11817, 65478, False, 0, False, world.instanceId)
 	world.startRoom.npclist[newNpc]=False
-	newNpc = self.addSpawn(22317, 142664, 154612, -11817, 8498, False,0,False, world.instanceId)
+	newNpc = self.addSpawn(22317, 142664, 154612, -11817, 8498, False, 0, False, world.instanceId)
 	world.startRoom.npclist[newNpc]=False
-	newNpc = self.addSpawn(22317, 142711, 154137, -11817, 28756, False,0,False, world.instanceId)
+	newNpc = self.addSpawn(22317, 142711, 154137, -11817, 28756, False, 0, False, world.instanceId)
 	world.startRoom.npclist[newNpc]=False
-	newNpc = self.addSpawn(22313, 142705, 154378, -11817, 26017, False,0,False, world.instanceId)
+	newNpc = self.addSpawn(22313, 142705, 154378, -11817, 26017, False, 0, False, world.instanceId)
 	world.startRoom.npclist[newNpc]=False
-	newNpc = self.addSpawn(22317, 141605, 154490, -11817, 31128, False,0,False, world.instanceId)
+	newNpc = self.addSpawn(22317, 141605, 154490, -11817, 31128, False, 0, False, world.instanceId)
 	world.startRoom.npclist[newNpc]=False
-	newNpc = self.addSpawn(22317, 141115, 154674, -11817, 28781, False,0,False, world.instanceId)
+	newNpc = self.addSpawn(22317, 141115, 154674, -11817, 28781, False, 0, False, world.instanceId)
 	world.startRoom.npclist[newNpc]=False
-	newNpc = self.addSpawn(22313, 141053, 154431, -11817, 46546, False,0,False, world.instanceId)
+	newNpc = self.addSpawn(22313, 141053, 154431, -11817, 46546, False, 0, False, world.instanceId)
 	world.startRoom.npclist[newNpc]=False
-	newNpc = self.addSpawn(22313, 141423, 154130, -11817, 60888, False,0,False, world.instanceId)
+	newNpc = self.addSpawn(22313, 141423, 154130, -11817, 60888, False, 0, False, world.instanceId)
 	world.startRoom.npclist[newNpc]=False
-	newNpc = self.addSpawn(22314, 142249, 154395, -11817, 64346, False,0,False, world.instanceId)
+	newNpc = self.addSpawn(22314, 142249, 154395, -11817, 64346, False, 0, False, world.instanceId)
 	world.startRoom.npclist[newNpc]=False
-	newNpc = self.addSpawn(22317, 141530, 152803, -11817, 53953, False,0,False, world.instanceId)
+	newNpc = self.addSpawn(22317, 141530, 152803, -11817, 53953, False, 0, False, world.instanceId)
 	world.startRoom.npclist[newNpc]=False
-	newNpc = self.addSpawn(22317, 142020, 152272, -11817, 55995, False,0,False, world.instanceId)
+	newNpc = self.addSpawn(22317, 142020, 152272, -11817, 55995, False, 0, False, world.instanceId)
 	world.startRoom.npclist[newNpc]=False
-	newNpc = self.addSpawn(22317, 142134, 151667, -11817, 52687, False,0,False, world.instanceId)
+	newNpc = self.addSpawn(22317, 142134, 151667, -11817, 52687, False, 0, False, world.instanceId)
 	world.startRoom.npclist[newNpc]=False
-	newNpc = self.addSpawn(22317, 141958, 151021, -11817, 42965, False,0,False, world.instanceId)
+	newNpc = self.addSpawn(22317, 141958, 151021, -11817, 42965, False, 0, False, world.instanceId)
 	world.startRoom.npclist[newNpc]=False
-	newNpc = self.addSpawn(22317, 140979, 150233, -11817, 38924, False,0,False, world.instanceId)
+	newNpc = self.addSpawn(22317, 140979, 150233, -11817, 38924, False, 0, False, world.instanceId)
 	world.startRoom.npclist[newNpc]=False
-	newNpc = self.addSpawn(22317, 140509, 150983, -11817, 23466, False,0,False, world.instanceId)
+	newNpc = self.addSpawn(22317, 140509, 150983, -11817, 23466, False, 0, False, world.instanceId)
 	world.startRoom.npclist[newNpc]=False
-	newNpc = self.addSpawn(22317, 140151, 151410, -11817, 23661, False,0,False, world.instanceId)
+	newNpc = self.addSpawn(22317, 140151, 151410, -11817, 23661, False, 0, False, world.instanceId)
 	world.startRoom.npclist[newNpc]=False
-	newNpc = self.addSpawn(22317, 140446, 152370, -11817, 13192, False,0,False, world.instanceId)
+	newNpc = self.addSpawn(22317, 140446, 152370, -11817, 13192, False, 0, False, world.instanceId)
 	world.startRoom.npclist[newNpc]=False
-	newNpc = self.addSpawn(22313, 140249, 152133, -11817, 41391, False,0,False, world.instanceId)
+	newNpc = self.addSpawn(22313, 140249, 152133, -11817, 41391, False, 0, False, world.instanceId)
 	world.startRoom.npclist[newNpc]=False
-	newNpc = self.addSpawn(22313, 140664, 152655, -11817, 8720, False,0,False, world.instanceId)
+	newNpc = self.addSpawn(22313, 140664, 152655, -11817, 8720, False, 0, False, world.instanceId)
 	world.startRoom.npclist[newNpc]=False
-	newNpc = self.addSpawn(22313, 141610, 152988, -11817, 57460, False,0,False, world.instanceId)
+	newNpc = self.addSpawn(22313, 141610, 152988, -11817, 57460, False, 0, False, world.instanceId)
 	world.startRoom.npclist[newNpc]=False
-	newNpc = self.addSpawn(22314, 141189, 154197, -11817, 16792, False,0,False, world.instanceId)
+	newNpc = self.addSpawn(22314, 141189, 154197, -11817, 16792, False, 0, False, world.instanceId)
 	world.startRoom.npclist[newNpc]=False
-	newNpc = self.addSpawn(22315, 142315, 154368, -11817, 30260, False,0,False, world.instanceId)
+	newNpc = self.addSpawn(22315, 142315, 154368, -11817, 30260, False, 0, False, world.instanceId)
 	world.startRoom.npclist[newNpc]=False
-	newNpc = self.addSpawn(22315, 142577, 154774, -11817, 45981, False,0,False, world.instanceId)
+	newNpc = self.addSpawn(22315, 142577, 154774, -11817, 45981, False, 0, False, world.instanceId)
 	world.startRoom.npclist[newNpc]=False
-	newNpc = self.addSpawn(22313, 141338, 153089, -11817, 26387, False,0,False, world.instanceId)
+	newNpc = self.addSpawn(22313, 141338, 153089, -11817, 26387, False, 0, False, world.instanceId)
 	world.startRoom.npclist[newNpc]=False
-	newNpc = self.addSpawn(22316, 140800, 150707, -11817, 55884, False,0,False, world.instanceId)
+	newNpc = self.addSpawn(22316, 140800, 150707, -11817, 55884, False, 0, False, world.instanceId)
 	world.startRoom.npclist[newNpc]=False
 	if debug: print "Coral: hall spawned in instance " + str(world.instanceId)
 
 def runGolems(self,world):
 	world.status = 1
-	newNpc = self.addSpawn(TEARS,144298,154420,-11854,63371,False,0,False, world.instanceId) # Tears
-	newNpc = self.addSpawn(32328,140547,151670,-11813,32767,False,0,False, world.instanceId)
-	newNpc = self.addSpawn(32328,141941,151684,-11813,63371,False,0,False, world.instanceId)
+	newNpc = self.addSpawn(TEARS, 144298, 154420, -11854, 63371, False, 0, False, world.instanceId) # Tears
+	newNpc = self.addSpawn(32328, 140547, 151670, -11813, 32767, False, 0, False, world.instanceId)
+	newNpc = self.addSpawn(32328, 141941, 151684, -11813, 63371, False, 0, False, world.instanceId)
 
 class CoralGarden(JQuest):
 	def __init__(self,id,name,descr):

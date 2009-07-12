@@ -578,14 +578,30 @@
   <set name="operateType" val="OP_PASSIVE"/>
 </skill>
 <skill id="23067" levels="1" name="Pomona Agathion Cute Trick">
-  <set name="target" val="TARGET_NONE"/>
-  <set name="skillType" val="NOTDONE"/>
-  <set name="operateType" val="OP_PASSIVE"/>
+  <!-- Update by rocknow -->
+  <set name="target" val="TARGET_SELF"/>
+  <set name="skillType" val="DUMMY"/>
+  <set name="hitTime" val="3000"/>
+  <set name="staticHitTime" val="true"/>
+  <set name="operateType" val="OP_ACTIVE"/>
 </skill>
 <skill id="23068" levels="1" name="Pomona Agathion Special Skill - Mental Shield Ability">
   <!-- Increases resistance to hold/sleep/abnormal mental attacks by 50 for 10 minutes. Reuse Delay 1 hours -->
-  <set name="target" val="TARGET_NONE"/>
-  <set name="skillType" val="NOTDONE"/>
-  <set name="operateType" val="OP_PASSIVE"/>
+  <!-- Update by rocknow -->
+  <set name="target" val="TARGET_ONE"/>
+  <set name="hitTime" val="6000"/>
+  <set name="reuseDelay" val="1200000"/>
+  <set name="skillType" val="BUFF"/>
+  <set name="operateType" val="OP_ACTIVE"/>
+  <set name="castRange" val="400"/>
+  <set name="effectRange" val="900"/>
+  <for>
+    <effect name="Buff" time="600" val="0" stackOrder="50" stackType="MentalShield">
+      <mul order="0x30" stat="rootVuln" val="0.5"/>
+      <mul order="0x30" stat="sleepVuln" val="0.5"/>
+      <mul order="0x30" stat="confusionVuln" val="0.5"/>
+      <mul order="0x30" stat="derangementVuln" val="0.5"/>
+    </effect>
+  </for>
 </skill>
 </list>

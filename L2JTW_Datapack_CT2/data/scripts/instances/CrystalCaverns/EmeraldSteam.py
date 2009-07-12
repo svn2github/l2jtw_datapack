@@ -92,10 +92,10 @@ def dropItem(npc,itemId,count):
 def checkCondition(player):    
     party = player.getParty()
     if not party :
-        player.sendPacket(SystemMessage(2101))
+        player.sendPacket(SystemMessage(SystemMessageId.NOT_IN_PARTY_CANT_ENTER))
         return False
     if not player.getParty().isLeader(player) :
-        player.sendPacket(SystemMessage(2185))
+        player.sendPacket(SystemMessage(SystemMessageId.ONLY_PARTY_LEADER_CAN_ENTER))
         return False
     for partyMember in party.getPartyMembers().toArray() :
         if not partyMember.getLevel() >= 78 :
@@ -112,7 +112,9 @@ def checkCondition(player):
     for partyMember in player.getParty().getPartyMembers().toArray() :
         item = partyMember.getInventory().getItemByItemId(CRYSTAL)
         if not item:
-            partyMember.sendPacket(SystemMessage.sendString("「被污染的水晶」數量不足。"))
+            sm = SystemMessage(SystemMessageId.C1_ITEM_REQUIREMENT_NOT_SUFFICIENT)
+            sm.addCharName(partyMember)
+            player.sendPacket(sm)
             return False
     return True
 

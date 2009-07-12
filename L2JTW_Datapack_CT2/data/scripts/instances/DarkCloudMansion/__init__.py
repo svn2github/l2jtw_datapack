@@ -1,26 +1,27 @@
 # By: evill33t & vital
 
-from net.sf.l2j.gameserver.instancemanager	  import InstanceManager
-from net.sf.l2j.gameserver.model.entity 	  import Instance
-from net.sf.l2j.gameserver.model.quest		  import State
-from net.sf.l2j.gameserver.model.quest		  import QuestState
-from net.sf.l2j.gameserver.model.quest.jython	  import QuestJython as JQuest
-from net.sf.l2j.gameserver.network		  import SystemMessageId
+from net.sf.l2j.gameserver.instancemanager        import InstanceManager
+from net.sf.l2j.gameserver.model.entity           import Instance
+from net.sf.l2j.gameserver.model.quest            import State
+from net.sf.l2j.gameserver.model.quest            import QuestState
+from net.sf.l2j.gameserver.model.quest.jython     import QuestJython as JQuest
+from net.sf.l2j.gameserver.network                import SystemMessageId
 from net.sf.l2j.gameserver.network.serverpackets  import InventoryUpdate
 from net.sf.l2j.gameserver.network.serverpackets  import MagicSkillUse
 from net.sf.l2j.gameserver.network.serverpackets  import NpcSay
 from net.sf.l2j.gameserver.network.serverpackets  import SystemMessage
-from net.sf.l2j.util				  import Rnd
+from net.sf.l2j.util                              import Rnd
 
 qn = "DarkCloudMansion"
 
 DcmLevel = 78
 InstanceTemplate = "DarkCloudMansion.xml"
-DcmLevels	 = [78			    ]
-DcmPartySize	 = [2			    ]
-DcmTemplate	 = ["DarkCloudMansion.xml"  ]
-DcmPorts	 = [[146534,180464,-6117]   ]
-ReturnPort	 = [[139968,150367,-3111]   ]
+DcmLevels        = [78                      ]
+DcmPartySize     = [2                       ]
+DcmTemplate      = ["DarkCloudMansion.xml"  ]
+DcmPorts         = [[146534,180464,-6117]   ]
+ReturnPort       = [[139968,150367,-3111]   ]
+
 dataIndex = 0
 
 debug = False
@@ -29,13 +30,13 @@ debug = False
 CC = 9690 #Contaminated Crystal
 
 # NPCs
-YIYEN	    = 32282
+YIYEN       = 32282
 SOFaith     = 32288 #Symbol of Faith
 SOAdversity = 32289 #Symbol of Adversity
 SOAdventure = 32290 #Symbol of Anventure
 SOTruth     = 32291 #Symbol of Truth
-BSM	    = 32324 #Black Stone Monolith
-SC	    = 22402 #Shadow Column
+BSM         = 32324 #Black Stone Monolith
+SC          = 22402 #Shadow Column
 
 # Mobs
 CCG = [18369,18370] #Chromatic Crystal Golem
@@ -60,71 +61,71 @@ W7 = 24230013 #Wall 7
 
 # Second room - random monolith order
 order = [
-	 [1,2,3,4,5,6],
-	 [6,5,4,3,2,1],
-	 [4,5,6,3,2,1],
-	 [2,6,3,5,1,4],
-	 [4,1,5,6,2,3],
-	 [3,5,1,6,2,4],
-	 [6,1,3,4,5,2],
-	 [5,6,1,2,4,3],
-	 [5,2,6,3,4,1],
-	 [1,5,2,6,3,4],
-	 [1,2,3,6,5,4],
-	 [6,4,3,1,5,2],
-	 [3,5,2,4,1,6],
-	 [3,2,4,5,1,6],
-	 [5,4,3,1,6,2]
-	]
+         [1,2,3,4,5,6],
+         [6,5,4,3,2,1],
+         [4,5,6,3,2,1],
+         [2,6,3,5,1,4],
+         [4,1,5,6,2,3],
+         [3,5,1,6,2,4],
+         [6,1,3,4,5,2],
+         [5,6,1,2,4,3],
+         [5,2,6,3,4,1],
+         [1,5,2,6,3,4],
+         [1,2,3,6,5,4],
+         [6,4,3,1,5,2],
+         [3,5,2,4,1,6],
+         [3,2,4,5,1,6],
+         [5,4,3,1,6,2]
+        ]
 
-# Second room - golem spawn locatons - random	 
+# Second room - golem spawn locatons - random
 golems = [
-	  [CCG[0],148060,181389],
-	  [CCG[1],147910,181173],
-	  [CCG[0],147810,181334],
-	  [CCG[1],147713,181179],
-	  [CCG[0],147569,181410],
-	  [CCG[1],147810,181517],
-	  [CCG[0],147805,181281]
-	 ]
+          [CCG[0],148060,181389],
+          [CCG[1],147910,181173],
+          [CCG[0],147810,181334],
+          [CCG[1],147713,181179],
+          [CCG[0],147569,181410],
+          [CCG[1],147810,181517],
+          [CCG[0],147805,181281]
+         ]
 
 # Forth room - random shadow column
 rows = [
-       [1,1,0,1,0],
-       [0,1,1,0,1],
-       [1,0,1,1,0],
-       [0,1,0,1,1],
-       [1,0,1,0,1]
-      ]
+        [1,1,0,1,0],
+        [0,1,1,0,1],
+        [1,0,1,1,0],
+        [0,1,0,1,1],
+        [1,0,1,0,1]
+       ]
 
 # Fifth room - beleth order
 beleths = [
-	   [1,0,1,0,1,0,0],
-	   [0,0,1,0,1,1,0],
-	   [0,0,0,1,0,1,1],
-	   [1,0,1,1,0,0,0],
-	   [1,1,0,0,0,1,0],
-	   [0,1,0,1,0,1,0],
-	   [0,0,0,1,1,1,0],
-	   [1,0,1,0,0,1,0],
-	   [0,1,1,0,0,0,1]
-	  ]
+           [1,0,1,0,1,0,0],
+           [0,0,1,0,1,1,0],
+           [0,0,0,1,0,1,1],
+           [1,0,1,1,0,0,0],
+           [1,1,0,0,0,1,0],
+           [0,1,0,1,0,1,0],
+           [0,0,0,1,1,1,0],
+           [1,0,1,0,0,1,0],
+           [0,1,1,0,0,0,1]
+          ]
 
 # Random Message For Beleth
 TEXT = ["選我吧~", \
-	"找找我吧~", \
-	"我才是真的啦~！", \
-	"就相信我一次吧~", \
-	"連那個都找不出來啊~？", \
-	"不是他，我才是真的啦~！", \
-	"我才是真的啦~ 唉喲~~！！", \
-	"別受騙，別受騙，我才是真的~！", \
-	"連那個都找不出來啊~？果真是個人材...", \
-	"被騙了吧~", \
-	"對不起.. 我是假的啦~", \
-	"做得真好~", \
-	"噢呼~ 真有眼光耶！", \
-	"哇塞~！怎麼會知道是我啊？"] # Update by rocknow
+        "找找我吧~", \
+        "我才是真的啦~！", \
+        "就相信我一次吧~", \
+        "連那個都找不出來啊~？", \
+        "不是他，我才是真的啦~！", \
+        "我才是真的啦~ 唉喲~~！！", \
+        "別受騙，別受騙，我才是真的~！", \
+        "連那個都找不出來啊~？果真是個人材...", \
+        "被騙了吧~", \
+        "對不起.. 我是假的啦~", \
+        "做得真好~", \
+        "噢呼~ 真有眼光耶！", \
+        "哇塞~！怎麼會知道是我啊？"] # Update by rocknow
 
 class PyObject :
   pass
@@ -158,13 +159,13 @@ def isWithinLevel(player) :
 
 def checkPrimaryConditions(player) :
   if not player.getParty():
-     player.sendPacket(SystemMessage(2101))
+     player.sendPacket(SystemMessage(SystemMessageId.NOT_IN_PARTY_CANT_ENTER))
      return False
   if not player.getParty().isLeader(player) :
-     player.sendPacket(SystemMessage(2185))
+     player.sendPacket(SystemMessage(SystemMessageId.ONLY_PARTY_LEADER_CAN_ENTER))
      return False
   if not isPartySizeOk(player):
-     player.sendPacket(SystemMessage(2102))
+     player.sendPacket(SystemMessage(SystemMessageId.PARTY_EXCEEDED_THE_LIMIT_CANT_ENTER))
      return False
   if not isWithinLevel(player):
      sm = SystemMessage(SystemMessageId.C1_LEVEL_REQUIREMENT_NOT_SUFFICIENT)
@@ -173,31 +174,31 @@ def checkPrimaryConditions(player) :
      return False
   for partyMember in player.getParty().getPartyMembers().toArray() :
      if not partyMember.isInsideRadius(player, 500, False, False) :
-	sm = SystemMessage(SystemMessageId.C1_IS_IN_LOCATION_THAT_CANNOT_BE_ENTERED)
-	sm.addCharName(partyMember)
-	player.sendPacket(sm)
-	return False
+        sm = SystemMessage(SystemMessageId.C1_IS_IN_LOCATION_THAT_CANNOT_BE_ENTERED)
+        sm.addCharName(partyMember)
+        player.sendPacket(sm)
+        return False
   return True
 
 def checkNewInstanceConditions(player) :
   if not player.getParty().isLeader(player) :
-     player.sendPacket(SystemMessage(2185))
+     player.sendPacket(SystemMessage(SystemMessageId.ONLY_PARTY_LEADER_CAN_ENTER))
      return False
   party = player.getParty()
   if party == None :
      return True
   for partyMember in party.getPartyMembers().toArray() :
      if not isWithinLevel(partyMember) :
-	sm = SystemMessage(SystemMessageId.C1_LEVEL_REQUIREMENT_NOT_SUFFICIENT)
-	sm.addCharName(partyMember)
-	player.sendPacket(sm)
-	return False
+        sm = SystemMessage(SystemMessageId.C1_LEVEL_REQUIREMENT_NOT_SUFFICIENT)
+        sm.addCharName(partyMember)
+        player.sendPacket(sm)
+        return False
   for partyMember in player.getParty().getPartyMembers().toArray() :
      if not partyMember.isInsideRadius(player, 500, False, False) :
-	sm = SystemMessage(SystemMessageId.C1_IS_IN_LOCATION_THAT_CANNOT_BE_ENTERED)
-	sm.addCharName(partyMember)
-	player.sendPacket(sm)
-	return False
+        sm = SystemMessage(SystemMessageId.C1_IS_IN_LOCATION_THAT_CANNOT_BE_ENTERED)
+        sm.addCharName(partyMember)
+        player.sendPacket(sm)
+        return False
   return True
 
 def enterInstance(self, player, template, tele) :
@@ -212,34 +213,34 @@ def enterInstance(self, player, template, tele) :
   if instanceId == 0 :
      #brand new instance
      if not checkNewInstanceConditions(player) :
-	return
+        return
      instanceId = InstanceManager.getInstance().createDynamicInstance(DcmTemplate[dataIndex])
      if not self.worlds.has_key(instanceId) :
-	world = PyObject()
-	world.rewarded = []
-	world.instanceId = instanceId
-	self.worlds[instanceId] = world
-	self.world_ids.append(instanceId)
-	self.currentWorld = instanceId
-	instanceObj = InstanceManager.getInstance().getInstance(instanceId)
-	instanceObj.setAllowSummon(False)
-	instanceObj.setReturnTeleport(ReturnPort[dataIndex][0],ReturnPort[dataIndex][1],ReturnPort[dataIndex][2])
-	print "暗雲宅邸：使用 " + InstanceTemplate + " 即時地區：" + str(instanceId) + " 創造玩家：" + str(player.getName()) 
-	runStartRoom(self, world)
-	tele.instanceId = instanceId
-	teleportPlayer(self, player, tele)
-	party = player.getParty()
-	if party != None :
-	   for partyMember in party.getPartyMembers().toArray() :
-	       teleportPlayer(self, partyMember, tele)
+        world = PyObject()
+        world.rewarded = []
+        world.instanceId = instanceId
+        self.worlds[instanceId] = world
+        self.world_ids.append(instanceId)
+        self.currentWorld = instanceId
+        instanceObj = InstanceManager.getInstance().getInstance(instanceId)
+        instanceObj.setAllowSummon(False)
+        instanceObj.setReturnTeleport(ReturnPort[dataIndex][0],ReturnPort[dataIndex][1],ReturnPort[dataIndex][2])
+        print "暗雲宅邸：使用 " + InstanceTemplate + " 即時地區：" + str(instanceId) + " 創造玩家：" + str(player.getName()) 
+        runStartRoom(self, world)
+        tele.instanceId = instanceId
+        teleportPlayer(self, player, tele)
+        party = player.getParty()
+        if party != None :
+           for partyMember in party.getPartyMembers().toArray() :
+               teleportPlayer(self, partyMember, tele)
   else:
      foundworld = False
      for worldid in self.world_ids :
-	 if worldid == instanceId :
-	    foundworld = True
+         if worldid == instanceId :
+            foundworld = True
      if not foundworld:
-	player.sendPacket(SystemMessage.sendString("你的隊員已進入其它的即時地區。"))
-	return
+        player.sendPacket(SystemMessage.sendString("你的隊員已進入其它的即時地區。"))
+        return
      tele.instanceId = instanceId
      teleportPlayer(self, player, tele)
   return
@@ -251,7 +252,7 @@ def getExistingInstanceId(player) :
      return 0
   for partyMember in party.getPartyMembers().toArray() :
      if partyMember.getInstanceId()!=0 :
-	instanceId = partyMember.getInstanceId()
+        instanceId = partyMember.getInstanceId()
   return instanceId
 
 def teleportPlayer(self, player, teleto) :
@@ -453,21 +454,21 @@ def checkBelethSampleProgress(self, world, npc, player, BS) :
   else :
     for mob in world.FifthRoom.npclist :
       if mob[0] == npc and mob[2] == 0 :
-	runFifthRoom(self, world, player)
+        runFifthRoom(self, world, player)
 
 def checkBelethSample(self, world, npc, player, BS) :
   world.attacked = True
   for mob in world.FifthRoom.npclist :
     if mob[0] == npc :
       if mob[2] == 0 :
-	world.foundBeleth = 0
-	npc.broadcastPacket(NpcSay(npc.getObjectId(),0,npc.getNpcId(),TEXT[Rnd.get(9,10)]))
-	for mob in world.FifthRoom.npclist :
-	  if mob[0] != npc :
-	    mob[0].deleteMe()
+        world.foundBeleth = 0
+        npc.broadcastPacket(NpcSay(npc.getObjectId(),0,npc.getNpcId(),TEXT[Rnd.get(9,10)]))
+        for mob in world.FifthRoom.npclist :
+          if mob[0] != npc :
+            mob[0].deleteMe()
       else :
-	world.foundBeleth += 1
-	npc.broadcastPacket(NpcSay(npc.getObjectId(),0,npc.getNpcId(),TEXT[Rnd.get(11,13)]))
+        world.foundBeleth += 1
+        npc.broadcastPacket(NpcSay(npc.getObjectId(),0,npc.getNpcId(),TEXT[Rnd.get(11,13)]))
 
 def checkKillProgress(npc, room) :
   cont = True
@@ -488,10 +489,10 @@ def checkStone(self, npc, order, npcObj, world) :
   for i in range(1, 7) :
     if order[i] == 0 and order[i - 1] != 0 :
       if npcObj[1] == i and npcObj[2] == 0 :
-	order[i] = 1
-	npcObj[2] = 1
-	npc.broadcastPacket(MagicSkillUse(npc, npc, 5441, 1, 1, 0))
-	return
+        order[i] = 1
+        npcObj[2] = 1
+        npc.broadcastPacket(MagicSkillUse(npc, npc, 5441, 1, 1, 0))
+        return
   spawnRndGolem(self, world)
 
 def endInstance(self, world) :
@@ -524,11 +525,11 @@ def chkShadowColumn(self, world, npc) :
   for mob in world.ForthRoom.npclist :
     if mob[0] == npc :
       for i in range(0, 7) :
-	if mob[2] == i and world.ForthRoom.counter == i :
-	  openDoor(W1 + i, world.instanceId)
-	  world.ForthRoom.counter += 1 
-	  if world.ForthRoom.counter == 7 :
-	    runThirdRoomBis(self, world)
+        if mob[2] == i and world.ForthRoom.counter == i :
+          openDoor(W1 + i, world.instanceId)
+          world.ForthRoom.counter += 1 
+          if world.ForthRoom.counter == 7 :
+            runThirdRoomBis(self, world)
 
 def removeShadowColumn(self, world) :
   for npc in world.ForthRoom.npclist :
@@ -553,25 +554,25 @@ class DarkCloudMansion(JQuest) :
     if self.worlds.has_key(npc.getInstanceId()) :
        world = self.worlds[npc.getInstanceId()]
        if npcId == SOTruth :
-	  tele = PyObject()
-	  tele.x = ReturnPort[dataIndex][0]
-	  tele.y = ReturnPort[dataIndex][1]
-	  tele.z = ReturnPort[dataIndex][2]
-	  exitInstance(player, tele)
-	  if player.getObjectId() in world.rewarded :
-	     pass
-	  else :
-	     item = player.getInventory().addItem("Quest", CC, 1, player, None)
-	     iu = InventoryUpdate()
-	     iu.addItem(item)
-	     player.sendPacket(iu)
-	     sm = SystemMessage(SystemMessageId.YOU_PICKED_UP_S1_S2)
-	     sm.addItemName(item)
-	     sm.addNumber(1)
-	     player.sendPacket(sm)
-	     if debug : print "DarkCloudMansion - id" + str(player.getObjectId()) + " added to reward list"
-	     world.rewarded.append(player.getObjectId())
-	  return
+          tele = PyObject()
+          tele.x = ReturnPort[dataIndex][0]
+          tele.y = ReturnPort[dataIndex][1]
+          tele.z = ReturnPort[dataIndex][2]
+          exitInstance(player, tele)
+          if player.getObjectId() in world.rewarded :
+             pass
+          else :
+             item = player.getInventory().addItem("Quest", CC, 1, player, None)
+             iu = InventoryUpdate()
+             iu.addItem(item)
+             player.sendPacket(iu)
+             sm = SystemMessage(SystemMessageId.YOU_PICKED_UP_S1_S2)
+             sm.addItemName(item)
+             sm.addNumber(1)
+             player.sendPacket(sm)
+             if debug : print "DarkCloudMansion - id" + str(player.getObjectId()) + " added to reward list"
+             world.rewarded.append(player.getObjectId())
+          return
     return
 
   def onKill(self, npc, player, isPet) :
@@ -579,30 +580,30 @@ class DarkCloudMansion(JQuest) :
     if self.worlds.has_key(npc.getInstanceId()) :
       world = self.worlds[npc.getInstanceId()]
       if world.status == 0 :
-	if checkKillProgress(npc,world.startRoom):
-	  runHall(self,world)
+        if checkKillProgress(npc,world.startRoom):
+          runHall(self,world)
       if world.status == 1 :
-	if checkKillProgress(npc, world.Hall) :
-	  runFirstRoom(self, world)
+        if checkKillProgress(npc, world.Hall) :
+          runFirstRoom(self, world)
       if world.status == 2 :
-	if checkKillProgress(npc, world.FirstRoom) :
-	  runHall2(self, world)
+        if checkKillProgress(npc, world.FirstRoom) :
+          runHall2(self, world)
       if world.status == 3 :
-	if checkKillProgress(npc, world.Hall) :
-	  runSecondRoom(self, world)
+        if checkKillProgress(npc, world.Hall) :
+          runSecondRoom(self, world)
       if world.status == 5 :
-	if checkKillProgress(npc, world.Hall) :
-	  runThirdRoom(self, world)
+        if checkKillProgress(npc, world.Hall) :
+          runThirdRoom(self, world)
       if world.status == 6 :
-	if checkKillProgress(npc, world.ThirdRoom) :
-	  runForthRoom(self, world)
+        if checkKillProgress(npc, world.ThirdRoom) :
+          runForthRoom(self, world)
       if world.status == 7 :
-	chkShadowColumn(self, world, npc)
+        chkShadowColumn(self, world, npc)
       if world.status == 8 :
-	if checkKillProgress(npc, world.ThirdRoomBis) :
-	  runFifthRoom(self, world, player)
+        if checkKillProgress(npc, world.ThirdRoomBis) :
+          runFifthRoom(self, world, player)
       if world.status == 9 :
-	checkBelethSampleProgress(self,world,npc,player,BS)
+        checkBelethSampleProgress(self,world,npc,player,BS)
     return
 
   def onAttack(self, npc, player, damage, isPet, skill) :
@@ -610,48 +611,48 @@ class DarkCloudMansion(JQuest) :
     if self.worlds.has_key(npc.getInstanceId()) :
       world = self.worlds[player.getInstanceId()]
       if world.status == 2 :
-	if npcId == 22264 :
-	  closeDoor(D2, world.instanceId)
+        if npcId == 22264 :
+          closeDoor(D2, world.instanceId)
       if world.status == 7 :
-	if npcId == SC :
-	  closeDoor(D5, world.instanceId)
-	for mob in world.ForthRoom.npclist :
-	  if mob[0] == npc :
-	    if mob[0].isInvul() and Rnd.get(100) < 12 :
-	      if debug : print "DarkCloudMansion: spawn room 4 guard"
-	      newNpc = self.addSpawn(BM[Rnd.get(len(BM))], player.getX(), player.getY(), player.getZ(), 0, False, 0, False, world.instanceId)
+        if npcId == SC :
+          closeDoor(D5, world.instanceId)
+        for mob in world.ForthRoom.npclist :
+          if mob[0] == npc :
+            if mob[0].isInvul() and Rnd.get(100) < 12 :
+              if debug : print "DarkCloudMansion: spawn room 4 guard"
+              newNpc = self.addSpawn(BM[Rnd.get(len(BM))], player.getX(), player.getY(), player.getZ(), 0, False, 0, False, world.instanceId)
       if world.status == 9 and not world.attacked :
-	checkBelethSample(self, world, npc, player, BS)
+        checkBelethSample(self, world, npc, player, BS)
 
   def onFirstTalk(self, npc, player) :
     npcId = npc.getNpcId()
     if self.worlds.has_key(npc.getInstanceId()) :
        world = self.worlds[player.getInstanceId()]
        if world.status == 3 :
-	  if npcId == SOFaith :
-	     openDoor(D2, world.instanceId)
-	     htmltext = "32288.htm"
-	     return htmltext
+          if npcId == SOFaith :
+             openDoor(D2, world.instanceId)
+             htmltext = "32288.htm"
+             return htmltext
        elif world.status == 4 :
-	  if npcId == BSM:
-	     closeDoor(D3, world.instanceId)
-	  for npcObj in world.SecondRoom.monolith :
-	     if npcObj[0] == npc :
-		checkStone(self, npc, world.SecondRoom.monolithOrder, npcObj, world)
-	  if allStonesDone(self, world) : 
-	     removeMonoliths(self, world)
-	     runHall3(self, world)
+          if npcId == BSM:
+             closeDoor(D3, world.instanceId)
+          for npcObj in world.SecondRoom.monolith :
+             if npcObj[0] == npc :
+                checkStone(self, npc, world.SecondRoom.monolithOrder, npcObj, world)
+          if allStonesDone(self, world) : 
+             removeMonoliths(self, world)
+             runHall3(self, world)
        elif world.status == 5 :
-	  if npcId == SOAdversity :
-	     openDoor(D3, world.instanceId)
-	     htmltext = "32289.htm"
-	     return htmltext
+          if npcId == SOAdversity :
+             openDoor(D3, world.instanceId)
+             htmltext = "32289.htm"
+             return htmltext
        elif world.status == 8 :
-	  if npcId == SOAdventure :
-	     removeShadowColumn(self, world)
-	     openDoor(D5, world.instanceId)
-	     htmltext = "32290.htm"
-	     return htmltext
+          if npcId == SOAdventure :
+             removeShadowColumn(self, world)
+             openDoor(D5, world.instanceId)
+             htmltext = "32290.htm"
+             return htmltext
     return ""
 
 QUEST = DarkCloudMansion(-1, qn, "instances")

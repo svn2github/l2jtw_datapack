@@ -833,11 +833,15 @@ REPLACE INTO `weapon` VALUES
 
 -- 新頭飾
 REPLACE INTO `armor` VALUES
-(20401,'20401','hairall','false','none',10,'wood','none',0,-1,-1,0,0,0,0,0,'true','true','true','true','0-0','0-0;'); -- 勤勞者帽子
+(20401,'Laborer Hat','hairall','false','none',10,'wood','none',0,-1,-1,0,0,0,0,0,'true','true','true','true','0-0','0-0;'); -- 勤勞者帽子
 
 -- 新壺精
 REPLACE INTO `armor` VALUES
-(14776,'Agathion Seal Bracelet - Juju','lbracelet','false','none',150, 'wood','none',0,-1,20160,0,0,0,0,0,'false','false','true','false','0-0','8327-1;6136-1;6137-1;3267-1;'); -- 壺精封印手鐲-愛心
+(14776,'Agathion Seal Bracelet - Juju','lbracelet','false','none',150,'wood','none',0,-1,20160,0,0,0,0,0,'false','false','true','false','0-0','8327-1;6136-1;6137-1;3267-1;'); -- 壺精封印手鐲 愛心
+-- (20495,'Agathion Seal Bracelet - Pomona Mental Shield - 7 day limited period','lbracelet','false','none',150,'wood','none',0,-1,-1,0,0,0,0,0,'false','false','true','false','0-0','21085-1;23067-1;3267-1;'), -- 壺精封印手鐲-果樹女神
+-- (20496,'Agathion Seal Bracelet - Pomona Mental Shield - 7 day limited period','lbracelet','false','none',150,'wood','none',0,-1,10080,0,0,0,0,0,'false','false','true','false','0-0','21085-1;23067-1;23068-4;3267-1;'), -- 壺精封印手鐲-果樹女神 心靈防護(限時7日)
+-- (20497,'Mother\'s Wreath - Event Blessing of Love - 24 hours limited period','hairall','false','none',120,'wood','none',0,-1,1440,0,0,0,0,0,'false','false','true','false','0-0','21086-1;'), -- 母親的花環-活動 愛的祝福 限時24小時
+-- (20498,'Mother\'s Wreath Blessing of Love - 3 day limited period','hairall','false','none',120,'wood','none',0,-1,4320,0,0,0,0,0,'false','false','true','false','0-0','21086-1;'); -- 母親的花環-活動 愛的祝福(限時3日)
 UPDATE `armor` SET `skill` = '8275-1;3267-1;' WHERE `item_id` IN (13756);        -- 壺精召喚手鐲-騎士
 UPDATE `armor` SET `skill` = '8257-1;5956-1;3267-1;' WHERE `item_id` IN (14075); -- 怒氣壺精
 UPDATE `armor` SET `skill` = '8256-1;5955-1;3267-1;' WHERE `item_id` IN (14076); -- 開心壺精
