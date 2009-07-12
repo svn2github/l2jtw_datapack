@@ -96,7 +96,7 @@ public class Antharas extends L2AttackableAIScript
 		{
 			GrandBossManager.getInstance().setBossStatus(ANTHARAS,FIGHTING);
 			L2GrandBossInstance antharas = (L2GrandBossInstance) addSpawn(ANTHARAS,185452,114850,-8221,32768,false,0);
-            GrandBossManager.getInstance().addBoss(antharas);
+			GrandBossManager.getInstance().addBoss(antharas);
 			antharas.setRunning();
 			antharas.setIsInvul(true);
 			antharas.getAI().setIntention(CtrlIntention.AI_INTENTION_MOVE_TO, new L2CharPosition(181323,114850,-7618,0));

@@ -3279,11 +3279,11 @@ INSERT INTO `messagetable` VALUES ('1087', 'en', 'I will tell fishes not to take
 INSERT INTO `messagetable` VALUES ('1087', 'tw', '噁....我看連其他魚都不想理你吧...', null);
 INSERT INTO `messagetable` VALUES ('1087', 'cn', '恶....我看连其他鱼都不想理你吧...', null);
 INSERT INTO `messagetable` VALUES ('1088', 'en', 'forgive me!!', null);
-INSERT INTO `messagetable` VALUES ('1088', 'tw', '原諒我！！', null);
-INSERT INTO `messagetable` VALUES ('1088', 'cn', '原谅我！！', null);
+INSERT INTO `messagetable` VALUES ('1088', 'tw', '救命啊！！', null);
+INSERT INTO `messagetable` VALUES ('1088', 'cn', '救命啊！！', null);
 INSERT INTO `messagetable` VALUES ('1089', 'en', 'Many thanks for rescue me.', null);
-INSERT INTO `messagetable` VALUES ('1089', 'tw', '非常感謝營救我。', null);
-INSERT INTO `messagetable` VALUES ('1089', 'cn', '非常感谢营救我。', null);
+INSERT INTO `messagetable` VALUES ('1089', 'tw', '非常感謝你們救我。', null);
+INSERT INTO `messagetable` VALUES ('1089', 'cn', '非常感谢你们救我。', null);
 INSERT INTO `messagetable` VALUES ('1090', 'en', '[ Seal Status ]', null);
 INSERT INTO `messagetable` VALUES ('1090', 'tw', '[ 封印狀態 ]', null);
 INSERT INTO `messagetable` VALUES ('1090', 'cn', '[ 封印状态 ]', null);

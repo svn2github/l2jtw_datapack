@@ -499,7 +499,7 @@ def endInstance(self, world) :
   world.status = 10
   newNpc = self.addSpawn(SOTruth, 148911, 181940, -6117, 16383, False, 0, False, world.instanceId)
   instanceObj = InstanceManager.getInstance().getInstance(self.currentWorld)
-  instanceObj.setDuration(3)
+  instanceObj.setDuration(300000)
   world.startRoom = None
   world.Hall = None
   world.SecondRoom = None
