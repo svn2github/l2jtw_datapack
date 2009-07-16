@@ -765,11 +765,11 @@ class EmeraldSteam(JQuest):
 						for player in partyMembers :
 							pst = player.getQuestState(qn)
 							if pst :
-								pst.giveItems(BLUE_CRYSTAL,1)
+								pst.giveItems(RED_CRYSTAL,1)
 					else :
 						pst = player.getQuestState(qn)
 						if pst :
-							pst.giveItems(BLUE_CRYSTAL,1)
+							pst.giveItems(RED_CRYSTAL,1)
 		return
 
 QUEST = EmeraldSteam(-1, qn, "EmeraldSteam")
