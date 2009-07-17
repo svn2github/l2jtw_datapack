@@ -393,18 +393,18 @@ WALKS={
 "3262810":[-149268,254134,-184,"3262811"],
 "3262811":[-148706,254412,-184,"3262812"],
 "3262812":[-148316,254854,-184,"3262807"],
-"3262901":[-150502,255276,-184,"3262902"],
-"3262902":[-150460,254818,-184,"3262903"],
-"3262903":[-150082,254376,-184,"3262904"],
-"3262904":[-149518,254098,-184,"3262905"],
-"3262905":[-150082,254376,-184,"3262906"],
-"3262906":[-150460,254818,-184,"3262901"],
-"3262907":[-150466,255312,-184,"3262908"],
-"3262908":[-150424,254854,-184,"3262909"],
-"3262909":[-150046,254412,-184,"3262910"],
-"3262910":[-149482,254134,-184,"3262911"],
-"3262911":[-150046,254412,-184,"3262912"],
-"3262912":[-150424,254854,-184,"3262907"],
+"3262901":[-150500,255276,-184,"3262902"],
+"3262902":[-150450,254818,-184,"3262903"],
+"3262903":[-150060,254376,-184,"3262904"],
+"3262904":[-149498,254098,-184,"3262905"],
+"3262905":[-150060,254376,-184,"3262906"],
+"3262906":[-150450,254818,-184,"3262901"],
+"3262907":[-150464,255312,-184,"3262908"],
+"3262908":[-150414,254854,-184,"3262909"],
+"3262909":[-150024,254412,-184,"3262910"],
+"3262910":[-149462,254134,-184,"3262911"],
+"3262911":[-150024,254412,-184,"3262912"],
+"3262912":[-150414,254854,-184,"3262907"],
 }
 
 class NPC_Walk(JQuest) :
@@ -422,61 +422,59 @@ class NPC_Walk(JQuest) :
      self.addSpawn(31365,-48807,-113489,-241,0,False,0)
      self.addSpawn(32070,90271,-143869,-1547,0,False,0)
      self.addSpawn(32072,84429,-144065,-1542,0,False,0)
-     self.startQuestTimer("walks",1000, None, None)
+     walk01 = self.addSpawn(35659,-55675,157012,-2034,0,False,0)
+     walk02 = self.addSpawn(35690,-28169,216864,-3544,0,False,0)
+     walk03 = self.addSpawn(35728,19408,189422,-3136,0,False,0)
+     walk04 = self.addSpawn(35759,123383,121093,-2864,0,False,0)
+     walk05 = self.addSpawn(35797,74725,1671,-3128,0,False,0)
+     walk06 = self.addSpawn(35828,159377,52403,-3312,0,False,0)
+     walk07 = self.addSpawn(35859,190423,43540,-3656,0,False,0)
+     walk08 = self.addSpawn(35897,114436,202528,-3408,0,False,0)
+     walk09 = self.addSpawn(35928,161876,-73407,-2984,0,False,0)
+     walk10 = self.addSpawn(35966,71436,-58182,-2904,0,False,0)
+     walk11 = self.addSpawn(36004,105447,-139845,-3120,0,False,0)
+     walk12 = self.addSpawn(36035,14186,149947,-3352,0,False,0)
+     walk13 = self.addSpawn(36073,-56032,86017,-3259,0,False,0)
+     walk14 = self.addSpawn(36111,58314,136319,-2000,0,False,0)
+     walk15 = self.addSpawn(36142,9318,92253,-3536,0,False,0)
+     walk16 = self.addSpawn(36173,-80904,94098,-3152,0,False,0)
+     walk17 = self.addSpawn(36211,114221,-18762,-1768,0,False,0)
+     walk18 = self.addSpawn(36249,121072,93215,-2736,0,False,0)
+     walk19 = self.addSpawn(36287,71692,188004,-2616,0,False,0)
+     walk20 = self.addSpawn(36318,104150,-57163,-848,0,False,0)
+     walk21 = self.addSpawn(36356,69553,-91746,-1488,0,False,0)
+     walk31 = self.addSpawn(32628,-148230,255276,-184,0,False,0)
+     walk32 = self.addSpawn(32628,-148266,255312,-184,0,False,0)
+     walk33 = self.addSpawn(32629,-149498,254098,-184,0,False,0)
+     walk34 = self.addSpawn(32629,-149462,254134,-184,0,False,0)
+     self.startQuestTimer("3565901",1000, walk01, None)
+     self.startQuestTimer("3569001",1000, walk02, None)
+     self.startQuestTimer("3572801",1000, walk03, None)
+     self.startQuestTimer("3575901",1000, walk04, None)
+     self.startQuestTimer("3579701",1000, walk05, None)
+     self.startQuestTimer("3582801",1000, walk06, None)
+     self.startQuestTimer("3585901",1000, walk07, None)
+     self.startQuestTimer("3589701",1000, walk08, None)
+     self.startQuestTimer("3592801",1000, walk09, None)
+     self.startQuestTimer("3596601",1000, walk10, None)
+     self.startQuestTimer("3600401",1000, walk11, None)
+     self.startQuestTimer("3603501",1000, walk12, None)
+     self.startQuestTimer("3607301",1000, walk13, None)
+     self.startQuestTimer("3611101",1000, walk14, None)
+     self.startQuestTimer("3614201",1000, walk15, None)
+     self.startQuestTimer("3617301",1000, walk16, None)
+     self.startQuestTimer("3621101",1000, walk17, None)
+     self.startQuestTimer("3624901",1000, walk18, None)
+     self.startQuestTimer("3628701",1000, walk19, None)
+     self.startQuestTimer("3631801",1000, walk20, None)
+     self.startQuestTimer("3635601",1000, walk21, None)
+     self.startQuestTimer("3262801",1000, walk31, None)
+     self.startQuestTimer("3262807",1000, walk32, None)
+     self.startQuestTimer("3262904",1000, walk33, None)
+     self.startQuestTimer("3262910",1000, walk34, None)
 
   def onAdvEvent (self,event,npc,pc) :
-    if event == "walks" :
-       walk01 = self.addSpawn(35659,-55675,157012,-2034,0,False,0)
-       walk02 = self.addSpawn(35690,-28169,216864,-3544,0,False,0)
-       walk03 = self.addSpawn(35728,19408,189422,-3136,0,False,0)
-       walk04 = self.addSpawn(35759,123383,121093,-2864,0,False,0)
-       walk05 = self.addSpawn(35797,74725,1671,-3128,0,False,0)
-       walk06 = self.addSpawn(35828,159377,52403,-3312,0,False,0)
-       walk07 = self.addSpawn(35859,190423,43540,-3656,0,False,0)
-       walk08 = self.addSpawn(35897,114436,202528,-3408,0,False,0)
-       walk09 = self.addSpawn(35928,161876,-73407,-2984,0,False,0)
-       walk10 = self.addSpawn(35966,71436,-58182,-2904,0,False,0)
-       walk11 = self.addSpawn(36004,105447,-139845,-3120,0,False,0)
-       walk12 = self.addSpawn(36035,14186,149947,-3352,0,False,0)
-       walk13 = self.addSpawn(36073,-56032,86017,-3259,0,False,0)
-       walk14 = self.addSpawn(36111,58314,136319,-2000,0,False,0)
-       walk15 = self.addSpawn(36142,9318,92253,-3536,0,False,0)
-       walk16 = self.addSpawn(36173,-80904,94098,-3152,0,False,0)
-       walk17 = self.addSpawn(36211,114221,-18762,-1768,0,False,0)
-       walk18 = self.addSpawn(36249,121072,93215,-2736,0,False,0)
-       walk19 = self.addSpawn(36287,71692,188004,-2616,0,False,0)
-       walk20 = self.addSpawn(36318,104150,-57163,-848,0,False,0)
-       walk21 = self.addSpawn(36356,69553,-91746,-1488,0,False,0)
-       walk31 = self.addSpawn(32628,-148230,255276,-184,0,False,0)
-       walk32 = self.addSpawn(32628,-148266,255312,-184,0,False,0)
-       walk33 = self.addSpawn(32629,-150502,255276,-184,0,False,0)
-       walk34 = self.addSpawn(32629,-150466,255312,-184,0,False,0)
-       self.startQuestTimer("3565901",1000, walk01, None)
-       self.startQuestTimer("3569001",1000, walk02, None)
-       self.startQuestTimer("3572801",1000, walk03, None)
-       self.startQuestTimer("3575901",1000, walk04, None)
-       self.startQuestTimer("3579701",1000, walk05, None)
-       self.startQuestTimer("3582801",1000, walk06, None)
-       self.startQuestTimer("3585901",1000, walk07, None)
-       self.startQuestTimer("3589701",1000, walk08, None)
-       self.startQuestTimer("3592801",1000, walk09, None)
-       self.startQuestTimer("3596601",1000, walk10, None)
-       self.startQuestTimer("3600401",1000, walk11, None)
-       self.startQuestTimer("3603501",1000, walk12, None)
-       self.startQuestTimer("3607301",1000, walk13, None)
-       self.startQuestTimer("3611101",1000, walk14, None)
-       self.startQuestTimer("3614201",1000, walk15, None)
-       self.startQuestTimer("3617301",1000, walk16, None)
-       self.startQuestTimer("3621101",1000, walk17, None)
-       self.startQuestTimer("3624901",1000, walk18, None)
-       self.startQuestTimer("3628701",1000, walk19, None)
-       self.startQuestTimer("3631801",1000, walk20, None)
-       self.startQuestTimer("3635601",1000, walk21, None)
-       self.startQuestTimer("3262801",1000, walk31, None)
-       self.startQuestTimer("3262807",1000, walk32, None)
-       self.startQuestTimer("3262901",1000, walk33, None)
-       self.startQuestTimer("3262907",1000, walk34, None)
-    elif event in WALKS.keys() :
+    if event in WALKS.keys() :
        x,y,z,nextEvent=WALKS[event]
        npc.setWalking()
        npc.setIsInvul(True)
