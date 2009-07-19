@@ -51,6 +51,13 @@ public class SummonMinions extends L2AttackableAIScript
             MINIONS.put(22265,new Integer[]{18366,18366}); //Chrysocolla
             MINIONS.put(22266,new Integer[]{18366,18366}); //Pythia
     }
+	private static String[] text =
+	{
+        "各位！出來吧！",
+        "兄弟們啊，消滅敵人吧！",
+        "黑暗的軍勢啊，跟隨我吧！",
+        "出來！黑暗的孩子們！"
+	};
 	
 	public SummonMinions(int questId, String name, String descr)
 	{
@@ -176,7 +183,7 @@ public class SummonMinions extends L2AttackableAIScript
 						minions = null;
 						if (npcId == 20767)
 						{
-							npc.broadcastPacket(new NpcSay(npcObjId, 0, npcId, "Come out, you children of darkness!"));
+							npc.broadcastPacket(new NpcSay(npcObjId, 0, npcId, text[Rnd.get(3)]));
 						}
 						break;
 					}
