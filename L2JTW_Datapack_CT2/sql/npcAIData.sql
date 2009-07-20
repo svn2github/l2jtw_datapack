@@ -22,7 +22,7 @@ CREATE TABLE `npcAIData` (
   `dodge` int(3) DEFAULT NULL,
   `ai_type` varchar(8) DEFAULT 'fighter',
   PRIMARY KEY (`npc_id`)
-) ENGINE=MyISAM DEFAULT CHARSET=big5;
+);
 
 -- ----------------------------
 -- Records 

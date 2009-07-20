@@ -15,7 +15,7 @@
     <effect name="Buff" time="2400" val="0" stackOrder="99" stackType="ma_up">
       <mul order="0x30" stat="mAtk" val="1.75"/>
     </effect>
-    <effect name="Debuff" time="2400" val="0" stackOrder="99" stackType="MagicDefUp" noicon="1"> <!-- temp fix (debuff type) to have working stack -->
+    <effect name="Buff" time="2400" val="0" stackOrder="99" stackType="MagicDefUp" noicon="1">
       <mul order="0x30" stat="mDef" val="1.3"/>
     </effect>
   </for>
@@ -35,7 +35,7 @@
     <effect name="Buff" time="2400" val="0" stackOrder="99" stackType="max_hp_up">
       <mul order="0x30" stat="maxHp" val="1.35"/>
     </effect>
-    <effect name="Debuff" time="2400" val="0" stackOrder="99" stackType="max_mp_up" noicon="1"> <!-- temp fix (debuff type) to have working stack -->
+    <effect name="Buff" time="2400" val="0" stackOrder="99" stackType="max_mp_up" noicon="1">
       <mul order="0x30" stat="maxMp" val="1.35"/>
     </effect>
   </for>
@@ -55,7 +55,7 @@
     <effect name="Buff" time="2400" val="0" stackOrder="99" stackType="critical_prob_up">
       <basemul order="0x30" stat="rCrit" val="0.3"/>
     </effect>
-    <effect name="Debuff" time="2400" val="0" stackOrder="99" stackType="critical_dmg_up" noicon="1"> <!-- temp fix (debuff type) to have working stack -->
+    <effect name="Buff" time="2400" val="0" stackOrder="99" stackType="critical_dmg_up" noicon="1">
       <mul order="0x30" stat="cAtk" val="1.35"/>
     </effect>
   </for>
@@ -75,7 +75,7 @@
     <effect name="Buff" time="2400" val="0" stackOrder="99" stackType="shieldProbUp">
       <mul order="0x30" stat="rShld" val="1.3"/>
     </effect>
-    <effect name="Debuff" time="2400" val="0" stackOrder="99" stackType="sdef_up" noicon="1"> <!-- temp fix (debuff type) to have working stack -->
+    <effect name="Buff" time="2400" val="0" stackOrder="99" stackType="sdef_up" noicon="1">
       <mul order="0x30" stat="sDef" val="1.5"/>
     </effect>
   </for>
@@ -95,7 +95,7 @@
     <effect name="Buff" time="2400" val="0" stackOrder="99" stackType="speed_up">
       <add order="0x40" stat="runSpd" val="33"/>
     </effect>
-    <effect name="Debuff" time="2400" val="0" stackOrder="99" stackType="rEvas" noicon="1"> <!-- temp fix (debuff type) to have working stack -->
+    <effect name="Buff" time="2400" val="0" stackOrder="99" stackType="rEvas" noicon="1">
       <add order="0x40" stat="rEvas" val="4"/>
     </effect>
   </for>
@@ -150,7 +150,6 @@
   </for>
 </skill>
 <skill id="1508" levels="1" name="Throne Root">
-  <!-- Done by DJ MELERIX -->
   <set name="hitTime" val="1500"/>
   <set name="isDebuff" val="true"/>
   <set name="isMagic" val="true"/>
@@ -229,7 +228,6 @@
   </for>
 </skill>
   <skill id="1512" levels="1" name="Soul Vortex">
-  <!-- Done By Akira35 -->
   <!-- Needs to be verified -->
   <set name="mpInitialConsume" val="21"/>
   <set name="mpConsume" val="84"/>
@@ -259,7 +257,6 @@
   </for>
 </skill>
 <skill id="1513" levels="1" name="Soul Vortex Extinction">
-  <!-- Done By Akira35 -->
   <!-- Needs to be verified -->
   <set name="mpInitialConsume" val="28"/>
   <set name="mpConsume" val="80"/>
@@ -314,7 +311,6 @@
   </for>
 </skill>
 <skill id="1516" levels="1" name="Soul Strike">
-  <!-- Done by DJ MELERIX -->
   <set name="castRange" val="750"/>
   <set name="effectRange" val="1250"/>
   <set name="hitTime" val="2000"/>
@@ -344,7 +340,7 @@
     <effect name="Buff" time="2400" val="0" stackOrder="99" stackType="pa_up">
       <mul order="0x30" stat="pAtk" val="1.15"/>
     </effect>
-    <effect name="Debuff" time="2400" val="0" stackOrder="99" stackType="pd_up" noicon="1"> <!-- temp fix (debuff type) to have working stack -->
+    <effect name="Buff" time="2400" val="0" stackOrder="99" stackType="pd_up" noicon="1">
       <mul order="0x30" stat="pDef" val="1.15"/>
     </effect>
   </for>
@@ -363,7 +359,7 @@
     <effect name="Buff" time="2400" val="0" stackOrder="99" stackType="critical_prob_up">
       <basemul order="0x30" stat="rCrit" val="0.3"/>
     </effect>
-    <effect name="Debuff" time="2400" val="0" stackOrder="99" stackType="critical_dmg_up" noicon="1"> <!-- temp fix (debuff type) to have working stack -->
+    <effect name="Buff" time="2400" val="0" stackOrder="99" stackType="critical_dmg_up" noicon="1">
       <mul order="0x30" stat="cAtk" val="1.35"/>
     </effect>
   </for>
@@ -382,7 +378,7 @@
     <effect name="Buff" time="2400" val="0" stackOrder="99" stackType="vampRage">
        <add order="0x40" stat="absorbDam" val="9"/> <!-- absorb 9% HP from damage inflicted on enemies -->
     </effect>
-    <effect name="Debuff" time="2400" val="0" stackOrder="99" stackType="attack_time_down" noicon="1"> <!-- temp fix (debuff type) to have working stack -->
+    <effect name="Buff" time="2400" val="0" stackOrder="99" stackType="attack_time_down" noicon="1">
       <mul order="0x30" stat="pAtkSpd" val="1.33"/>
     </effect>
   </for>
@@ -396,7 +392,9 @@
   <set name="reuseDelay" val="30000"/>
   <set name="transformId" val="316"/>
   <for>
-    <effect name="Transformation" time="18400" val="0"/>
+    <effect name="Transformation" time="18400" val="0">
+      <mul order="0x30" stat="pvpMagicalDmg" val="0.4"/>
+    </effect>
   </for>
 </skill>
 <skill id="1521" levels="1" name="Inquisitor">
@@ -408,7 +406,9 @@
   <set name="reuseDelay" val="30000"/>
   <set name="transformId" val="317"/>
   <for>
-    <effect name="Transformation" time="18400" val="0"/>
+    <effect name="Transformation" time="18400" val="0">
+      <mul order="0x30" stat="pvpMagicalDmg" val="0.4"/>
+    </effect>
   </for>
 </skill>
 <skill id="1522" levels="1" name="Inquisitor">
@@ -420,12 +420,13 @@
   <set name="reuseDelay" val="30000"/>
   <set name="transformId" val="318"/>
   <for>
-    <effect name="Transformation" time="18400" val="0"/>
+    <effect name="Transformation" time="18400" val="0">
+      <mul order="0x30" stat="pvpMagicalDmg" val="0.4"/>
+    </effect>
   </for>
 </skill>
 <skill id="1523" levels="42" name="Divine Punishment">
   <!-- Inquisitor Stance Skill -->
-  <!-- Missing: In PvP combat, the power of Divine Punishment skill have been decreased by 60%. -->
   <table name="#mpConsume"> 35 37 38 38 39 40 42 42 43 44 45 45 47 48 49 49 50 52 53 53 54 55 55 57 58 58 59 60 60 62 62 63 63 64 64 65 65 67 67 67 68 68 </table>
   <table name="#magicLvl"> 44 45 46 47 48 49 50 51 52 53 54 55 56 57 58 59 60 61 62 63 64 65 66 67 68 69 70 71 72 73 74 75 76 77 78 79 80 81 82 83 84 85 </table>
   <table name="#power"> 51 52 54 55 57 58 60 61 63 64 66 68 69 71 72 74 75 77 78 80 81 83 85 86 88 89 90 92 93 95 96 97 99 100 101 102 103 105 106 107 108 109 </table>
@@ -445,7 +446,6 @@
 </skill>
 <skill id="1524" levels="42" name="Surrender to the Holy">
   <!-- Inquisitor Stance Skill -->
-  <!-- Done by caramon81 -->
   <table name="#mpConsume"> 39 39 41 42 43 44 44 46 47 48 49 49 51 52 53 54 55 56 57 58 59 60 61 62 63 64 64 66 67 67 68 69 69 70 71 72 73 73 73 74 74 75 </table>
   <table name="#magicLvl"> 44 45 46 47 48 49 50 51 52 53 54 55 56 57 58 59 60 61 62 63 64 65 66 67 68 69 70 71 72 73 74 75 76 77 78 79 80 81 82 83 84 85 </table> <!-- Guesssing -->
   <set name="mpConsume" val="#mpConsume"/>
@@ -470,7 +470,6 @@
 </skill>
 <skill id="1525" levels="42" name="Divine Curse">
   <!-- Inquisitor Stance Skill -->
-  <!-- Done by DJ MELERIX -->
   <table name="#dot"> 9 9 9 9 9 9 11 11 11 11 11 11 11 11 11 11 13 13 13 13 13 13 13 13 13 13 14 14 14 14 14 14 14 14 14 14 15 15 15 15 15 15 </table>
   <table name="#magicLvl"> 44 45 46 47 48 49 50 51 52 53 54 55 56 57 58 59 60 61 62 63 64 65 66 67 68 69 70 71 72 73 74 75 76 77 78 79 80 81 82 83 84 85 </table>
   <table name="#mpConsume"> 39 40 42 43 44 44 45 47 48 49 49 50 52 53 54 55 55 57 58 59 60 60 62 63 64 64 65 67 67 68 69 69 70 70 72 73 73 73 74 74 75 75 </table>
@@ -508,7 +507,6 @@
   <set name="chanceType" val="ON_HIT"/>
 </skill>
 <skill id="1527" levels="1" name="Expert Casting">
-  <!-- Done by Caramon81 -->
   <set name="target" val="TARGET_SELF"/>
   <set name="skillType" val="BUFF"/>
   <set name="operateType" val="OP_PASSIVE"/>
@@ -519,7 +517,6 @@
 </skill>
 <skill id="1528" levels="42" name="Divine Flash">
   <!-- Inquisitor Stance Skill -->
-  <!-- Missing: In PvP combat, the power of Divine Flash skill have been decreased by 60%. -->
   <table name="#mpConsume"> 57 59 60 62 63 65 67 68 69 70 73 74 75 77 79 80 82 83 85 87 88 89 90 93 94 95 97 98 99 100 102 103 104 105 105 107 108 109 109 110 112 112 </table>
   <table name="#magicLvl"> 44 45 46 47 48 49 50 51 52 53 54 55 56 57 58 59 60 61 62 63 64 65 66 67 68 69 70 71 72 73 74 75 76 77 78 79 80 81 82 83 84 85 </table>
   <table name="#power"> 29 29 30 31 32 33 33 34 35 36 37 38 39 39 40 41 42 43 44 45 45 46 47 48 49 50 50 51 52 53 54 54 55 56 56 57 58 58 59 60 60 61 </table>
@@ -654,7 +651,7 @@
     <effect name="Buff" time="2400" val="0" stackOrder="99" stackType="speed_up">
       <add order="0x40" stat="runSpd" val="33"/>
     </effect>
-    <effect name="Debuff" time="2400" val="0" stackOrder="99" stackType="rEvas" noicon="1"> <!-- temp fix (debuff type) to have working stack -->
+    <effect name="Buff" time="2400" val="0" stackOrder="99" stackType="rEvas" noicon="1">
       <add order="0x40" stat="rEvas" val="4"/>
     </effect>
   </for>
@@ -675,7 +672,7 @@
     <effect name="Buff" time="2400" val="0" stackOrder="99" stackType="pa_up">
       <mul order="0x30" stat="pAtk" val="1.15"/>
     </effect>
-    <effect name="Debuff" time="2400" val="0" stackOrder="99" stackType="pd_up" noicon="1"> <!-- temp fix (debuff type) to have working stack -->
+    <effect name="Buff" time="2400" val="0" stackOrder="99" stackType="pd_up" noicon="1">
       <mul order="0x30" stat="pDef" val="1.15"/>
     </effect>
   </for>
@@ -694,7 +691,7 @@
     <effect name="Buff" time="2400" val="0" stackOrder="99" stackType="critical_prob_up">
       <basemul order="0x30" stat="rCrit" val="0.3"/>
     </effect>
-    <effect name="Debuff" time="2400" val="0" stackOrder="99" stackType="critical_dmg_up" noicon="1"> <!-- temp fix (debuff type) to have working stack -->
+    <effect name="Buff" time="2400" val="0" stackOrder="99" stackType="critical_dmg_up" noicon="1">
       <mul order="0x30" stat="cAtk" val="1.35"/>
     </effect>
   </for>
@@ -713,13 +710,12 @@
     <effect name="Buff" time="2400" val="0" stackOrder="99" stackType="max_hp_up">
       <mul order="0x30" stat="maxHp" val="1.35"/>
     </effect>
-    <effect name="Debuff" time="2400" val="0" stackOrder="99" stackType="max_mp_up" noicon="1"> <!-- temp fix (debuff type) to have working stack -->
+    <effect name="Buff" time="2400" val="0" stackOrder="99" stackType="max_mp_up" noicon="1">
       <mul order="0x30" stat="maxMp" val="1.35"/>
     </effect>
   </for>
 </skill>
 <skill id="1539" levels="4" name="Stigma of Shilien">
-  <!-- Done by DJ MELERIX -->
   <table name="#castRange"> 600 700 800 900 </table>
   <table name="#effectRange"> 1100 1200 1300 1400 </table>
   <table name="#magicLvl"> 40 52 62 70 </table>

@@ -68,17 +68,17 @@ MAX = 100
 #templates
 number  = ["二","三","四","五","六"]
 header  = "<html><body>負責貨物的倉庫管理員倫夫:<br><br>"
-link    = "<td align=center><a action=\"bypass -h Quest 386_StolenDignity "
-middle  = "</tr></table><br><br>先參考一下，現在的情況如下：<br><br><table border=1 width=120 hieght=64>"
+link    = "<a action=\"bypass -h Quest 386_StolenDignity "
+middle  = "<br><br>先參考一下，現在的情況如下：<br><br><table border=1 width=120 hieght=64>"
 footer  = "</table></body></html>"
 loser   = "你這個人真沒運氣。在下面賓果板上的紅色數字是你選擇的。你看了就知道，一條線都沒有完成耶。其實，沒完成任何一條線比完成三條線還要難耶。<br>一般來講，在沒完成任何一條線時，是不給任何補償的，但看你可憐就讓我來發發慈悲吧。你等一下。<br>.<br>.<br>.<br>來，把這個拿走吧。希望這個對你那艱難的人生帶來一點幫助。<br><br>"
 winner  = "嗄？完成了三條線啊！你看一下，下面的賓果板上紅色的數字是你選擇的。就如你所看到的，順利完成了三條線耶。恭喜你！按照約定，公會準備的報酬就是製作A級武器時所需的材料吧。請等一下。<br>.<br>.<br>.<br>來，把這個拿走吧。希望這個對你那艱難的人生帶來一點幫助。<br><br>"
 average = "咦。真可惜不成3條線。下次再來挑戰吧。讓你看一下，下面的賓果板上紅色的數字是你選擇的。<br><br>"
 
 def partial(st) :
-    html = "個數字。<br><br><table border=0><tr>"
+    html = "個數字。<br><br>"
     for z in range(1,10) :
-        html += link+str(z)+"\">"+str(z)+"</a></td>"
+        html += link+str(z)+"\">"+str(z)+"</a>&nbsp;&nbsp;&nbsp;&nbsp;"
     html += middle
     chosen = st.get("chosen").split()
     for y in range(0,7,3) :

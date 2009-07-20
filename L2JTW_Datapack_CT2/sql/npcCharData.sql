@@ -25,4 +25,4 @@ CREATE TABLE `npcCharData` (
   `face` decimal(11,0) DEFAULT NULL,
   `augmentation` decimal(11,0) DEFAULT NULL,
   PRIMARY KEY (`npc_id`)
-) ENGINE=MyISAM DEFAULT CHARSET=utf8;
+);

@@ -9,7 +9,7 @@ CREATE TABLE IF NOT EXISTS `messagetable` (
   `message` text,
   `extraMessage` text,
   PRIMARY KEY (`mid`,`language`)
-) ENGINE=MyISAM DEFAULT CHARSET=utf8;
+) DEFAULT CHARSET=utf8;
 
 -- ----------------------------
 -- Records 
@@ -1697,9 +1697,9 @@ INSERT INTO `messagetable` VALUES ('559', 'cn', '无法在骑乘状态捡取东�
 INSERT INTO `messagetable` VALUES ('560', 'en', 'You may not resurrect participants in a festival.', null);
 INSERT INTO `messagetable` VALUES ('560', 'tw', '無法在黑暗的祭典使用。', null);
 INSERT INTO `messagetable` VALUES ('560', 'cn', '无法在黑暗的祭典使用。', null);
-INSERT INTO `messagetable` VALUES ('561', 'en', '', null);
-INSERT INTO `messagetable` VALUES ('561', 'tw', '', null);
-INSERT INTO `messagetable` VALUES ('561', 'cn', '', null);
+INSERT INTO `messagetable` VALUES ('561', 'en', ''s special status was affected by your request.', null);
+INSERT INTO `messagetable` VALUES ('561', 'tw', '「$1」出現/消失所要求的特殊效果。', null);
+INSERT INTO `messagetable` VALUES ('561', 'cn', '“$1”出现/消失所要求的特殊效果。', null);
 INSERT INTO `messagetable` VALUES ('562', 'en', 'You may not use an escape command in a Boss Zone.', null);
 INSERT INTO `messagetable` VALUES ('562', 'tw', '無法在 Boss Zone 使用「/脫逃」指令。', null);
 INSERT INTO `messagetable` VALUES ('562', 'cn', '无法在 Boss Zone 使用“/脱逃”指令。', null);
@@ -1778,9 +1778,9 @@ INSERT INTO `messagetable` VALUES ('586', 'cn', '现在已经取得“$1”的�
 INSERT INTO `messagetable` VALUES ('587', 'en', 'You now have all your skills back.', null);
 INSERT INTO `messagetable` VALUES ('587', 'tw', '現在已經恢復所有的技能。', null);
 INSERT INTO `messagetable` VALUES ('587', 'cn', '现在已经恢复所有的技能。', null);
-INSERT INTO `messagetable` VALUES ('588', 'en', '', null);
-INSERT INTO `messagetable` VALUES ('588', 'tw', '', null);
-INSERT INTO `messagetable` VALUES ('588', 'cn', '', null);
+INSERT INTO `messagetable` VALUES ('588', 'en', 'Usage: //special <hex_special_mask> [player|radius]', null);
+INSERT INTO `messagetable` VALUES ('588', 'tw', '使用方法：//special <hex_special_mask> [player|radius]', null);
+INSERT INTO `messagetable` VALUES ('588', 'cn', '使用方法：//special <hex_special_mask> [player|radius]', null);
 INSERT INTO `messagetable` VALUES ('589', 'en', '', null);
 INSERT INTO `messagetable` VALUES ('589', 'tw', '', null);
 INSERT INTO `messagetable` VALUES ('589', 'cn', '', null);
@@ -2239,7 +2239,7 @@ INSERT INTO `messagetable` VALUES ('740', 'tw', '開往亞丁大陸的定期飛�
 INSERT INTO `messagetable` VALUES ('740', 'cn', '开往亚丁大陆的定期飞空艇已出发。', null);
 INSERT INTO `messagetable` VALUES ('741', 'en', 'The regurarly scheduled airship has arrived. It will depart for the Gracia continent in 1 minute.', null);
 INSERT INTO `messagetable` VALUES ('741', 'tw', '定期飛空艇已經抵達。1分鐘後，將會開往格勒西亞大陸。', null);
-INSERT INTO `messagetable` VALUES ('741', 'cn', '定期飞空艇已经抵达。1分钟后，将会开往格勒西亚大陆。', null);
+INSERT INTO `messagetable` VALUES ('741', 'cn', '定期飞空艇已经抵达。1分钟后，将会开往天空之城大陆。', null);
 INSERT INTO `messagetable` VALUES ('742', 'en', '$1 minute(s) until $2 siege begin.', null);
 INSERT INTO `messagetable` VALUES ('742', 'tw', '距離「$2」攻城開始時間 「$1」分鐘。', null);
 INSERT INTO `messagetable` VALUES ('742', 'cn', '距离“$2”攻城开始时间 “$1”分钟。', null);
@@ -2248,7 +2248,7 @@ INSERT INTO `messagetable` VALUES ('743', 'tw', '離「$2」攻城戰結束時�
 INSERT INTO `messagetable` VALUES ('743', 'cn', '离“$2”攻城战结束时间还有“$1”分钟。', null);
 INSERT INTO `messagetable` VALUES ('744', 'en', 'The regurarly scheduled airship that flies to the Gracia continent has departed.', null);
 INSERT INTO `messagetable` VALUES ('744', 'tw', '開往格勒西亞大陸的定期飛空艇已出發。', null);
-INSERT INTO `messagetable` VALUES ('744', 'cn', '开往格勒西亚大陆的定期飞空艇已出发。', null);
+INSERT INTO `messagetable` VALUES ('744', 'cn', '开往天空之城大陆的定期飞空艇已出发。', null);
 INSERT INTO `messagetable` VALUES ('745', 'en', 'Fewer than', null);
 INSERT INTO `messagetable` VALUES ('745', 'tw', '未滿', null);
 INSERT INTO `messagetable` VALUES ('745', 'cn', '未满', null);
@@ -3377,9 +3377,9 @@ INSERT INTO `messagetable` VALUES ('1119', 'cn', '黄昏的革命军取得胜利
 INSERT INTO `messagetable` VALUES ('1120', 'en', '', null);
 INSERT INTO `messagetable` VALUES ('1120', 'tw', '', null);
 INSERT INTO `messagetable` VALUES ('1120', 'cn', '', null);
-INSERT INTO `messagetable` VALUES ('1121', 'en', 'Warning!! Character $1 tried to enter four sepulchers with invalid npc id.', null);
-INSERT INTO `messagetable` VALUES ('1121', 'tw', '警告！！玩家「$1」企圖利用非法的 NPC 進入四聖杯。', null);
-INSERT INTO `messagetable` VALUES ('1121', 'cn', '警告！！玩家“$1”企图利用非法的 NPC 进入四圣杯。', null);
+INSERT INTO `messagetable` VALUES ('1121', 'en', '', null);
+INSERT INTO `messagetable` VALUES ('1121', 'tw', '', null);
+INSERT INTO `messagetable` VALUES ('1121', 'cn', '', null);
 INSERT INTO `messagetable` VALUES ('1122', 'en', 'Current Petitions', null);
 INSERT INTO `messagetable` VALUES ('1122', 'tw', '目前訴求', null);
 INSERT INTO `messagetable` VALUES ('1122', 'cn', '目前诉求', null);
@@ -3681,11 +3681,11 @@ INSERT INTO `messagetable` VALUES ('1221', 'en', '', null);
 INSERT INTO `messagetable` VALUES ('1221', 'tw', '', null);
 INSERT INTO `messagetable` VALUES ('1221', 'cn', '', null);
 INSERT INTO `messagetable` VALUES ('1222', 'en', '', null);
-INSERT INTO `messagetable` VALUES ('1222', 'tw', '已經過了 ', null);
-INSERT INTO `messagetable` VALUES ('1222', 'cn', '已经过了 ', null);
+INSERT INTO `messagetable` VALUES ('1222', 'tw', '已經進入', null);
+INSERT INTO `messagetable` VALUES ('1222', 'cn', '已经进入', null);
 INSERT INTO `messagetable` VALUES ('1223', 'en', ' minute(s) have passed.', null);
-INSERT INTO `messagetable` VALUES ('1223', 'tw', ' 分鐘。', null);
-INSERT INTO `messagetable` VALUES ('1223', 'cn', ' 分钟。', null);
+INSERT INTO `messagetable` VALUES ('1223', 'tw', '分鐘。', null);
+INSERT INTO `messagetable` VALUES ('1223', 'cn', '分钟。', null);
 INSERT INTO `messagetable` VALUES ('1224', 'en', 'Game over. The teleport will appear momentarily', null);
 INSERT INTO `messagetable` VALUES ('1224', 'tw', '挑戰失敗！即將傳送出去。', null);
 INSERT INTO `messagetable` VALUES ('1224', 'cn', '挑战失败！即将传送出去。', null);

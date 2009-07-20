@@ -97,6 +97,8 @@ public class AdminEffects implements IAdminCommandHandler
 		"admin_social",
 		"admin_effect",
 		"admin_social_menu",
+		"admin_special",
+		"admin_special_menu",
 		"admin_effect_menu",
 		"admin_abnormal",
 		"admin_abnormal_menu",
@@ -559,11 +561,87 @@ public class AdminEffects implements IAdminCommandHandler
 					if (obj != null)
 					{
 						if (performAbnormal(abnormal, obj))
+						{
+							L2CoreMessage cm =  new L2CoreMessage (MessageTable.Messages[672]);
+							cm.addString(obj.getName());
+							cm.sendMessage(activeChar);
+						}
+						else
+							activeChar.sendPacket(new SystemMessage(SystemMessageId.NOTHING_HAPPENED));
+					}
+					else
+						activeChar.sendPacket(new SystemMessage(SystemMessageId.INCORRECT_TARGET));
+				}
+				else if (!command.contains("menu"))
+					activeChar.sendMessage(370);
+			}
+			catch (Exception e)
+			{
+				if (Config.DEBUG)
+					e.printStackTrace();
+			}
+		}
+		else if (command.startsWith("admin_special"))
+		{
+			try
+			{
+				String target = null;
+				L2Object obj = activeChar.getTarget();
+				if (st.countTokens() == 2)
+				{
+					String parm = st.nextToken();
+					int special = Integer.decode("0x" + parm);
+					target = st.nextToken();
+					if (target != null)
+					{
+						L2PcInstance player = L2World.getInstance().getPlayer(target);
+						if (player != null)
+						{
+							if (performSpecial(special, player))
 							{
-								L2CoreMessage cm =  new L2CoreMessage (MessageTable.Messages[672]);
-								cm.addString(obj.getName());
+								L2CoreMessage cm =  new L2CoreMessage (MessageTable.Messages[561]);
+								cm.addString(player.getName());
 								cm.sendMessage(activeChar);
 							}
+							else
+								activeChar.sendPacket(new SystemMessage(SystemMessageId.NOTHING_HAPPENED));
+						}
+						else
+						{
+							try
+							{
+								int radius = Integer.parseInt(target);
+								Collection<L2Object> objs = activeChar.getKnownList().getKnownObjects().values();
+								//synchronized (activeChar.getKnownList().getKnownObjects())
+								{
+									for (L2Object object : objs)
+										if (activeChar.isInsideRadius(object, radius, false, false))
+											performSpecial(special, object);
+									L2CoreMessage cm =  new L2CoreMessage (MessageTable.Messages[673]);
+									cm.addNumber(radius);
+									cm.sendMessage(activeChar);
+								}
+							}
+							catch (NumberFormatException nbe)
+							{
+								activeChar.sendMessage(588);
+							}
+						}
+					}
+				}
+				else if (st.countTokens() == 1)
+				{
+					int special = Integer.decode("0x" + st.nextToken());
+					if (obj == null)
+						obj = activeChar;
+					if (obj != null)
+					{
+						if (performSpecial(special, obj))
+						{
+							L2CoreMessage cm =  new L2CoreMessage (MessageTable.Messages[672]);
+							cm.addString(obj.getName());
+							cm.sendMessage(activeChar);
+						}
 						else
 							activeChar.sendPacket(new SystemMessage(SystemMessageId.NOTHING_HAPPENED));
 					}
@@ -605,7 +683,6 @@ public class AdminEffects implements IAdminCommandHandler
 						cm.addNumber(skill);
 						cm.addNumber(level);
 						cm.sendMessage(activeChar);
-
 					}
 				}
 				else
@@ -635,6 +712,21 @@ public class AdminEffects implements IAdminCommandHandler
 				character.stopAbnormalEffect(action);
 			else
 				character.startAbnormalEffect(action);
+			return true;
+		}
+		else
+			return false;
+	}
+	
+	private boolean performSpecial(int action, L2Object target)
+	{
+		if (target instanceof L2PcInstance)
+		{
+			L2Character character = (L2Character) target;
+			if ((character.getSpecialEffect() & action) == action)
+				character.stopSpecialEffect(action);
+			else
+				character.startSpecialEffect(action);
 			return true;
 		}
 		else
@@ -725,6 +817,8 @@ public class AdminEffects implements IAdminCommandHandler
 		String filename = "effects_menu";
 		if (command.contains("abnormal"))
 			filename = "abnormal";
+		else if (command.contains("special"))
+			filename = "special";
 		else if (command.contains("social"))
 			filename = "social";
 		AdminHelpPage.showHelpPage(activeChar, filename + ".htm");
