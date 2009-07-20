@@ -1697,7 +1697,7 @@ INSERT INTO `messagetable` VALUES ('559', 'cn', '无法在骑乘状态捡取东�
 INSERT INTO `messagetable` VALUES ('560', 'en', 'You may not resurrect participants in a festival.', null);
 INSERT INTO `messagetable` VALUES ('560', 'tw', '無法在黑暗的祭典使用。', null);
 INSERT INTO `messagetable` VALUES ('560', 'cn', '无法在黑暗的祭典使用。', null);
-INSERT INTO `messagetable` VALUES ('561', 'en', ''s special status was affected by your request.', null);
+INSERT INTO `messagetable` VALUES ('561', 'en', '$1\'s special status was affected by your request.', null);
 INSERT INTO `messagetable` VALUES ('561', 'tw', '「$1」出現/消失所要求的特殊效果。', null);
 INSERT INTO `messagetable` VALUES ('561', 'cn', '“$1”出现/消失所要求的特殊效果。', null);
 INSERT INTO `messagetable` VALUES ('562', 'en', 'You may not use an escape command in a Boss Zone.', null);
