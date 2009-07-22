@@ -147,6 +147,7 @@
 <item id="13454" name="Vesper Noble Stockings">
   <for>
     <add val="78" order="0x10" stat="pDef"/>
+    <add val="415" order="0x40" stat="maxMp"/><!-- Update by rocknow -->
     <enchant val="0" order="0x0C" stat="pDef"/>
   </for>
 </item>
