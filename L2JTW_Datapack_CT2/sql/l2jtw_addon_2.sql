@@ -2108,6 +2108,7 @@ UPDATE `weapon` SET `onCrit_skill_lvl` = '6' WHERE `item_id` in (5646,8128,9347,
 UPDATE `weapon` SET `skill` = '3019-5;' WHERE `item_id` in (4787);
 UPDATE `weapon` SET `skill` = '3260-1;3261-1;3262-1;' WHERE `item_id` in (9140,9141);
 UPDATE `weapon` SET `skill` = '3599-1;' WHERE `item_id` in (5628,5634,7720,7721,8804,8805,10683,10684,11073,11131,11179,11180,12886,12887);
+UPDATE `weapon` SET `skill` = '3600-10;' WHERE `item_id` in (9872);
 
 
 /************ 修正地獄邊界NPC ************/

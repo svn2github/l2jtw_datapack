@@ -258,7 +258,7 @@
     <enchant val="0" order="0x0C" stat="pAtk"/>
     <enchant val="0" order="0x0C" stat="mAtk"/>
     <!-- Update SA by rocknow -->
-    <add val="7" order="0x40" stat="accCombat"/>
+    <add val="7.5" order="0x40" stat="accCombat"/>
     <mul val="1.05" order="0x30" stat="pvpPhysDmg"/>
     <mul val="1.05" order="0x30" stat="pvpMagicalDmg"/>
   </for>
@@ -468,11 +468,11 @@
     <enchant val="0" order="0x0C" stat="pAtk"/>
     <enchant val="0" order="0x0C" stat="mAtk"/>
     <!-- Update SA by rocknow -->
-    <set val="1" order="0x08" stat="MpConsume">
+    <mul val="0.92" order="0x30" stat="MpConsume">
        <and>
-          <game skill="false" chance="61"/> 
-       </and> 
-    </set>
+          <game skill="true"/>
+       </and>
+    </mul>
     <mul val="1.05" order="0x30" stat="pvpPhysDmg"/>
     <mul val="1.05" order="0x30" stat="pvpMagicalDmg"/>
   </for>
@@ -563,7 +563,7 @@
     <!-- Update SA by rocknow -->
     <set val="1" order="0x08" stat="MpConsume">
        <and>
-          <game skill="true" chance="12"/> 
+          <game skill="true"/>
        </and> 
     </set>
     <mul val="1.05" order="0x30" stat="pvpPhysDmg"/>

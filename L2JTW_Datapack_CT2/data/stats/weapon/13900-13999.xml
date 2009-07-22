@@ -51,6 +51,7 @@
     <set val="8" order="0x08" stat="rCrit"/>
     <add val="-3" order="0x10" stat="accCombat"/>
     <set val="325" order="0x08" stat="pAtkSpd"/>
+    <set val="66" order="0x08" stat="pAtkRange"/><!-- Update by rocknow -->
   </for>
 </item>
 <item id="13979" name="Exclusive to Monsters (Dragon Steed Troop Battle Infantry Sword)">
@@ -85,6 +86,7 @@
     <set val="8" order="0x08" stat="rCrit"/>
     <add val="-3" order="0x10" stat="accCombat"/>
     <set val="325" order="0x08" stat="pAtkSpd"/>
+    <set val="66" order="0x08" stat="pAtkRange"/><!-- Update by rocknow -->
   </for>
 </item>
 <item id="13983" name="Exclusive to Monsters (Death Knight_2hs)">

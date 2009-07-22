@@ -110,11 +110,11 @@
    <enchant val="0" order="0x0C" stat="pAtk"/> 
    <enchant val="0" order="0x0C" stat="mAtk"/> 
           <!-- SA: Cheap Shot --> 
-   <set val="1" order="0x08" stat="MpConsume"> 
-      <and> 
-         <game skill="false" chance="26"/> 
-      </and> 
-   </set> 
+   <mul val="0.96" order="0x30" stat="MpConsume"><!-- Update by rocknow -->
+      <and>
+         <game skill="true"/><!-- Update by rocknow -->
+      </and>
+   </mul><!-- Update by rocknow --> 
        <!-- Enhances damage to target during PvP --> 
    <mul val="1.05" order="0x30" stat="pvpPhysDmg"/> 
    <mul val="1.05" order="0x30" stat="pvpMagicalDmg"/> 
@@ -234,6 +234,7 @@
    <set val="363" order="0x08" stat="pAtk"/> 
    <set val="163" order="0x08" stat="mAtk"/>  
    <set val="4" order="0x08" stat="rCrit"/> 
+   <add val="4" order="0x10" stat="accCombat"/><!-- Update by rocknow -->
    <set val="379" order="0x08" stat="pAtkSpd"/> 
    <enchant val="0" order="0x0C" stat="pAtk"/> 
    <enchant val="0" order="0x0C" stat="mAtk"/> 
@@ -250,6 +251,7 @@
    <set val="363" order="0x08" stat="pAtk"/> 
    <set val="163" order="0x08" stat="mAtk"/> 
    <set val="4" order="0x08" stat="rCrit"/> 
+   <add val="4" order="0x10" stat="accCombat"/><!-- Update by rocknow -->
    <set val="379" order="0x08" stat="pAtkSpd"/> 
    <enchant val="0" order="0x0C" stat="pAtk"/> 
    <enchant val="0" order="0x0C" stat="mAtk"/> 
@@ -260,6 +262,7 @@
    <set val="363" order="0x08" stat="pAtk"/> 
    <set val="163" order="0x08" stat="mAtk"/> 
    <set val="4" order="0x08" stat="rCrit"/> 
+   <add val="4" order="0x10" stat="accCombat"/><!-- Update by rocknow -->
    <set val="379" order="0x08" stat="pAtkSpd"/> 
    <enchant val="0" order="0x0C" stat="pAtk"/> 
    <enchant val="0" order="0x0C" stat="mAtk"/> 
@@ -427,7 +430,7 @@
 </item> 
 <item id="10467" name="Icarus Shooter - Cheap Shot">
   <for> 
-   <set val="400" order="0x08" stat="pAtk"/> 
+   <set val="422" order="0x08" stat="pAtk"/><!-- Update by rocknow -->
    <set val="163" order="0x08" stat="mAtk"/> 
    <set val="10" order="0x08" stat="rCrit"/> 
    <add val="-1" order="0x10" stat="accCombat"/><!-- Update by rocknow -->
@@ -437,7 +440,7 @@
          <!-- SA: Cheap Shot --> 
    <mul val="0.88" order="0x30" stat="MpConsume">
       <and>
-         <game skill="false" chance="12"/>
+         <game skill="true"/><!-- Update by rocknow -->
       </and>
    </mul>
     <!-- Enhances damage to target during PvP --> 
@@ -447,7 +450,7 @@
 </item> 
 <item id="10468" name="Icarus Shooter - Guidance"> 
   <for> 
-   <set val="400" order="0x08" stat="pAtk"/> 
+   <set val="422" order="0x08" stat="pAtk"/><!-- Update by rocknow -->
    <set val="163" order="0x08" stat="mAtk"/>  
    <set val="10" order="0x08" stat="rCrit"/> 
    <add val="-1" order="0x10" stat="accCombat"/><!-- Update by rocknow -->
@@ -463,7 +466,7 @@
 </item> 
 <item id="10469" name="Icarus Shooter - Focus">
   <for> 
-   <set val="400" order="0x08" stat="pAtk"/> 
+   <set val="422" order="0x08" stat="pAtk"/><!-- Update by rocknow -->
    <set val="163" order="0x08" stat="mAtk"/>  
    <set val="10" order="0x08" stat="rCrit"/> 
    <add val="-1" order="0x10" stat="accCombat"/><!-- Update by rocknow -->
@@ -480,7 +483,7 @@
 <item id="10474" name="Shadow Item - Apprentice's Staff">
   <for>
    <set val="23" order="0x08" stat="pAtk"/>
-   <set val="22" order="0x08" stat="mAtk"/>
+   <set val="24" order="0x08" stat="mAtk"/><!-- Update by rocknow -->
    <set val="4" order="0x08" stat="rCrit"/>
    <add val="4" order="0x10" stat="accCombat"/>
    <set val="325" order="0x08" stat="pAtkSpd"/>

@@ -650,7 +650,7 @@
        <!-- SA: Cheap Shot -->
    <mul val="0.88" order="0x30" stat="MpConsume"><!-- Update by rocknow -->
       <and>
-         <game skill="false" chance="12"/> 
+         <game skill="true"/><!-- Update by rocknow -->
       </and> 
    </mul><!-- Update by rocknow -->
   </for>

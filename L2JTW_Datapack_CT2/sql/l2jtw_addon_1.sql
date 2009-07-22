@@ -814,22 +814,22 @@ DELETE FROM `item_attributes` WHERE `itemId` IN ( SELECT `object_id` FROM `items
 -- 法國麵包武器
 DELETE FROM `armor` WHERE `item_id` IN (20266); -- L2J 錯誤設定為防具
 REPLACE INTO `weapon` VALUES
-(20255,'Baguette Sword','rhand','false',500,3,3,'fine_steel','none',1,1,'sword',8,0.00000,0,0,0,379,0,2,-1,10080,0,0,'true','true','true','true',0,0,0,0,0,0,0,0,0,'0-0;'),
-(20256,'Baguette Dagger','rhand','false',500,3,3,'fine_steel','none',1,1,'dagger',12,0.00000,0,0,0,433,0,2,-1,10080,0,0,'true','true','true','true',0,0,0,0,0,0,0,0,0,'0-0;'),
-(20257,'Baguette Dual Sword','lrhand','false',500,3,3,'fine_steel','none',1,1,'bigsword',8,0.00000,0,0,0,325,0,2,-1,10080,0,0,'true','true','true','true',0,0,0,0,0,0,0,0,0,'0-0;'),
-(20258,'Baguette Mace','rhand','false',500,3,3,'fine_steel','none',1,1,'blunt',4,0.00000,0,0,0,379,0,2,-1,10080,0,0,'true','true','true','true',0,0,0,0,0,0,0,0,0,'0-0;'),
-(20259,'Baguette Heavy Hammer','lrhand','false',500,3,3,'fine_steel','none',1,1,'bigblunt',4,0.00000,0,0,0,325,0,2,-1,10080,0,0,'true','true','true','true',0,0,0,0,0,0,0,0,0,'0-0;'),
-(20260,'Baguette Spear','lrhand','false',500,3,3,'fine_steel','none',1,1,'pole',8,0.00000,0,0,0,325,0,2,-1,10080,0,0,'true','true','true','true',0,0,0,0,0,0,0,0,0,'0-0;'),
-(20261,'Baguette Bow','lrhand','false',500,10,3,'fine_steel','none',1,1,'bow',12,0.00000,0,0,0,227,0,3,-1,10080,0,0,'true','true','true','true',0,0,0,0,0,0,0,0,0,'0-0;'),
-(20262,'Baguette Fist','lrhand','false',500,3,3,'fine_steel','none',1,1,'dualfist',4,0.00000,0,0,0,325,0,2,-1,10080,0,0,'true','true','true','true',0,0,0,0,0,0,0,0,0,'0-0;'),
-(20263,'Baguette Magic Sword','rhand','false',500,3,3,'fine_steel','none',1,1,'sword',8,0.00000,0,0,0,379,0,2,-1,10080,0,0,'true','true','true','true',0,0,0,0,0,0,0,0,0,'0-0;'),
-(20264,'Baguette Staff','rhand','false',500,3,3,'fine_steel','none',1,1,'blunt',4,0.00000,0,0,0,379,0,2,-1,10080,0,0,'true','true','true','true',0,0,0,0,0,0,0,0,0,'0-0;'),
-(20265,'Baguette Great Staff','lrhand','false',500,3,3,'fine_steel','none',1,1,'bigblunt',4,0.00000,0,0,0,325,0,2,-1,10080,0,0,'true','true','true','true',0,0,0,0,0,0,0,0,0,'0-0;'),
-(20266,'Baguette Shield','lhand','false',500,0,0,'fine_steel','none',0,0,'none',0,0.00000,-8,2,20,0,0,0,-1,10080,0,0,'true','true','true','true',0,0,0,0,0,0,0,0,0,'0-0;'),
-(20267,'Baguette Rapier','rhand','false',500,3,3,'fine_steel','none',1,1,'rapier',10,0.00000,0,0,0,406,0,3,-1,10080,0,0,'true','true','true','true',3426,0,0,0,0,0,0,0,0,'0-0;'),
-(20268,'Baguette Ancient Sword','lrhand','false',500,3,3,'fine_steel','none',1,1,'ancient',6,0.00000,0,0,0,350,0,3,-1,10080,0,0,'true','true','true','true',0,0,0,0,0,0,0,0,0,'0-0;'),
-(20269,'Baguette Crossbow','lrhand','false',500,6,3,'fine_steel','none',1,1,'crossbow',10,0.00000,0,0,0,303,0,3,-1,10080,0,0,'true','true','true','true',0,0,0,0,0,0,0,0,0,'0-0;'),
-(20270,'Baguette\'s Dualsword','lrhand','false',500,3,3,'fine_steel','none',1,1,'dual',8,0.00000,0,0,0,325,0,2,-1,10080,0,0,'true','true','true','true',0,0,0,0,0,0,0,0,0,'0-0;');
+(20255,'Baguette Sword','rhand','false',500,3,3,'fine_steel','none',1,1,'sword',8,0,0,0,0,379,0,2,-1,10080,0,0,'true','true','true','true',0,0,0,0,0,0,0,0,0,'0-0;'),
+(20256,'Baguette Dagger','rhand','false',500,3,3,'fine_steel','none',1,1,'dagger',12,-3,0,0,0,433,0,2,-1,10080,0,0,'true','true','true','true',0,0,0,0,0,0,0,0,0,'0-0;'),
+(20257,'Baguette Dual Sword','lrhand','false',500,3,3,'fine_steel','none',1,1,'bigsword',8,0,0,0,0,325,0,2,-1,10080,0,0,'true','true','true','true',0,0,0,0,0,0,0,0,0,'0-0;'),
+(20258,'Baguette Mace','rhand','false',500,3,3,'fine_steel','none',1,1,'blunt',4,4,0,0,0,379,0,2,-1,10080,0,0,'true','true','true','true',0,0,0,0,0,0,0,0,0,'0-0;'),
+(20259,'Baguette Heavy Hammer','lrhand','false',500,3,3,'fine_steel','none',1,1,'bigblunt',4,4,0,0,0,325,0,2,-1,10080,0,0,'true','true','true','true',0,0,0,0,0,0,0,0,0,'0-0;'),
+(20260,'Baguette Spear','lrhand','false',500,3,3,'fine_steel','none',1,1,'pole',8,-3,0,0,0,325,0,2,-1,10080,0,0,'true','true','true','true',0,0,0,0,0,0,0,0,0,'0-0;'),
+(20261,'Baguette Bow','lrhand','false',500,10,3,'fine_steel','none',1,1,'bow',12,-3,0,0,0,227,0,3,-1,10080,0,0,'true','true','true','true',0,0,0,0,0,0,0,0,0,'0-0;'),
+(20262,'Baguette Fist','lrhand','false',500,3,3,'fine_steel','none',1,1,'dualfist',4,4,0,0,0,325,0,2,-1,10080,0,0,'true','true','true','true',0,0,0,0,0,0,0,0,0,'0-0;'),
+(20263,'Baguette Magic Sword','rhand','false',500,3,3,'fine_steel','none',1,1,'sword',8,0,0,0,0,379,0,2,-1,10080,0,0,'true','true','true','true',0,0,0,0,0,0,0,0,0,'0-0;'),
+(20264,'Baguette Staff','rhand','false',500,3,3,'fine_steel','none',1,1,'blunt',4,4,0,0,0,379,0,2,-1,10080,0,0,'true','true','true','true',0,0,0,0,0,0,0,0,0,'0-0;'),
+(20265,'Baguette Great Staff','lrhand','false',500,3,3,'fine_steel','none',1,1,'bigblunt',4,4,0,0,0,325,0,2,-1,10080,0,0,'true','true','true','true',0,0,0,0,0,0,0,0,0,'0-0;'),
+(20266,'Baguette Shield','lhand','false',500,0,0,'fine_steel','none',0,0,'none',0,0,-8,2,20,0,0,0,-1,10080,0,0,'true','true','true','true',0,0,0,0,0,0,0,0,0,'0-0;'),
+(20267,'Baguette Rapier','rhand','false',500,3,3,'fine_steel','none',1,1,'rapier',10,-1,0,0,0,406,0,3,-1,10080,0,0,'true','true','true','true',3426,0,0,0,0,0,0,0,0,'0-0;'),
+(20268,'Baguette Ancient Sword','lrhand','false',500,3,3,'fine_steel','none',1,1,'ancient',8,2,0,0,0,350,0,3,-1,10080,0,0,'true','true','true','true',0,0,0,0,0,0,0,0,0,'0-0;'),
+(20269,'Baguette Crossbow','lrhand','false',500,6,3,'fine_steel','none',1,1,'crossbow',10,-1,0,0,0,303,0,3,-1,10080,0,0,'true','true','true','true',0,0,0,0,0,0,0,0,0,'0-0;'),
+(20270,'Baguette\'s Dualsword','lrhand','false',500,3,3,'fine_steel','none',1,1,'dual',8,0,0,0,0,325,0,2,-1,10080,0,0,'true','true','true','true',0,0,0,0,0,0,0,0,0,'0-0;');
 
 -- 新頭飾
 REPLACE INTO `armor` VALUES

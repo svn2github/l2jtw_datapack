@@ -214,11 +214,11 @@
    <enchant val="0" order="0x0C" stat="pAtk"/>
    <enchant val="0" order="0x0C" stat="mAtk"/>
           <!-- SA: Cheap Shot -->
-   <set val="1" order="0x08" stat="MpConsume">
+   <mul val="0.96" order="0x30" stat="MpConsume"><!-- Update by rocknow -->
       <and>
-         <game skill="false" chance="26"/>
+         <game skill="true"/><!-- Update by rocknow -->
       </and>
-   </set>
+   </mul><!-- Update by rocknow -->
        <!-- Enhances damage to target during PvP -->
    <mul val="1.05" order="0x30" stat="pvpPhysDmg"/>
    <mul val="1.05" order="0x30" stat="pvpMagicalDmg"/>
@@ -342,12 +342,7 @@
    <set val="379" order="0x08" stat="pAtkSpd"/>
    <enchant val="0" order="0x0C" stat="pAtk"/>
    <enchant val="0" order="0x0C" stat="mAtk"/>
-		<!-- SA: Anger -->
-   <add val="78" order="0x40" stat="pAtk"/>
-   <mul val="0.85" order="0x30" stat="maxHp"/>
-		<!-- Enhances damage to target during PvP -->
-   <mul val="1.05" order="0x30" stat="pvpPhysDmg"/>
-   <mul val="1.05" order="0x30" stat="pvpMagicalDmg"/>
+   <!-- Delete by rocknow -->
   </for>
 </item>
 <item id="9873" name="Dynasty Cudgel - Health">

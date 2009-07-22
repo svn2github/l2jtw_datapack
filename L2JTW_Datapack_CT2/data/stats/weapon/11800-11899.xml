@@ -501,7 +501,7 @@
 <item id="11855" name="Common Item - Demon's Staff">
   <for>
     <set val="152" order="0x08" stat="pAtk"/>
-    <set val="111" order="0x08" stat="mAtk"/>
+    <set val="122" order="0x08" stat="mAtk"/><!-- Update by rocknow -->
     <set val="4" order="0x08" stat="rCrit"/>
     <add val="4" order="0x10" stat="accCombat"/>
     <set val="325" order="0x08" stat="pAtkSpd"/>

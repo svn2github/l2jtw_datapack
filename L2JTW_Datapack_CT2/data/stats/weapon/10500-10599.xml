@@ -2,7 +2,7 @@
 <list> 
 <item id="10527" name="Dynasty Staff - Mana Up"> 
   <for> 
-   <set val="267" order="0x08" stat="pAtk"/> 
+   <set val="325" order="0x08" stat="pAtk"/><!-- Update by rocknow -->
    <set val="222" order="0x08" stat="mAtk"/> 
    <set val="4" order="0x08" stat="rCrit"/> 
    <add val="4" order="0x10" stat="accCombat"/><!-- Update by rocknow -->
@@ -13,7 +13,7 @@
 </item> 
 <item id="10528" name="Dynasty Staff - Conversion">
   <for> 
-   <set val="267" order="0x08" stat="pAtk"/> 
+   <set val="325" order="0x08" stat="pAtk"/><!-- Update by rocknow -->
    <set val="222" order="0x08" stat="mAtk"/> 
    <set val="4" order="0x08" stat="rCrit"/> 
    <add val="4" order="0x10" stat="accCombat"/><!-- Update by rocknow -->
@@ -24,7 +24,7 @@
 </item> 
 <item id="10529" name="Dynasty Staff - Acumen"> 
   <for> 
-   <set val="267" order="0x08" stat="pAtk"/> 
+   <set val="325" order="0x08" stat="pAtk"/><!-- Update by rocknow -->
    <set val="222" order="0x08" stat="mAtk"/> 
    <set val="4" order="0x08" stat="rCrit"/> 
    <add val="4" order="0x10" stat="accCombat"/><!-- Update by rocknow -->

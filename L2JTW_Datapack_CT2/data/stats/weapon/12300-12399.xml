@@ -2,6 +2,9 @@
 <list>
 <item id="12302" name="Common Item - Sealed Imperial Crusader Shield">
   <for>
+    <sub val="8" order="0x10" stat="rEvas"/><!-- Update by rocknow -->
+    <set val="290" order="0x08" stat="sDef"/><!-- Update by rocknow -->
+    <set val="20" order="0x08" stat="rShld"/><!-- Update by rocknow -->
   </for>
 </item>
 <item id="12308" name="Common Item - Imperial Crusader Shield">

@@ -5,6 +5,7 @@
    <set val="198" order="0x08" stat="pAtk"/>
    <set val="83" order="0x08" stat="mAtk"/>
    <set val="10" order="0x08" stat="rCrit"/>
+   <add val="-1" order="0x10" stat="accCombat"/><!-- Update by rocknow -->
    <set val="303" order="0x08" stat="pAtkSpd"/>
    <enchant val="0" order="0x0C" stat="pAtk"/>
    <enchant val="0" order="0x0C" stat="mAtk"/>
@@ -15,6 +16,7 @@
    <set val="198" order="0x08" stat="pAtk"/>
    <set val="83" order="0x08" stat="mAtk"/>
    <set val="10" order="0x08" stat="rCrit"/>
+   <add val="-1" order="0x10" stat="accCombat"/><!-- Update by rocknow -->
    <set val="303" order="0x08" stat="pAtkSpd"/>
    <enchant val="0" order="0x0C" stat="pAtk"/>
    <enchant val="0" order="0x0C" stat="mAtk"/>
@@ -27,6 +29,7 @@
    <set val="198" order="0x08" stat="pAtk"/>
    <set val="83" order="0x08" stat="mAtk"/>
    <set val="10" order="0x08" stat="rCrit"/>
+   <add val="-1" order="0x10" stat="accCombat"/><!-- Update by rocknow -->
    <set val="303" order="0x08" stat="pAtkSpd"/>
    <enchant val="0" order="0x0C" stat="pAtk"/>
    <enchant val="0" order="0x0C" stat="mAtk"/>
@@ -43,13 +46,14 @@
    <set val="198" order="0x08" stat="pAtk"/>
    <set val="83" order="0x08" stat="mAtk"/>
    <set val="10" order="0x08" stat="rCrit"/>
+   <add val="-1" order="0x10" stat="accCombat"/><!-- Update by rocknow -->
    <set val="303" order="0x08" stat="pAtkSpd"/>
    <enchant val="0" order="0x0C" stat="pAtk"/>
    <enchant val="0" order="0x0C" stat="mAtk"/>
        <!-- SA: Cheap Shot -->
    <mul val="0.88" order="0x30" stat="MpConsume"><!-- Update by rocknow -->
       <and>
-         <game skill="false" chance="12"/> 
+         <game skill="true"/><!-- Update by rocknow -->
       </and> 
    </mul><!-- Update by rocknow -->
   </for>
@@ -341,7 +345,7 @@
        <!-- SA: Cheap Shot -->
    <mul val="0.88" order="0x30" stat="MpConsume"><!-- Update by rocknow -->
       <and>
-       	 <game skill="false" chance="12"/> 
+       	 <game skill="true"/><!-- Update by rocknow -->
       </and> 
    </mul><!-- Update by rocknow -->
   </for>
@@ -630,7 +634,7 @@
        <!-- SA: Cheap Shot -->
    <mul val="0.88" order="0x30" stat="MpConsume"><!-- Update by rocknow -->
       <and>
-         <game skill="false" chance="12"/> 
+         <game skill="true"/><!-- Update by rocknow -->
       </and> 
    </mul><!-- Update by rocknow -->
     <!-- Enhances damage to target during PvP -->
@@ -786,7 +790,7 @@
    	<!-- SA: Cheap Shot -->
    <mul val="0.88" order="0x30" stat="MpConsume"><!-- Update by rocknow -->
       <and>
-         <game skill="false" chance="12"/> 
+         <game skill="true"/><!-- Update by rocknow -->
       </and> 
    </mul><!-- Update by rocknow -->
     <!-- Enhances damage to target during PvP -->
@@ -943,7 +947,7 @@
        <!-- SA: Cheap Shot -->
    <mul val="0.88" order="0x30" stat="MpConsume"><!-- Update by rocknow -->
       <and>
-         <game skill="false" chance="12"/> 
+         <game skill="true"/><!-- Update by rocknow -->
       </and> 
    </mul><!-- Update by rocknow -->
     <!-- Enhances damage to target during PvP -->
@@ -1087,7 +1091,7 @@
       	<!-- SA: Cheap Shot -->
    <mul val="0.88" order="0x30" stat="MpConsume"><!-- Update by rocknow -->
       <and>
-         <game skill="false" chance="12"/>
+         <game skill="true"/><!-- Update by rocknow -->
       </and>
    </mul>
     <!-- Enhances damage to target during PvP -->
