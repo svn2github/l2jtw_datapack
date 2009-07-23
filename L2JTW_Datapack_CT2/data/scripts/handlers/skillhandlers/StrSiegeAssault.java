@@ -30,6 +30,8 @@ import net.sf.l2j.gameserver.templates.item.L2WeaponType;
 import net.sf.l2j.gameserver.templates.skills.L2SkillType;
 import net.sf.l2j.gameserver.datatables.MessageTable;
 import net.sf.l2j.gameserver.model.L2CoreMessage;
+import net.sf.l2j.gameserver.network.SystemMessageId;
+import net.sf.l2j.gameserver.network.serverpackets.SystemMessage;
 
 /**
  * @author _tomciaaa_
@@ -111,11 +113,7 @@ public class StrSiegeAssault implements ISkillHandler
 					
 				}
 				else
-				{
-					L2CoreMessage cm =  new L2CoreMessage (MessageTable.Messages[674]);
-					cm.addString(skill.getName());
-					activeChar.sendMessage(cm.renderMsg());
-				}
+					activeChar.sendPacket(new SystemMessage(SystemMessageId.ATTACK_FAILED));
 			}
 		}
 		catch (Exception e)

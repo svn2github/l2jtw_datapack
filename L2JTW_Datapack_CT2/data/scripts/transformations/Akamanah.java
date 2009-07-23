@@ -2,6 +2,7 @@ package transformations;
 
 import net.sf.l2j.gameserver.model.L2Transformation;
 import net.sf.l2j.gameserver.instancemanager.TransformationManager;
+import net.sf.l2j.gameserver.datatables.MessageTable;
 
 /**
  * This is currently only a test of the java script engine
@@ -20,7 +21,7 @@ public class Akamanah extends L2Transformation
     public void onTransform()
     {
         // Set charachter name to transformed name
-    	getPlayer().getAppearance().setVisibleName("¦å¼C¡Eªü¥dº¿¨º¤Ò");
+    	getPlayer().getAppearance().setVisibleName(MessageTable.Messages[590].getMessage());
     	getPlayer().getAppearance().setVisibleTitle("");
     }
     

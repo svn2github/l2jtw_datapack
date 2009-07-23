@@ -383,15 +383,18 @@ public class AdminSkill implements IAdminCommandHandler
 			if (skill != null)
 			{
 				String name = skill.getName();
-				L2CoreMessage cm =  new L2CoreMessage (MessageTable.Messages[28]);
-				cm.addString(name);
-				cm.sendMessage(player);
+				if (player != activeChar)
+					player.sendMessage(28);
 				player.addSkill(skill, true);
 				//Admin information
-				cm =  new L2CoreMessage (MessageTable.Messages[524]);
-				cm.addString(name);
+				SystemMessage sm = new SystemMessage(SystemMessageId.LEARNED_SKILL_S1);
+				sm.addSkillName(skill);
+				player.sendPacket(sm);
+				sm = null;
+				L2CoreMessage cm =  new L2CoreMessage (MessageTable.Messages[524]);
 				cm.addString(player.getName());
-				cm.sendMessage(activeChar);				
+				if (player != activeChar)
+					cm.sendMessage(activeChar);
 				if (Config.DEBUG)
 					_log.fine("[GM]" + activeChar.getName() + " gave skill " + name + " to " + player.getName() + ".");
 				activeChar.sendSkillList();
@@ -417,15 +420,20 @@ public class AdminSkill implements IAdminCommandHandler
 		if (skill != null)
 		{
 			String skillname = skill.getName();
-			L2CoreMessage cm =  new L2CoreMessage (MessageTable.Messages[35]);
-			cm.addString(skillname);
-			cm.sendMessage(player);
+			if (player != activeChar)
+				player.sendMessage(35);
 			player.removeSkill(skill);
 			//Admin information	
-			cm =  new L2CoreMessage (MessageTable.Messages[595]);
-			cm.addString(skillname);
+			//Update by rocknow-Sart
+			SystemMessage sm = new SystemMessage(SystemMessageId.S1_HAS_BEEN_DELETED);
+			sm.addSkillName(skill);
+			player.sendPacket(sm);
+			sm = null;
+			//Update by rocknow-End
+			L2CoreMessage cm =  new L2CoreMessage (MessageTable.Messages[595]);
 			cm.addString(player.getName());
-			cm.sendMessage(activeChar);
+			if (player != activeChar)
+				cm.sendMessage(activeChar);
 			if (Config.DEBUG)
 				_log.fine("[GM]" + activeChar.getName() + " removed skill " + skillname + " from " + player.getName() + ".");
 			activeChar.sendSkillList();
