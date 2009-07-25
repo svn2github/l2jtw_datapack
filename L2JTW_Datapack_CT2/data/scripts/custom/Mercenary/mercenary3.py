@@ -1,17 +1,18 @@
 import sys
+from net.sf.l2j.gameserver.model              import L2Multisell
 from net.sf.l2j.gameserver.model.quest        import State
 from net.sf.l2j.gameserver.model.quest        import QuestState
 from net.sf.l2j.gameserver.model.quest.jython import QuestJython as JQuest
 
-qn = "mercenary2"
+qn = "mercenary3"
 
 # NPC 
 NPCS = [36481,36482,36483,36484,36485,36486,36487,36488,36489]
 
 # ITEM
-Elite_Mercenary_Certificate = 13767
+Exalted_Mercenary_Certificate = 13768
 
-class Quest (JQuest) :
+class mercenary3 (JQuest) :
 
  def __init__(self,id,name,descr): JQuest.__init__(self,id,name,descr)
 
@@ -19,16 +20,16 @@ class Quest (JQuest) :
     st = player.getQuestState(qn)
     if not st: return
     npcId = npc.getNpcId()
-    EMC = st.getQuestItemsCount(Elite_Mercenary_Certificate)
+    EMC = st.getQuestItemsCount(Exalted_Mercenary_Certificate)
     npcId = npc.getNpcId()
     if EMC :
-       multisell = npcId
-       htmltext = st.showHtmlFile("license.htm").replace("%msid%",str(multisell))
+       L2Multisell.getInstance().separateAndSend(npcId*10000+3, player, npc.getNpcId(), False, 0.0);
+       htmltext = ""
     else :
-       htmltext = "license-no.htm"
+       htmltext = "<html><body>你要拿給我看的資格證在哪裡？你是瞧不起我嗎？</body></html>"
     return htmltext
 	
-QUEST       = Quest(-1,qn,"Custom")
+QUEST       = mercenary3(-1,qn,"Custom")
 
 for item in NPCS :
    QUEST.addStartNpc(item)

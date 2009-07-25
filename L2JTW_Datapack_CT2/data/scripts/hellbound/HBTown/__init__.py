@@ -22,13 +22,16 @@ qn = "HBTown"
 debug = False
 
 #NPCs
-KANAF     = 32346  # 卡納夫
-MOONSTONE = 32343  # 月光石碑
+KANAF      = 32346  # 卡納夫
+MOONSTONE  = 32343  # 月光石碑
 
 #Mobs
-AMARAKIS  = 22449  # 亞邁士康里	拷問專家
-KEYMASTER = 22361  # 鋼鐵之城 鑰匙守衛
-# 9714	惡魔刻紋鑰匙
+AMARAKIS   = 22449  # 亞邁士康里 拷問專家
+KEYMASTER  = 22361  # 鋼鐵之城 鑰匙守衛
+KEYEVILEYE = 9714   # 惡魔刻紋鑰匙
+
+ReturnPort = [[13093,282097,-9699]]
+dataIndex  = 0
 
 class PyObject :
 	pass
@@ -114,6 +117,8 @@ def enterInstance(self, player, template, teleto) :
 			world.instanceId = instanceId
 			self.worlds[instanceId] = world
 			self.world_ids.append(instanceId)
+			self.currentWorld = instanceId
+			instanceObj = InstanceManager.getInstance().getInstance(instanceId)
 			print "地獄舊市區：使用 " + template + " 即時地區：" +str(instanceId) + " 創造玩家：" + str(player.getName())
 			runStartRoom(self, world)
 		# teleports player
@@ -145,7 +150,7 @@ def runFirstRoom(self, world) :
 	world.FirstRoom = PyObject()
 	world.FirstRoom.npclist = {}
 	newNpc = self.addSpawn(22449, 19936, 253360, -2033, 0, False, 0, False, world.instanceId)
-	world.startRoom.npclist[newNpc] = False
+	world.FirstRoom.npclist[newNpc] = False
 	if debug : print "HBTown : spawned first room"
 
 def runSecondRoom(self, world) :
@@ -153,7 +158,7 @@ def runSecondRoom(self, world) :
 	world.SecondRoom = PyObject()
 	world.SecondRoom.npclist = {}
 	newNpc = self.addSpawn(32343, 22838, 253206, -2021, 0, False, 0, False, world.instanceId)
-	world.startRoom.npclist[newNpc] = False
+	world.SecondRoom.npclist[newNpc] = False
 	if debug : print "HBTown : spawned Second room"
   
 def checkKillProgress(npc, room) :
@@ -172,6 +177,7 @@ class Quest(JQuest) :
 		JQuest.__init__(self, id, name, desc)
 		self.worlds = {}
 		self.world_ids = []
+		self.currentWorld = 0
 
 	def onTalk (self, npc, player) :
 		npcId = npc.getNpcId()
@@ -192,19 +198,18 @@ class Quest(JQuest) :
 		if npc.getInstanceId() in self.worlds:
 			world = self.worlds[npc.getInstanceId()]
 			if npcId == 32343 :
-				if not st.getQuestItemsCount(9714) >= 1 :
+				if not st.getQuestItemsCount(KEYEVILEYE) >= 1 :
 					htmltext = "<html><body>月光石碑：<br>任務道具不符。</body></html>" 
 					return htmltext
 				else :
-					st.takeItems(9714,1)
+					st.takeItems(KEYEVILEYE,1)
 					tele = PyObject()
 					tele.x = 13093
 					tele.y = 282097
 					tele.z = -9699
-					instanceId = player.getInstanceId()
-					teleportParty(self, player, tele, True)
-					self.world_ids.remove(instanceId)
-					self.worlds[instanceId] = None
+					instanceObj = InstanceManager.getInstance().getInstance(self.currentWorld)
+					instanceObj.setReturnTeleport(ReturnPort[dataIndex][0],ReturnPort[dataIndex][1],ReturnPort[dataIndex][2])
+					instanceObj.setDuration(300000)
 					return
 		return ""
 
