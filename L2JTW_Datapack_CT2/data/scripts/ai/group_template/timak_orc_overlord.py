@@ -6,7 +6,7 @@ from net.sf.l2j.gameserver.network.serverpackets import NpcSay
 # Random Message
 TEXT = [ "現在開始才是真正的決鬥！",\
          "究極力量啊！！！！",\
-         "沒想到竟會對乳臭未乾的小子便用這招！"]
+         "沒想到竟會對乳臭未乾的小子使用這招！"]
 
 # 提瑪克獸人王
 # timak_orc_overlord

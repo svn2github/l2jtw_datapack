@@ -6,7 +6,7 @@ from net.sf.l2j.util import Rnd
 # Random Message
 TEXT = [ "想嬴我，還早的很呢？",\
          "究極力量啊！！！！",\
-         "沒想到竟會對乳臭未乾的小子便用這招！"]
+         "沒想到竟會對乳臭未乾的小子使用這招！"]
 
 # 土瑞克獸人將軍
 # turek_orc_warlord
