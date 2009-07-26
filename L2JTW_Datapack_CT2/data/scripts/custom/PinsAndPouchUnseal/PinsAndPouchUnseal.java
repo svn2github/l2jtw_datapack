@@ -108,7 +108,7 @@ public class PinsAndPouchUnseal extends Quest
 				{
 					st.takeItems(57, 11800);
 					st.takeItems(13899, 1);
-					st.giveItems(PINS_C[st.getRandom((PINS_B).length)], 1);
+					st.giveItems(PINS_B[st.getRandom((PINS_B).length)], 1);
 					htmltext = "";
 				}
 				else
@@ -126,7 +126,7 @@ public class PinsAndPouchUnseal extends Quest
 				{
 					st.takeItems(57, 26500);
 					st.takeItems(13900, 1);
-					st.giveItems(PINS_C[st.getRandom((PINS_A).length)], 1);
+					st.giveItems(PINS_A[st.getRandom((PINS_A).length)], 1);
 					htmltext = "";
 				}
 				else
@@ -144,7 +144,7 @@ public class PinsAndPouchUnseal extends Quest
 				{
 					st.takeItems(57, 136600);
 					st.takeItems(13901, 1);
-					st.giveItems(PINS_C[st.getRandom((PINS_S).length)], 1);
+					st.giveItems(PINS_S[st.getRandom((PINS_S).length)], 1);
 					htmltext = "";
 				}
 				else
@@ -162,7 +162,7 @@ public class PinsAndPouchUnseal extends Quest
 				{
 					st.takeItems(57, 2600);
 					st.takeItems(13918, 1);
-					st.giveItems(PINS_C[st.getRandom((POUCHS_C).length)], 1);
+					st.giveItems(POUCHS_C[st.getRandom((POUCHS_C).length)], 1);
 					htmltext = "";
 				}
 				else
@@ -180,7 +180,7 @@ public class PinsAndPouchUnseal extends Quest
 				{
 					st.takeItems(57, 9400);
 					st.takeItems(13919, 1);
-					st.giveItems(PINS_C[st.getRandom((POUCHS_B).length)], 1);
+					st.giveItems(POUCHS_B[st.getRandom((POUCHS_B).length)], 1);
 					htmltext = "";
 				}
 				else
@@ -198,7 +198,7 @@ public class PinsAndPouchUnseal extends Quest
 				{
 					st.takeItems(57, 21200);
 					st.takeItems(13920, 1);
-					st.giveItems(PINS_C[st.getRandom((POUCHS_A).length)], 1);
+					st.giveItems(POUCHS_A[st.getRandom((POUCHS_A).length)], 1);
 					htmltext = "";
 				}
 				else
@@ -216,7 +216,7 @@ public class PinsAndPouchUnseal extends Quest
 				{
 					st.takeItems(57, 109300);
 					st.takeItems(13921, 1);
-					st.giveItems(PINS_C[st.getRandom((POUCHS_S).length)], 1);
+					st.giveItems(POUCHS_S[st.getRandom((POUCHS_S).length)], 1);
 					htmltext = "";
 				}
 				else
