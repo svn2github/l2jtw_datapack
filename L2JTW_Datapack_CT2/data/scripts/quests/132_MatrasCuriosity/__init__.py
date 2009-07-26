@@ -32,6 +32,8 @@ class Quest (JQuest) :
 		JQuest.__init__(self, id, name, descr)
 
 	def onAdvEvent (self, event, npc, player) :
+		st = player.getQuestState(qn)
+		if not st: return
 		htmltext = event
 		if event == "32245-02.htm" :
 			if st.getPlayer().getLevel() >= 76 :
