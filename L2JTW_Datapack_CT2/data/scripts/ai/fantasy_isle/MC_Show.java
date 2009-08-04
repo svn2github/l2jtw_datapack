@@ -221,7 +221,7 @@ public class MC_Show extends Quest
 			SimpleDateFormat format = new SimpleDateFormat("dd/MM/yyyy HH:mm:ss");
 			_log.info("Fantasy Isle: MC show script starting at " + format.format(System.currentTimeMillis()+diff)+ " and is scheduled each next 4 hours.");
 		}
-		ThreadPoolManager.getInstance().scheduleGeneralAtFixedRate(new StartMCShow(), 180000, 14400000L);
+		ThreadPoolManager.getInstance().scheduleGeneralAtFixedRate(new StartMCShow(), diff, 14400000L);
 		
 	}
 	
