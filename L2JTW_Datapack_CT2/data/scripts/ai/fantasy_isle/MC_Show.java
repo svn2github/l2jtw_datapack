@@ -44,21 +44,22 @@ public class MC_Show extends Quest
 	private static int[] showstuff = {32424,32425,32426,32427,32428};
 	private static boolean isStarted = false;
 	private static String[] text = {
-		"How come people are not here... We are about to start the show.. Hmm",
-		"Ugh, I have butterflies in my stomach.. The show starts soon...",
-		"Thank you all for coming here tonight.","It is an honor to have the special show today.",
-		"Our Fantasy Isle is fully committed to your happiness.",
-		"Now I'd like to introduce the most beautiful singer in Aden. Please welcome Leyla Mira!",
-		"Here she comes!","Thank you very much, Leyla. Next is",
-		"It was very difficult to invite this first group that just came back from their world tour. Let's welcome the Fantasy Isle Circus!",
-		"Come on ~ everyone","Did you like it? That was so amazing.",
-		"Now we also invited individuals with special talents.","Let's welcome the first person here!",
-		";;;;;;Oh","Okay, now here comes the next person. Come on up please.",
-		"Oh, it looks like something great is going to happen, right?", "Oh, my ;;;;",
-		"That's g- .. great. Now, here comes the last person.","Now this is the end of today's show.",
-		"How was it? I am not sure if you really enjoyed it.",
-		"Please remember that Fantasy Isle is always planning a lot of great shows for you.",
-		"Well, I wish I could continue all night long, but this is it for today. Thank you."
+		"怎麼沒人咧...表演馬上就要開始了...哼",
+		"啊，真令人不耐的緊張感...表演馬上就要開始了...哼",
+		"今天非常感謝各位來到此地。","今天能特別為各位帶來表演，真是感到萬分的榮幸。",
+		"我們夢幻島為了帶給大家歡樂，一直都是全力以赴。",
+		"來，那麼我來介紹一下，我們為了使表演更出色而翻遍整個亞丁才找來，最棒的美女歌手-萊伊拉美羅小姐！",
+		"掌 聲 歡 迎~","非常感謝萊伊拉美羅小姐帶來的歌曲。那麼接下來是",
+		"首先介紹的是，特別邀請而來、剛結束世界巡迴表演的夢幻島技藝團！",
+		"各位，請~出場。","有好好欣賞嗎？真是既可愛又出色的表演。",
+		"接下來我們邀請了各地擁有非凡才華的人士。","我們來歡迎一下吧，第一位請出場。",
+		"...嗯","好，我們歡迎下一位參加者，請出場。",
+		"哦哦，這次好像非常了不起喔？", "呃...",
+		"真..真是了不起。那麼我們請最後一位參加者出場吧。","就這樣，我們的特技表演也到了尾聲。",
+		"各位覺得如何？不知大家是否有好好欣賞。",
+		"往後我們夢幻島也會繼續為各位準備出色的表演節目，敬請期待。",
+		"真遺憾，不過今天就到此為止了。謝謝。",//Update by rocknow
+		"嗯...接下來，我們來介紹亞丁各地區的名人。"//Update by rocknow
 	};
 	
 	private static Map<String, Object[]> talks = new FastMap<String, Object[]>();
@@ -220,7 +221,7 @@ public class MC_Show extends Quest
 			SimpleDateFormat format = new SimpleDateFormat("dd/MM/yyyy HH:mm:ss");
 			_log.info("Fantasy Isle: MC show script starting at " + format.format(System.currentTimeMillis()+diff)+ " and is scheduled each next 4 hours.");
 		}
-		ThreadPoolManager.getInstance().scheduleGeneralAtFixedRate(new StartMCShow(), diff, 14400000L);
+		ThreadPoolManager.getInstance().scheduleGeneralAtFixedRate(new StartMCShow(), 180000, 14400000L);
 		
 	}
 	
@@ -297,6 +298,7 @@ public class MC_Show extends Quest
 				{
 					case 32433:
 						autoChat(npc,text[7],1);
+						autoChat(npc,text[22],1);//Update by rocknow
 						npc.getAI().setIntention(CtrlIntention.AI_INTENTION_MOVE_TO,new L2CharPosition(-56698,-56430,-2008,32768));
 						startQuestTimer("8",12000, npc, null);
 						break;
@@ -363,7 +365,7 @@ public class MC_Show extends Quest
 			}
 			else if (event.equalsIgnoreCase("28"))
 			{
-				autoChat(npc,"We love you.",0);
+				autoChat(npc,"我愛你們喔。",0);
 				startQuestTimer("social1",1, npc, null);
 			}
 			else if (event.equalsIgnoreCase("29"))
