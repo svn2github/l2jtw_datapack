@@ -1231,16 +1231,19 @@
   <set name="target" val="TARGET_NONE"/>
   <set name="skillType" val="NOTDONE"/>
   <set name="operateType" val="OP_PASSIVE"/>
+  <set name="hitTime" val="100"/>
 </skill>
 <skill id="2793" levels="2" name="Stone of Mana">
   <set name="target" val="TARGET_NONE"/>
   <set name="skillType" val="NOTDONE"/>
   <set name="operateType" val="OP_PASSIVE"/>
+  <set name="hitTime" val="100"/>
 </skill>
 <skill id="2794" levels="2" name="Stone of Recovery">
   <set name="target" val="TARGET_NONE"/>
   <set name="skillType" val="NOTDONE"/>
   <set name="operateType" val="OP_PASSIVE"/>
+  <set name="hitTime" val="100"/>
 </skill>
 <skill id="2795" levels="1" name="Stone of Destruction">
   <set name="target" val="TARGET_NONE"/>
@@ -1256,6 +1259,7 @@
   <set name="target" val="TARGET_NONE"/>
   <set name="skillType" val="NOTDONE"/>
   <set name="operateType" val="OP_PASSIVE"/>
+  <set name="hitTime" val="4000"/>
 </skill>
 <skill id="2798" levels="1" name="Stone of Speed">
   <set name="target" val="TARGET_NONE"/>

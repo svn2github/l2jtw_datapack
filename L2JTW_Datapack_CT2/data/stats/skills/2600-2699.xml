@@ -152,16 +152,19 @@
   <set name="target" val="TARGET_NONE"/>
   <set name="skillType" val="NOTDONE"/>
   <set name="operateType" val="OP_PASSIVE"/>
+  <set name="hitTime" val="100"/>
 </skill>
 <skill id="2617" levels="1" name="Stun Planter">
   <set name="target" val="TARGET_NONE"/>
   <set name="skillType" val="NOTDONE"/>
   <set name="operateType" val="OP_PASSIVE"/>
+  <set name="hitTime" val="100"/>
 </skill>
 <skill id="2618" levels="1" name="Stun Land Mine">
   <set name="target" val="TARGET_NONE"/>
   <set name="skillType" val="NOTDONE"/>
   <set name="operateType" val="OP_PASSIVE"/>
+  <set name="hitTime" val="100"/>
 </skill>
 <skill id="2619" levels="1" name="Extra Entrance Pass - Kamaloka (Hall of the Abyss) (Event)">
   <set name="target" val="TARGET_NONE"/>
@@ -182,6 +185,7 @@
   <set name="target" val="TARGET_NONE"/>
   <set name="skillType" val="NOTDONE"/>
   <set name="operateType" val="OP_PASSIVE"/>
+  <set name="hitTime" val="2000"/>
 </skill>
 <skill id="2623" levels="1" name="Alkaline Therapy">
   <set name="target" val="TARGET_NONE"/>
@@ -267,11 +271,13 @@
   <set name="target" val="TARGET_NONE"/>
   <set name="skillType" val="NOTDONE"/>
   <set name="operateType" val="OP_PASSIVE"/>
+  <set name="hitTime" val="500"/>
 </skill>
 <skill id="2634" levels="1" name="Court Magician's Blessing">
   <set name="target" val="TARGET_NONE"/>
   <set name="skillType" val="NOTDONE"/>
   <set name="operateType" val="OP_PASSIVE"/>
+  <set name="hitTime" val="500"/>
 </skill>
 <skill id="2635" levels="1" name="Blessing of Fire">
   <set name="target" val="TARGET_SELF"/>

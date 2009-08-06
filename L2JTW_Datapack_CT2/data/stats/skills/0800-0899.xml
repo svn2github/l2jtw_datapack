@@ -614,16 +614,19 @@
   <set name="target" val="TARGET_NONE"/>
   <set name="skillType" val="NOTDONE"/>
   <set name="operateType" val="OP_PASSIVE"/>
+  <set name="hitTime" val="1500"/>
 </skill>
 <skill id="844" levels="1" name="Outpost Construction">
   <set name="target" val="TARGET_NONE"/>
   <set name="skillType" val="NOTDONE"/>
   <set name="operateType" val="OP_PASSIVE"/>
+  <set name="hitTime" val="4000"/>
 </skill>
 <skill id="845" levels="1" name="Outpost Demolition">
   <set name="target" val="TARGET_NONE"/>
   <set name="skillType" val="NOTDONE"/>
   <set name="operateType" val="OP_PASSIVE"/>
+  <set name="hitTime" val="4000"/>
 </skill>
 <skill id="846" levels="1" name="Possess Ward">
   <set name="target" val="TARGET_NONE"/>
@@ -634,6 +637,7 @@
   <set name="target" val="TARGET_NONE"/>
   <set name="skillType" val="NOTDONE"/>
   <set name="operateType" val="OP_PASSIVE"/>
+  <set name="hitTime" val="180000"/>
 </skill>
 <skill id="848" levels="1" name="Gludio Territory Benefaction">
   <set name="target" val="TARGET_SELF"/>
@@ -864,76 +868,91 @@
   <set name="target" val="TARGET_NONE"/>
   <set name="skillType" val="NOTDONE"/>
   <set name="operateType" val="OP_PASSIVE"/>
+  <set name="hitTime" val="1080"/>
 </skill>
 <skill id="870" levels="1" name="Royal Guard Captain Power Strike">
   <set name="target" val="TARGET_NONE"/>
   <set name="skillType" val="NOTDONE"/>
   <set name="operateType" val="OP_PASSIVE"/>
+  <set name="hitTime" val="1080"/>
 </skill>
 <skill id="871" levels="1" name="Royal Guard Captain Might">
   <set name="target" val="TARGET_NONE"/>
   <set name="skillType" val="NOTDONE"/>
   <set name="operateType" val="OP_PASSIVE"/>
+  <set name="hitTime" val="4000"/>
 </skill>
 <skill id="872" levels="1" name="Archer Captain Power Shot">
   <set name="target" val="TARGET_NONE"/>
   <set name="skillType" val="NOTDONE"/>
   <set name="operateType" val="OP_PASSIVE"/>
+  <set name="hitTime" val="3200"/>
 </skill>
 <skill id="873" levels="1" name="Archer Captain Rapid Shot">
   <set name="target" val="TARGET_NONE"/>
   <set name="skillType" val="NOTDONE"/>
   <set name="operateType" val="OP_PASSIVE"/>
+  <set name="hitTime" val="1500"/>
 </skill>
 <skill id="874" levels="1" name="Magic Leader Flame Strike">
   <set name="target" val="TARGET_NONE"/>
   <set name="skillType" val="NOTDONE"/>
   <set name="operateType" val="OP_PASSIVE"/>
+  <set name="hitTime" val="4000"/>
 </skill>
 <skill id="875" levels="1" name="Magic Leader Empower">
   <set name="target" val="TARGET_NONE"/>
   <set name="skillType" val="NOTDONE"/>
   <set name="operateType" val="OP_PASSIVE"/>
+  <set name="hitTime" val="4000"/>
 </skill>
 <skill id="876" levels="1" name="Kamael Guard Captain Enuma Elish">
   <set name="target" val="TARGET_NONE"/>
   <set name="skillType" val="NOTDONE"/>
   <set name="operateType" val="OP_PASSIVE"/>
+  <set name="hitTime" val="1080"/>
 </skill>
 <skill id="877" levels="1" name="Kamael Guard Captain Disarm">
   <set name="target" val="TARGET_NONE"/>
   <set name="skillType" val="NOTDONE"/>
   <set name="operateType" val="OP_PASSIVE"/>
+  <set name="hitTime" val="1500"/>
 </skill>
 <skill id="878" levels="1" name="Knight of Dawn Power Strike">
   <set name="target" val="TARGET_NONE"/>
   <set name="skillType" val="NOTDONE"/>
   <set name="operateType" val="OP_PASSIVE"/>
+  <set name="hitTime" val="1080"/>
 </skill>
 <skill id="879" levels="1" name="Knight of Dawn Curse Fear">
   <set name="target" val="TARGET_NONE"/>
   <set name="skillType" val="NOTDONE"/>
   <set name="operateType" val="OP_PASSIVE"/>
+  <set name="hitTime" val="4000"/>
 </skill>
 <skill id="880" levels="1" name="Knight of Dawn Ultimate Defense">
   <set name="target" val="TARGET_NONE"/>
   <set name="skillType" val="NOTDONE"/>
   <set name="operateType" val="OP_PASSIVE"/>
+  <set name="hitTime" val="1000"/>
 </skill>
 <skill id="881" levels="1" name="Fortress Captain Twister">
   <set name="target" val="TARGET_NONE"/>
   <set name="skillType" val="NOTDONE"/>
   <set name="operateType" val="OP_PASSIVE"/>
+  <set name="hitTime" val="4000"/>
 </skill>
 <skill id="882" levels="1" name="Fortress Captain Blaze">
   <set name="target" val="TARGET_NONE"/>
   <set name="skillType" val="NOTDONE"/>
   <set name="operateType" val="OP_PASSIVE"/>
+  <set name="hitTime" val="4000"/>
 </skill>
 <skill id="883" levels="1" name="Fortress Captain Seal of Binding">
   <set name="target" val="TARGET_NONE"/>
   <set name="skillType" val="NOTDONE"/>
   <set name="operateType" val="OP_PASSIVE"/>
+  <set name="hitTime" val="4000"/>
 </skill>
 <skill id="884" levels="11" name="Air Assault">
   <!-- Update by rocknow -->
@@ -1129,21 +1148,25 @@
   <set name="skillType" val="NOTDONE"/>
   <set name="operateType" val="OP_PASSIVE"/>
   <set name="reuseDelay" val="1000"/>
+  <set name="hitTime" val="1000"/>
 </skill>
 <skill id="897" levels="6" name="Double Blast">
   <set name="target" val="TARGET_NONE"/>
   <set name="skillType" val="NOTDONE"/>
   <set name="operateType" val="OP_PASSIVE"/>
   <set name="reuseDelay" val="2000"/>
+  <set name="hitTime" val="4000"/>
 </skill>
 <skill id="898" levels="6" name="Tornado Slash">
   <set name="target" val="TARGET_NONE"/>
   <set name="skillType" val="NOTDONE"/>
   <set name="operateType" val="OP_PASSIVE"/>
+  <set name="hitTime" val="4000"/>
 </skill>
 <skill id="899" levels="6" name="Cat Roar">
   <set name="target" val="TARGET_NONE"/>
   <set name="skillType" val="NOTDONE"/>
   <set name="operateType" val="OP_PASSIVE"/>
+  <set name="hitTime" val="4000"/>
 </skill>
 </list>

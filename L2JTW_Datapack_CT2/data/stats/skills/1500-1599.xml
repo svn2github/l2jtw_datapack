@@ -175,7 +175,7 @@
   <set name="target" val="TARGET_AURA"/>
   <set name="skillRadius" val="200"/>
   <set name="reuseDelay" val="3000000"/>
-  <set name="hitTime" val="4000"/>
+  <set name="hitTime" val="1500"/>
   <set name="skillType" val="DEBUFF"/>
   <set name="isMagic" val="true"/>
   <set name="isDebuff" val="true"/>
@@ -599,6 +599,7 @@
   <set name="hitTime" val="1500"/>
   <set name="isMagic" val="true"/>
   <set name="reuseDelay" val="600000"/>
+  <set name="staticReuse" val="true"/>
   <for>
     <effect name="Buff" time="20" val="0">
       <mul order="0x30" stat="mAtk" val="1.4"/>
@@ -616,6 +617,7 @@
   <set name="hitTime" val="1500"/>
   <set name="isMagic" val="true"/>
   <set name="reuseDelay" val="600000"/>
+  <set name="staticReuse" val="true"/>
   <for>
     <effect name="Buff" time="20" val="0">
       <mul order="0x30" stat="mAtk" val="1.1"/>
@@ -630,6 +632,7 @@
   <set name="target" val="TARGET_NONE"/>
   <set name="skillType" val="NOTDONE"/>
   <set name="operateType" val="OP_PASSIVE"/>
+  <set name="hitTime" val="2500"/>
 </skill>
 <skill id="1535" levels="1" name="Chant of Movement">
   <set name="mpConsume" val="65"/>
@@ -654,7 +657,7 @@
 </skill>
 <skill id="1536" levels="1" name="Combat of Pa'agrio">
   <set name="mpConsume" val="272"/>
-  <set name="target" val="TARGET_CLAN"/>
+  <set name="target" val="TARGET_PARTY_CLAN"/>
   <set name="skillType" val="BUFF"/>
   <set name="skillRadius" val="1000"/>
   <set name="reuseDelay" val="2000"/>
@@ -675,7 +678,7 @@
 </skill>
 <skill id="1537" levels="1" name="Critical of Pa'agrio">
   <set name="mpConsume" val="272"/>
-  <set name="target" val="TARGET_CLAN"/>
+  <set name="target" val="TARGET_PARTY_CLAN"/>
   <set name="skillType" val="BUFF"/>
   <set name="skillRadius" val="1000"/>
   <set name="reuseDelay" val="2000"/>
@@ -694,7 +697,7 @@
 </skill>
 <skill id="1538" levels="1" name="Condition of Pa'agrio">
   <set name="mpConsume" val="272"/>
-  <set name="target" val="TARGET_CLAN"/>
+  <set name="target" val="TARGET_PARTY_CLAN"/>
   <set name="skillType" val="BUFF"/>
   <set name="skillRadius" val="1000"/>
   <set name="reuseDelay" val="2000"/>
@@ -751,7 +754,7 @@
   <set name="skillType" val="BUFF"/>
   <set name="operateType" val="OP_ACTIVE"/>
   <set name="hitTime" val="1200"/>
-  <set name="isMAgic" val="true"/>
+  <set name="isMagic" val="true"/>
   <set name="reuseDelay" val="600000"/>
   <for>
     <effect name="Petrification" time="8" val="0" stackOrder="8" stackType="turn_stone"/>
@@ -761,12 +764,14 @@
   <set name="target" val="TARGET_NONE"/>
   <set name="skillType" val="NOTDONE"/>
   <set name="operateType" val="OP_PASSIVE"/>
+  <set name="hitTime" val="4000"/>
 </skill>
 <skill id="1542" levels="1" name="Counter Critical">
   <set name="target" val="TARGET_NONE"/>
   <set name="skillType" val="NOTDONE"/>
   <set name="operateType" val="OP_PASSIVE"/>
   <set name="reuseDelay" val="2000"/>
+  <set name="hitTime" val="4000"/>
 </skill>
 <skill id="1543" levels="1" name="Great Fury">
   <set name="target" val="TARGET_SELF"/>
@@ -784,6 +789,7 @@
   <set name="target" val="TARGET_NONE"/>
   <set name="skillType" val="NOTDONE"/>
   <set name="operateType" val="OP_PASSIVE"/>
+  <set name="hitTime" val="1500"/>
 </skill>
 <skill id="1545" levels="1" name="Soul Sucking">
   <set name="target" val="TARGET_NONE"/>

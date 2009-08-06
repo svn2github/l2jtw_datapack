@@ -374,6 +374,7 @@ $MYG < ../sql/l2jtw_addon_1.sql &> /dev/null
 $MYG < ../sql/l2jtw_addon_2.sql &> /dev/null
 $MYG < ../sql/char_templates_tw.sql &> /dev/null
 $MYG < ../sql/auto_chat_text_tw.sql &> /dev/null
+$MYG < ../sql/skill_tw.sql &> /dev/null
 newbie_helper
 }
 

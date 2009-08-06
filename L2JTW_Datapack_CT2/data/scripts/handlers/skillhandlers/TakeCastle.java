@@ -22,10 +22,10 @@ import net.sf.l2j.gameserver.model.actor.L2Character;
 import net.sf.l2j.gameserver.model.actor.instance.L2ArtefactInstance;
 import net.sf.l2j.gameserver.model.actor.instance.L2PcInstance;
 import net.sf.l2j.gameserver.model.entity.Castle;
+import net.sf.l2j.gameserver.network.SystemMessageId;
+import net.sf.l2j.gameserver.network.serverpackets.SystemMessage;
 import net.sf.l2j.gameserver.templates.skills.L2SkillType;
 import net.sf.l2j.gameserver.util.Util;
-import net.sf.l2j.gameserver.datatables.MessageTable;
-import net.sf.l2j.gameserver.model.L2CoreMessage;
 
 /**
  * @author _drunk_
@@ -115,9 +115,8 @@ public class TakeCastle implements ISkillHandler
 		{
 			if (!isCheckOnly)
 			{
-				L2CoreMessage cm =  new L2CoreMessage (MessageTable.Messages[732]);
-				cm.addString(player.getClan().getName());
-				castle.getSiege().announceToPlayer(cm.renderMsg(), true);
+				SystemMessage sm = new SystemMessage(SystemMessageId.OPPONENT_STARTED_ENGRAVING);
+				castle.getSiege().announceToPlayer(sm, false);
 			}
 			return true;
 		}
