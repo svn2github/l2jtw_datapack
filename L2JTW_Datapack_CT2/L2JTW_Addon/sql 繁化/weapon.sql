@@ -1,7 +1,12 @@
+/********** Made in Taiwan **********/
+
+/***** 貳幕-破滅國境 2009.08.06 *****/
+/***** ItemName-tw *****/
+
 DROP TABLE IF EXISTS `weapon_name`;
 CREATE TABLE `weapon_name` (
-  `item_id` int(10) NOT NULL default '0',
-  `name` varchar(120) NOT NULL default '',
+  `item_id` int(5) NOT NULL default '0',
+  `name` varchar(50) NOT NULL default '',
   PRIMARY KEY  (`item_id`)
 ) DEFAULT CHARSET=utf8;
 

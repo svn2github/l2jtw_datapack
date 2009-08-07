@@ -1,7 +1,12 @@
+/********** Made in Taiwan **********/
+
+/***** 貳幕-破滅國境 2009.08.06 *****/
+/***** ItemName-tw *****/
+
 DROP TABLE IF EXISTS `etcitem_name`;
 CREATE TABLE `etcitem_name` (
-  `item_id` int(10) NOT NULL default '0',
-  `name` varchar(120) NOT NULL default '',
+  `item_id` int(5) NOT NULL default '0',
+  `name` varchar(50) NOT NULL default '',
   PRIMARY KEY  (`item_id`)
 ) DEFAULT CHARSET=utf8;
 
@@ -3511,7 +3516,9 @@ INSERT INTO `etcitem_name` VALUES
 (4677, '逃離藥水'),
 (4678, '寬恕卷軸'),
 (4679, '伊娃的祝福'),
-(4680, '復仇的藥水'),
+(4680, '復仇的藥水');
+
+INSERT INTO `etcitem_name` VALUES
 (4906, '魔法書-太陽閃光'),
 (4907, '魔法書-太陽火焰'),
 (4908, '魔法書-暗影閃光'),

@@ -1,7 +1,8 @@
-/************ Made in Taiwan ************/
+/********** Made in Taiwan **********/
 
-/***** 貳幕-破滅國境 09-06-08 *****/
-/***** npcname-tw *****/ 
+/***** 貳幕-破滅國境 2009.07.04 *****/
+/***** npcname-tw *****/
+
 UPDATE `npc` SET `name` = '不良火雞' WHERE `id` = 1;
 UPDATE `npc` SET `name` = '' WHERE `id` = 2;
 UPDATE `npc` SET `name` = '見習聖誕老人' WHERE `id` = 3;

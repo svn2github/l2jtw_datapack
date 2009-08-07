@@ -1,8 +1,13 @@
+/********** Made in Taiwan **********/
+
+/***** 貳幕-破滅國境 2009.08.06 *****/
+/***** SkillName-tw *****/
+
 DROP TABLE IF EXISTS `skill_name`;
 CREATE TABLE `skill_name` (
-  `skill_id` int(10) NOT NULL default '0',
-  `level` int(10) NOT NULL default '0',
-  `name` varchar(300) NOT NULL default '',
+  `skill_id` int(5) NOT NULL default '0',
+  `level` int(3) NOT NULL default '0',
+  `name` varchar(50) NOT NULL default '',
   PRIMARY KEY  (`skill_id`,`name`)
 ) DEFAULT CHARSET=utf8;
 
@@ -3317,7 +3322,9 @@ INSERT INTO `skill_name` VALUES
 (3720, '1', '青狼手套'),
 (3721, '1', '青狼外衣'),
 (3722, '1', '青狼長襪'),
-(3723, '1', '青狼頭盔'),
+(3723, '1', '青狼頭盔');
+
+INSERT INTO `skill_name` VALUES
 (3724, '1', '黑暗水晶頭盔'),
 (3725, '1', '黑暗水晶胸甲'),
 (3726, '1', '黑暗水晶脛甲'),
@@ -6755,4 +6762,6 @@ INSERT INTO `skill_name` VALUES
 (26073, '5', '閃耀弩箭筒');
 Update `skill_trees`, `skill_name` SET `skill_trees`.`name`=`skill_name`.`name` WHERE `skill_trees`.`skill_id`=`skill_name`.`skill_id`;
 Update `skill_trees`, `skill_name` SET `skill_trees`.`name`=`skill_name`.`name` WHERE `skill_trees`.`skill_id`=`skill_name`.`skill_id` AND `skill_trees`.`level`=`skill_name`.`level`;
+Update `character_skills`, `skill_name` SET `character_skills`.`skill_name`=`skill_name`.`name` WHERE `character_skills`.`skill_id`=`skill_name`.`skill_id`;
+Update `character_skills`, `skill_name` SET `character_skills`.`skill_name`=`skill_name`.`name` WHERE `character_skills`.`skill_id`=`skill_name`.`skill_id` AND `character_skills`.`skill_level`=`skill_name`.`level`;
 DROP TABLE IF EXISTS `skill_name`;
