@@ -6762,6 +6762,4 @@ INSERT INTO `skill_name` VALUES
 (26073, '5', '閃耀弩箭筒');
 Update `skill_trees`, `skill_name` SET `skill_trees`.`name`=`skill_name`.`name` WHERE `skill_trees`.`skill_id`=`skill_name`.`skill_id`;
 Update `skill_trees`, `skill_name` SET `skill_trees`.`name`=`skill_name`.`name` WHERE `skill_trees`.`skill_id`=`skill_name`.`skill_id` AND `skill_trees`.`level`=`skill_name`.`level`;
-Update `character_skills`, `skill_name` SET `character_skills`.`skill_name`=`skill_name`.`name` WHERE `character_skills`.`skill_id`=`skill_name`.`skill_id`;
-Update `character_skills`, `skill_name` SET `character_skills`.`skill_name`=`skill_name`.`name` WHERE `character_skills`.`skill_id`=`skill_name`.`skill_id` AND `character_skills`.`skill_level`=`skill_name`.`level`;
 DROP TABLE IF EXISTS `skill_name`;
