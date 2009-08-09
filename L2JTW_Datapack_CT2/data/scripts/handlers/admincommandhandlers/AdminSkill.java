@@ -149,6 +149,7 @@ public class AdminSkill implements IAdminCommandHandler
 				cm.sendMessage(activeChar);
 				player.sendMessage(34);
 				player.sendSkillList();
+				player.broadcastUserInfo();
 			}
 		}
 		else if (command.startsWith("admin_add_clan_skill"))
@@ -383,7 +384,7 @@ public class AdminSkill implements IAdminCommandHandler
 			if (skill != null)
 			{
 				String name = skill.getName();
-				if (player != activeChar)
+				if (player != activeChar) //Update by rocknow
 					player.sendMessage(28);
 				player.addSkill(skill, true);
 				//Admin information
@@ -393,7 +394,7 @@ public class AdminSkill implements IAdminCommandHandler
 				sm = null;
 				L2CoreMessage cm =  new L2CoreMessage (MessageTable.Messages[524]);
 				cm.addString(player.getName());
-				if (player != activeChar)
+				if (player != activeChar) //Update by rocknow
 					cm.sendMessage(activeChar);
 				if (Config.DEBUG)
 					_log.fine("[GM]" + activeChar.getName() + " gave skill " + name + " to " + player.getName() + ".");
@@ -420,7 +421,7 @@ public class AdminSkill implements IAdminCommandHandler
 		if (skill != null)
 		{
 			String skillname = skill.getName();
-			if (player != activeChar)
+			if (player != activeChar) //Update by rocknow
 				player.sendMessage(35);
 			player.removeSkill(skill);
 			//Admin information	
