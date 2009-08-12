@@ -29,6 +29,7 @@ INSERT IGNORE INTO `admin_command_access_rights` VALUES
 ('admin_manualhero','1'),
 ('admin_sethero','1'),
 ('admin_endolympiad','1'),
+('admin_find_dualbox','1'),
 
 -- ANNOUNCEMENTS
 ('admin_list_announcements','1'),
@@ -195,6 +196,7 @@ INSERT IGNORE INTO `admin_command_access_rights` VALUES
 ('admin_seten','1'),
 ('admin_setun','1'),
 ('admin_setba','1'),
+('admin_setbe','1'),
 ('admin_enchant','1'),
 
 -- EVENT ENGINE

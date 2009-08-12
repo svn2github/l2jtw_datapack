@@ -16,7 +16,12 @@ package handlers.admincommandhandlers;
 
 import java.sql.Connection;
 import java.sql.PreparedStatement;
+import java.util.ArrayList;
 import java.util.Collection;
+import java.util.Collections;
+import java.util.Comparator;
+import java.util.HashMap;
+import java.util.List;
 import java.util.Map;
 import java.util.StringTokenizer;
 import java.util.logging.Logger;
@@ -84,6 +89,7 @@ public class AdminEditChar implements IAdminCommandHandler
 		"admin_find_character", //find a player by his name or a part of it (case-insensitive)
 		"admin_find_ip", // find all the player connections from a given IPv4 number
 		"admin_find_account", //list all the characters from an account (useful for GMs w/o DB access)
+		"admin_find_dualbox", //list all the IPs with more than 1 char logged in (dualbox)
 		"admin_save_modifications", //consider it deprecated...
 		"admin_rec", // gives recommendation points
 		"admin_settitle", // changes char title
@@ -281,7 +287,6 @@ public class AdminEditChar implements IAdminCommandHandler
 					L2CoreMessage cm =  new L2CoreMessage (MessageTable.Messages[14]);
 					cm.addString(newclass);
 					cm.sendMessage(player);
-
 					player.broadcastUserInfo();
 					cm =  new L2CoreMessage (MessageTable.Messages[670]);
 					cm.addString(player.getName());
@@ -464,8 +469,25 @@ public class AdminEditChar implements IAdminCommandHandler
 			{
 				e.printStackTrace();
 			}
-		}		
-
+		}
+		else if (command.startsWith("admin_find_dualbox"))
+		{
+			int multibox = 2;
+			try
+			{
+				String val = command.substring(19);
+				multibox = Integer.parseInt(val);
+				if (multibox < 1)
+				{
+					activeChar.sendMessage(97);
+					return false;
+				}
+			}
+			catch (Exception e)
+			{
+			}
+			findDualbox(activeChar, multibox);
+		}
 		
 		return true;
 	}
@@ -508,7 +530,6 @@ public class AdminEditChar implements IAdminCommandHandler
 			int pagenr = x + 1;
                         StringUtil.append(replyMSG,
                                 "<center><a action=\"bypass -h admin_show_characters " + x + "\">"+ MessageTable.Messages[677].getMessage() + pagenr +MessageTable.Messages[215].getMessage()+"</a></center>");
-
 		}
                 
 		adminReply.replace("%pages%", replyMSG.toString());
@@ -557,13 +578,9 @@ public class AdminEditChar implements IAdminCommandHandler
 		String account = "N/A";
 		try
 		{
-			StringTokenizer clientinfo = new StringTokenizer(player.getClient().toString(), " ]:-[");
-			clientinfo.nextToken();
-			clientinfo.nextToken();
-			clientinfo.nextToken();
-			account = clientinfo.nextToken();
-			clientinfo.nextToken();
-			ip = clientinfo.nextToken();
+			String clientInfo = player.getClient().toString();
+			account = clientInfo.substring(clientInfo.indexOf("Account: ")+9, clientInfo.indexOf(" - IP: "));
+			ip = clientInfo.substring(clientInfo.indexOf(" - IP: ")+7,clientInfo.lastIndexOf("]"));
 		}
 		catch (Exception e)
 		{
@@ -633,8 +650,7 @@ public class AdminEditChar implements IAdminCommandHandler
 			cm.addString(player.getName());
 			cm.addNumber(oldKarma);
 			cm.addNumber(newKarma);
-			cm.sendMessage(activeChar);
-			
+			cm.sendMessage(activeChar);			
 			if (Config.DEBUG)
 				_log.fine("[SET KARMA] [GM]" + activeChar.getName() + " Changed karma for " + player.getName() + " from (" + oldKarma + ") to (" + newKarma + ").");
 		}
@@ -921,4 +937,64 @@ public class AdminEditChar implements IAdminCommandHandler
 			throw new IllegalArgumentException("Malformed character name");
 	}
 	
+	/**
+	* @param activeChar
+	* @throws IllegalArgumentException
+	*/
+	private void findDualbox(L2PcInstance activeChar, int multibox) throws IllegalArgumentException
+	{
+		Collection<L2PcInstance> allPlayers = L2World.getInstance().getAllPlayers().values();
+		L2PcInstance[] players = allPlayers.toArray(new L2PcInstance[allPlayers.size()]);
+		
+		Map<String, List<L2PcInstance>> ipMap = new HashMap<String, List<L2PcInstance>>();
+		
+		String ip = "0.0.0.0";
+		L2GameClient client;
+		
+		final Map<String, Integer> dualboxIPs = new HashMap<String, Integer>();
+		
+		for (L2PcInstance player : players)
+		{
+			client = player.getClient();
+			if (client.isDetached())
+				continue;
+			else
+			{
+				ip = client.getConnection().getInetAddress().getHostAddress();
+				if (ipMap.get(ip) == null)
+					ipMap.put(ip, new ArrayList<L2PcInstance>());
+				ipMap.get(ip).add(player);
+				
+				if (ipMap.get(ip).size() >= multibox)
+				{
+					Integer count = dualboxIPs.get(ip);
+					if (count == null)
+						dualboxIPs.put(ip, multibox);
+					else
+						dualboxIPs.put(ip, count + 1);
+				}
+			}
+		}
+		
+		List<String> keys = new ArrayList<String>(dualboxIPs.keySet());
+		Collections.sort(keys, new Comparator<String>() {
+			public int compare(String left, String right)
+			{
+				return dualboxIPs.get(left).compareTo(dualboxIPs.get(right));
+			}
+		});
+		Collections.reverse(keys);
+		
+		final StringBuilder results = new StringBuilder();
+		for (String dualboxIP : keys)
+		{
+			StringUtil.append(results, "<a action=\"bypass -h admin_find_ip " + dualboxIP + "\">" + dualboxIP + " (" + dualboxIPs.get(dualboxIP) + ")</a><br1>");
+		}
+		
+		NpcHtmlMessage adminReply = new NpcHtmlMessage(5);
+		adminReply.setFile("data/html/admin/dualbox.htm");
+		adminReply.replace("%multibox%", String.valueOf(multibox));
+		adminReply.replace("%results%", results.toString());
+		activeChar.sendPacket(adminReply);
+	}
 }
