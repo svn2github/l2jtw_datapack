@@ -10,8 +10,8 @@ public class TawnyManedLion extends L2Transformation
 {
 	public TawnyManedLion()
 	{
-		// id, duration (secs), colRadius, colHeight
-		super(109, 1800, 30.0, 23.0);
+		// id, colRadius, colHeight
+		super(109, 30.0, 23.0);
 	}
 
 	public void onTransform()
@@ -29,9 +29,9 @@ public class TawnyManedLion extends L2Transformation
 		getPlayer().addSkill(SkillTable.getInstance().getInfo(839, 1), false);
 		// Decrease Bow/Crossbow Attack Speed
 		getPlayer().addSkill(SkillTable.getInstance().getInfo(5491, 1), false);
-		getPlayer().addSkill(SkillTable.getInstance().getInfo(5437, 1), false);
+		getPlayer().addSkill(SkillTable.getInstance().getInfo(5437, 1), false);//Update by rocknow
 
-		getPlayer().setTransformAllowedSkills(new int[]{839,5491});
+		getPlayer().setTransformAllowedSkills(new int[]{839,5491,5437});//Update by rocknow
 	}
 
 	public void onUntransform()

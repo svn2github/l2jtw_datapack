@@ -2,7 +2,7 @@ package transformations;
 
 import net.sf.l2j.gameserver.model.L2Transformation;
 import net.sf.l2j.gameserver.instancemanager.TransformationManager;
-import net.sf.l2j.gameserver.datatables.MessageTable;
+import net.sf.l2j.gameserver.datatables.MessageTable;//Update by rocknow
 
 /**
  * This is currently only a test of the java script engine
@@ -14,15 +14,14 @@ public class Zariche extends L2Transformation
 {
     public Zariche()
     {
-        // id, duration (secs), colRadius, colHeight
-        // "infinite" duration - ended manually
-        super(301, Integer.MAX_VALUE, 9.0, 31.0);
+        // id, colRadius, colHeight
+        super(301, 9.0, 31.0);
     }
     
     public void onTransform()
     {
         // Set charachter name to transformed name
-    	getPlayer().getAppearance().setVisibleName(MessageTable.Messages[589].getMessage());
+    	getPlayer().getAppearance().setVisibleName(MessageTable.Messages[589].getMessage());//Update by rocknow
     	getPlayer().getAppearance().setVisibleTitle("");
 
     }

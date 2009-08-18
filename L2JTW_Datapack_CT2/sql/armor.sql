@@ -9,8 +9,8 @@ CREATE TABLE IF NOT EXISTS `armor` (
   `material` varchar(15) NOT NULL default 'wood',
   `crystal_type` varchar(4) NOT NULL default 'none',
   `avoid_modify` int(1) NOT NULL default '0',
-  `duration` int(3) NOT NULL default '-1', -- duration for shadown items
-  `time` int(4) NOT NULL default '-1',     -- duration for time limited items
+  `duration` int(3) NOT NULL default '-1', -- duration in minutes for shadown items
+  `time` int(4) NOT NULL default '-1',     -- duration in minutes for time limited items
   `p_def` int(3) NOT NULL default '0',
   `m_def` int(2) NOT NULL default '0',
   `mp_bonus` int(3) NOT NULL default '0',
@@ -2252,8 +2252,8 @@ INSERT INTO `armor` VALUES
 (13543,'Agathion Summon Bracelet - Collection','lbracelet','false','none',150,'wood','none',0,-1,-1,0,0,0,0,0,'false','false','true','false','0-0','8251-1;5780-1;3267-1;'),
 (13544,'Agathion Summon Bracelet - Boy Teddy Bear','lbracelet','false','none',150, 'wood','none',0,-1,-1,0,0,0,0,0,'false','false','true','false','0-0','8259-1;5958-1;3267-1;'),
 (13545,'Agathion Summon Bracelet - Girl Teddy Bear','lbracelet','false','none',150, 'wood','none',0,-1,-1,0,0,0,0,0,'false','false','true','false','0-0','8260-1;5959-1;3267-1;'),
-(13546,'Steam Sledge Mounting Bracelet','lbracelet','false','none',150, 'wood','none',0,-1,-1,0,0,0,0,0,'false','false','true','true','0-0','0-0;'),
-(13547,'Tawny-Maned Lion Mounting Bracelet','lbracelet','false','none',150, 'wood','none',0,-1,-1,0,0,0,0,0,'false','false','true','false','0-0','8262-1;'),
+(13546,'Steam Sledge Mounting Bracelet','lbracelet','false','none',150, 'wood','none',0,-1,10080,0,0,0,0,0,'false','false','true','false','0-0','8261-1;'),
+(13547,'Tawny-Maned Lion Mounting Bracelet','lbracelet','false','none',150, 'wood','none',0,-1,10080,0,0,0,0,0,'false','false','true','false','0-0','8262-1;'),
 (13687,'Knight\'s Cloak','back','false','heavy',220, 'wood','s84',0,-1,-1,20,0,0,0,0,'false','false','true','false','0-0','0-0;'),
 (13688,'Knight\'s Cloak - Light Armor exclusive','back','false','light',220, 'wood','s84',0,-1,-1,20,0,0,0,0,'false','false','true','false','0-0','0-0;'),
 (13689,'Knight\'s Cloak - Robe exclusive','back','false','magic',220, 'wood','s84',0,-1,-1,20,0,0,0,0,'false','false','true','false','0-0','0-0;'),
@@ -2271,7 +2271,7 @@ INSERT INTO `armor` VALUES
 (13752,'Olympiad Warrior\'s Ring','rfinger,lfinger','true','none',150, 'wood','a',0,-1,43200,0,42,21,0,0,'false','false','true','false','0-0','8292-1;'),
 (13753,'Olympiad Warrior\'s Necklace','neck','false','none',150, 'wood','a',0,-1,43200,0,85,26,0,0,'false','false','true','false','0-0','8294-1;'),
 (13754,'Olympiad Warrior\'s Earring','rear,lear','false','none',150, 'wood','a',0,-1,43200,0,63,31,0,0,'false','false','true','false','0-0','8293-1;'),
-(13756,'Agathion Summon Bracelet - Knight','lbracelet','false','none',150, 'wood','none',0,-1,-1,0,0,0,0,0,'false','false','true','false','0-0','0-0;'),
+(13756,'Agathion Summon Bracelet - Knight','lbracelet','false','none',150, 'wood','none',0,-1,-1,0,0,0,0,0,'false','false','true','false','0-0','8275-1;'),
 (13802,'Native\'s Hood','head','false','none',70, 'wood','none',0,-1,-1,33,0,0,0,0,'true','true','true','true','0-0','0-0;'),
 (13803,'Native\'s Tunic','chest','false','light',4720, 'wood','none',0,-1,-1,53,0,0,0,0,'true','true','true','true','0-0','0-0;'),
 (13804,'Native\'s Trousers','legs','false','light',1700, 'wood','none',0,-1,-1,29,0,0,0,0,'true','true','true','true','0-0','0-0;'),
@@ -2421,13 +2421,13 @@ INSERT INTO `armor` VALUES
 (20006,'Agathion Seal Bracelet - Majo','lbracelet','false','none',150,'wood','none',0,-1,-1,0,0,0,0,0,'false','false','true','false','0-0','21000-1;3267-1;'),
 (20007,'Agathion Seal Bracelet - Gold Majo','lbracelet','false','none',150,'wood','none',0,-1,-1,0,0,0,0,0,'false','false','true','false','0-0','21001-1;3267-1;'),
 (20008,'Agathion Seal Bracelet - Black Majo','lbracelet','false','none',150,'wood','none',0,-1,-1,0,0,0,0,0,'false','false','true','false','0-0','21002-1;3267-1;'),
-(20009,'Agathion Seal Bracelet - Majo - Big Head 30 Day Expiration Period','lbracelet','false','none',150,'wood','none',0,-1,43200,0,0,0,0,0,'false','false','true','false','0-0','21000-1;3267-1;'),
-(20010,'Agathion Seal Bracelet - Gold Majo - Resurrection 30 Day Expiration Period','lbracelet','false','none',150,'wood','none',0,-1,43200,0,0,0,0,0,'false','false','true','false','0-0','21001-1;3267-1;'),
-(20011,'Agathion Seal Bracelet - Black Majo - Escape 30 Day Expiration Period','lbracelet','false','none',150,'wood','none',0,-1,43200,0,0,0,0,0,'false','false','true','false','0-0','21002-1;3267-1;'),
+(20009,'Agathion Seal Bracelet - Majo - Big Head 30 Day Expiration Period','lbracelet','false','none',150,'wood','none',0,-1,43200,0,0,0,0,0,'false','false','true','false','0-0','21000-1;23004-1;3267-1;'),
+(20010,'Agathion Seal Bracelet - Gold Majo - Resurrection 30 Day Expiration Period','lbracelet','false','none',150,'wood','none',0,-1,43200,0,0,0,0,0,'false','false','true','false','0-0','21001-1;23005-1;3267-1;'),
+(20011,'Agathion Seal Bracelet - Black Majo - Escape 30 Day Expiration Period','lbracelet','false','none',150,'wood','none',0,-1,43200,0,0,0,0,0,'false','false','true','false','0-0','21002-1;23006-1;3267-1;'),
 (20012,'Agathion Seal Bracelet - Plaipitak','lbracelet','false','none',150,'wood','none',0,-1,-1,0,0,0,0,0,'false','false','true','false','0-0','21003-1;3267-1;'),
-(20013,'Agathion Seal Bracelet - Plaipitak - Big Head 30 Day Expiration Period','lbracelet','false','none',150,'wood','none',0,-1,43200,0,0,0,0,0,'false','false','true','false','0-0','21003-1;3267-1;'),
-(20014,'Agathion Seal Bracelet - Plaipitak - Resurrection 30 Day Expiration Period','lbracelet','false','none',150,'wood','none',0,-1,43200,0,0,0,0,0,'false','false','true','false','0-0','21003-1;3267-1;'),
-(20015,'Agathion Seal Bracelet - Plaipitak - Escape 30 Day Expiration Period','lbracelet','false','none',150,'wood','none',0,-1,43200,0,0,0,0,0,'false','false','true','false','0-0','21003-1;3267-1;'),
+(20013,'Agathion Seal Bracelet - Plaipitak - Big Head 30 Day Expiration Period','lbracelet','false','none',150,'wood','none',0,-1,43200,0,0,0,0,0,'false','false','true','false','0-0','21003-1;23007-1;3267-1;'),
+(20014,'Agathion Seal Bracelet - Plaipitak - Resurrection 30 Day Expiration Period','lbracelet','false','none',150,'wood','none',0,-1,43200,0,0,0,0,0,'false','false','true','false','0-0','21003-1;23009-1;3267-1;'),
+(20015,'Agathion Seal Bracelet - Plaipitak - Escape 30 Day Expiration Period','lbracelet','false','none',150,'wood','none',0,-1,43200,0,0,0,0,0,'false','false','true','false','0-0','21003-1;23008-1;3267-1;'),
 (20016,'Horn-Rimmed Glasses - Agility','face','false','none',10,'wood','none',0,-1,-1,0,0,0,0,0,'true','true','true','true','0-0','0-0;'),
 (20017,'Afro Hair','hairall','false','none',10,'wood','none',0,-1,-1,0,0,0,0,0,'true','true','true','true','0-0','0-0;'),
 (20018,'Afro Hair - Big Head, Firework','hairall','false','none',10,'wood','none',0,-1,-1,0,0,0,0,0,'true','true','true','true','0-0','0-0;'),
@@ -2537,3 +2537,17 @@ INSERT INTO `armor` VALUES
 (22170,'Fairy\'s Antennae','hair','false','none',10, 'wood','none',0,-1,-1,0,0,0,0,0,'true','true','true','true','0-0','0-0;'),
 (22171,'Dandy\'s Chapeau','hairall','false','none',10, 'wood','none',0,-1,-1,0,0,0,0,0,'true','true','true','true','0-0','0-0;'),
 (22172,'Artisan\'s Goggles','hairall','false','none',10, 'wood','none',0,-1,-1,0,0,0,0,0,'true','true','true','true','0-0','0-0;');
+
+-- Just in case someone screws something up or misses something, these scripts will fix a few things.
+UPDATE `armor` SET crystallizable = "false", destroyable = "true" WHERE (bodypart = "face") or (bodypart = "hair") or (bodypart = "hairall");
+
+UPDATE `armor` SET bodypart = "lbracelet", crystallizable = "false", sellable = "false", dropable = "false", destroyable = "true", tradeable = "false" WHERE (name LIKE "%mounting%") or (name LIKE "%Agathion%");
+UPDATE `armor` SET bodypart = "talisman", crystallizable = "false", sellable = "false", dropable = "false", destroyable = "true", tradeable = "false" WHERE name LIKE "%Talisman%";
+
+UPDATE `armor` SET time = "60" WHERE (name LIKE '%1 hour%') or (name LIKE '%1-hour%');
+UPDATE `armor` SET time = "180" WHERE (name LIKE '%3 hour%') or (name LIKE '%3-hour%');
+UPDATE `armor` SET time = "1440" WHERE (name LIKE '%24 hour%') or (name LIKE '%24-hour%');
+UPDATE `armor` SET time = "4320" WHERE (name LIKE '%3 Day%') or (name LIKE '%3-Day%');
+UPDATE `armor` SET time = "10080" WHERE (name LIKE '%7 Day%') or (name LIKE '%7-Day%');
+UPDATE `armor` SET time = "21600" WHERE (name LIKE '%15 Day%') or (name LIKE '%15-Day%');
+UPDATE `armor` SET time = "43200" WHERE (name LIKE '%30 Day%') or (name LIKE '%30-Day%');

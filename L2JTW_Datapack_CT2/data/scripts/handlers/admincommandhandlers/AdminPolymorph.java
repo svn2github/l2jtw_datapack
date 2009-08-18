@@ -80,12 +80,7 @@ public class AdminPolymorph implements IAdminCommandHandler
 					try
 					{
 						int id = Integer.parseInt(parts[1]);
-						long duration = Long.MAX_VALUE; // forever by default
-						if (parts.length > 2)
-						{
-							duration = Long.parseLong(parts[2]);
-						}
-						if (!TransformationManager.getInstance().transformPlayer(id, cha, duration))
+						if (!TransformationManager.getInstance().transformPlayer(id, cha))
 						{
 							L2CoreMessage cm =  new L2CoreMessage (MessageTable.Messages[360]);
 							cm.addNumber(id);

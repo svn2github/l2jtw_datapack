@@ -308,9 +308,9 @@ INSERT INTO `messagetable` VALUES ('96', 'cn', '目前为工房模式。', null)
 INSERT INTO `messagetable` VALUES ('97', 'en', 'Usage: //find_dualbox [number > 0]', null);
 INSERT INTO `messagetable` VALUES ('97', 'tw', '使用方法：//find_dualbox [重複連線的數量]', null);
 INSERT INTO `messagetable` VALUES ('97', 'cn', '使用方法：//find_dualbox [重复连线的数量]', null);
-INSERT INTO `messagetable` VALUES ('98', 'en', '', null);
-INSERT INTO `messagetable` VALUES ('98', 'tw', '', null);
-INSERT INTO `messagetable` VALUES ('98', 'cn', '', null);
+INSERT INTO `messagetable` VALUES ('98', 'en', 'Do not spam shout channel.', null);
+INSERT INTO `messagetable` VALUES ('98', 'tw', '禁止胡亂發言。', null);
+INSERT INTO `messagetable` VALUES ('98', 'cn', '禁止胡乱发言。', null);
 INSERT INTO `messagetable` VALUES ('99', 'en', 'Deleted $1 from Trade List $2', null);
 INSERT INTO `messagetable` VALUES ('99', 'tw', '刪除販賣清單「$2」的「$1」。', null);
 INSERT INTO `messagetable` VALUES ('99', 'cn', '删除贩卖清单“$2”的“$1”。', null);

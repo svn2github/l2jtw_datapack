@@ -9,8 +9,8 @@ public class LightPurpleManedHorse extends L2Transformation
 {
 	public LightPurpleManedHorse()
 	{
-		// id, duration (secs), colRadius, colHeight
-		super(106, 1800, 12.0, 32.0);
+		// id, colRadius, colHeight
+		super(106, 12.0, 32.0);
 	}
 
 	public void onTransform()
@@ -30,7 +30,7 @@ public class LightPurpleManedHorse extends L2Transformation
 		getPlayer().addSkill(SkillTable.getInstance().getInfo(5491, 1), false);
 		getPlayer().addSkill(SkillTable.getInstance().getInfo(5437, 1), false);//Update by rocknow
 
-		getPlayer().setTransformAllowedSkills(new int[]{839,5491});
+		getPlayer().setTransformAllowedSkills(new int[]{839,5491,5437});//Update by rocknow
 	}
 
 	public void onUntransform()

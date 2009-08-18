@@ -8,8 +8,8 @@ public class Teleporter extends L2Transformation
 {
 	public Teleporter()
 	{
-		// id, duration (secs), colRadius, colHeight
-		super(319, 1800, 11.0, 25.0);
+		// id, colRadius, colHeight
+		super(319, 11.0, 25.0);
 	}
 
 	public void onTransform()
@@ -27,12 +27,12 @@ public class Teleporter extends L2Transformation
 		getPlayer().addSkill(SkillTable.getInstance().getInfo(8248, 1), false);
 		// Decrease Bow/Crossbow Attack Speed
 		getPlayer().addSkill(SkillTable.getInstance().getInfo(5491, 1), false);
-		getPlayer().addSkill(SkillTable.getInstance().getInfo(5656, 1), false);
-		getPlayer().addSkill(SkillTable.getInstance().getInfo(5657, 1), false);
-		getPlayer().addSkill(SkillTable.getInstance().getInfo(5658, 1), false);
-		getPlayer().addSkill(SkillTable.getInstance().getInfo(5659, 1), false);
+		getPlayer().addSkill(SkillTable.getInstance().getInfo(5656, 1), false);//Update by rocknow
+		getPlayer().addSkill(SkillTable.getInstance().getInfo(5657, 1), false);//Update by rocknow
+		getPlayer().addSkill(SkillTable.getInstance().getInfo(5658, 1), false);//Update by rocknow
+		getPlayer().addSkill(SkillTable.getInstance().getInfo(5659, 1), false);//Update by rocknow
 
-		getPlayer().setTransformAllowedSkills(new int[]{8248,5491,5656,5657,5658,5659});
+		getPlayer().setTransformAllowedSkills(new int[]{8248,5491,5656,5657,5658,5659});//Update by rocknow
 	}
 
 	public void onUntransform()
@@ -47,10 +47,10 @@ public class Teleporter extends L2Transformation
 		getPlayer().removeSkill(SkillTable.getInstance().getInfo(8248, 1), false);
 		// Decrease Bow/Crossbow Attack Speed
 		getPlayer().removeSkill(SkillTable.getInstance().getInfo(5491, 1), false);
-		getPlayer().removeSkill(SkillTable.getInstance().getInfo(5656, 1), false);
-		getPlayer().removeSkill(SkillTable.getInstance().getInfo(5657, 1), false);
-		getPlayer().removeSkill(SkillTable.getInstance().getInfo(5658, 1), false);
-		getPlayer().removeSkill(SkillTable.getInstance().getInfo(5659, 1), false, false);
+		getPlayer().removeSkill(SkillTable.getInstance().getInfo(5656, 1), false);//Update by rocknow
+		getPlayer().removeSkill(SkillTable.getInstance().getInfo(5657, 1), false);//Update by rocknow
+		getPlayer().removeSkill(SkillTable.getInstance().getInfo(5658, 1), false);//Update by rocknow
+		getPlayer().removeSkill(SkillTable.getInstance().getInfo(5659, 1), false, false);//Update by rocknow
 
 		getPlayer().setTransformAllowedSkills(new int[]{});
 	}
