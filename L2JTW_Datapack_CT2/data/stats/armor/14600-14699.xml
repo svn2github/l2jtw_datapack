@@ -145,119 +145,101 @@
   </for>
 </item>
 <item id="14664" name="Gludio Protection Earring">
-  <!-- Update by rocknow -->
-  <cond msgId="1518">
+  <cond msgId="1518"><!-- Update by rocknow -->
     <player castle ="1"/>
   </cond>
   <for>
-    <add val="63" order="0x10" stat="mDef"/>
-    <add val="25" order="0x40" stat="maxMp"/><!-- Update by rocknow -->
-    <add val="8" order="0x10" stat="waterRes"/><!-- Update by rocknow -->
-    <mul val="0.85" order="0x30" stat="bleedVuln"/><!-- Update by rocknow -->
+    <add order="0x10" stat="mDef" val="63"/>
+    <add order="0x40" stat="waterRes" val="8"/>
+    <add order="0x40" stat="maxMp" val="25"/><!-- Update by rocknow -->
     <enchant val="0" order="0x0C" stat="mDef"/>
   </for>
 </item>
 <item id="14665" name="Dion Protection Earring">
-  <!-- Update by rocknow -->
-  <cond msgId="1518">
+  <cond msgId="1518"><!-- Update by rocknow -->
     <player castle ="2"/>
   </cond>
   <for>
-    <add val="63" order="0x10" stat="mDef"/>
-    <add val="25" order="0x40" stat="maxMp"/><!-- Update by rocknow -->
-    <add val="8" order="0x10" stat="holyRes"/><!-- Update by rocknow -->
-    <mul val="0.85" order="0x30" stat="poisonVuln"/><!-- Update by rocknow -->
+    <add order="0x10" stat="mDef" val="63"/>
+    <add order="0x40" stat="holyRes" val="8"/>
+    <add order="0x40" stat="maxMp" val="25"/><!-- Update by rocknow -->
     <enchant val="0" order="0x0C" stat="mDef"/>
   </for>
 </item>
 <item id="14666" name="Giran Protection Earring">
-  <!-- Update by rocknow -->
-  <cond msgId="1518">
+  <cond msgId="1518"><!-- Update by rocknow -->
     <player castle ="3"/>
   </cond>
   <for>
-    <add val="63" order="0x10" stat="mDef"/>
-    <add val="25" order="0x40" stat="maxMp"/><!-- Update by rocknow -->
-    <add val="8" order="0x10" stat="windRes"/><!-- Update by rocknow -->
-    <mul val="0.85" order="0x30" stat="paralyzeVuln"/><!-- Update by rocknow -->
+    <add order="0x10" stat="mDef" val="63"/>
+    <add order="0x40" stat="windRes" val="8"/>
+    <add order="0x40" stat="maxMp" val="25"/><!-- Update by rocknow -->
     <enchant val="0" order="0x0C" stat="mDef"/>
   </for>
 </item>
 <item id="14667" name="Oren Protection Earring">
-  <!-- Update by rocknow -->
-  <cond msgId="1518">
+  <cond msgId="1518"><!-- Update by rocknow -->
     <player castle ="4"/>
   </cond>
   <for>
-    <add val="63" order="0x10" stat="mDef"/>
-    <add val="25" order="0x40" stat="maxMp"/><!-- Update by rocknow -->
-    <add val="8" order="0x10" stat="darkRes"/><!-- Update by rocknow -->
-    <mul val="0.85" order="0x30" stat="rootVuln"/><!-- Update by rocknow -->
+    <add order="0x10" stat="mDef" val="63"/>
+    <add order="0x40" stat="darkRes" val="8"/>
+    <add order="0x40" stat="maxMp" val="25"/><!-- Update by rocknow -->
     <enchant val="0" order="0x0C" stat="mDef"/>
   </for>
 </item>
 <item id="14668" name="Aden Protection Earring">
-  <!-- Update by rocknow -->
-  <cond msgId="1518">
+  <cond msgId="1518"><!-- Update by rocknow -->
     <player castle ="5"/>
   </cond>
   <for>
-    <add val="63" order="0x10" stat="mDef"/>
-    <add val="25" order="0x40" stat="maxMp"/><!-- Update by rocknow -->
-    <add val="8" order="0x10" stat="earthRes"/><!-- Update by rocknow -->
-    <mul val="0.85" order="0x30" stat="stunVuln"/><!-- Update by rocknow -->
+    <add order="0x10" stat="mDef" val="63"/>
+    <add order="0x40" stat="earthRes" val="8"/>
+    <add order="0x40" stat="maxMp" val="25"/><!-- Update by rocknow -->
     <enchant val="0" order="0x0C" stat="mDef"/>
   </for>
 </item>
 <item id="14669" name="Innadril Protection Earring">
-  <!-- Update by rocknow -->
-  <cond msgId="1518">
+  <cond msgId="1518"><!-- Update by rocknow -->
     <player castle ="6"/>
   </cond>
   <for>
-    <add val="63" order="0x10" stat="mDef"/>
-    <add val="25" order="0x40" stat="maxMp"/><!-- Update by rocknow -->
-    <add val="8" order="0x10" stat="waterRes"/><!-- Update by rocknow -->
-    <mul val="0.85" order="0x30" stat="stunVuln"/><!-- Update by rocknow -->
+    <add order="0x10" stat="mDef" val="63"/>
+    <add order="0x40" stat="waterRes" val="8"/>
+    <add order="0x40" stat="maxMp" val="25"/><!-- Update by rocknow -->
     <enchant val="0" order="0x0C" stat="mDef"/>
   </for>
 </item>
 <item id="14670" name="Goddard Protection Earring">
-  <!-- Update by rocknow -->
-  <cond msgId="1518">
+  <cond msgId="1518"><!-- Update by rocknow -->
     <player castle ="7"/>
   </cond>
   <for>
-    <add val="63" order="0x10" stat="mDef"/>
-    <add val="25" order="0x40" stat="maxMp"/><!-- Update by rocknow -->
-    <add val="8" order="0x10" stat="fireRes"/><!-- Update by rocknow -->
-    <mul val="0.85" order="0x30" stat="sleepVuln"/><!-- Update by rocknow -->
+    <add order="0x10" stat="mDef" val="63"/>
+    <add order="0x40" stat="fireRes" val="8"/>
+    <add order="0x40" stat="maxMp" val="25"/><!-- Update by rocknow -->
     <enchant val="0" order="0x0C" stat="mDef"/>
   </for>
 </item>
 <item id="14671" name="Rune Protection Earring">
-  <!-- Update by rocknow -->
-  <cond msgId="1518">
+  <cond msgId="1518"><!-- Update by rocknow -->
     <player castle ="8"/>
   </cond>
   <for>
-    <add val="63" order="0x10" stat="mDef"/>
-    <add val="25" order="0x40" stat="maxMp"/><!-- Update by rocknow -->
-    <add val="8" order="0x10" stat="fireRes"/><!-- Update by rocknow -->
-    <mul val="0.85" order="0x30" stat="rootVuln"/><!-- Update by rocknow -->
+    <add order="0x10" stat="mDef" val="63"/>
+    <add order="0x40" stat="fireRes" val="8"/>
+    <add order="0x40" stat="maxMp" val="25"/><!-- Update by rocknow -->
     <enchant val="0" order="0x0C" stat="mDef"/>
   </for>
 </item>
 <item id="14672" name="Schuttgart Protection Earring">
-  <!-- Update by rocknow -->
-  <cond msgId="1518">
+  <cond msgId="1518"><!-- Update by rocknow -->
     <player castle ="9"/>
   </cond>
   <for>
-    <add val="63" order="0x10" stat="mDef"/>
-    <add val="25" order="0x40" stat="maxMp"/><!-- Update by rocknow -->
-    <add val="8" order="0x10" stat="windRes"/><!-- Update by rocknow -->
-    <mul val="0.85" order="0x30" stat="derangementVuln"/><!-- Update by rocknow -->
+    <add order="0x10" stat="mDef" val="63"/>
+    <add order="0x40" stat="windRes" val="8"/>
+    <add order="0x40" stat="maxMp" val="25"/><!-- Update by rocknow -->
     <enchant val="0" order="0x0C" stat="mDef"/>
   </for>
 </item>

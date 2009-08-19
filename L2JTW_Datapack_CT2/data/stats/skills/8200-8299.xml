@@ -720,33 +720,30 @@
   </for>
 </skill>
 <skill id="8263" levels="1" name="Transform Snow King">
-  <!-- Update by rocknow -->
   <set name="target" val="TARGET_SELF"/>
   <set name="skillType" val="BUFF"/>
   <set name="operateType" val="OP_ACTIVE"/>
   <set name="transformId" val="114"/>
   <for>
-    <effect count="1" name="Transformation" time="1800" val="0"/>
+    <effect name="Transformation" time="3600" val="0"/> <!-- Guess -->
   </for>
 </skill>
 <skill id="8264" levels="1" name="Transform Scarecrow Jack">
-  <!-- Update by rocknow -->
   <set name="target" val="TARGET_SELF"/>
   <set name="skillType" val="BUFF"/>
   <set name="operateType" val="OP_ACTIVE"/>
   <set name="transformId" val="115"/>
   <for>
-    <effect count="1" name="Transformation" time="1800" val="0"/>
+    <effect name="Transformation" time="3600" val="0"/> <!-- Guess -->
   </for>
 </skill>
 <skill id="8265" levels="1" name="Transform Tin Golem">
-  <!-- Update by rocknow -->
   <set name="target" val="TARGET_SELF"/>
   <set name="skillType" val="BUFF"/>
   <set name="operateType" val="OP_ACTIVE"/>
   <set name="transformId" val="116"/>
   <for>
-    <effect count="1" name="Transformation" time="1800" val="0"/>
+    <effect name="Transformation" time="3600" val="0"/> <!-- Guess -->
   </for>
 </skill>
 <skill id="8266" levels="1" name="Gludio Talisman">
@@ -810,23 +807,21 @@
   <set name="hitTime" val="100"/>
 </skill>
 <skill id="8277" levels="1" name="Transform Native">
-  <!-- Update by rocknow -->
   <set name="target" val="TARGET_SELF"/>
   <set name="skillType" val="BUFF"/>
   <set name="operateType" val="OP_ACTIVE"/>
   <set name="transformId" val="101"/>
   <for>
-    <effect count="1" name="Transformation" time="1800" val="0"/>
+    <effect name="Transformation" time="-1" val="0"/>
   </for>
 </skill>
 <skill id="8278" levels="1" name="Transform Guard of Dawn">
-  <!-- Update by rocknow -->
   <set name="target" val="TARGET_SELF"/>
   <set name="skillType" val="BUFF"/>
   <set name="operateType" val="OP_ACTIVE"/>
   <set name="transformId" val="113"/>
   <for>
-    <effect count="1" name="Transformation" time="1800" val="0"/>
+    <effect name="Transformation" time="3600" val="0"/> <!-- Guess -->
   </for>
 </skill>
 <skill id="8279" levels="1" name="Blessing of Fire">
