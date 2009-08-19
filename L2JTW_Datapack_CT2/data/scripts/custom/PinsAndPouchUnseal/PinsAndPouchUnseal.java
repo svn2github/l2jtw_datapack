@@ -18,6 +18,8 @@ import net.sf.l2j.gameserver.model.actor.L2Npc;
 import net.sf.l2j.gameserver.model.actor.instance.L2PcInstance;
 import net.sf.l2j.gameserver.model.quest.Quest;
 import net.sf.l2j.gameserver.model.quest.QuestState;
+import net.sf.l2j.gameserver.network.serverpackets.NpcSay;
+import net.sf.l2j.util.Rnd;
 
 public class PinsAndPouchUnseal extends Quest
 {
@@ -88,10 +90,18 @@ public class PinsAndPouchUnseal extends Quest
 			{
 				if (st.getQuestItemsCount(57) > 3200)
 				{
-					st.takeItems(57, 3200);
-					st.takeItems(13898, 1);
-					st.giveItems(PINS_C[st.getRandom((PINS_C).length)], 1);
-					htmltext = "";
+					if (Rnd.get(100) < 30)
+					{
+						st.takeItems(57, 3200);
+						st.takeItems(13898, 1);
+						st.giveItems(PINS_C[st.getRandom((PINS_C).length)], 1);
+					}
+					else
+					{
+						st.takeItems(57, 3200);
+						st.takeItems(13898, 1);
+						npc.broadcastPacket(new NpcSay(npc.getObjectId(), 0, npc.getNpcId(), "真是狼狽不堪啊...力氣大，果然不好控制。"));
+					}
 				}
 				else
 					htmltext = npc.getNpcId() + "-5.htm";
@@ -106,10 +116,18 @@ public class PinsAndPouchUnseal extends Quest
 			{
 				if (st.getQuestItemsCount(57) > 11800)
 				{
-					st.takeItems(57, 11800);
-					st.takeItems(13899, 1);
-					st.giveItems(PINS_B[st.getRandom((PINS_B).length)], 1);
-					htmltext = "";
+					if (Rnd.get(100) < 25)
+					{
+						st.takeItems(57, 11800);
+						st.takeItems(13899, 1);
+						st.giveItems(PINS_B[st.getRandom((PINS_B).length)], 1);
+					}
+					else
+					{
+						st.takeItems(57, 11800);
+						st.takeItems(13899, 1);
+						npc.broadcastPacket(new NpcSay(npc.getObjectId(), 0, npc.getNpcId(), "真是狼狽不堪啊...力氣大，果然不好控制。"));
+					}
 				}
 				else
 					htmltext = npc.getNpcId() + "-5.htm";
@@ -124,10 +142,18 @@ public class PinsAndPouchUnseal extends Quest
 			{
 				if (st.getQuestItemsCount(57) > 26500)
 				{
-					st.takeItems(57, 26500);
-					st.takeItems(13900, 1);
-					st.giveItems(PINS_A[st.getRandom((PINS_A).length)], 1);
-					htmltext = "";
+					if (Rnd.get(100) < 20)
+					{
+						st.takeItems(57, 26500);
+						st.takeItems(13900, 1);
+						st.giveItems(PINS_A[st.getRandom((PINS_A).length)], 1);
+					}
+					else
+					{
+						st.takeItems(57, 26500);
+						st.takeItems(13900, 1);
+						npc.broadcastPacket(new NpcSay(npc.getObjectId(), 0, npc.getNpcId(), "真是狼狽不堪啊...力氣大，果然不好控制。"));
+					}
 				}
 				else
 					htmltext = npc.getNpcId() + "-5.htm";
@@ -142,10 +168,18 @@ public class PinsAndPouchUnseal extends Quest
 			{
 				if (st.getQuestItemsCount(57) > 136600)
 				{
-					st.takeItems(57, 136600);
-					st.takeItems(13901, 1);
-					st.giveItems(PINS_S[st.getRandom((PINS_S).length)], 1);
-					htmltext = "";
+					if (Rnd.get(100) < 15)
+					{
+						st.takeItems(57, 136600);
+						st.takeItems(13901, 1);
+						st.giveItems(PINS_S[st.getRandom((PINS_S).length)], 1);
+					}
+					else
+					{
+						st.takeItems(57, 136600);
+						st.takeItems(13901, 1);
+						npc.broadcastPacket(new NpcSay(npc.getObjectId(), 0, npc.getNpcId(), "真是狼狽不堪啊...力氣大，果然不好控制。"));
+					}
 				}
 				else
 					htmltext = npc.getNpcId() + "-5.htm";
@@ -160,10 +194,18 @@ public class PinsAndPouchUnseal extends Quest
 			{
 				if (st.getQuestItemsCount(57) > 2600)
 				{
-					st.takeItems(57, 2600);
-					st.takeItems(13918, 1);
-					st.giveItems(POUCHS_C[st.getRandom((POUCHS_C).length)], 1);
-					htmltext = "";
+					if (Rnd.get(100) < 30)
+					{
+						st.takeItems(57, 2600);
+						st.takeItems(13918, 1);
+						st.giveItems(POUCHS_C[st.getRandom((POUCHS_C).length)], 1);
+					}
+					else
+					{
+						st.takeItems(57, 2600);
+						st.takeItems(13918, 1);
+						npc.broadcastPacket(new NpcSay(npc.getObjectId(), 0, npc.getNpcId(), "真是狼狽不堪啊...力氣大，果然不好控制。"));
+					}
 				}
 				else
 					htmltext = npc.getNpcId() + "-5.htm";
@@ -178,10 +220,18 @@ public class PinsAndPouchUnseal extends Quest
 			{
 				if (st.getQuestItemsCount(57) > 9400)
 				{
-					st.takeItems(57, 9400);
-					st.takeItems(13919, 1);
-					st.giveItems(POUCHS_B[st.getRandom((POUCHS_B).length)], 1);
-					htmltext = "";
+					if (Rnd.get(100) < 25)
+					{
+						st.takeItems(57, 9400);
+						st.takeItems(13919, 1);
+						st.giveItems(POUCHS_B[st.getRandom((POUCHS_B).length)], 1);
+					}
+					else
+					{
+						st.takeItems(57, 9400);
+						st.takeItems(13919, 1);
+						npc.broadcastPacket(new NpcSay(npc.getObjectId(), 0, npc.getNpcId(), "真是狼狽不堪啊...力氣大，果然不好控制。"));
+					}
 				}
 				else
 					htmltext = npc.getNpcId() + "-5.htm";
@@ -196,10 +246,18 @@ public class PinsAndPouchUnseal extends Quest
 			{
 				if (st.getQuestItemsCount(57) > 21200)
 				{
-					st.takeItems(57, 21200);
-					st.takeItems(13920, 1);
-					st.giveItems(POUCHS_A[st.getRandom((POUCHS_A).length)], 1);
-					htmltext = "";
+					if (Rnd.get(100) < 20)
+					{
+						st.takeItems(57, 21200);
+						st.takeItems(13920, 1);
+						st.giveItems(POUCHS_A[st.getRandom((POUCHS_A).length)], 1);
+					}
+					else
+					{
+						st.takeItems(57, 21200);
+						st.takeItems(13920, 1);
+						npc.broadcastPacket(new NpcSay(npc.getObjectId(), 0, npc.getNpcId(), "真是狼狽不堪啊...力氣大，果然不好控制。"));
+					}
 				}
 				else
 					htmltext = npc.getNpcId() + "-5.htm";
@@ -214,10 +272,18 @@ public class PinsAndPouchUnseal extends Quest
 			{
 				if (st.getQuestItemsCount(57) > 109300)
 				{
-					st.takeItems(57, 109300);
-					st.takeItems(13921, 1);
-					st.giveItems(POUCHS_S[st.getRandom((POUCHS_S).length)], 1);
-					htmltext = "";
+					if (Rnd.get(100) < 15)
+					{
+						st.takeItems(57, 109300);
+						st.takeItems(13921, 1);
+						st.giveItems(POUCHS_S[st.getRandom((POUCHS_S).length)], 1);
+					}
+					else
+					{
+						st.takeItems(57, 109300);
+						st.takeItems(13921, 1);
+						npc.broadcastPacket(new NpcSay(npc.getObjectId(), 0, npc.getNpcId(), "真是狼狽不堪啊...力氣大，果然不好控制。"));
+					}
 				}
 				else
 					htmltext = npc.getNpcId() + "-5.htm";
