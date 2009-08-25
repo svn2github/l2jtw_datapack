@@ -14,7 +14,6 @@
  */
 package handlers.skillhandlers;
 
-import net.sf.l2j.gameserver.datatables.SkillTable;
 import net.sf.l2j.gameserver.handler.ISkillHandler;
 import net.sf.l2j.gameserver.model.L2Object;
 import net.sf.l2j.gameserver.model.L2Skill;
@@ -22,46 +21,24 @@ import net.sf.l2j.gameserver.model.actor.L2Character;
 import net.sf.l2j.gameserver.model.actor.instance.L2PcInstance;
 import net.sf.l2j.gameserver.templates.skills.L2SkillType;
 
-/**
- * This class ...
- *
- * @version $Revision: 1.1.2.5.2.4 $ $Date: 2005/04/03 15:55:03 $
- */
-
-public class LearnSkill implements ISkillHandler
+public class GiveVitality implements ISkillHandler
 {
 	private static final L2SkillType[] SKILL_IDS =
 	{
-		L2SkillType.LEARN_SKILL
+		L2SkillType.GIVE_VITALITY
 	};
-	
-	/**
-	 * 
-	 * @see net.sf.l2j.gameserver.handler.ISkillHandler#useSkill(net.sf.l2j.gameserver.model.actor.L2Character, net.sf.l2j.gameserver.model.L2Skill, net.sf.l2j.gameserver.model.L2Object[])
-	 */
+
 	public void useSkill(L2Character activeChar, L2Skill skill, L2Object[] targets)
 	{
-		if (!(activeChar instanceof L2PcInstance))
-			return;
-		
-		L2PcInstance player = ((L2PcInstance)activeChar);
-		L2Skill newSkill = null;
-		
-		for (int i = 0; i < skill.getNewSkillId().length; i++)
+		for (L2Object target : targets)
 		{
-			if (player.getSkillLevel(skill.getNewSkillId()[i]) < 0 && skill.getNewSkillId()[i] != 0)
+			if (target instanceof L2PcInstance)
 			{
-				newSkill = SkillTable.getInstance().getInfo(skill.getNewSkillId()[i], skill.getNewSkillLvl()[i]);
-				if (newSkill != null)
-					player.addSkill(newSkill, true);
+				((L2PcInstance) target).updateVitalityPoints((float)skill.getPower(), false, false);
 			}
 		}
 	}
-	
-	/**
-	 * 
-	 * @see net.sf.l2j.gameserver.handler.ISkillHandler#getSkillIds()
-	 */
+
 	public L2SkillType[] getSkillIds()
 	{
 		return SKILL_IDS;
