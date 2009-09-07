@@ -49,7 +49,7 @@
     <enchant val="0" order="0x0C" stat="pAtk"/>
     <enchant val="0" order="0x0C" stat="mAtk"/>
     <!-- SA: Cheap Shot --> <!-- TGS' Notes: There is no SA skill for this one. It's actually modified on the weapon itself. -->
-    <mul order="0x30" stat="MpConsume" val="0.88"><!-- Update by rocknow -->
+    <mul order="0x30" stat="MpConsume" val="0.88"/><!-- Update by rocknow -->
   </for>
 </item>
 <item id="9304" name="Military Fleuret">
