@@ -26,6 +26,7 @@ import net.sf.l2j.gameserver.model.entity.Fort;
 import net.sf.l2j.gameserver.network.SystemMessageId;
 import net.sf.l2j.gameserver.network.serverpackets.NpcHtmlMessage;
 import net.sf.l2j.gameserver.network.serverpackets.SystemMessage;
+import net.sf.l2j.gameserver.util.StringUtil;
 
 /**
  * This class handles all siege commands:
@@ -60,7 +61,7 @@ public class AdminFortSiege implements IAdminCommandHandler
 		int fortId = 0;
 		if (st.hasMoreTokens())
 		{
-			fortId = Integer.valueOf(st.nextToken());
+			fortId = Integer.parseInt(st.nextToken());
 			fort = FortManager.getInstance().getFortById(fortId);
 		}
 		// Get fort
@@ -130,16 +131,20 @@ public class AdminFortSiege implements IAdminCommandHandler
 		int i = 0;
 		NpcHtmlMessage adminReply = new NpcHtmlMessage(5);
 		adminReply.setFile("data/html/admin/forts.htm");
+                
+                final List<Fort> forts = FortManager.getInstance().getForts();
+                final StringBuilder cList = new StringBuilder(forts.size() * 100);
 
-		final List<Fort> forts = FortManager.getInstance().getForts();
-		final StringBuilder cList = new StringBuilder(forts.size() * 100);
-		for (Fort fort : FortManager.getInstance().getForts())
-		{
-			if (fort != null)
-			{
-				String name = fort.getName();
-				cList.append("<td fixwidth=270><a action=\"bypass -h admin_fortsiege " + String.valueOf(fort.getFortId()) + "\">" + name + " ID: "+fort.getFortId()+"</a></td>"); //Update by rocknow
-
+                for (Fort fort : forts) {
+			if (fort != null) {
+                            StringUtil.append(cList,
+                                    "<td fixwidth=90><a action=\"bypass -h admin_fortsiege ",
+                                    String.valueOf(fort.getFortId()),
+                                    "\">",
+                                    fort.getName(),
+                                    " ID: ", //Update by rocknow
+                                    String.valueOf(fort.getFortId()),
+                                    "</a></td>");
 				i++;
 			}
 

@@ -30,8 +30,8 @@
     <effect count="10" name="Fear" time="2" val="0"/>
   </for>
 </skill>
-<skill id="1401" levels="11" name="Major Heal" enchantLevels1="30" enchantLevels2="30" >
-  <table name="#ench1Power"> 947 949 951 954 956 958 960 963 965 967 969 972 974 976 979 981 983 985 988 990 992 994 997 999 1001 1003 1006 1008 1010 1013 </table>
+<skill id="1401" levels="11" name="Major Heal" enchantLevels1="30" enchantLevels2="30">
+  <table name="#ench1Power"> 948 951 954 957 960 964 967 970 973 976 979 983 986 989 992 995 998 1002 1005 1008 1011 1014 1017 1021 1024 1027 1030 1033 1036 1040 </table>
   <table name="#ench2MpConsume"> 78 77 76 75 73 72 72 71 70 68 67 66 65 65 63 62 61 60 58 57 57 56 55 53 52 51 50 50 48 47 </table>
   <table name="#mpConsume"> 60 64 65 67 69 72 74 77 78 80 80 </table>
   <table name="#power"> 690 722 753 783 812 840 867 892 915 936 946 </table>
@@ -50,8 +50,8 @@
   <enchant1 name="power" val="#ench1Power"/>
   <enchant2 name="mpConsume" val="#ench2MpConsume"/>
 </skill>
-<skill id="1402" levels="5" name="Major Group Heal" enchantLevels1="30" enchantLevels2="30" >
-  <table name="#ench1Power"> 1173 1176 1179 1182 1186 1189 1192 1195 1199 1202 1205 1208 1212 1215 1218 1221 1224 1228 1231 123 1237 1241 1244 1247 1250 1254 1257 1260 1263 1267 </table>
+<skill id="1402" levels="5" name="Major Group Heal" enchantLevels1="30" enchantLevels2="30">
+  <table name="#ench1Power"> 1174 1178 1183 1187 1191 1196 1200 1204 1209 1213 1218 1222 1226 1231 1235 1239 1244 1248 1252 1257 1261 1266 1270 1274 1279 1283 1287 1292 1296 1301 </table>
   <table name="#ench2MpConsume"> 233 231 227 225 221 218 215 212 208 206 202 198 196 192 190 186 183 180 177 173 171 167 165 161 157 155 151 148 145 142 </table>
   <table name="#mpConsume"> 189 199 214 228 239 </table>
   <table name="#power"> 902 979 1050 1115 1170 </table>
@@ -208,7 +208,7 @@
   <set name="magicLvl" val="79"/>
   <set name="mpConsume" val="73"/>
   <set name="operateType" val="OP_ACTIVE"/>
-  <set name="reuseDelay" val="1800000"/> <!-- Guess -->
+  <set name="reuseDelay" val="150000"/>
   <set name="skillType" val="BUFF"/>
   <set name="target" val="TARGET_PARTY_MEMBER"/>
   <for>
@@ -297,8 +297,8 @@
       <mul order="0x30" stat="maxCp" val="1.2"/>
       <mul order="0x30" stat="regCp" val="1.2"/>
       <mul order="0x30" stat="maxMp" val="1.2"/>
-      <mul order="0x30" stat="rCrit" val="1.2"/>
-      <mul order="0x30" stat="mCritRate" val="1.2"/>
+      <basemul order="0x30" stat="rCrit" val="0.2"/>
+      <basemul order="0x30" stat="mCritRate" val="0.2"/>
       <mul order="0x30" stat="pAtk" val="1.1"/>
       <mul order="0x30" stat="pDef" val="1.2"/>
       <mul order="0x30" stat="pAtkSpd" val="1.2"/>
@@ -928,7 +928,7 @@
   <set name="castRange" val="400"/>
   <set name="effectRange" val="900"/>
   <cond msgId="109"><!-- Update by rocknow -->
-    <target class_id_restriction="123, 124, 125, 126, 127, 128, 129, 130, 131, 132, 133, 134, 135, 136"/>
+    <target race="Kamael"/>
   </cond>
   <for>
     <effect name="Buff" time="180" val="0">
@@ -1073,10 +1073,10 @@
   <set name="magicLvl" val="79"/>
   <set name="lvlDepend" val="1"/>
   <set name="mpConsume" val="109"/>
-  <set name="power" val="70"/> <!-- Base Land Rate --> <!-- Guess -->
+  <set name="power" val="80"/> <!-- Base Land Rate -->
   <set name="target" val="TARGET_ONE"/>
   <set name="skillRadius" val="200"/>
-  <set name="reuseDelay" val="8000"/>
+  <set name="reuseDelay" val="75000"/>
   <set name="isMagic" val="true"/>
   <set name="skillType" val="DOT"/>
   <set name="isDebuff" val="true"/>
@@ -1120,7 +1120,7 @@
   <set name="isDebuff" val="true"/>
   <set name="operateType" val="OP_ACTIVE"/>
   <set name="power" val="70"/>
-  <set name="reuseDelay" val="20000"/> <!-- Guess -->
+  <set name="reuseDelay" val="15000"/>
   <set name="skillRadius" val="250"/>
   <set name="skillType" val="MDAM"/>
   <set name="target" val="TARGET_AURA"/>
@@ -1134,10 +1134,10 @@
   <set name="magicLvl" val="79"/>
   <set name="lvlDepend" val="1"/>
   <set name="mpConsume" val="109"/>
-  <set name="power" val="70"/> <!-- Base Land Rate --> <!-- Guess -->
+  <set name="power" val="80"/> <!-- Base Land Rate -->
   <set name="target" val="TARGET_ONE"/>
-  <set name="reuseDelay" val="8000"/>
-  <set name="skillType" val="MDAM"/>
+  <set name="reuseDelay" val="75000"/>
+  <set name="skillType" val="DOT"/>
   <set name="isMagic" val="true"/>
   <set name="isDebuff" val="true"/>
   <set name="hitTime" val="4000"/>
@@ -1148,7 +1148,7 @@
   <set name="effectRange" val="1400"/>
   <for>
     <!-- Retail Values CT2.3: 173HP * 1 Sec -->
-    <effect count="10" name="DamOverTime" val="173" effectPower="40" effectType="DOT"/> <!-- Guess effectPower -->
+    <effect count="10" name="DamOverTime" val="173"/>
   </for>
 </skill>
 <skill id="1456" levels="1" name="Wind Vortex Slug">
@@ -1194,10 +1194,10 @@
   <set name="magicLvl" val="79"/>
   <set name="lvlDepend" val="1"/>
   <set name="mpConsume" val="109"/>
-  <set name="power" val="70"/> <!-- Base Land Rate --> <!-- Guess -->
+  <set name="power" val="80"/> <!-- Base Land Rate -->
   <set name="target" val="TARGET_ONE"/>
   <set name="skillRadius" val="200"/>
-  <set name="reuseDelay" val="8000"/>
+  <set name="reuseDelay" val="75000"/>
   <set name="skillType" val="DOT"/>
   <set name="isMagic" val="true"/>
   <set name="isDebuff" val="true"/>
@@ -1479,6 +1479,7 @@
   <table name="#magicLvl"> 40 49 58 </table>
   <table name="#mpConsume"> 70 88 107 </table>
   <table name="#amount"> 1.3 1.4 1.5 </table>
+  <table name="#rCrit"> 0.3 0.4 0.5 </table>
   <set name="hitTime" val="2500"/>
   <set name="isMagic" val="true"/>
   <set name="magicLvl" val="#magicLvl"/>
@@ -1491,7 +1492,7 @@
   <for>
     <effect name="Buff" time="15" val="0">
       <mul order="0x30" stat="pAtk" val="#amount"/>
-      <mul order="0x30" stat="rCrit" val="#amount"/>
+      <basemul order="0x30" stat="rCrit" val="#rCrit"/>
       <mul order="0x30" stat="cAtk" val="#amount"/>
     </effect>
   </for>
@@ -1556,7 +1557,7 @@
     <effect name="Buff" time="15" val="0">
       <mul order="0x30" stat="mAtkSpd" val="1.15"/>
       <mul order="0x30" stat="mAtk" val="#mAtk"/>
-      <mul order="0x30" stat="mCritRate" val="#mCritRate"/>
+      <basemul order="0x30" stat="mCritRate" val="#mCritRate"/>
     </effect>
   </for>
 </skill>
@@ -1783,13 +1784,14 @@
   <set name="isDebuff" val="true"/>
   <set name="isMagic" val="true"/>
   <set name="skillType" val="DRAIN"/>
+  <set name="lvlDepend" val="1"/>
   <set name="magicLvl" val="83"/>
   <set name="operateType" val="OP_ACTIVE"/>
   <set name="hitTime" val="4000"/>
   <set name="reuseDelay" val="20000"/> <!-- guess -->
   <set name="absorbPart" val="0.4"/> <!-- absorbs 40% of damage -->
   <for>
-    <effect name="Debuff" time="30" val="0">
+    <effect name="Debuff" time="30" val="0" effectPower="40" effectType="DEBUFF"> <!-- Guess effectPower -->
       <mul order="0x30" stat="pAtk" val="0.5"/>
       <mul order="0x30" stat="pAtkSpd" val="0.5"/>
       <mul order="0x30" stat="runSpd" val="0.5"/>

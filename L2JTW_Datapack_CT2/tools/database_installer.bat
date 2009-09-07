@@ -495,7 +495,6 @@ gameservers.sql
 set dest=gs
 for %%i in (
 access_levels.sql
-admin_command_access_rights.sql
 auction.sql
 castle.sql
 clanhall.sql
@@ -505,6 +504,7 @@ grandboss_data.sql
 npc_buffer.sql
 seven_signs_festival.sql
 seven_signs_status.sql
+admin_command_access_rights.sql
 armor.sql
 armorsets.sql
 auction_bid.sql

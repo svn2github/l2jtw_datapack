@@ -114,7 +114,7 @@ UPDATE `armor` SET `skill` = '21010-1;3267-1;23012-1;23015-1;' WHERE `item_id` I
 UPDATE `weapon` SET `skill` = '3418-1;' WHERE `item_id` IN (10167); -- 豬豬塔糖
 UPDATE `weapon` SET `skill` = '8244-1;' WHERE `item_id` IN (12814); -- 守門人變身魔杖
 UPDATE `weapon` SET `skill` = '8246-1;' WHERE `item_id` IN (12800,13253,13324,13339); -- 南瓜變身魔杖
-REPLACE INTO `armorsets` VALUES ('200', '9670', '9671', '9669', '0', '0', '3359', '1', '0', '0', '0', '0', '0', '0', '0', '0'); -- 土著全套
+REPLACE INTO `armorsets` VALUES ('200', '9670', '9671', '9669', '0', '0', '3359-1', '0', '0', '0', '0', '0', '0', '0', '0'); -- 土著全套
 
 
 /************ 增加狩獵幫手 ************/

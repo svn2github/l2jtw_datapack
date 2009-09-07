@@ -143,7 +143,7 @@
   <set name="power" val="70"/> <!-- Base Land Rate -->
   <set name="lvlDepend" val="1"/>
   <set name="target" val="TARGET_AURA"/>
-  <set name="skillRadius" val="300"/> <!-- Guess, based on videos -->
+  <set name="skillRadius" val="200"/>
   <set name="reuseDelay" val="4000"/>
   <set name="hitTime" val="4000"/>
   <set name="skillType" val="POISON"/>
@@ -167,7 +167,7 @@
   <set name="power" val="#power"/>
   <set name="lvlDepend" val="2"/>
   <set name="target" val="TARGET_AURA"/>
-  <set name="skillRadius" val="300"/> <!-- Guess, based on videos -->
+  <set name="skillRadius" val="200"/>
   <set name="reuseDelay" val="4000"/>
   <set name="hitTime" val="4000"/>
   <set name="isDebuff" val="true"/>
@@ -188,7 +188,7 @@
   <set name="magicLvl" val="#magicLvl"/>
   <set name="power" val="40"/> <!-- Base Land Rate -->
   <set name="target" val="TARGET_AURA"/>
-  <set name="skillRadius" val="300"/> <!-- Guess, based on videos -->
+  <set name="skillRadius" val="200"/>
   <set name="reuseDelay" val="4000"/>
   <set name="hitTime" val="4000"/>
   <set name="isDebuff" val="true"/>
@@ -703,7 +703,7 @@
     <effect count="15" name="DamOverTime" val="#dot"/>
   </for>
 </skill>
-<skill id="1234" levels="28" name="Vampiric Claw" enchantLevels1="30" enchantLevels2="30" enchantLevels3="30" enchantLevels4="30" >
+<skill id="1234" levels="28" name="Vampiric Claw" enchantLevels1="30" enchantLevels2="30" enchantLevels3="30" enchantLevels4="30">
   <table name="#enchantMagicLvl"> 76 76 76 77 77 77 78 78 78 79 79 79 80 80 80 81 81 81 82 82 82 82 83 83 83 84 84 85 85 85 </table>
   <enchant1 name="magicLvl" val="#enchantMagicLvl"/>
   <enchant2 name="magicLvl" val="#enchantMagicLvl"/>
@@ -743,7 +743,7 @@
     </effect>
   </enchant4for>
 </skill>
-<skill id="1235" levels="28" name="Hydro Blast" enchantLevels1="30" enchantLevels2="30" enchantLevels3="30" enchantLevels4="30" >
+<skill id="1235" levels="28" name="Hydro Blast" enchantLevels1="30" enchantLevels2="30" enchantLevels3="30" enchantLevels4="30">
   <table name="#enchantMagicLvl"> 76 76 76 77 77 77 78 78 78 79 79 79 80 80 80 81 81 81 82 82 82 82 83 83 83 84 84 85 85 85 </table>
   <enchant1 name="magicLvl" val="#enchantMagicLvl"/>
   <enchant2 name="magicLvl" val="#enchantMagicLvl"/>
@@ -775,7 +775,7 @@
   <enchant2 name="mpInitialConsume" val="#ench2mpInitialConsume"/>
   <enchant4 name="elementPower" val="#enchElementPower"/>
 </skill>
-<skill id="1236" levels="19" name="Frost Bolt" enchantLevels1="30" enchantLevels2="30" enchantLevels3="30" enchantLevels4="30" >
+<skill id="1236" levels="19" name="Frost Bolt" enchantLevels1="30" enchantLevels2="30" enchantLevels3="30" enchantLevels4="30">
   <table name="#enchantMagicLvl"> 76 76 76 77 77 77 78 78 78 79 79 79 80 80 80 81 81 81 82 82 82 82 83 83 83 84 84 85 85 85 </table>
   <enchant1 name="magicLvl" val="#enchantMagicLvl"/>
   <enchant2 name="magicLvl" val="#enchantMagicLvl"/>
@@ -815,7 +815,7 @@
     </effect>
   </for>
 </skill>
-<skill id="1237" levels="17" name="Ice Dagger" enchantLevels1="30" enchantLevels2="30" enchantLevels3="30" enchantLevels4="30" >
+<skill id="1237" levels="17" name="Ice Dagger" enchantLevels1="30" enchantLevels2="30" enchantLevels3="30" enchantLevels4="30">
   <table name="#enchantMagicLvl"> 76 76 76 77 77 77 78 78 78 79 79 79 80 80 80 81 81 81 82 82 82 82 83 83 83 84 84 85 85 85 </table>
   <enchant1 name="magicLvl" val="#enchantMagicLvl"/>
   <enchant2 name="magicLvl" val="#enchantMagicLvl"/>
@@ -1664,7 +1664,7 @@
   <set name="castRange" val="750"/>
   <set name="effectRange" val="1250"/>
 </skill>
-<skill id="1265" levels="14" name="Solar Flare" enchantLevels1="30" enchantLevels2="30" enchantLevels3="30" >
+<skill id="1265" levels="14" name="Solar Flare" enchantLevels1="30" enchantLevels2="30" enchantLevels3="30">
   <table name="#enchantMagicLvl"> 76 76 76 77 77 77 78 78 78 79 79 79 80 80 80 81 81 81 82 82 82 82 83 83 83 84 84 85 85 85 </table>
   <enchant1 name="magicLvl" val="#enchantMagicLvl"/>
   <enchant2 name="magicLvl" val="#enchantMagicLvl"/>
@@ -1718,7 +1718,7 @@
   <set name="castRange" val="750"/>
   <set name="effectRange" val="1250"/>
 </skill>
-<skill id="1267" levels="14" name="Shadow Flare" enchantLevels1="30" enchantLevels2="30" enchantLevels3="30" >
+<skill id="1267" levels="14" name="Shadow Flare" enchantLevels1="30" enchantLevels2="30" enchantLevels3="30">
   <table name="#enchantMagicLvl"> 76 76 76 77 77 77 78 78 78 79 79 79 80 80 80 81 81 81 82 82 82 82 83 83 83 84 84 85 85 85 </table>
   <enchant1 name="magicLvl" val="#enchantMagicLvl"/>
   <enchant2 name="magicLvl" val="#enchantMagicLvl"/>
@@ -2343,7 +2343,7 @@
   <set name="castRange" val="900"/>
   <set name="effectRange" val="1400"/>
 </skill>
-<skill id="1295" levels="9" name="Aqua Splash" enchantLevels1="30" enchantLevels2="30" enchantLevels3="30" >
+<skill id="1295" levels="9" name="Aqua Splash" enchantLevels1="30" enchantLevels2="30" enchantLevels3="30">
   <table name="#enchantMagicLvl"> 76 76 76 77 77 77 78 78 78 79 79 79 80 80 80 81 81 81 82 82 82 82 83 83 83 84 84 85 85 85 </table>
   <enchant1 name="magicLvl" val="#enchantMagicLvl"/>
   <enchant2 name="magicLvl" val="#enchantMagicLvl"/>
@@ -2376,7 +2376,7 @@
   <enchant2 name="mpInitialConsume" val="#ench2mpInitialConsume"/>
   <enchant3 name="elementPower" val="#enchElementPower"/>
 </skill>
-<skill id="1296" levels="9" name="Rain of Fire" enchantLevels1="30" enchantLevels2="30" enchantLevels3="30" >
+<skill id="1296" levels="9" name="Rain of Fire" enchantLevels1="30" enchantLevels2="30" enchantLevels3="30">
   <table name="#enchantMagicLvl"> 76 76 76 77 77 77 78 78 78 79 79 79 80 80 80 81 81 81 82 82 82 82 83 83 83 84 84 85 85 85 </table>
   <enchant1 name="magicLvl" val="#enchantMagicLvl"/>
   <enchant2 name="magicLvl" val="#enchantMagicLvl"/>

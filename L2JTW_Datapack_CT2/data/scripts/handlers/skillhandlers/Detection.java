@@ -14,54 +14,63 @@
  */
 package handlers.skillhandlers;
 
-import net.sf.l2j.gameserver.datatables.SkillTable;
 import net.sf.l2j.gameserver.handler.ISkillHandler;
+import net.sf.l2j.gameserver.model.L2Effect;
 import net.sf.l2j.gameserver.model.L2Object;
 import net.sf.l2j.gameserver.model.L2Skill;
 import net.sf.l2j.gameserver.model.actor.L2Character;
 import net.sf.l2j.gameserver.model.actor.instance.L2PcInstance;
+import net.sf.l2j.gameserver.templates.skills.L2EffectType;
 import net.sf.l2j.gameserver.templates.skills.L2SkillType;
 
 /**
- * This class ...
- *
- * @version $Revision: 1.1.2.5.2.4 $ $Date: 2005/04/03 15:55:03 $
+ * @author ZaKax
  */
 
-public class LearnSkill implements ISkillHandler
+public class Detection implements ISkillHandler
 {
 	private static final L2SkillType[] SKILL_IDS =
 	{
-		L2SkillType.LEARN_SKILL
+		L2SkillType.DETECTION
 	};
-	
-	/**
-	 * 
-	 * @see net.sf.l2j.gameserver.handler.ISkillHandler#useSkill(net.sf.l2j.gameserver.model.actor.L2Character, net.sf.l2j.gameserver.model.L2Skill, net.sf.l2j.gameserver.model.L2Object[])
-	 */
+
 	public void useSkill(L2Character activeChar, L2Skill skill, L2Object[] targets)
 	{
-		if (!(activeChar instanceof L2PcInstance))
-			return;
-		
-		L2PcInstance player = ((L2PcInstance)activeChar);
-		L2Skill newSkill = null;
-		
-		for (int i = 0; i < skill.getNewSkillId().length; i++)
+		final boolean hasParty;
+		final boolean hasClan;
+		final boolean hasAlly;
+		final L2PcInstance player = activeChar.getActingPlayer();
+		if (player != null)
 		{
-			if (player.getSkillLevel(skill.getNewSkillId()[i]) < 0 && skill.getNewSkillId()[i] != 0)
+			hasParty = player.isInParty();
+			hasClan = player.getClanId() > 0;
+			hasAlly = player.getAllyId() > 0;
+		}
+		else
+		{
+			hasParty = false;
+			hasClan = false;
+			hasAlly = false;
+		}
+
+		for (L2PcInstance target : activeChar.getKnownList().getKnownPlayersInRadius(skill.getSkillRadius()))
+		{
+			if (target != null && target.getAppearance().getInvisible())
 			{
-				newSkill = SkillTable.getInstance().getInfo(skill.getNewSkillId()[i], skill.getNewSkillLvl()[i]);
-				if (newSkill != null)
-					player.addSkill(newSkill, true);
+				if (hasParty && target.getParty() != null && player.getParty().getPartyLeaderOID() == target.getParty().getPartyLeaderOID())
+					continue;
+				if (hasClan && player.getClanId() == target.getClanId())
+					continue;
+				if (hasAlly && player.getAllyId() == target.getAllyId())
+					continue;
+
+				L2Effect eHide = target.getFirstEffect(L2EffectType.HIDE);
+				if (eHide != null)
+					eHide.exit();
 			}
 		}
 	}
-	
-	/**
-	 * 
-	 * @see net.sf.l2j.gameserver.handler.ISkillHandler#getSkillIds()
-	 */
+
 	public L2SkillType[] getSkillIds()
 	{
 		return SKILL_IDS;

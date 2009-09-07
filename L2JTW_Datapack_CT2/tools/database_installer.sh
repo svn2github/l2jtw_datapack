@@ -256,7 +256,6 @@ else
 echo "Upgrading gameserver content"
 fi
 $MYG < ../sql/access_levels.sql &> /dev/null
-$MYG < ../sql/admin_command_access_rights.sql &> /dev/null
 $MYG < ../sql/auction.sql &> /dev/null
 $MYG < ../sql/castle.sql &> /dev/null
 $MYG < ../sql/clanhall.sql &> /dev/null
@@ -266,6 +265,8 @@ $MYG < ../sql/grandboss_data.sql &> /dev/null
 $MYG < ../sql/npc_buffer.sql &> /dev/null
 $MYG < ../sql/seven_signs_festival.sql &> /dev/null
 $MYG < ../sql/seven_signs_status.sql &> /dev/null
+
+$MYG < ../sql/admin_command_access_rights.sql &> /dev/null
 $MYG < ../sql/armor.sql &> /dev/null
 $MYG < ../sql/armorsets.sql &> /dev/null
 $MYG < ../sql/auction_bid.sql &> /dev/null

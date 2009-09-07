@@ -60,8 +60,7 @@ public class AdminBuffs implements IAdminCommandHandler
 					return false;
 				}
 			}
-			else if ((activeChar.getTarget() != null)
-			        && (activeChar.getTarget() instanceof L2PcInstance))
+			else if ((activeChar.getTarget() != null) && (activeChar.getTarget() instanceof L2PcInstance))
 			{
 				showBuffs((L2PcInstance) activeChar.getTarget(), activeChar);
 				return true;
@@ -117,8 +116,7 @@ public class AdminBuffs implements IAdminCommandHandler
 				
 				for (L2Character knownChar : activeChar.getKnownList().getKnownCharactersInRadius(radius))
 				{
-					if ((knownChar instanceof L2PcInstance)
-					        && !(knownChar.equals(activeChar)))
+					if ((knownChar instanceof L2PcInstance) && !(knownChar.equals(activeChar)))
 						knownChar.stopAllEffects();
 				}
 				
@@ -146,35 +144,35 @@ public class AdminBuffs implements IAdminCommandHandler
 	public void showBuffs(L2PcInstance player, L2PcInstance activeChar)
 	{
 		final L2Effect[] effects = player.getAllEffects();
-                final StringBuilder html = StringUtil.startAppend(
-                        500 + effects.length * 200,
-                        "<html><center><font color=\"LEVEL\">"+MessageTable.Messages[207].getMessage() +
-                        player.getName() +
-                        "</font><center><br>" +
-                        "<table>" +
-                        "<tr><td width=200>"+MessageTable.Messages[556].getMessage()+"</td><td width=70>"+MessageTable.Messages[557].getMessage()+"</td></tr>"
-                        );
+		final StringBuilder html = StringUtil.startAppend(500 + effects.length * 200,
+				"<html><center><font color=\"LEVEL\">"+MessageTable.Messages[207].getMessage() +
+				player.getName()+
+				"</font><center><br>" +
+				"<table>" +
+				"<tr><td width=200>"+MessageTable.Messages[556].getMessage()+"</td><td width=70>"+MessageTable.Messages[557].getMessage()+"</td></tr>"
+		);
 		
 		for (L2Effect e : effects) {
 			if (e != null) {
-                            StringUtil.append(html,
-                                    "<tr><td>",
-                                    e.getSkill().getName(),
-                                    "</td><td><button value=\""+MessageTable.Messages[1176].getMessage()+"\" action=\"bypass -h admin_stopbuff ",
-                                    player.getName(),
-                                    " ",
-                                    String.valueOf(e.getSkill().getId()),
-                                    "\" width=60 height=15 back=\"sek.cbui94\" fore=\"sek.cbui92\"></td></tr>");
+				StringUtil.append(html,
+						"<tr><td>",
+						e.getSkill().getName(),
+						"</td><td><button value=\""+MessageTable.Messages[1176].getMessage()+"\" action=\"bypass -h admin_stopbuff ",
+						player.getName(),
+						" ",
+						String.valueOf(e.getSkill().getId()),
+						"\" width=60 height=15 back=\"L2UI_ct1.button_df\" fore=\"L2UI_ct1.button_df\"></td></tr>"
+				);
 			}
 		}
 
-                StringUtil.append(html,
-                        "</table><br>" +
-                        "<button value=\""+MessageTable.Messages[212].getMessage()+"\" action=\"bypass -h admin_stopallbuffs ",
-		        player.getName(),
-		        "\" width=60 height=15 back=\"sek.cbui94\" fore=\"sek.cbui92\">" +
-                        "</html>"
-                        );
+		StringUtil.append(html,
+				"</table><br>" +
+				"<button value=\""+MessageTable.Messages[212].getMessage()+"\" action=\"bypass -h admin_stopallbuffs ",
+				player.getName(),
+				"\" width=60 height=15 back=\"L2UI_ct1.button_df\" fore=\"L2UI_ct1.button_df\">" +
+				"</html>"
+		);
 		
 		NpcHtmlMessage ms = new NpcHtmlMessage(1);
 		ms.setHtml(html.toString());
@@ -241,7 +239,6 @@ public class AdminBuffs implements IAdminCommandHandler
 			L2CoreMessage cm =  new L2CoreMessage (MessageTable.Messages[138]);
 			cm.addString(playername);
 			cm.sendMessage(remover);
-			showBuffs(player, remover);
 		}
 	}
 	

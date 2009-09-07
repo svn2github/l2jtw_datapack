@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <list>
-<skill id="400" levels="10" name="Tribunal" enchantLevels1="30" enchantLevels2="30" enchantLevels3="30" enchantLevels4="30" >
+<skill id="400" levels="10" name="Tribunal" enchantLevels1="30" enchantLevels2="30" enchantLevels3="30" enchantLevels4="30">
   <table name="#ench1Power"> 1548 1562 1576 1590 1604 1617 1631 1645 1659 1673 1686 1700 1714 1728 1742 1755 1769 1783 1797 1811 1824 1838 1852 1866 1880 1893 1907 1921 1935 1949 </table>
   <table name="#ench2MpConsume"> 70 69 68 67 66 64 63 62 61 60 58 57 56 55 54 52 51 50 49 48 46 45 44 43 42 40 39 38 37 36 </table>
   <table name="#enchantMagicLvl"> 76 76 76 77 77 77 78 78 78 79 79 79 80 80 80 81 81 81 82 82 82 82 83 83 83 84 84 85 85 85 </table>
@@ -10,7 +10,7 @@
   <table name="#magicLvl"> 55 58 60 62 64 66 68 70 72 74 </table>
   <table name="#mpConsume"> 52 56 58 60 62 64 66 68 70 72 </table>
   <table name="#power"> 770 879 955 1034 1115 1197 1281 1366 1451 1535 </table>
-  <table name="#rCrit"> 0.7 0.7 0.7 0.7 0.7 0.6 0.6 0.6 0.6 0.5 </table>
+  <table name="#rCrit"> -0.3 -0.3 -0.3 -0.3 -0.3 -0.4 -0.4 -0.4 -0.4 -0.5 </table>
   <table name="#vuln"> 1.12 1.12 1.12 1.12 1.12 1.16 1.16 1.16 1.16 1.2 </table>
   <table name="#enchElementPower"> 21 22 23 24 25 26 27 28 29 30 31 32 33 34 35 36 37 38 39 40 41 42 43 44 45 46 47 48 49 50 </table>
   <set name="weaponsAllowed" val="18444"/> <!-- Sword/Big Sword/Blunt/Big Blunt -->
@@ -34,7 +34,7 @@
   <enchant4 name="elementPower" val="#enchElementPower"/>
   <for>
     <effect name="Debuff" time="30" val="0" effectPower="40" effectType="DEBUFF">
-      <mul order="0x30" stat="rCrit" val="#rCrit"/>
+      <basemul order="0x30" stat="rCrit" val="#rCrit"/>
       <mul order="0x30" stat="swordWpnVuln" val="#vuln"/>
       <mul order="0x30" stat="bigSwordWpnVuln" val="#vuln"/>
       <mul order="0x30" stat="bluntWpnVuln" val="#vuln"/>
@@ -50,7 +50,7 @@
     </effect>
   </for>
 </skill>
-<skill id="401" levels="10" name="Judgment" enchantLevels1="30" enchantLevels2="30" enchantLevels3="30" enchantLevels4="30" >
+<skill id="401" levels="10" name="Judgment" enchantLevels1="30" enchantLevels2="30" enchantLevels3="30" enchantLevels4="30">
   <table name="#ench1Power"> 1769 1785 1801 1817 1833 1848 1864 1880 1896 1912 1927 1943 1959 1975 1991 2006 2022 2038 2054 2070 2085 2101 2117 2133 2149 2164 2180 2196 2212 2228 </table>
   <table name="#ench2MpConsume"> 70 69 68 67 66 64 63 62 61 60 58 57 56 55 54 52 51 50 49 48 46 45 44 43 42 40 39 38 37 36 </table>
   <table name="#enchantMagicLvl"> 76 76 76 77 77 77 78 78 78 79 79 79 80 80 80 81 81 81 82 82 82 82 83 83 83 84 84 85 85 85 </table>
@@ -240,7 +240,7 @@
   <set name="SSBoost" val="2.0"/>
   <set name="target" val="TARGET_AURA"/>
   <for>
-    <effect name="Debuff" time="15" val="0" effectPower="60" effectType="DEBUFF"> <!-- Guess effectPower -->
+    <effect name="Debuff" time="15" val="0" effectPower="40" effectType="DEBUFF"> <!-- in Retail appears to be 30 sec -->
       <mul order="0x30" stat="runSpd" val="#debuff"/>
       <mul order="0x30" stat="pAtkSpd" val="#debuff"/>
       <mul order="0x30" stat="mAtkSpd" val="#debuff"/>
@@ -265,7 +265,7 @@
   <set name="SSBoost" val="2.0"/>
   <set name="target" val="TARGET_AURA"/>
   <for>
-    <effect name="Debuff" time="15" val="0" effectPower="60" effectType="DEBUFF"> <!-- Guess effectPower -->
+    <effect name="Debuff" time="15" val="0" effectPower="40" effectType="DEBUFF"> <!-- in Retail appears to be 30 sec -->
       <mul order="0x30" stat="mAtk" val="#debuff"/>
       <mul order="0x30" stat="pAtk" val="#debuff"/>
     </effect>
@@ -285,7 +285,7 @@
   <table name="#mpConsume"> 52 56 58 60 62 64 66 68 70 72 </table>
   <table name="#power"> 1832 2091 2272 2460 2653 2850 3050 3252 3453 3653 </table>
   <table name="#magicLvl"> 55 58 60 62 64 66 68 70 72 74 </table>
-  <table name="#rate"> 1.1 1.1 1.1 1.15 1.15 1.2 1.2 1.25 1.25 1.3 </table>
+  <table name="#rate"> 0.1 0.1 0.1 0.15 0.15 0.2 0.2 0.25 0.25 0.3 </table>
   <set name="magicLvl" val="#magicLvl"/>
   <set name="weaponsAllowed" val="262160"/> <!-- Dagger/Dual Daggers -->
   <set name="mpConsume" val="#mpConsume"/>
@@ -312,14 +312,14 @@
   <enchant6 name="element" val="3"/>
   <for>
     <effect self="1" name="Buff" time="15" val="0">
-      <mul order="0x30" stat="rCrit" val="#rate"/>
+      <basemul order="0x30" stat="rCrit" val="#rate"/>
       <mul order="0x30" stat="blowRate" val="#rate"/>
     </effect>
   </for>
 </skill>
 <skill id="410" levels="3" name="Mortal Strike">
   <table name="#mpConsume"> 27 31 34 </table>
-  <table name="#rate"> 1.1 1.15 1.2 </table>
+  <table name="#rate"> 0.1 0.15 0.2 </table>
   <set name="mpConsume" val="#mpConsume"/>
   <set name="weaponsAllowed" val="262160"/> <!-- Dagger/Dual Daggers -->
   <set name="reuseDelay" val="150000"/>
@@ -329,7 +329,7 @@
   <set name="operateType" val="OP_ACTIVE"/>
   <for>
     <effect name="Buff" time="120" val="0">
-      <mul order="0x30" stat="rCrit" val="#rate"/>
+      <basemul order="0x30" stat="rCrit" val="#rate"/>
       <mul order="0x30" stat="blowRate" val="#rate"/>
     </effect>
   </for>
@@ -808,7 +808,7 @@
   <set name="target" val="TARGET_AURA"/>
   <set name="skillType" val="MUTE"/>
   <set name="operateType" val="OP_ACTIVE"/>
-  <set name="power" val="40"/> <!-- Guess -->
+  <set name="power" val="60"/>
   <set name="isDance" val="true"/>
   <set name="isDebuff" val="true"/>
   <set name="hitTime" val="2500"/>
@@ -1039,10 +1039,10 @@
   <set name="weaponsAllowed" val="64"/> <!-- Pole -->
   <set name="magicLvl" val="#magicLvl"/>
   <set name="mpConsume" val="52"/>
-  <set name="power" val="80"/> <!-- Guess -->
+  <set name="power" val="50"/>
   <set name="lvlDepend" val="2"/> <!-- Guess -->
   <set name="target" val="TARGET_AURA"/>
-  <set name="reuseDelay" val="12000"/> <!-- Guess -->
+  <set name="reuseDelay" val="3000"/>
   <set name="hitTime" val="500"/>
   <set name="skillType" val="STUN"/>
   <set name="operateType" val="OP_ACTIVE"/>
@@ -1226,7 +1226,7 @@
   <set name="negateStats" val="ROOT"/>
   <set name="numCharges" val="#numCharges"/>
   <set name="operateType" val="OP_ACTIVE"/>
-  <set name="reuseDelay" val="120000"/> <!-- Guess -->
+  <set name="reuseDelay" val="4000"/>
   <set name="skillType" val="NEGATE"/>
   <set name="target" val="TARGET_SELF"/>
 </skill>
@@ -1539,7 +1539,8 @@
   </for>
 </skill>
 <skill id="482" levels="2" name="Furious Soul">
-  <table name="#rate"> 1.2 1.3 </table>
+  <table name="#rCrit"> 0.2 0.3 </table>
+  <table name="#cAtk"> 1.2 1.3 </table>
   <table name="#mpConsume"> 11 25 </table>
   <set name="mpConsume" val="#mpConsume"/>
   <set name="target" val="TARGET_SELF"/>
@@ -1549,8 +1550,8 @@
   <set name="operateType" val="OP_ACTIVE"/>
   <for>
     <effect name="Buff" time="90" val="0">
-      <mul order="0x30" stat="rCrit" val="#rate"/>
-      <mul order="0x30" stat="cAtk" val="#rate"/>
+      <basemul order="0x30" stat="rCrit" val="#rCrit"/>
+      <mul order="0x30" stat="cAtk" val="#cAtk"/>
       <mul order="0x30" stat="pDef" val="0.8"/>
     </effect>
   </for>

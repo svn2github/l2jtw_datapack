@@ -88,7 +88,7 @@ public class AdminEditNpc implements IAdminCommandHandler
 			try
 			{
 				String[] commandSplit = command.split(" ");
-				int npcId = Integer.valueOf(commandSplit[1]);
+				int npcId = Integer.parseInt(commandSplit[1]);
 				L2NpcTemplate npc = NpcTable.getInstance().getTemplate(npcId);
 				Show_Npc_Property(activeChar, npc);
 			}
@@ -298,7 +298,7 @@ public class AdminEditNpc implements IAdminCommandHandler
 		adminReply.replace("%price%", ""+tradeList.getPriceForItemId(itemID));
 		adminReply.replace("%tradeListID%", ""+tradeListID);
 		adminReply.replace("%itemID%", ""+itemID);
-
+		
 		activeChar.sendPacket(adminReply);
 	}
 	
@@ -327,7 +327,7 @@ public class AdminEditNpc implements IAdminCommandHandler
 		}
 		
 		NpcHtmlMessage adminReply = new NpcHtmlMessage(5);
-		
+
 		//TextBuilder replyMSG = new TextBuilder();
 		adminReply.setFile("data/html/admin/delShopItem.htm");
 		
@@ -335,7 +335,7 @@ public class AdminEditNpc implements IAdminCommandHandler
 		adminReply.replace("%price%", ""+tradeList.getPriceForItemId(itemID));
 		adminReply.replace("%tradeListID%", ""+tradeListID);
 		adminReply.replace("%itemID%", ""+itemID);
-
+		
 		activeChar.sendPacket(adminReply);
 	}
 	
@@ -396,8 +396,8 @@ public class AdminEditNpc implements IAdminCommandHandler
 		final StringBuilder replyMSG = new StringBuilder();
 
                 StringUtil.append(replyMSG,
-                        "<html><title>"+MessageTable.Messages[726].getMessage(),
-                        String.valueOf(page),
+                        "<html><title>"+MessageTable.Messages[726].getMessage() +
+                        String.valueOf(page) +
                         "</title>" +
                         "<body>" +
                         "<br>"+MessageTable.Messages[727].getMessage() +
@@ -441,8 +441,8 @@ public class AdminEditNpc implements IAdminCommandHandler
                         "<center>" +
                         "<button value=\""+ MessageTable.Messages[733].getMessage()+"\" action=\"bypass -h admin_addShopItem ",
                         String.valueOf(tradeList.getListId()),
-                        "\" width=100 height=20 back=\"L2UI_ct1.button_df\" fore=\"L2UI_ct1.button_df\">" +
-                        "<button value=\""+ MessageTable.Messages[921].getMessage()+"\" action=\"bypass -h admin_close_window\" width=100 height=20 back=\"L2UI_ct1.button_df\" fore=\"L2UI_ct1.button_df\">" +
+                        "\" width=100 height=15 back=\"L2UI_ct1.button_df\" fore=\"L2UI_ct1.button_df\">" +
+                        "<button value=\""+ MessageTable.Messages[921].getMessage()+"\" action=\"bypass -h admin_close_window\" width=100 height=15 back=\"L2UI_ct1.button_df\" fore=\"L2UI_ct1.button_df\">" +
                         "</center></body></html>"
                         );
 		
@@ -482,7 +482,7 @@ public class AdminEditNpc implements IAdminCommandHandler
 			if (tradeList != null)
 				StringUtil.append(info,"<tr><td><a action=\"bypass -h admin_showShopList " + tradeList.getListId() + " 1\">"+MessageTable.Messages[1186].getMessage()+" " + tradeList.getListId() + "</a></td></tr>");
 		}
-		
+
 		adminReply.replace("%info%",info.toString());
 		activeChar.sendPacket(adminReply);
 	}
@@ -726,24 +726,24 @@ public class AdminEditNpc implements IAdminCommandHandler
 			}
 			
 			if (statToSet.equals("templateId"))
-				newNpcData.set("idTemplate", Integer.valueOf(value));
+				newNpcData.set("idTemplate", Integer.parseInt(value));
 			else if (statToSet.equals("name"))
 				newNpcData.set("name", value);
 			else if (statToSet.equals("serverSideName"))
-				newNpcData.set("serverSideName", Integer.valueOf(value));
+				newNpcData.set("serverSideName", Integer.parseInt(value));
 			else if (statToSet.equals("title"))
 				newNpcData.set("title", value);
 			else if (statToSet.equals("serverSideTitle"))
-				newNpcData.set("serverSideTitle", Integer.valueOf(value) == 1 ? 1 : 0);
+				newNpcData.set("serverSideTitle", Integer.parseInt(value) == 1 ? 1 : 0);
 			else if (statToSet.equals("collisionRadius"))
-				newNpcData.set("collision_radius", Integer.valueOf(value));
+				newNpcData.set("collision_radius", Integer.parseInt(value));
 			else if (statToSet.equals("collisionHeight"))
-				newNpcData.set("collision_height", Integer.valueOf(value));
+				newNpcData.set("collision_height", Integer.parseInt(value));
 			else if (statToSet.equals("level"))
-				newNpcData.set("level", Integer.valueOf(value));
+				newNpcData.set("level", Integer.parseInt(value));
 			else if (statToSet.equals("sex"))
 			{
-				int intValue = Integer.valueOf(value);
+				int intValue = Integer.parseInt(value);
 				newNpcData.set("sex", intValue == 0 ? "male" : intValue == 1 ? "female" : "etc");
 			}
 			else if (statToSet.equals("type"))
@@ -752,62 +752,62 @@ public class AdminEditNpc implements IAdminCommandHandler
 				newNpcData.set("type", value);
 			}
 			else if (statToSet.equals("attackRange"))
-				newNpcData.set("attackrange", Integer.valueOf(value));
+				newNpcData.set("attackrange", Integer.parseInt(value));
 			else if (statToSet.equals("hp"))
-				newNpcData.set("hp", Integer.valueOf(value));
+				newNpcData.set("hp", Integer.parseInt(value));
 			else if (statToSet.equals("mp"))
-				newNpcData.set("mp", Integer.valueOf(value));
+				newNpcData.set("mp", Integer.parseInt(value));
 			else if (statToSet.equals("hpRegen"))
-				newNpcData.set("hpreg", Integer.valueOf(value));
+				newNpcData.set("hpreg", Integer.parseInt(value));
 			else if (statToSet.equals("mpRegen"))
-				newNpcData.set("mpreg", Integer.valueOf(value));
+				newNpcData.set("mpreg", Integer.parseInt(value));
 			else if (statToSet.equals("str"))
-				newNpcData.set("str", Integer.valueOf(value));
+				newNpcData.set("str", Integer.parseInt(value));
 			else if (statToSet.equals("con"))
-				newNpcData.set("con", Integer.valueOf(value));
+				newNpcData.set("con", Integer.parseInt(value));
 			else if (statToSet.equals("dex"))
-				newNpcData.set("dex", Integer.valueOf(value));
+				newNpcData.set("dex", Integer.parseInt(value));
 			else if (statToSet.equals("int"))
-				newNpcData.set("int", Integer.valueOf(value));
+				newNpcData.set("int", Integer.parseInt(value));
 			else if (statToSet.equals("wit"))
-				newNpcData.set("wit", Integer.valueOf(value));
+				newNpcData.set("wit", Integer.parseInt(value));
 			else if (statToSet.equals("men"))
-				newNpcData.set("men", Integer.valueOf(value));
+				newNpcData.set("men", Integer.parseInt(value));
 			else if (statToSet.equals("exp"))
-				newNpcData.set("exp", Integer.valueOf(value));
+				newNpcData.set("exp", Integer.parseInt(value));
 			else if (statToSet.equals("sp"))
-				newNpcData.set("sp", Integer.valueOf(value));
+				newNpcData.set("sp", Integer.parseInt(value));
 			else if (statToSet.equals("pAtk"))
-				newNpcData.set("patk", Integer.valueOf(value));
+				newNpcData.set("patk", Integer.parseInt(value));
 			else if (statToSet.equals("pDef"))
-				newNpcData.set("pdef", Integer.valueOf(value));
+				newNpcData.set("pdef", Integer.parseInt(value));
 			else if (statToSet.equals("mAtk"))
-				newNpcData.set("matk", Integer.valueOf(value));
+				newNpcData.set("matk", Integer.parseInt(value));
 			else if (statToSet.equals("mDef"))
-				newNpcData.set("mdef", Integer.valueOf(value));
+				newNpcData.set("mdef", Integer.parseInt(value));
 			else if (statToSet.equals("pAtkSpd"))
-				newNpcData.set("atkspd", Integer.valueOf(value));
+				newNpcData.set("atkspd", Integer.parseInt(value));
 			else if (statToSet.equals("aggro"))
-				newNpcData.set("aggro", Integer.valueOf(value));
+				newNpcData.set("aggro", Integer.parseInt(value));
 			else if (statToSet.equals("mAtkSpd"))
-				newNpcData.set("matkspd", Integer.valueOf(value));
+				newNpcData.set("matkspd", Integer.parseInt(value));
 			else if (statToSet.equals("rHand"))
-				newNpcData.set("rhand", Integer.valueOf(value));
+				newNpcData.set("rhand", Integer.parseInt(value));
 			else if (statToSet.equals("lHand"))
-				newNpcData.set("lhand", Integer.valueOf(value));
+				newNpcData.set("lhand", Integer.parseInt(value));
 			else if (statToSet.equals("armor"))
-				newNpcData.set("armor", Integer.valueOf(value));
+				newNpcData.set("armor", Integer.parseInt(value));
 			else if (statToSet.equals("runSpd"))
-				newNpcData.set("runspd", Integer.valueOf(value));
+				newNpcData.set("runspd", Integer.parseInt(value));
 			else if (statToSet.equals("factionId"))
 				newNpcData.set("faction_id", value);
 			else if (statToSet.equals("factionRange"))
-				newNpcData.set("faction_range", Integer.valueOf(value));
+				newNpcData.set("faction_range", Integer.parseInt(value));
 			else if (statToSet.equals("isUndead"))
-				newNpcData.set("isUndead", Integer.valueOf(value) == 1 ? 1 : 0);
+				newNpcData.set("isUndead", Integer.parseInt(value) == 1 ? 1 : 0);
 			else if (statToSet.equals("absorbLevel"))
 			{
-				int intVal = Integer.valueOf(value);
+				int intVal = Integer.parseInt(value);
 				newNpcData.set("absorb_level", intVal < 0 ? 0 : intVal > 12 ? 0 : intVal);
 			}
 		}
@@ -855,9 +855,9 @@ public class AdminEditNpc implements IAdminCommandHandler
 							+ "<a action=\"bypass -h admin_del_drop " + npcData.npcId + " " + drop.getItemId() + " " + cat.getCategoryType() + "\">"+MessageTable.Messages[1183].getMessage()+"</a></td></tr>");
 
 				}
-
+		
 		adminReply.replace("%info%",replyMSG.toString());
-
+		
 		activeChar.sendPacket(adminReply);
 		
 	}
@@ -896,8 +896,8 @@ public class AdminEditNpc implements IAdminCommandHandler
 				
 				replyMSG.append("<center>");
 				replyMSG.append("<br><button value=\""+MessageTable.Messages[1194].getMessage()+"\" action=\"bypass -h admin_edit_drop " + npcId + " " + itemId + " " + category
-						+ " $min $max $chance\"  width=100 height=20 back=\"L2UI_ct1.button_df\" fore=\"L2UI_ct1.button_df\">");
-				replyMSG.append("<br><button value=\""+MessageTable.Messages[1195].getMessage()+"\" action=\"bypass -h admin_show_droplist " + dropData.getInt("mobId") + "\"  width=100 height=20 back=\"L2UI_ct1.button_df\" fore=\"L2UI_ct1.button_df\">");
+						+ " $min $max $chance\"  width=100 height=15 back=\"L2UI_ct1.button_df\" fore=\"L2UI_ct1.button_df\">");
+				replyMSG.append("<br><button value=\""+MessageTable.Messages[1195].getMessage()+"\" action=\"bypass -h admin_show_droplist " + dropData.getInt("mobId") + "\"  width=100 height=15 back=\"L2UI_ct1.button_df\" fore=\"L2UI_ct1.button_df\">");
 				replyMSG.append("</center>");
 			}
 			
@@ -930,7 +930,7 @@ public class AdminEditNpc implements IAdminCommandHandler
 		adminReply.setFile("data/html/admin/addDropData.htm");
 		adminReply.replace("%npcname%", npcData.name);
 		adminReply.replace("%npcId%", ""+npcData.npcId);
-
+		
 		activeChar.sendPacket(adminReply);
 	}
 	
@@ -971,7 +971,7 @@ public class AdminEditNpc implements IAdminCommandHandler
 				NpcHtmlMessage adminReply = new NpcHtmlMessage(5);
 				adminReply.setFile("data/html/admin/editDropComplete.htm");
 				adminReply.replace("npcId", ""+npcId);
-
+				
 				activeChar.sendPacket(adminReply);
 			}
 			else
@@ -1054,7 +1054,7 @@ public class AdminEditNpc implements IAdminCommandHandler
 				reLoadNpcDropList(npcId);
 				
 				NpcHtmlMessage adminReply = new NpcHtmlMessage(5);
-
+				
 				adminReply.setFile("data/html/admin/delDropComplete.htm");
 				adminReply.replace("%npcId%", ""+npcId);
 				adminReply.replace("%itemId%", ""+itemId);

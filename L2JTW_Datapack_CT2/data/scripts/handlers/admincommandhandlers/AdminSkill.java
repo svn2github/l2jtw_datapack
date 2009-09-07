@@ -393,6 +393,7 @@ public class AdminSkill implements IAdminCommandHandler
 				player.sendPacket(sm);
 				sm = null;
 				L2CoreMessage cm =  new L2CoreMessage (MessageTable.Messages[524]);
+				cm.addSkillName(skill);
 				cm.addString(player.getName());
 				if (player != activeChar) //Update by rocknow
 					cm.sendMessage(activeChar);

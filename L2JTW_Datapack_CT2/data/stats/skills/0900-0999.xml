@@ -196,11 +196,19 @@
   <set name="operateType" val="OP_ACTIVE"/>
 </skill>
 <skill id="911" levels="11" name="Energy Burst">
-  <set name="target" val="TARGET_NONE"/>
-  <set name="skillType" val="NOTDONE"/>
-  <set name="operateType" val="OP_PASSIVE"/>
+  <!-- Aurabird Falcon & Owl -->
+  <table name="#power"> 469 482 494 505 517 528 539 550 561 571 580 </table>
+  <table name="#mpConsume"> 69 70 70 71 72 72 73 74 74 75 75 </table>
+  <table name="#magicLvl"> 75 76 77 78 79 80 81 82 83 84 85 </table>
+  <set name="power" val="#power"/>
+  <set name="mpConsume" val="#mpConsume"/>
+  <set name="magicLvl" val="#magicLvl"/>
+  <set name="target" val="TARGET_AURA"/>
+  <set name="skillRadius" val="100"/>
+  <set name="operateType" val="OP_ACTIVE"/>
   <set name="reuseDelay" val="1000"/>
   <set name="hitTime" val="1000"/>
+  <set name="skillType" val="PDAM"/>
 </skill>
 <skill id="912" levels="1" name="Summon Imperial Phoenix">
   <set name="mpConsume" val="145"/>
@@ -362,10 +370,15 @@
   <set name="effectRange" val="400"/>
 </skill>
 <skill id="922" levels="1" name="Hide">
-  <set name="target" val="TARGET_NONE"/>
-  <set name="skillType" val="NOTDONE"/>
-  <set name="operateType" val="OP_PASSIVE"/>
+  <set name="target" val="TARGET_SELF"/>
+  <set name="skillType" val="BUFF"/>
   <set name="reuseDelay" val="180000"/>
+  <set name="operateType" val="OP_ACTIVE"/>
+  <for>
+    <effect count="1" name="Hide" time="30" val="0">
+      <mul order="0x30" stat="runSpd" val="0.7"/>
+    </effect>
+  </for>
 </skill>
 <skill id="923" levels="1" name="Dual Dagger Mastery">
   <set name="operateType" val="OP_PASSIVE"/>
@@ -438,7 +451,7 @@
   <set name="castRange" val="40"/>
   <set name="effectRange" val="400"/>
   <for>
-    <effect count="10" name="DamOverTime" val="#dot" abnormal="flame" effectType="DOT" effectPower="40"/> <!-- Guess effectPower -->
+    <effect count="10" name="DamOverTime" val="#dot" abnormal="flame" effectType="DOT" effectPower="50"/>
   </for>
 </skill>
 <skill id="928" levels="1" name="Duel Blow">
@@ -526,16 +539,19 @@
   <!-- Update by rocknow -->
   <set name="target" val="TARGET_SELF"/>
   <set name="skillType" val="DUMMY"/>
-  <set name="hitTime" val="3000"/>
-  <set name="staticHitTime" val="true"/>
   <set name="operateType" val="OP_ACTIVE"/>
+  <set name="reuseDelay" val="10000"/>
+  <set name="hitTime" val="6000"/>
+  <set name="staticHitTime" val="true"/>
 </skill>
 <skill id="933" levels="1" name="Detection">
-  <set name="target" val="TARGET_NONE"/>
-  <set name="skillType" val="NOTDONE"/>
-  <set name="operateType" val="OP_PASSIVE"/>
+  <set name="target" val="TARGET_SELF"/>
+  <set name="skillType" val="DETECTION"/>
+  <set name="operateType" val="OP_ACTIVE"/>
+  <set name="mpConsume" val="67"/>
   <set name="reuseDelay" val="8000"/>
   <set name="hitTime" val="2500"/>
+  <set name="skillRadius" val="300"/> <!-- Guessed -->
 </skill>
 <skill id="934" levels="1" name="Sigil Mastery">
   <set name="operateType" val="OP_PASSIVE"/>
@@ -640,7 +656,7 @@
   <for>
     <mul order="0x30" stat="mAtk" val="1.05"/>
     <mul order="0x30" stat="mAtkSpd" val="1.05"/>
-    <mul order="0x30" stat="mCritRate" val="1.05"/>
+    <basemul order="0x30" stat="mCritRate" val="0.05"/>
     <mul order="0x30" stat="MagicalMpConsumeRate" val="1.05"/>
   </for>
 </skill>

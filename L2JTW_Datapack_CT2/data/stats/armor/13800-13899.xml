@@ -31,18 +31,33 @@
   </for>
 </item>
 <item id="13885" name="Sealed Arcana Sigil">
+  <cond msgId="1518">
+    <not>
+      <player race="Kamael"/>
+    </not>
+  </cond>
   <for>
     <add val="13" order="0x10" stat="pDef"/>
     <enchant val="0" order="0x0C" stat="pDef"/>
   </for>
 </item>
 <item id="13886" name="Sealed Dynasty Sigil">
+  <cond msgId="1518">
+    <not>
+      <player race="Kamael"/>
+    </not>
+  </cond>
   <for>
     <add val="15" order="0x10" stat="pDef"/>
     <enchant val="0" order="0x0C" stat="pDef"/>
   </for>
 </item>
 <item id="13887" name="Sealed Vesper Sigil">
+  <cond msgId="1518">
+    <not>
+      <player race="Kamael"/>
+    </not>
+  </cond>
   <for>
     <add val="17" order="0x10" stat="pDef"/>
     <enchant val="0" order="0x0C" stat="pDef"/>
@@ -86,8 +101,8 @@
 </item>
 <item id="13891" name="Holy Spirit's Cloak - Light Armor exclusive">
   <cond msgId="1518">
-    <and> <!-- Update by rocknow -->
-      <player class_id_restriction="92,93,101,102,108,109"/>
+    <and>
+      <player class_id_restriction="92,93,101,102,108,109"/> <!-- Update by rocknow -->
       <or>
         <player active_skill_id="8286"/> <!-- Vesper Noble Leather Breastplate -->
         <player active_skill_id="8304"/> <!-- Vesper Noble Leather Breastplate {PvP} -->
