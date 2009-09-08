@@ -1586,9 +1586,9 @@ INSERT INTO `messagetable` VALUES ('522', 'cn', '给“$2”增加 $1 个技能�
 INSERT INTO `messagetable` VALUES ('523', 'en', 'You gave the Clan Skill: $1 to the clan $2.', null);
 INSERT INTO `messagetable` VALUES ('523', 'tw', '給「$2」血盟增加「$1」的血盟技能。', null);
 INSERT INTO `messagetable` VALUES ('523', 'cn', '给“$2”血盟增加“$1”的血盟技能。', null);
-INSERT INTO `messagetable` VALUES ('524', 'en', 'You gave the skill to $1.', null);
-INSERT INTO `messagetable` VALUES ('524', 'tw', '給「$1」增加技能。', null);
-INSERT INTO `messagetable` VALUES ('524', 'cn', '给“$1”增加技能。', null);
+INSERT INTO `messagetable` VALUES ('524', 'en', 'You gave the skill $1 to $2.', null);
+INSERT INTO `messagetable` VALUES ('524', 'tw', '給「$2」增加「$1」的技能。', null);
+INSERT INTO `messagetable` VALUES ('524', 'cn', '给“$2”增加“$1”的技能。', null);
 INSERT INTO `messagetable` VALUES ('525', 'en', 'You have already a ClanHall!', null);
 INSERT INTO `messagetable` VALUES ('525', 'tw', '已有根據地！', null);
 INSERT INTO `messagetable` VALUES ('525', 'cn', '已有根据地！', null);

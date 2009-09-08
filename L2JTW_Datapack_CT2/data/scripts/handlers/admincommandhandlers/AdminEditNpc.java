@@ -797,6 +797,8 @@ public class AdminEditNpc implements IAdminCommandHandler
 				newNpcData.set("lhand", Integer.parseInt(value));
 			else if (statToSet.equals("armor"))
 				newNpcData.set("armor", Integer.parseInt(value));
+			else if (statToSet.equals("walkSpd"))//Update by rocknow
+				newNpcData.set("walkspd", Integer.parseInt(value));//Update by rocknow
 			else if (statToSet.equals("runSpd"))
 				newNpcData.set("runspd", Integer.parseInt(value));
 			else if (statToSet.equals("factionId"))
