@@ -102,6 +102,7 @@ public class PinsAndPouchUnseal extends Quest
 						st.takeItems(13898, 1);
 						npc.broadcastPacket(new NpcSay(npc.getObjectId(), 0, npc.getNpcId(), "真是狼狽不堪啊...力氣大，果然不好控制。"));
 					}
+					return null;
 				}
 				else
 					htmltext = npc.getNpcId() + "-5.htm";
@@ -128,6 +129,7 @@ public class PinsAndPouchUnseal extends Quest
 						st.takeItems(13899, 1);
 						npc.broadcastPacket(new NpcSay(npc.getObjectId(), 0, npc.getNpcId(), "真是狼狽不堪啊...力氣大，果然不好控制。"));
 					}
+					return null;
 				}
 				else
 					htmltext = npc.getNpcId() + "-5.htm";
@@ -154,6 +156,7 @@ public class PinsAndPouchUnseal extends Quest
 						st.takeItems(13900, 1);
 						npc.broadcastPacket(new NpcSay(npc.getObjectId(), 0, npc.getNpcId(), "真是狼狽不堪啊...力氣大，果然不好控制。"));
 					}
+					return null;
 				}
 				else
 					htmltext = npc.getNpcId() + "-5.htm";
@@ -180,6 +183,7 @@ public class PinsAndPouchUnseal extends Quest
 						st.takeItems(13901, 1);
 						npc.broadcastPacket(new NpcSay(npc.getObjectId(), 0, npc.getNpcId(), "真是狼狽不堪啊...力氣大，果然不好控制。"));
 					}
+					return null;
 				}
 				else
 					htmltext = npc.getNpcId() + "-5.htm";
@@ -206,6 +210,7 @@ public class PinsAndPouchUnseal extends Quest
 						st.takeItems(13918, 1);
 						npc.broadcastPacket(new NpcSay(npc.getObjectId(), 0, npc.getNpcId(), "真是狼狽不堪啊...力氣大，果然不好控制。"));
 					}
+					return null;
 				}
 				else
 					htmltext = npc.getNpcId() + "-5.htm";
@@ -232,6 +237,7 @@ public class PinsAndPouchUnseal extends Quest
 						st.takeItems(13919, 1);
 						npc.broadcastPacket(new NpcSay(npc.getObjectId(), 0, npc.getNpcId(), "真是狼狽不堪啊...力氣大，果然不好控制。"));
 					}
+					return null;
 				}
 				else
 					htmltext = npc.getNpcId() + "-5.htm";
@@ -258,6 +264,7 @@ public class PinsAndPouchUnseal extends Quest
 						st.takeItems(13920, 1);
 						npc.broadcastPacket(new NpcSay(npc.getObjectId(), 0, npc.getNpcId(), "真是狼狽不堪啊...力氣大，果然不好控制。"));
 					}
+					return null;
 				}
 				else
 					htmltext = npc.getNpcId() + "-5.htm";
@@ -284,6 +291,7 @@ public class PinsAndPouchUnseal extends Quest
 						st.takeItems(13921, 1);
 						npc.broadcastPacket(new NpcSay(npc.getObjectId(), 0, npc.getNpcId(), "真是狼狽不堪啊...力氣大，果然不好控制。"));
 					}
+					return null;
 				}
 				else
 					htmltext = npc.getNpcId() + "-5.htm";
