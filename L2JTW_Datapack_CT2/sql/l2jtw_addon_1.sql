@@ -1334,7 +1334,6 @@ UPDATE `etcitem` SET `time` = 43200 WHERE `item_id` IN (13027,14728,20199); -- ®
 UPDATE `armor` SET `skill` = '3633-2;' WHERE `item_id` = '6841';                               -- «°¥Dªº¤ý«a
 UPDATE `armor` SET `skill` = '3407-1;' WHERE `item_id` = '9900';                               -- ÀR­µ¤§¨B§Ù«ü
 UPDATE `etcitem` SET `skill` = '2370-1;' WHERE `item_id` = '9897';                             -- ÅÜ¨­¨÷¶b-½Þ
-UPDATE `etcitem` SET `skill` = '2076-1;', `handler` = 'ItemSkills' WHERE `item_id` = '4679';   -- ¥ì«½ªº¯¬ºÖ
 UPDATE `etcitem` SET `skill` = '2309-1;', `handler` = 'ItemSkills' WHERE `item_id` = '9144';   -- ½Þ½ÞÂ§²°
 UPDATE `etcitem` SET `skill` = '2422-1;', `handler` = 'ItemSkills' WHERE `item_id` = '10254';  -- 1¯ÅÄ_³U
 UPDATE `etcitem` SET `skill` = '2423-2;', `handler` = 'ItemSkills' WHERE `item_id` = '10255';  -- 2¯ÅÄ_³U
@@ -1467,3 +1466,29 @@ DELETE FROM `merchant_shopids` WHERE `npc_id` IN (30840,31262,31306,31413,31414,
 
 -- §R°£±m¨é°Ó¤H
 DELETE FROM `spawnlist` WHERE `npc_templateid` IN (30990,30994) AND `id` NOT IN (45033);
+
+-- ¥ô°È128¬ÛÃö­×¥¿ µá©Ô¥d-¦B»P¤õ¤§ºq
+REPLACE INTO `npc` VALUES
+(18607,18607,'Gargos',0,'Spirit of Fire',0,'LineageMonster.monster_eye',18,48,39,'male','L2Monster',40,32790,463,7.11,1.84,40,43,30,21,20,10,11224,714,250,175,96,142,278,0,333,0,0, NULL,60,60,'',0,0,0,'LAST_HIT',0,0,0,'balanced','false'),
+(18608,18608,'Kinsus',0,'Spirit of Fire',0,'LineageMonster.monster_eye',18,40,39,'male','L2Monster',40,32790,463,7.11,1.84,40,43,30,21,20,10,11224,714,250,175,96,142,278,0,333,0,0,NULL,60,60,'',0,0,0,'LAST_HIT',0,0,0,'balanced','false'),
+(18609,18609,'Papion',0,'Spirit of Water',0,'LineageMonster.monster_eye',18,40,38,'female','L2Monster',40,32790,463,7.11,1.84,40,43,30,21,20,10,10782,652,250,175,96,142,278,0,333,0,0,NULL,60,60,'',0,0,0,'LAST_HIT',0,0,0,'balanced','false'),
+(18610,18610,'Hillas',0,'Spirit of Water',0,'LineageMonster.monster_eye',18,70,38,'female','L2Monster',40,32790,463,7.11,1.84,40,43,30,21,20,10,10782,652,250,175,96,142,278,0,333,0,0,NULL,60,60,'',0,0,0,'LAST_HIT',0,0,0,'balanced','false'),
+(18611,18611,'Spirit of Water',0,'',0,'LineageMonster.monster_eye',8,27,35,'female','L2Monster',40,1279,463,7.11,1.84,40,43,30,21,20,10,437,15,250,175,96,142,278,0,333,0,0,NULL,60,60,'',0,0,0,'LAST_HIT',0,0,0,'balanced','false'),
+(18612,18612,'Spirit of Water',0,'',0,'LineageMonster.monster_eye',8,32,36,'female','L2Monster',40,1279,463,7.11,1.84,40,43,30,21,20,10,726,28,250,175,96,142,278,0,333,0,0,NULL,60,60,'',0,0,0,'LAST_HIT',0,0,0,'balanced','false'),
+(18613,18613,'Spirit of Water',0,'',0,'LineageMonster.monster_eye',8,32,38,'female','L2Monster',40,1379,463,7.11,1.84,40,43,30,21,20,10,852,35,500,175,96,142,278,0,333,0,0,NULL,60,60,'',0,0,0,'LAST_HIT',0,0,0,'balanced','false'),
+(18614,18614,'Spirit of Fire',0,'',0,'LineageMonster.monster_eye',8,24,37,'male','L2Monster',40,1279,463,7.11,1.84,40,43,30,21,20,10,726,28,250,175,96,142,278,0,333,0,0,NULL,60,60,'',0,0,0,'LAST_HIT',0,0,0,'balanced','false'),
+(18615,18615,'Spirit of Fire',0,'',0,'LineageMonster.monster_eye',8,32,38,'male','L2Monster',40,1379,463,7.11,1.84,40,43,30,21,20,10,852,35,500,175,96,142,278,0,333,0,0,NULL,60,60,'',0,0,0,'LAST_HIT',0,0,0,'balanced','false'),
+(18616,18616,'Bloom',0,'',0,'LineageMonster.monster_eye',11,20,37,'male','L2Monster',40,1279,463,7.11,1.84,40,43,30,21,20,10,726,28,206,175,96,142,278,0,333,0,0,NULL,60,60,'',0,0,0,'LAST_HIT',0,0,0,'balanced','false'),
+(18620,18620,'Adiantum',0,'',0,'LineageMonster.monster_eye',14,14.5,40,'male','L2Monster',40,55000,463,7.11,1.84,40,43,30,21,20,10,91639,4070,350,175,96,142,278,0,333,0,0,NULL,60,60,'',0,0,0,'LAST_HIT',0,0,0,'balanced','false'),
+(32492,32492,'Crystal Water Bottle',0,'',0,'LineageNPC.a_fighterguild_teacher_MDarkElf',13,14,37,'etc','L2Monster',40,10,10,0,0,10,10,10,10,10,10,0,0,500,500,500,500,278,0,333,0,0,NULL,1,0,'',0,0,0,'LAST_HIT',0,0,0,'balanced','false'),
+(32493,32493,'Burning Brazier',0,'',0,'LineageNPC.a_fighterguild_teacher_MDarkElf',15,11.5,37,'etc','L2Monster',40,10,10,0,0,10,10,10,10,10,10,0,0,500,500,500,500,278,0,333,0,0,NULL,1,0,'',0,0,0,'LAST_HIT',0,0,0,'balanced','false');
+UPDATE `etcitem` SET handler='Book' WHERE `item_id` IN (13130,13131,13132,13133,13134,13135,13136);
+UPDATE `etcitem` SET `skill` = '2592-1;', `handler` = 'ItemSkills' WHERE `item_id` = 13033;
+UPDATE `etcitem` SET `skill` = '2150-1;', `handler` = 'SoulShots', `item_type` = 'shot', `crystal_type` = 'd' WHERE `item_id` = 13037;
+UPDATE `etcitem` SET `skill` = '2153-1;', `handler` = 'SoulShots', `item_type` = 'shot', `crystal_type` = 'a' WHERE `item_id` = 13045;
+UPDATE `etcitem` SET `skill` = '2153-1;', `handler` = 'SoulShots', `item_type` = 'shot', `crystal_type` = 'a' WHERE `item_id` = 13055;
+UPDATE `weapon` SET `skill` = '3599-1;8239-1;8240-1;8241-1;5760-3;' WHERE `item_id` = 13052;
+UPDATE `weapon` SET `skill` = '3599-1;8239-1;8240-2;8241-1;5760-5;' WHERE `item_id` = 13053;
+UPDATE `weapon` SET `skill` = '3599-1;8239-1;8240-3;8241-1;5760-7;' WHERE `item_id` = 13054;
+UPDATE `npc` SET `collision_radius` = 28, `collision_height` = 20, `level` = 61, `hp` = 3450, `mp` = 1365, `patk` = 991, `pdef` = 415, `matk` = 504, `mdef` = 388, `runspd` = 187 WHERE `id` = 14916;
+UPDATE `npc` SET `collision_radius` = 28, `collision_height` = 20, `level` = 70, `hp` = 4025, `mp` = 1592, `patk` = 1156, `pdef` = 484, `matk` = 588, `mdef` = 452, `runspd` = 187 WHERE `id` = 14917;
