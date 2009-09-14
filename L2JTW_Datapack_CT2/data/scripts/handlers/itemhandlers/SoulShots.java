@@ -69,10 +69,8 @@ public class SoulShots implements IItemHandler
 					gradeCheck = false;
 				break;
 			case L2Item.CRYSTAL_D:
-				if (itemId != 1463 && itemId != 22082 || itemId == 13037 || weaponId >= 13034 && weaponId <= 13036) //Update by rocknow
+				if (itemId != 1463 && itemId != 22082 && !(itemId == 13037 && (weaponId >= 13034 && weaponId <= 13036))) //Update by rocknow
 					gradeCheck = false;
-				if (itemId == 13037 && (weaponId >= 13034 && weaponId <= 13036)) //Update by rocknow
-					gradeCheck = true;                                           //Update by rocknow
 				break;
 			case L2Item.CRYSTAL_C:
 				if (itemId != 1464 && itemId != 22083 )
@@ -83,12 +81,8 @@ public class SoulShots implements IItemHandler
 					gradeCheck = false;
 				break;
 			case L2Item.CRYSTAL_A:
-				if (itemId != 1466 && itemId != 22085 || itemId == 13045 || itemId == 13055 || weaponId >= 13042 && weaponId <= 13044 || weaponId >= 13052 && weaponId <= 13054) //Update by rocknow
+				if (itemId != 1466 && itemId != 22085 && !(itemId == 13045 && (weaponId >= 13042 && weaponId <= 13044)) && !(itemId == 13055 && (weaponId >= 13052 && weaponId <= 13054))) //Update by rocknow
 					gradeCheck = false;
-				if (itemId == 13045 && (weaponId >= 13042 && weaponId <= 13044)) //Update by rocknow
-					gradeCheck = true;                                           //Update by rocknow
-				if (itemId == 13055 && (weaponId >= 13052 && weaponId <= 13054)) //Update by rocknow
-					gradeCheck = true;                                           //Update by rocknow
 				break;
 			case L2Item.CRYSTAL_S:
 			case L2Item.CRYSTAL_S80:
