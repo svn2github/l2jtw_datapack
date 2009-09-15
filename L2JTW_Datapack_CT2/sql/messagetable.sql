@@ -1,4 +1,4 @@
-Set Names utf8;
+﻿Set Names utf8;
 -- ----------------------------
 -- Table structure for messagetable
 -- ----------------------------
@@ -3761,9 +3761,9 @@ INSERT INTO `messagetable` VALUES ('1247', 'cn', '傳送要塞的血盟成員到
 INSERT INTO `messagetable` VALUES ('1248', 'en', 'Champion', null);
 INSERT INTO `messagetable` VALUES ('1248', 'tw', '菁英怪物', null);
 INSERT INTO `messagetable` VALUES ('1248', 'cn', '菁英怪物', null);
-INSERT INTO `messagetable` VALUES ('1249', 'en', '', null);
-INSERT INTO `messagetable` VALUES ('1249', 'tw', '', null);
-INSERT INTO `messagetable` VALUES ('1249', 'cn', '', null);
-INSERT INTO `messagetable` VALUES ('1250', 'en', '', null);
-INSERT INTO `messagetable` VALUES ('1250', 'tw', '', null);
-INSERT INTO `messagetable` VALUES ('1250', 'cn', '', null);
+INSERT INTO `messagetable` VALUES ('1249', 'en', 'Playing', null);
+INSERT INTO `messagetable` VALUES ('1249', 'tw', '進行中', null);
+INSERT INTO `messagetable` VALUES ('1249', 'cn', '进行中', null);
+INSERT INTO `messagetable` VALUES ('1250', 'en', 'Standby', null);
+INSERT INTO `messagetable` VALUES ('1250', 'tw', '等待中', null);
+INSERT INTO `messagetable` VALUES ('1250', 'cn', '等待中', null);
