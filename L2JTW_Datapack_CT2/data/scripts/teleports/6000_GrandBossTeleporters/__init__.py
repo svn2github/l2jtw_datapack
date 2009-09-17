@@ -8,8 +8,6 @@ from net.sf.l2j.gameserver.datatables import SpawnTable
 from net.sf.l2j.util import Rnd
 from net.sf.l2j.gameserver.instancemanager import QuestManager
 from net.sf.l2j.gameserver.instancemanager import GrandBossManager
-from net.sf.l2j import ExternalConfig
-ExternalConfig.loadconfig();
 
 qn = "6000_GrandBossTeleporters"
 
@@ -41,6 +39,7 @@ class Quest (JQuest) :
        if st.getQuestItemsCount(7267) > 0 :
           st.takeItems(7267,1)
           player.teleToLocation(183813,-115157,-3303)
+          st.set("allowEnter","1")
           return
        else :
           htmltext = "31540-06.htm"
@@ -57,14 +56,16 @@ class Quest (JQuest) :
                 st = player.getQuestState(qn)
                 if st.getQuestItemsCount(3865) > 0 :
                     st.takeItems(3865,1)
-                    zone = GrandBossManager.getInstance().getZone(181323,114850,-7618)
+                    zone = GrandBossManager.getInstance().getZone(181323,114850,-7618) #Update by rocknow
                     if zone : 
-                       zone.allowPlayerEntry(player,200)
-                    x = 174170 + Rnd.get(260)
-                    y = 113983 + Rnd.get(1500)
+                       zone.allowPlayerEntry(player,30)
+                    x = 174170 + Rnd.get(260)      #Update by rocknow
+                    y = 113983 + Rnd.get(1500)     #Update by rocknow
                     player.teleToLocation(x,y,-7709)
                     if status == 0 :
-                        self.antharasAI.startQuestTimer("waiting",0, npc, None)
+                        self.antharasAI.startQuestTimer("waiting",0, npc, None)        #Update by rocknow
+                        #Delete by rocknow
+                        #Delete by rocknow
                     return
                 else :
                     htmltext = "13001-03.htm"
@@ -80,19 +81,37 @@ class Quest (JQuest) :
         if self.valakasAI :
             status = GrandBossManager.getInstance().getBossStatus(29028)
             if status == 0 or status == 1 : #If entrance to see Valakas is unlocked (he is Dormant or Waiting)
+                st = player.getQuestState(qn)
                 if self.count >= 200 :
                    htmltext = "31385-03.htm"
-                else :
+                elif st.getInt("allowEnter") == 1:
+                   st.unset("allowEnter")
                    zone = GrandBossManager.getInstance().getZone(212852,-114842,-1632)
                    if zone :
-                      zone.allowPlayerEntry(player,200)
+                      zone.allowPlayerEntry(player,30)
+                   x = 204328 + Rnd.get(600)
+                   y = -111874 + Rnd.get(600)
+                   player.teleToLocation(x,y,70)
+                   self.count = self.count+1
+                   if status == 0 :
+                      self.valakasAI.startQuestTimer("1001",0, npc, None) #Update by rocknow
+                      #Delete by rocknow
+                      #Delete by rocknow
+                   return
+                elif st.getQuestItemsCount(7267) > 0 : #Update by rocknow-Start
+                   st.takeItems(7267,1)
+                   zone = GrandBossManager.getInstance().getZone(212852,-114842,-1632)
+                   if zone :
+                      zone.allowPlayerEntry(player,30)
                    x = 204328 + Rnd.get(600)
                    y = -111874 + Rnd.get(600)
                    player.teleToLocation(x,y,70)
                    self.count = self.count+1
                    if status == 0 :
                       self.valakasAI.startQuestTimer("1001",0, npc, None)
-                   return
+                   return                              #Update by rocknow-End
+                else: #player cheated, wasn't ported via npc Klein
+                  htmltext = "31385-04.htm"   
             elif status == 2 :
                 htmltext = "31385-02.htm"
             else :

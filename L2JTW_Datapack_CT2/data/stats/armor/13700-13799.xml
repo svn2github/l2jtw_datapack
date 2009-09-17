@@ -6,9 +6,9 @@
     <player castle ="1"/>
   </cond>
   <for>
-    <add val="85" order="0x10" stat="mDef"/>
-    <add val="33" order="0x40" stat="maxMp"/><!-- Update by rocknow -->
-    <add val="26" order="0x10" stat="waterRes"/><!-- Update by rocknow -->
+    <add order="0x10" stat="mDef" val="85"/>
+    <add order="0x40" stat="maxMp" val="33"/><!-- Update by rocknow -->
+    <add order="0x10" stat="waterRes" val="26"/><!-- Update by rocknow -->
     <enchant val="0" order="0x0C" stat="mDef"/>
   </for>
 </item>
@@ -18,9 +18,9 @@
     <player castle ="2"/>
   </cond>
   <for>
-    <add val="85" order="0x10" stat="mDef"/>
-    <add val="33" order="0x40" stat="maxMp"/><!-- Update by rocknow -->
-    <add val="26" order="0x10" stat="holyRes"/><!-- Update by rocknow -->
+    <add order="0x10" stat="mDef" val="85"/>
+    <add order="0x40" stat="maxMp" val="33"/><!-- Update by rocknow -->
+    <add order="0x10" stat="holyRes" val="26"/><!-- Update by rocknow -->
     <enchant val="0" order="0x0C" stat="mDef"/>
   </for>
 </item>
@@ -30,9 +30,9 @@
     <player castle ="3"/>
   </cond>
   <for>
-    <add val="85" order="0x10" stat="mDef"/>
-    <add val="33" order="0x40" stat="maxMp"/><!-- Update by rocknow -->
-    <add val="26" order="0x10" stat="windRes"/><!-- Update by rocknow -->
+    <add order="0x10" stat="mDef" val="85"/>
+    <add order="0x40" stat="maxMp" val="33"/><!-- Update by rocknow -->
+    <add order="0x10" stat="windRes" val="26"/><!-- Update by rocknow -->
     <enchant val="0" order="0x0C" stat="mDef"/>
   </for>
 </item>
@@ -42,9 +42,9 @@
     <player castle ="4"/>
   </cond>
   <for>
-    <add val="85" order="0x10" stat="mDef"/>
-    <add val="33" order="0x40" stat="maxMp"/><!-- Update by rocknow -->
-    <add val="26" order="0x10" stat="darkRes"/><!-- Update by rocknow -->
+    <add order="0x10" stat="mDef" val="85"/>
+    <add order="0x40" stat="maxMp" val="33"/><!-- Update by rocknow -->
+    <add order="0x10" stat="darkRes" val="26"/><!-- Update by rocknow -->
     <enchant val="0" order="0x0C" stat="mDef"/>
   </for>
 </item>
@@ -54,9 +54,9 @@
     <player castle ="5"/>
   </cond>
   <for>
-    <add val="85" order="0x10" stat="mDef"/>
-    <add val="33" order="0x40" stat="maxMp"/><!-- Update by rocknow -->
-    <add val="26" order="0x10" stat="earthRes"/><!-- Update by rocknow -->
+    <add order="0x10" stat="mDef" val="85"/>
+    <add order="0x40" stat="maxMp" val="33"/><!-- Update by rocknow -->
+    <add order="0x10" stat="earthRes" val="26"/><!-- Update by rocknow -->
     <enchant val="0" order="0x0C" stat="mDef"/>
   </for>
 </item>
@@ -66,9 +66,9 @@
     <player castle ="6"/>
   </cond>
   <for>
-    <add val="85" order="0x10" stat="mDef"/>
-    <add val="33" order="0x40" stat="maxMp"/><!-- Update by rocknow -->
-    <add val="26" order="0x10" stat="waterRes"/><!-- Update by rocknow -->
+    <add order="0x10" stat="mDef" val="85"/>
+    <add order="0x40" stat="maxMp" val="33"/><!-- Update by rocknow -->
+    <add order="0x10" stat="waterRes" val="26"/><!-- Update by rocknow -->
     <enchant val="0" order="0x0C" stat="mDef"/>
   </for>
 </item>
@@ -78,9 +78,9 @@
     <player castle ="7"/>
   </cond>
   <for>
-    <add val="85" order="0x10" stat="mDef"/>
-    <add val="33" order="0x40" stat="maxMp"/><!-- Update by rocknow -->
-    <add val="26" order="0x10" stat="fireRes"/><!-- Update by rocknow -->
+    <add order="0x10" stat="mDef" val="85"/>
+    <add order="0x40" stat="maxMp" val="33"/><!-- Update by rocknow -->
+    <add order="0x10" stat="fireRes" val="26"/><!-- Update by rocknow -->
     <enchant val="0" order="0x0C" stat="mDef"/>
   </for>
 </item>
@@ -90,9 +90,9 @@
     <player castle ="8"/>
   </cond>
   <for>
-    <add val="85" order="0x10" stat="mDef"/>
-    <add val="33" order="0x40" stat="maxMp"/><!-- Update by rocknow -->
-    <add val="26" order="0x10" stat="fireRes"/><!-- Update by rocknow -->
+    <add order="0x10" stat="mDef" val="85"/>
+    <add order="0x40" stat="maxMp" val="33"/><!-- Update by rocknow -->
+    <add order="0x10" stat="fireRes" val="26"/><!-- Update by rocknow -->
     <enchant val="0" order="0x0C" stat="mDef"/>
   </for>
 </item>
@@ -102,34 +102,34 @@
     <player castle ="9"/>
   </cond>
   <for>
-    <add val="85" order="0x10" stat="mDef"/>
-    <add val="33" order="0x40" stat="maxMp"/><!-- Update by rocknow -->
-    <add val="26" order="0x10" stat="windRes"/><!-- Update by rocknow -->
+    <add order="0x10" stat="mDef" val="85"/>
+    <add order="0x40" stat="maxMp" val="33"/><!-- Update by rocknow -->
+    <add order="0x10" stat="windRes" val="26"/><!-- Update by rocknow -->
     <enchant val="0" order="0x0C" stat="mDef"/>
   </for>
 </item>
 <item id="13751" name="Warrior's T-shirt">
   <for>
-    <add val="28" order="0x10" stat="pDef"/>
-    <enchant val="0" order="0x0C" stat="pDef"/>
+    <add order="0x10" stat="pDef" val="28"/>
+    <enchant order="0x0C" stat="pDef" val="0"/>
   </for>
 </item>
 <item id="13752" name="Olympiad Warrior's Ring">
   <for>
-    <add val="42" order="0x10" stat="mDef"/>
-    <enchant val="0" order="0x0C" stat="mDef"/>
+    <add order="0x10" stat="mDef" val="42"/>
+    <enchant order="0x0C" stat="mDef" val="0"/>
   </for>
 </item>
 <item id="13753" name="Olympiad Warrior's Necklace">
   <for>
-    <add val="85" order="0x10" stat="mDef"/>
-    <enchant val="0" order="0x0C" stat="mDef"/>
+    <add order="0x10" stat="mDef" val="85"/>
+    <enchant order="0x0C" stat="mDef" val="0"/>
   </for>
 </item>
 <item id="13754" name="Olympiad Warrior's Earring">
   <for>
-    <add val="63" order="0x10" stat="mDef"/>
-    <enchant val="0" order="0x0C" stat="mDef"/>
+    <add order="0x10" stat="mDef" val="63"/>
+    <enchant order="0x0C" stat="mDef" val="0"/>
   </for>
 </item>
 <item id="13756" name="Agathion Summon Bracelet - Knight">

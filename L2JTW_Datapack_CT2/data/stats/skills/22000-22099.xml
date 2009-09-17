@@ -177,6 +177,9 @@
   <set name="operateType" val="OP_ACTIVE"/>
   <set name="isPotion" val="true"/>
   <set name="buffDuration" val="300000"/>
+  <cond msgId="113" addName="1">
+    <player flyMounted="False"/>
+  </cond>
   <for>
     <effect name="Buff" time="300" val="0" abnormal="vitality">
       <sub order="0x40" stat="vitalityConsumeRate" val="10"/>

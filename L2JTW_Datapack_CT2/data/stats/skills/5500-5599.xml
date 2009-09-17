@@ -222,7 +222,7 @@
 <skill id="5538" levels="1" name="Little Angel Agathion Special Skill - Firecrackers">
   <set name="target" val="TARGET_SELF"/>
   <set name="skillType" val="DUMMY"/>
-  <set name="reuseDelay" val="30000"/><!-- Update by rocknow -->
+  <set name="reuseDelay" val="300000"/>
   <set name="staticReuse" val="true"/>
   <set name="staticHitTime" val="true"/>
   <set name="operateType" val="OP_ACTIVE"/>
@@ -257,7 +257,7 @@
 <skill id="5542" levels="1" name="Little Devil Agathion Special Skill - Firecrackers">
   <set name="target" val="TARGET_SELF"/>
   <set name="skillType" val="DUMMY"/>
-  <set name="reuseDelay" val="30000"/><!-- Update by rocknow -->
+  <set name="reuseDelay" val="300000"/>
   <set name="staticReuse" val="true"/>
   <set name="staticHitTime" val="true"/>
   <set name="operateType" val="OP_ACTIVE"/>
@@ -405,13 +405,11 @@
   </for>
 </skill>
 <skill id="5559" levels="1" name="Fighter's Will">
-  <!-- Update by rocknow -->
-  <set name="activationChance" val="5"/>
-  <set name="chanceType" val="ON_HIT"/>
+  <set name="magicLvl" val="81"/>
   <set name="operateType" val="OP_ACTIVE"/>
   <set name="skillType" val="BUFF"/>
   <set name="target" val="TARGET_SELF"/>
-  <cond>
+  <cond><!-- Update by rocknow -->
     <and>
       <not>
         <target active_effect_id="5559"/>
@@ -420,14 +418,13 @@
   </cond>
   <for>
     <effect name="Buff" time="10" val="0">
-      <mul order="0x30" stat="rCrit" val="1.1"/>
+      <basemul order="0x30" stat="rCrit" val="0.2"/>
     </effect>
   </for>
 </skill>
 <skill id="5560" levels="1" name="Archer's Will">
   <!-- Update by rocknow -->
-  <set name="activationChance" val="5"/>
-  <set name="chanceType" val="ON_HIT"/>
+  <set name="magicLvl" val="81"/>
   <set name="operateType" val="OP_ACTIVE"/>
   <set name="skillType" val="BUFF"/>
   <set name="target" val="TARGET_SELF"/>
@@ -440,7 +437,7 @@
   </cond>
   <for>
     <effect name="Buff" time="10" val="0">
-      <mul order="0x30" stat="rCrit" val="1.1"/>
+      <basemul order="0x30" stat="rCrit" val="0.2"/>
     </effect>
   </for>
 </skill>
@@ -448,7 +445,7 @@
   <table name="#stackOrder"> 2 3 4 </table>
   <table name="#activationChance"> 20 15 0 </table>
   <table name="#triggeredLevel"> 2 3 3 </table>
-  <table name="#rCrit"> 1 1.30 1.30 </table>
+  <table name="#rCrit"> 0.1 0.3 0.3 </table>
   <table name="#cAtk"> 1 1 1.35 </table>
   <set name="magicLvl" val="83"/>
   <set name="skillType" val="BUFF"/>
@@ -457,7 +454,7 @@
   <for>
     <effect name="ChanceSkillTrigger" time="20" triggeredId="5561" triggeredLevel="#triggeredLevel" activationChance="#activationChance" chanceType="ON_ATTACKED_HIT" stackOrder="#stackOrder" stackType="increaseTrigger" val="0">
       <add order="0x40" stat="pAtk" val="300"/>
-      <mul order="0x30" stat="rCrit" val="#rCrit"/>
+      <basemul order="0x30" stat="rCrit" val="#rCrit"/>
       <mul order="0x30" stat="cAtk" val="#cAtk"/>
     </effect>
   </for>
@@ -487,7 +484,7 @@
   <table name="#activationChance"> 20 15 0 </table>
   <table name="#triggeredLevel"> 2 3 3 </table>
   <table name="#waterPower"> 0 20 20 </table>
-  <table name="#rCrit"> 1 1 1.2 </table>
+  <table name="#rCrit"> 0.1 0.1 0.2 </table>
   <set name="magicLvl" val="83"/>
   <set name="skillType" val="BUFF"/>
   <set name="target" val="TARGET_SELF"/>
@@ -496,7 +493,7 @@
     <effect name="ChanceSkillTrigger" time="20" triggeredId="5563" triggeredLevel="#triggeredLevel" activationChance="#activationChance" chanceType="ON_ATTACKED_HIT" stackOrder="#stackOrder" stackType="increaseTrigger" val="0">
       <add order="0x40" stat="mDef" val="400"/>
       <add order="0x40" stat="waterPower" val="#waterPower"/>
-      <mul order="0x30" stat="rCrit" val="#rCrit"/>
+      <basemul order="0x30" stat="rCrit" val="#rCrit"/>
     </effect>
   </for>
 </skill>
@@ -541,9 +538,7 @@
 </skill>
 <skill id="5567" levels="1" name="Flame Armor">
   <!-- Update by rocknow -->
-  <set name="activationChance" val="10"/>
   <set name="castRange" val="300"/>
-  <set name="chanceType" val="ON_ATTACKED"/>
   <set name="target" val="TARGET_ONE"/>
   <set name="skillType" val="MDAM"/>
   <set name="effectRange" val="1400"/>
@@ -564,9 +559,7 @@
 </skill>
 <skill id="5568" levels="1" name="Frost Armor">
   <!-- Update by rocknow -->
-  <set name="activationChance" val="10"/>
   <set name="castRange" val="900"/>
-  <set name="chanceType" val="ON_ATTACKED"/>
   <set name="target" val="TARGET_ONE"/>
   <set name="skillType" val="DEBUFF"/>
   <set name="effectRange" val="1400"/>
@@ -588,9 +581,7 @@
 </skill>
 <skill id="5569" levels="1" name="Hurricane Armor">
   <!-- Update by rocknow -->
-  <set name="activationChance" val="10"/>
   <set name="castRange" val="900"/>
-  <set name="chanceType" val="ON_ATTACKED"/>
   <set name="target" val="TARGET_ONE"/>
   <set name="skillType" val="DEBUFF"/>
   <set name="effectRange" val="1400"/>
@@ -813,7 +804,7 @@
 </skill>
 <skill id="5588" levels="3" name="Pet Focus">
   <table name="#mpConsume"> 23 39 48 </table>
-  <table name="#Tab-rCrit"> 0.2 0.25 0.3 </table>
+  <table name="#rCrit"> 0.2 0.25 0.3 </table>
   <table name="#aggro"> 243 418 495 </table>
   <set name="mpConsume" val="#mpConsume"/>
   <set name="target" val="TARGET_OWNER_PET"/>
@@ -826,8 +817,8 @@
   <set name="effectRange" val="900"/>
   <set name="aggroPoints" val="#aggro"/>
   <for>
-    <effect name="Buff" time="120" val="0" stackOrder="#Tab-rCrit" stackType="critical_prob_up">
-      <basemul order="0x30" stat="rCrit" val="#Tab-rCrit"/>
+    <effect name="Buff" time="120" val="0" stackOrder="#rCrit" stackType="critical_prob_up">
+      <basemul order="0x30" stat="rCrit" val="#rCrit"/>
     </effect>
   </for>
 </skill>

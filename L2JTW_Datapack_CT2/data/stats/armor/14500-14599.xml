@@ -2,101 +2,101 @@
 <list>
 <item id="14520" name="Vesper Breastplate {PvP}">
   <for>
-    <add val="250" order="0x10" stat="pDef"/>
-    <enchant val="0" order="0x0C" stat="pDef"/>
+    <add order="0x10" stat="pDef" val="250"/>
+    <enchant order="0x0C" stat="pDef" val="0"/>
   </for>
 </item>
 <item id="14521" name="Vesper Leather Breastplate {PvP}">
   <for>
-    <add val="187" order="0x10" stat="pDef"/>
-    <enchant val="0" order="0x0C" stat="pDef"/>
+    <add order="0x10" stat="pDef" val="187"/>
+    <enchant order="0x0C" stat="pDef" val="0"/>
   </for>
 </item>
 <item id="14522" name="Vesper Tunic {PvP}">
   <for>
-    <add val="125" order="0x10" stat="pDef"/>
-    <add val="637" order="0x40" stat="maxMp"/>
-    <enchant val="0" order="0x0C" stat="pDef"/>
+    <add order="0x10" stat="pDef" val="125"/>
+    <add order="0x40" stat="maxMp" val="637"/>
+    <enchant order="0x0C" stat="pDef" val="0"/>
   </for>
 </item>
 <item id="14523" name="Vesper Noble Breastplate {PvP}">
   <for>
-    <add val="250" order="0x10" stat="pDef"/>
-    <enchant val="0" order="0x0C" stat="pDef"/>
+    <add order="0x10" stat="pDef" val="250"/>
+    <enchant order="0x0C" stat="pDef" val="0"/>
   </for>
 </item>
 <item id="14524" name="Vesper Noble Leather Breastplate {PvP}">
   <for>
-    <add val="187" order="0x10" stat="pDef"/>
-    <enchant val="0" order="0x0C" stat="pDef"/>
+    <add order="0x10" stat="pDef" val="187"/>
+    <enchant order="0x0C" stat="pDef" val="0"/>
   </for>
 </item>
 <item id="14525" name="Vesper Noble Tunic {PvP}">
   <for>
-    <add val="125" order="0x10" stat="pDef"/>
-    <add val="637" order="0x40" stat="maxMp"/>
-    <enchant val="0" order="0x0C" stat="pDef"/>
+    <add order="0x10" stat="pDef" val="125"/>
+    <add order="0x40" stat="maxMp" val="637"/>
+    <enchant order="0x0C" stat="pDef" val="0"/>
   </for>
 </item>
 <item id="14582" name="Apella Combat Helmet">
   <for>
-    <add val="73" order="0x10" stat="pDef"/>
-    <enchant val="0" order="0x0C" stat="pDef"/>
+    <add order="0x10" stat="pDef" val="73"/>
+    <enchant order="0x0C" stat="pDef" val="0"/>
   </for>
 </item>
 <item id="14583" name="Apella Combat Armor">
   <for>
-    <add val="293" order="0x10" stat="pDef"/>
-    <enchant val="0" order="0x0C" stat="pDef"/>
+    <add order="0x10" stat="pDef" val="293"/>
+    <enchant order="0x0C" stat="pDef" val="0"/>
   </for>
 </item>
 <item id="14584" name="Apella Combat Gauntlet - Heavy Armor Use">
   <for>
-    <add val="49" order="0x10" stat="pDef"/>
-    <enchant val="0" order="0x0C" stat="pDef"/>
+    <add order="0x10" stat="pDef" val="49"/>
+    <enchant order="0x0C" stat="pDef" val="0"/>
   </for>
 </item>
 <item id="14585" name="Apella Combat Boots - Heavy Armor Use">
   <for>
-    <add val="49" order="0x10" stat="pDef"/>
-    <enchant val="0" order="0x0C" stat="pDef"/>
+    <add order="0x10" stat="pDef" val="49"/>
+    <enchant order="0x0C" stat="pDef" val="0"/>
   </for>
 </item>
 <item id="14586" name="Apella Combat Clothes">
   <for>
-    <add val="220" order="0x10" stat="pDef"/>
-    <enchant val="0" order="0x0C" stat="pDef"/>
+    <add order="0x10" stat="pDef" val="220"/>
+    <enchant order="0x0C" stat="pDef" val="0"/>
   </for>
 </item>
 <item id="14587" name="Apella Combat Leather Gloves - Tans Armor Use">
   <for>
-    <add val="49" order="0x10" stat="pDef"/>
-    <enchant val="0" order="0x0C" stat="pDef"/>
+    <add order="0x10" stat="pDef" val="49"/>
+    <enchant order="0x0C" stat="pDef" val="0"/>
   </for>
 </item>
 <item id="14588" name="Apella Combat Shoes - Tans Armor Use">
   <for>
-    <add val="49" order="0x10" stat="pDef"/>
-    <enchant val="0" order="0x0C" stat="pDef"/>
+    <add order="0x10" stat="pDef" val="49"/>
+    <enchant order="0x0C" stat="pDef" val="0"/>
   </for>
 </item>
 <item id="14589" name="Apella Combat Overcoat">
   <for>
-    <add val="147" order="0x10" stat="pDef"/>
-    <add val="718" order="0x40" stat="maxMp"/><!-- Update by rocknow -->
-    <enchant val="0" order="0x0C" stat="pDef"/>
+    <add order="0x10" stat="pDef" val="147"/>
+    <add order="0x40" stat="maxMp" val="718"/><!-- Update by rocknow -->
+    <enchant order="0x0C" stat="pDef" val="0"/>
   </for>
 </item>
 <item id="14590" name="Apella Combat Silk Gloves - Robe Use">
   <for>
-    <add val="49" order="0x10" stat="pDef"/>
-    <enchant val="0" order="0x0C" stat="pDef"/>
+    <add order="0x10" stat="pDef" val="49"/>
+    <enchant order="0x0C" stat="pDef" val="0"/>
   </for>
 </item>
 <item id="14591" name="Apella Combat Sandals - Robe Use">
   <for>
-    <add val="49" order="0x10" stat="pDef"/>
-    <enchant val="0" order="0x0C" stat="pDef"/>
+    <add order="0x10" stat="pDef" val="49"/>
+    <enchant order="0x0C" stat="pDef" val="0"/>
   </for>
 </item>
 <item id="14592" name="Gludio Earth Protection Ring">
@@ -105,9 +105,9 @@
     <player castle ="1"/>
   </cond>
   <for>
-    <add val="42" order="0x10" stat="mDef"/>
-    <add val="17" order="0x40" stat="maxMp"/><!-- Update by rocknow -->
-    <add val="12" order="0x10" stat="earthRes"/><!-- Update by rocknow -->
+    <add order="0x10" stat="mDef" val="42"/>
+    <add order="0x40" stat="maxMp" val="17"/><!-- Update by rocknow -->
+    <add order="0x10" stat="earthRes" val="12"/><!-- Update by rocknow -->
     <enchant val="0" order="0x0C" stat="mDef"/>
   </for>
 </item>
@@ -117,9 +117,9 @@
     <player castle ="2"/>
   </cond>
   <for>
-    <add val="42" order="0x10" stat="mDef"/>
-    <add val="17" order="0x40" stat="maxMp"/><!-- Update by rocknow -->
-    <add val="12" order="0x10" stat="waterRes"/><!-- Update by rocknow -->
+    <add order="0x10" stat="mDef" val="42"/>
+    <add order="0x40" stat="maxMp" val="17"/><!-- Update by rocknow -->
+    <add order="0x10" stat="waterRes" val="12"/><!-- Update by rocknow -->
     <enchant val="0" order="0x0C" stat="mDef"/>
   </for>
 </item>
@@ -129,9 +129,9 @@
     <player castle ="3"/>
   </cond>
   <for>
-    <add val="42" order="0x10" stat="mDef"/>
-    <add val="17" order="0x40" stat="maxMp"/><!-- Update by rocknow -->
-    <add val="12" order="0x10" stat="fireRes"/><!-- Update by rocknow -->
+    <add order="0x10" stat="mDef" val="42"/>
+    <add order="0x40" stat="maxMp" val="17"/><!-- Update by rocknow -->
+    <add order="0x10" stat="fireRes" val="12"/><!-- Update by rocknow -->
     <enchant val="0" order="0x0C" stat="mDef"/>
   </for>
 </item>
@@ -141,9 +141,9 @@
     <player castle ="4"/>
   </cond>
   <for>
-    <add val="42" order="0x10" stat="mDef"/>
-    <add val="17" order="0x40" stat="maxMp"/><!-- Update by rocknow -->
-    <add val="12" order="0x10" stat="earthRes"/><!-- Update by rocknow -->
+    <add order="0x10" stat="mDef" val="42"/>
+    <add order="0x40" stat="maxMp" val="17"/><!-- Update by rocknow -->
+    <add order="0x10" stat="earthRes" val="12"/><!-- Update by rocknow -->
     <enchant val="0" order="0x0C" stat="mDef"/>
   </for>
 </item>
@@ -153,9 +153,9 @@
     <player castle ="5"/>
   </cond>
   <for>
-    <add val="42" order="0x10" stat="mDef"/>
-    <add val="17" order="0x40" stat="maxMp"/><!-- Update by rocknow -->
-    <add val="12" order="0x10" stat="holyRes"/><!-- Update by rocknow -->
+    <add order="0x10" stat="mDef" val="42"/>
+    <add order="0x40" stat="maxMp" val="17"/><!-- Update by rocknow -->
+    <add order="0x10" stat="holyRes" val="12"/><!-- Update by rocknow -->
     <enchant val="0" order="0x0C" stat="mDef"/>
   </for>
 </item>
@@ -165,9 +165,9 @@
     <player castle ="6"/>
   </cond>
   <for>
-    <add val="42" order="0x10" stat="mDef"/>
-    <add val="17" order="0x40" stat="maxMp"/><!-- Update by rocknow -->
-    <add val="12" order="0x10" stat="holyRes"/><!-- Update by rocknow -->
+    <add order="0x10" stat="mDef" val="42"/>
+    <add order="0x40" stat="maxMp" val="17"/><!-- Update by rocknow -->
+    <add order="0x10" stat="holyRes" val="12"/><!-- Update by rocknow -->
     <enchant val="0" order="0x0C" stat="mDef"/>
   </for>
 </item>
@@ -177,9 +177,9 @@
     <player castle ="7"/>
   </cond>
   <for>
-    <add val="42" order="0x10" stat="mDef"/>
-    <add val="17" order="0x40" stat="maxMp"/><!-- Update by rocknow -->
-    <add val="12" order="0x10" stat="darkRes"/><!-- Update by rocknow -->
+    <add order="0x10" stat="mDef" val="42"/>
+    <add order="0x40" stat="maxMp" val="17"/><!-- Update by rocknow -->
+    <add order="0x10" stat="darkRes" val="12"/><!-- Update by rocknow -->
     <enchant val="0" order="0x0C" stat="mDef"/>
   </for>
 </item>
@@ -189,9 +189,9 @@
     <player castle ="8"/>
   </cond>
   <for>
-    <add val="42" order="0x10" stat="mDef"/>
-    <add val="17" order="0x40" stat="maxMp"/><!-- Update by rocknow -->
-    <add val="12" order="0x10" stat="windRes"/><!-- Update by rocknow -->
+    <add order="0x10" stat="mDef" val="42"/>
+    <add order="0x40" stat="maxMp" val="17"/><!-- Update by rocknow -->
+    <add order="0x10" stat="windRes" val="12"/><!-- Update by rocknow -->
     <enchant val="0" order="0x0C" stat="mDef"/>
   </for>
 </item>

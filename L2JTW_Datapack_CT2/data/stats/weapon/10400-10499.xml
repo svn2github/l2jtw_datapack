@@ -172,8 +172,8 @@
   <for>
     <set val="363" order="0x08" stat="pAtk"/>
     <set val="163" order="0x08" stat="mAtk"/>
-    <set val="8" order="0x08" stat="rCrit"/><!-- Update by rocknow -->
-    <add val="-3" order="0x10" stat="accCombat"/><!-- Update by rocknow -->
+    <set val="8" order="0x08" stat="rCrit"/>
+    <add val="-3" order="0x10" stat="accCombat"/>
     <set val="325" order="0x08" stat="pAtkSpd"/>
     <enchant val="0" order="0x0C" stat="pAtk"/>
     <enchant val="0" order="0x0C" stat="mAtk"/>
@@ -183,8 +183,8 @@
   <for>
     <set val="363" order="0x08" stat="pAtk"/>
     <set val="163" order="0x08" stat="mAtk"/>
-   <set val="8" order="0x08" stat="rCrit"/><!-- Update by rocknow -->
-   <add val="-3" order="0x10" stat="accCombat"/><!-- Update by rocknow -->
+    <set val="8" order="0x08" stat="rCrit"/>
+    <add val="-3" order="0x10" stat="accCombat"/>
     <set val="325" order="0x08" stat="pAtkSpd"/>
     <enchant val="0" order="0x0C" stat="pAtk"/>
     <enchant val="0" order="0x0C" stat="mAtk"/>
@@ -194,8 +194,8 @@
   <for>
     <set val="363" order="0x08" stat="pAtk"/>
     <set val="163" order="0x08" stat="mAtk"/>
-   <set val="8" order="0x08" stat="rCrit"/><!-- Update by rocknow -->
-   <add val="-3" order="0x10" stat="accCombat"/><!-- Update by rocknow -->
+    <set val="8" order="0x08" stat="rCrit"/>
+    <add val="-3" order="0x10" stat="accCombat"/>
     <set val="325" order="0x08" stat="pAtkSpd"/>
     <enchant val="0" order="0x0C" stat="pAtk"/>
     <enchant val="0" order="0x0C" stat="mAtk"/>
@@ -381,10 +381,10 @@
 </item>
 <item id="10468" name="Icarus Shooter - Guidance">
   <for>
-   <set val="422" order="0x08" stat="pAtk"/><!-- Update by rocknow -->
+    <set val="422" order="0x08" stat="pAtk"/><!-- Update by rocknow -->
     <set val="163" order="0x08" stat="mAtk"/> 
     <set val="10" order="0x08" stat="rCrit"/>
-   <add val="-1" order="0x10" stat="accCombat"/><!-- Update by rocknow -->
+    <add val="-1" order="0x10" stat="accCombat"/><!-- Update by rocknow -->
     <set val="303" order="0x08" stat="pAtkSpd"/>
     <enchant val="0" order="0x0C" stat="pAtk"/>
     <enchant val="0" order="0x0C" stat="mAtk"/>
@@ -392,10 +392,10 @@
 </item>
 <item id="10469" name="Icarus Shooter - Focus">
   <for>
-   <set val="422" order="0x08" stat="pAtk"/><!-- Update by rocknow -->
+    <set val="422" order="0x08" stat="pAtk"/><!-- Update by rocknow -->
     <set val="163" order="0x08" stat="mAtk"/> 
     <set val="10" order="0x08" stat="rCrit"/>
-   <add val="-1" order="0x10" stat="accCombat"/><!-- Update by rocknow -->
+    <add val="-1" order="0x10" stat="accCombat"/><!-- Update by rocknow -->
     <set val="303" order="0x08" stat="pAtkSpd"/>
     <enchant val="0" order="0x0C" stat="pAtk"/>
     <enchant val="0" order="0x0C" stat="mAtk"/>

@@ -46,6 +46,7 @@ public class ChatAll implements IChatHandler
 	 */
 	public void handleChat(int type, L2PcInstance activeChar, String target, String text)
 	{
+		boolean vcd_used = false;
 		if (text.startsWith("."))
 		{
 			StringTokenizer st = new StringTokenizer(text);
@@ -68,26 +69,16 @@ public class ChatAll implements IChatHandler
 			if (vch != null)
 			{
 				vch.useVoicedCommand(command, activeChar, target);
+				vcd_used = true;
 			}
 			else
 			{
 				if (Config.DEBUG)
 					_log.warning("No handler registered for bypass '" + command + "'");
-
-				CreatureSay cs = new CreatureSay(activeChar.getObjectId(), type, activeChar.getAppearance().getVisibleName(), text);
-				
-					for (L2PcInstance player : activeChar.getKnownList().getKnownPlayers().values())
-					{
-						if (player != null && activeChar.isInsideRadius(player, 1250, false, true) && !BlockList.isBlocked(player, activeChar))
-						{
-							player.sendPacket(cs);
-						}
-					}				
-				
-				activeChar.sendPacket(cs);
+				vcd_used = false;
 			}
 		}
-		else
+		if (!vcd_used)
 		{
 			CreatureSay cs = new CreatureSay(activeChar.getObjectId(), type, activeChar.getAppearance().getVisibleName(), text);
 			

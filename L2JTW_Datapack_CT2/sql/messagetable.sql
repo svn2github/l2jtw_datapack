@@ -1,4 +1,4 @@
-﻿Set Names utf8;
+Set Names utf8;
 -- ----------------------------
 -- Table structure for messagetable
 -- ----------------------------
@@ -122,7 +122,7 @@ INSERT INTO `messagetable` VALUES ('34', 'cn', '管理者移除你的全部技�
 INSERT INTO `messagetable` VALUES ('35', 'en', 'Admin removed the skill from your skills list.', null);
 INSERT INTO `messagetable` VALUES ('35', 'tw', '管理者移除你的技能。', null);
 INSERT INTO `messagetable` VALUES ('35', 'cn', '管理者移除你的技能。', null);
-INSERT INTO `messagetable` VALUES ('36', 'en', 'After $1 min. you will be teleported to your fiance.', null);
+INSERT INTO `messagetable` VALUES ('36', 'en', 'After $1 min. you will be teleported to your partner.', null);
 INSERT INTO `messagetable` VALUES ('36', 'tw', '$1 分鐘之後，將傳送到你的伴侶身邊。', null);
 INSERT INTO `messagetable` VALUES ('36', 'cn', '$1 分钟之后，将传送到你的伴侣身边。', null);
 INSERT INTO `messagetable` VALUES ('37', 'en', 'All NPC walker routes have been reloaded', null);
@@ -1647,8 +1647,8 @@ INSERT INTO `messagetable` VALUES ('543', 'en', 'In Progress', null);
 INSERT INTO `messagetable` VALUES ('543', 'tw', '進行中', null);
 INSERT INTO `messagetable` VALUES ('543', 'cn', '进行中', null);
 INSERT INTO `messagetable` VALUES ('544', 'en', 'You have spawned $1 item(s) number $2 in your inventory.', null);
-INSERT INTO `messagetable` VALUES ('544', 'tw', '創造 $1 個 ID-$2 的物品。', null);
-INSERT INTO `messagetable` VALUES ('544', 'cn', '创造 $1 个 ID-$2 的物品。', null);
+INSERT INTO `messagetable` VALUES ('544', 'tw', '創造「$1」個「$3」(ID $2)。', null);
+INSERT INTO `messagetable` VALUES ('544', 'cn', '创造「$1」个「$3」(ID $2)。', null);
 INSERT INTO `messagetable` VALUES ('545', 'en', 'Arena ', null);
 INSERT INTO `messagetable` VALUES ('545', 'tw', '競技場 ', null);
 INSERT INTO `messagetable` VALUES ('545', 'cn', '竞技场 ', null);

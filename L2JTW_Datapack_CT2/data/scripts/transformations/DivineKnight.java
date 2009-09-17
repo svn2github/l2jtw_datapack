@@ -9,7 +9,7 @@ public class DivineKnight extends L2Transformation
 	public DivineKnight()
 	{
 		// id, colRadius, colHeight
-		super(252, 33, 30);
+		super(252, 16, 30);
 	}
 
 	public void onTransform()
@@ -62,7 +62,7 @@ public class DivineKnight extends L2Transformation
 		// Divine Knight Thunder Storm
 		getPlayer().removeSkill(SkillTable.getInstance().getInfo(683, 1), false);
 		// Divine Knight Ultimate Defense
-		getPlayer().removeSkill(SkillTable.getInstance().getInfo(684, 1), false);
+		getPlayer().removeSkill(SkillTable.getInstance().getInfo(684, 1), false, false);
 		// Sacrifice Knight
 		getPlayer().removeSkill(SkillTable.getInstance().getInfo(685, 1), false);
 		// Divine Knight Brandish

@@ -21,6 +21,8 @@ class Quest (JQuest) :
     st = player.getQuestState(qn)
     if not st: return
     if event:
+       if player.getLevel() < 75:
+          return "32632-3.htm"
        if st.getQuestItemsCount(57) >= 150000 :
           st.takeItems(57,150000)
           player.teleToLocation(-149406, 255247, -80)
@@ -31,11 +33,7 @@ class Quest (JQuest) :
    st = player.getQuestState(qn)
    if not st :
       return ""
-   elif player.getLevel() < 75 : # pmq ¸É¥R
-      return "32632-0.htm"
-      st.exitQuest(1)
-   else :
-      return "32632-1.htm"
+   return "32632-1.htm"
 
 QUEST       = Quest(-1,qn,"Teleports")
 QUEST.addStartNpc(32632)

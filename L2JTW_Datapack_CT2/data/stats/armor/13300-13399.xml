@@ -65,50 +65,50 @@
 </item>
 <item id="13389" name="Kratei Barbed Shirt - CP">
   <for>
-    <add val="23" order="0x10" stat="pDef"/>
-    <!-- Update by rocknow from L2Emu -->
-    <add val="516" order="0x40" stat="maxCp">
+    <add order="0x10" stat="pDef" val="23"/>
+    <enchant order="0x0C" stat="pDef" val="0"/>
+    <!-- Update by rocknow -->
+    <add order="0x40" stat="maxCp" val="516">
       <and>
         <using slotitem="13389;0;4"/>
       </and>
     </add>
-    <enchant val="0" order="0x0C" stat="pDef"/>
   </for>
 </item>
 <item id="13390" name="Kratei Mithril Shirt - CP">
   <for>
-    <add val="28" order="0x10" stat="pDef"/>
-    <!-- Update by rocknow from L2Emu -->
-    <add val="672" order="0x40" stat="maxCp">
+    <add order="0x10" stat="pDef" val="28"/>
+    <enchant order="0x0C" stat="pDef" val="0"/>
+    <!-- Update by rocknow -->
+    <add order="0x40" stat="maxCp" val="672">
       <and>
         <using slotitem="13390;0;4"/>
       </and>
     </add>
-    <enchant val="0" order="0x0C" stat="pDef"/>
   </for>
 </item>
 <item id="13391" name="Kratei Striped Barbed Shirt - CP">
   <for>
-    <add val="26" order="0x10" stat="pDef"/>
-    <!-- Update by rocknow from L2Emu -->
-    <add val="564" order="0x40" stat="maxCp">
+    <add order="0x10" stat="pDef" val="26"/>
+    <enchant order="0x0C" stat="pDef" val="0"/>
+    <!-- Update by rocknow -->
+    <add order="0x40" stat="maxCp" val="564">
       <and>
         <using slotitem="13391;0;4"/>
       </and>
     </add>
-    <enchant val="0" order="0x0C" stat="pDef"/>
   </for>
 </item>
 <item id="13392" name="Kratei Striped Mithril Shirt - CP">
   <for>
-    <add val="30" order="0x10" stat="pDef"/>
-    <!-- Update by rocknow from L2Emu -->
-    <add val="744" order="0x40" stat="maxCp">
+    <add order="0x10" stat="pDef" val="30"/>
+    <enchant order="0x0C" stat="pDef" val="0"/>
+    <!-- Update by rocknow -->
+    <add order="0x40" stat="maxCp" val="744">
       <and>
         <using slotitem="13392;0;4"/>
       </and>
     </add>
-    <enchant val="0" order="0x0C" stat="pDef"/>
   </for>
 </item>
 <item id="13393" name="Shadow Item - Monkey Hat">
