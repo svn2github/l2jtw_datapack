@@ -891,8 +891,9 @@
 		<stat name="oustY" val="-88280"/><!-- Update by rocknow -->
 		<stat name="oustZ" val="-2915"/><!-- Update by rocknow -->
 	</zone>
-	<zone id="12005" type="BossZone" shape="NPoly" minZ="-5120" maxZ="-2500">
+	<zone id="12005" type="BossZone" shape="Cuboid" minZ="-5130" maxZ="-2500"><!-- Update by rocknow -->
 		<stat name="name" val="Lair of Frintezza"/>
+		<stat name="InvadeTime" val="1800000"/><!-- Update by rocknow -->
 	</zone>
 	<zone id="12006" type="BossZone" shape="Cuboid" minZ="-8320" maxZ="-4870">
 		<stat name="name" val="Lair of Antharas"/>

@@ -1744,7 +1744,6 @@ DROP TABLE IF EXISTS grandboss_intervallist;
 DROP TABLE IF EXISTS lastimperialtomb_spawnlist;
 DROP TABLE IF EXISTS seven_signs_spawnlist;
 DROP TABLE IF EXISTS vanhalter_spawnlist;
-Delete From `grandboss_data` Where `boss_id` in (29045,29062);
 
 
 /************ 以下是參考 L2EmuProject-Datapack 所製作的修正 ************/
