@@ -1039,6 +1039,7 @@ public class Frintezza extends L2AttackableAIScript
 				}
 				else if (_OnSong == 5 && _ThirdMorph == 1 && _OnFloat == 0)
 				{
+					_OnDance = 1;
 					_Zone.broadcastPacket(new MagicSkillUse(frintezza, frintezza, 5007, 5, 35000, 0));
 					this.startQuestTimer("songs_effect", 5000, frintezza, null);
 					this.startQuestTimer("songs_play", 35000 + Rnd.get(10000), frintezza, null);
