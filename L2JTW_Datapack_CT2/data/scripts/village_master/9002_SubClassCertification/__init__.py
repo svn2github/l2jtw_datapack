@@ -121,17 +121,17 @@ class Quest (JQuest) :
      else:
        return "9002-03.htm"
    elif event == "Obtain65":
-     html = "<html><body>Subclass Skill Certification:<br>You are trying to obtain level %level% certification of %class%, %skilltype%. Remember that once this subclass is certified, it cannot be re-certified -- even if you delete this class and develop another one -- without a special and expensive cancellation process.<br>Do you still want to be certified?<br><a action=\"bypass -h Quest 9002_SubClassCertification %event%\">Obtain certification.</a><br><a action=\"bypass -h Quest 9002_SubClassCertification 9002-05.htm\">Do not obtain certification.</a></body></html>"
-     htmltext = html.replace("%level%","65").replace("%class%",str(CharTemplateTable.getInstance().getClassNameById(player.getActiveClass()))).replace("%skilltype%","common skill").replace("%event%","lvl65Emergent")
+     html = "<html><body>副職業實力認證：<br>你打算接受%class%等級%level%的認證-%skilltype%。切記！一旦領取這個認證的話，除了用特別的方法取消認證之前，就算刪除這個職業後重新培養後再來，也無法再次得到認證。<br>那麼，要接受認證嗎？<br><a action=\"bypass -h Quest 9002_SubClassCertification %event%\">接受認證</a><br><a action=\"bypass -h Quest 9002_SubClassCertification 9002-05.htm\">不接受認證</a></body></html>"
+     htmltext = html.replace("%level%","65").replace("%class%",str(CharTemplateTable.getInstance().getClassNameById(player.getActiveClass()))).replace("%skilltype%","共同技能").replace("%event%","lvl65Emergent")
    elif event == "Obtain70":
-     html = "<html><body>Subclass Skill Certification:<br>You are trying to obtain level %level% certification of %class%, %skilltype%. Remember that once this subclass is certified, it cannot be re-certified -- even if you delete this class and develop another one -- without a special and expensive cancellation process.<br>Do you still want to be certified?<br><a action=\"bypass -h Quest 9002_SubClassCertification %event%\">Obtain certification.</a><br><a action=\"bypass -h Quest 9002_SubClassCertification 9002-05.htm\">Do not obtain certification.</a></body></html>"
-     htmltext = html.replace("%level%","70").replace("%class%",str(CharTemplateTable.getInstance().getClassNameById(player.getActiveClass()))).replace("%skilltype%","common skill").replace("%event%","lvl70Emergent")
+     html = "<html><body>副職業實力認證：<br>你打算接受%class%等級%level%的認證-%skilltype%。切記！一旦領取這個認證的話，除了用特別的方法取消認證之前，就算刪除這個職業後重新培養後再來，也無法再次得到認證。<br>那麼，要接受認證嗎？<br><a action=\"bypass -h Quest 9002_SubClassCertification %event%\">接受認證</a><br><a action=\"bypass -h Quest 9002_SubClassCertification 9002-05.htm\">不接受認證</a></body></html>"
+     htmltext = html.replace("%level%","70").replace("%class%",str(CharTemplateTable.getInstance().getClassNameById(player.getActiveClass()))).replace("%skilltype%","共同技能").replace("%event%","lvl70Emergent")
    elif event == "Obtain75":
-     html = "<html><body>Subclass Skill Certification:<br>You are trying to obtain level %level% certification of %class%, %skilltype%. Remember that once this subclass is certified, it cannot be re-certified -- even if you delete this class and develop another one -- without a special and expensive cancellation process.<br>Do you still want to be certified?<br><a action=\"bypass -h Quest 9002_SubClassCertification %event1%\">Obtain class specific skill certification.</a><br><a action=\"bypass -h Quest 9002_SubClassCertification %event2%\">Obtain master skill certification.</a><br><a action=\"bypass -h Quest 9002_SubClassCertification 9002-05.htm\">Do not obtain certification.</a></body></html>"
-     htmltext = html.replace("%level%","75").replace("%class%",str(CharTemplateTable.getInstance().getClassNameById(player.getActiveClass()))).replace("%skilltype%","common skill or special skill").replace("%event1%","lvl75Class").replace("%event2%","lvl75Master")
+     html = "<html><body>副職業實力認證：<br>你打算接受%class%等級%level%的認證-%skilltype%。切記！一旦領取這個認證的話，除了用特別的方法取消認證之前，就算刪除這個職業後重新培養後再來，也無法再次得到認證。<br>那麼，要接受認證嗎？<br><a action=\"bypass -h Quest 9002_SubClassCertification %event1%\">接受共同認證</a><br><a action=\"bypass -h Quest 9002_SubClassCertification %event2%\">接受特殊認證</a><br><a action=\"bypass -h Quest 9002_SubClassCertification 9002-05.htm\">不接受認證</a></body></html>"
+     htmltext = html.replace("%level%","75").replace("%class%",str(CharTemplateTable.getInstance().getClassNameById(player.getActiveClass()))).replace("%skilltype%","共同、特殊技能").replace("%event1%","lvl75Class").replace("%event2%","lvl75Master")
    elif event == "Obtain80":
-     html = "<html><body>Subclass Skill Certification:<br>You are trying to obtain level %level% certification of %class%, %skilltype%. Remember that once this subclass is certified, it cannot be re-certified -- even if you delete this class and develop another one -- without a special and expensive cancellation process.<br>Do you still want to be certified?<br><a action=\"bypass -h Quest 9002_SubClassCertification %event%\">Obtain certification.</a><br><a action=\"bypass -h Quest 9002_SubClassCertification 9002-05.htm\">Do not obtain certification.</a></body></html>"
-     htmltext = html.replace("%level%","80").replace("%class%",str(CharTemplateTable.getInstance().getClassNameById(player.getActiveClass()))).replace("%skilltype%","transformation skill").replace("%event%","lvl80Class") 
+     html = "<html><body>副職業實力認證：<br>你打算接受%class%等級%level%的認證-%skilltype%。切記！一旦領取這個認證的話，除了用特別的方法取消認證之前，就算刪除這個職業後重新培養後再來，也無法再次得到認證。<br>那麼，要接受認證嗎？<br><a action=\"bypass -h Quest 9002_SubClassCertification %event%\">接受認證</a><br><a action=\"bypass -h Quest 9002_SubClassCertification 9002-05.htm\">不接受認證</a></body></html>"
+     htmltext = html.replace("%level%","80").replace("%class%",str(CharTemplateTable.getInstance().getClassNameById(player.getActiveClass()))).replace("%skilltype%","終極技能").replace("%event%","lvl80Class") 
    elif event.startswith("lvl"):
      level = int(event[3:5])
      type = event.replace(event[0:5],"")
@@ -147,7 +147,7 @@ class Quest (JQuest) :
              getCertified(player, itemId, var)
              return "9002-07.htm"
            else:
-             html = "<html><body>Subclass Skill Certification:<br>You are not yet ready to receive your level %level% certification. Work hard and come back later.</body></html>"
+             html = "<html><body>副職業實力認證：<br>你的實力還不到可以領取等級%level%的認證，更加培養一下實力再來吧。</body></html>"
              htmltext = html.replace("%level%",(event[3:5]))
              return htmltext
          else:
@@ -160,7 +160,7 @@ class Quest (JQuest) :
              getCertified(player, itemId, var)
              return "9002-07.htm"
            else:
-             html = "<html><body>Subclass Skill Certification:<br>You are not yet ready to receive your level %level% certification. Work hard and come back later.</body></html>"
+             html = "<html><body>副職業實力認證：<br>你的實力還不到可以領取等級%level%的認證，更加培養一下實力再來吧。</body></html>"
              htmltext = html.replace("%level%",(event[3:5]))
              return htmltext
          else:
@@ -174,7 +174,7 @@ class Quest (JQuest) :
            getCertified(player, itemId, var)
            return "9002-07.htm"
          else:
-           html = "<html><body>Subclass Skill Certification:<br>You are not yet ready to receive your level %level% certification. Work hard and come back later.</body></html>"
+           html = "<html><body>副職業實力認證：<br>你的實力還不到可以領取等級%level%的認證，更加培養一下實力再來吧。</body></html>"
            htmltext = html.replace("%level%",(event[3:5]))
            return htmltext
        else:
@@ -189,7 +189,7 @@ class Quest (JQuest) :
              getCertified(player, itemId, var)
              return "9002-07.htm"
            else:
-             html = "<html><body>Subclass Skill Certification:<br>You are not yet ready to receive your level %level% certification. Work hard and come back later.</body></html>"
+             html = "<html><body>副職業實力認證：<br>你的實力還不到可以領取等級%level%的認證，更加培養一下實力再來吧。</body></html>"
              htmltext = html.replace("%level%",(event[3:5]))
              return htmltext
          else:
@@ -203,7 +203,7 @@ class Quest (JQuest) :
              getCertified(player, itemId, var)
              return "9002-07.htm"
            else:
-             html = "<html><body>Subclass Skill Certification:<br>You are not yet ready to receive your level %level% certification. Work hard and come back later.</body></html>"
+             html = "<html><body>副職業實力認證：<br>你的實力還不到可以領取等級%level%的認證，更加培養一下實力再來吧。</body></html>"
              htmltext = html.replace("%level%",(event[3:5]))
              return htmltext
          else:
