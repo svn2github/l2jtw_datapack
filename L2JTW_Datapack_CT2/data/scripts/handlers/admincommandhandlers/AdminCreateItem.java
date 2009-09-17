@@ -109,6 +109,7 @@ public class AdminCreateItem implements IAdminCommandHandler
 		L2CoreMessage cm =  new L2CoreMessage (MessageTable.Messages[544]);
 		cm.addNumber(num);
 		cm.addNumber(id);
+		cm.addItemName(id);
 		cm.sendMessage(activeChar);
 	}
 }
