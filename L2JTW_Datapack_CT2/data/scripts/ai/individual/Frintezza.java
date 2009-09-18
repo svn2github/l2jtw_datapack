@@ -238,8 +238,7 @@ public class Frintezza extends L2AttackableAIScript
 	private static int _CheckDie = 0;
 	private static int _OnCheck = 0;
 	private static int _OnSong = 0;
-	private static int _OnDance = 0;
-	private static int _OnFloat = 0;
+	private static int _Abnormal = 0;
 	private static int _OnMorph = 0;
 	private static int _Scarlet_x = 0;
 	private static int _Scarlet_y = 0;
@@ -299,7 +298,7 @@ public class Frintezza extends L2AttackableAIScript
 		{
 			this.startQuestTimer("close", 27000, npc, null);
 			this.startQuestTimer("camera_1", 30000, npc, null);
-			_Zone.broadcastPacket(new Earthquake(174232, -88020, -5116, 27, 15));
+			_Zone.broadcastPacket(new Earthquake(174232, -88020, -5116, 45, 27));
 		}
 		else if (event.equalsIgnoreCase("room1_spawn"))
 		{
@@ -415,8 +414,7 @@ public class Frintezza extends L2AttackableAIScript
 			_Remaining = 600000;
 			_CheckDie = 0;
 			_OnCheck = 0;
-			_OnDance = 0;
-			_OnFloat = 0;
+			_Abnormal = 0;
 			_OnMorph = 0;
 			_SecondMorph = 0;
 			_ThirdMorph = 0;
@@ -467,59 +465,61 @@ public class Frintezza extends L2AttackableAIScript
 				}
 				else
 				{
+					_Time = _Remaining;
 					_Remaining = _Remaining - 10000;
-					_Time = 10000;
 				}
 			}
 			if (_Remaining >= 10000)
 				this.startQuestTimer("ann_reg", _Time, npc, null);
 			else
+				this.startQuestTimer("ann_start", _Time, npc, null);
+		}
+		else if (event.equalsIgnoreCase("ann_start"))
+		{
+			npc.broadcastPacket(new NpcSay(npc.getObjectId(),1,npc.getNpcId(),"進入「芙琳泰沙的結界」已經停止報名！"));
+			npc.broadcastPacket(new NpcSay(npc.getObjectId(),1,npc.getNpcId(),"總共有" + _RegistedPlayers.size() + "個人登記。"));
+			for (L2PcInstance pc : _RegistedPlayers)
 			{
-				npc.broadcastPacket(new NpcSay(npc.getObjectId(),1,npc.getNpcId(),"進入「芙琳泰沙的結界」已經停止報名！"));
-				npc.broadcastPacket(new NpcSay(npc.getObjectId(),1,npc.getNpcId(),"總共有" + _RegistedPlayers.size() + "個人登記。"));
-				for (L2PcInstance pc : _RegistedPlayers)
+				if (pc.isDead())
 				{
-					if (pc.isDead())
+					pc.sendMessage("目前為死亡狀態，因此無法進入。");
+				}
+				else if (!Util.checkIfInRange(700, npc, pc, true))
+				{
+					pc.sendMessage("目前位置太遠，因此無法入。");
+				}
+				else if (pc.getInventory().getItemByItemId(8073) == null)
+				{
+					pc.sendMessage("缺少「結界破咒書」，因此無法入。");
+				}
+				else
+				{
+					pc.destroyItemByItemId("Quest", 8073, 1, pc, true);
+					_PlayersInside.add(pc);
+					_Zone.allowPlayerEntry(pc, 300);
+					if (_LocCycle >= 5)
+						_LocCycle = 0;
+					if (_PlayersInside.size() == 1)
 					{
-						pc.sendMessage("目前為死亡狀態，因此無法進入。");
+						GrandBossManager.getInstance().setBossStatus(FRINTEZZA,WAITING);
+						pc.teleToLocation(_invadeLoc[_LocCycle][0] + Rnd.get(50), _invadeLoc[_LocCycle][1] + Rnd.get(50), _invadeLoc[_LocCycle][2]);
+						_LocCycle ++;
+						this.startQuestTimer("close", 0, npc, null);
+						this.startQuestTimer("room1_spawn", 5000, npc, null);
+						this.startQuestTimer("room_final", 2100000, npc, null);
 					}
-					else if (!Util.checkIfInRange(700, npc, pc, true))
+					else if (_PlayersInside.size() > 45)
 					{
-						pc.sendMessage("目前位置太遠，因此無法入。");
-					}
-					else if (pc.getInventory().getItemByItemId(8073) == null)
-					{
-						pc.sendMessage("缺少「結界破咒書」，因此無法入。");
+						pc.sendMessage("挑戰人數已經已滿，因此無法入。");
 					}
 					else
 					{
-						pc.destroyItemByItemId("Quest", 8073, 1, pc, true);
-						_PlayersInside.add(pc);
-						_Zone.allowPlayerEntry(pc, 300);
-						if (_LocCycle >= 5)
-							_LocCycle = 0;
-						if (_PlayersInside.size() == 1)
-						{
-							GrandBossManager.getInstance().setBossStatus(FRINTEZZA,WAITING);
-							pc.teleToLocation(_invadeLoc[_LocCycle][0] + Rnd.get(50), _invadeLoc[_LocCycle][1] + Rnd.get(50), _invadeLoc[_LocCycle][2]);
-							_LocCycle ++;
-							this.startQuestTimer("close", 0, npc, null);
-							this.startQuestTimer("room1_spawn", 5000, npc, null);
-							this.startQuestTimer("room_final", 2100000, npc, null);
-						}
-						else if (_PlayersInside.size() > 45)
-						{
-							pc.sendMessage("挑戰人數已經已滿，因此無法入。");
-						}
-						else
-						{
-							pc.teleToLocation(_invadeLoc[_LocCycle][0] + Rnd.get(50), _invadeLoc[_LocCycle][1] + Rnd.get(50), _invadeLoc[_LocCycle][2]);
-							_LocCycle ++;
-						}
+						pc.teleToLocation(_invadeLoc[_LocCycle][0] + Rnd.get(50), _invadeLoc[_LocCycle][1] + Rnd.get(50), _invadeLoc[_LocCycle][2]);
+						_LocCycle ++;
 					}
 				}
-				_RegistedPlayers.clear();
 			}
+			_RegistedPlayers.clear();
 		}
 		else if (event.equalsIgnoreCase("loc_check"))
 		{
@@ -863,8 +863,7 @@ public class Frintezza extends L2AttackableAIScript
 					cha.setIsParalyzed(false);
 				}
 			}
-			_OnDance = 0;
-			_OnFloat = 0;
+			_Abnormal = 0;
 		}
 		else if (event.equalsIgnoreCase("morph_01"))
 		{
@@ -1037,9 +1036,9 @@ public class Frintezza extends L2AttackableAIScript
 					this.startQuestTimer("songs_effect", 5000, frintezza, null);
 					this.startQuestTimer("songs_play", 31000 + Rnd.get(10000), frintezza, null);
 				}
-				else if (_OnSong == 5 && _ThirdMorph == 1 && _OnFloat == 0)
+				else if (_OnSong == 5 && _ThirdMorph == 1 && _Abnormal == 0)
 				{
-					_OnDance = 1;
+					_Abnormal = 1;
 					_Zone.broadcastPacket(new MagicSkillUse(frintezza, frintezza, 5007, 5, 35000, 0));
 					this.startQuestTimer("songs_effect", 5000, frintezza, null);
 					this.startQuestTimer("songs_play", 35000 + Rnd.get(10000), frintezza, null);
@@ -1074,12 +1073,11 @@ public class Frintezza extends L2AttackableAIScript
 			{
 				for (L2Character cha : _Zone.getCharactersInside().values())
 				{
-					if (cha instanceof L2PcInstance && Rnd.get(100) < 60)
+					if (cha instanceof L2PcInstance && Rnd.get(100) < 70)
 					{
 						cha.abortAttack();
 						cha.abortCast();
 						cha.disableAllSkills();
-						cha.setTarget(null);
 						cha.stopMove(null);
 						cha.setIsParalyzed(true);
 						cha.setIsImmobilized(true);
@@ -1087,9 +1085,9 @@ public class Frintezza extends L2AttackableAIScript
 						frintezza.callSkill(skill, new L2Character[] {cha});
 						cha.startAbnormalEffect(L2Character.ABNORMAL_EFFECT_DANCE_STUNNED);
 						cha.sendPacket(new SystemMessage(SystemMessageId.YOU_FEEL_S1_EFFECT).addSkillName(5008, 5));
-						this.startQuestTimer("stop_effect", 25000, frintezza, null);
 					}
 				}
+				this.startQuestTimer("stop_effect", 25000, frintezza, null);
 			}
 		}
 		else if (event.equalsIgnoreCase("float_effect"))
@@ -1108,18 +1106,17 @@ public class Frintezza extends L2AttackableAIScript
 								cha.abortAttack();
 								cha.abortCast();
 								cha.disableAllSkills();
-								cha.setTarget(null);
 								cha.stopMove(null);
 								cha.setIsParalyzed(true);
 								cha.setIsImmobilized(true);
 								cha.getAI().setIntention(CtrlIntention.AI_INTENTION_IDLE);
 								cha.startAbnormalEffect(L2Character.ABNORMAL_EFFECT_FLOATING_ROOT);
-								this.startQuestTimer("stop_effect", 25000, npc, null);
 							}
 						}
 					}
 				}
 			}
+			this.startQuestTimer("stop_effect", 25000, npc, null);
 		}
 		else if (event.equalsIgnoreCase("attack_stop"))
 		{
@@ -1168,7 +1165,7 @@ public class Frintezza extends L2AttackableAIScript
 			if (weakScarlet != null && _SecondMorph == 1 && _ThirdMorph == 0 && _OnMorph == 0)
 			{
 				int i = 0;
-				if (_OnDance == 0)
+				if (_Abnormal == 0)
 					i = Rnd.get(2,5);
 				else
 					i = Rnd.get(2,4);
@@ -1176,8 +1173,10 @@ public class Frintezza extends L2AttackableAIScript
 				this.startQuestTimer("skill02", _skill[i][2] + 5000 + Rnd.get(10000), npc, null);
 				if (i == 5)
 				{
+					_Abnormal = 1;
 					this.startQuestTimer("float_effect", 3000, npc, null);
-					_OnFloat = 1;
+					this.startQuestTimer("float_effect", 4000, npc, null);
+					this.startQuestTimer("float_effect", 5000, npc, null);
 				}
 			}
 		}
@@ -1186,7 +1185,7 @@ public class Frintezza extends L2AttackableAIScript
 			if (strongScarlet != null && _SecondMorph == 1 && _ThirdMorph == 1 && _OnMorph == 0)
 			{
 				int i = 0;
-				if (_OnDance == 0)
+				if (_Abnormal == 0)
 					i = Rnd.get(6,10);
 				else
 					i = Rnd.get(6,9);
@@ -1194,8 +1193,8 @@ public class Frintezza extends L2AttackableAIScript
 				this.startQuestTimer("skill03", _skill[i][2] + 5000 + Rnd.get(10000), npc, null);
 				if (i == 10)
 				{
+					_Abnormal = 1;
 					this.startQuestTimer("float_effect", 3000, npc, null);
-					_OnFloat = 1;
 				}
 			}
 		}
