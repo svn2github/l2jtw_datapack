@@ -20,7 +20,7 @@ import java.text.SimpleDateFormat;
 import net.sf.l2j.gameserver.handler.IUserCommandHandler;
 import net.sf.l2j.gameserver.model.actor.instance.L2PcInstance;
 import net.sf.l2j.gameserver.network.serverpackets.NpcHtmlMessage;
-import net.sf.l2j.gameserver.datatables.MessageTable;
+import net.sf.l2j.gameserver.util.StringUtil;
 
 /**
  * Support for clan penalty user command.
@@ -44,31 +44,48 @@ public class ClanPenalty implements IUserCommandHandler
 		
 		boolean penalty = false;
 		SimpleDateFormat format = new SimpleDateFormat("yyyy-MM-dd");
-		final StringBuilder htmlContent = new StringBuilder("<html><body>");
-		htmlContent.append("<center><table width=270 border=0 bgcolor=111111>");
-		htmlContent.append("<tr><td width=170>"+MessageTable.Messages[1169].getMessage()+"</td>");
-		htmlContent.append("<td width=100 align=center>"+MessageTable.Messages[1170].getMessage()+"</td></tr>");
-		htmlContent.append("</table><table width=270 border=0><tr>");
-
-		if (activeChar.getClanJoinExpiryTime() > System.currentTimeMillis())
-		{
-			htmlContent.append("<td width=170>"+MessageTable.Messages[1241].getMessage()+"</td>");
-			htmlContent.append("<td width=100 align=center>"+format.format(activeChar.getClanJoinExpiryTime())+"</td>");
+                final StringBuilder htmlContent = StringUtil.startAppend(500,
+                        "<html><body>" +
+                        "<center><table width=270 border=0 bgcolor=111111>" +
+                        "<tr><td width=170>Penalty</td>" +
+                        "<td width=100 align=center>Expiration Date</td></tr>" +
+                        "</table><table width=270 border=0><tr>"
+                        );
+		
+		if (activeChar.getClanJoinExpiryTime() > System.currentTimeMillis()) {
+                    StringUtil.append(htmlContent,
+                            "<td width=170>Unable to join a clan.</td>" +
+                            "<td width=100 align=center>",
+                            format.format(activeChar.getClanJoinExpiryTime()),
+                            "</td>"
+                            );
 			penalty = true;
 		}
 
-		if (activeChar.getClanCreateExpiryTime() > System.currentTimeMillis())
-		{
-			htmlContent.append("<td width=170>"+MessageTable.Messages[1242].getMessage()+"</td>");
-			htmlContent.append("<td width=100 align=center>"+format.format(activeChar.getClanCreateExpiryTime())+"</td>");
+		if (activeChar.getClanCreateExpiryTime() > System.currentTimeMillis()) {
+                    StringUtil.append(htmlContent,
+                            "<td width=170>Unable to create a clan.</td>" +
+                            "<td width=100 align=center>",
+                            format.format(activeChar.getClanCreateExpiryTime()),
+                            "</td>"
+                            );
 			penalty = true;
 		}
 
-		if (!penalty)
-		{
-			htmlContent.append("<td width=170>"+MessageTable.Messages[1168].getMessage()+"</td>");
-			htmlContent.append("<td width=100 align=center> </td>");
+		if (activeChar.getClan() != null && activeChar.getClan().getCharPenaltyExpiryTime() > System.currentTimeMillis()) {
+					StringUtil.append(htmlContent,
+							"<td width=170>Unable to invite a clan member.</td>" +
+							"<td width=100 align=center>",
+							format.format(activeChar.getClan().getCharPenaltyExpiryTime()),
+							"</td>"
+							);
+			penalty = true;
+		}
 
+		if (!penalty) {
+			htmlContent.append(
+                                "<td width=170>No penalty is imposed.</td>" +
+                                "<td width=100 align=center> </td>");
 		}
 		
 		htmlContent.append(
