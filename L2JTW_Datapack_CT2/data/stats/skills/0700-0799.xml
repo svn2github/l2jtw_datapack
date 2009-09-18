@@ -1733,8 +1733,13 @@
   </for>
 </skill>
 <skill id="799" levels="3" name="Master Ability - Defense">
-  <set name="target" val="TARGET_NONE"/>
-  <set name="skillType" val="NOTDONE"/>
+  <!-- Update by rocknow -->
+  <table name="#pDef"> 29 58 87 </table>
+  <set name="target" val="TARGET_SELF"/>
+  <set name="skillType" val="BUFF"/>
   <set name="operateType" val="OP_PASSIVE"/>
+  <for>
+    <add order="0x40" stat="pDef" val="#pDef"/>
+  </for>
 </skill>
 </list>

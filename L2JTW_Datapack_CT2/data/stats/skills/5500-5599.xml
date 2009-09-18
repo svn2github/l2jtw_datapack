@@ -613,39 +613,74 @@
   <set name="operateType" val="OP_PASSIVE"/>
 </skill>
 <skill id="5572" levels="1" name="Warrior Ability - Haste">
-  <set name="target" val="TARGET_NONE"/>
-  <set name="skillType" val="NOTDONE"/>
-  <set name="operateType" val="OP_PASSIVE"/>
+  <!-- Update by rocknow -->
+  <set name="target" val="TARGET_SELF"/>
+  <set name="skillType" val="BUFF"/>
+  <set name="operateType" val="OP_ACTIVE"/>
+  <for>
+    <effect name="Buff" time="15" val="0">
+      <mul order="0x30" stat="pAtkSpd" val="1.32"/>
+    </effect>
+  </for>
 </skill>
 <skill id="5573" levels="1" name="Knight Ability - Defense">
-  <set name="target" val="TARGET_NONE"/>
-  <set name="skillType" val="NOTDONE"/>
-  <set name="operateType" val="OP_PASSIVE"/>
+  <!-- Update by rocknow -->
+  <set name="target" val="TARGET_SELF"/>
+  <set name="skillType" val="BUFF"/>
+  <set name="operateType" val="OP_ACTIVE"/>
+  <for>
+    <effect name="Buff" time="15" val="0">
+      <mul order="0x30" stat="pDef" val="1.20"/>
+      <mul order="0x30" stat="mDef" val="1.20"/>
+    </effect>
+  </for>
 </skill>
 <skill id="5574" levels="1" name="Log Ability - Critical Chance">
-  <set name="target" val="TARGET_NONE"/>
-  <set name="skillType" val="NOTDONE"/>
-  <set name="operateType" val="OP_PASSIVE"/>
+  <!-- Update by rocknow -->
+  <set name="target" val="TARGET_SELF"/>
+  <set name="skillType" val="BUFF"/>
+  <set name="operateType" val="OP_ACTIVE"/>
+  <for>
+    <effect name="Buff" time="15" val="0">
+      <add order="0x40" stat="rCrit" val="30"/>
+    </effect>
+  </for>
 </skill>
 <skill id="5575" levels="1" name="Wizard Ability - Mana Steel">
-  <set name="target" val="TARGET_NONE"/>
-  <set name="skillType" val="NOTDONE"/>
-  <set name="operateType" val="OP_PASSIVE"/>
+  <!-- Update by rocknow -->
+  <set name="target" val="TARGET_SELF"/>
+  <set name="skillType" val="MANAHEAL"/>
+  <set name="operateType" val="OP_ACTIVE"/>
+  <set name="power" val="17" /> 
 </skill>
 <skill id="5576" levels="1" name="Enchanter Ability - Barrier">
-  <set name="target" val="TARGET_NONE"/>
-  <set name="skillType" val="NOTDONE"/>
-  <set name="operateType" val="OP_PASSIVE"/>
+  <!-- Update by rocknow -->
+  <set name="target" val="TARGET_SELF"/>
+  <set name="skillType" val="BUFF"/>
+  <set name="operateType" val="OP_ACTIVE"/>
+  <for>
+    <effect name="Invincible" time="5" val="0" stackOrder="1" stackType="Instant_Shield"/>
+  </for>
 </skill>
 <skill id="5577" levels="1" name="Healer Ability - Heal">
-  <set name="target" val="TARGET_NONE"/>
-  <set name="skillType" val="NOTDONE"/>
-  <set name="operateType" val="OP_PASSIVE"/>
+  <!-- Update by rocknow -->
+  <set name="target" val="TARGET_SELF"/>
+  <set name="skillType" val="HEAL"/>
+  <set name="operateType" val="OP_ACTIVE"/>
+  <set name="power" val="183"/>
 </skill>
 <skill id="5578" levels="1" name="Summoner Ability - Spirit">
-  <set name="target" val="TARGET_NONE"/>
-  <set name="skillType" val="NOTDONE"/>
-  <set name="operateType" val="OP_PASSIVE"/>
+  <set name="target" val="TARGET_SELF"/>
+  <set name="skillType" val="BUFF"/>
+  <set name="operateType" val="OP_ACTIVE"/>
+  <for>
+    <effect name="Buff" time="15" val="0">
+      <mul order="0x30" stat="pAtk" val="1.07"/>
+      <mul order="0x30" stat="pAtkSpd" val="1.08"/>
+      <mul order="0x30" stat="mAtk" val="1.07"/>
+      <mul order="0x30" stat="mAtkSpd" val="1.08"/>
+    </effect>
+  </for>
 </skill>
 <skill id="5579" levels="1" name="Cubic Cure"> <!-- this skill is handled on core side -->
   <!-- Cubic Skill -->

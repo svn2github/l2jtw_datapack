@@ -405,24 +405,44 @@
   </cond>
 </skill>
 <skill id="631" levels="6" name="Emergent Ability - Attack">
-  <set name="target" val="TARGET_NONE"/>
-  <set name="skillType" val="NOTDONE"/>
-  <set name="operateType" val="OP_PASSIVE"/>
+  <!-- Update by rocknow -->
+  <table name="#pAtk">22 42 60 75 89 99</table> 
+  <set name="target" val="TARGET_SELF"/> 
+  <set name="skillType" val="BUFF"/> 
+  <set name="operateType" val="OP_PASSIVE"/> 
+  <for>
+    <add order="0x40" val="#pAtk" stat="pAtk"/> 
+  </for>
 </skill>
 <skill id="632" levels="6" name="Emergent Ability - Defense">
-  <set name="target" val="TARGET_NONE"/>
-  <set name="skillType" val="NOTDONE"/>
-  <set name="operateType" val="OP_PASSIVE"/>
+  <!-- Update by rocknow -->
+  <table name="#pDef">9 18 26 35 44 53</table> 
+  <set name="target" val="TARGET_SELF"/> 
+  <set name="skillType" val="BUFF"/> 
+  <set name="operateType" val="OP_PASSIVE"/> 
+  <for>
+    <add order="0x40" val="#pDef" stat="pDef"/> 
+  </for>
 </skill>
 <skill id="633" levels="6" name="Emergent Ability - Empower">
-  <set name="target" val="TARGET_NONE"/>
-  <set name="skillType" val="NOTDONE"/>
-  <set name="operateType" val="OP_PASSIVE"/>
+  <!-- Update by rocknow -->
+  <table name="#mAtk">11 20 29 37 43 48</table> 
+  <set name="target" val="TARGET_SELF"/> 
+  <set name="skillType" val="BUFF"/> 
+  <set name="operateType" val="OP_PASSIVE"/> 
+  <for>
+    <add order="0x40" val="#mAtk" stat="mAtk"/> 
+  </for>
 </skill>
 <skill id="634" levels="6" name="Emergent Ability - Magic Defense">
-  <set name="target" val="TARGET_NONE"/>
-  <set name="skillType" val="NOTDONE"/>
-  <set name="operateType" val="OP_PASSIVE"/>
+  <!-- Update by rocknow -->
+  <table name="#mDef">15 30 45 61 79 91</table> 
+  <set name="target" val="TARGET_SELF"/> 
+  <set name="skillType" val="BUFF"/> 
+  <set name="operateType" val="OP_PASSIVE"/> 
+  <for>
+    <add order="0x40" val="#mDef" stat="mDef"/> 
+  </for>
 </skill>
 <skill id="635" levels="3" name="Not In Use">
   <set name="target" val="TARGET_NONE"/>
@@ -435,94 +455,178 @@
   <set name="operateType" val="OP_PASSIVE"/>
 </skill>
 <skill id="637" levels="1" name="Master Ability - Attack">
-  <set name="target" val="TARGET_NONE"/>
-  <set name="skillType" val="NOTDONE"/>
+  <!-- Update by rocknow -->
+  <set name="target" val="TARGET_SELF"/>
+  <set name="skillType" val="BUFF"/>
   <set name="operateType" val="OP_PASSIVE"/>
+  <for>
+    <add order="0x40" stat="pAtk" val="35"/> <!-- guessed -->
+  </for>
 </skill>
 <skill id="638" levels="1" name="Master Ability - Empower">
-  <set name="target" val="TARGET_NONE"/>
-  <set name="skillType" val="NOTDONE"/>
+  <!-- Update by rocknow -->
+  <set name="target" val="TARGET_SELF"/>
+  <set name="skillType" val="BUFF"/>
   <set name="operateType" val="OP_PASSIVE"/>
+  <for>
+    <add order="0x40" stat="mAtk" val="29"/>
+  </for>
 </skill>
 <skill id="639" levels="1" name="Master Ability - Casting">
-  <set name="target" val="TARGET_NONE"/>
-  <set name="skillType" val="NOTDONE"/>
+  <!-- Update by rocknow -->
+  <set name="target" val="TARGET_SELF"/>
+  <set name="skillType" val="BUFF"/>
   <set name="operateType" val="OP_PASSIVE"/>
+  <for>
+    <add order="0x40" stat="mAtkSpd" val="11"/>
+  </for>
 </skill>
 <skill id="640" levels="1" name="Master Ability - Focus">
-  <set name="target" val="TARGET_NONE"/>
-  <set name="skillType" val="NOTDONE"/>
+  <!-- Update by rocknow -->
+  <set name="target" val="TARGET_SELF"/>
+  <set name="skillType" val="BUFF"/>
   <set name="operateType" val="OP_PASSIVE"/>
+  <for>
+    <add order="0x40" stat="rCrit" val="30"/>
+  </for>
 </skill>
 <skill id="641" levels="1" name="Knight Ability - Boost HP">
-  <set name="target" val="TARGET_NONE"/>
-  <set name="skillType" val="NOTDONE"/>
+  <!-- Update by rocknow -->
+  <set name="target" val="TARGET_SELF"/>
+  <set name="skillType" val="BUFF"/>
   <set name="operateType" val="OP_PASSIVE"/>
+  <for>
+    <mul order="0x30" stat="maxHp" val="1.06"/>
+  </for>
 </skill>
 <skill id="642" levels="1" name="Enchanter Ability - Boost Mana">
-  <set name="target" val="TARGET_NONE"/>
-  <set name="skillType" val="NOTDONE"/>
+  <!-- Update by rocknow -->
+  <set name="target" val="TARGET_SELF"/>
+  <set name="skillType" val="BUFF"/>
   <set name="operateType" val="OP_PASSIVE"/>
+  <for>
+    <add order="0x40" stat="maxMp" val="148"/>
+  </for>
 </skill>
 <skill id="643" levels="1" name="Summoner Ability - Boost HP/MP">
-  <set name="target" val="TARGET_NONE"/>
-  <set name="skillType" val="NOTDONE"/>
-  <set name="operateType" val="OP_PASSIVE"/>
+  <!-- Update by rocknow -->
+  <set name="target" val="TARGET_SELF"/>
+  <set name="skillType" val="BUFF"/>
+   <set name="operateType" val="OP_PASSIVE"/>
+  <for>
+    <add order="0x40" stat="maxHp" val="147"/>
+    <add order="0x40" stat="maxMp" val="74"/>
+  </for>
 </skill>
 <skill id="644" levels="1" name="Rogue Ability - Evasion">
-  <set name="target" val="TARGET_NONE"/>
-  <set name="skillType" val="NOTDONE"/>
+  <!-- Update by rocknow -->
+  <set name="target" val="TARGET_SELF"/>
+  <set name="skillType" val="BUFF"/>
   <set name="operateType" val="OP_PASSIVE"/>
+  <for>
+    <add order="0x40" stat="rEvas" val="4"/>
+  </for>
 </skill>
 <skill id="645" levels="1" name="Rogue Ability - Long Shot">
-  <set name="target" val="TARGET_NONE"/>
-  <set name="skillType" val="NOTDONE"/>
+  <!-- Update by rocknow -->
+  <set name="target" val="TARGET_SELF"/>
+  <set name="skillType" val="BUFF"/>
   <set name="operateType" val="OP_PASSIVE"/>
+  <for>
+    <add order="0x40" stat="pAtkRange" val="100">
+      <using kind="Bow"/>
+    </add>
+  </for>
 </skill>
 <skill id="646" levels="1" name="Wizard Ability - Mana Gain">
-  <set name="target" val="TARGET_NONE"/>
-  <set name="skillType" val="NOTDONE"/>
+  <!-- Update by rocknow -->
+  <set name="target" val="TARGET_SELF"/>
+  <set name="skillType" val="BUFF"/>
   <set name="operateType" val="OP_PASSIVE"/>
+  <for>
+    <add order="0x40" stat="gainMp" val="20"/>
+  </for>
 </skill>
 <skill id="647" levels="1" name="Enchanter Ability - Mana Recovery">
-  <set name="target" val="TARGET_NONE"/>
-  <set name="skillType" val="NOTDONE"/>
+  <!-- Update by rocknow -->
+  <set name="target" val="TARGET_SELF"/>
+  <set name="skillType" val="BUFF"/>
   <set name="operateType" val="OP_PASSIVE"/>
+  <for>
+    <add order="0x40" stat="regMp" val="0.5"/>
+  </for>
 </skill>
 <skill id="648" levels="1" name="Healer Ability - Prayer">
-  <set name="target" val="TARGET_NONE"/>
-  <set name="skillType" val="NOTDONE"/>
+  <!-- Update by rocknow -->
+  <set name="target" val="TARGET_SELF"/>
+  <set name="skillType" val="BUFF"/>
   <set name="operateType" val="OP_PASSIVE"/>
+  <for>
+    <add order="0x40" stat="gainHp" val="19"/>
+  </for>
 </skill>
 <skill id="650" levels="1" name="Warrior Ability - Resist Trait">
-  <set name="target" val="TARGET_NONE"/>
-  <set name="skillType" val="NOTDONE"/>
+  <!-- Update by rocknow -->
+  <set name="target" val="TARGET_SELF"/>
+  <set name="skillType" val="BUFF"/>
   <set name="operateType" val="OP_PASSIVE"/>
+  <for>
+    <mul order="0x30" stat="paralyzeVuln" val="0.6"/>
+    <mul order="0x30" stat="rootVuln" val="0.6"/>
+    <mul order="0x30" stat="sleepVuln" val="0.6"/>
+    <mul order="0x30" stat="stunVuln" val="0.6"/>
+    <mul order="0x30" stat="cancelVuln" val="0.6"/>
+  </for>
 </skill>
 <skill id="651" levels="1" name="Warrior Ability - Haste">
-  <set name="target" val="TARGET_NONE"/>
-  <set name="skillType" val="NOTDONE"/>
+  <!-- Update by rocknow -->
+  <set name="target" val="TARGET_SELF"/>
+  <set name="skillType" val="BUFF"/>
   <set name="operateType" val="OP_PASSIVE"/>
+  <set name="chanceType" val="ON_HIT"/>
+  <set name="activationChance" val="4"/>
+  <set name="triggeredId" val="5572"/>
+  <set name="triggeredLevel" val="1"/>
 </skill>
 <skill id="652" levels="1" name="Knight Ability - Defense">
-  <set name="target" val="TARGET_NONE"/>
-  <set name="skillType" val="NOTDONE"/>
+  <!-- Update by rocknow -->
+  <set name="target" val="TARGET_SELF"/>
+  <set name="skillType" val="BUFF"/>
   <set name="operateType" val="OP_PASSIVE"/>
+  <set name="chanceType" val="ON_ATTACKED"/>
+  <set name="activationChance" val="3"/>
+  <set name="triggeredId" val="5573"/>
+  <set name="triggeredLevel" val="1"/>
 </skill>
 <skill id="653" levels="1" name="Rogue Ability - Critical Chance">
-  <set name="target" val="TARGET_NONE"/>
-  <set name="skillType" val="NOTDONE"/>
+  <!-- Update by rocknow -->
+  <set name="target" val="TARGET_SELF"/>
+  <set name="skillType" val="BUFF"/>
   <set name="operateType" val="OP_PASSIVE"/>
+  <set name="chanceType" val="ON_HIT"/>
+  <set name="activationChance" val="4"/>
+  <set name="triggeredId" val="5574"/>
+  <set name="triggeredLevel" val="1"/>
 </skill>
 <skill id="654" levels="1" name="Wizard Ability - Mana Steal">
-  <set name="target" val="TARGET_NONE"/>
-  <set name="skillType" val="NOTDONE"/>
+  <!-- Update by rocknow -->
+  <set name="target" val="TARGET_SELF"/>
+  <set name="skillType" val="BUFF"/>
   <set name="operateType" val="OP_PASSIVE"/>
+  <set name="chanceType" val="ON_HIT"/>
+  <set name="activationChance" val="4"/>
+  <set name="triggeredId" val="5575"/>
+  <set name="triggeredLevel" val="1"/>
 </skill>
 <skill id="655" levels="1" name="Enchanter Ability - Barrier">
-  <set name="target" val="TARGET_NONE"/>
-  <set name="skillType" val="NOTDONE"/>
+  <!-- Update by rocknow -->
+  <set name="target" val="TARGET_SELF"/>
+  <set name="skillType" val="BUFF"/>
   <set name="operateType" val="OP_PASSIVE"/>
+  <set name="chanceType" val="ON_ATTACKED"/>
+  <set name="activationChance" val="3"/>
+  <set name="triggeredId" val="5576"/>
+  <set name="triggeredLevel" val="1"/>
 </skill>
 <skill id="656" levels="3" name="Transform Divine Warrior">
   <table name="#reuseDelay"> 14400000 7200000 3600000 </table>
