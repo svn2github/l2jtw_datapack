@@ -1000,7 +1000,7 @@
   <set name="operateType" val="OP_PASSIVE"/>
   <set name="triggeredId" val="5559"/>
   <set name="triggeredLevel" val="1"/>
-  <set name="activationChance" val="10"/> <!-- guessed -->
+  <set name="activationChance" val="5"/>
   <set name="chanceType" val="ON_HIT"/>
   <for>
     <add order="0x40" stat="pAtk" val="100">
@@ -1018,7 +1018,7 @@
   <set name="operateType" val="OP_PASSIVE"/>
   <set name="triggeredId" val="5560"/>
   <set name="triggeredLevel" val="1"/>
-  <set name="activationChance" val="5"/> <!-- guessed -->
+  <set name="activationChance" val="5"/>
   <set name="chanceType" val="ON_HIT"/>
   <for>
     <add order="0x40" stat="accCombat" val="8">
@@ -1355,8 +1355,8 @@
   <set name="transformId" val="259"/>
   <for>
     <effect name="Transformation" time="300" val="0">
-      <mul order="0x30" stat="maxHp" val="1.10"/>
-      <mul order="0x30" stat="maxMp" val="1.10"/>
+      <mul order="0x30" stat="maxHp" val="1.1"/>
+      <mul order="0x30" stat="maxMp" val="1.1"/>
       <mul order="0x30" stat="maxCp" val="0.72"/>
       <add order="0x40" stat="runSpd" val="11"/>
     </effect>

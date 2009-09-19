@@ -550,7 +550,6 @@
 <skill id="422" levels="3" name="Polearm Accuracy">
   <table name="#mpConsume"> 11 13 14 </table>
   <table name="#accCombat"> 2 3 4 </table>
-  <set name="weaponsAllowed" val="64"/> <!-- Pole -->
   <set name="mpConsume" val="#mpConsume"/>
   <set name="target" val="TARGET_SELF"/>
   <set name="skillType" val="CONT"/>
@@ -1081,6 +1080,9 @@
   <set name="itemConsumeCount" val="1"/>
   <set name="mpInitialConsume" val="36"/>
   <set name="mpConsume" val="44"/>
+  <cond msgId="1509">
+    <player olympiad="false"/>
+  </cond>
   <for>
     <effect count="24" name="Signet" time="5" val="0"/>
   </for>
@@ -1106,6 +1108,9 @@
   <set name="itemConsumeCount" val="1"/>
   <set name="mpInitialConsume" val="36"/>
   <set name="mpConsume" val="44"/>
+  <cond msgId="1509">
+    <player olympiad="false"/>
+  </cond>
   <for>
     <effect count="6" name="SignetNoise" time="5" val="0"/>
   </for>
@@ -1128,6 +1133,9 @@
   <set name="itemConsumeCount" val="1"/>
   <set name="mpInitialConsume" val="36"/>
   <set name="mpConsume" val="44"/>
+  <cond msgId="1509">
+    <player olympiad="false"/>
+  </cond>
   <for>
     <effect count="24" name="Signet" time="5" val="0"/>
   </for>
@@ -1150,6 +1158,9 @@
   <set name="itemConsumeCount" val="1"/>
   <set name="mpInitialConsume" val="36"/>
   <set name="mpConsume" val="44"/>
+  <cond msgId="1509">
+    <player olympiad="false"/>
+  </cond>
   <for>
     <effect count="24" name="Signet" time="5" val="0"/>
   </for>
@@ -1172,6 +1183,9 @@
   <set name="itemConsumeCount" val="1"/>
   <set name="mpInitialConsume" val="36"/>
   <set name="mpConsume" val="44"/>
+  <cond msgId="1509">
+    <player olympiad="false"/>
+  </cond>
   <for>
     <effect count="24" name="Signet" time="5" val="0"/>
   </for>
@@ -1194,6 +1208,9 @@
   <set name="itemConsumeCount" val="1"/>
   <set name="mpInitialConsume" val="36"/>
   <set name="mpConsume" val="44"/>
+  <cond msgId="1509">
+    <player olympiad="false"/>
+  </cond>
   <for>
     <effect count="24" name="Signet" time="5" val="0"/>
   </for>
@@ -1216,6 +1233,9 @@
   <set name="itemConsumeCount" val="1"/>
   <set name="mpInitialConsume" val="36"/>
   <set name="mpConsume" val="44"/>
+  <cond msgId="1509">
+    <player olympiad="false"/>
+  </cond>
   <for>
     <effect count="24" name="Signet" time="5" val="0"/>
   </for>

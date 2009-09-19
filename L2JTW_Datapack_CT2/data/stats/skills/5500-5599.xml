@@ -409,35 +409,30 @@
   <set name="operateType" val="OP_ACTIVE"/>
   <set name="skillType" val="BUFF"/>
   <set name="target" val="TARGET_SELF"/>
-  <cond><!-- Update by rocknow -->
-    <and>
-      <not>
-        <target active_effect_id="5559"/>
-      </not>
-    </and>
-  </cond>
   <for>
     <effect name="Buff" time="10" val="0">
-      <basemul order="0x30" stat="rCrit" val="0.2"/>
+      <!-- mul order="0x30" stat="physicalSkillPower" val="1.2">
+        <using kind="Sword,Blunt,Dagger,Pole,Fist,Dual Sword,Dual Fist,Big Sword,Big Blunt,Ancient,Rapier,Dual Dagger"/>
+      </mul -->
+      <basemul order="0x30" stat="rCrit" val="0.2">
+        <using kind="Sword,Blunt,Dagger,Pole,Fist,Dual Sword,Dual Fist,Big Sword,Big Blunt,Ancient,Rapier,Dual Dagger"/>
+      </basemul>
     </effect>
   </for>
 </skill>
 <skill id="5560" levels="1" name="Archer's Will">
-  <!-- Update by rocknow -->
   <set name="magicLvl" val="81"/>
   <set name="operateType" val="OP_ACTIVE"/>
   <set name="skillType" val="BUFF"/>
   <set name="target" val="TARGET_SELF"/>
-  <cond>
-    <and>
-      <not>
-        <target active_effect_id="5560"/>
-      </not>
-    </and>
-  </cond>
   <for>
     <effect name="Buff" time="10" val="0">
-      <basemul order="0x30" stat="rCrit" val="0.2"/>
+      <!-- mul order="0x30" stat="physicalSkillPower" val="1.2">
+        <using kind="Bow,Crossbow"/>
+      </mul -->
+      <basemul order="0x30" stat="rCrit" val="0.2">
+        <using kind="Bow,Crossbow"/>
+      </basemul>
     </effect>
   </for>
 </skill>

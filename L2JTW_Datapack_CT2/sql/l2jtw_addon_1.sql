@@ -801,10 +801,6 @@ UPDATE `etcitem` SET `price` = '5000000' WHERE `item_id` = '6577'; -- 祝福的武器
 -- 修正首領重生時，HP/MP全滿(感謝 wolo 提供)
 Update `npc`, `raidboss_spawnlist` SET `raidboss_spawnlist`.`heading`=0, `raidboss_spawnlist`.`currentHp`=`npc`.`hp`,`raidboss_spawnlist`.`currentMp`=`npc`.`mp` WHERE `npc`.`type`='L2RaidBoss' AND `npc`.`id`=`raidboss_spawnlist`.`boss_id`;
 
--- 修正寵物
-REPLACE INTO `pets_stats` VALUES
-('great_wolf',16025,56,33396358,1384,597,107,66,70,42,95,89,40,187,278,333,4740,39,7,54510,2,1,0.1);
-
 -- 修正根據地投標價
 UPDATE `auction` SET `startingBid` = '20000000' WHERE `id` IN (58,59,60,61) AND `sellerId` = '0';
 
