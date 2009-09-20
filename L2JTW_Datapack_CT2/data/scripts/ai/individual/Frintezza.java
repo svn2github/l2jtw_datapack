@@ -22,7 +22,6 @@ import net.sf.l2j.gameserver.ai.CtrlIntention;
 import net.sf.l2j.gameserver.datatables.DoorTable;
 import net.sf.l2j.gameserver.datatables.SkillTable;
 import net.sf.l2j.gameserver.instancemanager.GrandBossManager;
-import net.sf.l2j.gameserver.model.L2Effect;
 import net.sf.l2j.gameserver.model.L2Skill;
 import net.sf.l2j.gameserver.model.actor.L2Attackable;
 import net.sf.l2j.gameserver.model.actor.L2Character;
@@ -848,22 +847,10 @@ public class Frintezza extends L2AttackableAIScript
 		{
 			npc.setRunning();
 			npc.setIsInvul(false);
-			_OnMorph = 0;
 		}
-		else if (event.equalsIgnoreCase("stop_effect"))
+		else if (event.equalsIgnoreCase("morph_end"))
 		{
-			for (L2Character cha : _Zone.getCharactersInside().values())
-			{
-				if (cha instanceof L2PcInstance)
-				{
-					cha.stopAbnormalEffect(L2Character.ABNORMAL_EFFECT_DANCE_STUNNED);
-					cha.stopAbnormalEffect(L2Character.ABNORMAL_EFFECT_FLOATING_ROOT);
-					cha.enableAllSkills();
-					cha.setIsImmobilized(false);
-					cha.setIsParalyzed(false);
-				}
-			}
-			_Abnormal = 0;
+			_OnMorph = 0;
 		}
 		else if (event.equalsIgnoreCase("morph_01"))
 		{
@@ -884,7 +871,8 @@ public class Frintezza extends L2AttackableAIScript
 		{
 			_Zone.broadcastPacket(new SocialAction(weakScarlet.getObjectId(),4));
 			L2Skill skill = SkillTable.getInstance().getInfo(5017, 1);
-			frintezza.callSkill(skill, new L2Character[] {weakScarlet});
+			skill.getEffects(weakScarlet, weakScarlet);
+			this.startQuestTimer("morph_end", 6000, weakScarlet, null);
 			this.startQuestTimer("start_pc", 3000, weakScarlet, null);
 			this.startQuestTimer("start_npc", 3000, weakScarlet, null);
 			this.startQuestTimer("songs_play", 10000 + Rnd.get(10000), frintezza, null);
@@ -976,7 +964,8 @@ public class Frintezza extends L2AttackableAIScript
 		{
 			_Zone.broadcastPacket(new SocialAction(strongScarlet.getObjectId(),2));
 			L2Skill skill = SkillTable.getInstance().getInfo(5017, 1);
-			frintezza.callSkill(skill, new L2Character[] {strongScarlet});
+			skill.getEffects(strongScarlet, strongScarlet);
+			this.startQuestTimer("morph_end", 9000, strongScarlet, null);
 			this.startQuestTimer("start_pc", 6000, strongScarlet, null);
 			this.startQuestTimer("start_npc", 6000, strongScarlet, null);
 			this.startQuestTimer("songs_play", 10000 + Rnd.get(10000), frintezza, null);
@@ -1017,7 +1006,7 @@ public class Frintezza extends L2AttackableAIScript
 		{
 			if (!frintezza.isDead() && frintezza != null && _OnMorph == 0)
 			{
-				_OnSong = Rnd.get(1, 5);
+				_OnSong = Rnd.get(1, 1);
 				if (_OnSong == 1 && _ThirdMorph == 1 && strongScarlet.getCurrentHp() < strongScarlet.getMaxHp() * 0.6 && Rnd.get(100) < 80)
 				{
 					_Zone.broadcastPacket(new MagicSkillUse(frintezza, frintezza, 5007, 1, 32000, 0));
@@ -1052,20 +1041,16 @@ public class Frintezza extends L2AttackableAIScript
 		else if (event.equalsIgnoreCase("songs_effect"))
 		{
 			L2Skill skill = SkillTable.getInstance().getInfo(5008, _OnSong);
-			if (_OnSong == 1)
+			if (_OnSong == 1 || _OnSong == 2 || _OnSong == 3)
 			{
-				frintezza.callSkill(skill, new L2Character[] {strongScarlet});
-			}
-			else if (_OnSong == 2 || _OnSong == 3)
-			{
-				frintezza.callSkill(skill, new L2Character[] {activeScarlet});
+				skill.getEffects(frintezza, activeScarlet);
 			}
 			else if (_OnSong == 4)
 			{
 				for (L2Character cha : _Zone.getCharactersInside().values())
 				{
 					if (cha instanceof L2PcInstance && Rnd.get(100) < 80)
-						frintezza.callSkill(skill, new L2Character[] {cha});
+						skill.getEffects(frintezza, cha);
 						cha.sendPacket(new SystemMessage(SystemMessageId.YOU_FEEL_S1_EFFECT).addSkillName(5008, 4));
 				}
 			}
@@ -1082,7 +1067,7 @@ public class Frintezza extends L2AttackableAIScript
 						cha.setIsParalyzed(true);
 						cha.setIsImmobilized(true);
 						cha.getAI().setIntention(CtrlIntention.AI_INTENTION_IDLE);
-						frintezza.callSkill(skill, new L2Character[] {cha});
+						skill.getEffects(frintezza, cha);
 						cha.startAbnormalEffect(L2Character.ABNORMAL_EFFECT_DANCE_STUNNED);
 						cha.sendPacket(new SystemMessage(SystemMessageId.YOU_FEEL_S1_EFFECT).addSkillName(5008, 5));
 					}
@@ -1090,33 +1075,20 @@ public class Frintezza extends L2AttackableAIScript
 				this.startQuestTimer("stop_effect", 25000, frintezza, null);
 			}
 		}
-		else if (event.equalsIgnoreCase("float_effect"))
+		else if (event.equalsIgnoreCase("stop_effect"))
 		{
 			for (L2Character cha : _Zone.getCharactersInside().values())
 			{
 				if (cha instanceof L2PcInstance)
 				{
-					L2Effect[] effects = cha.getAllEffects();
-					if (effects.length != 0 || effects != null)
-					{
-						for (L2Effect e : effects)
-						{
-							if (e.getSkill().getId() == 5016)
-							{
-								cha.abortAttack();
-								cha.abortCast();
-								cha.disableAllSkills();
-								cha.stopMove(null);
-								cha.setIsParalyzed(true);
-								cha.setIsImmobilized(true);
-								cha.getAI().setIntention(CtrlIntention.AI_INTENTION_IDLE);
-								cha.startAbnormalEffect(L2Character.ABNORMAL_EFFECT_FLOATING_ROOT);
-							}
-						}
-					}
+					cha.stopAbnormalEffect(L2Character.ABNORMAL_EFFECT_DANCE_STUNNED);
+					cha.stopAbnormalEffect(L2Character.ABNORMAL_EFFECT_FLOATING_ROOT);
+					cha.enableAllSkills();
+					cha.setIsImmobilized(false);
+					cha.setIsParalyzed(false);
 				}
 			}
-			this.startQuestTimer("stop_effect", 25000, npc, null);
+			_Abnormal = 0;
 		}
 		else if (event.equalsIgnoreCase("attack_stop"))
 		{
@@ -1174,9 +1146,7 @@ public class Frintezza extends L2AttackableAIScript
 				if (i == 5)
 				{
 					_Abnormal = 1;
-					this.startQuestTimer("float_effect", 3000, npc, null);
-					this.startQuestTimer("float_effect", 4000, npc, null);
-					this.startQuestTimer("float_effect", 5000, npc, null);
+					this.startQuestTimer("float_effect", 4000, weakScarlet, null);
 				}
 			}
 		}
@@ -1196,6 +1166,34 @@ public class Frintezza extends L2AttackableAIScript
 					_Abnormal = 1;
 					this.startQuestTimer("float_effect", 3000, npc, null);
 				}
+			}
+		}
+		else if (event.equalsIgnoreCase("float_effect"))
+		{
+			if (npc.isCastingNow())
+			{
+				this.startQuestTimer("float_effect", 500, npc, null);
+			}
+			else
+			{
+				for (L2Character cha : _Zone.getCharactersInside().values())
+				{
+					if (cha instanceof L2PcInstance)
+					{
+						if (cha.getFirstEffect(5016) != null)
+						{
+							cha.abortAttack();
+							cha.abortCast();
+							cha.disableAllSkills();
+							cha.stopMove(null);
+							cha.setIsParalyzed(true);
+							cha.setIsImmobilized(true);
+							cha.getAI().setIntention(CtrlIntention.AI_INTENTION_IDLE);
+							cha.startAbnormalEffect(L2Character.ABNORMAL_EFFECT_FLOATING_ROOT);
+						}
+					}
+				}
+				this.startQuestTimer("stop_effect", 25000, npc, null);
 			}
 		}
 		else if (event.equalsIgnoreCase("action"))
@@ -1381,7 +1379,7 @@ public class Frintezza extends L2AttackableAIScript
 			npc.setCurrentHpMp(npc.getMaxHp(), 0);
 			return null;
 		}
-		if (npc.getNpcId() == SCARLET1 && _SecondMorph == 0 && _ThirdMorph == 0 && npc.getCurrentHp() < npc.getMaxHp() * 0.75 && GrandBossManager.getInstance().getBossStatus(FRINTEZZA) == FIGHTING)
+		if (npc.getNpcId() == SCARLET1 && _SecondMorph == 0 && _ThirdMorph == 0 && _OnMorph == 0 && npc.getCurrentHp() < npc.getMaxHp() * 0.75 && GrandBossManager.getInstance().getBossStatus(FRINTEZZA) == FIGHTING)
 		{
 			this.startQuestTimer("attack_stop", 0, frintezza, null);
 			
@@ -1391,7 +1389,7 @@ public class Frintezza extends L2AttackableAIScript
 			this.startQuestTimer("stop_npc", 1000, npc, null);
 			this.startQuestTimer("morph_01", 1100, npc, null);
 		}
-		else if (npc.getNpcId() == SCARLET1 && _SecondMorph == 1 && _ThirdMorph == 0 && npc.getCurrentHp() < npc.getMaxHp() * 0.5 && GrandBossManager.getInstance().getBossStatus(FRINTEZZA) == FIGHTING)
+		else if (npc.getNpcId() == SCARLET1 && _SecondMorph == 1 && _ThirdMorph == 0 && _OnMorph == 0 && npc.getCurrentHp() < npc.getMaxHp() * 0.5 && GrandBossManager.getInstance().getBossStatus(FRINTEZZA) == FIGHTING)
 		{
 			this.startQuestTimer("attack_stop", 0, frintezza, null);
 			
