@@ -74,7 +74,9 @@ public class AdminSpawn implements IAdminCommandHandler
 	public boolean useAdminCommand(String command, L2PcInstance activeChar)
 	{
 		if (command.equals("admin_show_spawns"))
+		{
 			AdminHelpPage.showHelpPage(activeChar, "spawns.htm");
+		}
 		else if (command.startsWith("admin_spawn_index"))
 		{
 			StringTokenizer st = new StringTokenizer(command, " ");
@@ -98,7 +100,9 @@ public class AdminSpawn implements IAdminCommandHandler
 			}
 		}
 		else if (command.equals("admin_show_npcs"))
+		{
 			AdminHelpPage.showHelpPage(activeChar, "npcs.htm");
+		}
 		else if (command.startsWith("admin_npc_index"))
 		{
 			StringTokenizer st = new StringTokenizer(command, " ");
@@ -121,7 +125,44 @@ public class AdminSpawn implements IAdminCommandHandler
 				AdminHelpPage.showHelpPage(activeChar, "npcs.htm");
 			}
 		}
-		else if (command.startsWith("admin_spawn") || command.startsWith("admin_spawn_monster"))
+		else if (command.startsWith("admin_unspawnall"))
+		{
+			Broadcast.toAllOnlinePlayers(new SystemMessage(SystemMessageId.NPC_SERVER_NOT_OPERATING));
+			RaidBossSpawnManager.getInstance().cleanUp();
+			DayNightSpawnManager.getInstance().cleanUp();
+			L2World.getInstance().deleteVisibleNpcSpawns();
+			GmListTable.broadcastMessageToGMs(MessageTable.Messages[1198].getMessage());
+		}
+		else if (command.startsWith("admin_spawnday"))
+		{
+			DayNightSpawnManager.getInstance().spawnDayCreatures();
+		}
+		else if (command.startsWith("admin_spawnnight"))
+		{
+			DayNightSpawnManager.getInstance().spawnNightCreatures();
+		}
+		else if (command.startsWith("admin_respawnall") || command.startsWith("admin_spawn_reload"))
+		{
+			// make sure all spawns are deleted
+			RaidBossSpawnManager.getInstance().cleanUp();
+			DayNightSpawnManager.getInstance().cleanUp();
+			L2World.getInstance().deleteVisibleNpcSpawns();
+			// now respawn all
+			NpcTable.getInstance().reloadAllNpc();
+			SpawnTable.getInstance().reloadAll();
+			RaidBossSpawnManager.getInstance().reloadBosses();
+			AutoSpawnHandler.getInstance().reload();
+			AutoChatHandler.getInstance().reload();
+			SevenSigns.getInstance().spawnSevenSignsNPC();
+			QuestManager.getInstance().reloadAllQuests();
+			GmListTable.broadcastMessageToGMs(MessageTable.Messages[694].getMessage());
+		}
+		else if (command.startsWith("admin_teleport_reload"))
+		{
+			TeleportLocationTable.getInstance().reloadAll();
+			GmListTable.broadcastMessageToGMs(MessageTable.Messages[808].getMessage());
+		}
+		else if (command.startsWith("admin_spawn_monster") || command.startsWith("admin_spawn"))
 		{
 			StringTokenizer st = new StringTokenizer(command, " ");
 			try
@@ -143,39 +184,6 @@ public class AdminSpawn implements IAdminCommandHandler
 			{ // Case of wrong or missing monster data
 				AdminHelpPage.showHelpPage(activeChar, "spawns.htm");
 			}
-		}
-		else if (command.startsWith("admin_unspawnall"))
-		{
-			Broadcast.toAllOnlinePlayers(new SystemMessage(SystemMessageId.NPC_SERVER_NOT_OPERATING));
-			RaidBossSpawnManager.getInstance().cleanUp();
-			DayNightSpawnManager.getInstance().cleanUp();
-			L2World.getInstance().deleteVisibleNpcSpawns();
-			GmListTable.broadcastMessageToGMs(MessageTable.Messages[1198].getMessage());
-		}
-		else if (command.startsWith("admin_spawnday"))
-			DayNightSpawnManager.getInstance().spawnDayCreatures();
-		else if (command.startsWith("admin_spawnnight"))
-			DayNightSpawnManager.getInstance().spawnNightCreatures();
-		else if (command.startsWith("admin_respawnall") || command.startsWith("admin_spawn_reload"))
-		{
-			// make sure all spawns are deleted
-			RaidBossSpawnManager.getInstance().cleanUp();
-			DayNightSpawnManager.getInstance().cleanUp();
-			L2World.getInstance().deleteVisibleNpcSpawns();
-			// now respawn all
-			NpcTable.getInstance().reloadAllNpc();
-			SpawnTable.getInstance().reloadAll();
-			RaidBossSpawnManager.getInstance().reloadBosses();
-			AutoSpawnHandler.getInstance().reload();
-			AutoChatHandler.getInstance().reload();
-			SevenSigns.getInstance().spawnSevenSignsNPC();
-			QuestManager.getInstance().reloadAllQuests();
-			GmListTable.broadcastMessageToGMs(MessageTable.Messages[694].getMessage());
-		}
-		else if (command.startsWith("admin_teleport_reload"))
-		{
-			TeleportLocationTable.getInstance().reloadAll();
-			GmListTable.broadcastMessageToGMs(MessageTable.Messages[808].getMessage());
 		}
 		return true;
 	}
@@ -210,7 +218,6 @@ public class AdminSpawn implements IAdminCommandHandler
 			L2Spawn spawn = new L2Spawn(template1);
 			if (Config.SAVE_GMSPAWN_ON_CUSTOM)
 				spawn.setCustom(true);
-			
 			spawn.setLocx(target.getX());
 			spawn.setLocy(target.getY());
 			spawn.setLocz(target.getZ());
@@ -261,14 +268,18 @@ public class AdminSpawn implements IAdminCommandHandler
 	private void showMonsters(L2PcInstance activeChar, int level, int from)
 	{
 		L2NpcTemplate[] mobs = NpcTable.getInstance().getAllMonstersOfLevel(level);
-        final StringBuilder tb = new StringBuilder();
+                final StringBuilder tb = StringUtil.startAppend(500 + mobs.length * 80,
+                        "<html><title>"+MessageTable.Messages[116].getMessage()+"</title><body><p> "+MessageTable.Messages[995].getMessage(),
+                        String.valueOf(level),
+                        ":<br>"+MessageTable.Messages[206].getMessage(),
+                        String.valueOf(mobs.length),
+                        "<br>"
+                        );
 		
 		// Start
-
-		tb.append("<html><title>"+MessageTable.Messages[116].getMessage()+"</title><body><p> "+MessageTable.Messages[995].getMessage() + level + ":<br>"+MessageTable.Messages[206].getMessage() + mobs.length + "<br>");
 		String end1 = "<br><center><button value=\""+MessageTable.Messages[149].getMessage()+"\" action=\"bypass -h admin_spawn_index " + level + " $from$\" width=40 height=15 back=\"L2UI_ct1.button_df\" fore=\"L2UI_ct1.button_df\"></center></body></html>";
 		String end2 = "<br><center><button value=\""+MessageTable.Messages[162].getMessage()+"\" action=\"bypass -h admin_show_spawns\" width=40 height=15 back=\"L2UI_ct1.button_df\" fore=\"L2UI_ct1.button_df\"></center></body></html>";
-
+		
 		// Loop
 		boolean ended = true;
 		for (int i = from; i < mobs.length; i++)
@@ -300,14 +311,17 @@ public class AdminSpawn implements IAdminCommandHandler
 	private void showNpcs(L2PcInstance activeChar, String starting, int from)
 	{
 		L2NpcTemplate[] mobs = NpcTable.getInstance().getAllNpcStartingWith(starting);
-        final StringBuilder tb = new StringBuilder();
+                final StringBuilder tb = StringUtil.startAppend(500 + mobs.length * 80,
+                        "<html><title>"+MessageTable.Messages[116].getMessage()+"</title><body><p> "+MessageTable.Messages[206].getMessage(),
+                        String.valueOf(mobs.length),
+                        MessageTable.Messages[146].getMessage(),
+                        starting,
+                        ":<br>"
+                        );
 
 		// Start
-
-		tb.append("<html><title>"+MessageTable.Messages[116].getMessage()+"</title><body><p> "+MessageTable.Messages[124].getMessage() + mobs.length + MessageTable.Messages[146].getMessage() + starting + ":<br>");
 		String end1 = "<br><center><button value=\""+MessageTable.Messages[149].getMessage()+"\" action=\"bypass -h admin_npc_index " + starting + " $from$\" width=40 height=15 back=\"L2UI_ct1.button_df\" fore=\"L2UI_ct1.button_df\"></center></body></html>";
 		String end2 = "<br><center><button value=\""+MessageTable.Messages[162].getMessage()+"\" action=\"bypass -h admin_show_npcs\" width=40 height=15 back=\"L2UI_ct1.button_df\" fore=\"L2UI_ct1.button_df\"></center></body></html>";
-
 
                 // Loop
 		boolean ended = true;

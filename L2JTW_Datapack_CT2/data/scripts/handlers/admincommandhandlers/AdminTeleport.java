@@ -37,6 +37,7 @@ import net.sf.l2j.gameserver.network.SystemMessageId;
 import net.sf.l2j.gameserver.network.serverpackets.NpcHtmlMessage;
 import net.sf.l2j.gameserver.network.serverpackets.SystemMessage;
 import net.sf.l2j.gameserver.templates.chars.L2NpcTemplate;
+import net.sf.l2j.gameserver.util.StringUtil;
 import net.sf.l2j.gameserver.datatables.MessageTable;
 import net.sf.l2j.gameserver.model.L2CoreMessage;
 
@@ -291,26 +292,31 @@ public class AdminTeleport implements IAdminCommandHandler
 		}
 		NpcHtmlMessage adminReply = new NpcHtmlMessage(5);
 
-		final StringBuilder replyMSG = new StringBuilder();
-		replyMSG.append("<html><title>"+MessageTable.Messages[9].getMessage()+"</title>");
-		replyMSG.append("<body>");
-		replyMSG.append(MessageTable.Messages[48].getMessage() + player.getName() + MessageTable.Messages[49].getMessage());
-		replyMSG.append("<br>");
-		
-		replyMSG.append(MessageTable.Messages[68].getMessage());
-		replyMSG.append("<edit var=\"char_cord_x\" width=110>");
-		replyMSG.append(MessageTable.Messages[74].getMessage());
-		replyMSG.append("<edit var=\"char_cord_y\" width=110>");
-		replyMSG.append(MessageTable.Messages[80].getMessage());
-		replyMSG.append("<edit var=\"char_cord_z\" width=110>");
-		replyMSG.append("<button value=\""+MessageTable.Messages[83].getMessage()+"\" action=\"bypass -h admin_teleport_character $char_cord_x $char_cord_y $char_cord_z\" width=60 height=15 back=\"L2UI_ct1.button_df\" fore=\"L2UI_ct1.button_df\">");
-		replyMSG.append("<button value=\""+MessageTable.Messages[93].getMessage()+"\" action=\"bypass -h admin_teleport_character " + activeChar.getX() + " " + activeChar.getY() + " " + activeChar.getZ()
-				+ "\" width=115 height=15 back=\"L2UI_ct1.button_df\" fore=\"L2UI_ct1.button_df\">");
-		replyMSG.append("<center><button value=\""+MessageTable.Messages[1077].getMessage()+"\" action=\"bypass -h admin_current_player\" width=40 height=15 back=\"L2UI_ct1.button_df\" fore=\"L2UI_ct1.button_df\"></center>");
-		replyMSG.append("</body></html>");
-		
-		adminReply.setHtml(replyMSG.toString());
-
+                final String replyMSG = StringUtil.concat(
+                        "<html><title>"+MessageTable.Messages[9].getMessage()+"</title>" +
+                        "<body>" +
+                        MessageTable.Messages[48].getMessage(),
+                        player.getName(),
+                        MessageTable.Messages[49].getMessage() +
+                        "<br>" +
+                        MessageTable.Messages[68].getMessage() +
+                        "<edit var=\"char_cord_x\" width=110>" +
+                        MessageTable.Messages[74].getMessage() +
+                        "<edit var=\"char_cord_y\" width=110>" +
+                        MessageTable.Messages[80].getMessage() +
+                        "<edit var=\"char_cord_z\" width=110>" +
+                        "<button value=\""+MessageTable.Messages[83].getMessage()+"\" action=\"bypass -h admin_teleport_character $char_cord_x $char_cord_y $char_cord_z\" width=60 height=15 back=\"L2UI_ct1.button_df\" fore=\"L2UI_ct1.button_df\">" +
+                        "<button value=\""+MessageTable.Messages[93].getMessage()+"\" action=\"bypass -h admin_teleport_character ",
+                        String.valueOf(activeChar.getX()),
+                        " ",
+                        String.valueOf(activeChar.getY()),
+                        " ",
+                        String.valueOf(activeChar.getZ()),
+                        "\" width=115 height=15 back=\"L2UI_ct1.button_df\" fore=\"L2UI_ct1.button_df\">" +
+                        "<center><button value=\""+MessageTable.Messages[1077].getMessage()+"\" action=\"bypass -h admin_current_player\" width=40 height=15 back=\"L2UI_ct1.button_df\" fore=\"L2UI_ct1.button_df\"></center>" +
+                        "</body></html>"
+                        );
+		adminReply.setHtml(replyMSG);
 		activeChar.sendPacket(adminReply);
 	}
 	
@@ -449,6 +455,8 @@ public class AdminTeleport implements IAdminCommandHandler
 				//L2MonsterInstance mob = new L2MonsterInstance(monsterTemplate, template1);
 				
 				spawn = new L2Spawn(template1);
+				if (Config.SAVE_GMSPAWN_ON_CUSTOM)
+					spawn.setCustom(true);
 				spawn.setLocx(activeChar.getX());
 				spawn.setLocy(activeChar.getY());
 				spawn.setLocz(activeChar.getZ());
@@ -496,7 +504,8 @@ public class AdminTeleport implements IAdminCommandHandler
 			{
 				L2NpcTemplate template = NpcTable.getInstance().getTemplate(target.getNpcId());
 				L2Spawn spawnDat = new L2Spawn(template);
-				
+				if (Config.SAVE_GMSPAWN_ON_CUSTOM)
+					spawn.setCustom(true);
 				spawnDat.setLocx(activeChar.getX());
 				spawnDat.setLocy(activeChar.getY());
 				spawnDat.setLocz(activeChar.getZ());

@@ -106,7 +106,7 @@ public class IOPRace extends Quest
 				if (st.getQuestItemsCount(STAMP) < 4)
 				{
 					// not done message missing
-					return "32349-nofinish.htm";
+					return "32349-notfinish.htm";
 				}
 				st.takeItems(STAMP, -1);
 				st.giveItems(KEY, 3);
