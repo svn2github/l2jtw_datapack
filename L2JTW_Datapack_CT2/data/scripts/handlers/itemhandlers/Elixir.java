@@ -74,7 +74,7 @@ public class Elixir implements IItemHandler
 			case 8625:
 			case 8626:
 			case 8627:
-				if (usePotion(activeChar, 2287, 0, itemId-8621))//Update by rocknow
+				if (usePotion(activeChar, 2287, 2288, itemId-8621))
 					activeChar.sendPacket(new ExUseSharedGroupItem(itemId, 1, 300000, 300000));
 				break;
 			case 8628:
@@ -83,7 +83,7 @@ public class Elixir implements IItemHandler
 			case 8631:
 			case 8632:
 			case 8633:
-				if (usePotion(activeChar, 2288, 0, itemId-8627))//Update by rocknow
+				if (usePotion(activeChar, 2288, 2287, itemId-8627))
 					activeChar.sendPacket(new ExUseSharedGroupItem(itemId, 1, 300000, 300000));
 				break;
 			case 8634:
