@@ -62,9 +62,9 @@ INSERT INTO `messagetable` VALUES ('14', 'cn', '职业变更为「$1」。', nul
 INSERT INTO `messagetable` VALUES ('15', 'en', 'A GM gave you $1 skills.', null);
 INSERT INTO `messagetable` VALUES ('15', 'tw', '管理者給你增加 $1 個技能。', null);
 INSERT INTO `messagetable` VALUES ('15', 'cn', '管理者给你增加 $1 个技能。', null);
-INSERT INTO `messagetable` VALUES ('16', 'en', '', null);
-INSERT INTO `messagetable` VALUES ('16', 'tw', '', null);
-INSERT INTO `messagetable` VALUES ('16', 'cn', '', null);
+INSERT INTO `messagetable` VALUES ('16', 'en', 'Error with your coords, Please ask a GM for help!', null);
+INSERT INTO `messagetable` VALUES ('16', 'tw', '你的位置發生錯誤，請回報給管理者！', null);
+INSERT INTO `messagetable` VALUES ('16', 'cn', '你的位置发生错误，请回报给管理者！', null);
 INSERT INTO `messagetable` VALUES ('17', 'en', 'A clock will now be displayed next to the server name', null);
 INSERT INTO `messagetable` VALUES ('17', 'tw', '登入伺服器時將會看到時鐘。', null);
 INSERT INTO `messagetable` VALUES ('17', 'cn', '登入服务器时将会看到时钟。', null);
@@ -176,9 +176,9 @@ INSERT INTO `messagetable` VALUES ('52', 'cn', '无法攻击等级 21 以下的�
 INSERT INTO `messagetable` VALUES ('53', 'en', 'Can\'t attack a newbie player using a cursed weapon', null);
 INSERT INTO `messagetable` VALUES ('53', 'tw', '無法攻擊新手玩家。', null);
 INSERT INTO `messagetable` VALUES ('53', 'cn', '无法攻击新手玩家。', null);
-INSERT INTO `messagetable` VALUES ('54', 'en', '', null);
-INSERT INTO `messagetable` VALUES ('54', 'tw', '', null);
-INSERT INTO `messagetable` VALUES ('54', 'cn', '', null);
+INSERT INTO `messagetable` VALUES ('54', 'en', 'You cannot cheat your way out of here. You must wait until your jail time is over.', null);
+INSERT INTO `messagetable` VALUES ('54', 'tw', '你必須等到監禁時間結束，才能離開這裡。', null);
+INSERT INTO `messagetable` VALUES ('54', 'cn', '你必须等到监禁时间结束，才能离开这里。', null);
 INSERT INTO `messagetable` VALUES ('55', 'en', 'Notice', null);
 INSERT INTO `messagetable` VALUES ('55', 'tw', '注意', null);
 INSERT INTO `messagetable` VALUES ('55', 'cn', '注意', null);
@@ -440,9 +440,9 @@ INSERT INTO `messagetable` VALUES ('140', 'cn', 'GeoEditor 没有连线。', nul
 INSERT INTO `messagetable` VALUES ('141', 'en', 'Go away, you\'re not welcome here.', null);
 INSERT INTO `messagetable` VALUES ('141', 'tw', '快離開，這裡不歡迎你。', null);
 INSERT INTO `messagetable` VALUES ('141', 'cn', '快离开，这里不欢迎你。', null);
-INSERT INTO `messagetable` VALUES ('142', 'en', '', null);
-INSERT INTO `messagetable` VALUES ('142', 'tw', '', null);
-INSERT INTO `messagetable` VALUES ('142', 'cn', '', null);
+INSERT INTO `messagetable` VALUES ('142', 'en', 'Your Partner has logged in.', null);
+INSERT INTO `messagetable` VALUES ('142', 'tw', '你的伴侶已登入。', null);
+INSERT INTO `messagetable` VALUES ('142', 'cn', '你的伴侣已登入。', null);
 INSERT INTO `messagetable` VALUES ('143', 'en', 'Healed within $1 unit radius.', null);
 INSERT INTO `messagetable` VALUES ('143', 'tw', '恢復 $1 半徑內的所有物件。', null);
 INSERT INTO `messagetable` VALUES ('143', 'cn', '恢复 $1 半径内的所有物件。', null);

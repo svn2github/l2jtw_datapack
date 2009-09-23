@@ -128,7 +128,7 @@ REPLACE INTO `npc` VALUES ('16045', '16045', 'White Weasel', '0', '', '0', 'Line
 REPLACE INTO `npc` VALUES ('16046', '16046', 'Fairy Princess', '0', '', '0', 'LineageMonster4.fairy_princess_pet', '10', '18', '70', 'male', 'L2Pet', '40', '2444', '2444', '0.00', '0.00', '40', '43', '30', '21', '20', '25', '0', '0', '500', '500', '500', '500', '253', '0', '253', '0', '0', '0', '80', '120', 'NULL', '0', '0', '0', 'LAST_HIT', '0', '0', '0', 'fighter', 'false');
 UPDATE `etcitem` SET `handler` = 'SummonItems' WHERE `item_id` IN (13017,13018,13019,13020);
 UPDATE `etcitem` SET `time` = 300 WHERE `item_id` IN (13017,13018,13019,13020);
-UPDATE `items` SET `time` = 30 WHERE `item_id` IN (13017,13018,13019,13020) AND `time` = '-1';
+-- UPDATE `items` SET `time` = 30 WHERE `item_id` IN (13017,13018,13019,13020) AND `time` = '-1';
 REPLACE INTO `pets_skills` VALUES
 (16044,1,5745,1),
 (16044,72,5745,2),
@@ -377,6 +377,7 @@ UPDATE `spawnlist` SET `npc_templateid` = '35440' WHERE `id` = 33771; -- 修正NPC
 UPDATE `npc` SET `rhand` = '316' WHERE `id` IN (50007); -- 結婚管理員
 UPDATE `npc` SET `rhand` = '0' WHERE `id` IN (70010); -- TVT活動管理員
 DELETE FROM `spawnlist` WHERE `npc_templateid` IN (30880,30881,30882,30883,30884,30885,30886,30887,30888,30889); -- 刪除不存在的NPC
+UPDATE `droplist` SET `mobId` = '21070' WHERE `mobId` IN (21071); -- 封印大天使
 
 -- 加入維他命管理者
 REPLACE INTO `spawnlist` VALUES
@@ -821,81 +822,28 @@ UPDATE `auction` SET `startingBid` = '20000000' WHERE `id` IN (58,59,60,61) AND 
 
 
 /************ 加入破滅國境的道具 ************/
--- S84薄暮武器
-REPLACE INTO `weapon` VALUES
-(13457,'Vesper Cutter','rhand','true',1520,1,1,'steel','s84',396,10,'sword',8,0.00000,0,0,0,379,0,176,-1,-1,0,0,'True','True','True','True',0,0,0,0,0,0,0,0,13468,'0-0;'),
-(13458,'Vesper Slasher','lrhand','true',1740,1,1,'steel','s84',482,10,'bigsword',8,0.00000,0,0,0,325,0,176,-1,-1,0,0,'True','True','True','True',0,0,0,0,0,0,0,0,13470,'0-0;'),
-(13467,'Vesper Thrower','lrhand','true',1520,1,1,'steel','s84',724,5,'bow',12,-3.00000,0,0,0,293,12,176,-1,-1,0,0,'True','True','True','True',0,0,0,0,0,0,0,0,13469,'0-0;'),
-(13468,'Vesper Pincer','rhand','true',1280,1,1,'steel','s84',359,40,'rapier',10,-1.00000,0,0,0,406,0,176,-1,-1,0,0,'True','True','True','True',3426,1,0,0,0,0,0,0,13457,'0-0;'),
-(13469,'Vesper Sheutjeh','lrhand','true',1580,1,1,'steel','s84',444,10,'crossbow',10,-1.00000,0,0,0,303,0,176,-1,-1,0,0,'True','True','True','True',0,0,0,0,0,0,0,0,13467,'0-0;'),
-(13470,'Vesper Nagan','lrhand','true',1800,1,1,'steel','s84',429,15,'ancient',8,2.00000,0,0,0,350,0,176,-1,-1,0,0,'True','True','True','True',0,0,0,0,0,0,0,0,13458,'0-0;');
-
--- S84搜魂石特效的薄暮武器
-REPLACE INTO `weapon` VALUES
-(14118,'Vesper Cutter','rhand','true',1520,1,1,'fine_steel','s84',396,10,'sword',8,0.00000,0,0,0,379,0,176,-1,-1,0,0,'True','True','True','True',0,0,0,0,0,0,0,0,14151,'0-0;'),
-(14119,'Vesper Cutter','rhand','true',1520,1,1,'fine_steel','s84',396,10,'sword',8,0.00000,0,0,0,379,0,176,-1,-1,0,0,'True','True','True','True',0,0,0,0,0,0,0,0,14152,'0-0;'),
-(14120,'Vesper Cutter','rhand','true',1520,1,1,'fine_steel','s84',396,10,'sword',8,0.00000,0,0,0,379,0,176,-1,-1,0,0,'True','True','True','True',0,0,0,0,0,0,0,0,14153,'0-0;'),
-(14121,'Vesper Slasher','lrhand','true',1740,1,1,'fine_steel','s84',482,10,'bigsword',8,0.00000,0,0,0,325,0,176,-1,-1,0,0,'True','True','True','True',0,0,0,0,0,0,0,0,14157,'0-0;'),
-(14122,'Vesper Slasher','lrhand','true',1740,1,1,'fine_steel','s84',482,10,'bigsword',8,0.00000,0,0,0,325,0,176,-1,-1,0,0,'True','True','True','True',0,0,0,0,0,0,0,0,14158,'0-0;'),
-(14123,'Vesper Slasher','lrhand','true',1740,1,1,'fine_steel','s84',482,10,'bigsword',8,0.00000,0,0,0,325,0,176,-1,-1,0,0,'True','True','True','True',0,0,0,0,0,0,0,0,14159,'0-0;'),
-(14126,'Vesper Buster','rhand','true',1520,1,1,'fine_steel','s84',317,10,'sword',8,0.00000,0,0,0,379,0,234,-1,-1,0,0,'True','True','True','True',0,0,3577,1,20,0,0,0,0,'0-0;'),
-(14132,'Vesper Fighter','lrhand','true',1550,1,1,'fine_steel','s84',482,5,'dualfist',4,4.00000,0,0,0,325,0,176,-1,-1,0,0,'True','True','True','True',0,0,0,0,0,3070,1,43,0,'0-0;'),
-(14148,'Vesper Thrower','lrhand','true',1520,1,1,'fine_steel','s84',724,5,'bow',12,-3.00000,0,0,0,293,12,176,-1,-1,0,0,'True','True','True','True',0,0,0,0,0,0,0,0,14154,'0-0;'),
-(14149,'Vesper Thrower','lrhand','true',1520,1,1,'fine_steel','s84',724,5,'bow',12,-3.00000,0,0,0,293,12,176,-1,-1,0,0,'True','True','True','True',0,0,0,0,0,0,0,0,14155,'0-0;'),
-(14150,'Vesper Thrower','lrhand','true',1520,1,1,'fine_steel','s84',724,5,'bow',12,-3.00000,0,0,0,293,12,176,-1,-1,0,0,'True','True','True','True',0,0,0,0,0,1160,1,33,14156,'0-0;'),
-(14151,'Vesper Pincer','rhand','true',1280,1,1,'fine_steel','s84',359,40,'rapier',10,-1.00000,0,0,0,406,0,176,-1,-1,0,0,'True','True','True','True',3426,1,0,0,0,0,0,0,14118,'0-0;'),
-(14152,'Vesper Pincer','rhand','true',1280,1,1,'fine_steel','s84',359,40,'rapier',10,-1.00000,0,0,0,406,0,176,-1,-1,0,0,'True','True','True','True',3426,1,0,0,0,0,0,0,14119,'0-0;'),
-(14153,'Vesper Pincer','rhand','true',1280,1,1,'fine_steel','s84',359,40,'rapier',10,-1.00000,0,0,0,406,0,176,-1,-1,0,0,'True','True','True','True',3426,1,0,0,0,0,0,0,14120,'0-0;'),
-(14154,'Vesper Sheutjeh','lrhand','true',1580,1,1,'fine_steel','s84',444,10,'crossbow',10,-1.00000,0,0,0,303,0,176,-1,-1,0,0,'True','True','True','True',0,0,0,0,0,0,0,0,14148,'0-0;'),
-(14155,'Vesper Sheutjeh','lrhand','true',1580,1,1,'fine_steel','s84',444,10,'crossbow',10,-1.00000,0,0,0,303,0,176,-1,-1,0,0,'True','True','True','True',0,0,0,0,0,0,0,0,14149,'0-0;'),
-(14156,'Vesper Sheutjeh','lrhand','true',1580,1,1,'fine_steel','s84',444,10,'crossbow',10,-1.00000,0,0,0,303,0,176,-1,-1,0,0,'True','True','True','True',0,0,0,0,0,1160,1,24,14150,'0-0;'),
-(14157,'Vesper Nagan','lrhand','true',1800,1,1,'fine_steel','s84',429,15,'ancient',8,2.00000,0,0,0,350,0,176,-1,-1,0,0,'True','True','True','True',0,0,0,0,0,0,0,0,14121,'0-0;'),
-(14158,'Vesper Nagan','lrhand','true',1800,1,1,'fine_steel','s84',429,15,'ancient',8,2.00000,0,0,0,350,0,176,-1,-1,0,0,'True','True','True','True',0,0,0,0,0,0,0,0,14122,'0-0;'),
-(14159,'Vesper Nagan','lrhand','true',1800,1,1,'fine_steel','s84',429,15,'ancient',8,2.00000,0,0,0,350,0,176,-1,-1,0,0,'True','True','True','True',0,0,0,0,0,0,0,0,14123,'0-0;');
-
--- 修正斗篷/手鐲的強化和賦予屬性
--- UPDATE `items` SET `enchant_level` = '0' WHERE `item_id` IN (13687,13688,13689,13690,13889,13890,13891,13892,14601,14602,14608,14609,14610) AND `enchant_level` > 0;
--- DELETE FROM `item_attributes` WHERE `itemId` IN ( SELECT `object_id` FROM `items` WHERE `item_id` IN (13687,13688,13689,13690,13889,13890,13891,13892,14601,14602,14608,14609,14610,9592,10210));
-
 -- 法國麵包武器
 DELETE FROM `armor` WHERE `item_id` IN (20266); -- L2J 錯誤設定為防具
 REPLACE INTO `weapon` VALUES
-(20255,'Baguette Sword','rhand','false',500,3,3,'fine_steel','none',1,1,'sword',8,0,0,0,0,379,0,2,-1,10080,0,0,'true','true','true','true',0,0,0,0,0,0,0,0,0,'0-0;'),
-(20256,'Baguette Dagger','rhand','false',500,3,3,'fine_steel','none',1,1,'dagger',12,-3,0,0,0,433,0,2,-1,10080,0,0,'true','true','true','true',0,0,0,0,0,0,0,0,0,'0-0;'),
-(20257,'Baguette Dual Sword','lrhand','false',500,3,3,'fine_steel','none',1,1,'bigsword',8,0,0,0,0,325,0,2,-1,10080,0,0,'true','true','true','true',0,0,0,0,0,0,0,0,0,'0-0;'),
-(20258,'Baguette Mace','rhand','false',500,3,3,'fine_steel','none',1,1,'blunt',4,4,0,0,0,379,0,2,-1,10080,0,0,'true','true','true','true',0,0,0,0,0,0,0,0,0,'0-0;'),
-(20259,'Baguette Heavy Hammer','lrhand','false',500,3,3,'fine_steel','none',1,1,'bigblunt',4,4,0,0,0,325,0,2,-1,10080,0,0,'true','true','true','true',0,0,0,0,0,0,0,0,0,'0-0;'),
-(20260,'Baguette Spear','lrhand','false',500,3,3,'fine_steel','none',1,1,'pole',8,-3,0,0,0,325,0,2,-1,10080,0,0,'true','true','true','true',0,0,0,0,0,0,0,0,0,'0-0;'),
-(20261,'Baguette Bow','lrhand','false',500,10,3,'fine_steel','none',1,1,'bow',12,-3,0,0,0,227,0,3,-1,10080,0,0,'true','true','true','true',0,0,0,0,0,0,0,0,0,'0-0;'),
-(20262,'Baguette Fist','lrhand','false',500,3,3,'fine_steel','none',1,1,'dualfist',4,4,0,0,0,325,0,2,-1,10080,0,0,'true','true','true','true',0,0,0,0,0,0,0,0,0,'0-0;'),
-(20263,'Baguette Magic Sword','rhand','false',500,3,3,'fine_steel','none',1,1,'sword',8,0,0,0,0,379,0,2,-1,10080,0,0,'true','true','true','true',0,0,0,0,0,0,0,0,0,'0-0;'),
-(20264,'Baguette Staff','rhand','false',500,3,3,'fine_steel','none',1,1,'blunt',4,4,0,0,0,379,0,2,-1,10080,0,0,'true','true','true','true',0,0,0,0,0,0,0,0,0,'0-0;'),
-(20265,'Baguette Great Staff','lrhand','false',500,3,3,'fine_steel','none',1,1,'bigblunt',4,4,0,0,0,325,0,2,-1,10080,0,0,'true','true','true','true',0,0,0,0,0,0,0,0,0,'0-0;'),
-(20266,'Baguette Shield','lhand','false',500,0,0,'fine_steel','none',0,0,'none',0,0,-8,2,20,0,0,0,-1,10080,0,0,'true','true','true','true',0,0,0,0,0,0,0,0,0,'0-0;'),
-(20267,'Baguette Rapier','rhand','false',500,3,3,'fine_steel','none',1,1,'rapier',10,-1,0,0,0,406,0,3,-1,10080,0,0,'true','true','true','true',3426,0,0,0,0,0,0,0,0,'0-0;'),
-(20268,'Baguette Ancient Sword','lrhand','false',500,3,3,'fine_steel','none',1,1,'ancient',8,2,0,0,0,350,0,3,-1,10080,0,0,'true','true','true','true',0,0,0,0,0,0,0,0,0,'0-0;'),
-(20269,'Baguette Crossbow','lrhand','false',500,6,3,'fine_steel','none',1,1,'crossbow',10,-1,0,0,0,303,0,3,-1,10080,0,0,'true','true','true','true',0,0,0,0,0,0,0,0,0,'0-0;'),
-(20270,'Baguette\'s Dualsword','lrhand','false',500,3,3,'fine_steel','none',1,1,'dual',8,0,0,0,0,325,0,2,-1,10080,0,0,'true','true','true','true',0,0,0,0,0,0,0,0,0,'0-0;');
+(20266,'Baguette Shield','lhand','false',500,0,0,'fine_steel','none',0,0,'none',0,0,-8,2,20,0,0,0,-1,10080,0,0,'true','true','true','true',0,0,0,0,0,0,0,0,0,'0-0;'); -- 法國麵包菠蘿盾
 
 -- 新頭飾
 REPLACE INTO `armor` VALUES
-(20401,'Laborer Hat','hairall','false','none',10,'wood','none',0,-1,-1,0,0,0,0,0,'true','true','true','true','0-0','0-0;'); -- 勤勞者帽子
+(20401,'Laborer Hat','hairall','false','none',10,'wood','none',0,-1,-1,0,0,0,0,0,'true','true','true','true','0-0','0-0;'), -- 勤勞者帽子
+(20497,'Mother\'s Wreath - Event Blessing of Love - 24 hours limited period','hairall','false','none',120,'wood','none',0,-1,1440,0,0,0,0,0,'false','false','true','false','0-0','21086-1;'), -- 母親的花環-活動 愛的祝福(限時24小時)
+(20498,'Mother\'s Wreath Blessing of Love - 3 day limited period','hairall','false','none',120,'wood','none',0,-1,4320,0,0,0,0,0,'false','false','true','false','0-0','21086-1;'); -- 母親的花環-活動 愛的祝福(限時3日)
 
 -- 新壺精
 REPLACE INTO `armor` VALUES
 (14776,'Agathion Seal Bracelet - Juju','lbracelet','false','none',150,'wood','none',0,-1,20160,0,0,0,0,0,'false','false','true','false','0-0','8327-1;6136-1;6137-1;3267-1;'),
-(20495,'Agathion Seal Bracelet - Pomona Mental Shield - 7 day limited period','lbracelet','false','none',150,'wood','none',0,-1,-1,0,0,0,0,0,'false','false','true','false','0-0','21085-1;23067-1;3267-1;'), -- 壺精封印手鐲-果樹女神
+(20495,'Agathion Seal Bracelet - Pomona Mental Shield - 7 day limited period','lbracelet','false','none',150,'wood','none',0,-1,-1,0,0,0,0,0,'false','false','true','false','0-0','21085-1;23067-1;3267-1;'); -- 壺精封印手鐲-果樹女神
 -- (20496,'Agathion Seal Bracelet - Pomona Mental Shield - 7 day limited period','lbracelet','false','none',150,'wood','none',0,-1,10080,0,0,0,0,0,'false','false','true','false','0-0','21085-1;23067-1;23068-4;3267-1;'), -- 壺精封印手鐲-果樹女神 心靈防護(限時7日)
-(20497,'Mother\'s Wreath - Event Blessing of Love - 24 hours limited period','hairall','false','none',120,'wood','none',0,-1,1440,0,0,0,0,0,'false','false','true','false','0-0','21086-1;'), -- 母親的花環-活動 愛的祝福 限時24小時
-(20498,'Mother\'s Wreath Blessing of Love - 3 day limited period','hairall','false','none',120,'wood','none',0,-1,4320,0,0,0,0,0,'false','false','true','false','0-0','21086-1;'); -- 母親的花環-活動 愛的祝福(限時3日)
-UPDATE `armor` SET `skill` = '8275-1;3267-1;' WHERE `item_id` IN (13756);        -- 壺精召喚手鐲-騎士
 UPDATE `armor` SET `skill` = '8257-1;5956-1;3267-1;' WHERE `item_id` IN (14075); -- 怒氣壺精
 UPDATE `armor` SET `skill` = '8256-1;5955-1;3267-1;' WHERE `item_id` IN (14076); -- 開心壺精
 UPDATE `armor` SET `skill` = '8258-1;5957-1;3267-1;' WHERE `item_id` IN (14077); -- 嗚咽壺精
 
 -- 新騎乘手鐲
-UPDATE `armor` SET `skill` = '8261-1;' WHERE `item_id` IN (13546,14054,14067,20396); -- 蒸汽甲蟲騎乘手鐲
-UPDATE `armor` SET `skill` = '8262-1;' WHERE `item_id` IN (13547,14053,14066);       -- 黃鬃獅子騎乘手鐲
+UPDATE `armor` SET `skill` = '8262-1;' WHERE `item_id` IN (14053,14066);       -- 黃鬃獅子騎乘手鐲
 
 -- 新狩獵幫手
 REPLACE INTO `npc` VALUES
@@ -905,7 +853,7 @@ REPLACE INTO `npc` VALUES
 ('16053', '16053', 'Turtle Ascetic', '0', '', '0', 'LineageMonster4.turtle_buffer_the_pet', '12', '10', '80', 'male', 'L2Pet', '40', '2444', '2444', '0.00', '0.00', '40', '43', '30', '21', '20', '25', '0', '0', '500', '500', '500', '500', '253', '0', '253', '0', '0', '0', '80', '120', 'NULL', '0', '0', '0', 'LAST_HIT', '0', '0', '0', 'fighter', 'false');
 UPDATE `etcitem` SET `handler` = 'SummonItems' WHERE `item_id` IN (14061,14062,14063,14064);
 UPDATE `etcitem` SET `time` = 300 WHERE `item_id` IN (14061,14062,14063,14064);
-UPDATE `items` SET `time` = 30 WHERE `item_id` IN (14061,14062,14063,14064) AND `time` = '-1';
+-- UPDATE `items` SET `time` = 30 WHERE `item_id` IN (14061,14062,14063,14064) AND `time` = '-1';
 REPLACE INTO `pets_stats` VALUES
 ('Owl Monk',16050,70,266966617,6046,729,3812,502,646,481,110,100,44,198,278,333,100000000,0,0,92287,40,15,0.00),
 ('Owl Monk',16050,71,311043873,6217,782,3846,509,647,484,112,102,44,198,278,333,100000000,0,0,92287,40,15,0.00),
@@ -1293,11 +1241,11 @@ REPLACE INTO `teleport` VALUES
 ('3254001', '3260203', '-212836', '209824', '4288', '0', '0');
 
 
--- 刪除不會動的 NPC Walk
-Delete From `spawnlist` Where `npc_templateid` in (32549,32619,32628,32629);
-DELETE FROM `fort_spawnlist` WHERE `npcId` IN (35659,35690,35728,35759,35797,35828,35859,35897,35928,35966,36004,36035,36073,36111,36142,36173,36211,36249,36287,36318,36356);
-UPDATE `npc` SET `walkspd` = '8' WHERE `id` IN (32072);
-UPDATE `npc` SET `walkspd` = '50' WHERE `id` IN (35659,35690,35728,35759,35797,35828,35859,35897,35928,35966,36004,36035,36073,36111,36142,36173,36211,36249,36287,36318,36356);
+-- 刪除 NPC，改成 AI 控制行動
+Delete From `spawnlist` Where `npc_templateid` in (32549,32619,32628,32629); -- 狄里歐斯/刺槍兵/碼頭巡邏兵
+UPDATE `npc` SET `walkspd` = '8' WHERE `id` IN (32072); -- 艾德溫
+UPDATE `npc` SET `walkspd` = '50' WHERE `id` IN (35659,35690,35728,35759,35797,35828,35859,35897,35928,35966,36004,36035,36073,36111,36142,36173,36211,36249,36287,36318,36356); -- 可疑的商人
+DELETE FROM `fort_spawnlist` WHERE `npcId` IN (35659,35690,35728,35759,35797,35828,35859,35897,35928,35966,36004,36035,36073,36111,36142,36173,36211,36249,36287,36318,36356); -- 可疑的商人
 
 -- 防具修正
 UPDATE `armor` SET `m_def` = 71  WHERE `item_id` IN (9452,11604); -- 封印的王朝耳環
@@ -1372,9 +1320,7 @@ UPDATE `etcitem` SET `time` = 21600 WHERE `item_id` IN (20190); -- 情人節裝飾品
 UPDATE `etcitem` SET `time` = 43200 WHERE `item_id` IN (13027,14728,20199); -- 格蘭肯的禮盒/活動-礦石晶體/夢幻的情人節蛋糕
 
 -- 增加物品效果
-UPDATE `armor` SET `skill` = '3633-2;' WHERE `item_id` = '6841';                               -- 城主的王冠
 UPDATE `armor` SET `skill` = '3407-1;' WHERE `item_id` = '9900';                               -- 靜音之步戒指
-UPDATE `etcitem` SET `skill` = '2370-1;' WHERE `item_id` = '9897';                             -- 變身卷軸-豬
 UPDATE `etcitem` SET `skill` = '2309-1;', `handler` = 'ItemSkills' WHERE `item_id` = '9144';   -- 豬豬禮盒
 UPDATE `etcitem` SET `skill` = '2422-1;', `handler` = 'ItemSkills' WHERE `item_id` = '10254';  -- 1級寶袋
 UPDATE `etcitem` SET `skill` = '2423-2;', `handler` = 'ItemSkills' WHERE `item_id` = '10255';  -- 2級寶袋
@@ -1508,7 +1454,7 @@ DELETE FROM `merchant_shopids` WHERE `npc_id` IN (30840,31262,31306,31413,31414,
 -- 刪除彩券商人
 DELETE FROM `spawnlist` WHERE `npc_templateid` IN (30990,30994) AND `id` NOT IN (45033);
 
--- 任務128相關修正 菲拉卡-冰與火之歌
+-- 修正/更新任務128 菲拉卡-冰與火之歌
 REPLACE INTO `npc` VALUES
 (18607,18607,'Gargos',0,'Spirit of Fire',0,'LineageMonster.monster_eye',18,48,39,'male','L2Monster',40,32790,463,7.11,1.84,40,43,30,21,20,10,11224,714,250,175,96,142,278,0,333,0,0, NULL,60,60,'',0,0,0,'LAST_HIT',0,0,0,'balanced','false'),
 (18608,18608,'Kinsus',0,'Spirit of Fire',0,'LineageMonster.monster_eye',18,40,39,'male','L2Monster',40,32790,463,7.11,1.84,40,43,30,21,20,10,11224,714,250,175,96,142,278,0,333,0,0,NULL,60,60,'',0,0,0,'LAST_HIT',0,0,0,'balanced','false'),
