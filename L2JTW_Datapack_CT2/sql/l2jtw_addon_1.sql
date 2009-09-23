@@ -1,7 +1,10 @@
 /************ Made IN Taiwan ************/
 
-/************ 修正32007加爾巴-釣魚會員 ************/
+/************ 刪除自定 NPC ************/
 DELETE FROM `spawnlist` WHERE `id` > 820000 AND `id` < 880000;
+
+
+/************ 修正32007加爾巴-釣魚會員 ************/
 INSERT INTO `spawnlist` VALUES ('820001', '', '1', '32007', '140967', '-123600', '-1905', '0', '0', '11829', '60', '0', '0');
 UPDATE `npc` SET `type` = 'L2Fisherman' WHERE `id` IN (32007);
 UPDATE `npc` SET `rhand` = '7560' WHERE `id` IN (32007);
@@ -114,8 +117,6 @@ UPDATE `armor` SET `skill` = '21010-1;3267-1;23012-1;23015-1;' WHERE `item_id` I
 
 
 /************ 增加道具的變身技能 ************/
-UPDATE `weapon` SET `skill` = '3418-1;' WHERE `item_id` IN (10167); -- 豬豬塔糖
-UPDATE `weapon` SET `skill` = '8244-1;' WHERE `item_id` IN (12814); -- 守門人變身魔杖
 UPDATE `weapon` SET `skill` = '8246-1;' WHERE `item_id` IN (12800,13253,13324,13339); -- 南瓜變身魔杖
 REPLACE INTO `armorsets` VALUES ('200', '9670', '9671', '9669', '0', '0', '3359-1', '0', '0', '0', '0', '0', '0', '0', '0'); -- 土著全套
 
@@ -460,7 +461,6 @@ UPDATE `npc` SET `type` = 'L2Teleporter' WHERE `id` IN (32503); -- 入場管理員 柯
 INSERT INTO `spawnlist` VALUES
 ('830001', '', '1', '32491', '-82166', '-49176', '-10341', '0', '0', '31175', '60', '0', '0'),  -- 地下競技場助手
 ('830002', '', '1', '32497', '-80571', '151295', '-3045', '0', '0', '20607', '60', '0', '0'),   -- 調查官 艾德勒
-('830003', '', '1', '32498', '85093', '147609', '-3404', '0', '0', '49151', '60', '0', '0'),    -- 惡魔島的復活者
 ('830005', '', '1', '32503', '-70661', '-71066', '-1419', '0', '0', '49151', '60', '0', '0'),   -- 入場管理員 柯雷塔的晶體
 ('830006', '', '1', '32513', '-84640', '-45360', '-10728', '0', '0', '56156', '60', '0', '0'),  -- 孔     入場管理員
 ('830007', '', '1', '32514', '-77408', '-50656', '-10728', '0', '0', '29664', '60', '0', '0'),  -- 塔里翁 入場管理員
@@ -883,11 +883,11 @@ REPLACE INTO `armor` VALUES
 
 -- 新壺精
 REPLACE INTO `armor` VALUES
-(14776,'Agathion Seal Bracelet - Juju','lbracelet','false','none',150,'wood','none',0,-1,20160,0,0,0,0,0,'false','false','true','false','0-0','8327-1;6136-1;6137-1;3267-1;'); -- 壺精封印手鐲 愛心
--- (20495,'Agathion Seal Bracelet - Pomona Mental Shield - 7 day limited period','lbracelet','false','none',150,'wood','none',0,-1,-1,0,0,0,0,0,'false','false','true','false','0-0','21085-1;23067-1;3267-1;'), -- 壺精封印手鐲-果樹女神
+(14776,'Agathion Seal Bracelet - Juju','lbracelet','false','none',150,'wood','none',0,-1,20160,0,0,0,0,0,'false','false','true','false','0-0','8327-1;6136-1;6137-1;3267-1;'),
+(20495,'Agathion Seal Bracelet - Pomona Mental Shield - 7 day limited period','lbracelet','false','none',150,'wood','none',0,-1,-1,0,0,0,0,0,'false','false','true','false','0-0','21085-1;23067-1;3267-1;'), -- 壺精封印手鐲-果樹女神
 -- (20496,'Agathion Seal Bracelet - Pomona Mental Shield - 7 day limited period','lbracelet','false','none',150,'wood','none',0,-1,10080,0,0,0,0,0,'false','false','true','false','0-0','21085-1;23067-1;23068-4;3267-1;'), -- 壺精封印手鐲-果樹女神 心靈防護(限時7日)
--- (20497,'Mother\'s Wreath - Event Blessing of Love - 24 hours limited period','hairall','false','none',120,'wood','none',0,-1,1440,0,0,0,0,0,'false','false','true','false','0-0','21086-1;'), -- 母親的花環-活動 愛的祝福 限時24小時
--- (20498,'Mother\'s Wreath Blessing of Love - 3 day limited period','hairall','false','none',120,'wood','none',0,-1,4320,0,0,0,0,0,'false','false','true','false','0-0','21086-1;'); -- 母親的花環-活動 愛的祝福(限時3日)
+(20497,'Mother\'s Wreath - Event Blessing of Love - 24 hours limited period','hairall','false','none',120,'wood','none',0,-1,1440,0,0,0,0,0,'false','false','true','false','0-0','21086-1;'), -- 母親的花環-活動 愛的祝福 限時24小時
+(20498,'Mother\'s Wreath Blessing of Love - 3 day limited period','hairall','false','none',120,'wood','none',0,-1,4320,0,0,0,0,0,'false','false','true','false','0-0','21086-1;'); -- 母親的花環-活動 愛的祝福(限時3日)
 UPDATE `armor` SET `skill` = '8275-1;3267-1;' WHERE `item_id` IN (13756);        -- 壺精召喚手鐲-騎士
 UPDATE `armor` SET `skill` = '8257-1;5956-1;3267-1;' WHERE `item_id` IN (14075); -- 怒氣壺精
 UPDATE `armor` SET `skill` = '8256-1;5955-1;3267-1;' WHERE `item_id` IN (14076); -- 開心壺精
