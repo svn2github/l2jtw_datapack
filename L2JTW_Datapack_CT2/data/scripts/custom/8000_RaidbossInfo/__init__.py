@@ -142,9 +142,9 @@ RADAR={
 25484:[43160,220463,-3680],   #Zaken's Mate Tillion (lv50)
 25493:[83174,254428,-10873],  #Eva's Spirit Niniel (lv55)
 25496:[88300,258000,-10200],  #Fafurion's Envoy Pingolpin (lv52)
-#25509:[,,,],                 #Dark Shaman Varangka (53) - not spawned yet
-#25512:[,,,],                 #Gigantic Chaos Golem (52) - not spawned yet
-#29060:[,,,],                 #Captain Of The Ice Queen's Royal Guard (59) - not spawned yet
+25509:[74103,-101917,-967],   #Dark Shaman Varangka (53)
+25512:[96298,-111435,-3335],  #Gigantic Chaos Golem (52)
+29060:[105801,-127682,-2770], #Captain Of The Ice Queen's Royal Guard (59)
 
 #lvl60 list
 25016:[76787,245775,-10376],  #The 3rd Underwater Guardian (lv60)
@@ -168,7 +168,7 @@ RADAR={
 25467:[186192,61472,-4160],   #Gorgolos (lv64)
 25470:[186896,56276,-4576],   #Utenus, the Last Titan (lv66)
 25478:[168288,28368,-3632],   #Hisilrome, Priest of Shilen (lv65)
-#29056:[,,,],                 #Ice Fairy Sirra (60) - not spawned yet
+29056:[102717,-125674,-2848], #Ice Fairy Sirra (60)
 
 #lvl70 list
 25035:[180968,12035,-2720],   #Shilen's Messenger Cabrio (lv70)
@@ -201,10 +201,10 @@ RADAR={
 25447:[113200,17552,-1424],   #Immortal Savior Mardil (lv71)
 25450:[113600,15104,9559],    #Cherub Galaxia (lv79)
 25453:[156704,-6096,-4185],   #Minas Anor (lv70)
-#25523:[,,,],                 #Plague Golem (lvl73) - not spawned yet
+25523:[16841,-60417,-3888],   #Plague Golem (lvl73)
 25524:[144143,-5731,-4722],   #Flamestone Giant (lvl76)
-#25296:[,,,],                 #Icicle Emperor Bumpalump (lvl74) - quest spawn - not spawned yet
-#25290:[,,,],                 #Daimon The White-Eyed (lvl78) - quest spawn - not spawned yet
+25296:[158322,-121064,-2231], #Icicle Emperor Bumpalump (lvl74)
+25290:[186611,-44525,-3147],  #Daimon The White-Eyed (lvl78)
 
 #lvl80 list
 25283:[185060,-9622,-5104],

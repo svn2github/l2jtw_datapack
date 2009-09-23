@@ -1016,18 +1016,19 @@
   <set name="effectRange" val="400"/>
 </skill>
 <skill id="676" levels="1" name="Divine Warrior Sonic Blaster">
-  <!-- Update by rocknow from L2Emu -->
+  <!-- Update by rocknow -->
   <set name="mpConsume" val="56"/>
   <set name="power" val="2323"/>
+  <set name="SSBoost" val="2.0"/>
+  <set name="overHit" val="true"/>
+  <set name="reuseDelay" val="3000"/>
   <set name="target" val="TARGET_ONE"/>
-  <set name="overHit" val="true"/><!-- Update by rocknow -->
-  <set name="reuseDelay" val="13000"/>
-  <set name="hitTime" val="1900"/>
-  <set name="coolTime" val="900"/>
-  <set name="skillType" val="PDAM"/>
+  <set name="skillType" val="CHARGEDAM"/>
   <set name="operateType" val="OP_ACTIVE"/>
   <set name="castRange" val="600"/>
   <set name="effectRange" val="1100"/>
+  <set name="baseCritRate" val="15"/>
+  <set name="hitTime" val="1900"/>
 </skill>
 <skill id="677" levels="1" name="Divine Warrior Transfixion of Earth">
   <!-- Update by rocknow from L2Emu -->
@@ -1047,21 +1048,21 @@
   <set name="effectRange" val="-1"/>
 </skill>
 <skill id="678" levels="1" name="Divine Warrior War Cry">
-  <!-- Update by rocknow from L2Emu -->
-  <set name="mpInitialConsume" val="4"/>
-  <set name="mpConsume" val="32"/>
+  <!-- Update by rocknow -->
+  <table name="#pAtk"> 1.25 </table>
+  <table name="#mpConsume"> 36 </table>
+  <table name="#uprate"> 1 </table>
+  <table name="#aggro"> 408 </table>
+  <set name="mpConsume" val="#mpConsume"/>
   <set name="target" val="TARGET_SELF"/>
-  <set name="reuseDelay" val="6000"/>
+  <set name="reuseDelay" val="45000"/>
   <set name="hitTime" val="1500"/>
   <set name="skillType" val="BUFF"/>
-  <set name="isMagic" val="false"/>
   <set name="operateType" val="OP_ACTIVE"/>
-  <set name="castRange" val="-1"/>
-  <set name="effectRange" val="-1"/>
-  <set name="aggroPoints" val="204"/>
+  <set name="aggroPoints" val="#aggro"/>
   <for>
-    <effect count="1" name="Buff" time="1800" val="0" stackOrder="1.12" stackType="pa_up">
-      <mul order="0x30" stat="pAtk" val="1.12"/>
+    <effect name="Buff" time="60" val="0" stackOrder="#uprate" stackType="pa_up_special">
+      <mul order="0x30" stat="pAtk" val="#pAtk"/>
     </effect>
   </for>
 </skill>
@@ -1119,7 +1120,7 @@
   </for>
 </skill>
 <skill id="682" levels="1" name="Divine Knight Stun Attack">
-  <!-- Update by rocknow from L2Emu -->
+  <!-- Update by rocknow -->
   <set name="mpConsume" val="76"/>
   <set name="power" val="1162"/>
   <set name="magicLvl" val="74"/>
@@ -1132,11 +1133,10 @@
   <set name="skillType" val="PDAM"/>
   <set name="operateType" val="OP_ACTIVE"/>
   <set name="castRange" val="40"/>
+  <set name="isDebuff" val="true"/>
   <set name="effectRange" val="400"/>
-  <set name="effectType" val="STUN"/>
-  <set name="effectPower" val="50"/>
   <for>
-    <effect count="1" name="Stun" time="9" val="0" stackOrder="1" stackType="Stun"/>
+    <effect name="Stun" time="9" val="0" effectPower="50" effectType="STUN" stackOrder="1" stackType="Stun"/>
   </for>
 </skill>
 <skill id="683" levels="1" name="Divine Knight Thunder Storm">

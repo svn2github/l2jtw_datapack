@@ -1026,11 +1026,15 @@
   </cond>
 </skill>
 <skill id="2393" levels="1" name="Blessed Scroll of Battlefield Resurrection">
-  <set name="target" val="TARGET_NONE"/>
-  <set name="skillType" val="NOTDONE"/>
-  <set name="operateType" val="OP_PASSIVE"/>
+  <!-- Update by rocknow -->
+  <set name="power" val="100"/>
+  <set name="target" val="TARGET_CORPSE_PLAYER"/>
   <set name="hitTime" val="3000"/>
   <set name="staticHitTime" val="true"/>
+  <set name="skillType" val="RESURRECT"/>
+  <set name="operateType" val="OP_ACTIVE"/>
+  <set name="castRange" val="400"/>
+  <set name="effectRange" val="600"/>
   <cond msgId="113" addName="1">
     <player SiegeZone="126"/>
   </cond>

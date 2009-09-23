@@ -64,7 +64,7 @@ public class Unlock implements ISkillHandler
 				{
 					door.openMe();
 					door.onOpen();
-					activeChar.sendMessage(364);
+					//Delete by rocknow
 				}
 				else
 				{

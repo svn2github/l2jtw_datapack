@@ -58,7 +58,7 @@ public class Trap implements ISkillHandler
 					{
 						(((L2Trap) target)).setDetected();
 						if (activeChar instanceof L2PcInstance)
-							activeChar.sendMessage(16);
+							((L2PcInstance) activeChar).sendPacket(new SystemMessage(SystemMessageId.A_TRAP_DEVICE_HAS_BEEN_TRIPPED));
 					}
 				}
 				break;

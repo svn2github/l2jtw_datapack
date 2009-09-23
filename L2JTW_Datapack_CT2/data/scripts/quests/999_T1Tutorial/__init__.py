@@ -267,7 +267,7 @@ class Quest (JQuest) :
             st.playSound("ItemSound.quest_tutorial")
    return
 
-QUEST       = Quest(999,qn,"初學者幫手")
+QUEST       = Quest(-1,qn,"初學者幫手")
 
 for startNpc in [30008,30009,30017,30019,30129,30131,30573,30575,30370,30528,30530,30400,30401,30402,30403,30404,30600,30601,30602,30598,30599,32133,32134,32135]:
   QUEST.addStartNpc(startNpc)

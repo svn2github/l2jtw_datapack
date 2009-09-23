@@ -23,7 +23,9 @@ import net.sf.l2j.gameserver.model.actor.L2Character;
 import net.sf.l2j.gameserver.model.actor.L2Playable;
 import net.sf.l2j.gameserver.model.actor.instance.L2PcInstance;
 import net.sf.l2j.gameserver.model.actor.instance.L2PetInstance;
-import net.sf.l2j.gameserver.model.entity.Castle;
+import net.sf.l2j.gameserver.model.entity.Castle;//Update by rocknow
+import net.sf.l2j.gameserver.model.entity.Fort;//Update by rocknow
+import net.sf.l2j.gameserver.instancemanager.FortManager;
 import net.sf.l2j.gameserver.network.SystemMessageId;
 import net.sf.l2j.gameserver.network.serverpackets.SystemMessage;
 
@@ -56,6 +58,7 @@ public class ScrollOfResurrection implements IItemHandler
 		int itemId = item.getItemId();
 		//boolean blessedScroll = (itemId != 737);
 		boolean petScroll = (itemId == 6387);
+		boolean Battleground = (itemId == 10150);//Update by rocknow
 		
 		// SoR Animation section
 		L2Character target = (L2Character) activeChar.getTarget();
@@ -75,20 +78,42 @@ public class ScrollOfResurrection implements IItemHandler
 			if (targetPlayer != null || targetPet != null)
 			{
 				boolean condGood = true;
-				
-				//check target is not in a active siege zone
+				//Update by rocknow-Start
+				//check target is not in a active castle siege zone
 				Castle castle = null;
 				
 				if (targetPlayer != null)
 					castle = CastleManager.getInstance().getCastle(targetPlayer.getX(), targetPlayer.getY(), targetPlayer.getZ());
 				else
 					castle = CastleManager.getInstance().getCastle(targetPet.getOwner().getX(), targetPet.getOwner().getY(), targetPet.getOwner().getZ());
+	
+				// check target is not in a active fort siege zone
+				Fort fort = null;
+				if (targetPlayer != null)
+					fort = FortManager.getInstance().getFort(targetPlayer.getX(), targetPlayer.getY(), targetPlayer.getZ());
+				else
+					fort = FortManager.getInstance().getFort(targetPet.getOwner().getX(), targetPet.getOwner().getY(), targetPet.getOwner().getZ());
 				
-				if (castle != null && castle.getSiege().getIsInProgress())
+				// Check scrolls on Siege
+				if ((castle != null && castle.getSiege().getIsInProgress()) || (fort != null && fort.getSiege().getIsInProgress()))
+				{
+					if(!Battleground)
 				{
 					condGood = false;
 					activeChar.sendPacket(new SystemMessage(SystemMessageId.CANNOT_BE_RESURRECTED_DURING_SIEGE));
 				}
+				}
+				else
+				{
+					if(Battleground)
+					{
+						condGood = false;
+						SystemMessage sm = new SystemMessage(SystemMessageId.S1_CANNOT_BE_USED);
+						sm.addItemName(item);
+						activeChar.sendPacket(sm);
+					}
+				}
+				//Update by rocknow-End
 				
 				if (targetPet != null)
 				{

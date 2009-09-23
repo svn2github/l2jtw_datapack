@@ -63,7 +63,7 @@ public class InstantJump implements ISkillHandler
 		
 		x = (int) (px + (25 * Math.cos(ph)));
 		y = (int) (py + (25 * Math.sin(ph)));
-		z = target.getZ();
+		z = target.getZ() + 50;//Update by rocknow
 		
 
 		

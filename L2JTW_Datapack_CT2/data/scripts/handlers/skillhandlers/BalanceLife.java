@@ -99,7 +99,7 @@ public class BalanceLife implements ISkillHandler
 			su.addAttribute(StatusUpdate.CUR_HP, (int) target.getCurrentHp());
 			target.sendPacket(su);
 			
-			target.sendMessage(142);
+			//Delete by rocknow
 		}
 	}
 	

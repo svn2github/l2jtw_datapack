@@ -39,11 +39,9 @@
   <set name="hitTime" val="4000"/>
   <set name="skillType" val="BUFF"/>
   <set name="operateType" val="OP_ACTIVE"/>
-  <set name="castRange" val="-1"/>
-  <set name="effectRange" val="-1"/>
-  <set name="reuseDelay" val="300000"/>
+  <set name="reuseDelay" val="1080000"/>
   <for>
-    <effect count="1" name="Buff" time="600" val="0" stackOrder="20" stackType="speed_up">
+    <effect count="1" name="Buff" time="120" val="0" stackOrder="20" stackType="speed_up">
       <add order="0x40" stat="runSpd" val="20"/>
     </effect>
   </for>
@@ -56,11 +54,9 @@
   <set name="skillType" val="BUFF"/>
   <set name="isMagic" val="true"/>
   <set name="operateType" val="OP_ACTIVE"/>
-  <set name="castRange" val="-1"/>
-  <set name="effectRange" val="-1"/>
-  <set name="reuseDelay" val="300000"/>
+  <set name="reuseDelay" val="86400000"/>
   <for>
-    <effect count="1" name="Buff" time="600" val="0" stackOrder="4" stackType="rEvas">
+    <effect count="1" name="Buff" time="3600" val="0" stackOrder="4" stackType="rEvas">
       <add order="0x40" stat="rEvas" val="4"/>
     </effect>
   </for>
@@ -624,7 +620,7 @@
   <!-- Update by rocknow -->
   <set name="target" val="TARGET_ONE"/>
   <set name="hitTime" val="4000"/>
-  <set name="reuseDelay" val="1800000"/>
+  <set name="reuseDelay" val="14400000"/>
   <set name="skillType" val="BUFF"/>
   <set name="staticReuse" val="true"/>
   <set name="operateType" val="OP_ACTIVE"/>

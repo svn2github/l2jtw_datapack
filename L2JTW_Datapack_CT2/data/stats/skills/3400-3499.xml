@@ -265,7 +265,7 @@ Guessing...
   <set name="operateType" val="OP_PASSIVE"/>
   <set name="magicLvl" val="85"/>
   <set name="chanceType" val="ON_CRIT"/>
-  <set name="activationChance" val="5"/>
+  <set name="activationChance" val="100"/> <!-- Update by rocknow -->
   <set name="triggeredId" val="3579"/>
   <set name="triggeredLevel" val="1"/>
   <for>
