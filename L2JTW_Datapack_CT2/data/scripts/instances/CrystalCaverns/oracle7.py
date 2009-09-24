@@ -25,7 +25,7 @@ def teleportplayer(player,teleto):
 		pet.teleToLocation(teleto.x, teleto.y, teleto.z)
 	return	
 
-class oracle5(JQuest):
+class oracle7(JQuest):
 	def __init__(self,id,name,descr):
 		self.isSpawned = False
 		JQuest.__init__(self,id,name,descr)
@@ -50,7 +50,7 @@ class oracle5(JQuest):
 		htmltext = "<html><body>神諭引導者：<br><a action=\"bypass -h Quest oracle7 out\">離開這裡</a></body></html>"
 		return htmltext
 
-QUEST = oracle5(-1, "oracle7", "ai")
+QUEST = oracle7(-1, "oracle7", "ai")
 
 QUEST.addStartNpc(ORACLE_GUIDE)
 
