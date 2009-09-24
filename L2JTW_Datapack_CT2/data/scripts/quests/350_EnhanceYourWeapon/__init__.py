@@ -43,8 +43,8 @@ class Quest (JQuest) :
         st.giveItems(GREEN_SOUL_CRYSTAL0_ID,1)
     elif event in ["30115-11.htm","30856-11.htm","30194-11.htm"] :
         st.giveItems(BLUE_SOUL_CRYSTAL0_ID,1)
-    elif event in ["30115-22.htm","30856-22.htm","30194-22.htm"] :  #pmq修改增加對話
-        st.playSound("ItemSound.quest_finish")                      #pmq修改增加對話
+    elif event in ["30115-22.htm","30856-22.htm","30194-22.htm"] :  # pmq修改增加對話
+        st.playSound("ItemSound.quest_finish")                      # pmq修改增加對話
         st.exitQuest(1)
     return htmltext
 
@@ -58,10 +58,10 @@ class Quest (JQuest) :
    if id == State.CREATED :
      st.set("cond","0")
    if st.getInt("cond") == 0: 
-     if player.getLevel() >= 40 :  #pmq修改增加任務等級
-       htmltext = npcId+"-01.htm"
-     else :                        #pmq修改增加對話
-       htmltext = npcId+"-00.htm"  #pmq修改增加對話
+     if player.getLevel() >= 40 :                                   # pmq修改增加任務等級
+       htmltext = npcId+"-02.htm"                                   # pmq修改增加對話
+     else :                                                         # pmq修改增加對話
+       htmltext = npcId+"-00.htm"                                   # pmq修改增加對話
    elif check(st) :
      htmltext = npcId+"-03.htm"
    elif st.getQuestItemsCount(RED_SOUL_CRYSTAL0_ID) == st.getQuestItemsCount(GREEN_SOUL_CRYSTAL0_ID) == st.getQuestItemsCount(BLUE_SOUL_CRYSTAL0_ID) == 0 :

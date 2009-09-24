@@ -891,15 +891,16 @@ REPLACE INTO spawnlist VALUES
 REPLACE INTO `npc` VALUES ('18466', '18466', 'Outpost Captain', '0', 'Boss', '0', 'LineageMonster3.benom', '20.00', '56.00', '84', 'male', 'L2Monster', '90', '1282576', '3720', '300.00', '20.00', '60', '65', '70', '75', '70', '80', '2629657', '267913', '32578', '10675', '5907', '2146', '620', '0', '3820', '8203', '8203', '0', '50', '280', null, '0', '0', '13', 'FULL_PARTY', '0', '0', '0', 'balanced', 'false');
 REPLACE INTO `npc` VALUES ('22326', '22326', 'Hellinark', '0', 'Guardian of Naia', '0', 'LineageMonster.karik', '19.00', '90.00', '84', 'male', 'L2Monster', '60', '465488', '4355', '202.00', '10.00', '64', '66', '68', '62', '61', '58', '2629657', '267913', '28564', '3856', '12487', '5647', '590', '0', '3819', '0', '0', '0', '40', '290', null, '0', '0', '13', 'FULL_PARTY', '0', '0', '0', 'balanced', 'false');
 REPLACE INTO `npc` VALUES ('32362', '32362', 'Hellbound Native', '0', '', '0', 'LineageNPC.a_common_peopleC_Mhuman', '8.00', '23.50', '1', 'male', 'L2Npc', '40', '2444', '2444', '0.00', '0.00', '10', '10', '10', '10', '10', '10', '0', '0', '500', '500', '500', '500', '253', '0', '253', '0', '0', '0', '80', '120', '', '0', '0', '0', 'LAST_HIT', '0', '0', '0', 'balanced', 'false');
-REPLACE INTO `minions` VALUES (22448, 22451, 2, 2);
-REPLACE INTO `minions` VALUES (22449, 22450, 8, 8);
+REPLACE INTO `minions` VALUES (22448, 22451, 2, 2); -- 雷歐達斯 反抗軍指揮官
+REPLACE INTO `minions` VALUES (22449, 22450, 8, 8); -- 亞邁士康里 拷問專家
 UPDATE `etcitem` SET `skill` = '2440-1;', `handler` = 'ItemSkills' WHERE `item_id` = '9599'; -- 惡魔的古書
+UPDATE `etcitem` SET `skill` = '2357-1;', `handler` = 'ItemSkills' , `item_type` = 'herb' WHERE `item_id` = '9849'; -- 惡魔溫熱的血
 
 
 /************ 加入 L2Emu 的神諭之島設定 ************/
-UPDATE `etcitem` SET `handler` = 'PaganKeys' WHERE `item_id` = '9694';
-UPDATE `etcitem` SET `skill` = '2362-1;', `handler` = 'PaganKeys' WHERE `item_id` = '10015';
-DELETE FROM `spawnlist` WHERE `npc_templateid` IN (32359);
+UPDATE `etcitem` SET `handler` = 'PaganKeys' WHERE `item_id` = '9694'; -- 祕密花園的鑰匙
+UPDATE `etcitem` SET `skill` = '2362-1;', `handler` = 'PaganKeys' WHERE `item_id` = '10015'; -- 監獄門鑰匙
+DELETE FROM `spawnlist` WHERE `npc_templateid` IN (32359); -- 藍 力量鐵匠
 REPLACE INTO `npc` VALUES
 ('18369', '18369', 'Chromatic Crystaline Golem', '0', '', '0', 'LineageMonster4.Crystal_Golem', '40.00', '47.00', '82', 'male', 'L2Monster', '40', '4663', '1633', '0.00', '0.00', '45', '45', '43', '42', '45', '43', '9308', '1016', '2224', '730', '1199', '950', '277', '500', '253', '0', '0', '0', '80', '120', 'CHROMATIC_GOLEM_CLAN', '700', '0', '0', 'LAST_HIT', '5', '5', '0', 'balanced', 'false'),
 ('18370', '18370', 'Chromatic Crystaline Golem', '0', '', '0', 'LineageMonster4.Crystal_Golem', '40.00', '47.00', '82', 'male', 'L2Monster', '40', '4664', '1445', '0.00', '0.00', '45', '41', '42', '43', '42', '45', '9308', '1016', '2001', '730', '1199', '950', '391', '500', '391', '0', '0', '0', '80', '120', 'CHROMATIC_GOLEM_CLAN', '700', '0', '0', 'LAST_HIT', '0', '5', '0', 'balanced', 'false'),
@@ -956,7 +957,7 @@ REPLACE INTO `npc` VALUES
 ('25535', '25535', 'Tears', '0', 'Ice', '0', 'LineageMonster4.tears', '20.00', '27.50', '83', 'female', 'L2Monster', '40', '2219066', '19500', '362.02', '9.81', '62', '61', '64', '79', '70', '80', '1', '1', '450', '5000', '300', '7000', '409', '500', '3819', '9640', '9643', '0', '55', '307', '', '0', '0', '0', 'LAST_HIT', '150', '50', '75', 'balanced', 'false'),
 ('32342', '32342', 'Eva\'s Gift Box', '0', '', '0', 'LineageMonster.mimic_even', '8.50', '8.50', '70', 'male', 'L2Monster', '40', '3862', '2444', '26.86', '3.09', '40', '43', '30', '21', '20', '10', '0', '0', '0', '855', '0', '428', '0', '0', '0', '0', '0', null, '0', '0', '', '0', '0', '0', 'LAST_HIT', '0', '0', '0', 'balanced', 'false');
 
-Delete From `droplist` Where `itemId` = 9698 and `mobId` = 22275;
+Delete From `droplist` Where `itemId` = 9698 and `mobId` = 22275; -- 湛藍珊瑚鑰匙
 REPLACE INTO `droplist` VALUES
 (22419,1895,1,1,1,4545),
 (22419,57,1718,3492,0,700000),
