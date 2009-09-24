@@ -21,8 +21,7 @@ HERO_ITEMS={
 6621:["weapon_the_pole_of_hero_i00","無限烈槍","致命攻擊時消除目標輔助狀態。賦予裝備者機率性反射技能、提升HP最大值、攻擊速度、命中能力的功能。提升PvP傷害。","379/169","槍"],
 9388:["weapon_infinity_rapier_i00","無限瞬閃","致命攻擊時可向對方施展物理防禦力降低的詛咒魔法，並提升還擊護盾、提升 HP/CP最大值。PvP時提升所造成的傷害。\n致命攻擊時將會以一定的機率提升自己和隊伍成員們的物理攻擊力、魔法攻擊力和所受的治癒量，並發揮使用技能時降低MP消耗量的效果。","344/169","細劍"],
 9389:["weapon_infinity_sword_i00","無限岩裂","致命攻擊時追加額外傷害。賦予裝備者機率性反射技能、提升HP/CP最大值、提升致命攻擊率與致命攻擊威力的功能。PvP時提升所造成的傷害。","410/169","古代劍"],
-9390:["weapon_infinity_shooter_i00","無限追魂","致命攻擊時可向對方施展緩速魔法，使用技能時降低MP消耗量、提升 MP/CP 最大值。PvP時提升所造成的傷害。","405/169","弩"],
-6842:["accessory_hero_cap_i00","命運之翼","英雄專用頭飾。","0","頭飾"]
+9390:["weapon_infinity_shooter_i00","無限追魂","致命攻擊時可向對方施展緩速魔法，使用技能時降低MP消耗量、提升 MP/CP 最大值。PvP時提升所造成的傷害。","405/169","弩"]
 }
 
 def render_list(mode,item) :
@@ -80,7 +79,9 @@ class Quest (JQuest) :
      if player.isHero():
         htmltext=render_list("list",0)
      elif player.isNoble():
-        htmltext = "<html><body>紀念塔：<br>你沒有成為英雄的資格。</body></html>"
+        html = "<html><body>紀念塔：<br>因為你不是英雄，所以無法獲得神器。下次請務必為了英雄之名而奮戰。<br><a action=\"bypass -h npc_%objectId%_Chat 0\">返回</a></body></html>"
+        htmltext = html.replace("%objectId%",str(npc.getObjectId()))
+        st.exitQuest(1)
      else :
         st.exitQuest(1)
      return htmltext

@@ -209,7 +209,9 @@ public class AdminEditChar implements IAdminCommandHandler
 					player.setFame(fame);
 					player.sendPacket(new UserInfo(player));
 					player.sendPacket(new ExBrExtraUserInfo(player));
-					player.sendMessage("A GM changed your Reputation points to " + fame);
+					L2CoreMessage cm =  new L2CoreMessage (MessageTable.Messages[261]);
+					cm.addNumber(fame);
+					cm.sendMessage(player);
 				}
 				else
 				{
@@ -220,7 +222,7 @@ public class AdminEditChar implements IAdminCommandHandler
 			{
 				if (Config.DEVELOPER)
 					_log.warning("Set Fame error: " + e);
-				activeChar.sendMessage("Usage: //setfame <new_fame_value>");
+				activeChar.sendMessage(316);
 			}
 		}
 		else if (command.startsWith("admin_save_modifications"))
@@ -431,7 +433,7 @@ public class AdminEditChar implements IAdminCommandHandler
 				StringTokenizer st = new StringTokenizer(command, " ");
 				if (st.countTokens() != 3)
 				{
-					activeChar.sendMessage("Usage: //unpenalty join|create charname");
+					activeChar.sendMessage(364);
 					return false;
 				}
 
@@ -463,7 +465,9 @@ public class AdminEditChar implements IAdminCommandHandler
 				}
 
 				
-				activeChar.sendMessage("Clan penalty successfully removed to character: "+ playerName);
+				L2CoreMessage cm =  new L2CoreMessage (MessageTable.Messages[470]);
+				cm.addString(playerName);
+				cm.sendMessage(activeChar);
 			}
 			catch (Exception e) 
 			{
