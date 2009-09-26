@@ -1006,7 +1006,7 @@ public class Frintezza extends L2AttackableAIScript
 		{
 			if (!frintezza.isDead() && frintezza != null && _OnMorph == 0)
 			{
-				_OnSong = Rnd.get(1, 1);
+				_OnSong = Rnd.get(1, 5);
 				if (_OnSong == 1 && _ThirdMorph == 1 && strongScarlet.getCurrentHp() < strongScarlet.getMaxHp() * 0.6 && Rnd.get(100) < 80)
 				{
 					_Zone.broadcastPacket(new MagicSkillUse(frintezza, frintezza, 5007, 1, 32000, 0));
