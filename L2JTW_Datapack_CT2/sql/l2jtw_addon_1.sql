@@ -478,10 +478,6 @@ REPLACE INTO `teleport` VALUES
 ('Underground Coliseum -> Underground Coliseum LV70', '3249170', '-77586', '-50503', '-10728', '0', '0'),
 ('Underground Coliseum -> Underground Coliseum LV00', '3249100', '-79309', '-45561', '-10728', '0', '0');
 
--- 加入黎明/黃昏的神諭處可觀看比賽
-REPLACE INTO `npc` VALUES ('830000', '31031', 'Broadcasting Tower', '0', '', '0', 'NPC.broadcasting_tower', '7.00', '35.00', '70', 'etc', 'L2Observation', '40', '3862', '1493', '11.85', '2.78', '40', '43', '30', '21', '20', '10', '0', '0', '1314', '470', '780', '382', '278', '0', '333', '0', '0', '0', '55', '132', 'NULL', '0', '1', '0', 'LAST_HIT', '0', '0', '0', 'fighter', 'false');
-UPDATE `spawnlist` SET `npc_templateid` = '830000' WHERE `id` IN (48128,48129,48130,48131);
-
 
 /************ 修正BOSS ************/
 REPLACE INTO `grandboss_data` VALUES
@@ -1477,5 +1473,6 @@ UPDATE `etcitem` SET `skill` = '2153-1;', `handler` = 'SoulShots', `item_type` =
 UPDATE `weapon` SET `skill` = '3599-1;8239-1;8240-1;8241-1;5760-3;' WHERE `item_id` = 13052;
 UPDATE `weapon` SET `skill` = '3599-1;8239-1;8240-2;8241-1;5760-5;' WHERE `item_id` = 13053;
 UPDATE `weapon` SET `skill` = '3599-1;8239-1;8240-3;8241-1;5760-7;' WHERE `item_id` = 13054;
+UPDATE `weapon` SET `skill` = '0-0;' WHERE `item_id` = 13042;
 UPDATE `npc` SET `collision_radius` = 28, `collision_height` = 20, `level` = 61, `hp` = 3450, `mp` = 1365, `patk` = 991, `pdef` = 415, `matk` = 504, `mdef` = 388, `runspd` = 187 WHERE `id` = 14916;
 UPDATE `npc` SET `collision_radius` = 28, `collision_height` = 20, `level` = 70, `hp` = 4025, `mp` = 1592, `patk` = 1156, `pdef` = 484, `matk` = 588, `mdef` = 452, `runspd` = 187 WHERE `id` = 14917;

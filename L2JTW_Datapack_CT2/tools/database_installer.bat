@@ -535,11 +535,11 @@ character_subclasses.sql
 character_tpbookmark.sql
 characters.sql
 clan_data.sql
+clan_notices.sql
 clan_privs.sql
 clan_skills.sql
 clan_subpledges.sql
 clan_wars.sql
-clan_notices.sql
 clanhall_functions.sql
 class_list.sql
 cursed_weapons.sql
