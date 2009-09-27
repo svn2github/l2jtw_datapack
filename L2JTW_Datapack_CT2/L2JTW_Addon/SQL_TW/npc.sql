@@ -1,9339 +1,9744 @@
 /********** Made in Taiwan **********/
 
-/***** 貳幕-破滅國境 2009.07.04 *****/
+/***** 貳幕-聖翼使命 2009.09.27 *****/
 /***** npcname-tw *****/
 
-UPDATE `npc` SET `name` = '不良火雞' WHERE `id` = 1;
-UPDATE `npc` SET `name` = '' WHERE `id` = 2;
-UPDATE `npc` SET `name` = '見習聖誕老人' WHERE `id` = 3;
-UPDATE `npc` SET `name` = '聖誕老人', `title` = 'Merry Xmas ~' WHERE `id` = 4;
-UPDATE `npc` SET `name` = '聖誕老人', `title` = 'Merry Xmas ~' WHERE `id` = 5;
-UPDATE `npc` SET `name` = '聖誕雪橇', `title` = 'Merry Xmas ~' WHERE `id` = 6;
-UPDATE `npc` SET `name` = '生日蛋糕' WHERE `id` = 7;
-UPDATE `npc` SET `name` = '媽祖壺精' WHERE `id` = 1501;
-UPDATE `npc` SET `name` = '金面壺精' WHERE `id` = 1502;
-UPDATE `npc` SET `name` = '黑面壺精' WHERE `id` = 1503;
-UPDATE `npc` SET `name` = '普萊皮塔壺精' WHERE `id` = 1504;
-UPDATE `npc` SET `name` = '寶寶貓熊壺精' WHERE `id` = 1505;
-UPDATE `npc` SET `name` = '團團貓熊壺精' WHERE `id` = 1506;
-UPDATE `npc` SET `name` = '圓圓貓熊壺精' WHERE `id` = 1507;
-UPDATE `npc` SET `name` = '白色邱比特壺精' WHERE `id` = 1508;
-UPDATE `npc` SET `name` = '黑色邱比特壺精' WHERE `id` = 1509;
-UPDATE `npc` SET `name` = '白色招財貓壺精' WHERE `id` = 1510;
-UPDATE `npc` SET `name` = '黑色招財貓壺精' WHERE `id` = 1511;
-UPDATE `npc` SET `name` = '棕色招財貓壺精' WHERE `id` = 1512;
-UPDATE `npc` SET `name` = '獨眼蝙蝠群壺精' WHERE `id` = 1513;
-UPDATE `npc` SET `name` = '飛馬壺精' WHERE `id` = 1514;
-UPDATE `npc` SET `name` = '黃衣土地公壺精' WHERE `id` = 1515;
-UPDATE `npc` SET `name` = '藍衣土地公壺精' WHERE `id` = 1516;
-UPDATE `npc` SET `name` = '綠衣土地公壺精' WHERE `id` = 1517;
-UPDATE `npc` SET `name` = '食人妖壺精' WHERE `id` = 1518;
-UPDATE `npc` SET `name` = '紅色相撲選手壺精' WHERE `id` = 1519;
-UPDATE `npc` SET `name` = '藍色相撲選手壺精' WHERE `id` = 1520;
-UPDATE `npc` SET `name` = '相撲大決鬥壺精' WHERE `id` = 1521;
-UPDATE `npc` SET `name` = '玩偶熊' WHERE `id` = 1522;
-UPDATE `npc` SET `name` = '財神爺' WHERE `id` = 1523;
-UPDATE `npc` SET `name` = '樹精壺精' WHERE `id` = 1524;
-UPDATE `npc` SET `name` = '元寶牛壺精' WHERE `id` = 1525;
-UPDATE `npc` SET `name` = '吉利牛壺精' WHERE `id` = 1526;
-UPDATE `npc` SET `name` = '果樹女神壺精' WHERE `id` = 1527;
-UPDATE `npc` SET `name` = '皇后喵喵', `title` = '情人節使者' WHERE `id` = 4301;
-UPDATE `npc` SET `name` = '狼' WHERE `id` = 12077;
-UPDATE `npc` SET `name` = '風幼龍' WHERE `id` = 12311;
-UPDATE `npc` SET `name` = '星幼龍' WHERE `id` = 12312;
-UPDATE `npc` SET `name` = '黃昏幼龍' WHERE `id` = 12313;
-UPDATE `npc` SET `name` = '風座龍' WHERE `id` = 12526;
-UPDATE `npc` SET `name` = '星座龍' WHERE `id` = 12527;
-UPDATE `npc` SET `name` = '黃昏座龍' WHERE `id` = 12528;
-UPDATE `npc` SET `name` = '噬罪者' WHERE `id` = 12564;
-UPDATE `npc` SET `name` = '飛龍' WHERE `id` = 12621;
-UPDATE `npc` SET `name` = '未成熟的葫蘆' WHERE `id` = 12774;
-UPDATE `npc` SET `name` = '優良的葫蘆' WHERE `id` = 12775;
-UPDATE `npc` SET `name` = '不良的葫蘆' WHERE `id` = 12776;
-UPDATE `npc` SET `name` = '未成熟的大葫蘆' WHERE `id` = 12777;
-UPDATE `npc` SET `name` = '優良的大葫蘆' WHERE `id` = 12778;
-UPDATE `npc` SET `name` = '不良的大葫蘆' WHERE `id` = 12779;
-UPDATE `npc` SET `name` = '小野牛' WHERE `id` = 12780;
-UPDATE `npc` SET `name` = '小笑翠鳥' WHERE `id` = 12781;
-UPDATE `npc` SET `name` = '小老虎' WHERE `id` = 12782;
-UPDATE `npc` SET `name` = '結界的心臟' WHERE `id` = 13001;
-UPDATE `npc` SET `name` = '生命守護塔' WHERE `id` = 13002;
-UPDATE `npc` SET `name` = '生命守護塔' WHERE `id` = 13003;
-UPDATE `npc` SET `name` = '火炎守護塔' WHERE `id` = 13004;
-UPDATE `npc` SET `name` = '火炎守護塔' WHERE `id` = 13005;
-UPDATE `npc` SET `name` = '聖誕樹' WHERE `id` = 13006;
-UPDATE `npc` SET `name` = '高級聖誕樹' WHERE `id` = 13007;
-UPDATE `npc` SET `name` = '' WHERE `id` = 13014;
-UPDATE `npc` SET `name` = '' WHERE `id` = 13015;
-UPDATE `npc` SET `name` = '優良的葫蘆王' WHERE `id` = 13016;
-UPDATE `npc` SET `name` = '優良的大葫蘆王' WHERE `id` = 13017;
-UPDATE `npc` SET `name` = '' WHERE `id` = 13018;
-UPDATE `npc` SET `name` = '' WHERE `id` = 13019;
-UPDATE `npc` SET `name` = '' WHERE `id` = 13020;
-UPDATE `npc` SET `name` = '' WHERE `id` = 13021;
-UPDATE `npc` SET `name` = '' WHERE `id` = 13022;
-UPDATE `npc` SET `name` = '' WHERE `id` = 13023;
-UPDATE `npc` SET `name` = '' WHERE `id` = 13024;
-UPDATE `npc` SET `name` = '' WHERE `id` = 13025;
-UPDATE `npc` SET `name` = '' WHERE `id` = 13026;
-UPDATE `npc` SET `name` = '' WHERE `id` = 13027;
-UPDATE `npc` SET `name` = '' WHERE `id` = 13028;
-UPDATE `npc` SET `name` = '' WHERE `id` = 13029;
-UPDATE `npc` SET `name` = '' WHERE `id` = 13030;
-UPDATE `npc` SET `name` = '胖胖豬' WHERE `id` = 13031;
-UPDATE `npc` SET `name` = '胖胖豬' WHERE `id` = 13032;
-UPDATE `npc` SET `name` = '胖胖豬' WHERE `id` = 13033;
-UPDATE `npc` SET `name` = '超神豬' WHERE `id` = 13034;
-UPDATE `npc` SET `name` = '黃金豬豬' WHERE `id` = 13035;
-UPDATE `npc` SET `name` = '寶箱' WHERE `id` = 13036;
-UPDATE `npc` SET `name` = '陷阱' WHERE `id` = 13037;
-UPDATE `npc` SET `name` = '陷阱' WHERE `id` = 13038;
-UPDATE `npc` SET `name` = '陷阱' WHERE `id` = 13039;
-UPDATE `npc` SET `name` = '陷阱' WHERE `id` = 13040;
-UPDATE `npc` SET `name` = '陷阱' WHERE `id` = 13041;
-UPDATE `npc` SET `name` = '陷阱' WHERE `id` = 13042;
-UPDATE `npc` SET `name` = '陷阱' WHERE `id` = 13043;
-UPDATE `npc` SET `name` = '陷阱' WHERE `id` = 13044;
-UPDATE `npc` SET `name` = '陷阱' WHERE `id` = 13045;
-UPDATE `npc` SET `name` = '陷阱' WHERE `id` = 13046;
-UPDATE `npc` SET `name` = '陷阱' WHERE `id` = 13047;
-UPDATE `npc` SET `name` = '陷阱' WHERE `id` = 13048;
-UPDATE `npc` SET `name` = '陷阱' WHERE `id` = 13049;
-UPDATE `npc` SET `name` = '陷阱' WHERE `id` = 13050;
-UPDATE `npc` SET `name` = '陷阱' WHERE `id` = 13051;
-UPDATE `npc` SET `name` = '陷阱' WHERE `id` = 13052;
-UPDATE `npc` SET `name` = '陷阱' WHERE `id` = 13053;
-UPDATE `npc` SET `name` = '陷阱' WHERE `id` = 13054;
-UPDATE `npc` SET `name` = '陷阱' WHERE `id` = 13055;
-UPDATE `npc` SET `name` = '陷阱' WHERE `id` = 13056;
-UPDATE `npc` SET `name` = '陷阱' WHERE `id` = 13057;
-UPDATE `npc` SET `name` = '陷阱' WHERE `id` = 13058;
-UPDATE `npc` SET `name` = '陷阱' WHERE `id` = 13059;
-UPDATE `npc` SET `name` = '陷阱' WHERE `id` = 13060;
-UPDATE `npc` SET `name` = '陷阱' WHERE `id` = 13061;
-UPDATE `npc` SET `name` = '陷阱' WHERE `id` = 13062;
-UPDATE `npc` SET `name` = '陷阱' WHERE `id` = 13063;
-UPDATE `npc` SET `name` = '陷阱' WHERE `id` = 13064;
-UPDATE `npc` SET `name` = '陷阱' WHERE `id` = 13065;
-UPDATE `npc` SET `name` = '陷阱' WHERE `id` = 13066;
-UPDATE `npc` SET `name` = '陷阱' WHERE `id` = 13067;
-UPDATE `npc` SET `name` = '陷阱' WHERE `id` = 13068;
-UPDATE `npc` SET `name` = '陷阱' WHERE `id` = 13069;
-UPDATE `npc` SET `name` = '陷阱' WHERE `id` = 13070;
-UPDATE `npc` SET `name` = '虛像' WHERE `id` = 13071;
-UPDATE `npc` SET `name` = '虛像' WHERE `id` = 13072;
-UPDATE `npc` SET `name` = '虛像' WHERE `id` = 13073;
-UPDATE `npc` SET `name` = '虛像' WHERE `id` = 13074;
-UPDATE `npc` SET `name` = '虛像' WHERE `id` = 13075;
-UPDATE `npc` SET `name` = '虛像' WHERE `id` = 13076;
-UPDATE `npc` SET `name` = '瑪瑙獸' WHERE `id` = 13077;
-UPDATE `npc` SET `name` = '死亡之刃' WHERE `id` = 13078;
-UPDATE `npc` SET `name` = '門徒聖杯' WHERE `id` = 13079;
-UPDATE `npc` SET `name` = '門徒聖杯' WHERE `id` = 13080;
-UPDATE `npc` SET `name` = '獨角獸' WHERE `id` = 13081;
-UPDATE `npc` SET `name` = '莉莉恩騎士' WHERE `id` = 13082;
-UPDATE `npc` SET `name` = '高崙守護者' WHERE `id` = 13083;
-UPDATE `npc` SET `name` = '煉獄龍獸' WHERE `id` = 13084;
-UPDATE `npc` SET `name` = '暴烈龍' WHERE `id` = 13085;
-UPDATE `npc` SET `name` = '薩雷奇' WHERE `id` = 13086;
-UPDATE `npc` SET `name` = '阿卡瑪那夫' WHERE `id` = 13087;
-UPDATE `npc` SET `name` = '最終形體' WHERE `id` = 13088;
-UPDATE `npc` SET `name` = '最終形體' WHERE `id` = 13089;
-UPDATE `npc` SET `name` = '原住民' WHERE `id` = 13090;
-UPDATE `npc` SET `name` = '雪人' WHERE `id` = 13091;
-UPDATE `npc` SET `name` = '野牛' WHERE `id` = 13092;
-UPDATE `npc` SET `name` = '豬　' WHERE `id` = 13093;
-UPDATE `npc` SET `name` = '人形殭屍' WHERE `id` = 13094;
-UPDATE `npc` SET `name` = '小精靈' WHERE `id` = 13095;
-UPDATE `npc` SET `name` = '兔子' WHERE `id` = 13096;
-UPDATE `npc` SET `name` = '' WHERE `id` = 13097;
-UPDATE `npc` SET `name` = '活動寶箱' WHERE `id` = 13098;
-UPDATE `npc` SET `name` = '札肯' WHERE `id` = 13099;
-UPDATE `npc` SET `name` = '亞納' WHERE `id` = 13100;
-UPDATE `npc` SET `name` = '貝諾姆' WHERE `id` = 13101;
-UPDATE `npc` SET `name` = '高登' WHERE `id` = 13102;
-UPDATE `npc` SET `name` = '勞庫' WHERE `id` = 13103;
-UPDATE `npc` SET `name` = '基亞齊' WHERE `id` = 13104;
-UPDATE `npc` SET `name` = '惡魔公爵' WHERE `id` = 13105;
-UPDATE `npc` SET `name` = '男異教徒' WHERE `id` = 13106;
-UPDATE `npc` SET `name` = '女異教徒' WHERE `id` = 13107;
-UPDATE `npc` SET `name` = '貝里大師' WHERE `id` = 13108;
-UPDATE `npc` SET `name` = '劍齒虎' WHERE `id` = 13109;
-UPDATE `npc` SET `name` = '豺狼' WHERE `id` = 13110;
-UPDATE `npc` SET `name` = '人偶刀手' WHERE `id` = 13111;
-UPDATE `npc` SET `name` = '聖恩騎士' WHERE `id` = 13112;
-UPDATE `npc` SET `name` = '聖恩鬥士' WHERE `id` = 13113;
-UPDATE `npc` SET `name` = '聖恩盜賊' WHERE `id` = 13114;
-UPDATE `npc` SET `name` = '聖恩牧師' WHERE `id` = 13115;
-UPDATE `npc` SET `name` = '聖恩巫師' WHERE `id` = 13116;
-UPDATE `npc` SET `name` = '聖恩法師' WHERE `id` = 13117;
-UPDATE `npc` SET `name` = '聖恩召喚士' WHERE `id` = 13118;
-UPDATE `npc` SET `name` = '矮人高崙' WHERE `id` = 13119;
-UPDATE `npc` SET `name` = '嘟嘟鼠' WHERE `id` = 13120;
-UPDATE `npc` SET `name` = '嘟嘟鼠' WHERE `id` = 13121;
-UPDATE `npc` SET `name` = '嘟嘟鼠' WHERE `id` = 13122;
-UPDATE `npc` SET `name` = '超神鼠' WHERE `id` = 13123;
-UPDATE `npc` SET `name` = '嘟嘟鼠', `title` = '害羞的' WHERE `id` = 13124;
-UPDATE `npc` SET `name` = '陷阱' WHERE `id` = 13125;
-UPDATE `npc` SET `name` = '陷阱' WHERE `id` = 13126;
-UPDATE `npc` SET `name` = '陷阱' WHERE `id` = 13127;
-UPDATE `npc` SET `name` = '高崙商人' WHERE `id` = 13128;
-UPDATE `npc` SET `name` = '傳送師' WHERE `id` = 13129;
-UPDATE `npc` SET `name` = '淡紫鬃馬' WHERE `id` = 13130;
-UPDATE `npc` SET `name` = '灰熊' WHERE `id` = 13131;
-UPDATE `npc` SET `name` = '提米提藍' WHERE `id` = 13132;
-UPDATE `npc` SET `name` = '火山岩高崙' WHERE `id` = 13133;
-UPDATE `npc` SET `name` = '雪人' WHERE `id` = 13134;
-UPDATE `npc` SET `name` = '南瓜幽靈' WHERE `id` = 13135;
-UPDATE `npc` SET `name` = '' WHERE `id` = 13136;
-UPDATE `npc` SET `name` = '' WHERE `id` = 13137;
-UPDATE `npc` SET `name` = '' WHERE `id` = 13138;
-UPDATE `npc` SET `name` = '' WHERE `id` = 13139;
-UPDATE `npc` SET `name` = '' WHERE `id` = 13140;
-UPDATE `npc` SET `name` = '' WHERE `id` = 13141;
-UPDATE `npc` SET `name` = '最終形體' WHERE `id` = 13142;
-UPDATE `npc` SET `name` = '最終形體' WHERE `id` = 13143;
-UPDATE `npc` SET `name` = '靈鳥-獵鷹' WHERE `id` = 13144;
-UPDATE `npc` SET `name` = '靈鳥-貓頭鷹' WHERE `id` = 13145;
-UPDATE `npc` SET `name` = '黃鬃獅子' WHERE `id` = 13146;
-UPDATE `npc` SET `name` = '蒸汽甲蟲' WHERE `id` = 13147;
-UPDATE `npc` SET `name` = '林德拜爾' WHERE `id` = 13148;
-UPDATE `npc` SET `name` = '展示用1' WHERE `id` = 13149;
-UPDATE `npc` SET `name` = '展示用2' WHERE `id` = 13150;
-UPDATE `npc` SET `name` = '展示用3' WHERE `id` = 13151;
-UPDATE `npc` SET `name` = '展示用4' WHERE `id` = 13152;
-UPDATE `npc` SET `name` = '展示用5' WHERE `id` = 13153;
-UPDATE `npc` SET `name` = '魔族' WHERE `id` = 13154;
-UPDATE `npc` SET `name` = '獨角獸族' WHERE `id` = 13155;
-UPDATE `npc` SET `name` = '貓族' WHERE `id` = 13156;
-UPDATE `npc` SET `name` = '青蛙' WHERE `id` = 13157;
-UPDATE `npc` SET `name` = '小孩' WHERE `id` = 13158;
-UPDATE `npc` SET `name` = '傭兵' WHERE `id` = 13159;
-UPDATE `npc` SET `name` = '雪人' WHERE `id` = 13160;
-UPDATE `npc` SET `name` = '草人' WHERE `id` = 13161;
-UPDATE `npc` SET `name` = '洋鐵高崙' WHERE `id` = 13162;
-UPDATE `npc` SET `name` = '土偶' WHERE `id` = 13163;
-UPDATE `npc` SET `name` = '誘餌土偶' WHERE `id` = 13164;
-UPDATE `npc` SET `name` = '沉重土偶' WHERE `id` = 13165;
-UPDATE `npc` SET `name` = '膽怯土偶' WHERE `id` = 13166;
-UPDATE `npc` SET `name` = '替身A' WHERE `id` = 13167;
-UPDATE `npc` SET `name` = '替身B' WHERE `id` = 13168;
-UPDATE `npc` SET `name` = '人類男性傭兵' WHERE `id` = 13169;
-UPDATE `npc` SET `name` = '精靈男性傭兵' WHERE `id` = 13170;
-UPDATE `npc` SET `name` = '黑暗精靈女性傭兵' WHERE `id` = 13171;
-UPDATE `npc` SET `name` = '半獸人男性傭兵' WHERE `id` = 13172;
-UPDATE `npc` SET `name` = '矮人男性傭兵' WHERE `id` = 13173;
-UPDATE `npc` SET `name` = '闇天使男性傭兵' WHERE `id` = 13174;
-UPDATE `npc` SET `name` = '騎士上級傭兵' WHERE `id` = 13175;
-UPDATE `npc` SET `name` = '弓手上級傭兵' WHERE `id` = 13176;
-UPDATE `npc` SET `name` = '巫師上級傭兵' WHERE `id` = 13177;
-UPDATE `npc` SET `name` = '裝甲兵上級傭兵' WHERE `id` = 13178;
-UPDATE `npc` SET `name` = '騎士隊長最高精銳傭兵' WHERE `id` = 13179;
-UPDATE `npc` SET `name` = '司令官最高精銳傭兵' WHERE `id` = 13180;
-UPDATE `npc` SET `name` = '寶箱', `title` = '格勒西亞' WHERE `id` = 13181;
-UPDATE `npc` SET `name` = '禮品商人', `title` = '格勒西亞' WHERE `id` = 13182;
-UPDATE `npc` SET `name` = '不良火雞' WHERE `id` = 13183;
-UPDATE `npc` SET `name` = '聖誕老人' WHERE `id` = 13184;
-UPDATE `npc` SET `name` = '聖誕老人' WHERE `id` = 13185;
-UPDATE `npc` SET `name` = '聖誕老人' WHERE `id` = 13186;
-UPDATE `npc` SET `name` = '哞哞牛' WHERE `id` = 13187;
-UPDATE `npc` SET `name` = '超神牛' WHERE `id` = 13188;
-UPDATE `npc` SET `name` = '猛猛牛' WHERE `id` = 13189;
-UPDATE `npc` SET `name` = '超神猛猛牛' WHERE `id` = 13190;
-UPDATE `npc` SET `name` = '憂鬱哞哞牛' WHERE `id` = 13191;
-UPDATE `npc` SET `name` = '憂鬱超神牛' WHERE `id` = 13192;
-UPDATE `npc` SET `name` = '' WHERE `id` = 13193;
-UPDATE `npc` SET `name` = '' WHERE `id` = 13194;
-UPDATE `npc` SET `name` = '' WHERE `id` = 13195;
-UPDATE `npc` SET `name` = '胖胖豬', `title` = '召喚錯誤的' WHERE `id` = 13196;
-UPDATE `npc` SET `name` = '起死回生者' WHERE `id` = 14001;
-UPDATE `npc` SET `name` = '起死回生者' WHERE `id` = 14002;
-UPDATE `npc` SET `name` = '起死回生者' WHERE `id` = 14003;
-UPDATE `npc` SET `name` = '起死回生者' WHERE `id` = 14004;
-UPDATE `npc` SET `name` = '起死回生者' WHERE `id` = 14005;
-UPDATE `npc` SET `name` = '起死回生者' WHERE `id` = 14006;
-UPDATE `npc` SET `name` = '起死回生者' WHERE `id` = 14007;
-UPDATE `npc` SET `name` = '起死回生者' WHERE `id` = 14008;
-UPDATE `npc` SET `name` = '起死回生者' WHERE `id` = 14009;
-UPDATE `npc` SET `name` = '起死回生者' WHERE `id` = 14010;
-UPDATE `npc` SET `name` = '起死回生者' WHERE `id` = 14011;
-UPDATE `npc` SET `name` = '起死回生者' WHERE `id` = 14012;
-UPDATE `npc` SET `name` = '起死回生者' WHERE `id` = 14013;
-UPDATE `npc` SET `name` = '起死回生者' WHERE `id` = 14014;
-UPDATE `npc` SET `name` = '起死回生者' WHERE `id` = 14015;
-UPDATE `npc` SET `name` = '起死回生者' WHERE `id` = 14016;
-UPDATE `npc` SET `name` = '起死回生者' WHERE `id` = 14017;
-UPDATE `npc` SET `name` = '起死回生者' WHERE `id` = 14018;
-UPDATE `npc` SET `name` = '起死回生者' WHERE `id` = 14019;
-UPDATE `npc` SET `name` = '起死回生者' WHERE `id` = 14020;
-UPDATE `npc` SET `name` = '起死回生者' WHERE `id` = 14021;
-UPDATE `npc` SET `name` = '起死回生者' WHERE `id` = 14022;
-UPDATE `npc` SET `name` = '起死回生者' WHERE `id` = 14023;
-UPDATE `npc` SET `name` = '起死回生者' WHERE `id` = 14024;
-UPDATE `npc` SET `name` = '起死回生者' WHERE `id` = 14025;
-UPDATE `npc` SET `name` = '起死回生者' WHERE `id` = 14026;
-UPDATE `npc` SET `name` = '起死回生者' WHERE `id` = 14027;
-UPDATE `npc` SET `name` = '起死回生者' WHERE `id` = 14028;
-UPDATE `npc` SET `name` = '起死回生者' WHERE `id` = 14029;
-UPDATE `npc` SET `name` = '起死回生者' WHERE `id` = 14030;
-UPDATE `npc` SET `name` = '起死回生者' WHERE `id` = 14031;
-UPDATE `npc` SET `name` = '起死回生者' WHERE `id` = 14032;
-UPDATE `npc` SET `name` = '起死回生者' WHERE `id` = 14033;
-UPDATE `npc` SET `name` = '起死回生者' WHERE `id` = 14034;
-UPDATE `npc` SET `name` = '起死回生者' WHERE `id` = 14035;
-UPDATE `npc` SET `name` = '起死回生者' WHERE `id` = 14036;
-UPDATE `npc` SET `name` = '起死回生者' WHERE `id` = 14037;
-UPDATE `npc` SET `name` = '腐屍' WHERE `id` = 14038;
-UPDATE `npc` SET `name` = '腐屍' WHERE `id` = 14039;
-UPDATE `npc` SET `name` = '腐屍' WHERE `id` = 14040;
-UPDATE `npc` SET `name` = '腐屍' WHERE `id` = 14041;
-UPDATE `npc` SET `name` = '腐屍' WHERE `id` = 14042;
-UPDATE `npc` SET `name` = '腐屍' WHERE `id` = 14043;
-UPDATE `npc` SET `name` = '腐屍' WHERE `id` = 14044;
-UPDATE `npc` SET `name` = '腐屍' WHERE `id` = 14045;
-UPDATE `npc` SET `name` = '腐屍' WHERE `id` = 14046;
-UPDATE `npc` SET `name` = '腐屍' WHERE `id` = 14047;
-UPDATE `npc` SET `name` = '腐屍' WHERE `id` = 14048;
-UPDATE `npc` SET `name` = '腐屍' WHERE `id` = 14049;
-UPDATE `npc` SET `name` = '腐屍' WHERE `id` = 14050;
-UPDATE `npc` SET `name` = '腐屍' WHERE `id` = 14051;
-UPDATE `npc` SET `name` = '腐屍' WHERE `id` = 14052;
-UPDATE `npc` SET `name` = '腐屍' WHERE `id` = 14053;
-UPDATE `npc` SET `name` = '腐屍' WHERE `id` = 14054;
-UPDATE `npc` SET `name` = '腐屍' WHERE `id` = 14055;
-UPDATE `npc` SET `name` = '腐屍' WHERE `id` = 14056;
-UPDATE `npc` SET `name` = '腐屍' WHERE `id` = 14057;
-UPDATE `npc` SET `name` = '腐屍' WHERE `id` = 14058;
-UPDATE `npc` SET `name` = '腐屍' WHERE `id` = 14059;
-UPDATE `npc` SET `name` = '腐屍' WHERE `id` = 14060;
-UPDATE `npc` SET `name` = '腐屍' WHERE `id` = 14061;
-UPDATE `npc` SET `name` = '腐屍' WHERE `id` = 14062;
-UPDATE `npc` SET `name` = '腐屍' WHERE `id` = 14063;
-UPDATE `npc` SET `name` = '腐屍' WHERE `id` = 14064;
-UPDATE `npc` SET `name` = '腐屍' WHERE `id` = 14065;
-UPDATE `npc` SET `name` = '腐屍' WHERE `id` = 14066;
-UPDATE `npc` SET `name` = '腐屍' WHERE `id` = 14067;
-UPDATE `npc` SET `name` = '腐屍' WHERE `id` = 14068;
-UPDATE `npc` SET `name` = '腐屍' WHERE `id` = 14069;
-UPDATE `npc` SET `name` = '腐屍' WHERE `id` = 14070;
-UPDATE `npc` SET `name` = '腐屍' WHERE `id` = 14071;
-UPDATE `npc` SET `name` = '腐屍' WHERE `id` = 14072;
-UPDATE `npc` SET `name` = '腐屍' WHERE `id` = 14073;
-UPDATE `npc` SET `name` = '受詛咒者' WHERE `id` = 14074;
-UPDATE `npc` SET `name` = '受詛咒者' WHERE `id` = 14075;
-UPDATE `npc` SET `name` = '受詛咒者' WHERE `id` = 14076;
-UPDATE `npc` SET `name` = '受詛咒者' WHERE `id` = 14077;
-UPDATE `npc` SET `name` = '受詛咒者' WHERE `id` = 14078;
-UPDATE `npc` SET `name` = '受詛咒者' WHERE `id` = 14079;
-UPDATE `npc` SET `name` = '受詛咒者' WHERE `id` = 14080;
-UPDATE `npc` SET `name` = '受詛咒者' WHERE `id` = 14081;
-UPDATE `npc` SET `name` = '受詛咒者' WHERE `id` = 14082;
-UPDATE `npc` SET `name` = '受詛咒者' WHERE `id` = 14083;
-UPDATE `npc` SET `name` = '受詛咒者' WHERE `id` = 14084;
-UPDATE `npc` SET `name` = '受詛咒者' WHERE `id` = 14085;
-UPDATE `npc` SET `name` = '受詛咒者' WHERE `id` = 14086;
-UPDATE `npc` SET `name` = '受詛咒者' WHERE `id` = 14087;
-UPDATE `npc` SET `name` = '受詛咒者' WHERE `id` = 14088;
-UPDATE `npc` SET `name` = '受詛咒者' WHERE `id` = 14089;
-UPDATE `npc` SET `name` = '受詛咒者' WHERE `id` = 14090;
-UPDATE `npc` SET `name` = '受詛咒者' WHERE `id` = 14091;
-UPDATE `npc` SET `name` = '受詛咒者' WHERE `id` = 14092;
-UPDATE `npc` SET `name` = '受詛咒者' WHERE `id` = 14093;
-UPDATE `npc` SET `name` = '受詛咒者' WHERE `id` = 14094;
-UPDATE `npc` SET `name` = '受詛咒者' WHERE `id` = 14095;
-UPDATE `npc` SET `name` = '受詛咒者' WHERE `id` = 14096;
-UPDATE `npc` SET `name` = '受詛咒者' WHERE `id` = 14097;
-UPDATE `npc` SET `name` = '受詛咒者' WHERE `id` = 14098;
-UPDATE `npc` SET `name` = '受詛咒者' WHERE `id` = 14099;
-UPDATE `npc` SET `name` = '受詛咒者' WHERE `id` = 14100;
-UPDATE `npc` SET `name` = '受詛咒者' WHERE `id` = 14101;
-UPDATE `npc` SET `name` = '受詛咒者' WHERE `id` = 14102;
-UPDATE `npc` SET `name` = '受詛咒者' WHERE `id` = 14103;
-UPDATE `npc` SET `name` = '受詛咒者' WHERE `id` = 14104;
-UPDATE `npc` SET `name` = '受詛咒者' WHERE `id` = 14105;
-UPDATE `npc` SET `name` = '受詛咒者' WHERE `id` = 14106;
-UPDATE `npc` SET `name` = '受詛咒者' WHERE `id` = 14107;
-UPDATE `npc` SET `name` = '受詛咒者' WHERE `id` = 14108;
-UPDATE `npc` SET `name` = '受詛咒者' WHERE `id` = 14109;
-UPDATE `npc` SET `name` = '受詛咒者' WHERE `id` = 14110;
-UPDATE `npc` SET `name` = '戰鬥貓' WHERE `id` = 14111;
-UPDATE `npc` SET `name` = '戰鬥貓' WHERE `id` = 14112;
-UPDATE `npc` SET `name` = '戰鬥貓' WHERE `id` = 14113;
-UPDATE `npc` SET `name` = '戰鬥貓' WHERE `id` = 14114;
-UPDATE `npc` SET `name` = '戰鬥貓' WHERE `id` = 14115;
-UPDATE `npc` SET `name` = '戰鬥貓' WHERE `id` = 14116;
-UPDATE `npc` SET `name` = '戰鬥貓' WHERE `id` = 14117;
-UPDATE `npc` SET `name` = '戰鬥貓' WHERE `id` = 14118;
-UPDATE `npc` SET `name` = '戰鬥貓' WHERE `id` = 14119;
-UPDATE `npc` SET `name` = '戰鬥貓' WHERE `id` = 14120;
-UPDATE `npc` SET `name` = '戰鬥貓' WHERE `id` = 14121;
-UPDATE `npc` SET `name` = '戰鬥貓' WHERE `id` = 14122;
-UPDATE `npc` SET `name` = '戰鬥貓' WHERE `id` = 14123;
-UPDATE `npc` SET `name` = '戰鬥貓' WHERE `id` = 14124;
-UPDATE `npc` SET `name` = '戰鬥貓' WHERE `id` = 14125;
-UPDATE `npc` SET `name` = '戰鬥貓' WHERE `id` = 14126;
-UPDATE `npc` SET `name` = '戰鬥貓' WHERE `id` = 14127;
-UPDATE `npc` SET `name` = '戰鬥貓' WHERE `id` = 14128;
-UPDATE `npc` SET `name` = '戰鬥貓' WHERE `id` = 14129;
-UPDATE `npc` SET `name` = '戰鬥貓' WHERE `id` = 14130;
-UPDATE `npc` SET `name` = '戰鬥貓' WHERE `id` = 14131;
-UPDATE `npc` SET `name` = '戰鬥貓' WHERE `id` = 14132;
-UPDATE `npc` SET `name` = '戰鬥貓' WHERE `id` = 14133;
-UPDATE `npc` SET `name` = '戰鬥貓' WHERE `id` = 14134;
-UPDATE `npc` SET `name` = '戰鬥貓' WHERE `id` = 14135;
-UPDATE `npc` SET `name` = '戰鬥貓' WHERE `id` = 14136;
-UPDATE `npc` SET `name` = '戰鬥貓' WHERE `id` = 14137;
-UPDATE `npc` SET `name` = '戰鬥貓' WHERE `id` = 14138;
-UPDATE `npc` SET `name` = '戰鬥貓' WHERE `id` = 14139;
-UPDATE `npc` SET `name` = '戰鬥貓' WHERE `id` = 14140;
-UPDATE `npc` SET `name` = '戰鬥貓' WHERE `id` = 14141;
-UPDATE `npc` SET `name` = '戰鬥貓' WHERE `id` = 14142;
-UPDATE `npc` SET `name` = '戰鬥貓' WHERE `id` = 14143;
-UPDATE `npc` SET `name` = '戰鬥貓' WHERE `id` = 14144;
-UPDATE `npc` SET `name` = '戰鬥貓' WHERE `id` = 14145;
-UPDATE `npc` SET `name` = '戰鬥貓' WHERE `id` = 14146;
-UPDATE `npc` SET `name` = '戰鬥貓' WHERE `id` = 14147;
-UPDATE `npc` SET `name` = '戰鬥貓' WHERE `id` = 14148;
-UPDATE `npc` SET `name` = '戰鬥貓' WHERE `id` = 14149;
-UPDATE `npc` SET `name` = '戰鬥貓' WHERE `id` = 14150;
-UPDATE `npc` SET `name` = '戰鬥貓' WHERE `id` = 14151;
-UPDATE `npc` SET `name` = '戰鬥貓' WHERE `id` = 14152;
-UPDATE `npc` SET `name` = '戰鬥貓' WHERE `id` = 14153;
-UPDATE `npc` SET `name` = '戰鬥貓' WHERE `id` = 14154;
-UPDATE `npc` SET `name` = '戰鬥貓' WHERE `id` = 14155;
-UPDATE `npc` SET `name` = '戰鬥貓' WHERE `id` = 14156;
-UPDATE `npc` SET `name` = '戰鬥貓' WHERE `id` = 14157;
-UPDATE `npc` SET `name` = '戰鬥貓' WHERE `id` = 14158;
-UPDATE `npc` SET `name` = '魔法貓' WHERE `id` = 14159;
-UPDATE `npc` SET `name` = '魔法貓' WHERE `id` = 14160;
-UPDATE `npc` SET `name` = '魔法貓' WHERE `id` = 14161;
-UPDATE `npc` SET `name` = '魔法貓' WHERE `id` = 14162;
-UPDATE `npc` SET `name` = '魔法貓' WHERE `id` = 14163;
-UPDATE `npc` SET `name` = '魔法貓' WHERE `id` = 14164;
-UPDATE `npc` SET `name` = '魔法貓' WHERE `id` = 14165;
-UPDATE `npc` SET `name` = '魔法貓' WHERE `id` = 14166;
-UPDATE `npc` SET `name` = '魔法貓' WHERE `id` = 14167;
-UPDATE `npc` SET `name` = '魔法貓' WHERE `id` = 14168;
-UPDATE `npc` SET `name` = '魔法貓' WHERE `id` = 14169;
-UPDATE `npc` SET `name` = '魔法貓' WHERE `id` = 14170;
-UPDATE `npc` SET `name` = '魔法貓' WHERE `id` = 14171;
-UPDATE `npc` SET `name` = '魔法貓' WHERE `id` = 14172;
-UPDATE `npc` SET `name` = '魔法貓' WHERE `id` = 14173;
-UPDATE `npc` SET `name` = '魔法貓' WHERE `id` = 14174;
-UPDATE `npc` SET `name` = '魔法貓' WHERE `id` = 14175;
-UPDATE `npc` SET `name` = '魔法貓' WHERE `id` = 14176;
-UPDATE `npc` SET `name` = '魔法貓' WHERE `id` = 14177;
-UPDATE `npc` SET `name` = '魔法貓' WHERE `id` = 14178;
-UPDATE `npc` SET `name` = '魔法貓' WHERE `id` = 14179;
-UPDATE `npc` SET `name` = '魔法貓' WHERE `id` = 14180;
-UPDATE `npc` SET `name` = '魔法貓' WHERE `id` = 14181;
-UPDATE `npc` SET `name` = '魔法貓' WHERE `id` = 14182;
-UPDATE `npc` SET `name` = '魔法貓' WHERE `id` = 14183;
-UPDATE `npc` SET `name` = '魔法貓' WHERE `id` = 14184;
-UPDATE `npc` SET `name` = '魔法貓' WHERE `id` = 14185;
-UPDATE `npc` SET `name` = '魔法貓' WHERE `id` = 14186;
-UPDATE `npc` SET `name` = '魔法貓' WHERE `id` = 14187;
-UPDATE `npc` SET `name` = '魔法貓' WHERE `id` = 14188;
-UPDATE `npc` SET `name` = '魔法貓' WHERE `id` = 14189;
-UPDATE `npc` SET `name` = '魔法貓' WHERE `id` = 14190;
-UPDATE `npc` SET `name` = '魔法貓' WHERE `id` = 14191;
-UPDATE `npc` SET `name` = '魔法貓' WHERE `id` = 14192;
-UPDATE `npc` SET `name` = '魔法貓' WHERE `id` = 14193;
-UPDATE `npc` SET `name` = '魔法貓' WHERE `id` = 14194;
-UPDATE `npc` SET `name` = '魔法貓' WHERE `id` = 14195;
-UPDATE `npc` SET `name` = '魔法貓' WHERE `id` = 14196;
-UPDATE `npc` SET `name` = '魔法貓' WHERE `id` = 14197;
-UPDATE `npc` SET `name` = '魔法貓' WHERE `id` = 14198;
-UPDATE `npc` SET `name` = '魔法貓' WHERE `id` = 14199;
-UPDATE `npc` SET `name` = '魔法貓' WHERE `id` = 14200;
-UPDATE `npc` SET `name` = '魔法貓' WHERE `id` = 14201;
-UPDATE `npc` SET `name` = '魔法貓' WHERE `id` = 14202;
-UPDATE `npc` SET `name` = '魔法貓' WHERE `id` = 14203;
-UPDATE `npc` SET `name` = '魔法貓' WHERE `id` = 14204;
-UPDATE `npc` SET `name` = '魔法貓' WHERE `id` = 14205;
-UPDATE `npc` SET `name` = '魔法貓' WHERE `id` = 14206;
-UPDATE `npc` SET `name` = '銀色貓' WHERE `id` = 14207;
-UPDATE `npc` SET `name` = '銀色貓' WHERE `id` = 14208;
-UPDATE `npc` SET `name` = '銀色貓' WHERE `id` = 14209;
-UPDATE `npc` SET `name` = '銀色貓' WHERE `id` = 14210;
-UPDATE `npc` SET `name` = '銀色貓' WHERE `id` = 14211;
-UPDATE `npc` SET `name` = '銀色貓' WHERE `id` = 14212;
-UPDATE `npc` SET `name` = '銀色貓' WHERE `id` = 14213;
-UPDATE `npc` SET `name` = '銀色貓' WHERE `id` = 14214;
-UPDATE `npc` SET `name` = '銀色貓' WHERE `id` = 14215;
-UPDATE `npc` SET `name` = '銀色貓' WHERE `id` = 14216;
-UPDATE `npc` SET `name` = '銀色貓' WHERE `id` = 14217;
-UPDATE `npc` SET `name` = '銀色貓' WHERE `id` = 14218;
-UPDATE `npc` SET `name` = '銀色貓' WHERE `id` = 14219;
-UPDATE `npc` SET `name` = '銀色貓' WHERE `id` = 14220;
-UPDATE `npc` SET `name` = '銀色貓' WHERE `id` = 14221;
-UPDATE `npc` SET `name` = '銀色貓' WHERE `id` = 14222;
-UPDATE `npc` SET `name` = '銀色貓' WHERE `id` = 14223;
-UPDATE `npc` SET `name` = '銀色貓' WHERE `id` = 14224;
-UPDATE `npc` SET `name` = '銀色貓' WHERE `id` = 14225;
-UPDATE `npc` SET `name` = '銀色貓' WHERE `id` = 14226;
-UPDATE `npc` SET `name` = '銀色貓' WHERE `id` = 14227;
-UPDATE `npc` SET `name` = '銀色貓' WHERE `id` = 14228;
-UPDATE `npc` SET `name` = '銀色貓' WHERE `id` = 14229;
-UPDATE `npc` SET `name` = '銀色貓' WHERE `id` = 14230;
-UPDATE `npc` SET `name` = '銀色貓' WHERE `id` = 14231;
-UPDATE `npc` SET `name` = '銀色貓' WHERE `id` = 14232;
-UPDATE `npc` SET `name` = '銀色貓' WHERE `id` = 14233;
-UPDATE `npc` SET `name` = '銀色貓' WHERE `id` = 14234;
-UPDATE `npc` SET `name` = '銀色貓' WHERE `id` = 14235;
-UPDATE `npc` SET `name` = '銀色貓' WHERE `id` = 14236;
-UPDATE `npc` SET `name` = '銀色貓' WHERE `id` = 14237;
-UPDATE `npc` SET `name` = '銀色貓' WHERE `id` = 14238;
-UPDATE `npc` SET `name` = '銀色貓' WHERE `id` = 14239;
-UPDATE `npc` SET `name` = '銀色貓' WHERE `id` = 14240;
-UPDATE `npc` SET `name` = '銀色貓' WHERE `id` = 14241;
-UPDATE `npc` SET `name` = '銀色貓' WHERE `id` = 14242;
-UPDATE `npc` SET `name` = '銀色貓' WHERE `id` = 14243;
-UPDATE `npc` SET `name` = '銀色貓' WHERE `id` = 14244;
-UPDATE `npc` SET `name` = '銀色貓' WHERE `id` = 14245;
-UPDATE `npc` SET `name` = '銀色貓' WHERE `id` = 14246;
-UPDATE `npc` SET `name` = '銀色貓' WHERE `id` = 14247;
-UPDATE `npc` SET `name` = '銀色貓' WHERE `id` = 14248;
-UPDATE `npc` SET `name` = '銀色貓' WHERE `id` = 14249;
-UPDATE `npc` SET `name` = '銀色貓' WHERE `id` = 14250;
-UPDATE `npc` SET `name` = '皇后貓' WHERE `id` = 14251;
-UPDATE `npc` SET `name` = '皇后貓' WHERE `id` = 14252;
-UPDATE `npc` SET `name` = '皇后貓' WHERE `id` = 14253;
-UPDATE `npc` SET `name` = '皇后貓' WHERE `id` = 14254;
-UPDATE `npc` SET `name` = '皇后貓' WHERE `id` = 14255;
-UPDATE `npc` SET `name` = '皇后貓' WHERE `id` = 14256;
-UPDATE `npc` SET `name` = '皇后貓' WHERE `id` = 14257;
-UPDATE `npc` SET `name` = '皇后貓' WHERE `id` = 14258;
-UPDATE `npc` SET `name` = '皇后貓' WHERE `id` = 14259;
-UPDATE `npc` SET `name` = '皇后貓' WHERE `id` = 14260;
-UPDATE `npc` SET `name` = '皇后貓' WHERE `id` = 14265;
-UPDATE `npc` SET `name` = '皇后貓' WHERE `id` = 14266;
-UPDATE `npc` SET `name` = '皇后貓' WHERE `id` = 14267;
-UPDATE `npc` SET `name` = '皇后貓' WHERE `id` = 14268;
-UPDATE `npc` SET `name` = '皇后貓' WHERE `id` = 14269;
-UPDATE `npc` SET `name` = '皇后貓' WHERE `id` = 14270;
-UPDATE `npc` SET `name` = '皇后貓' WHERE `id` = 14271;
-UPDATE `npc` SET `name` = '皇后貓' WHERE `id` = 14272;
-UPDATE `npc` SET `name` = '皇后貓' WHERE `id` = 14273;
-UPDATE `npc` SET `name` = '皇后貓' WHERE `id` = 14274;
-UPDATE `npc` SET `name` = '皇后貓' WHERE `id` = 14275;
-UPDATE `npc` SET `name` = '皇后貓' WHERE `id` = 14276;
-UPDATE `npc` SET `name` = '皇后貓' WHERE `id` = 14277;
-UPDATE `npc` SET `name` = '皇后貓' WHERE `id` = 14278;
-UPDATE `npc` SET `name` = '皇后貓' WHERE `id` = 14279;
-UPDATE `npc` SET `name` = '皇后貓' WHERE `id` = 14280;
-UPDATE `npc` SET `name` = '皇后貓' WHERE `id` = 14281;
-UPDATE `npc` SET `name` = '皇后貓' WHERE `id` = 14282;
-UPDATE `npc` SET `name` = '皇后貓' WHERE `id` = 14283;
-UPDATE `npc` SET `name` = '皇后貓' WHERE `id` = 14284;
-UPDATE `npc` SET `name` = '皇后貓' WHERE `id` = 14285;
-UPDATE `npc` SET `name` = '皇后貓' WHERE `id` = 14286;
-UPDATE `npc` SET `name` = '皇后貓' WHERE `id` = 14287;
-UPDATE `npc` SET `name` = '皇后貓' WHERE `id` = 14288;
-UPDATE `npc` SET `name` = '皇后貓' WHERE `id` = 14289;
-UPDATE `npc` SET `name` = '皇后貓' WHERE `id` = 14290;
-UPDATE `npc` SET `name` = '皇后貓' WHERE `id` = 14291;
-UPDATE `npc` SET `name` = '皇后貓' WHERE `id` = 14292;
-UPDATE `npc` SET `name` = '皇后貓' WHERE `id` = 14293;
-UPDATE `npc` SET `name` = '皇后貓' WHERE `id` = 14294;
-UPDATE `npc` SET `name` = '戰鬥獨角獸' WHERE `id` = 14295;
-UPDATE `npc` SET `name` = '戰鬥獨角獸' WHERE `id` = 14296;
-UPDATE `npc` SET `name` = '戰鬥獨角獸' WHERE `id` = 14297;
-UPDATE `npc` SET `name` = '戰鬥獨角獸' WHERE `id` = 14298;
-UPDATE `npc` SET `name` = '戰鬥獨角獸' WHERE `id` = 14299;
-UPDATE `npc` SET `name` = '戰鬥獨角獸' WHERE `id` = 14300;
-UPDATE `npc` SET `name` = '戰鬥獨角獸' WHERE `id` = 14301;
-UPDATE `npc` SET `name` = '戰鬥獨角獸' WHERE `id` = 14302;
-UPDATE `npc` SET `name` = '戰鬥獨角獸' WHERE `id` = 14303;
-UPDATE `npc` SET `name` = '戰鬥獨角獸' WHERE `id` = 14304;
-UPDATE `npc` SET `name` = '戰鬥獨角獸' WHERE `id` = 14305;
-UPDATE `npc` SET `name` = '戰鬥獨角獸' WHERE `id` = 14306;
-UPDATE `npc` SET `name` = '戰鬥獨角獸' WHERE `id` = 14307;
-UPDATE `npc` SET `name` = '戰鬥獨角獸' WHERE `id` = 14308;
-UPDATE `npc` SET `name` = '戰鬥獨角獸' WHERE `id` = 14309;
-UPDATE `npc` SET `name` = '戰鬥獨角獸' WHERE `id` = 14310;
-UPDATE `npc` SET `name` = '戰鬥獨角獸' WHERE `id` = 14311;
-UPDATE `npc` SET `name` = '戰鬥獨角獸' WHERE `id` = 14312;
-UPDATE `npc` SET `name` = '戰鬥獨角獸' WHERE `id` = 14313;
-UPDATE `npc` SET `name` = '戰鬥獨角獸' WHERE `id` = 14314;
-UPDATE `npc` SET `name` = '戰鬥獨角獸' WHERE `id` = 14315;
-UPDATE `npc` SET `name` = '戰鬥獨角獸' WHERE `id` = 14316;
-UPDATE `npc` SET `name` = '戰鬥獨角獸' WHERE `id` = 14317;
-UPDATE `npc` SET `name` = '戰鬥獨角獸' WHERE `id` = 14318;
-UPDATE `npc` SET `name` = '戰鬥獨角獸' WHERE `id` = 14319;
-UPDATE `npc` SET `name` = '戰鬥獨角獸' WHERE `id` = 14320;
-UPDATE `npc` SET `name` = '戰鬥獨角獸' WHERE `id` = 14321;
-UPDATE `npc` SET `name` = '戰鬥獨角獸' WHERE `id` = 14322;
-UPDATE `npc` SET `name` = '戰鬥獨角獸' WHERE `id` = 14323;
-UPDATE `npc` SET `name` = '戰鬥獨角獸' WHERE `id` = 14324;
-UPDATE `npc` SET `name` = '戰鬥獨角獸' WHERE `id` = 14325;
-UPDATE `npc` SET `name` = '戰鬥獨角獸' WHERE `id` = 14326;
-UPDATE `npc` SET `name` = '戰鬥獨角獸' WHERE `id` = 14327;
-UPDATE `npc` SET `name` = '戰鬥獨角獸' WHERE `id` = 14328;
-UPDATE `npc` SET `name` = '戰鬥獨角獸' WHERE `id` = 14329;
-UPDATE `npc` SET `name` = '戰鬥獨角獸' WHERE `id` = 14330;
-UPDATE `npc` SET `name` = '戰鬥獨角獸' WHERE `id` = 14331;
-UPDATE `npc` SET `name` = '戰鬥獨角獸' WHERE `id` = 14332;
-UPDATE `npc` SET `name` = '戰鬥獨角獸' WHERE `id` = 14333;
-UPDATE `npc` SET `name` = '戰鬥獨角獸' WHERE `id` = 14334;
-UPDATE `npc` SET `name` = '戰鬥獨角獸' WHERE `id` = 14335;
-UPDATE `npc` SET `name` = '戰鬥獨角獸' WHERE `id` = 14336;
-UPDATE `npc` SET `name` = '戰鬥獨角獸' WHERE `id` = 14337;
-UPDATE `npc` SET `name` = '戰鬥獨角獸' WHERE `id` = 14338;
-UPDATE `npc` SET `name` = '戰鬥獨角獸' WHERE `id` = 14339;
-UPDATE `npc` SET `name` = '戰鬥獨角獸' WHERE `id` = 14340;
-UPDATE `npc` SET `name` = '戰鬥獨角獸' WHERE `id` = 14341;
-UPDATE `npc` SET `name` = '戰鬥獨角獸' WHERE `id` = 14342;
-UPDATE `npc` SET `name` = '夢幻獨角獸' WHERE `id` = 14343;
-UPDATE `npc` SET `name` = '夢幻獨角獸' WHERE `id` = 14344;
-UPDATE `npc` SET `name` = '夢幻獨角獸' WHERE `id` = 14345;
-UPDATE `npc` SET `name` = '夢幻獨角獸' WHERE `id` = 14346;
-UPDATE `npc` SET `name` = '夢幻獨角獸' WHERE `id` = 14347;
-UPDATE `npc` SET `name` = '夢幻獨角獸' WHERE `id` = 14348;
-UPDATE `npc` SET `name` = '夢幻獨角獸' WHERE `id` = 14349;
-UPDATE `npc` SET `name` = '夢幻獨角獸' WHERE `id` = 14350;
-UPDATE `npc` SET `name` = '夢幻獨角獸' WHERE `id` = 14351;
-UPDATE `npc` SET `name` = '夢幻獨角獸' WHERE `id` = 14352;
-UPDATE `npc` SET `name` = '夢幻獨角獸' WHERE `id` = 14353;
-UPDATE `npc` SET `name` = '夢幻獨角獸' WHERE `id` = 14354;
-UPDATE `npc` SET `name` = '夢幻獨角獸' WHERE `id` = 14355;
-UPDATE `npc` SET `name` = '夢幻獨角獸' WHERE `id` = 14356;
-UPDATE `npc` SET `name` = '夢幻獨角獸' WHERE `id` = 14357;
-UPDATE `npc` SET `name` = '夢幻獨角獸' WHERE `id` = 14358;
-UPDATE `npc` SET `name` = '夢幻獨角獸' WHERE `id` = 14359;
-UPDATE `npc` SET `name` = '夢幻獨角獸' WHERE `id` = 14360;
-UPDATE `npc` SET `name` = '夢幻獨角獸' WHERE `id` = 14361;
-UPDATE `npc` SET `name` = '夢幻獨角獸' WHERE `id` = 14362;
-UPDATE `npc` SET `name` = '夢幻獨角獸' WHERE `id` = 14363;
-UPDATE `npc` SET `name` = '夢幻獨角獸' WHERE `id` = 14364;
-UPDATE `npc` SET `name` = '夢幻獨角獸' WHERE `id` = 14365;
-UPDATE `npc` SET `name` = '夢幻獨角獸' WHERE `id` = 14366;
-UPDATE `npc` SET `name` = '夢幻獨角獸' WHERE `id` = 14367;
-UPDATE `npc` SET `name` = '夢幻獨角獸' WHERE `id` = 14368;
-UPDATE `npc` SET `name` = '夢幻獨角獸' WHERE `id` = 14369;
-UPDATE `npc` SET `name` = '夢幻獨角獸' WHERE `id` = 14370;
-UPDATE `npc` SET `name` = '夢幻獨角獸' WHERE `id` = 14371;
-UPDATE `npc` SET `name` = '夢幻獨角獸' WHERE `id` = 14372;
-UPDATE `npc` SET `name` = '夢幻獨角獸' WHERE `id` = 14373;
-UPDATE `npc` SET `name` = '夢幻獨角獸' WHERE `id` = 14374;
-UPDATE `npc` SET `name` = '夢幻獨角獸' WHERE `id` = 14375;
-UPDATE `npc` SET `name` = '夢幻獨角獸' WHERE `id` = 14376;
-UPDATE `npc` SET `name` = '夢幻獨角獸' WHERE `id` = 14377;
-UPDATE `npc` SET `name` = '夢幻獨角獸' WHERE `id` = 14378;
-UPDATE `npc` SET `name` = '夢幻獨角獸' WHERE `id` = 14379;
-UPDATE `npc` SET `name` = '夢幻獨角獸' WHERE `id` = 14380;
-UPDATE `npc` SET `name` = '夢幻獨角獸' WHERE `id` = 14381;
-UPDATE `npc` SET `name` = '夢幻獨角獸' WHERE `id` = 14382;
-UPDATE `npc` SET `name` = '夢幻獨角獸' WHERE `id` = 14383;
-UPDATE `npc` SET `name` = '夢幻獨角獸' WHERE `id` = 14384;
-UPDATE `npc` SET `name` = '夢幻獨角獸' WHERE `id` = 14385;
-UPDATE `npc` SET `name` = '夢幻獨角獸' WHERE `id` = 14386;
-UPDATE `npc` SET `name` = '夢幻獨角獸' WHERE `id` = 14387;
-UPDATE `npc` SET `name` = '夢幻獨角獸' WHERE `id` = 14388;
-UPDATE `npc` SET `name` = '夢幻獨角獸' WHERE `id` = 14389;
-UPDATE `npc` SET `name` = '夢幻獨角獸' WHERE `id` = 14390;
-UPDATE `npc` SET `name` = '藍眼獨角獸' WHERE `id` = 14391;
-UPDATE `npc` SET `name` = '藍眼獨角獸' WHERE `id` = 14392;
-UPDATE `npc` SET `name` = '藍眼獨角獸' WHERE `id` = 14393;
-UPDATE `npc` SET `name` = '藍眼獨角獸' WHERE `id` = 14394;
-UPDATE `npc` SET `name` = '藍眼獨角獸' WHERE `id` = 14395;
-UPDATE `npc` SET `name` = '藍眼獨角獸' WHERE `id` = 14396;
-UPDATE `npc` SET `name` = '藍眼獨角獸' WHERE `id` = 14397;
-UPDATE `npc` SET `name` = '藍眼獨角獸' WHERE `id` = 14398;
-UPDATE `npc` SET `name` = '藍眼獨角獸' WHERE `id` = 14399;
-UPDATE `npc` SET `name` = '藍眼獨角獸' WHERE `id` = 14400;
-UPDATE `npc` SET `name` = '藍眼獨角獸' WHERE `id` = 14401;
-UPDATE `npc` SET `name` = '藍眼獨角獸' WHERE `id` = 14402;
-UPDATE `npc` SET `name` = '藍眼獨角獸' WHERE `id` = 14403;
-UPDATE `npc` SET `name` = '藍眼獨角獸' WHERE `id` = 14404;
-UPDATE `npc` SET `name` = '藍眼獨角獸' WHERE `id` = 14405;
-UPDATE `npc` SET `name` = '藍眼獨角獸' WHERE `id` = 14406;
-UPDATE `npc` SET `name` = '藍眼獨角獸' WHERE `id` = 14407;
-UPDATE `npc` SET `name` = '藍眼獨角獸' WHERE `id` = 14408;
-UPDATE `npc` SET `name` = '藍眼獨角獸' WHERE `id` = 14409;
-UPDATE `npc` SET `name` = '藍眼獨角獸' WHERE `id` = 14410;
-UPDATE `npc` SET `name` = '藍眼獨角獸' WHERE `id` = 14411;
-UPDATE `npc` SET `name` = '藍眼獨角獸' WHERE `id` = 14412;
-UPDATE `npc` SET `name` = '藍眼獨角獸' WHERE `id` = 14413;
-UPDATE `npc` SET `name` = '藍眼獨角獸' WHERE `id` = 14414;
-UPDATE `npc` SET `name` = '藍眼獨角獸' WHERE `id` = 14415;
-UPDATE `npc` SET `name` = '藍眼獨角獸' WHERE `id` = 14416;
-UPDATE `npc` SET `name` = '藍眼獨角獸' WHERE `id` = 14417;
-UPDATE `npc` SET `name` = '藍眼獨角獸' WHERE `id` = 14418;
-UPDATE `npc` SET `name` = '藍眼獨角獸' WHERE `id` = 14419;
-UPDATE `npc` SET `name` = '藍眼獨角獸' WHERE `id` = 14420;
-UPDATE `npc` SET `name` = '藍眼獨角獸' WHERE `id` = 14421;
-UPDATE `npc` SET `name` = '藍眼獨角獸' WHERE `id` = 14422;
-UPDATE `npc` SET `name` = '藍眼獨角獸' WHERE `id` = 14423;
-UPDATE `npc` SET `name` = '藍眼獨角獸' WHERE `id` = 14424;
-UPDATE `npc` SET `name` = '藍眼獨角獸' WHERE `id` = 14425;
-UPDATE `npc` SET `name` = '藍眼獨角獸' WHERE `id` = 14426;
-UPDATE `npc` SET `name` = '藍眼獨角獸' WHERE `id` = 14427;
-UPDATE `npc` SET `name` = '藍眼獨角獸' WHERE `id` = 14428;
-UPDATE `npc` SET `name` = '藍眼獨角獸' WHERE `id` = 14429;
-UPDATE `npc` SET `name` = '藍眼獨角獸' WHERE `id` = 14430;
-UPDATE `npc` SET `name` = '藍眼獨角獸' WHERE `id` = 14431;
-UPDATE `npc` SET `name` = '藍眼獨角獸' WHERE `id` = 14432;
-UPDATE `npc` SET `name` = '藍眼獨角獸' WHERE `id` = 14433;
-UPDATE `npc` SET `name` = '藍眼獨角獸' WHERE `id` = 14434;
-UPDATE `npc` SET `name` = '天使獨角獸' WHERE `id` = 14435;
-UPDATE `npc` SET `name` = '天使獨角獸' WHERE `id` = 14436;
-UPDATE `npc` SET `name` = '天使獨角獸' WHERE `id` = 14437;
-UPDATE `npc` SET `name` = '天使獨角獸' WHERE `id` = 14438;
-UPDATE `npc` SET `name` = '天使獨角獸' WHERE `id` = 14439;
-UPDATE `npc` SET `name` = '天使獨角獸' WHERE `id` = 14440;
-UPDATE `npc` SET `name` = '天使獨角獸' WHERE `id` = 14441;
-UPDATE `npc` SET `name` = '天使獨角獸' WHERE `id` = 14442;
-UPDATE `npc` SET `name` = '天使獨角獸' WHERE `id` = 14443;
-UPDATE `npc` SET `name` = '天使獨角獸' WHERE `id` = 14444;
-UPDATE `npc` SET `name` = '天使獨角獸' WHERE `id` = 14449;
-UPDATE `npc` SET `name` = '天使獨角獸' WHERE `id` = 14450;
-UPDATE `npc` SET `name` = '天使獨角獸' WHERE `id` = 14451;
-UPDATE `npc` SET `name` = '天使獨角獸' WHERE `id` = 14452;
-UPDATE `npc` SET `name` = '天使獨角獸' WHERE `id` = 14453;
-UPDATE `npc` SET `name` = '天使獨角獸' WHERE `id` = 14454;
-UPDATE `npc` SET `name` = '天使獨角獸' WHERE `id` = 14455;
-UPDATE `npc` SET `name` = '天使獨角獸' WHERE `id` = 14456;
-UPDATE `npc` SET `name` = '天使獨角獸' WHERE `id` = 14457;
-UPDATE `npc` SET `name` = '天使獨角獸' WHERE `id` = 14458;
-UPDATE `npc` SET `name` = '天使獨角獸' WHERE `id` = 14459;
-UPDATE `npc` SET `name` = '天使獨角獸' WHERE `id` = 14460;
-UPDATE `npc` SET `name` = '天使獨角獸' WHERE `id` = 14461;
-UPDATE `npc` SET `name` = '天使獨角獸' WHERE `id` = 14462;
-UPDATE `npc` SET `name` = '天使獨角獸' WHERE `id` = 14463;
-UPDATE `npc` SET `name` = '天使獨角獸' WHERE `id` = 14464;
-UPDATE `npc` SET `name` = '天使獨角獸' WHERE `id` = 14465;
-UPDATE `npc` SET `name` = '天使獨角獸' WHERE `id` = 14466;
-UPDATE `npc` SET `name` = '天使獨角獸' WHERE `id` = 14467;
-UPDATE `npc` SET `name` = '天使獨角獸' WHERE `id` = 14468;
-UPDATE `npc` SET `name` = '天使獨角獸' WHERE `id` = 14469;
-UPDATE `npc` SET `name` = '天使獨角獸' WHERE `id` = 14470;
-UPDATE `npc` SET `name` = '天使獨角獸' WHERE `id` = 14471;
-UPDATE `npc` SET `name` = '天使獨角獸' WHERE `id` = 14472;
-UPDATE `npc` SET `name` = '天使獨角獸' WHERE `id` = 14473;
-UPDATE `npc` SET `name` = '天使獨角獸' WHERE `id` = 14474;
-UPDATE `npc` SET `name` = '天使獨角獸' WHERE `id` = 14475;
-UPDATE `npc` SET `name` = '天使獨角獸' WHERE `id` = 14476;
-UPDATE `npc` SET `name` = '天使獨角獸' WHERE `id` = 14477;
-UPDATE `npc` SET `name` = '天使獨角獸' WHERE `id` = 14478;
-UPDATE `npc` SET `name` = '闇魔' WHERE `id` = 14479;
-UPDATE `npc` SET `name` = '闇魔' WHERE `id` = 14480;
-UPDATE `npc` SET `name` = '闇魔' WHERE `id` = 14481;
-UPDATE `npc` SET `name` = '闇魔' WHERE `id` = 14482;
-UPDATE `npc` SET `name` = '闇魔' WHERE `id` = 14483;
-UPDATE `npc` SET `name` = '闇魔' WHERE `id` = 14484;
-UPDATE `npc` SET `name` = '闇魔' WHERE `id` = 14485;
-UPDATE `npc` SET `name` = '闇魔' WHERE `id` = 14486;
-UPDATE `npc` SET `name` = '闇魔' WHERE `id` = 14487;
-UPDATE `npc` SET `name` = '闇魔' WHERE `id` = 14488;
-UPDATE `npc` SET `name` = '闇魔' WHERE `id` = 14489;
-UPDATE `npc` SET `name` = '闇魔' WHERE `id` = 14490;
-UPDATE `npc` SET `name` = '闇魔' WHERE `id` = 14491;
-UPDATE `npc` SET `name` = '闇魔' WHERE `id` = 14492;
-UPDATE `npc` SET `name` = '闇魔' WHERE `id` = 14493;
-UPDATE `npc` SET `name` = '闇魔' WHERE `id` = 14494;
-UPDATE `npc` SET `name` = '闇魔' WHERE `id` = 14495;
-UPDATE `npc` SET `name` = '闇魔' WHERE `id` = 14496;
-UPDATE `npc` SET `name` = '闇魔' WHERE `id` = 14497;
-UPDATE `npc` SET `name` = '闇魔' WHERE `id` = 14498;
-UPDATE `npc` SET `name` = '闇魔' WHERE `id` = 14499;
-UPDATE `npc` SET `name` = '闇魔' WHERE `id` = 14500;
-UPDATE `npc` SET `name` = '闇魔' WHERE `id` = 14501;
-UPDATE `npc` SET `name` = '闇魔' WHERE `id` = 14502;
-UPDATE `npc` SET `name` = '闇魔' WHERE `id` = 14503;
-UPDATE `npc` SET `name` = '闇魔' WHERE `id` = 14504;
-UPDATE `npc` SET `name` = '闇魔' WHERE `id` = 14505;
-UPDATE `npc` SET `name` = '闇魔' WHERE `id` = 14506;
-UPDATE `npc` SET `name` = '闇魔' WHERE `id` = 14507;
-UPDATE `npc` SET `name` = '闇魔' WHERE `id` = 14508;
-UPDATE `npc` SET `name` = '闇魔' WHERE `id` = 14509;
-UPDATE `npc` SET `name` = '闇魔' WHERE `id` = 14510;
-UPDATE `npc` SET `name` = '闇魔' WHERE `id` = 14511;
-UPDATE `npc` SET `name` = '闇魔' WHERE `id` = 14512;
-UPDATE `npc` SET `name` = '闇魔' WHERE `id` = 14513;
-UPDATE `npc` SET `name` = '闇魔' WHERE `id` = 14514;
-UPDATE `npc` SET `name` = '闇魔' WHERE `id` = 14515;
-UPDATE `npc` SET `name` = '闇魔' WHERE `id` = 14516;
-UPDATE `npc` SET `name` = '闇魔' WHERE `id` = 14517;
-UPDATE `npc` SET `name` = '闇魔' WHERE `id` = 14518;
-UPDATE `npc` SET `name` = '闇魔' WHERE `id` = 14519;
-UPDATE `npc` SET `name` = '闇魔' WHERE `id` = 14520;
-UPDATE `npc` SET `name` = '闇魔' WHERE `id` = 14521;
-UPDATE `npc` SET `name` = '闇魔' WHERE `id` = 14522;
-UPDATE `npc` SET `name` = '闇魔' WHERE `id` = 14523;
-UPDATE `npc` SET `name` = '闇魔' WHERE `id` = 14524;
-UPDATE `npc` SET `name` = '闇魔' WHERE `id` = 14525;
-UPDATE `npc` SET `name` = '闇魔' WHERE `id` = 14526;
-UPDATE `npc` SET `name` = '影魔' WHERE `id` = 14527;
-UPDATE `npc` SET `name` = '影魔' WHERE `id` = 14528;
-UPDATE `npc` SET `name` = '影魔' WHERE `id` = 14529;
-UPDATE `npc` SET `name` = '影魔' WHERE `id` = 14530;
-UPDATE `npc` SET `name` = '影魔' WHERE `id` = 14531;
-UPDATE `npc` SET `name` = '影魔' WHERE `id` = 14532;
-UPDATE `npc` SET `name` = '影魔' WHERE `id` = 14533;
-UPDATE `npc` SET `name` = '影魔' WHERE `id` = 14534;
-UPDATE `npc` SET `name` = '影魔' WHERE `id` = 14535;
-UPDATE `npc` SET `name` = '影魔' WHERE `id` = 14536;
-UPDATE `npc` SET `name` = '影魔' WHERE `id` = 14537;
-UPDATE `npc` SET `name` = '影魔' WHERE `id` = 14538;
-UPDATE `npc` SET `name` = '影魔' WHERE `id` = 14539;
-UPDATE `npc` SET `name` = '影魔' WHERE `id` = 14540;
-UPDATE `npc` SET `name` = '影魔' WHERE `id` = 14541;
-UPDATE `npc` SET `name` = '影魔' WHERE `id` = 14542;
-UPDATE `npc` SET `name` = '影魔' WHERE `id` = 14543;
-UPDATE `npc` SET `name` = '影魔' WHERE `id` = 14544;
-UPDATE `npc` SET `name` = '影魔' WHERE `id` = 14545;
-UPDATE `npc` SET `name` = '影魔' WHERE `id` = 14546;
-UPDATE `npc` SET `name` = '影魔' WHERE `id` = 14547;
-UPDATE `npc` SET `name` = '影魔' WHERE `id` = 14548;
-UPDATE `npc` SET `name` = '影魔' WHERE `id` = 14549;
-UPDATE `npc` SET `name` = '影魔' WHERE `id` = 14550;
-UPDATE `npc` SET `name` = '影魔' WHERE `id` = 14551;
-UPDATE `npc` SET `name` = '影魔' WHERE `id` = 14552;
-UPDATE `npc` SET `name` = '影魔' WHERE `id` = 14553;
-UPDATE `npc` SET `name` = '影魔' WHERE `id` = 14554;
-UPDATE `npc` SET `name` = '影魔' WHERE `id` = 14555;
-UPDATE `npc` SET `name` = '影魔' WHERE `id` = 14556;
-UPDATE `npc` SET `name` = '影魔' WHERE `id` = 14557;
-UPDATE `npc` SET `name` = '影魔' WHERE `id` = 14558;
-UPDATE `npc` SET `name` = '影魔' WHERE `id` = 14559;
-UPDATE `npc` SET `name` = '影魔' WHERE `id` = 14560;
-UPDATE `npc` SET `name` = '影魔' WHERE `id` = 14561;
-UPDATE `npc` SET `name` = '影魔' WHERE `id` = 14562;
-UPDATE `npc` SET `name` = '影魔' WHERE `id` = 14563;
-UPDATE `npc` SET `name` = '影魔' WHERE `id` = 14564;
-UPDATE `npc` SET `name` = '影魔' WHERE `id` = 14565;
-UPDATE `npc` SET `name` = '影魔' WHERE `id` = 14566;
-UPDATE `npc` SET `name` = '影魔' WHERE `id` = 14567;
-UPDATE `npc` SET `name` = '影魔' WHERE `id` = 14568;
-UPDATE `npc` SET `name` = '影魔' WHERE `id` = 14569;
-UPDATE `npc` SET `name` = '影魔' WHERE `id` = 14570;
-UPDATE `npc` SET `name` = '影魔' WHERE `id` = 14571;
-UPDATE `npc` SET `name` = '影魔' WHERE `id` = 14572;
-UPDATE `npc` SET `name` = '影魔' WHERE `id` = 14573;
-UPDATE `npc` SET `name` = '影魔' WHERE `id` = 14574;
-UPDATE `npc` SET `name` = '失魂者' WHERE `id` = 14575;
-UPDATE `npc` SET `name` = '失魂者' WHERE `id` = 14576;
-UPDATE `npc` SET `name` = '失魂者' WHERE `id` = 14577;
-UPDATE `npc` SET `name` = '失魂者' WHERE `id` = 14578;
-UPDATE `npc` SET `name` = '失魂者' WHERE `id` = 14579;
-UPDATE `npc` SET `name` = '失魂者' WHERE `id` = 14580;
-UPDATE `npc` SET `name` = '失魂者' WHERE `id` = 14581;
-UPDATE `npc` SET `name` = '失魂者' WHERE `id` = 14582;
-UPDATE `npc` SET `name` = '失魂者' WHERE `id` = 14583;
-UPDATE `npc` SET `name` = '失魂者' WHERE `id` = 14584;
-UPDATE `npc` SET `name` = '失魂者' WHERE `id` = 14585;
-UPDATE `npc` SET `name` = '失魂者' WHERE `id` = 14586;
-UPDATE `npc` SET `name` = '失魂者' WHERE `id` = 14587;
-UPDATE `npc` SET `name` = '失魂者' WHERE `id` = 14588;
-UPDATE `npc` SET `name` = '失魂者' WHERE `id` = 14589;
-UPDATE `npc` SET `name` = '失魂者' WHERE `id` = 14590;
-UPDATE `npc` SET `name` = '失魂者' WHERE `id` = 14591;
-UPDATE `npc` SET `name` = '失魂者' WHERE `id` = 14592;
-UPDATE `npc` SET `name` = '失魂者' WHERE `id` = 14593;
-UPDATE `npc` SET `name` = '失魂者' WHERE `id` = 14594;
-UPDATE `npc` SET `name` = '失魂者' WHERE `id` = 14595;
-UPDATE `npc` SET `name` = '失魂者' WHERE `id` = 14596;
-UPDATE `npc` SET `name` = '失魂者' WHERE `id` = 14597;
-UPDATE `npc` SET `name` = '失魂者' WHERE `id` = 14598;
-UPDATE `npc` SET `name` = '失魂者' WHERE `id` = 14599;
-UPDATE `npc` SET `name` = '失魂者' WHERE `id` = 14600;
-UPDATE `npc` SET `name` = '失魂者' WHERE `id` = 14601;
-UPDATE `npc` SET `name` = '失魂者' WHERE `id` = 14602;
-UPDATE `npc` SET `name` = '失魂者' WHERE `id` = 14603;
-UPDATE `npc` SET `name` = '失魂者' WHERE `id` = 14604;
-UPDATE `npc` SET `name` = '失魂者' WHERE `id` = 14605;
-UPDATE `npc` SET `name` = '失魂者' WHERE `id` = 14606;
-UPDATE `npc` SET `name` = '失魂者' WHERE `id` = 14607;
-UPDATE `npc` SET `name` = '失魂者' WHERE `id` = 14608;
-UPDATE `npc` SET `name` = '失魂者' WHERE `id` = 14609;
-UPDATE `npc` SET `name` = '失魂者' WHERE `id` = 14610;
-UPDATE `npc` SET `name` = '失魂者' WHERE `id` = 14611;
-UPDATE `npc` SET `name` = '失魂者' WHERE `id` = 14612;
-UPDATE `npc` SET `name` = '失魂者' WHERE `id` = 14613;
-UPDATE `npc` SET `name` = '失魂者' WHERE `id` = 14614;
-UPDATE `npc` SET `name` = '失魂者' WHERE `id` = 14615;
-UPDATE `npc` SET `name` = '失魂者' WHERE `id` = 14616;
-UPDATE `npc` SET `name` = '失魂者' WHERE `id` = 14617;
-UPDATE `npc` SET `name` = '失魂者' WHERE `id` = 14618;
-UPDATE `npc` SET `name` = '夜靈' WHERE `id` = 14619;
-UPDATE `npc` SET `name` = '夜靈' WHERE `id` = 14620;
-UPDATE `npc` SET `name` = '夜靈' WHERE `id` = 14621;
-UPDATE `npc` SET `name` = '夜靈' WHERE `id` = 14622;
-UPDATE `npc` SET `name` = '夜靈' WHERE `id` = 14623;
-UPDATE `npc` SET `name` = '夜靈' WHERE `id` = 14624;
-UPDATE `npc` SET `name` = '夜靈' WHERE `id` = 14625;
-UPDATE `npc` SET `name` = '夜靈' WHERE `id` = 14626;
-UPDATE `npc` SET `name` = '夜靈' WHERE `id` = 14627;
-UPDATE `npc` SET `name` = '夜靈' WHERE `id` = 14628;
-UPDATE `npc` SET `name` = '夜靈' WHERE `id` = 14633;
-UPDATE `npc` SET `name` = '夜靈' WHERE `id` = 14634;
-UPDATE `npc` SET `name` = '夜靈' WHERE `id` = 14635;
-UPDATE `npc` SET `name` = '夜靈' WHERE `id` = 14636;
-UPDATE `npc` SET `name` = '夜靈' WHERE `id` = 14637;
-UPDATE `npc` SET `name` = '夜靈' WHERE `id` = 14638;
-UPDATE `npc` SET `name` = '夜靈' WHERE `id` = 14639;
-UPDATE `npc` SET `name` = '夜靈' WHERE `id` = 14640;
-UPDATE `npc` SET `name` = '夜靈' WHERE `id` = 14641;
-UPDATE `npc` SET `name` = '夜靈' WHERE `id` = 14642;
-UPDATE `npc` SET `name` = '夜靈' WHERE `id` = 14643;
-UPDATE `npc` SET `name` = '夜靈' WHERE `id` = 14644;
-UPDATE `npc` SET `name` = '夜靈' WHERE `id` = 14645;
-UPDATE `npc` SET `name` = '夜靈' WHERE `id` = 14646;
-UPDATE `npc` SET `name` = '夜靈' WHERE `id` = 14647;
-UPDATE `npc` SET `name` = '夜靈' WHERE `id` = 14648;
-UPDATE `npc` SET `name` = '夜靈' WHERE `id` = 14649;
-UPDATE `npc` SET `name` = '夜靈' WHERE `id` = 14650;
-UPDATE `npc` SET `name` = '夜靈' WHERE `id` = 14651;
-UPDATE `npc` SET `name` = '夜靈' WHERE `id` = 14652;
-UPDATE `npc` SET `name` = '夜靈' WHERE `id` = 14653;
-UPDATE `npc` SET `name` = '夜靈' WHERE `id` = 14654;
-UPDATE `npc` SET `name` = '夜靈' WHERE `id` = 14655;
-UPDATE `npc` SET `name` = '夜靈' WHERE `id` = 14656;
-UPDATE `npc` SET `name` = '夜靈' WHERE `id` = 14657;
-UPDATE `npc` SET `name` = '夜靈' WHERE `id` = 14658;
-UPDATE `npc` SET `name` = '夜靈' WHERE `id` = 14659;
-UPDATE `npc` SET `name` = '夜靈' WHERE `id` = 14660;
-UPDATE `npc` SET `name` = '夜靈' WHERE `id` = 14661;
-UPDATE `npc` SET `name` = '夜靈' WHERE `id` = 14662;
-UPDATE `npc` SET `name` = '機械高崙' WHERE `id` = 14663;
-UPDATE `npc` SET `name` = '機械高崙' WHERE `id` = 14664;
-UPDATE `npc` SET `name` = '機械高崙' WHERE `id` = 14665;
-UPDATE `npc` SET `name` = '機械高崙' WHERE `id` = 14666;
-UPDATE `npc` SET `name` = '機械高崙' WHERE `id` = 14667;
-UPDATE `npc` SET `name` = '機械高崙' WHERE `id` = 14668;
-UPDATE `npc` SET `name` = '機械高崙' WHERE `id` = 14669;
-UPDATE `npc` SET `name` = '機械高崙' WHERE `id` = 14670;
-UPDATE `npc` SET `name` = '機械高崙' WHERE `id` = 14671;
-UPDATE `npc` SET `name` = '機械高崙' WHERE `id` = 14672;
-UPDATE `npc` SET `name` = '機械高崙' WHERE `id` = 14673;
-UPDATE `npc` SET `name` = '機械高崙' WHERE `id` = 14674;
-UPDATE `npc` SET `name` = '機械高崙' WHERE `id` = 14675;
-UPDATE `npc` SET `name` = '機械高崙' WHERE `id` = 14676;
-UPDATE `npc` SET `name` = '機械高崙' WHERE `id` = 14677;
-UPDATE `npc` SET `name` = '機械高崙' WHERE `id` = 14678;
-UPDATE `npc` SET `name` = '機械高崙' WHERE `id` = 14679;
-UPDATE `npc` SET `name` = '機械高崙' WHERE `id` = 14680;
-UPDATE `npc` SET `name` = '機械高崙' WHERE `id` = 14681;
-UPDATE `npc` SET `name` = '機械高崙' WHERE `id` = 14682;
-UPDATE `npc` SET `name` = '機械高崙' WHERE `id` = 14683;
-UPDATE `npc` SET `name` = '機械高崙' WHERE `id` = 14684;
-UPDATE `npc` SET `name` = '機械高崙' WHERE `id` = 14685;
-UPDATE `npc` SET `name` = '機械高崙' WHERE `id` = 14686;
-UPDATE `npc` SET `name` = '機械高崙' WHERE `id` = 14687;
-UPDATE `npc` SET `name` = '機械高崙' WHERE `id` = 14688;
-UPDATE `npc` SET `name` = '機械高崙' WHERE `id` = 14689;
-UPDATE `npc` SET `name` = '機械高崙' WHERE `id` = 14690;
-UPDATE `npc` SET `name` = '機械高崙' WHERE `id` = 14691;
-UPDATE `npc` SET `name` = '機械高崙' WHERE `id` = 14692;
-UPDATE `npc` SET `name` = '機械高崙' WHERE `id` = 14693;
-UPDATE `npc` SET `name` = '機械高崙' WHERE `id` = 14694;
-UPDATE `npc` SET `name` = '機械高崙' WHERE `id` = 14695;
-UPDATE `npc` SET `name` = '機械高崙' WHERE `id` = 14696;
-UPDATE `npc` SET `name` = '機械高崙' WHERE `id` = 14697;
-UPDATE `npc` SET `name` = '機械高崙' WHERE `id` = 14698;
-UPDATE `npc` SET `name` = '機械高崙' WHERE `id` = 14699;
-UPDATE `npc` SET `name` = '機械高崙' WHERE `id` = 14700;
-UPDATE `npc` SET `name` = '機械高崙' WHERE `id` = 14701;
-UPDATE `npc` SET `name` = '大炸彈' WHERE `id` = 14702;
-UPDATE `npc` SET `name` = '大炸彈' WHERE `id` = 14703;
-UPDATE `npc` SET `name` = '大炸彈' WHERE `id` = 14704;
-UPDATE `npc` SET `name` = '大炸彈' WHERE `id` = 14705;
-UPDATE `npc` SET `name` = '大炸彈' WHERE `id` = 14706;
-UPDATE `npc` SET `name` = '大炸彈' WHERE `id` = 14707;
-UPDATE `npc` SET `name` = '大炸彈' WHERE `id` = 14708;
-UPDATE `npc` SET `name` = '大炸彈' WHERE `id` = 14709;
-UPDATE `npc` SET `name` = '大炸彈' WHERE `id` = 14710;
-UPDATE `npc` SET `name` = '大炸彈' WHERE `id` = 14711;
-UPDATE `npc` SET `name` = '大炸彈' WHERE `id` = 14712;
-UPDATE `npc` SET `name` = '大炸彈' WHERE `id` = 14713;
-UPDATE `npc` SET `name` = '大炸彈' WHERE `id` = 14714;
-UPDATE `npc` SET `name` = '大炸彈' WHERE `id` = 14715;
-UPDATE `npc` SET `name` = '大炸彈' WHERE `id` = 14716;
-UPDATE `npc` SET `name` = '大炸彈' WHERE `id` = 14717;
-UPDATE `npc` SET `name` = '大炸彈' WHERE `id` = 14718;
-UPDATE `npc` SET `name` = '大炸彈' WHERE `id` = 14719;
-UPDATE `npc` SET `name` = '大炸彈' WHERE `id` = 14720;
-UPDATE `npc` SET `name` = '大炸彈' WHERE `id` = 14721;
-UPDATE `npc` SET `name` = '大炸彈' WHERE `id` = 14722;
-UPDATE `npc` SET `name` = '大炸彈' WHERE `id` = 14723;
-UPDATE `npc` SET `name` = '大炸彈' WHERE `id` = 14724;
-UPDATE `npc` SET `name` = '大炸彈' WHERE `id` = 14725;
-UPDATE `npc` SET `name` = '大炸彈' WHERE `id` = 14726;
-UPDATE `npc` SET `name` = '大炸彈' WHERE `id` = 14727;
-UPDATE `npc` SET `name` = '大炸彈' WHERE `id` = 14728;
-UPDATE `npc` SET `name` = '大炸彈' WHERE `id` = 14729;
-UPDATE `npc` SET `name` = '大炸彈' WHERE `id` = 14730;
-UPDATE `npc` SET `name` = '大炸彈' WHERE `id` = 14731;
-UPDATE `npc` SET `name` = '大炸彈' WHERE `id` = 14732;
-UPDATE `npc` SET `name` = '大炸彈' WHERE `id` = 14733;
-UPDATE `npc` SET `name` = '大炸彈' WHERE `id` = 14734;
-UPDATE `npc` SET `name` = '大炸彈' WHERE `id` = 14735;
-UPDATE `npc` SET `name` = '大炸彈' WHERE `id` = 14736;
-UPDATE `npc` SET `name` = '攻城高崙' WHERE `id` = 14737;
-UPDATE `npc` SET `name` = '攻城高崙' WHERE `id` = 14738;
-UPDATE `npc` SET `name` = '攻城高崙' WHERE `id` = 14739;
-UPDATE `npc` SET `name` = '攻城高崙' WHERE `id` = 14740;
-UPDATE `npc` SET `name` = '攻城高崙' WHERE `id` = 14741;
-UPDATE `npc` SET `name` = '攻城高崙' WHERE `id` = 14742;
-UPDATE `npc` SET `name` = '攻城高崙' WHERE `id` = 14743;
-UPDATE `npc` SET `name` = '攻城高崙' WHERE `id` = 14744;
-UPDATE `npc` SET `name` = '攻城高崙' WHERE `id` = 14745;
-UPDATE `npc` SET `name` = '攻城高崙' WHERE `id` = 14746;
-UPDATE `npc` SET `name` = '攻城高崙' WHERE `id` = 14747;
-UPDATE `npc` SET `name` = '攻城高崙' WHERE `id` = 14748;
-UPDATE `npc` SET `name` = '攻城高崙' WHERE `id` = 14749;
-UPDATE `npc` SET `name` = '攻城高崙' WHERE `id` = 14750;
-UPDATE `npc` SET `name` = '攻城高崙' WHERE `id` = 14751;
-UPDATE `npc` SET `name` = '攻城高崙' WHERE `id` = 14752;
-UPDATE `npc` SET `name` = '攻城高崙' WHERE `id` = 14753;
-UPDATE `npc` SET `name` = '攻城高崙' WHERE `id` = 14754;
-UPDATE `npc` SET `name` = '攻城高崙' WHERE `id` = 14755;
-UPDATE `npc` SET `name` = '攻城高崙' WHERE `id` = 14756;
-UPDATE `npc` SET `name` = '攻城高崙' WHERE `id` = 14757;
-UPDATE `npc` SET `name` = '攻城高崙' WHERE `id` = 14758;
-UPDATE `npc` SET `name` = '攻城高崙' WHERE `id` = 14759;
-UPDATE `npc` SET `name` = '攻城高崙' WHERE `id` = 14760;
-UPDATE `npc` SET `name` = '攻城高崙' WHERE `id` = 14761;
-UPDATE `npc` SET `name` = '攻城高崙' WHERE `id` = 14762;
-UPDATE `npc` SET `name` = '攻城高崙' WHERE `id` = 14763;
-UPDATE `npc` SET `name` = '攻城高崙' WHERE `id` = 14764;
-UPDATE `npc` SET `name` = '攻城高崙' WHERE `id` = 14765;
-UPDATE `npc` SET `name` = '攻城高崙' WHERE `id` = 14766;
-UPDATE `npc` SET `name` = '攻城高崙' WHERE `id` = 14767;
-UPDATE `npc` SET `name` = '野豬加農砲' WHERE `id` = 14768;
-UPDATE `npc` SET `name` = '野豬加農砲' WHERE `id` = 14769;
-UPDATE `npc` SET `name` = '野豬加農砲' WHERE `id` = 14770;
-UPDATE `npc` SET `name` = '野豬加農砲' WHERE `id` = 14771;
-UPDATE `npc` SET `name` = '野豬加農砲' WHERE `id` = 14772;
-UPDATE `npc` SET `name` = '野豬加農砲' WHERE `id` = 14773;
-UPDATE `npc` SET `name` = '野豬加農砲' WHERE `id` = 14774;
-UPDATE `npc` SET `name` = '野豬加農砲' WHERE `id` = 14775;
-UPDATE `npc` SET `name` = '野豬加農砲' WHERE `id` = 14776;
-UPDATE `npc` SET `name` = '野豬加農砲' WHERE `id` = 14777;
-UPDATE `npc` SET `name` = '野豬加農砲' WHERE `id` = 14778;
-UPDATE `npc` SET `name` = '野豬加農砲' WHERE `id` = 14779;
-UPDATE `npc` SET `name` = '野豬加農砲' WHERE `id` = 14780;
-UPDATE `npc` SET `name` = '野豬加農砲' WHERE `id` = 14781;
-UPDATE `npc` SET `name` = '野豬加農砲' WHERE `id` = 14782;
-UPDATE `npc` SET `name` = '野豬加農砲' WHERE `id` = 14783;
-UPDATE `npc` SET `name` = '野豬加農砲' WHERE `id` = 14784;
-UPDATE `npc` SET `name` = '野豬加農砲' WHERE `id` = 14785;
-UPDATE `npc` SET `name` = '野豬加農砲' WHERE `id` = 14786;
-UPDATE `npc` SET `name` = '野豬加農砲' WHERE `id` = 14787;
-UPDATE `npc` SET `name` = '野豬加農砲' WHERE `id` = 14788;
-UPDATE `npc` SET `name` = '野豬加農砲' WHERE `id` = 14789;
-UPDATE `npc` SET `name` = '野豬加農砲' WHERE `id` = 14790;
-UPDATE `npc` SET `name` = '野豬加農砲' WHERE `id` = 14791;
-UPDATE `npc` SET `name` = '野豬加農砲' WHERE `id` = 14792;
-UPDATE `npc` SET `name` = '野豬加農砲' WHERE `id` = 14793;
-UPDATE `npc` SET `name` = '野豬加農砲' WHERE `id` = 14794;
-UPDATE `npc` SET `name` = '野豬加農砲' WHERE `id` = 14795;
-UPDATE `npc` SET `name` = '野豬加農砲' WHERE `id` = 14796;
-UPDATE `npc` SET `name` = '野豬加農砲' WHERE `id` = 14797;
-UPDATE `npc` SET `name` = '野豬加農砲' WHERE `id` = 14798;
-UPDATE `npc` SET `name` = '黑暗豹' WHERE `id` = 14799;
-UPDATE `npc` SET `name` = '黑暗豹' WHERE `id` = 14800;
-UPDATE `npc` SET `name` = '黑暗豹' WHERE `id` = 14801;
-UPDATE `npc` SET `name` = '黑暗豹' WHERE `id` = 14802;
-UPDATE `npc` SET `name` = '黑暗豹' WHERE `id` = 14803;
-UPDATE `npc` SET `name` = '黑暗豹' WHERE `id` = 14804;
-UPDATE `npc` SET `name` = '黑暗豹' WHERE `id` = 14805;
-UPDATE `npc` SET `name` = '黑暗豹' WHERE `id` = 14806;
-UPDATE `npc` SET `name` = '黑暗豹' WHERE `id` = 14807;
-UPDATE `npc` SET `name` = '黑暗豹' WHERE `id` = 14808;
-UPDATE `npc` SET `name` = '黑暗豹' WHERE `id` = 14809;
-UPDATE `npc` SET `name` = '黑暗豹' WHERE `id` = 14810;
-UPDATE `npc` SET `name` = '黑暗豹' WHERE `id` = 14811;
-UPDATE `npc` SET `name` = '黑暗豹' WHERE `id` = 14812;
-UPDATE `npc` SET `name` = '黑暗豹' WHERE `id` = 14813;
-UPDATE `npc` SET `name` = '黑暗豹' WHERE `id` = 14814;
-UPDATE `npc` SET `name` = '黑暗豹' WHERE `id` = 14815;
-UPDATE `npc` SET `name` = '黑暗豹' WHERE `id` = 14816;
-UPDATE `npc` SET `name` = '黑暗豹' WHERE `id` = 14817;
-UPDATE `npc` SET `name` = '黑暗豹' WHERE `id` = 14818;
-UPDATE `npc` SET `name` = '黑暗豹' WHERE `id` = 14819;
-UPDATE `npc` SET `name` = '黑暗豹' WHERE `id` = 14820;
-UPDATE `npc` SET `name` = '黑暗豹' WHERE `id` = 14821;
-UPDATE `npc` SET `name` = '黑暗豹' WHERE `id` = 14822;
-UPDATE `npc` SET `name` = '黑暗豹' WHERE `id` = 14823;
-UPDATE `npc` SET `name` = '黑暗豹' WHERE `id` = 14824;
-UPDATE `npc` SET `name` = '黑暗豹' WHERE `id` = 14825;
-UPDATE `npc` SET `name` = '黑暗豹' WHERE `id` = 14826;
-UPDATE `npc` SET `name` = '黑暗豹' WHERE `id` = 14827;
-UPDATE `npc` SET `name` = '黑暗豹' WHERE `id` = 14828;
-UPDATE `npc` SET `name` = '黑暗豹' WHERE `id` = 14829;
-UPDATE `npc` SET `name` = '黑暗豹' WHERE `id` = 14830;
-UPDATE `npc` SET `name` = '黑暗豹' WHERE `id` = 14831;
-UPDATE `npc` SET `name` = '黑暗豹' WHERE `id` = 14832;
-UPDATE `npc` SET `name` = '黑暗豹' WHERE `id` = 14833;
-UPDATE `npc` SET `name` = '黑暗豹' WHERE `id` = 14834;
-UPDATE `npc` SET `name` = '黑暗豹' WHERE `id` = 14835;
-UPDATE `npc` SET `name` = '國王貓' WHERE `id` = 14836;
-UPDATE `npc` SET `name` = '輝煌獨角獸' WHERE `id` = 14837;
-UPDATE `npc` SET `name` = '幽冥之主' WHERE `id` = 14838;
-UPDATE `npc` SET `name` = '奇襲加農砲' WHERE `id` = 14839;
-UPDATE `npc` SET `name` = '奇襲加農砲' WHERE `id` = 14840;
-UPDATE `npc` SET `name` = '奇襲加農砲' WHERE `id` = 14841;
-UPDATE `npc` SET `name` = '奇襲加農砲' WHERE `id` = 14842;
-UPDATE `npc` SET `name` = '奇襲加農砲' WHERE `id` = 14843;
-UPDATE `npc` SET `name` = '奇襲加農砲' WHERE `id` = 14844;
-UPDATE `npc` SET `name` = '奇襲加農砲' WHERE `id` = 14845;
-UPDATE `npc` SET `name` = '奇襲加農砲' WHERE `id` = 14846;
-UPDATE `npc` SET `name` = '奇襲加農砲' WHERE `id` = 14847;
-UPDATE `npc` SET `name` = '奇襲加農砲' WHERE `id` = 14848;
-UPDATE `npc` SET `name` = '奇襲加農砲' WHERE `id` = 14849;
-UPDATE `npc` SET `name` = '奇襲加農砲' WHERE `id` = 14850;
-UPDATE `npc` SET `name` = '奇襲加農砲' WHERE `id` = 14851;
-UPDATE `npc` SET `name` = '奇襲加農砲' WHERE `id` = 14852;
-UPDATE `npc` SET `name` = '奇襲加農砲' WHERE `id` = 14853;
-UPDATE `npc` SET `name` = '奇襲加農砲' WHERE `id` = 14854;
-UPDATE `npc` SET `name` = '奇襲加農砲' WHERE `id` = 14855;
-UPDATE `npc` SET `name` = '奇襲加農砲' WHERE `id` = 14856;
-UPDATE `npc` SET `name` = '奇襲加農砲' WHERE `id` = 14857;
-UPDATE `npc` SET `name` = '奇襲加農砲' WHERE `id` = 14858;
-UPDATE `npc` SET `name` = '奇襲加農砲' WHERE `id` = 14859;
-UPDATE `npc` SET `name` = '奇襲加農砲' WHERE `id` = 14860;
-UPDATE `npc` SET `name` = '奇襲加農砲' WHERE `id` = 14861;
-UPDATE `npc` SET `name` = '奇襲加農砲' WHERE `id` = 14862;
-UPDATE `npc` SET `name` = '奇襲加農砲' WHERE `id` = 14863;
-UPDATE `npc` SET `name` = '奇襲加農砲' WHERE `id` = 14864;
-UPDATE `npc` SET `name` = '奇襲加農砲' WHERE `id` = 14865;
-UPDATE `npc` SET `name` = '奇襲加農砲' WHERE `id` = 14866;
-UPDATE `npc` SET `name` = '奇襲加農砲' WHERE `id` = 14867;
-UPDATE `npc` SET `name` = '奇襲加農砲' WHERE `id` = 14868;
-UPDATE `npc` SET `name` = '奇襲加農砲' WHERE `id` = 14869;
-UPDATE `npc` SET `name` = '聖恩獸' WHERE `id` = 14870;
-UPDATE `npc` SET `name` = '國王貓' WHERE `id` = 14871;
-UPDATE `npc` SET `name` = '國王貓' WHERE `id` = 14872;
-UPDATE `npc` SET `name` = '國王貓' WHERE `id` = 14873;
-UPDATE `npc` SET `name` = '國王貓' WHERE `id` = 14874;
-UPDATE `npc` SET `name` = '國王貓' WHERE `id` = 14875;
-UPDATE `npc` SET `name` = '國王貓' WHERE `id` = 14876;
-UPDATE `npc` SET `name` = '國王貓' WHERE `id` = 14877;
-UPDATE `npc` SET `name` = '國王貓' WHERE `id` = 14878;
-UPDATE `npc` SET `name` = '國王貓' WHERE `id` = 14879;
-UPDATE `npc` SET `name` = '國王貓' WHERE `id` = 14880;
-UPDATE `npc` SET `name` = '國王貓' WHERE `id` = 14881;
-UPDATE `npc` SET `name` = '國王貓' WHERE `id` = 14882;
-UPDATE `npc` SET `name` = '國王貓' WHERE `id` = 14883;
-UPDATE `npc` SET `name` = '國王貓' WHERE `id` = 14884;
-UPDATE `npc` SET `name` = '國王貓' WHERE `id` = 14885;
-UPDATE `npc` SET `name` = '輝煌獨角獸' WHERE `id` = 14886;
-UPDATE `npc` SET `name` = '輝煌獨角獸' WHERE `id` = 14887;
-UPDATE `npc` SET `name` = '輝煌獨角獸' WHERE `id` = 14888;
-UPDATE `npc` SET `name` = '輝煌獨角獸' WHERE `id` = 14889;
-UPDATE `npc` SET `name` = '輝煌獨角獸' WHERE `id` = 14890;
-UPDATE `npc` SET `name` = '輝煌獨角獸' WHERE `id` = 14891;
-UPDATE `npc` SET `name` = '輝煌獨角獸' WHERE `id` = 14892;
-UPDATE `npc` SET `name` = '輝煌獨角獸' WHERE `id` = 14893;
-UPDATE `npc` SET `name` = '輝煌獨角獸' WHERE `id` = 14894;
-UPDATE `npc` SET `name` = '輝煌獨角獸' WHERE `id` = 14895;
-UPDATE `npc` SET `name` = '輝煌獨角獸' WHERE `id` = 14896;
-UPDATE `npc` SET `name` = '輝煌獨角獸' WHERE `id` = 14897;
-UPDATE `npc` SET `name` = '輝煌獨角獸' WHERE `id` = 14898;
-UPDATE `npc` SET `name` = '輝煌獨角獸' WHERE `id` = 14899;
-UPDATE `npc` SET `name` = '輝煌獨角獸' WHERE `id` = 14900;
-UPDATE `npc` SET `name` = '幽冥之主' WHERE `id` = 14901;
-UPDATE `npc` SET `name` = '幽冥之主' WHERE `id` = 14902;
-UPDATE `npc` SET `name` = '幽冥之主' WHERE `id` = 14903;
-UPDATE `npc` SET `name` = '幽冥之主' WHERE `id` = 14904;
-UPDATE `npc` SET `name` = '幽冥之主' WHERE `id` = 14905;
-UPDATE `npc` SET `name` = '幽冥之主' WHERE `id` = 14906;
-UPDATE `npc` SET `name` = '幽冥之主' WHERE `id` = 14907;
-UPDATE `npc` SET `name` = '幽冥之主' WHERE `id` = 14908;
-UPDATE `npc` SET `name` = '幽冥之主' WHERE `id` = 14909;
-UPDATE `npc` SET `name` = '幽冥之主' WHERE `id` = 14910;
-UPDATE `npc` SET `name` = '幽冥之主' WHERE `id` = 14911;
-UPDATE `npc` SET `name` = '幽冥之主' WHERE `id` = 14912;
-UPDATE `npc` SET `name` = '幽冥之主' WHERE `id` = 14913;
-UPDATE `npc` SET `name` = '幽冥之主' WHERE `id` = 14914;
-UPDATE `npc` SET `name` = '幽冥之主' WHERE `id` = 14915;
-UPDATE `npc` SET `name` = '底格里斯' WHERE `id` = 14916;
-UPDATE `npc` SET `name` = '底格里斯' WHERE `id` = 14917;
-UPDATE `npc` SET `name` = '小鳳凰' WHERE `id` = 14918;
-UPDATE `npc` SET `name` = '馴化野牛' WHERE `id` = 16013;
-UPDATE `npc` SET `name` = '馴化野牛' WHERE `id` = 16014;
-UPDATE `npc` SET `name` = '馴化老虎' WHERE `id` = 16015;
-UPDATE `npc` SET `name` = '馴化老虎' WHERE `id` = 16016;
-UPDATE `npc` SET `name` = '馴化笑翠鳥' WHERE `id` = 16017;
-UPDATE `npc` SET `name` = '馴化笑翠鳥' WHERE `id` = 16018;
-UPDATE `npc` SET `name` = '幼小野牛' WHERE `id` = 16019;
-UPDATE `npc` SET `name` = '馴化幼小野牛' WHERE `id` = 16020;
-UPDATE `npc` SET `name` = '幼小老虎' WHERE `id` = 16021;
-UPDATE `npc` SET `name` = '馴化幼小老虎' WHERE `id` = 16022;
-UPDATE `npc` SET `name` = '幼小笑翠鳥' WHERE `id` = 16023;
-UPDATE `npc` SET `name` = '馴化幼小笑翠鳥' WHERE `id` = 16024;
-UPDATE `npc` SET `name` = '黑鬃狼' WHERE `id` = 16025;
-UPDATE `npc` SET `name` = '野獸農莊壺精' WHERE `id` = 16026;
-UPDATE `npc` SET `name` = '虹彩根據地壺精' WHERE `id` = 16027;
-UPDATE `npc` SET `name` = '城主壺精' WHERE `id` = 16028;
-UPDATE `npc` SET `name` = '要塞壺精' WHERE `id` = 16029;
-UPDATE `npc` SET `name` = '黑鬃狼' WHERE `id` = 16030;
-UPDATE `npc` SET `name` = '小天使壺精' WHERE `id` = 16031;
-UPDATE `npc` SET `name` = '小惡魔壺精' WHERE `id` = 16032;
-UPDATE `npc` SET `name` = '魯道夫壺精' WHERE `id` = 16033;
-UPDATE `npc` SET `name` = '改良型小野牛' WHERE `id` = 16034;
-UPDATE `npc` SET `name` = '改良型小笑翠鳥' WHERE `id` = 16035;
-UPDATE `npc` SET `name` = '改良型小老虎' WHERE `id` = 16036;
-UPDATE `npc` SET `name` = '白鬃狼' WHERE `id` = 16037;
-UPDATE `npc` SET `name` = '赤紅風座龍' WHERE `id` = 16038;
-UPDATE `npc` SET `name` = '赤紅星座龍' WHERE `id` = 16039;
-UPDATE `npc` SET `name` = '赤紅黃昏座龍' WHERE `id` = 16040;
-UPDATE `npc` SET `name` = '座狼' WHERE `id` = 16041;
-UPDATE `npc` SET `name` = '白座狼' WHERE `id` = 16042;
-UPDATE `npc` SET `name` = '狐貍術士　' WHERE `id` = 16043;
-UPDATE `npc` SET `name` = '野獸鬥士' WHERE `id` = 16044;
-UPDATE `npc` SET `name` = '鼬' WHERE `id` = 16045;
-UPDATE `npc` SET `name` = '妖精公主' WHERE `id` = 16046;
-UPDATE `npc` SET `name` = '愛心壺精' WHERE `id` = 16049;
-UPDATE `npc` SET `name` = '貓頭鷹術士' WHERE `id` = 16050;
-UPDATE `npc` SET `name` = '精靈術士' WHERE `id` = 16051;
-UPDATE `npc` SET `name` = '玩偶騎士' WHERE `id` = 16052;
-UPDATE `npc` SET `name` = '烏龜道士' WHERE `id` = 16053;
-UPDATE `npc` SET `name` = '猴' WHERE `id` = 16054;
-UPDATE `npc` SET `name` = '獅鷲' WHERE `id` = 16055;
-UPDATE `npc` SET `name` = '喜悅' WHERE `id` = 16056;
-UPDATE `npc` SET `name` = '悲傷' WHERE `id` = 16057;
-UPDATE `npc` SET `name` = '憤怒' WHERE `id` = 16058;
-UPDATE `npc` SET `name` = '男熊' WHERE `id` = 16059;
-UPDATE `npc` SET `name` = '女熊' WHERE `id` = 16060;
-UPDATE `npc` SET `name` = '採集裝置' WHERE `id` = 16061;
-UPDATE `npc` SET `name` = '騎士' WHERE `id` = 16062;
-UPDATE `npc` SET `name` = '新羅' WHERE `id` = 16063;
-UPDATE `npc` SET `name` = '啾啾' WHERE `id` = 16064;
-UPDATE `npc` SET `name` = '血之女王' WHERE `id` = 18001;
-UPDATE `npc` SET `name` = '血之女王' WHERE `id` = 18002;
-UPDATE `npc` SET `name` = '尼比特狐狗' WHERE `id` = 18003;
-UPDATE `npc` SET `name` = '基座原型' WHERE `id` = 18004;
-UPDATE `npc` SET `name` = '擬身怪' WHERE `id` = 18005;
-UPDATE `npc` SET `name` = '瑪魯克王' WHERE `id` = 18006;
-UPDATE `npc` SET `name` = '黎瑪卡霖尼司' WHERE `id` = 18007;
-UPDATE `npc` SET `name` = '卡拉克' WHERE `id` = 18008;
-UPDATE `npc` SET `name` = '烙印的祭物首領' WHERE `id` = 18009;
-UPDATE `npc` SET `name` = '烙印的祭物' WHERE `id` = 18010;
-UPDATE `npc` SET `name` = '烙印的祭物弓箭手' WHERE `id` = 18011;
-UPDATE `npc` SET `name` = '烙印的祭物戰士' WHERE `id` = 18012;
-UPDATE `npc` SET `name` = '烙印的祭物信徒' WHERE `id` = 18013;
-UPDATE `npc` SET `name` = '烙印的祭物狂戰士' WHERE `id` = 18014;
-UPDATE `npc` SET `name` = '烙印的祭物狂信者' WHERE `id` = 18015;
-UPDATE `npc` SET `name` = '烙印的祭物狙擊兵' WHERE `id` = 18016;
-UPDATE `npc` SET `name` = '烙印的祭物使徒' WHERE `id` = 18017;
-UPDATE `npc` SET `name` = '烙印的祭物聖者' WHERE `id` = 18018;
-UPDATE `npc` SET `name` = '叛教的祭物首領' WHERE `id` = 18019;
-UPDATE `npc` SET `name` = '叛教的祭物' WHERE `id` = 18020;
-UPDATE `npc` SET `name` = '叛教的祭物弓箭手' WHERE `id` = 18021;
-UPDATE `npc` SET `name` = '叛教的祭物戰士' WHERE `id` = 18022;
-UPDATE `npc` SET `name` = '叛教的祭物信徒' WHERE `id` = 18023;
-UPDATE `npc` SET `name` = '叛教的祭物狂戰士' WHERE `id` = 18024;
-UPDATE `npc` SET `name` = '叛教的祭物狂信者' WHERE `id` = 18025;
-UPDATE `npc` SET `name` = '叛教的祭物狙擊兵' WHERE `id` = 18026;
-UPDATE `npc` SET `name` = '叛教的祭物使徒' WHERE `id` = 18027;
-UPDATE `npc` SET `name` = '叛教的祭物聖者' WHERE `id` = 18028;
-UPDATE `npc` SET `name` = '魔道的祭物首領' WHERE `id` = 18029;
-UPDATE `npc` SET `name` = '魔道的祭物' WHERE `id` = 18030;
-UPDATE `npc` SET `name` = '魔道的祭物弓箭手' WHERE `id` = 18031;
-UPDATE `npc` SET `name` = '魔道的祭物戰士' WHERE `id` = 18032;
-UPDATE `npc` SET `name` = '魔道的祭物信徒' WHERE `id` = 18033;
-UPDATE `npc` SET `name` = '魔道的祭物狂戰士' WHERE `id` = 18034;
-UPDATE `npc` SET `name` = '魔道的祭物狂信者' WHERE `id` = 18035;
-UPDATE `npc` SET `name` = '魔道的祭物狙擊兵' WHERE `id` = 18036;
-UPDATE `npc` SET `name` = '魔道的祭物使徒' WHERE `id` = 18037;
-UPDATE `npc` SET `name` = '魔道的祭物聖者' WHERE `id` = 18038;
-UPDATE `npc` SET `name` = '凶煞的祭物首領' WHERE `id` = 18039;
-UPDATE `npc` SET `name` = '凶煞的祭物' WHERE `id` = 18040;
-UPDATE `npc` SET `name` = '凶煞的祭物弓箭手' WHERE `id` = 18041;
-UPDATE `npc` SET `name` = '凶煞的祭物戰士' WHERE `id` = 18042;
-UPDATE `npc` SET `name` = '凶煞的祭物信徒' WHERE `id` = 18043;
-UPDATE `npc` SET `name` = '凶煞的祭物狂戰士' WHERE `id` = 18044;
-UPDATE `npc` SET `name` = '凶煞的祭物狂信者' WHERE `id` = 18045;
-UPDATE `npc` SET `name` = '凶煞的祭物狙擊兵' WHERE `id` = 18046;
-UPDATE `npc` SET `name` = '凶煞的祭物使徒' WHERE `id` = 18047;
-UPDATE `npc` SET `name` = '凶煞的祭物聖者' WHERE `id` = 18048;
-UPDATE `npc` SET `name` = '密謀者的祭物首領' WHERE `id` = 18049;
-UPDATE `npc` SET `name` = '密謀者的祭物' WHERE `id` = 18050;
-UPDATE `npc` SET `name` = '密謀者的祭物弓箭手' WHERE `id` = 18051;
-UPDATE `npc` SET `name` = '密謀者的祭物戰士' WHERE `id` = 18052;
-UPDATE `npc` SET `name` = '密謀者的祭物信徒' WHERE `id` = 18053;
-UPDATE `npc` SET `name` = '密謀者的祭物狂戰士' WHERE `id` = 18054;
-UPDATE `npc` SET `name` = '密謀者的祭物狂信者' WHERE `id` = 18055;
-UPDATE `npc` SET `name` = '密謀者的祭物狙擊兵' WHERE `id` = 18056;
-UPDATE `npc` SET `name` = '密謀者的祭物使徒' WHERE `id` = 18057;
-UPDATE `npc` SET `name` = '密謀者的祭物聖者' WHERE `id` = 18058;
-UPDATE `npc` SET `name` = '烙印的祭物首領' WHERE `id` = 18059;
-UPDATE `npc` SET `name` = '烙印的祭物' WHERE `id` = 18060;
-UPDATE `npc` SET `name` = '烙印的祭物弓箭手' WHERE `id` = 18061;
-UPDATE `npc` SET `name` = '烙印的祭物戰士' WHERE `id` = 18062;
-UPDATE `npc` SET `name` = '烙印的祭物信徒' WHERE `id` = 18063;
-UPDATE `npc` SET `name` = '烙印的祭物狂戰士' WHERE `id` = 18064;
-UPDATE `npc` SET `name` = '烙印的祭物狂信者' WHERE `id` = 18065;
-UPDATE `npc` SET `name` = '烙印的祭物狙擊兵' WHERE `id` = 18066;
-UPDATE `npc` SET `name` = '烙印的祭物使徒' WHERE `id` = 18067;
-UPDATE `npc` SET `name` = '烙印的祭物聖者' WHERE `id` = 18068;
-UPDATE `npc` SET `name` = '叛教的祭物首領' WHERE `id` = 18069;
-UPDATE `npc` SET `name` = '叛教的祭物' WHERE `id` = 18070;
-UPDATE `npc` SET `name` = '叛教的祭物弓箭手' WHERE `id` = 18071;
-UPDATE `npc` SET `name` = '叛教的祭物戰士' WHERE `id` = 18072;
-UPDATE `npc` SET `name` = '叛教的祭物信徒' WHERE `id` = 18073;
-UPDATE `npc` SET `name` = '叛教的祭物狂戰士' WHERE `id` = 18074;
-UPDATE `npc` SET `name` = '叛教的祭物狂信者' WHERE `id` = 18075;
-UPDATE `npc` SET `name` = '叛教的祭物狙擊兵' WHERE `id` = 18076;
-UPDATE `npc` SET `name` = '叛教的祭物使徒' WHERE `id` = 18077;
-UPDATE `npc` SET `name` = '叛教的祭物聖者' WHERE `id` = 18078;
-UPDATE `npc` SET `name` = '魔道的祭物首領' WHERE `id` = 18079;
-UPDATE `npc` SET `name` = '魔道的祭物' WHERE `id` = 18080;
-UPDATE `npc` SET `name` = '魔道的祭物弓箭手' WHERE `id` = 18081;
-UPDATE `npc` SET `name` = '魔道的祭物戰士' WHERE `id` = 18082;
-UPDATE `npc` SET `name` = '魔道的祭物信徒' WHERE `id` = 18083;
-UPDATE `npc` SET `name` = '魔道的祭物狂戰士' WHERE `id` = 18084;
-UPDATE `npc` SET `name` = '魔道的祭物狂信者' WHERE `id` = 18085;
-UPDATE `npc` SET `name` = '魔道的祭物狙擊兵' WHERE `id` = 18086;
-UPDATE `npc` SET `name` = '魔道的祭物使徒' WHERE `id` = 18087;
-UPDATE `npc` SET `name` = '魔道的祭物聖者' WHERE `id` = 18088;
-UPDATE `npc` SET `name` = '凶煞的祭物首領' WHERE `id` = 18089;
-UPDATE `npc` SET `name` = '凶煞的祭物' WHERE `id` = 18090;
-UPDATE `npc` SET `name` = '凶煞的祭物弓箭手' WHERE `id` = 18091;
-UPDATE `npc` SET `name` = '凶煞的祭物戰士' WHERE `id` = 18092;
-UPDATE `npc` SET `name` = '凶煞的祭物信徒' WHERE `id` = 18093;
-UPDATE `npc` SET `name` = '凶煞的祭物狂戰士' WHERE `id` = 18094;
-UPDATE `npc` SET `name` = '凶煞的祭物狂信者' WHERE `id` = 18095;
-UPDATE `npc` SET `name` = '凶煞的祭物狙擊兵' WHERE `id` = 18096;
-UPDATE `npc` SET `name` = '凶煞的祭物使徒' WHERE `id` = 18097;
-UPDATE `npc` SET `name` = '凶煞的祭物聖者' WHERE `id` = 18098;
-UPDATE `npc` SET `name` = '密謀者的祭物首領' WHERE `id` = 18099;
-UPDATE `npc` SET `name` = '密謀者的祭物' WHERE `id` = 18100;
-UPDATE `npc` SET `name` = '密謀者的祭物弓箭手' WHERE `id` = 18101;
-UPDATE `npc` SET `name` = '密謀者的祭物戰士' WHERE `id` = 18102;
-UPDATE `npc` SET `name` = '密謀者的祭物信徒' WHERE `id` = 18103;
-UPDATE `npc` SET `name` = '密謀者的祭物狂戰士' WHERE `id` = 18104;
-UPDATE `npc` SET `name` = '密謀者的祭物狂信者' WHERE `id` = 18105;
-UPDATE `npc` SET `name` = '密謀者的祭物狙擊兵' WHERE `id` = 18106;
-UPDATE `npc` SET `name` = '密謀者的祭物使徒' WHERE `id` = 18107;
-UPDATE `npc` SET `name` = '密謀者的祭物聖者' WHERE `id` = 18108;
-UPDATE `npc` SET `name` = '祭典的寶藏' WHERE `id` = 18109;
-UPDATE `npc` SET `name` = '祭典的寶藏' WHERE `id` = 18110;
-UPDATE `npc` SET `name` = '祭典的寶藏' WHERE `id` = 18111;
-UPDATE `npc` SET `name` = '祭典的寶藏' WHERE `id` = 18112;
-UPDATE `npc` SET `name` = '祭典的寶藏' WHERE `id` = 18113;
-UPDATE `npc` SET `name` = '祭典的寶藏' WHERE `id` = 18114;
-UPDATE `npc` SET `name` = '祭典的寶藏' WHERE `id` = 18115;
-UPDATE `npc` SET `name` = '祭典的寶藏' WHERE `id` = 18116;
-UPDATE `npc` SET `name` = '祭典的寶藏' WHERE `id` = 18117;
-UPDATE `npc` SET `name` = '祭典的寶藏' WHERE `id` = 18118;
-UPDATE `npc` SET `name` = '死者的屍體' WHERE `id` = 18119;
-UPDATE `npc` SET `name` = '哈里夏的武官' WHERE `id` = 18120;
-UPDATE `npc` SET `name` = '哈里夏的武官' WHERE `id` = 18121;
-UPDATE `npc` SET `name` = '哈里夏的武官' WHERE `id` = 18122;
-UPDATE `npc` SET `name` = '哈里夏的武官' WHERE `id` = 18123;
-UPDATE `npc` SET `name` = '哈里夏的武官' WHERE `id` = 18124;
-UPDATE `npc` SET `name` = '哈里夏的武官' WHERE `id` = 18125;
-UPDATE `npc` SET `name` = '哈里夏的武官' WHERE `id` = 18126;
-UPDATE `npc` SET `name` = '哈里夏的武官' WHERE `id` = 18127;
-UPDATE `npc` SET `name` = '哈里夏的武官' WHERE `id` = 18128;
-UPDATE `npc` SET `name` = '哈里夏的武官' WHERE `id` = 18129;
-UPDATE `npc` SET `name` = '哈里夏的武官' WHERE `id` = 18130;
-UPDATE `npc` SET `name` = '哈里夏的武官' WHERE `id` = 18131;
-UPDATE `npc` SET `name` = '皇家御醫' WHERE `id` = 18132;
-UPDATE `npc` SET `name` = '皇家瑪賽伊克' WHERE `id` = 18133;
-UPDATE `npc` SET `name` = '皇家瑪賽伊克' WHERE `id` = 18134;
-UPDATE `npc` SET `name` = '皇家瑪賽伊克' WHERE `id` = 18135;
-UPDATE `npc` SET `name` = '皇家瑪賽伊克' WHERE `id` = 18136;
-UPDATE `npc` SET `name` = '皇家瑪賽伊克' WHERE `id` = 18137;
-UPDATE `npc` SET `name` = '皇家瑪賽伊克' WHERE `id` = 18138;
-UPDATE `npc` SET `name` = '皇家瑪賽伊克' WHERE `id` = 18139;
-UPDATE `npc` SET `name` = '皇家瑪賽伊克' WHERE `id` = 18140;
-UPDATE `npc` SET `name` = '墓地甲蟲' WHERE `id` = 18141;
-UPDATE `npc` SET `name` = '墓地甲蟲' WHERE `id` = 18142;
-UPDATE `npc` SET `name` = '墓地甲蟲' WHERE `id` = 18143;
-UPDATE `npc` SET `name` = '墓地甲蟲' WHERE `id` = 18144;
-UPDATE `npc` SET `name` = '墓地甲蟲' WHERE `id` = 18145;
-UPDATE `npc` SET `name` = '墓地甲蟲' WHERE `id` = 18146;
-UPDATE `npc` SET `name` = '墓地甲蟲' WHERE `id` = 18147;
-UPDATE `npc` SET `name` = '墓地甲蟲' WHERE `id` = 18148;
-UPDATE `npc` SET `name` = '墓地甲蟲' WHERE `id` = 18149;
-UPDATE `npc` SET `name` = '獻祭者' WHERE `id` = 18150;
-UPDATE `npc` SET `name` = '獻祭者' WHERE `id` = 18151;
-UPDATE `npc` SET `name` = '獻祭者' WHERE `id` = 18152;
-UPDATE `npc` SET `name` = '獻祭者' WHERE `id` = 18153;
-UPDATE `npc` SET `name` = '獻祭者' WHERE `id` = 18154;
-UPDATE `npc` SET `name` = '獻祭者' WHERE `id` = 18155;
-UPDATE `npc` SET `name` = '獻祭者' WHERE `id` = 18156;
-UPDATE `npc` SET `name` = '獻祭者' WHERE `id` = 18157;
-UPDATE `npc` SET `name` = '哈里夏執行者' WHERE `id` = 18158;
-UPDATE `npc` SET `name` = '哈里夏執行者' WHERE `id` = 18159;
-UPDATE `npc` SET `name` = '哈里夏執行者' WHERE `id` = 18160;
-UPDATE `npc` SET `name` = '哈里夏執行者' WHERE `id` = 18161;
-UPDATE `npc` SET `name` = '哈里夏執行者' WHERE `id` = 18162;
-UPDATE `npc` SET `name` = '哈里夏執行者' WHERE `id` = 18163;
-UPDATE `npc` SET `name` = '哈里夏執行者' WHERE `id` = 18164;
-UPDATE `npc` SET `name` = '哈里夏執行者' WHERE `id` = 18165;
-UPDATE `npc` SET `name` = '皇家禁衛隊' WHERE `id` = 18166;
-UPDATE `npc` SET `name` = '皇家禁衛隊' WHERE `id` = 18167;
-UPDATE `npc` SET `name` = '皇家禁衛隊' WHERE `id` = 18168;
-UPDATE `npc` SET `name` = '皇家禁衛隊' WHERE `id` = 18169;
-UPDATE `npc` SET `name` = '皇家禁衛隊' WHERE `id` = 18170;
-UPDATE `npc` SET `name` = '皇家禁衛隊' WHERE `id` = 18171;
-UPDATE `npc` SET `name` = '皇家禁衛隊' WHERE `id` = 18172;
-UPDATE `npc` SET `name` = '哈里夏監督官' WHERE `id` = 18173;
-UPDATE `npc` SET `name` = '哈里夏監督官' WHERE `id` = 18174;
-UPDATE `npc` SET `name` = '哈里夏監督官' WHERE `id` = 18175;
-UPDATE `npc` SET `name` = '哈里夏監督官' WHERE `id` = 18176;
-UPDATE `npc` SET `name` = '哈里夏監督官' WHERE `id` = 18177;
-UPDATE `npc` SET `name` = '哈里夏監督官' WHERE `id` = 18178;
-UPDATE `npc` SET `name` = '哈里夏監督官' WHERE `id` = 18179;
-UPDATE `npc` SET `name` = '哈里夏監督官' WHERE `id` = 18180;
-UPDATE `npc` SET `name` = '哈里夏監督官' WHERE `id` = 18181;
-UPDATE `npc` SET `name` = '哈里夏監督官' WHERE `id` = 18182;
-UPDATE `npc` SET `name` = '哈里夏監督官' WHERE `id` = 18183;
-UPDATE `npc` SET `name` = '哈里夏監督官' WHERE `id` = 18184;
-UPDATE `npc` SET `name` = '魔之占星術士' WHERE `id` = 18185;
-UPDATE `npc` SET `name` = '魔之占星術士' WHERE `id` = 18186;
-UPDATE `npc` SET `name` = '暗黑的騎士' WHERE `id` = 18187;
-UPDATE `npc` SET `name` = '暗黑的騎士' WHERE `id` = 18188;
-UPDATE `npc` SET `name` = '暗黑的騎士' WHERE `id` = 18189;
-UPDATE `npc` SET `name` = '暗黑的騎士' WHERE `id` = 18190;
-UPDATE `npc` SET `name` = '飛塵的魔女' WHERE `id` = 18191;
-UPDATE `npc` SET `name` = '飛塵的魔女' WHERE `id` = 18192;
-UPDATE `npc` SET `name` = '飛塵的魔女' WHERE `id` = 18193;
-UPDATE `npc` SET `name` = '飛塵的魔女' WHERE `id` = 18194;
-UPDATE `npc` SET `name` = '皇帝的印記' WHERE `id` = 18195;
-UPDATE `npc` SET `name` = '角落的符咒' WHERE `id` = 18196;
-UPDATE `npc` SET `name` = '角落的符咒' WHERE `id` = 18197;
-UPDATE `npc` SET `name` = '角落的符咒' WHERE `id` = 18198;
-UPDATE `npc` SET `name` = '角落的符咒' WHERE `id` = 18199;
-UPDATE `npc` SET `name` = '角落的符咒' WHERE `id` = 18200;
-UPDATE `npc` SET `name` = '角落的符咒' WHERE `id` = 18201;
-UPDATE `npc` SET `name` = '角落的符咒' WHERE `id` = 18202;
-UPDATE `npc` SET `name` = '角落的符咒' WHERE `id` = 18203;
-UPDATE `npc` SET `name` = '角落的符咒' WHERE `id` = 18204;
-UPDATE `npc` SET `name` = '角落的符咒' WHERE `id` = 18205;
-UPDATE `npc` SET `name` = '角落的符咒' WHERE `id` = 18206;
-UPDATE `npc` SET `name` = '角落的符咒' WHERE `id` = 18207;
-UPDATE `npc` SET `name` = '角落的符咒' WHERE `id` = 18208;
-UPDATE `npc` SET `name` = '角落的符咒' WHERE `id` = 18209;
-UPDATE `npc` SET `name` = '角落的符咒' WHERE `id` = 18210;
-UPDATE `npc` SET `name` = '角落的符咒' WHERE `id` = 18211;
-UPDATE `npc` SET `name` = '哈里夏統治者' WHERE `id` = 18212;
-UPDATE `npc` SET `name` = '哈里夏統治者' WHERE `id` = 18213;
-UPDATE `npc` SET `name` = '哈里夏統治者' WHERE `id` = 18214;
-UPDATE `npc` SET `name` = '哈里夏統治者' WHERE `id` = 18215;
-UPDATE `npc` SET `name` = '哈里夏統治者' WHERE `id` = 18216;
-UPDATE `npc` SET `name` = '哈里夏統治者' WHERE `id` = 18217;
-UPDATE `npc` SET `name` = '哈里夏統治者' WHERE `id` = 18218;
-UPDATE `npc` SET `name` = '哈里夏統治者' WHERE `id` = 18219;
-UPDATE `npc` SET `name` = '黑暗的巫女' WHERE `id` = 18220;
-UPDATE `npc` SET `name` = '黑暗的巫女' WHERE `id` = 18221;
-UPDATE `npc` SET `name` = '黑暗的暗殺者' WHERE `id` = 18222;
-UPDATE `npc` SET `name` = '黑暗的暗殺者' WHERE `id` = 18223;
-UPDATE `npc` SET `name` = '黑暗的暗殺者' WHERE `id` = 18224;
-UPDATE `npc` SET `name` = '黑暗的暗殺者' WHERE `id` = 18225;
-UPDATE `npc` SET `name` = '黑暗的詩讚者' WHERE `id` = 18226;
-UPDATE `npc` SET `name` = '黑暗的詩讚者' WHERE `id` = 18227;
-UPDATE `npc` SET `name` = '黑暗的詩讚者' WHERE `id` = 18228;
-UPDATE `npc` SET `name` = '黑暗的詩讚者' WHERE `id` = 18229;
-UPDATE `npc` SET `name` = '皇帝的印記' WHERE `id` = 18230;
-UPDATE `npc` SET `name` = '守護神像' WHERE `id` = 18231;
-UPDATE `npc` SET `name` = '守護神像' WHERE `id` = 18232;
-UPDATE `npc` SET `name` = '守護神像' WHERE `id` = 18233;
-UPDATE `npc` SET `name` = '守護神像' WHERE `id` = 18234;
-UPDATE `npc` SET `name` = '守護神像' WHERE `id` = 18235;
-UPDATE `npc` SET `name` = '守護神像' WHERE `id` = 18236;
-UPDATE `npc` SET `name` = '守護神像' WHERE `id` = 18237;
-UPDATE `npc` SET `name` = '守護神像' WHERE `id` = 18238;
-UPDATE `npc` SET `name` = '守護神像' WHERE `id` = 18239;
-UPDATE `npc` SET `name` = '守護神像' WHERE `id` = 18240;
-UPDATE `npc` SET `name` = '守護神像' WHERE `id` = 18241;
-UPDATE `npc` SET `name` = '守護神像' WHERE `id` = 18242;
-UPDATE `npc` SET `name` = '守護神像' WHERE `id` = 18243;
-UPDATE `npc` SET `name` = '墓穴監視者' WHERE `id` = 18244;
-UPDATE `npc` SET `name` = '墓穴監視者' WHERE `id` = 18245;
-UPDATE `npc` SET `name` = '墓穴監視者' WHERE `id` = 18246;
-UPDATE `npc` SET `name` = '墓穴監視者' WHERE `id` = 18247;
-UPDATE `npc` SET `name` = '墓穴監視者' WHERE `id` = 18248;
-UPDATE `npc` SET `name` = '墓穴監視者' WHERE `id` = 18249;
-UPDATE `npc` SET `name` = '墓穴監視者' WHERE `id` = 18250;
-UPDATE `npc` SET `name` = '墓穴監視者' WHERE `id` = 18251;
-UPDATE `npc` SET `name` = '墓穴監視者' WHERE `id` = 18252;
-UPDATE `npc` SET `name` = '墓穴監視者' WHERE `id` = 18253;
-UPDATE `npc` SET `name` = '墓穴監視者' WHERE `id` = 18254;
-UPDATE `npc` SET `name` = '墓穴監視者' WHERE `id` = 18255;
-UPDATE `npc` SET `name` = '哈里夏的寶箱' WHERE `id` = 18256;
-UPDATE `npc` SET `name` = '寶箱' WHERE `id` = 18257;
-UPDATE `npc` SET `name` = '寶箱' WHERE `id` = 18258;
-UPDATE `npc` SET `name` = '寶箱' WHERE `id` = 18259;
-UPDATE `npc` SET `name` = '寶箱' WHERE `id` = 18260;
-UPDATE `npc` SET `name` = '寶箱' WHERE `id` = 18261;
-UPDATE `npc` SET `name` = '寶箱' WHERE `id` = 18262;
-UPDATE `npc` SET `name` = '寶箱' WHERE `id` = 18263;
-UPDATE `npc` SET `name` = '寶箱' WHERE `id` = 18264;
-UPDATE `npc` SET `name` = '寶箱' WHERE `id` = 18265;
-UPDATE `npc` SET `name` = '寶箱' WHERE `id` = 18266;
-UPDATE `npc` SET `name` = '寶箱' WHERE `id` = 18267;
-UPDATE `npc` SET `name` = '寶箱' WHERE `id` = 18268;
-UPDATE `npc` SET `name` = '寶箱' WHERE `id` = 18269;
-UPDATE `npc` SET `name` = '寶箱' WHERE `id` = 18270;
-UPDATE `npc` SET `name` = '寶箱' WHERE `id` = 18271;
-UPDATE `npc` SET `name` = '寶箱' WHERE `id` = 18272;
-UPDATE `npc` SET `name` = '寶箱' WHERE `id` = 18273;
-UPDATE `npc` SET `name` = '寶箱' WHERE `id` = 18274;
-UPDATE `npc` SET `name` = '寶箱' WHERE `id` = 18275;
-UPDATE `npc` SET `name` = '寶箱' WHERE `id` = 18276;
-UPDATE `npc` SET `name` = '寶箱' WHERE `id` = 18277;
-UPDATE `npc` SET `name` = '寶箱' WHERE `id` = 18278;
-UPDATE `npc` SET `name` = '寶箱' WHERE `id` = 18279;
-UPDATE `npc` SET `name` = '寶箱' WHERE `id` = 18280;
-UPDATE `npc` SET `name` = '寶箱' WHERE `id` = 18281;
-UPDATE `npc` SET `name` = '寶箱' WHERE `id` = 18282;
-UPDATE `npc` SET `name` = '寶箱' WHERE `id` = 18283;
-UPDATE `npc` SET `name` = '寶箱' WHERE `id` = 18284;
-UPDATE `npc` SET `name` = '寶箱' WHERE `id` = 18285;
-UPDATE `npc` SET `name` = '寶箱' WHERE `id` = 18286;
-UPDATE `npc` SET `name` = '異界的侵略軍軍糧' WHERE `id` = 18287;
-UPDATE `npc` SET `name` = '異界的侵略軍軍糧' WHERE `id` = 18288;
-UPDATE `npc` SET `name` = '次元的侵略軍軍糧' WHERE `id` = 18289;
-UPDATE `npc` SET `name` = '次元的侵略軍軍糧' WHERE `id` = 18290;
-UPDATE `npc` SET `name` = '煉獄的侵略軍軍糧' WHERE `id` = 18291;
-UPDATE `npc` SET `name` = '煉獄的侵略軍軍糧' WHERE `id` = 18292;
-UPDATE `npc` SET `name` = '密謀者的侵略軍軍糧' WHERE `id` = 18293;
-UPDATE `npc` SET `name` = '密謀者的侵略軍軍糧' WHERE `id` = 18294;
-UPDATE `npc` SET `name` = '凶煞的侵略軍軍糧' WHERE `id` = 18295;
-UPDATE `npc` SET `name` = '凶煞的侵略軍軍糧' WHERE `id` = 18296;
-UPDATE `npc` SET `name` = '邪神的侵略軍軍糧' WHERE `id` = 18297;
-UPDATE `npc` SET `name` = '邪神的侵略軍軍糧' WHERE `id` = 18298;
-UPDATE `npc` SET `name` = '烙印之火' WHERE `id` = 18299;
-UPDATE `npc` SET `name` = '烙印祭物降靈術士' WHERE `id` = 18300;
-UPDATE `npc` SET `name` = '叛教之火' WHERE `id` = 18301;
-UPDATE `npc` SET `name` = '叛教祭物降靈術士' WHERE `id` = 18302;
-UPDATE `npc` SET `name` = '魔道之火' WHERE `id` = 18303;
-UPDATE `npc` SET `name` = '魔道祭物降靈術士' WHERE `id` = 18304;
-UPDATE `npc` SET `name` = '凶煞之火' WHERE `id` = 18305;
-UPDATE `npc` SET `name` = '凶煞祭物降靈術士' WHERE `id` = 18306;
-UPDATE `npc` SET `name` = '密謀之火' WHERE `id` = 18307;
-UPDATE `npc` SET `name` = '密謀祭物降靈術士' WHERE `id` = 18308;
-UPDATE `npc` SET `name` = '烙印之火' WHERE `id` = 18309;
-UPDATE `npc` SET `name` = '烙印祭物降靈術士' WHERE `id` = 18310;
-UPDATE `npc` SET `name` = '叛教之火' WHERE `id` = 18311;
-UPDATE `npc` SET `name` = '叛教祭物降靈術士' WHERE `id` = 18312;
-UPDATE `npc` SET `name` = '魔道之火' WHERE `id` = 18313;
-UPDATE `npc` SET `name` = '魔道祭物降靈術士' WHERE `id` = 18314;
-UPDATE `npc` SET `name` = '凶煞之火' WHERE `id` = 18315;
-UPDATE `npc` SET `name` = '凶煞祭物降靈術士' WHERE `id` = 18316;
-UPDATE `npc` SET `name` = '密謀之火' WHERE `id` = 18317;
-UPDATE `npc` SET `name` = '密謀祭物降靈術士' WHERE `id` = 18318;
-UPDATE `npc` SET `name` = '釣上來的青蛙' WHERE `id` = 18319;
-UPDATE `npc` SET `name` = '釣上來的水精' WHERE `id` = 18320;
-UPDATE `npc` SET `name` = '釣上來的拉肯' WHERE `id` = 18321;
-UPDATE `npc` SET `name` = '釣上來的海巨人' WHERE `id` = 18322;
-UPDATE `npc` SET `name` = '釣上來的海馬兵' WHERE `id` = 18323;
-UPDATE `npc` SET `name` = '釣上來的何門奎思' WHERE `id` = 18324;
-UPDATE `npc` SET `name` = '釣上來的芙拉瓦' WHERE `id` = 18325;
-UPDATE `npc` SET `name` = '釣上來的德奎格' WHERE `id` = 18326;
-UPDATE `npc` SET `name` = '芙蕾雅的侍從' WHERE `id` = 18327;
-UPDATE `npc` SET `name` = '殿堂警報裝置' WHERE `id` = 18328;
-UPDATE `npc` SET `name` = '殿堂戒護隊長' WHERE `id` = 18329;
-UPDATE `npc` SET `name` = '殿堂戒護法師' WHERE `id` = 18330;
-UPDATE `npc` SET `name` = '殿堂戒護衛兵' WHERE `id` = 18331;
-UPDATE `npc` SET `name` = '殿堂戒護巡邏兵' WHERE `id` = 18332;
-UPDATE `npc` SET `name` = '殿堂戒護自爆兵' WHERE `id` = 18333;
-UPDATE `npc` SET `name` = '黑之聖歌團團長' WHERE `id` = 18334;
-UPDATE `npc` SET `name` = '黑之聖歌團首席' WHERE `id` = 18335;
-UPDATE `npc` SET `name` = '黑之聖歌團長槍兵' WHERE `id` = 18336;
-UPDATE `npc` SET `name` = '黑之聖歌團射手' WHERE `id` = 18337;
-UPDATE `npc` SET `name` = '黑之聖歌團祈禱師' WHERE `id` = 18338;
-UPDATE `npc` SET `name` = '黑之聖歌團協奏者' WHERE `id` = 18339;
-UPDATE `npc` SET `name` = '殿堂戒護自爆兵' WHERE `id` = 18340;
-UPDATE `npc` SET `name` = '殿堂戒護自爆兵' WHERE `id` = 18341;
-UPDATE `npc` SET `name` = '葛林' WHERE `id` = 18342;
-UPDATE `npc` SET `name` = '守門人殭屍' WHERE `id` = 18343;
-UPDATE `npc` SET `name` = '古代之卵' WHERE `id` = 18344;
-UPDATE `npc` SET `name` = '蛛網膜' WHERE `id` = 18345;
-UPDATE `npc` SET `name` = '蛛網膜' WHERE `id` = 18346;
-UPDATE `npc` SET `name` = '庭園的警衛兵' WHERE `id` = 18347;
-UPDATE `npc` SET `name` = '庭園的警衛兵' WHERE `id` = 18348;
-UPDATE `npc` SET `name` = '庭園的警衛兵' WHERE `id` = 18349;
-UPDATE `npc` SET `name` = '庭園的警衛兵' WHERE `id` = 18350;
-UPDATE `npc` SET `name` = '庭園的警衛兵' WHERE `id` = 18351;
-UPDATE `npc` SET `name` = '闇天使守護者' WHERE `id` = 18352;
-UPDATE `npc` SET `name` = '紀錄守護者' WHERE `id` = 18353;
-UPDATE `npc` SET `name` = '觀察守護者' WHERE `id` = 18354;
-UPDATE `npc` SET `name` = '斯比裘拉守護者' WHERE `id` = 18355;
-UPDATE `npc` SET `name` = '諸天之上守門人' WHERE `id` = 18356;
-UPDATE `npc` SET `name` = '羅丹彼裘拉守門人' WHERE `id` = 18357;
-UPDATE `npc` SET `name` = '祕密守護者' WHERE `id` = 18358;
-UPDATE `npc` SET `name` = '亞爾比泰魯守護者' WHERE `id` = 18359;
-UPDATE `npc` SET `name` = '凱特奈特守門人' WHERE `id` = 18360;
-UPDATE `npc` SET `name` = '預測守護者' WHERE `id` = 18361;
-UPDATE `npc` SET `name` = '庭園的警衛兵' WHERE `id` = 18362;
-UPDATE `npc` SET `name` = '庭園的警衛兵' WHERE `id` = 18363;
-UPDATE `npc` SET `name` = '巫女的守護者' WHERE `id` = 18364;
-UPDATE `npc` SET `name` = '巫女的守護者' WHERE `id` = 18365;
-UPDATE `npc` SET `name` = '巫女的守護者' WHERE `id` = 18366;
-UPDATE `npc` SET `name` = '監獄的警衛兵' WHERE `id` = 18367;
-UPDATE `npc` SET `name` = '監獄的警衛兵' WHERE `id` = 18368;
-UPDATE `npc` SET `name` = '被眩惑的水晶高崙' WHERE `id` = 18369;
-UPDATE `npc` SET `name` = '被眩惑的水晶高崙' WHERE `id` = 18370;
-UPDATE `npc` SET `name` = '巴列斯的實驗體' WHERE `id` = 18371;
-UPDATE `npc` SET `name` = '巴列斯的實驗體' WHERE `id` = 18372;
-UPDATE `npc` SET `name` = '巴列斯的實驗體' WHERE `id` = 18373;
-UPDATE `npc` SET `name` = '巴列斯的實驗體' WHERE `id` = 18374;
-UPDATE `npc` SET `name` = '巴列斯的實驗體' WHERE `id` = 18375;
-UPDATE `npc` SET `name` = '巴列斯的實驗體' WHERE `id` = 18376;
-UPDATE `npc` SET `name` = '巴列斯的實驗體' WHERE `id` = 18377;
-UPDATE `npc` SET `name` = '陷阱' WHERE `id` = 18378;
-UPDATE `npc` SET `name` = '陷阱' WHERE `id` = 18379;
-UPDATE `npc` SET `name` = '陷阱' WHERE `id` = 18380;
-UPDATE `npc` SET `name` = '陷阱' WHERE `id` = 18381;
-UPDATE `npc` SET `name` = '陷阱' WHERE `id` = 18382;
-UPDATE `npc` SET `name` = '陷阱' WHERE `id` = 18383;
-UPDATE `npc` SET `name` = '陷阱' WHERE `id` = 18384;
-UPDATE `npc` SET `name` = '陷阱' WHERE `id` = 18385;
-UPDATE `npc` SET `name` = '陷阱' WHERE `id` = 18386;
-UPDATE `npc` SET `name` = '陷阱' WHERE `id` = 18387;
-UPDATE `npc` SET `name` = '陷阱' WHERE `id` = 18388;
-UPDATE `npc` SET `name` = '陷阱' WHERE `id` = 18389;
-UPDATE `npc` SET `name` = '陷阱' WHERE `id` = 18390;
-UPDATE `npc` SET `name` = '陷阱' WHERE `id` = 18391;
-UPDATE `npc` SET `name` = '陷阱' WHERE `id` = 18392;
-UPDATE `npc` SET `name` = '陷阱' WHERE `id` = 18393;
-UPDATE `npc` SET `name` = '陷阱' WHERE `id` = 18394;
-UPDATE `npc` SET `name` = '陷阱' WHERE `id` = 18395;
-UPDATE `npc` SET `name` = '陷阱' WHERE `id` = 18396;
-UPDATE `npc` SET `name` = '陷阱' WHERE `id` = 18397;
-UPDATE `npc` SET `name` = '陷阱' WHERE `id` = 18398;
-UPDATE `npc` SET `name` = '陷阱' WHERE `id` = 18399;
-UPDATE `npc` SET `name` = '陷阱' WHERE `id` = 18400;
-UPDATE `npc` SET `name` = '陷阱' WHERE `id` = 18401;
-UPDATE `npc` SET `name` = '陷阱' WHERE `id` = 18402;
-UPDATE `npc` SET `name` = '陷阱' WHERE `id` = 18403;
-UPDATE `npc` SET `name` = '陷阱' WHERE `id` = 18404;
-UPDATE `npc` SET `name` = '陷阱' WHERE `id` = 18405;
-UPDATE `npc` SET `name` = '陷阱' WHERE `id` = 18406;
-UPDATE `npc` SET `name` = '陷阱' WHERE `id` = 18407;
-UPDATE `npc` SET `name` = '陷阱' WHERE `id` = 18408;
-UPDATE `npc` SET `name` = '陷阱' WHERE `id` = 18409;
-UPDATE `npc` SET `name` = '陷阱' WHERE `id` = 18410;
-UPDATE `npc` SET `name` = '陷阱' WHERE `id` = 18411;
-UPDATE `npc` SET `name` = '陷阱' WHERE `id` = 18412;
-UPDATE `npc` SET `name` = '陷阱' WHERE `id` = 18413;
-UPDATE `npc` SET `name` = '戰士之門守門人' WHERE `id` = 18414;
-UPDATE `npc` SET `name` = '中間門守門人' WHERE `id` = 18415;
-UPDATE `npc` SET `name` = '守門人' WHERE `id` = 18416;
-UPDATE `npc` SET `name` = '橋的監守人' WHERE `id` = 18417;
-UPDATE `npc` SET `name` = '橋的監守人' WHERE `id` = 18418;
-UPDATE `npc` SET `name` = '橋的監守人' WHERE `id` = 18419;
-UPDATE `npc` SET `name` = '陷阱' WHERE `id` = 18420;
-UPDATE `npc` SET `name` = '' WHERE `id` = 18427;
-UPDATE `npc` SET `name` = '' WHERE `id` = 18428;
-UPDATE `npc` SET `name` = '' WHERE `id` = 18429;
-UPDATE `npc` SET `name` = '' WHERE `id` = 18430;
-UPDATE `npc` SET `name` = '陷阱' WHERE `id` = 18431;
-UPDATE `npc` SET `name` = '陷阱' WHERE `id` = 18432;
-UPDATE `npc` SET `name` = '陷阱' WHERE `id` = 18433;
-UPDATE `npc` SET `name` = '陷阱' WHERE `id` = 18434;
-UPDATE `npc` SET `name` = '陷阱' WHERE `id` = 18435;
-UPDATE `npc` SET `name` = '陷阱' WHERE `id` = 18436;
-UPDATE `npc` SET `name` = '' WHERE `id` = 18437;
-UPDATE `npc` SET `name` = '陷阱' WHERE `id` = 18438;
-UPDATE `npc` SET `name` = '闇天使之門守門人' WHERE `id` = 18441;
-UPDATE `npc` SET `name` = '陷阱' WHERE `id` = 18442;
-UPDATE `npc` SET `name` = '陷阱' WHERE `id` = 18443;
-UPDATE `npc` SET `name` = '庭園的警衛兵' WHERE `id` = 18444;
-UPDATE `npc` SET `name` = '托里士的守門人' WHERE `id` = 18445;
-UPDATE `npc` SET `name` = '托里士的守門人' WHERE `id` = 18446;
-UPDATE `npc` SET `name` = '托里士的守門人' WHERE `id` = 18447;
-UPDATE `npc` SET `name` = '托里士的守門人' WHERE `id` = 18448;
-UPDATE `npc` SET `name` = '托里士的守門人' WHERE `id` = 18449;
-UPDATE `npc` SET `name` = '托里士的守門人' WHERE `id` = 18450;
-UPDATE `npc` SET `name` = '托里士的守門人' WHERE `id` = 18451;
-UPDATE `npc` SET `name` = '托里士的守門人' WHERE `id` = 18452;
-UPDATE `npc` SET `name` = '托里士的守門人' WHERE `id` = 18453;
-UPDATE `npc` SET `name` = '托里士的守門人' WHERE `id` = 18454;
-UPDATE `npc` SET `name` = '托里士的守門人' WHERE `id` = 18455;
-UPDATE `npc` SET `name` = '托里士的守門人' WHERE `id` = 18456;
-UPDATE `npc` SET `name` = '托里士的守門人' WHERE `id` = 18457;
-UPDATE `npc` SET `name` = '托里士的守門人' WHERE `id` = 18458;
-UPDATE `npc` SET `name` = '托里士的守門人' WHERE `id` = 18459;
-UPDATE `npc` SET `name` = '托里士的守門人' WHERE `id` = 18460;
-UPDATE `npc` SET `name` = '托里士的守門人' WHERE `id` = 18461;
-UPDATE `npc` SET `name` = '舊神殿的戰士' WHERE `id` = 18463;
-UPDATE `npc` SET `name` = '舊神殿的祭司長' WHERE `id` = 18464;
-UPDATE `npc` SET `name` = '戴瑞克', `title` = '初代祭司長' WHERE `id` = 18465;
-UPDATE `npc` SET `name` = '外廓警衛隊長' WHERE `id` = 18466;
-UPDATE `npc` SET `name` = '殤之大地守門人' WHERE `id` = 18467;
-UPDATE `npc` SET `name` = '守門人' WHERE `id` = 18468;
-UPDATE `npc` SET `name` = '殿堂警衛兵' WHERE `id` = 18469;
-UPDATE `npc` SET `name` = '殿堂警衛兵' WHERE `id` = 18470;
-UPDATE `npc` SET `name` = '殿堂警衛兵' WHERE `id` = 18471;
-UPDATE `npc` SET `name` = '殿堂警衛兵' WHERE `id` = 18472;
-UPDATE `npc` SET `name` = '殿堂警衛隊長' WHERE `id` = 18473;
-UPDATE `npc` SET `name` = '警報裝置' WHERE `id` = 18474;
-UPDATE `npc` SET `name` = '殿堂警衛兵' WHERE `id` = 18475;
-UPDATE `npc` SET `name` = '殿堂警衛兵' WHERE `id` = 18476;
-UPDATE `npc` SET `name` = '珊瑚寶箱' WHERE `id` = 18477;
-UPDATE `npc` SET `name` = '藥草甕' WHERE `id` = 18478;
-UPDATE `npc` SET `name` = '內城巡邏兵' WHERE `id` = 18479;
-UPDATE `npc` SET `name` = '內城戰士' WHERE `id` = 18480;
-UPDATE `npc` SET `name` = '內城魔法師' WHERE `id` = 18481;
-UPDATE `npc` SET `name` = '法利昂的族人' WHERE `id` = 18482;
-UPDATE `npc` SET `name` = '庭園的警衛兵' WHERE `id` = 18483;
-UPDATE `npc` SET `name` = '奈雅塔門' WHERE `id` = 18484;
-UPDATE `npc` SET `name` = '' WHERE `id` = 18485;
-UPDATE `npc` SET `name` = '' WHERE `id` = 18486;
-UPDATE `npc` SET `name` = '' WHERE `id` = 18487;
-UPDATE `npc` SET `name` = '' WHERE `id` = 18488;
-UPDATE `npc` SET `name` = '' WHERE `id` = 18489;
-UPDATE `npc` SET `name` = '巴列斯的奴隸' WHERE `id` = 18490;
-UPDATE `npc` SET `name` = '鎖定裝置', `title` = '奈雅之塔' WHERE `id` = 18491;
-UPDATE `npc` SET `name` = '控制裝置', `title` = '奈雅之塔' WHERE `id` = 18492;
-UPDATE `npc` SET `name` = '守護之物', `title` = '奈雅之塔' WHERE `id` = 18493;
-UPDATE `npc` SET `name` = '精巧機械裝置' WHERE `id` = 18494;
-UPDATE `npc` SET `name` = '精巧機械裝置' WHERE `id` = 18495;
-UPDATE `npc` SET `name` = '精巧機械裝置' WHERE `id` = 18496;
-UPDATE `npc` SET `name` = '精巧機械裝置' WHERE `id` = 18497;
-UPDATE `npc` SET `name` = '精巧機械裝置' WHERE `id` = 18498;
-UPDATE `npc` SET `name` = '精巧機械裝置' WHERE `id` = 18499;
-UPDATE `npc` SET `name` = '精巧機械裝置' WHERE `id` = 18500;
-UPDATE `npc` SET `name` = '精巧機械裝置' WHERE `id` = 18501;
-UPDATE `npc` SET `name` = '精巧機械裝置' WHERE `id` = 18502;
-UPDATE `npc` SET `name` = '精巧機械裝置' WHERE `id` = 18503;
-UPDATE `npc` SET `name` = '精巧機械裝置' WHERE `id` = 18504;
-UPDATE `npc` SET `name` = '精巧機械裝置' WHERE `id` = 18505;
-UPDATE `npc` SET `name` = '靈魂的水晶柱' WHERE `id` = 18506;
-UPDATE `npc` SET `name` = '' WHERE `id` = 18507;
-UPDATE `npc` SET `name` = '' WHERE `id` = 18508;
-UPDATE `npc` SET `name` = '' WHERE `id` = 18509;
-UPDATE `npc` SET `name` = '' WHERE `id` = 18510;
-UPDATE `npc` SET `name` = '' WHERE `id` = 18511;
-UPDATE `npc` SET `name` = '' WHERE `id` = 18512;
-UPDATE `npc` SET `name` = '' WHERE `id` = 18513;
-UPDATE `npc` SET `name` = '' WHERE `id` = 18514;
-UPDATE `npc` SET `name` = '' WHERE `id` = 18515;
-UPDATE `npc` SET `name` = '' WHERE `id` = 18516;
-UPDATE `npc` SET `name` = '' WHERE `id` = 18517;
-UPDATE `npc` SET `name` = '' WHERE `id` = 18518;
-UPDATE `npc` SET `name` = '' WHERE `id` = 18519;
-UPDATE `npc` SET `name` = '' WHERE `id` = 18520;
-UPDATE `npc` SET `name` = '' WHERE `id` = 18521;
-UPDATE `npc` SET `name` = '' WHERE `id` = 18522;
-UPDATE `npc` SET `name` = '' WHERE `id` = 18523;
-UPDATE `npc` SET `name` = '' WHERE `id` = 18524;
-UPDATE `npc` SET `name` = '' WHERE `id` = 18525;
-UPDATE `npc` SET `name` = '' WHERE `id` = 18526;
-UPDATE `npc` SET `name` = '' WHERE `id` = 18527;
-UPDATE `npc` SET `name` = '' WHERE `id` = 18528;
-UPDATE `npc` SET `name` = '' WHERE `id` = 18529;
-UPDATE `npc` SET `name` = '' WHERE `id` = 18530;
-UPDATE `npc` SET `name` = '' WHERE `id` = 18531;
-UPDATE `npc` SET `name` = '' WHERE `id` = 18532;
-UPDATE `npc` SET `name` = '' WHERE `id` = 18533;
-UPDATE `npc` SET `name` = '柯爾堂的寶箱' WHERE `id` = 18534;
-UPDATE `npc` SET `name` = '柯爾堂的寶箱' WHERE `id` = 18535;
-UPDATE `npc` SET `name` = '柯爾堂的寶箱' WHERE `id` = 18536;
-UPDATE `npc` SET `name` = '柯爾堂的寶箱' WHERE `id` = 18537;
-UPDATE `npc` SET `name` = '柯爾堂的寶箱' WHERE `id` = 18538;
-UPDATE `npc` SET `name` = '復活塔' WHERE `id` = 18539;
-UPDATE `npc` SET `name` = '復活塔' WHERE `id` = 18540;
-UPDATE `npc` SET `name` = '復活塔' WHERE `id` = 18541;
-UPDATE `npc` SET `name` = '復活塔' WHERE `id` = 18542;
-UPDATE `npc` SET `name` = '復活塔' WHERE `id` = 18543;
-UPDATE `npc` SET `name` = '克魯瑪界碑', `title` = '活動怪物' WHERE `id` = 18544;
-UPDATE `npc` SET `name` = '古代巨人的實驗體', `title` = '活動怪物' WHERE `id` = 18545;
-UPDATE `npc` SET `name` = '古代巨人的實驗體', `title` = '活動怪物' WHERE `id` = 18546;
-UPDATE `npc` SET `name` = '古代巨人的實驗體', `title` = '活動怪物' WHERE `id` = 18547;
-UPDATE `npc` SET `name` = '古代巨人的實驗體' WHERE `id` = 18548;
-UPDATE `npc` SET `name` = '古代巨人的實驗體' WHERE `id` = 18549;
-UPDATE `npc` SET `name` = '克魯瑪浮游靈', `title` = '活動怪物' WHERE `id` = 18550;
-UPDATE `npc` SET `name` = '克魯瑪浮游靈', `title` = '活動怪物' WHERE `id` = 18551;
-UPDATE `npc` SET `name` = '克魯瑪浮游靈' WHERE `id` = 18552;
-UPDATE `npc` SET `name` = '克魯瑪浮游靈' WHERE `id` = 18553;
-UPDATE `npc` SET `name` = '突倫 卡默士', `title` = '卡納斯' WHERE `id` = 18554;
-UPDATE `npc` SET `name` = '豺狼 亞留修', `title` = '卡納斯' WHERE `id` = 18555;
-UPDATE `npc` SET `name` = '亞留修的手下' WHERE `id` = 18556;
-UPDATE `npc` SET `name` = '朗克 特尤姆斯', `title` = '卡納斯' WHERE `id` = 18557;
-UPDATE `npc` SET `name` = '赤色哈圖 奧迪司', `title` = '卡納斯' WHERE `id` = 18558;
-UPDATE `npc` SET `name` = '預言者 普勞羅素', `title` = '卡納斯' WHERE `id` = 18559;
-UPDATE `npc` SET `name` = '普勞羅素的手下' WHERE `id` = 18560;
-UPDATE `npc` SET `name` = '古朗尼特 多魯加', `title` = '卡納斯' WHERE `id` = 18561;
-UPDATE `npc` SET `name` = '刀刃 奧迪司', `title` = '卡納斯' WHERE `id` = 18562;
-UPDATE `npc` SET `name` = '奧迪司的手下' WHERE `id` = 18563;
-UPDATE `npc` SET `name` = '奇異 普內', `title` = '卡納斯' WHERE `id` = 18564;
-UPDATE `npc` SET `name` = '勇者 馬魯丁', `title` = '卡納斯' WHERE `id` = 18565;
-UPDATE `npc` SET `name` = '卡倚 亞比高爾', `title` = '卡納斯' WHERE `id` = 18566;
-UPDATE `npc` SET `name` = '亞比高爾的手下' WHERE `id` = 18567;
-UPDATE `npc` SET `name` = '騎士 孟塔那', `title` = '卡納斯' WHERE `id` = 18568;
-UPDATE `npc` SET `name` = '孟塔那的手下' WHERE `id` = 18569;
-UPDATE `npc` SET `name` = '熱流 亞坎尼丹', `title` = '卡納斯' WHERE `id` = 18570;
-UPDATE `npc` SET `name` = '畢諾姆斯 史托拉斯', `title` = '卡納斯' WHERE `id` = 18571;
-UPDATE `npc` SET `name` = '史托拉斯的手下' WHERE `id` = 18572;
-UPDATE `npc` SET `name` = '凱爾 比拉特', `title` = '卡納斯' WHERE `id` = 18573;
-UPDATE `npc` SET `name` = '比拉特的手下' WHERE `id` = 18574;
-UPDATE `npc` SET `name` = '傭兵 塔莫茲', `title` = '卡納斯' WHERE `id` = 18575;
-UPDATE `npc` SET `name` = '塔莫茲的手下' WHERE `id` = 18576;
-UPDATE `npc` SET `name` = '百眼的 阿羅梭', `title` = '卡納斯' WHERE `id` = 18577;
-UPDATE `npc` SET `name` = '阿羅梭的手下' WHERE `id` = 18578;
-UPDATE `npc` SET `name` = '獵場看守人' WHERE `id` = 18579;
-UPDATE `npc` SET `name` = '受詛咒的少女' WHERE `id` = 18580;
-UPDATE `npc` SET `name` = '園丁' WHERE `id` = 18581;
-UPDATE `npc` SET `name` = '旋轉少女', `title` = '柯雷塔的幸運' WHERE `id` = 18582;
-UPDATE `npc` SET `name` = '女傭' WHERE `id` = 18583;
-UPDATE `npc` SET `name` = '旋轉少年' WHERE `id` = 18584;
-UPDATE `npc` SET `name` = '受詛咒的少女' WHERE `id` = 18585;
-UPDATE `npc` SET `name` = '柯雷塔的惡童' WHERE `id` = 18586;
-UPDATE `npc` SET `name` = '怨恨女僕' WHERE `id` = 18587;
-UPDATE `npc` SET `name` = '獵場看守人' WHERE `id` = 18588;
-UPDATE `npc` SET `name` = '受詛咒的園丁' WHERE `id` = 18589;
-UPDATE `npc` SET `name` = '男爵夫人的雇員' WHERE `id` = 18590;
-UPDATE `npc` SET `name` = '怨恨少年' WHERE `id` = 18591;
-UPDATE `npc` SET `name` = '柯雷塔的執事' WHERE `id` = 18592;
-UPDATE `npc` SET `name` = '女傭' WHERE `id` = 18593;
-UPDATE `npc` SET `name` = '宅邸嚮導' WHERE `id` = 18594;
-UPDATE `npc` SET `name` = '男爵夫人的雇員' WHERE `id` = 18595;
-UPDATE `npc` SET `name` = '受詛咒的園丁' WHERE `id` = 18596;
-UPDATE `npc` SET `name` = '怨恨女僕' WHERE `id` = 18597;
-UPDATE `npc` SET `name` = '受詛咒的女管家' WHERE `id` = 18598;
-UPDATE `npc` SET `name` = '宅邸管家' WHERE `id` = 18599;
-UPDATE `npc` SET `name` = '柯雷塔的執事' WHERE `id` = 18600;
-UPDATE `npc` SET `name` = '柯雷塔的監視者' WHERE `id` = 18601;
-UPDATE `npc` SET `name` = '柯雷塔的監視者' WHERE `id` = 18602;
-UPDATE `npc` SET `name` = '' WHERE `id` = 18603;
-UPDATE `npc` SET `name` = '' WHERE `id` = 18604;
-UPDATE `npc` SET `name` = '' WHERE `id` = 18605;
-UPDATE `npc` SET `name` = '' WHERE `id` = 18606;
-UPDATE `npc` SET `name` = '加爾高斯', `title` = '火的精靈' WHERE `id` = 18607;
-UPDATE `npc` SET `name` = '金瑟斯', `title` = '火的精靈' WHERE `id` = 18608;
-UPDATE `npc` SET `name` = '帕米恩', `title` = '水的精靈' WHERE `id` = 18609;
-UPDATE `npc` SET `name` = '赫爾勒斯', `title` = '水的精靈' WHERE `id` = 18610;
-UPDATE `npc` SET `name` = '水的精靈' WHERE `id` = 18611;
-UPDATE `npc` SET `name` = '水的精靈' WHERE `id` = 18612;
-UPDATE `npc` SET `name` = '水的精靈' WHERE `id` = 18613;
-UPDATE `npc` SET `name` = '火的精靈' WHERE `id` = 18614;
-UPDATE `npc` SET `name` = '火的精靈' WHERE `id` = 18615;
-UPDATE `npc` SET `name` = '畢羅卡' WHERE `id` = 18616;
-UPDATE `npc` SET `name` = '' WHERE `id` = 18617;
-UPDATE `npc` SET `name` = '' WHERE `id` = 18618;
-UPDATE `npc` SET `name` = '' WHERE `id` = 18619;
-UPDATE `npc` SET `name` = '埃迪安藤' WHERE `id` = 18620;
-UPDATE `npc` SET `name` = '' WHERE `id` = 18621;
-UPDATE `npc` SET `name` = '火藥桶' WHERE `id` = 18622;
-UPDATE `npc` SET `name` = '怨恨的弓手' WHERE `id` = 18623;
-UPDATE `npc` SET `name` = '死者的怨恨' WHERE `id` = 18624;
-UPDATE `npc` SET `name` = '死者的怨恨' WHERE `id` = 18625;
-UPDATE `npc` SET `name` = '死者的怨恨' WHERE `id` = 18626;
-UPDATE `npc` SET `name` = '死者的怨恨' WHERE `id` = 18627;
-UPDATE `npc` SET `name` = '亞唐', `title` = '守望者' WHERE `id` = 18628;
-UPDATE `npc` SET `name` = '卡姆士', `title` = '帕奴卡' WHERE `id` = 18629;
-UPDATE `npc` SET `name` = '日比', `title` = '帕奴卡' WHERE `id` = 18630;
-UPDATE `npc` SET `name` = '瓦克守', `title` = '帕奴卡' WHERE `id` = 18631;
-UPDATE `npc` SET `name` = '格魯巴拉', `title` = '帕奴卡' WHERE `id` = 18632;
-UPDATE `npc` SET `name` = '雷馬堂' WHERE `id` = 18633;
-UPDATE `npc` SET `name` = '雷馬堂的手下' WHERE `id` = 18634;
-UPDATE `npc` SET `name` = '巴瑞卡賽勒諾斯訓練兵' WHERE `id` = 18635;
-UPDATE `npc` SET `name` = '巴瑞卡賽勒諾斯步兵' WHERE `id` = 18636;
-UPDATE `npc` SET `name` = '放牧的羚羊' WHERE `id` = 18637;
-UPDATE `npc` SET `name` = '巴瑞卡賽勒諾斯偵查兵' WHERE `id` = 18638;
-UPDATE `npc` SET `name` = '巴瑞卡賽勒諾斯狩獵者' WHERE `id` = 18639;
-UPDATE `npc` SET `name` = '巴瑞卡賽勒諾斯咒術士' WHERE `id` = 18640;
-UPDATE `npc` SET `name` = '巴瑞卡賽勒諾斯祭司' WHERE `id` = 18641;
-UPDATE `npc` SET `name` = '巴瑞卡賽勒諾斯戰士' WHERE `id` = 18642;
-UPDATE `npc` SET `name` = '放牧的羚羊' WHERE `id` = 18643;
-UPDATE `npc` SET `name` = '巴瑞卡賽勒諾斯靈媒' WHERE `id` = 18644;
-UPDATE `npc` SET `name` = '巴瑞卡賽勒諾斯魔導士' WHERE `id` = 18645;
-UPDATE `npc` SET `name` = '巴瑞卡賽勒諾斯下士' WHERE `id` = 18646;
-UPDATE `npc` SET `name` = '放牧的芙拉瓦' WHERE `id` = 18647;
-UPDATE `npc` SET `name` = '巴瑞卡賽勒諾斯祭司長' WHERE `id` = 18648;
-UPDATE `npc` SET `name` = '巴瑞卡賽勒諾斯大魔導士' WHERE `id` = 18649;
-UPDATE `npc` SET `name` = '巴瑞卡賽勒諾斯軍官' WHERE `id` = 18650;
-UPDATE `npc` SET `name` = '放牧的羚羊長老' WHERE `id` = 18651;
-UPDATE `npc` SET `name` = '巴瑞卡賽勒諾斯大祭司長' WHERE `id` = 18652;
-UPDATE `npc` SET `name` = '巴瑞卡精銳親衛隊' WHERE `id` = 18653;
-UPDATE `npc` SET `name` = '巴瑞卡軍團長' WHERE `id` = 18654;
-UPDATE `npc` SET `name` = '巴瑞卡首席親衛隊' WHERE `id` = 18655;
-UPDATE `npc` SET `name` = '巴瑞卡首席魔導士' WHERE `id` = 18656;
-UPDATE `npc` SET `name` = '預言者的親衛兵' WHERE `id` = 18657;
-UPDATE `npc` SET `name` = '預言者的門徒' WHERE `id` = 18658;
-UPDATE `npc` SET `name` = '巴瑞卡預言者' WHERE `id` = 18659;
-UPDATE `npc` SET `name` = '拉塔那' WHERE `id` = 18660;
-UPDATE `npc` SET `name` = '' WHERE `id` = 18661;
-UPDATE `npc` SET `name` = '' WHERE `id` = 18662;
-UPDATE `npc` SET `name` = '' WHERE `id` = 18663;
-UPDATE `npc` SET `name` = '幸運蟲' WHERE `id` = 18664;
-UPDATE `npc` SET `name` = '幸運蟲' WHERE `id` = 18665;
-UPDATE `npc` SET `name` = '幸運蟲' WHERE `id` = 18666;
-UPDATE `npc` SET `name` = '死亡的守護之物' WHERE `id` = 18667;
-UPDATE `npc` SET `name` = '死亡的守護之物' WHERE `id` = 18668;
-UPDATE `npc` SET `name` = '' WHERE `id` = 18669;
-UPDATE `npc` SET `name` = '' WHERE `id` = 18670;
-UPDATE `npc` SET `name` = '方塊' WHERE `id` = 18671;
-UPDATE `npc` SET `name` = '方塊' WHERE `id` = 18672;
-UPDATE `npc` SET `name` = '方塊' WHERE `id` = 18673;
-UPDATE `npc` SET `name` = '方塊' WHERE `id` = 18674;
-UPDATE `npc` SET `name` = '方塊' WHERE `id` = 18675;
-UPDATE `npc` SET `name` = '方塊搬運少女' WHERE `id` = 18676;
-UPDATE `npc` SET `name` = '龍馬軍 傳令' WHERE `id` = 18677;
-UPDATE `npc` SET `name` = '種子能量-水' WHERE `id` = 18678;
-UPDATE `npc` SET `name` = '種子能量-火' WHERE `id` = 18679;
-UPDATE `npc` SET `name` = '種子能量-風' WHERE `id` = 18680;
-UPDATE `npc` SET `name` = '種子能量-土' WHERE `id` = 18681;
-UPDATE `npc` SET `name` = '種子能量-神聖' WHERE `id` = 18682;
-UPDATE `npc` SET `name` = '種子能量-黑暗' WHERE `id` = 18683;
-UPDATE `npc` SET `name` = '紅色星石' WHERE `id` = 18684;
-UPDATE `npc` SET `name` = '紅色星石' WHERE `id` = 18685;
-UPDATE `npc` SET `name` = '紅色星石' WHERE `id` = 18686;
-UPDATE `npc` SET `name` = '藍色星石' WHERE `id` = 18687;
-UPDATE `npc` SET `name` = '藍色星石' WHERE `id` = 18688;
-UPDATE `npc` SET `name` = '藍色星石' WHERE `id` = 18689;
-UPDATE `npc` SET `name` = '綠色星石' WHERE `id` = 18690;
-UPDATE `npc` SET `name` = '綠色星石' WHERE `id` = 18691;
-UPDATE `npc` SET `name` = '綠色星石' WHERE `id` = 18692;
-UPDATE `npc` SET `name` = '古代寶箱' WHERE `id` = 18693;
-UPDATE `npc` SET `name` = '寶箱護衛兵' WHERE `id` = 18694;
-UPDATE `npc` SET `name` = '寶箱護衛兵' WHERE `id` = 18695;
-UPDATE `npc` SET `name` = '次元移動裝置' WHERE `id` = 18696;
-UPDATE `npc` SET `name` = '陷阱' WHERE `id` = 18697;
-UPDATE `npc` SET `name` = '陷阱' WHERE `id` = 18698;
-UPDATE `npc` SET `name` = '陷阱' WHERE `id` = 18699;
-UPDATE `npc` SET `name` = '' WHERE `id` = 18700;
-UPDATE `npc` SET `name` = '' WHERE `id` = 18701;
-UPDATE `npc` SET `name` = '次元移動裝置' WHERE `id` = 18702;
-UPDATE `npc` SET `name` = '殘存者抑制裝置' WHERE `id` = 18703;
-UPDATE `npc` SET `name` = '不滅的腫瘤體' WHERE `id` = 18704;
-UPDATE `npc` SET `name` = '破損的腫瘤體' WHERE `id` = 18705;
-UPDATE `npc` SET `name` = '靈魂管' WHERE `id` = 18706;
-UPDATE `npc` SET `name` = '' WHERE `id` = 18707;
-UPDATE `npc` SET `name` = '不滅的腫瘤體' WHERE `id` = 18708;
-UPDATE `npc` SET `name` = '靈魂管' WHERE `id` = 18709;
-UPDATE `npc` SET `name` = '靈魂管' WHERE `id` = 18710;
-UPDATE `npc` SET `name` = '靈魂管' WHERE `id` = 18711;
-UPDATE `npc` SET `name` = '靈魂管' WHERE `id` = 18712;
-UPDATE `npc` SET `name` = '靈魂管' WHERE `id` = 18713;
-UPDATE `npc` SET `name` = '靈魂管' WHERE `id` = 18714;
-UPDATE `npc` SET `name` = '被支配的靈魂' WHERE `id` = 18715;
-UPDATE `npc` SET `name` = '被支配的靈魂' WHERE `id` = 18716;
-UPDATE `npc` SET `name` = '被支配的靈魂' WHERE `id` = 18717;
-UPDATE `npc` SET `name` = '犧牲的狂信徒' WHERE `id` = 18718;
-UPDATE `npc` SET `name` = '犧牲的狂信徒' WHERE `id` = 18719;
-UPDATE `npc` SET `name` = '陷阱' WHERE `id` = 18720;
-UPDATE `npc` SET `name` = '陷阱' WHERE `id` = 18721;
-UPDATE `npc` SET `name` = '陷阱' WHERE `id` = 18722;
-UPDATE `npc` SET `name` = '陷阱' WHERE `id` = 18723;
-UPDATE `npc` SET `name` = '陷阱' WHERE `id` = 18724;
-UPDATE `npc` SET `name` = '陷阱' WHERE `id` = 18725;
-UPDATE `npc` SET `name` = '陷阱' WHERE `id` = 18726;
-UPDATE `npc` SET `name` = '陷阱' WHERE `id` = 18727;
-UPDATE `npc` SET `name` = '陷阱' WHERE `id` = 18728;
-UPDATE `npc` SET `name` = '陷阱' WHERE `id` = 18729;
-UPDATE `npc` SET `name` = '陷阱' WHERE `id` = 18730;
-UPDATE `npc` SET `name` = '陷阱' WHERE `id` = 18731;
-UPDATE `npc` SET `name` = '陷阱' WHERE `id` = 18732;
-UPDATE `npc` SET `name` = '陷阱' WHERE `id` = 18733;
-UPDATE `npc` SET `name` = '陷阱' WHERE `id` = 18734;
-UPDATE `npc` SET `name` = '陷阱' WHERE `id` = 18735;
-UPDATE `npc` SET `name` = '陷阱' WHERE `id` = 18736;
-UPDATE `npc` SET `name` = '陷阱' WHERE `id` = 18737;
-UPDATE `npc` SET `name` = '陷阱' WHERE `id` = 18738;
-UPDATE `npc` SET `name` = '陷阱' WHERE `id` = 18739;
-UPDATE `npc` SET `name` = '陷阱' WHERE `id` = 18740;
-UPDATE `npc` SET `name` = '陷阱' WHERE `id` = 18741;
-UPDATE `npc` SET `name` = '陷阱' WHERE `id` = 18742;
-UPDATE `npc` SET `name` = '陷阱' WHERE `id` = 18743;
-UPDATE `npc` SET `name` = '陷阱' WHERE `id` = 18744;
-UPDATE `npc` SET `name` = '陷阱' WHERE `id` = 18745;
-UPDATE `npc` SET `name` = '陷阱' WHERE `id` = 18746;
-UPDATE `npc` SET `name` = '陷阱' WHERE `id` = 18747;
-UPDATE `npc` SET `name` = '陷阱' WHERE `id` = 18748;
-UPDATE `npc` SET `name` = '陷阱' WHERE `id` = 18749;
-UPDATE `npc` SET `name` = '陷阱' WHERE `id` = 18750;
-UPDATE `npc` SET `name` = '陷阱' WHERE `id` = 18751;
-UPDATE `npc` SET `name` = '陷阱' WHERE `id` = 18752;
-UPDATE `npc` SET `name` = '陷阱' WHERE `id` = 18753;
-UPDATE `npc` SET `name` = '陷阱' WHERE `id` = 18754;
-UPDATE `npc` SET `name` = '陷阱' WHERE `id` = 18755;
-UPDATE `npc` SET `name` = '陷阱' WHERE `id` = 18756;
-UPDATE `npc` SET `name` = '陷阱' WHERE `id` = 18757;
-UPDATE `npc` SET `name` = '陷阱' WHERE `id` = 18758;
-UPDATE `npc` SET `name` = '陷阱' WHERE `id` = 18759;
-UPDATE `npc` SET `name` = '陷阱' WHERE `id` = 18760;
-UPDATE `npc` SET `name` = '陷阱' WHERE `id` = 18761;
-UPDATE `npc` SET `name` = '陷阱' WHERE `id` = 18762;
-UPDATE `npc` SET `name` = '陷阱' WHERE `id` = 18763;
-UPDATE `npc` SET `name` = '陷阱' WHERE `id` = 18764;
-UPDATE `npc` SET `name` = '陷阱' WHERE `id` = 18765;
-UPDATE `npc` SET `name` = '陷阱' WHERE `id` = 18766;
-UPDATE `npc` SET `name` = '陷阱' WHERE `id` = 18767;
-UPDATE `npc` SET `name` = '陷阱' WHERE `id` = 18768;
-UPDATE `npc` SET `name` = '陷阱' WHERE `id` = 18769;
-UPDATE `npc` SET `name` = '陷阱' WHERE `id` = 18770;
-UPDATE `npc` SET `name` = '陷阱' WHERE `id` = 18771;
-UPDATE `npc` SET `name` = '陷阱' WHERE `id` = 18772;
-UPDATE `npc` SET `name` = '陷阱' WHERE `id` = 18773;
-UPDATE `npc` SET `name` = '陷阱' WHERE `id` = 18774;
-UPDATE `npc` SET `name` = '破滅之種調整裝置' WHERE `id` = 18775;
-UPDATE `npc` SET `name` = '方尖塔' WHERE `id` = 18776;
-UPDATE `npc` SET `name` = '廣場結界裝置' WHERE `id` = 18777;
-UPDATE `npc` SET `name` = '破滅的寶座結界裝置' WHERE `id` = 18778;
-UPDATE `npc` SET `name` = '' WHERE `id` = 18779;
-UPDATE `npc` SET `name` = '克海梅納斯的標章' WHERE `id` = 18780;
-UPDATE `npc` SET `name` = '幼龍獸翼' WHERE `id` = 18781;
-UPDATE `npc` SET `name` = '席琳的狂信者' WHERE `id` = 18782;
-UPDATE `npc` SET `name` = '殘敗軍 軍團長' WHERE `id` = 18783;
-UPDATE `npc` SET `name` = '殘敗軍 第1隊隊長' WHERE `id` = 18784;
-UPDATE `npc` SET `name` = '殘敗軍 百龍隊長' WHERE `id` = 18785;
-UPDATE `npc` SET `name` = '殘敗軍 步兵' WHERE `id` = 18786;
-UPDATE `npc` SET `name` = '殘敗軍 魔法隊長' WHERE `id` = 18787;
-UPDATE `npc` SET `name` = '殘敗軍 魔法師' WHERE `id` = 18788;
-UPDATE `npc` SET `name` = '殘敗軍 魔法士兵' WHERE `id` = 18789;
-UPDATE `npc` SET `name` = '殘敗軍 治療師' WHERE `id` = 18790;
-UPDATE `npc` SET `name` = '殘敗軍 標槍兵' WHERE `id` = 18791;
-UPDATE `npc` SET `name` = '殘敗軍 標槍兵' WHERE `id` = 18792;
-UPDATE `npc` SET `name` = '葛林' WHERE `id` = 20001;
-UPDATE `npc` SET `name` = '兔子' WHERE `id` = 20002;
-UPDATE `npc` SET `name` = '哥布林' WHERE `id` = 20003;
-UPDATE `npc` SET `name` = '安普' WHERE `id` = 20004;
-UPDATE `npc` SET `name` = '安普圖倫' WHERE `id` = 20005;
-UPDATE `npc` SET `name` = '獸人弓箭手' WHERE `id` = 20006;
-UPDATE `npc` SET `name` = '森林蘑菇' WHERE `id` = 20007;
-UPDATE `npc` SET `name` = '菲林蜥蜴人' WHERE `id` = 20008;
-UPDATE `npc` SET `name` = '普庫獸人' WHERE `id` = 20009;
-UPDATE `npc` SET `name` = '菲林蜥蜴人巡守' WHERE `id` = 20010;
-UPDATE `npc` SET `name` = '普庫獸人弓箭手' WHERE `id` = 20011;
-UPDATE `npc` SET `name` = '萊斯狼人' WHERE `id` = 20012;
-UPDATE `npc` SET `name` = '樹精' WHERE `id` = 20013;
-UPDATE `npc` SET `name` = '菲林蜥蜴人戰士' WHERE `id` = 20014;
-UPDATE `npc` SET `name` = '沼澤殭屍' WHERE `id` = 20015;
-UPDATE `npc` SET `name` = '岩石高崙' WHERE `id` = 20016;
-UPDATE `npc` SET `name` = '普庫獸人戰士' WHERE `id` = 20017;
-UPDATE `npc` SET `name` = '食人蘑菇' WHERE `id` = 20018;
-UPDATE `npc` SET `name` = '樹精利比' WHERE `id` = 20019;
-UPDATE `npc` SET `name` = '沼澤殭屍偵查員' WHERE `id` = 20020;
-UPDATE `npc` SET `name` = '紅毛熊' WHERE `id` = 20021;
-UPDATE `npc` SET `name` = '戰慄搜尋者' WHERE `id` = 20022;
-UPDATE `npc` SET `name` = '黑豹' WHERE `id` = 20023;
-UPDATE `npc` SET `name` = '朗克蜥蜴人戰士' WHERE `id` = 20024;
-UPDATE `npc` SET `name` = '亞黑暗鐮刀' WHERE `id` = 20025;
-UPDATE `npc` SET `name` = '廢墟殭屍' WHERE `id` = 20026;
-UPDATE `npc` SET `name` = '朗克蜥蜴人巡守' WHERE `id` = 20027;
-UPDATE `npc` SET `name` = '路行蜘蛛' WHERE `id` = 20028;
-UPDATE `npc` SET `name` = '廢墟殭屍頭目' WHERE `id` = 20029;
-UPDATE `npc` SET `name` = '朗克蜥蜴人' WHERE `id` = 20030;
-UPDATE `npc` SET `name` = '瑪瑙獸' WHERE `id` = 20031;
-UPDATE `npc` SET `name` = '大蜘蛛' WHERE `id` = 20032;
-UPDATE `npc` SET `name` = '影之鐮刀' WHERE `id` = 20033;
-UPDATE `npc` SET `name` = '蜘蛛攔截者' WHERE `id` = 20034;
-UPDATE `npc` SET `name` = '骷髏搜查兵' WHERE `id` = 20035;
-UPDATE `npc` SET `name` = '風精' WHERE `id` = 20036;
-UPDATE `npc` SET `name` = '瑪那吸血鬼' WHERE `id` = 20037;
-UPDATE `npc` SET `name` = '巨大毒蜘蛛' WHERE `id` = 20038;
-UPDATE `npc` SET `name` = '食腐鼠人' WHERE `id` = 20039;
-UPDATE `npc` SET `name` = '斯卡鼠人' WHERE `id` = 20040;
-UPDATE `npc` SET `name` = '腐爛殭屍' WHERE `id` = 20041;
-UPDATE `npc` SET `name` = '骷髏搜查兵隊長' WHERE `id` = 20042;
-UPDATE `npc` SET `name` = '縛毒蜘蛛' WHERE `id` = 20043;
-UPDATE `npc` SET `name` = '風精圖倫' WHERE `id` = 20044;
-UPDATE `npc` SET `name` = '骷髏巡守' WHERE `id` = 20045;
-UPDATE `npc` SET `name` = '血色殭屍' WHERE `id` = 20046;
-UPDATE `npc` SET `name` = '斯卡鼠人隊長' WHERE `id` = 20047;
-UPDATE `npc` SET `name` = '小魅魔' WHERE `id` = 20048;
-UPDATE `npc` SET `name` = '獸化狼人' WHERE `id` = 20049;
-UPDATE `npc` SET `name` = '劇毒掠奪者' WHERE `id` = 20050;
-UPDATE `npc` SET `name` = '骷髏射手' WHERE `id` = 20051;
-UPDATE `npc` SET `name` = '小魅魔圖倫' WHERE `id` = 20052;
-UPDATE `npc` SET `name` = '豺狼巡邏員' WHERE `id` = 20053;
-UPDATE `npc` SET `name` = '廢墟史巴托' WHERE `id` = 20054;
-UPDATE `npc` SET `name` = '監視者' WHERE `id` = 20055;
-UPDATE `npc` SET `name` = '德雷巴奴破壞者' WHERE `id` = 20056;
-UPDATE `npc` SET `name` = '小魅魔堤佛' WHERE `id` = 20057;
-UPDATE `npc` SET `name` = '豺狼警衛兵' WHERE `id` = 20058;
-UPDATE `npc` SET `name` = '巡邏者' WHERE `id` = 20059;
-UPDATE `npc` SET `name` = '狂怒的史巴托' WHERE `id` = 20060;
-UPDATE `npc` SET `name` = '豺狼殘存者' WHERE `id` = 20061;
-UPDATE `npc` SET `name` = '突倫食人妖' WHERE `id` = 20062;
-UPDATE `npc` SET `name` = '豺狼射手' WHERE `id` = 20063;
-UPDATE `npc` SET `name` = '突倫食人妖戰士' WHERE `id` = 20064;
-UPDATE `npc` SET `name` = '豺狼巡守' WHERE `id` = 20065;
-UPDATE `npc` SET `name` = '豺狼軍官' WHERE `id` = 20066;
-UPDATE `npc` SET `name` = '觀察者' WHERE `id` = 20067;
-UPDATE `npc` SET `name` = '搜索者' WHERE `id` = 20068;
-UPDATE `npc` SET `name` = '西魯蜥蜴人巡守' WHERE `id` = 20069;
-UPDATE `npc` SET `name` = '邪惡蜥蜴' WHERE `id` = 20070;
-UPDATE `npc` SET `name` = '西魯蜥蜴人戰士' WHERE `id` = 20071;
-UPDATE `npc` SET `name` = '劇毒邪惡蜥蜴' WHERE `id` = 20072;
-UPDATE `npc` SET `name` = '豺狼軍團兵' WHERE `id` = 20073;
-UPDATE `npc` SET `name` = '毒蠍' WHERE `id` = 20074;
-UPDATE `npc` SET `name` = '幼蟻' WHERE `id` = 20075;
-UPDATE `npc` SET `name` = '豺狼指揮官' WHERE `id` = 20076;
-UPDATE `npc` SET `name` = '狩獵毒蠍' WHERE `id` = 20077;
-UPDATE `npc` SET `name` = '風之細語' WHERE `id` = 20078;
-UPDATE `npc` SET `name` = '工蟻' WHERE `id` = 20079;
-UPDATE `npc` SET `name` = '工蟻隊長' WHERE `id` = 20080;
-UPDATE `npc` SET `name` = '工蟻監督者' WHERE `id` = 20081;
-UPDATE `npc` SET `name` = '兵蟻新兵' WHERE `id` = 20082;
-UPDATE `npc` SET `name` = '花崗石高崙' WHERE `id` = 20083;
-UPDATE `npc` SET `name` = '兵蟻斥候' WHERE `id` = 20084;
-UPDATE `npc` SET `name` = '破壞者' WHERE `id` = 20085;
-UPDATE `npc` SET `name` = '兵蟻警衛' WHERE `id` = 20086;
-UPDATE `npc` SET `name` = '兵蟻' WHERE `id` = 20087;
-UPDATE `npc` SET `name` = '兵蟻隊長' WHERE `id` = 20088;
-UPDATE `npc` SET `name` = '雄蟻' WHERE `id` = 20089;
-UPDATE `npc` SET `name` = '雄蟻隊長' WHERE `id` = 20090;
-UPDATE `npc` SET `name` = '幼狐狸' WHERE `id` = 20091;
-UPDATE `npc` SET `name` = '眼怪' WHERE `id` = 20092;
-UPDATE `npc` SET `name` = '獸人鬥士' WHERE `id` = 20093;
-UPDATE `npc` SET `name` = '獸人射手' WHERE `id` = 20094;
-UPDATE `npc` SET `name` = '吸血蝙蝠' WHERE `id` = 20095;
-UPDATE `npc` SET `name` = '獸人鬥士副隊長' WHERE `id` = 20096;
-UPDATE `npc` SET `name` = '長齒蝙蝠' WHERE `id` = 20097;
-UPDATE `npc` SET `name` = '獸人鬥士隊長' WHERE `id` = 20098;
-UPDATE `npc` SET `name` = '骷髏' WHERE `id` = 20099;
-UPDATE `npc` SET `name` = '骷髏弓箭手' WHERE `id` = 20100;
-UPDATE `npc` SET `name` = '碎裂者' WHERE `id` = 20101;
-UPDATE `npc` SET `name` = '骷髏狙擊兵' WHERE `id` = 20102;
-UPDATE `npc` SET `name` = '巨大蜘蛛' WHERE `id` = 20103;
-UPDATE `npc` SET `name` = '骷髏偵查員' WHERE `id` = 20104;
-UPDATE `npc` SET `name` = '黑暗鐮刀' WHERE `id` = 20105;
-UPDATE `npc` SET `name` = '戮殺者' WHERE `id` = 20106;
-UPDATE `npc` SET `name` = '鼠人' WHERE `id` = 20107;
-UPDATE `npc` SET `name` = '撕裂者' WHERE `id` = 20108;
-UPDATE `npc` SET `name` = '火蜥蜴' WHERE `id` = 20109;
-UPDATE `npc` SET `name` = '水精' WHERE `id` = 20110;
-UPDATE `npc` SET `name` = '鼠人副隊長' WHERE `id` = 20111;
-UPDATE `npc` SET `name` = '火蜥蜴利比' WHERE `id` = 20112;
-UPDATE `npc` SET `name` = '水精利比' WHERE `id` = 20113;
-UPDATE `npc` SET `name` = '火蜥蜴夷巴' WHERE `id` = 20114;
-UPDATE `npc` SET `name` = '水精夷巴' WHERE `id` = 20115;
-UPDATE `npc` SET `name` = '狐狸' WHERE `id` = 20116;
-UPDATE `npc` SET `name` = '德雷巴奴' WHERE `id` = 20117;
-UPDATE `npc` SET `name` = '德雷巴奴巡守' WHERE `id` = 20118;
-UPDATE `npc` SET `name` = '狐狸首領' WHERE `id` = 20119;
-UPDATE `npc` SET `name` = '狼' WHERE `id` = 20120;
-UPDATE `npc` SET `name` = '巨大蛤蟆' WHERE `id` = 20121;
-UPDATE `npc` SET `name` = '獸人' WHERE `id` = 20130;
-UPDATE `npc` SET `name` = '獸人士兵' WHERE `id` = 20131;
-UPDATE `npc` SET `name` = '狼人' WHERE `id` = 20132;
-UPDATE `npc` SET `name` = '食人妖' WHERE `id` = 20133;
-UPDATE `npc` SET `name` = '蛇人之后' WHERE `id` = 20134;
-UPDATE `npc` SET `name` = '鱷魚' WHERE `id` = 20135;
-UPDATE `npc` SET `name` = '死亡騎士' WHERE `id` = 20136;
-UPDATE `npc` SET `name` = '飛龍' WHERE `id` = 20137;
-UPDATE `npc` SET `name` = '翼魔' WHERE `id` = 20138;
-UPDATE `npc` SET `name` = '巨大蜜蜂' WHERE `id` = 20139;
-UPDATE `npc` SET `name` = '巨大水蛭' WHERE `id` = 20140;
-UPDATE `npc` SET `name` = '巨大野豬' WHERE `id` = 20141;
-UPDATE `npc` SET `name` = '獅鷲' WHERE `id` = 20142;
-UPDATE `npc` SET `name` = '灰熊' WHERE `id` = 20143;
-UPDATE `npc` SET `name` = '死亡之樹' WHERE `id` = 20144;
-UPDATE `npc` SET `name` = '鳥妖' WHERE `id` = 20145;
-UPDATE `npc` SET `name` = '無頭騎士' WHERE `id` = 20146;
-UPDATE `npc` SET `name` = '哈柏哥布林' WHERE `id` = 20147;
-UPDATE `npc` SET `name` = '餓靈' WHERE `id` = 20148;
-UPDATE `npc` SET `name` = '鋼鐵高崙' WHERE `id` = 20149;
-UPDATE `npc` SET `name` = '食人妖王' WHERE `id` = 20150;
-UPDATE `npc` SET `name` = '地靈' WHERE `id` = 20151;
-UPDATE `npc` SET `name` = '蜥蜴人' WHERE `id` = 20152;
-UPDATE `npc` SET `name` = '魔翼' WHERE `id` = 20153;
-UPDATE `npc` SET `name` = '曼陀羅草' WHERE `id` = 20154;
-UPDATE `npc` SET `name` = '曼陀羅草成體' WHERE `id` = 20155;
-UPDATE `npc` SET `name` = '曼陀羅草完全體' WHERE `id` = 20156;
-UPDATE `npc` SET `name` = '沼澤司塔卡拓' WHERE `id` = 20157;
-UPDATE `npc` SET `name` = '梅杜莎' WHERE `id` = 20158;
-UPDATE `npc` SET `name` = '牛人' WHERE `id` = 20159;
-UPDATE `npc` SET `name` = '尼勒鋼爪' WHERE `id` = 20160;
-UPDATE `npc` SET `name` = '奧耶豺狼' WHERE `id` = 20161;
-UPDATE `npc` SET `name` = '食人魔' WHERE `id` = 20162;
-UPDATE `npc` SET `name` = '豺狼' WHERE `id` = 20163;
-UPDATE `npc` SET `name` = '豺狼弓箭手' WHERE `id` = 20164;
-UPDATE `npc` SET `name` = '豺狼擁護者' WHERE `id` = 20165;
-UPDATE `npc` SET `name` = '魅魔' WHERE `id` = 20166;
-UPDATE `npc` SET `name` = '蛇人奴隸' WHERE `id` = 20167;
-UPDATE `npc` SET `name` = '賽勒諾斯' WHERE `id` = 20168;
-UPDATE `npc` SET `name` = '骷髏警衛' WHERE `id` = 20169;
-UPDATE `npc` SET `name` = '史巴托' WHERE `id` = 20170;
-UPDATE `npc` SET `name` = '幽靈鐮刀' WHERE `id` = 20171;
-UPDATE `npc` SET `name` = '風妖精' WHERE `id` = 20172;
-UPDATE `npc` SET `name` = '巨魔' WHERE `id` = 20173;
-UPDATE `npc` SET `name` = '雙頭巨人' WHERE `id` = 20174;
-UPDATE `npc` SET `name` = '蘑菇' WHERE `id` = 20175;
-UPDATE `npc` SET `name` = '亞龍' WHERE `id` = 20176;
-UPDATE `npc` SET `name` = '人形殭屍' WHERE `id` = 20177;
-UPDATE `npc` SET `name` = '水晶獅' WHERE `id` = 20189;
-UPDATE `npc` SET `name` = '骷髏神射手' WHERE `id` = 20190;
-UPDATE `npc` SET `name` = '骷髏兵' WHERE `id` = 20191;
-UPDATE `npc` SET `name` = '暴君' WHERE `id` = 20192;
-UPDATE `npc` SET `name` = '暴君之王' WHERE `id` = 20193;
-UPDATE `npc` SET `name` = '水精女王' WHERE `id` = 20194;
-UPDATE `npc` SET `name` = '幽魂' WHERE `id` = 20197;
-UPDATE `npc` SET `name` = '尼勒鋼爪弗雷克' WHERE `id` = 20198;
-UPDATE `npc` SET `name` = '安柏邪惡蜥蜴' WHERE `id` = 20199;
-UPDATE `npc` SET `name` = '倦靈' WHERE `id` = 20200;
-UPDATE `npc` SET `name` = '食屍鬼' WHERE `id` = 20201;
-UPDATE `npc` SET `name` = '死亡追蹤者' WHERE `id` = 20202;
-UPDATE `npc` SET `name` = '狄恩灰熊' WHERE `id` = 20203;
-UPDATE `npc` SET `name` = '血腥蜜蜂' WHERE `id` = 20204;
-UPDATE `npc` SET `name` = '惡狼' WHERE `id` = 20205;
-UPDATE `npc` SET `name` = '卡地普狼人' WHERE `id` = 20206;
-UPDATE `npc` SET `name` = '豺狼游擊隊' WHERE `id` = 20207;
-UPDATE `npc` SET `name` = '豺狼突擊兵' WHERE `id` = 20208;
-UPDATE `npc` SET `name` = '豺狼狙擊兵' WHERE `id` = 20209;
-UPDATE `npc` SET `name` = '豺狼副隊長' WHERE `id` = 20210;
-UPDATE `npc` SET `name` = '豺狼隊長' WHERE `id` = 20211;
-UPDATE `npc` SET `name` = '突魯馬克', `title` = '豺狼王' WHERE `id` = 20212;
-UPDATE `npc` SET `name` = '破塔' WHERE `id` = 20213;
-UPDATE `npc` SET `name` = '艾斯庫洛' WHERE `id` = 20214;
-UPDATE `npc` SET `name` = '莫狄奧' WHERE `id` = 20215;
-UPDATE `npc` SET `name` = '里森席歐' WHERE `id` = 20216;
-UPDATE `npc` SET `name` = '克雷特' WHERE `id` = 20217;
-UPDATE `npc` SET `name` = '普勒摩' WHERE `id` = 20218;
-UPDATE `npc` SET `name` = '瓦里達斯' WHERE `id` = 20219;
-UPDATE `npc` SET `name` = '迪克爾' WHERE `id` = 20220;
-UPDATE `npc` SET `name` = '匹黎姆' WHERE `id` = 20221;
-UPDATE `npc` SET `name` = '特菲' WHERE `id` = 20222;
-UPDATE `npc` SET `name` = '曼陀羅草新芽' WHERE `id` = 20223;
-UPDATE `npc` SET `name` = '豺狼巡邏兵' WHERE `id` = 20224;
-UPDATE `npc` SET `name` = '米斯巨大水蛭' WHERE `id` = 20225;
-UPDATE `npc` SET `name` = '古代螞蟻' WHERE `id` = 20226;
-UPDATE `npc` SET `name` = '薄霧撕裂者' WHERE `id` = 20227;
-UPDATE `npc` SET `name` = '赤螞蟻' WHERE `id` = 20228;
-UPDATE `npc` SET `name` = '奇異蜜蜂' WHERE `id` = 20229;
-UPDATE `npc` SET `name` = '沼澤司塔卡拓工人' WHERE `id` = 20230;
-UPDATE `npc` SET `name` = '安皮克奧' WHERE `id` = 20231;
-UPDATE `npc` SET `name` = '沼澤司塔卡拓士兵' WHERE `id` = 20232;
-UPDATE `npc` SET `name` = '沼澤蜘蛛' WHERE `id` = 20233;
-UPDATE `npc` SET `name` = '雄性沼澤司塔卡拓' WHERE `id` = 20234;
-UPDATE `npc` SET `name` = '束縛靈' WHERE `id` = 20235;
-UPDATE `npc` SET `name` = '洞穴僕人' WHERE `id` = 20236;
-UPDATE `npc` SET `name` = '洞穴僕人弓箭手' WHERE `id` = 20237;
-UPDATE `npc` SET `name` = '洞穴僕人戰士' WHERE `id` = 20238;
-UPDATE `npc` SET `name` = '洞穴僕人隊長' WHERE `id` = 20239;
-UPDATE `npc` SET `name` = '貴族洞穴僕人' WHERE `id` = 20240;
-UPDATE `npc` SET `name` = '狩獵翼魔' WHERE `id` = 20241;
-UPDATE `npc` SET `name` = '塵爆' WHERE `id` = 20242;
-UPDATE `npc` SET `name` = '雷亞龍' WHERE `id` = 20243;
-UPDATE `npc` SET `name` = '瑪魯克魅魔' WHERE `id` = 20244;
-UPDATE `npc` SET `name` = '瑪魯克魅魔圖倫' WHERE `id` = 20245;
-UPDATE `npc` SET `name` = '洞穴守衛' WHERE `id` = 20246;
-UPDATE `npc` SET `name` = '突倫克食人妖' WHERE `id` = 20248;
-UPDATE `npc` SET `name` = '突倫克食人妖戰士' WHERE `id` = 20249;
-UPDATE `npc` SET `name` = '玻璃虎' WHERE `id` = 20250;
-UPDATE `npc` SET `name` = '德魯蜥蜴人' WHERE `id` = 20251;
-UPDATE `npc` SET `name` = '德魯蜥蜴人巡守' WHERE `id` = 20252;
-UPDATE `npc` SET `name` = '德魯蜥蜴人戰士' WHERE `id` = 20253;
-UPDATE `npc` SET `name` = '骷髏斧手' WHERE `id` = 20254;
-UPDATE `npc` SET `name` = '巴吐獸人' WHERE `id` = 20255;
-UPDATE `npc` SET `name` = '巴吐獸人弓箭手' WHERE `id` = 20256;
-UPDATE `npc` SET `name` = '巴吐獸人戰士' WHERE `id` = 20257;
-UPDATE `npc` SET `name` = '巴吐獸人巫師' WHERE `id` = 20258;
-UPDATE `npc` SET `name` = '巴吐獸人王' WHERE `id` = 20259;
-UPDATE `npc` SET `name` = '獸人英雄' WHERE `id` = 20260;
-UPDATE `npc` SET `name` = '獸人巫師' WHERE `id` = 20261;
-UPDATE `npc` SET `name` = '眼怪搜索者' WHERE `id` = 20265;
-UPDATE `npc` SET `name` = '眼怪凝視者' WHERE `id` = 20266;
-UPDATE `npc` SET `name` = '布賴卡獸人' WHERE `id` = 20267;
-UPDATE `npc` SET `name` = '布賴卡獸人弓箭手' WHERE `id` = 20268;
-UPDATE `npc` SET `name` = '布賴卡獸人巫師' WHERE `id` = 20269;
-UPDATE `npc` SET `name` = '布賴卡獸人王' WHERE `id` = 20270;
-UPDATE `npc` SET `name` = '布賴卡獸人戰士' WHERE `id` = 20271;
-UPDATE `npc` SET `name` = '洞穴僕人' WHERE `id` = 20272;
-UPDATE `npc` SET `name` = '洞穴僕人弓箭手' WHERE `id` = 20273;
-UPDATE `npc` SET `name` = '洞穴僕人戰士' WHERE `id` = 20274;
-UPDATE `npc` SET `name` = '洞穴僕人隊長' WHERE `id` = 20275;
-UPDATE `npc` SET `name` = '貴族洞穴僕人' WHERE `id` = 20276;
-UPDATE `npc` SET `name` = '洞穴守衛' WHERE `id` = 20277;
-UPDATE `npc` SET `name` = '束縛靈' WHERE `id` = 20279;
-UPDATE `npc` SET `name` = '無頭騎士' WHERE `id` = 20280;
-UPDATE `npc` SET `name` = '塵爆' WHERE `id` = 20281;
-UPDATE `npc` SET `name` = '雷亞龍' WHERE `id` = 20282;
-UPDATE `npc` SET `name` = '瑪魯克魅魔' WHERE `id` = 20283;
-UPDATE `npc` SET `name` = '瑪魯克魅魔圖倫' WHERE `id` = 20284;
-UPDATE `npc` SET `name` = '飛龍' WHERE `id` = 20285;
-UPDATE `npc` SET `name` = '狩獵翼魔' WHERE `id` = 20286;
-UPDATE `npc` SET `name` = '蛇人之后' WHERE `id` = 20287;
-UPDATE `npc` SET `name` = '安庫獸人英雄' WHERE `id` = 20291;
-UPDATE `npc` SET `name` = '安庫獸人巫師' WHERE `id` = 20292;
-UPDATE `npc` SET `name` = '皮魯德蜥蜴人' WHERE `id` = 20293;
-UPDATE `npc` SET `name` = '皮魯德蜥蜴人女族長' WHERE `id` = 20294;
-UPDATE `npc` SET `name` = '皮魯德蜥蜴人戰士' WHERE `id` = 20295;
-UPDATE `npc` SET `name` = '皮魯德蜥蜴人巡守' WHERE `id` = 20296;
-UPDATE `npc` SET `name` = '皮魯德蜥蜴人巫師' WHERE `id` = 20297;
-UPDATE `npc` SET `name` = '皮魯德蜥蜴人巫師' WHERE `id` = 20298;
-UPDATE `npc` SET `name` = '辛達蜥蜴人' WHERE `id` = 20299;
-UPDATE `npc` SET `name` = '辛達蜥蜴人女族長' WHERE `id` = 20300;
-UPDATE `npc` SET `name` = '辛達蜥蜴人巡守' WHERE `id` = 20301;
-UPDATE `npc` SET `name` = '辛達蜥蜴人戰士' WHERE `id` = 20302;
-UPDATE `npc` SET `name` = '辛達蜥蜴人巫師' WHERE `id` = 20303;
-UPDATE `npc` SET `name` = '沼澤司塔卡拓女王' WHERE `id` = 20304;
-UPDATE `npc` SET `name` = '葛雷姆' WHERE `id` = 20305;
-UPDATE `npc` SET `name` = '噶倫狼人' WHERE `id` = 20307;
-UPDATE `npc` SET `name` = '巨勾蜘蛛' WHERE `id` = 20308;
-UPDATE `npc` SET `name` = '棕色狐狸' WHERE `id` = 20309;
-UPDATE `npc` SET `name` = '棕熊' WHERE `id` = 20310;
-UPDATE `npc` SET `name` = '鉤爪安普' WHERE `id` = 20311;
-UPDATE `npc` SET `name` = '鉤爪安普獵人' WHERE `id` = 20312;
-UPDATE `npc` SET `name` = '鉤爪安普首領' WHERE `id` = 20313;
-UPDATE `npc` SET `name` = '大白鯊' WHERE `id` = 20314;
-UPDATE `npc` SET `name` = '黑翼蝙蝠' WHERE `id` = 20316;
-UPDATE `npc` SET `name` = '黑毛狼' WHERE `id` = 20317;
-UPDATE `npc` SET `name` = '黑毛野狼' WHERE `id` = 20318;
-UPDATE `npc` SET `name` = '盜墓哥布林' WHERE `id` = 20319;
-UPDATE `npc` SET `name` = '盜墓哥布林隊長' WHERE `id` = 20320;
-UPDATE `npc` SET `name` = '小偷哥布林' WHERE `id` = 20321;
-UPDATE `npc` SET `name` = '山賊哥布林' WHERE `id` = 20322;
-UPDATE `npc` SET `name` = '山賊哥布林隊長' WHERE `id` = 20323;
-UPDATE `npc` SET `name` = '山賊哥布林副隊長' WHERE `id` = 20324;
-UPDATE `npc` SET `name` = '哥布林掠奪者' WHERE `id` = 20325;
-UPDATE `npc` SET `name` = '哥布林巡守' WHERE `id` = 20326;
-UPDATE `npc` SET `name` = '哥布林搜索員' WHERE `id` = 20327;
-UPDATE `npc` SET `name` = '哥布林監視員' WHERE `id` = 20328;
-UPDATE `npc` SET `name` = '鬼魂守護者' WHERE `id` = 20329;
-UPDATE `npc` SET `name` = '山蝙蝠' WHERE `id` = 20330;
-UPDATE `npc` SET `name` = '眼怪追捕者' WHERE `id` = 20331;
-UPDATE `npc` SET `name` = '灰石高崙' WHERE `id` = 20333;
-UPDATE `npc` SET `name` = '食腐葛林' WHERE `id` = 20334;
-UPDATE `npc` SET `name` = '大灰熊' WHERE `id` = 20335;
-UPDATE `npc` SET `name` = '綠色樹精' WHERE `id` = 20336;
-UPDATE `npc` SET `name` = '長尾狐狸' WHERE `id` = 20337;
-UPDATE `npc` SET `name` = '夢靨之翼' WHERE `id` = 20338;
-UPDATE `npc` SET `name` = '奴隸骷髏' WHERE `id` = 20340;
-UPDATE `npc` SET `name` = '奴隸亡靈' WHERE `id` = 20341;
-UPDATE `npc` SET `name` = '狼人酋長' WHERE `id` = 20342;
-UPDATE `npc` SET `name` = '狩獵狼人' WHERE `id` = 20343;
-UPDATE `npc` SET `name` = '黑夜之懼' WHERE `id` = 20345;
-UPDATE `npc` SET `name` = '黑暗石高崙' WHERE `id` = 20346;
-UPDATE `npc` SET `name` = '死亡之刃' WHERE `id` = 20347;
-UPDATE `npc` SET `name` = '洞穴蜘蛛' WHERE `id` = 20348;
-UPDATE `npc` SET `name` = '洞穴蝙蝠' WHERE `id` = 20349;
-UPDATE `npc` SET `name` = '洞穴戮殺者' WHERE `id` = 20350;
-UPDATE `npc` SET `name` = '德雷巴奴追捕者' WHERE `id` = 20351;
-UPDATE `npc` SET `name` = '德雷巴奴兇手' WHERE `id` = 20352;
-UPDATE `npc` SET `name` = '德雷巴奴觀察者' WHERE `id` = 20353;
-UPDATE `npc` SET `name` = '矮人鬼魂' WHERE `id` = 20354;
-UPDATE `npc` SET `name` = '朗克蜥蜴人隊長' WHERE `id` = 20356;
-UPDATE `npc` SET `name` = '朗克蜥蜴人副隊長' WHERE `id` = 20357;
-UPDATE `npc` SET `name` = '狩獵鼠人' WHERE `id` = 20358;
-UPDATE `npc` SET `name` = '鼠人戰士' WHERE `id` = 20359;
-UPDATE `npc` SET `name` = '鼠人間諜' WHERE `id` = 20360;
-UPDATE `npc` SET `name` = '雷沃恩特獸人射手' WHERE `id` = 20361;
-UPDATE `npc` SET `name` = '雷沃恩特獸人鬥士隊長' WHERE `id` = 20362;
-UPDATE `npc` SET `name` = '瑪剌庫狼人' WHERE `id` = 20363;
-UPDATE `npc` SET `name` = '瑪剌庫狼人首領' WHERE `id` = 20364;
-UPDATE `npc` SET `name` = '山蘑菇' WHERE `id` = 20365;
-UPDATE `npc` SET `name` = '梅肯尼斯護衛兵' WHERE `id` = 20367;
-UPDATE `npc` SET `name` = '守墓人' WHERE `id` = 20368;
-UPDATE `npc` SET `name` = '月石獸' WHERE `id` = 20369;
-UPDATE `npc` SET `name` = '長刺蝙蝠' WHERE `id` = 20370;
-UPDATE `npc` SET `name` = '薄霧之懼' WHERE `id` = 20371;
-UPDATE `npc` SET `name` = '巴拉克獸人鬥士' WHERE `id` = 20372;
-UPDATE `npc` SET `name` = '巴拉克獸人鬥士隊長' WHERE `id` = 20373;
-UPDATE `npc` SET `name` = '巴蘭卡警衛兵' WHERE `id` = 20374;
-UPDATE `npc` SET `name` = '巴蘭卡護衛兵' WHERE `id` = 20375;
-UPDATE `npc` SET `name` = '巴里卡盜賊隊長' WHERE `id` = 20376;
-UPDATE `npc` SET `name` = '巴里卡盜賊' WHERE `id` = 20377;
-UPDATE `npc` SET `name` = '巨石' WHERE `id` = 20378;
-UPDATE `npc` SET `name` = '巨石士兵' WHERE `id` = 20379;
-UPDATE `npc` SET `name` = '巨石守護者' WHERE `id` = 20380;
-UPDATE `npc` SET `name` = '巴斯獸人' WHERE `id` = 20381;
-UPDATE `npc` SET `name` = '巴斯獸人隊長' WHERE `id` = 20382;
-UPDATE `npc` SET `name` = '縛靈' WHERE `id` = 20383;
-UPDATE `npc` SET `name` = '貝爾勒獸人弓箭手' WHERE `id` = 20385;
-UPDATE `npc` SET `name` = '貝爾勒獸人鬥士' WHERE `id` = 20386;
-UPDATE `npc` SET `name` = '貝爾勒獸人鬥士隊長' WHERE `id` = 20387;
-UPDATE `npc` SET `name` = '貝爾勒獸人鬥士副隊長' WHERE `id` = 20388;
-UPDATE `npc` SET `name` = '布基鼠人' WHERE `id` = 20389;
-UPDATE `npc` SET `name` = '布基鼠人隊長' WHERE `id` = 20390;
-UPDATE `npc` SET `name` = '紅狐狸' WHERE `id` = 20391;
-UPDATE `npc` SET `name` = '紅眼蝙蝠' WHERE `id` = 20392;
-UPDATE `npc` SET `name` = '食腐紅蜘蛛' WHERE `id` = 20393;
-UPDATE `npc` SET `name` = '赤毛狼蜘蛛' WHERE `id` = 20394;
-UPDATE `npc` SET `name` = '里庫拉卡斯' WHERE `id` = 20398;
-UPDATE `npc` SET `name` = '里庫拉卡斯之子' WHERE `id` = 20399;
-UPDATE `npc` SET `name` = '血蘑菇' WHERE `id` = 20400;
-UPDATE `npc` SET `name` = '必倫食人妖' WHERE `id` = 20401;
-UPDATE `npc` SET `name` = '必倫食人妖戰士' WHERE `id` = 20402;
-UPDATE `npc` SET `name` = '獵人狼蛛' WHERE `id` = 20403;
-UPDATE `npc` SET `name` = '沉靜之懼' WHERE `id` = 20404;
-UPDATE `npc` SET `name` = '幼棕狐狸' WHERE `id` = 20405;
-UPDATE `npc` SET `name` = '幼紅狐狸' WHERE `id` = 20406;
-UPDATE `npc` SET `name` = '幼赤狐狸' WHERE `id` = 20407;
-UPDATE `npc` SET `name` = '食腐蜘蛛' WHERE `id` = 20410;
-UPDATE `npc` SET `name` = '食腐蝙蝠' WHERE `id` = 20411;
-UPDATE `npc` SET `name` = '基座' WHERE `id` = 20412;
-UPDATE `npc` SET `name` = '猩紅火蜥蜴' WHERE `id` = 20415;
-UPDATE `npc` SET `name` = '猩紅火蜥蜴利比' WHERE `id` = 20416;
-UPDATE `npc` SET `name` = '象牙獸' WHERE `id` = 20418;
-UPDATE `npc` SET `name` = '阿卡斯特魅魔' WHERE `id` = 20419;
-UPDATE `npc` SET `name` = '阿卡斯特魅魔圖倫' WHERE `id` = 20420;
-UPDATE `npc` SET `name` = '阿卡斯特魅魔堤佛' WHERE `id` = 20421;
-UPDATE `npc` SET `name` = '阿卡斯特白骨將軍' WHERE `id` = 20422;
-UPDATE `npc` SET `name` = '阿卡斯特白骨弓箭手' WHERE `id` = 20423;
-UPDATE `npc` SET `name` = '阿卡斯特白骨之王' WHERE `id` = 20424;
-UPDATE `npc` SET `name` = '阿卡斯特白骨士兵' WHERE `id` = 20425;
-UPDATE `npc` SET `name` = '惡魔之眼' WHERE `id` = 20426;
-UPDATE `npc` SET `name` = '惡魔之眼監視者' WHERE `id` = 20427;
-UPDATE `npc` SET `name` = '惡魔之眼巡查者' WHERE `id` = 20428;
-UPDATE `npc` SET `name` = '惡魔之眼監視哨' WHERE `id` = 20429;
-UPDATE `npc` SET `name` = '精靈鬼魂' WHERE `id` = 20431;
-UPDATE `npc` SET `name` = '獨角兔' WHERE `id` = 20432;
-UPDATE `npc` SET `name` = '疫病蝙蝠' WHERE `id` = 20433;
-UPDATE `npc` SET `name` = '貓眼獸' WHERE `id` = 20435;
-UPDATE `npc` SET `name` = '豺狼補充兵' WHERE `id` = 20436;
-UPDATE `npc` SET `name` = '豺狼新兵' WHERE `id` = 20437;
-UPDATE `npc` SET `name` = '豺狼將軍' WHERE `id` = 20438;
-UPDATE `npc` SET `name` = '豺狼下士官' WHERE `id` = 20439;
-UPDATE `npc` SET `name` = '棕狐狸首領' WHERE `id` = 20440;
-UPDATE `npc` SET `name` = '長尾狐狸首領' WHERE `id` = 20441;
-UPDATE `npc` SET `name` = '狼首領' WHERE `id` = 20442;
-UPDATE `npc` SET `name` = '紅狐狸首領' WHERE `id` = 20443;
-UPDATE `npc` SET `name` = '赤狐狸首領' WHERE `id` = 20444;
-UPDATE `npc` SET `name` = '烏山卡海賊' WHERE `id` = 20445;
-UPDATE `npc` SET `name` = '烏土庫獸人' WHERE `id` = 20446;
-UPDATE `npc` SET `name` = '烏土庫獸人弓箭手' WHERE `id` = 20447;
-UPDATE `npc` SET `name` = '烏土庫獸人士兵' WHERE `id` = 20448;
-UPDATE `npc` SET `name` = '燐火' WHERE `id` = 20449;
-UPDATE `npc` SET `name` = '遺蹟狼人' WHERE `id` = 20450;
-UPDATE `npc` SET `name` = '遺蹟史巴托' WHERE `id` = 20451;
-UPDATE `npc` SET `name` = '人類鬼魂' WHERE `id` = 20453;
-UPDATE `npc` SET `name` = '被遺忘的監視者' WHERE `id` = 20454;
-UPDATE `npc` SET `name` = '末日士兵' WHERE `id` = 20455;
-UPDATE `npc` SET `name` = '灰狼' WHERE `id` = 20456;
-UPDATE `npc` SET `name` = '人形殭屍士兵' WHERE `id` = 20457;
-UPDATE `npc` SET `name` = '人形殭屍鬥士' WHERE `id` = 20458;
-UPDATE `npc` SET `name` = '赤蜘蛛' WHERE `id` = 20460;
-UPDATE `npc` SET `name` = '地城蜘蛛' WHERE `id` = 20461;
-UPDATE `npc` SET `name` = '地城戮殺者' WHERE `id` = 20462;
-UPDATE `npc` SET `name` = '地城骷髏弓箭手' WHERE `id` = 20463;
-UPDATE `npc` SET `name` = '地城骷髏士兵' WHERE `id` = 20464;
-UPDATE `npc` SET `name` = '赤狐狸' WHERE `id` = 20465;
-UPDATE `npc` SET `name` = '長爪蜘蛛' WHERE `id` = 20466;
-UPDATE `npc` SET `name` = '卡布獸人' WHERE `id` = 20468;
-UPDATE `npc` SET `name` = '卡布獸人弓箭手' WHERE `id` = 20469;
-UPDATE `npc` SET `name` = '卡布獸人士兵' WHERE `id` = 20470;
-UPDATE `npc` SET `name` = '卡布獸人鬥士' WHERE `id` = 20471;
-UPDATE `npc` SET `name` = '卡布獸人鬥士隊長' WHERE `id` = 20472;
-UPDATE `npc` SET `name` = '卡布獸人鬥士副隊長' WHERE `id` = 20473;
-UPDATE `npc` SET `name` = '卡沙蜘蛛' WHERE `id` = 20474;
-UPDATE `npc` SET `name` = '卡沙狼' WHERE `id` = 20475;
-UPDATE `npc` SET `name` = '卡沙長齒蜘蛛' WHERE `id` = 20476;
-UPDATE `npc` SET `name` = '卡沙灰狼' WHERE `id` = 20477;
-UPDATE `npc` SET `name` = '卡沙刀刃蜘蛛' WHERE `id` = 20478;
-UPDATE `npc` SET `name` = '卡沙熊' WHERE `id` = 20479;
-UPDATE `npc` SET `name` = '刀刃蝙蝠' WHERE `id` = 20480;
-UPDATE `npc` SET `name` = '狐狗' WHERE `id` = 20481;
-UPDATE `npc` SET `name` = '鬼火' WHERE `id` = 20483;
-UPDATE `npc` SET `name` = '庫勒卡鼠人' WHERE `id` = 20487;
-UPDATE `npc` SET `name` = '庫勒卡狩獵鼠人' WHERE `id` = 20488;
-UPDATE `npc` SET `name` = '閃銀獸' WHERE `id` = 20489;
-UPDATE `npc` SET `name` = '赤色人偶' WHERE `id` = 20490;
-UPDATE `npc` SET `name` = '地穴之懼' WHERE `id` = 20491;
-UPDATE `npc` SET `name` = '克魯納克護衛兵' WHERE `id` = 20492;
-UPDATE `npc` SET `name` = '土瑞克軍犬' WHERE `id` = 20494;
-UPDATE `npc` SET `name` = '土瑞克獸人將軍' WHERE `id` = 20495;
-UPDATE `npc` SET `name` = '土瑞克獸人弓箭手' WHERE `id` = 20496;
-UPDATE `npc` SET `name` = '土瑞克獸人突襲兵' WHERE `id` = 20497;
-UPDATE `npc` SET `name` = '土瑞克獸人補充兵' WHERE `id` = 20498;
-UPDATE `npc` SET `name` = '土瑞克獸人步兵' WHERE `id` = 20499;
-UPDATE `npc` SET `name` = '土瑞克獸人哨兵' WHERE `id` = 20500;
-UPDATE `npc` SET `name` = '土瑞克獸人巫師' WHERE `id` = 20501;
-UPDATE `npc` SET `name` = '特紋克水晶獅' WHERE `id` = 20502;
-UPDATE `npc` SET `name` = '恐懼士兵' WHERE `id` = 20504;
-UPDATE `npc` SET `name` = '廢墟蝙蝠' WHERE `id` = 20505;
-UPDATE `npc` SET `name` = '廢墟安普' WHERE `id` = 20506;
-UPDATE `npc` SET `name` = '廢墟安普利比' WHERE `id` = 20507;
-UPDATE `npc` SET `name` = '掠食者狼蛛' WHERE `id` = 20508;
-UPDATE `npc` SET `name` = '蘑菇孢子' WHERE `id` = 20509;
-UPDATE `npc` SET `name` = '水晶獅' WHERE `id` = 20510;
-UPDATE `npc` SET `name` = '松脂石高崙' WHERE `id` = 20511;
-UPDATE `npc` SET `name` = '荒野追蹤者' WHERE `id` = 20512;
-UPDATE `npc` SET `name` = '骷髏騎士' WHERE `id` = 20513;
-UPDATE `npc` SET `name` = '骷髏護衛兵' WHERE `id` = 20514;
-UPDATE `npc` SET `name` = '骷髏步兵' WHERE `id` = 20515;
-UPDATE `npc` SET `name` = '骷髏哨兵' WHERE `id` = 20516;
-UPDATE `npc` SET `name` = '骷髏獵人' WHERE `id` = 20517;
-UPDATE `npc` SET `name` = '骷髏獵人弓箭手' WHERE `id` = 20518;
-UPDATE `npc` SET `name` = '骷髏槍兵' WHERE `id` = 20519;
-UPDATE `npc` SET `name` = '海賊王烏山卡' WHERE `id` = 20520;
-UPDATE `npc` SET `name` = '玄武石高崙' WHERE `id` = 20521;
-UPDATE `npc` SET `name` = '白牙' WHERE `id` = 20522;
-UPDATE `npc` SET `name` = '灰狼' WHERE `id` = 20524;
-UPDATE `npc` SET `name` = '灰毛狼' WHERE `id` = 20525;
-UPDATE `npc` SET `name` = '黑曜石高崙' WHERE `id` = 20526;
-UPDATE `npc` SET `name` = '白狼' WHERE `id` = 20527;
-UPDATE `npc` SET `name` = '哥布林王' WHERE `id` = 20528;
-UPDATE `npc` SET `name` = '幼棕狐狗' WHERE `id` = 20529;
-UPDATE `npc` SET `name` = '幼紅狐狗' WHERE `id` = 20530;
-UPDATE `npc` SET `name` = '幼赤狐狗' WHERE `id` = 20531;
-UPDATE `npc` SET `name` = '棕狐狗' WHERE `id` = 20532;
-UPDATE `npc` SET `name` = '長尾狐狗' WHERE `id` = 20533;
-UPDATE `npc` SET `name` = '紅狐狗' WHERE `id` = 20534;
-UPDATE `npc` SET `name` = '赤狐狗' WHERE `id` = 20535;
-UPDATE `npc` SET `name` = '棕狐狗首領' WHERE `id` = 20536;
-UPDATE `npc` SET `name` = '紅狐狗首領' WHERE `id` = 20537;
-UPDATE `npc` SET `name` = '赤狐狗首領' WHERE `id` = 20538;
-UPDATE `npc` SET `name` = '長尾狐狗首領' WHERE `id` = 20539;
-UPDATE `npc` SET `name` = '寶石獸' WHERE `id` = 20540;
-UPDATE `npc` SET `name` = '礦坑蝙蝠' WHERE `id` = 20541;
-UPDATE `npc` SET `name` = '骷髏長弓手' WHERE `id` = 20542;
-UPDATE `npc` SET `name` = '靈魂' WHERE `id` = 20543;
-UPDATE `npc` SET `name` = '狐狗首領' WHERE `id` = 20544;
-UPDATE `npc` SET `name` = '幼狐狗' WHERE `id` = 20545;
-UPDATE `npc` SET `name` = '土瑞克獸人首領' WHERE `id` = 20546;
-UPDATE `npc` SET `name` = '豺狼後備兵' WHERE `id` = 20547;
-UPDATE `npc` SET `name` = '豺狼逃亡者' WHERE `id` = 20548;
-UPDATE `npc` SET `name` = '豺狼王' WHERE `id` = 20549;
-UPDATE `npc` SET `name` = '邪惡蜥蜴守護者' WHERE `id` = 20550;
-UPDATE `npc` SET `name` = '食腐王' WHERE `id` = 20551;
-UPDATE `npc` SET `name` = '赤色束縛' WHERE `id` = 20552;
-UPDATE `npc` SET `name` = '溫德薩斯' WHERE `id` = 20553;
-UPDATE `npc` SET `name` = '葛雷迪斯' WHERE `id` = 20554;
-UPDATE `npc` SET `name` = '巨大蘑菇' WHERE `id` = 20555;
-UPDATE `npc` SET `name` = '巨大眼怪' WHERE `id` = 20556;
-UPDATE `npc` SET `name` = '邪惡亞龍' WHERE `id` = 20557;
-UPDATE `npc` SET `name` = '腐爛樹' WHERE `id` = 20558;
-UPDATE `npc` SET `name` = '腐爛高崙' WHERE `id` = 20559;
-UPDATE `npc` SET `name` = '崔沙林' WHERE `id` = 20560;
-UPDATE `npc` SET `name` = '崔沙林多得' WHERE `id` = 20561;
-UPDATE `npc` SET `name` = '孢子殭屍' WHERE `id` = 20562;
-UPDATE `npc` SET `name` = '瑪那宣' WHERE `id` = 20563;
-UPDATE `npc` SET `name` = '附法眼怪' WHERE `id` = 20564;
-UPDATE `npc` SET `name` = '附法岩石高崙' WHERE `id` = 20565;
-UPDATE `npc` SET `name` = '附法鋼鐵高崙' WHERE `id` = 20566;
-UPDATE `npc` SET `name` = '附法翼魔' WHERE `id` = 20567;
-UPDATE `npc` SET `name` = '拜佛特' WHERE `id` = 20568;
-UPDATE `npc` SET `name` = '拜佛特辛爵' WHERE `id` = 20569;
-UPDATE `npc` SET `name` = '塔爾克食人妖' WHERE `id` = 20570;
-UPDATE `npc` SET `name` = '塔爾克食人妖戰士' WHERE `id` = 20571;
-UPDATE `npc` SET `name` = '塔爾克食人妖高等戰士' WHERE `id` = 20572;
-UPDATE `npc` SET `name` = '塔爾克邪惡蜥蜴' WHERE `id` = 20573;
-UPDATE `npc` SET `name` = '塔爾克邪惡蜥蜴首領' WHERE `id` = 20574;
-UPDATE `npc` SET `name` = '奧耶豺狼戰士' WHERE `id` = 20575;
-UPDATE `npc` SET `name` = '奧耶豺狼巫醫' WHERE `id` = 20576;
-UPDATE `npc` SET `name` = '里多蜥蜴人' WHERE `id` = 20577;
-UPDATE `npc` SET `name` = '里多蜥蜴人弓箭手' WHERE `id` = 20578;
-UPDATE `npc` SET `name` = '里多蜥蜴人士兵' WHERE `id` = 20579;
-UPDATE `npc` SET `name` = '里多蜥蜴人戰士' WHERE `id` = 20580;
-UPDATE `npc` SET `name` = '里多蜥蜴人巫師' WHERE `id` = 20581;
-UPDATE `npc` SET `name` = '里多蜥蜴人族長' WHERE `id` = 20582;
-UPDATE `npc` SET `name` = '提瑪克獸人' WHERE `id` = 20583;
-UPDATE `npc` SET `name` = '提瑪克獸人弓箭手' WHERE `id` = 20584;
-UPDATE `npc` SET `name` = '提瑪克獸人士兵' WHERE `id` = 20585;
-UPDATE `npc` SET `name` = '提瑪克獸人戰士' WHERE `id` = 20586;
-UPDATE `npc` SET `name` = '提瑪克獸人巫師' WHERE `id` = 20587;
-UPDATE `npc` SET `name` = '提瑪克獸人王' WHERE `id` = 20588;
-UPDATE `npc` SET `name` = '佛萊' WHERE `id` = 20589;
-UPDATE `npc` SET `name` = '賴雷' WHERE `id` = 20590;
-UPDATE `npc` SET `name` = '提米克倫' WHERE `id` = 20591;
-UPDATE `npc` SET `name` = '片奴' WHERE `id` = 20592;
-UPDATE `npc` SET `name` = '獨角獸' WHERE `id` = 20593;
-UPDATE `npc` SET `name` = '森林信使' WHERE `id` = 20594;
-UPDATE `npc` SET `name` = '佛萊首領' WHERE `id` = 20595;
-UPDATE `npc` SET `name` = '賴雷首領' WHERE `id` = 20596;
-UPDATE `npc` SET `name` = '提米克倫首領' WHERE `id` = 20597;
-UPDATE `npc` SET `name` = '片奴首領' WHERE `id` = 20598;
-UPDATE `npc` SET `name` = '獨角獸首領' WHERE `id` = 20599;
-UPDATE `npc` SET `name` = '卡魯食人妖' WHERE `id` = 20600;
-UPDATE `npc` SET `name` = '塔林獸人' WHERE `id` = 20601;
-UPDATE `npc` SET `name` = '塔林獸人弓箭手' WHERE `id` = 20602;
-UPDATE `npc` SET `name` = '可洛比' WHERE `id` = 20603;
-UPDATE `npc` SET `name` = '拉金' WHERE `id` = 20604;
-UPDATE `npc` SET `name` = '奇異的飛龍' WHERE `id` = 20605;
-UPDATE `npc` SET `name` = '庫倫地靈' WHERE `id` = 20606;
-UPDATE `npc` SET `name` = '庫倫地靈戰士' WHERE `id` = 20607;
-UPDATE `npc` SET `name` = '巴丁' WHERE `id` = 20608;
-UPDATE `npc` SET `name` = '火蜥蜴拉金' WHERE `id` = 20609;
-UPDATE `npc` SET `name` = '火焰觀察者' WHERE `id` = 20610;
-UPDATE `npc` SET `name` = '德雷巴奴康菲' WHERE `id` = 20611;
-UPDATE `npc` SET `name` = '火蜥蜴羅溫' WHERE `id` = 20612;
-UPDATE `npc` SET `name` = '拉菲蜥蜴人' WHERE `id` = 20613;
-UPDATE `npc` SET `name` = '拉菲蜥蜴人巡守' WHERE `id` = 20614;
-UPDATE `npc` SET `name` = '瑞特摩' WHERE `id` = 20615;
-UPDATE `npc` SET `name` = '水精拉金' WHERE `id` = 20616;
-UPDATE `npc` SET `name` = '水之觀察者' WHERE `id` = 20617;
-UPDATE `npc` SET `name` = '魅魔卡尼' WHERE `id` = 20618;
-UPDATE `npc` SET `name` = '水精羅溫' WHERE `id` = 20619;
-UPDATE `npc` SET `name` = '洞穴獸' WHERE `id` = 20620;
-UPDATE `npc` SET `name` = '死亡波動' WHERE `id` = 20621;
-UPDATE `npc` SET `name` = '瑪魯克士兵' WHERE `id` = 20622;
-UPDATE `npc` SET `name` = '波倫多' WHERE `id` = 20623;
-UPDATE `npc` SET `name` = '洞穴咆哮者' WHERE `id` = 20624;
-UPDATE `npc` SET `name` = '瑪魯克騎士' WHERE `id` = 20625;
-UPDATE `npc` SET `name` = '瑪魯克狂戰士' WHERE `id` = 20626;
-UPDATE `npc` SET `name` = '瑪魯克王' WHERE `id` = 20627;
-UPDATE `npc` SET `name` = '黎瑪卡霖尼司' WHERE `id` = 20628;
-UPDATE `npc` SET `name` = '卡拉克' WHERE `id` = 20629;
-UPDATE `npc` SET `name` = '泰可獸人' WHERE `id` = 20630;
-UPDATE `npc` SET `name` = '泰可獸人弓手' WHERE `id` = 20631;
-UPDATE `npc` SET `name` = '泰可獸人戰士' WHERE `id` = 20632;
-UPDATE `npc` SET `name` = '泰可獸人咒術士' WHERE `id` = 20633;
-UPDATE `npc` SET `name` = '泰可獸人團長' WHERE `id` = 20634;
-UPDATE `npc` SET `name` = '卡嵐可因' WHERE `id` = 20635;
-UPDATE `npc` SET `name` = '鏡之森林亡靈' WHERE `id` = 20636;
-UPDATE `npc` SET `name` = '鏡之森林亡靈' WHERE `id` = 20637;
-UPDATE `npc` SET `name` = '鏡之森林亡靈' WHERE `id` = 20638;
-UPDATE `npc` SET `name` = '鏡子' WHERE `id` = 20639;
-UPDATE `npc` SET `name` = '哈里特蜥蜴人' WHERE `id` = 20640;
-UPDATE `npc` SET `name` = '哈里特蜥蜴人士兵' WHERE `id` = 20641;
-UPDATE `npc` SET `name` = '哈里特蜥蜴人弓箭手' WHERE `id` = 20642;
-UPDATE `npc` SET `name` = '哈里特蜥蜴人戰士' WHERE `id` = 20643;
-UPDATE `npc` SET `name` = '哈里特蜥蜴人咒術士' WHERE `id` = 20644;
-UPDATE `npc` SET `name` = '哈里特蜥蜴人族長' WHERE `id` = 20645;
-UPDATE `npc` SET `name` = '哈朗卡' WHERE `id` = 20646;
-UPDATE `npc` SET `name` = '英葛則' WHERE `id` = 20647;
-UPDATE `npc` SET `name` = '巴藍伍德' WHERE `id` = 20648;
-UPDATE `npc` SET `name` = '罕羅特' WHERE `id` = 20649;
-UPDATE `npc` SET `name` = '科蘭洛特' WHERE `id` = 20650;
-UPDATE `npc` SET `name` = '甘麟' WHERE `id` = 20651;
-UPDATE `npc` SET `name` = '雷歐古' WHERE `id` = 20652;
-UPDATE `npc` SET `name` = '退化的下巨人' WHERE `id` = 20653;
-UPDATE `npc` SET `name` = '退化的下巨人士兵' WHERE `id` = 20654;
-UPDATE `npc` SET `name` = '退化的下巨人弓箭手' WHERE `id` = 20655;
-UPDATE `npc` SET `name` = '退化的下巨人巡守' WHERE `id` = 20656;
-UPDATE `npc` SET `name` = '退化的下巨人魔法師' WHERE `id` = 20657;
-UPDATE `npc` SET `name` = '退化的下巨人長老' WHERE `id` = 20658;
-UPDATE `npc` SET `name` = '墓地流浪者' WHERE `id` = 20659;
-UPDATE `npc` SET `name` = '貪慾弓箭手' WHERE `id` = 20660;
-UPDATE `npc` SET `name` = '哈塔勒鼠人盜賊' WHERE `id` = 20661;
-UPDATE `npc` SET `name` = '哈塔勒鼠人頭目' WHERE `id` = 20662;
-UPDATE `npc` SET `name` = '哈塔勒海尼西' WHERE `id` = 20663;
-UPDATE `npc` SET `name` = '帝萊普' WHERE `id` = 20664;
-UPDATE `npc` SET `name` = '泰可獸人補充兵' WHERE `id` = 20665;
-UPDATE `npc` SET `name` = '泰可獸人監視兵' WHERE `id` = 20666;
-UPDATE `npc` SET `name` = '帕克蘭' WHERE `id` = 20667;
-UPDATE `npc` SET `name` = '墳墓守護者' WHERE `id` = 20668;
-UPDATE `npc` SET `name` = '泰可獸人補給官' WHERE `id` = 20669;
-UPDATE `npc` SET `name` = '赤色飛龍' WHERE `id` = 20670;
-UPDATE `npc` SET `name` = '卡地烏斯' WHERE `id` = 20671;
-UPDATE `npc` SET `name` = '德立貝茲' WHERE `id` = 20672;
-UPDATE `npc` SET `name` = '帕力巴提' WHERE `id` = 20673;
-UPDATE `npc` SET `name` = '末日騎士' WHERE `id` = 20674;
-UPDATE `npc` SET `name` = '泰稜' WHERE `id` = 20675;
-UPDATE `npc` SET `name` = '沼澤審判官' WHERE `id` = 20676;
-UPDATE `npc` SET `name` = '吐爾奔' WHERE `id` = 20677;
-UPDATE `npc` SET `name` = '不死的刑罰' WHERE `id` = 20678;
-UPDATE `npc` SET `name` = '瑪許追蹤者' WHERE `id` = 20679;
-UPDATE `npc` SET `name` = '瑪許飛龍' WHERE `id` = 20680;
-UPDATE `npc` SET `name` = '巴諾爾賽勒諾斯' WHERE `id` = 20681;
-UPDATE `npc` SET `name` = '巴諾爾賽勒諾斯士兵' WHERE `id` = 20682;
-UPDATE `npc` SET `name` = '巴諾爾賽勒諾斯巡守' WHERE `id` = 20683;
-UPDATE `npc` SET `name` = '巴諾爾賽勒諾斯戰士' WHERE `id` = 20684;
-UPDATE `npc` SET `name` = '巴諾爾賽勒諾斯咒術士' WHERE `id` = 20685;
-UPDATE `npc` SET `name` = '巴諾爾賽勒諾斯族長' WHERE `id` = 20686;
-UPDATE `npc` SET `name` = '地精掠奪者 派卜克' WHERE `id` = 20738;
-UPDATE `npc` SET `name` = '派卜克的寵物狗' WHERE `id` = 20739;
-UPDATE `npc` SET `name` = '神祕之翼' WHERE `id` = 20742;
-UPDATE `npc` SET `name` = '咆哮者' WHERE `id` = 20743;
-UPDATE `npc` SET `name` = '赤眼吸血蝙蝠' WHERE `id` = 20744;
-UPDATE `npc` SET `name` = '荒原的犯罪者' WHERE `id` = 20745;
-UPDATE `npc` SET `name` = '犯罪者的手下' WHERE `id` = 20746;
-UPDATE `npc` SET `name` = '拉席德' WHERE `id` = 20747;
-UPDATE `npc` SET `name` = '拉席德追隨者' WHERE `id` = 20748;
-UPDATE `npc` SET `name` = '死亡之火' WHERE `id` = 20749;
-UPDATE `npc` SET `name` = '火焰弓手' WHERE `id` = 20750;
-UPDATE `npc` SET `name` = '狙擊者' WHERE `id` = 20751;
-UPDATE `npc` SET `name` = '狙擊者的手下' WHERE `id` = 20752;
-UPDATE `npc` SET `name` = '黑暗的君主' WHERE `id` = 20753;
-UPDATE `npc` SET `name` = '黑暗的騎士' WHERE `id` = 20754;
-UPDATE `npc` SET `name` = '血腥之斧指揮官' WHERE `id` = 20755;
-UPDATE `npc` SET `name` = '血腥之斧狙擊兵' WHERE `id` = 20756;
-UPDATE `npc` SET `name` = '血腥之斧突擊兵' WHERE `id` = 20757;
-UPDATE `npc` SET `name` = '貝爾拉龍隊長' WHERE `id` = 20758;
-UPDATE `npc` SET `name` = '貝爾拉龍戰士' WHERE `id` = 20759;
-UPDATE `npc` SET `name` = '貝爾拉龍弓手' WHERE `id` = 20760;
-UPDATE `npc` SET `name` = '派坦' WHERE `id` = 20761;
-UPDATE `npc` SET `name` = '派坦的騎士' WHERE `id` = 20762;
-UPDATE `npc` SET `name` = '草原的統治者' WHERE `id` = 20763;
-UPDATE `npc` SET `name` = '草原的魔法師' WHERE `id` = 20764;
-UPDATE `npc` SET `name` = '草原的戰士' WHERE `id` = 20765;
-UPDATE `npc` SET `name` = '草原的弓手' WHERE `id` = 20766;
-UPDATE `npc` SET `name` = '提瑪克獸人突擊隊隊長' WHERE `id` = 20767;
-UPDATE `npc` SET `name` = '提瑪克獸人突擊隊咒術士' WHERE `id` = 20768;
-UPDATE `npc` SET `name` = '提瑪克獸人突擊隊戰士' WHERE `id` = 20769;
-UPDATE `npc` SET `name` = '提瑪克獸人突擊隊弓手' WHERE `id` = 20770;
-UPDATE `npc` SET `name` = '巴里夫' WHERE `id` = 20771;
-UPDATE `npc` SET `name` = '巴里夫的雷歐古' WHERE `id` = 20772;
-UPDATE `npc` SET `name` = '坎查拉王' WHERE `id` = 20773;
-UPDATE `npc` SET `name` = '坎查拉' WHERE `id` = 20774;
-UPDATE `npc` SET `name` = '食人妖襲擊者' WHERE `id` = 20775;
-UPDATE `npc` SET `name` = '黑暗魅魔' WHERE `id` = 20776;
-UPDATE `npc` SET `name` = '狩獵熊' WHERE `id` = 20777;
-UPDATE `npc` SET `name` = '羅格那獸人團長' WHERE `id` = 20778;
-UPDATE `npc` SET `name` = '羅格那獸人預言者' WHERE `id` = 20779;
-UPDATE `npc` SET `name` = '血腥之斧菁英' WHERE `id` = 20780;
-UPDATE `npc` SET `name` = '德魯蜥蜴人巫師' WHERE `id` = 20781;
-UPDATE `npc` SET `name` = '豺狼訓練兵' WHERE `id` = 20782;
-UPDATE `npc` SET `name` = '獨雷德狼' WHERE `id` = 20783;
-UPDATE `npc` SET `name` = '塔沙巴蜥蜴人' WHERE `id` = 20784;
-UPDATE `npc` SET `name` = '塔沙巴蜥蜴人咒術士' WHERE `id` = 20785;
-UPDATE `npc` SET `name` = '翼蛇' WHERE `id` = 20786;
-UPDATE `npc` SET `name` = '翼蛇拉德' WHERE `id` = 20787;
-UPDATE `npc` SET `name` = '拉庫' WHERE `id` = 20788;
-UPDATE `npc` SET `name` = '可羅津' WHERE `id` = 20789;
-UPDATE `npc` SET `name` = '達拉庸' WHERE `id` = 20790;
-UPDATE `npc` SET `name` = '可羅津戰士' WHERE `id` = 20791;
-UPDATE `npc` SET `name` = '法里特' WHERE `id` = 20792;
-UPDATE `npc` SET `name` = '紐司' WHERE `id` = 20793;
-UPDATE `npc` SET `name` = '刀刃司塔卡拓' WHERE `id` = 20794;
-UPDATE `npc` SET `name` = '刀刃司塔卡拓工人' WHERE `id` = 20795;
-UPDATE `npc` SET `name` = '刀刃司塔卡拓戰士' WHERE `id` = 20796;
-UPDATE `npc` SET `name` = '雄性刀刃司塔卡拓' WHERE `id` = 20797;
-UPDATE `npc` SET `name` = '水巨人' WHERE `id` = 20798;
-UPDATE `npc` SET `name` = '水精女王拉德' WHERE `id` = 20799;
-UPDATE `npc` SET `name` = '伊娃的監視者' WHERE `id` = 20800;
-UPDATE `npc` SET `name` = '席忒槍兵' WHERE `id` = 20801;
-UPDATE `npc` SET `name` = '席忒法師' WHERE `id` = 20802;
-UPDATE `npc` SET `name` = '傀儡主' WHERE `id` = 20803;
-UPDATE `npc` SET `name` = '可羅津拉德' WHERE `id` = 20804;
-UPDATE `npc` SET `name` = '達拉庸拉德' WHERE `id` = 20805;
-UPDATE `npc` SET `name` = '可羅津拉德戰士' WHERE `id` = 20806;
-UPDATE `npc` SET `name` = '法里特拉德' WHERE `id` = 20807;
-UPDATE `npc` SET `name` = '紐司拉德' WHERE `id` = 20808;
-UPDATE `npc` SET `name` = '塔的亡靈' WHERE `id` = 20809;
-UPDATE `npc` SET `name` = '哈勒特的監視者' WHERE `id` = 20810;
-UPDATE `npc` SET `name` = '慘絕戰士' WHERE `id` = 20811;
-UPDATE `npc` SET `name` = '絕望射手' WHERE `id` = 20812;
-UPDATE `npc` SET `name` = '柯瑞登' WHERE `id` = 20813;
-UPDATE `npc` SET `name` = '絕望劍士' WHERE `id` = 20814;
-UPDATE `npc` SET `name` = '哈勒特的獵犬' WHERE `id` = 20815;
-UPDATE `npc` SET `name` = '哈勒特的親衛隊' WHERE `id` = 20816;
-UPDATE `npc` SET `name` = '墮落的賢者' WHERE `id` = 20817;
-UPDATE `npc` SET `name` = '哈勒特的戰士' WHERE `id` = 20818;
-UPDATE `npc` SET `name` = '深淵射手' WHERE `id` = 20819;
-UPDATE `npc` SET `name` = '哈勒特的騎士' WHERE `id` = 20820;
-UPDATE `npc` SET `name` = '依連丹司' WHERE `id` = 20821;
-UPDATE `npc` SET `name` = '哈勒特的侍女' WHERE `id` = 20822;
-UPDATE `npc` SET `name` = '白金族士兵' WHERE `id` = 20823;
-UPDATE `npc` SET `name` = '哈勒特的指揮官' WHERE `id` = 20824;
-UPDATE `npc` SET `name` = '哈勒特的監察官' WHERE `id` = 20825;
-UPDATE `npc` SET `name` = '白金族射手' WHERE `id` = 20826;
-UPDATE `npc` SET `name` = '白金族戰士' WHERE `id` = 20827;
-UPDATE `npc` SET `name` = '白金族咒術士' WHERE `id` = 20828;
-UPDATE `npc` SET `name` = '白金族團長' WHERE `id` = 20829;
-UPDATE `npc` SET `name` = '守護天使' WHERE `id` = 20830;
-UPDATE `npc` SET `name` = '封印天使' WHERE `id` = 20831;
-UPDATE `npc` SET `name` = '札肯的槍兵' WHERE `id` = 20832;
-UPDATE `npc` SET `name` = '札肯的射手' WHERE `id` = 20833;
-UPDATE `npc` SET `name` = '瑪迪恩' WHERE `id` = 20834;
-UPDATE `npc` SET `name` = '札肯的監視者' WHERE `id` = 20835;
-UPDATE `npc` SET `name` = '海賊殭屍' WHERE `id` = 20836;
-UPDATE `npc` SET `name` = '腐污食人魔' WHERE `id` = 20837;
-UPDATE `npc` SET `name` = '血蝙蝠' WHERE `id` = 20838;
-UPDATE `npc` SET `name` = '陰鬱之音' WHERE `id` = 20839;
-UPDATE `npc` SET `name` = '死亡飛行者' WHERE `id` = 20840;
-UPDATE `npc` SET `name` = '魔鬼弓箭手' WHERE `id` = 20841;
-UPDATE `npc` SET `name` = '姆斯維倫' WHERE `id` = 20842;
-UPDATE `npc` SET `name` = '札肯的親衛隊' WHERE `id` = 20843;
-UPDATE `npc` SET `name` = '卡倚巴奴' WHERE `id` = 20844;
-UPDATE `npc` SET `name` = '海賊殭屍船長' WHERE `id` = 20845;
-UPDATE `npc` SET `name` = '人偶刀手' WHERE `id` = 20846;
-UPDATE `npc` SET `name` = '貝里大師' WHERE `id` = 20847;
-UPDATE `npc` SET `name` = '造光者' WHERE `id` = 20848;
-UPDATE `npc` SET `name` = '光蟲' WHERE `id` = 20849;
-UPDATE `npc` SET `name` = '金色雄鹿王' WHERE `id` = 20850;
-UPDATE `npc` SET `name` = '席忒' WHERE `id` = 20851;
-UPDATE `npc` SET `name` = '班席' WHERE `id` = 20852;
-UPDATE `npc` SET `name` = '凱爾豺狼' WHERE `id` = 20853;
-UPDATE `npc` SET `name` = '凱爾豺狼戰士' WHERE `id` = 20854;
-UPDATE `npc` SET `name` = '凱爾豺狼射手' WHERE `id` = 20855;
-UPDATE `npc` SET `name` = '凱爾豺狼咒術士' WHERE `id` = 20856;
-UPDATE `npc` SET `name` = '凱爾豺狼優勝者' WHERE `id` = 20857;
-UPDATE `npc` SET `name` = '天使' WHERE `id` = 20858;
-UPDATE `npc` SET `name` = '守護天使' WHERE `id` = 20859;
-UPDATE `npc` SET `name` = '封印天使' WHERE `id` = 20860;
-UPDATE `npc` SET `name` = '奧耶豺狼優勝者' WHERE `id` = 20861;
-UPDATE `npc` SET `name` = '死亡之王' WHERE `id` = 20862;
-UPDATE `npc` SET `name` = '雄性蜥蜴人' WHERE `id` = 20919;
-UPDATE `npc` SET `name` = '雄性蜥蜴人巡守' WHERE `id` = 20920;
-UPDATE `npc` SET `name` = '雄性蜥蜴人哨兵' WHERE `id` = 20921;
-UPDATE `npc` SET `name` = '雄性蜥蜴人戰士' WHERE `id` = 20922;
-UPDATE `npc` SET `name` = '雄性蜥蜴人咒術士' WHERE `id` = 20923;
-UPDATE `npc` SET `name` = '雄性蜥蜴人族長' WHERE `id` = 20924;
-UPDATE `npc` SET `name` = '巨大阿朗尼得' WHERE `id` = 20925;
-UPDATE `npc` SET `name` = '劇毒阿朗尼得' WHERE `id` = 20926;
-UPDATE `npc` SET `name` = '阿朗尼得王' WHERE `id` = 20927;
-UPDATE `npc` SET `name` = '哈圖奇異蜜蜂' WHERE `id` = 20928;
-UPDATE `npc` SET `name` = '哈圖惡狼' WHERE `id` = 20929;
-UPDATE `npc` SET `name` = '哈圖棕熊' WHERE `id` = 20930;
-UPDATE `npc` SET `name` = '哈圖瑪瑙獸' WHERE `id` = 20931;
-UPDATE `npc` SET `name` = '哈圖赤色熊' WHERE `id` = 20932;
-UPDATE `npc` SET `name` = '哈圖溫德薩斯' WHERE `id` = 20933;
-UPDATE `npc` SET `name` = '胡蜂工人' WHERE `id` = 20934;
-UPDATE `npc` SET `name` = '胡蜂隊長' WHERE `id` = 20935;
-UPDATE `npc` SET `name` = '塔諾賽勒諾斯' WHERE `id` = 20936;
-UPDATE `npc` SET `name` = '塔諾賽勒諾斯士兵' WHERE `id` = 20937;
-UPDATE `npc` SET `name` = '塔諾賽勒諾斯巡守' WHERE `id` = 20938;
-UPDATE `npc` SET `name` = '塔諾賽勒諾斯戰士' WHERE `id` = 20939;
-UPDATE `npc` SET `name` = '塔諾賽勒諾斯咒術士' WHERE `id` = 20940;
-UPDATE `npc` SET `name` = '塔諾賽勒諾斯族長' WHERE `id` = 20941;
-UPDATE `npc` SET `name` = '惡夢的領導者' WHERE `id` = 20942;
-UPDATE `npc` SET `name` = '惡夢的監視者' WHERE `id` = 20943;
-UPDATE `npc` SET `name` = '惡夢的統治者' WHERE `id` = 20944;
-UPDATE `npc` SET `name` = '卡帝內' WHERE `id` = 20945;
-UPDATE `npc` SET `name` = '桑遺德羅' WHERE `id` = 20946;
-UPDATE `npc` SET `name` = '寇拿比' WHERE `id` = 20947;
-UPDATE `npc` SET `name` = '巴爾塔' WHERE `id` = 20948;
-UPDATE `npc` SET `name` = '魯米奴' WHERE `id` = 20949;
-UPDATE `npc` SET `name` = '因尼瑟' WHERE `id` = 20950;
-UPDATE `npc` SET `name` = '柏比的侍女' WHERE `id` = 20951;
-UPDATE `npc` SET `name` = '柏比的隨行員' WHERE `id` = 20952;
-UPDATE `npc` SET `name` = '柏比' WHERE `id` = 20953;
-UPDATE `npc` SET `name` = '飢餓的屍體' WHERE `id` = 20954;
-UPDATE `npc` SET `name` = '戰爭的亡靈' WHERE `id` = 20955;
-UPDATE `npc` SET `name` = '過去的騎士' WHERE `id` = 20956;
-UPDATE `npc` SET `name` = '虛無的侵略者' WHERE `id` = 20957;
-UPDATE `npc` SET `name` = '死亡刀刃' WHERE `id` = 20958;
-UPDATE `npc` SET `name` = '黑暗守護者' WHERE `id` = 20959;
-UPDATE `npc` SET `name` = '血的亡靈' WHERE `id` = 20960;
-UPDATE `npc` SET `name` = '血的騎士' WHERE `id` = 20961;
-UPDATE `npc` SET `name` = '血的祭司' WHERE `id` = 20962;
-UPDATE `npc` SET `name` = '血的統治者' WHERE `id` = 20963;
-UPDATE `npc` SET `name` = '巨大腳印' WHERE `id` = 20964;
-UPDATE `npc` SET `name` = '妄想的破片' WHERE `id` = 20965;
-UPDATE `npc` SET `name` = '突變的創造物' WHERE `id` = 20966;
-UPDATE `npc` SET `name` = '過去的創造物' WHERE `id` = 20967;
-UPDATE `npc` SET `name` = '不存在者' WHERE `id` = 20968;
-UPDATE `npc` SET `name` = '巨人的影子' WHERE `id` = 20969;
-UPDATE `npc` SET `name` = '古代士兵' WHERE `id` = 20970;
-UPDATE `npc` SET `name` = '古代戰士' WHERE `id` = 20971;
-UPDATE `npc` SET `name` = '古代咒術士' WHERE `id` = 20972;
-UPDATE `npc` SET `name` = '被遺忘的古代人' WHERE `id` = 20973;
-UPDATE `npc` SET `name` = '怨靈之首' WHERE `id` = 20974;
-UPDATE `npc` SET `name` = '怨靈魔法師' WHERE `id` = 20975;
-UPDATE `npc` SET `name` = '怨靈戰士' WHERE `id` = 20976;
-UPDATE `npc` SET `name` = '艾爾摩亞丁的貴婦' WHERE `id` = 20977;
-UPDATE `npc` SET `name` = '艾爾摩亞丁的護衛射手' WHERE `id` = 20978;
-UPDATE `npc` SET `name` = '艾爾摩亞丁的女侍' WHERE `id` = 20979;
-UPDATE `npc` SET `name` = '哈勒特的部下 牧' WHERE `id` = 20980;
-UPDATE `npc` SET `name` = '牧的魔法師' WHERE `id` = 20981;
-UPDATE `npc` SET `name` = '牧的騎士' WHERE `id` = 20982;
-UPDATE `npc` SET `name` = '束縛者' WHERE `id` = 20983;
-UPDATE `npc` SET `name` = '束縛者戰士' WHERE `id` = 20984;
-UPDATE `npc` SET `name` = '束縛者弓手' WHERE `id` = 20985;
-UPDATE `npc` SET `name` = '賽頓' WHERE `id` = 20986;
-UPDATE `npc` SET `name` = '賽頓的人偶' WHERE `id` = 20987;
-UPDATE `npc` SET `name` = '賽頓的咒術人偶' WHERE `id` = 20988;
-UPDATE `npc` SET `name` = '拉卓司' WHERE `id` = 20989;
-UPDATE `npc` SET `name` = '帕卓司' WHERE `id` = 20990;
-UPDATE `npc` SET `name` = '沼澤之首' WHERE `id` = 20991;
-UPDATE `npc` SET `name` = '沼澤鱷魚' WHERE `id` = 20992;
-UPDATE `npc` SET `name` = '沼澤戰士' WHERE `id` = 20993;
-UPDATE `npc` SET `name` = '庭園警衛隊長' WHERE `id` = 20994;
-UPDATE `npc` SET `name` = '庭園警衛兵' WHERE `id` = 20995;
-UPDATE `npc` SET `name` = '廢墟的冤鬼' WHERE `id` = 20996;
-UPDATE `npc` SET `name` = '悲哀的士兵' WHERE `id` = 20997;
-UPDATE `npc` SET `name` = '酷刑' WHERE `id` = 20998;
-UPDATE `npc` SET `name` = '徘徊的亡靈' WHERE `id` = 20999;
-UPDATE `npc` SET `name` = '廢墟的冤魂' WHERE `id` = 21000;
-UPDATE `npc` SET `name` = '破滅射手' WHERE `id` = 21001;
-UPDATE `npc` SET `name` = '末日巡守' WHERE `id` = 21002;
-UPDATE `npc` SET `name` = '墓地的浮標' WHERE `id` = 21003;
-UPDATE `npc` SET `name` = '陰鬱的木主' WHERE `id` = 21004;
-UPDATE `npc` SET `name` = '墓地掠食者' WHERE `id` = 21005;
-UPDATE `npc` SET `name` = '末日傭人' WHERE `id` = 21006;
-UPDATE `npc` SET `name` = '末日警衛' WHERE `id` = 21007;
-UPDATE `npc` SET `name` = '末日弓手' WHERE `id` = 21008;
-UPDATE `npc` SET `name` = '末日裝甲兵' WHERE `id` = 21009;
-UPDATE `npc` SET `name` = '末日戰士' WHERE `id` = 21010;
-UPDATE `npc` SET `name` = '豺狼先鋒隊' WHERE `id` = 21011;
-UPDATE `npc` SET `name` = '魔法之眼' WHERE `id` = 21012;
-UPDATE `npc` SET `name` = '豺狼先鋒隊射手' WHERE `id` = 21013;
-UPDATE `npc` SET `name` = '亞戰爭暴君' WHERE `id` = 21014;
-UPDATE `npc` SET `name` = '豺狼先鋒隊隊長' WHERE `id` = 21015;
-UPDATE `npc` SET `name` = '戰爭暴君' WHERE `id` = 21016;
-UPDATE `npc` SET `name` = '墮落的獸人' WHERE `id` = 21017;
-UPDATE `npc` SET `name` = '古代翼魔' WHERE `id` = 21018;
-UPDATE `npc` SET `name` = '墮落的獸人射手' WHERE `id` = 21019;
-UPDATE `npc` SET `name` = '墮落的獸人咒術士' WHERE `id` = 21020;
-UPDATE `npc` SET `name` = '利爪虎' WHERE `id` = 21021;
-UPDATE `npc` SET `name` = '墮落的獸人團長' WHERE `id` = 21022;
-UPDATE `npc` SET `name` = '咽鳴的風' WHERE `id` = 21023;
-UPDATE `npc` SET `name` = '牙語的風' WHERE `id` = 21024;
-UPDATE `npc` SET `name` = '輕笑的風' WHERE `id` = 21025;
-UPDATE `npc` SET `name` = '歌唱的風' WHERE `id` = 21026;
-UPDATE `npc` SET `name` = '食人魔' WHERE `id` = 21034;
-UPDATE `npc` SET `name` = '凱沙林' WHERE `id` = 21035;
-UPDATE `npc` SET `name` = '席德巴輪' WHERE `id` = 21036;
-UPDATE `npc` SET `name` = '歐修特' WHERE `id` = 21037;
-UPDATE `npc` SET `name` = '粱馬' WHERE `id` = 21038;
-UPDATE `npc` SET `name` = '狙擊者的手下' WHERE `id` = 21039;
-UPDATE `npc` SET `name` = '黑暗的士兵' WHERE `id` = 21040;
-UPDATE `npc` SET `name` = '獸王' WHERE `id` = 21058;
-UPDATE `npc` SET `name` = '守護獸' WHERE `id` = 21059;
-UPDATE `npc` SET `name` = '監視獸' WHERE `id` = 21060;
-UPDATE `npc` SET `name` = '哈勒特的守護者' WHERE `id` = 21061;
-UPDATE `npc` SET `name` = '傳令天使' WHERE `id` = 21062;
-UPDATE `npc` SET `name` = '傳令天使' WHERE `id` = 21063;
-UPDATE `npc` SET `name` = '白金族守護者弓手' WHERE `id` = 21064;
-UPDATE `npc` SET `name` = '白金族守護者戰士' WHERE `id` = 21065;
-UPDATE `npc` SET `name` = '白金族守護者咒術士' WHERE `id` = 21066;
-UPDATE `npc` SET `name` = '守護者大天使' WHERE `id` = 21067;
-UPDATE `npc` SET `name` = '守護者大天使' WHERE `id` = 21068;
-UPDATE `npc` SET `name` = '白金族守護者軍長' WHERE `id` = 21069;
-UPDATE `npc` SET `name` = '封印大天使' WHERE `id` = 21070;
-UPDATE `npc` SET `name` = '封印大天使' WHERE `id` = 21071;
-UPDATE `npc` SET `name` = '白金族守護者族長' WHERE `id` = 21072;
-UPDATE `npc` SET `name` = '艾爾摩亞丁的護衛戰士' WHERE `id` = 21073;
-UPDATE `npc` SET `name` = '束縛者魔法師' WHERE `id` = 21074;
-UPDATE `npc` SET `name` = '殺戮的瓦丁' WHERE `id` = 21075;
-UPDATE `npc` SET `name` = '瓦丁的騎士' WHERE `id` = 21076;
-UPDATE `npc` SET `name` = '瓦丁的魔法師' WHERE `id` = 21077;
-UPDATE `npc` SET `name` = '魔導士法那克' WHERE `id` = 21078;
-UPDATE `npc` SET `name` = '法那克的創造物' WHERE `id` = 21079;
-UPDATE `npc` SET `name` = '法那克的守護靈' WHERE `id` = 21080;
-UPDATE `npc` SET `name` = '能天使' WHERE `id` = 21081;
-UPDATE `npc` SET `name` = '能天使的護衛兵' WHERE `id` = 21082;
-UPDATE `npc` SET `name` = '能天使的精靈' WHERE `id` = 21083;
-UPDATE `npc` SET `name` = '血之女' WHERE `id` = 21084;
-UPDATE `npc` SET `name` = '血之射手' WHERE `id` = 21085;
-UPDATE `npc` SET `name` = '血之利比歐納' WHERE `id` = 21086;
-UPDATE `npc` SET `name` = '血之騎士' WHERE `id` = 21087;
-UPDATE `npc` SET `name` = '血之班席' WHERE `id` = 21088;
-UPDATE `npc` SET `name` = '血之王' WHERE `id` = 21089;
-UPDATE `npc` SET `name` = '血之守護者' WHERE `id` = 21090;
-UPDATE `npc` SET `name` = '血之守衛者' WHERE `id` = 21091;
-UPDATE `npc` SET `name` = '血之法師' WHERE `id` = 21092;
-UPDATE `npc` SET `name` = '鼠人副首領' WHERE `id` = 21093;
-UPDATE `npc` SET `name` = '鼠人首領' WHERE `id` = 21094;
-UPDATE `npc` SET `name` = '巨大毒蜂' WHERE `id` = 21095;
-UPDATE `npc` SET `name` = '雲紋獸' WHERE `id` = 21096;
-UPDATE `npc` SET `name` = '幼阿朗尼得' WHERE `id` = 21097;
-UPDATE `npc` SET `name` = '草原灰熊' WHERE `id` = 21098;
-UPDATE `npc` SET `name` = '雲紋獸圖倫' WHERE `id` = 21099;
-UPDATE `npc` SET `name` = '朗克蜥蜴人哨兵' WHERE `id` = 21100;
-UPDATE `npc` SET `name` = '朗克蜥蜴人巫師' WHERE `id` = 21101;
-UPDATE `npc` SET `name` = '平原的監視者' WHERE `id` = 21102;
-UPDATE `npc` SET `name` = '怪岩高崙' WHERE `id` = 21103;
-UPDATE `npc` SET `name` = '德魯蜥蜴人補充兵' WHERE `id` = 21104;
-UPDATE `npc` SET `name` = '德魯蜥蜴人高等戰士' WHERE `id` = 21105;
-UPDATE `npc` SET `name` = '受詛咒的監視者' WHERE `id` = 21106;
-UPDATE `npc` SET `name` = '德魯蜥蜴人指揮官' WHERE `id` = 21107;
-UPDATE `npc` SET `name` = '白熱的燐火' WHERE `id` = 21108;
-UPDATE `npc` SET `name` = '哈梅瑟獸人巡守' WHERE `id` = 21109;
-UPDATE `npc` SET `name` = '沼澤掠食者' WHERE `id` = 21110;
-UPDATE `npc` SET `name` = '熔岩亞龍' WHERE `id` = 21111;
-UPDATE `npc` SET `name` = '哈梅瑟獸人步兵' WHERE `id` = 21112;
-UPDATE `npc` SET `name` = '哈梅瑟獸人狙擊兵' WHERE `id` = 21113;
-UPDATE `npc` SET `name` = '受詛咒的守護者' WHERE `id` = 21114;
-UPDATE `npc` SET `name` = '哈梅瑟獸人巫師' WHERE `id` = 21115;
-UPDATE `npc` SET `name` = '哈梅瑟獸人王' WHERE `id` = 21116;
-UPDATE `npc` SET `name` = '卡沙安普' WHERE `id` = 21117;
-UPDATE `npc` SET `name` = '巴爾德雷巴奴' WHERE `id` = 21118;
-UPDATE `npc` SET `name` = '卡沙哈柏哥布林' WHERE `id` = 21119;
-UPDATE `npc` SET `name` = '卡沙安普圖倫' WHERE `id` = 21120;
-UPDATE `npc` SET `name` = '卡沙惡狼' WHERE `id` = 21121;
-UPDATE `npc` SET `name` = '卡沙食人妖' WHERE `id` = 21122;
-UPDATE `npc` SET `name` = '巴爾德雷巴奴破壞者' WHERE `id` = 21123;
-UPDATE `npc` SET `name` = '紅眼長刺蝙蝠' WHERE `id` = 21124;
-UPDATE `npc` SET `name` = '北方縛毒蜘蛛' WHERE `id` = 21125;
-UPDATE `npc` SET `name` = '格勒普狼人' WHERE `id` = 21126;
-UPDATE `npc` SET `name` = '北方哥布林' WHERE `id` = 21127;
-UPDATE `npc` SET `name` = '脊骨高崙' WHERE `id` = 21128;
-UPDATE `npc` SET `name` = '格勒普狼人首領' WHERE `id` = 21129;
-UPDATE `npc` SET `name` = '北方哥布林王' WHERE `id` = 21130;
-UPDATE `npc` SET `name` = '強化脊骨高崙' WHERE `id` = 21131;
-UPDATE `npc` SET `name` = '地底地靈' WHERE `id` = 21132;
-UPDATE `npc` SET `name` = '廢礦骷髏弓手' WHERE `id` = 21133;
-UPDATE `npc` SET `name` = '廢礦史巴托' WHERE `id` = 21134;
-UPDATE `npc` SET `name` = '地底地靈戰士' WHERE `id` = 21135;
-UPDATE `npc` SET `name` = '廢礦之懼' WHERE `id` = 21136;
-UPDATE `npc` SET `name` = '鐵礦高崙' WHERE `id` = 21137;
-UPDATE `npc` SET `name` = '貪婪的靈魂' WHERE `id` = 21138;
-UPDATE `npc` SET `name` = '地下墓穴長刺蝙蝠' WHERE `id` = 21139;
-UPDATE `npc` SET `name` = '地下墓穴燐火' WHERE `id` = 21140;
-UPDATE `npc` SET `name` = '地下墓穴巨蛇' WHERE `id` = 21141;
-UPDATE `npc` SET `name` = '墓穴守衛史巴托' WHERE `id` = 21142;
-UPDATE `npc` SET `name` = '地下墓穴食腐蝙蝠' WHERE `id` = 21143;
-UPDATE `npc` SET `name` = '地下墓穴的影子' WHERE `id` = 21144;
-UPDATE `npc` SET `name` = '地下墓穴司塔卡拓工人' WHERE `id` = 21145;
-UPDATE `npc` SET `name` = '墓穴守衛黑暗之懼' WHERE `id` = 21146;
-UPDATE `npc` SET `name` = '地下墓穴翼魔' WHERE `id` = 21147;
-UPDATE `npc` SET `name` = '地下墓穴利比歐納' WHERE `id` = 21148;
-UPDATE `npc` SET `name` = '腐壞的古代槍兵' WHERE `id` = 21149;
-UPDATE `npc` SET `name` = '腐壞的古代士兵' WHERE `id` = 21150;
-UPDATE `npc` SET `name` = '腐壞的古代騎士' WHERE `id` = 21151;
-UPDATE `npc` SET `name` = '煉獄的燐火' WHERE `id` = 21152;
-UPDATE `npc` SET `name` = '煉獄的巨蛇' WHERE `id` = 21153;
-UPDATE `npc` SET `name` = '地獄守衛梅杜莎' WHERE `id` = 21154;
-UPDATE `npc` SET `name` = '煉獄的坎查拉' WHERE `id` = 21155;
-UPDATE `npc` SET `name` = '煉獄的影子' WHERE `id` = 21156;
-UPDATE `npc` SET `name` = '煉獄的狼蛛' WHERE `id` = 21157;
-UPDATE `npc` SET `name` = '地獄守衛赤色人偶' WHERE `id` = 21158;
-UPDATE `npc` SET `name` = '煉獄的翼魔' WHERE `id` = 21159;
-UPDATE `npc` SET `name` = '煉獄的利比歐納' WHERE `id` = 21160;
-UPDATE `npc` SET `name` = '古代聖地的隱者' WHERE `id` = 21161;
-UPDATE `npc` SET `name` = '古代聖地的圖騰' WHERE `id` = 21162;
-UPDATE `npc` SET `name` = '古代聖地的翅膀' WHERE `id` = 21163;
-UPDATE `npc` SET `name` = '古代聖地的守護靈' WHERE `id` = 21164;
-UPDATE `npc` SET `name` = '古代聖地的幻影' WHERE `id` = 21165;
-UPDATE `npc` SET `name` = '莉芙巡守' WHERE `id` = 21166;
-UPDATE `npc` SET `name` = '莉芙巫女' WHERE `id` = 21167;
-UPDATE `npc` SET `name` = '莉芙戰士' WHERE `id` = 21168;
-UPDATE `npc` SET `name` = '莉芙偵查兵' WHERE `id` = 21169;
-UPDATE `npc` SET `name` = '莉芙靈媒' WHERE `id` = 21170;
-UPDATE `npc` SET `name` = '莉芙團長' WHERE `id` = 21171;
-UPDATE `npc` SET `name` = '莉芙巡邏兵' WHERE `id` = 21172;
-UPDATE `npc` SET `name` = '莉芙咒術士' WHERE `id` = 21173;
-UPDATE `npc` SET `name` = '莉芙指揮官' WHERE `id` = 21174;
-UPDATE `npc` SET `name` = '莉莉恩殺戮者' WHERE `id` = 21175;
-UPDATE `npc` SET `name` = '莉莉恩魔導士' WHERE `id` = 21176;
-UPDATE `npc` SET `name` = '莉莉恩隨從騎士' WHERE `id` = 21177;
-UPDATE `npc` SET `name` = '莉莉恩刺殺者' WHERE `id` = 21178;
-UPDATE `npc` SET `name` = '莉莉恩祭司' WHERE `id` = 21179;
-UPDATE `npc` SET `name` = '莉莉恩騎士' WHERE `id` = 21180;
-UPDATE `npc` SET `name` = '莉莉恩暗殺者' WHERE `id` = 21181;
-UPDATE `npc` SET `name` = '莉莉恩宣道者' WHERE `id` = 21182;
-UPDATE `npc` SET `name` = '莉莉恩騎士團長' WHERE `id` = 21183;
-UPDATE `npc` SET `name` = '莉莉恩刺客' WHERE `id` = 21184;
-UPDATE `npc` SET `name` = '莉莉恩大魔道士' WHERE `id` = 21185;
-UPDATE `npc` SET `name` = '莉莉恩禁衛騎士' WHERE `id` = 21186;
-UPDATE `npc` SET `name` = '基剛特奴隸' WHERE `id` = 21187;
-UPDATE `npc` SET `name` = '基剛特服事' WHERE `id` = 21188;
-UPDATE `npc` SET `name` = '基剛特監察官' WHERE `id` = 21189;
-UPDATE `npc` SET `name` = '基剛特步兵' WHERE `id` = 21190;
-UPDATE `npc` SET `name` = '基剛特修士' WHERE `id` = 21191;
-UPDATE `npc` SET `name` = '基剛特軍官' WHERE `id` = 21192;
-UPDATE `npc` SET `name` = '基剛特突擊兵' WHERE `id` = 21193;
-UPDATE `npc` SET `name` = '基剛特祈禱師' WHERE `id` = 21194;
-UPDATE `npc` SET `name` = '基剛特高級軍官' WHERE `id` = 21195;
-UPDATE `npc` SET `name` = '那芙琳哨兵' WHERE `id` = 21196;
-UPDATE `npc` SET `name` = '那芙琳神官' WHERE `id` = 21197;
-UPDATE `npc` SET `name` = '那芙琳劍士' WHERE `id` = 21198;
-UPDATE `npc` SET `name` = '那芙琳警衛' WHERE `id` = 21199;
-UPDATE `npc` SET `name` = '那芙琳主教' WHERE `id` = 21200;
-UPDATE `npc` SET `name` = '那芙琳十人隊長' WHERE `id` = 21201;
-UPDATE `npc` SET `name` = '那芙琳巡邏兵' WHERE `id` = 21202;
-UPDATE `npc` SET `name` = '那芙琳大主教' WHERE `id` = 21203;
-UPDATE `npc` SET `name` = '那芙琳百人隊長' WHERE `id` = 21204;
-UPDATE `npc` SET `name` = '那芙琳禁衛兵' WHERE `id` = 21205;
-UPDATE `npc` SET `name` = '那芙琳樞機主教' WHERE `id` = 21206;
-UPDATE `npc` SET `name` = '那芙琳司令官' WHERE `id` = 21207;
-UPDATE `npc` SET `name` = '聖地的警衛' WHERE `id` = 21208;
-UPDATE `npc` SET `name` = '聖地的監視者' WHERE `id` = 21209;
-UPDATE `npc` SET `name` = '地窖的警衛' WHERE `id` = 21210;
-UPDATE `npc` SET `name` = '地窖的監視者' WHERE `id` = 21211;
-UPDATE `npc` SET `name` = '聖地的警衛兵' WHERE `id` = 21212;
-UPDATE `npc` SET `name` = '聖地的修道士' WHERE `id` = 21213;
-UPDATE `npc` SET `name` = '地窖的警衛兵' WHERE `id` = 21214;
-UPDATE `npc` SET `name` = '地窖的修道士' WHERE `id` = 21215;
-UPDATE `npc` SET `name` = '聖地的團長' WHERE `id` = 21216;
-UPDATE `npc` SET `name` = '聖地的祭司' WHERE `id` = 21217;
-UPDATE `npc` SET `name` = '地窖的團長' WHERE `id` = 21218;
-UPDATE `npc` SET `name` = '地窖的祭司' WHERE `id` = 21219;
-UPDATE `npc` SET `name` = '聖域的統治者' WHERE `id` = 21220;
-UPDATE `npc` SET `name` = '聖域的審判官' WHERE `id` = 21221;
-UPDATE `npc` SET `name` = '古墓的統治者' WHERE `id` = 21222;
-UPDATE `npc` SET `name` = '古墓的審判官' WHERE `id` = 21223;
-UPDATE `npc` SET `name` = '聖域的守護者' WHERE `id` = 21224;
-UPDATE `npc` SET `name` = '聖域的賢者' WHERE `id` = 21225;
-UPDATE `npc` SET `name` = '古墓的守護者' WHERE `id` = 21226;
-UPDATE `npc` SET `name` = '古墓的賢者' WHERE `id` = 21227;
-UPDATE `npc` SET `name` = '聖域的禁衛兵' WHERE `id` = 21228;
-UPDATE `npc` SET `name` = '聖域的先知' WHERE `id` = 21229;
-UPDATE `npc` SET `name` = '古墓的禁衛兵' WHERE `id` = 21230;
-UPDATE `npc` SET `name` = '古墓的先知' WHERE `id` = 21231;
-UPDATE `npc` SET `name` = '埋葬的警衛' WHERE `id` = 21232;
-UPDATE `npc` SET `name` = '埋葬的監視兵' WHERE `id` = 21233;
-UPDATE `npc` SET `name` = '墳墓的警衛' WHERE `id` = 21234;
-UPDATE `npc` SET `name` = '墳墓的監視兵' WHERE `id` = 21235;
-UPDATE `npc` SET `name` = '埋葬的衛兵' WHERE `id` = 21236;
-UPDATE `npc` SET `name` = '埋葬的修道士' WHERE `id` = 21237;
-UPDATE `npc` SET `name` = '墳墓的衛兵' WHERE `id` = 21238;
-UPDATE `npc` SET `name` = '墳墓的修道士' WHERE `id` = 21239;
-UPDATE `npc` SET `name` = '埋葬的軍長' WHERE `id` = 21240;
-UPDATE `npc` SET `name` = '埋葬的祭司' WHERE `id` = 21241;
-UPDATE `npc` SET `name` = '墳墓的軍長' WHERE `id` = 21242;
-UPDATE `npc` SET `name` = '墳墓的祭司' WHERE `id` = 21243;
-UPDATE `npc` SET `name` = '墓地的統治者' WHERE `id` = 21244;
-UPDATE `npc` SET `name` = '墓地的審判官' WHERE `id` = 21245;
-UPDATE `npc` SET `name` = '冥界的統治者' WHERE `id` = 21246;
-UPDATE `npc` SET `name` = '冥界的審判官' WHERE `id` = 21247;
-UPDATE `npc` SET `name` = '墓地的守護者' WHERE `id` = 21248;
-UPDATE `npc` SET `name` = '墓地的賢者' WHERE `id` = 21249;
-UPDATE `npc` SET `name` = '冥界的守護者' WHERE `id` = 21250;
-UPDATE `npc` SET `name` = '冥界的賢者' WHERE `id` = 21251;
-UPDATE `npc` SET `name` = '墓地的禁衛兵' WHERE `id` = 21252;
-UPDATE `npc` SET `name` = '墓地的先知' WHERE `id` = 21253;
-UPDATE `npc` SET `name` = '冥界的禁衛兵' WHERE `id` = 21254;
-UPDATE `npc` SET `name` = '冥界的先知' WHERE `id` = 21255;
-UPDATE `npc` SET `name` = '地底狼人' WHERE `id` = 21256;
-UPDATE `npc` SET `name` = '惡魔之眼觀察者' WHERE `id` = 21257;
-UPDATE `npc` SET `name` = '墮落的獸人咒術士' WHERE `id` = 21258;
-UPDATE `npc` SET `name` = '墮落的獸人咒術士' WHERE `id` = 21259;
-UPDATE `npc` SET `name` = '背叛者獸人英雄' WHERE `id` = 21260;
-UPDATE `npc` SET `name` = '豺狼超越者' WHERE `id` = 21261;
-UPDATE `npc` SET `name` = '豺狼超越者' WHERE `id` = 21262;
-UPDATE `npc` SET `name` = '豺狼超越者' WHERE `id` = 21263;
-UPDATE `npc` SET `name` = '豺狼超越者' WHERE `id` = 21264;
-UPDATE `npc` SET `name` = '洞穴幼蟻' WHERE `id` = 21265;
-UPDATE `npc` SET `name` = '洞穴幼蟻' WHERE `id` = 21266;
-UPDATE `npc` SET `name` = '洞穴幼蟻' WHERE `id` = 21267;
-UPDATE `npc` SET `name` = '洞穴幼蟻' WHERE `id` = 21268;
-UPDATE `npc` SET `name` = '洞穴工蟻' WHERE `id` = 21269;
-UPDATE `npc` SET `name` = '洞穴兵蟻' WHERE `id` = 21270;
-UPDATE `npc` SET `name` = '洞穴工蟻' WHERE `id` = 21271;
-UPDATE `npc` SET `name` = '洞穴兵蟻' WHERE `id` = 21272;
-UPDATE `npc` SET `name` = '洞穴雄蟻' WHERE `id` = 21273;
-UPDATE `npc` SET `name` = '笑翠鳥' WHERE `id` = 21274;
-UPDATE `npc` SET `name` = '笑翠鳥' WHERE `id` = 21275;
-UPDATE `npc` SET `name` = '笑翠鳥' WHERE `id` = 21276;
-UPDATE `npc` SET `name` = '羚羊' WHERE `id` = 21278;
-UPDATE `npc` SET `name` = '羚羊' WHERE `id` = 21279;
-UPDATE `npc` SET `name` = '羚羊' WHERE `id` = 21280;
-UPDATE `npc` SET `name` = '班德斯那奇' WHERE `id` = 21282;
-UPDATE `npc` SET `name` = '班德斯那奇' WHERE `id` = 21283;
-UPDATE `npc` SET `name` = '班德斯那奇' WHERE `id` = 21284;
-UPDATE `npc` SET `name` = '野牛' WHERE `id` = 21286;
-UPDATE `npc` SET `name` = '野牛' WHERE `id` = 21287;
-UPDATE `npc` SET `name` = '野牛' WHERE `id` = 21288;
-UPDATE `npc` SET `name` = '格蘭帝爾' WHERE `id` = 21290;
-UPDATE `npc` SET `name` = '格蘭帝爾' WHERE `id` = 21291;
-UPDATE `npc` SET `name` = '格蘭帝爾' WHERE `id` = 21292;
-UPDATE `npc` SET `name` = '山谷羚羊' WHERE `id` = 21294;
-UPDATE `npc` SET `name` = '山谷羚羊奴隸' WHERE `id` = 21295;
-UPDATE `npc` SET `name` = '山谷班德斯那奇' WHERE `id` = 21296;
-UPDATE `npc` SET `name` = '班德斯那奇奴隸' WHERE `id` = 21297;
-UPDATE `npc` SET `name` = '束縛之眼' WHERE `id` = 21298;
-UPDATE `npc` SET `name` = '野牛奴隸' WHERE `id` = 21299;
-UPDATE `npc` SET `name` = '指引之眼' WHERE `id` = 21300;
-UPDATE `npc` SET `name` = '夢魘之眼' WHERE `id` = 21301;
-UPDATE `npc` SET `name` = '監視之眼' WHERE `id` = 21302;
-UPDATE `npc` SET `name` = '何門奎思' WHERE `id` = 21303;
-UPDATE `npc` SET `name` = '格蘭帝爾奴隸' WHERE `id` = 21304;
-UPDATE `npc` SET `name` = '防禦之眼' WHERE `id` = 21305;
-UPDATE `npc` SET `name` = '守護使徒' WHERE `id` = 21306;
-UPDATE `npc` SET `name` = '何門奎思長老' WHERE `id` = 21307;
-UPDATE `npc` SET `name` = '懲戒使徒' WHERE `id` = 21308;
-UPDATE `npc` SET `name` = '懲戒使徒' WHERE `id` = 21309;
-UPDATE `npc` SET `name` = '權能使徒' WHERE `id` = 21310;
-UPDATE `npc` SET `name` = '權能使徒' WHERE `id` = 21311;
-UPDATE `npc` SET `name` = '支配者之眼' WHERE `id` = 21312;
-UPDATE `npc` SET `name` = '狡猾的獵犬' WHERE `id` = 21313;
-UPDATE `npc` SET `name` = '溫泉班德斯那奇琳' WHERE `id` = 21314;
-UPDATE `npc` SET `name` = '溫泉野牛' WHERE `id` = 21315;
-UPDATE `npc` SET `name` = '溫泉芙拉瓦' WHERE `id` = 21316;
-UPDATE `npc` SET `name` = '溫泉幼阿楚克斯' WHERE `id` = 21317;
-UPDATE `npc` SET `name` = '溫泉羚羊' WHERE `id` = 21318;
-UPDATE `npc` SET `name` = '溫泉尼芬帝斯' WHERE `id` = 21319;
-UPDATE `npc` SET `name` = '溫泉雪人' WHERE `id` = 21320;
-UPDATE `npc` SET `name` = '溫泉阿楚克斯' WHERE `id` = 21321;
-UPDATE `npc` SET `name` = '溫泉班德斯那奇' WHERE `id` = 21322;
-UPDATE `npc` SET `name` = '溫泉格蘭帝爾' WHERE `id` = 21323;
-UPDATE `npc` SET `name` = '肯特拉獸人步兵' WHERE `id` = 21324;
-UPDATE `npc` SET `name` = '肯特拉軍犬' WHERE `id` = 21325;
-UPDATE `npc` SET `name` = '放牧的笑翠鳥' WHERE `id` = 21326;
-UPDATE `npc` SET `name` = '肯特拉獸人突擊兵' WHERE `id` = 21327;
-UPDATE `npc` SET `name` = '肯特拉獸人偵查兵' WHERE `id` = 21328;
-UPDATE `npc` SET `name` = '肯特拉獸人咒術士' WHERE `id` = 21329;
-UPDATE `npc` SET `name` = '放牧的野牛' WHERE `id` = 21330;
-UPDATE `npc` SET `name` = '肯特拉獸人戰士' WHERE `id` = 21331;
-UPDATE `npc` SET `name` = '肯特拉獸人副隊長' WHERE `id` = 21332;
-UPDATE `npc` SET `name` = '放牧的溫德薩斯' WHERE `id` = 21333;
-UPDATE `npc` SET `name` = '肯特拉獸人靈媒' WHERE `id` = 21334;
-UPDATE `npc` SET `name` = '肯特拉獸人精銳兵' WHERE `id` = 21335;
-UPDATE `npc` SET `name` = '肯特拉獸人百人隊長' WHERE `id` = 21336;
-UPDATE `npc` SET `name` = '放牧的野牛長老' WHERE `id` = 21337;
-UPDATE `npc` SET `name` = '肯特拉獸人祭司' WHERE `id` = 21338;
-UPDATE `npc` SET `name` = '肯特拉獸人軍官' WHERE `id` = 21339;
-UPDATE `npc` SET `name` = '肯特拉獸人大隊長' WHERE `id` = 21340;
-UPDATE `npc` SET `name` = '放牧的笑翠鳥長老' WHERE `id` = 21341;
-UPDATE `npc` SET `name` = '肯特拉獸人大祭司長' WHERE `id` = 21342;
-UPDATE `npc` SET `name` = '肯特拉軍團長' WHERE `id` = 21343;
-UPDATE `npc` SET `name` = '肯特拉精銳禁衛隊' WHERE `id` = 21344;
-UPDATE `npc` SET `name` = '肯特拉首席咒術士' WHERE `id` = 21345;
-UPDATE `npc` SET `name` = '肯特拉首席禁衛隊' WHERE `id` = 21346;
-UPDATE `npc` SET `name` = '肯特拉預言者' WHERE `id` = 21347;
-UPDATE `npc` SET `name` = '預言者的護衛兵' WHERE `id` = 21348;
-UPDATE `npc` SET `name` = '預言者的副官' WHERE `id` = 21349;
-UPDATE `npc` SET `name` = '巴瑞卡賽勒諾斯訓練兵' WHERE `id` = 21350;
-UPDATE `npc` SET `name` = '巴瑞卡賽勒諾斯步兵' WHERE `id` = 21351;
-UPDATE `npc` SET `name` = '放牧的羚羊' WHERE `id` = 21352;
-UPDATE `npc` SET `name` = '巴瑞卡賽勒諾斯偵查兵' WHERE `id` = 21353;
-UPDATE `npc` SET `name` = '巴瑞卡賽勒諾斯狩獵者' WHERE `id` = 21354;
-UPDATE `npc` SET `name` = '巴瑞卡賽勒諾斯咒術士' WHERE `id` = 21355;
-UPDATE `npc` SET `name` = '放牧的尼芬帝斯' WHERE `id` = 21356;
-UPDATE `npc` SET `name` = '巴瑞卡賽勒諾斯祭司' WHERE `id` = 21357;
-UPDATE `npc` SET `name` = '巴瑞卡賽勒諾斯戰士' WHERE `id` = 21358;
-UPDATE `npc` SET `name` = '放牧班德斯那奇' WHERE `id` = 21359;
-UPDATE `npc` SET `name` = '巴瑞卡賽勒諾斯靈媒' WHERE `id` = 21360;
-UPDATE `npc` SET `name` = '巴瑞卡賽勒諾斯魔導士' WHERE `id` = 21361;
-UPDATE `npc` SET `name` = '巴瑞卡賽勒諾斯下士' WHERE `id` = 21362;
-UPDATE `npc` SET `name` = '放牧的芙拉瓦' WHERE `id` = 21363;
-UPDATE `npc` SET `name` = '巴瑞卡賽勒諾斯祭司長' WHERE `id` = 21364;
-UPDATE `npc` SET `name` = '巴瑞卡賽勒諾斯大魔導士' WHERE `id` = 21365;
-UPDATE `npc` SET `name` = '巴瑞卡賽勒諾斯軍官' WHERE `id` = 21366;
-UPDATE `npc` SET `name` = '放牧的羚羊長老' WHERE `id` = 21367;
-UPDATE `npc` SET `name` = '巴瑞卡賽勒諾斯大祭司長' WHERE `id` = 21368;
-UPDATE `npc` SET `name` = '巴瑞卡軍團長' WHERE `id` = 21369;
-UPDATE `npc` SET `name` = '巴瑞卡精銳親衛隊' WHERE `id` = 21370;
-UPDATE `npc` SET `name` = '巴瑞卡首席魔導士' WHERE `id` = 21371;
-UPDATE `npc` SET `name` = '巴瑞卡首席親衛隊' WHERE `id` = 21372;
-UPDATE `npc` SET `name` = '巴瑞卡預言者' WHERE `id` = 21373;
-UPDATE `npc` SET `name` = '預言者的親衛兵' WHERE `id` = 21374;
-UPDATE `npc` SET `name` = '預言者的門徒' WHERE `id` = 21375;
-UPDATE `npc` SET `name` = '緋紅司塔卡拓工人' WHERE `id` = 21376;
-UPDATE `npc` SET `name` = '緋紅司塔卡拓士兵' WHERE `id` = 21377;
-UPDATE `npc` SET `name` = '緋紅司塔卡拓貴族' WHERE `id` = 21378;
-UPDATE `npc` SET `name` = '帝芙拉天蠍' WHERE `id` = 21379;
-UPDATE `npc` SET `name` = '帝芙拉聖甲蟲' WHERE `id` = 21380;
-UPDATE `npc` SET `name` = '暗殺甲蟲' WHERE `id` = 21381;
-UPDATE `npc` SET `name` = '破滅的傭兵' WHERE `id` = 21382;
-UPDATE `npc` SET `name` = '破滅的騎士' WHERE `id` = 21383;
-UPDATE `npc` SET `name` = '破滅的死靈術士' WHERE `id` = 21384;
-UPDATE `npc` SET `name` = '熔岩高崙' WHERE `id` = 21385;
-UPDATE `npc` SET `name` = '岩漿高崙' WHERE `id` = 21386;
-UPDATE `npc` SET `name` = '破滅的亞利曼那斯' WHERE `id` = 21387;
-UPDATE `npc` SET `name` = '破滅的伊比利斯' WHERE `id` = 21388;
-UPDATE `npc` SET `name` = '破滅的巴羅爾' WHERE `id` = 21389;
-UPDATE `npc` SET `name` = '破滅的阿修拉斯' WHERE `id` = 21390;
-UPDATE `npc` SET `name` = '熔岩邪惡蜥蜴' WHERE `id` = 21391;
-UPDATE `npc` SET `name` = '熾熱的伊佛利特' WHERE `id` = 21392;
-UPDATE `npc` SET `name` = '岩漿龍獸' WHERE `id` = 21393;
-UPDATE `npc` SET `name` = '岩漿撒魯斯' WHERE `id` = 21394;
-UPDATE `npc` SET `name` = '岩漿撒魯斯長老' WHERE `id` = 21395;
-UPDATE `npc` SET `name` = '食腐聖甲蟲' WHERE `id` = 21396;
-UPDATE `npc` SET `name` = '食腐聖甲蟲' WHERE `id` = 21397;
-UPDATE `npc` SET `name` = '聖甲蟲士兵' WHERE `id` = 21398;
-UPDATE `npc` SET `name` = '聖甲蟲士兵' WHERE `id` = 21399;
-UPDATE `npc` SET `name` = '黑克沙甲蟲' WHERE `id` = 21400;
-UPDATE `npc` SET `name` = '黑克沙甲蟲' WHERE `id` = 21401;
-UPDATE `npc` SET `name` = '凱特拉克希斯' WHERE `id` = 21402;
-UPDATE `npc` SET `name` = '凱特拉克希斯' WHERE `id` = 21403;
-UPDATE `npc` SET `name` = '泰拉甲蟲' WHERE `id` = 21404;
-UPDATE `npc` SET `name` = '泰拉甲蟲' WHERE `id` = 21405;
-UPDATE `npc` SET `name` = '帝國騎士' WHERE `id` = 21406;
-UPDATE `npc` SET `name` = '帝國騎士' WHERE `id` = 21407;
-UPDATE `npc` SET `name` = '帝國禁衛兵' WHERE `id` = 21408;
-UPDATE `npc` SET `name` = '帝國禁衛兵' WHERE `id` = 21409;
-UPDATE `npc` SET `name` = '守護者聖甲蟲' WHERE `id` = 21410;
-UPDATE `npc` SET `name` = '守護者聖甲蟲' WHERE `id` = 21411;
-UPDATE `npc` SET `name` = '亞斯特拉利斯' WHERE `id` = 21412;
-UPDATE `npc` SET `name` = '亞斯特拉利斯' WHERE `id` = 21413;
-UPDATE `npc` SET `name` = '帝國殺手' WHERE `id` = 21414;
-UPDATE `npc` SET `name` = '帝國殺手' WHERE `id` = 21415;
-UPDATE `npc` SET `name` = '帝國軍團長' WHERE `id` = 21416;
-UPDATE `npc` SET `name` = '帝國軍團長' WHERE `id` = 21417;
-UPDATE `npc` SET `name` = '帝國親衛隊' WHERE `id` = 21418;
-UPDATE `npc` SET `name` = '帝國親衛隊' WHERE `id` = 21419;
-UPDATE `npc` SET `name` = '阿修拉斯' WHERE `id` = 21420;
-UPDATE `npc` SET `name` = '阿修拉斯' WHERE `id` = 21421;
-UPDATE `npc` SET `name` = '帝國舞者' WHERE `id` = 21422;
-UPDATE `npc` SET `name` = '帝國舞者' WHERE `id` = 21423;
-UPDATE `npc` SET `name` = '阿修肯那斯' WHERE `id` = 21424;
-UPDATE `npc` SET `name` = '阿修肯那斯' WHERE `id` = 21425;
-UPDATE `npc` SET `name` = '阿布拉席恩' WHERE `id` = 21426;
-UPDATE `npc` SET `name` = '阿布拉席恩' WHERE `id` = 21427;
-UPDATE `npc` SET `name` = '哈士特蘭' WHERE `id` = 21428;
-UPDATE `npc` SET `name` = '哈士特蘭' WHERE `id` = 21429;
-UPDATE `npc` SET `name` = '亞利曼那斯' WHERE `id` = 21430;
-UPDATE `npc` SET `name` = '亞利曼那斯' WHERE `id` = 21431;
-UPDATE `npc` SET `name` = '戰輪甲蟲' WHERE `id` = 21432;
-UPDATE `npc` SET `name` = '刀刃甲蟲' WHERE `id` = 21433;
-UPDATE `npc` SET `name` = '血之祭司長' WHERE `id` = 21434;
-UPDATE `npc` SET `name` = '祭物的引導者' WHERE `id` = 21435;
-UPDATE `npc` SET `name` = '祭物的領導者' WHERE `id` = 21436;
-UPDATE `npc` SET `name` = '祭物蟲' WHERE `id` = 21437;
-UPDATE `npc` SET `name` = '異教徒戰士' WHERE `id` = 21438;
-UPDATE `npc` SET `name` = '異教徒死刑者' WHERE `id` = 21439;
-UPDATE `npc` SET `name` = '異教徒射手' WHERE `id` = 21440;
-UPDATE `npc` SET `name` = '異教徒士兵' WHERE `id` = 21441;
-UPDATE `npc` SET `name` = '異教徒騎士' WHERE `id` = 21442;
-UPDATE `npc` SET `name` = '放牧場掠奪者' WHERE `id` = 21443;
-UPDATE `npc` SET `name` = '放牧場掠奪者' WHERE `id` = 21444;
-UPDATE `npc` SET `name` = '高山班德斯那奇' WHERE `id` = 21445;
-UPDATE `npc` SET `name` = '放牧場掠奪者' WHERE `id` = 21446;
-UPDATE `npc` SET `name` = '放牧場掠奪者' WHERE `id` = 21447;
-UPDATE `npc` SET `name` = '放牧場掠奪者' WHERE `id` = 21448;
-UPDATE `npc` SET `name` = '放牧場掠奪者' WHERE `id` = 21449;
-UPDATE `npc` SET `name` = '高山格蘭帝爾' WHERE `id` = 21450;
-UPDATE `npc` SET `name` = '高山笑翠鳥' WHERE `id` = 21451;
-UPDATE `npc` SET `name` = '高山笑翠鳥' WHERE `id` = 21452;
-UPDATE `npc` SET `name` = '高山笑翠鳥' WHERE `id` = 21453;
-UPDATE `npc` SET `name` = '高山笑翠鳥' WHERE `id` = 21454;
-UPDATE `npc` SET `name` = '高山笑翠鳥' WHERE `id` = 21455;
-UPDATE `npc` SET `name` = '高山笑翠鳥' WHERE `id` = 21456;
-UPDATE `npc` SET `name` = '高山笑翠鳥' WHERE `id` = 21457;
-UPDATE `npc` SET `name` = '高山笑翠鳥' WHERE `id` = 21458;
-UPDATE `npc` SET `name` = '高山笑翠鳥' WHERE `id` = 21459;
-UPDATE `npc` SET `name` = '高山笑翠鳥' WHERE `id` = 21460;
-UPDATE `npc` SET `name` = '高山笑翠鳥' WHERE `id` = 21461;
-UPDATE `npc` SET `name` = '高山笑翠鳥' WHERE `id` = 21462;
-UPDATE `npc` SET `name` = '高山笑翠鳥' WHERE `id` = 21463;
-UPDATE `npc` SET `name` = '高山笑翠鳥' WHERE `id` = 21464;
-UPDATE `npc` SET `name` = '高山笑翠鳥' WHERE `id` = 21465;
-UPDATE `npc` SET `name` = '高山笑翠鳥' WHERE `id` = 21466;
-UPDATE `npc` SET `name` = '高山笑翠鳥' WHERE `id` = 21467;
-UPDATE `npc` SET `name` = '高山笑翠鳥' WHERE `id` = 21468;
-UPDATE `npc` SET `name` = '高山笑翠鳥' WHERE `id` = 21469;
-UPDATE `npc` SET `name` = '高山野牛' WHERE `id` = 21470;
-UPDATE `npc` SET `name` = '高山野牛' WHERE `id` = 21471;
-UPDATE `npc` SET `name` = '高山野牛' WHERE `id` = 21472;
-UPDATE `npc` SET `name` = '高山野牛' WHERE `id` = 21473;
-UPDATE `npc` SET `name` = '高山野牛' WHERE `id` = 21474;
-UPDATE `npc` SET `name` = '高山野牛' WHERE `id` = 21475;
-UPDATE `npc` SET `name` = '高山野牛' WHERE `id` = 21476;
-UPDATE `npc` SET `name` = '高山野牛' WHERE `id` = 21477;
-UPDATE `npc` SET `name` = '高山野牛' WHERE `id` = 21478;
-UPDATE `npc` SET `name` = '高山野牛' WHERE `id` = 21479;
-UPDATE `npc` SET `name` = '高山野牛' WHERE `id` = 21480;
-UPDATE `npc` SET `name` = '高山野牛' WHERE `id` = 21481;
-UPDATE `npc` SET `name` = '高山野牛' WHERE `id` = 21482;
-UPDATE `npc` SET `name` = '高山野牛' WHERE `id` = 21483;
-UPDATE `npc` SET `name` = '高山野牛' WHERE `id` = 21484;
-UPDATE `npc` SET `name` = '高山野牛' WHERE `id` = 21485;
-UPDATE `npc` SET `name` = '高山野牛' WHERE `id` = 21486;
-UPDATE `npc` SET `name` = '高山野牛' WHERE `id` = 21487;
-UPDATE `npc` SET `name` = '高山野牛' WHERE `id` = 21488;
-UPDATE `npc` SET `name` = '高山老虎' WHERE `id` = 21489;
-UPDATE `npc` SET `name` = '高山老虎' WHERE `id` = 21490;
-UPDATE `npc` SET `name` = '高山老虎' WHERE `id` = 21491;
-UPDATE `npc` SET `name` = '高山老虎' WHERE `id` = 21492;
-UPDATE `npc` SET `name` = '高山老虎' WHERE `id` = 21493;
-UPDATE `npc` SET `name` = '高山老虎' WHERE `id` = 21494;
-UPDATE `npc` SET `name` = '高山老虎' WHERE `id` = 21495;
-UPDATE `npc` SET `name` = '高山老虎' WHERE `id` = 21496;
-UPDATE `npc` SET `name` = '高山老虎' WHERE `id` = 21497;
-UPDATE `npc` SET `name` = '高山老虎' WHERE `id` = 21498;
-UPDATE `npc` SET `name` = '高山老虎' WHERE `id` = 21499;
-UPDATE `npc` SET `name` = '高山老虎' WHERE `id` = 21500;
-UPDATE `npc` SET `name` = '高山老虎' WHERE `id` = 21501;
-UPDATE `npc` SET `name` = '高山老虎' WHERE `id` = 21502;
-UPDATE `npc` SET `name` = '高山老虎' WHERE `id` = 21503;
-UPDATE `npc` SET `name` = '高山老虎' WHERE `id` = 21504;
-UPDATE `npc` SET `name` = '高山老虎' WHERE `id` = 21505;
-UPDATE `npc` SET `name` = '高山老虎' WHERE `id` = 21506;
-UPDATE `npc` SET `name` = '高山老虎' WHERE `id` = 21507;
-UPDATE `npc` SET `name` = '思布林特司塔卡拓' WHERE `id` = 21508;
-UPDATE `npc` SET `name` = '思布林特司塔卡拓工人' WHERE `id` = 21509;
-UPDATE `npc` SET `name` = '思布林特司塔卡拓士兵' WHERE `id` = 21510;
-UPDATE `npc` SET `name` = '雄性思布林特司塔卡拓' WHERE `id` = 21511;
-UPDATE `npc` SET `name` = '雄性思布林特司塔卡拓' WHERE `id` = 21512;
-UPDATE `npc` SET `name` = '尼多司塔卡拓' WHERE `id` = 21513;
-UPDATE `npc` SET `name` = '尼多司塔卡拓工人' WHERE `id` = 21514;
-UPDATE `npc` SET `name` = '尼多司塔卡拓士兵' WHERE `id` = 21515;
-UPDATE `npc` SET `name` = '雄性尼多司塔卡拓' WHERE `id` = 21516;
-UPDATE `npc` SET `name` = '雄性尼多司塔卡拓' WHERE `id` = 21517;
-UPDATE `npc` SET `name` = '狂熱司塔卡拓' WHERE `id` = 21518;
-UPDATE `npc` SET `name` = '雄性狂熱司塔卡拓' WHERE `id` = 21519;
-UPDATE `npc` SET `name` = '輝煌的眼睛' WHERE `id` = 21520;
-UPDATE `npc` SET `name` = '輝煌的利爪' WHERE `id` = 21521;
-UPDATE `npc` SET `name` = '輝煌的利爪' WHERE `id` = 21522;
-UPDATE `npc` SET `name` = '輝煌的閃光' WHERE `id` = 21523;
-UPDATE `npc` SET `name` = '輝煌的刀刃' WHERE `id` = 21524;
-UPDATE `npc` SET `name` = '輝煌的刀刃' WHERE `id` = 21525;
-UPDATE `npc` SET `name` = '輝煌的智慧' WHERE `id` = 21526;
-UPDATE `npc` SET `name` = '輝煌的憤怒' WHERE `id` = 21527;
-UPDATE `npc` SET `name` = '輝煌的憤怒' WHERE `id` = 21528;
-UPDATE `npc` SET `name` = '輝煌的靈魂' WHERE `id` = 21529;
-UPDATE `npc` SET `name` = '輝煌的遺產' WHERE `id` = 21530;
-UPDATE `npc` SET `name` = '輝煌的懲罰' WHERE `id` = 21531;
-UPDATE `npc` SET `name` = '輝煌的吶喊' WHERE `id` = 21532;
-UPDATE `npc` SET `name` = '輝煌的意志' WHERE `id` = 21533;
-UPDATE `npc` SET `name` = '輝煌的意志' WHERE `id` = 21534;
-UPDATE `npc` SET `name` = '輝煌的印記' WHERE `id` = 21535;
-UPDATE `npc` SET `name` = '輝煌的王冕' WHERE `id` = 21536;
-UPDATE `npc` SET `name` = '輝煌的獸牙' WHERE `id` = 21537;
-UPDATE `npc` SET `name` = '輝煌的獸牙' WHERE `id` = 21538;
-UPDATE `npc` SET `name` = '輝煌的苦痛' WHERE `id` = 21539;
-UPDATE `npc` SET `name` = '輝煌的苦痛' WHERE `id` = 21540;
-UPDATE `npc` SET `name` = '輝煌的求道者' WHERE `id` = 21541;
-UPDATE `npc` SET `name` = '求道者的門徒' WHERE `id` = 21542;
-UPDATE `npc` SET `name` = '求道者的侍從' WHERE `id` = 21543;
-UPDATE `npc` SET `name` = '輝煌的審判官' WHERE `id` = 21544;
-UPDATE `npc` SET `name` = '炎之審判者' WHERE `id` = 21545;
-UPDATE `npc` SET `name` = '光之審判者' WHERE `id` = 21546;
-UPDATE `npc` SET `name` = '墮落的騎士' WHERE `id` = 21547;
-UPDATE `npc` SET `name` = '復活的騎士' WHERE `id` = 21548;
-UPDATE `npc` SET `name` = '墮落的禁衛兵' WHERE `id` = 21549;
-UPDATE `npc` SET `name` = '墮落的禁衛兵' WHERE `id` = 21550;
-UPDATE `npc` SET `name` = '復活的禁衛兵' WHERE `id` = 21551;
-UPDATE `npc` SET `name` = '復活的禁衛兵' WHERE `id` = 21552;
-UPDATE `npc` SET `name` = '受摧殘者' WHERE `id` = 21553;
-UPDATE `npc` SET `name` = '受摧殘者' WHERE `id` = 21554;
-UPDATE `npc` SET `name` = '殺戮的執行者' WHERE `id` = 21555;
-UPDATE `npc` SET `name` = '殺戮的執行者' WHERE `id` = 21556;
-UPDATE `npc` SET `name` = '骸骨綁架者' WHERE `id` = 21557;
-UPDATE `npc` SET `name` = '骸骨綁架者' WHERE `id` = 21558;
-UPDATE `npc` SET `name` = '骸骨製造者' WHERE `id` = 21559;
-UPDATE `npc` SET `name` = '骸骨塑造者' WHERE `id` = 21560;
-UPDATE `npc` SET `name` = '犧牲者' WHERE `id` = 21561;
-UPDATE `npc` SET `name` = '斷頭台的亡靈' WHERE `id` = 21562;
-UPDATE `npc` SET `name` = '骸骨收藏者' WHERE `id` = 21563;
-UPDATE `npc` SET `name` = '骷髏收藏者' WHERE `id` = 21564;
-UPDATE `npc` SET `name` = '骸骨操縱者' WHERE `id` = 21565;
-UPDATE `npc` SET `name` = '骷髏操縱者' WHERE `id` = 21566;
-UPDATE `npc` SET `name` = '骸骨殺手' WHERE `id` = 21567;
-UPDATE `npc` SET `name` = '惡魔蝙蝠' WHERE `id` = 21568;
-UPDATE `npc` SET `name` = '惡魔蝙蝠' WHERE `id` = 21569;
-UPDATE `npc` SET `name` = '叛亂者的亡靈' WHERE `id` = 21570;
-UPDATE `npc` SET `name` = '叛亂軍士兵的亡靈' WHERE `id` = 21571;
-UPDATE `npc` SET `name` = '骸骨清除者' WHERE `id` = 21572;
-UPDATE `npc` SET `name` = '阿楚克斯' WHERE `id` = 21573;
-UPDATE `npc` SET `name` = '骸骨破壞者' WHERE `id` = 21574;
-UPDATE `npc` SET `name` = '骸骨破壞者' WHERE `id` = 21575;
-UPDATE `npc` SET `name` = '處刑台的亡靈' WHERE `id` = 21576;
-UPDATE `npc` SET `name` = '處刑台的亡靈' WHERE `id` = 21577;
-UPDATE `npc` SET `name` = '貝希莫斯殭屍' WHERE `id` = 21578;
-UPDATE `npc` SET `name` = '叛亂軍領導的亡靈' WHERE `id` = 21579;
-UPDATE `npc` SET `name` = '骸骨投擲者' WHERE `id` = 21580;
-UPDATE `npc` SET `name` = '骸骨操偶師' WHERE `id` = 21581;
-UPDATE `npc` SET `name` = '吸血鬼士兵' WHERE `id` = 21582;
-UPDATE `npc` SET `name` = '骸骨拾荒者' WHERE `id` = 21583;
-UPDATE `npc` SET `name` = '骸骨拾荒者' WHERE `id` = 21584;
-UPDATE `npc` SET `name` = '吸血鬼魔法師' WHERE `id` = 21585;
-UPDATE `npc` SET `name` = '吸血鬼咒術士' WHERE `id` = 21586;
-UPDATE `npc` SET `name` = '吸血鬼武者' WHERE `id` = 21587;
-UPDATE `npc` SET `name` = '吸血鬼巫師' WHERE `id` = 21588;
-UPDATE `npc` SET `name` = '吸血鬼巫師' WHERE `id` = 21589;
-UPDATE `npc` SET `name` = '吸血鬼魔導士' WHERE `id` = 21590;
-UPDATE `npc` SET `name` = '吸血鬼魔導士' WHERE `id` = 21591;
-UPDATE `npc` SET `name` = '吸血鬼魔導士' WHERE `id` = 21592;
-UPDATE `npc` SET `name` = '吸血鬼戰將' WHERE `id` = 21593;
-UPDATE `npc` SET `name` = '吸血鬼戰將' WHERE `id` = 21594;
-UPDATE `npc` SET `name` = '吸血鬼戰將' WHERE `id` = 21595;
-UPDATE `npc` SET `name` = '安魂之主' WHERE `id` = 21596;
-UPDATE `npc` SET `name` = '安魂貝希莫斯' WHERE `id` = 21597;
-UPDATE `npc` SET `name` = '安魂貝希莫斯' WHERE `id` = 21598;
-UPDATE `npc` SET `name` = '安魂祭司' WHERE `id` = 21599;
-UPDATE `npc` SET `name` = '安魂貝希莫斯' WHERE `id` = 21600;
-UPDATE `npc` SET `name` = '安魂貝希莫斯' WHERE `id` = 21601;
-UPDATE `npc` SET `name` = '札肯的槍兵' WHERE `id` = 21602;
-UPDATE `npc` SET `name` = '札肯的槍兵' WHERE `id` = 21603;
-UPDATE `npc` SET `name` = '札肯的精銳槍兵' WHERE `id` = 21604;
-UPDATE `npc` SET `name` = '札肯的射手' WHERE `id` = 21605;
-UPDATE `npc` SET `name` = '札肯的射手' WHERE `id` = 21606;
-UPDATE `npc` SET `name` = '札肯的精銳射手' WHERE `id` = 21607;
-UPDATE `npc` SET `name` = '札肯的監視者' WHERE `id` = 21608;
-UPDATE `npc` SET `name` = '札肯的監視者' WHERE `id` = 21609;
-UPDATE `npc` SET `name` = '札肯的前鋒監視者' WHERE `id` = 21610;
-UPDATE `npc` SET `name` = '陰鬱之音' WHERE `id` = 21611;
-UPDATE `npc` SET `name` = '陰鬱之音' WHERE `id` = 21612;
-UPDATE `npc` SET `name` = '陰鬱慟哭' WHERE `id` = 21613;
-UPDATE `npc` SET `name` = '死亡飛行者' WHERE `id` = 21614;
-UPDATE `npc` SET `name` = '死亡飛行者' WHERE `id` = 21615;
-UPDATE `npc` SET `name` = '巨人飛行者' WHERE `id` = 21616;
-UPDATE `npc` SET `name` = '魔鬼弓箭手' WHERE `id` = 21617;
-UPDATE `npc` SET `name` = '魔鬼弓箭手' WHERE `id` = 21618;
-UPDATE `npc` SET `name` = '地獄射手' WHERE `id` = 21619;
-UPDATE `npc` SET `name` = '姆斯維倫' WHERE `id` = 21620;
-UPDATE `npc` SET `name` = '姆斯維倫' WHERE `id` = 21621;
-UPDATE `npc` SET `name` = '巨型姆斯維倫' WHERE `id` = 21622;
-UPDATE `npc` SET `name` = '札肯的親衛隊' WHERE `id` = 21623;
-UPDATE `npc` SET `name` = '札肯的親衛隊' WHERE `id` = 21624;
-UPDATE `npc` SET `name` = '札肯的精銳親衛隊' WHERE `id` = 21625;
-UPDATE `npc` SET `name` = '卡倚巴奴' WHERE `id` = 21626;
-UPDATE `npc` SET `name` = '卡倚巴奴' WHERE `id` = 21627;
-UPDATE `npc` SET `name` = '卡倚巴奴拉德' WHERE `id` = 21628;
-UPDATE `npc` SET `name` = '海賊殭屍船長' WHERE `id` = 21629;
-UPDATE `npc` SET `name` = '海賊殭屍船長' WHERE `id` = 21630;
-UPDATE `npc` SET `name` = '海賊殭屍船長的怨靈' WHERE `id` = 21631;
-UPDATE `npc` SET `name` = '人偶刀手' WHERE `id` = 21632;
-UPDATE `npc` SET `name` = '人偶刀手' WHERE `id` = 21633;
-UPDATE `npc` SET `name` = '深紅的人偶刀手' WHERE `id` = 21634;
-UPDATE `npc` SET `name` = '貝里大師' WHERE `id` = 21635;
-UPDATE `npc` SET `name` = '貝里大師' WHERE `id` = 21636;
-UPDATE `npc` SET `name` = '深紅的貝里大師' WHERE `id` = 21637;
-UPDATE `npc` SET `name` = '獨雷德狼' WHERE `id` = 21638;
-UPDATE `npc` SET `name` = '塔沙巴蜥蜴人' WHERE `id` = 21639;
-UPDATE `npc` SET `name` = '塔沙巴蜥蜴人咒術士' WHERE `id` = 21640;
-UPDATE `npc` SET `name` = '食人魔' WHERE `id` = 21641;
-UPDATE `npc` SET `name` = '塔沙巴蜥蜴人狙擊手' WHERE `id` = 21642;
-UPDATE `npc` SET `name` = '塔沙巴蜥蜴人狙擊手' WHERE `id` = 21643;
-UPDATE `npc` SET `name` = '翼蛇' WHERE `id` = 21644;
-UPDATE `npc` SET `name` = '翼蛇拉德' WHERE `id` = 21645;
-UPDATE `npc` SET `name` = '墓穴聖甲蟲' WHERE `id` = 21646;
-UPDATE `npc` SET `name` = '食屍聖甲蟲' WHERE `id` = 21647;
-UPDATE `npc` SET `name` = '墓穴螞蟻' WHERE `id` = 21648;
-UPDATE `npc` SET `name` = '食屍螞蟻' WHERE `id` = 21649;
-UPDATE `npc` SET `name` = '聖陵騎士' WHERE `id` = 21650;
-UPDATE `npc` SET `name` = '聖陵禁衛兵' WHERE `id` = 21651;
-UPDATE `npc` SET `name` = '緋紅司塔卡拓貴族' WHERE `id` = 21652;
-UPDATE `npc` SET `name` = '暗殺甲蟲' WHERE `id` = 21653;
-UPDATE `npc` SET `name` = '破滅的死靈術士' WHERE `id` = 21654;
-UPDATE `npc` SET `name` = '破滅的亞利曼那斯' WHERE `id` = 21655;
-UPDATE `npc` SET `name` = '破滅的阿修拉斯' WHERE `id` = 21656;
-UPDATE `npc` SET `name` = '岩漿龍獸' WHERE `id` = 21657;
-UPDATE `npc` SET `name` = '輝煌的懲罰' WHERE `id` = 21658;
-UPDATE `npc` SET `name` = '異界的侵略士兵' WHERE `id` = 21659;
-UPDATE `npc` SET `name` = '異界的侵略士兵' WHERE `id` = 21660;
-UPDATE `npc` SET `name` = '異界的侵略射手' WHERE `id` = 21661;
-UPDATE `npc` SET `name` = '異界的侵略精銳兵' WHERE `id` = 21662;
-UPDATE `npc` SET `name` = '異界的侵略咒術士' WHERE `id` = 21663;
-UPDATE `npc` SET `name` = '異界的侵略祭司' WHERE `id` = 21664;
-UPDATE `npc` SET `name` = '異界的侵略魔導士' WHERE `id` = 21665;
-UPDATE `npc` SET `name` = '異界的侵略殉教者' WHERE `id` = 21666;
-UPDATE `npc` SET `name` = '異界的侵略戰士' WHERE `id` = 21667;
-UPDATE `npc` SET `name` = '異界的侵略刺兵' WHERE `id` = 21668;
-UPDATE `npc` SET `name` = '異界的侵略使徒' WHERE `id` = 21669;
-UPDATE `npc` SET `name` = '異界的侵略狂戰士' WHERE `id` = 21670;
-UPDATE `npc` SET `name` = '異界的侵略軍軍糧' WHERE `id` = 21671;
-UPDATE `npc` SET `name` = '異界的侵略精銳兵' WHERE `id` = 21672;
-UPDATE `npc` SET `name` = '異界的侵略精銳兵' WHERE `id` = 21673;
-UPDATE `npc` SET `name` = '異界的侵略精銳兵' WHERE `id` = 21674;
-UPDATE `npc` SET `name` = '異界的侵略精銳兵' WHERE `id` = 21675;
-UPDATE `npc` SET `name` = '異界的侵略戰士' WHERE `id` = 21676;
-UPDATE `npc` SET `name` = '異界的侵略精銳兵' WHERE `id` = 21677;
-UPDATE `npc` SET `name` = '異界的侵略精銳兵' WHERE `id` = 21678;
-UPDATE `npc` SET `name` = '異界的侵略精銳兵' WHERE `id` = 21679;
-UPDATE `npc` SET `name` = '異界的侵略精銳兵' WHERE `id` = 21680;
-UPDATE `npc` SET `name` = '異界的侵略魔導士' WHERE `id` = 21681;
-UPDATE `npc` SET `name` = '次元的侵略士兵' WHERE `id` = 21682;
-UPDATE `npc` SET `name` = '次元的侵略士兵' WHERE `id` = 21683;
-UPDATE `npc` SET `name` = '次元的侵略射手' WHERE `id` = 21684;
-UPDATE `npc` SET `name` = '次元的侵略精銳兵' WHERE `id` = 21685;
-UPDATE `npc` SET `name` = '次元的侵略咒術士' WHERE `id` = 21686;
-UPDATE `npc` SET `name` = '次元的侵略祭司' WHERE `id` = 21687;
-UPDATE `npc` SET `name` = '次元的侵略魔導士' WHERE `id` = 21688;
-UPDATE `npc` SET `name` = '次元的侵略殉教者' WHERE `id` = 21689;
-UPDATE `npc` SET `name` = '次元的侵略戰士' WHERE `id` = 21690;
-UPDATE `npc` SET `name` = '次元的侵略士兵' WHERE `id` = 21691;
-UPDATE `npc` SET `name` = '次元的侵略使徒' WHERE `id` = 21692;
-UPDATE `npc` SET `name` = '次元的侵略狂戰士' WHERE `id` = 21693;
-UPDATE `npc` SET `name` = '次元的侵略軍軍糧' WHERE `id` = 21694;
-UPDATE `npc` SET `name` = '次元的侵略精銳兵' WHERE `id` = 21695;
-UPDATE `npc` SET `name` = '次元的侵略精銳兵' WHERE `id` = 21696;
-UPDATE `npc` SET `name` = '次元的侵略精銳兵' WHERE `id` = 21697;
-UPDATE `npc` SET `name` = '次元的侵略精銳兵' WHERE `id` = 21698;
-UPDATE `npc` SET `name` = '次元的侵略戰士' WHERE `id` = 21699;
-UPDATE `npc` SET `name` = '次元的侵略精銳兵' WHERE `id` = 21700;
-UPDATE `npc` SET `name` = '次元的侵略精銳兵' WHERE `id` = 21701;
-UPDATE `npc` SET `name` = '次元的侵略精銳兵' WHERE `id` = 21702;
-UPDATE `npc` SET `name` = '次元的侵略精銳兵' WHERE `id` = 21703;
-UPDATE `npc` SET `name` = '次元的侵略魔導士' WHERE `id` = 21704;
-UPDATE `npc` SET `name` = '煉獄的侵略士兵' WHERE `id` = 21705;
-UPDATE `npc` SET `name` = '煉獄的侵略士兵' WHERE `id` = 21706;
-UPDATE `npc` SET `name` = '煉獄的侵略射手' WHERE `id` = 21707;
-UPDATE `npc` SET `name` = '煉獄的侵略精銳兵' WHERE `id` = 21708;
-UPDATE `npc` SET `name` = '煉獄的侵略咒術士' WHERE `id` = 21709;
-UPDATE `npc` SET `name` = '煉獄的侵略祭司' WHERE `id` = 21710;
-UPDATE `npc` SET `name` = '煉獄的侵略魔導士' WHERE `id` = 21711;
-UPDATE `npc` SET `name` = '煉獄的侵略殉教者' WHERE `id` = 21712;
-UPDATE `npc` SET `name` = '煉獄的侵略戰士' WHERE `id` = 21713;
-UPDATE `npc` SET `name` = '煉獄的侵略士兵' WHERE `id` = 21714;
-UPDATE `npc` SET `name` = '煉獄的侵略使徒' WHERE `id` = 21715;
-UPDATE `npc` SET `name` = '煉獄的侵略狂戰士' WHERE `id` = 21716;
-UPDATE `npc` SET `name` = '煉獄的侵略軍軍糧' WHERE `id` = 21717;
-UPDATE `npc` SET `name` = '煉獄的侵略精銳兵' WHERE `id` = 21718;
-UPDATE `npc` SET `name` = '煉獄的侵略精銳兵' WHERE `id` = 21719;
-UPDATE `npc` SET `name` = '煉獄的侵略精銳兵' WHERE `id` = 21720;
-UPDATE `npc` SET `name` = '煉獄的侵略精銳兵' WHERE `id` = 21721;
-UPDATE `npc` SET `name` = '煉獄的侵略戰士' WHERE `id` = 21722;
-UPDATE `npc` SET `name` = '煉獄的侵略精銳兵' WHERE `id` = 21723;
-UPDATE `npc` SET `name` = '煉獄的侵略精銳兵' WHERE `id` = 21724;
-UPDATE `npc` SET `name` = '煉獄的侵略精銳兵' WHERE `id` = 21725;
-UPDATE `npc` SET `name` = '煉獄的侵略精銳兵' WHERE `id` = 21726;
-UPDATE `npc` SET `name` = '煉獄的侵略魔導士' WHERE `id` = 21727;
-UPDATE `npc` SET `name` = '密謀者的侵略士兵' WHERE `id` = 21728;
-UPDATE `npc` SET `name` = '密謀者的侵略士兵' WHERE `id` = 21729;
-UPDATE `npc` SET `name` = '密謀者的侵略射手' WHERE `id` = 21730;
-UPDATE `npc` SET `name` = '密謀者的侵略精銳兵' WHERE `id` = 21731;
-UPDATE `npc` SET `name` = '密謀者的侵略咒術士' WHERE `id` = 21732;
-UPDATE `npc` SET `name` = '密謀者的侵略祭司' WHERE `id` = 21733;
-UPDATE `npc` SET `name` = '密謀者的侵略魔導士' WHERE `id` = 21734;
-UPDATE `npc` SET `name` = '密謀者的侵略殉教者' WHERE `id` = 21735;
-UPDATE `npc` SET `name` = '密謀者的侵略戰士' WHERE `id` = 21736;
-UPDATE `npc` SET `name` = '密謀者的侵略士兵' WHERE `id` = 21737;
-UPDATE `npc` SET `name` = '密謀者的侵略使徒' WHERE `id` = 21738;
-UPDATE `npc` SET `name` = '密謀者的侵略狂戰士' WHERE `id` = 21739;
-UPDATE `npc` SET `name` = '密謀者的侵略軍軍糧' WHERE `id` = 21740;
-UPDATE `npc` SET `name` = '密謀者的侵略精銳兵' WHERE `id` = 21741;
-UPDATE `npc` SET `name` = '密謀者的侵略精銳兵' WHERE `id` = 21742;
-UPDATE `npc` SET `name` = '密謀者的侵略精銳兵' WHERE `id` = 21743;
-UPDATE `npc` SET `name` = '密謀者的侵略精銳兵' WHERE `id` = 21744;
-UPDATE `npc` SET `name` = '密謀者的侵略戰士' WHERE `id` = 21745;
-UPDATE `npc` SET `name` = '密謀者的侵略精銳兵' WHERE `id` = 21746;
-UPDATE `npc` SET `name` = '密謀者的侵略精銳兵' WHERE `id` = 21747;
-UPDATE `npc` SET `name` = '密謀者的侵略精銳兵' WHERE `id` = 21748;
-UPDATE `npc` SET `name` = '密謀者的侵略精銳兵' WHERE `id` = 21749;
-UPDATE `npc` SET `name` = '密謀者的侵略魔導士' WHERE `id` = 21750;
-UPDATE `npc` SET `name` = '凶煞的侵略士兵' WHERE `id` = 21751;
-UPDATE `npc` SET `name` = '凶煞的侵略士兵' WHERE `id` = 21752;
-UPDATE `npc` SET `name` = '凶煞的侵略射手' WHERE `id` = 21753;
-UPDATE `npc` SET `name` = '凶煞的侵略精銳兵' WHERE `id` = 21754;
-UPDATE `npc` SET `name` = '凶煞的侵略咒術士' WHERE `id` = 21755;
-UPDATE `npc` SET `name` = '凶煞的侵略祭司' WHERE `id` = 21756;
-UPDATE `npc` SET `name` = '凶煞的侵略魔導士' WHERE `id` = 21757;
-UPDATE `npc` SET `name` = '凶煞的侵略殉教者' WHERE `id` = 21758;
-UPDATE `npc` SET `name` = '凶煞的侵略戰士' WHERE `id` = 21759;
-UPDATE `npc` SET `name` = '凶煞的侵略士兵' WHERE `id` = 21760;
-UPDATE `npc` SET `name` = '凶煞的侵略使徒' WHERE `id` = 21761;
-UPDATE `npc` SET `name` = '凶煞的侵略狂戰士' WHERE `id` = 21762;
-UPDATE `npc` SET `name` = '凶煞的侵略軍軍糧' WHERE `id` = 21763;
-UPDATE `npc` SET `name` = '凶煞的侵略精銳兵' WHERE `id` = 21764;
-UPDATE `npc` SET `name` = '凶煞的侵略精銳兵' WHERE `id` = 21765;
-UPDATE `npc` SET `name` = '凶煞的侵略精銳兵' WHERE `id` = 21766;
-UPDATE `npc` SET `name` = '凶煞的侵略精銳兵' WHERE `id` = 21767;
-UPDATE `npc` SET `name` = '凶煞的侵略戰士' WHERE `id` = 21768;
-UPDATE `npc` SET `name` = '凶煞的侵略精銳兵' WHERE `id` = 21769;
-UPDATE `npc` SET `name` = '凶煞的侵略精銳兵' WHERE `id` = 21770;
-UPDATE `npc` SET `name` = '凶煞的侵略精銳兵' WHERE `id` = 21771;
-UPDATE `npc` SET `name` = '凶煞的侵略精銳兵' WHERE `id` = 21772;
-UPDATE `npc` SET `name` = '凶煞的侵略魔導士' WHERE `id` = 21773;
-UPDATE `npc` SET `name` = '邪神的侵略士兵' WHERE `id` = 21774;
-UPDATE `npc` SET `name` = '邪神的侵略士兵' WHERE `id` = 21775;
-UPDATE `npc` SET `name` = '邪神的侵略射手' WHERE `id` = 21776;
-UPDATE `npc` SET `name` = '邪神的侵略精銳兵' WHERE `id` = 21777;
-UPDATE `npc` SET `name` = '邪神的侵略咒術士' WHERE `id` = 21778;
-UPDATE `npc` SET `name` = '邪神的侵略祭司' WHERE `id` = 21779;
-UPDATE `npc` SET `name` = '邪神的侵略魔導士' WHERE `id` = 21780;
-UPDATE `npc` SET `name` = '邪神的侵略殉教者' WHERE `id` = 21781;
-UPDATE `npc` SET `name` = '邪神的侵略戰士' WHERE `id` = 21782;
-UPDATE `npc` SET `name` = '邪神的侵略士兵' WHERE `id` = 21783;
-UPDATE `npc` SET `name` = '邪神的侵略使徒' WHERE `id` = 21784;
-UPDATE `npc` SET `name` = '邪神的侵略狂戰士' WHERE `id` = 21785;
-UPDATE `npc` SET `name` = '邪神的侵略軍軍糧' WHERE `id` = 21786;
-UPDATE `npc` SET `name` = '邪神的侵略精銳兵' WHERE `id` = 21787;
-UPDATE `npc` SET `name` = '邪神的侵略精銳兵' WHERE `id` = 21788;
-UPDATE `npc` SET `name` = '邪神的侵略精銳兵' WHERE `id` = 21789;
-UPDATE `npc` SET `name` = '邪神的侵略精銳兵' WHERE `id` = 21790;
-UPDATE `npc` SET `name` = '邪神的侵略戰士' WHERE `id` = 21791;
-UPDATE `npc` SET `name` = '邪神的侵略精銳兵' WHERE `id` = 21792;
-UPDATE `npc` SET `name` = '邪神的侵略精銳兵' WHERE `id` = 21793;
-UPDATE `npc` SET `name` = '邪神的侵略精銳兵' WHERE `id` = 21794;
-UPDATE `npc` SET `name` = '邪神的侵略精銳兵' WHERE `id` = 21795;
-UPDATE `npc` SET `name` = '邪神的侵略魔導士' WHERE `id` = 21796;
-UPDATE `npc` SET `name` = '提米妮爾的妖精' WHERE `id` = 21797;
-UPDATE `npc` SET `name` = '守門人的亡靈' WHERE `id` = 21798;
-UPDATE `npc` SET `name` = '守門人的亡靈' WHERE `id` = 21799;
-UPDATE `npc` SET `name` = '家臣的亡靈' WHERE `id` = 21800;
-UPDATE `npc` SET `name` = '寶箱' WHERE `id` = 21801;
-UPDATE `npc` SET `name` = '寶箱' WHERE `id` = 21802;
-UPDATE `npc` SET `name` = '寶箱' WHERE `id` = 21803;
-UPDATE `npc` SET `name` = '寶箱' WHERE `id` = 21804;
-UPDATE `npc` SET `name` = '寶箱' WHERE `id` = 21805;
-UPDATE `npc` SET `name` = '寶箱' WHERE `id` = 21806;
-UPDATE `npc` SET `name` = '寶箱' WHERE `id` = 21807;
-UPDATE `npc` SET `name` = '寶箱' WHERE `id` = 21808;
-UPDATE `npc` SET `name` = '寶箱' WHERE `id` = 21809;
-UPDATE `npc` SET `name` = '寶箱' WHERE `id` = 21810;
-UPDATE `npc` SET `name` = '寶箱' WHERE `id` = 21811;
-UPDATE `npc` SET `name` = '寶箱' WHERE `id` = 21812;
-UPDATE `npc` SET `name` = '寶箱' WHERE `id` = 21813;
-UPDATE `npc` SET `name` = '寶箱' WHERE `id` = 21814;
-UPDATE `npc` SET `name` = '寶箱' WHERE `id` = 21815;
-UPDATE `npc` SET `name` = '寶箱' WHERE `id` = 21816;
-UPDATE `npc` SET `name` = '寶箱' WHERE `id` = 21817;
-UPDATE `npc` SET `name` = '寶箱' WHERE `id` = 21818;
-UPDATE `npc` SET `name` = '寶箱' WHERE `id` = 21819;
-UPDATE `npc` SET `name` = '寶箱' WHERE `id` = 21820;
-UPDATE `npc` SET `name` = '寶箱' WHERE `id` = 21821;
-UPDATE `npc` SET `name` = '寶箱' WHERE `id` = 21822;
-UPDATE `npc` SET `name` = '祭物的執行者' WHERE `id` = 21823;
-UPDATE `npc` SET `name` = '高山笑翠鳥' WHERE `id` = 21824;
-UPDATE `npc` SET `name` = '高山笑翠鳥' WHERE `id` = 21825;
-UPDATE `npc` SET `name` = '高山野牛' WHERE `id` = 21826;
-UPDATE `npc` SET `name` = '高山野牛' WHERE `id` = 21827;
-UPDATE `npc` SET `name` = '高山老虎' WHERE `id` = 21828;
-UPDATE `npc` SET `name` = '高山老虎' WHERE `id` = 21829;
-UPDATE `npc` SET `name` = '埋葬地野狼' WHERE `id` = 22001;
-UPDATE `npc` SET `name` = '埋葬地灰熊' WHERE `id` = 22002;
-UPDATE `npc` SET `name` = '盜墓者偵查兵' WHERE `id` = 22003;
-UPDATE `npc` SET `name` = '盜墓者哨兵' WHERE `id` = 22004;
-UPDATE `npc` SET `name` = '盜墓者搜索兵' WHERE `id` = 22005;
-UPDATE `npc` SET `name` = '盜墓者警備兵' WHERE `id` = 22006;
-UPDATE `npc` SET `name` = '族長私兵團怨靈' WHERE `id` = 22007;
-UPDATE `npc` SET `name` = '盜墓者戰士' WHERE `id` = 22008;
-UPDATE `npc` SET `name` = '族長家臣亡靈' WHERE `id` = 22009;
-UPDATE `npc` SET `name` = '族長私兵團長怨靈' WHERE `id` = 22010;
-UPDATE `npc` SET `name` = '巴吐族長怨靈' WHERE `id` = 22011;
-UPDATE `npc` SET `name` = '巴吐族長怨靈' WHERE `id` = 22012;
-UPDATE `npc` SET `name` = '莫列克族長亡靈' WHERE `id` = 22013;
-UPDATE `npc` SET `name` = '莫列克族長亡靈' WHERE `id` = 22014;
-UPDATE `npc` SET `name` = '圖魯卡族長亡靈' WHERE `id` = 22015;
-UPDATE `npc` SET `name` = '圖魯卡族長亡靈' WHERE `id` = 22016;
-UPDATE `npc` SET `name` = '山賊團掃蕩者' WHERE `id` = 22017;
-UPDATE `npc` SET `name` = '山賊團獵犬' WHERE `id` = 22018;
-UPDATE `npc` SET `name` = '山賊團監視者' WHERE `id` = 22019;
-UPDATE `npc` SET `name` = '雪原豹' WHERE `id` = 22020;
-UPDATE `npc` SET `name` = '山賊團葬儀者' WHERE `id` = 22021;
-UPDATE `npc` SET `name` = '山賊團暗殺者' WHERE `id` = 22022;
-UPDATE `npc` SET `name` = '山賊團戰士' WHERE `id` = 22023;
-UPDATE `npc` SET `name` = '山賊團監察官' WHERE `id` = 22024;
-UPDATE `npc` SET `name` = '雪原狼' WHERE `id` = 22025;
-UPDATE `npc` SET `name` = '山賊團隊長' WHERE `id` = 22026;
-UPDATE `npc` SET `name` = '被遺忘的車夫' WHERE `id` = 22027;
-UPDATE `npc` SET `name` = '遺蹟流浪者' WHERE `id` = 22028;
-UPDATE `npc` SET `name` = '羅格那獸人' WHERE `id` = 22029;
-UPDATE `npc` SET `name` = '羅格那獸人咒術士' WHERE `id` = 22030;
-UPDATE `npc` SET `name` = '羅格那獸人射手' WHERE `id` = 22031;
-UPDATE `npc` SET `name` = '羅格那獸人戰士' WHERE `id` = 22032;
-UPDATE `npc` SET `name` = '羅格那獸人法咒師' WHERE `id` = 22033;
-UPDATE `npc` SET `name` = '羅格那獸人法咒師' WHERE `id` = 22034;
-UPDATE `npc` SET `name` = '羅格那獸人法咒師' WHERE `id` = 22035;
-UPDATE `npc` SET `name` = '羅格那獸人法咒師' WHERE `id` = 22036;
-UPDATE `npc` SET `name` = '羅格那獸人治療師' WHERE `id` = 22037;
-UPDATE `npc` SET `name` = '羅格那獸人英雄' WHERE `id` = 22038;
-UPDATE `npc` SET `name` = '羅格那獸人司令官' WHERE `id` = 22039;
-UPDATE `npc` SET `name` = '羅格那獸人狙擊手' WHERE `id` = 22040;
-UPDATE `npc` SET `name` = '羅格那獸人巫師' WHERE `id` = 22041;
-UPDATE `npc` SET `name` = '羅格那獸人巫師' WHERE `id` = 22042;
-UPDATE `npc` SET `name` = '羅格那獸人巫師' WHERE `id` = 22043;
-UPDATE `npc` SET `name` = '羅格那獸人巫師' WHERE `id` = 22044;
-UPDATE `npc` SET `name` = '無名屍' WHERE `id` = 22045;
-UPDATE `npc` SET `name` = '巴蘭卡的魔物' WHERE `id` = 22046;
-UPDATE `npc` SET `name` = '被遺棄村莊的監視者' WHERE `id` = 22047;
-UPDATE `npc` SET `name` = '黑暗蜘蛛' WHERE `id` = 22048;
-UPDATE `npc` SET `name` = '巴蘭卡的魅魔' WHERE `id` = 22049;
-UPDATE `npc` SET `name` = '智慧型偵查高崙四號機' WHERE `id` = 22050;
-UPDATE `npc` SET `name` = '礦山蜘蛛' WHERE `id` = 22051;
-UPDATE `npc` SET `name` = '怪力穿鑿高崙' WHERE `id` = 22052;
-UPDATE `npc` SET `name` = '恐怖加農砲高崙一號機' WHERE `id` = 22053;
-UPDATE `npc` SET `name` = '恐怖加農砲高崙四號機' WHERE `id` = 22054;
-UPDATE `npc` SET `name` = '殘忍巨鉗高崙' WHERE `id` = 22055;
-UPDATE `npc` SET `name` = '萬能型偵查高崙一號機' WHERE `id` = 22056;
-UPDATE `npc` SET `name` = '礦山螞蟻' WHERE `id` = 22057;
-UPDATE `npc` SET `name` = '恐怖挖掘高崙三號機' WHERE `id` = 22058;
-UPDATE `npc` SET `name` = '戰慄雙刀高崙七號機' WHERE `id` = 22059;
-UPDATE `npc` SET `name` = '恐怖加農砲高崙零號機' WHERE `id` = 22060;
-UPDATE `npc` SET `name` = '恐怖加農砲高崙三號機' WHERE `id` = 22061;
-UPDATE `npc` SET `name` = '恐怖穿鑿高崙' WHERE `id` = 22062;
-UPDATE `npc` SET `name` = '智慧型雙刀高崙十號機' WHERE `id` = 22063;
-UPDATE `npc` SET `name` = '戰慄雙刀高崙二號機' WHERE `id` = 22064;
-UPDATE `npc` SET `name` = '恐怖雙刀高崙五號機' WHERE `id` = 22065;
-UPDATE `npc` SET `name` = '恐怖加農砲高崙六號機' WHERE `id` = 22066;
-UPDATE `npc` SET `name` = '恐怖加農砲高崙六號機' WHERE `id` = 22067;
-UPDATE `npc` SET `name` = '恐怖加農砲高崙六號機' WHERE `id` = 22068;
-UPDATE `npc` SET `name` = '恐怖加農砲高崙六號機' WHERE `id` = 22069;
-UPDATE `npc` SET `name` = '恐怖加農砲高崙六號機' WHERE `id` = 22070;
-UPDATE `npc` SET `name` = '恐怖加農砲高崙六號機' WHERE `id` = 22071;
-UPDATE `npc` SET `name` = '恐怖加農砲高崙六號機' WHERE `id` = 22072;
-UPDATE `npc` SET `name` = '恐怖加農砲高崙六號機' WHERE `id` = 22073;
-UPDATE `npc` SET `name` = '終極加農砲高崙完成型' WHERE `id` = 22074;
-UPDATE `npc` SET `name` = '終極完成型隨從機' WHERE `id` = 22075;
-UPDATE `npc` SET `name` = '必殺雙刀高崙五號機' WHERE `id` = 22076;
-UPDATE `npc` SET `name` = '恐怖雙刀高崙八號機' WHERE `id` = 22077;
-UPDATE `npc` SET `name` = '必殺雙刀高崙八號機' WHERE `id` = 22078;
-UPDATE `npc` SET `name` = '迷宮班德斯那奇' WHERE `id` = 22079;
-UPDATE `npc` SET `name` = '迷宮巨大班德斯那奇' WHERE `id` = 22080;
-UPDATE `npc` SET `name` = '迷宮監視者' WHERE `id` = 22081;
-UPDATE `npc` SET `name` = '迷宮監視者長老' WHERE `id` = 22082;
-UPDATE `npc` SET `name` = '幼潘瑟拉' WHERE `id` = 22083;
-UPDATE `npc` SET `name` = '潘瑟拉' WHERE `id` = 22084;
-UPDATE `npc` SET `name` = '迷宮翼魔' WHERE `id` = 22085;
-UPDATE `npc` SET `name` = '迷宮翼魔拉德' WHERE `id` = 22086;
-UPDATE `npc` SET `name` = '刺角羚羊的怨靈' WHERE `id` = 22087;
-UPDATE `npc` SET `name` = '刺角羚羊' WHERE `id` = 22088;
-UPDATE `npc` SET `name` = '冰雪狼蛛' WHERE `id` = 22089;
-UPDATE `npc` SET `name` = '酷寒狼蛛' WHERE `id` = 22090;
-UPDATE `npc` SET `name` = '迷宮鋼鐵高崙' WHERE `id` = 22091;
-UPDATE `npc` SET `name` = '酷寒鋼鐵高崙' WHERE `id` = 22092;
-UPDATE `npc` SET `name` = '迷宮野牛' WHERE `id` = 22093;
-UPDATE `npc` SET `name` = '酷寒野牛' WHERE `id` = 22094;
-UPDATE `npc` SET `name` = '幼黑熊' WHERE `id` = 22095;
-UPDATE `npc` SET `name` = '黑熊' WHERE `id` = 22096;
-UPDATE `npc` SET `name` = '迷宮雪人' WHERE `id` = 22097;
-UPDATE `npc` SET `name` = '酷寒雪人' WHERE `id` = 22098;
-UPDATE `npc` SET `name` = '芙蕾雅的野牛' WHERE `id` = 22099;
-UPDATE `npc` SET `name` = '芙蕾雅的園丁' WHERE `id` = 22100;
-UPDATE `npc` SET `name` = '芙蕾雅的侍從' WHERE `id` = 22101;
-UPDATE `npc` SET `name` = '芙蕾雅的侍從' WHERE `id` = 22102;
-UPDATE `npc` SET `name` = '芙蕾雅的白熊' WHERE `id` = 22103;
-UPDATE `npc` SET `name` = '芙蕾雅的愛犬' WHERE `id` = 22104;
-UPDATE `npc` SET `name` = '釘刺司塔卡拓' WHERE `id` = 22105;
-UPDATE `npc` SET `name` = '釘刺司塔卡拓工人' WHERE `id` = 22106;
-UPDATE `npc` SET `name` = '釘刺司塔卡拓警備兵' WHERE `id` = 22107;
-UPDATE `npc` SET `name` = '雌性釘刺司塔卡拓' WHERE `id` = 22108;
-UPDATE `npc` SET `name` = '陽性釘刺司塔卡拓' WHERE `id` = 22109;
-UPDATE `npc` SET `name` = '陽性釘刺司塔卡拓' WHERE `id` = 22110;
-UPDATE `npc` SET `name` = '釘刺司塔卡拓巫師' WHERE `id` = 22111;
-UPDATE `npc` SET `name` = '食人司塔卡拓部下' WHERE `id` = 22112;
-UPDATE `npc` SET `name` = '食人司塔卡拓首領' WHERE `id` = 22113;
-UPDATE `npc` SET `name` = '食人司塔卡拓首領' WHERE `id` = 22114;
-UPDATE `npc` SET `name` = '釘刺司塔卡拓士兵' WHERE `id` = 22115;
-UPDATE `npc` SET `name` = '雄性釘刺司塔卡拓' WHERE `id` = 22116;
-UPDATE `npc` SET `name` = '釘刺司塔卡拓警衛隊長' WHERE `id` = 22117;
-UPDATE `npc` SET `name` = '釘刺司塔卡拓褓姆' WHERE `id` = 22118;
-UPDATE `npc` SET `name` = '釘刺司塔卡拓褓姆' WHERE `id` = 22119;
-UPDATE `npc` SET `name` = '釘刺司塔卡拓幼蟲' WHERE `id` = 22120;
-UPDATE `npc` SET `name` = '釘刺司塔卡拓咒術士' WHERE `id` = 22121;
-UPDATE `npc` SET `name` = '修道院巡禮者' WHERE `id` = 22122;
-UPDATE `npc` SET `name` = '修道院聖騎士' WHERE `id` = 22123;
-UPDATE `npc` SET `name` = '索黎那修士' WHERE `id` = 22124;
-UPDATE `npc` SET `name` = '索黎那入世修士' WHERE `id` = 22125;
-UPDATE `npc` SET `name` = '沉默的求道者' WHERE `id` = 22126;
-UPDATE `npc` SET `name` = '沉默的修士' WHERE `id` = 22127;
-UPDATE `npc` SET `name` = '修道院守護者' WHERE `id` = 22128;
-UPDATE `npc` SET `name` = '神官戰士' WHERE `id` = 22129;
-UPDATE `npc` SET `name` = '神聖的仲裁者' WHERE `id` = 22130;
-UPDATE `npc` SET `name` = '光之巡禮者' WHERE `id` = 22131;
-UPDATE `npc` SET `name` = '光之審判者' WHERE `id` = 22132;
-UPDATE `npc` SET `name` = '聖杯守護者' WHERE `id` = 22133;
-UPDATE `npc` SET `name` = '聖地守護者' WHERE `id` = 22134;
-UPDATE `npc` SET `name` = '光之守護者' WHERE `id` = 22135;
-UPDATE `npc` SET `name` = '守門人殭屍' WHERE `id` = 22136;
-UPDATE `npc` SET `name` = '大廳守門人' WHERE `id` = 22137;
-UPDATE `npc` SET `name` = '禮拜堂守門人' WHERE `id` = 22138;
-UPDATE `npc` SET `name` = '古代貴族的士兵' WHERE `id` = 22139;
-UPDATE `npc` SET `name` = '復活的工人' WHERE `id` = 22140;
-UPDATE `npc` SET `name` = '被遺忘的犧牲者' WHERE `id` = 22141;
-UPDATE `npc` SET `name` = '帝雷歐的入世信徒' WHERE `id` = 22142;
-UPDATE `npc` SET `name` = '帝雷歐的信徒' WHERE `id` = 22143;
-UPDATE `npc` SET `name` = '復活的神殿騎士' WHERE `id` = 22144;
-UPDATE `npc` SET `name` = '祭禮的犧牲者' WHERE `id` = 22145;
-UPDATE `npc` SET `name` = '帝雷歐的祭司' WHERE `id` = 22146;
-UPDATE `npc` SET `name` = '儀式的祭物' WHERE `id` = 22147;
-UPDATE `npc` SET `name` = '帝雷歐的信徒' WHERE `id` = 22148;
-UPDATE `npc` SET `name` = '儀式的祭物' WHERE `id` = 22149;
-UPDATE `npc` SET `name` = '帝雷歐的信徒' WHERE `id` = 22150;
-UPDATE `npc` SET `name` = '帝雷歐的祭司' WHERE `id` = 22151;
-UPDATE `npc` SET `name` = '神殿警衛兵' WHERE `id` = 22152;
-UPDATE `npc` SET `name` = '神殿警衛隊長' WHERE `id` = 22153;
-UPDATE `npc` SET `name` = '祭禮的犧牲者' WHERE `id` = 22154;
-UPDATE `npc` SET `name` = '帝雷歐的上位祭司' WHERE `id` = 22155;
-UPDATE `npc` SET `name` = '帝雷歐的祭司' WHERE `id` = 22156;
-UPDATE `npc` SET `name` = '帝雷歐的祭司' WHERE `id` = 22157;
-UPDATE `npc` SET `name` = '帝雷歐的信徒' WHERE `id` = 22158;
-UPDATE `npc` SET `name` = '帝雷歐的上位祭司' WHERE `id` = 22159;
-UPDATE `npc` SET `name` = '帝雷歐的祭司' WHERE `id` = 22160;
-UPDATE `npc` SET `name` = '祭禮的犧牲者' WHERE `id` = 22161;
-UPDATE `npc` SET `name` = '帝雷歐的信徒' WHERE `id` = 22162;
-UPDATE `npc` SET `name` = '帝雷歐的上位祭司' WHERE `id` = 22163;
-UPDATE `npc` SET `name` = '帝雷歐的信徒' WHERE `id` = 22164;
-UPDATE `npc` SET `name` = '帝雷歐的祭司' WHERE `id` = 22165;
-UPDATE `npc` SET `name` = '帝雷歐的信徒' WHERE `id` = 22166;
-UPDATE `npc` SET `name` = '帝雷歐的上位祭司' WHERE `id` = 22167;
-UPDATE `npc` SET `name` = '帝雷歐的祭司' WHERE `id` = 22168;
-UPDATE `npc` SET `name` = '祭禮的犧牲者' WHERE `id` = 22169;
-UPDATE `npc` SET `name` = '帝雷歐的信徒' WHERE `id` = 22170;
-UPDATE `npc` SET `name` = '帝雷歐的上位祭司' WHERE `id` = 22171;
-UPDATE `npc` SET `name` = '祭禮的犧牲者' WHERE `id` = 22172;
-UPDATE `npc` SET `name` = '帝雷歐的祭司' WHERE `id` = 22173;
-UPDATE `npc` SET `name` = '帝雷歐的祭司' WHERE `id` = 22174;
-UPDATE `npc` SET `name` = '安蒂莉雅絲的親衛隊長' WHERE `id` = 22175;
-UPDATE `npc` SET `name` = '安蒂莉雅絲的親衛隊' WHERE `id` = 22176;
-UPDATE `npc` SET `name` = '安蒂莉雅絲的親衛隊長' WHERE `id` = 22188;
-UPDATE `npc` SET `name` = '安蒂莉雅絲的親衛隊' WHERE `id` = 22189;
-UPDATE `npc` SET `name` = '祭禮的犧牲者' WHERE `id` = 22190;
-UPDATE `npc` SET `name` = '安蒂莉雅絲的親衛隊長' WHERE `id` = 22191;
-UPDATE `npc` SET `name` = '安蒂莉雅絲的親衛隊' WHERE `id` = 22192;
-UPDATE `npc` SET `name` = '安蒂莉雅絲的親衛隊' WHERE `id` = 22193;
-UPDATE `npc` SET `name` = '大廳守門人' WHERE `id` = 22194;
-UPDATE `npc` SET `name` = '祭禮的犧牲者' WHERE `id` = 22195;
-UPDATE `npc` SET `name` = '迅猛龍' WHERE `id` = 22196;
-UPDATE `npc` SET `name` = '迅猛龍' WHERE `id` = 22197;
-UPDATE `npc` SET `name` = '迅猛龍' WHERE `id` = 22198;
-UPDATE `npc` SET `name` = '喙嘴龍' WHERE `id` = 22199;
-UPDATE `npc` SET `name` = '似鳥龍' WHERE `id` = 22200;
-UPDATE `npc` SET `name` = '似鳥龍' WHERE `id` = 22201;
-UPDATE `npc` SET `name` = '似鳥龍' WHERE `id` = 22202;
-UPDATE `npc` SET `name` = '恐爪龍' WHERE `id` = 22203;
-UPDATE `npc` SET `name` = '恐爪龍' WHERE `id` = 22204;
-UPDATE `npc` SET `name` = '恐爪龍' WHERE `id` = 22205;
-UPDATE `npc` SET `name` = '厚頭龍' WHERE `id` = 22208;
-UPDATE `npc` SET `name` = '厚頭龍' WHERE `id` = 22209;
-UPDATE `npc` SET `name` = '厚頭龍' WHERE `id` = 22210;
-UPDATE `npc` SET `name` = '野生座龍' WHERE `id` = 22211;
-UPDATE `npc` SET `name` = '野生座龍' WHERE `id` = 22212;
-UPDATE `npc` SET `name` = '野生座龍' WHERE `id` = 22213;
-UPDATE `npc` SET `name` = '耶爾可羅' WHERE `id` = 22214;
-UPDATE `npc` SET `name` = '暴龍' WHERE `id` = 22215;
-UPDATE `npc` SET `name` = '暴龍' WHERE `id` = 22216;
-UPDATE `npc` SET `name` = '暴龍' WHERE `id` = 22217;
-UPDATE `npc` SET `name` = '迅猛龍' WHERE `id` = 22218;
-UPDATE `npc` SET `name` = '似鳥龍' WHERE `id` = 22219;
-UPDATE `npc` SET `name` = '恐爪龍' WHERE `id` = 22220;
-UPDATE `npc` SET `name` = '厚頭龍' WHERE `id` = 22221;
-UPDATE `npc` SET `name` = '野生座龍' WHERE `id` = 22222;
-UPDATE `npc` SET `name` = '迅猛龍' WHERE `id` = 22223;
-UPDATE `npc` SET `name` = '似鳥龍' WHERE `id` = 22224;
-UPDATE `npc` SET `name` = '恐爪龍' WHERE `id` = 22225;
-UPDATE `npc` SET `name` = '厚頭龍' WHERE `id` = 22226;
-UPDATE `npc` SET `name` = '野生座龍' WHERE `id` = 22227;
-UPDATE `npc` SET `name` = '灰獨角兔' WHERE `id` = 22228;
-UPDATE `npc` SET `name` = '幼灰狐狗' WHERE `id` = 22229;
-UPDATE `npc` SET `name` = '灰狐狗' WHERE `id` = 22230;
-UPDATE `npc` SET `name` = '灰狐狗首領' WHERE `id` = 22231;
-UPDATE `npc` SET `name` = '黑狼' WHERE `id` = 22232;
-UPDATE `npc` SET `name` = '黑狼首領' WHERE `id` = 22233;
-UPDATE `npc` SET `name` = '綠哥布林' WHERE `id` = 22234;
-UPDATE `npc` SET `name` = '丘陵狼人' WHERE `id` = 22235;
-UPDATE `npc` SET `name` = '摩斯特洛弓箭手' WHERE `id` = 22236;
-UPDATE `npc` SET `name` = '丘陵蘑菇' WHERE `id` = 22237;
-UPDATE `npc` SET `name` = '丘陵狼人首領' WHERE `id` = 22238;
-UPDATE `npc` SET `name` = '摩斯特洛警衛兵' WHERE `id` = 22239;
-UPDATE `npc` SET `name` = '摩斯特洛巡邏兵' WHERE `id` = 22240;
-UPDATE `npc` SET `name` = '巨大高崙' WHERE `id` = 22241;
-UPDATE `npc` SET `name` = '摩斯特洛戰士' WHERE `id` = 22242;
-UPDATE `npc` SET `name` = '摩斯特洛警衛隊長' WHERE `id` = 22243;
-UPDATE `npc` SET `name` = '紅蜘蛛' WHERE `id` = 22244;
-UPDATE `npc` SET `name` = '摩斯特洛戰士副隊長' WHERE `id` = 22245;
-UPDATE `npc` SET `name` = '摩斯特洛戰士隊長' WHERE `id` = 22246;
-UPDATE `npc` SET `name` = '洞穴高崙' WHERE `id` = 22247;
-UPDATE `npc` SET `name` = '洞穴摩斯特洛' WHERE `id` = 22248;
-UPDATE `npc` SET `name` = '洞穴摩斯特洛警衛兵' WHERE `id` = 22249;
-UPDATE `npc` SET `name` = '洞穴豹' WHERE `id` = 22250;
-UPDATE `npc` SET `name` = '洞穴摩斯特洛警衛隊長' WHERE `id` = 22251;
-UPDATE `npc` SET `name` = '洞穴灰熊' WHERE `id` = 22252;
-UPDATE `npc` SET `name` = '洞穴摩斯特洛戰士' WHERE `id` = 22253;
-UPDATE `npc` SET `name` = '洞穴摩斯特洛弓箭手' WHERE `id` = 22254;
-UPDATE `npc` SET `name` = '洞穴摩斯特洛隊長' WHERE `id` = 22255;
-UPDATE `npc` SET `name` = '洞穴摩斯特洛魔法師' WHERE `id` = 22256;
-UPDATE `npc` SET `name` = '島的守門人' WHERE `id` = 22257;
-UPDATE `npc` SET `name` = '白沙灘的幻象' WHERE `id` = 22258;
-UPDATE `npc` SET `name` = '珊瑚泥' WHERE `id` = 22259;
-UPDATE `npc` SET `name` = '水妖精克麗奈亞' WHERE `id` = 22260;
-UPDATE `npc` SET `name` = '賽席爾' WHERE `id` = 22261;
-UPDATE `npc` SET `name` = '水妖精奈雅德' WHERE `id` = 22262;
-UPDATE `npc` SET `name` = '海桑' WHERE `id` = 22263;
-UPDATE `npc` SET `name` = '卡斯托里亞睡蓮' WHERE `id` = 22264;
-UPDATE `npc` SET `name` = '柯莉絲克莉亞' WHERE `id` = 22265;
-UPDATE `npc` SET `name` = '皮提亞' WHERE `id` = 22266;
-UPDATE `npc` SET `name` = '暗黑水龍' WHERE `id` = 22267;
-UPDATE `npc` SET `name` = '陰界的生命體' WHERE `id` = 22268;
-UPDATE `npc` SET `name` = '陰界的生命體' WHERE `id` = 22269;
-UPDATE `npc` SET `name` = '水龍攻擊者' WHERE `id` = 22270;
-UPDATE `npc` SET `name` = '水龍攻擊者' WHERE `id` = 22271;
-UPDATE `npc` SET `name` = '巴列斯的部下' WHERE `id` = 22272;
-UPDATE `npc` SET `name` = '巴列斯的部下' WHERE `id` = 22273;
-UPDATE `npc` SET `name` = '巴列斯的部下' WHERE `id` = 22274;
-UPDATE `npc` SET `name` = '廣場守門人 羅斯塔' WHERE `id` = 22275;
-UPDATE `npc` SET `name` = '廣場守門人' WHERE `id` = 22276;
-UPDATE `npc` SET `name` = '火焰守門人 比拉瑪林' WHERE `id` = 22277;
-UPDATE `npc` SET `name` = '火焰守門人' WHERE `id` = 22278;
-UPDATE `npc` SET `name` = '寶石禁錮者' WHERE `id` = 22279;
-UPDATE `npc` SET `name` = '路得騎士' WHERE `id` = 22280;
-UPDATE `npc` SET `name` = '廣場鱷魚' WHERE `id` = 22281;
-UPDATE `npc` SET `name` = '寶石禁錮者' WHERE `id` = 22282;
-UPDATE `npc` SET `name` = '廣場耶里哥德' WHERE `id` = 22283;
-UPDATE `npc` SET `name` = '寶石禁錮者' WHERE `id` = 22284;
-UPDATE `npc` SET `name` = '寶石禁錮者' WHERE `id` = 22285;
-UPDATE `npc` SET `name` = '廣場歇比爾' WHERE `id` = 22286;
-UPDATE `npc` SET `name` = '水晶獨角獸' WHERE `id` = 22287;
-UPDATE `npc` SET `name` = '翡翠豬' WHERE `id` = 22288;
-UPDATE `npc` SET `name` = '廣場帽蓋' WHERE `id` = 22289;
-UPDATE `npc` SET `name` = '泰德的部下' WHERE `id` = 22290;
-UPDATE `npc` SET `name` = '衛志里的部下' WHERE `id` = 22291;
-UPDATE `npc` SET `name` = '電氣石' WHERE `id` = 22292;
-UPDATE `npc` SET `name` = '尖晶石' WHERE `id` = 22293;
-UPDATE `npc` SET `name` = '火蛋白石' WHERE `id` = 22294;
-UPDATE `npc` SET `name` = '珊瑚高崙' WHERE `id` = 22295;
-UPDATE `npc` SET `name` = '珊瑚高崙' WHERE `id` = 22296;
-UPDATE `npc` SET `name` = '珊瑚高崙' WHERE `id` = 22297;
-UPDATE `npc` SET `name` = '衛志里' WHERE `id` = 22298;
-UPDATE `npc` SET `name` = '道斯特' WHERE `id` = 22299;
-UPDATE `npc` SET `name` = '道斯特的部下' WHERE `id` = 22300;
-UPDATE `npc` SET `name` = '泰德' WHERE `id` = 22301;
-UPDATE `npc` SET `name` = '達爾尼思的守護者' WHERE `id` = 22302;
-UPDATE `npc` SET `name` = '廣場守護者' WHERE `id` = 22303;
-UPDATE `npc` SET `name` = '翡翠廣場守護者' WHERE `id` = 22304;
-UPDATE `npc` SET `name` = '基亞齊的警衛隊長' WHERE `id` = 22305;
-UPDATE `npc` SET `name` = '基亞齊的警衛隊長' WHERE `id` = 22306;
-UPDATE `npc` SET `name` = '基亞齊的警衛隊長' WHERE `id` = 22307;
-UPDATE `npc` SET `name` = '基亞齊的警衛隊' WHERE `id` = 22308;
-UPDATE `npc` SET `name` = '基亞齊的警衛隊' WHERE `id` = 22309;
-UPDATE `npc` SET `name` = '基亞齊的警衛隊' WHERE `id` = 22310;
-UPDATE `npc` SET `name` = '帕爾米的守護者' WHERE `id` = 22311;
-UPDATE `npc` SET `name` = '法利昂的手下' WHERE `id` = 22312;
-UPDATE `npc` SET `name` = '庭園的司塔卡拓' WHERE `id` = 22313;
-UPDATE `npc` SET `name` = '庭園的毒蛾' WHERE `id` = 22314;
-UPDATE `npc` SET `name` = '庭園的警衛兵' WHERE `id` = 22315;
-UPDATE `npc` SET `name` = '庭園的守護木' WHERE `id` = 22316;
-UPDATE `npc` SET `name` = '庭園的卡斯托里亞' WHERE `id` = 22317;
-UPDATE `npc` SET `name` = '下級監視者' WHERE `id` = 22320;
-UPDATE `npc` SET `name` = '下級召喚士' WHERE `id` = 22321;
-UPDATE `npc` SET `name` = '被支配的原住民' WHERE `id` = 22322;
-UPDATE `npc` SET `name` = '被眩惑的原住民' WHERE `id` = 22323;
-UPDATE `npc` SET `name` = '無眼獵人' WHERE `id` = 22324;
-UPDATE `npc` SET `name` = '無眼監視者' WHERE `id` = 22325;
-UPDATE `npc` SET `name` = '海琳納克', `title` = '奈雅的守護者' WHERE `id` = 22326;
-UPDATE `npc` SET `name` = '魔法陣巡邏兵' WHERE `id` = 22327;
-UPDATE `npc` SET `name` = '魔法陣警衛兵' WHERE `id` = 22328;
-UPDATE `npc` SET `name` = '魔法陣監視兵' WHERE `id` = 22329;
-UPDATE `npc` SET `name` = '舊神殿的惡靈' WHERE `id` = 22330;
-UPDATE `npc` SET `name` = '沙蠍' WHERE `id` = 22334;
-UPDATE `npc` SET `name` = '沙漠蠍' WHERE `id` = 22335;
-UPDATE `npc` SET `name` = '肉體抹殺者' WHERE `id` = 22336;
-UPDATE `npc` SET `name` = '靈魂抽取者' WHERE `id` = 22337;
-UPDATE `npc` SET `name` = '被放逐的商隊' WHERE `id` = 22339;
-UPDATE `npc` SET `name` = '沙之風暴' WHERE `id` = 22340;
-UPDATE `npc` SET `name` = '凱達士' WHERE `id` = 22341;
-UPDATE `npc` SET `name` = '達里昂的執行者' WHERE `id` = 22342;
-UPDATE `npc` SET `name` = '達里昂的處刑者' WHERE `id` = 22343;
-UPDATE `npc` SET `name` = '採石場監督官' WHERE `id` = 22344;
-UPDATE `npc` SET `name` = '採石場監督官' WHERE `id` = 22345;
-UPDATE `npc` SET `name` = '採石場巡邏隊長' WHERE `id` = 22346;
-UPDATE `npc` SET `name` = '採石場巡邏兵' WHERE `id` = 22347;
-UPDATE `npc` SET `name` = '大地奇美拉' WHERE `id` = 22349;
-UPDATE `npc` SET `name` = '黑暗奇美拉' WHERE `id` = 22350;
-UPDATE `npc` SET `name` = '風之奇美拉' WHERE `id` = 22351;
-UPDATE `npc` SET `name` = '火焰奇美拉' WHERE `id` = 22352;
-UPDATE `npc` SET `name` = '西爾德斯', `title` = '奇美拉' WHERE `id` = 22353;
-UPDATE `npc` SET `name` = '外城警衛隊' WHERE `id` = 22355;
-UPDATE `npc` SET `name` = '外城警衛隊' WHERE `id` = 22356;
-UPDATE `npc` SET `name` = '外城警衛隊' WHERE `id` = 22357;
-UPDATE `npc` SET `name` = '外城警衛隊' WHERE `id` = 22358;
-UPDATE `npc` SET `name` = '市區警衛兵' WHERE `id` = 22359;
-UPDATE `npc` SET `name` = '市區巡邏兵' WHERE `id` = 22360;
-UPDATE `npc` SET `name` = '鋼鐵之城 鑰匙守衛' WHERE `id` = 22361;
-UPDATE `npc` SET `name` = '古任' WHERE `id` = 22362;
-UPDATE `npc` SET `name` = '肉體破壞者' WHERE `id` = 22363;
-UPDATE `npc` SET `name` = '靈魂蠶食者' WHERE `id` = 22364;
-UPDATE `npc` SET `name` = '迷路的警衛兵' WHERE `id` = 22365;
-UPDATE `npc` SET `name` = '迷路的警衛兵' WHERE `id` = 22366;
-UPDATE `npc` SET `name` = '迷路的魔法師' WHERE `id` = 22367;
-UPDATE `npc` SET `name` = '迷路的警衛隊長' WHERE `id` = 22368;
-UPDATE `npc` SET `name` = '迷路的祭司長' WHERE `id` = 22369;
-UPDATE `npc` SET `name` = '通道的警衛隊長' WHERE `id` = 22370;
-UPDATE `npc` SET `name` = '通道的警衛兵' WHERE `id` = 22371;
-UPDATE `npc` SET `name` = '通道的魔法師' WHERE `id` = 22372;
-UPDATE `npc` SET `name` = '空間巡守' WHERE `id` = 22373;
-UPDATE `npc` SET `name` = '空間觀察者' WHERE `id` = 22374;
-UPDATE `npc` SET `name` = '空間祭司' WHERE `id` = 22375;
-UPDATE `npc` SET `name` = '空間支配者' WHERE `id` = 22376;
-UPDATE `npc` SET `name` = '大師季羅斯' WHERE `id` = 22377;
-UPDATE `npc` SET `name` = '大師的手下' WHERE `id` = 22378;
-UPDATE `npc` SET `name` = '大師的手下' WHERE `id` = 22379;
-UPDATE `npc` SET `name` = '大師珮斯提納' WHERE `id` = 22380;
-UPDATE `npc` SET `name` = '大師的警衛兵' WHERE `id` = 22381;
-UPDATE `npc` SET `name` = '大師的警衛兵' WHERE `id` = 22382;
-UPDATE `npc` SET `name` = '托里士的玩具' WHERE `id` = 22383;
-UPDATE `npc` SET `name` = '魔法師的玩具' WHERE `id` = 22384;
-UPDATE `npc` SET `name` = '托里士的高崙警衛兵' WHERE `id` = 22385;
-UPDATE `npc` SET `name` = '工作所的魔法師' WHERE `id` = 22386;
-UPDATE `npc` SET `name` = '工作所的魔法師' WHERE `id` = 22387;
-UPDATE `npc` SET `name` = '工作所的魔物警衛兵' WHERE `id` = 22388;
-UPDATE `npc` SET `name` = '工作所的魔物警衛兵' WHERE `id` = 22389;
-UPDATE `npc` SET `name` = '工作所的監督官' WHERE `id` = 22390;
-UPDATE `npc` SET `name` = '工作所的監督輔佐' WHERE `id` = 22391;
-UPDATE `npc` SET `name` = '失敗作時間歪曲高崙' WHERE `id` = 22392;
-UPDATE `npc` SET `name` = '巴列斯的隨從' WHERE `id` = 22393;
-UPDATE `npc` SET `name` = '巴列斯的信徒' WHERE `id` = 22394;
-UPDATE `npc` SET `name` = '巴列斯的鬥士' WHERE `id` = 22395;
-UPDATE `npc` SET `name` = '製造所工人' WHERE `id` = 22396;
-UPDATE `npc` SET `name` = '製造所 監督官' WHERE `id` = 22397;
-UPDATE `npc` SET `name` = '下級魔物' WHERE `id` = 22398;
-UPDATE `npc` SET `name` = '上級魔物' WHERE `id` = 22399;
-UPDATE `npc` SET `name` = '帕爾米的治療者' WHERE `id` = 22400;
-UPDATE `npc` SET `name` = '帕爾米的治療者' WHERE `id` = 22401;
-UPDATE `npc` SET `name` = '暗雲的石柱' WHERE `id` = 22402;
-UPDATE `npc` SET `name` = '製造所監督官' WHERE `id` = 22403;
-UPDATE `npc` SET `name` = '魔法陣警衛隊長' WHERE `id` = 22404;
-UPDATE `npc` SET `name` = '達里昂的忠僕' WHERE `id` = 22405;
-UPDATE `npc` SET `name` = '達里昂的忠僕' WHERE `id` = 22406;
-UPDATE `npc` SET `name` = '達里昂的忠僕' WHERE `id` = 22407;
-UPDATE `npc` SET `name` = '達里昂的忠僕' WHERE `id` = 22408;
-UPDATE `npc` SET `name` = '達里昂的忠僕' WHERE `id` = 22409;
-UPDATE `npc` SET `name` = '達里昂的忠僕' WHERE `id` = 22410;
-UPDATE `npc` SET `name` = '巴列斯的心腹' WHERE `id` = 22411;
-UPDATE `npc` SET `name` = '巴列斯的格鬥士' WHERE `id` = 22412;
-UPDATE `npc` SET `name` = '巴列斯的行兇者' WHERE `id` = 22413;
-UPDATE `npc` SET `name` = '巴列斯的隨從' WHERE `id` = 22414;
-UPDATE `npc` SET `name` = '巴列斯的信徒' WHERE `id` = 22415;
-UPDATE `npc` SET `name` = '基亞齊的警衛隊長' WHERE `id` = 22416;
-UPDATE `npc` SET `name` = '基亞齊的警衛隊' WHERE `id` = 22417;
-UPDATE `npc` SET `name` = '燃燒的盲者' WHERE `id` = 22418;
-UPDATE `npc` SET `name` = '火焰盲者' WHERE `id` = 22419;
-UPDATE `npc` SET `name` = '赤黃的盲者' WHERE `id` = 22420;
-UPDATE `npc` SET `name` = '塔門警衛兵' WHERE `id` = 22422;
-UPDATE `npc` SET `name` = '原罪的監視人' WHERE `id` = 22423;
-UPDATE `npc` SET `name` = '貪婪的奴隸' WHERE `id` = 22424;
-UPDATE `npc` SET `name` = '慾望的奴隸' WHERE `id` = 22425;
-UPDATE `npc` SET `name` = '忿怒的奴隸' WHERE `id` = 22426;
-UPDATE `npc` SET `name` = '懶惰的奴隸' WHERE `id` = 22427;
-UPDATE `npc` SET `name` = '妒忌的奴隸' WHERE `id` = 22428;
-UPDATE `npc` SET `name` = '驕傲的奴隸' WHERE `id` = 22429;
-UPDATE `npc` SET `name` = '貪食的奴隸' WHERE `id` = 22430;
-UPDATE `npc` SET `name` = '原罪的監視人' WHERE `id` = 22431;
-UPDATE `npc` SET `name` = '貪婪的奴隸' WHERE `id` = 22432;
-UPDATE `npc` SET `name` = '慾望的奴隸' WHERE `id` = 22433;
-UPDATE `npc` SET `name` = '忿怒的奴隸' WHERE `id` = 22434;
-UPDATE `npc` SET `name` = '懶惰的奴隸' WHERE `id` = 22435;
-UPDATE `npc` SET `name` = '妒忌的奴隸' WHERE `id` = 22436;
-UPDATE `npc` SET `name` = '驕傲的奴隸' WHERE `id` = 22437;
-UPDATE `npc` SET `name` = '貪食的奴隸' WHERE `id` = 22438;
-UPDATE `npc` SET `name` = '巴列斯的暗殺者' WHERE `id` = 22439;
-UPDATE `npc` SET `name` = '巴列斯的暗殺者' WHERE `id` = 22440;
-UPDATE `npc` SET `name` = '巴列斯的手下' WHERE `id` = 22441;
-UPDATE `npc` SET `name` = '巴列斯的手下' WHERE `id` = 22442;
-UPDATE `npc` SET `name` = '柯爾堂的使者' WHERE `id` = 22443;
-UPDATE `npc` SET `name` = '柯爾堂的使者' WHERE `id` = 22444;
-UPDATE `npc` SET `name` = '柯爾堂的使者' WHERE `id` = 22445;
-UPDATE `npc` SET `name` = '柯爾堂的使者' WHERE `id` = 22446;
-UPDATE `npc` SET `name` = '柯爾堂的使者' WHERE `id` = 22447;
-UPDATE `npc` SET `name` = '雷歐達斯', `title` = '反抗軍指揮官' WHERE `id` = 22448;
-UPDATE `npc` SET `name` = '亞邁士康里', `title` = '拷問專家' WHERE `id` = 22449;
-UPDATE `npc` SET `name` = '被拷問的原住民' WHERE `id` = 22450;
-UPDATE `npc` SET `name` = '原住民精銳軍' WHERE `id` = 22451;
-UPDATE `npc` SET `name` = '白骨 卡納比昂' WHERE `id` = 22452;
-UPDATE `npc` SET `name` = '白骨 卡納比昂', `title` = '都卜勒' WHERE `id` = 22453;
-UPDATE `npc` SET `name` = '白骨 卡納比昂', `title` = '博伊德' WHERE `id` = 22454;
-UPDATE `npc` SET `name` = '怨恨 卡納比昂' WHERE `id` = 22455;
-UPDATE `npc` SET `name` = '怨恨 卡納比昂', `title` = '都卜勒' WHERE `id` = 22456;
-UPDATE `npc` SET `name` = '怨恨 卡納比昂', `title` = '博伊德' WHERE `id` = 22457;
-UPDATE `npc` SET `name` = '腐敗 卡納比昂' WHERE `id` = 22458;
-UPDATE `npc` SET `name` = '腐敗 卡納比昂', `title` = '都卜勒' WHERE `id` = 22459;
-UPDATE `npc` SET `name` = '腐敗 卡納比昂', `title` = '博伊德' WHERE `id` = 22460;
-UPDATE `npc` SET `name` = '飽食 卡納比昂' WHERE `id` = 22461;
-UPDATE `npc` SET `name` = '飽食 卡納比昂', `title` = '都卜勒' WHERE `id` = 22462;
-UPDATE `npc` SET `name` = '飽食 卡納比昂', `title` = '博伊德' WHERE `id` = 22463;
-UPDATE `npc` SET `name` = '冷血 卡納比昂' WHERE `id` = 22464;
-UPDATE `npc` SET `name` = '冷血 卡納比昂', `title` = '都卜勒' WHERE `id` = 22465;
-UPDATE `npc` SET `name` = '冷血 卡納比昂', `title` = '博伊德' WHERE `id` = 22466;
-UPDATE `npc` SET `name` = '野性 卡納比昂' WHERE `id` = 22467;
-UPDATE `npc` SET `name` = '野性 卡納比昂', `title` = '都卜勒' WHERE `id` = 22468;
-UPDATE `npc` SET `name` = '野性 卡納比昂', `title` = '博伊德' WHERE `id` = 22469;
-UPDATE `npc` SET `name` = '無雙 卡納比昂' WHERE `id` = 22470;
-UPDATE `npc` SET `name` = '無雙 卡納比昂', `title` = '都卜勒' WHERE `id` = 22471;
-UPDATE `npc` SET `name` = '無雙 卡納比昂', `title` = '博伊德' WHERE `id` = 22472;
-UPDATE `npc` SET `name` = '狂暴 卡納比昂' WHERE `id` = 22473;
-UPDATE `npc` SET `name` = '狂暴 卡納比昂', `title` = '都卜勒' WHERE `id` = 22474;
-UPDATE `npc` SET `name` = '狂暴 卡納比昂', `title` = '博伊德' WHERE `id` = 22475;
-UPDATE `npc` SET `name` = '赤血 卡納比昂' WHERE `id` = 22476;
-UPDATE `npc` SET `name` = '赤血 卡納比昂', `title` = '都卜勒' WHERE `id` = 22477;
-UPDATE `npc` SET `name` = '赤血 卡納比昂', `title` = '博伊德' WHERE `id` = 22478;
-UPDATE `npc` SET `name` = '破裂 卡納比昂' WHERE `id` = 22479;
-UPDATE `npc` SET `name` = '破裂 卡納比昂', `title` = '都卜勒' WHERE `id` = 22480;
-UPDATE `npc` SET `name` = '破裂 卡納比昂', `title` = '博伊德' WHERE `id` = 22481;
-UPDATE `npc` SET `name` = '鬼面 卡納比昂' WHERE `id` = 22482;
-UPDATE `npc` SET `name` = '鬼面 卡納比昂', `title` = '都卜勒' WHERE `id` = 22483;
-UPDATE `npc` SET `name` = '鬼面 卡納比昂', `title` = '博伊德' WHERE `id` = 22484;
-UPDATE `npc` SET `name` = '迷宮監視者' WHERE `id` = 22485;
-UPDATE `npc` SET `name` = '迷宮監視者' WHERE `id` = 22486;
-UPDATE `npc` SET `name` = '迷宮觀察者' WHERE `id` = 22487;
-UPDATE `npc` SET `name` = '迷宮監視者' WHERE `id` = 22488;
-UPDATE `npc` SET `name` = '迷宮監視者' WHERE `id` = 22489;
-UPDATE `npc` SET `name` = '迷宮觀察者' WHERE `id` = 22490;
-UPDATE `npc` SET `name` = '迷宮監視者' WHERE `id` = 22491;
-UPDATE `npc` SET `name` = '迷宮監視者' WHERE `id` = 22492;
-UPDATE `npc` SET `name` = '迷宮觀察者' WHERE `id` = 22493;
-UPDATE `npc` SET `name` = '迷宮監視者' WHERE `id` = 22494;
-UPDATE `npc` SET `name` = '迷宮監視者' WHERE `id` = 22495;
-UPDATE `npc` SET `name` = '迷宮觀察者' WHERE `id` = 22496;
-UPDATE `npc` SET `name` = '迷宮監視者' WHERE `id` = 22497;
-UPDATE `npc` SET `name` = '迷宮監視者' WHERE `id` = 22498;
-UPDATE `npc` SET `name` = '迷宮觀察者' WHERE `id` = 22499;
-UPDATE `npc` SET `name` = '迷宮監視者' WHERE `id` = 22500;
-UPDATE `npc` SET `name` = '迷宮監視者' WHERE `id` = 22501;
-UPDATE `npc` SET `name` = '迷宮觀察者' WHERE `id` = 22502;
-UPDATE `npc` SET `name` = '迷宮監視者' WHERE `id` = 22503;
-UPDATE `npc` SET `name` = '迷宮監視者' WHERE `id` = 22504;
-UPDATE `npc` SET `name` = '迷宮觀察者' WHERE `id` = 22505;
-UPDATE `npc` SET `name` = '炸彈之眼' WHERE `id` = 22506;
-UPDATE `npc` SET `name` = '炸彈之眼' WHERE `id` = 22507;
-UPDATE `npc` SET `name` = '炸彈之眼' WHERE `id` = 22508;
-UPDATE `npc` SET `name` = '不死的狂信徒' WHERE `id` = 22509;
-UPDATE `npc` SET `name` = '腐敗的傳令' WHERE `id` = 22510;
-UPDATE `npc` SET `name` = '不死的狂信者' WHERE `id` = 22511;
-UPDATE `npc` SET `name` = '屍體切割機' WHERE `id` = 22512;
-UPDATE `npc` SET `name` = '屍體收割機' WHERE `id` = 22513;
-UPDATE `npc` SET `name` = '靈魂抽取者' WHERE `id` = 22514;
-UPDATE `npc` SET `name` = '靈魂掠食者' WHERE `id` = 22515;
-UPDATE `npc` SET `name` = '不死的殺戮者' WHERE `id` = 22516;
-UPDATE `npc` SET `name` = '不死的供養者' WHERE `id` = 22517;
-UPDATE `npc` SET `name` = '腐敗的傳令' WHERE `id` = 22518;
-UPDATE `npc` SET `name` = '屍體收割機' WHERE `id` = 22519;
-UPDATE `npc` SET `name` = '屍體切割機' WHERE `id` = 22520;
-UPDATE `npc` SET `name` = '靈魂抽取者' WHERE `id` = 22521;
-UPDATE `npc` SET `name` = '靈魂掠食者' WHERE `id` = 22522;
-UPDATE `npc` SET `name` = '靈魂掠食者', `title` = '伊卡姆士的食物' WHERE `id` = 22523;
-UPDATE `npc` SET `name` = '死亡的密使' WHERE `id` = 22524;
-UPDATE `npc` SET `name` = '死亡的密使' WHERE `id` = 22525;
-UPDATE `npc` SET `name` = '死亡的密使' WHERE `id` = 22526;
-UPDATE `npc` SET `name` = '死亡的密使' WHERE `id` = 22527;
-UPDATE `npc` SET `name` = '受詛咒的團長' WHERE `id` = 22528;
-UPDATE `npc` SET `name` = '受詛咒的團長' WHERE `id` = 22529;
-UPDATE `npc` SET `name` = '受詛咒的團長' WHERE `id` = 22530;
-UPDATE `npc` SET `name` = '受詛咒的團長' WHERE `id` = 22531;
-UPDATE `npc` SET `name` = '終末的律法學者' WHERE `id` = 22532;
-UPDATE `npc` SET `name` = '終末的律法學者' WHERE `id` = 22533;
-UPDATE `npc` SET `name` = '終末的律法學者' WHERE `id` = 22534;
-UPDATE `npc` SET `name` = '終末的律法學者' WHERE `id` = 22535;
-UPDATE `npc` SET `name` = '親衛隊長' WHERE `id` = 22536;
-UPDATE `npc` SET `name` = '龍馬軍 大魔法師' WHERE `id` = 22537;
-UPDATE `npc` SET `name` = '龍馬軍 軍團長' WHERE `id` = 22538;
-UPDATE `npc` SET `name` = '龍馬軍 1號隊長' WHERE `id` = 22539;
-UPDATE `npc` SET `name` = '百龍隊長' WHERE `id` = 22540;
-UPDATE `npc` SET `name` = '龍馬軍 步兵' WHERE `id` = 22541;
-UPDATE `npc` SET `name` = '龍馬軍 魔法隊長' WHERE `id` = 22542;
-UPDATE `npc` SET `name` = '龍馬軍 魔法師' WHERE `id` = 22543;
-UPDATE `npc` SET `name` = '龍馬軍 魔法士兵' WHERE `id` = 22544;
-UPDATE `npc` SET `name` = '闇龍的族人' WHERE `id` = 22545;
-UPDATE `npc` SET `name` = '狂戰士' WHERE `id` = 22546;
-UPDATE `npc` SET `name` = '龍馬軍 治療師' WHERE `id` = 22547;
-UPDATE `npc` SET `name` = '龍馬軍 標槍兵' WHERE `id` = 22548;
-UPDATE `npc` SET `name` = '龍馬軍 標槍兵' WHERE `id` = 22549;
-UPDATE `npc` SET `name` = '野蠻戰士' WHERE `id` = 22550;
-UPDATE `npc` SET `name` = '黑暗祭司' WHERE `id` = 22551;
-UPDATE `npc` SET `name` = '突變龍獸' WHERE `id` = 22552;
-UPDATE `npc` SET `name` = '大型凝結器' WHERE `id` = 22553;
-UPDATE `npc` SET `name` = '小型凝結器' WHERE `id` = 22554;
-UPDATE `npc` SET `name` = '小型凝結器' WHERE `id` = 22555;
-UPDATE `npc` SET `name` = '小型凝結器' WHERE `id` = 22556;
-UPDATE `npc` SET `name` = '據點防禦機械' WHERE `id` = 22557;
-UPDATE `npc` SET `name` = '據點防禦炮臺' WHERE `id` = 22558;
-UPDATE `npc` SET `name` = '殘敗軍 軍團長' WHERE `id` = 22559;
-UPDATE `npc` SET `name` = '殘敗軍 第1隊隊長' WHERE `id` = 22560;
-UPDATE `npc` SET `name` = '殘敗軍 百龍隊長' WHERE `id` = 22561;
-UPDATE `npc` SET `name` = '殘敗軍 步兵' WHERE `id` = 22562;
-UPDATE `npc` SET `name` = '殘敗軍 魔法隊長' WHERE `id` = 22563;
-UPDATE `npc` SET `name` = '殘敗軍 魔法師' WHERE `id` = 22564;
-UPDATE `npc` SET `name` = '殘敗軍 魔法士兵' WHERE `id` = 22565;
-UPDATE `npc` SET `name` = '殘敗軍 治療師' WHERE `id` = 22566;
-UPDATE `npc` SET `name` = '殘敗軍 標槍兵' WHERE `id` = 22567;
-UPDATE `npc` SET `name` = '殘敗軍 標槍兵' WHERE `id` = 22568;
-UPDATE `npc` SET `name` = '敢死隊', `title` = '蒂雅特親衛隊' WHERE `id` = 22569;
-UPDATE `npc` SET `name` = '親衛隊長' WHERE `id` = 22570;
-UPDATE `npc` SET `name` = '龍馬軍 大魔法師' WHERE `id` = 22571;
-UPDATE `npc` SET `name` = '龍馬軍 軍團長' WHERE `id` = 22572;
-UPDATE `npc` SET `name` = '龍馬軍 第1隊隊長' WHERE `id` = 22573;
-UPDATE `npc` SET `name` = '百龍隊長' WHERE `id` = 22574;
-UPDATE `npc` SET `name` = '龍馬軍 步兵' WHERE `id` = 22575;
-UPDATE `npc` SET `name` = '龍馬軍 魔法隊長' WHERE `id` = 22576;
-UPDATE `npc` SET `name` = '龍馬軍 魔法師' WHERE `id` = 22577;
-UPDATE `npc` SET `name` = '龍馬軍 魔法士兵' WHERE `id` = 22578;
-UPDATE `npc` SET `name` = '狂戰士' WHERE `id` = 22579;
-UPDATE `npc` SET `name` = '龍馬軍 治療師' WHERE `id` = 22580;
-UPDATE `npc` SET `name` = '龍馬軍 標槍兵' WHERE `id` = 22581;
-UPDATE `npc` SET `name` = '龍馬軍 標槍兵' WHERE `id` = 22582;
-UPDATE `npc` SET `name` = '龍馬軍 魔法隊長' WHERE `id` = 22583;
-UPDATE `npc` SET `name` = '龍馬軍 魔法師' WHERE `id` = 22584;
-UPDATE `npc` SET `name` = '龍馬軍 魔法士兵' WHERE `id` = 22585;
-UPDATE `npc` SET `name` = '龍馬軍 軍團長' WHERE `id` = 22586;
-UPDATE `npc` SET `name` = '龍馬軍 1號隊長' WHERE `id` = 22587;
-UPDATE `npc` SET `name` = '百龍隊長' WHERE `id` = 22588;
-UPDATE `npc` SET `name` = '龍馬軍 步兵' WHERE `id` = 22589;
-UPDATE `npc` SET `name` = '' WHERE `id` = 22590;
-UPDATE `npc` SET `name` = '龍馬軍 魔法隊長' WHERE `id` = 22591;
-UPDATE `npc` SET `name` = '龍馬軍 魔法師' WHERE `id` = 22592;
-UPDATE `npc` SET `name` = '龍馬軍 魔法士兵' WHERE `id` = 22593;
-UPDATE `npc` SET `name` = '龍馬軍 軍團長' WHERE `id` = 22594;
-UPDATE `npc` SET `name` = '龍馬軍 第1隊隊長' WHERE `id` = 22595;
-UPDATE `npc` SET `name` = '百龍隊長' WHERE `id` = 22596;
-UPDATE `npc` SET `name` = '龍馬軍 步兵' WHERE `id` = 22597;
-UPDATE `npc` SET `name` = '方尖塔' WHERE `id` = 22598;
-UPDATE `npc` SET `name` = '廣場結界裝置' WHERE `id` = 22599;
-UPDATE `npc` SET `name` = '破滅的寶座結界裝置' WHERE `id` = 22600;
-UPDATE `npc` SET `name` = '心臟保護裝置' WHERE `id` = 22601;
-UPDATE `npc` SET `name` = '突變鳥' WHERE `id` = 22602;
-UPDATE `npc` SET `name` = '突變鳥' WHERE `id` = 22603;
-UPDATE `npc` SET `name` = '龍鷹' WHERE `id` = 22604;
-UPDATE `npc` SET `name` = '龍鷹' WHERE `id` = 22605;
-UPDATE `npc` SET `name` = '浮游骷髏' WHERE `id` = 22606;
-UPDATE `npc` SET `name` = '浮游骷髏' WHERE `id` = 22607;
-UPDATE `npc` SET `name` = '浮游殭屍' WHERE `id` = 22608;
-UPDATE `npc` SET `name` = '浮游殭屍' WHERE `id` = 22609;
-UPDATE `npc` SET `name` = '變種龍獸翼' WHERE `id` = 22610;
-UPDATE `npc` SET `name` = '變種龍獸翼' WHERE `id` = 22611;
-UPDATE `npc` SET `name` = '德拉克' WHERE `id` = 22612;
-UPDATE `npc` SET `name` = '德拉克' WHERE `id` = 22613;
-UPDATE `npc` SET `name` = '禿鷹騎士' WHERE `id` = 22614;
-UPDATE `npc` SET `name` = '禿鷹騎士' WHERE `id` = 22615;
-UPDATE `npc` SET `name` = '苦痛種子' WHERE `id` = 22616;
-UPDATE `npc` SET `name` = '灰爪庫土斯', `title` = '狩獵首領 ' WHERE `id` = 25001;
-UPDATE `npc` SET `name` = '庫土斯的守衛', `title` = '狩獵手下' WHERE `id` = 25002;
-UPDATE `npc` SET `name` = '庫土斯的手下', `title` = '狩獵手下' WHERE `id` = 25003;
-UPDATE `npc` SET `name` = '土瑞克傭兵隊長', `title` = '狩獵首領 ' WHERE `id` = 25004;
-UPDATE `npc` SET `name` = '土瑞克傭兵弓手', `title` = '狩獵手下' WHERE `id` = 25005;
-UPDATE `npc` SET `name` = '土瑞克兵戰士', `title` = '狩獵手下' WHERE `id` = 25006;
-UPDATE `npc` SET `name` = '隱遁蜘蛛 克列圖', `title` = '狩獵首領 ' WHERE `id` = 25007;
-UPDATE `npc` SET `name` = '克列圖的心腹', `title` = '狩獵手下' WHERE `id` = 25008;
-UPDATE `npc` SET `name` = '克列圖的手下', `title` = '狩獵手下' WHERE `id` = 25009;
-UPDATE `npc` SET `name` = '憤怒的提萊斯', `title` = '狩獵首領 ' WHERE `id` = 25010;
-UPDATE `npc` SET `name` = '提萊斯的守衛', `title` = '狩獵手下' WHERE `id` = 25011;
-UPDATE `npc` SET `name` = '提萊斯的追隨者', `title` = '狩獵手下' WHERE `id` = 25012;
-UPDATE `npc` SET `name` = '農民叛軍隊長鬼魂', `title` = '狩獵首領 ' WHERE `id` = 25013;
-UPDATE `npc` SET `name` = '農民叛軍鬼魂', `title` = '狩獵手下' WHERE `id` = 25014;
-UPDATE `npc` SET `name` = '農民叛軍鬼魂', `title` = '狩獵手下' WHERE `id` = 25015;
-UPDATE `npc` SET `name` = '水中庭園守護者三號', `title` = '狩獵首領 ' WHERE `id` = 25016;
-UPDATE `npc` SET `name` = '守護者3號的護衛機', `title` = '狩獵手下' WHERE `id` = 25017;
-UPDATE `npc` SET `name` = '守護者3號的掩護機', `title` = '狩獵手下' WHERE `id` = 25018;
-UPDATE `npc` SET `name` = '潘 柴特', `title` = '狩獵首領 ' WHERE `id` = 25019;
-UPDATE `npc` SET `name` = '布賴卡法魔 帕斯圖', `title` = '狩獵首領 ' WHERE `id` = 25020;
-UPDATE `npc` SET `name` = '帕斯圖的影魔', `title` = '狩獵手下' WHERE `id` = 25021;
-UPDATE `npc` SET `name` = '帕斯圖的闇魔', `title` = '狩獵手下' WHERE `id` = 25022;
-UPDATE `npc` SET `name` = '司塔卡拓女王 潔魯娜', `title` = '狩獵首領 ' WHERE `id` = 25023;
-UPDATE `npc` SET `name` = '潔魯娜的護衛隊長', `title` = '狩獵手下' WHERE `id` = 25024;
-UPDATE `npc` SET `name` = '潔魯娜的護衛兵', `title` = '狩獵手下' WHERE `id` = 25025;
-UPDATE `npc` SET `name` = '卡圖先鋒隊長 亞圖易', `title` = '狩獵首領 ' WHERE `id` = 25026;
-UPDATE `npc` SET `name` = '卡圖先鋒隊弓手', `title` = '狩獵手下' WHERE `id` = 25027;
-UPDATE `npc` SET `name` = '卡圖先鋒隊戰士', `title` = '狩獵手下' WHERE `id` = 25028;
-UPDATE `npc` SET `name` = '阿特萊班', `title` = '狩獵首領 ' WHERE `id` = 25029;
-UPDATE `npc` SET `name` = '阿特萊班的大弟子', `title` = '狩獵手下' WHERE `id` = 25030;
-UPDATE `npc` SET `name` = '阿特萊班的弟子', `title` = '狩獵手下' WHERE `id` = 25031;
-UPDATE `npc` SET `name` = '伊娃守護者 米列奴', `title` = '狩獵首領 ' WHERE `id` = 25032;
-UPDATE `npc` SET `name` = '米列奴親衛隊魔法師', `title` = '狩獵手下' WHERE `id` = 25033;
-UPDATE `npc` SET `name` = '米列奴親衛隊戰士', `title` = '狩獵手下' WHERE `id` = 25034;
-UPDATE `npc` SET `name` = '席琳的死神 卡布里歐', `title` = '狩獵首領 ' WHERE `id` = 25035;
-UPDATE `npc` SET `name` = '卡布里歐的俘虜', `title` = '狩獵手下' WHERE `id` = 25036;
-UPDATE `npc` SET `name` = '卡布里歐的刀手', `title` = '狩獵手下' WHERE `id` = 25037;
-UPDATE `npc` SET `name` = '提拉克', `title` = '狩獵首領 ' WHERE `id` = 25038;
-UPDATE `npc` SET `name` = '提拉克的護衛兵', `title` = '狩獵手下' WHERE `id` = 25039;
-UPDATE `npc` SET `name` = '提拉克騎士', `title` = '狩獵手下' WHERE `id` = 25040;
-UPDATE `npc` SET `name` = '雷米爾', `title` = '狩獵首領 ' WHERE `id` = 25041;
-UPDATE `npc` SET `name` = '雷米爾的弓手', `title` = '狩獵手下' WHERE `id` = 25042;
-UPDATE `npc` SET `name` = '雷米爾的守衛', `title` = '狩獵手下' WHERE `id` = 25043;
-UPDATE `npc` SET `name` = '巴立恩', `title` = '狩獵首領 ' WHERE `id` = 25044;
-UPDATE `npc` SET `name` = '巴立恩的黑魔法師', `title` = '狩獵手下' WHERE `id` = 25045;
-UPDATE `npc` SET `name` = '巴立恩的士兵', `title` = '狩獵手下' WHERE `id` = 25046;
-UPDATE `npc` SET `name` = '卡勒特', `title` = '狩獵首領 ' WHERE `id` = 25047;
-UPDATE `npc` SET `name` = '卡勒特的首席騎士', `title` = '狩獵手下' WHERE `id` = 25048;
-UPDATE `npc` SET `name` = '卡勒特的親衛隊', `title` = '狩獵手下' WHERE `id` = 25049;
-UPDATE `npc` SET `name` = '拜勒法', `title` = '狩獵首領 ' WHERE `id` = 25050;
-UPDATE `npc` SET `name` = '拉何', `title` = '狩獵首領 ' WHERE `id` = 25051;
-UPDATE `npc` SET `name` = '拉何的女祭司', `title` = '狩獵手下' WHERE `id` = 25052;
-UPDATE `npc` SET `name` = '拉何狂信者', `title` = '狩獵手下' WHERE `id` = 25053;
-UPDATE `npc` SET `name` = '柯爾能', `title` = '狩獵首領 ' WHERE `id` = 25054;
-UPDATE `npc` SET `name` = '塔里亞噸', `title` = '狩獵手下' WHERE `id` = 25055;
-UPDATE `npc` SET `name` = '芬斯克', `title` = '狩獵手下' WHERE `id` = 25056;
-UPDATE `npc` SET `name` = '蒼空的畢肯', `title` = '狩獵首領 ' WHERE `id` = 25057;
-UPDATE `npc` SET `name` = '畢肯的射手', `title` = '狩獵手下' WHERE `id` = 25058;
-UPDATE `npc` SET `name` = '畢肯的戰士', `title` = '狩獵手下' WHERE `id` = 25059;
-UPDATE `npc` SET `name` = '愛情失敗者 凱爾', `title` = '狩獵首領 ' WHERE `id` = 25060;
-UPDATE `npc` SET `name` = '凱爾的珠子', `title` = '狩獵手下' WHERE `id` = 25061;
-UPDATE `npc` SET `name` = '凱爾護衛兵', `title` = '狩獵手下' WHERE `id` = 25062;
-UPDATE `npc` SET `name` = '偉大的靈魂 采爾圖巴', `title` = '狩獵首領 ' WHERE `id` = 25063;
-UPDATE `npc` SET `name` = '暴風的魔法師 台勒客', `title` = '狩獵首領 ' WHERE `id` = 25064;
-UPDATE `npc` SET `name` = '台勒客的護衛兵', `title` = '狩獵手下' WHERE `id` = 25065;
-UPDATE `npc` SET `name` = '台勒客的騎士', `title` = '狩獵手下' WHERE `id` = 25066;
-UPDATE `npc` SET `name` = '紅旗隊長 沙卡', `title` = '狩獵首領 ' WHERE `id` = 25067;
-UPDATE `npc` SET `name` = '沙卡的射手', `title` = '狩獵手下' WHERE `id` = 25068;
-UPDATE `npc` SET `name` = '沙卡的追隨者', `title` = '狩獵手下' WHERE `id` = 25069;
-UPDATE `npc` SET `name` = '妖精森林守護者 儒諾', `title` = '狩獵首領 ' WHERE `id` = 25070;
-UPDATE `npc` SET `name` = '儒諾的風', `title` = '狩獵手下' WHERE `id` = 25071;
-UPDATE `npc` SET `name` = '儒諾的獨角獸', `title` = '狩獵手下' WHERE `id` = 25072;
-UPDATE `npc` SET `name` = '血腥祭司 茹德圖', `title` = '狩獵首領 ' WHERE `id` = 25073;
-UPDATE `npc` SET `name` = '茹德圖的班席女妖', `title` = '狩獵手下' WHERE `id` = 25074;
-UPDATE `npc` SET `name` = '茹德圖的德雷巴奴', `title` = '狩獵手下' WHERE `id` = 25075;
-UPDATE `npc` SET `name` = '摩拉公主', `title` = '狩獵首領 ' WHERE `id` = 25076;
-UPDATE `npc` SET `name` = '親衛隊長道根', `title` = '狩獵手下' WHERE `id` = 25077;
-UPDATE `npc` SET `name` = '公主的親衛隊', `title` = '狩獵手下' WHERE `id` = 25078;
-UPDATE `npc` SET `name` = '貓眼', `title` = '狩獵首領 ' WHERE `id` = 25079;
-UPDATE `npc` SET `name` = '傭兵', `title` = '狩獵手下' WHERE `id` = 25080;
-UPDATE `npc` SET `name` = '貓眼盜賊', `title` = '狩獵手下' WHERE `id` = 25081;
-UPDATE `npc` SET `name` = '貓團首領', `title` = '狩獵首領 ' WHERE `id` = 25082;
-UPDATE `npc` SET `name` = '貓團', `title` = '狩獵手下' WHERE `id` = 25083;
-UPDATE `npc` SET `name` = '貓團', `title` = '狩獵手下' WHERE `id` = 25084;
-UPDATE `npc` SET `name` = '提瑪克獸人搜索隊長', `title` = '狩獵首領 ' WHERE `id` = 25085;
-UPDATE `npc` SET `name` = '提瑪克獸人搜索隊', `title` = '狩獵手下' WHERE `id` = 25086;
-UPDATE `npc` SET `name` = '提瑪克獸人搜索隊', `title` = '狩獵手下' WHERE `id` = 25087;
-UPDATE `npc` SET `name` = '暴走機械高崙', `title` = '狩獵首領 ' WHERE `id` = 25088;
-UPDATE `npc` SET `name` = '失魂者野豬', `title` = '狩獵首領 ' WHERE `id` = 25089;
-UPDATE `npc` SET `name` = '失魂者狼', `title` = '狩獵手下' WHERE `id` = 25090;
-UPDATE `npc` SET `name` = '失魂者熊', `title` = '狩獵手下' WHERE `id` = 25091;
-UPDATE `npc` SET `name` = '柯林姆', `title` = '狩獵首領 ' WHERE `id` = 25092;
-UPDATE `npc` SET `name` = '柯林姆的警衛隊長 凱溫', `title` = '狩獵手下' WHERE `id` = 25093;
-UPDATE `npc` SET `name` = '柯林姆的警衛隊', `title` = '狩獵手下' WHERE `id` = 25094;
-UPDATE `npc` SET `name` = '精靈 雷諾亞', `title` = '狩獵首領 ' WHERE `id` = 25095;
-UPDATE `npc` SET `name` = '雷諾亞的艾魯比', `title` = '狩獵手下' WHERE `id` = 25096;
-UPDATE `npc` SET `name` = '雷諾亞的豬', `title` = '狩獵手下' WHERE `id` = 25097;
-UPDATE `npc` SET `name` = '賽查的召喚者', `title` = '狩獵首領 ' WHERE `id` = 25098;
-UPDATE `npc` SET `name` = '腐爛樹 雷比魯', `title` = '狩獵首領 ' WHERE `id` = 25099;
-UPDATE `npc` SET `name` = '腐爛的精靈', `title` = '狩獵手下' WHERE `id` = 25100;
-UPDATE `npc` SET `name` = '腐爛的戰士', `title` = '狩獵手下' WHERE `id` = 25101;
-UPDATE `npc` SET `name` = '夏可蘭', `title` = '狩獵首領 ' WHERE `id` = 25102;
-UPDATE `npc` SET `name` = '咒術士 伊索', `title` = '狩獵首領 ' WHERE `id` = 25103;
-UPDATE `npc` SET `name` = '伊索護衛兵', `title` = '狩獵手下' WHERE `id` = 25104;
-UPDATE `npc` SET `name` = '伊索護衛隊', `title` = '狩獵手下' WHERE `id` = 25105;
-UPDATE `npc` SET `name` = '井之亡靈 莉帝雅', `title` = '狩獵首領 ' WHERE `id` = 25106;
-UPDATE `npc` SET `name` = '莉帝雅的射手', `title` = '狩獵手下' WHERE `id` = 25107;
-UPDATE `npc` SET `name` = '莉帝雅的戰士', `title` = '狩獵手下' WHERE `id` = 25108;
-UPDATE `npc` SET `name` = '安塔瑞斯的祭司 柯隆', `title` = '狩獵首領 ' WHERE `id` = 25109;
-UPDATE `npc` SET `name` = '柯隆的召喚者', `title` = '狩獵手下' WHERE `id` = 25110;
-UPDATE `npc` SET `name` = '柯隆的召喚者', `title` = '狩獵手下' WHERE `id` = 25111;
-UPDATE `npc` SET `name` = '巴列斯的密使 梅亞拿', `title` = '狩獵首領 ' WHERE `id` = 25112;
-UPDATE `npc` SET `name` = '梅亞拿的侍女', `title` = '狩獵手下' WHERE `id` = 25113;
-UPDATE `npc` SET `name` = '梅亞拿的警衛人偶', `title` = '狩獵手下' WHERE `id` = 25114;
-UPDATE `npc` SET `name` = '伊克魯斯實驗體1號', `title` = '狩獵首領 ' WHERE `id` = 25115;
-UPDATE `npc` SET `name` = '伊克魯斯實驗體2號', `title` = '狩獵手下' WHERE `id` = 25116;
-UPDATE `npc` SET `name` = '伊克魯斯實驗體3號', `title` = '狩獵手下' WHERE `id` = 25117;
-UPDATE `npc` SET `name` = '典獄長 基洛德', `title` = '狩獵首領 ' WHERE `id` = 25118;
-UPDATE `npc` SET `name` = '妖精女王的使者 貝崙', `title` = '狩獵首領 ' WHERE `id` = 25119;
-UPDATE `npc` SET `name` = '貝崙的侍從', `title` = '狩獵手下' WHERE `id` = 25120;
-UPDATE `npc` SET `name` = '貝崙的饒舌者', `title` = '狩獵手下' WHERE `id` = 25121;
-UPDATE `npc` SET `name` = '流亡犧牲者 雷歐', `title` = '狩獵首領 ' WHERE `id` = 25122;
-UPDATE `npc` SET `name` = '雷歐的僕人', `title` = '狩獵手下' WHERE `id` = 25123;
-UPDATE `npc` SET `name` = '雷歐的執事', `title` = '狩獵手下' WHERE `id` = 25124;
-UPDATE `npc` SET `name` = '昂赫的猛虎王', `title` = '狩獵首領 ' WHERE `id` = 25125;
-UPDATE `npc` SET `name` = '牛角將軍 勾爾昆達', `title` = '狩獵首領 ' WHERE `id` = 25126;
-UPDATE `npc` SET `name` = '朗克族長 瑞許寇絲', `title` = '狩獵首領 ' WHERE `id` = 25127;
-UPDATE `npc` SET `name` = '普庫祭司長 迦瑪許', `title` = '狩獵首領 ' WHERE `id` = 25128;
-UPDATE `npc` SET `name` = '普庫的巫師', `title` = '狩獵手下' WHERE `id` = 25129;
-UPDATE `npc` SET `name` = '迦瑪許的寵物特里丹', `title` = '狩獵手下' WHERE `id` = 25130;
-UPDATE `npc` SET `name` = '殺戮王 克圖', `title` = '狩獵首領 ' WHERE `id` = 25131;
-UPDATE `npc` SET `name` = '克圖的弓手', `title` = '狩獵手下' WHERE `id` = 25132;
-UPDATE `npc` SET `name` = '克圖的突擊隊長', `title` = '狩獵手下' WHERE `id` = 25133;
-UPDATE `npc` SET `name` = '里多族長 塔金', `title` = '狩獵首領 ' WHERE `id` = 25134;
-UPDATE `npc` SET `name` = '塔金的祭司長', `title` = '狩獵手下' WHERE `id` = 25135;
-UPDATE `npc` SET `name` = '塔金的親衛隊', `title` = '狩獵手下' WHERE `id` = 25136;
-UPDATE `npc` SET `name` = '巴列斯的巫女 瑟菲亞', `title` = '狩獵首領 ' WHERE `id` = 25137;
-UPDATE `npc` SET `name` = '飲魂者', `title` = '狩獵手下' WHERE `id` = 25138;
-UPDATE `npc` SET `name` = '瑟菲亞的奴隸', `title` = '狩獵手下' WHERE `id` = 25139;
-UPDATE `npc` SET `name` = '黑卡特原型', `title` = '狩獵首領 ' WHERE `id` = 25140;
-UPDATE `npc` SET `name` = '黑卡特 寇圖司', `title` = '狩獵手下' WHERE `id` = 25141;
-UPDATE `npc` SET `name` = '黑卡特 基雷司', `title` = '狩獵手下' WHERE `id` = 25142;
-UPDATE `npc` SET `name` = '懲罰之火 斯萊爾', `title` = '狩獵首領 ' WHERE `id` = 25143;
-UPDATE `npc` SET `name` = '斯萊爾的傳教士', `title` = '狩獵手下' WHERE `id` = 25144;
-UPDATE `npc` SET `name` = '斯萊爾的聖騎士', `title` = '狩獵手下' WHERE `id` = 25145;
-UPDATE `npc` SET `name` = '死靈 畢佛隆', `title` = '狩獵首領 ' WHERE `id` = 25146;
-UPDATE `npc` SET `name` = '畢佛隆的暗殺者', `title` = '狩獵手下' WHERE `id` = 25147;
-UPDATE `npc` SET `name` = '畢佛隆的屠夫', `title` = '狩獵手下' WHERE `id` = 25148;
-UPDATE `npc` SET `name` = '殭屍之王 可羅', `title` = '狩獵首領 ' WHERE `id` = 25149;
-UPDATE `npc` SET `name` = '死靈弓手', `title` = '狩獵手下' WHERE `id` = 25150;
-UPDATE `npc` SET `name` = '死靈戰士', `title` = '狩獵手下' WHERE `id` = 25151;
-UPDATE `npc` SET `name` = '炎之沙達', `title` = '狩獵首領 ' WHERE `id` = 25152;
-UPDATE `npc` SET `name` = '沙達的腳爪', `title` = '狩獵手下' WHERE `id` = 25153;
-UPDATE `npc` SET `name` = '沙達的鞭子', `title` = '狩獵手下' WHERE `id` = 25154;
-UPDATE `npc` SET `name` = '巫醫王 賽魯', `title` = '狩獵首領 ' WHERE `id` = 25155;
-UPDATE `npc` SET `name` = '狂信魔法師', `title` = '狩獵手下' WHERE `id` = 25156;
-UPDATE `npc` SET `name` = '狂信士兵', `title` = '狩獵手下' WHERE `id` = 25157;
-UPDATE `npc` SET `name` = '塔爾克王', `title` = '狩獵首領 ' WHERE `id` = 25158;
-UPDATE `npc` SET `name` = '獨角獸 帕妮爾', `title` = '狩獵首領 ' WHERE `id` = 25159;
-UPDATE `npc` SET `name` = '獨角獸 拉比妮', `title` = '狩獵手下' WHERE `id` = 25160;
-UPDATE `npc` SET `name` = '獨角獸 莉莉普', `title` = '狩獵手下' WHERE `id` = 25161;
-UPDATE `npc` SET `name` = '巨人 拿爾帕拿克', `title` = '狩獵首領 ' WHERE `id` = 25162;
-UPDATE `npc` SET `name` = '咆哮的天雷瑟', `title` = '狩獵首領 ' WHERE `id` = 25163;
-UPDATE `npc` SET `name` = '伊昆帝', `title` = '狩獵首領 ' WHERE `id` = 25166;
-UPDATE `npc` SET `name` = '伊昆帝的召喚者', `title` = '狩獵手下' WHERE `id` = 25167;
-UPDATE `npc` SET `name` = '伊昆帝的士兵', `title` = '狩獵手下' WHERE `id` = 25168;
-UPDATE `npc` SET `name` = '拉克列滿', `title` = '狩獵首領 ' WHERE `id` = 25169;
-UPDATE `npc` SET `name` = '蜥蜴人隊長 海盧因', `title` = '狩獵首領 ' WHERE `id` = 25170;
-UPDATE `npc` SET `name` = '海盧因的弓手', `title` = '狩獵手下' WHERE `id` = 25171;
-UPDATE `npc` SET `name` = '海盧因的警衛', `title` = '狩獵手下' WHERE `id` = 25172;
-UPDATE `npc` SET `name` = '獸王 卡盧塔', `title` = '狩獵首領 ' WHERE `id` = 25173;
-UPDATE `npc` SET `name` = '卡盧塔的追隨者', `title` = '狩獵手下' WHERE `id` = 25174;
-UPDATE `npc` SET `name` = '卡盧塔的部下', `title` = '狩獵手下' WHERE `id` = 25175;
-UPDATE `npc` SET `name` = '布拉克 莉莉', `title` = '狩獵首領 ' WHERE `id` = 25176;
-UPDATE `npc` SET `name` = '布拉克 莉莉的守護騎士', `title` = '狩獵手下' WHERE `id` = 25177;
-UPDATE `npc` SET `name` = '布拉克 莉莉的召喚者', `title` = '狩獵手下' WHERE `id` = 25178;
-UPDATE `npc` SET `name` = '巨人神像守護者 卡龍', `title` = '狩獵首領 ' WHERE `id` = 25179;
-UPDATE `npc` SET `name` = '卡龍的護衛兵', `title` = '狩獵手下' WHERE `id` = 25180;
-UPDATE `npc` SET `name` = '卡龍的戰士', `title` = '狩獵手下' WHERE `id` = 25181;
-UPDATE `npc` SET `name` = '惡魔 庫里圖司', `title` = '狩獵首領 ' WHERE `id` = 25182;
-UPDATE `npc` SET `name` = '庫里圖司之妻', `title` = '狩獵手下' WHERE `id` = 25183;
-UPDATE `npc` SET `name` = '惡魔刀', `title` = '狩獵手下' WHERE `id` = 25184;
-UPDATE `npc` SET `name` = '塔沙巴族長 黑雷拿', `title` = '狩獵首領 ' WHERE `id` = 25185;
-UPDATE `npc` SET `name` = '黑雷拿的射手', `title` = '狩獵手下' WHERE `id` = 25186;
-UPDATE `npc` SET `name` = '黑雷拿的士兵', `title` = '狩獵手下' WHERE `id` = 25187;
-UPDATE `npc` SET `name` = '亞佩丕', `title` = '狩獵首領 ' WHERE `id` = 25188;
-UPDATE `npc` SET `name` = '克洛諾斯的召喚者 穆木', `title` = '狩獵首領 ' WHERE `id` = 25189;
-UPDATE `npc` SET `name` = '穆木的魔法師', `title` = '狩獵手下' WHERE `id` = 25190;
-UPDATE `npc` SET `name` = '穆木的戰士', `title` = '狩獵手下' WHERE `id` = 25191;
-UPDATE `npc` SET `name` = '大地守護者 帕勒森', `title` = '狩獵首領 ' WHERE `id` = 25192;
-UPDATE `npc` SET `name` = '帕勒森的騎士', `title` = '狩獵手下' WHERE `id` = 25193;
-UPDATE `npc` SET `name` = '帕勒森的守護者', `title` = '狩獵手下' WHERE `id` = 25194;
-UPDATE `npc` SET `name` = '法利昂的使者 洛克尼斯', `title` = '狩獵首領 ' WHERE `id` = 25198;
-UPDATE `npc` SET `name` = '水龍祭司長 席夏克', `title` = '狩獵首領 ' WHERE `id` = 25199;
-UPDATE `npc` SET `name` = '席夏克的族人', `title` = '狩獵手下' WHERE `id` = 25200;
-UPDATE `npc` SET `name` = '席夏克的護衛兵', `title` = '狩獵手下' WHERE `id` = 25201;
-UPDATE `npc` SET `name` = '可羅津 帕迪夏 索貝克', `title` = '狩獵首領 ' WHERE `id` = 25202;
-UPDATE `npc` SET `name` = '法里特拉德 夏 索貝克', `title` = '狩獵手下' WHERE `id` = 25203;
-UPDATE `npc` SET `name` = '可羅津 夏 索貝克', `title` = '狩獵手下' WHERE `id` = 25204;
-UPDATE `npc` SET `name` = '大海之炎 阿夏其爾', `title` = '狩獵首領 ' WHERE `id` = 25205;
-UPDATE `npc` SET `name` = '阿夏其爾的刀', `title` = '狩獵手下' WHERE `id` = 25206;
-UPDATE `npc` SET `name` = '阿夏其爾的杖', `title` = '狩獵手下' WHERE `id` = 25207;
-UPDATE `npc` SET `name` = '水之夸特 阿特卡', `title` = '狩獵首領 ' WHERE `id` = 25208;
-UPDATE `npc` SET `name` = '阿特卡的巫師', `title` = '狩獵手下' WHERE `id` = 25209;
-UPDATE `npc` SET `name` = '阿特卡的士兵', `title` = '狩獵手下' WHERE `id` = 25210;
-UPDATE `npc` SET `name` = '賽貝克', `title` = '狩獵首領 ' WHERE `id` = 25211;
-UPDATE `npc` SET `name` = '賽貝克的祭司', `title` = '狩獵手下' WHERE `id` = 25212;
-UPDATE `npc` SET `name` = '賽貝克的狂信者', `title` = '狩獵手下' WHERE `id` = 25213;
-UPDATE `npc` SET `name` = '法利昂的侍從 席卡', `title` = '狩獵首領 ' WHERE `id` = 25214;
-UPDATE `npc` SET `name` = '席卡的法師', `title` = '狩獵手下' WHERE `id` = 25215;
-UPDATE `npc` SET `name` = '席卡的戰士', `title` = '狩獵手下' WHERE `id` = 25216;
-UPDATE `npc` SET `name` = '受詛咒的克拉拉', `title` = '狩獵首領 ' WHERE `id` = 25217;
-UPDATE `npc` SET `name` = '克拉拉的射手', `title` = '狩獵手下' WHERE `id` = 25218;
-UPDATE `npc` SET `name` = '克拉拉的手下', `title` = '狩獵手下' WHERE `id` = 25219;
-UPDATE `npc` SET `name` = '死亡之王 哈勒特', `title` = '狩獵首領 ' WHERE `id` = 25220;
-UPDATE `npc` SET `name` = '死亡法師 克里桑', `title` = '狩獵手下' WHERE `id` = 25221;
-UPDATE `npc` SET `name` = '死亡戰士 哈黎格', `title` = '狩獵手下' WHERE `id` = 25222;
-UPDATE `npc` SET `name` = '靈魂收藏者 阿克隆', `title` = '狩獵首領 ' WHERE `id` = 25223;
-UPDATE `npc` SET `name` = '靈魂漿紗者', `title` = '狩獵手下' WHERE `id` = 25224;
-UPDATE `npc` SET `name` = '靈魂過濾者', `title` = '狩獵手下' WHERE `id` = 25225;
-UPDATE `npc` SET `name` = '咆哮的君主 卡斯特', `title` = '狩獵首領 ' WHERE `id` = 25226;
-UPDATE `npc` SET `name` = '卡斯特的巫師', `title` = '狩獵手下' WHERE `id` = 25227;
-UPDATE `npc` SET `name` = '卡斯特的團長', `title` = '狩獵手下' WHERE `id` = 25228;
-UPDATE `npc` SET `name` = '風暴之翼 那卡', `title` = '狩獵首領 ' WHERE `id` = 25229;
-UPDATE `npc` SET `name` = '提瑪克祭司長 拉葛斯', `title` = '狩獵首領 ' WHERE `id` = 25230;
-UPDATE `npc` SET `name` = '拉葛斯的護衛', `title` = '狩獵手下' WHERE `id` = 25231;
-UPDATE `npc` SET `name` = '拉葛斯的傳令', `title` = '狩獵手下' WHERE `id` = 25232;
-UPDATE `npc` SET `name` = '背叛者安德拉斯的怨靈', `title` = '狩獵首領 ' WHERE `id` = 25233;
-UPDATE `npc` SET `name` = '遠古神祕飛龍', `title` = '狩獵首領 ' WHERE `id` = 25234;
-UPDATE `npc` SET `name` = '巴諾爾族長 坎德拉', `title` = '狩獵首領 ' WHERE `id` = 25235;
-UPDATE `npc` SET `name` = '坎德拉的治療師', `title` = '狩獵手下' WHERE `id` = 25236;
-UPDATE `npc` SET `name` = '坎德拉的護衛', `title` = '狩獵手下' WHERE `id` = 25237;
-UPDATE `npc` SET `name` = '亞比斯 布魯肯特', `title` = '狩獵首領 ' WHERE `id` = 25238;
-UPDATE `npc` SET `name` = '亞比斯 布魯肯特的怪獸', `title` = '狩獵手下' WHERE `id` = 25239;
-UPDATE `npc` SET `name` = '亞比斯 布魯肯特的野獸', `title` = '狩獵手下' WHERE `id` = 25240;
-UPDATE `npc` SET `name` = '哈里特英雄 達瑪許', `title` = '狩獵首領 ' WHERE `id` = 25241;
-UPDATE `npc` SET `name` = '達瑪許的謀士', `title` = '狩獵手下' WHERE `id` = 25242;
-UPDATE `npc` SET `name` = '達瑪許的心腹', `title` = '狩獵手下' WHERE `id` = 25243;
-UPDATE `npc` SET `name` = '最後下巨人 歐克斯', `title` = '狩獵首領 ' WHERE `id` = 25244;
-UPDATE `npc` SET `name` = '最後下巨人 克拉奇', `title` = '狩獵首領 ' WHERE `id` = 25245;
-UPDATE `npc` SET `name` = '克拉奇的手下', `title` = '狩獵手下' WHERE `id` = 25246;
-UPDATE `npc` SET `name` = '克拉奇的隨從', `title` = '狩獵手下' WHERE `id` = 25247;
-UPDATE `npc` SET `name` = '破滅之刃 塔那透斯', `title` = '狩獵首領 ' WHERE `id` = 25248;
-UPDATE `npc` SET `name` = '怪力的巴爾塔奴斯', `title` = '狩獵首領 ' WHERE `id` = 25249;
-UPDATE `npc` SET `name` = '巴爾塔奴斯的吸血植物', `title` = '狩獵手下' WHERE `id` = 25250;
-UPDATE `npc` SET `name` = '巴爾塔奴斯的幼苗', `title` = '狩獵手下' WHERE `id` = 25251;
-UPDATE `npc` SET `name` = '帕力巴提女王 提米斯', `title` = '狩獵首領 ' WHERE `id` = 25252;
-UPDATE `npc` SET `name` = '提米斯的侍女', `title` = '狩獵手下' WHERE `id` = 25253;
-UPDATE `npc` SET `name` = '提米斯的親衛隊', `title` = '狩獵手下' WHERE `id` = 25254;
-UPDATE `npc` SET `name` = '翼魔之王 岱依封', `title` = '狩獵首領 ' WHERE `id` = 25255;
-UPDATE `npc` SET `name` = '泰可的大軍長 阿拉克', `title` = '狩獵首領 ' WHERE `id` = 25256;
-UPDATE `npc` SET `name` = '阿拉克的弓箭手', `title` = '狩獵手下' WHERE `id` = 25257;
-UPDATE `npc` SET `name` = '阿拉克的步兵', `title` = '狩獵手下' WHERE `id` = 25258;
-UPDATE `npc` SET `name` = '札肯的執行者 克蘭茲', `title` = '狩獵首領 ' WHERE `id` = 25259;
-UPDATE `npc` SET `name` = '鋼鐵巨人的圖騰', `title` = '狩獵首領 ' WHERE `id` = 25260;
-UPDATE `npc` SET `name` = '圖騰護衛弓兵', `title` = '狩獵手下' WHERE `id` = 25261;
-UPDATE `npc` SET `name` = '圖騰護衛兵', `title` = '狩獵手下' WHERE `id` = 25262;
-UPDATE `npc` SET `name` = '柯爾能的心腹 卡洛妮', `title` = '狩獵首領 ' WHERE `id` = 25263;
-UPDATE `npc` SET `name` = '卡洛妮的暗殺者', `title` = '狩獵手下' WHERE `id` = 25264;
-UPDATE `npc` SET `name` = '卡洛妮的祕密騎士', `title` = '狩獵手下' WHERE `id` = 25265;
-UPDATE `npc` SET `name` = '女王 黛卡比雅', `title` = '狩獵首領 ' WHERE `id` = 25266;
-UPDATE `npc` SET `name` = '黛卡比雅的親衛隊', `title` = '狩獵手下' WHERE `id` = 25267;
-UPDATE `npc` SET `name` = '黛卡比雅的護衛', `title` = '狩獵手下' WHERE `id` = 25268;
-UPDATE `npc` SET `name` = '獸王 貝希莫斯', `title` = '狩獵首領 ' WHERE `id` = 25269;
-UPDATE `npc` SET `name` = '貝希莫斯槍兵', `title` = '狩獵手下' WHERE `id` = 25270;
-UPDATE `npc` SET `name` = '貝希莫斯閃光', `title` = '狩獵手下' WHERE `id` = 25271;
-UPDATE `npc` SET `name` = '反抗軍領導 塔拉金', `title` = '狩獵首領 ' WHERE `id` = 25272;
-UPDATE `npc` SET `name` = '卡爾拿馬可斯', `title` = '狩獵首領 ' WHERE `id` = 25273;
-UPDATE `npc` SET `name` = '卡爾拿巴倫', `title` = '狩獵手下' WHERE `id` = 25274;
-UPDATE `npc` SET `name` = '卡爾拿素德', `title` = '狩獵手下' WHERE `id` = 25275;
-UPDATE `npc` SET `name` = '死亡之王 伊波斯', `title` = '狩獵首領 ' WHERE `id` = 25276;
-UPDATE `npc` SET `name` = '莉莉絲的巫女 瑪麗黎恩', `title` = '狩獵首領 ' WHERE `id` = 25277;
-UPDATE `npc` SET `name` = '烙印的死靈', `title` = '狩獵手下' WHERE `id` = 25278;
-UPDATE `npc` SET `name` = '烙印的惡鬼', `title` = '狩獵手下' WHERE `id` = 25279;
-UPDATE `npc` SET `name` = '異教徒監視者 柯爾貝隆', `title` = '狩獵首領 ' WHERE `id` = 25280;
-UPDATE `npc` SET `name` = '亞納的大敵 札卡隆', `title` = '狩獵首領 ' WHERE `id` = 25281;
-UPDATE `npc` SET `name` = '死亡之王 夏克斯', `title` = '狩獵首領 ' WHERE `id` = 25282;
-UPDATE `npc` SET `name` = '莉莉絲', `title` = '深淵的聖母' WHERE `id` = 25283;
-UPDATE `npc` SET `name` = '莉莉絲的代言者' WHERE `id` = 25284;
-UPDATE `npc` SET `name` = '莉莉絲的親衛隊' WHERE `id` = 25285;
-UPDATE `npc` SET `name` = '亞納', `title` = '聖火的火花' WHERE `id` = 25286;
-UPDATE `npc` SET `name` = '亞納的守護者' WHERE `id` = 25287;
-UPDATE `npc` SET `name` = '亞納的禁衛隊' WHERE `id` = 25288;
-UPDATE `npc` SET `name` = '亞納的執行者' WHERE `id` = 25289;
-UPDATE `npc` SET `name` = '百眼的惡魔', `title` = '狩獵首領' WHERE `id` = 25290;
-UPDATE `npc` SET `name` = '惡魔的族人', `title` = '狩獵手下' WHERE `id` = 25291;
-UPDATE `npc` SET `name` = '惡魔的族人', `title` = '狩獵手下' WHERE `id` = 25292;
-UPDATE `npc` SET `name` = '溫泉守護者 黑斯提亞', `title` = '狩獵首領' WHERE `id` = 25293;
-UPDATE `npc` SET `name` = '黑斯提亞的鬥士', `title` = '狩獵手下' WHERE `id` = 25294;
-UPDATE `npc` SET `name` = '黑斯提亞的追隨者', `title` = '狩獵手下' WHERE `id` = 25295;
-UPDATE `npc` SET `name` = '冰柱大王 烏巴魯巴', `title` = '狩獵首領' WHERE `id` = 25296;
-UPDATE `npc` SET `name` = '冰柱巨人', `title` = '狩獵手下' WHERE `id` = 25297;
-UPDATE `npc` SET `name` = '冰柱巨人', `title` = '狩獵手下' WHERE `id` = 25298;
-UPDATE `npc` SET `name` = '肯特拉的英雄 黑卡頓', `title` = '狩獵首領' WHERE `id` = 25299;
-UPDATE `npc` SET `name` = '黑卡頓的偵查兵', `title` = '狩獵手下' WHERE `id` = 25300;
-UPDATE `npc` SET `name` = '黑卡頓的侍從', `title` = '狩獵手下' WHERE `id` = 25301;
-UPDATE `npc` SET `name` = '肯特拉司令官 泰爾', `title` = '狩獵首領' WHERE `id` = 25302;
-UPDATE `npc` SET `name` = '泰爾的副官', `title` = '狩獵手下' WHERE `id` = 25303;
-UPDATE `npc` SET `name` = '泰爾的禁衛兵', `title` = '狩獵手下' WHERE `id` = 25304;
-UPDATE `npc` SET `name` = '肯特拉族長 布拉齊', `title` = '狩獵首領' WHERE `id` = 25305;
-UPDATE `npc` SET `name` = '火之魂靈 那斯特倫', `title` = '狩獵首領' WHERE `id` = 25306;
-UPDATE `npc` SET `name` = '那斯特倫的族人', `title` = '狩獵手下' WHERE `id` = 25307;
-UPDATE `npc` SET `name` = '那斯特倫的族人', `title` = '狩獵手下' WHERE `id` = 25308;
-UPDATE `npc` SET `name` = '巴瑞卡的英雄 夏帝斯', `title` = '狩獵首領' WHERE `id` = 25309;
-UPDATE `npc` SET `name` = '夏帝斯的親衛隊長', `title` = '狩獵手下' WHERE `id` = 25310;
-UPDATE `npc` SET `name` = '夏帝斯的親衛兵', `title` = '狩獵手下' WHERE `id` = 25311;
-UPDATE `npc` SET `name` = '巴瑞卡司令官 摩斯', `title` = '狩獵首領' WHERE `id` = 25312;
-UPDATE `npc` SET `name` = '摩斯的副官', `title` = '狩獵手下' WHERE `id` = 25313;
-UPDATE `npc` SET `name` = '摩斯的護衛兵', `title` = '狩獵手下' WHERE `id` = 25314;
-UPDATE `npc` SET `name` = '巴瑞卡族長 荷魯斯', `title` = '狩獵首領' WHERE `id` = 25315;
-UPDATE `npc` SET `name` = '水之魂靈 阿修塔爾', `title` = '狩獵首領' WHERE `id` = 25316;
-UPDATE `npc` SET `name` = '阿修塔爾的族人', `title` = '狩獵手下' WHERE `id` = 25317;
-UPDATE `npc` SET `name` = '阿修塔爾的族人', `title` = '狩獵手下' WHERE `id` = 25318;
-UPDATE `npc` SET `name` = '安柏爾', `title` = '狩獵首領' WHERE `id` = 25319;
-UPDATE `npc` SET `name` = '安柏爾的衛兵', `title` = '狩獵手下' WHERE `id` = 25320;
-UPDATE `npc` SET `name` = '安柏爾的傳令', `title` = '狩獵手下' WHERE `id` = 25321;
-UPDATE `npc` SET `name` = '惡魔的代理人 法斯騰', `title` = '狩獵首領' WHERE `id` = 25322;
-UPDATE `npc` SET `name` = '法斯騰的門徒', `title` = '狩獵手下' WHERE `id` = 25323;
-UPDATE `npc` SET `name` = '法斯騰的僕人', `title` = '狩獵手下' WHERE `id` = 25324;
-UPDATE `npc` SET `name` = '輝煌之炎 貝拉凱爾', `title` = '狩獵首領' WHERE `id` = 25325;
-UPDATE `npc` SET `name` = '貝拉凱爾的使徒', `title` = '狩獵手下' WHERE `id` = 25326;
-UPDATE `npc` SET `name` = '貝拉凱爾的服事', `title` = '狩獵手下' WHERE `id` = 25327;
-UPDATE `npc` SET `name` = '艾爾哈爾德 潘 哈曼', `title` = '狩獵首領' WHERE `id` = 25328;
-UPDATE `npc` SET `name` = '薇爾蕾特', `title` = '狩獵手下' WHERE `id` = 25329;
-UPDATE `npc` SET `name` = '克絲緹', `title` = '狩獵手下' WHERE `id` = 25330;
-UPDATE `npc` SET `name` = '米娜', `title` = '狩獵手下' WHERE `id` = 25331;
-UPDATE `npc` SET `name` = '多里安', `title` = '狩獵手下' WHERE `id` = 25332;
-UPDATE `npc` SET `name` = '亞那卡傑爾', `title` = '侵略軍首領' WHERE `id` = 25333;
-UPDATE `npc` SET `name` = '亞那卡傑爾', `title` = '侵略軍首領' WHERE `id` = 25334;
-UPDATE `npc` SET `name` = '亞那卡傑爾', `title` = '侵略軍首領' WHERE `id` = 25335;
-UPDATE `npc` SET `name` = '亞那卡傑爾', `title` = '侵略軍首領' WHERE `id` = 25336;
-UPDATE `npc` SET `name` = '亞那卡傑爾', `title` = '侵略軍首領' WHERE `id` = 25337;
-UPDATE `npc` SET `name` = '亞那卡傑爾', `title` = '侵略軍首領' WHERE `id` = 25338;
-UPDATE `npc` SET `name` = '哈里夏的影子', `title` = '不可思議的主宰' WHERE `id` = 25339;
-UPDATE `npc` SET `name` = '影之騎士' WHERE `id` = 25340;
-UPDATE `npc` SET `name` = '影之騎士' WHERE `id` = 25341;
-UPDATE `npc` SET `name` = '哈里夏的影子', `title` = '不可思議的主宰' WHERE `id` = 25342;
-UPDATE `npc` SET `name` = '影之騎士' WHERE `id` = 25343;
-UPDATE `npc` SET `name` = '影之騎士' WHERE `id` = 25344;
-UPDATE `npc` SET `name` = '影之騎士' WHERE `id` = 25345;
-UPDATE `npc` SET `name` = '哈里夏的影子', `title` = '不可思議的主宰' WHERE `id` = 25346;
-UPDATE `npc` SET `name` = '影之騎士' WHERE `id` = 25347;
-UPDATE `npc` SET `name` = '影之騎士' WHERE `id` = 25348;
-UPDATE `npc` SET `name` = '哈里夏的影子', `title` = '不可思議的主宰' WHERE `id` = 25349;
-UPDATE `npc` SET `name` = '影之騎士' WHERE `id` = 25350;
-UPDATE `npc` SET `name` = '影之騎士' WHERE `id` = 25351;
-UPDATE `npc` SET `name` = '巨大荒原邪惡蜥蜴', `title` = '狩獵首領' WHERE `id` = 25352;
-UPDATE `npc` SET `name` = '荒原邪惡蜥蜴', `title` = '狩獵手下' WHERE `id` = 25353;
-UPDATE `npc` SET `name` = '翼魔之王 西洛可', `title` = '狩獵首領' WHERE `id` = 25354;
-UPDATE `npc` SET `name` = '西洛可翼魔', `title` = '狩獵手下' WHERE `id` = 25355;
-UPDATE `npc` SET `name` = '西洛可護衛隊', `title` = '狩獵手下' WHERE `id` = 25356;
-UPDATE `npc` SET `name` = '蘇卡鼠人族長', `title` = '狩獵首領' WHERE `id` = 25357;
-UPDATE `npc` SET `name` = '蘇卡鼠人護衛兵', `title` = '狩獵手下' WHERE `id` = 25358;
-UPDATE `npc` SET `name` = '蘇卡鼠人祭司', `title` = '狩獵手下' WHERE `id` = 25359;
-UPDATE `npc` SET `name` = '虎蜂', `title` = '狩獵首領' WHERE `id` = 25360;
-UPDATE `npc` SET `name` = '金色大黃蜂', `title` = '狩獵手下' WHERE `id` = 25361;
-UPDATE `npc` SET `name` = '追擊隊長 夏魯克', `title` = '狩獵首領' WHERE `id` = 25362;
-UPDATE `npc` SET `name` = '夏魯克的搜尋者', `title` = '狩獵手下' WHERE `id` = 25363;
-UPDATE `npc` SET `name` = '夏魯克的狙擊手', `title` = '狩獵手下' WHERE `id` = 25364;
-UPDATE `npc` SET `name` = '教主 庫勒保洛斯', `title` = '狩獵首領' WHERE `id` = 25365;
-UPDATE `npc` SET `name` = '庫勒保洛斯的祭司', `title` = '狩獵首領' WHERE `id` = 25366;
-UPDATE `npc` SET `name` = '庫勒保洛斯的信徒', `title` = '狩獵手下' WHERE `id` = 25367;
-UPDATE `npc` SET `name` = '庫勒保洛斯的弟子', `title` = '狩獵手下' WHERE `id` = 25368;
-UPDATE `npc` SET `name` = '食腐之魂', `title` = '狩獵首領' WHERE `id` = 25369;
-UPDATE `npc` SET `name` = '食腐之屍', `title` = '狩獵手下' WHERE `id` = 25370;
-UPDATE `npc` SET `name` = '食腐之命', `title` = '狩獵手下' WHERE `id` = 25371;
-UPDATE `npc` SET `name` = '被遺棄的守護者', `title` = '狩獵首領' WHERE `id` = 25372;
-UPDATE `npc` SET `name` = '達高尼爾的使者 瑪雷斯', `title` = '狩獵首領' WHERE `id` = 25373;
-UPDATE `npc` SET `name` = '地獄鳥', `title` = '狩獵手下' WHERE `id` = 25374;
-UPDATE `npc` SET `name` = '殭屍之王 法拉克蘇斯', `title` = '狩獵首領' WHERE `id` = 25375;
-UPDATE `npc` SET `name` = '法拉克蘇斯的殭屍戰士', `title` = '狩獵手下' WHERE `id` = 25376;
-UPDATE `npc` SET `name` = '法拉克蘇斯的殭屍戰士', `title` = '狩獵手下' WHERE `id` = 25377;
-UPDATE `npc` SET `name` = '瘋狂的野獸', `title` = '狩獵首領' WHERE `id` = 25378;
-UPDATE `npc` SET `name` = '呆滯的野獸', `title` = '狩獵手下' WHERE `id` = 25379;
-UPDATE `npc` SET `name` = '伊克魯斯的使者 凱沙', `title` = '狩獵首領' WHERE `id` = 25380;
-UPDATE `npc` SET `name` = '飛行的夢魘', `title` = '狩獵手下' WHERE `id` = 25381;
-UPDATE `npc` SET `name` = '飛行的敵意', `title` = '狩獵手下' WHERE `id` = 25382;
-UPDATE `npc` SET `name` = '卡里巴斯卿的亡靈', `title` = '狩獵首領' WHERE `id` = 25383;
-UPDATE `npc` SET `name` = '卡里巴斯卿的侍從', `title` = '狩獵手下' WHERE `id` = 25384;
-UPDATE `npc` SET `name` = '司令 坦佛斯特', `title` = '狩獵首領' WHERE `id` = 25385;
-UPDATE `npc` SET `name` = '刑場的亡靈', `title` = '狩獵手下' WHERE `id` = 25386;
-UPDATE `npc` SET `name` = '刑場的冤魂', `title` = '狩獵手下' WHERE `id` = 25387;
-UPDATE `npc` SET `name` = '赤眼隊長 特萊契亞', `title` = '狩獵首領' WHERE `id` = 25388;
-UPDATE `npc` SET `name` = '赤眼弓兵隊', `title` = '狩獵手下' WHERE `id` = 25389;
-UPDATE `npc` SET `name` = '赤眼親衛隊', `title` = '狩獵手下' WHERE `id` = 25390;
-UPDATE `npc` SET `name` = '奴爾卡的密使', `title` = '狩獵首領' WHERE `id` = 25391;
-UPDATE `npc` SET `name` = '女王的親衛隊長', `title` = '狩獵首領' WHERE `id` = 25392;
-UPDATE `npc` SET `name` = '沼澤司塔卡拓貴族', `title` = '狩獵手下' WHERE `id` = 25393;
-UPDATE `npc` SET `name` = '普雷姆 普萊', `title` = '狩獵首領' WHERE `id` = 25394;
-UPDATE `npc` SET `name` = '阿魯肯基座', `title` = '狩獵首領' WHERE `id` = 25395;
-UPDATE `npc` SET `name` = '庫辛基座', `title` = '狩獵手下' WHERE `id` = 25396;
-UPDATE `npc` SET `name` = '估瑟托斯基座', `title` = '狩獵手下' WHERE `id` = 25397;
-UPDATE `npc` SET `name` = '巴列斯之眼', `title` = '狩獵首領' WHERE `id` = 25398;
-UPDATE `npc` SET `name` = '監視者的門徒', `title` = '狩獵手下' WHERE `id` = 25399;
-UPDATE `npc` SET `name` = '監視者的侍從', `title` = '狩獵手下' WHERE `id` = 25400;
-UPDATE `npc` SET `name` = '史齊拉', `title` = '狩獵首領' WHERE `id` = 25401;
-UPDATE `npc` SET `name` = '史齊拉的心腹', `title` = '狩獵手下' WHERE `id` = 25402;
-UPDATE `npc` SET `name` = '史齊拉的追隨者', `title` = '狩獵手下' WHERE `id` = 25403;
-UPDATE `npc` SET `name` = '海賊船長 凱侖', `title` = '狩獵首領' WHERE `id` = 25404;
-UPDATE `npc` SET `name` = '凱侖的海賊', `title` = '狩獵手下' WHERE `id` = 25405;
-UPDATE `npc` SET `name` = '凱侖的航海士', `title` = '狩獵手下' WHERE `id` = 25406;
-UPDATE `npc` SET `name` = '洞穴僕人之王 義西卡', `title` = '狩獵首領' WHERE `id` = 25407;
-UPDATE `npc` SET `name` = '義西卡的精銳軍官', `title` = '狩獵手下' WHERE `id` = 25408;
-UPDATE `npc` SET `name` = '義西卡的精銳士兵', `title` = '狩獵手下' WHERE `id` = 25409;
-UPDATE `npc` SET `name` = '食腐王首領', `title` = '狩獵首領' WHERE `id` = 25410;
-UPDATE `npc` SET `name` = '食腐王爪牙', `title` = '狩獵手下' WHERE `id` = 25411;
-UPDATE `npc` SET `name` = '死靈崗哨禁衛兵', `title` = '狩獵首領' WHERE `id` = 25412;
-UPDATE `npc` SET `name` = '死靈崗哨弓兵', `title` = '狩獵手下' WHERE `id` = 25413;
-UPDATE `npc` SET `name` = '死靈崗哨士兵', `title` = '狩獵手下' WHERE `id` = 25414;
-UPDATE `npc` SET `name` = '納肯達斯', `title` = '狩獵首領' WHERE `id` = 25415;
-UPDATE `npc` SET `name` = '納肯達斯的奴隸', `title` = '狩獵手下' WHERE `id` = 25416;
-UPDATE `npc` SET `name` = '納肯達斯的鎖鏈', `title` = '狩獵手下' WHERE `id` = 25417;
-UPDATE `npc` SET `name` = '恐怖復仇者 克萊文', `title` = '狩獵首領' WHERE `id` = 25418;
-UPDATE `npc` SET `name` = '恐怖獵豹', `title` = '狩獵手下' WHERE `id` = 25419;
-UPDATE `npc` SET `name` = '奧爾芬的侍女', `title` = '狩獵首領' WHERE `id` = 25420;
-UPDATE `npc` SET `name` = '崔沙林隨行員', `title` = '狩獵手下' WHERE `id` = 25421;
-UPDATE `npc` SET `name` = '腐爛樹侍從', `title` = '狩獵手下' WHERE `id` = 25422;
-UPDATE `npc` SET `name` = '妖精女王 提米妮爾', `title` = '狩獵首領' WHERE `id` = 25423;
-UPDATE `npc` SET `name` = '提米妮爾的親衛隊', `title` = '狩獵手下' WHERE `id` = 25424;
-UPDATE `npc` SET `name` = '提米妮爾的親衛隊長', `title` = '狩獵手下' WHERE `id` = 25425;
-UPDATE `npc` SET `name` = '烏魯吐背叛者 浮雷基', `title` = '狩獵首領' WHERE `id` = 25426;
-UPDATE `npc` SET `name` = '浮雷基的吸血蝙蝠', `title` = '狩獵手下' WHERE `id` = 25427;
-UPDATE `npc` SET `name` = '浮雷基的狂亂巨熊', `title` = '狩獵手下' WHERE `id` = 25428;
-UPDATE `npc` SET `name` = '財富徵收者 塔羅斯', `title` = '狩獵首領' WHERE `id` = 25429;
-UPDATE `npc` SET `name` = '塔羅斯的手下', `title` = '狩獵手下' WHERE `id` = 25430;
-UPDATE `npc` SET `name` = '火焰石高崙', `title` = '狩獵首領' WHERE `id` = 25431;
-UPDATE `npc` SET `name` = '火之靈', `title` = '狩獵手下' WHERE `id` = 25432;
-UPDATE `npc` SET `name` = '焰之靈', `title` = '狩獵手下' WHERE `id` = 25433;
-UPDATE `npc` SET `name` = '山賊頭目 巴里達', `title` = '狩獵首領' WHERE `id` = 25434;
-UPDATE `npc` SET `name` = '巴里達的爪牙', `title` = '狩獵手下' WHERE `id` = 25435;
-UPDATE `npc` SET `name` = '巴里達的咒術士', `title` = '狩獵手下' WHERE `id` = 25436;
-UPDATE `npc` SET `name` = '提瑪克獸人 格司默斯', `title` = '狩獵首領' WHERE `id` = 25437;
-UPDATE `npc` SET `name` = '盜賊 凱巴爾', `title` = '狩獵首領' WHERE `id` = 25438;
-UPDATE `npc` SET `name` = '凱巴爾的部下', `title` = '狩獵手下' WHERE `id` = 25439;
-UPDATE `npc` SET `name` = '凱巴爾的魔法師', `title` = '狩獵手下' WHERE `id` = 25440;
-UPDATE `npc` SET `name` = '魔物 西瑞恩', `title` = '狩獵首領' WHERE `id` = 25441;
-UPDATE `npc` SET `name` = '森林的魔物', `title` = '狩獵手下' WHERE `id` = 25442;
-UPDATE `npc` SET `name` = '森林的凶物', `title` = '狩獵手下' WHERE `id` = 25443;
-UPDATE `npc` SET `name` = '怨靈 朗特', `title` = '狩獵首領' WHERE `id` = 25444;
-UPDATE `npc` SET `name` = '怨恨的靈魂', `title` = '狩獵手下' WHERE `id` = 25445;
-UPDATE `npc` SET `name` = '怨恨的射手', `title` = '狩獵手下' WHERE `id` = 25446;
-UPDATE `npc` SET `name` = '永生救贖者 瑪蒂', `title` = '狩獵首領' WHERE `id` = 25447;
-UPDATE `npc` SET `name` = '永生救贖者', `title` = '狩獵手下' WHERE `id` = 25448;
-UPDATE `npc` SET `name` = '永生引導者', `title` = '狩獵手下' WHERE `id` = 25449;
-UPDATE `npc` SET `name` = '智天使 加洛西亞', `title` = '狩獵首領' WHERE `id` = 25450;
-UPDATE `npc` SET `name` = '加洛西亞的護衛隊', `title` = '狩獵手下' WHERE `id` = 25451;
-UPDATE `npc` SET `name` = '天使的使者', `title` = '狩獵手下' WHERE `id` = 25452;
-UPDATE `npc` SET `name` = '米那斯 亞諾爾', `title` = '狩獵首領' WHERE `id` = 25453;
-UPDATE `npc` SET `name` = '沼澤的飛龍', `title` = '狩獵手下' WHERE `id` = 25454;
-UPDATE `npc` SET `name` = '沼澤的魅魔', `title` = '狩獵手下' WHERE `id` = 25455;
-UPDATE `npc` SET `name` = '忘卻的鏡子', `title` = '狩獵首領' WHERE `id` = 25456;
-UPDATE `npc` SET `name` = '忘卻的碎片', `title` = '狩獵手下' WHERE `id` = 25457;
-UPDATE `npc` SET `name` = '忘卻的影子', `title` = '狩獵手下' WHERE `id` = 25458;
-UPDATE `npc` SET `name` = '忘卻的碎片', `title` = '狩獵手下' WHERE `id` = 25459;
-UPDATE `npc` SET `name` = '亡者 艾瑞佛', `title` = '狩獵首領' WHERE `id` = 25460;
-UPDATE `npc` SET `name` = '艾瑞佛的騎士', `title` = '狩獵手下' WHERE `id` = 25461;
-UPDATE `npc` SET `name` = '艾瑞佛的侍從', `title` = '狩獵手下' WHERE `id` = 25462;
-UPDATE `npc` SET `name` = '哈里特守護者 格朗奇', `title` = '狩獵首領' WHERE `id` = 25463;
-UPDATE `npc` SET `name` = '格朗奇護衛隊長', `title` = '狩獵手下' WHERE `id` = 25464;
-UPDATE `npc` SET `name` = '格朗奇護衛法師', `title` = '狩獵手下' WHERE `id` = 25465;
-UPDATE `npc` SET `name` = '格朗奇護衛兵', `title` = '狩獵手下' WHERE `id` = 25466;
-UPDATE `npc` SET `name` = '高爾勾倫司', `title` = '狩獵首領' WHERE `id` = 25467;
-UPDATE `npc` SET `name` = '受詛咒的生命體', `title` = '狩獵手下' WHERE `id` = 25468;
-UPDATE `npc` SET `name` = '受詛咒的靈魂', `title` = '狩獵手下' WHERE `id` = 25469;
-UPDATE `npc` SET `name` = '最後的下巨人 猶特努斯', `title` = '狩獵首領' WHERE `id` = 25470;
-UPDATE `npc` SET `name` = '猶特努斯的魔法師', `title` = '狩獵手下' WHERE `id` = 25471;
-UPDATE `npc` SET `name` = '猶特努斯的護衛兵', `title` = '狩獵手下' WHERE `id` = 25472;
-UPDATE `npc` SET `name` = '盜墓者 基隱', `title` = '狩獵首領' WHERE `id` = 25473;
-UPDATE `npc` SET `name` = '基隱的手下', `title` = '狩獵手下' WHERE `id` = 25474;
-UPDATE `npc` SET `name` = '幽靈騎士 卡貝德', `title` = '狩獵首領' WHERE `id` = 25475;
-UPDATE `npc` SET `name` = '卡貝德的士兵', `title` = '狩獵手下' WHERE `id` = 25476;
-UPDATE `npc` SET `name` = '卡貝德的弓手', `title` = '狩獵手下' WHERE `id` = 25477;
-UPDATE `npc` SET `name` = '席琳的祭司 希瑟雷蒙', `title` = '狩獵首領' WHERE `id` = 25478;
-UPDATE `npc` SET `name` = '希瑟雷蒙的召喚者', `title` = '狩獵手下' WHERE `id` = 25479;
-UPDATE `npc` SET `name` = '希瑟雷蒙的侍從', `title` = '狩獵手下' WHERE `id` = 25480;
-UPDATE `npc` SET `name` = '魔導士 肯尼詩', `title` = '狩獵首領' WHERE `id` = 25481;
-UPDATE `npc` SET `name` = '肯尼詩的影子', `title` = '狩獵手下' WHERE `id` = 25482;
-UPDATE `npc` SET `name` = '肯尼詩的幻影', `title` = '狩獵手下' WHERE `id` = 25483;
-UPDATE `npc` SET `name` = '札肯的航海士 提利恩', `title` = '狩獵首領' WHERE `id` = 25484;
-UPDATE `npc` SET `name` = '提利恩的部下', `title` = '狩獵手下' WHERE `id` = 25485;
-UPDATE `npc` SET `name` = '提利恩的蝙蝠', `title` = '狩獵手下' WHERE `id` = 25486;
-UPDATE `npc` SET `name` = '水之靈 黎安', `title` = '狩獵首領' WHERE `id` = 25487;
-UPDATE `npc` SET `name` = '吉爾朵的精靈', `title` = '狩獵手下' WHERE `id` = 25488;
-UPDATE `npc` SET `name` = '吉爾朵的守護者', `title` = '狩獵手下' WHERE `id` = 25489;
-UPDATE `npc` SET `name` = '格溫鐸爾', `title` = '狩獵首領' WHERE `id` = 25490;
-UPDATE `npc` SET `name` = '格溫鐸爾的護衛兵', `title` = '狩獵手下' WHERE `id` = 25491;
-UPDATE `npc` SET `name` = '格溫鐸爾的追隨者', `title` = '狩獵手下' WHERE `id` = 25492;
-UPDATE `npc` SET `name` = '伊娃的精靈 尼尼薇', `title` = '狩獵首領' WHERE `id` = 25493;
-UPDATE `npc` SET `name` = '尼尼薇的精靈', `title` = '狩獵手下' WHERE `id` = 25494;
-UPDATE `npc` SET `name` = '尼尼薇的精靈', `title` = '狩獵手下' WHERE `id` = 25495;
-UPDATE `npc` SET `name` = '法利昂的使者 平格因', `title` = '狩獵首領' WHERE `id` = 25496;
-UPDATE `npc` SET `name` = '法利昂的使者', `title` = '狩獵手下' WHERE `id` = 25497;
-UPDATE `npc` SET `name` = '法利昂的手下 伊斯特利', `title` = '狩獵首領' WHERE `id` = 25498;
-UPDATE `npc` SET `name` = '伊斯特利的鱷魚', `title` = '狩獵手下' WHERE `id` = 25499;
-UPDATE `npc` SET `name` = '伊斯特利的鱷魚', `title` = '狩獵手下' WHERE `id` = 25500;
-UPDATE `npc` SET `name` = '盜墓隊長 阿卡達', `title` = '狩獵首領' WHERE `id` = 25501;
-UPDATE `npc` SET `name` = '阿卡達的戰士', `title` = '狩獵手下' WHERE `id` = 25502;
-UPDATE `npc` SET `name` = '阿卡達的部下', `title` = '狩獵手下' WHERE `id` = 25503;
-UPDATE `npc` SET `name` = '奈爾利斯的冤魂', `title` = '狩獵首領' WHERE `id` = 25504;
-UPDATE `npc` SET `name` = '奈爾利斯的追隨者', `title` = '狩獵手下' WHERE `id` = 25505;
-UPDATE `npc` SET `name` = '掠奪者 萊伊特', `title` = '狩獵首領' WHERE `id` = 25506;
-UPDATE `npc` SET `name` = '萊伊特的警備隊長', `title` = '狩獵手下' WHERE `id` = 25507;
-UPDATE `npc` SET `name` = '萊伊特的部下', `title` = '狩獵手下' WHERE `id` = 25508;
-UPDATE `npc` SET `name` = '暗黑邪術士 巴蘭卡', `title` = '狩獵首領' WHERE `id` = 25509;
-UPDATE `npc` SET `name` = '巴蘭卡的族人', `title` = '狩獵手下' WHERE `id` = 25510;
-UPDATE `npc` SET `name` = '巴蘭卡的侍從', `title` = '狩獵手下' WHERE `id` = 25511;
-UPDATE `npc` SET `name` = '巨神高崙 卡歐斯', `title` = '狩獵首領' WHERE `id` = 25512;
-UPDATE `npc` SET `name` = '釘刺司塔卡拓女王 夏伊德', `title` = '狩獵首領' WHERE `id` = 25514;
-UPDATE `npc` SET `name` = '釘刺司塔卡拓', `title` = '狩獵手下' WHERE `id` = 25515;
-UPDATE `npc` SET `name` = '釘刺司塔卡拓', `title` = '狩獵手下' WHERE `id` = 25516;
-UPDATE `npc` SET `name` = '退化高崙', `title` = '狩獵首領' WHERE `id` = 25523;
-UPDATE `npc` SET `name` = '熾炎石巨人', `title` = '狩獵首領' WHERE `id` = 25524;
-UPDATE `npc` SET `name` = '熾炎精靈', `title` = '狩獵手下' WHERE `id` = 25525;
-UPDATE `npc` SET `name` = '火焰精靈', `title` = '狩獵手下' WHERE `id` = 25526;
-UPDATE `npc` SET `name` = '烏魯卡', `title` = '狩獵首領' WHERE `id` = 25527;
-UPDATE `npc` SET `name` = '塔庇里歐斯', `title` = '最終試練官' WHERE `id` = 25528;
-UPDATE `npc` SET `name` = '庭園的警衛隊', `title` = '試練官的部下' WHERE `id` = 25529;
-UPDATE `npc` SET `name` = '庭園的警衛隊', `title` = '試練官的部下' WHERE `id` = 25530;
-UPDATE `npc` SET `name` = '達爾尼思', `title` = '廣場的' WHERE `id` = 25531;
-UPDATE `npc` SET `name` = '基亞齊', `title` = '火的' WHERE `id` = 25532;
-UPDATE `npc` SET `name` = '基亞齊的部下' WHERE `id` = 25533;
-UPDATE `npc` SET `name` = '提爾斯', `title` = '冰的' WHERE `id` = 25534;
-UPDATE `npc` SET `name` = '提爾斯', `title` = '冰的' WHERE `id` = 25535;
-UPDATE `npc` SET `name` = '哈里北爾', `title` = '狩獵首領' WHERE `id` = 25536;
-UPDATE `npc` SET `name` = '凝結之恨', `title` = '狩獵手下' WHERE `id` = 25537;
-UPDATE `npc` SET `name` = '永存的怨念', `title` = '狩獵手下' WHERE `id` = 25538;
-UPDATE `npc` SET `name` = '颱風', `title` = '狩獵首領' WHERE `id` = 25539;
-UPDATE `npc` SET `name` = '惡魔公爵', `title` = '狩獵首領' WHERE `id` = 25540;
-UPDATE `npc` SET `name` = '惡魔的創造物', `title` = '狩獵手下' WHERE `id` = 25541;
-UPDATE `npc` SET `name` = '勞庫', `title` = '狩獵首領' WHERE `id` = 25542;
-UPDATE `npc` SET `name` = '召喚惡魔', `title` = '狩獵手下' WHERE `id` = 25543;
-UPDATE `npc` SET `name` = '托里士', `title` = '鋼鐵之城的' WHERE `id` = 25544;
-UPDATE `npc` SET `name` = '托里士的拘魔', `title` = '狩獵手下' WHERE `id` = 25545;
-UPDATE `npc` SET `name` = '背信的拉尼安', `title` = '過去的罪犯' WHERE `id` = 25546;
-UPDATE `npc` SET `name` = '拉尼安的同夥' WHERE `id` = 25547;
-UPDATE `npc` SET `name` = '拉尼安的治癒者' WHERE `id` = 25548;
-UPDATE `npc` SET `name` = '詐欺犯泰西亞', `title` = '過去的罪犯' WHERE `id` = 25549;
-UPDATE `npc` SET `name` = '泰西亞的大弟子' WHERE `id` = 25550;
-UPDATE `npc` SET `name` = '泰西亞的跑腿' WHERE `id` = 25551;
-UPDATE `npc` SET `name` = '靈魂獵人查昆迪', `title` = '過去的罪犯' WHERE `id` = 25552;
-UPDATE `npc` SET `name` = '岩石拳杜泰格', `title` = '過去的罪犯' WHERE `id` = 25553;
-UPDATE `npc` SET `name` = '不屈的布魯泰齊歐', `title` = '過去的罪犯' WHERE `id` = 25554;
-UPDATE `npc` SET `name` = '布魯泰齊歐的右手' WHERE `id` = 25555;
-UPDATE `npc` SET `name` = '布魯泰齊歐的左手' WHERE `id` = 25556;
-UPDATE `npc` SET `name` = '森林掠食者凱凱諾斯', `title` = '過去的罪犯' WHERE `id` = 25557;
-UPDATE `npc` SET `name` = '凱凱諾斯的側根' WHERE `id` = 25558;
-UPDATE `npc` SET `name` = '凱凱諾斯的花' WHERE `id` = 25559;
-UPDATE `npc` SET `name` = '暴走劍士斯里卡德', `title` = '過去的罪犯' WHERE `id` = 25560;
-UPDATE `npc` SET `name` = '斯里卡德的鐘' WHERE `id` = 25561;
-UPDATE `npc` SET `name` = '斯里卡德的見習生' WHERE `id` = 25562;
-UPDATE `npc` SET `name` = '美貌的奈茲里耶', `title` = '過去的罪犯' WHERE `id` = 25563;
-UPDATE `npc` SET `name` = '奈茲里耶的追隨者' WHERE `id` = 25564;
-UPDATE `npc` SET `name` = '奈茲里耶的部下' WHERE `id` = 25565;
-UPDATE `npc` SET `name` = '粗野的南龐', `title` = '過去的罪犯' WHERE `id` = 25566;
-UPDATE `npc` SET `name` = '南龐的至交' WHERE `id` = 25567;
-UPDATE `npc` SET `name` = '南龐的老友' WHERE `id` = 25568;
-UPDATE `npc` SET `name` = '破壞者加斯', `title` = '過去的罪犯' WHERE `id` = 25569;
-UPDATE `npc` SET `name` = '加斯的偵查兵' WHERE `id` = 25570;
-UPDATE `npc` SET `name` = '加斯的突擊兵' WHERE `id` = 25571;
-UPDATE `npc` SET `name` = '不法者哈爾庫', `title` = '過去的囚犯' WHERE `id` = 25572;
-UPDATE `npc` SET `name` = '哈爾庫的追隨者' WHERE `id` = 25573;
-UPDATE `npc` SET `name` = '哈爾庫的警衛' WHERE `id` = 25574;
-UPDATE `npc` SET `name` = '透視者朗鐵', `title` = '過去的囚犯' WHERE `id` = 25575;
-UPDATE `npc` SET `name` = '朗鐵的虹膜' WHERE `id` = 25576;
-UPDATE `npc` SET `name` = '朗鐵的水晶體' WHERE `id` = 25577;
-UPDATE `npc` SET `name` = '史克雷', `title` = '過去的囚犯' WHERE `id` = 25578;
-UPDATE `npc` SET `name` = '海西奈爾', `title` = '過去的囚犯' WHERE `id` = 25579;
-UPDATE `npc` SET `name` = '海西奈爾的守護兵' WHERE `id` = 25580;
-UPDATE `npc` SET `name` = '海西奈爾的刺客' WHERE `id` = 25581;
-UPDATE `npc` SET `name` = '加爾力安', `title` = '過去的囚犯' WHERE `id` = 25582;
-UPDATE `npc` SET `name` = '加爾力安的女兒' WHERE `id` = 25583;
-UPDATE `npc` SET `name` = '加爾力安的僕人' WHERE `id` = 25584;
-UPDATE `npc` SET `name` = '麥以迪', `title` = '過去的囚犯' WHERE `id` = 25585;
-UPDATE `npc` SET `name` = '麥以迪之妹' WHERE `id` = 25586;
-UPDATE `npc` SET `name` = '麥以迪之弟' WHERE `id` = 25587;
-UPDATE `npc` SET `name` = '無法阻止的幕烏士', `title` = '過去的囚犯' WHERE `id` = 25588;
-UPDATE `npc` SET `name` = '被放逐的巴里達', `title` = '過去的囚犯' WHERE `id` = 25589;
-UPDATE `npc` SET `name` = '巴里達的侍從' WHERE `id` = 25590;
-UPDATE `npc` SET `name` = '巴里達的侍女' WHERE `id` = 25591;
-UPDATE `npc` SET `name` = '大將軍卡拉隆', `title` = '過去的囚犯' WHERE `id` = 25592;
-UPDATE `npc` SET `name` = '掠食者凱爾格', `title` = '過去的囚犯' WHERE `id` = 25593;
-UPDATE `npc` SET `name` = '凱爾格的追隨者' WHERE `id` = 25594;
-UPDATE `npc` SET `name` = '凱爾格的部下' WHERE `id` = 25595;
-UPDATE `npc` SET `name` = '視線僕人' WHERE `id` = 25596;
-UPDATE `npc` SET `name` = '豪瑞' WHERE `id` = 25597;
-UPDATE `npc` SET `name` = '凱凱' WHERE `id` = 25598;
-UPDATE `npc` SET `name` = '伊格拉斯' WHERE `id` = 25599;
-UPDATE `npc` SET `name` = '坦曼尼爾', `title` = '達里昂的挑戰者' WHERE `id` = 25600;
-UPDATE `npc` SET `name` = '卓西斯', `title` = '達里昂的挑戰者' WHERE `id` = 25601;
-UPDATE `npc` SET `name` = '基雷熙', `title` = '達里昂的挑戰者' WHERE `id` = 25602;
-UPDATE `npc` SET `name` = '達里昂' WHERE `id` = 25603;
-UPDATE `npc` SET `name` = '突變獨角兔', `title` = '奈雅的創造物' WHERE `id` = 25604;
-UPDATE `npc` SET `name` = '奈雅孢子' WHERE `id` = 25605;
-UPDATE `npc` SET `name` = '奈雅孢子' WHERE `id` = 25606;
-UPDATE `npc` SET `name` = '奈雅孢子' WHERE `id` = 25607;
-UPDATE `npc` SET `name` = '奈雅孢子' WHERE `id` = 25608;
-UPDATE `npc` SET `name` = '亞匹德司', `title` = '奈雅蔓生怪' WHERE `id` = 25609;
-UPDATE `npc` SET `name` = '亞匹德司', `title` = '奈雅蔓生怪' WHERE `id` = 25610;
-UPDATE `npc` SET `name` = '亞匹德司', `title` = '奈雅蔓生怪' WHERE `id` = 25611;
-UPDATE `npc` SET `name` = '亞匹德司', `title` = '奈雅蔓生怪' WHERE `id` = 25612;
-UPDATE `npc` SET `name` = '奈雅孢子' WHERE `id` = 25613;
-UPDATE `npc` SET `name` = '浮游幽靈' WHERE `id` = 25614;
-UPDATE `npc` SET `name` = '浮游幽靈' WHERE `id` = 25615;
-UPDATE `npc` SET `name` = '迷宮守衛' WHERE `id` = 25616;
-UPDATE `npc` SET `name` = '迷宮守衛' WHERE `id` = 25617;
-UPDATE `npc` SET `name` = '迷宮守衛' WHERE `id` = 25618;
-UPDATE `npc` SET `name` = '迷宮守衛' WHERE `id` = 25619;
-UPDATE `npc` SET `name` = '迷宮守衛' WHERE `id` = 25620;
-UPDATE `npc` SET `name` = '迷宮守衛' WHERE `id` = 25621;
-UPDATE `npc` SET `name` = '迷宮守衛' WHERE `id` = 25622;
-UPDATE `npc` SET `name` = '巴德士頓', `title` = '主將騎士' WHERE `id` = 25623;
-UPDATE `npc` SET `name` = '路克', `title` = '鳥王　' WHERE `id` = 25624;
-UPDATE `npc` SET `name` = '愛尼拉', `title` = '班席女王' WHERE `id` = 25625;
-UPDATE `npc` SET `name` = '迪歐斯', `title` = '破滅的使者' WHERE `id` = 25626;
-UPDATE `npc` SET `name` = '突變鳥', `title` = '王的部下' WHERE `id` = 25627;
-UPDATE `npc` SET `name` = '龍鷹', `title` = '王的部下' WHERE `id` = 25628;
-UPDATE `npc` SET `name` = '浮游骷髏', `title` = '愛尼拉的死靈' WHERE `id` = 25629;
-UPDATE `npc` SET `name` = '浮游殭屍', `title` = '愛尼拉的死靈' WHERE `id` = 25630;
-UPDATE `npc` SET `name` = '龍獸翼', `title` = '破滅的族人' WHERE `id` = 25631;
-UPDATE `npc` SET `name` = '德拉克', `title` = '破滅的族人' WHERE `id` = 25632;
-UPDATE `npc` SET `name` = '精銳騎士', `title` = '巴德士頓親衛隊' WHERE `id` = 25633;
-UPDATE `npc` SET `name` = '克海梅納斯', `title` = '擁有雙靈魂者' WHERE `id` = 25634;
-UPDATE `npc` SET `name` = '阿爾吉康德', `title` = '靈魂被奪走的人' WHERE `id` = 25635;
-UPDATE `npc` SET `name` = '餓鬼靈魂掠食者' WHERE `id` = 25636;
-UPDATE `npc` SET `name` = '卡本查爾', `title` = '假預言者' WHERE `id` = 25637;
-UPDATE `npc` SET `name` = '羅門勒希米', `title` = '忘卻的宣告者' WHERE `id` = 25638;
-UPDATE `npc` SET `name` = '希屈卡謝克', `title` = '苦痛的賢臣' WHERE `id` = 25639;
-UPDATE `npc` SET `name` = '費里德齊拉', `title` = '夜之手' WHERE `id` = 25640;
-UPDATE `npc` SET `name` = '艾罕 葛萊芬尼薩多', `title` = '吸血魔' WHERE `id` = 25641;
-UPDATE `npc` SET `name` = '艾罕 賈克西本', `title` = '黑色守護者' WHERE `id` = 25642;
-UPDATE `npc` SET `name` = '甦醒的古代守兵', `title` = '狩獵首領 ' WHERE `id` = 25643;
-UPDATE `npc` SET `name` = '甦醒的古代切割機', `title` = '狩獵首領 ' WHERE `id` = 25644;
-UPDATE `npc` SET `name` = '甦醒的古代靈魂榨取者', `title` = '狩獵首領 ' WHERE `id` = 25645;
-UPDATE `npc` SET `name` = '甦醒的古代靈魂掠食者', `title` = '狩獵首領 ' WHERE `id` = 25646;
-UPDATE `npc` SET `name` = '甦醒的古代武鬥家', `title` = '狩獵首領 ' WHERE `id` = 25647;
-UPDATE `npc` SET `name` = '甦醒的古代武鬥家', `title` = '狩獵首領 ' WHERE `id` = 25648;
-UPDATE `npc` SET `name` = '甦醒的古代執行者', `title` = '狩獵首領 ' WHERE `id` = 25649;
-UPDATE `npc` SET `name` = '甦醒的古代執行者', `title` = '狩獵首領 ' WHERE `id` = 25650;
-UPDATE `npc` SET `name` = '甦醒的古代傳教士', `title` = '狩獵首領 ' WHERE `id` = 25651;
-UPDATE `npc` SET `name` = '甦醒的古代傳教士', `title` = '狩獵首領 ' WHERE `id` = 25652;
-UPDATE `npc` SET `name` = '卡納迪斯 先驅者', `title` = '侵略軍' WHERE `id` = 25653;
-UPDATE `npc` SET `name` = '卡納迪斯 先驅者', `title` = '侵略軍' WHERE `id` = 25654;
-UPDATE `npc` SET `name` = '卡納迪斯 先驅者', `title` = '侵略軍' WHERE `id` = 25655;
-UPDATE `npc` SET `name` = '卡納迪斯 狂信徒' WHERE `id` = 25656;
-UPDATE `npc` SET `name` = '卡納迪斯 狂信徒' WHERE `id` = 25657;
-UPDATE `npc` SET `name` = '卡納迪斯 狂信徒' WHERE `id` = 25658;
-UPDATE `npc` SET `name` = '卡納迪斯 前導者', `title` = '侵略軍' WHERE `id` = 25659;
-UPDATE `npc` SET `name` = '卡納迪斯 前導者', `title` = '侵略軍' WHERE `id` = 25660;
-UPDATE `npc` SET `name` = '卡納迪斯 前導者', `title` = '侵略軍' WHERE `id` = 25661;
-UPDATE `npc` SET `name` = '卡納迪斯 追從者' WHERE `id` = 25662;
-UPDATE `npc` SET `name` = '卡納迪斯 追從者' WHERE `id` = 25663;
-UPDATE `npc` SET `name` = '卡納迪斯 追從者' WHERE `id` = 25664;
-UPDATE `npc` SET `name` = '艾罕 克羅迪庫斯', `title` = '靈魂的破壞者' WHERE `id` = 25665;
-UPDATE `npc` SET `name` = '艾罕 克蘭尼庫斯', `title` = '黑暗的引導者' WHERE `id` = 25666;
-UPDATE `npc` SET `name` = '獸人狙擊兵' WHERE `id` = 27001;
-UPDATE `npc` SET `name` = '獸人鬥士隊長' WHERE `id` = 27002;
-UPDATE `npc` SET `name` = '鏡之精靈', `title` = '任務怪物' WHERE `id` = 27003;
-UPDATE `npc` SET `name` = '鏡之精靈', `title` = '任務怪物' WHERE `id` = 27004;
-UPDATE `npc` SET `name` = '鏡之精靈', `title` = '任務怪物' WHERE `id` = 27005;
-UPDATE `npc` SET `name` = '獸人巴拓' WHERE `id` = 27006;
-UPDATE `npc` SET `name` = '獸人塔奴克' WHERE `id` = 27007;
-UPDATE `npc` SET `name` = '獸人克拉庫' WHERE `id` = 27008;
-UPDATE `npc` SET `name` = '獸人塔克' WHERE `id` = 27009;
-UPDATE `npc` SET `name` = '涅勒卡斯', `title` = '任務怪物' WHERE `id` = 27016;
-UPDATE `npc` SET `name` = '瘟疫殭屍', `title` = '任務怪物' WHERE `id` = 27017;
-UPDATE `npc` SET `name` = '獸人戰士' WHERE `id` = 27018;
-UPDATE `npc` SET `name` = '獸人戰士隊長' WHERE `id` = 27019;
-UPDATE `npc` SET `name` = '巴魯爾', `title` = '任務怪物' WHERE `id` = 27020;
-UPDATE `npc` SET `name` = '克魯納克', `title` = '任務怪物' WHERE `id` = 27021;
-UPDATE `npc` SET `name` = '梅肯尼斯', `title` = '任務怪物' WHERE `id` = 27022;
-UPDATE `npc` SET `name` = '神官亡靈', `title` = '任務怪物' WHERE `id` = 27024;
-UPDATE `npc` SET `name` = '火蜥蜴的幻影', `title` = '任務怪物' WHERE `id` = 27029;
-UPDATE `npc` SET `name` = '水之預言家', `title` = '任務怪物' WHERE `id` = 27030;
-UPDATE `npc` SET `name` = '豺狼看守者', `title` = '任務怪物' WHERE `id` = 27031;
-UPDATE `npc` SET `name` = '蜥蜴人戰士', `title` = '任務怪物' WHERE `id` = 27032;
-UPDATE `npc` SET `name` = '蜥蜴人巡守', `title` = '任務怪物' WHERE `id` = 27033;
-UPDATE `npc` SET `name` = '蜥蜴人', `title` = '任務怪物' WHERE `id` = 27034;
-UPDATE `npc` SET `name` = '塔瑪托', `title` = '任務怪物' WHERE `id` = 27035;
-UPDATE `npc` SET `name` = '卡爾皮可', `title` = '任務怪物' WHERE `id` = 27036;
-UPDATE `npc` SET `name` = '卡爾皮可的打手', `title` = '任務怪物' WHERE `id` = 27037;
-UPDATE `npc` SET `name` = '貓眼盜賊', `title` = '任務怪物' WHERE `id` = 27038;
-UPDATE `npc` SET `name` = '巴蘭卡使者', `title` = '任務怪物' WHERE `id` = 27041;
-UPDATE `npc` SET `name` = '獸人護衛兵', `title` = '任務怪物' WHERE `id` = 27042;
-UPDATE `npc` SET `name` = '巴蘭卡的追捕者', `title` = '任務怪物' WHERE `id` = 27043;
-UPDATE `npc` SET `name` = '卡沙熊的圖騰靈', `title` = '任務怪物' WHERE `id` = 27044;
-UPDATE `npc` SET `name` = '庫勒卡鼠人隊長', `title` = '任務怪物' WHERE `id` = 27045;
-UPDATE `npc` SET `name` = '修', `title` = '獸人背叛者' WHERE `id` = 27046;
-UPDATE `npc` SET `name` = '瓦奴克', `title` = '獸人背叛者' WHERE `id` = 27047;
-UPDATE `npc` SET `name` = '丘巴', `title` = '獸人背叛者' WHERE `id` = 27048;
-UPDATE `npc` SET `name` = '黑塔普', `title` = '獸人背叛者' WHERE `id` = 27049;
-UPDATE `npc` SET `name` = '皮庫伯', `title` = '獸人背叛者' WHERE `id` = 27050;
-UPDATE `npc` SET `name` = '普普', `title` = '獸人背叛者' WHERE `id` = 27051;
-UPDATE `npc` SET `name` = '米斯庫', `title` = '獸人背叛者' WHERE `id` = 27052;
-UPDATE `npc` SET `name` = '楚楚', `title` = '獸人背叛者' WHERE `id` = 27053;
-UPDATE `npc` SET `name` = '恩巴魯', `title` = '任務怪物' WHERE `id` = 27054;
-UPDATE `npc` SET `name` = '賈卡', `title` = '獸人背叛者' WHERE `id` = 27055;
-UPDATE `npc` SET `name` = '都勒卡的惡靈', `title` = '任務怪物' WHERE `id` = 27056;
-UPDATE `npc` SET `name` = '蜜熊', `title` = '任務怪物' WHERE `id` = 27058;
-UPDATE `npc` SET `name` = '沃飛', `title` = '卡布獸人首領' WHERE `id` = 27059;
-UPDATE `npc` SET `name` = '克雷奇', `title` = '卡布獸人首領' WHERE `id` = 27060;
-UPDATE `npc` SET `name` = '巴圖', `title` = '卡布獸人首領' WHERE `id` = 27061;
-UPDATE `npc` SET `name` = '塔努契', `title` = '卡布獸人首領' WHERE `id` = 27062;
-UPDATE `npc` SET `name` = '塔努契的戰犬', `title` = '任務怪物' WHERE `id` = 27063;
-UPDATE `npc` SET `name` = '圖汝', `title` = '卡布獸人首領' WHERE `id` = 27064;
-UPDATE `npc` SET `name` = '羅可', `title` = '卡布獸人首領' WHERE `id` = 27065;
-UPDATE `npc` SET `name` = '羅可的戰犬', `title` = '任務怪物' WHERE `id` = 27066;
-UPDATE `npc` SET `name` = '卡穆', `title` = '卡布獸人首領' WHERE `id` = 27067;
-UPDATE `npc` SET `name` = '穆迪卡', `title` = '卡布獸人首領' WHERE `id` = 27068;
-UPDATE `npc` SET `name` = '穆迪卡的戰犬', `title` = '任務怪物' WHERE `id` = 27069;
-UPDATE `npc` SET `name` = '突倫獸人山賊', `title` = '任務怪物' WHERE `id` = 27070;
-UPDATE `npc` SET `name` = '伊娃的獨角獸', `title` = '任務怪物' WHERE `id` = 27077;
-UPDATE `npc` SET `name` = '縛毒蜘蛛王', `title` = '任務怪物' WHERE `id` = 27078;
-UPDATE `npc` SET `name` = '黑柳路克', `title` = '任務怪物' WHERE `id` = 27079;
-UPDATE `npc` SET `name` = '帕辛卡索諾夫伏特爾', `title` = '任務怪物' WHERE `id` = 27080;
-UPDATE `npc` SET `name` = '夫土斯索諾夫伏特爾', `title` = '任務怪物' WHERE `id` = 27081;
-UPDATE `npc` SET `name` = '安庫獸人王', `title` = '任務怪物' WHERE `id` = 27082;
-UPDATE `npc` SET `name` = '馬肯食人妖瑟', `title` = '任務怪物' WHERE `id` = 27083;
-UPDATE `npc` SET `name` = '塔多斯首領的亡靈', `title` = '任務怪物' WHERE `id` = 27086;
-UPDATE `npc` SET `name` = '鳥妖馬崔區', `title` = '任務怪物' WHERE `id` = 27088;
-UPDATE `npc` SET `name` = '收集者之王', `title` = '任務怪物' WHERE `id` = 27089;
-UPDATE `npc` SET `name` = '蛇魔卡迪斯', `title` = '任務怪物' WHERE `id` = 27090;
-UPDATE `npc` SET `name` = '尼爾的保鑣', `title` = '任務怪物' WHERE `id` = 27092;
-UPDATE `npc` SET `name` = '德魯蜥蜴人首領卡其斯', `title` = '任務怪物' WHERE `id` = 27093;
-UPDATE `npc` SET `name` = '德魯蜥蜴人暗殺者', `title` = '任務怪物' WHERE `id` = 27094;
-UPDATE `npc` SET `name` = '幻影音律花', `title` = '任務怪物' WHERE `id` = 27095;
-UPDATE `npc` SET `name` = '夢魘音律花', `title` = '任務怪物' WHERE `id` = 27096;
-UPDATE `npc` SET `name` = '黑暗音律花', `title` = '任務怪物' WHERE `id` = 27097;
-UPDATE `npc` SET `name` = '鬼魂之火', `title` = '任務怪物' WHERE `id` = 27098;
-UPDATE `npc` SET `name` = '無名的亡靈', `title` = '任務怪物' WHERE `id` = 27099;
-UPDATE `npc` SET `name` = '骷髏傭兵', `title` = '任務怪物' WHERE `id` = 27100;
-UPDATE `npc` SET `name` = '德雷巴奴王子勒魯', `title` = '任務怪物' WHERE `id` = 27101;
-UPDATE `npc` SET `name` = '帕克貓', `title` = '任務怪物' WHERE `id` = 27102;
-UPDATE `npc` SET `name` = '獨角獸奔跑者', `title` = '任務怪物' WHERE `id` = 27103;
-UPDATE `npc` SET `name` = '闇魔圖倫', `title` = '任務怪物' WHERE `id` = 27104;
-UPDATE `npc` SET `name` = '咪咪貓', `title` = '任務怪物' WHERE `id` = 27105;
-UPDATE `npc` SET `name` = '獨角獸幻影', `title` = '任務怪物' WHERE `id` = 27106;
-UPDATE `npc` SET `name` = '影魔帝佛', `title` = '任務怪物' WHERE `id` = 27107;
-UPDATE `npc` SET `name` = '史坦諾亞哥肯女王', `title` = '任務怪物' WHERE `id` = 27108;
-UPDATE `npc` SET `name` = '史坦諾亞的侍女', `title` = '任務怪物' WHERE `id` = 27109;
-UPDATE `npc` SET `name` = '西斯拉瑟', `title` = '任務怪物' WHERE `id` = 27110;
-UPDATE `npc` SET `name` = '洞穴邪惡蜥蜴', `title` = '任務怪物' WHERE `id` = 27111;
-UPDATE `npc` SET `name` = '卡爾', `title` = '任務怪物' WHERE `id` = 27112;
-UPDATE `npc` SET `name` = '巴拉汗', `title` = '任務怪物' WHERE `id` = 27113;
-UPDATE `npc` SET `name` = '魅魔女王', `title` = '任務怪物' WHERE `id` = 27114;
-UPDATE `npc` SET `name` = '鉗爪魅魔', `title` = '任務怪物' WHERE `id` = 27115;
-UPDATE `npc` SET `name` = '熔岩火蜥蜴', `title` = '任務怪物' WHERE `id` = 27116;
-UPDATE `npc` SET `name` = '那希爾', `title` = '任務怪物' WHERE `id` = 27117;
-UPDATE `npc` SET `name` = '黑柳', `title` = '任務怪物' WHERE `id` = 27118;
-UPDATE `npc` SET `name` = '希律閣下的靈魂', `title` = '任務怪物' WHERE `id` = 27119;
-UPDATE `npc` SET `name` = '溫和的風魯伊', `title` = '任務怪物' WHERE `id` = 27120;
-UPDATE `npc` SET `name` = '青色的風艾克堤', `title` = '任務怪物' WHERE `id` = 27121;
-UPDATE `npc` SET `name` = '里多蜥蜴人間諜', `title` = '任務怪物' WHERE `id` = 27122;
-UPDATE `npc` SET `name` = '里多蜥蜴人隊長', `title` = '任務怪物' WHERE `id` = 27123;
-UPDATE `npc` SET `name` = '里多蜥蜴人暗殺者', `title` = '任務怪物' WHERE `id` = 27124;
-UPDATE `npc` SET `name` = '里多蜥蜴人射手', `title` = '任務怪物' WHERE `id` = 27125;
-UPDATE `npc` SET `name` = '里多蜥蜴人術士', `title` = '任務怪物' WHERE `id` = 27126;
-UPDATE `npc` SET `name` = '里多蜥蜴人王', `title` = '任務怪物' WHERE `id` = 27127;
-UPDATE `npc` SET `name` = '阿魯朗', `title` = '任務怪物' WHERE `id` = 27128;
-UPDATE `npc` SET `name` = '豺狼監督者', `title` = '任務怪物' WHERE `id` = 27129;
-UPDATE `npc` SET `name` = '豺狼背叛者', `title` = '任務怪物' WHERE `id` = 27130;
-UPDATE `npc` SET `name` = '庫林沙狼人', `title` = '任務怪物' WHERE `id` = 27131;
-UPDATE `npc` SET `name` = '克魯迪蜥蜴人', `title` = '任務怪物' WHERE `id` = 27132;
-UPDATE `npc` SET `name` = '惡魔之眼王', `title` = '任務怪物' WHERE `id` = 27133;
-UPDATE `npc` SET `name` = '塔多瑪', `title` = '任務怪物' WHERE `id` = 27134;
-UPDATE `npc` SET `name` = '葛里瑪', `title` = '任務怪物' WHERE `id` = 27135;
-UPDATE `npc` SET `name` = '誘惑的魅魔', `title` = '任務怪物' WHERE `id` = 27136;
-UPDATE `npc` SET `name` = '魔王', `title` = '任務怪物' WHERE `id` = 27137;
-UPDATE `npc` SET `name` = '大魔王', `title` = '任務怪物' WHERE `id` = 27138;
-UPDATE `npc` SET `name` = '密法的守護者', `title` = '任務怪物' WHERE `id` = 27139;
-UPDATE `npc` SET `name` = '布賴卡團長哈卡', `title` = '任務怪物' WHERE `id` = 27140;
-UPDATE `npc` SET `name` = '布賴卡團長札卡', `title` = '任務怪物' WHERE `id` = 27141;
-UPDATE `npc` SET `name` = '布賴卡團長瑪爾卡', `title` = '任務怪物' WHERE `id` = 27142;
-UPDATE `npc` SET `name` = '溫德薩斯阿勒伏', `title` = '任務怪物' WHERE `id` = 27143;
-UPDATE `npc` SET `name` = '塔爾克掠奪者阿吐', `title` = '任務怪物' WHERE `id` = 27144;
-UPDATE `npc` SET `name` = '塔爾克掠奪者藍卡', `title` = '任務怪物' WHERE `id` = 27145;
-UPDATE `npc` SET `name` = '塔爾克掠奪者特力茲卡', `title` = '任務怪物' WHERE `id` = 27146;
-UPDATE `npc` SET `name` = '塔爾克掠奪者摩特拉', `title` = '任務怪物' WHERE `id` = 27147;
-UPDATE `npc` SET `name` = '塔爾克掠奪者卡朗特', `title` = '任務怪物' WHERE `id` = 27148;
-UPDATE `npc` SET `name` = '葛林盜賊', `title` = '任務怪物' WHERE `id` = 27149;
-UPDATE `npc` SET `name` = '黑軍團強襲兵', `title` = '任務怪物' WHERE `id` = 27150;
-UPDATE `npc` SET `name` = '德魯蜥蜴人獵人', `title` = '任務怪物' WHERE `id` = 27151;
-UPDATE `npc` SET `name` = '沼澤司塔卡拓瑪魯基司', `title` = '任務怪物' WHERE `id` = 27152;
-UPDATE `npc` SET `name` = '亞歷山德桑迪斯', `title` = '黑暗君主' WHERE `id` = 27153;
-UPDATE `npc` SET `name` = '渤納巴特勞斯', `title` = '煉獄之王' WHERE `id` = 27154;
-UPDATE `npc` SET `name` = '朗瑟巴里奧斯', `title` = '魔界的絕對者' WHERE `id` = 27155;
-UPDATE `npc` SET `name` = '里多咒術士克次', `title` = '任務怪物' WHERE `id` = 27156;
-UPDATE `npc` SET `name` = '里多元老拿拉克', `title` = '任務怪物' WHERE `id` = 27157;
-UPDATE `npc` SET `name` = '提瑪克突擊隊長卡毅克', `title` = '任務怪物' WHERE `id` = 27158;
-UPDATE `npc` SET `name` = '提瑪克團長奧昆', `title` = '任務怪物' WHERE `id` = 27159;
-UPDATE `npc` SET `name` = '勾克-瑪國克', `title` = '葛雷迪斯頭目' WHERE `id` = 27160;
-UPDATE `npc` SET `name` = '泰可獸人王卡克蘭', `title` = '任務怪物' WHERE `id` = 27161;
-UPDATE `npc` SET `name` = '哈塔勒族長庫貝爾', `title` = '任務怪物' WHERE `id` = 27162;
-UPDATE `npc` SET `name` = '巴諾爾族長克爾諾斯', `title` = '任務怪物' WHERE `id` = 27163;
-UPDATE `npc` SET `name` = '卡魯族長歐魯托', `title` = '任務怪物' WHERE `id` = 27164;
-UPDATE `npc` SET `name` = '深淵寶石', `title` = '任務怪物' WHERE `id` = 27165;
-UPDATE `npc` SET `name` = '深淵寶石', `title` = '任務怪物' WHERE `id` = 27166;
-UPDATE `npc` SET `name` = '深淵寶石', `title` = '任務怪物' WHERE `id` = 27167;
-UPDATE `npc` SET `name` = '寶石守護者瑪拉', `title` = '任務怪物' WHERE `id` = 27168;
-UPDATE `npc` SET `name` = '寶石守護者姆斯派爾', `title` = '任務怪物' WHERE `id` = 27169;
-UPDATE `npc` SET `name` = '寶石守護者匹滕', `title` = '任務怪物' WHERE `id` = 27170;
-UPDATE `npc` SET `name` = '祭物的冤魂', `title` = '任務怪物' WHERE `id` = 27171;
-UPDATE `npc` SET `name` = '哈里特蜥蜴人狂信者', `title` = '任務怪物' WHERE `id` = 27172;
-UPDATE `npc` SET `name` = '阿特萊亞的箱子', `title` = '任務怪物' WHERE `id` = 27173;
-UPDATE `npc` SET `name` = '阿特萊亞的箱子', `title` = '任務怪物' WHERE `id` = 27174;
-UPDATE `npc` SET `name` = '阿特萊亞的箱子', `title` = '任務怪物' WHERE `id` = 27175;
-UPDATE `npc` SET `name` = '阿特萊亞的箱子', `title` = '任務怪物' WHERE `id` = 27176;
-UPDATE `npc` SET `name` = '阿特萊亞的箱子', `title` = '任務怪物' WHERE `id` = 27177;
-UPDATE `npc` SET `name` = '部列特亞龍', `title` = '任務怪物' WHERE `id` = 27178;
-UPDATE `npc` SET `name` = '墳墓之鑰', `title` = '任務怪物' WHERE `id` = 27179;
-UPDATE `npc` SET `name` = '帝國奴隸', `title` = '任務怪物' WHERE `id` = 27180;
-UPDATE `npc` SET `name` = '帝國墳場守護者', `title` = '任務怪物' WHERE `id` = 27181;
-UPDATE `npc` SET `name` = '聖櫃守護者艾雅柏羅司', `title` = '任務怪物' WHERE `id` = 27182;
-UPDATE `npc` SET `name` = '聖櫃守護者影牙', `title` = '任務怪物' WHERE `id` = 27183;
-UPDATE `npc` SET `name` = '天使殺手', `title` = '任務怪物' WHERE `id` = 27184;
-UPDATE `npc` SET `name` = '風的妖精木', `title` = '任務怪物' WHERE `id` = 27185;
-UPDATE `npc` SET `name` = '星的妖精木', `title` = '任務怪物' WHERE `id` = 27186;
-UPDATE `npc` SET `name` = '黃昏的妖精木', `title` = '任務怪物' WHERE `id` = 27187;
-UPDATE `npc` SET `name` = '深淵的妖精木', `title` = '任務怪物' WHERE `id` = 27188;
-UPDATE `npc` SET `name` = '木守護者之靈', `title` = '任務怪物' WHERE `id` = 27189;
-UPDATE `npc` SET `name` = '豺狼後備兵', `title` = '任務怪物' WHERE `id` = 27190;
-UPDATE `npc` SET `name` = '瑪爾勘', `title` = '任務怪物' WHERE `id` = 27191;
-UPDATE `npc` SET `name` = '魅魔侍女', `title` = '任務怪物' WHERE `id` = 27192;
-UPDATE `npc` SET `name` = '哥布林隨從', `title` = '任務怪物' WHERE `id` = 27193;
-UPDATE `npc` SET `name` = '撕裂者裘利', `title` = '任務怪物' WHERE `id` = 27194;
-UPDATE `npc` SET `name` = '雄蟻', `title` = '任務怪物' WHERE `id` = 27195;
-UPDATE `npc` SET `name` = '藍背鱷魚', `title` = '任務怪物' WHERE `id` = 27196;
-UPDATE `npc` SET `name` = '寶石鱷魚', `title` = '任務怪物' WHERE `id` = 27197;
-UPDATE `npc` SET `name` = '庫林沙狼人', `title` = '任務怪物' WHERE `id` = 27199;
-UPDATE `npc` SET `name` = '克魯迪蜥蜴人', `title` = '任務怪物' WHERE `id` = 27200;
-UPDATE `npc` SET `name` = '' WHERE `id` = 27201;
-UPDATE `npc` SET `name` = '' WHERE `id` = 27202;
-UPDATE `npc` SET `name` = '' WHERE `id` = 27203;
-UPDATE `npc` SET `name` = '' WHERE `id` = 27204;
-UPDATE `npc` SET `name` = '' WHERE `id` = 27205;
-UPDATE `npc` SET `name` = '' WHERE `id` = 27206;
-UPDATE `npc` SET `name` = '' WHERE `id` = 27207;
-UPDATE `npc` SET `name` = '' WHERE `id` = 27208;
-UPDATE `npc` SET `name` = '' WHERE `id` = 27209;
-UPDATE `npc` SET `name` = '' WHERE `id` = 27210;
-UPDATE `npc` SET `name` = '' WHERE `id` = 27211;
-UPDATE `npc` SET `name` = '' WHERE `id` = 27212;
-UPDATE `npc` SET `name` = '' WHERE `id` = 27213;
-UPDATE `npc` SET `name` = '禁斷知識守護者', `title` = '任務怪物' WHERE `id` = 27214;
-UPDATE `npc` SET `name` = '禁斷知識守護者', `title` = '任務怪物' WHERE `id` = 27215;
-UPDATE `npc` SET `name` = '禁斷知識守護者', `title` = '任務怪物' WHERE `id` = 27216;
-UPDATE `npc` SET `name` = '井的亡靈', `title` = '任務怪物' WHERE `id` = 27217;
-UPDATE `npc` SET `name` = '帝雷歐的手下', `title` = '任務怪物' WHERE `id` = 27218;
-UPDATE `npc` SET `name` = '哈里夏統治者', `title` = '任務怪物' WHERE `id` = 27219;
-UPDATE `npc` SET `name` = '哈里夏統治者', `title` = '任務怪物' WHERE `id` = 27220;
-UPDATE `npc` SET `name` = '哈里夏統治者', `title` = '任務怪物' WHERE `id` = 27221;
-UPDATE `npc` SET `name` = '哈里夏統治者', `title` = '任務怪物' WHERE `id` = 27222;
-UPDATE `npc` SET `name` = '哈里夏統治者', `title` = '任務怪物' WHERE `id` = 27223;
-UPDATE `npc` SET `name` = '哈里夏統治者', `title` = '任務怪物' WHERE `id` = 27224;
-UPDATE `npc` SET `name` = '哈里夏統治者', `title` = '任務怪物' WHERE `id` = 27225;
-UPDATE `npc` SET `name` = '哈里夏統治者', `title` = '任務怪物' WHERE `id` = 27226;
-UPDATE `npc` SET `name` = '哈里夏統治者', `title` = '任務怪物' WHERE `id` = 27227;
-UPDATE `npc` SET `name` = '哈里夏統治者', `title` = '任務怪物' WHERE `id` = 27228;
-UPDATE `npc` SET `name` = '哈里夏統治者', `title` = '任務怪物' WHERE `id` = 27229;
-UPDATE `npc` SET `name` = '哈里夏統治者', `title` = '任務怪物' WHERE `id` = 27230;
-UPDATE `npc` SET `name` = '哈里夏統治者', `title` = '任務怪物' WHERE `id` = 27231;
-UPDATE `npc` SET `name` = '哈里夏統治者', `title` = '任務怪物' WHERE `id` = 27232;
-UPDATE `npc` SET `name` = '哈里夏統治者', `title` = '任務怪物' WHERE `id` = 27233;
-UPDATE `npc` SET `name` = '哈里夏統治者', `title` = '任務怪物' WHERE `id` = 27234;
-UPDATE `npc` SET `name` = '哈里夏統治者', `title` = '任務怪物' WHERE `id` = 27235;
-UPDATE `npc` SET `name` = '哈里夏統治者', `title` = '任務怪物' WHERE `id` = 27236;
-UPDATE `npc` SET `name` = '哈里夏統治者', `title` = '任務怪物' WHERE `id` = 27237;
-UPDATE `npc` SET `name` = '哈里夏統治者', `title` = '任務怪物' WHERE `id` = 27238;
-UPDATE `npc` SET `name` = '哈里夏統治者', `title` = '任務怪物' WHERE `id` = 27239;
-UPDATE `npc` SET `name` = '哈里夏統治者', `title` = '任務怪物' WHERE `id` = 27240;
-UPDATE `npc` SET `name` = '哈里夏統治者', `title` = '任務怪物' WHERE `id` = 27241;
-UPDATE `npc` SET `name` = '哈里夏統治者', `title` = '任務怪物' WHERE `id` = 27242;
-UPDATE `npc` SET `name` = '哈里夏統治者', `title` = '任務怪物' WHERE `id` = 27243;
-UPDATE `npc` SET `name` = '哈里夏統治者', `title` = '任務怪物' WHERE `id` = 27244;
-UPDATE `npc` SET `name` = '哈里夏統治者', `title` = '任務怪物' WHERE `id` = 27245;
-UPDATE `npc` SET `name` = '哈里夏統治者', `title` = '任務怪物' WHERE `id` = 27246;
-UPDATE `npc` SET `name` = '哈里夏統治者', `title` = '任務怪物' WHERE `id` = 27247;
-UPDATE `npc` SET `name` = '哈里夏統治者', `title` = '任務怪物' WHERE `id` = 27248;
-UPDATE `npc` SET `name` = '哈里夏統治者', `title` = '任務怪物' WHERE `id` = 27249;
-UPDATE `npc` SET `name` = '墮天使 亞雷克特', `title` = '任務怪物' WHERE `id` = 27250;
-UPDATE `npc` SET `name` = '墮天使 亞雷克特', `title` = '任務怪物' WHERE `id` = 27251;
-UPDATE `npc` SET `name` = '墮天使 亞雷克特', `title` = '任務怪物' WHERE `id` = 27252;
-UPDATE `npc` SET `name` = '地獄之火', `title` = '任務怪物' WHERE `id` = 27253;
-UPDATE `npc` SET `name` = '未知的約束者', `title` = '任務怪物' WHERE `id` = 27254;
-UPDATE `npc` SET `name` = '未知的約束者', `title` = '任務怪物' WHERE `id` = 27255;
-UPDATE `npc` SET `name` = '未知的約束者', `title` = '任務怪物' WHERE `id` = 27256;
-UPDATE `npc` SET `name` = '大天使 伊可諾克拉希斯', `title` = '任務怪物' WHERE `id` = 27257;
-UPDATE `npc` SET `name` = '大天使 伊可諾克拉希斯', `title` = '任務怪物' WHERE `id` = 27258;
-UPDATE `npc` SET `name` = '大天使 伊可諾克拉希斯', `title` = '任務怪物' WHERE `id` = 27259;
-UPDATE `npc` SET `name` = '大天使 伊可諾克拉希斯', `title` = '任務怪物' WHERE `id` = 27260;
-UPDATE `npc` SET `name` = '聖火之珠', `title` = '任務怪物' WHERE `id` = 27261;
-UPDATE `npc` SET `name` = '死亡之王 哈勒特', `title` = '任務怪物' WHERE `id` = 27262;
-UPDATE `npc` SET `name` = '死亡之王 哈勒特', `title` = '任務怪物' WHERE `id` = 27263;
-UPDATE `npc` SET `name` = '死亡之王 哈勒特', `title` = '任務怪物' WHERE `id` = 27264;
-UPDATE `npc` SET `name` = '屍妖之王 亞克隆', `title` = '任務怪物' WHERE `id` = 27265;
-UPDATE `npc` SET `name` = '墮天使 哈瑞斯', `title` = '任務怪物' WHERE `id` = 27266;
-UPDATE `npc` SET `name` = '墮天使 哈瑞斯', `title` = '任務怪物' WHERE `id` = 27267;
-UPDATE `npc` SET `name` = '哈瑞斯的護衛兵', `title` = '任務怪物' WHERE `id` = 27268;
-UPDATE `npc` SET `name` = '墮天使 那夫里爾斯', `title` = '任務怪物' WHERE `id` = 27269;
-UPDATE `npc` SET `name` = '墮天使 那夫里爾斯', `title` = '任務怪物' WHERE `id` = 27270;
-UPDATE `npc` SET `name` = '奇美拉高崙', `title` = '任務怪物' WHERE `id` = 27271;
-UPDATE `npc` SET `name` = '哈勒特的舞者 莉莉安', `title` = '任務怪物' WHERE `id` = 27272;
-UPDATE `npc` SET `name` = '暗殺者 裴傑爾', `title` = '任務怪物' WHERE `id` = 27273;
-UPDATE `npc` SET `name` = '墮天使 塔納奇亞', `title` = '任務怪物' WHERE `id` = 27274;
-UPDATE `npc` SET `name` = '墮天使 塔納奇亞', `title` = '任務怪物' WHERE `id` = 27275;
-UPDATE `npc` SET `name` = '墮天使 塔納奇亞', `title` = '任務怪物' WHERE `id` = 27276;
-UPDATE `npc` SET `name` = '墮天使 塔納奇亞', `title` = '任務怪物' WHERE `id` = 27277;
-UPDATE `npc` SET `name` = '巴列斯的影子', `title` = '任務怪物' WHERE `id` = 27278;
-UPDATE `npc` SET `name` = '束縛詛咒 凱薩德因', `title` = '任務怪物' WHERE `id` = 27279;
-UPDATE `npc` SET `name` = '墮天使 納爾希斯', `title` = '任務怪物' WHERE `id` = 27280;
-UPDATE `npc` SET `name` = '墮天使 梅特魯斯', `title` = '任務怪物' WHERE `id` = 27281;
-UPDATE `npc` SET `name` = '逆天使 奧帝爾', `title` = '任務怪物' WHERE `id` = 27282;
-UPDATE `npc` SET `name` = '長者 阿卡利爾斯', `title` = '任務怪物' WHERE `id` = 27283;
-UPDATE `npc` SET `name` = '炎之亡靈 亞傑拉', `title` = '任務怪物' WHERE `id` = 27284;
-UPDATE `npc` SET `name` = '蜥蜴的圖騰 撒爾希', `title` = '任務怪物' WHERE `id` = 27285;
-UPDATE `npc` SET `name` = '墮落騎士 亞帝', `title` = '任務怪物' WHERE `id` = 27286;
-UPDATE `npc` SET `name` = '束縛的精靈 潘那西亞', `title` = '任務怪物' WHERE `id` = 27287;
-UPDATE `npc` SET `name` = '劍之協奏者 拜爾', `title` = '任務怪物' WHERE `id` = 27288;
-UPDATE `npc` SET `name` = '古代劍聖 艾伊恩', `title` = '任務怪物' WHERE `id` = 27289;
-UPDATE `npc` SET `name` = '白色羽翼指揮官', `title` = '任務怪物' WHERE `id` = 27290;
-UPDATE `npc` SET `name` = '白色羽翼戰鬥員', `title` = '任務怪物' WHERE `id` = 27291;
-UPDATE `npc` SET `name` = '墮落的貴族獸人 穆哈克', `title` = '任務怪物' WHERE `id` = 27292;
-UPDATE `npc` SET `name` = '卡巴塔里 阿魯斯', `title` = '任務怪物' WHERE `id` = 27293;
-UPDATE `npc` SET `name` = '霸主 亞特拉斯', `title` = '任務怪物' WHERE `id` = 27294;
-UPDATE `npc` SET `name` = '撒爾希的喉舌 默達哈', `title` = '任務怪物' WHERE `id` = 27295;
-UPDATE `npc` SET `name` = '石碑監視者 艾傑奇爾', `title` = '任務怪物' WHERE `id` = 27296;
-UPDATE `npc` SET `name` = '石碑監視者 艾傑奇爾', `title` = '任務怪物' WHERE `id` = 27297;
-UPDATE `npc` SET `name` = '石碑監視者 艾傑奇爾', `title` = '任務怪物' WHERE `id` = 27298;
-UPDATE `npc` SET `name` = '石碑監視者 艾傑奇爾', `title` = '任務怪物' WHERE `id` = 27299;
-UPDATE `npc` SET `name` = '石碑監視者 艾傑奇爾', `title` = '任務怪物' WHERE `id` = 27300;
-UPDATE `npc` SET `name` = '石碑監視者 艾傑奇爾', `title` = '任務怪物' WHERE `id` = 27301;
-UPDATE `npc` SET `name` = '石碑守護者 亞茲拉爾', `title` = '任務怪物' WHERE `id` = 27302;
-UPDATE `npc` SET `name` = '石碑守護者 亞茲拉爾', `title` = '任務怪物' WHERE `id` = 27303;
-UPDATE `npc` SET `name` = '石碑守護者 亞茲拉爾', `title` = '任務怪物' WHERE `id` = 27304;
-UPDATE `npc` SET `name` = '石碑守護者 亞茲拉爾', `title` = '任務怪物' WHERE `id` = 27305;
-UPDATE `npc` SET `name` = '石碑守護者 亞茲拉爾', `title` = '任務怪物' WHERE `id` = 27306;
-UPDATE `npc` SET `name` = '石碑守護者 亞茲拉爾', `title` = '任務怪物' WHERE `id` = 27307;
-UPDATE `npc` SET `name` = '暗殺者 佛洛斯特', `title` = '任務怪物' WHERE `id` = 27308;
-UPDATE `npc` SET `name` = '米內維亞 馮 哈肯', `title` = '任務怪物' WHERE `id` = 27309;
-UPDATE `npc` SET `name` = '奇塔尼斯 馮 哈肯', `title` = '任務怪物' WHERE `id` = 27310;
-UPDATE `npc` SET `name` = '審判的獵犬 凱爾巴斯', `title` = '任務怪物' WHERE `id` = 27311;
-UPDATE `npc` SET `name` = '正體不明的使魔', `title` = '任務怪物' WHERE `id` = 27312;
-UPDATE `npc` SET `name` = '祕傳的守護者 夏齊爾', `title` = '任務怪物' WHERE `id` = 27313;
-UPDATE `npc` SET `name` = '祕傳的守護者 夏齊爾', `title` = '任務怪物' WHERE `id` = 27314;
-UPDATE `npc` SET `name` = '祕傳的守護者 夏齊爾', `title` = '任務怪物' WHERE `id` = 27315;
-UPDATE `npc` SET `name` = '墮落的部族長 瓦格斯', `title` = '任務怪物' WHERE `id` = 27316;
-UPDATE `npc` SET `name` = '輝煌的拘束者', `title` = '任務怪物' WHERE `id` = 27317;
-UPDATE `npc` SET `name` = '溫蒂的守護者', `title` = '任務怪物' WHERE `id` = 27318;
-UPDATE `npc` SET `name` = '黑豹', `title` = '任務怪物' WHERE `id` = 27319;
-UPDATE `npc` SET `name` = '提莫拉獸人', `title` = '任務怪物' WHERE `id` = 27320;
-UPDATE `npc` SET `name` = '布朗蜥蜴人', `title` = '任務怪物' WHERE `id` = 27321;
-UPDATE `npc` SET `name` = '比卡特阿朗尼得', `title` = '任務怪物' WHERE `id` = 27322;
-UPDATE `npc` SET `name` = '神的密使', `title` = '任務怪物' WHERE `id` = 27323;
-UPDATE `npc` SET `name` = '密傳的守護者艾勒諾斯', `title` = '任務怪物' WHERE `id` = 27324;
-UPDATE `npc` SET `name` = '哈里夏統治者', `title` = '任務怪物' WHERE `id` = 27325;
-UPDATE `npc` SET `name` = '大天使凱因納菲爾', `title` = '任務怪物' WHERE `id` = 27326;
-UPDATE `npc` SET `name` = '查普基爾的執行官', `title` = '任務怪物' WHERE `id` = 27327;
-UPDATE `npc` SET `name` = '查普基爾', `title` = '任務怪物' WHERE `id` = 27328;
-UPDATE `npc` SET `name` = '哈里夏統治者', `title` = '任務怪物' WHERE `id` = 27329;
-UPDATE `npc` SET `name` = '守護天使', `title` = '任務怪物' WHERE `id` = 27332;
-UPDATE `npc` SET `name` = '緋紅公爵夫人', `title` = '任務怪物' WHERE `id` = 27333;
-UPDATE `npc` SET `name` = '哈里夏統治者', `title` = '任務怪物' WHERE `id` = 27334;
-UPDATE `npc` SET `name` = '逆天者歐提爾', `title` = '任務怪物' WHERE `id` = 27335;
-UPDATE `npc` SET `name` = '緋紅貴婦', `title` = '任務怪物' WHERE `id` = 27336;
-UPDATE `npc` SET `name` = '豺狼參謀 大津', `title` = '任務怪物' WHERE `id` = 27337;
-UPDATE `npc` SET `name` = '墜落的天使', `title` = '任務怪物' WHERE `id` = 27338;
-UPDATE `npc` SET `name` = '克魯瑪沼澤的叛教者', `title` = '任務怪物' WHERE `id` = 27339;
-UPDATE `npc` SET `name` = '追捕者' WHERE `id` = 27340;
-UPDATE `npc` SET `name` = '席琳的邪念' WHERE `id` = 27341;
-UPDATE `npc` SET `name` = '席琳的邪念' WHERE `id` = 27342;
-UPDATE `npc` SET `name` = '席琳的邪念' WHERE `id` = 27343;
-UPDATE `npc` SET `name` = '席琳的邪念' WHERE `id` = 27344;
-UPDATE `npc` SET `name` = '席琳的邪念' WHERE `id` = 27345;
-UPDATE `npc` SET `name` = '席琳的邪念' WHERE `id` = 27346;
-UPDATE `npc` SET `name` = '黎明的神諭處 警衛隊員' WHERE `id` = 27347;
-UPDATE `npc` SET `name` = '黎明的神諭處 警衛隊員' WHERE `id` = 27348;
-UPDATE `npc` SET `name` = '黎明的神諭處 警衛隊員' WHERE `id` = 27349;
-UPDATE `npc` SET `name` = '黎明的神諭處 警衛隊員' WHERE `id` = 27350;
-UPDATE `npc` SET `name` = '黎明的神諭處 警衛隊員' WHERE `id` = 27351;
-UPDATE `npc` SET `name` = '黎明的神諭處 警衛隊員' WHERE `id` = 27352;
-UPDATE `npc` SET `name` = '莉莉恩殺戮者' WHERE `id` = 27353;
-UPDATE `npc` SET `name` = '莉莉恩魔導士' WHERE `id` = 27354;
-UPDATE `npc` SET `name` = '莉莉恩隨從騎士' WHERE `id` = 27355;
-UPDATE `npc` SET `name` = '莉莉恩刺殺者' WHERE `id` = 27356;
-UPDATE `npc` SET `name` = '莉莉恩祭司' WHERE `id` = 27357;
-UPDATE `npc` SET `name` = '莉莉恩騎士' WHERE `id` = 27358;
-UPDATE `npc` SET `name` = '莉莉恩刺客' WHERE `id` = 27359;
-UPDATE `npc` SET `name` = '莉莉恩大魔道士' WHERE `id` = 27360;
-UPDATE `npc` SET `name` = '莉莉恩禁衛騎士' WHERE `id` = 27361;
-UPDATE `npc` SET `name` = '莉莉恩殺戮者' WHERE `id` = 27362;
-UPDATE `npc` SET `name` = '莉莉恩魔導士' WHERE `id` = 27363;
-UPDATE `npc` SET `name` = '莉莉恩隨從騎士' WHERE `id` = 27364;
-UPDATE `npc` SET `name` = '莉莉恩刺殺者' WHERE `id` = 27365;
-UPDATE `npc` SET `name` = '莉莉恩祭司' WHERE `id` = 27366;
-UPDATE `npc` SET `name` = '莉莉恩騎士' WHERE `id` = 27367;
-UPDATE `npc` SET `name` = '莉莉恩刺客' WHERE `id` = 27368;
-UPDATE `npc` SET `name` = '莉莉恩大魔道士' WHERE `id` = 27369;
-UPDATE `npc` SET `name` = '莉莉恩禁衛騎士' WHERE `id` = 27370;
-UPDATE `npc` SET `name` = '莉莉恩殺戮者' WHERE `id` = 27371;
-UPDATE `npc` SET `name` = '莉莉恩魔導士' WHERE `id` = 27372;
-UPDATE `npc` SET `name` = '莉莉恩隨從騎士' WHERE `id` = 27373;
-UPDATE `npc` SET `name` = '莉莉恩刺殺者' WHERE `id` = 27374;
-UPDATE `npc` SET `name` = '莉莉恩祭司' WHERE `id` = 27375;
-UPDATE `npc` SET `name` = '莉莉恩騎士' WHERE `id` = 27376;
-UPDATE `npc` SET `name` = '莉莉恩刺客' WHERE `id` = 27377;
-UPDATE `npc` SET `name` = '莉莉恩大魔道士' WHERE `id` = 27378;
-UPDATE `npc` SET `name` = '莉莉恩禁衛騎士' WHERE `id` = 27379;
-UPDATE `npc` SET `name` = '暴走 水的精靈', `title` = '任務怪物' WHERE `id` = 27380;
-UPDATE `npc` SET `name` = '暴走 風的精靈', `title` = '任務怪物' WHERE `id` = 27381;
-UPDATE `npc` SET `name` = '封印遮斷結界' WHERE `id` = 27382;
-UPDATE `npc` SET `name` = '封印遮斷結界' WHERE `id` = 27383;
-UPDATE `npc` SET `name` = '封印裝置', `title` = '史奈曼皇帝的' WHERE `id` = 27384;
-UPDATE `npc` SET `name` = '莉莉絲', `title` = '深淵的聖母' WHERE `id` = 27385;
-UPDATE `npc` SET `name` = '莉莉絲的代言者' WHERE `id` = 27386;
-UPDATE `npc` SET `name` = '莉莉絲的親衛隊' WHERE `id` = 27387;
-UPDATE `npc` SET `name` = '亞納', `title` = '聖火的火花' WHERE `id` = 27388;
-UPDATE `npc` SET `name` = '亞納的守護者' WHERE `id` = 27389;
-UPDATE `npc` SET `name` = '亞納的禁衛隊' WHERE `id` = 27390;
-UPDATE `npc` SET `name` = '亞納的執行者' WHERE `id` = 27391;
-UPDATE `npc` SET `name` = '血腥之斧副官' WHERE `id` = 27392;
-UPDATE `npc` SET `name` = '無頭騎士' WHERE `id` = 27393;
-UPDATE `npc` SET `name` = '席琳的邪念' WHERE `id` = 27394;
-UPDATE `npc` SET `name` = '席琳的邪念' WHERE `id` = 27395;
-UPDATE `npc` SET `name` = '席琳的邪念' WHERE `id` = 27396;
-UPDATE `npc` SET `name` = '席琳的邪念' WHERE `id` = 27397;
-UPDATE `npc` SET `name` = '席琳的邪念' WHERE `id` = 27398;
-UPDATE `npc` SET `name` = '席琳的邪念' WHERE `id` = 27399;
-UPDATE `npc` SET `name` = '席琳的邪念' WHERE `id` = 27400;
-UPDATE `npc` SET `name` = '席琳的邪念' WHERE `id` = 27401;
-UPDATE `npc` SET `name` = '席琳的邪念' WHERE `id` = 27402;
-UPDATE `npc` SET `name` = '巨蟻女王' WHERE `id` = 29001;
-UPDATE `npc` SET `name` = '巨蟻女王的幼蟲' WHERE `id` = 29002;
-UPDATE `npc` SET `name` = '護衛螞蟻' WHERE `id` = 29003;
-UPDATE `npc` SET `name` = '螞蟻警衛' WHERE `id` = 29004;
-UPDATE `npc` SET `name` = '螞蟻侍衛' WHERE `id` = 29005;
-UPDATE `npc` SET `name` = '核心' WHERE `id` = 29006;
-UPDATE `npc` SET `name` = '死亡騎士' WHERE `id` = 29007;
-UPDATE `npc` SET `name` = '死亡之刃' WHERE `id` = 29008;
-UPDATE `npc` SET `name` = '迪克爾' WHERE `id` = 29009;
-UPDATE `npc` SET `name` = '瓦里達斯' WHERE `id` = 29010;
-UPDATE `npc` SET `name` = '基座' WHERE `id` = 29011;
-UPDATE `npc` SET `name` = '匹黎姆' WHERE `id` = 29012;
-UPDATE `npc` SET `name` = '普勒摩' WHERE `id` = 29013;
-UPDATE `npc` SET `name` = '奧爾芬' WHERE `id` = 29014;
-UPDATE `npc` SET `name` = '萊可' WHERE `id` = 29015;
-UPDATE `npc` SET `name` = '萊可李奧斯' WHERE `id` = 29016;
-UPDATE `npc` SET `name` = '瑞芭' WHERE `id` = 29017;
-UPDATE `npc` SET `name` = '瑞芭艾倫' WHERE `id` = 29018;
-UPDATE `npc` SET `name` = '安塔瑞斯' WHERE `id` = 29019;
-UPDATE `npc` SET `name` = '巴溫' WHERE `id` = 29020;
-UPDATE `npc` SET `name` = '大天使' WHERE `id` = 29021;
-UPDATE `npc` SET `name` = '札肯' WHERE `id` = 29022;
-UPDATE `npc` SET `name` = '人偶刀手' WHERE `id` = 29023;
-UPDATE `npc` SET `name` = '貝里大師' WHERE `id` = 29024;
-UPDATE `npc` SET `name` = '巴溫' WHERE `id` = 29025;
-UPDATE `npc` SET `name` = '海賊殭屍船長' WHERE `id` = 29026;
-UPDATE `npc` SET `name` = '海賊殭屍' WHERE `id` = 29027;
-UPDATE `npc` SET `name` = '巴拉卡斯' WHERE `id` = 29028;
-UPDATE `npc` SET `name` = '熔岩撒魯斯長老', `title` = '巴拉卡斯的族人' WHERE `id` = 29029;
-UPDATE `npc` SET `name` = '魔狼 凱利尼', `title` = '巴拉卡斯的族人' WHERE `id` = 29030;
-UPDATE `npc` SET `name` = '凱利尼的伊佛利特' WHERE `id` = 29031;
-UPDATE `npc` SET `name` = '凱利尼的高崙' WHERE `id` = 29032;
-UPDATE `npc` SET `name` = '魔狼 芙雷奇', `title` = '巴拉卡斯的族人' WHERE `id` = 29033;
-UPDATE `npc` SET `name` = '芙雷奇的伊佛利特' WHERE `id` = 29034;
-UPDATE `npc` SET `name` = '芙雷奇的高崙' WHERE `id` = 29035;
-UPDATE `npc` SET `name` = '魔狼 烏路斯', `title` = '巴拉卡斯的族人' WHERE `id` = 29036;
-UPDATE `npc` SET `name` = '魔狼 奇那斯', `title` = '巴拉卡斯的族人' WHERE `id` = 29037;
-UPDATE `npc` SET `name` = '奇那斯的伊佛利特' WHERE `id` = 29038;
-UPDATE `npc` SET `name` = '奇那斯的伊佛利特' WHERE `id` = 29039;
-UPDATE `npc` SET `name` = '火炎之翼 伊克希恩', `title` = '巴拉卡斯的守護者' WHERE `id` = 29040;
-UPDATE `npc` SET `name` = '煉獄高崙' WHERE `id` = 29041;
-UPDATE `npc` SET `name` = '煉獄高崙' WHERE `id` = 29042;
-UPDATE `npc` SET `name` = '怒吼的伊佛利特' WHERE `id` = 29043;
-UPDATE `npc` SET `name` = '怒吼的伊佛利特' WHERE `id` = 29044;
-UPDATE `npc` SET `name` = '芙琳泰沙' WHERE `id` = 29045;
-UPDATE `npc` SET `name` = '思卡雷特 潘 哈里夏' WHERE `id` = 29046;
-UPDATE `npc` SET `name` = '思卡雷特 潘 哈里夏' WHERE `id` = 29047;
-UPDATE `npc` SET `name` = '遺照' WHERE `id` = 29048;
-UPDATE `npc` SET `name` = '遺照' WHERE `id` = 29049;
-UPDATE `npc` SET `name` = '哈里夏的氣息' WHERE `id` = 29050;
-UPDATE `npc` SET `name` = '哈里夏的氣息' WHERE `id` = 29051;
-UPDATE `npc` SET `name` = '' WHERE `id` = 29052;
-UPDATE `npc` SET `name` = '' WHERE `id` = 29053;
-UPDATE `npc` SET `name` = '貝諾姆', `title` = '帝雷歐執政官' WHERE `id` = 29054;
-UPDATE `npc` SET `name` = '傳送晶體' WHERE `id` = 29055;
-UPDATE `npc` SET `name` = '冰雪妖精 希露', `title` = '狩獵首領' WHERE `id` = 29056;
-UPDATE `npc` SET `name` = '冰雪妖精的侍從', `title` = '狩獵手下' WHERE `id` = 29057;
-UPDATE `npc` SET `name` = '冰雪妖精的凝視者', `title` = '狩獵手下' WHERE `id` = 29058;
-UPDATE `npc` SET `name` = '' WHERE `id` = 29059;
-UPDATE `npc` SET `name` = '冰雪女王親衛隊長', `title` = '狩獵首領' WHERE `id` = 29060;
-UPDATE `npc` SET `name` = '轉移晶體' WHERE `id` = 29061;
-UPDATE `npc` SET `name` = '安蒂莉雅絲 班 胡爾特', `title` = '邪教祭司長' WHERE `id` = 29062;
-UPDATE `npc` SET `name` = '安蒂莉雅絲的服事', `title` = '狩獵手下' WHERE `id` = 29063;
-UPDATE `npc` SET `name` = '安蒂莉雅絲的服事', `title` = '狩獵手下' WHERE `id` = 29064;
-UPDATE `npc` SET `name` = '賽爾蘭', `title` = '封印的魔爪' WHERE `id` = 29065;
-UPDATE `npc` SET `name` = '安塔瑞斯' WHERE `id` = 29066;
-UPDATE `npc` SET `name` = '安塔瑞斯' WHERE `id` = 29067;
-UPDATE `npc` SET `name` = '安塔瑞斯' WHERE `id` = 29068;
-UPDATE `npc` SET `name` = '貝希莫斯巨龍' WHERE `id` = 29069;
-UPDATE `npc` SET `name` = '巨龍炸彈' WHERE `id` = 29070;
-UPDATE `npc` SET `name` = '巨龍炸彈' WHERE `id` = 29071;
-UPDATE `npc` SET `name` = '巨龍炸彈' WHERE `id` = 29072;
-UPDATE `npc` SET `name` = '巨龍炸彈' WHERE `id` = 29073;
-UPDATE `npc` SET `name` = '巨龍炸彈' WHERE `id` = 29074;
-UPDATE `npc` SET `name` = '巨龍炸彈' WHERE `id` = 29075;
-UPDATE `npc` SET `name` = '巨龍炸彈' WHERE `id` = 29076;
-UPDATE `npc` SET `name` = '' WHERE `id` = 29077;
-UPDATE `npc` SET `name` = '' WHERE `id` = 29078;
-UPDATE `npc` SET `name` = '' WHERE `id` = 29079;
-UPDATE `npc` SET `name` = '' WHERE `id` = 29080;
-UPDATE `npc` SET `name` = '' WHERE `id` = 29081;
-UPDATE `npc` SET `name` = '' WHERE `id` = 29082;
-UPDATE `npc` SET `name` = '' WHERE `id` = 29083;
-UPDATE `npc` SET `name` = '' WHERE `id` = 29084;
-UPDATE `npc` SET `name` = '' WHERE `id` = 29085;
-UPDATE `npc` SET `name` = '' WHERE `id` = 29086;
-UPDATE `npc` SET `name` = '' WHERE `id` = 29087;
-UPDATE `npc` SET `name` = '' WHERE `id` = 29088;
-UPDATE `npc` SET `name` = '' WHERE `id` = 29089;
-UPDATE `npc` SET `name` = '' WHERE `id` = 29090;
-UPDATE `npc` SET `name` = '' WHERE `id` = 29091;
-UPDATE `npc` SET `name` = '' WHERE `id` = 29092;
-UPDATE `npc` SET `name` = '' WHERE `id` = 29093;
-UPDATE `npc` SET `name` = '' WHERE `id` = 29094;
-UPDATE `npc` SET `name` = '高登', `title` = '毀滅騎士' WHERE `id` = 29095;
-UPDATE `npc` SET `name` = '亞奈斯', `title` = '輝煌的支配者' WHERE `id` = 29096;
-UPDATE `npc` SET `name` = '輝煌的使徒', `title` = '狩獵手下' WHERE `id` = 29097;
-UPDATE `npc` SET `name` = '輝煌的崇拜者', `title` = '狩獵手下' WHERE `id` = 29098;
-UPDATE `npc` SET `name` = '巴爾勒', `title` = '看守長' WHERE `id` = 29099;
-UPDATE `npc` SET `name` = '水晶監獄的警衛兵' WHERE `id` = 29100;
-UPDATE `npc` SET `name` = '水晶高崙' WHERE `id` = 29101;
-UPDATE `npc` SET `name` = '水晶高崙' WHERE `id` = 29102;
-UPDATE `npc` SET `name` = '巴爾勒', `title` = '看守長' WHERE `id` = 29103;
-UPDATE `npc` SET `name` = '水晶監獄的警衛兵' WHERE `id` = 29104;
-UPDATE `npc` SET `name` = '水晶高崙' WHERE `id` = 29105;
-UPDATE `npc` SET `name` = '' WHERE `id` = 29106;
-UPDATE `npc` SET `name` = '' WHERE `id` = 29107;
-UPDATE `npc` SET `name` = '' WHERE `id` = 29108;
-UPDATE `npc` SET `name` = '' WHERE `id` = 29109;
-UPDATE `npc` SET `name` = '' WHERE `id` = 29110;
-UPDATE `npc` SET `name` = '' WHERE `id` = 29111;
-UPDATE `npc` SET `name` = '' WHERE `id` = 29112;
-UPDATE `npc` SET `name` = '' WHERE `id` = 29113;
-UPDATE `npc` SET `name` = '' WHERE `id` = 29114;
-UPDATE `npc` SET `name` = '水晶監獄的警衛兵' WHERE `id` = 29115;
-UPDATE `npc` SET `name` = '巴爾勒的寶箱' WHERE `id` = 29116;
-UPDATE `npc` SET `name` = '巴爾勒的寶箱' WHERE `id` = 29117;
-UPDATE `npc` SET `name` = '巴列斯' WHERE `id` = 29118;
-UPDATE `npc` SET `name` = '巴列斯' WHERE `id` = 29119;
-UPDATE `npc` SET `name` = '' WHERE `id` = 29120;
-UPDATE `npc` SET `name` = '' WHERE `id` = 29121;
-UPDATE `npc` SET `name` = '' WHERE `id` = 29122;
-UPDATE `npc` SET `name` = '' WHERE `id` = 29123;
-UPDATE `npc` SET `name` = '' WHERE `id` = 29124;
-UPDATE `npc` SET `name` = '' WHERE `id` = 29125;
-UPDATE `npc` SET `name` = '' WHERE `id` = 29126;
-UPDATE `npc` SET `name` = '' WHERE `id` = 29127;
-UPDATE `npc` SET `name` = '' WHERE `id` = 29128;
-UPDATE `npc` SET `name` = '迷宮警衛隊長' WHERE `id` = 29129;
-UPDATE `npc` SET `name` = '迷宮警衛兵' WHERE `id` = 29130;
-UPDATE `npc` SET `name` = '迷宮警衛助手' WHERE `id` = 29131;
-UPDATE `npc` SET `name` = '迷宮警衛隊長' WHERE `id` = 29132;
-UPDATE `npc` SET `name` = '迷宮警衛兵' WHERE `id` = 29133;
-UPDATE `npc` SET `name` = '迷宮警衛助手' WHERE `id` = 29134;
-UPDATE `npc` SET `name` = '迷宮警衛隊長' WHERE `id` = 29135;
-UPDATE `npc` SET `name` = '迷宮警衛兵' WHERE `id` = 29136;
-UPDATE `npc` SET `name` = '迷宮警衛助手' WHERE `id` = 29137;
-UPDATE `npc` SET `name` = '迷宮警衛隊長' WHERE `id` = 29138;
-UPDATE `npc` SET `name` = '迷宮警衛兵' WHERE `id` = 29139;
-UPDATE `npc` SET `name` = '迷宮警衛助手' WHERE `id` = 29140;
-UPDATE `npc` SET `name` = '迷宮警衛隊長' WHERE `id` = 29141;
-UPDATE `npc` SET `name` = '迷宮警衛兵' WHERE `id` = 29142;
-UPDATE `npc` SET `name` = '迷宮警衛助手' WHERE `id` = 29143;
-UPDATE `npc` SET `name` = '迷宮警衛隊長' WHERE `id` = 29144;
-UPDATE `npc` SET `name` = '迷宮警衛兵' WHERE `id` = 29145;
-UPDATE `npc` SET `name` = '迷宮警衛助手' WHERE `id` = 29146;
-UPDATE `npc` SET `name` = '迷宮警衛隊長' WHERE `id` = 29147;
-UPDATE `npc` SET `name` = '迷宮警衛兵' WHERE `id` = 29148;
-UPDATE `npc` SET `name` = '迷宮警衛助手' WHERE `id` = 29149;
-UPDATE `npc` SET `name` = '伊卡姆士', `title` = '不滅的君主' WHERE `id` = 29150;
-UPDATE `npc` SET `name` = '冥界的魔犬' WHERE `id` = 29151;
-UPDATE `npc` SET `name` = '冥界的魔犬' WHERE `id` = 29152;
-UPDATE `npc` SET `name` = '' WHERE `id` = 29153;
-UPDATE `npc` SET `name` = '' WHERE `id` = 29154;
-UPDATE `npc` SET `name` = '' WHERE `id` = 29155;
-UPDATE `npc` SET `name` = '' WHERE `id` = 29156;
-UPDATE `npc` SET `name` = '' WHERE `id` = 29157;
-UPDATE `npc` SET `name` = '' WHERE `id` = 29158;
-UPDATE `npc` SET `name` = '' WHERE `id` = 29159;
-UPDATE `npc` SET `name` = '' WHERE `id` = 29160;
-UPDATE `npc` SET `name` = '覺醒前的伊卡姆士' WHERE `id` = 29161;
-UPDATE `npc` SET `name` = '敢死隊', `title` = '蒂雅特親衛隊' WHERE `id` = 29162;
-UPDATE `npc` SET `name` = '蒂雅特', `title` = '闇龍巫女' WHERE `id` = 29163;
-UPDATE `npc` SET `name` = '' WHERE `id` = 29164;
-UPDATE `npc` SET `name` = '' WHERE `id` = 29165;
-UPDATE `npc` SET `name` = '' WHERE `id` = 29166;
-UPDATE `npc` SET `name` = '' WHERE `id` = 29167;
-UPDATE `npc` SET `name` = '' WHERE `id` = 29168;
-UPDATE `npc` SET `name` = '' WHERE `id` = 29169;
-UPDATE `npc` SET `name` = '' WHERE `id` = 29170;
-UPDATE `npc` SET `name` = '' WHERE `id` = 29171;
-UPDATE `npc` SET `name` = '' WHERE `id` = 29172;
-UPDATE `npc` SET `name` = '神官 蒂雅特' WHERE `id` = 29173;
-UPDATE `npc` SET `name` = '神官 蒂雅特' WHERE `id` = 29174;
-UPDATE `npc` SET `name` = '蒂雅特', `title` = '闇龍巫女' WHERE `id` = 29175;
-UPDATE `npc` SET `name` = '雷克特', `title` = '商人' WHERE `id` = 30001;
-UPDATE `npc` SET `name` = '傑克森', `title` = '商人' WHERE `id` = 30002;
-UPDATE `npc` SET `name` = '蘇菲亞', `title` = '商人' WHERE `id` = 30003;
-UPDATE `npc` SET `name` = '卡特琳', `title` = '商人' WHERE `id` = 30004;
-UPDATE `npc` SET `name` = '沃爾朴豪德', `title` = '倉庫管理員' WHERE `id` = 30005;
-UPDATE `npc` SET `name` = '拉普吉兒', `title` = '守門人' WHERE `id` = 30006;
-UPDATE `npc` SET `name` = '羅伊恩', `title` = '宗師' WHERE `id` = 30008;
-UPDATE `npc` SET `name` = '初學者幫手' WHERE `id` = 30009;
-UPDATE `npc` SET `name` = '阿伊努', `title` = '大師' WHERE `id` = 30010;
-UPDATE `npc` SET `name` = '仙瑪', `title` = '大師' WHERE `id` = 30014;
-UPDATE `npc` SET `name` = '噶爾林特', `title` = '大巫師' WHERE `id` = 30017;
-UPDATE `npc` SET `name` = '初學者幫手' WHERE `id` = 30019;
-UPDATE `npc` SET `name` = '基根特', `title` = '神官' WHERE `id` = 30022;
-UPDATE `npc` SET `name` = '畢茲', `title` = '宗師' WHERE `id` = 30026;
-UPDATE `npc` SET `name` = '柯雲特', `title` = '大師' WHERE `id` = 30027;
-UPDATE `npc` SET `name` = '比特亞基', `title` = '大師' WHERE `id` = 30028;
-UPDATE `npc` SET `name` = '米尼亞', `title` = '大師' WHERE `id` = 30029;
-UPDATE `npc` SET `name` = '維維安特', `title` = '神官' WHERE `id` = 30030;
-UPDATE `npc` SET `name` = '比奧帝', `title` = '大神官' WHERE `id` = 30031;
-UPDATE `npc` SET `name` = '亞哈那斯', `title` = '神官' WHERE `id` = 30032;
-UPDATE `npc` SET `name` = '巴烏洛', `title` = '教師' WHERE `id` = 30033;
-UPDATE `npc` SET `name` = '理斯', `title` = '教師' WHERE `id` = 30034;
-UPDATE `npc` SET `name` = '何瑞斯', `title` = '教師' WHERE `id` = 30035;
-UPDATE `npc` SET `name` = '寶斯特', `title` = '神官' WHERE `id` = 30036;
-UPDATE `npc` SET `name` = '雷比安', `title` = '大神官' WHERE `id` = 30037;
-UPDATE `npc` SET `name` = '革爾泊特', `title` = '警衛隊長' WHERE `id` = 30039;
-UPDATE `npc` SET `name` = '黎阿諾', `title` = '警衛' WHERE `id` = 30040;
-UPDATE `npc` SET `name` = '阿諾德', `title` = '警衛' WHERE `id` = 30041;
-UPDATE `npc` SET `name` = '阿貝羅司', `title` = '警衛' WHERE `id` = 30042;
-UPDATE `npc` SET `name` = '約翰史頓', `title` = '警衛' WHERE `id` = 30043;
-UPDATE `npc` SET `name` = '齊泊蘭', `title` = '警衛' WHERE `id` = 30044;
-UPDATE `npc` SET `name` = '肯尼奧司', `title` = '警衛' WHERE `id` = 30045;
-UPDATE `npc` SET `name` = '漢克斯', `title` = '警衛' WHERE `id` = 30046;
-UPDATE `npc` SET `name` = '裴黎恩', `title` = '碼頭管理員' WHERE `id` = 30047;
-UPDATE `npc` SET `name` = '達靈' WHERE `id` = 30048;
-UPDATE `npc` SET `name` = '波尼' WHERE `id` = 30049;
-UPDATE `npc` SET `name` = '艾黎阿司' WHERE `id` = 30050;
-UPDATE `npc` SET `name` = '克麗絲特' WHERE `id` = 30051;
-UPDATE `npc` SET `name` = '蘭特', `title` = '負責貨物的倉庫管理員' WHERE `id` = 30054;
-UPDATE `npc` SET `name` = '羅爾普南', `title` = '倉庫管理員' WHERE `id` = 30055;
-UPDATE `npc` SET `name` = '阿米多爾', `title` = '負責貨物的倉庫管理員' WHERE `id` = 30057;
-UPDATE `npc` SET `name` = '霍爾巴司', `title` = '倉庫管理員' WHERE `id` = 30058;
-UPDATE `npc` SET `name` = '特黎西亞', `title` = '守門人' WHERE `id` = 30059;
-UPDATE `npc` SET `name` = '沙布琳', `title` = '商人' WHERE `id` = 30060;
-UPDATE `npc` SET `name` = '凱希', `title` = '商人' WHERE `id` = 30061;
-UPDATE `npc` SET `name` = '索尼亞', `title` = '商人' WHERE `id` = 30062;
-UPDATE `npc` SET `name` = '拉盧斯', `title` = '商人' WHERE `id` = 30063;
-UPDATE `npc` SET `name` = '泰瑞', `title` = '大師' WHERE `id` = 30064;
-UPDATE `npc` SET `name` = '阿路尼', `title` = '大師' WHERE `id` = 30065;
-UPDATE `npc` SET `name` = '帕布黎斯', `title` = '宗師' WHERE `id` = 30066;
-UPDATE `npc` SET `name` = '哥爾黎布卡', `title` = '神官' WHERE `id` = 30067;
-UPDATE `npc` SET `name` = '索葛裴爾德', `title` = '神官' WHERE `id` = 30068;
-UPDATE `npc` SET `name` = '羅爾蘭德', `title` = '教師' WHERE `id` = 30069;
-UPDATE `npc` SET `name` = '錫爾巴銀', `title` = '大神官' WHERE `id` = 30070;
-UPDATE `npc` SET `name` = '盧卡斯', `title` = '警衛隊長' WHERE `id` = 30071;
-UPDATE `npc` SET `name` = '麥提', `title` = '警衛' WHERE `id` = 30072;
-UPDATE `npc` SET `name` = '傑伊庫伯', `title` = '警衛' WHERE `id` = 30073;
-UPDATE `npc` SET `name` = '希奇蘭', `title` = '警衛' WHERE `id` = 30074;
-UPDATE `npc` SET `name` = '沙伯', `title` = '警衛' WHERE `id` = 30075;
-UPDATE `npc` SET `name` = '黎斯托', `title` = '警衛' WHERE `id` = 30076;
-UPDATE `npc` SET `name` = '帕諾', `title` = '雜貨商人' WHERE `id` = 30078;
-UPDATE `npc` SET `name` = '巴德', `title` = '負責貨物的倉庫管理員' WHERE `id` = 30079;
-UPDATE `npc` SET `name` = '克拉彼亞', `title` = '守門人' WHERE `id` = 30080;
-UPDATE `npc` SET `name` = '何爾貝蒂亞', `title` = '雜貨商人' WHERE `id` = 30081;
-UPDATE `npc` SET `name` = '典克斯', `title` = '雜貨商人' WHERE `id` = 30082;
-UPDATE `npc` SET `name` = '伯契', `title` = '倉庫管理員' WHERE `id` = 30083;
-UPDATE `npc` SET `name` = '葛羅伯納', `title` = '武器商人' WHERE `id` = 30084;
-UPDATE `npc` SET `name` = '斯塔尼', `title` = '武器商人' WHERE `id` = 30085;
-UPDATE `npc` SET `name` = '塔烏琳', `title` = '倉庫管理員' WHERE `id` = 30086;
-UPDATE `npc` SET `name` = '普杰特', `title` = '防具商人' WHERE `id` = 30087;
-UPDATE `npc` SET `name` = '拉蒂亞', `title` = '防具商人' WHERE `id` = 30088;
-UPDATE `npc` SET `name` = '仙德拉', `title` = '飾品商人' WHERE `id` = 30090;
-UPDATE `npc` SET `name` = '艾爾黎安妮', `title` = '飾品商人' WHERE `id` = 30091;
-UPDATE `npc` SET `name` = '庫爾伯', `title` = '倉庫管理員' WHERE `id` = 30092;
-UPDATE `npc` SET `name` = '葛魯特', `title` = '魔法商人' WHERE `id` = 30093;
-UPDATE `npc` SET `name` = '吉特勒', `title` = '魔法商人' WHERE `id` = 30094;
-UPDATE `npc` SET `name` = '蘭多爾普', `title` = '倉庫管理員' WHERE `id` = 30095;
-UPDATE `npc` SET `name` = '葛爾拉圖次', `title` = '商人' WHERE `id` = 30097;
-UPDATE `npc` SET `name` = '亞歷珊卓', `title` = '商人' WHERE `id` = 30098;
-UPDATE `npc` SET `name` = '巴爾昆', `title` = '倉庫管理員' WHERE `id` = 30103;
-UPDATE `npc` SET `name` = '帕曼', `title` = '負責貨物的倉庫管理員' WHERE `id` = 30104;
-UPDATE `npc` SET `name` = '吉必特', `title` = '大師' WHERE `id` = 30105;
-UPDATE `npc` SET `name` = '都普尼', `title` = '大師' WHERE `id` = 30106;
-UPDATE `npc` SET `name` = '高爾典', `title` = '大師' WHERE `id` = 30107;
-UPDATE `npc` SET `name` = '麥肯', `title` = '大師' WHERE `id` = 30108;
-UPDATE `npc` SET `name` = '漢拿法特', `title` = '宗師' WHERE `id` = 30109;
-UPDATE `npc` SET `name` = '益克', `title` = '教師' WHERE `id` = 30110;
-UPDATE `npc` SET `name` = '戴特', `title` = '教師' WHERE `id` = 30111;
-UPDATE `npc` SET `name` = '莫里斯', `title` = '教師' WHERE `id` = 30112;
-UPDATE `npc` SET `name` = '久黎斯', `title` = '教師' WHERE `id` = 30113;
-UPDATE `npc` SET `name` = '洛亞', `title` = '教師' WHERE `id` = 30114;
-UPDATE `npc` SET `name` = '久黎克', `title` = '大巫師' WHERE `id` = 30115;
-UPDATE `npc` SET `name` = '德詩丁', `title` = '神官' WHERE `id` = 30116;
-UPDATE `npc` SET `name` = '普黎默知', `title` = '神官' WHERE `id` = 30117;
-UPDATE `npc` SET `name` = '朴皮娜', `title` = '神官' WHERE `id` = 30118;
-UPDATE `npc` SET `name` = '伊紗別琳', `title` = '神官' WHERE `id` = 30119;
-UPDATE `npc` SET `name` = '魅克斯彌莉言', `title` = '大神官' WHERE `id` = 30120;
-UPDATE `npc` SET `name` = '傑羅寧', `title` = '警衛隊長' WHERE `id` = 30121;
-UPDATE `npc` SET `name` = '布拉斯', `title` = '警衛' WHERE `id` = 30122;
-UPDATE `npc` SET `name` = '別沙', `title` = '警衛' WHERE `id` = 30123;
-UPDATE `npc` SET `name` = '傑侖', `title` = '警衛' WHERE `id` = 30124;
-UPDATE `npc` SET `name` = '勃爾特凱', `title` = '警衛' WHERE `id` = 30125;
-UPDATE `npc` SET `name` = '拉辛次', `title` = '警衛' WHERE `id` = 30126;
-UPDATE `npc` SET `name` = '阿塔娜斯', `title` = '警衛' WHERE `id` = 30128;
-UPDATE `npc` SET `name` = '米特拉爾', `title` = '褐色精靈族長' WHERE `id` = 30129;
-UPDATE `npc` SET `name` = '安德理亞斯', `title` = '深淵祭司' WHERE `id` = 30130;
-UPDATE `npc` SET `name` = '初學者幫手' WHERE `id` = 30131;
-UPDATE `npc` SET `name` = '塞克提諾', `title` = '深淵祭司' WHERE `id` = 30132;
-UPDATE `npc` SET `name` = '卡勒帝亞', `title` = '深淵祭司' WHERE `id` = 30133;
-UPDATE `npc` SET `name` = '傑斯密', `title` = '守門人' WHERE `id` = 30134;
-UPDATE `npc` SET `name` = '艾理亞', `title` = '商人' WHERE `id` = 30135;
-UPDATE `npc` SET `name` = '帕因特', `title` = '商人' WHERE `id` = 30136;
-UPDATE `npc` SET `name` = '勃羅多斯', `title` = '商人' WHERE `id` = 30137;
-UPDATE `npc` SET `name` = '米娜蕾絲', `title` = '商人' WHERE `id` = 30138;
-UPDATE `npc` SET `name` = '杜藍克斯', `title` = '倉庫管理員' WHERE `id` = 30139;
-UPDATE `npc` SET `name` = '艾彼安特', `title` = '倉庫管理員' WHERE `id` = 30140;
-UPDATE `npc` SET `name` = '達爾羅斯', `title` = '長老' WHERE `id` = 30141;
-UPDATE `npc` SET `name` = '特羅帝', `title` = '大師' WHERE `id` = 30143;
-UPDATE `npc` SET `name` = '哈勒涅', `title` = '教師' WHERE `id` = 30144;
-UPDATE `npc` SET `name` = '布拉斯帝', `title` = '教師' WHERE `id` = 30145;
-UPDATE `npc` SET `name` = '米帝爾', `title` = '守門人' WHERE `id` = 30146;
-UPDATE `npc` SET `name` = '烏諾連', `title` = '商人' WHERE `id` = 30147;
-UPDATE `npc` SET `name` = '阿黎爾', `title` = '商人' WHERE `id` = 30148;
-UPDATE `npc` SET `name` = '克里米斯', `title` = '商人' WHERE `id` = 30149;
-UPDATE `npc` SET `name` = '何布帝恩', `title` = '商人' WHERE `id` = 30150;
-UPDATE `npc` SET `name` = '契德廉', `title` = '負責貨物的倉庫管理員' WHERE `id` = 30151;
-UPDATE `npc` SET `name` = '茱莉亞', `title` = '倉庫管理員' WHERE `id` = 30152;
-UPDATE `npc` SET `name` = '馬庫司', `title` = '倉庫管理員' WHERE `id` = 30153;
-UPDATE `npc` SET `name` = '阿斯特黎羅司', `title` = '長老' WHERE `id` = 30154;
-UPDATE `npc` SET `name` = '艾爾尼亞', `title` = '大師' WHERE `id` = 30155;
-UPDATE `npc` SET `name` = '科班得', `title` = '大師' WHERE `id` = 30156;
-UPDATE `npc` SET `name` = '葛雷妮絲', `title` = '教師' WHERE `id` = 30157;
-UPDATE `npc` SET `name` = '艾斯蘭德爾', `title` = '教師' WHERE `id` = 30158;
-UPDATE `npc` SET `name` = '卡琳', `title` = '守門人' WHERE `id` = 30162;
-UPDATE `npc` SET `name` = '雷克斯', `title` = '商人' WHERE `id` = 30163;
-UPDATE `npc` SET `name` = '瑞克斯', `title` = '商人' WHERE `id` = 30164;
-UPDATE `npc` SET `name` = '瑞芬', `title` = '商人' WHERE `id` = 30165;
-UPDATE `npc` SET `name` = '衛斯理', `title` = '魔法商人' WHERE `id` = 30166;
-UPDATE `npc` SET `name` = '馬蒂', `title` = '負責貨物的倉庫管理員' WHERE `id` = 30169;
-UPDATE `npc` SET `name` = '羅帝克', `title` = '倉庫管理員' WHERE `id` = 30170;
-UPDATE `npc` SET `name` = '葛烏斯', `title` = '教師' WHERE `id` = 30171;
-UPDATE `npc` SET `name` = '阿肯尼斯', `title` = '大巫師' WHERE `id` = 30174;
-UPDATE `npc` SET `name` = '法崙', `title` = '大巫師' WHERE `id` = 30175;
-UPDATE `npc` SET `name` = '巴爾雷', `title` = '大巫師' WHERE `id` = 30176;
-UPDATE `npc` SET `name` = '瓦倫蒂娜', `title` = '守門人' WHERE `id` = 30177;
-UPDATE `npc` SET `name` = '簡金', `title` = '商人' WHERE `id` = 30178;
-UPDATE `npc` SET `name` = '勞迪亞', `title` = '商人' WHERE `id` = 30179;
-UPDATE `npc` SET `name` = '莎羅', `title` = '商人' WHERE `id` = 30180;
-UPDATE `npc` SET `name` = '卡利克布雷多', `title` = '商人' WHERE `id` = 30181;
-UPDATE `npc` SET `name` = '克里弗', `title` = '負責貨物的倉庫管理員' WHERE `id` = 30182;
-UPDATE `npc` SET `name` = '海哥尼', `title` = '倉庫管理員' WHERE `id` = 30183;
-UPDATE `npc` SET `name` = '瑞高爾', `title` = '大師' WHERE `id` = 30184;
-UPDATE `npc` SET `name` = '塔尼阿克 布萊伯', `title` = '大師' WHERE `id` = 30185;
-UPDATE `npc` SET `name` = '巴恩', `title` = '大師' WHERE `id` = 30186;
-UPDATE `npc` SET `name` = '克勞斯 布萊伯', `title` = '宗師' WHERE `id` = 30187;
-UPDATE `npc` SET `name` = '瓦丁', `title` = '神官' WHERE `id` = 30188;
-UPDATE `npc` SET `name` = '勞比亞', `title` = '教師' WHERE `id` = 30189;
-UPDATE `npc` SET `name` = '帕諾比雅', `title` = '教師' WHERE `id` = 30190;
-UPDATE `npc` SET `name` = '霍爾林特', `title` = '大神官' WHERE `id` = 30191;
-UPDATE `npc` SET `name` = '達比', `title` = '大師' WHERE `id` = 30192;
-UPDATE `npc` SET `name` = '葛伊德', `title` = '教師' WHERE `id` = 30194;
-UPDATE `npc` SET `name` = '布雷克森', `title` = '宗師' WHERE `id` = 30195;
-UPDATE `npc` SET `name` = '牟恩', `title` = '警衛隊長' WHERE `id` = 30196;
-UPDATE `npc` SET `name` = '黑克', `title` = '警衛' WHERE `id` = 30197;
-UPDATE `npc` SET `name` = '傑林', `title` = '警衛' WHERE `id` = 30198;
-UPDATE `npc` SET `name` = '亞伊克', `title` = '警衛' WHERE `id` = 30199;
-UPDATE `npc` SET `name` = '史坦', `title` = '警衛' WHERE `id` = 30200;
-UPDATE `npc` SET `name` = '皮那布斯', `title` = '警衛' WHERE `id` = 30201;
-UPDATE `npc` SET `name` = '阿羅汀', `title` = '商人' WHERE `id` = 30207;
-UPDATE `npc` SET `name` = '戴勞尼斯', `title` = '商人' WHERE `id` = 30208;
-UPDATE `npc` SET `name` = '克爾里那斯', `title` = '商人' WHERE `id` = 30209;
-UPDATE `npc` SET `name` = '諾曼', `title` = '倉庫管理員' WHERE `id` = 30210;
-UPDATE `npc` SET `name` = '威廉德爾', `title` = '哨兵' WHERE `id` = 30216;
-UPDATE `npc` SET `name` = '貝里奧斯', `title` = '哨兵' WHERE `id` = 30217;
-UPDATE `npc` SET `name` = '肯德尼爾', `title` = '哨兵' WHERE `id` = 30218;
-UPDATE `npc` SET `name` = '貝爾特雷斯', `title` = '哨兵' WHERE `id` = 30219;
-UPDATE `npc` SET `name` = '斯塔帝恩', `title` = '哨兵' WHERE `id` = 30220;
-UPDATE `npc` SET `name` = '萊伊吉恩', `title` = '哨兵' WHERE `id` = 30221;
-UPDATE `npc` SET `name` = '阿爾修佩斯' WHERE `id` = 30222;
-UPDATE `npc` SET `name` = '阿路基恩' WHERE `id` = 30223;
-UPDATE `npc` SET `name` = '萊伊爾拉', `title` = '哨兵騎士' WHERE `id` = 30224;
-UPDATE `npc` SET `name` = '艾德勞克', `title` = '商人' WHERE `id` = 30230;
-UPDATE `npc` SET `name` = '葛雷特', `title` = '商人' WHERE `id` = 30231;
-UPDATE `npc` SET `name` = '索林特', `title` = '倉庫管理員' WHERE `id` = 30232;
-UPDATE `npc` SET `name` = '艾斯美拉達', `title` = '守門人' WHERE `id` = 30233;
-UPDATE `npc` SET `name` = '辛普龍', `title` = '商人' WHERE `id` = 30253;
-UPDATE `npc` SET `name` = '哈莫妮', `title` = '商人' WHERE `id` = 30254;
-UPDATE `npc` SET `name` = '哈普羅克', `title` = '倉庫管理員' WHERE `id` = 30255;
-UPDATE `npc` SET `name` = '貝拉多納', `title` = '守門人' WHERE `id` = 30256;
-UPDATE `npc` SET `name` = '阿爾特蘭', `title` = '鐵匠' WHERE `id` = 30283;
-UPDATE `npc` SET `name` = '艾貝里烏斯', `title` = '哨兵騎士' WHERE `id` = 30284;
-UPDATE `npc` SET `name` = '加特蘭道', `title` = '哨兵' WHERE `id` = 30285;
-UPDATE `npc` SET `name` = '雷因司', `title` = '宗師' WHERE `id` = 30288;
-UPDATE `npc` SET `name` = '雷門德', `title` = '大神官' WHERE `id` = 30289;
-UPDATE `npc` SET `name` = '傑諾斯', `title` = '宗師' WHERE `id` = 30290;
-UPDATE `npc` SET `name` = '阿蘭克爾', `title` = '民兵隊長' WHERE `id` = 30291;
-UPDATE `npc` SET `name` = '瑪奴維爾', `title` = '神官' WHERE `id` = 30293;
-UPDATE `npc` SET `name` = '巴蘭克德', `title` = '商人' WHERE `id` = 30294;
-UPDATE `npc` SET `name` = '拓比亞斯', `title` = '宗師' WHERE `id` = 30297;
-UPDATE `npc` SET `name` = '品特', `title` = '鐵匠' WHERE `id` = 30298;
-UPDATE `npc` SET `name` = '普西金', `title` = '鐵匠' WHERE `id` = 30300;
-UPDATE `npc` SET `name` = '哈利皮亞', `title` = '商人' WHERE `id` = 30301;
-UPDATE `npc` SET `name` = '維廖爾', `title` = '長老' WHERE `id` = 30305;
-UPDATE `npc` SET `name` = '卡羅伊德', `title` = '鐵匠' WHERE `id` = 30307;
-UPDATE `npc` SET `name` = '柯林 溫達伍德 閣下' WHERE `id` = 30311;
-UPDATE `npc` SET `name` = '諾克斯維爾', `title` = '燈塔看守人' WHERE `id` = 30312;
-UPDATE `npc` SET `name` = '阿瑟羅皮', `title` = '商人' WHERE `id` = 30313;
-UPDATE `npc` SET `name` = '尼斯特樂', `title` = '商人' WHERE `id` = 30314;
-UPDATE `npc` SET `name` = '坡西亞', `title` = '商人' WHERE `id` = 30315;
-UPDATE `npc` SET `name` = '勞特', `title` = '負責貨物的倉庫管理員' WHERE `id` = 30316;
-UPDATE `npc` SET `name` = '克魯托', `title` = '鐵匠' WHERE `id` = 30317;
-UPDATE `npc` SET `name` = '黎克林', `title` = '守門人' WHERE `id` = 30320;
-UPDATE `npc` SET `name` = '西德尼', `title` = '商人' WHERE `id` = 30321;
-UPDATE `npc` SET `name` = '巴爾孔', `title` = '負責貨物的倉庫管理員' WHERE `id` = 30322;
-UPDATE `npc` SET `name` = '奧迪貝爾堤', `title` = '大師' WHERE `id` = 30325;
-UPDATE `npc` SET `name` = '雷歐納', `title` = '大師' WHERE `id` = 30326;
-UPDATE `npc` SET `name` = '索日烏斯', `title` = '大師' WHERE `id` = 30327;
-UPDATE `npc` SET `name` = '雷奧利亞', `title` = '大師' WHERE `id` = 30328;
-UPDATE `npc` SET `name` = '維爾吉爾', `title` = '大師' WHERE `id` = 30329;
-UPDATE `npc` SET `name` = '錫德拉', `title` = '教師' WHERE `id` = 30330;
-UPDATE `npc` SET `name` = '托瑪', `title` = '警衛' WHERE `id` = 30331;
-UPDATE `npc` SET `name` = '巴堤亞', `title` = '警衛隊長' WHERE `id` = 30332;
-UPDATE `npc` SET `name` = '普拉卡', `title` = '警衛' WHERE `id` = 30333;
-UPDATE `npc` SET `name` = '巴本科', `title` = '警衛' WHERE `id` = 30334;
-UPDATE `npc` SET `name` = '布尼爾', `title` = '警衛' WHERE `id` = 30335;
-UPDATE `npc` SET `name` = '克堤茲', `title` = '警衛' WHERE `id` = 30336;
-UPDATE `npc` SET `name` = '莫列蒂', `title` = '警衛' WHERE `id` = 30337;
-UPDATE `npc` SET `name` = '梅爾維樂', `title` = '警衛' WHERE `id` = 30338;
-UPDATE `npc` SET `name` = '瓦爾薩克' WHERE `id` = 30342;
-UPDATE `npc` SET `name` = '若哈梅爾', `title` = '教師' WHERE `id` = 30344;
-UPDATE `npc` SET `name` = '拉莫妮爾', `title` = '教師' WHERE `id` = 30345;
-UPDATE `npc` SET `name` = '凱里恩', `title` = '哨兵' WHERE `id` = 30346;
-UPDATE `npc` SET `name` = '瑪力雯', `title` = '哨兵' WHERE `id` = 30347;
-UPDATE `npc` SET `name` = '尼爾西亞', `title` = '哨兵' WHERE `id` = 30348;
-UPDATE `npc` SET `name` = '潔妮恩', `title` = '哨兵' WHERE `id` = 30349;
-UPDATE `npc` SET `name` = '卡爾雷因', `title` = '負責貨物的倉庫管理員' WHERE `id` = 30350;
-UPDATE `npc` SET `name` = '阿斯塔倫' WHERE `id` = 30351;
-UPDATE `npc` SET `name` = '卡日那爾' WHERE `id` = 30352;
-UPDATE `npc` SET `name` = '傑葛西德' WHERE `id` = 30353;
-UPDATE `npc` SET `name` = '傑維爾' WHERE `id` = 30354;
-UPDATE `npc` SET `name` = '露絲林', `title` = '哨兵' WHERE `id` = 30355;
-UPDATE `npc` SET `name` = '阿爾提米斯', `title` = '哨兵' WHERE `id` = 30356;
-UPDATE `npc` SET `name` = '克爾平歐恩', `title` = '哨兵' WHERE `id` = 30357;
-UPDATE `npc` SET `name` = '提費爾', `title` = '大長老' WHERE `id` = 30358;
-UPDATE `npc` SET `name` = '凱塔爾', `title` = '長老' WHERE `id` = 30359;
-UPDATE `npc` SET `name` = '哈蘭特', `title` = '大師' WHERE `id` = 30360;
-UPDATE `npc` SET `name` = '黎茲賴爾' WHERE `id` = 30361;
-UPDATE `npc` SET `name` = '安德莉亞' WHERE `id` = 30362;
-UPDATE `npc` SET `name` = '艾歐斯', `title` = '鐵匠' WHERE `id` = 30363;
-UPDATE `npc` SET `name` = '莉里絲' WHERE `id` = 30368;
-UPDATE `npc` SET `name` = '伯納德斯', `title` = '大師' WHERE `id` = 30369;
-UPDATE `npc` SET `name` = '娜魯帕' WHERE `id` = 30370;
-UPDATE `npc` SET `name` = '塔里亞' WHERE `id` = 30371;
-UPDATE `npc` SET `name` = '拉莫斯', `title` = '宗師' WHERE `id` = 30373;
-UPDATE `npc` SET `name` = '爾和迪爾', `title` = '大師' WHERE `id` = 30374;
-UPDATE `npc` SET `name` = '阿多紐斯', `title` = '神官' WHERE `id` = 30375;
-UPDATE `npc` SET `name` = '尼爾', `title` = '教師' WHERE `id` = 30376;
-UPDATE `npc` SET `name` = '塔爾波特', `title` = '教師' WHERE `id` = 30377;
-UPDATE `npc` SET `name` = '艾斯卡爾', `title` = '大師' WHERE `id` = 30378;
-UPDATE `npc` SET `name` = '貝茲庫', `title` = '警衛隊長' WHERE `id` = 30379;
-UPDATE `npc` SET `name` = '普林克', `title` = '警衛' WHERE `id` = 30380;
-UPDATE `npc` SET `name` = '艾爾瓦哈', `title` = '警衛' WHERE `id` = 30381;
-UPDATE `npc` SET `name` = '雷坎', `title` = '警衛' WHERE `id` = 30382;
-UPDATE `npc` SET `name` = '斯科特', `title` = '警衛' WHERE `id` = 30383;
-UPDATE `npc` SET `name` = '琳楚斯', `title` = '警衛' WHERE `id` = 30384;
-UPDATE `npc` SET `name` = '威斯茲', `title` = '警衛' WHERE `id` = 30385;
-UPDATE `npc` SET `name` = '路易斯', `title` = '警衛' WHERE `id` = 30386;
-UPDATE `npc` SET `name` = '克蘭西', `title` = '碼頭管理員' WHERE `id` = 30387;
-UPDATE `npc` SET `name` = '帕瑞那' WHERE `id` = 30391;
-UPDATE `npc` SET `name` = '初學者幫手' WHERE `id` = 30400;
-UPDATE `npc` SET `name` = '初學者幫手' WHERE `id` = 30401;
-UPDATE `npc` SET `name` = '初學者幫手' WHERE `id` = 30402;
-UPDATE `npc` SET `name` = '初學者幫手' WHERE `id` = 30403;
-UPDATE `npc` SET `name` = '初學者幫手' WHERE `id` = 30404;
-UPDATE `npc` SET `name` = '馬利尤斯' WHERE `id` = 30405;
-UPDATE `npc` SET `name` = '瑪鐵歐' WHERE `id` = 30406;
-UPDATE `npc` SET `name` = '梅瑟拉' WHERE `id` = 30407;
-UPDATE `npc` SET `name` = '勒莫尼爾' WHERE `id` = 30408;
-UPDATE `npc` SET `name` = '大地之蛇' WHERE `id` = 30409;
-UPDATE `npc` SET `name` = '荒原蜥蜴人' WHERE `id` = 30410;
-UPDATE `npc` SET `name` = '燃燒的火蜥蜴' WHERE `id` = 30411;
-UPDATE `npc` SET `name` = '風妖精' WHERE `id` = 30412;
-UPDATE `npc` SET `name` = '水妖精' WHERE `id` = 30413;
-UPDATE `npc` SET `name` = '羅格里亞' WHERE `id` = 30414;
-UPDATE `npc` SET `name` = '查爾克仁' WHERE `id` = 30415;
-UPDATE `npc` SET `name` = '特瑞斯克爾' WHERE `id` = 30416;
-UPDATE `npc` SET `name` = '卡瑞 巴司柏 閣下' WHERE `id` = 30417;
-UPDATE `npc` SET `name` = '安瑟利' WHERE `id` = 30418;
-UPDATE `npc` SET `name` = '阿爾克尼亞', `title` = '巫女' WHERE `id` = 30419;
-UPDATE `npc` SET `name` = '特威提' WHERE `id` = 30420;
-UPDATE `npc` SET `name` = '瓦瑞卡', `title` = '巫女' WHERE `id` = 30421;
-UPDATE `npc` SET `name` = '卡林塔', `title` = '深淵祭司' WHERE `id` = 30422;
-UPDATE `npc` SET `name` = '諾爾思溫德' WHERE `id` = 30423;
-UPDATE `npc` SET `name` = '亞拉娜' WHERE `id` = 30424;
-UPDATE `npc` SET `name` = '奈提' WHERE `id` = 30425;
-UPDATE `npc` SET `name` = '普雷根' WHERE `id` = 30426;
-UPDATE `npc` SET `name` = '次風', `title` = '守門人' WHERE `id` = 30427;
-UPDATE `npc` SET `name` = '裴琳' WHERE `id` = 30428;
-UPDATE `npc` SET `name` = '提拉米斯', `title` = '守門人' WHERE `id` = 30429;
-UPDATE `npc` SET `name` = '特利歐尼爾', `title` = '哨兵' WHERE `id` = 30430;
-UPDATE `npc` SET `name` = '艾里爾', `title` = '哨兵' WHERE `id` = 30431;
-UPDATE `npc` SET `name` = '艾伊琳', `title` = '哨兵' WHERE `id` = 30432;
-UPDATE `npc` SET `name` = '卡提戴', `title` = '哨兵' WHERE `id` = 30433;
-UPDATE `npc` SET `name` = '薩梅德' WHERE `id` = 30434;
-UPDATE `npc` SET `name` = '雷歐波爾德' WHERE `id` = 30435;
-UPDATE `npc` SET `name` = '薩里恩特', `title` = '商人' WHERE `id` = 30436;
-UPDATE `npc` SET `name` = '羅倫陶', `title` = '商人' WHERE `id` = 30437;
-UPDATE `npc` SET `name` = '庫爾提斯', `title` = '警衛' WHERE `id` = 30452;
-UPDATE `npc` SET `name` = '坡伊坦', `title` = '鐵匠' WHERE `id` = 30458;
-UPDATE `npc` SET `name` = '萬迪烏斯', `title` = '大師' WHERE `id` = 30459;
-UPDATE `npc` SET `name` = '卡爾狄恩', `title` = '大師' WHERE `id` = 30460;
-UPDATE `npc` SET `name` = '米麗恩', `title` = '教師' WHERE `id` = 30461;
-UPDATE `npc` SET `name` = '特若尼克斯', `title` = '宗師' WHERE `id` = 30462;
-UPDATE `npc` SET `name` = '伊夏', `title` = '大師' WHERE `id` = 30463;
-UPDATE `npc` SET `name` = '克萊頓', `title` = '教師' WHERE `id` = 30464;
-UPDATE `npc` SET `name` = '哈爾帆', `title` = '警衛' WHERE `id` = 30465;
-UPDATE `npc` SET `name` = '布萊特', `title` = '警衛' WHERE `id` = 30466;
-UPDATE `npc` SET `name` = '約拿斯' WHERE `id` = 30469;
-UPDATE `npc` SET `name` = '魯皮奧', `title` = '鐵匠' WHERE `id` = 30471;
-UPDATE `npc` SET `name` = '立貝黎亞', `title` = '大師' WHERE `id` = 30472;
-UPDATE `npc` SET `name` = '班德羅斯', `title` = '神官' WHERE `id` = 30473;
-UPDATE `npc` SET `name` = '安古斯', `title` = '宗師' WHERE `id` = 30474;
-UPDATE `npc` SET `name` = '斯塔皮伊恩', `title` = '大師' WHERE `id` = 30475;
-UPDATE `npc` SET `name` = '凱拉', `title` = '教師' WHERE `id` = 30476;
-UPDATE `npc` SET `name` = '歐爾托 廉瑟 閣下' WHERE `id` = 30477;
-UPDATE `npc` SET `name` = '雷金', `title` = '警衛' WHERE `id` = 30478;
-UPDATE `npc` SET `name` = '莫查雷拉', `title` = '守門人' WHERE `id` = 30483;
-UPDATE `npc` SET `name` = '潘帝娜', `title` = '守門人' WHERE `id` = 30484;
-UPDATE `npc` SET `name` = '卡貝黎尼', `title` = '守門人' WHERE `id` = 30485;
-UPDATE `npc` SET `name` = '哈巴堤', `title` = '守門人' WHERE `id` = 30486;
-UPDATE `npc` SET `name` = '貝內', `title` = '守門人' WHERE `id` = 30487;
-UPDATE `npc` SET `name` = '艾德蒙' WHERE `id` = 30497;
-UPDATE `npc` SET `name` = '莫克', `title` = '倉庫管理員老闆' WHERE `id` = 30498;
-UPDATE `npc` SET `name` = '塔波伊', `title` = '鐵匠師傅' WHERE `id` = 30499;
-UPDATE `npc` SET `name` = '歐斯本', `title` = '大團長' WHERE `id` = 30500;
-UPDATE `npc` SET `name` = '卡斯曼', `title` = '團長' WHERE `id` = 30501;
-UPDATE `npc` SET `name` = '烏穆斯', `title` = '預言者' WHERE `id` = 30502;
-UPDATE `npc` SET `name` = '瑞卡帝奧', `title` = '倉庫管理員老闆' WHERE `id` = 30503;
-UPDATE `npc` SET `name` = '曼帝奧', `title` = '鐵匠師傅' WHERE `id` = 30504;
-UPDATE `npc` SET `name` = '德里克斯', `title` = '大團長' WHERE `id` = 30505;
-UPDATE `npc` SET `name` = '布卡', `title` = '團長' WHERE `id` = 30506;
-UPDATE `npc` SET `name` = '拉凱', `title` = '預言者' WHERE `id` = 30507;
-UPDATE `npc` SET `name` = '蕭納爾', `title` = '大團長' WHERE `id` = 30508;
-UPDATE `npc` SET `name` = '督克', `title` = '團長' WHERE `id` = 30509;
-UPDATE `npc` SET `name` = '梭馬克', `title` = '預言者' WHERE `id` = 30510;
-UPDATE `npc` SET `name` = '哥斯徒', `title` = '倉庫管理員老闆' WHERE `id` = 30511;
-UPDATE `npc` SET `name` = '庫斯吐', `title` = '鐵匠師傅' WHERE `id` = 30512;
-UPDATE `npc` SET `name` = '布那吐斯', `title` = '大團長' WHERE `id` = 30513;
-UPDATE `npc` SET `name` = '伯其恩', `title` = '團長' WHERE `id` = 30514;
-UPDATE `npc` SET `name` = '瑪拉其亞', `title` = '預言者' WHERE `id` = 30515;
-UPDATE `npc` SET `name` = '黎普', `title` = '商人' WHERE `id` = 30516;
-UPDATE `npc` SET `name` = '恰里', `title` = '商人' WHERE `id` = 30517;
-UPDATE `npc` SET `name` = '卡黎塔', `title` = '商人' WHERE `id` = 30518;
-UPDATE `npc` SET `name` = '米恩', `title` = '商人' WHERE `id` = 30519;
-UPDATE `npc` SET `name` = '里德', `title` = '倉庫管理員老闆' WHERE `id` = 30520;
-UPDATE `npc` SET `name` = '摩普琳', `title` = '負責貨物的倉庫管理員' WHERE `id` = 30521;
-UPDATE `npc` SET `name` = '艾兒黎', `title` = '倉庫管理員' WHERE `id` = 30522;
-UPDATE `npc` SET `name` = '高普', `title` = '收藏家' WHERE `id` = 30523;
-UPDATE `npc` SET `name` = '皮皮', `title` = '收藏家' WHERE `id` = 30524;
-UPDATE `npc` SET `name` = '布隆克', `title` = '鐵匠師傅' WHERE `id` = 30525;
-UPDATE `npc` SET `name` = '白龍普', `title` = '鐵匠' WHERE `id` = 30526;
-UPDATE `npc` SET `name` = '希爾貝黎', `title` = '鐵匠' WHERE `id` = 30527;
-UPDATE `npc` SET `name` = '拉培倫', `title` = '監督官' WHERE `id` = 30528;
-UPDATE `npc` SET `name` = '瑪侖', `title` = '礦工' WHERE `id` = 30529;
-UPDATE `npc` SET `name` = '初學者幫手' WHERE `id` = 30530;
-UPDATE `npc` SET `name` = '拉克琳', `title` = '元老長' WHERE `id` = 30531;
-UPDATE `npc` SET `name` = '司斐侖', `title` = '元老 ' WHERE `id` = 30532;
-UPDATE `npc` SET `name` = '巴蘭克', `title` = '元老 ' WHERE `id` = 30533;
-UPDATE `npc` SET `name` = '克普', `title` = '元老 ' WHERE `id` = 30534;
-UPDATE `npc` SET `name` = '斐拉爾', `title` = '元老 ' WHERE `id` = 30535;
-UPDATE `npc` SET `name` = '亞琳', `title` = '元老 ' WHERE `id` = 30536;
-UPDATE `npc` SET `name` = '達伊齊爾', `title` = '大地神官長' WHERE `id` = 30537;
-UPDATE `npc` SET `name` = '吉門普', `title` = '大地神官' WHERE `id` = 30538;
-UPDATE `npc` SET `name` = '齊齊琳', `title` = '大地神官' WHERE `id` = 30539;
-UPDATE `npc` SET `name` = '威爾比', `title` = '守門人' WHERE `id` = 30540;
-UPDATE `npc` SET `name` = '派恩', `title` = '保護者' WHERE `id` = 30541;
-UPDATE `npc` SET `name` = '魯南特', `title` = '守護者' WHERE `id` = 30542;
-UPDATE `npc` SET `name` = '夜歐騰', `title` = '守護者' WHERE `id` = 30543;
-UPDATE `npc` SET `name` = '克倫威爾', `title` = '守護者' WHERE `id` = 30544;
-UPDATE `npc` SET `name` = '布魯騰', `title` = '守護者' WHERE `id` = 30545;
-UPDATE `npc` SET `name` = '鄧克', `title` = '守護者' WHERE `id` = 30546;
-UPDATE `npc` SET `name` = '塔蒂文', `title` = '守護者' WHERE `id` = 30547;
-UPDATE `npc` SET `name` = '南森', `title` = '守護者' WHERE `id` = 30548;
-UPDATE `npc` SET `name` = '谷黎夫 達普史東' WHERE `id` = 30549;
-UPDATE `npc` SET `name` = '卡烏里 提恩洛克' WHERE `id` = 30550;
-UPDATE `npc` SET `name` = '堤恩克' WHERE `id` = 30551;
-UPDATE `npc` SET `name` = '克利巴 克史東' WHERE `id` = 30552;
-UPDATE `npc` SET `name` = '瑪里夫紅帽' WHERE `id` = 30553;
-UPDATE `npc` SET `name` = '波特', `title` = '礦工' WHERE `id` = 30554;
-UPDATE `npc` SET `name` = '吐魯克', `title` = '信差' WHERE `id` = 30555;
-UPDATE `npc` SET `name` = '多瑪', `title` = '大師' WHERE `id` = 30556;
-UPDATE `npc` SET `name` = '托萊' WHERE `id` = 30557;
-UPDATE `npc` SET `name` = '傑克潤', `title` = '商人' WHERE `id` = 30558;
-UPDATE `npc` SET `name` = '庫奈', `title` = '商人' WHERE `id` = 30559;
-UPDATE `npc` SET `name` = '烏斯卡', `title` = '商人' WHERE `id` = 30560;
-UPDATE `npc` SET `name` = '帕普瑪', `title` = '商人' WHERE `id` = 30561;
-UPDATE `npc` SET `name` = '魯恩', `title` = '倉庫管理員' WHERE `id` = 30562;
-UPDATE `npc` SET `name` = '伊曼吐', `title` = '負責貨物的倉庫管理員' WHERE `id` = 30563;
-UPDATE `npc` SET `name` = '蘇瑪黎', `title` = '鐵匠' WHERE `id` = 30564;
-UPDATE `npc` SET `name` = '卡卡伊', `title` = '火之君主' WHERE `id` = 30565;
-UPDATE `npc` SET `name` = '巴勒庫斯', `title` = '阿吐巴首領' WHERE `id` = 30566;
-UPDATE `npc` SET `name` = '泰吐斯', `title` = '那魯加首領' WHERE `id` = 30567;
-UPDATE `npc` SET `name` = '哈拓斯', `title` = '烏魯吐首領' WHERE `id` = 30568;
-UPDATE `npc` SET `name` = '布魯克斯', `title` = '團長' WHERE `id` = 30569;
-UPDATE `npc` SET `name` = '卡魯奇亞', `title` = '團長' WHERE `id` = 30570;
-UPDATE `npc` SET `name` = '塔那比', `title` = '預言者' WHERE `id` = 30571;
-UPDATE `npc` SET `name` = '利維那', `title` = '預言者' WHERE `id` = 30572;
-UPDATE `npc` SET `name` = '布爾克斯', `title` = '火之守護神' WHERE `id` = 30573;
-UPDATE `npc` SET `name` = '初學者幫手' WHERE `id` = 30575;
-UPDATE `npc` SET `name` = '坦米爾', `title` = '守門人' WHERE `id` = 30576;
-UPDATE `npc` SET `name` = '盧卡恩', `title` = '執政官' WHERE `id` = 30577;
-UPDATE `npc` SET `name` = '納庫辛', `title` = '百人隊長' WHERE `id` = 30578;
-UPDATE `npc` SET `name` = '塔麥', `title` = '百人隊長' WHERE `id` = 30579;
-UPDATE `npc` SET `name` = '帕魯根', `title` = '百人隊長' WHERE `id` = 30580;
-UPDATE `npc` SET `name` = '歐瑞納克', `title` = '百人隊長' WHERE `id` = 30581;
-UPDATE `npc` SET `name` = '提克', `title` = '百人隊長' WHERE `id` = 30582;
-UPDATE `npc` SET `name` = '巴特凱', `title` = '百人隊長' WHERE `id` = 30583;
-UPDATE `npc` SET `name` = '巴布克', `title` = '百人隊長' WHERE `id` = 30584;
-UPDATE `npc` SET `name` = '塔塔魯 蘇 黑斯吐伊' WHERE `id` = 30585;
-UPDATE `npc` SET `name` = '阿奈 蘇 那魯加' WHERE `id` = 30586;
-UPDATE `npc` SET `name` = '坎塔克 蘇 烏魯吐' WHERE `id` = 30587;
-UPDATE `npc` SET `name` = '塔卡 蘇 都達瑪拉' WHERE `id` = 30588;
-UPDATE `npc` SET `name` = '卡芝肯 蘇 甘地' WHERE `id` = 30589;
-UPDATE `npc` SET `name` = '羅西克', `title` = '卡巴塔里' WHERE `id` = 30590;
-UPDATE `npc` SET `name` = '托魯庫', `title` = '卡巴塔里' WHERE `id` = 30591;
-UPDATE `npc` SET `name` = '黑斯吐伊圖騰靈' WHERE `id` = 30592;
-UPDATE `npc` SET `name` = '都達瑪拉圖騰靈' WHERE `id` = 30593;
-UPDATE `npc` SET `name` = '蘭伯斯', `title` = '倉庫管理員老闆' WHERE `id` = 30594;
-UPDATE `npc` SET `name` = '奧皮斯', `title` = '鐵匠師傅' WHERE `id` = 30595;
-UPDATE `npc` SET `name` = '哈克爾', `title` = '帕提森守門人' WHERE `id` = 30596;
-UPDATE `npc` SET `name` = '皮歐特' WHERE `id` = 30597;
-UPDATE `npc` SET `name` = '初學者嚮導' WHERE `id` = 30598;
-UPDATE `npc` SET `name` = '初學者嚮導' WHERE `id` = 30599;
-UPDATE `npc` SET `name` = '初學者嚮導' WHERE `id` = 30600;
-UPDATE `npc` SET `name` = '初學者嚮導' WHERE `id` = 30601;
-UPDATE `npc` SET `name` = '初學者嚮導' WHERE `id` = 30602;
-UPDATE `npc` SET `name` = '瑪利亞' WHERE `id` = 30608;
-UPDATE `npc` SET `name` = '克瑞塔', `title` = '占星術士' WHERE `id` = 30609;
-UPDATE `npc` SET `name` = '克洛諾斯', `title` = '賢者' WHERE `id` = 30610;
-UPDATE `npc` SET `name` = '特黎夫', `title` = '醉鬼' WHERE `id` = 30611;
-UPDATE `npc` SET `name` = '卡席安', `title` = '賢者' WHERE `id` = 30612;
-UPDATE `npc` SET `name` = '艾爾杜斯之靈' WHERE `id` = 30613;
-UPDATE `npc` SET `name` = '梅德休斯', `title` = '修士' WHERE `id` = 30614;
-UPDATE `npc` SET `name` = '伏特爾', `title` = '布賴卡首領' WHERE `id` = 30615;
-UPDATE `npc` SET `name` = '開普拉', `title` = '安庫首領' WHERE `id` = 30616;
-UPDATE `npc` SET `name` = '布萊', `title` = '土瑞克首領' WHERE `id` = 30617;
-UPDATE `npc` SET `name` = '哈勒克', `title` = '雷沃恩特首領' WHERE `id` = 30618;
-UPDATE `npc` SET `name` = '德里', `title` = '普庫首領' WHERE `id` = 30619;
-UPDATE `npc` SET `name` = '艾米俐' WHERE `id` = 30620;
-UPDATE `npc` SET `name` = '尼古拉', `title` = '巨匠' WHERE `id` = 30621;
-UPDATE `npc` SET `name` = '下巨人之箱' WHERE `id` = 30622;
-UPDATE `npc` SET `name` = '凱恩', `title` = '決鬥者' WHERE `id` = 30623;
-UPDATE `npc` SET `name` = '艾斯卡倫', `title` = '老兵' WHERE `id` = 30624;
-UPDATE `npc` SET `name` = '瑪森' WHERE `id` = 30625;
-UPDATE `npc` SET `name` = '漢彌爾', `title` = '人馬' WHERE `id` = 30626;
-UPDATE `npc` SET `name` = '樹' WHERE `id` = 30627;
-UPDATE `npc` SET `name` = '結實的木盒' WHERE `id` = 30628;
-UPDATE `npc` SET `name` = '露凱', `title` = '吟遊詩人' WHERE `id` = 30629;
-UPDATE `npc` SET `name` = '奧瑞米', `title` = '暗影者' WHERE `id` = 30630;
-UPDATE `npc` SET `name` = '羅德力克', `title` = '典獄長' WHERE `id` = 30631;
-UPDATE `npc` SET `name` = '安德利格', `title` = '典獄長' WHERE `id` = 30632;
-UPDATE `npc` SET `name` = '伊弗特', `title` = '漁夫' WHERE `id` = 30633;
-UPDATE `npc` SET `name` = '葛拉緹亞', `title` = '高等元素使' WHERE `id` = 30634;
-UPDATE `npc` SET `name` = '艾爾摩斯', `title` = '元素使' WHERE `id` = 30635;
-UPDATE `npc` SET `name` = '坎摩尼爾', `title` = '元素使' WHERE `id` = 30636;
-UPDATE `npc` SET `name` = '貝瑟斯', `title` = '元素使' WHERE `id` = 30637;
-UPDATE `npc` SET `name` = '巴賽里拉', `title` = '元素使' WHERE `id` = 30638;
-UPDATE `npc` SET `name` = '凱薩緹歐', `title` = '元素使' WHERE `id` = 30639;
-UPDATE `npc` SET `name` = '布萊恩里', `title` = '元素使' WHERE `id` = 30640;
-UPDATE `npc` SET `name` = '塔庫納', `title` = '都達瑪拉首領' WHERE `id` = 30641;
-UPDATE `npc` SET `name` = '齊安塔', `title` = '甘地首領' WHERE `id` = 30642;
-UPDATE `npc` SET `name` = '太初半獸人' WHERE `id` = 30643;
-UPDATE `npc` SET `name` = '凱許' WHERE `id` = 30644;
-UPDATE `npc` SET `name` = '馬爾提安' WHERE `id` = 30645;
-UPDATE `npc` SET `name` = '羅多', `title` = '鬥王' WHERE `id` = 30646;
-UPDATE `npc` SET `name` = '西斯拉瑟的寶箱' WHERE `id` = 30647;
-UPDATE `npc` SET `name` = '聖地牙哥', `title` = '隱者' WHERE `id` = 30648;
-UPDATE `npc` SET `name` = '始祖 瑪田庫斯' WHERE `id` = 30649;
-UPDATE `npc` SET `name` = '吉安德', `title` = '大地神官' WHERE `id` = 30650;
-UPDATE `npc` SET `name` = '杜夫', `title` = '流浪漢' WHERE `id` = 30651;
-UPDATE `npc` SET `name` = '烏魯哈' WHERE `id` = 30652;
-UPDATE `npc` SET `name` = '阿龍 坦佛爾德 閣下' WHERE `id` = 30653;
-UPDATE `npc` SET `name` = '夜鷹克爾 閣下' WHERE `id` = 30654;
-UPDATE `npc` SET `name` = '銀影 伊塞兒' WHERE `id` = 30655;
-UPDATE `npc` SET `name` = '塔利亞斯之魂' WHERE `id` = 30656;
-UPDATE `npc` SET `name` = '瑟瑞辛', `title` = '樞機主教' WHERE `id` = 30657;
-UPDATE `npc` SET `name` = '古菩', `title` = '孤兒院院長' WHERE `id` = 30658;
-UPDATE `npc` SET `name` = '孤女' WHERE `id` = 30659;
-UPDATE `npc` SET `name` = '溫蒂修琳' WHERE `id` = 30660;
-UPDATE `npc` SET `name` = '神祕的黑暗精靈' WHERE `id` = 30661;
-UPDATE `npc` SET `name` = '長弓 皮比爾' WHERE `id` = 30662;
-UPDATE `npc` SET `name` = '閃耀之刀 史雷因' WHERE `id` = 30663;
-UPDATE `npc` SET `name` = '飛刀 凱因' WHERE `id` = 30664;
-UPDATE `npc` SET `name` = '克莉絲蒂娜', `title` = '聖者' WHERE `id` = 30665;
-UPDATE `npc` SET `name` = '史拉', `title` = '傳教士' WHERE `id` = 30666;
-UPDATE `npc` SET `name` = '拉姆斯' WHERE `id` = 30667;
-UPDATE `npc` SET `name` = '卡塔利' WHERE `id` = 30668;
-UPDATE `npc` SET `name` = '卡康' WHERE `id` = 30669;
-UPDATE `npc` SET `name` = '尼庫利' WHERE `id` = 30670;
-UPDATE `npc` SET `name` = '克羅托', `title` = '首領' WHERE `id` = 30671;
-UPDATE `npc` SET `name` = '杜巴巴', `title` = '獄卒' WHERE `id` = 30672;
-UPDATE `npc` SET `name` = '羅萊恩', `title` = '調查員' WHERE `id` = 30673;
-UPDATE `npc` SET `name` = '道琳 哈瑪克拉許' WHERE `id` = 30674;
-UPDATE `npc` SET `name` = '卡謬兒的屍體' WHERE `id` = 30675;
-UPDATE `npc` SET `name` = '庫羅普', `title` = '倉庫管理員老闆' WHERE `id` = 30676;
-UPDATE `npc` SET `name` = '弗露特', `title` = '鐵匠師傅' WHERE `id` = 30677;
-UPDATE `npc` SET `name` = '希爾頓', `title` = '鐵匠' WHERE `id` = 30678;
-UPDATE `npc` SET `name` = '羅摩亞', `title` = '大師' WHERE `id` = 30679;
-UPDATE `npc` SET `name` = '伊格諾司', `title` = '神官' WHERE `id` = 30680;
-UPDATE `npc` SET `name` = '凱瑞亞', `title` = '大團長' WHERE `id` = 30681;
-UPDATE `npc` SET `name` = '佩克隆', `title` = '預言者' WHERE `id` = 30682;
-UPDATE `npc` SET `name` = '丹特', `title` = '團長' WHERE `id` = 30683;
-UPDATE `npc` SET `name` = '畢克特', `title` = '商人' WHERE `id` = 30684;
-UPDATE `npc` SET `name` = '巴克斯特', `title` = '倉庫管理員老闆' WHERE `id` = 30685;
-UPDATE `npc` SET `name` = '席娃', `title` = '負責貨物的倉庫管理員' WHERE `id` = 30686;
-UPDATE `npc` SET `name` = '沃格拉', `title` = '鐵匠師傅' WHERE `id` = 30687;
-UPDATE `npc` SET `name` = '丹寧', `title` = '鐵匠' WHERE `id` = 30688;
-UPDATE `npc` SET `name` = '席理雅', `title` = '宗師' WHERE `id` = 30689;
-UPDATE `npc` SET `name` = '露樂', `title` = '大師' WHERE `id` = 30690;
-UPDATE `npc` SET `name` = '威廉 亞太法特', `title` = '大師' WHERE `id` = 30691;
-UPDATE `npc` SET `name` = '史泰德米歐', `title` = '大師' WHERE `id` = 30692;
-UPDATE `npc` SET `name` = '昆妮恩', `title` = '大師' WHERE `id` = 30693;
-UPDATE `npc` SET `name` = '史凱瀨德', `title` = '大巫師' WHERE `id` = 30694;
-UPDATE `npc` SET `name` = '摩瑟司', `title` = '教師' WHERE `id` = 30695;
-UPDATE `npc` SET `name` = '佩格', `title` = '教師' WHERE `id` = 30696;
-UPDATE `npc` SET `name` = '維德瑞恩', `title` = '教師' WHERE `id` = 30697;
-UPDATE `npc` SET `name` = '伊芙琳', `title` = '教師' WHERE `id` = 30698;
-UPDATE `npc` SET `name` = '梅登', `title` = '宗師' WHERE `id` = 30699;
-UPDATE `npc` SET `name` = '普利斯坦', `title` = '大師' WHERE `id` = 30700;
-UPDATE `npc` SET `name` = '伊利肯', `title` = '教師' WHERE `id` = 30701;
-UPDATE `npc` SET `name` = '伯納德', `title` = '獵人公會會長' WHERE `id` = 30702;
-UPDATE `npc` SET `name` = '柯林', `title` = '獵人公會會員' WHERE `id` = 30703;
-UPDATE `npc` SET `name` = '加維瑞特茲', `title` = '大團長' WHERE `id` = 30704;
-UPDATE `npc` SET `name` = '查克里斯', `title` = '團長' WHERE `id` = 30705;
-UPDATE `npc` SET `name` = '拉占比', `title` = '預言者' WHERE `id` = 30706;
-UPDATE `npc` SET `name` = '萊金', `title` = '警衛隊長' WHERE `id` = 30707;
-UPDATE `npc` SET `name` = '拿塞', `title` = '警衛' WHERE `id` = 30708;
-UPDATE `npc` SET `name` = '諾頓', `title` = '警衛' WHERE `id` = 30709;
-UPDATE `npc` SET `name` = '衛斯理', `title` = '警衛' WHERE `id` = 30710;
-UPDATE `npc` SET `name` = '拜侖', `title` = '警衛' WHERE `id` = 30711;
-UPDATE `npc` SET `name` = '馬克西斯', `title` = '警衛' WHERE `id` = 30712;
-UPDATE `npc` SET `name` = '高德訥', `title` = '警衛' WHERE `id` = 30713;
-UPDATE `npc` SET `name` = '派洛司', `title` = '警衛' WHERE `id` = 30714;
-UPDATE `npc` SET `name` = '瑪莉娜', `title` = '教師' WHERE `id` = 30715;
-UPDATE `npc` SET `name` = '西索', `title` = '守門人' WHERE `id` = 30716;
-UPDATE `npc` SET `name` = '高恩', `title` = '教師' WHERE `id` = 30717;
-UPDATE `npc` SET `name` = '瓊恩', `title` = '教師' WHERE `id` = 30718;
-UPDATE `npc` SET `name` = '瑪瑞歐', `title` = '守門人' WHERE `id` = 30719;
-UPDATE `npc` SET `name` = '凱因娜', `title` = '教師' WHERE `id` = 30720;
-UPDATE `npc` SET `name` = '拉德', `title` = '教師' WHERE `id` = 30721;
-UPDATE `npc` SET `name` = '墨萊恩', `title` = '守門人' WHERE `id` = 30722;
-UPDATE `npc` SET `name` = '羅伊', `title` = '警衛隊長' WHERE `id` = 30723;
-UPDATE `npc` SET `name` = '泰弗林恩', `title` = '警衛' WHERE `id` = 30724;
-UPDATE `npc` SET `name` = '殷寧', `title` = '警衛' WHERE `id` = 30725;
-UPDATE `npc` SET `name` = '泰勃司', `title` = '警衛' WHERE `id` = 30726;
-UPDATE `npc` SET `name` = '費蘿娜', `title` = '守門人' WHERE `id` = 30727;
-UPDATE `npc` SET `name` = '理爾殷', `title` = '民兵' WHERE `id` = 30728;
-UPDATE `npc` SET `name` = '柏路思', `title` = '醉鬼' WHERE `id` = 30729;
-UPDATE `npc` SET `name` = '傑克斯', `title` = '保鑣' WHERE `id` = 30730;
-UPDATE `npc` SET `name` = '馬汀', `title` = '寵物管理員' WHERE `id` = 30731;
-UPDATE `npc` SET `name` = '豺狼朝聖者 皮爾蓋姆' WHERE `id` = 30732;
-UPDATE `npc` SET `name` = '警衛弓兵' WHERE `id` = 30733;
-UPDATE `npc` SET `name` = '港口的補給品箱子' WHERE `id` = 30734;
-UPDATE `npc` SET `name` = '索比亞', `title` = '傭兵隊長' WHERE `id` = 30735;
-UPDATE `npc` SET `name` = '雷德普', `title` = '傭兵' WHERE `id` = 30736;
-UPDATE `npc` SET `name` = '摩根', `title` = '獵人' WHERE `id` = 30737;
-UPDATE `npc` SET `name` = '馬堤爾德', `title` = '鍊金術士' WHERE `id` = 30738;
-UPDATE `npc` SET `name` = '狐狗', `title` = '大臣' WHERE `id` = 30739;
-UPDATE `npc` SET `name` = '蛤蟆', `title` = '大臣' WHERE `id` = 30740;
-UPDATE `npc` SET `name` = '兔子', `title` = '大臣' WHERE `id` = 30741;
-UPDATE `npc` SET `name` = '魯皮娜', `title` = '愛情妖精' WHERE `id` = 30742;
-UPDATE `npc` SET `name` = '智慧的箱子' WHERE `id` = 30743;
-UPDATE `npc` SET `name` = '葛雷', `title` = '獵人公會會員' WHERE `id` = 30744;
-UPDATE `npc` SET `name` = '托勒', `title` = '獵人公會會員' WHERE `id` = 30745;
-UPDATE `npc` SET `name` = '齊白霖' WHERE `id` = 30746;
-UPDATE `npc` SET `name` = '米莫', `title` = '妖精' WHERE `id` = 30747;
-UPDATE `npc` SET `name` = '艾薩里恩', `title` = '飛龍' WHERE `id` = 30748;
-UPDATE `npc` SET `name` = '座芙', `title` = '飛龍' WHERE `id` = 30749;
-UPDATE `npc` SET `name` = '卡理布藍', `title` = '飛龍' WHERE `id` = 30750;
-UPDATE `npc` SET `name` = '舒簡特', `title` = '亞龍' WHERE `id` = 30751;
-UPDATE `npc` SET `name` = '桑骸', `title` = '亞龍' WHERE `id` = 30752;
-UPDATE `npc` SET `name` = '加布里爾' WHERE `id` = 30753;
-UPDATE `npc` SET `name` = '吉姆歐', `title` = '安塔瑞斯的監視者' WHERE `id` = 30754;
-UPDATE `npc` SET `name` = '泰奧德黎', `title` = '安塔瑞斯的監視者' WHERE `id` = 30755;
-UPDATE `npc` SET `name` = '克里斯托 洛德瑪依 卿' WHERE `id` = 30756;
-UPDATE `npc` SET `name` = '祭物之像' WHERE `id` = 30757;
-UPDATE `npc` SET `name` = '阿特萊雅', `title` = '魔女' WHERE `id` = 30758;
-UPDATE `npc` SET `name` = '克莉斯', `title` = '魔女' WHERE `id` = 30759;
-UPDATE `npc` SET `name` = '古斯達夫 亞太法特 卿' WHERE `id` = 30760;
-UPDATE `npc` SET `name` = '敷立茲的屍體' WHERE `id` = 30761;
-UPDATE `npc` SET `name` = '魯茲的屍體' WHERE `id` = 30762;
-UPDATE `npc` SET `name` = '葛魯茲的屍體' WHERE `id` = 30763;
-UPDATE `npc` SET `name` = '拜特加魯' WHERE `id` = 30764;
-UPDATE `npc` SET `name` = '皇室之櫃' WHERE `id` = 30765;
-UPDATE `npc` SET `name` = '克莉歐', `title` = '魔女' WHERE `id` = 30766;
-UPDATE `npc` SET `name` = '拍賣管理者' WHERE `id` = 30767;
-UPDATE `npc` SET `name` = '拍賣管理者' WHERE `id` = 30768;
-UPDATE `npc` SET `name` = '拍賣管理者' WHERE `id` = 30769;
-UPDATE `npc` SET `name` = '拍賣管理者' WHERE `id` = 30770;
-UPDATE `npc` SET `name` = '拍賣管理者' WHERE `id` = 30771;
-UPDATE `npc` SET `name` = '委森', `title` = '根據地管理員' WHERE `id` = 30772;
-UPDATE `npc` SET `name` = '托德', `title` = '初學者嚮導' WHERE `id` = 30773;
-UPDATE `npc` SET `name` = '仁狄', `title` = '寵物管理員' WHERE `id` = 30827;
-UPDATE `npc` SET `name` = '渥特斯', `title` = '寵物管理員' WHERE `id` = 30828;
-UPDATE `npc` SET `name` = '庫柏', `title` = '寵物管理員' WHERE `id` = 30829;
-UPDATE `npc` SET `name` = '左艾', `title` = '寵物管理員' WHERE `id` = 30830;
-UPDATE `npc` SET `name` = '尼爾遜', `title` = '寵物管理員' WHERE `id` = 30831;
-UPDATE `npc` SET `name` = '哈汀' WHERE `id` = 30832;
-UPDATE `npc` SET `name` = '卡斯帕', `title` = '教師' WHERE `id` = 30833;
-UPDATE `npc` SET `name` = '賽馬', `title` = '魔法商人' WHERE `id` = 30834;
-UPDATE `npc` SET `name` = '伊克魯斯', `title` = '屍妖之王' WHERE `id` = 30835;
-UPDATE `npc` SET `name` = '米奈貝亞', `title` = '守門人' WHERE `id` = 30836;
-UPDATE `npc` SET `name` = '巫德洛', `title` = '商人' WHERE `id` = 30837;
-UPDATE `npc` SET `name` = '巫德雷', `title` = '商人' WHERE `id` = 30838;
-UPDATE `npc` SET `name` = '荷莉', `title` = '商人' WHERE `id` = 30839;
-UPDATE `npc` SET `name` = '羅蘭左', `title` = '商人' WHERE `id` = 30840;
-UPDATE `npc` SET `name` = '卡薩', `title` = '商人' WHERE `id` = 30841;
-UPDATE `npc` SET `name` = '阿蘭西斯', `title` = '商人' WHERE `id` = 30842;
-UPDATE `npc` SET `name` = '倫夫', `title` = '負責貨物的倉庫管理員' WHERE `id` = 30843;
-UPDATE `npc` SET `name` = '巴德拉', `title` = '倉庫管理員' WHERE `id` = 30844;
-UPDATE `npc` SET `name` = '克朗夫', `title` = '倉庫管理員老闆' WHERE `id` = 30845;
-UPDATE `npc` SET `name` = '威伯特', `title` = '鐵匠' WHERE `id` = 30846;
-UPDATE `npc` SET `name` = '匹黎茲', `title` = '鐵匠師傅' WHERE `id` = 30847;
-UPDATE `npc` SET `name` = '伊麗莎白', `title` = '守門人' WHERE `id` = 30848;
-UPDATE `npc` SET `name` = '賽德里', `title` = '宗師' WHERE `id` = 30849;
-UPDATE `npc` SET `name` = '艾肯', `title` = '大師' WHERE `id` = 30850;
-UPDATE `npc` SET `name` = '肯卓', `title` = '大師' WHERE `id` = 30851;
-UPDATE `npc` SET `name` = '西德仁', `title` = '大師' WHERE `id` = 30852;
-UPDATE `npc` SET `name` = '籟安', `title` = '大師' WHERE `id` = 30853;
-UPDATE `npc` SET `name` = '德黎齊安', `title` = '大巫師' WHERE `id` = 30854;
-UPDATE `npc` SET `name` = '戴斯蒙', `title` = '教師' WHERE `id` = 30855;
-UPDATE `npc` SET `name` = '威挪林', `title` = '教師' WHERE `id` = 30856;
-UPDATE `npc` SET `name` = '歐魯芬', `title` = '大神官' WHERE `id` = 30857;
-UPDATE `npc` SET `name` = '羅斯', `title` = '神官' WHERE `id` = 30858;
-UPDATE `npc` SET `name` = '比比安', `title` = '神官' WHERE `id` = 30859;
-UPDATE `npc` SET `name` = '普羅尼亞', `title` = '神官' WHERE `id` = 30860;
-UPDATE `npc` SET `name` = '黎內特', `title` = '神官' WHERE `id` = 30861;
-UPDATE `npc` SET `name` = '歐特琳', `title` = '宗師' WHERE `id` = 30862;
-UPDATE `npc` SET `name` = '蓋斯特', `title` = '大師' WHERE `id` = 30863;
-UPDATE `npc` SET `name` = '哈奈林', `title` = '教師' WHERE `id` = 30864;
-UPDATE `npc` SET `name` = '拉丹查', `title` = '大團長' WHERE `id` = 30865;
-UPDATE `npc` SET `name` = '法列斯特拉', `title` = '團長' WHERE `id` = 30866;
-UPDATE `npc` SET `name` = '瑞巴', `title` = '預言者' WHERE `id` = 30867;
-UPDATE `npc` SET `name` = '艾力克 洛德瑪依 卿' WHERE `id` = 30868;
-UPDATE `npc` SET `name` = '林普', `title` = '寵物管理員' WHERE `id` = 30869;
-UPDATE `npc` SET `name` = '克帝茲', `title` = '警衛隊長' WHERE `id` = 30870;
-UPDATE `npc` SET `name` = '普磊', `title` = '警衛' WHERE `id` = 30871;
-UPDATE `npc` SET `name` = '昆挪伊', `title` = '警衛' WHERE `id` = 30872;
-UPDATE `npc` SET `name` = '柯曼', `title` = '警衛' WHERE `id` = 30873;
-UPDATE `npc` SET `name` = '阿魯迪斯', `title` = '警衛' WHERE `id` = 30874;
-UPDATE `npc` SET `name` = '凱頓', `title` = '警衛' WHERE `id` = 30875;
-UPDATE `npc` SET `name` = '伊斯坦', `title` = '警衛' WHERE `id` = 30876;
-UPDATE `npc` SET `name` = '葛雷森', `title` = '警衛' WHERE `id` = 30877;
-UPDATE `npc` SET `name` = '安吉爾莉娜', `title` = '守門人' WHERE `id` = 30878;
-UPDATE `npc` SET `name` = '帕魯敦', `title` = '碼頭管理員' WHERE `id` = 30879;
-UPDATE `npc` SET `name` = '維克特 馮 德伊克', `title` = '國境守備隊隊長' WHERE `id` = 30880;
-UPDATE `npc` SET `name` = '森德斯', `title` = '國境守備隊書記官' WHERE `id` = 30881;
-UPDATE `npc` SET `name` = '國境警衛隊隊員' WHERE `id` = 30882;
-UPDATE `npc` SET `name` = '國境警衛隊隊員' WHERE `id` = 30883;
-UPDATE `npc` SET `name` = '國境警衛隊隊員' WHERE `id` = 30884;
-UPDATE `npc` SET `name` = '國境警衛隊隊員' WHERE `id` = 30885;
-UPDATE `npc` SET `name` = '國境警衛隊隊員' WHERE `id` = 30886;
-UPDATE `npc` SET `name` = '國境警衛隊隊員' WHERE `id` = 30887;
-UPDATE `npc` SET `name` = '國境警衛隊隊員' WHERE `id` = 30888;
-UPDATE `npc` SET `name` = '國境警衛隊隊員' WHERE `id` = 30889;
-UPDATE `npc` SET `name` = '伊斯本', `title` = '商人' WHERE `id` = 30890;
-UPDATE `npc` SET `name` = '貝羅拿', `title` = '商人' WHERE `id` = 30891;
-UPDATE `npc` SET `name` = '伊培倫', `title` = '商人' WHERE `id` = 30892;
-UPDATE `npc` SET `name` = '斐義', `title` = '商人' WHERE `id` = 30893;
-UPDATE `npc` SET `name` = '拿突士', `title` = '倉庫管理員老闆' WHERE `id` = 30894;
-UPDATE `npc` SET `name` = '克魯克', `title` = '負責貨物的倉庫管理員' WHERE `id` = 30895;
-UPDATE `npc` SET `name` = '米亞', `title` = '倉庫管理員' WHERE `id` = 30896;
-UPDATE `npc` SET `name` = '羅曼', `title` = '鐵匠師傅' WHERE `id` = 30897;
-UPDATE `npc` SET `name` = '夢妮', `title` = '鐵匠' WHERE `id` = 30898;
-UPDATE `npc` SET `name` = '朋勞恩', `title` = '守門人' WHERE `id` = 30899;
-UPDATE `npc` SET `name` = '瑪古斯', `title` = '宗師' WHERE `id` = 30900;
-UPDATE `npc` SET `name` = '亞提', `title` = '大師' WHERE `id` = 30901;
-UPDATE `npc` SET `name` = '喀魯拉', `title` = '大師' WHERE `id` = 30902;
-UPDATE `npc` SET `name` = '特拉伍斯', `title` = '大師' WHERE `id` = 30903;
-UPDATE `npc` SET `name` = '納伊歐', `title` = '大師' WHERE `id` = 30904;
-UPDATE `npc` SET `name` = '史古拉里', `title` = '大神官' WHERE `id` = 30905;
-UPDATE `npc` SET `name` = '朗銅', `title` = '神官' WHERE `id` = 30906;
-UPDATE `npc` SET `name` = '米那比亞', `title` = '教師' WHERE `id` = 30907;
-UPDATE `npc` SET `name` = '塔里歐斯', `title` = '神官' WHERE `id` = 30908;
-UPDATE `npc` SET `name` = '亞拿貝', `title` = '教師' WHERE `id` = 30909;
-UPDATE `npc` SET `name` = '薩伊拉肯', `title` = '宗師' WHERE `id` = 30910;
-UPDATE `npc` SET `name` = '畢羅古司', `title` = '大師' WHERE `id` = 30911;
-UPDATE `npc` SET `name` = '札諾比雅', `title` = '教師' WHERE `id` = 30912;
-UPDATE `npc` SET `name` = '達茲固', `title` = '大團長' WHERE `id` = 30913;
-UPDATE `npc` SET `name` = '索柏', `title` = '軍長' WHERE `id` = 30914;
-UPDATE `npc` SET `name` = '塔齊拉', `title` = '預言者' WHERE `id` = 30915;
-UPDATE `npc` SET `name` = '茍斯達', `title` = '警衛隊長' WHERE `id` = 30916;
-UPDATE `npc` SET `name` = '督披士', `title` = '警衛' WHERE `id` = 30917;
-UPDATE `npc` SET `name` = '肯特', `title` = '警衛' WHERE `id` = 30918;
-UPDATE `npc` SET `name` = '羅迪', `title` = '警衛' WHERE `id` = 30919;
-UPDATE `npc` SET `name` = '考萊森', `title` = '警衛' WHERE `id` = 30920;
-UPDATE `npc` SET `name` = '帝摩思', `title` = '警衛' WHERE `id` = 30921;
-UPDATE `npc` SET `name` = '克己', `title` = '警衛' WHERE `id` = 30922;
-UPDATE `npc` SET `name` = '盾斯特', `title` = '警衛' WHERE `id` = 30923;
-UPDATE `npc` SET `name` = '那迪', `title` = '碼頭管理員' WHERE `id` = 30924;
-UPDATE `npc` SET `name` = '莫列霖', `title` = '伊娃的大祭司' WHERE `id` = 30925;
-UPDATE `npc` SET `name` = '雷斯提那', `title` = '伊娃的祭司' WHERE `id` = 30926;
-UPDATE `npc` SET `name` = '爾里西亞', `title` = '伊娃的祭司' WHERE `id` = 30927;
-UPDATE `npc` SET `name` = '芬斯特', `title` = '傭兵' WHERE `id` = 30928;
-UPDATE `npc` SET `name` = '帕特林', `title` = '古董商人' WHERE `id` = 30929;
-UPDATE `npc` SET `name` = '羅遣', `title` = '古董鑑定人' WHERE `id` = 30930;
-UPDATE `npc` SET `name` = '本特列' WHERE `id` = 30931;
-UPDATE `npc` SET `name` = '本尼卡' WHERE `id` = 30932;
-UPDATE `npc` SET `name` = '布拉齊' WHERE `id` = 30933;
-UPDATE `npc` SET `name` = '瑪夏', `title` = '收藏家' WHERE `id` = 30934;
-UPDATE `npc` SET `name` = '突倫平', `title` = '收藏家' WHERE `id` = 30935;
-UPDATE `npc` SET `name` = '瑪爾勘', `title` = '青蛙王子' WHERE `id` = 30936;
-UPDATE `npc` SET `name` = '瑪爾勘', `title` = '野豬王子' WHERE `id` = 30937;
-UPDATE `npc` SET `name` = '瑪爾勘', `title` = '獸人王子' WHERE `id` = 30938;
-UPDATE `npc` SET `name` = '瑪爾勘', `title` = '黑暗王子' WHERE `id` = 30939;
-UPDATE `npc` SET `name` = '瑪爾勘', `title` = '葛林王子' WHERE `id` = 30940;
-UPDATE `npc` SET `name` = '瑪爾勘', `title` = '野獸王子' WHERE `id` = 30941;
-UPDATE `npc` SET `name` = '瑪爾勘', `title` = '怪物王子' WHERE `id` = 30942;
-UPDATE `npc` SET `name` = '瑪爾勘', `title` = '兔王子' WHERE `id` = 30943;
-UPDATE `npc` SET `name` = '瑪爾勘', `title` = '人類王子' WHERE `id` = 30944;
-UPDATE `npc` SET `name` = '瑪爾勘', `title` = '王子' WHERE `id` = 30945;
-UPDATE `npc` SET `name` = '魯西安內 坦佛爾德' WHERE `id` = 30946;
-UPDATE `npc` SET `name` = '雷莉琪亞' WHERE `id` = 30947;
-UPDATE `npc` SET `name` = '梅里迪恩' WHERE `id` = 30948;
-UPDATE `npc` SET `name` = '凱普龍', `title` = '調查員' WHERE `id` = 30949;
-UPDATE `npc` SET `name` = '優克萊', `title` = '調查員' WHERE `id` = 30950;
-UPDATE `npc` SET `name` = '匹德岡', `title` = '調查員' WHERE `id` = 30951;
-UPDATE `npc` SET `name` = '因次界點' WHERE `id` = 30952;
-UPDATE `npc` SET `name` = '因次界點' WHERE `id` = 30953;
-UPDATE `npc` SET `name` = '因次界點' WHERE `id` = 30954;
-UPDATE `npc` SET `name` = '吉爾黎恩的亡靈' WHERE `id` = 30955;
-UPDATE `npc` SET `name` = '娜娜琳', `title` = '音樂家' WHERE `id` = 30956;
-UPDATE `npc` SET `name` = '史汪', `title` = '吟遊詩人' WHERE `id` = 30957;
-UPDATE `npc` SET `name` = '克里恩' WHERE `id` = 30958;
-UPDATE `npc` SET `name` = '巴爾巴杜', `title` = '音樂家' WHERE `id` = 30959;
-UPDATE `npc` SET `name` = '啤酒箱子' WHERE `id` = 30960;
-UPDATE `npc` SET `name` = '衣服箱子' WHERE `id` = 30961;
-UPDATE `npc` SET `name` = '水的石像' WHERE `id` = 30962;
-UPDATE `npc` SET `name` = '火的石像' WHERE `id` = 30963;
-UPDATE `npc` SET `name` = '風的石像' WHERE `id` = 30964;
-UPDATE `npc` SET `name` = '土的石像' WHERE `id` = 30965;
-UPDATE `npc` SET `name` = '黑暗的石像' WHERE `id` = 30966;
-UPDATE `npc` SET `name` = '光的石像' WHERE `id` = 30967;
-UPDATE `npc` SET `name` = '甄妮佛', `title` = '半獸人淑女' WHERE `id` = 30968;
-UPDATE `npc` SET `name` = '艾森海內' WHERE `id` = 30969;
-UPDATE `npc` SET `name` = '桃樂絲', `title` = '鎖匠' WHERE `id` = 30970;
-UPDATE `npc` SET `name` = '奧爾菲司', `title` = '瘋狂博士' WHERE `id` = 30971;
-UPDATE `npc` SET `name` = '復活裝置' WHERE `id` = 30972;
-UPDATE `npc` SET `name` = '靈媒的甕' WHERE `id` = 30973;
-UPDATE `npc` SET `name` = '奧利佛', `title` = '復活冒險者' WHERE `id` = 30974;
-UPDATE `npc` SET `name` = '柯爾林諾', `title` = '復活冒險者' WHERE `id` = 30975;
-UPDATE `npc` SET `name` = '復活的村莊少女' WHERE `id` = 30976;
-UPDATE `npc` SET `name` = '祕密的聖櫃' WHERE `id` = 30977;
-UPDATE `npc` SET `name` = '祕密的聖櫃' WHERE `id` = 30978;
-UPDATE `npc` SET `name` = '祕密的聖櫃' WHERE `id` = 30979;
-UPDATE `npc` SET `name` = '聖櫃守護者的屍體' WHERE `id` = 30980;
-UPDATE `npc` SET `name` = '黑色審判者' WHERE `id` = 30981;
-UPDATE `npc` SET `name` = '沉睡幼蟻' WHERE `id` = 30982;
-UPDATE `npc` SET `name` = '沉睡幼蟻' WHERE `id` = 30983;
-UPDATE `npc` SET `name` = '沉睡幼蟻' WHERE `id` = 30984;
-UPDATE `npc` SET `name` = '沉睡幼蟻' WHERE `id` = 30985;
-UPDATE `npc` SET `name` = '沉睡幼蟻' WHERE `id` = 30986;
-UPDATE `npc` SET `name` = '沉睡幼蟻' WHERE `id` = 30987;
-UPDATE `npc` SET `name` = '柏爾斯', `title` = '皮匠' WHERE `id` = 30988;
-UPDATE `npc` SET `name` = '畢佛隆的箱子' WHERE `id` = 30989;
-UPDATE `npc` SET `name` = '售票員' WHERE `id` = 30990;
-UPDATE `npc` SET `name` = '售票員' WHERE `id` = 30991;
-UPDATE `npc` SET `name` = '售票員' WHERE `id` = 30992;
-UPDATE `npc` SET `name` = '售票員' WHERE `id` = 30993;
-UPDATE `npc` SET `name` = '售票員' WHERE `id` = 30994;
-UPDATE `npc` SET `name` = '競賽管理員' WHERE `id` = 30995;
-UPDATE `npc` SET `name` = '克勞迪雅 亞太法特' WHERE `id` = 31001;
-UPDATE `npc` SET `name` = '里澳林', `title` = '巨匠' WHERE `id` = 31002;
-UPDATE `npc` SET `name` = '來來貓' WHERE `id` = 31003;
-UPDATE `npc` SET `name` = '半月貓' WHERE `id` = 31004;
-UPDATE `npc` SET `name` = '永久機關' WHERE `id` = 31005;
-UPDATE `npc` SET `name` = '月陰' WHERE `id` = 31006;
-UPDATE `npc` SET `name` = '風之騎士' WHERE `id` = 31007;
-UPDATE `npc` SET `name` = '流星' WHERE `id` = 31008;
-UPDATE `npc` SET `name` = '旋風之雷' WHERE `id` = 31009;
-UPDATE `npc` SET `name` = '飢渴寶貝' WHERE `id` = 31010;
-UPDATE `npc` SET `name` = '醉犬' WHERE `id` = 31011;
-UPDATE `npc` SET `name` = '革命貓' WHERE `id` = 31012;
-UPDATE `npc` SET `name` = '情人之藍' WHERE `id` = 31013;
-UPDATE `npc` SET `name` = '照亮人生' WHERE `id` = 31014;
-UPDATE `npc` SET `name` = '紅色子彈' WHERE `id` = 31015;
-UPDATE `npc` SET `name` = '閃銀' WHERE `id` = 31016;
-UPDATE `npc` SET `name` = '超越顛峰' WHERE `id` = 31017;
-UPDATE `npc` SET `name` = '同花順' WHERE `id` = 31018;
-UPDATE `npc` SET `name` = '幸運七號' WHERE `id` = 31019;
-UPDATE `npc` SET `name` = '惡意樹精' WHERE `id` = 31020;
-UPDATE `npc` SET `name` = '偷跑哥布林' WHERE `id` = 31021;
-UPDATE `npc` SET `name` = '颱風虎' WHERE `id` = 31022;
-UPDATE `npc` SET `name` = '赤色爆熱' WHERE `id` = 31023;
-UPDATE `npc` SET `name` = '銀河鐵道' WHERE `id` = 31024;
-UPDATE `npc` SET `name` = '最佳狀態' WHERE `id` = 31025;
-UPDATE `npc` SET `name` = '信天翁' WHERE `id` = 31026;
-UPDATE `npc` SET `name` = '死神棺材' WHERE `id` = 31027;
-UPDATE `npc` SET `name` = '柯爾能的箱子' WHERE `id` = 31028;
-UPDATE `npc` SET `name` = '勾爾昆達的箱子' WHERE `id` = 31029;
-UPDATE `npc` SET `name` = '哈勒特的箱子' WHERE `id` = 31030;
-UPDATE `npc` SET `name` = '瞭望水晶' WHERE `id` = 31031;
-UPDATE `npc` SET `name` = '警衛' WHERE `id` = 31032;
-UPDATE `npc` SET `name` = '哨兵' WHERE `id` = 31033;
-UPDATE `npc` SET `name` = '哨兵' WHERE `id` = 31034;
-UPDATE `npc` SET `name` = '守護者' WHERE `id` = 31035;
-UPDATE `npc` SET `name` = '百人隊長' WHERE `id` = 31036;
-UPDATE `npc` SET `name` = '卡塔畢諾', `title` = '音樂巨匠' WHERE `id` = 31042;
-UPDATE `npc` SET `name` = '預塔比亞', `title` = '音樂巨匠' WHERE `id` = 31043;
-UPDATE `npc` SET `name` = '蓋曼', `title` = '峽谷商人' WHERE `id` = 31044;
-UPDATE `npc` SET `name` = '基茲卡', `title` = '峽谷商人' WHERE `id` = 31045;
-UPDATE `npc` SET `name` = '馬斯登', `title` = '紋章製造人' WHERE `id` = 31046;
-UPDATE `npc` SET `name` = '克利', `title` = '紋章製造人' WHERE `id` = 31047;
-UPDATE `npc` SET `name` = '馬克摩特', `title` = '紋章製造人' WHERE `id` = 31048;
-UPDATE `npc` SET `name` = '佩佩', `title` = '紋章製造人' WHERE `id` = 31049;
-UPDATE `npc` SET `name` = '道拉', `title` = '紋章製造人' WHERE `id` = 31050;
-UPDATE `npc` SET `name` = '蓋琪', `title` = '紋章製造人' WHERE `id` = 31051;
-UPDATE `npc` SET `name` = '海特', `title` = '紋章製造人' WHERE `id` = 31052;
-UPDATE `npc` SET `name` = '基德', `title` = '紋章製造人' WHERE `id` = 31053;
-UPDATE `npc` SET `name` = '路德', `title` = '寵物管理員' WHERE `id` = 31067;
-UPDATE `npc` SET `name` = '胡塔庫的屍體' WHERE `id` = 31074;
-UPDATE `npc` SET `name` = '象牙塔的商人貓' WHERE `id` = 31075;
-UPDATE `npc` SET `name` = '初學者嚮導' WHERE `id` = 31076;
-UPDATE `npc` SET `name` = '初學者嚮導' WHERE `id` = 31077;
-UPDATE `npc` SET `name` = '黎明的祭司' WHERE `id` = 31078;
-UPDATE `npc` SET `name` = '黎明的祭司' WHERE `id` = 31079;
-UPDATE `npc` SET `name` = '黎明的祭司' WHERE `id` = 31080;
-UPDATE `npc` SET `name` = '黎明的祭司' WHERE `id` = 31081;
-UPDATE `npc` SET `name` = '黎明的祭司' WHERE `id` = 31082;
-UPDATE `npc` SET `name` = '黎明的祭司' WHERE `id` = 31083;
-UPDATE `npc` SET `name` = '黎明的祭司' WHERE `id` = 31084;
-UPDATE `npc` SET `name` = '黃昏的祭司' WHERE `id` = 31085;
-UPDATE `npc` SET `name` = '黃昏的祭司' WHERE `id` = 31086;
-UPDATE `npc` SET `name` = '黃昏的祭司' WHERE `id` = 31087;
-UPDATE `npc` SET `name` = '黃昏的祭司' WHERE `id` = 31088;
-UPDATE `npc` SET `name` = '黃昏的祭司' WHERE `id` = 31089;
-UPDATE `npc` SET `name` = '黃昏的祭司' WHERE `id` = 31090;
-UPDATE `npc` SET `name` = '黃昏的祭司' WHERE `id` = 31091;
-UPDATE `npc` SET `name` = '財富的地下商人' WHERE `id` = 31092;
-UPDATE `npc` SET `name` = '吶喊滅亡的人' WHERE `id` = 31093;
-UPDATE `npc` SET `name` = '道破啟示的人' WHERE `id` = 31094;
-UPDATE `npc` SET `name` = '廟塔守門人' WHERE `id` = 31095;
-UPDATE `npc` SET `name` = '廟塔守門人' WHERE `id` = 31096;
-UPDATE `npc` SET `name` = '廟塔守門人' WHERE `id` = 31097;
-UPDATE `npc` SET `name` = '廟塔守門人' WHERE `id` = 31098;
-UPDATE `npc` SET `name` = '廟塔守門人' WHERE `id` = 31099;
-UPDATE `npc` SET `name` = '廟塔守門人' WHERE `id` = 31100;
-UPDATE `npc` SET `name` = '廟塔守門人' WHERE `id` = 31101;
-UPDATE `npc` SET `name` = '廟塔守門人' WHERE `id` = 31102;
-UPDATE `npc` SET `name` = '廟塔守門人' WHERE `id` = 31103;
-UPDATE `npc` SET `name` = '廟塔守門人' WHERE `id` = 31104;
-UPDATE `npc` SET `name` = '廟塔守門人' WHERE `id` = 31105;
-UPDATE `npc` SET `name` = '廟塔守門人' WHERE `id` = 31106;
-UPDATE `npc` SET `name` = '廟塔守門人' WHERE `id` = 31107;
-UPDATE `npc` SET `name` = '廟塔守門人' WHERE `id` = 31108;
-UPDATE `npc` SET `name` = '廟塔守門人' WHERE `id` = 31109;
-UPDATE `npc` SET `name` = '廟塔守門人' WHERE `id` = 31110;
-UPDATE `npc` SET `name` = '靈魂守門人' WHERE `id` = 31111;
-UPDATE `npc` SET `name` = '靈魂守門人' WHERE `id` = 31112;
-UPDATE `npc` SET `name` = '財富的商人' WHERE `id` = 31113;
-UPDATE `npc` SET `name` = '廟塔守門人' WHERE `id` = 31114;
-UPDATE `npc` SET `name` = '廟塔守門人' WHERE `id` = 31115;
-UPDATE `npc` SET `name` = '廟塔守門人' WHERE `id` = 31116;
-UPDATE `npc` SET `name` = '廟塔守門人' WHERE `id` = 31117;
-UPDATE `npc` SET `name` = '廟塔守門人' WHERE `id` = 31118;
-UPDATE `npc` SET `name` = '廟塔守門人' WHERE `id` = 31119;
-UPDATE `npc` SET `name` = '廟塔守門人' WHERE `id` = 31120;
-UPDATE `npc` SET `name` = '廟塔守門人' WHERE `id` = 31121;
-UPDATE `npc` SET `name` = '廟塔守門人' WHERE `id` = 31122;
-UPDATE `npc` SET `name` = '廟塔守門人' WHERE `id` = 31123;
-UPDATE `npc` SET `name` = '廟塔守門人' WHERE `id` = 31124;
-UPDATE `npc` SET `name` = '廟塔守門人' WHERE `id` = 31125;
-UPDATE `npc` SET `name` = '財富的鐵匠' WHERE `id` = 31126;
-UPDATE `npc` SET `name` = '祭典的引導者', `title` = '未滿32級' WHERE `id` = 31127;
-UPDATE `npc` SET `name` = '祭典的引導者', `title` = '未滿43級' WHERE `id` = 31128;
-UPDATE `npc` SET `name` = '祭典的引導者', `title` = '未滿54級' WHERE `id` = 31129;
-UPDATE `npc` SET `name` = '祭典的引導者', `title` = '未滿65級' WHERE `id` = 31130;
-UPDATE `npc` SET `name` = '祭典的引導者', `title` = '無限制' WHERE `id` = 31131;
-UPDATE `npc` SET `name` = '祭典的巫女' WHERE `id` = 31132;
-UPDATE `npc` SET `name` = '祭典的巫女' WHERE `id` = 31133;
-UPDATE `npc` SET `name` = '祭典的巫女' WHERE `id` = 31134;
-UPDATE `npc` SET `name` = '祭典的巫女' WHERE `id` = 31135;
-UPDATE `npc` SET `name` = '祭典的巫女' WHERE `id` = 31136;
-UPDATE `npc` SET `name` = '祭典的引導者', `title` = '未滿32級' WHERE `id` = 31137;
-UPDATE `npc` SET `name` = '祭典的引導者', `title` = '未滿43級' WHERE `id` = 31138;
-UPDATE `npc` SET `name` = '祭典的引導者', `title` = '未滿54級' WHERE `id` = 31139;
-UPDATE `npc` SET `name` = '祭典的引導者', `title` = '未滿65級' WHERE `id` = 31140;
-UPDATE `npc` SET `name` = '祭典的引導者', `title` = '無限制' WHERE `id` = 31141;
-UPDATE `npc` SET `name` = '祭典的巫女' WHERE `id` = 31142;
-UPDATE `npc` SET `name` = '祭典的巫女' WHERE `id` = 31143;
-UPDATE `npc` SET `name` = '祭典的巫女' WHERE `id` = 31144;
-UPDATE `npc` SET `name` = '祭典的巫女' WHERE `id` = 31145;
-UPDATE `npc` SET `name` = '祭典的巫女' WHERE `id` = 31146;
-UPDATE `npc` SET `name` = '蕭伯霖', `title` = '首席調查員' WHERE `id` = 31147;
-UPDATE `npc` SET `name` = '海盜的寶箱' WHERE `id` = 31148;
-UPDATE `npc` SET `name` = '混合材料用的缸' WHERE `id` = 31149;
-UPDATE `npc` SET `name` = '黎明的祭司' WHERE `id` = 31168;
-UPDATE `npc` SET `name` = '黃昏的祭司' WHERE `id` = 31169;
-UPDATE `npc` SET `name` = '黎明的紋章' WHERE `id` = 31170;
-UPDATE `npc` SET `name` = '黃昏的紋章' WHERE `id` = 31171;
-UPDATE `npc` SET `name` = '吶喊滅亡的人' WHERE `id` = 31172;
-UPDATE `npc` SET `name` = '道破啟示的人' WHERE `id` = 31173;
-UPDATE `npc` SET `name` = '吶喊滅亡的人' WHERE `id` = 31174;
-UPDATE `npc` SET `name` = '道破啟示的人' WHERE `id` = 31175;
-UPDATE `npc` SET `name` = '吶喊滅亡的人' WHERE `id` = 31176;
-UPDATE `npc` SET `name` = '道破啟示的人' WHERE `id` = 31177;
-UPDATE `npc` SET `name` = '吶喊滅亡的人' WHERE `id` = 31178;
-UPDATE `npc` SET `name` = '道破啟示的人' WHERE `id` = 31179;
-UPDATE `npc` SET `name` = '吶喊滅亡的人' WHERE `id` = 31180;
-UPDATE `npc` SET `name` = '道破啟示的人' WHERE `id` = 31181;
-UPDATE `npc` SET `name` = '吶喊滅亡的人' WHERE `id` = 31182;
-UPDATE `npc` SET `name` = '道破啟示的人' WHERE `id` = 31183;
-UPDATE `npc` SET `name` = '吶喊滅亡的人' WHERE `id` = 31184;
-UPDATE `npc` SET `name` = '道破啟示的人' WHERE `id` = 31185;
-UPDATE `npc` SET `name` = '吶喊滅亡的人' WHERE `id` = 31186;
-UPDATE `npc` SET `name` = '道破啟示的人' WHERE `id` = 31187;
-UPDATE `npc` SET `name` = '吶喊滅亡的人' WHERE `id` = 31188;
-UPDATE `npc` SET `name` = '道破啟示的人' WHERE `id` = 31189;
-UPDATE `npc` SET `name` = '吶喊滅亡的人' WHERE `id` = 31190;
-UPDATE `npc` SET `name` = '道破啟示的人' WHERE `id` = 31191;
-UPDATE `npc` SET `name` = '吶喊滅亡的人' WHERE `id` = 31192;
-UPDATE `npc` SET `name` = '道破啟示的人' WHERE `id` = 31193;
-UPDATE `npc` SET `name` = '吶喊滅亡的人' WHERE `id` = 31194;
-UPDATE `npc` SET `name` = '道破啟示的人' WHERE `id` = 31195;
-UPDATE `npc` SET `name` = '吶喊滅亡的人' WHERE `id` = 31196;
-UPDATE `npc` SET `name` = '道破啟示的人' WHERE `id` = 31197;
-UPDATE `npc` SET `name` = '吶喊滅亡的人' WHERE `id` = 31198;
-UPDATE `npc` SET `name` = '道破啟示的人' WHERE `id` = 31199;
-UPDATE `npc` SET `name` = '吶喊滅亡的人' WHERE `id` = 31200;
-UPDATE `npc` SET `name` = '道破啟示的人' WHERE `id` = 31201;
-UPDATE `npc` SET `name` = '瑪希穆斯' WHERE `id` = 31202;
-UPDATE `npc` SET `name` = '穆典瑟' WHERE `id` = 31203;
-UPDATE `npc` SET `name` = '喬魯喬' WHERE `id` = 31204;
-UPDATE `npc` SET `name` = '卡姿' WHERE `id` = 31205;
-UPDATE `npc` SET `name` = '天天' WHERE `id` = 31206;
-UPDATE `npc` SET `name` = '瑟魯帝尼亞' WHERE `id` = 31207;
-UPDATE `npc` SET `name` = '拉克蘭久' WHERE `id` = 31208;
-UPDATE `npc` SET `name` = '米斯提雷' WHERE `id` = 31209;
-UPDATE `npc` SET `name` = '競賽場守門人' WHERE `id` = 31210;
-UPDATE `npc` SET `name` = '競賽場幫手' WHERE `id` = 31211;
-UPDATE `npc` SET `name` = '活動守門人' WHERE `id` = 31212;
-UPDATE `npc` SET `name` = '活動守門人' WHERE `id` = 31213;
-UPDATE `npc` SET `name` = '活動守門人' WHERE `id` = 31214;
-UPDATE `npc` SET `name` = '活動守門人' WHERE `id` = 31215;
-UPDATE `npc` SET `name` = '活動守門人' WHERE `id` = 31216;
-UPDATE `npc` SET `name` = '活動守門人' WHERE `id` = 31217;
-UPDATE `npc` SET `name` = '活動守門人' WHERE `id` = 31218;
-UPDATE `npc` SET `name` = '活動守門人' WHERE `id` = 31219;
-UPDATE `npc` SET `name` = '活動守門人' WHERE `id` = 31220;
-UPDATE `npc` SET `name` = '活動守門人' WHERE `id` = 31221;
-UPDATE `npc` SET `name` = '活動守門人' WHERE `id` = 31222;
-UPDATE `npc` SET `name` = '活動守門人' WHERE `id` = 31223;
-UPDATE `npc` SET `name` = '活動守門人' WHERE `id` = 31224;
-UPDATE `npc` SET `name` = '競技場管理員' WHERE `id` = 31225;
-UPDATE `npc` SET `name` = '競技場監察官' WHERE `id` = 31226;
-UPDATE `npc` SET `name` = '普斯貓', `title` = '活動執行者' WHERE `id` = 31227;
-UPDATE `npc` SET `name` = '羅伊貓', `title` = '活動執行者' WHERE `id` = 31228;
-UPDATE `npc` SET `name` = '薇妮貓', `title` = '活動執行者' WHERE `id` = 31229;
-UPDATE `npc` SET `name` = '路易貓', `title` = '活動執行者' WHERE `id` = 31230;
-UPDATE `npc` SET `name` = '吶喊滅亡的人' WHERE `id` = 31231;
-UPDATE `npc` SET `name` = '吶喊滅亡的人' WHERE `id` = 31232;
-UPDATE `npc` SET `name` = '吶喊滅亡的人' WHERE `id` = 31233;
-UPDATE `npc` SET `name` = '吶喊滅亡的人' WHERE `id` = 31234;
-UPDATE `npc` SET `name` = '吶喊滅亡的人' WHERE `id` = 31235;
-UPDATE `npc` SET `name` = '吶喊滅亡的人' WHERE `id` = 31236;
-UPDATE `npc` SET `name` = '吶喊滅亡的人' WHERE `id` = 31237;
-UPDATE `npc` SET `name` = '吶喊滅亡的人' WHERE `id` = 31238;
-UPDATE `npc` SET `name` = '吶喊滅亡的人' WHERE `id` = 31239;
-UPDATE `npc` SET `name` = '吶喊滅亡的人' WHERE `id` = 31240;
-UPDATE `npc` SET `name` = '吶喊滅亡的人' WHERE `id` = 31241;
-UPDATE `npc` SET `name` = '吶喊滅亡的人' WHERE `id` = 31242;
-UPDATE `npc` SET `name` = '吶喊滅亡的人' WHERE `id` = 31243;
-UPDATE `npc` SET `name` = '吶喊滅亡的人' WHERE `id` = 31244;
-UPDATE `npc` SET `name` = '吶喊滅亡的人' WHERE `id` = 31245;
-UPDATE `npc` SET `name` = '吶喊滅亡的人' WHERE `id` = 31246;
-UPDATE `npc` SET `name` = '道破啟示的人' WHERE `id` = 31247;
-UPDATE `npc` SET `name` = '道破啟示的人' WHERE `id` = 31248;
-UPDATE `npc` SET `name` = '道破啟示的人' WHERE `id` = 31249;
-UPDATE `npc` SET `name` = '道破啟示的人' WHERE `id` = 31250;
-UPDATE `npc` SET `name` = '道破啟示的人' WHERE `id` = 31251;
-UPDATE `npc` SET `name` = '道破啟示的人' WHERE `id` = 31252;
-UPDATE `npc` SET `name` = '道破啟示的人' WHERE `id` = 31253;
-UPDATE `npc` SET `name` = '道破啟示的人' WHERE `id` = 31254;
-UPDATE `npc` SET `name` = '普斯貓', `title` = '活動執行者' WHERE `id` = 31255;
-UPDATE `npc` SET `name` = '雷恩', `title` = '商人' WHERE `id` = 31256;
-UPDATE `npc` SET `name` = '費蘿妮卡', `title` = '商人' WHERE `id` = 31257;
-UPDATE `npc` SET `name` = '哈姆特', `title` = '商人' WHERE `id` = 31258;
-UPDATE `npc` SET `name` = '珍妮', `title` = '商人' WHERE `id` = 31259;
-UPDATE `npc` SET `name` = '優蒂絲', `title` = '商人' WHERE `id` = 31260;
-UPDATE `npc` SET `name` = '雷妮', `title` = '商人' WHERE `id` = 31261;
-UPDATE `npc` SET `name` = '魯貝特', `title` = '商人' WHERE `id` = 31262;
-UPDATE `npc` SET `name` = '莉潔', `title` = '商人' WHERE `id` = 31263;
-UPDATE `npc` SET `name` = '歐伊森', `title` = '紋章製造人' WHERE `id` = 31264;
-UPDATE `npc` SET `name` = '安涅特', `title` = '寵物管理員' WHERE `id` = 31265;
-UPDATE `npc` SET `name` = '凱薩' WHERE `id` = 31266;
-UPDATE `npc` SET `name` = '莉雅塔', `title` = '倉庫管理員' WHERE `id` = 31267;
-UPDATE `npc` SET `name` = '哈昆', `title` = '倉庫管理員' WHERE `id` = 31268;
-UPDATE `npc` SET `name` = '夢娜', `title` = '倉庫管理員老闆' WHERE `id` = 31269;
-UPDATE `npc` SET `name` = '斯特法尼', `title` = '負責貨物的倉庫管理員' WHERE `id` = 31270;
-UPDATE `npc` SET `name` = '希爾達', `title` = '鐵匠' WHERE `id` = 31271;
-UPDATE `npc` SET `name` = '諾爾', `title` = '鐵匠師傅' WHERE `id` = 31272;
-UPDATE `npc` SET `name` = '波洛迪', `title` = '設計圖商人' WHERE `id` = 31273;
-UPDATE `npc` SET `name` = '方汀', `title` = '礦物商人' WHERE `id` = 31274;
-UPDATE `npc` SET `name` = '塔蒂雅娜', `title` = '守門人' WHERE `id` = 31275;
-UPDATE `npc` SET `name` = '培倫海特', `title` = '宗師' WHERE `id` = 31276;
-UPDATE `npc` SET `name` = '菲利克斯', `title` = '大師' WHERE `id` = 31277;
-UPDATE `npc` SET `name` = '伯朗因', `title` = '大師' WHERE `id` = 31278;
-UPDATE `npc` SET `name` = '葛萊高爾', `title` = '大神官' WHERE `id` = 31279;
-UPDATE `npc` SET `name` = '法斯迪安', `title` = '神官' WHERE `id` = 31280;
-UPDATE `npc` SET `name` = '瑟拉尼斯', `title` = '神官' WHERE `id` = 31281;
-UPDATE `npc` SET `name` = '傑斯提', `title` = '教師' WHERE `id` = 31282;
-UPDATE `npc` SET `name` = '艾爾米那斯', `title` = '教師' WHERE `id` = 31283;
-UPDATE `npc` SET `name` = '艾蓮娜', `title` = '魔法書商人' WHERE `id` = 31284;
-UPDATE `npc` SET `name` = '思馬艾', `title` = '宗師' WHERE `id` = 31285;
-UPDATE `npc` SET `name` = '卓拉昆', `title` = '大師' WHERE `id` = 31286;
-UPDATE `npc` SET `name` = '卡玫崙', `title` = '教師' WHERE `id` = 31287;
-UPDATE `npc` SET `name` = '阿科蘭', `title` = '大團長' WHERE `id` = 31288;
-UPDATE `npc` SET `name` = '拉肯', `title` = '團長' WHERE `id` = 31289;
-UPDATE `npc` SET `name` = '史卡西', `title` = '預言者' WHERE `id` = 31290;
-UPDATE `npc` SET `name` = '特瑞芭', `title` = '護身符商人' WHERE `id` = 31291;
-UPDATE `npc` SET `name` = '安德烈', `title` = '警衛隊長' WHERE `id` = 31292;
-UPDATE `npc` SET `name` = '昆特', `title` = '警衛' WHERE `id` = 31293;
-UPDATE `npc` SET `name` = '史班', `title` = '警衛' WHERE `id` = 31294;
-UPDATE `npc` SET `name` = '海瑞克', `title` = '警衛' WHERE `id` = 31295;
-UPDATE `npc` SET `name` = '凱德曼', `title` = '警衛' WHERE `id` = 31296;
-UPDATE `npc` SET `name` = '貝爾德', `title` = '警衛' WHERE `id` = 31297;
-UPDATE `npc` SET `name` = '烏利奇', `title` = '警衛' WHERE `id` = 31298;
-UPDATE `npc` SET `name` = '尤根', `title` = '警衛' WHERE `id` = 31299;
-UPDATE `npc` SET `name` = '杜魯曼德', `title` = '商人' WHERE `id` = 31300;
-UPDATE `npc` SET `name` = '尼爾斯', `title` = '商人' WHERE `id` = 31301;
-UPDATE `npc` SET `name` = '布拉底米爾', `title` = '商人' WHERE `id` = 31302;
-UPDATE `npc` SET `name` = '艾麗莎', `title` = '商人' WHERE `id` = 31303;
-UPDATE `npc` SET `name` = '亞絲特莉德', `title` = '商人' WHERE `id` = 31304;
-UPDATE `npc` SET `name` = '坎蒂絲', `title` = '商人' WHERE `id` = 31305;
-UPDATE `npc` SET `name` = '娜塔莎', `title` = '商人' WHERE `id` = 31306;
-UPDATE `npc` SET `name` = '貝布', `title` = '商人' WHERE `id` = 31307;
-UPDATE `npc` SET `name` = '亞奇姆', `title` = '紋章製造人' WHERE `id` = 31308;
-UPDATE `npc` SET `name` = '伍茲', `title` = '寵物管理員' WHERE `id` = 31309;
-UPDATE `npc` SET `name` = '拉菲爾' WHERE `id` = 31310;
-UPDATE `npc` SET `name` = '修金', `title` = '倉庫管理員' WHERE `id` = 31311;
-UPDATE `npc` SET `name` = '多琳', `title` = '倉庫管理員' WHERE `id` = 31312;
-UPDATE `npc` SET `name` = '路寧', `title` = '倉庫管理員' WHERE `id` = 31313;
-UPDATE `npc` SET `name` = '多那爾', `title` = '倉庫管理員老闆' WHERE `id` = 31314;
-UPDATE `npc` SET `name` = '黛姬', `title` = '負責貨物的倉庫管理員' WHERE `id` = 31315;
-UPDATE `npc` SET `name` = '賓森斯', `title` = '鐵匠' WHERE `id` = 31316;
-UPDATE `npc` SET `name` = '侖貝特', `title` = '鐵匠師傅' WHERE `id` = 31317;
-UPDATE `npc` SET `name` = '葛麗塔', `title` = '設計圖商人' WHERE `id` = 31318;
-UPDATE `npc` SET `name` = '韓斯', `title` = '礦物商人' WHERE `id` = 31319;
-UPDATE `npc` SET `name` = '以利亞娜', `title` = '守門人' WHERE `id` = 31320;
-UPDATE `npc` SET `name` = '齊格曼特', `title` = '宗師' WHERE `id` = 31321;
-UPDATE `npc` SET `name` = '亞力安', `title` = '大師' WHERE `id` = 31322;
-UPDATE `npc` SET `name` = '薇琳', `title` = '大師' WHERE `id` = 31323;
-UPDATE `npc` SET `name` = '安杜露美達', `title` = '宗師' WHERE `id` = 31324;
-UPDATE `npc` SET `name` = '緹米絲', `title` = '大師' WHERE `id` = 31325;
-UPDATE `npc` SET `name` = '藍巴克', `title` = '大團長' WHERE `id` = 31326;
-UPDATE `npc` SET `name` = '塔斯克', `title` = '團長' WHERE `id` = 31327;
-UPDATE `npc` SET `name` = '伊諾珊蒂', `title` = '大神官' WHERE `id` = 31328;
-UPDATE `npc` SET `name` = '艾爾黎亞', `title` = '神官' WHERE `id` = 31329;
-UPDATE `npc` SET `name` = '華格納', `title` = '神官' WHERE `id` = 31330;
-UPDATE `npc` SET `name` = '巴爾迪斯', `title` = '大巫師' WHERE `id` = 31331;
-UPDATE `npc` SET `name` = '亞梅莉雅', `title` = '教師' WHERE `id` = 31332;
-UPDATE `npc` SET `name` = '魯米爾', `title` = '教師' WHERE `id` = 31333;
-UPDATE `npc` SET `name` = '帝法琳', `title` = '大巫師' WHERE `id` = 31334;
-UPDATE `npc` SET `name` = '凱言', `title` = '教師' WHERE `id` = 31335;
-UPDATE `npc` SET `name` = '拉荷拉各提', `title` = '大預言者' WHERE `id` = 31336;
-UPDATE `npc` SET `name` = '梅卡拉', `title` = '預言者' WHERE `id` = 31337;
-UPDATE `npc` SET `name` = '安同', `title` = '魔法書商人' WHERE `id` = 31338;
-UPDATE `npc` SET `name` = '哈克藍', `title` = '護身符商人' WHERE `id` = 31339;
-UPDATE `npc` SET `name` = '瑪帝亞斯', `title` = '警衛隊長' WHERE `id` = 31340;
-UPDATE `npc` SET `name` = '瑞特', `title` = '警衛' WHERE `id` = 31341;
-UPDATE `npc` SET `name` = '戴米特里', `title` = '警衛' WHERE `id` = 31342;
-UPDATE `npc` SET `name` = '貝洛德', `title` = '警衛' WHERE `id` = 31343;
-UPDATE `npc` SET `name` = '修密特', `title` = '警衛' WHERE `id` = 31344;
-UPDATE `npc` SET `name` = '伊安', `title` = '警衛' WHERE `id` = 31345;
-UPDATE `npc` SET `name` = '西瑞斯', `title` = '警衛' WHERE `id` = 31346;
-UPDATE `npc` SET `name` = '巴克', `title` = '警衛' WHERE `id` = 31347;
-UPDATE `npc` SET `name` = '阿格利貝爾', `title` = '大神官' WHERE `id` = 31348;
-UPDATE `npc` SET `name` = '貝拿帝克', `title` = '神官' WHERE `id` = 31349;
-UPDATE `npc` SET `name` = '多明尼克', `title` = '神官' WHERE `id` = 31350;
-UPDATE `npc` SET `name` = '波卡', `title` = '碼頭管理員' WHERE `id` = 31351;
-UPDATE `npc` SET `name` = '雷米', `title` = '使者' WHERE `id` = 31356;
-UPDATE `npc` SET `name` = '萊安德路', `title` = '書記官' WHERE `id` = 31357;
-UPDATE `npc` SET `name` = '卡斯爾', `title` = '吟遊詩人' WHERE `id` = 31358;
-UPDATE `npc` SET `name` = '傑洛迪', `title` = '世界樹守護者' WHERE `id` = 31359;
-UPDATE `npc` SET `name` = '艾爾海娜', `title` = '長老代理人' WHERE `id` = 31360;
-UPDATE `npc` SET `name` = '克里德', `title` = '長老執行者' WHERE `id` = 31361;
-UPDATE `npc` SET `name` = '泰特', `title` = '使者' WHERE `id` = 31362;
-UPDATE `npc` SET `name` = '洛金', `title` = '信使' WHERE `id` = 31363;
-UPDATE `npc` SET `name` = '洛卡', `title` = '炎之守護者' WHERE `id` = 31364;
-UPDATE `npc` SET `name` = '亞康德', `title` = '炎之守護者' WHERE `id` = 31365;
-UPDATE `npc` SET `name` = '飼料販賣者' WHERE `id` = 31366;
-UPDATE `npc` SET `name` = '輝煌的呼聲' WHERE `id` = 31367;
-UPDATE `npc` SET `name` = '彌克蘭', `title` = '沉默修道士' WHERE `id` = 31368;
-UPDATE `npc` SET `name` = '梅農', `title` = '沉默修道士' WHERE `id` = 31369;
-UPDATE `npc` SET `name` = '卡頓 蘇 肯特拉', `title` = '長老' WHERE `id` = 31370;
-UPDATE `npc` SET `name` = '瓦康', `title` = '肯特拉傳令' WHERE `id` = 31371;
-UPDATE `npc` SET `name` = '亞瑟法', `title` = '魂靈引導者' WHERE `id` = 31372;
-UPDATE `npc` SET `name` = '亞坦', `title` = '雜貨商人' WHERE `id` = 31373;
-UPDATE `npc` SET `name` = '賈夫', `title` = '倉庫管理員' WHERE `id` = 31374;
-UPDATE `npc` SET `name` = '裘瑪拉', `title` = '商人' WHERE `id` = 31375;
-UPDATE `npc` SET `name` = '克魯法', `title` = '守門人' WHERE `id` = 31376;
-UPDATE `npc` SET `name` = '阿夏斯 巴瑞卡 杜萊伊', `title` = '長老' WHERE `id` = 31377;
-UPDATE `npc` SET `name` = '那朗 阿夏努克', `title` = '巴瑞卡傳令' WHERE `id` = 31378;
-UPDATE `npc` SET `name` = '烏丹 瑪雷杜伊', `title` = '魂靈引導者' WHERE `id` = 31379;
-UPDATE `npc` SET `name` = '迪亞布', `title` = '雜貨商人' WHERE `id` = 31380;
-UPDATE `npc` SET `name` = '哈格司', `title` = '倉庫管理員' WHERE `id` = 31381;
-UPDATE `npc` SET `name` = '席康', `title` = '商人' WHERE `id` = 31382;
-UPDATE `npc` SET `name` = '泰拉努 瑪雷杜伊', `title` = '守門人' WHERE `id` = 31383;
-UPDATE `npc` SET `name` = '火龍的守門人' WHERE `id` = 31384;
-UPDATE `npc` SET `name` = '火山的心臟' WHERE `id` = 31385;
-UPDATE `npc` SET `name` = '薇爾蕾特', `title` = '商人' WHERE `id` = 31386;
-UPDATE `npc` SET `name` = '克絲緹' WHERE `id` = 31387;
-UPDATE `npc` SET `name` = '米娜' WHERE `id` = 31388;
-UPDATE `npc` SET `name` = '多里安' WHERE `id` = 31389;
-UPDATE `npc` SET `name` = '模型-A', `title` = 'CH4測試' WHERE `id` = 31390;
-UPDATE `npc` SET `name` = '模型-B', `title` = 'CH4測試' WHERE `id` = 31391;
-UPDATE `npc` SET `name` = '模型-C', `title` = 'CH4測試' WHERE `id` = 31392;
-UPDATE `npc` SET `name` = '模型-D', `title` = 'CH4測試' WHERE `id` = 31393;
-UPDATE `npc` SET `name` = '模型-E', `title` = 'CH4測試' WHERE `id` = 31394;
-UPDATE `npc` SET `name` = '模型-F', `title` = 'CH4測試' WHERE `id` = 31395;
-UPDATE `npc` SET `name` = '模型-G', `title` = 'CH4測試' WHERE `id` = 31396;
-UPDATE `npc` SET `name` = '模型-H', `title` = 'CH4測試' WHERE `id` = 31397;
-UPDATE `npc` SET `name` = '模型-I', `title` = 'CH4測試' WHERE `id` = 31398;
-UPDATE `npc` SET `name` = '模型-J', `title` = 'CH4測試' WHERE `id` = 31399;
-UPDATE `npc` SET `name` = '模型-刀警衛', `title` = 'CH4測試' WHERE `id` = 31400;
-UPDATE `npc` SET `name` = '模型-弓警衛', `title` = 'CH4測試' WHERE `id` = 31401;
-UPDATE `npc` SET `name` = '怪物競賽服務員', `title` = '古魯丁城鎮' WHERE `id` = 31404;
-UPDATE `npc` SET `name` = '怪物競賽服務員', `title` = '狄恩城鎮' WHERE `id` = 31405;
-UPDATE `npc` SET `name` = '怪物競賽服務員', `title` = '奇岩城鎮' WHERE `id` = 31406;
-UPDATE `npc` SET `name` = '怪物競賽服務員', `title` = '海音斯' WHERE `id` = 31407;
-UPDATE `npc` SET `name` = '怪物競賽服務員', `title` = '歐瑞城鎮' WHERE `id` = 31408;
-UPDATE `npc` SET `name` = '怪物競賽服務員', `title` = '獵人村莊' WHERE `id` = 31409;
-UPDATE `npc` SET `name` = '怪物競賽服務員', `title` = '亞丁城鎮' WHERE `id` = 31410;
-UPDATE `npc` SET `name` = '怪物競賽服務員', `title` = '高達特城鎮' WHERE `id` = 31411;
-UPDATE `npc` SET `name` = '怪物競賽服務員', `title` = '魯因城鎮' WHERE `id` = 31412;
-UPDATE `npc` SET `name` = '安朵妮歐', `title` = '魔法書商人' WHERE `id` = 31413;
-UPDATE `npc` SET `name` = '琳', `title` = '魔法書商人' WHERE `id` = 31414;
-UPDATE `npc` SET `name` = '蒂麗雅', `title` = '魔法書商人' WHERE `id` = 31415;
-UPDATE `npc` SET `name` = '亞崙', `title` = '魔法書商人' WHERE `id` = 31416;
-UPDATE `npc` SET `name` = '巴里諾', `title` = '魔法書商人' WHERE `id` = 31417;
-UPDATE `npc` SET `name` = '洛克', `title` = '魔法書商人' WHERE `id` = 31418;
-UPDATE `npc` SET `name` = '羅萊爾', `title` = '魔法書商人' WHERE `id` = 31419;
-UPDATE `npc` SET `name` = '多馬尼爾', `title` = '魔法書商人' WHERE `id` = 31420;
-UPDATE `npc` SET `name` = '拉蒂莉亞', `title` = '魔法書商人' WHERE `id` = 31421;
-UPDATE `npc` SET `name` = '米凱爾', `title` = '魔法書商人' WHERE `id` = 31422;
-UPDATE `npc` SET `name` = '羅馬斯', `title` = '魔法書商人' WHERE `id` = 31423;
-UPDATE `npc` SET `name` = '珊塔拉', `title` = '護身符商人' WHERE `id` = 31424;
-UPDATE `npc` SET `name` = '柯蘭', `title` = '護身符商人' WHERE `id` = 31425;
-UPDATE `npc` SET `name` = '加卡', `title` = '護身符商人' WHERE `id` = 31426;
-UPDATE `npc` SET `name` = '烏爾戈', `title` = '護身符商人' WHERE `id` = 31427;
-UPDATE `npc` SET `name` = '夏芭', `title` = '護身符商人' WHERE `id` = 31428;
-UPDATE `npc` SET `name` = '希塔拉', `title` = '護身符商人' WHERE `id` = 31429;
-UPDATE `npc` SET `name` = '多納伊', `title` = '護身符商人' WHERE `id` = 31430;
-UPDATE `npc` SET `name` = '卡萊', `title` = '護身符商人' WHERE `id` = 31431;
-UPDATE `npc` SET `name` = '莉雅', `title` = '設計圖商人' WHERE `id` = 31432;
-UPDATE `npc` SET `name` = '羅納多', `title` = '設計圖商人' WHERE `id` = 31433;
-UPDATE `npc` SET `name` = '薩琳', `title` = '設計圖商人' WHERE `id` = 31434;
-UPDATE `npc` SET `name` = '迪格', `title` = '設計圖商人' WHERE `id` = 31435;
-UPDATE `npc` SET `name` = '塔妮', `title` = '設計圖商人' WHERE `id` = 31436;
-UPDATE `npc` SET `name` = '魯卡', `title` = '設計圖商人' WHERE `id` = 31437;
-UPDATE `npc` SET `name` = '拉拉', `title` = '設計圖商人' WHERE `id` = 31438;
-UPDATE `npc` SET `name` = '羅根', `title` = '礦物商人' WHERE `id` = 31439;
-UPDATE `npc` SET `name` = '拉娜', `title` = '礦物商人' WHERE `id` = 31440;
-UPDATE `npc` SET `name` = '佐爾杜', `title` = '礦物商人' WHERE `id` = 31441;
-UPDATE `npc` SET `name` = '琪琪', `title` = '礦物商人' WHERE `id` = 31442;
-UPDATE `npc` SET `name` = '拉班', `title` = '礦物商人' WHERE `id` = 31443;
-UPDATE `npc` SET `name` = '柯娜', `title` = '礦物商人' WHERE `id` = 31444;
-UPDATE `npc` SET `name` = '修特那', `title` = '礦物商人' WHERE `id` = 31445;
-UPDATE `npc` SET `name` = '威格特的亡靈' WHERE `id` = 31452;
-UPDATE `npc` SET `name` = '無名的靈魂' WHERE `id` = 31453;
-UPDATE `npc` SET `name` = '威格特的亡靈' WHERE `id` = 31454;
-UPDATE `npc` SET `name` = '鑰匙箱子' WHERE `id` = 31455;
-UPDATE `npc` SET `name` = '鑰匙箱子' WHERE `id` = 31456;
-UPDATE `npc` SET `name` = '鑰匙箱子' WHERE `id` = 31457;
-UPDATE `npc` SET `name` = '鑰匙箱子' WHERE `id` = 31458;
-UPDATE `npc` SET `name` = '鑰匙箱子' WHERE `id` = 31459;
-UPDATE `npc` SET `name` = '鑰匙箱子' WHERE `id` = 31460;
-UPDATE `npc` SET `name` = '鑰匙箱子' WHERE `id` = 31461;
-UPDATE `npc` SET `name` = '鑰匙箱子' WHERE `id` = 31462;
-UPDATE `npc` SET `name` = '鑰匙箱子' WHERE `id` = 31463;
-UPDATE `npc` SET `name` = '鑰匙箱子' WHERE `id` = 31464;
-UPDATE `npc` SET `name` = '鑰匙箱子' WHERE `id` = 31465;
-UPDATE `npc` SET `name` = '鑰匙箱子' WHERE `id` = 31466;
-UPDATE `npc` SET `name` = '鑰匙箱子' WHERE `id` = 31467;
-UPDATE `npc` SET `name` = '謎樣的箱子' WHERE `id` = 31468;
-UPDATE `npc` SET `name` = '謎樣的箱子' WHERE `id` = 31469;
-UPDATE `npc` SET `name` = '謎樣的箱子' WHERE `id` = 31470;
-UPDATE `npc` SET `name` = '謎樣的箱子' WHERE `id` = 31471;
-UPDATE `npc` SET `name` = '謎樣的箱子' WHERE `id` = 31472;
-UPDATE `npc` SET `name` = '謎樣的箱子' WHERE `id` = 31473;
-UPDATE `npc` SET `name` = '謎樣的箱子' WHERE `id` = 31474;
-UPDATE `npc` SET `name` = '謎樣的箱子' WHERE `id` = 31475;
-UPDATE `npc` SET `name` = '謎樣的箱子' WHERE `id` = 31476;
-UPDATE `npc` SET `name` = '謎樣的箱子' WHERE `id` = 31477;
-UPDATE `npc` SET `name` = '謎樣的箱子' WHERE `id` = 31478;
-UPDATE `npc` SET `name` = '謎樣的箱子' WHERE `id` = 31479;
-UPDATE `npc` SET `name` = '謎樣的箱子' WHERE `id` = 31480;
-UPDATE `npc` SET `name` = '謎樣的箱子' WHERE `id` = 31481;
-UPDATE `npc` SET `name` = '謎樣的箱子' WHERE `id` = 31482;
-UPDATE `npc` SET `name` = '謎樣的箱子' WHERE `id` = 31483;
-UPDATE `npc` SET `name` = '謎樣的箱子' WHERE `id` = 31484;
-UPDATE `npc` SET `name` = '謎樣的箱子' WHERE `id` = 31485;
-UPDATE `npc` SET `name` = '謎樣的箱子' WHERE `id` = 31486;
-UPDATE `npc` SET `name` = '謎樣的箱子' WHERE `id` = 31487;
-UPDATE `npc` SET `name` = '裂痕守備隊新兵' WHERE `id` = 31488;
-UPDATE `npc` SET `name` = '裂痕守備隊士兵' WHERE `id` = 31489;
-UPDATE `npc` SET `name` = '裂痕守備隊士官' WHERE `id` = 31490;
-UPDATE `npc` SET `name` = '裂痕守備隊軍官' WHERE `id` = 31491;
-UPDATE `npc` SET `name` = '裂痕守備隊司令官' WHERE `id` = 31492;
-UPDATE `npc` SET `name` = '裂痕守備隊英雄' WHERE `id` = 31493;
-UPDATE `npc` SET `name` = '次元裂痕守門人' WHERE `id` = 31494;
-UPDATE `npc` SET `name` = '次元裂痕守門人' WHERE `id` = 31495;
-UPDATE `npc` SET `name` = '次元裂痕守門人' WHERE `id` = 31496;
-UPDATE `npc` SET `name` = '次元裂痕守門人' WHERE `id` = 31497;
-UPDATE `npc` SET `name` = '次元裂痕守門人' WHERE `id` = 31498;
-UPDATE `npc` SET `name` = '次元裂痕守門人' WHERE `id` = 31499;
-UPDATE `npc` SET `name` = '次元裂痕守門人' WHERE `id` = 31500;
-UPDATE `npc` SET `name` = '次元裂痕守門人' WHERE `id` = 31501;
-UPDATE `npc` SET `name` = '次元裂痕守門人' WHERE `id` = 31502;
-UPDATE `npc` SET `name` = '次元裂痕守門人' WHERE `id` = 31503;
-UPDATE `npc` SET `name` = '次元裂痕守門人' WHERE `id` = 31504;
-UPDATE `npc` SET `name` = '次元裂痕守門人' WHERE `id` = 31505;
-UPDATE `npc` SET `name` = '次元裂痕守門人' WHERE `id` = 31506;
-UPDATE `npc` SET `name` = '次元裂痕守門人' WHERE `id` = 31507;
-UPDATE `npc` SET `name` = '聖潔的祭壇' WHERE `id` = 31508;
-UPDATE `npc` SET `name` = '聖潔的祭壇' WHERE `id` = 31509;
-UPDATE `npc` SET `name` = '聖潔的祭壇' WHERE `id` = 31510;
-UPDATE `npc` SET `name` = '聖潔的祭壇' WHERE `id` = 31511;
-UPDATE `npc` SET `name` = '邪惡的祭壇' WHERE `id` = 31512;
-UPDATE `npc` SET `name` = '邪惡的祭壇' WHERE `id` = 31513;
-UPDATE `npc` SET `name` = '邪惡的祭壇' WHERE `id` = 31514;
-UPDATE `npc` SET `name` = '邪惡的祭壇' WHERE `id` = 31515;
-UPDATE `npc` SET `name` = '邪惡的祭壇' WHERE `id` = 31516;
-UPDATE `npc` SET `name` = '長者' WHERE `id` = 31517;
-UPDATE `npc` SET `name` = '謎樣的死靈法師' WHERE `id` = 31518;
-UPDATE `npc` SET `name` = '陵墓' WHERE `id` = 31519;
-UPDATE `npc` SET `name` = '蕾卡兒', `title` = '女僕' WHERE `id` = 31520;
-UPDATE `npc` SET `name` = '傑瑞米', `title` = '大廚師' WHERE `id` = 31521;
-UPDATE `npc` SET `name` = '謎樣的魔法師' WHERE `id` = 31522;
-UPDATE `npc` SET `name` = '墓碑' WHERE `id` = 31523;
-UPDATE `npc` SET `name` = '哈曼的亡靈' WHERE `id` = 31524;
-UPDATE `npc` SET `name` = '哈曼侍從的亡靈' WHERE `id` = 31525;
-UPDATE `npc` SET `name` = '壞掉的書架' WHERE `id` = 31526;
-UPDATE `npc` SET `name` = '井' WHERE `id` = 31527;
-UPDATE `npc` SET `name` = '神官的亡靈' WHERE `id` = 31528;
-UPDATE `npc` SET `name` = '冒險家的亡靈' WHERE `id` = 31529;
-UPDATE `npc` SET `name` = '箱子' WHERE `id` = 31530;
-UPDATE `npc` SET `name` = '墓碑' WHERE `id` = 31531;
-UPDATE `npc` SET `name` = '莉迪亞的侍女' WHERE `id` = 31532;
-UPDATE `npc` SET `name` = '壞掉的書架' WHERE `id` = 31533;
-UPDATE `npc` SET `name` = '壞掉的書架' WHERE `id` = 31534;
-UPDATE `npc` SET `name` = '壞掉的書架' WHERE `id` = 31535;
-UPDATE `npc` SET `name` = '棺' WHERE `id` = 31536;
-UPDATE `npc` SET `name` = '圖那坦', `title` = '放牧場管理員' WHERE `id` = 31537;
-UPDATE `npc` SET `name` = '探險家的亡靈' WHERE `id` = 31538;
-UPDATE `npc` SET `name` = '沃爾昆', `title` = '炎之鐵匠' WHERE `id` = 31539;
-UPDATE `npc` SET `name` = '克雷因', `title` = '巴拉卡斯的監視者' WHERE `id` = 31540;
-UPDATE `npc` SET `name` = '百眼的祭壇' WHERE `id` = 31541;
-UPDATE `npc` SET `name` = '雪人的餐桌' WHERE `id` = 31542;
-UPDATE `npc` SET `name` = '普琳' WHERE `id` = 31543;
-UPDATE `npc` SET `name` = '那夫' WHERE `id` = 31544;
-UPDATE `npc` SET `name` = '克洛克斯' WHERE `id` = 31545;
-UPDATE `npc` SET `name` = '克布爾' WHERE `id` = 31546;
-UPDATE `npc` SET `name` = '貝爾琳' WHERE `id` = 31547;
-UPDATE `npc` SET `name` = '謎樣的古代石板' WHERE `id` = 31548;
-UPDATE `npc` SET `name` = '謎樣的古代石板' WHERE `id` = 31549;
-UPDATE `npc` SET `name` = '謎樣的古代石板' WHERE `id` = 31550;
-UPDATE `npc` SET `name` = '謎樣的古代石板' WHERE `id` = 31551;
-UPDATE `npc` SET `name` = '謎樣的古代石板' WHERE `id` = 31552;
-UPDATE `npc` SET `name` = '比斯', `title` = '傭兵隊長' WHERE `id` = 31553;
-UPDATE `npc` SET `name` = '卡姆恩', `title` = '傭兵' WHERE `id` = 31554;
-UPDATE `npc` SET `name` = '亞柏克隆比', `title` = '傭兵隊補給兵' WHERE `id` = 31555;
-UPDATE `npc` SET `name` = '瑟麗娜', `title` = '傭兵隊醫務兵' WHERE `id` = 31556;
-UPDATE `npc` SET `name` = '傭兵隊哨兵' WHERE `id` = 31557;
-UPDATE `npc` SET `name` = '肯特拉聖壇' WHERE `id` = 31558;
-UPDATE `npc` SET `name` = '亞瑟法的箱子' WHERE `id` = 31559;
-UPDATE `npc` SET `name` = '巴瑞卡聖壇' WHERE `id` = 31560;
-UPDATE `npc` SET `name` = '烏丹 瑪雷杜伊的箱子' WHERE `id` = 31561;
-UPDATE `npc` SET `name` = '克路夫', `title` = '釣魚會員' WHERE `id` = 31562;
-UPDATE `npc` SET `name` = '貝瑞琳', `title` = '釣魚會員' WHERE `id` = 31563;
-UPDATE `npc` SET `name` = '米敘尼', `title` = '釣魚會員' WHERE `id` = 31564;
-UPDATE `npc` SET `name` = '歐格德', `title` = '釣魚會員' WHERE `id` = 31565;
-UPDATE `npc` SET `name` = '羅皮', `title` = '釣魚會員' WHERE `id` = 31566;
-UPDATE `npc` SET `name` = '布利格', `title` = '釣魚會員' WHERE `id` = 31567;
-UPDATE `npc` SET `name` = '帕富斯', `title` = '釣魚會員' WHERE `id` = 31568;
-UPDATE `npc` SET `name` = '沙諾', `title` = '釣魚會員' WHERE `id` = 31569;
-UPDATE `npc` SET `name` = '雷諾斯科', `title` = '釣魚會員' WHERE `id` = 31570;
-UPDATE `npc` SET `name` = '福斯', `title` = '釣魚會員' WHERE `id` = 31571;
-UPDATE `npc` SET `name` = '歐福雷', `title` = '釣魚會員' WHERE `id` = 31572;
-UPDATE `npc` SET `name` = '莫納康', `title` = '釣魚會員' WHERE `id` = 31573;
-UPDATE `npc` SET `name` = '威樂利', `title` = '釣魚會員' WHERE `id` = 31574;
-UPDATE `npc` SET `name` = '利杜隆', `title` = '釣魚會員' WHERE `id` = 31575;
-UPDATE `npc` SET `name` = '貝利克斯', `title` = '釣魚會員' WHERE `id` = 31576;
-UPDATE `npc` SET `name` = '里奈歐斯', `title` = '釣魚會員' WHERE `id` = 31577;
-UPDATE `npc` SET `name` = '海根道夫', `title` = '釣魚會員' WHERE `id` = 31578;
-UPDATE `npc` SET `name` = '克勞', `title` = '釣魚會員' WHERE `id` = 31579;
-UPDATE `npc` SET `name` = '葛拉德利特', `title` = '大師' WHERE `id` = 31580;
-UPDATE `npc` SET `name` = '安娜絲緹雅', `title` = '教師' WHERE `id` = 31581;
-UPDATE `npc` SET `name` = '瑪德雷特', `title` = '黑暗騎士' WHERE `id` = 31582;
-UPDATE `npc` SET `name` = '菲因', `title` = '鐵匠' WHERE `id` = 31583;
-UPDATE `npc` SET `name` = '瓦倫丁', `title` = '釀酒者' WHERE `id` = 31584;
-UPDATE `npc` SET `name` = '斯帕奇貓', `title` = '奇茲的使魔' WHERE `id` = 31585;
-UPDATE `npc` SET `name` = '斯帕奇貓', `title` = '奇茲的使魔' WHERE `id` = 31586;
-UPDATE `npc` SET `name` = '吉德利克', `title` = '寶石加工者' WHERE `id` = 31587;
-UPDATE `npc` SET `name` = '阿格擬斯', `title` = '光之聖女' WHERE `id` = 31588;
-UPDATE `npc` SET `name` = '都達瑪拉圖騰靈' WHERE `id` = 31589;
-UPDATE `npc` SET `name` = '真實的探求者 帝凡安諾 ' WHERE `id` = 31590;
-UPDATE `npc` SET `name` = '晚霞的引導者 魯娜' WHERE `id` = 31591;
-UPDATE `npc` SET `name` = '泰爾桑', `title` = '首席高崙工匠' WHERE `id` = 31592;
-UPDATE `npc` SET `name` = '達羅斯', `title` = '泰爾桑的高崙' WHERE `id` = 31593;
-UPDATE `npc` SET `name` = '蒙德', `title` = '首席監察員' WHERE `id` = 31594;
-UPDATE `npc` SET `name` = '黎歐納 布拉克巴德' WHERE `id` = 31595;
-UPDATE `npc` SET `name` = '托寶德', `title` = '大師' WHERE `id` = 31596;
-UPDATE `npc` SET `name` = '托寶德', `title` = '大師' WHERE `id` = 31597;
-UPDATE `npc` SET `name` = '美狄娜 布拉克哈特' WHERE `id` = 31598;
-UPDATE `npc` SET `name` = '污名騎士 巴爾提斯汀' WHERE `id` = 31599;
-UPDATE `npc` SET `name` = '潘蜜拉 阿芙羅蒂雅' WHERE `id` = 31600;
-UPDATE `npc` SET `name` = '潘蜜拉 阿芙羅蒂雅' WHERE `id` = 31601;
-UPDATE `npc` SET `name` = '夏蘿娜 阿爾緹蜜雅', `title` = '保鏢' WHERE `id` = 31602;
-UPDATE `npc` SET `name` = '布拉克凱特', `title` = '獵人公會會員' WHERE `id` = 31603;
-UPDATE `npc` SET `name` = '葛林斯特', `title` = '情報販子' WHERE `id` = 31604;
-UPDATE `npc` SET `name` = '金斯雷', `title` = '高等元素使' WHERE `id` = 31605;
-UPDATE `npc` SET `name` = '艾麗絲 蒂 凱特琳娜', `title` = '金斯雷的使魔' WHERE `id` = 31606;
-UPDATE `npc` SET `name` = '夏克頓 蘇 黑斯吐伊' WHERE `id` = 31607;
-UPDATE `npc` SET `name` = '蓓琳達', `title` = '元素使' WHERE `id` = 31608;
-UPDATE `npc` SET `name` = '獨角獸歐若拉', `title` = '蓓琳達的使魔' WHERE `id` = 31609;
-UPDATE `npc` SET `name` = '席肯 古倫杜雷克' WHERE `id` = 31610;
-UPDATE `npc` SET `name` = '史魁德 哈特希克爾' WHERE `id` = 31611;
-UPDATE `npc` SET `name` = '永遠的流浪者 史坦瑞斯 ' WHERE `id` = 31612;
-UPDATE `npc` SET `name` = '諾提斯', `title` = '元素使' WHERE `id` = 31613;
-UPDATE `npc` SET `name` = '拉帝斯', `title` = '高等元素使' WHERE `id` = 31614;
-UPDATE `npc` SET `name` = '隱者' WHERE `id` = 31615;
-UPDATE `npc` SET `name` = '隱者' WHERE `id` = 31616;
-UPDATE `npc` SET `name` = '亞利亞 波斯特麥特' WHERE `id` = 31617;
-UPDATE `npc` SET `name` = '月之歌 艾琳' WHERE `id` = 31618;
-UPDATE `npc` SET `name` = '艾瑞卡 肯 偉柏' WHERE `id` = 31619;
-UPDATE `npc` SET `name` = '新綠的賢者 耶里吉亞' WHERE `id` = 31620;
-UPDATE `npc` SET `name` = '深淵的聖女 艾卡迪雅' WHERE `id` = 31621;
-UPDATE `npc` SET `name` = '奇茲', `title` = '受詛咒的元素使' WHERE `id` = 31622;
-UPDATE `npc` SET `name` = '巴瓦琳', `title` = '情報販子' WHERE `id` = 31623;
-UPDATE `npc` SET `name` = '多拿斯', `title` = '料理名人' WHERE `id` = 31624;
-UPDATE `npc` SET `name` = '雪人', `title` = '多拿斯的料理助手' WHERE `id` = 31625;
-UPDATE `npc` SET `name` = '頓欽', `title` = '廚師' WHERE `id` = 31626;
-UPDATE `npc` SET `name` = '密斯托', `title` = '情報販子' WHERE `id` = 31627;
-UPDATE `npc` SET `name` = '麗露', `title` = '密斯托的孫女' WHERE `id` = 31628;
-UPDATE `npc` SET `name` = '獨角獸 卡雷多司' WHERE `id` = 31629;
-UPDATE `npc` SET `name` = '獨角獸 卡雷多司' WHERE `id` = 31630;
-UPDATE `npc` SET `name` = '艾力克 蘭斯哈特' WHERE `id` = 31631;
-UPDATE `npc` SET `name` = '謎樣的使魔' WHERE `id` = 31632;
-UPDATE `npc` SET `name` = '冬之獵者 凱迪斯' WHERE `id` = 31633;
-UPDATE `npc` SET `name` = '冬之獵者 凱迪斯' WHERE `id` = 31634;
-UPDATE `npc` SET `name` = '冬之獵者 凱迪斯' WHERE `id` = 31635;
-UPDATE `npc` SET `name` = '炎之傳承者 亞肯' WHERE `id` = 31636;
-UPDATE `npc` SET `name` = '卡巴塔里 卡修' WHERE `id` = 31637;
-UPDATE `npc` SET `name` = '星光騎士 卡斯提' WHERE `id` = 31638;
-UPDATE `npc` SET `name` = '卡因  班 胡爾特' WHERE `id` = 31639;
-UPDATE `npc` SET `name` = '黑暗的巡禮者' WHERE `id` = 31640;
-UPDATE `npc` SET `name` = '黑暗的巡禮者' WHERE `id` = 31641;
-UPDATE `npc` SET `name` = '塔爾卡依 蘇 都達瑪拉' WHERE `id` = 31642;
-UPDATE `npc` SET `name` = '白銀 費沙' WHERE `id` = 31643;
-UPDATE `npc` SET `name` = '黎明的見證 佛蘭茲 ' WHERE `id` = 31644;
-UPDATE `npc` SET `name` = '音德米斯  楚拜斯' WHERE `id` = 31645;
-UPDATE `npc` SET `name` = '祕傳的石板' WHERE `id` = 31646;
-UPDATE `npc` SET `name` = '祕傳的石板' WHERE `id` = 31647;
-UPDATE `npc` SET `name` = '祕傳的石板' WHERE `id` = 31648;
-UPDATE `npc` SET `name` = '祕傳的石板' WHERE `id` = 31649;
-UPDATE `npc` SET `name` = '祕傳的石板' WHERE `id` = 31650;
-UPDATE `npc` SET `name` = '祕傳的石板' WHERE `id` = 31651;
-UPDATE `npc` SET `name` = '祕傳的石板' WHERE `id` = 31652;
-UPDATE `npc` SET `name` = '祕傳的石板' WHERE `id` = 31653;
-UPDATE `npc` SET `name` = '祕傳的石板' WHERE `id` = 31654;
-UPDATE `npc` SET `name` = '祕傳的石板' WHERE `id` = 31655;
-UPDATE `npc` SET `name` = '祕傳的石板' WHERE `id` = 31656;
-UPDATE `npc` SET `name` = '祕傳的石板' WHERE `id` = 31657;
-UPDATE `npc` SET `name` = '祕傳的石板' WHERE `id` = 31658;
-UPDATE `npc` SET `name` = '祕傳的石板' WHERE `id` = 31659;
-UPDATE `npc` SET `name` = '祕傳的石板' WHERE `id` = 31660;
-UPDATE `npc` SET `name` = '被遺忘的紀念碑' WHERE `id` = 31661;
-UPDATE `npc` SET `name` = '被遺忘的紀念碑' WHERE `id` = 31662;
-UPDATE `npc` SET `name` = '被遺忘的紀念碑' WHERE `id` = 31663;
-UPDATE `npc` SET `name` = '被遺忘的紀念碑' WHERE `id` = 31664;
-UPDATE `npc` SET `name` = '矮人的屍體' WHERE `id` = 31665;
-UPDATE `npc` SET `name` = '魯門', `title` = '魔法書商人' WHERE `id` = 31666;
-UPDATE `npc` SET `name` = '萊伊克', `title` = '護身符商人' WHERE `id` = 31667;
-UPDATE `npc` SET `name` = '唐干', `title` = '設計圖商人' WHERE `id` = 31668;
-UPDATE `npc` SET `name` = '歐尼克斯', `title` = '礦物商人' WHERE `id` = 31669;
-UPDATE `npc` SET `name` = '邦斯', `title` = '魔法書商人' WHERE `id` = 31670;
-UPDATE `npc` SET `name` = '巡邏兵' WHERE `id` = 31671;
-UPDATE `npc` SET `name` = '巡邏兵' WHERE `id` = 31672;
-UPDATE `npc` SET `name` = '巡邏兵' WHERE `id` = 31673;
-UPDATE `npc` SET `name` = '巡邏兵' WHERE `id` = 31674;
-UPDATE `npc` SET `name` = '維克特 馮 德伊克', `title` = '國境守備隊隊長' WHERE `id` = 31675;
-UPDATE `npc` SET `name` = '葛萊高爾 亞太法特', `title` = '國境守備隊隊長' WHERE `id` = 31676;
-UPDATE `npc` SET `name` = '國境守備隊員' WHERE `id` = 31677;
-UPDATE `npc` SET `name` = '國境守備隊員' WHERE `id` = 31678;
-UPDATE `npc` SET `name` = '尤斯特斯 馮 伊森', `title` = '邊境警衛隊隊長' WHERE `id` = 31679;
-UPDATE `npc` SET `name` = '菲爾鳴 馮 伊森', `title` = '邊境警衛隊隊長' WHERE `id` = 31680;
-UPDATE `npc` SET `name` = '邊境警衛隊員' WHERE `id` = 31681;
-UPDATE `npc` SET `name` = '邊境警衛隊員' WHERE `id` = 31682;
-UPDATE `npc` SET `name` = '亞爾古斯之眼' WHERE `id` = 31683;
-UPDATE `npc` SET `name` = '烏丹 瑪雷杜伊之眼' WHERE `id` = 31684;
-UPDATE `npc` SET `name` = '亞瑟法之眼' WHERE `id` = 31685;
-UPDATE `npc` SET `name` = '火龍的守門人' WHERE `id` = 31686;
-UPDATE `npc` SET `name` = '火龍的守門人' WHERE `id` = 31687;
-UPDATE `npc` SET `name` = '奧林匹亞管理者' WHERE `id` = 31688;
-UPDATE `npc` SET `name` = '奧林匹亞終止者' WHERE `id` = 31689;
-UPDATE `npc` SET `name` = '英雄紀念塔' WHERE `id` = 31690;
-UPDATE `npc` SET `name` = '訓練用草人' WHERE `id` = 31691;
-UPDATE `npc` SET `name` = '黎明的祭司' WHERE `id` = 31692;
-UPDATE `npc` SET `name` = '黃昏的祭司' WHERE `id` = 31693;
-UPDATE `npc` SET `name` = '黎明的祭司' WHERE `id` = 31694;
-UPDATE `npc` SET `name` = '黃昏的祭司' WHERE `id` = 31695;
-UPDATE `npc` SET `name` = '普拉地斯', `title` = '釣魚會員' WHERE `id` = 31696;
-UPDATE `npc` SET `name` = '因達克那', `title` = '釣魚會員' WHERE `id` = 31697;
-UPDATE `npc` SET `name` = '亞里莎', `title` = '守門人' WHERE `id` = 31698;
-UPDATE `npc` SET `name` = '絲塔妮思拉娃', `title` = '守門人' WHERE `id` = 31699;
-UPDATE `npc` SET `name` = '聖女的隨從' WHERE `id` = 31700;
-UPDATE `npc` SET `name` = '聖女的隨從' WHERE `id` = 31701;
-UPDATE `npc` SET `name` = '聖女的隨從' WHERE `id` = 31702;
-UPDATE `npc` SET `name` = '聖女的隨從' WHERE `id` = 31703;
-UPDATE `npc` SET `name` = '聖女的隨從' WHERE `id` = 31704;
-UPDATE `npc` SET `name` = '百眼的惡魔' WHERE `id` = 31705;
-UPDATE `npc` SET `name` = '米奇貓' WHERE `id` = 31706;
-UPDATE `npc` SET `name` = '肯特拉先鋒隊士兵' WHERE `id` = 31707;
-UPDATE `npc` SET `name` = '肯特拉先鋒隊咒術士' WHERE `id` = 31708;
-UPDATE `npc` SET `name` = '肯特拉先鋒隊軍官' WHERE `id` = 31709;
-UPDATE `npc` SET `name` = '巴瑞卡突擊隊指揮官' WHERE `id` = 31710;
-UPDATE `npc` SET `name` = '巴瑞卡突擊隊咒術士' WHERE `id` = 31711;
-UPDATE `npc` SET `name` = '巴瑞卡突擊兵' WHERE `id` = 31712;
-UPDATE `npc` SET `name` = '吶喊滅亡的人' WHERE `id` = 31713;
-UPDATE `npc` SET `name` = '吶喊滅亡的人' WHERE `id` = 31714;
-UPDATE `npc` SET `name` = '吶喊滅亡的人' WHERE `id` = 31715;
-UPDATE `npc` SET `name` = '吶喊滅亡的人' WHERE `id` = 31716;
-UPDATE `npc` SET `name` = '吶喊滅亡的人' WHERE `id` = 31717;
-UPDATE `npc` SET `name` = '吶喊滅亡的人' WHERE `id` = 31718;
-UPDATE `npc` SET `name` = '吶喊滅亡的人' WHERE `id` = 31719;
-UPDATE `npc` SET `name` = '吶喊滅亡的人' WHERE `id` = 31720;
-UPDATE `npc` SET `name` = '道破啟示的人' WHERE `id` = 31721;
-UPDATE `npc` SET `name` = '道破啟示的人' WHERE `id` = 31722;
-UPDATE `npc` SET `name` = '道破啟示的人' WHERE `id` = 31723;
-UPDATE `npc` SET `name` = '道破啟示的人' WHERE `id` = 31724;
-UPDATE `npc` SET `name` = '道破啟示的人' WHERE `id` = 31725;
-UPDATE `npc` SET `name` = '道破啟示的人' WHERE `id` = 31726;
-UPDATE `npc` SET `name` = '道破啟示的人' WHERE `id` = 31727;
-UPDATE `npc` SET `name` = '道破啟示的人' WHERE `id` = 31728;
-UPDATE `npc` SET `name` = '冒險家會員' WHERE `id` = 31729;
-UPDATE `npc` SET `name` = '冒險家會員' WHERE `id` = 31730;
-UPDATE `npc` SET `name` = '冒險家會員' WHERE `id` = 31731;
-UPDATE `npc` SET `name` = '冒險家會員' WHERE `id` = 31732;
-UPDATE `npc` SET `name` = '冒險家會員' WHERE `id` = 31733;
-UPDATE `npc` SET `name` = '冒險家會員' WHERE `id` = 31734;
-UPDATE `npc` SET `name` = '冒險家會員' WHERE `id` = 31735;
-UPDATE `npc` SET `name` = '冒險家會員' WHERE `id` = 31736;
-UPDATE `npc` SET `name` = '冒險家會員' WHERE `id` = 31737;
-UPDATE `npc` SET `name` = '冒險家會員' WHERE `id` = 31738;
-UPDATE `npc` SET `name` = '塔利恩' WHERE `id` = 31739;
-UPDATE `npc` SET `name` = '凱拉蒂' WHERE `id` = 31740;
-UPDATE `npc` SET `name` = '歐夏恩' WHERE `id` = 31741;
-UPDATE `npc` SET `name` = '維爾吉爾' WHERE `id` = 31742;
-UPDATE `npc` SET `name` = '卡珊德拉' WHERE `id` = 31743;
-UPDATE `npc` SET `name` = '歐格瑪' WHERE `id` = 31744;
-UPDATE `npc` SET `name` = '湖之女子' WHERE `id` = 31745;
-UPDATE `npc` SET `name` = '倒下的獨角獸' WHERE `id` = 31746;
-UPDATE `npc` SET `name` = '純白的獨角獸' WHERE `id` = 31747;
-UPDATE `npc` SET `name` = '束縛的基石' WHERE `id` = 31748;
-UPDATE `npc` SET `name` = '謎樣的女子' WHERE `id` = 31750;
-UPDATE `npc` SET `name` = '謎樣的黑騎士' WHERE `id` = 31751;
-UPDATE `npc` SET `name` = '天使的屍體' WHERE `id` = 31752;
-UPDATE `npc` SET `name` = '赫拉斯特', `title` = '大巫師' WHERE `id` = 31755;
-UPDATE `npc` SET `name` = '戰鬥喵喵', `title` = '測試伺服器助手' WHERE `id` = 31756;
-UPDATE `npc` SET `name` = '皇后喵喵', `title` = '測試伺服器助手' WHERE `id` = 31757;
-UPDATE `npc` SET `name` = '拉菲' WHERE `id` = 31758;
-UPDATE `npc` SET `name` = '傳送晶體' WHERE `id` = 31759;
-UPDATE `npc` SET `name` = '皇后喵喵', `title` = '冒險助手' WHERE `id` = 31760;
-UPDATE `npc` SET `name` = '皇后喵喵', `title` = '冒險助手' WHERE `id` = 31761;
-UPDATE `npc` SET `name` = '皇后喵喵', `title` = '冒險助手' WHERE `id` = 31762;
-UPDATE `npc` SET `name` = '皇后喵喵', `title` = '冒險助手' WHERE `id` = 31763;
-UPDATE `npc` SET `name` = '皇后喵喵', `title` = '冒險助手' WHERE `id` = 31764;
-UPDATE `npc` SET `name` = '皇后喵喵', `title` = '冒險助手' WHERE `id` = 31765;
-UPDATE `npc` SET `name` = '皇后喵喵', `title` = '冒險助手' WHERE `id` = 31766;
-UPDATE `npc` SET `name` = '活動守門人' WHERE `id` = 31767;
-UPDATE `npc` SET `name` = '活動守門人' WHERE `id` = 31768;
-UPDATE `npc` SET `name` = '英雄紀念塔' WHERE `id` = 31769;
-UPDATE `npc` SET `name` = '英雄紀念塔' WHERE `id` = 31770;
-UPDATE `npc` SET `name` = '英雄紀念塔' WHERE `id` = 31771;
-UPDATE `npc` SET `name` = '英雄紀念塔' WHERE `id` = 31772;
-UPDATE `npc` SET `name` = '桑寧', `title` = '倉庫管理員' WHERE `id` = 31773;
-UPDATE `npc` SET `name` = '薇琳貓', `title` = '活動執行者' WHERE `id` = 31774;
-UPDATE `npc` SET `name` = '冒險家會員' WHERE `id` = 31775;
-UPDATE `npc` SET `name` = '冒險家會員' WHERE `id` = 31776;
-UPDATE `npc` SET `name` = '冒險家會員' WHERE `id` = 31777;
-UPDATE `npc` SET `name` = '冒險家會員' WHERE `id` = 31778;
-UPDATE `npc` SET `name` = '冒險家會員' WHERE `id` = 31779;
-UPDATE `npc` SET `name` = '冒險家會員' WHERE `id` = 31780;
-UPDATE `npc` SET `name` = '冒險家會員' WHERE `id` = 31781;
-UPDATE `npc` SET `name` = '冒險家會員' WHERE `id` = 31782;
-UPDATE `npc` SET `name` = '冒險家會員' WHERE `id` = 31783;
-UPDATE `npc` SET `name` = '冒險家會員' WHERE `id` = 31784;
-UPDATE `npc` SET `name` = '冒險家會員' WHERE `id` = 31785;
-UPDATE `npc` SET `name` = '冒險家會員' WHERE `id` = 31786;
-UPDATE `npc` SET `name` = '冒險家會員' WHERE `id` = 31787;
-UPDATE `npc` SET `name` = '冒險家會員' WHERE `id` = 31788;
-UPDATE `npc` SET `name` = '冒險家會員' WHERE `id` = 31789;
-UPDATE `npc` SET `name` = '冒險家會員' WHERE `id` = 31790;
-UPDATE `npc` SET `name` = '冒險家會員' WHERE `id` = 31791;
-UPDATE `npc` SET `name` = '冒險家會員' WHERE `id` = 31792;
-UPDATE `npc` SET `name` = '冒險家會員' WHERE `id` = 31793;
-UPDATE `npc` SET `name` = '冒險家會員' WHERE `id` = 31794;
-UPDATE `npc` SET `name` = '冒險家會員' WHERE `id` = 31795;
-UPDATE `npc` SET `name` = '冒險家會員' WHERE `id` = 31796;
-UPDATE `npc` SET `name` = '冒險家會員' WHERE `id` = 31797;
-UPDATE `npc` SET `name` = '冒險家會員' WHERE `id` = 31798;
-UPDATE `npc` SET `name` = '冒險家會員' WHERE `id` = 31799;
-UPDATE `npc` SET `name` = '冒險家會員' WHERE `id` = 31800;
-UPDATE `npc` SET `name` = '冒險家會員' WHERE `id` = 31801;
-UPDATE `npc` SET `name` = '冒險家會員' WHERE `id` = 31802;
-UPDATE `npc` SET `name` = '冒險家會員' WHERE `id` = 31803;
-UPDATE `npc` SET `name` = '冒險家會員' WHERE `id` = 31804;
-UPDATE `npc` SET `name` = '冒險家會員' WHERE `id` = 31805;
-UPDATE `npc` SET `name` = '冒險家會員' WHERE `id` = 31806;
-UPDATE `npc` SET `name` = '冒險家會員' WHERE `id` = 31807;
-UPDATE `npc` SET `name` = '冒險家會員' WHERE `id` = 31808;
-UPDATE `npc` SET `name` = '冒險家會員' WHERE `id` = 31809;
-UPDATE `npc` SET `name` = '冒險家會員' WHERE `id` = 31810;
-UPDATE `npc` SET `name` = '冒險家會員' WHERE `id` = 31811;
-UPDATE `npc` SET `name` = '冒險家會員' WHERE `id` = 31812;
-UPDATE `npc` SET `name` = '冒險家會員' WHERE `id` = 31813;
-UPDATE `npc` SET `name` = '冒險家會員' WHERE `id` = 31814;
-UPDATE `npc` SET `name` = '冒險家會員' WHERE `id` = 31815;
-UPDATE `npc` SET `name` = '冒險家會員' WHERE `id` = 31816;
-UPDATE `npc` SET `name` = '冒險家會員' WHERE `id` = 31817;
-UPDATE `npc` SET `name` = '冒險家會員' WHERE `id` = 31818;
-UPDATE `npc` SET `name` = '冒險家會員' WHERE `id` = 31819;
-UPDATE `npc` SET `name` = '冒險家會員' WHERE `id` = 31820;
-UPDATE `npc` SET `name` = '冒險家會員' WHERE `id` = 31821;
-UPDATE `npc` SET `name` = '冒險家會員' WHERE `id` = 31822;
-UPDATE `npc` SET `name` = '冒險家會員' WHERE `id` = 31823;
-UPDATE `npc` SET `name` = '冒險家會員' WHERE `id` = 31824;
-UPDATE `npc` SET `name` = '冒險家會員' WHERE `id` = 31825;
-UPDATE `npc` SET `name` = '冒險家會員' WHERE `id` = 31826;
-UPDATE `npc` SET `name` = '冒險家會員' WHERE `id` = 31827;
-UPDATE `npc` SET `name` = '冒險家會員' WHERE `id` = 31828;
-UPDATE `npc` SET `name` = '冒險家會員' WHERE `id` = 31829;
-UPDATE `npc` SET `name` = '冒險家會員' WHERE `id` = 31830;
-UPDATE `npc` SET `name` = '冒險家會員' WHERE `id` = 31831;
-UPDATE `npc` SET `name` = '冒險家會員' WHERE `id` = 31832;
-UPDATE `npc` SET `name` = '冒險家會員' WHERE `id` = 31833;
-UPDATE `npc` SET `name` = '冒險家會員' WHERE `id` = 31834;
-UPDATE `npc` SET `name` = '冒險家會員' WHERE `id` = 31835;
-UPDATE `npc` SET `name` = '冒險家會員' WHERE `id` = 31836;
-UPDATE `npc` SET `name` = '冒險家會員' WHERE `id` = 31837;
-UPDATE `npc` SET `name` = '冒險家會員' WHERE `id` = 31838;
-UPDATE `npc` SET `name` = '冒險家會員' WHERE `id` = 31839;
-UPDATE `npc` SET `name` = '冒險家會員' WHERE `id` = 31840;
-UPDATE `npc` SET `name` = '冒險家會員' WHERE `id` = 31841;
-UPDATE `npc` SET `name` = '傳送晶體' WHERE `id` = 31842;
-UPDATE `npc` SET `name` = '傳送晶體' WHERE `id` = 31843;
-UPDATE `npc` SET `name` = '瑞克妮' WHERE `id` = 31844;
-UPDATE `npc` SET `name` = '血腥小精靈' WHERE `id` = 31845;
-UPDATE `npc` SET `name` = '黑暗之潘' WHERE `id` = 31846;
-UPDATE `npc` SET `name` = '潘' WHERE `id` = 31847;
-UPDATE `npc` SET `name` = '小精靈' WHERE `id` = 31848;
-UPDATE `npc` SET `name` = '紅色瑞克妮' WHERE `id` = 31849;
-UPDATE `npc` SET `name` = '安特提米里藍' WHERE `id` = 31850;
-UPDATE `npc` SET `name` = '安特提米提藍' WHERE `id` = 31851;
-UPDATE `npc` SET `name` = '小精靈莫妮卡' WHERE `id` = 31852;
-UPDATE `npc` SET `name` = '安特布麥特藍' WHERE `id` = 31853;
-UPDATE `npc` SET `name` = '活動管理員' WHERE `id` = 31854;
-UPDATE `npc` SET `name` = '活動管理員' WHERE `id` = 31855;
-UPDATE `npc` SET `name` = '活動管理員' WHERE `id` = 31856;
-UPDATE `npc` SET `name` = '活動管理員' WHERE `id` = 31857;
-UPDATE `npc` SET `name` = '活動管理員' WHERE `id` = 31858;
-UPDATE `npc` SET `name` = '傳送晶體' WHERE `id` = 31859;
-UPDATE `npc` SET `name` = '普斯貓', `title` = '活動執行者' WHERE `id` = 31860;
-UPDATE `npc` SET `name` = '守門人' WHERE `id` = 31861;
-UPDATE `npc` SET `name` = '天使界點' WHERE `id` = 31862;
-UPDATE `npc` SET `name` = '見習聖誕老人' WHERE `id` = 31863;
-UPDATE `npc` SET `name` = '見習聖誕老人' WHERE `id` = 31864;
-UPDATE `npc` SET `name` = '禁界的守護者' WHERE `id` = 31865;
-UPDATE `npc` SET `name` = '禁界的守護者' WHERE `id` = 31866;
-UPDATE `npc` SET `name` = '禁界的守護者' WHERE `id` = 31867;
-UPDATE `npc` SET `name` = '禁界的守護者' WHERE `id` = 31868;
-UPDATE `npc` SET `name` = '禁界的守護者' WHERE `id` = 31869;
-UPDATE `npc` SET `name` = '禁界的守護者' WHERE `id` = 31870;
-UPDATE `npc` SET `name` = '禁界的守護者' WHERE `id` = 31871;
-UPDATE `npc` SET `name` = '禁界的守護者' WHERE `id` = 31872;
-UPDATE `npc` SET `name` = '禁界的守護者' WHERE `id` = 31873;
-UPDATE `npc` SET `name` = '禁界的守護者' WHERE `id` = 31874;
-UPDATE `npc` SET `name` = '禁界的守護者' WHERE `id` = 31875;
-UPDATE `npc` SET `name` = '禁界的守護者' WHERE `id` = 31876;
-UPDATE `npc` SET `name` = '禁界的守護者' WHERE `id` = 31877;
-UPDATE `npc` SET `name` = '禁界的守護者' WHERE `id` = 31878;
-UPDATE `npc` SET `name` = '禁界的守護者' WHERE `id` = 31879;
-UPDATE `npc` SET `name` = '禁界的守護者' WHERE `id` = 31880;
-UPDATE `npc` SET `name` = '禁界的守護者' WHERE `id` = 31881;
-UPDATE `npc` SET `name` = '禁界的守護者' WHERE `id` = 31882;
-UPDATE `npc` SET `name` = '禁界的守護者' WHERE `id` = 31883;
-UPDATE `npc` SET `name` = '禁界的守護者' WHERE `id` = 31884;
-UPDATE `npc` SET `name` = '禁界的守護者' WHERE `id` = 31885;
-UPDATE `npc` SET `name` = '禁界的守護者' WHERE `id` = 31886;
-UPDATE `npc` SET `name` = '禁界的守護者' WHERE `id` = 31887;
-UPDATE `npc` SET `name` = '禁界的守護者' WHERE `id` = 31888;
-UPDATE `npc` SET `name` = '禁界的守護者' WHERE `id` = 31889;
-UPDATE `npc` SET `name` = '禁界的守護者' WHERE `id` = 31890;
-UPDATE `npc` SET `name` = '禁界的守護者' WHERE `id` = 31891;
-UPDATE `npc` SET `name` = '禁界的守護者' WHERE `id` = 31892;
-UPDATE `npc` SET `name` = '禁界的守護者' WHERE `id` = 31893;
-UPDATE `npc` SET `name` = '禁界的守護者' WHERE `id` = 31894;
-UPDATE `npc` SET `name` = '禁界的守護者' WHERE `id` = 31895;
-UPDATE `npc` SET `name` = '禁界的守護者' WHERE `id` = 31896;
-UPDATE `npc` SET `name` = '禁界的守護者' WHERE `id` = 31897;
-UPDATE `npc` SET `name` = '禁界的守護者' WHERE `id` = 31898;
-UPDATE `npc` SET `name` = '禁界的守護者' WHERE `id` = 31899;
-UPDATE `npc` SET `name` = '禁界的守護者' WHERE `id` = 31900;
-UPDATE `npc` SET `name` = '禁界的守護者' WHERE `id` = 31901;
-UPDATE `npc` SET `name` = '禁界的守護者' WHERE `id` = 31902;
-UPDATE `npc` SET `name` = '禁界的守護者' WHERE `id` = 31903;
-UPDATE `npc` SET `name` = '禁界的守護者' WHERE `id` = 31904;
-UPDATE `npc` SET `name` = '禁界的守護者' WHERE `id` = 31905;
-UPDATE `npc` SET `name` = '禁界的守護者' WHERE `id` = 31906;
-UPDATE `npc` SET `name` = '禁界的守護者' WHERE `id` = 31907;
-UPDATE `npc` SET `name` = '禁界的守護者' WHERE `id` = 31908;
-UPDATE `npc` SET `name` = '禁界的守護者' WHERE `id` = 31909;
-UPDATE `npc` SET `name` = '禁界的守護者' WHERE `id` = 31910;
-UPDATE `npc` SET `name` = '禁界的守護者' WHERE `id` = 31911;
-UPDATE `npc` SET `name` = '禁界的守護者' WHERE `id` = 31912;
-UPDATE `npc` SET `name` = '禁界的守護者' WHERE `id` = 31913;
-UPDATE `npc` SET `name` = '禁界的守護者' WHERE `id` = 31914;
-UPDATE `npc` SET `name` = '禁界的守護者' WHERE `id` = 31915;
-UPDATE `npc` SET `name` = '禁界的守護者' WHERE `id` = 31916;
-UPDATE `npc` SET `name` = '禁界的守護者' WHERE `id` = 31917;
-UPDATE `npc` SET `name` = '禁界的守護者' WHERE `id` = 31918;
-UPDATE `npc` SET `name` = '艾爾摩亞丁侍衛隊長的亡靈' WHERE `id` = 31919;
-UPDATE `npc` SET `name` = '艾爾摩亞丁侍衛的亡靈' WHERE `id` = 31920;
-UPDATE `npc` SET `name` = '征服者陵墓管理員' WHERE `id` = 31921;
-UPDATE `npc` SET `name` = '統治者陵墓管理員' WHERE `id` = 31922;
-UPDATE `npc` SET `name` = '大賢者陵墓管理員' WHERE `id` = 31923;
-UPDATE `npc` SET `name` = '審判者陵墓管理員' WHERE `id` = 31924;
-UPDATE `npc` SET `name` = '男爵禮拜堂守門人' WHERE `id` = 31925;
-UPDATE `npc` SET `name` = '子爵禮拜堂守門人' WHERE `id` = 31926;
-UPDATE `npc` SET `name` = '伯爵禮拜堂守門人' WHERE `id` = 31927;
-UPDATE `npc` SET `name` = '侯爵禮拜堂守門人' WHERE `id` = 31928;
-UPDATE `npc` SET `name` = '公爵禮拜堂守門人' WHERE `id` = 31929;
-UPDATE `npc` SET `name` = '男爵禮拜堂守門人' WHERE `id` = 31930;
-UPDATE `npc` SET `name` = '子爵禮拜堂守門人' WHERE `id` = 31931;
-UPDATE `npc` SET `name` = '伯爵禮拜堂守門人' WHERE `id` = 31932;
-UPDATE `npc` SET `name` = '侯爵禮拜堂守門人' WHERE `id` = 31933;
-UPDATE `npc` SET `name` = '公爵禮拜堂守門人' WHERE `id` = 31934;
-UPDATE `npc` SET `name` = '男爵禮拜堂守門人' WHERE `id` = 31935;
-UPDATE `npc` SET `name` = '子爵禮拜堂守門人' WHERE `id` = 31936;
-UPDATE `npc` SET `name` = '伯爵禮拜堂守門人' WHERE `id` = 31937;
-UPDATE `npc` SET `name` = '侯爵禮拜堂守門人' WHERE `id` = 31938;
-UPDATE `npc` SET `name` = '公爵禮拜堂守門人' WHERE `id` = 31939;
-UPDATE `npc` SET `name` = '男爵禮拜堂守門人' WHERE `id` = 31940;
-UPDATE `npc` SET `name` = '子爵禮拜堂守門人' WHERE `id` = 31941;
-UPDATE `npc` SET `name` = '伯爵禮拜堂守門人' WHERE `id` = 31942;
-UPDATE `npc` SET `name` = '侯爵禮拜堂守門人' WHERE `id` = 31943;
-UPDATE `npc` SET `name` = '公爵禮拜堂守門人' WHERE `id` = 31944;
-UPDATE `npc` SET `name` = '奧森德羅弗', `title` = '商人' WHERE `id` = 31945;
-UPDATE `npc` SET `name` = '羅布雷', `title` = '商人' WHERE `id` = 31946;
-UPDATE `npc` SET `name` = '歐瓦金', `title` = '商人' WHERE `id` = 31947;
-UPDATE `npc` SET `name` = '雅德利安', `title` = '商人' WHERE `id` = 31948;
-UPDATE `npc` SET `name` = '蘿潔', `title` = '商人' WHERE `id` = 31949;
-UPDATE `npc` SET `name` = '梅爾蘭', `title` = '商人' WHERE `id` = 31950;
-UPDATE `npc` SET `name` = '裘潔', `title` = '商人' WHERE `id` = 31951;
-UPDATE `npc` SET `name` = '芙芙', `title` = '商人' WHERE `id` = 31952;
-UPDATE `npc` SET `name` = '朗卡', `title` = '紋章製造人' WHERE `id` = 31953;
-UPDATE `npc` SET `name` = '薩羅亞', `title` = '寵物管理員' WHERE `id` = 31954;
-UPDATE `npc` SET `name` = '露比' WHERE `id` = 31955;
-UPDATE `npc` SET `name` = '莉迪', `title` = '倉庫管理員' WHERE `id` = 31956;
-UPDATE `npc` SET `name` = '傑爾伯', `title` = '倉庫管理員' WHERE `id` = 31957;
-UPDATE `npc` SET `name` = '雅瑟妮', `title` = '倉庫管理員老闆' WHERE `id` = 31958;
-UPDATE `npc` SET `name` = '伊克塞爾', `title` = '負責貨物的倉庫管理員' WHERE `id` = 31959;
-UPDATE `npc` SET `name` = '布莉優', `title` = '鐵匠' WHERE `id` = 31960;
-UPDATE `npc` SET `name` = '紐耶爾', `title` = '鐵匠師傅' WHERE `id` = 31961;
-UPDATE `npc` SET `name` = '雅爾達', `title` = '設計圖商人' WHERE `id` = 31962;
-UPDATE `npc` SET `name` = '希奇', `title` = '礦物商人' WHERE `id` = 31963;
-UPDATE `npc` SET `name` = '碧莉雅', `title` = '守門人' WHERE `id` = 31964;
-UPDATE `npc` SET `name` = '海克斯特', `title` = '宗師' WHERE `id` = 31965;
-UPDATE `npc` SET `name` = '卡拉蒙', `title` = '大師' WHERE `id` = 31966;
-UPDATE `npc` SET `name` = '伊兒莉妮', `title` = '大師' WHERE `id` = 31967;
-UPDATE `npc` SET `name` = '巴歐爾', `title` = '大神官' WHERE `id` = 31968;
-UPDATE `npc` SET `name` = '艾芙琳', `title` = '神官' WHERE `id` = 31969;
-UPDATE `npc` SET `name` = '希尼斯', `title` = '神官' WHERE `id` = 31970;
-UPDATE `npc` SET `name` = '奧提立爾', `title` = '教師' WHERE `id` = 31971;
-UPDATE `npc` SET `name` = '亞特拉希雅', `title` = '教師' WHERE `id` = 31972;
-UPDATE `npc` SET `name` = '拉赫爾', `title` = '魔法書商人' WHERE `id` = 31973;
-UPDATE `npc` SET `name` = '德利茲特', `title` = '宗師' WHERE `id` = 31974;
-UPDATE `npc` SET `name` = '艾利拿', `title` = '大師' WHERE `id` = 31975;
-UPDATE `npc` SET `name` = '蒂提雅', `title` = '教師' WHERE `id` = 31976;
-UPDATE `npc` SET `name` = '夏卡', `title` = '大團長' WHERE `id` = 31977;
-UPDATE `npc` SET `name` = '塔薩爾', `title` = '團長' WHERE `id` = 31978;
-UPDATE `npc` SET `name` = '茉依拉瑟', `title` = '預言者' WHERE `id` = 31979;
-UPDATE `npc` SET `name` = '露芭', `title` = '護身符商人' WHERE `id` = 31980;
-UPDATE `npc` SET `name` = '維沙茲奇', `title` = '警衛隊長' WHERE `id` = 31981;
-UPDATE `npc` SET `name` = '古崙', `title` = '警衛' WHERE `id` = 31982;
-UPDATE `npc` SET `name` = '弗利佳', `title` = '警衛' WHERE `id` = 31983;
-UPDATE `npc` SET `name` = '薛林', `title` = '警衛' WHERE `id` = 31984;
-UPDATE `npc` SET `name` = '科斯莫斯', `title` = '警衛' WHERE `id` = 31985;
-UPDATE `npc` SET `name` = '爾斯泰', `title` = '警衛' WHERE `id` = 31986;
-UPDATE `npc` SET `name` = '高特', `title` = '警衛' WHERE `id` = 31987;
-UPDATE `npc` SET `name` = '辛加', `title` = '警衛' WHERE `id` = 31988;
-UPDATE `npc` SET `name` = '巴提代', `title` = '釣魚會員' WHERE `id` = 31989;
-UPDATE `npc` SET `name` = '希格', `title` = '鐵匠' WHERE `id` = 31990;
-UPDATE `npc` SET `name` = '冒險家會員' WHERE `id` = 31991;
-UPDATE `npc` SET `name` = '冒險家會員' WHERE `id` = 31992;
-UPDATE `npc` SET `name` = '冒險家會員' WHERE `id` = 31993;
-UPDATE `npc` SET `name` = '冒險家會員' WHERE `id` = 31994;
-UPDATE `npc` SET `name` = '冒險家會員' WHERE `id` = 31995;
-UPDATE `npc` SET `name` = '哈布里亞', `title` = '大巫師' WHERE `id` = 31996;
-UPDATE `npc` SET `name` = '黎明的祭司' WHERE `id` = 31997;
-UPDATE `npc` SET `name` = '黃昏的祭司' WHERE `id` = 31998;
-UPDATE `npc` SET `name` = '吶喊滅亡的人' WHERE `id` = 31999;
-UPDATE `npc` SET `name` = '吶喊滅亡的人' WHERE `id` = 32000;
-UPDATE `npc` SET `name` = '吶喊滅亡的人' WHERE `id` = 32001;
-UPDATE `npc` SET `name` = '吶喊滅亡的人' WHERE `id` = 32002;
-UPDATE `npc` SET `name` = '道破啟示的人' WHERE `id` = 32003;
-UPDATE `npc` SET `name` = '道破啟示的人' WHERE `id` = 32004;
-UPDATE `npc` SET `name` = '道破啟示的人' WHERE `id` = 32005;
-UPDATE `npc` SET `name` = '道破啟示的人' WHERE `id` = 32006;
-UPDATE `npc` SET `name` = '加爾巴', `title` = '釣魚會員' WHERE `id` = 32007;
-UPDATE `npc` SET `name` = '格雷莫利', `title` = '神官' WHERE `id` = 32008;
-UPDATE `npc` SET `name` = '黛芙琳', `title` = '褓姆' WHERE `id` = 32009;
-UPDATE `npc` SET `name` = '弗羅崙', `title` = '神官' WHERE `id` = 32010;
-UPDATE `npc` SET `name` = '皇陵引導者' WHERE `id` = 32011;
-UPDATE `npc` SET `name` = '湯特', `title` = '退隱冒險家' WHERE `id` = 32012;
-UPDATE `npc` SET `name` = '素琪', `title` = '浪漫少女' WHERE `id` = 32013;
-UPDATE `npc` SET `name` = '伊凡', `title` = '逃家少年' WHERE `id` = 32014;
-UPDATE `npc` SET `name` = '偵查兵的屍體' WHERE `id` = 32015;
-UPDATE `npc` SET `name` = '特蘭多', `title` = '烽火臺管理人' WHERE `id` = 32016;
-UPDATE `npc` SET `name` = '卡路達' WHERE `id` = 32017;
-UPDATE `npc` SET `name` = '美紗' WHERE `id` = 32018;
-UPDATE `npc` SET `name` = '可疑的男子' WHERE `id` = 32019;
-UPDATE `npc` SET `name` = '雷普利' WHERE `id` = 32020;
-UPDATE `npc` SET `name` = '冰雕' WHERE `id` = 32021;
-UPDATE `npc` SET `name` = '凱伊爾' WHERE `id` = 32022;
-UPDATE `npc` SET `name` = '冰盤' WHERE `id` = 32023;
-UPDATE `npc` SET `name` = '赫利亞', `title` = '血盟商人' WHERE `id` = 32024;
-UPDATE `npc` SET `name` = '伊利亞', `title` = '血盟商人' WHERE `id` = 32025;
-UPDATE `npc` SET `name` = '黑斯吐伊部族的守衛' WHERE `id` = 32026;
-UPDATE `npc` SET `name` = '神聖的火爐' WHERE `id` = 32027;
-UPDATE `npc` SET `name` = '聖杯' WHERE `id` = 32028;
-UPDATE `npc` SET `name` = '芙蕾雅的執事' WHERE `id` = 32029;
-UPDATE `npc` SET `name` = '庭園的雕像' WHERE `id` = 32030;
-UPDATE `npc` SET `name` = '冰雪妖精的雕像' WHERE `id` = 32031;
-UPDATE `npc` SET `name` = '怪異的機械裝置' WHERE `id` = 32032;
-UPDATE `npc` SET `name` = '卡歐斯博士' WHERE `id` = 32033;
-UPDATE `npc` SET `name` = '神殿守門人' WHERE `id` = 32034;
-UPDATE `npc` SET `name` = '神殿守門人' WHERE `id` = 32035;
-UPDATE `npc` SET `name` = '神殿守門人' WHERE `id` = 32036;
-UPDATE `npc` SET `name` = '神殿守門人' WHERE `id` = 32037;
-UPDATE `npc` SET `name` = '犧牲的祭物' WHERE `id` = 32038;
-UPDATE `npc` SET `name` = '帝雷歐的鏡子' WHERE `id` = 32039;
-UPDATE `npc` SET `name` = '帝雷歐的鏡子' WHERE `id` = 32040;
-UPDATE `npc` SET `name` = '由米', `title` = '收藏家' WHERE `id` = 32041;
-UPDATE `npc` SET `name` = '氣候調節裝置' WHERE `id` = 32042;
-UPDATE `npc` SET `name` = '氣候調節裝置' WHERE `id` = 32043;
-UPDATE `npc` SET `name` = '氣候調節裝置' WHERE `id` = 32044;
-UPDATE `npc` SET `name` = '卡歐斯博士的祕密書架' WHERE `id` = 32045;
-UPDATE `npc` SET `name` = '可疑的石堆' WHERE `id` = 32046;
-UPDATE `npc` SET `name` = '溫蒂' WHERE `id` = 32047;
-UPDATE `npc` SET `name` = '活動守門人' WHERE `id` = 32048;
-UPDATE `npc` SET `name` = '露尼', `title` = '風之鐵匠' WHERE `id` = 32049;
-UPDATE `npc` SET `name` = '零件盒子' WHERE `id` = 32050;
-UPDATE `npc` SET `name` = '祭壇守門人' WHERE `id` = 32051;
-UPDATE `npc` SET `name` = '歐比', `title` = '鐵道員' WHERE `id` = 32052;
-UPDATE `npc` SET `name` = '阿布', `title` = '鐵道員' WHERE `id` = 32053;
-UPDATE `npc` SET `name` = '古代建築師的幽靈' WHERE `id` = 32054;
-UPDATE `npc` SET `name` = '鐵路建築師的幽靈' WHERE `id` = 32055;
-UPDATE `npc` SET `name` = '亞倫', `title` = '卡巴塔里' WHERE `id` = 32056;
-UPDATE `npc` SET `name` = '甘地圖騰靈' WHERE `id` = 32057;
-UPDATE `npc` SET `name` = '帝雷歐的啟示' WHERE `id` = 32058;
-UPDATE `npc` SET `name` = '帝雷歐的啟示' WHERE `id` = 32059;
-UPDATE `npc` SET `name` = '帝雷歐的啟示' WHERE `id` = 32060;
-UPDATE `npc` SET `name` = '帝雷歐的啟示' WHERE `id` = 32061;
-UPDATE `npc` SET `name` = '帝雷歐的啟示' WHERE `id` = 32062;
-UPDATE `npc` SET `name` = '帝雷歐的啟示' WHERE `id` = 32063;
-UPDATE `npc` SET `name` = '帝雷歐的啟示' WHERE `id` = 32064;
-UPDATE `npc` SET `name` = '帝雷歐的啟示' WHERE `id` = 32065;
-UPDATE `npc` SET `name` = '帝雷歐的啟示' WHERE `id` = 32066;
-UPDATE `npc` SET `name` = '帝雷歐的啟示' WHERE `id` = 32067;
-UPDATE `npc` SET `name` = '帝雷歐的啟示' WHERE `id` = 32068;
-UPDATE `npc` SET `name` = '古騰哈根', `title` = '收藏家' WHERE `id` = 32069;
-UPDATE `npc` SET `name` = '阿道夫' WHERE `id` = 32070;
-UPDATE `npc` SET `name` = '琳達' WHERE `id` = 32071;
-UPDATE `npc` SET `name` = '艾德溫' WHERE `id` = 32072;
-UPDATE `npc` SET `name` = '路過的老婆婆' WHERE `id` = 32073;
-UPDATE `npc` SET `name` = '古魯丁分會長', `title` = '冒險家合成者' WHERE `id` = 32074;
-UPDATE `npc` SET `name` = '仙蒂貓', `title` = '戰鬥錦標賽說明者' WHERE `id` = 32075;
-UPDATE `npc` SET `name` = '箱子' WHERE `id` = 32076;
-UPDATE `npc` SET `name` = '冰雕' WHERE `id` = 32077;
-UPDATE `npc` SET `name` = '冰雕' WHERE `id` = 32078;
-UPDATE `npc` SET `name` = '冰雕' WHERE `id` = 32079;
-UPDATE `npc` SET `name` = '狄恩分會長', `title` = '冒險家合成者' WHERE `id` = 32082;
-UPDATE `npc` SET `name` = '奇岩分會長', `title` = '冒險家合成者' WHERE `id` = 32083;
-UPDATE `npc` SET `name` = '歐瑞分會長', `title` = '冒險家合成者' WHERE `id` = 32084;
-UPDATE `npc` SET `name` = '亞丁分會長', `title` = '冒險家合成者' WHERE `id` = 32085;
-UPDATE `npc` SET `name` = '因納得立分會長', `title` = '冒險家合成者' WHERE `id` = 32086;
-UPDATE `npc` SET `name` = '修加特分會長', `title` = '冒險家合成者' WHERE `id` = 32087;
-UPDATE `npc` SET `name` = '高達特分會長', `title` = '冒險家合成者' WHERE `id` = 32088;
-UPDATE `npc` SET `name` = '魯因分會長', `title` = '冒險家合成者' WHERE `id` = 32089;
-UPDATE `npc` SET `name` = '豹的屍體' WHERE `id` = 32090;
-UPDATE `npc` SET `name` = '東尼貓', `title` = '活動執行者' WHERE `id` = 32091;
-UPDATE `npc` SET `name` = '歐魯德', `title` = '倉庫管理員老闆' WHERE `id` = 32092;
-UPDATE `npc` SET `name` = '柏林', `title` = '鐵匠師傅' WHERE `id` = 32093;
-UPDATE `npc` SET `name` = '休爾', `title` = '宗師' WHERE `id` = 32094;
-UPDATE `npc` SET `name` = '瑪蒂爾', `title` = '大神官' WHERE `id` = 32095;
-UPDATE `npc` SET `name` = '海爾明特', `title` = '宗師' WHERE `id` = 32096;
-UPDATE `npc` SET `name` = '芬科爾', `title` = '大團長' WHERE `id` = 32097;
-UPDATE `npc` SET `name` = '賽勒斯', `title` = '大巫師' WHERE `id` = 32098;
-UPDATE `npc` SET `name` = '東尼貓', `title` = '活動執行者' WHERE `id` = 32099;
-UPDATE `npc` SET `name` = '東尼貓', `title` = '活動執行者' WHERE `id` = 32100;
-UPDATE `npc` SET `name` = '東尼貓', `title` = '活動執行者' WHERE `id` = 32101;
-UPDATE `npc` SET `name` = '東尼貓', `title` = '活動執行者' WHERE `id` = 32102;
-UPDATE `npc` SET `name` = '丹林貓', `title` = '活動執行者' WHERE `id` = 32103;
-UPDATE `npc` SET `name` = '貝爾巴多' WHERE `id` = 32104;
-UPDATE `npc` SET `name` = '丁定' WHERE `id` = 32105;
-UPDATE `npc` SET `name` = '辛刑' WHERE `id` = 32106;
-UPDATE `npc` SET `name` = '傳送晶體' WHERE `id` = 32107;
-UPDATE `npc` SET `name` = '' WHERE `id` = 32108;
-UPDATE `npc` SET `name` = '席琳聖像' WHERE `id` = 32109;
-UPDATE `npc` SET `name` = '' WHERE `id` = 32110;
-UPDATE `npc` SET `name` = '歐拉奇恩' WHERE `id` = 32111;
-UPDATE `npc` SET `name` = '加列奇恩' WHERE `id` = 32112;
-UPDATE `npc` SET `name` = '瑪爾奎茲' WHERE `id` = 32113;
-UPDATE `npc` SET `name` = '莫西卡' WHERE `id` = 32114;
-UPDATE `npc` SET `name` = '阿薩瑪' WHERE `id` = 32115;
-UPDATE `npc` SET `name` = '齊利卡奇恩' WHERE `id` = 32116;
-UPDATE `npc` SET `name` = '卡拉卡維' WHERE `id` = 32117;
-UPDATE `npc` SET `name` = '曼塔拉薩的蛋' WHERE `id` = 32118;
-UPDATE `npc` SET `name` = '烏魯 凱莫' WHERE `id` = 32119;
-UPDATE `npc` SET `name` = '巴魯 凱莫' WHERE `id` = 32120;
-UPDATE `npc` SET `name` = '裘太 凱莫' WHERE `id` = 32121;
-UPDATE `npc` SET `name` = '勇士之墓' WHERE `id` = 32122;
-UPDATE `npc` SET `name` = '巴拉卡斯' WHERE `id` = 32123;
-UPDATE `npc` SET `name` = '巨大的魂靈' WHERE `id` = 32124;
-UPDATE `npc` SET `name` = '巨大的魂靈' WHERE `id` = 32125;
-UPDATE `npc` SET `name` = '神官護衛' WHERE `id` = 32126;
-UPDATE `npc` SET `name` = '神官護衛' WHERE `id` = 32127;
-UPDATE `npc` SET `name` = '神官護法' WHERE `id` = 32128;
-UPDATE `npc` SET `name` = '' WHERE `id` = 32129;
-UPDATE `npc` SET `name` = '路尼貓', `title` = '活動執行者' WHERE `id` = 32130;
-UPDATE `npc` SET `name` = '魔法學院職員', `title` = '活動執行者' WHERE `id` = 32131;
-UPDATE `npc` SET `name` = '鍊金術士的創造物' WHERE `id` = 32132;
-UPDATE `npc` SET `name` = '斐勒宛', `title` = '副長老' WHERE `id` = 32133;
-UPDATE `npc` SET `name` = '初學者幫手' WHERE `id` = 32134;
-UPDATE `npc` SET `name` = '初學者嚮導' WHERE `id` = 32135;
-UPDATE `npc` SET `name` = '巴席', `title` = '狙擊兵' WHERE `id` = 32136;
-UPDATE `npc` SET `name` = '沙賁斯特', `title` = '狙擊兵' WHERE `id` = 32137;
-UPDATE `npc` SET `name` = '凱克洛普斯', `title` = '長老' WHERE `id` = 32138;
-UPDATE `npc` SET `name` = '卡西卡', `title` = '副長老' WHERE `id` = 32139;
-UPDATE `npc` SET `name` = '潔尼亞', `title` = '副長老' WHERE `id` = 32140;
-UPDATE `npc` SET `name` = '諾加', `title` = '大師' WHERE `id` = 32141;
-UPDATE `npc` SET `name` = '德尼爾', `title` = '大師' WHERE `id` = 32142;
-UPDATE `npc` SET `name` = '蓓琪絲', `title` = '大師' WHERE `id` = 32143;
-UPDATE `npc` SET `name` = '頌尼亞', `title` = '大師' WHERE `id` = 32144;
-UPDATE `npc` SET `name` = '米連爾德', `title` = '宗師' WHERE `id` = 32145;
-UPDATE `npc` SET `name` = '凡魯帕', `title` = '宗師' WHERE `id` = 32146;
-UPDATE `npc` SET `name` = '瑞米恩', `title` = '宗師' WHERE `id` = 32147;
-UPDATE `npc` SET `name` = '席德內特', `title` = '大師' WHERE `id` = 32148;
-UPDATE `npc` SET `name` = '恩尼雅', `title` = '教師' WHERE `id` = 32149;
-UPDATE `npc` SET `name` = '吞克司', `title` = '大團長' WHERE `id` = 32150;
-UPDATE `npc` SET `name` = '赫魯茲', `title` = '團長' WHERE `id` = 32151;
-UPDATE `npc` SET `name` = '哈尼合', `title` = '祭司長' WHERE `id` = 32152;
-UPDATE `npc` SET `name` = '普拉那', `title` = '大神官' WHERE `id` = 32153;
-UPDATE `npc` SET `name` = '艾登尼亞', `title` = '宗師' WHERE `id` = 32154;
-UPDATE `npc` SET `name` = '努伯特', `title` = '神官' WHERE `id` = 32155;
-UPDATE `npc` SET `name` = '塔伯', `title` = '大師' WHERE `id` = 32156;
-UPDATE `npc` SET `name` = '默卡貝瑞德', `title` = '鐵匠師傅' WHERE `id` = 32157;
-UPDATE `npc` SET `name` = '斐瑟', `title` = '倉庫管理員老闆' WHERE `id` = 32158;
-UPDATE `npc` SET `name` = '卡姆凱', `title` = '鐵匠' WHERE `id` = 32159;
-UPDATE `npc` SET `name` = '泰菲', `title` = '大巫師' WHERE `id` = 32160;
-UPDATE `npc` SET `name` = '布萊克', `title` = '大師' WHERE `id` = 32161;
-UPDATE `npc` SET `name` = '馬利加', `title` = '教師' WHERE `id` = 32162;
-UPDATE `npc` SET `name` = '拉迦那', `title` = '守門人' WHERE `id` = 32163;
-UPDATE `npc` SET `name` = '艾瑞鈕', `title` = '商人' WHERE `id` = 32164;
-UPDATE `npc` SET `name` = '查坤', `title` = '商人' WHERE `id` = 32165;
-UPDATE `npc` SET `name` = '特萊阿米', `title` = '商人' WHERE `id` = 32166;
-UPDATE `npc` SET `name` = '娜吉兒', `title` = '商人' WHERE `id` = 32167;
-UPDATE `npc` SET `name` = '瑞尼思', `title` = '商人' WHERE `id` = 32168;
-UPDATE `npc` SET `name` = '米芙連', `title` = '商人' WHERE `id` = 32169;
-UPDATE `npc` SET `name` = '班尼士', `title` = '倉庫管理員' WHERE `id` = 32170;
-UPDATE `npc` SET `name` = '漢夫朗', `title` = '倉庫管理員老闆' WHERE `id` = 32171;
-UPDATE `npc` SET `name` = '賽羅爾', `title` = '負責貨物的倉庫管理員' WHERE `id` = 32172;
-UPDATE `npc` SET `name` = '摩爾捷', `title` = '驅逐者' WHERE `id` = 32173;
-UPDATE `npc` SET `name` = '瑪狄', `title` = '狙擊兵' WHERE `id` = 32174;
-UPDATE `npc` SET `name` = '拜森', `title` = '狙擊兵' WHERE `id` = 32175;
-UPDATE `npc` SET `name` = '安卜拉', `title` = '狙擊兵' WHERE `id` = 32176;
-UPDATE `npc` SET `name` = '西索布雷', `title` = '狙擊兵' WHERE `id` = 32177;
-UPDATE `npc` SET `name` = '卡芭', `title` = '狙擊兵' WHERE `id` = 32178;
-UPDATE `npc` SET `name` = '普金', `title` = '狙擊兵' WHERE `id` = 32179;
-UPDATE `npc` SET `name` = '卡統', `title` = '狙擊兵' WHERE `id` = 32180;
-UPDATE `npc` SET `name` = '梅利恩', `title` = '守門人' WHERE `id` = 32181;
-UPDATE `npc` SET `name` = '寇布朗', `title` = '大師' WHERE `id` = 32182;
-UPDATE `npc` SET `name` = '芸荷', `title` = '大師' WHERE `id` = 32183;
-UPDATE `npc` SET `name` = '音尼爾', `title` = '守門人' WHERE `id` = 32184;
-UPDATE `npc` SET `name` = '佩革林', `title` = '狙擊兵' WHERE `id` = 32185;
-UPDATE `npc` SET `name` = '永恩', `title` = '守門人' WHERE `id` = 32186;
-UPDATE `npc` SET `name` = '納蒂克', `title` = '副長老' WHERE `id` = 32187;
-UPDATE `npc` SET `name` = '茉里琳', `title` = '狙擊兵' WHERE `id` = 32188;
-UPDATE `npc` SET `name` = '蕾金思', `title` = '守門人' WHERE `id` = 32189;
-UPDATE `npc` SET `name` = '瑪歐特力', `title` = '副長老' WHERE `id` = 32190;
-UPDATE `npc` SET `name` = '漢娜琳', `title` = '宗師' WHERE `id` = 32191;
-UPDATE `npc` SET `name` = '法爾肯', `title` = '狙擊兵' WHERE `id` = 32192;
-UPDATE `npc` SET `name` = '耶尼契', `title` = '宗師' WHERE `id` = 32193;
-UPDATE `npc` SET `name` = '修巴音', `title` = '大師' WHERE `id` = 32194;
-UPDATE `npc` SET `name` = '西烏奈', `title` = '大師' WHERE `id` = 32195;
-UPDATE `npc` SET `name` = '澤修音', `title` = '宗師' WHERE `id` = 32196;
-UPDATE `npc` SET `name` = '特巴音', `title` = '大師' WHERE `id` = 32197;
-UPDATE `npc` SET `name` = '寇比安', `title` = '大師' WHERE `id` = 32198;
-UPDATE `npc` SET `name` = '霍士德', `title` = '宗師' WHERE `id` = 32199;
-UPDATE `npc` SET `name` = '安特恩斯', `title` = '大師' WHERE `id` = 32200;
-UPDATE `npc` SET `name` = '林迪', `title` = '大師' WHERE `id` = 32201;
-UPDATE `npc` SET `name` = '佳黛法', `title` = '宗師' WHERE `id` = 32202;
-UPDATE `npc` SET `name` = '瑞寧', `title` = '大師' WHERE `id` = 32203;
-UPDATE `npc` SET `name` = '碧姿凱', `title` = '大師' WHERE `id` = 32204;
-UPDATE `npc` SET `name` = '艾托尼', `title` = '宗師' WHERE `id` = 32205;
-UPDATE `npc` SET `name` = '比艾琪', `title` = '宗師' WHERE `id` = 32206;
-UPDATE `npc` SET `name` = '奧克魯斯', `title` = '大師' WHERE `id` = 32207;
-UPDATE `npc` SET `name` = '若夏', `title` = '大師' WHERE `id` = 32208;
-UPDATE `npc` SET `name` = '法耳迪南', `title` = '宗師' WHERE `id` = 32209;
-UPDATE `npc` SET `name` = '艾迪', `title` = '宗師' WHERE `id` = 32210;
-UPDATE `npc` SET `name` = '裘諾', `title` = '大師' WHERE `id` = 32211;
-UPDATE `npc` SET `name` = '黎夏耳', `title` = '大師' WHERE `id` = 32212;
-UPDATE `npc` SET `name` = '畢塔士', `title` = '宗師' WHERE `id` = 32213;
-UPDATE `npc` SET `name` = '梅迪納', `title` = '宗師' WHERE `id` = 32214;
-UPDATE `npc` SET `name` = '田納因', `title` = '大師' WHERE `id` = 32215;
-UPDATE `npc` SET `name` = '諾伊耳', `title` = '大師' WHERE `id` = 32216;
-UPDATE `npc` SET `name` = '泊爾塔', `title` = '宗師' WHERE `id` = 32217;
-UPDATE `npc` SET `name` = '玫亞', `title` = '宗師' WHERE `id` = 32218;
-UPDATE `npc` SET `name` = '法伯諾', `title` = '大師' WHERE `id` = 32219;
-UPDATE `npc` SET `name` = '瑟西雅', `title` = '大師' WHERE `id` = 32220;
-UPDATE `npc` SET `name` = '布洛姆', `title` = '宗師' WHERE `id` = 32221;
-UPDATE `npc` SET `name` = '琵亞內', `title` = '宗師' WHERE `id` = 32222;
-UPDATE `npc` SET `name` = '德羅嘉', `title` = '大師' WHERE `id` = 32223;
-UPDATE `npc` SET `name` = '奧倫', `title` = '大師' WHERE `id` = 32224;
-UPDATE `npc` SET `name` = '塔英', `title` = '宗師' WHERE `id` = 32225;
-UPDATE `npc` SET `name` = '勞拉', `title` = '宗師' WHERE `id` = 32226;
-UPDATE `npc` SET `name` = '堤格', `title` = '大師' WHERE `id` = 32227;
-UPDATE `npc` SET `name` = '梅代雅', `title` = '大師' WHERE `id` = 32228;
-UPDATE `npc` SET `name` = '海吉', `title` = '宗師' WHERE `id` = 32229;
-UPDATE `npc` SET `name` = '塞斯', `title` = '宗師' WHERE `id` = 32230;
-UPDATE `npc` SET `name` = '倫邦', `title` = '大師' WHERE `id` = 32231;
-UPDATE `npc` SET `name` = '米奴特', `title` = '大師' WHERE `id` = 32232;
-UPDATE `npc` SET `name` = '索達特', `title` = '宗師' WHERE `id` = 32233;
-UPDATE `npc` SET `name` = '尼以茲', `title` = '宗師' WHERE `id` = 32234;
-UPDATE `npc` SET `name` = '凱特奈特' WHERE `id` = 32235;
-UPDATE `npc` SET `name` = '哈爾卡凱梅德' WHERE `id` = 32236;
-UPDATE `npc` SET `name` = '羅丹彼裘拉' WHERE `id` = 32237;
-UPDATE `npc` SET `name` = '岩石' WHERE `id` = 32238;
-UPDATE `npc` SET `name` = '聖母諾爾妮' WHERE `id` = 32239;
-UPDATE `npc` SET `name` = '凱特奈特' WHERE `id` = 32240;
-UPDATE `npc` SET `name` = '巴爾卡' WHERE `id` = 32241;
-UPDATE `npc` SET `name` = '凱特奈特' WHERE `id` = 32242;
-UPDATE `npc` SET `name` = '貨物箱子' WHERE `id` = 32243;
-UPDATE `npc` SET `name` = '可疑者' WHERE `id` = 32244;
-UPDATE `npc` SET `name` = '麻特拉斯' WHERE `id` = 32245;
-UPDATE `npc` SET `name` = '露亞' WHERE `id` = 32246;
-UPDATE `npc` SET `name` = '賽瑞昂' WHERE `id` = 32247;
-UPDATE `npc` SET `name` = '丘欣' WHERE `id` = 32248;
-UPDATE `npc` SET `name` = '村長 耶隆' WHERE `id` = 32249;
-UPDATE `npc` SET `name` = '亞力歐' WHERE `id` = 32250;
-UPDATE `npc` SET `name` = '莎利雅' WHERE `id` = 32251;
-UPDATE `npc` SET `name` = '輸送隊隊員 國德' WHERE `id` = 32252;
-UPDATE `npc` SET `name` = '哈爾卡凱梅德' WHERE `id` = 32253;
-UPDATE `npc` SET `name` = '哈爾卡凱梅德' WHERE `id` = 32254;
-UPDATE `npc` SET `name` = '過去的女神像' WHERE `id` = 32255;
-UPDATE `npc` SET `name` = '現在的女神像' WHERE `id` = 32256;
-UPDATE `npc` SET `name` = '未來的女神像' WHERE `id` = 32257;
-UPDATE `npc` SET `name` = '巨大機械裝置' WHERE `id` = 32258;
-UPDATE `npc` SET `name` = '對空出入控制裝置' WHERE `id` = 32259;
-UPDATE `npc` SET `name` = '過去之門控制裝置' WHERE `id` = 32260;
-UPDATE `npc` SET `name` = '現在之門控制裝置' WHERE `id` = 32261;
-UPDATE `npc` SET `name` = '未來之門控制裝置' WHERE `id` = 32262;
-UPDATE `npc` SET `name` = '羅丹彼裘拉' WHERE `id` = 32263;
-UPDATE `npc` SET `name` = '卡尼司' WHERE `id` = 32264;
-UPDATE `npc` SET `name` = '帕爾米' WHERE `id` = 32271;
-UPDATE `npc` SET `name` = '以基亞康' WHERE `id` = 32272;
-UPDATE `npc` SET `name` = '神諭引導者' WHERE `id` = 32273;
-UPDATE `npc` SET `name` = '神諭引導者' WHERE `id` = 32274;
-UPDATE `npc` SET `name` = '神諭引導者' WHERE `id` = 32275;
-UPDATE `npc` SET `name` = '神諭引導者' WHERE `id` = 32276;
-UPDATE `npc` SET `name` = '神諭引導者' WHERE `id` = 32277;
-UPDATE `npc` SET `name` = '神諭引導者' WHERE `id` = 32278;
-UPDATE `npc` SET `name` = '神諭引導者' WHERE `id` = 32279;
-UPDATE `npc` SET `name` = '神諭引導者' WHERE `id` = 32280;
-UPDATE `npc` SET `name` = '神諭引導者' WHERE `id` = 32281;
-UPDATE `npc` SET `name` = '伊延', `title` = '考古學家' WHERE `id` = 32282;
-UPDATE `npc` SET `name` = '伊娃的守護之物' WHERE `id` = 32284;
-UPDATE `npc` SET `name` = '伊娃的守護之物' WHERE `id` = 32285;
-UPDATE `npc` SET `name` = '伊娃的守護之物' WHERE `id` = 32286;
-UPDATE `npc` SET `name` = '伊娃的守護之物' WHERE `id` = 32287;
-UPDATE `npc` SET `name` = '信任的象徵' WHERE `id` = 32288;
-UPDATE `npc` SET `name` = '試練的象徵' WHERE `id` = 32289;
-UPDATE `npc` SET `name` = '冒險的象徵' WHERE `id` = 32290;
-UPDATE `npc` SET `name` = '真實的象徵' WHERE `id` = 32291;
-UPDATE `npc` SET `name` = '加勒蒂' WHERE `id` = 32292;
-UPDATE `npc` SET `name` = '志隆' WHERE `id` = 32293;
-UPDATE `npc` SET `name` = '布丹卡', `title` = '奇岩的商隊' WHERE `id` = 32294;
-UPDATE `npc` SET `name` = '賽汝加', `title` = '老祭司長的靈魂' WHERE `id` = 32296;
-UPDATE `npc` SET `name` = '福爾克' WHERE `id` = 32297;
-UPDATE `npc` SET `name` = '亨德', `title` = '商隊商人' WHERE `id` = 32298;
-UPDATE `npc` SET `name` = '採石場奴隸' WHERE `id` = 32299;
-UPDATE `npc` SET `name` = '波拿得' WHERE `id` = 32300;
-UPDATE `npc` SET `name` = '肯達', `title` = '飄蕩的幽魂' WHERE `id` = 32301;
-UPDATE `npc` SET `name` = '塞良' WHERE `id` = 32302;
-UPDATE `npc` SET `name` = '機械裝置' WHERE `id` = 32303;
-UPDATE `npc` SET `name` = '綠洲' WHERE `id` = 32304;
-UPDATE `npc` SET `name` = '勞庫的代罪羔羊' WHERE `id` = 32305;
-UPDATE `npc` SET `name` = '土著的屍體' WHERE `id` = 32306;
-UPDATE `npc` SET `name` = '巨石棚' WHERE `id` = 32307;
-UPDATE `npc` SET `name` = '明明', `title` = '浪漫貓' WHERE `id` = 32308;
-UPDATE `npc` SET `name` = '鼠洞' WHERE `id` = 32312;
-UPDATE `npc` SET `name` = '道爾土巴' WHERE `id` = 32313;
-UPDATE `npc` SET `name` = '曲速之門' WHERE `id` = 32314;
-UPDATE `npc` SET `name` = '曲速之門' WHERE `id` = 32315;
-UPDATE `npc` SET `name` = '曲速之門' WHERE `id` = 32316;
-UPDATE `npc` SET `name` = '曲速之門' WHERE `id` = 32317;
-UPDATE `npc` SET `name` = '曲速之門' WHERE `id` = 32318;
-UPDATE `npc` SET `name` = '曲速之門' WHERE `id` = 32319;
-UPDATE `npc` SET `name` = '道具仲介商', `title` = '冒險家會員' WHERE `id` = 32320;
-UPDATE `npc` SET `name` = '道具仲介商', `title` = '冒險家會員' WHERE `id` = 32321;
-UPDATE `npc` SET `name` = '道具仲介商', `title` = '冒險家會員' WHERE `id` = 32322;
-UPDATE `npc` SET `name` = '亞曼加爾德', `title` = '變化的魔法師' WHERE `id` = 32323;
-UPDATE `npc` SET `name` = '黑石柱' WHERE `id` = 32324;
-UPDATE `npc` SET `name` = '仁', `title` = '屬性大師' WHERE `id` = 32325;
-UPDATE `npc` SET `name` = '楊', `title` = '屬性大師' WHERE `id` = 32326;
-UPDATE `npc` SET `name` = '冒險者助手' WHERE `id` = 32327;
-UPDATE `npc` SET `name` = '水晶高崙' WHERE `id` = 32328;
-UPDATE `npc` SET `name` = '庭園的警衛兵' WHERE `id` = 32330;
-UPDATE `npc` SET `name` = '' WHERE `id` = 32331;
-UPDATE `npc` SET `name` = '凱特奈特' WHERE `id` = 32332;
-UPDATE `npc` SET `name` = '凱特奈特' WHERE `id` = 32333;
-UPDATE `npc` SET `name` = '哈爾卡凱梅德' WHERE `id` = 32334;
-UPDATE `npc` SET `name` = '狙擊兵' WHERE `id` = 32335;
-UPDATE `npc` SET `name` = '狙擊兵' WHERE `id` = 32336;
-UPDATE `npc` SET `name` = '冒險家會員' WHERE `id` = 32337;
-UPDATE `npc` SET `name` = '冒險家會員' WHERE `id` = 32338;
-UPDATE `npc` SET `name` = '冒險家會員' WHERE `id` = 32339;
-UPDATE `npc` SET `name` = '冒險家會員' WHERE `id` = 32340;
-UPDATE `npc` SET `name` = '惡霸的禮物箱子' WHERE `id` = 32342;
-UPDATE `npc` SET `name` = '月光石碑' WHERE `id` = 32343;
-UPDATE `npc` SET `name` = '陰沉碑石' WHERE `id` = 32344;
-UPDATE `npc` SET `name` = '布隆', `title` = '裁縫師' WHERE `id` = 32345;
-UPDATE `npc` SET `name` = '卡納夫' WHERE `id` = 32346;
-UPDATE `npc` SET `name` = '夏代', `title` = '傳說的鐵匠' WHERE `id` = 32347;
-UPDATE `npc` SET `name` = '伯讓', `title` = '釣魚會員' WHERE `id` = 32348;
-UPDATE `npc` SET `name` = '基倫斯' WHERE `id` = 32349;
-UPDATE `npc` SET `name` = '沙之風' WHERE `id` = 32350;
-UPDATE `npc` SET `name` = '外城門的反抗軍' WHERE `id` = 32351;
-UPDATE `npc` SET `name` = '' WHERE `id` = 32352;
-UPDATE `npc` SET `name` = '活動守門人' WHERE `id` = 32353;
-UPDATE `npc` SET `name` = '凱夫' WHERE `id` = 32354;
-UPDATE `npc` SET `name` = '索爾門' WHERE `id` = 32355;
-UPDATE `npc` SET `name` = '朱德' WHERE `id` = 32356;
-UPDATE `npc` SET `name` = '原住民奴隸' WHERE `id` = 32357;
-UPDATE `npc` SET `name` = '原住民俘虜' WHERE `id` = 32358;
-UPDATE `npc` SET `name` = '藍', `title` = '力量鐵匠' WHERE `id` = 32359;
-UPDATE `npc` SET `name` = '商隊支援糧食' WHERE `id` = 32361;
-UPDATE `npc` SET `name` = '地獄邊界原住民' WHERE `id` = 32362;
-UPDATE `npc` SET `name` = '地獄邊界反抗軍' WHERE `id` = 32363;
-UPDATE `npc` SET `name` = '原住民變節份子' WHERE `id` = 32364;
-UPDATE `npc` SET `name` = '斯諾', `title` = '活動執行者' WHERE `id` = 32365;
-UPDATE `npc` SET `name` = '壞掉的裝置' WHERE `id` = 32366;
-UPDATE `npc` SET `name` = '警報裝置' WHERE `id` = 32367;
-UPDATE `npc` SET `name` = '風化岩石' WHERE `id` = 32368;
-UPDATE `npc` SET `name` = '墜落的天使' WHERE `id` = 32369;
-UPDATE `npc` SET `name` = '老矮人之魂' WHERE `id` = 32370;
-UPDATE `npc` SET `name` = '精巧機械裝置' WHERE `id` = 32371;
-UPDATE `npc` SET `name` = '謎的代理人' WHERE `id` = 32372;
-UPDATE `npc` SET `name` = '多利安' WHERE `id` = 32373;
-UPDATE `npc` SET `name` = '傳送晶體' WHERE `id` = 32374;
-UPDATE `npc` SET `name` = '傳送晶體' WHERE `id` = 32375;
-UPDATE `npc` SET `name` = '傳送晶體' WHERE `id` = 32376;
-UPDATE `npc` SET `name` = '庫朗', `title` = '入場管理員' WHERE `id` = 32377;
-UPDATE `npc` SET `name` = '夢幻島守島人', `title` = '守門人' WHERE `id` = 32378;
-UPDATE `npc` SET `name` = '' WHERE `id` = 32379;
-UPDATE `npc` SET `name` = '' WHERE `id` = 32380;
-UPDATE `npc` SET `name` = '' WHERE `id` = 32381;
-UPDATE `npc` SET `name` = '' WHERE `id` = 32382;
-UPDATE `npc` SET `name` = '' WHERE `id` = 32383;
-UPDATE `npc` SET `name` = '' WHERE `id` = 32384;
-UPDATE `npc` SET `name` = '' WHERE `id` = 32385;
-UPDATE `npc` SET `name` = '' WHERE `id` = 32386;
-UPDATE `npc` SET `name` = '' WHERE `id` = 32387;
-UPDATE `npc` SET `name` = '' WHERE `id` = 32388;
-UPDATE `npc` SET `name` = '' WHERE `id` = 32389;
-UPDATE `npc` SET `name` = '' WHERE `id` = 32390;
-UPDATE `npc` SET `name` = '' WHERE `id` = 32391;
-UPDATE `npc` SET `name` = '' WHERE `id` = 32392;
-UPDATE `npc` SET `name` = '' WHERE `id` = 32393;
-UPDATE `npc` SET `name` = '' WHERE `id` = 32394;
-UPDATE `npc` SET `name` = '' WHERE `id` = 32395;
-UPDATE `npc` SET `name` = '' WHERE `id` = 32396;
-UPDATE `npc` SET `name` = '' WHERE `id` = 32397;
-UPDATE `npc` SET `name` = '' WHERE `id` = 32398;
-UPDATE `npc` SET `name` = '' WHERE `id` = 32399;
-UPDATE `npc` SET `name` = '' WHERE `id` = 32400;
-UPDATE `npc` SET `name` = '' WHERE `id` = 32401;
-UPDATE `npc` SET `name` = '' WHERE `id` = 32402;
-UPDATE `npc` SET `name` = '' WHERE `id` = 32403;
-UPDATE `npc` SET `name` = '' WHERE `id` = 32404;
-UPDATE `npc` SET `name` = '' WHERE `id` = 32405;
-UPDATE `npc` SET `name` = '' WHERE `id` = 32406;
-UPDATE `npc` SET `name` = '' WHERE `id` = 32407;
-UPDATE `npc` SET `name` = '' WHERE `id` = 32408;
-UPDATE `npc` SET `name` = '' WHERE `id` = 32409;
-UPDATE `npc` SET `name` = '' WHERE `id` = 32410;
-UPDATE `npc` SET `name` = '' WHERE `id` = 32411;
-UPDATE `npc` SET `name` = '' WHERE `id` = 32412;
-UPDATE `npc` SET `name` = '' WHERE `id` = 32413;
-UPDATE `npc` SET `name` = '' WHERE `id` = 32414;
-UPDATE `npc` SET `name` = '' WHERE `id` = 32415;
-UPDATE `npc` SET `name` = '' WHERE `id` = 32416;
-UPDATE `npc` SET `name` = '' WHERE `id` = 32417;
-UPDATE `npc` SET `name` = '' WHERE `id` = 32418;
-UPDATE `npc` SET `name` = '' WHERE `id` = 32419;
-UPDATE `npc` SET `name` = '' WHERE `id` = 32420;
-UPDATE `npc` SET `name` = '' WHERE `id` = 32421;
-UPDATE `npc` SET `name` = '' WHERE `id` = 32422;
-UPDATE `npc` SET `name` = '' WHERE `id` = 32423;
-UPDATE `npc` SET `name` = '公演團成員' WHERE `id` = 32424;
-UPDATE `npc` SET `name` = '公演團成員' WHERE `id` = 32425;
-UPDATE `npc` SET `name` = '公演團成員' WHERE `id` = 32426;
-UPDATE `npc` SET `name` = '公演團成員' WHERE `id` = 32427;
-UPDATE `npc` SET `name` = '公演團成員' WHERE `id` = 32428;
-UPDATE `npc` SET `name` = '' WHERE `id` = 32429;
-UPDATE `npc` SET `name` = '' WHERE `id` = 32430;
-UPDATE `npc` SET `name` = '萊伊拉美羅', `title` = '精靈歌手' WHERE `id` = 32431;
-UPDATE `npc` SET `name` = '' WHERE `id` = 32432;
-UPDATE `npc` SET `name` = '主持人' WHERE `id` = 32433;
-UPDATE `npc` SET `name` = '' WHERE `id` = 32437;
-UPDATE `npc` SET `name` = '' WHERE `id` = 32438;
-UPDATE `npc` SET `name` = '逆轉名人' WHERE `id` = 32439;
-UPDATE `npc` SET `name` = '逆轉奇人' WHERE `id` = 32440;
-UPDATE `npc` SET `name` = '逆轉超人' WHERE `id` = 32441;
-UPDATE `npc` SET `name` = '' WHERE `id` = 32442;
-UPDATE `npc` SET `name` = '' WHERE `id` = 32443;
-UPDATE `npc` SET `name` = '' WHERE `id` = 32444;
-UPDATE `npc` SET `name` = '' WHERE `id` = 32445;
-UPDATE `npc` SET `name` = '' WHERE `id` = 32446;
-UPDATE `npc` SET `name` = '' WHERE `id` = 32447;
-UPDATE `npc` SET `name` = '' WHERE `id` = 32448;
-UPDATE `npc` SET `name` = '' WHERE `id` = 32449;
-UPDATE `npc` SET `name` = '' WHERE `id` = 32450;
-UPDATE `npc` SET `name` = '' WHERE `id` = 32451;
-UPDATE `npc` SET `name` = '' WHERE `id` = 32452;
-UPDATE `npc` SET `name` = '' WHERE `id` = 32453;
-UPDATE `npc` SET `name` = '' WHERE `id` = 32454;
-UPDATE `npc` SET `name` = '' WHERE `id` = 32455;
-UPDATE `npc` SET `name` = '' WHERE `id` = 32456;
-UPDATE `npc` SET `name` = '' WHERE `id` = 32457;
-UPDATE `npc` SET `name` = '' WHERE `id` = 32458;
-UPDATE `npc` SET `name` = '' WHERE `id` = 32464;
-UPDATE `npc` SET `name` = '' WHERE `id` = 32465;
-UPDATE `npc` SET `name` = '' WHERE `id` = 32466;
-UPDATE `npc` SET `name` = '傳送晶體' WHERE `id` = 32467;
-UPDATE `npc` SET `name` = '' WHERE `id` = 32468;
-UPDATE `npc` SET `name` = '艾特伯格', `title` = '副長老' WHERE `id` = 32469;
-UPDATE `npc` SET `name` = '石棺' WHERE `id` = 32470;
-UPDATE `npc` SET `name` = '' WHERE `id` = 32471;
-UPDATE `npc` SET `name` = '' WHERE `id` = 32472;
-UPDATE `npc` SET `name` = '' WHERE `id` = 32473;
-UPDATE `npc` SET `name` = '' WHERE `id` = 32474;
-UPDATE `npc` SET `name` = '副職業認證助手' WHERE `id` = 32475;
-UPDATE `npc` SET `name` = '魔法學院職員', `title` = '活動執行者　' WHERE `id` = 32476;
-UPDATE `npc` SET `name` = '宣傳幫手', `title` = '守門人' WHERE `id` = 32477;
-UPDATE `npc` SET `name` = '維他命管理者', `title` = '生活的活力' WHERE `id` = 32478;
-UPDATE `npc` SET `name` = '阿迪歐斯', `title` = '警衛' WHERE `id` = 32479;
-UPDATE `npc` SET `name` = '倫德', `title` = '警衛' WHERE `id` = 32480;
-UPDATE `npc` SET `name` = '賽基', `title` = '警衛' WHERE `id` = 32481;
-UPDATE `npc` SET `name` = '安卓里亞', `title` = '警衛' WHERE `id` = 32482;
-UPDATE `npc` SET `name` = '' WHERE `id` = 32483;
-UPDATE `npc` SET `name` = '開拓者幹員' WHERE `id` = 32484;
-UPDATE `npc` SET `name` = '開拓者幹員' WHERE `id` = 32485;
-UPDATE `npc` SET `name` = '發明家馬陸' WHERE `id` = 32486;
-UPDATE `npc` SET `name` = '瑪克' WHERE `id` = 32487;
-UPDATE `npc` SET `name` = '瑪克' WHERE `id` = 32488;
-UPDATE `npc` SET `name` = '' WHERE `id` = 32490;
-UPDATE `npc` SET `name` = '地下競技場助手' WHERE `id` = 32491;
-UPDATE `npc` SET `name` = '水晶瓶' WHERE `id` = 32492;
-UPDATE `npc` SET `name` = '燃燒的火爐' WHERE `id` = 32493;
-UPDATE `npc` SET `name` = '骷髏' WHERE `id` = 32494;
-UPDATE `npc` SET `name` = '寶箱' WHERE `id` = 32495;
-UPDATE `npc` SET `name` = '脫逃裝置' WHERE `id` = 32496;
-UPDATE `npc` SET `name` = '調查官 艾德勒' WHERE `id` = 32497;
-UPDATE `npc` SET `name` = '惡魔島的復活者' WHERE `id` = 32498;
-UPDATE `npc` SET `name` = '肯特拉獸人 咒術士' WHERE `id` = 32499;
-UPDATE `npc` SET `name` = '調查官 悉奈' WHERE `id` = 32500;
-UPDATE `npc` SET `name` = '惡魔島的協助者' WHERE `id` = 32501;
-UPDATE `npc` SET `name` = '肯特拉獸人協助者' WHERE `id` = 32502;
-UPDATE `npc` SET `name` = '入場管理員', `title` = '柯雷塔的晶體' WHERE `id` = 32503;
-UPDATE `npc` SET `name` = '競技執行者', `title` = '柯雷塔的晶體' WHERE `id` = 32504;
-UPDATE `npc` SET `name` = '競技執行者', `title` = '柯雷塔的晶體' WHERE `id` = 32505;
-UPDATE `npc` SET `name` = '競技執行者', `title` = '柯雷塔的晶體' WHERE `id` = 32506;
-UPDATE `npc` SET `name` = '神殿的調查官' WHERE `id` = 32507;
-UPDATE `npc` SET `name` = '矮人探險家' WHERE `id` = 32508;
-UPDATE `npc` SET `name` = '肯特拉獸人諜報員' WHERE `id` = 32509;
-UPDATE `npc` SET `name` = '調查官 艾德勒' WHERE `id` = 32510;
-UPDATE `npc` SET `name` = '矮人探險家' WHERE `id` = 32511;
-UPDATE `npc` SET `name` = '肯特拉獸人後援者' WHERE `id` = 32512;
-UPDATE `npc` SET `name` = '孔', `title` = '入場管理員' WHERE `id` = 32513;
-UPDATE `npc` SET `name` = '塔里翁', `title` = '入場管理員' WHERE `id` = 32514;
-UPDATE `npc` SET `name` = '利歐', `title` = '入場管理員' WHERE `id` = 32515;
-UPDATE `npc` SET `name` = '康丁斯', `title` = '入場管理員' WHERE `id` = 32516;
-UPDATE `npc` SET `name` = '飛空艇控制裝置' WHERE `id` = 32517;
-UPDATE `npc` SET `name` = '旋流之門', `title` = '裂縫' WHERE `id` = 32518;
-UPDATE `npc` SET `name` = '旋流之門', `title` = '裂縫' WHERE `id` = 32519;
-UPDATE `npc` SET `name` = '金剛砂爐', `title` = '裂縫' WHERE `id` = 32520;
-UPDATE `npc` SET `name` = '入場管理員', `title` = '翰狄的翻轉方塊 1競技場' WHERE `id` = 32521;
-UPDATE `npc` SET `name` = '入場管理員', `title` = '翰狄的翻轉方塊 2競技場' WHERE `id` = 32522;
-UPDATE `npc` SET `name` = '入場管理員', `title` = '翰狄的翻轉方塊 3競技場' WHERE `id` = 32523;
-UPDATE `npc` SET `name` = '入場管理員', `title` = '翰狄的翻轉方塊 4競技場' WHERE `id` = 32524;
-UPDATE `npc` SET `name` = '蒂雅特', `title` = '闇龍巫女' WHERE `id` = 32525;
-UPDATE `npc` SET `name` = '爾勒諾斯', `title` = '下士官' WHERE `id` = 32526;
-UPDATE `npc` SET `name` = '艾德瑞', `title` = '軍官' WHERE `id` = 32527;
-UPDATE `npc` SET `name` = '梅帝法的屍體' WHERE `id` = 32528;
-UPDATE `npc` SET `name` = '' WHERE `id` = 32529;
-UPDATE `npc` SET `name` = '特普歐司', `title` = '軍官' WHERE `id` = 32530;
-UPDATE `npc` SET `name` = '破損的腫瘤體' WHERE `id` = 32531;
-UPDATE `npc` SET `name` = '' WHERE `id` = 32532;
-UPDATE `npc` SET `name` = '' WHERE `id` = 32533;
-UPDATE `npc` SET `name` = '札耶汀', `title` = '不滅的引導者' WHERE `id` = 32534;
-UPDATE `npc` SET `name` = '破損的腫瘤體' WHERE `id` = 32535;
-UPDATE `npc` SET `name` = '破損的腫瘤體' WHERE `id` = 32536;
-UPDATE `npc` SET `name` = '伊卡姆士之口' WHERE `id` = 32537;
-UPDATE `npc` SET `name` = '緊閉的伊卡姆士之口' WHERE `id` = 32538;
-UPDATE `npc` SET `name` = '深淵的守門人' WHERE `id` = 32539;
-UPDATE `npc` SET `name` = '深淵的守門人' WHERE `id` = 32540;
-UPDATE `npc` SET `name` = '不安定的再生種子' WHERE `id` = 32541;
-UPDATE `npc` SET `name` = '安定的再生種子' WHERE `id` = 32542;
-UPDATE `npc` SET `name` = '再生之力' WHERE `id` = 32543;
-UPDATE `npc` SET `name` = '再生種子', `title` = '人造' WHERE `id` = 32544;
-UPDATE `npc` SET `name` = '克庫爾', `title` = '格勒西亞特產品經紀人' WHERE `id` = 32545;
-UPDATE `npc` SET `name` = '奧斯耶堤', `title` = '靈魂商人' WHERE `id` = 32546;
-UPDATE `npc` SET `name` = '中心腫瘤體' WHERE `id` = 32547;
-UPDATE `npc` SET `name` = '柯塞勒斯', `title` = '指揮官' WHERE `id` = 32548;
-UPDATE `npc` SET `name` = '狄里歐斯', `title` = '將軍' WHERE `id` = 32549;
-UPDATE `npc` SET `name` = '克可蘭', `title` = '特產品仲介' WHERE `id` = 32550;
-UPDATE `npc` SET `name` = '拿爾勒斯', `title` = '士兵' WHERE `id` = 32551;
-UPDATE `npc` SET `name` = '托瑪里斯', `title` = '士兵' WHERE `id` = 32552;
-UPDATE `npc` SET `name` = '吉薩斯', `title` = '士兵' WHERE `id` = 32553;
-UPDATE `npc` SET `name` = '墨依拉', `title` = '士兵' WHERE `id` = 32554;
-UPDATE `npc` SET `name` = '泰尼斯', `title` = '士兵' WHERE `id` = 32555;
-UPDATE `npc` SET `name` = '埃爾', `title` = '士兵' WHERE `id` = 32556;
-UPDATE `npc` SET `name` = '雷坤', `title` = '工程師' WHERE `id` = 32557;
-UPDATE `npc` SET `name` = '屏障球珠' WHERE `id` = 32558;
-UPDATE `npc` SET `name` = '爾堤吾斯', `title` = '戰鬥法師' WHERE `id` = 32559;
-UPDATE `npc` SET `name` = '奧勒布', `title` = '士兵' WHERE `id` = 32560;
-UPDATE `npc` SET `name` = '柯諾塔', `title` = '士兵' WHERE `id` = 32561;
-UPDATE `npc` SET `name` = '西爾司特', `title` = '士兵' WHERE `id` = 32562;
-UPDATE `npc` SET `name` = '普雷諾斯', `title` = '士兵' WHERE `id` = 32563;
-UPDATE `npc` SET `name` = '帕皮克', `title` = '教師' WHERE `id` = 32564;
-UPDATE `npc` SET `name` = '匹黎克斯', `title` = '大師' WHERE `id` = 32565;
-UPDATE `npc` SET `name` = '津比', `title` = '士兵 ' WHERE `id` = 32566;
-UPDATE `npc` SET `name` = '瑞爾齊亞', `title` = '席琳的祭司' WHERE `id` = 32567;
-UPDATE `npc` SET `name` = '可疑的屍體' WHERE `id` = 32568;
-UPDATE `npc` SET `name` = '凱因', `title` = '神官' WHERE `id` = 32569;
-UPDATE `npc` SET `name` = '艾力克', `title` = '採藥師' WHERE `id` = 32570;
-UPDATE `npc` SET `name` = '革琳', `title` = '祕密調查員' WHERE `id` = 32571;
-UPDATE `npc` SET `name` = '青蛙', `title` = '大王' WHERE `id` = 32572;
-UPDATE `npc` SET `name` = '泰絲', `title` = '祖母' WHERE `id` = 32573;
-UPDATE `npc` SET `name` = '庫達', `title` = '原住民' WHERE `id` = 32574;
-UPDATE `npc` SET `name` = '黎明之光', `title` = '傳送師' WHERE `id` = 32575;
-UPDATE `npc` SET `name` = '約翰', `title` = '神諭處警衛隊長' WHERE `id` = 32576;
-UPDATE `npc` SET `name` = '暗號輸入裝置' WHERE `id` = 32577;
-UPDATE `npc` SET `name` = '身份確認裝置' WHERE `id` = 32578;
-UPDATE `npc` SET `name` = '黎明的黑暗', `title` = '傳送師' WHERE `id` = 32579;
-UPDATE `npc` SET `name` = '黎明的書櫃' WHERE `id` = 32580;
-UPDATE `npc` SET `name` = '黎明的書櫃' WHERE `id` = 32581;
-UPDATE `npc` SET `name` = '杰納', `title` = '神官' WHERE `id` = 32582;
-UPDATE `npc` SET `name` = '黎明的書櫃' WHERE `id` = 32583;
-UPDATE `npc` SET `name` = '財富的商人' WHERE `id` = 32584;
-UPDATE `npc` SET `name` = '財富的約定', `title` = '傳送師' WHERE `id` = 32585;
-UPDATE `npc` SET `name` = '史奈曼', `title` = '艾爾摩亞丁皇帝' WHERE `id` = 32586;
-UPDATE `npc` SET `name` = '萊溫', `title` = '皇帝警衛' WHERE `id` = 32587;
-UPDATE `npc` SET `name` = '皇帝的封印裝置' WHERE `id` = 32588;
-UPDATE `npc` SET `name` = '皇帝的封印裝置' WHERE `id` = 32589;
-UPDATE `npc` SET `name` = '皇帝的封印裝置' WHERE `id` = 32590;
-UPDATE `npc` SET `name` = '皇帝的封印裝置' WHERE `id` = 32591;
-UPDATE `npc` SET `name` = '' WHERE `id` = 32592;
-UPDATE `npc` SET `name` = '巫德', `title` = '神官' WHERE `id` = 32593;
-UPDATE `npc` SET `name` = '雷培德', `title` = '暗號解讀家' WHERE `id` = 32594;
-UPDATE `npc` SET `name` = '勞倫斯', `title` = '偉大的師傅' WHERE `id` = 32595;
-UPDATE `npc` SET `name` = '索比亞', `title` = '賢者圖書館長' WHERE `id` = 32596;
-UPDATE `npc` SET `name` = '佛蘭茲', `title` = '黎明的見證' WHERE `id` = 32597;
-UPDATE `npc` SET `name` = '宮廷魔法師', `title` = '艾爾摩亞丁' WHERE `id` = 32598;
-UPDATE `npc` SET `name` = '大師余義', `title` = '山中道人' WHERE `id` = 32599;
-UPDATE `npc` SET `name` = '生日喜悅精靈', `title` = '生日祝賀幫手' WHERE `id` = 32600;
-UPDATE `npc` SET `name` = '瞬間移動裝置' WHERE `id` = 32601;
-UPDATE `npc` SET `name` = '臨時傳送師' WHERE `id` = 32602;
-UPDATE `npc` SET `name` = '特普歐司', `title` = '軍官' WHERE `id` = 32603;
-UPDATE `npc` SET `name` = '飛空艇控制裝置' WHERE `id` = 32604;
-UPDATE `npc` SET `name` = '飛空艇控制裝置' WHERE `id` = 32605;
-UPDATE `npc` SET `name` = '飛空艇控制裝置' WHERE `id` = 32606;
-UPDATE `npc` SET `name` = '飛空艇控制裝置' WHERE `id` = 32607;
-UPDATE `npc` SET `name` = '飛空艇控制裝置' WHERE `id` = 32608;
-UPDATE `npc` SET `name` = '飛空艇控制裝置' WHERE `id` = 32609;
-UPDATE `npc` SET `name` = '沃夫 凱諾瑞', `title` = '編織員' WHERE `id` = 32610;
-UPDATE `npc` SET `name` = '托羅尼斯', `title` = '管制官' WHERE `id` = 32611;
-UPDATE `npc` SET `name` = '沃夫 亞當斯', `title` = '編織員' WHERE `id` = 32612;
-UPDATE `npc` SET `name` = '翰狄', `title` = '遊戲管理員' WHERE `id` = 32613;
-UPDATE `npc` SET `name` = '拉姆士達斯', `title` = '守門人' WHERE `id` = 32614;
-UPDATE `npc` SET `name` = '伊希瑪', `title` = '巨匠' WHERE `id` = 32615;
-UPDATE `npc` SET `name` = '米芮', `title` = '占卜師' WHERE `id` = 32616;
-UPDATE `npc` SET `name` = '杰納', `title` = '神官' WHERE `id` = 32617;
-UPDATE `npc` SET `name` = '絲伊美', `title` = '商人' WHERE `id` = 32618;
-UPDATE `npc` SET `name` = '' WHERE `id` = 32619;
-UPDATE `npc` SET `name` = '' WHERE `id` = 32620;
-UPDATE `npc` SET `name` = '' WHERE `id` = 32621;
-UPDATE `npc` SET `name` = '阿納托', `title` = '士兵' WHERE `id` = 32622;
-UPDATE `npc` SET `name` = '莫雷基', `title` = '士兵' WHERE `id` = 32623;
-UPDATE `npc` SET `name` = '安布廉', `title` = '士兵' WHERE `id` = 32624;
-UPDATE `npc` SET `name` = '恩協爾', `title` = '士兵' WHERE `id` = 32625;
-UPDATE `npc` SET `name` = '皇家警衛', `title` = '士兵' WHERE `id` = 32626;
-UPDATE `npc` SET `name` = '諾丁蓋爾', `title` = '魔法師' WHERE `id` = 32627;
-UPDATE `npc` SET `name` = '碼頭巡邏兵' WHERE `id` = 32628;
-UPDATE `npc` SET `name` = '碼頭巡邏兵' WHERE `id` = 32629;
-UPDATE `npc` SET `name` = '格勒西亞伺服器幫手' WHERE `id` = 32630;
-UPDATE `npc` SET `name` = '格勒西亞伺服器憑證交換員' WHERE `id` = 32631;
-UPDATE `npc` SET `name` = '格勒西亞殘存者' WHERE `id` = 32632;
-UPDATE `npc` SET `name` = '聖誕貓', `title` = '幸福使者' WHERE `id` = 32633;
-UPDATE `npc` SET `name` = '聖誕貓', `title` = '幸福使者' WHERE `id` = 32634;
-UPDATE `npc` SET `name` = '大師杜奇', `title` = '活力充能活動' WHERE `id` = 32635;
-UPDATE `npc` SET `name` = '魔法學院職員', `title` = '活動執行者' WHERE `id` = 32636;
-UPDATE `npc` SET `name` = '工作所傳送師' WHERE `id` = 32637;
-UPDATE `npc` SET `name` = '洛尼貓', `title` = '網咖活動' WHERE `id` = 32638;
-UPDATE `npc` SET `name` = '傭兵公會駐守劍兵' WHERE `id` = 35010;
-UPDATE `npc` SET `name` = '傭兵公會駐守槍兵' WHERE `id` = 35011;
-UPDATE `npc` SET `name` = '傭兵公會駐守弓兵' WHERE `id` = 35012;
-UPDATE `npc` SET `name` = '傭兵公會駐守牧師' WHERE `id` = 35013;
-UPDATE `npc` SET `name` = '傭兵公會駐守巫師' WHERE `id` = 35014;
-UPDATE `npc` SET `name` = '傭兵公會游擊劍兵' WHERE `id` = 35015;
-UPDATE `npc` SET `name` = '傭兵公會游擊槍兵' WHERE `id` = 35016;
-UPDATE `npc` SET `name` = '傭兵公會游擊弓兵' WHERE `id` = 35017;
-UPDATE `npc` SET `name` = '傭兵公會游擊牧師' WHERE `id` = 35018;
-UPDATE `npc` SET `name` = '傭兵公會游擊巫師' WHERE `id` = 35019;
-UPDATE `npc` SET `name` = '黎明的駐守劍師' WHERE `id` = 35020;
-UPDATE `npc` SET `name` = '黎明的駐守槍使' WHERE `id` = 35021;
-UPDATE `npc` SET `name` = '黎明的駐守射手' WHERE `id` = 35022;
-UPDATE `npc` SET `name` = '黎明的駐守主教' WHERE `id` = 35023;
-UPDATE `npc` SET `name` = '黎明的駐守魔導士' WHERE `id` = 35024;
-UPDATE `npc` SET `name` = '黎明的游擊劍師' WHERE `id` = 35025;
-UPDATE `npc` SET `name` = '黎明的游擊槍使' WHERE `id` = 35026;
-UPDATE `npc` SET `name` = '黎明的游擊射手' WHERE `id` = 35027;
-UPDATE `npc` SET `name` = '黎明的游擊主教' WHERE `id` = 35028;
-UPDATE `npc` SET `name` = '黎明的游擊魔導士' WHERE `id` = 35029;
-UPDATE `npc` SET `name` = '高級傭兵公會駐守劍兵' WHERE `id` = 35030;
-UPDATE `npc` SET `name` = '高級傭兵公會駐守槍兵' WHERE `id` = 35031;
-UPDATE `npc` SET `name` = '高級傭兵公會駐守弓兵' WHERE `id` = 35032;
-UPDATE `npc` SET `name` = '高級傭兵公會駐守牧師' WHERE `id` = 35033;
-UPDATE `npc` SET `name` = '高級傭兵公會駐守巫師' WHERE `id` = 35034;
-UPDATE `npc` SET `name` = '高級傭兵公會游擊劍兵' WHERE `id` = 35035;
-UPDATE `npc` SET `name` = '高級傭兵公會游擊槍兵' WHERE `id` = 35036;
-UPDATE `npc` SET `name` = '高級傭兵公會游擊弓兵' WHERE `id` = 35037;
-UPDATE `npc` SET `name` = '高級傭兵公會游擊牧師' WHERE `id` = 35038;
-UPDATE `npc` SET `name` = '高級傭兵公會游擊巫師' WHERE `id` = 35039;
-UPDATE `npc` SET `name` = '精銳駐守訓練劍兵' WHERE `id` = 35040;
-UPDATE `npc` SET `name` = '精銳駐守訓練槍兵' WHERE `id` = 35041;
-UPDATE `npc` SET `name` = '精銳駐守訓練弓兵' WHERE `id` = 35042;
-UPDATE `npc` SET `name` = '精銳駐守訓練牧師' WHERE `id` = 35043;
-UPDATE `npc` SET `name` = '精銳駐守訓練巫師' WHERE `id` = 35044;
-UPDATE `npc` SET `name` = '精銳游擊訓練劍兵' WHERE `id` = 35045;
-UPDATE `npc` SET `name` = '精銳游擊訓練槍兵' WHERE `id` = 35046;
-UPDATE `npc` SET `name` = '精銳游擊訓練弓兵' WHERE `id` = 35047;
-UPDATE `npc` SET `name` = '精銳游擊訓練牧師' WHERE `id` = 35048;
-UPDATE `npc` SET `name` = '精銳游擊訓練巫師' WHERE `id` = 35049;
-UPDATE `npc` SET `name` = '駐守訓練劍兵' WHERE `id` = 35050;
-UPDATE `npc` SET `name` = '駐守訓練槍兵' WHERE `id` = 35051;
-UPDATE `npc` SET `name` = '駐守訓練弓兵' WHERE `id` = 35052;
-UPDATE `npc` SET `name` = '駐守訓練牧師' WHERE `id` = 35053;
-UPDATE `npc` SET `name` = '駐守訓練巫師' WHERE `id` = 35054;
-UPDATE `npc` SET `name` = '游擊訓練劍兵' WHERE `id` = 35055;
-UPDATE `npc` SET `name` = '游擊訓練槍兵' WHERE `id` = 35056;
-UPDATE `npc` SET `name` = '游擊訓練弓兵' WHERE `id` = 35057;
-UPDATE `npc` SET `name` = '游擊訓練牧師' WHERE `id` = 35058;
-UPDATE `npc` SET `name` = '游擊訓練巫師' WHERE `id` = 35059;
-UPDATE `npc` SET `name` = '那芙琳守護劍士' WHERE `id` = 35060;
-UPDATE `npc` SET `name` = '那芙琳大魔道士' WHERE `id` = 35061;
-UPDATE `npc` SET `name` = '陣地' WHERE `id` = 35062;
-UPDATE `npc` SET `name` = '古魯丁守護者' WHERE `id` = 35063;
-UPDATE `npc` SET `name` = '盧音 瓦爾德 男爵' WHERE `id` = 35064;
-UPDATE `npc` SET `name` = '克羅南伯格', `title` = '親衛隊長' WHERE `id` = 35065;
-UPDATE `npc` SET `name` = '親衛隊騎士', `title` = '古魯丁' WHERE `id` = 35066;
-UPDATE `npc` SET `name` = '親衛隊巫師', `title` = '古魯丁' WHERE `id` = 35067;
-UPDATE `npc` SET `name` = '親衛隊巫師', `title` = '古魯丁' WHERE `id` = 35068;
-UPDATE `npc` SET `name` = '親衛隊', `title` = '古魯丁' WHERE `id` = 35069;
-UPDATE `npc` SET `name` = '警衛', `title` = '古魯丁' WHERE `id` = 35070;
-UPDATE `npc` SET `name` = '警衛', `title` = '古魯丁' WHERE `id` = 35071;
-UPDATE `npc` SET `name` = '警衛', `title` = '古魯丁' WHERE `id` = 35072;
-UPDATE `npc` SET `name` = '警衛', `title` = '古魯丁' WHERE `id` = 35073;
-UPDATE `npc` SET `name` = '警衛', `title` = '古魯丁' WHERE `id` = 35074;
-UPDATE `npc` SET `name` = '警衛', `title` = '古魯丁' WHERE `id` = 35075;
-UPDATE `npc` SET `name` = '警衛', `title` = '古魯丁' WHERE `id` = 35076;
-UPDATE `npc` SET `name` = '警衛', `title` = '古魯丁' WHERE `id` = 35077;
-UPDATE `npc` SET `name` = '警衛', `title` = '古魯丁' WHERE `id` = 35078;
-UPDATE `npc` SET `name` = '親衛隊騎士', `title` = '古魯丁' WHERE `id` = 35079;
-UPDATE `npc` SET `name` = '親衛隊巫師', `title` = '古魯丁' WHERE `id` = 35080;
-UPDATE `npc` SET `name` = '親衛隊巫師', `title` = '古魯丁' WHERE `id` = 35081;
-UPDATE `npc` SET `name` = '親衛隊', `title` = '古魯丁' WHERE `id` = 35082;
-UPDATE `npc` SET `name` = '警衛', `title` = '古魯丁' WHERE `id` = 35083;
-UPDATE `npc` SET `name` = '警衛', `title` = '古魯丁' WHERE `id` = 35084;
-UPDATE `npc` SET `name` = '警衛', `title` = '古魯丁' WHERE `id` = 35085;
-UPDATE `npc` SET `name` = '警衛', `title` = '古魯丁' WHERE `id` = 35086;
-UPDATE `npc` SET `name` = '警衛', `title` = '古魯丁' WHERE `id` = 35087;
-UPDATE `npc` SET `name` = '警衛', `title` = '古魯丁' WHERE `id` = 35088;
-UPDATE `npc` SET `name` = '警衛', `title` = '古魯丁' WHERE `id` = 35089;
-UPDATE `npc` SET `name` = '警衛', `title` = '古魯丁' WHERE `id` = 35090;
-UPDATE `npc` SET `name` = '警衛', `title` = '古魯丁' WHERE `id` = 35091;
-UPDATE `npc` SET `name` = '傳送師', `title` = '古魯丁' WHERE `id` = 35092;
-UPDATE `npc` SET `name` = '傳送師', `title` = '古魯丁' WHERE `id` = 35093;
-UPDATE `npc` SET `name` = '傳送師', `title` = '古魯丁' WHERE `id` = 35094;
-UPDATE `npc` SET `name` = '集體傳送師', `title` = '古魯丁' WHERE `id` = 35095;
-UPDATE `npc` SET `name` = '外城守門人', `title` = '古魯丁' WHERE `id` = 35096;
-UPDATE `npc` SET `name` = '內城守門人', `title` = '古魯丁' WHERE `id` = 35097;
-UPDATE `npc` SET `name` = '鐵匠', `title` = '古魯丁' WHERE `id` = 35098;
-UPDATE `npc` SET `name` = '倉庫管理員', `title` = '古魯丁' WHERE `id` = 35099;
-UPDATE `npc` SET `name` = '賽亞斯', `title` = '侍衛隊長' WHERE `id` = 35100;
-UPDATE `npc` SET `name` = '格拉德', `title` = '飛龍管理員' WHERE `id` = 35101;
-UPDATE `npc` SET `name` = '葛林斯潘', `title` = '傭兵管理員' WHERE `id` = 35102;
-UPDATE `npc` SET `name` = '莊園管理員', `title` = '古魯丁' WHERE `id` = 35103;
-UPDATE `npc` SET `name` = '泰龍', `title` = '傳令' WHERE `id` = 35104;
-UPDATE `npc` SET `name` = '狄恩守護者' WHERE `id` = 35105;
-UPDATE `npc` SET `name` = '亞席頓公爵' WHERE `id` = 35106;
-UPDATE `npc` SET `name` = '伊瑪諾閣下', `title` = '親衛隊長' WHERE `id` = 35107;
-UPDATE `npc` SET `name` = '親衛隊騎士', `title` = '狄恩' WHERE `id` = 35108;
-UPDATE `npc` SET `name` = '親衛隊魔法師', `title` = '狄恩' WHERE `id` = 35109;
-UPDATE `npc` SET `name` = '親衛隊牧師', `title` = '狄恩' WHERE `id` = 35110;
-UPDATE `npc` SET `name` = '親衛隊', `title` = '狄恩' WHERE `id` = 35111;
-UPDATE `npc` SET `name` = '警衛', `title` = '狄恩' WHERE `id` = 35112;
-UPDATE `npc` SET `name` = '警衛', `title` = '狄恩' WHERE `id` = 35113;
-UPDATE `npc` SET `name` = '警衛', `title` = '狄恩' WHERE `id` = 35114;
-UPDATE `npc` SET `name` = '警衛', `title` = '狄恩' WHERE `id` = 35115;
-UPDATE `npc` SET `name` = '警衛', `title` = '狄恩' WHERE `id` = 35116;
-UPDATE `npc` SET `name` = '警衛', `title` = '狄恩' WHERE `id` = 35117;
-UPDATE `npc` SET `name` = '警衛', `title` = '狄恩' WHERE `id` = 35118;
-UPDATE `npc` SET `name` = '警衛', `title` = '狄恩' WHERE `id` = 35119;
-UPDATE `npc` SET `name` = '警衛', `title` = '狄恩' WHERE `id` = 35120;
-UPDATE `npc` SET `name` = '親衛隊騎士', `title` = '狄恩' WHERE `id` = 35121;
-UPDATE `npc` SET `name` = '親衛隊魔法師', `title` = '狄恩' WHERE `id` = 35122;
-UPDATE `npc` SET `name` = '親衛隊牧師', `title` = '狄恩' WHERE `id` = 35123;
-UPDATE `npc` SET `name` = '親衛隊', `title` = '狄恩' WHERE `id` = 35124;
-UPDATE `npc` SET `name` = '警衛', `title` = '狄恩' WHERE `id` = 35125;
-UPDATE `npc` SET `name` = '警衛', `title` = '狄恩' WHERE `id` = 35126;
-UPDATE `npc` SET `name` = '警衛', `title` = '狄恩' WHERE `id` = 35127;
-UPDATE `npc` SET `name` = '警衛', `title` = '狄恩' WHERE `id` = 35128;
-UPDATE `npc` SET `name` = '警衛', `title` = '狄恩' WHERE `id` = 35129;
-UPDATE `npc` SET `name` = '警衛', `title` = '狄恩' WHERE `id` = 35130;
-UPDATE `npc` SET `name` = '警衛', `title` = '狄恩' WHERE `id` = 35131;
-UPDATE `npc` SET `name` = '警衛', `title` = '狄恩' WHERE `id` = 35132;
-UPDATE `npc` SET `name` = '警衛', `title` = '狄恩' WHERE `id` = 35133;
-UPDATE `npc` SET `name` = '傳送師', `title` = '狄恩' WHERE `id` = 35134;
-UPDATE `npc` SET `name` = '傳送師', `title` = '狄恩' WHERE `id` = 35135;
-UPDATE `npc` SET `name` = '傳送師', `title` = '狄恩' WHERE `id` = 35136;
-UPDATE `npc` SET `name` = '集體傳送師', `title` = '狄恩' WHERE `id` = 35137;
-UPDATE `npc` SET `name` = '外城守門人', `title` = '狄恩' WHERE `id` = 35138;
-UPDATE `npc` SET `name` = '內城守門人', `title` = '狄恩' WHERE `id` = 35139;
-UPDATE `npc` SET `name` = '鐵匠', `title` = '狄恩' WHERE `id` = 35140;
-UPDATE `npc` SET `name` = '倉庫管理員', `title` = '狄恩' WHERE `id` = 35141;
-UPDATE `npc` SET `name` = '克羅斯比', `title` = '侍衛隊長' WHERE `id` = 35142;
-UPDATE `npc` SET `name` = '荷塔羅', `title` = '飛龍管理員' WHERE `id` = 35143;
-UPDATE `npc` SET `name` = '山普德', `title` = '傭兵管理員' WHERE `id` = 35144;
-UPDATE `npc` SET `name` = '莊園管理員', `title` = '狄恩' WHERE `id` = 35145;
-UPDATE `npc` SET `name` = '吉普森', `title` = '傳令' WHERE `id` = 35146;
-UPDATE `npc` SET `name` = '奇岩守護者' WHERE `id` = 35147;
-UPDATE `npc` SET `name` = '愛司德斯 卡爾蒙 男爵' WHERE `id` = 35148;
-UPDATE `npc` SET `name` = '烏力克閣下', `title` = '親衛隊長' WHERE `id` = 35149;
-UPDATE `npc` SET `name` = '親衛隊騎士', `title` = '奇岩' WHERE `id` = 35150;
-UPDATE `npc` SET `name` = '親衛隊魔法師', `title` = '奇岩' WHERE `id` = 35151;
-UPDATE `npc` SET `name` = '親衛隊牧師', `title` = '奇岩' WHERE `id` = 35152;
-UPDATE `npc` SET `name` = '親衛隊', `title` = '奇岩' WHERE `id` = 35153;
-UPDATE `npc` SET `name` = '警衛', `title` = '奇岩' WHERE `id` = 35154;
-UPDATE `npc` SET `name` = '警衛', `title` = '奇岩' WHERE `id` = 35155;
-UPDATE `npc` SET `name` = '警衛', `title` = '奇岩' WHERE `id` = 35156;
-UPDATE `npc` SET `name` = '警衛', `title` = '奇岩' WHERE `id` = 35157;
-UPDATE `npc` SET `name` = '警衛', `title` = '奇岩' WHERE `id` = 35158;
-UPDATE `npc` SET `name` = '警衛', `title` = '奇岩' WHERE `id` = 35159;
-UPDATE `npc` SET `name` = '警衛', `title` = '奇岩' WHERE `id` = 35160;
-UPDATE `npc` SET `name` = '警衛', `title` = '奇岩' WHERE `id` = 35161;
-UPDATE `npc` SET `name` = '警衛', `title` = '奇岩' WHERE `id` = 35162;
-UPDATE `npc` SET `name` = '親衛隊騎士', `title` = '奇岩' WHERE `id` = 35163;
-UPDATE `npc` SET `name` = '親衛隊魔法師', `title` = '奇岩' WHERE `id` = 35164;
-UPDATE `npc` SET `name` = '親衛隊牧師', `title` = '奇岩' WHERE `id` = 35165;
-UPDATE `npc` SET `name` = '親衛隊', `title` = '奇岩' WHERE `id` = 35166;
-UPDATE `npc` SET `name` = '警衛', `title` = '奇岩' WHERE `id` = 35167;
-UPDATE `npc` SET `name` = '警衛', `title` = '奇岩' WHERE `id` = 35168;
-UPDATE `npc` SET `name` = '警衛', `title` = '奇岩' WHERE `id` = 35169;
-UPDATE `npc` SET `name` = '警衛', `title` = '奇岩' WHERE `id` = 35170;
-UPDATE `npc` SET `name` = '警衛', `title` = '奇岩' WHERE `id` = 35171;
-UPDATE `npc` SET `name` = '警衛', `title` = '奇岩' WHERE `id` = 35172;
-UPDATE `npc` SET `name` = '警衛', `title` = '奇岩' WHERE `id` = 35173;
-UPDATE `npc` SET `name` = '警衛', `title` = '奇岩' WHERE `id` = 35174;
-UPDATE `npc` SET `name` = '警衛', `title` = '奇岩' WHERE `id` = 35175;
-UPDATE `npc` SET `name` = '傳送師', `title` = '奇岩' WHERE `id` = 35176;
-UPDATE `npc` SET `name` = '傳送師', `title` = '奇岩' WHERE `id` = 35177;
-UPDATE `npc` SET `name` = '傳送師', `title` = '奇岩' WHERE `id` = 35178;
-UPDATE `npc` SET `name` = '集體傳送師', `title` = '奇岩' WHERE `id` = 35179;
-UPDATE `npc` SET `name` = '外城守門人', `title` = '奇岩' WHERE `id` = 35180;
-UPDATE `npc` SET `name` = '內城守門人', `title` = '奇岩' WHERE `id` = 35181;
-UPDATE `npc` SET `name` = '鐵匠', `title` = '奇岩' WHERE `id` = 35182;
-UPDATE `npc` SET `name` = '倉庫管理員', `title` = '奇岩' WHERE `id` = 35183;
-UPDATE `npc` SET `name` = '索', `title` = '侍衛隊長' WHERE `id` = 35184;
-UPDATE `npc` SET `name` = '普萊瑟', `title` = '飛龍管理員' WHERE `id` = 35185;
-UPDATE `npc` SET `name` = '阿比德', `title` = '傭兵管理員' WHERE `id` = 35186;
-UPDATE `npc` SET `name` = '莊園管理員', `title` = '奇岩' WHERE `id` = 35187;
-UPDATE `npc` SET `name` = '霍姆斯', `title` = '傳令' WHERE `id` = 35188;
-UPDATE `npc` SET `name` = '歐瑞守護者' WHERE `id` = 35189;
-UPDATE `npc` SET `name` = '班卓斯 班 德雷克', `title` = '公爵' WHERE `id` = 35190;
-UPDATE `npc` SET `name` = '昆提', `title` = '親衛隊長' WHERE `id` = 35191;
-UPDATE `npc` SET `name` = '親衛隊騎士', `title` = '歐瑞' WHERE `id` = 35192;
-UPDATE `npc` SET `name` = '親衛隊魔法師', `title` = '歐瑞' WHERE `id` = 35193;
-UPDATE `npc` SET `name` = '親衛隊魔法師', `title` = '歐瑞' WHERE `id` = 35194;
-UPDATE `npc` SET `name` = '親衛隊', `title` = '歐瑞' WHERE `id` = 35195;
-UPDATE `npc` SET `name` = '警衛', `title` = '歐瑞' WHERE `id` = 35196;
-UPDATE `npc` SET `name` = '警衛', `title` = '歐瑞' WHERE `id` = 35197;
-UPDATE `npc` SET `name` = '警衛', `title` = '歐瑞' WHERE `id` = 35198;
-UPDATE `npc` SET `name` = '警衛', `title` = '歐瑞' WHERE `id` = 35199;
-UPDATE `npc` SET `name` = '警衛', `title` = '歐瑞' WHERE `id` = 35200;
-UPDATE `npc` SET `name` = '警衛', `title` = '歐瑞' WHERE `id` = 35201;
-UPDATE `npc` SET `name` = '警衛', `title` = '歐瑞' WHERE `id` = 35202;
-UPDATE `npc` SET `name` = '警衛', `title` = '歐瑞' WHERE `id` = 35203;
-UPDATE `npc` SET `name` = '警衛', `title` = '歐瑞' WHERE `id` = 35204;
-UPDATE `npc` SET `name` = '親衛隊騎士', `title` = '歐瑞' WHERE `id` = 35205;
-UPDATE `npc` SET `name` = '親衛隊魔法師', `title` = '歐瑞' WHERE `id` = 35206;
-UPDATE `npc` SET `name` = '親衛隊魔法師', `title` = '歐瑞' WHERE `id` = 35207;
-UPDATE `npc` SET `name` = '親衛隊', `title` = '歐瑞' WHERE `id` = 35208;
-UPDATE `npc` SET `name` = '警衛', `title` = '歐瑞' WHERE `id` = 35209;
-UPDATE `npc` SET `name` = '警衛', `title` = '歐瑞' WHERE `id` = 35210;
-UPDATE `npc` SET `name` = '警衛', `title` = '歐瑞' WHERE `id` = 35211;
-UPDATE `npc` SET `name` = '警衛', `title` = '歐瑞' WHERE `id` = 35212;
-UPDATE `npc` SET `name` = '警衛', `title` = '歐瑞' WHERE `id` = 35213;
-UPDATE `npc` SET `name` = '警衛', `title` = '歐瑞' WHERE `id` = 35214;
-UPDATE `npc` SET `name` = '警衛', `title` = '歐瑞' WHERE `id` = 35215;
-UPDATE `npc` SET `name` = '警衛', `title` = '歐瑞' WHERE `id` = 35216;
-UPDATE `npc` SET `name` = '警衛', `title` = '歐瑞' WHERE `id` = 35217;
-UPDATE `npc` SET `name` = '傳送師', `title` = '歐瑞' WHERE `id` = 35218;
-UPDATE `npc` SET `name` = '傳送師', `title` = '歐瑞' WHERE `id` = 35219;
-UPDATE `npc` SET `name` = '傳送師', `title` = '歐瑞' WHERE `id` = 35220;
-UPDATE `npc` SET `name` = '集體傳送師', `title` = '歐瑞' WHERE `id` = 35221;
-UPDATE `npc` SET `name` = '外城守門人', `title` = '歐瑞' WHERE `id` = 35222;
-UPDATE `npc` SET `name` = '內城守門人', `title` = '歐瑞' WHERE `id` = 35223;
-UPDATE `npc` SET `name` = '鐵匠', `title` = '歐瑞' WHERE `id` = 35224;
-UPDATE `npc` SET `name` = '倉庫管理員', `title` = '歐瑞' WHERE `id` = 35225;
-UPDATE `npc` SET `name` = '布拉塞爾', `title` = '侍衛隊長' WHERE `id` = 35226;
-UPDATE `npc` SET `name` = '平洛特', `title` = '飛龍管理員' WHERE `id` = 35227;
-UPDATE `npc` SET `name` = '抹利森', `title` = '傭兵管理員' WHERE `id` = 35228;
-UPDATE `npc` SET `name` = '莊園管理員', `title` = '歐瑞' WHERE `id` = 35229;
-UPDATE `npc` SET `name` = '莊園管理員', `title` = '歐瑞' WHERE `id` = 35230;
-UPDATE `npc` SET `name` = '莊園管理員', `title` = '歐瑞' WHERE `id` = 35231;
-UPDATE `npc` SET `name` = '修特', `title` = '傳令' WHERE `id` = 35232;
-UPDATE `npc` SET `name` = '亞丁守護者' WHERE `id` = 35233;
-UPDATE `npc` SET `name` = '阿瑪戴歐 卡德姆斯', `title` = '國王' WHERE `id` = 35234;
-UPDATE `npc` SET `name` = '親衛隊騎士', `title` = '亞丁' WHERE `id` = 35235;
-UPDATE `npc` SET `name` = '親衛隊魔法師', `title` = '亞丁' WHERE `id` = 35236;
-UPDATE `npc` SET `name` = '親衛隊魔法師', `title` = '亞丁' WHERE `id` = 35237;
-UPDATE `npc` SET `name` = '親衛隊', `title` = '亞丁' WHERE `id` = 35238;
-UPDATE `npc` SET `name` = '警衛', `title` = '亞丁' WHERE `id` = 35239;
-UPDATE `npc` SET `name` = '警衛', `title` = '亞丁' WHERE `id` = 35240;
-UPDATE `npc` SET `name` = '警衛', `title` = '亞丁' WHERE `id` = 35241;
-UPDATE `npc` SET `name` = '警衛', `title` = '亞丁' WHERE `id` = 35242;
-UPDATE `npc` SET `name` = '警衛', `title` = '亞丁' WHERE `id` = 35243;
-UPDATE `npc` SET `name` = '警衛', `title` = '亞丁' WHERE `id` = 35244;
-UPDATE `npc` SET `name` = '警衛', `title` = '亞丁' WHERE `id` = 35245;
-UPDATE `npc` SET `name` = '警衛', `title` = '亞丁' WHERE `id` = 35246;
-UPDATE `npc` SET `name` = '警衛', `title` = '亞丁' WHERE `id` = 35247;
-UPDATE `npc` SET `name` = '親衛隊騎士', `title` = '亞丁' WHERE `id` = 35248;
-UPDATE `npc` SET `name` = '親衛隊魔法師', `title` = '亞丁' WHERE `id` = 35249;
-UPDATE `npc` SET `name` = '親衛隊魔法師', `title` = '亞丁' WHERE `id` = 35250;
-UPDATE `npc` SET `name` = '親衛隊', `title` = '亞丁' WHERE `id` = 35251;
-UPDATE `npc` SET `name` = '警衛', `title` = '亞丁' WHERE `id` = 35252;
-UPDATE `npc` SET `name` = '警衛', `title` = '亞丁' WHERE `id` = 35253;
-UPDATE `npc` SET `name` = '警衛', `title` = '亞丁' WHERE `id` = 35254;
-UPDATE `npc` SET `name` = '警衛', `title` = '亞丁' WHERE `id` = 35255;
-UPDATE `npc` SET `name` = '警衛', `title` = '亞丁' WHERE `id` = 35256;
-UPDATE `npc` SET `name` = '警衛', `title` = '亞丁' WHERE `id` = 35257;
-UPDATE `npc` SET `name` = '警衛', `title` = '亞丁' WHERE `id` = 35258;
-UPDATE `npc` SET `name` = '警衛', `title` = '亞丁' WHERE `id` = 35259;
-UPDATE `npc` SET `name` = '警衛', `title` = '亞丁' WHERE `id` = 35260;
-UPDATE `npc` SET `name` = '傳送師', `title` = '亞丁' WHERE `id` = 35261;
-UPDATE `npc` SET `name` = '傳送師', `title` = '亞丁' WHERE `id` = 35262;
-UPDATE `npc` SET `name` = '傳送師', `title` = '亞丁' WHERE `id` = 35263;
-UPDATE `npc` SET `name` = '傳送師', `title` = '亞丁' WHERE `id` = 35264;
-UPDATE `npc` SET `name` = '傳送師', `title` = '亞丁' WHERE `id` = 35265;
-UPDATE `npc` SET `name` = '集體傳送師', `title` = '亞丁' WHERE `id` = 35266;
-UPDATE `npc` SET `name` = '外城守門人', `title` = '亞丁' WHERE `id` = 35267;
-UPDATE `npc` SET `name` = '內城守門人', `title` = '亞丁' WHERE `id` = 35268;
-UPDATE `npc` SET `name` = '大廳守門人', `title` = '亞丁' WHERE `id` = 35269;
-UPDATE `npc` SET `name` = '內城守門人', `title` = '亞丁' WHERE `id` = 35270;
-UPDATE `npc` SET `name` = '守門人', `title` = '亞丁' WHERE `id` = 35271;
-UPDATE `npc` SET `name` = '鐵匠', `title` = '亞丁' WHERE `id` = 35272;
-UPDATE `npc` SET `name` = '倉庫管理員', `title` = '亞丁' WHERE `id` = 35273;
-UPDATE `npc` SET `name` = '羅甘', `title` = '侍衛隊長' WHERE `id` = 35274;
-UPDATE `npc` SET `name` = '格魯歌', `title` = '飛龍管理員' WHERE `id` = 35275;
-UPDATE `npc` SET `name` = '艾魯登', `title` = '傭兵管理員' WHERE `id` = 35276;
-UPDATE `npc` SET `name` = '莊園管理員', `title` = '亞丁' WHERE `id` = 35277;
-UPDATE `npc` SET `name` = '魯佛德', `title` = '傳令' WHERE `id` = 35278;
-UPDATE `npc` SET `name` = '因納得立守護者' WHERE `id` = 35279;
-UPDATE `npc` SET `name` = '利歐納爾 杭特 男爵' WHERE `id` = 35280;
-UPDATE `npc` SET `name` = '史考特', `title` = '護衛隊長' WHERE `id` = 35281;
-UPDATE `npc` SET `name` = '親衛隊騎士', `title` = '因納得立' WHERE `id` = 35282;
-UPDATE `npc` SET `name` = '親衛隊魔法師', `title` = '因納得立' WHERE `id` = 35283;
-UPDATE `npc` SET `name` = '親衛隊魔法師', `title` = '因納得立' WHERE `id` = 35284;
-UPDATE `npc` SET `name` = '親衛隊', `title` = '因納得立' WHERE `id` = 35285;
-UPDATE `npc` SET `name` = '警衛', `title` = '因納得立' WHERE `id` = 35286;
-UPDATE `npc` SET `name` = '警衛', `title` = '因納得立' WHERE `id` = 35287;
-UPDATE `npc` SET `name` = '警衛', `title` = '因納得立' WHERE `id` = 35288;
-UPDATE `npc` SET `name` = '警衛', `title` = '因納得立' WHERE `id` = 35289;
-UPDATE `npc` SET `name` = '警衛', `title` = '因納得立' WHERE `id` = 35290;
-UPDATE `npc` SET `name` = '警衛', `title` = '因納得立' WHERE `id` = 35291;
-UPDATE `npc` SET `name` = '警衛', `title` = '因納得立' WHERE `id` = 35292;
-UPDATE `npc` SET `name` = '警衛', `title` = '因納得立' WHERE `id` = 35293;
-UPDATE `npc` SET `name` = '警衛', `title` = '因納得立' WHERE `id` = 35294;
-UPDATE `npc` SET `name` = '親衛隊騎士', `title` = '因納得立' WHERE `id` = 35295;
-UPDATE `npc` SET `name` = '親衛隊魔法師', `title` = '因納得立' WHERE `id` = 35296;
-UPDATE `npc` SET `name` = '親衛隊魔法師', `title` = '因納得立' WHERE `id` = 35297;
-UPDATE `npc` SET `name` = '親衛隊', `title` = '因納得立' WHERE `id` = 35298;
-UPDATE `npc` SET `name` = '警衛', `title` = '因納得立' WHERE `id` = 35299;
-UPDATE `npc` SET `name` = '警衛', `title` = '因納得立' WHERE `id` = 35300;
-UPDATE `npc` SET `name` = '警衛', `title` = '因納得立' WHERE `id` = 35301;
-UPDATE `npc` SET `name` = '警衛', `title` = '因納得立' WHERE `id` = 35302;
-UPDATE `npc` SET `name` = '警衛', `title` = '因納得立' WHERE `id` = 35303;
-UPDATE `npc` SET `name` = '警衛', `title` = '因納得立' WHERE `id` = 35304;
-UPDATE `npc` SET `name` = '警衛', `title` = '因納得立' WHERE `id` = 35305;
-UPDATE `npc` SET `name` = '警衛', `title` = '因納得立' WHERE `id` = 35306;
-UPDATE `npc` SET `name` = '警衛', `title` = '因納得立' WHERE `id` = 35307;
-UPDATE `npc` SET `name` = '傳送師', `title` = '因納得立' WHERE `id` = 35308;
-UPDATE `npc` SET `name` = '傳送師', `title` = '因納得立' WHERE `id` = 35309;
-UPDATE `npc` SET `name` = '傳送師', `title` = '因納得立' WHERE `id` = 35310;
-UPDATE `npc` SET `name` = '集體傳送師', `title` = '因納得立' WHERE `id` = 35311;
-UPDATE `npc` SET `name` = '外城守門人', `title` = '因納得立' WHERE `id` = 35312;
-UPDATE `npc` SET `name` = '內城守門人', `title` = '因納得立' WHERE `id` = 35313;
-UPDATE `npc` SET `name` = '鐵匠', `title` = '因納得立' WHERE `id` = 35314;
-UPDATE `npc` SET `name` = '倉庫管理員', `title` = '因納得立' WHERE `id` = 35315;
-UPDATE `npc` SET `name` = '涅里特', `title` = '侍衛隊長' WHERE `id` = 35316;
-UPDATE `npc` SET `name` = '德伊特', `title` = '飛龍管理員' WHERE `id` = 35317;
-UPDATE `npc` SET `name` = '索黎那斯', `title` = '傭兵管理員' WHERE `id` = 35318;
-UPDATE `npc` SET `name` = '莊園管理員', `title` = '因納得立' WHERE `id` = 35319;
-UPDATE `npc` SET `name` = '雷貝爾', `title` = '傳令' WHERE `id` = 35320;
-UPDATE `npc` SET `name` = '火之祭壇' WHERE `id` = 35322;
-UPDATE `npc` SET `name` = '水之祭壇' WHERE `id` = 35323;
-UPDATE `npc` SET `name` = '漢斯', `title` = '親衛隊長' WHERE `id` = 35324;
-UPDATE `npc` SET `name` = '莫拉 肯 阿巴葛伊 公爵' WHERE `id` = 35325;
-UPDATE `npc` SET `name` = '親衛隊騎士', `title` = '高達特' WHERE `id` = 35326;
-UPDATE `npc` SET `name` = '親衛隊巫師', `title` = '高達特' WHERE `id` = 35327;
-UPDATE `npc` SET `name` = '親衛隊巫師', `title` = '高達特' WHERE `id` = 35328;
-UPDATE `npc` SET `name` = '親衛隊', `title` = '高達特' WHERE `id` = 35329;
-UPDATE `npc` SET `name` = '警衛', `title` = '高達特' WHERE `id` = 35330;
-UPDATE `npc` SET `name` = '警衛', `title` = '高達特' WHERE `id` = 35331;
-UPDATE `npc` SET `name` = '警衛', `title` = '高達特' WHERE `id` = 35332;
-UPDATE `npc` SET `name` = '警衛', `title` = '高達特' WHERE `id` = 35333;
-UPDATE `npc` SET `name` = '警衛', `title` = '高達特' WHERE `id` = 35334;
-UPDATE `npc` SET `name` = '警衛', `title` = '高達特' WHERE `id` = 35335;
-UPDATE `npc` SET `name` = '警衛', `title` = '高達特' WHERE `id` = 35336;
-UPDATE `npc` SET `name` = '警衛', `title` = '高達特' WHERE `id` = 35337;
-UPDATE `npc` SET `name` = '警衛', `title` = '高達特' WHERE `id` = 35338;
-UPDATE `npc` SET `name` = '親衛隊騎士', `title` = '高達特' WHERE `id` = 35339;
-UPDATE `npc` SET `name` = '親衛隊巫師', `title` = '高達特' WHERE `id` = 35340;
-UPDATE `npc` SET `name` = '親衛隊巫師', `title` = '高達特' WHERE `id` = 35341;
-UPDATE `npc` SET `name` = '親衛隊', `title` = '高達特' WHERE `id` = 35342;
-UPDATE `npc` SET `name` = '警衛', `title` = '高達特' WHERE `id` = 35343;
-UPDATE `npc` SET `name` = '警衛', `title` = '高達特' WHERE `id` = 35344;
-UPDATE `npc` SET `name` = '警衛', `title` = '高達特' WHERE `id` = 35345;
-UPDATE `npc` SET `name` = '警衛', `title` = '高達特' WHERE `id` = 35346;
-UPDATE `npc` SET `name` = '警衛', `title` = '高達特' WHERE `id` = 35347;
-UPDATE `npc` SET `name` = '警衛', `title` = '高達特' WHERE `id` = 35348;
-UPDATE `npc` SET `name` = '警衛', `title` = '高達特' WHERE `id` = 35349;
-UPDATE `npc` SET `name` = '警衛', `title` = '高達特' WHERE `id` = 35350;
-UPDATE `npc` SET `name` = '警衛', `title` = '高達特' WHERE `id` = 35351;
-UPDATE `npc` SET `name` = '傳送師', `title` = '高達特' WHERE `id` = 35352;
-UPDATE `npc` SET `name` = '傳送師', `title` = '高達特' WHERE `id` = 35353;
-UPDATE `npc` SET `name` = '傳送師', `title` = '高達特' WHERE `id` = 35354;
-UPDATE `npc` SET `name` = '集體傳送師', `title` = '高達特' WHERE `id` = 35355;
-UPDATE `npc` SET `name` = '外城守門人', `title` = '高達特' WHERE `id` = 35356;
-UPDATE `npc` SET `name` = '內城守門人', `title` = '高達特' WHERE `id` = 35357;
-UPDATE `npc` SET `name` = '內城守門人', `title` = '高達特' WHERE `id` = 35358;
-UPDATE `npc` SET `name` = '守門人', `title` = '高達特' WHERE `id` = 35359;
-UPDATE `npc` SET `name` = '守門人', `title` = '高達特' WHERE `id` = 35360;
-UPDATE `npc` SET `name` = '鐵匠', `title` = '高達特' WHERE `id` = 35361;
-UPDATE `npc` SET `name` = '倉庫管理員', `title` = '高達特' WHERE `id` = 35362;
-UPDATE `npc` SET `name` = '艾佛瑞德', `title` = '侍衛隊長' WHERE `id` = 35363;
-UPDATE `npc` SET `name` = '哈德烈', `title` = '飛龍管理員' WHERE `id` = 35364;
-UPDATE `npc` SET `name` = '羅威', `title` = '傭兵管理員' WHERE `id` = 35365;
-UPDATE `npc` SET `name` = '莊園管理員', `title` = '高達特' WHERE `id` = 35366;
-UPDATE `npc` SET `name` = '達賓', `title` = '傳令' WHERE `id` = 35367;
-UPDATE `npc` SET `name` = '血腥君主「奴爾卡」' WHERE `id` = 35368;
-UPDATE `npc` SET `name` = '帕提森治療師' WHERE `id` = 35369;
-UPDATE `npc` SET `name` = '帕提森親衛隊' WHERE `id` = 35370;
-UPDATE `npc` SET `name` = '帕提森親衛隊' WHERE `id` = 35371;
-UPDATE `npc` SET `name` = '帕提森士兵' WHERE `id` = 35372;
-UPDATE `npc` SET `name` = '帕提森巫師' WHERE `id` = 35373;
-UPDATE `npc` SET `name` = '帕提森弓箭手' WHERE `id` = 35374;
-UPDATE `npc` SET `name` = '血腥君主「奴爾卡」' WHERE `id` = 35375;
-UPDATE `npc` SET `name` = '帕提森治療師' WHERE `id` = 35376;
-UPDATE `npc` SET `name` = '帕提森親衛隊' WHERE `id` = 35377;
-UPDATE `npc` SET `name` = '帕提森親衛隊' WHERE `id` = 35378;
-UPDATE `npc` SET `name` = '帕提森士兵' WHERE `id` = 35379;
-UPDATE `npc` SET `name` = '帕提森巫師' WHERE `id` = 35380;
-UPDATE `npc` SET `name` = '帕提森弓箭手' WHERE `id` = 35381;
-UPDATE `npc` SET `name` = '布拉克爾', `title` = '帕提森傳令' WHERE `id` = 35382;
-UPDATE `npc` SET `name` = '塔木塔', `title` = '豺狼執行官' WHERE `id` = 35383;
-UPDATE `npc` SET `name` = '布拉格', `title` = '根據地管理員' WHERE `id` = 35384;
-UPDATE `npc` SET `name` = '萊尼', `title` = '根據地守門人' WHERE `id` = 35385;
-UPDATE `npc` SET `name` = '包爾', `title` = '根據地管理員' WHERE `id` = 35386;
-UPDATE `npc` SET `name` = '帕別', `title` = '根據地守門人' WHERE `id` = 35387;
-UPDATE `npc` SET `name` = '提姆', `title` = '根據地管理員' WHERE `id` = 35388;
-UPDATE `npc` SET `name` = '洛林', `title` = '根據地守門人' WHERE `id` = 35389;
-UPDATE `npc` SET `name` = '迪隆', `title` = '根據地管理員' WHERE `id` = 35390;
-UPDATE `npc` SET `name` = '拉提夫', `title` = '根據地守門人' WHERE `id` = 35391;
-UPDATE `npc` SET `name` = '布雷瑪', `title` = '根據地管理員' WHERE `id` = 35392;
-UPDATE `npc` SET `name` = '拍爾蘭', `title` = '根據地守門人' WHERE `id` = 35393;
-UPDATE `npc` SET `name` = '卡利斯', `title` = '根據地管理員' WHERE `id` = 35394;
-UPDATE `npc` SET `name` = '柯坎', `title` = '根據地守門人' WHERE `id` = 35395;
-UPDATE `npc` SET `name` = '溫克', `title` = '根據地管理員' WHERE `id` = 35396;
-UPDATE `npc` SET `name` = '摩統', `title` = '根據地守門人' WHERE `id` = 35397;
-UPDATE `npc` SET `name` = '魯邦', `title` = '根據地管理員' WHERE `id` = 35398;
-UPDATE `npc` SET `name` = '魯斯', `title` = '根據地守門人' WHERE `id` = 35399;
-UPDATE `npc` SET `name` = '何那', `title` = '根據地管理員' WHERE `id` = 35400;
-UPDATE `npc` SET `name` = '阿米爾', `title` = '根據地守門人' WHERE `id` = 35401;
-UPDATE `npc` SET `name` = '伯盧那', `title` = '根據地守門人' WHERE `id` = 35402;
-UPDATE `npc` SET `name` = '隆', `title` = '根據地管理員' WHERE `id` = 35403;
-UPDATE `npc` SET `name` = '查邁爾', `title` = '根據地守門人' WHERE `id` = 35404;
-UPDATE `npc` SET `name` = '弗琳', `title` = '根據地管理員' WHERE `id` = 35405;
-UPDATE `npc` SET `name` = '札畢魯', `title` = '根據地守門人' WHERE `id` = 35406;
-UPDATE `npc` SET `name` = '賽斯', `title` = '根據地管理員' WHERE `id` = 35407;
-UPDATE `npc` SET `name` = '黛德利' WHERE `id` = 35408;
-UPDATE `npc` SET `name` = '米哈伊爾' WHERE `id` = 35409;
-UPDATE `npc` SET `name` = '古斯達夫' WHERE `id` = 35410;
-UPDATE `npc` SET `name` = '末日傭人' WHERE `id` = 35411;
-UPDATE `npc` SET `name` = '末日警衛' WHERE `id` = 35412;
-UPDATE `npc` SET `name` = '末日弓手' WHERE `id` = 35413;
-UPDATE `npc` SET `name` = '末日裝甲兵' WHERE `id` = 35414;
-UPDATE `npc` SET `name` = '末日戰士' WHERE `id` = 35415;
-UPDATE `npc` SET `name` = '末日騎士' WHERE `id` = 35416;
-UPDATE `npc` SET `name` = '地獄守門人' WHERE `id` = 35417;
-UPDATE `npc` SET `name` = '地獄守門人' WHERE `id` = 35418;
-UPDATE `npc` SET `name` = '海法伊斯頓', `title` = '飛龍管理員' WHERE `id` = 35419;
-UPDATE `npc` SET `name` = '流肯', `title` = '傳令' WHERE `id` = 35420;
-UPDATE `npc` SET `name` = '畢革史提夫', `title` = '執事' WHERE `id` = 35421;
-UPDATE `npc` SET `name` = '勝者旗幟' WHERE `id` = 35422;
-UPDATE `npc` SET `name` = '紅色旗幟' WHERE `id` = 35423;
-UPDATE `npc` SET `name` = '黃色旗幟' WHERE `id` = 35424;
-UPDATE `npc` SET `name` = '綠色旗幟' WHERE `id` = 35425;
-UPDATE `npc` SET `name` = '藍色旗幟' WHERE `id` = 35426;
-UPDATE `npc` SET `name` = '紫色旗幟' WHERE `id` = 35427;
-UPDATE `npc` SET `name` = '奧耶豺狼狂戰士' WHERE `id` = 35428;
-UPDATE `npc` SET `name` = '奧耶豺狼斥候兵' WHERE `id` = 35429;
-UPDATE `npc` SET `name` = '奧耶豺狼領導者' WHERE `id` = 35430;
-UPDATE `npc` SET `name` = '奧耶豺狼聖職者' WHERE `id` = 35431;
-UPDATE `npc` SET `name` = '奧耶豺狼盜賊' WHERE `id` = 35432;
-UPDATE `npc` SET `name` = '內城守門人' WHERE `id` = 35433;
-UPDATE `npc` SET `name` = '內城守門人' WHERE `id` = 35434;
-UPDATE `npc` SET `name` = '外城守門人' WHERE `id` = 35435;
-UPDATE `npc` SET `name` = '外城守門人' WHERE `id` = 35436;
-UPDATE `npc` SET `name` = '傳令' WHERE `id` = 35437;
-UPDATE `npc` SET `name` = '侍衛隊長' WHERE `id` = 35438;
-UPDATE `npc` SET `name` = '凱莉', `title` = '根據地管理員' WHERE `id` = 35439;
-UPDATE `npc` SET `name` = '丹尼爾', `title` = '根據地守門人' WHERE `id` = 35440;
-UPDATE `npc` SET `name` = '黛安娜', `title` = '根據地管理員' WHERE `id` = 35441;
-UPDATE `npc` SET `name` = '賈寇', `title` = '根據地守門人' WHERE `id` = 35442;
-UPDATE `npc` SET `name` = '克麗希', `title` = '根據地管理員' WHERE `id` = 35443;
-UPDATE `npc` SET `name` = '左夫', `title` = '根據地守門人' WHERE `id` = 35444;
-UPDATE `npc` SET `name` = '艾伯特', `title` = '根據地管理員' WHERE `id` = 35445;
-UPDATE `npc` SET `name` = '尼爾斯', `title` = '根據地守門人' WHERE `id` = 35446;
-UPDATE `npc` SET `name` = '可爾根', `title` = '根據地管理員' WHERE `id` = 35447;
-UPDATE `npc` SET `name` = '魯迪', `title` = '根據地守門人' WHERE `id` = 35448;
-UPDATE `npc` SET `name` = '地瑪吉歐', `title` = '根據地管理員' WHERE `id` = 35449;
-UPDATE `npc` SET `name` = '葛洛', `title` = '根據地守門人' WHERE `id` = 35450;
-UPDATE `npc` SET `name` = '艾瑪', `title` = '根據地管理員' WHERE `id` = 35451;
-UPDATE `npc` SET `name` = '泰歐柏德', `title` = '根據地守門人' WHERE `id` = 35452;
-UPDATE `npc` SET `name` = '艾德琳', `title` = '根據地管理員' WHERE `id` = 35453;
-UPDATE `npc` SET `name` = '羅斯肯', `title` = '根據地守門人' WHERE `id` = 35454;
-UPDATE `npc` SET `name` = '畢安卡', `title` = '根據地管理員' WHERE `id` = 35455;
-UPDATE `npc` SET `name` = '史塔特', `title` = '根據地守門人' WHERE `id` = 35456;
-UPDATE `npc` SET `name` = '格拉蒂斯', `title` = '根據地管理員' WHERE `id` = 35457;
-UPDATE `npc` SET `name` = '鐵隆', `title` = '根據地守門人' WHERE `id` = 35458;
-UPDATE `npc` SET `name` = '雷吉那', `title` = '根據地管理員' WHERE `id` = 35459;
-UPDATE `npc` SET `name` = '瑞伊', `title` = '根據地守門人' WHERE `id` = 35460;
-UPDATE `npc` SET `name` = '艾達', `title` = '根據地管理員' WHERE `id` = 35461;
-UPDATE `npc` SET `name` = '卡爾摩', `title` = '根據地守門人' WHERE `id` = 35462;
-UPDATE `npc` SET `name` = '海爾加', `title` = '根據地管理員' WHERE `id` = 35463;
-UPDATE `npc` SET `name` = '沃夫雷姆', `title` = '根據地守門人' WHERE `id` = 35464;
-UPDATE `npc` SET `name` = '米利森特', `title` = '根據地管理員' WHERE `id` = 35465;
-UPDATE `npc` SET `name` = '傑拉爾德', `title` = '根據地守門人' WHERE `id` = 35466;
-UPDATE `npc` SET `name` = '布蘭希爾德', `title` = '根據地管理員' WHERE `id` = 35467;
-UPDATE `npc` SET `name` = '藍伯特', `title` = '根據地守門人' WHERE `id` = 35468;
-UPDATE `npc` SET `name` = '聖壇' WHERE `id` = 35469;
-UPDATE `npc` SET `name` = '阿斯泰爾 班 胡爾特', `title` = '國王' WHERE `id` = 35470;
-UPDATE `npc` SET `name` = '親衛隊騎士', `title` = '魯因' WHERE `id` = 35471;
-UPDATE `npc` SET `name` = '親衛隊巫師', `title` = '魯因' WHERE `id` = 35472;
-UPDATE `npc` SET `name` = '親衛隊巫師', `title` = '魯因' WHERE `id` = 35473;
-UPDATE `npc` SET `name` = '親衛隊', `title` = '魯因' WHERE `id` = 35474;
-UPDATE `npc` SET `name` = '警衛', `title` = '魯因' WHERE `id` = 35475;
-UPDATE `npc` SET `name` = '警衛', `title` = '魯因' WHERE `id` = 35476;
-UPDATE `npc` SET `name` = '警衛', `title` = '魯因' WHERE `id` = 35477;
-UPDATE `npc` SET `name` = '警衛', `title` = '魯因' WHERE `id` = 35478;
-UPDATE `npc` SET `name` = '警衛', `title` = '魯因' WHERE `id` = 35479;
-UPDATE `npc` SET `name` = '警衛', `title` = '魯因' WHERE `id` = 35480;
-UPDATE `npc` SET `name` = '警衛', `title` = '魯因' WHERE `id` = 35481;
-UPDATE `npc` SET `name` = '警衛', `title` = '魯因' WHERE `id` = 35482;
-UPDATE `npc` SET `name` = '警衛', `title` = '魯因' WHERE `id` = 35483;
-UPDATE `npc` SET `name` = '親衛隊騎士', `title` = '魯因' WHERE `id` = 35484;
-UPDATE `npc` SET `name` = '親衛隊巫師', `title` = '魯因' WHERE `id` = 35485;
-UPDATE `npc` SET `name` = '親衛隊巫師', `title` = '魯因' WHERE `id` = 35486;
-UPDATE `npc` SET `name` = '親衛隊', `title` = '魯因' WHERE `id` = 35487;
-UPDATE `npc` SET `name` = '警衛', `title` = '魯因' WHERE `id` = 35488;
-UPDATE `npc` SET `name` = '警衛', `title` = '魯因' WHERE `id` = 35489;
-UPDATE `npc` SET `name` = '警衛', `title` = '魯因' WHERE `id` = 35490;
-UPDATE `npc` SET `name` = '警衛', `title` = '魯因' WHERE `id` = 35491;
-UPDATE `npc` SET `name` = '警衛', `title` = '魯因' WHERE `id` = 35492;
-UPDATE `npc` SET `name` = '警衛', `title` = '魯因' WHERE `id` = 35493;
-UPDATE `npc` SET `name` = '警衛', `title` = '魯因' WHERE `id` = 35494;
-UPDATE `npc` SET `name` = '警衛', `title` = '魯因' WHERE `id` = 35495;
-UPDATE `npc` SET `name` = '警衛', `title` = '魯因' WHERE `id` = 35496;
-UPDATE `npc` SET `name` = '傳送師', `title` = '魯因' WHERE `id` = 35497;
-UPDATE `npc` SET `name` = '傳送師', `title` = '魯因' WHERE `id` = 35498;
-UPDATE `npc` SET `name` = '傳送師', `title` = '魯因' WHERE `id` = 35499;
-UPDATE `npc` SET `name` = '傳送師', `title` = '魯因' WHERE `id` = 35500;
-UPDATE `npc` SET `name` = '傳送師', `title` = '魯因' WHERE `id` = 35501;
-UPDATE `npc` SET `name` = '集體傳送師', `title` = '魯因' WHERE `id` = 35502;
-UPDATE `npc` SET `name` = '外城守門人', `title` = '魯因' WHERE `id` = 35503;
-UPDATE `npc` SET `name` = '內城守門人', `title` = '魯因' WHERE `id` = 35504;
-UPDATE `npc` SET `name` = '內城守門人', `title` = '魯因' WHERE `id` = 35505;
-UPDATE `npc` SET `name` = '地下監獄守門人', `title` = '魯因' WHERE `id` = 35506;
-UPDATE `npc` SET `name` = '鐵匠', `title` = '魯因' WHERE `id` = 35507;
-UPDATE `npc` SET `name` = '倉庫管理員', `title` = '魯因' WHERE `id` = 35508;
-UPDATE `npc` SET `name` = '佛雷德利克', `title` = '侍衛隊長' WHERE `id` = 35509;
-UPDATE `npc` SET `name` = '狄特斯', `title` = '飛龍管理員' WHERE `id` = 35510;
-UPDATE `npc` SET `name` = '高姆帕斯', `title` = '傭兵管理員' WHERE `id` = 35511;
-UPDATE `npc` SET `name` = '莊園管理員', `title` = '魯因' WHERE `id` = 35512;
-UPDATE `npc` SET `name` = '西蒙斯', `title` = '傳令' WHERE `id` = 35513;
-UPDATE `npc` SET `name` = '風之聖壇' WHERE `id` = 35514;
-UPDATE `npc` SET `name` = '地之聖壇' WHERE `id` = 35515;
-UPDATE `npc` SET `name` = '維露斯', `title` = '親衛隊長' WHERE `id` = 35516;
-UPDATE `npc` SET `name` = '司維恩 肯 歐文', `title` = '伯爵' WHERE `id` = 35517;
-UPDATE `npc` SET `name` = '親衛隊騎士', `title` = '修加特' WHERE `id` = 35518;
-UPDATE `npc` SET `name` = '親衛隊巫師', `title` = '修加特' WHERE `id` = 35519;
-UPDATE `npc` SET `name` = '親衛隊巫師', `title` = '修加特' WHERE `id` = 35520;
-UPDATE `npc` SET `name` = '親衛隊', `title` = '修加特' WHERE `id` = 35521;
-UPDATE `npc` SET `name` = '警衛', `title` = '修加特' WHERE `id` = 35522;
-UPDATE `npc` SET `name` = '警衛', `title` = '修加特' WHERE `id` = 35523;
-UPDATE `npc` SET `name` = '警衛', `title` = '修加特' WHERE `id` = 35524;
-UPDATE `npc` SET `name` = '警衛', `title` = '修加特' WHERE `id` = 35525;
-UPDATE `npc` SET `name` = '警衛', `title` = '修加特' WHERE `id` = 35526;
-UPDATE `npc` SET `name` = '警衛', `title` = '修加特' WHERE `id` = 35527;
-UPDATE `npc` SET `name` = '警衛', `title` = '修加特' WHERE `id` = 35528;
-UPDATE `npc` SET `name` = '警衛', `title` = '修加特' WHERE `id` = 35529;
-UPDATE `npc` SET `name` = '警衛', `title` = '修加特' WHERE `id` = 35530;
-UPDATE `npc` SET `name` = '親衛隊騎士', `title` = '修加特' WHERE `id` = 35531;
-UPDATE `npc` SET `name` = '親衛隊巫師', `title` = '修加特' WHERE `id` = 35532;
-UPDATE `npc` SET `name` = '親衛隊巫師', `title` = '修加特' WHERE `id` = 35533;
-UPDATE `npc` SET `name` = '親衛隊', `title` = '修加特' WHERE `id` = 35534;
-UPDATE `npc` SET `name` = '警衛', `title` = '修加特' WHERE `id` = 35535;
-UPDATE `npc` SET `name` = '警衛', `title` = '修加特' WHERE `id` = 35536;
-UPDATE `npc` SET `name` = '警衛', `title` = '修加特' WHERE `id` = 35537;
-UPDATE `npc` SET `name` = '警衛', `title` = '修加特' WHERE `id` = 35538;
-UPDATE `npc` SET `name` = '警衛', `title` = '修加特' WHERE `id` = 35539;
-UPDATE `npc` SET `name` = '警衛', `title` = '修加特' WHERE `id` = 35540;
-UPDATE `npc` SET `name` = '警衛', `title` = '修加特' WHERE `id` = 35541;
-UPDATE `npc` SET `name` = '警衛', `title` = '修加特' WHERE `id` = 35542;
-UPDATE `npc` SET `name` = '警衛', `title` = '修加特' WHERE `id` = 35543;
-UPDATE `npc` SET `name` = '傳送師', `title` = '修加特' WHERE `id` = 35544;
-UPDATE `npc` SET `name` = '傳送師', `title` = '修加特' WHERE `id` = 35545;
-UPDATE `npc` SET `name` = '傳送師', `title` = '修加特' WHERE `id` = 35546;
-UPDATE `npc` SET `name` = '集體傳送師', `title` = '修加特' WHERE `id` = 35547;
-UPDATE `npc` SET `name` = '外城守門人', `title` = '修加特' WHERE `id` = 35548;
-UPDATE `npc` SET `name` = '內城守門人', `title` = '修加特' WHERE `id` = 35549;
-UPDATE `npc` SET `name` = '內城守門人', `title` = '修加特' WHERE `id` = 35550;
-UPDATE `npc` SET `name` = '守門人', `title` = '修加特' WHERE `id` = 35551;
-UPDATE `npc` SET `name` = '守門人', `title` = '修加特' WHERE `id` = 35552;
-UPDATE `npc` SET `name` = '鐵匠', `title` = '修加特' WHERE `id` = 35553;
-UPDATE `npc` SET `name` = '倉庫管理員', `title` = '修加特' WHERE `id` = 35554;
-UPDATE `npc` SET `name` = '奧古斯都', `title` = '侍衛隊長' WHERE `id` = 35555;
-UPDATE `npc` SET `name` = '加利克', `title` = '飛龍管理員' WHERE `id` = 35556;
-UPDATE `npc` SET `name` = '肯德列', `title` = '傭兵管理員' WHERE `id` = 35557;
-UPDATE `npc` SET `name` = '莊園管理員', `title` = '修加特' WHERE `id` = 35558;
-UPDATE `npc` SET `name` = '達格利', `title` = '傳令' WHERE `id` = 35559;
-UPDATE `npc` SET `name` = '集體傳送師' WHERE `id` = 35560;
-UPDATE `npc` SET `name` = '集體傳送師' WHERE `id` = 35561;
-UPDATE `npc` SET `name` = '集體傳送師' WHERE `id` = 35562;
-UPDATE `npc` SET `name` = '集體傳送師' WHERE `id` = 35563;
-UPDATE `npc` SET `name` = '集體傳送師' WHERE `id` = 35564;
-UPDATE `npc` SET `name` = '集體傳送師' WHERE `id` = 35565;
-UPDATE `npc` SET `name` = '羅納度', `title` = '根據地管理員' WHERE `id` = 35566;
-UPDATE `npc` SET `name` = '艾米爾', `title` = '根據地守門人' WHERE `id` = 35567;
-UPDATE `npc` SET `name` = '偉恩', `title` = '根據地管理員' WHERE `id` = 35568;
-UPDATE `npc` SET `name` = '塔尼爾', `title` = '根據地守門人' WHERE `id` = 35569;
-UPDATE `npc` SET `name` = '派蒂', `title` = '根據地管理員' WHERE `id` = 35570;
-UPDATE `npc` SET `name` = '戴爾', `title` = '根據地守門人' WHERE `id` = 35571;
-UPDATE `npc` SET `name` = '吉米', `title` = '根據地管理員' WHERE `id` = 35572;
-UPDATE `npc` SET `name` = '霜', `title` = '根據地守門人' WHERE `id` = 35573;
-UPDATE `npc` SET `name` = '米卡艾爾', `title` = '根據地管理員' WHERE `id` = 35574;
-UPDATE `npc` SET `name` = '萊恩', `title` = '根據地守門人' WHERE `id` = 35575;
-UPDATE `npc` SET `name` = '加格斯', `title` = '根據地管理員' WHERE `id` = 35576;
-UPDATE `npc` SET `name` = '海利', `title` = '根據地守門人' WHERE `id` = 35577;
-UPDATE `npc` SET `name` = '卡魯特', `title` = '根據地管理員' WHERE `id` = 35578;
-UPDATE `npc` SET `name` = '艾根', `title` = '根據地守門人' WHERE `id` = 35579;
-UPDATE `npc` SET `name` = '卡雷爾', `title` = '根據地管理員' WHERE `id` = 35580;
-UPDATE `npc` SET `name` = '歐修', `title` = '根據地守門人' WHERE `id` = 35581;
-UPDATE `npc` SET `name` = '史坦利', `title` = '根據地管理員' WHERE `id` = 35582;
-UPDATE `npc` SET `name` = '瓦特', `title` = '根據地守門人' WHERE `id` = 35583;
-UPDATE `npc` SET `name` = '比利', `title` = '根據地管理員' WHERE `id` = 35584;
-UPDATE `npc` SET `name` = '艾莉絲', `title` = '根據地守門人' WHERE `id` = 35585;
-UPDATE `npc` SET `name` = '紗麗娜', `title` = '根據地管理員' WHERE `id` = 35586;
-UPDATE `npc` SET `name` = '奈莉亞', `title` = '根據地守門人' WHERE `id` = 35587;
-UPDATE `npc` SET `name` = '溫泉葫蘆' WHERE `id` = 35588;
-UPDATE `npc` SET `name` = '溫泉葫蘆' WHERE `id` = 35589;
-UPDATE `npc` SET `name` = '溫泉葫蘆' WHERE `id` = 35590;
-UPDATE `npc` SET `name` = '溫泉葫蘆' WHERE `id` = 35591;
-UPDATE `npc` SET `name` = '凶惡的雪人' WHERE `id` = 35592;
-UPDATE `npc` SET `name` = '寶箱' WHERE `id` = 35593;
-UPDATE `npc` SET `name` = '寶箱' WHERE `id` = 35594;
-UPDATE `npc` SET `name` = '寶箱' WHERE `id` = 35595;
-UPDATE `npc` SET `name` = '溫泉浴場雪人', `title` = '進行者' WHERE `id` = 35596;
-UPDATE `npc` SET `name` = '溫泉浴場雪人', `title` = '進行者' WHERE `id` = 35597;
-UPDATE `npc` SET `name` = '溫泉浴場雪人', `title` = '進行者' WHERE `id` = 35598;
-UPDATE `npc` SET `name` = '溫泉浴場雪人', `title` = '進行者' WHERE `id` = 35599;
-UPDATE `npc` SET `name` = '管理員' WHERE `id` = 35600;
-UPDATE `npc` SET `name` = '守門人' WHERE `id` = 35601;
-UPDATE `npc` SET `name` = '守門人' WHERE `id` = 35602;
-UPDATE `npc` SET `name` = '入場管理員' WHERE `id` = 35603;
-UPDATE `npc` SET `name` = '傳令' WHERE `id` = 35604;
-UPDATE `npc` SET `name` = '安格特', `title` = '執事' WHERE `id` = 35605;
-UPDATE `npc` SET `name` = '優勝者旗幟' WHERE `id` = 35606;
-UPDATE `npc` SET `name` = '紅色旗幟' WHERE `id` = 35607;
-UPDATE `npc` SET `name` = '黃色旗幟' WHERE `id` = 35608;
-UPDATE `npc` SET `name` = '綠色旗幟' WHERE `id` = 35609;
-UPDATE `npc` SET `name` = '藍色旗幟' WHERE `id` = 35610;
-UPDATE `npc` SET `name` = '紫色旗幟' WHERE `id` = 35611;
-UPDATE `npc` SET `name` = '集體傳送師' WHERE `id` = 35612;
-UPDATE `npc` SET `name` = '集體傳送師' WHERE `id` = 35613;
-UPDATE `npc` SET `name` = '集體傳送師' WHERE `id` = 35614;
-UPDATE `npc` SET `name` = '集體傳送師' WHERE `id` = 35615;
-UPDATE `npc` SET `name` = '集體傳送師' WHERE `id` = 35616;
-UPDATE `npc` SET `name` = '集體傳送師' WHERE `id` = 35617;
-UPDATE `npc` SET `name` = '凶暴老虎' WHERE `id` = 35618;
-UPDATE `npc` SET `name` = '凶暴野牛' WHERE `id` = 35619;
-UPDATE `npc` SET `name` = '凶暴笑翠鳥' WHERE `id` = 35620;
-UPDATE `npc` SET `name` = '凶暴小野牛' WHERE `id` = 35621;
-UPDATE `npc` SET `name` = '凶暴小老虎' WHERE `id` = 35622;
-UPDATE `npc` SET `name` = '內城守門人' WHERE `id` = 35623;
-UPDATE `npc` SET `name` = '內城守門人' WHERE `id` = 35624;
-UPDATE `npc` SET `name` = '外城守門人' WHERE `id` = 35625;
-UPDATE `npc` SET `name` = '外城守門人' WHERE `id` = 35626;
-UPDATE `npc` SET `name` = '傳令' WHERE `id` = 35627;
-UPDATE `npc` SET `name` = '奎比亞', `title` = '農場管理員' WHERE `id` = 35628;
-UPDATE `npc` SET `name` = '莉迪亞 潘 哈曼' WHERE `id` = 35629;
-UPDATE `npc` SET `name` = '艾佛瑞德 潘 哈曼' WHERE `id` = 35630;
-UPDATE `npc` SET `name` = '吉賽爾 潘 哈曼' WHERE `id` = 35631;
-UPDATE `npc` SET `name` = '吸血鬼咒術士' WHERE `id` = 35632;
-UPDATE `npc` SET `name` = '吸血鬼士兵' WHERE `id` = 35633;
-UPDATE `npc` SET `name` = '吸血鬼射手' WHERE `id` = 35634;
-UPDATE `npc` SET `name` = '吸血鬼魔導士' WHERE `id` = 35635;
-UPDATE `npc` SET `name` = '吸血鬼戰將' WHERE `id` = 35636;
-UPDATE `npc` SET `name` = '吸血鬼首領' WHERE `id` = 35637;
-UPDATE `npc` SET `name` = '巴倫斯', `title` = '飛龍管理員' WHERE `id` = 35638;
-UPDATE `npc` SET `name` = '傑卡德', `title` = '傳令' WHERE `id` = 35639;
-UPDATE `npc` SET `name` = '凡德羅', `title` = '執事' WHERE `id` = 35640;
-UPDATE `npc` SET `name` = '要塞守門人' WHERE `id` = 35641;
-UPDATE `npc` SET `name` = '要塞守門人' WHERE `id` = 35642;
-UPDATE `npc` SET `name` = '門' WHERE `id` = 35643;
-UPDATE `npc` SET `name` = '莊園管理員', `title` = '修加特' WHERE `id` = 35644;
-UPDATE `npc` SET `name` = '莊園管理員', `title` = '修加特' WHERE `id` = 35645;
-UPDATE `npc` SET `name` = '吸血鬼射手' WHERE `id` = 35646;
-UPDATE `npc` SET `name` = '吸血鬼領導者' WHERE `id` = 35647;
-UPDATE `npc` SET `name` = '宮廷魔法師', `title` = '古魯丁' WHERE `id` = 35648;
-UPDATE `npc` SET `name` = '宮廷魔法師', `title` = '狄恩' WHERE `id` = 35649;
-UPDATE `npc` SET `name` = '宮廷魔法師', `title` = '奇岩' WHERE `id` = 35650;
-UPDATE `npc` SET `name` = '宮廷魔法師', `title` = '歐瑞' WHERE `id` = 35651;
-UPDATE `npc` SET `name` = '宮廷魔法師', `title` = '亞丁' WHERE `id` = 35652;
-UPDATE `npc` SET `name` = '宮廷魔法師', `title` = '因納得立' WHERE `id` = 35653;
-UPDATE `npc` SET `name` = '宮廷魔法師', `title` = '高達特' WHERE `id` = 35654;
-UPDATE `npc` SET `name` = '宮廷魔法師', `title` = '魯因' WHERE `id` = 35655;
-UPDATE `npc` SET `name` = '宮廷魔法師', `title` = '修加特' WHERE `id` = 35656;
-UPDATE `npc` SET `name` = '旗桿' WHERE `id` = 35657;
-UPDATE `npc` SET `name` = '監督官', `title` = '野營要塞' WHERE `id` = 35658;
-UPDATE `npc` SET `name` = '可疑的商人', `title` = '野營要塞' WHERE `id` = 35659;
-UPDATE `npc` SET `name` = '守備隊長', `title` = '野營要塞' WHERE `id` = 35660;
-UPDATE `npc` SET `name` = '弓兵隊長', `title` = '野營要塞' WHERE `id` = 35661;
-UPDATE `npc` SET `name` = '支援隊長', `title` = '野營要塞' WHERE `id` = 35662;
-UPDATE `npc` SET `name` = '工兵隊管理員', `title` = '野營要塞' WHERE `id` = 35663;
-UPDATE `npc` SET `name` = '補給整備官', `title` = '野營要塞' WHERE `id` = 35664;
-UPDATE `npc` SET `name` = '寶物箱子' WHERE `id` = 35665;
-UPDATE `npc` SET `name` = '收容所管理人', `title` = '野營要塞' WHERE `id` = 35666;
-UPDATE `npc` SET `name` = '守門人' WHERE `id` = 35667;
-UPDATE `npc` SET `name` = '守門人' WHERE `id` = 35668;
-UPDATE `npc` SET `name` = '守門人' WHERE `id` = 35669;
-UPDATE `npc` SET `name` = '叛亂軍隊長', `title` = '野營要塞' WHERE `id` = 35670;
-UPDATE `npc` SET `name` = '叛亂軍精銳兵', `title` = '野營要塞' WHERE `id` = 35671;
-UPDATE `npc` SET `name` = '叛亂軍士兵', `title` = '野營要塞' WHERE `id` = 35672;
-UPDATE `npc` SET `name` = '禁衛兵', `title` = '野營要塞' WHERE `id` = 35673;
-UPDATE `npc` SET `name` = '護衛兵', `title` = '野營要塞' WHERE `id` = 35674;
-UPDATE `npc` SET `name` = '電力控制裝置', `title` = '控制室' WHERE `id` = 35675;
-UPDATE `npc` SET `name` = '砲兵矮人' WHERE `id` = 35676;
-UPDATE `npc` SET `name` = '守備隊長', `title` = '守備隊' WHERE `id` = 35677;
-UPDATE `npc` SET `name` = '守備隊員', `title` = '守備隊' WHERE `id` = 35678;
-UPDATE `npc` SET `name` = '守備隊員', `title` = '守備隊' WHERE `id` = 35679;
-UPDATE `npc` SET `name` = '支援隊長', `title` = '支援隊' WHERE `id` = 35680;
-UPDATE `npc` SET `name` = '巫師', `title` = '支援隊' WHERE `id` = 35681;
-UPDATE `npc` SET `name` = '牧師', `title` = '支援隊' WHERE `id` = 35682;
-UPDATE `npc` SET `name` = '弓兵隊長', `title` = '弓兵隊' WHERE `id` = 35683;
-UPDATE `npc` SET `name` = '弓兵隊員', `title` = '弓兵隊' WHERE `id` = 35684;
-UPDATE `npc` SET `name` = '弩砲', `title` = '野營要塞' WHERE `id` = 35685;
-UPDATE `npc` SET `name` = '傭兵隊隊長' WHERE `id` = 35686;
-UPDATE `npc` SET `name` = '傭兵隊士兵' WHERE `id` = 35687;
-UPDATE `npc` SET `name` = '旗桿' WHERE `id` = 35688;
-UPDATE `npc` SET `name` = '監督官', `title` = '古魯丁南部要塞' WHERE `id` = 35689;
-UPDATE `npc` SET `name` = '可疑的商人', `title` = '古魯丁南部要塞' WHERE `id` = 35690;
-UPDATE `npc` SET `name` = '守備隊長', `title` = '古魯丁南部要塞' WHERE `id` = 35691;
-UPDATE `npc` SET `name` = '弓兵隊長', `title` = '古魯丁南部要塞' WHERE `id` = 35692;
-UPDATE `npc` SET `name` = '將軍', `title` = '古魯丁南部要塞' WHERE `id` = 35693;
-UPDATE `npc` SET `name` = '支援隊長', `title` = '古魯丁南部要塞' WHERE `id` = 35694;
-UPDATE `npc` SET `name` = '工兵隊管理員', `title` = '古魯丁南部要塞' WHERE `id` = 35695;
-UPDATE `npc` SET `name` = '補給整備官', `title` = '古魯丁南部要塞' WHERE `id` = 35696;
-UPDATE `npc` SET `name` = '寶物箱子' WHERE `id` = 35697;
-UPDATE `npc` SET `name` = '收容所管理人', `title` = '古魯丁南部要塞' WHERE `id` = 35698;
-UPDATE `npc` SET `name` = '守門人' WHERE `id` = 35699;
-UPDATE `npc` SET `name` = '守門人' WHERE `id` = 35700;
-UPDATE `npc` SET `name` = '守門人' WHERE `id` = 35701;
-UPDATE `npc` SET `name` = '叛亂軍隊長', `title` = '古魯丁南部要塞' WHERE `id` = 35702;
-UPDATE `npc` SET `name` = '叛亂軍精銳兵', `title` = '古魯丁南部要塞' WHERE `id` = 35703;
-UPDATE `npc` SET `name` = '叛亂軍士兵', `title` = '古魯丁南部要塞' WHERE `id` = 35704;
-UPDATE `npc` SET `name` = '禁衛兵', `title` = '古魯丁南部要塞' WHERE `id` = 35705;
-UPDATE `npc` SET `name` = '護衛兵', `title` = '古魯丁南部要塞' WHERE `id` = 35706;
-UPDATE `npc` SET `name` = '主機械裝置', `title` = '控制室' WHERE `id` = 35707;
-UPDATE `npc` SET `name` = '輔助電力裝置', `title` = '控制室' WHERE `id` = 35708;
-UPDATE `npc` SET `name` = '控制裝置', `title` = '控制室' WHERE `id` = 35709;
-UPDATE `npc` SET `name` = '電力控制裝置', `title` = '控制室' WHERE `id` = 35710;
-UPDATE `npc` SET `name` = '砲兵矮人' WHERE `id` = 35711;
-UPDATE `npc` SET `name` = '偵查高崙', `title` = '控制室' WHERE `id` = 35712;
-UPDATE `npc` SET `name` = '守備隊長', `title` = '守備隊' WHERE `id` = 35713;
-UPDATE `npc` SET `name` = '守備隊員', `title` = '守備隊' WHERE `id` = 35714;
-UPDATE `npc` SET `name` = '守備隊員', `title` = '守備隊' WHERE `id` = 35715;
-UPDATE `npc` SET `name` = '支援隊長', `title` = '支援隊' WHERE `id` = 35716;
-UPDATE `npc` SET `name` = '巫師', `title` = '支援隊' WHERE `id` = 35717;
-UPDATE `npc` SET `name` = '牧師', `title` = '支援隊' WHERE `id` = 35718;
-UPDATE `npc` SET `name` = '弓兵隊長', `title` = '弓兵隊' WHERE `id` = 35719;
-UPDATE `npc` SET `name` = '弓兵隊員', `title` = '弓兵隊' WHERE `id` = 35720;
-UPDATE `npc` SET `name` = '將軍', `title` = '將官幕舍' WHERE `id` = 35721;
-UPDATE `npc` SET `name` = '將官', `title` = '將官幕舍' WHERE `id` = 35722;
-UPDATE `npc` SET `name` = '弩砲', `title` = '古魯丁南部要塞' WHERE `id` = 35723;
-UPDATE `npc` SET `name` = '傭兵隊隊長' WHERE `id` = 35724;
-UPDATE `npc` SET `name` = '傭兵隊士兵' WHERE `id` = 35725;
-UPDATE `npc` SET `name` = '旗桿' WHERE `id` = 35726;
-UPDATE `npc` SET `name` = '監督官', `title` = '蜂窩要塞' WHERE `id` = 35727;
-UPDATE `npc` SET `name` = '可疑的商人', `title` = '蜂窩要塞' WHERE `id` = 35728;
-UPDATE `npc` SET `name` = '守備隊長', `title` = '蜂窩要塞' WHERE `id` = 35729;
-UPDATE `npc` SET `name` = '弓兵隊長', `title` = '蜂窩要塞' WHERE `id` = 35730;
-UPDATE `npc` SET `name` = '支援隊長', `title` = '蜂窩要塞' WHERE `id` = 35731;
-UPDATE `npc` SET `name` = '工兵隊管理員', `title` = '蜂窩要塞' WHERE `id` = 35732;
-UPDATE `npc` SET `name` = '補給整備官', `title` = '蜂窩要塞' WHERE `id` = 35733;
-UPDATE `npc` SET `name` = '寶物箱子' WHERE `id` = 35734;
-UPDATE `npc` SET `name` = '收容所管理人', `title` = '蜂窩要塞' WHERE `id` = 35735;
-UPDATE `npc` SET `name` = '守門人' WHERE `id` = 35736;
-UPDATE `npc` SET `name` = '守門人' WHERE `id` = 35737;
-UPDATE `npc` SET `name` = '守門人' WHERE `id` = 35738;
-UPDATE `npc` SET `name` = '叛亂軍隊長', `title` = '蜂窩要塞' WHERE `id` = 35739;
-UPDATE `npc` SET `name` = '叛亂軍精銳兵', `title` = '蜂窩要塞' WHERE `id` = 35740;
-UPDATE `npc` SET `name` = '叛亂軍士兵', `title` = '蜂窩要塞' WHERE `id` = 35741;
-UPDATE `npc` SET `name` = '禁衛兵', `title` = '蜂窩要塞' WHERE `id` = 35742;
-UPDATE `npc` SET `name` = '護衛兵', `title` = '蜂窩要塞' WHERE `id` = 35743;
-UPDATE `npc` SET `name` = '電力控制裝置', `title` = '控制室' WHERE `id` = 35744;
-UPDATE `npc` SET `name` = '砲兵矮人' WHERE `id` = 35745;
-UPDATE `npc` SET `name` = '守備隊長', `title` = '守備隊' WHERE `id` = 35746;
-UPDATE `npc` SET `name` = '守備隊員', `title` = '守備隊' WHERE `id` = 35747;
-UPDATE `npc` SET `name` = '守備隊員', `title` = '守備隊' WHERE `id` = 35748;
-UPDATE `npc` SET `name` = '支援隊長', `title` = '支援隊' WHERE `id` = 35749;
-UPDATE `npc` SET `name` = '巫師', `title` = '支援隊' WHERE `id` = 35750;
-UPDATE `npc` SET `name` = '牧師', `title` = '支援隊' WHERE `id` = 35751;
-UPDATE `npc` SET `name` = '弓兵隊長', `title` = '弓兵隊' WHERE `id` = 35752;
-UPDATE `npc` SET `name` = '弓兵隊員', `title` = '弓兵隊' WHERE `id` = 35753;
-UPDATE `npc` SET `name` = '弩砲', `title` = '蜂窩要塞' WHERE `id` = 35754;
-UPDATE `npc` SET `name` = '傭兵隊隊長' WHERE `id` = 35755;
-UPDATE `npc` SET `name` = '傭兵隊士兵' WHERE `id` = 35756;
-UPDATE `npc` SET `name` = '旗桿' WHERE `id` = 35757;
-UPDATE `npc` SET `name` = '監督官', `title` = '峽谷要塞' WHERE `id` = 35758;
-UPDATE `npc` SET `name` = '可疑的商人', `title` = '峽谷要塞' WHERE `id` = 35759;
-UPDATE `npc` SET `name` = '守備隊長', `title` = '峽谷要塞' WHERE `id` = 35760;
-UPDATE `npc` SET `name` = '弓兵隊長', `title` = '峽谷要塞' WHERE `id` = 35761;
-UPDATE `npc` SET `name` = '將軍', `title` = '峽谷要塞' WHERE `id` = 35762;
-UPDATE `npc` SET `name` = '支援隊長', `title` = '峽谷要塞' WHERE `id` = 35763;
-UPDATE `npc` SET `name` = '工兵隊管理員', `title` = '峽谷要塞' WHERE `id` = 35764;
-UPDATE `npc` SET `name` = '補給整備官', `title` = '峽谷要塞' WHERE `id` = 35765;
-UPDATE `npc` SET `name` = '寶物箱子' WHERE `id` = 35766;
-UPDATE `npc` SET `name` = '收容所管理人', `title` = '峽谷要塞' WHERE `id` = 35767;
-UPDATE `npc` SET `name` = '守門人' WHERE `id` = 35768;
-UPDATE `npc` SET `name` = '守門人' WHERE `id` = 35769;
-UPDATE `npc` SET `name` = '守門人' WHERE `id` = 35770;
-UPDATE `npc` SET `name` = '叛亂軍隊長', `title` = '峽谷要塞' WHERE `id` = 35771;
-UPDATE `npc` SET `name` = '叛亂軍精銳兵', `title` = '峽谷要塞' WHERE `id` = 35772;
-UPDATE `npc` SET `name` = '叛亂軍士兵', `title` = '峽谷要塞' WHERE `id` = 35773;
-UPDATE `npc` SET `name` = '禁衛兵', `title` = '峽谷要塞' WHERE `id` = 35774;
-UPDATE `npc` SET `name` = '護衛兵', `title` = '峽谷要塞' WHERE `id` = 35775;
-UPDATE `npc` SET `name` = '主機械裝置', `title` = '控制室' WHERE `id` = 35776;
-UPDATE `npc` SET `name` = '輔助電力裝置', `title` = '控制室' WHERE `id` = 35777;
-UPDATE `npc` SET `name` = '控制裝置', `title` = '控制室' WHERE `id` = 35778;
-UPDATE `npc` SET `name` = '電力控制裝置', `title` = '控制室' WHERE `id` = 35779;
-UPDATE `npc` SET `name` = '砲兵矮人' WHERE `id` = 35780;
-UPDATE `npc` SET `name` = '偵查高崙', `title` = '控制室' WHERE `id` = 35781;
-UPDATE `npc` SET `name` = '守備隊長', `title` = '守備隊' WHERE `id` = 35782;
-UPDATE `npc` SET `name` = '守備隊員', `title` = '守備隊' WHERE `id` = 35783;
-UPDATE `npc` SET `name` = '守備隊員', `title` = '守備隊' WHERE `id` = 35784;
-UPDATE `npc` SET `name` = '支援隊長', `title` = '支援隊' WHERE `id` = 35785;
-UPDATE `npc` SET `name` = '巫師', `title` = '支援隊' WHERE `id` = 35786;
-UPDATE `npc` SET `name` = '牧師', `title` = '支援隊' WHERE `id` = 35787;
-UPDATE `npc` SET `name` = '弓兵隊長', `title` = '弓兵隊' WHERE `id` = 35788;
-UPDATE `npc` SET `name` = '弓兵隊員', `title` = '弓兵隊' WHERE `id` = 35789;
-UPDATE `npc` SET `name` = '將軍', `title` = '將官幕舍' WHERE `id` = 35790;
-UPDATE `npc` SET `name` = '將官', `title` = '將官幕舍' WHERE `id` = 35791;
-UPDATE `npc` SET `name` = '弩砲', `title` = '峽谷要塞' WHERE `id` = 35792;
-UPDATE `npc` SET `name` = '傭兵隊隊長' WHERE `id` = 35793;
-UPDATE `npc` SET `name` = '傭兵隊士兵' WHERE `id` = 35794;
-UPDATE `npc` SET `name` = '旗桿' WHERE `id` = 35795;
-UPDATE `npc` SET `name` = '監督官', `title` = '象牙塔要塞' WHERE `id` = 35796;
-UPDATE `npc` SET `name` = '可疑的商人', `title` = '象牙塔要塞' WHERE `id` = 35797;
-UPDATE `npc` SET `name` = '守備隊長', `title` = '象牙塔要塞' WHERE `id` = 35798;
-UPDATE `npc` SET `name` = '弓兵隊長', `title` = '象牙塔要塞' WHERE `id` = 35799;
-UPDATE `npc` SET `name` = '支援隊長', `title` = '象牙塔要塞' WHERE `id` = 35800;
-UPDATE `npc` SET `name` = '工兵隊管理員', `title` = '象牙塔要塞' WHERE `id` = 35801;
-UPDATE `npc` SET `name` = '補給整備官', `title` = '象牙塔要塞' WHERE `id` = 35802;
-UPDATE `npc` SET `name` = '寶物箱子' WHERE `id` = 35803;
-UPDATE `npc` SET `name` = '收容所管理人', `title` = '象牙塔要塞' WHERE `id` = 35804;
-UPDATE `npc` SET `name` = '守門人' WHERE `id` = 35805;
-UPDATE `npc` SET `name` = '守門人' WHERE `id` = 35806;
-UPDATE `npc` SET `name` = '守門人' WHERE `id` = 35807;
-UPDATE `npc` SET `name` = '叛亂軍隊長', `title` = '象牙塔要塞' WHERE `id` = 35808;
-UPDATE `npc` SET `name` = '叛亂軍精銳兵', `title` = '象牙塔要塞' WHERE `id` = 35809;
-UPDATE `npc` SET `name` = '叛亂軍士兵', `title` = '象牙塔要塞' WHERE `id` = 35810;
-UPDATE `npc` SET `name` = '禁衛兵', `title` = '象牙塔要塞' WHERE `id` = 35811;
-UPDATE `npc` SET `name` = '護衛兵', `title` = '象牙塔要塞' WHERE `id` = 35812;
-UPDATE `npc` SET `name` = '電力控制裝置', `title` = '控制室' WHERE `id` = 35813;
-UPDATE `npc` SET `name` = '砲兵矮人' WHERE `id` = 35814;
-UPDATE `npc` SET `name` = '守備隊長', `title` = '守備隊' WHERE `id` = 35815;
-UPDATE `npc` SET `name` = '守備隊員', `title` = '守備隊' WHERE `id` = 35816;
-UPDATE `npc` SET `name` = '守備隊員', `title` = '守備隊' WHERE `id` = 35817;
-UPDATE `npc` SET `name` = '支援隊長', `title` = '支援隊' WHERE `id` = 35818;
-UPDATE `npc` SET `name` = '巫師', `title` = '支援隊' WHERE `id` = 35819;
-UPDATE `npc` SET `name` = '牧師', `title` = '支援隊' WHERE `id` = 35820;
-UPDATE `npc` SET `name` = '弓兵隊長', `title` = '弓兵隊' WHERE `id` = 35821;
-UPDATE `npc` SET `name` = '弓兵隊員', `title` = '弓兵隊' WHERE `id` = 35822;
-UPDATE `npc` SET `name` = '弩砲', `title` = '象牙塔要塞' WHERE `id` = 35823;
-UPDATE `npc` SET `name` = '傭兵隊隊長' WHERE `id` = 35824;
-UPDATE `npc` SET `name` = '傭兵隊士兵' WHERE `id` = 35825;
-UPDATE `npc` SET `name` = '旗桿' WHERE `id` = 35826;
-UPDATE `npc` SET `name` = '監督官', `title` = '湖泊要塞' WHERE `id` = 35827;
-UPDATE `npc` SET `name` = '可疑的商人', `title` = '湖泊要塞' WHERE `id` = 35828;
-UPDATE `npc` SET `name` = '守備隊長', `title` = '湖泊要塞' WHERE `id` = 35829;
-UPDATE `npc` SET `name` = '弓兵隊長', `title` = '湖泊要塞' WHERE `id` = 35830;
-UPDATE `npc` SET `name` = '支援隊長', `title` = '湖泊要塞' WHERE `id` = 35831;
-UPDATE `npc` SET `name` = '工兵隊管理員', `title` = '湖泊要塞' WHERE `id` = 35832;
-UPDATE `npc` SET `name` = '補給整備官', `title` = '湖泊要塞' WHERE `id` = 35833;
-UPDATE `npc` SET `name` = '寶物箱子' WHERE `id` = 35834;
-UPDATE `npc` SET `name` = '收容所管理人', `title` = '湖泊要塞' WHERE `id` = 35835;
-UPDATE `npc` SET `name` = '守門人' WHERE `id` = 35836;
-UPDATE `npc` SET `name` = '守門人' WHERE `id` = 35837;
-UPDATE `npc` SET `name` = '守門人' WHERE `id` = 35838;
-UPDATE `npc` SET `name` = '叛亂軍隊長', `title` = '湖泊要塞' WHERE `id` = 35839;
-UPDATE `npc` SET `name` = '叛亂軍精銳兵', `title` = '湖泊要塞' WHERE `id` = 35840;
-UPDATE `npc` SET `name` = '叛亂軍士兵', `title` = '湖泊要塞' WHERE `id` = 35841;
-UPDATE `npc` SET `name` = '禁衛兵', `title` = '湖泊要塞' WHERE `id` = 35842;
-UPDATE `npc` SET `name` = '護衛兵', `title` = '湖泊要塞' WHERE `id` = 35843;
-UPDATE `npc` SET `name` = '電力控制裝置', `title` = '控制室' WHERE `id` = 35844;
-UPDATE `npc` SET `name` = '砲兵矮人' WHERE `id` = 35845;
-UPDATE `npc` SET `name` = '守備隊長', `title` = '守備隊' WHERE `id` = 35846;
-UPDATE `npc` SET `name` = '守備隊員', `title` = '守備隊' WHERE `id` = 35847;
-UPDATE `npc` SET `name` = '守備隊員', `title` = '守備隊' WHERE `id` = 35848;
-UPDATE `npc` SET `name` = '支援隊長', `title` = '支援隊' WHERE `id` = 35849;
-UPDATE `npc` SET `name` = '巫師', `title` = '支援隊' WHERE `id` = 35850;
-UPDATE `npc` SET `name` = '牧師', `title` = '支援隊' WHERE `id` = 35851;
-UPDATE `npc` SET `name` = '弓兵隊長', `title` = '弓兵隊' WHERE `id` = 35852;
-UPDATE `npc` SET `name` = '弓兵隊員', `title` = '弓兵隊' WHERE `id` = 35853;
-UPDATE `npc` SET `name` = '弩砲', `title` = '湖泊要塞' WHERE `id` = 35854;
-UPDATE `npc` SET `name` = '傭兵隊隊長' WHERE `id` = 35855;
-UPDATE `npc` SET `name` = '傭兵隊士兵' WHERE `id` = 35856;
-UPDATE `npc` SET `name` = '旗桿' WHERE `id` = 35857;
-UPDATE `npc` SET `name` = '監督官', `title` = '盆地要塞' WHERE `id` = 35858;
-UPDATE `npc` SET `name` = '可疑的商人', `title` = '盆地要塞' WHERE `id` = 35859;
-UPDATE `npc` SET `name` = '守備隊長', `title` = '盆地要塞' WHERE `id` = 35860;
-UPDATE `npc` SET `name` = '弓兵隊長', `title` = '盆地要塞' WHERE `id` = 35861;
-UPDATE `npc` SET `name` = '將軍', `title` = '盆地要塞' WHERE `id` = 35862;
-UPDATE `npc` SET `name` = '支援隊長', `title` = '盆地要塞' WHERE `id` = 35863;
-UPDATE `npc` SET `name` = '工兵隊管理員', `title` = '盆地要塞' WHERE `id` = 35864;
-UPDATE `npc` SET `name` = '補給整備官', `title` = '盆地要塞' WHERE `id` = 35865;
-UPDATE `npc` SET `name` = '寶物箱子' WHERE `id` = 35866;
-UPDATE `npc` SET `name` = '收容所管理人', `title` = '盆地要塞' WHERE `id` = 35867;
-UPDATE `npc` SET `name` = '守門人' WHERE `id` = 35868;
-UPDATE `npc` SET `name` = '守門人' WHERE `id` = 35869;
-UPDATE `npc` SET `name` = '守門人' WHERE `id` = 35870;
-UPDATE `npc` SET `name` = '叛亂軍隊長', `title` = '盆地要塞' WHERE `id` = 35871;
-UPDATE `npc` SET `name` = '叛亂軍精銳兵', `title` = '盆地要塞' WHERE `id` = 35872;
-UPDATE `npc` SET `name` = '叛亂軍士兵', `title` = '盆地要塞' WHERE `id` = 35873;
-UPDATE `npc` SET `name` = '禁衛兵', `title` = '盆地要塞' WHERE `id` = 35874;
-UPDATE `npc` SET `name` = '護衛兵', `title` = '盆地要塞' WHERE `id` = 35875;
-UPDATE `npc` SET `name` = '主機械裝置', `title` = '控制室' WHERE `id` = 35876;
-UPDATE `npc` SET `name` = '輔助電力裝置', `title` = '控制室' WHERE `id` = 35877;
-UPDATE `npc` SET `name` = '控制裝置', `title` = '控制室' WHERE `id` = 35878;
-UPDATE `npc` SET `name` = '電力控制裝置', `title` = '控制室' WHERE `id` = 35879;
-UPDATE `npc` SET `name` = '砲兵矮人' WHERE `id` = 35880;
-UPDATE `npc` SET `name` = '偵查高崙', `title` = '控制室' WHERE `id` = 35881;
-UPDATE `npc` SET `name` = '守備隊長', `title` = '守備隊' WHERE `id` = 35882;
-UPDATE `npc` SET `name` = '守備隊員', `title` = '守備隊' WHERE `id` = 35883;
-UPDATE `npc` SET `name` = '守備隊員', `title` = '守備隊' WHERE `id` = 35884;
-UPDATE `npc` SET `name` = '支援隊長', `title` = '支援隊' WHERE `id` = 35885;
-UPDATE `npc` SET `name` = '巫師', `title` = '支援隊' WHERE `id` = 35886;
-UPDATE `npc` SET `name` = '牧師', `title` = '支援隊' WHERE `id` = 35887;
-UPDATE `npc` SET `name` = '弓兵隊長', `title` = '弓兵隊' WHERE `id` = 35888;
-UPDATE `npc` SET `name` = '弓兵隊員', `title` = '弓兵隊' WHERE `id` = 35889;
-UPDATE `npc` SET `name` = '將軍', `title` = '將官幕舍' WHERE `id` = 35890;
-UPDATE `npc` SET `name` = '將官', `title` = '將官幕舍' WHERE `id` = 35891;
-UPDATE `npc` SET `name` = '弩砲', `title` = '盆地要塞' WHERE `id` = 35892;
-UPDATE `npc` SET `name` = '傭兵隊隊長' WHERE `id` = 35893;
-UPDATE `npc` SET `name` = '傭兵隊士兵' WHERE `id` = 35894;
-UPDATE `npc` SET `name` = '旗桿' WHERE `id` = 35895;
-UPDATE `npc` SET `name` = '監督官', `title` = '白沙灘要塞' WHERE `id` = 35896;
-UPDATE `npc` SET `name` = '可疑的商人', `title` = '白沙灘要塞' WHERE `id` = 35897;
-UPDATE `npc` SET `name` = '守備隊長', `title` = '白沙灘要塞' WHERE `id` = 35898;
-UPDATE `npc` SET `name` = '弓兵隊長', `title` = '白沙灘要塞' WHERE `id` = 35899;
-UPDATE `npc` SET `name` = '支援隊長', `title` = '白沙灘要塞' WHERE `id` = 35900;
-UPDATE `npc` SET `name` = '工兵隊管理員', `title` = '白沙灘要塞' WHERE `id` = 35901;
-UPDATE `npc` SET `name` = '補給整備官', `title` = '白沙灘要塞' WHERE `id` = 35902;
-UPDATE `npc` SET `name` = '寶物箱子' WHERE `id` = 35903;
-UPDATE `npc` SET `name` = '收容所管理人', `title` = '白沙灘要塞' WHERE `id` = 35904;
-UPDATE `npc` SET `name` = '守門人' WHERE `id` = 35905;
-UPDATE `npc` SET `name` = '守門人' WHERE `id` = 35906;
-UPDATE `npc` SET `name` = '守門人' WHERE `id` = 35907;
-UPDATE `npc` SET `name` = '叛亂軍隊長', `title` = '白沙灘要塞' WHERE `id` = 35908;
-UPDATE `npc` SET `name` = '叛亂軍精銳兵', `title` = '白沙灘要塞' WHERE `id` = 35909;
-UPDATE `npc` SET `name` = '叛亂軍士兵', `title` = '白沙灘要塞' WHERE `id` = 35910;
-UPDATE `npc` SET `name` = '禁衛兵', `title` = '白沙灘要塞' WHERE `id` = 35911;
-UPDATE `npc` SET `name` = '護衛兵', `title` = '白沙灘要塞' WHERE `id` = 35912;
-UPDATE `npc` SET `name` = '電力控制裝置', `title` = '控制室' WHERE `id` = 35913;
-UPDATE `npc` SET `name` = '砲兵矮人' WHERE `id` = 35914;
-UPDATE `npc` SET `name` = '守備隊長', `title` = '守備隊' WHERE `id` = 35915;
-UPDATE `npc` SET `name` = '守備隊員', `title` = '守備隊' WHERE `id` = 35916;
-UPDATE `npc` SET `name` = '守備隊員', `title` = '守備隊' WHERE `id` = 35917;
-UPDATE `npc` SET `name` = '支援隊長', `title` = '支援隊' WHERE `id` = 35918;
-UPDATE `npc` SET `name` = '巫師', `title` = '支援隊' WHERE `id` = 35919;
-UPDATE `npc` SET `name` = '牧師', `title` = '支援隊' WHERE `id` = 35920;
-UPDATE `npc` SET `name` = '弓兵隊長', `title` = '弓兵隊' WHERE `id` = 35921;
-UPDATE `npc` SET `name` = '弓兵隊員', `title` = '弓兵隊' WHERE `id` = 35922;
-UPDATE `npc` SET `name` = '弩砲', `title` = '白沙灘要塞' WHERE `id` = 35923;
-UPDATE `npc` SET `name` = '傭兵隊隊長' WHERE `id` = 35924;
-UPDATE `npc` SET `name` = '傭兵隊士兵' WHERE `id` = 35925;
-UPDATE `npc` SET `name` = '旗桿' WHERE `id` = 35926;
-UPDATE `npc` SET `name` = '監督官', `title` = '前哨基地要塞' WHERE `id` = 35927;
-UPDATE `npc` SET `name` = '可疑的商人', `title` = '前哨基地要塞' WHERE `id` = 35928;
-UPDATE `npc` SET `name` = '守備隊長', `title` = '前哨基地要塞' WHERE `id` = 35929;
-UPDATE `npc` SET `name` = '弓兵隊長', `title` = '前哨基地要塞' WHERE `id` = 35930;
-UPDATE `npc` SET `name` = '將軍', `title` = '前哨基地要塞' WHERE `id` = 35931;
-UPDATE `npc` SET `name` = '支援隊長', `title` = '前哨基地要塞' WHERE `id` = 35932;
-UPDATE `npc` SET `name` = '工兵隊管理員', `title` = '前哨基地要塞' WHERE `id` = 35933;
-UPDATE `npc` SET `name` = '補給整備官', `title` = '前哨基地要塞' WHERE `id` = 35934;
-UPDATE `npc` SET `name` = '寶物箱子' WHERE `id` = 35935;
-UPDATE `npc` SET `name` = '收容所管理人', `title` = '前哨基地要塞' WHERE `id` = 35936;
-UPDATE `npc` SET `name` = '守門人' WHERE `id` = 35937;
-UPDATE `npc` SET `name` = '守門人' WHERE `id` = 35938;
-UPDATE `npc` SET `name` = '守門人' WHERE `id` = 35939;
-UPDATE `npc` SET `name` = '叛亂軍隊長', `title` = '前哨基地要塞' WHERE `id` = 35940;
-UPDATE `npc` SET `name` = '叛亂軍精銳兵', `title` = '前哨基地要塞' WHERE `id` = 35941;
-UPDATE `npc` SET `name` = '叛亂軍士兵', `title` = '前哨基地要塞' WHERE `id` = 35942;
-UPDATE `npc` SET `name` = '禁衛兵', `title` = '前哨基地要塞' WHERE `id` = 35943;
-UPDATE `npc` SET `name` = '護衛兵', `title` = '前哨基地要塞' WHERE `id` = 35944;
-UPDATE `npc` SET `name` = '主機械裝置', `title` = '控制室' WHERE `id` = 35945;
-UPDATE `npc` SET `name` = '輔助電力裝置', `title` = '控制室' WHERE `id` = 35946;
-UPDATE `npc` SET `name` = '控制裝置', `title` = '控制室' WHERE `id` = 35947;
-UPDATE `npc` SET `name` = '電力控制裝置', `title` = '控制室' WHERE `id` = 35948;
-UPDATE `npc` SET `name` = '砲兵矮人' WHERE `id` = 35949;
-UPDATE `npc` SET `name` = '偵查高崙', `title` = '控制室' WHERE `id` = 35950;
-UPDATE `npc` SET `name` = '守備隊長', `title` = '守備隊' WHERE `id` = 35951;
-UPDATE `npc` SET `name` = '守備隊員', `title` = '守備隊' WHERE `id` = 35952;
-UPDATE `npc` SET `name` = '守備隊員', `title` = '守備隊' WHERE `id` = 35953;
-UPDATE `npc` SET `name` = '支援隊長', `title` = '支援隊' WHERE `id` = 35954;
-UPDATE `npc` SET `name` = '巫師', `title` = '支援隊' WHERE `id` = 35955;
-UPDATE `npc` SET `name` = '牧師', `title` = '支援隊' WHERE `id` = 35956;
-UPDATE `npc` SET `name` = '弓兵隊長', `title` = '弓兵隊' WHERE `id` = 35957;
-UPDATE `npc` SET `name` = '弓兵隊員', `title` = '弓兵隊' WHERE `id` = 35958;
-UPDATE `npc` SET `name` = '將軍', `title` = '將官幕舍' WHERE `id` = 35959;
-UPDATE `npc` SET `name` = '將官', `title` = '將官幕舍' WHERE `id` = 35960;
-UPDATE `npc` SET `name` = '弩砲', `title` = '前哨基地要塞' WHERE `id` = 35961;
-UPDATE `npc` SET `name` = '傭兵隊隊長' WHERE `id` = 35962;
-UPDATE `npc` SET `name` = '傭兵隊士兵' WHERE `id` = 35963;
-UPDATE `npc` SET `name` = '旗桿' WHERE `id` = 35964;
-UPDATE `npc` SET `name` = '監督官', `title` = '沼澤要塞' WHERE `id` = 35965;
-UPDATE `npc` SET `name` = '可疑的商人', `title` = '沼澤要塞' WHERE `id` = 35966;
-UPDATE `npc` SET `name` = '守備隊長', `title` = '沼澤要塞' WHERE `id` = 35967;
-UPDATE `npc` SET `name` = '弓兵隊長', `title` = '沼澤要塞' WHERE `id` = 35968;
-UPDATE `npc` SET `name` = '將軍', `title` = '沼澤要塞' WHERE `id` = 35969;
-UPDATE `npc` SET `name` = '支援隊長', `title` = '沼澤要塞' WHERE `id` = 35970;
-UPDATE `npc` SET `name` = '工兵隊管理員', `title` = '沼澤要塞' WHERE `id` = 35971;
-UPDATE `npc` SET `name` = '補給整備官', `title` = '沼澤要塞' WHERE `id` = 35972;
-UPDATE `npc` SET `name` = '寶物箱子' WHERE `id` = 35973;
-UPDATE `npc` SET `name` = '收容所管理人', `title` = '沼澤要塞' WHERE `id` = 35974;
-UPDATE `npc` SET `name` = '守門人' WHERE `id` = 35975;
-UPDATE `npc` SET `name` = '守門人' WHERE `id` = 35976;
-UPDATE `npc` SET `name` = '守門人' WHERE `id` = 35977;
-UPDATE `npc` SET `name` = '叛亂軍隊長', `title` = '沼澤要塞' WHERE `id` = 35978;
-UPDATE `npc` SET `name` = '叛亂軍精銳兵', `title` = '沼澤要塞' WHERE `id` = 35979;
-UPDATE `npc` SET `name` = '叛亂軍士兵', `title` = '沼澤要塞' WHERE `id` = 35980;
-UPDATE `npc` SET `name` = '禁衛兵', `title` = '沼澤要塞' WHERE `id` = 35981;
-UPDATE `npc` SET `name` = '護衛兵', `title` = '沼澤要塞' WHERE `id` = 35982;
-UPDATE `npc` SET `name` = '主機械裝置', `title` = '控制室' WHERE `id` = 35983;
-UPDATE `npc` SET `name` = '輔助電力裝置', `title` = '控制室' WHERE `id` = 35984;
-UPDATE `npc` SET `name` = '控制裝置', `title` = '控制室' WHERE `id` = 35985;
-UPDATE `npc` SET `name` = '電力控制裝置', `title` = '控制室' WHERE `id` = 35986;
-UPDATE `npc` SET `name` = '砲兵矮人' WHERE `id` = 35987;
-UPDATE `npc` SET `name` = '偵查高崙', `title` = '控制室' WHERE `id` = 35988;
-UPDATE `npc` SET `name` = '守備隊長', `title` = '守備隊' WHERE `id` = 35989;
-UPDATE `npc` SET `name` = '守備隊員', `title` = '守備隊' WHERE `id` = 35990;
-UPDATE `npc` SET `name` = '守備隊員', `title` = '守備隊' WHERE `id` = 35991;
-UPDATE `npc` SET `name` = '支援隊長', `title` = '支援隊' WHERE `id` = 35992;
-UPDATE `npc` SET `name` = '巫師', `title` = '支援隊' WHERE `id` = 35993;
-UPDATE `npc` SET `name` = '牧師', `title` = '支援隊' WHERE `id` = 35994;
-UPDATE `npc` SET `name` = '弓兵隊長', `title` = '弓兵隊' WHERE `id` = 35995;
-UPDATE `npc` SET `name` = '弓兵隊員', `title` = '弓兵隊' WHERE `id` = 35996;
-UPDATE `npc` SET `name` = '將軍', `title` = '將官幕舍' WHERE `id` = 35997;
-UPDATE `npc` SET `name` = '將官', `title` = '將官幕舍' WHERE `id` = 35998;
-UPDATE `npc` SET `name` = '弩砲', `title` = '沼澤要塞' WHERE `id` = 35999;
-UPDATE `npc` SET `name` = '傭兵隊隊長' WHERE `id` = 36000;
-UPDATE `npc` SET `name` = '傭兵隊士兵' WHERE `id` = 36001;
-UPDATE `npc` SET `name` = '旗桿' WHERE `id` = 36002;
-UPDATE `npc` SET `name` = '監督官', `title` = '遺蹟要塞' WHERE `id` = 36003;
-UPDATE `npc` SET `name` = '可疑的商人', `title` = '遺蹟要塞' WHERE `id` = 36004;
-UPDATE `npc` SET `name` = '守備隊長', `title` = '遺蹟要塞' WHERE `id` = 36005;
-UPDATE `npc` SET `name` = '弓兵隊長', `title` = '遺蹟要塞' WHERE `id` = 36006;
-UPDATE `npc` SET `name` = '支援隊長', `title` = '遺蹟要塞' WHERE `id` = 36007;
-UPDATE `npc` SET `name` = '工兵隊管理員', `title` = '遺蹟要塞' WHERE `id` = 36008;
-UPDATE `npc` SET `name` = '補給整備官', `title` = '遺蹟要塞' WHERE `id` = 36009;
-UPDATE `npc` SET `name` = '寶物箱子' WHERE `id` = 36010;
-UPDATE `npc` SET `name` = '收容所管理人', `title` = '遺蹟要塞' WHERE `id` = 36011;
-UPDATE `npc` SET `name` = '守門人' WHERE `id` = 36012;
-UPDATE `npc` SET `name` = '守門人' WHERE `id` = 36013;
-UPDATE `npc` SET `name` = '守門人' WHERE `id` = 36014;
-UPDATE `npc` SET `name` = '叛亂軍隊長', `title` = '遺蹟要塞' WHERE `id` = 36015;
-UPDATE `npc` SET `name` = '叛亂軍精銳兵', `title` = '遺蹟要塞' WHERE `id` = 36016;
-UPDATE `npc` SET `name` = '叛亂軍士兵', `title` = '遺蹟要塞' WHERE `id` = 36017;
-UPDATE `npc` SET `name` = '禁衛兵', `title` = '遺蹟要塞' WHERE `id` = 36018;
-UPDATE `npc` SET `name` = '護衛兵', `title` = '遺蹟要塞' WHERE `id` = 36019;
-UPDATE `npc` SET `name` = '電力控制裝置', `title` = '控制室' WHERE `id` = 36020;
-UPDATE `npc` SET `name` = '砲兵矮人' WHERE `id` = 36021;
-UPDATE `npc` SET `name` = '守備隊長', `title` = '守備隊' WHERE `id` = 36022;
-UPDATE `npc` SET `name` = '守備隊員', `title` = '守備隊' WHERE `id` = 36023;
-UPDATE `npc` SET `name` = '守備隊員', `title` = '守備隊' WHERE `id` = 36024;
-UPDATE `npc` SET `name` = '支援隊長', `title` = '支援隊' WHERE `id` = 36025;
-UPDATE `npc` SET `name` = '巫師', `title` = '支援隊' WHERE `id` = 36026;
-UPDATE `npc` SET `name` = '牧師', `title` = '支援隊' WHERE `id` = 36027;
-UPDATE `npc` SET `name` = '弓兵隊長', `title` = '弓兵隊' WHERE `id` = 36028;
-UPDATE `npc` SET `name` = '弓兵隊員', `title` = '弓兵隊' WHERE `id` = 36029;
-UPDATE `npc` SET `name` = '弩砲', `title` = '遺蹟要塞' WHERE `id` = 36030;
-UPDATE `npc` SET `name` = '傭兵隊隊長' WHERE `id` = 36031;
-UPDATE `npc` SET `name` = '傭兵隊士兵' WHERE `id` = 36032;
-UPDATE `npc` SET `name` = '旗桿' WHERE `id` = 36033;
-UPDATE `npc` SET `name` = '監督官', `title` = '芙羅蘭邊境要塞' WHERE `id` = 36034;
-UPDATE `npc` SET `name` = '可疑的商人', `title` = '芙羅蘭邊境要塞' WHERE `id` = 36035;
-UPDATE `npc` SET `name` = '守備隊長', `title` = '芙羅蘭邊境要塞' WHERE `id` = 36036;
-UPDATE `npc` SET `name` = '弓兵隊長', `title` = '芙羅蘭邊境要塞' WHERE `id` = 36037;
-UPDATE `npc` SET `name` = '將軍', `title` = '芙羅蘭邊境要塞' WHERE `id` = 36038;
-UPDATE `npc` SET `name` = '支援隊長', `title` = '芙羅蘭邊境要塞' WHERE `id` = 36039;
-UPDATE `npc` SET `name` = '工兵隊管理員', `title` = '芙羅蘭邊境要塞' WHERE `id` = 36040;
-UPDATE `npc` SET `name` = '補給整備官', `title` = '芙羅蘭邊境要塞' WHERE `id` = 36041;
-UPDATE `npc` SET `name` = '寶物箱子' WHERE `id` = 36042;
-UPDATE `npc` SET `name` = '收容所管理人', `title` = '芙羅蘭邊境要塞' WHERE `id` = 36043;
-UPDATE `npc` SET `name` = '守門人' WHERE `id` = 36044;
-UPDATE `npc` SET `name` = '守門人' WHERE `id` = 36045;
-UPDATE `npc` SET `name` = '守門人' WHERE `id` = 36046;
-UPDATE `npc` SET `name` = '叛亂軍隊長', `title` = '芙羅蘭邊境要塞' WHERE `id` = 36047;
-UPDATE `npc` SET `name` = '叛亂軍精銳兵', `title` = '芙羅蘭邊境要塞' WHERE `id` = 36048;
-UPDATE `npc` SET `name` = '叛亂軍士兵', `title` = '芙羅蘭邊境要塞' WHERE `id` = 36049;
-UPDATE `npc` SET `name` = '禁衛兵', `title` = '芙羅蘭邊境要塞' WHERE `id` = 36050;
-UPDATE `npc` SET `name` = '護衛兵', `title` = '芙羅蘭邊境要塞' WHERE `id` = 36051;
-UPDATE `npc` SET `name` = '主機械裝置', `title` = '控制室' WHERE `id` = 36052;
-UPDATE `npc` SET `name` = '輔助電力裝置', `title` = '控制室' WHERE `id` = 36053;
-UPDATE `npc` SET `name` = '控制裝置', `title` = '控制室' WHERE `id` = 36054;
-UPDATE `npc` SET `name` = '電力控制裝置', `title` = '控制室' WHERE `id` = 36055;
-UPDATE `npc` SET `name` = '砲兵矮人' WHERE `id` = 36056;
-UPDATE `npc` SET `name` = '偵查高崙', `title` = '控制室' WHERE `id` = 36057;
-UPDATE `npc` SET `name` = '守備隊長', `title` = '守備隊' WHERE `id` = 36058;
-UPDATE `npc` SET `name` = '守備隊員', `title` = '守備隊' WHERE `id` = 36059;
-UPDATE `npc` SET `name` = '守備隊員', `title` = '守備隊' WHERE `id` = 36060;
-UPDATE `npc` SET `name` = '支援隊長', `title` = '支援隊' WHERE `id` = 36061;
-UPDATE `npc` SET `name` = '巫師', `title` = '支援隊' WHERE `id` = 36062;
-UPDATE `npc` SET `name` = '牧師', `title` = '支援隊' WHERE `id` = 36063;
-UPDATE `npc` SET `name` = '弓兵隊長', `title` = '弓兵隊' WHERE `id` = 36064;
-UPDATE `npc` SET `name` = '弓兵隊員', `title` = '弓兵隊' WHERE `id` = 36065;
-UPDATE `npc` SET `name` = '將軍', `title` = '將官幕舍' WHERE `id` = 36066;
-UPDATE `npc` SET `name` = '將官', `title` = '將官幕舍' WHERE `id` = 36067;
-UPDATE `npc` SET `name` = '弩砲', `title` = '芙羅蘭邊境要塞' WHERE `id` = 36068;
-UPDATE `npc` SET `name` = '傭兵隊隊長' WHERE `id` = 36069;
-UPDATE `npc` SET `name` = '傭兵隊士兵' WHERE `id` = 36070;
-UPDATE `npc` SET `name` = '旗桿' WHERE `id` = 36071;
-UPDATE `npc` SET `name` = '監督官', `title` = '薄霧山脈邊境要塞' WHERE `id` = 36072;
-UPDATE `npc` SET `name` = '可疑的商人', `title` = '薄霧山脈邊境要塞' WHERE `id` = 36073;
-UPDATE `npc` SET `name` = '守備隊長', `title` = '薄霧山脈邊境要塞' WHERE `id` = 36074;
-UPDATE `npc` SET `name` = '弓兵隊長', `title` = '薄霧山脈邊境要塞' WHERE `id` = 36075;
-UPDATE `npc` SET `name` = '將軍', `title` = '薄霧山脈邊境要塞' WHERE `id` = 36076;
-UPDATE `npc` SET `name` = '支援隊長', `title` = '薄霧山脈邊境要塞' WHERE `id` = 36077;
-UPDATE `npc` SET `name` = '工兵隊管理員', `title` = '薄霧山脈邊境要塞' WHERE `id` = 36078;
-UPDATE `npc` SET `name` = '補給整備官', `title` = '薄霧山脈邊境要塞' WHERE `id` = 36079;
-UPDATE `npc` SET `name` = '寶物箱子' WHERE `id` = 36080;
-UPDATE `npc` SET `name` = '收容所管理人', `title` = '薄霧山脈邊境要塞' WHERE `id` = 36081;
-UPDATE `npc` SET `name` = '守門人' WHERE `id` = 36082;
-UPDATE `npc` SET `name` = '守門人' WHERE `id` = 36083;
-UPDATE `npc` SET `name` = '守門人' WHERE `id` = 36084;
-UPDATE `npc` SET `name` = '叛亂軍隊長', `title` = '薄霧山脈邊境要塞' WHERE `id` = 36085;
-UPDATE `npc` SET `name` = '叛亂軍精銳兵', `title` = '薄霧山脈邊境要塞' WHERE `id` = 36086;
-UPDATE `npc` SET `name` = '叛亂軍士兵', `title` = '薄霧山脈邊境要塞' WHERE `id` = 36087;
-UPDATE `npc` SET `name` = '禁衛兵', `title` = '薄霧山脈邊境要塞' WHERE `id` = 36088;
-UPDATE `npc` SET `name` = '護衛兵', `title` = '薄霧山脈邊境要塞' WHERE `id` = 36089;
-UPDATE `npc` SET `name` = '主機械裝置', `title` = '控制室' WHERE `id` = 36090;
-UPDATE `npc` SET `name` = '輔助電力裝置', `title` = '控制室' WHERE `id` = 36091;
-UPDATE `npc` SET `name` = '控制裝置', `title` = '控制室' WHERE `id` = 36092;
-UPDATE `npc` SET `name` = '電力控制裝置', `title` = '控制室' WHERE `id` = 36093;
-UPDATE `npc` SET `name` = '砲兵矮人' WHERE `id` = 36094;
-UPDATE `npc` SET `name` = '偵查高崙', `title` = '控制室' WHERE `id` = 36095;
-UPDATE `npc` SET `name` = '守備隊長', `title` = '守備隊' WHERE `id` = 36096;
-UPDATE `npc` SET `name` = '守備隊員', `title` = '守備隊' WHERE `id` = 36097;
-UPDATE `npc` SET `name` = '守備隊員', `title` = '守備隊' WHERE `id` = 36098;
-UPDATE `npc` SET `name` = '支援隊長', `title` = '支援隊' WHERE `id` = 36099;
-UPDATE `npc` SET `name` = '巫師', `title` = '支援隊' WHERE `id` = 36100;
-UPDATE `npc` SET `name` = '牧師', `title` = '支援隊' WHERE `id` = 36101;
-UPDATE `npc` SET `name` = '弓兵隊長', `title` = '弓兵隊' WHERE `id` = 36102;
-UPDATE `npc` SET `name` = '弓兵隊員', `title` = '弓兵隊' WHERE `id` = 36103;
-UPDATE `npc` SET `name` = '將軍', `title` = '將官幕舍' WHERE `id` = 36104;
-UPDATE `npc` SET `name` = '將官', `title` = '將官幕舍' WHERE `id` = 36105;
-UPDATE `npc` SET `name` = '弩砲', `title` = '薄霧山脈邊境要塞' WHERE `id` = 36106;
-UPDATE `npc` SET `name` = '傭兵隊隊長' WHERE `id` = 36107;
-UPDATE `npc` SET `name` = '傭兵隊士兵' WHERE `id` = 36108;
-UPDATE `npc` SET `name` = '旗桿' WHERE `id` = 36109;
-UPDATE `npc` SET `name` = '監督官', `title` = '塔諾邊境要塞' WHERE `id` = 36110;
-UPDATE `npc` SET `name` = '可疑的商人', `title` = '塔諾邊境要塞' WHERE `id` = 36111;
-UPDATE `npc` SET `name` = '守備隊長', `title` = '塔諾邊境要塞' WHERE `id` = 36112;
-UPDATE `npc` SET `name` = '弓兵隊長', `title` = '塔諾邊境要塞' WHERE `id` = 36113;
-UPDATE `npc` SET `name` = '支援隊長', `title` = '塔諾邊境要塞' WHERE `id` = 36114;
-UPDATE `npc` SET `name` = '工兵隊管理員', `title` = '塔諾邊境要塞' WHERE `id` = 36115;
-UPDATE `npc` SET `name` = '補給整備官', `title` = '塔諾邊境要塞' WHERE `id` = 36116;
-UPDATE `npc` SET `name` = '寶物箱子' WHERE `id` = 36117;
-UPDATE `npc` SET `name` = '收容所管理人', `title` = '塔諾邊境要塞' WHERE `id` = 36118;
-UPDATE `npc` SET `name` = '守門人' WHERE `id` = 36119;
-UPDATE `npc` SET `name` = '守門人' WHERE `id` = 36120;
-UPDATE `npc` SET `name` = '守門人' WHERE `id` = 36121;
-UPDATE `npc` SET `name` = '叛亂軍隊長', `title` = '塔諾邊境要塞' WHERE `id` = 36122;
-UPDATE `npc` SET `name` = '叛亂軍精銳兵', `title` = '塔諾邊境要塞' WHERE `id` = 36123;
-UPDATE `npc` SET `name` = '叛亂軍士兵', `title` = '塔諾邊境要塞' WHERE `id` = 36124;
-UPDATE `npc` SET `name` = '禁衛兵', `title` = '塔諾邊境要塞' WHERE `id` = 36125;
-UPDATE `npc` SET `name` = '護衛兵', `title` = '塔諾邊境要塞' WHERE `id` = 36126;
-UPDATE `npc` SET `name` = '電力控制裝置', `title` = '控制室' WHERE `id` = 36127;
-UPDATE `npc` SET `name` = '砲兵矮人' WHERE `id` = 36128;
-UPDATE `npc` SET `name` = '守備隊長', `title` = '守備隊' WHERE `id` = 36129;
-UPDATE `npc` SET `name` = '守備隊員', `title` = '守備隊' WHERE `id` = 36130;
-UPDATE `npc` SET `name` = '守備隊員', `title` = '守備隊' WHERE `id` = 36131;
-UPDATE `npc` SET `name` = '支援隊長', `title` = '支援隊' WHERE `id` = 36132;
-UPDATE `npc` SET `name` = '巫師', `title` = '支援隊' WHERE `id` = 36133;
-UPDATE `npc` SET `name` = '牧師', `title` = '支援隊' WHERE `id` = 36134;
-UPDATE `npc` SET `name` = '弓兵隊長', `title` = '弓兵隊' WHERE `id` = 36135;
-UPDATE `npc` SET `name` = '弓兵隊員', `title` = '弓兵隊' WHERE `id` = 36136;
-UPDATE `npc` SET `name` = '弩砲', `title` = '塔諾邊境要塞' WHERE `id` = 36137;
-UPDATE `npc` SET `name` = '傭兵隊隊長' WHERE `id` = 36138;
-UPDATE `npc` SET `name` = '傭兵隊士兵' WHERE `id` = 36139;
-UPDATE `npc` SET `name` = '旗桿' WHERE `id` = 36140;
-UPDATE `npc` SET `name` = '監督官', `title` = '巨龍士伯吟邊境要塞' WHERE `id` = 36141;
-UPDATE `npc` SET `name` = '可疑的商人', `title` = '巨龍士伯吟邊境要塞' WHERE `id` = 36142;
-UPDATE `npc` SET `name` = '守備隊長', `title` = '巨龍士伯吟邊境要塞' WHERE `id` = 36143;
-UPDATE `npc` SET `name` = '弓兵隊長', `title` = '巨龍士伯吟邊境要塞' WHERE `id` = 36144;
-UPDATE `npc` SET `name` = '支援隊長', `title` = '巨龍士伯吟邊境要塞' WHERE `id` = 36145;
-UPDATE `npc` SET `name` = '工兵隊管理員', `title` = '巨龍士伯吟邊境要塞' WHERE `id` = 36146;
-UPDATE `npc` SET `name` = '補給整備官', `title` = '巨龍士伯吟邊境要塞' WHERE `id` = 36147;
-UPDATE `npc` SET `name` = '寶物箱子' WHERE `id` = 36148;
-UPDATE `npc` SET `name` = '收容所管理人', `title` = '巨龍士伯吟邊境要塞' WHERE `id` = 36149;
-UPDATE `npc` SET `name` = '守門人' WHERE `id` = 36150;
-UPDATE `npc` SET `name` = '守門人' WHERE `id` = 36151;
-UPDATE `npc` SET `name` = '守門人' WHERE `id` = 36152;
-UPDATE `npc` SET `name` = '叛亂軍隊長', `title` = '巨龍士伯吟邊境要塞' WHERE `id` = 36153;
-UPDATE `npc` SET `name` = '叛亂軍精銳兵', `title` = '巨龍士伯吟邊境要塞' WHERE `id` = 36154;
-UPDATE `npc` SET `name` = '叛亂軍士兵', `title` = '巨龍士伯吟邊境要塞' WHERE `id` = 36155;
-UPDATE `npc` SET `name` = '禁衛兵', `title` = '巨龍士伯吟邊境要塞' WHERE `id` = 36156;
-UPDATE `npc` SET `name` = '護衛兵', `title` = '巨龍士伯吟邊境要塞' WHERE `id` = 36157;
-UPDATE `npc` SET `name` = '電力控制裝置', `title` = '控制室' WHERE `id` = 36158;
-UPDATE `npc` SET `name` = '砲兵矮人' WHERE `id` = 36159;
-UPDATE `npc` SET `name` = '守備隊長', `title` = '守備隊' WHERE `id` = 36160;
-UPDATE `npc` SET `name` = '守備隊員', `title` = '守備隊' WHERE `id` = 36161;
-UPDATE `npc` SET `name` = '守備隊員', `title` = '守備隊' WHERE `id` = 36162;
-UPDATE `npc` SET `name` = '支援隊長', `title` = '支援隊' WHERE `id` = 36163;
-UPDATE `npc` SET `name` = '巫師', `title` = '支援隊' WHERE `id` = 36164;
-UPDATE `npc` SET `name` = '牧師', `title` = '支援隊' WHERE `id` = 36165;
-UPDATE `npc` SET `name` = '弓兵隊長', `title` = '弓兵隊' WHERE `id` = 36166;
-UPDATE `npc` SET `name` = '弓兵隊員', `title` = '弓兵隊' WHERE `id` = 36167;
-UPDATE `npc` SET `name` = '弩砲', `title` = '巨龍士伯吟邊境要塞' WHERE `id` = 36168;
-UPDATE `npc` SET `name` = '傭兵隊隊長' WHERE `id` = 36169;
-UPDATE `npc` SET `name` = '傭兵隊士兵' WHERE `id` = 36170;
-UPDATE `npc` SET `name` = '旗桿' WHERE `id` = 36171;
-UPDATE `npc` SET `name` = '監督官', `title` = '地龍的邊境要塞' WHERE `id` = 36172;
-UPDATE `npc` SET `name` = '可疑的商人', `title` = '地龍的邊境要塞' WHERE `id` = 36173;
-UPDATE `npc` SET `name` = '守備隊長', `title` = '地龍的邊境要塞' WHERE `id` = 36174;
-UPDATE `npc` SET `name` = '弓兵隊長', `title` = '地龍的邊境要塞' WHERE `id` = 36175;
-UPDATE `npc` SET `name` = '將軍', `title` = '地龍的邊境要塞' WHERE `id` = 36176;
-UPDATE `npc` SET `name` = '支援隊長', `title` = '地龍的邊境要塞' WHERE `id` = 36177;
-UPDATE `npc` SET `name` = '工兵隊管理員', `title` = '地龍的邊境要塞' WHERE `id` = 36178;
-UPDATE `npc` SET `name` = '補給整備官', `title` = '地龍的邊境要塞' WHERE `id` = 36179;
-UPDATE `npc` SET `name` = '寶物箱子' WHERE `id` = 36180;
-UPDATE `npc` SET `name` = '收容所管理人', `title` = '地龍的邊境要塞' WHERE `id` = 36181;
-UPDATE `npc` SET `name` = '守門人' WHERE `id` = 36182;
-UPDATE `npc` SET `name` = '守門人' WHERE `id` = 36183;
-UPDATE `npc` SET `name` = '守門人' WHERE `id` = 36184;
-UPDATE `npc` SET `name` = '叛亂軍隊長', `title` = '地龍的邊境要塞' WHERE `id` = 36185;
-UPDATE `npc` SET `name` = '叛亂軍精銳兵', `title` = '地龍的邊境要塞' WHERE `id` = 36186;
-UPDATE `npc` SET `name` = '叛亂軍士兵', `title` = '地龍的邊境要塞' WHERE `id` = 36187;
-UPDATE `npc` SET `name` = '禁衛兵', `title` = '地龍的邊境要塞' WHERE `id` = 36188;
-UPDATE `npc` SET `name` = '護衛兵', `title` = '地龍的邊境要塞' WHERE `id` = 36189;
-UPDATE `npc` SET `name` = '主機械裝置', `title` = '控制室' WHERE `id` = 36190;
-UPDATE `npc` SET `name` = '輔助電力裝置', `title` = '控制室' WHERE `id` = 36191;
-UPDATE `npc` SET `name` = '控制裝置', `title` = '控制室' WHERE `id` = 36192;
-UPDATE `npc` SET `name` = '電力控制裝置', `title` = '控制室' WHERE `id` = 36193;
-UPDATE `npc` SET `name` = '砲兵矮人' WHERE `id` = 36194;
-UPDATE `npc` SET `name` = '偵查高崙', `title` = '控制室' WHERE `id` = 36195;
-UPDATE `npc` SET `name` = '守備隊長', `title` = '守備隊' WHERE `id` = 36196;
-UPDATE `npc` SET `name` = '守備隊員', `title` = '守備隊' WHERE `id` = 36197;
-UPDATE `npc` SET `name` = '守備隊員', `title` = '守備隊' WHERE `id` = 36198;
-UPDATE `npc` SET `name` = '支援隊長', `title` = '支援隊' WHERE `id` = 36199;
-UPDATE `npc` SET `name` = '巫師', `title` = '支援隊' WHERE `id` = 36200;
-UPDATE `npc` SET `name` = '牧師', `title` = '支援隊' WHERE `id` = 36201;
-UPDATE `npc` SET `name` = '弓兵隊長', `title` = '弓兵隊' WHERE `id` = 36202;
-UPDATE `npc` SET `name` = '弓兵隊員', `title` = '弓兵隊' WHERE `id` = 36203;
-UPDATE `npc` SET `name` = '將軍', `title` = '將官幕舍' WHERE `id` = 36204;
-UPDATE `npc` SET `name` = '將官', `title` = '將官幕舍' WHERE `id` = 36205;
-UPDATE `npc` SET `name` = '弩砲', `title` = '地龍的邊境要塞' WHERE `id` = 36206;
-UPDATE `npc` SET `name` = '傭兵隊隊長' WHERE `id` = 36207;
-UPDATE `npc` SET `name` = '傭兵隊士兵' WHERE `id` = 36208;
-UPDATE `npc` SET `name` = '旗桿' WHERE `id` = 36209;
-UPDATE `npc` SET `name` = '監督官', `title` = '西部國境邊境要塞' WHERE `id` = 36210;
-UPDATE `npc` SET `name` = '可疑的商人', `title` = '西部國境邊境要塞' WHERE `id` = 36211;
-UPDATE `npc` SET `name` = '守備隊長', `title` = '西部國境邊境要塞' WHERE `id` = 36212;
-UPDATE `npc` SET `name` = '弓兵隊長', `title` = '西部國境邊境要塞' WHERE `id` = 36213;
-UPDATE `npc` SET `name` = '將軍', `title` = '西部國境邊境要塞' WHERE `id` = 36214;
-UPDATE `npc` SET `name` = '支援隊長', `title` = '西部國境邊境要塞' WHERE `id` = 36215;
-UPDATE `npc` SET `name` = '工兵隊管理員', `title` = '西部國境邊境要塞' WHERE `id` = 36216;
-UPDATE `npc` SET `name` = '補給整備官', `title` = '西部國境邊境要塞' WHERE `id` = 36217;
-UPDATE `npc` SET `name` = '寶物箱子' WHERE `id` = 36218;
-UPDATE `npc` SET `name` = '收容所管理人', `title` = '西部國境邊境要塞' WHERE `id` = 36219;
-UPDATE `npc` SET `name` = '守門人' WHERE `id` = 36220;
-UPDATE `npc` SET `name` = '守門人' WHERE `id` = 36221;
-UPDATE `npc` SET `name` = '守門人' WHERE `id` = 36222;
-UPDATE `npc` SET `name` = '叛亂軍隊長', `title` = '西部國境邊境要塞' WHERE `id` = 36223;
-UPDATE `npc` SET `name` = '叛亂軍精銳兵', `title` = '西部國境邊境要塞' WHERE `id` = 36224;
-UPDATE `npc` SET `name` = '叛亂軍士兵', `title` = '西部國境邊境要塞' WHERE `id` = 36225;
-UPDATE `npc` SET `name` = '禁衛兵', `title` = '西部國境邊境要塞' WHERE `id` = 36226;
-UPDATE `npc` SET `name` = '護衛兵', `title` = '西部國境邊境要塞' WHERE `id` = 36227;
-UPDATE `npc` SET `name` = '主機械裝置', `title` = '控制室' WHERE `id` = 36228;
-UPDATE `npc` SET `name` = '輔助電力裝置', `title` = '控制室' WHERE `id` = 36229;
-UPDATE `npc` SET `name` = '控制裝置', `title` = '控制室' WHERE `id` = 36230;
-UPDATE `npc` SET `name` = '電力控制裝置', `title` = '控制室' WHERE `id` = 36231;
-UPDATE `npc` SET `name` = '砲兵矮人' WHERE `id` = 36232;
-UPDATE `npc` SET `name` = '偵查高崙', `title` = '控制室' WHERE `id` = 36233;
-UPDATE `npc` SET `name` = '守備隊長', `title` = '守備隊' WHERE `id` = 36234;
-UPDATE `npc` SET `name` = '守備隊員', `title` = '守備隊' WHERE `id` = 36235;
-UPDATE `npc` SET `name` = '守備隊員', `title` = '守備隊' WHERE `id` = 36236;
-UPDATE `npc` SET `name` = '支援隊長', `title` = '支援隊' WHERE `id` = 36237;
-UPDATE `npc` SET `name` = '巫師', `title` = '支援隊' WHERE `id` = 36238;
-UPDATE `npc` SET `name` = '牧師', `title` = '支援隊' WHERE `id` = 36239;
-UPDATE `npc` SET `name` = '弓兵隊長', `title` = '弓兵隊' WHERE `id` = 36240;
-UPDATE `npc` SET `name` = '弓兵隊員', `title` = '弓兵隊' WHERE `id` = 36241;
-UPDATE `npc` SET `name` = '將軍', `title` = '將官幕舍' WHERE `id` = 36242;
-UPDATE `npc` SET `name` = '將官', `title` = '將官幕舍' WHERE `id` = 36243;
-UPDATE `npc` SET `name` = '弩砲', `title` = '西部國境邊境要塞' WHERE `id` = 36244;
-UPDATE `npc` SET `name` = '傭兵隊隊長' WHERE `id` = 36245;
-UPDATE `npc` SET `name` = '傭兵隊士兵' WHERE `id` = 36246;
-UPDATE `npc` SET `name` = '旗桿' WHERE `id` = 36247;
-UPDATE `npc` SET `name` = '監督官', `title` = '獵人的邊境要塞' WHERE `id` = 36248;
-UPDATE `npc` SET `name` = '可疑的商人', `title` = '獵人的邊境要塞' WHERE `id` = 36249;
-UPDATE `npc` SET `name` = '守備隊長', `title` = '獵人的邊境要塞' WHERE `id` = 36250;
-UPDATE `npc` SET `name` = '弓兵隊長', `title` = '獵人的邊境要塞' WHERE `id` = 36251;
-UPDATE `npc` SET `name` = '將軍', `title` = '獵人的邊境要塞' WHERE `id` = 36252;
-UPDATE `npc` SET `name` = '支援隊長', `title` = '獵人的邊境要塞' WHERE `id` = 36253;
-UPDATE `npc` SET `name` = '工兵隊管理員', `title` = '獵人的邊境要塞' WHERE `id` = 36254;
-UPDATE `npc` SET `name` = '補給整備官', `title` = '獵人的邊境要塞' WHERE `id` = 36255;
-UPDATE `npc` SET `name` = '寶物箱子' WHERE `id` = 36256;
-UPDATE `npc` SET `name` = '收容所管理人', `title` = '獵人的邊境要塞' WHERE `id` = 36257;
-UPDATE `npc` SET `name` = '守門人' WHERE `id` = 36258;
-UPDATE `npc` SET `name` = '守門人' WHERE `id` = 36259;
-UPDATE `npc` SET `name` = '守門人' WHERE `id` = 36260;
-UPDATE `npc` SET `name` = '叛亂軍隊長', `title` = '獵人的邊境要塞' WHERE `id` = 36261;
-UPDATE `npc` SET `name` = '叛亂軍精銳兵', `title` = '獵人的邊境要塞' WHERE `id` = 36262;
-UPDATE `npc` SET `name` = '叛亂軍士兵', `title` = '獵人的邊境要塞' WHERE `id` = 36263;
-UPDATE `npc` SET `name` = '禁衛兵', `title` = '獵人的邊境要塞' WHERE `id` = 36264;
-UPDATE `npc` SET `name` = '護衛兵', `title` = '獵人的邊境要塞' WHERE `id` = 36265;
-UPDATE `npc` SET `name` = '主機械裝置', `title` = '控制室' WHERE `id` = 36266;
-UPDATE `npc` SET `name` = '輔助電力裝置', `title` = '控制室' WHERE `id` = 36267;
-UPDATE `npc` SET `name` = '控制裝置', `title` = '控制室' WHERE `id` = 36268;
-UPDATE `npc` SET `name` = '電力控制裝置', `title` = '控制室' WHERE `id` = 36269;
-UPDATE `npc` SET `name` = '砲兵矮人' WHERE `id` = 36270;
-UPDATE `npc` SET `name` = '偵查高崙', `title` = '控制室' WHERE `id` = 36271;
-UPDATE `npc` SET `name` = '守備隊長', `title` = '守備隊' WHERE `id` = 36272;
-UPDATE `npc` SET `name` = '守備隊員', `title` = '守備隊' WHERE `id` = 36273;
-UPDATE `npc` SET `name` = '守備隊員', `title` = '守備隊' WHERE `id` = 36274;
-UPDATE `npc` SET `name` = '支援隊長', `title` = '支援隊' WHERE `id` = 36275;
-UPDATE `npc` SET `name` = '巫師', `title` = '支援隊' WHERE `id` = 36276;
-UPDATE `npc` SET `name` = '牧師', `title` = '支援隊' WHERE `id` = 36277;
-UPDATE `npc` SET `name` = '弓兵隊長', `title` = '弓兵隊' WHERE `id` = 36278;
-UPDATE `npc` SET `name` = '弓兵隊員', `title` = '弓兵隊' WHERE `id` = 36279;
-UPDATE `npc` SET `name` = '將軍', `title` = '將官幕舍' WHERE `id` = 36280;
-UPDATE `npc` SET `name` = '將官', `title` = '將官幕舍' WHERE `id` = 36281;
-UPDATE `npc` SET `name` = '弩砲', `title` = '獵人的邊境要塞' WHERE `id` = 36282;
-UPDATE `npc` SET `name` = '傭兵隊隊長' WHERE `id` = 36283;
-UPDATE `npc` SET `name` = '傭兵隊士兵' WHERE `id` = 36284;
-UPDATE `npc` SET `name` = '旗桿' WHERE `id` = 36285;
-UPDATE `npc` SET `name` = '監督官', `title` = '平原邊境要塞' WHERE `id` = 36286;
-UPDATE `npc` SET `name` = '可疑的商人', `title` = '平原邊境要塞' WHERE `id` = 36287;
-UPDATE `npc` SET `name` = '守備隊長', `title` = '平原邊境要塞' WHERE `id` = 36288;
-UPDATE `npc` SET `name` = '弓兵隊長', `title` = '平原邊境要塞' WHERE `id` = 36289;
-UPDATE `npc` SET `name` = '支援隊長', `title` = '平原邊境要塞' WHERE `id` = 36290;
-UPDATE `npc` SET `name` = '工兵隊管理員', `title` = '平原邊境要塞' WHERE `id` = 36291;
-UPDATE `npc` SET `name` = '補給整備官', `title` = '平原邊境要塞' WHERE `id` = 36292;
-UPDATE `npc` SET `name` = '寶物箱子' WHERE `id` = 36293;
-UPDATE `npc` SET `name` = '收容所管理人', `title` = '平原邊境要塞' WHERE `id` = 36294;
-UPDATE `npc` SET `name` = '守門人' WHERE `id` = 36295;
-UPDATE `npc` SET `name` = '守門人' WHERE `id` = 36296;
-UPDATE `npc` SET `name` = '守門人' WHERE `id` = 36297;
-UPDATE `npc` SET `name` = '叛亂軍隊長', `title` = '平原邊境要塞' WHERE `id` = 36298;
-UPDATE `npc` SET `name` = '叛亂軍精銳兵', `title` = '平原邊境要塞' WHERE `id` = 36299;
-UPDATE `npc` SET `name` = '叛亂軍士兵', `title` = '平原邊境要塞' WHERE `id` = 36300;
-UPDATE `npc` SET `name` = '禁衛兵', `title` = '平原邊境要塞' WHERE `id` = 36301;
-UPDATE `npc` SET `name` = '護衛兵', `title` = '平原邊境要塞' WHERE `id` = 36302;
-UPDATE `npc` SET `name` = '電力控制裝置', `title` = '控制室' WHERE `id` = 36303;
-UPDATE `npc` SET `name` = '砲兵矮人' WHERE `id` = 36304;
-UPDATE `npc` SET `name` = '守備隊長', `title` = '守備隊' WHERE `id` = 36305;
-UPDATE `npc` SET `name` = '守備隊員', `title` = '守備隊' WHERE `id` = 36306;
-UPDATE `npc` SET `name` = '守備隊員', `title` = '守備隊' WHERE `id` = 36307;
-UPDATE `npc` SET `name` = '支援隊長', `title` = '支援隊' WHERE `id` = 36308;
-UPDATE `npc` SET `name` = '巫師', `title` = '支援隊' WHERE `id` = 36309;
-UPDATE `npc` SET `name` = '牧師', `title` = '支援隊' WHERE `id` = 36310;
-UPDATE `npc` SET `name` = '弓兵隊長', `title` = '弓兵隊' WHERE `id` = 36311;
-UPDATE `npc` SET `name` = '弓兵隊員', `title` = '弓兵隊' WHERE `id` = 36312;
-UPDATE `npc` SET `name` = '弩砲', `title` = '平原邊境要塞' WHERE `id` = 36313;
-UPDATE `npc` SET `name` = '傭兵隊隊長' WHERE `id` = 36314;
-UPDATE `npc` SET `name` = '傭兵隊士兵' WHERE `id` = 36315;
-UPDATE `npc` SET `name` = '旗桿' WHERE `id` = 36316;
-UPDATE `npc` SET `name` = '監督官', `title` = '死靈的邊境要塞' WHERE `id` = 36317;
-UPDATE `npc` SET `name` = '可疑的商人', `title` = '死靈的邊境要塞' WHERE `id` = 36318;
-UPDATE `npc` SET `name` = '守備隊長', `title` = '死靈的邊境要塞' WHERE `id` = 36319;
-UPDATE `npc` SET `name` = '弓兵隊長', `title` = '死靈的邊境要塞' WHERE `id` = 36320;
-UPDATE `npc` SET `name` = '將軍', `title` = '死靈的邊境要塞' WHERE `id` = 36321;
-UPDATE `npc` SET `name` = '支援隊長', `title` = '死靈的邊境要塞' WHERE `id` = 36322;
-UPDATE `npc` SET `name` = '工兵隊管理員', `title` = '死靈的邊境要塞' WHERE `id` = 36323;
-UPDATE `npc` SET `name` = '補給整備官', `title` = '死靈的邊境要塞' WHERE `id` = 36324;
-UPDATE `npc` SET `name` = '寶物箱子' WHERE `id` = 36325;
-UPDATE `npc` SET `name` = '收容所管理人', `title` = '死靈的邊境要塞' WHERE `id` = 36326;
-UPDATE `npc` SET `name` = '守門人' WHERE `id` = 36327;
-UPDATE `npc` SET `name` = '守門人' WHERE `id` = 36328;
-UPDATE `npc` SET `name` = '守門人' WHERE `id` = 36329;
-UPDATE `npc` SET `name` = '叛亂軍隊長', `title` = '死靈的邊境要塞' WHERE `id` = 36330;
-UPDATE `npc` SET `name` = '叛亂軍精銳兵', `title` = '死靈的邊境要塞' WHERE `id` = 36331;
-UPDATE `npc` SET `name` = '叛亂軍士兵', `title` = '死靈的邊境要塞' WHERE `id` = 36332;
-UPDATE `npc` SET `name` = '禁衛兵', `title` = '死靈的邊境要塞' WHERE `id` = 36333;
-UPDATE `npc` SET `name` = '護衛兵', `title` = '死靈的邊境要塞' WHERE `id` = 36334;
-UPDATE `npc` SET `name` = '主機械裝置', `title` = '控制室' WHERE `id` = 36335;
-UPDATE `npc` SET `name` = '輔助電力裝置', `title` = '控制室' WHERE `id` = 36336;
-UPDATE `npc` SET `name` = '控制裝置', `title` = '控制室' WHERE `id` = 36337;
-UPDATE `npc` SET `name` = '電力控制裝置', `title` = '控制室' WHERE `id` = 36338;
-UPDATE `npc` SET `name` = '砲兵矮人' WHERE `id` = 36339;
-UPDATE `npc` SET `name` = '偵查高崙', `title` = '控制室' WHERE `id` = 36340;
-UPDATE `npc` SET `name` = '守備隊長', `title` = '守備隊' WHERE `id` = 36341;
-UPDATE `npc` SET `name` = '守備隊員', `title` = '守備隊' WHERE `id` = 36342;
-UPDATE `npc` SET `name` = '守備隊員', `title` = '守備隊' WHERE `id` = 36343;
-UPDATE `npc` SET `name` = '支援隊長', `title` = '支援隊' WHERE `id` = 36344;
-UPDATE `npc` SET `name` = '巫師', `title` = '支援隊' WHERE `id` = 36345;
-UPDATE `npc` SET `name` = '牧師', `title` = '支援隊' WHERE `id` = 36346;
-UPDATE `npc` SET `name` = '弓兵隊長', `title` = '弓兵隊' WHERE `id` = 36347;
-UPDATE `npc` SET `name` = '弓兵隊員', `title` = '弓兵隊' WHERE `id` = 36348;
-UPDATE `npc` SET `name` = '將軍', `title` = '將官幕舍' WHERE `id` = 36349;
-UPDATE `npc` SET `name` = '將官', `title` = '將官幕舍' WHERE `id` = 36350;
-UPDATE `npc` SET `name` = '弩砲', `title` = '死靈的邊境要塞' WHERE `id` = 36351;
-UPDATE `npc` SET `name` = '傭兵隊隊長' WHERE `id` = 36352;
-UPDATE `npc` SET `name` = '傭兵隊士兵' WHERE `id` = 36353;
-UPDATE `npc` SET `name` = '旗桿' WHERE `id` = 36354;
-UPDATE `npc` SET `name` = '監督官', `title` = '聖者的邊境要塞' WHERE `id` = 36355;
-UPDATE `npc` SET `name` = '可疑的商人', `title` = '聖者的邊境要塞' WHERE `id` = 36356;
-UPDATE `npc` SET `name` = '守備隊長', `title` = '聖者的邊境要塞' WHERE `id` = 36357;
-UPDATE `npc` SET `name` = '弓兵隊長', `title` = '聖者的邊境要塞' WHERE `id` = 36358;
-UPDATE `npc` SET `name` = '將軍', `title` = '聖者的邊境要塞' WHERE `id` = 36359;
-UPDATE `npc` SET `name` = '支援隊長', `title` = '聖者的邊境要塞' WHERE `id` = 36360;
-UPDATE `npc` SET `name` = '工兵隊管理員', `title` = '聖者的邊境要塞' WHERE `id` = 36361;
-UPDATE `npc` SET `name` = '補給整備官', `title` = '聖者的邊境要塞' WHERE `id` = 36362;
-UPDATE `npc` SET `name` = '寶物箱子' WHERE `id` = 36363;
-UPDATE `npc` SET `name` = '收容所管理人', `title` = '聖者的邊境要塞' WHERE `id` = 36364;
-UPDATE `npc` SET `name` = '守門人' WHERE `id` = 36365;
-UPDATE `npc` SET `name` = '守門人' WHERE `id` = 36366;
-UPDATE `npc` SET `name` = '守門人' WHERE `id` = 36367;
-UPDATE `npc` SET `name` = '叛亂軍隊長', `title` = '聖者的邊境要塞' WHERE `id` = 36368;
-UPDATE `npc` SET `name` = '叛亂軍精銳兵', `title` = '聖者的邊境要塞' WHERE `id` = 36369;
-UPDATE `npc` SET `name` = '叛亂軍士兵', `title` = '聖者的邊境要塞' WHERE `id` = 36370;
-UPDATE `npc` SET `name` = '禁衛兵', `title` = '聖者的邊境要塞' WHERE `id` = 36371;
-UPDATE `npc` SET `name` = '護衛兵', `title` = '聖者的邊境要塞' WHERE `id` = 36372;
-UPDATE `npc` SET `name` = '主機械裝置', `title` = '控制室' WHERE `id` = 36373;
-UPDATE `npc` SET `name` = '輔助電力裝置', `title` = '控制室' WHERE `id` = 36374;
-UPDATE `npc` SET `name` = '控制裝置', `title` = '控制室' WHERE `id` = 36375;
-UPDATE `npc` SET `name` = '電力控制裝置', `title` = '控制室' WHERE `id` = 36376;
-UPDATE `npc` SET `name` = '砲兵矮人' WHERE `id` = 36377;
-UPDATE `npc` SET `name` = '偵查高崙', `title` = '控制室' WHERE `id` = 36378;
-UPDATE `npc` SET `name` = '守備隊長', `title` = '守備隊' WHERE `id` = 36379;
-UPDATE `npc` SET `name` = '守備隊員', `title` = '守備隊' WHERE `id` = 36380;
-UPDATE `npc` SET `name` = '守備隊員', `title` = '守備隊' WHERE `id` = 36381;
-UPDATE `npc` SET `name` = '支援隊長', `title` = '支援隊' WHERE `id` = 36382;
-UPDATE `npc` SET `name` = '巫師', `title` = '支援隊' WHERE `id` = 36383;
-UPDATE `npc` SET `name` = '牧師', `title` = '支援隊' WHERE `id` = 36384;
-UPDATE `npc` SET `name` = '弓兵隊長', `title` = '弓兵隊' WHERE `id` = 36385;
-UPDATE `npc` SET `name` = '弓兵隊員', `title` = '弓兵隊' WHERE `id` = 36386;
-UPDATE `npc` SET `name` = '將軍', `title` = '將官幕舍' WHERE `id` = 36387;
-UPDATE `npc` SET `name` = '將官', `title` = '將官幕舍' WHERE `id` = 36388;
-UPDATE `npc` SET `name` = '弩砲', `title` = '聖者的邊境要塞' WHERE `id` = 36389;
-UPDATE `npc` SET `name` = '傭兵隊隊長' WHERE `id` = 36390;
-UPDATE `npc` SET `name` = '傭兵隊士兵' WHERE `id` = 36391;
-UPDATE `npc` SET `name` = '工作炸彈' WHERE `id` = 36392;
-UPDATE `npc` SET `name` = '特使', `title` = '古魯丁' WHERE `id` = 36393;
-UPDATE `npc` SET `name` = '特使', `title` = '古魯丁' WHERE `id` = 36394;
-UPDATE `npc` SET `name` = '特使', `title` = '狄恩' WHERE `id` = 36395;
-UPDATE `npc` SET `name` = '特使', `title` = '奇岩' WHERE `id` = 36396;
-UPDATE `npc` SET `name` = '特使', `title` = '歐瑞' WHERE `id` = 36397;
-UPDATE `npc` SET `name` = '特使', `title` = '亞丁' WHERE `id` = 36398;
-UPDATE `npc` SET `name` = '特使', `title` = '亞丁' WHERE `id` = 36399;
-UPDATE `npc` SET `name` = '特使', `title` = '因納得立' WHERE `id` = 36400;
-UPDATE `npc` SET `name` = '特使', `title` = '高達特' WHERE `id` = 36401;
-UPDATE `npc` SET `name` = '奧林匹亞執行者' WHERE `id` = 36402;
-UPDATE `npc` SET `name` = '監獄管理員', `title` = '古魯丁' WHERE `id` = 36403;
-UPDATE `npc` SET `name` = '監獄管理員', `title` = '狄恩' WHERE `id` = 36404;
-UPDATE `npc` SET `name` = '監獄管理員', `title` = '奇岩' WHERE `id` = 36405;
-UPDATE `npc` SET `name` = '監獄管理員', `title` = '歐瑞' WHERE `id` = 36406;
-UPDATE `npc` SET `name` = '監獄管理員', `title` = '亞丁' WHERE `id` = 36407;
-UPDATE `npc` SET `name` = '監獄管理員', `title` = '因納得立' WHERE `id` = 36408;
-UPDATE `npc` SET `name` = '監獄管理員', `title` = '高達特' WHERE `id` = 36409;
-UPDATE `npc` SET `name` = '監獄管理員', `title` = '魯因' WHERE `id` = 36410;
-UPDATE `npc` SET `name` = '監獄管理員', `title` = '修加特' WHERE `id` = 36411;
-UPDATE `npc` SET `name` = '要塞陷阱' WHERE `id` = 36412;
-UPDATE `npc` SET `name` = '要塞陷阱' WHERE `id` = 36413;
-UPDATE `npc` SET `name` = '要塞陷阱' WHERE `id` = 36414;
-UPDATE `npc` SET `name` = '要塞陷阱' WHERE `id` = 36415;
-UPDATE `npc` SET `name` = '要塞陷阱' WHERE `id` = 36416;
-UPDATE `npc` SET `name` = '要塞陷阱' WHERE `id` = 36417;
-UPDATE `npc` SET `name` = '要塞陷阱' WHERE `id` = 36418;
-UPDATE `npc` SET `name` = '要塞陷阱' WHERE `id` = 36419;
-UPDATE `npc` SET `name` = '要塞陷阱' WHERE `id` = 36420;
-UPDATE `npc` SET `name` = '要塞陷阱' WHERE `id` = 36421;
-UPDATE `npc` SET `name` = '要塞陷阱' WHERE `id` = 36422;
-UPDATE `npc` SET `name` = '要塞陷阱' WHERE `id` = 36423;
-UPDATE `npc` SET `name` = '要塞陷阱' WHERE `id` = 36424;
-UPDATE `npc` SET `name` = '要塞陷阱' WHERE `id` = 36425;
-UPDATE `npc` SET `name` = '要塞陷阱' WHERE `id` = 36426;
-UPDATE `npc` SET `name` = '要塞陷阱' WHERE `id` = 36427;
-UPDATE `npc` SET `name` = '要塞陷阱' WHERE `id` = 36428;
-UPDATE `npc` SET `name` = '要塞陷阱' WHERE `id` = 36429;
-UPDATE `npc` SET `name` = '要塞陷阱' WHERE `id` = 36430;
-UPDATE `npc` SET `name` = '要塞陷阱' WHERE `id` = 36431;
-UPDATE `npc` SET `name` = '要塞陷阱' WHERE `id` = 36432;
-UPDATE `npc` SET `name` = '特使', `title` = '魯因' WHERE `id` = 36433;
-UPDATE `npc` SET `name` = '特使', `title` = '修加特' WHERE `id` = 36434;
-UPDATE `npc` SET `name` = '特使', `title` = '古魯丁' WHERE `id` = 36435;
-UPDATE `npc` SET `name` = '特使', `title` = '狄恩' WHERE `id` = 36436;
-UPDATE `npc` SET `name` = '特使', `title` = '古魯丁' WHERE `id` = 36437;
-UPDATE `npc` SET `name` = '特使', `title` = '歐瑞' WHERE `id` = 36438;
-UPDATE `npc` SET `name` = '特使', `title` = '狄恩' WHERE `id` = 36439;
-UPDATE `npc` SET `name` = '特使', `title` = '奇岩' WHERE `id` = 36440;
-UPDATE `npc` SET `name` = '特使', `title` = '狄恩' WHERE `id` = 36441;
-UPDATE `npc` SET `name` = '特使', `title` = '歐瑞' WHERE `id` = 36442;
-UPDATE `npc` SET `name` = '特使', `title` = '歐瑞' WHERE `id` = 36443;
-UPDATE `npc` SET `name` = '特使', `title` = '奇岩' WHERE `id` = 36444;
-UPDATE `npc` SET `name` = '特使', `title` = '亞丁' WHERE `id` = 36445;
-UPDATE `npc` SET `name` = '特使', `title` = '歐瑞' WHERE `id` = 36446;
-UPDATE `npc` SET `name` = '特使', `title` = '高達特' WHERE `id` = 36447;
-UPDATE `npc` SET `name` = '特使', `title` = '亞丁' WHERE `id` = 36448;
-UPDATE `npc` SET `name` = '特使', `title` = '奇岩' WHERE `id` = 36449;
-UPDATE `npc` SET `name` = '特使', `title` = '因納得立' WHERE `id` = 36450;
-UPDATE `npc` SET `name` = '特使', `title` = '奇岩' WHERE `id` = 36451;
-UPDATE `npc` SET `name` = '特使', `title` = '魯因' WHERE `id` = 36452;
-UPDATE `npc` SET `name` = '特使', `title` = '高達特' WHERE `id` = 36453;
-UPDATE `npc` SET `name` = '特使', `title` = '魯因' WHERE `id` = 36454;
-UPDATE `npc` SET `name` = '特使', `title` = '修加特' WHERE `id` = 36455;
-UPDATE `npc` SET `name` = '莊園管理員', `title` = '亞丁' WHERE `id` = 36456;
-UPDATE `npc` SET `name` = '飛龍管理員', `title` = '野營要塞' WHERE `id` = 36457;
-UPDATE `npc` SET `name` = '飛龍管理員', `title` = '古魯丁南部要塞' WHERE `id` = 36458;
-UPDATE `npc` SET `name` = '飛龍管理員', `title` = '蜂窩要塞' WHERE `id` = 36459;
-UPDATE `npc` SET `name` = '飛龍管理員', `title` = '峽谷要塞' WHERE `id` = 36460;
-UPDATE `npc` SET `name` = '飛龍管理員', `title` = '象牙塔要塞' WHERE `id` = 36461;
-UPDATE `npc` SET `name` = '飛龍管理員', `title` = '湖泊要塞' WHERE `id` = 36462;
-UPDATE `npc` SET `name` = '飛龍管理員', `title` = '盆地要塞' WHERE `id` = 36463;
-UPDATE `npc` SET `name` = '飛龍管理員', `title` = '白沙灘要塞' WHERE `id` = 36464;
-UPDATE `npc` SET `name` = '飛龍管理員', `title` = '前哨基地要塞' WHERE `id` = 36465;
-UPDATE `npc` SET `name` = '飛龍管理員', `title` = '沼澤要塞' WHERE `id` = 36466;
-UPDATE `npc` SET `name` = '飛龍管理員', `title` = '遺蹟要塞' WHERE `id` = 36467;
-UPDATE `npc` SET `name` = '飛龍管理員', `title` = '芙羅蘭邊境要塞' WHERE `id` = 36468;
-UPDATE `npc` SET `name` = '飛龍管理員', `title` = '薄霧山脈邊境要塞' WHERE `id` = 36469;
-UPDATE `npc` SET `name` = '飛龍管理員', `title` = '塔諾邊境要塞' WHERE `id` = 36470;
-UPDATE `npc` SET `name` = '飛龍管理員', `title` = '巨龍士伯吟邊境要塞' WHERE `id` = 36471;
-UPDATE `npc` SET `name` = '飛龍管理員', `title` = '地龍的邊境要塞' WHERE `id` = 36472;
-UPDATE `npc` SET `name` = '飛龍管理員', `title` = '西部國境邊境要塞' WHERE `id` = 36473;
-UPDATE `npc` SET `name` = '飛龍管理員', `title` = '獵人的邊境要塞' WHERE `id` = 36474;
-UPDATE `npc` SET `name` = '飛龍管理員', `title` = '平原邊境要塞' WHERE `id` = 36475;
-UPDATE `npc` SET `name` = '飛龍管理員', `title` = '死靈的邊境要塞' WHERE `id` = 36476;
-UPDATE `npc` SET `name` = '飛龍管理員', `title` = '聖者的邊境要塞' WHERE `id` = 36477;
-UPDATE `npc` SET `name` = '米奇', `title` = '寵物交換員' WHERE `id` = 36478;
-UPDATE `npc` SET `name` = '雷皮都斯', `title` = '聲望管理員' WHERE `id` = 36479;
-UPDATE `npc` SET `name` = '史奇皮歐', `title` = '聲望管理員' WHERE `id` = 36480;
-UPDATE `npc` SET `name` = '傭兵隊隊長', `title` = '古魯丁' WHERE `id` = 36481;
-UPDATE `npc` SET `name` = '傭兵隊隊長', `title` = '狄恩' WHERE `id` = 36482;
-UPDATE `npc` SET `name` = '傭兵隊隊長', `title` = '奇岩' WHERE `id` = 36483;
-UPDATE `npc` SET `name` = '傭兵隊隊長', `title` = '歐瑞' WHERE `id` = 36484;
-UPDATE `npc` SET `name` = '傭兵隊隊長', `title` = '亞丁' WHERE `id` = 36485;
-UPDATE `npc` SET `name` = '傭兵隊隊長', `title` = '因納得立' WHERE `id` = 36486;
-UPDATE `npc` SET `name` = '傭兵隊隊長', `title` = '高達特' WHERE `id` = 36487;
-UPDATE `npc` SET `name` = '傭兵隊隊長', `title` = '魯因' WHERE `id` = 36488;
-UPDATE `npc` SET `name` = '傭兵隊隊長', `title` = '修加特' WHERE `id` = 36489;
-UPDATE `npc` SET `name` = '領地管理員', `title` = '古魯丁' WHERE `id` = 36490;
-UPDATE `npc` SET `name` = '領地管理員', `title` = '狄恩' WHERE `id` = 36491;
-UPDATE `npc` SET `name` = '領地管理員', `title` = '奇岩' WHERE `id` = 36492;
-UPDATE `npc` SET `name` = '領地管理員', `title` = '歐瑞' WHERE `id` = 36493;
-UPDATE `npc` SET `name` = '領地管理員', `title` = '亞丁' WHERE `id` = 36494;
-UPDATE `npc` SET `name` = '領地管理員', `title` = '因納得立' WHERE `id` = 36495;
-UPDATE `npc` SET `name` = '領地管理員', `title` = '高達特' WHERE `id` = 36496;
-UPDATE `npc` SET `name` = '領地管理員', `title` = '魯因' WHERE `id` = 36497;
-UPDATE `npc` SET `name` = '領地管理員', `title` = '修加特' WHERE `id` = 36498;
-UPDATE `npc` SET `name` = '領地投石機', `title` = '古魯丁' WHERE `id` = 36499;
-UPDATE `npc` SET `name` = '領地投石機', `title` = '狄恩' WHERE `id` = 36500;
-UPDATE `npc` SET `name` = '領地投石機', `title` = '奇岩' WHERE `id` = 36501;
-UPDATE `npc` SET `name` = '領地投石機', `title` = '歐瑞' WHERE `id` = 36502;
-UPDATE `npc` SET `name` = '領地投石機', `title` = '亞丁' WHERE `id` = 36503;
-UPDATE `npc` SET `name` = '領地投石機', `title` = '因納得立' WHERE `id` = 36504;
-UPDATE `npc` SET `name` = '領地投石機', `title` = '高達特' WHERE `id` = 36505;
-UPDATE `npc` SET `name` = '領地投石機', `title` = '魯因' WHERE `id` = 36506;
-UPDATE `npc` SET `name` = '領地投石機', `title` = '修加特' WHERE `id` = 36507;
-UPDATE `npc` SET `name` = '軍事聯合長', `title` = '古魯丁' WHERE `id` = 36508;
-UPDATE `npc` SET `name` = '領地警衛', `title` = '古魯丁' WHERE `id` = 36509;
-UPDATE `npc` SET `name` = '宗教聯合長', `title` = '古魯丁' WHERE `id` = 36510;
-UPDATE `npc` SET `name` = '領地護衛兵', `title` = '古魯丁' WHERE `id` = 36511;
-UPDATE `npc` SET `name` = '領地警衛', `title` = '古魯丁' WHERE `id` = 36512;
-UPDATE `npc` SET `name` = '經濟聯合長', `title` = '古魯丁' WHERE `id` = 36513;
-UPDATE `npc` SET `name` = '軍事聯合長', `title` = '狄恩' WHERE `id` = 36514;
-UPDATE `npc` SET `name` = '領地警衛', `title` = '狄恩' WHERE `id` = 36515;
-UPDATE `npc` SET `name` = '宗教聯合長', `title` = '狄恩' WHERE `id` = 36516;
-UPDATE `npc` SET `name` = '領地護衛兵', `title` = '狄恩' WHERE `id` = 36517;
-UPDATE `npc` SET `name` = '領地警衛', `title` = '狄恩' WHERE `id` = 36518;
-UPDATE `npc` SET `name` = '經濟聯合長', `title` = '狄恩' WHERE `id` = 36519;
-UPDATE `npc` SET `name` = '軍事聯合長', `title` = '奇岩' WHERE `id` = 36520;
-UPDATE `npc` SET `name` = '領地警衛', `title` = '奇岩' WHERE `id` = 36521;
-UPDATE `npc` SET `name` = '宗教聯合長', `title` = '奇岩' WHERE `id` = 36522;
-UPDATE `npc` SET `name` = '領地護衛兵', `title` = '奇岩' WHERE `id` = 36523;
-UPDATE `npc` SET `name` = '領地警衛', `title` = '奇岩' WHERE `id` = 36524;
-UPDATE `npc` SET `name` = '經濟聯合長', `title` = '奇岩' WHERE `id` = 36525;
-UPDATE `npc` SET `name` = '軍事聯合長', `title` = '歐瑞' WHERE `id` = 36526;
-UPDATE `npc` SET `name` = '領地警衛', `title` = '歐瑞' WHERE `id` = 36527;
-UPDATE `npc` SET `name` = '宗教聯合長', `title` = '歐瑞' WHERE `id` = 36528;
-UPDATE `npc` SET `name` = '領地護衛兵', `title` = '歐瑞' WHERE `id` = 36529;
-UPDATE `npc` SET `name` = '領地警衛', `title` = '歐瑞' WHERE `id` = 36530;
-UPDATE `npc` SET `name` = '經濟聯合長', `title` = '歐瑞' WHERE `id` = 36531;
-UPDATE `npc` SET `name` = '軍事聯合長', `title` = '亞丁' WHERE `id` = 36532;
-UPDATE `npc` SET `name` = '領地警衛', `title` = '亞丁' WHERE `id` = 36533;
-UPDATE `npc` SET `name` = '宗教聯合長', `title` = '亞丁' WHERE `id` = 36534;
-UPDATE `npc` SET `name` = '領地護衛兵', `title` = '亞丁' WHERE `id` = 36535;
-UPDATE `npc` SET `name` = '領地警衛', `title` = '亞丁' WHERE `id` = 36536;
-UPDATE `npc` SET `name` = '經濟聯合長', `title` = '亞丁' WHERE `id` = 36537;
-UPDATE `npc` SET `name` = '軍事聯合長', `title` = '因納得立' WHERE `id` = 36538;
-UPDATE `npc` SET `name` = '領地警衛', `title` = '因納得立' WHERE `id` = 36539;
-UPDATE `npc` SET `name` = '宗教聯合長', `title` = '因納得立' WHERE `id` = 36540;
-UPDATE `npc` SET `name` = '領地護衛兵', `title` = '因納得立' WHERE `id` = 36541;
-UPDATE `npc` SET `name` = '領地警衛', `title` = '因納得立' WHERE `id` = 36542;
-UPDATE `npc` SET `name` = '經濟聯合長', `title` = '因納得立' WHERE `id` = 36543;
-UPDATE `npc` SET `name` = '軍事聯合長', `title` = '高達特' WHERE `id` = 36544;
-UPDATE `npc` SET `name` = '領地警衛', `title` = '高達特' WHERE `id` = 36545;
-UPDATE `npc` SET `name` = '宗教聯合長', `title` = '高達特' WHERE `id` = 36546;
-UPDATE `npc` SET `name` = '領地護衛兵', `title` = '高達特' WHERE `id` = 36547;
-UPDATE `npc` SET `name` = '領地警衛', `title` = '高達特' WHERE `id` = 36548;
-UPDATE `npc` SET `name` = '經濟聯合長', `title` = '高達特' WHERE `id` = 36549;
-UPDATE `npc` SET `name` = '軍事聯合長', `title` = '魯因' WHERE `id` = 36550;
-UPDATE `npc` SET `name` = '領地警衛', `title` = '魯因' WHERE `id` = 36551;
-UPDATE `npc` SET `name` = '宗教聯合長', `title` = '魯因' WHERE `id` = 36552;
-UPDATE `npc` SET `name` = '領地護衛兵', `title` = '魯因' WHERE `id` = 36553;
-UPDATE `npc` SET `name` = '領地警衛', `title` = '魯因' WHERE `id` = 36554;
-UPDATE `npc` SET `name` = '經濟聯合長', `title` = '魯因' WHERE `id` = 36555;
-UPDATE `npc` SET `name` = '軍事聯合長', `title` = '修加特' WHERE `id` = 36556;
-UPDATE `npc` SET `name` = '領地警衛', `title` = '修加特' WHERE `id` = 36557;
-UPDATE `npc` SET `name` = '宗教聯合長', `title` = '修加特' WHERE `id` = 36558;
-UPDATE `npc` SET `name` = '領地護衛兵', `title` = '修加特' WHERE `id` = 36559;
-UPDATE `npc` SET `name` = '領地警衛', `title` = '修加特' WHERE `id` = 36560;
-UPDATE `npc` SET `name` = '經濟聯合長', `title` = '修加特' WHERE `id` = 36561;
-UPDATE `npc` SET `name` = '被迷惑的騎士', `title` = '犧牲者' WHERE `id` = 36562;
-UPDATE `npc` SET `name` = '被迷惑的遊俠', `title` = '犧牲者' WHERE `id` = 36563;
-UPDATE `npc` SET `name` = '被迷惑的法師', `title` = '犧牲者' WHERE `id` = 36564;
-UPDATE `npc` SET `name` = '被迷惑的鬥士', `title` = '犧牲者' WHERE `id` = 36565;
-UPDATE `npc` SET `name` = '被迷惑的騎士', `title` = '犧牲者' WHERE `id` = 36566;
-UPDATE `npc` SET `name` = '被迷惑的遊俠', `title` = '犧牲者' WHERE `id` = 36567;
-UPDATE `npc` SET `name` = '被迷惑的法師', `title` = '犧牲者' WHERE `id` = 36568;
-UPDATE `npc` SET `name` = '被迷惑的鬥士', `title` = '犧牲者' WHERE `id` = 36569;
-UPDATE `npc` SET `name` = '金剛砂凝結器', `title` = '裂縫' WHERE `id` = 36570;
-UPDATE `npc` SET `name` = '旋流', `title` = '裂縫' WHERE `id` = 36571;
-UPDATE `npc` SET `name` = '古魯丁的守護物' WHERE `id` = 36572;
-UPDATE `npc` SET `name` = '狄恩的守護物' WHERE `id` = 36573;
-UPDATE `npc` SET `name` = '奇岩的守護物' WHERE `id` = 36574;
-UPDATE `npc` SET `name` = '歐瑞的守護物' WHERE `id` = 36575;
-UPDATE `npc` SET `name` = '亞丁的守護物' WHERE `id` = 36576;
-UPDATE `npc` SET `name` = '因納得立的守護物' WHERE `id` = 36577;
-UPDATE `npc` SET `name` = '高達特的守護物' WHERE `id` = 36578;
-UPDATE `npc` SET `name` = '魯因的守護物' WHERE `id` = 36579;
-UPDATE `npc` SET `name` = '修加特的守護物' WHERE `id` = 36580;
-UPDATE `npc` SET `name` = '領地投石機', `title` = '古魯丁' WHERE `id` = 36581;
-UPDATE `npc` SET `name` = '領地投石機', `title` = '狄恩' WHERE `id` = 36582;
-UPDATE `npc` SET `name` = '領地投石機', `title` = '奇岩' WHERE `id` = 36583;
-UPDATE `npc` SET `name` = '領地投石機', `title` = '歐瑞' WHERE `id` = 36584;
-UPDATE `npc` SET `name` = '領地投石機', `title` = '亞丁' WHERE `id` = 36585;
-UPDATE `npc` SET `name` = '領地投石機', `title` = '因納得立' WHERE `id` = 36586;
-UPDATE `npc` SET `name` = '領地投石機', `title` = '高達特' WHERE `id` = 36587;
-UPDATE `npc` SET `name` = '領地投石機', `title` = '魯因' WHERE `id` = 36588;
-UPDATE `npc` SET `name` = '領地投石機', `title` = '修加特' WHERE `id` = 36589;
-UPDATE `npc` SET `name` = '前哨基地' WHERE `id` = 36590;
-UPDATE `npc` SET `name` = '補給品保管箱' WHERE `id` = 36591;
-UPDATE `npc` SET `name` = '補給品保管箱' WHERE `id` = 36592;
-UPDATE `npc` SET `name` = '補給品保管箱' WHERE `id` = 36593;
-UPDATE `npc` SET `name` = '補給品保管箱' WHERE `id` = 36594;
-UPDATE `npc` SET `name` = '補給品保管箱' WHERE `id` = 36595;
-UPDATE `npc` SET `name` = '補給品保管箱' WHERE `id` = 36596;
-UPDATE `npc` SET `name` = '補給品保管箱' WHERE `id` = 36597;
-UPDATE `npc` SET `name` = '補給品保管箱' WHERE `id` = 36598;
-UPDATE `npc` SET `name` = '補給品保管箱' WHERE `id` = 36599;
+DROP TABLE IF EXISTS `npc_name`;
+CREATE TABLE `npc_name` (
+  `id` int(5) NOT NULL default '0',
+  `name` varchar(50) NOT NULL default '',
+  `title` varchar(50) NOT NULL default '',
+  PRIMARY KEY  (`id`)
+) DEFAULT CHARSET=utf8;
 
+-- ----------------------------
+-- Records of npc_name
+-- ----------------------------
+INSERT INTO `npc_name` VALUES
+(20001, '葛林', ''),
+(20002, '兔子', ''),
+(20003, '哥布林', ''),
+(20004, '安普', ''),
+(20005, '安普圖倫', ''),
+(20006, '獸人弓箭手', ''),
+(20007, '森林蘑菇', ''),
+(20008, '菲林蜥蜴人', ''),
+(20009, '普庫獸人', ''),
+(20010, '菲林蜥蜴人巡守', ''),
+(20011, '普庫獸人弓箭手', ''),
+(20012, '萊斯狼人', ''),
+(20013, '樹精', ''),
+(20014, '菲林蜥蜴人戰士', ''),
+(20015, '沼澤殭屍', ''),
+(20016, '岩石高崙', ''),
+(20017, '普庫獸人戰士', ''),
+(20018, '食人蘑菇', ''),
+(20019, '樹精利比', ''),
+(20020, '沼澤殭屍偵查員', ''),
+(20021, '紅毛熊', ''),
+(20022, '戰慄搜尋者', ''),
+(20023, '黑豹', ''),
+(20024, '朗克蜥蜴人戰士', ''),
+(20025, '亞黑暗鐮刀', ''),
+(20026, '廢墟殭屍', ''),
+(20027, '朗克蜥蜴人巡守', ''),
+(20028, '路行蜘蛛', ''),
+(20029, '廢墟殭屍頭目', ''),
+(20030, '朗克蜥蜴人', ''),
+(20031, '瑪瑙獸', ''),
+(20032, '大蜘蛛', ''),
+(20033, '影之鐮刀', ''),
+(20034, '蜘蛛攔截者', ''),
+(20035, '骷髏搜查兵', ''),
+(20036, '風精', ''),
+(20037, '瑪那吸血鬼', ''),
+(20038, '巨大毒蜘蛛', ''),
+(20039, '食腐鼠人', ''),
+(20040, '斯卡鼠人', ''),
+(20041, '腐爛殭屍', ''),
+(20042, '骷髏搜查兵隊長', ''),
+(20043, '縛毒蜘蛛', ''),
+(20044, '風精圖倫', ''),
+(20045, '骷髏巡守', ''),
+(20046, '血色殭屍', ''),
+(20047, '斯卡鼠人隊長', ''),
+(20048, '小魅魔', ''),
+(20049, '獸化狼人', ''),
+(20050, '劇毒掠奪者', ''),
+(20051, '骷髏射手', ''),
+(20052, '小魅魔圖倫', ''),
+(20053, '豺狼巡邏員', ''),
+(20054, '廢墟史巴托', ''),
+(20055, '監視者', ''),
+(20056, '德雷巴奴破壞者', ''),
+(20057, '小魅魔堤佛', ''),
+(20058, '豺狼警衛兵', ''),
+(20059, '巡邏者', ''),
+(20060, '狂怒的史巴托', ''),
+(20061, '豺狼殘存者', ''),
+(20062, '突倫食人妖', ''),
+(20063, '豺狼射手', ''),
+(20064, '突倫食人妖戰士', ''),
+(20065, '豺狼巡守', ''),
+(20066, '豺狼軍官', ''),
+(20067, '觀察者', ''),
+(20068, '搜索者', ''),
+(20069, '西魯蜥蜴人巡守', ''),
+(20070, '邪惡蜥蜴', ''),
+(20071, '西魯蜥蜴人戰士', ''),
+(20072, '劇毒邪惡蜥蜴', ''),
+(20073, '豺狼軍團兵', ''),
+(20074, '毒蠍', ''),
+(20075, '幼蟻', ''),
+(20076, '豺狼指揮官', ''),
+(20077, '狩獵毒蠍', ''),
+(20078, '風之細語', ''),
+(20079, '工蟻', ''),
+(20080, '工蟻隊長', ''),
+(20081, '工蟻監督者', ''),
+(20082, '兵蟻新兵', ''),
+(20083, '花崗石高崙', ''),
+(20084, '兵蟻斥候', ''),
+(20085, '破壞者', ''),
+(20086, '兵蟻警衛', ''),
+(20087, '兵蟻', ''),
+(20088, '兵蟻隊長', ''),
+(20089, '雄蟻', ''),
+(20090, '雄蟻隊長', ''),
+(20091, '幼狐狸', ''),
+(20092, '眼怪', ''),
+(20093, '獸人鬥士', ''),
+(20094, '獸人射手', ''),
+(20095, '吸血蝙蝠', ''),
+(20096, '獸人鬥士副隊長', ''),
+(20097, '長齒蝙蝠', ''),
+(20098, '獸人鬥士隊長', ''),
+(20099, '骷髏', ''),
+(20100, '骷髏弓箭手', ''),
+(20101, '碎裂者', ''),
+(20102, '骷髏狙擊兵', ''),
+(20103, '巨大蜘蛛', ''),
+(20104, '骷髏偵查員', ''),
+(20105, '黑暗鐮刀', ''),
+(20106, '戮殺者', ''),
+(20107, '鼠人', ''),
+(20108, '撕裂者', ''),
+(20109, '火蜥蜴', ''),
+(20110, '水精', ''),
+(20111, '鼠人副隊長', ''),
+(20112, '火蜥蜴利比', ''),
+(20113, '水精利比', ''),
+(20114, '火蜥蜴夷巴', ''),
+(20115, '水精夷巴', ''),
+(20116, '狐狸', ''),
+(20117, '德雷巴奴', ''),
+(20118, '德雷巴奴巡守', ''),
+(20119, '狐狸首領', ''),
+(20120, '狼', ''),
+(20121, '巨大蛤蟆', ''),
+(20130, '獸人', ''),
+(20131, '獸人士兵', ''),
+(20132, '狼人', ''),
+(20133, '食人妖', ''),
+(20134, '蛇人之后', ''),
+(20135, '鱷魚', ''),
+(20136, '死亡騎士', ''),
+(20137, '飛龍', ''),
+(20138, '翼魔', ''),
+(20139, '巨大蜜蜂', ''),
+(20140, '巨大水蛭', ''),
+(20141, '巨大野豬', ''),
+(20142, '獅鷲', ''),
+(20143, '灰熊', ''),
+(20144, '死亡之樹', ''),
+(20145, '鳥妖', ''),
+(20146, '無頭騎士', ''),
+(20147, '哈柏哥布林', ''),
+(20148, '餓靈', ''),
+(20149, '鋼鐵高崙', ''),
+(20150, '食人妖王', ''),
+(20151, '地靈', ''),
+(20152, '蜥蜴人', ''),
+(20153, '魔翼', ''),
+(20154, '曼陀羅草', ''),
+(20155, '曼陀羅草成體', ''),
+(20156, '曼陀羅草完全體', ''),
+(20157, '沼澤司塔卡拓', ''),
+(20158, '梅杜莎', ''),
+(20159, '牛人', ''),
+(20160, '尼勒鋼爪', ''),
+(20161, '奧耶豺狼', ''),
+(20162, '食人魔', ''),
+(20163, '豺狼', ''),
+(20164, '豺狼弓箭手', ''),
+(20165, '豺狼擁護者', ''),
+(20166, '魅魔', ''),
+(20167, '蛇人奴隸', ''),
+(20168, '賽勒諾斯', ''),
+(20169, '骷髏警衛', ''),
+(20170, '史巴托', ''),
+(20171, '幽靈鐮刀', ''),
+(20172, '風妖精', ''),
+(20173, '巨魔', ''),
+(20174, '雙頭巨人', ''),
+(20175, '蘑菇', ''),
+(20176, '亞龍', ''),
+(20177, '人形殭屍', ''),
+(20189, '水晶獅', ''),
+(20190, '骷髏神射手', ''),
+(20191, '骷髏兵', ''),
+(20192, '暴君', ''),
+(20193, '暴君之王', ''),
+(20194, '水精女王', ''),
+(20197, '幽魂', ''),
+(20198, '尼勒鋼爪弗雷克', ''),
+(20199, '安柏邪惡蜥蜴', ''),
+(20200, '倦靈', ''),
+(20201, '食屍鬼', ''),
+(20202, '死亡追蹤者', ''),
+(20203, '狄恩灰熊', ''),
+(20204, '血腥蜜蜂', ''),
+(20205, '惡狼', ''),
+(20206, '卡地普狼人', ''),
+(20207, '豺狼游擊隊', ''),
+(20208, '豺狼突擊兵', ''),
+(20209, '豺狼狙擊兵', ''),
+(20210, '豺狼副隊長', ''),
+(20211, '豺狼隊長', ''),
+(20212, '突魯馬克', '豺狼王'),
+(20213, '破塔', ''),
+(20214, '艾斯庫洛', ''),
+(20215, '莫狄奧', ''),
+(20216, '里森席歐', ''),
+(20217, '克雷特', ''),
+(20218, '普勒摩', ''),
+(20219, '瓦里達斯', ''),
+(20220, '迪克爾', ''),
+(20221, '匹黎姆', ''),
+(20222, '特菲', ''),
+(20223, '曼陀羅草新芽', ''),
+(20224, '豺狼巡邏兵', ''),
+(20225, '米斯巨大水蛭', ''),
+(20226, '古代螞蟻', ''),
+(20227, '薄霧撕裂者', ''),
+(20228, '赤螞蟻', ''),
+(20229, '奇異蜜蜂', ''),
+(20230, '沼澤司塔卡拓工人', ''),
+(20231, '安皮克奧', ''),
+(20232, '沼澤司塔卡拓士兵', ''),
+(20233, '沼澤蜘蛛', ''),
+(20234, '雄性沼澤司塔卡拓', ''),
+(20235, '束縛靈', ''),
+(20236, '洞穴僕人', ''),
+(20237, '洞穴僕人弓箭手', ''),
+(20238, '洞穴僕人戰士', ''),
+(20239, '洞穴僕人隊長', ''),
+(20240, '貴族洞穴僕人', ''),
+(20241, '狩獵翼魔', ''),
+(20242, '塵爆', ''),
+(20243, '雷亞龍', ''),
+(20244, '瑪魯克魅魔', ''),
+(20245, '瑪魯克魅魔圖倫', ''),
+(20246, '洞穴守衛', ''),
+(20248, '突倫克食人妖', ''),
+(20249, '突倫克食人妖戰士', ''),
+(20250, '玻璃虎', ''),
+(20251, '德魯蜥蜴人', ''),
+(20252, '德魯蜥蜴人巡守', ''),
+(20253, '德魯蜥蜴人戰士', ''),
+(20254, '骷髏斧手', ''),
+(20255, '巴吐獸人', ''),
+(20256, '巴吐獸人弓箭手', ''),
+(20257, '巴吐獸人戰士', ''),
+(20258, '巴吐獸人巫師', ''),
+(20259, '巴吐獸人王', ''),
+(20260, '獸人英雄', ''),
+(20261, '獸人巫師', ''),
+(20265, '眼怪搜索者', ''),
+(20266, '眼怪凝視者', ''),
+(20267, '布賴卡獸人', ''),
+(20268, '布賴卡獸人弓箭手', ''),
+(20269, '布賴卡獸人巫師', ''),
+(20270, '布賴卡獸人王', ''),
+(20271, '布賴卡獸人戰士', ''),
+(20272, '洞穴僕人', ''),
+(20273, '洞穴僕人弓箭手', ''),
+(20274, '洞穴僕人戰士', ''),
+(20275, '洞穴僕人隊長', ''),
+(20276, '貴族洞穴僕人', ''),
+(20277, '洞穴守衛', ''),
+(20279, '束縛靈', ''),
+(20280, '無頭騎士', ''),
+(20281, '塵爆', ''),
+(20282, '雷亞龍', ''),
+(20283, '瑪魯克魅魔', ''),
+(20284, '瑪魯克魅魔圖倫', ''),
+(20285, '飛龍', ''),
+(20286, '狩獵翼魔', ''),
+(20287, '蛇人之后', ''),
+(20291, '安庫獸人英雄', ''),
+(20292, '安庫獸人巫師', ''),
+(20293, '皮魯德蜥蜴人', ''),
+(20294, '皮魯德蜥蜴人女族長', ''),
+(20295, '皮魯德蜥蜴人戰士', ''),
+(20296, '皮魯德蜥蜴人巡守', ''),
+(20297, '皮魯德蜥蜴人巫師', ''),
+(20298, '皮魯德蜥蜴人巫師', ''),
+(20299, '辛達蜥蜴人', ''),
+(20300, '辛達蜥蜴人女族長', ''),
+(20301, '辛達蜥蜴人巡守', ''),
+(20302, '辛達蜥蜴人戰士', ''),
+(20303, '辛達蜥蜴人巫師', ''),
+(20304, '沼澤司塔卡拓女王', ''),
+(20305, '葛雷姆', ''),
+(20307, '噶倫狼人', ''),
+(20308, '巨勾蜘蛛', ''),
+(20309, '棕色狐狸', ''),
+(20310, '棕熊', ''),
+(20311, '鉤爪安普', ''),
+(20312, '鉤爪安普獵人', ''),
+(20313, '鉤爪安普首領', ''),
+(20314, '大白鯊', ''),
+(20316, '黑翼蝙蝠', ''),
+(20317, '黑毛狼', ''),
+(20318, '黑毛野狼', ''),
+(20319, '盜墓哥布林', ''),
+(20320, '盜墓哥布林隊長', ''),
+(20321, '小偷哥布林', ''),
+(20322, '山賊哥布林', ''),
+(20323, '山賊哥布林隊長', ''),
+(20324, '山賊哥布林副隊長', ''),
+(20325, '哥布林掠奪者', ''),
+(20326, '哥布林巡守', ''),
+(20327, '哥布林搜索員', ''),
+(20328, '哥布林監視員', ''),
+(20329, '鬼魂守護者', ''),
+(20330, '山蝙蝠', ''),
+(20331, '眼怪追捕者', ''),
+(20333, '灰石高崙', ''),
+(20334, '食腐葛林', ''),
+(20335, '大灰熊', ''),
+(20336, '綠色樹精', ''),
+(20337, '長尾狐狸', ''),
+(20338, '夢靨之翼', ''),
+(20340, '奴隸骷髏', ''),
+(20341, '奴隸亡靈', ''),
+(20342, '狼人酋長', ''),
+(20343, '狩獵狼人', ''),
+(20345, '黑夜之懼', ''),
+(20346, '黑暗石高崙', ''),
+(20347, '死亡之刃', ''),
+(20348, '洞穴蜘蛛', ''),
+(20349, '洞穴蝙蝠', ''),
+(20350, '洞穴戮殺者', ''),
+(20351, '德雷巴奴追捕者', ''),
+(20352, '德雷巴奴兇手', ''),
+(20353, '德雷巴奴觀察者', ''),
+(20354, '矮人鬼魂', ''),
+(20356, '朗克蜥蜴人隊長', ''),
+(20357, '朗克蜥蜴人副隊長', ''),
+(20358, '狩獵鼠人', ''),
+(20359, '鼠人戰士', ''),
+(20360, '鼠人間諜', ''),
+(20361, '雷沃恩特獸人射手', ''),
+(20362, '雷沃恩特獸人鬥士隊長', ''),
+(20363, '瑪剌庫狼人', ''),
+(20364, '瑪剌庫狼人首領', ''),
+(20365, '山蘑菇', ''),
+(20367, '梅肯尼斯護衛兵', ''),
+(20368, '守墓人', ''),
+(20369, '月石獸', ''),
+(20370, '長刺蝙蝠', ''),
+(20371, '薄霧之懼', ''),
+(20372, '巴拉克獸人鬥士', ''),
+(20373, '巴拉克獸人鬥士隊長', ''),
+(20374, '巴蘭卡警衛兵', ''),
+(20375, '巴蘭卡護衛兵', ''),
+(20376, '巴里卡盜賊隊長', ''),
+(20377, '巴里卡盜賊', ''),
+(20378, '巨石', ''),
+(20379, '巨石士兵', ''),
+(20380, '巨石守護者', ''),
+(20381, '巴斯獸人', ''),
+(20382, '巴斯獸人隊長', ''),
+(20383, '縛靈', ''),
+(20385, '貝爾勒獸人弓箭手', ''),
+(20386, '貝爾勒獸人鬥士', ''),
+(20387, '貝爾勒獸人鬥士隊長', ''),
+(20388, '貝爾勒獸人鬥士副隊長', ''),
+(20389, '布基鼠人', ''),
+(20390, '布基鼠人隊長', ''),
+(20391, '紅狐狸', ''),
+(20392, '紅眼蝙蝠', ''),
+(20393, '食腐紅蜘蛛', ''),
+(20394, '赤毛狼蜘蛛', ''),
+(20398, '里庫拉卡斯', ''),
+(20399, '里庫拉卡斯之子', ''),
+(20400, '血蘑菇', ''),
+(20401, '必倫食人妖', ''),
+(20402, '必倫食人妖戰士', ''),
+(20403, '獵人狼蛛', ''),
+(20404, '沉靜之懼', ''),
+(20405, '幼棕狐狸', ''),
+(20406, '幼紅狐狸', ''),
+(20407, '幼赤狐狸', ''),
+(20410, '食腐蜘蛛', ''),
+(20411, '食腐蝙蝠', ''),
+(20412, '基座', ''),
+(20415, '猩紅火蜥蜴', ''),
+(20416, '猩紅火蜥蜴利比', ''),
+(20418, '象牙獸', ''),
+(20419, '阿卡斯特魅魔', ''),
+(20420, '阿卡斯特魅魔圖倫', ''),
+(20421, '阿卡斯特魅魔堤佛', ''),
+(20422, '阿卡斯特白骨將軍', ''),
+(20423, '阿卡斯特白骨弓箭手', ''),
+(20424, '阿卡斯特白骨之王', ''),
+(20425, '阿卡斯特白骨士兵', ''),
+(20426, '惡魔之眼', ''),
+(20427, '惡魔之眼監視者', ''),
+(20428, '惡魔之眼巡查者', ''),
+(20429, '惡魔之眼監視哨', ''),
+(20431, '精靈鬼魂', ''),
+(20432, '獨角兔', ''),
+(20433, '疫病蝙蝠', ''),
+(20435, '貓眼獸', ''),
+(20436, '豺狼補充兵', ''),
+(20437, '豺狼新兵', ''),
+(20438, '豺狼將軍', ''),
+(20439, '豺狼下士官', ''),
+(20440, '棕狐狸首領', ''),
+(20441, '長尾狐狸首領', ''),
+(20442, '狼首領', ''),
+(20443, '紅狐狸首領', ''),
+(20444, '赤狐狸首領', ''),
+(20445, '烏山卡海賊', ''),
+(20446, '烏土庫獸人', ''),
+(20447, '烏土庫獸人弓箭手', ''),
+(20448, '烏土庫獸人士兵', ''),
+(20449, '燐火', ''),
+(20450, '遺蹟狼人', ''),
+(20451, '遺蹟史巴托', ''),
+(20453, '人類鬼魂', ''),
+(20454, '被遺忘的監視者', ''),
+(20455, '末日士兵', ''),
+(20456, '灰狼', ''),
+(20457, '人形殭屍士兵', ''),
+(20458, '人形殭屍鬥士', ''),
+(20460, '赤蜘蛛', ''),
+(20461, '地城蜘蛛', ''),
+(20462, '地城戮殺者', ''),
+(20463, '地城骷髏弓箭手', ''),
+(20464, '地城骷髏士兵', ''),
+(20465, '赤狐狸', ''),
+(20466, '長爪蜘蛛', ''),
+(20468, '卡布獸人', ''),
+(20469, '卡布獸人弓箭手', ''),
+(20470, '卡布獸人士兵', ''),
+(20471, '卡布獸人鬥士', ''),
+(20472, '卡布獸人鬥士隊長', ''),
+(20473, '卡布獸人鬥士副隊長', ''),
+(20474, '卡沙蜘蛛', ''),
+(20475, '卡沙狼', ''),
+(20476, '卡沙長齒蜘蛛', ''),
+(20477, '卡沙灰狼', ''),
+(20478, '卡沙刀刃蜘蛛', ''),
+(20479, '卡沙熊', ''),
+(20480, '刀刃蝙蝠', ''),
+(20481, '狐狗', ''),
+(20483, '鬼火', ''),
+(20487, '庫勒卡鼠人', ''),
+(20488, '庫勒卡狩獵鼠人', ''),
+(20489, '閃銀獸', ''),
+(20490, '赤色人偶', ''),
+(20491, '地穴之懼', ''),
+(20492, '克魯納克護衛兵', ''),
+(20494, '土瑞克軍犬', ''),
+(20495, '土瑞克獸人將軍', ''),
+(20496, '土瑞克獸人弓箭手', ''),
+(20497, '土瑞克獸人突襲兵', ''),
+(20498, '土瑞克獸人補充兵', ''),
+(20499, '土瑞克獸人步兵', ''),
+(20500, '土瑞克獸人哨兵', ''),
+(20501, '土瑞克獸人巫師', ''),
+(20502, '特紋克水晶獅', ''),
+(20504, '恐懼士兵', ''),
+(20505, '廢墟蝙蝠', ''),
+(20506, '廢墟安普', ''),
+(20507, '廢墟安普利比', ''),
+(20508, '掠食者狼蛛', ''),
+(20509, '蘑菇孢子', ''),
+(20510, '水晶獅', ''),
+(20511, '松脂石高崙', ''),
+(20512, '荒野追蹤者', ''),
+(20513, '骷髏騎士', ''),
+(20514, '骷髏護衛兵', ''),
+(20515, '骷髏步兵', ''),
+(20516, '骷髏哨兵', ''),
+(20517, '骷髏獵人', ''),
+(20518, '骷髏獵人弓箭手', ''),
+(20519, '骷髏槍兵', ''),
+(20520, '海賊王烏山卡', ''),
+(20521, '玄武石高崙', ''),
+(20522, '白牙', ''),
+(20524, '灰狼', ''),
+(20525, '灰毛狼', ''),
+(20526, '黑曜石高崙', ''),
+(20527, '白狼', ''),
+(20528, '哥布林王', ''),
+(20529, '幼棕狐狗', ''),
+(20530, '幼紅狐狗', ''),
+(20531, '幼赤狐狗', ''),
+(20532, '棕狐狗', ''),
+(20533, '長尾狐狗', ''),
+(20534, '紅狐狗', ''),
+(20535, '赤狐狗', ''),
+(20536, '棕狐狗首領', ''),
+(20537, '紅狐狗首領', ''),
+(20538, '赤狐狗首領', ''),
+(20539, '長尾狐狗首領', ''),
+(20540, '寶石獸', ''),
+(20541, '礦坑蝙蝠', ''),
+(20542, '骷髏長弓手', ''),
+(20543, '靈魂', ''),
+(20544, '狐狗首領', ''),
+(20545, '幼狐狗', ''),
+(20546, '土瑞克獸人首領', ''),
+(20547, '豺狼後備兵', ''),
+(20548, '豺狼逃亡者', ''),
+(20549, '豺狼王', ''),
+(20550, '邪惡蜥蜴守護者', ''),
+(20551, '食腐王', ''),
+(20552, '赤色束縛', ''),
+(20553, '溫德薩斯', ''),
+(20554, '葛雷迪斯', ''),
+(20555, '巨大蘑菇', ''),
+(20556, '巨大眼怪', ''),
+(20557, '邪惡亞龍', ''),
+(20558, '腐爛樹', ''),
+(20559, '腐爛高崙', ''),
+(20560, '崔沙林', ''),
+(20561, '崔沙林多得', ''),
+(20562, '孢子殭屍', ''),
+(20563, '瑪那宣', ''),
+(20564, '附法眼怪', ''),
+(20565, '附法岩石高崙', ''),
+(20566, '附法鋼鐵高崙', ''),
+(20567, '附法翼魔', ''),
+(20568, '拜佛特', ''),
+(20569, '拜佛特辛爵', ''),
+(20570, '塔爾克食人妖', ''),
+(20571, '塔爾克食人妖戰士', ''),
+(20572, '塔爾克食人妖高等戰士', ''),
+(20573, '塔爾克邪惡蜥蜴', ''),
+(20574, '塔爾克邪惡蜥蜴首領', ''),
+(20575, '奧耶豺狼戰士', ''),
+(20576, '奧耶豺狼巫醫', ''),
+(20577, '里多蜥蜴人', ''),
+(20578, '里多蜥蜴人弓箭手', ''),
+(20579, '里多蜥蜴人士兵', ''),
+(20580, '里多蜥蜴人戰士', ''),
+(20581, '里多蜥蜴人巫師', ''),
+(20582, '里多蜥蜴人族長', ''),
+(20583, '提瑪克獸人', ''),
+(20584, '提瑪克獸人弓箭手', ''),
+(20585, '提瑪克獸人士兵', ''),
+(20586, '提瑪克獸人戰士', ''),
+(20587, '提瑪克獸人巫師', ''),
+(20588, '提瑪克獸人王', ''),
+(20589, '佛萊', ''),
+(20590, '賴雷', ''),
+(20591, '提米克倫', ''),
+(20592, '片奴', ''),
+(20593, '獨角獸', ''),
+(20594, '森林信使', ''),
+(20595, '佛萊首領', ''),
+(20596, '賴雷首領', ''),
+(20597, '提米克倫首領', ''),
+(20598, '片奴首領', ''),
+(20599, '獨角獸首領', ''),
+(20600, '卡魯食人妖', ''),
+(20601, '塔林獸人', ''),
+(20602, '塔林獸人弓箭手', ''),
+(20603, '可洛比', ''),
+(20604, '拉金', ''),
+(20605, '奇異的飛龍', ''),
+(20606, '庫倫地靈', ''),
+(20607, '庫倫地靈戰士', ''),
+(20608, '巴丁', ''),
+(20609, '火蜥蜴拉金', ''),
+(20610, '火焰觀察者', ''),
+(20611, '德雷巴奴康菲', ''),
+(20612, '火蜥蜴羅溫', ''),
+(20613, '拉菲蜥蜴人', ''),
+(20614, '拉菲蜥蜴人巡守', ''),
+(20615, '瑞特摩', ''),
+(20616, '水精拉金', ''),
+(20617, '水之觀察者', ''),
+(20618, '魅魔卡尼', ''),
+(20619, '水精羅溫', ''),
+(20620, '洞穴獸', ''),
+(20621, '死亡波動', ''),
+(20622, '瑪魯克士兵', ''),
+(20623, '波倫多', ''),
+(20624, '洞穴咆哮者', ''),
+(20625, '瑪魯克騎士', ''),
+(20626, '瑪魯克狂戰士', ''),
+(20627, '瑪魯克王', ''),
+(20628, '黎瑪卡霖尼司', ''),
+(20629, '卡拉克', ''),
+(20630, '泰可獸人', ''),
+(20631, '泰可獸人弓手', ''),
+(20632, '泰可獸人戰士', ''),
+(20633, '泰可獸人咒術士', ''),
+(20634, '泰可獸人團長', ''),
+(20635, '卡嵐可因', ''),
+(20636, '鏡之森林亡靈', ''),
+(20637, '鏡之森林亡靈', ''),
+(20638, '鏡之森林亡靈', ''),
+(20639, '鏡子', ''),
+(20640, '哈里特蜥蜴人', ''),
+(20641, '哈里特蜥蜴人士兵', ''),
+(20642, '哈里特蜥蜴人弓箭手', ''),
+(20643, '哈里特蜥蜴人戰士', ''),
+(20644, '哈里特蜥蜴人咒術士', ''),
+(20645, '哈里特蜥蜴人族長', ''),
+(20646, '哈朗卡', ''),
+(20647, '英葛則', ''),
+(20648, '巴藍伍德', ''),
+(20649, '罕羅特', ''),
+(20650, '科蘭洛特', ''),
+(20651, '甘麟', ''),
+(20652, '雷歐古', ''),
+(20653, '退化的下巨人', ''),
+(20654, '退化的下巨人士兵', ''),
+(20655, '退化的下巨人弓箭手', ''),
+(20656, '退化的下巨人巡守', ''),
+(20657, '退化的下巨人魔法師', ''),
+(20658, '退化的下巨人長老', ''),
+(20659, '墓地流浪者', ''),
+(20660, '貪慾弓箭手', ''),
+(20661, '哈塔勒鼠人盜賊', ''),
+(20662, '哈塔勒鼠人頭目', ''),
+(20663, '哈塔勒海尼西', ''),
+(20664, '帝萊普', ''),
+(20665, '泰可獸人補充兵', ''),
+(20666, '泰可獸人監視兵', ''),
+(20667, '帕克蘭', ''),
+(20668, '墳墓守護者', ''),
+(20669, '泰可獸人補給官', ''),
+(20670, '赤色飛龍', ''),
+(20671, '卡地烏斯', ''),
+(20672, '德立貝茲', ''),
+(20673, '帕力巴提', ''),
+(20674, '末日騎士', ''),
+(20675, '泰稜', ''),
+(20676, '沼澤審判官', ''),
+(20677, '吐爾奔', ''),
+(20678, '不死的刑罰', ''),
+(20679, '瑪許追蹤者', ''),
+(20680, '瑪許飛龍', ''),
+(20681, '巴諾爾賽勒諾斯', ''),
+(20682, '巴諾爾賽勒諾斯士兵', ''),
+(20683, '巴諾爾賽勒諾斯巡守', ''),
+(20684, '巴諾爾賽勒諾斯戰士', ''),
+(20685, '巴諾爾賽勒諾斯咒術士', ''),
+(20686, '巴諾爾賽勒諾斯族長', ''),
+(20738, '地精掠奪者 派卜克', ''),
+(20739, '派卜克的寵物狗', ''),
+(20742, '神祕之翼', ''),
+(20743, '咆哮者', ''),
+(20744, '赤眼吸血蝙蝠', ''),
+(20745, '荒原的犯罪者', ''),
+(20746, '犯罪者的手下', ''),
+(20747, '拉席德', ''),
+(20748, '拉席德追隨者', ''),
+(20749, '死亡之火', ''),
+(20750, '火焰弓手', ''),
+(20751, '狙擊者', ''),
+(20752, '狙擊者的手下', ''),
+(20753, '黑暗的君主', ''),
+(20754, '黑暗的騎士', ''),
+(20755, '血腥之斧指揮官', ''),
+(20756, '血腥之斧狙擊兵', ''),
+(20757, '血腥之斧突擊兵', ''),
+(20758, '貝爾拉龍隊長', ''),
+(20759, '貝爾拉龍戰士', ''),
+(20760, '貝爾拉龍弓手', ''),
+(20761, '派坦', ''),
+(20762, '派坦的騎士', ''),
+(20763, '草原的統治者', ''),
+(20764, '草原的魔法師', ''),
+(20765, '草原的戰士', ''),
+(20766, '草原的弓手', ''),
+(20767, '提瑪克獸人突擊隊隊長', ''),
+(20768, '提瑪克獸人突擊隊咒術士', ''),
+(20769, '提瑪克獸人突擊隊戰士', ''),
+(20770, '提瑪克獸人突擊隊弓手', ''),
+(20771, '巴里夫', ''),
+(20772, '巴里夫的雷歐古', ''),
+(20773, '坎查拉王', ''),
+(20774, '坎查拉', ''),
+(20775, '食人妖襲擊者', ''),
+(20776, '黑暗魅魔', ''),
+(20777, '狩獵熊', ''),
+(20778, '羅格那獸人團長', ''),
+(20779, '羅格那獸人預言者', ''),
+(20780, '血腥之斧菁英', ''),
+(20781, '德魯蜥蜴人巫師', ''),
+(20782, '豺狼訓練兵', ''),
+(20783, '獨雷德狼', ''),
+(20784, '塔沙巴蜥蜴人', ''),
+(20785, '塔沙巴蜥蜴人咒術士', ''),
+(20786, '翼蛇', ''),
+(20787, '翼蛇拉德', ''),
+(20788, '拉庫', ''),
+(20789, '可羅津', ''),
+(20790, '達拉庸', ''),
+(20791, '可羅津戰士', ''),
+(20792, '法里特', ''),
+(20793, '紐司', ''),
+(20794, '刀刃司塔卡拓', ''),
+(20795, '刀刃司塔卡拓工人', ''),
+(20796, '刀刃司塔卡拓戰士', ''),
+(20797, '雄性刀刃司塔卡拓', ''),
+(20798, '水巨人', ''),
+(20799, '水精女王拉德', ''),
+(20800, '伊娃的監視者', ''),
+(20801, '席忒槍兵', ''),
+(20802, '席忒法師', ''),
+(20803, '傀儡主', ''),
+(20804, '可羅津拉德', ''),
+(20805, '達拉庸拉德', ''),
+(20806, '可羅津拉德戰士', ''),
+(20807, '法里特拉德', ''),
+(20808, '紐司拉德', ''),
+(20809, '塔的亡靈', ''),
+(20810, '哈勒特的監視者', ''),
+(20811, '慘絕戰士', ''),
+(20812, '絕望射手', ''),
+(20813, '柯瑞登', ''),
+(20814, '絕望劍士', ''),
+(20815, '哈勒特的獵犬', ''),
+(20816, '哈勒特的親衛隊', ''),
+(20817, '墮落的賢者', ''),
+(20818, '哈勒特的戰士', ''),
+(20819, '深淵射手', ''),
+(20820, '哈勒特的騎士', ''),
+(20821, '依連丹司', ''),
+(20822, '哈勒特的侍女', ''),
+(20823, '白金族士兵', ''),
+(20824, '哈勒特的指揮官', ''),
+(20825, '哈勒特的監察官', ''),
+(20826, '白金族射手', ''),
+(20827, '白金族戰士', ''),
+(20828, '白金族咒術士', ''),
+(20829, '白金族團長', ''),
+(20830, '守護天使', ''),
+(20831, '封印天使', ''),
+(20832, '札肯的槍兵', ''),
+(20833, '札肯的射手', ''),
+(20834, '瑪迪恩', ''),
+(20835, '札肯的監視者', ''),
+(20836, '海賊殭屍', ''),
+(20837, '腐污食人魔', ''),
+(20838, '血蝙蝠', ''),
+(20839, '陰鬱之音', ''),
+(20840, '死亡飛行者', ''),
+(20841, '魔鬼弓箭手', ''),
+(20842, '姆斯維倫', ''),
+(20843, '札肯的親衛隊', ''),
+(20844, '卡倚巴奴', ''),
+(20845, '海賊殭屍船長', ''),
+(20846, '人偶刀手', ''),
+(20847, '貝里大師', ''),
+(20848, '造光者', ''),
+(20849, '光蟲', ''),
+(20850, '金色雄鹿王', ''),
+(20851, '席忒', ''),
+(20852, '班席', ''),
+(20853, '凱爾豺狼', ''),
+(20854, '凱爾豺狼戰士', ''),
+(20855, '凱爾豺狼射手', ''),
+(20856, '凱爾豺狼咒術士', ''),
+(20857, '凱爾豺狼優勝者', ''),
+(20858, '天使', ''),
+(20859, '守護天使', ''),
+(20860, '封印天使', ''),
+(20861, '奧耶豺狼優勝者', ''),
+(20862, '死亡之王', ''),
+(20919, '雄性蜥蜴人', ''),
+(20920, '雄性蜥蜴人巡守', ''),
+(20921, '雄性蜥蜴人哨兵', ''),
+(20922, '雄性蜥蜴人戰士', ''),
+(20923, '雄性蜥蜴人咒術士', ''),
+(20924, '雄性蜥蜴人族長', ''),
+(20925, '巨大阿朗尼得', ''),
+(20926, '劇毒阿朗尼得', ''),
+(20927, '阿朗尼得王', ''),
+(20928, '哈圖奇異蜜蜂', ''),
+(20929, '哈圖惡狼', ''),
+(20930, '哈圖棕熊', ''),
+(20931, '哈圖瑪瑙獸', ''),
+(20932, '哈圖赤色熊', ''),
+(20933, '哈圖溫德薩斯', ''),
+(20934, '胡蜂工人', ''),
+(20935, '胡蜂隊長', ''),
+(20936, '塔諾賽勒諾斯', ''),
+(20937, '塔諾賽勒諾斯士兵', ''),
+(20938, '塔諾賽勒諾斯巡守', ''),
+(20939, '塔諾賽勒諾斯戰士', ''),
+(20940, '塔諾賽勒諾斯咒術士', ''),
+(20941, '塔諾賽勒諾斯族長', ''),
+(20942, '惡夢的領導者', ''),
+(20943, '惡夢的監視者', ''),
+(20944, '惡夢的統治者', ''),
+(20945, '卡帝內', ''),
+(20946, '桑遺德羅', ''),
+(20947, '寇拿比', ''),
+(20948, '巴爾塔', ''),
+(20949, '魯米奴', ''),
+(20950, '因尼瑟', ''),
+(20951, '柏比的侍女', ''),
+(20952, '柏比的隨行員', ''),
+(20953, '柏比', ''),
+(20954, '飢餓的屍體', ''),
+(20955, '戰爭的亡靈', ''),
+(20956, '過去的騎士', ''),
+(20957, '虛無的侵略者', ''),
+(20958, '死亡刀刃', ''),
+(20959, '黑暗守護者', ''),
+(20960, '血的亡靈', ''),
+(20961, '血的騎士', ''),
+(20962, '血的祭司', ''),
+(20963, '血的統治者', ''),
+(20964, '巨大腳印', ''),
+(20965, '妄想的破片', ''),
+(20966, '突變的創造物', ''),
+(20967, '過去的創造物', ''),
+(20968, '不存在者', ''),
+(20969, '巨人的影子', ''),
+(20970, '古代士兵', ''),
+(20971, '古代戰士', ''),
+(20972, '古代咒術士', ''),
+(20973, '被遺忘的古代人', ''),
+(20974, '怨靈之首', ''),
+(20975, '怨靈魔法師', ''),
+(20976, '怨靈戰士', ''),
+(20977, '艾爾摩亞丁的貴婦', ''),
+(20978, '艾爾摩亞丁的護衛射手', ''),
+(20979, '艾爾摩亞丁的女侍', ''),
+(20980, '哈勒特的部下 牧', ''),
+(20981, '牧的魔法師', ''),
+(20982, '牧的騎士', ''),
+(20983, '束縛者', ''),
+(20984, '束縛者戰士', ''),
+(20985, '束縛者弓手', ''),
+(20986, '賽頓', ''),
+(20987, '賽頓的人偶', ''),
+(20988, '賽頓的咒術人偶', ''),
+(20989, '拉卓司', ''),
+(20990, '帕卓司', ''),
+(20991, '沼澤之首', ''),
+(20992, '沼澤鱷魚', ''),
+(20993, '沼澤戰士', ''),
+(20994, '庭園警衛隊長', ''),
+(20995, '庭園警衛兵', ''),
+(20996, '廢墟的冤鬼', ''),
+(20997, '悲哀的士兵', ''),
+(20998, '酷刑', ''),
+(20999, '徘徊的亡靈', ''),
+(21000, '廢墟的冤魂', ''),
+(21001, '破滅射手', ''),
+(21002, '末日巡守', ''),
+(21003, '墓地的浮標', ''),
+(21004, '陰鬱的木主', ''),
+(21005, '墓地掠食者', ''),
+(21006, '末日傭人', ''),
+(21007, '末日警衛', ''),
+(21008, '末日弓手', ''),
+(21009, '末日裝甲兵', ''),
+(21010, '末日戰士', ''),
+(21011, '豺狼先鋒隊', ''),
+(21012, '魔法之眼', ''),
+(21013, '豺狼先鋒隊射手', ''),
+(21014, '亞戰爭暴君', ''),
+(21015, '豺狼先鋒隊隊長', ''),
+(21016, '戰爭暴君', ''),
+(21017, '墮落的獸人', ''),
+(21018, '古代翼魔', ''),
+(21019, '墮落的獸人射手', ''),
+(21020, '墮落的獸人咒術士', ''),
+(21021, '利爪虎', ''),
+(21022, '墮落的獸人團長', ''),
+(21023, '咽鳴的風', ''),
+(21024, '牙語的風', ''),
+(21025, '輕笑的風', ''),
+(21026, '歌唱的風', ''),
+(21034, '食人魔', ''),
+(21035, '凱沙林', ''),
+(21036, '席德巴輪', ''),
+(21037, '歐修特', ''),
+(21038, '粱馬', ''),
+(21039, '狙擊者的手下', ''),
+(21040, '黑暗的士兵', ''),
+(21058, '獸王', ''),
+(21059, '守護獸', ''),
+(21060, '監視獸', ''),
+(21061, '哈勒特的守護者', ''),
+(21062, '傳令天使', ''),
+(21063, '傳令天使', ''),
+(21064, '白金族守護者弓手', ''),
+(21065, '白金族守護者戰士', ''),
+(21066, '白金族守護者咒術士', ''),
+(21067, '守護者大天使', ''),
+(21068, '守護者大天使', ''),
+(21069, '白金族守護者軍長', ''),
+(21070, '封印大天使', ''),
+(21071, '封印大天使', ''),
+(21072, '白金族守護者族長', ''),
+(21073, '艾爾摩亞丁的護衛戰士', ''),
+(21074, '束縛者魔法師', ''),
+(21075, '殺戮的瓦丁', ''),
+(21076, '瓦丁的騎士', ''),
+(21077, '瓦丁的魔法師', ''),
+(21078, '魔導士法那克', ''),
+(21079, '法那克的創造物', ''),
+(21080, '法那克的守護靈', ''),
+(21081, '能天使', ''),
+(21082, '能天使的護衛兵', ''),
+(21083, '能天使的精靈', ''),
+(21084, '血之女', ''),
+(21085, '血之射手', ''),
+(21086, '血之利比歐納', ''),
+(21087, '血之騎士', ''),
+(21088, '血之班席', ''),
+(21089, '血之王', ''),
+(21090, '血之守護者', ''),
+(21091, '血之守衛者', ''),
+(21092, '血之法師', ''),
+(21093, '鼠人副首領', ''),
+(21094, '鼠人首領', ''),
+(21095, '巨大毒蜂', ''),
+(21096, '雲紋獸', ''),
+(21097, '幼阿朗尼得', ''),
+(21098, '草原灰熊', ''),
+(21099, '雲紋獸圖倫', ''),
+(21100, '朗克蜥蜴人哨兵', ''),
+(21101, '朗克蜥蜴人巫師', ''),
+(21102, '平原的監視者', ''),
+(21103, '怪岩高崙', ''),
+(21104, '德魯蜥蜴人補充兵', ''),
+(21105, '德魯蜥蜴人高等戰士', ''),
+(21106, '受詛咒的監視者', ''),
+(21107, '德魯蜥蜴人指揮官', ''),
+(21108, '白熱的燐火', ''),
+(21109, '哈梅瑟獸人巡守', ''),
+(21110, '沼澤掠食者', ''),
+(21111, '熔岩亞龍', ''),
+(21112, '哈梅瑟獸人步兵', ''),
+(21113, '哈梅瑟獸人狙擊兵', ''),
+(21114, '受詛咒的守護者', ''),
+(21115, '哈梅瑟獸人巫師', ''),
+(21116, '哈梅瑟獸人王', ''),
+(21117, '卡沙安普', ''),
+(21118, '巴爾德雷巴奴', ''),
+(21119, '卡沙哈柏哥布林', ''),
+(21120, '卡沙安普圖倫', ''),
+(21121, '卡沙惡狼', ''),
+(21122, '卡沙食人妖', ''),
+(21123, '巴爾德雷巴奴破壞者', ''),
+(21124, '紅眼長刺蝙蝠', ''),
+(21125, '北方縛毒蜘蛛', ''),
+(21126, '格勒普狼人', ''),
+(21127, '北方哥布林', ''),
+(21128, '脊骨高崙', ''),
+(21129, '格勒普狼人首領', ''),
+(21130, '北方哥布林王', ''),
+(21131, '強化脊骨高崙', ''),
+(21132, '地底地靈', ''),
+(21133, '廢礦骷髏弓手', ''),
+(21134, '廢礦史巴托', ''),
+(21135, '地底地靈戰士', ''),
+(21136, '廢礦之懼', ''),
+(21137, '鐵礦高崙', ''),
+(21138, '貪婪的靈魂', ''),
+(21139, '地下墓穴長刺蝙蝠', ''),
+(21140, '地下墓穴燐火', ''),
+(21141, '地下墓穴巨蛇', ''),
+(21142, '墓穴守衛史巴托', ''),
+(21143, '地下墓穴食腐蝙蝠', ''),
+(21144, '地下墓穴的影子', ''),
+(21145, '地下墓穴司塔卡拓工人', ''),
+(21146, '墓穴守衛黑暗之懼', ''),
+(21147, '地下墓穴翼魔', ''),
+(21148, '地下墓穴利比歐納', ''),
+(21149, '腐壞的古代槍兵', ''),
+(21150, '腐壞的古代士兵', ''),
+(21151, '腐壞的古代騎士', ''),
+(21152, '煉獄的燐火', ''),
+(21153, '煉獄的巨蛇', ''),
+(21154, '地獄守衛梅杜莎', ''),
+(21155, '煉獄的坎查拉', ''),
+(21156, '煉獄的影子', ''),
+(21157, '煉獄的狼蛛', ''),
+(21158, '地獄守衛赤色人偶', ''),
+(21159, '煉獄的翼魔', ''),
+(21160, '煉獄的利比歐納', ''),
+(21161, '古代聖地的隱者', ''),
+(21162, '古代聖地的圖騰', ''),
+(21163, '古代聖地的翅膀', ''),
+(21164, '古代聖地的守護靈', ''),
+(21165, '古代聖地的幻影', ''),
+(21166, '莉芙巡守', ''),
+(21167, '莉芙巫女', ''),
+(21168, '莉芙戰士', ''),
+(21169, '莉芙偵查兵', ''),
+(21170, '莉芙靈媒', ''),
+(21171, '莉芙團長', ''),
+(21172, '莉芙巡邏兵', ''),
+(21173, '莉芙咒術士', ''),
+(21174, '莉芙指揮官', ''),
+(21175, '莉莉恩殺戮者', ''),
+(21176, '莉莉恩魔導士', ''),
+(21177, '莉莉恩隨從騎士', ''),
+(21178, '莉莉恩刺殺者', ''),
+(21179, '莉莉恩祭司', ''),
+(21180, '莉莉恩騎士', ''),
+(21181, '莉莉恩暗殺者', ''),
+(21182, '莉莉恩宣道者', ''),
+(21183, '莉莉恩騎士團長', ''),
+(21184, '莉莉恩刺客', ''),
+(21185, '莉莉恩大魔道士', ''),
+(21186, '莉莉恩禁衛騎士', ''),
+(21187, '基剛特奴隸', ''),
+(21188, '基剛特服事', ''),
+(21189, '基剛特監察官', ''),
+(21190, '基剛特步兵', ''),
+(21191, '基剛特修士', ''),
+(21192, '基剛特軍官', ''),
+(21193, '基剛特突擊兵', ''),
+(21194, '基剛特祈禱師', ''),
+(21195, '基剛特高級軍官', ''),
+(21196, '那芙琳哨兵', ''),
+(21197, '那芙琳神官', ''),
+(21198, '那芙琳劍士', ''),
+(21199, '那芙琳警衛', ''),
+(21200, '那芙琳主教', ''),
+(21201, '那芙琳十人隊長', ''),
+(21202, '那芙琳巡邏兵', ''),
+(21203, '那芙琳大主教', ''),
+(21204, '那芙琳百人隊長', ''),
+(21205, '那芙琳禁衛兵', ''),
+(21206, '那芙琳樞機主教', ''),
+(21207, '那芙琳司令官', ''),
+(21208, '聖地的警衛', ''),
+(21209, '聖地的監視者', ''),
+(21210, '地窖的警衛', ''),
+(21211, '地窖的監視者', ''),
+(21212, '聖地的警衛兵', ''),
+(21213, '聖地的修道士', ''),
+(21214, '地窖的警衛兵', ''),
+(21215, '地窖的修道士', ''),
+(21216, '聖地的團長', ''),
+(21217, '聖地的祭司', ''),
+(21218, '地窖的團長', ''),
+(21219, '地窖的祭司', ''),
+(21220, '聖域的統治者', ''),
+(21221, '聖域的審判官', ''),
+(21222, '古墓的統治者', ''),
+(21223, '古墓的審判官', ''),
+(21224, '聖域的守護者', ''),
+(21225, '聖域的賢者', ''),
+(21226, '古墓的守護者', ''),
+(21227, '古墓的賢者', ''),
+(21228, '聖域的禁衛兵', ''),
+(21229, '聖域的先知', ''),
+(21230, '古墓的禁衛兵', ''),
+(21231, '古墓的先知', ''),
+(21232, '埋葬的警衛', ''),
+(21233, '埋葬的監視兵', ''),
+(21234, '墳墓的警衛', ''),
+(21235, '墳墓的監視兵', ''),
+(21236, '埋葬的衛兵', ''),
+(21237, '埋葬的修道士', ''),
+(21238, '墳墓的衛兵', ''),
+(21239, '墳墓的修道士', ''),
+(21240, '埋葬的軍長', ''),
+(21241, '埋葬的祭司', ''),
+(21242, '墳墓的軍長', ''),
+(21243, '墳墓的祭司', ''),
+(21244, '墓地的統治者', ''),
+(21245, '墓地的審判官', ''),
+(21246, '冥界的統治者', ''),
+(21247, '冥界的審判官', ''),
+(21248, '墓地的守護者', ''),
+(21249, '墓地的賢者', ''),
+(21250, '冥界的守護者', ''),
+(21251, '冥界的賢者', ''),
+(21252, '墓地的禁衛兵', ''),
+(21253, '墓地的先知', ''),
+(21254, '冥界的禁衛兵', ''),
+(21255, '冥界的先知', ''),
+(21256, '地底狼人', ''),
+(21257, '惡魔之眼觀察者', ''),
+(21258, '墮落的獸人咒術士', ''),
+(21259, '墮落的獸人咒術士', ''),
+(21260, '背叛者獸人英雄', ''),
+(21261, '豺狼超越者', ''),
+(21262, '豺狼超越者', ''),
+(21263, '豺狼超越者', ''),
+(21264, '豺狼超越者', ''),
+(21265, '洞穴幼蟻', ''),
+(21266, '洞穴幼蟻', ''),
+(21267, '洞穴幼蟻', ''),
+(21268, '洞穴幼蟻', ''),
+(21269, '洞穴工蟻', ''),
+(21270, '洞穴兵蟻', ''),
+(21271, '洞穴工蟻', ''),
+(21272, '洞穴兵蟻', ''),
+(21273, '洞穴雄蟻', ''),
+(21274, '笑翠鳥', ''),
+(21275, '笑翠鳥', ''),
+(21276, '笑翠鳥', ''),
+(21278, '羚羊', ''),
+(21279, '羚羊', ''),
+(21280, '羚羊', ''),
+(21282, '班德斯那奇', ''),
+(21283, '班德斯那奇', ''),
+(21284, '班德斯那奇', ''),
+(21286, '野牛', ''),
+(21287, '野牛', ''),
+(21288, '野牛', ''),
+(21290, '格蘭帝爾', ''),
+(21291, '格蘭帝爾', ''),
+(21292, '格蘭帝爾', ''),
+(21294, '山谷羚羊', ''),
+(21295, '山谷羚羊奴隸', ''),
+(21296, '山谷班德斯那奇', ''),
+(21297, '班德斯那奇奴隸', ''),
+(21298, '束縛之眼', ''),
+(21299, '野牛奴隸', ''),
+(21300, '指引之眼', ''),
+(21301, '夢魘之眼', ''),
+(21302, '監視之眼', ''),
+(21303, '何門奎思', ''),
+(21304, '格蘭帝爾奴隸', ''),
+(21305, '防禦之眼', ''),
+(21306, '守護使徒', ''),
+(21307, '何門奎思長老', ''),
+(21308, '懲戒使徒', ''),
+(21309, '懲戒使徒', ''),
+(21310, '權能使徒', ''),
+(21311, '權能使徒', ''),
+(21312, '支配者之眼', ''),
+(21313, '狡猾的獵犬', ''),
+(21314, '溫泉班德斯那奇琳', ''),
+(21315, '溫泉野牛', ''),
+(21316, '溫泉芙拉瓦', ''),
+(21317, '溫泉幼阿楚克斯', ''),
+(21318, '溫泉羚羊', ''),
+(21319, '溫泉尼芬帝斯', ''),
+(21320, '溫泉雪人', ''),
+(21321, '溫泉阿楚克斯', ''),
+(21322, '溫泉班德斯那奇', ''),
+(21323, '溫泉格蘭帝爾', ''),
+(21324, '肯特拉獸人步兵', ''),
+(21325, '肯特拉軍犬', ''),
+(21326, '放牧的笑翠鳥', ''),
+(21327, '肯特拉獸人突擊兵', ''),
+(21328, '肯特拉獸人偵查兵', ''),
+(21329, '肯特拉獸人咒術士', ''),
+(21330, '放牧的野牛', ''),
+(21331, '肯特拉獸人戰士', ''),
+(21332, '肯特拉獸人副隊長', ''),
+(21333, '放牧的溫德薩斯', ''),
+(21334, '肯特拉獸人靈媒', ''),
+(21335, '肯特拉獸人精銳兵', ''),
+(21336, '肯特拉獸人百人隊長', ''),
+(21337, '放牧的野牛長老', ''),
+(21338, '肯特拉獸人祭司', ''),
+(21339, '肯特拉獸人軍官', ''),
+(21340, '肯特拉獸人大隊長', ''),
+(21341, '放牧的笑翠鳥長老', ''),
+(21342, '肯特拉獸人大祭司長', ''),
+(21343, '肯特拉軍團長', ''),
+(21344, '肯特拉精銳禁衛隊', ''),
+(21345, '肯特拉首席咒術士', ''),
+(21346, '肯特拉首席禁衛隊', ''),
+(21347, '肯特拉預言者', ''),
+(21348, '預言者的護衛兵', ''),
+(21349, '預言者的副官', ''),
+(21350, '巴瑞卡賽勒諾斯訓練兵', ''),
+(21351, '巴瑞卡賽勒諾斯步兵', ''),
+(21352, '放牧的羚羊', ''),
+(21353, '巴瑞卡賽勒諾斯偵查兵', ''),
+(21354, '巴瑞卡賽勒諾斯狩獵者', ''),
+(21355, '巴瑞卡賽勒諾斯咒術士', ''),
+(21356, '放牧的尼芬帝斯', ''),
+(21357, '巴瑞卡賽勒諾斯祭司', ''),
+(21358, '巴瑞卡賽勒諾斯戰士', ''),
+(21359, '放牧班德斯那奇', ''),
+(21360, '巴瑞卡賽勒諾斯靈媒', ''),
+(21361, '巴瑞卡賽勒諾斯魔導士', ''),
+(21362, '巴瑞卡賽勒諾斯下士', ''),
+(21363, '放牧的芙拉瓦', ''),
+(21364, '巴瑞卡賽勒諾斯祭司長', ''),
+(21365, '巴瑞卡賽勒諾斯大魔導士', ''),
+(21366, '巴瑞卡賽勒諾斯軍官', ''),
+(21367, '放牧的羚羊長老', ''),
+(21368, '巴瑞卡賽勒諾斯大祭司長', ''),
+(21369, '巴瑞卡軍團長', ''),
+(21370, '巴瑞卡精銳親衛隊', ''),
+(21371, '巴瑞卡首席魔導士', ''),
+(21372, '巴瑞卡首席親衛隊', ''),
+(21373, '巴瑞卡預言者', ''),
+(21374, '預言者的親衛兵', ''),
+(21375, '預言者的門徒', ''),
+(21376, '緋紅司塔卡拓工人', ''),
+(21377, '緋紅司塔卡拓士兵', ''),
+(21378, '緋紅司塔卡拓貴族', ''),
+(21379, '帝芙拉天蠍', ''),
+(21380, '帝芙拉聖甲蟲', ''),
+(21381, '暗殺甲蟲', ''),
+(21382, '破滅的傭兵', ''),
+(21383, '破滅的騎士', ''),
+(21384, '破滅的死靈術士', ''),
+(21385, '熔岩高崙', ''),
+(21386, '岩漿高崙', ''),
+(21387, '破滅的亞利曼那斯', ''),
+(21388, '破滅的伊比利斯', ''),
+(21389, '破滅的巴羅爾', ''),
+(21390, '破滅的阿修拉斯', ''),
+(21391, '熔岩邪惡蜥蜴', ''),
+(21392, '熾熱的伊佛利特', ''),
+(21393, '岩漿龍獸', ''),
+(21394, '岩漿撒魯斯', ''),
+(21395, '岩漿撒魯斯長老', ''),
+(21396, '食腐聖甲蟲', ''),
+(21397, '食腐聖甲蟲', ''),
+(21398, '聖甲蟲士兵', ''),
+(21399, '聖甲蟲士兵', ''),
+(21400, '黑克沙甲蟲', ''),
+(21401, '黑克沙甲蟲', ''),
+(21402, '凱特拉克希斯', ''),
+(21403, '凱特拉克希斯', ''),
+(21404, '泰拉甲蟲', ''),
+(21405, '泰拉甲蟲', ''),
+(21406, '帝國騎士', ''),
+(21407, '帝國騎士', ''),
+(21408, '帝國禁衛兵', ''),
+(21409, '帝國禁衛兵', ''),
+(21410, '守護者聖甲蟲', ''),
+(21411, '守護者聖甲蟲', ''),
+(21412, '亞斯特拉利斯', ''),
+(21413, '亞斯特拉利斯', ''),
+(21414, '帝國殺手', ''),
+(21415, '帝國殺手', ''),
+(21416, '帝國軍團長', ''),
+(21417, '帝國軍團長', ''),
+(21418, '帝國親衛隊', ''),
+(21419, '帝國親衛隊', ''),
+(21420, '阿修拉斯', ''),
+(21421, '阿修拉斯', ''),
+(21422, '帝國舞者', ''),
+(21423, '帝國舞者', ''),
+(21424, '阿修肯那斯', ''),
+(21425, '阿修肯那斯', ''),
+(21426, '阿布拉席恩', ''),
+(21427, '阿布拉席恩', ''),
+(21428, '哈士特蘭', ''),
+(21429, '哈士特蘭', ''),
+(21430, '亞利曼那斯', ''),
+(21431, '亞利曼那斯', ''),
+(21432, '戰輪甲蟲', ''),
+(21433, '刀刃甲蟲', ''),
+(21434, '血之祭司長', ''),
+(21435, '祭物的引導者', ''),
+(21436, '祭物的領導者', ''),
+(21437, '祭物蟲', ''),
+(21438, '異教徒戰士', ''),
+(21439, '異教徒死刑者', ''),
+(21440, '異教徒射手', ''),
+(21441, '異教徒士兵', ''),
+(21442, '異教徒騎士', ''),
+(21443, '放牧場掠奪者', ''),
+(21444, '放牧場掠奪者', ''),
+(21445, '高山班德斯那奇', ''),
+(21446, '放牧場掠奪者', ''),
+(21447, '放牧場掠奪者', ''),
+(21448, '放牧場掠奪者', ''),
+(21449, '放牧場掠奪者', ''),
+(21450, '高山格蘭帝爾', ''),
+(21451, '高山笑翠鳥', ''),
+(21452, '高山笑翠鳥', ''),
+(21453, '高山笑翠鳥', ''),
+(21454, '高山笑翠鳥', ''),
+(21455, '高山笑翠鳥', ''),
+(21456, '高山笑翠鳥', ''),
+(21457, '高山笑翠鳥', ''),
+(21458, '高山笑翠鳥', ''),
+(21459, '高山笑翠鳥', ''),
+(21460, '高山笑翠鳥', ''),
+(21461, '高山笑翠鳥', ''),
+(21462, '高山笑翠鳥', ''),
+(21463, '高山笑翠鳥', ''),
+(21464, '高山笑翠鳥', ''),
+(21465, '高山笑翠鳥', ''),
+(21466, '高山笑翠鳥', ''),
+(21467, '高山笑翠鳥', ''),
+(21468, '高山笑翠鳥', ''),
+(21469, '高山笑翠鳥', ''),
+(21470, '高山野牛', ''),
+(21471, '高山野牛', ''),
+(21472, '高山野牛', ''),
+(21473, '高山野牛', ''),
+(21474, '高山野牛', ''),
+(21475, '高山野牛', ''),
+(21476, '高山野牛', ''),
+(21477, '高山野牛', ''),
+(21478, '高山野牛', ''),
+(21479, '高山野牛', ''),
+(21480, '高山野牛', ''),
+(21481, '高山野牛', ''),
+(21482, '高山野牛', ''),
+(21483, '高山野牛', ''),
+(21484, '高山野牛', ''),
+(21485, '高山野牛', ''),
+(21486, '高山野牛', ''),
+(21487, '高山野牛', ''),
+(21488, '高山野牛', ''),
+(21489, '高山老虎', ''),
+(21490, '高山老虎', ''),
+(21491, '高山老虎', ''),
+(21492, '高山老虎', ''),
+(21493, '高山老虎', ''),
+(21494, '高山老虎', ''),
+(21495, '高山老虎', ''),
+(21496, '高山老虎', ''),
+(21497, '高山老虎', ''),
+(21498, '高山老虎', ''),
+(21499, '高山老虎', ''),
+(21500, '高山老虎', ''),
+(21501, '高山老虎', ''),
+(21502, '高山老虎', ''),
+(21503, '高山老虎', ''),
+(21504, '高山老虎', ''),
+(21505, '高山老虎', ''),
+(21506, '高山老虎', ''),
+(21507, '高山老虎', ''),
+(21508, '思布林特司塔卡拓', ''),
+(21509, '思布林特司塔卡拓工人', ''),
+(21510, '思布林特司塔卡拓士兵', ''),
+(21511, '雄性思布林特司塔卡拓', ''),
+(21512, '雄性思布林特司塔卡拓', ''),
+(21513, '尼多司塔卡拓', ''),
+(21514, '尼多司塔卡拓工人', ''),
+(21515, '尼多司塔卡拓士兵', ''),
+(21516, '雄性尼多司塔卡拓', ''),
+(21517, '雄性尼多司塔卡拓', ''),
+(21518, '狂熱司塔卡拓', ''),
+(21519, '雄性狂熱司塔卡拓', ''),
+(21520, '輝煌的眼睛', ''),
+(21521, '輝煌的利爪', ''),
+(21522, '輝煌的利爪', ''),
+(21523, '輝煌的閃光', ''),
+(21524, '輝煌的刀刃', ''),
+(21525, '輝煌的刀刃', ''),
+(21526, '輝煌的智慧', ''),
+(21527, '輝煌的憤怒', ''),
+(21528, '輝煌的憤怒', ''),
+(21529, '輝煌的靈魂', ''),
+(21530, '輝煌的遺產', ''),
+(21531, '輝煌的懲罰', ''),
+(21532, '輝煌的吶喊', ''),
+(21533, '輝煌的意志', ''),
+(21534, '輝煌的意志', ''),
+(21535, '輝煌的印記', ''),
+(21536, '輝煌的王冕', ''),
+(21537, '輝煌的獸牙', ''),
+(21538, '輝煌的獸牙', ''),
+(21539, '輝煌的苦痛', ''),
+(21540, '輝煌的苦痛', ''),
+(21541, '輝煌的求道者', ''),
+(21542, '求道者的門徒', ''),
+(21543, '求道者的侍從', ''),
+(21544, '輝煌的審判官', ''),
+(21545, '炎之審判者', ''),
+(21546, '光之審判者', ''),
+(21547, '墮落的騎士', ''),
+(21548, '復活的騎士', ''),
+(21549, '墮落的禁衛兵', ''),
+(21550, '墮落的禁衛兵', ''),
+(21551, '復活的禁衛兵', ''),
+(21552, '復活的禁衛兵', ''),
+(21553, '受摧殘者', ''),
+(21554, '受摧殘者', ''),
+(21555, '殺戮的執行者', ''),
+(21556, '殺戮的執行者', ''),
+(21557, '骸骨綁架者', ''),
+(21558, '骸骨綁架者', ''),
+(21559, '骸骨製造者', ''),
+(21560, '骸骨塑造者', ''),
+(21561, '犧牲者', ''),
+(21562, '斷頭台的亡靈', ''),
+(21563, '骸骨收藏者', ''),
+(21564, '骷髏收藏者', ''),
+(21565, '骸骨操縱者', ''),
+(21566, '骷髏操縱者', ''),
+(21567, '骸骨殺手', ''),
+(21568, '惡魔蝙蝠', ''),
+(21569, '惡魔蝙蝠', ''),
+(21570, '叛亂者的亡靈', ''),
+(21571, '叛亂軍士兵的亡靈', ''),
+(21572, '骸骨清除者', ''),
+(21573, '阿楚克斯', ''),
+(21574, '骸骨破壞者', ''),
+(21575, '骸骨破壞者', ''),
+(21576, '處刑台的亡靈', ''),
+(21577, '處刑台的亡靈', ''),
+(21578, '貝希莫斯殭屍', ''),
+(21579, '叛亂軍領導的亡靈', ''),
+(21580, '骸骨投擲者', ''),
+(21581, '骸骨操偶師', ''),
+(21582, '吸血鬼士兵', ''),
+(21583, '骸骨拾荒者', ''),
+(21584, '骸骨拾荒者', ''),
+(21585, '吸血鬼魔法師', ''),
+(21586, '吸血鬼咒術士', ''),
+(21587, '吸血鬼武者', ''),
+(21588, '吸血鬼巫師', ''),
+(21589, '吸血鬼巫師', ''),
+(21590, '吸血鬼魔導士', ''),
+(21591, '吸血鬼魔導士', ''),
+(21592, '吸血鬼魔導士', ''),
+(21593, '吸血鬼戰將', ''),
+(21594, '吸血鬼戰將', ''),
+(21595, '吸血鬼戰將', ''),
+(21596, '安魂之主', ''),
+(21597, '安魂貝希莫斯', ''),
+(21598, '安魂貝希莫斯', ''),
+(21599, '安魂祭司', ''),
+(21600, '安魂貝希莫斯', ''),
+(21601, '安魂貝希莫斯', ''),
+(21602, '札肯的槍兵', ''),
+(21603, '札肯的槍兵', ''),
+(21604, '札肯的精銳槍兵', ''),
+(21605, '札肯的射手', ''),
+(21606, '札肯的射手', ''),
+(21607, '札肯的精銳射手', ''),
+(21608, '札肯的監視者', ''),
+(21609, '札肯的監視者', ''),
+(21610, '札肯的前鋒監視者', ''),
+(21611, '陰鬱之音', ''),
+(21612, '陰鬱之音', ''),
+(21613, '陰鬱慟哭', ''),
+(21614, '死亡飛行者', ''),
+(21615, '死亡飛行者', ''),
+(21616, '巨人飛行者', ''),
+(21617, '魔鬼弓箭手', ''),
+(21618, '魔鬼弓箭手', ''),
+(21619, '地獄射手', ''),
+(21620, '姆斯維倫', ''),
+(21621, '姆斯維倫', ''),
+(21622, '巨型姆斯維倫', ''),
+(21623, '札肯的親衛隊', ''),
+(21624, '札肯的親衛隊', ''),
+(21625, '札肯的精銳親衛隊', ''),
+(21626, '卡倚巴奴', ''),
+(21627, '卡倚巴奴', ''),
+(21628, '卡倚巴奴拉德', ''),
+(21629, '海賊殭屍船長', ''),
+(21630, '海賊殭屍船長', ''),
+(21631, '海賊殭屍船長的怨靈', ''),
+(21632, '人偶刀手', ''),
+(21633, '人偶刀手', ''),
+(21634, '深紅的人偶刀手', ''),
+(21635, '貝里大師', ''),
+(21636, '貝里大師', ''),
+(21637, '深紅的貝里大師', ''),
+(21638, '獨雷德狼', ''),
+(21639, '塔沙巴蜥蜴人', ''),
+(21640, '塔沙巴蜥蜴人咒術士', ''),
+(21641, '食人魔', ''),
+(21642, '塔沙巴蜥蜴人狙擊手', ''),
+(21643, '塔沙巴蜥蜴人狙擊手', ''),
+(21644, '翼蛇', ''),
+(21645, '翼蛇拉德', ''),
+(21646, '墓穴聖甲蟲', ''),
+(21647, '食屍聖甲蟲', ''),
+(21648, '墓穴螞蟻', ''),
+(21649, '食屍螞蟻', ''),
+(21650, '聖陵騎士', ''),
+(21651, '聖陵禁衛兵', ''),
+(21652, '緋紅司塔卡拓貴族', ''),
+(21653, '暗殺甲蟲', ''),
+(21654, '破滅的死靈術士', ''),
+(21655, '破滅的亞利曼那斯', ''),
+(21656, '破滅的阿修拉斯', ''),
+(21657, '岩漿龍獸', ''),
+(21658, '輝煌的懲罰', ''),
+(21659, '異界的侵略士兵', ''),
+(21660, '異界的侵略士兵', ''),
+(21661, '異界的侵略射手', ''),
+(21662, '異界的侵略精銳兵', ''),
+(21663, '異界的侵略咒術士', ''),
+(21664, '異界的侵略祭司', ''),
+(21665, '異界的侵略魔導士', ''),
+(21666, '異界的侵略殉教者', ''),
+(21667, '異界的侵略戰士', ''),
+(21668, '異界的侵略刺兵', ''),
+(21669, '異界的侵略使徒', ''),
+(21670, '異界的侵略狂戰士', ''),
+(21671, '異界的侵略軍軍糧', ''),
+(21672, '異界的侵略精銳兵', ''),
+(21673, '異界的侵略精銳兵', ''),
+(21674, '異界的侵略精銳兵', ''),
+(21675, '異界的侵略精銳兵', ''),
+(21676, '異界的侵略戰士', ''),
+(21677, '異界的侵略精銳兵', ''),
+(21678, '異界的侵略精銳兵', ''),
+(21679, '異界的侵略精銳兵', ''),
+(21680, '異界的侵略精銳兵', ''),
+(21681, '異界的侵略魔導士', ''),
+(21682, '次元的侵略士兵', ''),
+(21683, '次元的侵略士兵', ''),
+(21684, '次元的侵略射手', ''),
+(21685, '次元的侵略精銳兵', ''),
+(21686, '次元的侵略咒術士', ''),
+(21687, '次元的侵略祭司', ''),
+(21688, '次元的侵略魔導士', ''),
+(21689, '次元的侵略殉教者', ''),
+(21690, '次元的侵略戰士', ''),
+(21691, '次元的侵略士兵', ''),
+(21692, '次元的侵略使徒', ''),
+(21693, '次元的侵略狂戰士', ''),
+(21694, '次元的侵略軍軍糧', ''),
+(21695, '次元的侵略精銳兵', ''),
+(21696, '次元的侵略精銳兵', ''),
+(21697, '次元的侵略精銳兵', ''),
+(21698, '次元的侵略精銳兵', ''),
+(21699, '次元的侵略戰士', ''),
+(21700, '次元的侵略精銳兵', ''),
+(21701, '次元的侵略精銳兵', ''),
+(21702, '次元的侵略精銳兵', ''),
+(21703, '次元的侵略精銳兵', ''),
+(21704, '次元的侵略魔導士', ''),
+(21705, '煉獄的侵略士兵', ''),
+(21706, '煉獄的侵略士兵', ''),
+(21707, '煉獄的侵略射手', ''),
+(21708, '煉獄的侵略精銳兵', ''),
+(21709, '煉獄的侵略咒術士', ''),
+(21710, '煉獄的侵略祭司', ''),
+(21711, '煉獄的侵略魔導士', ''),
+(21712, '煉獄的侵略殉教者', ''),
+(21713, '煉獄的侵略戰士', ''),
+(21714, '煉獄的侵略士兵', ''),
+(21715, '煉獄的侵略使徒', ''),
+(21716, '煉獄的侵略狂戰士', ''),
+(21717, '煉獄的侵略軍軍糧', ''),
+(21718, '煉獄的侵略精銳兵', ''),
+(21719, '煉獄的侵略精銳兵', ''),
+(21720, '煉獄的侵略精銳兵', ''),
+(21721, '煉獄的侵略精銳兵', ''),
+(21722, '煉獄的侵略戰士', ''),
+(21723, '煉獄的侵略精銳兵', ''),
+(21724, '煉獄的侵略精銳兵', ''),
+(21725, '煉獄的侵略精銳兵', ''),
+(21726, '煉獄的侵略精銳兵', ''),
+(21727, '煉獄的侵略魔導士', ''),
+(21728, '密謀者的侵略士兵', ''),
+(21729, '密謀者的侵略士兵', ''),
+(21730, '密謀者的侵略射手', ''),
+(21731, '密謀者的侵略精銳兵', ''),
+(21732, '密謀者的侵略咒術士', ''),
+(21733, '密謀者的侵略祭司', ''),
+(21734, '密謀者的侵略魔導士', ''),
+(21735, '密謀者的侵略殉教者', ''),
+(21736, '密謀者的侵略戰士', ''),
+(21737, '密謀者的侵略士兵', ''),
+(21738, '密謀者的侵略使徒', ''),
+(21739, '密謀者的侵略狂戰士', ''),
+(21740, '密謀者的侵略軍軍糧', ''),
+(21741, '密謀者的侵略精銳兵', ''),
+(21742, '密謀者的侵略精銳兵', ''),
+(21743, '密謀者的侵略精銳兵', ''),
+(21744, '密謀者的侵略精銳兵', ''),
+(21745, '密謀者的侵略戰士', ''),
+(21746, '密謀者的侵略精銳兵', ''),
+(21747, '密謀者的侵略精銳兵', ''),
+(21748, '密謀者的侵略精銳兵', ''),
+(21749, '密謀者的侵略精銳兵', ''),
+(21750, '密謀者的侵略魔導士', ''),
+(21751, '凶煞的侵略士兵', ''),
+(21752, '凶煞的侵略士兵', ''),
+(21753, '凶煞的侵略射手', ''),
+(21754, '凶煞的侵略精銳兵', ''),
+(21755, '凶煞的侵略咒術士', ''),
+(21756, '凶煞的侵略祭司', ''),
+(21757, '凶煞的侵略魔導士', ''),
+(21758, '凶煞的侵略殉教者', ''),
+(21759, '凶煞的侵略戰士', ''),
+(21760, '凶煞的侵略士兵', ''),
+(21761, '凶煞的侵略使徒', ''),
+(21762, '凶煞的侵略狂戰士', ''),
+(21763, '凶煞的侵略軍軍糧', ''),
+(21764, '凶煞的侵略精銳兵', ''),
+(21765, '凶煞的侵略精銳兵', ''),
+(21766, '凶煞的侵略精銳兵', ''),
+(21767, '凶煞的侵略精銳兵', ''),
+(21768, '凶煞的侵略戰士', ''),
+(21769, '凶煞的侵略精銳兵', ''),
+(21770, '凶煞的侵略精銳兵', ''),
+(21771, '凶煞的侵略精銳兵', ''),
+(21772, '凶煞的侵略精銳兵', ''),
+(21773, '凶煞的侵略魔導士', ''),
+(21774, '邪神的侵略士兵', ''),
+(21775, '邪神的侵略士兵', ''),
+(21776, '邪神的侵略射手', ''),
+(21777, '邪神的侵略精銳兵', ''),
+(21778, '邪神的侵略咒術士', ''),
+(21779, '邪神的侵略祭司', ''),
+(21780, '邪神的侵略魔導士', ''),
+(21781, '邪神的侵略殉教者', ''),
+(21782, '邪神的侵略戰士', ''),
+(21783, '邪神的侵略士兵', ''),
+(21784, '邪神的侵略使徒', ''),
+(21785, '邪神的侵略狂戰士', ''),
+(21786, '邪神的侵略軍軍糧', ''),
+(21787, '邪神的侵略精銳兵', ''),
+(21788, '邪神的侵略精銳兵', ''),
+(21789, '邪神的侵略精銳兵', ''),
+(21790, '邪神的侵略精銳兵', ''),
+(21791, '邪神的侵略戰士', ''),
+(21792, '邪神的侵略精銳兵', ''),
+(21793, '邪神的侵略精銳兵', ''),
+(21794, '邪神的侵略精銳兵', ''),
+(21795, '邪神的侵略精銳兵', ''),
+(21796, '邪神的侵略魔導士', ''),
+(21797, '提米妮爾的妖精', ''),
+(21798, '守門人的亡靈', ''),
+(21799, '守門人的亡靈', ''),
+(21800, '家臣的亡靈', ''),
+(21801, '寶箱', ''),
+(21802, '寶箱', ''),
+(21803, '寶箱', ''),
+(21804, '寶箱', ''),
+(21805, '寶箱', ''),
+(21806, '寶箱', ''),
+(21807, '寶箱', ''),
+(21808, '寶箱', ''),
+(21809, '寶箱', ''),
+(21810, '寶箱', ''),
+(21811, '寶箱', ''),
+(21812, '寶箱', ''),
+(21813, '寶箱', ''),
+(21814, '寶箱', ''),
+(21815, '寶箱', ''),
+(21816, '寶箱', ''),
+(21817, '寶箱', ''),
+(21818, '寶箱', ''),
+(21819, '寶箱', ''),
+(21820, '寶箱', ''),
+(21821, '寶箱', ''),
+(21822, '寶箱', ''),
+(21823, '祭物的執行者', ''),
+(21824, '高山笑翠鳥', ''),
+(21825, '高山笑翠鳥', ''),
+(21826, '高山野牛', ''),
+(21827, '高山野牛', ''),
+(21828, '高山老虎', ''),
+(21829, '高山老虎', ''),
+(22001, '埋葬地野狼', ''),
+(22002, '埋葬地灰熊', ''),
+(22003, '盜墓者偵查兵', ''),
+(22004, '盜墓者哨兵', ''),
+(22005, '盜墓者搜索兵', ''),
+(22006, '盜墓者警備兵', ''),
+(22007, '族長私兵團怨靈', ''),
+(22008, '盜墓者戰士', ''),
+(22009, '族長家臣亡靈', ''),
+(22010, '族長私兵團長怨靈', ''),
+(22011, '巴吐族長怨靈', ''),
+(22012, '巴吐族長怨靈', ''),
+(22013, '莫列克族長亡靈', ''),
+(22014, '莫列克族長亡靈', ''),
+(22015, '圖魯卡族長亡靈', ''),
+(22016, '圖魯卡族長亡靈', ''),
+(22017, '山賊團掃蕩者', ''),
+(22018, '山賊團獵犬', ''),
+(22019, '山賊團監視者', ''),
+(22020, '雪原豹', ''),
+(22021, '山賊團葬儀者', ''),
+(22022, '山賊團暗殺者', ''),
+(22023, '山賊團戰士', ''),
+(22024, '山賊團監察官', ''),
+(22025, '雪原狼', ''),
+(22026, '山賊團隊長', ''),
+(22027, '被遺忘的車夫', ''),
+(22028, '遺蹟流浪者', ''),
+(22029, '羅格那獸人', ''),
+(22030, '羅格那獸人咒術士', ''),
+(22031, '羅格那獸人射手', ''),
+(22032, '羅格那獸人戰士', ''),
+(22033, '羅格那獸人法咒師', ''),
+(22034, '羅格那獸人法咒師', ''),
+(22035, '羅格那獸人法咒師', ''),
+(22036, '羅格那獸人法咒師', ''),
+(22037, '羅格那獸人治療師', ''),
+(22038, '羅格那獸人英雄', ''),
+(22039, '羅格那獸人司令官', ''),
+(22040, '羅格那獸人狙擊手', ''),
+(22041, '羅格那獸人巫師', ''),
+(22042, '羅格那獸人巫師', ''),
+(22043, '羅格那獸人巫師', ''),
+(22044, '羅格那獸人巫師', ''),
+(22045, '無名屍', ''),
+(22046, '巴蘭卡的魔物', ''),
+(22047, '被遺棄村莊的監視者', ''),
+(22048, '黑暗蜘蛛', ''),
+(22049, '巴蘭卡的魅魔', ''),
+(22050, '智慧型偵查高崙四號機', ''),
+(22051, '礦山蜘蛛', ''),
+(22052, '怪力穿鑿高崙', ''),
+(22053, '恐怖加農砲高崙一號機', ''),
+(22054, '恐怖加農砲高崙四號機', ''),
+(22055, '殘忍巨鉗高崙', ''),
+(22056, '萬能型偵查高崙一號機', ''),
+(22057, '礦山螞蟻', ''),
+(22058, '恐怖挖掘高崙三號機', ''),
+(22059, '戰慄雙刀高崙七號機', ''),
+(22060, '恐怖加農砲高崙零號機', ''),
+(22061, '恐怖加農砲高崙三號機', ''),
+(22062, '恐怖穿鑿高崙', ''),
+(22063, '智慧型雙刀高崙十號機', ''),
+(22064, '戰慄雙刀高崙二號機', ''),
+(22065, '恐怖雙刀高崙五號機', ''),
+(22066, '恐怖加農砲高崙六號機', ''),
+(22067, '恐怖加農砲高崙六號機', ''),
+(22068, '恐怖加農砲高崙六號機', ''),
+(22069, '恐怖加農砲高崙六號機', ''),
+(22070, '恐怖加農砲高崙六號機', ''),
+(22071, '恐怖加農砲高崙六號機', ''),
+(22072, '恐怖加農砲高崙六號機', ''),
+(22073, '恐怖加農砲高崙六號機', ''),
+(22074, '終極加農砲高崙完成型', ''),
+(22075, '終極完成型隨從機', ''),
+(22076, '必殺雙刀高崙五號機', ''),
+(22077, '恐怖雙刀高崙八號機', ''),
+(22078, '必殺雙刀高崙八號機', ''),
+(22079, '迷宮班德斯那奇', ''),
+(22080, '迷宮巨大班德斯那奇', ''),
+(22081, '迷宮監視者', ''),
+(22082, '迷宮監視者長老', ''),
+(22083, '幼潘瑟拉', ''),
+(22084, '潘瑟拉', ''),
+(22085, '迷宮翼魔', ''),
+(22086, '迷宮翼魔拉德', ''),
+(22087, '刺角羚羊的怨靈', ''),
+(22088, '刺角羚羊', ''),
+(22089, '冰雪狼蛛', ''),
+(22090, '酷寒狼蛛', ''),
+(22091, '迷宮鋼鐵高崙', ''),
+(22092, '酷寒鋼鐵高崙', ''),
+(22093, '迷宮野牛', ''),
+(22094, '酷寒野牛', ''),
+(22095, '幼黑熊', ''),
+(22096, '黑熊', ''),
+(22097, '迷宮雪人', ''),
+(22098, '酷寒雪人', ''),
+(22099, '芙蕾雅的野牛', ''),
+(22100, '芙蕾雅的園丁', ''),
+(22101, '芙蕾雅的侍從', ''),
+(22102, '芙蕾雅的侍從', ''),
+(22103, '芙蕾雅的白熊', ''),
+(22104, '芙蕾雅的愛犬', ''),
+(22105, '釘刺司塔卡拓', ''),
+(22106, '釘刺司塔卡拓工人', ''),
+(22107, '釘刺司塔卡拓警備兵', ''),
+(22108, '雌性釘刺司塔卡拓', ''),
+(22109, '陽性釘刺司塔卡拓', ''),
+(22110, '陽性釘刺司塔卡拓', ''),
+(22111, '釘刺司塔卡拓巫師', ''),
+(22112, '食人司塔卡拓部下', ''),
+(22113, '食人司塔卡拓首領', ''),
+(22114, '食人司塔卡拓首領', ''),
+(22115, '釘刺司塔卡拓士兵', ''),
+(22116, '雄性釘刺司塔卡拓', ''),
+(22117, '釘刺司塔卡拓警衛隊長', ''),
+(22118, '釘刺司塔卡拓褓姆', ''),
+(22119, '釘刺司塔卡拓褓姆', ''),
+(22120, '釘刺司塔卡拓幼蟲', ''),
+(22121, '釘刺司塔卡拓咒術士', ''),
+(22122, '修道院巡禮者', ''),
+(22123, '修道院聖騎士', ''),
+(22124, '索黎那修士', ''),
+(22125, '索黎那入世修士', ''),
+(22126, '沉默的求道者', ''),
+(22127, '沉默的修士', ''),
+(22128, '修道院守護者', ''),
+(22129, '神官戰士', ''),
+(22130, '神聖的仲裁者', ''),
+(22131, '光之巡禮者', ''),
+(22132, '光之審判者', ''),
+(22133, '聖杯守護者', ''),
+(22134, '聖地守護者', ''),
+(22135, '光之守護者', ''),
+(22136, '守門人殭屍', ''),
+(22137, '大廳守門人', ''),
+(22138, '禮拜堂守門人', ''),
+(22139, '古代貴族的士兵', ''),
+(22140, '復活的工人', ''),
+(22141, '被遺忘的犧牲者', ''),
+(22142, '帝雷歐的入世信徒', ''),
+(22143, '帝雷歐的信徒', ''),
+(22144, '復活的神殿騎士', ''),
+(22145, '祭禮的犧牲者', ''),
+(22146, '帝雷歐的祭司', ''),
+(22147, '儀式的祭物', ''),
+(22148, '帝雷歐的信徒', ''),
+(22149, '儀式的祭物', ''),
+(22150, '帝雷歐的信徒', ''),
+(22151, '帝雷歐的祭司', ''),
+(22152, '神殿警衛兵', ''),
+(22153, '神殿警衛隊長', ''),
+(22154, '祭禮的犧牲者', ''),
+(22155, '帝雷歐的上位祭司', ''),
+(22156, '帝雷歐的祭司', ''),
+(22157, '帝雷歐的祭司', ''),
+(22158, '帝雷歐的信徒', ''),
+(22159, '帝雷歐的上位祭司', ''),
+(22160, '帝雷歐的祭司', ''),
+(22161, '祭禮的犧牲者', ''),
+(22162, '帝雷歐的信徒', ''),
+(22163, '帝雷歐的上位祭司', ''),
+(22164, '帝雷歐的信徒', ''),
+(22165, '帝雷歐的祭司', ''),
+(22166, '帝雷歐的信徒', ''),
+(22167, '帝雷歐的上位祭司', ''),
+(22168, '帝雷歐的祭司', ''),
+(22169, '祭禮的犧牲者', ''),
+(22170, '帝雷歐的信徒', ''),
+(22171, '帝雷歐的上位祭司', ''),
+(22172, '祭禮的犧牲者', ''),
+(22173, '帝雷歐的祭司', ''),
+(22174, '帝雷歐的祭司', ''),
+(22175, '安蒂莉雅絲的親衛隊長', ''),
+(22176, '安蒂莉雅絲的親衛隊', ''),
+(22188, '安蒂莉雅絲的親衛隊長', ''),
+(22189, '安蒂莉雅絲的親衛隊', ''),
+(22190, '祭禮的犧牲者', ''),
+(22191, '安蒂莉雅絲的親衛隊長', ''),
+(22192, '安蒂莉雅絲的親衛隊', ''),
+(22193, '安蒂莉雅絲的親衛隊', ''),
+(22194, '大廳守門人', ''),
+(22195, '祭禮的犧牲者', ''),
+(22196, '迅猛龍', ''),
+(22197, '迅猛龍', ''),
+(22198, '迅猛龍', ''),
+(22199, '喙嘴龍', ''),
+(22200, '似鳥龍', ''),
+(22201, '似鳥龍', ''),
+(22202, '似鳥龍', ''),
+(22203, '恐爪龍', ''),
+(22204, '恐爪龍', ''),
+(22205, '恐爪龍', ''),
+(22208, '厚頭龍', ''),
+(22209, '厚頭龍', ''),
+(22210, '厚頭龍', ''),
+(22211, '野生座龍', ''),
+(22212, '野生座龍', ''),
+(22213, '野生座龍', ''),
+(22214, '耶爾可羅', ''),
+(22215, '暴龍', ''),
+(22216, '暴龍', ''),
+(22217, '暴龍', ''),
+(22218, '迅猛龍', ''),
+(22219, '似鳥龍', ''),
+(22220, '恐爪龍', ''),
+(22221, '厚頭龍', ''),
+(22222, '野生座龍', ''),
+(22223, '迅猛龍', ''),
+(22224, '似鳥龍', ''),
+(22225, '恐爪龍', ''),
+(22226, '厚頭龍', ''),
+(22227, '野生座龍', ''),
+(22228, '灰獨角兔', ''),
+(22229, '幼灰狐狗', ''),
+(22230, '灰狐狗', ''),
+(22231, '灰狐狗首領', ''),
+(22232, '黑狼', ''),
+(22233, '黑狼首領', ''),
+(22234, '綠哥布林', ''),
+(22235, '丘陵狼人', ''),
+(22236, '摩斯特洛弓箭手', ''),
+(22237, '丘陵蘑菇', ''),
+(22238, '丘陵狼人首領', ''),
+(22239, '摩斯特洛警衛兵', ''),
+(22240, '摩斯特洛巡邏兵', ''),
+(22241, '巨大高崙', ''),
+(22242, '摩斯特洛戰士', ''),
+(22243, '摩斯特洛警衛隊長', ''),
+(22244, '紅蜘蛛', ''),
+(22245, '摩斯特洛戰士副隊長', ''),
+(22246, '摩斯特洛戰士隊長', ''),
+(22247, '洞穴高崙', ''),
+(22248, '洞穴摩斯特洛', ''),
+(22249, '洞穴摩斯特洛警衛兵', ''),
+(22250, '洞穴豹', ''),
+(22251, '洞穴摩斯特洛警衛隊長', ''),
+(22252, '洞穴灰熊', ''),
+(22253, '洞穴摩斯特洛戰士', ''),
+(22254, '洞穴摩斯特洛弓箭手', ''),
+(22255, '洞穴摩斯特洛隊長', ''),
+(22256, '洞穴摩斯特洛魔法師', ''),
+(22257, '島的守門人', ''),
+(22258, '白沙灘的幻象', ''),
+(22259, '珊瑚泥', ''),
+(22260, '水妖精克麗奈亞', ''),
+(22261, '賽席爾', ''),
+(22262, '水妖精奈雅德', ''),
+(22263, '海桑', ''),
+(22264, '卡斯托里亞睡蓮', ''),
+(22265, '柯莉絲克莉亞', ''),
+(22266, '皮提亞', ''),
+(22267, '暗黑水龍', ''),
+(22268, '陰界的生命體', ''),
+(22269, '陰界的生命體', ''),
+(22270, '水龍攻擊者', ''),
+(22271, '水龍攻擊者', ''),
+(22272, '巴列斯的部下', ''),
+(22273, '巴列斯的部下', ''),
+(22274, '巴列斯的部下', ''),
+(22275, '廣場守門人 羅斯塔', ''),
+(22276, '廣場守門人', ''),
+(22277, '火焰守門人 比拉瑪林', ''),
+(22278, '火焰守門人', ''),
+(22279, '寶石禁錮者', ''),
+(22280, '路得騎士', ''),
+(22281, '廣場鱷魚', ''),
+(22282, '寶石禁錮者', ''),
+(22283, '廣場耶里哥德', ''),
+(22284, '寶石禁錮者', ''),
+(22285, '寶石禁錮者', ''),
+(22286, '廣場歇比爾', ''),
+(22287, '水晶獨角獸', ''),
+(22288, '翡翠豬', ''),
+(22289, '廣場帽蓋', ''),
+(22290, '泰德的部下', ''),
+(22291, '衛志里的部下', ''),
+(22292, '電氣石', ''),
+(22293, '尖晶石', ''),
+(22294, '火蛋白石', ''),
+(22295, '珊瑚高崙', ''),
+(22296, '珊瑚高崙', ''),
+(22297, '珊瑚高崙', ''),
+(22298, '衛志里', ''),
+(22299, '道斯特', ''),
+(22300, '道斯特的部下', ''),
+(22301, '泰德', ''),
+(22302, '達爾尼思的守護者', ''),
+(22303, '廣場守護者', ''),
+(22304, '翡翠廣場守護者', ''),
+(22305, '基亞齊的警衛隊長', ''),
+(22306, '基亞齊的警衛隊長', ''),
+(22307, '基亞齊的警衛隊長', ''),
+(22308, '基亞齊的警衛隊', ''),
+(22309, '基亞齊的警衛隊', ''),
+(22310, '基亞齊的警衛隊', ''),
+(22311, '帕爾米的守護者', ''),
+(22312, '法利昂的手下', ''),
+(22313, '庭園的司塔卡拓', ''),
+(22314, '庭園的毒蛾', ''),
+(22315, '庭園的警衛兵', ''),
+(22316, '庭園的守護木', ''),
+(22317, '庭園的卡斯托里亞', ''),
+(22320, '下級監視者', ''),
+(22321, '下級召喚士', ''),
+(22322, '被支配的原住民', ''),
+(22323, '被眩惑的原住民', ''),
+(22324, '無眼獵人', ''),
+(22325, '無眼監視者', ''),
+(22326, '海琳納克', '奈雅的守護者'),
+(22327, '魔法陣巡邏兵', ''),
+(22328, '魔法陣警衛兵', ''),
+(22329, '魔法陣監視兵', ''),
+(22330, '舊神殿的惡靈', ''),
+(22334, '沙蠍', ''),
+(22335, '沙漠蠍', ''),
+(22336, '肉體抹殺者', ''),
+(22337, '靈魂抽取者', ''),
+(22339, '被放逐的商隊', ''),
+(22340, '沙之風暴', ''),
+(22341, '凱達士', ''),
+(22342, '達里昂的執行者', ''),
+(22343, '達里昂的處刑者', ''),
+(22344, '採石場監督官', ''),
+(22345, '採石場監督官', ''),
+(22346, '採石場巡邏隊長', ''),
+(22347, '採石場巡邏兵', ''),
+(22349, '大地奇美拉', ''),
+(22350, '黑暗奇美拉', ''),
+(22351, '風之奇美拉', ''),
+(22352, '火焰奇美拉', ''),
+(22353, '西爾德斯', '奇美拉'),
+(22355, '外城警衛隊', ''),
+(22356, '外城警衛隊', ''),
+(22357, '外城警衛隊', ''),
+(22358, '外城警衛隊', ''),
+(22359, '市區警衛兵', ''),
+(22360, '市區巡邏兵', ''),
+(22361, '鋼鐵之城 鑰匙守衛', ''),
+(22362, '古任', ''),
+(22363, '肉體破壞者', ''),
+(22364, '靈魂蠶食者', ''),
+(22365, '迷路的警衛兵', ''),
+(22366, '迷路的警衛兵', ''),
+(22367, '迷路的魔法師', ''),
+(22368, '迷路的警衛隊長', ''),
+(22369, '迷路的祭司長', ''),
+(22370, '通道的警衛隊長', ''),
+(22371, '通道的警衛兵', ''),
+(22372, '通道的魔法師', ''),
+(22373, '空間巡守', ''),
+(22374, '空間觀察者', ''),
+(22375, '空間祭司', ''),
+(22376, '空間支配者', ''),
+(22377, '大師季羅斯', ''),
+(22378, '大師的手下', ''),
+(22379, '大師的手下', ''),
+(22380, '大師珮斯提納', ''),
+(22381, '大師的警衛兵', ''),
+(22382, '大師的警衛兵', ''),
+(22383, '托里士的玩具', ''),
+(22384, '魔法師的玩具', ''),
+(22385, '托里士的高崙警衛兵', ''),
+(22386, '工作所的魔法師', ''),
+(22387, '工作所的魔法師', ''),
+(22388, '工作所的魔物警衛兵', ''),
+(22389, '工作所的魔物警衛兵', ''),
+(22390, '工作所的監督官', ''),
+(22391, '工作所的監督輔佐', ''),
+(22392, '失敗作時間歪曲高崙', ''),
+(22393, '巴列斯的隨從', ''),
+(22394, '巴列斯的信徒', ''),
+(22395, '巴列斯的鬥士', ''),
+(22396, '製造所工人', ''),
+(22397, '製造所 監督官', ''),
+(22398, '下級魔物', ''),
+(22399, '上級魔物', ''),
+(22400, '帕爾米的治療者', ''),
+(22401, '帕爾米的治療者', ''),
+(22402, '暗雲的石柱', ''),
+(22403, '製造所監督官', ''),
+(22404, '魔法陣警衛隊長', ''),
+(22405, '達里昂的忠僕', ''),
+(22406, '達里昂的忠僕', ''),
+(22407, '達里昂的忠僕', ''),
+(22408, '達里昂的忠僕', ''),
+(22409, '達里昂的忠僕', ''),
+(22410, '達里昂的忠僕', ''),
+(22411, '巴列斯的心腹', ''),
+(22412, '巴列斯的格鬥士', ''),
+(22413, '巴列斯的行兇者', ''),
+(22414, '巴列斯的隨從', ''),
+(22415, '巴列斯的信徒', ''),
+(22416, '基亞齊的警衛隊長', ''),
+(22417, '基亞齊的警衛隊', ''),
+(22418, '燃燒的盲者', ''),
+(22419, '火焰盲者', ''),
+(22420, '赤黃的盲者', ''),
+(22422, '塔門警衛兵', ''),
+(22423, '原罪的監視人', ''),
+(22424, '貪婪的奴隸', ''),
+(22425, '慾望的奴隸', ''),
+(22426, '忿怒的奴隸', ''),
+(22427, '懶惰的奴隸', ''),
+(22428, '妒忌的奴隸', ''),
+(22429, '驕傲的奴隸', ''),
+(22430, '貪食的奴隸', ''),
+(22431, '原罪的監視人', ''),
+(22432, '貪婪的奴隸', ''),
+(22433, '慾望的奴隸', ''),
+(22434, '忿怒的奴隸', ''),
+(22435, '懶惰的奴隸', ''),
+(22436, '妒忌的奴隸', ''),
+(22437, '驕傲的奴隸', ''),
+(22438, '貪食的奴隸', ''),
+(22439, '巴列斯的暗殺者', ''),
+(22440, '巴列斯的暗殺者', ''),
+(22441, '巴列斯的手下', ''),
+(22442, '巴列斯的手下', ''),
+(22443, '柯爾堂的使者', ''),
+(22444, '柯爾堂的使者', ''),
+(22445, '柯爾堂的使者', ''),
+(22446, '柯爾堂的使者', ''),
+(22447, '柯爾堂的使者', ''),
+(22448, '雷歐達斯', '反抗軍指揮官'),
+(22449, '亞邁士康里', '拷問專家'),
+(22450, '被拷問的原住民', ''),
+(22451, '原住民精銳軍', ''),
+(22452, '白骨 卡納比昂', ''),
+(22453, '白骨 卡納比昂', '都卜勒'),
+(22454, '白骨 卡納比昂', '博伊德'),
+(22455, '怨恨 卡納比昂', ''),
+(22456, '怨恨 卡納比昂', '都卜勒'),
+(22457, '怨恨 卡納比昂', '博伊德'),
+(22458, '腐敗 卡納比昂', ''),
+(22459, '腐敗 卡納比昂', '都卜勒'),
+(22460, '腐敗 卡納比昂', '博伊德'),
+(22461, '飽食 卡納比昂', ''),
+(22462, '飽食 卡納比昂', '都卜勒'),
+(22463, '飽食 卡納比昂', '博伊德'),
+(22464, '冷血 卡納比昂', ''),
+(22465, '冷血 卡納比昂', '都卜勒'),
+(22466, '冷血 卡納比昂', '博伊德'),
+(22467, '野性 卡納比昂', ''),
+(22468, '野性 卡納比昂', '都卜勒'),
+(22469, '野性 卡納比昂', '博伊德'),
+(22470, '無雙 卡納比昂', ''),
+(22471, '無雙 卡納比昂', '都卜勒'),
+(22472, '無雙 卡納比昂', '博伊德'),
+(22473, '狂暴 卡納比昂', ''),
+(22474, '狂暴 卡納比昂', '都卜勒'),
+(22475, '狂暴 卡納比昂', '博伊德'),
+(22476, '赤血 卡納比昂', ''),
+(22477, '赤血 卡納比昂', '都卜勒'),
+(22478, '赤血 卡納比昂', '博伊德'),
+(22479, '破裂 卡納比昂', ''),
+(22480, '破裂 卡納比昂', '都卜勒'),
+(22481, '破裂 卡納比昂', '博伊德'),
+(22482, '鬼面 卡納比昂', ''),
+(22483, '鬼面 卡納比昂', '都卜勒'),
+(22484, '鬼面 卡納比昂', '博伊德'),
+(22485, '迷宮監視者', ''),
+(22486, '迷宮監視者', ''),
+(22487, '迷宮觀察者', ''),
+(22488, '迷宮監視者', ''),
+(22489, '迷宮監視者', ''),
+(22490, '迷宮觀察者', ''),
+(22491, '迷宮監視者', ''),
+(22492, '迷宮監視者', ''),
+(22493, '迷宮觀察者', ''),
+(22494, '迷宮監視者', ''),
+(22495, '迷宮監視者', ''),
+(22496, '迷宮觀察者', ''),
+(22497, '迷宮監視者', ''),
+(22498, '迷宮監視者', ''),
+(22499, '迷宮觀察者', ''),
+(22500, '迷宮監視者', ''),
+(22501, '迷宮監視者', ''),
+(22502, '迷宮觀察者', ''),
+(22503, '迷宮監視者', ''),
+(22504, '迷宮監視者', ''),
+(22505, '迷宮觀察者', ''),
+(22506, '炸彈之眼', ''),
+(22507, '炸彈之眼', ''),
+(22508, '炸彈之眼', ''),
+(22509, '不死的狂信徒', ''),
+(22510, '腐敗的傳令', ''),
+(22511, '不死的狂信者', ''),
+(22512, '屍體切割機', ''),
+(22513, '屍體收割機', ''),
+(22514, '靈魂抽取者', ''),
+(22515, '靈魂掠食者', ''),
+(22516, '不死的殺戮者', ''),
+(22517, '不死的供養者', ''),
+(22518, '腐敗的傳令', ''),
+(22519, '屍體收割機', ''),
+(22520, '屍體切割機', ''),
+(22521, '靈魂抽取者', ''),
+(22522, '靈魂掠食者', ''),
+(22523, '靈魂掠食者', '伊卡姆士的食物'),
+(22524, '死亡的密使', ''),
+(22525, '死亡的密使', ''),
+(22526, '死亡的密使', ''),
+(22527, '死亡的密使', ''),
+(22528, '受詛咒的團長', ''),
+(22529, '受詛咒的團長', ''),
+(22530, '受詛咒的團長', ''),
+(22531, '受詛咒的團長', ''),
+(22532, '終末的律法學者', ''),
+(22533, '終末的律法學者', ''),
+(22534, '終末的律法學者', ''),
+(22535, '終末的律法學者', ''),
+(22536, '親衛隊長', ''),
+(22537, '龍馬軍 大魔法師', ''),
+(22538, '龍馬軍 軍團長', ''),
+(22539, '龍馬軍 1號隊長', ''),
+(22540, '百龍隊長', ''),
+(22541, '龍馬軍 步兵', ''),
+(22542, '龍馬軍 魔法隊長', ''),
+(22543, '龍馬軍 魔法師', ''),
+(22544, '龍馬軍 魔法士兵', ''),
+(22545, '闇龍的族人', ''),
+(22546, '狂戰士', ''),
+(22547, '龍馬軍 治療師', ''),
+(22548, '龍馬軍 標槍兵', ''),
+(22549, '龍馬軍 標槍兵', ''),
+(22550, '野蠻戰士', ''),
+(22551, '黑暗祭司', ''),
+(22552, '突變龍獸', ''),
+(22553, '大型凝結器', ''),
+(22554, '小型凝結器', ''),
+(22555, '小型凝結器', ''),
+(22556, '小型凝結器', ''),
+(22557, '據點防禦機械', ''),
+(22558, '據點防禦炮臺', ''),
+(22559, '殘敗軍 軍團長', ''),
+(22560, '殘敗軍 第1隊隊長', ''),
+(22561, '殘敗軍 百龍隊長', ''),
+(22562, '殘敗軍 步兵', ''),
+(22563, '殘敗軍 魔法隊長', ''),
+(22564, '殘敗軍 魔法師', ''),
+(22565, '殘敗軍 魔法士兵', ''),
+(22566, '殘敗軍 治療師', ''),
+(22567, '殘敗軍 標槍兵', ''),
+(22568, '殘敗軍 標槍兵', ''),
+(22569, '敢死隊', '蒂雅特親衛隊'),
+(22570, '親衛隊長', ''),
+(22571, '龍馬軍 大魔法師', ''),
+(22572, '龍馬軍 軍團長', ''),
+(22573, '龍馬軍 第1隊隊長', ''),
+(22574, '百龍隊長', ''),
+(22575, '龍馬軍 步兵', ''),
+(22576, '龍馬軍 魔法隊長', ''),
+(22577, '龍馬軍 魔法師', ''),
+(22578, '龍馬軍 魔法士兵', ''),
+(22579, '狂戰士', ''),
+(22580, '龍馬軍 治療師', ''),
+(22581, '龍馬軍 標槍兵', ''),
+(22582, '龍馬軍 標槍兵', ''),
+(22583, '龍馬軍 魔法隊長', ''),
+(22584, '龍馬軍 魔法師', ''),
+(22585, '龍馬軍 魔法士兵', ''),
+(22586, '龍馬軍 軍團長', ''),
+(22587, '龍馬軍 1號隊長', ''),
+(22588, '百龍隊長', ''),
+(22589, '龍馬軍 步兵', ''),
+(22590, '', ''),
+(22591, '龍馬軍 魔法隊長', ''),
+(22592, '龍馬軍 魔法師', ''),
+(22593, '龍馬軍 魔法士兵', ''),
+(22594, '龍馬軍 軍團長', ''),
+(22595, '龍馬軍 第1隊隊長', ''),
+(22596, '百龍隊長', ''),
+(22597, '龍馬軍 步兵', ''),
+(22598, '方尖塔', ''),
+(22599, '廣場結界裝置', ''),
+(22600, '破滅的寶座結界裝置', ''),
+(22601, '心臟保護裝置', ''),
+(22602, '突變鳥', ''),
+(22603, '突變鳥', ''),
+(22604, '龍鷹', ''),
+(22605, '龍鷹', ''),
+(22606, '浮游骷髏', ''),
+(22607, '浮游骷髏', ''),
+(22608, '浮游殭屍', ''),
+(22609, '浮游殭屍', ''),
+(22610, '變種龍獸翼', ''),
+(22611, '變種龍獸翼', ''),
+(22612, '德拉克', ''),
+(22613, '德拉克', ''),
+(22614, '禿鷹騎士', ''),
+(22615, '禿鷹騎士', ''),
+(22616, '苦痛種子', ''),
+(22617, '釘刺司塔卡拓', ''),
+(22618, '釘刺司塔卡拓工人', ''),
+(22619, '釘刺司塔卡拓警備兵', ''),
+(22620, '雌性釘刺司塔卡拓', ''),
+(22621, '陽性釘刺司塔卡拓', ''),
+(22622, '陽性釘刺司塔卡拓', ''),
+(22623, '釘刺司塔卡拓巫師', ''),
+(22624, '食人司塔卡拓部下', ''),
+(22625, '食人司塔卡拓首領', ''),
+(22626, '食人司塔卡拓首領', ''),
+(22627, '釘刺司塔卡拓士兵', ''),
+(22628, '雄性釘刺司塔卡拓', ''),
+(22629, '釘刺司塔卡拓警衛隊長', ''),
+(22630, '釘刺司塔卡拓褓姆', ''),
+(22631, '釘刺司塔卡拓褓姆', ''),
+(22632, '釘刺司塔卡拓幼蟲', ''),
+(22633, '釘刺司塔卡拓咒術士', ''),
+(22634, '緋紅司塔卡拓工人', ''),
+(22635, '緋紅司塔卡拓士兵', ''),
+(22636, '緋紅司塔卡拓貴族', ''),
+(22637, '帝芙拉天蠍', ''),
+(22638, '帝芙拉聖甲蟲', ''),
+(22639, '暗殺甲蟲', ''),
+(22640, '破滅的傭兵', ''),
+(22641, '破滅的騎士', ''),
+(22642, '熔岩高崙', ''),
+(22643, '岩漿高崙', ''),
+(22644, '破滅的亞利曼那斯', ''),
+(22645, '破滅的巴羅爾', ''),
+(22646, '破滅的阿修拉斯', ''),
+(22647, '熔岩邪惡蜥蜴', ''),
+(22648, '熾熱的伊佛利特', ''),
+(22649, '岩漿龍獸', ''),
+(22650, '瑪可羅津狂信者', ''),
+(22651, '瑪可羅津苦行者', ''),
+(22652, '瑪可羅津救贖者', ''),
+(22653, '瑪可羅津傳教士', ''),
+(22654, '被污染的瑪可羅津', ''),
+(22655, '被變化的瑪可羅津', ''),
+(22656, '突擊型強化高崙', ''),
+(22657, '破壞型強化高崙', ''),
+(22658, '魔法陣地縛靈', ''),
+(22659, '魔法陣守護靈', ''),
+(22660, '退化的下巨人', ''),
+(22661, '退化的下巨人士兵', ''),
+(22662, '退化的下巨人弓箭手', ''),
+(22663, '退化的下巨人巡守', ''),
+(22664, '退化的下巨人魔法師', ''),
+(22665, '退化的下巨人長老', ''),
+(22666, '巴里夫', ''),
+(22667, '巴里夫的雷歐古', ''),
+(22668, '甘麟', '偵查者'),
+(22669, '雷歐古', '偵查兵'),
+(22670, '康斯特統治者', ''),
+(22671, '康斯特守護者', ''),
+(22672, '康斯特預言者', ''),
+(22673, '希羅卡伊', ''),
+(22674, '伊瑪格羅', ''),
+(22675, '帕里特', ''),
+(22676, '哈姆里特', ''),
+(22677, '克連奧特', ''),
+(22678, '盜墓者召喚士', '瘋狂的'),
+(22679, '盜墓者魔法師', '瘋狂的'),
+(22680, '盜墓者工人', '瘋狂的'),
+(22681, '盜墓者戰士', '瘋狂的'),
+(22682, '盜墓者狂戰士', '瘋狂的'),
+(22683, '黑暗的召喚者', ''),
+(22684, '黑暗的召喚者', ''),
+(22685, '黑暗的召喚者', ''),
+(22686, '黑暗的召喚者', ''),
+(22687, '礦山浮游靈', ''),
+(22688, '礦山惡靈', ''),
+(22689, '礦山蟲', ''),
+(22690, '地蟲的後裔', ''),
+(22691, '羅格那獸人', '被惡靈附身的'),
+(22692, '羅格那獸人戰士', '被惡靈附身的'),
+(22693, '羅格那獸人英雄', '被惡靈附身的'),
+(22694, '羅格那獸人司令官', '被惡靈附身的'),
+(22695, '羅格那獸人治療師', '被惡靈附身的'),
+(22696, '羅格那獸人咒術士', '被惡靈附身的'),
+(22697, '羅格那獸人預言者', '被惡靈附身的'),
+(22698, '羅格那獸人射手', '被惡靈附身的'),
+(22699, '羅格那獸人狙擊手', '被惡靈附身的'),
+(22700, '巴蘭卡的守護者', ''),
+(22701, '巴蘭卡的魔物', ''),
+(22702, '巴蘭卡的毀滅者', ''),
+(22703, '被污染的莫列克戰士', ''),
+(22704, '被污染的巴吐戰士', ''),
+(22705, '被污染的巴吐指揮官', ''),
+(22706, '圖魯卡部下怨靈', ''),
+(22707, '圖魯卡首領怨靈', '墓地守護靈'),
+(22708, '惡夢的侵略戰士', ''),
+(22709, '惡夢的侵略治癒者', ''),
+(22710, '惡夢的侵略引導者', ''),
+(22711, '惡夢的侵略破壞者', ''),
+(22712, '惡夢的侵略暗殺者', ''),
+(22713, '惡夢的侵略咒術士', ''),
+(22714, '惡夢的侵略弓箭手', ''),
+(22715, '惡夢的侵略士兵', ''),
+(22716, '惡夢的侵略士兵', ''),
+(22717, '惡夢的侵略使徒', ''),
+(22718, '惡夢的侵略精銳兵', ''),
+(22719, '虛無的侵略戰士', ''),
+(22720, '虛無的侵略治癒者', ''),
+(22721, '虛無的侵略引導者', ''),
+(22722, '虛無的侵略破壞者', ''),
+(22723, '虛無的侵略暗殺者', ''),
+(22724, '虛無的侵略咒術士', ''),
+(22725, '虛無的侵略弓箭手', ''),
+(22726, '虛無的侵略士兵', ''),
+(22727, '虛無的侵略士兵', ''),
+(22728, '虛無的侵略使徒', ''),
+(22729, '虛無的侵略精銳兵', ''),
+(22730, '怨靈的侵略戰士', ''),
+(22731, '怨靈的侵略治癒者', ''),
+(22732, '怨靈的侵略引導者', ''),
+(22733, '怨靈的侵略破壞者', ''),
+(22734, '怨靈的侵略暗殺者', ''),
+(22735, '怨靈的侵略咒術士', ''),
+(22736, '怨靈的侵略弓箭手', ''),
+(22737, '怨靈的侵略士兵', ''),
+(22738, '怨靈的侵略士兵', ''),
+(22739, '怨靈的侵略使徒', ''),
+(22740, '怨靈的侵略精銳兵', ''),
+(22741, '盜墓者戰士', ''),
+(22742, '似鳥龍', ''),
+(22743, '恐爪龍', ''),
+(22744, '似鳥龍', ''),
+(22745, '恐爪龍', ''),
+(25001, '灰爪庫土斯', '狩獵首領 '),
+(25002, '庫土斯的守衛', '狩獵手下'),
+(25003, '庫土斯的手下', '狩獵手下'),
+(25004, '土瑞克傭兵隊長', '狩獵首領 '),
+(25005, '土瑞克傭兵弓手', '狩獵手下'),
+(25006, '土瑞克兵戰士', '狩獵手下'),
+(25007, '隱遁蜘蛛 克列圖', '狩獵首領 '),
+(25008, '克列圖的心腹', '狩獵手下'),
+(25009, '克列圖的手下', '狩獵手下'),
+(25010, '憤怒的提萊斯', '狩獵首領 '),
+(25011, '提萊斯的守衛', '狩獵手下'),
+(25012, '提萊斯的追隨者', '狩獵手下'),
+(25013, '農民叛軍隊長鬼魂', '狩獵首領 '),
+(25014, '農民叛軍鬼魂', '狩獵手下'),
+(25015, '農民叛軍鬼魂', '狩獵手下'),
+(25016, '水中庭園守護者三號', '狩獵首領 '),
+(25017, '守護者3號的護衛機', '狩獵手下'),
+(25018, '守護者3號的掩護機', '狩獵手下'),
+(25019, '潘 柴特', '狩獵首領 '),
+(25020, '布賴卡法魔 帕斯圖', '狩獵首領 '),
+(25021, '帕斯圖的影魔', '狩獵手下'),
+(25022, '帕斯圖的闇魔', '狩獵手下'),
+(25023, '司塔卡拓女王 潔魯娜', '狩獵首領 '),
+(25024, '潔魯娜的護衛隊長', '狩獵手下'),
+(25025, '潔魯娜的護衛兵', '狩獵手下'),
+(25026, '卡圖先鋒隊長 亞圖易', '狩獵首領 '),
+(25027, '卡圖先鋒隊弓手', '狩獵手下'),
+(25028, '卡圖先鋒隊戰士', '狩獵手下'),
+(25029, '阿特萊班', '狩獵首領 '),
+(25030, '阿特萊班的大弟子', '狩獵手下'),
+(25031, '阿特萊班的弟子', '狩獵手下'),
+(25032, '伊娃守護者 米列奴', '狩獵首領 '),
+(25033, '米列奴親衛隊魔法師', '狩獵手下'),
+(25034, '米列奴親衛隊戰士', '狩獵手下'),
+(25035, '席琳的死神 卡布里歐', '狩獵首領 '),
+(25036, '卡布里歐的俘虜', '狩獵手下'),
+(25037, '卡布里歐的刀手', '狩獵手下'),
+(25038, '提拉克', '狩獵首領 '),
+(25039, '提拉克的護衛兵', '狩獵手下'),
+(25040, '提拉克騎士', '狩獵手下'),
+(25041, '雷米爾', '狩獵首領 '),
+(25042, '雷米爾的弓手', '狩獵手下'),
+(25043, '雷米爾的守衛', '狩獵手下'),
+(25044, '巴立恩', '狩獵首領 '),
+(25045, '巴立恩的黑魔法師', '狩獵手下'),
+(25046, '巴立恩的士兵', '狩獵手下'),
+(25047, '卡勒特', '狩獵首領 '),
+(25048, '卡勒特的首席騎士', '狩獵手下'),
+(25049, '卡勒特的親衛隊', '狩獵手下'),
+(25050, '拜勒法', '狩獵首領 '),
+(25051, '拉何', '狩獵首領 '),
+(25052, '拉何的女祭司', '狩獵手下'),
+(25053, '拉何狂信者', '狩獵手下'),
+(25054, '柯爾能', '狩獵首領 '),
+(25055, '塔里亞噸', '狩獵手下'),
+(25056, '芬斯克', '狩獵手下'),
+(25057, '蒼空的畢肯', '狩獵首領 '),
+(25058, '畢肯的射手', '狩獵手下'),
+(25059, '畢肯的戰士', '狩獵手下'),
+(25060, '愛情失敗者 凱爾', '狩獵首領 '),
+(25061, '凱爾的珠子', '狩獵手下'),
+(25062, '凱爾護衛兵', '狩獵手下'),
+(25063, '偉大的靈魂 采爾圖巴', '狩獵首領 '),
+(25064, '暴風的魔法師 台勒客', '狩獵首領 '),
+(25065, '台勒客的護衛兵', '狩獵手下'),
+(25066, '台勒客的騎士', '狩獵手下'),
+(25067, '紅旗隊長 沙卡', '狩獵首領 '),
+(25068, '沙卡的射手', '狩獵手下'),
+(25069, '沙卡的追隨者', '狩獵手下'),
+(25070, '妖精森林守護者 儒諾', '狩獵首領 '),
+(25071, '儒諾的風', '狩獵手下'),
+(25072, '儒諾的獨角獸', '狩獵手下'),
+(25073, '血腥祭司 茹德圖', '狩獵首領 '),
+(25074, '茹德圖的班席女妖', '狩獵手下'),
+(25075, '茹德圖的德雷巴奴', '狩獵手下'),
+(25076, '摩拉公主', '狩獵首領 '),
+(25077, '親衛隊長道根', '狩獵手下'),
+(25078, '公主的親衛隊', '狩獵手下'),
+(25079, '貓眼', '狩獵首領 '),
+(25080, '傭兵', '狩獵手下'),
+(25081, '貓眼盜賊', '狩獵手下'),
+(25082, '貓團首領', '狩獵首領 '),
+(25083, '貓團', '狩獵手下'),
+(25084, '貓團', '狩獵手下'),
+(25085, '提瑪克獸人搜索隊長', '狩獵首領 '),
+(25086, '提瑪克獸人搜索隊', '狩獵手下'),
+(25087, '提瑪克獸人搜索隊', '狩獵手下'),
+(25088, '暴走機械高崙', '狩獵首領 '),
+(25089, '失魂者野豬', '狩獵首領 '),
+(25090, '失魂者狼', '狩獵手下'),
+(25091, '失魂者熊', '狩獵手下'),
+(25092, '柯林姆', '狩獵首領 '),
+(25093, '柯林姆的警衛隊長 凱溫', '狩獵手下'),
+(25094, '柯林姆的警衛隊', '狩獵手下'),
+(25095, '精靈 雷諾亞', '狩獵首領 '),
+(25096, '雷諾亞的艾魯比', '狩獵手下'),
+(25097, '雷諾亞的豬', '狩獵手下'),
+(25098, '賽查的召喚者', '狩獵首領 '),
+(25099, '腐爛樹 雷比魯', '狩獵首領 '),
+(25100, '腐爛的精靈', '狩獵手下'),
+(25101, '腐爛的戰士', '狩獵手下'),
+(25102, '夏可蘭', '狩獵首領 '),
+(25103, '咒術士 伊索', '狩獵首領 '),
+(25104, '伊索護衛兵', '狩獵手下'),
+(25105, '伊索護衛隊', '狩獵手下'),
+(25106, '井之亡靈 莉帝雅', '狩獵首領 '),
+(25107, '莉帝雅的射手', '狩獵手下'),
+(25108, '莉帝雅的戰士', '狩獵手下'),
+(25109, '安塔瑞斯的祭司 柯隆', '狩獵首領 '),
+(25110, '柯隆的召喚者', '狩獵手下'),
+(25111, '柯隆的召喚者', '狩獵手下'),
+(25112, '巴列斯的密使 梅亞拿', '狩獵首領 '),
+(25113, '梅亞拿的侍女', '狩獵手下'),
+(25114, '梅亞拿的警衛人偶', '狩獵手下'),
+(25115, '伊克魯斯實驗體1號', '狩獵首領 '),
+(25116, '伊克魯斯實驗體2號', '狩獵手下'),
+(25117, '伊克魯斯實驗體3號', '狩獵手下'),
+(25118, '典獄長 基洛德', '狩獵首領 '),
+(25119, '妖精女王的使者 貝崙', '狩獵首領 '),
+(25120, '貝崙的侍從', '狩獵手下'),
+(25121, '貝崙的饒舌者', '狩獵手下'),
+(25122, '流亡犧牲者 雷歐', '狩獵首領 '),
+(25123, '雷歐的僕人', '狩獵手下'),
+(25124, '雷歐的執事', '狩獵手下'),
+(25125, '昂赫的猛虎王', '狩獵首領 '),
+(25126, '牛角將軍 勾爾昆達', '狩獵首領 '),
+(25127, '朗克族長 瑞許寇絲', '狩獵首領 '),
+(25128, '普庫祭司長 迦瑪許', '狩獵首領 '),
+(25129, '普庫的巫師', '狩獵手下'),
+(25130, '迦瑪許的寵物特里丹', '狩獵手下'),
+(25131, '殺戮王 克圖', '狩獵首領 '),
+(25132, '克圖的弓手', '狩獵手下'),
+(25133, '克圖的突擊隊長', '狩獵手下'),
+(25134, '里多族長 塔金', '狩獵首領 '),
+(25135, '塔金的祭司長', '狩獵手下'),
+(25136, '塔金的親衛隊', '狩獵手下'),
+(25137, '巴列斯的巫女 瑟菲亞', '狩獵首領 '),
+(25138, '飲魂者', '狩獵手下'),
+(25139, '瑟菲亞的奴隸', '狩獵手下'),
+(25140, '黑卡特原型', '狩獵首領 '),
+(25141, '黑卡特 寇圖司', '狩獵手下'),
+(25142, '黑卡特 基雷司', '狩獵手下'),
+(25143, '懲罰之火 斯萊爾', '狩獵首領 '),
+(25144, '斯萊爾的傳教士', '狩獵手下'),
+(25145, '斯萊爾的聖騎士', '狩獵手下'),
+(25146, '死靈 畢佛隆', '狩獵首領 '),
+(25147, '畢佛隆的暗殺者', '狩獵手下'),
+(25148, '畢佛隆的屠夫', '狩獵手下'),
+(25149, '殭屍之王 可羅', '狩獵首領 '),
+(25150, '死靈弓手', '狩獵手下'),
+(25151, '死靈戰士', '狩獵手下'),
+(25152, '炎之沙達', '狩獵首領 '),
+(25153, '沙達的腳爪', '狩獵手下'),
+(25154, '沙達的鞭子', '狩獵手下'),
+(25155, '巫醫王 賽魯', '狩獵首領 '),
+(25156, '狂信魔法師', '狩獵手下'),
+(25157, '狂信士兵', '狩獵手下'),
+(25158, '塔爾克王', '狩獵首領 '),
+(25159, '獨角獸 帕妮爾', '狩獵首領 '),
+(25160, '獨角獸 拉比妮', '狩獵手下'),
+(25161, '獨角獸 莉莉普', '狩獵手下'),
+(25162, '巨人 拿爾帕拿克', '狩獵首領 '),
+(25163, '咆哮的天雷瑟', '狩獵首領 '),
+(25166, '伊昆帝', '狩獵首領 '),
+(25167, '伊昆帝的召喚者', '狩獵手下'),
+(25168, '伊昆帝的士兵', '狩獵手下'),
+(25169, '拉克列滿', '狩獵首領 '),
+(25170, '蜥蜴人隊長 海盧因', '狩獵首領 '),
+(25171, '海盧因的弓手', '狩獵手下'),
+(25172, '海盧因的警衛', '狩獵手下'),
+(25173, '獸王 卡盧塔', '狩獵首領 '),
+(25174, '卡盧塔的追隨者', '狩獵手下'),
+(25175, '卡盧塔的部下', '狩獵手下'),
+(25176, '布拉克 莉莉', '狩獵首領 '),
+(25177, '布拉克 莉莉的守護騎士', '狩獵手下'),
+(25178, '布拉克 莉莉的召喚者', '狩獵手下'),
+(25179, '巨人神像守護者 卡龍', '狩獵首領 '),
+(25180, '卡龍的護衛兵', '狩獵手下'),
+(25181, '卡龍的戰士', '狩獵手下'),
+(25182, '惡魔 庫里圖司', '狩獵首領 '),
+(25183, '庫里圖司之妻', '狩獵手下'),
+(25184, '惡魔刀', '狩獵手下'),
+(25185, '塔沙巴族長 黑雷拿', '狩獵首領 '),
+(25186, '黑雷拿的射手', '狩獵手下'),
+(25187, '黑雷拿的士兵', '狩獵手下'),
+(25188, '亞佩丕', '狩獵首領 '),
+(25189, '克洛諾斯的召喚者 穆木', '狩獵首領 '),
+(25190, '穆木的魔法師', '狩獵手下'),
+(25191, '穆木的戰士', '狩獵手下'),
+(25192, '大地守護者 帕勒森', '狩獵首領 '),
+(25193, '帕勒森的騎士', '狩獵手下'),
+(25194, '帕勒森的守護者', '狩獵手下'),
+(25198, '法利昂的使者 洛克尼斯', '狩獵首領 '),
+(25199, '水龍祭司長 席夏克', '狩獵首領 '),
+(25200, '席夏克的族人', '狩獵手下'),
+(25201, '席夏克的護衛兵', '狩獵手下'),
+(25202, '可羅津 帕迪夏 索貝克', '狩獵首領 '),
+(25203, '法里特拉德 夏 索貝克', '狩獵手下'),
+(25204, '可羅津 夏 索貝克', '狩獵手下'),
+(25205, '大海之炎 阿夏其爾', '狩獵首領 '),
+(25206, '阿夏其爾的刀', '狩獵手下'),
+(25207, '阿夏其爾的杖', '狩獵手下'),
+(25208, '水之夸特 阿特卡', '狩獵首領 '),
+(25209, '阿特卡的巫師', '狩獵手下'),
+(25210, '阿特卡的士兵', '狩獵手下'),
+(25211, '賽貝克', '狩獵首領 '),
+(25212, '賽貝克的祭司', '狩獵手下'),
+(25213, '賽貝克的狂信者', '狩獵手下'),
+(25214, '法利昂的侍從 席卡', '狩獵首領 '),
+(25215, '席卡的法師', '狩獵手下'),
+(25216, '席卡的戰士', '狩獵手下'),
+(25217, '受詛咒的克拉拉', '狩獵首領 '),
+(25218, '克拉拉的射手', '狩獵手下'),
+(25219, '克拉拉的手下', '狩獵手下'),
+(25220, '死亡之王 哈勒特', '狩獵首領 '),
+(25221, '死亡法師 克里桑', '狩獵手下'),
+(25222, '死亡戰士 哈黎格', '狩獵手下'),
+(25223, '靈魂收藏者 阿克隆', '狩獵首領 '),
+(25224, '靈魂漿紗者', '狩獵手下'),
+(25225, '靈魂過濾者', '狩獵手下'),
+(25226, '咆哮的君主 卡斯特', '狩獵首領 '),
+(25227, '卡斯特的巫師', '狩獵手下'),
+(25228, '卡斯特的團長', '狩獵手下'),
+(25229, '風暴之翼 那卡', '狩獵首領 '),
+(25230, '提瑪克祭司長 拉葛斯', '狩獵首領 '),
+(25231, '拉葛斯的護衛', '狩獵手下'),
+(25232, '拉葛斯的傳令', '狩獵手下'),
+(25233, '背叛者安德拉斯的怨靈', '狩獵首領 '),
+(25234, '遠古神祕飛龍', '狩獵首領 '),
+(25235, '巴諾爾族長 坎德拉', '狩獵首領 '),
+(25236, '坎德拉的治療師', '狩獵手下'),
+(25237, '坎德拉的護衛', '狩獵手下'),
+(25238, '亞比斯 布魯肯特', '狩獵首領 '),
+(25239, '亞比斯 布魯肯特的怪獸', '狩獵手下'),
+(25240, '亞比斯 布魯肯特的野獸', '狩獵手下'),
+(25241, '哈里特英雄 達瑪許', '狩獵首領 '),
+(25242, '達瑪許的謀士', '狩獵手下'),
+(25243, '達瑪許的心腹', '狩獵手下'),
+(25244, '最後下巨人 歐克斯', '狩獵首領 '),
+(25245, '最後下巨人 克拉奇', '狩獵首領 '),
+(25246, '克拉奇的手下', '狩獵手下'),
+(25247, '克拉奇的隨從', '狩獵手下'),
+(25248, '破滅之刃 塔那透斯', '狩獵首領 '),
+(25249, '怪力的巴爾塔奴斯', '狩獵首領 '),
+(25250, '巴爾塔奴斯的吸血植物', '狩獵手下'),
+(25251, '巴爾塔奴斯的幼苗', '狩獵手下'),
+(25252, '帕力巴提女王 提米斯', '狩獵首領 '),
+(25253, '提米斯的侍女', '狩獵手下'),
+(25254, '提米斯的親衛隊', '狩獵手下'),
+(25255, '翼魔之王 岱依封', '狩獵首領 '),
+(25256, '泰可的大軍長 阿拉克', '狩獵首領 '),
+(25257, '阿拉克的弓箭手', '狩獵手下'),
+(25258, '阿拉克的步兵', '狩獵手下'),
+(25259, '札肯的執行者 克蘭茲', '狩獵首領 '),
+(25260, '鋼鐵巨人的圖騰', '狩獵首領 '),
+(25261, '圖騰護衛弓兵', '狩獵手下'),
+(25262, '圖騰護衛兵', '狩獵手下'),
+(25263, '柯爾能的心腹 卡洛妮', '狩獵首領 '),
+(25264, '卡洛妮的暗殺者', '狩獵手下'),
+(25265, '卡洛妮的祕密騎士', '狩獵手下'),
+(25266, '女王 黛卡比雅', '狩獵首領 '),
+(25267, '黛卡比雅的親衛隊', '狩獵手下'),
+(25268, '黛卡比雅的護衛', '狩獵手下'),
+(25269, '獸王 貝希莫斯', '狩獵首領 '),
+(25270, '貝希莫斯槍兵', '狩獵手下'),
+(25271, '貝希莫斯閃光', '狩獵手下'),
+(25272, '反抗軍領導 塔拉金', '狩獵首領 '),
+(25273, '卡爾拿馬可斯', '狩獵首領 '),
+(25274, '卡爾拿巴倫', '狩獵手下'),
+(25275, '卡爾拿素德', '狩獵手下'),
+(25276, '死亡之王 伊波斯', '狩獵首領 '),
+(25277, '莉莉絲的巫女 瑪麗黎恩', '狩獵首領 '),
+(25278, '烙印的死靈', '狩獵手下'),
+(25279, '烙印的惡鬼', '狩獵手下'),
+(25280, '異教徒監視者 柯爾貝隆', '狩獵首領 '),
+(25281, '亞納的大敵 札卡隆', '狩獵首領 '),
+(25282, '死亡之王 夏克斯', '狩獵首領 '),
+(25283, '莉莉絲', '深淵的聖母'),
+(25284, '莉莉絲的代言者', ''),
+(25285, '莉莉絲的親衛隊', ''),
+(25286, '亞納', '聖火的火花'),
+(25287, '亞納的守護者', ''),
+(25288, '亞納的禁衛隊', ''),
+(25289, '亞納的執行者', ''),
+(25290, '百眼的惡魔', '狩獵首領'),
+(25291, '惡魔的族人', '狩獵手下'),
+(25292, '惡魔的族人', '狩獵手下'),
+(25293, '溫泉守護者 黑斯提亞', '狩獵首領'),
+(25294, '黑斯提亞的鬥士', '狩獵手下'),
+(25295, '黑斯提亞的追隨者', '狩獵手下'),
+(25296, '冰柱大王 烏巴魯巴', '狩獵首領'),
+(25297, '冰柱巨人', '狩獵手下'),
+(25298, '冰柱巨人', '狩獵手下'),
+(25299, '肯特拉的英雄 黑卡頓', '狩獵首領'),
+(25300, '黑卡頓的偵查兵', '狩獵手下'),
+(25301, '黑卡頓的侍從', '狩獵手下'),
+(25302, '肯特拉司令官 泰爾', '狩獵首領'),
+(25303, '泰爾的副官', '狩獵手下'),
+(25304, '泰爾的禁衛兵', '狩獵手下'),
+(25305, '肯特拉族長 布拉齊', '狩獵首領'),
+(25306, '火之魂靈 那斯特倫', '狩獵首領'),
+(25307, '那斯特倫的族人', '狩獵手下'),
+(25308, '那斯特倫的族人', '狩獵手下'),
+(25309, '巴瑞卡的英雄 夏帝斯', '狩獵首領'),
+(25310, '夏帝斯的親衛隊長', '狩獵手下'),
+(25311, '夏帝斯的親衛兵', '狩獵手下'),
+(25312, '巴瑞卡司令官 摩斯', '狩獵首領'),
+(25313, '摩斯的副官', '狩獵手下'),
+(25314, '摩斯的護衛兵', '狩獵手下'),
+(25315, '巴瑞卡族長 荷魯斯', '狩獵首領'),
+(25316, '水之魂靈 阿修塔爾', '狩獵首領'),
+(25317, '阿修塔爾的族人', '狩獵手下'),
+(25318, '阿修塔爾的族人', '狩獵手下'),
+(25319, '安柏爾', '狩獵首領'),
+(25320, '安柏爾的衛兵', '狩獵手下'),
+(25321, '安柏爾的傳令', '狩獵手下'),
+(25322, '惡魔的代理人 法斯騰', '狩獵首領'),
+(25323, '法斯騰的門徒', '狩獵手下'),
+(25324, '法斯騰的僕人', '狩獵手下'),
+(25325, '輝煌之炎 貝拉凱爾', '狩獵首領'),
+(25326, '貝拉凱爾的使徒', '狩獵手下'),
+(25327, '貝拉凱爾的服事', '狩獵手下'),
+(25328, '艾爾哈爾德 潘 哈曼', '狩獵首領'),
+(25329, '薇爾蕾特', '狩獵手下'),
+(25330, '克絲緹', '狩獵手下'),
+(25331, '米娜', '狩獵手下'),
+(25332, '多里安', '狩獵手下'),
+(25333, '亞那卡傑爾', '侵略軍首領'),
+(25334, '亞那卡傑爾', '侵略軍首領'),
+(25335, '亞那卡傑爾', '侵略軍首領'),
+(25336, '亞那卡傑爾', '侵略軍首領'),
+(25337, '亞那卡傑爾', '侵略軍首領'),
+(25338, '亞那卡傑爾', '侵略軍首領'),
+(25339, '哈里夏的影子', '不可思議的主宰'),
+(25340, '影之騎士', ''),
+(25341, '影之騎士', ''),
+(25342, '哈里夏的影子', '不可思議的主宰'),
+(25343, '影之騎士', ''),
+(25344, '影之騎士', ''),
+(25345, '影之騎士', ''),
+(25346, '哈里夏的影子', '不可思議的主宰'),
+(25347, '影之騎士', ''),
+(25348, '影之騎士', ''),
+(25349, '哈里夏的影子', '不可思議的主宰'),
+(25350, '影之騎士', ''),
+(25351, '影之騎士', ''),
+(25352, '巨大荒原邪惡蜥蜴', '狩獵首領'),
+(25353, '荒原邪惡蜥蜴', '狩獵手下'),
+(25354, '翼魔之王 西洛可', '狩獵首領'),
+(25355, '西洛可翼魔', '狩獵手下'),
+(25356, '西洛可護衛隊', '狩獵手下'),
+(25357, '蘇卡鼠人族長', '狩獵首領'),
+(25358, '蘇卡鼠人護衛兵', '狩獵手下'),
+(25359, '蘇卡鼠人祭司', '狩獵手下'),
+(25360, '虎蜂', '狩獵首領'),
+(25361, '金色大黃蜂', '狩獵手下'),
+(25362, '追擊隊長 夏魯克', '狩獵首領'),
+(25363, '夏魯克的搜尋者', '狩獵手下'),
+(25364, '夏魯克的狙擊手', '狩獵手下'),
+(25365, '教主 庫勒保洛斯', '狩獵首領'),
+(25366, '庫勒保洛斯的祭司', '狩獵首領'),
+(25367, '庫勒保洛斯的信徒', '狩獵手下'),
+(25368, '庫勒保洛斯的弟子', '狩獵手下'),
+(25369, '食腐之魂', '狩獵首領'),
+(25370, '食腐之屍', '狩獵手下'),
+(25371, '食腐之命', '狩獵手下'),
+(25372, '被遺棄的守護者', '狩獵首領'),
+(25373, '達高尼爾的使者 瑪雷斯', '狩獵首領'),
+(25374, '地獄鳥', '狩獵手下'),
+(25375, '殭屍之王 法拉克蘇斯', '狩獵首領'),
+(25376, '法拉克蘇斯的殭屍戰士', '狩獵手下'),
+(25377, '法拉克蘇斯的殭屍戰士', '狩獵手下'),
+(25378, '瘋狂的野獸', '狩獵首領'),
+(25379, '呆滯的野獸', '狩獵手下'),
+(25380, '伊克魯斯的使者 凱沙', '狩獵首領'),
+(25381, '飛行的夢魘', '狩獵手下'),
+(25382, '飛行的敵意', '狩獵手下'),
+(25383, '卡里巴斯卿的亡靈', '狩獵首領'),
+(25384, '卡里巴斯卿的侍從', '狩獵手下'),
+(25385, '司令 坦佛斯特', '狩獵首領'),
+(25386, '刑場的亡靈', '狩獵手下'),
+(25387, '刑場的冤魂', '狩獵手下'),
+(25388, '赤眼隊長 特萊契亞', '狩獵首領'),
+(25389, '赤眼弓兵隊', '狩獵手下'),
+(25390, '赤眼親衛隊', '狩獵手下'),
+(25391, '奴爾卡的密使', '狩獵首領'),
+(25392, '女王的親衛隊長', '狩獵首領'),
+(25393, '沼澤司塔卡拓貴族', '狩獵手下'),
+(25394, '普雷姆 普萊', '狩獵首領'),
+(25395, '阿魯肯基座', '狩獵首領'),
+(25396, '庫辛基座', '狩獵手下'),
+(25397, '估瑟托斯基座', '狩獵手下'),
+(25398, '巴列斯之眼', '狩獵首領'),
+(25399, '監視者的門徒', '狩獵手下'),
+(25400, '監視者的侍從', '狩獵手下'),
+(25401, '史齊拉', '狩獵首領'),
+(25402, '史齊拉的心腹', '狩獵手下'),
+(25403, '史齊拉的追隨者', '狩獵手下'),
+(25404, '海賊船長 凱侖', '狩獵首領'),
+(25405, '凱侖的海賊', '狩獵手下'),
+(25406, '凱侖的航海士', '狩獵手下'),
+(25407, '洞穴僕人之王 義西卡', '狩獵首領'),
+(25408, '義西卡的精銳軍官', '狩獵手下'),
+(25409, '義西卡的精銳士兵', '狩獵手下'),
+(25410, '食腐王首領', '狩獵首領'),
+(25411, '食腐王爪牙', '狩獵手下'),
+(25412, '死靈崗哨禁衛兵', '狩獵首領'),
+(25413, '死靈崗哨弓兵', '狩獵手下'),
+(25414, '死靈崗哨士兵', '狩獵手下'),
+(25415, '納肯達斯', '狩獵首領'),
+(25416, '納肯達斯的奴隸', '狩獵手下'),
+(25417, '納肯達斯的鎖鏈', '狩獵手下'),
+(25418, '恐怖復仇者 克萊文', '狩獵首領'),
+(25419, '恐怖獵豹', '狩獵手下'),
+(25420, '奧爾芬的侍女', '狩獵首領'),
+(25421, '崔沙林隨行員', '狩獵手下'),
+(25422, '腐爛樹侍從', '狩獵手下'),
+(25423, '妖精女王 提米妮爾', '狩獵首領'),
+(25424, '提米妮爾的親衛隊', '狩獵手下'),
+(25425, '提米妮爾的親衛隊長', '狩獵手下'),
+(25426, '烏魯吐背叛者 浮雷基', '狩獵首領'),
+(25427, '浮雷基的吸血蝙蝠', '狩獵手下'),
+(25428, '浮雷基的狂亂巨熊', '狩獵手下'),
+(25429, '財富徵收者 塔羅斯', '狩獵首領'),
+(25430, '塔羅斯的手下', '狩獵手下'),
+(25431, '火焰石高崙', '狩獵首領'),
+(25432, '火之靈', '狩獵手下'),
+(25433, '焰之靈', '狩獵手下'),
+(25434, '山賊頭目 巴里達', '狩獵首領'),
+(25435, '巴里達的爪牙', '狩獵手下'),
+(25436, '巴里達的咒術士', '狩獵手下'),
+(25437, '提瑪克獸人 格司默斯', '狩獵首領'),
+(25438, '盜賊 凱巴爾', '狩獵首領'),
+(25439, '凱巴爾的部下', '狩獵手下'),
+(25440, '凱巴爾的魔法師', '狩獵手下'),
+(25441, '魔物 西瑞恩', '狩獵首領'),
+(25442, '森林的魔物', '狩獵手下'),
+(25443, '森林的凶物', '狩獵手下'),
+(25444, '怨靈 朗特', '狩獵首領'),
+(25445, '怨恨的靈魂', '狩獵手下'),
+(25446, '怨恨的射手', '狩獵手下'),
+(25447, '永生救贖者 瑪蒂', '狩獵首領'),
+(25448, '永生救贖者', '狩獵手下'),
+(25449, '永生引導者', '狩獵手下'),
+(25450, '智天使 加洛西亞', '狩獵首領'),
+(25451, '加洛西亞的護衛隊', '狩獵手下'),
+(25452, '天使的使者', '狩獵手下'),
+(25453, '米那斯 亞諾爾', '狩獵首領'),
+(25454, '沼澤的飛龍', '狩獵手下'),
+(25455, '沼澤的魅魔', '狩獵手下'),
+(25456, '忘卻的鏡子', '狩獵首領'),
+(25457, '忘卻的碎片', '狩獵手下'),
+(25458, '忘卻的影子', '狩獵手下'),
+(25459, '忘卻的碎片', '狩獵手下'),
+(25460, '亡者 艾瑞佛', '狩獵首領'),
+(25461, '艾瑞佛的騎士', '狩獵手下'),
+(25462, '艾瑞佛的侍從', '狩獵手下'),
+(25463, '哈里特守護者 格朗奇', '狩獵首領'),
+(25464, '格朗奇護衛隊長', '狩獵手下'),
+(25465, '格朗奇護衛法師', '狩獵手下'),
+(25466, '格朗奇護衛兵', '狩獵手下'),
+(25467, '高爾勾倫司', '狩獵首領'),
+(25468, '受詛咒的生命體', '狩獵手下'),
+(25469, '受詛咒的靈魂', '狩獵手下'),
+(25470, '最後的下巨人 猶特努斯', '狩獵首領'),
+(25471, '猶特努斯的魔法師', '狩獵手下'),
+(25472, '猶特努斯的護衛兵', '狩獵手下'),
+(25473, '盜墓者 基隱', '狩獵首領'),
+(25474, '基隱的手下', '狩獵手下'),
+(25475, '幽靈騎士 卡貝德', '狩獵首領'),
+(25476, '卡貝德的士兵', '狩獵手下'),
+(25477, '卡貝德的弓手', '狩獵手下'),
+(25478, '席琳的祭司 希瑟雷蒙', '狩獵首領'),
+(25479, '希瑟雷蒙的召喚者', '狩獵手下'),
+(25480, '希瑟雷蒙的侍從', '狩獵手下'),
+(25481, '魔導士 肯尼詩', '狩獵首領'),
+(25482, '肯尼詩的影子', '狩獵手下'),
+(25483, '肯尼詩的幻影', '狩獵手下'),
+(25484, '札肯的航海士 提利恩', '狩獵首領'),
+(25485, '提利恩的部下', '狩獵手下'),
+(25486, '提利恩的蝙蝠', '狩獵手下'),
+(25487, '水之靈 黎安', '狩獵首領'),
+(25488, '吉爾朵的精靈', '狩獵手下'),
+(25489, '吉爾朵的守護者', '狩獵手下'),
+(25490, '格溫鐸爾', '狩獵首領'),
+(25491, '格溫鐸爾的護衛兵', '狩獵手下'),
+(25492, '格溫鐸爾的追隨者', '狩獵手下'),
+(25493, '伊娃的精靈 尼尼薇', '狩獵首領'),
+(25494, '尼尼薇的精靈', '狩獵手下'),
+(25495, '尼尼薇的精靈', '狩獵手下'),
+(25496, '法利昂的使者 平格因', '狩獵首領'),
+(25497, '法利昂的使者', '狩獵手下'),
+(25498, '法利昂的手下 伊斯特利', '狩獵首領'),
+(25499, '伊斯特利的鱷魚', '狩獵手下'),
+(25500, '伊斯特利的鱷魚', '狩獵手下'),
+(25501, '盜墓隊長 阿卡達', '狩獵首領'),
+(25502, '阿卡達的戰士', '狩獵手下'),
+(25503, '阿卡達的部下', '狩獵手下'),
+(25504, '奈爾利斯的冤魂', '狩獵首領'),
+(25505, '奈爾利斯的追隨者', '狩獵手下'),
+(25506, '掠奪者 萊伊特', '狩獵首領'),
+(25507, '萊伊特的警備隊長', '狩獵手下'),
+(25508, '萊伊特的部下', '狩獵手下'),
+(25509, '暗黑邪術士 巴蘭卡', '狩獵首領'),
+(25510, '巴蘭卡的族人', '狩獵手下'),
+(25511, '巴蘭卡的侍從', '狩獵手下'),
+(25512, '巨神高崙 卡歐斯', '狩獵首領'),
+(25514, '釘刺司塔卡拓女王 夏伊德', '狩獵首領'),
+(25515, '釘刺司塔卡拓', '狩獵手下'),
+(25516, '釘刺司塔卡拓', '狩獵手下'),
+(25523, '退化高崙', '狩獵首領'),
+(25524, '熾炎石巨人', '狩獵首領'),
+(25525, '熾炎精靈', '狩獵手下'),
+(25526, '火焰精靈', '狩獵手下'),
+(25527, '烏魯卡', '狩獵首領'),
+(25528, '塔庇里歐斯', '最終試練官'),
+(25529, '庭園的警衛隊', '試練官的部下'),
+(25530, '庭園的警衛隊', '試練官的部下'),
+(25531, '達爾尼思', '廣場的'),
+(25532, '基亞齊', '火的'),
+(25533, '基亞齊的部下', ''),
+(25534, '提爾斯', '冰的'),
+(25535, '提爾斯', '冰的'),
+(25536, '哈里北爾', '狩獵首領'),
+(25537, '凝結之恨', '狩獵手下'),
+(25538, '永存的怨念', '狩獵手下'),
+(25539, '颱風', '狩獵首領'),
+(25540, '惡魔公爵', '狩獵首領'),
+(25541, '惡魔的創造物', '狩獵手下'),
+(25542, '勞庫', '狩獵首領'),
+(25543, '召喚惡魔', '狩獵手下'),
+(25544, '托里士', '鋼鐵之城的'),
+(25545, '托里士的拘魔', '狩獵手下'),
+(25546, '背信的拉尼安', '過去的罪犯'),
+(25547, '拉尼安的同夥', ''),
+(25548, '拉尼安的治癒者', ''),
+(25549, '詐欺犯泰西亞', '過去的罪犯'),
+(25550, '泰西亞的大弟子', ''),
+(25551, '泰西亞的跑腿', ''),
+(25552, '靈魂獵人查昆迪', '過去的罪犯'),
+(25553, '岩石拳杜泰格', '過去的罪犯'),
+(25554, '不屈的布魯泰齊歐', '過去的罪犯'),
+(25555, '布魯泰齊歐的右手', ''),
+(25556, '布魯泰齊歐的左手', ''),
+(25557, '森林掠食者凱凱諾斯', '過去的罪犯'),
+(25558, '凱凱諾斯的側根', ''),
+(25559, '凱凱諾斯的花', ''),
+(25560, '暴走劍士斯里卡德', '過去的罪犯'),
+(25561, '斯里卡德的鐘', ''),
+(25562, '斯里卡德的見習生', ''),
+(25563, '美貌的奈茲里耶', '過去的罪犯'),
+(25564, '奈茲里耶的追隨者', ''),
+(25565, '奈茲里耶的部下', ''),
+(25566, '粗野的南龐', '過去的罪犯'),
+(25567, '南龐的至交', ''),
+(25568, '南龐的老友', ''),
+(25569, '破壞者加斯', '過去的罪犯'),
+(25570, '加斯的偵查兵', ''),
+(25571, '加斯的突擊兵', ''),
+(25572, '不法者哈爾庫', '過去的囚犯'),
+(25573, '哈爾庫的追隨者', ''),
+(25574, '哈爾庫的警衛', ''),
+(25575, '透視者朗鐵', '過去的囚犯'),
+(25576, '朗鐵的虹膜', ''),
+(25577, '朗鐵的水晶體', ''),
+(25578, '史克雷', '過去的囚犯'),
+(25579, '海西奈爾', '過去的囚犯'),
+(25580, '海西奈爾的守護兵', ''),
+(25581, '海西奈爾的刺客', ''),
+(25582, '加爾力安', '過去的囚犯'),
+(25583, '加爾力安的女兒', ''),
+(25584, '加爾力安的僕人', ''),
+(25585, '麥以迪', '過去的囚犯'),
+(25586, '麥以迪之妹', ''),
+(25587, '麥以迪之弟', ''),
+(25588, '無法阻止的幕烏士', '過去的囚犯'),
+(25589, '被放逐的巴里達', '過去的囚犯'),
+(25590, '巴里達的侍從', ''),
+(25591, '巴里達的侍女', ''),
+(25592, '大將軍卡拉隆', '過去的囚犯'),
+(25593, '掠食者凱爾格', '過去的囚犯'),
+(25594, '凱爾格的追隨者', ''),
+(25595, '凱爾格的部下', ''),
+(25596, '視線僕人', ''),
+(25597, '豪瑞', ''),
+(25598, '凱凱', ''),
+(25599, '伊格拉斯', ''),
+(25600, '坦曼尼爾', '達里昂的挑戰者'),
+(25601, '卓西斯', '達里昂的挑戰者'),
+(25602, '基雷熙', '達里昂的挑戰者'),
+(25603, '達里昂', ''),
+(25604, '突變獨角兔', '奈雅的創造物'),
+(25605, '奈雅孢子', ''),
+(25606, '奈雅孢子', ''),
+(25607, '奈雅孢子', ''),
+(25608, '奈雅孢子', ''),
+(25609, '亞匹德司', '奈雅蔓生怪'),
+(25610, '亞匹德司', '奈雅蔓生怪'),
+(25611, '亞匹德司', '奈雅蔓生怪'),
+(25612, '亞匹德司', '奈雅蔓生怪'),
+(25613, '奈雅孢子', ''),
+(25614, '浮游幽靈', ''),
+(25615, '浮游幽靈', ''),
+(25616, '迷宮守衛', ''),
+(25617, '迷宮守衛', ''),
+(25618, '迷宮守衛', ''),
+(25619, '迷宮守衛', ''),
+(25620, '迷宮守衛', ''),
+(25621, '迷宮守衛', ''),
+(25622, '迷宮守衛', ''),
+(25623, '巴德士頓', '主將騎士'),
+(25624, '路克', '鳥王　'),
+(25625, '愛尼拉', '班席女王'),
+(25626, '迪歐斯', '破滅的使者'),
+(25627, '突變鳥', '王的部下'),
+(25628, '龍鷹', '王的部下'),
+(25629, '浮游骷髏', '愛尼拉的死靈'),
+(25630, '浮游殭屍', '愛尼拉的死靈'),
+(25631, '龍獸翼', '破滅的族人'),
+(25632, '德拉克', '破滅的族人'),
+(25633, '精銳騎士', '巴德士頓親衛隊'),
+(25634, '克海梅納斯', '擁有雙靈魂者'),
+(25635, '阿爾吉康德', '靈魂被奪走的人'),
+(25636, '餓鬼靈魂掠食者', ''),
+(25637, '卡本查爾', '假預言者'),
+(25638, '羅門勒希米', '忘卻的宣告者'),
+(25639, '希屈卡謝克', '苦痛的賢臣'),
+(25640, '費里德齊拉', '夜之手'),
+(25641, '艾罕 葛萊芬尼薩多', '吸血魔'),
+(25642, '艾罕 賈克西本', '黑色守護者'),
+(25643, '甦醒的古代守兵', '狩獵首領 '),
+(25644, '甦醒的古代切割機', '狩獵首領 '),
+(25645, '甦醒的古代靈魂榨取者', '狩獵首領 '),
+(25646, '甦醒的古代靈魂掠食者', '狩獵首領 '),
+(25647, '甦醒的古代武鬥家', '狩獵首領 '),
+(25648, '甦醒的古代武鬥家', '狩獵首領 '),
+(25649, '甦醒的古代執行者', '狩獵首領 '),
+(25650, '甦醒的古代執行者', '狩獵首領 '),
+(25651, '甦醒的古代傳教士', '狩獵首領 '),
+(25652, '甦醒的古代傳教士', '狩獵首領 '),
+(25653, '卡納迪斯 先驅者', '侵略軍'),
+(25654, '卡納迪斯 先驅者', '侵略軍'),
+(25655, '卡納迪斯 先驅者', '侵略軍'),
+(25656, '卡納迪斯 狂信徒', ''),
+(25657, '卡納迪斯 狂信徒', ''),
+(25658, '卡納迪斯 狂信徒', ''),
+(25659, '卡納迪斯 前導者', '侵略軍'),
+(25660, '卡納迪斯 前導者', '侵略軍'),
+(25661, '卡納迪斯 前導者', '侵略軍'),
+(25662, '卡納迪斯 追從者', ''),
+(25663, '卡納迪斯 追從者', ''),
+(25664, '卡納迪斯 追從者', ''),
+(25665, '艾罕 克羅迪庫斯', '靈魂的破壞者'),
+(25666, '艾罕 克蘭尼庫斯', '黑暗的引導者'),
+(25667, '食人司塔卡拓隊長', '凶暴的影子'),
+(25668, '食人司塔卡拓隊長', '凶暴的影子'),
+(25669, '食人司塔卡拓隊長', '凶暴的影子'),
+(25670, '食人司塔卡拓隊長', '凶暴的影子'),
+(25671, '釘刺司塔卡拓女王 夏伊德', '狩獵首領 '),
+(25672, '釘刺司塔卡拓', '狩獵手下'),
+(25673, '釘刺司塔卡拓', '狩獵手下'),
+(25674, '格溫鐸爾', '狩獵首領 '),
+(25675, '格溫鐸爾的護衛兵', '狩獵手下'),
+(25676, '格溫鐸爾的追隨者', '狩獵手下'),
+(25677, '水之靈 黎安', '狩獵首領 '),
+(25678, '吉爾朵的精靈', '狩獵手下'),
+(25679, '吉爾朵的守護者', '狩獵手下'),
+(25680, '巨人 拿爾帕拿克', '狩獵首領 '),
+(25681, '高爾勾倫司', '狩獵首領 '),
+(25682, '受詛咒的生命體', '狩獵手下'),
+(25683, '受詛咒的靈魂', '狩獵手下'),
+(25684, '最後的下巨人 猶特努斯', '狩獵首領 '),
+(25685, '猶特努斯的魔法師', '狩獵手下'),
+(25686, '猶特努斯的護衛兵', '狩獵手下'),
+(25687, '黑卡特原型', '狩獵首領 '),
+(25688, '黑卡特 寇圖司', '狩獵手下'),
+(25689, '黑卡特 基雷司', '狩獵手下'),
+(25690, '亞恩奇奈爾', '夢境的侵蝕者'),
+(25691, '亞恩奇奈爾', '夢境的侵蝕者'),
+(25692, '亞恩奇奈爾', '夢境的侵蝕者'),
+(25693, '亞恩奇奈爾', '夢境的侵蝕者'),
+(25694, '亞恩奇奈爾', '夢境的侵蝕者'),
+(25695, '亞恩奇奈爾', '夢境的侵蝕者'),
+(29001, '巨蟻女王', ''),
+(29002, '巨蟻女王的幼蟲', ''),
+(29003, '護衛螞蟻', ''),
+(29004, '螞蟻警衛', ''),
+(29005, '螞蟻侍衛', ''),
+(29006, '核心', ''),
+(29007, '死亡騎士', ''),
+(29008, '死亡之刃', ''),
+(29009, '迪克爾', ''),
+(29010, '瓦里達斯', ''),
+(29011, '基座', ''),
+(29012, '匹黎姆', ''),
+(29013, '普勒摩', ''),
+(29014, '奧爾芬', ''),
+(29015, '萊可', ''),
+(29016, '萊可李奧斯', ''),
+(29017, '瑞芭', ''),
+(29018, '瑞芭艾倫', ''),
+(29019, '安塔瑞斯', ''),
+(29020, '巴溫', ''),
+(29021, '大天使', ''),
+(29022, '札肯', ''),
+(29023, '人偶刀手', ''),
+(29024, '貝里大師', ''),
+(29025, '巴溫', ''),
+(29026, '海賊殭屍船長', ''),
+(29027, '海賊殭屍', ''),
+(29028, '巴拉卡斯', ''),
+(29029, '熔岩撒魯斯長老', '巴拉卡斯的族人'),
+(29030, '魔狼 凱利尼', '巴拉卡斯的族人'),
+(29031, '凱利尼的伊佛利特', ''),
+(29032, '凱利尼的高崙', ''),
+(29033, '魔狼 芙雷奇', '巴拉卡斯的族人'),
+(29034, '芙雷奇的伊佛利特', ''),
+(29035, '芙雷奇的高崙', ''),
+(29036, '魔狼 烏路斯', '巴拉卡斯的族人'),
+(29037, '魔狼 奇那斯', '巴拉卡斯的族人'),
+(29038, '奇那斯的伊佛利特', ''),
+(29039, '奇那斯的伊佛利特', ''),
+(29040, '火炎之翼 伊克希恩', '巴拉卡斯的守護者'),
+(29041, '煉獄高崙', ''),
+(29042, '煉獄高崙', ''),
+(29043, '怒吼的伊佛利特', ''),
+(29044, '怒吼的伊佛利特', ''),
+(29045, '芙琳泰沙', ''),
+(29046, '思卡雷特 潘 哈里夏', ''),
+(29047, '思卡雷特 潘 哈里夏', ''),
+(29048, '遺照', ''),
+(29049, '遺照', ''),
+(29050, '哈里夏的氣息', ''),
+(29051, '哈里夏的氣息', ''),
+(29052, '', ''),
+(29053, '', ''),
+(29054, '貝諾姆', '帝雷歐執政官'),
+(29055, '傳送晶體', ''),
+(29056, '冰雪妖精 希露', '狩獵首領'),
+(29057, '冰雪妖精的侍從', '狩獵手下'),
+(29058, '冰雪妖精的凝視者', '狩獵手下'),
+(29059, '', ''),
+(29060, '冰雪女王親衛隊長', '狩獵首領'),
+(29061, '轉移晶體', ''),
+(29062, '安蒂莉雅絲 班 胡爾特', '邪教祭司長'),
+(29063, '安蒂莉雅絲的服事', '狩獵手下'),
+(29064, '安蒂莉雅絲的服事', '狩獵手下'),
+(29065, '賽爾蘭', '封印的魔爪'),
+(29066, '安塔瑞斯', ''),
+(29067, '安塔瑞斯', ''),
+(29068, '安塔瑞斯', ''),
+(29069, '貝希莫斯巨龍', ''),
+(29070, '巨龍炸彈', ''),
+(29071, '巨龍炸彈', ''),
+(29072, '巨龍炸彈', ''),
+(29073, '巨龍炸彈', ''),
+(29074, '巨龍炸彈', ''),
+(29075, '巨龍炸彈', ''),
+(29076, '巨龍炸彈', ''),
+(29077, '', ''),
+(29078, '', ''),
+(29079, '', ''),
+(29080, '', ''),
+(29081, '', ''),
+(29082, '', ''),
+(29083, '', ''),
+(29084, '', ''),
+(29085, '', ''),
+(29086, '', ''),
+(29087, '', ''),
+(29088, '', ''),
+(29089, '', ''),
+(29090, '', ''),
+(29091, '', ''),
+(29092, '', ''),
+(29093, '', ''),
+(29094, '', ''),
+(29095, '高登', '毀滅騎士'),
+(29096, '亞奈斯', '輝煌的支配者'),
+(29097, '輝煌的使徒', '狩獵手下'),
+(29098, '輝煌的崇拜者', '狩獵手下'),
+(29099, '巴爾勒', '看守長'),
+(29100, '水晶監獄的警衛兵', ''),
+(29101, '水晶高崙', ''),
+(29102, '水晶高崙', ''),
+(29103, '巴爾勒', '看守長'),
+(29104, '水晶監獄的警衛兵', ''),
+(29105, '水晶高崙', ''),
+(29106, '', ''),
+(29107, '', ''),
+(29108, '', ''),
+(29109, '', ''),
+(29110, '', ''),
+(29111, '', ''),
+(29112, '', ''),
+(29113, '', ''),
+(29114, '', ''),
+(29115, '水晶監獄的警衛兵', ''),
+(29116, '巴爾勒的寶箱', ''),
+(29117, '巴爾勒的寶箱', ''),
+(29118, '巴列斯', ''),
+(29119, '巴列斯', ''),
+(29120, '', ''),
+(29121, '', ''),
+(29122, '', ''),
+(29123, '', ''),
+(29124, '', ''),
+(29125, '', ''),
+(29126, '', ''),
+(29127, '', ''),
+(29128, '', ''),
+(29129, '迷宮警衛隊長', ''),
+(29130, '迷宮警衛兵', ''),
+(29131, '迷宮警衛助手', ''),
+(29132, '迷宮警衛隊長', ''),
+(29133, '迷宮警衛兵', ''),
+(29134, '迷宮警衛助手', ''),
+(29135, '迷宮警衛隊長', ''),
+(29136, '迷宮警衛兵', ''),
+(29137, '迷宮警衛助手', ''),
+(29138, '迷宮警衛隊長', ''),
+(29139, '迷宮警衛兵', ''),
+(29140, '迷宮警衛助手', ''),
+(29141, '迷宮警衛隊長', ''),
+(29142, '迷宮警衛兵', ''),
+(29143, '迷宮警衛助手', ''),
+(29144, '迷宮警衛隊長', ''),
+(29145, '迷宮警衛兵', ''),
+(29146, '迷宮警衛助手', ''),
+(29147, '迷宮警衛隊長', ''),
+(29148, '迷宮警衛兵', ''),
+(29149, '迷宮警衛助手', ''),
+(29150, '伊卡姆士', '不滅的君主'),
+(29151, '冥界的魔犬', ''),
+(29152, '冥界的魔犬', ''),
+(29153, '', ''),
+(29154, '', ''),
+(29155, '', ''),
+(29156, '', ''),
+(29157, '', ''),
+(29158, '', ''),
+(29159, '', ''),
+(29160, '', ''),
+(29161, '覺醒前的伊卡姆士', ''),
+(29162, '敢死隊', '蒂雅特親衛隊'),
+(29163, '蒂雅特', '闇龍巫女'),
+(29164, '', ''),
+(29165, '', ''),
+(29166, '', ''),
+(29167, '', ''),
+(29168, '', ''),
+(29169, '', ''),
+(29170, '', ''),
+(29171, '', ''),
+(29172, '', ''),
+(29173, '神官 蒂雅特', ''),
+(29174, '神官 蒂雅特', ''),
+(29175, '蒂雅特', '闇龍巫女'),
+(29176, '札肯', ''),
+(18001, '血之女王', ''),
+(18002, '血之女王', ''),
+(18003, '尼比特狐狗', ''),
+(18004, '基座原型', ''),
+(18005, '擬身怪', ''),
+(18006, '瑪魯克王', ''),
+(18007, '黎瑪卡霖尼司', ''),
+(18008, '卡拉克', ''),
+(18009, '烙印的祭物首領', ''),
+(18010, '烙印的祭物', ''),
+(18011, '烙印的祭物弓箭手', ''),
+(18012, '烙印的祭物戰士', ''),
+(18013, '烙印的祭物信徒', ''),
+(18014, '烙印的祭物狂戰士', ''),
+(18015, '烙印的祭物狂信者', ''),
+(18016, '烙印的祭物狙擊兵', ''),
+(18017, '烙印的祭物使徒', ''),
+(18018, '烙印的祭物聖者', ''),
+(18019, '叛教的祭物首領', ''),
+(18020, '叛教的祭物', ''),
+(18021, '叛教的祭物弓箭手', ''),
+(18022, '叛教的祭物戰士', ''),
+(18023, '叛教的祭物信徒', ''),
+(18024, '叛教的祭物狂戰士', ''),
+(18025, '叛教的祭物狂信者', ''),
+(18026, '叛教的祭物狙擊兵', ''),
+(18027, '叛教的祭物使徒', ''),
+(18028, '叛教的祭物聖者', ''),
+(18029, '魔道的祭物首領', ''),
+(18030, '魔道的祭物', ''),
+(18031, '魔道的祭物弓箭手', ''),
+(18032, '魔道的祭物戰士', ''),
+(18033, '魔道的祭物信徒', ''),
+(18034, '魔道的祭物狂戰士', ''),
+(18035, '魔道的祭物狂信者', ''),
+(18036, '魔道的祭物狙擊兵', ''),
+(18037, '魔道的祭物使徒', ''),
+(18038, '魔道的祭物聖者', ''),
+(18039, '凶煞的祭物首領', ''),
+(18040, '凶煞的祭物', ''),
+(18041, '凶煞的祭物弓箭手', ''),
+(18042, '凶煞的祭物戰士', ''),
+(18043, '凶煞的祭物信徒', ''),
+(18044, '凶煞的祭物狂戰士', ''),
+(18045, '凶煞的祭物狂信者', ''),
+(18046, '凶煞的祭物狙擊兵', ''),
+(18047, '凶煞的祭物使徒', ''),
+(18048, '凶煞的祭物聖者', ''),
+(18049, '密謀者的祭物首領', ''),
+(18050, '密謀者的祭物', ''),
+(18051, '密謀者的祭物弓箭手', ''),
+(18052, '密謀者的祭物戰士', ''),
+(18053, '密謀者的祭物信徒', ''),
+(18054, '密謀者的祭物狂戰士', ''),
+(18055, '密謀者的祭物狂信者', ''),
+(18056, '密謀者的祭物狙擊兵', ''),
+(18057, '密謀者的祭物使徒', ''),
+(18058, '密謀者的祭物聖者', ''),
+(18059, '烙印的祭物首領', ''),
+(18060, '烙印的祭物', ''),
+(18061, '烙印的祭物弓箭手', ''),
+(18062, '烙印的祭物戰士', ''),
+(18063, '烙印的祭物信徒', ''),
+(18064, '烙印的祭物狂戰士', ''),
+(18065, '烙印的祭物狂信者', ''),
+(18066, '烙印的祭物狙擊兵', ''),
+(18067, '烙印的祭物使徒', ''),
+(18068, '烙印的祭物聖者', ''),
+(18069, '叛教的祭物首領', ''),
+(18070, '叛教的祭物', ''),
+(18071, '叛教的祭物弓箭手', ''),
+(18072, '叛教的祭物戰士', ''),
+(18073, '叛教的祭物信徒', ''),
+(18074, '叛教的祭物狂戰士', ''),
+(18075, '叛教的祭物狂信者', ''),
+(18076, '叛教的祭物狙擊兵', ''),
+(18077, '叛教的祭物使徒', ''),
+(18078, '叛教的祭物聖者', ''),
+(18079, '魔道的祭物首領', ''),
+(18080, '魔道的祭物', ''),
+(18081, '魔道的祭物弓箭手', ''),
+(18082, '魔道的祭物戰士', ''),
+(18083, '魔道的祭物信徒', ''),
+(18084, '魔道的祭物狂戰士', ''),
+(18085, '魔道的祭物狂信者', ''),
+(18086, '魔道的祭物狙擊兵', ''),
+(18087, '魔道的祭物使徒', ''),
+(18088, '魔道的祭物聖者', ''),
+(18089, '凶煞的祭物首領', ''),
+(18090, '凶煞的祭物', ''),
+(18091, '凶煞的祭物弓箭手', ''),
+(18092, '凶煞的祭物戰士', ''),
+(18093, '凶煞的祭物信徒', ''),
+(18094, '凶煞的祭物狂戰士', ''),
+(18095, '凶煞的祭物狂信者', ''),
+(18096, '凶煞的祭物狙擊兵', ''),
+(18097, '凶煞的祭物使徒', ''),
+(18098, '凶煞的祭物聖者', ''),
+(18099, '密謀者的祭物首領', ''),
+(18100, '密謀者的祭物', ''),
+(18101, '密謀者的祭物弓箭手', ''),
+(18102, '密謀者的祭物戰士', ''),
+(18103, '密謀者的祭物信徒', ''),
+(18104, '密謀者的祭物狂戰士', ''),
+(18105, '密謀者的祭物狂信者', ''),
+(18106, '密謀者的祭物狙擊兵', ''),
+(18107, '密謀者的祭物使徒', ''),
+(18108, '密謀者的祭物聖者', ''),
+(18109, '祭典的寶藏', ''),
+(18110, '祭典的寶藏', ''),
+(18111, '祭典的寶藏', ''),
+(18112, '祭典的寶藏', ''),
+(18113, '祭典的寶藏', ''),
+(18114, '祭典的寶藏', ''),
+(18115, '祭典的寶藏', ''),
+(18116, '祭典的寶藏', ''),
+(18117, '祭典的寶藏', ''),
+(18118, '祭典的寶藏', ''),
+(18119, '死者的屍體', ''),
+(18120, '哈里夏的武官', ''),
+(18121, '哈里夏的武官', ''),
+(18122, '哈里夏的武官', ''),
+(18123, '哈里夏的武官', ''),
+(18124, '哈里夏的武官', ''),
+(18125, '哈里夏的武官', ''),
+(18126, '哈里夏的武官', ''),
+(18127, '哈里夏的武官', ''),
+(18128, '哈里夏的武官', ''),
+(18129, '哈里夏的武官', ''),
+(18130, '哈里夏的武官', ''),
+(18131, '哈里夏的武官', ''),
+(18132, '皇家御醫', ''),
+(18133, '皇家瑪賽伊克', ''),
+(18134, '皇家瑪賽伊克', ''),
+(18135, '皇家瑪賽伊克', ''),
+(18136, '皇家瑪賽伊克', ''),
+(18137, '皇家瑪賽伊克', ''),
+(18138, '皇家瑪賽伊克', ''),
+(18139, '皇家瑪賽伊克', ''),
+(18140, '皇家瑪賽伊克', ''),
+(18141, '墓地甲蟲', ''),
+(18142, '墓地甲蟲', ''),
+(18143, '墓地甲蟲', ''),
+(18144, '墓地甲蟲', ''),
+(18145, '墓地甲蟲', ''),
+(18146, '墓地甲蟲', ''),
+(18147, '墓地甲蟲', ''),
+(18148, '墓地甲蟲', ''),
+(18149, '墓地甲蟲', ''),
+(18150, '獻祭者', ''),
+(18151, '獻祭者', ''),
+(18152, '獻祭者', ''),
+(18153, '獻祭者', ''),
+(18154, '獻祭者', ''),
+(18155, '獻祭者', ''),
+(18156, '獻祭者', ''),
+(18157, '獻祭者', ''),
+(18158, '哈里夏執行者', ''),
+(18159, '哈里夏執行者', ''),
+(18160, '哈里夏執行者', ''),
+(18161, '哈里夏執行者', ''),
+(18162, '哈里夏執行者', ''),
+(18163, '哈里夏執行者', ''),
+(18164, '哈里夏執行者', ''),
+(18165, '哈里夏執行者', ''),
+(18166, '皇家禁衛隊', ''),
+(18167, '皇家禁衛隊', ''),
+(18168, '皇家禁衛隊', ''),
+(18169, '皇家禁衛隊', ''),
+(18170, '皇家禁衛隊', ''),
+(18171, '皇家禁衛隊', ''),
+(18172, '皇家禁衛隊', ''),
+(18173, '哈里夏監督官', ''),
+(18174, '哈里夏監督官', ''),
+(18175, '哈里夏監督官', ''),
+(18176, '哈里夏監督官', ''),
+(18177, '哈里夏監督官', ''),
+(18178, '哈里夏監督官', ''),
+(18179, '哈里夏監督官', ''),
+(18180, '哈里夏監督官', ''),
+(18181, '哈里夏監督官', ''),
+(18182, '哈里夏監督官', ''),
+(18183, '哈里夏監督官', ''),
+(18184, '哈里夏監督官', ''),
+(18185, '魔之占星術士', ''),
+(18186, '魔之占星術士', ''),
+(18187, '暗黑的騎士', ''),
+(18188, '暗黑的騎士', ''),
+(18189, '暗黑的騎士', ''),
+(18190, '暗黑的騎士', ''),
+(18191, '飛塵的魔女', ''),
+(18192, '飛塵的魔女', ''),
+(18193, '飛塵的魔女', ''),
+(18194, '飛塵的魔女', ''),
+(18195, '皇帝的印記', ''),
+(18196, '角落的符咒', ''),
+(18197, '角落的符咒', ''),
+(18198, '角落的符咒', ''),
+(18199, '角落的符咒', ''),
+(18200, '角落的符咒', ''),
+(18201, '角落的符咒', ''),
+(18202, '角落的符咒', ''),
+(18203, '角落的符咒', ''),
+(18204, '角落的符咒', ''),
+(18205, '角落的符咒', ''),
+(18206, '角落的符咒', ''),
+(18207, '角落的符咒', ''),
+(18208, '角落的符咒', ''),
+(18209, '角落的符咒', ''),
+(18210, '角落的符咒', ''),
+(18211, '角落的符咒', ''),
+(18212, '哈里夏統治者', ''),
+(18213, '哈里夏統治者', ''),
+(18214, '哈里夏統治者', ''),
+(18215, '哈里夏統治者', ''),
+(18216, '哈里夏統治者', ''),
+(18217, '哈里夏統治者', ''),
+(18218, '哈里夏統治者', ''),
+(18219, '哈里夏統治者', ''),
+(18220, '黑暗的巫女', ''),
+(18221, '黑暗的巫女', ''),
+(18222, '黑暗的暗殺者', ''),
+(18223, '黑暗的暗殺者', ''),
+(18224, '黑暗的暗殺者', ''),
+(18225, '黑暗的暗殺者', ''),
+(18226, '黑暗的詩讚者', ''),
+(18227, '黑暗的詩讚者', ''),
+(18228, '黑暗的詩讚者', ''),
+(18229, '黑暗的詩讚者', ''),
+(18230, '皇帝的印記', ''),
+(18231, '守護神像', ''),
+(18232, '守護神像', ''),
+(18233, '守護神像', ''),
+(18234, '守護神像', ''),
+(18235, '守護神像', ''),
+(18236, '守護神像', ''),
+(18237, '守護神像', ''),
+(18238, '守護神像', ''),
+(18239, '守護神像', ''),
+(18240, '守護神像', ''),
+(18241, '守護神像', ''),
+(18242, '守護神像', ''),
+(18243, '守護神像', ''),
+(18244, '墓穴監視者', ''),
+(18245, '墓穴監視者', ''),
+(18246, '墓穴監視者', ''),
+(18247, '墓穴監視者', ''),
+(18248, '墓穴監視者', ''),
+(18249, '墓穴監視者', ''),
+(18250, '墓穴監視者', ''),
+(18251, '墓穴監視者', ''),
+(18252, '墓穴監視者', ''),
+(18253, '墓穴監視者', ''),
+(18254, '墓穴監視者', ''),
+(18255, '墓穴監視者', ''),
+(18256, '哈里夏的寶箱', ''),
+(18257, '寶箱', ''),
+(18258, '寶箱', ''),
+(18259, '寶箱', ''),
+(18260, '寶箱', ''),
+(18261, '寶箱', ''),
+(18262, '寶箱', ''),
+(18263, '寶箱', ''),
+(18264, '寶箱', ''),
+(18265, '寶箱', ''),
+(18266, '寶箱', ''),
+(18267, '寶箱', ''),
+(18268, '寶箱', ''),
+(18269, '寶箱', ''),
+(18270, '寶箱', ''),
+(18271, '寶箱', ''),
+(18272, '寶箱', ''),
+(18273, '寶箱', ''),
+(18274, '寶箱', ''),
+(18275, '寶箱', ''),
+(18276, '寶箱', ''),
+(18277, '寶箱', ''),
+(18278, '寶箱', ''),
+(18279, '寶箱', ''),
+(18280, '寶箱', ''),
+(18281, '寶箱', ''),
+(18282, '寶箱', ''),
+(18283, '寶箱', ''),
+(18284, '寶箱', ''),
+(18285, '寶箱', ''),
+(18286, '寶箱', ''),
+(18287, '異界的侵略軍軍糧', ''),
+(18288, '異界的侵略軍軍糧', ''),
+(18289, '次元的侵略軍軍糧', ''),
+(18290, '次元的侵略軍軍糧', ''),
+(18291, '煉獄的侵略軍軍糧', ''),
+(18292, '煉獄的侵略軍軍糧', ''),
+(18293, '密謀者的侵略軍軍糧', ''),
+(18294, '密謀者的侵略軍軍糧', ''),
+(18295, '凶煞的侵略軍軍糧', ''),
+(18296, '凶煞的侵略軍軍糧', ''),
+(18297, '邪神的侵略軍軍糧', ''),
+(18298, '邪神的侵略軍軍糧', ''),
+(18299, '烙印之火', ''),
+(18300, '烙印祭物降靈術士', ''),
+(18301, '叛教之火', ''),
+(18302, '叛教祭物降靈術士', ''),
+(18303, '魔道之火', ''),
+(18304, '魔道祭物降靈術士', ''),
+(18305, '凶煞之火', ''),
+(18306, '凶煞祭物降靈術士', ''),
+(18307, '密謀之火', ''),
+(18308, '密謀祭物降靈術士', ''),
+(18309, '烙印之火', ''),
+(18310, '烙印祭物降靈術士', ''),
+(18311, '叛教之火', ''),
+(18312, '叛教祭物降靈術士', ''),
+(18313, '魔道之火', ''),
+(18314, '魔道祭物降靈術士', ''),
+(18315, '凶煞之火', ''),
+(18316, '凶煞祭物降靈術士', ''),
+(18317, '密謀之火', ''),
+(18318, '密謀祭物降靈術士', ''),
+(18319, '釣上來的青蛙', ''),
+(18320, '釣上來的水精', ''),
+(18321, '釣上來的拉肯', ''),
+(18322, '釣上來的海巨人', ''),
+(18323, '釣上來的海馬兵', ''),
+(18324, '釣上來的何門奎思', ''),
+(18325, '釣上來的芙拉瓦', ''),
+(18326, '釣上來的德奎格', ''),
+(18327, '芙蕾雅的侍從', ''),
+(18328, '殿堂警報裝置', ''),
+(18329, '殿堂戒護隊長', ''),
+(18330, '殿堂戒護法師', ''),
+(18331, '殿堂戒護衛兵', ''),
+(18332, '殿堂戒護巡邏兵', ''),
+(18333, '殿堂戒護自爆兵', ''),
+(18334, '黑之聖歌團團長', ''),
+(18335, '黑之聖歌團首席', ''),
+(18336, '黑之聖歌團長槍兵', ''),
+(18337, '黑之聖歌團射手', ''),
+(18338, '黑之聖歌團祈禱師', ''),
+(18339, '黑之聖歌團協奏者', ''),
+(18340, '殿堂戒護自爆兵', ''),
+(18341, '殿堂戒護自爆兵', ''),
+(18342, '葛林', ''),
+(18343, '守門人殭屍', ''),
+(18344, '古代之卵', ''),
+(18345, '蛛網膜', ''),
+(18346, '蛛網膜', ''),
+(18347, '庭園的警衛兵', ''),
+(18348, '庭園的警衛兵', ''),
+(18349, '庭園的警衛兵', ''),
+(18350, '庭園的警衛兵', ''),
+(18351, '庭園的警衛兵', ''),
+(18352, '闇天使守護者', ''),
+(18353, '紀錄守護者', ''),
+(18354, '觀察守護者', ''),
+(18355, '斯比裘拉守護者', ''),
+(18356, '諸天之上守門人', ''),
+(18357, '羅丹彼裘拉守門人', ''),
+(18358, '祕密守護者', ''),
+(18359, '亞爾比泰魯守護者', ''),
+(18360, '凱特奈特守門人', ''),
+(18361, '預測守護者', ''),
+(18362, '庭園的警衛兵', ''),
+(18363, '庭園的警衛兵', ''),
+(18364, '巫女的守護者', ''),
+(18365, '巫女的守護者', ''),
+(18366, '巫女的守護者', ''),
+(18367, '監獄的警衛兵', ''),
+(18368, '監獄的警衛兵', ''),
+(18369, '被眩惑的水晶高崙', ''),
+(18370, '被眩惑的水晶高崙', ''),
+(18371, '巴列斯的實驗體', ''),
+(18372, '巴列斯的實驗體', ''),
+(18373, '巴列斯的實驗體', ''),
+(18374, '巴列斯的實驗體', ''),
+(18375, '巴列斯的實驗體', ''),
+(18376, '巴列斯的實驗體', ''),
+(18377, '巴列斯的實驗體', ''),
+(18378, '陷阱', ''),
+(18379, '陷阱', ''),
+(18380, '陷阱', ''),
+(18381, '陷阱', ''),
+(18382, '陷阱', ''),
+(18383, '陷阱', ''),
+(18384, '陷阱', ''),
+(18385, '陷阱', ''),
+(18386, '陷阱', ''),
+(18387, '陷阱', ''),
+(18388, '陷阱', ''),
+(18389, '陷阱', ''),
+(18390, '陷阱', ''),
+(18391, '陷阱', ''),
+(18392, '陷阱', ''),
+(18393, '陷阱', ''),
+(18394, '陷阱', ''),
+(18395, '陷阱', ''),
+(18396, '陷阱', ''),
+(18397, '陷阱', ''),
+(18398, '陷阱', ''),
+(18399, '陷阱', ''),
+(18400, '陷阱', ''),
+(18401, '陷阱', ''),
+(18402, '陷阱', ''),
+(18403, '陷阱', ''),
+(18404, '陷阱', ''),
+(18405, '陷阱', ''),
+(18406, '陷阱', ''),
+(18407, '陷阱', ''),
+(18408, '陷阱', ''),
+(18409, '陷阱', ''),
+(18410, '陷阱', ''),
+(18411, '陷阱', ''),
+(18412, '陷阱', ''),
+(18413, '陷阱', ''),
+(18414, '戰士之門守門人', ''),
+(18415, '中間門守門人', ''),
+(18416, '守門人', ''),
+(18417, '橋的監守人', ''),
+(18418, '橋的監守人', ''),
+(18419, '橋的監守人', ''),
+(18420, '陷阱', ''),
+(18427, '', ''),
+(18428, '', ''),
+(18429, '', ''),
+(18430, '', ''),
+(18431, '陷阱', ''),
+(18432, '陷阱', ''),
+(18433, '陷阱', ''),
+(18434, '陷阱', ''),
+(18435, '陷阱', ''),
+(18436, '陷阱', ''),
+(18437, '', ''),
+(18438, '陷阱', ''),
+(18441, '闇天使之門守門人', ''),
+(18442, '陷阱', ''),
+(18443, '陷阱', ''),
+(18444, '庭園的警衛兵', ''),
+(18445, '托里士的守門人', ''),
+(18446, '托里士的守門人', ''),
+(18447, '托里士的守門人', ''),
+(18448, '托里士的守門人', ''),
+(18449, '托里士的守門人', ''),
+(18450, '托里士的守門人', ''),
+(18451, '托里士的守門人', ''),
+(18452, '托里士的守門人', ''),
+(18453, '托里士的守門人', ''),
+(18454, '托里士的守門人', ''),
+(18455, '托里士的守門人', ''),
+(18456, '托里士的守門人', ''),
+(18457, '托里士的守門人', ''),
+(18458, '托里士的守門人', ''),
+(18459, '托里士的守門人', ''),
+(18460, '托里士的守門人', ''),
+(18461, '托里士的守門人', ''),
+(18463, '舊神殿的戰士', ''),
+(18464, '舊神殿的祭司長', ''),
+(18465, '戴瑞克', '初代祭司長'),
+(18466, '外廓警衛隊長', ''),
+(18467, '殤之大地守門人', ''),
+(18468, '守門人', ''),
+(18469, '殿堂警衛兵', ''),
+(18470, '殿堂警衛兵', ''),
+(18471, '殿堂警衛兵', ''),
+(18472, '殿堂警衛兵', ''),
+(18473, '殿堂警衛隊長', ''),
+(18474, '警報裝置', ''),
+(18475, '殿堂警衛兵', ''),
+(18476, '殿堂警衛兵', ''),
+(18477, '珊瑚寶箱', ''),
+(18478, '藥草甕', ''),
+(18479, '內城巡邏兵', ''),
+(18480, '內城戰士', ''),
+(18481, '內城魔法師', ''),
+(18482, '法利昂的族人', ''),
+(18483, '庭園的警衛兵', ''),
+(18484, '奈雅塔門', ''),
+(18485, '', ''),
+(18486, '', ''),
+(18487, '', ''),
+(18488, '', ''),
+(18489, '', ''),
+(18490, '巴列斯的奴隸', ''),
+(18491, '鎖定裝置', '奈雅之塔'),
+(18492, '控制裝置', '奈雅之塔'),
+(18493, '守護之物', '奈雅之塔'),
+(18494, '精巧機械裝置', ''),
+(18495, '精巧機械裝置', ''),
+(18496, '精巧機械裝置', ''),
+(18497, '精巧機械裝置', ''),
+(18498, '精巧機械裝置', ''),
+(18499, '精巧機械裝置', ''),
+(18500, '精巧機械裝置', ''),
+(18501, '精巧機械裝置', ''),
+(18502, '精巧機械裝置', ''),
+(18503, '精巧機械裝置', ''),
+(18504, '精巧機械裝置', ''),
+(18505, '精巧機械裝置', ''),
+(18506, '靈魂的水晶柱', ''),
+(18507, '', ''),
+(18508, '', ''),
+(18509, '', ''),
+(18510, '', ''),
+(18511, '', ''),
+(18512, '', ''),
+(18513, '', ''),
+(18514, '', ''),
+(18515, '', ''),
+(18516, '', ''),
+(18517, '', ''),
+(18518, '', ''),
+(18519, '', ''),
+(18520, '', ''),
+(18521, '', ''),
+(18522, '', ''),
+(18523, '', ''),
+(18524, '', ''),
+(18525, '', ''),
+(18526, '', ''),
+(18527, '', ''),
+(18528, '', ''),
+(18529, '', ''),
+(18530, '', ''),
+(18531, '', ''),
+(18532, '', ''),
+(18533, '', ''),
+(18534, '柯爾堂的寶箱', ''),
+(18535, '柯爾堂的寶箱', ''),
+(18536, '柯爾堂的寶箱', ''),
+(18537, '柯爾堂的寶箱', ''),
+(18538, '柯爾堂的寶箱', ''),
+(18539, '復活塔', ''),
+(18540, '復活塔', ''),
+(18541, '復活塔', ''),
+(18542, '復活塔', ''),
+(18543, '復活塔', ''),
+(18544, '克魯瑪界碑', '活動怪物'),
+(18545, '古代巨人的實驗體', '活動怪物'),
+(18546, '古代巨人的實驗體', '活動怪物'),
+(18547, '古代巨人的實驗體', '活動怪物'),
+(18548, '古代巨人的實驗體', ''),
+(18549, '古代巨人的實驗體', ''),
+(18550, '克魯瑪浮游靈', '活動怪物'),
+(18551, '克魯瑪浮游靈', '活動怪物'),
+(18552, '克魯瑪浮游靈', ''),
+(18553, '克魯瑪浮游靈', ''),
+(18554, '突倫 卡默士', '卡納斯'),
+(18555, '豺狼 亞留修', '卡納斯'),
+(18556, '亞留修的手下', ''),
+(18557, '朗克 特尤姆斯', '卡納斯'),
+(18558, '赤色哈圖 奧迪司', '卡納斯'),
+(18559, '預言者 普勞羅素', '卡納斯'),
+(18560, '普勞羅素的手下', ''),
+(18561, '古朗尼特 多魯加', '卡納斯'),
+(18562, '刀刃 奧迪司', '卡納斯'),
+(18563, '奧迪司的手下', ''),
+(18564, '奇異 普內', '卡納斯'),
+(18565, '勇者 馬魯丁', '卡納斯'),
+(18566, '卡倚 亞比高爾', '卡納斯'),
+(18567, '亞比高爾的手下', ''),
+(18568, '騎士 孟塔那', '卡納斯'),
+(18569, '孟塔那的手下', ''),
+(18570, '熱流 亞坎尼丹', '卡納斯'),
+(18571, '畢諾姆斯 史托拉斯', '卡納斯'),
+(18572, '史托拉斯的手下', ''),
+(18573, '凱爾 比拉特', '卡納斯'),
+(18574, '比拉特的手下', ''),
+(18575, '傭兵 塔莫茲', '卡納斯'),
+(18576, '塔莫茲的手下', ''),
+(18577, '百眼的 阿羅梭', '卡納斯'),
+(18578, '阿羅梭的手下', ''),
+(18579, '獵場看守人', ''),
+(18580, '受詛咒的少女', ''),
+(18581, '園丁', ''),
+(18582, '旋轉少女', '柯雷塔的幸運'),
+(18583, '女傭', ''),
+(18584, '旋轉少年', ''),
+(18585, '受詛咒的少女', ''),
+(18586, '柯雷塔的惡童', ''),
+(18587, '怨恨女僕', ''),
+(18588, '獵場看守人', ''),
+(18589, '受詛咒的園丁', ''),
+(18590, '男爵夫人的雇員', ''),
+(18591, '怨恨少年', ''),
+(18592, '柯雷塔的執事', ''),
+(18593, '女傭', ''),
+(18594, '宅邸嚮導', ''),
+(18595, '男爵夫人的雇員', ''),
+(18596, '受詛咒的園丁', ''),
+(18597, '怨恨女僕', ''),
+(18598, '受詛咒的女管家', ''),
+(18599, '宅邸管家', ''),
+(18600, '柯雷塔的執事', ''),
+(18601, '柯雷塔的監視者', ''),
+(18602, '柯雷塔的監視者', ''),
+(18603, '', ''),
+(18604, '', ''),
+(18605, '', ''),
+(18606, '', ''),
+(18607, '加爾高斯', '火的精靈'),
+(18608, '金瑟斯', '火的精靈'),
+(18609, '帕米恩', '水的精靈'),
+(18610, '赫爾勒斯', '水的精靈'),
+(18611, '水的精靈', ''),
+(18612, '水的精靈', ''),
+(18613, '水的精靈', ''),
+(18614, '火的精靈', ''),
+(18615, '火的精靈', ''),
+(18616, '畢羅卡', ''),
+(18617, '', ''),
+(18618, '', ''),
+(18619, '', ''),
+(18620, '埃迪安藤', ''),
+(18621, '', ''),
+(18622, '火藥桶', ''),
+(18623, '怨恨的弓手', ''),
+(18624, '死者的怨恨', ''),
+(18625, '死者的怨恨', ''),
+(18626, '死者的怨恨', ''),
+(18627, '死者的怨恨', ''),
+(18628, '亞唐', '守望者'),
+(18629, '卡姆士', '帕奴卡'),
+(18630, '日比', '帕奴卡'),
+(18631, '瓦克守', '帕奴卡'),
+(18632, '格魯巴拉', '帕奴卡'),
+(18633, '雷馬堂', ''),
+(18634, '雷馬堂的手下', ''),
+(18635, '巴瑞卡賽勒諾斯訓練兵', ''),
+(18636, '巴瑞卡賽勒諾斯步兵', ''),
+(18637, '放牧的羚羊', ''),
+(18638, '巴瑞卡賽勒諾斯偵查兵', ''),
+(18639, '巴瑞卡賽勒諾斯狩獵者', ''),
+(18640, '巴瑞卡賽勒諾斯咒術士', ''),
+(18641, '巴瑞卡賽勒諾斯祭司', ''),
+(18642, '巴瑞卡賽勒諾斯戰士', ''),
+(18643, '放牧的羚羊', ''),
+(18644, '巴瑞卡賽勒諾斯靈媒', ''),
+(18645, '巴瑞卡賽勒諾斯魔導士', ''),
+(18646, '巴瑞卡賽勒諾斯下士', ''),
+(18647, '放牧的芙拉瓦', ''),
+(18648, '巴瑞卡賽勒諾斯祭司長', ''),
+(18649, '巴瑞卡賽勒諾斯大魔導士', ''),
+(18650, '巴瑞卡賽勒諾斯軍官', ''),
+(18651, '放牧的羚羊長老', ''),
+(18652, '巴瑞卡賽勒諾斯大祭司長', ''),
+(18653, '巴瑞卡精銳親衛隊', ''),
+(18654, '巴瑞卡軍團長', ''),
+(18655, '巴瑞卡首席親衛隊', ''),
+(18656, '巴瑞卡首席魔導士', ''),
+(18657, '預言者的親衛兵', ''),
+(18658, '預言者的門徒', ''),
+(18659, '巴瑞卡預言者', ''),
+(18660, '拉塔那', ''),
+(18661, '', ''),
+(18662, '', ''),
+(18663, '', ''),
+(18664, '幸運蟲', ''),
+(18665, '幸運蟲', ''),
+(18666, '幸運蟲', ''),
+(18667, '死亡的守護之物', ''),
+(18668, '死亡的守護之物', ''),
+(18669, '', ''),
+(18670, '', ''),
+(18671, '方塊', ''),
+(18672, '方塊', ''),
+(18673, '方塊', ''),
+(18674, '方塊', ''),
+(18675, '方塊', ''),
+(18676, '方塊搬運少女', ''),
+(18677, '龍馬軍 傳令', ''),
+(18678, '種子能量-水', ''),
+(18679, '種子能量-火', ''),
+(18680, '種子能量-風', ''),
+(18681, '種子能量-土', ''),
+(18682, '種子能量-神聖', ''),
+(18683, '種子能量-黑暗', ''),
+(18684, '紅色星石', ''),
+(18685, '紅色星石', ''),
+(18686, '紅色星石', ''),
+(18687, '藍色星石', ''),
+(18688, '藍色星石', ''),
+(18689, '藍色星石', ''),
+(18690, '綠色星石', ''),
+(18691, '綠色星石', ''),
+(18692, '綠色星石', ''),
+(18693, '古代寶箱', ''),
+(18694, '寶箱護衛兵', ''),
+(18695, '寶箱護衛兵', ''),
+(18696, '次元移動裝置', ''),
+(18697, '陷阱', ''),
+(18698, '陷阱', ''),
+(18699, '陷阱', ''),
+(18700, '', ''),
+(18701, '', ''),
+(18702, '次元移動裝置', ''),
+(18703, '殘存者抑制裝置', ''),
+(18704, '不滅的腫瘤體', ''),
+(18705, '破損的腫瘤體', ''),
+(18706, '靈魂管', ''),
+(18707, '', ''),
+(18708, '不滅的腫瘤體', ''),
+(18709, '靈魂管', ''),
+(18710, '靈魂管', ''),
+(18711, '靈魂管', ''),
+(18712, '靈魂管', ''),
+(18713, '靈魂管', ''),
+(18714, '靈魂管', ''),
+(18715, '被支配的靈魂', ''),
+(18716, '被支配的靈魂', ''),
+(18717, '被支配的靈魂', ''),
+(18718, '犧牲的狂信徒', ''),
+(18719, '犧牲的狂信徒', ''),
+(18720, '陷阱', ''),
+(18721, '陷阱', ''),
+(18722, '陷阱', ''),
+(18723, '陷阱', ''),
+(18724, '陷阱', ''),
+(18725, '陷阱', ''),
+(18726, '陷阱', ''),
+(18727, '陷阱', ''),
+(18728, '陷阱', ''),
+(18729, '陷阱', ''),
+(18730, '陷阱', ''),
+(18731, '陷阱', ''),
+(18732, '陷阱', ''),
+(18733, '陷阱', ''),
+(18734, '陷阱', ''),
+(18735, '陷阱', ''),
+(18736, '陷阱', ''),
+(18737, '陷阱', ''),
+(18738, '陷阱', ''),
+(18739, '陷阱', ''),
+(18740, '陷阱', ''),
+(18741, '陷阱', ''),
+(18742, '陷阱', ''),
+(18743, '陷阱', ''),
+(18744, '陷阱', ''),
+(18745, '陷阱', ''),
+(18746, '陷阱', ''),
+(18747, '陷阱', ''),
+(18748, '陷阱', ''),
+(18749, '陷阱', ''),
+(18750, '陷阱', ''),
+(18751, '陷阱', ''),
+(18752, '陷阱', ''),
+(18753, '陷阱', ''),
+(18754, '陷阱', ''),
+(18755, '陷阱', ''),
+(18756, '陷阱', ''),
+(18757, '陷阱', ''),
+(18758, '陷阱', ''),
+(18759, '陷阱', ''),
+(18760, '陷阱', ''),
+(18761, '陷阱', ''),
+(18762, '陷阱', ''),
+(18763, '陷阱', ''),
+(18764, '陷阱', ''),
+(18765, '陷阱', ''),
+(18766, '陷阱', ''),
+(18767, '陷阱', ''),
+(18768, '陷阱', ''),
+(18769, '陷阱', ''),
+(18770, '陷阱', ''),
+(18771, '陷阱', ''),
+(18772, '陷阱', ''),
+(18773, '陷阱', ''),
+(18774, '陷阱', ''),
+(18775, '破滅之種調整裝置', ''),
+(18776, '方尖塔', ''),
+(18777, '廣場結界裝置', ''),
+(18778, '破滅的寶座結界裝置', ''),
+(18779, '', ''),
+(18780, '克海梅納斯的標章', ''),
+(18781, '幼龍獸翼', ''),
+(18782, '席琳的狂信者', ''),
+(18783, '殘敗軍 軍團長', ''),
+(18784, '殘敗軍 第1隊隊長', ''),
+(18785, '殘敗軍 百龍隊長', ''),
+(18786, '殘敗軍 步兵', ''),
+(18787, '殘敗軍 魔法隊長', ''),
+(18788, '殘敗軍 魔法師', ''),
+(18789, '殘敗軍 魔法士兵', ''),
+(18790, '殘敗軍 治療師', ''),
+(18791, '殘敗軍 標槍兵', ''),
+(18792, '殘敗軍 標槍兵', ''),
+(18793, '奇怪的繭', ''),
+(18794, '奇怪的繭', ''),
+(18795, '奇怪的繭', ''),
+(18796, '奇怪的繭', ''),
+(18797, '奇怪的繭', ''),
+(18798, '奇怪的繭', ''),
+(18799, '岩漿撒魯斯幼年體', ''),
+(18800, '岩漿撒魯斯青年體', ''),
+(18801, '岩漿撒魯斯成年體', ''),
+(18802, '岩漿撒魯斯老年體', ''),
+(18803, '岩漿撒魯斯古代體', ''),
+(18804, '焦油甲蟲', ''),
+(18805, '廢棄物掩埋機', ''),
+(18806, '淨化魔法陣', ''),
+(18807, '受到驚嚇的羅格納獸人', ''),
+(18808, '暗黑邪術士 巴蘭卡', ''),
+(18809, '巴蘭卡的心腹', ''),
+(18810, '巴蘭卡的侍從', ''),
+(18811, '祭壇的守護者', ''),
+(18812, '卡沙之眼', ''),
+(18813, '卡沙之眼', ''),
+(18814, '卡沙之眼', ''),
+(18815, '墓地護衛兵', '呼喚死亡的'),
+(18816, '族長的寶箱', ''),
+(18817, '惡夢的侵略殉教者', ''),
+(18818, '虛無的侵略殉教者', ''),
+(18819, '虛無的侵略軍寶箱', ''),
+(18820, '虛無的侵略軍寶箱', ''),
+(18821, '怨靈的侵略殉教者', ''),
+(18822, '怨靈的侵略軍寶箱', ''),
+(18823, '怨靈的侵略軍寶箱', ''),
+(18824, '財富的商人A', ''),
+(18825, '財富的商人B', ''),
+(18826, '展示用席琳的邪念', ''),
+(18827, '展示用神官 凱因', ''),
+(18828, '黎明的上位祭司', ''),
+(18829, '展示用席琳的邪念隊長', ''),
+(18830, 'ssq展示用鏡頭dummy1', ''),
+(18831, 'ssq展示用鏡頭dummy2', ''),
+(18832, 'ssq展示用鏡頭dummy3', ''),
+(18833, '皇帝的封印裝置', ''),
+(18834, '黎明的警衛隊員', ''),
+(18835, '黎明的警衛隊員', ''),
+(18836, '巴蘭卡的守護者', ''),
+(18837, '', ''),
+(18838, '惡夢的侵略軍寶箱', ''),
+(27001, '獸人狙擊兵', ''),
+(27002, '獸人鬥士隊長', ''),
+(27003, '鏡之精靈', '任務怪物'),
+(27004, '鏡之精靈', '任務怪物'),
+(27005, '鏡之精靈', '任務怪物'),
+(27006, '獸人巴拓', ''),
+(27007, '獸人塔奴克', ''),
+(27008, '獸人克拉庫', ''),
+(27009, '獸人塔克', ''),
+(27016, '涅勒卡斯', '任務怪物'),
+(27017, '瘟疫殭屍', '任務怪物'),
+(27018, '獸人戰士', ''),
+(27019, '獸人戰士隊長', ''),
+(27020, '巴魯爾', '任務怪物'),
+(27021, '克魯納克', '任務怪物'),
+(27022, '梅肯尼斯', '任務怪物'),
+(27024, '神官亡靈', '任務怪物'),
+(27029, '火蜥蜴的幻影', '任務怪物'),
+(27030, '水之預言家', '任務怪物'),
+(27031, '豺狼看守者', '任務怪物'),
+(27032, '蜥蜴人戰士', '任務怪物'),
+(27033, '蜥蜴人巡守', '任務怪物'),
+(27034, '蜥蜴人', '任務怪物'),
+(27035, '塔瑪托', '任務怪物'),
+(27036, '卡爾皮可', '任務怪物'),
+(27037, '卡爾皮可的打手', '任務怪物'),
+(27038, '貓眼盜賊', '任務怪物'),
+(27041, '巴蘭卡使者', '任務怪物'),
+(27042, '獸人護衛兵', '任務怪物'),
+(27043, '巴蘭卡的追捕者', '任務怪物'),
+(27044, '卡沙熊的圖騰靈', '任務怪物'),
+(27045, '庫勒卡鼠人隊長', '任務怪物'),
+(27046, '修', '獸人背叛者'),
+(27047, '瓦奴克', '獸人背叛者'),
+(27048, '丘巴', '獸人背叛者'),
+(27049, '黑塔普', '獸人背叛者'),
+(27050, '皮庫伯', '獸人背叛者'),
+(27051, '普普', '獸人背叛者'),
+(27052, '米斯庫', '獸人背叛者'),
+(27053, '楚楚', '獸人背叛者'),
+(27054, '恩巴魯', '任務怪物'),
+(27055, '賈卡', '獸人背叛者'),
+(27056, '都勒卡的惡靈', '任務怪物'),
+(27058, '蜜熊', '任務怪物'),
+(27059, '沃飛', '卡布獸人首領'),
+(27060, '克雷奇', '卡布獸人首領'),
+(27061, '巴圖', '卡布獸人首領'),
+(27062, '塔努契', '卡布獸人首領'),
+(27063, '塔努契的戰犬', '任務怪物'),
+(27064, '圖汝', '卡布獸人首領'),
+(27065, '羅可', '卡布獸人首領'),
+(27066, '羅可的戰犬', '任務怪物'),
+(27067, '卡穆', '卡布獸人首領'),
+(27068, '穆迪卡', '卡布獸人首領'),
+(27069, '穆迪卡的戰犬', '任務怪物'),
+(27070, '突倫獸人山賊', '任務怪物'),
+(27077, '伊娃的獨角獸', '任務怪物'),
+(27078, '縛毒蜘蛛王', '任務怪物'),
+(27079, '黑柳路克', '任務怪物'),
+(27080, '帕辛卡索諾夫伏特爾', '任務怪物'),
+(27081, '夫土斯索諾夫伏特爾', '任務怪物'),
+(27082, '安庫獸人王', '任務怪物'),
+(27083, '馬肯食人妖瑟', '任務怪物'),
+(27086, '塔多斯首領的亡靈', '任務怪物'),
+(27088, '鳥妖馬崔區', '任務怪物'),
+(27089, '收集者之王', '任務怪物'),
+(27090, '蛇魔卡迪斯', '任務怪物'),
+(27092, '尼爾的保鑣', '任務怪物'),
+(27093, '德魯蜥蜴人首領卡其斯', '任務怪物'),
+(27094, '德魯蜥蜴人暗殺者', '任務怪物'),
+(27095, '幻影音律花', '任務怪物'),
+(27096, '夢魘音律花', '任務怪物'),
+(27097, '黑暗音律花', '任務怪物'),
+(27098, '鬼魂之火', '任務怪物'),
+(27099, '無名的亡靈', '任務怪物'),
+(27100, '骷髏傭兵', '任務怪物'),
+(27101, '德雷巴奴王子勒魯', '任務怪物'),
+(27102, '帕克貓', '任務怪物'),
+(27103, '獨角獸奔跑者', '任務怪物'),
+(27104, '闇魔圖倫', '任務怪物'),
+(27105, '咪咪貓', '任務怪物'),
+(27106, '獨角獸幻影', '任務怪物'),
+(27107, '影魔帝佛', '任務怪物'),
+(27108, '史坦諾亞哥肯女王', '任務怪物'),
+(27109, '史坦諾亞的侍女', '任務怪物'),
+(27110, '西斯拉瑟', '任務怪物'),
+(27111, '洞穴邪惡蜥蜴', '任務怪物'),
+(27112, '卡爾', '任務怪物'),
+(27113, '巴拉汗', '任務怪物'),
+(27114, '魅魔女王', '任務怪物'),
+(27115, '鉗爪魅魔', '任務怪物'),
+(27116, '熔岩火蜥蜴', '任務怪物'),
+(27117, '那希爾', '任務怪物'),
+(27118, '黑柳', '任務怪物'),
+(27119, '希律閣下的靈魂', '任務怪物'),
+(27120, '溫和的風魯伊', '任務怪物'),
+(27121, '青色的風艾克堤', '任務怪物'),
+(27122, '里多蜥蜴人間諜', '任務怪物'),
+(27123, '里多蜥蜴人隊長', '任務怪物'),
+(27124, '里多蜥蜴人暗殺者', '任務怪物'),
+(27125, '里多蜥蜴人射手', '任務怪物'),
+(27126, '里多蜥蜴人術士', '任務怪物'),
+(27127, '里多蜥蜴人王', '任務怪物'),
+(27128, '阿魯朗', '任務怪物'),
+(27129, '豺狼監督者', '任務怪物'),
+(27130, '豺狼背叛者', '任務怪物'),
+(27131, '庫林沙狼人', '任務怪物'),
+(27132, '克魯迪蜥蜴人', '任務怪物'),
+(27133, '惡魔之眼王', '任務怪物'),
+(27134, '塔多瑪', '任務怪物'),
+(27135, '葛里瑪', '任務怪物'),
+(27136, '誘惑的魅魔', '任務怪物'),
+(27137, '魔王', '任務怪物'),
+(27138, '大魔王', '任務怪物'),
+(27139, '密法的守護者', '任務怪物'),
+(27140, '布賴卡團長哈卡', '任務怪物'),
+(27141, '布賴卡團長札卡', '任務怪物'),
+(27142, '布賴卡團長瑪爾卡', '任務怪物'),
+(27143, '溫德薩斯阿勒伏', '任務怪物'),
+(27144, '塔爾克掠奪者阿吐', '任務怪物'),
+(27145, '塔爾克掠奪者藍卡', '任務怪物'),
+(27146, '塔爾克掠奪者特力茲卡', '任務怪物'),
+(27147, '塔爾克掠奪者摩特拉', '任務怪物'),
+(27148, '塔爾克掠奪者卡朗特', '任務怪物'),
+(27149, '葛林盜賊', '任務怪物'),
+(27150, '黑軍團強襲兵', '任務怪物'),
+(27151, '德魯蜥蜴人獵人', '任務怪物'),
+(27152, '沼澤司塔卡拓瑪魯基司', '任務怪物'),
+(27153, '亞歷山德桑迪斯', '黑暗君主'),
+(27154, '渤納巴特勞斯', '煉獄之王'),
+(27155, '朗瑟巴里奧斯', '魔界的絕對者'),
+(27156, '里多咒術士克次', '任務怪物'),
+(27157, '里多元老拿拉克', '任務怪物'),
+(27158, '提瑪克突擊隊長卡毅克', '任務怪物'),
+(27159, '提瑪克團長奧昆', '任務怪物'),
+(27160, '勾克-瑪國克', '葛雷迪斯頭目'),
+(27161, '泰可獸人王卡克蘭', '任務怪物'),
+(27162, '哈塔勒族長庫貝爾', '任務怪物'),
+(27163, '巴諾爾族長克爾諾斯', '任務怪物'),
+(27164, '卡魯族長歐魯托', '任務怪物'),
+(27165, '深淵寶石', '任務怪物'),
+(27166, '深淵寶石', '任務怪物'),
+(27167, '深淵寶石', '任務怪物'),
+(27168, '寶石守護者瑪拉', '任務怪物'),
+(27169, '寶石守護者姆斯派爾', '任務怪物'),
+(27170, '寶石守護者匹滕', '任務怪物'),
+(27171, '祭物的冤魂', '任務怪物'),
+(27172, '哈里特蜥蜴人狂信者', '任務怪物'),
+(27173, '阿特萊亞的箱子', '任務怪物'),
+(27174, '阿特萊亞的箱子', '任務怪物'),
+(27175, '阿特萊亞的箱子', '任務怪物'),
+(27176, '阿特萊亞的箱子', '任務怪物'),
+(27177, '阿特萊亞的箱子', '任務怪物'),
+(27178, '部列特亞龍', '任務怪物'),
+(27179, '墳墓之鑰', '任務怪物'),
+(27180, '帝國奴隸', '任務怪物'),
+(27181, '帝國墳場守護者', '任務怪物'),
+(27182, '聖櫃守護者艾雅柏羅司', '任務怪物'),
+(27183, '聖櫃守護者影牙', '任務怪物'),
+(27184, '天使殺手', '任務怪物'),
+(27185, '風的妖精木', '任務怪物'),
+(27186, '星的妖精木', '任務怪物'),
+(27187, '黃昏的妖精木', '任務怪物'),
+(27188, '深淵的妖精木', '任務怪物'),
+(27189, '木守護者之靈', '任務怪物'),
+(27190, '豺狼後備兵', '任務怪物'),
+(27191, '瑪爾勘', '任務怪物'),
+(27192, '魅魔侍女', '任務怪物'),
+(27193, '哥布林隨從', '任務怪物'),
+(27194, '撕裂者裘利', '任務怪物'),
+(27195, '雄蟻', '任務怪物'),
+(27196, '藍背鱷魚', '任務怪物'),
+(27197, '寶石鱷魚', '任務怪物'),
+(27199, '庫林沙狼人', '任務怪物'),
+(27200, '克魯迪蜥蜴人', '任務怪物'),
+(27201, '', ''),
+(27202, '', ''),
+(27203, '', ''),
+(27204, '', ''),
+(27205, '', ''),
+(27206, '', ''),
+(27207, '', ''),
+(27208, '', ''),
+(27209, '', ''),
+(27210, '', ''),
+(27211, '', ''),
+(27212, '', ''),
+(27213, '', ''),
+(27214, '禁斷知識守護者', '任務怪物'),
+(27215, '禁斷知識守護者', '任務怪物'),
+(27216, '禁斷知識守護者', '任務怪物'),
+(27217, '井的亡靈', '任務怪物'),
+(27218, '帝雷歐的手下', '任務怪物'),
+(27219, '哈里夏統治者', '任務怪物'),
+(27220, '哈里夏統治者', '任務怪物'),
+(27221, '哈里夏統治者', '任務怪物'),
+(27222, '哈里夏統治者', '任務怪物'),
+(27223, '哈里夏統治者', '任務怪物'),
+(27224, '哈里夏統治者', '任務怪物'),
+(27225, '哈里夏統治者', '任務怪物'),
+(27226, '哈里夏統治者', '任務怪物'),
+(27227, '哈里夏統治者', '任務怪物'),
+(27228, '哈里夏統治者', '任務怪物'),
+(27229, '哈里夏統治者', '任務怪物'),
+(27230, '哈里夏統治者', '任務怪物'),
+(27231, '哈里夏統治者', '任務怪物'),
+(27232, '哈里夏統治者', '任務怪物'),
+(27233, '哈里夏統治者', '任務怪物'),
+(27234, '哈里夏統治者', '任務怪物'),
+(27235, '哈里夏統治者', '任務怪物'),
+(27236, '哈里夏統治者', '任務怪物'),
+(27237, '哈里夏統治者', '任務怪物'),
+(27238, '哈里夏統治者', '任務怪物'),
+(27239, '哈里夏統治者', '任務怪物'),
+(27240, '哈里夏統治者', '任務怪物'),
+(27241, '哈里夏統治者', '任務怪物'),
+(27242, '哈里夏統治者', '任務怪物'),
+(27243, '哈里夏統治者', '任務怪物'),
+(27244, '哈里夏統治者', '任務怪物'),
+(27245, '哈里夏統治者', '任務怪物'),
+(27246, '哈里夏統治者', '任務怪物'),
+(27247, '哈里夏統治者', '任務怪物'),
+(27248, '哈里夏統治者', '任務怪物'),
+(27249, '哈里夏統治者', '任務怪物'),
+(27250, '墮天使 亞雷克特', '任務怪物'),
+(27251, '墮天使 亞雷克特', '任務怪物'),
+(27252, '墮天使 亞雷克特', '任務怪物'),
+(27253, '地獄之火', '任務怪物'),
+(27254, '未知的約束者', '任務怪物'),
+(27255, '未知的約束者', '任務怪物'),
+(27256, '未知的約束者', '任務怪物'),
+(27257, '大天使 伊可諾克拉希斯', '任務怪物'),
+(27258, '大天使 伊可諾克拉希斯', '任務怪物'),
+(27259, '大天使 伊可諾克拉希斯', '任務怪物'),
+(27260, '大天使 伊可諾克拉希斯', '任務怪物'),
+(27261, '聖火之珠', '任務怪物'),
+(27262, '死亡之王 哈勒特', '任務怪物'),
+(27263, '死亡之王 哈勒特', '任務怪物'),
+(27264, '死亡之王 哈勒特', '任務怪物'),
+(27265, '屍妖之王 亞克隆', '任務怪物'),
+(27266, '墮天使 哈瑞斯', '任務怪物'),
+(27267, '墮天使 哈瑞斯', '任務怪物'),
+(27268, '哈瑞斯的護衛兵', '任務怪物'),
+(27269, '墮天使 那夫里爾斯', '任務怪物'),
+(27270, '墮天使 那夫里爾斯', '任務怪物'),
+(27271, '奇美拉高崙', '任務怪物'),
+(27272, '哈勒特的舞者 莉莉安', '任務怪物'),
+(27273, '暗殺者 裴傑爾', '任務怪物'),
+(27274, '墮天使 塔納奇亞', '任務怪物'),
+(27275, '墮天使 塔納奇亞', '任務怪物'),
+(27276, '墮天使 塔納奇亞', '任務怪物'),
+(27277, '墮天使 塔納奇亞', '任務怪物'),
+(27278, '巴列斯的影子', '任務怪物'),
+(27279, '束縛詛咒 凱薩德因', '任務怪物'),
+(27280, '墮天使 納爾希斯', '任務怪物'),
+(27281, '墮天使 梅特魯斯', '任務怪物'),
+(27282, '逆天使 奧帝爾', '任務怪物'),
+(27283, '長者 阿卡利爾斯', '任務怪物'),
+(27284, '炎之亡靈 亞傑拉', '任務怪物'),
+(27285, '蜥蜴的圖騰 撒爾希', '任務怪物'),
+(27286, '墮落騎士 亞帝', '任務怪物'),
+(27287, '束縛的精靈 潘那西亞', '任務怪物'),
+(27288, '劍之協奏者 拜爾', '任務怪物'),
+(27289, '古代劍聖 艾伊恩', '任務怪物'),
+(27290, '白色羽翼指揮官', '任務怪物'),
+(27291, '白色羽翼戰鬥員', '任務怪物'),
+(27292, '墮落的貴族獸人 穆哈克', '任務怪物'),
+(27293, '卡巴塔里 阿魯斯', '任務怪物'),
+(27294, '霸主 亞特拉斯', '任務怪物'),
+(27295, '撒爾希的喉舌 默達哈', '任務怪物'),
+(27296, '石碑監視者 艾傑奇爾', '任務怪物'),
+(27297, '石碑監視者 艾傑奇爾', '任務怪物'),
+(27298, '石碑監視者 艾傑奇爾', '任務怪物'),
+(27299, '石碑監視者 艾傑奇爾', '任務怪物'),
+(27300, '石碑監視者 艾傑奇爾', '任務怪物'),
+(27301, '石碑監視者 艾傑奇爾', '任務怪物'),
+(27302, '石碑守護者 亞茲拉爾', '任務怪物'),
+(27303, '石碑守護者 亞茲拉爾', '任務怪物'),
+(27304, '石碑守護者 亞茲拉爾', '任務怪物'),
+(27305, '石碑守護者 亞茲拉爾', '任務怪物'),
+(27306, '石碑守護者 亞茲拉爾', '任務怪物'),
+(27307, '石碑守護者 亞茲拉爾', '任務怪物'),
+(27308, '暗殺者 佛洛斯特', '任務怪物'),
+(27309, '米內維亞 馮 哈肯', '任務怪物'),
+(27310, '奇塔尼斯 馮 哈肯', '任務怪物'),
+(27311, '審判的獵犬 凱爾巴斯', '任務怪物'),
+(27312, '正體不明的使魔', '任務怪物'),
+(27313, '祕傳的守護者 夏齊爾', '任務怪物'),
+(27314, '祕傳的守護者 夏齊爾', '任務怪物'),
+(27315, '祕傳的守護者 夏齊爾', '任務怪物'),
+(27316, '墮落的部族長 瓦格斯', '任務怪物'),
+(27317, '輝煌的拘束者', '任務怪物'),
+(27318, '溫蒂的守護者', '任務怪物'),
+(27319, '黑豹', '任務怪物'),
+(27320, '提莫拉獸人', '任務怪物'),
+(27321, '布朗蜥蜴人', '任務怪物'),
+(27322, '比卡特阿朗尼得', '任務怪物'),
+(27323, '神的密使', '任務怪物'),
+(27324, '密傳的守護者艾勒諾斯', '任務怪物'),
+(27325, '哈里夏統治者', '任務怪物'),
+(27326, '大天使凱因納菲爾', '任務怪物'),
+(27327, '查普基爾的執行官', '任務怪物'),
+(27328, '查普基爾', '任務怪物'),
+(27329, '哈里夏統治者', '任務怪物'),
+(27332, '守護天使', '任務怪物'),
+(27333, '緋紅公爵夫人', '任務怪物'),
+(27334, '哈里夏統治者', '任務怪物'),
+(27335, '逆天者歐提爾', '任務怪物'),
+(27336, '緋紅貴婦', '任務怪物'),
+(27337, '豺狼參謀 大津', '任務怪物'),
+(27338, '墜落的天使', '任務怪物'),
+(27339, '克魯瑪沼澤的叛教者', '任務怪物'),
+(27340, '追捕者', ''),
+(27341, '席琳的邪念', ''),
+(27342, '席琳的邪念', ''),
+(27343, '席琳的邪念', ''),
+(27344, '席琳的邪念', ''),
+(27345, '席琳的邪念', ''),
+(27346, '席琳的邪念', ''),
+(27347, '黎明的神諭處 警衛隊員', ''),
+(27348, '黎明的神諭處 警衛隊員', ''),
+(27349, '黎明的神諭處 警衛隊員', ''),
+(27350, '黎明的神諭處 警衛隊員', ''),
+(27351, '黎明的警衛隊員', ''),
+(27352, '黎明的神諭處 警衛隊員', ''),
+(27353, '莉莉恩殺戮者', ''),
+(27354, '莉莉恩魔導士', ''),
+(27355, '莉莉恩隨從騎士', ''),
+(27356, '莉莉恩刺殺者', ''),
+(27357, '莉莉恩祭司', ''),
+(27358, '莉莉恩騎士', ''),
+(27359, '莉莉恩刺客', ''),
+(27360, '莉莉恩大魔道士', ''),
+(27361, '莉莉恩禁衛騎士', ''),
+(27362, '莉莉恩殺戮者', ''),
+(27363, '莉莉恩魔導士', ''),
+(27364, '莉莉恩隨從騎士', ''),
+(27365, '莉莉恩刺殺者', ''),
+(27366, '莉莉恩祭司', ''),
+(27367, '莉莉恩騎士', ''),
+(27368, '莉莉恩刺客', ''),
+(27369, '莉莉恩大魔道士', ''),
+(27370, '莉莉恩禁衛騎士', ''),
+(27371, '莉莉恩殺戮者', ''),
+(27372, '莉莉恩魔導士', ''),
+(27373, '莉莉恩隨從騎士', ''),
+(27374, '席琳的邪念', ''),
+(27375, '席琳的邪念', ''),
+(27376, '莉莉恩騎士', ''),
+(27377, '莉莉恩刺客', ''),
+(27378, '莉莉恩大魔道士', ''),
+(27379, '莉莉恩禁衛騎士', ''),
+(27380, '暴走 水的精靈', '任務怪物'),
+(27381, '暴走 風的精靈', '任務怪物'),
+(27382, '封印遮斷結界', ''),
+(27383, '封印遮斷結界', ''),
+(27384, '封印裝置', '史奈曼皇帝的'),
+(27385, '莉莉絲', '深淵的聖母'),
+(27386, '莉莉絲的代言者', ''),
+(27387, '莉莉絲的親衛隊', ''),
+(27388, '亞納', '聖火的火花'),
+(27389, '亞納的守護者', ''),
+(27390, '亞納的禁衛隊', ''),
+(27391, '亞納的執行者', ''),
+(27392, '血腥之斧副官', ''),
+(27393, '無頭騎士', ''),
+(27394, '席琳的邪念', ''),
+(27395, '席琳的邪念', ''),
+(27396, '席琳的邪念', ''),
+(27397, '席琳的邪念', ''),
+(27398, '席琳的邪念', ''),
+(27399, '席琳的邪念', ''),
+(27400, '席琳的邪念', ''),
+(27401, '席琳的邪念', ''),
+(27402, '席琳的邪念', ''),
+(30001, '雷克特', '商人'),
+(30002, '傑克森', '商人'),
+(30003, '蘇菲亞', '商人'),
+(30004, '卡特琳', '商人'),
+(30005, '沃爾朴豪德', '倉庫管理員'),
+(30006, '拉普吉兒', '守門人'),
+(30008, '羅伊恩', '宗師'),
+(30009, '初學者幫手', ''),
+(30010, '阿伊努', '大師'),
+(30014, '仙瑪', '大師'),
+(30017, '噶爾林特', '大巫師'),
+(30019, '初學者幫手', ''),
+(30022, '基根特', '神官'),
+(30026, '畢茲', '宗師'),
+(30027, '柯雲特', '大師'),
+(30028, '比特亞基', '大師'),
+(30029, '米尼亞', '大師'),
+(30030, '維維安特', '神官'),
+(30031, '比奧帝', '大神官'),
+(30032, '亞哈那斯', '神官'),
+(30033, '巴烏洛', '教師'),
+(30034, '理斯', '教師'),
+(30035, '何瑞斯', '教師'),
+(30036, '寶斯特', '神官'),
+(30037, '雷比安', '大神官'),
+(30039, '革爾泊特', '警衛隊長'),
+(30040, '黎阿諾', '警衛'),
+(30041, '阿諾德', '警衛'),
+(30042, '阿貝羅司', '警衛'),
+(30043, '約翰史頓', '警衛'),
+(30044, '齊泊蘭', '警衛'),
+(30045, '肯尼奧司', '警衛'),
+(30046, '漢克斯', '警衛'),
+(30047, '裴黎恩', '碼頭管理員'),
+(30048, '達靈', ''),
+(30049, '波尼', ''),
+(30050, '艾黎阿司', ''),
+(30051, '克麗絲特', ''),
+(30054, '蘭特', '倉庫管理員'),
+(30055, '羅爾普南', '倉庫管理員'),
+(30057, '阿米多爾', '倉庫管理員'),
+(30058, '霍爾巴司', '倉庫管理員'),
+(30059, '特黎西亞', '守門人'),
+(30060, '沙布琳', '商人'),
+(30061, '凱希', '商人'),
+(30062, '索尼亞', '商人'),
+(30063, '拉盧斯', '商人'),
+(30064, '泰瑞', '大師'),
+(30065, '阿路尼', '大師'),
+(30066, '帕布黎斯', '宗師'),
+(30067, '哥爾黎布卡', '神官'),
+(30068, '索葛裴爾德', '神官'),
+(30069, '羅爾蘭德', '教師'),
+(30070, '錫爾巴銀', '大神官'),
+(30071, '盧卡斯', '警衛隊長'),
+(30072, '麥提', '警衛'),
+(30073, '傑伊庫伯', '警衛'),
+(30074, '希奇蘭', '警衛'),
+(30075, '沙伯', '警衛'),
+(30076, '黎斯托', '警衛'),
+(30078, '帕諾', '雜貨商人'),
+(30079, '巴德', '倉庫管理員'),
+(30080, '克拉彼亞', '守門人'),
+(30081, '何爾貝蒂亞', '雜貨商人'),
+(30082, '典克斯', '雜貨商人'),
+(30083, '伯契', '倉庫管理員'),
+(30084, '葛羅伯納', '武器商人'),
+(30085, '斯塔尼', '武器商人'),
+(30086, '塔烏琳', '倉庫管理員'),
+(30087, '普杰特', '防具商人'),
+(30088, '拉蒂亞', '防具商人'),
+(30090, '仙德拉', '飾品商人'),
+(30091, '艾爾黎安妮', '飾品商人'),
+(30092, '庫爾伯', '倉庫管理員'),
+(30093, '葛魯特', '魔法商人'),
+(30094, '吉特勒', '魔法商人'),
+(30095, '蘭多爾普', '倉庫管理員'),
+(30097, '葛爾拉圖次', '商人'),
+(30098, '亞歷珊卓', '商人'),
+(30103, '巴爾昆', '倉庫管理員'),
+(30104, '帕曼', '倉庫管理員'),
+(30105, '吉必特', '大師'),
+(30106, '都普尼', '大師'),
+(30107, '高爾典', '大師'),
+(30108, '麥肯', '大師'),
+(30109, '漢拿法特', '宗師'),
+(30110, '益克', '教師'),
+(30111, '戴特', '教師'),
+(30112, '莫里斯', '教師'),
+(30113, '久黎斯', '教師'),
+(30114, '洛亞', '教師'),
+(30115, '久黎克', '大巫師'),
+(30116, '德詩丁', '神官'),
+(30117, '普黎默知', '神官'),
+(30118, '朴皮娜', '神官'),
+(30119, '伊紗別琳', '神官'),
+(30120, '魅克斯彌莉言', '大神官'),
+(30121, '傑羅寧', '警衛隊長'),
+(30122, '布拉斯', '警衛'),
+(30123, '別沙', '警衛'),
+(30124, '傑侖', '警衛'),
+(30125, '勃爾特凱', '警衛'),
+(30126, '拉辛次', '警衛'),
+(30128, '阿塔娜斯', '警衛'),
+(30129, '米特拉爾', '褐色精靈族長'),
+(30130, '安德理亞斯', '深淵祭司'),
+(30131, '初學者幫手', ''),
+(30132, '塞克提諾', '深淵祭司'),
+(30133, '卡勒帝亞', '深淵祭司'),
+(30134, '傑斯密', '守門人'),
+(30135, '艾理亞', '商人'),
+(30136, '帕因特', '商人'),
+(30137, '勃羅多斯', '商人'),
+(30138, '米娜蕾絲', '商人'),
+(30139, '杜藍克斯', '倉庫管理員'),
+(30140, '艾彼安特', '倉庫管理員'),
+(30141, '達爾羅斯', '長老'),
+(30143, '特羅帝', '大師'),
+(30144, '哈勒涅', '教師'),
+(30145, '布拉斯帝', '教師'),
+(30146, '米帝爾', '守門人'),
+(30147, '烏諾連', '商人'),
+(30148, '阿黎爾', '商人'),
+(30149, '克里米斯', '商人'),
+(30150, '何布帝恩', '商人'),
+(30151, '契德廉', '倉庫管理員'),
+(30152, '茱莉亞', '倉庫管理員'),
+(30153, '馬庫司', '倉庫管理員'),
+(30154, '阿斯特黎羅司', '長老'),
+(30155, '艾爾尼亞', '大師'),
+(30156, '科班得', '大師'),
+(30157, '葛雷妮絲', '教師'),
+(30158, '艾斯蘭德爾', '教師'),
+(30162, '卡琳', '守門人'),
+(30163, '雷克斯', '商人'),
+(30164, '瑞克斯', '商人'),
+(30165, '瑞芬', '商人'),
+(30166, '衛斯理', '魔法商人'),
+(30169, '馬蒂', '倉庫管理員'),
+(30170, '羅帝克', '倉庫管理員'),
+(30171, '葛烏斯', '教師'),
+(30174, '阿肯尼斯', '大巫師'),
+(30175, '法崙', '大巫師'),
+(30176, '巴爾雷', '大巫師'),
+(30177, '瓦倫蒂娜', '守門人'),
+(30178, '簡金', '商人'),
+(30179, '勞迪亞', '商人'),
+(30180, '莎羅', '商人'),
+(30181, '卡利克布雷多', '商人'),
+(30182, '克里弗', '倉庫管理員'),
+(30183, '海哥尼', '倉庫管理員'),
+(30184, '瑞高爾', '大師'),
+(30185, '塔尼阿克 布萊伯', '大師'),
+(30186, '巴恩', '大師'),
+(30187, '克勞斯 布萊伯', '宗師'),
+(30188, '瓦丁', '神官'),
+(30189, '勞比亞', '教師'),
+(30190, '帕諾比雅', '教師'),
+(30191, '霍爾林特', '大神官'),
+(30192, '達比', '大師'),
+(30194, '葛伊德', '教師'),
+(30195, '布雷克森', '宗師'),
+(30196, '牟恩', '警衛隊長'),
+(30197, '黑克', '警衛'),
+(30198, '傑林', '警衛'),
+(30199, '亞伊克', '警衛'),
+(30200, '史坦', '警衛'),
+(30201, '皮那布斯', '警衛'),
+(30207, '阿羅汀', '商人'),
+(30208, '戴勞尼斯', '商人'),
+(30209, '克爾里那斯', '商人'),
+(30210, '諾曼', '倉庫管理員'),
+(30216, '威廉德爾', '哨兵'),
+(30217, '貝里奧斯', '哨兵'),
+(30218, '肯德尼爾', '哨兵'),
+(30219, '貝爾特雷斯', '哨兵'),
+(30220, '斯塔帝恩', '哨兵'),
+(30221, '萊伊吉恩', '哨兵'),
+(30222, '阿爾修佩斯', ''),
+(30223, '阿路基恩', ''),
+(30224, '萊伊爾拉', '哨兵騎士'),
+(30230, '艾德勞克', '商人'),
+(30231, '葛雷特', '商人'),
+(30232, '索林特', '倉庫管理員'),
+(30233, '艾斯美拉達', '守門人'),
+(30253, '辛普龍', '商人'),
+(30254, '哈莫妮', '商人'),
+(30255, '哈普羅克', '倉庫管理員'),
+(30256, '貝拉多納', '守門人'),
+(30283, '阿爾特蘭', '鐵匠'),
+(30284, '艾貝里烏斯', '哨兵騎士'),
+(30285, '加特蘭道', '哨兵'),
+(30288, '雷因司', '宗師'),
+(30289, '雷門德', '大神官'),
+(30290, '傑諾斯', '宗師'),
+(30291, '阿蘭克爾', '民兵隊長'),
+(30293, '瑪奴維爾', '神官'),
+(30294, '巴蘭克德', '商人'),
+(30297, '拓比亞斯', '宗師'),
+(30298, '品特', '鐵匠'),
+(30300, '普西金', '鐵匠'),
+(30301, '哈利皮亞', '商人'),
+(30305, '維廖爾', '長老'),
+(30307, '卡羅伊德', '鐵匠'),
+(30311, '柯林 溫達伍德 閣下', ''),
+(30312, '諾克斯維爾', '燈塔看守人'),
+(30313, '阿瑟羅皮', '商人'),
+(30314, '尼斯特樂', '商人'),
+(30315, '坡西亞', '商人'),
+(30316, '勞特', '倉庫管理員'),
+(30317, '克魯托', '鐵匠'),
+(30320, '黎克林', '守門人'),
+(30321, '西德尼', '商人'),
+(30322, '巴爾孔', '倉庫管理員'),
+(30325, '奧迪貝爾堤', '大師'),
+(30326, '雷歐納', '大師'),
+(30327, '索日烏斯', '大師'),
+(30328, '雷奧利亞', '大師'),
+(30329, '維爾吉爾', '大師'),
+(30330, '錫德拉', '教師'),
+(30331, '托瑪', '警衛'),
+(30332, '巴堤亞', '警衛隊長'),
+(30333, '普拉卡', '警衛'),
+(30334, '巴本科', '警衛'),
+(30335, '布尼爾', '警衛'),
+(30336, '克堤茲', '警衛'),
+(30337, '莫列蒂', '警衛'),
+(30338, '梅爾維樂', '警衛'),
+(30342, '瓦爾薩克', ''),
+(30344, '若哈梅爾', '教師'),
+(30345, '拉莫妮爾', '教師'),
+(30346, '凱里恩', '哨兵'),
+(30347, '瑪力雯', '哨兵'),
+(30348, '尼爾西亞', '哨兵'),
+(30349, '潔妮恩', '哨兵'),
+(30350, '卡爾雷因', '倉庫管理員'),
+(30351, '阿斯塔倫', ''),
+(30352, '卡日那爾', ''),
+(30353, '傑葛西德', ''),
+(30354, '傑維爾', ''),
+(30355, '露絲林', '哨兵'),
+(30356, '阿爾提米斯', '哨兵'),
+(30357, '克爾平歐恩', '哨兵'),
+(30358, '提費爾', '大長老'),
+(30359, '凱塔爾', '長老'),
+(30360, '哈蘭特', '大師'),
+(30361, '黎茲賴爾', ''),
+(30362, '安德莉亞', ''),
+(30363, '艾歐斯', '鐵匠'),
+(30368, '莉里絲', ''),
+(30369, '伯納德斯', '大師'),
+(30370, '娜魯帕', ''),
+(30371, '塔里亞', ''),
+(30373, '拉莫斯', '宗師'),
+(30374, '爾和迪爾', '大師'),
+(30375, '阿多紐斯', '神官'),
+(30376, '尼爾', '教師'),
+(30377, '塔爾波特', '教師'),
+(30378, '艾斯卡爾', '大師'),
+(30379, '貝茲庫', '警衛隊長'),
+(30380, '普林克', '警衛'),
+(30381, '艾爾瓦哈', '警衛'),
+(30382, '雷坎', '警衛'),
+(30383, '斯科特', '警衛'),
+(30384, '琳楚斯', '警衛'),
+(30385, '威斯茲', '警衛'),
+(30386, '路易斯', '警衛'),
+(30387, '克蘭西', '碼頭管理員'),
+(30391, '帕瑞那', ''),
+(30400, '初學者幫手', ''),
+(30401, '初學者幫手', ''),
+(30402, '初學者幫手', ''),
+(30403, '初學者幫手', ''),
+(30404, '初學者幫手', ''),
+(30405, '馬利尤斯', ''),
+(30406, '瑪鐵歐', ''),
+(30407, '梅瑟拉', ''),
+(30408, '勒莫尼爾', ''),
+(30409, '大地之蛇', ''),
+(30410, '荒原蜥蜴人', ''),
+(30411, '燃燒的火蜥蜴', ''),
+(30412, '風妖精', ''),
+(30413, '水妖精', ''),
+(30414, '羅格里亞', ''),
+(30415, '查爾克仁', ''),
+(30416, '特瑞斯克爾', ''),
+(30417, '卡瑞 巴司柏 閣下', ''),
+(30418, '安瑟利', ''),
+(30419, '阿爾克尼亞', '巫女'),
+(30420, '特威提', ''),
+(30421, '瓦瑞卡', '巫女'),
+(30422, '卡林塔', '深淵祭司'),
+(30423, '諾爾思溫德', ''),
+(30424, '亞拉娜', ''),
+(30425, '奈提', ''),
+(30426, '普雷根', ''),
+(30427, '次風', '守門人'),
+(30428, '裴琳', ''),
+(30429, '提拉米斯', '守門人'),
+(30430, '特利歐尼爾', '哨兵'),
+(30431, '艾里爾', '哨兵'),
+(30432, '艾伊琳', '哨兵'),
+(30433, '卡提戴', '哨兵'),
+(30434, '薩梅德', ''),
+(30435, '雷歐波爾德', ''),
+(30436, '薩里恩特', '商人'),
+(30437, '羅倫陶', '商人'),
+(30452, '庫爾提斯', '警衛'),
+(30458, '坡伊坦', '鐵匠'),
+(30459, '萬迪烏斯', '大師'),
+(30460, '卡爾狄恩', '大師'),
+(30461, '米麗恩', '教師'),
+(30462, '特若尼克斯', '宗師'),
+(30463, '伊夏', '大師'),
+(30464, '克萊頓', '教師'),
+(30465, '哈爾帆', '警衛'),
+(30466, '布萊特', '警衛'),
+(30469, '約拿斯', ''),
+(30471, '魯皮奧', '鐵匠'),
+(30472, '立貝黎亞', '大師'),
+(30473, '班德羅斯', '神官'),
+(30474, '安古斯', '宗師'),
+(30475, '斯塔皮伊恩', '大師'),
+(30476, '凱拉', '教師'),
+(30477, '歐爾托 廉瑟 閣下', ''),
+(30478, '雷金', '警衛'),
+(30483, '莫查雷拉', '守門人'),
+(30484, '潘帝娜', '守門人'),
+(30485, '卡貝黎尼', '守門人'),
+(30486, '哈巴堤', '守門人'),
+(30487, '貝內', '守門人'),
+(30497, '艾德蒙', ''),
+(30498, '莫克', '倉庫管理員老闆'),
+(30499, '塔波伊', '鐵匠師傅'),
+(30500, '歐斯本', '大團長'),
+(30501, '卡斯曼', '團長'),
+(30502, '烏穆斯', '預言者'),
+(30503, '瑞卡帝奧', '倉庫管理員老闆'),
+(30504, '曼帝奧', '鐵匠師傅'),
+(30505, '德里克斯', '大團長'),
+(30506, '布卡', '團長'),
+(30507, '拉凱', '預言者'),
+(30508, '蕭納爾', '大團長'),
+(30509, '督克', '團長'),
+(30510, '梭馬克', '預言者'),
+(30511, '哥斯徒', '倉庫管理員老闆'),
+(30512, '庫斯吐', '鐵匠師傅'),
+(30513, '布那吐斯', '大團長'),
+(30514, '伯其恩', '團長'),
+(30515, '瑪拉其亞', '預言者'),
+(30516, '黎普', '商人'),
+(30517, '恰里', '商人'),
+(30518, '卡黎塔', '商人'),
+(30519, '米恩', '商人'),
+(30520, '里德', '倉庫管理員老闆'),
+(30521, '摩普琳', '倉庫管理員'),
+(30522, '艾兒黎', '倉庫管理員'),
+(30523, '高普', '收藏家'),
+(30524, '皮皮', '收藏家'),
+(30525, '布隆克', '鐵匠師傅'),
+(30526, '白龍普', '鐵匠'),
+(30527, '希爾貝黎', '鐵匠'),
+(30528, '拉培倫', '監督官'),
+(30529, '瑪侖', '礦工'),
+(30530, '初學者幫手', ''),
+(30531, '拉克琳', '元老長'),
+(30532, '司斐侖', '元老 '),
+(30533, '巴蘭克', '元老 '),
+(30534, '克普', '元老 '),
+(30535, '斐拉爾', '元老 '),
+(30536, '亞琳', '元老 '),
+(30537, '達伊齊爾', '大地神官長'),
+(30538, '吉門普', '大地神官'),
+(30539, '齊齊琳', '大地神官'),
+(30540, '威爾比', '守門人'),
+(30541, '派恩', '保護者'),
+(30542, '魯南特', '守護者'),
+(30543, '夜歐騰', '守護者'),
+(30544, '克倫威爾', '守護者'),
+(30545, '布魯騰', '守護者'),
+(30546, '鄧克', '守護者'),
+(30547, '塔蒂文', '守護者'),
+(30548, '南森', '守護者'),
+(30549, '谷黎夫 達普史東', ''),
+(30550, '卡烏里 提恩洛克', ''),
+(30551, '堤恩克', ''),
+(30552, '克利巴 克史東', ''),
+(30553, '瑪里夫紅帽', ''),
+(30554, '波特', '礦工'),
+(30555, '吐魯克', '信差'),
+(30556, '多瑪', '大師'),
+(30557, '托萊', ''),
+(30558, '傑克潤', '商人'),
+(30559, '庫奈', '商人'),
+(30560, '烏斯卡', '商人'),
+(30561, '帕普瑪', '商人'),
+(30562, '魯恩', '倉庫管理員'),
+(30563, '伊曼吐', '倉庫管理員'),
+(30564, '蘇瑪黎', '鐵匠'),
+(30565, '卡卡伊', '火之君主'),
+(30566, '巴勒庫斯', '阿吐巴首領'),
+(30567, '泰吐斯', '那魯加首領'),
+(30568, '哈拓斯', '烏魯吐首領'),
+(30569, '布魯克斯', '團長'),
+(30570, '卡魯奇亞', '團長'),
+(30571, '塔那比', '預言者'),
+(30572, '利維那', '預言者'),
+(30573, '布爾克斯', '火之守護神'),
+(30575, '初學者幫手', ''),
+(30576, '坦米爾', '守門人'),
+(30577, '盧卡恩', '執政官'),
+(30578, '納庫辛', '百人隊長'),
+(30579, '塔麥', '百人隊長'),
+(30580, '帕魯根', '百人隊長'),
+(30581, '歐瑞納克', '百人隊長'),
+(30582, '提克', '百人隊長'),
+(30583, '巴特凱', '百人隊長'),
+(30584, '巴布克', '百人隊長'),
+(30585, '塔塔魯 蘇 黑斯吐伊', ''),
+(30586, '阿奈 蘇 那魯加', ''),
+(30587, '坎塔克 蘇 烏魯吐', ''),
+(30588, '塔卡 蘇 都達瑪拉', ''),
+(30589, '卡芝肯 蘇 甘地', ''),
+(30590, '羅西克', '卡巴塔里'),
+(30591, '托魯庫', '卡巴塔里'),
+(30592, '黑斯吐伊圖騰靈', ''),
+(30593, '都達瑪拉圖騰靈', ''),
+(30594, '蘭伯斯', '倉庫管理員老闆'),
+(30595, '奧皮斯', '鐵匠師傅'),
+(30596, '哈克爾', '帕提森守門人'),
+(30597, '皮歐特', ''),
+(30598, '初學者嚮導', ''),
+(30599, '初學者嚮導', ''),
+(30600, '初學者嚮導', ''),
+(30601, '初學者嚮導', ''),
+(30602, '初學者嚮導', ''),
+(30608, '瑪利亞', ''),
+(30609, '克瑞塔', '占星術士'),
+(30610, '克洛諾斯', '賢者'),
+(30611, '特黎夫', '醉鬼'),
+(30612, '卡席安', '賢者'),
+(30613, '艾爾杜斯之靈', ''),
+(30614, '梅德休斯', '修士'),
+(30615, '伏特爾', '布賴卡首領'),
+(30616, '開普拉', '安庫首領'),
+(30617, '布萊', '土瑞克首領'),
+(30618, '哈勒克', '雷沃恩特首領'),
+(30619, '德里', '普庫首領'),
+(30620, '艾米俐', ''),
+(30621, '尼古拉', '巨匠'),
+(30622, '下巨人之箱', ''),
+(30623, '凱恩', '決鬥者'),
+(30624, '艾斯卡倫', '老兵'),
+(30625, '瑪森', ''),
+(30626, '漢彌爾', '人馬'),
+(30627, '樹', ''),
+(30628, '結實的木盒', ''),
+(30629, '露凱', '吟遊詩人'),
+(30630, '奧瑞米', '暗影者'),
+(30631, '羅德力克', '典獄長'),
+(30632, '安德利格', '典獄長'),
+(30633, '伊弗特', '漁夫'),
+(30634, '葛拉緹亞', '高等元素使'),
+(30635, '艾爾摩斯', '元素使'),
+(30636, '坎摩尼爾', '元素使'),
+(30637, '貝瑟斯', '元素使'),
+(30638, '巴賽里拉', '元素使'),
+(30639, '凱薩緹歐', '元素使'),
+(30640, '布萊恩里', '元素使'),
+(30641, '塔庫納', '都達瑪拉首領'),
+(30642, '齊安塔', '甘地首領'),
+(30643, '太初半獸人', ''),
+(30644, '凱許', ''),
+(30645, '馬爾提安', ''),
+(30646, '羅多', '鬥王'),
+(30647, '西斯拉瑟的寶箱', ''),
+(30648, '聖地牙哥', '隱者'),
+(30649, '始祖 瑪田庫斯', ''),
+(30650, '吉安德', '大地神官'),
+(30651, '杜夫', '流浪漢'),
+(30652, '烏魯哈', ''),
+(30653, '阿龍 坦佛爾德 閣下', ''),
+(30654, '夜鷹克爾 閣下', ''),
+(30655, '銀影 伊塞兒', ''),
+(30656, '塔利亞斯之魂', ''),
+(30657, '瑟瑞辛', '樞機主教'),
+(30658, '古菩', '孤兒院院長'),
+(30659, '孤女', ''),
+(30660, '溫蒂修琳', ''),
+(30661, '神祕的黑暗精靈', ''),
+(30662, '長弓 皮比爾', ''),
+(30663, '閃耀之刀 史雷因', ''),
+(30664, '飛刀 凱因', ''),
+(30665, '克莉絲蒂娜', '聖者'),
+(30666, '史拉', '傳教士'),
+(30667, '拉姆斯', ''),
+(30668, '卡塔利', ''),
+(30669, '卡康', ''),
+(30670, '尼庫利', ''),
+(30671, '克羅托', '首領'),
+(30672, '杜巴巴', '獄卒'),
+(30673, '羅萊恩', '調查員'),
+(30674, '道琳 哈瑪克拉許', ''),
+(30675, '卡謬兒的屍體', ''),
+(30676, '庫羅普', '倉庫管理員老闆'),
+(30677, '弗露特', '鐵匠師傅'),
+(30678, '希爾頓', '鐵匠'),
+(30679, '羅摩亞', '大師'),
+(30680, '伊格諾司', '神官'),
+(30681, '凱瑞亞', '大團長'),
+(30682, '佩克隆', '預言者'),
+(30683, '丹特', '團長'),
+(30684, '畢克特', '商人'),
+(30685, '巴克斯特', '倉庫管理員老闆'),
+(30686, '席娃', '倉庫管理員'),
+(30687, '沃格拉', '鐵匠師傅'),
+(30688, '丹寧', '鐵匠'),
+(30689, '席理雅', '宗師'),
+(30690, '露樂', '大師'),
+(30691, '威廉 亞太法特', '大師'),
+(30692, '史泰德米歐', '大師'),
+(30693, '昆妮恩', '大師'),
+(30694, '史凱瀨德', '大巫師'),
+(30695, '摩瑟司', '教師'),
+(30696, '佩格', '教師'),
+(30697, '維德瑞恩', '教師'),
+(30698, '伊芙琳', '教師'),
+(30699, '梅登', '宗師'),
+(30700, '普利斯坦', '大師'),
+(30701, '伊利肯', '教師'),
+(30702, '伯納德', '獵人公會會長'),
+(30703, '柯林', '獵人公會會員'),
+(30704, '加維瑞特茲', '大團長'),
+(30705, '查克里斯', '團長'),
+(30706, '拉占比', '預言者'),
+(30707, '萊金', '警衛隊長'),
+(30708, '拿塞', '警衛'),
+(30709, '諾頓', '警衛'),
+(30710, '衛斯理', '警衛'),
+(30711, '拜侖', '警衛'),
+(30712, '馬克西斯', '警衛'),
+(30713, '高德訥', '警衛'),
+(30714, '派洛司', '警衛'),
+(30715, '瑪莉娜', '教師'),
+(30716, '西索', '守門人'),
+(30717, '高恩', '教師'),
+(30718, '瓊恩', '教師'),
+(30719, '瑪瑞歐', '守門人'),
+(30720, '凱因娜', '教師'),
+(30721, '拉德', '教師'),
+(30722, '墨萊恩', '守門人'),
+(30723, '羅伊', '警衛隊長'),
+(30724, '泰弗林恩', '警衛'),
+(30725, '殷寧', '警衛'),
+(30726, '泰勃司', '警衛'),
+(30727, '費蘿娜', '守門人'),
+(30728, '理爾殷', '民兵'),
+(30729, '柏路思', '醉鬼'),
+(30730, '傑克斯', '保鑣'),
+(30731, '馬汀', '寵物管理員'),
+(30732, '豺狼朝聖者 皮爾蓋姆', ''),
+(30733, '警衛弓兵', ''),
+(30734, '港口的補給品箱子', ''),
+(30735, '索比亞', '傭兵隊長'),
+(30736, '雷德普', '傭兵'),
+(30737, '摩根', '獵人'),
+(30738, '馬堤爾德', '鍊金術士'),
+(30739, '狐狗', '大臣'),
+(30740, '蛤蟆', '大臣'),
+(30741, '兔子', '大臣'),
+(30742, '魯皮娜', '愛情妖精'),
+(30743, '智慧的箱子', ''),
+(30744, '葛雷', '獵人公會會員'),
+(30745, '托勒', '獵人公會會員'),
+(30746, '齊白霖', ''),
+(30747, '米莫', '妖精'),
+(30748, '艾薩里恩', '飛龍'),
+(30749, '座芙', '飛龍'),
+(30750, '卡理布藍', '飛龍'),
+(30751, '舒簡特', '亞龍'),
+(30752, '桑骸', '亞龍'),
+(30753, '加布里爾', ''),
+(30754, '吉姆歐', '安塔瑞斯的監視者'),
+(30755, '泰奧德黎', '安塔瑞斯的監視者'),
+(30756, '克里斯托 洛德瑪依 卿', ''),
+(30757, '祭物之像', ''),
+(30758, '阿特萊雅', '魔女'),
+(30759, '克莉斯', '魔女'),
+(30760, '古斯達夫 亞太法特 卿', ''),
+(30761, '敷立茲的屍體', ''),
+(30762, '魯茲的屍體', ''),
+(30763, '葛魯茲的屍體', ''),
+(30764, '拜特加魯', ''),
+(30765, '皇室之櫃', ''),
+(30766, '克莉歐', '魔女'),
+(30767, '拍賣管理者', ''),
+(30768, '拍賣管理者', ''),
+(30769, '拍賣管理者', ''),
+(30770, '拍賣管理者', ''),
+(30771, '拍賣管理者', ''),
+(30772, '委森', '根據地管理員'),
+(30773, '托德', '初學者嚮導'),
+(30827, '仁狄', '寵物管理員'),
+(30828, '渥特斯', '寵物管理員'),
+(30829, '庫柏', '寵物管理員'),
+(30830, '左艾', '寵物管理員'),
+(30831, '尼爾遜', '寵物管理員'),
+(30832, '哈汀', ''),
+(30833, '卡斯帕', '教師'),
+(30834, '賽馬', '魔法商人'),
+(30835, '伊克魯斯', '屍妖之王'),
+(30836, '米奈貝亞', '守門人'),
+(30837, '巫德洛', '商人'),
+(30838, '巫德雷', '商人'),
+(30839, '荷莉', '商人'),
+(30840, '羅蘭左', '商人'),
+(30841, '卡薩', '商人'),
+(30842, '阿蘭西斯', '商人'),
+(30843, '倫夫', '倉庫管理員'),
+(30844, '巴德拉', '倉庫管理員'),
+(30845, '克朗夫', '倉庫管理員老闆'),
+(30846, '威伯特', '鐵匠'),
+(30847, '匹黎茲', '鐵匠師傅'),
+(30848, '伊麗莎白', '守門人'),
+(30849, '賽德里', '宗師'),
+(30850, '艾肯', '大師'),
+(30851, '肯卓', '大師'),
+(30852, '西德仁', '大師'),
+(30853, '籟安', '大師'),
+(30854, '德黎齊安', '大巫師'),
+(30855, '戴斯蒙', '教師'),
+(30856, '威挪林', '教師'),
+(30857, '歐魯芬', '大神官'),
+(30858, '羅斯', '神官'),
+(30859, '比比安', '神官'),
+(30860, '普羅尼亞', '神官'),
+(30861, '黎內特', '神官'),
+(30862, '歐特琳', '宗師'),
+(30863, '蓋斯特', '大師'),
+(30864, '哈奈林', '教師'),
+(30865, '拉丹查', '大團長'),
+(30866, '法列斯特拉', '團長'),
+(30867, '瑞巴', '預言者'),
+(30868, '艾力克 洛德瑪依 卿', ''),
+(30869, '林普', '寵物管理員'),
+(30870, '克帝茲', '警衛隊長'),
+(30871, '普磊', '警衛'),
+(30872, '昆挪伊', '警衛'),
+(30873, '柯曼', '警衛'),
+(30874, '阿魯迪斯', '警衛'),
+(30875, '凱頓', '警衛'),
+(30876, '伊斯坦', '警衛'),
+(30877, '葛雷森', '警衛'),
+(30878, '安吉爾莉娜', '守門人'),
+(30879, '帕魯敦', '碼頭管理員'),
+(30880, '維克特 馮 德伊克', '國境守備隊隊長'),
+(30881, '森德斯', '國境守備隊書記官'),
+(30882, '國境警衛隊隊員', ''),
+(30883, '國境警衛隊隊員', ''),
+(30884, '國境警衛隊隊員', ''),
+(30885, '國境警衛隊隊員', ''),
+(30886, '國境警衛隊隊員', ''),
+(30887, '國境警衛隊隊員', ''),
+(30888, '國境警衛隊隊員', ''),
+(30889, '國境警衛隊隊員', ''),
+(30890, '伊斯本', '商人'),
+(30891, '貝羅拿', '商人'),
+(30892, '伊培倫', '商人'),
+(30893, '斐義', '商人'),
+(30894, '拿突士', '倉庫管理員老闆'),
+(30895, '克魯克', '倉庫管理員'),
+(30896, '米亞', '倉庫管理員'),
+(30897, '羅曼', '鐵匠師傅'),
+(30898, '夢妮', '鐵匠'),
+(30899, '朋勞恩', '守門人'),
+(30900, '瑪古斯', '宗師'),
+(30901, '亞提', '大師'),
+(30902, '喀魯拉', '大師'),
+(30903, '特拉伍斯', '大師'),
+(30904, '納伊歐', '大師'),
+(30905, '史古拉里', '大神官'),
+(30906, '朗銅', '神官'),
+(30907, '米那比亞', '教師'),
+(30908, '塔里歐斯', '神官'),
+(30909, '亞拿貝', '教師'),
+(30910, '薩伊拉肯', '宗師'),
+(30911, '畢羅古司', '大師'),
+(30912, '札諾比雅', '教師'),
+(30913, '達茲固', '大團長'),
+(30914, '索柏', '軍長'),
+(30915, '塔齊拉', '預言者'),
+(30916, '茍斯達', '警衛隊長'),
+(30917, '督披士', '警衛'),
+(30918, '肯特', '警衛'),
+(30919, '羅迪', '警衛'),
+(30920, '考萊森', '警衛'),
+(30921, '帝摩思', '警衛'),
+(30922, '克己', '警衛'),
+(30923, '盾斯特', '警衛'),
+(30924, '那迪', '碼頭管理員'),
+(30925, '莫列霖', '伊娃的大祭司'),
+(30926, '雷斯提那', '伊娃的祭司'),
+(30927, '爾里西亞', '伊娃的祭司'),
+(30928, '芬斯特', '傭兵'),
+(30929, '帕特林', '古董商人'),
+(30930, '羅遣', '古董鑑定人'),
+(30931, '本特列', ''),
+(30932, '本尼卡', ''),
+(30933, '布拉齊', ''),
+(30934, '瑪夏', '收藏家'),
+(30935, '突倫平', '收藏家'),
+(30936, '瑪爾勘', '青蛙王子'),
+(30937, '瑪爾勘', '野豬王子'),
+(30938, '瑪爾勘', '獸人王子'),
+(30939, '瑪爾勘', '黑暗王子'),
+(30940, '瑪爾勘', '葛林王子'),
+(30941, '瑪爾勘', '野獸王子'),
+(30942, '瑪爾勘', '怪物王子'),
+(30943, '瑪爾勘', '兔王子'),
+(30944, '瑪爾勘', '人類王子'),
+(30945, '瑪爾勘', '王子'),
+(30946, '魯西安內 坦佛爾德', ''),
+(30947, '雷莉琪亞', ''),
+(30948, '梅里迪恩', ''),
+(30949, '凱普龍', '調查員'),
+(30950, '優克萊', '調查員'),
+(30951, '匹德岡', '調查員'),
+(30952, '因次界點', ''),
+(30953, '因次界點', ''),
+(30954, '因次界點', ''),
+(30955, '吉爾黎恩的亡靈', ''),
+(30956, '娜娜琳', '音樂家'),
+(30957, '史汪', '吟遊詩人'),
+(30958, '克里恩', ''),
+(30959, '巴爾巴杜', '音樂家'),
+(30960, '啤酒箱子', ''),
+(30961, '衣服箱子', ''),
+(30962, '水的石像', ''),
+(30963, '火的石像', ''),
+(30964, '風的石像', ''),
+(30965, '土的石像', ''),
+(30966, '黑暗的石像', ''),
+(30967, '光的石像', ''),
+(30968, '甄妮佛', '半獸人淑女'),
+(30969, '艾森海內', ''),
+(30970, '桃樂絲', '鎖匠'),
+(30971, '奧爾菲司', '瘋狂博士'),
+(30972, '復活裝置', ''),
+(30973, '靈媒的甕', ''),
+(30974, '奧利佛', '復活冒險者'),
+(30975, '柯爾林諾', '復活冒險者'),
+(30976, '復活的村莊少女', ''),
+(30977, '祕密的聖櫃', ''),
+(30978, '祕密的聖櫃', ''),
+(30979, '祕密的聖櫃', ''),
+(30980, '聖櫃守護者的屍體', ''),
+(30981, '黑色審判者', ''),
+(30982, '沉睡幼蟻', ''),
+(30983, '沉睡幼蟻', ''),
+(30984, '沉睡幼蟻', ''),
+(30985, '沉睡幼蟻', ''),
+(30986, '沉睡幼蟻', ''),
+(30987, '沉睡幼蟻', ''),
+(30988, '柏爾斯', '皮匠'),
+(30989, '畢佛隆的箱子', ''),
+(30990, '售票員', ''),
+(30991, '售票員', ''),
+(30992, '售票員', ''),
+(30993, '售票員', ''),
+(30994, '售票員', ''),
+(30995, '競賽管理員', ''),
+(31001, '克勞迪雅 亞太法特', ''),
+(31002, '里澳林', '巨匠'),
+(31003, '來來貓', ''),
+(31004, '半月貓', ''),
+(31005, '永久機關', ''),
+(31006, '月陰', ''),
+(31007, '風之騎士', ''),
+(31008, '流星', ''),
+(31009, '旋風之雷', ''),
+(31010, '飢渴寶貝', ''),
+(31011, '醉犬', ''),
+(31012, '革命貓', ''),
+(31013, '情人之藍', ''),
+(31014, '照亮人生', ''),
+(31015, '紅色子彈', ''),
+(31016, '閃銀', ''),
+(31017, '超越顛峰', ''),
+(31018, '同花順', ''),
+(31019, '幸運七號', ''),
+(31020, '惡意樹精', ''),
+(31021, '偷跑哥布林', ''),
+(31022, '颱風虎', ''),
+(31023, '赤色爆熱', ''),
+(31024, '銀河鐵道', ''),
+(31025, '最佳狀態', ''),
+(31026, '信天翁', ''),
+(31027, '死神棺材', ''),
+(31028, '柯爾能的箱子', ''),
+(31029, '勾爾昆達的箱子', ''),
+(31030, '哈勒特的箱子', ''),
+(31031, '瞭望水晶', ''),
+(31032, '警衛', ''),
+(31033, '哨兵', ''),
+(31034, '哨兵', ''),
+(31035, '守護者', ''),
+(31036, '百人隊長', ''),
+(31042, '卡塔畢諾', '音樂巨匠'),
+(31043, '預塔比亞', '音樂巨匠'),
+(31044, '蓋曼', '峽谷商人'),
+(31045, '基茲卡', '峽谷商人'),
+(31046, '馬斯登', '紋章製造人'),
+(31047, '克利', '紋章製造人'),
+(31048, '馬克摩特', '紋章製造人'),
+(31049, '佩佩', '紋章製造人'),
+(31050, '道拉', '紋章製造人'),
+(31051, '蓋琪', '紋章製造人'),
+(31052, '海特', '紋章製造人'),
+(31053, '基德', '紋章製造人'),
+(31067, '路德', '寵物管理員'),
+(31074, '胡塔庫的屍體', ''),
+(31075, '象牙塔的商人貓', ''),
+(31076, '初學者嚮導', ''),
+(31077, '初學者嚮導', ''),
+(31078, '黎明的祭司', ''),
+(31079, '黎明的祭司', ''),
+(31080, '黎明的祭司', ''),
+(31081, '黎明的祭司', ''),
+(31082, '黎明的祭司', ''),
+(31083, '黎明的祭司', ''),
+(31084, '黎明的祭司', ''),
+(31085, '黃昏的祭司', ''),
+(31086, '黃昏的祭司', ''),
+(31087, '黃昏的祭司', ''),
+(31088, '黃昏的祭司', ''),
+(31089, '黃昏的祭司', ''),
+(31090, '黃昏的祭司', ''),
+(31091, '黃昏的祭司', ''),
+(31092, '財富的地下商人', ''),
+(31093, '吶喊滅亡的人', ''),
+(31094, '道破啟示的人', ''),
+(31095, '廟塔守門人', ''),
+(31096, '廟塔守門人', ''),
+(31097, '廟塔守門人', ''),
+(31098, '廟塔守門人', ''),
+(31099, '廟塔守門人', ''),
+(31100, '廟塔守門人', ''),
+(31101, '廟塔守門人', ''),
+(31102, '廟塔守門人', ''),
+(31103, '廟塔守門人', ''),
+(31104, '廟塔守門人', ''),
+(31105, '廟塔守門人', ''),
+(31106, '廟塔守門人', ''),
+(31107, '廟塔守門人', ''),
+(31108, '廟塔守門人', ''),
+(31109, '廟塔守門人', ''),
+(31110, '廟塔守門人', ''),
+(31111, '靈魂守門人', ''),
+(31112, '靈魂守門人', ''),
+(31113, '財富的商人', ''),
+(31114, '廟塔守門人', ''),
+(31115, '廟塔守門人', ''),
+(31116, '廟塔守門人', ''),
+(31117, '廟塔守門人', ''),
+(31118, '廟塔守門人', ''),
+(31119, '廟塔守門人', ''),
+(31120, '廟塔守門人', ''),
+(31121, '廟塔守門人', ''),
+(31122, '廟塔守門人', ''),
+(31123, '廟塔守門人', ''),
+(31124, '廟塔守門人', ''),
+(31125, '廟塔守門人', ''),
+(31126, '財富的鐵匠', ''),
+(31127, '祭典的引導者', '未滿32級'),
+(31128, '祭典的引導者', '未滿43級'),
+(31129, '祭典的引導者', '未滿54級'),
+(31130, '祭典的引導者', '未滿65級'),
+(31131, '祭典的引導者', '無限制'),
+(31132, '祭典的巫女', ''),
+(31133, '祭典的巫女', ''),
+(31134, '祭典的巫女', ''),
+(31135, '祭典的巫女', ''),
+(31136, '祭典的巫女', ''),
+(31137, '祭典的引導者', '未滿32級'),
+(31138, '祭典的引導者', '未滿43級'),
+(31139, '祭典的引導者', '未滿54級'),
+(31140, '祭典的引導者', '未滿65級'),
+(31141, '祭典的引導者', '無限制'),
+(31142, '祭典的巫女', ''),
+(31143, '祭典的巫女', ''),
+(31144, '祭典的巫女', ''),
+(31145, '祭典的巫女', ''),
+(31146, '祭典的巫女', ''),
+(31147, '蕭伯霖', '首席調查員'),
+(31148, '海盜的寶箱', ''),
+(31149, '混合材料用的缸', ''),
+(31168, '黎明的祭司', ''),
+(31169, '黃昏的祭司', ''),
+(31170, '黎明的紋章', ''),
+(31171, '黃昏的紋章', ''),
+(31172, '吶喊滅亡的人', ''),
+(31173, '道破啟示的人', ''),
+(31174, '吶喊滅亡的人', ''),
+(31175, '道破啟示的人', ''),
+(31176, '吶喊滅亡的人', ''),
+(31177, '道破啟示的人', ''),
+(31178, '吶喊滅亡的人', ''),
+(31179, '道破啟示的人', ''),
+(31180, '吶喊滅亡的人', ''),
+(31181, '道破啟示的人', ''),
+(31182, '吶喊滅亡的人', ''),
+(31183, '道破啟示的人', ''),
+(31184, '吶喊滅亡的人', ''),
+(31185, '道破啟示的人', ''),
+(31186, '吶喊滅亡的人', ''),
+(31187, '道破啟示的人', ''),
+(31188, '吶喊滅亡的人', ''),
+(31189, '道破啟示的人', ''),
+(31190, '吶喊滅亡的人', ''),
+(31191, '道破啟示的人', ''),
+(31192, '吶喊滅亡的人', ''),
+(31193, '道破啟示的人', ''),
+(31194, '吶喊滅亡的人', ''),
+(31195, '道破啟示的人', ''),
+(31196, '吶喊滅亡的人', ''),
+(31197, '道破啟示的人', ''),
+(31198, '吶喊滅亡的人', ''),
+(31199, '道破啟示的人', ''),
+(31200, '吶喊滅亡的人', ''),
+(31201, '道破啟示的人', ''),
+(31202, '瑪希穆斯', ''),
+(31203, '穆典瑟', ''),
+(31204, '喬魯喬', ''),
+(31205, '卡姿', ''),
+(31206, '天天', ''),
+(31207, '瑟魯帝尼亞', ''),
+(31208, '拉克蘭久', ''),
+(31209, '米斯提雷', ''),
+(31210, '競賽場守門人', ''),
+(31211, '競賽場幫手', ''),
+(31212, '活動守門人', ''),
+(31213, '活動守門人', ''),
+(31214, '活動守門人', ''),
+(31215, '活動守門人', ''),
+(31216, '活動守門人', ''),
+(31217, '活動守門人', ''),
+(31218, '活動守門人', ''),
+(31219, '活動守門人', ''),
+(31220, '活動守門人', ''),
+(31221, '活動守門人', ''),
+(31222, '活動守門人', ''),
+(31223, '活動守門人', ''),
+(31224, '活動守門人', ''),
+(31225, '競技場管理員', ''),
+(31226, '競技場監察官', ''),
+(31227, '普斯貓', '活動執行者'),
+(31228, '羅伊貓', '活動執行者'),
+(31229, '薇妮貓', '活動執行者'),
+(31230, '路易貓', '活動執行者'),
+(31231, '吶喊滅亡的人', ''),
+(31232, '吶喊滅亡的人', ''),
+(31233, '吶喊滅亡的人', ''),
+(31234, '吶喊滅亡的人', ''),
+(31235, '吶喊滅亡的人', ''),
+(31236, '吶喊滅亡的人', ''),
+(31237, '吶喊滅亡的人', ''),
+(31238, '吶喊滅亡的人', ''),
+(31239, '吶喊滅亡的人', ''),
+(31240, '吶喊滅亡的人', ''),
+(31241, '吶喊滅亡的人', ''),
+(31242, '吶喊滅亡的人', ''),
+(31243, '吶喊滅亡的人', ''),
+(31244, '吶喊滅亡的人', ''),
+(31245, '吶喊滅亡的人', ''),
+(31246, '吶喊滅亡的人', ''),
+(31247, '道破啟示的人', ''),
+(31248, '道破啟示的人', ''),
+(31249, '道破啟示的人', ''),
+(31250, '道破啟示的人', ''),
+(31251, '道破啟示的人', ''),
+(31252, '道破啟示的人', ''),
+(31253, '道破啟示的人', ''),
+(31254, '道破啟示的人', ''),
+(31255, '普斯貓', '活動執行者'),
+(31256, '雷恩', '商人'),
+(31257, '費蘿妮卡', '商人'),
+(31258, '哈姆特', '商人'),
+(31259, '珍妮', '商人'),
+(31260, '優蒂絲', '商人'),
+(31261, '雷妮', '商人'),
+(31262, '魯貝特', '商人'),
+(31263, '莉潔', '商人'),
+(31264, '歐伊森', '紋章製造人'),
+(31265, '安涅特', '寵物管理員'),
+(31266, '凱薩', ''),
+(31267, '莉雅塔', '倉庫管理員'),
+(31268, '哈昆', '倉庫管理員'),
+(31269, '夢娜', '倉庫管理員老闆'),
+(31270, '斯特法尼', '倉庫管理員'),
+(31271, '希爾達', '鐵匠'),
+(31272, '諾爾', '鐵匠師傅'),
+(31273, '波洛迪', '設計圖商人'),
+(31274, '方汀', '礦物商人'),
+(31275, '塔蒂雅娜', '守門人'),
+(31276, '培倫海特', '宗師'),
+(31277, '菲利克斯', '大師'),
+(31278, '伯朗因', '大師'),
+(31279, '葛萊高爾', '大神官'),
+(31280, '法斯迪安', '神官'),
+(31281, '瑟拉尼斯', '神官'),
+(31282, '傑斯提', '教師'),
+(31283, '艾爾米那斯', '教師'),
+(31284, '艾蓮娜', '魔法書商人'),
+(31285, '思馬艾', '宗師'),
+(31286, '卓拉昆', '大師'),
+(31287, '卡玫崙', '教師'),
+(31288, '阿科蘭', '大團長'),
+(31289, '拉肯', '團長'),
+(31290, '史卡西', '預言者'),
+(31291, '特瑞芭', '護身符商人'),
+(31292, '安德烈', '警衛隊長'),
+(31293, '昆特', '警衛'),
+(31294, '史班', '警衛'),
+(31295, '海瑞克', '警衛'),
+(31296, '凱德曼', '警衛'),
+(31297, '貝爾德', '警衛'),
+(31298, '烏利奇', '警衛'),
+(31299, '尤根', '警衛'),
+(31300, '杜魯曼德', '商人'),
+(31301, '尼爾斯', '商人'),
+(31302, '布拉底米爾', '商人'),
+(31303, '艾麗莎', '商人'),
+(31304, '亞絲特莉德', '商人'),
+(31305, '坎蒂絲', '商人'),
+(31306, '娜塔莎', '商人'),
+(31307, '貝布', '商人'),
+(31308, '亞奇姆', '紋章製造人'),
+(31309, '伍茲', '寵物管理員'),
+(31310, '拉菲爾', ''),
+(31311, '修金', '倉庫管理員'),
+(31312, '多琳', '倉庫管理員'),
+(31313, '路寧', '倉庫管理員'),
+(31314, '多那爾', '倉庫管理員老闆'),
+(31315, '黛姬', '倉庫管理員'),
+(31316, '賓森斯', '鐵匠'),
+(31317, '侖貝特', '鐵匠師傅'),
+(31318, '葛麗塔', '設計圖商人'),
+(31319, '韓斯', '礦物商人'),
+(31320, '以利亞娜', '守門人'),
+(31321, '齊格曼特', '宗師'),
+(31322, '亞力安', '大師'),
+(31323, '薇琳', '大師'),
+(31324, '安杜露美達', '宗師'),
+(31325, '緹米絲', '大師'),
+(31326, '藍巴克', '大團長'),
+(31327, '塔斯克', '團長'),
+(31328, '伊諾珊蒂', '大神官'),
+(31329, '艾爾黎亞', '神官'),
+(31330, '華格納', '神官'),
+(31331, '巴爾迪斯', '大巫師'),
+(31332, '亞梅莉雅', '教師'),
+(31333, '魯米爾', '教師'),
+(31334, '帝法琳', '大巫師'),
+(31335, '凱言', '教師'),
+(31336, '拉荷拉各提', '大預言者'),
+(31337, '梅卡拉', '預言者'),
+(31338, '安同', '魔法書商人'),
+(31339, '哈克藍', '護身符商人'),
+(31340, '瑪帝亞斯', '警衛隊長'),
+(31341, '瑞特', '警衛'),
+(31342, '戴米特里', '警衛'),
+(31343, '貝洛德', '警衛'),
+(31344, '修密特', '警衛'),
+(31345, '伊安', '警衛'),
+(31346, '西瑞斯', '警衛'),
+(31347, '巴克', '警衛'),
+(31348, '阿格利貝爾', '大神官'),
+(31349, '貝拿帝克', '神官'),
+(31350, '多明尼克', '神官'),
+(31351, '波卡', '碼頭管理員'),
+(31356, '雷米', '使者'),
+(31357, '萊安德路', '書記官'),
+(31358, '卡斯爾', '吟遊詩人'),
+(31359, '傑洛迪', '世界樹守護者'),
+(31360, '艾爾海娜', '長老代理人'),
+(31361, '克里德', '長老執行者'),
+(31362, '泰特', '使者'),
+(31363, '洛金', '信使'),
+(31364, '洛卡', '炎之守護者'),
+(31365, '亞康德', '炎之守護者'),
+(31366, '飼料販賣者', ''),
+(31367, '輝煌的呼聲', ''),
+(31368, '彌克蘭', '沉默修道士'),
+(31369, '梅農', '沉默修道士'),
+(31370, '卡頓 蘇 肯特拉', '長老'),
+(31371, '瓦康', '肯特拉傳令'),
+(31372, '亞瑟法', '魂靈引導者'),
+(31373, '亞坦', '雜貨商人'),
+(31374, '賈夫', '倉庫管理員'),
+(31375, '裘瑪拉', '商人'),
+(31376, '克魯法', '守門人'),
+(31377, '阿夏斯 巴瑞卡 杜萊伊', '長老'),
+(31378, '那朗 阿夏努克', '巴瑞卡傳令'),
+(31379, '烏丹 瑪雷杜伊', '魂靈引導者'),
+(31380, '迪亞布', '雜貨商人'),
+(31381, '哈格司', '倉庫管理員'),
+(31382, '席康', '商人'),
+(31383, '泰拉努 瑪雷杜伊', '守門人'),
+(31384, '火龍的守門人', ''),
+(31385, '火山的心臟', ''),
+(31386, '薇爾蕾特', '商人'),
+(31387, '克絲緹', ''),
+(31388, '米娜', ''),
+(31389, '多里安', ''),
+(31390, '模型-A', 'CH4測試'),
+(31391, '模型-B', 'CH4測試'),
+(31392, '模型-C', 'CH4測試'),
+(31393, '模型-D', 'CH4測試'),
+(31394, '模型-E', 'CH4測試'),
+(31395, '模型-F', 'CH4測試'),
+(31396, '模型-G', 'CH4測試'),
+(31397, '模型-H', 'CH4測試'),
+(31398, '模型-I', 'CH4測試'),
+(31399, '模型-J', 'CH4測試'),
+(31400, '模型-刀警衛', 'CH4測試'),
+(31401, '模型-弓警衛', 'CH4測試'),
+(31404, '怪物競賽服務員', '古魯丁城鎮'),
+(31405, '怪物競賽服務員', '狄恩城鎮'),
+(31406, '怪物競賽服務員', '奇岩城鎮'),
+(31407, '怪物競賽服務員', '海音斯'),
+(31408, '怪物競賽服務員', '歐瑞城鎮'),
+(31409, '怪物競賽服務員', '獵人村莊'),
+(31410, '怪物競賽服務員', '亞丁城鎮'),
+(31411, '怪物競賽服務員', '高達特城鎮'),
+(31412, '怪物競賽服務員', '魯因城鎮'),
+(31413, '安朵妮歐', '魔法書商人'),
+(31414, '琳', '魔法書商人'),
+(31415, '蒂麗雅', '魔法書商人'),
+(31416, '亞崙', '魔法書商人'),
+(31417, '巴里諾', '魔法書商人'),
+(31418, '洛克', '魔法書商人'),
+(31419, '羅萊爾', '魔法書商人'),
+(31420, '多馬尼爾', '魔法書商人'),
+(31421, '拉蒂莉亞', '魔法書商人'),
+(31422, '米凱爾', '魔法書商人'),
+(31423, '羅馬斯', '魔法書商人'),
+(31424, '珊塔拉', '護身符商人'),
+(31425, '柯蘭', '護身符商人'),
+(31426, '加卡', '護身符商人'),
+(31427, '烏爾戈', '護身符商人'),
+(31428, '夏芭', '護身符商人'),
+(31429, '希塔拉', '護身符商人'),
+(31430, '多納伊', '護身符商人'),
+(31431, '卡萊', '護身符商人'),
+(31432, '莉雅', '設計圖商人'),
+(31433, '羅納多', '設計圖商人'),
+(31434, '薩琳', '設計圖商人'),
+(31435, '迪格', '設計圖商人'),
+(31436, '塔妮', '設計圖商人'),
+(31437, '魯卡', '設計圖商人'),
+(31438, '拉拉', '設計圖商人'),
+(31439, '羅根', '礦物商人'),
+(31440, '拉娜', '礦物商人'),
+(31441, '佐爾杜', '礦物商人'),
+(31442, '琪琪', '礦物商人'),
+(31443, '拉班', '礦物商人'),
+(31444, '柯娜', '礦物商人'),
+(31445, '修特那', '礦物商人'),
+(31452, '威格特的亡靈', ''),
+(31453, '無名的靈魂', ''),
+(31454, '威格特的亡靈', ''),
+(31455, '鑰匙箱子', ''),
+(31456, '鑰匙箱子', ''),
+(31457, '鑰匙箱子', ''),
+(31458, '鑰匙箱子', ''),
+(31459, '鑰匙箱子', ''),
+(31460, '鑰匙箱子', ''),
+(31461, '鑰匙箱子', ''),
+(31462, '鑰匙箱子', ''),
+(31463, '鑰匙箱子', ''),
+(31464, '鑰匙箱子', ''),
+(31465, '鑰匙箱子', ''),
+(31466, '鑰匙箱子', ''),
+(31467, '鑰匙箱子', ''),
+(31468, '謎樣的箱子', ''),
+(31469, '謎樣的箱子', ''),
+(31470, '謎樣的箱子', ''),
+(31471, '謎樣的箱子', ''),
+(31472, '謎樣的箱子', ''),
+(31473, '謎樣的箱子', ''),
+(31474, '謎樣的箱子', ''),
+(31475, '謎樣的箱子', ''),
+(31476, '謎樣的箱子', ''),
+(31477, '謎樣的箱子', ''),
+(31478, '謎樣的箱子', ''),
+(31479, '謎樣的箱子', ''),
+(31480, '謎樣的箱子', ''),
+(31481, '謎樣的箱子', ''),
+(31482, '謎樣的箱子', ''),
+(31483, '謎樣的箱子', ''),
+(31484, '謎樣的箱子', ''),
+(31485, '謎樣的箱子', ''),
+(31486, '謎樣的箱子', ''),
+(31487, '謎樣的箱子', ''),
+(31488, '裂痕守備隊新兵', ''),
+(31489, '裂痕守備隊士兵', ''),
+(31490, '裂痕守備隊士官', ''),
+(31491, '裂痕守備隊軍官', ''),
+(31492, '裂痕守備隊司令官', ''),
+(31493, '裂痕守備隊英雄', ''),
+(31494, '次元裂痕守門人', ''),
+(31495, '次元裂痕守門人', ''),
+(31496, '次元裂痕守門人', ''),
+(31497, '次元裂痕守門人', ''),
+(31498, '次元裂痕守門人', ''),
+(31499, '次元裂痕守門人', ''),
+(31500, '次元裂痕守門人', ''),
+(31501, '次元裂痕守門人', ''),
+(31502, '次元裂痕守門人', ''),
+(31503, '次元裂痕守門人', ''),
+(31504, '次元裂痕守門人', ''),
+(31505, '次元裂痕守門人', ''),
+(31506, '次元裂痕守門人', ''),
+(31507, '次元裂痕守門人', ''),
+(31508, '聖潔的祭壇', ''),
+(31509, '聖潔的祭壇', ''),
+(31510, '聖潔的祭壇', ''),
+(31511, '聖潔的祭壇', ''),
+(31512, '邪惡的祭壇', ''),
+(31513, '邪惡的祭壇', ''),
+(31514, '邪惡的祭壇', ''),
+(31515, '邪惡的祭壇', ''),
+(31516, '邪惡的祭壇', ''),
+(31517, '長者', ''),
+(31518, '謎樣的死靈法師', ''),
+(31519, '陵墓', ''),
+(31520, '蕾卡兒', '女僕'),
+(31521, '傑瑞米', '大廚師'),
+(31522, '謎樣的魔法師', ''),
+(31523, '墓碑', ''),
+(31524, '哈曼的亡靈', ''),
+(31525, '哈曼侍從的亡靈', ''),
+(31526, '壞掉的書架', ''),
+(31527, '井', ''),
+(31528, '神官的亡靈', ''),
+(31529, '冒險家的亡靈', ''),
+(31530, '箱子', ''),
+(31531, '墓碑', ''),
+(31532, '莉迪亞的侍女', ''),
+(31533, '壞掉的書架', ''),
+(31534, '壞掉的書架', ''),
+(31535, '壞掉的書架', ''),
+(31536, '棺', ''),
+(31537, '圖那坦', '放牧場管理員'),
+(31538, '探險家的亡靈', ''),
+(31539, '沃爾昆', '炎之鐵匠'),
+(31540, '克雷因', '巴拉卡斯的監視者'),
+(31541, '百眼的祭壇', ''),
+(31542, '雪人的餐桌', ''),
+(31543, '普琳', ''),
+(31544, '那夫', ''),
+(31545, '克洛克斯', ''),
+(31546, '克布爾', ''),
+(31547, '貝爾琳', ''),
+(31548, '謎樣的古代石板', ''),
+(31549, '謎樣的古代石板', ''),
+(31550, '謎樣的古代石板', ''),
+(31551, '謎樣的古代石板', ''),
+(31552, '謎樣的古代石板', ''),
+(31553, '比斯', '傭兵隊長'),
+(31554, '卡姆恩', '傭兵'),
+(31555, '亞柏克隆比', '傭兵隊補給兵'),
+(31556, '瑟麗娜', '傭兵隊醫務兵'),
+(31557, '傭兵隊哨兵', ''),
+(31558, '肯特拉聖壇', ''),
+(31559, '亞瑟法的箱子', ''),
+(31560, '巴瑞卡聖壇', ''),
+(31561, '烏丹 瑪雷杜伊的箱子', ''),
+(31562, '克路夫', '釣魚會員'),
+(31563, '貝瑞琳', '釣魚會員'),
+(31564, '米敘尼', '釣魚會員'),
+(31565, '歐格德', '釣魚會員'),
+(31566, '羅皮', '釣魚會員'),
+(31567, '布利格', '釣魚會員'),
+(31568, '帕富斯', '釣魚會員'),
+(31569, '沙諾', '釣魚會員'),
+(31570, '雷諾斯科', '釣魚會員'),
+(31571, '福斯', '釣魚會員'),
+(31572, '歐福雷', '釣魚會員'),
+(31573, '莫納康', '釣魚會員'),
+(31574, '威樂利', '釣魚會員'),
+(31575, '利杜隆', '釣魚會員'),
+(31576, '貝利克斯', '釣魚會員'),
+(31577, '里奈歐斯', '釣魚會員'),
+(31578, '海根道夫', '釣魚會員'),
+(31579, '克勞', '釣魚會員'),
+(31580, '葛拉德利特', '大師'),
+(31581, '安娜絲緹雅', '教師'),
+(31582, '瑪德雷特', '黑暗騎士'),
+(31583, '菲因', '鐵匠'),
+(31584, '瓦倫丁', '釀酒者'),
+(31585, '斯帕奇貓', '奇茲的使魔'),
+(31586, '斯帕奇貓', '奇茲的使魔'),
+(31587, '吉德利克', '寶石加工者'),
+(31588, '阿格擬斯', '光之聖女'),
+(31589, '都達瑪拉圖騰靈', ''),
+(31590, '真實的探求者 帝凡安諾 ', ''),
+(31591, '晚霞的引導者 魯娜', ''),
+(31592, '泰爾桑', '首席高崙工匠'),
+(31593, '達羅斯', '泰爾桑的高崙'),
+(31594, '蒙德', '首席監察員'),
+(31595, '黎歐納 布拉克巴德', ''),
+(31596, '托寶德', '大師'),
+(31597, '托寶德', '大師'),
+(31598, '美狄娜 布拉克哈特', ''),
+(31599, '污名騎士 巴爾提斯汀', ''),
+(31600, '潘蜜拉 阿芙羅蒂雅', ''),
+(31601, '潘蜜拉 阿芙羅蒂雅', ''),
+(31602, '夏蘿娜 阿爾緹蜜雅', '保鏢'),
+(31603, '布拉克凱特', '獵人公會會員'),
+(31604, '葛林斯特', '情報販子'),
+(31605, '金斯雷', '高等元素使'),
+(31606, '艾麗絲 蒂 凱特琳娜', '金斯雷的使魔'),
+(31607, '夏克頓 蘇 黑斯吐伊', ''),
+(31608, '蓓琳達', '元素使'),
+(31609, '獨角獸歐若拉', '蓓琳達的使魔'),
+(31610, '席肯 古倫杜雷克', ''),
+(31611, '史魁德 哈特希克爾', ''),
+(31612, '永遠的流浪者 史坦瑞斯 ', ''),
+(31613, '諾提斯', '元素使'),
+(31614, '拉帝斯', '高等元素使'),
+(31615, '隱者', ''),
+(31616, '隱者', ''),
+(31617, '亞利亞 波斯特麥特', ''),
+(31618, '月之歌 艾琳', ''),
+(31619, '艾瑞卡 肯 偉柏', ''),
+(31620, '新綠的賢者 耶里吉亞', ''),
+(31621, '深淵的聖女 艾卡迪雅', ''),
+(31622, '奇茲', '受詛咒的元素使'),
+(31623, '巴瓦琳', '情報販子'),
+(31624, '多拿斯', '料理名人'),
+(31625, '雪人', '多拿斯的料理助手'),
+(31626, '頓欽', '廚師'),
+(31627, '密斯托', '情報販子'),
+(31628, '麗露', '密斯托的孫女'),
+(31629, '獨角獸 卡雷多司', ''),
+(31630, '獨角獸 卡雷多司', ''),
+(31631, '艾力克 蘭斯哈特', ''),
+(31632, '謎樣的使魔', ''),
+(31633, '冬之獵者 凱迪斯', ''),
+(31634, '冬之獵者 凱迪斯', ''),
+(31635, '冬之獵者 凱迪斯', ''),
+(31636, '炎之傳承者 亞肯', ''),
+(31637, '卡巴塔里 卡修', ''),
+(31638, '星光騎士 卡斯提', ''),
+(31639, '卡因  班 胡爾特', ''),
+(31640, '黑暗的巡禮者', ''),
+(31641, '黑暗的巡禮者', ''),
+(31642, '塔爾卡依 蘇 都達瑪拉', ''),
+(31643, '白銀 費沙', ''),
+(31644, '黎明的見證 佛蘭茲 ', ''),
+(31645, '音德米斯  楚拜斯', ''),
+(31646, '祕傳的石板', ''),
+(31647, '祕傳的石板', ''),
+(31648, '祕傳的石板', ''),
+(31649, '祕傳的石板', ''),
+(31650, '祕傳的石板', ''),
+(31651, '祕傳的石板', ''),
+(31652, '祕傳的石板', ''),
+(31653, '祕傳的石板', ''),
+(31654, '祕傳的石板', ''),
+(31655, '祕傳的石板', ''),
+(31656, '祕傳的石板', ''),
+(31657, '祕傳的石板', ''),
+(31658, '祕傳的石板', ''),
+(31659, '祕傳的石板', ''),
+(31660, '祕傳的石板', ''),
+(31661, '被遺忘的紀念碑', ''),
+(31662, '被遺忘的紀念碑', ''),
+(31663, '被遺忘的紀念碑', ''),
+(31664, '被遺忘的紀念碑', ''),
+(31665, '矮人的屍體', ''),
+(31666, '魯門', '魔法書商人'),
+(31667, '萊伊克', '護身符商人'),
+(31668, '唐干', '設計圖商人'),
+(31669, '歐尼克斯', '礦物商人'),
+(31670, '邦斯', '魔法書商人'),
+(31671, '巡邏兵', ''),
+(31672, '巡邏兵', ''),
+(31673, '巡邏兵', ''),
+(31674, '巡邏兵', ''),
+(31675, '維克特 馮 德伊克', '國境守備隊隊長'),
+(31676, '葛萊高爾 亞太法特', '國境守備隊隊長'),
+(31677, '國境守備隊員', ''),
+(31678, '國境守備隊員', ''),
+(31679, '尤斯特斯 馮 伊森', '邊境警衛隊隊長'),
+(31680, '菲爾鳴 馮 伊森', '邊境警衛隊隊長'),
+(31681, '邊境警衛隊員', ''),
+(31682, '邊境警衛隊員', ''),
+(31683, '亞爾古斯之眼', ''),
+(31684, '烏丹 瑪雷杜伊之眼', ''),
+(31685, '亞瑟法之眼', ''),
+(31686, '火龍的守門人', ''),
+(31687, '火龍的守門人', ''),
+(31688, '奧林匹亞管理者', ''),
+(31689, '奧林匹亞終止者', ''),
+(31690, '英雄紀念塔', ''),
+(31691, '訓練用草人', ''),
+(31692, '黎明的祭司', ''),
+(31693, '黃昏的祭司', ''),
+(31694, '黎明的祭司', ''),
+(31695, '黃昏的祭司', ''),
+(31696, '普拉地斯', '釣魚會員'),
+(31697, '因達克那', '釣魚會員'),
+(31698, '亞里莎', '守門人'),
+(31699, '絲塔妮思拉娃', '守門人'),
+(31700, '聖女的隨從', ''),
+(31701, '聖女的隨從', ''),
+(31702, '聖女的隨從', ''),
+(31703, '聖女的隨從', ''),
+(31704, '聖女的隨從', ''),
+(31705, '百眼的惡魔', ''),
+(31706, '米奇貓', ''),
+(31707, '肯特拉先鋒隊士兵', ''),
+(31708, '肯特拉先鋒隊咒術士', ''),
+(31709, '肯特拉先鋒隊軍官', ''),
+(31710, '巴瑞卡突擊隊指揮官', ''),
+(31711, '巴瑞卡突擊隊咒術士', ''),
+(31712, '巴瑞卡突擊兵', ''),
+(31713, '吶喊滅亡的人', ''),
+(31714, '吶喊滅亡的人', ''),
+(31715, '吶喊滅亡的人', ''),
+(31716, '吶喊滅亡的人', ''),
+(31717, '吶喊滅亡的人', ''),
+(31718, '吶喊滅亡的人', ''),
+(31719, '吶喊滅亡的人', ''),
+(31720, '吶喊滅亡的人', ''),
+(31721, '道破啟示的人', ''),
+(31722, '道破啟示的人', ''),
+(31723, '道破啟示的人', ''),
+(31724, '道破啟示的人', ''),
+(31725, '道破啟示的人', ''),
+(31726, '道破啟示的人', ''),
+(31727, '道破啟示的人', ''),
+(31728, '道破啟示的人', ''),
+(31729, '冒險家會員', ''),
+(31730, '冒險家會員', ''),
+(31731, '冒險家會員', ''),
+(31732, '冒險家會員', ''),
+(31733, '冒險家會員', ''),
+(31734, '冒險家會員', ''),
+(31735, '冒險家會員', ''),
+(31736, '冒險家會員', ''),
+(31737, '冒險家會員', ''),
+(31738, '冒險家會員', ''),
+(31739, '塔利恩', ''),
+(31740, '凱拉蒂', ''),
+(31741, '歐夏恩', ''),
+(31742, '維爾吉爾', ''),
+(31743, '卡珊德拉', ''),
+(31744, '歐格瑪', ''),
+(31745, '湖之女子', ''),
+(31746, '倒下的獨角獸', ''),
+(31747, '純白的獨角獸', ''),
+(31748, '束縛的基石', ''),
+(31750, '謎樣的女子', ''),
+(31751, '謎樣的黑騎士', ''),
+(31752, '天使的屍體', ''),
+(31755, '赫拉斯特', '大巫師'),
+(31756, '戰鬥喵喵', '測試伺服器助手'),
+(31757, '皇后喵喵', '測試伺服器助手'),
+(31758, '拉菲', ''),
+(31759, '傳送晶體', ''),
+(31760, '皇后喵喵', '冒險助手'),
+(31761, '皇后喵喵', '冒險助手'),
+(31762, '皇后喵喵', '冒險助手'),
+(31763, '皇后喵喵', '冒險助手'),
+(31764, '皇后喵喵', '冒險助手'),
+(31765, '皇后喵喵', '冒險助手'),
+(31766, '皇后喵喵', '冒險助手'),
+(31767, '活動守門人', ''),
+(31768, '活動守門人', ''),
+(31769, '英雄紀念塔', ''),
+(31770, '英雄紀念塔', ''),
+(31771, '英雄紀念塔', ''),
+(31772, '英雄紀念塔', ''),
+(31773, '桑寧', '倉庫管理員'),
+(31774, '薇琳貓', '活動執行者'),
+(31775, '冒險家會員', ''),
+(31776, '冒險家會員', ''),
+(31777, '冒險家會員', ''),
+(31778, '冒險家會員', ''),
+(31779, '冒險家會員', ''),
+(31780, '冒險家會員', ''),
+(31781, '冒險家會員', ''),
+(31782, '冒險家會員', ''),
+(31783, '冒險家會員', ''),
+(31784, '冒險家會員', ''),
+(31785, '冒險家會員', ''),
+(31786, '冒險家會員', ''),
+(31787, '冒險家會員', ''),
+(31788, '冒險家會員', ''),
+(31789, '冒險家會員', ''),
+(31790, '冒險家會員', ''),
+(31791, '冒險家會員', ''),
+(31792, '冒險家會員', ''),
+(31793, '冒險家會員', ''),
+(31794, '冒險家會員', ''),
+(31795, '冒險家會員', ''),
+(31796, '冒險家會員', ''),
+(31797, '冒險家會員', ''),
+(31798, '冒險家會員', ''),
+(31799, '冒險家會員', ''),
+(31800, '冒險家會員', ''),
+(31801, '冒險家會員', ''),
+(31802, '冒險家會員', ''),
+(31803, '冒險家會員', ''),
+(31804, '冒險家會員', ''),
+(31805, '冒險家會員', ''),
+(31806, '冒險家會員', ''),
+(31807, '冒險家會員', ''),
+(31808, '冒險家會員', ''),
+(31809, '冒險家會員', ''),
+(31810, '冒險家會員', ''),
+(31811, '冒險家會員', ''),
+(31812, '冒險家會員', ''),
+(31813, '冒險家會員', ''),
+(31814, '冒險家會員', ''),
+(31815, '冒險家會員', ''),
+(31816, '冒險家會員', ''),
+(31817, '冒險家會員', ''),
+(31818, '冒險家會員', ''),
+(31819, '冒險家會員', ''),
+(31820, '冒險家會員', ''),
+(31821, '冒險家會員', ''),
+(31822, '冒險家會員', ''),
+(31823, '冒險家會員', ''),
+(31824, '冒險家會員', ''),
+(31825, '冒險家會員', ''),
+(31826, '冒險家會員', ''),
+(31827, '冒險家會員', ''),
+(31828, '冒險家會員', ''),
+(31829, '冒險家會員', ''),
+(31830, '冒險家會員', ''),
+(31831, '冒險家會員', ''),
+(31832, '冒險家會員', ''),
+(31833, '冒險家會員', ''),
+(31834, '冒險家會員', ''),
+(31835, '冒險家會員', ''),
+(31836, '冒險家會員', ''),
+(31837, '冒險家會員', ''),
+(31838, '冒險家會員', ''),
+(31839, '冒險家會員', ''),
+(31840, '冒險家會員', ''),
+(31841, '冒險家會員', ''),
+(31842, '傳送晶體', ''),
+(31843, '傳送晶體', ''),
+(31844, '瑞克妮', ''),
+(31845, '血腥小精靈', ''),
+(31846, '黑暗之潘', ''),
+(31847, '潘', ''),
+(31848, '小精靈', ''),
+(31849, '紅色瑞克妮', ''),
+(31850, '安特提米里藍', ''),
+(31851, '安特提米提藍', ''),
+(31852, '小精靈莫妮卡', ''),
+(31853, '安特布麥特藍', ''),
+(31854, '活動管理員', ''),
+(31855, '活動管理員', ''),
+(31856, '活動管理員', ''),
+(31857, '活動管理員', ''),
+(31858, '活動管理員', ''),
+(31859, '傳送晶體', ''),
+(31860, '普斯貓', '活動執行者'),
+(31861, '守門人', ''),
+(31862, '天使界點', ''),
+(31863, '見習聖誕老人', ''),
+(31864, '見習聖誕老人', ''),
+(31865, '禁界的守護者', ''),
+(31866, '禁界的守護者', ''),
+(31867, '禁界的守護者', ''),
+(31868, '禁界的守護者', ''),
+(31869, '禁界的守護者', ''),
+(31870, '禁界的守護者', ''),
+(31871, '禁界的守護者', ''),
+(31872, '禁界的守護者', ''),
+(31873, '禁界的守護者', ''),
+(31874, '禁界的守護者', ''),
+(31875, '禁界的守護者', ''),
+(31876, '禁界的守護者', ''),
+(31877, '禁界的守護者', ''),
+(31878, '禁界的守護者', ''),
+(31879, '禁界的守護者', ''),
+(31880, '禁界的守護者', ''),
+(31881, '禁界的守護者', ''),
+(31882, '禁界的守護者', ''),
+(31883, '禁界的守護者', ''),
+(31884, '禁界的守護者', ''),
+(31885, '禁界的守護者', ''),
+(31886, '禁界的守護者', ''),
+(31887, '禁界的守護者', ''),
+(31888, '禁界的守護者', ''),
+(31889, '禁界的守護者', ''),
+(31890, '禁界的守護者', ''),
+(31891, '禁界的守護者', ''),
+(31892, '禁界的守護者', ''),
+(31893, '禁界的守護者', ''),
+(31894, '禁界的守護者', ''),
+(31895, '禁界的守護者', ''),
+(31896, '禁界的守護者', ''),
+(31897, '禁界的守護者', ''),
+(31898, '禁界的守護者', ''),
+(31899, '禁界的守護者', ''),
+(31900, '禁界的守護者', ''),
+(31901, '禁界的守護者', ''),
+(31902, '禁界的守護者', ''),
+(31903, '禁界的守護者', ''),
+(31904, '禁界的守護者', ''),
+(31905, '禁界的守護者', ''),
+(31906, '禁界的守護者', ''),
+(31907, '禁界的守護者', ''),
+(31908, '禁界的守護者', ''),
+(31909, '禁界的守護者', ''),
+(31910, '禁界的守護者', ''),
+(31911, '禁界的守護者', ''),
+(31912, '禁界的守護者', ''),
+(31913, '禁界的守護者', ''),
+(31914, '禁界的守護者', ''),
+(31915, '禁界的守護者', ''),
+(31916, '禁界的守護者', ''),
+(31917, '禁界的守護者', ''),
+(31918, '禁界的守護者', ''),
+(31919, '艾爾摩亞丁侍衛隊長的亡靈', ''),
+(31920, '艾爾摩亞丁侍衛的亡靈', ''),
+(31921, '征服者陵墓管理員', ''),
+(31922, '統治者陵墓管理員', ''),
+(31923, '大賢者陵墓管理員', ''),
+(31924, '審判者陵墓管理員', ''),
+(31925, '男爵禮拜堂守門人', ''),
+(31926, '子爵禮拜堂守門人', ''),
+(31927, '伯爵禮拜堂守門人', ''),
+(31928, '侯爵禮拜堂守門人', ''),
+(31929, '公爵禮拜堂守門人', ''),
+(31930, '男爵禮拜堂守門人', ''),
+(31931, '子爵禮拜堂守門人', ''),
+(31932, '伯爵禮拜堂守門人', ''),
+(31933, '侯爵禮拜堂守門人', ''),
+(31934, '公爵禮拜堂守門人', ''),
+(31935, '男爵禮拜堂守門人', ''),
+(31936, '子爵禮拜堂守門人', ''),
+(31937, '伯爵禮拜堂守門人', ''),
+(31938, '侯爵禮拜堂守門人', ''),
+(31939, '公爵禮拜堂守門人', ''),
+(31940, '男爵禮拜堂守門人', ''),
+(31941, '子爵禮拜堂守門人', ''),
+(31942, '伯爵禮拜堂守門人', ''),
+(31943, '侯爵禮拜堂守門人', ''),
+(31944, '公爵禮拜堂守門人', ''),
+(31945, '奧森德羅弗', '商人'),
+(31946, '羅布雷', '商人'),
+(31947, '歐瓦金', '商人'),
+(31948, '雅德利安', '商人'),
+(31949, '蘿潔', '商人'),
+(31950, '梅爾蘭', '商人'),
+(31951, '裘潔', '商人'),
+(31952, '芙芙', '商人'),
+(31953, '朗卡', '紋章製造人'),
+(31954, '薩羅亞', '寵物管理員'),
+(31955, '露比', ''),
+(31956, '莉迪', '倉庫管理員'),
+(31957, '傑爾伯', '倉庫管理員'),
+(31958, '雅瑟妮', '倉庫管理員老闆'),
+(31959, '伊克塞爾', '倉庫管理員'),
+(31960, '布莉優', '鐵匠'),
+(31961, '紐耶爾', '鐵匠師傅'),
+(31962, '雅爾達', '設計圖商人'),
+(31963, '希奇', '礦物商人'),
+(31964, '碧莉雅', '守門人'),
+(31965, '海克斯特', '宗師'),
+(31966, '卡拉蒙', '大師'),
+(31967, '伊兒莉妮', '大師'),
+(31968, '巴歐爾', '大神官'),
+(31969, '艾芙琳', '神官'),
+(31970, '希尼斯', '神官'),
+(31971, '奧提立爾', '教師'),
+(31972, '亞特拉希雅', '教師'),
+(31973, '拉赫爾', '魔法書商人'),
+(31974, '德利茲特', '宗師'),
+(31975, '艾利拿', '大師'),
+(31976, '蒂提雅', '教師'),
+(31977, '夏卡', '大團長'),
+(31978, '塔薩爾', '團長'),
+(31979, '茉依拉瑟', '預言者'),
+(31980, '露芭', '護身符商人'),
+(31981, '維沙茲奇', '警衛隊長'),
+(31982, '古崙', '警衛'),
+(31983, '弗利佳', '警衛'),
+(31984, '薛林', '警衛'),
+(31985, '科斯莫斯', '警衛'),
+(31986, '爾斯泰', '警衛'),
+(31987, '高特', '警衛'),
+(31988, '辛加', '警衛'),
+(31989, '巴提代', '釣魚會員'),
+(31990, '希格', '鐵匠'),
+(31991, '冒險家會員', ''),
+(31992, '冒險家會員', ''),
+(31993, '冒險家會員', ''),
+(31994, '冒險家會員', ''),
+(31995, '冒險家會員', ''),
+(31996, '哈布里亞', '大巫師'),
+(31997, '黎明的祭司', ''),
+(31998, '黃昏的祭司', ''),
+(31999, '吶喊滅亡的人', ''),
+(32000, '吶喊滅亡的人', ''),
+(32001, '吶喊滅亡的人', ''),
+(32002, '吶喊滅亡的人', ''),
+(32003, '道破啟示的人', ''),
+(32004, '道破啟示的人', ''),
+(32005, '道破啟示的人', ''),
+(32006, '道破啟示的人', ''),
+(32007, '加爾巴', '釣魚會員'),
+(32008, '格雷莫利', '神官'),
+(32009, '黛芙琳', '褓姆'),
+(32010, '弗羅崙', '神官'),
+(32011, '皇陵引導者', ''),
+(32012, '湯特', '退隱冒險家'),
+(32013, '素琪', '浪漫少女'),
+(32014, '伊凡', '逃家少年'),
+(32015, '偵查兵的屍體', ''),
+(32016, '特蘭多', '烽火臺管理人'),
+(32017, '卡路達', ''),
+(32018, '美紗', ''),
+(32019, '可疑的男子', ''),
+(32020, '雷普利', ''),
+(32021, '冰雕', ''),
+(32022, '凱伊爾', ''),
+(32023, '冰盤', ''),
+(32024, '赫利亞', '血盟商人'),
+(32025, '伊利亞', '血盟商人'),
+(32026, '黑斯吐伊部族的守衛', ''),
+(32027, '神聖的火爐', ''),
+(32028, '聖杯', ''),
+(32029, '芙蕾雅的執事', ''),
+(32030, '庭園的雕像', ''),
+(32031, '冰雪妖精的雕像', ''),
+(32032, '怪異的機械裝置', ''),
+(32033, '卡歐斯博士', ''),
+(32034, '神殿守門人', ''),
+(32035, '神殿守門人', ''),
+(32036, '神殿守門人', ''),
+(32037, '神殿守門人', ''),
+(32038, '犧牲的祭物', ''),
+(32039, '帝雷歐的鏡子', ''),
+(32040, '帝雷歐的鏡子', ''),
+(32041, '由米', '收藏家'),
+(32042, '氣候調節裝置', ''),
+(32043, '氣候調節裝置', ''),
+(32044, '氣候調節裝置', ''),
+(32045, '卡歐斯博士的祕密書架', ''),
+(32046, '可疑的石堆', ''),
+(32047, '溫蒂', ''),
+(32048, '活動守門人', ''),
+(32049, '露尼', '風之鐵匠'),
+(32050, '零件盒子', ''),
+(32051, '祭壇守門人', ''),
+(32052, '歐比', '鐵道員'),
+(32053, '阿布', '鐵道員'),
+(32054, '古代建築師的幽靈', ''),
+(32055, '鐵路建築師的幽靈', ''),
+(32056, '亞倫', '卡巴塔里'),
+(32057, '甘地圖騰靈', ''),
+(32058, '帝雷歐的啟示', ''),
+(32059, '帝雷歐的啟示', ''),
+(32060, '帝雷歐的啟示', ''),
+(32061, '帝雷歐的啟示', ''),
+(32062, '帝雷歐的啟示', ''),
+(32063, '帝雷歐的啟示', ''),
+(32064, '帝雷歐的啟示', ''),
+(32065, '帝雷歐的啟示', ''),
+(32066, '帝雷歐的啟示', ''),
+(32067, '帝雷歐的啟示', ''),
+(32068, '帝雷歐的啟示', ''),
+(32069, '古騰哈根', '收藏家'),
+(32070, '阿道夫', ''),
+(32071, '琳達', ''),
+(32072, '艾德溫', ''),
+(32073, '路過的老婆婆', ''),
+(32074, '古魯丁分會長', '冒險家合成者'),
+(32075, '仙蒂貓', '戰鬥錦標賽說明者'),
+(32076, '箱子', ''),
+(32077, '冰雕', ''),
+(32078, '冰雕', ''),
+(32079, '冰雕', ''),
+(32082, '狄恩分會長', '冒險家合成者'),
+(32083, '奇岩分會長', '冒險家合成者'),
+(32084, '歐瑞分會長', '冒險家合成者'),
+(32085, '亞丁分會長', '冒險家合成者'),
+(32086, '因納得立分會長', '冒險家合成者'),
+(32087, '修加特分會長', '冒險家合成者'),
+(32088, '高達特分會長', '冒險家合成者'),
+(32089, '魯因分會長', '冒險家合成者'),
+(32090, '豹的屍體', ''),
+(32091, '東尼貓', '活動執行者'),
+(32092, '歐魯德', '倉庫管理員老闆'),
+(32093, '柏林', '鐵匠師傅'),
+(32094, '休爾', '宗師'),
+(32095, '瑪蒂爾', '大神官'),
+(32096, '海爾明特', '宗師'),
+(32097, '芬科爾', '大團長'),
+(32098, '賽勒斯', '大巫師'),
+(32099, '東尼貓', '活動執行者'),
+(32100, '東尼貓', '活動執行者'),
+(32101, '東尼貓', '活動執行者'),
+(32102, '東尼貓', '活動執行者'),
+(32103, '丹林貓', '活動執行者'),
+(32104, '貝爾巴多', ''),
+(32105, '丁定', ''),
+(32106, '辛刑', ''),
+(32107, '傳送晶體', ''),
+(32108, '', ''),
+(32109, '席琳聖像', ''),
+(32110, '', ''),
+(32111, '歐拉奇恩', ''),
+(32112, '加列奇恩', ''),
+(32113, '瑪爾奎茲', ''),
+(32114, '莫西卡', ''),
+(32115, '阿薩瑪', ''),
+(32116, '齊利卡奇恩', ''),
+(32117, '卡拉卡維', ''),
+(32118, '曼塔拉薩的蛋', ''),
+(32119, '烏魯 凱莫', ''),
+(32120, '巴魯 凱莫', ''),
+(32121, '裘太 凱莫', ''),
+(32122, '勇士之墓', ''),
+(32123, '巴拉卡斯', ''),
+(32124, '巨大的魂靈', ''),
+(32125, '巨大的魂靈', ''),
+(32126, '神官護衛', ''),
+(32127, '神官護衛', ''),
+(32128, '神官護法', ''),
+(32129, '', ''),
+(32130, '路尼貓', '活動執行者'),
+(32131, '魔法學院職員', '活動執行者'),
+(32132, '鍊金術士的創造物', ''),
+(32133, '斐勒宛', '副長老'),
+(32134, '初學者幫手', ''),
+(32135, '初學者嚮導', ''),
+(32136, '巴席', '狙擊兵'),
+(32137, '沙賁斯特', '狙擊兵'),
+(32138, '凱克洛普斯', '長老'),
+(32139, '卡西卡', '副長老'),
+(32140, '潔尼亞', '副長老'),
+(32141, '諾加', '大師'),
+(32142, '德尼爾', '大師'),
+(32143, '蓓琪絲', '大師'),
+(32144, '頌尼亞', '大師'),
+(32145, '米連爾德', '宗師'),
+(32146, '凡魯帕', '宗師'),
+(32147, '瑞米恩', '宗師'),
+(32148, '席德內特', '大師'),
+(32149, '恩尼雅', '教師'),
+(32150, '吞克司', '大團長'),
+(32151, '赫魯茲', '團長'),
+(32152, '哈尼合', '祭司長'),
+(32153, '普拉那', '大神官'),
+(32154, '艾登尼亞', '宗師'),
+(32155, '努伯特', '神官'),
+(32156, '塔伯', '大師'),
+(32157, '默卡貝瑞德', '鐵匠師傅'),
+(32158, '斐瑟', '倉庫管理員老闆'),
+(32159, '卡姆凱', '鐵匠'),
+(32160, '泰菲', '大巫師'),
+(32161, '布萊克', '大師'),
+(32162, '馬利加', '教師'),
+(32163, '拉迦那', '守門人'),
+(32164, '艾瑞鈕', '商人'),
+(32165, '查坤', '商人'),
+(32166, '特萊阿米', '商人'),
+(32167, '娜吉兒', '商人'),
+(32168, '瑞尼思', '商人'),
+(32169, '米芙連', '商人'),
+(32170, '班尼士', '倉庫管理員'),
+(32171, '漢夫朗', '倉庫管理員老闆'),
+(32172, '賽羅爾', '倉庫管理員'),
+(32173, '摩爾捷', '驅逐者'),
+(32174, '瑪狄', '狙擊兵'),
+(32175, '拜森', '狙擊兵'),
+(32176, '安卜拉', '狙擊兵'),
+(32177, '西索布雷', '狙擊兵'),
+(32178, '卡芭', '狙擊兵'),
+(32179, '普金', '狙擊兵'),
+(32180, '卡統', '狙擊兵'),
+(32181, '梅利恩', '守門人'),
+(32182, '寇布朗', '大師'),
+(32183, '芸荷', '大師'),
+(32184, '音尼爾', '守門人'),
+(32185, '佩革林', '狙擊兵'),
+(32186, '永恩', '守門人'),
+(32187, '納蒂克', '副長老'),
+(32188, '茉里琳', '狙擊兵'),
+(32189, '蕾金思', '守門人'),
+(32190, '瑪歐特力', '副長老'),
+(32191, '漢娜琳', '宗師'),
+(32192, '法爾肯', '狙擊兵'),
+(32193, '耶尼契', '宗師'),
+(32194, '修巴音', '大師'),
+(32195, '西烏奈', '大師'),
+(32196, '澤修音', '宗師'),
+(32197, '特巴音', '大師'),
+(32198, '寇比安', '大師'),
+(32199, '霍士德', '宗師'),
+(32200, '安特恩斯', '大師'),
+(32201, '林迪', '大師'),
+(32202, '佳黛法', '宗師'),
+(32203, '瑞寧', '大師'),
+(32204, '碧姿凱', '大師'),
+(32205, '艾托尼', '宗師'),
+(32206, '比艾琪', '宗師'),
+(32207, '奧克魯斯', '大師'),
+(32208, '若夏', '大師'),
+(32209, '法耳迪南', '宗師'),
+(32210, '艾迪', '宗師'),
+(32211, '裘諾', '大師'),
+(32212, '黎夏耳', '大師'),
+(32213, '畢塔士', '宗師'),
+(32214, '梅迪納', '宗師'),
+(32215, '田納因', '大師'),
+(32216, '諾伊耳', '大師'),
+(32217, '泊爾塔', '宗師'),
+(32218, '玫亞', '宗師'),
+(32219, '法伯諾', '大師'),
+(32220, '瑟西雅', '大師'),
+(32221, '布洛姆', '宗師'),
+(32222, '琵亞內', '宗師'),
+(32223, '德羅嘉', '大師'),
+(32224, '奧倫', '大師'),
+(32225, '塔英', '宗師'),
+(32226, '勞拉', '宗師'),
+(32227, '堤格', '大師'),
+(32228, '梅代雅', '大師'),
+(32229, '海吉', '宗師'),
+(32230, '塞斯', '宗師'),
+(32231, '倫邦', '大師'),
+(32232, '米奴特', '大師'),
+(32233, '索達特', '宗師'),
+(32234, '尼以茲', '宗師'),
+(32235, '凱特奈特', ''),
+(32236, '哈爾卡凱梅德', ''),
+(32237, '羅丹彼裘拉', ''),
+(32238, '岩石', ''),
+(32239, '聖母諾爾妮', ''),
+(32240, '凱特奈特', ''),
+(32241, '巴爾卡', ''),
+(32242, '凱特奈特', ''),
+(32243, '貨物箱子', ''),
+(32244, '可疑者', ''),
+(32245, '麻特拉斯', ''),
+(32246, '露亞', ''),
+(32247, '賽瑞昂', ''),
+(32248, '丘欣', ''),
+(32249, '村長 耶隆', ''),
+(32250, '亞力歐', ''),
+(32251, '莎利雅', ''),
+(32252, '輸送隊隊員 國德', ''),
+(32253, '哈爾卡凱梅德', ''),
+(32254, '哈爾卡凱梅德', ''),
+(32255, '過去的女神像', ''),
+(32256, '現在的女神像', ''),
+(32257, '未來的女神像', ''),
+(32258, '巨大機械裝置', ''),
+(32259, '對空出入控制裝置', ''),
+(32260, '過去之門控制裝置', ''),
+(32261, '現在之門控制裝置', ''),
+(32262, '未來之門控制裝置', ''),
+(32263, '羅丹彼裘拉', ''),
+(32264, '卡尼司', ''),
+(32271, '帕爾米', ''),
+(32272, '以基亞康', ''),
+(32273, '神諭引導者', ''),
+(32274, '神諭引導者', ''),
+(32275, '神諭引導者', ''),
+(32276, '神諭引導者', ''),
+(32277, '神諭引導者', ''),
+(32278, '神諭引導者', ''),
+(32279, '神諭引導者', ''),
+(32280, '神諭引導者', ''),
+(32281, '神諭引導者', ''),
+(32282, '伊延', '考古學家'),
+(32284, '伊娃的守護之物', ''),
+(32285, '伊娃的守護之物', ''),
+(32286, '伊娃的守護之物', ''),
+(32287, '伊娃的守護之物', ''),
+(32288, '信任的象徵', ''),
+(32289, '試練的象徵', ''),
+(32290, '冒險的象徵', ''),
+(32291, '真實的象徵', ''),
+(32292, '加勒蒂', ''),
+(32293, '志隆', ''),
+(32294, '布丹卡', '奇岩的商隊'),
+(32296, '賽汝加', '老祭司長的靈魂'),
+(32297, '福爾克', ''),
+(32298, '亨德', '商隊商人'),
+(32299, '採石場奴隸', ''),
+(32300, '波拿得', ''),
+(32301, '肯達', '飄蕩的幽魂'),
+(32302, '塞良', ''),
+(32303, '機械裝置', ''),
+(32304, '綠洲', ''),
+(32305, '勞庫的代罪羔羊', ''),
+(32306, '土著的屍體', ''),
+(32307, '巨石棚', ''),
+(32308, '明明', '浪漫貓'),
+(32312, '鼠洞', ''),
+(32313, '道爾土巴', ''),
+(32314, '曲速之門', ''),
+(32315, '曲速之門', ''),
+(32316, '曲速之門', ''),
+(32317, '曲速之門', ''),
+(32318, '曲速之門', ''),
+(32319, '曲速之門', ''),
+(32320, '道具仲介商', '冒險家會員'),
+(32321, '道具仲介商', '冒險家會員'),
+(32322, '道具仲介商', '冒險家會員'),
+(32323, '亞曼加爾德', '變化的魔法師'),
+(32324, '黑石柱', ''),
+(32325, '仁', '屬性大師'),
+(32326, '楊', '屬性大師'),
+(32327, '冒險者助手', ''),
+(32328, '水晶高崙', ''),
+(32330, '庭園的警衛兵', ''),
+(32331, '', ''),
+(32332, '凱特奈特', ''),
+(32333, '凱特奈特', ''),
+(32334, '哈爾卡凱梅德', ''),
+(32335, '狙擊兵', ''),
+(32336, '狙擊兵', ''),
+(32337, '冒險家會員', ''),
+(32338, '冒險家會員', ''),
+(32339, '冒險家會員', ''),
+(32340, '冒險家會員', ''),
+(32342, '惡霸的禮物箱子', ''),
+(32343, '月光石碑', ''),
+(32344, '陰沉碑石', ''),
+(32345, '布隆', '裁縫師'),
+(32346, '卡納夫', ''),
+(32347, '夏代', '傳說的鐵匠'),
+(32348, '伯讓', '釣魚會員'),
+(32349, '基倫斯', ''),
+(32350, '沙之風', ''),
+(32351, '外城門的反抗軍', ''),
+(32352, '', ''),
+(32353, '活動守門人', ''),
+(32354, '凱夫', ''),
+(32355, '索爾門', ''),
+(32356, '朱德', ''),
+(32357, '原住民奴隸', ''),
+(32358, '原住民俘虜', ''),
+(32359, '藍', '力量鐵匠'),
+(32361, '商隊支援糧食', ''),
+(32362, '地獄邊界原住民', ''),
+(32363, '地獄邊界反抗軍', ''),
+(32364, '原住民變節份子', ''),
+(32365, '斯諾', '活動執行者'),
+(32366, '壞掉的裝置', ''),
+(32367, '警報裝置', ''),
+(32368, '風化岩石', ''),
+(32369, '墜落的天使', ''),
+(32370, '老矮人之魂', ''),
+(32371, '精巧機械裝置', ''),
+(32372, '謎的代理人', ''),
+(32373, '多利安', ''),
+(32374, '傳送晶體', ''),
+(32375, '傳送晶體', ''),
+(32376, '傳送晶體', ''),
+(32377, '庫朗', '入場管理員'),
+(32378, '夢幻島守島人', '守門人'),
+(32379, '', ''),
+(32380, '', ''),
+(32381, '', ''),
+(32382, '', ''),
+(32383, '', ''),
+(32384, '', ''),
+(32385, '', ''),
+(32386, '', ''),
+(32387, '', ''),
+(32388, '', ''),
+(32389, '', ''),
+(32390, '', ''),
+(32391, '', ''),
+(32392, '', ''),
+(32393, '', ''),
+(32394, '', ''),
+(32395, '', ''),
+(32396, '', ''),
+(32397, '', ''),
+(32398, '', ''),
+(32399, '', ''),
+(32400, '', ''),
+(32401, '', ''),
+(32402, '', ''),
+(32403, '', ''),
+(32404, '', ''),
+(32405, '', ''),
+(32406, '', ''),
+(32407, '', ''),
+(32408, '', ''),
+(32409, '', ''),
+(32410, '', ''),
+(32411, '', ''),
+(32412, '', ''),
+(32413, '', ''),
+(32414, '', ''),
+(32415, '', ''),
+(32416, '', ''),
+(32417, '', ''),
+(32418, '', ''),
+(32419, '', ''),
+(32420, '', ''),
+(32421, '', ''),
+(32422, '', ''),
+(32423, '', ''),
+(32424, '公演團成員', ''),
+(32425, '公演團成員', ''),
+(32426, '公演團成員', ''),
+(32427, '公演團成員', ''),
+(32428, '公演團成員', ''),
+(32429, '', ''),
+(32430, '', ''),
+(32431, '萊伊拉美羅', '精靈歌手'),
+(32432, '', ''),
+(32433, '主持人', ''),
+(32437, '', ''),
+(32438, '', ''),
+(32439, '逆轉名人', ''),
+(32440, '逆轉奇人', ''),
+(32441, '逆轉超人', ''),
+(32442, '', ''),
+(32443, '', ''),
+(32444, '', ''),
+(32445, '', ''),
+(32446, '', ''),
+(32447, '', ''),
+(32448, '', ''),
+(32449, '', ''),
+(32450, '', ''),
+(32451, '', ''),
+(32452, '', ''),
+(32453, '', ''),
+(32454, '', ''),
+(32455, '', ''),
+(32456, '', ''),
+(32457, '', ''),
+(32458, '', ''),
+(32464, '', ''),
+(32465, '', ''),
+(32466, '', ''),
+(32467, '傳送晶體', ''),
+(32468, '', ''),
+(32469, '艾特伯格', '副長老'),
+(32470, '石棺', ''),
+(32471, '', ''),
+(32472, '', ''),
+(32473, '', ''),
+(32474, '', ''),
+(32475, '副職業認證助手', ''),
+(32476, '魔法學院職員', '活動執行者　'),
+(32477, '宣傳幫手', '守門人'),
+(32478, '維他命管理者', '生活的活力'),
+(32479, '阿迪歐斯', '警衛'),
+(32480, '倫德', '警衛'),
+(32481, '賽基', '警衛'),
+(32482, '安卓里亞', '警衛'),
+(32483, '', ''),
+(32484, '開拓者幹員', ''),
+(32485, '開拓者幹員', ''),
+(32486, '發明家馬陸', ''),
+(32487, '瑪克', ''),
+(32488, '瑪克', ''),
+(32490, '', ''),
+(32491, '地下競技場助手', ''),
+(32492, '水晶瓶', ''),
+(32493, '燃燒的火爐', ''),
+(32494, '骷髏', ''),
+(32495, '寶箱', ''),
+(32496, '脫逃裝置', ''),
+(32497, '調查官 艾德勒', ''),
+(32498, '惡魔島的復活者', ''),
+(32499, '肯特拉獸人 咒術士', ''),
+(32500, '調查官 悉奈', ''),
+(32501, '惡魔島的協助者', ''),
+(32502, '肯特拉獸人協助者', ''),
+(32503, '入場管理員', '柯雷塔的晶體'),
+(32504, '競技執行者', '柯雷塔的晶體'),
+(32505, '競技執行者', '柯雷塔的晶體'),
+(32506, '競技執行者', '柯雷塔的晶體'),
+(32507, '神殿的調查官', ''),
+(32508, '矮人探險家', ''),
+(32509, '肯特拉獸人諜報員', ''),
+(32510, '調查官 艾德勒', ''),
+(32511, '矮人探險家', ''),
+(32512, '肯特拉獸人後援者', ''),
+(32513, '孔', '入場管理員'),
+(32514, '塔里翁', '入場管理員'),
+(32515, '利歐', '入場管理員'),
+(32516, '康丁斯', '入場管理員'),
+(32517, '飛空艇控制裝置', ''),
+(32518, '旋流之門', '裂縫'),
+(32519, '旋流之門', '裂縫'),
+(32520, '金剛砂爐', '裂縫'),
+(32521, '入場管理員', '翰狄的翻轉方塊 1競技場'),
+(32522, '入場管理員', '翰狄的翻轉方塊 2競技場'),
+(32523, '入場管理員', '翰狄的翻轉方塊 3競技場'),
+(32524, '入場管理員', '翰狄的翻轉方塊 4競技場'),
+(32525, '蒂雅特', '闇龍巫女'),
+(32526, '爾勒諾斯', '下士官'),
+(32527, '艾德瑞', '軍官'),
+(32528, '梅帝法的屍體', ''),
+(32529, '', ''),
+(32530, '特普歐司', '軍官'),
+(32531, '破損的腫瘤體', ''),
+(32532, '', ''),
+(32533, '', ''),
+(32534, '札耶汀', '不滅的引導者'),
+(32535, '破損的腫瘤體', ''),
+(32536, '破損的腫瘤體', ''),
+(32537, '伊卡姆士之口', ''),
+(32538, '緊閉的伊卡姆士之口', ''),
+(32539, '深淵的守門人', ''),
+(32540, '深淵的守門人', ''),
+(32541, '不安定的再生種子', ''),
+(32542, '安定的再生種子', ''),
+(32543, '再生之力', ''),
+(32544, '再生種子', '人造'),
+(32545, '克庫爾', '格勒西亞特產品經紀人'),
+(32546, '奧斯耶堤', '靈魂商人'),
+(32547, '中心腫瘤體', ''),
+(32548, '柯塞勒斯', '指揮官'),
+(32549, '狄里歐斯', '將軍'),
+(32550, '克可蘭', '特產品仲介'),
+(32551, '拿爾勒斯', '士兵'),
+(32552, '托瑪里斯', '士兵'),
+(32553, '吉薩斯', '士兵'),
+(32554, '墨依拉', '士兵'),
+(32555, '泰尼斯', '士兵'),
+(32556, '埃爾', '士兵'),
+(32557, '雷坤', '工程師'),
+(32558, '屏障球珠', ''),
+(32559, '爾堤吾斯', '戰鬥法師'),
+(32560, '奧勒布', '士兵'),
+(32561, '柯諾塔', '士兵'),
+(32562, '西爾司特', '士兵'),
+(32563, '普雷諾斯', '士兵'),
+(32564, '帕皮克', '教師'),
+(32565, '匹黎克斯', '大師'),
+(32566, '津比', '士兵 '),
+(32567, '瑞爾齊亞', '席琳的祭司'),
+(32568, '可疑的屍體', ''),
+(32569, '凱因', '神官'),
+(32570, '艾力克', '採藥師'),
+(32571, '革琳', '祕密調查員'),
+(32572, '青蛙', '大王'),
+(32573, '泰絲', '祖母'),
+(32574, '庫達', '村民'),
+(32575, '黎明之光', '傳送師'),
+(32576, '約翰', '黎明的警衛隊長'),
+(32577, '暗號輸入裝置', ''),
+(32578, '身份確認裝置', ''),
+(32579, '黎明的黑暗', '傳送師'),
+(32580, '', ''),
+(32581, '', ''),
+(32582, '杰納', '神官'),
+(32583, '', ''),
+(32584, '財富的商人', ''),
+(32585, '財富的約定', '傳送師'),
+(32586, '史奈曼', '艾爾摩亞丁皇帝'),
+(32587, '萊溫', '皇帝警衛'),
+(32588, '皇帝的封印裝置', ''),
+(32589, '皇帝的封印裝置', ''),
+(32590, '皇帝的封印裝置', ''),
+(32591, '皇帝的封印裝置', ''),
+(32592, '', ''),
+(32593, '巫德', '神官'),
+(32594, '雷培德', '暗號解讀家'),
+(32595, '勞倫斯', '偉大的師傅'),
+(32596, '索比亞', '賢者圖書館長'),
+(32597, '佛蘭茲', '黎明的見證'),
+(32598, '宮廷魔法師', '艾爾摩亞丁'),
+(32599, '大師余義', '山中道人'),
+(32600, '生日喜悅精靈', '生日祝賀幫手'),
+(32601, '瞬間移動裝置', ''),
+(32602, '臨時傳送師', ''),
+(32603, '特普歐司', '軍官'),
+(32604, '飛空艇控制裝置', ''),
+(32605, '飛空艇控制裝置', ''),
+(32606, '飛空艇控制裝置', ''),
+(32607, '飛空艇控制裝置', ''),
+(32608, '飛空艇控制裝置', ''),
+(32609, '飛空艇控制裝置', ''),
+(32610, '沃夫 凱諾瑞', '編織員'),
+(32611, '托羅尼斯', '管制官'),
+(32612, '沃夫 亞當斯', '編織員'),
+(32613, '翰狄', '遊戲管理員'),
+(32614, '拉姆士達斯', '守門人'),
+(32615, '伊希瑪', '巨匠'),
+(32616, '米芮', '占卜師'),
+(32617, '杰納', '神官'),
+(32618, '絲伊美', '商人'),
+(32619, '', ''),
+(32620, '', ''),
+(32621, '', ''),
+(32622, '阿納托', '士兵'),
+(32623, '莫雷基', '士兵'),
+(32624, '安布廉', '士兵'),
+(32625, '恩協爾', '士兵'),
+(32626, '皇家警衛', '士兵'),
+(32627, '諾丁蓋爾', '魔法師'),
+(32628, '碼頭巡邏兵', ''),
+(32629, '碼頭巡邏兵', ''),
+(32630, '格勒西亞伺服器幫手', ''),
+(32631, '格勒西亞伺服器憑證交換員', ''),
+(32632, '格勒西亞殘存者', ''),
+(32633, '聖誕貓', '幸福使者'),
+(32634, '聖誕貓', '幸福使者'),
+(32635, '大師杜奇', '活力充能活動'),
+(32636, '魔法學院職員', '活動執行者'),
+(32637, '工作所傳送師', ''),
+(32638, '洛尼貓', '網咖活動'),
+(32639, '比爾 巴格特', '愚人節活動'),
+(32640, '凱泰康', '賞金獵人'),
+(32641, '海 德斯寇佐博士', ''),
+(32642, '故障的高崙調整裝置', ''),
+(32643, '雅泰妮亞', '降靈術士'),
+(32644, '比雅潔', '專業召喚士'),
+(32645, '洽德拉', '值班運輸官'),
+(32646, '卡天夏', '幹部'),
+(32647, '亞特拉', '見習術士'),
+(32648, '新訊息通知', ''),
+(32649, '杜瓦夫', '矮人探險家'),
+(32650, '卡瑞米卡', '盜墓團團長'),
+(32651, '盜墓者戰士', '任務怪物'),
+(32652, '傳送水晶', ''),
+(32653, '庫倫', ''),
+(32654, '塔倫', ''),
+(32655, '齊連', ''),
+(32656, '', ''),
+(32657, '使徒的守門人', ''),
+(32658, '東方結界守護者', ''),
+(32659, '西方結界守護者', ''),
+(32660, '南方結界守護者', ''),
+(32661, '北方結界守護者', ''),
+(32662, '廣場結界守護者', ''),
+(32663, '塔之結界守護者', ''),
+(32664, '夢幻的管理員', ''),
+(32665, '夢幻的管理員', ''),
+(32666, '夢幻的管理員', ''),
+(32667, '夢幻的管理員', ''),
+(32668, '夢幻的管理員', ''),
+(32669, '夢幻的管理員', ''),
+(32670, '夢幻的管理員', ''),
+(32671, '夢幻的管理員', ''),
+(32672, '夢幻的管理員', ''),
+(32673, '夢幻的管理員', ''),
+(32674, '夢幻的管理員', ''),
+(32675, '夢幻的管理員', ''),
+(32676, '夢幻的管理員', ''),
+(32677, '夢幻的管理員', ''),
+(32678, '夢幻的管理員', ''),
+(32679, '夢幻的管理員', ''),
+(32680, '夢幻的管理員', ''),
+(32681, '夢幻的管理員', ''),
+(32682, '夢幻的管理員', ''),
+(32683, '夢幻的管理員', ''),
+(32684, '夢幻的管理員', ''),
+(32685, '夢幻的管理員', ''),
+(32686, '夢幻的管理員', ''),
+(32687, '夢幻的管理員', ''),
+(32688, '夢幻的管理員', ''),
+(32689, '夢幻的管理員', ''),
+(32690, '夢幻的管理員', ''),
+(32691, '夢幻的管理員', ''),
+(32692, '夢幻的管理員', ''),
+(32693, '夢幻的管理員', ''),
+(32694, '夢幻的管理員', ''),
+(32695, '夢幻的管理員', ''),
+(32696, '夢幻的管理員', ''),
+(32697, '夢幻的管理員', ''),
+(32698, '夢幻的管理員', ''),
+(32699, '夢幻的管理員', ''),
+(32700, '夢幻的管理員', ''),
+(32701, '夢幻的管理員', ''),
+(32702, '', ''),
+(32703, '', ''),
+(32704, '索姆利塔', '靈魂判別官'),
+(32705, '木桶', ''),
+(32706, '魯西恩祭壇', ''),
+(32707, '魯西恩祭壇', ''),
+(32708, '魯西恩祭壇', ''),
+(32709, '魯西恩祭壇', ''),
+(32710, '魯西恩祭壇', ''),
+(32711, '德洛夫', '矮人探險家'),
+(32712, '索姆利塔', '札肯研究者'),
+(32713, '開拓者幹員', ''),
+(32714, '艾賢', '守門人'),
+(32715, '莉莉絲', '深淵的聖母'),
+(32716, '莉莉絲的代言者', ''),
+(32717, '莉莉絲的親衛隊', ''),
+(32718, '亞納', '聖火的火花'),
+(32719, '亞納的守護者', ''),
+(32720, '亞納的禁衛隊', ''),
+(32721, '亞納的執行者', ''),
+(32722, '戰鬥聯盟小幫手', ''),
+(32723, '', ''),
+(32724, '', ''),
+(32725, '復活的祭司', ''),
+(32726, '冰凍博士', '活動執行者'),
+(35010, '傭兵公會駐守劍兵', ''),
+(35011, '傭兵公會駐守槍兵', ''),
+(35012, '傭兵公會駐守弓兵', ''),
+(35013, '傭兵公會駐守牧師', ''),
+(35014, '傭兵公會駐守巫師', ''),
+(35015, '傭兵公會游擊劍兵', ''),
+(35016, '傭兵公會游擊槍兵', ''),
+(35017, '傭兵公會游擊弓兵', ''),
+(35018, '傭兵公會游擊牧師', ''),
+(35019, '傭兵公會游擊巫師', ''),
+(35020, '黎明的駐守劍師', ''),
+(35021, '黎明的駐守槍使', ''),
+(35022, '黎明的駐守射手', ''),
+(35023, '黎明的駐守主教', ''),
+(35024, '黎明的駐守魔導士', ''),
+(35025, '黎明的游擊劍師', ''),
+(35026, '黎明的游擊槍使', ''),
+(35027, '黎明的游擊射手', ''),
+(35028, '黎明的游擊主教', ''),
+(35029, '黎明的游擊魔導士', ''),
+(35030, '高級傭兵公會駐守劍兵', ''),
+(35031, '高級傭兵公會駐守槍兵', ''),
+(35032, '高級傭兵公會駐守弓兵', ''),
+(35033, '高級傭兵公會駐守牧師', ''),
+(35034, '高級傭兵公會駐守巫師', ''),
+(35035, '高級傭兵公會游擊劍兵', ''),
+(35036, '高級傭兵公會游擊槍兵', ''),
+(35037, '高級傭兵公會游擊弓兵', ''),
+(35038, '高級傭兵公會游擊牧師', ''),
+(35039, '高級傭兵公會游擊巫師', ''),
+(35040, '精銳駐守訓練劍兵', ''),
+(35041, '精銳駐守訓練槍兵', ''),
+(35042, '精銳駐守訓練弓兵', ''),
+(35043, '精銳駐守訓練牧師', ''),
+(35044, '精銳駐守訓練巫師', ''),
+(35045, '精銳游擊訓練劍兵', ''),
+(35046, '精銳游擊訓練槍兵', ''),
+(35047, '精銳游擊訓練弓兵', ''),
+(35048, '精銳游擊訓練牧師', ''),
+(35049, '精銳游擊訓練巫師', ''),
+(35050, '駐守訓練劍兵', ''),
+(35051, '駐守訓練槍兵', ''),
+(35052, '駐守訓練弓兵', ''),
+(35053, '駐守訓練牧師', ''),
+(35054, '駐守訓練巫師', ''),
+(35055, '游擊訓練劍兵', ''),
+(35056, '游擊訓練槍兵', ''),
+(35057, '游擊訓練弓兵', ''),
+(35058, '游擊訓練牧師', ''),
+(35059, '游擊訓練巫師', ''),
+(35060, '那芙琳守護劍士', ''),
+(35061, '那芙琳大魔道士', ''),
+(35062, '陣地', ''),
+(35063, '古魯丁守護者', ''),
+(35064, '盧音 瓦爾德 男爵', ''),
+(35065, '克羅南伯格', '親衛隊長'),
+(35066, '親衛隊騎士', '古魯丁'),
+(35067, '親衛隊巫師', '古魯丁'),
+(35068, '親衛隊巫師', '古魯丁'),
+(35069, '親衛隊', '古魯丁'),
+(35070, '警衛', '古魯丁'),
+(35071, '警衛', '古魯丁'),
+(35072, '警衛', '古魯丁'),
+(35073, '警衛', '古魯丁'),
+(35074, '警衛', '古魯丁'),
+(35075, '警衛', '古魯丁'),
+(35076, '警衛', '古魯丁'),
+(35077, '警衛', '古魯丁'),
+(35078, '警衛', '古魯丁'),
+(35079, '親衛隊騎士', '古魯丁'),
+(35080, '親衛隊巫師', '古魯丁'),
+(35081, '親衛隊巫師', '古魯丁'),
+(35082, '親衛隊', '古魯丁'),
+(35083, '警衛', '古魯丁'),
+(35084, '警衛', '古魯丁'),
+(35085, '警衛', '古魯丁'),
+(35086, '警衛', '古魯丁'),
+(35087, '警衛', '古魯丁'),
+(35088, '警衛', '古魯丁'),
+(35089, '警衛', '古魯丁'),
+(35090, '警衛', '古魯丁'),
+(35091, '警衛', '古魯丁'),
+(35092, '傳送師', '古魯丁'),
+(35093, '傳送師', '古魯丁'),
+(35094, '傳送師', '古魯丁'),
+(35095, '集體傳送師', '古魯丁'),
+(35096, '外城守門人', '古魯丁'),
+(35097, '內城守門人', '古魯丁'),
+(35098, '鐵匠', '古魯丁'),
+(35099, '倉庫管理員', '古魯丁'),
+(35100, '賽亞斯', '侍衛隊長'),
+(35101, '格拉德', '飛龍管理員'),
+(35102, '葛林斯潘', '傭兵管理員'),
+(35103, '莊園管理員', '古魯丁'),
+(35104, '泰龍', '傳令'),
+(35105, '狄恩守護者', ''),
+(35106, '亞席頓公爵', ''),
+(35107, '伊瑪諾閣下', '親衛隊長'),
+(35108, '親衛隊騎士', '狄恩'),
+(35109, '親衛隊魔法師', '狄恩'),
+(35110, '親衛隊牧師', '狄恩'),
+(35111, '親衛隊', '狄恩'),
+(35112, '警衛', '狄恩'),
+(35113, '警衛', '狄恩'),
+(35114, '警衛', '狄恩'),
+(35115, '警衛', '狄恩'),
+(35116, '警衛', '狄恩'),
+(35117, '警衛', '狄恩'),
+(35118, '警衛', '狄恩'),
+(35119, '警衛', '狄恩'),
+(35120, '警衛', '狄恩'),
+(35121, '親衛隊騎士', '狄恩'),
+(35122, '親衛隊魔法師', '狄恩'),
+(35123, '親衛隊牧師', '狄恩'),
+(35124, '親衛隊', '狄恩'),
+(35125, '警衛', '狄恩'),
+(35126, '警衛', '狄恩'),
+(35127, '警衛', '狄恩'),
+(35128, '警衛', '狄恩'),
+(35129, '警衛', '狄恩'),
+(35130, '警衛', '狄恩'),
+(35131, '警衛', '狄恩'),
+(35132, '警衛', '狄恩'),
+(35133, '警衛', '狄恩'),
+(35134, '傳送師', '狄恩'),
+(35135, '傳送師', '狄恩'),
+(35136, '傳送師', '狄恩'),
+(35137, '集體傳送師', '狄恩'),
+(35138, '外城守門人', '狄恩'),
+(35139, '內城守門人', '狄恩'),
+(35140, '鐵匠', '狄恩'),
+(35141, '倉庫管理員', '狄恩'),
+(35142, '克羅斯比', '侍衛隊長'),
+(35143, '荷塔羅', '飛龍管理員'),
+(35144, '山普德', '傭兵管理員'),
+(35145, '莊園管理員', '狄恩'),
+(35146, '吉普森', '傳令'),
+(35147, '奇岩守護者', ''),
+(35148, '愛司德斯 卡爾蒙 男爵', ''),
+(35149, '烏力克閣下', '親衛隊長'),
+(35150, '親衛隊騎士', '奇岩'),
+(35151, '親衛隊魔法師', '奇岩'),
+(35152, '親衛隊牧師', '奇岩'),
+(35153, '親衛隊', '奇岩'),
+(35154, '警衛', '奇岩'),
+(35155, '警衛', '奇岩'),
+(35156, '警衛', '奇岩'),
+(35157, '警衛', '奇岩'),
+(35158, '警衛', '奇岩'),
+(35159, '警衛', '奇岩'),
+(35160, '警衛', '奇岩'),
+(35161, '警衛', '奇岩'),
+(35162, '警衛', '奇岩'),
+(35163, '親衛隊騎士', '奇岩'),
+(35164, '親衛隊魔法師', '奇岩'),
+(35165, '親衛隊牧師', '奇岩'),
+(35166, '親衛隊', '奇岩'),
+(35167, '警衛', '奇岩'),
+(35168, '警衛', '奇岩'),
+(35169, '警衛', '奇岩'),
+(35170, '警衛', '奇岩'),
+(35171, '警衛', '奇岩'),
+(35172, '警衛', '奇岩'),
+(35173, '警衛', '奇岩'),
+(35174, '警衛', '奇岩'),
+(35175, '警衛', '奇岩'),
+(35176, '傳送師', '奇岩'),
+(35177, '傳送師', '奇岩'),
+(35178, '傳送師', '奇岩'),
+(35179, '集體傳送師', '奇岩'),
+(35180, '外城守門人', '奇岩'),
+(35181, '內城守門人', '奇岩'),
+(35182, '鐵匠', '奇岩'),
+(35183, '倉庫管理員', '奇岩'),
+(35184, '索', '侍衛隊長'),
+(35185, '普萊瑟', '飛龍管理員'),
+(35186, '阿比德', '傭兵管理員'),
+(35187, '莊園管理員', '奇岩'),
+(35188, '霍姆斯', '傳令'),
+(35189, '歐瑞守護者', ''),
+(35190, '班卓斯 班 德雷克', '公爵'),
+(35191, '昆提', '親衛隊長'),
+(35192, '親衛隊騎士', '歐瑞'),
+(35193, '親衛隊魔法師', '歐瑞'),
+(35194, '親衛隊魔法師', '歐瑞'),
+(35195, '親衛隊', '歐瑞'),
+(35196, '警衛', '歐瑞'),
+(35197, '警衛', '歐瑞'),
+(35198, '警衛', '歐瑞'),
+(35199, '警衛', '歐瑞'),
+(35200, '警衛', '歐瑞'),
+(35201, '警衛', '歐瑞'),
+(35202, '警衛', '歐瑞'),
+(35203, '警衛', '歐瑞'),
+(35204, '警衛', '歐瑞'),
+(35205, '親衛隊騎士', '歐瑞'),
+(35206, '親衛隊魔法師', '歐瑞'),
+(35207, '親衛隊魔法師', '歐瑞'),
+(35208, '親衛隊', '歐瑞'),
+(35209, '警衛', '歐瑞'),
+(35210, '警衛', '歐瑞'),
+(35211, '警衛', '歐瑞'),
+(35212, '警衛', '歐瑞'),
+(35213, '警衛', '歐瑞'),
+(35214, '警衛', '歐瑞'),
+(35215, '警衛', '歐瑞'),
+(35216, '警衛', '歐瑞'),
+(35217, '警衛', '歐瑞'),
+(35218, '傳送師', '歐瑞'),
+(35219, '傳送師', '歐瑞'),
+(35220, '傳送師', '歐瑞'),
+(35221, '集體傳送師', '歐瑞'),
+(35222, '外城守門人', '歐瑞'),
+(35223, '內城守門人', '歐瑞'),
+(35224, '鐵匠', '歐瑞'),
+(35225, '倉庫管理員', '歐瑞'),
+(35226, '布拉塞爾', '侍衛隊長'),
+(35227, '平洛特', '飛龍管理員'),
+(35228, '抹利森', '傭兵管理員'),
+(35229, '莊園管理員', '歐瑞'),
+(35230, '莊園管理員', '歐瑞'),
+(35231, '莊園管理員', '歐瑞'),
+(35232, '修特', '傳令'),
+(35233, '亞丁守護者', ''),
+(35234, '阿瑪戴歐 卡德姆斯', '國王'),
+(35235, '親衛隊騎士', '亞丁'),
+(35236, '親衛隊魔法師', '亞丁'),
+(35237, '親衛隊魔法師', '亞丁'),
+(35238, '親衛隊', '亞丁'),
+(35239, '警衛', '亞丁'),
+(35240, '警衛', '亞丁'),
+(35241, '警衛', '亞丁'),
+(35242, '警衛', '亞丁'),
+(35243, '警衛', '亞丁'),
+(35244, '警衛', '亞丁'),
+(35245, '警衛', '亞丁'),
+(35246, '警衛', '亞丁'),
+(35247, '警衛', '亞丁'),
+(35248, '親衛隊騎士', '亞丁'),
+(35249, '親衛隊魔法師', '亞丁'),
+(35250, '親衛隊魔法師', '亞丁'),
+(35251, '親衛隊', '亞丁'),
+(35252, '警衛', '亞丁'),
+(35253, '警衛', '亞丁'),
+(35254, '警衛', '亞丁'),
+(35255, '警衛', '亞丁'),
+(35256, '警衛', '亞丁'),
+(35257, '警衛', '亞丁'),
+(35258, '警衛', '亞丁'),
+(35259, '警衛', '亞丁'),
+(35260, '警衛', '亞丁'),
+(35261, '傳送師', '亞丁'),
+(35262, '傳送師', '亞丁'),
+(35263, '傳送師', '亞丁'),
+(35264, '傳送師', '亞丁'),
+(35265, '傳送師', '亞丁'),
+(35266, '集體傳送師', '亞丁'),
+(35267, '外城守門人', '亞丁'),
+(35268, '內城守門人', '亞丁'),
+(35269, '大廳守門人', '亞丁'),
+(35270, '內城守門人', '亞丁'),
+(35271, '守門人', '亞丁'),
+(35272, '鐵匠', '亞丁'),
+(35273, '倉庫管理員', '亞丁'),
+(35274, '羅甘', '侍衛隊長'),
+(35275, '格魯歌', '飛龍管理員'),
+(35276, '艾魯登', '傭兵管理員'),
+(35277, '莊園管理員', '亞丁'),
+(35278, '魯佛德', '傳令'),
+(35279, '因納得立守護者', ''),
+(35280, '利歐納爾 杭特 男爵', ''),
+(35281, '史考特', '護衛隊長'),
+(35282, '親衛隊騎士', '因納得立'),
+(35283, '親衛隊魔法師', '因納得立'),
+(35284, '親衛隊魔法師', '因納得立'),
+(35285, '親衛隊', '因納得立'),
+(35286, '警衛', '因納得立'),
+(35287, '警衛', '因納得立'),
+(35288, '警衛', '因納得立'),
+(35289, '警衛', '因納得立'),
+(35290, '警衛', '因納得立'),
+(35291, '警衛', '因納得立'),
+(35292, '警衛', '因納得立'),
+(35293, '警衛', '因納得立'),
+(35294, '警衛', '因納得立'),
+(35295, '親衛隊騎士', '因納得立'),
+(35296, '親衛隊魔法師', '因納得立'),
+(35297, '親衛隊魔法師', '因納得立'),
+(35298, '親衛隊', '因納得立'),
+(35299, '警衛', '因納得立'),
+(35300, '警衛', '因納得立'),
+(35301, '警衛', '因納得立'),
+(35302, '警衛', '因納得立'),
+(35303, '警衛', '因納得立'),
+(35304, '警衛', '因納得立'),
+(35305, '警衛', '因納得立'),
+(35306, '警衛', '因納得立'),
+(35307, '警衛', '因納得立'),
+(35308, '傳送師', '因納得立'),
+(35309, '傳送師', '因納得立'),
+(35310, '傳送師', '因納得立'),
+(35311, '集體傳送師', '因納得立'),
+(35312, '外城守門人', '因納得立'),
+(35313, '內城守門人', '因納得立'),
+(35314, '鐵匠', '因納得立'),
+(35315, '倉庫管理員', '因納得立'),
+(35316, '涅里特', '侍衛隊長'),
+(35317, '德伊特', '飛龍管理員'),
+(35318, '索黎那斯', '傭兵管理員'),
+(35319, '莊園管理員', '因納得立'),
+(35320, '雷貝爾', '傳令'),
+(35322, '火之祭壇', ''),
+(35323, '水之祭壇', ''),
+(35324, '漢斯', '親衛隊長'),
+(35325, '莫拉 肯 阿巴葛伊 公爵', ''),
+(35326, '親衛隊騎士', '高達特'),
+(35327, '親衛隊巫師', '高達特'),
+(35328, '親衛隊巫師', '高達特'),
+(35329, '親衛隊', '高達特'),
+(35330, '警衛', '高達特'),
+(35331, '警衛', '高達特'),
+(35332, '警衛', '高達特'),
+(35333, '警衛', '高達特'),
+(35334, '警衛', '高達特'),
+(35335, '警衛', '高達特'),
+(35336, '警衛', '高達特'),
+(35337, '警衛', '高達特'),
+(35338, '警衛', '高達特'),
+(35339, '親衛隊騎士', '高達特'),
+(35340, '親衛隊巫師', '高達特'),
+(35341, '親衛隊巫師', '高達特'),
+(35342, '親衛隊', '高達特'),
+(35343, '警衛', '高達特'),
+(35344, '警衛', '高達特'),
+(35345, '警衛', '高達特'),
+(35346, '警衛', '高達特'),
+(35347, '警衛', '高達特'),
+(35348, '警衛', '高達特'),
+(35349, '警衛', '高達特'),
+(35350, '警衛', '高達特'),
+(35351, '警衛', '高達特'),
+(35352, '傳送師', '高達特'),
+(35353, '傳送師', '高達特'),
+(35354, '傳送師', '高達特'),
+(35355, '集體傳送師', '高達特'),
+(35356, '外城守門人', '高達特'),
+(35357, '內城守門人', '高達特'),
+(35358, '內城守門人', '高達特'),
+(35359, '守門人', '高達特'),
+(35360, '守門人', '高達特'),
+(35361, '鐵匠', '高達特'),
+(35362, '倉庫管理員', '高達特'),
+(35363, '艾佛瑞德', '侍衛隊長'),
+(35364, '哈德烈', '飛龍管理員'),
+(35365, '羅威', '傭兵管理員'),
+(35366, '莊園管理員', '高達特'),
+(35367, '達賓', '傳令'),
+(35368, '血腥君主「奴爾卡」', ''),
+(35369, '帕提森治療師', ''),
+(35370, '帕提森親衛隊', ''),
+(35371, '帕提森親衛隊', ''),
+(35372, '帕提森士兵', ''),
+(35373, '帕提森巫師', ''),
+(35374, '帕提森弓箭手', ''),
+(35375, '血腥君主「奴爾卡」', ''),
+(35376, '帕提森治療師', ''),
+(35377, '帕提森親衛隊', ''),
+(35378, '帕提森親衛隊', ''),
+(35379, '帕提森士兵', ''),
+(35380, '帕提森巫師', ''),
+(35381, '帕提森弓箭手', ''),
+(35382, '布拉克爾', '帕提森傳令'),
+(35383, '塔木塔', '豺狼執行官'),
+(35384, '布拉格', '根據地管理員'),
+(35385, '萊尼', '根據地守門人'),
+(35386, '包爾', '根據地管理員'),
+(35387, '帕別', '根據地守門人'),
+(35388, '提姆', '根據地管理員'),
+(35389, '洛林', '根據地守門人'),
+(35390, '迪隆', '根據地管理員'),
+(35391, '拉提夫', '根據地守門人'),
+(35392, '布雷瑪', '根據地管理員'),
+(35393, '拍爾蘭', '根據地守門人'),
+(35394, '卡利斯', '根據地管理員'),
+(35395, '柯坎', '根據地守門人'),
+(35396, '溫克', '根據地管理員'),
+(35397, '摩統', '根據地守門人'),
+(35398, '魯邦', '根據地管理員'),
+(35399, '魯斯', '根據地守門人'),
+(35400, '何那', '根據地管理員'),
+(35401, '阿米爾', '根據地守門人'),
+(35402, '伯盧那', '根據地守門人'),
+(35403, '隆', '根據地管理員'),
+(35404, '查邁爾', '根據地守門人'),
+(35405, '弗琳', '根據地管理員'),
+(35406, '札畢魯', '根據地守門人'),
+(35407, '賽斯', '根據地管理員'),
+(35408, '黛德利', ''),
+(35409, '米哈伊爾', ''),
+(35410, '古斯達夫', ''),
+(35411, '末日傭人', ''),
+(35412, '末日警衛', ''),
+(35413, '末日弓手', ''),
+(35414, '末日裝甲兵', ''),
+(35415, '末日戰士', ''),
+(35416, '末日騎士', ''),
+(35417, '地獄守門人', ''),
+(35418, '地獄守門人', ''),
+(35419, '海法伊斯頓', '飛龍管理員'),
+(35420, '流肯', '傳令'),
+(35421, '畢革史提夫', '執事'),
+(35422, '勝者旗幟', ''),
+(35423, '紅色旗幟', ''),
+(35424, '黃色旗幟', ''),
+(35425, '綠色旗幟', ''),
+(35426, '藍色旗幟', ''),
+(35427, '紫色旗幟', ''),
+(35428, '奧耶豺狼狂戰士', ''),
+(35429, '奧耶豺狼斥候兵', ''),
+(35430, '奧耶豺狼領導者', ''),
+(35431, '奧耶豺狼聖職者', ''),
+(35432, '奧耶豺狼盜賊', ''),
+(35433, '內城守門人', ''),
+(35434, '內城守門人', ''),
+(35435, '外城守門人', ''),
+(35436, '外城守門人', ''),
+(35437, '傳令', ''),
+(35438, '侍衛隊長', ''),
+(35439, '凱莉', '根據地管理員'),
+(35440, '丹尼爾', '根據地守門人'),
+(35441, '黛安娜', '根據地管理員'),
+(35442, '賈寇', '根據地守門人'),
+(35443, '克麗希', '根據地管理員'),
+(35444, '左夫', '根據地守門人'),
+(35445, '艾伯特', '根據地管理員'),
+(35446, '尼爾斯', '根據地守門人'),
+(35447, '可爾根', '根據地管理員'),
+(35448, '魯迪', '根據地守門人'),
+(35449, '地瑪吉歐', '根據地管理員'),
+(35450, '葛洛', '根據地守門人'),
+(35451, '艾瑪', '根據地管理員'),
+(35452, '泰歐柏德', '根據地守門人'),
+(35453, '艾德琳', '根據地管理員'),
+(35454, '羅斯肯', '根據地守門人'),
+(35455, '畢安卡', '根據地管理員'),
+(35456, '史塔特', '根據地守門人'),
+(35457, '格拉蒂斯', '根據地管理員'),
+(35458, '鐵隆', '根據地守門人'),
+(35459, '雷吉那', '根據地管理員'),
+(35460, '瑞伊', '根據地守門人'),
+(35461, '艾達', '根據地管理員'),
+(35462, '卡爾摩', '根據地守門人'),
+(35463, '海爾加', '根據地管理員'),
+(35464, '沃夫雷姆', '根據地守門人'),
+(35465, '米利森特', '根據地管理員'),
+(35466, '傑拉爾德', '根據地守門人'),
+(35467, '布蘭希爾德', '根據地管理員'),
+(35468, '藍伯特', '根據地守門人'),
+(35469, '聖壇', ''),
+(35470, '阿斯泰爾 班 胡爾特', '國王'),
+(35471, '親衛隊騎士', '魯因'),
+(35472, '親衛隊巫師', '魯因'),
+(35473, '親衛隊巫師', '魯因'),
+(35474, '親衛隊', '魯因'),
+(35475, '警衛', '魯因'),
+(35476, '警衛', '魯因'),
+(35477, '警衛', '魯因'),
+(35478, '警衛', '魯因'),
+(35479, '警衛', '魯因'),
+(35480, '警衛', '魯因'),
+(35481, '警衛', '魯因'),
+(35482, '警衛', '魯因'),
+(35483, '警衛', '魯因'),
+(35484, '親衛隊騎士', '魯因'),
+(35485, '親衛隊巫師', '魯因'),
+(35486, '親衛隊巫師', '魯因'),
+(35487, '親衛隊', '魯因'),
+(35488, '警衛', '魯因'),
+(35489, '警衛', '魯因'),
+(35490, '警衛', '魯因'),
+(35491, '警衛', '魯因'),
+(35492, '警衛', '魯因'),
+(35493, '警衛', '魯因'),
+(35494, '警衛', '魯因'),
+(35495, '警衛', '魯因'),
+(35496, '警衛', '魯因'),
+(35497, '傳送師', '魯因'),
+(35498, '傳送師', '魯因'),
+(35499, '傳送師', '魯因'),
+(35500, '傳送師', '魯因'),
+(35501, '傳送師', '魯因'),
+(35502, '集體傳送師', '魯因'),
+(35503, '外城守門人', '魯因'),
+(35504, '內城守門人', '魯因'),
+(35505, '內城守門人', '魯因'),
+(35506, '地下監獄守門人', '魯因'),
+(35507, '鐵匠', '魯因'),
+(35508, '倉庫管理員', '魯因'),
+(35509, '佛雷德利克', '侍衛隊長'),
+(35510, '狄特斯', '飛龍管理員'),
+(35511, '高姆帕斯', '傭兵管理員'),
+(35512, '莊園管理員', '魯因'),
+(35513, '西蒙斯', '傳令'),
+(35514, '風之聖壇', ''),
+(35515, '地之聖壇', ''),
+(35516, '維露斯', '親衛隊長'),
+(35517, '司維恩 肯 歐文', '伯爵'),
+(35518, '親衛隊騎士', '修加特'),
+(35519, '親衛隊巫師', '修加特'),
+(35520, '親衛隊巫師', '修加特'),
+(35521, '親衛隊', '修加特'),
+(35522, '警衛', '修加特'),
+(35523, '警衛', '修加特'),
+(35524, '警衛', '修加特'),
+(35525, '警衛', '修加特'),
+(35526, '警衛', '修加特'),
+(35527, '警衛', '修加特'),
+(35528, '警衛', '修加特'),
+(35529, '警衛', '修加特'),
+(35530, '警衛', '修加特'),
+(35531, '親衛隊騎士', '修加特'),
+(35532, '親衛隊巫師', '修加特'),
+(35533, '親衛隊巫師', '修加特'),
+(35534, '親衛隊', '修加特'),
+(35535, '警衛', '修加特'),
+(35536, '警衛', '修加特'),
+(35537, '警衛', '修加特'),
+(35538, '警衛', '修加特'),
+(35539, '警衛', '修加特'),
+(35540, '警衛', '修加特'),
+(35541, '警衛', '修加特'),
+(35542, '警衛', '修加特'),
+(35543, '警衛', '修加特'),
+(35544, '傳送師', '修加特'),
+(35545, '傳送師', '修加特'),
+(35546, '傳送師', '修加特'),
+(35547, '集體傳送師', '修加特'),
+(35548, '外城守門人', '修加特'),
+(35549, '內城守門人', '修加特'),
+(35550, '內城守門人', '修加特'),
+(35551, '守門人', '修加特'),
+(35552, '守門人', '修加特'),
+(35553, '鐵匠', '修加特'),
+(35554, '倉庫管理員', '修加特'),
+(35555, '奧古斯都', '侍衛隊長'),
+(35556, '加利克', '飛龍管理員'),
+(35557, '肯德列', '傭兵管理員'),
+(35558, '莊園管理員', '修加特'),
+(35559, '達格利', '傳令'),
+(35560, '集體傳送師', ''),
+(35561, '集體傳送師', ''),
+(35562, '集體傳送師', ''),
+(35563, '集體傳送師', ''),
+(35564, '集體傳送師', ''),
+(35565, '集體傳送師', ''),
+(35566, '羅納度', '根據地管理員'),
+(35567, '艾米爾', '根據地守門人'),
+(35568, '偉恩', '根據地管理員'),
+(35569, '塔尼爾', '根據地守門人'),
+(35570, '派蒂', '根據地管理員'),
+(35571, '戴爾', '根據地守門人'),
+(35572, '吉米', '根據地管理員'),
+(35573, '霜', '根據地守門人'),
+(35574, '米卡艾爾', '根據地管理員'),
+(35575, '萊恩', '根據地守門人'),
+(35576, '加格斯', '根據地管理員'),
+(35577, '海利', '根據地守門人'),
+(35578, '卡魯特', '根據地管理員'),
+(35579, '艾根', '根據地守門人'),
+(35580, '卡雷爾', '根據地管理員'),
+(35581, '歐修', '根據地守門人'),
+(35582, '史坦利', '根據地管理員'),
+(35583, '瓦特', '根據地守門人'),
+(35584, '比利', '根據地管理員'),
+(35585, '艾莉絲', '根據地守門人'),
+(35586, '紗麗娜', '根據地管理員'),
+(35587, '奈莉亞', '根據地守門人'),
+(35588, '溫泉葫蘆', ''),
+(35589, '溫泉葫蘆', ''),
+(35590, '溫泉葫蘆', ''),
+(35591, '溫泉葫蘆', ''),
+(35592, '凶惡的雪人', ''),
+(35593, '寶箱', ''),
+(35594, '寶箱', ''),
+(35595, '寶箱', ''),
+(35596, '溫泉浴場雪人', '進行者'),
+(35597, '溫泉浴場雪人', '進行者'),
+(35598, '溫泉浴場雪人', '進行者'),
+(35599, '溫泉浴場雪人', '進行者'),
+(35600, '管理員', ''),
+(35601, '守門人', ''),
+(35602, '守門人', ''),
+(35603, '入場管理員', ''),
+(35604, '傳令', ''),
+(35605, '安格特', '執事'),
+(35606, '優勝者旗幟', ''),
+(35607, '紅色旗幟', ''),
+(35608, '黃色旗幟', ''),
+(35609, '綠色旗幟', ''),
+(35610, '藍色旗幟', ''),
+(35611, '紫色旗幟', ''),
+(35612, '集體傳送師', ''),
+(35613, '集體傳送師', ''),
+(35614, '集體傳送師', ''),
+(35615, '集體傳送師', ''),
+(35616, '集體傳送師', ''),
+(35617, '集體傳送師', ''),
+(35618, '凶暴老虎', ''),
+(35619, '凶暴野牛', ''),
+(35620, '凶暴笑翠鳥', ''),
+(35621, '凶暴小野牛', ''),
+(35622, '凶暴小老虎', ''),
+(35623, '內城守門人', ''),
+(35624, '內城守門人', ''),
+(35625, '外城守門人', ''),
+(35626, '外城守門人', ''),
+(35627, '傳令', ''),
+(35628, '奎比亞', '農場管理員'),
+(35629, '莉迪亞 潘 哈曼', ''),
+(35630, '艾佛瑞德 潘 哈曼', ''),
+(35631, '吉賽爾 潘 哈曼', ''),
+(35632, '吸血鬼咒術士', ''),
+(35633, '吸血鬼士兵', ''),
+(35634, '吸血鬼射手', ''),
+(35635, '吸血鬼魔導士', ''),
+(35636, '吸血鬼戰將', ''),
+(35637, '吸血鬼首領', ''),
+(35638, '巴倫斯', '飛龍管理員'),
+(35639, '傑卡德', '傳令'),
+(35640, '凡德羅', '執事'),
+(35641, '要塞守門人', ''),
+(35642, '要塞守門人', ''),
+(35643, '門', ''),
+(35644, '莊園管理員', '修加特'),
+(35645, '莊園管理員', '修加特'),
+(35646, '吸血鬼射手', ''),
+(35647, '吸血鬼領導者', ''),
+(35648, '宮廷魔法師', '古魯丁'),
+(35649, '宮廷魔法師', '狄恩'),
+(35650, '宮廷魔法師', '奇岩'),
+(35651, '宮廷魔法師', '歐瑞'),
+(35652, '宮廷魔法師', '亞丁'),
+(35653, '宮廷魔法師', '因納得立'),
+(35654, '宮廷魔法師', '高達特'),
+(35655, '宮廷魔法師', '魯因'),
+(35656, '宮廷魔法師', '修加特'),
+(35657, '旗桿', ''),
+(35658, '監督官', '野營要塞'),
+(35659, '可疑的商人', '野營要塞'),
+(35660, '守備隊長', '野營要塞'),
+(35661, '弓兵隊長', '野營要塞'),
+(35662, '支援隊長', '野營要塞'),
+(35663, '工兵隊管理員', '野營要塞'),
+(35664, '補給整備官', '野營要塞'),
+(35665, '寶物箱子', ''),
+(35666, '收容所管理人', '野營要塞'),
+(35667, '守門人', ''),
+(35668, '守門人', ''),
+(35669, '守門人', ''),
+(35670, '叛亂軍隊長', '野營要塞'),
+(35671, '叛亂軍精銳兵', '野營要塞'),
+(35672, '叛亂軍士兵', '野營要塞'),
+(35673, '禁衛兵', '野營要塞'),
+(35674, '護衛兵', '野營要塞'),
+(35675, '電力控制裝置', '控制室'),
+(35676, '砲兵矮人', ''),
+(35677, '守備隊長', '守備隊'),
+(35678, '守備隊員', '守備隊'),
+(35679, '守備隊員', '守備隊'),
+(35680, '支援隊長', '支援隊'),
+(35681, '巫師', '支援隊'),
+(35682, '牧師', '支援隊'),
+(35683, '弓兵隊長', '弓兵隊'),
+(35684, '弓兵隊員', '弓兵隊'),
+(35685, '弩砲', '野營要塞'),
+(35686, '傭兵隊隊長', ''),
+(35687, '傭兵隊士兵', ''),
+(35688, '旗桿', ''),
+(35689, '監督官', '古魯丁南部要塞'),
+(35690, '可疑的商人', '古魯丁南部要塞'),
+(35691, '守備隊長', '古魯丁南部要塞'),
+(35692, '弓兵隊長', '古魯丁南部要塞'),
+(35693, '將軍', '古魯丁南部要塞'),
+(35694, '支援隊長', '古魯丁南部要塞'),
+(35695, '工兵隊管理員', '古魯丁南部要塞'),
+(35696, '補給整備官', '古魯丁南部要塞'),
+(35697, '寶物箱子', ''),
+(35698, '收容所管理人', '古魯丁南部要塞'),
+(35699, '守門人', ''),
+(35700, '守門人', ''),
+(35701, '守門人', ''),
+(35702, '叛亂軍隊長', '古魯丁南部要塞'),
+(35703, '叛亂軍精銳兵', '古魯丁南部要塞'),
+(35704, '叛亂軍士兵', '古魯丁南部要塞'),
+(35705, '禁衛兵', '古魯丁南部要塞'),
+(35706, '護衛兵', '古魯丁南部要塞'),
+(35707, '主機械裝置', '控制室'),
+(35708, '輔助電力裝置', '控制室'),
+(35709, '控制裝置', '控制室'),
+(35710, '電力控制裝置', '控制室'),
+(35711, '砲兵矮人', ''),
+(35712, '偵查高崙', '控制室'),
+(35713, '守備隊長', '守備隊'),
+(35714, '守備隊員', '守備隊'),
+(35715, '守備隊員', '守備隊'),
+(35716, '支援隊長', '支援隊'),
+(35717, '巫師', '支援隊'),
+(35718, '牧師', '支援隊'),
+(35719, '弓兵隊長', '弓兵隊'),
+(35720, '弓兵隊員', '弓兵隊'),
+(35721, '將軍', '將官幕舍'),
+(35722, '將官', '將官幕舍'),
+(35723, '弩砲', '古魯丁南部要塞'),
+(35724, '傭兵隊隊長', ''),
+(35725, '傭兵隊士兵', ''),
+(35726, '旗桿', ''),
+(35727, '監督官', '蜂窩要塞'),
+(35728, '可疑的商人', '蜂窩要塞'),
+(35729, '守備隊長', '蜂窩要塞'),
+(35730, '弓兵隊長', '蜂窩要塞'),
+(35731, '支援隊長', '蜂窩要塞'),
+(35732, '工兵隊管理員', '蜂窩要塞'),
+(35733, '補給整備官', '蜂窩要塞'),
+(35734, '寶物箱子', ''),
+(35735, '收容所管理人', '蜂窩要塞'),
+(35736, '守門人', ''),
+(35737, '守門人', ''),
+(35738, '守門人', ''),
+(35739, '叛亂軍隊長', '蜂窩要塞'),
+(35740, '叛亂軍精銳兵', '蜂窩要塞'),
+(35741, '叛亂軍士兵', '蜂窩要塞'),
+(35742, '禁衛兵', '蜂窩要塞'),
+(35743, '護衛兵', '蜂窩要塞'),
+(35744, '電力控制裝置', '控制室'),
+(35745, '砲兵矮人', ''),
+(35746, '守備隊長', '守備隊'),
+(35747, '守備隊員', '守備隊'),
+(35748, '守備隊員', '守備隊'),
+(35749, '支援隊長', '支援隊'),
+(35750, '巫師', '支援隊'),
+(35751, '牧師', '支援隊'),
+(35752, '弓兵隊長', '弓兵隊'),
+(35753, '弓兵隊員', '弓兵隊'),
+(35754, '弩砲', '蜂窩要塞'),
+(35755, '傭兵隊隊長', ''),
+(35756, '傭兵隊士兵', ''),
+(35757, '旗桿', ''),
+(35758, '監督官', '峽谷要塞'),
+(35759, '可疑的商人', '峽谷要塞'),
+(35760, '守備隊長', '峽谷要塞'),
+(35761, '弓兵隊長', '峽谷要塞'),
+(35762, '將軍', '峽谷要塞'),
+(35763, '支援隊長', '峽谷要塞'),
+(35764, '工兵隊管理員', '峽谷要塞'),
+(35765, '補給整備官', '峽谷要塞'),
+(35766, '寶物箱子', ''),
+(35767, '收容所管理人', '峽谷要塞'),
+(35768, '守門人', ''),
+(35769, '守門人', ''),
+(35770, '守門人', ''),
+(35771, '叛亂軍隊長', '峽谷要塞'),
+(35772, '叛亂軍精銳兵', '峽谷要塞'),
+(35773, '叛亂軍士兵', '峽谷要塞'),
+(35774, '禁衛兵', '峽谷要塞'),
+(35775, '護衛兵', '峽谷要塞'),
+(35776, '主機械裝置', '控制室'),
+(35777, '輔助電力裝置', '控制室'),
+(35778, '控制裝置', '控制室'),
+(35779, '電力控制裝置', '控制室'),
+(35780, '砲兵矮人', ''),
+(35781, '偵查高崙', '控制室'),
+(35782, '守備隊長', '守備隊'),
+(35783, '守備隊員', '守備隊'),
+(35784, '守備隊員', '守備隊'),
+(35785, '支援隊長', '支援隊'),
+(35786, '巫師', '支援隊'),
+(35787, '牧師', '支援隊'),
+(35788, '弓兵隊長', '弓兵隊'),
+(35789, '弓兵隊員', '弓兵隊'),
+(35790, '將軍', '將官幕舍'),
+(35791, '將官', '將官幕舍'),
+(35792, '弩砲', '峽谷要塞'),
+(35793, '傭兵隊隊長', ''),
+(35794, '傭兵隊士兵', ''),
+(35795, '旗桿', ''),
+(35796, '監督官', '象牙塔要塞'),
+(35797, '可疑的商人', '象牙塔要塞'),
+(35798, '守備隊長', '象牙塔要塞'),
+(35799, '弓兵隊長', '象牙塔要塞'),
+(35800, '支援隊長', '象牙塔要塞'),
+(35801, '工兵隊管理員', '象牙塔要塞'),
+(35802, '補給整備官', '象牙塔要塞'),
+(35803, '寶物箱子', ''),
+(35804, '收容所管理人', '象牙塔要塞'),
+(35805, '守門人', ''),
+(35806, '守門人', ''),
+(35807, '守門人', ''),
+(35808, '叛亂軍隊長', '象牙塔要塞'),
+(35809, '叛亂軍精銳兵', '象牙塔要塞'),
+(35810, '叛亂軍士兵', '象牙塔要塞'),
+(35811, '禁衛兵', '象牙塔要塞'),
+(35812, '護衛兵', '象牙塔要塞'),
+(35813, '電力控制裝置', '控制室'),
+(35814, '砲兵矮人', ''),
+(35815, '守備隊長', '守備隊'),
+(35816, '守備隊員', '守備隊'),
+(35817, '守備隊員', '守備隊'),
+(35818, '支援隊長', '支援隊'),
+(35819, '巫師', '支援隊'),
+(35820, '牧師', '支援隊'),
+(35821, '弓兵隊長', '弓兵隊'),
+(35822, '弓兵隊員', '弓兵隊'),
+(35823, '弩砲', '象牙塔要塞'),
+(35824, '傭兵隊隊長', ''),
+(35825, '傭兵隊士兵', ''),
+(35826, '旗桿', ''),
+(35827, '監督官', '湖泊要塞'),
+(35828, '可疑的商人', '湖泊要塞'),
+(35829, '守備隊長', '湖泊要塞'),
+(35830, '弓兵隊長', '湖泊要塞'),
+(35831, '支援隊長', '湖泊要塞'),
+(35832, '工兵隊管理員', '湖泊要塞'),
+(35833, '補給整備官', '湖泊要塞'),
+(35834, '寶物箱子', ''),
+(35835, '收容所管理人', '湖泊要塞'),
+(35836, '守門人', ''),
+(35837, '守門人', ''),
+(35838, '守門人', ''),
+(35839, '叛亂軍隊長', '湖泊要塞'),
+(35840, '叛亂軍精銳兵', '湖泊要塞'),
+(35841, '叛亂軍士兵', '湖泊要塞'),
+(35842, '禁衛兵', '湖泊要塞'),
+(35843, '護衛兵', '湖泊要塞'),
+(35844, '電力控制裝置', '控制室'),
+(35845, '砲兵矮人', ''),
+(35846, '守備隊長', '守備隊'),
+(35847, '守備隊員', '守備隊'),
+(35848, '守備隊員', '守備隊'),
+(35849, '支援隊長', '支援隊'),
+(35850, '巫師', '支援隊'),
+(35851, '牧師', '支援隊'),
+(35852, '弓兵隊長', '弓兵隊'),
+(35853, '弓兵隊員', '弓兵隊'),
+(35854, '弩砲', '湖泊要塞'),
+(35855, '傭兵隊隊長', ''),
+(35856, '傭兵隊士兵', ''),
+(35857, '旗桿', ''),
+(35858, '監督官', '盆地要塞'),
+(35859, '可疑的商人', '盆地要塞'),
+(35860, '守備隊長', '盆地要塞'),
+(35861, '弓兵隊長', '盆地要塞'),
+(35862, '將軍', '盆地要塞'),
+(35863, '支援隊長', '盆地要塞'),
+(35864, '工兵隊管理員', '盆地要塞'),
+(35865, '補給整備官', '盆地要塞'),
+(35866, '寶物箱子', ''),
+(35867, '收容所管理人', '盆地要塞'),
+(35868, '守門人', ''),
+(35869, '守門人', ''),
+(35870, '守門人', ''),
+(35871, '叛亂軍隊長', '盆地要塞'),
+(35872, '叛亂軍精銳兵', '盆地要塞'),
+(35873, '叛亂軍士兵', '盆地要塞'),
+(35874, '禁衛兵', '盆地要塞'),
+(35875, '護衛兵', '盆地要塞'),
+(35876, '主機械裝置', '控制室'),
+(35877, '輔助電力裝置', '控制室'),
+(35878, '控制裝置', '控制室'),
+(35879, '電力控制裝置', '控制室'),
+(35880, '砲兵矮人', ''),
+(35881, '偵查高崙', '控制室'),
+(35882, '守備隊長', '守備隊'),
+(35883, '守備隊員', '守備隊'),
+(35884, '守備隊員', '守備隊'),
+(35885, '支援隊長', '支援隊'),
+(35886, '巫師', '支援隊'),
+(35887, '牧師', '支援隊'),
+(35888, '弓兵隊長', '弓兵隊'),
+(35889, '弓兵隊員', '弓兵隊'),
+(35890, '將軍', '將官幕舍'),
+(35891, '將官', '將官幕舍'),
+(35892, '弩砲', '盆地要塞'),
+(35893, '傭兵隊隊長', ''),
+(35894, '傭兵隊士兵', ''),
+(35895, '旗桿', ''),
+(35896, '監督官', '白沙灘要塞'),
+(35897, '可疑的商人', '白沙灘要塞'),
+(35898, '守備隊長', '白沙灘要塞'),
+(35899, '弓兵隊長', '白沙灘要塞'),
+(35900, '支援隊長', '白沙灘要塞'),
+(35901, '工兵隊管理員', '白沙灘要塞'),
+(35902, '補給整備官', '白沙灘要塞'),
+(35903, '寶物箱子', ''),
+(35904, '收容所管理人', '白沙灘要塞'),
+(35905, '守門人', ''),
+(35906, '守門人', ''),
+(35907, '守門人', ''),
+(35908, '叛亂軍隊長', '白沙灘要塞'),
+(35909, '叛亂軍精銳兵', '白沙灘要塞'),
+(35910, '叛亂軍士兵', '白沙灘要塞'),
+(35911, '禁衛兵', '白沙灘要塞'),
+(35912, '護衛兵', '白沙灘要塞'),
+(35913, '電力控制裝置', '控制室'),
+(35914, '砲兵矮人', ''),
+(35915, '守備隊長', '守備隊'),
+(35916, '守備隊員', '守備隊'),
+(35917, '守備隊員', '守備隊'),
+(35918, '支援隊長', '支援隊'),
+(35919, '巫師', '支援隊'),
+(35920, '牧師', '支援隊'),
+(35921, '弓兵隊長', '弓兵隊'),
+(35922, '弓兵隊員', '弓兵隊'),
+(35923, '弩砲', '白沙灘要塞'),
+(35924, '傭兵隊隊長', ''),
+(35925, '傭兵隊士兵', ''),
+(35926, '旗桿', ''),
+(35927, '監督官', '前哨基地要塞'),
+(35928, '可疑的商人', '前哨基地要塞'),
+(35929, '守備隊長', '前哨基地要塞'),
+(35930, '弓兵隊長', '前哨基地要塞'),
+(35931, '將軍', '前哨基地要塞'),
+(35932, '支援隊長', '前哨基地要塞'),
+(35933, '工兵隊管理員', '前哨基地要塞'),
+(35934, '補給整備官', '前哨基地要塞'),
+(35935, '寶物箱子', ''),
+(35936, '收容所管理人', '前哨基地要塞'),
+(35937, '守門人', ''),
+(35938, '守門人', ''),
+(35939, '守門人', ''),
+(35940, '叛亂軍隊長', '前哨基地要塞'),
+(35941, '叛亂軍精銳兵', '前哨基地要塞'),
+(35942, '叛亂軍士兵', '前哨基地要塞'),
+(35943, '禁衛兵', '前哨基地要塞'),
+(35944, '護衛兵', '前哨基地要塞'),
+(35945, '主機械裝置', '控制室'),
+(35946, '輔助電力裝置', '控制室'),
+(35947, '控制裝置', '控制室'),
+(35948, '電力控制裝置', '控制室'),
+(35949, '砲兵矮人', ''),
+(35950, '偵查高崙', '控制室'),
+(35951, '守備隊長', '守備隊'),
+(35952, '守備隊員', '守備隊'),
+(35953, '守備隊員', '守備隊'),
+(35954, '支援隊長', '支援隊'),
+(35955, '巫師', '支援隊'),
+(35956, '牧師', '支援隊'),
+(35957, '弓兵隊長', '弓兵隊'),
+(35958, '弓兵隊員', '弓兵隊'),
+(35959, '將軍', '將官幕舍'),
+(35960, '將官', '將官幕舍'),
+(35961, '弩砲', '前哨基地要塞'),
+(35962, '傭兵隊隊長', ''),
+(35963, '傭兵隊士兵', ''),
+(35964, '旗桿', ''),
+(35965, '監督官', '沼澤要塞'),
+(35966, '可疑的商人', '沼澤要塞'),
+(35967, '守備隊長', '沼澤要塞'),
+(35968, '弓兵隊長', '沼澤要塞'),
+(35969, '將軍', '沼澤要塞'),
+(35970, '支援隊長', '沼澤要塞'),
+(35971, '工兵隊管理員', '沼澤要塞'),
+(35972, '補給整備官', '沼澤要塞'),
+(35973, '寶物箱子', ''),
+(35974, '收容所管理人', '沼澤要塞'),
+(35975, '守門人', ''),
+(35976, '守門人', ''),
+(35977, '守門人', ''),
+(35978, '叛亂軍隊長', '沼澤要塞'),
+(35979, '叛亂軍精銳兵', '沼澤要塞'),
+(35980, '叛亂軍士兵', '沼澤要塞'),
+(35981, '禁衛兵', '沼澤要塞'),
+(35982, '護衛兵', '沼澤要塞'),
+(35983, '主機械裝置', '控制室'),
+(35984, '輔助電力裝置', '控制室'),
+(35985, '控制裝置', '控制室'),
+(35986, '電力控制裝置', '控制室'),
+(35987, '砲兵矮人', ''),
+(35988, '偵查高崙', '控制室'),
+(35989, '守備隊長', '守備隊'),
+(35990, '守備隊員', '守備隊'),
+(35991, '守備隊員', '守備隊'),
+(35992, '支援隊長', '支援隊'),
+(35993, '巫師', '支援隊'),
+(35994, '牧師', '支援隊'),
+(35995, '弓兵隊長', '弓兵隊'),
+(35996, '弓兵隊員', '弓兵隊'),
+(35997, '將軍', '將官幕舍'),
+(35998, '將官', '將官幕舍'),
+(35999, '弩砲', '沼澤要塞'),
+(36000, '傭兵隊隊長', ''),
+(36001, '傭兵隊士兵', ''),
+(36002, '旗桿', ''),
+(36003, '監督官', '遺蹟要塞'),
+(36004, '可疑的商人', '遺蹟要塞'),
+(36005, '守備隊長', '遺蹟要塞'),
+(36006, '弓兵隊長', '遺蹟要塞'),
+(36007, '支援隊長', '遺蹟要塞'),
+(36008, '工兵隊管理員', '遺蹟要塞'),
+(36009, '補給整備官', '遺蹟要塞'),
+(36010, '寶物箱子', ''),
+(36011, '收容所管理人', '遺蹟要塞'),
+(36012, '守門人', ''),
+(36013, '守門人', ''),
+(36014, '守門人', ''),
+(36015, '叛亂軍隊長', '遺蹟要塞'),
+(36016, '叛亂軍精銳兵', '遺蹟要塞'),
+(36017, '叛亂軍士兵', '遺蹟要塞'),
+(36018, '禁衛兵', '遺蹟要塞'),
+(36019, '護衛兵', '遺蹟要塞'),
+(36020, '電力控制裝置', '控制室'),
+(36021, '砲兵矮人', ''),
+(36022, '守備隊長', '守備隊'),
+(36023, '守備隊員', '守備隊'),
+(36024, '守備隊員', '守備隊'),
+(36025, '支援隊長', '支援隊'),
+(36026, '巫師', '支援隊'),
+(36027, '牧師', '支援隊'),
+(36028, '弓兵隊長', '弓兵隊'),
+(36029, '弓兵隊員', '弓兵隊'),
+(36030, '弩砲', '遺蹟要塞'),
+(36031, '傭兵隊隊長', ''),
+(36032, '傭兵隊士兵', ''),
+(36033, '旗桿', ''),
+(36034, '監督官', '芙羅蘭邊境要塞'),
+(36035, '可疑的商人', '芙羅蘭邊境要塞'),
+(36036, '守備隊長', '芙羅蘭邊境要塞'),
+(36037, '弓兵隊長', '芙羅蘭邊境要塞'),
+(36038, '將軍', '芙羅蘭邊境要塞'),
+(36039, '支援隊長', '芙羅蘭邊境要塞'),
+(36040, '工兵隊管理員', '芙羅蘭邊境要塞'),
+(36041, '補給整備官', '芙羅蘭邊境要塞'),
+(36042, '寶物箱子', ''),
+(36043, '收容所管理人', '芙羅蘭邊境要塞'),
+(36044, '守門人', ''),
+(36045, '守門人', ''),
+(36046, '守門人', ''),
+(36047, '叛亂軍隊長', '芙羅蘭邊境要塞'),
+(36048, '叛亂軍精銳兵', '芙羅蘭邊境要塞'),
+(36049, '叛亂軍士兵', '芙羅蘭邊境要塞'),
+(36050, '禁衛兵', '芙羅蘭邊境要塞'),
+(36051, '護衛兵', '芙羅蘭邊境要塞'),
+(36052, '主機械裝置', '控制室'),
+(36053, '輔助電力裝置', '控制室'),
+(36054, '控制裝置', '控制室'),
+(36055, '電力控制裝置', '控制室'),
+(36056, '砲兵矮人', ''),
+(36057, '偵查高崙', '控制室'),
+(36058, '守備隊長', '守備隊'),
+(36059, '守備隊員', '守備隊'),
+(36060, '守備隊員', '守備隊'),
+(36061, '支援隊長', '支援隊'),
+(36062, '巫師', '支援隊'),
+(36063, '牧師', '支援隊'),
+(36064, '弓兵隊長', '弓兵隊'),
+(36065, '弓兵隊員', '弓兵隊'),
+(36066, '將軍', '將官幕舍'),
+(36067, '將官', '將官幕舍'),
+(36068, '弩砲', '芙羅蘭邊境要塞'),
+(36069, '傭兵隊隊長', ''),
+(36070, '傭兵隊士兵', ''),
+(36071, '旗桿', ''),
+(36072, '監督官', '薄霧山脈邊境要塞'),
+(36073, '可疑的商人', '薄霧山脈邊境要塞'),
+(36074, '守備隊長', '薄霧山脈邊境要塞'),
+(36075, '弓兵隊長', '薄霧山脈邊境要塞'),
+(36076, '將軍', '薄霧山脈邊境要塞'),
+(36077, '支援隊長', '薄霧山脈邊境要塞'),
+(36078, '工兵隊管理員', '薄霧山脈邊境要塞'),
+(36079, '補給整備官', '薄霧山脈邊境要塞'),
+(36080, '寶物箱子', ''),
+(36081, '收容所管理人', '薄霧山脈邊境要塞'),
+(36082, '守門人', ''),
+(36083, '守門人', ''),
+(36084, '守門人', ''),
+(36085, '叛亂軍隊長', '薄霧山脈邊境要塞'),
+(36086, '叛亂軍精銳兵', '薄霧山脈邊境要塞'),
+(36087, '叛亂軍士兵', '薄霧山脈邊境要塞'),
+(36088, '禁衛兵', '薄霧山脈邊境要塞'),
+(36089, '護衛兵', '薄霧山脈邊境要塞'),
+(36090, '主機械裝置', '控制室'),
+(36091, '輔助電力裝置', '控制室'),
+(36092, '控制裝置', '控制室'),
+(36093, '電力控制裝置', '控制室'),
+(36094, '砲兵矮人', ''),
+(36095, '偵查高崙', '控制室'),
+(36096, '守備隊長', '守備隊'),
+(36097, '守備隊員', '守備隊'),
+(36098, '守備隊員', '守備隊'),
+(36099, '支援隊長', '支援隊'),
+(36100, '巫師', '支援隊'),
+(36101, '牧師', '支援隊'),
+(36102, '弓兵隊長', '弓兵隊'),
+(36103, '弓兵隊員', '弓兵隊'),
+(36104, '將軍', '將官幕舍'),
+(36105, '將官', '將官幕舍'),
+(36106, '弩砲', '薄霧山脈邊境要塞'),
+(36107, '傭兵隊隊長', ''),
+(36108, '傭兵隊士兵', ''),
+(36109, '旗桿', ''),
+(36110, '監督官', '塔諾邊境要塞'),
+(36111, '可疑的商人', '塔諾邊境要塞'),
+(36112, '守備隊長', '塔諾邊境要塞'),
+(36113, '弓兵隊長', '塔諾邊境要塞'),
+(36114, '支援隊長', '塔諾邊境要塞'),
+(36115, '工兵隊管理員', '塔諾邊境要塞'),
+(36116, '補給整備官', '塔諾邊境要塞'),
+(36117, '寶物箱子', ''),
+(36118, '收容所管理人', '塔諾邊境要塞'),
+(36119, '守門人', ''),
+(36120, '守門人', ''),
+(36121, '守門人', ''),
+(36122, '叛亂軍隊長', '塔諾邊境要塞'),
+(36123, '叛亂軍精銳兵', '塔諾邊境要塞'),
+(36124, '叛亂軍士兵', '塔諾邊境要塞'),
+(36125, '禁衛兵', '塔諾邊境要塞'),
+(36126, '護衛兵', '塔諾邊境要塞'),
+(36127, '電力控制裝置', '控制室'),
+(36128, '砲兵矮人', ''),
+(36129, '守備隊長', '守備隊'),
+(36130, '守備隊員', '守備隊'),
+(36131, '守備隊員', '守備隊'),
+(36132, '支援隊長', '支援隊'),
+(36133, '巫師', '支援隊'),
+(36134, '牧師', '支援隊'),
+(36135, '弓兵隊長', '弓兵隊'),
+(36136, '弓兵隊員', '弓兵隊'),
+(36137, '弩砲', '塔諾邊境要塞'),
+(36138, '傭兵隊隊長', ''),
+(36139, '傭兵隊士兵', ''),
+(36140, '旗桿', ''),
+(36141, '監督官', '巨龍士伯吟邊境要塞'),
+(36142, '可疑的商人', '巨龍士伯吟邊境要塞'),
+(36143, '守備隊長', '巨龍士伯吟邊境要塞'),
+(36144, '弓兵隊長', '巨龍士伯吟邊境要塞'),
+(36145, '支援隊長', '巨龍士伯吟邊境要塞'),
+(36146, '工兵隊管理員', '巨龍士伯吟邊境要塞'),
+(36147, '補給整備官', '巨龍士伯吟邊境要塞'),
+(36148, '寶物箱子', ''),
+(36149, '收容所管理人', '巨龍士伯吟邊境要塞'),
+(36150, '守門人', ''),
+(36151, '守門人', ''),
+(36152, '守門人', ''),
+(36153, '叛亂軍隊長', '巨龍士伯吟邊境要塞'),
+(36154, '叛亂軍精銳兵', '巨龍士伯吟邊境要塞'),
+(36155, '叛亂軍士兵', '巨龍士伯吟邊境要塞'),
+(36156, '禁衛兵', '巨龍士伯吟邊境要塞'),
+(36157, '護衛兵', '巨龍士伯吟邊境要塞'),
+(36158, '電力控制裝置', '控制室'),
+(36159, '砲兵矮人', ''),
+(36160, '守備隊長', '守備隊'),
+(36161, '守備隊員', '守備隊'),
+(36162, '守備隊員', '守備隊'),
+(36163, '支援隊長', '支援隊'),
+(36164, '巫師', '支援隊'),
+(36165, '牧師', '支援隊'),
+(36166, '弓兵隊長', '弓兵隊'),
+(36167, '弓兵隊員', '弓兵隊'),
+(36168, '弩砲', '巨龍士伯吟邊境要塞'),
+(36169, '傭兵隊隊長', ''),
+(36170, '傭兵隊士兵', ''),
+(36171, '旗桿', ''),
+(36172, '監督官', '地龍的邊境要塞'),
+(36173, '可疑的商人', '地龍的邊境要塞'),
+(36174, '守備隊長', '地龍的邊境要塞'),
+(36175, '弓兵隊長', '地龍的邊境要塞'),
+(36176, '將軍', '地龍的邊境要塞'),
+(36177, '支援隊長', '地龍的邊境要塞'),
+(36178, '工兵隊管理員', '地龍的邊境要塞'),
+(36179, '補給整備官', '地龍的邊境要塞'),
+(36180, '寶物箱子', ''),
+(36181, '收容所管理人', '地龍的邊境要塞'),
+(36182, '守門人', ''),
+(36183, '守門人', ''),
+(36184, '守門人', ''),
+(36185, '叛亂軍隊長', '地龍的邊境要塞'),
+(36186, '叛亂軍精銳兵', '地龍的邊境要塞'),
+(36187, '叛亂軍士兵', '地龍的邊境要塞'),
+(36188, '禁衛兵', '地龍的邊境要塞'),
+(36189, '護衛兵', '地龍的邊境要塞'),
+(36190, '主機械裝置', '控制室'),
+(36191, '輔助電力裝置', '控制室'),
+(36192, '控制裝置', '控制室'),
+(36193, '電力控制裝置', '控制室'),
+(36194, '砲兵矮人', ''),
+(36195, '偵查高崙', '控制室'),
+(36196, '守備隊長', '守備隊'),
+(36197, '守備隊員', '守備隊'),
+(36198, '守備隊員', '守備隊'),
+(36199, '支援隊長', '支援隊'),
+(36200, '巫師', '支援隊'),
+(36201, '牧師', '支援隊'),
+(36202, '弓兵隊長', '弓兵隊'),
+(36203, '弓兵隊員', '弓兵隊'),
+(36204, '將軍', '將官幕舍'),
+(36205, '將官', '將官幕舍'),
+(36206, '弩砲', '地龍的邊境要塞'),
+(36207, '傭兵隊隊長', ''),
+(36208, '傭兵隊士兵', ''),
+(36209, '旗桿', ''),
+(36210, '監督官', '西部國境邊境要塞'),
+(36211, '可疑的商人', '西部國境邊境要塞'),
+(36212, '守備隊長', '西部國境邊境要塞'),
+(36213, '弓兵隊長', '西部國境邊境要塞'),
+(36214, '將軍', '西部國境邊境要塞'),
+(36215, '支援隊長', '西部國境邊境要塞'),
+(36216, '工兵隊管理員', '西部國境邊境要塞'),
+(36217, '補給整備官', '西部國境邊境要塞'),
+(36218, '寶物箱子', ''),
+(36219, '收容所管理人', '西部國境邊境要塞'),
+(36220, '守門人', ''),
+(36221, '守門人', ''),
+(36222, '守門人', ''),
+(36223, '叛亂軍隊長', '西部國境邊境要塞'),
+(36224, '叛亂軍精銳兵', '西部國境邊境要塞'),
+(36225, '叛亂軍士兵', '西部國境邊境要塞'),
+(36226, '禁衛兵', '西部國境邊境要塞'),
+(36227, '護衛兵', '西部國境邊境要塞'),
+(36228, '主機械裝置', '控制室'),
+(36229, '輔助電力裝置', '控制室'),
+(36230, '控制裝置', '控制室'),
+(36231, '電力控制裝置', '控制室'),
+(36232, '砲兵矮人', ''),
+(36233, '偵查高崙', '控制室'),
+(36234, '守備隊長', '守備隊'),
+(36235, '守備隊員', '守備隊'),
+(36236, '守備隊員', '守備隊'),
+(36237, '支援隊長', '支援隊'),
+(36238, '巫師', '支援隊'),
+(36239, '牧師', '支援隊'),
+(36240, '弓兵隊長', '弓兵隊'),
+(36241, '弓兵隊員', '弓兵隊'),
+(36242, '將軍', '將官幕舍'),
+(36243, '將官', '將官幕舍'),
+(36244, '弩砲', '西部國境邊境要塞'),
+(36245, '傭兵隊隊長', ''),
+(36246, '傭兵隊士兵', ''),
+(36247, '旗桿', ''),
+(36248, '監督官', '獵人的邊境要塞'),
+(36249, '可疑的商人', '獵人的邊境要塞'),
+(36250, '守備隊長', '獵人的邊境要塞'),
+(36251, '弓兵隊長', '獵人的邊境要塞'),
+(36252, '將軍', '獵人的邊境要塞'),
+(36253, '支援隊長', '獵人的邊境要塞'),
+(36254, '工兵隊管理員', '獵人的邊境要塞'),
+(36255, '補給整備官', '獵人的邊境要塞'),
+(36256, '寶物箱子', ''),
+(36257, '收容所管理人', '獵人的邊境要塞'),
+(36258, '守門人', ''),
+(36259, '守門人', ''),
+(36260, '守門人', ''),
+(36261, '叛亂軍隊長', '獵人的邊境要塞'),
+(36262, '叛亂軍精銳兵', '獵人的邊境要塞'),
+(36263, '叛亂軍士兵', '獵人的邊境要塞'),
+(36264, '禁衛兵', '獵人的邊境要塞'),
+(36265, '護衛兵', '獵人的邊境要塞'),
+(36266, '主機械裝置', '控制室'),
+(36267, '輔助電力裝置', '控制室'),
+(36268, '控制裝置', '控制室'),
+(36269, '電力控制裝置', '控制室'),
+(36270, '砲兵矮人', ''),
+(36271, '偵查高崙', '控制室'),
+(36272, '守備隊長', '守備隊'),
+(36273, '守備隊員', '守備隊'),
+(36274, '守備隊員', '守備隊'),
+(36275, '支援隊長', '支援隊'),
+(36276, '巫師', '支援隊'),
+(36277, '牧師', '支援隊'),
+(36278, '弓兵隊長', '弓兵隊'),
+(36279, '弓兵隊員', '弓兵隊'),
+(36280, '將軍', '將官幕舍'),
+(36281, '將官', '將官幕舍'),
+(36282, '弩砲', '獵人的邊境要塞'),
+(36283, '傭兵隊隊長', ''),
+(36284, '傭兵隊士兵', ''),
+(36285, '旗桿', ''),
+(36286, '監督官', '平原邊境要塞'),
+(36287, '可疑的商人', '平原邊境要塞'),
+(36288, '守備隊長', '平原邊境要塞'),
+(36289, '弓兵隊長', '平原邊境要塞'),
+(36290, '支援隊長', '平原邊境要塞'),
+(36291, '工兵隊管理員', '平原邊境要塞'),
+(36292, '補給整備官', '平原邊境要塞'),
+(36293, '寶物箱子', ''),
+(36294, '收容所管理人', '平原邊境要塞'),
+(36295, '守門人', ''),
+(36296, '守門人', ''),
+(36297, '守門人', ''),
+(36298, '叛亂軍隊長', '平原邊境要塞'),
+(36299, '叛亂軍精銳兵', '平原邊境要塞'),
+(36300, '叛亂軍士兵', '平原邊境要塞'),
+(36301, '禁衛兵', '平原邊境要塞'),
+(36302, '護衛兵', '平原邊境要塞'),
+(36303, '電力控制裝置', '控制室'),
+(36304, '砲兵矮人', ''),
+(36305, '守備隊長', '守備隊'),
+(36306, '守備隊員', '守備隊'),
+(36307, '守備隊員', '守備隊'),
+(36308, '支援隊長', '支援隊'),
+(36309, '巫師', '支援隊'),
+(36310, '牧師', '支援隊'),
+(36311, '弓兵隊長', '弓兵隊'),
+(36312, '弓兵隊員', '弓兵隊'),
+(36313, '弩砲', '平原邊境要塞'),
+(36314, '傭兵隊隊長', ''),
+(36315, '傭兵隊士兵', ''),
+(36316, '旗桿', ''),
+(36317, '監督官', '死靈的邊境要塞'),
+(36318, '可疑的商人', '死靈的邊境要塞'),
+(36319, '守備隊長', '死靈的邊境要塞'),
+(36320, '弓兵隊長', '死靈的邊境要塞'),
+(36321, '將軍', '死靈的邊境要塞'),
+(36322, '支援隊長', '死靈的邊境要塞'),
+(36323, '工兵隊管理員', '死靈的邊境要塞'),
+(36324, '補給整備官', '死靈的邊境要塞'),
+(36325, '寶物箱子', ''),
+(36326, '收容所管理人', '死靈的邊境要塞'),
+(36327, '守門人', ''),
+(36328, '守門人', ''),
+(36329, '守門人', ''),
+(36330, '叛亂軍隊長', '死靈的邊境要塞'),
+(36331, '叛亂軍精銳兵', '死靈的邊境要塞'),
+(36332, '叛亂軍士兵', '死靈的邊境要塞'),
+(36333, '禁衛兵', '死靈的邊境要塞'),
+(36334, '護衛兵', '死靈的邊境要塞'),
+(36335, '主機械裝置', '控制室'),
+(36336, '輔助電力裝置', '控制室'),
+(36337, '控制裝置', '控制室'),
+(36338, '電力控制裝置', '控制室'),
+(36339, '砲兵矮人', ''),
+(36340, '偵查高崙', '控制室'),
+(36341, '守備隊長', '守備隊'),
+(36342, '守備隊員', '守備隊'),
+(36343, '守備隊員', '守備隊'),
+(36344, '支援隊長', '支援隊'),
+(36345, '巫師', '支援隊'),
+(36346, '牧師', '支援隊'),
+(36347, '弓兵隊長', '弓兵隊'),
+(36348, '弓兵隊員', '弓兵隊'),
+(36349, '將軍', '將官幕舍'),
+(36350, '將官', '將官幕舍'),
+(36351, '弩砲', '死靈的邊境要塞'),
+(36352, '傭兵隊隊長', ''),
+(36353, '傭兵隊士兵', ''),
+(36354, '旗桿', ''),
+(36355, '監督官', '聖者的邊境要塞'),
+(36356, '可疑的商人', '聖者的邊境要塞'),
+(36357, '守備隊長', '聖者的邊境要塞'),
+(36358, '弓兵隊長', '聖者的邊境要塞'),
+(36359, '將軍', '聖者的邊境要塞'),
+(36360, '支援隊長', '聖者的邊境要塞'),
+(36361, '工兵隊管理員', '聖者的邊境要塞'),
+(36362, '補給整備官', '聖者的邊境要塞'),
+(36363, '寶物箱子', ''),
+(36364, '收容所管理人', '聖者的邊境要塞'),
+(36365, '守門人', ''),
+(36366, '守門人', ''),
+(36367, '守門人', ''),
+(36368, '叛亂軍隊長', '聖者的邊境要塞'),
+(36369, '叛亂軍精銳兵', '聖者的邊境要塞'),
+(36370, '叛亂軍士兵', '聖者的邊境要塞'),
+(36371, '禁衛兵', '聖者的邊境要塞'),
+(36372, '護衛兵', '聖者的邊境要塞'),
+(36373, '主機械裝置', '控制室'),
+(36374, '輔助電力裝置', '控制室'),
+(36375, '控制裝置', '控制室'),
+(36376, '電力控制裝置', '控制室'),
+(36377, '砲兵矮人', ''),
+(36378, '偵查高崙', '控制室'),
+(36379, '守備隊長', '守備隊'),
+(36380, '守備隊員', '守備隊'),
+(36381, '守備隊員', '守備隊'),
+(36382, '支援隊長', '支援隊'),
+(36383, '巫師', '支援隊'),
+(36384, '牧師', '支援隊'),
+(36385, '弓兵隊長', '弓兵隊'),
+(36386, '弓兵隊員', '弓兵隊'),
+(36387, '將軍', '將官幕舍'),
+(36388, '將官', '將官幕舍'),
+(36389, '弩砲', '聖者的邊境要塞'),
+(36390, '傭兵隊隊長', ''),
+(36391, '傭兵隊士兵', ''),
+(36392, '工作炸彈', ''),
+(36393, '特使', '古魯丁'),
+(36394, '特使', '古魯丁'),
+(36395, '特使', '狄恩'),
+(36396, '特使', '奇岩'),
+(36397, '特使', '歐瑞'),
+(36398, '特使', '亞丁'),
+(36399, '特使', '亞丁'),
+(36400, '特使', '因納得立'),
+(36401, '特使', '高達特'),
+(36402, '奧林匹亞執行者', ''),
+(36403, '監獄管理員', '古魯丁'),
+(36404, '監獄管理員', '狄恩'),
+(36405, '監獄管理員', '奇岩'),
+(36406, '監獄管理員', '歐瑞'),
+(36407, '監獄管理員', '亞丁'),
+(36408, '監獄管理員', '因納得立'),
+(36409, '監獄管理員', '高達特'),
+(36410, '監獄管理員', '魯因'),
+(36411, '監獄管理員', '修加特'),
+(36412, '要塞陷阱', ''),
+(36413, '要塞陷阱', ''),
+(36414, '要塞陷阱', ''),
+(36415, '要塞陷阱', ''),
+(36416, '要塞陷阱', ''),
+(36417, '要塞陷阱', ''),
+(36418, '要塞陷阱', ''),
+(36419, '要塞陷阱', ''),
+(36420, '要塞陷阱', ''),
+(36421, '要塞陷阱', ''),
+(36422, '要塞陷阱', ''),
+(36423, '要塞陷阱', ''),
+(36424, '要塞陷阱', ''),
+(36425, '要塞陷阱', ''),
+(36426, '要塞陷阱', ''),
+(36427, '要塞陷阱', ''),
+(36428, '要塞陷阱', ''),
+(36429, '要塞陷阱', ''),
+(36430, '要塞陷阱', ''),
+(36431, '要塞陷阱', ''),
+(36432, '要塞陷阱', ''),
+(36433, '特使', '魯因'),
+(36434, '特使', '修加特'),
+(36435, '特使', '古魯丁'),
+(36436, '特使', '狄恩'),
+(36437, '特使', '古魯丁'),
+(36438, '特使', '歐瑞'),
+(36439, '特使', '狄恩'),
+(36440, '特使', '奇岩'),
+(36441, '特使', '狄恩'),
+(36442, '特使', '歐瑞'),
+(36443, '特使', '歐瑞'),
+(36444, '特使', '奇岩'),
+(36445, '特使', '亞丁'),
+(36446, '特使', '歐瑞'),
+(36447, '特使', '高達特'),
+(36448, '特使', '亞丁'),
+(36449, '特使', '奇岩'),
+(36450, '特使', '因納得立'),
+(36451, '特使', '奇岩'),
+(36452, '特使', '魯因'),
+(36453, '特使', '高達特'),
+(36454, '特使', '魯因'),
+(36455, '特使', '修加特'),
+(36456, '莊園管理員', '亞丁'),
+(36457, '飛龍管理員', '野營要塞'),
+(36458, '飛龍管理員', '古魯丁南部要塞'),
+(36459, '飛龍管理員', '蜂窩要塞'),
+(36460, '飛龍管理員', '峽谷要塞'),
+(36461, '飛龍管理員', '象牙塔要塞'),
+(36462, '飛龍管理員', '湖泊要塞'),
+(36463, '飛龍管理員', '盆地要塞'),
+(36464, '飛龍管理員', '白沙灘要塞'),
+(36465, '飛龍管理員', '前哨基地要塞'),
+(36466, '飛龍管理員', '沼澤要塞'),
+(36467, '飛龍管理員', '遺蹟要塞'),
+(36468, '飛龍管理員', '芙羅蘭邊境要塞'),
+(36469, '飛龍管理員', '薄霧山脈邊境要塞'),
+(36470, '飛龍管理員', '塔諾邊境要塞'),
+(36471, '飛龍管理員', '巨龍士伯吟邊境要塞'),
+(36472, '飛龍管理員', '地龍的邊境要塞'),
+(36473, '飛龍管理員', '西部國境邊境要塞'),
+(36474, '飛龍管理員', '獵人的邊境要塞'),
+(36475, '飛龍管理員', '平原邊境要塞'),
+(36476, '飛龍管理員', '死靈的邊境要塞'),
+(36477, '飛龍管理員', '聖者的邊境要塞'),
+(36478, '米奇', '寵物交換員'),
+(36479, '雷皮都斯', '聲望管理員'),
+(36480, '史奇皮歐', '聲望管理員'),
+(36481, '傭兵隊隊長', '古魯丁'),
+(36482, '傭兵隊隊長', '狄恩'),
+(36483, '傭兵隊隊長', '奇岩'),
+(36484, '傭兵隊隊長', '歐瑞'),
+(36485, '傭兵隊隊長', '亞丁'),
+(36486, '傭兵隊隊長', '因納得立'),
+(36487, '傭兵隊隊長', '高達特'),
+(36488, '傭兵隊隊長', '魯因'),
+(36489, '傭兵隊隊長', '修加特'),
+(36490, '領地管理員', '古魯丁'),
+(36491, '領地管理員', '狄恩'),
+(36492, '領地管理員', '奇岩'),
+(36493, '領地管理員', '歐瑞'),
+(36494, '領地管理員', '亞丁'),
+(36495, '領地管理員', '因納得立'),
+(36496, '領地管理員', '高達特'),
+(36497, '領地管理員', '魯因'),
+(36498, '領地管理員', '修加特'),
+(36499, '領地投石機', '古魯丁'),
+(36500, '領地投石機', '狄恩'),
+(36501, '領地投石機', '奇岩'),
+(36502, '領地投石機', '歐瑞'),
+(36503, '領地投石機', '亞丁'),
+(36504, '領地投石機', '因納得立'),
+(36505, '領地投石機', '高達特'),
+(36506, '領地投石機', '魯因'),
+(36507, '領地投石機', '修加特'),
+(36508, '軍事聯合長', '古魯丁'),
+(36509, '領地警衛', '古魯丁'),
+(36510, '宗教聯合長', '古魯丁'),
+(36511, '領地護衛兵', '古魯丁'),
+(36512, '領地警衛', '古魯丁'),
+(36513, '經濟聯合長', '古魯丁'),
+(36514, '軍事聯合長', '狄恩'),
+(36515, '領地警衛', '狄恩'),
+(36516, '宗教聯合長', '狄恩'),
+(36517, '領地護衛兵', '狄恩'),
+(36518, '領地警衛', '狄恩'),
+(36519, '經濟聯合長', '狄恩'),
+(36520, '軍事聯合長', '奇岩'),
+(36521, '領地警衛', '奇岩'),
+(36522, '宗教聯合長', '奇岩'),
+(36523, '領地護衛兵', '奇岩'),
+(36524, '領地警衛', '奇岩'),
+(36525, '經濟聯合長', '奇岩'),
+(36526, '軍事聯合長', '歐瑞'),
+(36527, '領地警衛', '歐瑞'),
+(36528, '宗教聯合長', '歐瑞'),
+(36529, '領地護衛兵', '歐瑞'),
+(36530, '領地警衛', '歐瑞'),
+(36531, '經濟聯合長', '歐瑞'),
+(36532, '軍事聯合長', '亞丁'),
+(36533, '領地警衛', '亞丁'),
+(36534, '宗教聯合長', '亞丁'),
+(36535, '領地護衛兵', '亞丁'),
+(36536, '領地警衛', '亞丁'),
+(36537, '經濟聯合長', '亞丁'),
+(36538, '軍事聯合長', '因納得立'),
+(36539, '領地警衛', '因納得立'),
+(36540, '宗教聯合長', '因納得立'),
+(36541, '領地護衛兵', '因納得立'),
+(36542, '領地警衛', '因納得立'),
+(36543, '經濟聯合長', '因納得立'),
+(36544, '軍事聯合長', '高達特'),
+(36545, '領地警衛', '高達特'),
+(36546, '宗教聯合長', '高達特'),
+(36547, '領地護衛兵', '高達特'),
+(36548, '領地警衛', '高達特'),
+(36549, '經濟聯合長', '高達特'),
+(36550, '軍事聯合長', '魯因'),
+(36551, '領地警衛', '魯因'),
+(36552, '宗教聯合長', '魯因'),
+(36553, '領地護衛兵', '魯因'),
+(36554, '領地警衛', '魯因'),
+(36555, '經濟聯合長', '魯因'),
+(36556, '軍事聯合長', '修加特'),
+(36557, '領地警衛', '修加特'),
+(36558, '宗教聯合長', '修加特'),
+(36559, '領地護衛兵', '修加特'),
+(36560, '領地警衛', '修加特'),
+(36561, '經濟聯合長', '修加特'),
+(36562, '被迷惑的騎士', '犧牲者'),
+(36563, '被迷惑的遊俠', '犧牲者'),
+(36564, '被迷惑的法師', '犧牲者'),
+(36565, '被迷惑的鬥士', '犧牲者'),
+(36566, '被迷惑的騎士', '犧牲者'),
+(36567, '被迷惑的遊俠', '犧牲者'),
+(36568, '被迷惑的法師', '犧牲者'),
+(36569, '被迷惑的鬥士', '犧牲者'),
+(36570, '金剛砂凝結器', '裂縫'),
+(36571, '旋流', '裂縫'),
+(36572, '古魯丁的守護物', ''),
+(36573, '狄恩的守護物', ''),
+(36574, '奇岩的守護物', ''),
+(36575, '歐瑞的守護物', ''),
+(36576, '亞丁的守護物', ''),
+(36577, '因納得立的守護物', ''),
+(36578, '高達特的守護物', ''),
+(36579, '魯因的守護物', ''),
+(36580, '修加特的守護物', ''),
+(36581, '領地投石機', '古魯丁'),
+(36582, '領地投石機', '狄恩'),
+(36583, '領地投石機', '奇岩'),
+(36584, '領地投石機', '歐瑞'),
+(36585, '領地投石機', '亞丁'),
+(36586, '領地投石機', '因納得立'),
+(36587, '領地投石機', '高達特'),
+(36588, '領地投石機', '魯因'),
+(36589, '領地投石機', '修加特'),
+(36590, '前哨基地', ''),
+(36591, '補給品保管箱', ''),
+(36592, '補給品保管箱', ''),
+(36593, '補給品保管箱', ''),
+(36594, '補給品保管箱', ''),
+(36595, '補給品保管箱', ''),
+(36596, '補給品保管箱', ''),
+(36597, '補給品保管箱', ''),
+(36598, '補給品保管箱', ''),
+(36599, '補給品保管箱', ''),
+(14001, '起死回生者', ''),
+(14002, '起死回生者', ''),
+(14003, '起死回生者', ''),
+(14004, '起死回生者', ''),
+(14005, '起死回生者', ''),
+(14006, '起死回生者', ''),
+(14007, '起死回生者', ''),
+(14008, '起死回生者', ''),
+(14009, '起死回生者', ''),
+(14010, '起死回生者', ''),
+(14011, '起死回生者', ''),
+(14012, '起死回生者', ''),
+(14013, '起死回生者', ''),
+(14014, '起死回生者', ''),
+(14015, '起死回生者', ''),
+(14016, '起死回生者', ''),
+(14017, '起死回生者', ''),
+(14018, '起死回生者', ''),
+(14019, '起死回生者', ''),
+(14020, '起死回生者', ''),
+(14021, '起死回生者', ''),
+(14022, '起死回生者', ''),
+(14023, '起死回生者', ''),
+(14024, '起死回生者', ''),
+(14025, '起死回生者', ''),
+(14026, '起死回生者', ''),
+(14027, '起死回生者', ''),
+(14028, '起死回生者', ''),
+(14029, '起死回生者', ''),
+(14030, '起死回生者', ''),
+(14031, '起死回生者', ''),
+(14032, '起死回生者', ''),
+(14033, '起死回生者', ''),
+(14034, '起死回生者', ''),
+(14035, '起死回生者', ''),
+(14036, '起死回生者', ''),
+(14037, '起死回生者', ''),
+(14038, '腐屍', ''),
+(14039, '腐屍', ''),
+(14040, '腐屍', ''),
+(14041, '腐屍', ''),
+(14042, '腐屍', ''),
+(14043, '腐屍', ''),
+(14044, '腐屍', ''),
+(14045, '腐屍', ''),
+(14046, '腐屍', ''),
+(14047, '腐屍', ''),
+(14048, '腐屍', ''),
+(14049, '腐屍', ''),
+(14050, '腐屍', ''),
+(14051, '腐屍', ''),
+(14052, '腐屍', ''),
+(14053, '腐屍', ''),
+(14054, '腐屍', ''),
+(14055, '腐屍', ''),
+(14056, '腐屍', ''),
+(14057, '腐屍', ''),
+(14058, '腐屍', ''),
+(14059, '腐屍', ''),
+(14060, '腐屍', ''),
+(14061, '腐屍', ''),
+(14062, '腐屍', ''),
+(14063, '腐屍', ''),
+(14064, '腐屍', ''),
+(14065, '腐屍', ''),
+(14066, '腐屍', ''),
+(14067, '腐屍', ''),
+(14068, '腐屍', ''),
+(14069, '腐屍', ''),
+(14070, '腐屍', ''),
+(14071, '腐屍', ''),
+(14072, '腐屍', ''),
+(14073, '腐屍', ''),
+(14074, '受詛咒者', ''),
+(14075, '受詛咒者', ''),
+(14076, '受詛咒者', ''),
+(14077, '受詛咒者', ''),
+(14078, '受詛咒者', ''),
+(14079, '受詛咒者', ''),
+(14080, '受詛咒者', ''),
+(14081, '受詛咒者', ''),
+(14082, '受詛咒者', ''),
+(14083, '受詛咒者', ''),
+(14084, '受詛咒者', ''),
+(14085, '受詛咒者', ''),
+(14086, '受詛咒者', ''),
+(14087, '受詛咒者', ''),
+(14088, '受詛咒者', ''),
+(14089, '受詛咒者', ''),
+(14090, '受詛咒者', ''),
+(14091, '受詛咒者', ''),
+(14092, '受詛咒者', ''),
+(14093, '受詛咒者', ''),
+(14094, '受詛咒者', ''),
+(14095, '受詛咒者', ''),
+(14096, '受詛咒者', ''),
+(14097, '受詛咒者', ''),
+(14098, '受詛咒者', ''),
+(14099, '受詛咒者', ''),
+(14100, '受詛咒者', ''),
+(14101, '受詛咒者', ''),
+(14102, '受詛咒者', ''),
+(14103, '受詛咒者', ''),
+(14104, '受詛咒者', ''),
+(14105, '受詛咒者', ''),
+(14106, '受詛咒者', ''),
+(14107, '受詛咒者', ''),
+(14108, '受詛咒者', ''),
+(14109, '受詛咒者', ''),
+(14110, '受詛咒者', ''),
+(14111, '戰鬥貓', ''),
+(14112, '戰鬥貓', ''),
+(14113, '戰鬥貓', ''),
+(14114, '戰鬥貓', ''),
+(14115, '戰鬥貓', ''),
+(14116, '戰鬥貓', ''),
+(14117, '戰鬥貓', ''),
+(14118, '戰鬥貓', ''),
+(14119, '戰鬥貓', ''),
+(14120, '戰鬥貓', ''),
+(14121, '戰鬥貓', ''),
+(14122, '戰鬥貓', ''),
+(14123, '戰鬥貓', ''),
+(14124, '戰鬥貓', ''),
+(14125, '戰鬥貓', ''),
+(14126, '戰鬥貓', ''),
+(14127, '戰鬥貓', ''),
+(14128, '戰鬥貓', ''),
+(14129, '戰鬥貓', ''),
+(14130, '戰鬥貓', ''),
+(14131, '戰鬥貓', ''),
+(14132, '戰鬥貓', ''),
+(14133, '戰鬥貓', ''),
+(14134, '戰鬥貓', ''),
+(14135, '戰鬥貓', ''),
+(14136, '戰鬥貓', ''),
+(14137, '戰鬥貓', ''),
+(14138, '戰鬥貓', ''),
+(14139, '戰鬥貓', ''),
+(14140, '戰鬥貓', ''),
+(14141, '戰鬥貓', ''),
+(14142, '戰鬥貓', ''),
+(14143, '戰鬥貓', ''),
+(14144, '戰鬥貓', ''),
+(14145, '戰鬥貓', ''),
+(14146, '戰鬥貓', ''),
+(14147, '戰鬥貓', ''),
+(14148, '戰鬥貓', ''),
+(14149, '戰鬥貓', ''),
+(14150, '戰鬥貓', ''),
+(14151, '戰鬥貓', ''),
+(14152, '戰鬥貓', ''),
+(14153, '戰鬥貓', ''),
+(14154, '戰鬥貓', ''),
+(14155, '戰鬥貓', ''),
+(14156, '戰鬥貓', ''),
+(14157, '戰鬥貓', ''),
+(14158, '戰鬥貓', ''),
+(14159, '魔法貓', ''),
+(14160, '魔法貓', ''),
+(14161, '魔法貓', ''),
+(14162, '魔法貓', ''),
+(14163, '魔法貓', ''),
+(14164, '魔法貓', ''),
+(14165, '魔法貓', ''),
+(14166, '魔法貓', ''),
+(14167, '魔法貓', ''),
+(14168, '魔法貓', ''),
+(14169, '魔法貓', ''),
+(14170, '魔法貓', ''),
+(14171, '魔法貓', ''),
+(14172, '魔法貓', ''),
+(14173, '魔法貓', ''),
+(14174, '魔法貓', ''),
+(14175, '魔法貓', ''),
+(14176, '魔法貓', ''),
+(14177, '魔法貓', ''),
+(14178, '魔法貓', ''),
+(14179, '魔法貓', ''),
+(14180, '魔法貓', ''),
+(14181, '魔法貓', ''),
+(14182, '魔法貓', ''),
+(14183, '魔法貓', ''),
+(14184, '魔法貓', ''),
+(14185, '魔法貓', ''),
+(14186, '魔法貓', ''),
+(14187, '魔法貓', ''),
+(14188, '魔法貓', ''),
+(14189, '魔法貓', ''),
+(14190, '魔法貓', ''),
+(14191, '魔法貓', ''),
+(14192, '魔法貓', ''),
+(14193, '魔法貓', ''),
+(14194, '魔法貓', ''),
+(14195, '魔法貓', ''),
+(14196, '魔法貓', ''),
+(14197, '魔法貓', ''),
+(14198, '魔法貓', ''),
+(14199, '魔法貓', ''),
+(14200, '魔法貓', ''),
+(14201, '魔法貓', ''),
+(14202, '魔法貓', ''),
+(14203, '魔法貓', ''),
+(14204, '魔法貓', ''),
+(14205, '魔法貓', ''),
+(14206, '魔法貓', ''),
+(14207, '銀色貓', ''),
+(14208, '銀色貓', ''),
+(14209, '銀色貓', ''),
+(14210, '銀色貓', ''),
+(14211, '銀色貓', ''),
+(14212, '銀色貓', ''),
+(14213, '銀色貓', ''),
+(14214, '銀色貓', ''),
+(14215, '銀色貓', ''),
+(14216, '銀色貓', ''),
+(14217, '銀色貓', ''),
+(14218, '銀色貓', ''),
+(14219, '銀色貓', ''),
+(14220, '銀色貓', ''),
+(14221, '銀色貓', ''),
+(14222, '銀色貓', ''),
+(14223, '銀色貓', ''),
+(14224, '銀色貓', ''),
+(14225, '銀色貓', ''),
+(14226, '銀色貓', ''),
+(14227, '銀色貓', ''),
+(14228, '銀色貓', ''),
+(14229, '銀色貓', ''),
+(14230, '銀色貓', ''),
+(14231, '銀色貓', ''),
+(14232, '銀色貓', ''),
+(14233, '銀色貓', ''),
+(14234, '銀色貓', ''),
+(14235, '銀色貓', ''),
+(14236, '銀色貓', ''),
+(14237, '銀色貓', ''),
+(14238, '銀色貓', ''),
+(14239, '銀色貓', ''),
+(14240, '銀色貓', ''),
+(14241, '銀色貓', ''),
+(14242, '銀色貓', ''),
+(14243, '銀色貓', ''),
+(14244, '銀色貓', ''),
+(14245, '銀色貓', ''),
+(14246, '銀色貓', ''),
+(14247, '銀色貓', ''),
+(14248, '銀色貓', ''),
+(14249, '銀色貓', ''),
+(14250, '銀色貓', ''),
+(14251, '皇后貓', ''),
+(14252, '皇后貓', ''),
+(14253, '皇后貓', ''),
+(14254, '皇后貓', ''),
+(14255, '皇后貓', ''),
+(14256, '皇后貓', ''),
+(14257, '皇后貓', ''),
+(14258, '皇后貓', ''),
+(14259, '皇后貓', ''),
+(14260, '皇后貓', ''),
+(14265, '皇后貓', ''),
+(14266, '皇后貓', ''),
+(14267, '皇后貓', ''),
+(14268, '皇后貓', ''),
+(14269, '皇后貓', ''),
+(14270, '皇后貓', ''),
+(14271, '皇后貓', ''),
+(14272, '皇后貓', ''),
+(14273, '皇后貓', ''),
+(14274, '皇后貓', ''),
+(14275, '皇后貓', ''),
+(14276, '皇后貓', ''),
+(14277, '皇后貓', ''),
+(14278, '皇后貓', ''),
+(14279, '皇后貓', ''),
+(14280, '皇后貓', ''),
+(14281, '皇后貓', ''),
+(14282, '皇后貓', ''),
+(14283, '皇后貓', ''),
+(14284, '皇后貓', ''),
+(14285, '皇后貓', ''),
+(14286, '皇后貓', ''),
+(14287, '皇后貓', ''),
+(14288, '皇后貓', ''),
+(14289, '皇后貓', ''),
+(14290, '皇后貓', ''),
+(14291, '皇后貓', ''),
+(14292, '皇后貓', ''),
+(14293, '皇后貓', ''),
+(14294, '皇后貓', ''),
+(14295, '戰鬥獨角獸', ''),
+(14296, '戰鬥獨角獸', ''),
+(14297, '戰鬥獨角獸', ''),
+(14298, '戰鬥獨角獸', ''),
+(14299, '戰鬥獨角獸', ''),
+(14300, '戰鬥獨角獸', ''),
+(14301, '戰鬥獨角獸', ''),
+(14302, '戰鬥獨角獸', ''),
+(14303, '戰鬥獨角獸', ''),
+(14304, '戰鬥獨角獸', ''),
+(14305, '戰鬥獨角獸', ''),
+(14306, '戰鬥獨角獸', ''),
+(14307, '戰鬥獨角獸', ''),
+(14308, '戰鬥獨角獸', ''),
+(14309, '戰鬥獨角獸', ''),
+(14310, '戰鬥獨角獸', ''),
+(14311, '戰鬥獨角獸', ''),
+(14312, '戰鬥獨角獸', ''),
+(14313, '戰鬥獨角獸', ''),
+(14314, '戰鬥獨角獸', ''),
+(14315, '戰鬥獨角獸', ''),
+(14316, '戰鬥獨角獸', ''),
+(14317, '戰鬥獨角獸', ''),
+(14318, '戰鬥獨角獸', ''),
+(14319, '戰鬥獨角獸', ''),
+(14320, '戰鬥獨角獸', ''),
+(14321, '戰鬥獨角獸', ''),
+(14322, '戰鬥獨角獸', ''),
+(14323, '戰鬥獨角獸', ''),
+(14324, '戰鬥獨角獸', ''),
+(14325, '戰鬥獨角獸', ''),
+(14326, '戰鬥獨角獸', ''),
+(14327, '戰鬥獨角獸', ''),
+(14328, '戰鬥獨角獸', ''),
+(14329, '戰鬥獨角獸', ''),
+(14330, '戰鬥獨角獸', ''),
+(14331, '戰鬥獨角獸', ''),
+(14332, '戰鬥獨角獸', ''),
+(14333, '戰鬥獨角獸', ''),
+(14334, '戰鬥獨角獸', ''),
+(14335, '戰鬥獨角獸', ''),
+(14336, '戰鬥獨角獸', ''),
+(14337, '戰鬥獨角獸', ''),
+(14338, '戰鬥獨角獸', ''),
+(14339, '戰鬥獨角獸', ''),
+(14340, '戰鬥獨角獸', ''),
+(14341, '戰鬥獨角獸', ''),
+(14342, '戰鬥獨角獸', ''),
+(14343, '夢幻獨角獸', ''),
+(14344, '夢幻獨角獸', ''),
+(14345, '夢幻獨角獸', ''),
+(14346, '夢幻獨角獸', ''),
+(14347, '夢幻獨角獸', ''),
+(14348, '夢幻獨角獸', ''),
+(14349, '夢幻獨角獸', ''),
+(14350, '夢幻獨角獸', ''),
+(14351, '夢幻獨角獸', ''),
+(14352, '夢幻獨角獸', ''),
+(14353, '夢幻獨角獸', ''),
+(14354, '夢幻獨角獸', ''),
+(14355, '夢幻獨角獸', ''),
+(14356, '夢幻獨角獸', ''),
+(14357, '夢幻獨角獸', ''),
+(14358, '夢幻獨角獸', ''),
+(14359, '夢幻獨角獸', ''),
+(14360, '夢幻獨角獸', ''),
+(14361, '夢幻獨角獸', ''),
+(14362, '夢幻獨角獸', ''),
+(14363, '夢幻獨角獸', ''),
+(14364, '夢幻獨角獸', ''),
+(14365, '夢幻獨角獸', ''),
+(14366, '夢幻獨角獸', ''),
+(14367, '夢幻獨角獸', ''),
+(14368, '夢幻獨角獸', ''),
+(14369, '夢幻獨角獸', ''),
+(14370, '夢幻獨角獸', ''),
+(14371, '夢幻獨角獸', ''),
+(14372, '夢幻獨角獸', ''),
+(14373, '夢幻獨角獸', ''),
+(14374, '夢幻獨角獸', ''),
+(14375, '夢幻獨角獸', ''),
+(14376, '夢幻獨角獸', ''),
+(14377, '夢幻獨角獸', ''),
+(14378, '夢幻獨角獸', ''),
+(14379, '夢幻獨角獸', ''),
+(14380, '夢幻獨角獸', ''),
+(14381, '夢幻獨角獸', ''),
+(14382, '夢幻獨角獸', ''),
+(14383, '夢幻獨角獸', ''),
+(14384, '夢幻獨角獸', ''),
+(14385, '夢幻獨角獸', ''),
+(14386, '夢幻獨角獸', ''),
+(14387, '夢幻獨角獸', ''),
+(14388, '夢幻獨角獸', ''),
+(14389, '夢幻獨角獸', ''),
+(14390, '夢幻獨角獸', ''),
+(14391, '藍眼獨角獸', ''),
+(14392, '藍眼獨角獸', ''),
+(14393, '藍眼獨角獸', ''),
+(14394, '藍眼獨角獸', ''),
+(14395, '藍眼獨角獸', ''),
+(14396, '藍眼獨角獸', ''),
+(14397, '藍眼獨角獸', ''),
+(14398, '藍眼獨角獸', ''),
+(14399, '藍眼獨角獸', ''),
+(14400, '藍眼獨角獸', ''),
+(14401, '藍眼獨角獸', ''),
+(14402, '藍眼獨角獸', ''),
+(14403, '藍眼獨角獸', ''),
+(14404, '藍眼獨角獸', ''),
+(14405, '藍眼獨角獸', ''),
+(14406, '藍眼獨角獸', ''),
+(14407, '藍眼獨角獸', ''),
+(14408, '藍眼獨角獸', ''),
+(14409, '藍眼獨角獸', ''),
+(14410, '藍眼獨角獸', ''),
+(14411, '藍眼獨角獸', ''),
+(14412, '藍眼獨角獸', ''),
+(14413, '藍眼獨角獸', ''),
+(14414, '藍眼獨角獸', ''),
+(14415, '藍眼獨角獸', ''),
+(14416, '藍眼獨角獸', ''),
+(14417, '藍眼獨角獸', ''),
+(14418, '藍眼獨角獸', ''),
+(14419, '藍眼獨角獸', ''),
+(14420, '藍眼獨角獸', ''),
+(14421, '藍眼獨角獸', ''),
+(14422, '藍眼獨角獸', ''),
+(14423, '藍眼獨角獸', ''),
+(14424, '藍眼獨角獸', ''),
+(14425, '藍眼獨角獸', ''),
+(14426, '藍眼獨角獸', ''),
+(14427, '藍眼獨角獸', ''),
+(14428, '藍眼獨角獸', ''),
+(14429, '藍眼獨角獸', ''),
+(14430, '藍眼獨角獸', ''),
+(14431, '藍眼獨角獸', ''),
+(14432, '藍眼獨角獸', ''),
+(14433, '藍眼獨角獸', ''),
+(14434, '藍眼獨角獸', ''),
+(14435, '天使獨角獸', ''),
+(14436, '天使獨角獸', ''),
+(14437, '天使獨角獸', ''),
+(14438, '天使獨角獸', ''),
+(14439, '天使獨角獸', ''),
+(14440, '天使獨角獸', ''),
+(14441, '天使獨角獸', ''),
+(14442, '天使獨角獸', ''),
+(14443, '天使獨角獸', ''),
+(14444, '天使獨角獸', ''),
+(14449, '天使獨角獸', ''),
+(14450, '天使獨角獸', ''),
+(14451, '天使獨角獸', ''),
+(14452, '天使獨角獸', ''),
+(14453, '天使獨角獸', ''),
+(14454, '天使獨角獸', ''),
+(14455, '天使獨角獸', ''),
+(14456, '天使獨角獸', ''),
+(14457, '天使獨角獸', ''),
+(14458, '天使獨角獸', ''),
+(14459, '天使獨角獸', ''),
+(14460, '天使獨角獸', ''),
+(14461, '天使獨角獸', ''),
+(14462, '天使獨角獸', ''),
+(14463, '天使獨角獸', ''),
+(14464, '天使獨角獸', ''),
+(14465, '天使獨角獸', ''),
+(14466, '天使獨角獸', ''),
+(14467, '天使獨角獸', ''),
+(14468, '天使獨角獸', ''),
+(14469, '天使獨角獸', ''),
+(14470, '天使獨角獸', ''),
+(14471, '天使獨角獸', ''),
+(14472, '天使獨角獸', ''),
+(14473, '天使獨角獸', ''),
+(14474, '天使獨角獸', ''),
+(14475, '天使獨角獸', ''),
+(14476, '天使獨角獸', ''),
+(14477, '天使獨角獸', ''),
+(14478, '天使獨角獸', ''),
+(14479, '闇魔', ''),
+(14480, '闇魔', ''),
+(14481, '闇魔', ''),
+(14482, '闇魔', ''),
+(14483, '闇魔', ''),
+(14484, '闇魔', ''),
+(14485, '闇魔', ''),
+(14486, '闇魔', ''),
+(14487, '闇魔', ''),
+(14488, '闇魔', ''),
+(14489, '闇魔', ''),
+(14490, '闇魔', ''),
+(14491, '闇魔', ''),
+(14492, '闇魔', ''),
+(14493, '闇魔', ''),
+(14494, '闇魔', ''),
+(14495, '闇魔', ''),
+(14496, '闇魔', ''),
+(14497, '闇魔', ''),
+(14498, '闇魔', ''),
+(14499, '闇魔', ''),
+(14500, '闇魔', ''),
+(14501, '闇魔', ''),
+(14502, '闇魔', ''),
+(14503, '闇魔', ''),
+(14504, '闇魔', ''),
+(14505, '闇魔', ''),
+(14506, '闇魔', ''),
+(14507, '闇魔', ''),
+(14508, '闇魔', ''),
+(14509, '闇魔', ''),
+(14510, '闇魔', ''),
+(14511, '闇魔', ''),
+(14512, '闇魔', ''),
+(14513, '闇魔', ''),
+(14514, '闇魔', ''),
+(14515, '闇魔', ''),
+(14516, '闇魔', ''),
+(14517, '闇魔', ''),
+(14518, '闇魔', ''),
+(14519, '闇魔', ''),
+(14520, '闇魔', ''),
+(14521, '闇魔', ''),
+(14522, '闇魔', ''),
+(14523, '闇魔', ''),
+(14524, '闇魔', ''),
+(14525, '闇魔', ''),
+(14526, '闇魔', ''),
+(14527, '影魔', ''),
+(14528, '影魔', ''),
+(14529, '影魔', ''),
+(14530, '影魔', ''),
+(14531, '影魔', ''),
+(14532, '影魔', ''),
+(14533, '影魔', ''),
+(14534, '影魔', ''),
+(14535, '影魔', ''),
+(14536, '影魔', ''),
+(14537, '影魔', ''),
+(14538, '影魔', ''),
+(14539, '影魔', ''),
+(14540, '影魔', ''),
+(14541, '影魔', ''),
+(14542, '影魔', ''),
+(14543, '影魔', ''),
+(14544, '影魔', ''),
+(14545, '影魔', ''),
+(14546, '影魔', ''),
+(14547, '影魔', ''),
+(14548, '影魔', ''),
+(14549, '影魔', ''),
+(14550, '影魔', ''),
+(14551, '影魔', ''),
+(14552, '影魔', ''),
+(14553, '影魔', ''),
+(14554, '影魔', ''),
+(14555, '影魔', ''),
+(14556, '影魔', ''),
+(14557, '影魔', ''),
+(14558, '影魔', ''),
+(14559, '影魔', ''),
+(14560, '影魔', ''),
+(14561, '影魔', ''),
+(14562, '影魔', ''),
+(14563, '影魔', ''),
+(14564, '影魔', ''),
+(14565, '影魔', ''),
+(14566, '影魔', ''),
+(14567, '影魔', ''),
+(14568, '影魔', ''),
+(14569, '影魔', ''),
+(14570, '影魔', ''),
+(14571, '影魔', ''),
+(14572, '影魔', ''),
+(14573, '影魔', ''),
+(14574, '影魔', ''),
+(14575, '失魂者', ''),
+(14576, '失魂者', ''),
+(14577, '失魂者', ''),
+(14578, '失魂者', ''),
+(14579, '失魂者', ''),
+(14580, '失魂者', ''),
+(14581, '失魂者', ''),
+(14582, '失魂者', ''),
+(14583, '失魂者', ''),
+(14584, '失魂者', ''),
+(14585, '失魂者', ''),
+(14586, '失魂者', ''),
+(14587, '失魂者', ''),
+(14588, '失魂者', ''),
+(14589, '失魂者', ''),
+(14590, '失魂者', ''),
+(14591, '失魂者', ''),
+(14592, '失魂者', ''),
+(14593, '失魂者', ''),
+(14594, '失魂者', ''),
+(14595, '失魂者', ''),
+(14596, '失魂者', ''),
+(14597, '失魂者', ''),
+(14598, '失魂者', ''),
+(14599, '失魂者', ''),
+(14600, '失魂者', ''),
+(14601, '失魂者', ''),
+(14602, '失魂者', ''),
+(14603, '失魂者', ''),
+(14604, '失魂者', ''),
+(14605, '失魂者', ''),
+(14606, '失魂者', ''),
+(14607, '失魂者', ''),
+(14608, '失魂者', ''),
+(14609, '失魂者', ''),
+(14610, '失魂者', ''),
+(14611, '失魂者', ''),
+(14612, '失魂者', ''),
+(14613, '失魂者', ''),
+(14614, '失魂者', ''),
+(14615, '失魂者', ''),
+(14616, '失魂者', ''),
+(14617, '失魂者', ''),
+(14618, '失魂者', ''),
+(14619, '夜靈', ''),
+(14620, '夜靈', ''),
+(14621, '夜靈', ''),
+(14622, '夜靈', ''),
+(14623, '夜靈', ''),
+(14624, '夜靈', ''),
+(14625, '夜靈', ''),
+(14626, '夜靈', ''),
+(14627, '夜靈', ''),
+(14628, '夜靈', ''),
+(14633, '夜靈', ''),
+(14634, '夜靈', ''),
+(14635, '夜靈', ''),
+(14636, '夜靈', ''),
+(14637, '夜靈', ''),
+(14638, '夜靈', ''),
+(14639, '夜靈', ''),
+(14640, '夜靈', ''),
+(14641, '夜靈', ''),
+(14642, '夜靈', ''),
+(14643, '夜靈', ''),
+(14644, '夜靈', ''),
+(14645, '夜靈', ''),
+(14646, '夜靈', ''),
+(14647, '夜靈', ''),
+(14648, '夜靈', ''),
+(14649, '夜靈', ''),
+(14650, '夜靈', ''),
+(14651, '夜靈', ''),
+(14652, '夜靈', ''),
+(14653, '夜靈', ''),
+(14654, '夜靈', ''),
+(14655, '夜靈', ''),
+(14656, '夜靈', ''),
+(14657, '夜靈', ''),
+(14658, '夜靈', ''),
+(14659, '夜靈', ''),
+(14660, '夜靈', ''),
+(14661, '夜靈', ''),
+(14662, '夜靈', ''),
+(14663, '機械高崙', ''),
+(14664, '機械高崙', ''),
+(14665, '機械高崙', ''),
+(14666, '機械高崙', ''),
+(14667, '機械高崙', ''),
+(14668, '機械高崙', ''),
+(14669, '機械高崙', ''),
+(14670, '機械高崙', ''),
+(14671, '機械高崙', ''),
+(14672, '機械高崙', ''),
+(14673, '機械高崙', ''),
+(14674, '機械高崙', ''),
+(14675, '機械高崙', ''),
+(14676, '機械高崙', ''),
+(14677, '機械高崙', ''),
+(14678, '機械高崙', ''),
+(14679, '機械高崙', ''),
+(14680, '機械高崙', ''),
+(14681, '機械高崙', ''),
+(14682, '機械高崙', ''),
+(14683, '機械高崙', ''),
+(14684, '機械高崙', ''),
+(14685, '機械高崙', ''),
+(14686, '機械高崙', ''),
+(14687, '機械高崙', ''),
+(14688, '機械高崙', ''),
+(14689, '機械高崙', ''),
+(14690, '機械高崙', ''),
+(14691, '機械高崙', ''),
+(14692, '機械高崙', ''),
+(14693, '機械高崙', ''),
+(14694, '機械高崙', ''),
+(14695, '機械高崙', ''),
+(14696, '機械高崙', ''),
+(14697, '機械高崙', ''),
+(14698, '機械高崙', ''),
+(14699, '機械高崙', ''),
+(14700, '機械高崙', ''),
+(14701, '機械高崙', ''),
+(14702, '大炸彈', ''),
+(14703, '大炸彈', ''),
+(14704, '大炸彈', ''),
+(14705, '大炸彈', ''),
+(14706, '大炸彈', ''),
+(14707, '大炸彈', ''),
+(14708, '大炸彈', ''),
+(14709, '大炸彈', ''),
+(14710, '大炸彈', ''),
+(14711, '大炸彈', ''),
+(14712, '大炸彈', ''),
+(14713, '大炸彈', ''),
+(14714, '大炸彈', ''),
+(14715, '大炸彈', ''),
+(14716, '大炸彈', ''),
+(14717, '大炸彈', ''),
+(14718, '大炸彈', ''),
+(14719, '大炸彈', ''),
+(14720, '大炸彈', ''),
+(14721, '大炸彈', ''),
+(14722, '大炸彈', ''),
+(14723, '大炸彈', ''),
+(14724, '大炸彈', ''),
+(14725, '大炸彈', ''),
+(14726, '大炸彈', ''),
+(14727, '大炸彈', ''),
+(14728, '大炸彈', ''),
+(14729, '大炸彈', ''),
+(14730, '大炸彈', ''),
+(14731, '大炸彈', ''),
+(14732, '大炸彈', ''),
+(14733, '大炸彈', ''),
+(14734, '大炸彈', ''),
+(14735, '大炸彈', ''),
+(14736, '大炸彈', ''),
+(14737, '攻城高崙', ''),
+(14738, '攻城高崙', ''),
+(14739, '攻城高崙', ''),
+(14740, '攻城高崙', ''),
+(14741, '攻城高崙', ''),
+(14742, '攻城高崙', ''),
+(14743, '攻城高崙', ''),
+(14744, '攻城高崙', ''),
+(14745, '攻城高崙', ''),
+(14746, '攻城高崙', ''),
+(14747, '攻城高崙', ''),
+(14748, '攻城高崙', ''),
+(14749, '攻城高崙', ''),
+(14750, '攻城高崙', ''),
+(14751, '攻城高崙', ''),
+(14752, '攻城高崙', ''),
+(14753, '攻城高崙', ''),
+(14754, '攻城高崙', ''),
+(14755, '攻城高崙', ''),
+(14756, '攻城高崙', ''),
+(14757, '攻城高崙', ''),
+(14758, '攻城高崙', ''),
+(14759, '攻城高崙', ''),
+(14760, '攻城高崙', ''),
+(14761, '攻城高崙', ''),
+(14762, '攻城高崙', ''),
+(14763, '攻城高崙', ''),
+(14764, '攻城高崙', ''),
+(14765, '攻城高崙', ''),
+(14766, '攻城高崙', ''),
+(14767, '攻城高崙', ''),
+(14768, '野豬加農砲', ''),
+(14769, '野豬加農砲', ''),
+(14770, '野豬加農砲', ''),
+(14771, '野豬加農砲', ''),
+(14772, '野豬加農砲', ''),
+(14773, '野豬加農砲', ''),
+(14774, '野豬加農砲', ''),
+(14775, '野豬加農砲', ''),
+(14776, '野豬加農砲', ''),
+(14777, '野豬加農砲', ''),
+(14778, '野豬加農砲', ''),
+(14779, '野豬加農砲', ''),
+(14780, '野豬加農砲', ''),
+(14781, '野豬加農砲', ''),
+(14782, '野豬加農砲', ''),
+(14783, '野豬加農砲', ''),
+(14784, '野豬加農砲', ''),
+(14785, '野豬加農砲', ''),
+(14786, '野豬加農砲', ''),
+(14787, '野豬加農砲', ''),
+(14788, '野豬加農砲', ''),
+(14789, '野豬加農砲', ''),
+(14790, '野豬加農砲', ''),
+(14791, '野豬加農砲', ''),
+(14792, '野豬加農砲', ''),
+(14793, '野豬加農砲', ''),
+(14794, '野豬加農砲', ''),
+(14795, '野豬加農砲', ''),
+(14796, '野豬加農砲', ''),
+(14797, '野豬加農砲', ''),
+(14798, '野豬加農砲', ''),
+(14799, '黑暗豹', ''),
+(14800, '黑暗豹', ''),
+(14801, '黑暗豹', ''),
+(14802, '黑暗豹', ''),
+(14803, '黑暗豹', ''),
+(14804, '黑暗豹', ''),
+(14805, '黑暗豹', ''),
+(14806, '黑暗豹', ''),
+(14807, '黑暗豹', ''),
+(14808, '黑暗豹', ''),
+(14809, '黑暗豹', ''),
+(14810, '黑暗豹', ''),
+(14811, '黑暗豹', ''),
+(14812, '黑暗豹', ''),
+(14813, '黑暗豹', ''),
+(14814, '黑暗豹', ''),
+(14815, '黑暗豹', ''),
+(14816, '黑暗豹', ''),
+(14817, '黑暗豹', ''),
+(14818, '黑暗豹', ''),
+(14819, '黑暗豹', ''),
+(14820, '黑暗豹', ''),
+(14821, '黑暗豹', ''),
+(14822, '黑暗豹', ''),
+(14823, '黑暗豹', ''),
+(14824, '黑暗豹', ''),
+(14825, '黑暗豹', ''),
+(14826, '黑暗豹', ''),
+(14827, '黑暗豹', ''),
+(14828, '黑暗豹', ''),
+(14829, '黑暗豹', ''),
+(14830, '黑暗豹', ''),
+(14831, '黑暗豹', ''),
+(14832, '黑暗豹', ''),
+(14833, '黑暗豹', ''),
+(14834, '黑暗豹', ''),
+(14835, '黑暗豹', ''),
+(14836, '國王貓', ''),
+(14837, '輝煌獨角獸', ''),
+(14838, '幽冥之主', ''),
+(14839, '奇襲加農砲', ''),
+(14840, '奇襲加農砲', ''),
+(14841, '奇襲加農砲', ''),
+(14842, '奇襲加農砲', ''),
+(14843, '奇襲加農砲', ''),
+(14844, '奇襲加農砲', ''),
+(14845, '奇襲加農砲', ''),
+(14846, '奇襲加農砲', ''),
+(14847, '奇襲加農砲', ''),
+(14848, '奇襲加農砲', ''),
+(14849, '奇襲加農砲', ''),
+(14850, '奇襲加農砲', ''),
+(14851, '奇襲加農砲', ''),
+(14852, '奇襲加農砲', ''),
+(14853, '奇襲加農砲', ''),
+(14854, '奇襲加農砲', ''),
+(14855, '奇襲加農砲', ''),
+(14856, '奇襲加農砲', ''),
+(14857, '奇襲加農砲', ''),
+(14858, '奇襲加農砲', ''),
+(14859, '奇襲加農砲', ''),
+(14860, '奇襲加農砲', ''),
+(14861, '奇襲加農砲', ''),
+(14862, '奇襲加農砲', ''),
+(14863, '奇襲加農砲', ''),
+(14864, '奇襲加農砲', ''),
+(14865, '奇襲加農砲', ''),
+(14866, '奇襲加農砲', ''),
+(14867, '奇襲加農砲', ''),
+(14868, '奇襲加農砲', ''),
+(14869, '奇襲加農砲', ''),
+(14870, '聖恩獸', ''),
+(14871, '國王貓', ''),
+(14872, '國王貓', ''),
+(14873, '國王貓', ''),
+(14874, '國王貓', ''),
+(14875, '國王貓', ''),
+(14876, '國王貓', ''),
+(14877, '國王貓', ''),
+(14878, '國王貓', ''),
+(14879, '國王貓', ''),
+(14880, '國王貓', ''),
+(14881, '國王貓', ''),
+(14882, '國王貓', ''),
+(14883, '國王貓', ''),
+(14884, '國王貓', ''),
+(14885, '國王貓', ''),
+(14886, '輝煌獨角獸', ''),
+(14887, '輝煌獨角獸', ''),
+(14888, '輝煌獨角獸', ''),
+(14889, '輝煌獨角獸', ''),
+(14890, '輝煌獨角獸', ''),
+(14891, '輝煌獨角獸', ''),
+(14892, '輝煌獨角獸', ''),
+(14893, '輝煌獨角獸', ''),
+(14894, '輝煌獨角獸', ''),
+(14895, '輝煌獨角獸', ''),
+(14896, '輝煌獨角獸', ''),
+(14897, '輝煌獨角獸', ''),
+(14898, '輝煌獨角獸', ''),
+(14899, '輝煌獨角獸', ''),
+(14900, '輝煌獨角獸', ''),
+(14901, '幽冥之主', ''),
+(14902, '幽冥之主', ''),
+(14903, '幽冥之主', ''),
+(14904, '幽冥之主', ''),
+(14905, '幽冥之主', ''),
+(14906, '幽冥之主', ''),
+(14907, '幽冥之主', ''),
+(14908, '幽冥之主', ''),
+(14909, '幽冥之主', ''),
+(14910, '幽冥之主', ''),
+(14911, '幽冥之主', ''),
+(14912, '幽冥之主', ''),
+(14913, '幽冥之主', ''),
+(14914, '幽冥之主', ''),
+(14915, '幽冥之主', ''),
+(14916, '底格里斯', ''),
+(14917, '底格里斯', ''),
+(14918, '小鳳凰', ''),
+(16013, '馴化野牛', ''),
+(16014, '馴化野牛', ''),
+(16015, '馴化老虎', ''),
+(16016, '馴化老虎', ''),
+(16017, '馴化笑翠鳥', ''),
+(16018, '馴化笑翠鳥', ''),
+(16019, '幼小野牛', ''),
+(16020, '馴化幼小野牛', ''),
+(16021, '幼小老虎', ''),
+(16022, '馴化幼小老虎', ''),
+(16023, '幼小笑翠鳥', ''),
+(16024, '馴化幼小笑翠鳥', ''),
+(16025, '黑鬃狼', ''),
+(16026, '野獸農莊壺精', ''),
+(16027, '虹彩根據地壺精', ''),
+(16028, '城主壺精', ''),
+(16029, '要塞壺精', ''),
+(16030, '黑鬃狼', ''),
+(16031, '小天使壺精', ''),
+(16032, '小惡魔壺精', ''),
+(16033, '魯道夫壺精', ''),
+(16034, '改良型小野牛', ''),
+(16035, '改良型小笑翠鳥', ''),
+(16036, '改良型小老虎', ''),
+(16037, '白鬃狼', ''),
+(16038, '赤紅風座龍', ''),
+(16039, '赤紅星座龍', ''),
+(16040, '赤紅黃昏座龍', ''),
+(16041, '座狼', ''),
+(16042, '白座狼', ''),
+(16043, '狐貍術士　', ''),
+(16044, '野獸鬥士', ''),
+(16045, '鼬', ''),
+(16046, '妖精公主', ''),
+(16049, '愛心壺精', ''),
+(16050, '貓頭鷹術士', ''),
+(16051, '精靈術士', ''),
+(16052, '玩偶騎士', ''),
+(16053, '烏龜道士', ''),
+(16054, '猴', ''),
+(16055, '獅鷲', ''),
+(16056, '喜悅', ''),
+(16057, '悲傷', ''),
+(16058, '憤怒', ''),
+(16059, '男熊', ''),
+(16060, '女熊', ''),
+(16061, '採集裝置', ''),
+(16062, '騎士', ''),
+(16063, '新羅', ''),
+(16064, '啾啾', ''),
+(16065, '豬豬', ''),
+(16066, '黎明之光', ''),
+(16067, '恐爪龍', ''),
+(16068, '守護者座龍', ''),
+(16069, '波拿', ''),
+(16070, '托貝', ''),
+(12077, '狼', ''),
+(12311, '風幼龍', ''),
+(12312, '星幼龍', ''),
+(12313, '黃昏幼龍', ''),
+(12526, '風座龍', ''),
+(12527, '星座龍', ''),
+(12528, '黃昏座龍', ''),
+(12564, '噬罪者', ''),
+(12621, '飛龍', ''),
+(12780, '小野牛', ''),
+(12781, '小笑翠鳥', ''),
+(12782, '小老虎', ''),
+(12774, '未成熟的葫蘆', ''),
+(12775, '優良的葫蘆', ''),
+(12776, '不良的葫蘆', ''),
+(12777, '未成熟的大葫蘆', ''),
+(12778, '優良的大葫蘆', ''),
+(12779, '不良的大葫蘆', ''),
+(13001, '結界的心臟', ''),
+(13002, '生命守護塔', ''),
+(13003, '生命守護塔', ''),
+(13004, '火炎守護塔', ''),
+(13005, '火炎守護塔', ''),
+(13006, '聖誕樹', ''),
+(13007, '高級聖誕樹', ''),
+(13014, '', ''),
+(13015, '', ''),
+(13016, '優良的葫蘆王', ''),
+(13017, '優良的大葫蘆王', ''),
+(13018, '', ''),
+(13019, '', ''),
+(13020, '', ''),
+(13021, '', ''),
+(13022, '', ''),
+(13023, '', ''),
+(13024, '', ''),
+(13025, '', ''),
+(13026, '', ''),
+(13027, '', ''),
+(13028, '', ''),
+(13029, '', ''),
+(13030, '', ''),
+(13031, '胖胖豬', ''),
+(13032, '胖胖豬', ''),
+(13033, '胖胖豬', ''),
+(13034, '超神豬', ''),
+(13035, '黃金豬豬', ''),
+(13036, '寶箱', ''),
+(13037, '陷阱', ''),
+(13038, '陷阱', ''),
+(13039, '陷阱', ''),
+(13040, '陷阱', ''),
+(13041, '陷阱', ''),
+(13042, '陷阱', ''),
+(13043, '陷阱', ''),
+(13044, '陷阱', ''),
+(13045, '陷阱', ''),
+(13046, '陷阱', ''),
+(13047, '陷阱', ''),
+(13048, '陷阱', ''),
+(13049, '陷阱', ''),
+(13050, '陷阱', ''),
+(13051, '陷阱', ''),
+(13052, '陷阱', ''),
+(13053, '陷阱', ''),
+(13054, '陷阱', ''),
+(13055, '陷阱', ''),
+(13056, '陷阱', ''),
+(13057, '陷阱', ''),
+(13058, '陷阱', ''),
+(13059, '陷阱', ''),
+(13060, '陷阱', ''),
+(13061, '陷阱', ''),
+(13062, '陷阱', ''),
+(13063, '陷阱', ''),
+(13064, '陷阱', ''),
+(13065, '陷阱', ''),
+(13066, '陷阱', ''),
+(13067, '陷阱', ''),
+(13068, '陷阱', ''),
+(13069, '陷阱', ''),
+(13070, '陷阱', ''),
+(13071, '虛像', ''),
+(13072, '虛像', ''),
+(13073, '虛像', ''),
+(13074, '虛像', ''),
+(13075, '虛像', ''),
+(13076, '虛像', ''),
+(13077, '瑪瑙獸', ''),
+(13078, '死亡之刃', ''),
+(13079, '門徒聖杯', ''),
+(13080, '門徒聖杯', ''),
+(13081, '獨角獸', ''),
+(13082, '莉莉恩騎士', ''),
+(13083, '高崙守護者', ''),
+(13084, '煉獄龍獸', ''),
+(13085, '暴烈龍', ''),
+(13086, '薩雷奇', ''),
+(13087, '阿卡瑪那夫', ''),
+(13088, '最終形體', ''),
+(13089, '最終形體', ''),
+(13090, '原住民', ''),
+(13091, '雪人', ''),
+(13092, '野牛', ''),
+(13093, '豬　', ''),
+(13094, '人形殭屍', ''),
+(13095, '小精靈', ''),
+(13096, '兔子', ''),
+(13097, '', ''),
+(13098, '活動寶箱', ''),
+(13099, '札肯', ''),
+(13100, '亞納', ''),
+(13101, '貝諾姆', ''),
+(13102, '高登', ''),
+(13103, '勞庫', ''),
+(13104, '基亞齊', ''),
+(13105, '惡魔公爵', ''),
+(13106, '男異教徒', ''),
+(13107, '女異教徒', ''),
+(13108, '貝里大師', ''),
+(13109, '劍齒虎', ''),
+(13110, '豺狼', ''),
+(13111, '人偶刀手', ''),
+(13112, '聖恩騎士', ''),
+(13113, '聖恩鬥士', ''),
+(13114, '聖恩盜賊', ''),
+(13115, '聖恩牧師', ''),
+(13116, '聖恩巫師', ''),
+(13117, '聖恩法師', ''),
+(13118, '聖恩召喚士', ''),
+(13119, '矮人高崙', ''),
+(13120, '嘟嘟鼠', ''),
+(13121, '嘟嘟鼠', ''),
+(13122, '嘟嘟鼠', ''),
+(13123, '超神鼠', ''),
+(13124, '嘟嘟鼠', '害羞的'),
+(13125, '陷阱', ''),
+(13126, '陷阱', ''),
+(13127, '陷阱', ''),
+(13128, '高崙商人', ''),
+(13129, '傳送師', ''),
+(13130, '淡紫鬃馬', ''),
+(13131, '灰熊', ''),
+(13132, '提米提藍', ''),
+(13133, '火山岩高崙', ''),
+(13134, '雪人', ''),
+(13135, '南瓜幽靈', ''),
+(13136, '', ''),
+(13137, '', ''),
+(13138, '', ''),
+(13139, '', ''),
+(13140, '', ''),
+(13141, '', ''),
+(13142, '最終形體', ''),
+(13143, '最終形體', ''),
+(13144, '靈鳥-獵鷹', ''),
+(13145, '靈鳥-貓頭鷹', ''),
+(13146, '黃鬃獅子', ''),
+(13147, '蒸汽甲蟲', ''),
+(13148, '林德拜爾', ''),
+(13149, '展示用1', ''),
+(13150, '展示用2', ''),
+(13151, '展示用3', ''),
+(13152, '展示用4', ''),
+(13153, '展示用5', ''),
+(13154, '魔族', ''),
+(13155, '獨角獸族', ''),
+(13156, '貓族', ''),
+(13157, '青蛙', ''),
+(13158, '小孩', ''),
+(13159, '傭兵', ''),
+(13160, '雪人', ''),
+(13161, '草人', ''),
+(13162, '洋鐵高崙', ''),
+(13163, '土偶', ''),
+(13164, '誘餌土偶', ''),
+(13165, '沉重土偶', ''),
+(13166, '膽怯土偶', ''),
+(13167, '替身A', ''),
+(13168, '替身B', ''),
+(13169, '人類男性傭兵', ''),
+(13170, '精靈男性傭兵', ''),
+(13171, '黑暗精靈女性傭兵', ''),
+(13172, '半獸人男性傭兵', ''),
+(13173, '矮人男性傭兵', ''),
+(13174, '闇天使男性傭兵', ''),
+(13175, '騎士上級傭兵', ''),
+(13176, '弓手上級傭兵', ''),
+(13177, '巫師上級傭兵', ''),
+(13178, '裝甲兵上級傭兵', ''),
+(13179, '騎士隊長最高精銳傭兵', ''),
+(13180, '司令官最高精銳傭兵', ''),
+(13181, '寶箱', '格勒西亞'),
+(13182, '禮品商人', '格勒西亞'),
+(13183, '不良火雞', ''),
+(13184, '聖誕老人', ''),
+(13185, '聖誕老人', ''),
+(13186, '聖誕老人', ''),
+(13187, '哞哞牛', ''),
+(13188, '超神牛', ''),
+(13189, '猛猛牛', ''),
+(13190, '超神猛猛牛', ''),
+(13191, '憂鬱哞哞牛', ''),
+(13192, '憂鬱超神牛', ''),
+(13193, '', ''),
+(13194, '', ''),
+(13195, '', ''),
+(13196, '胖胖豬', '召喚錯誤的'),
+(13197, '守護者座龍', ''),
+(13198, '原住民', ''),
+(13199, '原住民', ''),
+(13200, '小孩', ''),
+(13201, '黎明的警衛隊員', ''),
+(13202, '陷阱', ''),
+(13203, '陷阱', ''),
+(13204, '陷阱', ''),
+(13205, '陷阱', ''),
+(13206, '陷阱', ''),
+(13207, '陷阱', ''),
+(13208, '陷阱', ''),
+(13209, '陷阱', ''),
+(13210, '陷阱', ''),
+(13211, '陷阱', ''),
+(13212, '陷阱', ''),
+(13213, '陷阱', ''),
+(13214, '陷阱', ''),
+(13215, '陷阱', ''),
+(13216, '陷阱', ''),
+(13217, '陷阱', ''),
+(13218, '陷阱', ''),
+(13219, '陷阱', ''),
+(13220, '陷阱', ''),
+(13221, '陷阱', ''),
+(13222, '陷阱', ''),
+(13223, '陷阱', ''),
+(13224, '陷阱', ''),
+(13225, '陷阱', ''),
+(13226, '陷阱', ''),
+(13227, '陷阱', ''),
+(13228, '陷阱', ''),
+(13229, '陷阱', ''),
+(13230, '陷阱', ''),
+(13231, '陷阱', ''),
+(13232, '陷阱', ''),
+(13233, '陷阱', ''),
+(13234, '陷阱', ''),
+(13235, '陷阱', ''),
+(13236, '陷阱', ''),
+(13237, '陷阱', ''),
+(13238, '陷阱', ''),
+(13239, '陷阱', ''),
+(13240, '陷阱', ''),
+(13241, '陷阱', ''),
+(13242, '陷阱', ''),
+(13243, '陷阱', ''),
+(13244, '陷阱', ''),
+(13245, '陷阱', ''),
+(13246, '陷阱', ''),
+(13247, '陷阱', ''),
+(13248, '陷阱', ''),
+(13249, '陷阱', ''),
+(13250, '陷阱', ''),
+(13251, '陷阱', ''),
+(13252, '陷阱', ''),
+(13253, '陷阱', ''),
+(13254, '陷阱', ''),
+(13255, '陷阱', ''),
+(13256, '陷阱', ''),
+(13257, '虛像', ''),
+(13258, '虛像', ''),
+(13259, '虛像', ''),
+(13260, '虛像', ''),
+(13261, '虛像', ''),
+(13262, '虛像', ''),
+(13263, '虛像', ''),
+(13264, '虛像', ''),
+(13265, '虛像', ''),
+(13266, '虛像', ''),
+(13267, '虛像', ''),
+(13268, '水精靈', ''),
+(13269, '炎熱', ''),
+(13270, '炎熱大師', ''),
+(4301, '皇后喵喵', '情人節使者'),
+(4302, '大師杜奇', '靈魂治療師'),
+(1501, '媽祖壺精', ''),
+(1502, '金面壺精', ''),
+(1503, '黑面壺精', ''),
+(1504, '普萊皮塔壺精', ''),
+(1505, '寶寶貓熊壺精', ''),
+(1506, '團團貓熊壺精', ''),
+(1507, '圓圓貓熊壺精', ''),
+(1508, '白色邱比特壺精', ''),
+(1509, '黑色邱比特壺精', ''),
+(1510, '白色招財貓壺精', ''),
+(1511, '黑色招財貓壺精', ''),
+(1512, '棕色招財貓壺精', ''),
+(1513, '獨眼蝙蝠群壺精', ''),
+(1514, '飛馬壺精', ''),
+(1515, '黃衣土地公壺精', ''),
+(1516, '藍衣土地公壺精', ''),
+(1517, '綠衣土地公壺精', ''),
+(1518, '食人妖壺精', ''),
+(1519, '紅色相撲選手壺精', ''),
+(1520, '藍色相撲選手壺精', ''),
+(1521, '相撲大決鬥壺精', ''),
+(1522, '玩偶熊', ''),
+(1523, '財神爺', ''),
+(1524, '樹精壺精', ''),
+(1525, '元寶牛壺精', ''),
+(1526, '吉利牛壺精', ''),
+(1527, '果樹女神壺精', ''),
+(1528, '織女壺精', ''),
+(1529, '芊芊壺精', ''),
+(1530, '堂堂壺精', ''),
+(1531, '舞動幸運兒壺精', ''),
+(1532, '齊天大聖壺精', ''),
+(1533, '烏山卡壺精', ''),
+(1534, '紅利B壺精', ''),
+(1, '不良火雞', ''),
+(2, '', ''),
+(3, '見習聖誕老人', ''),
+(4, '聖誕老人', 'Merry Xmas ~'),
+(5, '聖誕老人', 'Merry Xmas ~'),
+(6, '聖誕雪橇', 'Merry Xmas ~'),
+(7, '生日蛋糕', ''),
+(8, '火焰精靈', ''),
+(9, '狂暴的火焰精靈', ''),
+(10, '史蒂芬夏格', '伊娃的大神官'),
+(11, '伊娃的方尖塔', ''),
+(12, '', ''),
+(13, '親切的斯諾', '初學者助手'),
+(14, '親切的斯諾', '初學者助手'),
+(15, '親切的斯諾', '初學者助手'),
+(16, '親切的斯諾', '初學者助手'),
+(17, '親切的斯諾', '初學者助手'),
+(18, '親切的斯諾', '初學者助手');
+Update `npc`, `npc_name` SET `npc`.`name`=`npc_name`.`name`, `npc`.`title`=`npc_name`.`title` WHERE `npc`.`id`=`npc_name`.`id`;
+DROP TABLE IF EXISTS `npc_name`;
 #=================================================================
 UPDATE `npc` SET `name` = '安杜露美達', `title` = '結婚管理員' WHERE `id` = 50007;
 UPDATE `npc` SET `name` = '艾麗絲 蒂 凱特琳娜', `title` = 'TVT活動管理員' WHERE `id` = 70010;
