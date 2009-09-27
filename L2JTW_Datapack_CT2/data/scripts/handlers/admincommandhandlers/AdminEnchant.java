@@ -194,12 +194,14 @@ public class AdminEnchant implements IAdminCommandHandler
 			cm.addNumber(curEnchant);
 			cm.addNumber(ench);
 			cm.sendMessage(activeChar);
-			
-			cm = new L2CoreMessage (MessageTable.Messages[29]);
-			cm.addString(itemInstance.getItem().getName());
-			cm.addNumber(curEnchant);
-			cm.addNumber(ench);
-			cm.sendMessage(player);
+			if (player != activeChar) //Update by rocknow
+			{
+				cm = new L2CoreMessage (MessageTable.Messages[29]);
+				cm.addString(itemInstance.getItem().getName());
+				cm.addNumber(curEnchant);
+				cm.addNumber(ench);
+				cm.sendMessage(player);
+			}
 		}
 	}
 	

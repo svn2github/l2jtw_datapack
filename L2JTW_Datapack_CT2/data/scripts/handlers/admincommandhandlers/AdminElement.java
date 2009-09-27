@@ -136,7 +136,7 @@ public class AdminElement implements IAdminCommandHandler
 			String old, current;
 			Elementals element = itemInstance.getElementals();
 			if (element == null)
-				old = "None";
+				old = MessageTable.Messages[853].getMessage();
 			else
 				old = element.toString();
 
@@ -149,7 +149,7 @@ public class AdminElement implements IAdminCommandHandler
 			player.getInventory().equipItemAndRecord(itemInstance);
 
 			if (itemInstance.getElementals() == null)
-				current = "None";
+				current = MessageTable.Messages[853].getMessage();
 			else
 				current = itemInstance.getElementals().toString();
 
