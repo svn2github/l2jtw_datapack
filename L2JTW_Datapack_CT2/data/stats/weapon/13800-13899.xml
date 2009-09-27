@@ -63,14 +63,6 @@
     <set val="433" order="0x08" stat="pAtkSpd"/>
     <enchant val="0" order="0x0C" stat="pAtk"/>
     <enchant val="0" order="0x0C" stat="mAtk"/>
-    <!-- Update by rocknow -->
-    <add val="109" order="0x40" stat="rCrit">
-       <and>
-           <using slotitem="13882;16;4"/>
-       </and>
-    </add>
-    <mul val="1.05" order="0x30" stat="pvpPhysDmg"/>
-    <mul val="1.05" order="0x30" stat="pvpMagicalDmg"/>
   </for>
 </item>
 <item id="13883" name="Icarus Dual Daggers">
@@ -88,14 +80,6 @@
     <set val="433" order="0x08" stat="pAtkSpd"/>
     <enchant val="0" order="0x0C" stat="pAtk"/>
     <enchant val="0" order="0x0C" stat="mAtk"/>
-    <!-- Update by rocknow -->
-    <add val="109" order="0x40" stat="rCrit">
-       <and>
-           <using slotitem="13883;16;4"/>
-       </and>
-    </add>
-    <mul val="1.05" order="0x30" stat="pvpPhysDmg"/>
-    <mul val="1.05" order="0x30" stat="pvpMagicalDmg"/>
   </for>
 </item>
 <item id="13884" name="Vesper Dual Daggers">
@@ -113,14 +97,6 @@
     <set val="433" order="0x08" stat="pAtkSpd"/>
     <enchant val="0" order="0x0C" stat="pAtk"/>
     <enchant val="0" order="0x0C" stat="mAtk"/>
-    <!-- Update by rocknow -->
-    <add val="109" order="0x40" stat="rCrit">
-       <and>
-           <using slotitem="13884;16;4"/>
-       </and>
-    </add>
-    <mul val="1.05" order="0x30" stat="pvpPhysDmg"/>
-    <mul val="1.05" order="0x30" stat="pvpMagicalDmg"/>
   </for>
 </item>
 </list>

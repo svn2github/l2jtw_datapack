@@ -82,108 +82,54 @@
   <for>
     <add order="0x10" stat="pDef" val="17"/>
     <enchant order="0x0C" stat="pDef" val="0"/>
-    <!-- Update by rocknow -->
-    <add order="0x40" stat="maxHp" val="118">
-      <and>
-        <using slotitem="10491;0;4"/>
-      </and>
-    </add>
   </for>
 </item>
 <item id="10492" name="Silk Shirt - MP">
   <for>
     <add order="0x10" stat="pDef" val="17"/>
     <enchant order="0x0C" stat="pDef" val="0"/>
-    <!-- Update by rocknow -->
-    <add order="0x40" stat="maxMp" val="51">
-      <and>
-        <using slotitem="10492;0;4"/>
-      </and>
-    </add>
   </for>
 </item>
 <item id="10493" name="Silk Shirt - CP">
   <for>
     <add order="0x10" stat="pDef" val="17"/>
     <enchant order="0x0C" stat="pDef" val="0"/>
-    <!-- Update by rocknow -->
-    <add order="0x40" stat="maxCp" val="354">
-      <and>
-        <using slotitem="10493;0;4"/>
-      </and>
-    </add>
   </for>
 </item>
 <item id="10494" name="Thin Leather Shirt - HP">
   <for>
     <add order="0x10" stat="pDef" val="21"/>
     <enchant order="0x0C" stat="pDef" val="0"/>
-    <!-- Update by rocknow -->
-    <add order="0x40" stat="maxHp" val="147">
-      <and>
-        <using slotitem="10494;0;4"/>
-      </and>
-    </add>
   </for>
 </item>
 <item id="10495" name="Thin Leather Shirt - MP">
   <for>
     <add order="0x10" stat="pDef" val="21"/>
     <enchant order="0x0C" stat="pDef" val="0"/>
-    <!-- Update by rocknow -->
-    <add order="0x40" stat="maxMp" val="72">
-      <and>
-        <using slotitem="10495;0;4"/>
-      </and>
-    </add>
   </for>
 </item>
 <item id="10496" name="Thin Leather Shirt - CP">
   <for>
     <add order="0x10" stat="pDef" val="21"/>
     <enchant order="0x0C" stat="pDef" val="0"/>
-    <!-- Update by rocknow -->
-    <add order="0x40" stat="maxCp" val="441">
-      <and>
-        <using slotitem="10496;0;4"/>
-      </and>
-    </add>
   </for>
 </item>
 <item id="10497" name="Scale Shirt - HP">
   <for>
     <add order="0x10" stat="pDef" val="23"/>
     <enchant order="0x0C" stat="pDef" val="0"/>
-    <!-- Update by rocknow -->
-    <add order="0x40" stat="maxHp" val="172">
-      <and>
-        <using slotitem="10497;0;4"/>
-      </and>
-    </add>
   </for>
 </item>
 <item id="10498" name="Scale Shirt - MP">
   <for>
     <add order="0x10" stat="pDef" val="23"/>
     <enchant order="0x0C" stat="pDef" val="0"/>
-    <!-- Update by rocknow -->
-    <add order="0x40" stat="maxMp" val="85">
-      <and>
-        <using slotitem="10498;0;4"/>
-      </and>
-    </add>
   </for>
 </item>
 <item id="10499" name="Scale Shirt - CP">
   <for>
     <add order="0x10" stat="pDef" val="23"/>
     <enchant order="0x0C" stat="pDef" val="0"/>
-    <!-- Update by rocknow -->
-    <add order="0x40" stat="maxCp" val="516">
-      <and>
-        <using slotitem="10499;0;4"/>
-      </and>
-    </add>
   </for>
 </item>
 </list>
