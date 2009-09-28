@@ -3509,6 +3509,6 @@ INSERT INTO `weapon_name` VALUES
 (20640, '基本型-風暴弓'),
 (20641, '基本型-騎士劍*精靈劍'),
 (20644, '基本型-金屬盾'),
-(20649, '基本型-魂靈魔杖);
+(20649, '基本型-魂靈魔杖');
 Update `weapon`, `weapon_name` SET `weapon`.`name`=`weapon_name`.`name` WHERE `weapon`.`item_id`=`weapon_name`.`item_id`;
 DROP TABLE IF EXISTS `weapon_name`;
