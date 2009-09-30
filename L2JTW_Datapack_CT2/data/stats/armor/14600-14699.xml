@@ -61,6 +61,7 @@
     <and>
       <player class_id_restriction="92,93,101,102,108,109"/> <!-- Update by rocknow -->
       <or>
+        <player active_skill_id="3413"/> <!-- Update by rocknow -->
         <player active_skill_id="3352"/> <!-- Dynasty Leather Armor - Dagger Master -->
         <player active_skill_id="3353"/> <!-- Dynasty Leather Armor - Bow Master -->
         <player active_skill_id="3640"/> <!-- Dynasty Jewel Leather Mail Dagger Master -->
@@ -78,9 +79,40 @@
 </item>
 <item id="14609" name="Ancient Cloak">
   <cond msgId="1518">
-    <and> <!-- Update by rocknow -->
-      <player class_id_restriction="88,89,90,91,99,100,106,107,113,114,117,118"/>
     <or>
+      <player active_skill_id="3352"/> <!-- Update by rocknow -->
+      <player active_skill_id="3353"/> <!-- Update by rocknow -->
+      <player active_skill_id="3354"/> <!-- Update by rocknow -->
+      <player active_skill_id="3355"/> <!-- Update by rocknow -->
+      <player active_skill_id="3356"/> <!-- Update by rocknow -->
+      <player active_skill_id="3357"/> <!-- Update by rocknow -->
+      <player active_skill_id="3413"/> <!-- Update by rocknow -->
+      <player active_skill_id="3415"/> <!-- Update by rocknow -->
+      <player active_skill_id="3416"/> <!-- Update by rocknow -->
+      <player active_skill_id="3640"/> <!-- Update by rocknow -->
+      <player active_skill_id="3641"/> <!-- Update by rocknow -->
+      <player active_skill_id="3643"/> <!-- Update by rocknow -->
+      <player active_skill_id="3645"/> <!-- Update by rocknow -->
+      <player active_skill_id="3646"/> <!-- Update by rocknow -->
+      <player active_skill_id="3647"/> <!-- Update by rocknow -->
+      <player active_skill_id="3648"/> <!-- Update by rocknow -->
+      <player active_skill_id="8207"/> <!-- Update by rocknow -->
+      <player active_skill_id="8208"/> <!-- Update by rocknow -->
+      <player active_skill_id="8209"/> <!-- Update by rocknow -->
+      <player active_skill_id="8211"/> <!-- Update by rocknow -->
+      <player active_skill_id="8212"/> <!-- Update by rocknow -->
+      <player active_skill_id="8213"/> <!-- Update by rocknow -->
+      <player active_skill_id="8214"/> <!-- Update by rocknow -->
+      <player active_skill_id="8216"/> <!-- Update by rocknow -->
+      <player active_skill_id="8223"/> <!-- Update by rocknow -->
+      <player active_skill_id="8224"/> <!-- Update by rocknow -->
+      <player active_skill_id="8226"/> <!-- Update by rocknow -->
+      <player active_skill_id="8229"/> <!-- Update by rocknow -->
+      <player active_skill_id="8230"/> <!-- Update by rocknow -->
+      <player active_skill_id="8231"/> <!-- Update by rocknow -->
+      <player active_skill_id="8232"/> <!-- Update by rocknow -->
+      <player active_skill_id="3412"/> <!-- Update by rocknow -->
+      <player active_skill_id="3414"/> <!-- Update by rocknow -->
       <player active_skill_id="3348"/> <!-- Dynasty Breast Plate - Shield Master -->
       <player active_skill_id="3349"/> <!-- Dynasty Breast Plate - Weapon Master -->
       <player active_skill_id="3350"/> <!-- Dynasty Breast Plate - Force Master-->
@@ -98,7 +130,6 @@
       <player active_skill_id="8222"/> <!-- Dynasty Platinum Breastplate - PvP Force Master -->
       <player active_skill_id="8221"/> <!-- Dynasty Platinum Breastplate - PvP Bard -->
     </or>
-    </and>
   </cond>
   <for>
     <add order="0x10" stat="pDef" val="20"/>
@@ -109,6 +140,7 @@
     <and> <!-- Update by rocknow -->
       <player class_id_restriction="94,95,96,97,98,103,104,105,110,111,112,115,116"/>
     <or>
+      <player active_skill_id="3416"/> <!-- Update by rocknow -->
       <player active_skill_id="3354"/> <!-- Dynasty Tunic - Healer -->
       <player active_skill_id="3355"/> <!-- Dynasty Tunic - Enchanter -->
       <player active_skill_id="3356"/> <!-- Dynasty Tunic - Summoner -->

@@ -89,13 +89,14 @@
 </item>
 <item id="13890" name="Holy Spirit's Cloak">
   <cond msgId="1518">
-    <and> <!-- Update by rocknow -->
-      <player class_id_restriction="88,89,90,91,99,100,106,107,113,114,117,118"/>
     <or>
+      <player active_skill_id="8286"/> <!-- Update by rocknow -->
+      <player active_skill_id="8288"/> <!-- Update by rocknow -->
+      <player active_skill_id="8304"/> <!-- Update by rocknow -->
+      <player active_skill_id="8306"/> <!-- Update by rocknow -->
       <player active_skill_id="8284"/> <!-- Vesper Noble Breastplate -->
       <player active_skill_id="8302"/> <!-- Vesper Noble Breastplate {PvP} -->
     </or>
-    </and>
   </cond>
   <for>
     <add order="0x10" stat="pDef" val="20"/>
