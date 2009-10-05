@@ -857,7 +857,7 @@
   <set name="castRange" val="40"/>
   <set name="effectRange" val="400"/>
   <for>
-    <effect name="Stun" time="7" val="0" stackOrder="1" stackType="Stun"/>
+    <effect name="Stun" time="7" val="0" stackOrder="1" stackType="Stun" effectPower="40" effectType="STUN"/>
   </for>
 </skill>
 <skill id="750" levels="1" name="Oel Mahum Ultimate Defense">
@@ -910,7 +910,7 @@
   <set name="castRange" val="40"/>
   <set name="effectRange" val="400"/>
   <for>
-    <effect count="7" name="DamOverTime" time="3" val="74" abnormal="bleeding"/>
+    <effect count="7" name="DamOverTime" time="3" val="74" abnormal="bleed"/>
   </for>
 </skill>
 <skill id="753" levels="3" name="Doll Blader Throwing Knife">
@@ -1577,7 +1577,7 @@
   <for>
     <effect name="Buff" time="60" val="0">
       <mul order="0x30" stat="pAtk" val="1.3"/>
-      <add order="0x40" stat="runSpd" val="20"/>
+      <add order="0x40" stat="runSpd" val="30"/>
       <mul order="0x30" stat="pAtkSpd" val="1.3"/>
       <add order="0x40" stat="rCrit" val="100">
         <using kind="Sword,Big Sword"/>
@@ -1729,7 +1729,7 @@
   <set name="effectRange" val="1000"/>
   <set name="reuseDelay" val="36000"/>
   <for>
-    <effect name="DamOverTime" count="6" time="2" val="108" abnormal="Poison"/>
+    <effect name="DamOverTime" count="6" time="2" val="108" abnormal="poison"/>
   </for>
 </skill>
 <skill id="799" levels="3" name="Master Ability - Defense">

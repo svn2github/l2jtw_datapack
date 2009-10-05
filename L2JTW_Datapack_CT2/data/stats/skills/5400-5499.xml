@@ -364,7 +364,7 @@
   <set name="effectType" val="BLEED"/>
   <set name="effectPower" val="50"/>
   <for>
-    <effect count="7" name="DamOverTime" time="3" val="#bleedpower" abnormal="bleeding"/>
+    <effect count="7" name="DamOverTime" time="3" val="#bleedpower" abnormal="bleed"/>
   </for>
 </skill>
 <skill id="5445" levels="1" name="Awakening">

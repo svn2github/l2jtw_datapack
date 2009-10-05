@@ -43,6 +43,7 @@ import net.sf.l2j.gameserver.network.serverpackets.SunRise;
 import net.sf.l2j.gameserver.network.serverpackets.SunSet;
 import net.sf.l2j.gameserver.network.serverpackets.SystemMessage;
 import net.sf.l2j.gameserver.network.serverpackets.UserInfo;
+import net.sf.l2j.gameserver.skills.AbnormalEffect;
 import net.sf.l2j.gameserver.util.Broadcast;
 import net.sf.l2j.gameserver.datatables.MessageTable;
 import net.sf.l2j.gameserver.model.L2CoreMessage;
@@ -210,7 +211,7 @@ public class AdminEffects implements IAdminCommandHandler
 					{
 						if (!player.isGM())
 						{
-							player.startAbnormalEffect(0x0400);
+							player.startAbnormalEffect(AbnormalEffect.HOLD_1);
 							player.setIsParalyzed(true);
 							StopMove sm = new StopMove(player);
 							player.sendPacket(sm);
@@ -232,7 +233,7 @@ public class AdminEffects implements IAdminCommandHandler
 				{
 					for (L2PcInstance player : plrs)
 					{
-						player.stopAbnormalEffect(0x0400);
+						player.stopAbnormalEffect(AbnormalEffect.HOLD_1);
 						player.setIsParalyzed(false);
 					}
 				}
@@ -259,9 +260,9 @@ public class AdminEffects implements IAdminCommandHandler
 				{
 					player = (L2Character) target;
 					if (type.equals("1"))
-						player.startAbnormalEffect(0x0400);
+						player.startAbnormalEffect(AbnormalEffect.HOLD_1);
 					else
-						player.startAbnormalEffect(0x0800);
+						player.startAbnormalEffect(AbnormalEffect.HOLD_2);
 					player.setIsParalyzed(true);
 					StopMove sm = new StopMove(player);
 					player.sendPacket(sm);
@@ -290,9 +291,9 @@ public class AdminEffects implements IAdminCommandHandler
 				{
 					player = (L2Character) target;
 					if (type.equals("1"))
-						player.stopAbnormalEffect(0x0400);
+						player.stopAbnormalEffect(AbnormalEffect.HOLD_1);
 					else
-						player.stopAbnormalEffect(0x0800);
+						player.stopAbnormalEffect(AbnormalEffect.HOLD_2);
 					player.setIsParalyzed(false);
 				}
 			}
@@ -309,7 +310,7 @@ public class AdminEffects implements IAdminCommandHandler
 				if (target instanceof L2Character)
 				{
 					player = (L2Character) target;
-					player.startAbnormalEffect(0x2000);
+					player.startAbnormalEffect(AbnormalEffect.BIG_HEAD);
 				}
 			}
 			catch (Exception e)
@@ -325,7 +326,7 @@ public class AdminEffects implements IAdminCommandHandler
 				if (target instanceof L2Character)
 				{
 					player = (L2Character) target;
-					player.stopAbnormalEffect(0x2000);
+					player.stopAbnormalEffect(AbnormalEffect.BIG_HEAD);
 				}
 			}
 			catch (Exception e)
