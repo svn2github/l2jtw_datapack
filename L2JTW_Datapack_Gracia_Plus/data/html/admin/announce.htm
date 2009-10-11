@@ -1,0 +1,16 @@
+<html><body>
+<table width=270><tr>
+<td width=40><button value="首頁" action="bypass -h admin_admin" width=40 height=15 back="L2UI_ct1.button_df" fore="L2UI_ct1.button_df"></td>
+<td width=190><center>公告管理介面</center></td>
+<td width=40><button value="返回" action="bypass -h admin_admin" width=40 height=15 back="L2UI_ct1.button_df" fore="L2UI_ct1.button_df"></td></tr>
+</table><br><br>
+<center>新公告:</center>
+<center><multiedit var="new_announcement" width=240 height=30></center><br>
+<center><table><tr>
+<td><button value="增加公告" action="bypass -h admin_add_announcement $new_announcement" width=60 height=15 back="L2UI_ct1.button_df" fore="L2UI_ct1.button_df"></td>
+<td><button value="即時公告" action="bypass -h admin_announce_menu $new_announcement" width=60 height=15 back="L2UI_ct1.button_df" fore="L2UI_ct1.button_df"></td>
+<td><button value="重讀公告" action="bypass -h admin_reload_announcements" width=60 height=15 back="L2UI_ct1.button_df" fore="L2UI_ct1.button_df"></td>
+<td><button value="發佈公告" action="bypass -h admin_announce_announcements" width=60 height=15 back="L2UI_ct1.button_df" fore="L2UI_ct1.button_df"></td>
+</tr></table></center>
+%announces%
+</body></html>

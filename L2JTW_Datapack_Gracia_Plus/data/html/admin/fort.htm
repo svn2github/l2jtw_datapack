@@ -1,0 +1,43 @@
+<html><body>
+<table width=260><tr>
+<td width=40><button value="首頁" action="bypass -h admin_admin" width=40 height=15 back="L2UI_ct1.button_df" fore="L2UI_ct1.button_df"></td>
+<td width=180><center>要塞戰操作介面</center></td>
+<td width=40><button value="返回" action="bypass -h admin_fortsiege" width=40 height=15 back="L2UI_ct1.button_df" fore="L2UI_ct1.button_df"></td>
+</tr></table>
+<center>
+<br><br><br>要塞：%fortName%<br><br>
+<table width=270>
+<tr>
+<td><button value="增加攻城方" action="bypass -h admin_add_fortattacker %fortId%" width=80 height=15 back="L2UI_ct1.button_df" fore="L2UI_ct1.button_df"></td>
+<td><button value="增加守城方" action="bypass -h admin_add_fortdefender %fortId%" width=80 height=15 back="L2UI_ct1.button_df" fore="L2UI_ct1.button_df"></td>
+</tr><tr>
+<td><button value="列出血盟" action="bypass -h admin_list_fortsiege_clans %fortId%" width=80 height=15 back="L2UI_ct1.button_df" fore="L2UI_ct1.button_df"></td>
+<td><button value="名單清空" action="bypass -h admin_clear_fortsiege_list %fortId%" width=80 height=15 back="L2UI_ct1.button_df" fore="L2UI_ct1.button_df"></td>
+</tr>
+</table>
+<br>
+<table width=270>
+<tr>
+<td><button value="移動守城方" action="bypass -h admin_move_fortdefenders %fortId%" width=80 height=15 back="L2UI_ct1.button_df" fore="L2UI_ct1.button_df"></td>
+<td><button value="城門恢復" action="bypass -h admin_spawn_fortdoors %fortId%" width=80 height=15 back="L2UI_ct1.button_df" fore="L2UI_ct1.button_df"></td>
+</tr>
+</table>
+<br>
+<table width=270>
+<tr>
+<td><button value="要塞戰開始" action="bypass -h admin_startfortsiege %fortId%" width=80 height=15 back="L2UI_ct1.button_df" fore="L2UI_ct1.button_df"></td>
+<td><button value="要塞戰結束" action="bypass -h admin_endfortsiege %fortId%" width=80 height=15 back="L2UI_ct1.button_df" fore="L2UI_ct1.button_df"></td>
+</tr>
+</table>
+<br>
+<table width=270>
+<tr><td><button value="給與要塞" action="bypass -h admin_setfort %fortId%" width=80 height=15 back="L2UI_ct1.button_df" fore="L2UI_ct1.button_df"></td>
+<td><button value="拿掉要塞" action="bypass -h admin_removefort %fortId%" width=80 height=15 back="L2UI_ct1.button_df" fore="L2UI_ct1.button_df"></td>
+</tr>
+</table>
+<br>
+<table width=150>
+<tr><td width=30>NPC:</td><td><edit var="value" width=52></td><td><button value="增加警衛" action="bypass -h admin_add_guard %fortId% $value" width=80 height=15 back="L2UI_ct1.button_df" fore="L2UI_ct1.button_df"></td>
+</tr></table>
+</center>
+</body></html>

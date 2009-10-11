@@ -1,0 +1,45 @@
+<html><title>召喚選單</title><body>
+<center>
+<table width=260>
+<tr>
+<td width=40><button value="首頁" action="bypass -h admin_admin" width=40 height=15 back="L2UI_ct1.button_df" fore="L2UI_ct1.button_df"></td>
+<td width=180><center><button value="召喚怪物" action="bypass -h admin_show_spawns" width=70 height=15 back="L2UI_ct1.button_df" fore="L2UI_ct1.button_df"></center></td>
+<td width=40><button value="返回" action="bypass -h admin_show_spawns" width=40 height=15 back="L2UI_ct1.button_df" fore="L2UI_ct1.button_df"></td>
+</tr>
+</table><br><br>
+召喚 NPC ID 或名稱:<font color="LEVEL"> [*]</font>
+<table width=260 height=16>
+<tr>
+<td width=105><center>ID 名稱/數量:</center></td>
+<td width=75><center><edit var="id" width=70 height=15></td><td width=15><edit var="qty" width=15 height=15></center></td>
+<td width=75><center><button value="召喚" action="bypass -h admin_spawn_monster $id $qty" width=40 height=15 back="L2UI_ct1.button_df" fore="L2UI_ct1.button_df"></center></td>
+</tr>
+</table><br><br>
+NPC 名稱開頭文字顯示:
+<table width=240>
+<tr><td><a action="bypass -h admin_npc_index A">文字 A</a></td><td><a action="bypass -h admin_npc_index B">文字 B</a></td><td><a action="bypass -h admin_npc_index C">文字 C</a></td></tr>
+<tr><td><a action="bypass -h admin_npc_index D">文字 D</a></td><td><a action="bypass -h admin_npc_index E">文字 E</a></td><td><a action="bypass -h admin_npc_index F">文字 F</a></td></tr>
+<tr><td><a action="bypass -h admin_npc_index G">文字 G</a></td><td><a action="bypass -h admin_npc_index H">文字 H</a></td><td><a action="bypass -h admin_npc_index I">文字 I</a></td></tr>
+<tr><td><a action="bypass -h admin_npc_index J">文字 J</a></td><td><a action="bypass -h admin_npc_index K">文字 K</a></td><td><a action="bypass -h admin_npc_index L">文字 L</a></td></tr>
+<tr><td><a action="bypass -h admin_npc_index M">文字 M</a></td><td><a action="bypass -h admin_npc_index N">文字 N</a></td><td><a action="bypass -h admin_npc_index O">文字 O</a></td></tr>
+<tr><td><a action="bypass -h admin_npc_index P">文字 P</a></td><td><a action="bypass -h admin_npc_index Q">文字 Q</a></td><td><a action="bypass -h admin_npc_index R">文字 R</a></td></tr>
+<tr><td><a action="bypass -h admin_npc_index S">文字 S</a></td><td><a action="bypass -h admin_npc_index T">文字 T</a></td><td><a action="bypass -h admin_npc_index U">文字 U</a></td></tr>
+<tr><td><a action="bypass -h admin_npc_index V">文字 V</a></td><td><a action="bypass -h admin_npc_index W">文字 W</a></td><td><a action="bypass -h admin_npc_index X">文字 X</a></td></tr>
+<tr><td><a action="bypass -h admin_npc_index Y">文字 Y</a></td><td><a action="bypass -h admin_npc_index Z">文字 Z</a></td><td>&nbsp;</td></tr>
+</table>
+<table width=220 height=16>
+<tr>
+<td width=70>
+<center>輸入開頭文字：</center>
+</td>
+<td width=60>
+<center><edit var="letter" width=60 height=15></center>
+</td>
+<td width=60>
+<center><button value="顯示" action="bypass -h admin_npc_index $letter" width=40 height=15 back="L2UI_ct1.button_df" fore="L2UI_ct1.button_df"></center>
+</td>
+</tr>
+</table>
+</center><br><br>
+搜尋會導致回傳遲鈍，輸入中文名稱必須使用底線替代空格。<br>如果你不需要一個以上的顯示，可以將選項留空。
+</body></html>

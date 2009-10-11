@@ -1,0 +1,91 @@
+# Made by disKret
+import sys
+from net.sf.l2j.gameserver.model.quest import State
+from net.sf.l2j.gameserver.model.quest import QuestState
+from net.sf.l2j.gameserver.model.quest.jython import QuestJython as JQuest
+
+qn = "36_MakeASewingKit"
+
+REINFORCED_STEEL = 7163
+ARTISANS_FRAME = 1891
+ORIHARUKON = 1893
+SEWING_KIT = 7078
+
+class Quest (JQuest) :
+
+ def __init__(self,id,name,descr):
+     JQuest.__init__(self,id,name,descr)
+     self.questItemIds = [REINFORCED_STEEL]
+
+ def onEvent (self,event,st) :
+   htmltext = event
+   cond = st.getInt("cond")
+   if event == "30847-1.htm" and cond == 0 :
+     st.set("cond","1")
+     st.setState(State.STARTED)
+     st.playSound("ItemSound.quest_accept")
+   if event == "30847-3.htm" and cond == 2 :
+     st.takeItems(REINFORCED_STEEL,5)
+     st.set("cond","3")
+   if event == "30847-4a.htm" :    #pmq修改
+     st.takeItems(ORIHARUKON,10)
+     st.takeItems(ARTISANS_FRAME,10)
+     st.giveItems(SEWING_KIT,1)
+     st.playSound("ItemSound.quest_finish")
+     st.exitQuest(1)
+   return htmltext
+
+ def onTalk (self,npc,player) :
+   htmltext = "<html><body>目前沒有執行任務，或條件不符。</body></html>"
+   st = player.getQuestState(qn)
+   if not st : return htmltext
+   id = st.getState()
+   cond = st.getInt("cond")
+   if id == State.COMPLETED:
+     htmltext = "<html><body>這是已經完成的任務。</body></html>"
+   elif cond == 0 and st.getQuestItemsCount(SEWING_KIT) == 0 :
+     fwear=player.getQuestState("37_PleaseMakeMeFormalWear")
+     if fwear:
+         if fwear.get("cond") == "6" :
+           htmltext = "30847-0.htm"
+         else:
+           htmltext = "30847-5.htm"    #pmq修改
+           st.exitQuest(1)
+     else:
+       htmltext = "30847-5.htm"        #pmq修改
+       st.exitQuest(1)
+   elif st.getQuestItemsCount(REINFORCED_STEEL) == 5 :
+     htmltext = "30847-2.htm"
+   elif cond == 1 :                    #pmq修改
+     htmltext = "30847-1a.htm"         #pmq修改
+   elif cond == 3 and st.getQuestItemsCount(ORIHARUKON) >= 10 and st.getQuestItemsCount(ARTISANS_FRAME) >= 10 :
+     st.takeItems(ORIHARUKON,10)
+     st.takeItems(ARTISANS_FRAME,10)
+     st.giveItems(SEWING_KIT,1)
+     st.playSound("ItemSound.quest_finish")
+     htmltext = "30847-4.htm"
+     st.exitQuest(1)
+   elif cond == 3 :                    #pmq修改
+     htmltext = "30847-3a.htm"         #pmq修改
+   return htmltext
+
+ def onKill(self,npc,player,isPet):
+   partyMember = self.getRandomPartyMember(player,"1")
+   if not partyMember : return
+   st = partyMember.getQuestState(qn)
+   
+   count = st.getQuestItemsCount(REINFORCED_STEEL)
+   if count < 5 :
+     st.giveItems(REINFORCED_STEEL,1)
+     if count == 4 :
+       st.playSound("ItemSound.quest_middle")
+       st.set("cond","2")
+     else:
+       st.playSound("ItemSound.quest_itemget")
+   return
+
+QUEST       = Quest(36,qn,"請幫我做針線盒!")
+
+QUEST.addStartNpc(30847)
+QUEST.addTalkId(30847)
+QUEST.addKillId(20566)
