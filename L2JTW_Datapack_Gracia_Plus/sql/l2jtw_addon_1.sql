@@ -440,22 +440,6 @@ INSERT INTO `spawnlist` VALUES
 ('820041', '', '1', '35642', '58024', '-26456', '592', '0', '0', '49000', '60', '0', '0'),      -- 要塞守門人
 ('820042', '', '1', '35642', '58074', '-26325', '597', '0', '0', '15732', '60', '0', '0');      -- 要塞守門人
 
--- 加入高等城鎮的轉職貓
-INSERT INTO `spawnlist` VALUES
-('820101', '', '1', '31228', '147449', '25946', '-2012', '0', '0', '21221', '60', '0', '0'),
-('820102', '', '1', '31228', '83509', '147962', '-3404', '0', '0', '20253', '60', '0', '0'),
-('820103', '', '1', '31228', '82879', '53133', '-1495', '0', '0', '18940', '60', '0', '0'),
-('820104', '', '1', '31228', '15740', '142896', '-2705', '0', '0', '19740', '60', '0', '0'),
-('820105', '', '1', '31228', '111457', '219419', '-3545', '0', '0', '43515', '60', '0', '0'),
-('820106', '', '1', '31228', '-12835', '122741', '-3116', '0', '0', '57344', '60', '0', '0'),
-('820107', '', '1', '31228', '148006', '-55266', '-2734', '0', '0', '38727', '60', '0', '0'),
-('820108', '', '1', '31228', '87006', '-143414', '-1292', '0', '0', '4363', '60', '0', '0'),
-('820109', '', '1', '31228', '-80679', '149837', '-3070', '0', '0', '20834', '60', '0', '0'),
-('820110', '', '1', '31228', '117170', '76807', '-2694', '0', '0', '32768', '60', '0', '0'),
-('820111', '', '1', '31228', '43877', '-47676', '-823', '0', '0', '49152', '60', '0', '0'),
-('820112', '', '1', '31228', '46989', '51487', '-2976', '0', '0', '42643', '60', '0', '0'),
-('820113', '', '1', '31228', '-116776', '46545', '368', '0', '0', '40092', '60', '0', '0');
-
 -- 加入地下競技場的入場管理員
 DELETE FROM `spawnlist` WHERE `npc_templateid` IN (32377); -- 刪除地下競技場重複的入場管理員
 UPDATE `npc` SET `type` = 'L2Teleporter' WHERE `id` IN (32503); -- 入場管理員 柯雷塔的晶體
@@ -822,19 +806,19 @@ UPDATE `auction` SET `startingBid` = '20000000' WHERE `id` IN (58,59,60,61) AND 
 -- 法國麵包武器
 DELETE FROM `armor` WHERE `item_id` IN (20266); -- L2J 錯誤設定為防具
 REPLACE INTO `weapon` VALUES
-(20266,'Baguette Shield','lhand','false',500,0,0,'fine_steel','none',0,0,'none',0,0,-8,2,20,0,0,0,-1,10080,0,0,'true','true','true','true',0,0,0,0,0,0,0,0,0,'0-0;'); -- 法國麵包菠蘿盾
+(20266,'Baguette Shield','lhand','false',500,0,0,'fine_steel','none',0,0,'none',0,0,-8,2,20,0,0,0,-1,10080,0,0,'true','true','true','true','true',0,0,0,0,0,0,0,0,0,'0-0;'); -- 法國麵包菠蘿盾
 
 -- 新頭飾
 REPLACE INTO `armor` VALUES
-(20401,'Laborer Hat','hairall','false','none',10,'wood','none',0,-1,-1,0,0,0,0,0,'true','true','true','true','0-0','0-0;'), -- 勤勞者帽子
-(20497,'Mother\'s Wreath - Event Blessing of Love - 24 hours limited period','hairall','false','none',120,'wood','none',0,-1,1440,0,0,0,0,0,'false','false','true','false','0-0','21086-1;'), -- 母親的花環-活動 愛的祝福(限時24小時)
-(20498,'Mother\'s Wreath Blessing of Love - 3 day limited period','hairall','false','none',120,'wood','none',0,-1,4320,0,0,0,0,0,'false','false','true','false','0-0','21086-1;'); -- 母親的花環-活動 愛的祝福(限時3日)
+(20401,'Laborer Hat','hairall','false','none',10,'wood','none',0,-1,-1,0,0,0,0,0,'true','true','true','true','true','0-0','0-0;'), -- 勤勞者帽子
+(20497,'Mother\'s Wreath - Event Blessing of Love - 24 hours limited period','hairall','false','none',120,'wood','none',0,-1,1440,0,0,0,0,0,'false','false','true','false','true','0-0','21086-1;'), -- 母親的花環-活動 愛的祝福(限時24小時)
+(20498,'Mother\'s Wreath Blessing of Love - 3 day limited period','hairall','false','none',120,'wood','none',0,-1,4320,0,0,0,0,0,'false','false','true','false','true','0-0','21086-1;'); -- 母親的花環-活動 愛的祝福(限時3日)
 
 -- 新壺精
 REPLACE INTO `armor` VALUES
-(14776,'Agathion Seal Bracelet - Juju','lbracelet','false','none',150,'wood','none',0,-1,20160,0,0,0,0,0,'false','false','true','false','0-0','8327-1;6136-1;6137-1;3267-1;'),
-(20495,'Agathion Seal Bracelet - Pomona Mental Shield - 7 day limited period','lbracelet','false','none',150,'wood','none',0,-1,-1,0,0,0,0,0,'false','false','true','false','0-0','21085-1;23067-1;3267-1;'); -- 壺精封印手鐲-果樹女神
--- (20496,'Agathion Seal Bracelet - Pomona Mental Shield - 7 day limited period','lbracelet','false','none',150,'wood','none',0,-1,10080,0,0,0,0,0,'false','false','true','false','0-0','21085-1;23067-1;23068-4;3267-1;'), -- 壺精封印手鐲-果樹女神 心靈防護(限時7日)
+(14776,'Agathion Seal Bracelet - Juju','lbracelet','false','none',150,'wood','none',0,-1,20160,0,0,0,0,0,'false','false','true','false','true','0-0','8327-1;6136-1;6137-1;3267-1;'),
+(20495,'Agathion Seal Bracelet - Pomona Mental Shield - 7 day limited period','lbracelet','false','none',150,'wood','none',0,-1,-1,0,0,0,0,0,'false','false','true','false','true','0-0','21085-1;23067-1;3267-1;'); -- 壺精封印手鐲-果樹女神
+-- (20496,'Agathion Seal Bracelet - Pomona Mental Shield - 7 day limited period','lbracelet','false','none',150,'wood','none',0,-1,10080,0,0,0,0,0,'false','false','true','false','true','0-0','21085-1;23067-1;23068-4;3267-1;'), -- 壺精封印手鐲-果樹女神 心靈防護(限時7日)
 UPDATE `armor` SET `skill` = '8257-1;5956-1;3267-1;' WHERE `item_id` IN (14075); -- 怒氣壺精
 UPDATE `armor` SET `skill` = '8256-1;5955-1;3267-1;' WHERE `item_id` IN (14076); -- 開心壺精
 UPDATE `armor` SET `skill` = '8258-1;5957-1;3267-1;' WHERE `item_id` IN (14077); -- 嗚咽壺精
