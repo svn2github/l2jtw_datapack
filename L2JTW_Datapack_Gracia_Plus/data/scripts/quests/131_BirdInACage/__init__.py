@@ -38,6 +38,7 @@ class Quest (JQuest) :
      x = Rnd.get(-100, 100)
      y = Rnd.get(-100, 100)
      st.getPlayer().teleToLocation(143472 + x, 191040 + y, -3696)
+     st.getPlayer().setInstanceId(0)
    elif event == "32264-12.htm" :
      if st.getQuestItemsCount(PARMES_LETTER) :
        st.takeItems(PARMES_LETTER, 1)

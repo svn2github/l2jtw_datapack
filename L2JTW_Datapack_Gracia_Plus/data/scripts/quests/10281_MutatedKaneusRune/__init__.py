@@ -60,6 +60,8 @@ class Quest (JQuest) :
             elif npcId == Kayan:
                 if st.getQuestItemsCount(Tissue) > 0:
                    htmltext = "31335-01.htm"
+                else :
+                   htmltext = "31335-01a.htm"
         return htmltext
 
     def onKill(self,npc,player,isPet):
