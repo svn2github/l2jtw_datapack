@@ -23,6 +23,7 @@ import net.sf.l2j.gameserver.model.L2TradeList;
 import net.sf.l2j.gameserver.model.actor.instance.L2PcInstance;
 import net.sf.l2j.gameserver.network.serverpackets.ActionFailed;
 import net.sf.l2j.gameserver.network.serverpackets.BuyList;
+import net.sf.l2j.gameserver.network.serverpackets.ExBuySellListPacket; //Update by rocknow
 
 /**
  * This class handles following admin commands:
@@ -82,6 +83,7 @@ public class AdminShop implements IAdminCommandHandler
 		if (list != null)
 		{
 			activeChar.sendPacket(new BuyList(list, activeChar.getAdena()));
+			activeChar.sendPacket(new ExBuySellListPacket(list, activeChar.getAdena(), activeChar, false)); //Update by rocknow
 			if (Config.DEBUG)
 				_log.fine("GM: " + activeChar.getName() + "(" + activeChar.getObjectId() + ") opened GM shop id " + val);
 		}
