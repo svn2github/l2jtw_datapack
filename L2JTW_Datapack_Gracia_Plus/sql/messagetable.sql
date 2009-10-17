@@ -3411,8 +3411,8 @@ INSERT INTO `messagetable` VALUES ('1131', 'en', '$1 has submitted a new petitio
 INSERT INTO `messagetable` VALUES ('1131', 'tw', '「$1」送出新的訴求。', null);
 INSERT INTO `messagetable` VALUES ('1131', 'cn', '「$1」送出新的诉求。', null);
 INSERT INTO `messagetable` VALUES ('1132', 'en', 'Petition #', null);
-INSERT INTO `messagetable` VALUES ('1132', 'tw', '訴求 #', null);
-INSERT INTO `messagetable` VALUES ('1132', 'cn', '诉求 #', null);
+INSERT INTO `messagetable` VALUES ('1132', 'tw', '訴求編號 #', null);
+INSERT INTO `messagetable` VALUES ('1132', 'cn', '诉求编号 #', null);
 INSERT INTO `messagetable` VALUES ('1133', 'en', 'Submit Time: ', null);
 INSERT INTO `messagetable` VALUES ('1133', 'tw', '送出時間：', null);
 INSERT INTO `messagetable` VALUES ('1133', 'cn', '送出时间：', null);
@@ -3773,3 +3773,6 @@ INSERT INTO `messagetable` VALUES ('1251', 'cn', '奥林匹亚管理者', null);
 INSERT INTO `messagetable` VALUES ('1252', 'en', 'Olympiad is going to begin in Arena「$1」in a moment.', null);
 INSERT INTO `messagetable` VALUES ('1252', 'tw', '稍後將在第「$1」競技場舉行奧林匹亞競賽。', null);
 INSERT INTO `messagetable` VALUES ('1252', 'cn', '稍后将在第「$1」竞技场举行奥林匹亚竞赛。', null);
+INSERT INTO `messagetable` VALUES ('1253', 'en', 'Petition System', null);
+INSERT INTO `messagetable` VALUES ('1253', 'tw', '訴求系統', null);
+INSERT INTO `messagetable` VALUES ('1253', 'cn', '诉求系统', null);
