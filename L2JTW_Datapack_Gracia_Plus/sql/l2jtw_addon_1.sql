@@ -1,4 +1,4 @@
-/************ Made IN Taiwan ************/
+/************ Made in Taiwan ************/
 
 /************ 刪除自定 NPC ************/
 DELETE FROM `spawnlist` WHERE `id` > 820000 AND `id` < 880000;
@@ -1310,7 +1310,6 @@ UPDATE `etcitem` SET `skill` = '2425-4;', `handler` = 'ItemSkills' WHERE `item_i
 UPDATE `etcitem` SET `skill` = '2426-5;', `handler` = 'ItemSkills' WHERE `item_id` = '10258';  -- 5級寶袋
 UPDATE `etcitem` SET `skill` = '2427-6;', `handler` = 'ItemSkills' WHERE `item_id` = '10259';  -- 6級寶袋
 UPDATE `etcitem` SET `skill` = '2487-1;', `handler` = 'ItemSkills' WHERE `item_id` = '10520';  -- 回聲水晶-倉木麻衣
-UPDATE `etcitem` SET `skill` = '2525-1;', `handler` = 'ItemSkills' WHERE `item_id` = '12753';  -- 闇天使村莊移動卷軸
 UPDATE `etcitem` SET `skill` = '2670-1;', `handler` = 'ItemSkills' WHERE `item_id` = '13794';  -- 變身體-翻滾方塊變身卷軸
 UPDATE `etcitem` SET `skill` = '2671-1;', `handler` = 'ItemSkills' WHERE `item_id` = '13795';  -- 變身體-翻滾方塊變身卷軸
 UPDATE `etcitem` SET `skill` = '2631-1;', `handler` = 'ItemSkills' WHERE `item_id` = '13800';  -- 青蛙變身卷軸

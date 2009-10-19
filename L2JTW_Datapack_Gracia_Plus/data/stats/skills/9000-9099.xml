@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <list>
-<skill id="9007" levels="1" name="Custom Mana Drug">
+<skill id="9097" levels="1" name="Custom Mana Drug"><!-- Update by rocknow -->
   <set name="itemConsumeId" val="726"/>
   <set name="itemConsumeCount" val="1"/>
   <set name="buffDuration" val="15000"/>
@@ -16,7 +16,7 @@
     <effect count="3" name="ManaHealOverTime" time="5" val="1.5" stackOrder="1.5" stackType="mp_recover"/>
   </for>
 </skill>
-<skill id="9008" levels="1" name="Custom Mana Potion">
+<skill id="9098" levels="1" name="Custom Mana Potion"><!-- Update by rocknow -->
   <set name="itemConsumeId" val="728"/>
   <set name="itemConsumeCount" val="1"/>
   <set name="isPotion" val="true"/>

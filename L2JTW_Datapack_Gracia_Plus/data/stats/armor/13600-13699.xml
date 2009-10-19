@@ -3,48 +3,75 @@
 <item id="13687" name="Knight's Cloak">
   <cond msgId="2453">
     <and>
-      <player class_id_restriction="88,89,90,91,99,100,106,107,113,114,117,118"/> <!-- Update by rocknow -->
       <player pledgeClass="3"/>
       <player castle="-1"/>
       <or>
+        <!-- Update by rocknow -->
+        <player active_skill_id="3348"/> <!-- Dynasty Breast Plate - Shield Master -->
+        <player active_skill_id="3349"/> <!-- Dynasty Breast Plate - Weapon Master -->
+        <player active_skill_id="3350"/> <!-- Dynasty Breast Plate - Force Master-->
+        <player active_skill_id="3351"/> <!-- Dynasty Breast Plate - Bard -->
+        <player active_skill_id="3352"/> <!-- Dynasty Leather Armor - Dagger Master -->
+        <player active_skill_id="3353"/> <!-- Dynasty Leather Armor - Bow Master -->
+        <player active_skill_id="3354"/>
+        <player active_skill_id="3355"/>
+        <player active_skill_id="3356"/>
+        <player active_skill_id="3357"/>
+        <player active_skill_id="3412"/>
+        <player active_skill_id="3413"/> <!-- Dynasty Leather Armor -->
+        <player active_skill_id="3414"/>
+        <player active_skill_id="3415"/> <!-- Dynasty Leather Armor - Weapon Master -->
+        <player active_skill_id="3416"/>
+        <player active_skill_id="3420"/>
+        <player active_skill_id="3636"/> <!-- Dynasty Platinum Plate - Shield Master -->
+        <player active_skill_id="3637"/> <!-- Dynasty Platinum Plate - Weapon Master -->
+        <player active_skill_id="3638"/> <!-- Dynasty Platinum Plate - Bard -->
+        <player active_skill_id="3639"/> <!-- Dynasty Platinum Plate - Force Master -->
+        <player active_skill_id="3640"/> <!-- Dynasty Jewel Leather Mail Dagger Master -->
+        <player active_skill_id="3641"/> <!-- Dynasty Jewel Leather Mail Bow Master -->
+        <player active_skill_id="3642"/>
+        <player active_skill_id="3643"/> <!-- Dynasty Jeweled Leather Armor Weapon Master -->
+        <player active_skill_id="3644"/>
+        <player active_skill_id="3645"/>
+        <player active_skill_id="3646"/>
+        <player active_skill_id="3647"/>
+        <player active_skill_id="3648"/>
+        <player active_skill_id="8202"/>
+        <player active_skill_id="8203"/> <!-- Dynasty Breastplate - PvP Shield Master -->
+        <player active_skill_id="8204"/> <!-- Dynasty Breastplate - PvP Weapon Master -->
+        <player active_skill_id="8205"/> <!-- Dynasty Breastplate - PvP Force Master -->
+        <player active_skill_id="8206"/> <!-- Dynasty Breastplate - PvP Bard -->
+        <player active_skill_id="8207"/> <!-- Dynasty Leather Armor - PvP -->
+        <player active_skill_id="8208"/> <!-- Dynasty Leather Armor - PvP Dagger Master -->
+        <player active_skill_id="8209"/> <!-- Dynasty Leather Armor - PvP Bow Master -->
+        <player active_skill_id="8210"/>
+        <player active_skill_id="8211"/>
+        <player active_skill_id="8212"/>
+        <player active_skill_id="8213"/>
+        <player active_skill_id="8214"/>
+        <player active_skill_id="8215"/>
+        <player active_skill_id="8216"/> <!-- Dynasty Leather Armor - PvP Weapon Master -->
+        <player active_skill_id="8217"/>
+        <player active_skill_id="8218"/>
+        <player active_skill_id="8219"/> <!-- Dynasty Platinum Breastplate - PvP Shield Master -->
+        <player active_skill_id="8220"/> <!-- Dynasty Platinum Breastplate - PvP Weapon Master -->
+        <player active_skill_id="8221"/> <!-- Dynasty Platinum Breastplate - PvP Bard -->
+        <player active_skill_id="8222"/> <!-- Dynasty Platinum Breastplate - PvP Force Master -->
+        <player active_skill_id="8223"/> <!-- Dynasty Jewel Leather Armor - PvP Dagger Master -->
+        <player active_skill_id="8224"/> <!-- Dynasty Jewel Leather Armor - PvP Bow Master -->
+        <player active_skill_id="8225"/>
+        <player active_skill_id="8226"/> <!-- Dynasty Jewel Leather Armor - PvP Weapon Master -->
+        <player active_skill_id="8227"/>
+        <player active_skill_id="8228"/>
+        <player active_skill_id="8229"/>
+        <player active_skill_id="8230"/>
+        <player active_skill_id="8231"/>
+        <player active_skill_id="8232"/>
         <player active_skill_id="8284"/> <!-- Vesper Noble Breastplate -->
-        <player active_skill_id="8302"/> <!-- Vesper Noble Breastplate {PvP} -->
-      </or>
-    </and>
-  </cond>
-  <for>
-    <add order="0x10" stat="pDef" val="20"/>
-    <add order="0x40" stat="darkRes" val="30"/> <!-- Dark Attribute Defense +30 -->
-  </for>
-</item>
-<item id="13688" name="Knight's Cloak - Light Armor exclusive">
-  <cond msgId="2453">
-    <and>
-      <player class_id_restriction="92,93,101,102,108,109"/> <!-- Update by rocknow -->
-      <player pledgeClass="3"/>
-      <player castle="-1"/>
-      <not>
-        <player race="Kamael"/>
-      </not>
-      <or>
         <player active_skill_id="8286"/> <!-- Vesper Noble Leather Breastplate -->
-        <player active_skill_id="8304"/> <!-- Vesper Noble Leather Breastplate {PvP} -->
-      </or>
-    </and>
-  </cond>
-  <for>
-    <add order="0x10" stat="pDef" val="20"/>
-    <add order="0x40" stat="darkRes" val="30"/> <!-- Dark Attribute Defense +30 -->
-  </for>
-</item>
-<item id="13689" name="Knight's Cloak - Robe exclusive">
-  <cond msgId="2453">
-    <and>
-      <player class_id_restriction="94,95,96,97,98,103,104,105,110,111,112,115,116"/> <!-- Update by rocknow -->
-      <player pledgeClass="3"/>
-      <player castle="-1"/>
-      <or>
         <player active_skill_id="8288"/> <!-- Vesper Noble Tunic -->
+        <player active_skill_id="8302"/> <!-- Vesper Noble Breastplate {PvP} -->
+        <player active_skill_id="8304"/> <!-- Vesper Noble Leather Breastplate {PvP} -->
         <player active_skill_id="8306"/> <!-- Vesper Noble Tunic {PvP} -->
       </or>
     </and>
@@ -54,16 +81,35 @@
     <add order="0x40" stat="darkRes" val="30"/> <!-- Dark Attribute Defense +30 -->
   </for>
 </item>
-<item id="13690" name="Knight's Cloak - Kamael exclusive">
-  <cond msgId="2453">
+<item id="13688" name="Knight's Cloak - Light Armor exclusive">
+  <!-- Update by rocknow -->
+  <cond msgId="1960">
     <and>
-      <player pledgeClass="3"/>
-      <player castle="-1"/>
-      <player race="Kamael"/>
-      <or>
-        <player active_skill_id="8286"/> <!-- Vesper Noble Leather Breastplate -->
-        <player active_skill_id="8304"/> <!-- Vesper Noble Leather Breastplate {PvP} -->
-      </or>
+      <player level="99"/>
+    </and>
+  </cond>
+  <for>
+    <add order="0x10" stat="pDef" val="20"/>
+    <add order="0x40" stat="darkRes" val="30"/> <!-- Dark Attribute Defense +30 -->
+  </for>
+</item>
+<item id="13689" name="Knight's Cloak - Robe exclusive">
+  <!-- Update by rocknow -->
+  <cond msgId="1960">
+    <and>
+      <player level="99"/>
+    </and>
+  </cond>
+  <for>
+    <add order="0x10" stat="pDef" val="20"/>
+    <add order="0x40" stat="darkRes" val="30"/> <!-- Dark Attribute Defense +30 -->
+  </for>
+</item>
+<item id="13690" name="Knight's Cloak - Kamael exclusive">
+  <!-- Update by rocknow -->
+  <cond msgId="1960">
+    <and>
+      <player level="99"/>
     </and>
   </cond>
   <for>

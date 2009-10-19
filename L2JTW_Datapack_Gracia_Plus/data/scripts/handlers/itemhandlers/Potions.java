@@ -70,15 +70,15 @@ public class Potions implements IItemHandler
 		switch (itemId)
 		{
 			
-			case 726: // Custom Mana Drug, xml: 9007
+			case 726: // Custom Mana Drug, xml: 9097 //Update by rocknow
 				if (Config.L2JMOD_ENABLE_MANA_POTIONS_SUPPORT)
-					usePotion(activeChar, 9007, 1);
+					usePotion(activeChar, 9097, 1); //Update by rocknow
 				else
 					playable.sendPacket(new SystemMessage(SystemMessageId.NOTHING_HAPPENED));
 				break;
-			case 728: // Custom Mana Potion, xml: 9008
+			case 728: // Custom Mana Potion, xml: 9098 //Update by rocknow
 				if (Config.L2JMOD_ENABLE_MANA_POTIONS_SUPPORT)
-					usePotion(activeChar, 9008, 1);
+					usePotion(activeChar, 9098, 1); //Update by rocknow
 				else
 					playable.sendPacket(new SystemMessage(SystemMessageId.NOTHING_HAPPENED));
 				break;

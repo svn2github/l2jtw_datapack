@@ -9743,7 +9743,6 @@ DROP TABLE IF EXISTS `npc_name`;
 UPDATE `npc` SET `name` = '安杜露美達', `title` = '結婚管理員' WHERE `id` = 50007;
 UPDATE `npc` SET `name` = '艾麗絲 蒂 凱特琳娜', `title` = 'TVT活動管理員' WHERE `id` = 70010;
 UPDATE `npc` SET `name` = '勞拉', `title` = '輔助管理員' WHERE `id` = 1000003;
-UPDATE `npc` SET `name` = '瞭望水晶' WHERE `id` = 830000;
-UPDATE `npc` SET `title` = '轉職管理員', `serverSideTitle` = '1' WHERE `id` = 31228;
+UPDATE `npc` SET `title` = '轉職管理員', `serverSideTitle` = '1' WHERE `id` in (31756,31757);
 
 /***** Done by vdmyagami！ *****/
