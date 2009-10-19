@@ -73,7 +73,7 @@
   </for>
 </item>
 <item id="13889" name="Holy Spirit's Cloak - Kamael exclusive">
-  <cond msgId="1518">
+  <cond msgId="2453">
     <and>
       <player race="Kamael"/>
       <or>
@@ -88,7 +88,7 @@
   </for>
 </item>
 <item id="13890" name="Holy Spirit's Cloak">
-  <cond msgId="1518">
+  <cond msgId="2453">
     <or>
       <player active_skill_id="8286"/> <!-- Update by rocknow -->
       <player active_skill_id="8288"/> <!-- Update by rocknow -->
@@ -104,7 +104,7 @@
   </for>
 </item>
 <item id="13891" name="Holy Spirit's Cloak - Light Armor exclusive">
-  <cond msgId="1518">
+  <cond msgId="2453">
     <and>
       <player class_id_restriction="92,93,101,102,108,109"/> <!-- Update by rocknow -->
       <or>
@@ -119,7 +119,7 @@
   </for>
 </item>
 <item id="13892" name="Holy Spirit's Cloak - Robe exclusive">
-  <cond msgId="1518">
+  <cond msgId="2453">
     <and> <!-- Update by rocknow -->
       <player class_id_restriction="94,95,96,97,98,103,104,105,110,111,112,115,116"/>
     <or>

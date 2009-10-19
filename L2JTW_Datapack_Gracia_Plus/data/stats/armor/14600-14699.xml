@@ -13,7 +13,7 @@
   </for>
 </item>
 <item id="14601" name="Ancient Cloak - Kamael exclusive - Kamael Use">
-  <cond msgId="1518">
+  <cond msgId="2453">
     <and>
       <player race="Kamael"/>
       <or>
@@ -35,7 +35,7 @@
   </for>
 </item>
 <item id="14602" name="Ancient Cloak">
-  <cond msgId="1518">
+  <cond msgId="2453">
     <and>
       <player race="Kamael"/>
       <or>
@@ -57,7 +57,7 @@
   </for>
 </item>
 <item id="14608" name="Ancient Cloak - Light Armor exclusive">
-  <cond msgId="1518">
+  <cond msgId="2453">
     <and>
       <player class_id_restriction="92,93,101,102,108,109"/> <!-- Update by rocknow -->
       <or>
@@ -78,7 +78,7 @@
   </for>
 </item>
 <item id="14609" name="Ancient Cloak">
-  <cond msgId="1518">
+  <cond msgId="2453">
     <or>
       <player active_skill_id="3352"/> <!-- Update by rocknow -->
       <player active_skill_id="3353"/> <!-- Update by rocknow -->
@@ -136,7 +136,7 @@
   </for>
 </item>
 <item id="14610" name="Ancient Cloak - Robe exclusive">
-  <cond msgId="1518">
+  <cond msgId="2453">
     <and> <!-- Update by rocknow -->
       <player class_id_restriction="94,95,96,97,98,103,104,105,110,111,112,115,116"/>
     <or>
