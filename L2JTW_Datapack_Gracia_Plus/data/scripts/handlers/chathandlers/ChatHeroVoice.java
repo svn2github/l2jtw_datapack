@@ -41,7 +41,7 @@ public class ChatHeroVoice implements IChatHandler
 	{
 		if (activeChar.isHero() || activeChar.isGM())
 		{
-			if (!activeChar.getFloodProtectors().getHeroVoice().tryPerformAction("hero voice"))
+			if (!activeChar.getFloodProtectors().getHeroVoice().tryPerformAction("hero voice") && !activeChar.isGM()) //modify By Tiger 091020
 			{
 				activeChar.sendMessage(22);
 				return;
