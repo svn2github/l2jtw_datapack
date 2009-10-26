@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- 開拓者獎勵品 -->
+<list>
+<!-- 開拓者獎勵品-D級 -->
+<item id="1">
+  <ingredient id="13002" count="10"/><!-- 欲界的精華 -->
+  <production id="13003" count="1"/>
+</item>
+<!-- 開拓者獎勵品-C級 -->
+<item id="2">
+  <ingredient id="13002" count="20"/>
+  <production id="13004" count="1"/>
+</item>
+<!-- 開拓者獎勵品-B級 -->
+<item id="3">
+  <ingredient id="13002" count="50"/>
+  <production id="13005" count="1"/>
+</item>
+<!-- 開拓者獎勵品-A級 -->
+<item id="4">
+  <ingredient id="13002" count="100"/>
+  <production id="13006" count="1"/>
+</item>
+<!-- 開拓者獎勵品-S級 -->
+<item id="5">
+  <ingredient id="13002" count="200"/>
+  <production id="13007" count="1"/>
+</item>
+<!-- 開拓者獎勵品-奧歐卡輪 -->
+<item id="6">
+  <ingredient id="13002" count="300"/>
+  <production id="13270" count="1"/>
+</item>
+<!-- 開拓者獎勵品-奧爾卡輪 -->
+<item id="7">
+  <ingredient id="13002" count="300"/>
+  <production id="13271" count="1"/>
+</item>
+<!-- 開拓者獎勵品-奧耶卡輪 -->
+<item id="8">
+  <ingredient id="13002" count="300"/>
+  <production id="13272" count="1"/>
+</item>
+</list>
