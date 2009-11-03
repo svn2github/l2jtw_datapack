@@ -647,53 +647,94 @@
 </skill>
 <skill id="21089" levels="1" name="Dance of Shadows">
   <!-- Receives the soul's help, and for 2 minutes, decreases one's own moving speed by 50% and invokes the ability not to receive the preemptive attack of monsters. -->
-  <set name="target" val="TARGET_NONE"/>
-  <set name="skillType" val="NOTDONE"/>
-  <set name="operateType" val="OP_PASSIVE"/>
+  <!-- Update by rocknow -->
+  <set name="mpConsume" val="60"/>
+  <set name="target" val="TARGET_SELF"/>
+  <set name="reuseDelay" val="3000"/>
   <set name="hitTime" val="2500"/>
+  <set name="skillType" val="BUFF"/>
+  <set name="operateType" val="OP_ACTIVE"/>
+  <set name="aggroPoints" val="666"/>
+  <for>
+    <effect name="SilentMove" time="120" abnormal="stealth" val="0">
+      <mul order="0x30" stat="runSpd" val="0.5"/>
+    </effect>
+  </for>
 </skill>
 <skill id="21090" levels="1" name="Soul of Phoenix">
   <!-- Receives the soul's help, and revives from death with completely recovered status. Buff/de-buff doesn't disappear at death but is maintained. -->
-  <set name="target" val="TARGET_NONE"/>
-  <set name="skillType" val="NOTDONE"/>
-  <set name="operateType" val="OP_PASSIVE"/>
+  <!-- Update by rocknow -->
+  <set name="magicLvl" val="79"/>
+  <set name="mpConsume" val="250"/>
+  <set name="target" val="TARGET_SELF"/>
+  <set name="reuseDelay" val="3600000"/>
   <set name="hitTime" val="4000"/>
+  <set name="skillType" val="BUFF"/>
+  <set name="staticReuse" val="true"/>
+  <set name="isMagic" val="true"/>
+  <set name="operateType" val="OP_ACTIVE"/>
+  <for>
+    <effect name="PhoenixBless" time="1800" val="0"/>
+  </for>
 </skill>
 <skill id="21091" levels="1" name="Agathion Seal Cancel - Weaver">
   <!-- Removes the seal on the Agathion. -->
-  <set name="target" val="TARGET_NONE"/>
-  <set name="skillType" val="NOTDONE"/>
-  <set name="operateType" val="OP_PASSIVE"/>
+  <!-- Update by rocknow -->
+  <set name="target" val="TARGET_SELF"/>
+  <set name="skillType" val="AGATHION"/>
+  <set name="operateType" val="OP_ACTIVE"/>
   <set name="hitTime" val="3000"/>
+  <set name="staticHitTime" val="true"/>
+  <set name="npcId" val="1528"/>
 </skill>
 <skill id="21092" levels="1" name="Theme - Love">
-  <set name="target" val="TARGET_NONE"/>
-  <set name="skillType" val="NOTDONE"/>
+  <!-- Update by rocknow -->
+  <set name="target" val="TARGET_SELF"/>
+  <set name="reuseDelay" val="60000"/>
+  <set name="skillType" val="DUMMY"/>
   <set name="operateType" val="OP_PASSIVE"/>
 </skill>
 <skill id="21093" levels="1" name="Theme - Hero">
-  <set name="target" val="TARGET_NONE"/>
-  <set name="skillType" val="NOTDONE"/>
+  <!-- Update by rocknow -->
+  <set name="target" val="TARGET_SELF"/>
+  <set name="reuseDelay" val="60000"/>
+  <set name="skillType" val="DUMMY"/>
   <set name="operateType" val="OP_PASSIVE"/>
 </skill>
 <skill id="21094" levels="1" name="Theme - Theme Park">
-  <set name="target" val="TARGET_NONE"/>
-  <set name="skillType" val="NOTDONE"/>
+  <!-- Update by rocknow -->
+  <set name="target" val="TARGET_SELF"/>
+  <set name="reuseDelay" val="60000"/>
+  <set name="skillType" val="DUMMY"/>
   <set name="operateType" val="OP_PASSIVE"/>
 </skill>
 <skill id="21095" levels="1" name="Blessed Resurrection">
   <!-- Can use the ability of Blessed Resurrection. Reuse Delay 12 hours. -->
-  <set name="target" val="TARGET_NONE"/>
-  <set name="skillType" val="NOTDONE"/>
-  <set name="operateType" val="OP_PASSIVE"/>
+  <!-- Update by rocknow -->
+  <set name="target" val="TARGET_CORPSE_PLAYER"/>
+  <set name="skillType" val="RESURRECT"/>
+  <set name="operateType" val="OP_ACTIVE"/>
+  <set name="power" val="100"/>
   <set name="hitTime" val="3000"/>
+  <set name="reuseDelay" val="43200000"/>
+  <set name="staticReuse" val="true"/>
+  <set name="castRange" val="400"/>
+  <set name="effectRange" val="600"/>
 </skill>
 <skill id="21096" levels="1" name="Ability of Cool Watermelon">
   <!-- For 30 minutes, increases critical rate by 30% and critical power by 35%. -->
-  <set name="target" val="TARGET_NONE"/>
-  <set name="skillType" val="NOTDONE"/>
-  <set name="operateType" val="OP_PASSIVE"/>
+  <!-- Update by rocknow -->
+  <set name="target" val="TARGET_SELF"/>
+  <set name="reuseDelay" val="3600000"/>
   <set name="hitTime" val="3000"/>
+  <set name="skillType" val="BUFF"/>
+  <set name="operateType" val="OP_ACTIVE"/>
+  <for>
+    <effect name="Buff" time="1800" val="0">
+      <basemul order="0x30" stat="rCrit" val="0.3"/>
+      <mul order="0x30" stat="cAtk" val="1.35"/>
+    </effect>
+  </for>
 </skill>
 <skill id="21097" levels="1" name="Summon Friend">
   <!-- Summons your friend. -->
@@ -701,5 +742,37 @@
   <set name="skillType" val="NOTDONE"/>
   <set name="operateType" val="OP_PASSIVE"/>
   <set name="hitTime" val="10000"/>
+</skill>
+<skill id="21098" levels="1" name="21098">
+  <!-- Update by rocknow -->
+  <set name="target" val="TARGET_SELF"/>
+  <set name="reuseDelay" val="1800000"/>
+  <set name="hitTime" val="2500"/>
+  <set name="skillType" val="BUFF"/>
+  <set name="operateType" val="OP_ACTIVE"/>
+  <for>
+    <effect name="Buff" time="300" val="0">
+      <mul order="0x30" stat="maxHp" val="1.2"/>
+      <mul order="0x30" stat="maxMp" val="1.2"/>
+      <mul order="0x30" stat="runSpd" val="1.2"/>
+      <mul order="0x30" stat="debuffVuln" val="0.9"/>
+    </effect>
+  </for>
+</skill>
+<skill id="21099" levels="1" name="21099">
+  <!-- Update by rocknow -->
+  <set name="target" val="TARGET_SELF"/>
+  <set name="reuseDelay" val="1800000"/>
+  <set name="hitTime" val="2500"/>
+  <set name="skillType" val="BUFF"/>
+  <set name="operateType" val="OP_ACTIVE"/>
+  <for>
+    <effect name="Buff" time="300" val="0">
+      <mul order="0x30" stat="pAtkSpd" val="1.2"/>
+      <mul order="0x30" stat="pAtk" val="1.1"/>
+      <mul order="0x30" stat="pDef" val="1.2"/>
+      <add order="0x40" stat="absorbDam" val="5"/>
+    </effect>
+  </for>
 </skill>
 </list>

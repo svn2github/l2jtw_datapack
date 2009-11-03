@@ -2,10 +2,26 @@
 <list>
 <skill id="22100" levels="1" name="Soul Scent">
   <!-- When using a monster's corpse, comforts the monster's soul to borrow the monster's power temporarily. For 2 minutes, increases Max HP by 40%, Max MP by 40%, Max CP by 40%, physical P. Def. by 30%, M. Def. by 30%, moving speed by 20, and M. Atk. by 45%. Decreases MP consumption during skill use by 10%. -->
-  <set name="target" val="TARGET_NONE"/>
-  <set name="skillType" val="NOTDONE"/>
-  <set name="operateType" val="OP_PASSIVE"/>
+  <!-- Update by rocknow -->
+  <set name="itemConsumeId" val="20603"/>
+  <set name="itemConsumeCount" val="1"/>
+  <set name="target" val="TARGET_SELF"/>
+  <set name="reuseDelay" val="1800000"/>
   <set name="hitTime" val="1500"/>
+  <set name="skillType" val="BUFF"/>
+  <set name="operateType" val="OP_ACTIVE"/>
+  <for>
+    <effect name="Buff" time="120" val="0">
+      <mul order="0x30" stat="maxHp" val="1.4"/>
+      <mul order="0x30" stat="maxMp" val="1.4"/>
+      <mul order="0x30" stat="maxCp" val="1.4"/>
+      <mul order="0x30" stat="pDef" val="1.3"/>
+      <mul order="0x30" stat="mDef" val="1.3"/>
+      <add order="0x40" stat="runSpd" val="20"/>
+      <mul order="0x30" stat="mAtk" val="1.45"/>
+      <mul order="0x30" stat="MagicalMpConsumeRate" val="0.9"/>
+    </effect>
+  </for>
 </skill>
 <skill id="22101" levels="1" name="Fortune of Love Box">
   <set name="target" val="TARGET_NONE"/>
@@ -28,5 +44,96 @@
   <set name="skillType" val="NOTDONE"/>
   <set name="operateType" val="OP_PASSIVE"/>
   <set name="hitTime" val="3000"/>
+</skill>
+<skill id="22105" levels="1" name="22105">
+  <!-- Update by rocknow -->
+  <set name="itemConsumeId" val="20707"/>
+  <set name="itemConsumeCount" val="1"/>
+  <set name="summonTotalLifeTime" val="1200000"/>
+  <set name="summonTimeLostIdle" val="500"/>
+  <set name="summonTimeLostActive" val="1000"/>
+  <set name="target" val="TARGET_SELF"/>
+  <set name="hitTime" val="1500"/>
+  <set name="skillType" val="SUMMON"/>
+  <set name="operateType" val="OP_ACTIVE"/>
+  <set name="npcId" val="19"/>
+</skill>
+<skill id="22106" levels="1" name="22106">
+  <!-- Update by rocknow -->
+  <set name="itemConsumeId" val="20708"/>
+  <set name="itemConsumeCount" val="1"/>
+  <set name="summonTotalLifeTime" val="1200000"/>
+  <set name="summonTimeLostIdle" val="500"/>
+  <set name="summonTimeLostActive" val="1000"/>
+  <set name="target" val="TARGET_SELF"/>
+  <set name="hitTime" val="1500"/>
+  <set name="skillType" val="SUMMON"/>
+  <set name="operateType" val="OP_ACTIVE"/>
+  <set name="npcId" val="20"/>
+</skill>
+<skill id="22107" levels="1" name="22107">
+  <!-- Update by rocknow -->
+  <set name="itemConsumeId" val="20709"/>
+  <set name="itemConsumeCount" val="1"/>
+  <set name="summonTotalLifeTime" val="1200000"/>
+  <set name="summonTimeLostIdle" val="500"/>
+  <set name="summonTimeLostActive" val="1000"/>
+  <set name="target" val="TARGET_SELF"/>
+  <set name="hitTime" val="1500"/>
+  <set name="skillType" val="SUMMON"/>
+  <set name="operateType" val="OP_ACTIVE"/>
+  <set name="npcId" val="21"/>
+</skill>
+<skill id="22110" levels="1" name="22110">
+  <!-- Update by rocknow -->
+  <set name="itemConsumeId" val="20728"/>
+  <set name="itemConsumeCount" val="1"/>
+  <set name="summonTotalLifeTime" val="1200000"/>
+  <set name="summonTimeLostIdle" val="500"/>
+  <set name="summonTimeLostActive" val="1000"/>
+  <set name="target" val="TARGET_SELF"/>
+  <set name="hitTime" val="1500"/>
+  <set name="skillType" val="SUMMON"/>
+  <set name="operateType" val="OP_ACTIVE"/>
+  <set name="npcId" val="22"/>
+</skill>
+<skill id="22111" levels="1" name="22111">
+  <!-- Update by rocknow -->
+  <set name="itemConsumeId" val="20729"/>
+  <set name="itemConsumeCount" val="1"/>
+  <set name="summonTotalLifeTime" val="1200000"/>
+  <set name="summonTimeLostIdle" val="500"/>
+  <set name="summonTimeLostActive" val="1000"/>
+  <set name="target" val="TARGET_SELF"/>
+  <set name="hitTime" val="1500"/>
+  <set name="skillType" val="SUMMON"/>
+  <set name="operateType" val="OP_ACTIVE"/>
+  <set name="npcId" val="23"/>
+</skill>
+<skill id="22112" levels="1" name="22112">
+  <!-- Update by rocknow -->
+  <set name="itemConsumeId" val="20730"/>
+  <set name="itemConsumeCount" val="1"/>
+  <set name="summonTotalLifeTime" val="1200000"/>
+  <set name="summonTimeLostIdle" val="500"/>
+  <set name="summonTimeLostActive" val="1000"/>
+  <set name="target" val="TARGET_SELF"/>
+  <set name="hitTime" val="1500"/>
+  <set name="skillType" val="SUMMON"/>
+  <set name="operateType" val="OP_ACTIVE"/>
+  <set name="npcId" val="24"/>
+</skill>
+<skill id="22113" levels="1" name="22113">
+  <!-- Update by rocknow -->
+  <set name="itemConsumeId" val="20731"/>
+  <set name="itemConsumeCount" val="1"/>
+  <set name="summonTotalLifeTime" val="1200000"/>
+  <set name="summonTimeLostIdle" val="500"/>
+  <set name="summonTimeLostActive" val="1000"/>
+  <set name="target" val="TARGET_SELF"/>
+  <set name="hitTime" val="1500"/>
+  <set name="skillType" val="SUMMON"/>
+  <set name="operateType" val="OP_ACTIVE"/>
+  <set name="npcId" val="25"/>
 </skill>
 </list>

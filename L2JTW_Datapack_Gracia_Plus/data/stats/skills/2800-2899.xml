@@ -715,16 +715,30 @@
   <set name="operateType" val="OP_PASSIVE"/>
 </skill>
 <skill id="2869" levels="1" name="Event - Milk Cow Summon Scroll">
-  <set name="target" val="TARGET_NONE"/>
-  <set name="skillType" val="NOTDONE"/>
-  <set name="operateType" val="OP_PASSIVE"/>
+  <!-- Update by rocknow -->
+  <set name="itemConsumeId" val="14724"/>
+  <set name="itemConsumeCount" val="1"/>
+  <set name="summonTotalLifeTime" val="1200000"/>
+  <set name="summonTimeLostIdle" val="500"/>
+  <set name="summonTimeLostActive" val="1000"/>
+  <set name="target" val="TARGET_SELF"/>
   <set name="hitTime" val="1500"/>
+  <set name="skillType" val="SUMMON"/>
+  <set name="operateType" val="OP_ACTIVE"/>
+  <set name="npcId" val="13187"/>
 </skill>
 <skill id="2870" levels="1" name="Event - Head Milk Cow Summon Scroll">
-  <set name="target" val="TARGET_NONE"/>
-  <set name="skillType" val="NOTDONE"/>
-  <set name="operateType" val="OP_PASSIVE"/>
+  <!-- Update by rocknow -->
+  <set name="itemConsumeId" val="14725"/>
+  <set name="itemConsumeCount" val="1"/>
+  <set name="summonTotalLifeTime" val="1200000"/>
+  <set name="summonTimeLostIdle" val="500"/>
+  <set name="summonTimeLostActive" val="1000"/>
+  <set name="target" val="TARGET_SELF"/>
   <set name="hitTime" val="1500"/>
+  <set name="skillType" val="SUMMON"/>
+  <set name="operateType" val="OP_ACTIVE"/>
+  <set name="npcId" val="13188"/>
 </skill>
 <skill id="2871" levels="1" name="Summon Gloomy Milk Cow">
   <set name="target" val="TARGET_NONE"/>
@@ -772,16 +786,30 @@
   <set name="operateType" val="OP_PASSIVE"/>
 </skill>
 <skill id="2880" levels="1" name="Event - Gloomy Milk Cow Summon Scroll">
-  <set name="target" val="TARGET_NONE"/>
-  <set name="skillType" val="NOTDONE"/>
-  <set name="operateType" val="OP_PASSIVE"/>
+  <!-- Update by rocknow -->
+  <set name="itemConsumeId" val="14726"/>
+  <set name="itemConsumeCount" val="1"/>
+  <set name="summonTotalLifeTime" val="1200000"/>
+  <set name="summonTimeLostIdle" val="500"/>
+  <set name="summonTimeLostActive" val="1000"/>
+  <set name="target" val="TARGET_SELF"/>
   <set name="hitTime" val="1500"/>
+  <set name="skillType" val="SUMMON"/>
+  <set name="operateType" val="OP_ACTIVE"/>
+  <set name="npcId" val="13191"/>
 </skill>
 <skill id="2881" levels="1" name="Event - Gloomy Head Milk Cow Summon Scroll">
-  <set name="target" val="TARGET_NONE"/>
-  <set name="skillType" val="NOTDONE"/>
-  <set name="operateType" val="OP_PASSIVE"/>
+  <!-- Update by rocknow -->
+  <set name="itemConsumeId" val="14727"/>
+  <set name="itemConsumeCount" val="1"/>
+  <set name="summonTotalLifeTime" val="1200000"/>
+  <set name="summonTimeLostIdle" val="500"/>
+  <set name="summonTimeLostActive" val="1000"/>
+  <set name="target" val="TARGET_SELF"/>
   <set name="hitTime" val="1500"/>
+  <set name="skillType" val="SUMMON"/>
+  <set name="operateType" val="OP_ACTIVE"/>
+  <set name="npcId" val="13192"/>
 </skill>
 <skill id="2882" levels="1" name="Crystal Cube">
   <set name="target" val="TARGET_NONE"/>

@@ -40,9 +40,7 @@
   <!-- Update by rocknow -->
   <set name="target" val="TARGET_SELF"/>
   <set name="skillType" val="BUFF"/>
-  <set name="operateType" val="OP_TOGGLE"/>
-  <set name="castRange" val="-1"/>
-  <set name="effectRange" val="-1"/>
+  <set name="operateType" val="OP_PASSIVE"/>
   <for>
     <add order="0x40" stat="maxLoad" val="9000"/>
   </for>

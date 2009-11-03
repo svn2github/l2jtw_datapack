@@ -211,4 +211,18 @@
   <set name="operateType" val="OP_PASSIVE"/>
   <set name="hitTime" val="100"/>
 </skill>
+<skill id="6196" levels="1" name="6196">
+  <!-- Update by rocknow -->
+  <set name="target" val="TARGET_SELF"/>
+  <set name="skillType" val="NOTDONE"/>
+  <set name="operateType" val="OP_PASSIVE"/>
+</skill>
+<skill id="6197" levels="1" name="6197">
+  <!-- Update by rocknow -->
+  <set name="target" val="TARGET_SELF"/>
+  <set name="skillType" val="DUMMY"/>
+  <set name="hitTime" val="3000"/>
+  <set name="staticHitTime" val="true"/>
+  <set name="operateType" val="OP_ACTIVE"/>
+</skill>
 </list>

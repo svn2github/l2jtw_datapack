@@ -475,8 +475,8 @@
   <set name="isMagic" val="true"/>
   <set name="operateType" val="OP_ACTIVE"/>
   <for>
-    <effect name="Buff" time="300" val="0" stackOrder="1.02" stackType="magic_critical_up">
-      <mul order="0x30" stat="mCritRate" val="1.02"/>
+    <effect name="Buff" time="300" val="0" stackOrder="2" stackType="magic_critical_up">
+      <basemul order="0x30" stat="mCritRate" val="0.02"/>
     </effect>
   </for>
 </skill>
@@ -578,6 +578,205 @@
       <mul order="0x30" stat="sleepVuln" val="0.5"/>
       <mul order="0x30" stat="confusionVuln" val="0.5"/>
       <mul order="0x30" stat="derangementVuln" val="0.5"/>
+    </effect>
+  </for>
+</skill>
+<skill id="23076" levels="1" name="23076">
+  <!-- Update by rocknow -->
+  <set name="target" val="TARGET_SELF"/>
+  <set name="skillType" val="DUMMY"/>
+  <set name="hitTime" val="3000"/>
+  <set name="staticHitTime" val="true"/>
+  <set name="operateType" val="OP_ACTIVE"/>
+</skill>
+<skill id="23077" levels="1" name="23077">
+  <!-- Update by rocknow -->
+  <set name="target" val="TARGET_SELF"/>
+  <set name="reuseDelay" val="300000"/>
+  <set name="hitTime" val="3000"/>
+  <set name="skillType" val="BUFF"/>
+  <set name="operateType" val="OP_ACTIVE"/>
+  <set name="itemConsumeId" val="20597"/>
+  <set name="itemConsumeCount" val="1"/>
+  <for>
+    <effect name="Buff" time="1200" val="0">
+      <mul order="0x30" stat="maxHp" val="1.6"/>
+      <mul order="0x30" stat="maxMp" val="1.6"/>
+      <mul order="0x30" stat="maxCp" val="1.6"/>
+      <mul order="0x30" stat="pDef" val="1.3"/>
+      <mul order="0x30" stat="mDef" val="1.3"/>
+      <add order="0x40" stat="runSpd" val="30"/>
+      <mul order="0x30" stat="pAtk" val="1.2"/>
+      <mul order="0x30" stat="MagicalMpConsumeRate" val="0.9"/>
+    </effect>
+  </for>
+</skill>
+<skill id="23078" levels="1" name="23078">
+  <!-- Update by rocknow -->
+  <set name="target" val="TARGET_SELF"/>
+  <set name="reuseDelay" val="300000"/>
+  <set name="hitTime" val="3000"/>
+  <set name="skillType" val="BUFF"/>
+  <set name="operateType" val="OP_ACTIVE"/>
+  <set name="itemConsumeId" val="20597"/>
+  <set name="itemConsumeCount" val="1"/>
+  <for>
+    <effect name="Buff" time="1200" val="0">
+      <mul order="0x30" stat="maxHp" val="1.4"/>
+      <mul order="0x30" stat="maxMp" val="1.4"/>
+      <mul order="0x30" stat="maxCp" val="1.4"/>
+      <mul order="0x30" stat="pDef" val="1.3"/>
+      <mul order="0x30" stat="mDef" val="1.3"/>
+      <add order="0x40" stat="runSpd" val="20"/>
+      <mul order="0x30" stat="mAtk" val="1.45"/>
+      <mul order="0x30" stat="MagicalMpConsumeRate" val="0.9"/>
+    </effect>
+  </for>
+</skill>
+<skill id="23079" levels="1" name="23079">
+  <!-- Update by rocknow -->
+  <set name="target" val="TARGET_SELF"/>
+  <set name="skillType" val="DUMMY"/>
+  <set name="hitTime" val="3000"/>
+  <set name="staticHitTime" val="true"/>
+  <set name="operateType" val="OP_ACTIVE"/>
+</skill>
+<skill id="23080" levels="1" name="23080">
+  <!-- Update by rocknow -->
+  <set name="target" val="TARGET_SELF"/>
+  <set name="reuseDelay" val="3600000"/>
+  <set name="hitTime" val="3000"/>
+  <set name="skillType" val="BUFF"/>
+  <set name="operateType" val="OP_ACTIVE"/>
+  <for>
+    <effect name="Buff" time="300" val="0">
+      <mul order="0x30" stat="pAtkSpd" val="1.2"/>
+      <mul order="0x30" stat="pAtk" val="1.1"/>
+      <mul order="0x30" stat="pDef" val="1.2"/>
+      <mul order="0x30" stat="cAtk" val="1.2"/>
+      <basemul order="0x30" stat="rCrit" val="0.2"/>
+    </effect>
+  </for>
+</skill>
+<skill id="23081" levels="1" name="23081">
+  <!-- Update by rocknow -->
+  <set name="target" val="TARGET_SELF"/>
+  <set name="skillType" val="DUMMY"/>
+  <set name="hitTime" val="3000"/>
+  <set name="staticHitTime" val="true"/>
+  <set name="operateType" val="OP_ACTIVE"/>
+</skill>
+<skill id="23082" levels="1" name="23082">
+  <!-- Update by rocknow -->
+  <set name="target" val="TARGET_SELF"/>
+  <set name="reuseDelay" val="3600000"/>
+  <set name="hitTime" val="3000"/>
+  <set name="skillType" val="BUFF"/>
+  <set name="operateType" val="OP_ACTIVE"/>
+  <for>
+    <effect name="Buff" time="300" val="0">
+      <mul order="0x30" stat="mAtkSpd" val="1.2"/>
+      <mul order="0x30" stat="mAtk" val="1.2"/>
+      <mul order="0x30" stat="mDef" val="1.2"/>
+      <basemul order="0x30" stat="mCritRate" val="2"/>
+    </effect>
+  </for>
+</skill>
+<skill id="23083" levels="1" name="23083">
+  <!-- Update by rocknow -->
+  <set name="target" val="TARGET_SELF"/>
+  <set name="skillType" val="DUMMY"/>
+  <set name="hitTime" val="3000"/>
+  <set name="staticHitTime" val="true"/>
+  <set name="operateType" val="OP_ACTIVE"/>
+</skill>
+<skill id="23084" levels="1" name="23084">
+  <!-- Update by rocknow -->
+  <set name="target" val="TARGET_SELF"/>
+  <set name="reuseDelay" val="3600000"/>
+  <set name="hitTime" val="3000"/>
+  <set name="skillType" val="BUFF"/>
+  <set name="operateType" val="OP_ACTIVE"/>
+  <for>
+    <effect name="Buff" time="300" val="0">
+      <mul order="0x30" stat="maxHp" val="1.2"/>
+      <mul order="0x30" stat="maxMp" val="1.2"/>
+      <mul order="0x30" stat="runSpd" val="1.2"/>
+      <add order="0x30" stat="regHp" val="1.2"/>
+      <add order="0x30" stat="regMp" val="1.2"/>
+    </effect>
+  </for>
+</skill>
+<skill id="23085" levels="1" name="23085">
+  <!-- Update by rocknow -->
+  <set name="target" val="TARGET_SELF"/>
+  <set name="skillType" val="DUMMY"/>
+  <set name="hitTime" val="3000"/>
+  <set name="staticHitTime" val="true"/>
+  <set name="operateType" val="OP_ACTIVE"/>
+</skill>
+<skill id="23086" levels="1" name="23086">
+  <!-- Update by rocknow -->
+  <set name="target" val="TARGET_SELF"/>
+  <set name="reuseDelay" val="3600000"/>
+  <set name="hitTime" val="3000"/>
+  <set name="skillType" val="BUFF"/>
+  <set name="operateType" val="OP_ACTIVE"/>
+  <for>
+    <effect name="Buff" time="300" val="0">
+      <mul order="0x30" stat="mAtkSpd" val="1.2"/>
+      <mul order="0x30" stat="mAtk" val="1.2"/>
+      <mul order="0x30" stat="mDef" val="1.2"/>
+      <basemul order="0x30" stat="mCritRate" val="2"/>
+    </effect>
+  </for>
+</skill>
+<skill id="23087" levels="1" name="23087">
+  <!-- Update by rocknow -->
+  <set name="target" val="TARGET_SELF"/>
+  <set name="skillType" val="DUMMY"/>
+  <set name="hitTime" val="3000"/>
+  <set name="staticHitTime" val="true"/>
+  <set name="operateType" val="OP_ACTIVE"/>
+</skill>
+<skill id="23088" levels="1" name="23088">
+  <!-- Update by rocknow -->
+  <set name="target" val="TARGET_SELF"/>
+  <set name="reuseDelay" val="3600000"/>
+  <set name="hitTime" val="3000"/>
+  <set name="skillType" val="BUFF"/>
+  <set name="operateType" val="OP_ACTIVE"/>
+  <for>
+    <effect name="Buff" time="300" val="0">
+      <mul order="0x30" stat="cAtk" val="1.2"/>
+      <mul order="0x30" stat="pAtk" val="1.1"/>
+      <mul order="0x30" stat="pDef" val="1.2"/>
+      <add order="0x40" stat="absorbDam" val="5"/>
+    </effect>
+  </for>
+</skill>
+<skill id="23089" levels="1" name="23089">
+  <!-- Update by rocknow -->
+  <set name="target" val="TARGET_SELF"/>
+  <set name="skillType" val="DUMMY"/>
+  <set name="hitTime" val="3000"/>
+  <set name="staticHitTime" val="true"/>
+  <set name="operateType" val="OP_ACTIVE"/>
+</skill>
+<skill id="23090" levels="1" name="23090">
+  <!-- Update by rocknow -->
+  <set name="target" val="TARGET_SELF"/>
+  <set name="reuseDelay" val="3600000"/>
+  <set name="hitTime" val="3000"/>
+  <set name="skillType" val="BUFF"/>
+  <set name="operateType" val="OP_ACTIVE"/>
+  <for>
+    <effect name="Buff" time="300" val="0">
+      <mul order="0x30" stat="maxHp" val="1.2"/>
+      <mul order="0x30" stat="maxMp" val="1.2"/>
+      <mul order="0x30" stat="runSpd" val="1.2"/>
+      <add order="0x30" stat="regHp" val="1.2"/>
+      <add order="0x30" stat="regMp" val="1.2"/>
     </effect>
   </for>
 </skill>
