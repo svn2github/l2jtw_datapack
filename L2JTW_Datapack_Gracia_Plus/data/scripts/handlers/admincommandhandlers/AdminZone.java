@@ -26,14 +26,14 @@ package handlers.admincommandhandlers;
 
 import java.util.StringTokenizer;
 
-import net.sf.l2j.gameserver.datatables.MapRegionTable;
-import net.sf.l2j.gameserver.handler.IAdminCommandHandler;
-import net.sf.l2j.gameserver.instancemanager.ZoneManager;
-import net.sf.l2j.gameserver.model.Location;
-import net.sf.l2j.gameserver.model.actor.L2Character;
-import net.sf.l2j.gameserver.model.actor.instance.L2PcInstance;
-import net.sf.l2j.gameserver.datatables.MessageTable;
-import net.sf.l2j.gameserver.model.L2CoreMessage;
+import com.l2jserver.gameserver.datatables.MapRegionTable;
+import com.l2jserver.gameserver.handler.IAdminCommandHandler;
+import com.l2jserver.gameserver.instancemanager.ZoneManager;
+import com.l2jserver.gameserver.model.Location;
+import com.l2jserver.gameserver.model.actor.L2Character;
+import com.l2jserver.gameserver.model.actor.instance.L2PcInstance;
+import com.l2jserver.gameserver.datatables.MessageTable;
+import com.l2jserver.gameserver.model.L2CoreMessage;
 
 public class AdminZone implements IAdminCommandHandler
 {
@@ -45,7 +45,7 @@ public class AdminZone implements IAdminCommandHandler
 	
 	/**
 	 * 
-	 * @see net.sf.l2j.gameserver.handler.IAdminCommandHandler#useAdminCommand(java.lang.String, net.sf.l2j.gameserver.model.actor.instance.L2PcInstance)
+	 * @see com.l2jserver.gameserver.handler.IAdminCommandHandler#useAdminCommand(java.lang.String, com.l2jserver.gameserver.model.actor.instance.L2PcInstance)
 	 */
 	public boolean useAdminCommand(String command, L2PcInstance activeChar)
 	{
@@ -125,7 +125,7 @@ public class AdminZone implements IAdminCommandHandler
 	
 	/**
 	 * 
-	 * @see net.sf.l2j.gameserver.handler.IAdminCommandHandler#getAdminCommandList()
+	 * @see com.l2jserver.gameserver.handler.IAdminCommandHandler#getAdminCommandList()
 	 */
 	public String[] getAdminCommandList()
 	{

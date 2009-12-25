@@ -1,8 +1,8 @@
 import sys
-from net.sf.l2j.gameserver.ai import CtrlIntention
-from net.sf.l2j.gameserver.model.quest.jython import QuestJython as JQuest
-from net.sf.l2j.gameserver.network.serverpackets import NpcSay
-from net.sf.l2j.util import Rnd
+from com.l2jserver.gameserver.ai import CtrlIntention
+from com.l2jserver.gameserver.model.quest.jython import QuestJython as JQuest
+from com.l2jserver.gameserver.network.serverpackets import NpcSay
+from com.l2jserver.util import Rnd
 
 # Random Message
 TEXT = [ "各位！出來吧！",\

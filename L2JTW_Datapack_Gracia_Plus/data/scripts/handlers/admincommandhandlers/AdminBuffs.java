@@ -2,16 +2,16 @@ package handlers.admincommandhandlers;
 
 import java.util.StringTokenizer;
 
-import net.sf.l2j.gameserver.handler.IAdminCommandHandler;
-import net.sf.l2j.gameserver.model.L2Effect;
-import net.sf.l2j.gameserver.model.L2World;
-import net.sf.l2j.gameserver.model.actor.L2Character;
-import net.sf.l2j.gameserver.model.actor.instance.L2PcInstance;
-import net.sf.l2j.gameserver.network.serverpackets.NpcHtmlMessage;
-import net.sf.l2j.gameserver.util.GMAudit;
-import net.sf.l2j.gameserver.datatables.MessageTable;
-import net.sf.l2j.gameserver.model.L2CoreMessage;
-import net.sf.l2j.gameserver.util.StringUtil;
+import com.l2jserver.gameserver.handler.IAdminCommandHandler;
+import com.l2jserver.gameserver.model.L2Effect;
+import com.l2jserver.gameserver.model.L2World;
+import com.l2jserver.gameserver.model.actor.L2Character;
+import com.l2jserver.gameserver.model.actor.instance.L2PcInstance;
+import com.l2jserver.gameserver.network.serverpackets.NpcHtmlMessage;
+import com.l2jserver.gameserver.util.GMAudit;
+import com.l2jserver.gameserver.datatables.MessageTable;
+import com.l2jserver.gameserver.model.L2CoreMessage;
+import com.l2jserver.gameserver.util.StringUtil;
 
 public class AdminBuffs implements IAdminCommandHandler
 {

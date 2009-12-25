@@ -1,13 +1,13 @@
 #Shadai Spawn Script 
 
 import sys
-from net.sf.l2j.gameserver import GameTimeController
-from net.sf.l2j.gameserver.ai import CtrlIntention
-from net.sf.l2j.gameserver.model import L2CharPosition
-from net.sf.l2j.gameserver.model.quest.jython import QuestJython as JQuest
-from net.sf.l2j.gameserver.network.serverpackets import NpcSay
-from net.sf.l2j.gameserver.network.serverpackets import PlaySound
-from net.sf.l2j.gameserver.network.serverpackets import SocialAction
+from com.l2jserver.gameserver import GameTimeController
+from com.l2jserver.gameserver.ai import CtrlIntention
+from com.l2jserver.gameserver.model import L2CharPosition
+from com.l2jserver.gameserver.model.quest.jython import QuestJython as JQuest
+from com.l2jserver.gameserver.network.serverpackets import NpcSay
+from com.l2jserver.gameserver.network.serverpackets import PlaySound
+from com.l2jserver.gameserver.network.serverpackets import SocialAction
 
 
 qn = "Shadai_Spawn" 

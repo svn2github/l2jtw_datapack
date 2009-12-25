@@ -1,10 +1,10 @@
 # Update by rocknow
 import sys
-from net.sf.l2j.gameserver.ai import CtrlIntention
-from net.sf.l2j.gameserver.model.quest.jython import QuestJython as JQuest
-from net.sf.l2j.gameserver.network.serverpackets import ActionFailed
-from net.sf.l2j.gameserver.network.serverpackets import NpcSay
-from net.sf.l2j.gameserver.network.serverpackets import SocialAction
+from com.l2jserver.gameserver.ai import CtrlIntention
+from com.l2jserver.gameserver.model.quest.jython import QuestJython as JQuest
+from com.l2jserver.gameserver.network.serverpackets import ActionFailed
+from com.l2jserver.gameserver.network.serverpackets import NpcSay
+from com.l2jserver.gameserver.network.serverpackets import SocialAction
 
 REPORTS={
 "REPORT1":[0,"傳令，告知柯塞勒斯同盟聯合的夥伴們！目前我們正在募集勇猛的冒險家們，準備攻擊霸佔破滅之種的蒂雅特的龍馬團！","REPORT2"],

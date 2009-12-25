@@ -1,12 +1,12 @@
 import sys
-from net.sf.l2j.gameserver.model.quest           import State
-from net.sf.l2j.gameserver.model.quest           import QuestState
-from net.sf.l2j.gameserver.model.quest.jython    import QuestJython as JQuest
-from net.sf.l2j.gameserver.model.itemcontainer   import PcInventory
-from net.sf.l2j.gameserver.model                 import L2ItemInstance
-from net.sf.l2j.gameserver.network.serverpackets import InventoryUpdate
-from net.sf.l2j.util                             import Rnd
-from net.sf.l2j.gameserver.datatables            import ItemTable
+from com.l2jserver.gameserver.model.quest           import State
+from com.l2jserver.gameserver.model.quest           import QuestState
+from com.l2jserver.gameserver.model.quest.jython    import QuestJython as JQuest
+from com.l2jserver.gameserver.model.itemcontainer   import PcInventory
+from com.l2jserver.gameserver.model                 import L2ItemInstance
+from com.l2jserver.gameserver.network.serverpackets import InventoryUpdate
+from com.l2jserver.util                             import Rnd
+from com.l2jserver.gameserver.datatables            import ItemTable
 
 # 22349	大地奇美拉
 # 22350	黑暗奇美拉

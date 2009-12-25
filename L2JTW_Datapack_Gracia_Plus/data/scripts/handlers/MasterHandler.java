@@ -23,13 +23,13 @@ import handlers.voicedcommandhandlers.*;
 
 import java.util.logging.Logger;
 
-import net.sf.l2j.Config;
-import net.sf.l2j.gameserver.handler.AdminCommandHandler;
-import net.sf.l2j.gameserver.handler.ChatHandler;
-import net.sf.l2j.gameserver.handler.ItemHandler;
-import net.sf.l2j.gameserver.handler.SkillHandler;
-import net.sf.l2j.gameserver.handler.UserCommandHandler;
-import net.sf.l2j.gameserver.handler.VoicedCommandHandler;
+import com.l2jserver.Config;
+import com.l2jserver.gameserver.handler.AdminCommandHandler;
+import com.l2jserver.gameserver.handler.ChatHandler;
+import com.l2jserver.gameserver.handler.ItemHandler;
+import com.l2jserver.gameserver.handler.SkillHandler;
+import com.l2jserver.gameserver.handler.UserCommandHandler;
+import com.l2jserver.gameserver.handler.VoicedCommandHandler;
 
 /**
  *

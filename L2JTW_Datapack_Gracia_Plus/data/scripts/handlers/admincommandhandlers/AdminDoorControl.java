@@ -14,15 +14,15 @@
  */
 package handlers.admincommandhandlers;
 
-import net.sf.l2j.gameserver.datatables.DoorTable;
-import net.sf.l2j.gameserver.handler.IAdminCommandHandler;
-import net.sf.l2j.gameserver.instancemanager.CastleManager;
-import net.sf.l2j.gameserver.model.L2Object;
-import net.sf.l2j.gameserver.model.actor.instance.L2DoorInstance;
-import net.sf.l2j.gameserver.model.actor.instance.L2PcInstance;
-import net.sf.l2j.gameserver.model.entity.Castle;
-import net.sf.l2j.gameserver.network.SystemMessageId;
-import net.sf.l2j.gameserver.network.serverpackets.SystemMessage;
+import com.l2jserver.gameserver.datatables.DoorTable;
+import com.l2jserver.gameserver.handler.IAdminCommandHandler;
+import com.l2jserver.gameserver.instancemanager.CastleManager;
+import com.l2jserver.gameserver.model.L2Object;
+import com.l2jserver.gameserver.model.actor.instance.L2DoorInstance;
+import com.l2jserver.gameserver.model.actor.instance.L2PcInstance;
+import com.l2jserver.gameserver.model.entity.Castle;
+import com.l2jserver.gameserver.network.SystemMessageId;
+import com.l2jserver.gameserver.network.serverpackets.SystemMessage;
 
 /**
  * This class handles following admin commands:

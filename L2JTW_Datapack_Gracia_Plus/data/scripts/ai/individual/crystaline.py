@@ -1,17 +1,17 @@
 # By Evil33t
 import sys
-from net.sf.l2j.gameserver.ai import CtrlIntention
-from net.sf.l2j.gameserver.datatables import ItemTable
-from net.sf.l2j.gameserver.instancemanager import InstanceManager
-from net.sf.l2j.gameserver.model import L2ItemInstance
-from net.sf.l2j.gameserver.model import L2CharPosition
-from net.sf.l2j.gameserver.model import L2World
-from net.sf.l2j.gameserver.model.quest import State
-from net.sf.l2j.gameserver.model.quest import QuestState
-from net.sf.l2j.gameserver.model.quest.jython import QuestJython as JQuest
-from net.sf.l2j.gameserver.network.serverpackets import NpcSay
-from net.sf.l2j.gameserver.network.serverpackets import MagicSkillUse
-from net.sf.l2j.util import Rnd
+from com.l2jserver.gameserver.ai import CtrlIntention
+from com.l2jserver.gameserver.datatables import ItemTable
+from com.l2jserver.gameserver.instancemanager import InstanceManager
+from com.l2jserver.gameserver.model import L2ItemInstance
+from com.l2jserver.gameserver.model import L2CharPosition
+from com.l2jserver.gameserver.model import L2World
+from com.l2jserver.gameserver.model.quest import State
+from com.l2jserver.gameserver.model.quest import QuestState
+from com.l2jserver.gameserver.model.quest.jython import QuestJython as JQuest
+from com.l2jserver.gameserver.network.serverpackets import NpcSay
+from com.l2jserver.gameserver.network.serverpackets import MagicSkillUse
+from com.l2jserver.util import Rnd
 
 npcid = 32328
 crystalid = 9693

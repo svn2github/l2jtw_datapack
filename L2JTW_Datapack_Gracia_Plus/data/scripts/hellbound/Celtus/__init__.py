@@ -1,9 +1,9 @@
 import sys
-from net.sf.l2j.gameserver.model.quest        import State
-from net.sf.l2j.gameserver.model.quest        import QuestState
-from net.sf.l2j.gameserver.model.quest.jython import QuestJython as JQuest
-from net.sf.l2j.util                          import Rnd
-from net.sf.l2j.gameserver.datatables         import ItemTable
+from com.l2jserver.gameserver.model.quest        import State
+from com.l2jserver.gameserver.model.quest        import QuestState
+from com.l2jserver.gameserver.model.quest.jython import QuestJython as JQuest
+from com.l2jserver.util                          import Rnd
+from com.l2jserver.gameserver.datatables         import ItemTable
 
 # 9672	魔法葫蘆
 # 9682	保存的魔法精氣

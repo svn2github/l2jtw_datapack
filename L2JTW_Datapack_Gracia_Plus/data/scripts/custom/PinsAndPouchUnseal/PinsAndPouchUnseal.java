@@ -14,12 +14,12 @@
  */
 package custom.PinsAndPouchUnseal;
 
-import net.sf.l2j.gameserver.model.actor.L2Npc;
-import net.sf.l2j.gameserver.model.actor.instance.L2PcInstance;
-import net.sf.l2j.gameserver.model.quest.Quest;
-import net.sf.l2j.gameserver.model.quest.QuestState;
-import net.sf.l2j.gameserver.network.serverpackets.NpcSay;
-import net.sf.l2j.util.Rnd;
+import com.l2jserver.gameserver.model.actor.L2Npc;
+import com.l2jserver.gameserver.model.actor.instance.L2PcInstance;
+import com.l2jserver.gameserver.model.quest.Quest;
+import com.l2jserver.gameserver.model.quest.QuestState;
+import com.l2jserver.gameserver.network.serverpackets.NpcSay;
+import com.l2jserver.util.Rnd;
 
 public class PinsAndPouchUnseal extends Quest
 {

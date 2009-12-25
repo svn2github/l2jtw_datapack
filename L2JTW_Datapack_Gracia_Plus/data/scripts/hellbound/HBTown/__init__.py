@@ -1,21 +1,21 @@
 # By: evill33t & vital
 
-from net.sf.l2j.gameserver.instancemanager        import InstanceManager
-from net.sf.l2j.gameserver.model                  import L2ItemInstance
-from net.sf.l2j.gameserver.model.actor            import L2Summon
-from net.sf.l2j.gameserver.model.entity           import Instance
-from net.sf.l2j.gameserver.model.itemcontainer    import PcInventory
-from net.sf.l2j.gameserver.model.quest            import State
-from net.sf.l2j.gameserver.model.quest            import QuestState
-from net.sf.l2j.gameserver.model.quest.jython     import QuestJython as JQuest
-from net.sf.l2j.gameserver.network                import SystemMessageId
-from net.sf.l2j.gameserver.network.serverpackets  import InventoryUpdate
-from net.sf.l2j.gameserver.network.serverpackets  import MagicSkillUse
-from net.sf.l2j.gameserver.network.serverpackets  import NpcSay
-from net.sf.l2j.gameserver.network.serverpackets  import SystemMessage
-from net.sf.l2j.gameserver.network                import SystemMessageId
-from net.sf.l2j.gameserver.util                   import Util
-from net.sf.l2j.util                              import Rnd
+from com.l2jserver.gameserver.instancemanager        import InstanceManager
+from com.l2jserver.gameserver.model                  import L2ItemInstance
+from com.l2jserver.gameserver.model.actor            import L2Summon
+from com.l2jserver.gameserver.model.entity           import Instance
+from com.l2jserver.gameserver.model.itemcontainer    import PcInventory
+from com.l2jserver.gameserver.model.quest            import State
+from com.l2jserver.gameserver.model.quest            import QuestState
+from com.l2jserver.gameserver.model.quest.jython     import QuestJython as JQuest
+from com.l2jserver.gameserver.network                import SystemMessageId
+from com.l2jserver.gameserver.network.serverpackets  import InventoryUpdate
+from com.l2jserver.gameserver.network.serverpackets  import MagicSkillUse
+from com.l2jserver.gameserver.network.serverpackets  import NpcSay
+from com.l2jserver.gameserver.network.serverpackets  import SystemMessage
+from com.l2jserver.gameserver.network                import SystemMessageId
+from com.l2jserver.gameserver.util                   import Util
+from com.l2jserver.util                              import Rnd
 
 qn = "HBTown"
 

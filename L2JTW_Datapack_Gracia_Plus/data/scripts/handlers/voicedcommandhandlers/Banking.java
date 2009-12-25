@@ -14,12 +14,12 @@
  */
 package handlers.voicedcommandhandlers;
 
-import net.sf.l2j.Config;
-import net.sf.l2j.gameserver.handler.IVoicedCommandHandler;
-import net.sf.l2j.gameserver.model.actor.instance.L2PcInstance;
-import net.sf.l2j.gameserver.network.serverpackets.InventoryUpdate;
-import net.sf.l2j.gameserver.datatables.MessageTable;
-import net.sf.l2j.gameserver.model.L2CoreMessage;
+import com.l2jserver.Config;
+import com.l2jserver.gameserver.handler.IVoicedCommandHandler;
+import com.l2jserver.gameserver.model.actor.instance.L2PcInstance;
+import com.l2jserver.gameserver.network.serverpackets.InventoryUpdate;
+import com.l2jserver.gameserver.datatables.MessageTable;
+import com.l2jserver.gameserver.model.L2CoreMessage;
 
 /**
  * This class trades Gold Bars for Adena and vice versa.
@@ -37,7 +37,7 @@ public class Banking implements IVoicedCommandHandler
 	
 	/**
 	 * 
-	 * @see net.sf.l2j.gameserver.handler.IVoicedCommandHandler#useVoicedCommand(java.lang.String, net.sf.l2j.gameserver.model.actor.instance.L2PcInstance, java.lang.String)
+	 * @see com.l2jserver.gameserver.handler.IVoicedCommandHandler#useVoicedCommand(java.lang.String, com.l2jserver.gameserver.model.actor.instance.L2PcInstance, java.lang.String)
 	 */
 	public boolean useVoicedCommand(String command, L2PcInstance activeChar, String target)
 	{
@@ -97,7 +97,7 @@ public class Banking implements IVoicedCommandHandler
 	
 	/**
 	 * 
-	 * @see net.sf.l2j.gameserver.handler.IVoicedCommandHandler#getVoicedCommandList()
+	 * @see com.l2jserver.gameserver.handler.IVoicedCommandHandler#getVoicedCommandList()
 	 */
 	public String[] getVoicedCommandList()
 	{

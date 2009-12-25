@@ -23,36 +23,36 @@ package handlers.itemhandlers;
 
 import java.util.logging.Level;
 
-import net.sf.l2j.gameserver.ThreadPoolManager;
-import net.sf.l2j.gameserver.datatables.NpcTable;
-import net.sf.l2j.gameserver.datatables.SummonItemsData;
-import net.sf.l2j.gameserver.handler.IItemHandler;
-import net.sf.l2j.gameserver.idfactory.IdFactory;
-import net.sf.l2j.gameserver.model.L2ItemInstance;
-import net.sf.l2j.gameserver.model.L2Object;
-import net.sf.l2j.gameserver.model.L2Spawn;
-import net.sf.l2j.gameserver.model.L2SummonItem;
-import net.sf.l2j.gameserver.model.L2World;
-import net.sf.l2j.gameserver.model.actor.L2Playable;
-import net.sf.l2j.gameserver.model.actor.instance.L2PcInstance;
-import net.sf.l2j.gameserver.model.actor.instance.L2PetInstance;
-import net.sf.l2j.gameserver.model.entity.TvTEvent;
-import net.sf.l2j.gameserver.network.SystemMessageId;
-import net.sf.l2j.gameserver.network.serverpackets.MagicSkillLaunched;
-import net.sf.l2j.gameserver.network.serverpackets.MagicSkillUse;
-import net.sf.l2j.gameserver.network.serverpackets.PetItemList;
-import net.sf.l2j.gameserver.network.serverpackets.SetupGauge;
-import net.sf.l2j.gameserver.network.serverpackets.SystemMessage;
-import net.sf.l2j.gameserver.templates.chars.L2NpcTemplate;
-import net.sf.l2j.gameserver.util.Broadcast;
-import net.sf.l2j.gameserver.model.L2CoreMessage;
-import net.sf.l2j.gameserver.datatables.MessageTable;
+import com.l2jserver.gameserver.ThreadPoolManager;
+import com.l2jserver.gameserver.datatables.NpcTable;
+import com.l2jserver.gameserver.datatables.SummonItemsData;
+import com.l2jserver.gameserver.handler.IItemHandler;
+import com.l2jserver.gameserver.idfactory.IdFactory;
+import com.l2jserver.gameserver.model.L2ItemInstance;
+import com.l2jserver.gameserver.model.L2Object;
+import com.l2jserver.gameserver.model.L2Spawn;
+import com.l2jserver.gameserver.model.L2SummonItem;
+import com.l2jserver.gameserver.model.L2World;
+import com.l2jserver.gameserver.model.actor.L2Playable;
+import com.l2jserver.gameserver.model.actor.instance.L2PcInstance;
+import com.l2jserver.gameserver.model.actor.instance.L2PetInstance;
+import com.l2jserver.gameserver.model.entity.TvTEvent;
+import com.l2jserver.gameserver.network.SystemMessageId;
+import com.l2jserver.gameserver.network.serverpackets.MagicSkillLaunched;
+import com.l2jserver.gameserver.network.serverpackets.MagicSkillUse;
+import com.l2jserver.gameserver.network.serverpackets.PetItemList;
+import com.l2jserver.gameserver.network.serverpackets.SetupGauge;
+import com.l2jserver.gameserver.network.serverpackets.SystemMessage;
+import com.l2jserver.gameserver.templates.chars.L2NpcTemplate;
+import com.l2jserver.gameserver.util.Broadcast;
+import com.l2jserver.gameserver.model.L2CoreMessage;
+import com.l2jserver.gameserver.datatables.MessageTable;
 
 public class SummonItems implements IItemHandler
 {
 	/**
 	 * 
-	 * @see net.sf.l2j.gameserver.handler.IItemHandler#useItem(net.sf.l2j.gameserver.model.actor.L2Playable, net.sf.l2j.gameserver.model.L2ItemInstance)
+	 * @see com.l2jserver.gameserver.handler.IItemHandler#useItem(com.l2jserver.gameserver.model.actor.L2Playable, com.l2jserver.gameserver.model.L2ItemInstance)
 	 */
 	public void useItem(L2Playable playable, L2ItemInstance item)
 	{

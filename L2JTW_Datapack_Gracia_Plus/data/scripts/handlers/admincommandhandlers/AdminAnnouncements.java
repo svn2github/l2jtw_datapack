@@ -16,11 +16,11 @@ package handlers.admincommandhandlers;
 
 import java.util.Collection;
 
-import net.sf.l2j.gameserver.Announcements;
-import net.sf.l2j.gameserver.handler.IAdminCommandHandler;
-import net.sf.l2j.gameserver.model.L2World;
-import net.sf.l2j.gameserver.model.actor.instance.L2PcInstance;
-import net.sf.l2j.gameserver.taskmanager.AutoAnnounceTaskManager;
+import com.l2jserver.gameserver.Announcements;
+import com.l2jserver.gameserver.handler.IAdminCommandHandler;
+import com.l2jserver.gameserver.model.L2World;
+import com.l2jserver.gameserver.model.actor.instance.L2PcInstance;
+import com.l2jserver.gameserver.taskmanager.AutoAnnounceTaskManager;
 
 /**
  * This class handles following admin commands:

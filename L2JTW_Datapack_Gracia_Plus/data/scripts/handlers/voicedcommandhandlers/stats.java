@@ -16,11 +16,11 @@ package handlers.voicedcommandhandlers;
 
 import java.util.Iterator;
 
-import net.sf.l2j.gameserver.handler.IVoicedCommandHandler;
-import net.sf.l2j.gameserver.model.L2World;
-import net.sf.l2j.gameserver.model.actor.instance.L2PcInstance;
-import net.sf.l2j.gameserver.network.serverpackets.NpcHtmlMessage;
-import net.sf.l2j.gameserver.util.StringUtil;
+import com.l2jserver.gameserver.handler.IVoicedCommandHandler;
+import com.l2jserver.gameserver.model.L2World;
+import com.l2jserver.gameserver.model.actor.instance.L2PcInstance;
+import com.l2jserver.gameserver.network.serverpackets.NpcHtmlMessage;
+import com.l2jserver.gameserver.util.StringUtil;
 
 /**
  *
@@ -35,7 +35,7 @@ public class stats implements IVoicedCommandHandler
 	
 	/**
 	 * 
-	 * @see net.sf.l2j.gameserver.handler.IVoicedCommandHandler#useVoicedCommand(java.lang.String, net.sf.l2j.gameserver.model.actor.instance.L2PcInstance, java.lang.String)
+	 * @see com.l2jserver.gameserver.handler.IVoicedCommandHandler#useVoicedCommand(java.lang.String, com.l2jserver.gameserver.model.actor.instance.L2PcInstance, java.lang.String)
 	 */
 	public boolean useVoicedCommand(String command, L2PcInstance activeChar, String target)
 	{
@@ -79,7 +79,7 @@ public class stats implements IVoicedCommandHandler
 	
 	/**
 	 * 
-	 * @see net.sf.l2j.gameserver.handler.IVoicedCommandHandler#getVoicedCommandList()
+	 * @see com.l2jserver.gameserver.handler.IVoicedCommandHandler#getVoicedCommandList()
 	 */
 	public String[] getVoicedCommandList()
 	{

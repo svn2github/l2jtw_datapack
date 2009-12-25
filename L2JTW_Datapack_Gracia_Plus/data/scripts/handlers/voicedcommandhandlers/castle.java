@@ -14,11 +14,11 @@
  */
 package handlers.voicedcommandhandlers;
 
-import net.sf.l2j.gameserver.handler.IVoicedCommandHandler;
-import net.sf.l2j.gameserver.instancemanager.CastleManager;
-import net.sf.l2j.gameserver.model.actor.instance.L2DoorInstance;
-import net.sf.l2j.gameserver.model.actor.instance.L2PcInstance;
-import net.sf.l2j.gameserver.model.entity.Castle;
+import com.l2jserver.gameserver.handler.IVoicedCommandHandler;
+import com.l2jserver.gameserver.instancemanager.CastleManager;
+import com.l2jserver.gameserver.model.actor.instance.L2DoorInstance;
+import com.l2jserver.gameserver.model.actor.instance.L2PcInstance;
+import com.l2jserver.gameserver.model.entity.Castle;
 
 /**
  *
@@ -35,7 +35,7 @@ public class castle implements IVoicedCommandHandler
 	
 	/**
 	 * 
-	 * @see net.sf.l2j.gameserver.handler.IVoicedCommandHandler#useVoicedCommand(java.lang.String, net.sf.l2j.gameserver.model.actor.instance.L2PcInstance, java.lang.String)
+	 * @see com.l2jserver.gameserver.handler.IVoicedCommandHandler#useVoicedCommand(java.lang.String, com.l2jserver.gameserver.model.actor.instance.L2PcInstance, java.lang.String)
 	 */
 	public boolean useVoicedCommand(String command, L2PcInstance activeChar, String target)
 	{
@@ -75,7 +75,7 @@ public class castle implements IVoicedCommandHandler
 	
 	/**
 	 * 
-	 * @see net.sf.l2j.gameserver.handler.IVoicedCommandHandler#getVoicedCommandList()
+	 * @see com.l2jserver.gameserver.handler.IVoicedCommandHandler#getVoicedCommandList()
 	 */
 	public String[] getVoicedCommandList()
 	{

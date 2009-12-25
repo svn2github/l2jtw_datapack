@@ -16,26 +16,26 @@ package handlers.admincommandhandlers;
 
 import java.util.StringTokenizer;
 
-import net.sf.l2j.Config;
-import net.sf.l2j.gameserver.GmListTable;
-import net.sf.l2j.gameserver.cache.HtmCache;
-import net.sf.l2j.gameserver.datatables.AccessLevels;
-import net.sf.l2j.gameserver.datatables.AdminCommandAccessRights;
-import net.sf.l2j.gameserver.datatables.ItemTable;
-import net.sf.l2j.gameserver.datatables.NpcTable;
-import net.sf.l2j.gameserver.datatables.NpcWalkerRoutesTable;
-import net.sf.l2j.gameserver.datatables.SkillTable;
-import net.sf.l2j.gameserver.datatables.TeleportLocationTable;
-import net.sf.l2j.gameserver.handler.IAdminCommandHandler;
-import net.sf.l2j.gameserver.instancemanager.Manager;
-import net.sf.l2j.gameserver.instancemanager.QuestManager;
-import net.sf.l2j.gameserver.model.L2Multisell;
-import net.sf.l2j.gameserver.model.actor.instance.L2PcInstance;
-import net.sf.l2j.gameserver.model.olympiad.Olympiad;
-import net.sf.l2j.gameserver.network.SystemMessageId;
-import net.sf.l2j.gameserver.network.serverpackets.SystemMessage;
-import net.sf.l2j.gameserver.datatables.MessageTable;
-import net.sf.l2j.gameserver.model.L2CoreMessage;
+import com.l2jserver.Config;
+import com.l2jserver.gameserver.GmListTable;
+import com.l2jserver.gameserver.cache.HtmCache;
+import com.l2jserver.gameserver.datatables.AccessLevels;
+import com.l2jserver.gameserver.datatables.AdminCommandAccessRights;
+import com.l2jserver.gameserver.datatables.ItemTable;
+import com.l2jserver.gameserver.datatables.NpcTable;
+import com.l2jserver.gameserver.datatables.NpcWalkerRoutesTable;
+import com.l2jserver.gameserver.datatables.SkillTable;
+import com.l2jserver.gameserver.datatables.TeleportLocationTable;
+import com.l2jserver.gameserver.handler.IAdminCommandHandler;
+import com.l2jserver.gameserver.instancemanager.Manager;
+import com.l2jserver.gameserver.instancemanager.QuestManager;
+import com.l2jserver.gameserver.model.L2Multisell;
+import com.l2jserver.gameserver.model.actor.instance.L2PcInstance;
+import com.l2jserver.gameserver.model.olympiad.Olympiad;
+import com.l2jserver.gameserver.network.SystemMessageId;
+import com.l2jserver.gameserver.network.serverpackets.SystemMessage;
+import com.l2jserver.gameserver.datatables.MessageTable;
+import com.l2jserver.gameserver.model.L2CoreMessage;
 
 /**
  * This class handles following admin commands:

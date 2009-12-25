@@ -3,10 +3,10 @@ package ai.individual;
 import ai.group_template.L2AttackableAIScript;
 import java.util.Map;
 import javolution.util.FastMap;
-import net.sf.l2j.gameserver.ai.CtrlIntention;
-import net.sf.l2j.gameserver.model.actor.L2Npc;
-import net.sf.l2j.gameserver.model.actor.instance.L2PcInstance;
-import net.sf.l2j.gameserver.model.L2CharPosition;
+import com.l2jserver.gameserver.ai.CtrlIntention;
+import com.l2jserver.gameserver.model.actor.L2Npc;
+import com.l2jserver.gameserver.model.actor.instance.L2PcInstance;
+import com.l2jserver.gameserver.model.L2CharPosition;
 
 /**
  * NPC Walk script

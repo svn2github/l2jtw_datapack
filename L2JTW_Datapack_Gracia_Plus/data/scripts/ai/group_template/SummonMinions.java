@@ -17,12 +17,12 @@ package ai.group_template;
 import javolution.util.FastList;
 import javolution.util.FastMap;
 import javolution.util.FastSet;
-import net.sf.l2j.gameserver.ai.CtrlIntention;
-import net.sf.l2j.gameserver.model.actor.L2Attackable;
-import net.sf.l2j.gameserver.model.actor.L2Npc;
-import net.sf.l2j.gameserver.model.actor.instance.L2PcInstance;
-import net.sf.l2j.gameserver.network.serverpackets.NpcSay;
-import net.sf.l2j.util.Rnd;
+import com.l2jserver.gameserver.ai.CtrlIntention;
+import com.l2jserver.gameserver.model.actor.L2Attackable;
+import com.l2jserver.gameserver.model.actor.L2Npc;
+import com.l2jserver.gameserver.model.actor.instance.L2PcInstance;
+import com.l2jserver.gameserver.network.serverpackets.NpcSay;
+import com.l2jserver.util.Rnd;
 
 public class SummonMinions extends L2AttackableAIScript
 {

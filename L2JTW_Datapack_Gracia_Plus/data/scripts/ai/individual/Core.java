@@ -17,17 +17,17 @@ package ai.individual;
 import java.util.List;
 
 import javolution.util.FastList;
-import net.sf.l2j.gameserver.instancemanager.GrandBossManager;
-import net.sf.l2j.gameserver.model.actor.L2Attackable;
-import net.sf.l2j.gameserver.model.actor.L2Npc;
-import net.sf.l2j.gameserver.model.actor.instance.L2GrandBossInstance;
-import net.sf.l2j.gameserver.model.actor.instance.L2PcInstance;
-import net.sf.l2j.gameserver.network.serverpackets.NpcSay;
-import net.sf.l2j.gameserver.network.serverpackets.PlaySound;
-import net.sf.l2j.gameserver.templates.StatsSet;
-import net.sf.l2j.util.Rnd;
+import com.l2jserver.gameserver.instancemanager.GrandBossManager;
+import com.l2jserver.gameserver.model.actor.L2Attackable;
+import com.l2jserver.gameserver.model.actor.L2Npc;
+import com.l2jserver.gameserver.model.actor.instance.L2GrandBossInstance;
+import com.l2jserver.gameserver.model.actor.instance.L2PcInstance;
+import com.l2jserver.gameserver.network.serverpackets.NpcSay;
+import com.l2jserver.gameserver.network.serverpackets.PlaySound;
+import com.l2jserver.gameserver.templates.StatsSet;
+import com.l2jserver.util.Rnd;
 import ai.group_template.L2AttackableAIScript;
-import net.sf.l2j.ExternalConfig;
+import com.l2jserver.ExternalConfig;
 
 /**
  * Core AI

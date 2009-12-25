@@ -14,12 +14,12 @@
  */
 package custom.IOPRace;
 
-import net.sf.l2j.gameserver.model.actor.L2Npc;
-import net.sf.l2j.gameserver.datatables.SkillTable;
-import net.sf.l2j.gameserver.model.L2Skill;
-import net.sf.l2j.gameserver.model.actor.instance.L2PcInstance;
-import net.sf.l2j.gameserver.model.quest.Quest;
-import net.sf.l2j.gameserver.model.quest.QuestState;
+import com.l2jserver.gameserver.model.actor.L2Npc;
+import com.l2jserver.gameserver.datatables.SkillTable;
+import com.l2jserver.gameserver.model.L2Skill;
+import com.l2jserver.gameserver.model.actor.instance.L2PcInstance;
+import com.l2jserver.gameserver.model.quest.Quest;
+import com.l2jserver.gameserver.model.quest.QuestState;
 
 public class IOPRace extends Quest
 {

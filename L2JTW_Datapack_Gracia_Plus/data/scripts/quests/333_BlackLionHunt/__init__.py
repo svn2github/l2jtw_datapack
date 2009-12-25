@@ -173,10 +173,10 @@ m_no_more_box       = html+morgan+"³f½c...¡H¤°»ò½c¤l°Ú¡H§A¦n¹³¨S¦³³oºØªF¦è°Ú...¡
 m_reward      = html+morgan+"¦³¤°»ò¨Æ±¡­n§ÚÀ°¦£ªº¶Ü...¡H<br><a action=\"bypass -h Quest 333_BlackLionHunt m_give\">¥æ¥X³f½c</a>"+htmlend
 
 import sys
-from net.sf.l2j import Config 
-from net.sf.l2j.gameserver.model.quest import State
-from net.sf.l2j.gameserver.model.quest import QuestState
-from net.sf.l2j.gameserver.model.quest.jython import QuestJython as JQuest
+from com.l2jserver import Config 
+from com.l2jserver.gameserver.model.quest import State
+from com.l2jserver.gameserver.model.quest import QuestState
+from com.l2jserver.gameserver.model.quest.jython import QuestJython as JQuest
 #This Put all Mob Ids from dictionari in a list. So its possible to add new mobs, to one of this 4 Areas, without modification on the addKill Part.
 MOBS=DROPLIST.keys()
 

@@ -1,7 +1,7 @@
 # author Korvin
 import sys
-from net.sf.l2j.gameserver.model.quest.jython	import QuestJython as JQuest
-from net.sf.l2j.gameserver.model.actor.instance	import L2PcInstance
+from com.l2jserver.gameserver.model.quest.jython	import QuestJython as JQuest
+from com.l2jserver.gameserver.model.actor.instance	import L2PcInstance
 
 qn = "Naia"
 

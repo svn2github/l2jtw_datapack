@@ -14,15 +14,15 @@
  */
 package handlers.admincommandhandlers;
 
-import net.sf.l2j.Config;
-import net.sf.l2j.gameserver.handler.IAdminCommandHandler;
-import net.sf.l2j.gameserver.model.L2Object;
-import net.sf.l2j.gameserver.model.actor.instance.L2PcInstance;
-import net.sf.l2j.gameserver.model.entity.TvTEvent;
-import net.sf.l2j.gameserver.model.entity.TvTEventTeleporter;
-import net.sf.l2j.gameserver.model.entity.TvTManager;
-import net.sf.l2j.gameserver.network.SystemMessageId;
-import net.sf.l2j.gameserver.network.serverpackets.SystemMessage;
+import com.l2jserver.Config;
+import com.l2jserver.gameserver.handler.IAdminCommandHandler;
+import com.l2jserver.gameserver.model.L2Object;
+import com.l2jserver.gameserver.model.actor.instance.L2PcInstance;
+import com.l2jserver.gameserver.model.entity.TvTEvent;
+import com.l2jserver.gameserver.model.entity.TvTEventTeleporter;
+import com.l2jserver.gameserver.model.entity.TvTManager;
+import com.l2jserver.gameserver.network.SystemMessageId;
+import com.l2jserver.gameserver.network.serverpackets.SystemMessage;
 
 /**
  * @author FBIagent

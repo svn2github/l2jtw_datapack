@@ -1,14 +1,14 @@
 # author Korvin
 import sys
-from net.sf.l2j.gameserver.model.actor.instance   import L2PcInstance
-from net.sf.l2j.util                              import Rnd
-from net.sf.l2j.gameserver.model.quest            import State
-from net.sf.l2j.gameserver.model.quest            import QuestState
-from net.sf.l2j.gameserver.model.quest.jython     import QuestJython as JQuest
-from net.sf.l2j.gameserver.instancemanager        import InstanceManager
-from net.sf.l2j.gameserver.model.entity           import Instance
-from net.sf.l2j.gameserver.network                import SystemMessageId
-from net.sf.l2j.gameserver.network.serverpackets  import SystemMessage
+from com.l2jserver.gameserver.model.actor.instance   import L2PcInstance
+from com.l2jserver.util                              import Rnd
+from com.l2jserver.gameserver.model.quest            import State
+from com.l2jserver.gameserver.model.quest            import QuestState
+from com.l2jserver.gameserver.model.quest.jython     import QuestJython as JQuest
+from com.l2jserver.gameserver.instancemanager        import InstanceManager
+from com.l2jserver.gameserver.model.entity           import Instance
+from com.l2jserver.gameserver.network                import SystemMessageId
+from com.l2jserver.gameserver.network.serverpackets  import SystemMessage
 
 qn = "Infinitum"
 

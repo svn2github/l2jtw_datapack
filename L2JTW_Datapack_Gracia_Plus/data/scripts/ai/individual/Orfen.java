@@ -17,24 +17,24 @@ package ai.individual;
 import java.util.List;
 
 import javolution.util.FastList;
-import net.sf.l2j.gameserver.ai.CtrlIntention;
-import net.sf.l2j.gameserver.datatables.SkillTable;
-import net.sf.l2j.gameserver.instancemanager.GrandBossManager;
-import net.sf.l2j.gameserver.model.L2Object;
-import net.sf.l2j.gameserver.model.L2Skill;
-import net.sf.l2j.gameserver.model.L2Spawn;
-import net.sf.l2j.gameserver.model.actor.L2Attackable;
-import net.sf.l2j.gameserver.model.actor.L2Character;
-import net.sf.l2j.gameserver.model.actor.L2Npc;
-import net.sf.l2j.gameserver.model.actor.instance.L2GrandBossInstance;
-import net.sf.l2j.gameserver.model.actor.instance.L2PcInstance;
-import net.sf.l2j.gameserver.model.zone.type.L2BossZone;
-import net.sf.l2j.gameserver.network.serverpackets.NpcSay;
-import net.sf.l2j.gameserver.network.serverpackets.PlaySound;
-import net.sf.l2j.gameserver.templates.StatsSet;
-import net.sf.l2j.util.Rnd;
+import com.l2jserver.gameserver.ai.CtrlIntention;
+import com.l2jserver.gameserver.datatables.SkillTable;
+import com.l2jserver.gameserver.instancemanager.GrandBossManager;
+import com.l2jserver.gameserver.model.L2Object;
+import com.l2jserver.gameserver.model.L2Skill;
+import com.l2jserver.gameserver.model.L2Spawn;
+import com.l2jserver.gameserver.model.actor.L2Attackable;
+import com.l2jserver.gameserver.model.actor.L2Character;
+import com.l2jserver.gameserver.model.actor.L2Npc;
+import com.l2jserver.gameserver.model.actor.instance.L2GrandBossInstance;
+import com.l2jserver.gameserver.model.actor.instance.L2PcInstance;
+import com.l2jserver.gameserver.model.zone.type.L2BossZone;
+import com.l2jserver.gameserver.network.serverpackets.NpcSay;
+import com.l2jserver.gameserver.network.serverpackets.PlaySound;
+import com.l2jserver.gameserver.templates.StatsSet;
+import com.l2jserver.util.Rnd;
 import ai.group_template.L2AttackableAIScript;
-import net.sf.l2j.ExternalConfig;
+import com.l2jserver.ExternalConfig;
 
 /**
  * Orfen AI

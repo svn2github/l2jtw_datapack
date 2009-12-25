@@ -1,8 +1,8 @@
 package transformations;
 
-import net.sf.l2j.gameserver.model.L2Transformation;
-import net.sf.l2j.gameserver.instancemanager.TransformationManager;
-import net.sf.l2j.gameserver.datatables.MessageTable;//Update by rocknow
+import com.l2jserver.gameserver.model.L2Transformation;
+import com.l2jserver.gameserver.instancemanager.TransformationManager;
+import com.l2jserver.gameserver.datatables.MessageTable;//Update by rocknow
 
 public class Akamanah extends L2Transformation
 {

@@ -22,32 +22,32 @@ import java.util.logging.Level;
 import java.util.logging.Logger;
 
 import javolution.util.FastList;
-import net.sf.l2j.gameserver.ai.CtrlEvent;
-import net.sf.l2j.gameserver.ai.CtrlIntention;
-import net.sf.l2j.gameserver.ai.L2AttackableAI;
-import net.sf.l2j.gameserver.handler.ISkillHandler;
-import net.sf.l2j.gameserver.handler.SkillHandler;
-import net.sf.l2j.gameserver.model.L2Effect;
-import net.sf.l2j.gameserver.model.L2ItemInstance;
-import net.sf.l2j.gameserver.model.L2Object;
-import net.sf.l2j.gameserver.model.L2Skill;
-import net.sf.l2j.gameserver.model.actor.L2Attackable;
-import net.sf.l2j.gameserver.model.actor.L2Character;
-import net.sf.l2j.gameserver.model.actor.L2Npc;
-import net.sf.l2j.gameserver.model.actor.L2Playable;
-import net.sf.l2j.gameserver.model.actor.L2Summon;
-import net.sf.l2j.gameserver.model.actor.instance.L2PcInstance;
-import net.sf.l2j.gameserver.model.actor.instance.L2SiegeSummonInstance;
-import net.sf.l2j.gameserver.model.base.Experience;
-import net.sf.l2j.gameserver.network.SystemMessageId;
-import net.sf.l2j.gameserver.network.serverpackets.SystemMessage;
-import net.sf.l2j.gameserver.skills.Env;
-import net.sf.l2j.gameserver.skills.Formulas;
-import net.sf.l2j.gameserver.skills.Stats;
-import net.sf.l2j.gameserver.skills.effects.EffectBuff;
-import net.sf.l2j.gameserver.templates.skills.L2EffectType;
-import net.sf.l2j.gameserver.templates.skills.L2SkillType;
-import net.sf.l2j.util.Rnd;
+import com.l2jserver.gameserver.ai.CtrlEvent;
+import com.l2jserver.gameserver.ai.CtrlIntention;
+import com.l2jserver.gameserver.ai.L2AttackableAI;
+import com.l2jserver.gameserver.handler.ISkillHandler;
+import com.l2jserver.gameserver.handler.SkillHandler;
+import com.l2jserver.gameserver.model.L2Effect;
+import com.l2jserver.gameserver.model.L2ItemInstance;
+import com.l2jserver.gameserver.model.L2Object;
+import com.l2jserver.gameserver.model.L2Skill;
+import com.l2jserver.gameserver.model.actor.L2Attackable;
+import com.l2jserver.gameserver.model.actor.L2Character;
+import com.l2jserver.gameserver.model.actor.L2Npc;
+import com.l2jserver.gameserver.model.actor.L2Playable;
+import com.l2jserver.gameserver.model.actor.L2Summon;
+import com.l2jserver.gameserver.model.actor.instance.L2PcInstance;
+import com.l2jserver.gameserver.model.actor.instance.L2SiegeSummonInstance;
+import com.l2jserver.gameserver.model.base.Experience;
+import com.l2jserver.gameserver.network.SystemMessageId;
+import com.l2jserver.gameserver.network.serverpackets.SystemMessage;
+import com.l2jserver.gameserver.skills.Env;
+import com.l2jserver.gameserver.skills.Formulas;
+import com.l2jserver.gameserver.skills.Stats;
+import com.l2jserver.gameserver.skills.effects.EffectBuff;
+import com.l2jserver.gameserver.templates.skills.L2EffectType;
+import com.l2jserver.gameserver.templates.skills.L2SkillType;
+import com.l2jserver.util.Rnd;
 
 /**
  * This Handles Disabler skills
@@ -85,7 +85,7 @@ public class Disablers implements ISkillHandler
 	
 	/**
 	 * 
-	 * @see net.sf.l2j.gameserver.handler.ISkillHandler#useSkill(net.sf.l2j.gameserver.model.actor.L2Character, net.sf.l2j.gameserver.model.L2Skill, net.sf.l2j.gameserver.model.L2Object[])
+	 * @see com.l2jserver.gameserver.handler.ISkillHandler#useSkill(com.l2jserver.gameserver.model.actor.L2Character, com.l2jserver.gameserver.model.L2Skill, com.l2jserver.gameserver.model.L2Object[])
 	 */
 	public void useSkill(L2Character activeChar, L2Skill skill, L2Object[] targets)
 	{
@@ -945,7 +945,7 @@ public class Disablers implements ISkillHandler
 	
 	/**
 	 * 
-	 * @see net.sf.l2j.gameserver.handler.ISkillHandler#getSkillIds()
+	 * @see com.l2jserver.gameserver.handler.ISkillHandler#getSkillIds()
 	 */
 	public L2SkillType[] getSkillIds()
 	{

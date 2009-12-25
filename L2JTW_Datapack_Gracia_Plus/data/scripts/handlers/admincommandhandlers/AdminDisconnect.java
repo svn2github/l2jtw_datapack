@@ -14,13 +14,13 @@
  */
 package handlers.admincommandhandlers;
 
-import net.sf.l2j.gameserver.communitybbs.Manager.RegionBBSManager;
-import net.sf.l2j.gameserver.handler.IAdminCommandHandler;
-import net.sf.l2j.gameserver.model.L2Object;
-import net.sf.l2j.gameserver.model.actor.instance.L2PcInstance;
-import net.sf.l2j.gameserver.network.serverpackets.LeaveWorld;
-import net.sf.l2j.gameserver.datatables.MessageTable;
-import net.sf.l2j.gameserver.model.L2CoreMessage;
+import com.l2jserver.gameserver.communitybbs.Manager.RegionBBSManager;
+import com.l2jserver.gameserver.handler.IAdminCommandHandler;
+import com.l2jserver.gameserver.model.L2Object;
+import com.l2jserver.gameserver.model.actor.instance.L2PcInstance;
+import com.l2jserver.gameserver.network.serverpackets.LeaveWorld;
+import com.l2jserver.gameserver.datatables.MessageTable;
+import com.l2jserver.gameserver.model.L2CoreMessage;
 
 /**
  * This class handles following admin commands:

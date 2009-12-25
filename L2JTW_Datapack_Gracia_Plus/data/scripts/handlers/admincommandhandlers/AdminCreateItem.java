@@ -16,13 +16,13 @@ package handlers.admincommandhandlers;
 
 import java.util.StringTokenizer;
 
-import net.sf.l2j.gameserver.datatables.ItemTable;
-import net.sf.l2j.gameserver.handler.IAdminCommandHandler;
-import net.sf.l2j.gameserver.model.actor.instance.L2PcInstance;
-import net.sf.l2j.gameserver.network.serverpackets.ItemList;
-import net.sf.l2j.gameserver.templates.item.L2Item;
-import net.sf.l2j.gameserver.datatables.MessageTable;
-import net.sf.l2j.gameserver.model.L2CoreMessage;
+import com.l2jserver.gameserver.datatables.ItemTable;
+import com.l2jserver.gameserver.handler.IAdminCommandHandler;
+import com.l2jserver.gameserver.model.actor.instance.L2PcInstance;
+import com.l2jserver.gameserver.network.serverpackets.ItemList;
+import com.l2jserver.gameserver.templates.item.L2Item;
+import com.l2jserver.gameserver.datatables.MessageTable;
+import com.l2jserver.gameserver.model.L2CoreMessage;
 
 /**
  * This class handles following admin commands:

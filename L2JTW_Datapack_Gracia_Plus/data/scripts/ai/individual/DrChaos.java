@@ -16,16 +16,16 @@ package ai.individual;
 
 import java.util.Map;
 
-import net.sf.l2j.gameserver.ai.CtrlIntention;
-import net.sf.l2j.gameserver.datatables.SpawnTable;
-import net.sf.l2j.gameserver.model.L2CharPosition;
-import net.sf.l2j.gameserver.model.L2Spawn;
-import net.sf.l2j.gameserver.model.actor.L2Npc;
-import net.sf.l2j.gameserver.model.actor.instance.L2PcInstance;
-import net.sf.l2j.gameserver.model.quest.Quest;
-import net.sf.l2j.gameserver.network.serverpackets.PlaySound;
-import net.sf.l2j.gameserver.network.serverpackets.SocialAction;
-import net.sf.l2j.gameserver.network.serverpackets.SpecialCamera;
+import com.l2jserver.gameserver.ai.CtrlIntention;
+import com.l2jserver.gameserver.datatables.SpawnTable;
+import com.l2jserver.gameserver.model.L2CharPosition;
+import com.l2jserver.gameserver.model.L2Spawn;
+import com.l2jserver.gameserver.model.actor.L2Npc;
+import com.l2jserver.gameserver.model.actor.instance.L2PcInstance;
+import com.l2jserver.gameserver.model.quest.Quest;
+import com.l2jserver.gameserver.network.serverpackets.PlaySound;
+import com.l2jserver.gameserver.network.serverpackets.SocialAction;
+import com.l2jserver.gameserver.network.serverpackets.SpecialCamera;
 
 /**
  * DrChaos AI

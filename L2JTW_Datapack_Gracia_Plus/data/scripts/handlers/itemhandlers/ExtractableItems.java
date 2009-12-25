@@ -17,18 +17,18 @@ package handlers.itemhandlers;
 
 import java.util.logging.Logger;
 
-import net.sf.l2j.Config;
-import net.sf.l2j.gameserver.datatables.ExtractableItemsData;
-import net.sf.l2j.gameserver.datatables.ItemTable;
-import net.sf.l2j.gameserver.handler.IItemHandler;
-import net.sf.l2j.gameserver.model.L2ExtractableItem;
-import net.sf.l2j.gameserver.model.L2ExtractableProductItem;
-import net.sf.l2j.gameserver.model.L2ItemInstance;
-import net.sf.l2j.gameserver.model.actor.L2Playable;
-import net.sf.l2j.gameserver.model.actor.instance.L2PcInstance;
-import net.sf.l2j.gameserver.network.SystemMessageId;
-import net.sf.l2j.gameserver.network.serverpackets.SystemMessage;
-import net.sf.l2j.util.Rnd;
+import com.l2jserver.Config;
+import com.l2jserver.gameserver.datatables.ExtractableItemsData;
+import com.l2jserver.gameserver.datatables.ItemTable;
+import com.l2jserver.gameserver.handler.IItemHandler;
+import com.l2jserver.gameserver.model.L2ExtractableItem;
+import com.l2jserver.gameserver.model.L2ExtractableProductItem;
+import com.l2jserver.gameserver.model.L2ItemInstance;
+import com.l2jserver.gameserver.model.actor.L2Playable;
+import com.l2jserver.gameserver.model.actor.instance.L2PcInstance;
+import com.l2jserver.gameserver.network.SystemMessageId;
+import com.l2jserver.gameserver.network.serverpackets.SystemMessage;
+import com.l2jserver.util.Rnd;
 
 /**
  *

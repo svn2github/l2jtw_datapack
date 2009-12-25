@@ -2,23 +2,23 @@ package instances.DarkCloudMansion;
 
 import javolution.util.FastList;
 import javolution.util.FastMap;
-import net.sf.l2j.gameserver.instancemanager.InstanceManager;
-import net.sf.l2j.gameserver.instancemanager.InstanceManager.InstanceWorld;
-import net.sf.l2j.gameserver.model.L2Party;
-import net.sf.l2j.gameserver.model.L2Skill;
-import net.sf.l2j.gameserver.model.actor.L2Npc;
-import net.sf.l2j.gameserver.model.actor.L2Summon;
-import net.sf.l2j.gameserver.model.actor.instance.L2DoorInstance;
-import net.sf.l2j.gameserver.model.actor.instance.L2PcInstance;
-import net.sf.l2j.gameserver.model.entity.Instance;
-import net.sf.l2j.gameserver.model.quest.Quest;
-import net.sf.l2j.gameserver.model.quest.QuestState;
-import net.sf.l2j.gameserver.network.serverpackets.MagicSkillUse;
-import net.sf.l2j.gameserver.network.serverpackets.SystemMessage;
-import net.sf.l2j.gameserver.network.SystemMessageId;
-import net.sf.l2j.gameserver.network.serverpackets.NpcSay;
-import net.sf.l2j.gameserver.util.Util;
-import net.sf.l2j.util.Rnd;
+import com.l2jserver.gameserver.instancemanager.InstanceManager;
+import com.l2jserver.gameserver.instancemanager.InstanceManager.InstanceWorld;
+import com.l2jserver.gameserver.model.L2Party;
+import com.l2jserver.gameserver.model.L2Skill;
+import com.l2jserver.gameserver.model.actor.L2Npc;
+import com.l2jserver.gameserver.model.actor.L2Summon;
+import com.l2jserver.gameserver.model.actor.instance.L2DoorInstance;
+import com.l2jserver.gameserver.model.actor.instance.L2PcInstance;
+import com.l2jserver.gameserver.model.entity.Instance;
+import com.l2jserver.gameserver.model.quest.Quest;
+import com.l2jserver.gameserver.model.quest.QuestState;
+import com.l2jserver.gameserver.network.serverpackets.MagicSkillUse;
+import com.l2jserver.gameserver.network.serverpackets.SystemMessage;
+import com.l2jserver.gameserver.network.SystemMessageId;
+import com.l2jserver.gameserver.network.serverpackets.NpcSay;
+import com.l2jserver.gameserver.util.Util;
+import com.l2jserver.util.Rnd;
 
 public class DarkCloudMansion extends Quest
 {

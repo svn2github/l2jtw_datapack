@@ -14,24 +14,24 @@
  */
 package handlers.skillhandlers;
 
-import net.sf.l2j.gameserver.handler.ISkillHandler;
-import net.sf.l2j.gameserver.instancemanager.CastleManager;
-import net.sf.l2j.gameserver.instancemanager.FortManager;
-import net.sf.l2j.gameserver.model.L2ItemInstance;
-import net.sf.l2j.gameserver.model.L2Object;
-import net.sf.l2j.gameserver.model.L2Skill;
-import net.sf.l2j.gameserver.model.actor.L2Character;
-import net.sf.l2j.gameserver.model.actor.instance.L2DoorInstance;
-import net.sf.l2j.gameserver.model.actor.instance.L2PcInstance;
-import net.sf.l2j.gameserver.model.entity.Castle;
-import net.sf.l2j.gameserver.model.entity.Fort;
-import net.sf.l2j.gameserver.skills.Formulas;
-import net.sf.l2j.gameserver.templates.item.L2WeaponType;
-import net.sf.l2j.gameserver.templates.skills.L2SkillType;
-import net.sf.l2j.gameserver.datatables.MessageTable;
-import net.sf.l2j.gameserver.model.L2CoreMessage;
-import net.sf.l2j.gameserver.network.SystemMessageId;
-import net.sf.l2j.gameserver.network.serverpackets.SystemMessage;
+import com.l2jserver.gameserver.handler.ISkillHandler;
+import com.l2jserver.gameserver.instancemanager.CastleManager;
+import com.l2jserver.gameserver.instancemanager.FortManager;
+import com.l2jserver.gameserver.model.L2ItemInstance;
+import com.l2jserver.gameserver.model.L2Object;
+import com.l2jserver.gameserver.model.L2Skill;
+import com.l2jserver.gameserver.model.actor.L2Character;
+import com.l2jserver.gameserver.model.actor.instance.L2DoorInstance;
+import com.l2jserver.gameserver.model.actor.instance.L2PcInstance;
+import com.l2jserver.gameserver.model.entity.Castle;
+import com.l2jserver.gameserver.model.entity.Fort;
+import com.l2jserver.gameserver.skills.Formulas;
+import com.l2jserver.gameserver.templates.item.L2WeaponType;
+import com.l2jserver.gameserver.templates.skills.L2SkillType;
+import com.l2jserver.gameserver.datatables.MessageTable;
+import com.l2jserver.gameserver.model.L2CoreMessage;
+import com.l2jserver.gameserver.network.SystemMessageId;
+import com.l2jserver.gameserver.network.serverpackets.SystemMessage;
 
 /**
  * @author _tomciaaa_
@@ -46,7 +46,7 @@ public class StrSiegeAssault implements ISkillHandler
 	
 	/**
 	 * 
-	 * @see net.sf.l2j.gameserver.handler.ISkillHandler#useSkill(net.sf.l2j.gameserver.model.actor.L2Character, net.sf.l2j.gameserver.model.L2Skill, net.sf.l2j.gameserver.model.L2Object[])
+	 * @see com.l2jserver.gameserver.handler.ISkillHandler#useSkill(com.l2jserver.gameserver.model.actor.L2Character, com.l2jserver.gameserver.model.L2Skill, com.l2jserver.gameserver.model.L2Object[])
 	 */
 	public void useSkill(L2Character activeChar, L2Skill skill, L2Object[] targets)
 	{
@@ -126,7 +126,7 @@ public class StrSiegeAssault implements ISkillHandler
 	
 	/**
 	 * 
-	 * @see net.sf.l2j.gameserver.handler.ISkillHandler#getSkillIds()
+	 * @see com.l2jserver.gameserver.handler.ISkillHandler#getSkillIds()
 	 */
 	public L2SkillType[] getSkillIds()
 	{

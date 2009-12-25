@@ -17,16 +17,16 @@ package handlers.admincommandhandlers;
 import java.util.Collection;
 import java.util.StringTokenizer;
 
-import net.sf.l2j.gameserver.handler.IAdminCommandHandler;
-import net.sf.l2j.gameserver.instancemanager.CursedWeaponsManager;
-import net.sf.l2j.gameserver.model.CursedWeapon;
-import net.sf.l2j.gameserver.model.L2Object;
-import net.sf.l2j.gameserver.model.actor.instance.L2PcInstance;
-import net.sf.l2j.gameserver.network.SystemMessageId;
-import net.sf.l2j.gameserver.network.serverpackets.NpcHtmlMessage;
-import net.sf.l2j.gameserver.network.serverpackets.SystemMessage;
-import net.sf.l2j.gameserver.datatables.MessageTable;
-import net.sf.l2j.gameserver.model.L2CoreMessage;
+import com.l2jserver.gameserver.handler.IAdminCommandHandler;
+import com.l2jserver.gameserver.instancemanager.CursedWeaponsManager;
+import com.l2jserver.gameserver.model.CursedWeapon;
+import com.l2jserver.gameserver.model.L2Object;
+import com.l2jserver.gameserver.model.actor.instance.L2PcInstance;
+import com.l2jserver.gameserver.network.SystemMessageId;
+import com.l2jserver.gameserver.network.serverpackets.NpcHtmlMessage;
+import com.l2jserver.gameserver.network.serverpackets.SystemMessage;
+import com.l2jserver.gameserver.datatables.MessageTable;
+import com.l2jserver.gameserver.model.L2CoreMessage;
 
 
 /**

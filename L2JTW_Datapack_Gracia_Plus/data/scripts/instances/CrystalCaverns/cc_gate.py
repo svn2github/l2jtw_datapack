@@ -1,10 +1,10 @@
 # By Evil33t
 import sys
-from net.sf.l2j.gameserver.datatables         import ItemTable
-from net.sf.l2j.gameserver.instancemanager    import InstanceManager
-from net.sf.l2j.gameserver.model.quest        import State
-from net.sf.l2j.gameserver.model.quest        import QuestState
-from net.sf.l2j.gameserver.model.quest.jython import QuestJython as JQuest
+from com.l2jserver.gameserver.datatables         import ItemTable
+from com.l2jserver.gameserver.instancemanager    import InstanceManager
+from com.l2jserver.gameserver.model.quest        import State
+from com.l2jserver.gameserver.model.quest        import QuestState
+from com.l2jserver.gameserver.model.quest.jython import QuestJython as JQuest
 
 GK1 = 22275
 GK2 = 22277

@@ -1,9 +1,9 @@
 //Update by rocknow
 package transformations;
 
-import net.sf.l2j.gameserver.datatables.SkillTable;
-import net.sf.l2j.gameserver.instancemanager.TransformationManager;
-import net.sf.l2j.gameserver.model.L2Transformation;
+import com.l2jserver.gameserver.datatables.SkillTable;
+import com.l2jserver.gameserver.instancemanager.TransformationManager;
+import com.l2jserver.gameserver.model.L2Transformation;
 
 public class SpiritofWater extends L2Transformation
 {

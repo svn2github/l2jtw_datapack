@@ -1,8 +1,8 @@
 package transformations;
 
-import net.sf.l2j.gameserver.datatables.SkillTable;
-import net.sf.l2j.gameserver.instancemanager.TransformationManager;
-import net.sf.l2j.gameserver.model.L2Transformation;
+import com.l2jserver.gameserver.datatables.SkillTable;
+import com.l2jserver.gameserver.instancemanager.TransformationManager;
+import com.l2jserver.gameserver.model.L2Transformation;
 
 /*
  * TODO: Skill levels. How do they work? Transformation is given at level 83, there are 6 levels of the skill. How are they assigned? Based on player level somehow? Based on servitor?
