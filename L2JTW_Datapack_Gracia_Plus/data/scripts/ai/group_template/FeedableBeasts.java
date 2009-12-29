@@ -16,7 +16,6 @@ package ai.group_template;
 
 import java.util.Map;
 
-import javolution.util.FastMap;
 import com.l2jserver.gameserver.ai.CtrlIntention;
 import com.l2jserver.gameserver.datatables.NpcTable;
 import com.l2jserver.gameserver.idfactory.IdFactory;
@@ -31,6 +30,8 @@ import com.l2jserver.gameserver.network.serverpackets.NpcSay;
 import com.l2jserver.gameserver.network.serverpackets.SocialAction;
 import com.l2jserver.gameserver.templates.chars.L2NpcTemplate;
 import com.l2jserver.util.Rnd;
+
+import javolution.util.FastMap;
 
 /**
  * Growth-capable mobs: Polymorphing upon successful feeding.

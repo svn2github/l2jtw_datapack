@@ -137,22 +137,8 @@ public class AdminPledge implements IAdminCommandHandler
 						showMainPage(activeChar);
 						return false;
 					}
-					clan.setReputationScore(clan.getReputationScore() + points, true);
-					L2CoreMessage cm =  new L2CoreMessage (MessageTable.Messages[693]);
-					if(points > 0 )
-					{
-						cm.addExtra(1);
-						cm.addExtra(3);
-					}
-					else
-					{
-						cm.addExtra(2);
-						cm.addExtra(4);
-					}
-					cm.addNumber(Math.abs(points));
-					cm.addString(clan.getName());
-					cm.addNumber(clan.getReputationScore());
-					cm.sendMessage(activeChar);
+					clan.addReputationScore(points, true);
+					activeChar.sendMessage("You " + (points > 0 ? "add " : "remove ") + Math.abs(points) + " points " + (points > 0 ? "to " : "from ") + clan.getName() + "'s reputation. Their current score is " + clan.getReputationScore());
 				}
 				catch (Exception e)
 				{

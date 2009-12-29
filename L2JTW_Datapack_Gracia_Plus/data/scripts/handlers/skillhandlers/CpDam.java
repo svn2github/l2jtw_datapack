@@ -88,8 +88,10 @@ public class CpDam implements ISkillHandler
 		}
 		else if (activeChar instanceof L2Npc)
 		{
-			bss = ((L2Npc) activeChar).isUsingShot(false);
-			ss = ((L2Npc) activeChar).isUsingShot(true);
+          ss = ((L2Npc) activeChar)._soulshotcharged;
+          ((L2Npc) activeChar)._soulshotcharged = false;
+          bss = ((L2Npc) activeChar)._spiritshotcharged;
+          ((L2Npc) activeChar)._spiritshotcharged = false;
 		}
 		
 		for (L2Character target: (L2Character[]) targets)

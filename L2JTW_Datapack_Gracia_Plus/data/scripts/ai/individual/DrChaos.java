@@ -27,6 +27,7 @@ import com.l2jserver.gameserver.network.serverpackets.PlaySound;
 import com.l2jserver.gameserver.network.serverpackets.SocialAction;
 import com.l2jserver.gameserver.network.serverpackets.SpecialCamera;
 
+
 /**
  * DrChaos AI
  * @author Kerberos
@@ -48,7 +49,7 @@ public class DrChaos extends Quest
 		_IsGolemSpawned = false;
 	}
 	
-  	public L2Npc FindTemplate(int npcId)
+  	public L2Npc findTemplate(int npcId)
   	{
 	    L2Npc npcInstance = null;
 	    L2Spawn spawn;
@@ -69,7 +70,7 @@ public class DrChaos extends Quest
 	{
 	    if (event.equalsIgnoreCase("1"))
 	    {
-	       L2Npc machine_instance = FindTemplate(STRANGE_MACHINE);
+	       L2Npc machine_instance = findTemplate(STRANGE_MACHINE);
 	       if (machine_instance != null)
 	       {
 	         npc.getAI().setIntention(CtrlIntention.AI_INTENTION_ATTACK, machine_instance);

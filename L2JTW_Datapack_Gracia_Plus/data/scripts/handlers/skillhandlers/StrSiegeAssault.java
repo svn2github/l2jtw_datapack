@@ -69,12 +69,12 @@ public class StrSiegeAssault implements ISkillHandler
 		
 		if (castle != null)
 		{
-			if (!checkIfOkToUseStriderSiegeAssault(player, castle, true))
+			if (!player.checkIfOkToUseStriderSiegeAssault(castle))
 				return;
 		}
 		else
 		{
-			if (!checkIfOkToUseStriderSiegeAssault(player, fort, true))
+			if (!player.checkIfOkToUseStriderSiegeAssault(fort))
 				return;
 		}
 		
@@ -133,88 +133,9 @@ public class StrSiegeAssault implements ISkillHandler
 		return SKILL_IDS;
 	}
 	
-	/**
-	 * Return true if character clan place a flag<BR><BR>
-	 *
-	 * @param activeChar The L2Character of the character placing the flag
-	 * @param isCheckOnly if false, it will send a notification to the player telling him
-	 * why it failed
-	 */
-	public static boolean checkIfOkToUseStriderSiegeAssault(L2Character activeChar, boolean isCheckOnly)
+	public static void main(String[] args)
 	{
-		Castle castle = CastleManager.getInstance().getCastle(activeChar);
-		Fort fort = FortManager.getInstance().getFort(activeChar);
-		
-		if ((castle == null) && (fort == null))
-			return false;
-		
-		if (castle != null)
-			return checkIfOkToUseStriderSiegeAssault(activeChar, castle, isCheckOnly);
-		else
-			return checkIfOkToUseStriderSiegeAssault(activeChar, fort, isCheckOnly);
-		
-	}
-	
-	/**
-	 * 
-	 * @param activeChar
-	 * @param castle
-	 * @param isCheckOnly
-	 * @return
-	 */
-	public static boolean checkIfOkToUseStriderSiegeAssault(L2Character activeChar, Castle castle, boolean isCheckOnly)
-	{
-		if (!(activeChar instanceof L2PcInstance))
-			return false;
-		
-		int text = 0;
-		L2PcInstance player = (L2PcInstance) activeChar;
-		
-		if (castle == null || castle.getCastleId() <= 0)
-			text = 775;
-		else if (!castle.getSiege().getIsInProgress())
-			text = 763;
-		else if (!(player.getTarget() instanceof L2DoorInstance))
-			text = 764;
-		else if (!player.isRidingStrider())
-			text = 765;
-		else
-			return true;
-		
-		if (!isCheckOnly)
-			player.sendMessage(text);
-		return false;
-	}
-	
-	/**
-	 * 
-	 * @param activeChar
-	 * @param fort
-	 * @param isCheckOnly
-	 * @return
-	 */
-	public static boolean checkIfOkToUseStriderSiegeAssault(L2Character activeChar, Fort fort, boolean isCheckOnly)
-	{
-		if (!(activeChar instanceof L2PcInstance))
-			return false;
-		
-		int text = 0;
-		L2PcInstance player = (L2PcInstance) activeChar;
-		
-		if (fort == null || fort.getFortId() <= 0)
-			text = 779;
-		else if (!fort.getSiege().getIsInProgress())
-			text = 763;
-		else if (!(player.getTarget() instanceof L2DoorInstance))
-			text = 764;
-		else if (!player.isRidingStrider())
-			text = 765;
-		else
-			return true;
-		
-		if (!isCheckOnly)
-			player.sendMessage(text);
-		return false;
+		new StrSiegeAssault();
 	}
 	
 }

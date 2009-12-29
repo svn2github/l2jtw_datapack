@@ -30,15 +30,19 @@ import com.l2jserver.Config;
 import com.l2jserver.L2DatabaseFactory;
 import com.l2jserver.gameserver.ai.CtrlIntention;
 import com.l2jserver.gameserver.communitybbs.Manager.RegionBBSManager;
+import com.l2jserver.gameserver.datatables.CharNameTable;
 import com.l2jserver.gameserver.datatables.ClanTable;
 import com.l2jserver.gameserver.handler.IAdminCommandHandler;
 import com.l2jserver.gameserver.model.L2Object;
 import com.l2jserver.gameserver.model.L2World;
+import com.l2jserver.gameserver.model.actor.L2Summon;
 import com.l2jserver.gameserver.model.actor.instance.L2PcInstance;
 import com.l2jserver.gameserver.model.actor.instance.L2PetInstance;
 import com.l2jserver.gameserver.model.base.ClassId;
 import com.l2jserver.gameserver.network.L2GameClient;
 import com.l2jserver.gameserver.network.SystemMessageId;
+import com.l2jserver.gameserver.network.communityserver.CommunityServerThread;
+import com.l2jserver.gameserver.network.communityserver.writepackets.WorldInfo;
 import com.l2jserver.gameserver.network.serverpackets.CharInfo;
 import com.l2jserver.gameserver.network.serverpackets.ExBrExtraUserInfo;
 import com.l2jserver.gameserver.network.serverpackets.NpcHtmlMessage;
@@ -98,7 +102,8 @@ public class AdminEditChar implements IAdminCommandHandler
 		"admin_setcolor", // change charnames' color display
 		"admin_setclass", // changes chars' classId
 		"admin_fullfood", // fulfills a pet's food bar
-		"admin_remove_clan_penalty" // removes clan penalties
+		"admin_remove_clan_penalty", // removes clan penalties
+		"admin_summon_info" //displays an information window about target summon
 	};
 	
 	public boolean useAdminCommand(String command, L2PcInstance activeChar)
@@ -341,13 +346,13 @@ public class AdminEditChar implements IAdminCommandHandler
 				{
 					return false;
 				}
-				L2World.getInstance().removeFromAllPlayers(player);
 				player.setName(val);
 				player.store();
-				L2World.getInstance().addToAllPlayers(player);
+				CharNameTable.getInstance().addName(player);
 				
 				player.sendMessage(623);
 				player.broadcastUserInfo();
+				CommunityServerThread.getInstance().sendPacket(new WorldInfo(player, null, WorldInfo.TYPE_UPDATE_PLAYER_DATA));
 				
 				if (player.isInParty())
 				{
@@ -492,6 +497,16 @@ public class AdminEditChar implements IAdminCommandHandler
 			}
 			findDualbox(activeChar, multibox);
 		}
+		else if (command.startsWith("admin_summon_info"))
+		{
+			L2Object target = activeChar.getTarget();
+			if (target instanceof L2Summon)
+			{
+				gatherSummonInfo((L2Summon) target, activeChar);				
+			}
+			else
+				activeChar.sendMessage("Invalid target.");
+		}
 		
 		return true;
 	}
@@ -628,6 +643,7 @@ public class AdminEditChar implements IAdminCommandHandler
 		adminReply.replace("%access%", String.valueOf(player.getAccessLevel().getLevel()));
 		adminReply.replace("%account%", account);
 		adminReply.replace("%ip%", ip);
+		adminReply.replace("%ai%", String.valueOf(player.getAI().getIntention().name()));
 		activeChar.sendPacket(adminReply);
 	}
 	
@@ -1000,5 +1016,32 @@ public class AdminEditChar implements IAdminCommandHandler
 		adminReply.replace("%multibox%", String.valueOf(multibox));
 		adminReply.replace("%results%", results.toString());
 		activeChar.sendPacket(adminReply);
+	}
+	
+	private void gatherSummonInfo(L2Summon target, L2PcInstance activeChar)
+	{
+		NpcHtmlMessage html = new NpcHtmlMessage(0);
+		html.setFile("data/html/admin/petinfo.htm");
+		String name = target.getName();
+		html.replace("%name%", name == null ? "N/A" : name);
+		html.replace("%level%", Integer.toString(target.getLevel()));
+		String owner = target.getActingPlayer().getName();
+		html.replace("%owner%", " <a action=\"bypass -h admin_character_info " +owner+"\">"+owner+"</a>");
+		html.replace("%class%", target.getClass().getSimpleName());
+		html.replace("%ai%", target.hasAI() ? String.valueOf(target.getAI().getIntention().name()) : "NULL");
+		html.replace("%hp%", (int)target.getStatus().getCurrentHp()+"/"+target.getStat().getMaxHp());
+		html.replace("%mp%", (int)target.getStatus().getCurrentMp()+"/"+target.getStat().getMaxMp());
+		html.replace("%karma%", Integer.toString(target.getKarma()));
+		if (target instanceof L2PetInstance)
+		{
+			html.replace("%food%", ((L2PetInstance) target).getCurrentFed()+"/"+((L2PetInstance)target).getPetData().getPetMaxFeed());
+			html.replace("%load%", ((L2PetInstance) target).getInventory().getTotalWeight()+"/"+((L2PetInstance)target).getMaxLoad());
+		}
+		else
+		{
+			html.replace("%food%","N/A");
+			html.replace("%load%","N/A");
+		}
+		activeChar.sendPacket(html);
 	}
 }

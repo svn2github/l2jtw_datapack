@@ -127,8 +127,10 @@ public class Heal implements ISkillHandler
 				}
 				else if (activeChar instanceof L2Npc)
 				{
-					if (((L2Npc) activeChar).isUsingShot(false))
-						hp *= 1.5;
+					 if(((L2Npc)activeChar)._spiritshotcharged)
+					      hp *= 1.5;       
+					 ((L2Npc)activeChar)._spiritshotcharged = false;
+						
 				}
 			}
 			

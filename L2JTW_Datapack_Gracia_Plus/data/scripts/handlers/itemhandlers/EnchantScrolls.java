@@ -18,7 +18,9 @@ import com.l2jserver.gameserver.handler.IItemHandler;
 import com.l2jserver.gameserver.model.L2ItemInstance;
 import com.l2jserver.gameserver.model.actor.L2Playable;
 import com.l2jserver.gameserver.model.actor.instance.L2PcInstance;
+import com.l2jserver.gameserver.network.SystemMessageId;
 import com.l2jserver.gameserver.network.serverpackets.ChooseInventoryItem;
+import com.l2jserver.gameserver.network.serverpackets.SystemMessage;
 
 public class EnchantScrolls implements IItemHandler
 {
@@ -31,9 +33,15 @@ public class EnchantScrolls implements IItemHandler
 		if (!(playable instanceof L2PcInstance))
 			return;
 
-		L2PcInstance activeChar = (L2PcInstance) playable;
+		final L2PcInstance activeChar = (L2PcInstance) playable;
 		if (activeChar.isCastingNow())
 			return;
+
+		if (activeChar.isEnchanting())
+		{
+			activeChar.sendPacket(new SystemMessage(SystemMessageId.ENCHANTMENT_ALREADY_IN_PROGRESS));
+			return;
+		}
 
 		activeChar.setActiveEnchantItem(item);
 		activeChar.sendPacket(new ChooseInventoryItem(item.getItemId()));

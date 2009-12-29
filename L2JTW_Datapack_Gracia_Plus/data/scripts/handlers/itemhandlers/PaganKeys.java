@@ -132,7 +132,8 @@ public class PaganKeys implements IItemHandler
 				}
 				break;
 			case 8273: //AnteroomKey
-				if (door.getDoorName().startsWith("Anteroom"))
+				if (door.getDoorName() != null
+						&& door.getDoorName().startsWith("Anteroom"))
 				{
 					if (Rnd.get(100) < openChance)
 					{
@@ -168,7 +169,8 @@ public class PaganKeys implements IItemHandler
 				}
 				break;
 			case 8275: //Key of Darkness
-				if (door.getDoorName().startsWith("Door_of_Darkness"))
+				if (door.getDoorName() != null
+						&& door.getDoorName().startsWith("Door_of_Darkness"))
 				{
 					if (Rnd.get(100) < openChance)
 					{

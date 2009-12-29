@@ -20,6 +20,7 @@ import com.l2jserver.gameserver.model.actor.L2Npc;
 import com.l2jserver.gameserver.model.actor.instance.L2PcInstance;
 import com.l2jserver.gameserver.model.quest.Quest;
 import com.l2jserver.util.Rnd;
+
 import ai.group_template.L2AttackableAIScript;
 
 public class FleeNpc extends L2AttackableAIScript 

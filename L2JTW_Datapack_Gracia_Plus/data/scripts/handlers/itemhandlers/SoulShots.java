@@ -73,7 +73,7 @@ public class SoulShots implements IItemHandler
 					gradeCheck = false;
 				break;
 			case L2Item.CRYSTAL_C:
-				if (itemId != 1464 && itemId != 22083 )
+				if (itemId != 1464 && itemId != 22083)
 					gradeCheck = false;
 				break;
 			case L2Item.CRYSTAL_B:

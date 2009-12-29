@@ -50,29 +50,6 @@ TRANSFORMITEMS={
 6:10291  # Healers
 }
 
-def isCorrectMaster(npc, player):
-  charTemp = CharTemplateTable.getInstance().getTemplate(player.getClassId())
-  currentRace = charTemp.race
-  if ((npc.getVillageMasterRace() == Race.Human) and (currentRace == Race.Human or currentRace == Race.Elf) and npc.getVillageMasterTeachType() == ClassType.Fighter and not player.isMageClass()):
-    return True
-  elif ((npc.getVillageMasterRace() == Race.Human) and (currentRace == Race.Human or currentRace == Race.Elf) and npc.getVillageMasterTeachType() == ClassType.Mystic and player.getClassId().getId() in WIZARDCLASSES):
-    return True
-  elif ((npc.getVillageMasterRace() == Race.Human) and (currentRace == Race.Human or currentRace == Race.Elf) and npc.getVillageMasterTeachType() == ClassType.Mystic and player.getClassId().getId() in SUMMONERCLASSES):
-    return True
-  elif ((npc.getVillageMasterRace() == Race.Human) and (currentRace == Race.Human or currentRace == Race.Elf) and npc.getVillageMasterTeachType() == ClassType.Priest and player.getClassId().getId() in HEALERCLASSES):
-    return True
-  elif ((npc.getVillageMasterRace() == Race.Human) and (currentRace == Race.Human or currentRace == Race.Elf) and npc.getVillageMasterTeachType() == ClassType.Priest and player.getClassId().getId() in ENCHANTERCLASSES and player.isMageClass()):
-    return True
-  elif (npc.getVillageMasterRace() == Race.DarkElf and currentRace == Race.DarkElf):
-    return True
-  elif (npc.getVillageMasterRace() == Race.Orc and currentRace == Race.Orc):
-    return True
-  elif (npc.getVillageMasterRace() == Race.Dwarf and currentRace == Race.Dwarf):
-    return True
-  elif (npc.getVillageMasterRace() == Race.Kamael and currentRace == Race.Kamael):
-    return True
-  return False
-
 def getClassIndex(player):
   if player.getClassId().getId() in WARRIORCLASSES:
     return 0
@@ -111,7 +88,7 @@ class Quest (JQuest) :
    htmltext = event
    if event == "GetCertified":
      if player.isSubClassActive():
-       if isCorrectMaster(npc, player):
+       if npc.checkVillageMaster(player.getActiveClass()):
          if player.getLevel() >= 65:
            return "CertificationList.htm"
          else:

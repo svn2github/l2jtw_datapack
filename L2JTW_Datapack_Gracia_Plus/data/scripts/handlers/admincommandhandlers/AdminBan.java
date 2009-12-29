@@ -32,6 +32,7 @@ import com.l2jserver.gameserver.datatables.MessageTable;
 import com.l2jserver.gameserver.model.L2CoreMessage;
 import com.l2jserver.gameserver.util.GMAudit;
 
+
 /**
  * This class handles following admin commands:
  * - ban_acc <account_name> = changes account access level to -100 and logs him off. If no account is specified target's account is used.
@@ -126,9 +127,7 @@ public class AdminBan implements IAdminCommandHandler {
 			}
 			else
 			{
-				targetPlayer.setAccountAccesslevel(-100);
-				targetPlayer.logout();
-				RegionBBSManager.getInstance().changeCommunityBoard();
+				targetPlayer.setPunishLevel(L2PcInstance.PunishLevel.ACC, 0);
 				L2CoreMessage cm =  new L2CoreMessage (MessageTable.Messages[21]);
 				cm.addString(targetPlayer.getAccountName());
 				cm.sendMessage(activeChar);

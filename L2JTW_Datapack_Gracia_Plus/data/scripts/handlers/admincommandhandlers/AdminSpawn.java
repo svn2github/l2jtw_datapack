@@ -268,84 +268,46 @@ public class AdminSpawn implements IAdminCommandHandler
 	private void showMonsters(L2PcInstance activeChar, int level, int from)
 	{
 		L2NpcTemplate[] mobs = NpcTable.getInstance().getAllMonstersOfLevel(level);
-                final StringBuilder tb = StringUtil.startAppend(500 + mobs.length * 80,
-                        "<html><title>"+MessageTable.Messages[116].getMessage()+"</title><body><p> "+MessageTable.Messages[995].getMessage(),
-                        String.valueOf(level),
-                        ":<br>"+MessageTable.Messages[206].getMessage(),
-                        String.valueOf(mobs.length),
-                        "<br>"
-                        );
-		
-		// Start
-		String end1 = "<br><center><button value=\""+MessageTable.Messages[149].getMessage()+"\" action=\"bypass -h admin_spawn_index " + level + " $from$\" width=40 height=15 back=\"L2UI_ct1.button_df\" fore=\"L2UI_ct1.button_df\"></center></body></html>";
-		String end2 = "<br><center><button value=\""+MessageTable.Messages[162].getMessage()+"\" action=\"bypass -h admin_show_spawns\" width=40 height=15 back=\"L2UI_ct1.button_df\" fore=\"L2UI_ct1.button_df\"></center></body></html>";
-		
+		final StringBuilder tb = StringUtil.startAppend(500 + mobs.length * 80,
+				"<html><title>Spawn Monster:</title><body><p> Level : ", 
+				Integer.toString(level), 
+				"<br>Total Npc's : ",
+				Integer.toString(mobs.length), 
+				"<br>");
+
 		// Loop
-		boolean ended = true;
-		for (int i = from; i < mobs.length; i++)
-		{
-                    StringUtil.append(tb,
-                            "<a action=\"bypass -h admin_spawn_monster ",
-                            String.valueOf(mobs[i].npcId),
-                            "\">",
-                            mobs[i].name,
-                            "</a><br1>"
-                            );
-			
-			if ((tb.length() + end2.length()) > 8192) {
-				end1 = end1.replace("$from$", "" + i);
-				ended = false;
-				break;
-			}
-		}
+		int i = from;
+		for (int j = 0; i < mobs.length && j < 50; i++, j++)
+			StringUtil.append(tb, "<a action=\"bypass -h admin_spawn_monster ", Integer.toString(mobs[i].npcId), "\">", mobs[i].name, "</a><br1>");
 		
-		// End
-		if (ended)
-			tb.append(end2);
+		if (i == mobs.length)
+			tb.append("<br><center><button value=\"Back\" action=\"bypass -h admin_show_spawns\" width=40 height=15 back=\"L2UI_ct1.button_df\" fore=\"L2UI_ct1.button_df\"></center></body></html>");
 		else
-			tb.append(end1);
-		
+			StringUtil.append(tb, "<br><center><button value=\"Next\" action=\"bypass -h admin_spawn_index ", Integer.toString(level), " ", Integer.toString(i), "\" width=40 height=15 back=\"L2UI_ct1.button_df\" fore=\"L2UI_ct1.button_df\"><button value=\"Back\" action=\"bypass -h admin_show_spawns\" width=40 height=15 back=\"L2UI_ct1.button_df\" fore=\"L2UI_ct1.button_df\"></center></body></html>");
+
 		activeChar.sendPacket(new NpcHtmlMessage(5, tb.toString()));
 	}
-	
+
 	private void showNpcs(L2PcInstance activeChar, String starting, int from)
 	{
 		L2NpcTemplate[] mobs = NpcTable.getInstance().getAllNpcStartingWith(starting);
-                final StringBuilder tb = StringUtil.startAppend(500 + mobs.length * 80,
-                        "<html><title>"+MessageTable.Messages[116].getMessage()+"</title><body><p> "+MessageTable.Messages[206].getMessage(),
-                        String.valueOf(mobs.length),
-                        MessageTable.Messages[146].getMessage(),
-                        starting,
-                        ":<br>"
-                        );
+		final StringBuilder tb = StringUtil.startAppend(500 + mobs.length * 80,
+				"<html><title>Spawn Monster:</title><body><p> There are ", 
+				Integer.toString(mobs.length),
+				" Npcs whose name starts with ", 
+				starting, 
+				":<br>");
 
-		// Start
-		String end1 = "<br><center><button value=\""+MessageTable.Messages[149].getMessage()+"\" action=\"bypass -h admin_npc_index " + starting + " $from$\" width=40 height=15 back=\"L2UI_ct1.button_df\" fore=\"L2UI_ct1.button_df\"></center></body></html>";
-		String end2 = "<br><center><button value=\""+MessageTable.Messages[162].getMessage()+"\" action=\"bypass -h admin_show_npcs\" width=40 height=15 back=\"L2UI_ct1.button_df\" fore=\"L2UI_ct1.button_df\"></center></body></html>";
+		// Loop
+		int i = from;
+		for (int j = 0; i < mobs.length && j < 50; i++, j++)
+			StringUtil.append(tb, "<a action=\"bypass -h admin_spawn_monster ", Integer.toString(mobs[i].npcId), "\">", mobs[i].name, "</a><br1>");
 
-                // Loop
-		boolean ended = true;
-		for (int i = from; i < mobs.length; i++) {
-                    StringUtil.append(tb,
-                            "<a action=\"bypass -h admin_spawn_monster ",
-                            String.valueOf(mobs[i].npcId),
-                            "\">",
-                            mobs[i].name,
-                            "</a><br1>"
-                            );
-
-			if ((tb.length() + end2.length()) > 8192)
-			{
-				end1 = end1.replace("$from$", "" + i);
-				ended = false;
-				break;
-			}
-		}
-		// End
-		if (ended)
-			tb.append(end2);
+		if (i == mobs.length)
+			tb.append("<br><center><button value=\"Back\" action=\"bypass -h admin_show_npcs\" width=40 height=15 back=\"L2UI_ct1.button_df\" fore=\"L2UI_ct1.button_df\"></center></body></html>");
 		else
-			tb.append(end1);
+			StringUtil.append(tb, "<br><center><button value=\"Next\" action=\"bypass -h admin_npc_index ", starting, " ", Integer.toString(i), "\" width=40 height=15 back=\"L2UI_ct1.button_df\" fore=\"L2UI_ct1.button_df\"><button value=\"Back\" action=\"bypass -h admin_show_npcs\" width=40 height=15 back=\"L2UI_ct1.button_df\" fore=\"L2UI_ct1.button_df\"></center></body></html>");
+
 		activeChar.sendPacket(new NpcHtmlMessage(5, tb.toString()));
 	}
 }

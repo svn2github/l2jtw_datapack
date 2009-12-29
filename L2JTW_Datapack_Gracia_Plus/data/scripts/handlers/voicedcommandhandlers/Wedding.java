@@ -65,7 +65,7 @@ public class Wedding implements IVoicedCommandHandler
 	 * 
 	 * @see com.l2jserver.gameserver.handler.IVoicedCommandHandler#useVoicedCommand(java.lang.String, com.l2jserver.gameserver.model.actor.instance.L2PcInstance, java.lang.String)
 	 */
-	public boolean useVoicedCommand(String command, L2PcInstance activeChar, String target)
+	public boolean useVoicedCommand(String command, L2PcInstance activeChar, String params)
 	{
 		if (command.startsWith("engage"))
 			return engage(activeChar);
@@ -149,9 +149,9 @@ public class Wedding implements IVoicedCommandHandler
 					skillLevel = 2;
 				
 				if (activeChar.isMageClass())
-					skillId = 4361;
-				else
 					skillId = 4362;
+				else
+					skillId = 4361;
 				
 				L2Skill skill = SkillTable.getInstance().getInfo(skillId, skillLevel);
 				

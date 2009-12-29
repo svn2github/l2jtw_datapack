@@ -13,11 +13,16 @@
  */
 package handlers.usercommandhandlers;
 
+import java.text.SimpleDateFormat;
+import java.util.Date;
+
+import com.l2jserver.Config;
 import com.l2jserver.gameserver.GameTimeController;
 import com.l2jserver.gameserver.handler.IUserCommandHandler;
 import com.l2jserver.gameserver.model.actor.instance.L2PcInstance;
 import com.l2jserver.gameserver.network.SystemMessageId;
 import com.l2jserver.gameserver.network.serverpackets.SystemMessage;
+import com.l2jserver.gameserver.datatables.MessageTable;
 
 public class Time implements IUserCommandHandler
 {
@@ -25,7 +30,9 @@ public class Time implements IUserCommandHandler
 	{
 		77
 	};
-	
+
+	private static final SimpleDateFormat fmt = new SimpleDateFormat("H:mm.");
+
 	/**
 	 * 
 	 * @see com.l2jserver.gameserver.handler.IUserCommandHandler#useUserCommand(int, com.l2jserver.gameserver.model.actor.instance.L2PcInstance)
@@ -57,6 +64,8 @@ public class Time implements IUserCommandHandler
 			sm.addString(m);
 		}
 		activeChar.sendPacket(sm);
+		if (Config.L2JMOD_DISPLAY_SERVER_TIME)
+			activeChar.sendMessage(MessageTable.Messages[475].getMessage() + fmt.format(new Date(System.currentTimeMillis())));
 		return true;
 	}
 	

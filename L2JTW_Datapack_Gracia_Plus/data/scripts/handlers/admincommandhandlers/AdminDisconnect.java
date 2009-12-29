@@ -14,11 +14,9 @@
  */
 package handlers.admincommandhandlers;
 
-import com.l2jserver.gameserver.communitybbs.Manager.RegionBBSManager;
 import com.l2jserver.gameserver.handler.IAdminCommandHandler;
 import com.l2jserver.gameserver.model.L2Object;
 import com.l2jserver.gameserver.model.actor.instance.L2PcInstance;
-import com.l2jserver.gameserver.network.serverpackets.LeaveWorld;
 import com.l2jserver.gameserver.datatables.MessageTable;
 import com.l2jserver.gameserver.model.L2CoreMessage;
 
@@ -68,13 +66,7 @@ public class AdminDisconnect implements IAdminCommandHandler
 			cm.addString(player.getName());
 			cm.sendMessage(activeChar);
 			
-			//Logout Character
-			LeaveWorld ql = new LeaveWorld();
-			player.sendPacket(ql);
-			
-			RegionBBSManager.getInstance().changeCommunityBoard();
-			
-			player.closeNetConnection();
+			player.logout();
 		}
 	}
 }

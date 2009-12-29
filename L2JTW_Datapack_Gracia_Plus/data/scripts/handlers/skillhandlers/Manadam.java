@@ -19,7 +19,6 @@ import com.l2jserver.gameserver.model.L2ItemInstance;
 import com.l2jserver.gameserver.model.L2Object;
 import com.l2jserver.gameserver.model.L2Skill;
 import com.l2jserver.gameserver.model.actor.L2Character;
-import com.l2jserver.gameserver.model.actor.L2Npc;
 import com.l2jserver.gameserver.model.actor.L2Summon;
 import com.l2jserver.gameserver.model.actor.instance.L2PcInstance;
 import com.l2jserver.gameserver.network.SystemMessageId;
@@ -82,11 +81,6 @@ public class Manadam implements ISkillHandler
 				ss = true;
 				activeSummon.setChargedSpiritShot(L2ItemInstance.CHARGED_NONE);
 			}
-		}
-		else if (activeChar instanceof L2Npc)
-		{
-			bss = ((L2Npc) activeChar).isUsingShot(false);
-			ss = ((L2Npc) activeChar).isUsingShot(true);
 		}
 		for (L2Character target: (L2Character[]) targets)
 		{

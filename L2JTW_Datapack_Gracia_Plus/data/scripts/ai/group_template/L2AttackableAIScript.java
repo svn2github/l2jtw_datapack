@@ -15,6 +15,7 @@
 package ai.group_template;
 
 import static com.l2jserver.gameserver.ai.CtrlIntention.AI_INTENTION_ATTACK;
+
 import com.l2jserver.gameserver.ai.CtrlEvent;
 import com.l2jserver.gameserver.ai.CtrlIntention;
 import com.l2jserver.gameserver.datatables.NpcTable;

@@ -28,7 +28,7 @@ public class SnowKung extends L2Transformation
 		getPlayer().addSkill(SkillTable.getInstance().getInfo(943, 1), false);
 		// Dissonance
 		getPlayer().addSkill(SkillTable.getInstance().getInfo(5437, 2), false);
-		// Transfrom Dispel
+		// Transform Dispel
 		getPlayer().addSkill(SkillTable.getInstance().getInfo(619, 1), false);
 
 		getPlayer().setTransformAllowedSkills(new int[]{940,943,5437,619});
@@ -47,7 +47,7 @@ public class SnowKung extends L2Transformation
 		getPlayer().removeSkill(SkillTable.getInstance().getInfo(943, 1), false);
 		// Dissonance
 		getPlayer().removeSkill(SkillTable.getInstance().getInfo(5437, 2), false);
-		// Transfrom Dispel
+		// Transform Dispel
 		getPlayer().removeSkill(SkillTable.getInstance().getInfo(619, 1), false);
 
 		getPlayer().setTransformAllowedSkills(new int[]{});

@@ -18,24 +18,26 @@
  * @author FBIagent
  *
  */
-
 package handlers.itemhandlers;
 
+import java.util.Collection;
 import java.util.logging.Level;
 
 import com.l2jserver.gameserver.ThreadPoolManager;
 import com.l2jserver.gameserver.datatables.NpcTable;
 import com.l2jserver.gameserver.datatables.SummonItemsData;
 import com.l2jserver.gameserver.handler.IItemHandler;
-import com.l2jserver.gameserver.idfactory.IdFactory;
 import com.l2jserver.gameserver.model.L2ItemInstance;
 import com.l2jserver.gameserver.model.L2Object;
 import com.l2jserver.gameserver.model.L2Spawn;
 import com.l2jserver.gameserver.model.L2SummonItem;
 import com.l2jserver.gameserver.model.L2World;
+import com.l2jserver.gameserver.model.actor.L2Character;
+import com.l2jserver.gameserver.model.actor.L2Npc;
 import com.l2jserver.gameserver.model.actor.L2Playable;
 import com.l2jserver.gameserver.model.actor.instance.L2PcInstance;
 import com.l2jserver.gameserver.model.actor.instance.L2PetInstance;
+import com.l2jserver.gameserver.model.actor.instance.L2XmassTreeInstance;
 import com.l2jserver.gameserver.model.entity.TvTEvent;
 import com.l2jserver.gameserver.network.SystemMessageId;
 import com.l2jserver.gameserver.network.serverpackets.MagicSkillLaunched;
@@ -45,8 +47,6 @@ import com.l2jserver.gameserver.network.serverpackets.SetupGauge;
 import com.l2jserver.gameserver.network.serverpackets.SystemMessage;
 import com.l2jserver.gameserver.templates.chars.L2NpcTemplate;
 import com.l2jserver.gameserver.util.Broadcast;
-import com.l2jserver.gameserver.model.L2CoreMessage;
-import com.l2jserver.gameserver.datatables.MessageTable;
 
 public class SummonItems implements IItemHandler
 {
@@ -64,11 +64,8 @@ public class SummonItems implements IItemHandler
 
 		final L2PcInstance activeChar = (L2PcInstance) playable;
 
-		if (!activeChar.getFloodProtectors().getItemPetSummon().
-                        tryPerformAction("summon items"))
-                {
-                    return;
-                }
+		if (!activeChar.getFloodProtectors().getItemPetSummon().tryPerformAction("summon items"))
+			return;
 
 		if (activeChar.isSitting())
 		{
@@ -107,11 +104,11 @@ public class SummonItems implements IItemHandler
 			return;
 		}
 
-		final int npcID = sitem.getNpcId();
-		if (npcID == 0)
+		final int npcId = sitem.getNpcId();
+		if (npcId == 0)
 			return;
 
-		final L2NpcTemplate npcTemplate = NpcTable.getInstance().getTemplate(npcID);
+		final L2NpcTemplate npcTemplate = NpcTable.getInstance().getTemplate(npcId);
 		if (npcTemplate == null)
 			return;
 
@@ -122,34 +119,43 @@ public class SummonItems implements IItemHandler
 			case 0: // static summons (like Christmas tree)
 				try
 				{
-					final L2Spawn spawn = new L2Spawn(npcTemplate);
+					Collection<L2Character> characters = activeChar.getKnownList().getKnownCharactersInRadius(1200);
+					for (L2Character ch : characters)
+					{
+						if (ch instanceof L2XmassTreeInstance && npcTemplate.isSpecialTree())
+						{
+							SystemMessage sm = new SystemMessage(SystemMessageId.CANNOT_SUMMON_S1_AGAIN);
+							sm.addCharName(ch);
+							activeChar.sendPacket(sm);
+							return;
+						}
+					}
 
-					if (spawn == null)
-						return;
-
-					spawn.setId(IdFactory.getInstance().getNextId());
-					spawn.setLocx(activeChar.getX());
-					spawn.setLocy(activeChar.getY());
-					spawn.setLocz(activeChar.getZ());
-					L2World.getInstance().storeObject(spawn.spawnOne(true));
-					activeChar.destroyItem("Summon", item.getObjectId(), 1, null, false);
-					L2CoreMessage cm =  new L2CoreMessage (MessageTable.Messages[92]);
-					cm.addString(npcTemplate.name);
-					cm.addNumber(spawn.getLocx());
-					cm.addNumber(spawn.getLocy());
-					cm.addNumber(spawn.getLocz());
-					activeChar.sendMessage(cm.renderMsg());
+					if (activeChar.destroyItem("Summon", item.getObjectId(), 1, null, false))
+					{
+						final L2Spawn spawn = new L2Spawn(npcTemplate);
+						spawn.setLocx(activeChar.getX());
+						spawn.setLocy(activeChar.getY());
+						spawn.setLocz(activeChar.getZ());
+						spawn.setInstanceId(activeChar.getInstanceId());
+						spawn.stopRespawn();
+						final L2Npc npc = spawn.spawnOne(true);
+						npc.setTitle(activeChar.getName());
+						npc.setIsRunning(false); // broadcast info
+						if (sitem.getDespawnDelay() > 0 && npc != null)
+							npc.scheduleDespawn(sitem.getDespawnDelay() * 1000L);
+					}
 				}
 				catch (Exception e)
 				{
-					activeChar.sendPacket(new SystemMessage(SystemMessageId.TARGET_IS_NOT_FOUND_IN_THE_GAME));
+					activeChar.sendPacket(new SystemMessage(SystemMessageId.TARGET_CANT_FOUND));
 				}
 				break;
 			case 1: // pet summons
-				final L2Object oldtarget = activeChar.getTarget();
+				final L2Object oldTarget = activeChar.getTarget();
 				activeChar.setTarget(activeChar);
 				Broadcast.toSelfAndKnownPlayersInRadius(activeChar, new MagicSkillUse(activeChar, 2046, 1, 5000, 0), 2000);
-				activeChar.setTarget(oldtarget);
+				activeChar.setTarget(oldTarget);
 				activeChar.sendPacket(new SetupGauge(0, 5000));
 				activeChar.sendPacket(new SystemMessage(SystemMessageId.SUMMON_A_PET));
 				activeChar.setIsCastingNow(true);
@@ -255,7 +261,7 @@ public class SummonItems implements IItemHandler
 				final int weaponId = petSummon.getWeapon();
 				final int armorId = petSummon.getArmor();
 				final int jewelId = petSummon.getJewel();
-				if (weaponId > 0 && petSummon.getOwner().getInventory().getItemByItemId(weaponId)!= null)
+				if (weaponId > 0 && petSummon.getOwner().getInventory().getItemByItemId(weaponId) != null)
 				{
 					final L2ItemInstance item = petSummon.getOwner().getInventory().getItemByItemId(weaponId);
 					final L2ItemInstance newItem = petSummon.getOwner().transferItem("Transfer", item.getObjectId(), 1, petSummon.getInventory(), petSummon); 
@@ -269,7 +275,8 @@ public class SummonItems implements IItemHandler
 				}
 				else
 					petSummon.setWeapon(0);
-				if (armorId > 0 && petSummon.getOwner().getInventory().getItemByItemId(armorId)!= null)
+
+				if (armorId > 0 && petSummon.getOwner().getInventory().getItemByItemId(armorId) != null)
 				{
 					final L2ItemInstance item = petSummon.getOwner().getInventory().getItemByItemId(armorId);
 					final L2ItemInstance newItem = petSummon.getOwner().transferItem("Transfer", item.getObjectId(), 1, petSummon.getInventory(), petSummon); 
@@ -283,7 +290,8 @@ public class SummonItems implements IItemHandler
 				}
 				else
 					petSummon.setArmor(0);
-				if (jewelId > 0 && petSummon.getOwner().getInventory().getItemByItemId(jewelId)!= null)
+
+				if (jewelId > 0 && petSummon.getOwner().getInventory().getItemByItemId(jewelId) != null)
 				{
 					final L2ItemInstance item = petSummon.getOwner().getInventory().getItemByItemId(jewelId);
 					final L2ItemInstance newItem = petSummon.getOwner().transferItem("Transfer", item.getObjectId(), 1, petSummon.getInventory(), petSummon); 
@@ -297,6 +305,7 @@ public class SummonItems implements IItemHandler
 				}
 				else
 					petSummon.setJewel(0);
+
 				petSummon.getOwner().sendPacket(new PetItemList(petSummon));
 				petSummon.broadcastStatusUpdate();
 			}

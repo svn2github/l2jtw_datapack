@@ -141,6 +141,7 @@ public class AdminMenu implements IAdminCommandHandler
 			{
 				String targetName = command.substring(21);
 				L2PcInstance player = L2World.getInstance().getPlayer(targetName);
+				activeChar.setInstanceId(player.getInstanceId()); 
 				teleportToCharacter(activeChar, player);
 			}
 			catch (StringIndexOutOfBoundsException e)
@@ -279,6 +280,7 @@ public class AdminMenu implements IAdminCommandHandler
 			player.sendPacket(new SystemMessage(SystemMessageId.CANNOT_USE_ON_YOURSELF));
 		else
 		{
+			activeChar.setInstanceId(player.getInstanceId());
 			activeChar.teleToLocation(player.getX(), player.getY(), player.getZ(), true);
 			L2CoreMessage cm =  new L2CoreMessage (MessageTable.Messages[605]);
 			cm.addString(player.getName());

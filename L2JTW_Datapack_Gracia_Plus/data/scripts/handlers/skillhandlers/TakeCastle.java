@@ -19,13 +19,9 @@ import com.l2jserver.gameserver.instancemanager.CastleManager;
 import com.l2jserver.gameserver.model.L2Object;
 import com.l2jserver.gameserver.model.L2Skill;
 import com.l2jserver.gameserver.model.actor.L2Character;
-import com.l2jserver.gameserver.model.actor.instance.L2ArtefactInstance;
 import com.l2jserver.gameserver.model.actor.instance.L2PcInstance;
 import com.l2jserver.gameserver.model.entity.Castle;
-import com.l2jserver.gameserver.network.SystemMessageId;
-import com.l2jserver.gameserver.network.serverpackets.SystemMessage;
 import com.l2jserver.gameserver.templates.skills.L2SkillType;
-import com.l2jserver.gameserver.util.Util;
 
 /**
  * @author _drunk_
@@ -53,16 +49,16 @@ public class TakeCastle implements ISkillHandler
 			return;
 		
 		Castle castle = CastleManager.getInstance().getCastle(player);
-		if (castle == null || !checkIfOkToCastSealOfRule(player, castle))
+		if (castle == null || !player.checkIfOkToCastSealOfRule(castle, true, skill))
 			return;
 		
 		try
 		{
-			if (targets[0] instanceof L2ArtefactInstance)
-				castle.Engrave(player.getClan(), targets[0].getObjectId());
+			castle.Engrave(player.getClan(), targets[0]);
 		}
 		catch (Exception e)
 		{
+			e.printStackTrace();
 		}
 	}
 	
@@ -74,40 +70,11 @@ public class TakeCastle implements ISkillHandler
 	{
 		return SKILL_IDS;
 	}
+
+
 	
-	/**
-	 * 
-	 * @param activeChar
-	 * @param castle
-	 * @param isCheckOnly
-	 * @return
-	 */
-	public static boolean checkIfOkToCastSealOfRule(L2Character activeChar, Castle castle)
+	public static void main(String[] args)
 	{
-		if (!(activeChar instanceof L2PcInstance))
-			return false;
-		
-		int text = 0;
-		L2PcInstance player = (L2PcInstance) activeChar;
-		
-		if (castle == null || castle.getCastleId() <= 0)
-			text = 776;
-		else if (!(player.getTarget() instanceof L2ArtefactInstance))
-			text = 767;
-		else if (!castle.getSiege().getIsInProgress())
-			text = 766;
-		else if (!Util.checkIfInRange(200, player, player.getTarget(), true))
-			text = 758;
-		else if (castle.getSiege().getAttackerClan(player.getClan()) == null)
-			text = 772;
-		else
-		{
-			SystemMessage sm = new SystemMessage(SystemMessageId.OPPONENT_STARTED_ENGRAVING);
-			castle.getSiege().announceToPlayer(sm, false);
-			return true;
-		}
-		
-		player.sendMessage(text);
-		return false;
+		new TakeCastle();
 	}
 }

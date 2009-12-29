@@ -33,6 +33,7 @@ import com.l2jserver.gameserver.network.serverpackets.SystemMessage;
 import com.l2jserver.gameserver.templates.skills.L2SkillType;
 import com.l2jserver.util.Rnd;
 
+
 /**
  * @author  l3x
  */
@@ -105,6 +106,12 @@ public class Sow implements ISkillHandler
 			}
 			
 			L2ItemInstance item = _activeChar.getInventory().getItemByItemId(_seedId);
+			if (item == null)
+			{
+				_activeChar.sendPacket(ActionFailed.STATIC_PACKET);
+				return;
+			}
+
 			//Consuming used seed
 			_activeChar.destroyItem("Consume", item.getObjectId(), 1, null, false);
 			

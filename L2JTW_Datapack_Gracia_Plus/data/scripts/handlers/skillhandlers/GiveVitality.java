@@ -19,6 +19,7 @@ import com.l2jserver.gameserver.model.L2Object;
 import com.l2jserver.gameserver.model.L2Skill;
 import com.l2jserver.gameserver.model.actor.L2Character;
 import com.l2jserver.gameserver.model.actor.instance.L2PcInstance;
+import com.l2jserver.gameserver.network.serverpackets.UserInfo;
 import com.l2jserver.gameserver.templates.skills.L2SkillType;
 
 public class GiveVitality implements ISkillHandler
@@ -35,6 +36,7 @@ public class GiveVitality implements ISkillHandler
 			if (target instanceof L2PcInstance)
 			{
 				((L2PcInstance) target).updateVitalityPoints((float)skill.getPower(), false, false);
+				((L2PcInstance) target).sendPacket(new UserInfo((L2PcInstance)target));
 			}
 		}
 	}

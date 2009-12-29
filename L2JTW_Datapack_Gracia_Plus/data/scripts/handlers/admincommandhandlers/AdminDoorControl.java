@@ -43,7 +43,7 @@ import com.l2jserver.gameserver.network.serverpackets.SystemMessage;
  */
 public class AdminDoorControl implements IAdminCommandHandler
 {
-	private static DoorTable _doorTable;
+	private static DoorTable _doorTable = DoorTable.getInstance();
 	private static final String[] ADMIN_COMMANDS =
 	{
 		"admin_open",
@@ -54,8 +54,6 @@ public class AdminDoorControl implements IAdminCommandHandler
 	
 	public boolean useAdminCommand(String command, L2PcInstance activeChar)
 	{
-		_doorTable = DoorTable.getInstance();
-		
 		try
 		{
 			if (command.startsWith("admin_open "))

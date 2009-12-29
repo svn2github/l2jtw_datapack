@@ -11,6 +11,7 @@ import com.l2jserver.gameserver.network.serverpackets.NpcHtmlMessage;
 import com.l2jserver.gameserver.util.GMAudit;
 import com.l2jserver.gameserver.util.StringUtil;
 
+
 public class AdminInstanceZone implements IAdminCommandHandler
 {
 	private static final String[] ADMIN_COMMANDS =
@@ -92,8 +93,7 @@ public class AdminInstanceZone implements IAdminCommandHandler
 
 	private void display(L2PcInstance player, L2PcInstance activeChar)
 	{
-		Map<Integer, Long> instanceTimes;
-		instanceTimes = InstanceManager.getInstance().getAllInstanceTimes(player.getObjectId());
+		Map<Integer, Long> instanceTimes = InstanceManager.getInstance().getAllInstanceTimes(player.getObjectId());
 
 		final StringBuilder html = StringUtil.startAppend(500 + instanceTimes.size() * 200,
 				"<html><center><font color=\"LEVEL\">Instances for ",

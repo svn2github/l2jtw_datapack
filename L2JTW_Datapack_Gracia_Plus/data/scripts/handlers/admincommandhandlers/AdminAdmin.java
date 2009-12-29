@@ -15,6 +15,7 @@
 package handlers.admincommandhandlers;
 
 import java.util.StringTokenizer;
+import java.util.logging.Logger;
 
 import com.l2jserver.Config;
 import com.l2jserver.gameserver.GmListTable;
@@ -52,6 +53,7 @@ import com.l2jserver.gameserver.model.L2CoreMessage;
  */
 public class AdminAdmin implements IAdminCommandHandler
 {
+	private static Logger _log = Logger.getLogger(AdminAdmin.class.getName());
 	
 	private static final String[] ADMIN_COMMANDS =
 	{
@@ -119,7 +121,7 @@ public class AdminAdmin implements IAdminCommandHandler
 			}
 			catch (Exception e)
 			{
-				e.printStackTrace();
+				_log.warning("An error occured while ending olympiad: " + e);
 			}
 			activeChar.sendMessage(144);
 		}
@@ -208,9 +210,10 @@ public class AdminAdmin implements IAdminCommandHandler
 		{
 			StringTokenizer st = new StringTokenizer(command);
 			st.nextToken();
+			String type = "";
 			try
 			{
-				String type = st.nextToken();
+				type = st.nextToken();
 				if (type.equals("multisell"))
 				{
 					L2Multisell.getInstance().reload();
@@ -275,7 +278,9 @@ public class AdminAdmin implements IAdminCommandHandler
 			}
 			catch (Exception e)
 			{
+				activeChar.sendMessage("An error occured while reloading " + type + " !");
 				activeChar.sendMessage(369);
+				_log.warning("An error occured while reloading " + type + ": " + e); //do not mask an exception here
 			}
 		}
 		

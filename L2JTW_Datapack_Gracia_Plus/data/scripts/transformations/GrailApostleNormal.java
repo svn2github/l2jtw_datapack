@@ -32,7 +32,7 @@ public class GrailApostleNormal extends L2Transformation
 		getPlayer().addSkill(SkillTable.getInstance().getInfo(562, 3), false);
 		// Decrease Bow/Crossbow Attack Speed
 		getPlayer().addSkill(SkillTable.getInstance().getInfo(5491, 1), false);
-		// Transfrom Dispel
+		// Transform Dispel
 		getPlayer().addSkill(SkillTable.getInstance().getInfo(619, 1), false);
 
 		getPlayer().setTransformAllowedSkills(new int[]{559,560,561,562,5491,619});
@@ -55,7 +55,7 @@ public class GrailApostleNormal extends L2Transformation
 		getPlayer().removeSkill(SkillTable.getInstance().getInfo(562, 3), false, false);
 		// Decrease Bow/Crossbow Attack Speed
 		getPlayer().removeSkill(SkillTable.getInstance().getInfo(5491, 1), false);
-		// Transfrom Dispel
+		// Transform Dispel
 		getPlayer().removeSkill(SkillTable.getInstance().getInfo(619, 1), false);
 
 		getPlayer().setTransformAllowedSkills(new int[]{});

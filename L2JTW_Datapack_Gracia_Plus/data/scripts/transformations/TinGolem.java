@@ -28,7 +28,7 @@ public class TinGolem extends L2Transformation
 		getPlayer().addSkill(SkillTable.getInstance().getInfo(941, 1), false);
 		// Dissonance
 		getPlayer().addSkill(SkillTable.getInstance().getInfo(5437, 2), false);
-		// Transfrom Dispel
+		// Transform Dispel
 		getPlayer().addSkill(SkillTable.getInstance().getInfo(619, 1), false);
 
 		getPlayer().setTransformAllowedSkills(new int[]{940,941,5437,619});
@@ -47,7 +47,7 @@ public class TinGolem extends L2Transformation
 		getPlayer().removeSkill(SkillTable.getInstance().getInfo(941, 1), false);
 		// Dissonance
 		getPlayer().removeSkill(SkillTable.getInstance().getInfo(5437, 2), false);
-		// Transfrom Dispel
+		// Transform Dispel
 		getPlayer().removeSkill(SkillTable.getInstance().getInfo(619, 1), false);
 
 		getPlayer().setTransformAllowedSkills(new int[]{});

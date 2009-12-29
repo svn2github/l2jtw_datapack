@@ -22,6 +22,7 @@ import com.l2jserver.gameserver.network.serverpackets.AdminForgePacket;
 import com.l2jserver.gameserver.network.serverpackets.NpcHtmlMessage;
 import com.l2jserver.gameserver.util.StringUtil;
 
+
 /**
  * This class handles commands for gm to forge packets
  *

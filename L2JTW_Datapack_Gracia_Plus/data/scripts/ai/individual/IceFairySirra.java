@@ -17,7 +17,6 @@ package ai.individual;
 import java.util.concurrent.Future;
 import java.util.logging.Level;
 
-import javolution.util.FastList;
 import com.l2jserver.Config;
 import com.l2jserver.gameserver.cache.HtmCache;
 import com.l2jserver.gameserver.datatables.DoorTable;
@@ -35,6 +34,8 @@ import com.l2jserver.gameserver.network.serverpackets.ActionFailed;
 import com.l2jserver.gameserver.network.serverpackets.ExShowScreenMessage;
 import com.l2jserver.gameserver.network.serverpackets.NpcHtmlMessage;
 import com.l2jserver.gameserver.templates.chars.L2NpcTemplate;
+
+import javolution.util.FastList;
 import ai.group_template.L2AttackableAIScript;
 
 /**

@@ -220,6 +220,9 @@ public class AdminCursedWeapons implements IAdminCommandHandler
 						((L2PcInstance) target).addItem("AdminCursedWeaponAdd", id, 1, target, true);
 					else
 						activeChar.addItem("AdminCursedWeaponAdd", id, 1, activeChar, true);
+					cw.setEndTime(System.currentTimeMillis() + cw.getDuration() * 60000L);
+					cw.reActivate();
+					
 				}
 			}
 			else

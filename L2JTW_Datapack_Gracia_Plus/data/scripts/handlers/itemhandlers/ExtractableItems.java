@@ -30,6 +30,7 @@ import com.l2jserver.gameserver.network.SystemMessageId;
 import com.l2jserver.gameserver.network.serverpackets.SystemMessage;
 import com.l2jserver.util.Rnd;
 
+
 /**
  *
  * @author FBIagent 11/12/2006
@@ -107,20 +108,16 @@ public class ExtractableItems implements IItemHandler
 					for (int j = 0; j < createAmount[i]; j++)
 						activeChar.addItem("Extract", createItemID[i], 1, activeChar, false);
 				}
-				SystemMessage sm = new SystemMessage(SystemMessageId.EARNED_S2_S1_S);;
-				SystemMessage sm2 = new SystemMessage(SystemMessageId.EARNED_ADENA);;
+				SystemMessage sm;
 				if (createItemID[i] == 57)
-				{
-					sm2.addNumber(createAmount[i]);
-					activeChar.sendPacket(sm2);
-				}
+					sm = new SystemMessage(SystemMessageId.EARNED_ADENA);
 				else
 				{
+					sm = new SystemMessage(SystemMessageId.EARNED_S2_S1_S);
 					sm.addItemName(createItemID[i]);
-					if (createAmount[i] > 1)
-						sm.addNumber(createAmount[i]);
-					activeChar.sendPacket(sm);
 				}
+				sm.addNumber(createAmount[i]);
+				activeChar.sendPacket(sm);
 			}
 		}
 		activeChar.destroyItemByItemId("Extract", itemID, 1, activeChar.getTarget(), true);

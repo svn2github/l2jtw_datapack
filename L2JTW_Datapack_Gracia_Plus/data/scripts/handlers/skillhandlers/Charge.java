@@ -24,6 +24,7 @@ import com.l2jserver.gameserver.model.actor.L2Character;
 import com.l2jserver.gameserver.model.actor.instance.L2PcInstance;
 import com.l2jserver.gameserver.templates.skills.L2SkillType;
 
+
 /**
  * This class ...
  *

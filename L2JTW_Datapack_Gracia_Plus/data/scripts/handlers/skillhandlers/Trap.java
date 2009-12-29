@@ -20,7 +20,6 @@ import com.l2jserver.gameserver.model.L2Skill;
 import com.l2jserver.gameserver.model.actor.L2Character;
 import com.l2jserver.gameserver.model.actor.L2Trap;
 import com.l2jserver.gameserver.model.actor.instance.L2PcInstance;
-import com.l2jserver.gameserver.model.actor.instance.L2TrapInstance;
 import com.l2jserver.gameserver.network.SystemMessageId;
 import com.l2jserver.gameserver.network.serverpackets.SystemMessage;
 import com.l2jserver.gameserver.templates.skills.L2SkillType;
@@ -46,20 +45,18 @@ public class Trap implements ISkillHandler
 		{
 			case DETECT_TRAP:
 			{
-				for (L2Character target: (L2Character[]) targets)
+				for (L2Character target: activeChar.getKnownList().getKnownCharactersInRadius(skill.getSkillRadius()))
 				{
-					if (!(target instanceof L2TrapInstance))
+					if (!(target instanceof L2Trap))
 						continue;
 					
 					if (target.isAlikeDead())
 						continue;
-					
-					if (((L2Trap) target).getLevel() <= skill.getPower())
-					{
-						(((L2Trap) target)).setDetected();
-						if (activeChar instanceof L2PcInstance)
-							((L2PcInstance) activeChar).sendPacket(new SystemMessage(SystemMessageId.A_TRAP_DEVICE_HAS_BEEN_TRIPPED));
-					}
+
+					final L2Trap trap = (L2Trap)target;
+
+					if (trap.getLevel() <= skill.getPower())
+						trap.setDetected(activeChar);
 				}
 				break;
 			}
@@ -70,18 +67,22 @@ public class Trap implements ISkillHandler
 					if (!(target instanceof L2Trap))
 						continue;
 					
-					if (!((L2Trap) target).isDetected())
+					if (target.isAlikeDead())
+						continue;
+
+					final L2Trap trap = (L2Trap)target;
+
+					if (trap.canSee(activeChar))
+					{
+						if (activeChar instanceof L2PcInstance)
+							((L2PcInstance) activeChar).sendPacket(new SystemMessage(SystemMessageId.INCORRECT_TARGET));
+						continue;
+					}
+
+					if (trap.getLevel() > skill.getPower())
 						continue;
 					
-					if (((L2Trap) target).getLevel() > skill.getPower())
-						continue;
-					
-					L2PcInstance trapOwner = null;
-					L2Trap trap = null;
-					trapOwner = ((L2Trap) target).getOwner();
-					trap = trapOwner.getTrap();
-					
-					trap.unSummon(trapOwner);
+					trap.unSummon();
 					if (activeChar instanceof L2PcInstance)
 						((L2PcInstance) activeChar).sendPacket(new SystemMessage(SystemMessageId.A_TRAP_DEVICE_HAS_BEEN_STOPPED));
 				}

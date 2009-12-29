@@ -17,7 +17,6 @@ package ai.fantasy_isle;
 import java.text.SimpleDateFormat;
 import java.util.Map;
 
-import javolution.util.FastMap;
 import com.l2jserver.Config;
 import com.l2jserver.gameserver.GameTimeController;
 import com.l2jserver.gameserver.ThreadPoolManager;
@@ -29,6 +28,8 @@ import com.l2jserver.gameserver.model.quest.Quest;
 import com.l2jserver.gameserver.network.serverpackets.NpcSay;
 import com.l2jserver.gameserver.network.serverpackets.PlaySound;
 import com.l2jserver.gameserver.network.serverpackets.SocialAction;
+
+import javolution.util.FastMap;
 
 
 /**

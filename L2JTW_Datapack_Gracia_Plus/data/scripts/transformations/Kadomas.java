@@ -1,21 +1,20 @@
-//Update by rocknow
 package transformations;
 
 import com.l2jserver.gameserver.datatables.SkillTable;
 import com.l2jserver.gameserver.instancemanager.TransformationManager;
 import com.l2jserver.gameserver.model.L2Transformation;
 
-public class SpiritofWater extends L2Transformation
+public class Kadomas extends L2Transformation
 {
-	public SpiritofWater()
+	public Kadomas()
 	{
 		// id, colRadius, colHeight
-		super(125, 31, 32.5);
+		super(20000, 24, 14);
 	}
 
 	public void onTransform()
 	{
-		if (getPlayer().getTransformationId() != 125 || getPlayer().isCursedWeaponEquipped())
+		if (getPlayer().getTransformationId() != 20000 || getPlayer().isCursedWeaponEquipped())
 			return;
 
 		transformedSkills();
@@ -23,12 +22,12 @@ public class SpiritofWater extends L2Transformation
 
 	public void transformedSkills()
 	{
-		// Decrease Bow/Crossbow Attack Speed
-		getPlayer().addSkill(SkillTable.getInstance().getInfo(5491, 1), false);
-		// Dismount
+		//Kadomas Special Skill - Fireworks
+		getPlayer().addSkill(SkillTable.getInstance().getInfo(23154, 1), false);
+		// Transform Dispel
 		getPlayer().addSkill(SkillTable.getInstance().getInfo(619, 1), false);
 
-		getPlayer().setTransformAllowedSkills(new int[]{5491,619});
+		getPlayer().setTransformAllowedSkills(new int[]{23154,619});
 	}
 
 	public void onUntransform()
@@ -38,9 +37,9 @@ public class SpiritofWater extends L2Transformation
 
 	public void removeSkills()
 	{
-		// Decrease Bow/Crossbow Attack Speed
-		getPlayer().removeSkill(SkillTable.getInstance().getInfo(5491, 1), false);
-		// Dismount
+		//Kadomas Special Skill - Fireworks
+		getPlayer().removeSkill(SkillTable.getInstance().getInfo(23154, 1), false);
+		// Transform Dispel
 		getPlayer().removeSkill(SkillTable.getInstance().getInfo(619, 1), false);
 
 		getPlayer().setTransformAllowedSkills(new int[]{});
@@ -48,6 +47,6 @@ public class SpiritofWater extends L2Transformation
 
 	public static void main(String[] args)
 	{
-		TransformationManager.getInstance().registerTransformation(new SpiritofWater());
+		TransformationManager.getInstance().registerTransformation(new Kadomas());
 	}
 }

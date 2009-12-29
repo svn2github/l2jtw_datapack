@@ -120,6 +120,7 @@ public class AdminEventEngine implements IAdminCommandHandler
                                         );
 				adminReply.setHtml(replyMSG);
 				activeChar.sendPacket(adminReply);
+				inbr.close();
 			}
 			catch (Exception e)
 			{
@@ -168,6 +169,7 @@ public class AdminEventEngine implements IAdminCommandHandler
 				p.println(activeChar.getName());
 				p.println(tempBuffer);
 				file.close();
+				p.close();
 			}
 			catch (Exception e)
 			{

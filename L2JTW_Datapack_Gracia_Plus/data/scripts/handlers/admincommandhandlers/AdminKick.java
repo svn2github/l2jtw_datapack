@@ -17,11 +17,9 @@ package handlers.admincommandhandlers;
 import java.util.Collection;
 import java.util.StringTokenizer;
 
-import com.l2jserver.gameserver.communitybbs.Manager.RegionBBSManager;
 import com.l2jserver.gameserver.handler.IAdminCommandHandler;
 import com.l2jserver.gameserver.model.L2World;
 import com.l2jserver.gameserver.model.actor.instance.L2PcInstance;
-import com.l2jserver.gameserver.network.serverpackets.LeaveWorld;
 import com.l2jserver.gameserver.datatables.MessageTable;
 import com.l2jserver.gameserver.model.L2CoreMessage;
 
@@ -49,7 +47,6 @@ public class AdminKick implements IAdminCommandHandler
 					L2CoreMessage cm =  new L2CoreMessage (MessageTable.Messages[551]);
 					cm.addString(plyr.getName());
 					cm.sendMessage(activeChar);
-					RegionBBSManager.getInstance().changeCommunityBoard();
 				}
 			}
 		}
@@ -63,9 +60,7 @@ public class AdminKick implements IAdminCommandHandler
 					if (!player.isGM())
 					{
 						counter++;
-						player.sendPacket(new LeaveWorld());
 						player.logout();
-						RegionBBSManager.getInstance().changeCommunityBoard();
 					}
 			}
 			L2CoreMessage cm =  new L2CoreMessage (MessageTable.Messages[174]);

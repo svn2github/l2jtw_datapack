@@ -25,7 +25,7 @@ SHOP_LIST={
 5489:["etc_leather_gray_i00",  6,15550,"Sealed Tallum Stockings Fabrics"] 
 }
  
-ADENA_X=int(Config.RATE_DROP_ADENA)
+ADENA_X=int(Config.RATE_DROP_ITEMS_ID.get(57))
  
 #Quest items
 CB_TOOTH, DW_LIGHT, SEALD_MSTONE, MSTONE = range(5884,5888)

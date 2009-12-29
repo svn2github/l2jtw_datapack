@@ -22,6 +22,7 @@ import com.l2jserver.gameserver.model.actor.instance.L2PcInstance;
 import com.l2jserver.gameserver.network.serverpackets.NpcHtmlMessage;
 import com.l2jserver.gameserver.util.StringUtil;
 
+
 /**
  *
  *
@@ -37,11 +38,11 @@ public class stats implements IVoicedCommandHandler
 	 * 
 	 * @see com.l2jserver.gameserver.handler.IVoicedCommandHandler#useVoicedCommand(java.lang.String, com.l2jserver.gameserver.model.actor.instance.L2PcInstance, java.lang.String)
 	 */
-	public boolean useVoicedCommand(String command, L2PcInstance activeChar, String target)
+	public boolean useVoicedCommand(String command, L2PcInstance activeChar, String params)
 	{
 		if (command.equalsIgnoreCase("stats"))
 		{
-			L2PcInstance pc = L2World.getInstance().getPlayer(target);
+			L2PcInstance pc = L2World.getInstance().getPlayer(params);
 			if (pc != null)
 			{
 				NpcHtmlMessage adminReply = new NpcHtmlMessage(5);

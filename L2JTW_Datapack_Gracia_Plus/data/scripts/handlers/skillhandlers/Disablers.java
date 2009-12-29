@@ -21,7 +21,6 @@ import java.util.List;
 import java.util.logging.Level;
 import java.util.logging.Logger;
 
-import javolution.util.FastList;
 import com.l2jserver.gameserver.ai.CtrlEvent;
 import com.l2jserver.gameserver.ai.CtrlIntention;
 import com.l2jserver.gameserver.ai.L2AttackableAI;
@@ -48,6 +47,8 @@ import com.l2jserver.gameserver.skills.effects.EffectBuff;
 import com.l2jserver.gameserver.templates.skills.L2EffectType;
 import com.l2jserver.gameserver.templates.skills.L2SkillType;
 import com.l2jserver.util.Rnd;
+
+import javolution.util.FastList;
 
 /**
  * This Handles Disabler skills
@@ -150,8 +151,10 @@ public class Disablers implements ISkillHandler
 		}
 		else if (activeChar instanceof L2Npc)
 		{
-			bss = ((L2Npc) activeChar).isUsingShot(false);
-			ss = ((L2Npc) activeChar).isUsingShot(true);
+          ss = ((L2Npc) activeChar)._soulshotcharged;
+          ((L2Npc) activeChar)._soulshotcharged = false;
+          bss = ((L2Npc) activeChar)._spiritshotcharged;
+          ((L2Npc) activeChar)._spiritshotcharged = false;
 		}
 		
 		for (L2Character target: (L2Character[]) targets)

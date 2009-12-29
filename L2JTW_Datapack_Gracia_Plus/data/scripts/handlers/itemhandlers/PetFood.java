@@ -15,10 +15,10 @@
 package handlers.itemhandlers;
 
 import com.l2jserver.Config;
+import com.l2jserver.gameserver.datatables.PetDataTable;
 import com.l2jserver.gameserver.datatables.SkillTable;
 import com.l2jserver.gameserver.handler.IItemHandler;
 import com.l2jserver.gameserver.model.L2ItemInstance;
-import com.l2jserver.gameserver.model.L2PetDataTable;
 import com.l2jserver.gameserver.model.L2Skill;
 import com.l2jserver.gameserver.model.actor.L2Playable;
 import com.l2jserver.gameserver.model.actor.instance.L2PcInstance;
@@ -71,7 +71,6 @@ public class PetFood implements IItemHandler
 	public boolean useFood(L2Playable activeChar, int magicId, L2ItemInstance item)
 	{
 		L2Skill skill = SkillTable.getInstance().getInfo(magicId, 1);
-		
 		if (skill != null)
 		{
 			if (activeChar instanceof L2PetInstance)
@@ -94,38 +93,23 @@ public class PetFood implements IItemHandler
 				if (player.isMounted())
 				{
 					int petId = player.getMountNpcId();
-					if (L2PetDataTable.isWolf(petId) && L2PetDataTable.isWolfFood(itemId))
-					{
+					if (PetDataTable.isWolf(petId) && PetDataTable.isWolfFood(itemId))
 						canUse = true;
-					}
-					else if (L2PetDataTable.isEvolvedWolf(petId) && L2PetDataTable.isEvolvedWolfFood(itemId))
-					{
+					else if (PetDataTable.isEvolvedWolf(petId) && PetDataTable.isEvolvedWolfFood(itemId))
 						canUse = true;
-					}
-					else if (L2PetDataTable.isSinEater(petId) && L2PetDataTable.isSinEaterFood(itemId))
-					{
+					else if (PetDataTable.isSinEater(petId) && PetDataTable.isSinEaterFood(itemId))
 						canUse = true;
-					}
-					else if (L2PetDataTable.isHatchling(petId) && L2PetDataTable.isHatchlingFood(itemId))
-					{
+					else if (PetDataTable.isHatchling(petId) && PetDataTable.isHatchlingFood(itemId))
 						canUse = true;
-					}
-					else if (L2PetDataTable.isStrider(petId) && L2PetDataTable.isStriderFood(itemId))
-					{
+					else if (PetDataTable.isStrider(petId) && PetDataTable.isStriderFood(itemId))
 						canUse = true;
-					}
-					else if (L2PetDataTable.isWyvern(petId) && L2PetDataTable.isWyvernFood(itemId))
-					{
+					else if (PetDataTable.isWyvern(petId) && PetDataTable.isWyvernFood(itemId))
 						canUse = true;
-					}
-					else if (L2PetDataTable.isBaby(petId) && L2PetDataTable.isBabyFood(itemId))
-					{
+					else if (PetDataTable.isBaby(petId) && PetDataTable.isBabyFood(itemId))
 						canUse = true;
-					}
-					else if (L2PetDataTable.isImprovedBaby(petId) && L2PetDataTable.isImprovedBabyFood(itemId))
-					{
+					else if (PetDataTable.isImprovedBaby(petId) && PetDataTable.isImprovedBabyFood(itemId))
 						canUse = true;
-					}
+
 					if (canUse)
 					{
 						if (player.destroyItem("Consume", item.getObjectId(), 1, null, false))
@@ -137,12 +121,18 @@ public class PetFood implements IItemHandler
 					}
 					else
 					{
-						activeChar.sendPacket(new SystemMessage(SystemMessageId.S1_CANNOT_BE_USED));
+						SystemMessage sm = new SystemMessage(SystemMessageId.S1_CANNOT_BE_USED);
+						sm.addItemName(item);
+						activeChar.sendPacket(sm);
 						return false;
 					}
 				}
 				else
-					player.sendPacket(new SystemMessage(SystemMessageId.S1_CANNOT_BE_USED));
+				{
+					SystemMessage sm = new SystemMessage(SystemMessageId.S1_CANNOT_BE_USED);
+					sm.addItemName(item);
+					activeChar.sendPacket(sm);
+				}
 				return false;
 			}
 		}

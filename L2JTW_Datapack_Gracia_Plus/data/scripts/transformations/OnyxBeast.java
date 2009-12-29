@@ -28,7 +28,7 @@ public class OnyxBeast extends L2Transformation
 		getPlayer().addSkill(SkillTable.getInstance().getInfo(585, 1), false);
 		// Decrease Bow/Crossbow Attack Speed
 		getPlayer().addSkill(SkillTable.getInstance().getInfo(5491, 1), false);
-		// Transfrom Dispel
+		// Transform Dispel
 		getPlayer().addSkill(SkillTable.getInstance().getInfo(619, 1), false);
 
 		getPlayer().setTransformAllowedSkills(new int[]{584,585,5491,619});
@@ -47,7 +47,7 @@ public class OnyxBeast extends L2Transformation
 		getPlayer().removeSkill(SkillTable.getInstance().getInfo(585, 1), false, false);
 		// Decrease Bow/Crossbow Attack Speed
 		getPlayer().removeSkill(SkillTable.getInstance().getInfo(5491, 1), false);
-		// Transfrom Dispel
+		// Transform Dispel
 		getPlayer().removeSkill(SkillTable.getInstance().getInfo(619, 1), false);
 
 		getPlayer().setTransformAllowedSkills(new int[]{});

@@ -17,7 +17,6 @@ package ai.group_template;
  
 import java.util.Collection;
 
-import javolution.util.FastList;
 import com.l2jserver.gameserver.ai.CtrlIntention;
 import com.l2jserver.gameserver.datatables.SkillTable;
 import com.l2jserver.gameserver.model.L2Object;
@@ -33,6 +32,8 @@ import com.l2jserver.gameserver.network.serverpackets.NpcSay;
 import com.l2jserver.gameserver.templates.skills.L2SkillType;
 import com.l2jserver.gameserver.util.Util;
 import com.l2jserver.util.Rnd;
+
+import javolution.util.FastList;
  
 public class Monastery extends L2AttackableAIScript
 {

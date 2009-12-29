@@ -14,7 +14,6 @@
  */
 package handlers.itemhandlers;
 
-import javolution.util.FastMap;
 import com.l2jserver.gameserver.datatables.SkillTable;
 import com.l2jserver.gameserver.handler.IItemHandler;
 import com.l2jserver.gameserver.model.L2ItemInstance;
@@ -27,6 +26,8 @@ import com.l2jserver.gameserver.network.SystemMessageId;
 import com.l2jserver.gameserver.network.serverpackets.ActionFailed;
 import com.l2jserver.gameserver.network.serverpackets.ExUseSharedGroupItem;
 import com.l2jserver.gameserver.network.serverpackets.SystemMessage;
+
+import javolution.util.FastMap;
 
 public class Elixir implements IItemHandler
 {

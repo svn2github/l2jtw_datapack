@@ -42,9 +42,9 @@ INSERT INTO `merchant_buylists` (`item_id`,`price`,`shop_id`,`order`) VALUES
 
 
 /************ 修正赤紅座龍 ************/
-REPLACE INTO `npc` VALUES ('16038', '16038', 'Red Wind Strider', '0', '', '0', 'Monster.strider', '23.00', '31.00', '70', 'male', 'L2Pet', '40', '2444', '2444', '0.00', '0.00', '10', '10', '10', '10', '10', '10', '0', '0', '500', '500', '500', '500', '253', '0', '253', '0', '0', '0', '80', '120', '', '0', '0', '0', 'LAST_HIT', '0', '0', '0', 'balanced', "false");
-REPLACE INTO `npc` VALUES ('16039', '16039', 'Red Star Strider', '0', '', '0', 'Monster.strider', '23.00', '31.00', '70', 'male', 'L2Pet', '40', '2444', '2444', '0.00', '0.00', '10', '10', '10', '10', '10', '10', '0', '0', '500', '500', '500', '500', '253', '0', '253', '0', '0', '0', '80', '120', '', '0', '0', '0', 'LAST_HIT', '0', '0', '0', 'balanced', "false");
-REPLACE INTO `npc` VALUES ('16040', '16040', 'Red Twilight Strider', '0', '', '0', 'Monster.strider', '23.00', '31.00', '70', 'male', 'L2Pet', '40', '2444', '2444', '0.00', '0.00', '10', '10', '10', '10', '10', '10', '0', '0', '500', '500', '500', '500', '253', '0', '253', '0', '0', '0', '80', '120', '', '0', '0', '0', 'LAST_HIT', '0', '0', '0', 'balanced', "false");
+REPLACE INTO `npc` VALUES ('16038', '16038', 'Red Wind Strider', '0', '', '0', 'Monster.strider', '23.00', '31.00', '70', 'male', 'L2Pet', '40', '2444', '2444', '0.00', '0.00', '10', '10', '10', '10', '10', '10', '0', '0', '500', '500', '500', '500', '253', '0', '253', '0', '0', '0', '0', '80', '120', '', '0', '0', '0', 'LAST_HIT', '0', '0', '0', 'balanced', "false");
+REPLACE INTO `npc` VALUES ('16039', '16039', 'Red Star Strider', '0', '', '0', 'Monster.strider', '23.00', '31.00', '70', 'male', 'L2Pet', '40', '2444', '2444', '0.00', '0.00', '10', '10', '10', '10', '10', '10', '0', '0', '500', '500', '500', '500', '253', '0', '253', '0', '0', '0', '0', '80', '120', '', '0', '0', '0', 'LAST_HIT', '0', '0', '0', 'balanced', "false");
+REPLACE INTO `npc` VALUES ('16040', '16040', 'Red Twilight Strider', '0', '', '0', 'Monster.strider', '23.00', '31.00', '70', 'male', 'L2Pet', '40', '2444', '2444', '0.00', '0.00', '10', '10', '10', '10', '10', '10', '0', '0', '500', '500', '500', '500', '253', '0', '253', '0', '0', '0', '0', '80', '120', '', '0', '0', '0', 'LAST_HIT', '0', '0', '0', 'balanced', "false");
 
 
 /************ 修正要塞/小天使/小惡魔/愛心/媽祖/普萊皮塔/貓熊的手鐲 ************/
@@ -122,10 +122,10 @@ REPLACE INTO `armorsets` VALUES ('200', '9670', '9671', '9669', '0', '0', '3359-
 
 
 /************ 增加狩獵幫手 ************/
-REPLACE INTO `npc` VALUES ('16043', '16043', 'Fox Shaman', '0', '', '0', 'LineageMonster4.foxian_wizard_pet', '10', '19', '70', 'male', 'L2Pet', '40', '2444', '2444', '0.00', '0.00', '40', '43', '30', '21', '20', '25', '0', '0', '500', '500', '500', '500', '253', '0', '253', '0', '0', '0', '80', '120', 'NULL', '0', '0', '0', 'LAST_HIT', '0', '0', '0', 'fighter', 'false');
-REPLACE INTO `npc` VALUES ('16044', '16044', 'Wild Beast Fighter', '0', '', '0', 'LineageMonster4.beast_fighter_pet', '10', '17', '70', 'male', 'L2Pet', '40', '2444', '2444', '0.00', '0.00', '40', '43', '30', '21', '20', '25', '0', '0', '500', '500', '500', '500', '253', '0', '253', '0', '0', '0', '80', '120', 'NULL', '0', '0', '0', 'LAST_HIT', '0', '0', '0', 'fighter', 'false');
-REPLACE INTO `npc` VALUES ('16045', '16045', 'White Weasel', '0', '', '0', 'LineageMonster4.ferret_pet', '10', '13', '70', 'male', 'L2Pet', '40', '2444', '2444', '0.00', '0.00', '40', '43', '30', '21', '20', '25', '0', '0', '500', '500', '500', '500', '253', '0', '253', '0', '0', '0', '80', '120', 'NULL', '0', '0', '0', 'LAST_HIT', '0', '0', '0', 'fighter', 'false');
-REPLACE INTO `npc` VALUES ('16046', '16046', 'Fairy Princess', '0', '', '0', 'LineageMonster4.fairy_princess_pet', '10', '18', '70', 'male', 'L2Pet', '40', '2444', '2444', '0.00', '0.00', '40', '43', '30', '21', '20', '25', '0', '0', '500', '500', '500', '500', '253', '0', '253', '0', '0', '0', '80', '120', 'NULL', '0', '0', '0', 'LAST_HIT', '0', '0', '0', 'fighter', 'false');
+REPLACE INTO `npc` VALUES ('16043', '16043', 'Fox Shaman', '0', '', '0', 'LineageMonster4.foxian_wizard_pet', '10', '19', '70', 'male', 'L2Pet', '40', '2444', '2444', '0.00', '0.00', '40', '43', '30', '21', '20', '25', '0', '0', '500', '500', '500', '500', '253', '0', '253', '0', '0', '0', '0', '80', '120', 'NULL', '0', '0', '0', 'LAST_HIT', '0', '0', '0', 'fighter', 'false');
+REPLACE INTO `npc` VALUES ('16044', '16044', 'Wild Beast Fighter', '0', '', '0', 'LineageMonster4.beast_fighter_pet', '10', '17', '70', 'male', 'L2Pet', '40', '2444', '2444', '0.00', '0.00', '40', '43', '30', '21', '20', '25', '0', '0', '500', '500', '500', '500', '253', '0', '253', '0', '0', '0', '0', '80', '120', 'NULL', '0', '0', '0', 'LAST_HIT', '0', '0', '0', 'fighter', 'false');
+REPLACE INTO `npc` VALUES ('16045', '16045', 'White Weasel', '0', '', '0', 'LineageMonster4.ferret_pet', '10', '13', '70', 'male', 'L2Pet', '40', '2444', '2444', '0.00', '0.00', '40', '43', '30', '21', '20', '25', '0', '0', '500', '500', '500', '500', '253', '0', '253', '0', '0', '0', '0', '80', '120', 'NULL', '0', '0', '0', 'LAST_HIT', '0', '0', '0', 'fighter', 'false');
+REPLACE INTO `npc` VALUES ('16046', '16046', 'Fairy Princess', '0', '', '0', 'LineageMonster4.fairy_princess_pet', '10', '18', '70', 'male', 'L2Pet', '40', '2444', '2444', '0.00', '0.00', '40', '43', '30', '21', '20', '25', '0', '0', '500', '500', '500', '500', '253', '0', '253', '0', '0', '0', '0', '80', '120', 'NULL', '0', '0', '0', 'LAST_HIT', '0', '0', '0', 'fighter', 'false');
 UPDATE `etcitem` SET `handler` = 'SummonItems' WHERE `item_id` IN (13017,13018,13019,13020);
 UPDATE `etcitem` SET `time` = 300 WHERE `item_id` IN (13017,13018,13019,13020);
 -- UPDATE `items` SET `time` = 30 WHERE `item_id` IN (13017,13018,13019,13020) AND `time` = '-1';
@@ -541,28 +541,28 @@ REPLACE INTO `npcskills` VALUES
 
 /************ 修正芙琳泰沙 ************/
 REPLACE INTO `grandboss_data` VALUES (29045, 0, 0, 0, 0, 0, 0, 0, 0);
-REPLACE INTO `npc` VALUES ('18328', '18328', 'Hall Alarm Device', '0', '', '0', 'NPC.grave_keeper_key', '8.00', '21.00', '80', 'male', 'L2Monster', '80', '1264000', '9999', '13.43', '3.09', '40', '43', '30', '21', '20', '10', '440000', '40000', '9000', '5000', '6000', '6000', '300', '0', '333', '0', '0', '0', '0', '0', 'NULL', '0', '0', '0', 'LAST_HIT', '0', '0', '0', 'balanced', 'false');
-REPLACE INTO `npc` VALUES ('18329', '18329', 'Hall Keeper Captain', '0', '', '0', 'Monster.death_lord', '21.00', '40.00', '80', 'male', 'L2Monster', '80', '23582', '9999', '13.43', '3.09', '40', '43', '30', '21', '20', '10', '440000', '40000', '9000', '5000', '6000', '6000', '300', '500', '333', '78', '0', '0', '88', '132', 'NULL', '0', '0', '0', 'LAST_HIT', '0', '0', '0', 'fighter', 'false');
-REPLACE INTO `npc` VALUES ('18330', '18330', 'Hall Keeper Wizard', '0', '', '0', 'Monster.vale_master', '12.00', '40.00', '80', 'male', 'L2Monster', '80', '18203', '9999', '13.43', '3.09', '40', '43', '30', '21', '20', '10', '440000', '40000', '9000', '5000', '6000', '6000', '300', '500', '333', '326', '0', '0', '88', '132', 'NULL', '0', '0', '0', 'LAST_HIT', '0', '0', '0', 'mage', 'false');
-REPLACE INTO `npc` VALUES ('18331', '18331', 'Hall Keeper Guard', '0', '', '0', 'Monster.death_knight', '12.00', '29.00', '80', 'male', 'L2Monster', '80', '18655', '9999', '13.43', '3.09', '40', '43', '30', '21', '20', '10', '440000', '40000', '9000', '5000', '6000', '6000', '300', '500', '333', '142', '0', '0', '88', '132', 'NULL', '0', '0', '0', 'LAST_HIT', '0', '0', '0', 'fighter', 'false');
-REPLACE INTO `npc` VALUES ('18332', '18332', 'Hall Keeper Patrol', '0', '', '0', 'Monster.headless_knight', '21.00', '31.00', '80', 'male', 'L2Monster', '80', '18434', '9999', '13.43', '3.09', '40', '43', '30', '21', '20', '10', '440000', '40000', '9000', '5000', '6000', '6000', '300', '500', '333', '70', '0', '0', '88', '132', 'NULL', '0', '0', '0', 'LAST_HIT', '0', '0', '0', 'fighter', 'false');
-REPLACE INTO `npc` VALUES ('18333', '18333', 'Hall Keeper Suicidal Soldier', '0', '', '0', 'Monster3.self_blaster', '20.00', '23.00', '80', 'male', 'L2Monster', '80', '18203', '9999', '13.43', '3.09', '40', '43', '30', '21', '20', '10', '440000', '40000', '9000', '5000', '6000', '6000', '300', '500', '333', '0', '0', '0', '88', '132', 'NULL', '0', '0', '0', 'LAST_HIT', '0', '0', '0', 'fighter', 'false');
-REPLACE INTO `npc` VALUES ('18334', '18334', 'Dark Choir Captain', '0', '', '0', 'Monster2.erinyes_cmd', '21.00', '50.00', '85', 'male', 'L2Monster', '80', '24069', '9999', '13.43', '3.09', '40', '43', '30', '21', '20', '10', '440000', '40000', '9000', '5000', '6000', '6000', '300', '0', '333', '0', '0', '0', '0', '0', 'NULL', '0', '0', '0', 'LAST_HIT', '0', '0', '0', 'balanced', 'false');
-REPLACE INTO `npc` VALUES ('18335', '18335', 'Dark Choir Prima Donna', '0', '', '0', 'Monster3.portrait_spirit', '11.00', '30.00', '80', 'male', 'L2Monster', '80', '18655', '9999', '13.43', '3.09', '40', '43', '30', '21', '20', '10', '440000', '40000', '9000', '5000', '6000', '6000', '300', '500', '333', '0', '0', '0', '88', '132', 'NULL', '0', '0', '0', 'LAST_HIT', '0', '0', '0', 'balanced', 'false');
-REPLACE INTO `npc` VALUES ('18336', '18336', 'Dark Choir Lancer', '0', '', '0', 'Monster.death_blader', '15.00', '45.00', '80', 'male', 'L2Monster', '80', '18655', '9999', '13.43', '3.09', '40', '43', '30', '21', '20', '10', '440000', '40000', '9000', '5000', '6000', '6000', '300', '500', '333', '1472', '0', '0', '88', '132', 'NULL', '0', '0', '0', 'LAST_HIT', '0', '0', '0', 'fighter', 'false');
-REPLACE INTO `npc` VALUES ('18337', '18337', 'Dark Choir Archer', '0', '', '0', 'Monster.skeleton_archer_20_bi', '13.00', '33.00', '80', 'male', 'L2Monster', '80', '18655', '9999', '13.43', '3.09', '40', '43', '30', '21', '20', '10', '440000', '40000', '9000', '5000', '6000', '6000', '300', '500', '333', '279', '0', '0', '88', '132', 'NULL', '0', '0', '0', 'LAST_HIT', '0', '0', '0', 'archer', 'false');
-REPLACE INTO `npc` VALUES ('18338', '18338', 'Dark Choir Witch Doctor', '0', '', '0', 'Monster3.portrait_spirit_winged', '11.00', '30.00', '80', 'male', 'L2Monster', '80', '13991', '9999', '13.43', '3.09', '40', '43', '30', '21', '20', '10', '440000', '40000', '9000', '5000', '6000', '6000', '300', '500', '333', '0', '0', '0', '88', '132', 'NULL', '0', '0', '0', 'LAST_HIT', '0', '0', '0', 'balanced', 'false');
-REPLACE INTO `npc` VALUES ('18339', '18339', 'Dark Choir Player', '0', '', '0', 'Monster.skeleton', '11.00', '25.00', '80', 'male', 'L2Monster', '80', '18203', '9999', '13.43', '3.09', '40', '43', '30', '21', '20', '10', '440000', '40000', '9000', '5000', '6000', '6000', '300', '0', '333', '148', '103', '0', '88', '132', 'NULL', '500', '0', '0', 'LAST_HIT', '0', '0', '0', 'balanced', 'false');
-REPLACE INTO `npc` VALUES ('29045', '29045', 'Frintezza', '0', '', '0', 'Monster3.frintessa', '10.00', '42.00', '90', 'male', 'L2GrandBoss', '0', '23480000', '22197', '830.62', '3.09', '40', '43', '30', '21', '20', '10', '0', '0', '9182', '6214', '7133', '4191', '253', '0', '333', '0', '0', '0', '1', '1', 'frintezza_clan', '6000', '0', '0', 'LAST_HIT', '0', '0', '0', 'balanced', 'false');
-REPLACE INTO `npc` VALUES ('29046', '29046', 'Scarlet van Halisha', '0', '', '0', 'Monster3.follower_of_frintessa', '29.00', '90.00', '85', 'male', 'L2GrandBoss', '50', '23480000', '22393', '823.48', '2.65', '60', '57', '73', '76', '70', '80', '0', '0', '10699', '5036', '5212', '4191', '278', '6000', '3819', '8204', '0', '0', '55', '132', 'frintezza_clan', '6000', '0', '0', 'FULL_PARTY', '0', '0', '0', 'fighter', 'false');
-REPLACE INTO `npc` VALUES ('29047', '29047', 'Scarlet van Halisha', '0', '', '0', 'Monster3.follower_of_frintessa_tran', '29.00', '110.00', '90', 'male', 'L2GrandBoss', '60', '23480000', '22393', '830.62', '3.09', '70', '67', '73', '79', '70', '80', '496960259', '40375148', '23813', '7000', '12680', '6238', '409', '6000', '3819', '8222', '0', '0', '92', '187', 'frintezza_clan', '6000', '0', '14', 'FULL_PARTY', '0', '0', '0', 'fighter', 'false');
-REPLACE INTO `npc` VALUES ('29048', '29048', 'Evil Spirit', '0', '', '0', 'Monster3.Evilate', '20.00', '56.00', '87', 'male', 'L2Monster', '70', '350000', '9999', '414.12', '3.09', '40', '43', '30', '21', '20', '10', '30', '2', '9000', '2350', '7133', '2045', '253', '6000', '333', '0', '0', '0', '0', '0', 'frintezza_clan', '6000', '0', '0', 'LAST_HIT', '0', '0', '0', 'fighter', 'false');
-REPLACE INTO `npc` VALUES ('29049', '29049', 'Evil Spirit', '0', '', '0', 'Monster3.Evilate', '20.00', '56.00', '87', 'male', 'L2Monster', '70', '350000', '9999', '414.12', '3.09', '40', '43', '30', '21', '20', '10', '30', '2', '9000', '2350', '7133', '2045', '253', '6000', '333', '0', '0', '0', '0', '0', 'frintezza_clan', '6000', '0', '0', 'LAST_HIT', '0', '0', '0', 'fighter', 'false');
-REPLACE INTO `npc` VALUES ('29050', '29050', 'Breath of Halisha', '0', '', '0', 'Monster3.portrait_spirit', '10.00', '20.00', '85', 'male', 'L2Monster', '40', '350000', '9999', '13.43', '3.09', '40', '43', '30', '21', '20', '10', '30', '2', '9000', '2350', '7133', '2045', '253', '6000', '333', '0', '0', '0', '55', '66', 'frintezza_clan', '6000', '0', '0', 'LAST_HIT', '0', '0', '0', 'fighter', 'false');
-REPLACE INTO `npc` VALUES ('29051', '29051', 'Breath of Halisha', '0', '', '0', 'Monster3.portrait_spirit_winged', '10.00', '20.00', '85', 'male', 'L2Monster', '40', '350000', '9999', '13.43', '3.09', '40', '43', '30', '21', '20', '10', '30', '2', '9000', '2350', '7133', '2045', '253', '6000', '333', '0', '0', '0', '55', '66', 'frintezza_clan', '6000', '0', '0', 'LAST_HIT', '0', '0', '0', 'fighter', 'false');
-REPLACE INTO `npc` VALUES ('29052', '29052', '', '0', '', '0', 'Monster3.Organ_Dummy', '1.00', '1.00', '99', 'male', 'L2Npc', '40', '400000', '9999', '13.43', '3.09', '40', '43', '30', '21', '20', '10', '0', '0', '9000', '5000', '6000', '6000', '300', '0', '333', '0', '0', '0', '88', '132', 'NULL', '0', '0', '0', 'LAST_HIT', '0', '0', '0', 'balanced', 'false');
-REPLACE INTO `npc` VALUES ('29053', '29053', '', '0', '', '0', 'Monster3.Follower_Dummy', '1.00', '1.00', '99', 'male', 'L2Npc', '40', '400000', '9999', '13.43', '3.09', '40', '43', '30', '21', '20', '10', '0', '0', '9000', '5000', '6000', '6000', '300', '0', '333', '0', '0', '0', '88', '132', 'NULL', '0', '0', '0', 'LAST_HIT', '0', '0', '0', 'balanced', 'false');
-REPLACE INTO `npc` VALUES ('29061', '29061', 'Teleportation Cubic', '0', '', '0', 'NPC.teleport_npc_frin', '40.00', '80.00', '70', 'male', 'L2Teleporter', '40', '2444', '2444', '0.00', '0.00', '10', '10', '10', '10', '10', '10', '0', '0', '500', '500', '500', '500', '278', '0', '333', '0', '0', '0', '88', '132', 'NULL', '0', '0', '0', 'LAST_HIT', '0', '0', '0', 'balanced', 'false');
+REPLACE INTO `npc` VALUES ('18328', '18328', 'Hall Alarm Device', '0', '', '0', 'NPC.grave_keeper_key', '8.00', '21.00', '80', 'male', 'L2Monster', '80', '1264000', '9999', '13.43', '3.09', '40', '43', '30', '21', '20', '10', '440000', '40000', '9000', '5000', '6000', '6000', '300', '0', '333', '0', '0', '0', '0', '0', '0', 'NULL', '0', '0', '0', 'LAST_HIT', '0', '0', '0', 'balanced', 'false');
+REPLACE INTO `npc` VALUES ('18329', '18329', 'Hall Keeper Captain', '0', '', '0', 'Monster.death_lord', '21.00', '40.00', '80', 'male', 'L2Monster', '80', '23582', '9999', '13.43', '3.09', '40', '43', '30', '21', '20', '10', '440000', '40000', '9000', '5000', '6000', '6000', '300', '500', '333', '78', '0', '0', '0', '88', '132', 'NULL', '0', '0', '0', 'LAST_HIT', '0', '0', '0', 'fighter', 'false');
+REPLACE INTO `npc` VALUES ('18330', '18330', 'Hall Keeper Wizard', '0', '', '0', 'Monster.vale_master', '12.00', '40.00', '80', 'male', 'L2Monster', '80', '18203', '9999', '13.43', '3.09', '40', '43', '30', '21', '20', '10', '440000', '40000', '9000', '5000', '6000', '6000', '300', '500', '333', '326', '0', '0', '0', '88', '132', 'NULL', '0', '0', '0', 'LAST_HIT', '0', '0', '0', 'mage', 'false');
+REPLACE INTO `npc` VALUES ('18331', '18331', 'Hall Keeper Guard', '0', '', '0', 'Monster.death_knight', '12.00', '29.00', '80', 'male', 'L2Monster', '80', '18655', '9999', '13.43', '3.09', '40', '43', '30', '21', '20', '10', '440000', '40000', '9000', '5000', '6000', '6000', '300', '500', '333', '142', '0', '0', '0', '88', '132', 'NULL', '0', '0', '0', 'LAST_HIT', '0', '0', '0', 'fighter', 'false');
+REPLACE INTO `npc` VALUES ('18332', '18332', 'Hall Keeper Patrol', '0', '', '0', 'Monster.headless_knight', '21.00', '31.00', '80', 'male', 'L2Monster', '80', '18434', '9999', '13.43', '3.09', '40', '43', '30', '21', '20', '10', '440000', '40000', '9000', '5000', '6000', '6000', '300', '500', '333', '70', '0', '0', '0', '88', '132', 'NULL', '0', '0', '0', 'LAST_HIT', '0', '0', '0', 'fighter', 'false');
+REPLACE INTO `npc` VALUES ('18333', '18333', 'Hall Keeper Suicidal Soldier', '0', '', '0', 'Monster3.self_blaster', '20.00', '23.00', '80', 'male', 'L2Monster', '80', '18203', '9999', '13.43', '3.09', '40', '43', '30', '21', '20', '10', '440000', '40000', '9000', '5000', '6000', '6000', '300', '500', '333', '0', '0', '0', '0', '88', '132', 'NULL', '0', '0', '0', 'LAST_HIT', '0', '0', '0', 'fighter', 'false');
+REPLACE INTO `npc` VALUES ('18334', '18334', 'Dark Choir Captain', '0', '', '0', 'Monster2.erinyes_cmd', '21.00', '50.00', '85', 'male', 'L2Monster', '80', '24069', '9999', '13.43', '3.09', '40', '43', '30', '21', '20', '10', '440000', '40000', '9000', '5000', '6000', '6000', '300', '0', '333', '0', '0', '0', '0', '0', '0', 'NULL', '0', '0', '0', 'LAST_HIT', '0', '0', '0', 'balanced', 'false');
+REPLACE INTO `npc` VALUES ('18335', '18335', 'Dark Choir Prima Donna', '0', '', '0', 'Monster3.portrait_spirit', '11.00', '30.00', '80', 'male', 'L2Monster', '80', '18655', '9999', '13.43', '3.09', '40', '43', '30', '21', '20', '10', '440000', '40000', '9000', '5000', '6000', '6000', '300', '500', '333', '0', '0', '0', '0', '88', '132', 'NULL', '0', '0', '0', 'LAST_HIT', '0', '0', '0', 'balanced', 'false');
+REPLACE INTO `npc` VALUES ('18336', '18336', 'Dark Choir Lancer', '0', '', '0', 'Monster.death_blader', '15.00', '45.00', '80', 'male', 'L2Monster', '80', '18655', '9999', '13.43', '3.09', '40', '43', '30', '21', '20', '10', '440000', '40000', '9000', '5000', '6000', '6000', '300', '500', '333', '1472', '0', '0', '0', '88', '132', 'NULL', '0', '0', '0', 'LAST_HIT', '0', '0', '0', 'fighter', 'false');
+REPLACE INTO `npc` VALUES ('18337', '18337', 'Dark Choir Archer', '0', '', '0', 'Monster.skeleton_archer_20_bi', '13.00', '33.00', '80', 'male', 'L2Monster', '80', '18655', '9999', '13.43', '3.09', '40', '43', '30', '21', '20', '10', '440000', '40000', '9000', '5000', '6000', '6000', '300', '500', '333', '279', '0', '0', '0', '88', '132', 'NULL', '0', '0', '0', 'LAST_HIT', '0', '0', '0', 'archer', 'false');
+REPLACE INTO `npc` VALUES ('18338', '18338', 'Dark Choir Witch Doctor', '0', '', '0', 'Monster3.portrait_spirit_winged', '11.00', '30.00', '80', 'male', 'L2Monster', '80', '13991', '9999', '13.43', '3.09', '40', '43', '30', '21', '20', '10', '440000', '40000', '9000', '5000', '6000', '6000', '300', '500', '333', '0', '0', '0', '0', '88', '132', 'NULL', '0', '0', '0', 'LAST_HIT', '0', '0', '0', 'balanced', 'false');
+REPLACE INTO `npc` VALUES ('18339', '18339', 'Dark Choir Player', '0', '', '0', 'Monster.skeleton', '11.00', '25.00', '80', 'male', 'L2Monster', '80', '18203', '9999', '13.43', '3.09', '40', '43', '30', '21', '20', '10', '440000', '40000', '9000', '5000', '6000', '6000', '300', '0', '333', '148', '103', '0', '0', '88', '132', 'NULL', '500', '0', '0', 'LAST_HIT', '0', '0', '0', 'balanced', 'false');
+REPLACE INTO `npc` VALUES ('29045', '29045', 'Frintezza', '0', '', '0', 'Monster3.frintessa', '10.00', '42.00', '90', 'male', 'L2GrandBoss', '0', '23480000', '22197', '830.62', '3.09', '40', '43', '30', '21', '20', '10', '0', '0', '9182', '6214', '7133', '4191', '253', '0', '333', '0', '0', '0', '0', '1', '1', 'frintezza_clan', '6000', '0', '0', 'LAST_HIT', '0', '0', '0', 'balanced', 'false');
+REPLACE INTO `npc` VALUES ('29046', '29046', 'Scarlet van Halisha', '0', '', '0', 'Monster3.follower_of_frintessa', '29.00', '90.00', '85', 'male', 'L2GrandBoss', '50', '23480000', '22393', '823.48', '2.65', '60', '57', '73', '76', '70', '80', '0', '0', '10699', '5036', '5212', '4191', '278', '6000', '3819', '8204', '0', '0', '0', '55', '132', 'frintezza_clan', '6000', '0', '0', 'FULL_PARTY', '0', '0', '0', 'fighter', 'false');
+REPLACE INTO `npc` VALUES ('29047', '29047', 'Scarlet van Halisha', '0', '', '0', 'Monster3.follower_of_frintessa_tran', '29.00', '110.00', '90', 'male', 'L2GrandBoss', '60', '23480000', '22393', '830.62', '3.09', '70', '67', '73', '79', '70', '80', '496960259', '40375148', '23813', '7000', '12680', '6238', '409', '6000', '3819', '8222', '0', '0', '0', '92', '187', 'frintezza_clan', '6000', '0', '14', 'FULL_PARTY', '0', '0', '0', 'fighter', 'false');
+REPLACE INTO `npc` VALUES ('29048', '29048', 'Evil Spirit', '0', '', '0', 'Monster3.Evilate', '20.00', '56.00', '87', 'male', 'L2Monster', '70', '350000', '9999', '414.12', '3.09', '40', '43', '30', '21', '20', '10', '30', '2', '9000', '2350', '7133', '2045', '253', '6000', '333', '0', '0', '0', '0', '0', '0', 'frintezza_clan', '6000', '0', '0', 'LAST_HIT', '0', '0', '0', 'fighter', 'false');
+REPLACE INTO `npc` VALUES ('29049', '29049', 'Evil Spirit', '0', '', '0', 'Monster3.Evilate', '20.00', '56.00', '87', 'male', 'L2Monster', '70', '350000', '9999', '414.12', '3.09', '40', '43', '30', '21', '20', '10', '30', '2', '9000', '2350', '7133', '2045', '253', '6000', '333', '0', '0', '0', '0', '0', '0', 'frintezza_clan', '6000', '0', '0', 'LAST_HIT', '0', '0', '0', 'fighter', 'false');
+REPLACE INTO `npc` VALUES ('29050', '29050', 'Breath of Halisha', '0', '', '0', 'Monster3.portrait_spirit', '10.00', '20.00', '85', 'male', 'L2Monster', '40', '350000', '9999', '13.43', '3.09', '40', '43', '30', '21', '20', '10', '30', '2', '9000', '2350', '7133', '2045', '253', '6000', '333', '0', '0', '0', '0', '55', '66', 'frintezza_clan', '6000', '0', '0', 'LAST_HIT', '0', '0', '0', 'fighter', 'false');
+REPLACE INTO `npc` VALUES ('29051', '29051', 'Breath of Halisha', '0', '', '0', 'Monster3.portrait_spirit_winged', '10.00', '20.00', '85', 'male', 'L2Monster', '40', '350000', '9999', '13.43', '3.09', '40', '43', '30', '21', '20', '10', '30', '2', '9000', '2350', '7133', '2045', '253', '6000', '333', '0', '0', '0', '0', '55', '66', 'frintezza_clan', '6000', '0', '0', 'LAST_HIT', '0', '0', '0', 'fighter', 'false');
+REPLACE INTO `npc` VALUES ('29052', '29052', '', '0', '', '0', 'Monster3.Organ_Dummy', '1.00', '1.00', '99', 'male', 'L2Npc', '40', '400000', '9999', '13.43', '3.09', '40', '43', '30', '21', '20', '10', '0', '0', '9000', '5000', '6000', '6000', '300', '0', '333', '0', '0', '0', '0', '88', '132', 'NULL', '0', '0', '0', 'LAST_HIT', '0', '0', '0', 'balanced', 'false');
+REPLACE INTO `npc` VALUES ('29053', '29053', '', '0', '', '0', 'Monster3.Follower_Dummy', '1.00', '1.00', '99', 'male', 'L2Npc', '40', '400000', '9999', '13.43', '3.09', '40', '43', '30', '21', '20', '10', '0', '0', '9000', '5000', '6000', '6000', '300', '0', '333', '0', '0', '0', '0', '88', '132', 'NULL', '0', '0', '0', 'LAST_HIT', '0', '0', '0', 'balanced', 'false');
+REPLACE INTO `npc` VALUES ('29061', '29061', 'Teleportation Cubic', '0', '', '0', 'NPC.teleport_npc_frin', '40.00', '80.00', '70', 'male', 'L2Teleporter', '40', '2444', '2444', '0.00', '0.00', '10', '10', '10', '10', '10', '10', '0', '0', '500', '500', '500', '500', '278', '0', '333', '0', '0', '0', '0', '88', '132', 'NULL', '0', '0', '0', 'LAST_HIT', '0', '0', '0', 'balanced', 'false');
 DELETE FROM `npcskills` Where `skillid` IN (5014,5015,5016,5017,5018,5019);
 REPLACE INTO `npcskills` VALUES
 (29050,5010,1),
@@ -806,19 +806,19 @@ UPDATE `auction` SET `startingBid` = '20000000' WHERE `id` IN (58,59,60,61) AND 
 -- 法國麵包武器
 DELETE FROM `armor` WHERE `item_id` IN (20266); -- L2J 錯誤設定為防具
 REPLACE INTO `weapon` VALUES
-(20266,'Baguette Shield','lhand','false',500,0,0,'fine_steel','none',0,0,'none',0,0,-8,2,20,0,0,0,-1,10080,0,0,'true','true','true','true','true',0,0,0,0,0,0,0,0,0,'0-0;'); -- 法國麵包菠蘿盾
+(20266,'Baguette Shield','','lhand','false',500,0,0,'fine_steel','none',0,0,'none',0,0,-8,2,20,0,0,0,-1,10080,0,0,'true','true','true','true','true',0,0,0,0,0,0,0,0,0,'0-0;'); -- 法國麵包菠蘿盾
 
 -- 新頭飾
 REPLACE INTO `armor` VALUES
-(20401,'Laborer Hat','hairall','false','none',10,'wood','none',0,-1,-1,0,0,0,0,0,'true','true','true','true','true','0-0','0-0;'), -- 勤勞者帽子
-(20497,'Mother\'s Wreath - Event Blessing of Love - 24 hours limited period','hairall','false','none',120,'wood','none',0,-1,1440,0,0,0,0,0,'false','false','true','false','true','0-0','21086-1;'), -- 母親的花環-活動 愛的祝福(限時24小時)
-(20498,'Mother\'s Wreath Blessing of Love - 3 day limited period','hairall','false','none',120,'wood','none',0,-1,4320,0,0,0,0,0,'false','false','true','false','true','0-0','21086-1;'); -- 母親的花環-活動 愛的祝福(限時3日)
+(20401,'Laborer Hat','','hairall','false','none',10,'wood','none',0,-1,-1,0,0,0,0,0,'true','true','true','true','true','0-0','0-0;'), -- 勤勞者帽子
+(20497,'Mother\'s Wreath - Event Blessing of Love - 24 hours limited period','','hairall','false','none',120,'wood','none',0,-1,1440,0,0,0,0,0,'false','false','true','false','true','0-0','21086-1;'), -- 母親的花環-活動 愛的祝福(限時24小時)
+(20498,'Mother\'s Wreath Blessing of Love - 3 day limited period','','hairall','false','none',120,'wood','none',0,-1,4320,0,0,0,0,0,'false','false','true','false','true','0-0','21086-1;'); -- 母親的花環-活動 愛的祝福(限時3日)
 
 -- 新壺精
 REPLACE INTO `armor` VALUES
-(14776,'Agathion Seal Bracelet - Juju','lbracelet','false','none',150,'wood','none',0,-1,20160,0,0,0,0,0,'false','false','true','false','true','0-0','8327-1;6136-1;6137-1;3267-1;'),
-(20495,'Agathion Seal Bracelet - Pomona Mental Shield - 7 day limited period','lbracelet','false','none',150,'wood','none',0,-1,-1,0,0,0,0,0,'false','false','true','false','true','0-0','21085-1;23067-1;3267-1;'); -- 壺精封印手鐲-果樹女神
--- (20496,'Agathion Seal Bracelet - Pomona Mental Shield - 7 day limited period','lbracelet','false','none',150,'wood','none',0,-1,10080,0,0,0,0,0,'false','false','true','false','true','0-0','21085-1;23067-1;23068-4;3267-1;'), -- 壺精封印手鐲-果樹女神 心靈防護(限時7日)
+(14776,'Agathion Seal Bracelet - Juju','','lbracelet','false','none',150,'wood','none',0,-1,20160,0,0,0,0,0,'false','false','true','false','true','0-0','8327-1;6136-1;6137-1;3267-1;'),
+(20495,'Agathion Seal Bracelet - Pomona Mental Shield - 7 day limited period','','lbracelet','false','none',150,'wood','none',0,-1,-1,0,0,0,0,0,'false','false','true','false','true','0-0','21085-1;23067-1;3267-1;'); -- 壺精封印手鐲-果樹女神
+-- (20496,'Agathion Seal Bracelet - Pomona Mental Shield - 7 day limited period','','lbracelet','false','none',150,'wood','none',0,-1,10080,0,0,0,0,0,'false','false','true','false','true','0-0','21085-1;23067-1;23068-4;3267-1;'), -- 壺精封印手鐲-果樹女神 心靈防護(限時7日)
 UPDATE `armor` SET `skill` = '8257-1;5956-1;3267-1;' WHERE `item_id` IN (14075); -- 怒氣壺精
 UPDATE `armor` SET `skill` = '8256-1;5955-1;3267-1;' WHERE `item_id` IN (14076); -- 開心壺精
 UPDATE `armor` SET `skill` = '8258-1;5957-1;3267-1;' WHERE `item_id` IN (14077); -- 嗚咽壺精
@@ -828,10 +828,10 @@ UPDATE `armor` SET `skill` = '8262-1;' WHERE `item_id` IN (14053,14066);       -
 
 -- 新狩獵幫手
 REPLACE INTO `npc` VALUES
-('16050', '16050', 'Owl Monk', '0', '', '0', 'LineageMonster4.owl_wizard_the_pet', '15', '20', '80', 'male', 'L2Pet', '40', '2444', '2444', '0.00', '0.00', '40', '43', '30', '21', '20', '25', '0', '0', '500', '500', '500', '500', '253', '0', '253', '0', '0', '0', '80', '120', 'NULL', '0', '0', '0', 'LAST_HIT', '0', '0', '0', 'fighter', 'false'),
-('16051', '16051', 'Spirit Shaman', '0', '', '0', 'LineageMonster4.sprit_magician_the_pet', '15', '15', '80', 'male', 'L2Pet', '40', '2444', '2444', '0.00', '0.00', '40', '43', '30', '21', '20', '25', '0', '0', '500', '500', '500', '500', '253', '0', '253', '0', '0', '0', '80', '120', 'NULL', '0', '0', '0', 'LAST_HIT', '0', '0', '0', 'fighter', 'false'),
-('16052', '16052', 'Toy Knight', '0', '', '0', 'LineageMonster4.toy_knight_the_pet', '12', '15', '80', 'male', 'L2Pet', '40', '2444', '2444', '0.00', '0.00', '40', '43', '30', '21', '20', '25', '0', '0', '500', '500', '500', '500', '253', '0', '253', '0', '0', '0', '80', '120', 'NULL', '0', '0', '0', 'LAST_HIT', '0', '0', '0', 'fighter', 'false'),
-('16053', '16053', 'Turtle Ascetic', '0', '', '0', 'LineageMonster4.turtle_buffer_the_pet', '12', '10', '80', 'male', 'L2Pet', '40', '2444', '2444', '0.00', '0.00', '40', '43', '30', '21', '20', '25', '0', '0', '500', '500', '500', '500', '253', '0', '253', '0', '0', '0', '80', '120', 'NULL', '0', '0', '0', 'LAST_HIT', '0', '0', '0', 'fighter', 'false');
+('16050', '16050', 'Owl Monk', '0', '', '0', 'LineageMonster4.owl_wizard_the_pet', '15', '20', '80', 'male', 'L2Pet', '40', '2444', '2444', '0.00', '0.00', '40', '43', '30', '21', '20', '25', '0', '0', '500', '500', '500', '500', '253', '0', '253', '0', '0', '0', '0', '80', '120', 'NULL', '0', '0', '0', 'LAST_HIT', '0', '0', '0', 'fighter', 'false'),
+('16051', '16051', 'Spirit Shaman', '0', '', '0', 'LineageMonster4.sprit_magician_the_pet', '15', '15', '80', 'male', 'L2Pet', '40', '2444', '2444', '0.00', '0.00', '40', '43', '30', '21', '20', '25', '0', '0', '500', '500', '500', '500', '253', '0', '253', '0', '0', '0', '0', '80', '120', 'NULL', '0', '0', '0', 'LAST_HIT', '0', '0', '0', 'fighter', 'false'),
+('16052', '16052', 'Toy Knight', '0', '', '0', 'LineageMonster4.toy_knight_the_pet', '12', '15', '80', 'male', 'L2Pet', '40', '2444', '2444', '0.00', '0.00', '40', '43', '30', '21', '20', '25', '0', '0', '500', '500', '500', '500', '253', '0', '253', '0', '0', '0', '0', '80', '120', 'NULL', '0', '0', '0', 'LAST_HIT', '0', '0', '0', 'fighter', 'false'),
+('16053', '16053', 'Turtle Ascetic', '0', '', '0', 'LineageMonster4.turtle_buffer_the_pet', '12', '10', '80', 'male', 'L2Pet', '40', '2444', '2444', '0.00', '0.00', '40', '43', '30', '21', '20', '25', '0', '0', '500', '500', '500', '500', '253', '0', '253', '0', '0', '0', '0', '80', '120', 'NULL', '0', '0', '0', 'LAST_HIT', '0', '0', '0', 'fighter', 'false');
 UPDATE `etcitem` SET `handler` = 'SummonItems' WHERE `item_id` IN (14061,14062,14063,14064);
 UPDATE `etcitem` SET `time` = 300 WHERE `item_id` IN (14061,14062,14063,14064);
 -- UPDATE `items` SET `time` = 30 WHERE `item_id` IN (14061,14062,14063,14064) AND `time` = '-1';
@@ -1439,19 +1439,19 @@ DELETE FROM `spawnlist` WHERE `npc_templateid` IN (31756);
 
 -- 修正/更新任務128 菲拉卡-冰與火之歌
 REPLACE INTO `npc` VALUES
-(18607,18607,'Gargos',0,'Spirit of Fire',0,'LineageMonster.monster_eye',18,48,39,'male','L2Monster',40,32790,463,7.11,1.84,40,43,30,21,20,10,11224,714,250,175,96,142,278,0,333,0,0, NULL,60,60,'',0,0,0,'LAST_HIT',0,0,0,'balanced','false'),
-(18608,18608,'Kinsus',0,'Spirit of Fire',0,'LineageMonster.monster_eye',18,40,39,'male','L2Monster',40,32790,463,7.11,1.84,40,43,30,21,20,10,11224,714,250,175,96,142,278,0,333,0,0,NULL,60,60,'',0,0,0,'LAST_HIT',0,0,0,'balanced','false'),
-(18609,18609,'Papion',0,'Spirit of Water',0,'LineageMonster.monster_eye',18,40,38,'female','L2Monster',40,32790,463,7.11,1.84,40,43,30,21,20,10,10782,652,250,175,96,142,278,0,333,0,0,NULL,60,60,'',0,0,0,'LAST_HIT',0,0,0,'balanced','false'),
-(18610,18610,'Hillas',0,'Spirit of Water',0,'LineageMonster.monster_eye',18,70,38,'female','L2Monster',40,32790,463,7.11,1.84,40,43,30,21,20,10,10782,652,250,175,96,142,278,0,333,0,0,NULL,60,60,'',0,0,0,'LAST_HIT',0,0,0,'balanced','false'),
-(18611,18611,'Spirit of Water',0,'',0,'LineageMonster.monster_eye',8,27,35,'female','L2Monster',40,1279,463,7.11,1.84,40,43,30,21,20,10,437,15,250,175,96,142,278,0,333,0,0,NULL,60,60,'',0,0,0,'LAST_HIT',0,0,0,'balanced','false'),
-(18612,18612,'Spirit of Water',0,'',0,'LineageMonster.monster_eye',8,32,36,'female','L2Monster',40,1279,463,7.11,1.84,40,43,30,21,20,10,726,28,250,175,96,142,278,0,333,0,0,NULL,60,60,'',0,0,0,'LAST_HIT',0,0,0,'balanced','false'),
-(18613,18613,'Spirit of Water',0,'',0,'LineageMonster.monster_eye',8,32,38,'female','L2Monster',40,1379,463,7.11,1.84,40,43,30,21,20,10,852,35,500,175,96,142,278,0,333,0,0,NULL,60,60,'',0,0,0,'LAST_HIT',0,0,0,'balanced','false'),
-(18614,18614,'Spirit of Fire',0,'',0,'LineageMonster.monster_eye',8,24,37,'male','L2Monster',40,1279,463,7.11,1.84,40,43,30,21,20,10,726,28,250,175,96,142,278,0,333,0,0,NULL,60,60,'',0,0,0,'LAST_HIT',0,0,0,'balanced','false'),
-(18615,18615,'Spirit of Fire',0,'',0,'LineageMonster.monster_eye',8,32,38,'male','L2Monster',40,1379,463,7.11,1.84,40,43,30,21,20,10,852,35,500,175,96,142,278,0,333,0,0,NULL,60,60,'',0,0,0,'LAST_HIT',0,0,0,'balanced','false'),
-(18616,18616,'Bloom',0,'',0,'LineageMonster.monster_eye',11,20,37,'male','L2Monster',40,1279,463,7.11,1.84,40,43,30,21,20,10,726,28,206,175,96,142,278,0,333,0,0,NULL,60,60,'',0,0,0,'LAST_HIT',0,0,0,'balanced','false'),
-(18620,18620,'Adiantum',0,'',0,'LineageMonster.monster_eye',14,14.5,40,'male','L2Monster',40,55000,463,7.11,1.84,40,43,30,21,20,10,91639,4070,350,175,96,142,278,0,333,0,0,NULL,60,60,'',0,0,0,'LAST_HIT',0,0,0,'balanced','false'),
-(32492,32492,'Crystal Water Bottle',0,'',0,'LineageNPC.a_fighterguild_teacher_MDarkElf',13,14,37,'etc','L2Monster',40,10,10,0,0,10,10,10,10,10,10,0,0,500,500,500,500,278,0,333,0,0,NULL,1,0,'',0,0,0,'LAST_HIT',0,0,0,'balanced','false'),
-(32493,32493,'Burning Brazier',0,'',0,'LineageNPC.a_fighterguild_teacher_MDarkElf',15,11.5,37,'etc','L2Monster',40,10,10,0,0,10,10,10,10,10,10,0,0,500,500,500,500,278,0,333,0,0,NULL,1,0,'',0,0,0,'LAST_HIT',0,0,0,'balanced','false');
+(18607,18607,'Gargos',0,'Spirit of Fire',0,'LineageMonster.monster_eye',18,48,39,'male','L2Monster',40,32790,463,7.11,1.84,40,43,30,21,20,10,11224,714,250,175,96,142,278,0,333,0,0,NULL,0,60,60,'',0,0,0,'LAST_HIT',0,0,0,'balanced','false'),
+(18608,18608,'Kinsus',0,'Spirit of Fire',0,'LineageMonster.monster_eye',18,40,39,'male','L2Monster',40,32790,463,7.11,1.84,40,43,30,21,20,10,11224,714,250,175,96,142,278,0,333,0,0,NULL,0,60,60,'',0,0,0,'LAST_HIT',0,0,0,'balanced','false'),
+(18609,18609,'Papion',0,'Spirit of Water',0,'LineageMonster.monster_eye',18,40,38,'female','L2Monster',40,32790,463,7.11,1.84,40,43,30,21,20,10,10782,652,250,175,96,142,278,0,333,0,0,NULL,0,60,60,'',0,0,0,'LAST_HIT',0,0,0,'balanced','false'),
+(18610,18610,'Hillas',0,'Spirit of Water',0,'LineageMonster.monster_eye',18,70,38,'female','L2Monster',40,32790,463,7.11,1.84,40,43,30,21,20,10,10782,652,250,175,96,142,278,0,333,0,0,NULL,0,60,60,'',0,0,0,'LAST_HIT',0,0,0,'balanced','false'),
+(18611,18611,'Spirit of Water',0,'',0,'LineageMonster.monster_eye',8,27,35,'female','L2Monster',40,1279,463,7.11,1.84,40,43,30,21,20,10,437,15,250,175,96,142,278,0,333,0,0,NULL,0,60,60,'',0,0,0,'LAST_HIT',0,0,0,'balanced','false'),
+(18612,18612,'Spirit of Water',0,'',0,'LineageMonster.monster_eye',8,32,36,'female','L2Monster',40,1279,463,7.11,1.84,40,43,30,21,20,10,726,28,250,175,96,142,278,0,333,0,0,NULL,0,60,60,'',0,0,0,'LAST_HIT',0,0,0,'balanced','false'),
+(18613,18613,'Spirit of Water',0,'',0,'LineageMonster.monster_eye',8,32,38,'female','L2Monster',40,1379,463,7.11,1.84,40,43,30,21,20,10,852,35,500,175,96,142,278,0,333,0,0,NULL,0,60,60,'',0,0,0,'LAST_HIT',0,0,0,'balanced','false'),
+(18614,18614,'Spirit of Fire',0,'',0,'LineageMonster.monster_eye',8,24,37,'male','L2Monster',40,1279,463,7.11,1.84,40,43,30,21,20,10,726,28,250,175,96,142,278,0,333,0,0,NULL,0,60,60,'',0,0,0,'LAST_HIT',0,0,0,'balanced','false'),
+(18615,18615,'Spirit of Fire',0,'',0,'LineageMonster.monster_eye',8,32,38,'male','L2Monster',40,1379,463,7.11,1.84,40,43,30,21,20,10,852,35,500,175,96,142,278,0,333,0,0,NULL,0,60,60,'',0,0,0,'LAST_HIT',0,0,0,'balanced','false'),
+(18616,18616,'Bloom',0,'',0,'LineageMonster.monster_eye',11,20,37,'male','L2Monster',40,1279,463,7.11,1.84,40,43,30,21,20,10,726,28,206,175,96,142,278,0,333,0,0,NULL,0,60,60,'',0,0,0,'LAST_HIT',0,0,0,'balanced','false'),
+(18620,18620,'Adiantum',0,'',0,'LineageMonster.monster_eye',14,14.5,40,'male','L2Monster',40,55000,463,7.11,1.84,40,43,30,21,20,10,91639,4070,350,175,96,142,278,0,333,0,0,NULL,0,60,60,'',0,0,0,'LAST_HIT',0,0,0,'balanced','false'),
+(32492,32492,'Crystal Water Bottle',0,'',0,'LineageNPC.a_fighterguild_teacher_MDarkElf',13,14,37,'etc','L2Monster',40,10,10,0,0,10,10,10,10,10,10,0,0,500,500,500,500,278,0,333,0,0,NULL,0,1,0,'',0,0,0,'LAST_HIT',0,0,0,'balanced','false'),
+(32493,32493,'Burning Brazier',0,'',0,'LineageNPC.a_fighterguild_teacher_MDarkElf',15,11.5,37,'etc','L2Monster',40,10,10,0,0,10,10,10,10,10,10,0,0,500,500,500,500,278,0,333,0,0,NULL,0,1,0,'',0,0,0,'LAST_HIT',0,0,0,'balanced','false');
 UPDATE `etcitem` SET handler='Book' WHERE `item_id` IN (13130,13131,13132,13133,13134,13135,13136);
 UPDATE `etcitem` SET `skill` = '2592-1;', `handler` = 'ItemSkills' WHERE `item_id` = 13033;
 UPDATE `etcitem` SET `skill` = '2150-1;', `handler` = 'SoulShots', `item_type` = 'shot', `crystal_type` = 'd' WHERE `item_id` = 13037;
@@ -1487,116 +1487,116 @@ UPDATE `helper_buff_list` SET `upper_level` = 75 WHERE `upper_level` = 62;
 
 -- 新頭飾
 REPLACE INTO `armor` VALUES
-(14962,'14962','hairall','false','none',10,'wood','none',0,-1,-1,0,0,0,0,0,'false','false','true','false','true','0-0','0-0;'),
-(14963,'14962','hairall','false','none',10,'wood','none',0,-1,-1,0,0,0,0,0,'false','false','true','false','true','0-0','0-0;'),
-(14964,'14962','hairall','false','none',10,'wood','none',0,-1,-1,0,0,0,0,0,'false','false','true','false','true','0-0','0-0;'),
-(14965,'14962','hairall','false','none',10,'wood','none',0,-1,-1,0,0,0,0,0,'false','false','true','false','true','0-0','0-0;'),
-(15221,'15221','hairall','false','none',10,'wood','none',0,-1,-1,0,0,0,0,0,'false','false','true','false','true','0-0','0-0;'),
-(20569,'20569','hairall','false','none',10,'wood','none',0,-1,-1,0,0,0,0,0,'false','false','true','false','true','0-0','0-0;'),
-(20601,'20601','hairall','false','none',10,'wood','none',0,-1,10080,0,0,0,0,0,'false','false','true','false','true','0-0','21090-1;'),
-(20613,'20613','hair','false','none',10,'wood','none',0,-1,-1,0,0,0,0,0,'false','false','true','false','true','0-0','21092-1;'),
-(20614,'20614','hair','false','none',10,'wood','none',0,-1,-1,0,0,0,0,0,'false','false','true','false','true','0-0','21093-1;'),
-(20615,'20615','hair','false','none',10,'wood','none',0,-1,-1,0,0,0,0,0,'false','false','true','false','true','0-0','21094-1;'),
-(20616,'20616','hair','false','none',10,'wood','none',0,-1,10080,0,0,0,0,0,'false','false','true','false','true','0-0','21092-1;21111-1;'),
-(20617,'20617','hair','false','none',10,'wood','none',0,-1,10080,0,0,0,0,0,'false','false','true','false','true','0-0','21093-1;21112-1;'),
-(20618,'20618','hair','false','none',10,'wood','none',0,-1,10080,0,0,0,0,0,'false','false','true','false','true','0-0','21094-1;21113-1;'),
-(20626,'20626','hairall','false','none',10,'wood','none',0,-1,10080,0,0,0,0,0,'false','false','true','false','true','0-0','21095-1;'),
-(20633,'20633','hairall','false','none',10,'wood','none',0,-1,10080,0,0,0,0,0,'false','false','true','false','true','0-0','21096-1;'),
-(20634,'20634','hairall','false','none',10,'wood','none',0,-1,-1,0,0,0,0,0,'false','false','true','false','true','0-0','0-0;'),
-(20666,'20666','hairall','false','none',10,'wood','none',0,-1,-1,0,0,0,0,0,'false','false','true','false','true','0-0','0-0;'),
-(20667,'20667','hairall','false','none',10,'wood','none',0,-1,10080,0,0,0,0,0,'false','false','true','false','true','0-0','21098-1;'),
-(20668,'20668','hairall','false','none',10,'wood','none',0,-1,-1,0,0,0,0,0,'false','false','true','false','true','0-0','0-0;'),
-(20669,'20669','hairall','false','none',10,'wood','none',0,-1,10080,0,0,0,0,0,'false','false','true','false','true','0-0','21099-1;'),
-(20670,'20670','hairall','false','none',10,'wood','none',0,-1,-1,0,0,0,0,0,'false','false','true','false','true','0-0','0-0;'),
-(20671,'20671','hairall','false','none',10,'wood','none',0,-1,10080,0,0,0,0,0,'false','false','true','false','true','0-0','21100-1;'),
-(20672,'20672','hairall','false','none',10,'wood','none',0,-1,-1,0,0,0,0,0,'false','false','true','false','true','0-0','0-0;'),
-(20673,'20673','hairall','false','none',10,'wood','none',0,-1,10080,0,0,0,0,0,'false','false','true','false','true','0-0','21101-1;'),
-(20674,'20674','hairall','false','none',10,'wood','none',0,-1,-1,0,0,0,0,0,'false','false','true','false','true','0-0','0-0;'),
-(20675,'20675','hairall','false','none',10,'wood','none',0,-1,10080,0,0,0,0,0,'false','false','true','false','true','0-0','21103-1;'),
-(20676,'20676','hairall','false','none',10,'wood','none',0,-1,-1,0,0,0,0,0,'false','false','true','false','true','0-0','0-0;'),
-(20677,'20677','hairall','false','none',10,'wood','none',0,-1,10080,0,0,0,0,0,'false','false','true','false','true','0-0','21102-1;'),
-(20678,'20678','hairall','false','none',10,'wood','none',0,-1,-1,0,0,0,0,0,'false','false','true','false','true','0-0','0-0;'),
-(20679,'20679','hairall','false','none',10,'wood','none',0,-1,10080,0,0,0,0,0,'false','false','true','false','true','0-0','21104-1;'),
-(20711,'20711','hairall','false','none',10,'wood','none',0,-1,-1,0,0,0,0,0,'false','false','true','false','true','0-0','21120-1;'),
-(20712,'20712','hairall','false','none',10,'wood','none',0,-1,120,0,0,0,0,0,'false','false','true','false','true','0-0','21122-1;'),
-(20713,'20713','hairall','false','none',10,'wood','none',0,-1,120,0,0,0,0,0,'false','false','true','false','true','0-0','21123-1;'),
-(20714,'20714','hairall','false','none',10,'wood','none',0,-1,120,0,0,0,0,0,'false','false','true','false','true','0-0','21124-1;'),
-(20715,'20715','hairall','false','none',10,'wood','none',0,-1,120,0,0,0,0,0,'false','false','true','false','true','0-0','21125-1;'),
-(20716,'20716','hairall','false','none',10,'wood','none',0,-1,120,0,0,0,0,0,'false','false','true','false','true','0-0','21126-1;'),
-(20718,'20718','hairall','false','none',10,'wood','none',0,-1,240,0,0,0,0,0,'false','false','true','false','true','0-0','21127-1;'),
-(20719,'20719','hairall','false','none',10,'wood','none',0,-1,240,0,0,0,0,0,'false','false','true','false','true','0-0','21128-1;'),
-(20720,'20720','hairall','false','none',10,'wood','none',0,-1,240,0,0,0,0,0,'false','false','true','false','true','0-0','21129-1;'),
-(20721,'20721','hairall','false','none',10,'wood','none',0,-1,240,0,0,0,0,0,'false','false','true','false','true','0-0','21130-1;'),
-(20722,'20722','hairall','false','none',10,'wood','none',0,-1,240,0,0,0,0,0,'false','false','true','false','true','0-0','21131-1;'),
-(20723,'20723','hairall','false','none',10,'wood','none',0,-1,-1,0,0,0,0,0,'false','false','true','false','true','0-0','21120-1;'),
-(20724,'20724','hairall','false','none',10,'wood','none',0,-1,10080,0,0,0,0,0,'false','false','true','false','true','0-0','21120-1;21136-1;'),
-(20725,'20725','hairall','false','none',10,'wood','none',0,-1,-1,0,0,0,0,0,'false','false','true','false','true','0-0','0-0;'),
-(20743,'20743','hairall','false','none',10,'wood','none',0,-1,10080,0,0,0,0,0,'false','false','true','false','true','0-0','21137-1;'),
-(20744,'20744','hairall','false','none',10,'wood','none',0,-1,10080,0,0,0,0,0,'false','false','true','false','true','0-0','21138-1;'),
-(20745,'20745','hairall','false','none',10,'wood','none',0,-1,10080,0,0,0,0,0,'false','false','true','false','true','0-0','21139-1;'),
-(20746,'20746','hairall','false','none',10,'wood','none',0,-1,10080,0,0,0,0,0,'false','false','true','false','true','0-0','21140-1;'),
-(20747,'20747','hairall','false','none',10,'wood','none',0,-1,10080,0,0,0,0,0,'false','false','true','false','true','0-0','21141-1;');
+(14962,'14962','','hairall','false','none',10,'wood','none',0,-1,-1,0,0,0,0,0,'false','false','true','false','true','0-0','0-0;'),
+(14963,'14963','','hairall','false','none',10,'wood','none',0,-1,-1,0,0,0,0,0,'false','false','true','false','true','0-0','0-0;'),
+(14964,'14964','','hairall','false','none',10,'wood','none',0,-1,-1,0,0,0,0,0,'false','false','true','false','true','0-0','0-0;'),
+(14965,'14965','','hairall','false','none',10,'wood','none',0,-1,-1,0,0,0,0,0,'false','false','true','false','true','0-0','0-0;'),
+(15221,'15221','','hairall','false','none',10,'wood','none',0,-1,-1,0,0,0,0,0,'false','false','true','false','true','0-0','0-0;'),
+(20569,'20569','','hairall','false','none',10,'wood','none',0,-1,-1,0,0,0,0,0,'false','false','true','false','true','0-0','0-0;'),
+(20601,'20601','','hairall','false','none',10,'wood','none',0,-1,10080,0,0,0,0,0,'false','false','true','false','true','0-0','21090-1;'),
+(20613,'20613','','hair','false','none',10,'wood','none',0,-1,-1,0,0,0,0,0,'false','false','true','false','true','0-0','21092-1;'),
+(20614,'20614','','hair','false','none',10,'wood','none',0,-1,-1,0,0,0,0,0,'false','false','true','false','true','0-0','21093-1;'),
+(20615,'20615','','hair','false','none',10,'wood','none',0,-1,-1,0,0,0,0,0,'false','false','true','false','true','0-0','21094-1;'),
+(20616,'20616','','hair','false','none',10,'wood','none',0,-1,10080,0,0,0,0,0,'false','false','true','false','true','0-0','21092-1;21111-1;'),
+(20617,'20617','','hair','false','none',10,'wood','none',0,-1,10080,0,0,0,0,0,'false','false','true','false','true','0-0','21093-1;21112-1;'),
+(20618,'20618','','hair','false','none',10,'wood','none',0,-1,10080,0,0,0,0,0,'false','false','true','false','true','0-0','21094-1;21113-1;'),
+(20626,'20626','','hairall','false','none',10,'wood','none',0,-1,10080,0,0,0,0,0,'false','false','true','false','true','0-0','21095-1;'),
+(20633,'20633','','hairall','false','none',10,'wood','none',0,-1,10080,0,0,0,0,0,'false','false','true','false','true','0-0','21096-1;'),
+(20634,'20634','','hairall','false','none',10,'wood','none',0,-1,-1,0,0,0,0,0,'false','false','true','false','true','0-0','0-0;'),
+(20666,'20666','','hairall','false','none',10,'wood','none',0,-1,-1,0,0,0,0,0,'false','false','true','false','true','0-0','0-0;'),
+(20667,'20667','','hairall','false','none',10,'wood','none',0,-1,10080,0,0,0,0,0,'false','false','true','false','true','0-0','21098-1;'),
+(20668,'20668','','hairall','false','none',10,'wood','none',0,-1,-1,0,0,0,0,0,'false','false','true','false','true','0-0','0-0;'),
+(20669,'20669','','hairall','false','none',10,'wood','none',0,-1,10080,0,0,0,0,0,'false','false','true','false','true','0-0','21099-1;'),
+(20670,'20670','','hairall','false','none',10,'wood','none',0,-1,-1,0,0,0,0,0,'false','false','true','false','true','0-0','0-0;'),
+(20671,'20671','','hairall','false','none',10,'wood','none',0,-1,10080,0,0,0,0,0,'false','false','true','false','true','0-0','21100-1;'),
+(20672,'20672','','hairall','false','none',10,'wood','none',0,-1,-1,0,0,0,0,0,'false','false','true','false','true','0-0','0-0;'),
+(20673,'20673','','hairall','false','none',10,'wood','none',0,-1,10080,0,0,0,0,0,'false','false','true','false','true','0-0','21101-1;'),
+(20674,'20674','','hairall','false','none',10,'wood','none',0,-1,-1,0,0,0,0,0,'false','false','true','false','true','0-0','0-0;'),
+(20675,'20675','','hairall','false','none',10,'wood','none',0,-1,10080,0,0,0,0,0,'false','false','true','false','true','0-0','21103-1;'),
+(20676,'20676','','hairall','false','none',10,'wood','none',0,-1,-1,0,0,0,0,0,'false','false','true','false','true','0-0','0-0;'),
+(20677,'20677','','hairall','false','none',10,'wood','none',0,-1,10080,0,0,0,0,0,'false','false','true','false','true','0-0','21102-1;'),
+(20678,'20678','','hairall','false','none',10,'wood','none',0,-1,-1,0,0,0,0,0,'false','false','true','false','true','0-0','0-0;'),
+(20679,'20679','','hairall','false','none',10,'wood','none',0,-1,10080,0,0,0,0,0,'false','false','true','false','true','0-0','21104-1;'),
+(20711,'20711','','hairall','false','none',10,'wood','none',0,-1,-1,0,0,0,0,0,'false','false','true','false','true','0-0','21120-1;'),
+(20712,'20712','','hairall','false','none',10,'wood','none',0,-1,120,0,0,0,0,0,'false','false','true','false','true','0-0','21122-1;'),
+(20713,'20713','','hairall','false','none',10,'wood','none',0,-1,120,0,0,0,0,0,'false','false','true','false','true','0-0','21123-1;'),
+(20714,'20714','','hairall','false','none',10,'wood','none',0,-1,120,0,0,0,0,0,'false','false','true','false','true','0-0','21124-1;'),
+(20715,'20715','','hairall','false','none',10,'wood','none',0,-1,120,0,0,0,0,0,'false','false','true','false','true','0-0','21125-1;'),
+(20716,'20716','','hairall','false','none',10,'wood','none',0,-1,120,0,0,0,0,0,'false','false','true','false','true','0-0','21126-1;'),
+(20718,'20718','','hairall','false','none',10,'wood','none',0,-1,240,0,0,0,0,0,'false','false','true','false','true','0-0','21127-1;'),
+(20719,'20719','','hairall','false','none',10,'wood','none',0,-1,240,0,0,0,0,0,'false','false','true','false','true','0-0','21128-1;'),
+(20720,'20720','','hairall','false','none',10,'wood','none',0,-1,240,0,0,0,0,0,'false','false','true','false','true','0-0','21129-1;'),
+(20721,'20721','','hairall','false','none',10,'wood','none',0,-1,240,0,0,0,0,0,'false','false','true','false','true','0-0','21130-1;'),
+(20722,'20722','','hairall','false','none',10,'wood','none',0,-1,240,0,0,0,0,0,'false','false','true','false','true','0-0','21131-1;'),
+(20723,'20723','','hairall','false','none',10,'wood','none',0,-1,-1,0,0,0,0,0,'false','false','true','false','true','0-0','21120-1;'),
+(20724,'20724','','hairall','false','none',10,'wood','none',0,-1,10080,0,0,0,0,0,'false','false','true','false','true','0-0','21120-1;21136-1;'),
+(20725,'20725','','hairall','false','none',10,'wood','none',0,-1,-1,0,0,0,0,0,'false','false','true','false','true','0-0','0-0;'),
+(20743,'20743','','hairall','false','none',10,'wood','none',0,-1,10080,0,0,0,0,0,'false','false','true','false','true','0-0','21137-1;'),
+(20744,'20744','','hairall','false','none',10,'wood','none',0,-1,10080,0,0,0,0,0,'false','false','true','false','true','0-0','21138-1;'),
+(20745,'20745','','hairall','false','none',10,'wood','none',0,-1,10080,0,0,0,0,0,'false','false','true','false','true','0-0','21139-1;'),
+(20746,'20746','','hairall','false','none',10,'wood','none',0,-1,10080,0,0,0,0,0,'false','false','true','false','true','0-0','21140-1;'),
+(20747,'20747','','hairall','false','none',10,'wood','none',0,-1,10080,0,0,0,0,0,'false','false','true','false','true','0-0','21141-1;');
 
 -- 新手鐲
 REPLACE INTO `armor` VALUES
-(15220,'15220','lbracelet','false','none',0,'wood','none',0,-1,14400,0,0,0,0,0,'false','false','true','false','true','0-0','6196-1;6197-1;8328-1;3267-1;'),
-(15312,'15312','lbracelet','true','none',15,'wood','a',0,-1,-1,0,0,0,0,0,'false','false','true','false','true','0-0','8337-1;'),
-(15351,'15351','lbracelet','false','none',5,'wood','none',0,-1,-1,0,0,0,0,0,'false','false','true','false','true','0-0','8358-1;3267-1;'),
-(20591,'20591','lbracelet','false','none',150,'wood','none',0,-1,-1,0,0,0,0,0,'false','false','true','false','true','0-0','21091-1;23076-1;3267-1;'),
-(20592,'20592','lbracelet','false','none',150,'wood','none',0,-1,1440,0,0,0,0,0,'false','false','true','false','true','0-0','21091-1;23076-1;23077-1;3267-1;'),
-(20593,'20593','lbracelet','false','none',150,'wood','none',0,-1,4320,0,0,0,0,0,'false','false','true','false','true','0-0','21091-1;23076-1;23077-1;3267-1;'),
-(20621,'20621','lbracelet','false','none',150,'wood','none',0,-1,1440,0,0,0,0,0,'false','false','true','false','true','0-0','21091-1;23076-1;23078-1;3267-1;'),
-(20622,'20622','lbracelet','false','none',150,'wood','none',0,-1,4320,0,0,0,0,0,'false','false','true','false','true','0-0','21091-1;23076-1;23078-1;3267-1;'),
-(20654,'20654','lbracelet','false','none',150,'wood','none',0,-1,-1,0,0,0,0,0,'false','false','true','false','true','0-0','21105-1;23079-1;3267-1;'),
-(20655,'20655','lbracelet','false','none',150,'wood','none',0,-1,10080,0,0,0,0,0,'false','false','true','false','true','0-0','21105-1;23079-1;23080-1;3267-1;'),
-(20656,'20656','lbracelet','false','none',150,'wood','none',0,-1,-1,0,0,0,0,0,'false','false','true','false','true','0-0','21106-1;23081-1;3267-1;'),
-(20657,'20657','lbracelet','false','none',150,'wood','none',0,-1,10080,0,0,0,0,0,'false','false','true','false','true','0-0','21106-1;23081-1;23082-1;3267-1;'),
-(20658,'20658','lbracelet','false','none',150,'wood','none',0,-1,-1,0,0,0,0,0,'false','false','true','false','true','0-0','21107-1;23083-1;3267-1;'),
-(20659,'20659','lbracelet','false','none',150,'wood','none',0,-1,10080,0,0,0,0,0,'false','false','true','false','true','0-0','21107-1;23083-1;23084-1;3267-1;'),
-(20660,'20660','lbracelet','false','none',150,'wood','none',0,-1,-1,0,0,0,0,0,'false','false','true','false','true','0-0','21108-1;23085-1;3267-1;'),
-(20661,'20661','lbracelet','false','none',150,'wood','none',0,-1,10080,0,0,0,0,0,'false','false','true','false','true','0-0','21108-1;23085-1;23086-1;3267-1;'),
-(20662,'20662','lbracelet','false','none',150,'wood','none',0,-1,-1,0,0,0,0,0,'false','false','true','false','true','0-0','21109-1;23087-1;3267-1;'),
-(20663,'20663','lbracelet','false','none',150,'wood','none',0,-1,10080,0,0,0,0,0,'false','false','true','false','true','0-0','21109-1;23087-1;23088-1;3267-1;'),
-(20664,'20664','lbracelet','false','none',150,'wood','none',0,-1,-1,0,0,0,0,0,'false','false','true','false','true','0-0','21110-1;23089-1;3267-1;'),
-(20665,'20665','lbracelet','false','none',150,'wood','none',0,-1,10080,0,0,0,0,0,'false','false','true','false','true','0-0','21110-1;23089-1;23090-1;3267-1;'),
-(20726,'20726','lbracelet','false','none',150,'wood','none',0,-1,-1,0,0,0,0,0,'false','false','true','false','true','0-0','21133-1;23117-1;3267-1;'),
-(20727,'20727','lbracelet','false','none',150,'wood','none',0,-1,10080,0,0,0,0,0,'false','false','true','false','true','0-0','21133-1;23117-1;23118-1;3267-1;'),
-(20732,'20732','lbracelet','false','none',150,'wood','none',0,-1,-1,0,0,0,0,0,'false','false','true','false','true','0-0','21134-1;23119-1;3267-1;'),
-(20733,'20733','lbracelet','false','none',150,'wood','none',0,-1,-1,0,0,0,0,0,'false','false','true','false','true','0-0','21135-1;23120-1;3267-1;');
+(15220,'15220','','lbracelet','false','none',0,'wood','none',0,-1,14400,0,0,0,0,0,'false','false','true','false','true','0-0','6196-1;6197-1;8328-1;3267-1;'),
+(15312,'15312','','lbracelet','true','none',15,'wood','a',0,-1,-1,0,0,0,0,0,'false','false','true','false','true','0-0','8337-1;'),
+(15351,'15351','','lbracelet','false','none',5,'wood','none',0,-1,-1,0,0,0,0,0,'false','false','true','false','true','0-0','8358-1;3267-1;'),
+(20591,'20591','','lbracelet','false','none',150,'wood','none',0,-1,-1,0,0,0,0,0,'false','false','true','false','true','0-0','21091-1;23076-1;3267-1;'),
+(20592,'20592','','lbracelet','false','none',150,'wood','none',0,-1,1440,0,0,0,0,0,'false','false','true','false','true','0-0','21091-1;23076-1;23077-1;3267-1;'),
+(20593,'20593','','lbracelet','false','none',150,'wood','none',0,-1,4320,0,0,0,0,0,'false','false','true','false','true','0-0','21091-1;23076-1;23077-1;3267-1;'),
+(20621,'20621','','lbracelet','false','none',150,'wood','none',0,-1,1440,0,0,0,0,0,'false','false','true','false','true','0-0','21091-1;23076-1;23078-1;3267-1;'),
+(20622,'20622','','lbracelet','false','none',150,'wood','none',0,-1,4320,0,0,0,0,0,'false','false','true','false','true','0-0','21091-1;23076-1;23078-1;3267-1;'),
+(20654,'20654','','lbracelet','false','none',150,'wood','none',0,-1,-1,0,0,0,0,0,'false','false','true','false','true','0-0','21105-1;23079-1;3267-1;'),
+(20655,'20655','','lbracelet','false','none',150,'wood','none',0,-1,10080,0,0,0,0,0,'false','false','true','false','true','0-0','21105-1;23079-1;23080-1;3267-1;'),
+(20656,'20656','','lbracelet','false','none',150,'wood','none',0,-1,-1,0,0,0,0,0,'false','false','true','false','true','0-0','21106-1;23081-1;3267-1;'),
+(20657,'20657','','lbracelet','false','none',150,'wood','none',0,-1,10080,0,0,0,0,0,'false','false','true','false','true','0-0','21106-1;23081-1;23082-1;3267-1;'),
+(20658,'20658','','lbracelet','false','none',150,'wood','none',0,-1,-1,0,0,0,0,0,'false','false','true','false','true','0-0','21107-1;23083-1;3267-1;'),
+(20659,'20659','','lbracelet','false','none',150,'wood','none',0,-1,10080,0,0,0,0,0,'false','false','true','false','true','0-0','21107-1;23083-1;23084-1;3267-1;'),
+(20660,'20660','','lbracelet','false','none',150,'wood','none',0,-1,-1,0,0,0,0,0,'false','false','true','false','true','0-0','21108-1;23085-1;3267-1;'),
+(20661,'20661','','lbracelet','false','none',150,'wood','none',0,-1,10080,0,0,0,0,0,'false','false','true','false','true','0-0','21108-1;23085-1;23086-1;3267-1;'),
+(20662,'20662','','lbracelet','false','none',150,'wood','none',0,-1,-1,0,0,0,0,0,'false','false','true','false','true','0-0','21109-1;23087-1;3267-1;'),
+(20663,'20663','','lbracelet','false','none',150,'wood','none',0,-1,10080,0,0,0,0,0,'false','false','true','false','true','0-0','21109-1;23087-1;23088-1;3267-1;'),
+(20664,'20664','','lbracelet','false','none',150,'wood','none',0,-1,-1,0,0,0,0,0,'false','false','true','false','true','0-0','21110-1;23089-1;3267-1;'),
+(20665,'20665','','lbracelet','false','none',150,'wood','none',0,-1,10080,0,0,0,0,0,'false','false','true','false','true','0-0','21110-1;23089-1;23090-1;3267-1;'),
+(20726,'20726','','lbracelet','false','none',150,'wood','none',0,-1,-1,0,0,0,0,0,'false','false','true','false','true','0-0','21133-1;23117-1;3267-1;'),
+(20727,'20727','','lbracelet','false','none',150,'wood','none',0,-1,10080,0,0,0,0,0,'false','false','true','false','true','0-0','21133-1;23117-1;23118-1;3267-1;'),
+(20732,'20732','','lbracelet','false','none',150,'wood','none',0,-1,-1,0,0,0,0,0,'false','false','true','false','true','0-0','21134-1;23119-1;3267-1;'),
+(20733,'20733','','lbracelet','false','none',150,'wood','none',0,-1,-1,0,0,0,0,0,'false','false','true','false','true','0-0','21135-1;23120-1;3267-1;');
 
 -- 其它
 REPLACE INTO `etcitem` VALUES
-(14724,'14724','false','none',0,'stackable','paper','none',-1,-1,0,0,'false','false','true','false','false','ItemSkills','2869-1;'),
-(14725,'14725','false','none',0,'stackable','paper','none',-1,-1,0,0,'false','false','true','false','false','ItemSkills','2870-1;'),
-(14726,'14726','false','none',0,'stackable','paper','none',-1,-1,0,0,'false','false','true','false','false','ItemSkills','2880-1;'),
-(14727,'14727','false','none',0,'stackable','paper','none',-1,-1,0,0,'false','false','true','false','false','ItemSkills','2881-1;'),
-(14819,'14819','false','none',20,'normal','steel','none',-1,-1,0,0,'false','false','true','false','true','none','0-0;'),
-(20585,'20585','false','none',10,'stackable','paper','none',-1,-1,0,0,'false','false','true','false','true','ItemSkills','22095-1;'),
-(20586,'20586','false','none',10,'stackable','paper','none',-1,-1,0,0,'false','false','true','false','true','ItemSkills','22096-1;'),
-(20597,'20597','false','none',0,'stackable','paper','none',-1,-1,0,0,'false','false','true','false','true','none','0-0;'),
-(20602,'20602','false','none',0,'stackable','paper','none',-1,-1,0,0,'false','false','true','false','false','ItemSkills','22099-1;'),
-(20603,'20603','false','none',0,'stackable','paper','none',-1,-1,0,0,'false','false','true','false','false','ItemSkills','22100-1;'),
-(20707,'20707','false','none',10,'stackable','paper','none',-1,-1,0,0,'false','false','true','false','false','ItemSkills','22105-1;'),
-(20708,'20708','false','none',10,'stackable','paper','none',-1,-1,0,0,'false','false','true','false','false','ItemSkills','22106-1;'),
-(20709,'20709','false','none',10,'stackable','paper','none',-1,-1,0,0,'false','false','true','false','false','ItemSkills','22107-1;'),
-(20728,'20728','false','none',10,'stackable','paper','none',-1,-1,0,0,'false','false','true','false','false','ItemSkills','22110-1;'),
-(20729,'20729','false','none',10,'stackable','paper','none',-1,-1,0,0,'false','false','true','false','false','ItemSkills','22111-1;'),
-(20730,'20730','false','none',10,'stackable','paper','none',-1,-1,0,0,'false','false','true','false','false','ItemSkills','22112-1;'),
-(20731,'20731','false','none',10,'stackable','paper','none',-1,-1,0,0,'false','false','true','false','false','ItemSkills','22113-1;');
+(14724,'14724','','false','none',0,'stackable','paper','none',-1,-1,0,0,'false','false','true','false','false','ItemSkills','2869-1;'),
+(14725,'14725','','false','none',0,'stackable','paper','none',-1,-1,0,0,'false','false','true','false','false','ItemSkills','2870-1;'),
+(14726,'14726','','false','none',0,'stackable','paper','none',-1,-1,0,0,'false','false','true','false','false','ItemSkills','2880-1;'),
+(14727,'14727','','false','none',0,'stackable','paper','none',-1,-1,0,0,'false','false','true','false','false','ItemSkills','2881-1;'),
+(14819,'14819','','false','none',20,'normal','steel','none',-1,-1,0,0,'false','false','true','false','true','none','0-0;'),
+(20585,'20585','','false','none',10,'stackable','paper','none',-1,-1,0,0,'false','false','true','false','true','ItemSkills','22095-1;'),
+(20586,'20586','','false','none',10,'stackable','paper','none',-1,-1,0,0,'false','false','true','false','true','ItemSkills','22096-1;'),
+(20597,'20597','','false','none',0,'stackable','paper','none',-1,-1,0,0,'false','false','true','false','true','none','0-0;'),
+(20602,'20602','','false','none',0,'stackable','paper','none',-1,-1,0,0,'false','false','true','false','false','ItemSkills','22099-1;'),
+(20603,'20603','','false','none',0,'stackable','paper','none',-1,-1,0,0,'false','false','true','false','false','ItemSkills','22100-1;'),
+(20707,'20707','','false','none',10,'stackable','paper','none',-1,-1,0,0,'false','false','true','false','false','ItemSkills','22105-1;'),
+(20708,'20708','','false','none',10,'stackable','paper','none',-1,-1,0,0,'false','false','true','false','false','ItemSkills','22106-1;'),
+(20709,'20709','','false','none',10,'stackable','paper','none',-1,-1,0,0,'false','false','true','false','false','ItemSkills','22107-1;'),
+(20728,'20728','','false','none',10,'stackable','paper','none',-1,-1,0,0,'false','false','true','false','false','ItemSkills','22110-1;'),
+(20729,'20729','','false','none',10,'stackable','paper','none',-1,-1,0,0,'false','false','true','false','false','ItemSkills','22111-1;'),
+(20730,'20730','','false','none',10,'stackable','paper','none',-1,-1,0,0,'false','false','true','false','false','ItemSkills','22112-1;'),
+(20731,'20731','','false','none',10,'stackable','paper','none',-1,-1,0,0,'false','false','true','false','false','ItemSkills','22113-1;');
 
 -- 武器
 REPLACE INTO `weapon` VALUES
-(15310,'15310','rhand','false',150,1,1,'steel','s',7,10,'sword',8,0.00000,0,0,0,379,0,5,-1,-1,0,0,'false','false','true','false','true',0,0,0,0,0,0,0,0,0,'8357-1;'),
-(15342,'15342','rhand','false',0,1,1,'steel','none',1,10,'sword',8,0.00000,0,0,0,379,0,1,-1,86400,0,0,'false','false','true','false','true',0,0,0,0,0,0,0,0,0,'2994-1;'),
-(20600,'20600','lrhand','false',0,1,1,'steel','none',1,20,'bigblunt',4,4.00000,0,0,0,325,0,1,-1,10080,0,0,'false','false','true','false','true',0,0,0,0,0,0,0,0,0,'21089-1;');
+(15310,'15310','','rhand','false',150,1,1,'steel','s',7,10,'sword',8,0.00000,0,0,0,379,0,5,-1,-1,0,0,'false','false','true','false','true',0,0,0,0,0,0,0,0,0,'8357-1;'),
+(15342,'15342','','rhand','false',0,1,1,'steel','none',1,10,'sword',8,0.00000,0,0,0,379,0,1,-1,86400,0,0,'false','false','true','false','true',0,0,0,0,0,0,0,0,0,'2994-1;'),
+(20600,'20600','','lrhand','false',0,1,1,'steel','none',1,20,'bigblunt',4,4.00000,0,0,0,325,0,1,-1,10080,0,0,'false','false','true','false','true',0,0,0,0,0,0,0,0,0,'21089-1;');
 
 -- NPC
 REPLACE INTO `npc` VALUES
-(19,19,'19',0,'',0,'',16,16,70,'male','L2Npc',40,3862,1494,0,0,40,43,30,21,20,20,0,0,1303,471,607,382,253,0,333,0,0,0,30,132,'NULL',0,0,0,'LAST_HIT',0,0,0,'fighter','false'),
-(20,20,'20',0,'',0,'',16,14,70,'male','L2Npc',40,3862,1494,0,0,40,43,30,21,20,20,0,0,1303,471,607,382,253,0,333,0,0,0,30,132,'NULL',0,0,0,'LAST_HIT',0,0,0,'fighter','false'),
-(21,21,'21',0,'',0,'',16,15,70,'male','L2Npc',40,3862,1494,0,0,40,43,30,21,20,20,0,0,1303,471,607,382,253,0,333,0,0,0,30,132,'NULL',0,0,0,'LAST_HIT',0,0,0,'fighter','false'),
-(22,22,'22',0,'',0,'',16,25,70,'male','L2Npc',40,3862,1494,0,0,40,43,30,21,20,20,0,0,1303,471,607,382,253,0,333,0,0,0,30,132,'NULL',0,0,0,'LAST_HIT',0,0,0,'fighter','false'),
-(23,23,'23',0,'',0,'',16,25,70,'male','L2Npc',40,3862,1494,0,0,40,43,30,21,20,20,0,0,1303,471,607,382,253,0,333,0,0,0,30,132,'NULL',0,0,0,'LAST_HIT',0,0,0,'fighter','false'),
-(24,24,'24',0,'',0,'',16,25,70,'male','L2Npc',40,3862,1494,0,0,40,43,30,21,20,20,0,0,1303,471,607,382,253,0,333,0,0,0,30,132,'NULL',0,0,0,'LAST_HIT',0,0,0,'fighter','false'),
-(25,25,'25',0,'',0,'',16,25,70,'male','L2Npc',40,3862,1494,0,0,40,43,30,21,20,20,0,0,1303,471,607,382,253,0,333,0,0,0,30,132,'NULL',0,0,0,'LAST_HIT',0,0,0,'fighter','false'),
-(13268,13268,'13268',0,'',0,'',16,22,70,'male','L2Npc',40,3862,1494,0,0,40,43,30,21,20,20,0,0,1303,471,607,382,253,0,333,0,0,0,30,132,'NULL',0,0,0,'LAST_HIT',0,0,0,'fighter','false');
+(19,19,'19',0,'',0,'',16,16,70,'male','L2Npc',40,3862,1494,0,0,40,43,30,21,20,20,0,0,1303,471,607,382,253,0,333,0,0,0,0,30,132,'NULL',0,0,0,'LAST_HIT',0,0,0,'fighter','false'),
+(20,20,'20',0,'',0,'',16,14,70,'male','L2Npc',40,3862,1494,0,0,40,43,30,21,20,20,0,0,1303,471,607,382,253,0,333,0,0,0,0,30,132,'NULL',0,0,0,'LAST_HIT',0,0,0,'fighter','false'),
+(21,21,'21',0,'',0,'',16,15,70,'male','L2Npc',40,3862,1494,0,0,40,43,30,21,20,20,0,0,1303,471,607,382,253,0,333,0,0,0,0,30,132,'NULL',0,0,0,'LAST_HIT',0,0,0,'fighter','false'),
+(22,22,'22',0,'',0,'',16,25,70,'male','L2Npc',40,3862,1494,0,0,40,43,30,21,20,20,0,0,1303,471,607,382,253,0,333,0,0,0,0,30,132,'NULL',0,0,0,'LAST_HIT',0,0,0,'fighter','false'),
+(23,23,'23',0,'',0,'',16,25,70,'male','L2Npc',40,3862,1494,0,0,40,43,30,21,20,20,0,0,1303,471,607,382,253,0,333,0,0,0,0,30,132,'NULL',0,0,0,'LAST_HIT',0,0,0,'fighter','false'),
+(24,24,'24',0,'',0,'',16,25,70,'male','L2Npc',40,3862,1494,0,0,40,43,30,21,20,20,0,0,1303,471,607,382,253,0,333,0,0,0,0,30,132,'NULL',0,0,0,'LAST_HIT',0,0,0,'fighter','false'),
+(25,25,'25',0,'',0,'',16,25,70,'male','L2Npc',40,3862,1494,0,0,40,43,30,21,20,20,0,0,1303,471,607,382,253,0,333,0,0,0,0,30,132,'NULL',0,0,0,'LAST_HIT',0,0,0,'fighter','false'),
+(13268,13268,'13268',0,'',0,'',16,22,70,'male','L2Npc',40,3862,1494,0,0,40,43,30,21,20,20,0,0,1303,471,607,382,253,0,333,0,0,0,0,30,132,'NULL',0,0,0,'LAST_HIT',0,0,0,'fighter','false');

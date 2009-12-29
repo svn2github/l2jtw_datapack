@@ -40,7 +40,7 @@ public class DemonRace extends L2Transformation
 		getPlayer().addSkill(SkillTable.getInstance().getInfo(905, 4), false);
 		// Decrease Bow/Crossbow Attack Speed
 		getPlayer().addSkill(SkillTable.getInstance().getInfo(5491, 1), false);
-		// Transfrom Dispel
+		// Transform Dispel
 		getPlayer().addSkill(SkillTable.getInstance().getInfo(619, 1), false);
 
 		getPlayer().setTransformAllowedSkills(new int[]{901,902,903,904,905,5491,619});
@@ -65,7 +65,7 @@ public class DemonRace extends L2Transformation
 		getPlayer().removeSkill(SkillTable.getInstance().getInfo(905, 4), false);
 		// Decrease Bow/Crossbow Attack Speed
 		getPlayer().removeSkill(SkillTable.getInstance().getInfo(5491, 1), false);
-		// Transfrom Dispel
+		// Transform Dispel
 		getPlayer().removeSkill(SkillTable.getInstance().getInfo(619, 1), false);
 
 		getPlayer().setTransformAllowedSkills(new int[]{});

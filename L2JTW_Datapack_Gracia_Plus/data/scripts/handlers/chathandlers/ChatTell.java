@@ -43,11 +43,11 @@ public class ChatTell implements IChatHandler
 	{
 		if (activeChar.isChatBanned())
 		{
-			activeChar.sendPacket(new SystemMessage(SystemMessageId.CHATTING_IS_CURRENTLY_PROHIBITED));//Update by rocknow
+			activeChar.sendPacket(new SystemMessage(SystemMessageId.THE_PERSON_IS_IN_MESSAGE_REFUSAL_MODE));
 			return;
 		}
 		
-		if (Config.JAIL_DISABLE_CHAT && activeChar.isInJail())
+		if (Config.JAIL_DISABLE_CHAT && activeChar.isInJail() && !activeChar.isGM())
 		{
 			activeChar.sendPacket(new SystemMessage(SystemMessageId.CHATTING_PROHIBITED));
 			return;
@@ -62,9 +62,9 @@ public class ChatTell implements IChatHandler
 		
 		receiver = L2World.getInstance().getPlayer(target);
 		
-		if (receiver != null && !BlockList.isBlocked(receiver, activeChar))
+		if (receiver != null)
 		{
-			if (Config.JAIL_DISABLE_CHAT && receiver.isInJail())
+			if (Config.JAIL_DISABLE_CHAT && receiver.isInJail() && !activeChar.isGM())
 			{
 				activeChar.sendMessage(237);
 				return;
@@ -79,7 +79,7 @@ public class ChatTell implements IChatHandler
 				activeChar.sendMessage(26);
 				return;
 			}
-			if (!receiver.getMessageRefusal())
+			if (!BlockList.isBlocked(receiver, activeChar))
 			{
 				receiver.sendPacket(cs);
 				activeChar.sendPacket(new CreatureSay(activeChar.getObjectId(), type, "->" + receiver.getName(), text));

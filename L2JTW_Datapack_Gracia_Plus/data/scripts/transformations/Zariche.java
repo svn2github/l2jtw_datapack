@@ -1,7 +1,7 @@
 package transformations;
 
-import com.l2jserver.gameserver.model.L2Transformation;
 import com.l2jserver.gameserver.instancemanager.TransformationManager;
+import com.l2jserver.gameserver.model.L2Transformation;
 import com.l2jserver.gameserver.datatables.MessageTable;//Update by rocknow
 
 public class Zariche extends L2Transformation

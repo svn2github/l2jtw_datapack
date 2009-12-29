@@ -49,7 +49,7 @@ public class AurabirdOwl extends L2Transformation
 			// Energy Burst (up to 11 levels)
 			getPlayer().addSkill(SkillTable.getInstance().getInfo(911, lvl), false);
 		}
-		// Transfrom Dispel
+		// Transform Dispel
 		getPlayer().addSkill(SkillTable.getInstance().getInfo(619, 1), false);
 
 		getPlayer().setTransformAllowedSkills(new int[]{884,885,887,889,892,893,895,911,932,619});
@@ -88,7 +88,7 @@ public class AurabirdOwl extends L2Transformation
 			// Energy Burst (up to 11 levels)
 			getPlayer().removeSkill(SkillTable.getInstance().getInfo(911, lvl), false);
 		}
-		// Transfrom Dispel
+		// Transform Dispel
 		getPlayer().removeSkill(SkillTable.getInstance().getInfo(619, 1), false);
 
 		getPlayer().setTransformAllowedSkills(new int[]{});

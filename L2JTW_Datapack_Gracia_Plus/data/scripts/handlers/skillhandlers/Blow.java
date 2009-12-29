@@ -40,6 +40,7 @@ import com.l2jserver.gameserver.templates.item.L2WeaponType;
 import com.l2jserver.gameserver.templates.skills.L2SkillType;
 import com.l2jserver.gameserver.util.Util;
 
+
 /**
  *
  * @author  Steuf

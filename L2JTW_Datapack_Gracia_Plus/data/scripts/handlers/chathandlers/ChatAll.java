@@ -26,6 +26,7 @@ import com.l2jserver.gameserver.model.BlockList;
 import com.l2jserver.gameserver.model.actor.instance.L2PcInstance;
 import com.l2jserver.gameserver.network.serverpackets.CreatureSay;
 
+
 /**
  * A chat handler
  *
@@ -44,7 +45,7 @@ public class ChatAll implements IChatHandler
 	 * Handle chat type 'all'
 	 * @see com.l2jserver.gameserver.handler.IChatHandler#handleChat(int, com.l2jserver.gameserver.model.actor.instance.L2PcInstance, java.lang.String)
 	 */
-	public void handleChat(int type, L2PcInstance activeChar, String target, String text)
+	public void handleChat(int type, L2PcInstance activeChar, String params, String text)
 	{
 		boolean vcd_used = false;
 		if (text.startsWith("."))
@@ -56,7 +57,7 @@ public class ChatAll implements IChatHandler
 			if (st.countTokens() > 1)
 			{
 				command = st.nextToken().substring(1);
-				target = text.substring(command.length() + 2);
+				params = text.substring(command.length() + 2);
 				vch = VoicedCommandHandler.getInstance().getVoicedCommandHandler(command);
 			}
 			else
@@ -68,7 +69,7 @@ public class ChatAll implements IChatHandler
 			}
 			if (vch != null)
 			{
-				vch.useVoicedCommand(command, activeChar, target);
+				vch.useVoicedCommand(command, activeChar, params);
 				vcd_used = true;
 			}
 			else
