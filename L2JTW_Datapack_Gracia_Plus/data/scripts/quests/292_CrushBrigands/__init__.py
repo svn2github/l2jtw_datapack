@@ -12,7 +12,6 @@ GOBLIN_PENDANT = 1484
 GOBLIN_LORD_PENDANT = 1485
 SUSPICIOUS_MEMO = 1486
 SUSPICIOUS_CONTRACT = 1487
-ADENA = 57
 
 class Quest (JQuest) :
 
@@ -78,13 +77,13 @@ class Quest (JQuest) :
         else :
            htmltext = "30532-10.htm"
            st.takeItems(SUSPICIOUS_CONTRACT,-1)
-        st.giveItems(ADENA,12*neckl+36*penda+33*lordp+100*scont*int(Config.RATE_DROP_ADENA))
+        st.giveItems(57,12*neckl+36*penda+33*lordp+100*scont)
    elif npcId == 30533 :
       if st.getQuestItemsCount(SUSPICIOUS_CONTRACT)==0 :
         htmltext = "30533-01.htm"
       else :
         htmltext = "30533-02.htm"
-        st.giveItems(ADENA,st.getQuestItemsCount(SUSPICIOUS_CONTRACT)*120*int(Config.RATE_DROP_ADENA))
+        st.giveItems(57,st.getQuestItemsCount(SUSPICIOUS_CONTRACT)*120)
         st.takeItems(SUSPICIOUS_CONTRACT,-1)
    return htmltext
 

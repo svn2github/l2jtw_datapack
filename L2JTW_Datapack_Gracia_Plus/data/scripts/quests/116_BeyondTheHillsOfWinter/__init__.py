@@ -65,7 +65,7 @@ class Quest (JQuest) :
 		elif event == "adena" :
 			st.takeItems(SGOODS, -1)
 			st.playSound("ItemSound.quest_itemget")
-			st.giveItems(ADENA, int(16500*Config.RATE_QUESTS_REWARD))
+			st.giveItems(ADENA, 16500)
 			st.addExpAndSp(82792,4981)
 			htmltext = "32052-02.htm"
 			st.playSound("ItemSound.quest_finish")

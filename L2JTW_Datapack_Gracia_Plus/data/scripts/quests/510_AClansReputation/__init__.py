@@ -1,9 +1,9 @@
 import sys
-from com.l2jserver.gameserver.model.quest				import State
-from com.l2jserver.gameserver.model.quest				import QuestState
-from com.l2jserver.gameserver.model.quest.jython			import QuestJython as JQuest
-from com.l2jserver.gameserver.network.serverpackets	import PledgeShowInfoUpdate
-from com.l2jserver.gameserver.network.serverpackets	import SystemMessage
+from com.l2jserver.gameserver.model.quest        			import State
+from com.l2jserver.gameserver.model.quest        			import QuestState
+from com.l2jserver.gameserver.model.quest.jython 			import QuestJython as JQuest
+from com.l2jserver.gameserver.network.serverpackets      	import PledgeShowInfoUpdate
+from com.l2jserver.gameserver.network.serverpackets      	import SystemMessage
 
 qn="510_AClansReputation"
 
@@ -52,18 +52,18 @@ class Quest (JQuest) :
      cond = st.getInt("cond")
      id = st.getState()
      if id == State.CREATED and cond == 0 :
-	htmltext =  "31331-1.htm"
+        htmltext =  "31331-1.htm"
      elif id == State.STARTED and cond == 1 :
-	count = st.getQuestItemsCount(Claw)
-	if not count :
-	   htmltext = "31331-4.htm"
-	elif count >= 1 :
-	   htmltext = "31331-7.htm" # custom html
-	   st.takeItems(Claw,-1)
-	   reward = int(CLAN_POINTS_REWARD * count)
-	   clan.setReputationScore(clan.getReputationScore()+reward,True)
-	   player.sendPacket(SystemMessage(1777).addNumber(reward))
-	   clan.broadcastToOnlineMembers(PledgeShowInfoUpdate(clan))
+        count = st.getQuestItemsCount(Claw)
+        if not count :
+           htmltext = "31331-4.htm"
+        elif count >= 1 :
+           htmltext = "31331-7.htm" # custom html
+           st.takeItems(Claw,-1)
+           reward = int(CLAN_POINTS_REWARD * count)
+           clan.addReputationScore(reward,True)
+           player.sendPacket(SystemMessage(1777).addNumber(reward))
+           clan.broadcastToOnlineMembers(PledgeShowInfoUpdate(clan))
   return htmltext
 
  def onKill(self,npc,player,isPet) :
@@ -89,7 +89,7 @@ class Quest (JQuest) :
 
 
 # Quest class and state definition
-QUEST	    = Quest(510,qn,"血盟，發揚光大")
+QUEST       = Quest(510,qn,"血盟，發揚光大")
 
 QUEST.addStartNpc(Valdis)
 QUEST.addTalkId(Valdis)

@@ -1,9 +1,9 @@
 import sys
-from com.l2jserver.gameserver.model.quest				import State
-from com.l2jserver.gameserver.model.quest				import QuestState
-from com.l2jserver.gameserver.model.quest.jython			import QuestJython as JQuest
-from com.l2jserver.gameserver.network.serverpackets	import PledgeShowInfoUpdate
-from com.l2jserver.gameserver.network.serverpackets	import SystemMessage
+from com.l2jserver.gameserver.model.quest        			import State
+from com.l2jserver.gameserver.model.quest        			import QuestState
+from com.l2jserver.gameserver.model.quest.jython 			import QuestJython as JQuest
+from com.l2jserver.gameserver.network.serverpackets      	import PledgeShowInfoUpdate
+from com.l2jserver.gameserver.network.serverpackets      	import SystemMessage
 from com.l2jserver.util import Rnd
 
 qn="509_TheClansPrestige"
@@ -12,11 +12,11 @@ qn="509_TheClansPrestige"
 VALDIS = 31331
 
 # Quest Items
-DAIMONS_EYES		    = 8489 # Daimon's Eyes: Eyes obtained by killing Daimon the White-Eyed.
-HESTIAS_FAIRY_STONE	    = 8490 # Hestia's Fairy Stone: Fairy Stone obtained by defeating Hestia, the Guardian Deity of the Hot Springs.
+DAIMONS_EYES                = 8489 # Daimon's Eyes: Eyes obtained by killing Daimon the White-Eyed.
+HESTIAS_FAIRY_STONE         = 8490 # Hestia's Fairy Stone: Fairy Stone obtained by defeating Hestia, the Guardian Deity of the Hot Springs.
 NUCLEUS_OF_LESSER_GOLEM     = 8491 # Nucleus of Lesser Golem: Nucleus obtained by defeating the Lesser Golem.
-FALSTON_FANG		    = 8492 # Falston's Fang: Fangs obtained by killing Falston, the Demon's Agent.
-SHAIDS_TALON		    = 8493 # Shaid's Talon: Talon obtained by defeating Spike Stakato Queen Shaid.
+FALSTON_FANG                = 8492 # Falston's Fang: Fangs obtained by killing Falston, the Demon's Agent.
+SHAIDS_TALON                = 8493 # Shaid's Talon: Talon obtained by defeating Spike Stakato Queen Shaid.
 
 #Quest Raid Bosses
 DAIMON_THE_WHITE_EYED  = 25290
@@ -63,7 +63,7 @@ class Quest (JQuest) :
       htmltext="31331-"+event+".htm"
       x,y,z=RADAR[int(event)]
       if x+y+z:
-	st.addRadar(x, y, z)
+        st.addRadar(x, y, z)
       st.playSound("ItemSound.quest_accept")
   elif event == "31331-6.htm" :
     st.playSound("ItemSound.quest_finish")
@@ -87,19 +87,19 @@ class Quest (JQuest) :
      raid = st.getInt("raid")
      id = st.getState()
      if id == State.CREATED and cond == 0 :
-	htmltext =  "31331-0c.htm"
+        htmltext =  "31331-0c.htm"
      elif id == State.STARTED and cond == 1 and raid in REWARDS_LIST.keys() :
-	npc,item,min,max=REWARDS_LIST[raid]
-	count = st.getQuestItemsCount(item)
-	CLAN_POINTS_REWARD = Rnd.get(min, max)
-	if not count :
-	   htmltext = "31331-"+str(raid)+"a.htm"
-	elif count == 1 :
-	   htmltext = "31331-"+str(raid)+"b.htm"
-	   st.takeItems(item,1)
-	   clan.setReputationScore(clan.getReputationScore()+CLAN_POINTS_REWARD,True)
-	   player.sendPacket(SystemMessage(1777).addNumber(CLAN_POINTS_REWARD))
-	   clan.broadcastToOnlineMembers(PledgeShowInfoUpdate(clan))
+        npc,item,min,max=REWARDS_LIST[raid]
+        count = st.getQuestItemsCount(item)
+        CLAN_POINTS_REWARD = Rnd.get(min, max)
+        if not count :
+           htmltext = "31331-"+str(raid)+"a.htm"
+        elif count == 1 :
+           htmltext = "31331-"+str(raid)+"b.htm"
+           st.takeItems(item,1)
+           clan.addReputationScore(CLAN_POINTS_REWARD,True)
+           player.sendPacket(SystemMessage(1777).addNumber(CLAN_POINTS_REWARD))
+           clan.broadcastToOnlineMembers(PledgeShowInfoUpdate(clan))
   return htmltext
 
  def onKill(self,npc,player,isPet) :
@@ -127,7 +127,7 @@ class Quest (JQuest) :
 
 
 # Quest class and state definition
-QUEST	    = Quest(509,qn,"¦å·ù¡A«Â¾_¤Ñ¤U")
+QUEST       = Quest(509,qn,"¦å·ù¡A«Â¾_¤Ñ¤U")
 
 QUEST.addStartNpc(VALDIS)
 QUEST.addTalkId(VALDIS)

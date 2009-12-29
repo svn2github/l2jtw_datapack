@@ -1,23 +1,23 @@
 #####################################################################
-#								    #
-#   "The Clan's Reputation"					    #
-#   "Raise the Clan's Reputation"				    #
-#   "Sir Eric Rodemai in Aden Castle Town is looking		    #
-#   for a brave adventurer to raise the clan's reputation."	    #
-#   "Clan Leader, Clan Level 5 and above"			    #
-#								    #
-#   Start NPC: Sir Eric Rodemai[30868]				    #
-#								    #
-#   fixed and State.COMPLETED by chris_00 @katmai and DrLecter	    #
-#								    #
+#                                                                   #
+#   "The Clan's Reputation"                                         #
+#   "Raise the Clan's Reputation"                                   #
+#   "Sir Eric Rodemai in Aden Castle Town is looking                #
+#   for a brave adventurer to raise the clan's reputation."         #
+#   "Clan Leader, Clan Level 5 and above"                           #
+#                                                                   #
+#   Start NPC: Sir Eric Rodemai[30868]                              #
+#                                                                   #
+#   fixed and State.COMPLETED by chris_00 @katmai and DrLecter      #
+#                                                                   #
 #####################################################################
 import sys
-from com.l2jserver.gameserver.model.quest				import State
-from com.l2jserver.gameserver.model.quest				import QuestState
-from com.l2jserver.gameserver.model.quest.jython			import QuestJython as JQuest
-from com.l2jserver.gameserver.network.serverpackets	import PledgeShowInfoUpdate
-from com.l2jserver.gameserver.network.serverpackets	import SystemMessage
-from com.l2jserver.util									import Rnd
+from com.l2jserver.gameserver.model.quest        			import State
+from com.l2jserver.gameserver.model.quest        			import QuestState
+from com.l2jserver.gameserver.model.quest.jython 			import QuestJython as JQuest
+from com.l2jserver.gameserver.network.serverpackets      	import PledgeShowInfoUpdate
+from com.l2jserver.gameserver.network.serverpackets      	import SystemMessage
+from com.l2jserver.util 									import Rnd
 
 qn="508_TheClansReputation"
 qd="¦å·ù¡A´­¦W¥|®ü"
@@ -27,27 +27,27 @@ SIR_ERIC_RODEMAI = 30868
 
 # Quest Items
 NUCLEUS_OF_FLAMESTONE_GIANT = 8494 # Nucleus of Flamestone Giant : Nucleus obtained by defeating Flamestone Giant
-THEMIS_SCALE		    = 8277 # Themis' Scale : Obtain this scale by defeating Palibati Queen Themis.
+THEMIS_SCALE                = 8277 # Themis' Scale : Obtain this scale by defeating Palibati Queen Themis.
 NUCLEUS_OF_HEKATON_PRIME    = 8279 # Nucleus of Hekaton Prime : Nucleus obtained by defeating Hekaton Prime
-TIPHON_SHARD		    = 8280 # Tiphon Shard : Debris obtained by defeating Tiphon, Gargoyle Lord.
-GLAKIS_NUCLEUS		    = 8281 # Glaki's Necleus : Nucleus obtained by defeating Glaki, the last lesser Giant.
-RAHHAS_FANG		    = 8282 # Rahha's Fang : Fangs obtained by defeating Rahha.
+TIPHON_SHARD                = 8280 # Tiphon Shard : Debris obtained by defeating Tiphon, Gargoyle Lord.
+GLAKIS_NUCLEUS              = 8281 # Glaki's Necleus : Nucleus obtained by defeating Glaki, the last lesser Giant.
+RAHHAS_FANG                 = 8282 # Rahha's Fang : Fangs obtained by defeating Rahha.
 
 #Quest Raid Bosses
-FLAMESTONE_GIANT	= 25524
-PALIBATI_QUEEN_THEMIS	= 25252
-HEKATON_PRIME		= 25140
-GARGOYLE_LORD_TIPHON	= 25255
+FLAMESTONE_GIANT        = 25524
+PALIBATI_QUEEN_THEMIS   = 25252
+HEKATON_PRIME           = 25140
+GARGOYLE_LORD_TIPHON    = 25255
 LAST_LESSER_GIANT_GLAKI = 25245
-RAHHA			= 25051
+RAHHA                   = 25051
 
 # id:[RaidBossNpcId,questItemId,minClanPoints,maxClanPoints]
 REWARDS_LIST={
     1:[PALIBATI_QUEEN_THEMIS,  THEMIS_SCALE,65,100],
-    2:[HEKATON_PRIME,	       NUCLEUS_OF_HEKATON_PRIME,40,75],
+    2:[HEKATON_PRIME,          NUCLEUS_OF_HEKATON_PRIME,40,75],
     3:[GARGOYLE_LORD_TIPHON,   TIPHON_SHARD,30,65],
     4:[LAST_LESSER_GIANT_GLAKI,GLAKIS_NUCLEUS,105,140],
-    5:[RAHHA,		       RAHHAS_FANG,40,75],
+    5:[RAHHA,                  RAHHAS_FANG,40,75],
     6:[FLAMESTONE_GIANT,       NUCLEUS_OF_FLAMESTONE_GIANT,60,95]
     }
 
@@ -81,7 +81,7 @@ class Quest (JQuest) :
       htmltext="30868-"+event+".htm"
       x,y,z=RADAR[int(event)]
       if x+y+z:
-	st.addRadar(x, y, z)
+        st.addRadar(x, y, z)
       st.playSound("ItemSound.quest_accept")
   elif event == "30868-7.htm" :
     st.playSound("ItemSound.quest_finish")
@@ -105,19 +105,19 @@ class Quest (JQuest) :
      raid = st.getInt("raid")
      id = st.getState()
      if id == State.CREATED and cond == 0 :
-	htmltext =  "30868-0c.htm"
+        htmltext =  "30868-0c.htm"
      elif id == State.STARTED and cond == 1 and raid in REWARDS_LIST.keys() :
-	npc,item,min,max=REWARDS_LIST[raid]
-	count = st.getQuestItemsCount(item)
-	CLAN_POINTS_REWARD = Rnd.get(min, max)
-	if not count :
-	   htmltext = "30868-"+str(raid)+"a.htm"
-	elif count == 1 :
-	   htmltext = "30868-"+str(raid)+"b.htm"
-	   st.takeItems(item,1)
-	   clan.setReputationScore(clan.getReputationScore()+CLAN_POINTS_REWARD,True)
-	   player.sendPacket(SystemMessage(1777).addNumber(CLAN_POINTS_REWARD))
-	   clan.broadcastToOnlineMembers(PledgeShowInfoUpdate(clan))
+        npc,item,min,max=REWARDS_LIST[raid]
+        count = st.getQuestItemsCount(item)
+        CLAN_POINTS_REWARD = Rnd.get(min, max)
+        if not count :
+           htmltext = "30868-"+str(raid)+"a.htm"
+        elif count == 1 :
+           htmltext = "30868-"+str(raid)+"b.htm"
+           st.takeItems(item,1)
+           clan.addReputationScore(CLAN_POINTS_REWARD,True)
+           player.sendPacket(SystemMessage(1777).addNumber(CLAN_POINTS_REWARD))
+           clan.broadcastToOnlineMembers(PledgeShowInfoUpdate(clan))
   return htmltext
 
  def onKill(self,npc,player,isPet) :
@@ -145,7 +145,7 @@ class Quest (JQuest) :
 
 
 # Quest class and state definition
-QUEST	    = Quest(508,qn,qd)
+QUEST       = Quest(508,qn,qd)
 
 QUEST.addStartNpc(SIR_ERIC_RODEMAI)
 QUEST.addTalkId(SIR_ERIC_RODEMAI)
