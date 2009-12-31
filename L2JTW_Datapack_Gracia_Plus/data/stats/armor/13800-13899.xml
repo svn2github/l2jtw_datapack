@@ -73,10 +73,11 @@
 		</for>
 	</item>
 	<item id="13889" name="Holy Spirit's Cloak - Kamael exclusive">
-		<cond msgId="1960"><!-- Update by rocknow -->
-			<player race="Kamael" /> <!-- Kamael exclusive cloak -->
-			<player cloakStatus="1" />
-			<player level="99" />
+		<cond msgId="2453">
+			<and>
+				<player race="Kamael" /> <!-- Kamael exclusive cloak -->
+				<player cloakStatus="1" />
+			</and>
 		</cond>
 		<for>
 			<add order="0x10" stat="pDef" val="20" />
