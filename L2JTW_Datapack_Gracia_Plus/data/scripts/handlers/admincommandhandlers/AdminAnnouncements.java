@@ -22,6 +22,7 @@ import javolution.text.TextBuilder;
 
 import com.l2jserver.gameserver.Announcements;
 import com.l2jserver.gameserver.cache.HtmCache;
+import com.l2jserver.gameserver.datatables.MessageTable;
 import com.l2jserver.gameserver.handler.IAdminCommandHandler;
 import com.l2jserver.gameserver.model.L2World;
 import com.l2jserver.gameserver.model.actor.instance.L2PcInstance;
@@ -139,25 +140,25 @@ public class AdminAnnouncements implements IAdminCommandHandler
 			
 			if (!st.hasMoreTokens())
 			{
-				activeChar.sendMessage("Not enough parameters for adding autoannounce!");
+				activeChar.sendMessage(748);
 				return false;
 			}
 			long initial = Long.parseLong(st.nextToken());
 			if (!st.hasMoreTokens())
 			{
-				activeChar.sendMessage("Not enough parameters for adding autoannounce!");
+				activeChar.sendMessage(748);
 				return false;
 			}
 			long delay = Long.parseLong(st.nextToken());
 			if (!st.hasMoreTokens())
 			{
-				activeChar.sendMessage("Not enough parameters for adding autoannounce!");
+				activeChar.sendMessage(748);
 				return false;
 			}
 			int repeat = Integer.parseInt(st.nextToken());
 			if (!st.hasMoreTokens())
 			{
-				activeChar.sendMessage("Not enough parameters for adding autoannounce!");
+				activeChar.sendMessage(748);
 				return false;
 			}
 			TextBuilder memo = new TextBuilder();
@@ -178,7 +179,7 @@ public class AdminAnnouncements implements IAdminCommandHandler
 			
 			if (!st.hasMoreTokens())
 			{
-				activeChar.sendMessage("Not enough parameters for deleting autoannounce!");
+				activeChar.sendMessage(757);
 				return false;
 			}
 			
@@ -207,7 +208,7 @@ public class AdminAnnouncements implements IAdminCommandHandler
 			}
 			replyMSG.append("<table width=260><tr><td width=220>");
 			replyMSG.append(memo2.toString().trim());
-			replyMSG.append("</td><td width=40><button value=\"Delete\" action=\"bypass -h admin_del_autoann ");
+			replyMSG.append("</td><td width=40><button value=\"" + MessageTable.Messages[923].getMessage()+ "\" action=\"bypass -h admin_del_autoann ");
 			replyMSG.append(i); 
 			replyMSG.append("\" width=60 height=15 back=\"L2UI_ct1.button_df\" fore=\"L2UI_ct1.button_df\"></td></tr></table>");
 		}

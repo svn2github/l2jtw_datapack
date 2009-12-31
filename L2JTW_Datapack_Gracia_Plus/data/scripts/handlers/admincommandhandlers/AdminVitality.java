@@ -18,6 +18,8 @@ import java.util.StringTokenizer;
 
 import com.l2jserver.Config;
 import com.l2jserver.gameserver.handler.IAdminCommandHandler;
+import com.l2jserver.gameserver.datatables.MessageTable;
+import com.l2jserver.gameserver.model.L2CoreMessage;
 import com.l2jserver.gameserver.model.actor.instance.L2PcInstance;
 import com.l2jserver.gameserver.model.actor.stat.PcStat;
 
@@ -44,7 +46,7 @@ public class AdminVitality implements IAdminCommandHandler
 
 		if (!Config.ENABLE_VITALITY)
 		{
-			activeChar.sendMessage("Vitality is not enabled on the server!");
+			activeChar.sendMessage(475);
 			return false;
 		}
 		
@@ -67,11 +69,13 @@ public class AdminVitality implements IAdminCommandHandler
 				}
 				catch (Exception e)
 				{
-					activeChar.sendMessage("Incorrect vitality");
+					activeChar.sendMessage(501);
 				}
 				
 				target.setVitalityPoints(vitality, true);
-				target.sendMessage("Admin set your Vitality points to "  + vitality);
+				L2CoreMessage cm =  new L2CoreMessage (MessageTable.Messages[505]);
+				cm.addNumber(vitality);
+				cm.sendMessage(target);
 			}
 			else if (cmd.equals("admin_set_vitality_level"))
 			{
@@ -81,7 +85,7 @@ public class AdminVitality implements IAdminCommandHandler
 				}
 				catch (Exception e)
 				{
-					activeChar.sendMessage("Incorrect vitality level (0-4)");
+					activeChar.sendMessage(508);
 				}
 
 				if (level >= 0 && level <= 4)
@@ -91,34 +95,40 @@ public class AdminVitality implements IAdminCommandHandler
 					else
 						vitality = PcStat.VITALITY_LEVELS[level-1]; 
 					target.setVitalityPoints(vitality, true);
-					target.sendMessage("Admin set your Vitality level to "  + level);
+					L2CoreMessage cm =  new L2CoreMessage (MessageTable.Messages[514]);
+					cm.addNumber(level);
+					cm.sendMessage(target);
 				}
 				else
-					activeChar.sendMessage("Incorrect vitality level (0-4)");
+					activeChar.sendMessage(508);
 			}
 			else if (cmd.equals("admin_full_vitality"))
 			{
 				target.setVitalityPoints(PcStat.MAX_VITALITY_POINTS, true);
-				target.sendMessage("Admin completly recharged your Vitality");
+				target.sendMessage(700);
 			}
 			else if (cmd.equals("admin_empty_vitality"))
 			{
 				target.setVitalityPoints(PcStat.MIN_VITALITY_POINTS, true);
-				target.sendMessage("Admin completly emptied your Vitality");
+				target.sendMessage(738);
 			}
 			else if (cmd.equals("admin_get_vitality"))
 			{
 				level = target.getVitalityLevel();
 				vitality = target.getVitalityPoints();
 				
-				activeChar.sendMessage("Player vitality level: "  + level);
-				activeChar.sendMessage("Player vitality points: "  + vitality);
+				L2CoreMessage cm =  new L2CoreMessage (MessageTable.Messages[742]);
+				cm.addNumber(level);
+				cm.sendMessage(activeChar);
+				L2CoreMessage cm2 =  new L2CoreMessage (MessageTable.Messages[743]);
+				cm2.addNumber(vitality);
+				cm2.sendMessage(activeChar);
 			}
 			return true;
 		}
 		else
 		{
-			activeChar.sendMessage("Target not found or not a player");
+			activeChar.sendMessage(746);
 			return false;
 		}
 	}

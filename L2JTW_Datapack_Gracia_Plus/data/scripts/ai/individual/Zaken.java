@@ -37,7 +37,6 @@ import com.l2jserver.gameserver.templates.StatsSet;
 import com.l2jserver.util.Rnd;
 
 import ai.group_template.L2AttackableAIScript;
-import com.l2jserver.ExternalConfig;
 
 /**
  * Zaken AI
@@ -769,7 +768,7 @@ public class Zaken extends L2AttackableAIScript
 			npc.broadcastPacket(new PlaySound(1, "BS02_D", 1, npc.getObjectId(), npc.getX(), npc.getY(), npc.getZ()));
 			GrandBossManager.getInstance().setBossStatus(ZAKEN, DEAD);
 			//time is 36hour	+/- 17hour
-			long respawnTime = (ExternalConfig.Interval_Of_Zaken_Spawn + Rnd.get(ExternalConfig.Random_Of_Zaken_Spawn));
+			long respawnTime = (long) Config.Interval_Of_Zaken_Spawn + Rnd.get(Config.Random_Of_Zaken_Spawn);
 			startQuestTimer("zaken_unlock", respawnTime, null, null);
 			cancelQuestTimer("1001", npc, null);
 			cancelQuestTimer("1003", npc, null);
