@@ -44,7 +44,7 @@ ren %config_file% vars.bat
 call vars.bat
 ren vars.bat %config_file%
 call :colors 17
-if /i %config_version% == 1 goto ls_section
+if /i %config_version% == 2 goto ls_section
 set upgrade_mode=2
 echo It seems to be the first time you run this version of
 echo database_installer but I found a settings file already.
@@ -80,7 +80,7 @@ goto :eof
 call :colors 17
 title L2JTW Datapack 安裝 - For：L2JTW GameServer Gracia Alpha
 cls
-set config_version=1
+set config_version=2
 if NOT %upgrade_mode% == 2 (
 set fresh_setup=1
 set mysqlBinPath=%ProgramFiles%\MySQL\MySQL Server 5.0\bin
@@ -102,6 +102,10 @@ set lsuser=root
 set lspass=
 set lsdb=l2jdb
 set lshost=localhost
+set cbuser=root
+set cbpass=
+set cbdb=l2jcb
+set cbhost=localhost
 set gsuser=root
 set gspass=
 set gsdb=l2jdb
@@ -143,7 +147,7 @@ cls
 echo.
 echo 2.登入伺服器設定
 echo --------------------
-echo 此作業將會連線至你所指定的 MySQL 伺服器，並且進行導入作業
+echo 此作業將會連線至所指定的 MySQL 伺服器，並且進行導入作業
 echo.
 set /P lsuser="使用者名稱（預設值「%lsuser%」）: "
 :_lspass
@@ -155,15 +159,32 @@ if NOT "%lsuser%"=="%gsuser%" set gsuser=%lsuser%
 if NOT "%lspass%"=="%gspass%" set gspass=%lspass%
 if NOT "%lsdb%"=="%gsdb%" set gsdb=%lsdb%
 if NOT "%lshost%"=="%gshost%" set gshost=%lshost%
+if NOT "%lsuser%"=="%cbuser%" set cbuser=%lsuser%
+if NOT "%lspass%"=="%cbpass%" set cbpass=%lspass%
+if NOT "%lsdb%"=="%cbdb%" set cbdb=l2jcb
+if NOT "%lshost%"=="%cbhost%" set cbhost=%lshost%
 echo.
-echo 3.遊戲伺服器設定
+cls
+echo.
+echo 3-討論版伺服器設定
+echo --------------------
+echo 此作業將會連線至討論版專用的 MySQL 伺服器，並且進行導入作業
+echo.
+set /P cbuser="使用者名稱（預設值「%cbuser%」）: "
+:_cbpass
+set /P cbpass="使用者密碼（預設值「%cbpass%」）: "
+if "%cbpass%"=="" goto _cbpass
+set /P cbdb="資料庫（預設值「%cbdb%」）: "
+set /P cbhost="位置（預設值「%cbhost%」）: "
+echo.
+echo 4.遊戲伺服器設定
 echo --------------------
 set /P gsuser="使用者名稱（預設值「%gsuser%」）: "
 set /P gspass="使用者密碼（預設值「%gspass%」）: "
 set /P gsdb="資料庫（預設值「%gsdb%」）: "
 set /P gshost="位置（預設值「%gshost%」）: "
 echo.
-echo 4.其他設定
+echo 5.其他設定
 echo --------------------
 set /P cmode="顏色模式 (c)為顏色 或 (n)為無顏色（預設值「%cmode%」）: "
 set /P backup="備份位置（預設值「%backup%」）: "
@@ -195,6 +216,10 @@ echo set lsuser=%lsuser%>> %config_file%
 echo set lspass=%lspass%>> %config_file%
 echo set lsdb=%lsdb%>> %config_file%
 echo set lshost=%lshost% >> %config_file%
+echo set cbuser=%cbuser%>> %config_file%
+echo set cbpass=%cbpass%>> %config_file%
+echo set cbdb=%cbdb%>> %config_file%
+echo set cbhost=%cbhost% >> %config_file%
 echo set gsuser=%gsuser%>> %config_file%
 echo set gspass=%gspass%>> %config_file%
 echo set gsdb=%gsdb%>> %config_file%
@@ -244,7 +269,7 @@ echo (q)退出
 echo.
 set /p lsdbprompt=請選擇（預設值-確定）:
 if /i %lsdbprompt%==y goto lsdbcreate
-if /i %lsdbprompt%==n goto gs_backup
+if /i %lsdbprompt%==n goto cb_backup
 if /i %lsdbprompt%==r goto configure
 if /i %lsdbprompt%==q goto end
 goto ls_ask1
@@ -262,11 +287,14 @@ echo 建議檢查一下設定的資料，以確保所有輸入的數值沒有錯誤！
 echo.
 if %stage% == 1 set label=ls_err1
 if %stage% == 2 set label=ls_err2
-if %stage% == 3 set label=gs_backup
-if %stage% == 4 set label=gs_err1
-if %stage% == 5 set label=gs_err2
-if %stage% == 6 set label=horrible_end
-if %stage% == 7 set label=horrible_end
+if %stage% == 3 set label=cb_backup
+if %stage% == 4 set label=cb_err1
+if %stage% == 5 set label=cb_err2
+if %stage% == 6 set label=gs_backup
+if %stage% == 7 set label=gs_err1
+if %stage% == 8 set label=gs_err2
+if %stage% == 9 set label=horrible_end
+if %stage% == 10 set label=horrible_end
 :omfgask1
 set omfgprompt=q
 echo (c)繼續
@@ -314,7 +342,7 @@ echo.
 echo (q)退出
 echo.
 set /p omfgprompt=請選擇（預設值-退出）:
-if /i %omfgprompt%==c goto gs_backup
+if /i %omfgprompt%==c goto cb_backup
 if /i %omfgprompt%==q goto horrible_end
 if /i %omfgprompt%==r goto configure
 goto ls_ask2
@@ -343,7 +371,7 @@ echo (q)退出
 echo.
 set /p loginprompt=請選擇（%msg%）:
 if /i %loginprompt%==f goto logininstall
-if /i %loginprompt%==s goto gs_backup
+if /i %loginprompt%==s goto cb_backup
 if /i %loginprompt%==r goto configure
 if /i %loginprompt%==q goto end
 goto asklogin
@@ -358,13 +386,170 @@ set cmdline="%mysqlPath%" -h %lshost% -u %lsuser% --password=%lspass% -D %lsdb% 
 %cmdline%
 if not %ERRORLEVEL% == 0 goto omfg
 set full=1
+goto cb_backup
+
+:cb_backup
+cls
+call :colors 17
+set cmdline=
+if %full% == 1 goto communityinstall
+set stage=4
+title L2JDP installer - Community Board Server database setup
+echo.
+echo Trying to make a backup of your cbserver database.
+set cmdline="%mysqldumpPath%" --add-drop-table -h %cbhost% -u %cbuser% --password=%cbpass% %cbdb% ^> "%backup%\cbserver_backup.sql" 2^> NUL
+%cmdline%
+if %ERRORLEVEL% == 0 goto cbdbok
+REM if %safe_mode% == 1 goto omfg
+:cb_err1
+call :colors 47
+title L2JDP installer - Community Board Server database setup ERROR!!!
+cls
+echo.
+echo 備份失敗！
+echo 原因是因為討論版的資料庫不存在
+echo 現在可以嘗試幫你建立 %cbdb%，或者繼續其它設定
+echo.
+:cb_ask1
+set cbdbprompt=y
+echo 嘗試建立討論版的資料庫：
+echo.
+echo (y)確定
+echo.
+echo (n)取消
+echo.
+echo (r)重新設定
+echo.
+echo (q)退出
+echo.
+set /p cbdbprompt=請選擇（預設值-確定）:
+if /i %cbdbprompt%==y goto cbdbcreate
+if /i %cbdbprompt%==n goto gs_backup
+if /i %cbdbprompt%==r goto configure
+if /i %cbdbprompt%==q goto end
+goto cb_ask1
+
+:cbdbcreate
+call :colors 17
+set cmdline=
+set stage=5
+title L2JDP installer - Communty Board Server database setup - DB Creation
+echo.
+echo Trying to create a Community Board Server database...
+set cmdline="%mysqlPath%" -h %cbhost% -u %cbuser% --password=%cbpass% -e "CREATE DATABASE %cbdb%" 2^> NUL
+%cmdline%
+if %ERRORLEVEL% == 0 goto communityinstall
+if %safe_mode% == 1 goto omfg
+:cb_err2
+call :colors 47
+title L2JDP installer - Community Board Server database setup - DB Creation error
+cls
+echo An error occured while trying to create a database for 
+echo your Community Board server.
+echo.
+echo Possible reasons:
+echo 1-You provided innacurate info , check user, password, etc.
+echo 2-User %cbuser% don't have enough privileges for 
+echo database creation. Check your MySQL privileges.
+echo 3-Database exists already...?
+echo.
+echo Unless you're sure that the pending actions of this tool 
+echo could work, i'd suggest you to look for correct values
+echo and try this script again later.
+echo.
+:cb_ask2
+set omfgprompt=q
+echo (c)ontinue running
+echo.
+echo (r)econfigure
+echo.
+echo (q)uit now
+echo.
+set /p omfgprompt= Choose (default quit):
+if /i %omfgprompt%==c goto gs_backup
+if /i %omfgprompt%==q goto horrible_end
+if /i %omfgprompt%==r goto configure
+goto cb_ask2
+
+:cbdbok
+call :colors 17
+title L2JDP installer - Community Board Server database setup - WARNING!!!
+echo.
+:askcommunity
+if %fresh_setup%==0 (
+set communityprompt=s
+set msg=default skip
+) else (
+set communityprompt=x
+set msg=no default for fresh install
+)
+echo COMMUNITYSERVER DATABASE install type:
+echo.
+echo (f)ull: WARNING! I'll destroy ALL of your existing community
+echo    data (i really mean it: mail, forum, memo.. ALL)
+echo.
+echo (u)pgrade: I'll do my best to preserve all of your community
+echo    data.
+echo.
+echo (s)kip: I'll take you to the gameserver database
+echo    installation and upgrade options.
+echo.
+echo (r)econfigure: You'll be able to redefine MySQL path,
+echo    user and database information and start over with
+echo    those fresh values.
+echo.
+echo (q)uit
+echo.
+set /p communityprompt= Choose (%msg%) : 
+if /i %communityprompt%==f goto communityinstall
+if /i %communityprompt%==u goto upgradecbinstall
+if /i %communityprompt%==s goto gs_backup
+if /i %communityprompt%==r goto configure
+if /i %communityprompt%==q goto end
+goto askcommunity
+
+:communityinstall
+set stage=6
+call :colors 17
+set cmdline=
+title L2JDP installer - Community Board Server database setup - Full install
+echo Deleting communityserver tables for new content.
+set cmdline="%mysqlPath%" -h %cbhost% -u %cbuser% --password=%cbpass% -D %cbdb% ^< community_install.sql 2^> NUL
+%cmdline%
+if not %ERRORLEVEL% == 0 goto omfg
+goto upgradecbinstall
+
+:upgradecbinstall
+set stage=6
+set cmdline=
+if %full% == 1 (
+title L2JDP installer - Community Board Server database setup - Installing...
+echo Installing new communityserver content.
+) else (
+title L2JDP installer - Community Board Server database setup - Upgrading...
+echo Upgrading communityserver content.
+)
+if %logging% == 0 set output=NUL
+set dest=cb
+for %%i in (
+clan_introductions.sql
+comments.sql
+forums.sql
+gameservers.sql
+posts.sql
+topics.sql
+) do call :dump %%i
+
+echo done...
+echo.
 goto gs_backup
 
 :gs_backup
+cls
 call :colors 17
 set cmdline=
 if %full% == 1 goto fullinstall
-set stage=4
+set stage=7
 title L2JTW Datapack 安裝 - For：L2JTW GameServer Gracia Alpha
 cls
 echo.
@@ -372,7 +557,7 @@ echo 正在備份原本的資料庫...
 set cmdline="%mysqldumpPath%" --add-drop-table -h %gshost% -u %gsuser% --password=%gspass% %gsdb% ^> "%backup%\gameserver_backup.sql" 2^> NUL
 %cmdline%
 if %ERRORLEVEL% == 0 goto gsdbok
-if %safe_mode% == 1 goto omfg
+rem if %safe_mode% == 1 goto omfg
 :gs_err1
 call :colors 47
 title L2JTW Datapack 安裝 - For：L2JTW GameServer Gracia Alpha
@@ -403,7 +588,7 @@ goto askgsdb
 
 :gsdbcreate
 call :colors 17
-set stage=5
+set stage=8
 set cmdline=
 title L2JTW Datapack 安裝 - For：L2JTW GameServer Gracia Alpha
 cls
@@ -463,7 +648,7 @@ goto asktype
 
 :fullinstall
 call :colors 17
-set stage=6
+set stage=9
 set cmdline=
 title L2JTW Datapack 安裝 - For：L2JTW GameServer Gracia Alpha
 echo 移除所有遊戲資料庫的資料...
@@ -476,7 +661,7 @@ echo 遊戲資料庫移除完成
 goto upgradeinstall
 
 :upgradeinstall
-set stage=6
+set stage=9
 set cmdline=
 if %full% == 1 (
 title L2JTW Datapack 安裝 - For：L2JTW GameServer Gracia Alpha
@@ -559,6 +744,7 @@ fortsiege_clans.sql
 four_sepulchers_spawnlist.sql
 games.sql
 global_tasks.sql
+grandboss_data.sql
 grandboss_list.sql
 helper_buff_list.sql
 henna.sql
@@ -575,8 +761,10 @@ merchant_buylists.sql
 merchant_lease.sql
 merchant_shopids.sql
 merchants.sql
+messages.sql
 minions.sql
 npc.sql
+npcAIData.sql
 npcskills.sql
 olympiad_data.sql
 olympiad_nobles.sql
@@ -607,7 +795,6 @@ zone_vertices.sql
 mods_wedding.sql
 chatdata.sql
 messagetable.sql
-npcAIData.sql
 npcCharData.sql
 skill.sql
 l2jtw_addon_0.sql
@@ -624,6 +811,7 @@ if /i %full% == 1 (set action=安裝) else (set action=更新)
 echo %action% %1>>"%output%"
 echo %action% %~nx1
 if "%dest%"=="ls" set cmdline="%mysqlPath%" -h %lshost% -u %lsuser% --password=%lspass% -D %lsdb% ^< ..\sql\%1 2^>^>"%output%"
+if "%dest%"=="cb" set cmdline="%mysqlPath%" -h %cbhost% -u %cbuser% --password=%cbpass% -D %cbdb% ^< ..\cb_sql\%1 2^>^>"%output%"
 if "%dest%"=="gs" set cmdline="%mysqlPath%" -h %gshost% -u %gsuser% --password=%gspass% -D %gsdb% ^< ..\sql\%1 2^>^>"%output%"
 %cmdline%
 if %logging%==0 if NOT %ERRORLEVEL%==0 call :omfg2 %1
@@ -761,7 +949,7 @@ goto newbie_helper
 
 :newbie_helper
 call :colors 17
-set stage=7
+set stage=10
 title L2JTW Datapack 安裝 - For：L2JTW GameServer Gracia Alpha
 cls
 if %full% == 1 goto end
@@ -780,6 +968,8 @@ echo (s)省略：全部都由手動安裝
 echo.
 set /p nbprompt=請選擇（預設值-自動）:
 if /i %nbprompt%==a goto nbinstall
+if /i %nbprompt%==c goto nbcbinstall
+if /i %nbprompt%==g goto nbinstall
 if /i %nbprompt%==s goto end
 goto asknb
 :nbinstall
@@ -791,6 +981,17 @@ call temp.bat> nul
 del temp.bat
 move errors.txt %workdir%
 cd %workdir%
+if /i %nbprompt%==g goto nbfinished
+:nbcbinstall
+cd ..\cb_sql\updates\
+echo @echo off> temp.bat
+if exist cberrors.txt del cberrors.txt
+for %%i in (*.sql) do echo "%mysqlPath%" -h %cbhost% -u %cbuser% --password=%cbpass% -D %cbdb% ^< %%i 2^>^> cberrors.txt >> temp.bat
+call temp.bat> nul
+del temp.bat
+move cberrors.txt %workdir%
+cd %workdir%
+:nbfinished
 title L2JTW Datapack 安裝 - For：L2JTW GameServer Gracia Alpha
 cls
 echo 自動更新完畢，所有錯誤資訊將放入「errors.txt」
