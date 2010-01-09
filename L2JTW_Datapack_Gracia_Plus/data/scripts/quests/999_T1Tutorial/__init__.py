@@ -7,6 +7,7 @@ from com.l2jserver.gameserver.model.quest import State
 from com.l2jserver.gameserver.model.quest import QuestState
 from com.l2jserver.gameserver.model.quest.jython import QuestJython as JQuest
 from com.l2jserver.gameserver.network.serverpackets import PlaySound
+from com.l2jserver import Config
 
 qn = "999_T1Tutorial"
 qnTutorial = "255_Tutorial"
@@ -72,9 +73,12 @@ TALKS={
 
 class Quest (JQuest) :
 
- def __init__(self,id,name,descr): JQuest.__init__(self,id,name,descr)
+ def __init__(self,id,name,descr): 
+    JQuest.__init__(self,id,name,descr)
 
  def onAdvEvent(self,event,npc,player):
+    if Config.DISABLE_TUTORIAL :
+        return
     st = player.getQuestState(qn)
     if not st: return
     htmltext = event
@@ -143,6 +147,8 @@ class Quest (JQuest) :
     return htmltext
 
  def onFirstTalk (self,npc,player):
+   if Config.DISABLE_TUTORIAL :
+     return
    qs = player.getQuestState(qnTutorial)
    if not qs : 
       npc.showChatWindow(player)
@@ -216,6 +222,8 @@ class Quest (JQuest) :
          else:
            if isMage :
              htmltext = "30131-02.htm"
+             if player.getRace().ordinal() == 3 :
+              htmltext = "30575-02.htm"
            else:
              htmltext = "30530-02.htm"
              if st.getPlayer().getClassId().getId() == 0x31 :    #增加判斷半獸人法師
@@ -250,6 +258,8 @@ class Quest (JQuest) :
    return htmltext
 
  def onKill(self,npc,player,isPet):
+   if Config.DISABLE_TUTORIAL :
+     return
    st = player.getQuestState(qn)
    if not st : return
    qs = st.getPlayer().getQuestState(qnTutorial)

@@ -713,6 +713,7 @@ character_quest_global_data.sql
 character_quests.sql
 character_raid_points.sql
 character_recipebook.sql
+character_recipeshoplist.sql
 character_recommends.sql
 character_shortcuts.sql
 character_skills.sql
@@ -1062,7 +1063,7 @@ title L2JTW Datapack 安裝 - For：L2JTW GameServer Gracia Alpha
 cls
 echo.
 echo L2JTW Datapack 安裝程序 - For：L2JTW GameServer Gracia Alpha
-echo (C) 2009 L2JTW Datapack 開發人員
+echo (C) 2010 L2JTW Datapack 開發人員
 echo.
 echo 感謝使用 L2JTW 伺服器
 echo 相關資訊可以在 http://www.l2jtw.com 查詢到

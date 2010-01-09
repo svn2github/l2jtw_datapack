@@ -89,6 +89,7 @@ public class AdminEditChar implements IAdminCommandHandler
 		"admin_setfame", // sets fame of target char to any amount. //setfame <fame>
 		"admin_character_list", //same as character_info, kept for compatibility purposes
 		"admin_character_info", //given a player name, displays an information window
+		"admin_debug",
 		"admin_show_characters",//list of characters
 		"admin_find_character", //find a player by his name or a part of it (case-insensitive)
 		"admin_find_ip", // find all the player connections from a given IPv4 number
@@ -141,6 +142,12 @@ public class AdminEditChar implements IAdminCommandHandler
 				//Case of empty page number
 				activeChar.sendMessage(421);
 			}
+		}
+		else if (command.startsWith("admin_debug"))
+		{
+			L2Object targetChar = activeChar.getTarget();
+			if(targetChar != null)
+				targetChar.onActionShift(activeChar);
 		}
 		else if (command.startsWith("admin_find_character"))
 		{

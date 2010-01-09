@@ -225,7 +225,9 @@
 		<!-- charge values -->
 		<set name="itemConsumeId" val="5589" />
 		<set name="itemConsumeCount" val="3" />
-		<set name="requiredCharges" val="2" />
+		<cond msgId="113" addName="1">
+			<player Charges="2" />
+		</cond>
 	</skill>
 	<skill id="8" levels="8" name="Sonic Focus">
 		<table name="#maxCharges"> 1 2 3 4 5 6 7 8 </table>
@@ -240,6 +242,11 @@
 		<!-- Can be charged up to level 8 -->
 		<set name="numCharges" val="1" />
 		<set name="maxCharges" val="#maxCharges" />
+		<cond msgId="113" addName="1">
+			<not>
+				<player Charges="#maxCharges" />
+			</not>
+		</cond>
 	</skill>
 	<skill id="9" levels="34" name="Sonic Buster" enchantLevels1="30" enchantLevels2="30" enchantLevels3="30" enchantLevels4="30" enchantLevels5="30" enchantLevels6="30">
 		<table name="#enchantMagicLvl"> 76 76 76 77 77 77 78 78 78 79 79 79 80 80 80 81 81 81 82 82 82 82 83 83 83 84 84 85 85 85 </table>
@@ -285,7 +292,9 @@
 		<!-- charge values -->
 		<set name="itemConsumeId" val="5589" />
 		<set name="itemConsumeCount" val="3" />
-		<set name="requiredCharges" val="2" />
+		<cond msgId="113" addName="1">
+			<player Charges="2" />
+		</cond>
 	</skill>
 	<skill id="10" levels="8" name="Summon Storm Cubic">
 		<table name="#mpInitialConsume"> 7 9 10 11 12 13 13 14 </table>
@@ -297,7 +306,7 @@
 		<set name="itemConsumeId" val="1458" />
 		<set name="itemConsumeCount" val="#itemConsumeCount" />
 		<set name="target" val="TARGET_SELF" />
-		<set name="reuseDelay" val="4000" />
+		<set name="reuseDelay" val="5000" />
 		<set name="hitTime" val="6000" />
 		<set name="skillType" val="SUMMON" />
 		<set name="isMagic" val="true" />
@@ -448,7 +457,9 @@
 		<!-- charge values -->
 		<set name="itemConsumeId" val="5589" />
 		<set name="itemConsumeCount" val="2" />
-		<set name="requiredCharges" val="2" />
+		<cond msgId="113" addName="1">
+			<player Charges="2" />
+		</cond>
 	</skill>
 	<skill id="18" levels="37" name="Aura of Hate" enchantLevels1="30" enchantLevels2="30">
 		<table name="#enchantMagicLvl"> 76 76 76 77 77 77 78 78 78 79 79 79 80 80 80 81 81 81 82 82 82 82 83 83 83 84 84 85 85 85 </table>
@@ -545,7 +556,7 @@
 		<set name="itemConsumeId" val="1458" />
 		<set name="itemConsumeCount" val="#itemConsumeCount" />
 		<set name="target" val="TARGET_SELF" />
-		<set name="reuseDelay" val="2000" />
+		<set name="reuseDelay" val="5000" />
 		<set name="hitTime" val="6000" />
 		<set name="skillType" val="SUMMON" />
 		<set name="isMagic" val="true" />
@@ -679,7 +690,7 @@
 		<set name="target" val="TARGET_ONE" />
 		<set name="overHit" val="true" />
 		<set name="SSBoost" val="2.0" />
-		<set name="reuseDelay" val="3000" />
+		<set name="reuseDelay" val="4000" />
 		<set name="hitTime" val="1600" />
 		<set name="coolTime" val="296" />
 		<set name="skillType" val="PDAM" />
@@ -742,7 +753,7 @@
 		<set name="itemConsumeId" val="1458" />
 		<set name="itemConsumeCount" val="#itemConsumeCount" />
 		<set name="target" val="TARGET_SELF" />
-		<set name="reuseDelay" val="4000" />
+		<set name="reuseDelay" val="5000" />
 		<set name="hitTime" val="6000" />
 		<set name="skillType" val="SUMMON" />
 		<set name="isMagic" val="true" />
@@ -814,7 +825,9 @@
 		<!-- charge values -->
 		<set name="itemConsumeId" val="5589" />
 		<set name="itemConsumeCount" val="2" />
-		<set name="requiredCharges" val="2" />
+		<cond msgId="113" addName="1">
+			<player Charges="2" />
+		</cond>
 	</skill>
 	<skill id="36" levels="37" name="Whirlwind" enchantLevels1="30" enchantLevels2="30" enchantLevels3="30" enchantLevels4="30" enchantLevels5="30" enchantLevels6="30">
 		<table name="#enchantMagicLvl"> 76 76 76 77 77 77 78 78 78 79 79 79 80 80 80 81 81 81 82 82 82 82 83 83 83 84 84 85 85 85 </table>
@@ -996,7 +1009,7 @@
 		<set name="target" val="TARGET_UNDEAD" />
 		<set name="element" val="4" /> <!-- Holy -->
 		<set name="elementPower" val="20" />
-		<set name="reuseDelay" val="2000" />
+		<set name="reuseDelay" val="1000" />
 		<set name="hitTime" val="1900" />
 		<set name="skillType" val="MDAM" />
 		<set name="isMagic" val="true" />
@@ -1021,6 +1034,11 @@
 		<!-- Can be charged up to Level 8 -->
 		<set name="numCharges" val="1" />
 		<set name="maxCharges" val="#maxCharges" />
+		<cond msgId="113" addName="1">
+			<not>
+				<player Charges="#maxCharges" />
+			</not>
+		</cond>
 	</skill>
 	<skill id="51" levels="1" name="Lure" enchantLevels1="30">
 		<table name="#ench1mpConsume"> 43 43 43 42 42 42 41 41 41 40 40 40 39 39 39 38 38 38 37 37 37 36 36 36 35 35 35 34 34 34 </table>
@@ -1194,7 +1212,7 @@
 		<set name="itemConsumeId" val="1458" />
 		<set name="itemConsumeCount" val="#itemConsumeCount" />
 		<set name="target" val="TARGET_SELF" />
-		<set name="reuseDelay" val="4000" />
+		<set name="reuseDelay" val="5000" />
 		<set name="hitTime" val="6000" />
 		<set name="skillType" val="SUMMON" />
 		<set name="isMagic" val="true" />
@@ -1372,7 +1390,7 @@
 	<skill id="80" levels="1" name="Detect Beast Weakness">
 		<set name="mpConsume" val="24" />
 		<set name="target" val="TARGET_SELF" />
-		<set name="reuseDelay" val="2000" />
+		<set name="reuseDelay" val="3000" />
 		<set name="hitTime" val="1500" />
 		<set name="skillType" val="BUFF" />
 		<set name="operateType" val="OP_ACTIVE" />
@@ -1540,7 +1558,7 @@
 	<skill id="87" levels="1" name="Detect Animal Weakness">
 		<set name="mpConsume" val="18" />
 		<set name="target" val="TARGET_SELF" />
-		<set name="reuseDelay" val="2000" />
+		<set name="reuseDelay" val="3000" />
 		<set name="hitTime" val="1500" />
 		<set name="skillType" val="BUFF" />
 		<set name="operateType" val="OP_ACTIVE" />
@@ -1554,7 +1572,7 @@
 	<skill id="88" levels="1" name="Detect Dragon Weakness">
 		<set name="mpConsume" val="27" />
 		<set name="target" val="TARGET_SELF" />
-		<set name="reuseDelay" val="2000" />
+		<set name="reuseDelay" val="3000" />
 		<set name="hitTime" val="1500" />
 		<set name="skillType" val="BUFF" />
 		<set name="operateType" val="OP_ACTIVE" />
@@ -1711,7 +1729,7 @@
 		<set name="magicLvl" val="#magicLvl" />
 		<set name="mpConsume" val="#mpConsume" />
 		<set name="lvlDepend" val="2" />
-		<set name="power" val="80" />
+		<set name="power" val="80" /> <!-- Base Land Rate -->
 		<set name="target" val="TARGET_ONE" />
 		<set name="reuseDelay" val="2000" />
 		<set name="hitTime" val="1600" />
@@ -1770,7 +1788,7 @@
 		<table name="#mpConsume"> 35 38 40 42 43 45 46 48 49 50 51 </table>
 		<table name="#magicLvl"> 52 55 58 60 62 64 66 68 70 72 74 </table>
 		<set name="mpConsume" val="#mpConsume" />
-		<set name="power" val="40" />
+		<set name="power" val="40" /> <!-- Base Land Rate -->
 		<set name="lvlDepend" val="2" />
 		<set name="magicLvl" val="#magicLvl" />
 		<set name="target" val="TARGET_AREA_UNDEAD" />

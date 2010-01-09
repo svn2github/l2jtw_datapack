@@ -14,11 +14,15 @@
  */
 package handlers.admincommandhandlers;
 
+import java.sql.Connection;
+import java.sql.PreparedStatement;
+import java.sql.SQLException;
 import java.util.NoSuchElementException;
 import java.util.StringTokenizer;
 import java.util.logging.Logger;
 
 import com.l2jserver.Config;
+import com.l2jserver.L2DatabaseFactory;
 import com.l2jserver.gameserver.ai.CtrlIntention;
 import com.l2jserver.gameserver.datatables.NpcTable;
 import com.l2jserver.gameserver.datatables.SpawnTable;
@@ -194,10 +198,18 @@ public class AdminTeleport implements IAdminCommandHandler
 		{
 			try
 			{
-				String targetName = command.substring(13);
+				String[] param = command.split(" ");
+				if (param.length != 2)
+				{
+					activeChar.sendMessage("Usage: //recall <playername>"); //TODO Inster MessageTable Tiger 20100109
+					return false;
+				}
+				String targetName = param[1];
 				L2PcInstance player = L2World.getInstance().getPlayer(targetName);
-				
-				teleportCharacter(player, activeChar.getX(), activeChar.getY(), activeChar.getZ(), activeChar);
+				if (player != null)
+					teleportCharacter(player, activeChar.getX(), activeChar.getY(), activeChar.getZ(), activeChar);
+				else
+					changeCharacterPosition(activeChar, targetName);
 			}
 			catch (StringIndexOutOfBoundsException e)
 			{
@@ -367,16 +379,26 @@ public class AdminTeleport implements IAdminCommandHandler
 	{
 		if (player != null)
 		{
-			// Set player to same instance as GM teleporting.
-			if (activeChar != null && activeChar.getInstanceId() >= 0)
-				player.setInstanceId(activeChar.getInstanceId());
+			// Check for jail
+			if (player.isInJail())
+			{
+				activeChar.sendMessage("Sorry, player " + player.getName() + " is in Jail.");
+			}
 			else
-				player.setInstanceId(0);
-			//Common character information
-			player.sendMessage(33);
+			{
+				// Set player to same instance as GM teleporting.
+				if (activeChar != null && activeChar.getInstanceId() >= 0)
+					player.setInstanceId(activeChar.getInstanceId());
+				else
+					player.setInstanceId(0);
+				
+				// Information
+				activeChar.sendMessage("You have recalled " + player.getName()); //TODO Insert MessageTable Tiger 20091009
+				player.sendMessage("Admin is teleporting you."); //TODO Insert MessageTable Tiger 20091009
 			
-			player.getAI().setIntention(CtrlIntention.AI_INTENTION_IDLE);
-			player.teleToLocation(x, y, z, true);
+				player.getAI().setIntention(CtrlIntention.AI_INTENTION_IDLE);
+				player.teleToLocation(x, y, z, true);
+			}
 		}
 	}
 	
@@ -418,6 +440,43 @@ public class AdminTeleport implements IAdminCommandHandler
 			L2CoreMessage cm =  new L2CoreMessage (MessageTable.Messages[546]);
 			cm.addString(player.getName());
 			cm.sendMessage(activeChar);
+		}
+	}
+	
+	private void changeCharacterPosition(L2PcInstance activeChar, String name)
+	{
+		Connection con = null;
+		try
+		{
+			con = L2DatabaseFactory.getInstance().getConnection();
+			PreparedStatement statement = con.prepareStatement("UPDATE characters SET x=?, y=?, z=? WHERE char_name=?");
+			statement.setInt(1, activeChar.getX());
+			statement.setInt(2, activeChar.getY());
+			statement.setInt(3, activeChar.getZ());
+			statement.setString(4, name);
+			statement.execute();			
+			int count = statement.getUpdateCount();
+			statement.close();
+			if (count == 0)
+				activeChar.sendMessage("Character not found or position unaltered."); //TODO Insert MessageTable Tiger 20091009
+			else
+				activeChar.sendMessage("Player's ["+name+"] position is now set to (" + activeChar.getX() + "," + activeChar.getY() + "," + activeChar.getZ() + ")");  //TODO Insert MessageTable Tiger 20091009
+		}
+		catch (SQLException se)
+		{
+			activeChar.sendMessage("SQLException while changing offline character's position"); //TODO Insert MessageTable Tiger 20091009
+		}
+		finally
+		{
+			try
+			{
+				if (con != null)
+					con.close();
+			}
+			catch (SQLException e)
+			{
+				e.printStackTrace();
+			}
 		}
 	}
 	

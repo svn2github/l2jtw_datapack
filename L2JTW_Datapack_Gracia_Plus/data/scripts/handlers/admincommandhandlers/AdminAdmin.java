@@ -275,6 +275,8 @@ public class AdminAdmin implements IAdminCommandHandler
 					activeChar.sendMessage(516);
 				}
 				
+				activeChar.sendMessage("WARNING: There are several known issues regarding this feature. Reloading server data during runtime is STRONGLY NOT RECOMMENDED for live servers, just for developing environments."); //TODO Insert MessabeTable Tiger 2010/01/09
+				
 			}
 			catch (Exception e)
 			{

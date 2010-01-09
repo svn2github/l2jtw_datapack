@@ -1211,9 +1211,10 @@
 		<set name="overHit" val="true" />
 		<set name="power" val="5750" />
 		<set name="reuseDelay" val="60000" /> <!-- Guess -->
+		<set name="skillRadius" val="80" /> <!-- Guess -->
 		<set name="skillType" val="PDAM" />
 		<set name="SSBoost" val="2.0" />
-		<set name="target" val="TARGET_ONE" />
+		<set name="target" val="TARGET_FRONT_AREA" />
 		<set name="weaponsAllowed" val="32" /> <!-- Bow -->
 		<set name="baseCritRate" val="15" />
 	</skill>
@@ -1226,7 +1227,7 @@
 		<set name="operateType" val="OP_ACTIVE" />
 		<set name="overHit" val="true" />
 		<set name="power" val="4312" />
-		<set name="reuseDelay" val="60000" /> <!-- Guess -->
+		<set name="reuseDelay" val="45000" /> <!-- Guess -->
 		<set name="skillType" val="PDAM" />
 		<set name="skillRadius" val="100" />
 		<set name="SSBoost" val="2.0" />
@@ -1244,7 +1245,7 @@
 		<set name="operateType" val="OP_ACTIVE" />
 		<set name="overHit" val="true" />
 		<set name="power" val="6037" />
-		<set name="reuseDelay" val="25000" /> <!-- Guess -->
+		<set name="reuseDelay" val="75000" /> <!-- Guess -->
 		<set name="skillRadius" val="80" /> <!-- Guess -->
 		<set name="skillType" val="PDAM" />
 		<set name="SSBoost" val="2.0" />
@@ -1526,7 +1527,7 @@
 			<player active_effect_id_lvl="5563,3" />
 		</cond>
 		<for>
-			<effect count="20" name="HealOverTime" time="3" val="150">
+			<effect count="20" name="HealOverTime" time="3" val="150" stackOrder="1" stackType="touch">
 				<mul order="0x30" stat="cancelVuln" val="0.4" />
 				<mul order="0x30" stat="debuffVuln" val="0.7" />
 				<mul order="0x30" stat="gainHp" val="1.3" />
@@ -1607,8 +1608,8 @@
 		<set name="SSBoost" val="2.0" />
 		<set name="target" val="TARGET_AURA" />
 		<for>
-			<!-- TODO: This Stun effect should be in the skill 6092 -->
-			<effect name="Stun" time="9" val="0" effectPower="50" effectType="STUN" stackOrder="1" stackType="Stun" />
+			<!-- TODO: This Paralyze effect should be in the skill 6092 -->
+			<effect name="Paralyze" time="9" val="0" effectPower="40" effectType="PARALYZE" /> <!-- Temp Fix -->
 		</for>
 	</skill>
 	<skill id="792" levels="1" name="Betrayal Mark">
