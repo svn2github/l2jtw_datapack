@@ -685,7 +685,6 @@ castle.sql
 clanhall.sql
 fort.sql
 forums.sql
-grandboss_data.sql
 npc_buffer.sql
 seven_signs_festival.sql
 seven_signs_status.sql

@@ -105,7 +105,7 @@ class Quest (JQuest) :
      htmltext = html.replace("%level%","70").replace("%class%",str(CharTemplateTable.getInstance().getClassNameById(player.getActiveClass()))).replace("%skilltype%","共同技能").replace("%event%","lvl70Emergent")
    elif event == "Obtain75":
      html = "<html><body>副職業實力認證：<br>你打算接受%class%等級%level%的認證-%skilltype%。切記！一旦領取這個認證的話，除了用特別的方法取消認證之前，就算刪除這個職業後重新培養後再來，也無法再次得到認證。<br>那麼，要接受認證嗎？<br><a action=\"bypass -h Quest 9002_SubClassCertification %event1%\">接受共同認證</a><br><a action=\"bypass -h Quest 9002_SubClassCertification %event2%\">接受特殊認證</a><br><a action=\"bypass -h Quest 9002_SubClassCertification 9002-05.htm\">不接受認證</a></body></html>"
-     htmltext = html.replace("%level%","75").replace("%class%",str(CharTemplateTable.getInstance().getClassNameById(player.getActiveClass()))).replace("%skilltype%","共同、特殊技能").replace("%event1%","lvl75Class").replace("%event2%","lvl75Master")
+     htmltext = html.replace("%level%","75").replace("%class%",str(CharTemplateTable.getInstance().getClassNameById(player.getActiveClass()))).replace("%skilltype%","共同、特殊技能").replace("%event1%","lvl75Master").replace("%event2%","lvl75Class")#Update by rocknow
    elif event == "Obtain80":
      html = "<html><body>副職業實力認證：<br>你打算接受%class%等級%level%的認證-%skilltype%。切記！一旦領取這個認證的話，除了用特別的方法取消認證之前，就算刪除這個職業後重新培養後再來，也無法再次得到認證。<br>那麼，要接受認證嗎？<br><a action=\"bypass -h Quest 9002_SubClassCertification %event%\">接受認證</a><br><a action=\"bypass -h Quest 9002_SubClassCertification 9002-05.htm\">不接受認證</a></body></html>"
      htmltext = html.replace("%level%","80").replace("%class%",str(CharTemplateTable.getInstance().getClassNameById(player.getActiveClass()))).replace("%skilltype%","終極技能").replace("%event%","lvl80Class") 

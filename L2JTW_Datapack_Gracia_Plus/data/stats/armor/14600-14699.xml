@@ -13,10 +13,11 @@
 		</for>
 	</item>
 	<item id="14601" name="Ancient Cloak - Kamael exclusive - Kamael Use">
-		<cond msgId="2453">
+		<cond msgId="1960"><!-- Update by rocknow -->
 			<and>
 				<player race="Kamael" /> <!-- Kamael exclusive cloak -->
 				<player cloakStatus="1" />
+				<player level="99" /><!-- Update by rocknow -->
 			</and>
 		</cond>
 		<for>
@@ -24,10 +25,11 @@
 		</for>
 	</item>
 	<item id="14602" name="Ancient Cloak">
-		<cond msgId="2453">
+		<cond msgId="1960"><!-- Update by rocknow -->
 			<and>
 				<player race="Kamael" /> <!-- Kamael exclusive cloak -->
 				<player cloakStatus="1" />
+				<player level="99" /><!-- Update by rocknow -->
 			</and>
 		</cond>
 		<for>

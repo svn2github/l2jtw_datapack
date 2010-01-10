@@ -105,7 +105,7 @@ public class AdminPetition implements IAdminCommandHandler
 			}
 			catch (StringIndexOutOfBoundsException e)
 			{
-				activeChar.sendMessage("Usage: //force_peti text"); //TODO Insert MessageTable Tiger 20091009
+				activeChar.sendMessage("Usage: //force_peti text");
 				return false;
 			}
 		}

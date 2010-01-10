@@ -38,6 +38,7 @@ import com.l2jserver.gameserver.network.serverpackets.SystemMessage;
 import com.l2jserver.gameserver.datatables.MessageTable;
 import com.l2jserver.gameserver.model.L2CoreMessage;
 
+
 /**
  * This class handles following admin commands:
  * - admin|admin1/admin2/admin3/admin4/admin5 = slots for the 5 starting admin menus
@@ -275,7 +276,7 @@ public class AdminAdmin implements IAdminCommandHandler
 					activeChar.sendMessage(516);
 				}
 				
-				activeChar.sendMessage("WARNING: There are several known issues regarding this feature. Reloading server data during runtime is STRONGLY NOT RECOMMENDED for live servers, just for developing environments."); //TODO Insert MessabeTable Tiger 2010/01/09
+				activeChar.sendMessage("WARNING: There are several known issues regarding this feature. Reloading server data during runtime is STRONGLY NOT RECOMMENDED for live servers, just for developing environments.");
 				
 			}
 			catch (Exception e)

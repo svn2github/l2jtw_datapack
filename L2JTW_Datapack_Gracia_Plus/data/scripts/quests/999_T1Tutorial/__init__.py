@@ -222,8 +222,6 @@ class Quest (JQuest) :
          else:
            if isMage :
              htmltext = "30131-02.htm"
-             if player.getRace().ordinal() == 3 :
-              htmltext = "30575-02.htm"
            else:
              htmltext = "30530-02.htm"
              if st.getPlayer().getClassId().getId() == 0x31 :    #增加判斷半獸人法師

@@ -201,7 +201,7 @@ public class AdminTeleport implements IAdminCommandHandler
 				String[] param = command.split(" ");
 				if (param.length != 2)
 				{
-					activeChar.sendMessage("Usage: //recall <playername>"); //TODO Inster MessageTable Tiger 20100109
+					activeChar.sendMessage("Usage: //recall <playername>");
 					return false;
 				}
 				String targetName = param[1];
@@ -393,8 +393,8 @@ public class AdminTeleport implements IAdminCommandHandler
 					player.setInstanceId(0);
 				
 				// Information
-				activeChar.sendMessage("You have recalled " + player.getName()); //TODO Insert MessageTable Tiger 20091009
-				player.sendMessage("Admin is teleporting you."); //TODO Insert MessageTable Tiger 20091009
+				activeChar.sendMessage("You have recalled " + player.getName());
+				player.sendMessage("Admin is teleporting you.");
 			
 				player.getAI().setIntention(CtrlIntention.AI_INTENTION_IDLE);
 				player.teleToLocation(x, y, z, true);
@@ -437,9 +437,7 @@ public class AdminTeleport implements IAdminCommandHandler
 			activeChar.getAI().setIntention(CtrlIntention.AI_INTENTION_IDLE);
 			activeChar.teleToLocation(x, y, z, true);
 			
-			L2CoreMessage cm =  new L2CoreMessage (MessageTable.Messages[546]);
-			cm.addString(player.getName());
-			cm.sendMessage(activeChar);
+			activeChar.sendMessage("You have teleported to character " + player.getName() + ".");
 		}
 	}
 	
@@ -458,13 +456,13 @@ public class AdminTeleport implements IAdminCommandHandler
 			int count = statement.getUpdateCount();
 			statement.close();
 			if (count == 0)
-				activeChar.sendMessage("Character not found or position unaltered."); //TODO Insert MessageTable Tiger 20091009
+				activeChar.sendMessage("Character not found or position unaltered.");
 			else
-				activeChar.sendMessage("Player's ["+name+"] position is now set to (" + activeChar.getX() + "," + activeChar.getY() + "," + activeChar.getZ() + ")");  //TODO Insert MessageTable Tiger 20091009
+				activeChar.sendMessage("Player's ["+name+"] position is now set to (" + activeChar.getX() + "," + activeChar.getY() + "," + activeChar.getZ() + ")"); 
 		}
 		catch (SQLException se)
 		{
-			activeChar.sendMessage("SQLException while changing offline character's position"); //TODO Insert MessageTable Tiger 20091009
+			activeChar.sendMessage("SQLException while changing offline character's position");
 		}
 		finally
 		{

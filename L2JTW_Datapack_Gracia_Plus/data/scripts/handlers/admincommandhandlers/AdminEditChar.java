@@ -57,6 +57,7 @@ import com.l2jserver.gameserver.util.Util;
 import com.l2jserver.gameserver.datatables.MessageTable;
 import com.l2jserver.gameserver.model.L2CoreMessage;
 
+
 /**
  * This class handles following admin commands:
  * - edit_character

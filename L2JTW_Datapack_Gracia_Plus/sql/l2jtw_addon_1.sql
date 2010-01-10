@@ -263,7 +263,7 @@ REPLACE INTO `pets_skills` VALUES
 (14916,70,5761,1),
 (14917,1,5761,1),
 (14917,70,5761,1);
-REPLACE INTO `pets_stats` VALUES
+REPLACE INTO `pets_stats` (`type`,`typeID`,`level`,`expMax`,`hpMax`,`mpMax`,`patk`,`pdef`,`matk`,`mdef`,`acc`,`evasion`,`crit`,`speed`,`atk_speed`,`cast_speed`,`feedMax`,`feedbattle`,`feednormal`,`loadMax`,`hpregen`,`mpregen`,`owner_exp_taken`) VALUES
 ('Fox Shaman',16043,70,266966617,3161,1039,1075,502,1155,444,110,100,44,187,278,333,100000000,0,0,92287,40,15,0.00),
 ('Fox Shaman',16043,71,311043873,3250,1115,1085,509,1158,447,112,102,44,187,278,333,100000000,0,0,92287,40,15,0.00),
 ('Fox Shaman',16043,72,366944678,3340,1151,1097,517,1161,450,114,105,44,187,278,333,100000000,0,0,92287,40,15,0.00),
@@ -835,7 +835,7 @@ REPLACE INTO `npc` VALUES
 UPDATE `etcitem` SET `handler` = 'SummonItems' WHERE `item_id` IN (14061,14062,14063,14064);
 UPDATE `etcitem` SET `time` = 300 WHERE `item_id` IN (14061,14062,14063,14064);
 -- UPDATE `items` SET `time` = 30 WHERE `item_id` IN (14061,14062,14063,14064) AND `time` = '-1';
-REPLACE INTO `pets_stats` VALUES
+REPLACE INTO `pets_stats` (`type`,`typeID`,`level`,`expMax`,`hpMax`,`mpMax`,`patk`,`pdef`,`matk`,`mdef`,`acc`,`evasion`,`crit`,`speed`,`atk_speed`,`cast_speed`,`feedMax`,`feedbattle`,`feednormal`,`loadMax`,`hpregen`,`mpregen`,`owner_exp_taken`) VALUES
 ('Owl Monk',16050,70,266966617,6046,729,3812,502,646,481,110,100,44,198,278,333,100000000,0,0,92287,40,15,0.00),
 ('Owl Monk',16050,71,311043873,6217,782,3846,509,647,484,112,102,44,198,278,333,100000000,0,0,92287,40,15,0.00),
 ('Owl Monk',16050,72,366944678,6388,808,3889,517,649,488,114,105,44,198,278,333,100000000,0,0,92287,40,15,0.00),
