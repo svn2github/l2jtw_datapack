@@ -103,7 +103,7 @@ public class MasterHandler
 		AdminCommandHandler.getInstance().registerAdminCommandHandler(new AdminUnblockIp());
 		AdminCommandHandler.getInstance().registerAdminCommandHandler(new AdminVitality());
 		AdminCommandHandler.getInstance().registerAdminCommandHandler(new AdminZone());
-		_log.config("Loaded " + AdminCommandHandler.getInstance().size() + " AdminCommandHandlers");
+		_log.config("Loaded " + AdminCommandHandler.getInstance().size() + "  AdminCommandHandlers");
 	}
 	
 	private static void loadChatHandlers()
@@ -119,7 +119,7 @@ public class MasterHandler
 		ChatHandler.getInstance().registerChatHandler(new ChatShout());
 		ChatHandler.getInstance().registerChatHandler(new ChatTell());
 		ChatHandler.getInstance().registerChatHandler(new ChatTrade());
-		_log.config("Loaded " + ChatHandler.getInstance().size() + " ChatHandlers");
+		_log.config("Loaded " + ChatHandler.getInstance().size() + "  ChatHandlers");
 	}
 	
 	private static void loadItemHandlers()
