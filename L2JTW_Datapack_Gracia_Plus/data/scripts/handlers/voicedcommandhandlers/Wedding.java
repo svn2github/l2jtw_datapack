@@ -403,9 +403,26 @@ public class Wedding implements IVoicedCommandHandler
 		}
 		else if (activeChar.isInsideZone(L2Character.ZONE_NOSUMMONFRIEND))
 		{
-			activeChar.sendMessage("You are in area which blocks summoning.");
+			activeChar.sendPacket(new SystemMessage(SystemMessageId.YOUR_TARGET_IS_IN_AN_AREA_WHICH_BLOCKS_SUMMONING));
 			return false;
 		}
+		//Add By Tiger 2010/01/13 (S)
+		else if (partner.isInsideZone(L2Character.ZONE_NOSUMMONFRIEND))
+		{
+			activeChar.sendMessage(759);
+			return false;
+		}
+        else if (activeChar.isCursedWeaponEquipped()) 
+	 	{
+			activeChar.sendMessage(769); 
+			return false; 
+	 	}
+        else if (partner.isCursedWeaponEquipped())
+	 	{
+			activeChar.sendMessage(780); 
+			return false; 
+	 	}
+		//Add By Tiger 2010/01/13 (E)
 		
 		int teleportTimer = Config.L2JMOD_WEDDING_TELEPORT_DURATION * 1000;
 		

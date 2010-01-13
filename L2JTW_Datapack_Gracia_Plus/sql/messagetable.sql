@@ -2291,9 +2291,9 @@ INSERT INTO `messagetable` VALUES ('757', 'cn', '参数错误，无法删除自�
 INSERT INTO `messagetable` VALUES ('758', 'en', 'You are not in range of the artifact.', null);
 INSERT INTO `messagetable` VALUES ('758', 'tw', '守護者封印距離太遠。', null);
 INSERT INTO `messagetable` VALUES ('758', 'cn', '守护者封印距离太远。', null);
-INSERT INTO `messagetable` VALUES ('759', 'en', '', null);
-INSERT INTO `messagetable` VALUES ('759', 'tw', '', null);
-INSERT INTO `messagetable` VALUES ('759', 'cn', '', null);
+INSERT INTO `messagetable` VALUES ('759', 'en', 'Your partner is stay in the area can not be summoned.', null);
+INSERT INTO `messagetable` VALUES ('759', 'tw', '您的伴侶目前身在無法召喚的地區。', null);
+INSERT INTO `messagetable` VALUES ('759', 'cn', '您的伴侣目前身在无法召唤的地区。', null);
 INSERT INTO `messagetable` VALUES ('760', 'en', 'You can only place a flag during a siege.', null);
 INSERT INTO `messagetable` VALUES ('760', 'tw', '只能在攻城戰放置陣旗。', null);
 INSERT INTO `messagetable` VALUES ('760', 'cn', '只能在攻城战放置阵旗。', null);
@@ -2321,9 +2321,9 @@ INSERT INTO `messagetable` VALUES ('767', 'cn', '目标必须是守护者封印�
 INSERT INTO `messagetable` VALUES ('768', 'en', 'You have already placed the maximum number of flags possible', null);
 INSERT INTO `messagetable` VALUES ('768', 'tw', '陣旗放置數量已達到極限。', null);
 INSERT INTO `messagetable` VALUES ('768', 'cn', '阵旗放置数量已达到极限。', null);
-INSERT INTO `messagetable` VALUES ('769', 'en', '', null);
-INSERT INTO `messagetable` VALUES ('769', 'tw', '', null);
-INSERT INTO `messagetable` VALUES ('769', 'cn', '', null);
+INSERT INTO `messagetable` VALUES ('769', 'en', 'Can not teleport because the cursed weapon equipped.', null);
+INSERT INTO `messagetable` VALUES ('769', 'tw', '持有受詛咒的武器，無法進行傳送。', null);
+INSERT INTO `messagetable` VALUES ('769', 'cn', '持有受诅咒的武器，无法进行传送。', null);
 INSERT INTO `messagetable` VALUES ('770', 'en', 'You must be a clan leader to place a flag', null);
 INSERT INTO `messagetable` VALUES ('770', 'tw', '必須是血盟盟主。', null);
 INSERT INTO `messagetable` VALUES ('770', 'cn', '必须是血盟盟主。', null);
@@ -2354,9 +2354,9 @@ INSERT INTO `messagetable` VALUES ('778', 'cn', '只能在要塞周围召唤。'
 INSERT INTO `messagetable` VALUES ('779', 'en', 'You must be on fort ground to use strider siege assault', null);
 INSERT INTO `messagetable` VALUES ('779', 'tw', '只能在要塞周圍使用座龍攻城強襲。', null);
 INSERT INTO `messagetable` VALUES ('779', 'cn', '只能在要塞周围使用座龙攻城强袭。', null);
-INSERT INTO `messagetable` VALUES ('780', 'en', '', null);
-INSERT INTO `messagetable` VALUES ('780', 'tw', '', null);
-INSERT INTO `messagetable` VALUES ('780', 'cn', '', null);
+INSERT INTO `messagetable` VALUES ('780', 'en', 'Can not teleport because the partner is useing cursed weapon.', null);
+INSERT INTO `messagetable` VALUES ('780', 'tw', '伴侶持有受詛咒的武器，無法進行傳送。', null);
+INSERT INTO `messagetable` VALUES ('780', 'cn', '伴侣持有受诅咒的武器，无法进行传送。', null);
 INSERT INTO `messagetable` VALUES ('781', 'en', '', null);
 INSERT INTO `messagetable` VALUES ('781', 'tw', '', null);
 INSERT INTO `messagetable` VALUES ('781', 'cn', '', null);
