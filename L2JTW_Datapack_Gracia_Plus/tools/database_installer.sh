@@ -322,12 +322,12 @@ else
 echo "Upgrading communityserver content"
 fi
 if [ "$1" == "I" ]; then
-$MYG < ../cb_sql/clan_introductions.sql &> /dev/null
-$MYG < ../cb_sql/comments.sql &> /dev/null
-$MYG < ../cb_sql/forums.sql &> /dev/null
-$MYG < ../cb_sql/gameservers.sql &> /dev/null
-$MYG < ../cb_sql/posts.sql &> /dev/null
-$MYG < ../cb_sql/topics.sql &> /dev/null
+$MYC < ../cb_sql/clan_introductions.sql &> /dev/null #Update by rocknow
+$MYC < ../cb_sql/comments.sql &> /dev/null           #Update by rocknow
+$MYC < ../cb_sql/forums.sql &> /dev/null             #Update by rocknow
+$MYC < ../cb_sql/gameservers.sql &> /dev/null        #Update by rocknow
+$MYC < ../cb_sql/posts.sql &> /dev/null              #Update by rocknow
+$MYC < ../cb_sql/topics.sql &> /dev/null             #Update by rocknow
 fi
 newbie_helper_cb
 }
@@ -585,5 +585,6 @@ clear
 load_config $1
 MYL="$MYSQLPATH -h $LSDBHOST -u $LSUSER --password=$LSPASS -D $LSDB"
 MYG="$MYSQLPATH -h $GSDBHOST -u $GSUSER --password=$GSPASS -D $GSDB"
+MYC="$MYSQLPATH -h $CBDBHOST -u $CBUSER --password=$CBPASS -D $CBDB" #Update by rocknow
 lsbackup
 asklogin

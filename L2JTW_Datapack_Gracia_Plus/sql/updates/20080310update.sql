@@ -1,1 +1,0 @@
-ALTER TABLE `character_skills_save` add `systime` bigint(30) NOT NULL DEFAULT 0 AFTER `reuse_delay` ;

@@ -22011,7 +22011,9 @@ INSERT INTO `merchant_buylists` (`item_id`,`price`,`shop_id`,`order`) VALUES
 (13253,0,9976,15), -- Pumpkin Transformation Stick - 7-day Limited Period
 (13339,0,9976,16), -- Pumpkin Transformation Stick (Event) - 7-day Limited Period
 (12814,0,9976,17), -- Shadow Item - Gatekeeper Transformation Stick
-(15342,0,9976,18); -- Aqua Elf Transforming Harp
+(15342,0,9976,18), -- Aqua Elf Transforming Harp
+(15344,0,9976,19), -- Aqua Elf Transforming Harp - Event
+(20867,0,9976,20); -- Kadomas Transformation Stick
 
 INSERT INTO `merchant_buylists` (`item_id`,`price`,`shop_id`,`order`) VALUES
 -- (GM-Shop) Misc Event Items
@@ -22612,7 +22614,15 @@ INSERT INTO `merchant_buylists` (`item_id`,`price`,`shop_id`,`order`) VALUES
 (20744,0,9986,30), -- Shiny Mask of Silent Scream
 (20745,0,9986,31), -- Shiny Spirit of Wrath Mast
 (20746,0,9986,32), -- Shiny Undecaying Corpse Mask
-(20747,0,9986,33); -- Shiny Planet X235 Alien Mask
+(20747,0,9986,33), -- Shiny Planet X235 Alien Mask
+(20789,0,9986,34), -- Rocket Gun Hat Continuous Fireworks
+(20790,0,9986,35), -- Yellow Paper Hat Blessed Body - 7 day limited period
+(20791,0,9986,36), -- Pink Paper Mask Set Blessed Soul - 7 day limited period
+(20792,0,9986,37), -- Flavorful Cheese Hat
+(20793,0,9986,38), -- Sweet Cheese Hat
+(20794,0,9986,39), -- Flavorful Cheese Hat Scent of Flavorful Cheese - 7 day limited period
+(20795,0,9986,40), -- Sweet Cheese Hat Scent of Sweet Cheese - 7 day limited period
+(20897,0,9986,41); -- Purple Paper Mask Blessed Soul - 7 day limited period
 
 INSERT INTO `merchant_buylists` (`item_id`,`price`,`shop_id`,`order`) VALUES
 -- (GM-Shop) [reserved]
