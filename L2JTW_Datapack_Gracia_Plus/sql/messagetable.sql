@@ -1,4 +1,4 @@
-Set Names utf8;
+﻿Set Names utf8;
 -- ----------------------------
 -- Table structure for messagetable
 -- ----------------------------
@@ -1416,8 +1416,8 @@ INSERT INTO `messagetable` VALUES ('466', 'en', 'You can feel Bluff\'s effect', 
 INSERT INTO `messagetable` VALUES ('466', 'tw', '感受到幻象的效果。', null);
 INSERT INTO `messagetable` VALUES ('466', 'cn', '感受到幻象的效果。', null);
 INSERT INTO `messagetable` VALUES ('467', 'en', '$1 removed from jail', null);
-INSERT INTO `messagetable` VALUES ('467', 'tw', '玩家「$1」解除鎖定。', null);
-INSERT INTO `messagetable` VALUES ('467', 'cn', '玩家「$1」解除锁定。', null);
+INSERT INTO `messagetable` VALUES ('467', 'tw', '將玩家「$1」從監獄釋放。', null);
+INSERT INTO `messagetable` VALUES ('467', 'cn', '將玩家「$1」从监狱释放。', null);
 INSERT INTO `messagetable` VALUES ('468', 'en', 'You can not chat with players outside of the jail.', null);
 INSERT INTO `messagetable` VALUES ('468', 'tw', '在 GM 諮詢處禁止聊天。', null);
 INSERT INTO `messagetable` VALUES ('468', 'cn', '在 GM 谘询处禁止聊天。', null);

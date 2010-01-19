@@ -114,7 +114,7 @@ public class AdminPledge implements IAdminCommandHandler
 			else if (action.equals("setlevel"))
 			{
 				int level = Integer.parseInt(parameter);
-				if (level >= 0 && level < 11)
+				if (level >= 0 && level < 12)
 				{
 					player.getClan().changeLevel(level);
 					L2CoreMessage cm =  new L2CoreMessage (MessageTable.Messages[596]);
