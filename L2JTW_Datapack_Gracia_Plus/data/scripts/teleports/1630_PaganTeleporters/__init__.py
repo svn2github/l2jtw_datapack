@@ -48,7 +48,7 @@ class Quest (JQuest):
     elif npcId == 32035:
       DoorTable.getInstance().getDoor(19160001).openMe()
       self.startQuestTimer("Close_Door1",10000,None,None)
-      htmltext = "<html><body>神殿守門人:<br>一按下骷髏，隨著機關啟動的聲音，門也同時開了起來。</body></html>"
+      htmltext = "FadedMark.htm"
     elif npcId == 32036:
       if not st.getQuestItemsCount(8067) :
         htmltext = "<html><body>神殿守門人:<br>沒有東西可出示給守門人看。<br>(只有手持主教標章的人才可以打開這扇門。)</body></html>"
@@ -61,7 +61,7 @@ class Quest (JQuest):
       DoorTable.getInstance().getDoor(19160010).openMe()
       DoorTable.getInstance().getDoor(19160011).openMe()
       self.startQuestTimer("Close_Door2",10000,None,None)
-      htmltext = "<html><body>神殿守門人:<br>一按下骷髏，隨著機關啟動的聲音，門也同時開了起來。</body></html>"
+      htmltext = "FadedMark.htm"
     st.exitQuest(1)
     return htmltext
 
