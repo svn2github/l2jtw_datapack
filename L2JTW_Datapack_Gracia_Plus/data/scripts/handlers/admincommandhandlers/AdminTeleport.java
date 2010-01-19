@@ -201,7 +201,7 @@ public class AdminTeleport implements IAdminCommandHandler
 				String[] param = command.split(" ");
 				if (param.length != 2)
 				{
-					activeChar.sendMessage("Usage: //recall <playername>");
+					activeChar.sendMessage(802);
 					return false;
 				}
 				String targetName = param[1];
@@ -382,7 +382,9 @@ public class AdminTeleport implements IAdminCommandHandler
 			// Check for jail
 			if (player.isInJail())
 			{
-				activeChar.sendMessage("Sorry, player " + player.getName() + " is in Jail.");
+				L2CoreMessage cm =  new L2CoreMessage (MessageTable.Messages[820]);
+				cm.addString(player.getName());
+				cm.sendMessage(activeChar);
 			}
 			else
 			{
@@ -393,8 +395,10 @@ public class AdminTeleport implements IAdminCommandHandler
 					player.setInstanceId(0);
 				
 				// Information
-				activeChar.sendMessage("You have recalled " + player.getName());
-				player.sendMessage("Admin is teleporting you.");
+				L2CoreMessage cm =  new L2CoreMessage (MessageTable.Messages[829]);
+				cm.addString(player.getName());
+				cm.sendMessage(activeChar);
+				player.sendMessage(33);
 			
 				player.getAI().setIntention(CtrlIntention.AI_INTENTION_IDLE);
 				player.teleToLocation(x, y, z, true);
@@ -437,7 +441,9 @@ public class AdminTeleport implements IAdminCommandHandler
 			activeChar.getAI().setIntention(CtrlIntention.AI_INTENTION_IDLE);
 			activeChar.teleToLocation(x, y, z, true);
 			
-			activeChar.sendMessage("You have teleported to character " + player.getName() + ".");
+			L2CoreMessage cm = new L2CoreMessage (MessageTable.Messages[546]);
+			cm.addString(player.getName());
+			cm.sendMessage(activeChar);
 		}
 	}
 	
@@ -456,13 +462,20 @@ public class AdminTeleport implements IAdminCommandHandler
 			int count = statement.getUpdateCount();
 			statement.close();
 			if (count == 0)
-				activeChar.sendMessage("Character not found or position unaltered.");
+				activeChar.sendMessage(834);
 			else
-				activeChar.sendMessage("Player's ["+name+"] position is now set to (" + activeChar.getX() + "," + activeChar.getY() + "," + activeChar.getZ() + ")"); 
+			{
+				L2CoreMessage cm =  new L2CoreMessage (MessageTable.Messages[836]);
+				cm.addString(name);
+				cm.addNumber(activeChar.getX());
+				cm.addNumber(activeChar.getY());
+				cm.addNumber(activeChar.getZ());
+				cm.sendMessage(activeChar);
+			}
 		}
 		catch (SQLException se)
 		{
-			activeChar.sendMessage("SQLException while changing offline character's position");
+			activeChar.sendMessage(835);
 		}
 		finally
 		{

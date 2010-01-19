@@ -109,8 +109,10 @@ public class AdminBuffs implements IAdminCommandHandler
 				return true;
 			}
 			catch (Exception e) {
-				activeChar.sendMessage("Failed removing all effects: " + e.getMessage());
-				activeChar.sendMessage("Usage: //stopallbuffs <objectId>");
+				L2CoreMessage cm =  new L2CoreMessage (MessageTable.Messages[863]);
+				cm.addString(e.getMessage());
+				cm.sendMessage(activeChar);
+				activeChar.sendMessage(855);
 				return false;
 			}
 		}
@@ -162,9 +164,8 @@ public class AdminBuffs implements IAdminCommandHandler
 			max++;
 		
 		final StringBuilder html = StringUtil.startAppend(500 + effects.length * 200, 
-				"<html><table width=\"100%\" bgcolor=666666><tr><td width=40><button value=\"Main\" action=\"bypass -h admin_admin\" width=40 height=15 back=\"L2UI_ct1.button_df\" fore=\"L2UI_ct1.button_df\"></td><td width=180><center><font color=\"LEVEL\">Effects of ", 
-				target.getName(),
-				"</font></td><td width=40><button value=\"Back\" action=\"bypass -h admin_admin3\" width=40 height=15 back=\"L2UI_ct1.button_df\" fore=\"L2UI_ct1.button_df\"></td></tr></table><br><table width=\"100%\"><tr><td width=200>Skill</td><td width=30>Rem. Time</td><td width=70>Action</td></tr>");
+				"<html><table width=\"100%\" bgcolor=666666><tr><td width=40><button value=\""+MessageTable.Messages[592].getMessage()+"\" action=\"bypass -h admin_admin\" width=40 height=15 back=\"L2UI_ct1.button_df\" fore=\"L2UI_ct1.button_df\"></td><td width=180><center><font color=\"LEVEL\">"+MessageTable.Messages[207].getMessage()+ target.getName(),
+				"</font></td><td width=40><button value=\""+MessageTable.Messages[1077].getMessage()+"\" action=\"bypass -h admin_admin3\" width=40 height=15 back=\"L2UI_ct1.button_df\" fore=\"L2UI_ct1.button_df\"></td></tr></table><br><table width=\"100%\"><tr><td width=200>"+MessageTable.Messages[556].getMessage()+"</td><td width=30>"+MessageTable.Messages[879].getMessage()+"</td><td width=70>"+MessageTable.Messages[557].getMessage()+"</td></tr>");
 		
 		int start = ((page - 1) * PAGE_LIMIT);
 		int end = Math.min(((page - 1) * PAGE_LIMIT) + PAGE_LIMIT, effects.length);
@@ -179,7 +180,7 @@ public class AdminBuffs implements IAdminCommandHandler
 						e.getSkill().getName(), 
 						"</td><td>", 
 						e.getSkill().isToggle() ? "toggle" : e.getPeriod() - e.getTime() + "s",
-						"</td><td><button value=\"Remove\" action=\"bypass -h admin_stopbuff ", 
+						"</td><td><button value=\""+MessageTable.Messages[1176].getMessage()+"\" action=\"bypass -h admin_stopbuff ", 
 						Integer.toString(target.getObjectId()), 
 						" ", 
 						String.valueOf(e.getSkill().getId()), 
@@ -211,7 +212,7 @@ public class AdminBuffs implements IAdminCommandHandler
 		
 		html.append("</tr></table>");
 		
-		StringUtil.append(html, "<br><center><button value=\"Remove All\" action=\"bypass -h admin_stopallbuffs ", 
+		StringUtil.append(html, "<br><center><button value=\""+MessageTable.Messages[212].getMessage()+"\" action=\"bypass -h admin_stopallbuffs ", 
 				Integer.toString(target.getObjectId()),
 				"\" width=75 height=20 back=\"L2UI_ct1.button_df\" fore=\"L2UI_ct1.button_df\"></html>");
 		
@@ -268,7 +269,10 @@ public class AdminBuffs implements IAdminCommandHandler
 		if (target != null)
 		{
 			target.stopAllEffects();
-			activeChar.sendMessage("Removed all effects from " + target.getName() + " (" + objId + ")");
+			L2CoreMessage cm =  new L2CoreMessage (MessageTable.Messages[869]);
+			cm.addString(target.getName());
+			cm.addNumber(objId);
+			cm.sendMessage(activeChar);
 			GMAudit.auditGMAction(activeChar.getName(), "stopallbuffs", target.getName() + " (" + objId + ")", "");
 			showBuffs(activeChar, target, 1);
 		}

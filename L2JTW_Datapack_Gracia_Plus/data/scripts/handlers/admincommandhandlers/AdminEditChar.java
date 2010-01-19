@@ -513,7 +513,7 @@ public class AdminEditChar implements IAdminCommandHandler
 				gatherSummonInfo((L2Summon) target, activeChar);				
 			}
 			else
-				activeChar.sendMessage("Invalid target.");
+				activeChar.sendMessage(876);
 		}
 		
 		return true;

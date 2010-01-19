@@ -144,25 +144,25 @@ public class AdminAnnouncements implements IAdminCommandHandler
 			
 			if (!st.hasMoreTokens())
 			{
-				activeChar.sendMessage("Not enough parameters for adding autoannounce!");
+				activeChar.sendMessage(748);
 				return false;
 			}
 			long initial = Long.parseLong(st.nextToken());
 			if (!st.hasMoreTokens())
 			{
-				activeChar.sendMessage("Not enough parameters for adding autoannounce!");
+				activeChar.sendMessage(748);
 				return false;
 			}
 			long delay = Long.parseLong(st.nextToken());
 			if (!st.hasMoreTokens())
 			{
-				activeChar.sendMessage("Not enough parameters for adding autoannounce!");
+				activeChar.sendMessage(748);
 				return false;
 			}
 			int repeat = Integer.parseInt(st.nextToken());
 			if (!st.hasMoreTokens())
 			{
-				activeChar.sendMessage("Not enough parameters for adding autoannounce!");
+				activeChar.sendMessage(748);
 				return false;
 			}
 			TextBuilder memo = new TextBuilder();
@@ -183,7 +183,7 @@ public class AdminAnnouncements implements IAdminCommandHandler
 			
 			if (!st.hasMoreTokens())
 			{
-				activeChar.sendMessage("Not enough parameters for deleting autoannounce!");
+				activeChar.sendMessage(757);
 				return false;
 			}
 			

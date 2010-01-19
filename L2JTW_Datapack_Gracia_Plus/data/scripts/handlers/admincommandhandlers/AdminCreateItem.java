@@ -20,6 +20,8 @@ import com.l2jserver.gameserver.datatables.ItemTable;
 import com.l2jserver.gameserver.handler.IAdminCommandHandler;
 import com.l2jserver.gameserver.model.actor.instance.L2PcInstance;
 import com.l2jserver.gameserver.templates.item.L2Item;
+import com.l2jserver.gameserver.datatables.MessageTable;
+import com.l2jserver.gameserver.model.L2CoreMessage;
 
 
 /**
@@ -84,7 +86,7 @@ public class AdminCreateItem implements IAdminCommandHandler
 					target = (L2PcInstance) activeChar.getTarget();
 				else
 				{
-					activeChar.sendMessage("Invalid target.");
+					activeChar.sendMessage(876);
 					return false;
 				}
 
@@ -107,11 +109,11 @@ public class AdminCreateItem implements IAdminCommandHandler
 			}
 			catch (StringIndexOutOfBoundsException e)
 			{
-				activeChar.sendMessage("Usage: //give_item_target <itemId> [amount]");
+				activeChar.sendMessage(871);
 			}
 			catch (NumberFormatException nfe)
 			{
-				activeChar.sendMessage("Specify a valid number.");
+				activeChar.sendMessage(274);
 			}
 			AdminHelpPage.showHelpPage(activeChar, "itemcreation.htm");
 		}
@@ -140,7 +142,17 @@ public class AdminCreateItem implements IAdminCommandHandler
 		target.getInventory().addItem("Admin", id, num, activeChar, null);
 
 		if (activeChar != target)
-			target.sendMessage("Admin spawned " + num + " "+template.getName()+" in your inventory.");
-		activeChar.sendMessage("You have spawned " + num + " "+template.getName()+"(" + id + ") in "+target.getName()+" inventory.");
+		{
+			L2CoreMessage cm =  new L2CoreMessage (MessageTable.Messages[873]);
+			cm.addNumber(num);
+			cm.addString(template.getName());
+			cm.sendMessage(target);
+		}
+		L2CoreMessage cm =  new L2CoreMessage (MessageTable.Messages[875]);
+		cm.addNumber(num);
+		cm.addString(template.getName());
+		cm.addNumber(id);
+		cm.addString(target.getName());
+		cm.sendMessage(activeChar);
 	}
 }

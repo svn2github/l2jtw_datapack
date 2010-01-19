@@ -276,12 +276,14 @@ public class AdminAdmin implements IAdminCommandHandler
 					activeChar.sendMessage(516);
 				}
 				
-				activeChar.sendMessage("WARNING: There are several known issues regarding this feature. Reloading server data during runtime is STRONGLY NOT RECOMMENDED for live servers, just for developing environments.");
+				activeChar.sendMessage(842);
 				
 			}
 			catch (Exception e)
 			{
-				activeChar.sendMessage("An error occured while reloading " + type + " !");
+				L2CoreMessage cm =  new L2CoreMessage (MessageTable.Messages[854]);
+				cm.addString(type);
+				cm.sendMessage(activeChar);
 				activeChar.sendMessage(369);
 				_log.warning("An error occured while reloading " + type + ": " + e); //do not mask an exception here
 			}
