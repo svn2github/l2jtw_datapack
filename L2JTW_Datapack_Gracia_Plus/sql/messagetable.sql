@@ -2654,9 +2654,9 @@ INSERT INTO `messagetable` VALUES ('878', 'cn', '允许在固定的时间内购�
 INSERT INTO `messagetable` VALUES ('879', 'en', 'Rem. Time', null);
 INSERT INTO `messagetable` VALUES ('879', 'tw', '剩餘', null);
 INSERT INTO `messagetable` VALUES ('879', 'cn', '剩餘', null);
-INSERT INTO `messagetable` VALUES ('880', 'en', '', null);
-INSERT INTO `messagetable` VALUES ('880', 'tw', '', null);
-INSERT INTO `messagetable` VALUES ('880', 'cn', '', null);
+INSERT INTO `messagetable` VALUES ('880', 'en', 'Players currently logged $1 due to log out in GrandBoss Zone more than $2 minutes, has transferred back to the near town.', null);
+INSERT INTO `messagetable` VALUES ('880', 'tw', '目前登錄玩家「$1」因於首領區域登出超過「$2」分鐘，已被傳送回附近城鎮。', null);
+INSERT INTO `messagetable` VALUES ('880', 'cn', '目前登录玩家「$1」因于首领区域登出超过「$2」分钟，已被传送回附近城镇。', null);
 INSERT INTO `messagetable` VALUES ('881', 'en', '', null);
 INSERT INTO `messagetable` VALUES ('881', 'tw', '', null);
 INSERT INTO `messagetable` VALUES ('881', 'cn', '', null);
