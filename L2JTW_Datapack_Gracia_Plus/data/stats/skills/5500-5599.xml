@@ -498,68 +498,53 @@
 		<set name="operateType" val="OP_PASSIVE" />
 	</skill>
 	<skill id="5567" levels="1" name="Flame Armor">
-		<!-- Update by rocknow -->
-		<set name="castRange" val="300" />
-		<set name="target" val="TARGET_ONE" />
-		<set name="skillType" val="MDAM" />
-		<set name="effectRange" val="1400" />
-		<set name="power" val="50" />
+		<!-- Based in "Count of Fire" skill -->
+		<!-- TODO: Duration & Damage needs to be verified -->
+		<set name="castRange" val="400" />
+		<set name="effectRange" val="900" />
 		<set name="isDebuff" val="true" />
-		<set name="element" val="1" />
+		<set name="magicLvl" val="83" />
+		<set name="element" val="0" /> <!-- Fire -->
+		<set name="elementPower" val="20" />
 		<set name="operateType" val="OP_ACTIVE" />
-		<cond>
-			<and>
-				<not>
-					<target active_effect_id="5567" />
-				</not>
-			</and>
-		</cond>
+		<set name="power" val="80" /> <!-- Base Land Rate -->
+		<set name="skillType" val="DOT" />
+		<set name="target" val="TARGET_ONE" />
 		<for>
-			<effect count="7" name="DamOverTime" time="1" val="100" />
+			<effect count="10" name="DamOverTime" val="173" />
 		</for>
 	</skill>
 	<skill id="5568" levels="1" name="Frost Armor">
-		<!-- Update by rocknow -->
-		<set name="castRange" val="900" />
-		<set name="target" val="TARGET_ONE" />
-		<set name="skillType" val="DEBUFF" />
-		<set name="effectRange" val="1400" />
-		<set name="power" val="50" />
+		<!-- Based in "Diamond Dust" skill -->
+		<!-- TODO: Duration & Decreased stats needs to be verified -->
+		<set name="castRange" val="400" />
+		<set name="effectRange" val="900" />
 		<set name="isDebuff" val="true" />
+		<set name="magicLvl" val="83" />
 		<set name="operateType" val="OP_ACTIVE" />
-		<cond>
-			<and>
-				<not>
-					<target active_effect_id="5568" />
-				</not>
-			</and>
-		</cond>
+		<set name="power" val="80" /> <!-- Base Land Rate -->
+		<set name="skillType" val="DEBUFF" />
+		<set name="target" val="TARGET_ONE" />
 		<for>
-			<effect count="1" name="Debuff" time="10" val="0">
-				<mul order="0x30" stat="runSpd" val="0.9" />
+			<effect name="Debuff" time="15" val="0" stackOrder="0.7" stackType="RunSpeedDown">
+				<mul order="0x30" stat="runSpd" val="0.6" />
 			</effect>
 		</for>
 	</skill>
 	<skill id="5569" levels="1" name="Hurricane Armor">
-		<!-- Update by rocknow -->
-		<set name="castRange" val="900" />
-		<set name="target" val="TARGET_ONE" />
-		<set name="skillType" val="DEBUFF" />
-		<set name="effectRange" val="1400" />
-		<set name="power" val="50" />
+		<!-- Based in "Wind Shackle" skill -->
+		<!-- TODO: Duration & Decreased stats needs to be verified -->
+		<set name="castRange" val="400" />
+		<set name="effectRange" val="900" />
 		<set name="isDebuff" val="true" />
+		<set name="magicLvl" val="83" />
 		<set name="operateType" val="OP_ACTIVE" />
-		<cond>
-			<and>
-				<not>
-					<target active_effect_id="5569" />
-				</not>
-			</and>
-		</cond>
+		<set name="power" val="80" /> <!-- Base Land Rate -->
+		<set name="skillType" val="DEBUFF" />
+		<set name="target" val="TARGET_ONE" />
 		<for>
-			<effect count="1" name="Debuff" time="10" val="0">
-				<mul order="0x30" stat="pAtkSpd" val="0.7" />
-				<sub order="0x40" stat="cancel" val="0" /> <!-- Especialiy increase for Upgrade Value by rocknow -->
+			<effect name="Debuff" time="15" val="0" stackOrder="0.77" stackType="attack_time_up">
+				<mul order="0x30" stat="pAtkSpd" val="0.77" />
 			</effect>
 		</for>
 	</skill>
