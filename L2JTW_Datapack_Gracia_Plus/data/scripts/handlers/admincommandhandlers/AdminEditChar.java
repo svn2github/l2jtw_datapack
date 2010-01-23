@@ -105,7 +105,9 @@ public class AdminEditChar implements IAdminCommandHandler
 		"admin_setclass", // changes chars' classId
 		"admin_fullfood", // fulfills a pet's food bar
 		"admin_remove_clan_penalty", // removes clan penalties
-		"admin_summon_info" //displays an information window about target summon
+		"admin_summon_info", //displays an information window about target summon
+		"admin_unsummon",
+		"admin_summon_setlvl"
 	};
 	
 	public boolean useAdminCommand(String command, L2PcInstance activeChar)
@@ -129,6 +131,12 @@ public class AdminEditChar implements IAdminCommandHandler
 			{
 				activeChar.sendMessage(385);
 			}
+		}
+		else if (command.startsWith("admin_debug"))
+		{
+			L2Object targetChar = activeChar.getTarget();
+			if(targetChar != null)
+				targetChar.onActionShift(activeChar);
 		}
 		else if (command.startsWith("admin_show_characters"))
 		{
@@ -515,7 +523,41 @@ public class AdminEditChar implements IAdminCommandHandler
 			else
 				activeChar.sendMessage(876);
 		}
-		
+		else if (command.startsWith("admin_unsummon"))
+		{
+			L2Object target = activeChar.getTarget();
+			if (target instanceof L2Summon)
+				((L2Summon) target).unSummon(((L2Summon) target).getOwner());
+			else
+				activeChar.sendMessage("Usable only with Pets/Summons");
+		}
+		else if (command.startsWith("admin_summon_setlvl"))
+		{
+			L2Object target = activeChar.getTarget();
+			if (target instanceof L2PetInstance)
+			{
+				L2PetInstance pet = (L2PetInstance) target; 
+				try
+				{
+					String val = command.substring(20);
+					int level = Integer.parseInt(val);
+					long newexp, oldexp = 0;
+					oldexp = pet.getStat().getExp();
+					newexp = pet.getStat().getExpForLevel(level);
+					if (oldexp > newexp)
+						pet.getStat().removeExp(oldexp-newexp);
+					else if (oldexp < newexp)
+						pet.getStat().addExp(newexp-oldexp);
+				}
+				catch (Exception e)
+				{
+				}
+			}
+			else
+			{
+				activeChar.sendMessage("Usable only with Pets");
+			}
+		}
 		return true;
 	}
 	
@@ -678,7 +720,7 @@ public class AdminEditChar implements IAdminCommandHandler
 			cm.addString(player.getName());
 			cm.addNumber(oldKarma);
 			cm.addNumber(newKarma);
-			cm.sendMessage(activeChar);			
+			cm.sendMessage(activeChar);
 			if (Config.DEBUG)
 				_log.fine("[SET KARMA] [GM]" + activeChar.getName() + " Changed karma for " + player.getName() + " from (" + oldKarma + ") to (" + newKarma + ").");
 		}

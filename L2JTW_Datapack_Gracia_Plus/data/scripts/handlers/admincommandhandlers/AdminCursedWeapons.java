@@ -135,22 +135,22 @@ public class AdminCursedWeapons implements IAdminCommandHandler
 						replyMSG.append("<tr><td>"+MessageTable.Messages[1173].getMessage()+"</td><td>" + String.valueOf(cw.getPlayerKarma()) + "</td></tr>");
 						replyMSG.append("<tr><td>"+MessageTable.Messages[1174].getMessage()+"</td><td>" + String.valueOf(cw.getPlayerPkKills()) + "/" + String.valueOf(cw.getNbKills()) + "</td></tr>");
 						replyMSG.append("<tr><td>"+MessageTable.Messages[1175].getMessage()+"</td><td>" + String.valueOf(cw.getTimeLeft() / 60000) + " "+MessageTable.Messages[1178].getMessage()+"</td></tr>");
-						replyMSG.append("<tr><td><button value=\""+MessageTable.Messages[1176].getMessage()+"\" action=\"bypass -h admin_cw_remove " + String.valueOf(itemId) + "\" width=73 height=15 back=\"L2UI_ct1.button_df\" fore=\"L2UI_ct1.button_df\"></td>");
-						replyMSG.append("<td><button value=\""+MessageTable.Messages[1177].getMessage()+"\" action=\"bypass -h admin_cw_goto " + String.valueOf(itemId) + "\" width=73 height=15 back=\"L2UI_ct1.button_df\" fore=\"L2UI_ct1.button_df\"></td></tr>");
+						replyMSG.append("<tr><td><button value=\""+MessageTable.Messages[1176].getMessage()+"\" action=\"bypass -h admin_cw_remove " + String.valueOf(itemId) + "\" width=73 height=21 back=\"L2UI_ct1.button_df\" fore=\"L2UI_ct1.button_df\"></td>");
+						replyMSG.append("<td><button value=\""+MessageTable.Messages[1177].getMessage()+"\" action=\"bypass -h admin_cw_goto " + String.valueOf(itemId) + "\" width=73 height=21 back=\"L2UI_ct1.button_df\" fore=\"L2UI_ct1.button_df\"></td></tr>");
 					}
 					else if (cw.isDropped())
 					{
 						replyMSG.append("<tr><td>"+MessageTable.Messages[1179].getMessage()+"</td><td>"+MessageTable.Messages[1180].getMessage()+"</td></tr>");
 						replyMSG.append("<tr><td>"+MessageTable.Messages[1175].getMessage()+"</td><td>" + String.valueOf(cw.getTimeLeft() / 60000) + " "+MessageTable.Messages[1178].getMessage()+"</td></tr>");
 						replyMSG.append("<tr><td>"+MessageTable.Messages[1174].getMessage()+"</td><td>" + String.valueOf(cw.getNbKills()) + "</td></tr>");
-						replyMSG.append("<tr><td><button value=\""+MessageTable.Messages[1176].getMessage()+"\" action=\"bypass -h admin_cw_remove " + String.valueOf(itemId) + "\" width=73 height=15 back=\"L2UI_ct1.button_df\" fore=\"L2UI_ct1.button_df\"></td>");
-						replyMSG.append("<td><button value=\""+MessageTable.Messages[1177].getMessage()+"\" action=\"bypass -h admin_cw_goto " + String.valueOf(itemId) + "\" width=73 height=15 back=\"L2UI_ct1.button_df\" fore=\"L2UI_ct1.button_df\"></td></tr>");
+						replyMSG.append("<tr><td><button value=\""+MessageTable.Messages[1176].getMessage()+"\" action=\"bypass -h admin_cw_remove " + String.valueOf(itemId) + "\" width=73 height=21 back=\"L2UI_ct1.button_df\" fore=\"L2UI_ct1.button_df\"></td>");
+						replyMSG.append("<td><button value=\""+MessageTable.Messages[1177].getMessage()+"\" action=\"bypass -h admin_cw_goto " + String.valueOf(itemId) + "\" width=73 height=21 back=\"L2UI_ct1.button_df\" fore=\"L2UI_ct1.button_df\"></td></tr>");
 					}
 					else
 					{
 						replyMSG.append("<tr><td>"+MessageTable.Messages[1179].getMessage()+"</td><td>"+MessageTable.Messages[1181].getMessage()+"</td></tr>");
 						replyMSG.append("<tr><td><button value=\""+MessageTable.Messages[1182].getMessage()+"\" action=\"bypass -h admin_cw_add " + String.valueOf(itemId)
-								+ "\" width=99 height=15 back=\"L2UI_ct1.button_df\" fore=\"L2UI_ct1.button_df\"></td><td></td></tr>");
+								+ "\" width=130 height=21 back=\"L2UI_ct1.button_df\" fore=\"L2UI_ct1.button_df\"></td><td></td></tr>");
 					}
 					replyMSG.append("</table>");
 					replyMSG.append("<br>");
