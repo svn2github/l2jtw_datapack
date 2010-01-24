@@ -64,28 +64,8 @@ public class Blow implements ISkillHandler
 			return;
 		for (L2Character target: (L2Character[]) targets)
 		{
-			if (target.isAlikeDead())
-				continue;
-			
-			// Check firstly if target dodges skill
-			final boolean skillIsEvaded = Formulas.calcPhysicalSkillEvasion(target, skill);
-			
-			byte _successChance = SIDE;
-			
-			if (activeChar.isBehindTarget())
-				_successChance = BEHIND;
-			else if (activeChar.isInFrontOfTarget())
-				_successChance = FRONT;
-			
-			
-			//If skill requires Crit or skill requires behind,
-			//calculate chance based on DEX, Position and on self BUFF
-			boolean success = true;
-			if ((skill.getCondition() & L2Skill.COND_BEHIND) != 0)
-				success = (_successChance == BEHIND);
-			if ((skill.getCondition() & L2Skill.COND_CRIT) != 0)
-				success = (success && Formulas.calcBlow(activeChar, target, _successChance));
-			if (!skillIsEvaded && success)
+
+			if (activeChar.CRIT_ATTACK == 1)
 			{
 				final byte reflect = Formulas.calcSkillReflect(target, skill);
 				
@@ -255,6 +235,8 @@ public class Blow implements ISkillHandler
 				effect.exit();
 			skill.getEffectsSelf(activeChar);
 		}
+	
+		activeChar.CRIT_ATTACK == 0;
 	}
 	
 	public L2SkillType[] getSkillIds()
