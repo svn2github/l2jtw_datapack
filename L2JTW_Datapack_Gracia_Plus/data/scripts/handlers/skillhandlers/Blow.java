@@ -236,7 +236,7 @@ public class Blow implements ISkillHandler
 			skill.getEffectsSelf(activeChar);
 		}
 	
-		activeChar.CRIT_ATTACK == 0;
+		activeChar.CRIT_ATTACK = 0;
 	}
 	
 	public L2SkillType[] getSkillIds()
