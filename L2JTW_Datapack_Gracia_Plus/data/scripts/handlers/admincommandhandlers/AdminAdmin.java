@@ -76,7 +76,6 @@ public class AdminAdmin implements IAdminCommandHandler
 		"admin_tradeoff",
 		"admin_reload",
 		"admin_set",
-		"admin_set_menu",
 		"admin_set_mod",
 		"admin_saveolymp",
 		"admin_manualhero",
@@ -354,9 +353,7 @@ public class AdminAdmin implements IAdminCommandHandler
 			{
 				if (cmd.length == 3)
 				{
-					if (cmd[2].equalsIgnoreCase("menu"))
-						AdminHelpPage.showHelpPage(activeChar, "settings.htm");
-					else if (cmd[2].equalsIgnoreCase("mod"))
+					if (cmd[2].equalsIgnoreCase("mod"))
 						AdminHelpPage.showHelpPage(activeChar, "mods_menu.htm");
 				}
 			}

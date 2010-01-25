@@ -1,12 +1,17 @@
 ﻿<html><title>L2J 遊戲管理</title><body> 
 <center>
-<table width=270 border=0 bgcolor="666666">
+<table width=270 border=0>
 <tr>
-<td><button value="首頁" action="bypass -h admin_admin" width=50 height=15 back="L2UI_ct1.button_df" fore="L2UI_ct1.button_df"></td>
-<td><button value="遊戲" action="bypass -h admin_admin2" width=50 height=15 back="L2UI_ct1.button_df" fore="L2UI_ct1.button_df"></td>
-<td><button value="效果" action="bypass -h admin_admin3" width=50 height=15 back="L2UI_ct1.button_df" fore="L2UI_ct1.button_df"></td>
-<td><button value="伺服器" action="bypass -h admin_admin4" width=50 height=15 back="L2UI_ct1.button_df" fore="L2UI_ct1.button_df"></td>
-<td><button value="模組" action="bypass -h admin_admin5" width=50 height=15 back="L2UI_ct1.button_df" fore="L2UI_ct1.button_df"></td>
+<td><button value="Main" action="bypass -h admin_admin" width=65 height=21 back="L2UI_ct1.button_df" fore="L2UI_ct1.button_df"></td>
+<td><button value="Char" action="bypass -h admin_admin6" width=65 height=21 back="L2UI_ct1.button_df" fore="L2UI_ct1.button_df"></td>
+<td><button value="Game" action="bypass -h admin_admin2" width=65 height=21 back="L2UI_ct1.button_df" fore="L2UI_ct1.button_df"></td>
+<td><button value="Effects" action="bypass -h admin_admin3" width=65 height=21 back="L2UI_ct1.button_df" fore="L2UI_ct1.button_df"></td>
+</tr>
+<tr>
+<td><button value="Mods" action="bypass -h admin_admin5" width=65 height=21 back="L2UI_ct1.button_df" fore="L2UI_ct1.button_df"></td>
+<td><button value="Server" action="bypass -h admin_admin4" width=65 height=21 back="L2UI_ct1.button_df" fore="L2UI_ct1.button_df"></td>
+<td><button value="Config" action="bypass -h admin_config_server" width=65 height=21 back="L2UI_ct1.button_df" fore="L2UI_ct1.button_df"></td>
+<td><button value="GM" action="bypass -h admin_admin7" width=65 height=21 back="L2UI_ct1.button_df" fore="L2UI_ct1.button_df"></td>
 </tr>
 </table>
 <br>
@@ -18,24 +23,7 @@
 </tr>
 </table>
 <br>
-人物:
-<table width=240>
-<tr>
-<td><button value="列表" action="bypass -h admin_show_characters 0" width=82 height=20 back="L2UI_ct1.button_df" fore="L2UI_ct1.button_df"></td>
-<td><button value="名稱" action="bypass -h admin_changename $qbox" width=82 height=20 back="L2UI_ct1.button_df" fore="L2UI_ct1.button_df"></td>
-<td><button value="稱號" action="bypass -h admin_settitle $qbox" width=82 height=20 back="L2UI_ct1.button_df" fore="L2UI_ct1.button_df"></td>
-</tr>
-<tr>
-<td><button value="管理" action="bypass -h admin_char_manage" width=82 height=20 back="L2UI_ct1.button_df" fore="L2UI_ct1.button_df"></td>
-<td><button value="檢視效果" action="bypass -h admin_getbuffs $qbox" width=82 height=20 back="L2UI_ct1.button_df" fore="L2UI_ct1.button_df"></td>
-<td><button value="重覆連線" action="bypass -h admin_find_dualbox $qbox" width=82 height=20 back="L2UI_ct1.button_df" fore="L2UI_ct1.button_df"></td>
-</tr>
-<tr>
-<td><button value="設定聲望" action="bypass -h admin_setfame $qbox" width=82 height=20 back="L2UI_ct1.button_df" fore="L2UI_ct1.button_df"></td>
-</tr>
-</table>
-<br>
-血盟:
+血盟相關:
 <table width=240>
 <tr>
 <td><button value="創造" action="bypass -h admin_pledge create $qbox" width=82 height=20 back="L2UI_ct1.button_df" fore="L2UI_ct1.button_df"></td>
@@ -48,7 +36,7 @@
 </tr>
 </table>
 <br>
-戰爭:
+戰爭相關:
 <table width=240>
 <tr>
 <td><button value="城堡/根據地" action="bypass -h admin_siege" width=82 height=20 back="L2UI_ct1.button_df" fore="L2UI_ct1.button_df"></td>
@@ -57,7 +45,7 @@
 </tr>
 </table>
 <br>
-受詛咒武器:
+受詛咒的武器:
 <table width=240>
 <tr>
 <td><button value="資訊" action="bypass -h admin_cw_info_menu $qbox" width=82 height=20 back="L2UI_ct1.button_df" fore="L2UI_ct1.button_df"></td>
@@ -75,8 +63,15 @@
 </tr>
 </table>
 <br>
+莊園:
+<table width=125>
+<tr>
+<td><button value="莊園資訊" action="bypass -h admin_manor" width=125 height=20 back="L2UI_ct1.button_df" fore="L2UI_ct1.button_df"></td>
+</tr>
+</table>
+<br>
 奧林匹亞:
-<table width=240>
+<table width=250>
 <tr>
 <td><button value="儲存奧林匹亞" action="bypass -h admin_saveolymp" width=125 height=20 back="L2UI_ct1.button_df" fore="L2UI_ct1.button_df"></td>
 <td><button value="手動設定英雄" action="bypass -h admin_manualhero" width=125 height=20 back="L2UI_ct1.button_df" fore="L2UI_ct1.button_df"></td>
@@ -84,4 +79,5 @@
 </table>
 <br>
 </center>
+Server Software: Running L2J created by L2Chef and the L2J team. www.l2jserver.com for details.
 </body></html>

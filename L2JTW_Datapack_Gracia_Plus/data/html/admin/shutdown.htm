@@ -1,23 +1,23 @@
-﻿<html><title>伺服器管理</title><body>
-<table width=260><tr>
-<td width=40><button value="首頁" action="bypass -h admin_admin" width=40 height=15 back="L2UI_ct1.button_df" fore="L2UI_ct1.button_df"></td>
+﻿<html><title>關閉伺服器</title><body>
+<table width=270><tr>
+<td width=45><button value="首頁" action="bypass -h admin_admin" width=45 height=21 back="L2UI_ct1.button_df" fore="L2UI_ct1.button_df"></td>
 <td width=180><center>伺服器管理</center></td>
-<td width=40><button value="返回" action="bypass -h admin_admin4" width=40 height=15 back="L2UI_ct1.button_df" fore="L2UI_ct1.button_df"></td>
+<td width=45><button value="返回" action="bypass -h admin_admin4" width=45 height=21 back="L2UI_ct1.button_df" fore="L2UI_ct1.button_df"></td>
 </tr></table><br>
-<table width=240><tr>
-<td width=60>關閉時間:</td>
+<table width=270><tr>
+<td width=100>關閉時間:</td>
 <td><edit var="qbox" width=120 height=15></td>
-<td><button value="幫助" action="bypass -h admin_help help/shutdown.htm" width=45 height=15 back="L2UI_ct1.button_df" fore="L2UI_ct1.button_df"></td>
+<td><button value="幫助" action="bypass -h admin_help help/shutdown.htm" width=45 height=21 back="L2UI_ct1.button_df" fore="L2UI_ct1.button_df"></td>
 </tr></table><br><br>
-<table width=260>	
+<table width=270>	
 <tr><td>線上人數: </td><td>%count%</td></tr>
-<tr><td>記憶使用: </td><td>%used% bytes</td></tr>
+<tr><td>RAM 使用: </td><td>%used% bytes</td></tr>
 <tr><td>遊戲倍率: </td><td>%xp%x, %sp%x, %adena%x, %drop%x</td></tr>
 <tr><td>遊戲時間: </td><td>%time%</td></tr>
 </table><br><br>
 <center><table><tr><td>
-<button value="關閉系統" action="bypass -h admin_server_shutdown $qbox" width=60 height=15 back="L2UI_ct1.button_df" fore="L2UI_ct1.button_df"></td><td>			
-<button value="重新啟動" action="bypass -h admin_server_restart $qbox" width=60 height=15 back="L2UI_ct1.button_df" fore="L2UI_ct1.button_df"></td><td>			
-<button value="取消關閉" action="bypass -h admin_server_abort" width=60 height=15 back="L2UI_ct1.button_df" fore="L2UI_ct1.button_df"></td></tr>
+<button value="關閉系統" action="bypass -h admin_server_shutdown $qbox" width=80 height=21 back="L2UI_ct1.button_df" fore="L2UI_ct1.button_df"></td><td>			
+<button value="重新啟動" action="bypass -h admin_server_restart $qbox" width=80 height=21 back="L2UI_ct1.button_df" fore="L2UI_ct1.button_df"></td><td>			
+<button value="取消關閉" action="bypass -h admin_server_abort" width=80 height=21 back="L2UI_ct1.button_df" fore="L2UI_ct1.button_df"></td></tr>
 </table></center>
 </body></html>

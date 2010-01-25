@@ -20,7 +20,6 @@ import java.util.StringTokenizer;
 import com.l2jserver.Config;
 import com.l2jserver.gameserver.communitybbs.Manager.RegionBBSManager;
 import com.l2jserver.gameserver.datatables.SkillTable;
-import com.l2jserver.gameserver.handler.AdminCommandHandler;
 import com.l2jserver.gameserver.handler.IAdminCommandHandler;
 import com.l2jserver.gameserver.model.L2Object;
 import com.l2jserver.gameserver.model.L2Skill;
@@ -131,9 +130,7 @@ public class AdminEffects implements IAdminCommandHandler
 			}
 			RegionBBSManager.getInstance().changeCommunityBoard();
 			command = "";
-			IAdminCommandHandler ach = AdminCommandHandler.getInstance().getAdminCommandHandler("admin_admin7");
-			if (ach != null)
-				ach.useAdminCommand("admin_admin7", activeChar);
+			AdminHelpPage.showHelpPage(activeChar, "gm_menu.htm");
 		}
 		else if (command.startsWith("admin_invis"))
 		{
@@ -358,6 +355,11 @@ public class AdminEffects implements IAdminCommandHandler
 			catch (Exception e)
 			{
 				activeChar.sendMessage(427);
+			}
+			if(command.contains("_menu"))
+			{
+				command="";
+				AdminHelpPage.showHelpPage(activeChar, "gm_menu.htm");
 			}
 		}
 		else if (command.startsWith("admin_polyself"))

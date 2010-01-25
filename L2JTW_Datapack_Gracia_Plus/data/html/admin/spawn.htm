@@ -1,9 +1,9 @@
 ﻿<html><title>召喚選單</title><body>
 <center>
 <table width=270><tr>
-<td width=40><button value="首頁" action="bypass -h admin_admin" width=40 height=15 back="L2UI_ct1.button_df" fore="L2UI_ct1.button_df"></td>
+<td width=45><button value="首頁" action="bypass -h admin_admin" width=45 height=21 back="L2UI_ct1.button_df" fore="L2UI_ct1.button_df"></td>
 <td width=180><center><button value="召喚NPC" action="bypass -h admin_show_npcs" width=70 height=15 back="L2UI_ct1.button_df" fore="L2UI_ct1.button_df"></center></td>
-<td width=40><button value="返回" action="bypass -h admin_spawn" width=40 height=15 back="L2UI_ct1.button_df" fore="L2UI_ct1.button_df"></td>
+<td width=45><button value="返回" action="bypass -h admin_spawn" width=45 height=21 back="L2UI_ct1.button_df" fore="L2UI_ct1.button_df"></td>
 </tr></table><br>
 召喚 NPC/怪物 ID:<font color="LEVEL"> [*]</font>
 <table width=270><tr>
@@ -11,14 +11,14 @@
 <td width=60><edit var="id" width=60 height=15></td>
 <td width=15><edit var="qty" width=15 height=15></td>
 <td width=45><button value="永久" action="bypass -h admin_spawn_monster $id $qty" width=45 height=15 back="L2UI_ct1.button_df" fore="L2UI_ct1.button_df"></td>
-<td width=45><button value="短暫" action="bypass -h admin_spawn_once $id $qty" width=45 height=15 back="L2UI_ct1.button_df" fore="L2UI_ct1.button_df"></td>
+<td width=45><button value="暫時" action="bypass -h admin_spawn_once $id $qty" width=45 height=15 back="L2UI_ct1.button_df" fore="L2UI_ct1.button_df"></td>
 </tr></table><br>
 特別的:
 <table width=270>
 <tr>
-<td><button value="重新讀取" action="bypass -h admin_spawn_reload" width=90 height=20 back="L2UI_ct1.button_df" fore="L2UI_ct1.button_df"></td>
-<td><button value="NPC關閉" action="bypass -h admin_unspawnall" width=90 height=20 back="L2UI_ct1.button_df" fore="L2UI_ct1.button_df"></td>
-<td><button value="NPC重開" action="bypass -h admin_respawnall" width=90 height=20 back="L2UI_ct1.button_df" fore="L2UI_ct1.button_df"></td>
+	<td><button value="重新讀取" action="bypass -h admin_spawn_reload" width=90 height=20 back="L2UI_ct1.button_df" fore="L2UI_ct1.button_df"></td>
+	<td><button value="移除所有NPC" action="bypass -h admin_unspawnall" width=90 height=20 back="L2UI_ct1.button_df" fore="L2UI_ct1.button_df"></td>
+	<td><button value="重新召喚NPC" action="bypass -h admin_respawnall" width=90 height=20 back="L2UI_ct1.button_df" fore="L2UI_ct1.button_df"></td>
 </tr>
 <tr>
 <td><button value="夜晚型" action="bypass -h admin_spawnnight" width=90 height=15 back="L2UI_ct1.button_df" fore="L2UI_ct1.button_df"></td>
@@ -26,5 +26,7 @@
 <td></td>
 </tr>
 </table>
-</center>
+</center><br>
+[*]: Names are case insensitive, but you must use underscores instead of spaces.<br>
+You can leave qty field empty if you don't need more than one mob.
 </body></html>
