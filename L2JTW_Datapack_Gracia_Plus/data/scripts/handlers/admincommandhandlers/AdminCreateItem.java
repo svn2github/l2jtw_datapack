@@ -194,21 +194,21 @@ public class AdminCreateItem implements IAdminCommandHandler
 	private int getCoinId(String name)
 	{
 		int id;
-		if (name.equalsIgnoreCase("adena"))
+		if (name.equalsIgnoreCase("金幣"))
 			id = 57;
-		else if (name.equalsIgnoreCase("ancientadena"))
+		else if (name.equalsIgnoreCase("古代的金幣"))
 			id = 5575;
-		else if (name.equalsIgnoreCase("festivaladena"))
+		else if (name.equalsIgnoreCase("慶典金幣"))
 			id = 6673;
-		else if (name.equalsIgnoreCase("blueeva"))
+		else if (name.equalsIgnoreCase("藍色伊娃"))
 			id = 4355;
-		else if (name.equalsIgnoreCase("goldeinhasad"))
+		else if (name.equalsIgnoreCase("金色殷海薩"))
 			id = 4356;
-		else if (name.equalsIgnoreCase("silvershilen"))
+		else if (name.equalsIgnoreCase("銀色席琳"))
 			id = 4357;
-		else if (name.equalsIgnoreCase("bloodypaagrio"))
+		else if (name.equalsIgnoreCase("血紅色帕格立歐"))
 			id = 4358;
-		else if (name.equalsIgnoreCase("fantasyislecoin"))
+		else if (name.equalsIgnoreCase("夢幻島代幣"))
 			id = 13067;
 		else id = 0;
 		
