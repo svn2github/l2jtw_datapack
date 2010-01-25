@@ -210,21 +210,7 @@ public class Blow implements ISkillHandler
 			}
 			
 			// Sending system messages
-			if (skillIsEvaded)
-			{
-				if (activeChar instanceof L2PcInstance)
-				{
-					SystemMessage sm = new SystemMessage(SystemMessageId.C1_DODGES_ATTACK);
-					sm.addString(target.getName());
-					((L2PcInstance) activeChar).sendPacket(sm);
-				}
-				if (target instanceof L2PcInstance)
-				{
-					SystemMessage sm = new SystemMessage(SystemMessageId.AVOIDED_C1_ATTACK);
-					sm.addString(activeChar.getName());
-					((L2PcInstance) target).sendPacket(sm);
-				}
-			}
+
 			
 			//Possibility of a lethal strike
 			Formulas.calcLethalHit(activeChar, target, skill);
@@ -236,7 +222,6 @@ public class Blow implements ISkillHandler
 			skill.getEffectsSelf(activeChar);
 		}
 	
-		activeChar.CRIT_ATTACK = 0;
 	}
 	
 	public L2SkillType[] getSkillIds()
