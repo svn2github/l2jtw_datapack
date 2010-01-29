@@ -3,8 +3,7 @@
 
 CREATE TABLE IF NOT EXISTS `admin_command_access_rights` (
   `adminCommand` varchar(255) NOT NULL default 'admin_',
-  `accessLevels` varchar(255) NOT NULL,
-  PRIMARY KEY (`adminCommand`)
+  `accessLevels` varchar(255) NOT NULL
 );
 
 INSERT IGNORE INTO `admin_command_access_rights` VALUES
@@ -18,6 +17,7 @@ INSERT IGNORE INTO `admin_command_access_rights` VALUES
 ('admin_admin5','1'),
 ('admin_admin6','1'),
 ('admin_admin7','1'),
+('admin_admin8','1'),
 ('admin_gmliston','1'),
 ('admin_gmlistoff','1'),
 ('admin_silence','1'),
@@ -132,6 +132,8 @@ INSERT IGNORE INTO `admin_command_access_rights` VALUES
 ('admin_summon_info','1'),
 ('admin_summon_setlvl','1'),
 ('admin_unsummon','1'),
+('admin_show_pet_inv','1'),
+('admin_partyinfo','1'),
 
 -- EDIT NPC
 ('admin_edit_npc','1'),
