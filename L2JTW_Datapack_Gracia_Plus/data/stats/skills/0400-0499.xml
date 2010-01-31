@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <list>
 	<skill id="400" levels="10" name="Tribunal" enchantLevels1="30" enchantLevels2="30" enchantLevels3="30" enchantLevels4="30">
-		<table name="#ench1Power"> 1548 1562 1576 1590 1604 1617 1631 1645 1659 1673 1686 1700 1714 1728 1742 1755 1769 1783 1797 1811 1824 1838 1852 1866 1880 1893 1907 1921 1935 1949 </table>
+		<table name="#ench1Power"> 1568 1601 1634 1668 1701 1734 1768 1801 1834 1868 1901 1934 1967 2001 2034 2067 2101 2134 2167 2201 2234 2267 2300 2334 2367 2400 2434 2467 2500 2534 </table>
 		<table name="#ench2MpConsume"> 70 69 68 67 66 64 63 62 61 60 58 57 56 55 54 52 51 50 49 48 46 45 44 43 42 40 39 38 37 36 </table>
 		<table name="#enchantMagicLvl"> 76 76 76 77 77 77 78 78 78 79 79 79 80 80 80 81 81 81 82 82 82 82 83 83 83 84 84 85 85 85 </table>
 		<enchant1 name="magicLvl" val="#enchantMagicLvl" />
@@ -193,14 +193,13 @@
 		<table name="#rCrit"> 33 66 100 </table>
 		<table name="#cAtk"> 1.33 1.66 2 </table>
 		<table name="#stackOrder"> 1 2 3 </table>
-		<set name="condition" val="32" />
 		<set name="hitTime" val="2000" />
 		<set name="mpConsume" val="#mpConsume" />
 		<set name="operateType" val="OP_ACTIVE" />
 		<set name="reuseDelay" val="300000" />
 		<set name="skillType" val="BUFF" />
 		<set name="target" val="TARGET_SELF" />
-		<cond msgId="113" addName="1"><!-- Update by rocknow -->
+		<cond msgId="113" addName="1">
 			<player hp="30" />
 		</cond>
 		<for>
@@ -299,7 +298,7 @@
 		<set name="mpConsume" val="#mpConsume" />
 		<set name="power" val="#power" />
 		<set name="target" val="TARGET_ONE" />
-		<set name="condition" val="16" />
+		<set name="condition" val="16" /> <!-- Crit -->
 		<set name="reuseDelay" val="30000" />
 		<set name="hitTime" val="1300" />
 		<set name="skillType" val="BLOW" />
@@ -531,13 +530,12 @@
 		<table name="#cAtk"> 1.3 1.6 2 </table>
 		<set name="hpConsume" val="#hpConsume" />
 		<set name="mpConsume" val="#mpConsume" />
-		<set name="condition" val="32" />
 		<set name="reuseDelay" val="300000" />
 		<set name="hitTime" val="2000" />
 		<set name="target" val="TARGET_SELF" />
 		<set name="skillType" val="BUFF" />
 		<set name="operateType" val="OP_ACTIVE" />
-		<cond msgId="113" addName="1"><!-- Update by rocknow -->
+		<cond msgId="113" addName="1">
 			<player hp="30" />
 		</cond>
 		<for>
@@ -892,11 +890,14 @@
 	<skill id="441" levels="1" name="Force Meditation">
 		<set name="negateId" val="441" />
 		<set name="hitTime" val="2000" />
-		<set name="numCharges" val="3" />
+		<set name="numCharges" val="3" /> <!-- 3 Charges are consumed -->
 		<set name="operateType" val="OP_ACTIVE" />
 		<set name="reuseDelay" val="900000" />
 		<set name="skillType" val="BUFF" />
 		<set name="target" val="TARGET_SELF" />
+		<cond msgId="113" addName="1">
+			<player Charges="3" /> <!-- Must recharge 3rd energy stage. -->
+		</cond>
 		<for>
 			<effect name="ImmobileUntilAttacked" time="60" val="0">
 				<mul order="0x30" stat="pDef" val="0.2" />
@@ -906,7 +907,7 @@
 		</for>
 	</skill>
 	<skill id="442" levels="1" name="Sonic Barrier">
-		<set name="numCharges" val="5" />
+		<set name="numCharges" val="5" /> <!-- 5 Charges are consumed -->
 		<set name="weaponsAllowed" val="512" /> <!-- Dual Sword -->
 		<set name="mpConsume" val="65" />
 		<set name="target" val="TARGET_SELF" />
@@ -915,6 +916,9 @@
 		<set name="skillType" val="BUFF" />
 		<set name="operateType" val="OP_ACTIVE" />
 		<set name="removedOnAnyActionExceptMove" val="true" />
+		<cond msgId="113" addName="1">
+			<player Charges="5" /> <!-- Requires a dualsword weapon. Requires 5th stage Sword Energy. -->
+		</cond>
 		<for>
 			<effect name="Invincible" time="10" val="0" stackOrder="1" stackType="Instant_Shield" />
 		</for>
@@ -927,8 +931,11 @@
 		<set name="reuseDelay" val="900000" />
 		<set name="skillType" val="BUFF" />
 		<set name="operateType" val="OP_ACTIVE" />
-		<set name="numCharges" val="4" />
+		<set name="numCharges" val="4" /> <!-- 4 Charges are consumed -->
 		<set name="removedOnAnyActionExceptMove" val="true" />
+		<cond msgId="113" addName="1">
+			<player Charges="4" /> <!-- Requires a hand-to-hand weapon. Requires 4th stage Energy. -->
+		</cond>
 		<for>
 			<effect name="Invincible" time="10" val="0" stackOrder="1" stackType="Instant_Shield" />
 		</for>
@@ -1052,7 +1059,7 @@
 	</skill>
 	<skill id="451" levels="2" name="Sonic Move">
 		<set name="weaponsAllowed" val="512" /> <!-- Dual Sword -->
-		<table name="#numCharges"> 2 3 </table>
+		<table name="#numCharges"> 2 3 </table> <!-- 2 3 Charges are consumed -->
 		<table name="#runSpd"> 40 66 </table>
 		<table name="#mpConsume"> 29 32 </table>
 		<set name="hitTime" val="1000" />
@@ -1062,6 +1069,9 @@
 		<set name="mpConsume" val="#mpConsume" />
 		<set name="operateType" val="OP_ACTIVE" />
 		<set name="skillType" val="BUFF" />
+		<cond msgId="113" addName="1">
+			<player Charges="#numCharges" /> <!-- Requires 2nd 3rd stage of Sword Energy recharge. -->
+		</cond>
 		<for>
 			<effect name="Buff" time="15" val="0" stackOrder="#runSpd" stackType="speed_up_special">
 				<add order="0x40" stat="runSpd" val="#runSpd" />
@@ -1268,7 +1278,7 @@
 	</skill>
 	<skill id="461" levels="2" name="Break Duress">
 		<table name="#mpConsume"> 33 37 </table>
-		<table name="#numCharges"> 2 3 </table>
+		<table name="#numCharges"> 2 3 </table> <!-- 2 3 Charges are consumed -->
 		<set name="hitTime" val="3000" />
 		<set name="mpConsume" val="#mpConsume" />
 		<set name="negateStats" val="ROOT" />
@@ -1277,6 +1287,9 @@
 		<set name="reuseDelay" val="4000" />
 		<set name="skillType" val="NEGATE" />
 		<set name="target" val="TARGET_SELF" />
+		<cond msgId="113" addName="1">
+			<player Charges="#numCharges" /> <!-- Level 2 3 Focused Force charge required. -->
+		</cond>
 	</skill>
 	<skill id="462" levels="1" name="Guilted Body">
 		<set name="target" val="TARGET_SELF" />

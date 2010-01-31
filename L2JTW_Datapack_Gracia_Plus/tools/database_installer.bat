@@ -4,7 +4,7 @@ REM ## L2JDP Database Installer - (by DrLecter) ##
 REM ##############################################
 REM ## Interactive script setup -  (by TanelTM) ##
 REM ##############################################
-REM Copyright (C) 2009 L2J DataPack
+REM Copyright (C) 2010 L2J DataPack
 REM This program is free software; you can redistribute it and/or modify 
 REM it under the terms of the GNU General Public License as published by 
 REM the Free Software Foundation; either version 2 of the License, or (at
@@ -679,15 +679,6 @@ gameservers.sql
 ) do call :dump %%i
 set dest=gs
 for %%i in (
-access_levels.sql
-auction.sql
-castle.sql
-clanhall.sql
-fort.sql
-forums.sql
-npc_buffer.sql
-seven_signs_festival.sql
-seven_signs_status.sql
 admin_command_access_rights.sql
 armor.sql
 armorsets.sql
@@ -764,6 +755,7 @@ merchants.sql
 messages.sql
 minions.sql
 npc.sql
+npc_buffer.sql
 npcAIData.sql
 npcskills.sql
 olympiad_data.sql
@@ -788,7 +780,7 @@ spawnlist.sql
 special_skill_trees.sql
 teleport.sql
 topic.sql
-transform_skill_trees.sql
+transform_skill_trees.sql;
 walker_routes.sql
 weapon.sql
 zone_vertices.sql
@@ -801,6 +793,19 @@ l2jtw_addon_0.sql
 l2jtw_addon_1.sql
 l2jtw_addon_2.sql
 ) do call :dump %%i
+
+if %full% == 1 (
+for %%i in (
+access_levels.sql
+auction.sql
+castle.sql
+clanhall.sql
+fort.sql
+forums.sql
+seven_signs_festival.sql
+seven_signs_status.sql
+) do call :dump %%i 
+)
 echo งนฆจ...
 echo.
 goto custom

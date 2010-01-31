@@ -120,7 +120,11 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 			<!-- SA: Cheap Shot -->
 			<!-- Notes: There is no SA skill for this one. It's actually modified on the weapon itself. -->
-			<mul val="0.96" order="0x30" stat="MpConsume" /><!-- Update by rocknow -->
+			<set order="0x08" stat="MpConsume" val="1">
+				<and>
+					<game skill="false" chance="26" />
+				</and>
+			</set>
 		</for>
 	</item>
 	<item id="10444" name="Icarus Spitter - Guidance">
@@ -415,7 +419,7 @@
 	<item id="10474" name="Shadow Item - Apprentice's Staff">
 		<for>
 			<set val="23" order="0x08" stat="pAtk" />
-			<set val="24" order="0x08" stat="mAtk" /><!-- Update by rocknow -->
+			<set val="22" order="0x08" stat="mAtk" />
 			<set val="4" order="0x08" stat="rCrit" />
 			<add val="4" order="0x10" stat="accCombat" />
 			<set val="325" order="0x08" stat="pAtkSpd" />
