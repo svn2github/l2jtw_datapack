@@ -369,7 +369,7 @@
 		<set name="castRange" val="400" />
 		<set name="effectRange" val="900" />
 		<for>
-			<effect name="RemoveTarget" val="0" />
+			<effect name="RemoveTarget" noicon="1" val="0" />
 		</for>
 	</skill>
 	<skill id="4619" levels="1" name="NPC Dispel Sleep">
@@ -1582,6 +1582,7 @@
 		<set name="magicLvl" val="75" />
 		<set name="power" val="21423" />
 		<set name="target" val="TARGET_MULTIFACE" />
+		<set name="flyRadius" val="500" />
 		<set name="skillRadius" val="250" />
 		<set name="coolTime" val="3000" />
 		<set name="hitTime" val="3000" />

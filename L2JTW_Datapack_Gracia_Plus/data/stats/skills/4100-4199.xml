@@ -139,6 +139,7 @@
 		<set name="magicLvl" val="70" />
 		<set name="power" val="11000" />
 		<set name="target" val="TARGET_MULTIFACE" />
+		<set name="flyRadius" val="500" />
 		<set name="skillRadius" val="1500" />
 		<set name="overHit" val="true" />
 		<set name="coolTime" val="3000" />
@@ -1121,7 +1122,7 @@
 		<set name="magicLvl" val="#magicLvl" />
 		<set name="power" val="#power" />
 		<set name="mpConsume" val="#mpConsume" />
-		<set name="condition" val="16" />
+		<set name="condition" val="16" /> <!-- Crit -->
 		<set name="target" val="TARGET_ONE" />
 		<set name="hitTime" val="830" />
 		<set name="skillType" val="BLOW" />
@@ -1300,7 +1301,7 @@
 		<set name="magicLvl" val="#magicLvl" />
 		<set name="power" val="#power" />
 		<set name="mpConsume" val="#mpConsume" />
-		<set name="condition" val="16" />
+		<set name="condition" val="16" /> <!-- Crit -->
 		<set name="target" val="TARGET_ONE" />
 		<set name="hitTime" val="830" />
 		<set name="skillType" val="BLOW" />

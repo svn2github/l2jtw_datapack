@@ -72,7 +72,7 @@
 		<set name="skillType" val="BUFF" />
 		<set name="target" val="TARGET_PARTY_MEMBER" />
 		<for>
-			<effect name="Buff" time="300" val="0" stackOrder="1" stackType="multi_buff">
+			<effect name="Buff" time="120" val="0" stackOrder="1" stackType="multi_buff">
 				<add order="0x40" stat="mCritRate" val="2" />
 				<mul order="0x30" stat="regMp" val="1.2" />
 				<mul order="0x30" stat="pAtk" val="1.1" />
@@ -101,7 +101,7 @@
 		<set name="skillType" val="BUFF" />
 		<set name="target" val="TARGET_PARTY_MEMBER" />
 		<for>
-			<effect name="Buff" time="300" val="0" stackOrder="1" stackType="multi_buff">
+			<effect name="Buff" time="120" val="0" stackOrder="1" stackType="multi_buff">
 				<mul order="0x30" stat="maxMp" val="1.2" />
 				<mul order="0x30" stat="regHp" val="1.2" />
 				<add order="0x40" stat="mCritRate" val="2" />
@@ -132,7 +132,7 @@
 		<set name="skillType" val="BUFF" />
 		<set name="target" val="TARGET_PARTY_MEMBER" />
 		<for>
-			<effect name="Buff" time="300" val="0" stackOrder="1" stackType="multi_buff">
+			<effect name="Buff" time="120" val="0" stackOrder="1" stackType="multi_buff">
 				<mul order="0x30" stat="maxHp" val="1.2" />
 				<basemul order="0x30" stat="rCrit" val="0.2" />
 				<mul order="0x30" stat="mCritRate" val="1.2" />
@@ -1277,13 +1277,16 @@
 		<set name="lvlDepend" val="2" />
 		<set name="magicLvl" val="83" />
 		<set name="mpConsume" val="58" />
-		<set name="numCharges" val="2" />
+		<set name="numCharges" val="2" /> <!-- 2 Charges are consumed -->
 		<set name="operateType" val="OP_ACTIVE" />
 		<set name="power" val="80" /> <!-- Base Land Rate -->
 		<set name="reuseDelay" val="15000" />
 		<set name="skillType" val="DISARM" />
 		<set name="target" val="TARGET_ONE" />
 		<set name="weaponsAllowed" val="512" /> <!-- Dual Sword -->
+		<cond msgId="113" addName="1">
+			<player Charges="2" /> <!-- Need to recharge 2nd stage of Sword Energy. -->
+		</cond>
 		<for>
 			<effect name="Disarm" time="5" val="0" />
 		</for>
@@ -1296,7 +1299,7 @@
 		<set name="hitTime" val="1200" />
 		<set name="magicLvl" val="83" />
 		<set name="mpConsume" val="37" />
-		<set name="numCharges" val="2" />
+		<set name="numCharges" val="2" /> <!-- 2 Charges are consumed -->
 		<set name="operateType" val="OP_ACTIVE" />
 		<set name="overHit" val="true" />
 		<set name="power" val="2516" />
@@ -1305,6 +1308,9 @@
 		<set name="SSBoost" val="2.0" />
 		<set name="target" val="TARGET_ONE" />
 		<set name="weaponsAllowed" val="1024" /> <!-- Dual Fist -->
+		<cond msgId="113" addName="1">
+			<player Charges="2" /> <!-- Chi Energy Stage 2 Recharge needed. -->
+		</cond>
 		<for>
 			<effect count="8" name="DamOverTime" val="212" effectPower="40" effectType="DOT" />
 		</for>
@@ -1643,6 +1649,7 @@
 			<target mindistance="200" />
 		</cond>
 		<for>
+			<effect name="EnemyCharge" noicon="1" val="0" />
 			<effect name="Stun" time="9" val="0" effectPower="60" effectType="STUN" stackOrder="1" stackType="Stun" />
 		</for>
 	</skill>

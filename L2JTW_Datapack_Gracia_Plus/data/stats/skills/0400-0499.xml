@@ -1738,7 +1738,7 @@
 			<target mindistance="200" />
 		</cond>
 		<for>
-			<effect name="EnemyCharge" val="0" />
+			<effect name="EnemyCharge" noicon="1" val="0" />
 		</for>
 	</skill>
 	<skill id="485" levels="7" name="Disarm" enchantLevels1="30" enchantLevels2="30">
@@ -1895,9 +1895,6 @@
 		<set name="SSBoost" val="2.0" />
 		<set name="target" val="TARGET_FRONT_AREA" />
 		<set name="weaponsAllowed" val="32768" /> <!-- Ancient -->
-		<cond msgId="113" addName="1">
-			<target mindistance="200" />
-		</cond>
 		<enchant1 name="magicLvl" val="#enchantMagicLvl" />
 		<enchant2 name="magicLvl" val="#enchantMagicLvl" />
 		<enchant1 name="power" val="#ench1Power" />
@@ -1909,6 +1906,12 @@
 		<enchant5 name="elementPower" val="#enchElementPower" />
 		<enchant5 name="element" val="2" />
 		<enchant6 name="elementPower" val="#enchElementPower" />
+		<cond msgId="113" addName="1">
+			<target mindistance="200" />
+		</cond>
+		<for>
+			<effect name="EnemyCharge" noicon="1" val="0" />
+		</for>
 	</skill>
 	<skill id="494" levels="37" name="Shoulder Charge" enchantLevels1="30" enchantLevels2="30">
 		<table name="#enchantMagicLvl"> 76 76 76 77 77 77 78 78 78 79 79 79 80 80 80 81 81 81 82 82 82 82 83 83 83 84 84 85 85 85 </table>
@@ -1941,11 +1944,11 @@
 			<target mindistance="200" />
 		</cond>
 		<for>
-			<effect name="EnemyCharge" val="0" />
+			<effect name="EnemyCharge" noicon="1" val="0" />
 			<effect name="Stun" time="9" val="0" effectPower="70" effectType="STUN" stackOrder="1" stackType="Stun" />
 		</for>
 		<enchant1for>
-			<effect name="EnemyCharge" val="0" />
+			<effect name="EnemyCharge" noicon="1" val="0" />
 			<effect name="Stun" time="9" val="0" effectPower="#ench1effectPower" effectType="STUN" stackOrder="1" stackType="Stun" />
 		</enchant1for>
 	</skill>
@@ -1986,22 +1989,22 @@
 			<target mindistance="200" />
 		</cond>
 		<for>
+			<effect name="EnemyCharge" noicon="1" val="0" />
 			<effect count="20" name="DamOverTime" val="#dmg" effectPower="50" effectType="BLEED" abnormal="bleed">
 				<mul order="0x30" stat="runSpd" val="0.8" />
 			</effect>
-			<effect name="EnemyCharge" val="0" />
 		</for>
 		<enchant1for>
+			<effect name="EnemyCharge" noicon="1" val="0" />
 			<effect count="20" name="DamOverTime" val="#ench1Dmg" effectPower="50" effectType="BLEED" abnormal="bleed">
 				<mul order="0x30" stat="runSpd" val="0.8" />
 			</effect>
-			<effect name="EnemyCharge" val="0" />
 		</enchant1for>
 		<enchant2for>
+			<effect name="EnemyCharge" noicon="1" val="0" />
 			<effect count="20" name="DamOverTime" val="134" effectPower="#ench2effectPower" effectType="BLEED" abnormal="bleed">
 				<mul order="0x30" stat="runSpd" val="0.8" />
 			</effect>
-			<effect name="EnemyCharge" val="0" />
 		</enchant2for>
 	</skill>
 	<skill id="496" levels="31" name="Slashing Blade" enchantLevels1="30" enchantLevels2="30" enchantLevels3="30" enchantLevels4="30" enchantLevels5="30" enchantLevels6="30">

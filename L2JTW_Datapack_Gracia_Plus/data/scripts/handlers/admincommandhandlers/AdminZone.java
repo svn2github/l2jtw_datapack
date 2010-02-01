@@ -89,8 +89,8 @@ public class AdminZone implements IAdminCommandHandler
 			
 			Location loc;
 			
-			loc = MapRegionTable.getInstance().getTeleToLocation(activeChar, MapRegionTable.TeleportWhereType.Castle);			
-			cm =  new L2CoreMessage (MessageTable.Messages[293]);
+			loc = MapRegionTable.getInstance().getTeleToLocation(activeChar, MapRegionTable.TeleportWhereType.Castle);
+			L2CoreMessage cm = new L2CoreMessage (MessageTable.Messages[293]);
 			cm.addNumber(loc.getX());
 			cm.addNumber(loc.getY());
 			cm.addNumber(loc.getZ());
@@ -116,7 +116,6 @@ public class AdminZone implements IAdminCommandHandler
 			cm.addNumber(loc.getY());
 			cm.addNumber(loc.getZ());
 			cm.sendMessage(activeChar);
-			
 		}
 		else if (actualCommand.equalsIgnoreCase("admin_zone_reload"))
 		{
