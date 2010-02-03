@@ -253,15 +253,15 @@ class Quest (JQuest) :
         while claw > 0:
           n = st.getRandom(5)
           if n < 1 :
-            st.giveItems(ALACRITY_POTION, int(ala_count*Config.RATE_QUESTS_REWARD))
+            st.rewardItems(ALACRITY_POTION,ala_count)
           elif n < 2 :
-            st.giveItems(SOULSHOT_D, int(soul_count*Config.RATE_QUESTS_REWARD))
+            st.rewardItems(SOULSHOT_D,soul_count)
           elif n < 3:
-            st.giveItems(SCROLL_ESCAPE, int(soe_count*Config.RATE_QUESTS_REWARD))
+            st.rewardItems(SCROLL_ESCAPE,soe_count)
           elif n < 4:
-            st.giveItems(SPIRITSHOT_D,int(spir_count*Config.RATE_QUESTS_REWARD))
+            st.rewardItems(SPIRITSHOT_D,spir_count)
           elif n == 4:
-            st.giveItems(HEALING_POTION,int(heal_count*Config.RATE_QUESTS_REWARD))
+            st.rewardItems(HEALING_POTION,heal_count)
           claw-=1
         if check_eye:
           return p_eye
@@ -303,43 +303,43 @@ class Quest (JQuest) :
           statue = "這是...？石像的破片？哦呵...是席琳女神的模樣...怎麼會是死亡女神，覺得有點不吉利？但是如果不是破片而是完成品，就能夠賣得到不錯的價錢...倒是有一位專家是專門修補這種遺物的...他是叫<font color=\"LEVEL\">魯皮奧</font>的鐵匠。如果把石像的破片收集後拿過去，他會給你修補成完成品。<br>" 
           tablet = "這是...？石版的破片？哦呵...沒看過的文字。難道是巨人時代的遺物？如果不是破片，而是完好的物品就可以成為珍貴的資料了。如果能把所有的破片收集到就可以拼成原樣了...假如有興趣，就去找叫<font color=\"LEVEL\">魯皮奧</font>的鐵匠吧。他是復原遺物的專家。<br>"
           if random < 21 :
-            st.giveItems(GLUDIO_APPLE,int(Config.RATE_QUESTS_REWARD))
+            st.rewardItems(GLUDIO_APPLE,1)
             return html+redfoot+standart+"<br>水果...？古魯丁特產的蘋果啊！看起來蠻好吃的耶？壞掉之前到市場去賣掉，就能賺得到一點錢。<br>"+back+htmlend
           elif random < 41:
-            st.giveItems(CORN_MEAL,int(Config.RATE_QUESTS_REWARD))
+            st.rewardItems(CORN_MEAL,1)
             return html+redfoot+standart+"<br>哦？這不是玉米粉嗎？是不是餵豬用的？反正這不是你需要的東西，可以到市場上賣掉。雖然賣不了多少錢。<br>"+back+htmlend
           elif random < 61:
-            st.giveItems(WOLF_PELTS,int(Config.RATE_QUESTS_REWARD))
+            st.rewardItems(WOLF_PELTS,1)
             return html+redfoot+standart+"<br>這張皮革是...？惡狼之皮？皮革加工師已經加工過。但不是張很高級的皮革。可能製造皮帽時能用得著吧？反正，拿到市場上應該賣得了一點錢。<br>"+back+htmlend
           elif random < 74:
-            st.giveItems(MONNSTONE,int(Config.RATE_QUESTS_REWARD))
+            st.rewardItems(MONNSTONE,1)
             return html+redfoot+standart+"<br>寶石？這是月石！也是叫作月長石的寶石。應該能賣到不錯的價錢。<br>"+back+htmlend
           elif random < 86:
-            st.giveItems(GLUDIO_WEETS_FLOWER,int(Config.RATE_QUESTS_REWARD))
+            st.rewardItems(GLUDIO_WEETS_FLOWER,1)
             return html+redfoot+standart+"<br>哦？這個粉末是...？嚐一下，看看如何？是從古魯丁出產的麵粉！應該是用在烤麵包吧？反正，拿到市場應該可以賣到不錯的價錢。<br>"+back+htmlend
           elif random < 98:
-            st.giveItems(SPIDERSILK_ROPE,int(Config.RATE_QUESTS_REWARD))
+            st.rewardItems(SPIDERSILK_ROPE,1)
             return html+redfoot+standart+"<br>這是...？是蜘蛛網的繩索！這是用士伯吟山脈的狼蛛巢中收集的蜘蛛網製造的，堅實輕便的繩索。拿到商店應該會賣到不錯的價錢吧。<br>"+back+htmlend
           elif random < 99:
-            st.giveItems(ALEXANDRIT,int(Config.RATE_QUESTS_REWARD))
+            st.rewardItems(ALEXANDRIT,1)
             return html+redfoot+standart+"<br>寶石...？是綠寶石嗎？啊，不是。這是紫翠玉！你難道不知道？這是在陽光下呈黃色，月光下呈紅色的珍貴的寶石。應該是用在製造貴婦人裝飾品上的東西吧？拿到商店應該可以賣個好價錢。<br>"+back+htmlend
           elif random < 109:
-            st.giveItems(SILVER_TEA,int(Config.RATE_QUESTS_REWARD))
+            st.rewardItems(SILVER_TEA,1)
             return html+redfoot+standart+"<br>哦？銀盤？還有茶杯？看起來蠻高級的嘛？應該是精靈工匠們的手藝。雖然我對這些高級物品沒有什麼興趣...但拿到商店應該可以賣個好價錢。<br>"+back+htmlend
           elif random < 119:
-            st.giveItems(GOLEM_PART,int(Config.RATE_QUESTS_REWARD))
+            st.rewardItems(GOLEM_PART,1)
             return html+redfoot+standart+"<br>哦？機械裝置...？這應該是黑色鐵砧工會的標章呀...？雖然我也不清楚，但這好像是矮人修理高侖時所用的零件。拿到商店應該可以賣個好價錢。<br>"+back+htmlend
           elif random < 123:
-            st.giveItems(FIRE_EMERALD,int(Config.RATE_QUESTS_REWARD))
+            st.rewardItems(FIRE_EMERALD,1)
             return html+redfoot+standart+"<br>這寶石是...？啊！火焰綠寶石！你難道不知道嗎？這是在陽光下能散發出強烈紅光的一種非常珍貴的寶石。你的運氣真是好！拿到商店應該能賣到很好的價錢。<br>"+back+htmlend
           elif random < 127:
-            st.giveItems(SILK_FROCK,int(Config.RATE_QUESTS_REWARD))
+            st.rewardItems(SILK_FROCK,1)
             return html+redfoot+standart+"<br>這不是衣服嗎？！女人穿的絲綢禮服。蠻高級的嘛？看一下這個圖紋。這是從東方的阿貝拉進口的東西。到底誰在這個時候用這種奢華的物品...？一定是某個喜歡異國風味的貴婦人買來穿的物品吧？把這個拿到商店去賣掉！應該能賣得到很好的價錢。<br>"+back+htmlend
           elif random < 131:
-            st.giveItems(PORCELAN_URN,int(Config.RATE_QUESTS_REWARD))
+            st.rewardItems(PORCELAN_URN,1)
             return html+redfoot+standart+"<br>哦？陶甕？很多地方有缺口又退了色...難道是古董？這個圖紋...？哦哦！！！是新生王國貝裡歐斯的紋樣。你得到了非常昂貴的遺物？這種珍貴的物品在商店會賣得到很高的價錢。<br>"+back+htmlend
           elif random < 132:
-            st.giveItems(IMPERIAL_DIAMOND,int(Config.RATE_QUESTS_REWARD))
+            st.rewardItems(IMPERIAL_DIAMOND,1)
             return html+redfoot+standart+"<br>哦？不會吧？怎麼會這樣！！！皇帝的...鑽石？用在裝飾艾爾摩亞丁皇帝的皇冠上的...？真的...非常漂亮...！你真是個幸運的人！居然得到了這麼貴重的物品。如果拿到市場上應該能夠賣到非常好的價錢？<br>"+back+htmlend
           elif random < 147:
             random_stat=st.getRandom(4)

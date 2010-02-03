@@ -52,7 +52,7 @@ CHANCE={
     21248:50, #Crypt Guardian 
     21249:54, #Crypt Sage
     21250:99, #Tomb Guardian
-    21251:64, #Tomb Sage
+    21251:64, #Tomb Sage 	
     21252:70, #Crypt Guard 
     21253:75, #Crypt Preacher 
     21254:91, #Tomb Guard 
@@ -99,7 +99,7 @@ class Quest (JQuest) :
     partyMember = self.getRandomPartyMemberState(player, State.STARTED)
     if not partyMember : return
     st = partyMember.getQuestState(qn)
-    chance = CHANCE[npc.getNpcId()]*Config.RATE_DROP_QUEST
+    chance = CHANCE[npc.getNpcId()]*Config.RATE_QUEST_DROP
     numItems, chance = divmod(chance,MAX)
     if st.getRandom(MAX)<chance :
       numItems = numItems + 1
