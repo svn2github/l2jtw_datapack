@@ -2511,6 +2511,9 @@
 	<zone id='20106' type='ScriptZone' shape='Cuboid' minZ='-12250' maxZ='-12150' />
 	<zone id='20107' type='ScriptZone' shape='Cuboid' minZ='-12150' maxZ='-12000' />
 
+	<!-- Pailaka (Forgotten Temple) -->
+	<zone id='20108' type='ScriptZone' shape='NPoly' minZ='-5050' maxZ='-3900' />
+	
 	<!-- Pagans mark -->
 	<zone id='30100' type='PaganZone' shape='NPoly' minZ='-10735' maxZ='-10720' />
 
@@ -2536,9 +2539,7 @@
 		<stat name="reuse" val="9000" />
 	</zone>
 	<!-- Hellbound (No Landing Zone) -->
-	<zone id="40101" type="NoLandingZone" shape="NPoly" minZ="-30000" maxZ="30000">
-		<stat name="dismountDelay" val="1" />
-	</zone>
+	<zone id="40101" type="ScriptZone" shape="NPoly" minZ="-30000" maxZ="30000" />
 	<!-- Hellbound (No Summon Friend zone) -->
 	<zone id="40102" type="NoSummonZone" shape="NPoly" minZ="-30000" maxZ="30000" />
 	<!-- Hellbound Lake 1 -->

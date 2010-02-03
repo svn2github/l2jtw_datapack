@@ -242,7 +242,7 @@ public class Wedding implements IVoicedCommandHandler
 		
 		ptarget.setEngageRequest(true, activeChar.getObjectId());
 		// $s1
-		L2CoreMessage cm =  new L2CoreMessage (MessageTable.Messages[1162]);
+		L2CoreMessage cm = new L2CoreMessage (MessageTable.Messages[1162]);
 		cm.addString(activeChar.getName());
 		ConfirmDlg dlg = new ConfirmDlg(SystemMessageId.S1.getId()).addString(cm.renderMsg());
 		ptarget.sendPacket(dlg);
@@ -355,6 +355,11 @@ public class Wedding implements IVoicedCommandHandler
 			activeChar.sendMessage(629);
 			return false;
 		}
+		else if (partner.isInsideZone(L2Character.ZONE_NOSUMMONFRIEND))
+		{
+			activeChar.sendMessage(759);
+			return false;
+		}
 		else if (activeChar.isInJail())
 		{
 			activeChar.sendMessage(447);
@@ -407,11 +412,6 @@ public class Wedding implements IVoicedCommandHandler
 			return false;
 		}
 		//Add By Tiger 2010/01/13 (S)
-		else if (partner.isInsideZone(L2Character.ZONE_NOSUMMONFRIEND))
-		{
-			activeChar.sendMessage(759);
-			return false;
-		}
         else if (activeChar.isCursedWeaponEquipped()) 
 	 	{
 			activeChar.sendMessage(769); 

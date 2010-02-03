@@ -550,6 +550,7 @@
 		<set name="isMagic" val="true" />
 		<set name="reuseDelay" val="10000" />
 		<set name="buffDuration" val="5000" />
+		<set name="isPotion" val="true" />
 		<cond msgId="113" addName="1">
 			<player flyMounted="False" />
 		</cond>
