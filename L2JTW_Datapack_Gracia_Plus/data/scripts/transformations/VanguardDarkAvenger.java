@@ -34,14 +34,12 @@ public class VanguardDarkAvenger extends L2Transformation
 			getPlayer().addSkill(SkillTable.getInstance().getInfo(956, getPlayer().getLevel() - 43), false);
 			// Triple Blade Slash
 			getPlayer().addSkill(SkillTable.getInstance().getInfo(958, getPlayer().getLevel() - 43), false);
-			getPlayer().setTransformAllowedSkills(new int[]{18,28,65,86,144,283,815,817,838,956,958,401,5491});
+			getPlayer().setTransformAllowedSkills(new int[]{18,28,65,86,144,283,815,817,838,956,958,401});
 		}
 		else
-			getPlayer().setTransformAllowedSkills(new int[]{18,28,65,86,283,401,838,5491});
+			getPlayer().setTransformAllowedSkills(new int[]{18,28,65,86,283,401,838});
 			// Switch Stance
 			getPlayer().addSkill(SkillTable.getInstance().getInfo(838, 1), false);
-			// Decrease Bow/Crossbow Attack Speed
-			getPlayer().addSkill(SkillTable.getInstance().getInfo(5491, 1), false);
 	}
 
 	public void onUntransform()
@@ -60,11 +58,9 @@ public class VanguardDarkAvenger extends L2Transformation
 		// Switch Stance
 		getPlayer().removeSkill(SkillTable.getInstance().getInfo(838, 1), false);
 		// Boost Morale
-		getPlayer().removeSkill(SkillTable.getInstance().getInfo(956, getPlayer().getLevel() - 43), false);
+		getPlayer().removeSkill(SkillTable.getInstance().getInfo(956, getPlayer().getLevel() - 43), false, false);
 		// Triple Blade Slash
 		getPlayer().removeSkill(SkillTable.getInstance().getInfo(958, getPlayer().getLevel() - 43), false);
-		// Decrease Bow/Crossbow Attack Speed
-		getPlayer().removeSkill(SkillTable.getInstance().getInfo(5491, 1), false);
 
 		getPlayer().setTransformAllowedSkills(new int[]{});
 	}
