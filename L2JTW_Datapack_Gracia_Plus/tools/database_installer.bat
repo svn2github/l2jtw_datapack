@@ -678,6 +678,18 @@ account_data.sql
 gameservers.sql
 ) do call :dump %%i
 set dest=gs
+if %full% == 1 (
+for %%i in (
+access_levels.sql
+auction.sql
+castle.sql
+clanhall.sql
+fort.sql
+forums.sql
+seven_signs_festival.sql
+seven_signs_status.sql
+) do call :dump %%i 
+)
 for %%i in (
 admin_command_access_rights.sql
 armor.sql
@@ -794,18 +806,6 @@ l2jtw_addon_1.sql
 l2jtw_addon_2.sql
 ) do call :dump %%i
 
-if %full% == 1 (
-for %%i in (
-access_levels.sql
-auction.sql
-castle.sql
-clanhall.sql
-fort.sql
-forums.sql
-seven_signs_festival.sql
-seven_signs_status.sql
-) do call :dump %%i 
-)
 echo งนฆจ...
 echo.
 goto custom

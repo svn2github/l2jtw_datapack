@@ -532,7 +532,7 @@
 		<set name="isMagic" val="true" />
 		<set name="hitTime" val="4000" />
 		<for>
-			<effect name="Buff" time="15" val="0">
+			<effect name="Buff" time="15" val="0" stackOrder="1" stackType="item_skill">
 				<add order="0x40" stat="maxHp" val="#Tab-maxHp" />
 			</effect>
 		</for>
@@ -547,7 +547,7 @@
 		<set name="isMagic" val="true" />
 		<set name="hitTime" val="4000" />
 		<for>
-			<effect name="Buff" time="15" val="0">
+			<effect name="Buff" time="15" val="0" stackOrder="1" stackType="item_skill">
 				<mul order="0x30" stat="gainHp" val="#tab-gainHp" />
 			</effect>
 		</for>
@@ -573,7 +573,7 @@
 		<set name="isMagic" val="true" />
 		<set name="hitTime" val="4000" />
 		<for>
-			<effect name="Buff" time="15" val="0">
+			<effect name="Buff" time="15" val="0" stackOrder="1" stackType="item_skill">
 				<add order="0x40" stat="maxMp" val="#Tab-maxMp" />
 			</effect>
 		</for>
@@ -588,7 +588,7 @@
 		<set name="isMagic" val="true" />
 		<set name="hitTime" val="4000" />
 		<for>
-			<effect name="Buff" time="15" val="0">
+			<effect name="Buff" time="15" val="0" stackOrder="1" stackType="item_skill">
 				<mul order="0x30" stat="gainMp" val="#Tab-maxMp" />
 			</effect>
 		</for>
@@ -614,7 +614,7 @@
 		<set name="isMagic" val="true" />
 		<set name="hitTime" val="4000" />
 		<for>
-			<effect name="Buff" time="15" val="0">
+			<effect name="Buff" time="15" val="0" stackOrder="1" stackType="item_skill">
 				<add order="0x40" stat="maxCp" val="#power" />
 			</effect>
 		</for>
@@ -629,7 +629,7 @@
 		<set name="isMagic" val="true" />
 		<set name="hitTime" val="4000" />
 		<for>
-			<effect name="Buff" time="15" val="0">
+			<effect name="Buff" time="15" val="0" stackOrder="1" stackType="item_skill">
 				<mul order="0x30" stat="pAtk" val="#rate" />
 			</effect>
 		</for>
@@ -644,7 +644,7 @@
 		<set name="isMagic" val="true" />
 		<set name="hitTime" val="4000" />
 		<for>
-			<effect name="Buff" time="15" val="0">
+			<effect name="Buff" time="15" val="0" stackOrder="1" stackType="item_skill">
 				<mul order="0x30" stat="mAtk" val="#rate" />
 			</effect>
 		</for>
@@ -659,7 +659,7 @@
 		<set name="isMagic" val="true" />
 		<set name="hitTime" val="1500" />
 		<for>
-			<effect name="Buff" time="15" val="0">
+			<effect name="Buff" time="15" val="0" stackOrder="1" stackType="item_skill">
 				<mul order="0x30" stat="pvpPhysDmg" val="#rate" />
 			</effect>
 		</for>
@@ -674,7 +674,7 @@
 		<set name="isMagic" val="true" />
 		<set name="hitTime" val="4000" />
 		<for>
-			<effect name="Buff" time="15" val="0">
+			<effect name="Buff" time="15" val="0" stackOrder="1" stackType="item_skill">
 				<mul order="0x30" stat="pDef" val="#rate" />
 			</effect>
 		</for>
@@ -689,7 +689,7 @@
 		<set name="isMagic" val="true" />
 		<set name="hitTime" val="4000" />
 		<for>
-			<effect name="Buff" time="15" val="0">
+			<effect name="Buff" time="15" val="0" stackOrder="1" stackType="item_skill">
 				<mul order="0x30" stat="mDef" val="#rate" />
 			</effect>
 		</for>
@@ -720,7 +720,7 @@
 		<set name="isMagic" val="true" />
 		<set name="hitTime" val="4000" />
 		<for>
-			<effect name="Buff" time="15" val="0">
+			<effect name="Buff" time="15" val="0" stackOrder="1" stackType="item_skill">
 				<add order="0x40" stat="rEvas" val="#rate" />
 			</effect>
 		</for>
@@ -734,7 +734,7 @@
 		<set name="isMagic" val="true" />
 		<set name="hitTime" val="4000" />
 		<for>
-			<effect name="Buff" time="15" val="0">
+			<effect name="Buff" time="15" val="0" stackOrder="1" stackType="item_skill">
 				<add order="0x40" stat="accCombat" val="#rate" />
 			</effect>
 		</for>
@@ -749,7 +749,7 @@
 		<set name="isMagic" val="true" />
 		<set name="hitTime" val="4000" />
 		<for>
-			<effect name="Buff" time="15" val="0">
+			<effect name="Buff" time="15" val="0" stackOrder="1" stackType="item_skill">
 				<basemul order="0x30" stat="rCrit" val="#rCrit" />
 			</effect>
 		</for>
@@ -764,7 +764,7 @@
 		<set name="isMagic" val="true" />
 		<set name="hitTime" val="4000" />
 		<for>
-			<effect name="Buff" time="15" val="0">
+			<effect name="Buff" time="15" val="0" stackOrder="1" stackType="item_skill">
 				<basemul order="0x30" stat="mCritRate" val="#rate" />
 			</effect>
 		</for>
