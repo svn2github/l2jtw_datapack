@@ -27,45 +27,34 @@ public class PinsAndPouchUnseal extends Quest
 	{
 		32610,32612
 	};
+	
+	private final static int[] PINSPRICE = {3200,11800,26500,136600};
+	private final static int[] POUCHSPRICE = {2600,9400,21200,109300};
+	private final static int[] CLIPORNAMENTPRICE = {26500,136600};
+	// faild, low, mid, high, top
+	private final static int[] CHANCES = {49,78,95,99,100};
 
-	private final static int[] PINS_C =
-	{
-		13902,13903,13904,13905
+	// sealdId, lowId, midId, highId, topId
+	private final static int[][] PINS = {{13898,13902,13903,13904,13905},
+		{13899,13906,13907,13908,13909},
+		{13900,13910,13911,13912,13913},
+		{13901,13914,13915,13916,13917}
 	};
 
-	private final static int[] PINS_B =
-	{
-		13906, 13907, 13908, 13909
+	// sealdId, lowId, midId, highId, topId
+	private final static int[][] POUCHS = {{13918,13922,13923,13924,13925},
+		{13919,13926,13927,13928,13929},
+		{13920,13930,13931,13932,13933},
+		{13921,13934,13935,13936,13937}
 	};
 
-	private final static int[] PINS_A =
-	{
-		13910, 13911, 13912, 13913
-	};
-
-	private final static int[] PINS_S =
-	{
-		13914, 13915, 13916, 13917
-	};
-
-	private final static int[] POUCHS_C =
-	{
-		13922, 13923, 13924, 13925
-	};
-
-	private final static int[] POUCHS_B =
-	{
-		13926, 13927, 13928, 13929
-	};
-
-	private final static int[] POUCHS_A =
-	{
-		13930, 13931, 13932, 13933
-	};
-
-	private final static int[] POUCHS_S =
-	{
-		13934, 13935, 13936, 13937
+	// "B,C grade" is the Magic Clip
+	// "A,S grade" is the Magic Ornament
+	// sealdId, lowId, midId, highId, topId
+	private final static int[][] CLIPSORNAMENTS = {{14902,14906,14907,14908,14909},
+		{14903,14910,14911,14912,14913},
+		{14904,14914,14915,14916,14917},
+		{14905,14918,14919,14920,14921}
 	};
 
 	public PinsAndPouchUnseal(int questId, String name, String descr)
@@ -84,220 +73,58 @@ public class PinsAndPouchUnseal extends Quest
 		QuestState st = player.getQuestState(getName());
 
 		htmltext = event;
-		if (event.equalsIgnoreCase("c_grade_pin"))
+		if (event.contains("_grade_"))
 		{
-			if (st.getQuestItemsCount(13898) > 0)
+			int grade = Integer.parseInt(event.substring(0, 1));
+			int price;
+			int[] itemIds;
+			if (event.endsWith("_pin"))
 			{
-				if (st.getQuestItemsCount(57) > 3200)
-				{
-					if (Rnd.get(100) < 30)
-					{
-						st.takeItems(57, 3200);
-						st.takeItems(13898, 1);
-						st.giveItems(PINS_C[st.getRandom((PINS_C).length)], 1);
-					}
-					else
-					{
-						st.takeItems(57, 3200);
-						st.takeItems(13898, 1);
-						npc.broadcastPacket(new NpcSay(npc.getObjectId(), 0, npc.getNpcId(), "真是狼狽不堪啊...力氣大，果然不好控制。"));
-					}
-					return null;
-				}
-				else
-					htmltext = npc.getNpcId() + "-5.htm";
+				price = PINSPRICE[grade];
+				itemIds = PINS[grade];
+			}
+			else if (event.endsWith("_pouch"))
+			{
+				price = POUCHSPRICE[grade];
+				itemIds = POUCHS[grade];
+			}
+			else if (event.endsWith("_clip"))
+			{
+				price = CLIPORNAMENTPRICE[grade];
+				itemIds = CLIPSORNAMENTS[grade];
+			}
+			else if (event.endsWith("_ornament"))
+			{
+				price = CLIPORNAMENTPRICE[grade];
+				itemIds = CLIPSORNAMENTS[grade + 2];
 			}
 			else
-				htmltext = npc.getNpcId() + "-4.htm";
-			st.exitQuest(true);
-		}
-		else if (event.equalsIgnoreCase("b_grade_pin"))
-		{
-			if (st.getQuestItemsCount(13899) > 0)
+				// this should not happen!
+				return "";
+			if (st.getQuestItemsCount(itemIds[0]) > 0)
 			{
-				if (st.getQuestItemsCount(57) > 11800)
+				if (st.getQuestItemsCount(57) > price)
 				{
-					if (Rnd.get(100) < 25)
-					{
-						st.takeItems(57, 11800);
-						st.takeItems(13899, 1);
-						st.giveItems(PINS_B[st.getRandom((PINS_B).length)], 1);
-					}
-					else
-					{
-						st.takeItems(57, 11800);
-						st.takeItems(13899, 1);
+					htmltext = "";	
+					st.takeItems(57, price);
+					st.takeItems(itemIds[0], 1);
+					int rand = Rnd.get(100);
+					if (rand < CHANCES[0])
 						npc.broadcastPacket(new NpcSay(npc.getObjectId(), 0, npc.getNpcId(), "真是狼狽不堪啊...力氣大，果然不好控制。"));
-					}
-					return null;
+					else if (rand < CHANCES[1])
+						st.giveItems(itemIds[1], 1);
+					else if (rand < CHANCES[2])
+						st.giveItems(itemIds[2], 1);
+					else if (rand < CHANCES[3])
+						st.giveItems(itemIds[3], 1);
+					else
+						st.giveItems(itemIds[4], 1);
 				}
 				else
-					htmltext = npc.getNpcId() + "-5.htm";
+					htmltext = npc.getNpcId() + "-low.htm";
 			}
 			else
-				htmltext = npc.getNpcId() + "-4.htm";
-			st.exitQuest(true);
-		}
-		else if (event.equalsIgnoreCase("a_grade_pin"))
-		{
-			if (st.getQuestItemsCount(13900) > 0)
-			{
-				if (st.getQuestItemsCount(57) > 26500)
-				{
-					if (Rnd.get(100) < 20)
-					{
-						st.takeItems(57, 26500);
-						st.takeItems(13900, 1);
-						st.giveItems(PINS_A[st.getRandom((PINS_A).length)], 1);
-					}
-					else
-					{
-						st.takeItems(57, 26500);
-						st.takeItems(13900, 1);
-						npc.broadcastPacket(new NpcSay(npc.getObjectId(), 0, npc.getNpcId(), "真是狼狽不堪啊...力氣大，果然不好控制。"));
-					}
-					return null;
-				}
-				else
-					htmltext = npc.getNpcId() + "-5.htm";
-			}
-			else
-				htmltext = npc.getNpcId() + "-4.htm";
-			st.exitQuest(true);
-		}
-		else if (event.equalsIgnoreCase("s_grade_pin"))
-		{
-			if (st.getQuestItemsCount(13901) > 0)
-			{
-				if (st.getQuestItemsCount(57) > 136600)
-				{
-					if (Rnd.get(100) < 15)
-					{
-						st.takeItems(57, 136600);
-						st.takeItems(13901, 1);
-						st.giveItems(PINS_S[st.getRandom((PINS_S).length)], 1);
-					}
-					else
-					{
-						st.takeItems(57, 136600);
-						st.takeItems(13901, 1);
-						npc.broadcastPacket(new NpcSay(npc.getObjectId(), 0, npc.getNpcId(), "真是狼狽不堪啊...力氣大，果然不好控制。"));
-					}
-					return null;
-				}
-				else
-					htmltext = npc.getNpcId() + "-5.htm";
-			}
-			else
-				htmltext = npc.getNpcId() + "-4.htm";
-			st.exitQuest(true);
-		}
-		else if (event.equalsIgnoreCase("c_grade_pouch"))
-		{
-			if (st.getQuestItemsCount(13918) > 0)
-			{
-				if (st.getQuestItemsCount(57) > 2600)
-				{
-					if (Rnd.get(100) < 30)
-					{
-						st.takeItems(57, 2600);
-						st.takeItems(13918, 1);
-						st.giveItems(POUCHS_C[st.getRandom((POUCHS_C).length)], 1);
-					}
-					else
-					{
-						st.takeItems(57, 2600);
-						st.takeItems(13918, 1);
-						npc.broadcastPacket(new NpcSay(npc.getObjectId(), 0, npc.getNpcId(), "真是狼狽不堪啊...力氣大，果然不好控制。"));
-					}
-					return null;
-				}
-				else
-					htmltext = npc.getNpcId() + "-5.htm";
-			}
-			else
-				htmltext = npc.getNpcId() + "-4.htm";
-			st.exitQuest(true);
-		}
-		else if (event.equalsIgnoreCase("b_grade_pouch"))
-		{
-			if (st.getQuestItemsCount(13919) > 0)
-			{
-				if (st.getQuestItemsCount(57) > 9400)
-				{
-					if (Rnd.get(100) < 25)
-					{
-						st.takeItems(57, 9400);
-						st.takeItems(13919, 1);
-						st.giveItems(POUCHS_B[st.getRandom((POUCHS_B).length)], 1);
-					}
-					else
-					{
-						st.takeItems(57, 9400);
-						st.takeItems(13919, 1);
-						npc.broadcastPacket(new NpcSay(npc.getObjectId(), 0, npc.getNpcId(), "真是狼狽不堪啊...力氣大，果然不好控制。"));
-					}
-					return null;
-				}
-				else
-					htmltext = npc.getNpcId() + "-5.htm";
-			}
-			else
-				htmltext = npc.getNpcId() + "-4.htm";
-			st.exitQuest(true);
-		}
-		else if (event.equalsIgnoreCase("a_grade_pouch"))
-		{
-			if (st.getQuestItemsCount(13920) > 0)
-			{
-				if (st.getQuestItemsCount(57) > 21200)
-				{
-					if (Rnd.get(100) < 20)
-					{
-						st.takeItems(57, 21200);
-						st.takeItems(13920, 1);
-						st.giveItems(POUCHS_A[st.getRandom((POUCHS_A).length)], 1);
-					}
-					else
-					{
-						st.takeItems(57, 21200);
-						st.takeItems(13920, 1);
-						npc.broadcastPacket(new NpcSay(npc.getObjectId(), 0, npc.getNpcId(), "真是狼狽不堪啊...力氣大，果然不好控制。"));
-					}
-					return null;
-				}
-				else
-					htmltext = npc.getNpcId() + "-5.htm";
-			}
-			else
-				htmltext = npc.getNpcId() + "-4.htm";
-			st.exitQuest(true);
-		}
-		else if (event.equalsIgnoreCase("s_grade_pouch"))
-		{
-			if (st.getQuestItemsCount(13921) > 0)
-			{
-				if (st.getQuestItemsCount(57) > 109300)
-				{
-					if (Rnd.get(100) < 15)
-					{
-						st.takeItems(57, 109300);
-						st.takeItems(13921, 1);
-						st.giveItems(POUCHS_S[st.getRandom((POUCHS_S).length)], 1);
-					}
-					else
-					{
-						st.takeItems(57, 109300);
-						st.takeItems(13921, 1);
-						npc.broadcastPacket(new NpcSay(npc.getObjectId(), 0, npc.getNpcId(), "真是狼狽不堪啊...力氣大，果然不好控制。"));
-					}
-					return null;
-				}
-				else
-					htmltext = npc.getNpcId() + "-5.htm";
-			}
-			else
-				htmltext = npc.getNpcId() + "-4.htm";
+				htmltext = npc.getNpcId() + "-no.htm";
 			st.exitQuest(true);
 		}
 
