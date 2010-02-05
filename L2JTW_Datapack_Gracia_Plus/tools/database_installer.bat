@@ -46,9 +46,9 @@ ren vars.bat %config_file%
 call :colors 17
 if /i %config_version% == 2 goto ls_section
 set upgrade_mode=2
-echo It seems to be the first time you run this version of
-echo database_installer but I found a settings file already.
-echo I'll hopefully ask this questions just once.
+echo 您似乎是第一次使用這個版本的 database_installer
+echo 但是我發現安裝資料庫的設定檔已經存在
+echo 因此我將問您幾個問題，引導您繼續安裝
 echo.
 echo 更新設定選項：
 echo.
@@ -125,7 +125,7 @@ if "%mysqlBinPath%" == "" (
 set mysqlBinPath=use path
 echo 沒有找到 MySQL 的位置
 ) else (
-echo 請嘗試以下所找到的 MySQL 位置，是否可以進行導入作業
+echo 請測試以下所找到的 MySQL 位置，是否可以進行導入作業
 echo.
 echo %mysqlPath%
 )
@@ -168,7 +168,7 @@ cls
 echo.
 echo 3-討論版伺服器設定
 echo --------------------
-echo 此作業將會連線至討論版專用的 MySQL 伺服器，並且進行導入作業
+echo 此作業將會連線至「討論版專用」的 MySQL 伺服器，並且進行導入作業
 echo.
 set /P cbuser="使用者名稱（預設值「%cbuser%」）: "
 :_cbpass
@@ -241,7 +241,7 @@ set cmdline=
 set stage=1
 title L2JTW Datapack 安裝 - For：L2JTW GameServer Gracia Alpha
 echo.
-echo 嘗試進行備份登入伺服器的資料庫...
+echo 正在備份登入伺服器的資料庫...
 set cmdline="%mysqldumpPath%" --add-drop-table -h %lshost% -u %lsuser% --password=%lspass% %lsdb% ^> "%backup%\loginserver_backup.sql" 2^> NUL
 %cmdline%
 if %ERRORLEVEL% == 0 goto lsdbok
@@ -253,11 +253,11 @@ cls
 echo.
 echo 備份失敗！
 echo 原因是因為資料庫不存在
-echo 現在可以嘗試幫你建立 %lsdb%，或者繼續其它設定
+echo 現在可以幫你建立 %lsdb%，或者繼續其它設定
 echo.
 :ls_ask1
 set lsdbprompt=y
-echo 嘗試建立登入伺服器的資料庫：
+echo 建立登入伺服器的資料庫？
 echo.
 echo (y)確定
 echo.
@@ -315,7 +315,7 @@ set cmdline=
 set stage=2
 title L2JTW Datapack 安裝 - For：L2JTW GameServer Gracia Alpha
 echo.
-echo Trying to create a Login Server database...
+echo 正在建立登入伺服器的資料庫...
 set cmdline="%mysqlPath%" -h %lshost% -u %lsuser% --password=%lspass% -e "CREATE DATABASE %lsdb%" 2^> NUL
 %cmdline%
 if %ERRORLEVEL% == 0 goto logininstall
@@ -324,14 +324,14 @@ if %safe_mode% == 1 goto omfg
 call :colors 47
 title L2JTW Datapack 安裝 - For：L2JTW GameServer Gracia Alpha
 cls
-echo 資料庫建立失敗！
+echo 登入伺服器的資料庫建立失敗！
 echo.
 echo 可能的原因：
-echo 1.所輸入的資料錯誤，使用者名稱/使用者密碼/其他相關資料
-echo 2.使用者「%lsuser%」沒有足夠的權限操作資料庫 
-echo 3.資料庫可能已經存在
+echo 1.輸入的資料錯誤，例如：使用者名稱/使用者密碼/其他相關資料
+echo 2.使用者「%lsuser%」的權限不足 
+echo 3.資料庫已存在
 echo.
-echo 請重新檢查設定並且修正出錯的地方
+echo 請檢查設定並且修正，或者直接重新設定
 echo.
 :ls_ask2
 set omfgprompt=q
@@ -359,7 +359,7 @@ set msg=預設值-省略
 set loginprompt=x
 set msg=沒有預設值
 )
-echo 登入伺服器的資料庫安裝類型：
+echo 登入伺服器的資料庫安裝：
 echo.
 echo (f)完整：將移除所有舊的資料，重新導入新的資料
 echo.
@@ -381,7 +381,7 @@ set stage=3
 call :colors 17
 set cmdline=
 title L2JTW Datapack 安裝 - For：L2JTW GameServer Gracia Alpha
-echo 正在移除登入伺服器的資料，然後導入新的資料...
+echo 正在移除登入伺服器的資料庫，然後導入新的資料庫...
 set cmdline="%mysqlPath%" -h %lshost% -u %lsuser% --password=%lspass% -D %lsdb% ^< login_install.sql 2^> NUL
 %cmdline%
 if not %ERRORLEVEL% == 0 goto omfg
@@ -394,25 +394,25 @@ call :colors 17
 set cmdline=
 if %full% == 1 goto communityinstall
 set stage=4
-title L2JDP installer - Community Board Server database setup
+title L2JTW Datapack 安裝 - For：L2JTW GameServer Gracia Alpha
 echo.
-echo Trying to make a backup of your cbserver database.
+echo 正在備份「討論版專用」的資料庫...
 set cmdline="%mysqldumpPath%" --add-drop-table -h %cbhost% -u %cbuser% --password=%cbpass% %cbdb% ^> "%backup%\cbserver_backup.sql" 2^> NUL
 %cmdline%
 if %ERRORLEVEL% == 0 goto cbdbok
 REM if %safe_mode% == 1 goto omfg
 :cb_err1
 call :colors 47
-title L2JDP installer - Community Board Server database setup ERROR!!!
+title L2JTW Datapack 安裝 - For：L2JTW GameServer Gracia Alpha
 cls
 echo.
 echo 備份失敗！
-echo 原因是因為討論版的資料庫不存在
-echo 現在可以嘗試幫你建立 %cbdb%，或者繼續其它設定
+echo 原因是因為「討論版專用」的資料庫不存在
+echo 現在可以幫你建立 %cbdb%，或者繼續其它設定
 echo.
 :cb_ask1
 set cbdbprompt=y
-echo 嘗試建立討論版的資料庫：
+echo 建立「討論版專用」的資料庫？
 echo.
 echo (y)確定
 echo.
@@ -433,39 +433,35 @@ goto cb_ask1
 call :colors 17
 set cmdline=
 set stage=5
-title L2JDP installer - Communty Board Server database setup - DB Creation
+title L2JTW Datapack 安裝 - For：L2JTW GameServer Gracia Alpha
 echo.
-echo Trying to create a Community Board Server database...
+echo 正在建立「討論版專用」的資料庫...
 set cmdline="%mysqlPath%" -h %cbhost% -u %cbuser% --password=%cbpass% -e "CREATE DATABASE %cbdb%" 2^> NUL
 %cmdline%
 if %ERRORLEVEL% == 0 goto communityinstall
 if %safe_mode% == 1 goto omfg
 :cb_err2
 call :colors 47
-title L2JDP installer - Community Board Server database setup - DB Creation error
+title L2JTW Datapack 安裝 - For：L2JTW GameServer Gracia Alpha
 cls
-echo An error occured while trying to create a database for 
-echo your Community Board server.
+echo 「討論版專用」的資料庫建立失敗！
 echo.
-echo Possible reasons:
-echo 1-You provided innacurate info , check user, password, etc.
-echo 2-User %cbuser% don't have enough privileges for 
-echo database creation. Check your MySQL privileges.
-echo 3-Database exists already...?
+echo 可能的原因：
+echo 1.輸入的資料錯誤，例如：使用者名稱/使用者密碼/其他相關資料
+echo 2.使用者「%cbuser%」的權限不足 
+echo 3.資料庫已存在
 echo.
-echo Unless you're sure that the pending actions of this tool 
-echo could work, i'd suggest you to look for correct values
-echo and try this script again later.
+echo 請檢查設定並且修正，或者直接重新設定
 echo.
 :cb_ask2
 set omfgprompt=q
-echo (c)ontinue running
+echo (c)繼續
 echo.
-echo (r)econfigure
+echo (r)重新設定
 echo.
-echo (q)uit now
+echo (q)退出
 echo.
-set /p omfgprompt= Choose (default quit):
+set /p omfgprompt=請選擇（預設值-退出）:
 if /i %omfgprompt%==c goto gs_backup
 if /i %omfgprompt%==q goto horrible_end
 if /i %omfgprompt%==r goto configure
@@ -473,34 +469,29 @@ goto cb_ask2
 
 :cbdbok
 call :colors 17
-title L2JDP installer - Community Board Server database setup - WARNING!!!
+title L2JTW Datapack 安裝 - For：L2JTW GameServer Gracia Alpha
 echo.
 :askcommunity
 if %fresh_setup%==0 (
 set communityprompt=s
-set msg=default skip
+set msg=預設值-省略
 ) else (
 set communityprompt=x
-set msg=no default for fresh install
+set msg=沒有預設值
 )
-echo COMMUNITYSERVER DATABASE install type:
+echo 「討論版專用」的資料庫安裝：
 echo.
-echo (f)ull: WARNING! I'll destroy ALL of your existing community
-echo    data (i really mean it: mail, forum, memo.. ALL)
+echo (f)完整：將移除所有舊的資料，重新導入新的資料
 echo.
-echo (u)pgrade: I'll do my best to preserve all of your community
-echo    data.
+echo (u)更新：將保留所有舊的資料，並且進行更新作業
 echo.
-echo (s)kip: I'll take you to the gameserver database
-echo    installation and upgrade options.
+echo (s)省略：跳過此選項
 echo.
-echo (r)econfigure: You'll be able to redefine MySQL path,
-echo    user and database information and start over with
-echo    those fresh values.
+echo (r)重新設定
 echo.
-echo (q)uit
+echo (q)退出
 echo.
-set /p communityprompt= Choose (%msg%) : 
+set /p communityprompt=請選擇（%msg%）: 
 if /i %communityprompt%==f goto communityinstall
 if /i %communityprompt%==u goto upgradecbinstall
 if /i %communityprompt%==s goto gs_backup
@@ -512,8 +503,8 @@ goto askcommunity
 set stage=6
 call :colors 17
 set cmdline=
-title L2JDP installer - Community Board Server database setup - Full install
-echo Deleting communityserver tables for new content.
+title L2JTW Datapack 安裝 - For：L2JTW GameServer Gracia Alpha
+echo 正在移除「討論版專用」的資料庫，然後導入新的資料庫...
 set cmdline="%mysqlPath%" -h %cbhost% -u %cbuser% --password=%cbpass% -D %cbdb% ^< community_install.sql 2^> NUL
 %cmdline%
 if not %ERRORLEVEL% == 0 goto omfg
@@ -523,11 +514,11 @@ goto upgradecbinstall
 set stage=6
 set cmdline=
 if %full% == 1 (
-title L2JDP installer - Community Board Server database setup - Installing...
-echo Installing new communityserver content.
+title L2JTW Datapack 安裝 - For：L2JTW GameServer Gracia Alpha
+echo 安裝新的「討論版專用」資料庫...
 ) else (
-title L2JDP installer - Community Board Server database setup - Upgrading...
-echo Upgrading communityserver content.
+title L2JTW Datapack 安裝 - For：L2JTW GameServer Gracia Alpha
+echo 更新「討論版專用」資料庫...
 )
 if %logging% == 0 set output=NUL
 set dest=cb
@@ -553,7 +544,7 @@ set stage=7
 title L2JTW Datapack 安裝 - For：L2JTW GameServer Gracia Alpha
 cls
 echo.
-echo 正在備份原本的資料庫...
+echo 正在備份遊戲伺服器的資料庫...
 set cmdline="%mysqldumpPath%" --add-drop-table -h %gshost% -u %gsuser% --password=%gspass% %gsdb% ^> "%backup%\gameserver_backup.sql" 2^> NUL
 %cmdline%
 if %ERRORLEVEL% == 0 goto gsdbok
@@ -564,12 +555,12 @@ title L2JTW Datapack 安裝 - For：L2JTW GameServer Gracia Alpha
 cls
 echo.
 echo 備份失敗！
-echo 資料庫並不存在
-echo 是否需要建立 %gsdb% 資料庫
+echo 原因是因為資料庫不存在
+echo 現在可以幫你建立 %gsdb%，或者繼續其它設定
 echo.
 :askgsdb
 set gsdbprompt=y
-echo 是否要建立遊戲伺服器的資料庫？
+echo 建立遊戲伺服器的資料庫？
 echo.
 echo (y)確定
 echo.
@@ -592,7 +583,7 @@ set stage=8
 set cmdline=
 title L2JTW Datapack 安裝 - For：L2JTW GameServer Gracia Alpha
 cls
-echo 嘗試建立遊戲伺服器的資料庫...
+echo 正在建立遊戲伺服器的資料庫...
 set cmdline="%mysqlPath%" -h %gshost% -u %gsuser% --password=%gspass% -e "CREATE DATABASE %gsdb%" 2^> NUL
 %cmdline%
 if %ERRORLEVEL% == 0 goto fullinstall
@@ -602,14 +593,14 @@ call :colors 47
 title L2JTW Datapack 安裝 - For：L2JTW GameServer Gracia Alpha
 cls
 echo.
-echo 遊戲伺服器的資料庫建立出錯！
+echo 遊戲伺服器的資料庫建立失敗！
 echo.
 echo 可能的原因：
-echo 1.輸入的資料不完整
+echo 1.輸入的資料錯誤，例如：使用者名稱/使用者密碼/其他相關資料
 echo 2.使用者「%gsuser%」的權限不足 
 echo 3.資料庫已存在
 echo.
-echo 請查明原因後再繼續執行，或者直接進行重新設定
+echo 請檢查設定並且修正，或者直接重新設定
 echo.
 :askgsdbcreate
 set omfgprompt=q
@@ -631,11 +622,11 @@ echo.
 set installtype=u
 echo 遊戲伺服器的資料庫安裝：
 echo.
-echo (f)完整：將刪除所有舊的資料
+echo (f)完整：將移除所有舊的資料，重新導入新的資料
 echo.
 echo (u)更新：將保留所有舊的資料，並且進行更新作業
 echo.
-echo (s)省略
+echo (s)省略：跳過此選項
 echo.
 echo (q)退出
 echo.
@@ -651,7 +642,7 @@ call :colors 17
 set stage=9
 set cmdline=
 title L2JTW Datapack 安裝 - For：L2JTW GameServer Gracia Alpha
-echo 移除所有遊戲資料庫的資料...
+echo 正在移除遊戲伺服器的資料庫，然後導入新的資料庫...
 set cmdline="%mysqlPath%" -h %gshost% -u %gsuser% --password=%gspass% -D %gsdb% ^< full_install.sql 2^> NUL
 %cmdline%
 if not %ERRORLEVEL% == 0 goto omfg
@@ -678,7 +669,6 @@ account_data.sql
 gameservers.sql
 ) do call :dump %%i
 set dest=gs
-if %full% == 1 (
 for %%i in (
 access_levels.sql
 auction.sql
@@ -688,9 +678,6 @@ fort.sql
 forums.sql
 seven_signs_festival.sql
 seven_signs_status.sql
-) do call :dump %%i 
-)
-for %%i in (
 admin_command_access_rights.sql
 armor.sql
 armorsets.sql
@@ -792,7 +779,7 @@ spawnlist.sql
 special_skill_trees.sql
 teleport.sql
 topic.sql
-transform_skill_trees.sql;
+transform_skill_trees.sql
 walker_routes.sql
 weapon.sql
 zone_vertices.sql
@@ -801,11 +788,9 @@ chatdata.sql
 messagetable.sql
 npcCharData.sql
 skill.sql
-l2jtw_addon_0.sql
 l2jtw_addon_1.sql
 l2jtw_addon_2.sql
 ) do call :dump %%i
-
 echo 完成...
 echo.
 goto custom
@@ -932,12 +917,12 @@ echo Some of these mods would require extra tables in order to work
 echo and those tables could be created now if you wanted to.
 echo.
 cd ..\sql\mods\
-REM echo L2J mods that needed extra tables to work properly, should be
-REM echo listed here. To do so copy & paste the following 4 lines and
-REM echo change them properly:
-REM echo 外掛：結婚
+REM L2J mods that needed extra tables to work properly, should be 
+REM listed here. To do so copy & paste the following 4 lines and
+REM change them properly:
+REM MOD: Wedding.
 set modprompt=n
-set /p modprompt="安裝「結婚外掛」資料表: (y) 確定 或 (N) 取消？"
+set /p modprompt="安裝「結婚模組」資料表: (y) 確定 或 (N) 取消？"
 if /i %modprompt%==y "%mysqlPath%" -h %gshost% -u %gsuser% --password=%gspass% -D %gsdb% < mods_wedding.sql 2>>NUL
 
 title L2JDP installer - Game Server database setup - L2J Mods setup complete
@@ -1067,7 +1052,7 @@ title L2JTW Datapack 安裝 - For：L2JTW GameServer Gracia Alpha
 cls
 echo.
 echo L2JTW Datapack 安裝程序 - For：L2JTW GameServer Gracia Alpha
-echo (C) 2010 L2JTW Datapack 開發人員
+echo (C) 2007-2010 L2JTW Datapack 開發團隊
 echo.
 echo 感謝使用 L2JTW 伺服器
 echo 相關資訊可以在 http://www.l2jtw.com 查詢到
