@@ -108,11 +108,11 @@ class Quest (JQuest) :
       st.playSound("ItemSound.quest_itemget")
     return
 
-QUEST	    = Quest(385,qn,"從過去的拘束")
+QUEST       = Quest(385,qn,"從過去的拘束")
 
 for npcId in range(31095,31126):
     if npcId in [31111,31112,31113]:
-	continue
+        continue
     QUEST.addTalkId(npcId)
     QUEST.addStartNpc(npcId)
 

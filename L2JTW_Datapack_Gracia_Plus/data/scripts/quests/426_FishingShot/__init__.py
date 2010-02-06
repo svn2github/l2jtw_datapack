@@ -124,7 +124,7 @@ class Quest (JQuest) :
        st.playSound("ItemSound.quest_itemget")  
    return
 
-QUEST	    = Quest(426,qn,"´M§äº®ÆF¼u")
+QUEST       = Quest(426,qn,"´M§äº®ÆF¼u")
 
 for npc in range(31562,31580)+[31616,31696,31697,32348,31989,32007,32348] :
     QUEST.addStartNpc(npc)

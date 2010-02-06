@@ -136,7 +136,7 @@ class Quest (JQuest) :
          if player.getLevel() >= 61 : # check player level
              htmltext = "Klump_FirstTalk.htm"
          else:
-             htmltext = "Klump_QuestLevel.htm"
+             htmltext = "Klump_QuestLevel.htm" #pmq н╫зя
              st.exitQuest(1)
      # talk to Klump when quest already in progress
      elif id == State.STARTED :

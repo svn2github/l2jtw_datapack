@@ -39,8 +39,8 @@ class Quest (JQuest) :
           st.takeItems(BONES_OF_A_PLAINS_DINOSAUR,300)
           st.rewardItems(REWARDS[st.getRandom(len(REWARDS))],5)
        else :
-          htmltext = "32117-04.htm"	               	# pmq н╫зя
-    elif event == "32106-07.htm" :
+          htmltext = "32117-04.htm"
+    elif event == "32106-07.htm" :	               	# pmq н╫зя
        st.playSound("ItemSound.quest_finish")
        st.exitQuest(1)
        return
