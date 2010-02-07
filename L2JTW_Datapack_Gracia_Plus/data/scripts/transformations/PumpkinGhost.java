@@ -27,7 +27,7 @@ public class PumpkinGhost extends L2Transformation
 		// Transform Dispel
 		getPlayer().addSkill(SkillTable.getInstance().getInfo(619, 1), false);
 
-		getPlayer().setTransformAllowedSkills(new int[]{5437,619});//Update by rocknow
+		getPlayer().setTransformAllowedSkills(new int[]{5491,619});
 	}
 
 	public void onUntransform()
