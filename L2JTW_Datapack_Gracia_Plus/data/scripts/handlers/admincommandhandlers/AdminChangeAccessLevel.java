@@ -37,7 +37,6 @@ import com.l2jserver.gameserver.model.L2CoreMessage;
  */
 public class AdminChangeAccessLevel implements IAdminCommandHandler
 {
-	
 	private static final String[] ADMIN_COMMANDS =
 	{
 		"admin_changelvl"
@@ -45,7 +44,6 @@ public class AdminChangeAccessLevel implements IAdminCommandHandler
 	
 	public boolean useAdminCommand(String command, L2PcInstance activeChar)
 	{
-		
 		handleChangeLevel(command, activeChar);
 		return true;
 	}
@@ -137,7 +135,7 @@ public class AdminChangeAccessLevel implements IAdminCommandHandler
 	private void onLineChange(L2PcInstance activeChar, L2PcInstance player, int lvl)
 	{
 		player.setAccessLevel(lvl);
-		if (lvl > 0)
+		if (lvl >= 0)
 		{
 			L2CoreMessage cm =  new L2CoreMessage (MessageTable.Messages[610]);
 			cm.addNumber(lvl);

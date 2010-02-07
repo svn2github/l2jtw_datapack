@@ -78,7 +78,7 @@ Or will it still remove the level 40 skill? Needs to be tested.
 		getPlayer().removeSkill(SkillTable.getInstance().getInfo(5658, 1), false);//Update by rocknow
 		getPlayer().removeSkill(SkillTable.getInstance().getInfo(5659, 1), false, false);//Update by rocknow
 
-		getPlayer().setTransformAllowedSkills(new int[]{});
+		getPlayer().setTransformAllowedSkills(EMPTY_ARRAY);
 	}
 
 	public static void main(String[] args)

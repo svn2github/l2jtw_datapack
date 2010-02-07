@@ -259,21 +259,19 @@
 		<set name="operateType" val="OP_PASSIVE" />
 	</skill>
 	<skill id="8327" levels="1" name="Release Seal on Agathion - Juju">
-		<!-- Update by rocknow -->
 		<set name="target" val="TARGET_SELF" />
 		<set name="skillType" val="AGATHION" />
-		<set name="operateType" val="OP_ACTIVE" />
 		<set name="hitTime" val="3000" />
 		<set name="staticHitTime" val="true" />
+		<set name="operateType" val="OP_ACTIVE" />
 		<set name="npcId" val="16064" />
 	</skill>
 	<skill id="8328" levels="1" name="Release Seal on Agathion - Oink oink">
-		<!-- Update by rocknow -->
 		<set name="target" val="TARGET_SELF" />
 		<set name="skillType" val="AGATHION" />
-		<set name="operateType" val="OP_ACTIVE" />
 		<set name="hitTime" val="3000" />
 		<set name="staticHitTime" val="true" />
+		<set name="operateType" val="OP_ACTIVE" />
 		<set name="npcId" val="16065" />
 	</skill>
 	<skill id="8329" levels="1" name="Summon Friend">
@@ -328,7 +326,6 @@
 	</skill>
 	<skill id="8337" levels="1" name="Weight Up">
 		<!-- Increases the weight limit by 5000. -->
-		<!-- Update by rocknow -->
 		<set name="target" val="TARGET_SELF" />
 		<set name="skillType" val="BUFF" />
 		<set name="operateType" val="OP_PASSIVE" />

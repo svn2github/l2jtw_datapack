@@ -44,7 +44,7 @@ public class LightPurpleManedHorse extends L2Transformation
 		getPlayer().removeSkill(SkillTable.getInstance().getInfo(839, 1), false);
 		getPlayer().removeSkill(SkillTable.getInstance().getInfo(5437, 1), false);//Update by rocknow
 
-		getPlayer().setTransformAllowedSkills(new int[]{});
+		getPlayer().setTransformAllowedSkills(EMPTY_ARRAY);
 	}
 
 	public static void main(String[] args)
