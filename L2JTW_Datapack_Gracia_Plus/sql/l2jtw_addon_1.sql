@@ -1451,9 +1451,8 @@ UPDATE `etcitem` SET `skill` = '2153-1;', `handler` = 'SoulShots', `item_type` =
 UPDATE `npc` SET `collision_radius` = 28, `collision_height` = 20, `level` = 61, `hp` = 3450, `mp` = 1365, `patk` = 991, `pdef` = 415, `matk` = 504, `mdef` = 388, `runspd` = 187 WHERE `id` = 14916;
 UPDATE `npc` SET `collision_radius` = 28, `collision_height` = 20, `level` = 70, `hp` = 4025, `mp` = 1592, `patk` = 1156, `pdef` = 484, `matk` = 588, `mdef` = 452, `runspd` = 187 WHERE `id` = 14917;
 
-/************ L2JTW Dev Only ************/
-REPLACE INTO `characters` VALUES ('l2jtwdev', 999999999, 'L2JTWTeam', 1, 113, 113, 45, 45, 39, 39, 1, 1, 1, 0, 21003, 46078, 41427, -3508, 0, 0, 0, 0, 0, 0, 0, 0, 1, 18, 18, 0, 0, 0, '', 52479, 0, 0, 127, 0, 1969, NULL, 1, 1265263740253, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 20000, 1265260916160);
-REPLACE INTO `accounts` VALUES ('l2jtwdev', 'dyRmy6UH9rr1UVXoIw8q6AqQXAE=', 1265273541980, 200, '127.0.0.1', 1);
+DELETE FROM `accounts` WHERE `login` = 'l2jtwdev';
+DELETE FROM `characters` WHERE `account_name` = 'l2jtwdev';
 
 /************ CT 2.5 ¸tÁl¨Ï©R­×¥¿ ************/
 
