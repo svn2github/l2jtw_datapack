@@ -738,7 +738,7 @@
 		<set name="operateType" val="OP_PASSIVE" />
 		<for>
 			<add order="0x40" stat="pAtk" val="70">
-				<using kind="Dagger,Dual Dagger" /> <!-- Update by rocknow -->
+				<using kind="Dagger" />
 			</add>
 			<mul order="0x30" stat="blowRate" val="1.2"> <!-- Blow land rate +20% from front -->
 				<player front="True" />

@@ -208,8 +208,7 @@
 		<set name="operateType" val="OP_PASSIVE" />
 	</skill>
 	<skill id="21120" levels="1" name="Jack O'Lantern Card">
-		<!-- Update by rocknow -->
-		<set name="target" val="TARGET_SELF" />
+		<set name="target" val="TARGET_NONE" />
 		<set name="skillType" val="NOTDONE" />
 		<set name="operateType" val="OP_PASSIVE" />
 	</skill>

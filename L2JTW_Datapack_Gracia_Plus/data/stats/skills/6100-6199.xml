@@ -212,6 +212,9 @@
 		<set name="operateType" val="OP_ACTIVE" />
 		<set name="skillType" val="BUFF" />
 		<set name="target" val="TARGET_SELF" />
+		<cond msgId="2292">
+			<player agathionId="16064"/>
+		</cond>
 		<for>
 			<effect name="BigHead" time="300" val="0" abnormal="bighead" stackOrder="300" stackType="big_head" />
 		</for>
@@ -464,8 +467,7 @@
 		<set name="operateType" val="OP_PASSIVE" />
 	</skill>
 	<skill id="6196" levels="1" name="Agathion Oink Oink's Ability">
-		<!-- Update by rocknow -->
-		<set name="target" val="TARGET_SELF" />
+		<set name="target" val="TARGET_NONE" />
 		<set name="skillType" val="NOTDONE" />
 		<set name="operateType" val="OP_PASSIVE" />
 	</skill>

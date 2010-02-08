@@ -725,7 +725,6 @@
 		<set name="hitTime" val="3000" />
 	</skill>
 	<skill id="21085" levels="1" name="Agathion Seal Cancel - Pomona">
-		<!-- Update by rocknow -->
 		<set name="target" val="TARGET_SELF" />
 		<set name="skillType" val="AGATHION" />
 		<set name="hitTime" val="3000" />
@@ -796,12 +795,11 @@
 	</skill>
 	<skill id="21091" levels="1" name="Agathion Seal Cancel - Weaver">
 		<!-- Removes the seal on the Agathion. -->
-		<!-- Update by rocknow -->
 		<set name="target" val="TARGET_SELF" />
 		<set name="skillType" val="AGATHION" />
-		<set name="operateType" val="OP_ACTIVE" />
 		<set name="hitTime" val="3000" />
 		<set name="staticHitTime" val="true" />
+		<set name="operateType" val="OP_ACTIVE" />
 		<set name="npcId" val="1528" />
 	</skill>
 	<skill id="21092" levels="1" name="Theme - Love">
