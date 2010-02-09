@@ -42,9 +42,9 @@ INSERT INTO `merchant_buylists` (`item_id`,`price`,`shop_id`,`order`) VALUES
 
 
 /************ 修正赤紅座龍 ************/
-REPLACE INTO `npc` VALUES (16038, 16038, 'Red Wind Strider', 0, '', 0, 'Monster.strider', 23.00, 31.00, 70, 'male', 'L2Pet', 40, 2444, 2444, 0.00, 0.00, 10, 10, 10, 10, 10, 10, 0, 0, 500, 500, 500, 500, 253, 0, 253, 0, 0, 0, 0, 80, 120, 0, 0, 'LAST_HIT', 'false');
-REPLACE INTO `npc` VALUES (16039, 16039, 'Red Star Strider', 0, '', 0, 'Monster.strider', 23.00, 31.00, 70, 'male', 'L2Pet', 40, 2444, 2444, 0.00, 0.00, 10, 10, 10, 10, 10, 10, 0, 0, 500, 500, 500, 500, 253, 0, 253, 0, 0, 0, 0, 80, 120, 0, 0, 'LAST_HIT', 'false');
-REPLACE INTO `npc` VALUES (16040, 16040, 'Red Twilight Strider', 0, '', 0, 'Monster.strider', 23.00, 31.00, 70, 'male', 'L2Pet', 40, 2444, 2444, 0.00, 0.00, 10, 10, 10, 10, 10, 10, 0, 0, 500, 500, 500, 500, 253, 0, 253, 0, 0, 0, 0, 80, 120, 0, 0, 'LAST_HIT', 'false');
+REPLACE INTO `npc` VALUES ('16038', '16038', 'Red Wind Strider', '0', '', '0', 'Monster.strider', '23.00', '31.00', '70', 'male', 'L2Pet', '40', '2444', '2444', '0.00', '0.00', '10', '10', '10', '10', '10', '10', '0', '0', '500', '500', '500', '500', '253', '0', '253', '0', '0', '0', '0', '80', '120', '0', '0', 'LAST_HIT', 'false');
+REPLACE INTO `npc` VALUES ('16039', '16039', 'Red Star Strider', '0', '', '0', 'Monster.strider', '23.00', '31.00', '70', 'male', 'L2Pet', '40', '2444', '2444', '0.00', '0.00', '10', '10', '10', '10', '10', '10', '0', '0', '500', '500', '500', '500', '253', '0', '253', '0', '0', '0', '0', '80', '120', '0', '0', 'LAST_HIT', 'false');
+REPLACE INTO `npc` VALUES ('16040', '16040', 'Red Twilight Strider', '0', '', '0', 'Monster.strider', '23.00', '31.00', '70', 'male', 'L2Pet', '40', '2444', '2444', '0.00', '0.00', '10', '10', '10', '10', '10', '10', '0', '0', '500', '500', '500', '500', '253', '0', '253', '0', '0', '0', '0', '80', '120', '0', '0', 'LAST_HIT', 'false');
 
 
 /************ 修正要塞/小天使/小惡魔/愛心/媽祖/普萊皮塔/貓熊的手鐲 ************/
@@ -122,12 +122,10 @@ REPLACE INTO `armorsets` VALUES ('200', '9670', '9671', '9669', '0', '0', '3359-
 
 
 /************ 增加狩獵幫手 ************/
-REPLACE INTO `npc` VALUES (16043, 16043, 'Fox Shaman', 0, '', 0, 'LineageMonster4.foxian_wizard_pet', 10.00, 19.00, 70, 'male', 'L2Pet', 40, 2444, 2444, 0.00, 0.00, 40, 43, 30, 21, 20, 25, 0, 0, 500, 500, 500, 500, 253, 0, 253, 0, 0, 0, 0, 80, 120, 0, 0, 'LAST_HIT', 'false');
-REPLACE INTO `npc` VALUES (16044, 16044, 'Wild Beast Fighter', 0, '', 0, 'LineageMonster4.beast_fighter_pet', 10.00, 17.00, 70, 'male', 'L2Pet', 40, 2444, 2444, 0.00, 0.00, 40, 43, 30, 21, 20, 25, 0, 0, 500, 500, 500, 500, 253, 0, 253, 0, 0, 0, 0, 80, 120, 0, 0, 'LAST_HIT', 'false');
-REPLACE INTO `npc` VALUES (16045, 16045, 'White Weasel', 0, '', 0, 'LineageMonster4.ferret_pet', 10.00, 13.00, 70, 'male', 'L2Pet', 40, 2444, 2444, 0.00, 0.00, 40, 43, 30, 21, 20, 25, 0, 0, 500, 500, 500, 500, 253, 0, 253, 0, 0, 0, 0, 80, 120, 0, 0, 'LAST_HIT', 'false');
-REPLACE INTO `npc` VALUES (16046, 16046, 'Fairy Princess', 0, '', 0, 'LineageMonster4.fairy_princess_pet', 10.00, 18.00, 70, 'male', 'L2Pet', 40, 2444, 2444, 0.00, 0.00, 40, 43, 30, 21, 20, 25, 0, 0, 500, 500, 500, 500, 253, 0, 253, 0, 0, 0, 0, 80, 120, 0, 0, 'LAST_HIT', 'false');
-
-
+REPLACE INTO `npc` VALUES ('16043', '16043', 'Fox Shaman', '0', '', '0', 'LineageMonster4.foxian_wizard_pet', '10', '19', '70', 'male', 'L2Pet', '40', '2444', '2444', '0.00', '0.00', '40', '43', '30', '21', '20', '25', '0', '0', '500', '500', '500', '500', '253', '0', '253', '0', '0', '0', '0', '80', '120', '0', '0', 'LAST_HIT', 'false');
+REPLACE INTO `npc` VALUES ('16044', '16044', 'Wild Beast Fighter', '0', '', '0', 'LineageMonster4.beast_fighter_pet', '10', '17', '70', 'male', 'L2Pet', '40', '2444', '2444', '0.00', '0.00', '40', '43', '30', '21', '20', '25', '0', '0', '500', '500', '500', '500', '253', '0', '253', '0', '0', '0', '0', '80', '120', '0', '0', 'LAST_HIT', 'false');
+REPLACE INTO `npc` VALUES ('16045', '16045', 'White Weasel', '0', '', '0', 'LineageMonster4.ferret_pet', '10', '13', '70', 'male', 'L2Pet', '40', '2444', '2444', '0.00', '0.00', '40', '43', '30', '21', '20', '25', '0', '0', '500', '500', '500', '500', '253', '0', '253', '0', '0', '0', '0', '80', '120', '0', '0', 'LAST_HIT', 'false');
+REPLACE INTO `npc` VALUES ('16046', '16046', 'Fairy Princess', '0', '', '0', 'LineageMonster4.fairy_princess_pet', '10', '18', '70', 'male', 'L2Pet', '40', '2444', '2444', '0.00', '0.00', '40', '43', '30', '21', '20', '25', '0', '0', '500', '500', '500', '500', '253', '0', '253', '0', '0', '0', '0', '80', '120', '0', '0', 'LAST_HIT', 'false');
 UPDATE `etcitem` SET `handler` = 'SummonItems' WHERE `item_id` IN (13017,13018,13019,13020);
 UPDATE `etcitem` SET `time` = 300 WHERE `item_id` IN (13017,13018,13019,13020);
 -- UPDATE `items` SET `time` = 30 WHERE `item_id` IN (13017,13018,13019,13020) AND `time` = '-1';
@@ -489,6 +487,8 @@ UPDATE `npc` SET `collision_radius` = '0.10', `collision_height` = '0.10' WHERE 
 UPDATE `npc` SET `level` = '78', `type` = 'L2Monster' WHERE `id` IN (29116);
 UPDATE `npc` SET `mp` = '3793' WHERE `id` IN (29006,29014);
 UPDATE `npc` SET `level` = '78' WHERE `id` IN (29070);
+UPDATE `npcaidata` SET `clan` = 'antharas_clan', `clan_range` = '1000' WHERE `npc_id` IN (29019,29069,29070);
+UPDATE `npcaidata` SET `clan` = 'baium_clan', `clan_range` = '1000' WHERE `npc_id` IN (29020,29021);
 DELETE FROM `npcskills` Where `skillid` IN (5224,5225);
 DELETE FROM `raidboss_spawnlist` WHERE `boss_id` = '29099';
 REPLACE INTO `droplist` VALUES
@@ -541,36 +541,29 @@ REPLACE INTO `npcskills` VALUES
 
 /************ 修正芙琳泰沙 ************/
 REPLACE INTO `grandboss_data` VALUES (29045, 0, 0, 0, 0, 0, 0, 0, 0);
-REPLACE INTO `npc` VALUES (18328, 18328, 'Hall Alarm Device', 0, '', 0, 'NPC.grave_keeper_key', 8.00, 21.00, 80, 'male', 'L2Monster', 80, 1264000, 9999, 13.43, 3.09, 40, 43, 30, 21, 20, 10, 440000, 40000, 9000, 5000, 6000, 6000, 300, 0, 333, 0, 0, 0, 0, 0, 0, 0, 0, 'LAST_HIT', 'false');
-REPLACE INTO `npc` VALUES (18329, 18329, 'Hall Keeper Captain', 0, '', 0, 'Monster.death_lord', 21.00, 40.00, 80, 'male', 'L2Monster', 80, 23582, 9999, 13.43, 3.09, 40, 43, 30, 21, 20, 10, 440000, 40000, 9000, 5000, 6000, 6000, 300, 500, 333, 78, 0, 0, 0, 88, 132, 0, 0, 'LAST_HIT', 'false');
-REPLACE INTO `npc` VALUES (18330, 18330, 'Hall Keeper Wizard', 0, '', 0, 'Monster.vale_master', 12.00, 40.00, 80, 'male', 'L2Monster', 80, 18203, 9999, 13.43, 3.09, 40, 43, 30, 21, 20, 10, 440000, 40000, 9000, 5000, 6000, 6000, 300, 500, 333, 326, 0, 0, 0, 88, 132, 0, 0, 'LAST_HIT', 'false');
-REPLACE INTO `npc` VALUES (18331, 18331, 'Hall Keeper Guard', 0, '', 0, 'Monster.death_knight', 12.00, 29.00, 80, 'male', 'L2Monster', 80, 18655, 9999, 13.43, 3.09, 40, 43, 30, 21, 20, 10, 440000, 40000, 9000, 5000, 6000, 6000, 300, 500, 333, 142, 0, 0, 0, 88, 132, 0, 0, 'LAST_HIT', 'false');
-REPLACE INTO `npc` VALUES (18332, 18332, 'Hall Keeper Patrol', 0, '', 0, 'Monster.headless_knight', 21.00, 31.00, 80, 'male', 'L2Monster', 80, 18434, 9999, 13.43, 3.09, 40, 43, 30, 21, 20, 10, 440000, 40000, 9000, 5000, 6000, 6000, 300, 500, 333, 70, 0, 0, 0, 88, 132, 0, 0, 'LAST_HIT', 'false');
-REPLACE INTO `npc` VALUES (18333, 18333, 'Hall Keeper Suicidal Soldier', 0, '', 0, 'Monster3.self_blaster', 20.00, 23.00, 80, 'male', 'L2Monster', 80, 18203, 9999, 13.43, 3.09, 40, 43, 30, 21, 20, 10, 440000, 40000, 9000, 5000, 6000, 6000, 300, 500, 333, 0, 0, 0, 0, 88, 132, 0, 0, 'LAST_HIT', 'false');
-REPLACE INTO `npc` VALUES (18334, 18334, 'Dark Choir Captain', 0, '', 0, 'Monster2.erinyes_cmd', 21.00, 50.00, 85, 'male', 'L2Monster', 80, 24069, 9999, 13.43, 3.09, 40, 43, 30, 21, 20, 10, 440000, 40000, 9000, 5000, 6000, 6000, 300, 0, 333, 0, 0, 0, 0, 0, 0, 0, 0, 'LAST_HIT', 'false');
-REPLACE INTO `npc` VALUES (18335, 18335, 'Dark Choir Prima Donna', 0, '', 0, 'Monster3.portrait_spirit', 11.00, 30.00, 80, 'male', 'L2Monster', 80, 18655, 9999, 13.43, 3.09, 40, 43, 30, 21, 20, 10, 440000, 40000, 9000, 5000, 6000, 6000, 300, 500, 333, 0, 0, 0, 0, 88, 132, 0, 0, 'LAST_HIT', 'false');
-REPLACE INTO `npc` VALUES (18336, 18336, 'Dark Choir Lancer', 0, '', 0, 'Monster.death_blader', 15.00, 45.00, 80, 'male', 'L2Monster', 80, 18655, 9999, 13.43, 3.09, 40, 43, 30, 21, 20, 10, 440000, 40000, 9000, 5000, 6000, 6000, 300, 500, 333, 1472, 0, 0, 0, 88, 132, 0, 0, 'LAST_HIT', 'false');
-REPLACE INTO `npc` VALUES (18337, 18337, 'Dark Choir Archer', 0, '', 0, 'Monster.skeleton_archer_20_bi', 13.00, 33.00, 80, 'male', 'L2Monster', 80, 18655, 9999, 13.43, 3.09, 40, 43, 30, 21, 20, 10, 440000, 40000, 9000, 5000, 6000, 6000, 300, 500, 333, 279, 0, 0, 0, 88, 132, 0, 0, 'LAST_HIT', 'false');
-REPLACE INTO `npc` VALUES (18338, 18338, 'Dark Choir Witch Doctor', 0, '', 0, 'Monster3.portrait_spirit_winged', 11.00, 30.00, 80, 'male', 'L2Monster', 80, 13991, 9999, 13.43, 3.09, 40, 43, 30, 21, 20, 10, 440000, 40000, 9000, 5000, 6000, 6000, 300, 500, 333, 0, 0, 0, 0, 88, 132, 0, 0, 'LAST_HIT', 'false');
-REPLACE INTO `npc` VALUES (18339, 18339, 'Dark Choir Player', 0, '', 0, 'Monster.skeleton', 11.00, 25.00, 80, 'male', 'L2Monster', 80, 18203, 9999, 13.43, 3.09, 40, 43, 30, 21, 20, 10, 440000, 40000, 9000, 5000, 6000, 6000, 300, 0, 333, 148, 103, 0, 0, 88, 132, 0, 0, 'LAST_HIT', 'false');
-REPLACE INTO `npc` VALUES (29045, 29045, 'Frintezza', 0, '', 0, 'Monster3.frintessa', 10.00, 42.00, 90, 'male', 'L2GrandBoss', 0, 23480000, 22197, 830.62, 3.09, 40, 43, 30, 21, 20, 10, 0, 0, 9182, 6214, 7133, 4191, 253, 0, 333, 0, 0, 0, 0, 1, 1, 0, 0, 'LAST_HIT', 'false');
-REPLACE INTO `npc` VALUES (29046, 29046, 'Scarlet van Halisha', 0, '', 0, 'Monster3.follower_of_frintessa', 29.00, 90.00, 85, 'male', 'L2GrandBoss', 50, 23480000, 22393, 823.48, 2.65, 60, 57, 73, 76, 70, 80, 0, 0, 10699, 5036, 5212, 4191, 278, 6000, 3819, 8204, 0, 0, 0, 55, 132, 0, 0, 'FULL_PARTY', 'false');
-REPLACE INTO `npc` VALUES (29047, 29047, 'Scarlet van Halisha', 0, '', 0, 'Monster3.follower_of_frintessa_tran', 29.00, 110.00, 90, 'male', 'L2GrandBoss', 60, 23480000, 22393, 830.62, 3.09, 70, 67, 73, 79, 70, 80, 496960259, 40375148, 23813, 7000, 12680, 6238, 409, 6000, 3819, 8222, 0, 0, 0, 92, 187, 0, 14, 'FULL_PARTY', 'false');
-REPLACE INTO `npc` VALUES (29048, 29048, 'Evil Spirit', 0, '', 0, 'Monster3.Evilate', 20.00, 56.00, 87, 'male', 'L2Monster', 70, 350000, 9999, 414.12, 3.09, 40, 43, 30, 21, 20, 10, 30, 2, 9000, 2350, 7133, 2045, 253, 6000, 333, 0, 0, 0, 0, 0, 0, 0, 0, 'LAST_HIT', 'false');
-REPLACE INTO `npc` VALUES (29049, 29049, 'Evil Spirit', 0, '', 0, 'Monster3.Evilate', 20.00, 56.00, 87, 'male', 'L2Monster', 70, 350000, 9999, 414.12, 3.09, 40, 43, 30, 21, 20, 10, 30, 2, 9000, 2350, 7133, 2045, 253, 6000, 333, 0, 0, 0, 0, 0, 0, 0, 0, 'LAST_HIT', 'false');
-REPLACE INTO `npc` VALUES (29050, 29050, 'Breath of Halisha', 0, '', 0, 'Monster3.portrait_spirit', 10.00, 20.00, 85, 'male', 'L2Monster', 40, 350000, 9999, 13.43, 3.09, 40, 43, 30, 21, 20, 10, 30, 2, 9000, 2350, 7133, 2045, 253, 6000, 333, 0, 0, 0, 0, 55, 66, 0, 0, 'LAST_HIT', 'false');
-REPLACE INTO `npc` VALUES (29051, 29051, 'Breath of Halisha', 0, '', 0, 'Monster3.portrait_spirit_winged', 10.00, 20.00, 85, 'male', 'L2Monster', 40, 350000, 9999, 13.43, 3.09, 40, 43, 30, 21, 20, 10, 30, 2, 9000, 2350, 7133, 2045, 253, 6000, 333, 0, 0, 0, 0, 55, 66, 0, 0, 'LAST_HIT', 'false');
-REPLACE INTO `npc` VALUES (29052, 29052, '', 0, '', 0, 'Monster3.Organ_Dummy', 1.00, 1.00, 99, 'male', 'L2Npc', 40, 400000, 9999, 13.43, 3.09, 40, 43, 30, 21, 20, 10, 0, 0, 9000, 5000, 6000, 6000, 300, 0, 333, 0, 0, 0, 0, 88, 132, 0, 0, 'LAST_HIT', 'false');
-REPLACE INTO `npc` VALUES (29053, 29053, '', 0, '', 0, 'Monster3.Follower_Dummy', 1.00, 1.00, 99, 'male', 'L2Npc', 40, 400000, 9999, 13.43, 3.09, 40, 43, 30, 21, 20, 10, 0, 0, 9000, 5000, 6000, 6000, 300, 0, 333, 0, 0, 0, 0, 88, 132, 0, 0, 'LAST_HIT', 'false');
-REPLACE INTO `npc` VALUES (29061, 29061, 'Teleportation Cubic', 0, '', 0, 'NPC.teleport_npc_frin', 40.00, 80.00, 70, 'male', 'L2Teleporter', 40, 2444, 2444, 0.00, 0.00, 10, 10, 10, 10, 10, 10, 0, 0, 500, 500, 500, 500, 278, 0, 333, 0, 0, 0, 0, 88, 132, 0, 0, 'LAST_HIT', 'false');
-
-/************ 修正NPC AI ************/
-UPDATE `npcaidata` SET `ai_type` = 'fighter' WHERE `npc_id` IN (29065);
-UPDATE `npcaidata` SET `clan_range` = '1000' WHERE `npc_id` IN (29099);
-UPDATE `npcaidata` SET `clan_range` = '1000' WHERE `npc_id` IN (29100);
-UPDATE `npcaidata` SET `clan` = 'antharas_clan', `clan_range` = '1000' WHERE `npc_id` IN (29019,29069,29070);
-UPDATE `npcaidata` SET `clan` = 'baium_clan', `clan_range` = '1000' WHERE `npc_id` IN (29020,29021);
-
+REPLACE INTO `npc` VALUES ('18328', '18328', 'Hall Alarm Device', '0', '', '0', 'NPC.grave_keeper_key', '8.00', '21.00', '80', 'male', 'L2Monster', '80', '1264000', '9999', '13.43', '3.09', '40', '43', '30', '21', '20', '10', '440000', '40000', '9000', '5000', '6000', '6000', '300', '0', '333', '0', '0', '0', '0', '0', '0', '0', '0', 'LAST_HIT', 'false');
+REPLACE INTO `npc` VALUES ('18329', '18329', 'Hall Keeper Captain', '0', '', '0', 'Monster.death_lord', '21.00', '40.00', '80', 'male', 'L2Monster', '80', '23582', '9999', '13.43', '3.09', '40', '43', '30', '21', '20', '10', '440000', '40000', '9000', '5000', '6000', '6000', '300', '500', '333', '78', '0', '0', '0', '88', '132', '0', '0', 'LAST_HIT', 'false');
+REPLACE INTO `npc` VALUES ('18330', '18330', 'Hall Keeper Wizard', '0', '', '0', 'Monster.vale_master', '12.00', '40.00', '80', 'male', 'L2Monster', '80', '18203', '9999', '13.43', '3.09', '40', '43', '30', '21', '20', '10', '440000', '40000', '9000', '5000', '6000', '6000', '300', '500', '333', '326', '0', '0', '0', '88', '132', '0', '0', 'LAST_HIT', 'false');
+REPLACE INTO `npc` VALUES ('18331', '18331', 'Hall Keeper Guard', '0', '', '0', 'Monster.death_knight', '12.00', '29.00', '80', 'male', 'L2Monster', '80', '18655', '9999', '13.43', '3.09', '40', '43', '30', '21', '20', '10', '440000', '40000', '9000', '5000', '6000', '6000', '300', '500', '333', '142', '0', '0', '0', '88', '132', '0', '0', 'LAST_HIT', 'false');
+REPLACE INTO `npc` VALUES ('18332', '18332', 'Hall Keeper Patrol', '0', '', '0', 'Monster.headless_knight', '21.00', '31.00', '80', 'male', 'L2Monster', '80', '18434', '9999', '13.43', '3.09', '40', '43', '30', '21', '20', '10', '440000', '40000', '9000', '5000', '6000', '6000', '300', '500', '333', '70', '0', '0', '0', '88', '132', '0', '0', 'LAST_HIT', 'false');
+REPLACE INTO `npc` VALUES ('18333', '18333', 'Hall Keeper Suicidal Soldier', '0', '', '0', 'Monster3.self_blaster', '20.00', '23.00', '80', 'male', 'L2Monster', '80', '18203', '9999', '13.43', '3.09', '40', '43', '30', '21', '20', '10', '440000', '40000', '9000', '5000', '6000', '6000', '300', '500', '333', '0', '0', '0', '0', '88', '132', '0', '0', 'LAST_HIT', 'false');
+REPLACE INTO `npc` VALUES ('18334', '18334', 'Dark Choir Captain', '0', '', '0', 'Monster2.erinyes_cmd', '21.00', '50.00', '85', 'male', 'L2Monster', '80', '24069', '9999', '13.43', '3.09', '40', '43', '30', '21', '20', '10', '440000', '40000', '9000', '5000', '6000', '6000', '300', '0', '333', '0', '0', '0', '0', '0', '0', '0', '0', 'LAST_HIT', 'false');
+REPLACE INTO `npc` VALUES ('18335', '18335', 'Dark Choir Prima Donna', '0', '', '0', 'Monster3.portrait_spirit', '11.00', '30.00', '80', 'male', 'L2Monster', '80', '18655', '9999', '13.43', '3.09', '40', '43', '30', '21', '20', '10', '440000', '40000', '9000', '5000', '6000', '6000', '300', '500', '333', '0', '0', '0', '0', '88', '132', '0', '0', 'LAST_HIT', 'false');
+REPLACE INTO `npc` VALUES ('18336', '18336', 'Dark Choir Lancer', '0', '', '0', 'Monster.death_blader', '15.00', '45.00', '80', 'male', 'L2Monster', '80', '18655', '9999', '13.43', '3.09', '40', '43', '30', '21', '20', '10', '440000', '40000', '9000', '5000', '6000', '6000', '300', '500', '333', '1472', '0', '0', '0', '88', '132', '0', '0', 'LAST_HIT', 'false');
+REPLACE INTO `npc` VALUES ('18337', '18337', 'Dark Choir Archer', '0', '', '0', 'Monster.skeleton_archer_20_bi', '13.00', '33.00', '80', 'male', 'L2Monster', '80', '18655', '9999', '13.43', '3.09', '40', '43', '30', '21', '20', '10', '440000', '40000', '9000', '5000', '6000', '6000', '300', '500', '333', '279', '0', '0', '0', '88', '132', '0', '0', 'LAST_HIT', 'false');
+REPLACE INTO `npc` VALUES ('18338', '18338', 'Dark Choir Witch Doctor', '0', '', '0', 'Monster3.portrait_spirit_winged', '11.00', '30.00', '80', 'male', 'L2Monster', '80', '13991', '9999', '13.43', '3.09', '40', '43', '30', '21', '20', '10', '440000', '40000', '9000', '5000', '6000', '6000', '300', '500', '333', '0', '0', '0', '0', '88', '132', '0', '0', 'LAST_HIT', 'false');
+REPLACE INTO `npc` VALUES ('18339', '18339', 'Dark Choir Player', '0', '', '0', 'Monster.skeleton', '11.00', '25.00', '80', 'male', 'L2Monster', '80', '18203', '9999', '13.43', '3.09', '40', '43', '30', '21', '20', '10', '440000', '40000', '9000', '5000', '6000', '6000', '300', '0', '333', '148', '103', '0', '0', '88', '132', '0', '0', 'LAST_HIT', 'false');
+REPLACE INTO `npc` VALUES ('29045', '29045', 'Frintezza', '0', '', '0', 'Monster3.frintessa', '10.00', '42.00', '90', 'male', 'L2GrandBoss', '0', '23480000', '22197', '830.62', '3.09', '40', '43', '30', '21', '20', '10', '0', '0', '9182', '6214', '7133', '4191', '253', '0', '333', '0', '0', '0', '0', '1', '1', '0', '0', 'LAST_HIT', 'false');
+REPLACE INTO `npc` VALUES ('29046', '29046', 'Scarlet van Halisha', '0', '', '0', 'Monster3.follower_of_frintessa', '29.00', '90.00', '85', 'male', 'L2GrandBoss', '50', '23480000', '22393', '823.48', '2.65', '60', '57', '73', '76', '70', '80', '0', '0', '10699', '5036', '5212', '4191', '278', '6000', '3819', '8204', '0', '0', '0', '55', '132', '0', '0', 'FULL_PARTY', 'false');
+REPLACE INTO `npc` VALUES ('29047', '29047', 'Scarlet van Halisha', '0', '', '0', 'Monster3.follower_of_frintessa_tran', '29.00', '110.00', '90', 'male', 'L2GrandBoss', '60', '23480000', '22393', '830.62', '3.09', '70', '67', '73', '79', '70', '80', '496960259', '40375148', '23813', '7000', '12680', '6238', '409', '6000', '3819', '8222', '0', '0', '0', '92', '187', '0', '14', 'FULL_PARTY', 'false');
+REPLACE INTO `npc` VALUES ('29048', '29048', 'Evil Spirit', '0', '', '0', 'Monster3.Evilate', '20.00', '56.00', '87', 'male', 'L2Monster', '70', '350000', '9999', '414.12', '3.09', '40', '43', '30', '21', '20', '10', '30', '2', '9000', '2350', '7133', '2045', '253', '6000', '333', '0', '0', '0', '0', '0', '0', '0', '0', 'LAST_HIT', 'false');
+REPLACE INTO `npc` VALUES ('29049', '29049', 'Evil Spirit', '0', '', '0', 'Monster3.Evilate', '20.00', '56.00', '87', 'male', 'L2Monster', '70', '350000', '9999', '414.12', '3.09', '40', '43', '30', '21', '20', '10', '30', '2', '9000', '2350', '7133', '2045', '253', '6000', '333', '0', '0', '0', '0', '0', '0', '0', '0', 'LAST_HIT', 'false');
+REPLACE INTO `npc` VALUES ('29050', '29050', 'Breath of Halisha', '0', '', '0', 'Monster3.portrait_spirit', '10.00', '20.00', '85', 'male', 'L2Monster', '40', '350000', '9999', '13.43', '3.09', '40', '43', '30', '21', '20', '10', '30', '2', '9000', '2350', '7133', '2045', '253', '6000', '333', '0', '0', '0', '0', '55', '66', '0', '0', 'LAST_HIT', 'false');
+REPLACE INTO `npc` VALUES ('29051', '29051', 'Breath of Halisha', '0', '', '0', 'Monster3.portrait_spirit_winged', '10.00', '20.00', '85', 'male', 'L2Monster', '40', '350000', '9999', '13.43', '3.09', '40', '43', '30', '21', '20', '10', '30', '2', '9000', '2350', '7133', '2045', '253', '6000', '333', '0', '0', '0', '0', '55', '66', '0', '0', 'LAST_HIT', 'false');
+REPLACE INTO `npc` VALUES ('29052', '29052', '', '0', '', '0', 'Monster3.Organ_Dummy', '1.00', '1.00', '99', 'male', 'L2Npc', '40', '400000', '9999', '13.43', '3.09', '40', '43', '30', '21', '20', '10', '0', '0', '9000', '5000', '6000', '6000', '300', '0', '333', '0', '0', '0', '0', '88', '132', '0', '0', 'LAST_HIT', 'false');
+REPLACE INTO `npc` VALUES ('29053', '29053', '', '0', '', '0', 'Monster3.Follower_Dummy', '1.00', '1.00', '99', 'male', 'L2Npc', '40', '400000', '9999', '13.43', '3.09', '40', '43', '30', '21', '20', '10', '0', '0', '9000', '5000', '6000', '6000', '300', '0', '333', '0', '0', '0', '0', '88', '132', '0', '0', 'LAST_HIT', 'false');
+REPLACE INTO `npc` VALUES ('29061', '29061', 'Teleportation Cubic', '0', '', '0', 'NPC.teleport_npc_frin', '40.00', '80.00', '70', 'male', 'L2Teleporter', '40', '2444', '2444', '0.00', '0.00', '10', '10', '10', '10', '10', '10', '0', '0', '500', '500', '500', '500', '278', '0', '333', '0', '0', '0', '0', '88', '132', '0', '0', 'LAST_HIT', 'false');
+UPDATE `npcaidata` SET `clan` = 'frintezza_clan', `clan_range` = '6000' WHERE `npc_id` IN (29045,29046,29047,29048,29049,29050,29051);
 DELETE FROM `npcskills` Where `skillid` IN (5014,5015,5016,5017,5018,5019);
 REPLACE INTO `npcskills` VALUES
 (29050,5010,1),
@@ -581,202 +574,6 @@ DELETE FROM `zone_vertices` WHERE `id` IN (12005); -- 刪除地下競技場重複的入場管
 REPLACE INTO `zone_vertices` (`id`,`order`,`x`,`y`) VALUES
 (12005,0,172229,-74350),
 (12005,1,176241,-90230);
-
-               
-/************ 加入81級技能(效果尚未完全實裝) ************/
-REPLACE INTO `skill_trees` VALUES
-('88', '755', '1', 'Protection of Rune', '0', '81'),
-('88', '756', '1', 'Protection of Elemental', '0', '81'),
-('88', '757', '1', 'Protection of Alignment', '0', '81'),
-('88', '758', '1', 'Fighters Will', '0', '81'),
-('88', '759', '1', 'Archers Will', '0', '81'),
-('88', '775', '1', 'Weapon Blockade', '0', '81'),
-('89', '755', '1', 'Protection of Rune', '0', '81'),
-('89', '756', '1', 'Protection of Elemental', '0', '81'),
-('89', '757', '1', 'Protection of Alignment', '0', '81'),
-('89', '758', '1', 'Fighters Will', '0', '81'),
-('89', '759', '1', 'Archers Will', '0', '81'),
-('89', '774', '1', 'Dread Pool', '0', '81'),
-('90', '755', '1', 'Protection of Rune', '0', '81'),
-('90', '756', '1', 'Protection of Elemental', '0', '81'),
-('90', '757', '1', 'Protection of Alignment', '0', '81'),
-('90', '758', '1', 'Fighters Will', '0', '81'),
-('90', '759', '1', 'Archers Will', '0', '81'),
-('90', '760', '1', 'Anti Magic Armor', '0', '81'),
-('90', '784', '1', 'Spirit of Phoenix', '0', '81'),
-('90', '785', '1', 'Flame Icon', '0', '81'),
-('91', '755', '1', 'Protection of Rune', '0', '81'),
-('91', '756', '1', 'Protection of Elemental', '0', '81'),
-('91', '757', '1', 'Protection of Alignment', '0', '81'),
-('91', '758', '1', 'Fighters Will', '0', '81'),
-('91', '759', '1', 'Archers Will', '0', '81'),
-('91', '760', '1', 'Anti Magic Armor', '0', '81'),
-('91', '761', '1', 'Seed of Revenge', '0', '81'),
-('91', '762', '1', 'Insane Crusher', '0', '81'),
-('91', '763', '1', 'Hell Scream', '0', '81'),
-('92', '755', '1', 'Protection of Rune', '0', '81'),
-('92', '756', '1', 'Protection of Elemental', '0', '81'),
-('92', '757', '1', 'Protection of Alignment', '0', '81'),
-('92', '758', '1', 'Fighters Will', '0', '81'),
-('92', '759', '1', 'Archers Will', '0', '81'),
-('92', '771', '1', 'Flame Hawk', '0', '81'),
-('93', '755', '1', 'Protection of Rune', '0', '81'),
-('93', '756', '1', 'Protection of Elemental', '0', '81'),
-('93', '757', '1', 'Protection of Alignment', '0', '81'),
-('93', '758', '1', 'Fighters Will', '0', '81'),
-('93', '759', '1', 'Archers Will', '0', '81'),
-('93', '766', '1', 'Sixth Sense', '0', '81'),
-('93', '767', '1', 'Expose Weak Point', '0', '81'),
-('93', '768', '1', 'Exciting Adventure', '0', '81'),
-('94', '755', '1', 'Protection of Rune', '0', '81'),
-('94', '756', '1', 'Protection of Elemental', '0', '81'),
-('94', '757', '1', 'Protection of Alignment', '0', '81'),
-('94', '1492', '1', 'Flame Armor', '0', '81'),
-('95', '755', '1', 'Protection of Rune', '0', '81'),
-('95', '756', '1', 'Protection of Elemental', '0', '81'),
-('95', '757', '1', 'Protection of Alignment', '0', '81'),
-('96', '755', '1', 'Protection of Rune', '0', '81'),
-('96', '756', '1', 'Protection of Elemental', '0', '81'),
-('96', '757', '1', 'Protection of Alignment', '0', '81'),
-('95', '1495', '1', 'Vampiric Mist', '0', '81'),
-('96', '1496', '1', 'Servitor Barrier', '0', '81'),
-('96', '1497', '1', 'Excessive Loyalty', '0', '81'),
-('96', '1498', '1', 'Mutual Response', '0', '81'),
-('97', '1505', '1', 'Sublime Self-Sacrifice', '0', '81'),
-('97', '755', '1', 'Protection of Rune', '0', '81'),
-('97', '756', '1', 'Protection of Elemental', '0', '81'),
-('97', '757', '1', 'Protection of Alignment', '0', '81'),
-('98', '755', '1', 'Protection of Rune', '0', '81'),
-('98', '756', '1', 'Protection of Elemental', '0', '81'),
-('98', '757', '1', 'Protection of Alignment', '0', '81'),
-('99', '755', '1', 'Protection of Rune', '0', '81'),
-('99', '756', '1', 'Protection of Elemental', '0', '81'),
-('99', '757', '1', 'Protection of Alignment', '0', '81'),
-('99', '758', '1', 'Fighters Will', '0', '81'),
-('99', '759', '1', 'Archers Will', '0', '81'),
-('99', '760', '1', 'Anti Magic Armor', '0', '81'),
-('99', '786', '1', 'Evas Will', '0', '81'),
-('99', '787', '1', 'Touch of Eva', '0', '81'),
-('100', '755', '1', 'Protection of Rune', '0', '81'),
-('100', '756', '1', 'Protection of Elemental', '0', '81'),
-('100', '757', '1', 'Protection of Alignment', '0', '81'),
-('100', '758', '1', 'Fighters Will', '0', '81'),
-('100', '759', '1', 'Archers Will', '0', '81'),
-('101', '755', '1', 'Protection of Rune', '0', '81'),
-('101', '756', '1', 'Protection of Elemental', '0', '81'),
-('101', '757', '1', 'Protection of Alignment', '0', '81'),
-('101', '758', '1', 'Fighters Will', '0', '81'),
-('101', '759', '1', 'Archers Will', '0', '81'),
-('101', '766', '1', 'Sixth Sense', '0', '81'),
-('101', '767', '1', 'Expose Weak Point', '0', '81'),
-('101', '769', '1', 'Wind Riding', '0', '81'),
-('102', '755', '1', 'Protection of Rune', '0', '81'),
-('102', '756', '1', 'Protection of Elemental', '0', '81'),
-('102', '757', '1', 'Protection of Alignment', '0', '81'),
-('102', '758', '1', 'Fighters Will', '0', '81'),
-('102', '759', '1', 'Archers Will', '0', '81'),
-('102', '772', '1', 'Arrow Rain', '0', '81'),
-('103', '755', '1', 'Protection of Rune', '0', '81'),
-('103', '756', '1', 'Protection of Elemental', '0', '81'),
-('103', '757', '1', 'Protection of Alignment', '0', '81'),
-('103', '1493', '1', 'Frost Armor', '0', '81'),
-('104', '755', '1', 'Protection of Rune', '0', '81'),
-('104', '756', '1', 'Protection of Elemental', '0', '81'),
-('104', '757', '1', 'Protection of Alignment', '0', '81'),
-('104', '1496', '1', 'Servitor Barrier', '0', '81'),
-('104', '1497', '1', 'Excessive Loyalty', '0', '81'),
-('104', '1498', '1', 'Mutual Response', '0', '81'),
-('105', '1506', '1', 'Blessing of Eva', '0', '81'),
-('105', '755', '1', 'Protection of Rune', '0', '81'),
-('105', '756', '1', 'Protection of Elemental', '0', '81'),
-('105', '757', '1', 'Protection of Alignment', '0', '81'),
-('106', '755', '1', 'Protection of Rune', '0', '81'),
-('106', '756', '1', 'Protection of Elemental', '0', '81'),
-('106', '757', '1', 'Protection of Alignment', '0', '81'),
-('106', '758', '1', 'Fighters Will', '0', '81'),
-('106', '759', '1', 'Archers Will', '0', '81'),
-('106', '760', '1', 'Anti Magic Armor', '0', '81'),
-('106', '788', '1', 'Pain of Shilen', '0', '81'),
-('106', '789', '1', 'Touch of Shilen', '0', '81'),
-('107', '755', '1', 'Protection of Rune', '0', '81'),
-('107', '756', '1', 'Protection of Elemental', '0', '81'),
-('107', '757', '1', 'Protection of Alignment', '0', '81'),
-('108', '755', '1', 'Protection of Rune', '0', '81'),
-('108', '756', '1', 'Protection of Elemental', '0', '81'),
-('108', '757', '1', 'Protection of Alignment', '0', '81'),
-('108', '758', '1', 'Fighters Will', '0', '81'),
-('108', '759', '1', 'Archers Will', '0', '81'),
-('108', '766', '1', 'Sixth Sense', '0', '81'),
-('108', '767', '1', 'Expose Weak Point', '0', '81'),
-('108', '770', '1', 'Ghost Walking', '0', '81'),
-('109', '755', '1', 'Protection of Rune', '0', '81'),
-('109', '756', '1', 'Protection of Elemental', '0', '81'),
-('109', '757', '1', 'Protection of Alignment', '0', '81'),
-('109', '758', '1', 'Fighters Will', '0', '81'),
-('109', '759', '1', 'Archers Will', '0', '81'),
-('109', '773', '1', 'Ghost Piercing', '0', '81'),
-('110', '755', '1', 'Protection of Rune', '0', '81'),
-('110', '756', '1', 'Protection of Elemental', '0', '81'),
-('110', '757', '1', 'Protection of Alignment', '0', '81'),
-('110', '1494', '1', 'Hurricane Armor', '0', '81'),
-('111', '755', '1', 'Protection of Rune', '0', '81'),
-('111', '756', '1', 'Protection of Elemental', '0', '81'),
-('111', '757', '1', 'Protection of Alignment', '0', '81'),
-('111', '1496', '1', 'Servitor Barrier', '0', '81'),
-('111', '1497', '1', 'Excessive Loyalty', '0', '81'),
-('111', '1498', '1', 'Mutual Response', '0', '81'),
-('112', '1507', '1', 'Lord of Vampire', '0', '81'),
-('112', '1508', '1', 'Throne Root', '0', '81'),
-('112', '755', '1', 'Protection of Rune', '0', '81'),
-('112', '756', '1', 'Protection of Elemental', '0', '81'),
-('112', '757', '1', 'Protection of Alignment', '0', '81'),
-('113', '755', '1', 'Protection of Rune', '0', '81'),
-('113', '756', '1', 'Protection of Elemental', '0', '81'),
-('113', '757', '1', 'Protection of Alignment', '0', '81'),
-('113', '758', '1', 'Fighters Will', '0', '81'),
-('113', '759', '1', 'Archers Will', '0', '81'),
-('113', '777', '1', 'Demolition Impact', '0', '81'),
-('114', '755', '1', 'Protection of Rune', '0', '81'),
-('114', '756', '1', 'Protection of Elemental', '0', '81'),
-('114', '757', '1', 'Protection of Alignment', '0', '81'),
-('114', '758', '1', 'Fighters Will', '0', '81'),
-('114', '759', '1', 'Archers Will', '0', '81'),
-('114', '776', '1', 'Force of Destruction', '0', '81'),
-('115', '755', '1', 'Protection of Rune', '0', '81'),
-('115', '756', '1', 'Protection of Elemental', '0', '81'),
-('115', '757', '1', 'Protection of Alignment', '0', '81'),
-('115', '1509', '1', 'Seal of Limit', '0', '81'),
-('116', '755', '1', 'Protection of Rune', '0', '81'),
-('116', '756', '1', 'Protection of Elemental', '0', '81'),
-('116', '757', '1', 'Protection of Alignment', '0', '81'),
-('117', '755', '1', 'Protection of Rune', '0', '81'),
-('117', '756', '1', 'Protection of Elemental', '0', '81'),
-('117', '757', '1', 'Protection of Alignment', '0', '81'),
-('117', '758', '1', 'Fighters Will', '0', '81'),
-('117', '759', '1', 'Archers Will', '0', '81'),
-('118', '755', '1', 'Protection of Rune', '0', '81'),
-('118', '756', '1', 'Protection of Elemental', '0', '81'),
-('118', '757', '1', 'Protection of Alignment', '0', '81'),
-('118', '758', '1', 'Fighters Will', '0', '81'),
-('118', '759', '1', 'Archers Will', '0', '81'),
-('118', '778', '1', 'Golem Armor', '0', '81'),
-('131', '755', '1', 'Protection of Rune', '0', '81'),
-('131', '756', '1', 'Protection of Elemental', '0', '81'),
-('131', '757', '1', 'Protection of Alignment', '0', '81'),
-('131', '758', '1', 'Fighters Will', '0', '81'),
-('131', '759', '1', 'Archers Will', '0', '81'),
-('132', '755', '1', 'Protection of Rune', '0', '81'),
-('132', '756', '1', 'Protection of Elemental', '0', '81'),
-('132', '757', '1', 'Protection of Alignment', '0', '81'),
-('132', '758', '1', 'Fighters Will', '0', '81'),
-('132', '759', '1', 'Archers Will', '0', '81'),
-('132', '791', '1', 'Lightning Shock', '0', '81'),
-('134', '755', '1', 'Protection of Rune', '0', '81'),
-('134', '756', '1', 'Protection of Elemental', '0', '81'),
-('134', '757', '1', 'Protection of Alignment', '0', '81'),
-('134', '758', '1', 'Fighters Will', '0', '81'),
-('134', '759', '1', 'Archers Will', '0', '81'),
-('134', '790', '1', 'Wild Shot', '0', '81');
 
 
 /************ 其他修正 ************/
@@ -826,7 +623,6 @@ REPLACE INTO `armor` VALUES
 REPLACE INTO `armor` VALUES
 (14776,'Agathion Seal Bracelet - Juju','','lbracelet','false','none',150,'wood','none',0,-1,20160,0,0,0,0,0,'false','false','true','false','true','0-0','8327-1;6136-1;6137-1;3267-1;'),
 (20495,'Agathion Seal Bracelet - Pomona Mental Shield - 7 day limited period','','lbracelet','false','none',150,'wood','none',0,-1,-1,0,0,0,0,0,'false','false','true','false','true','0-0','21085-1;23067-1;3267-1;'); -- 壺精封印手鐲-果樹女神
--- (20496,'Agathion Seal Bracelet - Pomona Mental Shield - 7 day limited period','','lbracelet','false','none',150,'wood','none',0,-1,10080,0,0,0,0,0,'false','false','true','false','true','0-0','21085-1;23067-1;23068-4;3267-1;'), -- 壺精封印手鐲-果樹女神 心靈防護(限時7日)
 UPDATE `armor` SET `skill` = '8257-1;5956-1;3267-1;' WHERE `item_id` IN (14075); -- 怒氣壺精
 UPDATE `armor` SET `skill` = '8256-1;5955-1;3267-1;' WHERE `item_id` IN (14076); -- 開心壺精
 UPDATE `armor` SET `skill` = '8258-1;5957-1;3267-1;' WHERE `item_id` IN (14077); -- 嗚咽壺精
@@ -835,10 +631,11 @@ UPDATE `armor` SET `skill` = '8258-1;5957-1;3267-1;' WHERE `item_id` IN (14077);
 UPDATE `armor` SET `skill` = '8262-1;' WHERE `item_id` IN (14053,14066);       -- 黃鬃獅子騎乘手鐲
 
 -- 新狩獵幫手
-REPLACE INTO `npc` VALUES (16050, 16050, 'Owl Monk', 0, '', 0, 'LineageMonster4.owl_wizard_the_pet', 15.00, 20.00, 80, 'male', 'L2Pet', 40, 2444, 2444, 0.00, 0.00, 40, 43, 30, 21, 20, 25, 0, 0, 500, 500, 500, 500, 253, 0, 253, 0, 0, 0, 0, 80, 120, 0, 0, 'LAST_HIT', 'false');
-REPLACE INTO `npc` VALUES (16051, 16051, 'Spirit Shaman', 0, '', 0, 'LineageMonster4.sprit_magician_the_pet', 15.00, 15.00, 80, 'male', 'L2Pet', 40, 2444, 2444, 0.00, 0.00, 40, 43, 30, 21, 20, 25, 0, 0, 500, 500, 500, 500, 253, 0, 253, 0, 0, 0, 0, 80, 120, 0, 0, 'LAST_HIT', 'false');
-REPLACE INTO `npc` VALUES (16052, 16052, 'Toy Knight', 0, '', 0, 'LineageMonster4.toy_knight_the_pet', 12.00, 15.00, 80, 'male', 'L2Pet', 40, 2444, 2444, 0.00, 0.00, 40, 43, 30, 21, 20, 25, 0, 0, 500, 500, 500, 500, 253, 0, 253, 0, 0, 0, 0, 80, 120, 0, 0, 'LAST_HIT', 'false');
-REPLACE INTO `npc` VALUES (16053, 16053, 'Turtle Ascetic', 0, '', 0, 'LineageMonster4.turtle_buffer_the_pet', 12.00, 10.00, 80, 'male', 'L2Pet', 40, 2444, 2444, 0.00, 0.00, 40, 43, 30, 21, 20, 25, 0, 0, 500, 500, 500, 500, 253, 0, 253, 0, 0, 0, 0, 80, 120, 0, 0, 'LAST_HIT', 'false');
+REPLACE INTO `npc` VALUES
+('16050', '16050', 'Owl Monk', '0', '', '0', 'LineageMonster4.owl_wizard_the_pet', '15', '20', '80', 'male', 'L2Pet', '40', '2444', '2444', '0.00', '0.00', '40', '43', '30', '21', '20', '25', '0', '0', '500', '500', '500', '500', '253', '0', '253', '0', '0', '0', '0', '80', '120', '0', '0', 'LAST_HIT', 'false'),
+('16051', '16051', 'Spirit Shaman', '0', '', '0', 'LineageMonster4.sprit_magician_the_pet', '15', '15', '80', 'male', 'L2Pet', '40', '2444', '2444', '0.00', '0.00', '40', '43', '30', '21', '20', '25', '0', '0', '500', '500', '500', '500', '253', '0', '253', '0', '0', '0', '0', '80', '120', '0', '0', 'LAST_HIT', 'false'),
+('16052', '16052', 'Toy Knight', '0', '', '0', 'LineageMonster4.toy_knight_the_pet', '12', '15', '80', 'male', 'L2Pet', '40', '2444', '2444', '0.00', '0.00', '40', '43', '30', '21', '20', '25', '0', '0', '500', '500', '500', '500', '253', '0', '253', '0', '0', '0', '0', '80', '120', '0', '0', 'LAST_HIT', 'false'),
+('16053', '16053', 'Turtle Ascetic', '0', '', '0', 'LineageMonster4.turtle_buffer_the_pet', '12', '10', '80', 'male', 'L2Pet', '40', '2444', '2444', '0.00', '0.00', '40', '43', '30', '21', '20', '25', '0', '0', '500', '500', '500', '500', '253', '0', '253', '0', '0', '0', '0', '80', '120', '0', '0', 'LAST_HIT', 'false');
 UPDATE `etcitem` SET `handler` = 'SummonItems' WHERE `item_id` IN (14061,14062,14063,14064);
 UPDATE `etcitem` SET `time` = 300 WHERE `item_id` IN (14061,14062,14063,14064);
 -- UPDATE `items` SET `time` = 30 WHERE `item_id` IN (14061,14062,14063,14064) AND `time` = '-1';
@@ -1228,7 +1025,6 @@ REPLACE INTO `teleport` VALUES
 ('3260203', '3260203', '-249774', '207316', '-11952', '0', '0'),
 ('3254001', '3260203', '-212836', '209824', '4288', '0', '0');
 
-
 -- 刪除 NPC，改成 AI 控制行動
 Delete From `spawnlist` Where `npc_templateid` in (32549,32619,32628,32629); -- 狄里歐斯/刺槍兵/碼頭巡邏兵
 UPDATE `npc` SET `walkspd` = '8' WHERE `id` IN (32072); -- 艾德溫
@@ -1442,20 +1238,25 @@ DELETE FROM `merchant_shopids` WHERE `npc_id` IN (30840,31262,31306,31413,31414,
 DELETE FROM `spawnlist` WHERE `npc_templateid` IN (30990,30994) AND `id` NOT IN (45033);
 
 -- 刪除其中一隻轉職管理員
-DELETE FROM `spawnlist` WHERE `npc_templateid` IN (31756);
+-- DELETE FROM `spawnlist` WHERE `npc_templateid` IN (31756);
+DELETE FROM `spawnlist` WHERE `npc_templateid` IN (31757);
 
 -- 修正/更新任務128 菲拉卡-冰與火之歌
 UPDATE `etcitem` SET `skill` = '2150-1;', `handler` = 'SoulShots', `item_type` = 'shot', `crystal_type` = 'd' WHERE `item_id` = 13037;
 UPDATE `etcitem` SET `skill` = '2153-1;', `handler` = 'SoulShots', `item_type` = 'shot', `crystal_type` = 'a' WHERE `item_id` = 13045;
 UPDATE `etcitem` SET `skill` = '2153-1;', `handler` = 'SoulShots', `item_type` = 'shot', `crystal_type` = 'a' WHERE `item_id` = 13055;
+UPDATE `weapon` SET `skill` = '3599-1;8239-1;8240-1;8241-1;5760-3;' WHERE `item_id` = 13052;
+UPDATE `weapon` SET `skill` = '3599-1;8239-1;8240-2;8241-1;5760-5;' WHERE `item_id` = 13053;
+UPDATE `weapon` SET `skill` = '3599-1;8239-1;8240-3;8241-1;5760-7;' WHERE `item_id` = 13054;
+UPDATE `weapon` SET `skill` = '0-0;' WHERE `item_id` = 13042;
 UPDATE `npc` SET `collision_radius` = 28, `collision_height` = 20, `level` = 61, `hp` = 3450, `mp` = 1365, `patk` = 991, `pdef` = 415, `matk` = 504, `mdef` = 388, `runspd` = 187 WHERE `id` = 14916;
 UPDATE `npc` SET `collision_radius` = 28, `collision_height` = 20, `level` = 70, `hp` = 4025, `mp` = 1592, `patk` = 1156, `pdef` = 484, `matk` = 588, `mdef` = 452, `runspd` = 187 WHERE `id` = 14917;
 
 DELETE FROM `accounts` WHERE `login` = 'l2jtwdev';
 DELETE FROM `characters` WHERE `account_name` = 'l2jtwdev';
 
-/************ CT 2.5 聖翼使命修正 ************/
 
+/************ CT 2.5 聖翼使命修正 ************/
 -- 斗篷改為通用,不再分重/輕/法/闇天使
 UPDATE `armor` SET `armor_type` = 'none' WHERE `item_id` IN (13687,13890,14609); -- 重裝斗篷改通用斗篷
 UPDATE `items` SET `item_id` = 13687 WHERE `item_id` IN (13688,13689,13690); -- 輕/法/闇天使的騎士斗篷改通用斗篷
@@ -1471,9 +1272,6 @@ REPLACE INTO `teleport` VALUES
 ('3265301', '3265301', '173145', '-173823', '3480', '0', '0'),
 ('3265401', '3265401', '179299', '-182831', '-224', '0', '0'),
 ('3271401', '3271401', '43835', '-47749', '-792', '50000', '0');
-
--- 冒險者助手的輔助魔法支援到75級
-UPDATE `helper_buff_list` SET `upper_level` = 75 WHERE `upper_level` = 62;
 
 -- 新頭飾
 REPLACE INTO `armor` VALUES
@@ -1579,13 +1377,3 @@ REPLACE INTO `weapon` VALUES
 (15310,'15310','','rhand','false',150,1,1,'steel','s',7,10,'sword',8,0.00000,0,0,0,379,0,5,-1,-1,0,0,'false','false','true','false','true',0,0,0,0,0,0,0,0,0,'8357-1;'),
 (15342,'15342','','rhand','false',0,1,1,'steel','none',1,10,'sword',8,0.00000,0,0,0,379,0,1,-1,86400,0,0,'false','false','true','false','true',0,0,0,0,0,0,0,0,0,'2994-1;'),
 (20600,'20600','','lrhand','false',0,1,1,'steel','none',1,20,'bigblunt',4,4.00000,0,0,0,325,0,1,-1,10080,0,0,'false','false','true','false','true',0,0,0,0,0,0,0,0,0,'21089-1;');
-
--- NPC
-REPLACE INTO `npc` VALUES (19, 19, '19', 0, '', 0, '', 16.00, 16.00, 70, 'male', 'L2Npc', 40, 3862, 1494, 0.00, 0.00, 40, 43, 30, 21, 20, 20, 0, 0, 1303, 471, 607, 382, 253, 0, 333, 0, 0, 0, 0, 30, 132, 0, 0, 'LAST_HIT', 'false');
-REPLACE INTO `npc` VALUES (20, 20, '20', 0, '', 0, '', 16.00, 14.00, 70, 'male', 'L2Npc', 40, 3862, 1494, 0.00, 0.00, 40, 43, 30, 21, 20, 20, 0, 0, 1303, 471, 607, 382, 253, 0, 333, 0, 0, 0, 0, 30, 132, 0, 0, 'LAST_HIT', 'false');
-REPLACE INTO `npc` VALUES (21, 21, '21', 0, '', 0, '', 16.00, 15.00, 70, 'male', 'L2Npc', 40, 3862, 1494, 0.00, 0.00, 40, 43, 30, 21, 20, 20, 0, 0, 1303, 471, 607, 382, 253, 0, 333, 0, 0, 0, 0, 30, 132, 0, 0, 'LAST_HIT', 'false');
-REPLACE INTO `npc` VALUES (22, 22, '22', 0, '', 0, '', 16.00, 25.00, 70, 'male', 'L2Npc', 40, 3862, 1494, 0.00, 0.00, 40, 43, 30, 21, 20, 20, 0, 0, 1303, 471, 607, 382, 253, 0, 333, 0, 0, 0, 0, 30, 132, 0, 0, 'LAST_HIT', 'false');
-REPLACE INTO `npc` VALUES (23, 23, '23', 0, '', 0, '', 16.00, 25.00, 70, 'male', 'L2Npc', 40, 3862, 1494, 0.00, 0.00, 40, 43, 30, 21, 20, 20, 0, 0, 1303, 471, 607, 382, 253, 0, 333, 0, 0, 0, 0, 30, 132, 0, 0, 'LAST_HIT', 'false');
-REPLACE INTO `npc` VALUES (24, 24, '24', 0, '', 0, '', 16.00, 25.00, 70, 'male', 'L2Npc', 40, 3862, 1494, 0.00, 0.00, 40, 43, 30, 21, 20, 20, 0, 0, 1303, 471, 607, 382, 253, 0, 333, 0, 0, 0, 0, 30, 132, 0, 0, 'LAST_HIT', 'false');
-REPLACE INTO `npc` VALUES (25, 25, '25', 0, '', 0, '', 16.00, 25.00, 70, 'male', 'L2Npc', 40, 3862, 1494, 0.00, 0.00, 40, 43, 30, 21, 20, 20, 0, 0, 1303, 471, 607, 382, 253, 0, 333, 0, 0, 0, 0, 30, 132, 0, 0, 'LAST_HIT', 'false');
-REPLACE INTO `npc` VALUES (13268, 13268, '13268', 0, '', 0, '', 16.00, 22.00, 70, 'male', 'L2Npc', 40, 3862, 1494, 0.00, 0.00, 40, 43, 30, 21, 20, 20, 0, 0, 1303, 471, 607, 382, 253, 0, 333, 0, 0, 0, 0, 30, 132, 0, 0, 'LAST_HIT', 'false');
