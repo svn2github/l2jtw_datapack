@@ -665,7 +665,7 @@ INSERT INTO `merchant_shopids` VALUES
 ('9984', 'gm'), -- S PVP Weapons
 ('9985', 'gm'), -- A PVP Weapons
 ('9986', 'gm'), -- Hair Accessory Part 2
-('9987', 'gm'), -- [reserved]
+('9987', 'gm'), -- Territory Jewels
 ('9988', 'gm'), -- Territory Items
 ('9989', 'gm'), -- Fortress Misc
 ('9990', 'gm'), -- Territory Weapons
@@ -681,4 +681,7 @@ INSERT INTO `merchant_shopids` VALUES
 ('10000', 'gm'), -- Masterwork Armor B
 ('10001', 'gm'), -- Masterwork Armor A
 ('10002', 'gm'), -- Masterwork Armor S
-('10003', 'gm'); -- Masterwork Armor S80
+('10003', 'gm'), -- Masterwork Armor S80
+('10004', 'gm'), -- Agathions
+('10005', 'gm'), -- Mounts
+('10006', 'gm'); -- Event Masks

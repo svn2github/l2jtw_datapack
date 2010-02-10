@@ -6,6 +6,7 @@ import com.l2jserver.gameserver.model.L2Transformation;
 
 public class Teleporter2 extends L2Transformation
 {
+	private static final int[] SKILLS = {5656,5657,5658,5491,8248,5659};//Update by rocknow
 	public Teleporter2()
 	{
 		// id, colRadius, colHeight
@@ -22,11 +23,11 @@ public class Teleporter2 extends L2Transformation
 
 	public void transformedSkills()
 	{
-/*
-Commented out until we figure out how to remove the skills properly.
-What happens if a player transforms at level 40, gets the level 40 version of the skill, then somehow levels up?
-Then when we untransform, the script will look for the level 41 version of the skill, right?
-Or will it still remove the level 40 skill? Needs to be tested.
+		/*
+		Commented out until we figure out how to remove the skills properly.
+		What happens if a player transforms at level 40, gets the level 40 version of the skill, then somehow levels up?
+		Then when we untransform, the script will look for the level 41 version of the skill, right?
+		Or will it still remove the level 40 skill? Needs to be tested.
 		// Gatekeeper Aura Flare
 		getPlayer().addSkill(SkillTable.getInstance().getInfo(5656, getPlayer().getLevel()), false);
 		// Gatekeeper Prominence
@@ -35,7 +36,7 @@ Or will it still remove the level 40 skill? Needs to be tested.
 		getPlayer().addSkill(SkillTable.getInstance().getInfo(5658, getPlayer().getLevel()), false);
 		// Gatekeeper Berserker Spirit (there are two levels, when do players get access to level 2?)
 		getPlayer().addSkill(SkillTable.getInstance().getInfo(5659, 1), false);
-*/
+		 */
 		// Decrease Bow/Crossbow Attack Speed
 		getPlayer().addSkill(SkillTable.getInstance().getInfo(5491, 1), false);
 		// Cancel Gatekeeper Transformation
@@ -45,7 +46,7 @@ Or will it still remove the level 40 skill? Needs to be tested.
 		getPlayer().addSkill(SkillTable.getInstance().getInfo(5658, 1), false);//Update by rocknow
 		getPlayer().addSkill(SkillTable.getInstance().getInfo(5659, 1), false);//Update by rocknow
 
-		getPlayer().setTransformAllowedSkills(new int[]{5656,5657,5658,5491,8248,5659});//Update by rocknow
+		getPlayer().setTransformAllowedSkills(SKILLS);
 	}
 
 	public void onUntransform()

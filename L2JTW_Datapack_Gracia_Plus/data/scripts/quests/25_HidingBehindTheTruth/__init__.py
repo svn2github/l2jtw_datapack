@@ -125,14 +125,14 @@ class Quest (JQuest) :
 
 
     def onTalk (self,npc,player):
-        htmltext = "<html><body>You are either not on a quest that involves this NPC, or you don't meet this NPC's minimum quest requirements.</body></html>"
+        htmltext = "<html><body>目前沒有執行任務，或條件不符。</body></html>"
         st = player.getQuestState(qn)
         if not st : return htmltext
         npcId = npc.getNpcId()
         id = st.getState()
         cond = st.getInt("cond")
         if id == State.COMPLETED:
-            htmltext = "<html><body>This quest has already been completed.</body></html>"
+            htmltext = "<html><body>這是已經完成的任務。</body></html>"
         elif id == State.CREATED:
             if npcId == Benedict:
                 st2 = st.getPlayer().getQuestState("24_InhabitantsOfTheForrestOfTheDead")
@@ -239,7 +239,7 @@ class Quest (JQuest) :
             st.set("step","2")
         return
 
-QUEST       = Quest(25,qn,"Hiding Behind The Truth")
+QUEST       = Quest(25,qn,"在真實另一端瑟縮的人")
 
 QUEST.addStartNpc(Benedict)
 QUEST.addTalkId(Agripel)

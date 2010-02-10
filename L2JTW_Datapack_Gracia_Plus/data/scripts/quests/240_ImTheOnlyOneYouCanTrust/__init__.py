@@ -31,7 +31,7 @@ class Quest (JQuest) :
     return htmltext
 
   def onTalk (self,npc,player):
-    htmltext = "<html><body>You are either not on a quest that involves this NPC, or you don't meet this NPC's minimum quest requirements.</body></html>"
+    htmltext = "<html><body>目前沒有執行任務，或條件不符。</body></html>"
     st = player.getQuestState(qn)
     if not st : return htmltext
 
@@ -71,7 +71,7 @@ class Quest (JQuest) :
       st.playSound("ItemSound.quest_itemget")
     return
 
-QUEST = Quest(240,qn,"I'm the Only One You Can Trust")
+QUEST = Quest(240,qn,"世上信得過的，唯獨我一人")
 
 QUEST.addStartNpc(KINTAIJIN)
 QUEST.addTalkId(KINTAIJIN)

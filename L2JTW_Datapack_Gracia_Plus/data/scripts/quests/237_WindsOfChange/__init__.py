@@ -72,7 +72,7 @@ class Quest (JQuest) :
 		return htmltext
 
 	def onTalk (self,npc,player) :
-		htmltext = "<html><body>You are either not on a quest that involves this NPC, or you don't meet this NPC's minimum quest requirements.</body></html>" 
+		htmltext = "<html><body>目前沒有執行任務，或條件不符。</body></html>" 
 		st = player.getQuestState(qn) 
 		if not st : return htmltext
 
@@ -94,7 +94,7 @@ class Quest (JQuest) :
 				htmltext = "30899-08.htm"
 		elif npcId == IASON :
 			if id == State.COMPLETED :
-				htmltext = "<html><body>You are either not on a quest that involves this NPC, or you don't meet this NPC's minimum quest requirements.</body></html>"
+				htmltext = "<html><body>這是已經完成的任務。</body></html>"
 			elif cond == 1 :
 				htmltext = "30969-01.htm"
 			elif cond == 2 :
@@ -125,7 +125,7 @@ class Quest (JQuest) :
 				htmltext = "32643-01.htm"
 		return htmltext
 
-QUEST		= Quest(237,qn,"Winds of Change")
+QUEST		= Quest(237,qn,"從中立走向傾斜")
 
 QUEST.addStartNpc(FLAUEN)
 

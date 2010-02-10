@@ -6,6 +6,7 @@ import com.l2jserver.gameserver.model.L2Transformation;
 
 public class TawnyManedLion extends L2Transformation
 {
+	private static final int[] SKILLS = {5491,839,5437};//Update by rocknow
 	public TawnyManedLion()
 	{
 		// id, colRadius, colHeight
@@ -28,7 +29,7 @@ public class TawnyManedLion extends L2Transformation
 		getPlayer().addSkill(SkillTable.getInstance().getInfo(839, 1), false);
 		getPlayer().addSkill(SkillTable.getInstance().getInfo(5437, 1), false);//Update by rocknow
 
-		getPlayer().setTransformAllowedSkills(new int[]{5491,839,5437});//Update by rocknow
+		getPlayer().setTransformAllowedSkills(SKILLS);
 	}
 
 	public void onUntransform()

@@ -7,8 +7,8 @@
 		</cond>
 		<for>
 			<add order="0x10" stat="mDef" val="42" />
+			<add order="0x10" stat="darkRes" val="12" />
 			<add order="0x40" stat="maxMp" val="17" /><!-- Update by rocknow -->
-			<add order="0x10" stat="darkRes" val="12" /><!-- Update by rocknow -->
 			<enchant order="0x0C" stat="mDef" val="0" />
 		</for>
 	</item>
