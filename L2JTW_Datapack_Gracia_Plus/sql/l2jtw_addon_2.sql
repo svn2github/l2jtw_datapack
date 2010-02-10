@@ -18,7 +18,7 @@ UPDATE `weapon` SET `onCast_skill_chance` = '50' WHERE `item_id` in (4865,4877,4
 UPDATE `weapon` SET `skill` = '3260-1;3261-1;3262-1;' WHERE `item_id` in (9140,9141);
 
 
-/************ 修正地獄邊界的任務NPC ************/
+/************ 修正地獄邊界的NPC ************/
 REPLACE INTO spawnlist VALUES
 ('850001', '', 1, 18466, 4681, 243922, -1930, 0, 0, 37373, 10, 0, 0),    -- 外廓警衛隊長
 ('850002', '', 1, 22326, -23961, 245615, -3138, 0, 0, 129600, 10, 0, 0), -- 海琳納克
@@ -36,7 +36,7 @@ UPDATE `etcitem` SET `skill` = '2440-1;', `handler` = 'ItemSkills' WHERE `item_i
 UPDATE `etcitem` SET `skill` = '2357-1;', `handler` = 'ItemSkills' , `item_type` = 'herb' WHERE `item_id` = '9849'; -- 惡魔溫熱的血
 
 
-/************ 加入 L2Emu 的神諭之島設定 ************/
+/************ 修正神諭之島的NPC ************/
 UPDATE `etcitem` SET `handler` = 'PaganKeys' WHERE `item_id` = '9694'; -- 祕密花園的鑰匙
 UPDATE `etcitem` SET `skill` = '2362-1;', `handler` = 'PaganKeys' WHERE `item_id` = '10015'; -- 監獄門鑰匙
 REPLACE INTO `npc` VALUES
@@ -57,5 +57,5 @@ REPLACE INTO `npcskills` VALUES
 ('25535', '5238', '1');
 
 
-/************ 欲界資料表 ************/
+/************ 新增欲界資料表 ************/
 CREATE TABLE IF NOT EXISTS `kamaloka` (`charID` int(10) NOT NULL,`HallAbyss` decimal(20,0) NOT NULL DEFAULT '0',`LabyrinthAbyss` decimal(20,0) NOT NULL DEFAULT '0',PRIMARY KEY (`charID`)) DEFAULT CHARSET=utf8;

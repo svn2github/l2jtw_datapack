@@ -56,14 +56,15 @@ UPDATE `armor` SET `skill` = '21004-1;' WHERE `item_id` IN (20019);
 
 
 /************ 修正狩獵幫手 ************/
+UPDATE `npc` SET `collision_radius` = '10', `collision_height` = '17' WHERE `id` IN (16044); -- 修正野獸鬥士
 UPDATE `etcitem` SET `time` = 300 WHERE `item_id` IN (13017,13018,13019,13020);
--- UPDATE `items` SET `time` = 30 WHERE `item_id` IN (13017,13018,13019,13020) AND `time` = '-1';
+UPDATE `items` SET `time` = 300 WHERE `item_id` IN (13017,13018,13019,13020) AND `time` = '-1';
 REPLACE INTO `pets_skills` VALUES
 (16044,1,5745,1),
-(16044,72,5745,2),
-(16044,74,5745,3),
-(16044,76,5745,4),
-(16044,78,5745,5),
+(16044,60,5745,2),
+(16044,65,5745,3),
+(16044,70,5745,4),
+(16044,75,5745,5),
 (16044,79,5745,6),
 (16044,80,5745,7),
 (16044,81,5745,8),
@@ -72,10 +73,10 @@ REPLACE INTO `pets_skills` VALUES
 (16044,84,5745,11),
 (16044,85,5745,12),
 (16045,1,5745,1),
-(16045,72,5745,2),
-(16045,74,5745,3),
-(16045,76,5745,4),
-(16045,78,5745,5),
+(16045,60,5745,2),
+(16045,65,5745,3),
+(16045,70,5745,4),
+(16045,75,5745,5),
 (16045,79,5745,6),
 (16045,80,5745,7),
 (16045,81,5745,8),
@@ -84,10 +85,10 @@ REPLACE INTO `pets_skills` VALUES
 (16045,84,5745,11),
 (16045,85,5745,12),
 (16044,1,5746,1),
-(16044,72,5746,2),
-(16044,74,5746,3),
-(16044,76,5746,4),
-(16044,78,5746,5),
+(16044,60,5746,2),
+(16044,65,5746,3),
+(16044,70,5746,4),
+(16044,75,5746,5),
 (16044,79,5746,6),
 (16044,80,5746,7),
 (16044,81,5746,8),
@@ -96,10 +97,10 @@ REPLACE INTO `pets_skills` VALUES
 (16044,84,5746,11),
 (16044,85,5746,12),
 (16044,1,5747,1),
-(16044,72,5747,2),
-(16044,74,5747,3),
-(16044,76,5747,4),
-(16044,78,5747,5),
+(16044,60,5747,2),
+(16044,65,5747,3),
+(16044,70,5747,4),
+(16044,75,5747,5),
 (16044,79,5747,6),
 (16044,80,5747,7),
 (16044,81,5747,8),
@@ -108,10 +109,10 @@ REPLACE INTO `pets_skills` VALUES
 (16044,84,5747,11),
 (16044,85,5747,12),
 (16044,1,5748,1),
-(16044,72,5748,2),
-(16044,74,5748,3),
-(16044,76,5748,4),
-(16044,78,5748,5),
+(16044,60,5748,2),
+(16044,65,5748,3),
+(16044,70,5748,4),
+(16044,75,5748,5),
 (16044,79,5748,6),
 (16044,80,5748,7),
 (16044,81,5748,8),
@@ -120,10 +121,10 @@ REPLACE INTO `pets_skills` VALUES
 (16044,84,5748,11),
 (16044,85,5748,12),
 (16043,1,5749,1),
-(16043,72,5749,2),
-(16043,74,5749,3),
-(16043,76,5749,4),
-(16043,78,5749,5),
+(16043,60,5749,2),
+(16043,65,5749,3),
+(16043,70,5749,4),
+(16043,75,5749,5),
 (16043,79,5749,6),
 (16043,80,5749,7),
 (16043,81,5749,8),
@@ -132,10 +133,10 @@ REPLACE INTO `pets_skills` VALUES
 (16043,84,5749,11),
 (16043,85,5749,12),
 (16043,1,5750,1),
-(16043,72,5750,2),
-(16043,74,5750,3),
-(16043,76,5750,4),
-(16043,78,5750,5),
+(16043,60,5750,2),
+(16043,65,5750,3),
+(16043,70,5750,4),
+(16043,75,5750,5),
 (16043,79,5750,6),
 (16043,80,5750,7),
 (16043,81,5750,8),
@@ -144,10 +145,10 @@ REPLACE INTO `pets_skills` VALUES
 (16043,84,5750,11),
 (16043,85,5750,12),
 (16043,1,5751,1),
-(16043,72,5751,2),
-(16043,74,5751,3),
-(16043,76,5751,4),
-(16043,78,5751,5),
+(16043,60,5751,2),
+(16043,65,5751,3),
+(16043,70,5751,4),
+(16043,75,5751,5),
 (16043,79,5751,6),
 (16043,80,5751,7),
 (16043,81,5751,8),
@@ -156,10 +157,10 @@ REPLACE INTO `pets_skills` VALUES
 (16043,84,5751,11),
 (16043,85,5751,12),
 (16043,1,5752,1),
-(16043,72,5752,2),
-(16043,74,5752,3),
-(16043,76,5752,4),
-(16043,78,5752,5),
+(16043,60,5752,2),
+(16043,65,5752,3),
+(16043,70,5752,4),
+(16043,75,5752,5),
 (16043,79,5752,6),
 (16043,80,5752,7),
 (16043,81,5752,8),
@@ -168,10 +169,10 @@ REPLACE INTO `pets_skills` VALUES
 (16043,84,5752,11),
 (16043,85,5752,12),
 (16046,1,5752,1),
-(16046,72,5752,2),
-(16046,74,5752,3),
-(16046,76,5752,4),
-(16046,78,5752,5),
+(16046,60,5752,2),
+(16046,65,5752,3),
+(16046,70,5752,4),
+(16046,75,5752,5),
 (16046,79,5752,6),
 (16046,80,5752,7),
 (16046,81,5752,8),
@@ -189,9 +190,7 @@ REPLACE INTO `pets_skills` VALUES
 (16035,1,5771,1),
 (16036,1,5771,1),
 (14916,1,5761,1),
-(14916,70,5761,1),
-(14917,1,5761,1),
-(14917,70,5761,1);
+(14917,1,5761,1);
 
 
 /************ 增加/修正/刪除NPC ************/
@@ -286,39 +285,25 @@ REPLACE INTO `teleport` VALUES
 
 /************ 修正BOSS ************/
 REPLACE INTO `grandboss_data` VALUES
-(29001, -21610, 181594, -5734, 0, 0, 229898, 667, 0),
-(29006, 17726, 108915, -6480, 0, 0, 622493, 3793, 0),
-(29014, 43728, 17220, -4342, 10126, 0, 622493, 3793, 0),
-(29019, 181323, 114850, -7618, 32542, 0, 13090000, 39960, 0),
-(29020, 116067, 17484, 10110, 41740, 0, 3698520, 39960, 0),
-(29022, 55312, 219168, -3223, 0, 0, 858518, 1975, 0),
-(29028, 212852, -114842, -1632, 833, 0, 16660000, 39960, 0),
-(29065, -123348, -248881, -15537, 44732, 0, 1532678, 4255, 0),
-(29099, 153569, 142075, -12732, 60025, 0, 1448567, 3718, 0);
-UPDATE `npc` SET `aggro` = 500 WHERE `id` IN (29020,29021,29022,29065,29069,29070);
+(29001, -21610, 181594, -5734, 0, 0, 152622, 334, 0),          -- 巨蟻女王
+(29006, 17726, 108915, -6480, 0, 0, 413252, 1897, 0),          -- 核心
+(29014, 55024, 17368, -5412, 10126, 0, 413252, 1897, 0),       -- 奧爾芬
+(29019, 181323, 114850, -7618, 32542, 0, 13090000, 39960, 0),  -- 安塔瑞斯
+(29020, 116067, 17484, 10110, 41740, 0, 3698520, 39960, 0),    -- 巴溫
+(29022, 55312, 219168, -3223, 0, 0, 569941, 199800, 0),        -- 札肯
+(29028, 212852, -114842, -1632, 833, 0, 16660000, 39960, 0),   -- 巴拉卡斯
+(29065, -123348, -248881, -15537, 44732, 0, 1532678, 4255, 0), -- 賽爾蘭
+(29099, 153569, 142075, -12732, 60025, 0, 1448567, 3718, 0);   -- 巴爾勒
+UPDATE `npc` SET `aggro` = 500 WHERE `id` IN (29020,29021,29022,29065);
 UPDATE `npc` SET `aggro` = 800 WHERE `id` IN (29019,29028);
 UPDATE `npc` SET `hp` = '13090000', `mp` = '39960' WHERE `id` IN (29019);
 UPDATE `npc` SET `hp` = '3698520', `mp` = '39960' WHERE `id` IN (29020);
 UPDATE `npc` SET `hp` = '16660000', `mp` = '39960' WHERE `id` IN (29028);
 UPDATE `npc` SET `hp` = '1532678', `mp` = '4255', `type` = 'L2GrandBoss', `level` = '87' WHERE `id` IN (29065);
-UPDATE `npc` SET `idTemplate` = '29099', `level` = '83', `type` = 'L2GrandBoss', `atkspd` = '540', `matkspd` = '253', `walkspd` = '80', `runspd` = '120' WHERE `id` IN (29099);
-UPDATE `npc` SET `level` = '78', `type` = 'L2Monster' WHERE `id` IN (29100);
+UPDATE `npc` SET `atkspd` = '540', `matkspd` = '253', `walkspd` = '80', `runspd` = '120' WHERE `id` IN (29099);
 UPDATE `npc` SET `collision_radius` = '38.00', `collision_height` = '77.00' WHERE `id` IN (29108);
-UPDATE `npc` SET `collision_radius` = '0.10', `collision_height` = '0.10' WHERE `id` IN (29109);
-UPDATE `npc` SET `level` = '78', `type` = 'L2Monster' WHERE `id` IN (29116);
-UPDATE `npc` SET `mp` = '3793' WHERE `id` IN (29006,29014);
-UPDATE `npc` SET `level` = '78' WHERE `id` IN (29070);
-UPDATE `npcaidata` SET `clan` = 'antharas_clan', `clan_range` = '1000' WHERE `npc_id` IN (29019,29069,29070);
-UPDATE `npcaidata` SET `clan` = 'baium_clan', `clan_range` = '1000' WHERE `npc_id` IN (29020,29021);
 DELETE FROM `npcskills` Where `skillid` IN (5224,5225);
-DELETE FROM `raidboss_spawnlist` WHERE `boss_id` = '29099';
 REPLACE INTO `droplist` VALUES
-(29065,959,1,5,2,100000),
-(29065,960,1,5,2,100000),
-(29065,6379,1,1,1,80000),
-(29065,6367,1,1,1,60000),
-(29065,6577,1,2,2,100000),
-(29065,57,100000,160000,0,1000000),
 (29099,6578,1,10,2,500000),
 (29099,9458,1,1,1,300000),
 (29099,9467,1,1,1,300000),
@@ -384,14 +369,13 @@ REPLACE INTO `npc` VALUES ('29051', '29051', 'Breath of Halisha', '0', '', '0', 
 REPLACE INTO `npc` VALUES ('29052', '29052', '', '0', '', '0', 'Monster3.Organ_Dummy', '1.00', '1.00', '99', 'male', 'L2Npc', '40', '400000', '9999', '13.43', '3.09', '40', '43', '30', '21', '20', '10', '0', '0', '9000', '5000', '6000', '6000', '300', '0', '333', '0', '0', '0', '0', '88', '132', '0', '0', 'LAST_HIT', 'false');
 REPLACE INTO `npc` VALUES ('29053', '29053', '', '0', '', '0', 'Monster3.Follower_Dummy', '1.00', '1.00', '99', 'male', 'L2Npc', '40', '400000', '9999', '13.43', '3.09', '40', '43', '30', '21', '20', '10', '0', '0', '9000', '5000', '6000', '6000', '300', '0', '333', '0', '0', '0', '0', '88', '132', '0', '0', 'LAST_HIT', 'false');
 REPLACE INTO `npc` VALUES ('29061', '29061', 'Teleportation Cubic', '0', '', '0', 'NPC.teleport_npc_frin', '40.00', '80.00', '70', 'male', 'L2Teleporter', '40', '2444', '2444', '0.00', '0.00', '10', '10', '10', '10', '10', '10', '0', '0', '500', '500', '500', '500', '278', '0', '333', '0', '0', '0', '0', '88', '132', '0', '0', 'LAST_HIT', 'false');
-UPDATE `npcaidata` SET `clan` = 'frintezza_clan', `clan_range` = '6000' WHERE `npc_id` IN (29045,29046,29047,29048,29049,29050,29051);
 DELETE FROM `npcskills` Where `skillid` IN (5014,5015,5016,5017,5018,5019);
 REPLACE INTO `npcskills` VALUES
 (29050,5010,1),
 (29050,5013,1),
 (29051,5009,1),
 (29051,5013,1);
-DELETE FROM `zone_vertices` WHERE `id` IN (12005); -- 刪除地下競技場重複的入場管理員
+DELETE FROM `zone_vertices` WHERE `id` IN (12005);
 REPLACE INTO `zone_vertices` (`id`,`order`,`x`,`y`) VALUES
 (12005,0,172229,-74350),
 (12005,1,176241,-90230);
@@ -620,11 +604,6 @@ UPDATE `auction` SET `startingBid` = '20000000' WHERE `id` IN (58,59,60,61) AND 
 
 
 /************ 加入破滅國境的道具 ************/
--- 法國麵包武器
-DELETE FROM `armor` WHERE `item_id` IN (20266); -- L2J 錯誤設定為防具
-REPLACE INTO `weapon` VALUES
-(20266,'Baguette Shield','','lhand','false',500,0,0,'fine_steel','none',0,0,'none',0,0,-8,2,20,0,0,0,-1,10080,0,0,'true','true','true','true','true',0,0,0,0,0,0,0,0,0,'0-0;'); -- 法國麵包菠蘿盾
-
 -- 新頭飾
 REPLACE INTO `armor` VALUES
 (20401,'Laborer Hat','','hairall','false','none',10,'wood','none',0,-1,-1,0,0,0,0,0,'true','true','true','true','true','0-0','0-0;'), -- 勤勞者帽子
@@ -633,14 +612,15 @@ REPLACE INTO `armor` VALUES
 
 -- 新壺精
 REPLACE INTO `armor` VALUES
-(14776,'Agathion Seal Bracelet - Juju','','lbracelet','false','none',150,'wood','none',0,-1,20160,0,0,0,0,0,'false','false','true','false','true','0-0','8327-1;6136-1;6137-1;3267-1;'),
-(20495,'Agathion Seal Bracelet - Pomona Mental Shield - 7 day limited period','','lbracelet','false','none',150,'wood','none',0,-1,-1,0,0,0,0,0,'false','false','true','false','true','0-0','21085-1;23067-1;3267-1;'); -- 壺精封印手鐲-果樹女神
-UPDATE `armor` SET `skill` = '8257-1;5956-1;3267-1;' WHERE `item_id` IN (14075); -- 怒氣壺精
-UPDATE `armor` SET `skill` = '8256-1;5955-1;3267-1;' WHERE `item_id` IN (14076); -- 開心壺精
-UPDATE `armor` SET `skill` = '8258-1;5957-1;3267-1;' WHERE `item_id` IN (14077); -- 嗚咽壺精
+(14776,'Agathion Seal Bracelet - Juju','','lbracelet','false','none',150,'wood','none',0,-1,20160,0,0,0,0,0,'false','false','true','false','true','0-0','8327-1;6136-1;6137-1;3267-1;');
 
--- 新騎乘手鐲
+-- 新手鐲
 UPDATE `armor` SET `skill` = '8262-1;' WHERE `item_id` IN (14053,14066);       -- 黃鬃獅子騎乘手鐲
+
+-- 新特殊武器
+REPLACE INTO `weapon` VALUES
+(15310,'15310','','rhand','false',150,1,1,'steel','s',7,10,'sword',8,0.00000,0,0,0,379,0,5,-1,-1,0,0,'false','false','true','false','true',0,0,0,0,0,0,0,0,0,'8357-1;'),
+(20600,'20600','','lrhand','false',0,1,1,'steel','none',1,20,'bigblunt',4,4.00000,0,0,0,325,0,1,-1,10080,0,0,'false','false','true','false','true',0,0,0,0,0,0,0,0,0,'21089-1;');
 
 -- 新狩獵幫手
 REPLACE INTO `npc` VALUES
@@ -648,9 +628,8 @@ REPLACE INTO `npc` VALUES
 ('16051', '16051', 'Spirit Shaman', '0', '', '0', 'LineageMonster4.sprit_magician_the_pet', '15', '15', '80', 'male', 'L2Pet', '40', '2444', '2444', '0.00', '0.00', '40', '43', '30', '21', '20', '25', '0', '0', '500', '500', '500', '500', '253', '0', '253', '0', '0', '0', '0', '80', '120', '0', '0', 'LAST_HIT', 'false'),
 ('16052', '16052', 'Toy Knight', '0', '', '0', 'LineageMonster4.toy_knight_the_pet', '12', '15', '80', 'male', 'L2Pet', '40', '2444', '2444', '0.00', '0.00', '40', '43', '30', '21', '20', '25', '0', '0', '500', '500', '500', '500', '253', '0', '253', '0', '0', '0', '0', '80', '120', '0', '0', 'LAST_HIT', 'false'),
 ('16053', '16053', 'Turtle Ascetic', '0', '', '0', 'LineageMonster4.turtle_buffer_the_pet', '12', '10', '80', 'male', 'L2Pet', '40', '2444', '2444', '0.00', '0.00', '40', '43', '30', '21', '20', '25', '0', '0', '500', '500', '500', '500', '253', '0', '253', '0', '0', '0', '0', '80', '120', '0', '0', 'LAST_HIT', 'false');
-UPDATE `etcitem` SET `handler` = 'SummonItems' WHERE `item_id` IN (14061,14062,14063,14064);
 UPDATE `etcitem` SET `time` = 300 WHERE `item_id` IN (14061,14062,14063,14064);
--- UPDATE `items` SET `time` = 30 WHERE `item_id` IN (14061,14062,14063,14064) AND `time` = '-1';
+UPDATE `items` SET `time` = 300 WHERE `item_id` IN (14061,14062,14063,14064) AND `time` = '-1';
 REPLACE INTO `pets_stats` (`type`,`typeID`,`level`,`expMax`,`hpMax`,`mpMax`,`patk`,`pdef`,`matk`,`mdef`,`acc`,`evasion`,`crit`,`speed`,`atk_speed`,`cast_speed`,`feedMax`,`feedbattle`,`feednormal`,`loadMax`,`hpregen`,`mpregen`,`owner_exp_taken`) VALUES
 ('Owl Monk',16050,70,266966617,6046,729,3812,502,646,481,110,100,44,198,278,333,100000000,0,0,92287,40,15,0.00),
 ('Owl Monk',16050,71,311043873,6217,782,3846,509,647,484,112,102,44,198,278,333,100000000,0,0,92287,40,15,0.00),
@@ -854,18 +833,12 @@ REPLACE INTO `pets_skills` VALUES
 (16053,85,6053,4),
 (16053,70,6054,1);
 
--- 新變身魔杖
-UPDATE `weapon` SET `skill` = '8263-1;' WHERE `item_id` IN (12798,14056,14069,14088,14096); -- 雪人變身魔杖
-UPDATE `weapon` SET `skill` = '8264-1;' WHERE `item_id` IN (12799,14057,14070,14089,14097); -- 草人變身魔杖
-UPDATE `weapon` SET `skill` = '8265-1;' WHERE `item_id` IN (13060,14058,14071,14090,14098); -- 洋鐵高崙變身魔杖
+-- 新 NPC (感謝 pmq 提供)
+UPDATE `npc` SET `type` = 'L2Npc' WHERE `id` IN (32628,32629); -- 碼頭巡邏兵的類型改為一般NPC
+UPDATE `npc` SET `type` = 'L2Teleporter' WHERE `id` IN (32540,32542,32602); -- 深淵的守門人/安定的再生種子/臨時傳送師的類型改為傳送
+UPDATE `spawnlist` SET `heading` = '16383' WHERE `npc_templateid` = '32609' AND `heading` = '20771'; -- 修正飛空艇控制裝置的面向
 
--- 破滅國境的新 NPC (感謝 pmq 提供)
-UPDATE `npc` SET `type` = 'L2Npc' WHERE `id` IN (32628,32629); -- 修正碼頭巡邏兵
-UPDATE `npc` SET `type` = 'L2Teleporter' WHERE `id` IN (32534,32540,32542,32602); -- 札耶汀 不滅的引導者/深淵的守門人/安定的再生種子/臨時傳送師
-UPDATE `spawnlist` SET `heading` = '16383' WHERE `npc_templateid` = '32609' AND `heading` = '20771'; -- 修正飛空艇控制裝置
-UPDATE `npc` SET `rhand` = '2500', `lhand` = '6377' WHERE `id` IN (36481,36482,36483,36484,36485,36486,36487,36488,36489); -- 傭兵隊隊長
-
--- 破滅國境的新 NPC 位置 (感謝 pmq 提供)
+-- 新 NPC 位置 (感謝 pmq 提供)
 REPLACE INTO `spawnlist` VALUES
 (840001, '', 1,36481, -15067, 124128, -3125, 0, 0, 49298, 10, 0, 0),   -- 古魯丁傭兵隊隊長
 (840002, '', 1,36482, 19345, 144895, -3109, 0, 0, 0, 10, 0, 0),        -- 狄恩傭兵隊隊長
@@ -901,153 +874,19 @@ REPLACE INTO `spawnlist` VALUES
 (840032, '', 1,36498, 116188, -181558, -1370, 0, 0, 0, 10, 0, 0),      -- 修加特領地管理員
 (840033, '', 1,36498, 89314, -141487, -1549, 0, 0, 2555, 10, 0, 0);    -- 修加特領地管理員
 
--- 修正破滅國境的新 NPC 設定 (感謝 pmq 提供)
-UPDATE `npc` SET `level`=76, `hp`=34861, `mp`=1880, `type`='L2Monster' where id = 22509;
-UPDATE `npc` SET `level`=77, `hp`=36110, `mp`=1920, `type`='L2Monster' where id = 22510;
-UPDATE `npc` SET `level`=77, `hp`=36110, `mp`=1920, `type`='L2Monster' where id = 22511;
-UPDATE `npc` SET `level`=78, `hp`=37596, `mp`=1961, `type`='L2Monster' where id = 22512;
-UPDATE `npc` SET `level`=79, `hp`=29652, `mp`=2002, `type`='L2Monster' where id = 22513;
-UPDATE `npc` SET `level`=80, `hp`=41587, `mp`=2043, `type`='L2Monster' where id = 22514;
-UPDATE `npc` SET `level`=81, `hp`=43757, `mp`=2085, `type`='L2Monster' where id = 22515;
-UPDATE `npc` SET `level`=81, `hp`=21878, `mp`=2085, `type`='L2Monster' where id = 22516;
-UPDATE `npc` SET `level`=81, `hp`=21878, `mp`=2085, `type`='L2Monster' where id = 22517;
-UPDATE `npc` SET `level`=83, `hp`=23026, `mp`=2126, `type`='L2Monster' where id = 22518;
-UPDATE `npc` SET `level`=83, `hp`=24241, `mp`=2168, `type`='L2Monster' where id = 22519;
-UPDATE `npc` SET `level`=83, `hp`=24241, `mp`=2168, `type`='L2Monster' where id = 22520;
-UPDATE `npc` SET `level`=83, `hp`=24241, `mp`=2168, `type`='L2Monster' where id = 22521;
-UPDATE `npc` SET `level`=82, `hp`=23026, `mp`=2126, `type`='L2Monster' where id = 22522;
-UPDATE `npc` SET `level`=83, `hp`=353984, `mp`=2211, `type`='L2Monster' where id = 22523;
-UPDATE `npc` SET `level`=83, `hp`=24241, `mp`=2168, `type`='L2Monster' where id = 22524;
-UPDATE `npc` SET `level`=83, `hp`=24241, `mp`=2168, `type`='L2Monster' where id = 22525;
-UPDATE `npc` SET `level`=84, `hp`=25527, `mp`=2211, `type`='L2Monster' where id = 22526;
-UPDATE `npc` SET `level`=84, `hp`=25527, `mp`=2211, `type`='L2Monster' where id = 22527;
-UPDATE `npc` SET `level`=83, `hp`=24241, `mp`=2168, `type`='L2Monster' where id = 22528;
-UPDATE `npc` SET `level`=83, `hp`=24241, `mp`=2168, `type`='L2Monster' where id = 22529;
-UPDATE `npc` SET `level`=84, `hp`=25527, `mp`=2211, `type`='L2Monster' where id = 22530;
-UPDATE `npc` SET `level`=84, `hp`=25527, `mp`=2211, `type`='L2Monster' where id = 22531;
-UPDATE `npc` SET `level`=83, `hp`=24241, `mp`=2168, `type`='L2Monster' where id = 22532;
-UPDATE `npc` SET `level`=83, `hp`=24241, `mp`=2168, `type`='L2Monster' where id = 22533;
-UPDATE `npc` SET `level`=84, `hp`=25527, `mp`=2211, `type`='L2Monster' where id = 22534;
-UPDATE `npc` SET `level`=84, `hp`=25527, `mp`=2211, `type`='L2Monster' where id = 22535;
-UPDATE `npc` SET `level`=84, `hp`=103473, `mp`=2211, `type`='L2Monster' where id = 22536;
-UPDATE `npc` SET `level`=84, `hp`=25868, `mp`=2211, `type`='L2Monster' where id = 22537;
-UPDATE `npc` SET `level`=83, `hp`=25935, `mp`=2168, `type`='L2Monster' where id = 22538;
-UPDATE `npc` SET `level`=82, `hp`=26027, `mp`=2126, `type`='L2Monster' where id = 22539;
-UPDATE `npc` SET `level`=81, `hp`=26073, `mp`=2085, `type`='L2Monster' where id = 22540;
-UPDATE `npc` SET `level`=80, `hp`=26144, `mp`=2043, `type`='L2Monster' where id = 22541;
-UPDATE `npc` SET `level`=82, `hp`=52055, `mp`=2126, `type`='L2Monster' where id = 22542;
-UPDATE `npc` SET `level`=81, `hp`=26073, `mp`=2085, `type`='L2Monster' where id = 22543;
-UPDATE `npc` SET `level`=80, `hp`=26144, `mp`=2043, `type`='L2Monster' where id = 22544;
-UPDATE `npc` SET `level`=83, `hp`=51870, `mp`=2168, `type`='L2Monster' where id = 22545;
-UPDATE `npc` SET `level`=79, `hp`=26193, `mp`=2002, `type`='L2Monster' where id = 22546;
-UPDATE `npc` SET `level`=79, `hp`=26193, `mp`=2002, `type`='L2Monster' where id = 22547;
-UPDATE `npc` SET `level`=80, `hp`=26144, `mp`=2043, `type`='L2Monster' where id = 22548;
-UPDATE `npc` SET `level`=80, `hp`=44761, `mp`=2043, `type`='L2Monster' where id = 22549;
-UPDATE `npc` SET `level`=77, `hp`=15505, `mp`=1920, `type`='L2Monster' where id = 22550;
-UPDATE `npc` SET `level`=76, `hp`=15510, `mp`=1880, `type`='L2Monster' where id = 22551;
-UPDATE `npc` SET `level`=78, `hp`=26238, `mp`=1961, `type`='L2Monster' where id = 22552;
-UPDATE `npc` SET `level`=85, `hp`=528731, `mp`=2253, `type`='L2Monster' where id = 22569;
-UPDATE `npc` SET `level`=84, `hp`=1061953, `mp`=2211, `type`='L2Monster' where id = 22570;
-UPDATE `npc` SET `level`=84, `hp`=177133, `mp`=2211, `type`='L2Monster' where id = 22571;
-UPDATE `npc` SET `level`=83, `hp`=354920, `mp`=2168, `type`='L2Monster' where id = 22572;
-UPDATE `npc` SET `level`=82, `hp`=89046, `mp`=2126, `type`='L2Monster' where id = 22573;
-UPDATE `npc` SET `level`=81, `hp`=89209, `mp`=2085, `type`='L2Monster' where id = 22574;
-UPDATE `npc` SET `level`=80, `hp`=89451, `mp`=2043, `type`='L2Monster' where id = 22575;
-UPDATE `npc` SET `level`=82, `hp`=44559, `mp`=2126, `type`='L2Monster' where id = 22576;
-UPDATE `npc` SET `level`=81, `hp`=44640, `mp`=2085, `type`='L2Monster' where id = 22577;
-UPDATE `npc` SET `level`=80, `hp`=44761, `mp`=2043, `type`='L2Monster' where id = 22578;
-UPDATE `npc` SET `level`=79, `hp`=44840, `mp`=2002, `type`='L2Monster' where id = 22579;
-UPDATE `npc` SET `level`=79, `hp`=44840, `mp`=2002, `type`='L2Monster' where id = 22580;
-UPDATE `npc` SET `level`=80, `hp`=44761, `mp`=2043, `type`='L2Monster' where id = 22581;
-UPDATE `npc` SET `level`=80, `hp`=44761, `mp`=2043, `type`='L2Monster' where id = 22582;
-UPDATE `npc` SET `level`=82, `hp`=44559, `mp`=2126, `type`='L2Monster' where id = 22583;
-UPDATE `npc` SET `level`=81, `hp`=44640, `mp`=2085, `type`='L2Monster' where id = 22584;
-UPDATE `npc` SET `level`=80, `hp`=26144, `mp`=2043, `type`='L2Monster' where id = 22585;
-UPDATE `npc` SET `level`=83, `hp`=354920, `mp`=2168, `type`='L2Monster' where id = 22586;
-UPDATE `npc` SET `level`=82, `hp`=89046, `mp`=2126, `type`='L2Monster' where id = 22587;
-UPDATE `npc` SET `level`=81, `hp`=89209, `mp`=2085, `type`='L2Monster' where id = 22588;
-UPDATE `npc` SET `level`=80, `hp`=89451, `mp`=2043, `type`='L2Monster' where id = 22589;
-UPDATE `npc` SET `level`=82, `hp`=26027, `mp`=2126, `type`='L2Monster' where id = 22591;
-UPDATE `npc` SET `level`=81, `hp`=26073, `mp`=2085, `type`='L2Monster' where id = 22592;
-UPDATE `npc` SET `level`=80, `hp`=26144, `mp`=2043, `type`='L2Monster' where id = 22593;
-UPDATE `npc` SET `level`=83, `hp`=103741, `mp`=2168, `type`='L2Monster' where id = 22594;
-UPDATE `npc` SET `level`=82, `hp`=104109, `mp`=2126, `type`='L2Monster' where id = 22595;
-UPDATE `npc` SET `level`=81, `hp`=26073, `mp`=2085, `type`='L2Monster' where id = 22596;
-UPDATE `npc` SET `level`=80, `hp`=26144, `mp`=2043, `type`='L2Monster' where id = 22597;
-UPDATE `npc` SET `level`=73, `hp`=4087, `mp`=1760, `type`='L2FlyMonster' where id = 22602;
-UPDATE `npc` SET `level`=74, `hp`=4159, `mp`=1800, `type`='L2FlyMonster' where id = 22603;
-UPDATE `npc` SET `level`=74, `hp`=4159, `mp`=1800, `type`='L2FlyMonster' where id = 22604;
-UPDATE `npc` SET `level`=75, `hp`=4229, `mp`=1840, `type`='L2FlyMonster' where id = 22605;
-UPDATE `npc` SET `level`=76, `hp`=4358, `mp`=1880, `type`='L2FlyMonster' where id = 22606;
-UPDATE `npc` SET `level`=77, `hp`=4514, `mp`=1920, `type`='L2FlyMonster' where id = 22607;
-UPDATE `npc` SET `level`=75, `hp`=4229, `mp`=1840, `type`='L2FlyMonster' where id = 22608;
-UPDATE `npc` SET `level`=76, `hp`=4358, `mp`=1880, `type`='L2FlyMonster' where id = 22609;
-UPDATE `npc` SET `level`=75, `hp`=4229, `mp`=1840, `type`='L2FlyMonster' where id = 22610;
-UPDATE `npc` SET `level`=76, `hp`=4358, `mp`=1880, `type`='L2FlyMonster' where id = 22611;
-UPDATE `npc` SET `level`=76, `hp`=4358, `mp`=1880, `type`='L2FlyMonster' where id = 22612;
-UPDATE `npc` SET `level`=77, `hp`=4514, `mp`=1920, `type`='L2FlyMonster' where id = 22613;
-UPDATE `npc` SET `level`=74, `hp`=4159, `mp`=1800, `type`='L2FlyMonster' where id = 22614;
-UPDATE `npc` SET `level`=75, `hp`=4229, `mp`=1840, `type`='L2FlyMonster' where id = 22615;
-UPDATE `npc` SET `level`=75, `hp`=2444, `mp`=2444, `type`='L2FlyMinion' where id = 25627;
-UPDATE `npc` SET `level`=76, `hp`=2444, `mp`=2444, `type`='L2FlyMinion' where id = 25628;
-UPDATE `npc` SET `level`=84, `hp`=2444, `mp`=2444, `type`='L2FlyMinion' where id = 25629;
-UPDATE `npc` SET `level`=77, `hp`=2444, `mp`=2444, `type`='L2FlyMinion' where id = 25630;
-UPDATE `npc` SET `level`=77, `hp`=2444, `mp`=2444, `type`='L2FlyMinion' where id = 25631;
-UPDATE `npc` SET `level`=78, `hp`=2444, `mp`=2444, `type`='L2FlyMinion' where id = 25632;
-UPDATE `npc` SET `level`=76, `hp`=2444, `mp`=2444, `type`='L2RaidBoss' where id = 25633;
-UPDATE `npc` SET `level`=84, `hp`=1048765, `mp`=4100, `type`='L2RaidBoss' where id = 25634;
-UPDATE `npc` SET `level`=84, `hp`=1048765, `mp`=4100, `type`='L2RaidBoss' where id = 25635;
-UPDATE `npc` SET `level`=85, `hp`=1048765, `mp`=4100, `type`='L2RaidBoss' where id = 25636;
-UPDATE `npc` SET `level`=85, `hp`=1048765, `mp`=4100, `type`='L2RaidBoss' where id = 25637;
-UPDATE `npc` SET `level`=85, `hp`=1048765, `mp`=4100, `type`='L2RaidBoss' where id = 25638;
-UPDATE `npc` SET `level`=85, `hp`=1048765, `mp`=4100, `type`='L2RaidBoss' where id = 25639;
-UPDATE `npc` SET `level`=85, `hp`=1048765, `mp`=4100, `type`='L2RaidBoss' where id = 25640;
-UPDATE `npc` SET `level`=85, `hp`=1048765, `mp`=4100, `type`='L2RaidBoss' where id = 25641;
-UPDATE `npc` SET `level`=85, `hp`=1048765, `mp`=4100, `type`='L2RaidBoss' where id = 25642;
-UPDATE `npc` SET `level`=85, `hp`=1048765, `mp`=4100, `type`='L2RaidBoss' where id = 25643;
-UPDATE `npc` SET `level`=85, `hp`=1048765, `mp`=4100, `type`='L2RaidBoss' where id = 25644;
-UPDATE `npc` SET `level`=85, `hp`=1048765, `mp`=4100, `type`='L2RaidBoss' where id = 25645;
-UPDATE `npc` SET `level`=85, `hp`=1048765, `mp`=4100, `type`='L2RaidBoss' where id = 25646;
-UPDATE `npc` SET `level`=85, `hp`=1048765, `mp`=4100, `type`='L2RaidBoss' where id = 25647;
-UPDATE `npc` SET `level`=85, `hp`=1048765, `mp`=4100, `type`='L2RaidBoss' where id = 25648;
-UPDATE `npc` SET `level`=85, `hp`=1048765, `mp`=4100, `type`='L2RaidBoss' where id = 25649;
-UPDATE `npc` SET `level`=85, `hp`=1048765, `mp`=4100, `type`='L2RaidBoss' where id = 25650;
-UPDATE `npc` SET `level`=85, `hp`=1048765, `mp`=4100, `type`='L2RaidBoss' where id = 25651;
-UPDATE `npc` SET `level`=85, `hp`=1048765, `mp`=4100, `type`='L2RaidBoss' where id = 25652;
-UPDATE `npc` SET `level`=79, `hp`=1048765, `mp`=4100, `type`='L2RaidBoss' where id = 25653;
-UPDATE `npc` SET `level`=82, `hp`=1048765, `mp`=4100, `type`='L2RaidBoss' where id = 25654;
-UPDATE `npc` SET `level`=85, `hp`=1048765, `mp`=4100, `type`='L2RaidBoss' where id = 25655;
-UPDATE `npc` SET `level`=77, `hp`=1048765, `mp`=4100, `type`='L2RaidBoss' where id = 25656;
-UPDATE `npc` SET `level`=80, `hp`=1048765, `mp`=4100, `type`='L2RaidBoss' where id = 25657;
-UPDATE `npc` SET `level`=83, `hp`=1048765, `mp`=4100, `type`='L2RaidBoss' where id = 25658;
-UPDATE `npc` SET `level`=69, `hp`=1048765, `mp`=4100, `type`='L2RaidBoss' where id = 25659;
-UPDATE `npc` SET `level`=72, `hp`=1048765, `mp`=4100, `type`='L2RaidBoss' where id = 25660;
-UPDATE `npc` SET `level`=75, `hp`=1048765, `mp`=4100, `type`='L2RaidBoss' where id = 25661;
-UPDATE `npc` SET `level`=67, `hp`=1048765, `mp`=4100, `type`='L2RaidBoss' where id = 25662;
-UPDATE `npc` SET `level`=70, `hp`=1048765, `mp`=4100, `type`='L2RaidBoss' where id = 25663;
-UPDATE `npc` SET `level`=73, `hp`=1048765, `mp`=4100, `type`='L2RaidBoss' where id = 25664;
-UPDATE `npc` SET `level`=82, `hp`=1048765, `mp`=4100, `type`='L2RaidBoss' where id = 25665;
-UPDATE `npc` SET `level`=82, `hp`=1048765, `mp`=4100, `type`='L2RaidBoss' where id = 25666;
-
 -- 新傳送
 REPLACE INTO `teleport` VALUES
-('3253401', '3253401', '-183321', '205994', '-12896', '0', '0'),
-('3260201', '3260201', '-245833', '220174', '-12104', '0', '0'),
-('3260202', '3260202', '-251624', '213420', '-12072', '0', '0'),
-('3260203', '3260203', '-249774', '207316', '-11952', '0', '0'),
-('3254001', '3260203', '-212836', '209824', '4288', '0', '0');
+('3254001', '3260203', '-212836', '209824', '4288', '0', '0'),   -- 深淵的守門人
+('3260201', '3260201', '-245833', '220174', '-12104', '0', '0'), -- 臨時傳送師
+('3260202', '3260202', '-251624', '213420', '-12072', '0', '0'), -- 臨時傳送師
+('3260203', '3260203', '-249774', '207316', '-11952', '0', '0'); -- 臨時傳送師
 
--- 刪除 NPC，改成 AI 控制行動
+-- 刪除 NPC，改成 AI 控制
 Delete From `spawnlist` Where `npc_templateid` in (32549,32619,32628,32629); -- 狄里歐斯/刺槍兵/碼頭巡邏兵
-UPDATE `npc` SET `walkspd` = '8' WHERE `id` IN (32072); -- 艾德溫
 UPDATE `npc` SET `walkspd` = '50' WHERE `id` IN (35659,35690,35728,35759,35797,35828,35859,35897,35928,35966,36004,36035,36073,36111,36142,36173,36211,36249,36287,36318,36356); -- 可疑的商人
 DELETE FROM `fort_spawnlist` WHERE `npcId` IN (35659,35690,35728,35759,35797,35828,35859,35897,35928,35966,36004,36035,36073,36111,36142,36173,36211,36249,36287,36318,36356); -- 可疑的商人
 
 -- 防具修正
-UPDATE `armor` SET `m_def` = 71  WHERE `item_id` IN (9452,11604); -- 封印的王朝耳環
-UPDATE `armor` SET `m_def` = 95  WHERE `item_id` IN (9453,11602); -- 封印的王朝項鍊
-UPDATE `armor` SET `m_def` = 79  WHERE `item_id` IN (9455,11601); -- 王朝耳環
-UPDATE `armor` SET `m_def` = 106 WHERE `item_id` IN (9456,11599); -- 王朝項鍊
 UPDATE `armor` SET `armor_type` = 'light' WHERE `item_id` IN (9670,9671); -- 土著上衣/土著下衣
 UPDATE `armor` SET `armor_type` = 'heavy' WHERE `item_id` IN (9821,9831,10019,10020); -- 幻象裝備-盟誓盔甲/進階型阿貝拉盔甲/鎖子胸甲/鋼鐵脛甲
 UPDATE `armor` SET `armor_type` = 'light' WHERE `item_id` IN (9824,9834,10021,10022); -- 幻象裝備-盟誓禮服/進階型阿貝拉禮服/水晶獅皮襯衫/水晶獅皮脛甲
@@ -1055,61 +894,25 @@ UPDATE `armor` SET `armor_type` = 'magic' WHERE `item_id` IN (9827,9837,10023,10
 UPDATE `armor` SET `armor_type` = 'light' WHERE `item_id` IN (10487,10488,10489,10490); -- 王朝寶石皮甲 力量大師/王朝寶石皮甲 武器大師/王朝寶石皮甲 法師/王朝寶石皮甲 召喚士
 UPDATE `armor` SET `crystallizable` = 'false' WHERE `item_id` IN (9826,13885,13886,13887); -- 幻象武器-盟誓禮鞋 輕裝用/封印的祕儀符印/封印的王朝符印/封印的薄暮符印
 UPDATE `armor` SET `time` = 0 WHERE `item_id` IN (20098); -- 禮服-活動 1小時幻象
-UPDATE `armor` SET `time` = 10080 WHERE `item_id` IN (13546,13547); -- 蒸汽甲蟲騎乘手鐲/黃鬃獅子騎乘手鐲
-UPDATE `armor` SET `time` = 20160 WHERE `item_id` IN (14611,14617); -- 魯道夫之鼻/壺精封印手鐲-魯道夫
 UPDATE `armor` SET `time` = 43200 WHERE `item_id` IN (13544,13545); -- 壺精召喚手鐲-男生泰迪熊/壺精召喚手鐲-女生泰迪熊
-UPDATE `armor` SET `time` = 1440 WHERE `item_id` IN (20497); -- SQL資料尚未加入
-UPDATE `armor` SET `time` = 4320 WHERE `item_id` IN (20498); -- SQL資料尚未加入
-UPDATE `armor` SET `time` = 10080 WHERE `item_id` IN (20399,20400,20405,20406,20407,20408,20409,20410,20411,20412,20413,20414,20415,20416,20417,20418,20419,20420,20421,20422,20423,20424,20425,20426,20427,20428,20429,20430,20431,20432,20433,20434,20435,20436,20437,20438,20439,20440,20441,20442,20443,20444,20445,20446,20447,20448,20449,20496,20537,20538,20539); -- SQL資料尚未加入
-UPDATE `armor` SET `time` = 20160 WHERE `item_id` IN (14771,14773,14775,14776); -- SQL資料尚未加入
-UPDATE `armor` SET `time` = 43200 WHERE `item_id` IN (20503,20504,20535,20536); -- SQL資料尚未加入
-UPDATE `armor` SET `duration` = 360 WHERE `item_id` IN (14753,14754,14755,14756,14757,14758,14759,14760,14761,14762,14763,14764); -- SQL資料尚未加入
+UPDATE `armor` SET `time` = 1440 WHERE `item_id` IN (20497); -- 母親的花環-活動 (SQL資料尚未加入)
+UPDATE `armor` SET `time` = 4320 WHERE `item_id` IN (20498); -- 母親的花環 (SQL資料尚未加入)
+UPDATE `armor` SET `time` = 43200 WHERE `item_id` IN (20503,20504); -- 黃鬃獅子/蒸汽甲蟲騎乘手鐲 限時30日 (SQL資料尚未加入)
+UPDATE `armor` SET `duration` = 360 WHERE `item_id` IN (14753,14754,14755,14756,14757,14758,14759,14760,14761,14762,14763,14764); -- 幻象裝備 (SQL資料尚未加入)
 
 -- 武器修正
-UPDATE `weapon` SET `m_dam` = 11 WHERE `item_id` = 748; -- 噶爾林特的橡木杖
-UPDATE `weapon` SET `m_dam` = 24 WHERE `item_id` = 8576; -- 見習生魔杖-禮券活動用
-UPDATE `weapon` SET `m_dam` = 111 WHERE `item_id` = 8843; -- 幻象裝備-帕格立歐之鎚
-UPDATE `weapon` SET `m_dam` = 31 WHERE `item_id` IN (8977,9908,13158); -- 幻象裝備-法師魔杖/進階型法師魔杖/限時-法師魔杖 限時60分鐘
-UPDATE `weapon` SET `m_dam` = 24 WHERE `item_id` = 10474; -- 幻象裝備-見習生魔杖
-UPDATE `weapon` SET `m_dam` = 39 WHERE `item_id` = 11610; -- 基本型-骨頭魔杖
-UPDATE `weapon` SET `m_dam` = 122 WHERE `item_id` = 11855; -- 基本型-惡魔魔杖
-UPDATE `weapon` SET `m_dam` = 193 WHERE `item_id` = 12002; -- 基本型-帝國權杖
-UPDATE `weapon` SET `m_dam` = 79 WHERE `item_id` = 13168; -- 限時-生命手杖 限時60分鐘
-UPDATE `weapon` SET `m_dam` = 132 WHERE `item_id` = 20143; -- 邪靈魔杖-活動 限時4小時
-UPDATE `weapon` SET `weight` = 1150 WHERE `item_id` IN (9441,9529); -- 王朝盾/封印的王朝盾
-UPDATE `weapon` SET `p_dam` = 422 WHERE `item_id` IN (10226,10467,10468,10469,11309,11310,11311,11312); -- 伊克魯斯之弩/伊克魯斯之弩 節射/伊克魯斯之弩 導引/伊克魯斯之弩 偵測/伊克魯斯之弩-集中/伊克魯斯之弩-集中 節射/伊克魯斯之弩-集中 導引/伊克魯斯之弩-集中 偵測
-UPDATE `weapon` SET `p_dam` = 325, `m_dam` = 222, `atk_speed` = 325 WHERE `item_id` IN (10252,10527,10528,10529); -- 王朝魔杖/王朝魔杖 魔力上升/王朝魔杖 魂體轉換/王朝魔杖 靈活思緒
-UPDATE `weapon` SET `atk_speed` = 325 WHERE `item_id` IN (10530,10531,10532); -- 王朝毀滅者 怒擊/王朝毀滅者 強健/王朝毀滅者 Rsk.偵測
 UPDATE `weapon` SET `bodypart` = 'rhand' WHERE `item_id` IN (13556,13557,20114,20126,20128,20140,20142,20154,20156,20168,20170,20258,20264); -- 飛空艇操控舵/飛空艇大砲/祭司釘鎚-活動/夜叉釘鎚-活動/月蝕斧-活動/工藝戰斧-活動/卡倚巴奴之骨-活動/樂園-活動/火龍之首-活動/玄武岩戰鎚-活動/祕儀權杖-活動/法國麵包吐司鎚/法國麵包香郁/
-UPDATE `weapon` SET `bodypart` = 'lrhand', `weaponType` = 'bigblunt' WHERE `item_id` IN (9819,13530,13531,13532,13533,13534,13535,13536,13537,13538,13560,13561,13562,13563,13564,13565,13566,13567,13568);  -- 鬥爭旗幟/古魯丁旗幟/狄恩旗幟/奇岩旗幟/歐瑞旗幟/亞丁旗幟/因納得立旗幟/高達特旗幟/魯因旗幟/修加特旗幟/古魯丁 守護之物/狄恩 守護之物/奇岩 守護之物/歐瑞 守護之物/亞丁 守護之物/因納得立 守護之物/高達特 守護之物/魯因 守護之物/修加特 守護之物
-UPDATE `weapon` SET `bodypart` = 'lrhand', `weaponType` = 'bigblunt' WHERE `item_id` IN (13539,13809,13981,20113,20115,20127,20129,20141,20143,20155,20157,20169,20171,20259,20265); -- 大師余義的魔杖/宮廷魔法師的魔法棒/怪物用(龍馬軍戰鬥兵)/下巨人之鎚-活動/山羊頭之杖-活動/矮人巨鎚-活動/惡魔魔杖-活動/星爆-活動/邪靈魔杖-活動/末日毀滅者-活動/世界樹樹枝-活動/狩龍之斧-活動/帝國權杖-活動/法國麵包牛角鎚/法國麵包麻花杖
-UPDATE `weapon` SET `bodypart` = 'lrhand', `weaponType` = 'pole' WHERE `item_id` = 10277; -- 怪物用(貝希莫槍)
-UPDATE `weapon` SET `bodypart` = 'lrhand', `weaponType` = 'dual' WHERE `item_id` = 10278; -- 怪物用(貝希莫雙刀)
-UPDATE `weapon` SET `bodypart` = 'lhand' WHERE `item_id` = 13770;  -- 艾罕米亞卡修之盾
-UPDATE `weapon` SET `weaponType` = 'dual' WHERE `item_id` = 1299; -- 二刀流 測試用
-UPDATE `weapon` SET `weaponType` = 'bigsword' WHERE `item_id` = 13842; -- 蒂雅特雙手武器
-UPDATE `weapon` SET `weaponType` = 'none' WHERE `item_id` IN (13525,13980); -- 格勒西亞士兵盾牌/怪物用(龍馬軍作戰步兵盾)
-UPDATE `weapon` SET `weaponType` = 'bigsword' WHERE `item_id` = 13983; -- 怪物用(死亡騎士_2hs)
-UPDATE `weapon` SET `time` = 20160 WHERE `item_id` IN (14774); -- SQL資料尚未加入
+UPDATE `weapon` SET `bodypart` = 'lrhand', `weaponType` = 'bigblunt' WHERE `item_id` IN (9819,13530,13531,13532,13533,13534,13535,13536,13537,13538);  -- 鬥爭旗幟/古魯丁旗幟/狄恩旗幟/奇岩旗幟/歐瑞旗幟/亞丁旗幟/因納得立旗幟/高達特旗幟/魯因旗幟/修加特旗幟
+UPDATE `weapon` SET `bodypart` = 'lrhand', `weaponType` = 'bigblunt' WHERE `item_id` IN (13539,13560,13561,13562,13563,13564,13565,13566,13567,13568);  -- 大師余義的魔杖/古魯丁 守護之物/狄恩 守護之物/奇岩 守護之物/歐瑞 守護之物/亞丁 守護之物/因納得立 守護之物/高達特 守護之物/魯因 守護之物/修加特 守護之物
+UPDATE `weapon` SET `bodypart` = 'lrhand', `weaponType` = 'bigblunt' WHERE `item_id` IN (13809,13981); -- 宮廷魔法師的魔法棒/怪物用(龍馬軍戰鬥兵)
+UPDATE `weapon` SET `weaponType` = 'none' WHERE `item_id` IN (13525); -- 格勒西亞士兵盾牌
 
 -- 其他物品修正
 Delete From `items` Where (`item_id` > 708 and `item_id` < 725); -- 和防具同名稱的其他物品
 UPDATE `etcitem` SET `consume_type` = 'normal' WHERE `item_id` IN (731,732,949,950,953,954,957,958,961,962); -- 武器強化結晶卷軸/防具強化結晶卷軸
-UPDATE `etcitem` SET `weight` = 10 WHERE `item_id` IN (5342,5343); -- 回聲水晶-大悲咒/回聲水晶-聖歌
-UPDATE `etcitem` SET `weight` = 0 WHERE `item_id` IN (10017,10649); -- 珊瑚的寶箱鑰匙/祝福的羽毛
-UPDATE `etcitem` SET `weight` = 60 WHERE `item_id` IN (10114,13099); -- 封印的王朝符印碎片/封印的祕儀符印碎片
-UPDATE `etcitem` SET `weight` = 30 WHERE `item_id` IN (10115,10116,13100,13101); -- 製作卷軸(封印的王朝符印60%)/製作卷軸(封印的王朝符印100%)/製作卷軸(封印的祕儀符印60%)/製作卷軸(封印的祕儀符印100%)
-UPDATE `etcitem` SET `consume_type` = 'normal', `weight` = 1370 WHERE `item_id` = 10117; -- 渾沌的封印的王朝符印
-UPDATE `etcitem` SET `consume_type` = 'normal', `weight` = 1390 WHERE `item_id` = 10118; -- 渾沌的 王朝符印
+UPDATE `etcitem` SET `consume_type` = 'normal' WHERE `item_id` IN (10117,10118); -- 渾沌的封印的王朝符印/渾沌的 王朝符印
 UPDATE `etcitem` SET `consume_type` = 'normal' WHERE `item_id` IN (10414,10480,10481,10482,10607,13382); -- 壺精交換券/紅色搜魂石-階段15/藍色搜魂石-階段15/綠色搜魂石-階段15/壺精封印手鐲-魯道夫/格蘭肯的禮盒-活動用
-UPDATE `etcitem` SET `consume_type` = 'stackable' WHERE `item_id` IN (13033,13040,13041,13059,13149,13150,13151,13152); -- 瞬間體力治癒藥水/火屬性強化劑/水屬性強化劑/遠距離防禦能力提升藥水/菲拉卡最終鑰匙/菲拉卡萬能鑰匙/菲拉卡活力充能藥水
 UPDATE `etcitem` SET `consume_type` = 'stackable' WHERE `item_id` IN (13420,13421,20025,20026,20027,20028,20033,20034); -- 點心/蛋糕/自由傳送卷軸/追加入場券-欲界(深淵之廳)/追加入場券-近緣欲界/追加入場券-欲界(深淵迷宮)/自由傳送旗/萬聖節糖果-活動用
-UPDATE `etcitem` SET `weight` = 20 WHERE `item_id` IN (13071,13072,13073); -- 紅色搜魂石-階段16/藍色搜魂石-階段16/綠色搜魂石-階段16
-UPDATE `etcitem` SET `weight` = 1170 WHERE `item_id` IN (13077,13102); -- 渾沌的祕儀符印/渾沌的封印的祕儀符印
-UPDATE `etcitem` SET `weight` = 100 WHERE `item_id` IN (13277,13278);-- 能量星石/高級能量星石
-UPDATE `etcitem` SET `time` = 240 WHERE `item_id` IN (20075,20076,20077,20078); -- 聖誕老人的禮物-喜悅/趣味/幸運/幸運
-UPDATE `etcitem` SET `time` = 480 WHERE `item_id` IN (20103,20104.20105,20106); -- 聖誕慶典卷軸-重裝戰士/輕裝戰士/牧師/巫師
-UPDATE `etcitem` SET `time` = 720 WHERE `item_id` IN (20107,20108); -- 聖誕老人的武器交換券
 UPDATE `etcitem` SET `time` = 1440 WHERE `item_id` IN (20320); -- 生日蛋糕
 UPDATE `etcitem` SET `time` = 10080 WHERE `item_id` IN (20339,20340,20345,20346,20351,20352); -- 經驗值古文/SP古文/結晶型古文
 UPDATE `etcitem` SET `time` = 21600 WHERE `item_id` IN (20190); -- 情人節裝飾品
@@ -1242,9 +1045,9 @@ UPDATE `etcitem` SET `skill` = '2779-1;', `handler` = 'ItemSkills' WHERE `item_i
 DELETE FROM `skill_spellbooks` WHERE (`item_id` < 7644) OR (`item_id` > 8379 AND `item_Id` < 8618) OR (`item_id` > 8889 AND `item_Id` < 8892) OR (`item_id` = 8909) OR (`item_id` > 8944 AND `item_Id` < 8947) OR (`item_id` > 10024 AND `item_Id` < 10067) OR (`item_id` > 10069 AND `item_Id` < 10090) OR (`item_id` > 10091 AND `item_Id` < 10099) OR (`item_id` > 10179 AND `item_Id` < 10184) OR (`item_id` > 10203 AND `item_Id` < 10598) OR (`item_id` = 10600) OR (`item_id` > 10607 AND `item_Id` < 10611) OR (`item_id` > 12771 AND `item_Id` < 12779) OR (`item_id` = 12820);
 
 -- 刪除魔法書商人
-DELETE FROM `spawnlist` WHERE `npc_templateid` IN (30840,31262,31306,31413,31414,31415,31416,31417,31419,31420,31421,31422,31423,31424,31425,31426,31427,31428,31429,31430,31431,31666,31667,31670,31951,31973,31980,32169);
-DELETE FROM `merchant_buylists` WHERE `shop_id` IN ( SELECT `shop_id` FROM `merchant_shopids` WHERE `npc_id` IN (30840,31262,31306,31413,31414,31415,31416,31417,31419,31420,31421,31422,31423,31424,31425,31426,31427,31428,31429,31430,31431,31666,31667,31670,31951,31973,31980,32169));
-DELETE FROM `merchant_shopids` WHERE `npc_id` IN (30840,31262,31306,31413,31414,31415,31416,31417,31419,31420,31421,31422,31423,31424,31425,31426,31427,31428,31429,31430,31431,31666,31667,31670,31951,31973,31980,32169);
+DELETE FROM `spawnlist` WHERE `npc_templateid` IN (30840,31262,31413,31414,31415,31416,31417,31421,31422,31423,31424,31425,31426,31427,31429,31430,31431,31666,31667,31670,31951,31973,31980);
+DELETE FROM `merchant_buylists` WHERE `shop_id` IN ( SELECT `shop_id` FROM `merchant_shopids` WHERE `npc_id` IN (30840,31262,31413,31414,31415,31416,31417,31421,31422,31423,31424,31425,31426,31427,31429,31430,31431,31666,31667,31670,31951,31973,31980));
+DELETE FROM `merchant_shopids` WHERE `npc_id` IN (30840,31262,31413,31414,31415,31416,31417,31421,31422,31423,31424,31425,31426,31427,31429,31430,31431,31666,31667,31670,31951,31973,31980);
 
 -- 刪除彩券商人
 DELETE FROM `spawnlist` WHERE `npc_templateid` IN (30990,30994) AND `id` NOT IN (45033);
@@ -1270,7 +1073,6 @@ DELETE FROM `characters` WHERE `account_name` = 'l2jtwdev';
 
 /************ CT 2.5 聖翼使命修正 ************/
 -- 斗篷改為通用,不再分重/輕/法/闇天使
-UPDATE `armor` SET `armor_type` = 'none' WHERE `item_id` IN (13687,13890,14609); -- 重裝斗篷改通用斗篷
 UPDATE `items` SET `item_id` = 13687 WHERE `item_id` IN (13688,13689,13690); -- 輕/法/闇天使的騎士斗篷改通用斗篷
 UPDATE `items` SET `item_id` = 13890 WHERE `item_id` IN (13889,13891,13892); -- 輕/法/闇天使的聖靈斗篷改通用斗篷
 UPDATE `items` SET `item_id` = 14609 WHERE `item_id` IN (14601,14602,14608,14610); -- 輕/法/闇天使的古代斗篷改通用斗篷
@@ -1278,12 +1080,7 @@ DELETE FROM `merchant_buylists` WHERE `item_id` IN (13688,13689,13690,13889,1389
 
 -- 新傳送
 REPLACE INTO `teleport` VALUES
-('3114701', '3114701', '183985', '61424', '-3992', '0', '0'),
-('3114702', '3114702', '191754', '56760', '-7324', '0', '0'),
-('3265201', '3265201', '175499', '-181586', '-904', '0', '0'),
-('3265301', '3265301', '173145', '-173823', '3480', '0', '0'),
-('3265401', '3265401', '179299', '-182831', '-224', '0', '0'),
-('3271401', '3271401', '43835', '-47749', '-792', '50000', '0');
+('3265201', '3265201', '175499', '-181586', '-904', '0', '0');    -- 往米索莉礦山的傳送水晶
 
 -- 新頭飾
 REPLACE INTO `armor` VALUES
@@ -1302,67 +1099,13 @@ REPLACE INTO `armor` VALUES
 (20618,'20618','','hair','false','none',10,'wood','none',0,-1,10080,0,0,0,0,0,'false','false','true','false','true','0-0','21094-1;21113-1;'),
 (20626,'20626','','hairall','false','none',10,'wood','none',0,-1,10080,0,0,0,0,0,'false','false','true','false','true','0-0','21095-1;'),
 (20633,'20633','','hairall','false','none',10,'wood','none',0,-1,10080,0,0,0,0,0,'false','false','true','false','true','0-0','21096-1;'),
-(20634,'20634','','hairall','false','none',10,'wood','none',0,-1,-1,0,0,0,0,0,'false','false','true','false','true','0-0','0-0;'),
-(20666,'20666','','hairall','false','none',10,'wood','none',0,-1,-1,0,0,0,0,0,'false','false','true','false','true','0-0','0-0;'),
-(20667,'20667','','hairall','false','none',10,'wood','none',0,-1,10080,0,0,0,0,0,'false','false','true','false','true','0-0','21098-1;'),
-(20668,'20668','','hairall','false','none',10,'wood','none',0,-1,-1,0,0,0,0,0,'false','false','true','false','true','0-0','0-0;'),
-(20669,'20669','','hairall','false','none',10,'wood','none',0,-1,10080,0,0,0,0,0,'false','false','true','false','true','0-0','21099-1;'),
-(20670,'20670','','hairall','false','none',10,'wood','none',0,-1,-1,0,0,0,0,0,'false','false','true','false','true','0-0','0-0;'),
-(20671,'20671','','hairall','false','none',10,'wood','none',0,-1,10080,0,0,0,0,0,'false','false','true','false','true','0-0','21100-1;'),
-(20672,'20672','','hairall','false','none',10,'wood','none',0,-1,-1,0,0,0,0,0,'false','false','true','false','true','0-0','0-0;'),
-(20673,'20673','','hairall','false','none',10,'wood','none',0,-1,10080,0,0,0,0,0,'false','false','true','false','true','0-0','21101-1;'),
-(20674,'20674','','hairall','false','none',10,'wood','none',0,-1,-1,0,0,0,0,0,'false','false','true','false','true','0-0','0-0;'),
-(20675,'20675','','hairall','false','none',10,'wood','none',0,-1,10080,0,0,0,0,0,'false','false','true','false','true','0-0','21103-1;'),
-(20676,'20676','','hairall','false','none',10,'wood','none',0,-1,-1,0,0,0,0,0,'false','false','true','false','true','0-0','0-0;'),
-(20677,'20677','','hairall','false','none',10,'wood','none',0,-1,10080,0,0,0,0,0,'false','false','true','false','true','0-0','21102-1;'),
-(20678,'20678','','hairall','false','none',10,'wood','none',0,-1,-1,0,0,0,0,0,'false','false','true','false','true','0-0','0-0;'),
-(20679,'20679','','hairall','false','none',10,'wood','none',0,-1,10080,0,0,0,0,0,'false','false','true','false','true','0-0','21104-1;'),
-(20711,'20711','','hairall','false','none',10,'wood','none',0,-1,-1,0,0,0,0,0,'false','false','true','false','true','0-0','21120-1;'),
-(20712,'20712','','hairall','false','none',10,'wood','none',0,-1,120,0,0,0,0,0,'false','false','true','false','true','0-0','21122-1;'),
-(20713,'20713','','hairall','false','none',10,'wood','none',0,-1,120,0,0,0,0,0,'false','false','true','false','true','0-0','21123-1;'),
-(20714,'20714','','hairall','false','none',10,'wood','none',0,-1,120,0,0,0,0,0,'false','false','true','false','true','0-0','21124-1;'),
-(20715,'20715','','hairall','false','none',10,'wood','none',0,-1,120,0,0,0,0,0,'false','false','true','false','true','0-0','21125-1;'),
-(20716,'20716','','hairall','false','none',10,'wood','none',0,-1,120,0,0,0,0,0,'false','false','true','false','true','0-0','21126-1;'),
-(20718,'20718','','hairall','false','none',10,'wood','none',0,-1,240,0,0,0,0,0,'false','false','true','false','true','0-0','21127-1;'),
-(20719,'20719','','hairall','false','none',10,'wood','none',0,-1,240,0,0,0,0,0,'false','false','true','false','true','0-0','21128-1;'),
-(20720,'20720','','hairall','false','none',10,'wood','none',0,-1,240,0,0,0,0,0,'false','false','true','false','true','0-0','21129-1;'),
-(20721,'20721','','hairall','false','none',10,'wood','none',0,-1,240,0,0,0,0,0,'false','false','true','false','true','0-0','21130-1;'),
-(20722,'20722','','hairall','false','none',10,'wood','none',0,-1,240,0,0,0,0,0,'false','false','true','false','true','0-0','21131-1;'),
-(20723,'20723','','hairall','false','none',10,'wood','none',0,-1,-1,0,0,0,0,0,'false','false','true','false','true','0-0','21120-1;'),
-(20724,'20724','','hairall','false','none',10,'wood','none',0,-1,10080,0,0,0,0,0,'false','false','true','false','true','0-0','21120-1;21136-1;'),
-(20725,'20725','','hairall','false','none',10,'wood','none',0,-1,-1,0,0,0,0,0,'false','false','true','false','true','0-0','0-0;'),
-(20743,'20743','','hairall','false','none',10,'wood','none',0,-1,10080,0,0,0,0,0,'false','false','true','false','true','0-0','21137-1;'),
-(20744,'20744','','hairall','false','none',10,'wood','none',0,-1,10080,0,0,0,0,0,'false','false','true','false','true','0-0','21138-1;'),
-(20745,'20745','','hairall','false','none',10,'wood','none',0,-1,10080,0,0,0,0,0,'false','false','true','false','true','0-0','21139-1;'),
-(20746,'20746','','hairall','false','none',10,'wood','none',0,-1,10080,0,0,0,0,0,'false','false','true','false','true','0-0','21140-1;'),
-(20747,'20747','','hairall','false','none',10,'wood','none',0,-1,10080,0,0,0,0,0,'false','false','true','false','true','0-0','21141-1;');
+(20634,'20634','','hairall','false','none',10,'wood','none',0,-1,-1,0,0,0,0,0,'false','false','true','false','true','0-0','0-0;');
 
 -- 新手鐲
 REPLACE INTO `armor` VALUES
-(15220,'15220','','lbracelet','false','none',0,'wood','none',0,-1,14400,0,0,0,0,0,'false','false','true','false','true','0-0','6196-1;6197-1;8328-1;3267-1;'),
-(15312,'15312','','lbracelet','true','none',15,'wood','a',0,-1,-1,0,0,0,0,0,'false','false','true','false','true','0-0','8337-1;'),
 (15351,'15351','','lbracelet','false','none',5,'wood','none',0,-1,-1,0,0,0,0,0,'false','false','true','false','true','0-0','8358-1;3267-1;'),
-(20591,'20591','','lbracelet','false','none',150,'wood','none',0,-1,-1,0,0,0,0,0,'false','false','true','false','true','0-0','21091-1;23076-1;3267-1;'),
-(20592,'20592','','lbracelet','false','none',150,'wood','none',0,-1,1440,0,0,0,0,0,'false','false','true','false','true','0-0','21091-1;23076-1;23077-1;3267-1;'),
-(20593,'20593','','lbracelet','false','none',150,'wood','none',0,-1,4320,0,0,0,0,0,'false','false','true','false','true','0-0','21091-1;23076-1;23077-1;3267-1;'),
-(20621,'20621','','lbracelet','false','none',150,'wood','none',0,-1,1440,0,0,0,0,0,'false','false','true','false','true','0-0','21091-1;23076-1;23078-1;3267-1;'),
-(20622,'20622','','lbracelet','false','none',150,'wood','none',0,-1,4320,0,0,0,0,0,'false','false','true','false','true','0-0','21091-1;23076-1;23078-1;3267-1;'),
-(20654,'20654','','lbracelet','false','none',150,'wood','none',0,-1,-1,0,0,0,0,0,'false','false','true','false','true','0-0','21105-1;23079-1;3267-1;'),
-(20655,'20655','','lbracelet','false','none',150,'wood','none',0,-1,10080,0,0,0,0,0,'false','false','true','false','true','0-0','21105-1;23079-1;23080-1;3267-1;'),
-(20656,'20656','','lbracelet','false','none',150,'wood','none',0,-1,-1,0,0,0,0,0,'false','false','true','false','true','0-0','21106-1;23081-1;3267-1;'),
-(20657,'20657','','lbracelet','false','none',150,'wood','none',0,-1,10080,0,0,0,0,0,'false','false','true','false','true','0-0','21106-1;23081-1;23082-1;3267-1;'),
 (20658,'20658','','lbracelet','false','none',150,'wood','none',0,-1,-1,0,0,0,0,0,'false','false','true','false','true','0-0','21107-1;23083-1;3267-1;'),
-(20659,'20659','','lbracelet','false','none',150,'wood','none',0,-1,10080,0,0,0,0,0,'false','false','true','false','true','0-0','21107-1;23083-1;23084-1;3267-1;'),
-(20660,'20660','','lbracelet','false','none',150,'wood','none',0,-1,-1,0,0,0,0,0,'false','false','true','false','true','0-0','21108-1;23085-1;3267-1;'),
-(20661,'20661','','lbracelet','false','none',150,'wood','none',0,-1,10080,0,0,0,0,0,'false','false','true','false','true','0-0','21108-1;23085-1;23086-1;3267-1;'),
-(20662,'20662','','lbracelet','false','none',150,'wood','none',0,-1,-1,0,0,0,0,0,'false','false','true','false','true','0-0','21109-1;23087-1;3267-1;'),
-(20663,'20663','','lbracelet','false','none',150,'wood','none',0,-1,10080,0,0,0,0,0,'false','false','true','false','true','0-0','21109-1;23087-1;23088-1;3267-1;'),
-(20664,'20664','','lbracelet','false','none',150,'wood','none',0,-1,-1,0,0,0,0,0,'false','false','true','false','true','0-0','21110-1;23089-1;3267-1;'),
-(20665,'20665','','lbracelet','false','none',150,'wood','none',0,-1,10080,0,0,0,0,0,'false','false','true','false','true','0-0','21110-1;23089-1;23090-1;3267-1;'),
-(20726,'20726','','lbracelet','false','none',150,'wood','none',0,-1,-1,0,0,0,0,0,'false','false','true','false','true','0-0','21133-1;23117-1;3267-1;'),
-(20727,'20727','','lbracelet','false','none',150,'wood','none',0,-1,10080,0,0,0,0,0,'false','false','true','false','true','0-0','21133-1;23117-1;23118-1;3267-1;'),
-(20732,'20732','','lbracelet','false','none',150,'wood','none',0,-1,-1,0,0,0,0,0,'false','false','true','false','true','0-0','21134-1;23119-1;3267-1;'),
-(20733,'20733','','lbracelet','false','none',150,'wood','none',0,-1,-1,0,0,0,0,0,'false','false','true','false','true','0-0','21135-1;23120-1;3267-1;');
+(20659,'20659','','lbracelet','false','none',150,'wood','none',0,-1,10080,0,0,0,0,0,'false','false','true','false','true','0-0','21107-1;23083-1;23084-1;3267-1;');
 
 -- 其它
 REPLACE INTO `etcitem` VALUES
@@ -1370,7 +1113,6 @@ REPLACE INTO `etcitem` VALUES
 (14725,'14725','','false','none',0,'stackable','paper','none',-1,-1,0,0,'false','false','true','false','false','ItemSkills','2870-1;'),
 (14726,'14726','','false','none',0,'stackable','paper','none',-1,-1,0,0,'false','false','true','false','false','ItemSkills','2880-1;'),
 (14727,'14727','','false','none',0,'stackable','paper','none',-1,-1,0,0,'false','false','true','false','false','ItemSkills','2881-1;'),
-(14819,'14819','','false','none',20,'normal','steel','none',-1,-1,0,0,'false','false','true','false','true','none','0-0;'),
 (20585,'20585','','false','none',10,'stackable','paper','none',-1,-1,0,0,'false','false','true','false','true','ItemSkills','22095-1;'),
 (20586,'20586','','false','none',10,'stackable','paper','none',-1,-1,0,0,'false','false','true','false','true','ItemSkills','22096-1;'),
 (20597,'20597','','false','none',0,'stackable','paper','none',-1,-1,0,0,'false','false','true','false','true','none','0-0;'),
@@ -1383,9 +1125,3 @@ REPLACE INTO `etcitem` VALUES
 (20729,'20729','','false','none',10,'stackable','paper','none',-1,-1,0,0,'false','false','true','false','false','ItemSkills','22111-1;'),
 (20730,'20730','','false','none',10,'stackable','paper','none',-1,-1,0,0,'false','false','true','false','false','ItemSkills','22112-1;'),
 (20731,'20731','','false','none',10,'stackable','paper','none',-1,-1,0,0,'false','false','true','false','false','ItemSkills','22113-1;');
-
--- 武器
-REPLACE INTO `weapon` VALUES
-(15310,'15310','','rhand','false',150,1,1,'steel','s',7,10,'sword',8,0.00000,0,0,0,379,0,5,-1,-1,0,0,'false','false','true','false','true',0,0,0,0,0,0,0,0,0,'8357-1;'),
-(15342,'15342','','rhand','false',0,1,1,'steel','none',1,10,'sword',8,0.00000,0,0,0,379,0,1,-1,86400,0,0,'false','false','true','false','true',0,0,0,0,0,0,0,0,0,'2994-1;'),
-(20600,'20600','','lrhand','false',0,1,1,'steel','none',1,20,'bigblunt',4,4.00000,0,0,0,325,0,1,-1,10080,0,0,'false','false','true','false','true',0,0,0,0,0,0,0,0,0,'21089-1;');

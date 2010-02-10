@@ -884,8 +884,8 @@ echo 　　　　如果遇到這種情形，請再手動導入 SQL 裡面的
 echo 　　　　skill_tw.sql / auto_chat_text_tw / messagetable /
 echo 　　　　char_templates_tw / auto_announcements 這 5 個 SQL
 echo.
-set cstprompt=n
-set /p cstprompt=安裝 custom 自訂資料表: (y) 確定 或 (N) 取消 或 (q) 退出？（預設值-取消）:
+set cstprompt=y
+set /p cstprompt=安裝 custom 自訂資料表: (y) 確定 或 (N) 取消 或 (q) 退出？（預設值-確定）:
 if /i %cstprompt%==y goto cstinstall
 if /i %cstprompt%==n goto newbie_helper
 if /i %cstprompt%==q goto end
