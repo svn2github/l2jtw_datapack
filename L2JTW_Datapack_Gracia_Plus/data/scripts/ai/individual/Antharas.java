@@ -31,7 +31,7 @@ import com.l2jserver.gameserver.network.serverpackets.SocialAction;
 import com.l2jserver.gameserver.network.serverpackets.SpecialCamera;
 import com.l2jserver.gameserver.templates.StatsSet;
 import com.l2jserver.util.Rnd;
-import com.l2jserver.ExternalConfig;
+import com.l2jserver.Config;
 
 /**
  * Antharas AI
@@ -90,7 +90,7 @@ public class Antharas extends L2AttackableAIScript
 		if (event.equalsIgnoreCase("waiting"))
 		{
 			GrandBossManager.getInstance().setBossStatus(ANTHARAS,WAITING);
-			this.startQuestTimer("waiting_boss", ExternalConfig.Antharas_Wait_Time, npc, null);
+			this.startQuestTimer("waiting_boss", Config.Antharas_Wait_Time, npc, null);
 		}
 		else if (event.equalsIgnoreCase("waiting_boss"))
 		{
@@ -301,7 +301,7 @@ public class Antharas extends L2AttackableAIScript
 			this.startQuestTimer("minions_despawn", 20000, npc, null);
 			this.startQuestTimer("remove_players", 900000, npc, null);
 			GrandBossManager.getInstance().setBossStatus(ANTHARAS,DEAD);
-			long respawnTime = (ExternalConfig.Interval_Of_Antharas_Spawn + Rnd.get(ExternalConfig.Random_Of_Antharas_Spawn));
+			long respawnTime = (Config.Interval_Of_Antharas_Spawn + Rnd.get(Config.Random_Of_Antharas_Spawn));
 			this.startQuestTimer("antharas_unlock", respawnTime, npc, null);
 			// also save the respawn time so that the info is maintained past reboots
 			StatsSet info = GrandBossManager.getInstance().getStatsSet(ANTHARAS);

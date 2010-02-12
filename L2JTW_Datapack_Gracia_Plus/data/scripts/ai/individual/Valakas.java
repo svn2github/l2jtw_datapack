@@ -26,7 +26,7 @@ import com.l2jserver.gameserver.network.serverpackets.SocialAction;
 import com.l2jserver.gameserver.network.serverpackets.SpecialCamera;
 import com.l2jserver.gameserver.templates.StatsSet;
 import com.l2jserver.util.Rnd;
-import com.l2jserver.ExternalConfig;
+import com.l2jserver.Config;
 
 /**
  * Valakas AI
@@ -39,7 +39,7 @@ public class Valakas extends L2AttackableAIScript
 
 	//Valakas Status Tracking :
 	private static final byte DORMANT = 0;	 	//Valakas is spawned and no one has entered yet. Entry is unlocked
-	private static final byte WAITING = 1;	 	//Valakas is spawend and someone has entered, triggering a 30 minute window for additional people to enter
+	//private static final byte WAITING = 1;	 	//Valakas is spawend and someone has entered, triggering a 30 minute window for additional people to enter
 												//before he unleashes his attack. Entry is unlocked
 	private static final byte FIGHTING = 2;		//Valakas is engaged in battle, annihilating his foes. Entry is locked
 	private static final byte DEAD = 3;			//Valakas has been killed. Entry is locked
@@ -80,11 +80,6 @@ public class Valakas extends L2AttackableAIScript
 	{
 		long temp = 0;
 		if (event.equalsIgnoreCase("1001"))
-		{
-			GrandBossManager.getInstance().setBossStatus(VALAKAS,WAITING);
-			this.startQuestTimer("waiting", ExternalConfig.Valakas_Wait_Time, npc, null);
-		}
-		else if (event.equalsIgnoreCase("waiting"))
 		{
 			GrandBossManager.getInstance().setBossStatus(VALAKAS,FIGHTING);
 			L2GrandBossInstance valakas = (L2GrandBossInstance) addSpawn(VALAKAS,212852,-114842,-1632,833,false,0);
@@ -318,11 +313,11 @@ public class Valakas extends L2AttackableAIScript
 			npc.broadcastPacket(new PlaySound(1, "B03_D", 1, npc.getObjectId(), npc.getX(), npc.getY(), npc.getZ()));
 			this.cancelQuestTimer("loc_check", npc, null);
 			this.cancelQuestTimer("valakas_despawn", npc, null);
-			//this.startQuestTimer("die_camera", 0, npc, null);
-			this.startQuestTimer("spawn_cubes", 10000, npc, null);
+			this.startQuestTimer("die_camera", 0, npc, null);
+			this.startQuestTimer("spawn_cubes", 20000, npc, null);
 			this.startQuestTimer("remove_players", 900000, npc, null);
 			GrandBossManager.getInstance().setBossStatus(VALAKAS,DEAD);
-			long respawnTime = (ExternalConfig.Interval_Of_Valakas_Spawn + Rnd.get(ExternalConfig.Random_Of_Valakas_Spawn));
+			long respawnTime = (Config.Interval_Of_Valakas_Spawn + Rnd.get(Config.Random_Of_Valakas_Spawn));
 			this.startQuestTimer("valakas_unlock", respawnTime, npc, null);
 			// also save the respawn time so that the info is maintained past reboots
 			StatsSet info = GrandBossManager.getInstance().getStatsSet(VALAKAS);

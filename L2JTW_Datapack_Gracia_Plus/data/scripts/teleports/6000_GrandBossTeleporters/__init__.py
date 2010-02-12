@@ -1,5 +1,6 @@
 #Made by Emperorc
 import sys
+from com.l2jserver import Config
 from com.l2jserver.gameserver.datatables import DoorTable
 from com.l2jserver.gameserver.model.quest import State
 from com.l2jserver.gameserver.model.quest import QuestState
@@ -49,28 +50,30 @@ class Quest (JQuest) :
     npcId = npc.getNpcId()
     htmltext = ""
     if npcId == 13001 : #heart of warding
-        htmltext = "13001-01.htm"
         if self.antharasAI :
             status = GrandBossManager.getInstance().getBossStatus(29019)
-            if status == 0 or status == 1 : #If entrance to see Antharas is unlocked (he is Dormant or Waiting)
+            statusW = GrandBossManager.getInstance().getBossStatus(29066)
+            statusN = GrandBossManager.getInstance().getBossStatus(29067)
+            statusS = GrandBossManager.getInstance().getBossStatus(29068)
+            if status == 2 or statusW == 2 or statusN == 2 or statusS == 2:
+                htmltext = "13001-02.htm"
+            elif status == 3 or statusW == 3 or statusN == 3 or statusS == 3:
+                htmltext = "13001-01.htm"
+            elif status == 0 or status == 1 : #If entrance to see Antharas is unlocked (he is Dormant or Waiting)
                 st = player.getQuestState(qn)
                 if st.getQuestItemsCount(3865) > 0 :
                     st.takeItems(3865,1)
                     zone = GrandBossManager.getInstance().getZone(181323,114850,-7618) #Update by rocknow
                     if zone : 
-                       zone.allowPlayerEntry(player,30)
+                        zone.allowPlayerEntry(player,30)
                     x = 174170 + Rnd.get(260)      #Update by rocknow
                     y = 113983 + Rnd.get(1500)     #Update by rocknow
                     player.teleToLocation(x,y,-7709)
                     if status == 0 :
                         self.antharasAI.startQuestTimer("waiting",0, npc, None)        #Update by rocknow
-                        #Delete by rocknow
-                        #Delete by rocknow
                     return
                 else :
                     htmltext = "13001-03.htm"
-            elif status == 2 :
-                htmltext = "13001-02.htm"
     elif npcId == 31859 : #antharas teleport cube
         x = 79800 + Rnd.get(600)
         y = 151200 + Rnd.get(1100)
@@ -94,11 +97,12 @@ class Quest (JQuest) :
                    player.teleToLocation(x,y,70)
                    self.count = self.count+1
                    if status == 0 :
-                      self.valakasAI.startQuestTimer("1001",0, npc, None) #Update by rocknow
-                      #Delete by rocknow
-                      #Delete by rocknow
+                      valakas = GrandBossManager.getInstance().getBoss(29028)
+                      self.valakasAI.startQuestTimer("1001",Config.Valakas_Wait_Time, valakas, None)
+                      GrandBossManager.getInstance().setBossStatus(29028,1)
                    return
-                elif st.getQuestItemsCount(7267) > 0 : #Update by rocknow-Start
+                #Update by rocknow-Start
+                elif st.getQuestItemsCount(7267) > 0 :
                    st.takeItems(7267,1)
                    zone = GrandBossManager.getInstance().getZone(212852,-114842,-1632)
                    if zone :
@@ -108,8 +112,11 @@ class Quest (JQuest) :
                    player.teleToLocation(x,y,70)
                    self.count = self.count+1
                    if status == 0 :
-                      self.valakasAI.startQuestTimer("1001",0, npc, None)
-                   return                              #Update by rocknow-End
+                      valakas = GrandBossManager.getInstance().getBoss(29028)
+                      self.valakasAI.startQuestTimer("1001",Config.Valakas_Wait_Time, valakas, None)
+                      GrandBossManager.getInstance().setBossStatus(29028,1)
+                   return
+                #Update by rocknow-End
                 else: #player cheated, wasn't ported via npc Klein
                   htmltext = "31385-04.htm"   
             elif status == 2 :

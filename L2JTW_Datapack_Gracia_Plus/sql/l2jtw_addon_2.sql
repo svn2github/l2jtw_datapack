@@ -57,5 +57,5 @@ REPLACE INTO `npcskills` VALUES
 ('25535', '5238', '1');
 
 
-/************ 新增欲界資料表 ************/
-CREATE TABLE IF NOT EXISTS `kamaloka` (`charID` int(10) NOT NULL,`HallAbyss` decimal(20,0) NOT NULL DEFAULT '0',`LabyrinthAbyss` decimal(20,0) NOT NULL DEFAULT '0',PRIMARY KEY (`charID`)) DEFAULT CHARSET=utf8;
+/************ 刪除自訂的欲界資料表 ************/
+DROP TABLE IF EXISTS kamaloka;

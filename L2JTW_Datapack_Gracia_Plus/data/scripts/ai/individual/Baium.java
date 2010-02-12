@@ -30,7 +30,7 @@ import com.l2jserver.gameserver.network.serverpackets.SocialAction;
 import com.l2jserver.gameserver.templates.StatsSet;
 import com.l2jserver.util.Rnd;
 import com.l2jserver.gameserver.network.serverpackets.NpcSay;
-import com.l2jserver.ExternalConfig;
+import com.l2jserver.Config;
 
 /**
  * Baium AI
@@ -305,7 +305,7 @@ public class Baium extends L2AttackableAIScript
 			this.startQuestTimer("minions_despawn", 20000, npc, null);
 			this.startQuestTimer("remove_players", 900000, npc, null);
 			GrandBossManager.getInstance().setBossStatus(LIVE_BAIUM,DEAD);
-			long respawnTime = (ExternalConfig.Interval_Of_Baium_Spawn + Rnd.get(ExternalConfig.Random_Of_Baium_Spawn));
+			long respawnTime = (Config.Interval_Of_Baium_Spawn + Rnd.get(Config.Random_Of_Baium_Spawn));
 			this.startQuestTimer("baium_unlock", respawnTime, npc, null);
 			// also save the respawn time so that the info is maintained past reboots
 			StatsSet info = GrandBossManager.getInstance().getStatsSet(LIVE_BAIUM);
