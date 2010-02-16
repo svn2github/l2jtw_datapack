@@ -7,8 +7,8 @@
 		</cond>
 		<for>
 			<add order="0x10" stat="mDef" val="42" />
-			<add order="0x10" stat="darkRes" val="12" />
-			<add order="0x40" stat="maxMp" val="17" /><!-- Update by rocknow -->
+			<add order="0x40" stat="maxMp" val="17" />
+			<add order="0x40" stat="darkRes" val="12" />
 			<enchant order="0x0C" stat="mDef" val="0" />
 		</for>
 	</item>
@@ -100,8 +100,8 @@
 		</cond>
 		<for>
 			<add order="0x10" stat="mDef" val="63" />
+			<add order="0x40" stat="maxMp" val="25" />
 			<add order="0x40" stat="waterRes" val="8" />
-			<add order="0x40" stat="maxMp" val="25" /><!-- Update by rocknow -->
 			<enchant order="0x0C" stat="mDef" val="0" />
 		</for>
 	</item>
@@ -111,8 +111,8 @@
 		</cond>
 		<for>
 			<add order="0x10" stat="mDef" val="63" />
+			<add order="0x40" stat="maxMp" val="25" />
 			<add order="0x40" stat="holyRes" val="8" />
-			<add order="0x40" stat="maxMp" val="25" /><!-- Update by rocknow -->
 			<enchant order="0x0C" stat="mDef" val="0" />
 		</for>
 	</item>
@@ -122,8 +122,8 @@
 		</cond>
 		<for>
 			<add order="0x10" stat="mDef" val="63" />
+			<add order="0x40" stat="maxMp" val="25" />
 			<add order="0x40" stat="windRes" val="8" />
-			<add order="0x40" stat="maxMp" val="25" /><!-- Update by rocknow -->
 			<enchant order="0x0C" stat="mDef" val="0" />
 		</for>
 	</item>
@@ -133,8 +133,8 @@
 		</cond>
 		<for>
 			<add order="0x10" stat="mDef" val="63" />
+			<add order="0x40" stat="maxMp" val="25" />
 			<add order="0x40" stat="darkRes" val="8" />
-			<add order="0x40" stat="maxMp" val="25" /><!-- Update by rocknow -->
 			<enchant order="0x0C" stat="mDef" val="0" />
 		</for>
 	</item>
@@ -144,8 +144,8 @@
 		</cond>
 		<for>
 			<add order="0x10" stat="mDef" val="63" />
+			<add order="0x40" stat="maxMp" val="25" />
 			<add order="0x40" stat="earthRes" val="8" />
-			<add order="0x40" stat="maxMp" val="25" /><!-- Update by rocknow -->
 			<enchant order="0x0C" stat="mDef" val="0" />
 		</for>
 	</item>
@@ -155,8 +155,8 @@
 		</cond>
 		<for>
 			<add order="0x10" stat="mDef" val="63" />
+			<add order="0x40" stat="maxMp" val="25" />
 			<add order="0x40" stat="waterRes" val="8" />
-			<add order="0x40" stat="maxMp" val="25" /><!-- Update by rocknow -->
 			<enchant order="0x0C" stat="mDef" val="0" />
 		</for>
 	</item>
@@ -166,8 +166,8 @@
 		</cond>
 		<for>
 			<add order="0x10" stat="mDef" val="63" />
+			<add order="0x40" stat="maxMp" val="25" />
 			<add order="0x40" stat="fireRes" val="8" />
-			<add order="0x40" stat="maxMp" val="25" /><!-- Update by rocknow -->
 			<enchant order="0x0C" stat="mDef" val="0" />
 		</for>
 	</item>
@@ -177,8 +177,8 @@
 		</cond>
 		<for>
 			<add order="0x10" stat="mDef" val="63" />
+			<add order="0x40" stat="maxMp" val="25" />
 			<add order="0x40" stat="fireRes" val="8" />
-			<add order="0x40" stat="maxMp" val="25" /><!-- Update by rocknow -->
 			<enchant order="0x0C" stat="mDef" val="0" />
 		</for>
 	</item>
@@ -188,8 +188,8 @@
 		</cond>
 		<for>
 			<add order="0x10" stat="mDef" val="63" />
+			<add order="0x40" stat="maxMp" val="25" />
 			<add order="0x40" stat="windRes" val="8" />
-			<add order="0x40" stat="maxMp" val="25" /><!-- Update by rocknow -->
 			<enchant order="0x0C" stat="mDef" val="0" />
 		</for>
 	</item>

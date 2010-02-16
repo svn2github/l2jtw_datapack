@@ -337,19 +337,19 @@ public class CrystalCaverns extends Quest
 		L2Party party = player.getParty();
 		if (party == null)
 		{
-			player.sendPacket(new SystemMessage(2101));
+			player.sendPacket(new SystemMessage(SystemMessageId.NOT_IN_PARTY_CANT_ENTER));
 			return false;
 		}
 		if (party.getLeader() != player)
 		{
-			player.sendPacket(new SystemMessage(2185));
+			player.sendPacket(new SystemMessage(SystemMessageId.ONLY_PARTY_LEADER_CAN_ENTER));
 			return false;
 		}
 		for (L2PcInstance partyMember : party.getPartyMembers())
 		{
 			if (partyMember.getLevel() < 78)
 			{
-				SystemMessage sm = new SystemMessage(2097);
+				SystemMessage sm = new SystemMessage(SystemMessageId.C1_LEVEL_REQUIREMENT_NOT_SUFFICIENT);
 				sm.addPcName(partyMember);
 				party.broadcastToPartyMembers(sm);
 				return false;
@@ -357,14 +357,14 @@ public class CrystalCaverns extends Quest
 			L2ItemInstance item = partyMember.getInventory().getItemByItemId(CONT_CRYSTAL);
 			if (item == null)
 			{
-				SystemMessage sm = new SystemMessage(2099);
+				SystemMessage sm = new SystemMessage(SystemMessageId.C1_ITEM_REQUIREMENT_NOT_SUFFICIENT);
 				sm.addPcName(partyMember);
 				party.broadcastToPartyMembers(sm);
 				return false;
 			}
 			if (!Util.checkIfInRange(1000, player, partyMember, true))
 			{
-				SystemMessage sm = new SystemMessage(2096);
+				SystemMessage sm = new SystemMessage(SystemMessageId.C1_IS_IN_LOCATION_THAT_CANNOT_BE_ENTERED);
 				sm.addPcName(partyMember);
 				party.broadcastToPartyMembers(sm);
 				return false;
@@ -372,7 +372,7 @@ public class CrystalCaverns extends Quest
 			Long reentertime = InstanceManager.getInstance().getInstanceTime(partyMember.getObjectId(), INSTANCEID);
 			if (System.currentTimeMillis() < reentertime)
 			{
-				SystemMessage sm = new SystemMessage(2100);
+				SystemMessage sm = new SystemMessage(SystemMessageId.C1_MAY_NOT_REENTER_YET);
 				sm.addPcName(partyMember);
 				party.broadcastToPartyMembers(sm);
 				return false;
@@ -388,12 +388,12 @@ public class CrystalCaverns extends Quest
 		L2Party party = player.getParty();
 		if (party == null)
 		{
-			player.sendPacket(new SystemMessage(2100));
+			player.sendPacket(new SystemMessage(SystemMessageId.NOT_IN_PARTY_CANT_ENTER));
 			return false;
 		}
 		if (party.getLeader() != player)
 		{
-			player.sendPacket(new SystemMessage(2185));
+			player.sendPacket(new SystemMessage(SystemMessageId.ONLY_PARTY_LEADER_CAN_ENTER));
 			return false;
 		}
 		for (L2PcInstance partyMember : party.getPartyMembers())
@@ -401,7 +401,14 @@ public class CrystalCaverns extends Quest
 			L2ItemInstance item = partyMember.getInventory().getItemByItemId(RED_CORAL);
 			if (item == null)
 			{
-				SystemMessage sm = new SystemMessage(2099);
+				SystemMessage sm = new SystemMessage(SystemMessageId.C1_ITEM_REQUIREMENT_NOT_SUFFICIENT);
+				sm.addPcName(partyMember);
+				party.broadcastToPartyMembers(sm);
+				return false;
+			}
+			if (!Util.checkIfInRange(1000, player, partyMember, true))
+			{
+				SystemMessage sm = new SystemMessage(SystemMessageId.C1_IS_IN_LOCATION_THAT_CANNOT_BE_ENTERED);
 				sm.addPcName(partyMember);
 				party.broadcastToPartyMembers(sm);
 				return false;
@@ -541,7 +548,7 @@ public class CrystalCaverns extends Quest
 			if (player.getParty() == null)
 			{
 				// this can happen only if debug is true
-				player.sendMessage("Welcome to Crystal Caverns.");
+				//player.sendMessage("Welcome to Crystal Caverns.");
 				InstanceManager.getInstance().setInstanceTime(player.getObjectId(), INSTANCEID, ((System.currentTimeMillis() + INSTANCEPENALTY)));
 				teleportplayer(player,teleto);
 				world.allowed.add(player.getObjectId());
@@ -550,7 +557,7 @@ public class CrystalCaverns extends Quest
 			{
 				for (L2PcInstance partyMember : party.getPartyMembers())
 				{
-					partyMember.sendMessage("Welcome to Crystal Caverns.");
+					//partyMember.sendMessage("Welcome to Crystal Caverns.");
 					InstanceManager.getInstance().setInstanceTime(partyMember.getObjectId(), INSTANCEID, ((System.currentTimeMillis() + INSTANCEPENALTY)));
 					teleportplayer(partyMember,teleto);
 					world.allowed.add(partyMember.getObjectId());
@@ -1219,7 +1226,7 @@ public class CrystalCaverns extends Quest
 				else
 				{
 					if (Rnd.get(100) < 5)
-						npc.broadcastPacket(new CreatureSay(npc.getObjectId(),1,npc.getName(),"ah ... I am so hungry ..."));
+						npc.broadcastPacket(new CreatureSay(npc.getObjectId(),1,npc.getName(),"°Ú~ ¦n¾j~"));
 					startQuestTimer("autoFood",2000,npc,null);
 				}
 				return "";

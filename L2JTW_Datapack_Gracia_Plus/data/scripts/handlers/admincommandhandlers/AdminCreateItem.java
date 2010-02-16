@@ -14,10 +14,12 @@
  */
 package handlers.admincommandhandlers;
 
+import java.util.Collection;
 import java.util.StringTokenizer;
 
 import com.l2jserver.gameserver.datatables.ItemTable;
 import com.l2jserver.gameserver.handler.IAdminCommandHandler;
+import com.l2jserver.gameserver.model.L2World;
 import com.l2jserver.gameserver.model.actor.instance.L2PcInstance;
 import com.l2jserver.gameserver.templates.item.L2Item;
 import com.l2jserver.gameserver.datatables.MessageTable;
@@ -38,7 +40,8 @@ public class AdminCreateItem implements IAdminCommandHandler
 		"admin_itemcreate",
 		"admin_create_item",
 		"admin_create_coin",
-		"admin_give_item_target"
+		"admin_give_item_target",
+		"admin_give_item_to_all"
 	};
 	
 	public boolean useAdminCommand(String command, L2PcInstance activeChar)
@@ -151,6 +154,51 @@ public class AdminCreateItem implements IAdminCommandHandler
 				activeChar.sendMessage(274);
 			}
 			AdminHelpPage.showHelpPage(activeChar, "itemcreation.htm");
+		}
+		else if (command.startsWith("admin_give_item_to_all"))
+		{
+			String val = command.substring(22);
+			StringTokenizer st = new StringTokenizer(val);
+			int idval = 0;
+			long numval = 0;
+			if (st.countTokens() == 2)
+			{
+				String id = st.nextToken();
+				idval = Integer.parseInt(id);
+				String num = st.nextToken();
+				numval = Long.parseLong(num);
+			}
+			else if (st.countTokens() == 1)
+			{
+				String id = st.nextToken();
+				idval = Integer.parseInt(id);
+				numval = 1;
+			}
+			int counter = 0;
+			L2Item template = ItemTable.getInstance().getTemplate(idval);
+			if (template == null)
+			{
+				activeChar.sendMessage("This item doesn't exist.");
+				return false;
+			}
+			if (numval > 10 && !template.isStackable())
+			{
+				activeChar.sendMessage("This item does not stack - Creation aborted.");
+				return false;
+			}
+			Collection<L2PcInstance> pls = L2World.getInstance().getAllPlayers().values();
+			{
+				for (L2PcInstance onlinePlayer : pls)
+				{
+					if (activeChar != onlinePlayer && onlinePlayer.isOnline() == 1 && (onlinePlayer.getClient() != null && !onlinePlayer.getClient().isDetached()))
+					{
+						onlinePlayer.getInventory().addItem("Admin", idval, numval, activeChar, null);
+						onlinePlayer.sendMessage("Admin spawned "+numval+" "+template.getName()+" in your inventory.");
+						counter++;
+					}
+				}
+			}
+			activeChar.sendMessage(counter +" players rewarded with " + template.getName());
 		}
 		return true;
 	}

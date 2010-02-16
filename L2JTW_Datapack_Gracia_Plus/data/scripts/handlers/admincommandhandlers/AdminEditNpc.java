@@ -935,8 +935,6 @@ public class AdminEditNpc implements IAdminCommandHandler
 				newNpcData.set("armor", Integer.parseInt(value));
 			else if (statToSet.equals("enchant")) 
 				newNpcData.set("enchant", Integer.parseInt(value)); 
-			else if (statToSet.equals("walkSpd"))//Update by rocknow
-				newNpcData.set("walkspd", Integer.parseInt(value));//Update by rocknow
 			else if (statToSet.equals("runSpd"))
 				newNpcData.set("runspd", Integer.parseInt(value));
 			else if (statToSet.equals("isUndead"))
@@ -1004,7 +1002,7 @@ public class AdminEditNpc implements IAdminCommandHandler
 							myPage++;
 							i = 0;
 						}
-						break;
+						continue;
 					}
 					if (shown == PAGE_LIMIT)
 					{
