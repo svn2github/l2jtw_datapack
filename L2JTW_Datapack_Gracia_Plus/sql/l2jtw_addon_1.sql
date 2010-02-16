@@ -608,18 +608,14 @@ REPLACE INTO `armor` VALUES
 (20401,'Laborer Hat','','hairall','false','none',10,'wood','none',0,-1,-1,0,0,0,0,0,'true','true','true','true','true','0-0','0-0;'), -- 勤勞者帽子
 (20497,'Mother\'s Wreath - Event Blessing of Love - 24 hours limited period','','hairall','false','none',120,'wood','none',0,-1,1440,0,0,0,0,0,'false','false','true','false','true','0-0','21086-1;'), -- 母親的花環-活動 愛的祝福(限時24小時)
 (20498,'Mother\'s Wreath Blessing of Love - 3 day limited period','','hairall','false','none',120,'wood','none',0,-1,4320,0,0,0,0,0,'false','false','true','false','true','0-0','21086-1;'); -- 母親的花環-活動 愛的祝福(限時3日)
+DELETE FROM `etcitem` WHERE `item_id` IN (20497,20498);
 
 -- 新壺精
 REPLACE INTO `armor` VALUES
 (14776,'Agathion Seal Bracelet - Juju','','lbracelet','false','none',150,'wood','none',0,-1,20160,0,0,0,0,0,'false','false','true','false','true','0-0','8327-1;6136-1;6137-1;3267-1;');
 
 -- 新手鐲
-UPDATE `armor` SET `skill` = '8262-1;' WHERE `item_id` IN (14053,14066);       -- 黃鬃獅子騎乘手鐲
-
--- 新特殊武器
-REPLACE INTO `weapon` VALUES
-(15310,'15310','','rhand','false',150,1,1,'steel','s',7,10,'sword',8,0.00000,0,0,0,379,0,5,-1,-1,0,0,'false','false','true','false','true',0,0,0,0,0,0,0,0,0,'8357-1;'),
-(20600,'20600','','lrhand','false',0,1,1,'steel','none',1,20,'bigblunt',4,4.00000,0,0,0,325,0,1,-1,10080,0,0,'false','false','true','false','true',0,0,0,0,0,0,0,0,0,'21089-1;');
+UPDATE `armor` SET `skill` = '8262-1;' WHERE `item_id` IN (14053,14066); -- 黃鬃獅子騎乘手鐲
 
 -- 新狩獵幫手
 REPLACE INTO `npc` VALUES
@@ -1124,3 +1120,8 @@ REPLACE INTO `etcitem` VALUES
 (20729,'20729','','false','none',10,'stackable','paper','none',-1,-1,0,0,'false','false','true','false','false','ItemSkills','22111-1;'),
 (20730,'20730','','false','none',10,'stackable','paper','none',-1,-1,0,0,'false','false','true','false','false','ItemSkills','22112-1;'),
 (20731,'20731','','false','none',10,'stackable','paper','none',-1,-1,0,0,'false','false','true','false','false','ItemSkills','22113-1;');
+
+-- 新特殊武器
+REPLACE INTO `weapon` VALUES
+(15310,'15310','','rhand','false',150,1,1,'steel','s',7,10,'sword',8,0.00000,0,0,0,379,0,5,-1,-1,0,0,'false','false','true','false','true',0,0,0,0,0,0,0,0,0,'8357-1;'),
+(20600,'20600','','lrhand','false',0,1,1,'steel','none',1,20,'bigblunt',4,4.00000,0,0,0,325,0,1,-1,10080,0,0,'false','false','true','false','true',0,0,0,0,0,0,0,0,0,'21089-1;');
