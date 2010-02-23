@@ -3782,3 +3782,6 @@ INSERT INTO `messagetable` VALUES ('1254', 'cn', '首页', null);
 INSERT INTO `messagetable` VALUES ('1255', 'en', 'Back', null);
 INSERT INTO `messagetable` VALUES ('1255', 'tw', '返回', null);
 INSERT INTO `messagetable` VALUES ('1255', 'cn', '返回', null);
+INSERT INTO `messagetable` VALUES ('1256', 'en', 'Reset', null);
+INSERT INTO `messagetable` VALUES ('1256', 'tw', '重新開始', null);
+INSERT INTO `messagetable` VALUES ('1256', 'cn', '重新开始', null);
