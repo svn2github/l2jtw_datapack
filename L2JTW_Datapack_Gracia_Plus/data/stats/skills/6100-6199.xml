@@ -489,8 +489,19 @@
 		<set name="operateType" val="OP_PASSIVE" />
 	</skill>
 	<skill id="6199" levels="7" name="Tail Strike">
-		<set name="target" val="TARGET_NONE" />
-		<set name="skillType" val="NOTDONE" />
-		<set name="operateType" val="OP_PASSIVE" />
+		<!-- Update by rocknow -->
+		<table name="#mpConsume"> 109 121 131 142 151 159 165 </table>
+		<table name="#power"> 300 400 500 600 700 800 900 </table>
+		<table name="#magicLvl"> 55 60 65 70 75 80 85 </table>
+		<set name="mpConsume" val="#mpConsume" />
+		<set name="power" val="#power" />
+		<set name="magicLvl" val="#magicLvl" />
+		<set name="target" val="TARGET_ONE" />
+		<set name="reuseDelay" val="3000" />
+		<set name="hitTime" val="2000" />
+		<set name="skillType" val="PDAM" />
+		<set name="operateType" val="OP_ACTIVE" />
+		<set name="castRange" val="150" />
+		<set name="effectRange" val="650" />
 	</skill>
 </list>

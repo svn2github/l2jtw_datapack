@@ -4,7 +4,7 @@
 		<!-- For five minutes, the Great Spirit increases M.Atk. by 20%, M.Def. by 20% and casting speed by 20%. Decreases MP cost of skills by 5%. -->
 		<!-- Update by rocknow -->
 		<set name="target" val="TARGET_SELF" />
-		<set name="reuseDelay" val="1800000" />
+		<set name="reuseDelay" val="3600000" />
 		<set name="hitTime" val="2500" />
 		<set name="skillType" val="BUFF" />
 		<set name="operateType" val="OP_ACTIVE" />
@@ -43,7 +43,7 @@
 		<!-- For five minutes, the Great Spirit increases maximum HP by 20%, maximum MP by 20%, moving speed by 20%, and resistance against debuff by 10%. -->
 		<!-- Update by rocknow -->
 		<set name="target" val="TARGET_SELF" />
-		<set name="reuseDelay" val="1800000" />
+		<set name="reuseDelay" val="3600000" />
 		<set name="hitTime" val="2500" />
 		<set name="skillType" val="BUFF" />
 		<set name="operateType" val="OP_ACTIVE" />
@@ -124,7 +124,7 @@
 		<!-- Increase max HP 20%, max MP 20%, Spd. 20% with help of a spirit for 5 minutes. Increase resistance by 10% against debuff. Reuse Delay 1 hour. -->
 		<!-- Update by rocknow -->
 		<set name="target" val="TARGET_SELF" />
-		<set name="reuseDelay" val="1800000" />
+		<set name="reuseDelay" val="3600000" />
 		<set name="hitTime" val="2500" />
 		<set name="skillType" val="BUFF" />
 		<set name="operateType" val="OP_ACTIVE" />
@@ -141,7 +141,7 @@
 		<!-- Increase attack speed by 20%, P. Atk by 10%, P. Def. by 20% with help of a spirit for 5 minutes.  Bestows the ability to recover as HP 5% of the standard short-range physical damage inflicted on the enemy. Reuse Delay 1 hour. -->
 		<!-- Update by rocknow -->
 		<set name="target" val="TARGET_SELF" />
-		<set name="reuseDelay" val="1800000" />
+		<set name="reuseDelay" val="3600000" />
 		<set name="hitTime" val="2500" />
 		<set name="skillType" val="BUFF" />
 		<set name="operateType" val="OP_ACTIVE" />
@@ -158,7 +158,7 @@
 		<!-- Increase Casting Speed by 20%, Magic Power by 20%, Magic Def. by 20% with help of a spirit for 5 minutes.  Reduce consumed MP for skill usage by 5%. Reuse Delay 1 hour. -->
 		<!-- Update by rocknow -->
 		<set name="target" val="TARGET_SELF" />
-		<set name="reuseDelay" val="1800000" />
+		<set name="reuseDelay" val="3600000" />
 		<set name="hitTime" val="2500" />
 		<set name="skillType" val="BUFF" />
 		<set name="operateType" val="OP_ACTIVE" />
@@ -617,9 +617,12 @@
 		<set name="npcId" val="1559" />
 	</skill>
 	<skill id="21152" levels="1" name="Continuous Fireworks">
-		<set name="target" val="TARGET_NONE" />
-		<set name="skillType" val="NOTDONE" />
-		<set name="operateType" val="OP_PASSIVE" />
+		<!-- Update by rocknow -->
+		<set name="target" val="TARGET_SELF" />
+		<set name="skillType" val="DUMMY" />
+		<set name="operateType" val="OP_ACTIVE" />
+		<set name="reuseDelay" val="18000000" />
+		<set name="staticReuse" val="true" />
 	</skill>
 	<skill id="21153" levels="1" name="Blessed Body">
 		<!-- Increases Max HP by 25% for 20 minutes. Reuse Delay 1 hours. -->
