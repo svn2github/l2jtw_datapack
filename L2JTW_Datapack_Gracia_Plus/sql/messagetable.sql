@@ -3776,3 +3776,9 @@ INSERT INTO `messagetable` VALUES ('1252', 'cn', '稍后将在第「$1」竞技�
 INSERT INTO `messagetable` VALUES ('1253', 'en', 'Petition System', null);
 INSERT INTO `messagetable` VALUES ('1253', 'tw', '訴求系統', null);
 INSERT INTO `messagetable` VALUES ('1253', 'cn', '诉求系统', null);
+INSERT INTO `messagetable` VALUES ('1254', 'en', 'Main', null);
+INSERT INTO `messagetable` VALUES ('1254', 'tw', '首頁', null);
+INSERT INTO `messagetable` VALUES ('1254', 'cn', '首页', null);
+INSERT INTO `messagetable` VALUES ('1255', 'en', 'Back', null);
+INSERT INTO `messagetable` VALUES ('1255', 'tw', '返回', null);
+INSERT INTO `messagetable` VALUES ('1255', 'cn', '返回', null);
