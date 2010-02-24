@@ -633,7 +633,7 @@ public class AdminEditNpc implements IAdminCommandHandler
 			if (Config.CUSTOM_MERCHANT_TABLES)
 				table = "custom_merchant_buylists";
 			
-			PreparedStatement stmt = con.prepareStatement("INSERT INTO " + table + "(`item_id`,`price`,`shop_id`,`order`) VALUES (?,?,?,?)");
+			PreparedStatement stmt = con.prepareStatement("INSERT INTO `" + table + "`(`item_id`,`price`,`shop_id`,`order`) VALUES (?,?,?,?)");
 			stmt.setInt(1, itemID);
 			stmt.setLong(2, price);
 			stmt.setInt(3, tradeListID);
@@ -669,7 +669,7 @@ public class AdminEditNpc implements IAdminCommandHandler
 			int updated = 0;
 			if (Config.CUSTOM_MERCHANT_TABLES)
 			{
-				PreparedStatement stmt = con.prepareStatement("UPDATE custom_merchant_buylists SET `price` = ? WHERE `shop_id` = ? AND `order` = ?");
+				PreparedStatement stmt = con.prepareStatement("UPDATE `custom_merchant_buylists` SET `price` = ? WHERE `shop_id` = ? AND `order` = ?");
 				stmt.setLong(1, price);
 				stmt.setInt(2, tradeListID);
 				stmt.setInt(3, order);
@@ -678,7 +678,7 @@ public class AdminEditNpc implements IAdminCommandHandler
 			}
 			if (updated == 0)
 			{
-				PreparedStatement stmt = con.prepareStatement("UPDATE merchant_buylists SET `price` = ? WHERE `shop_id` = ? AND `order` = ?");
+				PreparedStatement stmt = con.prepareStatement("UPDATE `merchant_buylists` SET `price` = ? WHERE `shop_id` = ? AND `order` = ?");
 				stmt.setLong(1, price);
 				stmt.setInt(2, tradeListID);
 				stmt.setInt(3, order);
@@ -712,7 +712,7 @@ public class AdminEditNpc implements IAdminCommandHandler
 			int updated = 0;
 			if (Config.CUSTOM_MERCHANT_TABLES)
 			{
-				PreparedStatement stmt = con.prepareStatement("DELETE FROM custom_merchant_buylists WHERE `shop_id` = ? AND `order` = ?");
+				PreparedStatement stmt = con.prepareStatement("DELETE FROM `custom_merchant_buylists` WHERE `shop_id` = ? AND `order` = ?");
 				stmt.setInt(1, tradeListID);
 				stmt.setInt(2, order);
 				updated = stmt.executeUpdate();
@@ -720,7 +720,7 @@ public class AdminEditNpc implements IAdminCommandHandler
 			}
 			if (updated == 0)
 			{
-				PreparedStatement stmt = con.prepareStatement("DELETE FROM merchant_buylists WHERE `shop_id` = ? AND `order` = ?");
+				PreparedStatement stmt = con.prepareStatement("DELETE FROM `merchant_buylists` WHERE `shop_id` = ? AND `order` = ?");
 				stmt.setInt(1, tradeListID);
 				stmt.setInt(2, order);
 				updated = stmt.executeUpdate();
@@ -750,7 +750,7 @@ public class AdminEditNpc implements IAdminCommandHandler
 		try
 		{
 			con = L2DatabaseFactory.getInstance().getConnection();
-			PreparedStatement stmt = con.prepareStatement("SELECT order FROM merchant_buylists WHERE `shop_id` = ? AND `item_id` = ? AND `price` = ?");
+			PreparedStatement stmt = con.prepareStatement("SELECT `order` FROM `merchant_buylists` WHERE `shop_id` = ? AND `item_id` = ? AND `price` = ?");
 			stmt.setInt(1, tradeListID);
 			stmt.setInt(2, itemID);
 			stmt.setLong(3, price);
@@ -1191,7 +1191,7 @@ public class AdminEditNpc implements IAdminCommandHandler
 			int updated = 0;
 			if (Config.CUSTOM_DROPLIST_TABLE)
 			{
-				PreparedStatement statement = con.prepareStatement("UPDATE custom_droplist SET min=?, max=?, chance=? WHERE mobId=? AND itemId=? AND category=?");
+				PreparedStatement statement = con.prepareStatement("UPDATE `custom_droplist` SET `min`=?, `max`=?, `chance`=? WHERE `mobId`=? AND `itemId`=? AND `category`=?");
 				statement.setInt(1, min);
 				statement.setInt(2, max);
 				statement.setInt(3, chance);
@@ -1204,7 +1204,7 @@ public class AdminEditNpc implements IAdminCommandHandler
 			}
 			if (updated == 0)
 			{
-				PreparedStatement statement = con.prepareStatement("UPDATE droplist SET min=?, max=?, chance=? WHERE mobId=? AND itemId=? AND category=?");
+				PreparedStatement statement = con.prepareStatement("UPDATE `droplist` SET `min`=?, `max`=?, `chance`=? WHERE `mobId`=? AND `itemId`=? AND `category`=?");
 				statement.setInt(1, min);
 				statement.setInt(2, max);
 				statement.setInt(3, chance);
@@ -1250,7 +1250,7 @@ public class AdminEditNpc implements IAdminCommandHandler
 			if (Config.CUSTOM_DROPLIST_TABLE)
 				table = "custom_droplist";
 			
-			PreparedStatement statement = con.prepareStatement("INSERT INTO " + table + "(mobId, itemId, min, max, category, chance) values(?,?,?,?,?,?)");
+			PreparedStatement statement = con.prepareStatement("INSERT INTO `" + table + "`(`mobId`, `itemId`, `min`, `max`, `category`, `chance`) VALUES(?,?,?,?,?,?)");
 			statement.setInt(1, npcId);
 			statement.setInt(2, itemId);
 			statement.setInt(3, min);
@@ -1319,7 +1319,7 @@ public class AdminEditNpc implements IAdminCommandHandler
 			int updated = 0;
 			if (Config.CUSTOM_DROPLIST_TABLE)
 			{
-				PreparedStatement statement = con.prepareStatement("DELETE FROM custom_droplist WHERE mobId=? AND itemId=? AND category=?");
+				PreparedStatement statement = con.prepareStatement("DELETE FROM `custom_droplist` WHERE `mobId`=? AND `itemId`=? AND `category`=?");
 				statement.setInt(1, npcId);
 				statement.setInt(2, itemId);
 				statement.setInt(3, category);
@@ -1328,7 +1328,7 @@ public class AdminEditNpc implements IAdminCommandHandler
 			}
 			if (updated == 0)
 			{
-				PreparedStatement statement = con.prepareStatement("DELETE FROM droplist WHERE mobId=? AND itemId=? AND category=?");
+				PreparedStatement statement = con.prepareStatement("DELETE FROM `droplist` WHERE `mobId`=? AND `itemId`=? AND `category`=?");
 				statement.setInt(1, npcId);
 				statement.setInt(2, itemId);
 				statement.setInt(3, category);
@@ -1375,7 +1375,7 @@ public class AdminEditNpc implements IAdminCommandHandler
 			con = L2DatabaseFactory.getInstance().getConnection();
 			L2DropData dropData = null;
 			
-			PreparedStatement statement = con.prepareStatement("SELECT mobId, itemId, min, max, category, chance FROM droplist WHERE mobId=?");
+			PreparedStatement statement = con.prepareStatement("SELECT `mobId`, `itemId`, `min`, `max`, `category`, `chance` FROM `droplist` WHERE `mobId`=?");
 			statement.setInt(1, npcId);
 			ResultSet dropDataList = statement.executeQuery();
 			
@@ -1396,7 +1396,7 @@ public class AdminEditNpc implements IAdminCommandHandler
 			
 			if (Config.CUSTOM_DROPLIST_TABLE)
 			{
-				PreparedStatement statement2 = con.prepareStatement("SELECT mobId, itemId, min, max, category, chance FROM custom_droplist WHERE mobId=?");
+				PreparedStatement statement2 = con.prepareStatement("SELECT `mobId`, `itemId`, `min`, `max`, `category`, `chance` FROM `custom_droplist` WHERE `mobId`=?");
 				statement2.setInt(1, npcId);
 				ResultSet dropDataList2 = statement2.executeQuery();
 				
@@ -1606,7 +1606,7 @@ public class AdminEditNpc implements IAdminCommandHandler
 			
 			con = L2DatabaseFactory.getInstance().getConnection();
 			
-			PreparedStatement statement = con.prepareStatement("UPDATE npcskills SET level=? WHERE npcid=? AND skillid=?");
+			PreparedStatement statement = con.prepareStatement("UPDATE `npcskills` SET `level`=? WHERE `npcid`=? AND `skillid`=?");
 			statement.setInt(1, level);
 			statement.setInt(2, npcId);
 			statement.setInt(3, skillId);
@@ -1671,7 +1671,7 @@ public class AdminEditNpc implements IAdminCommandHandler
 			
 			con = L2DatabaseFactory.getInstance().getConnection();
 			
-			PreparedStatement statement = con.prepareStatement("INSERT INTO npcskills(npcid, skillid, level) values(?,?,?)");
+			PreparedStatement statement = con.prepareStatement("INSERT INTO `npcskills`(`npcid`, `skillid`, `level`) VALUES(?,?,?)");
 			statement.setInt(1, npcId);
 			statement.setInt(2, skillId);
 			statement.setInt(3, level);
@@ -1709,7 +1709,7 @@ public class AdminEditNpc implements IAdminCommandHandler
 			
 			if (npcId > 0)
 			{
-				PreparedStatement statement2 = con.prepareStatement("DELETE FROM npcskills WHERE npcid=? AND skillid=?");
+				PreparedStatement statement2 = con.prepareStatement("DELETE FROM `npcskills` WHERE `npcid`=? AND `skillid`=?");
 				statement2.setInt(1, npcId);
 				statement2.setInt(2, skillId);
 				statement2.execute();
@@ -1751,7 +1751,7 @@ public class AdminEditNpc implements IAdminCommandHandler
 				npcData.getSkills().clear();
 			
 			// without race
-			PreparedStatement statement = con.prepareStatement("SELECT skillid, level FROM npcskills WHERE npcid=? AND skillid <> 4416");
+			PreparedStatement statement = con.prepareStatement("SELECT `skillid`, `level` FROM `npcskills` WHERE `npcid`=? AND `skillid` <> 4416");
 			statement.setInt(1, npcId);
 			ResultSet skillDataList = statement.executeQuery();
 			

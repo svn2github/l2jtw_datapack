@@ -1071,17 +1071,17 @@ public class CrystalCaverns extends Quest
 			}
 			else if (event.equalsIgnoreCase("baylorCamera0"))
 			{
-				npc.broadcastPacket(new SpecialCamera(npc.getObjectId(),500,-45,170,5000,9000));
+				npc.broadcastPacket(new SpecialCamera(npc.getObjectId(),500,-45,170,5000,9000,0,0,1,0));
 			}
 			else if (event.equalsIgnoreCase("baylorEffect1"))
 			{
-				npc.broadcastPacket(new SpecialCamera(npc.getObjectId(),300,0,120,2000,5000));
+				npc.broadcastPacket(new SpecialCamera(npc.getObjectId(),300,0,120,2000,5000,0,0,1,0));
 				npc.broadcastPacket(new SocialAction(npc.getObjectId(),3));
 				startQuestTimer("baylorEffect2",4000, npc, null);
 			}
 			else if (event.equalsIgnoreCase("baylorEffect2"))
 			{
-				npc.broadcastPacket(new SpecialCamera(npc.getObjectId(),747,0,160,2000,3000));
+				npc.broadcastPacket(new SpecialCamera(npc.getObjectId(),747,0,160,2000,3000,0,0,1,0));
 				npc.broadcastPacket(new MagicSkillUse(npc, npc, 5402, 1, 2000, 0));
 				startQuestTimer("RaidStart",2000, npc, null);
 			}
@@ -1161,12 +1161,12 @@ public class CrystalCaverns extends Quest
 						if (nowHp < maxHp * 0.15 && world._raidStatus == 2)
 						{
 							npc.doCast(SkillTable.getInstance().getInfo(5225, 1));
-							npc.broadcastPacket(new CreatureSay(npc.getObjectId(),1,npc.getName(),"Demons King Beleth, give me power! Aaaaa!!!"));
+							npc.broadcastPacket(new CreatureSay(npc.getObjectId(),1,npc.getName(),"啊啊啊！惡魔之王巴列斯～請賜給我更強大的力量吧！"));
 						}
 						else if (rand < 10 || nowHp < maxHp * 0.15)
 						{
 							npc.doCast(SkillTable.getInstance().getInfo(5225, 1));
-							npc.broadcastPacket(new CreatureSay(npc.getObjectId(),1,npc.getName(),"Demons King Beleth, give me power! Aaaaa!!!"));
+							npc.broadcastPacket(new CreatureSay(npc.getObjectId(),1,npc.getName(),"啊啊啊！惡魔之王巴列斯～請賜給我更強大的力量吧！"));
 							startQuestTimer("baylor_remove_invul",30000, world._baylor, null);
 						}
 					}
@@ -1190,7 +1190,7 @@ public class CrystalCaverns extends Quest
 				world._baylor = addSpawn(29099,153572,142075,-12738,10800,false,0,false,world.instanceId);
 				world._baylor.setIsParalyzed(true);
 				world._camera = addSpawn(29120,153273,141400,-12738,10800,false,0,false,world.instanceId);
-				world._camera.broadcastPacket(new SpecialCamera(world._camera.getObjectId(),700,-45,160,500,15200));
+				world._camera.broadcastPacket(new SpecialCamera(world._camera.getObjectId(),700,-45,160,500,15200,0,0,1,0));
 				startQuestTimer("baylorMinions",2000, world._baylor, null);
 			}
 			else if (!event.endsWith("Food"))
