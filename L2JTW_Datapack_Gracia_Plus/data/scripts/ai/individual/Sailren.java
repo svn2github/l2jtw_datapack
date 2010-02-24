@@ -102,7 +102,7 @@ public class Sailren extends L2AttackableAIScript
 			npc.setIsParalyzed(true);
 			npc.setIsImmobilized(true);
 			this.startQuestTimer("camera_1", 2000, npc, null);
-			npc.broadcastPacket(new SpecialCamera(npc.getObjectId(),300,0,32,2000,11000));
+			npc.broadcastPacket(new SpecialCamera(npc.getObjectId(),300,0,32,2000,11000,0,0,1,0));
 		}
 		else if (event.equalsIgnoreCase("action_1"))
 		{
@@ -116,7 +116,7 @@ public class Sailren extends L2AttackableAIScript
 			npc.doCast(SkillTable.getInstance().getInfo(5118,1));
 			npc.setIsParalyzed(true);
 			this.startQuestTimer("camera_2", 4000, npc, null);
-			npc.broadcastPacket(new SpecialCamera(npc.getObjectId(),300,90,24,4000,11000));
+			npc.broadcastPacket(new SpecialCamera(npc.getObjectId(),300,90,24,4000,11000,0,0,1,0));
 		}
 		else if (event.equalsIgnoreCase("camera_2"))
 		{
@@ -125,7 +125,7 @@ public class Sailren extends L2AttackableAIScript
 			npc.doCast(SkillTable.getInstance().getInfo(5118,1));
 			npc.setIsParalyzed(true);
 			this.startQuestTimer("camera_3", 4000, npc, null);
-			npc.broadcastPacket(new SpecialCamera(npc.getObjectId(),300,160,16,4000,11000));
+			npc.broadcastPacket(new SpecialCamera(npc.getObjectId(),300,160,16,4000,11000,0,0,1,0));
 		}
 		else if (event.equalsIgnoreCase("camera_3"))
 		{
@@ -134,7 +134,7 @@ public class Sailren extends L2AttackableAIScript
 			npc.doCast(SkillTable.getInstance().getInfo(5118,1));
 			npc.setIsParalyzed(true);
 			this.startQuestTimer("camera_4", 4000, npc, null);
-			npc.broadcastPacket(new SpecialCamera(npc.getObjectId(),300,250,8,4000,11000));
+			npc.broadcastPacket(new SpecialCamera(npc.getObjectId(),300,250,8,4000,11000,0,0,1,0));
 		}
 		else if (event.equalsIgnoreCase("camera_4"))
 		{
@@ -143,7 +143,7 @@ public class Sailren extends L2AttackableAIScript
 			npc.doCast(SkillTable.getInstance().getInfo(5118,1));
 			npc.setIsParalyzed(true);
 			this.startQuestTimer("camera_5", 4000, npc, null);
-			npc.broadcastPacket(new SpecialCamera(npc.getObjectId(),300,340,0,4000,11000));
+			npc.broadcastPacket(new SpecialCamera(npc.getObjectId(),300,340,0,4000,11000,0,0,1,0));
 		}
 		else if (event.equalsIgnoreCase("camera_5"))
 		{

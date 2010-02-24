@@ -121,28 +121,28 @@ public class Antharas extends L2AttackableAIScript
 		{
 			npc.broadcastPacket(new SocialAction(npc.getObjectId(),1));
 			this.startQuestTimer("camera_2", 3000, npc, null);
-			npc.broadcastPacket(new SpecialCamera(npc.getObjectId(),700,13,-19,0,10000));
+			npc.broadcastPacket(new SpecialCamera(npc.getObjectId(),700,13,-19,0,10000,0,0,1,0));
 		}
 		else if (event.equalsIgnoreCase("camera_2"))
 		{
 			this.startQuestTimer("camera_3", 10000, npc, null);
-			npc.broadcastPacket(new SpecialCamera(npc.getObjectId(),700,13,0,6000,10000));
+			npc.broadcastPacket(new SpecialCamera(npc.getObjectId(),700,13,0,6000,10000,0,0,1,0));
 		}
 		else if (event.equalsIgnoreCase("camera_3"))
 		{
 			this.startQuestTimer("camera_4", 200, npc, null);
-			npc.broadcastPacket(new SpecialCamera(npc.getObjectId(),3800,0,0,0,10000));
+			npc.broadcastPacket(new SpecialCamera(npc.getObjectId(),3800,0,0,0,10000,0,0,1,0));
 		}
 		else if (event.equalsIgnoreCase("camera_4"))
 		{
 			npc.broadcastPacket(new SocialAction(npc.getObjectId(),2));
 			this.startQuestTimer("camera_5", 10800, npc, null);
-			npc.broadcastPacket(new SpecialCamera(npc.getObjectId(),1200,0,0,22000,11000));
+			npc.broadcastPacket(new SpecialCamera(npc.getObjectId(),1200,0,0,22000,11000,0,0,1,0));
 		}
 		else if (event.equalsIgnoreCase("camera_5"))
 		{
 			this.startQuestTimer("camera_6", 1900, npc, null);
-			npc.broadcastPacket(new SpecialCamera(npc.getObjectId(),1200,0,0,300,2000));
+			npc.broadcastPacket(new SpecialCamera(npc.getObjectId(),1200,0,0,300,2000,0,0,1,0));
 		}
 		else if (event.equalsIgnoreCase("camera_6"))
 		{

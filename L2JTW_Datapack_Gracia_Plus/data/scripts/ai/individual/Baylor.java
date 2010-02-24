@@ -120,76 +120,76 @@ public class Baylor extends L2AttackableAIScript
 		else if (event.equalsIgnoreCase("camera_1"))
 		{
 			this.startQuestTimer("camera_2", 2000, npc, null);
-			npc.broadcastPacket(new SpecialCamera(npc.getObjectId(),260,55,7,2000,3000));
+			npc.broadcastPacket(new SpecialCamera(npc.getObjectId(),260,55,7,2000,3000,0,0,1,0));
 		}
 		else if (event.equalsIgnoreCase("camera_2"))
 		{
 			this.startQuestTimer("camera_3", 2000, npc, null);
-			npc.broadcastPacket(new SpecialCamera(npc.getObjectId(),260,325,6,2000,3000));
+			npc.broadcastPacket(new SpecialCamera(npc.getObjectId(),260,325,6,2000,3000,0,0,1,0));
 		}
 		else if (event.equalsIgnoreCase("camera_3"))
 		{
 			this.startQuestTimer("camera_4", 2000, npc, null);
-			npc.broadcastPacket(new SpecialCamera(npc.getObjectId(),260,235,5,2000,3000));
+			npc.broadcastPacket(new SpecialCamera(npc.getObjectId(),260,235,5,2000,3000,0,0,1,0));
 		}
 		else if (event.equalsIgnoreCase("camera_4"))
 		{
 			this.startQuestTimer("spawn00", 500, npc, null);
 			this.startQuestTimer("camera_5", 2000, npc, null);
-			npc.broadcastPacket(new SpecialCamera(npc.getObjectId(),340,145,4,2000,3000));
+			npc.broadcastPacket(new SpecialCamera(npc.getObjectId(),340,145,4,2000,3000,0,0,1,0));
 		}
 		else if (event.equalsIgnoreCase("camera_5"))
 		{
 			this.startQuestTimer("camera_6", 2000, npc, null);
-			npc.broadcastPacket(new SpecialCamera(npc.getObjectId(),340,55,4,2000,3000));
+			npc.broadcastPacket(new SpecialCamera(npc.getObjectId(),340,55,4,2000,3000,0,0,1,0));
 		}
 		else if (event.equalsIgnoreCase("camera_6"))
 		{
 			this.startQuestTimer("camera_7", 2000, npc, null);
-			npc.broadcastPacket(new SpecialCamera(npc.getObjectId(),700,55,30,2000,3000));
+			npc.broadcastPacket(new SpecialCamera(npc.getObjectId(),700,55,30,2000,3000,0,0,1,0));
 		}
 		else if (event.equalsIgnoreCase("camera_7"))
 		{
 			L2Npc mob = addSpawn(29108,153021,142364,-12737,60025,false,0,false,_InstanceId);
 			this.startQuestTimer("camera_8", 500, mob, null);
 			this.startQuestTimer("waiting_boss", 1500, mob, null);
-			npc.broadcastPacket(new SpecialCamera(npc.getObjectId(),80,55,30,500,550));
+			npc.broadcastPacket(new SpecialCamera(npc.getObjectId(),80,55,30,500,550,0,0,1,0));
 			npc.deleteMe();
 		}
 		else if (event.equalsIgnoreCase("camera_8"))
 		{
 			this.startQuestTimer("camera_9", 0, npc, null);
-			npc.broadcastPacket(new SpecialCamera(npc.getObjectId(),0,209,0,0,100));
+			npc.broadcastPacket(new SpecialCamera(npc.getObjectId(),0,209,0,0,100,0,0,1,0));
 		}
 		else if (event.equalsIgnoreCase("camera_9"))
 		{
 			this.startQuestTimer("camera_10", 12500, npc, null);
-			npc.broadcastPacket(new SpecialCamera(npc.getObjectId(),90,209,0,12500,13000));
+			npc.broadcastPacket(new SpecialCamera(npc.getObjectId(),90,209,0,12500,13000,0,0,1,0));
 		}
 		else if (event.equalsIgnoreCase("camera_10"))
 		{
 			this.startQuestTimer("camera_11", 1000, npc, null);
-			npc.broadcastPacket(new SpecialCamera(npc.getObjectId(),630,209,18,1000,2500));
+			npc.broadcastPacket(new SpecialCamera(npc.getObjectId(),630,209,18,1000,2500,0,0,1,0));
 		}
 		else if (event.equalsIgnoreCase("camera_11"))
 		{
 			this.startQuestTimer("camera_12", 6000, npc, null);
-			npc.broadcastPacket(new SpecialCamera(npc.getObjectId(),630,209,0,1000,6500));
+			npc.broadcastPacket(new SpecialCamera(npc.getObjectId(),630,209,0,1000,6500,0,0,1,0));
 		}
 		else if (event.equalsIgnoreCase("camera_12"))
 		{
 			this.startQuestTimer("camera_13", 1000, npc, null);
-			npc.broadcastPacket(new SpecialCamera(npc.getObjectId(),1200,209,3,0,1500));
+			npc.broadcastPacket(new SpecialCamera(npc.getObjectId(),1200,209,3,0,1500,0,0,1,0));
 		}
 		else if (event.equalsIgnoreCase("camera_13"))
 		{
 			this.startQuestTimer("camera_14", 2000, npc, null);
-			npc.broadcastPacket(new SpecialCamera(npc.getObjectId(),630,209,0,1500,2500));
+			npc.broadcastPacket(new SpecialCamera(npc.getObjectId(),630,209,0,1500,2500,0,0,1,0));
 		}
 		else if (event.equalsIgnoreCase("camera_14"))
 		{
 			this.startQuestTimer("camera_15", 5000, npc, null);
-			npc.broadcastPacket(new SpecialCamera(npc.getObjectId(),1200,209,7,0,6000));
+			npc.broadcastPacket(new SpecialCamera(npc.getObjectId(),1200,209,7,0,6000,0,0,1,0));
 		}
 		else if (event.equalsIgnoreCase("camera_15"))
 		{

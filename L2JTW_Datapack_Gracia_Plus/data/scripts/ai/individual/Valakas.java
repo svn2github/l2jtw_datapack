@@ -89,8 +89,7 @@ public class Valakas extends L2AttackableAIScript
 			valakas.setIsParalyzed(true);
 			valakas.setIsImmobilized(true);
 			this.startQuestTimer("social", 100, valakas, null);
-			this.startQuestTimer("camera", 1500, valakas, null);
-			valakas.broadcastPacket(new SpecialCamera(npc.getObjectId(),1800,180,-1,1500,15000));
+			this.startQuestTimer("camera", 1600, valakas, null);
 		}
 		else if (event.equalsIgnoreCase("skillcycle"))
 		{
@@ -109,51 +108,52 @@ public class Valakas extends L2AttackableAIScript
 		else if (event.equalsIgnoreCase("social"))
 		{
 			npc.broadcastPacket(new SocialAction(npc.getObjectId(),3));
+			npc.broadcastPacket(new SpecialCamera(npc.getObjectId(),1800,180,-1,1500,15000,0,0,1,0));
 		}
 		else if (event.equalsIgnoreCase("camera"))
 		{
 			this.startQuestTimer("camera_02", 3300, npc, null);
-			npc.broadcastPacket(new SpecialCamera(npc.getObjectId(),1300,180,-5,3000,15000));
+			npc.broadcastPacket(new SpecialCamera(npc.getObjectId(),1300,180,-5,3000,15000,0,0,1,0));
 		}
 		else if (event.equalsIgnoreCase("camera_02"))
 		{
 			this.startQuestTimer("camera_03", 1300, npc, null);
-			npc.broadcastPacket(new SpecialCamera(npc.getObjectId(),500,180,-8,600,15000));
+			npc.broadcastPacket(new SpecialCamera(npc.getObjectId(),500,180,-8,600,15000,0,0,1,0));
 		}
 		else if (event.equalsIgnoreCase("camera_03"))
 		{
 			this.startQuestTimer("camera_04", 1600, npc, null);
-			npc.broadcastPacket(new SpecialCamera(npc.getObjectId(),1200,180,-5,300,15000));
+			npc.broadcastPacket(new SpecialCamera(npc.getObjectId(),1200,180,-5,300,15000,0,0,1,0));
 		}
 		else if (event.equalsIgnoreCase("camera_04"))
 		{
 			this.startQuestTimer("camera_05", 200, npc, null);
-			npc.broadcastPacket(new SpecialCamera(npc.getObjectId(),2800,250,70,0,15000));
+			npc.broadcastPacket(new SpecialCamera(npc.getObjectId(),2800,250,70,0,15000,0,0,1,0));
 		}
 		else if (event.equalsIgnoreCase("camera_05"))
 		{
 			this.startQuestTimer("camera_06", 5700, npc, null);
-			npc.broadcastPacket(new SpecialCamera(npc.getObjectId(),2600,30,60,3400,15000));
+			npc.broadcastPacket(new SpecialCamera(npc.getObjectId(),2600,30,60,3400,15000,0,0,1,0));
 		}
 		else if (event.equalsIgnoreCase("camera_06"))
 		{
 			this.startQuestTimer("camera_07", 1400, npc, null);
-			npc.broadcastPacket(new SpecialCamera(npc.getObjectId(),700,150,-65,0,15000));
+			npc.broadcastPacket(new SpecialCamera(npc.getObjectId(),700,150,-65,0,15000,0,0,1,0));
 		}
 		else if (event.equalsIgnoreCase("camera_07"))
 		{
 			this.startQuestTimer("camera_08", 6700, npc, null);
-			npc.broadcastPacket(new SpecialCamera(npc.getObjectId(),1200,150,-55,2900,15000));
+			npc.broadcastPacket(new SpecialCamera(npc.getObjectId(),1200,150,-55,2900,15000,0,0,1,0));
 		}
 		else if (event.equalsIgnoreCase("camera_08"))
 		{
 			this.startQuestTimer("camera_09", 3700, npc, null);
-			npc.broadcastPacket(new SpecialCamera(npc.getObjectId(),750,170,-10,1700,5700));
+			npc.broadcastPacket(new SpecialCamera(npc.getObjectId(),750,170,-10,1700,5700,0,0,1,0));
 		}
 		else if (event.equalsIgnoreCase("camera_09"))
 		{
 			this.startQuestTimer("camera_10", 2000, npc, null);
-			npc.broadcastPacket(new SpecialCamera(npc.getObjectId(),840,170,0,1200,2000));
+			npc.broadcastPacket(new SpecialCamera(npc.getObjectId(),840,170,0,1200,2000,0,0,1,0));
 		}
 		else if (event.equalsIgnoreCase("camera_10"))
 		{
@@ -168,36 +168,36 @@ public class Valakas extends L2AttackableAIScript
 		else if (event.equalsIgnoreCase("die_camera"))
 		{
 			this.startQuestTimer("die_camera_02", 3500, npc, null);
-			npc.broadcastPacket(new SpecialCamera(npc.getObjectId(),210,-5,3000,15000,10000));
+			npc.broadcastPacket(new SpecialCamera(npc.getObjectId(),1100,210,-5,3000,10000,-13,0,1,1));
 		}
 		else if (event.equalsIgnoreCase("die_camera_02"))
 		{
 			this.startQuestTimer("die_camera_03", 4500, npc, null);
-			npc.broadcastPacket(new SpecialCamera(npc.getObjectId(),200,-8,3000,15000,10000));
+			npc.broadcastPacket(new SpecialCamera(npc.getObjectId(),1300,200,-8,3000,10000,0,15,1,1));
 		}
 		else if (event.equalsIgnoreCase("die_camera_03"))
 		{
 			this.startQuestTimer("die_camera_04", 500, npc, null);
-			npc.broadcastPacket(new SpecialCamera(npc.getObjectId(),190,0,500,15000,10000));
+			npc.broadcastPacket(new SpecialCamera(npc.getObjectId(),1000,190,0,3000,10000,0,10,1,1));
 		}
 		else if (event.equalsIgnoreCase("die_camera_04"))
 		{
 			this.startQuestTimer("die_camera_05", 4600, npc, null);
-			npc.broadcastPacket(new SpecialCamera(npc.getObjectId(),120,0,2500,15000,10000));
+			npc.broadcastPacket(new SpecialCamera(npc.getObjectId(),1700,120,0,2500,10000,12,40,1,1));
 		}
 		else if (event.equalsIgnoreCase("die_camera_05"))
 		{
 			this.startQuestTimer("die_camera_06", 750, npc, null);
-			npc.broadcastPacket(new SpecialCamera(npc.getObjectId(),20,0,700,15000,10000));
+			npc.broadcastPacket(new SpecialCamera(npc.getObjectId(),1700,20,0,3000,10000,10,10,1,1));
 		}
 		else if (event.equalsIgnoreCase("die_camera_06"))
 		{
 			this.startQuestTimer("die_camera_07", 2500, npc, null);
-			npc.broadcastPacket(new SpecialCamera(npc.getObjectId(),10,0,1000,15000,10000));
+			npc.broadcastPacket(new SpecialCamera(npc.getObjectId(),1700,10,0,3000,10000,20,70,1,1));
 		}
 		else if (event.equalsIgnoreCase("die_camera_07"))
 		{
-			npc.broadcastPacket(new SpecialCamera(npc.getObjectId(),10,0,300,15000,250));
+			npc.broadcastPacket(new SpecialCamera(npc.getObjectId(),1700,10,0,3000,250,20,-20,1,1));
 		}
 		else if (event.equalsIgnoreCase("skill_hp"))
 		{
@@ -310,10 +310,11 @@ public class Valakas extends L2AttackableAIScript
 	{ 
 		if (npc.getNpcId() == VALAKAS && GrandBossManager.getInstance().getBossStatus(VALAKAS) == FIGHTING)
 		{
+			npc.broadcastPacket(new SpecialCamera(npc.getObjectId(),1700,2000,130,-1,0,10000,-20,1,1));
 			npc.broadcastPacket(new PlaySound(1, "B03_D", 1, npc.getObjectId(), npc.getX(), npc.getY(), npc.getZ()));
 			this.cancelQuestTimer("loc_check", npc, null);
 			this.cancelQuestTimer("valakas_despawn", npc, null);
-			this.startQuestTimer("die_camera", 0, npc, null);
+			this.startQuestTimer("die_camera", 500, npc, null);
 			this.startQuestTimer("spawn_cubes", 20000, npc, null);
 			this.startQuestTimer("remove_players", 900000, npc, null);
 			GrandBossManager.getInstance().setBossStatus(VALAKAS,DEAD);
