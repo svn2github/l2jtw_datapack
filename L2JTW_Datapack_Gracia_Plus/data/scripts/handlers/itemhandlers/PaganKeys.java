@@ -191,26 +191,6 @@ public class PaganKeys implements IItemHandler
 					activeChar.sendMessage(148);
 				}
 				break;
-			case 9694: //Update by rocknow
-				if (door.getDoorId() == 24220001 || door.getDoorId() == 24220002 || door.getDoorId() == 24220003 || door.getDoorId() == 24220004 || door.getDoorId() == 24220007)
-				{
-					door.openMe();
-				}
-				else
-				{
-					activeChar.sendMessage(148);
-				}
-				break;
-			case 10015: //Update by rocknow
-				if (door.getDoorId() == 24220008 || door.getDoorId() == 2422009 || door.getDoorId() == 24220010 || door.getDoorId() == 24220011 || door.getDoorId() == 24220012 || door.getDoorId() == 24220014 || door.getDoorId() == 24220015 || door.getDoorId() == 24220016 || door.getDoorId() == 24220017 || door.getDoorId() == 24220019)
-				{
-					door.openMe();
-				}
-				else
-				{
-					activeChar.sendMessage(148);
-				}
-				break;
 		}
 	}
 }

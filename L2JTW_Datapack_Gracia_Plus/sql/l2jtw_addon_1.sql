@@ -1,6 +1,6 @@
 /************ Made in Taiwan ************/
 
-/************ 刪除自定 NPC ************/
+/************ 刪除自定NPC ************/
 DELETE FROM `spawnlist` WHERE `id` > 820000 AND `id` < 880000;
 
 
@@ -199,7 +199,6 @@ UPDATE `npc` SET `type` = 'L2VillageMaster' WHERE `id` IN (32191); -- 修正漢娜琳
 UPDATE `npc` SET `type` = 'L2Adventurer' WHERE `id` IN (32074); -- 修正古魯丁分會長的NPC類型
 UPDATE `npc` SET `type` = 'L2Npc', `collision_radius` = '9', `collision_height` = '16.5', `rhand` = '0' WHERE `id` IN (35417,35418); -- 修正地獄守門人
 UPDATE `spawnlist` SET `npc_templateid` = '35440' WHERE `id` = 33771; -- 修正NPC ID:丹尼爾(根據地守門人)
-UPDATE `custom_npc` SET `rhand` = '316' WHERE `id` IN (50007); -- 結婚管理員
 DELETE FROM `spawnlist` WHERE `npc_templateid` IN (30880,30881,30882,30883,30884,30885,30886,30887,30888,30889); -- 刪除不存在的NPC
 UPDATE `droplist` SET `mobId` = '21070' WHERE `mobId` IN (21071); -- 封印大天使
 
@@ -282,7 +281,24 @@ REPLACE INTO `teleport` VALUES
 ('Underground Coliseum -> Underground Coliseum LV70', '3249170', '-77586', '-50503', '-10728', '0', '0'),
 ('Underground Coliseum -> Underground Coliseum LV00', '3249100', '-79309', '-45561', '-10728', '0', '0');
 
+-- 加入地獄邊界的NPC (感謝 pmq 提供)
+REPLACE INTO spawnlist VALUES
+('850001', '', 1, 18466, 4681, 243922, -1930, 0, 0, 37373, 10, 0, 0),    -- 外廓警衛隊長
+('850002', '', 1, 22326, -23961, 245615, -3138, 0, 0, 129600, 10, 0, 0), -- 海琳納克
+('850003', '', 1, 32344, 13278, 282253, -9705, 0, 0, 49686, 10, 0, 0),   -- 陰沉碑石
+('850004', '', 1, 32302, 13219, 282021, -7547, 0, 0, 50484, 10, 0, 0),   -- 塞良
+('850005', '', 1, 32373, 17938, 283202, -9700, 0, 0, 9914, 10, 0, 0);    -- 多利安
 
+REPLACE INTO `npc` VALUES
+(18466, 18466, 'Outpost Captain', 0, '', 0, 'LineageMonster3.benom', 20.00, 56.00, 84, 'male', 'L2Monster', 90, 1282576, 3720, 300.00, 20.00, 60, 65, 70, 75, 70, 80, 2629657, 267913, 32578, 10675, 5907, 2146, 620, 0, 3820, 8203, 8203, 0, 0, 50, 280, 0, 13, 'FULL_PARTY', 'false'),
+(22326, 22326, 'Hellinark', 0, 'Guardian of Naia', 0, 'LineageMonster.karik', 19.00, 90.00, 84, 'male', 'L2Monster', 60, 465488, 4355, 202.00, 10.00, 64, 66, 68, 62, 61, 58, 2629657, 267913, 28564, 3856, 12487, 5647, 590, 0, 3819, 0, 0, 0, 0, 40, 290, 0, 13, 'FULL_PARTY', 'false'),
+(32362, 32362, 'Hellbound Native', 0, '', 0, 'LineageNPC.a_common_peopleC_Mhuman', 8.00, 23.50, 1, 'male', 'L2Npc', 40, 2444, 2444, 0.00, 0.00, 10, 10, 10, 10, 10, 10, 0, 0, 500, 500, 500, 500, 253, 0, 253, 0, 0, 0, 0, 80, 120, 0, 0, 'LAST_HIT', 'false');
+REPLACE INTO `minions` VALUES (22448, 22451, 2, 2); -- 雷歐達斯 反抗軍指揮官
+REPLACE INTO `minions` VALUES (22449, 22450, 8, 8); -- 亞邁士康里 拷問專家
+UPDATE `etcitem` SET `skill` = '2440-1;', `handler` = 'ItemSkills' WHERE `item_id` = '9599'; -- 惡魔的古書
+UPDATE `etcitem` SET `skill` = '2357-1;', `handler` = 'ItemSkills' , `item_type` = 'herb' WHERE `item_id` = '9849'; -- 惡魔溫熱的血
+
+                                  
 /************ 修正BOSS ************/
 REPLACE INTO `grandboss_data` VALUES
 (29001, -21610, 181594, -5734, 0, 0, 152622, 334, 0),          -- 巨蟻女王
@@ -341,7 +357,11 @@ REPLACE INTO `npcskills` VALUES
 (29099,4298,1),
 (29099,4422,5),
 (29099,4789,1),
-(29100,4305,1);
+(29100,4305,1),
+(25532,733,1),
+(25532,734,1),
+(25532,4418,5),
+(25534,4419,5);
 
 
 /************ 修正芙琳泰沙 ************/
@@ -380,202 +400,6 @@ REPLACE INTO `zone_vertices` (`id`,`order`,`x`,`y`) VALUES
 (12005,1,176241,-90230);
 
 
-/************ 加入81級技能(效果尚未完全實裝) ************/
-REPLACE INTO `skill_trees` VALUES
-('88', '755', '1', 'Protection of Rune', '0', '81'),
-('88', '756', '1', 'Protection of Elemental', '0', '81'),
-('88', '757', '1', 'Protection of Alignment', '0', '81'),
-('88', '758', '1', 'Fighters Will', '0', '81'),
-('88', '759', '1', 'Archers Will', '0', '81'),
-('88', '775', '1', 'Weapon Blockade', '0', '81'),
-('89', '755', '1', 'Protection of Rune', '0', '81'),
-('89', '756', '1', 'Protection of Elemental', '0', '81'),
-('89', '757', '1', 'Protection of Alignment', '0', '81'),
-('89', '758', '1', 'Fighters Will', '0', '81'),
-('89', '759', '1', 'Archers Will', '0', '81'),
-('89', '774', '1', 'Dread Pool', '0', '81'),
-('90', '755', '1', 'Protection of Rune', '0', '81'),
-('90', '756', '1', 'Protection of Elemental', '0', '81'),
-('90', '757', '1', 'Protection of Alignment', '0', '81'),
-('90', '758', '1', 'Fighters Will', '0', '81'),
-('90', '759', '1', 'Archers Will', '0', '81'),
-('90', '760', '1', 'Anti Magic Armor', '0', '81'),
-('90', '784', '1', 'Spirit of Phoenix', '0', '81'),
-('90', '785', '1', 'Flame Icon', '0', '81'),
-('91', '755', '1', 'Protection of Rune', '0', '81'),
-('91', '756', '1', 'Protection of Elemental', '0', '81'),
-('91', '757', '1', 'Protection of Alignment', '0', '81'),
-('91', '758', '1', 'Fighters Will', '0', '81'),
-('91', '759', '1', 'Archers Will', '0', '81'),
-('91', '760', '1', 'Anti Magic Armor', '0', '81'),
-('91', '761', '1', 'Seed of Revenge', '0', '81'),
-('91', '762', '1', 'Insane Crusher', '0', '81'),
-('91', '763', '1', 'Hell Scream', '0', '81'),
-('92', '755', '1', 'Protection of Rune', '0', '81'),
-('92', '756', '1', 'Protection of Elemental', '0', '81'),
-('92', '757', '1', 'Protection of Alignment', '0', '81'),
-('92', '758', '1', 'Fighters Will', '0', '81'),
-('92', '759', '1', 'Archers Will', '0', '81'),
-('92', '771', '1', 'Flame Hawk', '0', '81'),
-('93', '755', '1', 'Protection of Rune', '0', '81'),
-('93', '756', '1', 'Protection of Elemental', '0', '81'),
-('93', '757', '1', 'Protection of Alignment', '0', '81'),
-('93', '758', '1', 'Fighters Will', '0', '81'),
-('93', '759', '1', 'Archers Will', '0', '81'),
-('93', '766', '1', 'Sixth Sense', '0', '81'),
-('93', '767', '1', 'Expose Weak Point', '0', '81'),
-('93', '768', '1', 'Exciting Adventure', '0', '81'),
-('94', '755', '1', 'Protection of Rune', '0', '81'),
-('94', '756', '1', 'Protection of Elemental', '0', '81'),
-('94', '757', '1', 'Protection of Alignment', '0', '81'),
-('94', '1492', '1', 'Flame Armor', '0', '81'),
-('95', '755', '1', 'Protection of Rune', '0', '81'),
-('95', '756', '1', 'Protection of Elemental', '0', '81'),
-('95', '757', '1', 'Protection of Alignment', '0', '81'),
-('96', '755', '1', 'Protection of Rune', '0', '81'),
-('96', '756', '1', 'Protection of Elemental', '0', '81'),
-('96', '757', '1', 'Protection of Alignment', '0', '81'),
-('95', '1495', '1', 'Vampiric Mist', '0', '81'),
-('96', '1496', '1', 'Servitor Barrier', '0', '81'),
-('96', '1497', '1', 'Excessive Loyalty', '0', '81'),
-('96', '1498', '1', 'Mutual Response', '0', '81'),
-('97', '1505', '1', 'Sublime Self-Sacrifice', '0', '81'),
-('97', '755', '1', 'Protection of Rune', '0', '81'),
-('97', '756', '1', 'Protection of Elemental', '0', '81'),
-('97', '757', '1', 'Protection of Alignment', '0', '81'),
-('98', '755', '1', 'Protection of Rune', '0', '81'),
-('98', '756', '1', 'Protection of Elemental', '0', '81'),
-('98', '757', '1', 'Protection of Alignment', '0', '81'),
-('99', '755', '1', 'Protection of Rune', '0', '81'),
-('99', '756', '1', 'Protection of Elemental', '0', '81'),
-('99', '757', '1', 'Protection of Alignment', '0', '81'),
-('99', '758', '1', 'Fighters Will', '0', '81'),
-('99', '759', '1', 'Archers Will', '0', '81'),
-('99', '760', '1', 'Anti Magic Armor', '0', '81'),
-('99', '786', '1', 'Evas Will', '0', '81'),
-('99', '787', '1', 'Touch of Eva', '0', '81'),
-('100', '755', '1', 'Protection of Rune', '0', '81'),
-('100', '756', '1', 'Protection of Elemental', '0', '81'),
-('100', '757', '1', 'Protection of Alignment', '0', '81'),
-('100', '758', '1', 'Fighters Will', '0', '81'),
-('100', '759', '1', 'Archers Will', '0', '81'),
-('101', '755', '1', 'Protection of Rune', '0', '81'),
-('101', '756', '1', 'Protection of Elemental', '0', '81'),
-('101', '757', '1', 'Protection of Alignment', '0', '81'),
-('101', '758', '1', 'Fighters Will', '0', '81'),
-('101', '759', '1', 'Archers Will', '0', '81'),
-('101', '766', '1', 'Sixth Sense', '0', '81'),
-('101', '767', '1', 'Expose Weak Point', '0', '81'),
-('101', '769', '1', 'Wind Riding', '0', '81'),
-('102', '755', '1', 'Protection of Rune', '0', '81'),
-('102', '756', '1', 'Protection of Elemental', '0', '81'),
-('102', '757', '1', 'Protection of Alignment', '0', '81'),
-('102', '758', '1', 'Fighters Will', '0', '81'),
-('102', '759', '1', 'Archers Will', '0', '81'),
-('102', '772', '1', 'Arrow Rain', '0', '81'),
-('103', '755', '1', 'Protection of Rune', '0', '81'),
-('103', '756', '1', 'Protection of Elemental', '0', '81'),
-('103', '757', '1', 'Protection of Alignment', '0', '81'),
-('103', '1493', '1', 'Frost Armor', '0', '81'),
-('104', '755', '1', 'Protection of Rune', '0', '81'),
-('104', '756', '1', 'Protection of Elemental', '0', '81'),
-('104', '757', '1', 'Protection of Alignment', '0', '81'),
-('104', '1496', '1', 'Servitor Barrier', '0', '81'),
-('104', '1497', '1', 'Excessive Loyalty', '0', '81'),
-('104', '1498', '1', 'Mutual Response', '0', '81'),
-('105', '1506', '1', 'Blessing of Eva', '0', '81'),
-('105', '755', '1', 'Protection of Rune', '0', '81'),
-('105', '756', '1', 'Protection of Elemental', '0', '81'),
-('105', '757', '1', 'Protection of Alignment', '0', '81'),
-('106', '755', '1', 'Protection of Rune', '0', '81'),
-('106', '756', '1', 'Protection of Elemental', '0', '81'),
-('106', '757', '1', 'Protection of Alignment', '0', '81'),
-('106', '758', '1', 'Fighters Will', '0', '81'),
-('106', '759', '1', 'Archers Will', '0', '81'),
-('106', '760', '1', 'Anti Magic Armor', '0', '81'),
-('106', '788', '1', 'Pain of Shilen', '0', '81'),
-('106', '789', '1', 'Touch of Shilen', '0', '81'),
-('107', '755', '1', 'Protection of Rune', '0', '81'),
-('107', '756', '1', 'Protection of Elemental', '0', '81'),
-('107', '757', '1', 'Protection of Alignment', '0', '81'),
-('108', '755', '1', 'Protection of Rune', '0', '81'),
-('108', '756', '1', 'Protection of Elemental', '0', '81'),
-('108', '757', '1', 'Protection of Alignment', '0', '81'),
-('108', '758', '1', 'Fighters Will', '0', '81'),
-('108', '759', '1', 'Archers Will', '0', '81'),
-('108', '766', '1', 'Sixth Sense', '0', '81'),
-('108', '767', '1', 'Expose Weak Point', '0', '81'),
-('108', '770', '1', 'Ghost Walking', '0', '81'),
-('109', '755', '1', 'Protection of Rune', '0', '81'),
-('109', '756', '1', 'Protection of Elemental', '0', '81'),
-('109', '757', '1', 'Protection of Alignment', '0', '81'),
-('109', '758', '1', 'Fighters Will', '0', '81'),
-('109', '759', '1', 'Archers Will', '0', '81'),
-('109', '773', '1', 'Ghost Piercing', '0', '81'),
-('110', '755', '1', 'Protection of Rune', '0', '81'),
-('110', '756', '1', 'Protection of Elemental', '0', '81'),
-('110', '757', '1', 'Protection of Alignment', '0', '81'),
-('110', '1494', '1', 'Hurricane Armor', '0', '81'),
-('111', '755', '1', 'Protection of Rune', '0', '81'),
-('111', '756', '1', 'Protection of Elemental', '0', '81'),
-('111', '757', '1', 'Protection of Alignment', '0', '81'),
-('111', '1496', '1', 'Servitor Barrier', '0', '81'),
-('111', '1497', '1', 'Excessive Loyalty', '0', '81'),
-('111', '1498', '1', 'Mutual Response', '0', '81'),
-('112', '1507', '1', 'Lord of Vampire', '0', '81'),
-('112', '1508', '1', 'Throne Root', '0', '81'),
-('112', '755', '1', 'Protection of Rune', '0', '81'),
-('112', '756', '1', 'Protection of Elemental', '0', '81'),
-('112', '757', '1', 'Protection of Alignment', '0', '81'),
-('113', '755', '1', 'Protection of Rune', '0', '81'),
-('113', '756', '1', 'Protection of Elemental', '0', '81'),
-('113', '757', '1', 'Protection of Alignment', '0', '81'),
-('113', '758', '1', 'Fighters Will', '0', '81'),
-('113', '759', '1', 'Archers Will', '0', '81'),
-('113', '777', '1', 'Demolition Impact', '0', '81'),
-('114', '755', '1', 'Protection of Rune', '0', '81'),
-('114', '756', '1', 'Protection of Elemental', '0', '81'),
-('114', '757', '1', 'Protection of Alignment', '0', '81'),
-('114', '758', '1', 'Fighters Will', '0', '81'),
-('114', '759', '1', 'Archers Will', '0', '81'),
-('114', '776', '1', 'Force of Destruction', '0', '81'),
-('115', '755', '1', 'Protection of Rune', '0', '81'),
-('115', '756', '1', 'Protection of Elemental', '0', '81'),
-('115', '757', '1', 'Protection of Alignment', '0', '81'),
-('115', '1509', '1', 'Seal of Limit', '0', '81'),
-('116', '755', '1', 'Protection of Rune', '0', '81'),
-('116', '756', '1', 'Protection of Elemental', '0', '81'),
-('116', '757', '1', 'Protection of Alignment', '0', '81'),
-('117', '755', '1', 'Protection of Rune', '0', '81'),
-('117', '756', '1', 'Protection of Elemental', '0', '81'),
-('117', '757', '1', 'Protection of Alignment', '0', '81'),
-('117', '758', '1', 'Fighters Will', '0', '81'),
-('117', '759', '1', 'Archers Will', '0', '81'),
-('118', '755', '1', 'Protection of Rune', '0', '81'),
-('118', '756', '1', 'Protection of Elemental', '0', '81'),
-('118', '757', '1', 'Protection of Alignment', '0', '81'),
-('118', '758', '1', 'Fighters Will', '0', '81'),
-('118', '759', '1', 'Archers Will', '0', '81'),
-('118', '778', '1', 'Golem Armor', '0', '81'),
-('131', '755', '1', 'Protection of Rune', '0', '81'),
-('131', '756', '1', 'Protection of Elemental', '0', '81'),
-('131', '757', '1', 'Protection of Alignment', '0', '81'),
-('131', '758', '1', 'Fighters Will', '0', '81'),
-('131', '759', '1', 'Archers Will', '0', '81'),
-('132', '755', '1', 'Protection of Rune', '0', '81'),
-('132', '756', '1', 'Protection of Elemental', '0', '81'),
-('132', '757', '1', 'Protection of Alignment', '0', '81'),
-('132', '758', '1', 'Fighters Will', '0', '81'),
-('132', '759', '1', 'Archers Will', '0', '81'),
-('132', '791', '1', 'Lightning Shock', '0', '81'),
-('134', '755', '1', 'Protection of Rune', '0', '81'),
-('134', '756', '1', 'Protection of Elemental', '0', '81'),
-('134', '757', '1', 'Protection of Alignment', '0', '81'),
-('134', '758', '1', 'Fighters Will', '0', '81'),
-('134', '759', '1', 'Archers Will', '0', '81'),
-('134', '790', '1', 'Wild Shot', '0', '81');
-
-
 /************ 其他修正 ************/
 -- 修正傳送到不同的房間挑戰莉莉絲/亞納
 REPLACE INTO `teleport` VALUES
@@ -595,27 +419,39 @@ UPDATE `etcitem` SET `price` = '2250000' WHERE `item_id` = '959';  -- 武器強化卷
 UPDATE `etcitem` SET `price` = '2700000' WHERE `item_id` = '6569'; -- 祝福的武器強化卷軸-A級
 UPDATE `etcitem` SET `price` = '5000000' WHERE `item_id` = '6577'; -- 祝福的武器強化卷軸-S級
 
--- 修正首領重生時，HP/MP全滿(感謝 wolo 提供)
+-- 修正首領重生時，HP/MP全滿 (感謝 wolo 提供)
 Update `npc`, `raidboss_spawnlist` SET `raidboss_spawnlist`.`heading`=0, `raidboss_spawnlist`.`currentHp`=`npc`.`hp`,`raidboss_spawnlist`.`currentMp`=`npc`.`mp` WHERE `npc`.`type`='L2RaidBoss' AND `npc`.`id`=`raidboss_spawnlist`.`boss_id`;
 
 -- 修正根據地投標價
 UPDATE `auction` SET `startingBid` = '20000000' WHERE `id` IN (58,59,60,61) AND `sellerId` = '0';
 
+-- 修正武器
+UPDATE `weapon` SET `onCrit_skill_chance` = '100' WHERE `item_id` in (4694,4789,4795,4804,4807,5604,5646,6308,8104,8105,8125,8128,8811,9254,9282,9287,9321,9347);
+UPDATE `weapon` SET `onCrit_skill_chance` = '6' WHERE `item_id` in (4781);
+UPDATE `weapon` SET `onCrit_skill_chance` = '7' WHERE `item_id` in (4775);
+UPDATE `weapon` SET `onCrit_skill_chance` = '9' WHERE `item_id` in (4760,4766);
+UPDATE `weapon` SET `onCrit_skill_chance` = '12' WHERE `item_id` in (4805);
+UPDATE `weapon` SET `onCrit_skill_chance` = '14' WHERE `item_id` in (4796,4801);
+UPDATE `weapon` SET `onCrit_skill_chance` = '17' WHERE `item_id` in (4790);
+UPDATE `weapon` SET `onCrit_skill_chance` = '25' WHERE `item_id` in (4859);
+UPDATE `weapon` SET `onCrit_skill_chance` = '27' WHERE `item_id` in (4856);
+UPDATE `weapon` SET `onCrit_skill_chance` = '29' WHERE `item_id` in (4852);
+UPDATE `weapon` SET `onCrit_skill_chance` = '31' WHERE `item_id` in (4847,4849);
+UPDATE `weapon` SET `onCrit_skill_chance` = '32' WHERE `item_id` in (4843);
+UPDATE `weapon` SET `onCrit_skill_chance` = '34' WHERE `item_id` in (4835,4838,4840);
+UPDATE `weapon` SET `onCast_skill_chance` = '50' WHERE `item_id` in (4865,4877,4889,4898);
+UPDATE `weapon` SET `skill` = '3260-1;3261-1;3262-1;' WHERE `item_id` in (9140,9141);
+
 
 /************ 加入破滅國境的道具 ************/
 -- 新頭飾
+DELETE FROM `etcitem` WHERE `item_id` IN (20497,20498); -- 母親的花環 (L2J錯誤設定為etcitem)
 REPLACE INTO `armor` VALUES
-(20401,'Laborer Hat','','hairall','false','none',10,'wood','none',0,-1,-1,0,0,0,0,0,'true','true','true','true','true','0-0','0-0;'), -- 勤勞者帽子
 (20497,'Mother\'s Wreath - Event Blessing of Love - 24 hours limited period','','hairall','false','none',120,'wood','none',0,-1,1440,0,0,0,0,0,'false','false','true','false','true','0-0','21086-1;'), -- 母親的花環-活動 愛的祝福(限時24小時)
 (20498,'Mother\'s Wreath Blessing of Love - 3 day limited period','','hairall','false','none',120,'wood','none',0,-1,4320,0,0,0,0,0,'false','false','true','false','true','0-0','21086-1;'); -- 母親的花環-活動 愛的祝福(限時3日)
-DELETE FROM `etcitem` WHERE `item_id` IN (20497,20498);
 
 -- 新壺精
-REPLACE INTO `armor` VALUES
-(14776,'Agathion Seal Bracelet - Juju','','lbracelet','false','none',150,'wood','none',0,-1,20160,0,0,0,0,0,'false','false','true','false','true','0-0','8327-1;6136-1;6137-1;3267-1;');
-
--- 新手鐲
-UPDATE `armor` SET `skill` = '8262-1;' WHERE `item_id` IN (14053,14066); -- 黃鬃獅子騎乘手鐲
+UPDATE `armor` SET `skill` = '8327-1;6136-1;6137-1;3267-1;' WHERE `item_id` IN (14776); -- 壺精封印手鐲-啾啾
 
 -- 新狩獵幫手
 REPLACE INTO `npc` VALUES
@@ -828,12 +664,12 @@ REPLACE INTO `pets_skills` VALUES
 (16053,85,6053,4),
 (16053,1,6054,1);
 
--- 新 NPC (感謝 pmq 提供)
+-- 修正NPC
 UPDATE `npc` SET `type` = 'L2Npc' WHERE `id` IN (32628,32629); -- 碼頭巡邏兵的類型改為一般NPC
 UPDATE `npc` SET `type` = 'L2Teleporter' WHERE `id` IN (32540,32542,32602); -- 深淵的守門人/安定的再生種子/臨時傳送師的類型改為傳送
 UPDATE `spawnlist` SET `heading` = '16383' WHERE `npc_templateid` = '32609' AND `heading` = '20771'; -- 修正飛空艇控制裝置的面向
 
--- 新 NPC 位置 (感謝 pmq 提供)
+-- 加入NPC (感謝 pmq 提供)
 REPLACE INTO `spawnlist` VALUES
 (840001, '', 1,36481, -15067, 124128, -3125, 0, 0, 49298, 10, 0, 0),   -- 古魯丁傭兵隊隊長
 (840002, '', 1,36482, 19345, 144895, -3109, 0, 0, 0, 10, 0, 0),        -- 狄恩傭兵隊隊長
@@ -876,7 +712,7 @@ REPLACE INTO `teleport` VALUES
 ('3260202', '3260202', '-251624', '213420', '-12072', '0', '0'), -- 臨時傳送師
 ('3260203', '3260203', '-249774', '207316', '-11952', '0', '0'); -- 臨時傳送師
 
--- 刪除 NPC，改成 AI 控制
+-- NPC改成AI控制
 Delete From `spawnlist` Where `npc_templateid` in (32549,32619,32628,32629); -- 狄里歐斯/刺槍兵/碼頭巡邏兵
 UPDATE `npc` SET `walkspd` = '50' WHERE `id` IN (35659,35690,35728,35759,35797,35828,35859,35897,35928,35966,36004,36035,36073,36111,36142,36173,36211,36249,36287,36318,36356); -- 可疑的商人
 DELETE FROM `fort_spawnlist` WHERE `npcId` IN (35659,35690,35728,35759,35797,35828,35859,35897,35928,35966,36004,36035,36073,36111,36142,36173,36211,36249,36287,36318,36356); -- 可疑的商人
@@ -890,10 +726,8 @@ UPDATE `armor` SET `armor_type` = 'light' WHERE `item_id` IN (10487,10488,10489,
 UPDATE `armor` SET `crystallizable` = 'false' WHERE `item_id` IN (9826,13885,13886,13887); -- 幻象武器-盟誓禮鞋 輕裝用/封印的祕儀符印/封印的王朝符印/封印的薄暮符印
 UPDATE `armor` SET `time` = 0 WHERE `item_id` IN (20098); -- 禮服-活動 1小時幻象
 UPDATE `armor` SET `time` = 43200 WHERE `item_id` IN (13544,13545); -- 壺精召喚手鐲-男生泰迪熊/壺精召喚手鐲-女生泰迪熊
-UPDATE `armor` SET `time` = 1440 WHERE `item_id` IN (20497); -- 母親的花環-活動 (SQL資料尚未加入)
-UPDATE `armor` SET `time` = 4320 WHERE `item_id` IN (20498); -- 母親的花環 (SQL資料尚未加入)
-UPDATE `armor` SET `time` = 43200 WHERE `item_id` IN (20503,20504); -- 黃鬃獅子/蒸汽甲蟲騎乘手鐲 限時30日 (SQL資料尚未加入)
-UPDATE `armor` SET `duration` = 360 WHERE `item_id` IN (14753,14754,14755,14756,14757,14758,14759,14760,14761,14762,14763,14764); -- 幻象裝備 (SQL資料尚未加入)
+UPDATE `armor` SET `time` = 43200 WHERE `item_id` IN (20503,20504); -- 黃鬃獅子/蒸汽甲蟲騎乘手鐲 限時30日 (L2J錯誤設定為etcitem)
+UPDATE `armor` SET `duration` = 360 WHERE `item_id` IN (14753,14754,14755,14756,14757,14758,14759,14760,14761,14762,14763,14764); -- 幻象裝備
 
 -- 武器修正
 UPDATE `weapon` SET `bodypart` = 'rhand' WHERE `item_id` IN (13556,13557,20114,20126,20128,20140,20142,20154,20156,20168,20170,20258,20264); -- 飛空艇操控舵/飛空艇大砲/祭司釘鎚-活動/夜叉釘鎚-活動/月蝕斧-活動/工藝戰斧-活動/卡倚巴奴之骨-活動/樂園-活動/火龍之首-活動/玄武岩戰鎚-活動/祕儀權杖-活動/法國麵包吐司鎚/法國麵包香郁/
@@ -979,60 +813,48 @@ DELETE FROM `merchant_buylists` WHERE `item_id` IN (13688,13689,13690,13889,1389
 
 -- 新傳送
 REPLACE INTO `teleport` VALUES
-('3265201', '3265201', '175499', '-181586', '-904', '0', '0');    -- 往米索莉礦山的傳送水晶
+('3265201', '3265201', '175499', '-181586', '-904', '0', '0'); -- 往米索莉礦山的傳送水晶
 
 -- 新頭飾
-REPLACE INTO `armor` VALUES
-(14962,'14962','','hairall','false','none',10,'wood','none',0,-1,-1,0,0,0,0,0,'false','false','true','false','true','0-0','0-0;'),
-(14963,'14963','','hairall','false','none',10,'wood','none',0,-1,-1,0,0,0,0,0,'false','false','true','false','true','0-0','0-0;'),
-(14964,'14964','','hairall','false','none',10,'wood','none',0,-1,-1,0,0,0,0,0,'false','false','true','false','true','0-0','0-0;'),
-(14965,'14965','','hairall','false','none',10,'wood','none',0,-1,-1,0,0,0,0,0,'false','false','true','false','true','0-0','0-0;'),
-(15221,'15221','','hairall','false','none',10,'wood','none',0,-1,-1,0,0,0,0,0,'false','false','true','false','true','0-0','0-0;'),
-(20569,'20569','','hairall','false','none',10,'wood','none',0,-1,-1,0,0,0,0,0,'false','false','true','false','true','0-0','0-0;'),
-(20601,'20601','','hairall','false','none',10,'wood','none',0,-1,10080,0,0,0,0,0,'false','false','true','false','true','0-0','21090-1;'),
-(20613,'20613','','hair','false','none',10,'wood','none',0,-1,-1,0,0,0,0,0,'false','false','true','false','true','0-0','21092-1;'),
-(20614,'20614','','hair','false','none',10,'wood','none',0,-1,-1,0,0,0,0,0,'false','false','true','false','true','0-0','21093-1;'),
-(20615,'20615','','hair','false','none',10,'wood','none',0,-1,-1,0,0,0,0,0,'false','false','true','false','true','0-0','21094-1;'),
-(20616,'20616','','hair','false','none',10,'wood','none',0,-1,10080,0,0,0,0,0,'false','false','true','false','true','0-0','21092-1;21111-1;'),
-(20617,'20617','','hair','false','none',10,'wood','none',0,-1,10080,0,0,0,0,0,'false','false','true','false','true','0-0','21093-1;21112-1;'),
-(20618,'20618','','hair','false','none',10,'wood','none',0,-1,10080,0,0,0,0,0,'false','false','true','false','true','0-0','21094-1;21113-1;'),
-(20626,'20626','','hairall','false','none',10,'wood','none',0,-1,10080,0,0,0,0,0,'false','false','true','false','true','0-0','21095-1;'),
-(20633,'20633','','hairall','false','none',10,'wood','none',0,-1,10080,0,0,0,0,0,'false','false','true','false','true','0-0','21096-1;'),
-(20634,'20634','','hairall','false','none',10,'wood','none',0,-1,-1,0,0,0,0,0,'false','false','true','false','true','0-0','0-0;');
-UPDATE `armor` SET `skill` = '21152-1;' WHERE `item_id` = 20789;
-UPDATE `weapon` SET `skill` = '21169-1;23154-1;' WHERE `item_id` = 20867;
+UPDATE `armor` SET `skill` = '21090-1;' WHERE `item_id` = 20601;         -- 回魂帽
+UPDATE `armor` SET `skill` = '21092-1;' WHERE `item_id` = 20613;         -- 耳機
+UPDATE `armor` SET `skill` = '21093-1;' WHERE `item_id` = 20614;         -- 耳機
+UPDATE `armor` SET `skill` = '21094-1;' WHERE `item_id` = 20615;         -- 耳機
+UPDATE `armor` SET `skill` = '21092-1;21111-1;' WHERE `item_id` = 20616; -- 耳機
+UPDATE `armor` SET `skill` = '21093-1;21112-1;' WHERE `item_id` = 20617; -- 耳機
+UPDATE `armor` SET `skill` = '21094-1;21113-1;' WHERE `item_id` = 20618; -- 耳機
+UPDATE `armor` SET `skill` = '21095-1;' WHERE `item_id` = 20626;         -- 回魂帽
+UPDATE `armor` SET `skill` = '21096-1;' WHERE `item_id` = 20633;         -- 西瓜帽
+UPDATE `armor` SET `skill` = '21152-1;' WHERE `item_id` = 20789;         -- 火箭炮帽
 
 -- 新手鐲
-REPLACE INTO `armor` VALUES
-(15351,'15351','','lbracelet','false','none',5,'wood','none',0,-1,-1,0,0,0,0,0,'false','false','true','false','true','0-0','8358-1;3267-1;'),
-(20658,'20658','','lbracelet','false','none',150,'wood','none',0,-1,-1,0,0,0,0,0,'false','false','true','false','true','0-0','21107-1;23083-1;3267-1;'),
-(20659,'20659','','lbracelet','false','none',150,'wood','none',0,-1,10080,0,0,0,0,0,'false','false','true','false','true','0-0','21107-1;23083-1;23084-1;3267-1;');
+UPDATE `armor` SET `bodypart` = 'lbracelet', `skill` = '8358-1;3267-1;' WHERE `item_id` = 15351; -- 封印解除手鐲-托貝
+UPDATE `armor` SET `bodypart` = 'lbracelet' WHERE `item_id` IN (20658,20659); -- 壺精封印手鐲-舞動幸運兒
 
 -- 其它
-REPLACE INTO `etcitem` VALUES
-(14724,'14724','','false','none',0,'stackable','paper','none',-1,-1,0,0,'false','false','true','false','false','ItemSkills','2869-1;'),
-(14725,'14725','','false','none',0,'stackable','paper','none',-1,-1,0,0,'false','false','true','false','false','ItemSkills','2870-1;'),
-(14726,'14726','','false','none',0,'stackable','paper','none',-1,-1,0,0,'false','false','true','false','false','ItemSkills','2880-1;'),
-(14727,'14727','','false','none',0,'stackable','paper','none',-1,-1,0,0,'false','false','true','false','false','ItemSkills','2881-1;'),
-(20585,'20585','','false','none',10,'stackable','paper','none',-1,-1,0,0,'false','false','true','false','true','ItemSkills','22095-1;'),
-(20586,'20586','','false','none',10,'stackable','paper','none',-1,-1,0,0,'false','false','true','false','true','ItemSkills','22096-1;'),
-(20597,'20597','','false','none',0,'stackable','paper','none',-1,-1,0,0,'false','false','true','false','true','none','0-0;'),
-(20602,'20602','','false','none',0,'stackable','paper','none',-1,-1,0,0,'false','false','true','false','false','ItemSkills','22099-1;'),
-(20603,'20603','','false','none',0,'stackable','paper','none',-1,-1,0,0,'false','false','true','false','false','ItemSkills','22100-1;'),
-(20707,'20707','','false','none',10,'stackable','paper','none',-1,-1,0,0,'false','false','true','false','false','ItemSkills','22105-1;'),
-(20708,'20708','','false','none',10,'stackable','paper','none',-1,-1,0,0,'false','false','true','false','false','ItemSkills','22106-1;'),
-(20709,'20709','','false','none',10,'stackable','paper','none',-1,-1,0,0,'false','false','true','false','false','ItemSkills','22107-1;'),
-(20728,'20728','','false','none',10,'stackable','paper','none',-1,-1,0,0,'false','false','true','false','false','ItemSkills','22110-1;'),
-(20729,'20729','','false','none',10,'stackable','paper','none',-1,-1,0,0,'false','false','true','false','false','ItemSkills','22111-1;'),
-(20730,'20730','','false','none',10,'stackable','paper','none',-1,-1,0,0,'false','false','true','false','false','ItemSkills','22112-1;'),
-(20731,'20731','','false','none',10,'stackable','paper','none',-1,-1,0,0,'false','false','true','false','false','ItemSkills','22113-1;');
+UPDATE `etcitem` SET `skill` = '2869-1;', `handler` = 'ItemSkills' WHERE `item_id` = 14724;                                -- 活動-哞哞牛召喚卷軸
+UPDATE `etcitem` SET `skill` = '2870-1;', `handler` = 'ItemSkills' WHERE `item_id` = 14725;                                -- 活動-超神牛召喚卷軸
+UPDATE `etcitem` SET `skill` = '2880-1;', `handler` = 'ItemSkills' WHERE `item_id` = 14726;                                -- 活動-憂鬱哞哞牛召喚卷軸
+UPDATE `etcitem` SET `skill` = '2881-1;', `handler` = 'ItemSkills' WHERE `item_id` = 14727;                                -- 活動-憂鬱超神牛召喚卷軸
+UPDATE `etcitem` SET `skill` = '22095-1;', `handler` = 'ItemSkills', `consume_type` = 'stackable' WHERE `item_id` = 20585; -- 火焰種子
+UPDATE `etcitem` SET `skill` = '22096-1;', `handler` = 'ItemSkills', `consume_type` = 'stackable' WHERE `item_id` = 20586; -- 爆發性的火焰種子
+UPDATE `etcitem` SET `consume_type` = 'stackable' WHERE `item_id` = 20597;                                                 -- 少女的精靈石
+UPDATE `etcitem` SET `skill` = '22099-1;', `handler` = 'ItemSkills', `consume_type` = 'stackable' WHERE `item_id` = 20602; -- 靈魂銀紙
+UPDATE `etcitem` SET `skill` = '22100-1;', `handler` = 'ItemSkills', `consume_type` = 'stackable' WHERE `item_id` = 20603; -- 靈魂香
+UPDATE `etcitem` SET `skill` = '22105-1;', `handler` = 'ItemSkills', `consume_type` = 'stackable' WHERE `item_id` = 20707; -- 兀兒德召喚卷軸
+UPDATE `etcitem` SET `skill` = '22106-1;', `handler` = 'ItemSkills', `consume_type` = 'stackable' WHERE `item_id` = 20708; -- 貝爾丹蒂召喚卷軸
+UPDATE `etcitem` SET `skill` = '22107-1;', `handler` = 'ItemSkills', `consume_type` = 'stackable' WHERE `item_id` = 20709; -- 斯庫迪召喚卷軸
+UPDATE `etcitem` SET `skill` = '22110-1;', `handler` = 'ItemSkills', `consume_type` = 'stackable' WHERE `item_id` = 20728; -- 吉祥天燈召喚書
+UPDATE `etcitem` SET `skill` = '22111-1;', `handler` = 'ItemSkills', `consume_type` = 'stackable' WHERE `item_id` = 20729; -- 歡慶天燈召喚書
+UPDATE `etcitem` SET `skill` = '22112-1;', `handler` = 'ItemSkills', `consume_type` = 'stackable' WHERE `item_id` = 20730; -- 祈福天燈召喚書
+UPDATE `etcitem` SET `skill` = '22113-1;', `handler` = 'ItemSkills', `consume_type` = 'stackable' WHERE `item_id` = 20731; -- 平安天燈召喚書
 
 -- 新特殊武器
-REPLACE INTO `weapon` VALUES
-(15310,'15310','','rhand','false',150,1,1,'steel','s',7,10,'sword',8,0.00000,0,0,0,379,0,5,-1,-1,0,0,'false','false','true','false','true',0,0,0,0,0,0,0,0,0,'8357-1;'),
-(20600,'20600','','lrhand','false',0,1,1,'steel','none',1,20,'bigblunt',4,4.00000,0,0,0,325,0,1,-1,10080,0,0,'false','false','true','false','true',0,0,0,0,0,0,0,0,0,'21089-1;');
+UPDATE `weapon` SET `skill` = '8357-1;' WHERE `item_id` = 15310;          -- 殷海薩聖劍
+UPDATE `weapon` SET `skill` = '21089-1;' WHERE `item_id` = 20600;         -- 招魂杖
+UPDATE `weapon` SET `skill` = '21169-1;23154-1;' WHERE `item_id` = 20867; -- 門松變身魔杖
 
--- 新座龍的技能
+-- 加入恐爪龍/守護者座龍的技能
 REPLACE INTO `pets_skills` VALUES
 (16067,1,6199,1),
 (16067,60,6199,2),
@@ -1080,3 +902,6 @@ REPLACE INTO `pets_skills` VALUES
 (16068,84,6206,18),
 (16068,85,6206,19),
 (16068,1,6207,1);
+
+-- 修正結婚管理員的武器
+UPDATE `custom_npc` SET `rhand` = 316 WHERE `id` = 50007;

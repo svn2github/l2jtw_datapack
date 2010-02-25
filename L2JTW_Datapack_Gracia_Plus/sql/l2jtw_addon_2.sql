@@ -1,49 +1,199 @@
 /************ Made in Taiwan ************/
 
-/************ 修正武器 ************/
-UPDATE `weapon` SET `onCrit_skill_chance` = '100' WHERE `item_id` in (4694,4789,4795,4804,4807,5604,5646,6308,8104,8105,8125,8128,8811,9254,9282,9287,9321,9347);
-UPDATE `weapon` SET `onCrit_skill_chance` = '6' WHERE `item_id` in (4781);
-UPDATE `weapon` SET `onCrit_skill_chance` = '7' WHERE `item_id` in (4775);
-UPDATE `weapon` SET `onCrit_skill_chance` = '9' WHERE `item_id` in (4760,4766);
-UPDATE `weapon` SET `onCrit_skill_chance` = '12' WHERE `item_id` in (4805);
-UPDATE `weapon` SET `onCrit_skill_chance` = '14' WHERE `item_id` in (4796,4801);
-UPDATE `weapon` SET `onCrit_skill_chance` = '17' WHERE `item_id` in (4790);
-UPDATE `weapon` SET `onCrit_skill_chance` = '25' WHERE `item_id` in (4859);
-UPDATE `weapon` SET `onCrit_skill_chance` = '27' WHERE `item_id` in (4856);
-UPDATE `weapon` SET `onCrit_skill_chance` = '29' WHERE `item_id` in (4852);
-UPDATE `weapon` SET `onCrit_skill_chance` = '31' WHERE `item_id` in (4847,4849);
-UPDATE `weapon` SET `onCrit_skill_chance` = '32' WHERE `item_id` in (4843);
-UPDATE `weapon` SET `onCrit_skill_chance` = '34' WHERE `item_id` in (4835,4838,4840);
-UPDATE `weapon` SET `onCast_skill_chance` = '50' WHERE `item_id` in (4865,4877,4889,4898);
-UPDATE `weapon` SET `skill` = '3260-1;3261-1;3262-1;' WHERE `item_id` in (9140,9141);
-
-
-/************ 修正地獄邊界的NPC ************/
-REPLACE INTO spawnlist VALUES
-('850001', '', 1, 18466, 4681, 243922, -1930, 0, 0, 37373, 10, 0, 0),    -- 外廓警衛隊長
-('850002', '', 1, 22326, -23961, 245615, -3138, 0, 0, 129600, 10, 0, 0), -- 海琳納克
-('850003', '', 1, 32344, 13278, 282253, -9705, 0, 0, 49686, 10, 0, 0),   -- 陰沉碑石
-('850004', '', 1, 32302, 13219, 282021, -7547, 0, 0, 50484, 10, 0, 0),   -- 塞良
-('850005', '', 1, 32373, 17938, 283202, -9700, 0, 0, 9914, 10, 0, 0);    -- 多利安
-
-REPLACE INTO `npc` VALUES 
-(18466, 18466, 'Outpost Captain', 0, '', 0, 'LineageMonster3.benom', 20.00, 56.00, 84, 'male', 'L2Monster', 90, 1282576, 3720, 300.00, 20.00, 60, 65, 70, 75, 70, 80, 2629657, 267913, 32578, 10675, 5907, 2146, 620, 0, 3820, 8203, 8203, 0, 0, 50, 280, 0, 13, 'FULL_PARTY', 'false'),
-(22326, 22326, 'Hellinark', 0, 'Guardian of Naia', 0, 'LineageMonster.karik', 19.00, 90.00, 84, 'male', 'L2Monster', 60, 465488, 4355, 202.00, 10.00, 64, 66, 68, 62, 61, 58, 2629657, 267913, 28564, 3856, 12487, 5647, 590, 0, 3819, 0, 0, 0, 0, 40, 290, 0, 13, 'FULL_PARTY', 'false'),
-(32362, 32362, 'Hellbound Native', 0, '', 0, 'LineageNPC.a_common_peopleC_Mhuman', 8.00, 23.50, 1, 'male', 'L2Npc', 40, 2444, 2444, 0.00, 0.00, 10, 10, 10, 10, 10, 10, 0, 0, 500, 500, 500, 500, 253, 0, 253, 0, 0, 0, 0, 80, 120, 0, 0, 'LAST_HIT', 'false');
-REPLACE INTO `minions` VALUES (22448, 22451, 2, 2); -- 雷歐達斯 反抗軍指揮官
-REPLACE INTO `minions` VALUES (22449, 22450, 8, 8); -- 亞邁士康里 拷問專家
-UPDATE `etcitem` SET `skill` = '2440-1;', `handler` = 'ItemSkills' WHERE `item_id` = '9599'; -- 惡魔的古書
-UPDATE `etcitem` SET `skill` = '2357-1;', `handler` = 'ItemSkills' , `item_type` = 'herb' WHERE `item_id` = '9849'; -- 惡魔溫熱的血
-
-
-/************ 修正神諭之島的NPC ************/
-UPDATE `etcitem` SET `handler` = 'PaganKeys' WHERE `item_id` = '9694'; -- 祕密花園的鑰匙
-UPDATE `etcitem` SET `skill` = '2362-1;', `handler` = 'PaganKeys' WHERE `item_id` = '10015'; -- 監獄門鑰匙
-REPLACE INTO `npcskills` VALUES
-('25532', '733', '1'),
-('25532', '734', '1'),
-('25532', '4418', '5'),
-('25534', '4419', '5');
+/************ 加入81級技能(效果尚未完全實裝) ************/
+REPLACE INTO `skill_trees` VALUES
+('88', '755', '1', 'Protection of Rune', '0', '81'),
+('88', '756', '1', 'Protection of Elemental', '0', '81'),
+('88', '757', '1', 'Protection of Alignment', '0', '81'),
+('88', '758', '1', 'Fighters Will', '0', '81'),
+('88', '759', '1', 'Archers Will', '0', '81'),
+('88', '775', '1', 'Weapon Blockade', '0', '81'),
+('89', '755', '1', 'Protection of Rune', '0', '81'),
+('89', '756', '1', 'Protection of Elemental', '0', '81'),
+('89', '757', '1', 'Protection of Alignment', '0', '81'),
+('89', '758', '1', 'Fighters Will', '0', '81'),
+('89', '759', '1', 'Archers Will', '0', '81'),
+('89', '774', '1', 'Dread Pool', '0', '81'),
+('90', '755', '1', 'Protection of Rune', '0', '81'),
+('90', '756', '1', 'Protection of Elemental', '0', '81'),
+('90', '757', '1', 'Protection of Alignment', '0', '81'),
+('90', '758', '1', 'Fighters Will', '0', '81'),
+('90', '759', '1', 'Archers Will', '0', '81'),
+('90', '760', '1', 'Anti Magic Armor', '0', '81'),
+('90', '784', '1', 'Spirit of Phoenix', '0', '81'),
+('90', '785', '1', 'Flame Icon', '0', '81'),
+('91', '755', '1', 'Protection of Rune', '0', '81'),
+('91', '756', '1', 'Protection of Elemental', '0', '81'),
+('91', '757', '1', 'Protection of Alignment', '0', '81'),
+('91', '758', '1', 'Fighters Will', '0', '81'),
+('91', '759', '1', 'Archers Will', '0', '81'),
+('91', '760', '1', 'Anti Magic Armor', '0', '81'),
+('91', '761', '1', 'Seed of Revenge', '0', '81'),
+('91', '762', '1', 'Insane Crusher', '0', '81'),
+('91', '763', '1', 'Hell Scream', '0', '81'),
+('92', '755', '1', 'Protection of Rune', '0', '81'),
+('92', '756', '1', 'Protection of Elemental', '0', '81'),
+('92', '757', '1', 'Protection of Alignment', '0', '81'),
+('92', '758', '1', 'Fighters Will', '0', '81'),
+('92', '759', '1', 'Archers Will', '0', '81'),
+('92', '771', '1', 'Flame Hawk', '0', '81'),
+('93', '755', '1', 'Protection of Rune', '0', '81'),
+('93', '756', '1', 'Protection of Elemental', '0', '81'),
+('93', '757', '1', 'Protection of Alignment', '0', '81'),
+('93', '758', '1', 'Fighters Will', '0', '81'),
+('93', '759', '1', 'Archers Will', '0', '81'),
+('93', '766', '1', 'Sixth Sense', '0', '81'),
+('93', '767', '1', 'Expose Weak Point', '0', '81'),
+('93', '768', '1', 'Exciting Adventure', '0', '81'),
+('94', '755', '1', 'Protection of Rune', '0', '81'),
+('94', '756', '1', 'Protection of Elemental', '0', '81'),
+('94', '757', '1', 'Protection of Alignment', '0', '81'),
+('94', '1492', '1', 'Flame Armor', '0', '81'),
+('95', '755', '1', 'Protection of Rune', '0', '81'),
+('95', '756', '1', 'Protection of Elemental', '0', '81'),
+('95', '757', '1', 'Protection of Alignment', '0', '81'),
+('96', '755', '1', 'Protection of Rune', '0', '81'),
+('96', '756', '1', 'Protection of Elemental', '0', '81'),
+('96', '757', '1', 'Protection of Alignment', '0', '81'),
+('95', '1495', '1', 'Vampiric Mist', '0', '81'),
+('96', '1496', '1', 'Servitor Barrier', '0', '81'),
+('96', '1497', '1', 'Excessive Loyalty', '0', '81'),
+('96', '1498', '1', 'Mutual Response', '0', '81'),
+('97', '1505', '1', 'Sublime Self-Sacrifice', '0', '81'),
+('97', '755', '1', 'Protection of Rune', '0', '81'),
+('97', '756', '1', 'Protection of Elemental', '0', '81'),
+('97', '757', '1', 'Protection of Alignment', '0', '81'),
+('98', '755', '1', 'Protection of Rune', '0', '81'),
+('98', '756', '1', 'Protection of Elemental', '0', '81'),
+('98', '757', '1', 'Protection of Alignment', '0', '81'),
+('99', '755', '1', 'Protection of Rune', '0', '81'),
+('99', '756', '1', 'Protection of Elemental', '0', '81'),
+('99', '757', '1', 'Protection of Alignment', '0', '81'),
+('99', '758', '1', 'Fighters Will', '0', '81'),
+('99', '759', '1', 'Archers Will', '0', '81'),
+('99', '760', '1', 'Anti Magic Armor', '0', '81'),
+('99', '786', '1', 'Evas Will', '0', '81'),
+('99', '787', '1', 'Touch of Eva', '0', '81'),
+('100', '755', '1', 'Protection of Rune', '0', '81'),
+('100', '756', '1', 'Protection of Elemental', '0', '81'),
+('100', '757', '1', 'Protection of Alignment', '0', '81'),
+('100', '758', '1', 'Fighters Will', '0', '81'),
+('100', '759', '1', 'Archers Will', '0', '81'),
+('101', '755', '1', 'Protection of Rune', '0', '81'),
+('101', '756', '1', 'Protection of Elemental', '0', '81'),
+('101', '757', '1', 'Protection of Alignment', '0', '81'),
+('101', '758', '1', 'Fighters Will', '0', '81'),
+('101', '759', '1', 'Archers Will', '0', '81'),
+('101', '766', '1', 'Sixth Sense', '0', '81'),
+('101', '767', '1', 'Expose Weak Point', '0', '81'),
+('101', '769', '1', 'Wind Riding', '0', '81'),
+('102', '755', '1', 'Protection of Rune', '0', '81'),
+('102', '756', '1', 'Protection of Elemental', '0', '81'),
+('102', '757', '1', 'Protection of Alignment', '0', '81'),
+('102', '758', '1', 'Fighters Will', '0', '81'),
+('102', '759', '1', 'Archers Will', '0', '81'),
+('102', '772', '1', 'Arrow Rain', '0', '81'),
+('103', '755', '1', 'Protection of Rune', '0', '81'),
+('103', '756', '1', 'Protection of Elemental', '0', '81'),
+('103', '757', '1', 'Protection of Alignment', '0', '81'),
+('103', '1493', '1', 'Frost Armor', '0', '81'),
+('104', '755', '1', 'Protection of Rune', '0', '81'),
+('104', '756', '1', 'Protection of Elemental', '0', '81'),
+('104', '757', '1', 'Protection of Alignment', '0', '81'),
+('104', '1496', '1', 'Servitor Barrier', '0', '81'),
+('104', '1497', '1', 'Excessive Loyalty', '0', '81'),
+('104', '1498', '1', 'Mutual Response', '0', '81'),
+('105', '1506', '1', 'Blessing of Eva', '0', '81'),
+('105', '755', '1', 'Protection of Rune', '0', '81'),
+('105', '756', '1', 'Protection of Elemental', '0', '81'),
+('105', '757', '1', 'Protection of Alignment', '0', '81'),
+('106', '755', '1', 'Protection of Rune', '0', '81'),
+('106', '756', '1', 'Protection of Elemental', '0', '81'),
+('106', '757', '1', 'Protection of Alignment', '0', '81'),
+('106', '758', '1', 'Fighters Will', '0', '81'),
+('106', '759', '1', 'Archers Will', '0', '81'),
+('106', '760', '1', 'Anti Magic Armor', '0', '81'),
+('106', '788', '1', 'Pain of Shilen', '0', '81'),
+('106', '789', '1', 'Touch of Shilen', '0', '81'),
+('107', '755', '1', 'Protection of Rune', '0', '81'),
+('107', '756', '1', 'Protection of Elemental', '0', '81'),
+('107', '757', '1', 'Protection of Alignment', '0', '81'),
+('108', '755', '1', 'Protection of Rune', '0', '81'),
+('108', '756', '1', 'Protection of Elemental', '0', '81'),
+('108', '757', '1', 'Protection of Alignment', '0', '81'),
+('108', '758', '1', 'Fighters Will', '0', '81'),
+('108', '759', '1', 'Archers Will', '0', '81'),
+('108', '766', '1', 'Sixth Sense', '0', '81'),
+('108', '767', '1', 'Expose Weak Point', '0', '81'),
+('108', '770', '1', 'Ghost Walking', '0', '81'),
+('109', '755', '1', 'Protection of Rune', '0', '81'),
+('109', '756', '1', 'Protection of Elemental', '0', '81'),
+('109', '757', '1', 'Protection of Alignment', '0', '81'),
+('109', '758', '1', 'Fighters Will', '0', '81'),
+('109', '759', '1', 'Archers Will', '0', '81'),
+('109', '773', '1', 'Ghost Piercing', '0', '81'),
+('110', '755', '1', 'Protection of Rune', '0', '81'),
+('110', '756', '1', 'Protection of Elemental', '0', '81'),
+('110', '757', '1', 'Protection of Alignment', '0', '81'),
+('110', '1494', '1', 'Hurricane Armor', '0', '81'),
+('111', '755', '1', 'Protection of Rune', '0', '81'),
+('111', '756', '1', 'Protection of Elemental', '0', '81'),
+('111', '757', '1', 'Protection of Alignment', '0', '81'),
+('111', '1496', '1', 'Servitor Barrier', '0', '81'),
+('111', '1497', '1', 'Excessive Loyalty', '0', '81'),
+('111', '1498', '1', 'Mutual Response', '0', '81'),
+('112', '1507', '1', 'Lord of Vampire', '0', '81'),
+('112', '1508', '1', 'Throne Root', '0', '81'),
+('112', '755', '1', 'Protection of Rune', '0', '81'),
+('112', '756', '1', 'Protection of Elemental', '0', '81'),
+('112', '757', '1', 'Protection of Alignment', '0', '81'),
+('113', '755', '1', 'Protection of Rune', '0', '81'),
+('113', '756', '1', 'Protection of Elemental', '0', '81'),
+('113', '757', '1', 'Protection of Alignment', '0', '81'),
+('113', '758', '1', 'Fighters Will', '0', '81'),
+('113', '759', '1', 'Archers Will', '0', '81'),
+('113', '777', '1', 'Demolition Impact', '0', '81'),
+('114', '755', '1', 'Protection of Rune', '0', '81'),
+('114', '756', '1', 'Protection of Elemental', '0', '81'),
+('114', '757', '1', 'Protection of Alignment', '0', '81'),
+('114', '758', '1', 'Fighters Will', '0', '81'),
+('114', '759', '1', 'Archers Will', '0', '81'),
+('114', '776', '1', 'Force of Destruction', '0', '81'),
+('115', '755', '1', 'Protection of Rune', '0', '81'),
+('115', '756', '1', 'Protection of Elemental', '0', '81'),
+('115', '757', '1', 'Protection of Alignment', '0', '81'),
+('115', '1509', '1', 'Seal of Limit', '0', '81'),
+('116', '755', '1', 'Protection of Rune', '0', '81'),
+('116', '756', '1', 'Protection of Elemental', '0', '81'),
+('116', '757', '1', 'Protection of Alignment', '0', '81'),
+('117', '755', '1', 'Protection of Rune', '0', '81'),
+('117', '756', '1', 'Protection of Elemental', '0', '81'),
+('117', '757', '1', 'Protection of Alignment', '0', '81'),
+('117', '758', '1', 'Fighters Will', '0', '81'),
+('117', '759', '1', 'Archers Will', '0', '81'),
+('118', '755', '1', 'Protection of Rune', '0', '81'),
+('118', '756', '1', 'Protection of Elemental', '0', '81'),
+('118', '757', '1', 'Protection of Alignment', '0', '81'),
+('118', '758', '1', 'Fighters Will', '0', '81'),
+('118', '759', '1', 'Archers Will', '0', '81'),
+('118', '778', '1', 'Golem Armor', '0', '81'),
+('131', '755', '1', 'Protection of Rune', '0', '81'),
+('131', '756', '1', 'Protection of Elemental', '0', '81'),
+('131', '757', '1', 'Protection of Alignment', '0', '81'),
+('131', '758', '1', 'Fighters Will', '0', '81'),
+('131', '759', '1', 'Archers Will', '0', '81'),
+('132', '755', '1', 'Protection of Rune', '0', '81'),
+('132', '756', '1', 'Protection of Elemental', '0', '81'),
+('132', '757', '1', 'Protection of Alignment', '0', '81'),
+('132', '758', '1', 'Fighters Will', '0', '81'),
+('132', '759', '1', 'Archers Will', '0', '81'),
+('132', '791', '1', 'Lightning Shock', '0', '81'),
+('134', '755', '1', 'Protection of Rune', '0', '81'),
+('134', '756', '1', 'Protection of Elemental', '0', '81'),
+('134', '757', '1', 'Protection of Alignment', '0', '81'),
+('134', '758', '1', 'Fighters Will', '0', '81'),
+('134', '759', '1', 'Archers Will', '0', '81'),
+('134', '790', '1', 'Wild Shot', '0', '81');
 
 
 /************ 刪除自訂的欲界資料表 ************/
