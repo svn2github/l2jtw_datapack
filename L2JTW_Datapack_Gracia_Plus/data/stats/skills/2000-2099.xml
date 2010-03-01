@@ -722,6 +722,7 @@
 		<for>
 			<effect count="2" name="Confusion" time="4" val="0"> <!-- Only for Temp Fix: Needs Core Support for Randomize Aggro/Target Effect -->
 				<mul order="0x30" stat="pAtkSpd" val="0.7" />
+				<sub order="0x40" stat="cancel" val="0" /> <!-- Especialiy increase for Upgrade Value by rocknow -->
 			</effect>
 		</for>
 	</skill>

@@ -313,6 +313,7 @@
 		<for>
 			<effect count="1" name="Buff" time="600" val="0" stackOrder="1" stackType="event_herb">
 				<mul order="0x30" stat="pAtkSpd" val="1.08" />
+				<sub order="0x40" stat="cancel" val="0" /> <!-- Especialiy increase for Upgrade Value by rocknow -->
 			</effect>
 		</for>
 	</skill>

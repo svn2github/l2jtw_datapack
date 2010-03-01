@@ -455,6 +455,7 @@
 		<for>
 			<effect count="10" name="DamOverTime" time="3" val="96" abnormal="poison" effectPower="35" effectType="POISON">
 				<mul order="0x30" stat="pAtkSpd" val="0.7" />
+				<sub order="0x40" stat="cancel" val="0" /> <!-- Especialiy increase for Upgrade Value by rocknow -->
 			</effect>
 		</for>
 	</skill>
@@ -1037,6 +1038,7 @@
 		<for>
 			<effect name="Buff" time="120" val="0" stackOrder="#Tab-pAtkSpd" stackType="attack_time_down">
 				<mul order="0x30" stat="pAtkSpd" val="#Tab-pAtkSpd" />
+				<sub order="0x40" stat="cancel" val="0" /> <!-- Especialiy increase for Upgrade Value by rocknow -->
 			</effect>
 		</for>
 	</skill>

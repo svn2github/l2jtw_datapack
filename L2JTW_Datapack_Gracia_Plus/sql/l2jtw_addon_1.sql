@@ -740,8 +740,8 @@ UPDATE `weapon` SET `weaponType` = 'none' WHERE `item_id` IN (13525); -- ®æ°Ç¦è¨
 Delete From `items` Where (`item_id` > 708 and `item_id` < 725); -- ©M¨¾¨ã¦P¦WºÙªº¨ä¥Lª««~
 UPDATE `etcitem` SET `consume_type` = 'normal' WHERE `item_id` IN (731,732,949,950,953,954,957,958,961,962); -- ªZ¾¹±j¤Æµ²´¹¨÷¶b/¨¾¨ã±j¤Æµ²´¹¨÷¶b
 UPDATE `etcitem` SET `consume_type` = 'normal' WHERE `item_id` IN (10117,10118); -- ´ı¨Pªº«Ê¦Lªº¤ı´Â²Å¦L/´ı¨Pªº ¤ı´Â²Å¦L
-UPDATE `etcitem` SET `consume_type` = 'normal' WHERE `item_id` IN (10414,10480,10481,10482,10607,13382); -- ³ıºë¥æ´«¨é/¬õ¦â·j»î¥Û-¶¥¬q15/ÂÅ¦â·j»î¥Û-¶¥¬q15/ºñ¦â·j»î¥Û-¶¥¬q15/³ıºë«Ê¦L¤âÅN-¾|¹D¤Ò/®æÄõªÖªºÂ§²°-¬¡°Ê¥Î
-UPDATE `etcitem` SET `consume_type` = 'stackable' WHERE `item_id` IN (13420,13421,20025,20026,20027,20028,20033,20034); -- ÂI¤ß/³J¿|/¦Û¥Ñ¶Ç°e¨÷¶b/°l¥[¤J³õ¨é-±ı¬É(²`²W¤§ÆU)/°l¥[¤J³õ¨é-ªñ½t±ı¬É/°l¥[¤J³õ¨é-±ı¬É(²`²W°g®c)/¦Û¥Ñ¶Ç°eºX/¸U¸t¸`¿}ªG-¬¡°Ê¥Î
+UPDATE `etcitem` SET `consume_type` = 'normal' WHERE `item_id` IN (10414,10607,13382); -- ³ıºë¥æ´«¨é/³ıºë«Ê¦L¤âÅN-ÂG³À/®æÄõªÖªºÂ§²°-¬¡°Ê¥Î
+UPDATE `etcitem` SET `consume_type` = 'stackable' WHERE `item_id` IN (13420,13421,20025,20026,20027,20028,20033); -- ÂI¤ß/³J¿|/¦Û¥Ñ¶Ç°e¨÷¶b/°l¥[¤J³õ¨é-±ı¬É(²`²W¤§ÆU)/°l¥[¤J³õ¨é-ªñ½t±ı¬É/°l¥[¤J³õ¨é-±ı¬É(²`²W°g®c)/¦Û¥Ñ¶Ç°eºX
 UPDATE `etcitem` SET `time` = 1440 WHERE `item_id` IN (20320); -- ¥Í¤é³J¿|
 UPDATE `etcitem` SET `time` = 10080 WHERE `item_id` IN (20339,20340,20345,20346,20351,20352); -- ¸gÅç­È¥j¤å/SP¥j¤å/µ²´¹«¬¥j¤å
 UPDATE `etcitem` SET `time` = 21600 WHERE `item_id` IN (20190); -- ±¡¤H¸`¸Ë¹¢«~

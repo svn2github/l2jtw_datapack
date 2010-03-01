@@ -15,9 +15,9 @@
 	<item id="14601" name="Ancient Cloak - Kamael exclusive - Kamael Use">
 		<cond msgId="1960"><!-- Update by rocknow -->
 			<and>
+				<player level="99" /><!-- Update by rocknow -->
 				<player race="Kamael" /> <!-- Kamael exclusive cloak -->
 				<player cloakStatus="1" />
-				<player level="99" /><!-- Update by rocknow -->
 			</and>
 		</cond>
 		<for>
@@ -27,9 +27,9 @@
 	<item id="14602" name="Ancient Cloak">
 		<cond msgId="1960"><!-- Update by rocknow -->
 			<and>
+				<player level="99" /><!-- Update by rocknow -->
 				<player race="Kamael" /> <!-- Kamael exclusive cloak -->
 				<player cloakStatus="1" />
-				<player level="99" /><!-- Update by rocknow -->
 			</and>
 		</cond>
 		<for>
@@ -47,9 +47,9 @@
 	<item id="14608" name="Ancient Cloak - Light Armor exclusive">
 		<cond msgId="1960"><!-- Update by rocknow -->
 			<and>
+				<player level="99" /><!-- Update by rocknow -->
 				<player class_id_restriction="93, 101, 108, 92, 102, 109" /> <!-- Dagger Master and Bow Master -->
 				<player cloakStatus="1" />
-				<player level="99" /><!-- Update by rocknow -->
 				<not>
 					<player race="Kamael" /> <!-- excluding Kamaels -->
 				</not>
@@ -70,9 +70,9 @@
 	<item id="14610" name="Ancient Cloak - Robe exclusive">
 		<cond msgId="1960"><!-- Update by rocknow -->
 			<and>
+				<player level="99" /><!-- Update by rocknow -->
 				<player class_id_restriction="97, 105, 112, 98, 115, 116, 96, 104, 111, 94, 95, 103, 110" /> <!-- Healer, Enchanter, Summoner and Wizard -->
 				<player cloakStatus="1" />
-				<player level="99" /><!-- Update by rocknow -->
 				<not>
 					<player race="Kamael" /> <!-- excluding Kamaels -->
 				</not>
