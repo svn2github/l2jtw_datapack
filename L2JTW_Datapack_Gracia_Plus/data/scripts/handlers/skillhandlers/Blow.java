@@ -64,8 +64,28 @@ public class Blow implements ISkillHandler
 			return;
 		for (L2Character target: (L2Character[]) targets)
 		{
-
-			if (activeChar.CRIT_ATTACK == 1)
+			if (target.isAlikeDead())
+				continue;
+			
+			// Check firstly if target dodges skill
+			final boolean skillIsEvaded = Formulas.calcPhysicalSkillEvasion(target, skill);
+			
+			byte _successChance = SIDE;
+			
+			if (activeChar.isBehindTarget())
+				_successChance = BEHIND;
+			else if (activeChar.isInFrontOfTarget())
+				_successChance = FRONT;
+			
+			
+			//If skill requires Crit or skill requires behind,
+			//calculate chance based on DEX, Position and on self BUFF
+			boolean success = true;
+			if ((skill.getCondition() & L2Skill.COND_BEHIND) != 0)
+				success = (_successChance == BEHIND);
+			if ((skill.getCondition() & L2Skill.COND_CRIT) != 0)
+				success = (success && Formulas.calcBlow(activeChar, target, _successChance));
+			if (!skillIsEvaded && success)
 			{
 				final byte reflect = Formulas.calcSkillReflect(target, skill);
 				
@@ -89,6 +109,29 @@ public class Blow implements ISkillHandler
 				if (Formulas.calcCrit(skill.getBaseCritRate() * 10 * Formulas.getSTRBonus(activeChar), target))
 					crit = true;
 				double damage = (int) Formulas.calcBlowDamage(activeChar, target, skill, shld, soul);
+				if (skill.getMaxSoulConsumeCount() > 0 && activeChar instanceof L2PcInstance)
+				{
+					switch (((L2PcInstance) activeChar).getSouls())
+					{
+						case 0:
+							break;
+						case 1:
+							damage *= 1.10;
+							break;
+						case 2:
+							damage *= 1.12;
+							break;
+						case 3:
+							damage *= 1.15;
+							break;
+						case 4:
+							damage *= 1.18;
+							break;
+						default:
+							damage *= 1.20;
+							break;
+					}
+				}
 				if (crit)
 				{
 					damage *= 2;
@@ -210,7 +253,21 @@ public class Blow implements ISkillHandler
 			}
 			
 			// Sending system messages
-
+			if (skillIsEvaded)
+			{
+				if (activeChar instanceof L2PcInstance)
+				{
+					SystemMessage sm = new SystemMessage(SystemMessageId.C1_DODGES_ATTACK);
+					sm.addString(target.getName());
+					((L2PcInstance) activeChar).sendPacket(sm);
+				}
+				if (target instanceof L2PcInstance)
+				{
+					SystemMessage sm = new SystemMessage(SystemMessageId.AVOIDED_C1_ATTACK);
+					sm.addString(activeChar.getName());
+					((L2PcInstance) target).sendPacket(sm);
+				}
+			}
 			
 			//Possibility of a lethal strike
 			Formulas.calcLethalHit(activeChar, target, skill);

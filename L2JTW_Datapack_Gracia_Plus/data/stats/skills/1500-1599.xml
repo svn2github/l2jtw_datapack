@@ -117,20 +117,19 @@
 		</for>
 	</skill>
 	<skill id="1506" levels="1" name="Blessing of Eva">
-		<!-- Update by rocknow -->
-		<set name="mpConsume" val="73" />
-		<set name="target" val="TARGET_ONE" />
-		<set name="reuseDelay" val="900000" />
-		<set name="hitTime" val="5000" />
-		<set name="skillType" val="BUFF" />
-		<set name="isMagic" val="true" />
-		<set name="operateType" val="OP_ACTIVE" />
 		<set name="castRange" val="400" />
-		<set name="effectRange" val="800" />
+		<set name="effectRange" val="900" />
+		<set name="hitTime" val="4000" />
+		<set name="isMagic" val="true" />
+		<set name="magicLvl" val="83" />
+		<set name="mpConsume" val="73" />
+		<set name="operateType" val="OP_ACTIVE" />
+		<set name="power" val="100" />
+		<set name="reuseDelay" val="1800000" /> <!-- Guess -->
+		<set name="skillType" val="HPMPCPHEAL_PERCENT" />
+		<set name="target" val="TARGET_ONE" />
 		<for>
-			<effect count="1" name="HealOverTime" time="1" noicon="1" val="20000" />
-			<effect count="1" name="ManaHealOverTime" time="1" noicon="1" val="20000" />
-			<effect count="1" name="CombatPointHealOverTime" time="1" noicon="1" val="9000" />
+			<!-- effect name="CancelDebuff" val="0" effectPower="25" effectType="CANCEL_DEBUFF"/ TODO: Needs Core-Side Support -->
 		</for>
 	</skill>
 	<skill id="1507" levels="1" name="Lord of Vampire">

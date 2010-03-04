@@ -1106,9 +1106,9 @@ INSERT INTO `messagetable` VALUES ('362', 'cn', '未知的受诅咒的武器ID�
 INSERT INTO `messagetable` VALUES ('363', 'en', 'Unknown npc template Id: $1', null);
 INSERT INTO `messagetable` VALUES ('363', 'tw', '未知的 NPC ID：$1', null);
 INSERT INTO `messagetable` VALUES ('363', 'cn', '未知的 NPC ID：$1', null);
-INSERT INTO `messagetable` VALUES ('364', 'en', 'Usage: //unpenalty join|create charname', null);
-INSERT INTO `messagetable` VALUES ('364', 'tw', '使用方法：//unpenalty join|create charname', null);
-INSERT INTO `messagetable` VALUES ('364', 'cn', '使用方法：//unpenalty join|create charname', null);
+INSERT INTO `messagetable` VALUES ('364', 'en', 'Usage: //remove_clan_penalty join|create charname', null);
+INSERT INTO `messagetable` VALUES ('364', 'tw', '使用方法：//remove_clan_penalty join|create charname', null);
+INSERT INTO `messagetable` VALUES ('364', 'cn', '使用方法：//remove_clan_penalty join|create charname', null);
 INSERT INTO `messagetable` VALUES ('365', 'en', 'Unpolymorph succeed', null);
 INSERT INTO `messagetable` VALUES ('365', 'tw', '變身取消。', null);
 INSERT INTO `messagetable` VALUES ('365', 'cn', '变身取消。', null);
