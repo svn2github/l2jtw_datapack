@@ -5,13 +5,11 @@
 			<set val="24" order="0x08" stat="pAtk" />
 			<set val="17" order="0x08" stat="mAtk" />
 			<set val="8" order="0x08" stat="rCrit" />
-			<add val="0" order="0x10" stat="accCombat" />
 			<set val="379" order="0x08" stat="pAtkSpd" />
 		</for>
 	</item>
 	<item id="13525" name="Gracia Soldier Shield">
 		<for>
-			<sub val="0" order="0x10" stat="rEvas" />
 			<set val="101" order="0x08" stat="sDef" />
 			<set val="20" order="0x08" stat="rShld" />
 		</for>
@@ -27,7 +25,6 @@
 			<set val="200" order="0x08" stat="pAtk" />
 			<set val="6" order="0x08" stat="mAtk" />
 			<set val="8" order="0x08" stat="rCrit" />
-			<add val="0" order="0x10" stat="accCombat" />
 			<set val="325" order="0x08" stat="pAtkSpd" />
 		</for>
 	</item>
@@ -83,7 +80,6 @@
 			<set val="1" order="0x08" stat="pAtk" />
 			<set val="1" order="0x08" stat="mAtk" />
 			<set val="8" order="0x08" stat="rCrit" />
-			<add val="0" order="0x10" stat="accCombat" />
 			<set val="379" order="0x08" stat="pAtkSpd" />
 		</for>
 	</item>
@@ -92,7 +88,6 @@
 			<set val="1" order="0x08" stat="pAtk" />
 			<set val="1" order="0x08" stat="mAtk" />
 			<set val="8" order="0x08" stat="rCrit" />
-			<add val="0" order="0x10" stat="accCombat" />
 			<set val="379" order="0x08" stat="pAtkSpd" />
 		</for>
 	</item>
@@ -101,7 +96,6 @@
 			<set val="1" order="0x08" stat="pAtk" />
 			<set val="1" order="0x08" stat="mAtk" />
 			<set val="8" order="0x08" stat="rCrit" />
-			<add val="0" order="0x10" stat="accCombat" />
 			<set val="379" order="0x08" stat="pAtkSpd" />
 		</for>
 	</item>

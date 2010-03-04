@@ -119,7 +119,6 @@
 			<set val="333" order="0x08" stat="pAtk" />
 			<set val="151" order="0x08" stat="mAtk" />
 			<set val="8" order="0x08" stat="rCrit" />
-			<add val="0" order="0x10" stat="accCombat" />
 			<set val="379" order="0x08" stat="pAtkSpd" />
 			<enchant val="0" order="0x0C" stat="pAtk" />
 			<enchant val="0" order="0x0C" stat="mAtk" />
@@ -130,7 +129,6 @@
 			<set val="333" order="0x08" stat="pAtk" />
 			<set val="151" order="0x08" stat="mAtk" />
 			<set val="8" order="0x08" stat="rCrit" />
-			<add val="0" order="0x10" stat="accCombat" />
 			<set val="379" order="0x08" stat="pAtkSpd" />
 			<enchant val="0" order="0x0C" stat="pAtk" />
 			<enchant val="0" order="0x0C" stat="mAtk" />
@@ -141,7 +139,6 @@
 			<set val="333" order="0x08" stat="pAtk" />
 			<set val="151" order="0x08" stat="mAtk" />
 			<set val="8" order="0x08" stat="rCrit" />
-			<add val="0" order="0x10" stat="accCombat" />
 			<set val="379" order="0x08" stat="pAtkSpd" />
 			<enchant val="0" order="0x0C" stat="pAtk" />
 			<enchant val="0" order="0x0C" stat="mAtk" />
@@ -152,7 +149,6 @@
 			<set val="405" order="0x08" stat="pAtk" />
 			<set val="151" order="0x08" stat="mAtk" />
 			<set val="8" order="0x08" stat="rCrit" />
-			<add val="0" order="0x10" stat="accCombat" />
 			<set val="325" order="0x08" stat="pAtkSpd" />
 			<enchant val="0" order="0x0C" stat="pAtk" />
 			<enchant val="0" order="0x0C" stat="mAtk" />
@@ -163,7 +159,6 @@
 			<set val="405" order="0x08" stat="pAtk" />
 			<set val="151" order="0x08" stat="mAtk" />
 			<set val="8" order="0x08" stat="rCrit" />
-			<add val="0" order="0x10" stat="accCombat" />
 			<set val="325" order="0x08" stat="pAtkSpd" />
 			<enchant val="0" order="0x0C" stat="pAtk" />
 			<enchant val="0" order="0x0C" stat="mAtk" />
@@ -174,7 +169,6 @@
 			<set val="405" order="0x08" stat="pAtk" />
 			<set val="151" order="0x08" stat="mAtk" />
 			<set val="8" order="0x08" stat="rCrit" />
-			<add val="0" order="0x10" stat="accCombat" />
 			<set val="325" order="0x08" stat="pAtkSpd" />
 			<enchant val="0" order="0x0C" stat="pAtk" />
 			<enchant val="0" order="0x0C" stat="mAtk" />
@@ -185,7 +179,6 @@
 			<set val="267" order="0x08" stat="pAtk" />
 			<set val="202" order="0x08" stat="mAtk" />
 			<set val="8" order="0x08" stat="rCrit" />
-			<add val="0" order="0x10" stat="accCombat" />
 			<set val="379" order="0x08" stat="pAtkSpd" />
 			<enchant val="0" order="0x0C" stat="pAtk" />
 			<enchant val="0" order="0x0C" stat="mAtk" />
@@ -196,7 +189,6 @@
 			<set val="267" order="0x08" stat="pAtk" />
 			<set val="202" order="0x08" stat="mAtk" />
 			<set val="8" order="0x08" stat="rCrit" />
-			<add val="0" order="0x10" stat="accCombat" />
 			<set val="379" order="0x08" stat="pAtkSpd" />
 			<enchant val="0" order="0x0C" stat="pAtk" />
 			<enchant val="0" order="0x0C" stat="mAtk" />
@@ -207,7 +199,6 @@
 			<set val="267" order="0x08" stat="pAtk" />
 			<set val="202" order="0x08" stat="mAtk" />
 			<set val="8" order="0x08" stat="rCrit" />
-			<add val="0" order="0x10" stat="accCombat" />
 			<set val="379" order="0x08" stat="pAtkSpd" />
 			<enchant val="0" order="0x0C" stat="pAtk" />
 			<enchant val="0" order="0x0C" stat="mAtk" />
@@ -224,7 +215,11 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 			<!-- SA: Cheap Shot -->
 			<!-- Notes: There is no SA skill for this one. It's actually modified on the weapon itself. -->
-			<mul val="0.96" order="0x30" stat="MpConsume" /><!-- Update by rocknow -->
+			<set order="0x08" stat="MpConsume" val="1">
+				<and>
+					<game skill="false" chance="26" />
+				</and>
+			</set>
 		</for>
 	</item>
 	<item id="9864" name="Dynasty Bow - Guidance">
