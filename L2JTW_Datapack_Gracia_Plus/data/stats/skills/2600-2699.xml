@@ -648,8 +648,11 @@
 		<set name="skillType" val="BUFF" />
 		<set name="operateType" val="OP_ACTIVE" />
 		<set name="transformId" val="121" />
+		<cond msgId="1509">
+			<player olympiad="false" />
+		</cond>
 		<for>
-			<effect count="1" name="Transformation" time="1800" val="0" />
+			<effect name="Transformation" time="1800" val="0" />
 		</for>
 	</skill>
 	<skill id="2671" levels="1" name="Scroll of Transformation - Blue">
@@ -659,8 +662,11 @@
 		<set name="skillType" val="BUFF" />
 		<set name="operateType" val="OP_ACTIVE" />
 		<set name="transformId" val="122" />
+		<cond msgId="1509">
+			<player olympiad="false" />
+		</cond>
 		<for>
-			<effect count="1" name="Transformation" time="1800" val="0" />
+			<effect name="Transformation" time="1800" val="0" />
 		</for>
 	</skill>
 	<skill id="2672" levels="1" name="Gludio Human Mercenary">

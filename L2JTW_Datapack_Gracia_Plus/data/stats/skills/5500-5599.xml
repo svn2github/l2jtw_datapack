@@ -679,16 +679,16 @@
 		<set name="operateType" val="OP_ACTIVE" />
 	</skill>
 	<skill id="5580" levels="1" name="Divine Beast Bite">
-		<!-- Update by rocknow from L2Emu -->
+		<!-- Update by rocknow -->
 		<set name="mpConsume" val="80" />
-		<set name="power" val="2977" />
+		<set name="power" val="1000" />
 		<set name="target" val="TARGET_ONE" />
-		<set name="skillType" val="PDAM" />
 		<set name="hitTime" val="1080" />
-		<set name="reuseDelay" val="20000" />
+		<set name="reuseDelay" val="5000" />
+		<set name="skillType" val="PDAM" />
 		<set name="operateType" val="OP_ACTIVE" />
 		<set name="castRange" val="40" />
-		<set name="effectRange" val="150" />
+		<set name="effectRange" val="400" />
 	</skill>
 	<skill id="5581" levels="1" name="Divine Beast Stun Attack">
 		<!-- Update by rocknow -->
@@ -697,46 +697,41 @@
 		<set name="lvlDepend" val="1" />
 		<set name="target" val="TARGET_ONE" />
 		<set name="overHit" val="true" />
-		<set name="SSBoost" val="2.0" />
-		<set name="reuseDelay" val="20000" />
 		<set name="hitTime" val="1080" />
-		<set name="coolTime" val="720" />
+		<set name="reuseDelay" val="5000" />
 		<set name="skillType" val="PDAM" />
 		<set name="operateType" val="OP_ACTIVE" />
 		<set name="castRange" val="40" />
-		<set name="isDebuff" val="true" />
 		<set name="effectRange" val="400" />
+		<set name="SSBoost" val="2.0" />
+		<set name="isDebuff" val="true" />
 		<for>
 			<effect name="Stun" time="9" val="0" effectPower="50" effectType="STUN" stackOrder="1" stackType="Stun" />
 		</for>
 	</skill>
 	<skill id="5582" levels="1" name="Divine Beast Fire Breath">
-		<!-- Update by rocknow from L2Emu -->
+		<!-- Update by rocknow -->
 		<set name="mpConsume" val="80" />
 		<set name="power" val="875" />
-		<set name="hitTime" val="1080" />
-		<set name="reuseDelay" val="20000" />
-		<set name="lvlDepend" val="1" />
 		<set name="target" val="TARGET_ONE" />
-		<set name="element" val="1" />
+		<set name="hitTime" val="1080" />
+		<set name="reuseDelay" val="5000" />
 		<set name="skillType" val="PDAM" />
 		<set name="operateType" val="OP_ACTIVE" />
 		<set name="castRange" val="100" />
-		<set name="skillRadius" val="100" />
-		<set name="effectRange" val="155" />
+		<set name="effectRange" val="500" />
+		<set name="element" val="0" />
 	</skill>
 	<skill id="5583" levels="1" name="Divine Beast Roar">
 		<!-- Update by rocknow -->
 		<set name="mpConsume" val="80" />
-		<set name="power" val="2957" />
 		<set name="target" val="TARGET_AURA" />
-		<set name="skillRadius" val="350" />
-		<set name="skillType" val="PDAM" />
 		<set name="hitTime" val="1200" />
-		<set name="reuseDelay" val="20000" />
+		<set name="reuseDelay" val="5000" />
+		<set name="skillType" val="DEBUFF" />
 		<set name="operateType" val="OP_ACTIVE" />
-		<set name="castRange" val="-1" />
-		<set name="effectRange" val="-1" />
+		<set name="skillRadius" val="200" />
+		<set name="isDebuff" val="true" />
 		<for>
 			<effect name="Debuff" time="15" val="0">
 				<mul order="0x30" stat="pAtk" val="0.7" />
@@ -747,42 +742,35 @@
 	<skill id="5584" levels="1" name="Wolf Howl">
 		<!-- Update by rocknow -->
 		<set name="mpConsume" val="55" />
-		<set name="power" val="40" />
 		<set name="target" val="TARGET_AURA" />
-		<set name="skillRadius" val="200" />
-		<set name="reuseDelay" val="8000" />
 		<set name="hitTime" val="1200" />
-		<set name="skillType" val="PDAM" />
+		<set name="reuseDelay" val="5000" />
+		<set name="skillType" val="DEBUFF" />
 		<set name="operateType" val="OP_ACTIVE" />
+		<set name="skillRadius" val="200" />
 		<set name="isDebuff" val="true" />
-		<set name="castRange" val="-1" />
-		<set name="effectRange" val="-1" />
 		<for>
 			<effect name="Debuff" time="15" val="0">
-				<mul order="0x30" stat="pAtk" val="0.7" />
-				<mul order="0x30" stat="mAtk" val="0.7" />
+				<mul order="0x30" stat="pAtk" val="0.77" />
+				<mul order="0x30" stat="mAtk" val="0.77" />
 			</effect>
 		</for>
 	</skill>
 	<skill id="5585" levels="1" name="Strider Roar">
 		<!-- Update by rocknow -->
 		<set name="mpConsume" val="55" />
-		<set name="magicLvl" val="72" />
-		<set name="lvlDepend" val="2" />
-		<set name="power" val="40" />
 		<set name="target" val="TARGET_AURA" />
-		<set name="skillRadius" val="200" />
-		<set name="reuseDelay" val="8000" />
 		<set name="hitTime" val="1200" />
+		<set name="reuseDelay" val="5000" />
 		<set name="skillType" val="DEBUFF" />
-		<set name="isMagic" val="true" />
 		<set name="operateType" val="OP_ACTIVE" />
+		<set name="skillRadius" val="200" />
 		<set name="isDebuff" val="true" />
-		<set name="castRange" val="-1" />
-		<set name="effectRange" val="-1" />
 		<for>
-			<mul order="0x30" stat="pAtkSpd" val="0.7" />
-			<mul order="0x30" stat="mAtkSpd" val="0.7" />
+			<effect name="Debuff" time="15" val="0">
+				<mul order="0x30" stat="pAtkSpd" val="0.77" />
+				<mul order="0x30" stat="mAtkSpd" val="0.77" />
+			</effect>
 		</for>
 	</skill>
 	<skill id="5586" levels="3" name="Pet Might">

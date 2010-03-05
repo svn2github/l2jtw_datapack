@@ -359,11 +359,11 @@
 		<set name="reuseDelay" val="20000" />
 		<set name="skillType" val="MUTE" />
 		<set name="operateType" val="OP_ACTIVE" />
-		<set name="castRange" val="600" />
-		<set name="effectRange" val="1100" />
+		<set name="castRange" val="1000" />
+		<set name="effectRange" val="1500" />
 		<for>
 			<effect name="Mute" time="10" val="0">
-		<mul order="0x30" stat="runSpd" val="0.2" />
+				<mul order="0x30" stat="runSpd" val="0.2" />
 			</effect>
 		</for>
 	</skill>
@@ -374,11 +374,11 @@
 		<set name="reuseDelay" val="20000" />
 		<set name="skillType" val="MUTE" />
 		<set name="operateType" val="OP_ACTIVE" />
-		<set name="castRange" val="600" />
-		<set name="effectRange" val="1100" />
+		<set name="castRange" val="1000" />
+		<set name="effectRange" val="1500" />
 		<for>
 			<effect name="Mute" time="10" val="0">
-		<mul order="0x30" stat="runSpd" val="0.2" />
+				<mul order="0x30" stat="runSpd" val="0.2" />
 			</effect>
 		</for>
 	</skill>
@@ -393,8 +393,8 @@
 		<set name="castRange" val="2000" />
 		<set name="effectRange" val="2500" />
 		<for>
-			<effect name="DamOverTime" count="1" val="65535" noicon="1" />
-			<effect name="RemoveTarget" noicon="1" val="0" />
+			<effect name="DamOverTime" val="65535" noicon="1" />
+			<effect name="RemoveTarget" val="0" noicon="1" />
 		</for>
 	</skill>
 	<skill id="5863" levels="1" name="Destruction of the Soul">
@@ -408,8 +408,8 @@
 		<set name="castRange" val="2000" />
 		<set name="effectRange" val="2500" />
 		<for>
-			<effect name="ManaDamOverTime" count="1" val="65535" noicon="1" />
-			<effect name="RemoveTarget" noicon="1" val="0" />
+			<effect name="ManaDamOverTime" val="65535" noicon="1" />
+			<effect name="RemoveTarget" val="0" noicon="1" />
 		</for>
 	</skill>
 	<skill id="5864" levels="1" name="Decrease Valakas Defense">

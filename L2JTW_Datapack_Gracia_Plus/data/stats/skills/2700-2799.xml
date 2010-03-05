@@ -128,8 +128,11 @@
 		<set name="operateType" val="OP_ACTIVE" />
 		<set name="hitTime" val="2500" />
 		<set name="transformId" val="10" />
+		<cond msgId="1509">
+			<player olympiad="false" />
+		</cond>
 		<for>
-			<effect count="1" name="Transformation" time="1800" val="0" />
+			<effect name="Transformation" time="1800" val="0" />
 		</for>
 	</skill>
 	<skill id="2721" levels="1" name="Aden Elf Mercenary">
@@ -140,8 +143,11 @@
 		<set name="operateType" val="OP_ACTIVE" />
 		<set name="hitTime" val="2500" />
 		<set name="transformId" val="11" />
+		<cond msgId="1509">
+			<player olympiad="false" />
+		</cond>
 		<for>
-			<effect count="1" name="Transformation" time="1800" val="0" />
+			<effect name="Transformation" time="1800" val="0" />
 		</for>
 	</skill>
 	<skill id="2722" levels="1" name="Aden Dark Elf Mercenary">
@@ -152,8 +158,11 @@
 		<set name="operateType" val="OP_ACTIVE" />
 		<set name="hitTime" val="2500" />
 		<set name="transformId" val="12" />
+		<cond msgId="1509">
+			<player olympiad="false" />
+		</cond>
 		<for>
-			<effect count="1" name="Transformation" time="1800" val="0" />
+			<effect name="Transformation" time="1800" val="0" />
 		</for>
 	</skill>
 	<skill id="2723" levels="1" name="Aden Orc Mercenary">
@@ -164,8 +173,11 @@
 		<set name="operateType" val="OP_ACTIVE" />
 		<set name="hitTime" val="2500" />
 		<set name="transformId" val="13" />
+		<cond msgId="1509">
+			<player olympiad="false" />
+		</cond>
 		<for>
-			<effect count="1" name="Transformation" time="1800" val="0" />
+			<effect name="Transformation" time="1800" val="0" />
 		</for>
 	</skill>
 	<skill id="2724" levels="1" name="Aden Dwarf Mercenary">
@@ -176,8 +188,11 @@
 		<set name="operateType" val="OP_ACTIVE" />
 		<set name="hitTime" val="2500" />
 		<set name="transformId" val="14" />
+		<cond msgId="1509">
+			<player olympiad="false" />
+		</cond>
 		<for>
-			<effect count="1" name="Transformation" time="1800" val="0" />
+			<effect name="Transformation" time="1800" val="0" />
 		</for>
 	</skill>
 	<skill id="2725" levels="1" name="Aden Kamael Mercenary">
@@ -188,8 +203,11 @@
 		<set name="operateType" val="OP_ACTIVE" />
 		<set name="hitTime" val="2500" />
 		<set name="transformId" val="15" />
+		<cond msgId="1509">
+			<player olympiad="false" />
+		</cond>
 		<for>
-			<effect count="1" name="Transformation" time="1800" val="0" />
+			<effect name="Transformation" time="1800" val="0" />
 		</for>
 	</skill>
 	<skill id="2726" levels="1" name="Aden Royal Guard Captain">
@@ -200,8 +218,11 @@
 		<set name="operateType" val="OP_ACTIVE" />
 		<set name="hitTime" val="2500" />
 		<set name="transformId" val="16" />
+		<cond msgId="1509">
+			<player olympiad="false" />
+		</cond>
 		<for>
-			<effect count="1" name="Transformation" time="1800" val="0" />
+			<effect name="Transformation" time="1800" val="0" />
 		</for>
 	</skill>
 	<skill id="2727" levels="1" name="Aden Archer Captain">
@@ -212,8 +233,11 @@
 		<set name="operateType" val="OP_ACTIVE" />
 		<set name="hitTime" val="2500" />
 		<set name="transformId" val="17" />
+		<cond msgId="1509">
+			<player olympiad="false" />
+		</cond>
 		<for>
-			<effect count="1" name="Transformation" time="1800" val="0" />
+			<effect name="Transformation" time="1800" val="0" />
 		</for>
 	</skill>
 	<skill id="2728" levels="1" name="Aden Magic Leader">
@@ -224,8 +248,11 @@
 		<set name="operateType" val="OP_ACTIVE" />
 		<set name="hitTime" val="2500" />
 		<set name="transformId" val="18" />
+		<cond msgId="1509">
+			<player olympiad="false" />
+		</cond>
 		<for>
-			<effect count="1" name="Transformation" time="1800" val="0" />
+			<effect name="Transformation" time="1800" val="0" />
 		</for>
 	</skill>
 	<skill id="2729" levels="1" name="Aden Kamael Guard Captain">
@@ -236,8 +263,11 @@
 		<set name="operateType" val="OP_ACTIVE" />
 		<set name="hitTime" val="2500" />
 		<set name="transformId" val="19" />
+		<cond msgId="1509">
+			<player olympiad="false" />
+		</cond>
 		<for>
-			<effect count="1" name="Transformation" time="1800" val="0" />
+			<effect name="Transformation" time="1800" val="0" />
 		</for>
 	</skill>
 	<skill id="2730" levels="1" name="Aden Knight of Dawn">
@@ -248,8 +278,11 @@
 		<set name="operateType" val="OP_ACTIVE" />
 		<set name="hitTime" val="2500" />
 		<set name="transformId" val="20" />
+		<cond msgId="1509">
+			<player olympiad="false" />
+		</cond>
 		<for>
-			<effect count="1" name="Transformation" time="1800" val="0" />
+			<effect name="Transformation" time="1800" val="0" />
 		</for>
 	</skill>
 	<skill id="2731" levels="1" name="Aden Fortress Captain">
@@ -260,8 +293,11 @@
 		<set name="operateType" val="OP_ACTIVE" />
 		<set name="hitTime" val="2500" />
 		<set name="transformId" val="21" />
+		<cond msgId="1509">
+			<player olympiad="false" />
+		</cond>
 		<for>
-			<effect count="1" name="Transformation" time="1800" val="0" />
+			<effect name="Transformation" time="1800" val="0" />
 		</for>
 	</skill>
 	<skill id="2732" levels="1" name="Innadril Human Mercenary">

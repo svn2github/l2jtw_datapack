@@ -279,14 +279,12 @@
 	</skill>
 	<skill id="8336" levels="1" name="Guardian's Strider Mount">
 		<!-- Update by rocknow -->
-		<set name="operateType" val="OP_ACTIVE" />
-		<set name="skillType" val="BUFF" />
 		<set name="target" val="TARGET_SELF" />
+		<set name="skillType" val="BUFF" />
+		<set name="operateType" val="OP_ACTIVE" />
 		<set name="transformId" val="123" />
 		<for>
-			<effect name="Transformation" time="1800" val="0">
-				<mul order="0x30" stat="runSpd" val="1" /> <!-- Run Speed +50% --><!-- Update by rocknow -->
-			</effect>
+			<effect name="Transformation" time="1800" val="0" />
 		</for>
 	</skill>
 	<skill id="8337" levels="1" name="Weight Up">
@@ -449,19 +447,15 @@
 	</skill>
 	<skill id="8357" levels="1" name="Einhasad's Strike">
 		<!-- Update by rocknow -->
-		<set name="mpConsume" val="90" />
+		<set name="mpConsume" val="100" />
 		<set name="power" val="2000" />
-		<set name="SSBoost" val="2.0" />
 		<set name="target" val="TARGET_FRONT_AREA" />
-		<set name="skillRadius" val="200" />
-		<set name="overHit" val="true" />
+		<set name="hitTime" val="1300" />
 		<set name="reuseDelay" val="10000" />
-		<set name="hitTime" val="1500" />
 		<set name="skillType" val="PDAM" />
 		<set name="operateType" val="OP_ACTIVE" />
-		<set name="castRange" val="40" />
-		<set name="effectRange" val="400" />
-		<set name="baseCritRate" val="15" />
+		<set name="castRange" val="200" />
+		<set name="effectRange" val="700" />
 	</skill>
 	<skill id="8358" levels="1" name="Remove the seal of an Agathion - Towbat">
 		<!-- Update by rocknow -->

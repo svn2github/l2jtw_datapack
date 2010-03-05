@@ -634,33 +634,34 @@
 	</skill>
 	<skill id="8238" levels="1" name="Shalin Strike">
 		<!-- Update by rocknow -->
+		<table name="#mpConsume"> 10 20 30 </table>
+		<set name="mpConsume" val="#mpConsume" />
 		<set name="weaponsAllowed" val="512" />
-		<set name="mpConsume" val="74" />
 		<set name="power" val="300" />
 		<set name="target" val="TARGET_ONE" />
-		<set name="overHit" val="true" />
-		<set name="SSBoost" val="2.0" />
-		<set name="reuseDelay" val="3000" />
+		<set name="hitTime" val="2500" />
+		<set name="reuseDelay" val="5000" />
 		<set name="skillType" val="PDAM" />
 		<set name="operateType" val="OP_ACTIVE" />
-		<set name="hitTime" val="2500" />
 		<set name="castRange" val="40" />
 		<set name="effectRange" val="400" />
+		<set name="element" val="1" />
 	</skill>
 	<skill id="8239" levels="1" name="Critical Up">
 		<!-- Update by rocknow -->
 		<set name="weaponsAllowed" val="64" />
 		<set name="mpConsume" val="74" />
 		<set name="target" val="TARGET_SELF" />
+		<set name="hitTime" val="2500" />
+		<set name="reuseDelay" val="5000" />
 		<set name="skillType" val="BUFF" />
 		<set name="operateType" val="OP_ACTIVE" />
-		<set name="triggeredId" val="5760" /> <!-- NOT SUPPORT -->
+		<set name="triggeredId" val="5760" />
 		<set name="triggeredLevel" val="1" />
-		<set name="activationChance" val="99" />
+		<set name="activationChance" val="80" />
 		<set name="chanceType" val="ON_CRIT" />
-		<set name="hitTime" val="2500" />
 		<for>
-			<effect name="Buff" time="600" val="0">
+			<effect name="Buff" time="180" val="0">
 				<basemul order="0x30" stat="rCrit" val="0.2" />
 				<mul order="0x30" stat="pAtkSpd" val="1.2" />
 			</effect>
@@ -668,24 +669,17 @@
 	</skill>
 	<skill id="8240" levels="3" name="Obliteration Storm">
 		<!-- Update by rocknow -->
-		<table name="#charges"> 3 5 7 </table>
-		<table name="#power"> 600 700 800 </table>
+		<table name="#power"> 200 250 300 </table>
 		<set name="weaponsAllowed" val="64" />
 		<set name="mpConsume" val="148" />
-		<set name="magicLvl" val="64" />
-		<set name="target" val="TARGET_AREA" />
-		<set name="overHit" val="true" />
-		<set name="SSBoost" val="2.0" />
-		<set name="reuseDelay" val="5000" />
+		<set name="power" val="#power" />
+		<set name="target" val="TARGET_AURA" />
 		<set name="hitTime" val="2500" />
+		<set name="reuseDelay" val="5000" />
 		<set name="skillType" val="PDAM" />
 		<set name="operateType" val="OP_ACTIVE" />
-		<set name="castRange" val="700" />
-		<set name="effectRange" val="1200" />
-		<set name="power" val="#power" />
-		<set name="ignoreShld" val="true" />
 		<set name="isDebuff" val="true" />
-		<set name="numCharges" val="#charges" />
+		<set name="skillRadius" val="200" />
 		<for>
 			<effect name="Stun" time="9" val="0" stackOrder="1" stackType="Stun" effectPower="50" effectType="STUN" />
 		</for>
@@ -694,7 +688,7 @@
 		<!-- Update by rocknow -->
 		<set name="mpConsume" val="48" />
 		<set name="target" val="TARGET_ONE" />
-		<set name="reuseDelay" val="2000" />
+		<set name="reuseDelay" val="5000" />
 		<set name="hitTime" val="4000" />
 		<set name="skillType" val="BUFF" />
 		<set name="isMagic" val="true" />
@@ -714,7 +708,7 @@
 		<set name="target" val="TARGET_ONE" />
 		<set name="element" val="1" />
 		<set name="elementPower" val="20" />
-		<set name="reuseDelay" val="2000" />
+		<set name="reuseDelay" val="5000" />
 		<set name="hitTime" val="3000" />
 		<set name="skillType" val="PDAM" />
 		<set name="operateType" val="OP_ACTIVE" />
@@ -727,15 +721,14 @@
 		<set name="mpConsume" val="61" />
 		<set name="power" val="300" />
 		<set name="target" val="TARGET_ONE" />
-		<set name="element" val="1" />
-		<set name="elementPower" val="20" />
-		<set name="reuseDelay" val="2000" />
-		<set name="hitTime" val="3000" />
+		<set name="hitTime" val="850" />
+		<set name="reuseDelay" val="5000" />
 		<set name="skillType" val="PDAM" />
 		<set name="operateType" val="OP_ACTIVE" />
-		<set name="hitTime" val="850" />
 		<set name="castRange" val="40" />
 		<set name="effectRange" val="400" />
+		<set name="element" val="1" />
+		<set name="elementPower" val="20" />
 	</skill>
 	<skill id="8244" levels="1" name="Transform Gatekeeper">
 		<set name="target" val="TARGET_SELF" />
@@ -809,7 +802,6 @@
 		<set name="reuseDelay" val="20000" />
 		<set name="hitTime" val="15000" />
 		<set name="skillType" val="SUMMON" />
-		<set name="isMagic" val="true" />
 		<set name="operateType" val="OP_ACTIVE" />
 		<set name="npcId" val="#npcIds" />
 		<set name="expPenalty" val="0.15" />

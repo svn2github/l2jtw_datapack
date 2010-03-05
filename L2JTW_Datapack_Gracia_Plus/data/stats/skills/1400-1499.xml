@@ -219,21 +219,12 @@
 		</for>
 	</skill>
 	<skill id="1412" levels="1" name="Spell Turning">
-		<!-- Update by rocknow -->
-		<set name="mpConsume" val="25" />
-		<set name="target" val="TARGET_ONE" />
-		<set name="reuseDelay" val="120000" />
-		<set name="hitTime" val="150" />
-		<set name="skillType" val="CANCEL" />
-		<set name="skill_landing_percent" val="100" />
-		<set name="operateType" val="OP_ACTIVE" />
-		<set name="isMagic" val="true" />
-		<set name="castRange" val="150" />
-		<set name="effectRange" val="150" />
-		<for>
-			<effect count="1" name="Mute" time="1" val="0" noicon="1" />
-			<effect count="1" name="RemoveTarget" time="1" val="0" noicon="1" />
-		</for>
+		<!-- Cancels a nearby target's magic casting. -->
+		<set name="target" val="TARGET_NONE" />
+		<set name="skillType" val="NOTDONE" />
+		<set name="operateType" val="OP_PASSIVE" />
+		<set name="hitTime" val="500" />
+		<set name="reuseDelay" val="30000" />
 	</skill>
 	<skill id="1413" levels="1" name="Magnus' Chant">
 		<set name="itemConsumeId" val="3031" />
@@ -1744,7 +1735,7 @@
 		<set name="effectRange" val="1200" />
 		<set name="reuseDelay" val="360000" /> <!-- Need retail -->
 		<set name="negateId" val="1487" />
-		<cond msgId="113" addName="1"><!-- Update by rocknow -->
+		<cond msgId="109">
 			<target active_effect_id="1487" />
 		</cond>
 		<for>

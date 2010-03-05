@@ -109,12 +109,10 @@
 	</skill>
 	<skill id="2309" levels="1" name="Pig Chest">
 		<!-- Update by rocknow -->
-		<set name="itemConsumeId" val="9144" />
 		<set name="itemConsumeCount" val="1" />
 		<set name="target" val="TARGET_SELF" />
 		<set name="skillType" val="EXTRACTABLE" />
 		<set name="operateType" val="OP_ACTIVE" />
-		<set name="castRange" val="-1" />
 		<cond msgId="129">
 			<and>
 				<player invSize="10" />
@@ -589,16 +587,11 @@
 		<set name="staticHitTime" val="true" />
 	</skill>
 	<skill id="2357" levels="1" name="Fiery Demon Blood">
-		<!-- Update by rocknow -->
+		<set name="target" val="TARGET_NONE" />
+		<set name="skillType" val="NOTDONE" />
+		<set name="operateType" val="OP_PASSIVE" />
 		<set name="hitTime" val="100" />
 		<set name="staticHitTime" val="true" />
-		<set name="target" val="TARGET_SELF" />
-		<set name="skillType" val="BUFF" />
-		<set name="operateType" val="OP_ACTIVE" />
-		<set name="isPotion" val="true" />
-		<for>
-			<effect name="Buff" time="600" val="0" />
-		</for>
 	</skill>
 	<skill id="2358" levels="1" name="Holy Water">
 		<set name="target" val="TARGET_ONE" />
@@ -763,98 +756,114 @@
 	</skill>
 	<skill id="2371" levels="1" name="Transform Sealbook - Onyx Beast">
 		<!-- Update by rocknow -->
-		<set name="itemConsumeId" val="10131" />
 		<set name="itemConsumeCount" val="1" />
 		<set name="target" val="TARGET_SELF" />
 		<set name="skillType" val="BUFF" />
 		<set name="operateType" val="OP_ACTIVE" />
 		<set name="transformId" val="1" />
+		<cond msgId="1509">
+			<player olympiad="false" />
+		</cond>
 		<for>
-			<effect count="1" name="Transformation" time="1800" val="0" />
+			<effect name="Transformation" time="1800" val="0" />
 		</for>
 	</skill>
 	<skill id="2372" levels="1" name="Transform Sealbook - Death Blader">
 		<!-- Update by rocknow -->
-		<set name="itemConsumeId" val="10132" />
 		<set name="itemConsumeCount" val="1" />
 		<set name="target" val="TARGET_SELF" />
 		<set name="skillType" val="BUFF" />
 		<set name="operateType" val="OP_ACTIVE" />
 		<set name="transformId" val="2" />
+		<cond msgId="1509">
+			<player olympiad="false" />
+		</cond>
 		<for>
-			<effect count="1" name="Transformation" time="1800" val="0" />
+			<effect name="Transformation" time="1800" val="0" />
 		</for>
 	</skill>
 	<skill id="2373" levels="1" name="Transform Sealbook - Grail Apostle">
 		<!-- Update by rocknow -->
-		<set name="itemConsumeId" val="10133" />
 		<set name="itemConsumeCount" val="1" />
 		<set name="target" val="TARGET_SELF" />
 		<set name="skillType" val="BUFF" />
 		<set name="operateType" val="OP_ACTIVE" />
 		<set name="transformId" val="201" />
+		<cond msgId="1509">
+			<player olympiad="false" />
+		</cond>
 		<for>
-			<effect count="1" name="Transformation" time="1800" val="0" />
+			<effect name="Transformation" time="1800" val="0" />
 		</for>
 	</skill>
 	<skill id="2374" levels="1" name="Transform Sealbook - Unicorn">
 		<!-- Update by rocknow -->
-		<set name="itemConsumeId" val="10134" />
 		<set name="itemConsumeCount" val="1" />
 		<set name="target" val="TARGET_SELF" />
 		<set name="skillType" val="BUFF" />
 		<set name="operateType" val="OP_ACTIVE" />
 		<set name="transformId" val="204" />
+		<cond msgId="1509">
+			<player olympiad="false" />
+		</cond>
 		<for>
-			<effect count="1" name="Transformation" time="1800" val="0" />
+			<effect name="Transformation" time="1800" val="0" />
 		</for>
 	</skill>
 	<skill id="2375" levels="1" name="Transform Sealbook - Lilim Knight">
 		<!-- Update by rocknow -->
-		<set name="itemConsumeId" val="10135" />
 		<set name="itemConsumeCount" val="1" />
 		<set name="target" val="TARGET_SELF" />
 		<set name="skillType" val="BUFF" />
 		<set name="operateType" val="OP_ACTIVE" />
 		<set name="transformId" val="207" />
+		<cond msgId="1509">
+			<player olympiad="false" />
+		</cond>
 		<for>
-			<effect count="1" name="Transformation" time="1800" val="0" />
+			<effect name="Transformation" time="1800" val="0" />
 		</for>
 	</skill>
 	<skill id="2376" levels="1" name="Transform Sealbook - Golem Guardian">
 		<!-- Update by rocknow -->
-		<set name="itemConsumeId" val="10136" />
 		<set name="itemConsumeCount" val="1" />
 		<set name="target" val="TARGET_SELF" />
 		<set name="skillType" val="BUFF" />
 		<set name="operateType" val="OP_ACTIVE" />
 		<set name="transformId" val="210" />
+		<cond msgId="1509">
+			<player olympiad="false" />
+		</cond>
 		<for>
-			<effect count="1" name="Transformation" time="1800" val="0" />
+			<effect name="Transformation" time="1800" val="0" />
 		</for>
 	</skill>
 	<skill id="2377" levels="1" name="Transform Sealbook - Inferno Drake">
 		<!-- Update by rocknow -->
-		<set name="itemConsumeId" val="10137" />
 		<set name="itemConsumeCount" val="1" />
 		<set name="target" val="TARGET_SELF" />
 		<set name="skillType" val="BUFF" />
 		<set name="operateType" val="OP_ACTIVE" />
 		<set name="transformId" val="213" />
+		<cond msgId="1509">
+			<player olympiad="false" />
+		</cond>
 		<for>
-			<effect count="1" name="Transformation" time="1800" val="0" />
+			<effect name="Transformation" time="1800" val="0" />
 		</for>
 	</skill>
 	<skill id="2378" levels="1" name="Transform Sealbook - Dragon Bomber">
 		<!-- Update by rocknow -->
-		<set name="itemConsumeId" val="10138" />
 		<set name="itemConsumeCount" val="1" />
 		<set name="target" val="TARGET_SELF" />
 		<set name="skillType" val="BUFF" />
 		<set name="operateType" val="OP_ACTIVE" />
 		<set name="transformId" val="216" />
+		<cond msgId="1509">
+			<player olympiad="false" />
+		</cond>
 		<for>
-			<effect count="1" name="Transformation" time="1800" val="0" />
+			<effect name="Transformation" time="1800" val="0" />
 		</for>
 	</skill>
 	<skill id="2379" levels="1" name="Wind">
@@ -1064,7 +1073,6 @@
 	</skill>
 	<skill id="2394" levels="1" name="Scroll of Battlefield Transformation">
 		<!-- Update by rocknow -->
-		<set name="itemConsumeId" val="10151" />
 		<set name="itemConsumeCount" val="1" />
 		<set name="target" val="TARGET_SELF" />
 		<set name="skillType" val="BUFF" />
@@ -1074,7 +1082,7 @@
 			<player SiegeZone="126" />
 		</cond>
 		<for>
-			<effect count="1" name="Transformation" time="1800" val="0" />
+			<effect name="Transformation" time="1800" val="0" />
 		</for>
 	</skill>
 	<skill id="2395" levels="1" name="Lesser Battlefield Healing Potion">

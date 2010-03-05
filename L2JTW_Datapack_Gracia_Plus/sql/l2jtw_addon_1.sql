@@ -295,8 +295,6 @@ REPLACE INTO `npc` VALUES
 (32362, 32362, 'Hellbound Native', 0, '', 0, 'LineageNPC.a_common_peopleC_Mhuman', 8.00, 23.50, 1, 'male', 'L2Npc', 40, 2444, 2444, 0.00, 0.00, 10, 10, 10, 10, 10, 10, 0, 0, 500, 500, 500, 500, 253, 0, 253, 0, 0, 0, 0, 80, 120, 0, 0, 'LAST_HIT', 'false');
 REPLACE INTO `minions` VALUES (22448, 22451, 2, 2); -- 雷歐達斯 反抗軍指揮官
 REPLACE INTO `minions` VALUES (22449, 22450, 8, 8); -- 亞邁士康里 拷問專家
-UPDATE `etcitem` SET `skill` = '2440-1;', `handler` = 'ItemSkills' WHERE `item_id` = '9599'; -- 惡魔的古書
-UPDATE `etcitem` SET `skill` = '2357-1;', `handler` = 'ItemSkills' , `item_type` = 'herb' WHERE `item_id` = '9849'; -- 惡魔溫熱的血
 
                                   
 /************ 修正BOSS ************/
@@ -310,7 +308,7 @@ REPLACE INTO `grandboss_data` VALUES
 (29028, 212852, -114842, -1632, 833, 0, 16660000, 39960, 0),   -- 巴拉卡斯
 (29065, -123348, -248881, -15537, 44732, 0, 1532678, 4255, 0), -- 賽爾蘭
 (29099, 153569, 142075, -12732, 60025, 0, 1448567, 3718, 0);   -- 巴爾勒
-UPDATE `npc` SET `aggro` = 500 WHERE `id` IN (29020,29021,29022,29065);
+UPDATE `npc` SET `aggro` = 500 WHERE `id` IN (29020,29022,29065);
 UPDATE `npc` SET `aggro` = 800 WHERE `id` IN (29019,29028);
 UPDATE `npc` SET `hp` = '13090000', `mp` = '39960' WHERE `id` IN (29019);
 UPDATE `npc` SET `hp` = '3698520', `mp` = '39960' WHERE `id` IN (29020);
@@ -318,7 +316,7 @@ UPDATE `npc` SET `hp` = '16660000', `mp` = '39960' WHERE `id` IN (29028);
 UPDATE `npc` SET `hp` = '1532678', `mp` = '4255', `type` = 'L2GrandBoss', `level` = '87' WHERE `id` IN (29065);
 UPDATE `npc` SET `atkspd` = '540', `matkspd` = '253', `walkspd` = '80', `runspd` = '120' WHERE `id` IN (29099);
 UPDATE `npc` SET `collision_radius` = '38.00', `collision_height` = '77.00' WHERE `id` IN (29108);
-DELETE FROM `npcskills` Where `skillid` IN (5224,5225);
+DELETE FROM `npcskills` Where `skillid` IN (5118,5224,5225);
 REPLACE INTO `droplist` VALUES
 (29099,6578,1,10,2,500000),
 (29099,9458,1,1,1,300000),
@@ -793,9 +791,6 @@ DELETE FROM `spawnlist` WHERE `npc_templateid` IN (31757);
 UPDATE `etcitem` SET `skill` = '2150-1;', `handler` = 'SoulShots', `item_type` = 'shot', `crystal_type` = 'd' WHERE `item_id` = 13037;
 UPDATE `etcitem` SET `skill` = '2153-1;', `handler` = 'SoulShots', `item_type` = 'shot', `crystal_type` = 'a' WHERE `item_id` = 13045;
 UPDATE `etcitem` SET `skill` = '2153-1;', `handler` = 'SoulShots', `item_type` = 'shot', `crystal_type` = 'a' WHERE `item_id` = 13055;
-UPDATE `weapon` SET `skill` = '3599-1;8239-1;8240-1;8241-1;5760-3;' WHERE `item_id` = 13052;
-UPDATE `weapon` SET `skill` = '3599-1;8239-1;8240-2;8241-1;5760-5;' WHERE `item_id` = 13053;
-UPDATE `weapon` SET `skill` = '3599-1;8239-1;8240-3;8241-1;5760-7;' WHERE `item_id` = 13054;
 UPDATE `weapon` SET `skill` = '0-0;' WHERE `item_id` = 13042;
 UPDATE `npc` SET `collision_radius` = 28, `collision_height` = 20, `level` = 61, `hp` = 3450, `mp` = 1365, `patk` = 991, `pdef` = 415, `matk` = 504, `mdef` = 388, `runspd` = 187 WHERE `id` = 14916;
 UPDATE `npc` SET `collision_radius` = 28, `collision_height` = 20, `level` = 70, `hp` = 4025, `mp` = 1592, `patk` = 1156, `pdef` = 484, `matk` = 588, `mdef` = 452, `runspd` = 187 WHERE `id` = 14917;
@@ -825,6 +820,21 @@ UPDATE `armor` SET `skill` = '21093-1;21112-1;' WHERE `item_id` = 20617; -- 耳機
 UPDATE `armor` SET `skill` = '21094-1;21113-1;' WHERE `item_id` = 20618; -- 耳機
 UPDATE `armor` SET `skill` = '21095-1;' WHERE `item_id` = 20626;         -- 回魂帽
 UPDATE `armor` SET `skill` = '21096-1;' WHERE `item_id` = 20633;         -- 西瓜帽
+UPDATE `armor` SET `skill` = '21098-1;' WHERE `item_id` = 20667;         -- 女武神帽
+UPDATE `armor` SET `skill` = '21099-1;' WHERE `item_id` = 20669;         -- 老虎帽
+UPDATE `armor` SET `skill` = '21100-1;' WHERE `item_id` = 20671;         -- 女僕髮飾
+UPDATE `armor` SET `skill` = '21101-1;' WHERE `item_id` = 20673;         -- 寶寶貓熊帽
+UPDATE `armor` SET `skill` = '21103-1;' WHERE `item_id` = 20675;         -- 團團貓熊帽
+UPDATE `armor` SET `skill` = '21102-1;' WHERE `item_id` = 20677;         -- 圓圓貓熊帽
+UPDATE `armor` SET `skill` = '21104-1;' WHERE `item_id` = 20679;         -- 守門人帽
+UPDATE `armor` SET `skill` = '21120-1;' WHERE `item_id` = 20711;         -- 傑克南瓜面具-活動
+UPDATE `armor` SET `skill` = '21120-1;' WHERE `item_id` = 20723;         -- 黃金傑克南瓜面具
+UPDATE `armor` SET `skill` = '21120-1;21136-1;' WHERE `item_id` = 20724; -- 黃金傑克南瓜面具
+UPDATE `armor` SET `skill` = '21137-1;' WHERE `item_id` = 20743;         -- 閃耀的科學怪人面具
+UPDATE `armor` SET `skill` = '21138-1;' WHERE `item_id` = 20744;         -- 閃耀的驚聲尖叫面具
+UPDATE `armor` SET `skill` = '21139-1;' WHERE `item_id` = 20745;         -- 閃耀的憤怒精靈面具
+UPDATE `armor` SET `skill` = '21140-1;' WHERE `item_id` = 20746;         -- 閃耀的不朽骸骨面具
+UPDATE `armor` SET `skill` = '21141-1;' WHERE `item_id` = 20747;         -- 閃耀的X235行星面具
 UPDATE `armor` SET `skill` = '21152-1;' WHERE `item_id` = 20789;         -- 火箭炮帽
 
 -- 新手鐲
@@ -836,11 +846,7 @@ UPDATE `etcitem` SET `skill` = '2869-1;', `handler` = 'ItemSkills' WHERE `item_i
 UPDATE `etcitem` SET `skill` = '2870-1;', `handler` = 'ItemSkills' WHERE `item_id` = 14725;                                -- 活動-超神牛召喚卷軸
 UPDATE `etcitem` SET `skill` = '2880-1;', `handler` = 'ItemSkills' WHERE `item_id` = 14726;                                -- 活動-憂鬱哞哞牛召喚卷軸
 UPDATE `etcitem` SET `skill` = '2881-1;', `handler` = 'ItemSkills' WHERE `item_id` = 14727;                                -- 活動-憂鬱超神牛召喚卷軸
-UPDATE `etcitem` SET `skill` = '22095-1;', `handler` = 'ItemSkills', `consume_type` = 'stackable' WHERE `item_id` = 20585; -- 火焰種子
-UPDATE `etcitem` SET `skill` = '22096-1;', `handler` = 'ItemSkills', `consume_type` = 'stackable' WHERE `item_id` = 20586; -- 爆發性的火焰種子
 UPDATE `etcitem` SET `consume_type` = 'stackable' WHERE `item_id` = 20597;                                                 -- 少女的精靈石
-UPDATE `etcitem` SET `skill` = '22099-1;', `handler` = 'ItemSkills', `consume_type` = 'stackable' WHERE `item_id` = 20602; -- 靈魂銀紙
-UPDATE `etcitem` SET `skill` = '22100-1;', `handler` = 'ItemSkills', `consume_type` = 'stackable' WHERE `item_id` = 20603; -- 靈魂香
 UPDATE `etcitem` SET `skill` = '22105-1;', `handler` = 'ItemSkills', `consume_type` = 'stackable' WHERE `item_id` = 20707; -- 兀兒德召喚卷軸
 UPDATE `etcitem` SET `skill` = '22106-1;', `handler` = 'ItemSkills', `consume_type` = 'stackable' WHERE `item_id` = 20708; -- 貝爾丹蒂召喚卷軸
 UPDATE `etcitem` SET `skill` = '22107-1;', `handler` = 'ItemSkills', `consume_type` = 'stackable' WHERE `item_id` = 20709; -- 斯庫迪召喚卷軸

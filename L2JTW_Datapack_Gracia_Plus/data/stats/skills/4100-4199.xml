@@ -542,7 +542,7 @@
 	<skill id="4133" levels="1" name="Angel Heal">
 		<set name="magicLvl" val="75" />
 		<set name="power" val="1000" />
-		<set name="target" val="TARGET_SELF" /> <!-- Update by rocknow -->
+		<set name="target" val="TARGET_ONE" />
 		<set name="hitTime" val="2000" />
 		<set name="skillType" val="HEAL" />
 		<set name="operateType" val="OP_ACTIVE" />

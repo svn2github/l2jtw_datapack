@@ -412,22 +412,23 @@
 	</skill>
 	<skill id="5238" levels="1" name="Freezing">
 		<!-- Update by rocknow -->
+		<set name="mpConsume" val="112" />
 		<set name="magicLvl" val="83" />
 		<set name="lvlDepend" val="1" />
-		<set name="power" val="500" />
+		<set name="power" val="100" />
 		<set name="target" val="TARGET_ONE" />
-		<set name="element" val="1" /> <!-- Water -->
-		<set name="elementPower" val="100" />
-		<set name="reuseDelay" val="30000" />
 		<set name="hitTime" val="3000" />
+		<set name="reuseDelay" val="30000" />
 		<set name="skillType" val="MDAM" />
-		<set name="isMagic" val="true" />
-		<set name="isDebuff" val="true" />
 		<set name="operateType" val="OP_ACTIVE" />
 		<set name="castRange" val="40" />
-		<set name="effectRange" val="500" />
+		<set name="effectRange" val="400" />
+		<set name="element" val="1" />
+		<set name="elementPower" val="100" />
+		<set name="isMagic" val="true" />
+		<set name="isDebuff" val="true" />
 		<for>
-			<effect name="Debuff" time="10" val="0" effectPower="60" effectType="DEBUFF" stackOrder="0.7" stackType="RunSpeedDown">
+			<effect name="Debuff" time="20" val="0" effectPower="60" effectType="DEBUFF" stackOrder="0.7" stackType="RunSpeedDown">
 				<mul order="0x30" stat="runSpd" val="0" />
 			</effect>
 		</for>

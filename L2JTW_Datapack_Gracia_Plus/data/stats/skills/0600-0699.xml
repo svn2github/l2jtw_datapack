@@ -1060,23 +1060,10 @@
 		</for>
 	</skill>
 	<skill id="679" levels="1" name="Sacrifice Warrior">
-		<!-- Update by rocknow from L2Emu -->
+		<set name="target" val="TARGET_NONE" />
+		<set name="skillType" val="NOTDONE" />
+		<set name="operateType" val="OP_PASSIVE" />
 		<set name="hitTime" val="2500" />
-		<set name="reuseDelay" val="70000" />
-		<set name="target" val="TARGET_PARTY" />
-		<set name="skillRadius" val="600" />
-		<set name="skillType" val="BUFF" />
-		<set name="operateType" val="OP_ACTIVE" />
-		<set name="castRange" val="-1" />
-		<set name="effectRange" val="-1" />
-		<cond msgId="113" addName="1"><!-- Update by rocknow -->
-			<player hp="30" />
-		</cond>
-		<for>
-			<effect name="Buff" count="1" time="45" val="0">
-				<mul order="0x30" stat="pAtk" val="1.55" />
-			</effect>
-		</for>
 	</skill>
 	<skill id="680" levels="1" name="Divine Knight Hate">
 		<set name="castRange" val="400" />
@@ -1156,23 +1143,10 @@
 		</effect>
 	</skill>
 	<skill id="685" levels="1" name="Sacrifice Knight">
-		<!-- Update by rocknow from L2Emu -->
+		<set name="target" val="TARGET_NONE" />
+		<set name="skillType" val="NOTDONE" />
+		<set name="operateType" val="OP_PASSIVE" />
 		<set name="hitTime" val="2500" />
-		<set name="reuseDelay" val="70000" />
-		<set name="target" val="TARGET_PARTY" />
-		<set name="skillRadius" val="600" />
-		<set name="skillType" val="BUFF" />
-		<set name="operateType" val="OP_ACTIVE" />
-		<set name="castRange" val="-1" />
-		<set name="effectRange" val="-1" />
-		<cond msgId="113" addName="1"><!-- Update by rocknow -->
-			<player hp="30" />
-		</cond>
-		<for>
-			<effect name="Buff" count="1" time="45" val="0">
-				<mul order="0x30" stat="pDef" val="1.55" />
-			</effect>
-		</for>
 	</skill>
 	<skill id="686" levels="1" name="Divine Rogue Stun Shot">
 		<set name="castRange" val="900" />
@@ -1259,23 +1233,10 @@
 		</for>
 	</skill>
 	<skill id="691" levels="1" name="Sacrifice Rogue">
-		<!-- Update by rocknow from L2Emu -->
+		<set name="target" val="TARGET_NONE" />
+		<set name="skillType" val="NOTDONE" />
+		<set name="operateType" val="OP_PASSIVE" />
 		<set name="hitTime" val="2500" />
-		<set name="reuseDelay" val="70000" />
-		<set name="target" val="TARGET_PARTY" />
-		<set name="skillRadius" val="600" />
-		<set name="skillType" val="BUFF" />
-		<set name="operateType" val="OP_ACTIVE" />
-		<set name="castRange" val="-1" />
-		<set name="effectRange" val="-1" />
-		<cond msgId="113" addName="1"><!-- Update by rocknow -->
-			<player hp="30" />
-		</cond>
-		<for>
-			<effect name="Buff" count="1" time="45" val="0">
-				<add order="0x40" stat="rEvas" val="6" />
-			</effect>
-		</for>
 	</skill>
 	<skill id="692" levels="1" name="Divine Wizard Holy Flare">
 		<set name="castRange" val="150" />
@@ -1362,23 +1323,10 @@
 		</for>
 	</skill>
 	<skill id="697" levels="1" name="Sacrifice Wizard">
-		<!-- Update by rocknow from L2Emu -->
+		<set name="target" val="TARGET_NONE" />
+		<set name="skillType" val="NOTDONE" />
+		<set name="operateType" val="OP_PASSIVE" />
 		<set name="hitTime" val="2500" />
-		<set name="reuseDelay" val="70000" />
-		<set name="target" val="TARGET_PARTY" />
-		<set name="skillRadius" val="600" />
-		<set name="skillType" val="BUFF" />
-		<set name="operateType" val="OP_ACTIVE" />
-		<set name="castRange" val="-1" />
-		<set name="effectRange" val="-1" />
-		<cond msgId="113" addName="1"><!-- Update by rocknow -->
-			<player hp="30" />
-		</cond>
-		<for>
-			<effect name="Buff" count="1" time="45" val="0">
-				<mul order="0x30" stat="mAtk" val="1.30" />
-			</effect>
-		</for>
 	</skill>
 	<skill id="698" levels="1" name="Divine Healer Major Heal">
 		<set name="castRange" val="600" />

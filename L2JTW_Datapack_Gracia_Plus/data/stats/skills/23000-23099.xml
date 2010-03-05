@@ -987,6 +987,7 @@
 		<set name="operateType" val="OP_ACTIVE" />
 		<set name="itemConsumeId" val="20597" />
 		<set name="itemConsumeCount" val="1" />
+		<set name="staticReuse" val="true" />
 		<cond msgId="2292">
 			<player agathionId="1528"/>
 		</cond>
@@ -1013,6 +1014,7 @@
 		<set name="operateType" val="OP_ACTIVE" />
 		<set name="itemConsumeId" val="20597" />
 		<set name="itemConsumeCount" val="1" />
+		<set name="staticReuse" val="true" />
 		<cond msgId="2292">
 			<player agathionId="1528"/>
 		</cond>
@@ -1046,9 +1048,10 @@
 		<!-- Update by rocknow -->
 		<set name="target" val="TARGET_SELF" />
 		<set name="reuseDelay" val="3600000" />
-		<set name="hitTime" val="3000" />
+		<set name="hitTime" val="4000" />
 		<set name="skillType" val="BUFF" />
 		<set name="operateType" val="OP_ACTIVE" />
+		<set name="staticReuse" val="true" />
 		<cond msgId="2292">
 			<player agathionId="1529"/>
 		</cond>
@@ -1079,9 +1082,10 @@
 		<!-- Update by rocknow -->
 		<set name="target" val="TARGET_SELF" />
 		<set name="reuseDelay" val="3600000" />
-		<set name="hitTime" val="3000" />
+		<set name="hitTime" val="4000" />
 		<set name="skillType" val="BUFF" />
 		<set name="operateType" val="OP_ACTIVE" />
+		<set name="staticReuse" val="true" />
 		<cond msgId="2292">
 			<player agathionId="1530"/>
 		</cond>
@@ -1111,9 +1115,10 @@
 		<!-- Update by rocknow -->
 		<set name="target" val="TARGET_SELF" />
 		<set name="reuseDelay" val="3600000" />
-		<set name="hitTime" val="3000" />
+		<set name="hitTime" val="4000" />
 		<set name="skillType" val="BUFF" />
 		<set name="operateType" val="OP_ACTIVE" />
+		<set name="staticReuse" val="true" />
 		<cond msgId="2292">
 			<player agathionId="1531"/>
 		</cond>
@@ -1144,9 +1149,10 @@
 		<!-- Update by rocknow -->
 		<set name="target" val="TARGET_SELF" />
 		<set name="reuseDelay" val="3600000" />
-		<set name="hitTime" val="3000" />
+		<set name="hitTime" val="4000" />
 		<set name="skillType" val="BUFF" />
 		<set name="operateType" val="OP_ACTIVE" />
+		<set name="staticReuse" val="true" />
 		<cond msgId="2292">
 			<player agathionId="1532"/>
 		</cond>
@@ -1176,9 +1182,10 @@
 		<!-- Update by rocknow -->
 		<set name="target" val="TARGET_SELF" />
 		<set name="reuseDelay" val="3600000" />
-		<set name="hitTime" val="3000" />
+		<set name="hitTime" val="4000" />
 		<set name="skillType" val="BUFF" />
 		<set name="operateType" val="OP_ACTIVE" />
+		<set name="staticReuse" val="true" />
 		<cond msgId="2292">
 			<player agathionId="1533"/>
 		</cond>
@@ -1208,9 +1215,10 @@
 		<!-- Update by rocknow -->
 		<set name="target" val="TARGET_SELF" />
 		<set name="reuseDelay" val="3600000" />
-		<set name="hitTime" val="3000" />
+		<set name="hitTime" val="4000" />
 		<set name="skillType" val="BUFF" />
 		<set name="operateType" val="OP_ACTIVE" />
+		<set name="staticReuse" val="true" />
 		<cond msgId="2292">
 			<player agathionId="1534"/>
 		</cond>

@@ -111,11 +111,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 			<!-- SA: Cheap Shot -->
 			<!-- Notes: There is no SA skill for this one. It's actually modified on the weapon itself. -->
-			<set order="0x08" stat="MpConsume" val="1">
-				<and>
-					<game skill="false" chance="26" />
-				</and>
-			</set>
+			<mul val="0.96" order="0x30" stat="MpConsume" /><!-- Update by rocknow -->
 		</for>
 	</item>
 	<item id="10444" name="Icarus Spitter - Guidance">
