@@ -1,13 +1,12 @@
-#
 # Created by DraX on 2005.08.08
-#
-
 import sys
 
 from com.l2jserver.gameserver.model.quest        import State
 from com.l2jserver.gameserver.model.quest        import QuestState
 from com.l2jserver.gameserver.model.quest.jython import QuestJython as JQuest
+
 qn = "30358_thifiell_occupation_change"
+
 TETRARCH_THIFIELL = 30358
 
 class Quest (JQuest) :
@@ -81,9 +80,7 @@ class Quest (JQuest) :
      st.exitQuest(1)
      return "30358-11.htm"
 
-QUEST     = Quest(30358,qn,"village_master")
-
-
+QUEST     = Quest(-1,qn,"village_master")
 
 QUEST.addStartNpc(30358)
 

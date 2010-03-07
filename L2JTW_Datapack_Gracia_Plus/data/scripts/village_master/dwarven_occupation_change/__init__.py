@@ -1,5 +1,5 @@
 # Created by DrLecter, based on DraX' and Ariakas work
-# 
+
 import sys
 from com.l2jserver.gameserver.model.quest        import State
 from com.l2jserver.gameserver.model.quest        import QuestState
@@ -7,29 +7,29 @@ from com.l2jserver.gameserver.model.quest.jython import QuestJython as JQuest
 
 qn = "dwarven_occupation_change"
 
-#GESTO,CROOP,BRAXT,KLUMP,NATOOLS,MONA,DONALD,YASHENI
+# GESTO,CROOP,BRAXT,KLUMP,NATOOLS,MONA,DONALD,YASHENI
 BH_NPCS=[30511,30676,30685,30845,30894,31269,31314,31958]
-#SEARCHER,GUILDSMAN,PROSPERITY
+# SEARCHER,GUILDSMAN,PROSPERITY
 BH_MARKS=[2809,3119,3238]
-#KUSTO,FLUTTER,VERGARA,FERRIS,ROMAN,NOEL,LOMBERT,NEWYEAR
+# KUSTO,FLUTTER,VERGARA,FERRIS,ROMAN,NOEL,LOMBERT,NEWYEAR
 WS_NPCS=[30512,30677,30687,30847,30897,31272,31317,31961]
-#MAESTRO,GUILDSMAN,PROSPERITY
+# MAESTRO,GUILDSMAN,PROSPERITY
 WS_MARKS=[2867,3119,3238]
-#RING OF RAVEN
+# RING OF RAVEN
 SCAV_MARKS=[1642]
-#RIKADIO,RANSPO,MOKE,ALDER,BOLIN
+# RIKADIO,RANSPO,MOKE,ALDER,BOLIN
 SCAV_NPCS=[30503,30594,30498,32092,32093,32158,32171]
-#FINAL PASS
+# FINAL PASS
 ARTI_MARKS = [1635]
-#MENDIO,OPIX,TAPOY
+# MENDIO,OPIX,TAPOY
 ARTI_NPCS=[30504,30595,30499,32157]
-#TRANSFER REWARDS
+# TRANSFER REWARDS
 SHADOW_WEAPON_COUPON_DGRADE = 8869
 SHADOW_WEAPON_COUPON_CGRADE = 8870
-#Classes dictionary goes like this:
-#event:[default_npc_prefix,race,req_class,1_class_denied,2_class_denied,[req_items],min_level,new_class,shadow_coupon_itemid]
-#bountyhunter transfer rewards on hold until the rest of VMs get updated, so
-#dont report this zero as a bug :)
+# Classes dictionary goes like this:
+# event:[default_npc_prefix,race,req_class,1_class_denied,2_class_denied,[req_items],min_level,new_class,shadow_coupon_itemid]
+# bountyhunter transfer rewards on hold until the rest of VMs get updated, so
+# dont report this zero as a bug :)
 CLASSES={
    "BH":["30511-",4,[0x36],[0x35],[0x37,0x39,0x75,0x76],BH_MARKS,40,0x37,0],
    "WS":["30512-",4,[0x38],[0x35],[0x37,0x39,0x75,0x76],WS_MARKS,40,0x39,SHADOW_WEAPON_COUPON_CGRADE],
@@ -39,7 +39,7 @@ CLASSES={
 
 UNIQUE_DIALOGS=[30594,30595,30498,30499]
 
-default = "No Quest"
+default = "<html><body>目前沒有執行任務，或條件不符。</body></html>"
 
 class Quest (JQuest) :
 
@@ -117,9 +117,7 @@ class Quest (JQuest) :
        st.exitQuest(1)
    return htmltext
 
-QUEST   = Quest(99999,qn,"village_master")
-
-
+QUEST   = Quest(-1,qn,"village_master")
 
 for npc in SCAV_NPCS :
     QUEST.addStartNpc(npc)

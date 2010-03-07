@@ -1,13 +1,12 @@
-#
 # Created by DraX on 2005.08.08 modified by Ariakas on 2005.09.19
-#
-
 import sys
 
 from com.l2jserver.gameserver.model.quest        import State
 from com.l2jserver.gameserver.model.quest        import QuestState
 from com.l2jserver.gameserver.model.quest.jython import QuestJython as JQuest
+
 qn = "30520_reed_occupation_change"
+
 WAREHOUSE_CHIEF_REED = 30520
 
 class Quest (JQuest) :
@@ -19,7 +18,7 @@ class Quest (JQuest) :
    st = player.getQuestState(qn)
    if not st : return
 
-   htmltext = "No Quest"
+   htmltext = "<html><body>目前沒有執行任務，或條件不符。</body></html>"
 
    Race     = st.getPlayer().getRace()
    ClassId  = st.getPlayer().getClassId()
@@ -70,9 +69,7 @@ class Quest (JQuest) :
      st.exitQuest(1)
      return "30520-07.htm"
 
-QUEST   = Quest(30520,qn,"village_master")
-
-
+QUEST   = Quest(-1,qn,"village_master")
 
 QUEST.addStartNpc(30520)
 

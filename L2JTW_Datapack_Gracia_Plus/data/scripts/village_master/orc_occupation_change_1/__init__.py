@@ -10,6 +10,7 @@ from com.l2jserver.gameserver.model.quest        import QuestState
 from com.l2jserver.gameserver.model.quest.jython import QuestJython as JQuest
 
 qn = "orc_occupation_change_1"
+
 #Quest items
 MARK_OF_RAIDER   = 1592
 KHAVATARI_TOTEM  = 1615
@@ -29,7 +30,7 @@ CLASSES = {
     "OS":[50,49,3,"17","18","19","20",MASK_OF_MEDIUM],
     }
 #Messages
-default = "No Quest"
+default = "<html><body>目前沒有執行任務，或條件不符。</body></html>"
 
 def change(st,player,newclass,item) :
    st.takeItems(item,1)
@@ -101,9 +102,7 @@ class Quest (JQuest) :
    st.exitQuest(1)
    return htmltext
 
-QUEST   = Quest(99996,qn,"village_master")
-
-
+QUEST   = Quest(-1,qn,"village_master")
 
 for npc in NPCS :
     QUEST.addStartNpc(npc)

@@ -23,15 +23,15 @@ class Quest (JQuest) :
    if event in ["30026-01.htm","30026-02.htm","30026-03.htm","30026-04.htm","30026-05.htm","30026-06.htm","30026-07.htm"]:
      htmltext = event
    else :
-     htmltext = "No Quest"
+     htmltext = "<html><body>目前沒有執行任務，或條件不符。</body></html>"
      st.exitQuest(1)
    return htmltext
 
  def onTalk (Self,npc,player):
    st = player.getQuestState(qn)
    npcId = npc.getNpcId()
-   Race  = st.getPlayer().getRace()
-   pcId  = st.getPlayer().getClassId().getId()
+   Race = st.getPlayer().getRace()
+   pcId = st.getPlayer().getClassId().getId()
    # Human fighters get accepted
    if npcId == GRAND_MASTER_BITZ and Race in [Race.Human] and pcId in range(0x0a)+range(88,94) :
      #fighter
@@ -53,8 +53,7 @@ class Quest (JQuest) :
      htmltext = "30026-10.htm"
    return htmltext
 
-QUEST     = Quest(30026,qn,"village_master")
-
+QUEST     = Quest(-1,qn,"village_master")
 
 QUEST.addStartNpc(GRAND_MASTER_BITZ)
 QUEST.addTalkId(GRAND_MASTER_BITZ)

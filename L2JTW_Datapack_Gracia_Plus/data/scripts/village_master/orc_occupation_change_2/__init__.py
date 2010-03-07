@@ -33,7 +33,7 @@ CLASSES = {
     "WC":[52,50,3,"28","29","30","31",[MARK_OF_PILGRIM,MARK_OF_GLORY,MARK_OF_WARSPIRIT]],
     }
 #Messages
-default = "No Quest"
+default = "<html><body>目前沒有執行任務，或條件不符。</body></html>"
 
 def change(st,player,newclass,items) :
    for item in items :
@@ -110,9 +110,7 @@ class Quest (JQuest) :
    st.exitQuest(1)
    return htmltext
 
-QUEST   = Quest(99993,qn,"village_master")
-
-
+QUEST   = Quest(-1,qn,"village_master")
 
 for npc in NPCS :
     QUEST.addStartNpc(npc)

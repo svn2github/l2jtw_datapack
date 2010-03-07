@@ -10,6 +10,7 @@ from com.l2jserver.gameserver.model.quest        import QuestState
 from com.l2jserver.gameserver.model.quest.jython import QuestJython as JQuest
 
 qn = "elven_human_mystics_2"
+
 #Quest items
 MARK_OF_SCHOLAR      = 2674
 MARK_OF_TRUST        = 2734
@@ -32,7 +33,7 @@ CLASSES = {
     "HW":[14,11,0,"34","35","36","37",[MARK_OF_SCHOLAR,MARK_OF_TRUST,MARK_OF_SUMMONER]]
     }
 #Messages
-default = "No Quest"
+default = "<html><body>目前沒有執行任務，或條件不符。</body></html>"
 
 def change(st,player,newclass,items) :
    for item in items :
@@ -111,9 +112,7 @@ class Quest (JQuest) :
    st.exitQuest(1)
    return htmltext
 
-QUEST   = Quest(99994,qn,"village_master")
-
-
+QUEST   = Quest(-1,qn,"village_master")
 
 for npc in NPCS :
     QUEST.addStartNpc(npc)
