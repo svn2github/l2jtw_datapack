@@ -272,18 +272,14 @@
 		<set name="operateType" val="OP_PASSIVE" />
 	</skill>
 	<skill id="5437" levels="2" name="Dissonance">
-		<table name="#pAtk"> 1 0.95 </table><!-- Update by rocknow -->
-		<table name="#mAtk"> 1 0.95 </table><!-- Update by rocknow -->
-		<table name="#accCombat"> 0 50 </table><!-- Update by rocknow -->
-		<table name="#runSpd"> 100 5 </table><!-- Update by rocknow -->
 		<set name="target" val="TARGET_SELF" />
 		<set name="skillType" val="BUFF" />
 		<set name="operateType" val="OP_PASSIVE" />
 		<for>
-			<mul order="0x30" stat="pAtk" val="#pAtk" /> <!-- Update by rocknow -->
-			<mul order="0x30" stat="mAtk" val="#mAtk" /> <!-- Update by rocknow -->
-			<sub order="0x40" stat="accCombat" val="#accCombat" /> <!-- Update by rocknow -->
-			<add order="0x40" stat="runSpd" val="#runSpd" /> <!-- Update by rocknow -->
+			<mul order="0x30" stat="pAtk" val="0.95" />
+			<mul order="0x30" stat="mAtk" val="0.95" />
+			<sub order="0x40" stat="accCombat" val="50" />
+			<add order="0x40" stat="runSpd" val="5" />
 		</for>
 	</skill>
 	<skill id="5438" levels="9" name="NPC party 30 Clan Heal">
