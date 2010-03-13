@@ -548,7 +548,7 @@ public class CrystalCaverns extends Quest
 			if (player.getParty() == null)
 			{
 				// this can happen only if debug is true
-				//player.sendMessage("Welcome to Crystal Caverns.");
+				player.destroyItemByItemId(qn, CONT_CRYSTAL, 1, player, true); //Update by rocknow
 				InstanceManager.getInstance().setInstanceTime(player.getObjectId(), INSTANCEID, ((System.currentTimeMillis() + INSTANCEPENALTY)));
 				teleportplayer(player,teleto);
 				world.allowed.add(player.getObjectId());
@@ -557,7 +557,7 @@ public class CrystalCaverns extends Quest
 			{
 				for (L2PcInstance partyMember : party.getPartyMembers())
 				{
-					//partyMember.sendMessage("Welcome to Crystal Caverns.");
+					partyMember.destroyItemByItemId(qn, CONT_CRYSTAL, 1, partyMember, true); //Update by rocknow
 					InstanceManager.getInstance().setInstanceTime(partyMember.getObjectId(), INSTANCEID, ((System.currentTimeMillis() + INSTANCEPENALTY)));
 					teleportplayer(partyMember,teleto);
 					world.allowed.add(partyMember.getObjectId());
@@ -781,6 +781,11 @@ public class CrystalCaverns extends Quest
 				htmltext = "32279-01.htm";
 			return htmltext;
 		}
+		else if (npc.getNpcId() == 32280) //Update by rocknow-Start
+		{
+			String htmltext = "32280.htm";
+			return htmltext;
+		} //Update by rocknow-End
 		else if (npc.getNpcId() == CRYSTAL_GOLEM)
 			player.sendPacket(ActionFailed.STATIC_PACKET);
 		return"";
@@ -1141,7 +1146,7 @@ public class CrystalCaverns extends Quest
 					world._alarm = addSpawn(ALARMID,spawnLoc[0],spawnLoc[1],spawnLoc[2],10800,false,0,false,world.instanceId);
 					world._alarm.disableCoreAI(true);
 					world._alarm.setIsImmobilized(true);
-					world._alarm.broadcastPacket(new CreatureSay(world._alarm.getObjectId(),1,world._alarm.getName(),"Alarm signal was switched off! All will in the danger, if we do not take measures immediately!"));
+					//Delete by rocknow
 				}
 			}
 			else if (event.equalsIgnoreCase("baylor_skill"))
@@ -1161,12 +1166,12 @@ public class CrystalCaverns extends Quest
 						if (nowHp < maxHp * 0.15 && world._raidStatus == 2)
 						{
 							npc.doCast(SkillTable.getInstance().getInfo(5225, 1));
-							npc.broadcastPacket(new CreatureSay(npc.getObjectId(),1,npc.getName(),"啊啊啊！惡魔之王巴列斯～請賜給我更強大的力量吧！"));
+							//Delete by rocknow
 						}
 						else if (rand < 10 || nowHp < maxHp * 0.15)
 						{
 							npc.doCast(SkillTable.getInstance().getInfo(5225, 1));
-							npc.broadcastPacket(new CreatureSay(npc.getObjectId(),1,npc.getName(),"啊啊啊！惡魔之王巴列斯～請賜給我更強大的力量吧！"));
+							//Delete by rocknow
 							startQuestTimer("baylor_remove_invul",30000, world._baylor, null);
 						}
 					}
@@ -1309,9 +1314,9 @@ public class CrystalCaverns extends Quest
 					QuestState st = partyMember.getQuestState(qn);
 					if (st == null)
 						st = newQuestState(partyMember);
-					if (!isBaylor && st.getQuestItemsCount(CONT_CRYSTAL) > 0)
+					if (!isBaylor) //Update by rocknow
 					{
-						st.takeItems(CONT_CRYSTAL, 1);
+						//Delete by rocknow
 						st.giveItems(bossCry, 1);
 					}
 					if (Rnd.get(10) < 5)
@@ -1325,9 +1330,9 @@ public class CrystalCaverns extends Quest
 			QuestState st = player.getQuestState(qn);
 			if (st == null)
 				st = newQuestState(player);
-			if (!isBaylor && st.getQuestItemsCount(CONT_CRYSTAL) > 0)
+			if (!isBaylor) //Update by rocknow
 			{
-				st.takeItems(CONT_CRYSTAL, 1);
+				//Delete by rocknow
 				st.giveItems(bossCry, 1);
 			}
 			if (Rnd.get(10) < 5)
@@ -1835,6 +1840,8 @@ public class CrystalCaverns extends Quest
 
 		addStartNpc(ORACLE_GUIDE_1);
 		addTalkId(ORACLE_GUIDE_1);
+		addStartNpc(ORACLE_GUIDE_3); //Update by rocknow
+		addFirstTalkId(ORACLE_GUIDE_3); //Update by rocknow
 		addTalkId(ORACLE_GUIDE_3);
 		addStartNpc(ORACLE_GUIDE_4);
 		addFirstTalkId(ORACLE_GUIDE_4);
