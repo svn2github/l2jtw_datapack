@@ -248,7 +248,7 @@ public class AdminSkill implements IAdminCommandHandler
 			skillsEnd = skillsStart + maxSkillsPerPage;
 		
 		NpcHtmlMessage adminReply = new NpcHtmlMessage(5);
-		adminReply.setFile("data/html/admin/skillselect.htm");
+		adminReply.setFile(activeChar.getHtmlPrefix(), "data/html/admin/skillselect.htm");
 		
 		String pages = "";
 		for (int x = 0; x < maxPages; x++)
@@ -280,7 +280,7 @@ public class AdminSkill implements IAdminCommandHandler
 			return;
 		}
 		NpcHtmlMessage adminReply = new NpcHtmlMessage(5);
-		adminReply.setFile("data/html/admin/charskills.htm");
+		adminReply.setFile(activeChar.getHtmlPrefix(), "data/html/admin/charskills.htm");
 		adminReply.replace("%name%", player.getName());
 		adminReply.replace("%level%", String.valueOf(player.getLevel()));
 		adminReply.replace("%class%", player.getTemplate().className);
