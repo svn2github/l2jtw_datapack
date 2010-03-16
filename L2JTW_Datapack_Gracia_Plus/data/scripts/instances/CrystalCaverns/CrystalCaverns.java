@@ -98,6 +98,9 @@ public class CrystalCaverns extends Quest
 		private L2Npc _camera = null;
 		private L2Npc _baylor = null;
 		private L2Npc _alarm = null;
+		private int _SpawnMob = 0; //Update by rocknow
+		private int _SpawnNum = 0; //Update by rocknow
+		private int _Heading = 0; //Update by rocknow
 
 		public CCWorld(Long time)
 		{
@@ -781,11 +784,13 @@ public class CrystalCaverns extends Quest
 				htmltext = "32279-01.htm";
 			return htmltext;
 		}
-		else if (npc.getNpcId() == 32280) //Update by rocknow-Start
+		//Update by rocknow-Start
+		else if (npc.getNpcId() == 32280)
 		{
 			String htmltext = "32280.htm";
 			return htmltext;
-		} //Update by rocknow-End
+		}
+		//Update by rocknow-End
 		else if (npc.getNpcId() == CRYSTAL_GOLEM)
 			player.sendPacket(ActionFailed.STATIC_PACKET);
 		return"";
@@ -1063,8 +1068,26 @@ public class CrystalCaverns extends Quest
 			{
 				addSpawn(32271,153572,142075,-9728,10800,false,0,false,world.instanceId);
 				addSpawn((Rnd.get(10) < 5 ? 29116:29117),npc.getX(),npc.getY(),npc.getZ(),npc.getHeading(),false,0,false,world.instanceId); // Baylor's Chest
+				//Update by rocknow-Start
+				addSpawn((Rnd.get(10) < 5 ? 29116:29117),153706,142212,-12741,7579,false,300000,false,world.instanceId);
+				addSpawn((Rnd.get(10) < 5 ? 29116:29117),154192,142697,-12741,7894,false,300000,false,world.instanceId);
+				addSpawn((Rnd.get(10) < 5 ? 29116:29117),153763,142075,-12741,64792,false,300000,false,world.instanceId);
+				addSpawn((Rnd.get(10) < 5 ? 29116:29117),153701,141942,-12741,57739,false,300000,false,world.instanceId);
+				addSpawn((Rnd.get(10) < 5 ? 29116:29117),153573,141894,-12741,49471,false,300000,false,world.instanceId);
+				addSpawn((Rnd.get(10) < 5 ? 29116:29117),153445,141945,-12741,41113,false,300000,false,world.instanceId);
+				addSpawn((Rnd.get(10) < 5 ? 29116:29117),153381,142076,-12741,32767,false,300000,false,world.instanceId);
+				addSpawn((Rnd.get(10) < 5 ? 29116:29117),153441,142211,-12741,25730,false,300000,false,world.instanceId);
+				addSpawn((Rnd.get(10) < 5 ? 29116:29117),153573,142260,-12741,16185,false,300000,false,world.instanceId);
+				addSpawn((Rnd.get(10) < 5 ? 29116:29117),153571,142860,-12741,16716,false,300000,false,world.instanceId);
+				addSpawn((Rnd.get(10) < 5 ? 29116:29117),152783,142077,-12741,32176,false,300000,false,world.instanceId);
+				addSpawn((Rnd.get(10) < 5 ? 29116:29117),153571,141274,-12741,49072,false,300000,false,world.instanceId);
+				addSpawn((Rnd.get(10) < 5 ? 29116:29117),154365,142073,-12741,64149,false,300000,false,world.instanceId);
+				addSpawn((Rnd.get(10) < 5 ? 29116:29117),152924,142677,-12741,25072,false,300000,false,world.instanceId);
+				addSpawn((Rnd.get(10) < 5 ? 29116:29117),152907,141428,-12741,39590,false,300000,false,world.instanceId);
+				addSpawn((Rnd.get(10) < 5 ? 29116:29117),154243,141411,-12741,55500,false,300000,false,world.instanceId);
+				//Update by rocknow-End
 				addSpawn(ORACLE_GUIDE_4,153572,142075,-12738,10800,false,0,false,world.instanceId);
-				this.cancelQuestTimer("baylor_despawn", npc, null);
+				this.cancelQuestTimer("loc_check", npc, null); //Update by rocknow
 				this.cancelQuestTimers("baylor_skill");
 			}
 			else if (event.equalsIgnoreCase("baylorEffect0"))
@@ -1161,6 +1184,18 @@ public class CrystalCaverns extends Quest
 					double nowHp = npc.getStatus().getCurrentHp();
 					int rand = Rnd.get(100);
 
+					//Update by rocknow-Start
+					if (nowHp < maxHp * 0.5 && world._SpawnMob == 0)
+					{
+						this.startQuestTimer("spawn_minion", 1000, npc, null);
+						world._SpawnMob = 1;
+					}
+					else if (nowHp < maxHp * 0.25 && world._SpawnMob == 1)
+					{
+						this.startQuestTimer("spawn_minion", 1000, npc, null);
+						world._SpawnMob = 2;
+					}
+					//Update by rocknow-End
 					if (nowHp < maxHp * 0.2 && world._raidStatus < 3 && npc.getFirstEffect(5224) == null && npc.getFirstEffect(5225) == null)
 					{
 						if (nowHp < maxHp * 0.15 && world._raidStatus == 2)
@@ -1198,6 +1233,180 @@ public class CrystalCaverns extends Quest
 				world._camera.broadcastPacket(new SpecialCamera(world._camera.getObjectId(),700,-45,160,500,15200,0,0,1,0));
 				startQuestTimer("baylorMinions",2000, world._baylor, null);
 			}
+			//Update by rocknow-Start
+			if (event.equalsIgnoreCase("Baylor_TW"))
+			{
+				world._SpawnMob = 0;
+				world._SpawnNum = 0;
+				for(L2PcInstance p : world._raiders)
+				{
+					p.setIsParalyzed(true);
+				}
+				L2Npc camera1 = addSpawn(29109,153569,142075,-12732,0,false,0,false,world.instanceId);
+				this.startQuestTimer("camera_1", 1000, camera1, null);
+			}
+			else if (event.equalsIgnoreCase("waiting_boss"))
+			{
+				world._baylor = addSpawn(29099,153569,142075,-12732,60060,false,0,false,world.instanceId);
+				world._baylor.setIsInvul(true);
+				world._baylor.setIsParalyzed(true);
+				world._baylor.setIsImmobilized(true);
+				this.startQuestTimer("action", 100, world._baylor, null);
+				this.startQuestTimer("skill00", 20000, world._baylor, null);
+			}
+			else if (event.equalsIgnoreCase("action"))
+			{
+				npc.broadcastPacket(new SocialAction(npc.getObjectId(),1));
+			}
+			else if (event.equalsIgnoreCase("camera_1"))
+			{
+				this.startQuestTimer("camera_2", 2000, npc, null);
+				npc.broadcastPacket(new SpecialCamera(npc.getObjectId(),260,55,7,2000,3000,0,0,1,0));
+			}
+			else if (event.equalsIgnoreCase("camera_2"))
+			{
+				this.startQuestTimer("camera_3", 2000, npc, null);
+				npc.broadcastPacket(new SpecialCamera(npc.getObjectId(),260,325,6,2000,3000,0,0,1,0));
+			}
+			else if (event.equalsIgnoreCase("camera_3"))
+			{
+				this.startQuestTimer("camera_4", 2000, npc, null);
+				npc.broadcastPacket(new SpecialCamera(npc.getObjectId(),260,235,5,2000,3000,0,0,1,0));
+			}
+			else if (event.equalsIgnoreCase("camera_4"))
+			{
+				this.startQuestTimer("spawn00", 500, npc, null);
+				this.startQuestTimer("camera_5", 2000, npc, null);
+				npc.broadcastPacket(new SpecialCamera(npc.getObjectId(),340,145,4,2000,3000,0,0,1,0));
+			}
+			else if (event.equalsIgnoreCase("camera_5"))
+			{
+				this.startQuestTimer("camera_6", 2000, npc, null);
+				npc.broadcastPacket(new SpecialCamera(npc.getObjectId(),340,55,4,2000,3000,0,0,1,0));
+			}
+			else if (event.equalsIgnoreCase("camera_6"))
+			{
+				this.startQuestTimer("camera_7", 2000, npc, null);
+				npc.broadcastPacket(new SpecialCamera(npc.getObjectId(),700,55,30,2000,3000,0,0,1,0));
+			}
+			else if (event.equalsIgnoreCase("camera_7"))
+			{
+				L2Npc camera2 = addSpawn(29108,153021,142364,-12737,60025,false,0,false,world.instanceId);
+				this.startQuestTimer("camera_8", 500, camera2, null);
+				this.startQuestTimer("waiting_boss", 1500, camera2, null);
+				npc.broadcastPacket(new SpecialCamera(npc.getObjectId(),80,55,30,500,550,0,0,1,0));
+				npc.deleteMe();
+			}
+			else if (event.equalsIgnoreCase("camera_8"))
+			{
+				this.startQuestTimer("camera_9", 0, npc, null);
+				npc.broadcastPacket(new SpecialCamera(npc.getObjectId(),0,209,0,0,100,0,0,1,0));
+			}
+			else if (event.equalsIgnoreCase("camera_9"))
+			{
+				this.startQuestTimer("camera_10", 12500, npc, null);
+				npc.broadcastPacket(new SpecialCamera(npc.getObjectId(),90,209,0,12500,13000,0,0,1,0));
+			}
+			else if (event.equalsIgnoreCase("camera_10"))
+			{
+				this.startQuestTimer("camera_11", 1000, npc, null);
+				npc.broadcastPacket(new SpecialCamera(npc.getObjectId(),630,209,18,1000,2500,0,0,1,0));
+			}
+			else if (event.equalsIgnoreCase("camera_11"))
+			{
+				this.startQuestTimer("camera_12", 6300, npc, null);
+				npc.broadcastPacket(new SpecialCamera(npc.getObjectId(),630,209,0,1000,6800,0,0,1,0));
+			}
+			else if (event.equalsIgnoreCase("camera_12"))
+			{
+				this.startQuestTimer("camera_13", 1000, npc, null);
+				npc.broadcastPacket(new SpecialCamera(npc.getObjectId(),1200,209,3,0,1500,0,0,1,0));
+			}
+			else if (event.equalsIgnoreCase("camera_13"))
+			{
+				this.startQuestTimer("camera_14", 1700, npc, null);
+				npc.broadcastPacket(new SpecialCamera(npc.getObjectId(),630,209,0,1500,2200,0,0,1,0));
+			}
+			else if (event.equalsIgnoreCase("camera_14"))
+			{
+				this.startQuestTimer("camera_15", 5000, npc, null);
+				npc.broadcastPacket(new SpecialCamera(npc.getObjectId(),1200,209,7,0,6000,0,0,1,0));
+			}
+			else if (event.equalsIgnoreCase("camera_15"))
+			{
+				npc.deleteMe();
+			}
+			else if (event.equalsIgnoreCase("spawn00"))
+			{
+				if (world._SpawnNum < 12)
+				{
+					int radius = 300;
+					int x = (int) (radius*Math.cos(world._SpawnNum*.52));
+					int y = (int) (radius*Math.sin(world._SpawnNum*.52));
+					L2Npc mob = addSpawn(29100,153569+x,142075+y,-12732,32300+world._Heading,false,0,false,world.instanceId);
+					world._Heading = world._Heading + 65536/12;
+					world._SpawnNum = world._SpawnNum + 1;
+					mob.doCast(SkillTable.getInstance().getInfo(5441,1));
+					mob.setIsParalyzed(true);
+					world._animationMobs.add(mob);
+					this.startQuestTimer("spawn00", 450, mob, null);
+				}
+			}
+			else if (event.equalsIgnoreCase("skill00"))
+			{
+				npc.setIsParalyzed(false);
+				npc.doCast(SkillTable.getInstance().getInfo(5402,1));
+				startQuestTimer("fly", 2700, npc, null);
+			}
+			else if (event.equalsIgnoreCase("die"))
+			{
+				npc.doDie(npc);
+			}
+			else if (event.equalsIgnoreCase("fly"))
+			{
+				for(L2PcInstance p : world._raiders)
+				{
+					if (p.getX() < 153870 && p.getX() > 153270 && p.getY() < 142375 && p.getY() > 141775)
+						Throw(npc, p);
+					if (p.getPet() != null)
+						Throw(npc, p.getPet());
+				}
+				for(L2Npc mob : world._animationMobs)
+				{
+					mob.doDie(mob);
+				}
+				world._animationMobs.clear();
+				startQuestTimer("start",5000, npc, null);
+			}
+			else if (event.equalsIgnoreCase("start"))
+			{
+				npc.setIsInvul(false);
+				npc.setIsImmobilized(false);
+				for(L2PcInstance p : world._raiders)
+				{
+					p.setIsParalyzed(false);
+				}
+				world._raidStatus = 0;
+				startQuestTimer("loc_check",15000, npc, null, true);
+				startQuestTimer("checkBaylorAttack", 1000, npc, null);
+			}
+			else if (event.equalsIgnoreCase("loc_check"))
+			{
+				if (npc.getX() < 151700 || npc.getX() > 155440 || npc.getY() < 140209 || npc.getY() > 143632 || npc.getZ() < -13000)
+					npc.teleToLocation(153569,142075,-12732);
+			}
+			else if (event.equalsIgnoreCase("spawn_minion"))
+			{
+				for (int i = 0; i < 12; i+=2)
+				{
+					int radius = 250;
+					int x = (int) (radius*Math.cos(i*.52));
+					int y = (int) (radius*Math.sin(i*.52));
+					addSpawn(29100,npc.getX()+x,npc.getY()+y,npc.getZ(),32300+world._Heading,false,0,false,world.instanceId);
+					world._Heading = world._Heading + 65536/6;
+				}
+			}
+			//Update by rocknow-End
 			else if (!event.endsWith("Food"))
 				return "";
 			else if (event.equalsIgnoreCase("autoFood"))
@@ -1719,10 +1928,10 @@ public class CrystalCaverns extends Quest
 						pet.teleToLocation(153571 + x, 142075 + y, -12737, true);
 						pet.broadcastPacket(new ValidateLocation(pet));
 					}
-					p.setIsParalyzed(true);
+					//Delete by rocknow
 					p.broadcastPacket(new ValidateLocation(p));
 				}
-				startQuestTimer("Baylor", 30000, npc, null);
+				startQuestTimer("Baylor_TW", 30000, npc, null); //Update by rocknow
 			}
 			else if (npc.getNpcId() == ORACLE_GUIDE_4 && world.status == 31)
 			{
