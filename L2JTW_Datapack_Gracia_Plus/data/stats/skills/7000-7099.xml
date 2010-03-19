@@ -196,29 +196,25 @@
 		<set name="operateType" val="OP_PASSIVE" />
 	</skill>
 	<skill id="7029" levels="4" name="Super Haste">
+		<!-- Update by rocknow (Original Super Haste) -->
 		<!-- GM Skill -->
-		<table name="#pAtkSpd"> 2 3 3 2 </table>
-		<table name="#runSpd"> 2 3 3 1 </table>
-		<table name="#mAtkSpd"> 2 3 3 2 </table>
-		<table name="#pAtk"> 1 1 10000 1 </table>
-		<table name="#reuse"> 0.01 0.01 0.01 1 </table>
-		<table name="#amount"> 1 1 1 2 </table>
-		<set name="aggroPoints" val="1" />
-		<set name="operateType" val="OP_ACTIVE" />
-		<set name="skillType" val="BUFF" />
+		<table name="#pAtkSpd"> 1.2 1.5 2 3 </table>
+		<table name="#runSpd"> 1.5 2 3 4 </table>
+		<table name="#mAtkSpd"> 1.5 1.8 3 4 </table>
+		<table name="#reuse"> 1 0.5 0.25 0.01 </table>
+		<table name="#amount"> 1.5 2 3 4 </table>
+		<set name="operateType" val="OP_TOGGLE" />
+		<set name="skillType" val="CONT" />
 		<set name="target" val="TARGET_SELF" />
 		<for>
-			<effect name="Buff" time="1200" val="0" stackOrder="1" stackType="attack_time_down">
+			<effect name="NoblesseBless" time="144000" val="0">
 				<mul order="0x30" stat="pAtkSpd" val="#pAtkSpd" />
 				<mul order="0x30" stat="runSpd" val="#runSpd" />
 				<mul order="0x30" stat="mAtkSpd" val="#mAtkSpd" />
-				<mul order="0x30" stat="pAtk" val="#pAtk" />
 				<mul order="0x30" stat="pReuse" val="#reuse" />
 				<mul order="0x30" stat="mReuse" val="#reuse" />
+				<mul order="0x30" stat="regHp" val="#amount" />
 				<mul order="0x30" stat="regMp" val="#amount" />
-				<mul order="0x30" stat="regMp" val="#amount" />
-				<mul order="0x30" stat="maxMp" val="#amount" />
-				<mul order="0x30" stat="maxLoad" val="#amount" />
 			</effect>
 		</for>
 	</skill>
