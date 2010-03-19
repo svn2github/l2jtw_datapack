@@ -423,9 +423,6 @@ UPDATE `etcitem` SET `skill` = '2729-1;', `handler` = 'ItemSkills' WHERE `item_i
 UPDATE `etcitem` SET `skill` = '2730-1;', `handler` = 'ItemSkills' WHERE `item_id` = '13627';  -- 亞丁騎士隊長傭兵變身卷軸
 UPDATE `etcitem` SET `skill` = '2731-1;', `handler` = 'ItemSkills' WHERE `item_id` = '13628';  -- 亞丁司令官傭兵變身卷軸
 
--- 修正學習一、二轉的技能不需要魔法書
-DELETE FROM `skill_spellbooks` WHERE (`item_id` < 7644) OR (`item_id` > 8379 AND `item_Id` < 8618) OR (`item_id` > 8889 AND `item_Id` < 8892) OR (`item_id` = 8909) OR (`item_id` > 8944 AND `item_Id` < 8947) OR (`item_id` > 10024 AND `item_Id` < 10067) OR (`item_id` > 10069 AND `item_Id` < 10090) OR (`item_id` > 10091 AND `item_Id` < 10099) OR (`item_id` > 10179 AND `item_Id` < 10184) OR (`item_id` > 10203 AND `item_Id` < 10598) OR (`item_id` = 10600) OR (`item_id` > 10607 AND `item_Id` < 10611) OR (`item_id` > 12771 AND `item_Id` < 12779) OR (`item_id` = 12820);
-
 -- 刪除魔法書商人
 DELETE FROM `spawnlist` WHERE `npc_templateid` IN (30840,31262,31413,31414,31415,31416,31417,31421,31422,31423,31424,31425,31426,31427,31429,31430,31431,31666,31667,31670,31951,31973,31980);
 DELETE FROM `merchant_buylists` WHERE `shop_id` IN ( SELECT `shop_id` FROM `merchant_shopids` WHERE `npc_id` IN (30840,31262,31413,31414,31415,31416,31417,31421,31422,31423,31424,31425,31426,31427,31429,31430,31431,31666,31667,31670,31951,31973,31980));
