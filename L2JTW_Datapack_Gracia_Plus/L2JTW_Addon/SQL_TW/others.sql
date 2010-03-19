@@ -228,7 +228,7 @@ UPDATE `char_templates` SET `ClassName` = '闇影召喚士' WHERE `ClassId` = 41
 UPDATE `char_templates` SET `ClassName` = '席琳神使' WHERE `ClassId` = 42;
 UPDATE `char_templates` SET `ClassName` = '席琳長老' WHERE `ClassId` = 43;
 UPDATE `char_templates` SET `ClassName` = '半獸人戰士' WHERE `ClassId` = 44;
-UPDATE `char_templates` SET `ClassName` = '半獸人突擊者' WHERE `ClassId` = 45;
+UPDATE `char_templates` SET `ClassName` = '半獸人突襲者' WHERE `ClassId` = 45;
 UPDATE `char_templates` SET `ClassName` = '破壞者' WHERE `ClassId` = 46;
 UPDATE `char_templates` SET `ClassName` = '半獸人武者' WHERE `ClassId` = 47;
 UPDATE `char_templates` SET `ClassName` = '暴君' WHERE `ClassId` = 48;
@@ -274,7 +274,7 @@ UPDATE `char_templates` SET `ClassName` = '財富獵人' WHERE `ClassId` = 117;
 UPDATE `char_templates` SET `ClassName` = '巨匠' WHERE `ClassId` = 118;
 UPDATE `char_templates` SET `ClassName` = '闇天使士兵' WHERE `ClassId` = 123;
 UPDATE `char_templates` SET `ClassName` = '闇天使士兵' WHERE `ClassId` = 124;
-UPDATE `char_templates` SET `ClassName` = '裝甲突擊兵' WHERE `ClassId` = 125;
+UPDATE `char_templates` SET `ClassName` = '裝甲突襲兵' WHERE `ClassId` = 125;
 UPDATE `char_templates` SET `ClassName` = '狙擊衛士' WHERE `ClassId` = 126;
 UPDATE `char_templates` SET `ClassName` = '狂戰士' WHERE `ClassId` = 127;
 UPDATE `char_templates` SET `ClassName` = '碎魂者' WHERE `ClassId` = 128;
