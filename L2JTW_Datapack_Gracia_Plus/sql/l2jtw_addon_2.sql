@@ -1197,7 +1197,7 @@ REPLACE INTO `pets_skills` VALUES
 (1573,1,23167,1);
 
 
-/************ 加入可向大師學習「遺忘祕傳書」的技能 ************/
+/************ 加入可向大師學習「遺忘祕傳書」的技能 (CT2.5 聖翼使命)************/
 REPLACE INTO `skill_trees` VALUES
 (8,820,1,'Evasion Haste',0,74),
 (8,821,1,'Shadow Step',0,72),
@@ -1275,7 +1275,6 @@ REPLACE INTO `skill_trees` VALUES
 (93,768,1,'Exciting Adventure',0,83),
 (93,922,1,'Hide',0,81),
 (93,923,1,'Dual Dagger Mastery',0,81),
-(93,928,1,'Duel Blow',0,81),
 (94,755,1,'Protection of Rune',0,82),
 (94,756,1,'Protection of Elemental',0,82),
 (94,757,1,'Protection of Alignment',0,82),
@@ -1288,7 +1287,7 @@ REPLACE INTO `skill_trees` VALUES
 (95,757,1,'Protection of Alignment',0,82),
 (95,945,1,'Magician\'s Will',0,81),
 (95,1467,1,'Meteor',0,81),
-(95,1495,1,'',0,83),
+(95,1495,1,'Vampiric Mist',0,83),
 (95,1532,1,'Enlightenment',0,81),
 (96,755,1,'Protection of Rune',0,82),
 (96,756,1,'Protection of Elemental',0,82),
@@ -1341,7 +1340,6 @@ REPLACE INTO `skill_trees` VALUES
 (101,769,1,'Wind Riding',0,83),
 (101,922,1,'Hide',0,81),
 (101,923,1,'Dual Dagger Mastery',0,81),
-(101,928,1,'Duel Blow',0,81),
 (102,755,1,'Protection of Rune',0,82),
 (102,756,1,'Protection of Elemental',0,82),
 (102,757,1,'Protection of Alignment',0,82),
@@ -1401,7 +1399,6 @@ REPLACE INTO `skill_trees` VALUES
 (108,770,1,'Ghost Walking',0,83),
 (108,922,1,'Hide',0,81),
 (108,923,1,'Dual Dagger Mastery',0,81),
-(108,928,1,'Duel Blow',0,81),
 (109,755,1,'Protection of Rune',0,82),
 (109,756,1,'Protection of Elemental',0,82),
 (109,757,1,'Protection of Alignment',0,82),
@@ -1514,8 +1511,11 @@ REPLACE INTO `skill_trees` VALUES
 (134,790,1,'Wild Shot',0,83);
 
 
-/************ 刪除學習81級以下的技能所必須的魔法書 ************/
-DELETE FROM `skill_spellbooks` WHERE (`item_id` < 8892 OR `item_id` > 8908);
+/************ 加入官服未開放的技能 (雙重打擊) ************/
+REPLACE INTO `skill_trees` VALUES
+(93,928,1,'Duel Blow',0,81),
+(101,928,1,'Duel Blow',0,81),
+(108,928,1,'Duel Blow',0,81);
 
 
 /************ 加入學習「遺忘祕傳書」的技能所必須的魔法書 ************/
@@ -1602,6 +1602,57 @@ REPLACE INTO `skill_spellbooks` VALUES
 (1540,14221),
 (1542,14225),
 (1543,14227);
+
+
+/************ 刪除學習81級以下的技能所必須的魔法書 ************/
+DELETE FROM `skill_spellbooks` WHERE (`item_id` < 8892 OR `item_id` > 8908);
+
+
+/************ 加入學習新技能 (CT2.5 聖翼使命) ************/
+REPLACE INTO `skill_trees` VALUES
+(8,820,1,'Evasion Haste',0,74),
+(8,821,1,'Shadow Step',0,72),
+(17,1499,1,'Improved Combat',0,70),
+(17,1501,1,'Improved Condition',0,70),
+(23,819,1,'Evasion Chance',0,74),
+(23,821,1,'Shadow Step',0,72),
+(30,1503,1,'Improved Shield Defense',0,70),
+(30,1504,1,'Improved Movement',0,70),
+(36,818,1,'Evasion Counter',0,74),
+(36,821,1,'Shadow Step',0,72),
+(43,1500,1,'Improved Magic',0,70),
+(43,1502,1,'Improved Critical Attack',0,70),
+(52,1517,1,'Chant of Combat',0,70),
+(52,1518,1,'Chant of Critical Attack',0,72),
+(52,1519,1,'Chant of Blood Awakening',0,74);
+
+
+/************ 修正學習的技能 ************/
+DELETE FROM `skill_trees` WHERE `skill_id` = 964;
+DELETE FROM `character_skills` WHERE `skill_id` = 964;
+REPLACE INTO `skill_trees` VALUES
+(123,1320,1,'Create Common Item',0,1),
+(123,1320,2,'Create Common Item',0,20),
+(123,1320,3,'Create Common Item',0,28),
+(123,1320,4,'Create Common Item',0,36),
+(123,1320,5,'Create Common Item',0,43),
+(123,1320,6,'Create Common Item',0,49),
+(123,1320,7,'Create Common Item',0,55),
+(123,1320,8,'Create Common Item',0,62),
+(124,1320,1,'Create Common Item',0,1),
+(124,1320,2,'Create Common Item',0,20),
+(124,1320,3,'Create Common Item',0,28),
+(124,1320,4,'Create Common Item',0,36),
+(124,1320,5,'Create Common Item',0,43),
+(124,1320,6,'Create Common Item',0,49),
+(124,1320,7,'Create Common Item',0,55),
+(124,1320,8,'Create Common Item',0,62),
+(130,470,4,'Detect Trap',50000,46),
+(130,470,5,'Detect Trap',157000,55),
+(130,470,6,'Detect Trap',350000,66),
+(130,470,7,'Detect Trap',1400000,74),
+(130,481,2,'Dark Armor',33000,43),
+(130,514,7,'Fire Trap',320000,64);
 
 
 /************ 刪除自訂的欲界資料表 ************/
