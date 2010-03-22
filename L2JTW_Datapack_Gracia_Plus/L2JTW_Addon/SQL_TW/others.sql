@@ -1,6 +1,6 @@
-/************ Made in Taiwan ************/
+/********** Made in Taiwan **********/
 
-/***** 貳幕-破滅國境 09-06-08 *****/
+/***** 貳幕-聖翼使命 2010.3.23 *****/
 /***** castlename-tw *****/ 
 /***** auction.sql *****/
 UPDATE `auction` SET `itemName` = '古魯丁城鎮月長石廳' WHERE `itemId` = 22;
@@ -877,18 +877,17 @@ UPDATE `fort_staticobjects` SET `name` = '旗座' WHERE `id` = 22150500;
 
 /***** skillname-tw *****/ 
 /***** helper_buff_list.sql *****/
-UPDATE `helper_buff_list` SET `name` = '冒險家用風之疾走' WHERE `skill_id` = 4322;
-UPDATE `helper_buff_list` SET `name` = '冒險家用保護盾' WHERE `skill_id` = 4323;
-UPDATE `helper_buff_list` SET `name` = '冒險家用神佑之體' WHERE `skill_id` = 4324;
-UPDATE `helper_buff_list` SET `name` = '冒險家用吸血怒擊' WHERE `skill_id` = 4325;
-UPDATE `helper_buff_list` SET `name` = '冒險家用強癒術' WHERE `skill_id` = 4326;
-UPDATE `helper_buff_list` SET `name` = '冒險家用速度激發' WHERE `skill_id` = 4327;
-UPDATE `helper_buff_list` SET `name` = '冒險家用神佑之魂' WHERE `skill_id` = 4328;
-UPDATE `helper_buff_list` SET `name` = '冒險家用靈活思緒' WHERE `skill_id` = 4329;
-UPDATE `helper_buff_list` SET `name` = '冒險家用精神專注' WHERE `skill_id` = 4330;
-UPDATE `helper_buff_list` SET `name` = '冒險家用魔力催化' WHERE `skill_id` = 4331;
 UPDATE `helper_buff_list` SET `name` = '冒險家用治癒晶體' WHERE `skill_id` = 4338;
+UPDATE `helper_buff_list` SET `name` = '冒險家用 風之疾走' WHERE `skill_id` = 5627;
+UPDATE `helper_buff_list` SET `name` = '冒險家用 保護盾' WHERE `skill_id` = 5628;
+UPDATE `helper_buff_list` SET `name` = '冒險家用 神佑之體' WHERE `skill_id` = 5629;
+UPDATE `helper_buff_list` SET `name` = '冒險家用 吸血怒擊' WHERE `skill_id` = 5630;
+UPDATE `helper_buff_list` SET `name` = '冒險家用 強癒術' WHERE `skill_id` = 5631;
 UPDATE `helper_buff_list` SET `name` = '冒險家用 速度激發' WHERE `skill_id` = 5632;
+UPDATE `helper_buff_list` SET `name` = '冒險家用 神佑之魂' WHERE `skill_id` = 5633;
+UPDATE `helper_buff_list` SET `name` = '冒險家用 靈活思緒' WHERE `skill_id` = 5634;
+UPDATE `helper_buff_list` SET `name` = '冒險家用 精神專注' WHERE `skill_id` = 5635;
+UPDATE `helper_buff_list` SET `name` = '冒險家用 魔力催化' WHERE `skill_id` = 5636;
 UPDATE `helper_buff_list` SET `name` = '冒險家用 魔法屏障' WHERE `skill_id` = 5637;
 
 /***** hennagrp-tw *****/ 

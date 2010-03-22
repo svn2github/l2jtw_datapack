@@ -1,6 +1,6 @@
-/************ Made in Taiwan ************/
+/********** Made in Taiwan **********/
 
-/***** 貳幕-破滅國境 09-06-08 *****/
+/***** 貳幕-聖翼使命 2010.3.23 *****/
 /***** castlename-tw *****/ 
 /***** castle.sql *****/
 UPDATE `castle` SET `name` = '古魯丁城' WHERE `id` = 1;
