@@ -363,8 +363,6 @@ REPLACE INTO `teleport` VALUES
 
 -- NPC改成AI控制
 Delete From `spawnlist` Where `npc_templateid` in (32549,32619,32628,32629); -- 狄里歐斯/刺槍兵/碼頭巡邏兵
-UPDATE `npc` SET `walkspd` = '50' WHERE `id` IN (35659,35690,35728,35759,35797,35828,35859,35897,35928,35966,36004,36035,36073,36111,36142,36173,36211,36249,36287,36318,36356); -- 可疑的商人
-DELETE FROM `fort_spawnlist` WHERE `npcId` IN (35659,35690,35728,35759,35797,35828,35859,35897,35928,35966,36004,36035,36073,36111,36142,36173,36211,36249,36287,36318,36356); -- 可疑的商人
 
 -- 防具修正
 UPDATE `armor` SET `armor_type` = 'light' WHERE `item_id` IN (9670,9671); -- 土著上衣/土著下衣
@@ -410,18 +408,6 @@ UPDATE `etcitem` SET `skill` = '2670-1;', `handler` = 'ItemSkills' WHERE `item_i
 UPDATE `etcitem` SET `skill` = '2671-1;', `handler` = 'ItemSkills' WHERE `item_id` = '13795';  -- 變身體-翻滾方塊變身卷軸
 UPDATE `etcitem` SET `skill` = '2631-1;', `handler` = 'ItemSkills' WHERE `item_id` = '13800';  -- 青蛙變身卷軸
 UPDATE `etcitem` SET `skill` = '2632-1;', `handler` = 'ItemSkills' WHERE `item_id` = '13801';  -- 小孩變身卷軸
-UPDATE `etcitem` SET `skill` = '2720-1;', `handler` = 'ItemSkills' WHERE `item_id` = '13617';  -- 亞丁人類傭兵變身卷軸
-UPDATE `etcitem` SET `skill` = '2721-1;', `handler` = 'ItemSkills' WHERE `item_id` = '13618';  -- 亞丁精靈傭兵變身卷軸
-UPDATE `etcitem` SET `skill` = '2722-1;', `handler` = 'ItemSkills' WHERE `item_id` = '13619';  -- 亞丁黑暗精靈傭兵變身卷軸
-UPDATE `etcitem` SET `skill` = '2723-1;', `handler` = 'ItemSkills' WHERE `item_id` = '13620';  -- 亞丁半獸人傭兵變身卷軸
-UPDATE `etcitem` SET `skill` = '2724-1;', `handler` = 'ItemSkills' WHERE `item_id` = '13621';  -- 亞丁矮人傭兵變身卷軸
-UPDATE `etcitem` SET `skill` = '2725-1;', `handler` = 'ItemSkills' WHERE `item_id` = '13622';  -- 亞丁闇天使傭兵變身卷軸
-UPDATE `etcitem` SET `skill` = '2726-1;', `handler` = 'ItemSkills' WHERE `item_id` = '13623';  -- 亞丁騎士傭兵變身卷軸
-UPDATE `etcitem` SET `skill` = '2727-1;', `handler` = 'ItemSkills' WHERE `item_id` = '13624';  -- 亞丁弓手傭兵變身卷軸
-UPDATE `etcitem` SET `skill` = '2728-1;', `handler` = 'ItemSkills' WHERE `item_id` = '13625';  -- 亞丁巫師傭兵變身卷軸
-UPDATE `etcitem` SET `skill` = '2729-1;', `handler` = 'ItemSkills' WHERE `item_id` = '13626';  -- 亞丁百人隊長傭兵變身卷軸
-UPDATE `etcitem` SET `skill` = '2730-1;', `handler` = 'ItemSkills' WHERE `item_id` = '13627';  -- 亞丁騎士隊長傭兵變身卷軸
-UPDATE `etcitem` SET `skill` = '2731-1;', `handler` = 'ItemSkills' WHERE `item_id` = '13628';  -- 亞丁司令官傭兵變身卷軸
 
 -- 刪除魔法書商人
 DELETE FROM `spawnlist` WHERE `npc_templateid` IN (30840,31262,31413,31414,31415,31416,31417,31421,31422,31423,31424,31425,31426,31427,31429,31430,31431,31666,31667,31670,31951,31973,31980);

@@ -16,8 +16,8 @@ package handlers.voicedcommandhandlers;
 
 import com.l2jserver.Config;
 import com.l2jserver.gameserver.handler.IVoicedCommandHandler;
+import com.l2jserver.gameserver.model.L2ItemInstance;
 import com.l2jserver.gameserver.model.actor.instance.L2PcInstance;
-import com.l2jserver.gameserver.network.serverpackets.InventoryUpdate;
 import com.l2jserver.gameserver.datatables.MessageTable;
 import com.l2jserver.gameserver.model.L2CoreMessage;
 
@@ -54,11 +54,10 @@ public class Banking implements IVoicedCommandHandler
 		{
 			if (activeChar.getInventory().getInventoryItemCount(57, 0) >= Config.BANKING_SYSTEM_ADENA)
 			{
-				InventoryUpdate iu = new InventoryUpdate();
-				activeChar.getInventory().reduceAdena("Goldbar", Config.BANKING_SYSTEM_ADENA, activeChar, null);
+				if (!activeChar.getInventory().reduceAdena("Goldbar", Config.BANKING_SYSTEM_ADENA, activeChar, null))
+					return false;
 				activeChar.getInventory().addItem("Goldbar", 3470, Config.BANKING_SYSTEM_GOLDBARS, activeChar, null);
 				activeChar.getInventory().updateDatabase();
-				activeChar.sendPacket(iu);
 				L2CoreMessage cm =  new L2CoreMessage (MessageTable.Messages[298]);
 				cm.addNumber(Config.BANKING_SYSTEM_GOLDBARS);
 				cm.addNumber(Config.BANKING_SYSTEM_ADENA);
@@ -75,11 +74,11 @@ public class Banking implements IVoicedCommandHandler
 		{
 			if (activeChar.getInventory().getInventoryItemCount(3470, 0) >= Config.BANKING_SYSTEM_GOLDBARS)
 			{
-				InventoryUpdate iu = new InventoryUpdate();
-				activeChar.getInventory().destroyItemByItemId("Adena", 3470, Config.BANKING_SYSTEM_GOLDBARS, activeChar, null);
+				L2ItemInstance item = activeChar.getInventory().destroyItemByItemId("Adena", 3470, Config.BANKING_SYSTEM_GOLDBARS, activeChar, null);
+				if (item == null)
+					return false;
 				activeChar.getInventory().addAdena("Adena", Config.BANKING_SYSTEM_ADENA, activeChar, null);
 				activeChar.getInventory().updateDatabase();
-				activeChar.sendPacket(iu);
 				L2CoreMessage cm =  new L2CoreMessage (MessageTable.Messages[297]);
 				cm.addNumber(Config.BANKING_SYSTEM_ADENA);
 				cm.addNumber(Config.BANKING_SYSTEM_GOLDBARS);

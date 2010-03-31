@@ -129,6 +129,7 @@ public class MasterHandler
 		AdminCommandHandler.getInstance().registerAdminCommandHandler(new AdminSummon());
 		AdminCommandHandler.getInstance().registerAdminCommandHandler(new AdminTarget());
 		AdminCommandHandler.getInstance().registerAdminCommandHandler(new AdminTeleport());
+		AdminCommandHandler.getInstance().registerAdminCommandHandler(new AdminTerritoryWar());
 		AdminCommandHandler.getInstance().registerAdminCommandHandler(new AdminTest());
 		AdminCommandHandler.getInstance().registerAdminCommandHandler(new AdminTvTEvent());
 		AdminCommandHandler.getInstance().registerAdminCommandHandler(new AdminUnblockIp());
@@ -147,6 +148,7 @@ public class MasterHandler
 		BypassHandler.getInstance().registerBypassHandler(new CPRecovery());
 		BypassHandler.getInstance().registerBypassHandler(new DrawHenna());
 		BypassHandler.getInstance().registerBypassHandler(new FishSkillList());
+		BypassHandler.getInstance().registerBypassHandler(new FortSiege());
 		BypassHandler.getInstance().registerBypassHandler(new Link());
 		BypassHandler.getInstance().registerBypassHandler(new Loto());
 		BypassHandler.getInstance().registerBypassHandler(new Multisell());
@@ -164,6 +166,7 @@ public class MasterHandler
 		BypassHandler.getInstance().registerBypassHandler(new SupportBlessing());
 		BypassHandler.getInstance().registerBypassHandler(new SupportMagic());
 		BypassHandler.getInstance().registerBypassHandler(new TerritoryStatus());
+		BypassHandler.getInstance().registerBypassHandler(new TerritoryWar());
 		BypassHandler.getInstance().registerBypassHandler(new Transform());
 		BypassHandler.getInstance().registerBypassHandler(new Wear());
 		_log.config("Loaded " + BypassHandler.getInstance().size() + " BypassHandlers");
@@ -173,6 +176,7 @@ public class MasterHandler
 	{
 		ChatHandler.getInstance().registerChatHandler(new ChatAll());
 		ChatHandler.getInstance().registerChatHandler(new ChatAlliance());
+		ChatHandler.getInstance().registerChatHandler(new ChatBattlefield());
 		ChatHandler.getInstance().registerChatHandler(new ChatClan());
 		ChatHandler.getInstance().registerChatHandler(new ChatHeroVoice());
 		ChatHandler.getInstance().registerChatHandler(new ChatParty());
@@ -215,6 +219,7 @@ public class MasterHandler
 		ItemHandler.getInstance().registerItemHandler(new BeastSpice());
 		ItemHandler.getInstance().registerItemHandler(new TeleportBookmark());
 		ItemHandler.getInstance().registerItemHandler(new Elixir());
+		ItemHandler.getInstance().registerItemHandler(new Disguise());
 		_log.config("Loaded " + ItemHandler.getInstance().size() + " ItemHandlers");
 	}
 	
