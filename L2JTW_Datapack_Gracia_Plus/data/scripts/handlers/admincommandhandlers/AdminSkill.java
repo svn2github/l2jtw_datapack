@@ -32,6 +32,8 @@ import com.l2jserver.gameserver.network.serverpackets.SystemMessage;
 import com.l2jserver.gameserver.datatables.MessageTable;
 import com.l2jserver.gameserver.model.L2CoreMessage;
 
+
+
 /**
  * This class handles following admin commands:
  * - show_skills
