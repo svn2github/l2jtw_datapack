@@ -23,7 +23,6 @@ import com.l2jserver.gameserver.network.serverpackets.NpcHtmlMessage;
 import com.l2jserver.util.StringUtil;
 import com.l2jserver.gameserver.datatables.MessageTable;
 
-
 /**
  * Support for clan penalty user command.
  * @author Tempy
@@ -49,14 +48,14 @@ public class ClanPenalty implements IUserCommandHandler
                 final StringBuilder htmlContent = StringUtil.startAppend(500,
                         "<html><body>" +
                         "<center><table width=270 border=0 bgcolor=111111>" +
-                        "<tr><td width=170>"+MessageTable.Messages[1169].getMessage()+"</td>" +
-                        "<td width=100 align=center>"+MessageTable.Messages[1170].getMessage()+"</td></tr>" +
+                        "<tr><td width=170>"+MessageTable.Messages[1153].getMessage()+"</td>" +
+                        "<td width=100 align=center>"+MessageTable.Messages[1154].getMessage()+"</td></tr>" +
                         "</table><table width=270 border=0><tr>"
                         );
 		
 		if (activeChar.getClanJoinExpiryTime() > System.currentTimeMillis()) {
                     StringUtil.append(htmlContent,
-                            "<td width=170>"+MessageTable.Messages[1241].getMessage()+"</td>" +
+                            "<td width=170>"+MessageTable.Messages[1155].getMessage()+"</td>" +
                             "<td width=100 align=center>",
                             format.format(activeChar.getClanJoinExpiryTime()),
                             "</td>"
@@ -66,7 +65,7 @@ public class ClanPenalty implements IUserCommandHandler
 
 		if (activeChar.getClanCreateExpiryTime() > System.currentTimeMillis()) {
                     StringUtil.append(htmlContent,
-                            "<td width=170>"+MessageTable.Messages[1242].getMessage()+"</td>" +
+                            "<td width=170>"+MessageTable.Messages[1156].getMessage()+"</td>" +
                             "<td width=100 align=center>",
                             format.format(activeChar.getClanCreateExpiryTime()),
                             "</td>"
@@ -76,7 +75,7 @@ public class ClanPenalty implements IUserCommandHandler
 
 		if (activeChar.getClan() != null && activeChar.getClan().getCharPenaltyExpiryTime() > System.currentTimeMillis()) {
 					StringUtil.append(htmlContent,
-							"<td width=170>"+MessageTable.Messages[1238].getMessage()+"</td>" +
+							"<td width=170>"+MessageTable.Messages[1157].getMessage()+"</td>" +
 							"<td width=100 align=center>",
 							format.format(activeChar.getClan().getCharPenaltyExpiryTime()),
 							"</td>"
@@ -86,7 +85,7 @@ public class ClanPenalty implements IUserCommandHandler
 
 		if (!penalty) {
 			htmlContent.append(
-                                "<td width=170>"+MessageTable.Messages[1168].getMessage()+"</td>" +
+                                "<td width=170>"+MessageTable.Messages[1158].getMessage()+"</td>" +
                                 "<td width=100 align=center> </td>");
 		}
 		

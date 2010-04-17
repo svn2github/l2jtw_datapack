@@ -34,7 +34,6 @@ import com.l2jserver.gameserver.model.base.Experience;
 import com.l2jserver.gameserver.network.SystemMessageId;
 import com.l2jserver.gameserver.network.serverpackets.SystemMessage;
 import com.l2jserver.gameserver.datatables.MessageTable;
-import com.l2jserver.gameserver.model.L2CoreMessage;
 
 public class AdminLevel implements IAdminCommandHandler
 {
@@ -69,7 +68,7 @@ public class AdminLevel implements IAdminCommandHandler
 			}
 			catch (NumberFormatException e)
 			{
-				activeChar.sendMessage(430);
+				activeChar.sendMessage("Wrong Number Format");
 			}
 		}
 		else if (actualCommand.equalsIgnoreCase("admin_set_level"))
@@ -100,17 +99,13 @@ public class AdminLevel implements IAdminCommandHandler
 				}
 				else
 				{
-					L2CoreMessage cm =  new L2CoreMessage (MessageTable.Messages[581]);
-					cm.addNumber(Experience.MAX_LEVEL);
-					cm.sendMessage(activeChar);
+					activeChar.sendMessage(MessageTable.Messages[1728].getExtra(1) + Experience.MAX_LEVEL + MessageTable.Messages[1728].getExtra(2));
 					return false;
 				}
 			}
 			catch (NumberFormatException e)
 			{
-				L2CoreMessage cm =  new L2CoreMessage (MessageTable.Messages[581]);
-				cm.addNumber(Experience.MAX_LEVEL);
-				cm.sendMessage(activeChar);
+				activeChar.sendMessage("You must specify level between 1 and " + Experience.MAX_LEVEL + ".");
 				return false;
 			}
 		}

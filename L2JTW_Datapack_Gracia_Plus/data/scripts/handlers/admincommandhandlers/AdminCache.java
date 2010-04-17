@@ -22,7 +22,6 @@ import com.l2jserver.gameserver.cache.HtmCache;
 import com.l2jserver.gameserver.handler.IAdminCommandHandler;
 import com.l2jserver.gameserver.model.actor.instance.L2PcInstance;
 import com.l2jserver.gameserver.datatables.MessageTable;
-import com.l2jserver.gameserver.model.L2CoreMessage;
 
 /**
  * @author Layanere
@@ -52,10 +51,7 @@ public class AdminCache implements IAdminCommandHandler
 		if (command.startsWith("admin_cache_htm_rebuild") || command.equals("admin_cache_htm_reload"))
 		{
 			HtmCache.getInstance().reload(Config.DATAPACK_ROOT);
-			L2CoreMessage cm =  new L2CoreMessage (MessageTable.Messages[47]);
-			cm.addNumber(HtmCache.getInstance().getMemoryUsage());
-			cm.addNumber(HtmCache.getInstance().getLoadedFiles());
-			cm.sendMessage(activeChar);
+			activeChar.sendMessage(MessageTable.Messages[1465].getExtra(1) + HtmCache.getInstance().getMemoryUsage() + MessageTable.Messages[1465].getExtra(2) + HtmCache.getInstance().getLoadedFiles() + MessageTable.Messages[1465].getExtra(3));
 		}
 		else if (command.startsWith("admin_cache_reload_path "))
 		{
@@ -63,14 +59,11 @@ public class AdminCache implements IAdminCommandHandler
 			{
 				String path = command.split(" ")[1];
 				HtmCache.getInstance().reloadPath(new File(Config.DATAPACK_ROOT, path));
-				L2CoreMessage cm =  new L2CoreMessage (MessageTable.Messages[47]);
-				cm.addNumber(HtmCache.getInstance().getMemoryUsage());
-				cm.addNumber(HtmCache.getInstance().getLoadedFiles());
-				cm.sendMessage(activeChar);
+				activeChar.sendMessage(MessageTable.Messages[1465].getExtra(1) + HtmCache.getInstance().getMemoryUsage() + MessageTable.Messages[1465].getExtra(2) + HtmCache.getInstance().getLoadedFiles() + MessageTable.Messages[1465].getExtra(3));
 			}
 			catch (Exception e)
 			{
-				activeChar.sendMessage(383);
+				activeChar.sendMessage("Usage: //cache_reload_path <path>");
 			}
 		}
 		else if (command.startsWith("admin_cache_reload_file "))
@@ -80,30 +73,27 @@ public class AdminCache implements IAdminCommandHandler
 				String path = command.split(" ")[1];
 				if (HtmCache.getInstance().loadFile(new File(Config.DATAPACK_ROOT, path)) != null)
 				{
-					activeChar.sendMessage(51);
+					activeChar.sendMessage(1466);
 				}
 				else
 				{
-					activeChar.sendMessage(50);
+					activeChar.sendMessage(1467);
 				}
 			}
 			catch (Exception e)
 			{
-				activeChar.sendMessage(382);
+				activeChar.sendMessage("Usage: //cache_reload_file <relative_path/file>");
 			}
 		}
 		else if (command.startsWith("admin_cache_crest_rebuild") || command.startsWith("admin_cache_crest_reload"))
 		{
 			CrestCache.getInstance().reload();
-			L2CoreMessage cm =  new L2CoreMessage (MessageTable.Messages[45]);
-			cm.addString(String.format("%.3f", CrestCache.getInstance().getMemoryUsage()));
-			cm.addNumber(CrestCache.getInstance().getLoadedFiles());
-			cm.sendMessage(activeChar);
+			activeChar.sendMessage(MessageTable.Messages[1468].getExtra(1) + String.format("%.3f", CrestCache.getInstance().getMemoryUsage()) + MessageTable.Messages[1468].getExtra(2) + CrestCache.getInstance().getLoadedFiles() + MessageTable.Messages[1468].getExtra(3));
 		}
 		else if (command.startsWith("admin_cache_crest_fix"))
 		{
 			CrestCache.getInstance().convertOldPedgeFiles();
-			activeChar.sendMessage(46);
+			activeChar.sendMessage(1469);
 		}
 		return true;
 	}

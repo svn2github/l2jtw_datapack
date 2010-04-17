@@ -21,8 +21,6 @@ import com.l2jserver.gameserver.model.L2Object;
 import com.l2jserver.gameserver.model.actor.instance.L2DoorInstance;
 import com.l2jserver.gameserver.model.actor.instance.L2PcInstance;
 import com.l2jserver.gameserver.model.entity.Castle;
-import com.l2jserver.gameserver.network.SystemMessageId;
-import com.l2jserver.gameserver.network.serverpackets.SystemMessage;
 
 /**
  * This class handles following admin commands:
@@ -109,7 +107,7 @@ public class AdminDoorControl implements IAdminCommandHandler
 				}
 				else
 				{
-					activeChar.sendPacket(new SystemMessage(SystemMessageId.TARGET_IS_INCORRECT));
+					activeChar.sendMessage(1527);
 				}
 			}
 			
@@ -122,7 +120,7 @@ public class AdminDoorControl implements IAdminCommandHandler
 				}
 				else
 				{
-					activeChar.sendPacket(new SystemMessage(SystemMessageId.TARGET_IS_INCORRECT));
+					activeChar.sendMessage(1527);
 				}
 			}
 		}

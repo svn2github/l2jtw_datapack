@@ -22,10 +22,7 @@ import com.l2jserver.gameserver.model.L2Object;
 import com.l2jserver.gameserver.model.actor.L2Summon;
 import com.l2jserver.gameserver.model.actor.instance.L2PcInstance;
 import com.l2jserver.gameserver.model.entity.Instance;
-import com.l2jserver.gameserver.network.SystemMessageId;
-import com.l2jserver.gameserver.network.serverpackets.SystemMessage;
 import com.l2jserver.gameserver.datatables.MessageTable;
-import com.l2jserver.gameserver.model.L2CoreMessage;
 
 /** 
  * @author evill33t, GodKratos
@@ -54,7 +51,7 @@ public class AdminInstance implements IAdminCommandHandler
 			String[] parts = command.split(" ");
 			if (parts.length < 2)
 			{
-				activeChar.sendMessage(236);
+				activeChar.sendMessage("Example: //createinstance <id> <templatefile> - ids => 300000 are reserved for dynamic instances");
 			}
 			else
 			{
@@ -63,20 +60,18 @@ public class AdminInstance implements IAdminCommandHandler
 					int id = Integer.parseInt(parts[1]);
 					if (InstanceManager.getInstance().createInstanceFromTemplate(id, parts[2]) && id < 300000)
 					{
-						activeChar.sendMessage(259);
+						activeChar.sendMessage(1691);
 						return true;
 					}
 					else
 					{
-						activeChar.sendMessage(260);
+						activeChar.sendMessage(1692);
 						return true;
 					}
 				}
 				catch (Exception e)
 				{
-					L2CoreMessage cm =  new L2CoreMessage (MessageTable.Messages[118]);
-					cm.addString(parts[2]);
-					cm.sendMessage(activeChar);
+					activeChar.sendMessage("Failed loading: " + parts[2]);
 					return false;
 				}
 			}
@@ -85,10 +80,7 @@ public class AdminInstance implements IAdminCommandHandler
 		{
 			for (Instance temp : InstanceManager.getInstance().getInstances().values())
 			{
-				L2CoreMessage cm =  new L2CoreMessage (MessageTable.Messages[262]);
-				cm.addNumber(temp.getId());
-				cm.addString(temp.getName());
-				cm.sendMessage(activeChar);
+				activeChar.sendMessage(MessageTable.Messages[1693].getExtra(1) + temp.getId() + MessageTable.Messages[1693].getExtra(2) + temp.getName());
 			}
 		}
 		else if (command.startsWith("admin_setinstance"))
@@ -98,9 +90,7 @@ public class AdminInstance implements IAdminCommandHandler
 				int val = Integer.parseInt(st.nextToken());
 				if (InstanceManager.getInstance().getInstance(val) == null)
 				{
-					L2CoreMessage cm =  new L2CoreMessage (MessageTable.Messages[263]);
-					cm.addNumber(val);
-					cm.sendMessage(activeChar);
+					activeChar.sendMessage(MessageTable.Messages[1694].getExtra(1) + val + MessageTable.Messages[1694].getExtra(2));
 					return false;
 				}
 				else
@@ -108,38 +98,30 @@ public class AdminInstance implements IAdminCommandHandler
 					L2Object target = activeChar.getTarget();
 					if (target == null || target instanceof L2Summon) // Don't separate summons from masters
 					{
-						activeChar.sendPacket(new SystemMessage(SystemMessageId.TARGET_IS_INCORRECT));
+						activeChar.sendMessage(1695);
 						return false;
 					}
 					target.setInstanceId(val);
 					if (target instanceof L2PcInstance)
 					{
 						L2PcInstance player = (L2PcInstance) target;
-						L2CoreMessage cm2 =  new L2CoreMessage (MessageTable.Messages[276]);
-						cm2.addNumber(val);
-						cm2.sendMessage(player);
+						player.sendMessage(MessageTable.Messages[1696].getMessage() + val);
 						player.teleToLocation(player.getX(), player.getY(), player.getZ());
 						L2Summon pet = player.getPet();
 						if (pet != null)
 						{
 							pet.setInstanceId(val);
 							pet.teleToLocation(pet.getX(), pet.getY(), pet.getZ());
-							L2CoreMessage cm =  new L2CoreMessage (MessageTable.Messages[277]);
-							cm.addString(pet.getName());
-							cm.addNumber(val);
-							cm.sendMessage(player);
+							player.sendMessage(MessageTable.Messages[1697].getExtra(1) + pet.getName() + MessageTable.Messages[1697].getExtra(2) + val);
 						}
 					}
-					L2CoreMessage cm =  new L2CoreMessage (MessageTable.Messages[287]);
-					cm.addString(target.getName());
-					cm.addNumber(target.getInstanceId());
-					cm.sendMessage(activeChar);
+					activeChar.sendMessage(MessageTable.Messages[1698].getExtra(1) + target.getName() + MessageTable.Messages[1698].getExtra(2) + target.getInstanceId());
 					return true;
 				}
 			}
 			catch (Exception e)
 			{
-				activeChar.sendMessage(289);
+				activeChar.sendMessage("Use //setinstance id");
 			}
 		}
 		else if (command.startsWith("admin_destroyinstance"))
@@ -148,11 +130,11 @@ public class AdminInstance implements IAdminCommandHandler
 			{
 				int val = Integer.parseInt(st.nextToken());
 				InstanceManager.getInstance().destroyInstance(val);
-				activeChar.sendMessage(59);
+				activeChar.sendMessage(1699);
 			}
 			catch (Exception e)
 			{
-				activeChar.sendMessage(290);
+				activeChar.sendMessage("Use //destroyinstance id");
 			}
 		}
 
@@ -164,7 +146,7 @@ public class AdminInstance implements IAdminCommandHandler
 		else if (command.startsWith("admin_ghoston"))
 		{
 			activeChar.getAppearance().setGhostMode(true);
-			activeChar.sendMessage(435);
+			activeChar.sendMessage(1700);
 			activeChar.broadcastUserInfo();
 			activeChar.decayMe();
 			activeChar.spawnMe();
@@ -173,7 +155,7 @@ public class AdminInstance implements IAdminCommandHandler
 		else if (command.startsWith("admin_ghostoff"))
 		{
 			activeChar.getAppearance().setGhostMode(false);
-			activeChar.sendMessage(436);
+			activeChar.sendMessage(1701);
 			activeChar.broadcastUserInfo();
 			activeChar.decayMe();
 			activeChar.spawnMe();

@@ -23,7 +23,6 @@ import com.l2jserver.gameserver.model.actor.instance.L2PcInstance;
 import com.l2jserver.gameserver.network.gameserverpackets.ServerStatus;
 import com.l2jserver.gameserver.network.serverpackets.NpcHtmlMessage;
 import com.l2jserver.gameserver.datatables.MessageTable;
-import com.l2jserver.gameserver.model.L2CoreMessage;
 
 /**
  * This class handles the admin commands that acts on the login
@@ -50,13 +49,13 @@ public class AdminLogin implements IAdminCommandHandler
 		if (command.equals("admin_server_gm_only"))
 		{
 			gmOnly();
-			activeChar.sendMessage(270);
+			activeChar.sendMessage(1731);
 			showMainPage(activeChar);
 		}
 		else if (command.equals("admin_server_all"))
 		{
 			allowToAll();
-			activeChar.sendMessage(269);
+			activeChar.sendMessage(1732);
 			showMainPage(activeChar);
 		}
 		else if (command.startsWith("admin_server_max_player"))
@@ -69,19 +68,17 @@ public class AdminLogin implements IAdminCommandHandler
 				try
 				{
 					LoginServerThread.getInstance().setMaxPlayer(Integer.parseInt(number));
-					L2CoreMessage cm =  new L2CoreMessage (MessageTable.Messages[651]);
-					cm.addNumber(new Integer(number).intValue());
-					cm.sendMessage(activeChar);
+					activeChar.sendMessage(MessageTable.Messages[1733].getMessage() + number);
 					showMainPage(activeChar);
 				}
 				catch (NumberFormatException e)
 				{
-					activeChar.sendMessage(193);
+					activeChar.sendMessage("Max players must be a number.");
 				}
 			}
 			else
 			{
-				activeChar.sendMessage(123);
+				activeChar.sendMessage("Format is server_max_player <max>");
 			}
 		}
 		else if (command.startsWith("admin_server_list_clock"))
@@ -94,7 +91,7 @@ public class AdminLogin implements IAdminCommandHandler
 				if (mode.equals("on"))
 				{
 					LoginServerThread.getInstance().sendServerStatus(ServerStatus.SERVER_LIST_CLOCK, ServerStatus.ON);
-					activeChar.sendMessage(17);
+					activeChar.sendMessage(1734);
 					Config.SERVER_LIST_CLOCK = true;
 					showMainPage(activeChar);
 				}
@@ -102,17 +99,17 @@ public class AdminLogin implements IAdminCommandHandler
 				{
 					LoginServerThread.getInstance().sendServerStatus(ServerStatus.SERVER_LIST_CLOCK, ServerStatus.OFF);
 					Config.SERVER_LIST_CLOCK = false;
-					activeChar.sendMessage(304);
+					activeChar.sendMessage(1735);
 					showMainPage(activeChar);
 				}
 				else
 				{
-					activeChar.sendMessage(122);
+					activeChar.sendMessage("Format is server_list_clock <on/off>");
 				}
 			}
 			else
 			{
-				activeChar.sendMessage(122);
+				activeChar.sendMessage("Format is server_list_clock <on/off>");
 			}
 		}
 		else if (command.equals("admin_server_login"))

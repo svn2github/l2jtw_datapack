@@ -22,7 +22,6 @@ import com.l2jserver.gameserver.model.actor.instance.L2PcInstance;
 import com.l2jserver.gameserver.network.serverpackets.ActionFailed;
 import com.l2jserver.gameserver.network.serverpackets.NpcHtmlMessage;
 import com.l2jserver.gameserver.datatables.MessageTable;
-
 public class Book implements IItemHandler
 {
 	/**
@@ -42,7 +41,7 @@ public class Book implements IItemHandler
 		if (content == null)
 		{
 			NpcHtmlMessage html = new NpcHtmlMessage(1);
-			html.setHtml("<html><body>"+MessageTable.Messages[1199].getMessage()+"<br>" + filename + "</body></html>");
+			html.setHtml("<html><body>"+MessageTable.Messages[1114].getMessage()+"<br>" + filename + "</body></html>");
 			activeChar.sendPacket(html);
 		}
 		else

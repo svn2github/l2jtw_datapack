@@ -322,12 +322,12 @@ else
 echo "Upgrading communityserver content"
 fi
 if [ "$1" == "I" ]; then
-$MYC < ../cb_sql/clan_introductions.sql &> /dev/null #Update by rocknow
-$MYC < ../cb_sql/comments.sql &> /dev/null           #Update by rocknow
-$MYC < ../cb_sql/forums.sql &> /dev/null             #Update by rocknow
-$MYC < ../cb_sql/gameservers.sql &> /dev/null        #Update by rocknow
-$MYC < ../cb_sql/posts.sql &> /dev/null              #Update by rocknow
-$MYC < ../cb_sql/topics.sql &> /dev/null             #Update by rocknow
+$MYC < ../cb_sql/clan_introductions.sql &> /dev/null     #Update by rocknow
+$MYC < ../cb_sql/comments.sql &> /dev/null               #Update by rocknow
+$MYC < ../cb_sql/forums.sql &> /dev/null                 #Update by rocknow
+$MYC < ../cb_sql/registered_gameservers.sql &> /dev/null #Update by rocknow
+$MYC < ../cb_sql/posts.sql &> /dev/null                  #Update by rocknow
+$MYC < ../cb_sql/topics.sql &> /dev/null                 #Update by rocknow
 fi
 newbie_helper_cb
 }
@@ -463,7 +463,8 @@ $MYG < ../sql/transform_skill_trees.sql &> /dev/null
 $MYG < ../sql/walker_routes.sql &> /dev/null
 $MYG < ../sql/weapon.sql &> /dev/null
 $MYG < ../sql/zone_vertices.sql &> /dev/null
-$MYG < ../sql/mods_wedding.sql &> /dev/null
+$MYG < ../sql/mods/mods_wedding.sql &> /dev/null
+$MYG < ../sql/custom/custom_npc.sql &> /dev/null
 $MYG < ../sql/chatdata.sql &> /dev/null
 $MYG < ../sql/messagetable.sql &> /dev/null
 $MYG < ../sql/npcCharData.sql &> /dev/null

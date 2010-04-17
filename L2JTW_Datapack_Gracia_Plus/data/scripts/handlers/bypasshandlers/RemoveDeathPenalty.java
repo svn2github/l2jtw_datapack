@@ -24,7 +24,7 @@ import com.l2jserver.gameserver.network.serverpackets.EtcStatusUpdate;
 import com.l2jserver.gameserver.network.serverpackets.NpcHtmlMessage;
 import com.l2jserver.gameserver.network.serverpackets.SystemMessage;
 import com.l2jserver.util.StringUtil;
-
+import com.l2jserver.gameserver.datatables.MessageTable;
 public class RemoveDeathPenalty implements IBypassHandler
 {
 	private static final String[] COMMANDS =
@@ -59,7 +59,7 @@ public class RemoveDeathPenalty implements IBypassHandler
 				case 2:
 					NpcHtmlMessage Reply = new NpcHtmlMessage(npc.getObjectId());
                                             final StringBuilder replyMSG = StringUtil.startAppend(400,
-                                                    "<html><body>Black Judge:<br>"
+                                                    "<html><body>"+MessageTable.Messages[1022].getMessage()+"<br>"
                                                     );
 
 					if (activeChar.getDeathPenaltyBuffLevel() > 0)
@@ -75,13 +75,13 @@ public class RemoveDeathPenalty implements IBypassHandler
 						}
 						else
 						{
-							replyMSG.append("The wound you have received from death's touch is too deep to be healed for the money you have to give me. Find more money if you wish death's mark to be fully removed from you.");
+							replyMSG.append(MessageTable.Messages[1023].getMessage());
 						}
 					}
 					else 
 					{
-						replyMSG.append("You have no more death wounds that require healing.<br>" +
-                                                            "Go forth and fight, both for this world and your own glory.");
+						replyMSG.append(MessageTable.Messages[1024].getMessage()+"<br>" +
+                                                            MessageTable.Messages[1025].getMessage());
 					}
 					
 					replyMSG.append("</body></html>");

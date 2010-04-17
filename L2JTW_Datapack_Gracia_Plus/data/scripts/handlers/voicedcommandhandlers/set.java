@@ -47,7 +47,7 @@ public class set implements IVoicedCommandHandler
 				if (activeChar.getClan().getClanId() == pc.getClan().getClanId() && (activeChar.getClanPrivileges() > n) || activeChar.isClanLeader())
 				{
 					pc.setClanPrivileges(n);
-					L2CoreMessage cm =  new L2CoreMessage (MessageTable.Messages[617]);
+					L2CoreMessage cm = new L2CoreMessage (MessageTable.Messages[1204]);
 					cm.addNumber(n);
 					cm.addString(activeChar.getName());
 					activeChar.sendMessage(cm.renderMsg());

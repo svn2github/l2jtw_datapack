@@ -21,11 +21,7 @@ import com.l2jserver.gameserver.model.L2Object;
 import com.l2jserver.gameserver.model.L2Spawn;
 import com.l2jserver.gameserver.model.actor.L2Npc;
 import com.l2jserver.gameserver.model.actor.instance.L2PcInstance;
-import com.l2jserver.gameserver.network.serverpackets.SystemMessage;
-import com.l2jserver.gameserver.network.SystemMessageId;
 import com.l2jserver.gameserver.datatables.MessageTable;
-import com.l2jserver.gameserver.model.L2CoreMessage;
-
 /**
  * This class handles following admin commands: - delete = deletes target
  *
@@ -70,12 +66,9 @@ public class AdminDelete implements IAdminCommandHandler
 					SpawnTable.getInstance().deleteSpawn(spawn, true);
 			}
 			
-			L2CoreMessage cm =  new L2CoreMessage (MessageTable.Messages[100]);
-			cm.addString(target.getName());
-			cm.addNumber(target.getObjectId());
-			cm.sendMessage(activeChar);
+			activeChar.sendMessage(MessageTable.Messages[1517].getExtra(1) + target.getName() + MessageTable.Messages[1517].getExtra(2) + target.getObjectId() + MessageTable.Messages[1517].getExtra(3));
 		}
 		else
-			activeChar.sendPacket(new SystemMessage(SystemMessageId.TARGET_IS_INCORRECT));
+			activeChar.sendMessage(1518);
 	}
 }

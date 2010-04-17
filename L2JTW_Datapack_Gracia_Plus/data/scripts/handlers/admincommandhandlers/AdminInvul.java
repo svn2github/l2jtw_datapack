@@ -67,14 +67,14 @@ public class AdminInvul implements IAdminCommandHandler
 		if (activeChar.isInvul())
 		{
 			activeChar.setIsInvul(false);
-			text = activeChar.getName() + MessageTable.Messages[686].getMessage();
+			text = activeChar.getName() + MessageTable.Messages[1717].getMessage();
 			if (Config.DEBUG)
 				_log.fine("GM: Gm removed invul mode from character " + activeChar.getName() + "(" + activeChar.getObjectId() + ")");
 		}
 		else
 		{
 			activeChar.setIsInvul(true);
-			text = activeChar.getName() + MessageTable.Messages[687].getMessage();
+			text = activeChar.getName() + MessageTable.Messages[1718].getMessage();
 			if (Config.DEBUG)
 				_log.fine("GM: Gm activated invul mode for character " + activeChar.getName() + "(" + activeChar.getObjectId() + ")");
 		}

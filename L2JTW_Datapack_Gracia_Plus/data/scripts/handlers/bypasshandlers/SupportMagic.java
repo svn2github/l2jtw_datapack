@@ -25,7 +25,7 @@ import com.l2jserver.gameserver.model.actor.instance.L2PcInstance;
 import com.l2jserver.gameserver.model.actor.instance.L2SummonInstance;
 import com.l2jserver.gameserver.templates.L2HelperBuff;
 import com.l2jserver.gameserver.templates.skills.L2SkillType;
-
+import com.l2jserver.gameserver.datatables.MessageTable;
 public class SupportMagic implements IBypassHandler
 {
 	private static final String[] COMMANDS =
@@ -78,7 +78,7 @@ public class SupportMagic implements IBypassHandler
 		{
 			if (player.getPet() == null || !(player.getPet() instanceof L2SummonInstance))
 			{
-				String content = "<html><body>Only servitors can receive this Support Magic. If you do not have a servitor, you cannot access these spells.</body></html>";
+				String content = "<html><body>"+MessageTable.Messages[1081].getMessage()+"</body></html>";
 				npc.insertObjectIdAndShowChatWindow(player, content);
 				return true;
 			}
@@ -110,8 +110,8 @@ public class SupportMagic implements IBypassHandler
 		// If the player is too high level, display a message and return
 		if (player_level > highestLevel)
 		{
-			String content = "<html><body>Newbie Guide:<br>Only a <font color=\"LEVEL\">novice character of level " + highestLevel
-					+ " or less</font> can receive my support magic.<br>Your novice character is the first one that you created and raised in this world.</body></html>";
+			String content = "<html><body>"+MessageTable.Messages[1082].getMessage()+"<br>"+MessageTable.Messages[1083].getMessage()+"<font color=\"LEVEL\">"+MessageTable.Messages[1084].getMessage() + highestLevel
+					+ MessageTable.Messages[1085].getMessage()+"</font>"+MessageTable.Messages[1086].getMessage()+"</body></html>";
 			npc.insertObjectIdAndShowChatWindow(player, content);
 			return true;
 		}
@@ -119,7 +119,7 @@ public class SupportMagic implements IBypassHandler
 		// If the player is too low level, display a message and return
 		if (player_level < lowestLevel)
 		{
-			String content = "<html><body>Come back here when you have reached level " + lowestLevel + ". I will give you support magic then.</body></html>";
+			String content = "<html><body>"+MessageTable.Messages[1087].getMessage() + lowestLevel + MessageTable.Messages[1088].getMessage()+"</body></html>";
 			npc.insertObjectIdAndShowChatWindow(player, content);
 			return true;
 		}

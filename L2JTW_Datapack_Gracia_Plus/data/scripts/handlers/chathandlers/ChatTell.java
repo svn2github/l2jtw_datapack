@@ -66,7 +66,7 @@ public class ChatTell implements IChatHandler
 		{
 			if (Config.JAIL_DISABLE_CHAT && receiver.isInJail() && !activeChar.isGM())
 			{
-				activeChar.sendMessage(237);
+				activeChar.sendMessage(1105);
 				return;
 			}
 			if (receiver.isChatBanned())
@@ -76,7 +76,7 @@ public class ChatTell implements IChatHandler
 			}
 			if (receiver.getClient() == null || receiver.getClient().isDetached())
 			{
-				activeChar.sendMessage(26);
+				activeChar.sendMessage(1106);
 				return;
 			}
 			if (!BlockList.isBlocked(receiver, activeChar))

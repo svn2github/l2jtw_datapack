@@ -48,8 +48,6 @@ import com.l2jserver.gameserver.templates.chars.L2NpcTemplate;
 import com.l2jserver.gameserver.templates.item.L2Item;
 import com.l2jserver.util.StringUtil;
 import com.l2jserver.gameserver.datatables.MessageTable;
-import com.l2jserver.gameserver.model.L2CoreMessage;
-
 /**
  * @author terry
  * 
@@ -105,7 +103,7 @@ public class AdminEditNpc implements IAdminCommandHandler
 			}
 			catch (Exception e)
 			{
-				activeChar.sendMessage(434);
+				activeChar.sendMessage("Wrong usage: //edit_npc <npcId>");
 			}
 		}
 		else if (command.startsWith("admin_show_droplist "))
@@ -122,7 +120,7 @@ public class AdminEditNpc implements IAdminCommandHandler
 			}
 			catch (Exception e)
 			{
-				activeChar.sendMessage(422);
+				activeChar.sendMessage("Usage: //show_droplist <npc_id> [<page>]");
 			}
 		}
 		else if (command.startsWith("admin_addShopItem "))
@@ -191,11 +189,11 @@ public class AdminEditNpc implements IAdminCommandHandler
 					}
 				}
 				else
-					activeChar.sendMessage(389);
+					activeChar.sendMessage("Usage: //edit_drop <npc_id> <item_id> <category> [<min> <max> <chance>]");
 			}
 			catch (StringIndexOutOfBoundsException e)
 			{
-				activeChar.sendMessage(389);
+				activeChar.sendMessage("Usage: //edit_drop <npc_id> <item_id> <category> [<min> <max> <chance>]");
 			}
 		}
 		else if (command.startsWith("admin_add_drop "))
@@ -242,11 +240,11 @@ public class AdminEditNpc implements IAdminCommandHandler
 					}
 				}
 				else
-					activeChar.sendMessage(373);
+					activeChar.sendMessage("Usage: //add_drop <npc_id> [<item_id> <category> <min> <max> <chance>]");
 			}
 			catch (StringIndexOutOfBoundsException e)
 			{
-				activeChar.sendMessage(373);
+				activeChar.sendMessage("Usage: //add_drop <npc_id> [<item_id> <category> <min> <max> <chance>]");
 			}
 		}
 		else if (command.startsWith("admin_del_drop "))
@@ -366,32 +364,29 @@ public class AdminEditNpc implements IAdminCommandHandler
 			tradeList.replaceItem(itemID, Long.parseLong(args[3]));
 			updateTradeList(itemID, price, tradeListID, order);
 			
-			L2CoreMessage cm = new L2CoreMessage(MessageTable.Messages[367]);
-			cm.addString(item.getName());
-			cm.addNumber(tradeListID);
-			cm.sendMessage(activeChar);
+			activeChar.sendMessage(MessageTable.Messages[1575].getExtra(1) + item.getName() + MessageTable.Messages[1575].getExtra(2) + tradeListID);
 			showShopList(activeChar, tradeListID, 1);
 			return;
 		}
 		
-		final String replyMSG = StringUtil.concat("<html><title>Merchant Shop Item Edit</title><body><center><font color=\"LEVEL\">", 
+		final String replyMSG = StringUtil.concat("<html><title>"+MessageTable.Messages[1576].getMessage()+"</title><body><center><font color=\"LEVEL\">", 
 				NpcTable.getInstance().getTemplate(Integer.parseInt(tradeList.getNpcId())).getName(), 
 				" (", 
 				tradeList.getNpcId(), 
 				") -> ", 
 				Integer.toString(tradeListID), 
-				"</font></center><table width=\"100%\"><tr><td>Item</td><td>", 
+				"</font></center><table width=\"100%\"><tr><td>"+MessageTable.Messages[1577].getExtra(1)+"</td><td>", 
 				item.getName(), 
 				" (", 
 				Integer.toString(item.getItemId()), 
 				")", 
-				"</td></tr><tr><td>Price (", 
+				"</td></tr><tr><td>"+MessageTable.Messages[1577].getExtra(2)+" (", 
 				String.valueOf(tradeList.getPriceForItemId(itemID)), 
-				")</td><td><edit var=\"price\" width=80></td></tr></table><center><br><button value=\"Save\" action=\"bypass -h admin_editShopItem ", 
+				")</td><td><edit var=\"price\" width=80></td></tr></table><center><br><button value=\""+MessageTable.Messages[1578].getExtra(1)+"\" action=\"bypass -h admin_editShopItem ", 
 				String.valueOf(tradeListID), 
 				" ", 
 				String.valueOf(itemID), 
-				" $price\" width=100 height=20 back=\"L2UI_ct1.button_df\" fore=\"L2UI_ct1.button_df\"><button value=\"Back to Shop List\" action=\"bypass -h admin_showShopList ", 
+				" $price\" width=100 height=20 back=\"L2UI_ct1.button_df\" fore=\"L2UI_ct1.button_df\"><button value=\""+MessageTable.Messages[1579].getMessage()+"\" action=\"bypass -h admin_showShopList ", 
 				String.valueOf(tradeListID), 
 				" 1\"  width=100 height=20 back=\"L2UI_ct1.button_df\" fore=\"L2UI_ct1.button_df\"></center></body></html>");
 		
@@ -416,27 +411,24 @@ public class AdminEditNpc implements IAdminCommandHandler
 			tradeList.removeItem(itemID);
 			deleteTradeList(tradeListID, order);
 			
-			L2CoreMessage cm = new L2CoreMessage(MessageTable.Messages[99]);
-			cm.addString(ItemTable.getInstance().getTemplate(itemID).getName());
-			cm.addNumber(tradeListID);
-			cm.sendMessage(activeChar);
+			activeChar.sendMessage(MessageTable.Messages[1579].getExtra(1) + ItemTable.getInstance().getTemplate(itemID).getName() + MessageTable.Messages[1579].getExtra(2) + tradeListID);
 			showShopList(activeChar, tradeListID, 1);
 			return;
 		}
 		
-		final String replyMSG = StringUtil.concat("<html><title>Merchant Shop Item Delete</title><body><br>Delete entry in trade list ", 
+		final String replyMSG = StringUtil.concat("<html><title>"+MessageTable.Messages[1581].getMessage()+"</title><body><br>"+MessageTable.Messages[1582].getMessage(), 
 				String.valueOf(tradeListID), 
-				"<table width=\"100%\"><tr><td>Item</td><td>", 
+				"<table width=\"100%\"><tr><td>"+MessageTable.Messages[1577].getExtra(1)+"</td><td>", 
 				ItemTable.getInstance().getTemplate(itemID).getName(), 
 				" (", 
 				Integer.toString(itemID), 
-				")</td></tr><tr><td>Price</td><td>", 
+				")</td></tr><tr><td>"+MessageTable.Messages[1577].getExtra(2)+"</td><td>", 
 				String.valueOf(tradeList.getPriceForItemId(itemID)), 
-				"</td></tr></table><center><br><button value=\"Delete\" action=\"bypass -h admin_delShopItem ", 
+				"</td></tr></table><center><br><button value=\""+MessageTable.Messages[1578].getExtra(2)+"\" action=\"bypass -h admin_delShopItem ", 
 				String.valueOf(tradeListID), 
 				" ", 
 				String.valueOf(itemID), 
-				" 1\"  width=100 height=20 back=\"L2UI_ct1.button_df\" fore=\"L2UI_ct1.button_df\"><button value=\"Back to Shop List\" action=\"bypass -h admin_showShopList ", 
+				" 1\"  width=100 height=20 back=\"L2UI_ct1.button_df\" fore=\"L2UI_ct1.button_df\"><button value=\""+MessageTable.Messages[1579].getMessage()+"\" action=\"bypass -h admin_showShopList ", 
 				String.valueOf(tradeListID), 
 				" 1\"  width=100 height=20 back=\"L2UI_ct1.button_df\" fore=\"L2UI_ct1.button_df\"></center></body></html>");
 		
@@ -452,7 +444,7 @@ public class AdminEditNpc implements IAdminCommandHandler
 		L2TradeList tradeList = TradeController.getInstance().getBuyList(tradeListID);
 		if (tradeList == null)
 		{
-			activeChar.sendMessage(352);
+			activeChar.sendMessage(1583);
 			return;
 		}
 		
@@ -469,17 +461,17 @@ public class AdminEditNpc implements IAdminCommandHandler
 			boolean stored = storeTradeList(itemID, price, tradeListID, order);
 			
 			if (stored)
-				activeChar.sendMessage("Added " + ItemTable.getInstance().getTemplate(itemID).getName() + " to Trade List " + tradeList.getListId());
+				activeChar.sendMessage(MessageTable.Messages[1584].getExtra(1) + ItemTable.getInstance().getTemplate(itemID).getName() + MessageTable.Messages[1584].getExtra(2) + tradeList.getListId());
 			else
-				activeChar.sendMessage("Could not add " + ItemTable.getInstance().getTemplate(itemID).getName() + " to Trade List " + tradeList.getListId() + "!");
+				activeChar.sendMessage(MessageTable.Messages[1585].getExtra(1) + ItemTable.getInstance().getTemplate(itemID).getName() + MessageTable.Messages[1585].getExtra(2) + tradeList.getListId() + MessageTable.Messages[1585].getExtra(3));
 			
 			showShopList(activeChar, tradeListID, 1);
 			return;
 		}
 		
-		final String replyMSG = StringUtil.concat("<html><title>Merchant Shop Item Add</title><body><br>Add a new entry in merchantList.<table width=\"100%\"><tr><td>ItemID</td><td><edit var=\"itemID\" width=80></td></tr><tr><td>Price</td><td><edit var=\"price\" width=80></td></tr></table><center><br><button value=\"Add\" action=\"bypass -h admin_addShopItem ", 
+		final String replyMSG = StringUtil.concat("<html><title>"+MessageTable.Messages[1586].getMessage()+"</title><body><br>"+MessageTable.Messages[1587].getMessage()+"<table width=\"100%\"><tr><td>"+MessageTable.Messages[1588].getExtra(1)+"</td><td><edit var=\"itemID\" width=80></td></tr><tr><td>"+MessageTable.Messages[1588].getExtra(2)+"</td><td><edit var=\"price\" width=80></td></tr></table><center><br><button value=\""+MessageTable.Messages[1588].getExtra(3)+"\" action=\"bypass -h admin_addShopItem ", 
 				String.valueOf(tradeListID), 
-				" $itemID $price\" width=100 height=20 back=\"L2UI_ct1.button_df\" fore=\"L2UI_ct1.button_df\"><button value=\"Back to Shop List\" action=\"bypass -h admin_showShopList ", 
+				" $itemID $price\" width=100 height=20 back=\"L2UI_ct1.button_df\" fore=\"L2UI_ct1.button_df\"><button value=\""+MessageTable.Messages[1579].getMessage()+"\" action=\"bypass -h admin_showShopList ", 
 				String.valueOf(tradeListID), 
 				" 1\"  width=100 height=20 back=\"L2UI_ct1.button_df\" fore=\"L2UI_ct1.button_df\"></center></body></html>");
 		
@@ -507,15 +499,15 @@ public class AdminEditNpc implements IAdminCommandHandler
 		if (tradeList.getItems().size() > PAGE_LIMIT * max)
 			max++;
 		
-		StringUtil.append(replyMSG, "<html><title>Merchant Shop List Page: ", 
+		StringUtil.append(replyMSG, "<html><title>"+MessageTable.Messages[1589].getExtra(1), 
 				String.valueOf(page), 
-				" of ", 
+				MessageTable.Messages[1589].getExtra(2), 
 				Integer.toString(max), 
 				"</title><body><br><center><font color=\"LEVEL\">", 
 				NpcTable.getInstance().getTemplate(Integer.parseInt(tradeList.getNpcId())).getName(), 
 				" (", 
 				tradeList.getNpcId(), 
-				") Shop ID: ", 
+				") "+MessageTable.Messages[1589].getExtra(3), 
 				Integer.toString(tradeList.getListId()), 
 				"</font></center><table width=300 bgcolor=666666><tr>");
 		
@@ -524,9 +516,9 @@ public class AdminEditNpc implements IAdminCommandHandler
 			int pagenr = x + 1;
 			if (page == pagenr)
 			{
-				replyMSG.append("<td>Page ");
+				replyMSG.append("<td>"+MessageTable.Messages[1590].getMessage());
 				replyMSG.append(pagenr);
-				replyMSG.append("</td>");
+				replyMSG.append(MessageTable.Messages[1590].getExtra(1)+"</td>");
 			}
 			else
 			{
@@ -534,13 +526,13 @@ public class AdminEditNpc implements IAdminCommandHandler
 				replyMSG.append(tradeList.getListId());
 				replyMSG.append(" ");
 				replyMSG.append(x+1);
-				replyMSG.append("\"> Page ");
+				replyMSG.append("\"> "+MessageTable.Messages[1590].getMessage());
 				replyMSG.append(pagenr);
-				replyMSG.append(" </a></td>");
+				replyMSG.append(MessageTable.Messages[1590].getExtra(1)+" </a></td>");
 			}
 		}
 		
-		replyMSG.append("</tr></table><table width=\"100%\"><tr><td width=150>Item</td><td width=60>Price</td><td width=40>Delete</td></tr>");
+		replyMSG.append("</tr></table><table width=\"100%\"><tr><td width=150>"+MessageTable.Messages[1577].getExtra(1)+"</td><td width=60>"+MessageTable.Messages[1577].getExtra(2)+"</td><td width=40>"+MessageTable.Messages[1578].getExtra(2)+"</td></tr>");
 		
 		int start = ((page - 1) * PAGE_LIMIT);
 		int end = Math.min(((page - 1) * PAGE_LIMIT) + PAGE_LIMIT, tradeList.getItems().size());
@@ -559,13 +551,13 @@ public class AdminEditNpc implements IAdminCommandHandler
 					String.valueOf(tradeList.getListId()), 
 					" ", 
 					String.valueOf(item.getItemId()), 
-					"\">Delete</a></td></tr>");
+					"\">"+MessageTable.Messages[1578].getExtra(2)+"</a></td></tr>");
 		}
 		StringUtil.append(replyMSG, "<tr><td><br><br></td><td> </td><td> </td></tr><tr>");
 		
-		StringUtil.append(replyMSG, "</tr></table><center><br><button value=\"Add Shop Item\" action=\"bypass -h admin_addShopItem ", 
+		StringUtil.append(replyMSG, "</tr></table><center><br><button value=\""+MessageTable.Messages[1591].getExtra(1)+"\" action=\"bypass -h admin_addShopItem ", 
 				String.valueOf(tradeList.getListId()), 
-				"\" width=100 height=20 back=\"L2UI_ct1.button_df\" fore=\"L2UI_ct1.button_df\"><button value=\"Close\" action=\"bypass -h admin_close_window\" width=100 height=20 back=\"L2UI_ct1.button_df\" fore=\"L2UI_ct1.button_df\"></center></body></html>");
+				"\" width=100 height=20 back=\"L2UI_ct1.button_df\" fore=\"L2UI_ct1.button_df\"><button value=\""+MessageTable.Messages[1591].getExtra(2)+"\" action=\"bypass -h admin_close_window\" width=100 height=20 back=\"L2UI_ct1.button_df\" fore=\"L2UI_ct1.button_df\"></center></body></html>");
 		
 		return replyMSG.toString();
 	}
@@ -575,24 +567,22 @@ public class AdminEditNpc implements IAdminCommandHandler
 		List<L2TradeList> tradeLists = TradeController.getInstance().getBuyListByNpcId(merchantID);
 		if (tradeLists == null)
 		{
-			L2CoreMessage cm =  new L2CoreMessage (MessageTable.Messages[363]);
-			cm.addNumber(merchantID);
-			cm.sendMessage(activeChar);
+			activeChar.sendMessage(MessageTable.Messages[1592].getMessage() + merchantID);
 			return;
 		}
 		
 		final StringBuilder replyMSG = new StringBuilder();
-		StringUtil.append(replyMSG, "<html><title>Merchant Shop Lists</title><body>");
+		StringUtil.append(replyMSG, "<html><title>"+MessageTable.Messages[1593].getMessage()+"</title><body>");
 		
 		if (activeChar.getTarget() instanceof L2MerchantInstance)
 		{
 			MerchantPriceConfig mpc = ((L2MerchantInstance) activeChar.getTarget()).getMpc();
 			StringUtil.append(replyMSG, 
-					"<br>NPC: ", 
+					"<br>"+MessageTable.Messages[1594].getExtra(1), 
 					activeChar.getTarget().getName(), 
 					" (", 
 					Integer.toString(merchantID), 
-					") <br>Price Config: ", 
+					") <br>"+MessageTable.Messages[1594].getExtra(2), 
 					mpc.getName(), 
 					", ", 
 					Integer.toString(mpc.getBaseTax()), 
@@ -609,13 +599,13 @@ public class AdminEditNpc implements IAdminCommandHandler
 			{
 				StringUtil.append(replyMSG, "<tr><td><a action=\"bypass -h admin_showShopList ", 
 						String.valueOf(tradeList.getListId()), 
-						" 1\">Merchant List ID ", 
+						" 1\">"+MessageTable.Messages[1595].getMessage(), 
 						String.valueOf(tradeList.getListId()), 
 						"</a></td></tr>");
 			}
 		}
 		
-		StringUtil.append(replyMSG, "</table><center><br><button value=\"Close\" action=\"bypass -h admin_close_window\" width=100 height=20 back=\"L2UI_ct1.button_df\" fore=\"L2UI_ct1.button_df\"></center></body></html>");
+		StringUtil.append(replyMSG, "</table><center><br><button value=\""+MessageTable.Messages[1591].getExtra(2)+"\" action=\"bypass -h admin_close_window\" width=100 height=20 back=\"L2UI_ct1.button_df\" fore=\"L2UI_ct1.button_df\"></center></body></html>");
 		
 		NpcHtmlMessage adminReply = new NpcHtmlMessage(5);
 		adminReply.setHtml(replyMSG.toString());
@@ -835,7 +825,7 @@ public class AdminEditNpc implements IAdminCommandHandler
 			adminReply.replace("%absorbLevel%", String.valueOf(npc.absorbLevel));
 		}
 		else
-			adminReply.setHtml("<html><head><body>"+MessageTable.Messages[119].getMessage()+"data/html/admin/editnpc.htm</body></html>");
+			adminReply.setHtml("<html><head><body>"+MessageTable.Messages[1596].getMessage()+"data/html/admin/editnpc.htm</body></html>");
 		activeChar.sendPacket(adminReply);
 	}
 	
@@ -964,20 +954,18 @@ public class AdminEditNpc implements IAdminCommandHandler
 		L2NpcTemplate npcData = NpcTable.getInstance().getTemplate(npcId);
 		if (npcData == null)
 		{
-			L2CoreMessage cm =  new L2CoreMessage (MessageTable.Messages[363]);
-			cm.addNumber(npcId);
-			cm.sendMessage(activeChar);
+			activeChar.sendMessage(MessageTable.Messages[1592].getMessage() + npcId);
 			return;
 		}
 		
 		final StringBuilder replyMSG = new StringBuilder(2900);
-		replyMSG.append("<html><title>Show droplist page ");
+		replyMSG.append("<html><title>"+MessageTable.Messages[1597].getMessage());
 		replyMSG.append(page);
 		replyMSG.append("</title><body><br1><center><font color=\"LEVEL\">");
 		replyMSG.append(npcData.name);
 		replyMSG.append(" (");
 		replyMSG.append(npcId);
-		replyMSG.append(")</font></center><br1><table width=\"100%\" border=0><tr><td width=35>cat.</td><td width=210>item</td><td width=30>type</td><td width=25>del</td></tr>");
+		replyMSG.append(")</font></center><br1><table width=\"100%\" border=0><tr><td width=35>"+MessageTable.Messages[1598].getExtra(1)+"</td><td width=210>"+MessageTable.Messages[1598].getExtra(2)+"</td><td width=30>"+MessageTable.Messages[1598].getExtra(3)+"</td><td width=30>"+MessageTable.Messages[1598].getExtra(4)+"</td></tr>");
 		
 		int myPage = 1;
 		int i = 0;
@@ -1023,14 +1011,14 @@ public class AdminEditNpc implements IAdminCommandHandler
 					replyMSG.append(" (");
 					replyMSG.append(drop.getItemId());
 					replyMSG.append(")</a></td><td>");
-					replyMSG.append((drop.isQuestDrop() ? "Q" : (cat.isSweep() ? "S" : "D")));
+					replyMSG.append((drop.isQuestDrop() ? MessageTable.Messages[1599].getExtra(1) : (cat.isSweep() ? MessageTable.Messages[1599].getExtra(2) : MessageTable.Messages[1599].getExtra(3))));
 					replyMSG.append("</td><td><a action=\"bypass -h admin_del_drop ");
 					replyMSG.append(npcId);
 					replyMSG.append(" ");
 					replyMSG.append(drop.getItemId());
 					replyMSG.append(" ");
 					replyMSG.append(cat.getCategoryType());
-					replyMSG.append("\">del</a></td></tr>");
+					replyMSG.append("\">"+MessageTable.Messages[1599].getExtra(4)+"</a></td></tr>");
 					shown++;
 				}
 			}
@@ -1044,30 +1032,30 @@ public class AdminEditNpc implements IAdminCommandHandler
 			replyMSG.append(npcId);
 			replyMSG.append(" ");
 			replyMSG.append(page - 1);
-			replyMSG.append("\">Prev Page</a></td>");
+			replyMSG.append("\">"+MessageTable.Messages[1600].getExtra(1)+"</a></td>");
 			if (!hasMore)
 			{
-				replyMSG.append("<td width=100>Page ");
+				replyMSG.append("<td width=100>"+MessageTable.Messages[1590].getMessage());
 				replyMSG.append(page);
-				replyMSG.append("</td><td width=70></td></tr>");
+				replyMSG.append(MessageTable.Messages[1590].getExtra(1)+"</td><td width=70></td></tr>");
 			}
 		}
 		if (hasMore)
 		{
 			if (page <= 1)
 				replyMSG.append("<td width=120></td>");
-			replyMSG.append("<td width=100>Page ");
+			replyMSG.append("<td width=100>"+MessageTable.Messages[1590].getMessage());
 			replyMSG.append(page);
-			replyMSG.append("</td><td width=70><a action=\"bypass -h admin_show_droplist ");
+			replyMSG.append(MessageTable.Messages[1590].getExtra(1)+"</td><td width=70><a action=\"bypass -h admin_show_droplist ");
 			replyMSG.append(npcId);
 			replyMSG.append(" ");
 			replyMSG.append(page + 1);
-			replyMSG.append("\">Next Page</a></td></tr>");
+			replyMSG.append("\">"+MessageTable.Messages[1600].getExtra(2)+"</a></td></tr>");
 		}
 		
-		replyMSG.append("</table><center><br><button value=\"Add Drop Data\" action=\"bypass -h admin_add_drop ");
+		replyMSG.append("</table><center><br><button value=\""+MessageTable.Messages[1601].getExtra(1)+"\" action=\"bypass -h admin_add_drop ");
 		replyMSG.append(npcId);
-		replyMSG.append("\" width=100 height=20 back=\"L2UI_ct1.button_df\" fore=\"L2UI_ct1.button_df\"><button value=\"Close\" action=\"bypass -h admin_close_window\" width=100 height=20 back=\"L2UI_ct1.button_df\" fore=\"L2UI_ct1.button_df\"></center></body></html>");
+		replyMSG.append("\" width=100 height=20 back=\"L2UI_ct1.button_df\" fore=\"L2UI_ct1.button_df\"><button value=\""+MessageTable.Messages[1601].getExtra(2)+"\" action=\"bypass -h admin_close_window\" width=100 height=20 back=\"L2UI_ct1.button_df\" fore=\"L2UI_ct1.button_df\"></center></body></html>");
 		
 		NpcHtmlMessage adminReply = new NpcHtmlMessage(5);
 		adminReply.setHtml(replyMSG.toString());
@@ -1079,19 +1067,19 @@ public class AdminEditNpc implements IAdminCommandHandler
 		L2NpcTemplate npcData = NpcTable.getInstance().getTemplate(npcId);
 		if (npcData == null)
 		{
-			activeChar.sendMessage("Unknown npc template id " + npcId);
+			activeChar.sendMessage(MessageTable.Messages[1592].getMessage() + npcId);
 			return;
 		}
 		
 		L2Item itemData = ItemTable.getInstance().getTemplate(itemId);
 		if (itemData == null)
 		{
-			activeChar.sendMessage("Unknown item template id " + itemId);
+			activeChar.sendMessage(MessageTable.Messages[1602].getMessage() + itemId);
 			return;
 		}
 		
 		final StringBuilder replyMSG = new StringBuilder();
-		replyMSG.append("<html><title>Edit drop data</title><body>");
+		replyMSG.append("<html><title>"+MessageTable.Messages[1603].getMessage()+"</title><body>");
 		
 		List<L2DropData> dropDatas = null;
 		if (npcData.getDropData() != null)
@@ -1121,26 +1109,26 @@ public class AdminEditNpc implements IAdminCommandHandler
 		
 		if (dropData != null)
 		{
-			replyMSG.append("<table width=\"100%\"><tr><td>Npc</td><td>");
+			replyMSG.append("<table width=\"100%\"><tr><td>NPC</td><td>");
 			replyMSG.append(npcData.name);
 			replyMSG.append(" (");
 			replyMSG.append(npcId);
-			replyMSG.append(")</td></tr><tr><td>Item</td><td>");
+			replyMSG.append(")</td></tr><tr><td>"+MessageTable.Messages[1604].getExtra(1)+"</td><td>");
 			replyMSG.append(itemData.getName());
 			replyMSG.append(" (");
 			replyMSG.append(itemId);
-			replyMSG.append(")</td></tr><tr><td>Category</td><td>");
+			replyMSG.append(")</td></tr><tr><td>"+MessageTable.Messages[1604].getExtra(2)+"</td><td>");
 			replyMSG.append(((category == -1) ? "-1 (sweep)" : Integer.toString(category)));
 			replyMSG.append("</td></tr>");
-			replyMSG.append("<tr><td>Min count (");
+			replyMSG.append("<tr><td>"+MessageTable.Messages[1604].getExtra(3)+" (");
 			replyMSG.append(dropData.getMinDrop());
-			replyMSG.append(")</td><td><edit var=\"min\" width=80></td></tr><tr><td>Max count (");
+			replyMSG.append(")</td><td><edit var=\"min\" width=80></td></tr><tr><td>"+MessageTable.Messages[1604].getExtra(4)+" (");
 			replyMSG.append(dropData.getMaxDrop());
-			replyMSG.append(")</td><td><edit var=\"max\" width=80></td></tr><tr><td>Chance (");
+			replyMSG.append(")</td><td><edit var=\"max\" width=80></td></tr><tr><td>"+MessageTable.Messages[1604].getExtra(5)+" (");
 			replyMSG.append(dropData.getChance());
 			replyMSG.append(")</td><td><edit var=\"chance\" width=80></td></tr></table><br>");
 			
-			replyMSG.append("<center><br><button value=\"Save\" action=\"bypass -h admin_edit_drop ");
+			replyMSG.append("<center><br><button value=\""+MessageTable.Messages[1604].getExtra(6)+"\" action=\"bypass -h admin_edit_drop ");
 			replyMSG.append(npcId);
 			replyMSG.append(" ");
 			replyMSG.append(itemId);
@@ -1150,9 +1138,9 @@ public class AdminEditNpc implements IAdminCommandHandler
 		}
 		else
 		{
-			replyMSG.append("No drop data detail found.<center><br>");
+			replyMSG.append(MessageTable.Messages[1605].getMessage()+"<center><br>");
 		}
-		replyMSG.append("<button value=\"Back to Droplist\" action=\"bypass -h admin_show_droplist ");
+		replyMSG.append("<button value=\""+MessageTable.Messages[1606].getMessage()+"\" action=\"bypass -h admin_show_droplist ");
 		replyMSG.append(npcId);
 		replyMSG.append("\" width=100 height=20 back=\"L2UI_ct1.button_df\" fore=\"L2UI_ct1.button_df\"></center>");
 		replyMSG.append("</body></html>");
@@ -1164,14 +1152,14 @@ public class AdminEditNpc implements IAdminCommandHandler
 	
 	private void showAddDropData(L2PcInstance activeChar, L2NpcTemplate npcData)
 	{
-		final String replyMSG = StringUtil.concat("<html><title>Add drop data</title><body><table width=\"100%\"><tr><td>Npc</td><td>", 
+		final String replyMSG = StringUtil.concat("<html><title>"+MessageTable.Messages[1601].getExtra(1)+"</title><body><table width=\"100%\"><tr><td>NPC</td><td>", 
 				npcData.name, 
 				" (", 
 				Integer.toString(npcData.npcId), 
 				")", 
-				"</td></tr><tr><td>Item Id</td><td><edit var=\"itemId\" width=80></td></tr><tr><td>Min count</td><td><edit var=\"min\" width=80></td></tr><tr><td>Max count</td><td><edit var=\"max\" width=80></td></tr><tr><td>Category (sweep=-1)</td><td><edit var=\"category\" width=80></td></tr><tr><td>Chance (0-1000000)</td><td><edit var=\"chance\" width=80></td></tr></table><center><br><button value=\"Add\" action=\"bypass -h admin_add_drop ", 
+				"</td></tr><tr><td>"+MessageTable.Messages[1607].getExtra(1)+"</td><td><edit var=\"itemId\" width=80></td></tr><tr><td>"+MessageTable.Messages[1607].getExtra(2)+"</td><td><edit var=\"min\" width=80></td></tr><tr><td>"+MessageTable.Messages[1607].getExtra(3)+"</td><td><edit var=\"max\" width=80></td></tr><tr><td>"+MessageTable.Messages[1607].getExtra(4)+"</td><td><edit var=\"category\" width=80></td></tr><tr><td>"+MessageTable.Messages[1607].getExtra(5)+" (0-1000000)</td><td><edit var=\"chance\" width=80></td></tr></table><center><br><button value=\""+MessageTable.Messages[1607].getExtra(6)+"\" action=\"bypass -h admin_add_drop ", 
 				Integer.toString(npcData.npcId), 
-				" $itemId $category $min $max $chance\" width=100 height=20 back=\"L2UI_ct1.button_df\" fore=\"L2UI_ct1.button_df\"><button value=\"Back to Droplist\" action=\"bypass -h admin_show_droplist ", 
+				" $itemId $category $min $max $chance\" width=100 height=20 back=\"L2UI_ct1.button_df\" fore=\"L2UI_ct1.button_df\"><button value=\""+MessageTable.Messages[1606].getMessage()+"\" action=\"bypass -h admin_show_droplist ", 
 				Integer.toString(npcData.npcId), 
 				"\" width=100 height=20 back=\"L2UI_ct1.button_df\" fore=\"L2UI_ct1.button_df\"></center></body></html>");
 		
@@ -1219,7 +1207,7 @@ public class AdminEditNpc implements IAdminCommandHandler
 			reloadNpcDropList(npcId);
 			
 			showNpcDropList(activeChar, npcId, 1);
-			activeChar.sendMessage("Updated drop data for npc id " + npcId + " and item id " + itemId + " in category " + category + ".");
+			activeChar.sendMessage(MessageTable.Messages[1608].getExtra(1) + npcId + MessageTable.Messages[1608].getExtra(2) + itemId + MessageTable.Messages[1608].getExtra(3) + category + MessageTable.Messages[1608].getExtra(4));
 		}
 		catch (Exception e)
 		{
@@ -1263,7 +1251,7 @@ public class AdminEditNpc implements IAdminCommandHandler
 			reloadNpcDropList(npcId);
 			
 			showNpcDropList(activeChar, npcId, 1);
-			activeChar.sendMessage("Added drop data for npc id " + npcId + " with item id " + itemId + " in category " + category + ".");
+			activeChar.sendMessage(MessageTable.Messages[1609].getExtra(1) + npcId + MessageTable.Messages[1609].getExtra(2) + itemId + MessageTable.Messages[1609].getExtra(3) + category + MessageTable.Messages[1609].getExtra(4));
 		}
 		catch (Exception e)
 		{
@@ -1286,22 +1274,22 @@ public class AdminEditNpc implements IAdminCommandHandler
 	{
 		if (!confirmed)
 		{
-			final String replyMSG = StringUtil.concat("<html><title>Drop Data Delete</title><body><br>Delete drop data.", 
+			final String replyMSG = StringUtil.concat("<html><title>"+MessageTable.Messages[1610].getExtra(1)+"</title><body><br>"+MessageTable.Messages[1610].getExtra(2), 
 					"<table width=\"100%\"><tr><td>NPC</td><td>", 
 					NpcTable.getInstance().getTemplate(npcId).name,
 					" (", 
 					Integer.toString(npcId), 
-					")</td></tr><tr><td>Item ID</td><td>", 
+					")</td></tr><tr><td>"+MessageTable.Messages[1610].getExtra(3)+"</td><td>", 
 					Integer.toString(itemId), 
-					"</td></tr><tr><td>Category</td><td>", 
+					"</td></tr><tr><td>"+MessageTable.Messages[1610].getExtra(4)+"</td><td>", 
 					Integer.toString(category), 
-					"</td></tr></table><center><br><button value=\"Delete\" action=\"bypass -h admin_del_drop ", 
+					"</td></tr></table><center><br><button value=\""+MessageTable.Messages[1610].getExtra(5)+"\" action=\"bypass -h admin_del_drop ", 
 					Integer.toString(npcId), 
 					" ", 
 					Integer.toString(itemId), 
 					" ", 
 					Integer.toString(category), 
-					" 1\" width=100 height=20 back=\"L2UI_ct1.button_df\" fore=\"L2UI_ct1.button_df\"><button value=\"Back to Droplist\" action=\"bypass -h admin_show_droplist ", 
+					" 1\" width=100 height=20 back=\"L2UI_ct1.button_df\" fore=\"L2UI_ct1.button_df\"><button value=\""+MessageTable.Messages[1606].getMessage()+"\" action=\"bypass -h admin_show_droplist ", 
 					Integer.toString(npcId), 
 					"\" width=100 height=20 back=\"L2UI_ct1.button_df\" fore=\"L2UI_ct1.button_df\"></center></body></html>");
 			
@@ -1339,7 +1327,7 @@ public class AdminEditNpc implements IAdminCommandHandler
 			reloadNpcDropList(npcId);
 			
 			showNpcDropList(activeChar, npcId, 1);
-			activeChar.sendMessage("Deleted drop data for npc id " + npcId + " and item id " + itemId + " in category " + category + ".");
+			activeChar.sendMessage(MessageTable.Messages[1611].getExtra(1) + npcId + MessageTable.Messages[1611].getExtra(2) + itemId + MessageTable.Messages[1611].getExtra(3) + category + MessageTable.Messages[1611].getExtra(4));
 		}
 		catch (Exception e)
 		{
@@ -1437,7 +1425,7 @@ public class AdminEditNpc implements IAdminCommandHandler
 		L2NpcTemplate npcData = NpcTable.getInstance().getTemplate(npcId);
 		if (npcData == null)
 		{
-			activeChar.sendMessage("Template id unknown: " + npcId);
+			activeChar.sendMessage(MessageTable.Messages[1592].getMessage() + npcId);
 			return;
 		}
 		
@@ -1460,22 +1448,22 @@ public class AdminEditNpc implements IAdminCommandHandler
 		if (SkillsEnd - SkillsStart > MaxSkillsPerPage)
 			SkillsEnd = SkillsStart + MaxSkillsPerPage;
 		
-		StringBuffer replyMSG = new StringBuffer("<html><title>Show NPC Skill List</title><body><center><font color=\"LEVEL\">");
+		StringBuffer replyMSG = new StringBuffer("<html><title>"+MessageTable.Messages[1612].getMessage()+"</title><body><center><font color=\"LEVEL\">");
 		replyMSG.append(npcData.getName());
 		replyMSG.append(" (");
 		replyMSG.append(npcData.npcId);
 		replyMSG.append("): ");
 		replyMSG.append(_skillsize);
-		replyMSG.append(" skills</font></center><table width=300 bgcolor=666666><tr>");
+		replyMSG.append(MessageTable.Messages[1613].getExtra(1)+"</font></center><table width=300 bgcolor=666666><tr>");
 		
 		for (int x = 0; x < MaxPages; x++)
 		{
 			int pagenr = x + 1;
 			if (page == x)
 			{
-				replyMSG.append("<td>Page ");
+				replyMSG.append("<td>"+MessageTable.Messages[1590].getMessage());
 				replyMSG.append(pagenr);
-				replyMSG.append("</td>");
+				replyMSG.append(MessageTable.Messages[1590].getExtra(1)+"</td>");
 			}
 			else
 			{
@@ -1483,12 +1471,12 @@ public class AdminEditNpc implements IAdminCommandHandler
 				replyMSG.append(npcData.npcId);
 				replyMSG.append(" ");
 				replyMSG.append(x);
-				replyMSG.append("\"> Page ");
+				replyMSG.append("\"> "+MessageTable.Messages[1590].getMessage());
 				replyMSG.append(pagenr);
-				replyMSG.append(" </a></td>");
+				replyMSG.append(MessageTable.Messages[1590].getExtra(1)+" </a></td>");
 			}
 		}
-		replyMSG.append("</tr></table><table width=\"100%\" border=0><tr><td>Skill name [skill id-skill lvl]</td><td>Delete</td></tr>");
+		replyMSG.append("</tr></table><table width=\"100%\" border=0><tr><td>"+MessageTable.Messages[1613].getExtra(2)+"</td><td>"+MessageTable.Messages[1613].getExtra(3)+"</td></tr>");
 		
 		Set<Integer> skillset = skills.keySet();
 		Iterator<Integer> skillite = skillset.iterator();
@@ -1522,11 +1510,11 @@ public class AdminEditNpc implements IAdminCommandHandler
 			replyMSG.append(npcData.npcId);
 			replyMSG.append(" ");
 			replyMSG.append(skillobj);
-			replyMSG.append("\">Delete</a></td></tr>");
+			replyMSG.append("\">"+MessageTable.Messages[1613].getExtra(3)+"</a></td></tr>");
 		}
-		replyMSG.append("</table><br><center><button value=\"Add Skill\" action=\"bypass -h admin_add_skill_npc ");
+		replyMSG.append("</table><br><center><button value=\""+MessageTable.Messages[1614].getExtra(1)+"\" action=\"bypass -h admin_add_skill_npc ");
 		replyMSG.append(npcId);
-		replyMSG.append("\" width=100 height=20 back=\"L2UI_ct1.button_df\" fore=\"L2UI_ct1.button_df\"><button value=\"Close\" action=\"bypass -h admin_close_window\" width=100 height=20 back=\"L2UI_ct1.button_df\" fore=\"L2UI_ct1.button_df\"></center></body></html>");
+		replyMSG.append("\" width=100 height=20 back=\"L2UI_ct1.button_df\" fore=\"L2UI_ct1.button_df\"><button value=\""+MessageTable.Messages[1614].getExtra(2)+"\" action=\"bypass -h admin_close_window\" width=100 height=20 back=\"L2UI_ct1.button_df\" fore=\"L2UI_ct1.button_df\"></center></body></html>");
 		
 		NpcHtmlMessage adminReply = new NpcHtmlMessage(5);
 		adminReply.setHtml(replyMSG.toString());
@@ -1537,12 +1525,12 @@ public class AdminEditNpc implements IAdminCommandHandler
 	{
 		try
 		{
-			StringBuffer replyMSG = new StringBuffer("<html><title>NPC Skill Edit</title><body>");
+			StringBuffer replyMSG = new StringBuffer("<html><title>"+MessageTable.Messages[1615].getMessage()+"</title><body>");
 			
 			L2NpcTemplate npcData = NpcTable.getInstance().getTemplate(npcId);
 			if (npcData == null)
 			{
-				activeChar.sendMessage("Template id unknown: " + npcId);
+				activeChar.sendMessage(MessageTable.Messages[1592].getMessage() + npcId);
 				return;
 			}
 			if (npcData.getSkills() == null)
@@ -1552,21 +1540,21 @@ public class AdminEditNpc implements IAdminCommandHandler
 			
 			if (npcSkill != null)
 			{
-				replyMSG.append("<table width=\"100%\"><tr><td>NPC: </td><td>");
+				replyMSG.append("<table width=\"100%\"><tr><td>"+MessageTable.Messages[1616].getExtra(1)+"</td><td>");
 				replyMSG.append(NpcTable.getInstance().getTemplate(npcId).getName());
 				replyMSG.append(" (");
 				replyMSG.append(npcId);
-				replyMSG.append(")</td></tr><tr><td>Skill: </td><td>");
+				replyMSG.append(")</td></tr><tr><td>"+MessageTable.Messages[1616].getExtra(2)+"</td><td>");
 				replyMSG.append(npcSkill.getName());
 				replyMSG.append(" (");
 				replyMSG.append(skillId);
-				replyMSG.append(")</td></tr><tr><td>Skill Lvl: (");
+				replyMSG.append(")</td></tr><tr><td>"+MessageTable.Messages[1616].getExtra(3)+"(");
 				replyMSG.append(npcSkill.getLevel());
-				replyMSG.append(") </td><td><edit var=\"level\" width=50></td></tr></table><br><center><button value=\"Save\" action=\"bypass -h admin_edit_skill_npc ");
+				replyMSG.append(") </td><td><edit var=\"level\" width=50></td></tr></table><br><center><button value=\""+MessageTable.Messages[1616].getExtra(4)+"\" action=\"bypass -h admin_edit_skill_npc ");
 				replyMSG.append(npcId);
 				replyMSG.append(" ");
 				replyMSG.append(skillId);
-				replyMSG.append(" $level\" width=100 height=20 back=\"L2UI_ct1.button_df\" fore=\"L2UI_ct1.button_df\"><br1><button value=\"Back to SkillList\" action=\"bypass -h admin_show_skilllist_npc ");
+				replyMSG.append(" $level\" width=100 height=20 back=\"L2UI_ct1.button_df\" fore=\"L2UI_ct1.button_df\"><br1><button value=\""+MessageTable.Messages[1616].getExtra(5)+"\" action=\"bypass -h admin_show_skilllist_npc ");
 				replyMSG.append(npcId);
 				replyMSG.append("\" width=100 height=20 back=\"L2UI_ct1.button_df\" fore=\"L2UI_ct1.button_df\"></center>");
 			}
@@ -1592,14 +1580,14 @@ public class AdminEditNpc implements IAdminCommandHandler
 			L2Skill skillData = SkillTable.getInstance().getInfo(skillId, level);
 			if (skillData == null)
 			{
-				activeChar.sendMessage("Could not update npc skill: not existing skill id with that level!");
+				activeChar.sendMessage(1617);
 				showNpcSkillEdit(activeChar, npcId, skillId);
 				return;
 			}
 			
 			if (skillData.getLevel() != level)
 			{
-				activeChar.sendMessage("Skill id with requested level doesn't exist! Skill level not changed.");
+				activeChar.sendMessage(1618);
 				showNpcSkillEdit(activeChar, npcId, skillId);
 				return;
 			}
@@ -1629,7 +1617,7 @@ public class AdminEditNpc implements IAdminCommandHandler
 			reloadNpcSkillList(npcId);
 			
 			showNpcSkillList(activeChar, npcId, 0);
-			activeChar.sendMessage("Updated skill id " + skillId + " for npc id " + npcId + " to level " + level + ".");
+			activeChar.sendMessage(MessageTable.Messages[1619].getExtra(1) + skillId + MessageTable.Messages[1619].getExtra(2) + npcId + MessageTable.Messages[1619].getExtra(3) + level + MessageTable.Messages[1619].getExtra(4));
 		}
 		catch (Exception e)
 		{
@@ -1652,13 +1640,13 @@ public class AdminEditNpc implements IAdminCommandHandler
 	{
 		L2NpcTemplate npcData = NpcTable.getInstance().getTemplate(npcId);
 		
-		StringBuffer replyMSG = new StringBuffer("<html><title>NPC Skill Add</title><body><table width=\"100%\"><tr><td>NPC: </td><td>");
+		StringBuffer replyMSG = new StringBuffer("<html><title>"+MessageTable.Messages[1620].getExtra(1)+"</title><body><table width=\"100%\"><tr><td>"+MessageTable.Messages[1620].getExtra(2)+"</td><td>");
 		replyMSG.append(npcData.getName());
 		replyMSG.append(" (");
 		replyMSG.append(npcData.npcId);
-		replyMSG.append(")</td></tr><tr><td>SkillId: </td><td><edit var=\"skillId\" width=80></td></tr><tr><td>Level: </td><td><edit var=\"level\" width=80></td></tr></table><br><center><button value=\"Add Skill\" action=\"bypass -h admin_add_skill_npc ");
+		replyMSG.append(")</td></tr><tr><td>"+MessageTable.Messages[1620].getExtra(3)+"</td><td><edit var=\"skillId\" width=80></td></tr><tr><td>"+MessageTable.Messages[1620].getExtra(4)+"</td><td><edit var=\"level\" width=80></td></tr></table><br><center><button value=\""+MessageTable.Messages[1620].getExtra(5)+"\" action=\"bypass -h admin_add_skill_npc ");
 		replyMSG.append(npcData.npcId);
-		replyMSG.append(" $skillId $level\"  width=100 height=20 back=\"L2UI_ct1.button_df\" fore=\"L2UI_ct1.button_df\"><br1><button value=\"Back to SkillList\" action=\"bypass -h admin_show_skilllist_npc ");
+		replyMSG.append(" $skillId $level\"  width=100 height=20 back=\"L2UI_ct1.button_df\" fore=\"L2UI_ct1.button_df\"><br1><button value=\""+MessageTable.Messages[1620].getExtra(6)+"\" action=\"bypass -h admin_show_skilllist_npc ");
 		replyMSG.append(npcData.npcId);
 		replyMSG.append("\" width=100 height=20 back=\"L2UI_ct1.button_df\" fore=\"L2UI_ct1.button_df\"></center></body></html>");
 		
@@ -1676,7 +1664,7 @@ public class AdminEditNpc implements IAdminCommandHandler
 			L2Skill skillData = SkillTable.getInstance().getInfo(skillId, level);
 			if (skillData == null)
 			{
-				activeChar.sendMessage("Could not add npc skill: not existing skill id with that level!");
+				activeChar.sendMessage(1617);
 				showNpcSkillAdd(activeChar, npcId);
 				return;
 			}
@@ -1706,7 +1694,7 @@ public class AdminEditNpc implements IAdminCommandHandler
 			reloadNpcSkillList(npcId);
 			
 			showNpcSkillList(activeChar, npcId, 0);
-			activeChar.sendMessage("Added skill " + skillId + "-" + level + " to npc id " + npcId + ".");
+			activeChar.sendMessage(MessageTable.Messages[1621].getExtra(1) + skillId + "-" + level + MessageTable.Messages[1621].getExtra(2) + npcId + MessageTable.Messages[1621].getExtra(3));
 		}
 		catch (Exception e)
 		{
@@ -1755,7 +1743,7 @@ public class AdminEditNpc implements IAdminCommandHandler
 				reloadNpcSkillList(npcId);
 				
 				showNpcSkillList(activeChar, npcId, 0);
-				activeChar.sendMessage("Deleted skill id " + skillId + " from npc id " + npcId + ".");
+				activeChar.sendMessage(MessageTable.Messages[1622].getExtra(1) + skillId + MessageTable.Messages[1622].getExtra(2) + npcId + MessageTable.Messages[1622].getExtra(3));
 			}
 		}
 		catch (Exception e)

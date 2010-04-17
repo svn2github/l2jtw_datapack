@@ -32,7 +32,7 @@ import com.l2jserver.gameserver.network.serverpackets.StatusUpdate;
 import com.l2jserver.gameserver.skills.Stats;
 import com.l2jserver.gameserver.templates.item.L2Item;
 import com.l2jserver.util.StringUtil;
-
+import com.l2jserver.gameserver.datatables.MessageTable;
 public class L2NpcActionShift implements IActionHandler
 {
 	/**
@@ -76,14 +76,14 @@ public class L2NpcActionShift implements IActionHandler
 			// Send a Server->Client NpcHtmlMessage() containing the GM console about this L2NpcInstance
 			NpcHtmlMessage html = new NpcHtmlMessage(0);
                         final StringBuilder html1 = StringUtil.startAppend(500,
-                                "<html><body><center><font color=\"LEVEL\">NPC Info</font></center><br>" +
-                                "Instance Type: ",
+                                "<html><body><center><font color=\"LEVEL\">"+MessageTable.Messages[1303].getMessage()+"</font></center><br>" +
+                                MessageTable.Messages[1304].getMessage(),
                                 target.getClass().getSimpleName(),
-                                "<br1>Faction: ",
+                                "<br1>"+MessageTable.Messages[1305].getMessage(),
                                 ((L2Npc)target).getFactionId() != null ? ((L2Npc)target).getFactionId() : "null"
                                 );
                         StringUtil.append(html1,
-                        		"<br1>Coords: ",
+                        		"<br1>"+MessageTable.Messages[1306].getMessage(),
                         		String.valueOf(target.getX()),
                         		", ",
                         		String.valueOf(target.getY()),
@@ -92,24 +92,24 @@ public class L2NpcActionShift implements IActionHandler
                         		);
                         if (((L2Npc)target).getSpawn() != null)
                         	StringUtil.append(html1,
-                        			"<br1>Spawn: ",
+                        			"<br1>"+MessageTable.Messages[1307].getMessage(),
                         			String.valueOf(((L2Npc)target).getSpawn().getLocx()),
                         			", ",
                         			String.valueOf(((L2Npc)target).getSpawn().getLocy()),
                         			", ",
                         			String.valueOf(((L2Npc)target).getSpawn().getLocz()),
-                                    " ; Loc ID: ",
+                                    MessageTable.Messages[1308].getMessage(),
                                     String.valueOf(((L2Npc)target).getSpawn().getLocation()),
-                                    "<br1>Distance from spawn 2D: ",
+                                    "<br1>"+MessageTable.Messages[1309].getMessage(),
                                     String.valueOf((int)Math.sqrt(target.getPlanDistanceSq(((L2Npc)target).getSpawn().getLocx(), ((L2Npc)target).getSpawn().getLocy()))),
-                                    " ; 3D: ",
+                                    MessageTable.Messages[1310].getMessage(),
                                     String.valueOf((int)Math.sqrt(target.getDistanceSq(((L2Npc)target).getSpawn().getLocx(), ((L2Npc)target).getSpawn().getLocy(), ((L2Npc)target).getSpawn().getLocz())))
                             );
 
 			if (target.isInstanceType(InstanceType.L2ControllableMobInstance))
 			{
 				StringUtil.append(html1,
-						"<br1>Mob Group: ",
+						"<br1>"+MessageTable.Messages[1311].getMessage(),
 						String.valueOf(MobGroupTable.getInstance().getGroupForMob((L2ControllableMobInstance) target).getGroupId()),
 						"<br>"
 				);
@@ -117,9 +117,9 @@ public class L2NpcActionShift implements IActionHandler
 			else
 			{
 				StringUtil.append(html1,
-						"<br1>Respawn Time: ",
+						"<br1>"+MessageTable.Messages[1312].getMessage(),
 						(((L2Npc)target).getSpawn() != null ? String.valueOf(((L2Npc)target).getSpawn().getRespawnDelay() / 1000) : "?"),
-						"  Seconds<br>"
+						MessageTable.Messages[1313].getMessage()+"<br>"
 				);
 			}
 
@@ -130,58 +130,58 @@ public class L2NpcActionShift implements IActionHandler
 					"</td><td>    </td><td>NPC ID</td><td>",
 					String.valueOf(((L2Npc)target).getTemplate().npcId),
 					"</td></tr>" +
-					"<tr><td>Aggro</td><td>" +
+					"<tr><td>"+MessageTable.Messages[1314].getMessage()+"</td><td>" +
 					String.valueOf((target.isInstanceType(InstanceType.L2Attackable)) ? ((L2Attackable) target).getAggroRange() : 0),
-					"</td><td>    </td><td>Object ID</td><td>",
+					"</td><td>    </td><td>"+MessageTable.Messages[1315].getMessage()+"</td><td>",
 					String.valueOf(target.getObjectId()),
 					"</td></tr>" +
-					"<tr><td>Castle</td><td>",
+					"<tr><td>"+MessageTable.Messages[1316].getMessage()+"</td><td>",
 					String.valueOf(((L2Npc)target).getCastle().getCastleId()),
 					"</td><td>    </td><td>AI </td><td>",
 					(target.hasAI() ? String.valueOf(target.getAI().getIntention().name()) : "NULL"),
 					"</td></tr>" +
 					"</table><br>" +
-					"<font color=\"LEVEL\">Combat</font>" +
+					"<font color=\"LEVEL\">"+MessageTable.Messages[1317].getMessage()+"</font>" +
 					"<table border=\"0\" width=\"100%\">" +
-					"<tr><td>Current HP</td><td>",
+					"<tr><td>"+MessageTable.Messages[1318].getMessage()+"</td><td>",
 					String.valueOf(target.getCurrentHp()),
-					"</td><td>Current MP</td><td>",
+					"</td><td>"+MessageTable.Messages[1319].getMessage()+"</td><td>",
 					String.valueOf(target.getCurrentMp()),
 					"</td></tr>" +
-					"<tr><td>Max.HP</td><td>",
+					"<tr><td>"+MessageTable.Messages[1320].getMessage()+"</td><td>",
 					String.valueOf((int) (target.getMaxHp() / target.getStat().calcStat(Stats.MAX_HP, 1, target, null))),
 					"*",
 					String.valueOf((int) (target.getStat().calcStat(Stats.MAX_HP, 1, target, null))),
-					"</td><td>Max.MP</td><td>",
+					"</td><td>"+MessageTable.Messages[1321].getMessage()+"</td><td>",
 					String.valueOf(target.getMaxMp()),
 					"</td></tr>" +
-					"<tr><td>P.Atk.</td><td>",
+					"<tr><td>"+MessageTable.Messages[1322].getMessage()+"</td><td>",
 					String.valueOf(target.getPAtk(null)),
-					"</td><td>M.Atk.</td><td>",
+					"</td><td>"+MessageTable.Messages[1323].getMessage()+"</td><td>",
 					String.valueOf(target.getMAtk(null, null)),
 					"</td></tr>" +
-					"<tr><td>P.Def.</td><td>",
+					"<tr><td>"+MessageTable.Messages[1324].getMessage()+"</td><td>",
 					String.valueOf(target.getPDef(null)),
-					"</td><td>M.Def.</td><td>",
+					"</td><td>"+MessageTable.Messages[1325].getMessage()+"</td><td>",
 					String.valueOf(target.getMDef(null, null)),
 					"</td></tr>" +
-					"<tr><td>Accuracy</td><td>" +
+					"<tr><td>"+MessageTable.Messages[1326].getMessage()+"</td><td>" +
 					String.valueOf(target.getAccuracy()),
-					"</td><td>Evasion</td><td>",
+					"</td><td>"+MessageTable.Messages[1327].getMessage()+"</td><td>",
 					String.valueOf(target.getEvasionRate(null)),
 					"</td></tr>" +
-					"<tr><td>Critical</td><td>",
+					"<tr><td>"+MessageTable.Messages[1328].getMessage()+"</td><td>",
 					String.valueOf(target.getCriticalHit(null, null)),
-					"</td><td>Speed</td><td>",
+					"</td><td>"+MessageTable.Messages[1329].getMessage()+"</td><td>",
 					String.valueOf(target.getRunSpeed()),
 					"</td></tr>" +
-					"<tr><td>Atk.Speed</td><td>",
+					"<tr><td>"+MessageTable.Messages[1330].getMessage()+"</td><td>",
 					String.valueOf(target.getPAtkSpd()),
-					"</td><td>Cast.Speed</td><td>",
+					"</td><td>"+MessageTable.Messages[1331].getMessage()+"</td><td>",
 					String.valueOf(target.getMAtkSpd()),
 					"</td></tr>" +
 					"</table><br>" +
-					"<font color=\"LEVEL\">Basic Stats</font>" +
+					"<font color=\"LEVEL\">"+MessageTable.Messages[1332].getMessage()+"</font>" +
 					"<table border=\"0\" width=\"100%\">" +
 					"<tr><td>STR</td><td>",
 					String.valueOf(target.getSTR()),
@@ -198,15 +198,15 @@ public class L2NpcActionShift implements IActionHandler
 					String.valueOf(target.getMEN()),
 					"</td></tr>" +
 					"</table>" +
-					"<br><center><table><tr><td><button value=\"Edit NPC\" action=\"bypass -h admin_edit_npc ",
+					"<br><center><table><tr><td><button value=\""+MessageTable.Messages[1333].getMessage()+"\" action=\"bypass -h admin_edit_npc ",
 					String.valueOf(((L2Npc)target).getTemplate().npcId),
 					"\" width=100 height=20 back=\"L2UI_ct1.button_df\" fore=\"L2UI_ct1.button_df\"><br1></td>" +
-					"<td><button value=\"Kill\" action=\"bypass -h admin_kill\" width=40 height=20 back=\"L2UI_ct1.button_df\" fore=\"L2UI_ct1.button_df\"></td><br1></tr>" +
-					"<tr><td><button value=\"Show DropList\" action=\"bypass -h admin_show_droplist ",
+					"<td><button value=\""+MessageTable.Messages[1334].getMessage()+"\" action=\"bypass -h admin_kill\" width=40 height=20 back=\"L2UI_ct1.button_df\" fore=\"L2UI_ct1.button_df\"></td><br1></tr>" +
+					"<tr><td><button value=\""+MessageTable.Messages[1335].getMessage()+"\" action=\"bypass -h admin_show_droplist ",
 					String.valueOf(((L2Npc)target).getTemplate().npcId),
 					"\" width=100 height=20 back=\"L2UI_ct1.button_df\" fore=\"L2UI_ct1.button_df\"></td></tr>" +
-					"<td><button value=\"Delete\" action=\"bypass -h admin_delete\" width=40 height=20 back=\"L2UI_ct1.button_df\" fore=\"L2UI_ct1.button_df\"></td></tr>" +
-					"<tr><td><button value=\"Show SkillList\" action=\"bypass -h admin_show_skilllist_npc ",
+					"<td><button value=\""+MessageTable.Messages[1336].getMessage()+"\" action=\"bypass -h admin_delete\" width=40 height=20 back=\"L2UI_ct1.button_df\" fore=\"L2UI_ct1.button_df\"></td></tr>" +
+					"<tr><td><button value=\""+MessageTable.Messages[1337].getMessage()+"\" action=\"bypass -h admin_show_skilllist_npc ",
 					String.valueOf(((L2Npc)target).getTemplate().npcId),
 				 	"\" width=100 height=20 back=\"L2UI_ct1.button_df\" fore=\"L2UI_ct1.button_df\"></td><td></td></tr></table></center><br></body></html>"
 					);
@@ -238,45 +238,45 @@ public class L2NpcActionShift implements IActionHandler
 			final StringBuilder html1 = StringUtil.startAppend(
 					1000,
 					"<html><body>" +
-					"<br><center><font color=\"LEVEL\">[Combat Stats]</font></center>" +
+					"<br><center><font color=\"LEVEL\">"+MessageTable.Messages[1338].getMessage()+"</font></center>" +
 					"<table border=0 width=\"100%\">" +
-					"<tr><td>Max.HP</td><td>",
+					"<tr><td>"+MessageTable.Messages[1320].getMessage()+"</td><td>",
 					String.valueOf((int) (target.getMaxHp() / target.getStat().calcStat(Stats.MAX_HP, 1, target, null))),
 					"*",
 					String.valueOf((int) target.getStat().calcStat(Stats.MAX_HP, 1, target, null)),
-					"</td><td>Max.MP</td><td>",
+					"</td><td>"+MessageTable.Messages[1321].getMessage()+"</td><td>",
 					String.valueOf(target.getMaxMp()),
 					"</td></tr>" +
-					"<tr><td>P.Atk.</td><td>",
+					"<tr><td>"+MessageTable.Messages[1322].getMessage()+"</td><td>",
 					String.valueOf(target.getPAtk(null)),
-					"</td><td>M.Atk.</td><td>",
+					"</td><td>"+MessageTable.Messages[1323].getMessage()+"</td><td>",
 					String.valueOf(target.getMAtk(null, null)),
 					"</td></tr>" +
-					"<tr><td>P.Def.</td><td>",
+					"<tr><td>"+MessageTable.Messages[1324].getMessage()+"</td><td>",
 					String.valueOf(target.getPDef(null)),
-					"</td><td>M.Def.</td><td>",
+					"</td><td>"+MessageTable.Messages[1325].getMessage()+"</td><td>",
 					String.valueOf(target.getMDef(null, null)),
 					"</td></tr>" +
-					"<tr><td>Accuracy</td><td>",
+					"<tr><td>"+MessageTable.Messages[1326].getMessage()+"</td><td>",
 					String.valueOf(target.getAccuracy()),
-					"</td><td>Evasion</td><td>",
+					"</td><td>"+MessageTable.Messages[1327].getMessage()+"</td><td>",
 					String.valueOf(target.getEvasionRate(null)),
 					"</td></tr>" +
-					"<tr><td>Critical</td><td>",
+					"<tr><td>"+MessageTable.Messages[1328].getMessage()+"</td><td>",
 					String.valueOf(target.getCriticalHit(null, null)),
-					"</td><td>Speed</td><td>",
+					"</td><td>"+MessageTable.Messages[1329].getMessage()+"</td><td>",
 					String.valueOf(target.getRunSpeed()),
 					"</td></tr>" +
-					"<tr><td>Atk.Speed</td><td>",
+					"<tr><td>"+MessageTable.Messages[1330].getMessage()+"</td><td>",
 					String.valueOf(target.getPAtkSpd()),
-					"</td><td>Cast.Speed</td><td>",
+					"</td><td>"+MessageTable.Messages[1331].getMessage()+"</td><td>",
 					String.valueOf(target.getMAtkSpd()),
 					"</td></tr>" +
-					"<tr><td>Race</td><td>",
+					"<tr><td>"+MessageTable.Messages[1339].getMessage()+"</td><td>",
 					((L2Npc)target).getTemplate().getRace().toString(),
 					"</td><td></td><td></td></tr>" +
 					"</table>" +
-					"<br><center><font color=\"LEVEL\">[Basic Stats]</font></center>" +
+					"<br><center><font color=\"LEVEL\">"+MessageTable.Messages[1340].getMessage()+"</font></center>" +
 					"<table border=0 width=\"100%\">" +
 					"<tr><td>STR</td><td>",
 					String.valueOf(target.getSTR()),
@@ -298,8 +298,8 @@ public class L2NpcActionShift implements IActionHandler
 			if (((L2Npc)target).getTemplate().getDropData() != null)
 			{
 				StringUtil.append(html1,
-						"<br><center><font color=\"LEVEL\">[Drop Info]</font></center>" +
-						"<br>Rates legend: <font color=\"ff0000\">50%+</font> <font color=\"00ff00\">30%+</font> <font color=\"0000ff\">less than 30%</font>" +
+						"<br><center><font color=\"LEVEL\">"+MessageTable.Messages[1341].getMessage()+"</font></center>" +
+						"<br>"+MessageTable.Messages[1342].getMessage()+"<font color=\"ff0000\">50%+</font> <font color=\"00ff00\">30%+</font> <font color=\"0000ff\">"+MessageTable.Messages[1343].getMessage()+"</font>" +
 						"<table border=0 width=\"100%\">"
 						);
 				for (L2DropCategory cat : ((L2Npc)target).getTemplate().getDropData())
@@ -325,7 +325,7 @@ public class L2NpcActionShift implements IActionHandler
 								"\">",
 								item.getName(),
 								"</font></td><td>",
-								(drop.isQuestDrop() ? "Quest" : (cat.isSweep() ? "Sweep" : "Drop")),
+								(drop.isQuestDrop() ? MessageTable.Messages[1344].getExtra(1) : (cat.isSweep() ? MessageTable.Messages[1344].getExtra(2) : MessageTable.Messages[1344].getExtra(3))),
 								"</td></tr>"
 								);
 					}

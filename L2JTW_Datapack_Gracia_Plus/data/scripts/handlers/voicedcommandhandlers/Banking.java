@@ -43,7 +43,7 @@ public class Banking implements IVoicedCommandHandler
 	{
 		if (command.equalsIgnoreCase("bank"))
 		{
-			L2CoreMessage cm =  new L2CoreMessage (MessageTable.Messages[10]);
+			L2CoreMessage cm = new L2CoreMessage (MessageTable.Messages[1179]);
 			cm.addNumber(Config.BANKING_SYSTEM_ADENA);
 			cm.addNumber(Config.BANKING_SYSTEM_GOLDBARS);
 			cm.addNumber(Config.BANKING_SYSTEM_GOLDBARS);
@@ -58,14 +58,14 @@ public class Banking implements IVoicedCommandHandler
 					return false;
 				activeChar.getInventory().addItem("Goldbar", 3470, Config.BANKING_SYSTEM_GOLDBARS, activeChar, null);
 				activeChar.getInventory().updateDatabase();
-				L2CoreMessage cm =  new L2CoreMessage (MessageTable.Messages[298]);
+				L2CoreMessage cm = new L2CoreMessage (MessageTable.Messages[1180]);
 				cm.addNumber(Config.BANKING_SYSTEM_GOLDBARS);
 				cm.addNumber(Config.BANKING_SYSTEM_ADENA);
 				activeChar.sendMessage(cm.renderMsg());
 			}
 			else
 			{
-				L2CoreMessage cm =  new L2CoreMessage (MessageTable.Messages[506]);
+				L2CoreMessage cm = new L2CoreMessage (MessageTable.Messages[1181]);
 				cm.addNumber(Config.BANKING_SYSTEM_ADENA);
 				activeChar.sendMessage(cm.renderMsg());
 			}
@@ -79,14 +79,14 @@ public class Banking implements IVoicedCommandHandler
 					return false;
 				activeChar.getInventory().addAdena("Adena", Config.BANKING_SYSTEM_ADENA, activeChar, null);
 				activeChar.getInventory().updateDatabase();
-				L2CoreMessage cm =  new L2CoreMessage (MessageTable.Messages[297]);
+				L2CoreMessage cm = new L2CoreMessage (MessageTable.Messages[1182]);
 				cm.addNumber(Config.BANKING_SYSTEM_ADENA);
 				cm.addNumber(Config.BANKING_SYSTEM_GOLDBARS);
 				activeChar.sendMessage(cm.renderMsg());
 			}
 			else
 			{
-				L2CoreMessage cm =  new L2CoreMessage (MessageTable.Messages[503]);
+				L2CoreMessage cm = new L2CoreMessage (MessageTable.Messages[1183]);
 				cm.addNumber(Config.BANKING_SYSTEM_ADENA);
 				activeChar.sendMessage(cm.renderMsg());
 			}

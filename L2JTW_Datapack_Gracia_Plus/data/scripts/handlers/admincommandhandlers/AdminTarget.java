@@ -18,8 +18,6 @@ import com.l2jserver.gameserver.handler.IAdminCommandHandler;
 import com.l2jserver.gameserver.model.L2World;
 import com.l2jserver.gameserver.model.actor.instance.L2PcInstance;
 import com.l2jserver.gameserver.datatables.MessageTable;
-import com.l2jserver.gameserver.model.L2CoreMessage;
-
 /**
  * This class handles following admin commands:
  * - target name = sets player with respective name as target
@@ -57,14 +55,12 @@ public class AdminTarget implements IAdminCommandHandler
 			}
 			else
 			{
-				L2CoreMessage cm =  new L2CoreMessage (MessageTable.Messages[229]);
-				cm.addString(targetName);
-				cm.sendMessage(activeChar);
+				activeChar.sendMessage(MessageTable.Messages[1875].getExtra(1) + targetName + MessageTable.Messages[1875].getExtra(2));
 			}
 		}
 		catch (IndexOutOfBoundsException e)
 		{
-			activeChar.sendMessage(245);
+			activeChar.sendMessage("Please specify correct name.");
 		}
 	}
 }

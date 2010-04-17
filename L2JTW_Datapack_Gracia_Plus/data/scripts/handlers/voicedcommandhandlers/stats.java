@@ -21,7 +21,7 @@ import com.l2jserver.gameserver.model.L2World;
 import com.l2jserver.gameserver.model.actor.instance.L2PcInstance;
 import com.l2jserver.gameserver.network.serverpackets.NpcHtmlMessage;
 import com.l2jserver.util.StringUtil;
-
+import com.l2jserver.gameserver.datatables.MessageTable;
 
 /**
  *
@@ -49,14 +49,14 @@ public class stats implements IVoicedCommandHandler
                                 final StringBuilder replyMSG = StringUtil.startAppend(
                                         300 + pc.kills.size() * 50,
                                         "<html><body>" +
-                                        "<center><font color=\"LEVEL\">[ L2J EVENT ENGINE ]</font></center><br>" +
-                                        "<br>Statistics for player <font color=\"LEVEL\">",
+                                        "<center><font color=\"LEVEL\">[ "+MessageTable.Messages[1208].getMessage()+" ]</font></center><br>" +
+                                        "<br>"+MessageTable.Messages[1209].getMessage()+"<font color=\"LEVEL\">",
                                         pc.getName(),
                                         "</font><br>" +
-                                        "Total kills <font color=\"FF0000\">",
+                                        MessageTable.Messages[1210].getMessage()+"<font color=\"FF0000\">",
                                         String.valueOf(pc.kills.size()),
                                         "</font><br>" +
-                                        "<br>Detailed list: <br>"
+                                        "<br>"+MessageTable.Messages[1211].getMessage()+"<br>"
                                         );
 				
 				Iterator<String> it = pc.kills.iterator();

@@ -96,7 +96,7 @@ public class AdminFortSiege implements IAdminCommandHandler
 			}
 			else if (command.equalsIgnoreCase("admin_list_fortsiege_clans"))
 			{
-				activeChar.sendMessage(218);
+				activeChar.sendMessage(1680);
 			}
 			else if (command.equalsIgnoreCase("admin_setfort"))
 			{
@@ -111,7 +111,7 @@ public class AdminFortSiege implements IAdminCommandHandler
 				if (clan != null)
 					fort.removeOwner(true);
 				else
-					activeChar.sendMessage(356);
+					activeChar.sendMessage(1681);
 			}
 			else if (command.equalsIgnoreCase("admin_spawn_fortdoors"))
 			{
@@ -143,13 +143,13 @@ public class AdminFortSiege implements IAdminCommandHandler
                                     String.valueOf(fort.getFortId()),
                                     "\">",
                                     fort.getName(),
-                                    " ID: ", //Update by rocknow
+                                    " ID: ",
                                     String.valueOf(fort.getFortId()),
                                     "</a></td>");
 				i++;
 			}
 
-			if (i > 0) {//Update by rocknow
+			if (i > 0) { //Update by rocknow
 				cList.append("</tr><tr>");
 				i = 0;
 			}

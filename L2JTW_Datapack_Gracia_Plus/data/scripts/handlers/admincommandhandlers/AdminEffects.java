@@ -46,7 +46,6 @@ import com.l2jserver.gameserver.network.serverpackets.UserInfo;
 import com.l2jserver.gameserver.skills.AbnormalEffect;
 import com.l2jserver.gameserver.util.Broadcast;
 import com.l2jserver.gameserver.datatables.MessageTable;
-import com.l2jserver.gameserver.model.L2CoreMessage;
 
 /**
  * This class handles following admin commands:
@@ -160,7 +159,7 @@ public class AdminEffects implements IAdminCommandHandler
 			}
 			catch (Exception e)
 			{
-				activeChar.sendMessage(428);
+				activeChar.sendMessage("Usage: //earthquake <intensity> <duration>");
 			}
 		}
 		else if (command.startsWith("admin_atmosphere"))
@@ -173,7 +172,7 @@ public class AdminEffects implements IAdminCommandHandler
 			}
 			catch (Exception ex)
 			{
-				activeChar.sendMessage(380);
+				activeChar.sendMessage("Usage: //atmosphere <signsky dawn|dusk>|<sky day|night|red>");
 			}
 		}
 		else if (command.equals("admin_play_sounds"))
@@ -188,7 +187,7 @@ public class AdminEffects implements IAdminCommandHandler
 			}
 			catch (StringIndexOutOfBoundsException e)
 			{
-				activeChar.sendMessage(190);
+				activeChar.sendMessage("Usage: //play_sounds <pagenumber>");
 			}
 		}
 		else if (command.startsWith("admin_play_sound"))
@@ -199,7 +198,7 @@ public class AdminEffects implements IAdminCommandHandler
 			}
 			catch (StringIndexOutOfBoundsException e)
 			{
-				activeChar.sendMessage(222);
+				activeChar.sendMessage("Usage: //play_sound <soundname>");
 			}
 		}
 		else if (command.equals("admin_para_all"))
@@ -354,7 +353,7 @@ public class AdminEffects implements IAdminCommandHandler
 			}
 			catch (Exception e)
 			{
-				activeChar.sendMessage(427);
+				activeChar.sendMessage("Usage: //gmspeed <value> (0=off...4=max)");
 			}
 			if(command.contains("_menu"))
 			{
@@ -377,7 +376,7 @@ public class AdminEffects implements IAdminCommandHandler
 			}
 			catch (Exception e)
 			{
-				activeChar.sendMessage(225);
+				activeChar.sendMessage("Usage: //polyself <npcId>");
 			}
 		}
 		else if (command.startsWith("admin_unpolyself"))
@@ -425,9 +424,7 @@ public class AdminEffects implements IAdminCommandHandler
 							player.setTeam(teamVal);
 							if (teamVal != 0)
 							{
-								L2CoreMessage cm =  new L2CoreMessage (MessageTable.Messages[539]);
-								cm.addNumber(teamVal);
-								cm.sendMessage(player);
+								player.sendMessage(MessageTable.Messages[1650].getExtra(1) + teamVal + MessageTable.Messages[1650].getExtra(2));
 							}
 							player.broadcastUserInfo();
 						}
@@ -436,7 +433,7 @@ public class AdminEffects implements IAdminCommandHandler
 			}
 			catch (Exception e)
 			{
-				activeChar.sendMessage(308);
+				activeChar.sendMessage("Usage: //setteam_close <teamId>");
 			}
 		}
 		else if (command.startsWith("admin_setteam"))
@@ -454,15 +451,13 @@ public class AdminEffects implements IAdminCommandHandler
 				player.setTeam(teamVal);
 				if (teamVal != 0)
 				{
-					L2CoreMessage cm =  new L2CoreMessage (MessageTable.Messages[539]);
-					cm.addNumber(teamVal);
-					cm.sendMessage(player);
+					player.sendMessage(MessageTable.Messages[1650].getExtra(1) + teamVal + MessageTable.Messages[1650].getExtra(2));
 				}
 				player.broadcastUserInfo();
 			}
 			catch (Exception e)
 			{
-				activeChar.sendMessage(446);
+				activeChar.sendMessage("Usage: //setteam <teamId>");
 			}
 		}
 		else if (command.startsWith("admin_social"))
@@ -481,11 +476,7 @@ public class AdminEffects implements IAdminCommandHandler
 						if (player != null)
 						{
 							if (performSocial(social, player, activeChar))
-							{
-								L2CoreMessage cm =  new L2CoreMessage (MessageTable.Messages[671]);
-								cm.addString(player.getName());
-								cm.sendMessage(activeChar);
-							}
+								activeChar.sendMessage(MessageTable.Messages[1651].getExtra(1) + player.getName() +  MessageTable.Messages[1651].getExtra(2));
 						}
 						else
 						{
@@ -499,13 +490,11 @@ public class AdminEffects implements IAdminCommandHandler
 										if (activeChar.isInsideRadius(object, radius, false, false))
 											performSocial(social, object, activeChar);
 								}
-								L2CoreMessage cm =  new L2CoreMessage (MessageTable.Messages[673]);
-								cm.addNumber(radius);
-								cm.sendMessage(activeChar);
+								activeChar.sendMessage(radius + MessageTable.Messages[1652].getMessage());
 							}
 							catch (NumberFormatException nbe)
 							{
-								activeChar.sendMessage(154);
+								activeChar.sendMessage("Incorrect parameter");
 							}
 						}
 					}
@@ -515,22 +504,14 @@ public class AdminEffects implements IAdminCommandHandler
 					int social = Integer.parseInt(st.nextToken());
 					if (obj == null)
 						obj = activeChar;
-					if (obj != null)
-					{
-						if (performSocial(social, obj, activeChar))
-						{
-							L2CoreMessage cm =  new L2CoreMessage (MessageTable.Messages[671]);
-							cm.addString(obj.getName());
-							cm.sendMessage(activeChar);
-						}
-						else
-							activeChar.sendPacket(new SystemMessage(SystemMessageId.NOTHING_HAPPENED));
-					}
+
+					if (performSocial(social, obj, activeChar))
+						activeChar.sendMessage(MessageTable.Messages[1651].getExtra(1) + obj.getName() + MessageTable.Messages[1651].getExtra(2));
 					else
-						activeChar.sendPacket(new SystemMessage(SystemMessageId.INCORRECT_TARGET));
+						activeChar.sendPacket(new SystemMessage(SystemMessageId.NOTHING_HAPPENED));
 				}
 				else if (!command.contains("menu"))
-					activeChar.sendMessage(423);
+					activeChar.sendMessage("Usage: //social <social_id> [player_name|radius]");
 			}
 			catch (Exception e)
 			{
@@ -555,11 +536,7 @@ public class AdminEffects implements IAdminCommandHandler
 						if (player != null)
 						{
 							if (performAbnormal(abnormal, player))
-							{
-								L2CoreMessage cm =  new L2CoreMessage (MessageTable.Messages[672]);
-								cm.addString(player.getName());
-								cm.sendMessage(activeChar);
-							}
+								activeChar.sendMessage(MessageTable.Messages[1653].getExtra(1) + player.getName() +  MessageTable.Messages[1653].getExtra(2));
 							else
 								activeChar.sendPacket(new SystemMessage(SystemMessageId.NOTHING_HAPPENED));
 						}
@@ -574,14 +551,12 @@ public class AdminEffects implements IAdminCommandHandler
 									for (L2Object object : objs)
 										if (activeChar.isInsideRadius(object, radius, false, false))
 											performAbnormal(abnormal, object);
-									L2CoreMessage cm =  new L2CoreMessage (MessageTable.Messages[673]);
-									cm.addNumber(radius);
-									cm.sendMessage(activeChar);
+									activeChar.sendMessage(radius + MessageTable.Messages[1652].getMessage());
 								}
 							}
 							catch (NumberFormatException nbe)
 							{
-								activeChar.sendMessage(371);
+								activeChar.sendMessage("Usage: //abnormal <hex_abnormal_mask> [player|radius]");
 							}
 						}
 					}
@@ -591,22 +566,14 @@ public class AdminEffects implements IAdminCommandHandler
 					int abnormal = Integer.decode("0x" + st.nextToken());
 					if (obj == null)
 						obj = activeChar;
-					if (obj != null)
-					{
-						if (performAbnormal(abnormal, obj))
-						{
-							L2CoreMessage cm =  new L2CoreMessage (MessageTable.Messages[672]);
-							cm.addString(obj.getName());
-							cm.sendMessage(activeChar);
-						}
-						else
-							activeChar.sendPacket(new SystemMessage(SystemMessageId.NOTHING_HAPPENED));
-					}
+					
+					if (performAbnormal(abnormal, obj))
+						activeChar.sendMessage(MessageTable.Messages[1653].getExtra(1) + obj.getName() + MessageTable.Messages[1653].getExtra(2));
 					else
-						activeChar.sendPacket(new SystemMessage(SystemMessageId.INCORRECT_TARGET));
+						activeChar.sendPacket(new SystemMessage(SystemMessageId.NOTHING_HAPPENED));
 				}
 				else if (!command.contains("menu"))
-					activeChar.sendMessage(370);
+					activeChar.sendMessage("Usage: //abnormal <abnormal_mask> [player_name|radius]");
 			}
 			catch (Exception e)
 			{
@@ -631,11 +598,7 @@ public class AdminEffects implements IAdminCommandHandler
 						if (player != null)
 						{
 							if (performSpecial(special, player))
-							{
-								L2CoreMessage cm =  new L2CoreMessage (MessageTable.Messages[561]);
-								cm.addString(player.getName());
-								cm.sendMessage(activeChar);
-							}
+								activeChar.sendMessage(MessageTable.Messages[1654].getExtra(1) + player.getName() +  MessageTable.Messages[1654].getExtra(2));
 							else
 								activeChar.sendPacket(new SystemMessage(SystemMessageId.NOTHING_HAPPENED));
 						}
@@ -650,14 +613,12 @@ public class AdminEffects implements IAdminCommandHandler
 									for (L2Object object : objs)
 										if (activeChar.isInsideRadius(object, radius, false, false))
 											performSpecial(special, object);
-									L2CoreMessage cm =  new L2CoreMessage (MessageTable.Messages[673]);
-									cm.addNumber(radius);
-									cm.sendMessage(activeChar);
+									activeChar.sendMessage(radius + MessageTable.Messages[1652].getMessage());
 								}
 							}
 							catch (NumberFormatException nbe)
 							{
-								activeChar.sendMessage(588);
+								activeChar.sendMessage("Usage: //special <hex_special_mask> [player|radius]");
 							}
 						}
 					}
@@ -667,22 +628,14 @@ public class AdminEffects implements IAdminCommandHandler
 					int special = Integer.decode("0x" + st.nextToken());
 					if (obj == null)
 						obj = activeChar;
-					if (obj != null)
-					{
-						if (performSpecial(special, obj))
-						{
-							L2CoreMessage cm =  new L2CoreMessage (MessageTable.Messages[672]);
-							cm.addString(obj.getName());
-							cm.sendMessage(activeChar);
-						}
-						else
-							activeChar.sendPacket(new SystemMessage(SystemMessageId.NOTHING_HAPPENED));
-					}
+
+					if (performSpecial(special, obj))
+						activeChar.sendMessage(MessageTable.Messages[1653].getExtra(1) + obj.getName() + MessageTable.Messages[1653].getExtra(2));
 					else
-						activeChar.sendPacket(new SystemMessage(SystemMessageId.INCORRECT_TARGET));
+						activeChar.sendPacket(new SystemMessage(SystemMessageId.NOTHING_HAPPENED));
 				}
 				else if (!command.contains("menu"))
-					activeChar.sendMessage(370);
+					activeChar.sendMessage("Usage: //special <special_mask> [player_name|radius]");
 			}
 			catch (Exception e)
 			{
@@ -703,27 +656,19 @@ public class AdminEffects implements IAdminCommandHandler
 					hittime = Integer.parseInt(st.nextToken());
 				if (obj == null)
 					obj = activeChar;
-				if (obj != null)
-				{
-					if (!(obj instanceof L2Character))
-						activeChar.sendPacket(new SystemMessage(SystemMessageId.INCORRECT_TARGET));
-					else
-					{
-						L2Character target = (L2Character) obj;
-						target.broadcastPacket(new MagicSkillUse(target, activeChar, skill, level, hittime, 0));
-						L2CoreMessage cm =  new L2CoreMessage (MessageTable.Messages[667]);
-						cm.addString(obj.getName());
-						cm.addNumber(skill);
-						cm.addNumber(level);
-						cm.sendMessage(activeChar);
-					}
-				}
-				else
+				if (!(obj instanceof L2Character))
 					activeChar.sendPacket(new SystemMessage(SystemMessageId.INCORRECT_TARGET));
+				else
+				{
+					L2Character target = (L2Character) obj;
+					target.broadcastPacket(new MagicSkillUse(target, activeChar, skill, level, hittime, 0));
+					activeChar.sendMessage(obj.getName() + MessageTable.Messages[1655].getExtra(1) + skill + "/" + level + MessageTable.Messages[1655].getExtra(2));
+				}
+
 			}
 			catch (Exception e)
 			{
-				activeChar.sendMessage(390);
+				activeChar.sendMessage("Usage: //effect skill [level | level hittime]");
 			}
 		}
 		if (command.contains("menu"))
@@ -825,7 +770,7 @@ public class AdminEffects implements IAdminCommandHandler
 				packet = new ExRedSky(10);
 		}
 		else
-			activeChar.sendMessage(380);
+			activeChar.sendMessage("Usage: //atmosphere <signsky dawn|dusk>|<sky day|night|red>");
 		if (packet != null)
 			Broadcast.toAllOnlinePlayers(packet);
 	}
@@ -835,9 +780,7 @@ public class AdminEffects implements IAdminCommandHandler
 		PlaySound _snd = new PlaySound(1, sound, 0, 0, 0, 0, 0);
 		activeChar.sendPacket(_snd);
 		activeChar.broadcastPacket(_snd);
-		L2CoreMessage cm =  new L2CoreMessage (MessageTable.Messages[241]);
-		cm.addString(sound);
-		cm.sendMessage(activeChar);
+		activeChar.sendMessage(MessageTable.Messages[1656].getExtra(1) + sound +  MessageTable.Messages[1656].getExtra(2));
 	}
 	
 	public String[] getAdminCommandList()

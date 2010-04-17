@@ -35,8 +35,7 @@ import com.l2jserver.gameserver.model.L2Object;
 import com.l2jserver.gameserver.model.actor.L2Character;
 import com.l2jserver.gameserver.model.actor.instance.L2PcInstance;
 import com.l2jserver.gameserver.network.serverpackets.MagicSkillUse;
-import com.l2jserver.gameserver.datatables.MessageTable;
-import com.l2jserver.gameserver.model.L2CoreMessage;
+
 
 /**
  * This class ...
@@ -79,38 +78,36 @@ public class AdminTest implements IAdminCommandHandler
 			}
 			catch (NumberFormatException e)
 			{
-				activeChar.sendMessage(87);
+				activeChar.sendMessage("Command format is //skill_test <ID>");
 			}
 			catch (NoSuchElementException nsee)
 			{
-				activeChar.sendMessage(87);
+				activeChar.sendMessage("Command format is //skill_test <ID>");
 			}
 		}
 		else if (command.startsWith("admin_test uni flush"))
 		{
 			Universe.getInstance().flush();
-			activeChar.sendMessage(358);
+			activeChar.sendMessage("Universe Map Saved.");
 		}
 		else if (command.startsWith("admin_test uni"))
 		{
-			L2CoreMessage cm =  new L2CoreMessage (MessageTable.Messages[359]);
-			cm.addNumber(Universe.getInstance().size());
-			cm.sendMessage(activeChar);
+			activeChar.sendMessage("Universe Map Size is: " + Universe.getInstance().size());
 		}
 		else if (command.equals("admin_mp on"))
 		{
 			//.startPacketMonitor();
-			activeChar.sendMessage(648);
+			activeChar.sendMessage("command not working");
 		}
 		else if (command.equals("admin_mp off"))
 		{
 			//.stopPacketMonitor();
-			activeChar.sendMessage(648);
+			activeChar.sendMessage("command not working");
 		}
 		else if (command.equals("admin_mp dump"))
 		{
 			//.dumpPacketHistory();
-			activeChar.sendMessage(648);
+			activeChar.sendMessage("command not working");
 		}
 		else if (command.equals("admin_known on"))
 		{

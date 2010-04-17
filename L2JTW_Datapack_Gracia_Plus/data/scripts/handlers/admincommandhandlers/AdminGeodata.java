@@ -18,8 +18,6 @@ import com.l2jserver.Config;
 import com.l2jserver.gameserver.GeoData;
 import com.l2jserver.gameserver.handler.IAdminCommandHandler;
 import com.l2jserver.gameserver.model.actor.instance.L2PcInstance;
-import com.l2jserver.gameserver.datatables.MessageTable;
-import com.l2jserver.gameserver.model.L2CoreMessage;
 
 /**
  *
@@ -43,7 +41,7 @@ public class AdminGeodata implements IAdminCommandHandler
 	{
 		if (Config.GEODATA < 1)
 		{
-			activeChar.sendMessage(126);
+			activeChar.sendMessage("Geo Engine is Turned Off!");
 			return true;
 		}
 		
@@ -75,31 +73,25 @@ public class AdminGeodata implements IAdminCommandHandler
 			if (activeChar.getTarget() != null)
 			{
 				if (GeoData.getInstance().canSeeTargetDebug(activeChar, activeChar.getTarget()))
-					activeChar.sendMessage(129);
+					activeChar.sendMessage("GeoEngine: Can See Target");
 				else
-					activeChar.sendMessage(130);
+					activeChar.sendMessage("GeoEngine: Can't See Target");
 				
 			}
 			else
-				activeChar.sendMessage(209);
+				activeChar.sendMessage("None Target!");
 		}
 		else if (command.equals("admin_geo_position"))
 		{
-			activeChar.sendMessage(137);
-			L2CoreMessage cm =  new L2CoreMessage (MessageTable.Messages[684]);
-			cm.addNumber(activeChar.getX());
-			cm.addNumber(activeChar.getY());
-			cm.addNumber(activeChar.getZ());
-			cm.sendMessage(activeChar);
-			cm =  new L2CoreMessage (MessageTable.Messages[685]);
-			cm.addString(GeoData.getInstance().geoPosition(activeChar.getX(), activeChar.getY()));
-			cm.sendMessage(activeChar);
+			activeChar.sendMessage("GeoEngine: Your current position: ");
+			activeChar.sendMessage(".... world coords: x: " + activeChar.getX() + " y: " + activeChar.getY() + " z: " + activeChar.getZ());
+			activeChar.sendMessage(".... geo position: " + GeoData.getInstance().geoPosition(activeChar.getX(), activeChar.getY()));
 		}
 		else if (command.startsWith("admin_geo_load"))
 		{
 			String[] v = command.substring(15).split(" ");
 			if (v.length != 2)
-				activeChar.sendMessage(378);
+				activeChar.sendMessage("Usage: //admin_geo_load <regionX> <regionY>");
 			else
 			{
 				try
@@ -110,23 +102,13 @@ public class AdminGeodata implements IAdminCommandHandler
 					boolean result = GeoData.loadGeodataFile(rx, ry);
 					
 					if (result)
-					{
-						L2CoreMessage cm =  new L2CoreMessage (MessageTable.Messages[132]);
-						cm.addNumber(rx);
-						cm.addNumber(ry);
-						cm.sendMessage(activeChar);
-					}
+						activeChar.sendMessage("GeoEngine: File for region [" + rx + "," + ry + "] loaded succesfuly");
 					else
-					{
-						L2CoreMessage cm =  new L2CoreMessage (MessageTable.Messages[131]);
-						cm.addNumber(rx);
-						cm.addNumber(ry);
-						cm.sendMessage(activeChar);
-					}
+						activeChar.sendMessage("GeoEngine: File for region [" + rx + "," + ry + "] couldn't be loaded");
 				}
 				catch (Exception e)
 				{
-					activeChar.sendMessage(549);
+					activeChar.sendMessage("You have to write numbers of regions <regionX> <regionY>");
 				}
 			}
 		}
@@ -134,7 +116,7 @@ public class AdminGeodata implements IAdminCommandHandler
 		{
 			String[] v = command.substring(17).split(" ");
 			if (v.length != 2)
-				activeChar.sendMessage(379);
+				activeChar.sendMessage("Usage: //admin_geo_unload <regionX> <regionY>");
 			else
 			{
 				try
@@ -143,15 +125,11 @@ public class AdminGeodata implements IAdminCommandHandler
 					byte ry = Byte.parseByte(v[1]);
 					
 					GeoData.unloadGeodata(rx, ry);
-					
-					L2CoreMessage cm =  new L2CoreMessage (MessageTable.Messages[133]);
-					cm.addNumber(rx);
-					cm.addNumber(ry);
-					cm.sendMessage(activeChar);
+					activeChar.sendMessage("GeoEngine: File for region [" + rx + "," + ry + "] unloaded.");
 				}
 				catch (Exception e)
 				{
-					activeChar.sendMessage(549);
+					activeChar.sendMessage("You have to write numbers of regions <regionX> <regionY>");
 				}
 			}
 		}
@@ -164,7 +142,7 @@ public class AdminGeodata implements IAdminCommandHandler
 			}
 			catch (StringIndexOutOfBoundsException e)
 			{
-				activeChar.sendMessage(377);
+				activeChar.sendMessage("Usage: //admin_geo_bug you coments here");
 			}
 		}
 		return true;

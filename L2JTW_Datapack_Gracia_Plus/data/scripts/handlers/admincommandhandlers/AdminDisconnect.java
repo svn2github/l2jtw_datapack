@@ -18,8 +18,6 @@ import com.l2jserver.gameserver.handler.IAdminCommandHandler;
 import com.l2jserver.gameserver.model.L2Object;
 import com.l2jserver.gameserver.model.actor.instance.L2PcInstance;
 import com.l2jserver.gameserver.datatables.MessageTable;
-import com.l2jserver.gameserver.model.L2CoreMessage;
-
 /**
  * This class handles following admin commands:
  * - character_disconnect = disconnects target player
@@ -58,13 +56,11 @@ public class AdminDisconnect implements IAdminCommandHandler
 		
 		if (player == activeChar)
 		{
-			activeChar.sendMessage(488);
+			activeChar.sendMessage(1522);
 		}
 		else
 		{
-			L2CoreMessage cm =  new L2CoreMessage (MessageTable.Messages[76]);
-			cm.addString(player.getName());
-			cm.sendMessage(activeChar);
+			activeChar.sendMessage(MessageTable.Messages[1523].getExtra(1) + player.getName() + MessageTable.Messages[1523].getExtra(2));
 			
 			player.logout();
 		}

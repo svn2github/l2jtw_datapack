@@ -44,7 +44,7 @@ public class ChatHeroVoice implements IChatHandler
 		{
 			if (!activeChar.getFloodProtectors().getHeroVoice().tryPerformAction("hero voice") && !activeChar.isGM()) //modify By Tiger 091020
 			{
-				activeChar.sendMessage(22);
+				activeChar.sendMessage(1097);
 				return;
 			}
 			CreatureSay cs = new CreatureSay(activeChar.getObjectId(), type, activeChar.getName(), text);

@@ -241,7 +241,7 @@
 		<set name="target" val="TARGET_SELF" />
 		<for>
 			<effect name="Buff" time="1200" val="0">
-				<mul order="0x30" stat="magicDamVul" val="0.5" /> <!-- TEMP FIX: Changed from 0 to 0.5 due to formulas are not retail like -->
+				<mul order="0x30" stat="magicSuccRes" val="2" />
 			</effect>
 		</for>
 	</skill>
@@ -474,11 +474,22 @@
 		</for>
 	</skill>
 	<skill id="928" levels="1" name="Duel Blow">
-		<set name="target" val="TARGET_NONE" />
-		<set name="skillType" val="NOTDONE" />
+		<!-- Update by rocknow -->
+		<set name="target" val="TARGET_ONE" />
+		<set name="skillType" val="BLOW" />
 		<set name="magicLvl" val="81" />
-		<set name="operateType" val="OP_PASSIVE" />
+		<set name="operateType" val="OP_ACTIVE" />
 		<set name="hitTime" val="1800" />
+		<set name="coolTime" val="720" />
+		<set name="weaponsAllowed" val="262144" /> <!-- Dual Dagger -->
+		<set name="mpConsume" val="77" />
+		<set name="nextActionAttack" val="true" />
+		<set name="power" val="7546" />
+		<set name="condition" val="16" /> <!-- Crit -->
+		<set name="reuseDelay" val="3000" />
+		<set name="castRange" val="40" />
+		<set name="effectRange" val="400" />
+		<set name="overHit" val="true" />
 	</skill>
 	<skill id="929" levels="1" name="Spirit of the Cat">
 		<set name="castRange" val="600" />

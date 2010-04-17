@@ -34,8 +34,7 @@ import com.l2jserver.gameserver.model.Location;
 import com.l2jserver.gameserver.model.actor.L2Character;
 import com.l2jserver.gameserver.model.actor.instance.L2PcInstance;
 import com.l2jserver.gameserver.network.serverpackets.NpcHtmlMessage;
-import com.l2jserver.gameserver.datatables.MessageTable;
-import com.l2jserver.gameserver.model.L2CoreMessage;
+
 
 public class AdminZone implements IAdminCommandHandler
 {
@@ -90,37 +89,21 @@ public class AdminZone implements IAdminCommandHandler
 			Location loc;
 			
 			loc = MapRegionTable.getInstance().getTeleToLocation(activeChar, MapRegionTable.TeleportWhereType.Castle);
-			L2CoreMessage cm = new L2CoreMessage (MessageTable.Messages[293]);
-			cm.addNumber(loc.getX());
-			cm.addNumber(loc.getY());
-			cm.addNumber(loc.getZ());
-			cm.sendMessage(activeChar);
+			activeChar.sendMessage("TeleToLocation (Castle): x:" + loc.getX() + " y:" + loc.getY() + " z:" + loc.getZ());
 			
 			loc = MapRegionTable.getInstance().getTeleToLocation(activeChar, MapRegionTable.TeleportWhereType.ClanHall);
-			cm =  new L2CoreMessage (MessageTable.Messages[294]);
-			cm.addNumber(loc.getX());
-			cm.addNumber(loc.getY());
-			cm.addNumber(loc.getZ());
-			cm.sendMessage(activeChar);
+			activeChar.sendMessage("TeleToLocation (ClanHall): x:" + loc.getX() + " y:" + loc.getY() + " z:" + loc.getZ());
 			
 			loc = MapRegionTable.getInstance().getTeleToLocation(activeChar, MapRegionTable.TeleportWhereType.SiegeFlag);
-			cm =  new L2CoreMessage (MessageTable.Messages[295]);
-			cm.addNumber(loc.getX());
-			cm.addNumber(loc.getY());
-			cm.addNumber(loc.getZ());
-			cm.sendMessage(activeChar);
+			activeChar.sendMessage("TeleToLocation (SiegeFlag): x:" + loc.getX() + " y:" + loc.getY() + " z:" + loc.getZ());
 			
 			loc = MapRegionTable.getInstance().getTeleToLocation(activeChar, MapRegionTable.TeleportWhereType.Town);
-			cm =  new L2CoreMessage (MessageTable.Messages[296]);
-			cm.addNumber(loc.getX());
-			cm.addNumber(loc.getY());
-			cm.addNumber(loc.getZ());
-			cm.sendMessage(activeChar);
+			activeChar.sendMessage("TeleToLocation (Town): x:" + loc.getX() + " y:" + loc.getY() + " z:" + loc.getZ());
 		}
 		else if (actualCommand.equalsIgnoreCase("admin_zone_reload"))
 		{
 			ZoneManager.getInstance().reload();
-			activeChar.sendMessage(251);
+			activeChar.sendMessage("All Zones have been reloaded");
 		}
 		return true;
 	}

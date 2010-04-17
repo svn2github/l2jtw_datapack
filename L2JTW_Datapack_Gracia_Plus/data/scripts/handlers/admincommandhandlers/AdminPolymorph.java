@@ -26,7 +26,6 @@ import com.l2jserver.gameserver.network.serverpackets.MagicSkillUse;
 import com.l2jserver.gameserver.network.serverpackets.SetupGauge;
 import com.l2jserver.gameserver.network.serverpackets.SystemMessage;
 import com.l2jserver.gameserver.datatables.MessageTable;
-import com.l2jserver.gameserver.model.L2CoreMessage;
 
 /**
  * This class handles following admin commands: polymorph
@@ -82,21 +81,19 @@ public class AdminPolymorph implements IAdminCommandHandler
 						int id = Integer.parseInt(parts[1]);
 						if (!TransformationManager.getInstance().transformPlayer(id, cha))
 						{
-							L2CoreMessage cm =  new L2CoreMessage (MessageTable.Messages[360]);
-							cm.addNumber(id);
-							cm.sendMessage(cha);
+							cha.sendMessage(MessageTable.Messages[1800].getMessage() + id);
 						}
 					}
 					catch (NumberFormatException e)
 					{
-						activeChar.sendMessage(424);
+						activeChar.sendMessage("Usage: //transform <id>");
 					}
 				}
 				else if (parts.length == 1)
 					cha.untransform();
 				else
 				{
-					activeChar.sendMessage(425);
+					activeChar.sendMessage("Usage: //transform <id>");
 				}
 			}
 			else
@@ -122,7 +119,7 @@ public class AdminPolymorph implements IAdminCommandHandler
 			}
 			catch (Exception e)
 			{
-				activeChar.sendMessage(413);
+				activeChar.sendMessage("Usage: //polymorph [type] <id>");
 			}
 		}
 		else if (command.equals("admin_unpolymorph"))
@@ -165,7 +162,7 @@ public class AdminPolymorph implements IAdminCommandHandler
 			//end of animation
 			obj.decayMe();
 			obj.spawnMe(obj.getX(), obj.getY(), obj.getZ());
-			activeChar.sendMessage(246);
+			activeChar.sendMessage(1801);
 		}
 		else
 			activeChar.sendPacket(new SystemMessage(SystemMessageId.INCORRECT_TARGET));
@@ -182,7 +179,7 @@ public class AdminPolymorph implements IAdminCommandHandler
 			target.getPoly().setPolyInfo(null, "1");
 			target.decayMe();
 			target.spawnMe(target.getX(), target.getY(), target.getZ());
-			activeChar.sendMessage(365);
+			activeChar.sendMessage(1802);
 		}
 		else
 			activeChar.sendPacket(new SystemMessage(SystemMessageId.INCORRECT_TARGET));

@@ -41,7 +41,6 @@ import com.l2jserver.gameserver.network.serverpackets.NpcHtmlMessage;
 import com.l2jserver.gameserver.network.serverpackets.PlaySound;
 import com.l2jserver.gameserver.network.serverpackets.UserInfo;
 import com.l2jserver.util.StringUtil;
-import com.l2jserver.gameserver.datatables.MessageTable;
 
 
 /**
@@ -536,7 +535,7 @@ public class AdminEventEngine implements IAdminCommandHandler
 			}
 			
 		}
-		L2Event.announceAllPlayers(activeChar.getName() + MessageTable.Messages[683]);
+		L2Event.announceAllPlayers(activeChar.getName() + " wants to make an event !!! (you'll find a npc with the details around)");
 	}
 	
 	void showEventControl(L2PcInstance activeChar)

@@ -33,7 +33,6 @@ import com.l2jserver.gameserver.instancemanager.QuestManager;
 import com.l2jserver.gameserver.model.actor.instance.L2PcInstance;
 import com.l2jserver.gameserver.scripting.L2ScriptEngineManager;
 import com.l2jserver.gameserver.datatables.MessageTable;
-import com.l2jserver.gameserver.model.L2CoreMessage;
 
 public class AdminQuest implements IAdminCommandHandler
 {
@@ -66,7 +65,7 @@ public class AdminQuest implements IAdminCommandHandler
 			String[] parts = command.split(" ");
 			if (parts.length < 2)
 			{
-				activeChar.sendMessage(281);
+				activeChar.sendMessage("Syntax: //quest_reload <questFolder>.<questSubFolders...>.questName> or //quest_reload <id>");
 			}
 			else
 			{
@@ -76,22 +75,22 @@ public class AdminQuest implements IAdminCommandHandler
 					int questId = Integer.parseInt(parts[1]);
 					if (QuestManager.getInstance().reload(questId))
 					{
-						activeChar.sendMessage(248);
+						activeChar.sendMessage(1806);
 					}
 					else
 					{
-						activeChar.sendMessage(247);
+						activeChar.sendMessage(1807);
 					}
 				}
 				catch (NumberFormatException e)
 				{
 					if (QuestManager.getInstance().reload(parts[1]))
 					{
-						activeChar.sendMessage(248);
+						activeChar.sendMessage("Quest Reloaded Successfully.");
 					}
 					else
 					{
-						activeChar.sendMessage(247);
+						activeChar.sendMessage("Quest Reloaded Failed");
 					}
 				}
 			}
@@ -108,7 +107,7 @@ public class AdminQuest implements IAdminCommandHandler
 			if (parts.length < 2)
 			{
 				//activeChar.sendMessage("Example: //script_load <questFolder>/<questSubFolders...>/<filename>.<ext> ");
-				activeChar.sendMessage(117);
+				activeChar.sendMessage("Example: //script_load quests/SagasSuperclass/__init__.py");
 			}
 			else
 			{
@@ -121,23 +120,17 @@ public class AdminQuest implements IAdminCommandHandler
 					}
 					catch (ScriptException e)
 					{
-						L2CoreMessage cm =  new L2CoreMessage (MessageTable.Messages[118]);
-						cm.addString(parts[1]);
-						cm.sendMessage(activeChar);
+						activeChar.sendMessage("Failed loading: " + parts[1]);
 						L2ScriptEngineManager.getInstance().reportScriptFileError(file, e);
 					}
 					catch (Exception e)
 					{
-						L2CoreMessage cm =  new L2CoreMessage (MessageTable.Messages[118]);
-						cm.addString(parts[1]);
-						cm.sendMessage(activeChar);
+						activeChar.sendMessage("Failed loading: " + parts[1]);
 					}
 				}
 				else
 				{
-					L2CoreMessage cm =  new L2CoreMessage (MessageTable.Messages[119]);
-					cm.addString(parts[1]);
-					cm.sendMessage(activeChar);
+					activeChar.sendMessage(MessageTable.Messages[1808].getMessage() + parts[1]);
 				}
 			}
 			

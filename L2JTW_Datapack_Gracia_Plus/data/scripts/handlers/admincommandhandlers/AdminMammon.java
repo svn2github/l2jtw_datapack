@@ -26,9 +26,7 @@ import com.l2jserver.gameserver.model.AutoSpawnHandler.AutoSpawnInstance;
 import com.l2jserver.gameserver.model.actor.L2Npc;
 import com.l2jserver.gameserver.model.actor.instance.L2PcInstance;
 import com.l2jserver.gameserver.network.serverpackets.SystemMessage;
-import com.l2jserver.gameserver.network.SystemMessageId;
 import com.l2jserver.gameserver.datatables.MessageTable;
-import com.l2jserver.gameserver.model.L2CoreMessage;
 
 /**
  * Admin Command Handler for Mammon NPCs
@@ -64,12 +62,12 @@ public class AdminMammon implements IAdminCommandHandler
 			}
 			catch (Exception NumberFormatException)
 			{
-				activeChar.sendMessage(400);
+				activeChar.sendMessage("Usage: //mammon_find [teleportIndex] (where 1 = Blacksmith, 2 = Merchant)");
 			}
 			
 			if (!_isSealValidation)
 			{
-				activeChar.sendPacket(new SystemMessage(SystemMessageId.QUEST_EVENT_PERIOD));
+				activeChar.sendMessage(1738);
 				return true;
 			}
 			if (blackSpawnInst != null)
@@ -78,61 +76,49 @@ public class AdminMammon implements IAdminCommandHandler
 				if (blackInst.length > 0)
 				{
 					int x1 = blackInst[0].getX(), y1 = blackInst[0].getY(), z1 = blackInst[0].getZ();
-					L2CoreMessage cm =  new L2CoreMessage (MessageTable.Messages[42]);
-					cm.addNumber(x1);
-					cm.addNumber(y1);
-					cm.addNumber(z1);
-					cm.sendMessage(activeChar);
+					activeChar.sendMessage(MessageTable.Messages[1739].getMessage() + x1 + " " + y1 + " " + z1);
 					if (teleportIndex == 1)
 						activeChar.teleToLocation(x1, y1, z1, true);
 				}
 			}
 			else
-				activeChar.sendMessage(41);
+				activeChar.sendMessage(1740);
 			if (merchSpawnInst != null)
 			{
 				L2Npc[] merchInst = merchSpawnInst.getNPCInstanceList();
 				if (merchInst.length > 0)
 				{
 					int x2 = merchInst[0].getX(), y2 = merchInst[0].getY(), z2 = merchInst[0].getZ();
-					L2CoreMessage cm =  new L2CoreMessage (MessageTable.Messages[197]);
-					cm.addNumber(x2);
-					cm.addNumber(y2);
-					cm.addNumber(z2);
-					cm.sendMessage(activeChar);
+					activeChar.sendMessage(MessageTable.Messages[1741].getMessage() + x2 + " " + y2 + " " + z2);
 					if (teleportIndex == 2)
 						activeChar.teleToLocation(x2, y2, z2, true);
 				}
 			}
 			else
-				activeChar.sendMessage(196);
+				activeChar.sendMessage(1742);
 		}
 		
 		else if (command.startsWith("admin_mammon_respawn"))
 		{
 			if (!_isSealValidation)
 			{
-				activeChar.sendPacket(new SystemMessage(SystemMessageId.QUEST_EVENT_PERIOD));
+				activeChar.sendMessage(1738);
 				return true;
 			}
 			if (merchSpawnInst != null)
 			{
 				long merchRespawn = AutoSpawnHandler.getInstance().getTimeToNextSpawn(merchSpawnInst);
-				L2CoreMessage cm =  new L2CoreMessage (MessageTable.Messages[300]);
-				cm.addNumber((merchRespawn / 60000));
-				cm.sendMessage(activeChar);
+				activeChar.sendMessage(MessageTable.Messages[1743].getExtra(1) + (merchRespawn / 60000) + MessageTable.Messages[1743].getExtra(2));
 			}
 			else
-				activeChar.sendMessage(196);
+				activeChar.sendMessage(1742);
 			if (blackSpawnInst != null)
 			{
 				long blackRespawn = AutoSpawnHandler.getInstance().getTimeToNextSpawn(blackSpawnInst);
-				L2CoreMessage cm =  new L2CoreMessage (MessageTable.Messages[299]);
-				cm.addNumber((blackRespawn / 60000));
-				cm.sendMessage(activeChar);
+				activeChar.sendMessage(MessageTable.Messages[1744].getExtra(1) + (blackRespawn / 60000) + MessageTable.Messages[1744].getExtra(2));
 			}
 			else
-				activeChar.sendMessage(41);
+				activeChar.sendMessage(1740);
 		}
 		
 		else if (command.startsWith("admin_list_spawns"))
@@ -154,7 +140,7 @@ public class AdminMammon implements IAdminCommandHandler
 			}
 			catch (Exception e)
 			{
-				activeChar.sendMessage(86);
+				activeChar.sendMessage("Command format is //list_spawns <npcId|npc_name> [tele_index]");
 			}
 			
 			SpawnTable.getInstance().findNPCInstances(activeChar, npcId, teleportIndex);
@@ -171,7 +157,7 @@ public class AdminMammon implements IAdminCommandHandler
 			}
 			catch (Exception e)
 			{
-				activeChar.sendMessage(88);
+				activeChar.sendMessage("Command format: //msg <SYSTEM_MSG_ID>");
 				return true;
 			}
 			activeChar.sendPacket(new SystemMessage(msgId));

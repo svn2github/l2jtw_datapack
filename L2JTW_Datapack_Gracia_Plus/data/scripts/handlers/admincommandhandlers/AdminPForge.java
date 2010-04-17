@@ -56,7 +56,7 @@ public class AdminPForge implements IAdminCommandHandler
 			catch (Exception ex)
 			{
 				ex.printStackTrace();
-				activeChar.sendMessage(394);
+				activeChar.sendMessage("Usage: //forge2 format");
 			}
 		}
 		else if (command.startsWith("admin_forge3"))

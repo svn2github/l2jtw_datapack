@@ -45,13 +45,13 @@ public class RideWyvern implements IBypassHandler
 		
 		if(!Config.ALLOW_WYVERN_DURING_SIEGE && npc.isInSiege())
 		{
-			activeChar.sendMessage("You cannot ride wyvern during siege.");
+			activeChar.sendMessage(1050);
 			return false;
 		}
 
 		if ((SevenSigns.getInstance().getSealOwner(SevenSigns.SEAL_STRIFE) == SevenSigns.CABAL_DUSK) && SevenSigns.getInstance().isSealValidationPeriod())
 		{
-			activeChar.sendMessage("You cannot ride wyvern while Seal of Strife controlled by Dusk.");
+			activeChar.sendMessage(1051);
 			return false;
 		}
 
@@ -59,11 +59,11 @@ public class RideWyvern implements IBypassHandler
 		{
 			if(activeChar.isMounted())
 			{
-				activeChar.sendMessage("You already have a pet.");
+				activeChar.sendMessage(1052);
 			}
 			else
 			{
-				activeChar.sendMessage("Summon your Strider first.");
+				activeChar.sendMessage(1053);
 			}
 		}
 		else if (Arrays.binarySearch(STRIDERS, activeChar.getPet().getNpcId()) >= 0 )
@@ -72,7 +72,7 @@ public class RideWyvern implements IBypassHandler
 			{
 				if (activeChar.getPet().getLevel() < 55)
 				{
-					activeChar.sendMessage("Your Strider Has not reached the required level.");
+					activeChar.sendMessage(1054);
 				}
 				else
 				{
@@ -81,19 +81,19 @@ public class RideWyvern implements IBypassHandler
 					{
 						activeChar.getInventory().destroyItemByItemId("Wyvern", 1460, 25, activeChar, npc);
 						activeChar.addSkill(SkillTable.FrequentSkill.WYVERN_BREATH.getSkill());
-						activeChar.sendMessage("The Wyvern has been summoned successfully!");
+						activeChar.sendMessage(1055);
 					}
 					return true;
 				}
 			}
 			else
 			{
-				activeChar.sendMessage("You need 25 Crystals: B Grade.");
+				activeChar.sendMessage(1056);
 			}
 		}
 		else
 		{
-			activeChar.sendMessage("Unsummon your pet.");
+			activeChar.sendMessage(1057);
 		}
 
 		return false;

@@ -33,7 +33,7 @@ import com.l2jserver.gameserver.network.SystemMessageId;
 import com.l2jserver.gameserver.network.serverpackets.ActionFailed;
 import com.l2jserver.gameserver.network.serverpackets.SystemMessage;
 import com.l2jserver.util.StringUtil;
-
+import com.l2jserver.gameserver.datatables.MessageTable;
 public class QuestLink implements IBypassHandler
 {
 	private static final String[] COMMANDS =
@@ -92,9 +92,9 @@ public class QuestLink implements IBypassHandler
 			if (qs != null)
 			{
 				if (qs.getState() == State.STARTED && qs.getInt("cond") > 0)
-					sb.append(" (In Progress)");
+					sb.append(MessageTable.Messages[1016].getMessage());
 				else if (qs.getState() == State.COMPLETED)
-					sb.append(" (Done)");
+					sb.append(MessageTable.Messages[1017].getMessage());
 			}
 			sb.append("]</a><br>");
 		}
@@ -129,7 +129,7 @@ public class QuestLink implements IBypassHandler
 		if (q == null)
 		{
 			// no quests found
-			content = "<html><body>You are either not on a quest that involves this NPC, or you don't meet this NPC's minimum quest requirements.</body></html>";
+			content = "<html><body>"+MessageTable.Messages[1018].getMessage()+"</body></html>";
 		}
 		else
 		{

@@ -56,7 +56,7 @@ public class AdminPathNode implements IAdminCommandHandler
 		{
 			if (Config.GEODATA < 2)
 			{
-				activeChar.sendMessage(228);
+				activeChar.sendMessage("PathFinding has not been enabled.");
 				return true;
 			}
 			if (activeChar.getTarget() != null)
@@ -64,7 +64,7 @@ public class AdminPathNode implements IAdminCommandHandler
 				List<AbstractNodeLoc> path = PathFinding.getInstance().findPath(activeChar.getX(), activeChar.getY(), (short) activeChar.getZ(), activeChar.getTarget().getX(), activeChar.getTarget().getY(), (short) activeChar.getTarget().getZ(), activeChar.getInstanceId());
 				if (path == null)
 				{
-					activeChar.sendMessage(208);
+					activeChar.sendMessage("No Route!");
 					return true;
 				}
 				for (AbstractNodeLoc a : path)
@@ -73,7 +73,7 @@ public class AdminPathNode implements IAdminCommandHandler
 				}
 			}
 			else
-				activeChar.sendMessage(209);
+				activeChar.sendMessage("No Target!");
 		}
 		return true;
 	}

@@ -27,6 +27,7 @@ import com.l2jserver.gameserver.network.serverpackets.SystemMessage;
 import com.l2jserver.gameserver.datatables.MessageTable;
 import com.l2jserver.gameserver.model.L2CoreMessage;
 
+
 /**
  * This class handles following admin commands:
  * <li> add_exp_sp_to_character <i>shows menu for add or remove</i>
@@ -53,11 +54,11 @@ public class AdminExpSp implements IAdminCommandHandler
 			{
 				String val = command.substring(16);
 				if (!adminAddExpSp(activeChar, val))
-					activeChar.sendMessage(374);
+					activeChar.sendMessage(1671);
 			}
 			catch (StringIndexOutOfBoundsException e)
 			{ //Case of missing parameter
-				activeChar.sendMessage(374);
+				activeChar.sendMessage("Usage: //add_exp_sp exp sp");
 			}
 		}
 		else if (command.startsWith("admin_remove_exp_sp"))
@@ -66,11 +67,11 @@ public class AdminExpSp implements IAdminCommandHandler
 			{
 				String val = command.substring(19);
 				if (!adminRemoveExpSP(activeChar, val))
-					activeChar.sendMessage(415);
+					activeChar.sendMessage(1672);
 			}
 			catch (StringIndexOutOfBoundsException e)
 			{ //Case of missing parameter
-				activeChar.sendMessage(415);
+				activeChar.sendMessage("Usage: //remove_exp_sp exp sp");
 			}
 		}
 		addExpSp(activeChar);
@@ -139,19 +140,17 @@ public class AdminExpSp implements IAdminCommandHandler
 			if (expval != 0 || spval != 0)
 			{
 				//Common character information
-				L2CoreMessage cm =  new L2CoreMessage (MessageTable.Messages[31]);
+				L2CoreMessage cm = new L2CoreMessage (MessageTable.Messages[1673]);
 				cm.addNumber(expval);
 				cm.addNumber(spval);
-				cm.sendMessage(player);
-				
+				player.sendMessage(cm.renderMsg());
 				player.addExpAndSp(expval, spval);
 				//Admin information
-				cm =  new L2CoreMessage (MessageTable.Messages[24]);
+				cm = new L2CoreMessage (MessageTable.Messages[1674]);
 				cm.addNumber(expval);
 				cm.addNumber(spval);
 				cm.addString(player.getName());
-				cm.sendMessage(activeChar);
-				
+				activeChar.sendMessage(cm.renderMsg());
 				if (Config.DEBUG)
 					_log.fine("GM: " + activeChar.getName() + "(" + activeChar.getObjectId() + ") added " + expval + " xp and " + spval + " sp to " + player.getObjectId() + ".");
 			}
@@ -193,19 +192,17 @@ public class AdminExpSp implements IAdminCommandHandler
 			if (expval != 0 || spval != 0)
 			{
 				//Common character information
-				L2CoreMessage cm =  new L2CoreMessage (MessageTable.Messages[32]);
+				L2CoreMessage cm = new L2CoreMessage (MessageTable.Messages[1675]);
 				cm.addNumber(expval);
 				cm.addNumber(spval);
-				cm.sendMessage(player);
-				
+				player.sendMessage(cm.renderMsg());
 				player.removeExpAndSp(expval, spval);
 				//Admin information
-				cm =  new L2CoreMessage (MessageTable.Messages[253]);
+				cm = new L2CoreMessage (MessageTable.Messages[1676]);
 				cm.addNumber(expval);
 				cm.addNumber(spval);
 				cm.addString(player.getName());
-				cm.sendMessage(activeChar);
-				
+				activeChar.sendMessage(cm.renderMsg());
 				if (Config.DEBUG)
 					_log.fine("GM: " + activeChar.getName() + "(" + activeChar.getObjectId() + ") removed " + expval + " xp and " + spval + " sp from " + player.getObjectId() + ".");
 			}

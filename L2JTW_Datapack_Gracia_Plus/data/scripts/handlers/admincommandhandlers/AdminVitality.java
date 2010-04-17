@@ -18,11 +18,9 @@ import java.util.StringTokenizer;
 
 import com.l2jserver.Config;
 import com.l2jserver.gameserver.handler.IAdminCommandHandler;
-import com.l2jserver.gameserver.datatables.MessageTable;
-import com.l2jserver.gameserver.model.L2CoreMessage;
 import com.l2jserver.gameserver.model.actor.instance.L2PcInstance;
 import com.l2jserver.gameserver.model.actor.stat.PcStat;
-
+import com.l2jserver.gameserver.datatables.MessageTable;
 /** 
  * @author Psychokiller1888
  */
@@ -46,7 +44,7 @@ public class AdminVitality implements IAdminCommandHandler
 
 		if (!Config.ENABLE_VITALITY)
 		{
-			activeChar.sendMessage(475);
+			activeChar.sendMessage(1910);
 			return false;
 		}
 		
@@ -69,13 +67,11 @@ public class AdminVitality implements IAdminCommandHandler
 				}
 				catch (Exception e)
 				{
-					activeChar.sendMessage(501);
+					activeChar.sendMessage(1911);
 				}
 				
 				target.setVitalityPoints(vitality, true);
-				L2CoreMessage cm =  new L2CoreMessage (MessageTable.Messages[505]);
-				cm.addNumber(vitality);
-				cm.sendMessage(target);
+				target.sendMessage(MessageTable.Messages[1912].getMessage()  + vitality);
 			}
 			else if (cmd.equals("admin_set_vitality_level"))
 			{
@@ -85,7 +81,7 @@ public class AdminVitality implements IAdminCommandHandler
 				}
 				catch (Exception e)
 				{
-					activeChar.sendMessage(508);
+					activeChar.sendMessage(1913);
 				}
 
 				if (level >= 0 && level <= 4)
@@ -95,40 +91,34 @@ public class AdminVitality implements IAdminCommandHandler
 					else
 						vitality = PcStat.VITALITY_LEVELS[level-1]; 
 					target.setVitalityPoints(vitality, true);
-					L2CoreMessage cm =  new L2CoreMessage (MessageTable.Messages[514]);
-					cm.addNumber(level);
-					cm.sendMessage(target);
+					target.sendMessage(MessageTable.Messages[1914].getMessage()  + level);
 				}
 				else
-					activeChar.sendMessage(508);
+					activeChar.sendMessage(1913);
 			}
 			else if (cmd.equals("admin_full_vitality"))
 			{
 				target.setVitalityPoints(PcStat.MAX_VITALITY_POINTS, true);
-				target.sendMessage(700);
+				target.sendMessage(1915);
 			}
 			else if (cmd.equals("admin_empty_vitality"))
 			{
 				target.setVitalityPoints(PcStat.MIN_VITALITY_POINTS, true);
-				target.sendMessage(738);
+				target.sendMessage(1916);
 			}
 			else if (cmd.equals("admin_get_vitality"))
 			{
 				level = target.getVitalityLevel();
 				vitality = target.getVitalityPoints();
 				
-				L2CoreMessage cm =  new L2CoreMessage (MessageTable.Messages[742]);
-				cm.addNumber(level);
-				cm.sendMessage(activeChar);
-				L2CoreMessage cm2 =  new L2CoreMessage (MessageTable.Messages[743]);
-				cm2.addNumber(vitality);
-				cm2.sendMessage(activeChar);
+				activeChar.sendMessage(MessageTable.Messages[1917].getMessage()  + level);
+				activeChar.sendMessage(MessageTable.Messages[1918].getMessage()  + vitality);
 			}
 			return true;
 		}
 		else
 		{
-			activeChar.sendMessage(746);
+			activeChar.sendMessage(1919);
 			return false;
 		}
 	}

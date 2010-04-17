@@ -29,7 +29,6 @@ import com.l2jserver.gameserver.model.actor.instance.L2PcInstance;
 import com.l2jserver.gameserver.network.SystemMessageId;
 import com.l2jserver.gameserver.network.serverpackets.SystemMessage;
 import com.l2jserver.gameserver.datatables.MessageTable;
-import com.l2jserver.gameserver.model.L2CoreMessage;
 
 /**
  * This class handles following admin commands:
@@ -67,7 +66,7 @@ public class AdminMenu implements IAdminCommandHandler
 				String playerName = data[1];
 				L2PcInstance player = L2World.getInstance().getPlayer(playerName);
 				if (player != null)
-					teleportCharacter(player, Integer.parseInt(data[2]), Integer.parseInt(data[3]), Integer.parseInt(data[4]), activeChar, MessageTable.Messages[33].getMessage());
+					teleportCharacter(player, Integer.parseInt(data[2]), Integer.parseInt(data[3]), Integer.parseInt(data[4]), activeChar, MessageTable.Messages[1777].getMessage());
 			}
 			showMainPage(activeChar);
 		}
@@ -77,7 +76,7 @@ public class AdminMenu implements IAdminCommandHandler
 			{
 				String targetName = command.substring(23);
 				L2PcInstance player = L2World.getInstance().getPlayer(targetName);
-				teleportCharacter(player, activeChar.getX(), activeChar.getY(), activeChar.getZ(), activeChar, MessageTable.Messages[33].getMessage());
+				teleportCharacter(player, activeChar.getX(), activeChar.getY(), activeChar.getZ(), activeChar, MessageTable.Messages[1777].getMessage());
 			}
 			catch (StringIndexOutOfBoundsException e)
 			{
@@ -97,12 +96,12 @@ public class AdminMenu implements IAdminCommandHandler
 				}
 				if (!player.isInParty())
 				{
-					activeChar.sendMessage(239);
-					teleportCharacter(player, x, y, z, activeChar, MessageTable.Messages[33].getMessage());
+					activeChar.sendMessage(1778);
+					teleportCharacter(player, x, y, z, activeChar, MessageTable.Messages[1777].getMessage());
 					return true;
 				}
 				for (L2PcInstance pm : player.getParty().getPartyMembers())
-					teleportCharacter(pm, x, y, z, activeChar, MessageTable.Messages[688].getMessage());
+					teleportCharacter(pm, x, y, z, activeChar, MessageTable.Messages[1779].getMessage());
 			}
 			catch (Exception e)
 			{
@@ -123,13 +122,13 @@ public class AdminMenu implements IAdminCommandHandler
 				L2Clan clan = player.getClan();
 				if (clan == null)
 				{
-					activeChar.sendPacket(new SystemMessage(SystemMessageId.NOT_JOINED_IN_ANY_CLAN));
-					teleportCharacter(player, x, y, z, activeChar, MessageTable.Messages[33].getMessage());
+					activeChar.sendMessage(1780);
+					teleportCharacter(player, x, y, z, activeChar, MessageTable.Messages[1777].getMessage());
 					return true;
 				}
 				L2PcInstance[] members = clan.getOnlineMembers(0);
 				for (L2PcInstance member: members)
-					teleportCharacter(member, x, y, z, activeChar, MessageTable.Messages[689].getMessage());
+					teleportCharacter(member, x, y, z, activeChar, MessageTable.Messages[1781].getMessage());
 			}
 			catch (Exception e)
 			{
@@ -160,19 +159,15 @@ public class AdminMenu implements IAdminCommandHandler
 				st.nextToken();
 				String player = st.nextToken();
 				L2PcInstance plyr = L2World.getInstance().getPlayer(player);
+				String text;
 				if (plyr != null)
 				{
 					plyr.logout();
-					L2CoreMessage cm =  new L2CoreMessage (MessageTable.Messages[551]);
-					cm.addString(plyr.getName());
-					cm.sendMessage(activeChar);
+					text = MessageTable.Messages[1782].getExtra(1) + plyr.getName() + MessageTable.Messages[1782].getExtra(2);
 				}
 				else
-				{
-					L2CoreMessage cm =  new L2CoreMessage (MessageTable.Messages[690]);
-					cm.addString(player);
-					cm.sendMessage(activeChar);
-				}
+					text = MessageTable.Messages[1783].getExtra(1) + player + MessageTable.Messages[1783].getExtra(2);
+				activeChar.sendMessage(text);
 			}
 			showMainPage(activeChar);
 		}
@@ -184,7 +179,7 @@ public class AdminMenu implements IAdminCommandHandler
 				String subCommand = "admin_ban_char";
 				if (!AdminCommandAccessRights.getInstance().hasAccess(subCommand, activeChar.getAccessLevel()))
 				{
-					activeChar.sendPacket(new SystemMessage(SystemMessageId.YOU_ARE_NOT_AUTHORIZED_TO_DO_THAT));
+					activeChar.sendMessage(1784);
 					_log.warning("Character " + activeChar.getName() + " tryed to use admin command " + subCommand + ", but have no access to it!");
 					return false;
 				}
@@ -201,7 +196,7 @@ public class AdminMenu implements IAdminCommandHandler
 				String subCommand = "admin_unban_char";
 				if (!AdminCommandAccessRights.getInstance().hasAccess(subCommand, activeChar.getAccessLevel()))
 				{
-					activeChar.sendPacket(new SystemMessage(SystemMessageId.YOU_ARE_NOT_AUTHORIZED_TO_DO_THAT));
+					activeChar.sendMessage(1784);
 					_log.warning("Character " + activeChar.getName() + " tryed to use admin command " + subCommand + ", but have no access to it!");
 					return false;
 				}
@@ -233,9 +228,7 @@ public class AdminMenu implements IAdminCommandHandler
 			L2PcInstance plyr = L2World.getInstance().getPlayer(player);
 			if (plyr != null)
 				target = plyr;
-			L2CoreMessage cm =  new L2CoreMessage (MessageTable.Messages[552]);
-			cm.addString(plyr.getName());
-			cm.sendMessage(activeChar);
+			activeChar.sendMessage(MessageTable.Messages[1785].getExtra(1) + plyr.getName() + MessageTable.Messages[1785].getExtra(2));
 		}
 		if (target != null)
 		{
@@ -282,9 +275,7 @@ public class AdminMenu implements IAdminCommandHandler
 		{
 			activeChar.setInstanceId(player.getInstanceId());
 			activeChar.teleToLocation(player.getX(), player.getY(), player.getZ(), true);
-			L2CoreMessage cm =  new L2CoreMessage (MessageTable.Messages[605]);
-			cm.addString(player.getName());
-			cm.sendMessage(activeChar);
+			activeChar.sendMessage(MessageTable.Messages[1786].getExtra(1) + player.getName() + MessageTable.Messages[1786].getExtra(2));
 		}
 		showMainPage(activeChar);
 	}

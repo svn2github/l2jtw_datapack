@@ -23,7 +23,6 @@ import com.l2jserver.gameserver.model.actor.instance.L2PcInstance;
 import com.l2jserver.gameserver.network.SystemMessageId;
 import com.l2jserver.gameserver.network.serverpackets.SystemMessage;
 import com.l2jserver.gameserver.datatables.MessageTable;
-
 public class Time implements IUserCommandHandler
 {
 	private static final int[] COMMAND_IDS =
@@ -65,7 +64,7 @@ public class Time implements IUserCommandHandler
 		}
 		activeChar.sendPacket(sm);
 		if (Config.L2JMOD_DISPLAY_SERVER_TIME)
-			activeChar.sendMessage(MessageTable.Messages[475].getMessage() + fmt.format(new Date(System.currentTimeMillis())));
+			activeChar.sendMessage(MessageTable.Messages[1175].getMessage() + fmt.format(new Date(System.currentTimeMillis())));
 		return true;
 	}
 	

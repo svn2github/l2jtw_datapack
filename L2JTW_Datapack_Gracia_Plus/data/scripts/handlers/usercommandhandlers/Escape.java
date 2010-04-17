@@ -32,7 +32,6 @@ import com.l2jserver.gameserver.network.serverpackets.MagicSkillUse;
 import com.l2jserver.gameserver.network.serverpackets.SetupGauge;
 import com.l2jserver.gameserver.util.Broadcast;
 import com.l2jserver.gameserver.datatables.MessageTable;
-import com.l2jserver.gameserver.model.L2CoreMessage;
 
 /**
  *
@@ -64,20 +63,20 @@ public class Escape implements IUserCommandHandler
 		// Check to see if the player is in a festival.
 		if (activeChar.isFestivalParticipant())
 		{
-			activeChar.sendMessage(563);
+			activeChar.sendMessage(1162);
 			return false;
 		}
 		
 		// Check to see if player is in jail
 		if (activeChar.isInJail())
 		{
-			activeChar.sendMessage(469);
+			activeChar.sendMessage(1163);
 			return false;
 		}
 		
 		if (GrandBossManager.getInstance().getZone(activeChar) != null && !activeChar.isGM())
 		{
-			activeChar.sendMessage(562);
+			activeChar.sendMessage(1164);
 			return false;
 		}
 
@@ -89,7 +88,6 @@ public class Escape implements IUserCommandHandler
 		
 		L2Skill escape = SkillTable.getInstance().getInfo(2099, 1); // 5 minutes escape
 		L2Skill GM_escape = SkillTable.getInstance().getInfo(2100, 1); // 1 second escape
-		L2CoreMessage cm =  new L2CoreMessage (MessageTable.Messages[598]);
 		if (activeChar.getAccessLevel().isGm())
 		{
 			if (GM_escape != null)
@@ -97,8 +95,7 @@ public class Escape implements IUserCommandHandler
 				activeChar.doCast(GM_escape);
 				return true;
 			}
-			cm.addNumber(1);
-			activeChar.sendMessage(cm.renderMsg());
+			activeChar.sendMessage(1165);
 		}
 		else if (Config.UNSTUCK_INTERVAL == 300 && escape  != null)
 		{
@@ -109,16 +106,10 @@ public class Escape implements IUserCommandHandler
 		{
 			if (Config.UNSTUCK_INTERVAL > 100)
 			{
-				cm =  new L2CoreMessage (MessageTable.Messages[280]);
-				cm.addNumber(unstuckTimer / 60000);
-				activeChar.sendMessage(cm.renderMsg());
+				activeChar.sendMessage(MessageTable.Messages[1166].getExtra(1) + unstuckTimer / 60000 + MessageTable.Messages[1166].getExtra(2));
 			}
 			else
-			{
-				cm =  new L2CoreMessage (MessageTable.Messages[598]);
-				cm.addNumber(unstuckTimer / 1000);
-				activeChar.sendMessage(cm.renderMsg());
-			}
+				activeChar.sendMessage(MessageTable.Messages[1166].getExtra(1) + unstuckTimer / 1000 + MessageTable.Messages[1166].getExtra(3));
 		}
 		activeChar.getAI().setIntention(CtrlIntention.AI_INTENTION_IDLE);
 		//SoE Animation section

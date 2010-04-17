@@ -57,7 +57,7 @@ public class AdminGm implements IAdminCommandHandler
 		{
 			GmListTable.getInstance().deleteGm(activeChar);
 			activeChar.setAccessLevel(AccessLevels._userAccessLevelNum);
-			activeChar.sendMessage(585);
+			activeChar.sendMessage(1685);
 			
 			if (Config.DEBUG)
 				_log.fine("GM: " + activeChar.getName() + "(" + activeChar.getObjectId() + ") turned his GM status off");

@@ -52,7 +52,6 @@ public class ChannelDelete implements IUserCommandHandler
 				channel.disbandChannel();
 				return true;
 			}
-			activeChar.sendPacket(new SystemMessage(SystemMessageId.ONLY_PARTY_LEADER_CAN_LEAVE_CHANNEL));//Update by rocknow
 		}
 		
 		return false;

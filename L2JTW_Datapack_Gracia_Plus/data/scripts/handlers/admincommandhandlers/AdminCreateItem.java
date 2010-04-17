@@ -23,8 +23,6 @@ import com.l2jserver.gameserver.model.L2World;
 import com.l2jserver.gameserver.model.actor.instance.L2PcInstance;
 import com.l2jserver.gameserver.templates.item.L2Item;
 import com.l2jserver.gameserver.datatables.MessageTable;
-import com.l2jserver.gameserver.model.L2CoreMessage;
-
 
 /**
  * This class handles following admin commands:
@@ -73,11 +71,11 @@ public class AdminCreateItem implements IAdminCommandHandler
 			}
 			catch (StringIndexOutOfBoundsException e)
 			{
-				activeChar.sendMessage(397);
+				activeChar.sendMessage("Usage: //create_item <itemId> [amount]");
 			}
 			catch (NumberFormatException nfe)
 			{
-				activeChar.sendMessage(274);
+				activeChar.sendMessage("Specify a valid number.");
 			}
 			AdminHelpPage.showHelpPage(activeChar, "itemcreation.htm");
 		}
@@ -124,7 +122,7 @@ public class AdminCreateItem implements IAdminCommandHandler
 					target = (L2PcInstance) activeChar.getTarget();
 				else
 				{
-					activeChar.sendMessage(876);
+					activeChar.sendMessage(1482);
 					return false;
 				}
 
@@ -147,11 +145,11 @@ public class AdminCreateItem implements IAdminCommandHandler
 			}
 			catch (StringIndexOutOfBoundsException e)
 			{
-				activeChar.sendMessage(871);
+				activeChar.sendMessage("Usage: //give_item_target <itemId> [amount]");
 			}
 			catch (NumberFormatException nfe)
 			{
-				activeChar.sendMessage(274);
+				activeChar.sendMessage("Specify a valid number.");
 			}
 			AdminHelpPage.showHelpPage(activeChar, "itemcreation.htm");
 		}
@@ -178,12 +176,12 @@ public class AdminCreateItem implements IAdminCommandHandler
 			L2Item template = ItemTable.getInstance().getTemplate(idval);
 			if (template == null)
 			{
-				activeChar.sendMessage("This item doesn't exist.");
+				activeChar.sendMessage(1483);
 				return false;
 			}
 			if (numval > 10 && !template.isStackable())
 			{
-				activeChar.sendMessage("This item does not stack - Creation aborted.");
+				activeChar.sendMessage(1484);
 				return false;
 			}
 			Collection<L2PcInstance> pls = L2World.getInstance().getAllPlayers().values();
@@ -193,12 +191,12 @@ public class AdminCreateItem implements IAdminCommandHandler
 					if (activeChar != onlinePlayer && onlinePlayer.isOnline() == 1 && (onlinePlayer.getClient() != null && !onlinePlayer.getClient().isDetached()))
 					{
 						onlinePlayer.getInventory().addItem("Admin", idval, numval, onlinePlayer, activeChar);
-						onlinePlayer.sendMessage("Admin spawned "+numval+" "+template.getName()+" in your inventory.");
+						onlinePlayer.sendMessage(MessageTable.Messages[1485].getExtra(1)+numval+MessageTable.Messages[1485].getExtra(2)+template.getName()+MessageTable.Messages[1485].getExtra(3));
 						counter++;
 					}
 				}
 			}
-			activeChar.sendMessage(counter +" players rewarded with " + template.getName());
+			activeChar.sendMessage(counter +MessageTable.Messages[1488].getMessage() + template.getName());
 		}
 		return true;
 	}
@@ -213,50 +211,40 @@ public class AdminCreateItem implements IAdminCommandHandler
 		L2Item template = ItemTable.getInstance().getTemplate(id);
 		if (template == null)
 		{
-			activeChar.sendMessage(346);
+			activeChar.sendMessage(1483);
 			return;
 		}
 		if (num > 10 && !template.isStackable())
 		{
-			activeChar.sendMessage(345);
+			activeChar.sendMessage(1484);
 			return;
 		}
 		
 		target.getInventory().addItem("Admin", id, num, activeChar, null);
 
 		if (activeChar != target)
-		{
-			L2CoreMessage cm =  new L2CoreMessage (MessageTable.Messages[873]);
-			cm.addNumber(num);
-			cm.addString(template.getName());
-			cm.sendMessage(target);
-		}
-		L2CoreMessage cm =  new L2CoreMessage (MessageTable.Messages[875]);
-		cm.addNumber(num);
-		cm.addString(template.getName());
-		cm.addNumber(id);
-		cm.addString(target.getName());
-		cm.sendMessage(activeChar);
+			target.sendMessage(MessageTable.Messages[1485].getExtra(1) + num + MessageTable.Messages[1485].getExtra(2)+template.getName()+MessageTable.Messages[1485].getExtra(3));
+		activeChar.sendMessage(MessageTable.Messages[1486].getExtra(1) + num + MessageTable.Messages[1486].getExtra(2)+template.getName()+MessageTable.Messages[1486].getExtra(3) + id + MessageTable.Messages[1486].getExtra(4)+target.getName()+MessageTable.Messages[1486].getExtra(5));
 	}
 	
 	private int getCoinId(String name)
 	{
 		int id;
-		if (name.equalsIgnoreCase("金幣"))
+		if (name.equalsIgnoreCase(MessageTable.Messages[1487].getExtra(1)))
 			id = 57;
-		else if (name.equalsIgnoreCase("古代的金幣"))
+		else if (name.equalsIgnoreCase(MessageTable.Messages[1487].getExtra(2)))
 			id = 5575;
-		else if (name.equalsIgnoreCase("慶典金幣"))
+		else if (name.equalsIgnoreCase(MessageTable.Messages[1487].getExtra(3)))
 			id = 6673;
-		else if (name.equalsIgnoreCase("藍色伊娃"))
+		else if (name.equalsIgnoreCase(MessageTable.Messages[1487].getExtra(4)))
 			id = 4355;
-		else if (name.equalsIgnoreCase("金色殷海薩"))
+		else if (name.equalsIgnoreCase(MessageTable.Messages[1487].getExtra(5)))
 			id = 4356;
-		else if (name.equalsIgnoreCase("銀色席琳"))
+		else if (name.equalsIgnoreCase(MessageTable.Messages[1487].getExtra(6)))
 			id = 4357;
-		else if (name.equalsIgnoreCase("血紅色帕格立歐"))
+		else if (name.equalsIgnoreCase(MessageTable.Messages[1487].getExtra(7)))
 			id = 4358;
-		else if (name.equalsIgnoreCase("夢幻島代幣"))
+		else if (name.equalsIgnoreCase(MessageTable.Messages[1487].getExtra(8)))
 			id = 13067;
 		else id = 0;
 		

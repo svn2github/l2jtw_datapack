@@ -19,8 +19,6 @@ import com.l2jserver.gameserver.instancemanager.TransformationManager;
 import com.l2jserver.gameserver.model.actor.instance.L2PcInstance;
 import com.l2jserver.gameserver.network.SystemMessageId;
 import com.l2jserver.gameserver.network.serverpackets.SystemMessage;
-import com.l2jserver.gameserver.datatables.MessageTable;
-import com.l2jserver.gameserver.model.L2CoreMessage;
 
 /**
  * @author 
@@ -87,9 +85,7 @@ public class AdminRide implements IAdminCommandHandler
 			}
 			else
 			{
-				L2CoreMessage cm =  new L2CoreMessage (MessageTable.Messages[85]);
-				cm.addString(command);
-				cm.sendMessage(activeChar);
+				activeChar.sendMessage("Command '" + command + "' not recognized");
 				return false;
 			}
 			

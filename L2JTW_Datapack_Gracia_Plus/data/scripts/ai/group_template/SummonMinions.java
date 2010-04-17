@@ -30,7 +30,7 @@ public class SummonMinions extends L2AttackableAIScript
 {
 	private static int HasSpawned;
 	private static TIntHashSet myTrackingSet = new TIntHashSet(); //Used to track instances of npcs
-	private FastMap<Integer, FastList<L2PcInstance>> _attackersList = new FastMap<Integer, FastList<L2PcInstance>>().setShared(true);
+	private FastMap<Integer, FastList<L2PcInstance>> _attackersList = new FastMap<Integer, FastList<L2PcInstance>>().shared();
 	private static final TIntObjectHashMap<int[]> MINIONS = new TIntObjectHashMap<int[]>();
 	
 	static
@@ -53,12 +53,13 @@ public class SummonMinions extends L2AttackableAIScript
             MINIONS.put(22265,new int[]{18366,18366}); //Chrysocolla
             MINIONS.put(22266,new int[]{18366,18366}); //Pythia
     }
+	
 	private static String[] text =
 	{
-        "各位！出來吧！",
-        "兄弟們啊，消滅敵人吧！",
-        "黑暗的軍勢啊，跟隨我吧！",
-        "出來！黑暗的孩子們！"
+		"各位！出來吧！",
+		"兄弟們啊，消滅敵人吧！",
+		"黑暗的軍勢啊，跟隨我吧！",
+		 "出來！黑暗的孩子們！"
 	};
 	
 	public SummonMinions(int questId, String name, String descr)
@@ -124,7 +125,7 @@ public class SummonMinions extends L2AttackableAIScript
 					case 22266:
 					{
 						if (isPet)
-							attacker = ((L2PcInstance)attacker).getPet().getOwner();
+							attacker = (attacker).getPet().getOwner();
 						if (attacker.getParty() != null)
 						{
 							for (L2PcInstance member : attacker.getParty().getPartyMembers())
@@ -150,7 +151,7 @@ public class SummonMinions extends L2AttackableAIScript
 							else if (!_attackersList.get(npcObjId).contains(attacker))
 								_attackersList.get(npcObjId).add(attacker);
 						}
-						if (attacker != null && ((attacker.getParty() != null && attacker.getParty().getMemberCount() > 2)||_attackersList.get(npcObjId).size() > 2)) //Just to make sure..
+						if ((attacker.getParty() != null && attacker.getParty().getMemberCount() > 2)||_attackersList.get(npcObjId).size() > 2) //Just to make sure..
 						{
 							HasSpawned = 0;
 							for (int val : MINIONS.get(npcId))

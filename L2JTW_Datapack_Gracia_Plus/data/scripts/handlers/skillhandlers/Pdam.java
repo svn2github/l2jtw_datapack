@@ -94,16 +94,16 @@ public class Pdam implements ISkillHandler
 				damage = 0;
 			else
 				damage = (int) Formulas.calcPhysDam(activeChar, target, skill, shld, false, dual, soul);
-			
-            if (skill.getSkillType() == L2SkillType.DEATHLINK_PDAM || skill.getSkillType() == L2SkillType.FATAL)   
-            {   
-                 double cur = 2*activeChar.getCurrentHp();   
-                 double max = activeChar.getMaxHp();   
-                 if (cur<max)   
-                      damage *= Math.sqrt(max/cur);   
-                 else damage *= Math.pow(max/cur, 4);   
-            }
-            
+
+			if (skill.getSkillType() == L2SkillType.DEATHLINK_PDAM || skill.getSkillType() == L2SkillType.FATAL)
+			{
+				double cur = 2*activeChar.getCurrentHp();
+				double max = activeChar.getMaxHp();
+				if (cur<max)
+					 damage *= Math.sqrt(max/cur);
+				else damage *= Math.pow(max/cur, 4);
+			}
+
 			if (skill.getMaxSoulConsumeCount() > 0 && activeChar instanceof L2PcInstance)
 			{
 				switch (((L2PcInstance) activeChar).getSouls())

@@ -61,7 +61,7 @@ public class Fishing implements ISkillHandler
 		 */
 		if (!Config.ALLOWFISHING && !player.isGM())
 		{
-			player.sendMessage(121);
+			player.sendMessage(1141);
 			return;
 		}
 		if (player.isFishing())

@@ -25,7 +25,7 @@ import com.l2jserver.gameserver.model.actor.instance.L2PcInstance;
 import com.l2jserver.gameserver.model.base.ClassId;
 import com.l2jserver.gameserver.network.serverpackets.ActionFailed;
 import com.l2jserver.gameserver.network.serverpackets.NpcHtmlMessage;
-
+import com.l2jserver.gameserver.datatables.MessageTable;
 public class SkillList implements IBypassHandler
 {
 	private static final String[] COMMANDS =
@@ -65,16 +65,16 @@ public class SkillList implements IBypassHandler
 						}
 					}
 
-					String text = "<html><body><center>Skill learning:</center><br>";
+					String text = "<html><body><center>"+MessageTable.Messages[1061].getMessage()+"</center><br>";
 
 					if (!own_class)
 					{
-						String charType = activeChar.getClassId().isMage() ? "fighter" : "mage";
+						String charType = activeChar.getClassId().isMage() ? MessageTable.Messages[1062].getMessage() : MessageTable.Messages[1063].getMessage();
 						text +=
-							"Skills of your class are the easiest to learn.<br>"+
-							"Skills of another class of your race are a little harder.<br>"+
-							"Skills for classes of another race are extremely difficult.<br>"+
-							"But the hardest of all to learn are the  "+ charType +"skills!<br>";
+							MessageTable.Messages[1064].getMessage()+"<br>"+
+							MessageTable.Messages[1065].getMessage()+"<br>"+
+							MessageTable.Messages[1066].getMessage()+"<br>"+
+							MessageTable.Messages[1067].getMessage()+ charType +MessageTable.Messages[1068].getMessage()+"<br>";
 					}
 
 					// make a list of classes
@@ -93,7 +93,7 @@ public class SkillList implements IBypassHandler
 								if (SkillTreeTable.getInstance().getAvailableSkills(activeChar, cid).length == 0)
 									continue;
 
-								text += "<a action=\"bypass -h npc_%objectId%_SkillList "+cid.getId()+"\">Learn "+cid+"'s class Skills</a><br>\n";
+								text += "<a action=\"bypass -h npc_%objectId%_SkillList "+cid.getId()+"\">"+MessageTable.Messages[1069].getExtra(1)+cid+MessageTable.Messages[1069].getExtra(2)+"</a><br>\n";
 								count++;
 							}
 							classCheck = classCheck.getParent();
@@ -101,7 +101,7 @@ public class SkillList implements IBypassHandler
 						classCheck = null;
 					}
 					else
-						text += "No Skills.<br>";
+						text += MessageTable.Messages[1070].getMessage()+"<br>";
 
 					text += "</body></html>";
 

@@ -61,7 +61,7 @@ public class PaganKeys implements IItemHandler
 		}
 		if (activeChar.getAbnormalEffect() > 0 || activeChar.isInCombat())
 		{
-			activeChar.sendMessage(500);
+			activeChar.sendMessage(1123);
 			activeChar.sendPacket(ActionFailed.STATIC_PACKET);
 			return;
 		}
@@ -89,7 +89,7 @@ public class PaganKeys implements IItemHandler
 				}
 				else
 				{
-					activeChar.sendMessage(148);
+					activeChar.sendMessage(1124);
 				}
 				break;
 			case 9699:
@@ -110,7 +110,7 @@ public class PaganKeys implements IItemHandler
 				}
 				else
 				{
-					activeChar.sendMessage(148);
+					activeChar.sendMessage(1124);
 				}
 				break;
 			case 8056:
@@ -123,7 +123,7 @@ public class PaganKeys implements IItemHandler
 				}
 				else
 				{
-					activeChar.sendMessage(148);
+					activeChar.sendMessage(1124);
 				}
 				break;
 		}

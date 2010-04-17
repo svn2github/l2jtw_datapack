@@ -24,7 +24,7 @@ import com.l2jserver.gameserver.model.actor.instance.L2PcInstance;
 import com.l2jserver.gameserver.model.actor.instance.L2StaticObjectInstance;
 import com.l2jserver.gameserver.network.serverpackets.MyTargetSelected;
 import com.l2jserver.gameserver.network.serverpackets.NpcHtmlMessage;
-
+import com.l2jserver.gameserver.datatables.MessageTable;
 public class L2StaticObjectInstanceAction implements IActionHandler
 {
 	public boolean action(L2PcInstance activeChar, L2Character target, boolean interact)
@@ -58,7 +58,7 @@ public class L2StaticObjectInstanceAction implements IActionHandler
 					NpcHtmlMessage html = new NpcHtmlMessage(target.getObjectId());
 
 					if (content == null)
-						html.setHtml("<html><body>Signboard is missing:<br>"+filename+"</body></html>");
+						html.setHtml("<html><body>"+MessageTable.Messages[1355].getMessage()+"<br>"+filename+"</body></html>");
 					else
 						html.setHtml(content);
 

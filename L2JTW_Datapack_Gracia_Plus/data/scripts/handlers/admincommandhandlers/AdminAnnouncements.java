@@ -30,7 +30,7 @@ import com.l2jserver.gameserver.network.serverpackets.NpcHtmlMessage;
 import com.l2jserver.gameserver.taskmanager.AutoAnnounceTaskManager;
 import com.l2jserver.gameserver.taskmanager.AutoAnnounceTaskManager.AutoAnnouncement;
 import com.l2jserver.util.StringUtil;
-
+import com.l2jserver.gameserver.datatables.MessageTable;
 
 /**
  * This class handles following admin commands:
@@ -134,7 +134,7 @@ public class AdminAnnouncements implements IAdminCommandHandler
 		else if (command.startsWith("admin_reload_autoann"))
 		{
 			AutoAnnounceTaskManager.getInstance().restore();
-			activeChar.sendMessage(558);
+			activeChar.sendMessage(1420);
 			listAutoAnnouncements(activeChar);
 		}
 		else if (command.startsWith("admin_add_autoann"))
@@ -144,25 +144,25 @@ public class AdminAnnouncements implements IAdminCommandHandler
 			
 			if (!st.hasMoreTokens())
 			{
-				activeChar.sendMessage(748);
+				activeChar.sendMessage(1421);
 				return false;
 			}
 			long initial = Long.parseLong(st.nextToken());
 			if (!st.hasMoreTokens())
 			{
-				activeChar.sendMessage(748);
+				activeChar.sendMessage(1421);
 				return false;
 			}
 			long delay = Long.parseLong(st.nextToken());
 			if (!st.hasMoreTokens())
 			{
-				activeChar.sendMessage(748);
+				activeChar.sendMessage(1421);
 				return false;
 			}
 			int repeat = Integer.parseInt(st.nextToken());
 			if (!st.hasMoreTokens())
 			{
-				activeChar.sendMessage(748);
+				activeChar.sendMessage(1421);
 				return false;
 			}
 			TextBuilder memo = new TextBuilder();
@@ -183,7 +183,7 @@ public class AdminAnnouncements implements IAdminCommandHandler
 			
 			if (!st.hasMoreTokens())
 			{
-				activeChar.sendMessage(757);
+				activeChar.sendMessage(1422);
 				return false;
 			}
 			
@@ -212,7 +212,7 @@ public class AdminAnnouncements implements IAdminCommandHandler
 			}
 			replyMSG.append("<table width=260><tr><td width=220>");
 			replyMSG.append(memo2.toString().trim());
-			replyMSG.append("</td><td width=40><button value=\"Delete\" action=\"bypass -h admin_del_autoann ");
+			replyMSG.append("</td><td width=40><button value=\""+MessageTable.Messages[1423].getMessage()+"\" action=\"bypass -h admin_del_autoann ");
 			replyMSG.append(i); 
 			replyMSG.append("\" width=60 height=15 back=\"L2UI_ct1.button_df\" fore=\"L2UI_ct1.button_df\"></td></tr></table>");
 		}

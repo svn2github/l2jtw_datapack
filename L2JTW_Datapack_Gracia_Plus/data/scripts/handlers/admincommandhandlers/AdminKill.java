@@ -27,7 +27,6 @@ import com.l2jserver.gameserver.model.actor.instance.L2PcInstance;
 import com.l2jserver.gameserver.network.SystemMessageId;
 import com.l2jserver.gameserver.network.serverpackets.SystemMessage;
 import com.l2jserver.gameserver.datatables.MessageTable;
-import com.l2jserver.gameserver.model.L2CoreMessage;
 
 /**
  * This class handles following admin commands:
@@ -74,14 +73,12 @@ public class AdminKill implements IAdminCommandHandler
 								kill(activeChar, knownChar);
 							}
 							
-							L2CoreMessage cm =  new L2CoreMessage (MessageTable.Messages[175]);
-							cm.addNumber(radius);
-							cm.sendMessage(activeChar);
+							activeChar.sendMessage(MessageTable.Messages[1725].getExtra(1) + radius + MessageTable.Messages[1725].getExtra(2));
 							return true;
 						}
 						catch (NumberFormatException e)
 						{
-							activeChar.sendMessage(166);
+							activeChar.sendMessage("Invalid radius.");
 							return false;
 						}
 					}
@@ -103,14 +100,12 @@ public class AdminKill implements IAdminCommandHandler
 							kill(activeChar, knownChar);
 						}
 						
-						L2CoreMessage cm =  new L2CoreMessage (MessageTable.Messages[175]);
-						cm.addNumber(radius);
-						cm.sendMessage(activeChar);
+						activeChar.sendMessage(MessageTable.Messages[1725].getExtra(1) + radius + MessageTable.Messages[1725].getExtra(2));
 						return true;
 					}
 					catch (NumberFormatException e)
 					{
-						activeChar.sendMessage(399);
+						activeChar.sendMessage("Usage: //kill <player_name | radius>");
 						return false;
 					}
 				}

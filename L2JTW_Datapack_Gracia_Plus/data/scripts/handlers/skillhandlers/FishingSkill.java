@@ -27,8 +27,6 @@ import com.l2jserver.gameserver.network.serverpackets.SystemMessage;
 import com.l2jserver.gameserver.templates.item.L2Weapon;
 import com.l2jserver.gameserver.templates.skills.L2SkillType;
 import com.l2jserver.gameserver.datatables.MessageTable;
-import com.l2jserver.gameserver.model.L2CoreMessage;
-
 public class FishingSkill implements ISkillHandler
 {
 	private static final L2SkillType[] SKILL_IDS =
@@ -70,7 +68,7 @@ public class FishingSkill implements ISkillHandler
 			return;
 		int SS = 1;
 		int pen = 0;
-		if (weaponInst != null && weaponInst.getChargedFishshot())
+		if (weaponInst.getChargedFishshot())
 			SS = 2;
 		double gradebonus = 1 + weaponItem.getCrystalType() * 0.1;
 		int dmg = (int) (skill.getPower() * gradebonus * SS);
@@ -80,11 +78,7 @@ public class FishingSkill implements ISkillHandler
 			pen = 50;
 			int penatlydmg = dmg - pen;
 			if (player.isGM())
-			{
-				L2CoreMessage cm =  new L2CoreMessage (MessageTable.Messages[103]);
-				cm.addNumber(dmg);
-				player.sendMessage(cm.renderMsg());
-			}
+				player.sendMessage(MessageTable.Messages[1145].getMessage() + dmg);
 			dmg = penatlydmg;
 		}
 		if (SS > 1)

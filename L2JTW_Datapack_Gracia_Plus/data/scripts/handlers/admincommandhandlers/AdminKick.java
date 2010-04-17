@@ -21,7 +21,6 @@ import com.l2jserver.gameserver.handler.IAdminCommandHandler;
 import com.l2jserver.gameserver.model.L2World;
 import com.l2jserver.gameserver.model.actor.instance.L2PcInstance;
 import com.l2jserver.gameserver.datatables.MessageTable;
-import com.l2jserver.gameserver.model.L2CoreMessage;
 
 public class AdminKick implements IAdminCommandHandler
 {
@@ -44,9 +43,7 @@ public class AdminKick implements IAdminCommandHandler
 				if (plyr != null)
 				{
 					plyr.logout();
-					L2CoreMessage cm =  new L2CoreMessage (MessageTable.Messages[551]);
-					cm.addString(plyr.getName());
-					cm.sendMessage(activeChar);
+					activeChar.sendMessage(MessageTable.Messages[1721].getExtra(1) + plyr.getName() + MessageTable.Messages[1721].getExtra(2));
 				}
 			}
 		}
@@ -63,9 +60,7 @@ public class AdminKick implements IAdminCommandHandler
 						player.logout();
 					}
 			}
-			L2CoreMessage cm =  new L2CoreMessage (MessageTable.Messages[174]);
-			cm.addNumber(counter);
-			cm.sendMessage(activeChar);
+			activeChar.sendMessage(MessageTable.Messages[1722].getExtra(1) + counter + MessageTable.Messages[1722].getExtra(2));
 		}
 		return true;
 	}

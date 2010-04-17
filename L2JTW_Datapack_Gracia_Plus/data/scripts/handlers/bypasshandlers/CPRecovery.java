@@ -42,7 +42,7 @@ public class CPRecovery implements IBypassHandler
 
 		if (activeChar.isCursedWeaponEquipped())
 		{
-			activeChar.sendMessage("Go away, you're not welcome here.");
+			activeChar.sendMessage(1000);
 			activeChar.sendPacket(ActionFailed.STATIC_PACKET);
 			return true;
 		}

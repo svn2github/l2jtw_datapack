@@ -21,8 +21,6 @@ import com.l2jserver.gameserver.model.actor.instance.L2PcInstance;
 import com.l2jserver.gameserver.model.entity.TvTEvent;
 import com.l2jserver.gameserver.model.entity.TvTEventTeleporter;
 import com.l2jserver.gameserver.model.entity.TvTManager;
-import com.l2jserver.gameserver.network.SystemMessageId;
-import com.l2jserver.gameserver.network.serverpackets.SystemMessage;
 
 /**
  * @author FBIagent
@@ -44,7 +42,7 @@ public class AdminTvTEvent implements IAdminCommandHandler
 			
 			if (!(target instanceof L2PcInstance))
 			{
-				activeChar.sendPacket(new SystemMessage(SystemMessageId.YOU_MUST_SELECT_A_TARGET));
+				activeChar.sendMessage(1901);
 				return true;
 			}
 			
@@ -56,7 +54,7 @@ public class AdminTvTEvent implements IAdminCommandHandler
 			
 			if (!(target instanceof L2PcInstance))
 			{
-				activeChar.sendPacket(new SystemMessage(SystemMessageId.YOU_MUST_SELECT_A_TARGET));
+				activeChar.sendMessage(1901);
 				return true;
 			}
 			
@@ -79,13 +77,13 @@ public class AdminTvTEvent implements IAdminCommandHandler
 	{
 		if (TvTEvent.isPlayerParticipant(playerInstance.getObjectId()))
 		{
-			activeChar.sendMessage(233);
+			activeChar.sendMessage(1902);
 			return;
 		}
 		
 		if (!TvTEvent.addParticipant(playerInstance))
 		{
-			activeChar.sendMessage(234);
+			activeChar.sendMessage(1903);
 			return;
 		}
 		
@@ -99,7 +97,7 @@ public class AdminTvTEvent implements IAdminCommandHandler
 	{
 		if (!TvTEvent.removeParticipant(playerInstance.getObjectId()))
 		{
-			activeChar.sendMessage(240);
+			activeChar.sendMessage(1904);
 			return;
 		}
 		

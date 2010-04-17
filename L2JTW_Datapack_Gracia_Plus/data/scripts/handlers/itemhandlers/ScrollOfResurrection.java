@@ -24,8 +24,6 @@ import com.l2jserver.gameserver.model.actor.L2Playable;
 import com.l2jserver.gameserver.model.actor.instance.L2PcInstance;
 import com.l2jserver.gameserver.model.actor.instance.L2PetInstance;
 import com.l2jserver.gameserver.model.entity.Castle;
-import com.l2jserver.gameserver.model.entity.Fort;//Update by rocknow
-import com.l2jserver.gameserver.instancemanager.FortManager;//Update by rocknow
 import com.l2jserver.gameserver.network.SystemMessageId;
 import com.l2jserver.gameserver.network.serverpackets.SystemMessage;
 
@@ -58,7 +56,6 @@ public class ScrollOfResurrection implements IItemHandler
 		int itemId = item.getItemId();
 		//boolean blessedScroll = (itemId != 737);
 		boolean petScroll = (itemId == 6387);
-		boolean Battleground = (itemId == 10150);//Update by rocknow
 		
 		// SoR Animation section
 		L2Character target = (L2Character) activeChar.getTarget();
@@ -78,42 +75,20 @@ public class ScrollOfResurrection implements IItemHandler
 			if (targetPlayer != null || targetPet != null)
 			{
 				boolean condGood = true;
-				//Update by rocknow-Start
-				//check target is not in a active castle siege zone
+				
+				//check target is not in a active siege zone
 				Castle castle = null;
 				
 				if (targetPlayer != null)
 					castle = CastleManager.getInstance().getCastle(targetPlayer.getX(), targetPlayer.getY(), targetPlayer.getZ());
 				else
 					castle = CastleManager.getInstance().getCastle(targetPet.getOwner().getX(), targetPet.getOwner().getY(), targetPet.getOwner().getZ());
-	
-				// check target is not in a active fort siege zone
-				Fort fort = null;
-				if (targetPlayer != null)
-					fort = FortManager.getInstance().getFort(targetPlayer.getX(), targetPlayer.getY(), targetPlayer.getZ());
-				else
-					fort = FortManager.getInstance().getFort(targetPet.getOwner().getX(), targetPet.getOwner().getY(), targetPet.getOwner().getZ());
 				
-				// Check scrolls on Siege
-				if ((castle != null && castle.getSiege().getIsInProgress()) || (fort != null && fort.getSiege().getIsInProgress()))
-				{
-					if(!Battleground)
+				if (castle != null && castle.getSiege().getIsInProgress())
 				{
 					condGood = false;
 					activeChar.sendPacket(new SystemMessage(SystemMessageId.CANNOT_BE_RESURRECTED_DURING_SIEGE));
 				}
-				}
-				else
-				{
-					if(Battleground)
-					{
-						condGood = false;
-						SystemMessage sm = new SystemMessage(SystemMessageId.S1_CANNOT_BE_USED);
-						sm.addItemName(item);
-						activeChar.sendPacket(sm);
-					}
-				}
-				//Update by rocknow-End
 				
 				if (targetPet != null)
 				{
@@ -134,7 +109,7 @@ public class ScrollOfResurrection implements IItemHandler
 					if (targetPlayer.isFestivalParticipant()) // Check to see if the current player target is in a festival.
 					{
 						condGood = false;
-						activeChar.sendMessage(560);
+						activeChar.sendMessage(1128);
 					}
 					if (targetPlayer.isReviveRequested())
 					{
@@ -147,7 +122,7 @@ public class ScrollOfResurrection implements IItemHandler
 					else if (petScroll)
 					{
 						condGood = false;
-						activeChar.sendMessage(509);
+						activeChar.sendMessage(1129);
 					}
 				}
 				

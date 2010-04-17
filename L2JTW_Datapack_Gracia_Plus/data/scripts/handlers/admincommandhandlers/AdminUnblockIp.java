@@ -19,7 +19,6 @@ import java.util.logging.Logger;
 import com.l2jserver.gameserver.handler.IAdminCommandHandler;
 import com.l2jserver.gameserver.model.actor.instance.L2PcInstance;
 import com.l2jserver.gameserver.datatables.MessageTable;
-import com.l2jserver.gameserver.model.L2CoreMessage;
 
 /**
  * This class handles following admin commands:
@@ -53,15 +52,13 @@ public class AdminUnblockIp implements IAdminCommandHandler
 				String ipAddress = command.substring(16);
 				if (unblockIp(ipAddress, activeChar))
 				{
-					L2CoreMessage cm =  new L2CoreMessage (MessageTable.Messages[254]);
-					cm.addString(ipAddress);
-					cm.sendMessage(activeChar);
+					activeChar.sendMessage(MessageTable.Messages[1907].getExtra(1) + ipAddress + MessageTable.Messages[1907].getExtra(2));
 				}
 			}
 			catch (StringIndexOutOfBoundsException e)
 			{
 				// Send syntax to the user
-				activeChar.sendMessage(368);
+				activeChar.sendMessage("Usage mode: //unblockip <ip>");
 			}
 		}
 		

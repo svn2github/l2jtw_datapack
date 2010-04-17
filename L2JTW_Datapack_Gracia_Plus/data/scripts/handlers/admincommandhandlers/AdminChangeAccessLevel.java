@@ -26,7 +26,6 @@ import com.l2jserver.gameserver.model.actor.instance.L2PcInstance;
 import com.l2jserver.gameserver.network.SystemMessageId;
 import com.l2jserver.gameserver.network.serverpackets.SystemMessage;
 import com.l2jserver.gameserver.datatables.MessageTable;
-import com.l2jserver.gameserver.model.L2CoreMessage;
 
 /**
  * This class handles following admin commands:
@@ -76,7 +75,7 @@ public class AdminChangeAccessLevel implements IAdminCommandHandler
 			}
 			catch (Exception e)
 			{
-				activeChar.sendMessage(384);
+				activeChar.sendMessage("Usage: //changelvl <target_new_level> | <player_name> <new_level>");
 			}
 		}
 		else if (parts.length == 3)
@@ -99,17 +98,13 @@ public class AdminChangeAccessLevel implements IAdminCommandHandler
 					int count = statement.getUpdateCount();
 					statement.close();
 					if (count == 0)
-						activeChar.sendMessage(77);
+						activeChar.sendMessage(1473);
 					else
-						{
-							L2CoreMessage cm =  new L2CoreMessage (MessageTable.Messages[79]);
-							cm.addNumber(lvl);
-							cm.sendMessage(activeChar);
-						}
+						activeChar.sendMessage(MessageTable.Messages[1474].getMessage() + lvl);
 				}
 				catch (SQLException se)
 				{
-					activeChar.sendMessage(266);
+					activeChar.sendMessage("SQLException while changing character's access level");
 					if (Config.DEBUG)
 						se.printStackTrace();
 				}
@@ -136,18 +131,12 @@ public class AdminChangeAccessLevel implements IAdminCommandHandler
 	{
 		player.setAccessLevel(lvl);
 		if (lvl >= 0)
-		{
-			L2CoreMessage cm =  new L2CoreMessage (MessageTable.Messages[610]);
-			cm.addNumber(lvl);
-			cm.sendMessage(player);
-		}
+			player.sendMessage(MessageTable.Messages[1475].getMessage() + lvl);
 		else
 		{
-			player.sendMessage(612);
+			player.sendMessage(1476);
 			player.logout();
 		}
-		L2CoreMessage cm =  new L2CoreMessage (MessageTable.Messages[79]);
-		cm.addNumber(lvl);
-		cm.sendMessage(activeChar);
+		activeChar.sendMessage(MessageTable.Messages[1477].getMessage() + lvl + MessageTable.Messages[1478].getMessage());
 	}
 }

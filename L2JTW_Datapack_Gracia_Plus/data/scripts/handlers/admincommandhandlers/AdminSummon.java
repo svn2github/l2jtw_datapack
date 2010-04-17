@@ -20,8 +20,7 @@ import com.l2jserver.gameserver.datatables.AdminCommandAccessRights;
 import com.l2jserver.gameserver.handler.AdminCommandHandler;
 import com.l2jserver.gameserver.handler.IAdminCommandHandler;
 import com.l2jserver.gameserver.model.actor.instance.L2PcInstance;
-import com.l2jserver.gameserver.network.SystemMessageId;
-import com.l2jserver.gameserver.network.serverpackets.SystemMessage;
+
 
 /**
  *
@@ -62,7 +61,7 @@ public class AdminSummon implements IAdminCommandHandler
 		}
 		catch (NumberFormatException nfe)
 		{
-			activeChar.sendMessage(238);
+			activeChar.sendMessage("Incorrect format for command 'summon'");
 			return false;
 		}
 		
@@ -72,7 +71,7 @@ public class AdminSummon implements IAdminCommandHandler
 			subCommand = "admin_create_item";
 			if (!AdminCommandAccessRights.getInstance().hasAccess(subCommand, activeChar.getAccessLevel()))
 			{
-				activeChar.sendPacket(new SystemMessage(SystemMessageId.YOU_ARE_NOT_AUTHORIZED_TO_DO_THAT));
+				activeChar.sendMessage(1871);
 				_log.warning("Character " + activeChar.getName() + " tryed to use admin command " + subCommand + ", but have no access to it!");
 				return false;
 			}
@@ -84,13 +83,13 @@ public class AdminSummon implements IAdminCommandHandler
 			subCommand = "admin_spawn_once";
 			if (!AdminCommandAccessRights.getInstance().hasAccess(subCommand, activeChar.getAccessLevel()))
 			{
-				activeChar.sendPacket(new SystemMessage(SystemMessageId.YOU_ARE_NOT_AUTHORIZED_TO_DO_THAT));
+				activeChar.sendMessage(1871);
 				_log.warning("Character " + activeChar.getName() + " tryed to use admin command " + subCommand + ", but have no access to it!");
 				return false;
 			}
 			IAdminCommandHandler ach = AdminCommandHandler.getInstance().getAdminCommandHandler(subCommand);
 			
-			activeChar.sendMessage(255);
+			activeChar.sendMessage(1872);
 			id -= 1000000;
 			ach.useAdminCommand(subCommand + " " + id + " " + count, activeChar);
 		}

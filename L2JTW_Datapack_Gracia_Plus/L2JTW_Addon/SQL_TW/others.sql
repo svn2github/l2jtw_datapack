@@ -1,59 +1,19 @@
 /********** Made in Taiwan **********/
 
 /***** 貳幕-聖翼使命 2010.3.23 *****/
-/***** castlename-tw *****/ 
-/***** auction.sql *****/
-UPDATE `auction` SET `itemName` = '古魯丁城鎮月長石廳' WHERE `itemId` = 22;
-UPDATE `auction` SET `itemName` = '古魯丁城鎮瑪瑙廳' WHERE `itemId` = 23;
-UPDATE `auction` SET `itemName` = '古魯丁城鎮黃玉廳' WHERE `itemId` = 24;
-UPDATE `auction` SET `itemName` = '古魯丁城鎮紅寶石廳' WHERE `itemId` = 25;
-UPDATE `auction` SET `itemName` = '古魯丁村莊水晶廳' WHERE `itemId` = 26;
-UPDATE `auction` SET `itemName` = '古魯丁村莊瑪瑙廳' WHERE `itemId` = 27;
-UPDATE `auction` SET `itemName` = '古魯丁村莊藍寶石廳' WHERE `itemId` = 28;
-UPDATE `auction` SET `itemName` = '古魯丁村莊月長石廳' WHERE `itemId` = 29;
-UPDATE `auction` SET `itemName` = '古魯丁村莊綠寶石廳' WHERE `itemId` = 30;
-UPDATE `auction` SET `itemName` = '狄恩黑之公館' WHERE `itemId` = 31;
-UPDATE `auction` SET `itemName` = '狄恩紅之公館' WHERE `itemId` = 32;
-UPDATE `auction` SET `itemName` = '狄恩綠之公館' WHERE `itemId` = 33;
-UPDATE `auction` SET `itemName` = '亞丁黃金接待室' WHERE `itemId` = 36;
-UPDATE `auction` SET `itemName` = '亞丁白銀接待室' WHERE `itemId` = 37;
-UPDATE `auction` SET `itemName` = '亞丁米索莉接待室' WHERE `itemId` = 38;
-UPDATE `auction` SET `itemName` = '亞丁銀色小屋' WHERE `itemId` = 39;
-UPDATE `auction` SET `itemName` = '亞丁金色小屋' WHERE `itemId` = 40;
-UPDATE `auction` SET `itemName` = '亞丁青銅接待室' WHERE `itemId` = 41;
-UPDATE `auction` SET `itemName` = '奇岩黃金接待室' WHERE `itemId` = 42;
-UPDATE `auction` SET `itemName` = '奇岩白銀接待室' WHERE `itemId` = 43;
-UPDATE `auction` SET `itemName` = '奇岩米索莉接待室' WHERE `itemId` = 44;
-UPDATE `auction` SET `itemName` = '奇岩青銅接待室' WHERE `itemId` = 45;
-UPDATE `auction` SET `itemName` = '奇岩銀色小屋' WHERE `itemId` = 46;
-UPDATE `auction` SET `itemName` = '高達特月長石廳' WHERE `itemId` = 47;
-UPDATE `auction` SET `itemName` = '高達特瑪瑙廳' WHERE `itemId` = 48;
-UPDATE `auction` SET `itemName` = '高達特綠寶石廳' WHERE `itemId` = 49;
-UPDATE `auction` SET `itemName` = '高達特藍寶石廳' WHERE `itemId` = 50;
-UPDATE `auction` SET `itemName` = '魯因蒙特接待室' WHERE `itemId` = 51;
-UPDATE `auction` SET `itemName` = '魯因修特倫接待室' WHERE `itemId` = 52;
-UPDATE `auction` SET `itemName` = '魯因維納斯接待室' WHERE `itemId` = 53;
-UPDATE `auction` SET `itemName` = '魯因瑪爾斯接待室' WHERE `itemId` = 54;
-UPDATE `auction` SET `itemName` = '魯因雅蒂斯接待室' WHERE `itemId` = 55;
-UPDATE `auction` SET `itemName` = '魯因普魯托接待室' WHERE `itemId` = 56;
-UPDATE `auction` SET `itemName` = '魯因特拉潘接待室' WHERE `itemId` = 57;
-UPDATE `auction` SET `itemName` = '修加特鋼鐵之廳' WHERE `itemId` = 58;
-UPDATE `auction` SET `itemName` = '修加特冷鑄之廳' WHERE `itemId` = 59;
-UPDATE `auction` SET `itemName` = '修加特熱煉之廳' WHERE `itemId` = 60;
-UPDATE `auction` SET `itemName` = '修加特鈦金之聽' WHERE `itemId` = 61;
-
 /***** GAME *****/ 
 /***** auto_announcements.sql *****/
-UPDATE `auto_announcements` SET `memo` = '突然變成無法移動的狀態時，請先點選畫面左上角自己的名字或血條，再按鍵盤的「Esc」取消目標。' WHERE `id` = 1;
-UPDATE `auto_announcements` SET `memo` = '掉入地獄或是卡點的的玩家，請輸入「/脫逃」的自救指令 - 需5分鐘。' WHERE `id` = 2;
-UPDATE `auto_announcements` SET `memo` = '叫喊買賣時，請至交易頻道發言，勿使用一般頻道影響他人。' WHERE `id` = 3;
-UPDATE `auto_announcements` SET `memo` = '請玩家遵守官網公告之遊戲管理規章相關內容，並配合GM進行遊戲。' WHERE `id` = 4;
-UPDATE `auto_announcements` SET `memo` = '玩家可以使用「/GM」來查詢目前正在線上服務的GM名單。' WHERE `id` = 5;
-UPDATE `auto_announcements` SET `memo` = '請玩家注意個人商店設定金額，視窗右下顯示金額即為販售獲利之金額。' WHERE `id` = 6;
-UPDATE `auto_announcements` SET `memo` = '請大家發揮良好遊戲道德，互相尊重禮讓，共同打造天堂II優良文化。' WHERE `id` = 7;
-UPDATE `auto_announcements` SET `memo` = '提醒您慎重保管個人帳號、密碼；養成良好的網路使用環境，以確保你的帳號資料安全。' WHERE `id` = 8;
-UPDATE `auto_announcements` SET `memo` = '過度沉溺遊戲易造成身體及精神狀況不佳，請適度的休息，確保您的健康。' WHERE `id` = 9;
-UPDATE `auto_announcements` SET `memo` = '不論是在進行交易或是買賣物品的時候，請多加確認數量及所要交易的角色名稱，以避免交易錯誤造成您不必要的損失。' WHERE `id` = 10;
+REPLACE INTO `auto_announcements` VALUES
+(1,900000,9000000,36000,'突然變成無法移動的狀態時，請先點選畫面左上角自己的名字或血條，再按鍵盤的「Esc」取消目標。'),
+(2,1800000,9000000,36000,'掉入地獄或是卡點的的玩家，請輸入「/脫逃」的自救指令 - 需5分鐘。'),
+(3,2700000,9000000,36000,'叫喊買賣時，請至交易頻道發言，勿使用一般頻道影響他人。'),
+(4,3600000,9000000,36000,'請玩家遵守官網公告之遊戲管理規章相關內容，並配合GM進行遊戲。'),
+(5,4500000,9000000,36000,'玩家可以使用「/GM」來查詢目前正在線上服務的GM名單。'),
+(6,5400000,9000000,36000,'請玩家注意個人商店設定金額，視窗右下顯示金額即為販售獲利之金額。'),
+(7,6300000,9000000,36000,'請大家發揮良好遊戲道德，互相尊重禮讓，共同打造天堂II優良文化。'),
+(8,7200000,9000000,36000,'提醒您慎重保管個人帳號、密碼；養成良好的網路使用環境，以確保你的帳號資料安全。'),
+(9,8100000,9000000,36000,'過度沉溺遊戲易造成身體及精神狀況不佳，請適度的休息，確保您的健康。'),
+(10,9000000,9000000,36000,'不論是在進行交易或是買賣物品的時候，請多加確認數量及所要交易的角色名稱，以避免交易錯誤造成您不必要的損失。');
 
 /***** GAME *****/ 
 /***** auto_chat_text.sql *****/
@@ -286,6 +246,47 @@ UPDATE `char_templates` SET `ClassName` = '追魂使' WHERE `ClassId` = 133;
 UPDATE `char_templates` SET `ClassName` = '魔彈射手' WHERE `ClassId` = 134;
 UPDATE `char_templates` SET `ClassName` = '戰鬥巡官' WHERE `ClassId` = 135;
 UPDATE `char_templates` SET `ClassName` = '軍武判官' WHERE `ClassId` = 136;
+
+/***** castlename-tw *****/ 
+/***** auction.sql *****/
+UPDATE `auction` SET `itemName` = '古魯丁城鎮月長石廳' WHERE `itemId` = 22;
+UPDATE `auction` SET `itemName` = '古魯丁城鎮瑪瑙廳' WHERE `itemId` = 23;
+UPDATE `auction` SET `itemName` = '古魯丁城鎮黃玉廳' WHERE `itemId` = 24;
+UPDATE `auction` SET `itemName` = '古魯丁城鎮紅寶石廳' WHERE `itemId` = 25;
+UPDATE `auction` SET `itemName` = '古魯丁村莊水晶廳' WHERE `itemId` = 26;
+UPDATE `auction` SET `itemName` = '古魯丁村莊瑪瑙廳' WHERE `itemId` = 27;
+UPDATE `auction` SET `itemName` = '古魯丁村莊藍寶石廳' WHERE `itemId` = 28;
+UPDATE `auction` SET `itemName` = '古魯丁村莊月長石廳' WHERE `itemId` = 29;
+UPDATE `auction` SET `itemName` = '古魯丁村莊綠寶石廳' WHERE `itemId` = 30;
+UPDATE `auction` SET `itemName` = '狄恩黑之公館' WHERE `itemId` = 31;
+UPDATE `auction` SET `itemName` = '狄恩紅之公館' WHERE `itemId` = 32;
+UPDATE `auction` SET `itemName` = '狄恩綠之公館' WHERE `itemId` = 33;
+UPDATE `auction` SET `itemName` = '亞丁黃金接待室' WHERE `itemId` = 36;
+UPDATE `auction` SET `itemName` = '亞丁白銀接待室' WHERE `itemId` = 37;
+UPDATE `auction` SET `itemName` = '亞丁米索莉接待室' WHERE `itemId` = 38;
+UPDATE `auction` SET `itemName` = '亞丁銀色小屋' WHERE `itemId` = 39;
+UPDATE `auction` SET `itemName` = '亞丁金色小屋' WHERE `itemId` = 40;
+UPDATE `auction` SET `itemName` = '亞丁青銅接待室' WHERE `itemId` = 41;
+UPDATE `auction` SET `itemName` = '奇岩黃金接待室' WHERE `itemId` = 42;
+UPDATE `auction` SET `itemName` = '奇岩白銀接待室' WHERE `itemId` = 43;
+UPDATE `auction` SET `itemName` = '奇岩米索莉接待室' WHERE `itemId` = 44;
+UPDATE `auction` SET `itemName` = '奇岩青銅接待室' WHERE `itemId` = 45;
+UPDATE `auction` SET `itemName` = '奇岩銀色小屋' WHERE `itemId` = 46;
+UPDATE `auction` SET `itemName` = '高達特月長石廳' WHERE `itemId` = 47;
+UPDATE `auction` SET `itemName` = '高達特瑪瑙廳' WHERE `itemId` = 48;
+UPDATE `auction` SET `itemName` = '高達特綠寶石廳' WHERE `itemId` = 49;
+UPDATE `auction` SET `itemName` = '高達特藍寶石廳' WHERE `itemId` = 50;
+UPDATE `auction` SET `itemName` = '魯因蒙特接待室' WHERE `itemId` = 51;
+UPDATE `auction` SET `itemName` = '魯因修特倫接待室' WHERE `itemId` = 52;
+UPDATE `auction` SET `itemName` = '魯因維納斯接待室' WHERE `itemId` = 53;
+UPDATE `auction` SET `itemName` = '魯因瑪爾斯接待室' WHERE `itemId` = 54;
+UPDATE `auction` SET `itemName` = '魯因雅蒂斯接待室' WHERE `itemId` = 55;
+UPDATE `auction` SET `itemName` = '魯因普魯托接待室' WHERE `itemId` = 56;
+UPDATE `auction` SET `itemName` = '魯因特拉潘接待室' WHERE `itemId` = 57;
+UPDATE `auction` SET `itemName` = '修加特鋼鐵之廳' WHERE `itemId` = 58;
+UPDATE `auction` SET `itemName` = '修加特冷鑄之廳' WHERE `itemId` = 59;
+UPDATE `auction` SET `itemName` = '修加特熱煉之廳' WHERE `itemId` = 60;
+UPDATE `auction` SET `itemName` = '修加特鈦金之聽' WHERE `itemId` = 61;
 
 /***** castlename-tw *****/ 
 /***** clanhall.sql *****/

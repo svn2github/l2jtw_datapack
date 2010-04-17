@@ -56,7 +56,6 @@ public class ChannelLeave implements IUserCommandHandler
 				channel.broadcastToChannelMembers(sm);
 				return true;
 			}
-			activeChar.sendPacket(new SystemMessage(SystemMessageId.ONLY_PARTY_LEADER_CAN_LEAVE_CHANNEL));//Update by rocknow
 		}
 		
 		return false;

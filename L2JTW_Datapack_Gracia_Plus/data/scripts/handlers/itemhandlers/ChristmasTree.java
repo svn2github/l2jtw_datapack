@@ -24,11 +24,7 @@ import com.l2jserver.gameserver.model.L2World;
 import com.l2jserver.gameserver.model.actor.L2Playable;
 import com.l2jserver.gameserver.model.actor.instance.L2PcInstance;
 import com.l2jserver.gameserver.templates.chars.L2NpcTemplate;
-import com.l2jserver.gameserver.network.SystemMessageId;
-import com.l2jserver.gameserver.network.serverpackets.SystemMessage;
 import com.l2jserver.gameserver.datatables.MessageTable;
-import com.l2jserver.gameserver.model.L2CoreMessage;
-
 public class ChristmasTree implements IItemHandler
 {
 	/**
@@ -68,16 +64,11 @@ public class ChristmasTree implements IItemHandler
 			
 			activeChar.destroyItem("Consume", item.getObjectId(), 1, null, false);
 			
-			L2CoreMessage cm =  new L2CoreMessage (MessageTable.Messages[92]);
-			cm.addString(template1.name);
-			cm.addNumber(spawn.getLocx());
-			cm.addNumber(spawn.getLocy());
-			cm.addNumber(spawn.getLocz());
-			activeChar.sendMessage(cm.renderMsg());
+			activeChar.sendMessage(MessageTable.Messages[1118].getMessage() + template1.name + MessageTable.Messages[1119].getMessage()+" x: " + spawn.getLocx() + " y: " + spawn.getLocy() + " z: " + spawn.getLocz());
 		}
 		catch (Exception e)
 		{
-			activeChar.sendPacket(new SystemMessage(SystemMessageId.TARGET_IS_INCORRECT));
+			activeChar.sendMessage("Target is not ingame.");
 		}
 	}
 }

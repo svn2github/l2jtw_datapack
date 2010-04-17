@@ -33,7 +33,7 @@ import com.l2jserver.gameserver.network.SystemMessageId;
 import com.l2jserver.gameserver.network.serverpackets.NpcHtmlMessage;
 import com.l2jserver.gameserver.network.serverpackets.SystemMessage;
 import com.l2jserver.util.StringUtil;
-
+import com.l2jserver.gameserver.datatables.MessageTable;
 
 /**
  * This class handles all siege commands:
@@ -122,7 +122,7 @@ public class AdminSiege implements IAdminCommandHandler
 				}
 				catch (Exception e)
 				{
-					activeChar.sendMessage(375);
+					activeChar.sendMessage("Usage: //add_guard castle npcId");
 				}
 			}
 			else if (command.equalsIgnoreCase("admin_clear_siege_list"))
@@ -140,7 +140,7 @@ public class AdminSiege implements IAdminCommandHandler
 			}
 			else if (command.equalsIgnoreCase("admin_move_defenders"))
 			{
-				activeChar.sendMessage(218);
+				activeChar.sendMessage(1817);
 			}
 			else if (command.equalsIgnoreCase("admin_setcastle"))
 			{
@@ -155,7 +155,7 @@ public class AdminSiege implements IAdminCommandHandler
 				if (clan != null)
 					castle.removeOwner(clan);
 				else
-					activeChar.sendMessage(355);
+					activeChar.sendMessage(1818);
 			}
 			else if (command.equalsIgnoreCase("admin_setsiegetime"))
 			{
@@ -171,7 +171,7 @@ public class AdminSiege implements IAdminCommandHandler
 
 					if (newAdminSiegeDate.getTimeInMillis() < Calendar.getInstance().getTimeInMillis())
 					{
-						activeChar.sendMessage(61);
+						activeChar.sendMessage(1819);
 					}
 					else if (newAdminSiegeDate.getTimeInMillis() != castle.getSiegeDate().getTimeInMillis())
 					{
@@ -187,7 +187,7 @@ public class AdminSiege implements IAdminCommandHandler
 				if (player == null || player.getClan() == null)
 					activeChar.sendPacket(new SystemMessage(SystemMessageId.TARGET_IS_INCORRECT));
 				else if (!ClanHallManager.getInstance().isFree(clanhall.getId()))
-					activeChar.sendMessage(324);
+					activeChar.sendMessage(1820);
 				else if (player.getClan().getHasHideout() == 0)
 				{
 					ClanHallManager.getInstance().setOwner(clanhall.getId(), player.getClan());
@@ -195,7 +195,7 @@ public class AdminSiege implements IAdminCommandHandler
 						AuctionManager.getInstance().getAuction(clanhall.getId()).deleteAuctionFromDB();
 				}
 				else
-					activeChar.sendMessage(525);
+					activeChar.sendMessage(1821);
 			}
 			else if (command.equalsIgnoreCase("admin_clanhalldel"))
 			{
@@ -205,7 +205,7 @@ public class AdminSiege implements IAdminCommandHandler
 					AuctionManager.getInstance().initNPC(clanhall.getId());
 				}
 				else
-					activeChar.sendMessage(323);
+					activeChar.sendMessage(1822);
 			}
 			else if (command.equalsIgnoreCase("admin_clanhallopendoors"))
 			{
@@ -351,7 +351,7 @@ public class AdminSiege implements IAdminCommandHandler
 		adminReply.replace("%clanhallId%", String.valueOf(clanhall.getId()));
 		L2Clan owner = ClanTable.getInstance().getClan(clanhall.getOwnerId());
 		if (owner == null)
-			adminReply.replace("%clanhallOwner%", "None");
+			adminReply.replace("%clanhallOwner%", MessageTable.Messages[1823].getMessage());
 		else
 			adminReply.replace("%clanhallOwner%", owner.getName());
 		activeChar.sendPacket(adminReply);

@@ -473,8 +473,8 @@ title L2JTW Datapack 安裝 - For：L2JTW GameServer Gracia Alpha
 echo.
 :askcommunity
 if %fresh_setup%==0 (
-set communityprompt=s
-set msg=預設值-省略
+set communityprompt=u
+set msg=預設值-更新
 ) else (
 set communityprompt=x
 set msg=沒有預設值
@@ -526,7 +526,7 @@ for %%i in (
 clan_introductions.sql
 comments.sql
 forums.sql
-gameservers.sql
+registered_gameservers.sql
 posts.sql
 topics.sql
 ) do call :dump %%i
@@ -788,7 +788,8 @@ transform_skill_trees.sql
 walker_routes.sql
 weapon.sql
 zone_vertices.sql
-mods_wedding.sql
+mods\mods_wedding.sql
+custom\custom_npc.sql
 chatdata.sql
 messagetable.sql
 npcCharData.sql
@@ -951,7 +952,7 @@ if %full% == 1 goto end
 echo.
 echo sql/updates 的資料夾是用來更新資料庫格式
 echo.
-echo 如果不想了解更新了什麼，請直接進行更新
+echo 請直接按下 Enter 進行更新
 :asknb
 set nbprompt=a
 echo.

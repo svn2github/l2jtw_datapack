@@ -51,7 +51,7 @@ public class AdminShop implements IAdminCommandHandler
 			}
 			catch (IndexOutOfBoundsException e)
 			{
-				activeChar.sendMessage(244);
+				activeChar.sendMessage("Please specify buylist.");
 			}
 		}
 		else if (command.equals("admin_gmshop"))

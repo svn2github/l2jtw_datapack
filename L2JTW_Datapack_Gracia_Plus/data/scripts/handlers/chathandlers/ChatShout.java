@@ -60,7 +60,7 @@ public class ChatShout implements IChatHandler
 		{
 			if (!activeChar.isGM() && !activeChar.getFloodProtectors().getGlobalChat().tryPerformAction("global chat"))
 			{
-				activeChar.sendMessage(98);
+				activeChar.sendMessage(1101);
 				return;
 			}
 			

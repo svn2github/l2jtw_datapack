@@ -23,7 +23,7 @@ import com.l2jserver.gameserver.network.serverpackets.MyTargetSelected;
 import com.l2jserver.gameserver.network.serverpackets.NpcHtmlMessage;
 import com.l2jserver.gameserver.network.serverpackets.StatusUpdate;
 import com.l2jserver.util.StringUtil;
-
+import com.l2jserver.gameserver.datatables.MessageTable;
 public class L2MerchantInstanceActionShift implements IActionHandler
 {
 	public boolean action(L2PcInstance activeChar, L2Character target, boolean interact)
@@ -45,27 +45,27 @@ public class L2MerchantInstanceActionShift implements IActionHandler
 
 			NpcHtmlMessage html = new NpcHtmlMessage(target.getObjectId());
 			final StringBuilder html1 = StringUtil.startAppend(2000,
-					"<html><body><center><font color=\"LEVEL\">Merchant Info</font></center><br><table border=0><tr><td>Object ID: </td><td>",
+					"<html><body><center><font color=\"LEVEL\">"+MessageTable.Messages[1286].getMessage()+"</font></center><br><table border=0><tr><td>"+MessageTable.Messages[1287].getMessage()+"</td><td>",
 					String.valueOf(target.getObjectId()),
-					"</td></tr><tr><td>Template ID: </td><td>",
+					"</td></tr><tr><td>"+MessageTable.Messages[1288].getMessage()+"</td><td>",
 					String.valueOf(((L2Npc)target).getTemplate().npcId),
-					"</td></tr><tr><td><br></td></tr><tr><td>HP: </td><td>",
+					"</td></tr><tr><td><br></td></tr><tr><td>"+MessageTable.Messages[1289].getMessage()+"</td><td>",
 					String.valueOf(target.getCurrentHp()),
-					"</td></tr><tr><td>MP: </td><td>",
+					"</td></tr><tr><td>"+MessageTable.Messages[1290].getMessage()+"</td><td>",
 					String.valueOf(target.getCurrentMp()),
-					"</td></tr><tr><td>Level: </td><td>",
+					"</td></tr><tr><td>"+MessageTable.Messages[1291].getMessage()+"</td><td>",
 					String.valueOf(target.getLevel()),
-					"</td></tr><tr><td><br></td></tr><tr><td>Class: </td><td>",
+					"</td></tr><tr><td><br></td></tr><tr><td>"+MessageTable.Messages[1292].getMessage()+"</td><td>",
 					target.getClass().getSimpleName(),
-					"</td></tr><tr><td><br></td></tr></table><table><tr><td><button value=\"Edit NPC\" action=\"bypass -h admin_edit_npc ",
+					"</td></tr><tr><td><br></td></tr></table><table><tr><td><button value=\""+MessageTable.Messages[1293].getMessage()+"\" action=\"bypass -h admin_edit_npc ",
 					String.valueOf(((L2Npc)target).getTemplate().npcId),
 					"\" width=100 height=20 back=\"L2UI_ct1.button_df\" fore=\"L2UI_ct1.button_df\"></td>" +
-					"<td><button value=\"Kill\" action=\"bypass -h admin_kill\" width=40 height=20 back=\"L2UI_ct1.button_df\" fore=\"L2UI_ct1.button_df\"></td></tr>" +
-					"<tr><td><button value=\"Show DropList\" action=\"bypass -h admin_show_droplist ",
+					"<td><button value=\""+MessageTable.Messages[1294].getMessage()+"\" action=\"bypass -h admin_kill\" width=40 height=20 back=\"L2UI_ct1.button_df\" fore=\"L2UI_ct1.button_df\"></td></tr>" +
+					"<tr><td><button value=\""+MessageTable.Messages[1295].getMessage()+"\" action=\"bypass -h admin_show_droplist ",
 					String.valueOf(((L2Npc)target).getTemplate().npcId),
 					"\" width=100 height=20 back=\"L2UI_ct1.button_df\" fore=\"L2UI_ct1.button_df\"></td></tr>" +
-					"<td><button value=\"Delete\" action=\"bypass -h admin_delete\" width=40 height=20 back=\"L2UI_ct1.button_df\" fore=\"L2UI_ct1.button_df\"></td></tr>" +
-					"<tr><td><button value=\"View Shop\" action=\"bypass -h admin_showShop ",
+					"<td><button value=\""+MessageTable.Messages[1296].getMessage()+"\" action=\"bypass -h admin_delete\" width=40 height=20 back=\"L2UI_ct1.button_df\" fore=\"L2UI_ct1.button_df\"></td></tr>" +
+					"<tr><td><button value=\""+MessageTable.Messages[1297].getMessage()+"\" action=\"bypass -h admin_showShop ",
 					String.valueOf(((L2Npc)target).getTemplate().npcId),
 					"\" width=100 height=20 back=\"L2UI_ct1.button_df\" fore=\"L2UI_ct1.button_df\"></td></tr></table>"
 			);

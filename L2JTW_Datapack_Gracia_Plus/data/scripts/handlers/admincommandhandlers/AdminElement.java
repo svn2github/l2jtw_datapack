@@ -28,8 +28,6 @@ import com.l2jserver.gameserver.network.SystemMessageId;
 import com.l2jserver.gameserver.network.serverpackets.InventoryUpdate;
 import com.l2jserver.gameserver.network.serverpackets.SystemMessage;
 import com.l2jserver.gameserver.datatables.MessageTable;
-import com.l2jserver.gameserver.model.L2CoreMessage;
-
 /**
  * This class handles following admin commands: - delete = deletes target
  * 
@@ -77,7 +75,7 @@ public class AdminElement implements IAdminCommandHandler
 				int value = Integer.parseInt(args[2]);
 				if (element < -1 || element > 5 || value < 0 || value > 450)
 				{
-					activeChar.sendMessage(104);
+					activeChar.sendMessage("Usage: //setlh/setlc/setlg/setlb/setll/setlw/setls <element> <value>[0-450]");
 					return false;
 				}
 
@@ -85,7 +83,7 @@ public class AdminElement implements IAdminCommandHandler
 			}
 			catch (Exception e)
 			{
-				activeChar.sendMessage(134);
+				activeChar.sendMessage("Usage: //setlh/setlc/setlg/setlb/setll/setlw/setls <element>[0-5] <value>[0-450]");
 				return false;
 			}
 		}
@@ -136,7 +134,7 @@ public class AdminElement implements IAdminCommandHandler
 			String old, current;
 			Elementals element = itemInstance.getElementals();
 			if (element == null)
-				old = MessageTable.Messages[853].getMessage();
+				old = MessageTable.Messages[1660].getMessage();
 			else
 				old = element.toString();
 
@@ -149,7 +147,7 @@ public class AdminElement implements IAdminCommandHandler
 			player.getInventory().equipItemAndRecord(itemInstance);
 
 			if (itemInstance.getElementals() == null)
-				current = MessageTable.Messages[853].getMessage();
+				current = MessageTable.Messages[1660].getMessage();
 			else
 				current = itemInstance.getElementals().toString();
 
@@ -159,20 +157,12 @@ public class AdminElement implements IAdminCommandHandler
 			player.sendPacket(iu);
 
 			// informations
-			L2CoreMessage cm =  new L2CoreMessage (MessageTable.Messages[135]);
-			cm.addString(player.getName());
-			cm.addString(itemInstance.getItem().getName());
-			cm.addString(old);
-			cm.addString(current);
-			cm.sendMessage(activeChar);
+			activeChar.sendMessage(MessageTable.Messages[1661].getExtra(1) + player.getName() + MessageTable.Messages[1661].getExtra(2)
+				+ itemInstance.getItem().getName() + MessageTable.Messages[1661].getExtra(3) + old + MessageTable.Messages[1661].getExtra(4) + current + MessageTable.Messages[1661].getExtra(5));
 			if (player != activeChar)
 			{
-				cm =  new L2CoreMessage (MessageTable.Messages[136]);
-				cm.addString(activeChar.getName());
-				cm.addString(itemInstance.getItem().getName());
-				cm.addString(old);
-				cm.addString(current);
-				cm.sendMessage(player);
+				player.sendMessage(MessageTable.Messages[1662].getExtra(1) + activeChar.getName()+MessageTable.Messages[1662].getExtra(2)
+					+ itemInstance.getItem().getName() + MessageTable.Messages[1662].getExtra(3) + old + MessageTable.Messages[1662].getExtra(4) + current + MessageTable.Messages[1662].getExtra(5));
 			}
 		}
 	}

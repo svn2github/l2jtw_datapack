@@ -29,7 +29,6 @@ import com.l2jserver.gameserver.network.serverpackets.InventoryUpdate;
 import com.l2jserver.gameserver.network.serverpackets.SystemMessage;
 import com.l2jserver.gameserver.network.serverpackets.UserInfo;
 import com.l2jserver.gameserver.datatables.MessageTable;
-import com.l2jserver.gameserver.model.L2CoreMessage;
 
 /**
  * This class handles following admin commands:
@@ -110,7 +109,7 @@ public class AdminEnchant implements IAdminCommandHandler
 					
 					// check value
 					if (ench < 0 || ench > 65535)
-						activeChar.sendMessage(580);
+						activeChar.sendMessage(1666);
 					else
 						setEnchant(activeChar, ench, armorType);
 				}
@@ -118,13 +117,13 @@ public class AdminEnchant implements IAdminCommandHandler
 				{
 					if (Config.DEVELOPER)
 						_log.warning("Set enchant error: " + e);
-					activeChar.sendMessage(242);
+					activeChar.sendMessage("Please specify a new enchant value.");
 				}
 				catch (NumberFormatException e)
 				{
 					if (Config.DEVELOPER)
 						_log.warning("Set enchant error: " + e);
-					activeChar.sendMessage(243);
+					activeChar.sendMessage("Please specify a valid new enchant value.");
 				}
 			}
 			
@@ -188,20 +187,8 @@ public class AdminEnchant implements IAdminCommandHandler
 			player.broadcastPacket(new ExBrExtraUserInfo(player));
 			
 			// informations
-			L2CoreMessage cm = new L2CoreMessage (MessageTable.Messages[67]);
-			cm.addString(player.getName());
-			cm.addString(itemInstance.getItem().getName());
-			cm.addNumber(curEnchant);
-			cm.addNumber(ench);
-			cm.sendMessage(activeChar);
-			if (player != activeChar) //Update by rocknow
-			{
-				cm = new L2CoreMessage (MessageTable.Messages[29]);
-				cm.addString(itemInstance.getItem().getName());
-				cm.addNumber(curEnchant);
-				cm.addNumber(ench);
-				cm.sendMessage(player);
-			}
+			activeChar.sendMessage(MessageTable.Messages[1667].getExtra(1) + player.getName() + MessageTable.Messages[1667].getExtra(2) + itemInstance.getItem().getName() + MessageTable.Messages[1667].getExtra(3) + curEnchant + MessageTable.Messages[1667].getExtra(4) + ench + MessageTable.Messages[1667].getExtra(5));
+			player.sendMessage(MessageTable.Messages[1668].getExtra(1) + itemInstance.getItem().getName() + MessageTable.Messages[1668].getExtra(2) + curEnchant + MessageTable.Messages[1668].getExtra(3) + ench + MessageTable.Messages[1668].getExtra(4));
 		}
 	}
 	

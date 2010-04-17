@@ -22,7 +22,7 @@ import com.l2jserver.gameserver.model.actor.L2Character;
 import com.l2jserver.gameserver.model.actor.L2Npc;
 import com.l2jserver.gameserver.model.actor.instance.L2PcInstance;
 import com.l2jserver.gameserver.network.serverpackets.NpcHtmlMessage;
-
+import com.l2jserver.gameserver.datatables.MessageTable;
 public class TerritoryStatus implements IBypassHandler
 {
 	private static final String[] COMMANDS =
@@ -56,11 +56,11 @@ public class TerritoryStatus implements IBypassHandler
 		{
 			if (npc.getCastle().getCastleId() > 6)
 			{
-				html.replace("%territory%", "The Kingdom of Elmore");
+				html.replace("%territory%", MessageTable.Messages[1092].getMessage());
 			}
 			else
 			{
-				html.replace("%territory%", "The Kingdom of Aden");
+				html.replace("%territory%", MessageTable.Messages[1093].getMessage());
 			}
 		}
 		activeChar.sendPacket(html);

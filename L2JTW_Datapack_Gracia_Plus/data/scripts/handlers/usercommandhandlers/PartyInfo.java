@@ -20,8 +20,6 @@ import com.l2jserver.gameserver.model.actor.instance.L2PcInstance;
 import com.l2jserver.gameserver.network.SystemMessageId;
 import com.l2jserver.gameserver.network.serverpackets.SystemMessage;
 import com.l2jserver.gameserver.datatables.MessageTable;
-import com.l2jserver.gameserver.model.L2CoreMessage;
-
 /**
  * Support for /partyinfo command
  * Added by Tempy - 28 Jul 05
@@ -44,7 +42,7 @@ public class PartyInfo implements IUserCommandHandler
 		
 		if (!activeChar.isInParty())
 		{
-			activeChar.sendMessage(459);
+			activeChar.sendMessage(1170);
 			return false;
 		}
 		
@@ -78,9 +76,7 @@ public class PartyInfo implements IUserCommandHandler
 		sm.addString(partyLeader);
 		activeChar.sendPacket(sm);
 		
-		L2CoreMessage cm =  new L2CoreMessage (MessageTable.Messages[194]);
-		cm.addNumber(memberCount);
-		cm.sendMessage(activeChar);
+		activeChar.sendMessage(MessageTable.Messages[1171].getMessage() + memberCount + "/9");
 		
 		activeChar.sendPacket(new SystemMessage(SystemMessageId.WAR_LIST));
 		return true;

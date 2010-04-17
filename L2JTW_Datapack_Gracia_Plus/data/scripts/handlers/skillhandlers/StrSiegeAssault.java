@@ -29,10 +29,6 @@ import com.l2jserver.gameserver.skills.Formulas;
 import com.l2jserver.gameserver.templates.item.L2WeaponType;
 import com.l2jserver.gameserver.templates.skills.L2SkillType;
 import com.l2jserver.gameserver.datatables.MessageTable;
-import com.l2jserver.gameserver.model.L2CoreMessage;
-import com.l2jserver.gameserver.network.SystemMessageId;
-import com.l2jserver.gameserver.network.serverpackets.SystemMessage;
-
 /**
  * @author _tomciaaa_
  *
@@ -113,14 +109,12 @@ public class StrSiegeAssault implements ISkillHandler
 					
 				}
 				else
-					activeChar.sendPacket(new SystemMessage(SystemMessageId.ATTACK_FAILED));
+					activeChar.sendMessage(skill.getName() + MessageTable.Messages[1149].getMessage());
 			}
 		}
 		catch (Exception e)
 		{
-			L2CoreMessage cm =  new L2CoreMessage (MessageTable.Messages[112]);
-			cm.addString(""+e);
-			activeChar.sendMessage(cm.renderMsg());
+			player.sendMessage("Error using siege assault:" + e);
 		}
 	}
 	

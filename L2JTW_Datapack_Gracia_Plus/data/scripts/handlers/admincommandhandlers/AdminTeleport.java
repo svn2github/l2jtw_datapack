@@ -43,8 +43,6 @@ import com.l2jserver.gameserver.network.serverpackets.SystemMessage;
 import com.l2jserver.gameserver.templates.chars.L2NpcTemplate;
 import com.l2jserver.util.StringUtil;
 import com.l2jserver.gameserver.datatables.MessageTable;
-import com.l2jserver.gameserver.model.L2CoreMessage;
-
 
 /**
  * This class handles following admin commands:
@@ -164,7 +162,7 @@ public class AdminTeleport implements IAdminCommandHandler
 			}
 			catch (NumberFormatException nfe)
 			{
-				activeChar.sendMessage(62);
+				activeChar.sendMessage("Usage: //move_to <x> <y> <z>");
 				AdminHelpPage.showHelpPage(activeChar, "teleports.htm");
 			}
 		}
@@ -179,7 +177,7 @@ public class AdminTeleport implements IAdminCommandHandler
 			catch (StringIndexOutOfBoundsException e)
 			{
 				//Case of empty coordinates
-				activeChar.sendMessage(433);
+				activeChar.sendMessage("Wrong or no Coordinates given.");
 				showTeleportCharWindow(activeChar); //back to character teleport
 			}
 		}
@@ -202,7 +200,7 @@ public class AdminTeleport implements IAdminCommandHandler
 				String[] param = command.split(" ");
 				if (param.length != 2)
 				{
-					activeChar.sendMessage(802);
+					activeChar.sendMessage("Usage: //recall <playername>");
 					return false;
 				}
 				String targetName = param[1];
@@ -248,7 +246,7 @@ public class AdminTeleport implements IAdminCommandHandler
 			}
 			catch (Exception e)
 			{
-				activeChar.sendMessage(396);
+				activeChar.sendMessage("Usage: //go<north|south|east|west|up|down> [offset] (default 150)");
 			}
 		}
 		
@@ -275,13 +273,11 @@ public class AdminTeleport implements IAdminCommandHandler
 			activeChar.getAI().setIntention(CtrlIntention.AI_INTENTION_IDLE);
 			activeChar.teleToLocation(x, y, z, false);
 			
-			L2CoreMessage cm =  new L2CoreMessage (MessageTable.Messages[531]);
-			cm.addString(Cords);
-			cm.sendMessage(activeChar);
+			activeChar.sendMessage(MessageTable.Messages[1878].getMessage() + Cords);
 		}
 		catch (NoSuchElementException nsee)
 		{
-			activeChar.sendMessage(433);
+			activeChar.sendMessage("Wrong or no Coordinates given.");
 		}
 	}
 	
@@ -306,27 +302,27 @@ public class AdminTeleport implements IAdminCommandHandler
 		NpcHtmlMessage adminReply = new NpcHtmlMessage(5);
 
                 final String replyMSG = StringUtil.concat(
-                        "<html><title>"+MessageTable.Messages[9].getMessage()+"</title>" +
+                        "<html><title>"+MessageTable.Messages[1879].getMessage()+"</title>" +
                         "<body>" +
-                        MessageTable.Messages[48].getMessage(),
+                        MessageTable.Messages[1880].getMessage(),
                         player.getName(),
-                        MessageTable.Messages[49].getMessage() +
+                        MessageTable.Messages[1881].getMessage() +
                         "<br>" +
-                        MessageTable.Messages[68].getMessage() +
+                        MessageTable.Messages[1882].getExtra(1) +
                         "<edit var=\"char_cord_x\" width=110>" +
-                        MessageTable.Messages[74].getMessage() +
+                        MessageTable.Messages[1882].getExtra(2) +
                         "<edit var=\"char_cord_y\" width=110>" +
-                        MessageTable.Messages[80].getMessage() +
+                        MessageTable.Messages[1882].getExtra(3) +
                         "<edit var=\"char_cord_z\" width=110>" +
-                        "<button value=\""+MessageTable.Messages[83].getMessage()+"\" action=\"bypass -h admin_teleport_character $char_cord_x $char_cord_y $char_cord_z\" width=60 height=15 back=\"L2UI_ct1.button_df\" fore=\"L2UI_ct1.button_df\">" +
-                        "<button value=\""+MessageTable.Messages[93].getMessage()+"\" action=\"bypass -h admin_teleport_character ",
+                        "<button value=\""+MessageTable.Messages[1883].getMessage()+"\" action=\"bypass -h admin_teleport_character $char_cord_x $char_cord_y $char_cord_z\" width=60 height=15 back=\"L2UI_ct1.button_df\" fore=\"L2UI_ct1.button_df\">" +
+                        "<button value=\""+MessageTable.Messages[1884].getMessage()+"\" action=\"bypass -h admin_teleport_character ",
                         String.valueOf(activeChar.getX()),
                         " ",
                         String.valueOf(activeChar.getY()),
                         " ",
                         String.valueOf(activeChar.getZ()),
                         "\" width=115 height=15 back=\"L2UI_ct1.button_df\" fore=\"L2UI_ct1.button_df\">" +
-                        "<center><button value=\""+MessageTable.Messages[1077].getMessage()+"\" action=\"bypass -h admin_current_player\" width=40 height=15 back=\"L2UI_ct1.button_df\" fore=\"L2UI_ct1.button_df\"></center>" +
+                        "<center><button value=\""+MessageTable.Messages[1885].getMessage()+"\" action=\"bypass -h admin_current_player\" width=40 height=15 back=\"L2UI_ct1.button_df\" fore=\"L2UI_ct1.button_df\"></center>" +
                         "</body></html>"
                         );
 		adminReply.setHtml(replyMSG);
@@ -383,9 +379,7 @@ public class AdminTeleport implements IAdminCommandHandler
 			// Check for jail
 			if (player.isInJail())
 			{
-				L2CoreMessage cm =  new L2CoreMessage (MessageTable.Messages[820]);
-				cm.addString(player.getName());
-				cm.sendMessage(activeChar);
+				activeChar.sendMessage(MessageTable.Messages[1886].getExtra(1) + player.getName() + MessageTable.Messages[1886].getExtra(2));
 			}
 			else
 			{
@@ -396,10 +390,8 @@ public class AdminTeleport implements IAdminCommandHandler
 					player.setInstanceId(0);
 				
 				// Information
-				L2CoreMessage cm =  new L2CoreMessage (MessageTable.Messages[829]);
-				cm.addString(player.getName());
-				cm.sendMessage(activeChar);
-				player.sendMessage(33);
+				activeChar.sendMessage(MessageTable.Messages[1887].getExtra(1) + player.getName() + MessageTable.Messages[1887].getExtra(2));
+				player.sendMessage(1888);
 			
 				player.getAI().setIntention(CtrlIntention.AI_INTENTION_IDLE);
 				player.teleToLocation(x, y, z, true);
@@ -442,9 +434,7 @@ public class AdminTeleport implements IAdminCommandHandler
 			activeChar.getAI().setIntention(CtrlIntention.AI_INTENTION_IDLE);
 			activeChar.teleToLocation(x, y, z, true);
 			
-			L2CoreMessage cm = new L2CoreMessage (MessageTable.Messages[546]);
-			cm.addString(player.getName());
-			cm.sendMessage(activeChar);
+			activeChar.sendMessage(MessageTable.Messages[1889].getExtra(1) + player.getName() + MessageTable.Messages[1889].getExtra(2));
 		}
 	}
 	
@@ -463,20 +453,13 @@ public class AdminTeleport implements IAdminCommandHandler
 			int count = statement.getUpdateCount();
 			statement.close();
 			if (count == 0)
-				activeChar.sendMessage(834);
+				activeChar.sendMessage(1890);
 			else
-			{
-				L2CoreMessage cm =  new L2CoreMessage (MessageTable.Messages[836]);
-				cm.addString(name);
-				cm.addNumber(activeChar.getX());
-				cm.addNumber(activeChar.getY());
-				cm.addNumber(activeChar.getZ());
-				cm.sendMessage(activeChar);
-			}
+				activeChar.sendMessage(MessageTable.Messages[1891].getExtra(1)+name+MessageTable.Messages[1891].getExtra(2) + activeChar.getX() + "," + activeChar.getY() + "," + activeChar.getZ() + ")"); 
 		}
 		catch (SQLException se)
 		{
-			activeChar.sendMessage(835);
+			activeChar.sendMessage("SQLException while changing offline character's position");
 		}
 		finally
 		{
@@ -503,7 +486,7 @@ public class AdminTeleport implements IAdminCommandHandler
 			L2NpcTemplate template1 = NpcTable.getInstance().getTemplate(monsterTemplate);
 			if (template1 == null)
 			{
-				activeChar.sendMessage(152);
+				activeChar.sendMessage(1892);
 				_log.warning("ERROR: NPC " + target.getObjectId() + " has a 'null' template.");
 				return;
 			}
@@ -511,7 +494,7 @@ public class AdminTeleport implements IAdminCommandHandler
 			L2Spawn spawn = target.getSpawn();
 			if (spawn == null)
 			{
-				activeChar.sendMessage(151);
+				activeChar.sendMessage(1893);
 				_log.warning("ERROR: NPC " + target.getObjectId() + " has a 'null' spawn.");
 				return;
 			}
@@ -541,10 +524,7 @@ public class AdminTeleport implements IAdminCommandHandler
 				SpawnTable.getInstance().addNewSpawn(spawn, true);
 				spawn.init();
 				
-				L2CoreMessage cm =  new L2CoreMessage (MessageTable.Messages[94]);
-				cm.addString(template1.name);
-				cm.addNumber(target.getObjectId());
-				cm.sendMessage(activeChar);
+				activeChar.sendMessage(MessageTable.Messages[1894].getExtra(1) + template1.name +  MessageTable.Messages[1894].getExtra(2));
 				
 				if (Config.DEBUG)
 				{
@@ -554,7 +534,7 @@ public class AdminTeleport implements IAdminCommandHandler
 			}
 			catch (Exception e)
 			{
-				activeChar.sendPacket(new SystemMessage(SystemMessageId.TARGET_IS_NOT_FOUND_IN_THE_GAME));
+				activeChar.sendMessage("Target is not in game.");
 			}
 			
 		}
@@ -566,7 +546,7 @@ public class AdminTeleport implements IAdminCommandHandler
 			double curMP = target.getCurrentMp();
 			if (spawn == null)
 			{
-				activeChar.sendMessage(517);
+				activeChar.sendMessage(1895);
 				_log.warning("ERROR: NPC Id" + target.getNpcId() + " has a 'null' spawn.");
 				return;
 			}

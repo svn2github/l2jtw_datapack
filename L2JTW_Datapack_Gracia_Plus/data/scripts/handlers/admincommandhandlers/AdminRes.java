@@ -27,7 +27,6 @@ import com.l2jserver.gameserver.network.SystemMessageId;
 import com.l2jserver.gameserver.network.serverpackets.SystemMessage;
 import com.l2jserver.gameserver.taskmanager.DecayTaskManager;
 import com.l2jserver.gameserver.datatables.MessageTable;
-import com.l2jserver.gameserver.model.L2CoreMessage;
 
 /**
  * This class handles following admin commands:
@@ -91,14 +90,12 @@ public class AdminRes implements IAdminCommandHandler
 					for (L2PcInstance knownPlayer : activeChar.getKnownList().getKnownPlayersInRadius(radius))
 						doResurrect(knownPlayer);
 					
-					L2CoreMessage cm =  new L2CoreMessage (MessageTable.Messages[265]);
-					cm.addNumber(radius);
-					cm.sendMessage(activeChar);
+					activeChar.sendMessage(MessageTable.Messages[1812].getExtra(1) + radius + MessageTable.Messages[1812].getExtra(2));
 					return;
 				}
 				catch (NumberFormatException e)
 				{
-					activeChar.sendMessage(105);
+					activeChar.sendMessage("Enter a valid player name or radius.");
 					return;
 				}
 			}
@@ -140,14 +137,12 @@ public class AdminRes implements IAdminCommandHandler
 					if (!(knownChar instanceof L2PcInstance) && !(knownChar instanceof L2ControllableMobInstance))
 						doResurrect(knownChar);
 				
-				L2CoreMessage cm =  new L2CoreMessage (MessageTable.Messages[264]);
-				cm.addNumber(radius);
-				cm.sendMessage(activeChar);
+				activeChar.sendMessage(MessageTable.Messages[1813].getExtra(1) + radius + MessageTable.Messages[1813].getExtra(2));
 			}
 		}
 		catch (NumberFormatException e)
 		{
-			activeChar.sendMessage(106);
+			activeChar.sendMessage("Enter a valid radius.");
 			return;
 		}
 		

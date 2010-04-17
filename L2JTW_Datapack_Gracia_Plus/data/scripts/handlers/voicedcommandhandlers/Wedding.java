@@ -45,7 +45,6 @@ import com.l2jserver.gameserver.network.serverpackets.SystemMessage;
 import com.l2jserver.gameserver.skills.AbnormalEffect;
 import com.l2jserver.gameserver.util.Broadcast;
 import com.l2jserver.gameserver.datatables.MessageTable;
-import com.l2jserver.gameserver.model.L2CoreMessage;
 
 /**
  * @author evill33t
@@ -87,14 +86,14 @@ public class Wedding implements IVoicedCommandHandler
 		
 		if (activeChar.isMarried())
 		{
-			activeChar.sendMessage(461);
+			activeChar.sendMessage(1215);
 			
 			AdenaAmount = (activeChar.getAdena() / 100) * Config.L2JMOD_WEDDING_DIVORCE_COSTS;
 			activeChar.getInventory().reduceAdena("Wedding", AdenaAmount, activeChar, null);
 			
 		}
 		else
-			activeChar.sendMessage(537);
+			activeChar.sendMessage(1216);
 		
 		L2PcInstance partner;
 		partner = (L2PcInstance) L2World.getInstance().findObject(_partnerId);
@@ -103,9 +102,9 @@ public class Wedding implements IVoicedCommandHandler
 		{
 			partner.setPartnerId(0);
 			if (partner.isMarried())
-				partner.sendMessage(640);
+				partner.sendMessage(1217);
 			else
-				partner.sendMessage(620);
+				partner.sendMessage(1218);
 			
 			// give adena
 			if (AdenaAmount > 0)
@@ -121,14 +120,14 @@ public class Wedding implements IVoicedCommandHandler
 		// check target
 		if (activeChar.getTarget() == null)
 		{
-			activeChar.sendMessage(209);
+			activeChar.sendMessage(1219);
 			return false;
 		}
 		
 		// check if target is a l2pcinstance
 		if (!(activeChar.getTarget() instanceof L2PcInstance))
 		{
-			activeChar.sendMessage(471);
+			activeChar.sendMessage(1220);
 			
 			return false;
 		}
@@ -136,7 +135,7 @@ public class Wedding implements IVoicedCommandHandler
 		// check if player is already engaged
 		if (activeChar.getPartnerId() != 0)
 		{
-			activeChar.sendMessage(443);
+			activeChar.sendMessage(1221);
 			if (Config.L2JMOD_WEDDING_PUNISH_INFIDELITY)
 			{
 				activeChar.startAbnormalEffect(AbnormalEffect.BIG_HEAD); // give player a Big Head
@@ -171,31 +170,31 @@ public class Wedding implements IVoicedCommandHandler
 		// check if player target himself
 		if (ptarget.getObjectId() == activeChar.getObjectId())
 		{
-			activeChar.sendMessage(168);
+			activeChar.sendMessage(1222);
 			return false;
 		}
 		
 		if (ptarget.isMarried())
 		{
-			activeChar.sendMessage(232);
+			activeChar.sendMessage(1223);
 			return false;
 		}
 		
 		if (ptarget.isEngageRequest())
 		{
-			activeChar.sendMessage(230);
+			activeChar.sendMessage(1224);
 			return false;
 		}
 		
 		if (ptarget.getPartnerId() != 0)
 		{
-			activeChar.sendMessage(231);
+			activeChar.sendMessage(1225);
 			return false;
 		}
 		
 		if (ptarget.getAppearance().getSex() == activeChar.getAppearance().getSex() && !Config.L2JMOD_WEDDING_SAMESEX)
 		{
-			activeChar.sendMessage(125);
+			activeChar.sendMessage(1226);
 			return false;
 		}
 		
@@ -236,15 +235,13 @@ public class Wedding implements IVoicedCommandHandler
 		
 		if (!FoundOnFriendList)
 		{
-			activeChar.sendMessage(314);
+			activeChar.sendMessage(1227);
 			return false;
 		}
 		
 		ptarget.setEngageRequest(true, activeChar.getObjectId());
 		// $s1
-		L2CoreMessage cm = new L2CoreMessage (MessageTable.Messages[1162]);
-		cm.addString(activeChar.getName());
-		ConfirmDlg dlg = new ConfirmDlg(SystemMessageId.S1.getId()).addString(cm.renderMsg());
+		ConfirmDlg dlg = new ConfirmDlg(SystemMessageId.S1.getId()).addString(MessageTable.Messages[1228].getExtra(1) + activeChar.getName() + MessageTable.Messages[1228].getExtra(2));
 		ptarget.sendPacket(dlg);
 		return true;
 	}
@@ -253,25 +250,25 @@ public class Wedding implements IVoicedCommandHandler
 	{
 		if (!activeChar.isMarried())
 		{
-			activeChar.sendMessage(604);
+			activeChar.sendMessage(1229);
 			return false;
 		}
 		
 		if (activeChar.getPartnerId() == 0)
 		{
-			activeChar.sendMessage(91);
+			activeChar.sendMessage(1230);
 			_log.severe("Married but couldn't find parter for " + activeChar.getName());
 			return false;
 		}
 		
 		if (GrandBossManager.getInstance().getZone(activeChar) != null)
 		{
-			activeChar.sendMessage(456);
+			activeChar.sendMessage(1231);
 			return false;
 		}
 		if (activeChar.isCombatFlagEquipped())
 		{
-			activeChar.sendMessage("While you are holding a Combat Flag or Territory Ward you can't go to your love!");
+			activeChar.sendMessage(1232);
 			return false;
 		}
 		
@@ -279,57 +276,57 @@ public class Wedding implements IVoicedCommandHandler
 		partner = (L2PcInstance) L2World.getInstance().findObject(activeChar.getPartnerId());
 		if (partner == null)
 		{
-			activeChar.sendMessage(635);
+			activeChar.sendMessage(1233);
 			return false;
 		}
 		else if (activeChar.getInstanceId() != partner.getInstanceId())
 		{
-			activeChar.sendMessage(69);
+			activeChar.sendMessage(1234);
 			return false;
 		}
 		else if (partner.isInJail())
 		{
-			activeChar.sendMessage(626);
+			activeChar.sendMessage(1235);
 			return false;
 		}
 		else if (GrandBossManager.getInstance().getZone(partner) != null)
 		{
-			activeChar.sendMessage(634);
+			activeChar.sendMessage(1236);
 			return false;
 		}
 		else if (partner.isInOlympiadMode())
 		{
-			activeChar.sendMessage(632);
+			activeChar.sendMessage(1237);
 			return false;
 		}
 		else if (partner.atEvent)
 		{
-			activeChar.sendMessage(629);
+			activeChar.sendMessage(1238);
 			return false;
 		}
 		else if (partner.isInDuel())
 		{
-			activeChar.sendMessage(627);
+			activeChar.sendMessage(1239);
 			return false;
 		}
 		else if (partner.isFestivalParticipant())
 		{
-			activeChar.sendMessage(628);
+			activeChar.sendMessage(1240);
 			return false;
 		}
 		else if (partner.isInParty() && partner.getParty().isInDimensionalRift())
 		{
-			activeChar.sendMessage(630);
+			activeChar.sendMessage(1241);
 			return false;
 		}
 		else if (partner.inObserverMode())
 		{
-			activeChar.sendMessage(633);
+			activeChar.sendMessage(1242);
 			return false;
 		}
 		else if (SiegeManager.getInstance().getSiege(partner) != null && SiegeManager.getInstance().getSiege(partner).getIsInProgress())
 		{
-			activeChar.sendMessage(631);
+			activeChar.sendMessage(1243);
 			return false;
 		}
 		else if (partner.isIn7sDungeon() && !activeChar.isIn7sDungeon())
@@ -342,7 +339,7 @@ public class Wedding implements IVoicedCommandHandler
 			{
 				if (playerCabal != compWinner)
 				{
-					activeChar.sendMessage(607);
+					activeChar.sendMessage(1244);
 					return false;
 				}
 			}
@@ -350,59 +347,59 @@ public class Wedding implements IVoicedCommandHandler
 			{
 				if (playerCabal == SevenSigns.CABAL_NULL)
 				{
-					activeChar.sendMessage(608);
+					activeChar.sendMessage(1245);
 					return false;
 				}
 			}
 		}
 		else if (!TvTEvent.onEscapeUse(partner.getObjectId()))
 		{
-			activeChar.sendMessage(629);
+			activeChar.sendMessage(1246);
 			return false;
 		}
 		else if (partner.isInsideZone(L2Character.ZONE_NOSUMMONFRIEND))
 		{
-			activeChar.sendMessage(759);
+			activeChar.sendMessage(1247);
 			return false;
 		}
 		else if (activeChar.isInJail())
 		{
-			activeChar.sendMessage(447);
+			activeChar.sendMessage(1248);
 			return false;
 		}
 		else if (activeChar.isInOlympiadMode())
 		{
-			activeChar.sendMessage(453);
+			activeChar.sendMessage(1249);
 			return false;
 		}
 		else if (activeChar.atEvent)
 		{
-			activeChar.sendMessage(450);
+			activeChar.sendMessage(1250);
 			return false;
 		}
 		else if (activeChar.isInDuel())
 		{
-			activeChar.sendMessage(448);
+			activeChar.sendMessage(1251);
 			return false;
 		}
 		else if (activeChar.inObserverMode())
 		{
-			activeChar.sendMessage(455);
+			activeChar.sendMessage(1252);
 			return false;
 		}
 		else if (SiegeManager.getInstance().getSiege(activeChar) != null && SiegeManager.getInstance().getSiege(activeChar).getIsInProgress())
 		{
-			activeChar.sendMessage(452);
+			activeChar.sendMessage(1253);
 			return false;
 		}
 		else if (activeChar.isFestivalParticipant())
 		{
-			activeChar.sendMessage(449);
+			activeChar.sendMessage(1254);
 			return false;
 		}
 		else if (activeChar.isInParty() && activeChar.getParty().isInDimensionalRift())
 		{
-			activeChar.sendMessage(454);
+			activeChar.sendMessage(1255);
 			return false;
 		}
 		// Thanks nbd
@@ -413,27 +410,25 @@ public class Wedding implements IVoicedCommandHandler
 		}
 		else if (activeChar.isInsideZone(L2Character.ZONE_NOSUMMONFRIEND))
 		{
-			activeChar.sendPacket(new SystemMessage(SystemMessageId.YOUR_TARGET_IS_IN_AN_AREA_WHICH_BLOCKS_SUMMONING));
+			activeChar.sendMessage(1256);
 			return false;
 		}
 		//Add By Tiger 2010/01/13 (S)
-        else if (activeChar.isCursedWeaponEquipped()) 
-	 	{
-			activeChar.sendMessage(769); 
-			return false; 
-	 	}
-        else if (partner.isCursedWeaponEquipped())
-	 	{
-			activeChar.sendMessage(780); 
-			return false; 
-	 	}
+		else if (activeChar.isCursedWeaponEquipped())
+		{
+			activeChar.sendMessage(1257);
+			return false;
+		}
+		else if (partner.isCursedWeaponEquipped())
+		{
+			activeChar.sendMessage(1258);
+			return false;
+		}
 		//Add By Tiger 2010/01/13 (E)
 		
 		int teleportTimer = Config.L2JMOD_WEDDING_TELEPORT_DURATION * 1000;
 		
-		L2CoreMessage cm =  new L2CoreMessage (MessageTable.Messages[36]);
-		cm.addNumber(teleportTimer / 60000);
-		activeChar.sendMessage(cm.renderMsg());
+		activeChar.sendMessage(MessageTable.Messages[1259].getExtra(1) + teleportTimer / 60000 + MessageTable.Messages[1259].getExtra(2));
 		activeChar.getInventory().reduceAdena("Wedding", Config.L2JMOD_WEDDING_TELEPORT_PRICE, activeChar, null);
 		
 		activeChar.getAI().setIntention(CtrlIntention.AI_INTENTION_IDLE);
@@ -479,7 +474,7 @@ public class Wedding implements IVoicedCommandHandler
 			
 			if(SiegeManager.getInstance().getSiege(_partnerx, _partnery, _partnerz) != null && SiegeManager.getInstance().getSiege(_partnerx, _partnery, _partnerz).getIsInProgress())
 			{
-				_activeChar.sendMessage(631);
+				_activeChar.sendMessage(1260);
 				return;
 			}
 			
