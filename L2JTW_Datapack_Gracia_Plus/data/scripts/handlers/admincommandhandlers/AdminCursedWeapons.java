@@ -141,7 +141,7 @@ public class AdminCursedWeapons implements IAdminCommandHandler
                                             "<tr><td><button value=\""+MessageTable.Messages[1505].getMessage()+"\" action=\"bypass -h admin_cw_remove ",
                                             String.valueOf(itemId),
                                             "\" width=73 height=21 back=\"L2UI_ct1.button_df\" fore=\"L2UI_ct1.button_df\"></td>" +
-                                            "<td><button value=\""+MessageTable.Messages[506].getMessage()+"\" action=\"bypass -h admin_cw_goto ",
+                                            "<td><button value=\""+MessageTable.Messages[1506].getMessage()+"\" action=\"bypass -h admin_cw_goto ",
                                             String.valueOf(itemId),
                                             "\" width=73 height=21 back=\"L2UI_ct1.button_df\" fore=\"L2UI_ct1.button_df\"></td></tr>"
                                             );
