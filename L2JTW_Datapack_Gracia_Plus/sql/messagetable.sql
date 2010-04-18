@@ -529,6 +529,10 @@ INSERT INTO `messagetable` VALUES ('208', 'en', 'You can only summon this as a r
 INSERT INTO `messagetable` VALUES ('208', 'tw', '只有攻城方才能召喚。', '', 'SiegeManager.java');
 INSERT INTO `messagetable` VALUES ('208', 'cn', '只有攻城方才能召唤。', '', 'SiegeManager.java');
 
+INSERT INTO `messagetable` VALUES ('210', 'en', 'No current spawns found.', '', 'SpawnTable.java');
+INSERT INTO `messagetable` VALUES ('210', 'tw', '指定的 NPC 不存在。', '', 'SpawnTable.java');
+INSERT INTO `messagetable` VALUES ('210', 'cn', '指定的 NPC 不存在。', '', 'SpawnTable.java');
+
 INSERT INTO `messagetable` VALUES ('211', 'en', '', 'Lv ;*', 'AbstractNpcInfo.java');
 INSERT INTO `messagetable` VALUES ('211', 'tw', '', '等級：;(主動)', 'AbstractNpcInfo.java');
 INSERT INTO `messagetable` VALUES ('211', 'cn', '', '等级：;(主动)', 'AbstractNpcInfo.java');
