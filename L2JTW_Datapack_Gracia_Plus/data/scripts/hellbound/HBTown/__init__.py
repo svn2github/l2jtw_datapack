@@ -30,7 +30,7 @@ AMARAKIS   = 22449  # ¨ÈÁÚ¤h±d¨½ «þ°Ý±M®a
 KEYMASTER  = 22361  # ¿ûÅK¤§«° Æ_°Í¦u½Ã
 KEYEVILEYE = 9714   # ´cÅ]¨è¯¾Æ_°Í
 
-ReturnPort = [[13093,282097,-9699]]
+#ReturnPort = [[13093,282097,-9699]]
 dataIndex  = 0
 
 class PyObject :
@@ -208,7 +208,7 @@ class Quest(JQuest) :
 					tele.y = 282097
 					tele.z = -9699
 					instanceObj = InstanceManager.getInstance().getInstance(self.currentWorld)
-					instanceObj.setReturnTeleport(ReturnPort[dataIndex][0],ReturnPort[dataIndex][1],ReturnPort[dataIndex][2])
+					#instanceObj.setReturnTeleport(ReturnPort[dataIndex][0],ReturnPort[dataIndex][1],ReturnPort[dataIndex][2])
 					instanceObj.setDuration(300000)
 					return
 		return ""
