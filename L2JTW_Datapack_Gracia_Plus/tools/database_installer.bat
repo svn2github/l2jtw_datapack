@@ -797,6 +797,8 @@ skill.sql
 l2jtw_addon_1.sql
 l2jtw_addon_2.sql
 ) do call :dump %%i
+if exist ..\libs\javolution-5.3.1.jar del ..\libs\javolution-5.3.1.jar >nul
+if exist ..\libs\cachedir\packages\javolution-5.3.1.pkc del ..\libs\cachedir\packages\javolution-5.3.1.pkc >nul
 echo งนฆจ...
 echo.
 goto custom
