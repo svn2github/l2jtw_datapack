@@ -46,6 +46,7 @@
 		<table name="#ench2MpConsume"> 78 77 76 75 73 72 72 71 70 68 67 66 65 65 63 62 61 60 58 57 57 56 55 53 52 51 50 50 48 47 </table>
 		<table name="#mpConsume"> 60 64 65 67 69 72 74 77 78 80 80 </table>
 		<table name="#power"> 690 722 753 783 812 840 867 892 915 936 946 </table>
+		<set name="aggroPoints" val="#power" />
 		<set name="mpConsume" val="#mpConsume" />
 		<set name="itemConsumeId" val="3031" />
 		<set name="itemConsumeCount" val="1" />
@@ -72,6 +73,7 @@
 		<table name="#ench34Power"> 1174 1178 1183 1187 1191 1196 1200 1204 1209 1213 1218 1222 1226 1231 1235 1239 1244 1248 1252 1257 1261 1266 1270 1274 1279 1283 1287 1292 1296 1301 </table>
 		<table name="#mpConsume"> 189 199 214 228 239 </table>
 		<table name="#power"> 902 979 1050 1115 1170 </table>
+		<set name="aggroPoints" val="#power" />
 		<set name="mpConsume" val="#mpConsume" />
 		<set name="itemConsumeId" val="3031" />
 		<set name="itemConsumeCount" val="4" />
@@ -88,11 +90,15 @@
 		<enchant3 name="power" val="#ench34Power" />
 		<enchant3 name="negateStats" val="POISON" />
 		<enchant3 name="negateLvl" val="9" />
-		<enchant3 name="effectType" val="NEGATE" />
 		<enchant4 name="power" val="#ench34Power" />
 		<enchant4 name="negateStats" val="BLEED" />
 		<enchant4 name="negateLvl" val="9" />
-		<enchant4 name="effectType" val="NEGATE" />
+		<enchant3for>
+			<!-- <effect name="Negate" val="0" effectType="NEGATE" /> TODO: Needs Core-Side Support -->
+		</enchant3for>
+		<enchant4for>
+			<!-- <effect name="Negate" val="0" effectType="NEGATE" /> TODO: Needs Core-Side Support -->
+		</enchant4for>
 	</skill>
 	<skill id="1403" levels="1" name="Summon Friend">
 		<set name="target" val="TARGET_PARTY_MEMBER" />
@@ -250,12 +256,23 @@
 		</for>
 	</skill>
 	<skill id="1412" levels="1" name="Spell Turning">
-		<!-- Cancels a nearby target's magic casting. -->
-		<set name="target" val="TARGET_NONE" />
-		<set name="skillType" val="NOTDONE" />
-		<set name="operateType" val="OP_PASSIVE" />
+		<set name="castRange" val="150" />
+		<set name="effectRange" val="650" />
 		<set name="hitTime" val="500" />
+		<set name="ignoreResists" val="true" />
+		<set name="isDebuff" val="true" />
+		<set name="isMagic" val="true" />
+		<set name="magicLvl" val="79" />
+		<set name="mpConsume" val="27" />
+		<set name="operateType" val="OP_ACTIVE" />
+		<set name="power" val="100" /> <!-- Base Land Rate -->
 		<set name="reuseDelay" val="30000" />
+		<set name="skillRadius" val="80" />
+		<set name="skillType" val="DEBUFF" />
+		<set name="target" val="TARGET_MULTIFACE" />
+		<for>
+			<effect name="AbortCast" noicon="1" val="0" />
+		</for>
 	</skill>
 	<skill id="1413" levels="1" name="Magnus' Chant" enchantGroup1="5" enchantGroup2="5">
 		<table name="#ench1Time"> 320 340 360 380 400 420 440 460 480 500 520 540 560 580 600 </table>
@@ -682,6 +699,7 @@
 		</cond>
 	</skill>
 	<skill id="1426" levels="1" name="Miracle">
+		<set name="aggroPoints" val="100" />
 		<set name="itemConsumeId" val="8876" />
 		<set name="itemConsumeCount" val="1" />
 		<set name="mpConsume" val="72" />
@@ -1050,7 +1068,7 @@
 		<!-- CT2.2 retail confirmed -->
 		<table name="#mpConsume_Init"> 5 8 </table>
 		<table name="#mpConsume"> 33 42 </table>
-		<table name="#Tab-mAtk"> 1.55 1.65 </table>
+		<table name="#mAtk"> 1.55 1.65 </table>
 		<set name="mpInitialConsume" val="#mpConsume_Init" />
 		<set name="mpConsume" val="#mpConsume" />
 		<set name="target" val="TARGET_SELF" />
@@ -1060,8 +1078,8 @@
 		<set name="hitTime" val="2000" />
 		<set name="isMagic" val="true" />
 		<for>
-			<effect name="Buff" time="1200" val="0" stackOrder="#Tab-mAtk" stackType="ma_up">
-				<mul order="0x30" stat="mAtk" val="#Tab-mAtk" />
+			<effect name="Buff" time="1200" val="0" stackOrder="#mAtk" stackType="ma_up">
+				<mul order="0x30" stat="mAtk" val="#mAtk" />
 			</effect>
 		</for>
 	</skill>
@@ -2046,12 +2064,12 @@
 				<add order="0x40" stat="mDef" val="#mDef" />
 			</effect>
 		</for>
-		<for>
+		<enchant2for>
 			<effect name="Buff" time="#ench2Time" val="0" stackOrder="1" stackType="pd_up_special">
 				<add order="0x40" stat="pDef" val="1800" />
 				<add order="0x40" stat="mDef" val="1350" />
 			</effect>
-		</for>
+		</enchant2for>
 	</skill>
 	<skill id="1479" levels="3" name="Magic Impulse" enchantGroup1="1" enchantGroup2="1" enchantGroup3="1">
 		<table name="#enchantMagicLvl"> 76 76 76 77 77 77 78 78 78 79 79 79 80 80 80 81 81 81 82 82 82 82 83 83 83 84 84 85 85 85 </table>
@@ -2319,11 +2337,12 @@
 	<skill id="1488" levels="3" name="Restoration Impact" enchantGroup1="1">
 		<table name="#mpConsume_Init"> 7 8 10 </table>
 		<table name="#mpConsume"> 16 20 23 </table>
-		<table name="#Tab-power"> 10 15 20 </table>
+		<table name="#power"> 10 15 20 </table>
 		<table name="#ench1Power"> 21 22 23 24 25 26 27 28 29 30 31 32 33 34 35 36 37 38 39 40 41 42 43 44 45 46 47 48 49 50 </table>
+		<set name="aggroPoints" val="#power" />
 		<set name="mpInitialConsume" val="#mpConsume_Init" />
 		<set name="mpConsume" val="#mpConsume" />
-		<set name="power" val="#Tab-power" />
+		<set name="power" val="#power" />
 		<set name="hitTime" val="1000" />
 		<set name="operateType" val="OP_ACTIVE" />
 		<set name="isMagic" val="true" />
@@ -2445,7 +2464,7 @@
 		<set name="itemConsumeCount" val="5" />
 		<set name="itemConsumeId" val="3031" />
 		<set name="hitTime" val="2500" />
-		<set name="reuseDelay" val="240000" />
+		<set name="reuseDelay" val="240000" /> <!-- Korean site say 300, probably changed in Epilogue or Freya -->
 		<set name="magicLvl" val="81" />
 		<set name="mpConsume" val="73" />
 		<set name="target" val="TARGET_PET" />
@@ -2458,7 +2477,7 @@
 		<set name="effectRange" val="900" />
 		<set name="removedOnAnyActionExceptMove" val="true" />
 		<for>
-			<effect name="Invincible" time="8" val="0" stackOrder="1" stackType="Instant_Shield" special="invincible" />
+			<effect name="Invincible" time="30" val="0" stackOrder="1" stackType="Instant_Shield" special="invincible" />
 		</for>
 	</skill>
 	<skill id="1497" levels="1" name="Excessive Royalty">
