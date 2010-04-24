@@ -35,7 +35,7 @@ import com.l2jserver.Config;
 
 /**
  * Antharas AI
- * @author Emperorc
+ * @author rocknow
  */
 public class Antharas extends L2AttackableAIScript
 {

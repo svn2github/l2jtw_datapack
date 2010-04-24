@@ -17,7 +17,7 @@ import com.l2jserver.ExternalConfig;
 
 /**
  * Sailren AI
- * Update by rocknow
+ * @author rocknow
  */
 public class Sailren extends L2AttackableAIScript
 {

@@ -52,7 +52,7 @@ import com.l2jserver.ExternalConfig;
  * @author Darki699
  * @author SANDMAN L2J_JP(modified)
  * @author JOJO
- * Update by rocknow
+ * @author rocknow
  */
 public class Frintezza extends L2AttackableAIScript
 {

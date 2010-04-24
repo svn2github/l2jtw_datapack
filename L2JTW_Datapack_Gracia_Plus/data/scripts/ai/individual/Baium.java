@@ -34,7 +34,7 @@ import com.l2jserver.Config;
 
 /**
  * Baium AI
- * @author Fulminus version 0.1
+ * @author rocknow
  */
 public class Baium extends L2AttackableAIScript
 {

@@ -30,7 +30,7 @@ import com.l2jserver.Config;
 
 /**
  * Valakas AI
- * @author Kerberos
+ * @author rocknow
  */
 public class Valakas extends L2AttackableAIScript
 {
