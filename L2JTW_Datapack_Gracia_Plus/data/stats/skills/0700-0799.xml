@@ -233,7 +233,7 @@
 		<set name="target" val="TARGET_PET" />
 		<for>
 			<effect name="Buff" time="300" val="0" stackOrder="2" stackType="multi_buff">
-				<mul order="0x30" stat="rCrit" val="1.2" />
+				<basemul order="0x30" stat="rCrit" val="0.2" />
 				<mul order="0x30" stat="pAtk" val="1.1" />
 				<mul order="0x30" stat="cAtk" val="1.2" />
 				<mul order="0x30" stat="pAtkSpd" val="1.2" />
@@ -753,7 +753,7 @@
 		<set name="hitTime" val="2000" />
 		<set name="reuseDelay" val="60000" />
 		<for>
-			<effect count="5" name="Fear" time="2" val="0" stackOrder="1" stackType="Fear" />
+			<effect count="5" name="Fear" time="2" val="0" stackOrder="1" stackType="Fear" effectPower="60" effectType="FEAR" />
 		</for>
 	</skill>
 	<skill id="748" levels="1" name="Saber Tooth Tiger Sprint">
@@ -1258,7 +1258,7 @@
 		</for>
 	</skill>
 	<skill id="776" levels="1" name="Force of Destruction">
-		<!-- TODO: Reuse & effecPower needs to be verified -->
+		<!-- TODO: effecPower needs to be verified -->
 		<set name="baseCritRate" val="15" />
 		<set name="castRange" val="40" />
 		<set name="effectRange" val="400" />
@@ -1269,7 +1269,7 @@
 		<set name="operateType" val="OP_ACTIVE" />
 		<set name="overHit" val="true" />
 		<set name="power" val="2516" />
-		<set name="reuseDelay" val="20000" />
+		<set name="reuseDelay" val="15000" />
 		<set name="skillType" val="CHARGEDAM" />
 		<set name="SSBoost" val="2.0" />
 		<set name="target" val="TARGET_ONE" />
@@ -1436,6 +1436,7 @@
 	</skill>
 	<skill id="785" levels="1" name="Flame Icon">
 		<set name="hitTime" val="1800" />
+		<set name="hpConsume" val="1253" />
 		<set name="magicLvl" val="83" />
 		<set name="operateType" val="OP_ACTIVE" />
 		<set name="reuseDelay" val="150000" />
@@ -1484,8 +1485,6 @@
 	</skill>
 	<skill id="787" levels="1" name="Touch of Eva">
 		<set name="aggroPoints" val="811" />
-		<set name="castRange" val="40" />
-		<set name="effectRange" val="400" />
 		<set name="hitTime" val="1800" />
 		<set name="hpConsume" val="1253" />
 		<set name="magicLvl" val="83" />
@@ -1596,7 +1595,7 @@
 		<table name="#enchantMagicLvl"> 78 79 79 80 80 81 81 82 82 83 83 84 84 85 85 </table>
 		<table name="#ench1Power"> 4071 4102 4133 4164 4195 4226 4257 4289 4320 4351 4382 4413 4444 4475 4507 </table>
 		<table name="#ench2mpConsume"> 80 78 76 74 72 70 68 66 64 62 59 57 55 53 51 </table>
-		<table name="#ench3effectPower"> 81 82 83 84 85 86 87 88 89 90 91 92 93 94 95 </table>
+		<table name="#ench3effectPower"> 61 62 63 64 65 66 67 68 69 70 71 72 73 74 75 </table>
 		<table name="#enchElementPower"> 4 7 10 14 17 20 24 27 30 34 37 40 43 47 50 </table>
 		<table name="#ench8Duel"> 4104 4168 4232 4297 4361 4425 4490 4554 4618 4683 4747 4811 4875 4940 5004 </table>
 		<enchant1 name="magicLvl" val="#enchantMagicLvl" />

@@ -494,7 +494,7 @@
 		</cond>
 		<for>
 			<effect name="Buff" time="15" val="0" stackOrder="1" stackType="Nobl">
-				<add order="0x40" stat="mDef" val="4500" /> <!-- Update by rocknow -->
+				<add order="0x40" stat="mDef" val="4500" />
 				<mul order="0x30" stat="runSpd" val="1.25" />
 				<mul order="0x30" stat="cancelVuln" val="0.2" />
 				<mul order="0x30" stat="bowWpnVuln" val="0.2" />
@@ -1071,7 +1071,7 @@
 		<enchant2 name="mpInitialConsume" val="#ench2mpInitialConsume" />
 		<enchant2 name="mpConsume" val="#ench2mpConsume" />
 		<enchant4 name="elementPower" val="#ench4elementPower" />
-		<set name="absorbPart" val="0.8" /> <!-- Dark Vortex: Power is reduced but drain percentage is increased - so I changed 0.7 -> 0.8 -->
+		<set name="absorbPart" val="0.4" /> <!-- absorbs 40% of inflicted damage as HP -->
 		<for>
 			<!-- Retail Values CT2.3: 12MP * 3 Sec -->
 			<effect count="10" name="ManaDamOverTime" time="3" val="36" effectPower="80" effectType="MDOT">
@@ -1286,7 +1286,7 @@
 		</for>
 		<enchant1for>
 			<effect name="Buff" time="#ench1Time" val="0" stackOrder="1" stackType="multi_buff">
-				<mul order="0x30" stat="rCrit" val="1.2" />
+				<basemul order="0x30" stat="rCrit" val="0.2" />
 				<mul order="0x30" stat="pAtk" val="1.1" />
 				<mul order="0x30" stat="cAtk" val="1.2" />
 				<mul order="0x30" stat="pAtkSpd" val="1.2" />
@@ -1821,7 +1821,7 @@
 		<for>
 			<effect name="Buff" time="300" val="0" stackOrder="1" stackType="multi_buff">
 				<mul order="0x30" stat="maxHp" val="1.2" />
-				<basemul order="0x30" stat="mCritRate" val="0.2" />
+				<!-- TODO: Needs core-side support for... "damage magic critical attack power by 2" -->
 				<mul order="0x30" stat="cAtk" val="1.2" />
 				<mul order="0x30" stat="pAtk" val="1.1" />
 				<mul order="0x30" stat="pDef" val="1.2" />
@@ -1837,7 +1837,7 @@
 		<enchant1for>
 			<effect name="Buff" time="#ench1Time" val="0" stackOrder="1" stackType="multi_buff">
 				<mul order="0x30" stat="maxHp" val="1.2" />
-				<basemul order="0x30" stat="mCritRate" val="0.2" />
+				<!-- TODO: Needs core-side support for... "damage magic critical attack power by 2" -->
 				<mul order="0x30" stat="cAtk" val="1.2" />
 				<mul order="0x30" stat="pAtk" val="1.1" />
 				<mul order="0x30" stat="pDef" val="1.2" />
@@ -1853,7 +1853,7 @@
 		<enchant3for>
 			<effect name="Buff" time="300" val="0" stackOrder="1" stackType="multi_buff">
 				<mul order="0x30" stat="maxHp" val="1.2" />
-				<basemul order="0x30" stat="mCritRate" val="0.2" />
+				<!-- TODO: Needs core-side support for... "damage magic critical attack power by 2" -->
 				<mul order="0x30" stat="cAtk" val="1.2" />
 				<mul order="0x30" stat="pAtk" val="1.1" />
 				<mul order="0x30" stat="pDef" val="1.2" />
@@ -1892,11 +1892,11 @@
 			</effect>
 		</for>
 		<enchant1for>
-			<effect name="Buff" time="#ench1Time" val="0" stackOrder="1" stackType="critVuln">
-				<mul order="0x30" stat="critVuln" val="0.7" />
-			</effect>
-			<effect name="Buff" time="#ench1Time" val="0" stackOrder="1" stackType="hit_up" noicon="1">
+			<effect name="Buff" time="#ench1Time" val="0" stackOrder="90" stackType="hit_up">
 				<add order="0x40" stat="accCombat" val="4" />
+			</effect>
+			<effect name="Buff" time="#ench1Time" val="0" noicon="1" stackOrder="90" stackType="critDamEvas">
+				<mul order="0x30" stat="critDamEvas" val="1.3" />
 			</effect>
 		</enchant1for>
 	</skill>
@@ -1925,10 +1925,10 @@
 			</effect>
 		</for>
 		<enchant1for>
-			<effect name="Buff" time="#ench1Time" val="0" stackOrder="1.75" stackType="ma_up">
+			<effect name="Buff" time="#ench1Time" val="0" stackOrder="90" stackType="ma_up">
 				<mul order="0x30" stat="mAtk" val="1.75" />
 			</effect>
-			<effect name="Buff" time="#ench1Time" val="0" stackOrder="1.75" stackType="MagicDefUp" noicon="1">
+			<effect name="Buff" time="#ench1Time" noicon="1" val="0" stackOrder="90" stackType="MagicDefUp">
 				<mul order="0x30" stat="mDef" val="1.3" />
 			</effect>
 		</enchant1for>

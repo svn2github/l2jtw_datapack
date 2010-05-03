@@ -261,7 +261,7 @@
 			<effect name="Buff" time="120" val="0">
 				<mul order="0x30" stat="debuffVuln" val="0.7" />
 				<mul order="0x30" stat="gainHp" val="1.3" />
-				<!-- Missing: Provides an 80% chance of removing a party member's de-buffs. (When Used) -->
+				<!-- TODO: Provides an 80% chance of removing a party member's de-buffs. (When Used) -->
 			</effect>
 		</for>
 	</skill>
@@ -442,9 +442,9 @@
 		<set name="skillType" val="BUFF" />
 		<set name="target" val="TARGET_SELF" />
 		<for>
-			<mul order="0x30" stat="giveHp" val="1.3">
+			<add order="0x40" stat="bonusHp" val="30">
 				<using kind="Sigil" />
-			</mul>
+			</add>
 			<mul order="0x30" stat="regMp" val="1.17">
 				<using kind="Sigil" />
 			</mul>
@@ -700,7 +700,7 @@
 			<mul order="0x30" stat="mAtk" val="1.05" />
 			<mul order="0x30" stat="mAtkSpd" val="1.05" />
 			<basemul order="0x30" stat="mCritRate" val="0.05" />
-			<mul order="0x30" stat="MagicalMpConsumeRate" val="1.05" />
+			<mul order="0x30" stat="MagicalMpConsumeRate" val="0.95" />
 		</for>
 	</skill>
 	<skill id="946" levels="1" name="Silent Mind">
