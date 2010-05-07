@@ -648,6 +648,9 @@ INSERT INTO `messagetable` VALUES ('279', 'cn', '盟徽大小超过 2176 bytes�
 INSERT INTO `messagetable` VALUES ('280', 'en', 'Only a clan that owns a clan hall or a castle can get their emblem displayed on clan related items', '', 'RequestExSetPledgeCrestLarge.java');
 INSERT INTO `messagetable` VALUES ('280', 'tw', '只有擁有根據地或是擁有城堡的血盟，才能在與血盟相關的道具上標示徽章。', '', 'RequestExSetPledgeCrestLarge.java');
 INSERT INTO `messagetable` VALUES ('280', 'cn', '只有拥有根据地或是拥有城堡的血盟，才能在与血盟相关的道具上标示徽章。', '', 'RequestExSetPledgeCrestLarge.java');
+INSERT INTO `messagetable` VALUES ('281', 'en', 'File Transfer Error.', '', 'RequestExSetPledgeCrestLarge.java');
+INSERT INTO `messagetable` VALUES ('281', 'tw', '檔案傳輸錯誤。', '', 'RequestExSetPledgeCrestLarge.java');
+INSERT INTO `messagetable` VALUES ('281', 'cn', '档案传输错误。', '', 'RequestExSetPledgeCrestLarge.java');
 
 INSERT INTO `messagetable` VALUES ('283', 'en', 'You are in target\'s block list.', '', 'RequestFriendInvite.java');
 INSERT INTO `messagetable` VALUES ('283', 'tw', '你在對方的隔絕名單。', '', 'RequestFriendInvite.java');
