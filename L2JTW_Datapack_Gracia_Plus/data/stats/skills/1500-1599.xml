@@ -101,15 +101,20 @@
 		</for>
 	</skill>
 	<skill id="1505" levels="1" name="Sublime Self-Sacrifice">
-		<set name="target" val="TARGET_NONE" />
-		<set name="skillType" val="NOTDONE" />
-		<set name="magicLvl" val="83" />
-		<set name="operateType" val="OP_PASSIVE" />
-		<set name="isMagic" val="true" />
 		<set name="hitTime" val="4000" />
-		<set name="reuseDelay" val="3600000" />
-		<set name="mpConsume" val="218" />
 		<set name="hpConsume" val="4000" />
+		<set name="isMagic" val="true" />
+		<set name="magicLvl" val="83" />
+		<set name="mpConsume" val="218" />
+		<set name="operateType" val="OP_ACTIVE" />
+		<set name="power" val="100" />
+		<set name="reuseDelay" val="3600000" />
+		<set name="skillRadius" val="1000" />
+		<set name="skillType" val="HPMPCPHEAL_PERCENT" />
+		<set name="target" val="TARGET_PARTY_NOTME" />
+		<for>
+			<effect name="Invincible" time="15" val="0" special="invincible" stackOrder="2" stackType="Instant_Shield" />
+		</for>
 	</skill>
 	<skill id="1506" levels="1" name="Blessing of Eva">
 		<set name="castRange" val="400" />
@@ -203,8 +208,6 @@
 	<skill id="1511" levels="8" name="Curse of Life Flow" enchantGroup1="1" enchantGroup2="1">
 		<!-- CT2.2 retail partially confirmed -->
 		<table name="#enchantMagicLvl"> 76 76 76 77 77 77 78 78 78 79 79 79 80 80 80 81 81 81 82 82 82 82 83 83 83 84 84 85 85 85 </table>
-		<enchant1 name="magicLvl" val="#enchantMagicLvl" />
-		<enchant2 name="magicLvl" val="#enchantMagicLvl" />
 		<table name="#magicLvl"> 60 62 64 66 68 70 72 74 </table>
 		<table name="#mpConsume"> 34 35 37 38 39 39 40 42 </table>
 		<table name="#lvl"> 1 2 3 4 5 6 7 8 </table>
@@ -223,6 +226,8 @@
 		<set name="effectRange" val="1200" />
 		<set name="isMagic" val="true" />
 		<set name="isDebuff" val="true" />
+		<enchant1 name="magicLvl" val="#enchantMagicLvl" />
+		<enchant2 name="magicLvl" val="#enchantMagicLvl" />
 		<for>
 			<effect name="ChanceSkillTrigger" time="30" val="0" triggeredId="5591" triggeredLevel="#lvl" chanceType="ON_ATTACKED_HIT" activationChance="40" abnormal="poison" stackOrder="8" stackType="poison" />
 		</for>
@@ -240,10 +245,6 @@
 		<table name="#ench2mpConsume"> 81 78 74 72 70 66 64 61 58 56 53 50 46 45 42 </table>
 		<table name="#ench3effectPower"> 81 82 83 84 85 86 87 88 89 90 91 92 93 94 95 </table>
 		<table name="#ench4Duel"> 114 116 118 119 121 123 124 126 128 130 131 133 135 136 138 </table>
-		<enchant1 name="magicLvl" val="#enchantMagicLvl" />
-		<enchant2 name="magicLvl" val="#enchantMagicLvl" />
-		<enchant3 name="magicLvl" val="#enchantMagicLvl" />
-		<enchant4 name="magicLvl" val="#enchantMagicLvl" />
 		<set name="mpInitialConsume" val="21" />
 		<set name="mpConsume" val="84" />
 		<set name="magicLvl" val="77" />
@@ -260,9 +261,13 @@
 		<set name="castRange" val="900" />
 		<set name="effectRange" val="1400" />
 		<set name="soulMaxConsumeCount" val="5" />
+		<enchant1 name="magicLvl" val="#enchantMagicLvl" />
 		<enchant1 name="power" val="#ench1Power" />
+		<enchant2 name="magicLvl" val="#enchantMagicLvl" />
 		<enchant2 name="mpInitialConsume" val="#ench2mpInitialConsume" />
 		<enchant2 name="mpConsume" val="#ench2mpConsume" />
+		<enchant3 name="magicLvl" val="#enchantMagicLvl" />
+		<enchant4 name="magicLvl" val="#enchantMagicLvl" />
 		<enchant4 name="pvpPower" val="#ench4Duel" />
 		<for>
 			<!-- Retail Values CT2.3: 12MP * 3 Sec -->
@@ -286,9 +291,6 @@
 		<table name="#ench2mpInitialConsume"> 20 20 19 18 18 17 16 15 15 14 13 13 12 11 11 </table>
 		<table name="#ench2mpConsume"> 82 78 77 74 70 68 65 62 60 57 54 50 48 46 42 </table>
 		<table name="#ench3Duel"> 198 199 201 202 204 205 206 208 209 211 212 213 215 216 218 </table>
-		<enchant1 name="magicLvl" val="#enchantMagicLvl" />
-		<enchant2 name="magicLvl" val="#enchantMagicLvl" />
-		<enchant3 name="magicLvl" val="#enchantMagicLvl" />
 		<set name="mpInitialConsume" val="28" />
 		<set name="mpConsume" val="80" />
 		<set name="magicLvl" val="79" />
@@ -303,9 +305,12 @@
 		<set name="effectRange" val="1400" />
 		<set name="negateId" val="1512" />
 		<set name="soulMaxConsumeCount" val="5" />
+		<enchant1 name="magicLvl" val="#enchantMagicLvl" />
 		<enchant1 name="power" val="#ench1Power" />
+		<enchant2 name="magicLvl" val="#enchantMagicLvl" />
 		<enchant2 name="mpInitialConsume" val="#ench2mpInitialConsume" />
 		<enchant2 name="mpConsume" val="#ench2mpConsume" />
+		<enchant3 name="magicLvl" val="#enchantMagicLvl" />
 		<enchant3 name="pvpPower" val="#ench3Duel" />
 		<cond msgId="109">
 			<target active_effect_id="1512" />
@@ -379,8 +384,6 @@
 		<table name="#enchantMagicLvl"> 76 76 77 78 78 79 80 80 81 82 82 83 84 85 85 </table>
 		<table name="#ench1Power"> 167 168 169 170 171 173 174 175 176 177 178 180 181 182 183 </table>
 		<table name="#ench2Duel"> 168 170 172 174 176 178 180 182 184 186 188 190 192 194 196 </table>
-		<enchant1 name="magicLvl" val="#enchantMagicLvl" />
-		<enchant2 name="magicLvl" val="#enchantMagicLvl" />
 		<set name="castRange" val="750" />
 		<set name="effectRange" val="1250" />
 		<set name="hitTime" val="2000" />
@@ -393,7 +396,9 @@
 		<set name="skillType" val="MDAM" />
 		<set name="soulMaxConsumeCount" val="5" />
 		<set name="target" val="TARGET_ONE" />
+		<enchant1 name="magicLvl" val="#enchantMagicLvl" />
 		<enchant1 name="power" val="#ench1Power" />
+		<enchant2 name="magicLvl" val="#enchantMagicLvl" />
 		<enchant2 name="pvpPower" val="#ench2Duel" />
 	</skill>
 	<skill id="1517" levels="1" name="Chant of Combat">
@@ -406,8 +411,6 @@
 		<set name="isMagic" val="true" />
 		<set name="magicLvl" val="70" />
 		<set name="operateType" val="OP_ACTIVE" />
-		<set name="castRange" val="400" />
-		<set name="effectRange" val="900" />
 		<set name="aggroPoints" val="655" />
 		<for>
 			<effect name="Buff" time="2400" val="0" stackOrder="90" stackType="pa_up">
@@ -612,14 +615,11 @@
 	</skill>
 	<skill id="1529" levels="7" name="Soul Web" enchantGroup1="1" enchantGroup2="1" enchantGroup3="1">
 		<table name="#enchantMagicLvl"> 76 76 76 77 77 77 78 78 78 79 79 79 80 80 80 81 81 81 82 82 82 82 83 83 83 84 84 85 85 85 </table>
-		<enchant1 name="magicLvl" val="#enchantMagicLvl" />
-		<enchant2 name="magicLvl" val="#enchantMagicLvl" />
-		<enchant3 name="magicLvl" val="#enchantMagicLvl" />
 		<table name="#magicLvl"> 62 64 66 68 70 72 74 </table>
 		<table name="#mpConsume"> 58 60 62 64 65 67 69 </table>
 		<table name="#ench1mpConsume"> 66 65 63 62 61 60 60 58 57 56 55 53 52 51 50 48 47 47 46 45 43 42 41 40 38 37 36 36 35 33 </table>
 		<table name="#ench2Power"> 60 60 61 61 61 62 62 62 63 63 63 64 64 64 65 65 65 66 66 66 67 67 67 68 68 68 69 69 69 70 </table>
-		<table name="#ench3Time"> 60 68 76 84 92 100 108 116 124 132 140 148 156 164 172 180 188 196 204 212 220 228 236 244 252 260 268 276 284 292 </table>
+		<table name="#ench3Time"> 68 76 84 92 100 108 116 124 132 140 148 156 164 172 180 188 196 204 212 220 228 236 244 252 260 268 276 284 292 300 </table>
 		<set name="mpConsume" val="#mpConsume" />
 		<set name="hitTime" val="2500" />
 		<set name="coolTime" val="200" />
@@ -632,8 +632,11 @@
 		<set name="castRange" val="600" />
 		<set name="effectRange" val="1200" />
 		<set name="isMagic" val="true" />
+		<enchant1 name="magicLvl" val="#enchantMagicLvl" />
 		<enchant1 name="mpConsume" val="#ench1mpConsume" />
+		<enchant2 name="magicLvl" val="#enchantMagicLvl" />
 		<enchant2 name="power" val="#ench2Power" />
+		<enchant3 name="magicLvl" val="#enchantMagicLvl" />
 		<for>
 			<effect name="Debuff" time="60" val="0" stackOrder="0.7" stackType="RunSpeedDown">
 				<mul order="0x30" stat="runSpd" val="0.7" />
@@ -647,9 +650,6 @@
 	</skill>
 	<skill id="1530" levels="13" name="Death Spike" enchantGroup1="2" enchantGroup2="2" enchantGroup3="2">
 		<table name="#enchantMagicLvl"> 76 76 76 77 77 77 78 78 78 79 79 79 80 80 80 81 81 81 82 82 82 82 83 83 83 84 84 85 85 85 </table>
-		<enchant1 name="magicLvl" val="#enchantMagicLvl" />
-		<enchant2 name="magicLvl" val="#enchantMagicLvl" />
-		<enchant3 name="magicLvl" val="#enchantMagicLvl" />
 		<table name="#mpConsume_Init"> 4 5 6 7 7 7 8 8 8 9 9 9 10 </table>
 		<table name="#mpConsume"> 19 22 24 28 29 31 32 33 35 36 37 38 40 </table>
 		<table name="#magicLvl"> 44 48 52 56 58 60 62 64 66 68 70 72 74 </table>
@@ -673,7 +673,10 @@
 		<set name="operateType" val="OP_ACTIVE" />
 		<set name="castRange" val="900" />
 		<set name="effectRange" val="1400" />
+		<enchant1 name="magicLvl" val="#enchantMagicLvl" />
+		<enchant2 name="magicLvl" val="#enchantMagicLvl" />
 		<enchant2 name="elementPower" val="#enchElementPower" />
+		<enchant3 name="magicLvl" val="#enchantMagicLvl" />
 		<enchant3 name="pvpPower" val="#enchDuel" />
 	</skill>
 	<skill id="1531" levels="7" name="Bless the Blood" enchantGroup1="1" enchantGroup2="1">
@@ -746,7 +749,7 @@
 		<set name="hitTime" val="2500" />
 	</skill>
 	<skill id="1535" levels="1" name="Chant of Movement">
-		<set name="mpConsume" val="65" />
+		<set name="mpConsume" val="69" />
 		<set name="target" val="TARGET_PARTY" />
 		<set name="skillType" val="BUFF" />
 		<set name="skillRadius" val="1000" />
@@ -755,8 +758,6 @@
 		<set name="isMagic" val="true" />
 		<set name="magicLvl" val="72" />
 		<set name="operateType" val="OP_ACTIVE" />
-		<set name="castRange" val="400" />
-		<set name="effectRange" val="900" />
 		<set name="aggroPoints" val="655" />
 		<for>
 			<effect name="Buff" time="2400" val="0" stackOrder="90" stackType="speed_up">
@@ -831,7 +832,6 @@
 	</skill>
 	<skill id="1539" levels="4" name="Stigma of Shilen" enchantGroup1="1">
 		<table name="#enchantMagicLvl"> 76 76 76 77 77 77 78 78 78 79 79 79 80 80 80 81 81 81 82 82 82 82 83 83 83 84 84 85 85 85 </table>
-		<enchant1 name="magicLvl" val="#enchantMagicLvl" />
 		<table name="#ench1time"> 31 32 33 34 35 36 37 38 39 40 41 42 43 44 45 46 47 48 49 50 51 52 53 54 55 56 57 58 59 60 </table>
 		<table name="#castRange"> 600 700 800 900 </table>
 		<table name="#effectRange"> 1100 1200 1300 1400 </table>
@@ -850,6 +850,7 @@
 		<set name="reuseDelay" val="3000" />
 		<set name="skillType" val="WEAKNESS" />
 		<set name="target" val="TARGET_ONE" />
+		<enchant1 name="magicLvl" val="#enchantMagicLvl" />
 		<for>
 			<effect name="Debuff" time="30" val="0" special="stigmashilien">
 				<mul order="0x30" stat="swordWpnVuln" val="#vuln" />

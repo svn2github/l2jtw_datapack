@@ -2406,6 +2406,9 @@ INSERT INTO `messagetable` VALUES ('1343', 'cn', '低于 30%', '', 'L2NpcActionS
 INSERT INTO `messagetable` VALUES ('1344', 'en', '', 'Quest;Sweep;Drop', 'L2NpcActionShift.java');
 INSERT INTO `messagetable` VALUES ('1344', 'tw', '', '任務;回收;掉落', 'L2NpcActionShift.java');
 INSERT INTO `messagetable` VALUES ('1344', 'cn', '', '任务;回收;掉落', 'L2NpcActionShift.java');
+INSERT INTO `messagetable` VALUES ('1345', 'en', 'AI Type: ', '', 'L2NpcActionShift.java');
+INSERT INTO `messagetable` VALUES ('1345', 'tw', 'AI 模式：', '', 'L2NpcActionShift.java');
+INSERT INTO `messagetable` VALUES ('1345', 'cn', 'AI 模式：', '', 'L2NpcActionShift.java');
 
 INSERT INTO `messagetable` VALUES ('1355', 'en', 'Signboard is missing:', '', 'L2StaticObjectInstanceAction.java');
 INSERT INTO `messagetable` VALUES ('1355', 'tw', '決鬥場看板遺失：', '', 'L2StaticObjectInstanceAction.java');
