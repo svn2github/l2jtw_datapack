@@ -13,7 +13,7 @@
  * this program. If not, see <http://www.gnu.org/licenses/>.
  */
 package handlers.bypasshandlers;
-
+import com.l2jserver.gameserver.datatables.CharTemplateTable; //Update by rocknow
 import com.l2jserver.Config;
 import com.l2jserver.gameserver.datatables.SkillTreeTable;
 import com.l2jserver.gameserver.handler.IBypassHandler;
@@ -92,7 +92,7 @@ public class SkillList implements IBypassHandler
 								if (SkillTreeTable.getInstance().getAvailableSkills(activeChar, cid).length == 0)
 									continue;
 
-								text += "<a action=\"bypass -h npc_%objectId%_SkillList "+cid.getId()+"\">"+MessageTable.Messages[1069].getExtra(1)+cid+MessageTable.Messages[1069].getExtra(2)+"</a><br>\n";
+								text += "<a action=\"bypass -h npc_%objectId%_SkillList "+cid.getId()+"\">"+MessageTable.Messages[1069].getExtra(1)+CharTemplateTable.getInstance().getClassNameById(cid.getId())+MessageTable.Messages[1069].getExtra(2)+"</a><br>\n"; //Update by rocknow
 								count++;
 							}
 							classCheck = classCheck.getParent();

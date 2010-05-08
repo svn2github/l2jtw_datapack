@@ -1677,7 +1677,63 @@ INSERT INTO `messagetable` VALUES ('768', 'en', 'Your partner declined', '', 'Lo
 INSERT INTO `messagetable` VALUES ('768', 'tw', '你的伴侶拒絕！', '', 'Loto.java');
 INSERT INTO `messagetable` VALUES ('768', 'cn', '你的伴侣拒绝！', '', 'Loto.java');
 
-
+INSERT INTO `messagetable` VALUES ('772', 'en', 'Talking Island Village', '', 'MapRegionTable.java');
+INSERT INTO `messagetable` VALUES ('772', 'tw', '說話之島', '', 'MapRegionTable.java');
+INSERT INTO `messagetable` VALUES ('772', 'cn', '说话之岛', '', 'MapRegionTable.java');
+INSERT INTO `messagetable` VALUES ('773', 'en', 'Elven Village', '', 'MapRegionTable.java');
+INSERT INTO `messagetable` VALUES ('773', 'tw', '精靈村莊', '', 'MapRegionTable.java');
+INSERT INTO `messagetable` VALUES ('773', 'cn', '精灵村庄', '', 'MapRegionTable.java');
+INSERT INTO `messagetable` VALUES ('774', 'en', 'Dark Elven Village', '', 'MapRegionTable.java');
+INSERT INTO `messagetable` VALUES ('774', 'tw', '黑暗精靈村莊', '', 'MapRegionTable.java');
+INSERT INTO `messagetable` VALUES ('774', 'cn', '黑暗精灵村庄', '', 'MapRegionTable.java');
+INSERT INTO `messagetable` VALUES ('775', 'en', 'Orc Village', '', 'MapRegionTable.java');
+INSERT INTO `messagetable` VALUES ('775', 'tw', '半獸人村莊', '', 'MapRegionTable.java');
+INSERT INTO `messagetable` VALUES ('775', 'cn', '半兽人村庄', '', 'MapRegionTable.java');
+INSERT INTO `messagetable` VALUES ('776', 'en', 'Dwarven Village', '', 'MapRegionTable.java');
+INSERT INTO `messagetable` VALUES ('776', 'tw', '矮人村莊', '', 'MapRegionTable.java');
+INSERT INTO `messagetable` VALUES ('776', 'cn', '矮人村庄', '', 'MapRegionTable.java');
+INSERT INTO `messagetable` VALUES ('777', 'en', 'Town of Gludio', '', 'MapRegionTable.java');
+INSERT INTO `messagetable` VALUES ('777', 'tw', '古魯丁城鎮', '', 'MapRegionTable.java');
+INSERT INTO `messagetable` VALUES ('777', 'cn', '古鲁丁城镇', '', 'MapRegionTable.java');
+INSERT INTO `messagetable` VALUES ('778', 'en', 'Gludin Village', '', 'MapRegionTable.java');
+INSERT INTO `messagetable` VALUES ('778', 'tw', '古魯丁村莊', '', 'MapRegionTable.java');
+INSERT INTO `messagetable` VALUES ('778', 'cn', '古鲁丁村庄', '', 'MapRegionTable.java');
+INSERT INTO `messagetable` VALUES ('779', 'en', 'Town of Dion', '', 'MapRegionTable.java');
+INSERT INTO `messagetable` VALUES ('779', 'tw', '狄恩城鎮', '', 'MapRegionTable.java');
+INSERT INTO `messagetable` VALUES ('779', 'cn', '狄恩城镇', '', 'MapRegionTable.java');
+INSERT INTO `messagetable` VALUES ('780', 'en', 'Town of Giran', '', 'MapRegionTable.java');
+INSERT INTO `messagetable` VALUES ('780', 'tw', '奇岩城鎮', '', 'MapRegionTable.java');
+INSERT INTO `messagetable` VALUES ('780', 'cn', '奇岩城镇', '', 'MapRegionTable.java');
+INSERT INTO `messagetable` VALUES ('781', 'en', 'Town of Oren', '', 'MapRegionTable.java');
+INSERT INTO `messagetable` VALUES ('781', 'tw', '歐瑞城鎮', '', 'MapRegionTable.java');
+INSERT INTO `messagetable` VALUES ('781', 'cn', '欧瑞城镇', '', 'MapRegionTable.java');
+INSERT INTO `messagetable` VALUES ('782', 'en', 'Town of Aden', '', 'MapRegionTable.java');
+INSERT INTO `messagetable` VALUES ('782', 'tw', '亞丁城鎮', '', 'MapRegionTable.java');
+INSERT INTO `messagetable` VALUES ('782', 'cn', '亚丁城镇', '', 'MapRegionTable.java');
+INSERT INTO `messagetable` VALUES ('783', 'en', 'Hunters Village', '', 'MapRegionTable.java');
+INSERT INTO `messagetable` VALUES ('783', 'tw', '獵人村莊', '', 'MapRegionTable.java');
+INSERT INTO `messagetable` VALUES ('783', 'cn', '猎人村庄', '', 'MapRegionTable.java');
+INSERT INTO `messagetable` VALUES ('784', 'en', 'Giran Harbor', '', 'MapRegionTable.java');
+INSERT INTO `messagetable` VALUES ('784', 'tw', '奇岩港口', '', 'MapRegionTable.java');
+INSERT INTO `messagetable` VALUES ('784', 'cn', '奇岩港口', '', 'MapRegionTable.java');
+INSERT INTO `messagetable` VALUES ('785', 'en', 'Heine', '', 'MapRegionTable.java');
+INSERT INTO `messagetable` VALUES ('785', 'tw', '因納得立城鎮', '', 'MapRegionTable.java');
+INSERT INTO `messagetable` VALUES ('785', 'cn', '因纳得立城镇', '', 'MapRegionTable.java');
+INSERT INTO `messagetable` VALUES ('786', 'en', 'Rune Township', '', 'MapRegionTable.java');
+INSERT INTO `messagetable` VALUES ('786', 'tw', '魯因城鎮', '', 'MapRegionTable.java');
+INSERT INTO `messagetable` VALUES ('786', 'cn', '鲁因城镇', '', 'MapRegionTable.java');
+INSERT INTO `messagetable` VALUES ('787', 'en', 'Town of Goddard', '', 'MapRegionTable.java');
+INSERT INTO `messagetable` VALUES ('787', 'tw', '高達特城鎮', '', 'MapRegionTable.java');
+INSERT INTO `messagetable` VALUES ('787', 'cn', '高达特城镇', '', 'MapRegionTable.java');
+INSERT INTO `messagetable` VALUES ('788', 'en', 'Town of Shuttgart', '', 'MapRegionTable.java');
+INSERT INTO `messagetable` VALUES ('788', 'tw', '修加特城鎮', '', 'MapRegionTable.java');
+INSERT INTO `messagetable` VALUES ('788', 'cn', '修加特城镇', '', 'MapRegionTable.java');
+INSERT INTO `messagetable` VALUES ('789', 'en', 'Primeval Isle', '', 'MapRegionTable.java');
+INSERT INTO `messagetable` VALUES ('789', 'tw', '原始之島', '', 'MapRegionTable.java');
+INSERT INTO `messagetable` VALUES ('789', 'cn', '原始之岛', '', 'MapRegionTable.java');
+INSERT INTO `messagetable` VALUES ('790', 'en', 'Kamael Village', '', 'MapRegionTable.java');
+INSERT INTO `messagetable` VALUES ('790', 'tw', '闇天使村莊', '', 'MapRegionTable.java');
+INSERT INTO `messagetable` VALUES ('790', 'cn', '闇天使村庄', '', 'MapRegionTable.java');
 
 
 
