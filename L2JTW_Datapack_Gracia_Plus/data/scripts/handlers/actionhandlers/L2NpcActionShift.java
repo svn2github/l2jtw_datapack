@@ -119,7 +119,16 @@ public class L2NpcActionShift implements IActionHandler
 				StringUtil.append(html1,
 						"<br1>"+MessageTable.Messages[1312].getMessage(),
 						(((L2Npc)target).getSpawn() != null ? String.valueOf(((L2Npc)target).getSpawn().getRespawnDelay() / 1000) : "?"),
-						MessageTable.Messages[1313].getMessage()+"<br>"
+						MessageTable.Messages[1313].getMessage()+"<br1>"
+				);
+			}
+			
+			if (target.hasAI())
+			{
+				StringUtil.append(html1,
+						"<br1>"+MessageTable.Messages[1345].getMessage(),
+						target.getAI().getClass().getSimpleName(),
+						"  <br1>"
 				);
 			}
 
