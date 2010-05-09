@@ -608,6 +608,9 @@ INSERT INTO `messagetable` VALUES ('252', 'cn', '此价格只有 GM 才能购买
 INSERT INTO `messagetable` VALUES ('255', 'en', '', 'The command ; does not exists!', 'RequestBypassToServer.java');
 INSERT INTO `messagetable` VALUES ('255', 'tw', '', '指令「;」並不存在！', 'RequestBypassToServer.java');
 INSERT INTO `messagetable` VALUES ('255', 'cn', '', '指令「;」并不存在！', 'RequestBypassToServer.java');
+INSERT INTO `messagetable` VALUES ('256', 'en', '', 'You don not have the access rights to use this command!', 'RequestBypassToServer.java');
+INSERT INTO `messagetable` VALUES ('256', 'tw', '', '你並沒有足夠的權限使用此指令！', 'RequestBypassToServer.java');
+INSERT INTO `messagetable` VALUES ('256', 'cn', '', '你并没有足够的权限使用此指令', 'RequestBypassToServer.java');
 
 INSERT INTO `messagetable` VALUES ('258', 'en', 'You destroying items too fast.', '', 'RequestDestroyItem.java');
 INSERT INTO `messagetable` VALUES ('258', 'tw', '你破壞物品的速度太快。', '', 'RequestDestroyItem.java');
