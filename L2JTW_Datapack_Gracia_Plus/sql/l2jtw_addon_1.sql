@@ -248,10 +248,10 @@ REPLACE INTO `npcskills` VALUES
 (29050,5013,1),
 (29051,5009,1),
 (29051,5013,1);
-DELETE FROM `zone_vertices` WHERE `id` IN (12005);
+DELETE FROM `zone_vertices` WHERE `id` IN (12011);
 REPLACE INTO `zone_vertices` (`id`,`order`,`x`,`y`) VALUES
-(12005,0,172229,-74350),
-(12005,1,176241,-90230);
+(12011,0,172229,-74350),
+(12011,1,176241,-90230);
 
 
 /************ ¨ä¥L­×¥¿ ************/
