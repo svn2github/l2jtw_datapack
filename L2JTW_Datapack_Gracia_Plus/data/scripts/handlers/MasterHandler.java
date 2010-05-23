@@ -147,6 +147,7 @@ public class MasterHandler
 		BypassHandler.getInstance().registerBypassHandler(new ClanWarehouse());
 		BypassHandler.getInstance().registerBypassHandler(new CPRecovery());
 		BypassHandler.getInstance().registerBypassHandler(new DrawHenna());
+		BypassHandler.getInstance().registerBypassHandler(new Festival());
 		BypassHandler.getInstance().registerBypassHandler(new FishSkillList());
 		BypassHandler.getInstance().registerBypassHandler(new FortSiege());
 		BypassHandler.getInstance().registerBypassHandler(new Link());
@@ -180,6 +181,7 @@ public class MasterHandler
 		ChatHandler.getInstance().registerChatHandler(new ChatClan());
 		ChatHandler.getInstance().registerChatHandler(new ChatHeroVoice());
 		ChatHandler.getInstance().registerChatHandler(new ChatParty());
+		ChatHandler.getInstance().registerChatHandler(new ChatPartyMatchRoom());
 		ChatHandler.getInstance().registerChatHandler(new ChatPartyRoomAll());
 		ChatHandler.getInstance().registerChatHandler(new ChatPartyRoomCommander());
 		ChatHandler.getInstance().registerChatHandler(new ChatPetition());

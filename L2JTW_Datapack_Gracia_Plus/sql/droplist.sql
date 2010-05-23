@@ -17,6 +17,22 @@
 -- First, the sum of chances for each category is calculated as category chance.  If the category is selected
 -- for drops (i.e. its chance is successful), then exactly 1 item from that category will be selected, with 
 -- such a chance that the overall probability is maintained unchanged. 
+--
+-- Category Explanation (non-RaidBoss & non-GrandBoss)
+--   -1 is sweep
+--    0 is adena and one of the seal stones (your choice)
+--    1 is any item that is in weapon.sql, any item in armor.sql, and some of the items from etcitem. Before dropping the column, I had those marked in etcitem.sql. However, you can recognize them easily. If they are parts unique for crafting equipable items, it's category 1.
+--    2 is almost all of the other items except:
+--    3 and 4 are used for the other two seal stones (1 category each).
+--
+-- Category Explanation (RaidBoss & their minions)
+--    0 is full armor and armor mats
+--    1 is full weapon and weapon mats
+--    2 is anything else (scrolls,arrows,etc)
+--
+-- Category Explanation (GrandBoss)
+--    0+ is defined catagories
+--    Any other mobs within this range (minions, etc) use the default drop categories (most often 2)
 
 DROP TABLE IF EXISTS `droplist`;
 CREATE TABLE `droplist` (
@@ -30,14 +46,7 @@ CREATE TABLE `droplist` (
   KEY `key_mobId` (`mobId`)
 );
 
--- Category Explanation (non-RaidBoss & non-GrandBoss)
---   -1 is sweep
---    0 is adena and one of the seal stones (your choice)
---    1 is any item that is in weapon.sql, any item in armor.sql, and some of the items from etcitem. Before dropping the column, I had those marked in etcitem.sql. However, you can recognize them easily. If they are parts unique for crafting equipable items, it's category 1.
---    2 is almost all of the other items except:
---    3 and 4 are used for the other two seal stones (1 category each).
-
-INSERT INTO `droplist` VALUES 
+INSERT INTO `droplist` VALUES
 (18001,1806,1,1,-1,10868),-- Recipe: Soulshot: B-Grade
 (18001,57,765,1528,0,700000),-- Adena
 (18001,4069,1,1,1,2102),-- Tunic of Zubei Fabric
@@ -31423,10 +31432,6 @@ INSERT INTO `droplist` VALUES
 (22702,9530,1,1,-1,6000), -- Sealed Dynasty Breast Plate Piece
 (22702,9621,1,1,-1,3000); -- Dynasty Halberd Piece
 
--- Category Explanation (RaidBoss & their minions)
---   0 is full armor and armor mats
---   1 is full weapon and weapon mats
---   2 is anything else (scrolls,arrows,etc)
 INSERT INTO `droplist` VALUES
 (25001,348,1,1,0,272694),-- Scale Mail
 (25001,377,4,12,0,54507),-- Scale Gaiters
@@ -34408,12 +34413,9 @@ INSERT INTO `droplist` VALUES
 (25593,9591,1,1,4,54061), -- Steel Bracelet
 (25593,9626,1,1,3,41230); -- Giant's Codex - Discipline
 
-INSERT INTO `droplist` VALUES 
+INSERT INTO `droplist` VALUES
 (18342,57,7,13,0,1000000); -- Adena
 
--- Category Explanation (GrandBoss)
--- 0+ is defined catagories
--- Any other mobs within this range (minions, etc) use the default drop categories (most often 2)
 INSERT INTO `droplist` VALUES
 (29001,70,1,1,0,60000),-- Claymore
 (29001,159,1,1,0,55000),-- Bonebreaker
@@ -34915,6 +34917,15 @@ INSERT INTO `droplist` VALUES
 (29056,8180,1,1,3,200000),-- Circlet of Ice Fairy Sirra
 (29057,1344,20,60,2,928000),-- Mithril Arrow
 (29058,1539,1,1,2,227733),-- Greater Healing Potion
+-- Andreas Van Halter
+(29062,8921,1,1,1,320095), -- Demon Circlet
+(29062,960,1,1,2,320095), -- Scroll: Enchant Armor (S)
+(29062,6711,12,36,2,306342), -- Sealed Major Arcana Robe Part
+(29062,7579,1,1,2,233504), -- Draconic Bow Shaft
+(29062,959,1,1,2,32009), -- Scroll: Enchant Weapon (S)
+(29062,6684,1,1,1,17056), -- Sealed Major Arcana Robe
+(29062,7575,1,1,1,10504), -- Draconic Bow
+(29062,6577,1,1,2,5335), -- Blessed Scroll: Enchant Weapon (S)
 (29065,6367,1,1,1,4497),-- Angel Slayer
 (29065,6691,3,9,1,395312),-- Angel Slayer Blade
 (29065,959,1,1,2,18273),-- Scroll: Enchant Weapon (Grade S)

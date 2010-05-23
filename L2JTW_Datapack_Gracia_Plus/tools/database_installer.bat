@@ -671,21 +671,16 @@ gameservers.sql
 set dest=gs
 for %%i in (
 access_levels.sql
-auction.sql
-castle.sql
-clanhall.sql
-fort.sql
-forums.sql
-seven_signs_festival.sql
-seven_signs_status.sql
 admin_command_access_rights.sql
 armor.sql
 armorsets.sql
+auction.sql
 auction_bid.sql
 auction_watch.sql
 auto_announcements.sql
 auto_chat.sql
 auto_chat_text.sql
+castle.sql
 castle_door.sql
 castle_doorupgrade.sql
 castle_functions.sql
@@ -718,6 +713,7 @@ clan_privs.sql
 clan_skills.sql
 clan_subpledges.sql
 clan_wars.sql
+clanhall.sql
 clanhall_functions.sql
 class_list.sql
 cursed_weapons.sql
@@ -727,12 +723,14 @@ enchant_skill_groups.sql
 etcitem.sql
 fish.sql
 fishing_skill_trees.sql
+fort.sql
 fort_doorupgrade.sql
 fort_functions.sql
 fort_siege_guards.sql
 fort_spawnlist.sql
 fort_staticobjects.sql
 fortsiege_clans.sql
+forums.sql
 four_sepulchers_spawnlist.sql
 games.sql
 global_tasks.sql
@@ -742,6 +740,7 @@ helper_buff_list.sql
 henna.sql
 henna_trees.sql
 heroes.sql
+heroes_diary.sql
 item_attributes.sql
 items.sql
 itemsonground.sql
@@ -760,6 +759,7 @@ npc_buffer.sql
 npcAIData.sql
 npcskills.sql
 olympiad_data.sql
+olympiad_fights.sql
 olympiad_nobles.sql
 olympiad_nobles_eom.sql
 pets.sql
@@ -772,6 +772,8 @@ raidboss_spawnlist.sql
 random_spawn.sql
 random_spawn_loc.sql
 seven_signs.sql
+seven_signs_festival.sql
+seven_signs_status.sql
 siege_clans.sql
 skill_learn.sql
 skill_residential.sql

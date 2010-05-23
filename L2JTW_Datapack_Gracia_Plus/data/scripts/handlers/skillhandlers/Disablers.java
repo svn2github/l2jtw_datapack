@@ -21,6 +21,8 @@ import java.util.List;
 import java.util.logging.Level;
 import java.util.logging.Logger;
 
+import javolution.util.FastList;
+
 import com.l2jserver.gameserver.ai.CtrlEvent;
 import com.l2jserver.gameserver.ai.CtrlIntention;
 import com.l2jserver.gameserver.ai.L2AttackableAI;
@@ -33,7 +35,6 @@ import com.l2jserver.gameserver.model.L2Skill;
 import com.l2jserver.gameserver.model.actor.L2Attackable;
 import com.l2jserver.gameserver.model.actor.L2Character;
 import com.l2jserver.gameserver.model.actor.L2Npc;
-import com.l2jserver.gameserver.model.actor.L2Playable;
 import com.l2jserver.gameserver.model.actor.L2Summon;
 import com.l2jserver.gameserver.model.actor.instance.L2PcInstance;
 import com.l2jserver.gameserver.model.actor.instance.L2SiegeSummonInstance;
@@ -47,8 +48,6 @@ import com.l2jserver.gameserver.skills.effects.EffectBuff;
 import com.l2jserver.gameserver.templates.skills.L2EffectType;
 import com.l2jserver.gameserver.templates.skills.L2SkillType;
 import com.l2jserver.util.Rnd;
-
-import javolution.util.FastList;
 
 /**
  * This Handles Disabler skills
@@ -98,16 +97,6 @@ public class Disablers implements ISkillHandler
 		boolean bss = false;
 		
 		L2ItemInstance weaponInst = activeChar.getActiveWeaponInstance();
-		
-		if (activeChar instanceof L2PcInstance)
-		{
-			if (weaponInst == null && skill.isOffensive())
-			{
-				activeChar.sendMessage(1137);
-				return;
-			}
-		}
-		
 		if (weaponInst != null)
 		{
 			if (skill.isMagic())
@@ -319,7 +308,7 @@ public class Disablers implements ISkillHandler
 						{
 							L2Attackable targ = (L2Attackable) target;
 							targ.stopHating(activeChar);
-							if (targ.getMostHated() == null)
+							if (targ.getMostHated() == null && targ.hasAI() && targ.getAI() instanceof L2AttackableAI)
 							{
 								((L2AttackableAI) targ.getAI()).setGlobalAggro(-25);
 								targ.clearAggroList();
@@ -482,7 +471,7 @@ public class Disablers implements ISkillHandler
 				}
 				case STEAL_BUFF:
 				{
-					if (!(target instanceof L2Playable))
+					if (!(target instanceof L2PcInstance))
 						return;
 							
 					L2Effect[] effects = target.getAllEffects();
