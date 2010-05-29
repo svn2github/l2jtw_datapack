@@ -131,12 +131,12 @@ INSERT INTO `spawnlist` VALUES
 
 -- 加入移動到柯雷塔的晶體/各等級的地下競技場外面
 REPLACE INTO `teleport` VALUES
-('Fantasy Isle -> Underground Coliseum', '12060', '-82271', '-49196', '-10352', '0', '0'),
-('Underground Coliseum -> Underground Coliseum LV40', '3249140', '-84451', '-45452', '-10728', '0', '0'),
-('Underground Coliseum -> Underground Coliseum LV50', '3249150', '-86154', '-50429', '-10728', '0', '0'),
-('Underground Coliseum -> Underground Coliseum LV60', '3249160', '-82009', '-53652', '-10728', '0', '0'),
-('Underground Coliseum -> Underground Coliseum LV70', '3249170', '-77586', '-50503', '-10728', '0', '0'),
-('Underground Coliseum -> Underground Coliseum LV00', '3249100', '-79309', '-45561', '-10728', '0', '0');
+('Fantasy Isle -> Underground Coliseum', '12060', '-82271', '-49196', '-10352', '0', '0', '57'),
+('Underground Coliseum -> Underground Coliseum LV40', '3249140', '-84451', '-45452', '-10728', '0', '0', '57'),
+('Underground Coliseum -> Underground Coliseum LV50', '3249150', '-86154', '-50429', '-10728', '0', '0', '57'),
+('Underground Coliseum -> Underground Coliseum LV60', '3249160', '-82009', '-53652', '-10728', '0', '0', '57'),
+('Underground Coliseum -> Underground Coliseum LV70', '3249170', '-77586', '-50503', '-10728', '0', '0', '57'),
+('Underground Coliseum -> Underground Coliseum LV00', '3249100', '-79309', '-45561', '-10728', '0', '0', '57');
 
 -- 加入地獄邊界的NPC (感謝 pmq 提供)
 REPLACE INTO spawnlist VALUES
@@ -257,8 +257,8 @@ REPLACE INTO `zone_vertices` (`id`,`order`,`x`,`y`) VALUES
 /************ 其他修正 ************/
 -- 修正傳送到不同的房間挑戰莉莉絲/亞納
 REPLACE INTO `teleport` VALUES
-('Disciples Necropolis -> Anakim',449,184467,-13102,-5500,0,0),
-('Disciples Necropolis -> Lilith',450,184448,-10120,-5500,0,0);
+('Disciples Necropolis -> Anakim',449,184467,-13102,-5500,0,0,57),
+('Disciples Necropolis -> Lilith',450,184448,-10120,-5500,0,0,57);
 
 -- 修正攻城時間
 ALTER TABLE `castle` DROP PRIMARY KEY, ADD PRIMARY KEY (`id`);
@@ -316,10 +316,10 @@ UPDATE `spawnlist` SET `heading` = '16383' WHERE `npc_templateid` = '32609' AND 
 
 -- 新傳送
 REPLACE INTO `teleport` VALUES
-('3254001', '3260203', '-212836', '209824', '4288', '0', '0'),   -- 深淵的守門人
-('3260201', '3260201', '-245833', '220174', '-12104', '0', '0'), -- 臨時傳送師
-('3260202', '3260202', '-251624', '213420', '-12072', '0', '0'), -- 臨時傳送師
-('3260203', '3260203', '-249774', '207316', '-11952', '0', '0'); -- 臨時傳送師
+('3254001', '3260203', '-212836', '209824', '4288', '0', '0', '57'),   -- 深淵的守門人
+('3260201', '3260201', '-245833', '220174', '-12104', '0', '0', '57'), -- 臨時傳送師
+('3260202', '3260202', '-251624', '213420', '-12072', '0', '0', '57'), -- 臨時傳送師
+('3260203', '3260203', '-249774', '207316', '-11952', '0', '0', '57'); -- 臨時傳送師
 
 -- NPC改成AI控制
 Delete From `spawnlist` Where `npc_templateid` in (32549,32619,32628,32629); -- 狄里歐斯/刺槍兵/碼頭巡邏兵
@@ -399,7 +399,7 @@ DELETE FROM `merchant_buylists` WHERE `item_id` IN (13688,13689,13690,13889,1389
 
 -- 新傳送
 REPLACE INTO `teleport` VALUES
-('3265201', '3265201', '175499', '-181586', '-904', '0', '0'); -- 往米索莉礦山的傳送水晶
+('3265201', '3265201', '175499', '-181586', '-904', '0', '0', '57'); -- 往米索莉礦山的傳送水晶
 
 -- 新頭飾
 UPDATE `armor` SET `skill` = '21090-1;' WHERE `item_id` = 20601;         -- 回魂帽
