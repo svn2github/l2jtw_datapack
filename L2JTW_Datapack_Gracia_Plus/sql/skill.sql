@@ -14973,15 +14973,15 @@ INSERT INTO `skill` VALUES
 (321,227,'Blinding Blow'),
 (321,228,'Blinding Blow'),
 (321,229,'Blinding Blow'),
-(321,230,'Blinding Blow');
-
-INSERT INTO `skill` VALUES
+(321,230,'Blinding Blow'),
 (322,1,'Shield Fortress'),
 (322,2,'Shield Fortress'),
 (322,3,'Shield Fortress'),
 (322,4,'Shield Fortress'),
 (322,5,'Shield Fortress'),
-(322,6,'Shield Fortress'),
+(322,6,'Shield Fortress');
+
+INSERT INTO `skill` VALUES
 (322,101,'Shield Fortress'),
 (322,102,'Shield Fortress'),
 (322,103,'Shield Fortress'),
@@ -29976,9 +29976,7 @@ INSERT INTO `skill` VALUES
 (1171,327,'Blazing Circle'),
 (1171,328,'Blazing Circle'),
 (1171,329,'Blazing Circle'),
-(1171,330,'Blazing Circle');
-
-INSERT INTO `skill` VALUES
+(1171,330,'Blazing Circle'),
 (1172,1,'Aura Burn'),
 (1172,2,'Aura Burn'),
 (1172,3,'Aura Burn'),
@@ -29986,7 +29984,9 @@ INSERT INTO `skill` VALUES
 (1172,5,'Aura Burn'),
 (1172,6,'Aura Burn'),
 (1172,7,'Aura Burn'),
-(1172,8,'Aura Burn'),
+(1172,8,'Aura Burn');
+
+INSERT INTO `skill` VALUES
 (1174,1,'Frost Wall'),
 (1174,2,'Frost Wall'),
 (1174,3,'Frost Wall'),
@@ -34974,9 +34974,7 @@ INSERT INTO `skill` VALUES
 (1276,127,'Summon Kai the Cat'),
 (1276,128,'Summon Kai the Cat'),
 (1276,129,'Summon Kai the Cat'),
-(1276,130,'Summon Kai the Cat');
-
-INSERT INTO `skill` VALUES
+(1276,130,'Summon Kai the Cat'),
 (1277,1,'Summon Merrow the Unicorn'),
 (1277,2,'Summon Merrow the Unicorn'),
 (1277,3,'Summon Merrow the Unicorn'),
@@ -35020,7 +35018,9 @@ INSERT INTO `skill` VALUES
 (1277,127,'Summon Merrow the Unicorn'),
 (1277,128,'Summon Merrow the Unicorn'),
 (1277,129,'Summon Merrow the Unicorn'),
-(1277,130,'Summon Merrow the Unicorn'),
+(1277,130,'Summon Merrow the Unicorn');
+
+INSERT INTO `skill` VALUES
 (1278,1,'Summon Soulless'),
 (1278,2,'Summon Soulless'),
 (1278,3,'Summon Soulless'),
@@ -44995,16 +44995,16 @@ INSERT INTO `skill` VALUES
 (2521,1,'Lucky Clover - C-Grade'),
 (2522,1,'Lucky Clover - B-Grade'),
 (2523,1,'Lucky Clover - A-Grade'),
-(2524,1,'Lucky Clover - S-Grade');
-
-INSERT INTO `skill` VALUES
+(2524,1,'Lucky Clover - S-Grade'),
 (2525,1,'Scroll to move to Kamael Village'),
 (2526,1,'Evasion Counter'),
 (2527,1,'Evasion Chance'),
 (2528,1,'Evasion Haste'),
 (2529,1,'Shadow Step'),
 (2530,1,'Recovery Item for Battlefield Use'),
-(2531,1,'Adventurer\'s Scroll of Escape'),
+(2531,1,'Adventurer\'s Scroll of Escape');
+
+INSERT INTO `skill` VALUES
 (2532,1,'Pathfinder Supplies'),
 (2533,1,'Pathfinder Supplies'),
 (2534,1,'Pathfinder Supplies'),
@@ -45437,6 +45437,7 @@ INSERT INTO `skill` VALUES
 (2913,1,'Soul Extraction'),
 (2914,1,'Equipment Set 10 Day Pack'),
 (2914,2,'Equipment Set 30 Day Pack'),
+(2914,3,'Equipment Set 90 Day Pack'),
 (2915,1,'Clear Five-Colored Crystal'),
 (2916,1,'Feed for Enriched Enhanced Pets'),
 (2917,1,'Big Staccato Silk Cocoon'),
@@ -54992,9 +54993,7 @@ INSERT INTO `skill` VALUES
 (5235,1,'Weight Spin Attack - Strong'),
 (5236,1,'Speed Up'),
 (5237,1,'Speed Down'),
-(5238,1,'Freezing');
-
-INSERT INTO `skill` VALUES
+(5238,1,'Freezing'),
 (5239,1,'Event Timer'),
 (5239,2,'Event Timer'),
 (5239,3,'Event Timer'),
@@ -55005,7 +55004,9 @@ INSERT INTO `skill` VALUES
 (5242,1,'Sickness'),
 (5243,1,'Blind'),
 (5244,1,'Physical Up'),
-(5245,1,'Magical Up'),
+(5245,1,'Magical Up');
+
+INSERT INTO `skill` VALUES
 (5246,1,'Boss Dark Explosion'),
 (5246,2,'Boss Dark Explosion'),
 (5246,3,'Boss Dark Explosion'),
@@ -58742,6 +58743,7 @@ INSERT INTO `skill` VALUES
 (6489,1,'20 win'),
 (6490,1,'Jack\'s game - Gauge'),
 (6491,1,'Jack\'s game - Target'),
+(6685,1,'Santa Claus\'s Gift'),
 (7000,1,'NPC Default'),
 (7001,1,'Dispel Buff'),
 (7002,1,'Dispel Debuff'),
@@ -59317,6 +59319,8 @@ INSERT INTO `skill` VALUES
 (8396,1,'Royal Guard Necklace - Schuttgart'),
 (8396,2,'Guard Necklace - Schuttgart'),
 (8458,1,'Bracelet Weight Gauge Add'),
+(8464,1,'Release the Seal on Agathion - Kid Rudolph'),
+(8465,1,'Notifier'),
 (9000,1,'PC room private weapon strengthening order sheet - D grade'),
 (9001,1,'PC room private armor strengthening order sheet - C grade'),
 (9002,1,'PC room private armor strengthening order sheet - B grade'),
@@ -59384,6 +59388,8 @@ INSERT INTO `skill` VALUES
 (9082,1,'White Christmas Petition'),
 (9083,1,'Christmas Cake - event'),
 (9084,1,'White Christmas Petition - event'),
+(9085,1,'Santa Claus\'s Gift'),
+(9086,2,'Santa - Potion of Will'),
 (21000,1,'Release Seal on Agathion - Majo'),
 (21001,1,'Release Seal on Agathion - Gold Majo'),
 (21002,1,'Release Seal on Agathion - Black Majo'),
@@ -59555,6 +59561,29 @@ INSERT INTO `skill` VALUES
 (21168,1,'Agathion Seal Cancel - Naonin'),
 (21169,1,'Transform Kadomas'),
 (21170,4,'Blessed Soul'),
+(21171,1,'Riding Jet Bike'),
+(21172,1,'Enhanced Authority - CON+1 STR+1'),
+(21173,1,'Enhanced Authority - WIT+1 INT+1'),
+(21174,1,'Enhanced Authority - WIT+1 MEN+1'),
+(21175,1,'Enhanced Authority - CON+1 DEX+1'),
+(21176,1,'Divine Protection - Divinity'),
+(21177,1,'Divine Protection - Water'),
+(21178,1,'Divine Protection - Fire'),
+(21179,1,'Divine Protection - Wind'),
+(21180,1,'Divine Protection - Earth'),
+(21181,1,'Divine Protection - Darkness'),
+(21182,1,'Blessing of Resistance - Hold'),
+(21183,1,'Blessing of Resistance - Paralysis'),
+(21184,1,'Blessing of Resistance - Sleep'),
+(21185,1,'Blessing of Resistance - Movement Speed Decrease'),
+(21186,1,'Blessing of Resistance - Bleed'),
+(21187,1,'Blessing of Resistance - Stun'),
+(21188,1,'Recovery Power - HP'),
+(21189,1,'Recovery Power - MP'),
+(21190,1,'Soul Shield'),
+(21191,1,'Agathion Seal Cancel - Phoenix'),
+(21192,1,'Silent Move'),
+(21193,1,'Power of Guardian Deity'),
 (22000,1,'Spicy Kimchee'),
 (22001,1,'Spicy Kimchee'),
 (22002,1,'Spicy Kimchee'),
@@ -59754,6 +59783,15 @@ INSERT INTO `skill` VALUES
 (22158,8,'Rose Petal'),
 (22158,9,'Rose Petal'),
 (22158,10,'Rose Petal'),
+(22159,1,'Vesper Super Power'),
+(22160,1,'Vesper Critical Power'),
+(22161,1,'Invincible Vesper'),
+(22162,1,'Mt. Fuji Herb'),
+(22163,1,'Hawk Herb'),
+(22164,1,'Eggplant Herb'),
+(22165,1,'Energy Replenish'),
+(22166,1,'Energy Replenish'),
+(22167,1,'April Fools\' Day Vesper Weapon Gift'),
 (23000,1,'Majo Agathion Cute Trick'),
 (23001,1,'Gold Majo Agathion Cute Trick'),
 (23002,1,'Black Majo Agathion Cute Trick'),
@@ -59938,6 +59976,16 @@ INSERT INTO `skill` VALUES
 (23168,1,'Critical Seduction'),
 (23169,1,'Mesmerized'),
 (23170,1,'Mesmerized'),
+(23171,1,'Phoenix Agathion Cute Trick'),
+(23172,1,'Phoenix Agathion Special Skill - Nirvana Rebirth'),
+(23173,1,'Phoenix Agathion Special Skill - Oriental Phoenix'),
+(23174,1,'Narrow Escape from Death'),
+(23175,1,'Soul Stealth'),
+(23176,1,'Hide'),
+(23177,1,'Soul Stealth'),
+(23178,1,'Soul Stealth'),
+(23179,1,'Blessing of Energy'),
+(23180,1,'Joy of Energy'),
 (26000,1,'Small fortuna box'),
 (26001,1,'Middle fortuna box'),
 (26002,1,'Large fortuna box'),
