@@ -663,9 +663,15 @@
 		</for>
 	</skill>
 	<skill id="23171" levels="1" name="Phoenix Agathion Cute Trick">
-		<set name="target" val="TARGET_NONE" />
-		<set name="skillType" val="NOTDONE" />
-		<set name="operateType" val="OP_PASSIVE" />
+		<!-- Update by rocknow -->
+		<set name="target" val="TARGET_SELF" />
+		<set name="skillType" val="DUMMY" />
+		<set name="operateType" val="OP_ACTIVE" />
+		<set name="reuseDelay" val="300000" />
+		<set name="staticReuse" val="true" />
+		<cond msgId="2292">
+			<player agathionId="1574" />
+		</cond>
 	</skill>
 	<skill id="23172" levels="1" name="Phoenix Agathion Special Skill - Nirvana Rebirth">
 		<!-- All HP, MP, CP are recovered, and becomes invincible for 5 seconds with the power of Phoenix. Possible to use under HP 30% only. Cooldown of 12 hours. -->
