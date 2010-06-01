@@ -411,7 +411,7 @@ public class AdminEditNpc implements IAdminCommandHandler
 			tradeList.removeItem(itemID);
 			deleteTradeList(tradeListID, order);
 			
-			activeChar.sendMessage(MessageTable.Messages[1579].getExtra(1) + ItemTable.getInstance().getTemplate(itemID).getName() + MessageTable.Messages[1579].getExtra(2) + tradeListID);
+			activeChar.sendMessage(MessageTable.Messages[1580].getExtra(1) + ItemTable.getInstance().getTemplate(itemID).getName() + MessageTable.Messages[1580].getExtra(2) + tradeListID);
 			showShopList(activeChar, tradeListID, 1);
 			return;
 		}
