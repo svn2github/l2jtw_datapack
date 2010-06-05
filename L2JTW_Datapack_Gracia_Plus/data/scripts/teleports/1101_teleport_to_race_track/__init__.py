@@ -59,7 +59,7 @@ class Quest (JQuest) :
            st.unset("id")
      else:
         # no base location
-        player.sendPacket(NpcSay(npc.getObjectId(),0,npc.getNpcId(),"琌ノㄤウよ猭ㄓ硂柑盢肚癳程緗马"))
+        player.sendPacket(NpcSay(npc.getObjectId(),0,npc.getNpcId(),"琌ノㄤウよ猭ㄓ硂柑盢肚癳程╢马"))
         st.getPlayer().teleToLocation(15670,142983,-2700)
      st.exitQuest(1)
    return
