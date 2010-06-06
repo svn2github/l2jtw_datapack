@@ -930,14 +930,24 @@ INSERT INTO `messagetable` VALUES ('441', 'cn', '', '等级「;」以上的血�
 INSERT INTO `messagetable` VALUES ('442', 'en', 'You need 250,000 adena to register', '', 'FortSiege.java');
 INSERT INTO `messagetable` VALUES ('442', 'tw', '登記需要 250,000 金幣。', '', 'FortSiege.java');
 INSERT INTO `messagetable` VALUES ('442', 'cn', '登记需要 250,000 金币。', '', 'FortSiege.java');
-
+INSERT INTO `messagetable` VALUES ('443', 'en', '', '; was defeated', 'Hero.java');
+INSERT INTO `messagetable` VALUES ('443', 'tw', '', '對抗;獲得勝利。', 'Hero.java');
+INSERT INTO `messagetable` VALUES ('443', 'cn', '', '对抗;获得胜利。', 'Hero.java');
+INSERT INTO `messagetable` VALUES ('444', 'en', 'Gained Hero status', '', 'Hero.java');
+INSERT INTO `messagetable` VALUES ('444', 'tw', '取得英雄資格。', '', 'Hero.java');
+INSERT INTO `messagetable` VALUES ('444', 'cn', '取得英雄资格。', '', 'Hero.java');
 INSERT INTO `messagetable` VALUES ('445', 'en', 'You were removed from the instance', '', 'Instance.java');
 INSERT INTO `messagetable` VALUES ('445', 'tw', '離開即時地區。', '', 'Instance.java');
 INSERT INTO `messagetable` VALUES ('445', 'cn', '离开即时地区。', '', 'Instance.java');
 INSERT INTO `messagetable` VALUES ('446', 'en', '', 'Notice; seconds left.', 'Instance.java');
 INSERT INTO `messagetable` VALUES ('446', 'tw', '', '注意; 秒後挑戰時間結束。', 'Instance.java');
 INSERT INTO `messagetable` VALUES ('446', 'cn', '', '注意; 秒后挑战时间结束。', 'Instance.java');
-
+INSERT INTO `messagetable` VALUES ('447', 'en', '', '; Castle was successfuly taken', 'Hero.java');
+INSERT INTO `messagetable` VALUES ('447', 'tw', '', '參加;攻城戰，領導盟友走向勝利。', 'Hero.java');
+INSERT INTO `messagetable` VALUES ('447', 'cn', '', '参加;攻城战，领导盟友走向胜利。', 'Hero.java');
+INSERT INTO `messagetable` VALUES ('448', 'en', 'victory', '', 'Hero.java');
+INSERT INTO `messagetable` VALUES ('448', 'tw', '勝', '', 'Hero.java');
+INSERT INTO `messagetable` VALUES ('448', 'cn', '胜', '', 'Hero.java');
 INSERT INTO `messagetable` VALUES ('449', 'en', 'You are already in the event players list !!', '', 'L2Event.java');
 INSERT INTO `messagetable` VALUES ('449', 'tw', '你已經登記了！', '', 'L2Event.java');
 INSERT INTO `messagetable` VALUES ('449', 'cn', '你已经登记了！', '', 'L2Event.java');
@@ -947,11 +957,21 @@ INSERT INTO `messagetable` VALUES ('450', 'cn', '参加！', '', 'L2Event.java')
 INSERT INTO `messagetable` VALUES ('451', 'en', 'event inscriptor', '', 'L2Event.java');
 INSERT INTO `messagetable` VALUES ('451', 'tw', '活動怪物', '', 'L2Event.java');
 INSERT INTO `messagetable` VALUES ('451', 'cn', '活动怪物', '', 'L2Event.java');
-
+INSERT INTO `messagetable` VALUES ('452', 'en', 'loss', '', 'Hero.java');
+INSERT INTO `messagetable` VALUES ('452', 'tw', '敗', '', 'Hero.java');
+INSERT INTO `messagetable` VALUES ('452', 'cn', '败', '', 'Hero.java');
+INSERT INTO `messagetable` VALUES ('453', 'en', 'draw', '', 'Hero.java');
+INSERT INTO `messagetable` VALUES ('453', 'tw', '和', '', 'Hero.java');
+INSERT INTO `messagetable` VALUES ('453', 'cn', '和', '', 'Hero.java');
 INSERT INTO `messagetable` VALUES ('454', 'en', '', 'You cannot register as a defender because ; is owned by NPC.', 'Siege.java');
 INSERT INTO `messagetable` VALUES ('454', 'tw', '', '無法登記為守城方，因為「;」是屬於 NPC 的。', 'Siege.java');
 INSERT INTO `messagetable` VALUES ('454', 'cn', '', '无法登记为守城方，因为「;」是属于 NPC 的。', 'Siege.java');
-
+INSERT INTO `messagetable` VALUES ('455', 'en', ':xx', '', 'Hero.java');
+INSERT INTO `messagetable` VALUES ('455', 'tw', '時', '', 'Hero.java');
+INSERT INTO `messagetable` VALUES ('455', 'cn', '时', '', 'Hero.java');
+INSERT INTO `messagetable` VALUES ('456', 'en', 'cls', '', 'Hero.java');
+INSERT INTO `messagetable` VALUES ('456', 'tw', '職業類別', '', 'Hero.java');
+INSERT INTO `messagetable` VALUES ('456', 'cn', '职业类别', '', 'Hero.java');
 INSERT INTO `messagetable` VALUES ('457', 'en', 'TvT Event: Event has ended. No team won due to inactivity!', '', 'TvTEvent.java');
 INSERT INTO `messagetable` VALUES ('457', 'tw', 'TvT 活動：沒有任何團隊參加比賽，因此活動結束！', '', 'TvTEvent.java');
 INSERT INTO `messagetable` VALUES ('457', 'cn', 'TvT 活动：没有任何团队参加比赛，因此活动结束！', '', 'TvTEvent.java');
@@ -967,6 +987,10 @@ INSERT INTO `messagetable` VALUES ('460', 'cn', '', 'TvT 活动：活动结束�
 INSERT INTO `messagetable` VALUES ('461', 'en', '', 'I have killed ;!', 'TvTEvent.java');
 INSERT INTO `messagetable` VALUES ('461', 'tw', '', '擊倒;！', 'TvTEvent.java');
 INSERT INTO `messagetable` VALUES ('461', 'cn', '', '击倒;！', 'TvTEvent.java');
+INSERT INTO `messagetable` VALUES ('462', 'en', 'non-cls', '', 'Hero.java');
+INSERT INTO `messagetable` VALUES ('462', 'tw', '不限職業', '', 'Hero.java');
+INSERT INTO `messagetable` VALUES ('462', 'cn', '不限职业', '', 'Hero.java');
+
 
 INSERT INTO `messagetable` VALUES ('464', 'en', 'TvT Event: Event was cancelled.', '', 'TvTManager.java');
 INSERT INTO `messagetable` VALUES ('464', 'tw', 'TvT 活動：活動已取消。', '', 'TvTManager.java');
