@@ -14,11 +14,9 @@
  */
 package handlers.skillhandlers;
 
-import java.io.IOException;
 import java.util.Arrays;
 import java.util.Collections;
 import java.util.List;
-import java.util.logging.Level;
 import java.util.logging.Logger;
 
 import javolution.util.FastList;
@@ -753,17 +751,10 @@ public class Disablers implements ISkillHandler
 										continue;
 									}
 									L2Character tgts[] = new L2Character[]{target};
-									try
-									{
-										Healhandler.useSkill(activeChar, skill, tgts);
-									}
-									catch (IOException e)
-									{
-										_log.log(Level.WARNING, "", e);
-									}
+									Healhandler.useSkill(activeChar, skill, tgts);
 									break;
 								default:
-									removedBuffs += negateEffect(target, skillType, -1, skill.getMaxNegatedEffects());
+									removedBuffs += negateEffect(target, skillType, skill.getNegateLvl(), skill.getMaxNegatedEffects());
 									break;
 							}//end switch
 						}//end for
@@ -800,9 +791,9 @@ public class Disablers implements ISkillHandler
 	 * @param maxRemoved
 	 * @return
 	 */
-	private int negateEffect(L2Character target, L2SkillType type, double power, int maxRemoved)
+	private int negateEffect(L2Character target, L2SkillType type, int negateLvl, int maxRemoved)
 	{
-		return negateEffect(target, type, power, 0, maxRemoved);
+		return negateEffect(target, type, negateLvl, 0, maxRemoved);
 	}
 	
 	/**
@@ -814,7 +805,7 @@ public class Disablers implements ISkillHandler
 	 * @param maxRemoved
 	 * @return
 	 */
-	private int negateEffect(L2Character target, L2SkillType type, double negateLvl, int skillId, int maxRemoved)
+	private int negateEffect(L2Character target, L2SkillType type, int negateLvl, int skillId, int maxRemoved)
 	{
 		L2Effect[] effects = target.getAllEffects();
 		int count = (maxRemoved <= 0) ? -2 : 0;
