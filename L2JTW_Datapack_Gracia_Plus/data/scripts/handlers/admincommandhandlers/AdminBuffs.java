@@ -9,6 +9,7 @@ import com.l2jserver.gameserver.model.actor.L2Character;
 import com.l2jserver.gameserver.model.actor.instance.L2PcInstance;
 import com.l2jserver.gameserver.network.SystemMessageId;
 import com.l2jserver.gameserver.network.serverpackets.NpcHtmlMessage;
+import com.l2jserver.gameserver.network.serverpackets.SkillCoolTime;
 import com.l2jserver.gameserver.util.GMAudit;
 import com.l2jserver.util.StringUtil;
 import com.l2jserver.gameserver.datatables.MessageTable;
@@ -22,7 +23,8 @@ public class AdminBuffs implements IAdminCommandHandler
 		"admin_getbuffs",
 		"admin_stopbuff",
 		"admin_stopallbuffs",
-		"admin_areacancel"
+		"admin_areacancel",
+		"admin_removereuse"
 	};
 	
 	public boolean useAdminCommand(String command, L2PcInstance activeChar)
@@ -68,7 +70,7 @@ public class AdminBuffs implements IAdminCommandHandler
 			else
 			{
 				activeChar.sendPacket(SystemMessageId.TARGET_IS_INCORRECT);
-				return true;
+				return false;
 			}
 		}
 		
@@ -102,7 +104,8 @@ public class AdminBuffs implements IAdminCommandHandler
 				removeAllBuffs(activeChar, objectId);
 				return true;
 			}
-			catch (Exception e) {
+			catch (Exception e)
+			{
 				activeChar.sendMessage("Failed removing all effects: " + e.getMessage());
 				activeChar.sendMessage("Usage: //stopallbuffs <objectId>");
 				return false;
@@ -129,6 +132,53 @@ public class AdminBuffs implements IAdminCommandHandler
 			catch (NumberFormatException e)
 			{
 				activeChar.sendMessage("Usage: //areacancel <radius>");
+				return false;
+			}
+		}
+		else if (command.startsWith("admin_removereuse"))
+		{
+			StringTokenizer st = new StringTokenizer(command, " ");
+			command = st.nextToken();
+			
+			L2PcInstance player = null;
+			if (st.hasMoreTokens())
+			{
+				String playername = st.nextToken();
+				
+				try
+				{
+					player = L2World.getInstance().getPlayer(playername);
+				}
+				catch (Exception e)
+				{
+				}
+				
+				if (player == null)
+				{
+					activeChar.sendMessage("The player " + playername + " is not online.");
+					return false;
+				}
+			}
+			else if (activeChar.getTarget() instanceof L2PcInstance)
+			{
+				player = (L2PcInstance) activeChar.getTarget();
+			}
+			else
+			{
+				activeChar.sendPacket(SystemMessageId.TARGET_IS_INCORRECT);
+				return false;
+			}
+			
+			try
+			{
+				player.getReuseTimeStamp().clear();
+				player.getDisabledSkills().clear();
+				player.sendPacket(new SkillCoolTime(player));
+				activeChar.sendMessage("Skill reuse was removed from " + player.getName() + ".");
+				return true;
+			}
+			catch (NullPointerException e)
+			{
 				return false;
 			}
 		}
@@ -261,5 +311,4 @@ public class AdminBuffs implements IAdminCommandHandler
 			showBuffs(activeChar, target, 1);
 		}
 	}
-	
 }
