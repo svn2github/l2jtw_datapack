@@ -25,6 +25,7 @@ import com.l2jserver.gameserver.network.serverpackets.NpcHtmlMessage;
 import com.l2jserver.gameserver.network.serverpackets.StaticObject;
 import com.l2jserver.util.StringUtil;
 import com.l2jserver.gameserver.datatables.MessageTable;
+
 public class L2DoorInstanceActionShift implements IActionHandler
 {
 	public boolean action(L2PcInstance activeChar, L2Object target, boolean interact)
@@ -51,9 +52,9 @@ public class L2DoorInstanceActionShift implements IActionHandler
 			NpcHtmlMessage html = new NpcHtmlMessage(target.getObjectId());
                         final String html1 = StringUtil.concat(
                                 "<html><body><center><font color=\"LEVEL\">"+MessageTable.Messages[1270].getMessage()+"</font></center><br><table border=0><tr><td>"+MessageTable.Messages[1271].getMessage()+"</td><td>",
-                                String.valueOf(target.getCurrentHp()),
+                                String.valueOf(((L2Character)target).getCurrentHp()),
                                 " / ",
-                                String.valueOf(target.getMaxHp()),
+                                String.valueOf(((L2Character)target).getMaxHp()),
                                 "</td></tr><tr><td>"+MessageTable.Messages[1272].getMessage()+"</td><td>",
                                 String.valueOf(((L2DoorInstance)target).getXMax()),
                                 ", ",
