@@ -49,6 +49,7 @@ public class MasterHandler
 		ActionHandler.getInstance().registerActionHandler(new L2ArtefactInstanceAction());
 		ActionHandler.getInstance().registerActionHandler(new L2DecoyAction());
 		ActionHandler.getInstance().registerActionHandler(new L2DoorInstanceAction());
+		ActionHandler.getInstance().registerActionHandler(new L2ItemInstanceAction());
 		ActionHandler.getInstance().registerActionHandler(new L2NpcAction());
 		ActionHandler.getInstance().registerActionHandler(new L2PcInstanceAction());
 		ActionHandler.getInstance().registerActionHandler(new L2PetInstanceAction());
@@ -61,6 +62,7 @@ public class MasterHandler
 	private static void loadActionShiftHandlers()
 	{
 		ActionHandler.getInstance().registerActionShiftHandler(new L2DoorInstanceActionShift());
+		ActionHandler.getInstance().registerActionShiftHandler(new L2ItemInstanceActionShift());
 		ActionHandler.getInstance().registerActionShiftHandler(new L2MerchantInstanceActionShift());
 		ActionHandler.getInstance().registerActionShiftHandler(new L2NpcActionShift());
 		ActionHandler.getInstance().registerActionShiftHandler(new L2PcInstanceActionShift());
@@ -211,6 +213,7 @@ public class MasterHandler
 		ItemHandler.getInstance().registerItemHandler(new SoulCrystals());
 		ItemHandler.getInstance().registerItemHandler(new SevenSignsRecord());
 		ItemHandler.getInstance().registerItemHandler(new ItemSkills());
+		ItemHandler.getInstance().registerItemHandler(new ItemSkillsTemplate());
 		ItemHandler.getInstance().registerItemHandler(new Seed());
 		ItemHandler.getInstance().registerItemHandler(new Harvester());
 		ItemHandler.getInstance().registerItemHandler(new MercTicket());
@@ -222,6 +225,7 @@ public class MasterHandler
 		ItemHandler.getInstance().registerItemHandler(new TeleportBookmark());
 		ItemHandler.getInstance().registerItemHandler(new Elixir());
 		ItemHandler.getInstance().registerItemHandler(new Disguise());
+		ItemHandler.getInstance().registerItemHandler(new ManaPotion());
 		_log.config("Loaded " + ItemHandler.getInstance().size() + " ItemHandlers");
 	}
 	

@@ -15,6 +15,7 @@
 package handlers.actionhandlers;
 
 import com.l2jserver.gameserver.handler.IActionHandler;
+import com.l2jserver.gameserver.model.L2Object;
 import com.l2jserver.gameserver.model.L2Object.InstanceType;
 import com.l2jserver.gameserver.model.actor.L2Character;
 import com.l2jserver.gameserver.model.actor.L2Npc;
@@ -23,23 +24,23 @@ import com.l2jserver.gameserver.network.serverpackets.MyTargetSelected;
 import com.l2jserver.gameserver.network.serverpackets.NpcHtmlMessage;
 import com.l2jserver.gameserver.network.serverpackets.StatusUpdate;
 import com.l2jserver.util.StringUtil;
-import com.l2jserver.gameserver.datatables.MessageTable;
+
 public class L2MerchantInstanceActionShift implements IActionHandler
 {
-	public boolean action(L2PcInstance activeChar, L2Character target, boolean interact)
+	public boolean action(L2PcInstance activeChar, L2Object target, boolean interact)
 	{
 		if (activeChar.isGM())
 		{
 			activeChar.setTarget(target);
 
-			MyTargetSelected my = new MyTargetSelected(target.getObjectId(), activeChar.getLevel() - target.getLevel());
+			MyTargetSelected my = new MyTargetSelected(target.getObjectId(), activeChar.getLevel() - ((L2Character)target).getLevel());
 			activeChar.sendPacket(my);
 
 			if (target.isAutoAttackable(activeChar))
 			{
 				StatusUpdate su = new StatusUpdate(target.getObjectId());
-				su.addAttribute(StatusUpdate.CUR_HP, (int) target.getCurrentHp());
-				su.addAttribute(StatusUpdate.MAX_HP, target.getMaxHp());
+				su.addAttribute(StatusUpdate.CUR_HP, (int) ((L2Character)target).getCurrentHp());
+				su.addAttribute(StatusUpdate.MAX_HP, ((L2Character)target).getMaxHp());
 				activeChar.sendPacket(su);
 			}
 
@@ -50,11 +51,11 @@ public class L2MerchantInstanceActionShift implements IActionHandler
 					"</td></tr><tr><td>"+MessageTable.Messages[1288].getMessage()+"</td><td>",
 					String.valueOf(((L2Npc)target).getTemplate().npcId),
 					"</td></tr><tr><td><br></td></tr><tr><td>"+MessageTable.Messages[1289].getMessage()+"</td><td>",
-					String.valueOf(target.getCurrentHp()),
+					String.valueOf(((L2Character)target).getCurrentHp()),
 					"</td></tr><tr><td>"+MessageTable.Messages[1290].getMessage()+"</td><td>",
-					String.valueOf(target.getCurrentMp()),
+					String.valueOf(((L2Character)target).getCurrentMp()),
 					"</td></tr><tr><td>"+MessageTable.Messages[1291].getMessage()+"</td><td>",
-					String.valueOf(target.getLevel()),
+					String.valueOf(((L2Character)target).getLevel()),
 					"</td></tr><tr><td><br></td></tr><tr><td>"+MessageTable.Messages[1292].getMessage()+"</td><td>",
 					target.getClass().getSimpleName(),
 					"</td></tr><tr><td><br></td></tr></table><table><tr><td><button value=\""+MessageTable.Messages[1293].getMessage()+"\" action=\"bypass -h admin_edit_npc ",
