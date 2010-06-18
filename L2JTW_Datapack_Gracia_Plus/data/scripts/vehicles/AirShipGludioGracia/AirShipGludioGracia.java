@@ -137,7 +137,7 @@ public class AirShipGludioGracia extends Quest implements Runnable
 			switch (_cycle)
 			{
 				case 0:
-					broadcastInGludio("The regularly scheduled airship that flies to the Gracia continent has departed.");
+					broadcastInGludio("開往格勒西亞大陸的定期飛空艇已出發。");
 					_ship.setInDock(0);
 					_ship.executePath(GLUDIO_TO_WARPGATE);
 					break;
@@ -150,13 +150,13 @@ public class AirShipGludioGracia extends Quest implements Runnable
 					_ship.executePath(WARPGATE_TO_GRACIA);
 					break;
 				case 3:
-					broadcastInGracia("The regurarly scheduled airship has arrived. It will depart for the Aden continent in 1 minute.");
+					broadcastInGracia("定期飛空艇已經抵達。1分鐘後，將會開往亞丁大陸。");
 					_ship.setInDock(GRACIA_DOCK_ID);
 					_ship.oustPlayers();
 					ThreadPoolManager.getInstance().scheduleGeneral(this, 60000);
 					break;
 				case 4:
-					broadcastInGracia("The regurarly scheduled airship that flies to the Aden continent has departed.");
+					broadcastInGracia("開往亞丁大陸的定期飛空艇已出發。");
 					_ship.setInDock(0);
 					_ship.executePath(GRACIA_TO_WARPGATE);
 					break;
@@ -169,7 +169,7 @@ public class AirShipGludioGracia extends Quest implements Runnable
 					_ship.executePath(WARPGATE_TO_GLUDIO);
 					break;
 				case 7:
-					broadcastInGludio("The regularly scheduled airship has arrived. It will depart for the Gracia continent in 1 minute.");
+					broadcastInGludio("定期飛空艇已經抵達。1分鐘後，將會開往格勒西亞大陸。");
 					_ship.setInDock(GLUDIO_DOCK_ID);
 					_ship.oustPlayers();
 					ThreadPoolManager.getInstance().scheduleGeneral(this, 60000);
