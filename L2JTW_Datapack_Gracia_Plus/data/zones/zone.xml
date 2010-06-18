@@ -1189,6 +1189,7 @@
 	<zone id="14008" type="LandingZone" shape="NPoly" minZ="1532" maxZ="1671" />
 	<zone id="14009" type="LandingZone" shape="NPoly" minZ="1735" maxZ="1892" />
 	<zone id="14010" type="LandingZone" shape="NPoly" minZ="4200" maxZ="4350" />
+	<zone id="14011" type="LandingZone" shape="NPoly" minZ="4320" maxZ="4470" />
 
 	<!-- Fishing Zones -->
 	<zone id="11400" type="FishingZone" shape="NPoly" minZ="-3991" maxZ="-3759" /> <!-- fishing_place_1 (Not Verified) -->
@@ -2867,6 +2868,12 @@
 
 	<!-- Dimensional Rift (Peace Zone) -->
 	<zone id="50500" type="PeaceZone" shape="NPoly" minZ="-6964" maxZ="-6064" /> <!-- [16_12] space_of_dimension_peace1 -->
+
+	<!-- AirShips docks -->
+	<zone id="50600" type="ScriptZone" shape="Cylinder" minZ="-1000" maxZ="6200" rad="2900" /> <!-- Seed of Infinity -->
+	<zone id="50601" type="ScriptZone" shape="Cylinder" minZ="-1000" maxZ="6200" rad="4300" /> <!-- Seed of Destruction -->
+	<zone id="50602" type="ScriptZone" shape="NPoly" minZ="-1000" maxZ="6200" /> <!-- Keucereus Base North -->
+	<zone id="50603" type="ScriptZone" shape="NPoly" minZ="-1000" maxZ="6200" /> <!-- Keucereus Base South -->
 
 	<zone id="60000" type="PeaceZone" shape="Cylinder" minZ="-12960" maxZ="-12600" rad="800" /> <!-- Death Gate -->
 	<zone id="60001" type="NoSummonZone" shape="Cylinder" minZ="-12960" maxZ="-12600" rad="800" /> <!-- Death Gate (No Summon Friend zone) -->

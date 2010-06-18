@@ -598,16 +598,13 @@
 		<set name="operateType" val="OP_PASSIVE" />
 	</skill>
 	<skill id="5572" levels="1" name="Warrior Ability - Haste">
+		<!-- NOTE: Description says "Excludes damage caused by a skill or ranged attack" but is client typo -->
 		<set name="target" val="TARGET_SELF" />
 		<set name="skillType" val="BUFF" />
 		<set name="operateType" val="OP_ACTIVE" />
 		<for>
 			<effect name="Buff" time="15" val="0">
-				<mul order="0x30" stat="pAtkSpd" val="1.33">
-					<not>
-						<using kind="Bow,Crossbow" />
-					</not>
-				</mul>
+				<mul order="0x30" stat="pAtkSpd" val="1.33" />
 			</effect>
 		</for>
 	</skill>
