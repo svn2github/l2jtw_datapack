@@ -1690,8 +1690,54 @@ INSERT INTO `messagetable` VALUES ('789', 'cn', '原始之岛', '', 'MapRegionTa
 INSERT INTO `messagetable` VALUES ('790', 'en', 'Kamael Village', '', 'MapRegionTable.java');
 INSERT INTO `messagetable` VALUES ('790', 'tw', '闇天使村莊', '', 'MapRegionTable.java');
 INSERT INTO `messagetable` VALUES ('790', 'cn', '闇天使村庄', '', 'MapRegionTable.java');
-
-
+INSERT INTO `messagetable` VALUES ('791', 'en', 'South of Wastelands Camp', '', 'MapRegionTable.java');
+INSERT INTO `messagetable` VALUES ('791', 'tw', '荒廢的營區南方', '', 'MapRegionTable.java');
+INSERT INTO `messagetable` VALUES ('791', 'cn', '荒废的营區南方', '', 'MapRegionTable.java');
+INSERT INTO `messagetable` VALUES ('792', 'en', 'Fantasy Island', '', 'MapRegionTable.java');
+INSERT INTO `messagetable` VALUES ('792', 'tw', '夢幻島', '', 'MapRegionTable.java');
+INSERT INTO `messagetable` VALUES ('792', 'cn', '梦幻岛', '', 'MapRegionTable.java');
+INSERT INTO `messagetable` VALUES ('793', 'en', 'Neutral Zone', '', 'MapRegionTable.java');
+INSERT INTO `messagetable` VALUES ('793', 'tw', '中立地帶', '', 'MapRegionTable.java');
+INSERT INTO `messagetable` VALUES ('793', 'cn', '中立地帶', '', 'MapRegionTable.java');
+INSERT INTO `messagetable` VALUES ('794', 'en', 'Coliseum', '', 'MapRegionTable.java');
+INSERT INTO `messagetable` VALUES ('794', 'tw', '大圓形競技場', '', 'MapRegionTable.java');
+INSERT INTO `messagetable` VALUES ('794', 'cn', '大圓形競技場', '', 'MapRegionTable.java');
+INSERT INTO `messagetable` VALUES ('795', 'en', 'GM Consultation service', '', 'MapRegionTable.java');
+INSERT INTO `messagetable` VALUES ('795', 'tw', 'GM諮詢處', '', 'MapRegionTable.java');
+INSERT INTO `messagetable` VALUES ('795', 'cn', 'GM諮詢處', '', 'MapRegionTable.java');
+INSERT INTO `messagetable` VALUES ('796', 'en', 'Dimensional Gap', '', 'MapRegionTable.java');
+INSERT INTO `messagetable` VALUES ('796', 'tw', '次元的裂痕', '', 'MapRegionTable.java');
+INSERT INTO `messagetable` VALUES ('796', 'cn', '次元的裂痕', '', 'MapRegionTable.java');
+INSERT INTO `messagetable` VALUES ('797', 'en', 'Cemetary of the Empire', '', 'MapRegionTable.java');
+INSERT INTO `messagetable` VALUES ('797', 'tw', '帝國之墓', '', 'MapRegionTable.java');
+INSERT INTO `messagetable` VALUES ('797', 'cn', '帝國之墓', '', 'MapRegionTable.java');
+INSERT INTO `messagetable` VALUES ('798', 'en', 'Inside the Steel Citadel', '', 'MapRegionTable.java');
+INSERT INTO `messagetable` VALUES ('798', 'tw', '鋼鐵之城內部', '', 'MapRegionTable.java');
+INSERT INTO `messagetable` VALUES ('798', 'cn', '鋼鐵之城內部', '', 'MapRegionTable.java');
+INSERT INTO `messagetable` VALUES ('799', 'en', 'Steel Citadel Resistance', '', 'MapRegionTable.java');
+INSERT INTO `messagetable` VALUES ('799', 'tw', '鋼鐵之城 Resistance', '', 'MapRegionTable.java');
+INSERT INTO `messagetable` VALUES ('799', 'cn', '鋼鐵之城 Resistance', '', 'MapRegionTable.java');
+INSERT INTO `messagetable` VALUES ('800', 'en', 'Inside Kamaloka', '', 'MapRegionTable.java');
+INSERT INTO `messagetable` VALUES ('800', 'tw', '欲界內部', '', 'MapRegionTable.java');
+INSERT INTO `messagetable` VALUES ('800', 'cn', '欲界內部', '', 'MapRegionTable.java');
+INSERT INTO `messagetable` VALUES ('801', 'en', 'Inside Nia Kamaloka', '', 'MapRegionTable.java');
+INSERT INTO `messagetable` VALUES ('801', 'tw', 'Inside Nia Kamaloka', '', 'MapRegionTable.java');
+INSERT INTO `messagetable` VALUES ('801', 'cn', 'Inside Nia Kamaloka', '', 'MapRegionTable.java');
+INSERT INTO `messagetable` VALUES ('802', 'en', 'Inside Rim Kamaloka', '', 'MapRegionTable.java');
+INSERT INTO `messagetable` VALUES ('802', 'tw', 'Inside Rim Kamaloka', '', 'MapRegionTable.java');
+INSERT INTO `messagetable` VALUES ('802', 'cn', 'Inside Rim Kamaloka', '', 'MapRegionTable.java');
+INSERT INTO `messagetable` VALUES ('803', 'en', 'Keucereus clan association', '', 'MapRegionTable.java');
+INSERT INTO `messagetable` VALUES ('803', 'tw', 'Keucereus clan association', '', 'MapRegionTable.java');
+INSERT INTO `messagetable` VALUES ('803', 'cn', 'Keucereus clan association', '', 'MapRegionTable.java');
+INSERT INTO `messagetable` VALUES ('804', 'en', 'Inside the Seed of Infinity', '', 'MapRegionTable.java');
+INSERT INTO `messagetable` VALUES ('804', 'tw', '不滅之種內部', '', 'MapRegionTable.java');
+INSERT INTO `messagetable` VALUES ('804', 'cn', '不滅之種內部', '', 'MapRegionTable.java');
+INSERT INTO `messagetable` VALUES ('805', 'en', 'Outside the Seed of Infinity', '', 'MapRegionTable.java');
+INSERT INTO `messagetable` VALUES ('805', 'tw', '不滅之種外部', '', 'MapRegionTable.java');
+INSERT INTO `messagetable` VALUES ('805', 'cn', '不滅之種外部', '', 'MapRegionTable.java');
+INSERT INTO `messagetable` VALUES ('806', 'en', 'Aerial Cleft', '', 'MapRegionTable.java');
+INSERT INTO `messagetable` VALUES ('806', 'tw', '裂縫', '', 'MapRegionTable.java');
+INSERT INTO `messagetable` VALUES ('806', 'cn', '裂縫', '', 'MapRegionTable.java')
 
 INSERT INTO `messagetable` VALUES ('1000', 'en', 'Go away, you\'re not welcome here.', '', 'CPRecovery.java');
 INSERT INTO `messagetable` VALUES ('1000', 'tw', '快離開，這裡不歡迎你。', '', 'CPRecovery.java');

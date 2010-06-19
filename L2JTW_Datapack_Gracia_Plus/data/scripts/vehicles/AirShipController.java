@@ -75,20 +75,20 @@ public abstract class AirShipController extends Quest
 	private static final int STARSTONE = 13277;
 	private static final int SUMMON_COST = 5;
 
-	private static final SystemMessage SM_ALREADY_EXISTS = new SystemMessage(SystemMessageId.THE_AIRSHIP_IS_ALREADY_EXISTS);
-	private static final SystemMessage SM_ALREADY_SUMMONED = new SystemMessage(SystemMessageId.ANOTHER_AIRSHIP_ALREADY_SUMMONED);
-	private static final SystemMessage SM_NEED_LICENSE = new SystemMessage(SystemMessageId.THE_AIRSHIP_NEED_LICENSE_TO_SUMMON);
-	private static final SystemMessage SM_NEED_CLANLVL5 = new SystemMessage(SystemMessageId.THE_AIRSHIP_NEED_CLANLVL_5_TO_SUMMON);
-	private static final SystemMessage SM_NO_PRIVS = new SystemMessage(SystemMessageId.THE_AIRSHIP_NO_PRIVILEGES);
-	private static final SystemMessage SM_ALREADY_USED = new SystemMessage(SystemMessageId.THE_AIRSHIP_ALREADY_USED);
-	private static final SystemMessage SM_LICENSE_ALREADY_ACQUIRED = new SystemMessage(SystemMessageId.THE_AIRSHIP_SUMMON_LICENSE_ALREADY_ACQUIRED);
-	private static final SystemMessage SM_LICENSE_ENTERED = new SystemMessage(SystemMessageId.THE_AIRSHIP_SUMMON_LICENSE_ENTERED);
-	private static final SystemMessage SM_NEED_MORE = new SystemMessage(SystemMessageId.THE_AIRSHIP_NEED_MORE_S1).addItemName(STARSTONE);
-	private static final SystemMessage SM_PET = new SystemMessage(SystemMessageId.RELEASE_PET_ON_BOAT);
-	private static final SystemMessage SM_TRANS = new SystemMessage(SystemMessageId.CANT_POLYMORPH_ON_BOAT);
-	private static final SystemMessage SM_FLYING = new SystemMessage(SystemMessageId.YOU_CANNOT_MOUNT_NOT_MEET_REQUEIREMENTS);
+	private static final SystemMessage SM_ALREADY_EXISTS = new SystemMessage(SystemMessageId.THE_AIRSHIP_IS_ALREADY_EXISTS); //已有屬於血盟的飛空艇。
+	private static final SystemMessage SM_ALREADY_SUMMONED = new SystemMessage(SystemMessageId.ANOTHER_AIRSHIP_ALREADY_SUMMONED); //碼頭上已有召喚其他的飛空艇，請稍後再利用。
+	//private static final SystemMessage SM_NEED_LICENSE = new SystemMessage(SystemMessageId.THE_AIRSHIP_NEED_LICENSE_TO_SUMMON); //尚未輸入飛空艇召喚許可證，或者沒有屬於血盟的飛空艇，因此無法召喚飛空艇。
+	//private static final SystemMessage SM_NEED_CLANLVL5 = new SystemMessage(SystemMessageId.THE_AIRSHIP_NEED_CLANLVL_5_TO_SUMMON); //如果想要獲得飛空艇，血盟等級必須要達到等級5才行。
+	private static final SystemMessage SM_NO_PRIVS = new SystemMessage(SystemMessageId.THE_AIRSHIP_NO_PRIVILEGES); //屬於血盟的飛空艇僅限盟主來購買。
+	private static final SystemMessage SM_ALREADY_USED = new SystemMessage(SystemMessageId.THE_AIRSHIP_ALREADY_USED); //屬於血盟的飛空艇已被其他血盟成員使用。
+	//private static final SystemMessage SM_LICENSE_ALREADY_ACQUIRED = new SystemMessage(SystemMessageId.THE_AIRSHIP_SUMMON_LICENSE_ALREADY_ACQUIRED); //已獲得飛空艇召喚許可證。
+	private static final SystemMessage SM_LICENSE_ENTERED = new SystemMessage(SystemMessageId.THE_AIRSHIP_SUMMON_LICENSE_ENTERED); //飛空艇召喚許可證已輸入完畢，往後貴血盟就能召喚飛空艇。
+	//private static final SystemMessage SM_NEED_MORE = new SystemMessage(SystemMessageId.THE_AIRSHIP_NEED_MORE_S1).addItemName(STARSTONE); //「$s1」不足，因而無法召喚飛空艇。
+	private static final SystemMessage SM_PET = new SystemMessage(SystemMessageId.YOU_CANNOT_MOUNT_A_STEED_WHILE_A_PET_OR_A_SERVITOR_IS_SUMMONED); //在召喚寵物或使魔的狀態下，無法騎乘任何東西。
+	private static final SystemMessage SM_TRANS = new SystemMessage(SystemMessageId.CANT_POLYMORPH_ON_BOAT); //在搭乘船時，無法變身。
+	private static final SystemMessage SM_FLYING = new SystemMessage(SystemMessageId.YOU_CANNOT_MOUNT_NOT_MEET_REQUEIREMENTS); //條件不符，因此無法搭乘。
 
-	private static final String ARRIVAL_MSG = "The airship has been summoned. It will automatically depart in 5 minutes";
+	private static final String ARRIVAL_MSG = "已召喚到飛空艇。5分鐘後，將會自動出發。";
 
 	public String onAdvEvent(String event, L2Npc npc, L2PcInstance player)
 	{
@@ -97,23 +97,23 @@ public abstract class AirShipController extends Quest
 			if (_dockedShip != null)
 			{
 				if (_dockedShip.isOwner(player))
-					player.sendPacket(SM_ALREADY_EXISTS);
+					player.sendPacket(SM_ALREADY_SUMMONED);
 				return null;
 			}
 			if (_isBusy)
 			{
-				player.sendPacket(SM_ALREADY_SUMMONED);
+				player.sendPacket(SM_ALREADY_EXISTS);
 				return null;
 			}
 			if ((player.getClanPrivileges() & L2Clan.CP_CL_SUMMON_AIRSHIP) != L2Clan.CP_CL_SUMMON_AIRSHIP)
 			{
-				player.sendPacket(SM_NO_PRIVS);
+				player.sendMessage("需要先創立血盟或隸屬於某血盟之下。");
 				return null;
 			}
 			int ownerId = player.getClanId();
 			if (!AirShipManager.getInstance().hasAirShipLicense(ownerId))
 			{
-				player.sendPacket(SM_NEED_LICENSE);
+				player.sendMessage("道具不足。如果想要召喚飛空艇，需要用到能量星石5個。");
 				return null;
 			}
 			if (AirShipManager.getInstance().hasAirShip(ownerId))
@@ -121,9 +121,9 @@ public abstract class AirShipController extends Quest
 				player.sendPacket(SM_ALREADY_USED);
 				return null;
 			}
-			if (!player.destroyItemByItemId("AirShipSummon", STARSTONE, SUMMON_COST, npc, true))
+			if (!player.destroyItemByItemId("AirShipSummon", STARSTONE, SUMMON_COST, npc, false))
 			{
-				player.sendPacket(SM_NEED_MORE);
+				player.sendMessage("道具不足。如果想要召喚飛空艇，需要用到能量星石5個。");
 				return null;
 			}
 
@@ -169,9 +169,14 @@ public abstract class AirShipController extends Quest
 		}
 		else if ("register".equalsIgnoreCase(event))
 		{
-			if (player.getClan() == null || player.getClan().getLevel() < 5)
+			if (player.getClan() == null)
 			{
-				player.sendPacket(SM_NEED_CLANLVL5);
+				player.sendMessage("需要先創立血盟或隸屬於某血盟之下。");
+				return null;
+			}
+			if (player.getClan().getLevel() < 5)
+			{
+				player.sendMessage("沒有飛空艇召喚許可證。飛空艇召喚許可證可向工程師雷坤申請發行。");
 				return null;
 			}
 			if (!player.isClanLeader())
@@ -182,12 +187,12 @@ public abstract class AirShipController extends Quest
 			final int ownerId = player.getClanId();
 			if (AirShipManager.getInstance().hasAirShipLicense(ownerId))
 			{
-				player.sendPacket(SM_LICENSE_ALREADY_ACQUIRED);
+				player.sendMessage("已有輸入飛空艇召喚許可證。");
 				return null;
 			}
-			if (!player.destroyItemByItemId("AirShipLicense", LICENSE, 1, npc, true))
+			if (!player.destroyItemByItemId("AirShipLicense", LICENSE, 1, npc, false))
 			{
-				player.sendPacket(SM_NEED_MORE);
+				player.sendMessage("沒有飛空艇召喚許可證。飛空艇召喚許可證可向工程師雷坤申請發行。");
 				return null;
 			}
 
