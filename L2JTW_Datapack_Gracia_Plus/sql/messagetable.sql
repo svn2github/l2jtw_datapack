@@ -1737,7 +1737,7 @@ INSERT INTO `messagetable` VALUES ('805', 'tw', '不滅之種外部', '', 'MapRe
 INSERT INTO `messagetable` VALUES ('805', 'cn', '不滅之種外部', '', 'MapRegionTable.java');
 INSERT INTO `messagetable` VALUES ('806', 'en', 'Aerial Cleft', '', 'MapRegionTable.java');
 INSERT INTO `messagetable` VALUES ('806', 'tw', '裂縫', '', 'MapRegionTable.java');
-INSERT INTO `messagetable` VALUES ('806', 'cn', '裂縫', '', 'MapRegionTable.java')
+INSERT INTO `messagetable` VALUES ('806', 'cn', '裂縫', '', 'MapRegionTable.java');
 
 INSERT INTO `messagetable` VALUES ('1000', 'en', 'Go away, you\'re not welcome here.', '', 'CPRecovery.java');
 INSERT INTO `messagetable` VALUES ('1000', 'tw', '快離開，這裡不歡迎你。', '', 'CPRecovery.java');
