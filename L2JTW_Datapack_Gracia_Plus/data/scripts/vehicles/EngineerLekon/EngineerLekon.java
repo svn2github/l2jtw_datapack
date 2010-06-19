@@ -18,8 +18,8 @@ import com.l2jserver.gameserver.instancemanager.AirShipManager;
 import com.l2jserver.gameserver.model.actor.L2Npc;
 import com.l2jserver.gameserver.model.actor.instance.L2PcInstance;
 import com.l2jserver.gameserver.model.quest.Quest;
-import com.l2jserver.gameserver.network.SystemMessageId;
-import com.l2jserver.gameserver.network.serverpackets.SystemMessage;
+//import com.l2jserver.gameserver.network.SystemMessageId;
+//import com.l2jserver.gameserver.network.serverpackets.SystemMessage;
 
 public class EngineerLekon extends Quest
 {
@@ -29,36 +29,33 @@ public class EngineerLekon extends Quest
 	private static final int STARSTONE = 13277;
 	private static final int LICENSE_COST = 10;
 
+/*Update by pmq
 	private static final SystemMessage SM_NEED_CLANLVL5 = new SystemMessage(SystemMessageId.THE_AIRSHIP_NEED_CLANLVL_5_TO_SUMMON);
 	private static final SystemMessage SM_NO_PRIVS = new SystemMessage(SystemMessageId.THE_AIRSHIP_NO_PRIVILEGES);
 	private static final SystemMessage SM_LICENSE_ALREADY_ACQUIRED = new SystemMessage(SystemMessageId.THE_AIRSHIP_SUMMON_LICENSE_ALREADY_ACQUIRED);
-
+*/
 	public String onAdvEvent(String event, L2Npc npc, L2PcInstance player)
 	{
 		if ("license".equalsIgnoreCase(event))
 		{
 			if (player.getClan() == null || player.getClan().getLevel() < 5)
 			{
-				player.sendPacket(SM_NEED_CLANLVL5);
-				return null;
+				return "32557-4.htm";//update by pmq
 			}
 			if (!player.isClanLeader())
 			{
-				player.sendPacket(SM_NO_PRIVS);
-				return null;
+				return "32557-4.htm";//update by pmq
 			}
 			if (AirShipManager.getInstance().hasAirShipLicense(player.getClanId()))
 			{
-				player.sendPacket(SM_LICENSE_ALREADY_ACQUIRED);
-				return null;
+				return "32557-3.htm";//update by pmq
 			}
 			if (player.getInventory().getItemByItemId(LICENSE) != null)
 			{
-				player.sendPacket(SM_LICENSE_ALREADY_ACQUIRED);
-				return null;
+				return "32557-3.htm";//update by pmq
 			}
-			if (!player.destroyItemByItemId("AirShipLicense", STARSTONE, LICENSE_COST, npc, true))
-				return null;
+			if (!player.destroyItemByItemId("AirShipLicense", STARSTONE, LICENSE_COST, npc, false))
+				return "32557-2.htm";//update by pmq
 
 			player.addItem("AirShipLicense", LICENSE, 1, npc, true);
 			return null;
