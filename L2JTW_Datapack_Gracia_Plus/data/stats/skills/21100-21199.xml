@@ -745,11 +745,10 @@
 		<set name="npcId" val="1559" />
 	</skill>
 	<skill id="21152" levels="1" name="Continuous Fireworks">
-		<!-- Update by rocknow -->
 		<set name="target" val="TARGET_SELF" />
 		<set name="skillType" val="DUMMY" />
 		<set name="operateType" val="OP_ACTIVE" />
-		<set name="reuseDelay" val="18000000" />
+		<set name="reuseDelay" val="300000" />
 		<set name="staticReuse" val="true" />
 	</skill>
 	<skill id="21153" levels="1" name="Blessed Body">
