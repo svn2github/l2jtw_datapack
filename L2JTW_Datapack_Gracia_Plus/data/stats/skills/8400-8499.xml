@@ -20,4 +20,13 @@
 		<set name="skillType" val="NOTDONE" />
 		<set name="operateType" val="OP_PASSIVE" />
 	</skill>
+	<skill id="8497" levels="1" name="8497">
+		<!-- Update by rocknow -->
+		<set name="target" val="TARGET_SELF" />
+		<set name="skillType" val="BUFF" />
+		<set name="operateType" val="OP_PASSIVE" />
+		<for>
+			<add order="0x40" stat="waterRes" val="30" />
+		</for>
+	</skill>
 </list>
