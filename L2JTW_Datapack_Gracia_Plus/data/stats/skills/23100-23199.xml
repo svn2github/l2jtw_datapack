@@ -667,6 +667,7 @@
 		<set name="target" val="TARGET_SELF" />
 		<set name="skillType" val="DUMMY" />
 		<set name="operateType" val="OP_ACTIVE" />
+		<set name="hitTime" val="3000" />
 		<set name="reuseDelay" val="300000" />
 		<set name="staticReuse" val="true" />
 		<cond msgId="2292">
@@ -734,5 +735,18 @@
 		<set name="target" val="TARGET_NONE" />
 		<set name="skillType" val="NOTDONE" />
 		<set name="operateType" val="OP_PASSIVE" />
+	</skill>
+	<skill id="23181" levels="1" name="23181">
+		<!-- Update by rocknow -->
+		<set name="target" val="TARGET_SELF" />
+		<set name="skillType" val="DUMMY" />
+		<set name="operateType" val="OP_ACTIVE" />
+		<set name="hitTime" val="3000" />
+		<set name="staticHitTime" val="true" />
+		<set name="reuseDelay" val="300000" />
+		<set name="staticReuse" val="true" />
+		<cond msgId="2292">
+			<player agathionId="1575" />
+		</cond>
 	</skill>
 </list>

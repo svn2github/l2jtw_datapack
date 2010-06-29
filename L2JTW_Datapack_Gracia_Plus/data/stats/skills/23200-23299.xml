@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<list>
+	<skill id="23201" levels="1" name="23201">
+		<!-- Update by rocknow -->
+		<set name="target" val="TARGET_SELF" />
+		<set name="skillType" val="DUMMY" />
+		<set name="operateType" val="OP_ACTIVE" />
+		<set name="hitTime" val="3000" />
+		<set name="staticHitTime" val="true" />
+		<set name="reuseDelay" val="300000" />
+		<set name="staticReuse" val="true" />
+		<cond msgId="2292">
+			<player agathionId="1576" />
+		</cond>
+	</skill>
+	<skill id="23202" levels="1" name="23202">
+		<!-- Update by rocknow -->
+		<set name="target" val="TARGET_SELF" />
+		<set name="skillType" val="DUMMY" />
+		<set name="operateType" val="OP_ACTIVE" />
+		<set name="hitTime" val="3000" />
+		<set name="staticHitTime" val="true" />
+		<set name="reuseDelay" val="300000" />
+		<set name="staticReuse" val="true" />
+		<cond msgId="2292">
+			<player agathionId="1577" />
+		</cond>
+	</skill>
+	<skill id="23203" levels="1" name="23203">
+		<!-- Update by rocknow -->
+		<set name="target" val="TARGET_SELF" />
+		<set name="skillType" val="DUMMY" />
+		<set name="operateType" val="OP_ACTIVE" />
+		<set name="hitTime" val="3000" />
+		<set name="staticHitTime" val="true" />
+		<set name="reuseDelay" val="300000" />
+		<set name="staticReuse" val="true" />
+		<cond msgId="2292">
+			<player agathionId="1578" />
+		</cond>
+	</skill>
+	<skill id="23204" levels="1" name="23204">
+		<!-- Update by rocknow -->
+		<set name="target" val="TARGET_SELF" />
+		<set name="skillType" val="DUMMY" />
+		<set name="operateType" val="OP_ACTIVE" />
+		<set name="hitTime" val="3000" />
+		<set name="staticHitTime" val="true" />
+		<set name="reuseDelay" val="300000" />
+		<set name="staticReuse" val="true" />
+		<cond msgId="2292">
+			<player agathionId="1579" />
+		</cond>
+	</skill>
+	<skill id="23205" levels="1" name="23205">
+		<!-- Update by rocknow -->
+		<set name="target" val="TARGET_SELF" />
+		<set name="skillType" val="DUMMY" />
+		<set name="operateType" val="OP_ACTIVE" />
+		<set name="hitTime" val="3000" />
+		<set name="staticHitTime" val="true" />
+		<set name="reuseDelay" val="300000" />
+		<set name="staticReuse" val="true" />
+		<cond msgId="2292">
+			<player agathionId="1580" />
+		</cond>
+	</skill>
+	<skill id="23206" levels="1" name="23206">
+		<!-- Update by rocknow -->
+		<set name="target" val="TARGET_SELF" />
+		<set name="skillType" val="DUMMY" />
+		<set name="operateType" val="OP_ACTIVE" />
+		<set name="hitTime" val="3000" />
+		<set name="staticHitTime" val="true" />
+		<set name="reuseDelay" val="300000" />
+		<set name="staticReuse" val="true" />
+		<cond msgId="2292">
+			<player agathionId="1581" />
+		</cond>
+	</skill>
+	<skill id="23207" levels="1" name="23207">
+		<!-- Update by rocknow -->
+		<set name="target" val="TARGET_SELF" />
+		<set name="skillType" val="DUMMY" />
+		<set name="operateType" val="OP_ACTIVE" />
+		<set name="hitTime" val="3000" />
+		<set name="staticHitTime" val="true" />
+		<set name="reuseDelay" val="300000" />
+		<set name="staticReuse" val="true" />
+		<cond msgId="2292">
+			<player agathionId="1582" />
+		</cond>
+	</skill>
+	<skill id="23208" levels="1" name="23208">
+		<!-- Update by rocknow -->
+		<set name="target" val="TARGET_SELF" />
+		<set name="skillType" val="DUMMY" />
+		<set name="operateType" val="OP_ACTIVE" />
+		<set name="hitTime" val="3000" />
+		<set name="staticHitTime" val="true" />
+		<set name="reuseDelay" val="300000" />
+		<set name="staticReuse" val="true" />
+		<cond msgId="2292">
+			<player agathionId="1583" />
+		</cond>
+	</skill>
+	<skill id="23209" levels="1" name="23209">
+		<!-- Update by rocknow -->
+		<set name="target" val="TARGET_SELF" />
+		<set name="skillType" val="DUMMY" />
+		<set name="operateType" val="OP_ACTIVE" />
+		<set name="hitTime" val="3000" />
+		<set name="staticHitTime" val="true" />
+		<set name="reuseDelay" val="300000" />
+		<set name="staticReuse" val="true" />
+		<cond msgId="2292">
+			<player agathionId="1584" />
+		</cond>
+	</skill>
+</list>

@@ -1087,4 +1087,13 @@
 		<set name="skillType" val="NOTDONE" />
 		<set name="operateType" val="OP_PASSIVE" />
 	</skill>
+	<skill id="21194" levels="1" name="21194">
+		<!-- Update by rocknow -->
+		<set name="target" val="TARGET_SELF" />
+		<set name="skillType" val="AGATHION" />
+		<set name="operateType" val="OP_ACTIVE" />
+		<set name="hitTime" val="3000" />
+		<set name="staticHitTime" val="true" />
+		<set name="npcId" val="1575" />
+	</skill>
 </list>
