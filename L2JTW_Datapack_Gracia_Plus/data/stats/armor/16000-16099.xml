@@ -1,5 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <list>
+	<item id="16025" name="16025">
+		<!-- Update by rocknow -->
+		<for>
+			<add order="0x10" stat="mDef" val="125" />
+			<add order="0x40" stat="maxMp" val="50" />
+			<enchant order="0x0C" stat="mDef" val="0" />
+		</for>
+	</item>
+	<item id="16026" name="16026">
+		<!-- Update by rocknow -->
+		<for>
+			<add order="0x10" stat="mDef" val="132" />
+			<add order="0x40" stat="maxMp" val="50" />
+			<enchant order="0x0C" stat="mDef" val="0" />
+		</for>
+	</item>
 	<item id="16098" name="16098">
 		<!-- Update by rocknow -->
 		<for />
