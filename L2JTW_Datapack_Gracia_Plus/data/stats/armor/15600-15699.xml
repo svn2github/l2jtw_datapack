@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<list>
+	<item id="15600" name="15600">
+		<!-- Update by rocknow -->
+		<for>
+			<add order="0x10" stat="pDef" val="71" />
+			<enchant order="0x0C" stat="pDef" val="0" />
+		</for>
+	</item>
+	<item id="15601" name="15601">
+		<!-- Update by rocknow -->
+		<for>
+			<add order="0x10" stat="pDef" val="71" />
+			<enchant order="0x0C" stat="pDef" val="0" />
+		</for>
+	</item>
+	<item id="15602" name="15602">
+		<!-- Update by rocknow -->
+		<for>
+			<add order="0x10" stat="pDef" val="71" />
+			<enchant order="0x0C" stat="pDef" val="0" />
+		</for>
+	</item>
+	<item id="15603" name="15603">
+		<!-- Update by rocknow -->
+		<for>
+			<add order="0x10" stat="pDef" val="71" />
+			<enchant order="0x0C" stat="pDef" val="0" />
+		</for>
+	</item>
+	<item id="15605" name="15605">
+		<!-- Update by rocknow -->
+		<cond msgId="1518">
+			<not>
+				<player race="Kamael" />
+			</not>
+		</cond>
+		<for>
+			<add order="0x10" stat="pDef" val="19" />
+			<sub order="0x10" stat="rEvas" val="8" />
+			<enchant order="0x0C" stat="pDef" val="0" />
+		</for>
+	</item>
+	<item id="15606" name="15606">
+		<!-- Update by rocknow -->
+		<for>
+			<add order="0x10" stat="pDef" val="96" />
+			<enchant order="0x0C" stat="pDef" val="0" />
+		</for>
+	</item>
+	<item id="15607" name="15607">
+		<!-- Update by rocknow -->
+		<for>
+			<add order="0x10" stat="pDef" val="96" />
+			<enchant order="0x0C" stat="pDef" val="0" />
+		</for>
+	</item>
+	<item id="15608" name="15608">
+		<!-- Update by rocknow -->
+		<for>
+			<add order="0x10" stat="pDef" val="96" />
+			<enchant order="0x0C" stat="pDef" val="0" />
+		</for>
+	</item>
+	<item id="15609" name="15609">
+		<!-- Update by rocknow -->
+		<for>
+			<add order="0x10" stat="pDef" val="238" />
+			<enchant order="0x0C" stat="pDef" val="0" />
+		</for>
+	</item>
+	<item id="15610" name="15610">
+		<!-- Update by rocknow -->
+		<for>
+			<add order="0x10" stat="pDef" val="178" />
+			<enchant order="0x0C" stat="pDef" val="0" />
+		</for>
+	</item>
+	<item id="15611" name="15611">
+		<!-- Update by rocknow -->
+		<for>
+			<add order="0x10" stat="pDef" val="119" />
+			<add order="0x40" stat="maxMp" val="614" />
+			<enchant order="0x0C" stat="pDef" val="0" />
+		</for>
+	</item>
+	<item id="15612" name="15612">
+		<!-- Update by rocknow -->
+		<for>
+			<add order="0x10" stat="pDef" val="149" />
+			<enchant order="0x0C" stat="pDef" val="0" />
+		</for>
+	</item>
+	<item id="15613" name="15613">
+		<!-- Update by rocknow -->
+		<for>
+			<add order="0x10" stat="pDef" val="111" />
+			<enchant order="0x0C" stat="pDef" val="0" />
+		</for>
+	</item>
+	<item id="15614" name="15614">
+		<!-- Update by rocknow -->
+		<for>
+			<add order="0x10" stat="pDef" val="74" />
+			<add order="0x40" stat="maxMp" val="392" />
+			<enchant order="0x0C" stat="pDef" val="0" />
+		</for>
+	</item>
+	<item id="15615" name="15615">
+		<!-- Update by rocknow -->
+		<for>
+			<add order="0x10" stat="pDef" val="64" />
+			<enchant order="0x0C" stat="pDef" val="0" />
+		</for>
+	</item>
+	<item id="15616" name="15616">
+		<!-- Update by rocknow -->
+		<for>
+			<add order="0x10" stat="pDef" val="64" />
+			<enchant order="0x0C" stat="pDef" val="0" />
+		</for>
+	</item>
+	<item id="15617" name="15617">
+		<!-- Update by rocknow -->
+		<for>
+			<add order="0x10" stat="pDef" val="64" />
+			<enchant order="0x0C" stat="pDef" val="0" />
+		</for>
+	</item>
+	<item id="15618" name="15618">
+		<!-- Update by rocknow -->
+		<for>
+			<add order="0x10" stat="pDef" val="64" />
+			<enchant order="0x0C" stat="pDef" val="0" />
+		</for>
+	</item>
+	<item id="15619" name="15619">
+		<!-- Update by rocknow -->
+		<for>
+			<add order="0x10" stat="pDef" val="64" />
+			<enchant order="0x0C" stat="pDef" val="0" />
+		</for>
+	</item>
+	<item id="15620" name="15620">
+		<!-- Update by rocknow -->
+		<for>
+			<add order="0x10" stat="pDef" val="64" />
+			<enchant order="0x0C" stat="pDef" val="0" />
+		</for>
+	</item>
+	<item id="15622" name="15622">
+		<!-- Update by rocknow -->
+		<cond msgId="1518">
+			<not>
+				<player race="Kamael" />
+			</not>
+		</cond>
+		<for>
+			<add order="0x10" stat="pDef" val="16" />
+			<sub order="0x10" stat="rEvas" val="8" />
+			<enchant order="0x0C" stat="pDef" val="0" />
+		</for>
+	</item>
+</list>
