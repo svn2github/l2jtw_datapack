@@ -74,8 +74,8 @@
 			14134 Vesper Stormer - Guidance 3602-10; 
 			14494 Vesper Stormer {PvP} - Guidance 3602-10;
 		-->
-		<table name="#accCombat"> 6.88 6.07 5.72 5.37 5.02 4.68 4.34 3.95 5.27 7.5 </table> <!-- Guessing Level 10 -->
-		<table name="#magicLvl"> 46 49 52 55 58 61 64 67 75 80 </table> <!-- Guessing Level 10 -->
+		<table name="#accCombat"> 6.88 6.07 5.72 5.37 5.02 4.68 8 3.95 5.27 7.5 </table> <!-- Guessing Level 10 --> <!-- Update [Freya] by rocknow -->
+		<table name="#magicLvl"> 46 49 52 55 58 61 84 67 75 80 </table> <!-- Guessing Level 10 --> <!-- Update [Freya] by rocknow -->
 		<table name="#pvpBonus"> 1 1 1 1 1 1 1.05 1.05 1.05 1.05 </table> <!-- Guessing Level 10 -->
 		<set name="target" val="TARGET_SELF" />
 		<set name="skillType" val="BUFF" />

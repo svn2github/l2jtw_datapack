@@ -1010,7 +1010,7 @@
 			<effect name="Stun" time="9" val="0" stackOrder="1" stackType="Stun" />
 		</for>
 	</skill>
-	<skill id="3572" levels="2" name="Special Ability: Critical Damage">
+	<skill id="3572" levels="4" name="Special Ability: Critical Damage"> <!-- Update [Freya] by rocknow -->
 		<!-- s_opt_crt_damage75 -->
 		<!--
 			6590 Angel Slayer - Critical Damage 3572-1; Increases P. Atk. by 265 on a critical attack. Increases damage inflicted during PvP. 
@@ -1019,8 +1019,8 @@
 			14127 Vesper Shaper - Critical Damage 3572-2; 
 			14487 Vesper Shaper {PvP} - Critical Damage 3572-2;
 		-->
-		<table name="#cAtkAdd"> 265 665 </table>
-		<table name="#magicLvl"> 75 84 </table>
+		<table name="#cAtkAdd"> 265 665 1000 1060 </table> <!-- Update [Freya] by rocknow -->
+		<table name="#magicLvl"> 75 84 84 84 </table> <!-- Update [Freya] by rocknow -->
 		<set name="target" val="TARGET_SELF" />
 		<set name="skillType" val="BUFF" />
 		<set name="operateType" val="OP_PASSIVE" />
@@ -1097,7 +1097,7 @@
 			</effect>
 		</for>
 	</skill>
-	<skill id="3575" levels="2" name="Special Ability: Empower">
+	<skill id="3575" levels="4" name="Special Ability: Empower"> <!-- Update [Freya] by rocknow -->
 		<!-- s_opt_empower75 -->
 		<!-- 6587 Imperial Staff - Empower 3575-1; -->
 		<!--
@@ -1108,8 +1108,8 @@
 			14145 Vesper Singer - Empower 3575-2; 
 			14505 Vesper Singer {PvP} - Empower 3575-2;
 		-->
-		<table name="#magicLvl"> 75 80 </table> <!-- Guessing Level 2 -->
-		<table name="#mAtk"> 60.09 117 </table> <!-- Guessing Level 2 -->
+		<table name="#magicLvl"> 75 80 84 84 </table> <!-- Guessing Level 2 --> <!-- Update [Freya] by rocknow -->
+		<table name="#mAtk"> 60.09 117 167 177 </table> <!-- Guessing Level 2 --> <!-- Update [Freya] by rocknow -->
 		<set name="target" val="TARGET_SELF" />
 		<set name="skillType" val="BUFF" />
 		<set name="operateType" val="OP_PASSIVE" />
