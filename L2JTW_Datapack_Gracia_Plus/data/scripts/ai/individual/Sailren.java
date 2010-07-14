@@ -13,7 +13,7 @@ import com.l2jserver.gameserver.network.serverpackets.SocialAction;
 import com.l2jserver.gameserver.network.serverpackets.SpecialCamera;
 import com.l2jserver.gameserver.templates.StatsSet;
 import com.l2jserver.util.Rnd;
-import com.l2jserver.ExternalConfig;
+import com.l2jserver.Config;
 
 /**
  * Sailren AI
@@ -251,7 +251,7 @@ public class Sailren extends L2AttackableAIScript
 			this.cancelQuestTimer("sailren_despawn", npc, null);
 			this.startQuestTimer("spawn_cubes", 5000, npc, null);
 			GrandBossManager.getInstance().setBossStatus(SAILREN,DEAD);
-			long respawnTime = (ExternalConfig.Interval_Of_Sailren_Spawn + Rnd.get(ExternalConfig.Random_Of_Sailren_Spawn));
+			long respawnTime = (Config.Interval_Of_Sailren_Spawn + Rnd.get(Config.Random_Of_Sailren_Spawn));
 			this.startQuestTimer("sailren_unlock", respawnTime, npc, null);
 			// also save the respawn time so that the info is maintained past reboots
 			StatsSet info = GrandBossManager.getInstance().getStatsSet(SAILREN);

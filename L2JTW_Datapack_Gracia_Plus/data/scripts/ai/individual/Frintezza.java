@@ -45,7 +45,7 @@ import com.l2jserver.gameserver.skills.AbnormalEffect;
 import com.l2jserver.gameserver.templates.StatsSet;
 import com.l2jserver.gameserver.util.Util;
 import com.l2jserver.util.Rnd;
-import com.l2jserver.ExternalConfig;
+import com.l2jserver.Config;
  
 /**
  * Frintezza AI
@@ -1453,7 +1453,7 @@ public class Frintezza extends L2AttackableAIScript
 			this.startQuestTimer("minions_despawn", 60000, npc, null);
 			this.startQuestTimer("remove_players", 900000, npc, null);
 			GrandBossManager.getInstance().setBossStatus(FRINTEZZA,DEAD);
-			long respawnTime = (ExternalConfig.Interval_Of_Frintezza_Spawn + Rnd.get(ExternalConfig.Random_Of_Frintezza_Spawn));
+			long respawnTime = (Config.Interval_Of_Frintezza_Spawn + Rnd.get(Config.Random_Of_Frintezza_Spawn));
 			this.startQuestTimer("frintezza_unlock", respawnTime, npc, null);
 			// also save the respawn time so that the info is maintained past reboots
 			StatsSet info = GrandBossManager.getInstance().getStatsSet(FRINTEZZA);

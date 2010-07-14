@@ -534,8 +534,8 @@ INSERT INTO `messagetable` VALUES ('210', 'tw', '指定的 NPC 不存在。', ''
 INSERT INTO `messagetable` VALUES ('210', 'cn', '指定的 NPC 不存在。', '', 'SpawnTable.java');
 
 INSERT INTO `messagetable` VALUES ('211', 'en', '', 'Lv ;*', 'AbstractNpcInfo.java');
-INSERT INTO `messagetable` VALUES ('211', 'tw', '', '等級：;(主動)', 'AbstractNpcInfo.java');
-INSERT INTO `messagetable` VALUES ('211', 'cn', '', '等级：;(主动)', 'AbstractNpcInfo.java');
+INSERT INTO `messagetable` VALUES ('211', 'tw', '', '等級：; (主動)', 'AbstractNpcInfo.java');
+INSERT INTO `messagetable` VALUES ('211', 'cn', '', '等级：; (主动)', 'AbstractNpcInfo.java');
 
 INSERT INTO `messagetable` VALUES ('214', 'en', 'Invisible', '', 'CharInfo.java');
 INSERT INTO `messagetable` VALUES ('214', 'tw', '隱形狀態', '', 'CharInfo.java');
@@ -1052,8 +1052,11 @@ INSERT INTO `messagetable` VALUES ('484', 'tw', '等待中', '', 'Olympiad.java'
 INSERT INTO `messagetable` VALUES ('484', 'cn', '等待中', '', 'Olympiad.java');
 
 INSERT INTO `messagetable` VALUES ('488', 'en', '', 'Olympiad is going to begin in Arena ; in a moment.', 'OlympiadGame.java');
-INSERT INTO `messagetable` VALUES ('488', 'tw', '', '稍後將在第「;」競技場舉行奧林匹亞競賽。', 'OlympiadGame.java');
-INSERT INTO `messagetable` VALUES ('488', 'cn', '', '稍后将在第「;」竞技场举行奥林匹亚竞赛。', 'OlympiadGame.java');
+INSERT INTO `messagetable` VALUES ('488', 'tw', '', '稍後將在「;」競技場舉行奧林匹亞', 'OlympiadGame.java');
+INSERT INTO `messagetable` VALUES ('488', 'cn', '', '稍后将在「;」竞技场举行奥林匹亚', 'OlympiadGame.java');
+INSERT INTO `messagetable` VALUES ('489', 'en', '', ' class-free individual match.; class-specific individual match.', 'OlympiadGame.java');
+INSERT INTO `messagetable` VALUES ('489', 'tw', '', '不限職業類別個人比賽。;職業類別個人比賽。', 'OlympiadGame.java');
+INSERT INTO `messagetable` VALUES ('489', 'cn', '', '不限职业类别个人比赛。;职业类别个人比赛。', 'OlympiadGame.java');
 
 INSERT INTO `messagetable` VALUES ('491', 'en', 'Your olympiad registration was canceled due to an error', '', 'OlympiadManager.java');
 INSERT INTO `messagetable` VALUES ('491', 'tw', '因為出現錯誤！所以取消了奧林匹亞競賽的登記。', '', 'OlympiadManager.java');
