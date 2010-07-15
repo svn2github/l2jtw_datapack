@@ -20,12 +20,11 @@ import com.l2jserver.gameserver.handler.IActionHandler;
 import com.l2jserver.gameserver.model.L2DropCategory;
 import com.l2jserver.gameserver.model.L2DropData;
 import com.l2jserver.gameserver.model.L2Object;
-import com.l2jserver.gameserver.model.MobGroupTable;
 import com.l2jserver.gameserver.model.L2Object.InstanceType;
 import com.l2jserver.gameserver.model.actor.L2Attackable;
 import com.l2jserver.gameserver.model.actor.L2Character;
 import com.l2jserver.gameserver.model.actor.L2Npc;
-import com.l2jserver.gameserver.model.actor.instance.L2ControllableMobInstance;
+import com.l2jserver.gameserver.model.actor.instance.L2MerchantInstance;
 import com.l2jserver.gameserver.model.actor.instance.L2PcInstance;
 import com.l2jserver.gameserver.network.serverpackets.MyTargetSelected;
 import com.l2jserver.gameserver.network.serverpackets.NpcHtmlMessage;
@@ -74,155 +73,75 @@ public class L2NpcActionShift implements IActionHandler
 				activeChar.sendPacket(su);
 			}
 
-			// Send a Server->Client NpcHtmlMessage() containing the GM console about this L2NpcInstance
 			NpcHtmlMessage html = new NpcHtmlMessage(0);
-                        final StringBuilder html1 = StringUtil.startAppend(500,
-                                "<html><body><center><font color=\"LEVEL\">"+MessageTable.Messages[1303].getMessage()+"</font></center><br>" +
-                                MessageTable.Messages[1304].getMessage(),
-                                target.getClass().getSimpleName(),
-                                "<br1>"+MessageTable.Messages[1305].getMessage(),
-                                ((L2Npc)target).getFactionId() != null ? ((L2Npc)target).getFactionId() : "null"
-                                );
-                        StringUtil.append(html1,
-                        		"<br1>"+MessageTable.Messages[1306].getMessage(),
-                        		String.valueOf(target.getX()),
-                        		", ",
-                        		String.valueOf(target.getY()),
-                        		", ",
-                        		String.valueOf(target.getZ())
-                        		);
-                        if (((L2Npc)target).getSpawn() != null)
-                        	StringUtil.append(html1,
-                        			"<br1>"+MessageTable.Messages[1307].getMessage(),
-                        			String.valueOf(((L2Npc)target).getSpawn().getLocx()),
-                        			", ",
-                        			String.valueOf(((L2Npc)target).getSpawn().getLocy()),
-                        			", ",
-                        			String.valueOf(((L2Npc)target).getSpawn().getLocz()),
-                                    MessageTable.Messages[1308].getMessage(),
-                                    String.valueOf(((L2Npc)target).getSpawn().getLocation()),
-                                    "<br1>"+MessageTable.Messages[1309].getMessage(),
-                                    String.valueOf((int)Math.sqrt(((L2Character)target).getPlanDistanceSq(((L2Npc)target).getSpawn().getLocx(), ((L2Npc)target).getSpawn().getLocy()))),
-                                    MessageTable.Messages[1310].getMessage(),
-                                    String.valueOf((int)Math.sqrt(((L2Character)target).getDistanceSq(((L2Npc)target).getSpawn().getLocx(), ((L2Npc)target).getSpawn().getLocy(), ((L2Npc)target).getSpawn().getLocz())))
-                            );
-
-			if (target instanceof L2ControllableMobInstance)
+			html.setFile(activeChar.getHtmlPrefix(), "data/html/admin/npcinfo.htm");
+			
+			html.replace("%objid%", String.valueOf(target.getObjectId()));
+			html.replace("%class%", target.getClass().getSimpleName());
+			html.replace("%id%",    String.valueOf(((L2Npc)target).getTemplate().npcId));
+			html.replace("%lvl%",   String.valueOf(((L2Npc)target).getTemplate().level));
+			html.replace("%name%",  String.valueOf(((L2Npc)target).getTemplate().name));
+			html.replace("%tmplid%",String.valueOf(((L2Npc)target).getTemplate().npcId));
+			html.replace("%aggro%", String.valueOf((target instanceof L2Attackable) ? ((L2Attackable) target).getAggroRange() : 0));
+			html.replace("%hp%",    String.valueOf((int)((L2Character)target).getCurrentHp()));
+			html.replace("%hpmax%", String.valueOf(((L2Character)target).getMaxHp()));
+			html.replace("%mp%",    String.valueOf((int)((L2Character)target).getCurrentMp()));
+			html.replace("%mpmax%", String.valueOf(((L2Character)target).getMaxMp()));
+			
+			html.replace("%patk%", String.valueOf(((L2Character)target).getPAtk(null)));
+			html.replace("%matk%", String.valueOf(((L2Character)target).getMAtk(null, null)));
+			html.replace("%pdef%", String.valueOf(((L2Character)target).getPDef(null)));
+			html.replace("%mdef%", String.valueOf(((L2Character)target).getMDef(null, null)));
+			html.replace("%accu%", String.valueOf(((L2Character)target).getAccuracy()));
+			html.replace("%evas%", String.valueOf(((L2Character)target).getEvasionRate(null)));
+			html.replace("%crit%", String.valueOf(((L2Character)target).getCriticalHit(null, null)));
+			html.replace("%rspd%", String.valueOf(((L2Character)target).getRunSpeed()));
+			html.replace("%aspd%", String.valueOf(((L2Character)target).getPAtkSpd()));
+			html.replace("%cspd%", String.valueOf(((L2Character)target).getMAtkSpd()));			
+			html.replace("%str%",  String.valueOf(((L2Character)target).getSTR()));
+			html.replace("%dex%",  String.valueOf(((L2Character)target).getDEX()));
+			html.replace("%con%",  String.valueOf(((L2Character)target).getCON()));
+			html.replace("%int%",  String.valueOf(((L2Character)target).getINT()));
+			html.replace("%wit%",  String.valueOf(((L2Character)target).getWIT()));
+			html.replace("%men%",  String.valueOf(((L2Character)target).getMEN()));
+			html.replace("%loc%",  String.valueOf(target.getX()+" "+target.getY()+" "+target.getZ()));
+			
+			if (((L2Npc)target).getSpawn() != null)
 			{
-				StringUtil.append(html1,
-						"<br1>"+MessageTable.Messages[1311].getMessage(),
-						String.valueOf(MobGroupTable.getInstance().getGroupForMob((L2ControllableMobInstance) target).getGroupId()),
-						"<br1>"
-				);
+				html.replace("%spawn%", ((L2Npc)target).getSpawn().getLocx()+" "+((L2Npc)target).getSpawn().getLocy()+" "+((L2Npc)target).getSpawn().getLocz());
+				html.replace("%loc2d%", String.valueOf((int)Math.sqrt(((L2Character)target).getPlanDistanceSq(((L2Npc)target).getSpawn().getLocx(), ((L2Npc)target).getSpawn().getLocy()))));
+				html.replace("%loc3d%", String.valueOf((int)Math.sqrt(((L2Character)target).getDistanceSq(((L2Npc)target).getSpawn().getLocx(), ((L2Npc)target).getSpawn().getLocy(), ((L2Npc)target).getSpawn().getLocz()))));
+				html.replace("%resp%",  String.valueOf(((L2Npc)target).getSpawn().getRespawnDelay() / 1000));
 			}
 			else
 			{
-				StringUtil.append(html1,
-						"<br1>"+MessageTable.Messages[1312].getMessage(),
-						(((L2Npc)target).getSpawn() != null ? String.valueOf(((L2Npc)target).getSpawn().getRespawnDelay() / 1000) : "?"),
-						MessageTable.Messages[1313].getMessage()+"<br1>"
-				);
+				html.replace("%spawn%", "<font color=FF0000>null</font>");
+				html.replace("%loc2d%", "<font color=FF0000>--</font>");
+				html.replace("%loc3d%", "<font color=FF0000>--</font>");
+				html.replace("%resp%",  "<font color=FF0000>--</font>");
 			}
 			
 			if (((L2Character)target).hasAI())
 			{
-				StringUtil.append(html1,
-						"<br1>"+MessageTable.Messages[1345].getMessage(),
-						((L2Character)target).getAI().getClass().getSimpleName(),
-						"  <br1>"
-				);
+				html.replace("%ai%",   "<tr><td><table width=270 border=0><tr><td width=100><font color=FFAA00>AI</font></td><td align=right width=170>"+((L2Character)target).getAI().getClass().getSimpleName()+"</td></tr></table></td></tr>");
+				html.replace("%aint%", "<tr><td><table width=270 border=0 bgcolor=131210><tr><td width=100><font color=FFAA00>Intention:</font></td><td align=right width=170>"+String.valueOf(((L2Character)target).getAI().getIntention().name())+"</td></tr></table></td></tr>");
 			}
-
-			StringUtil.append(html1,
-					"<table border=\"0\" width=\"100%\">" +
-					"<tr><td>Level</td><td>",
-					String.valueOf(((L2Character)target).getLevel()),
-					"</td><td>    </td><td>NPC ID</td><td>",
-					String.valueOf(((L2Npc)target).getTemplate().npcId),
-					"</td></tr>" +
-					"<tr><td>"+MessageTable.Messages[1314].getMessage()+"</td><td>" +
-					String.valueOf((target instanceof L2Attackable) ? ((L2Attackable) target).getAggroRange() : 0),
-					"</td><td>    </td><td>"+MessageTable.Messages[1315].getMessage()+"</td><td>",
-					String.valueOf(target.getObjectId()),
-					"</td></tr>" +
-					"<tr><td>"+MessageTable.Messages[1316].getMessage()+"</td><td>",
-					String.valueOf(((L2Npc)target).getCastle().getCastleId()),
-					"</td><td>    </td><td>AI </td><td>",
-					(((L2Character)target).hasAI() ? String.valueOf(((L2Character)target).getAI().getIntention().name()) : "NULL"),
-					"</td></tr>" +
-					"</table><br>" +
-					"<font color=\"LEVEL\">"+MessageTable.Messages[1317].getMessage()+"</font>" +
-					"<table border=\"0\" width=\"100%\">" +
-					"<tr><td>"+MessageTable.Messages[1318].getMessage()+"</td><td>",
-					String.valueOf(((L2Character)target).getCurrentHp()),
-					"</td><td>"+MessageTable.Messages[1319].getMessage()+"</td><td>",
-					String.valueOf(((L2Character)target).getCurrentMp()),
-					"</td></tr>" +
-					"<tr><td>"+MessageTable.Messages[1320].getMessage()+"</td><td>",
-					String.valueOf((int) (((L2Character)target).getMaxHp() / ((L2Character)target).getStat().calcStat(Stats.MAX_HP, 1, (L2Character)target, null))),
-					"*",
-					String.valueOf((int) (((L2Character)target).getStat().calcStat(Stats.MAX_HP, 1, (L2Character)target, null))),
-					"</td><td>"+MessageTable.Messages[1321].getMessage()+"</td><td>",
-					String.valueOf(((L2Character)target).getMaxMp()),
-					"</td></tr>" +
-					"<tr><td>"+MessageTable.Messages[1322].getMessage()+"</td><td>",
-					String.valueOf(((L2Character)target).getPAtk(null)),
-					"</td><td>"+MessageTable.Messages[1323].getMessage()+"</td><td>",
-					String.valueOf(((L2Character)target).getMAtk(null, null)),
-					"</td></tr>" +
-					"<tr><td>"+MessageTable.Messages[1324].getMessage()+"</td><td>",
-					String.valueOf(((L2Character)target).getPDef(null)),
-					"</td><td>"+MessageTable.Messages[1325].getMessage()+"</td><td>",
-					String.valueOf(((L2Character)target).getMDef(null, null)),
-					"</td></tr>" +
-					"<tr><td>"+MessageTable.Messages[1326].getMessage()+"</td><td>" +
-					String.valueOf(((L2Character)target).getAccuracy()),
-					"</td><td>"+MessageTable.Messages[1327].getMessage()+"</td><td>",
-					String.valueOf(((L2Character)target).getEvasionRate(null)),
-					"</td></tr>" +
-					"<tr><td>"+MessageTable.Messages[1328].getMessage()+"</td><td>",
-					String.valueOf(((L2Character)target).getCriticalHit(null, null)),
-					"</td><td>"+MessageTable.Messages[1329].getMessage()+"</td><td>",
-					String.valueOf(((L2Character)target).getRunSpeed()),
-					"</td></tr>" +
-					"<tr><td>"+MessageTable.Messages[1330].getMessage()+"</td><td>",
-					String.valueOf(((L2Character)target).getPAtkSpd()),
-					"</td><td>"+MessageTable.Messages[1331].getMessage()+"</td><td>",
-					String.valueOf(((L2Character)target).getMAtkSpd()),
-					"</td></tr>" +
-					"</table><br>" +
-					"<font color=\"LEVEL\">"+MessageTable.Messages[1332].getMessage()+"</font>" +
-					"<table border=\"0\" width=\"100%\">" +
-					"<tr><td>STR</td><td>",
-					String.valueOf(((L2Character)target).getSTR()),
-					"</td><td>DEX</td><td>",
-					String.valueOf(((L2Character)target).getDEX()),
-					"</td><td>CON</td><td>",
-					String.valueOf(((L2Character)target).getCON()),
-					"</td></tr>" +
-					"<tr><td>INT</td><td>",
-					String.valueOf(((L2Character)target).getINT()),
-					"</td><td>WIT</td><td>",
-					String.valueOf(((L2Character)target).getWIT()),
-					"</td><td>MEN</td><td>",
-					String.valueOf(((L2Character)target).getMEN()),
-					"</td></tr>" +
-					"</table>" +
-					"<br><center><table><tr><td><button value=\""+MessageTable.Messages[1333].getMessage()+"\" action=\"bypass -h admin_edit_npc ",
-					String.valueOf(((L2Npc)target).getTemplate().npcId),
-					"\" width=100 height=20 back=\"L2UI_ct1.button_df\" fore=\"L2UI_ct1.button_df\"><br1></td>" +
-					"<td><button value=\""+MessageTable.Messages[1334].getMessage()+"\" action=\"bypass -h admin_kill\" width=40 height=20 back=\"L2UI_ct1.button_df\" fore=\"L2UI_ct1.button_df\"></td><br1></tr>" +
-					"<tr><td><button value=\""+MessageTable.Messages[1335].getMessage()+"\" action=\"bypass -h admin_show_droplist ",
-					String.valueOf(((L2Npc)target).getTemplate().npcId),
-					"\" width=100 height=20 back=\"L2UI_ct1.button_df\" fore=\"L2UI_ct1.button_df\"></td></tr>" +
-					"<td><button value=\""+MessageTable.Messages[1336].getMessage()+"\" action=\"bypass -h admin_delete\" width=40 height=20 back=\"L2UI_ct1.button_df\" fore=\"L2UI_ct1.button_df\"></td></tr>" +
-					"<tr><td><button value=\""+MessageTable.Messages[1337].getMessage()+"\" action=\"bypass -h admin_show_skilllist_npc ",
-					String.valueOf(((L2Npc)target).getTemplate().npcId),
-				 	"\" width=100 height=20 back=\"L2UI_ct1.button_df\" fore=\"L2UI_ct1.button_df\"></td><td></td></tr></table></center><br></body></html>"
-					);
-
-			html.setHtml(html1.toString());
-			activeChar.sendPacket(html);
+			else
+			{
+				html.replace("%ai%",   "");
+				html.replace("%aint%", "");
+			}
+			
+			if (target instanceof L2MerchantInstance)
+			{
+				html.replace("%butt%","<button value=\"Shop\" action=\"bypass -h admin_showShop "+String.valueOf(((L2Npc)target).getTemplate().npcId)+"\" width=60 height=21 back=\"L2UI_ct1.button_df\" fore=\"L2UI_ct1.button_df\">");
+			}
+			else
+			{
+				html.replace("%butt%","");
+			}
+			
+			activeChar.sendPacket(html);			
 		}
 		else if (Config.ALT_GAME_VIEWNPC)
 		{

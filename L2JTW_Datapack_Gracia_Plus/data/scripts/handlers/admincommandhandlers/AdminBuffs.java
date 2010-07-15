@@ -244,7 +244,7 @@ public class AdminBuffs implements IAdminCommandHandler
 				html.append("<td><a action=\"bypass -h admin_getbuffs ");
 				html.append(target.getName());
 				html.append(" ");
-				html.append(x+1);
+				html.append(x + 1);
 				html.append("\"> "+MessageTable.Messages[1458].getMessage());
 				html.append(pagenr);
 				html.append(MessageTable.Messages[1458].getExtra(1)+"</a></td>");
