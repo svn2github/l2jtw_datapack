@@ -667,7 +667,6 @@
 		<set name="target" val="TARGET_SELF" />
 		<set name="skillType" val="DUMMY" />
 		<set name="operateType" val="OP_ACTIVE" />
-		<set name="hitTime" val="3000" />
 		<set name="reuseDelay" val="300000" />
 		<set name="staticReuse" val="true" />
 		<cond msgId="2292">

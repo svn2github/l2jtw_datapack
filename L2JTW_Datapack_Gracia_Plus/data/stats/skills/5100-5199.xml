@@ -290,8 +290,9 @@
 		<set name="operateType" val="OP_ACTIVE" />
 		<for>
 			<effect name="Buff" time="8" val="0">
-				<mul order="0x30" stat="pAtk" val="1.1" /> <!-- Guess -->
+				<mul order="0x30" stat="pAtk" val="1.1" />
 			</effect>
+			<effect count="7" name="IncreaseCharges" val="1" />
 		</for>
 	</skill>
 	<skill id="5128" levels="1" name="Maximize long-range weapon use">
@@ -300,7 +301,15 @@
 		<set name="operateType" val="OP_ACTIVE" />
 		<for>
 			<effect name="Buff" time="8" val="0">
-				<add order="0x40" stat="accCombat" val="40" />
+				<mul order="0x30" stat="pAtk" val="1.1">
+					<using kind="Bow,Crossbow" />
+				</mul>
+				<add order="0x40" stat="accCombat" val="10">
+					<using kind="Bow,Crossbow" />
+				</add>
+				<add order="0x40" stat="pAtkRange" val="50">
+					<using kind="Bow,Crossbow" />
+				</add>
 			</effect>
 		</for>
 	</skill>
@@ -411,7 +420,7 @@
 	</skill>
 	<skill id="5139" levels="1" name="Tidal Wave">
 		<!-- Summon Magnus the Unicorn Skill -->
-                <!-- TODO: power needs to be verified -->
+		<!-- TODO: power needs to be verified -->
 		<set name="castRange" val="500" />
 		<set name="effectRange" val="1000" />
 		<set name="element" val="1" /> <!-- Water -->

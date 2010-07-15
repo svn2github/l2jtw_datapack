@@ -314,8 +314,8 @@
 		<set name="effectRange" val="400" />
 		<set name="hitTime" val="1080" />
 		<set name="mpConsume" val="#mpConsume" />
+		<set name="nextActionAttack" val="true" />
 		<set name="operateType" val="OP_ACTIVE" />
-		<set name="overHit" val="true" />
 		<set name="power" val="#power" /> <!-- Update by rocknow -->
 		<set name="reuseDelay" val="10000" />
 		<set name="skillType" val="PDAM" />
@@ -421,7 +421,7 @@
 		<set name="skillType" val="STUN" />
 		<set name="target" val="TARGET_SELF" />
 		<for>
-			<effect name="StunSelf" time="3" val="0" stackOrder="1" stackType="Stun" effectPower="100" effectType="STUN" />
+			<effect name="StunSelf" time="5" val="0" stackOrder="1" stackType="Stun" />
 		</for>
 	</skill>
 	<skill id="5450" levels="7" name="Thin Skin">

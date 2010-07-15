@@ -1024,7 +1024,6 @@
 		<enchant4 name="pvpPower" val="#enchDuel" />
 	</skill>
 	<skill id="1439" levels="5" name="Curse of Divinity">
-		<!-- CT2.2 retail partially confirmed -->
 		<table name="#mpConsume"> 62 64 65 67 69 </table>
 		<table name="#power"> 96 99 102 105 108 </table>
 		<table name="#magicLvl"> 66 68 70 72 74 </table>
@@ -1035,7 +1034,8 @@
 		<set name="hitTime" val="1200" />
 		<set name="reuseDelay" val="4000" />
 		<set name="coolTime" val="320" />
-		<set name="skillType" val="MDAM" /> <!-- TODO: Missing core support for additional damage based on target buffs count -->
+		<set name="skillType" val="MDAM" />
+		<set name="dependOnTargetBuff" val="0.1"/>
 		<set name="lvlDepend" val="2" />
 		<set name="isMagic" val="true" />
 		<set name="operateType" val="OP_ACTIVE" />
@@ -1043,7 +1043,6 @@
 		<set name="effectRange" val="1100" />
 	</skill>
 	<skill id="1440" levels="5" name="Steal Divinity">
-		<!-- CT2.2 retail confirmed -->
 		<table name="#mpConsume"> 50 55 60 64 67 </table>
 		<table name="#power"> 3 4 5 6 7 </table>
 		<table name="#magicLvl"> 55 60 64 68 72 </table>
@@ -2475,7 +2474,7 @@
 			<effect name="Invincible" time="30" val="0" special="invincible" stackOrder="1" stackType="Instant_Shield" />
 		</for>
 	</skill>
-	<skill id="1497" levels="1" name="Excessive Royalty">
+	<skill id="1497" levels="1" name="Excessive Loyalty">
 		<set name="magicLvl" val="81" />
 		<set name="operateType" val="OP_PASSIVE" />
 		<set name="skillType" val="BUFF" />
@@ -2486,13 +2485,14 @@
 		<set name="chanceType" val="ON_ATTACKED" />
 	</skill>
 	<skill id="1498" levels="1" name="Mutual Response">
-		<set name="target" val="TARGET_SELF" />
-		<set name="skillType" val="BUFF" />
+		<set name="activationChance" val="1" />
+		<set name="chanceType" val="ON_HIT" />
 		<set name="magicLvl" val="81" />
-		<set name="operateType" val="OP_ACTIVE" />
-		<for>
-			<effect name="ChanceSkillTrigger" val="0" triggeredId="5571" chanceType="ON_HIT" activationChance="14" />
-		</for>
+		<set name="operateType" val="OP_PASSIVE" />
+		<set name="skillType" val="BUFF" />
+		<set name="target" val="TARGET_SELF" />
+		<set name="triggeredId" val="5571" />
+		<set name="triggeredLevel" val="1" />
 	</skill>
 	<skill id="1499" levels="1" name="Improved Combat">
 		<set name="mpConsume" val="27" />
