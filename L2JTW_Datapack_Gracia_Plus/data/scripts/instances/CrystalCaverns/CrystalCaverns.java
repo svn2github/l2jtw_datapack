@@ -725,6 +725,7 @@ public class CrystalCaverns extends Quest
 	}*/
 
 
+	@Override
 	public String onFirstTalk(L2Npc npc, L2PcInstance player)
 	{
 		if (npc.getNpcId() == ORACLE_GUIDE_1)
@@ -786,6 +787,7 @@ public class CrystalCaverns extends Quest
 		return"";
 	}
 
+	@Override
 	public String onSkillSee (L2Npc npc, L2PcInstance caster, L2Skill skill, L2Object[] targets, boolean isPet)
 	{
 
@@ -880,6 +882,7 @@ public class CrystalCaverns extends Quest
 		return super.onSkillSee(npc, caster, skill, targets, isPet);
 	}
 
+	@Override
 	public String onAttack (L2Npc npc, L2PcInstance attacker, int damage, boolean isPet, L2Skill skill)
 	{
 		if (npc.getNpcId() == TEARS)
@@ -956,6 +959,7 @@ public class CrystalCaverns extends Quest
 		return null;
 	}
 	
+	@Override
 	public String onSpellFinished(L2Npc npc, L2PcInstance player, L2Skill skill)
 	{
 		if (npc.getNpcId() == BAYLOR && skill.getId() == 5225)
@@ -967,6 +971,7 @@ public class CrystalCaverns extends Quest
 		return super.onSpellFinished(npc, player, skill);
 	}
 
+	@Override
 	public String onAdvEvent (String event, L2Npc npc, L2PcInstance player)
 	{
 		InstanceWorld tmpworld = InstanceManager.getInstance().getWorld(npc.getInstanceId());
@@ -1542,6 +1547,7 @@ public class CrystalCaverns extends Quest
 
 	}
 
+	@Override
 	public String onKill( L2Npc npc, L2PcInstance player, boolean isPet)
 	{
 		InstanceWorld tmpworld = InstanceManager.getInstance().getWorld(npc.getInstanceId());
@@ -1750,6 +1756,7 @@ public class CrystalCaverns extends Quest
 		return "";
 	}
 	
+	@Override
 	public String onTalk (L2Npc npc, L2PcInstance player)
 	{
 		int npcId = npc.getNpcId();
@@ -1936,6 +1943,7 @@ public class CrystalCaverns extends Quest
 		return "";
 	}
 
+	@Override
 	public String onEnterZone(L2Character character, L2ZoneType zone)
 	{
 		if (character instanceof L2PcInstance)
@@ -1991,6 +1999,7 @@ public class CrystalCaverns extends Quest
 		return super.onEnterZone(character,zone);
 	}
 
+	@Override
 	public String onExitZone(L2Character character, L2ZoneType zone)
 	{
 		if (character instanceof L2PcInstance)

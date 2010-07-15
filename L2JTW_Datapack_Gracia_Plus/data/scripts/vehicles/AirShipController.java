@@ -90,6 +90,7 @@ public abstract class AirShipController extends Quest
 
 	private static final String ARRIVAL_MSG = "已召喚到飛空艇。5分鐘後，將會自動出發。";
 
+	@Override
 	public String onAdvEvent(String event, L2Npc npc, L2PcInstance player)
 	{
 		if ("summon".equalsIgnoreCase(event))
@@ -204,6 +205,7 @@ public abstract class AirShipController extends Quest
 			return event;
 	}
 
+	@Override
 	public String onFirstTalk(L2Npc npc, L2PcInstance player)
 	{
 		if (player.getQuestState(getName()) == null)
@@ -212,6 +214,7 @@ public abstract class AirShipController extends Quest
 		return npc.getNpcId() + ".htm";
 	}
 
+	@Override
 	public String onEnterZone(L2Character character, L2ZoneType zone)
 	{
 		if (character instanceof L2ControllableAirShipInstance)
@@ -243,6 +246,7 @@ public abstract class AirShipController extends Quest
 		return null;
 	}
 
+	@Override
 	public String onExitZone(L2Character character, L2ZoneType zone)
 	{
 		if (character instanceof L2ControllableAirShipInstance)

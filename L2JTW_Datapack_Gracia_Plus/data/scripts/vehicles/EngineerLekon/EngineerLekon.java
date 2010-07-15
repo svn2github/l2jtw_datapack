@@ -29,6 +29,11 @@ public class EngineerLekon extends Quest
 	private static final int STARSTONE = 13277;
 	private static final int LICENSE_COST = 10;
 
+	//private static final SystemMessage SM_NEED_CLANLVL5 = new SystemMessage(SystemMessageId.THE_AIRSHIP_NEED_CLANLVL_5_TO_SUMMON);
+	//private static final SystemMessage SM_NO_PRIVS = new SystemMessage(SystemMessageId.THE_AIRSHIP_NO_PRIVILEGES);
+	//private static final SystemMessage SM_LICENSE_ALREADY_ACQUIRED = new SystemMessage(SystemMessageId.THE_AIRSHIP_SUMMON_LICENSE_ALREADY_ACQUIRED);
+
+	@Override
 	public String onAdvEvent(String event, L2Npc npc, L2PcInstance player)
 	{
 		if ("license".equalsIgnoreCase(event))
@@ -59,6 +64,7 @@ public class EngineerLekon extends Quest
 			return event;
 	}
 
+	@Override
 	public String onFirstTalk(L2Npc npc, L2PcInstance player)
 	{
 		if (player.getQuestState(getName()) == null)

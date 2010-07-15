@@ -72,6 +72,7 @@ public class SummonMinions extends L2AttackableAIScript
 		this.registerMobs(temp);
 	}
 	
+	@Override
 	public String onAttack(L2Npc npc, L2PcInstance attacker, int damage, boolean isPet)
 	{
 		int npcId = npc.getNpcId();
@@ -196,6 +197,7 @@ public class SummonMinions extends L2AttackableAIScript
 		return super.onAttack(npc, attacker, damage, isPet);
 	}
 	
+	@Override
 	public String onKill(L2Npc npc, L2PcInstance killer, boolean isPet)
 	{
 		int npcId = npc.getNpcId();

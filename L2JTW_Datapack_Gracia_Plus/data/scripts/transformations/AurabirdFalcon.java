@@ -14,6 +14,7 @@ public class AurabirdFalcon extends L2Transformation
 		super(8, 38, 14.25);
 	}
 
+	@Override
 	public void onTransform()
 	{
 		if (getPlayer().getTransformationId() != 8 || getPlayer().isCursedWeaponEquipped())
@@ -57,6 +58,7 @@ public class AurabirdFalcon extends L2Transformation
 		getPlayer().setTransformAllowedSkills(SKILLS);
 	}
 
+	@Override
 	public void onUntransform()
 	{
 		getPlayer().setIsFlyingMounted(false);

@@ -13,6 +13,7 @@ public class Zariche extends L2Transformation
 		super(301, 12, 31.58);
 	}
 
+	@Override
 	public void onTransform()
 	{
 		// Set charachter name to transformed name
@@ -20,6 +21,7 @@ public class Zariche extends L2Transformation
 		getPlayer().getAppearance().setVisibleTitle("");
 	}
 
+	@Override
 	public void onUntransform()
 	{
 	// set character back to true name.
