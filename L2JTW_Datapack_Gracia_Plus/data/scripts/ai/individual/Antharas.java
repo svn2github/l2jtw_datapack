@@ -17,7 +17,7 @@ package ai.individual;
 import javolution.util.FastList;
 import java.util.List;
 import ai.group_template.L2AttackableAIScript;
-import com.l2jserver.gameserver.ai.CtrlIntention;
+//import com.l2jserver.gameserver.ai.CtrlIntention;
 import com.l2jserver.gameserver.datatables.SkillTable;
 import com.l2jserver.gameserver.instancemanager.GrandBossManager;
 import com.l2jserver.gameserver.model.actor.L2Npc;
@@ -25,7 +25,7 @@ import com.l2jserver.gameserver.model.actor.instance.L2GrandBossInstance;
 import com.l2jserver.gameserver.model.actor.instance.L2PcInstance;
 import com.l2jserver.gameserver.model.zone.type.L2BossZone;
 import com.l2jserver.gameserver.model.actor.L2Attackable;
-import com.l2jserver.gameserver.model.L2CharPosition;
+//import com.l2jserver.gameserver.model.L2CharPosition;
 import com.l2jserver.gameserver.network.serverpackets.PlaySound;
 import com.l2jserver.gameserver.network.serverpackets.SocialAction;
 import com.l2jserver.gameserver.network.serverpackets.SpecialCamera;
@@ -95,11 +95,12 @@ public class Antharas extends L2AttackableAIScript
 		else if (event.equalsIgnoreCase("waiting_boss"))
 		{
 			GrandBossManager.getInstance().setBossStatus(ANTHARAS,FIGHTING);
-			L2GrandBossInstance antharas = (L2GrandBossInstance) addSpawn(ANTHARAS,185452,114850,-8221,32768,false,0);
+			//L2GrandBossInstance antharas = (L2GrandBossInstance) addSpawn(ANTHARAS,185452,114850,-8221,32768,false,0);
+			L2GrandBossInstance antharas = (L2GrandBossInstance) addSpawn(ANTHARAS,181323,114850,-7618,32768,false,0);
 			GrandBossManager.getInstance().addBoss(antharas);
 			antharas.setRunning();
 			antharas.setIsInvul(true);
-			antharas.getAI().setIntention(CtrlIntention.AI_INTENTION_MOVE_TO, new L2CharPosition(181323,114850,-7618,0));
+			//antharas.getAI().setIntention(CtrlIntention.AI_INTENTION_MOVE_TO, new L2CharPosition(181323,114850,-7618,0));
 			this.startQuestTimer("antharas_has_arrived", 200, antharas, null, true);
 			antharas.broadcastPacket(new PlaySound(1, "BS02_A", 1, antharas.getObjectId(), 181323, 114850, -7618));
 		}
