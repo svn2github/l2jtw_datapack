@@ -37,7 +37,7 @@ public class TheValentineEvent extends Quest
 		super(questId, name, descr);
 		addStartNpc(_npc);
 		addFirstTalkId(_npc);
-		addTalkId(_npc);		
+		addTalkId(_npc);
 	}
 
 	@Override

@@ -257,12 +257,13 @@ public class SkillTransfer extends Quest
 		{
 			if (!npc.getTemplate().canTeach(player.getClassId()))
 			{
-				npc.showNoTeachHtml(player);
+				//npc.showNoTeachHtml(player);
+				htmltext = "cleanse-no_skills.htm";
 				return htmltext;
 			}
 			else if (player.getLevel() < 76 || player.getClassId().level() < 3)
 			{
-				htmltext = "cleanse-no.htm";
+				htmltext = "cleanse-no_skills.htm";
 				return htmltext;
 			}
 			else if (player.getAdena() < RESET_ADENA_COST)
@@ -301,7 +302,7 @@ public class SkillTransfer extends Quest
 						return htmltext;
 					}
 				}
-				htmltext = "cleanse-no_skills.htm";
+				htmltext = "cleanse-no.htm";
 			}
 			else
 				npc.showNoTeachHtml(player);
