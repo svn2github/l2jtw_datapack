@@ -2,17 +2,20 @@
 # 2010-02-16 based on official Franz server
 
 import sys
-from com.l2jserver.gameserver.model.quest				import State
-from com.l2jserver.gameserver.model.quest				import QuestState
-from com.l2jserver.gameserver.model.quest.jython	import QuestJython as JQuest
+from com.l2jserver.gameserver.model.quest        import State
+from com.l2jserver.gameserver.model.quest        import QuestState
+from com.l2jserver.gameserver.model.quest.jython import QuestJython as JQuest
 
 qn = "311_ExpulsionOfEvilSpirits"
 
 CHAIREN	= 32655
 
-SOUL_CORE = 14881
-SOUL_PENDANT = 14848
-RAGNA_ORCS_AMULET = 14882
+# NPCS
+CHAIREN           = 32655  # 齊連
+
+SOUL_PENDANT      = 14848  # 守護靈魂的墜子
+SOUL_CORE         = 14881  # 封住惡靈的靈魂之核
+RAGNA_ORCS_AMULET = 14882  # 羅格那獸人的符咒
 
 DROP_CHANCE = 20
 
@@ -88,7 +91,7 @@ class Quest (JQuest) :
 		return htmltext
 
 	def onTalk (self,npc,player) :
-		htmltext = "<html><body>You are either not on a quest that involves this NPC, or you don't meet this NPC's minimum quest requirements.</body></html>"
+		htmltext = "<html><body>目前沒有執行任務，或條件不符。</body></html>"
 		st = player.getQuestState(qn)
 		if not st : return htmltext
 

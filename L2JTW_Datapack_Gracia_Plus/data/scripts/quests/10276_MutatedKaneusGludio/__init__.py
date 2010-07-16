@@ -10,14 +10,14 @@ from com.l2jserver.util import Rnd
 qn = "10276_MutatedKaneusGludio"
 
 # NPCs
-BATHIS       = 30332
-ROHMER       = 30344
-TOMLAN_KAMOS = 18554
-OL_ARIOSH    = 18555
+BATHIS       = 30332  # 警衛隊長 巴堤亞
+ROHMER       = 30344  # 教師 若哈梅爾
+TOMLAN_KAMOS = 18554  # 突倫 卡默士 卡納斯
+OL_ARIOSH    = 18555  # 豺狼 亞留修 卡納斯
 
 # Items
-TISSUE_TK    = 13830
-TISSUE_OA    = 13831
+TISSUE_TK    = 13830  # 突倫 卡默士的細胞組織
+TISSUE_OA    = 13831  # 豺狼 亞留修的細胞組織
 
 class Quest (JQuest) :
 	def __init__(self,id,name,descr):
@@ -41,7 +41,7 @@ class Quest (JQuest) :
 		return htmltext
 
 	def onTalk (self, npc, player) :
-		htmltext = "<html><body>You are either not on a quest that involves this NPC, or you don't meet this NPC's minimum quest requirements.</body></html>"
+		htmltext = "<html><body>目前沒有執行任務，或條件不符。</body></html>"
 		st = player.getQuestState(qn)
 		if not st : return htmltext
 
@@ -101,7 +101,7 @@ class Quest (JQuest) :
 				st.playSound("ItemSound.quest_itemget")
 		return
 
-QUEST	= Quest(10276,qn,"Mutated Kaneus - Gludio")
+QUEST	= Quest(10276,qn,"突變卡納斯-古魯丁")
 
 QUEST.addStartNpc(BATHIS)
 QUEST.addTalkId(BATHIS)

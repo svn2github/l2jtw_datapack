@@ -9,6 +9,9 @@ from com.l2jserver.gameserver.model.quest.jython import QuestJython as JQuest
 
 qn = "701_Proof_Of_Existence"
 
+# 任務資料
+# 701	1	存在的反證	擊退魔物	柯塞勒斯同盟聯合基地的戰鬥法師爾堤吾斯說道，降低士兵士氣的原因是來自於班席女王--愛尼拉這個魔物。狩獵她之後，證明她不是士兵們需要如此感到恐懼的對象。作為成功獵捕的憑證，帶回班席女王的眼球、亡者遺骸。\n\n要獵殺的目標怪物-班席女王--愛尼拉、浮游骨骸、浮游殭屍\n	2	13875	13876													2	0	0													-181958	208968	4424	78	0	0	不滅之種 東邊空域	1	1	1	32559	-186109	242500	2550	沒有條件限制	在不滅之種地區附近交接任務後回來的士兵們目睹了魔物，因此鬧得整個軍團降低了士氣，而柯塞勒斯同盟聯合基地的戰鬥法師爾堤吾斯正為此擔心，於是正在尋找冒險家來解決此事...	0																																																																						0						0	10273	0	285	1	1	57											1	0											
+
 # NPCs
 ARTIUS = 32559
 
@@ -42,7 +45,7 @@ class Quest (JQuest) :
 		return htmltext
 
 	def onTalk (self, npc, player) :
-		htmltext = "<html><body>You are either not on a quest that involves this NPC, or you don't meet this NPC's minimum quest requirements.</body></html>"
+		htmltext = "<html><body>目前沒有執行任務，或條件不符。</body></html>"
 		st = player.getQuestState(qn)
 		if not st : return htmltext
 
@@ -78,7 +81,7 @@ class Quest (JQuest) :
 				st.playSound("ItemSound.quest_itemget")
 		return
 
-QUEST	= Quest(701,qn,"Proof of Existence")
+QUEST	= Quest(701,qn,"存在的反證")
 
 QUEST.addStartNpc(ARTIUS)
 QUEST.addTalkId(ARTIUS)
