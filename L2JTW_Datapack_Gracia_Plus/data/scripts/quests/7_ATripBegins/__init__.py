@@ -78,14 +78,16 @@ class Quest (JQuest) :
 					htmltext = "30148-01.htm"
 				else :
 					htmltext = "30148-03.htm"
-			elif npcId == MIRABEL and cond == 1 :
-				htmltext = "30146-04.htm"
-			elif npcId == ASTERIOS and cond == 2 and st.getQuestItemsCount(ARIELS_RECOMMENDATION) > 0 :
-				htmltext = "30154-01.htm"
-			elif npcId == ASTERIOS and cond == 3 :
-				htmltext = "30154-03.htm"
-			elif npcId == MIRABEL and cond == 3 :
-				htmltext = "30146-05.htm"
+			elif npcId == MIRABEL :
+				if cond == 1 :
+					htmltext = "30146-04.htm"
+				elif cond == 3 :
+					htmltext = "30146-05.htm"
+			elif npcId == ASTERIOS :
+				if cond == 2 and st.getQuestItemsCount(ARIELS_RECOMMENDATION) > 0 :
+					htmltext = "30154-01.htm"
+				elif cond == 3 :
+					htmltext = "30154-03.htm"
 		return htmltext
 
 QUEST		= Quest(7,qn,"旅程的開始")

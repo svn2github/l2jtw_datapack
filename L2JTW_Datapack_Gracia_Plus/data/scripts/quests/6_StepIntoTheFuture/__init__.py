@@ -79,6 +79,8 @@ class Quest (JQuest) :
 			if npcId == ROXXY :
 				if cond == 1 :
 					htmltext = "30006-04.htm"
+				elif cond == 3 :
+					htmltext = "30006-05.htm"
 			elif npcId == BAULRO :
 				if cond == 1 :
 					htmltext = "30033-01.htm"
@@ -87,12 +89,8 @@ class Quest (JQuest) :
 			elif npcId == SIR_COLLIN :
 				if cond == 2 and st.getQuestItemsCount(BAULRO_LETTER) :
 					htmltext = "30311-02.htm"
-			elif npcId == SIR_COLLIN :
-				if cond == 3 :
+				elif cond == 3 :
 					htmltext = "30311-04.htm"
-			elif npcId == ROXXY :
-				if cond == 3 :
-					htmltext = "30006-05.htm"
 		return htmltext
 
 QUEST		= Quest(6,qn,"朝向未來的第一步")

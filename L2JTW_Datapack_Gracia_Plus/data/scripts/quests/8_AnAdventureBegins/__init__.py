@@ -78,12 +78,14 @@ class Quest (JQuest) :
 					htmltext = "30355-01.htm"
 				else :
 					htmltext = "30355-03.htm"
-			elif npcId == JASMINE and cond == 1 :
-				htmltext = "30134-04.htm"
-			elif npcId == HARNE and cond == 2 and st.getQuestItemsCount(ROSELYNS_NOTE) > 0 :
-				htmltext = "30144-01.htm"
-			elif npcId == JASMINE and cond == 3 :
-				htmltext = "30134-05.htm"
+			elif npcId == JASMINE :
+				if cond == 1 :
+					htmltext = "30134-04.htm"
+				elif cond == 3 :
+					htmltext = "30134-05.htm"
+			elif npcId == HARNE :
+				if cond == 2 and st.getQuestItemsCount(ROSELYNS_NOTE) > 0 :
+					htmltext = "30144-01.htm"
 		return htmltext
 
 QUEST		= Quest(8,qn,"«_ÀIªº¶}©l")
