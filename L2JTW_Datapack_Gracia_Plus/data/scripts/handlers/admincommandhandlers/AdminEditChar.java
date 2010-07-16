@@ -635,7 +635,7 @@ public class AdminEditChar implements IAdminCommandHandler
 				}
 			}
 			else
-				activeChar.sendMessage("Invalid target.");
+				activeChar.sendMessage(1543);
 		}
 		else if (command.startsWith("admin_summon_info"))
 		{
