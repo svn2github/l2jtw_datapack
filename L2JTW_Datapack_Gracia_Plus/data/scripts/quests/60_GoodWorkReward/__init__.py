@@ -68,168 +68,173 @@ CLASSES = {
 
 class Quest (JQuest) :
 
- def __init__(self,id,name,descr):
-     JQuest.__init__(self,id,name,descr)
-     self.questItemIds = [10867,10868]
-     self.isNpcSpawned = 0
+	def __init__(self,id,name,descr):
+		JQuest.__init__(self,id,name,descr)
+		self.questItemIds = [10867,10868]
+		self.isNpcSpawned = 0
 
- def onAdvEvent (self,event,npc,player) :
-    if event == "npc_cleanup" :
-      self.isNpcSpawned = 0
-      return
-    st = player.getQuestState(qn)
-    if not st: return
-    htmltext = event
-    if event == "31435-03.htm" :
-      st.set("cond","1")
-      st.setState(State.STARTED)
-      st.playSound("ItemSound.quest_accept")
-    elif event == "31435-05.htm" :
-      st.set("cond","4")
-      st.playSound("ItemSound.quest_middle")
-    elif event == "31435-08.htm" :
-      st.set("cond","9")
-      st.playSound("ItemSound.quest_middle")
-    elif event == "32487-02.htm" and self.isNpcSpawned == 0:
-      npc = st.addSpawn(27340,72590,148100,-3312,1800000)
-      npc.broadcastPacket(NpcSay(npc.getObjectId(),0,npc.getNpcId(),player.getName()+"! 去死吧，要怪就怪你的好奇心。"))
-      npc.setRunning()
-      npc.addDamageHate(st.getPlayer(),0,999)
-      npc.getAI().setIntention(CtrlIntention.AI_INTENTION_ATTACK, st.getPlayer())
-      self.isNpcSpawned = 1
-      self.startQuestTimer("npc_cleanup",1800000,None, None)
-    elif event == "32487-06.htm" :
-      st.set("cond","8")
-      st.playSound("ItemSound.quest_middle")
-      st.takeItems(10868,-1)
-    elif event == "30081-03.htm" :
-      st.set("cond","5")
-      st.playSound("ItemSound.quest_middle")
-      st.takeItems(10867,-1)
-    elif event == "30081-05.htm" :
-      st.set("cond","6")
-      st.playSound("ItemSound.quest_middle")
-    elif event == "30081-08.htm" :
-      if st.getQuestItemsCount(57) >= 3000000 :
-         st.takeItems(57,3000000)
-         st.giveItems(10868,1)
-         st.set("cond","7")
-         st.playSound("ItemSound.quest_middle")
-      else :
-         htmltext = "30081-07.htm"
-    elif event == "31092-05.htm" :
-      st.exitQuest(False)
-      st.playSound("ItemSound.quest_finish")
-      if player.getClassId().level() == 1 :
-         text = BYPASS[player.getClassId().getId()]
-         htmltext = "<html><body>財富的地下商人:<br>錢的事嘛，你還是把它忘了吧...<br>我說過會幫你轉職的嘛！你想要轉職為哪一種職業呢？挑挑看吧...<br>"+text+"</body></html>"
-      else :
-         htmltext = "31092-06.htm"
-    elif event == "31092-06.htm" :
-      text = BYPASS[player.getClassId().getId()]
-      htmltext = "<html><body>財富的地下商人:<br>如果考慮好了，那就趕快選擇一下吧。你想要哪一種職業呢？<br>"+text+"</body></html>"
-    elif event == "31092-07.htm" :
-      st.giveAdena(3000000, False)
-      st.set("onlyone","1")
-    elif event in CLASSES.keys():
-         newclass,req_item=CLASSES[event]
-         adena = 0
-         for i in req_item :
-            if not st.getQuestItemsCount(i):
-               st.giveItems(i,1)
-            else :
-               adena = adena + 1
-         if adena == 3 :
-            return "31092-06.htm"
-         if adena > 0 :
-            st.giveAdena(adena*1000000,False)
-         htmltext = "31092-05.htm"
-         st.set("onlyone","1")
-    return htmltext
+	def onAdvEvent (self,event,npc, player) :
+		if event == "npc_cleanup" :
+			self.isNpcSpawned = 0
+			return
+		st = player.getQuestState(qn)
+		if not st: return
+		htmltext = event
+		if event == "31435-03.htm" :
+			st.set("cond","1")
+			st.playSound("ItemSound.quest_accept")
+			st.setState(State.STARTED)
+		elif event == "31435-05.htm" :
+			st.set("cond","4")
+			st.playSound("ItemSound.quest_middle")
+		elif event == "31435-08.htm" :
+			st.set("cond","9")
+			st.playSound("ItemSound.quest_middle")
+		elif event == "32487-02.htm" and self.isNpcSpawned == 0:
+			npc = st.addSpawn(27340,72590,148100,-3312,1800000)
+			npc.broadcastPacket(NpcSay(npc.getObjectId(),0,npc.getNpcId(),player.getName()+"! 去死吧，要怪就怪你的好奇心。"))
+			npc.setRunning()
+			npc.addDamageHate(st.getPlayer(),0,999)
+			npc.getAI().setIntention(CtrlIntention.AI_INTENTION_ATTACK, st.getPlayer())
+			self.isNpcSpawned = 1
+			self.startQuestTimer("npc_cleanup",1800000,None, None)
+		elif event == "32487-06.htm" :
+			st.set("cond","8")
+			st.playSound("ItemSound.quest_middle")
+			st.takeItems(10868,-1)
+		elif event == "30081-03.htm" :
+			st.set("cond","5")
+			st.playSound("ItemSound.quest_middle")
+			st.takeItems(10867,-1)
+		elif event == "30081-05.htm" :
+			st.set("cond","6")
+			st.playSound("ItemSound.quest_middle")
+		elif event == "30081-08.htm" :
+			if st.getQuestItemsCount(57) >= 3000000 :
+				st.takeItems(57,3000000)
+				st.giveItems(10868,1)
+				st.set("cond","7")
+				st.playSound("ItemSound.quest_middle")
+			else :
+				htmltext = "30081-07.htm"
+		elif event == "31092-05.htm" :
+			st.exitQuest(False)
+			st.playSound("ItemSound.quest_finish")
+			if player.getClassId().level() == 1 :
+				text = BYPASS[player.getClassId().getId()]
+				htmltext = "<html><body>財富的地下商人:<br>錢的事嘛，你還是把它忘了吧...<br>我說過會幫你轉職的嘛！你想要轉職為哪一種職業呢？挑挑看吧...<br>"+text+"</body></html>"
+			else :
+				htmltext = "31092-06.htm"
+		elif event == "31092-06.htm" :
+			text = BYPASS[player.getClassId().getId()]
+			htmltext = "<html><body>財富的地下商人:<br>如果考慮好了，那就趕快選擇一下吧。你想要哪一種職業呢？<br>"+text+"</body></html>"
+		elif event == "31092-07.htm" :
+			st.giveAdena(3000000, False)
+			st.set("onlyone","1")
+		elif event in CLASSES.keys():
+			newclass,req_item=CLASSES[event]
+			adena = 0
+			for i in req_item :
+				if not st.getQuestItemsCount(i):
+					st.giveItems(i,1)
+				else :
+					adena = adena + 1
+			if adena == 3 :
+				return "31092-06.htm"
+			if adena > 0 :
+				st.giveAdena(adena*1000000,False)
+			htmltext = "31092-05.htm"
+			st.set("onlyone","1")
+		return htmltext
 
- def onTalk (self,npc,player):
-   htmltext = "<html><body>目前沒有執行任務，或條件不符。</body></html>"
-   st = player.getQuestState(qn)
-   if not st : return htmltext
+	def onTalk (self,npc,player):
+		htmltext = "<html><body>目前沒有執行任務，或條件不符。</body></html>"
+		st = player.getQuestState(qn)
+		if not st : return htmltext
 
-   npcId = npc.getNpcId()
-   cond = st.getInt("cond")
-   id = st.getState()
-   if id == State.COMPLETED :
-     if npcId == 31435 :
-        htmltext = "<html><body>這是已經完成的任務。</body></html>"
-     elif npcId == 31092 :
-        if player.getClassId().level() == 1 and not st.getInt("onlyone"):
-           htmltext = "31092-04.htm"
-   if id == State.CREATED and npcId == 31435 :
-     if player.getLevel() < 39 or player.getClassId().level() != 1 or player.getRace().ordinal() == 5:
-       htmltext = "31435-00.htm"
-       st.exitQuest(1)
-     else :
-       htmltext = "31435-01.htm"
-   elif npcId == 31435 :
-     if cond in [1,2]:
-       htmltext = "31435-03.htm"
-     elif cond == 3:
-       htmltext = "31435-04.htm"
-     elif cond in [4,5,6,7]:
-       htmltext = "31435-06.htm"
-     elif cond == 8:
-       htmltext = "31435-07.htm"
-     elif cond == 9:
-       htmltext = "31435-09.htm"
-       st.set("cond","10")
-       st.playSound("ItemSound.quest_middle")
-     elif cond == 10:
-       htmltext = "31435-10.htm"
-   elif npcId == 32487 :
-     if cond == 1:
-       htmltext = "32487-01.htm"
-     elif cond == 2:
-       htmltext = "32487-03.htm"
-       st.set("cond","3")
-       st.playSound("ItemSound.quest_middle")
-     elif cond == 3:
-       htmltext = "32487-04.htm"
-     elif cond == 7:
-       htmltext = "32487-05.htm"
-     elif cond == 8:
-       htmltext = "32487-06.htm"
-   elif npcId == 30081 :
-     if cond == 4:
-       htmltext = "30081-01.htm"
-     elif cond == 5:
-       htmltext = "30081-04.htm"
-     elif cond == 6:
-       htmltext = "30081-06.htm"
-     elif cond == 7:
-       htmltext = "30081-09.htm"
-   elif npcId == 31092 and cond == 10 :
-       htmltext = "31092-01.htm"
-   return htmltext
+		npcId = npc.getNpcId()
+		id = st.getState()
+		cond = st.getInt("cond")
 
- def onKill(self,npc,player,isPet):
-   self.cancelQuestTimer("npc_cleanup", None, None)
-   self.isNpcSpawned = 0
-   st = player.getQuestState(qn)
-   if not st : return
-   if st.getState() != State.STARTED : return
-   npcId = npc.getNpcId()
-   cond = st.getInt("cond")
-   if npcId == 27340 and cond == 1:
-     string = "沒想到會這麼強，我失算了。"
-     if st.getRandom(1):
-       string = "算你走運，我會回來的。"
-     npc.broadcastPacket(NpcSay(npc.getObjectId(),0,npc.getNpcId(),string))
-     st.giveItems(10867,1)
-     st.set("cond","2")
-     st.playSound("ItemSound.quest_middle")
-   return
+		if id == State.COMPLETED :
+			if npcId == 31435 :
+				htmltext = "<html><body>這是已經完成的任務。</body></html>"
+			elif npcId == 31092 :
+				if player.getClassId().level() == 1 and not st.getInt("onlyone"):
+					htmltext = "31092-04.htm"
+		elif id == State.CREATED :
+			if npcId == 31435 and cond == 0 :
+				if player.getLevel() < 39 or player.getClassId().level() != 1 or player.getRace().ordinal() == 5 :
+					htmltext = "31435-00.htm"
+					st.exitQuest(1)
+				else :
+					htmltext = "31435-01.htm"
+		elif id == State.STARTED:
+			if npcId == 31435 :
+				if cond in [1,2]:
+					htmltext = "31435-03.htm"
+				elif cond == 3 :
+					htmltext = "31435-04.htm"
+				elif cond in [4,5,6,7] :
+					htmltext = "31435-06.htm"
+				elif cond == 8 :
+					htmltext = "31435-07.htm"
+				elif cond == 9 :
+					htmltext = "31435-09.htm"
+					st.set("cond","10")
+					st.playSound("ItemSound.quest_middle")
+				elif cond == 10 :
+					htmltext = "31435-10.htm"
+			elif npcId == 32487 :
+				if cond == 1 :
+					htmltext = "32487-01.htm"
+				elif cond == 2 :
+					htmltext = "32487-03.htm"
+					st.set("cond","3")
+					st.playSound("ItemSound.quest_middle")
+				elif cond == 3 :
+					htmltext = "32487-04.htm"
+				elif cond == 7 :
+					htmltext = "32487-05.htm"
+				elif cond == 8 :
+					htmltext = "32487-06.htm"
+			elif npcId == 30081 :
+				if cond == 4 :
+					htmltext = "30081-01.htm"
+				elif cond == 5 :
+					htmltext = "30081-04.htm"
+				elif cond == 6 :
+					htmltext = "30081-06.htm"
+				elif cond == 7 :
+					htmltext = "30081-09.htm"
+			elif npcId == 31092 :
+				if cond == 10 :
+					htmltext = "31092-01.htm"
+		return htmltext
 
-QUEST       = Quest(60,qn,"善行的報答")
+	def onKill(self,npc,player,isPet):
+		self.cancelQuestTimer("npc_cleanup", None, None)
+		self.isNpcSpawned = 0
+		st = player.getQuestState(qn)
+		if not st : return
+		if st.getState() != State.STARTED : return
+		npcId = npc.getNpcId()
+		cond = st.getInt("cond")
+		if npcId == 27340 and cond == 1 :
+			string = "沒想到會這麼強，我失算了。"
+			if st.getRandom(1):
+				string = "算你走運，我會回來的。"
+			npc.broadcastPacket(NpcSay(npc.getObjectId(),0,npc.getNpcId(),string))
+			st.giveItems(10867,1)
+			st.set("cond","2")
+			st.playSound("ItemSound.quest_middle")
+		return
+
+QUEST		= Quest(60,qn,"善行的報答")
 
 QUEST.addStartNpc(31092)
 QUEST.addStartNpc(31435)
+
 QUEST.addTalkId(30081)
 QUEST.addTalkId(31092)
 QUEST.addTalkId(31435)

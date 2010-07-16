@@ -1,4 +1,5 @@
 # Made by Mr. - Version 0.3 by DrLecter
+
 import sys
 from com.l2jserver.gameserver.model.quest import State
 from com.l2jserver.gameserver.model.quest import QuestState
@@ -11,74 +12,77 @@ NPC_GIFTS = {30585:BEAR_FUR_CLOAK,30566:HONEY_KHANDAR,30562:BLOODY_AXE,30560:ANC
 
 class Quest (JQuest) :
 
- def __init__(self,id,name,descr):
-     JQuest.__init__(self,id,name,descr)
-     self.questItemIds = range(1541,1547)
+	def __init__(self,id,name,descr):
+		JQuest.__init__(self,id,name,descr)
+		self.questItemIds = range(1541,1547)
 
- def onAdvEvent (self,event,npc, player) :
-    htmltext = event
-    st = player.getQuestState(qn)
-    if not st : return
-    if event == "30578-03.htm" :
-      st.set("cond","1")
-      st.set("id","1")
-      st.setState(State.STARTED)
-      st.playSound("ItemSound.quest_accept")
-    return htmltext
+	def onAdvEvent (self,event,npc, player) :
+		htmltext = event
+		st = player.getQuestState(qn)
+		if not st : return
+		if event == "30578-03.htm" :
+			st.set("cond","1")
+			st.set("id","1")
+			st.setState(State.STARTED)
+			st.playSound("ItemSound.quest_accept")
+		return htmltext
 
- def onTalk (self,npc,player):
-   htmltext = "<html><body>目前沒有執行任務，或條件不符。</body></html>"
-   st = player.getQuestState(qn)
-   if not st : return htmltext
+	def onTalk (self,npc,player):
+		htmltext = "<html><body>目前沒有執行任務，或條件不符。</body></html>"
+		st = player.getQuestState(qn)
+		if not st : return htmltext
 
-   npcId = npc.getNpcId()
-   id = st.getState()
-   cond = st.getInt("cond")
-   if id == State.COMPLETED :
-     htmltext = "<html><body>這是已經完成的任務。</body></html>"
+		npcId = npc.getNpcId()
+		id = st.getState()
+		cond = st.getInt("cond")
 
-   elif npcId == 30578 :
-     if cond == 0 :
-       if player.getRace().ordinal() != 3 :
-         htmltext = "30578-00.htm"
-         st.exitQuest(1)
-       elif player.getLevel() >= 2 :
-         htmltext = "30578-02.htm"
-       else:
-         htmltext = "30578-01.htm"
-         st.exitQuest(1)
-     elif cond == 1 :
-       htmltext = "30578-04.htm"
-     elif cond == 2 :
-       htmltext = "30578-06.htm"
-       st.giveItems(4,1)
-       st.giveItems(57,1850)
-       st.addExpAndSp(4254,335)
-       for item in NPC_GIFTS.values():
-           st.takeItems(item,-1)
-       st.unset("cond")
-       st.exitQuest(False)
-       st.playSound("ItemSound.quest_finish")
-   elif npcId in NPC_GIFTS.keys() and cond == 1 and id == State.STARTED:
-     item=NPC_GIFTS[npcId]
-     npc=str(npcId)
-     if st.getQuestItemsCount(item) :
-       htmltext = npc+"-02.htm"
-     else :
-       st.giveItems(item,1)
-       htmltext = npc+"-01.htm"
-       count = 0
-       for item in NPC_GIFTS.values():
-         count += st.getQuestItemsCount(item)
-       if count == 6 :
-         st.set("cond","2")
-         st.set("id","2")
-         st.playSound("ItemSound.quest_middle")
-       else :
-         st.playSound("ItemSound.quest_itemget")
-   return htmltext
+		if id == State.COMPLETED :
+			htmltext = "<html><body>這是已經完成的任務。</body></html>"
+		elif id == State.CREATED :
+			if npcId == 30578 :
+				if cond == 0 :
+					if player.getRace().ordinal() != 3 :
+						htmltext = "30578-00.htm"
+						st.exitQuest(1)
+					elif player.getLevel() >= 2 :
+						htmltext = "30578-02.htm"
+					else:
+						htmltext = "30578-01.htm"
+						st.exitQuest(1)
+		elif id == State.STARTED:
+			if npcId == 30578 :
+				if cond == 1 :
+					htmltext = "30578-04.htm"
+				elif cond == 2 :
+					htmltext = "30578-06.htm"
+					st.giveItems(4,1)
+					st.giveItems(57,1850)
+					st.addExpAndSp(4254,335)
+					for item in NPC_GIFTS.values():
+						st.takeItems(item,-1)
+					st.unset("cond")
+					st.exitQuest(False)
+					st.playSound("ItemSound.quest_finish")
+			elif npcId in NPC_GIFTS.keys() and cond == 1 :
+				item = NPC_GIFTS[npcId]
+				npc = str(npcId)
+				if st.getQuestItemsCount(item) :
+					htmltext = npc+"-02.htm"
+				else :
+					st.giveItems(item,1)
+					htmltext = npc+"-01.htm"
+					count = 0
+					for item in NPC_GIFTS.values():
+						count += st.getQuestItemsCount(item)
+					if count == 6 :
+						st.set("cond","2")
+						st.set("id","2")
+						st.playSound("ItemSound.quest_middle")
+					else :
+						st.playSound("ItemSound.quest_itemget")
+		return htmltext
 
-QUEST     = Quest(4,qn,"火之君主的健康")
+QUEST		= Quest(4,qn,"火之君主的健康")
 
 QUEST.addStartNpc(30578)
 
