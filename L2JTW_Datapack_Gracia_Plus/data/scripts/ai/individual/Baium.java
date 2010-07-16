@@ -104,6 +104,7 @@ public class Baium extends L2AttackableAIScript
 		}
 	}
 
+	@Override
 	public String onAdvEvent (String event, L2Npc npc, L2PcInstance player)
 	{
 		long temp = 0;
@@ -204,6 +205,7 @@ public class Baium extends L2AttackableAIScript
 		return super.onAdvEvent(event, npc, player);
 	}
 
+	@Override
 	public String onTalk(L2Npc npc,L2PcInstance player)
 	{
 		String htmltext = "";
@@ -255,6 +257,7 @@ public class Baium extends L2AttackableAIScript
 		return htmltext;
 	}
 
+	@Override
 	public String onAttack (L2Npc npc, L2PcInstance attacker, int damage, boolean isPet)
 	{
 		_LastAction = System.currentTimeMillis();
@@ -293,6 +296,7 @@ public class Baium extends L2AttackableAIScript
 		return super.onAttack(npc, attacker, damage, isPet);
 	}
 
+	@Override
 	public String onKill (L2Npc npc, L2PcInstance killer, boolean isPet) 
 	{ 
 		if (npc.getNpcId() == LIVE_BAIUM && GrandBossManager.getInstance().getBossStatus(LIVE_BAIUM) == AWAKE)

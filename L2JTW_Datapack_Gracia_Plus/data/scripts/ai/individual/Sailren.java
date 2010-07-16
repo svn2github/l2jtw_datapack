@@ -1,6 +1,8 @@
 package ai.individual;
 
 import ai.group_template.L2AttackableAIScript;
+
+import com.l2jserver.Config;
 import com.l2jserver.gameserver.ai.CtrlIntention;
 import com.l2jserver.gameserver.datatables.SkillTable;
 import com.l2jserver.gameserver.instancemanager.GrandBossManager;
@@ -13,7 +15,6 @@ import com.l2jserver.gameserver.network.serverpackets.SocialAction;
 import com.l2jserver.gameserver.network.serverpackets.SpecialCamera;
 import com.l2jserver.gameserver.templates.StatsSet;
 import com.l2jserver.util.Rnd;
-import com.l2jserver.Config;
 
 /**
  * Sailren AI
@@ -64,6 +65,7 @@ public class Sailren extends L2AttackableAIScript
 		}
 	}
 
+	@Override
 	public String onAdvEvent (String event, L2Npc npc, L2PcInstance player)
 	{
 		long temp = 0;
@@ -194,6 +196,7 @@ public class Sailren extends L2AttackableAIScript
 	return super.onAdvEvent(event, npc, player);
 	}
 
+	@Override
 	public String onTalk(L2Npc npc,L2PcInstance player)
 	{
 	String htmltext = "";
@@ -224,6 +227,7 @@ public class Sailren extends L2AttackableAIScript
 	return htmltext;
 	}
 
+	@Override
 	public String onAttack (L2Npc npc, L2PcInstance attacker, int damage, boolean isPet)
 	{
 		_LastAction = System.currentTimeMillis();
@@ -243,6 +247,7 @@ public class Sailren extends L2AttackableAIScript
 		return super.onAttack(npc, attacker, damage, isPet);
 	}
 
+	@Override
 	public String onKill (L2Npc npc, L2PcInstance killer, boolean isPet)
 	{
 		if (GrandBossManager.getInstance().getBossStatus(SAILREN) == FIGHTING && npc.getNpcId() == SAILREN)

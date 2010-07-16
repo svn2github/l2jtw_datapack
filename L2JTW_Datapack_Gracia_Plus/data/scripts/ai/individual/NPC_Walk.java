@@ -58,6 +58,7 @@ public class NPC_Walk extends L2AttackableAIScript
 		startQuestTimer("3262910", 5000, wharf_patrol04, null);
 	}
 
+	@Override
 	public String onAdvEvent (String event, L2Npc npc, L2PcInstance player)
 	{
 		if (walks99.containsKey(event))

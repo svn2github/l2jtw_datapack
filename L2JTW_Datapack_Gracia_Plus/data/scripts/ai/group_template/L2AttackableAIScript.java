@@ -54,10 +54,10 @@ public class L2AttackableAIScript extends QuestJython
 			this.addEventId(id, Quest.QuestEventType.ON_SPELL_FINISHED);
 			this.addEventId(id, Quest.QuestEventType.ON_SKILL_SEE);
 			this.addEventId(id, Quest.QuestEventType.ON_FACTION_CALL);
-			this.addEventId(id, Quest.QuestEventType.ON_AGGRO_RANGE_ENTER);			
+			this.addEventId(id, Quest.QuestEventType.ON_AGGRO_RANGE_ENTER);
 		}
 	}
-	
+
 	/**
 	 * This is used simply for convenience of replacing
 	 * jython 'element in list' boolean method.
@@ -85,7 +85,7 @@ public class L2AttackableAIScript extends QuestJython
 		}
 		return false;
 	}
-	
+
 	public L2AttackableAIScript (int questId, String name, String descr)
 	{
 		super(questId, name, descr);
@@ -105,26 +105,26 @@ public class L2AttackableAIScript extends QuestJython
 
 	@Override
 	public String onSkillSee (L2Npc npc, L2PcInstance caster, L2Skill skill, L2Object[] targets, boolean isPet) 
-    { 
-    	if (caster == null) 
-    	{
-    		return null;
-    	}
-    	if (!(npc instanceof L2Attackable))
-    	{
-    		return null;
-    	}
-    	
-    	L2Attackable attackable = (L2Attackable)npc; 
-    	
-    	int skillAggroPoints = skill.getAggroPoints();
-    	
-    	if (caster.getPet() != null)
-    	{
-    		if (targets.length == 1 && contains(targets, caster.getPet()))
-    			skillAggroPoints = 0;
-    	}
-    	
+	{
+		if (caster == null) 
+		{
+			return null;
+		}
+		if (!(npc instanceof L2Attackable))
+		{
+			return null;
+		}
+
+		L2Attackable attackable = (L2Attackable)npc; 
+
+		int skillAggroPoints = skill.getAggroPoints();
+
+		if (caster.getPet() != null)
+		{
+			if (targets.length == 1 && contains(targets, caster.getPet()))
+				skillAggroPoints = 0;
+		}
+
 		if (skillAggroPoints > 0)
 		{
 			if ( attackable.hasAI() && (attackable.getAI().getIntention() == AI_INTENTION_ATTACK))
@@ -159,7 +159,7 @@ public class L2AttackableAIScript extends QuestJython
 			{
 				return null;
 			}
-		}    	
+		}
     	
 		// By default, when a faction member calls for help, attack the caller's attacker.
     	// Notify the AI with EVT_AGGRESSION

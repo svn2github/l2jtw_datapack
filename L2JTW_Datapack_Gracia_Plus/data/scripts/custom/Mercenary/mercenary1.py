@@ -17,7 +17,7 @@ class mercenary1 (JQuest) :
 		st = player.getQuestState(qn)
 		npcId = npc.getNpcId()
 		L2Multisell.getInstance().separateAndSend(npcId*10000+1, player, npc.getNpcId(), False, 0.0);
-		return 
+		return
 	
 QUEST = mercenary1(-1, qn, "Custom")
 

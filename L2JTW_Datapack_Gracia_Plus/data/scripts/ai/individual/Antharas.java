@@ -84,6 +84,7 @@ public class Antharas extends L2AttackableAIScript
 		}
 	}
 
+	@Override
 	public String onAdvEvent (String event, L2Npc npc, L2PcInstance player)
 	{
 		long temp = 0;
@@ -234,6 +235,7 @@ public class Antharas extends L2AttackableAIScript
 		return super.onAdvEvent(event, npc, player);
 	}
 
+	@Override
 	public String onAttack (L2Npc npc, L2PcInstance attacker, int damage, boolean isPet)
 	{
 		_LastAction = System.currentTimeMillis();
@@ -290,6 +292,7 @@ public class Antharas extends L2AttackableAIScript
 		return super.onAttack(npc, attacker, damage, isPet);
 	}
 
+	@Override
 	public String onKill (L2Npc npc, L2PcInstance killer, boolean isPet) 
 	{ 
 		if (npc.getNpcId() == ANTHARAS && GrandBossManager.getInstance().getBossStatus(ANTHARAS) == FIGHTING)
