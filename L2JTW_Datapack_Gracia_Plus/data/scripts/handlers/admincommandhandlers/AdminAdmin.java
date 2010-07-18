@@ -294,7 +294,6 @@ public class AdminAdmin implements IAdminCommandHandler
 				}
 				
 				activeChar.sendMessage(1389);
-				
 			}
 			catch (Exception e)
 			{
