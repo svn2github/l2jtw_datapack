@@ -13,6 +13,7 @@ public class TRC extends L2Transformation
 		super(126, 22, 27);
 	}
  
+	@Override
 	public void onTransform()
 	{
 		if (getPlayer().getTransformationId() != 126 || getPlayer().isCursedWeaponEquipped())
@@ -31,6 +32,7 @@ public class TRC extends L2Transformation
 		getPlayer().setTransformAllowedSkills(SKILLS);
 	}
 
+	@Override
 	public void onUntransform()
 	{
 		removeSkills();

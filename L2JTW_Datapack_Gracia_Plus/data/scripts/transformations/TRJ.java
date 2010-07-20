@@ -13,6 +13,7 @@ public class TRJ extends L2Transformation
 		super(20002, 11, 11);
 	}
 
+	@Override
 	public void onTransform()
 	{
 		if (getPlayer().getTransformationId() != 20002 || getPlayer().isCursedWeaponEquipped())
@@ -31,6 +32,7 @@ public class TRJ extends L2Transformation
 		getPlayer().setTransformAllowedSkills(SKILLS);
 	}
 
+	@Override
 	public void onUntransform()
 	{
 		removeSkills();

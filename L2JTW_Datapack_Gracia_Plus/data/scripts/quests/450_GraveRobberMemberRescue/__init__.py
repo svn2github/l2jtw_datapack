@@ -105,7 +105,7 @@ class Quest (JQuest) :
 					npc.getSpawn().decreaseCount(npc)
 					npc.deleteMe()
 				else :
-					npc.broadcastPacket(NpcSay(npc.getObjectId(), 0, npc.getNpcId(), "Grunt... What's... wrong with me..."))
+					npc.broadcastPacket(NpcSay(npc.getObjectId(), 0, npc.getNpcId(), "齁..齁...我這是...怎麼...回事..."))
 					npc.getSpawn().decreaseCount(npc)
 					npc.deleteMe()
 		return htmltext

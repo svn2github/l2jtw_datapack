@@ -146,7 +146,7 @@ public class L2AttackableAIScript extends QuestJython
     
     @Override
 	public String onFactionCall (L2Npc npc, L2Npc caller, L2PcInstance attacker, boolean isPet) 
-    { 
+    {
     	L2Character originalAttackTarget = (isPet? attacker.getPet(): attacker);
 		if ( attacker.isInParty()
 				&& attacker.getParty().isInDimensionalRift())
@@ -170,7 +170,7 @@ public class L2AttackableAIScript extends QuestJython
     
     @Override
 	public String onAggroRangeEnter (L2Npc npc, L2PcInstance player, boolean isPet) 
-    { 
+    {
     	L2Character target = isPet ? player.getPet() : player;
     	
     	((L2Attackable) npc).addDamageHate(target, 0, 1);
@@ -183,13 +183,13 @@ public class L2AttackableAIScript extends QuestJython
 
     @Override
 	public String onSpawn (L2Npc npc) 
-    { 
+    {
     	return null; 
     }
     
     @Override
 	public String onAttack (L2Npc npc, L2PcInstance attacker, int damage, boolean isPet)
-    {	
+    {
     	if ((attacker != null) && (npc instanceof L2Attackable))
     	{
 	    	L2Attackable attackable = (L2Attackable)npc; 
@@ -203,7 +203,7 @@ public class L2AttackableAIScript extends QuestJython
 
     @Override
 	public String onKill (L2Npc npc, L2PcInstance killer, boolean isPet) 
-    { 
+    {
     	return null; 
     }
     
