@@ -40,8 +40,8 @@ class Quest (JQuest) :
 			else :
 				st.set("cond","5")
 				htmltext = "30081-02b.htm"
-				st.setState(State.STARTED)
-				st.playSound("ItemSound.quest_accept")
+			st.setState(State.STARTED)
+			st.playSound("ItemSound.quest_accept")
 		elif event == "30511-03.htm" :
 			st.set("cond","6")
 			st.playSound("ItemSound.quest_middle")
