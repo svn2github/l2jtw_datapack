@@ -31,8 +31,8 @@ class Quest (JQuest) :
       st.setState(State.STARTED)
       st.playSound("ItemSound.quest_accept")
     elif event == "32016-02.htm" :
-      st.giveItems(57,21578)
-      st.addExpAndSp(76665,5333)
+      st.giveItems(57,154800)
+      st.addExpAndSp(619300,44200)
       st.takeItems(Box,1)
       st.playSound("ItemSound.quest_finish")
       st.exitQuest(False)
@@ -49,7 +49,7 @@ class Quest (JQuest) :
        htmltext = "<html><body>這是已經完成的任務。</body></html>"
     elif npcId == Moira :
        if state == State.CREATED:
-          if st.getPlayer().getLevel() >= 40 :
+          if st.getPlayer().getLevel() >= 80 :
              htmltext = "31979-01.htm"
           else:
              htmltext = "31979-00.htm"
