@@ -99,27 +99,27 @@ class Quest (JQuest) :
 						st.takeItems(OrangeUglyFish,10)
 						st.takeItems(OrangeFatFish,10)
 						st.giveItems(FishChest,1)
-						htmltext = "31572-04.htm"
-					else :
 						htmltext = "31572-05.htm"
+					else :
+						htmltext = "31572-04.htm"
 				elif cond == 4 :
 					htmltext = "31572-06.htm"
 			elif npcId == GESTO :
 				if cond == 5 :
 					htmltext = "30511-01.htm"
-			elif cond == 6 :
-				if st.getQuestItemsCount(GoldenCobol) >= 40 and st.getQuestItemsCount(ThornCobol) >= 40 and st.getQuestItemsCount(GreatCobol) >= 40 :
-					st.set("cond","7")
-					st.playSound("ItemSound.quest_middle")
-					st.takeItems(GoldenCobol,40)
-					st.takeItems(ThornCobol,40)
-					st.takeItems(GreatCobol,40)
-					st.giveItems(SeedJar,1)
-					htmltext = "30511-04.htm"
-				else :
-					htmltext = "30511-05.htm"
-			elif cond == 7 :
-				htmltext = "30511-06.htm"
+				elif cond == 6 :
+					if st.getQuestItemsCount(GoldenCobol) >= 40 and st.getQuestItemsCount(ThornCobol) >= 40 and st.getQuestItemsCount(GreatCobol) >= 40 :
+						st.set("cond","7")
+						st.playSound("ItemSound.quest_middle")
+						st.takeItems(GoldenCobol,40)
+						st.takeItems(ThornCobol,40)
+						st.takeItems(GreatCobol,40)
+						st.giveItems(SeedJar,1)
+						htmltext = "30511-05.htm"
+					else :
+						htmltext = "30511-04.htm"
+				elif cond == 7 :
+					htmltext = "30511-06.htm"
 		return htmltext
 
 QUEST		= Quest(40,qn,"特別的訂單")
