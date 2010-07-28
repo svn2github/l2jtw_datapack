@@ -77,10 +77,10 @@ class Quest (JQuest) :
 				elif cond == 2 :
 					htmltext = "32292-03a.htm"
 				elif cond == 3 :
-			if st.getQuestItemsCount(CASIAN_BLUE_CRY) == 1 :
-				htmltext = "32292-04.htm"
-			else :
-				htmltext = "所需道具不足。"
+					if st.getQuestItemsCount(CASIAN_BLUE_CRY) == 1 :
+						htmltext = "32292-04.htm"
+					else :
+						htmltext = "道具不符。"
 		return htmltext
 
 QUEST		= Quest(130,qn,"往地獄邊界的路")
