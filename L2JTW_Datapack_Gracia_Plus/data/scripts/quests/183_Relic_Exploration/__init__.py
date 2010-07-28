@@ -3,95 +3,101 @@
 # Visit http://www.l2jdp.com/forum for more details.
 
 import sys
-
-from com.l2jserver.gameserver.instancemanager                      import QuestManager
-from com.l2jserver.gameserver.model.quest        			import State
-from com.l2jserver.gameserver.model.quest        			import QuestState
-from com.l2jserver.gameserver.model.quest.jython 			import QuestJython as JQuest
+from com.l2jserver.gameserver.instancemanager    import QuestManager
+from com.l2jserver.gameserver.model.quest        import State
+from com.l2jserver.gameserver.model.quest        import QuestState
+from com.l2jserver.gameserver.model.quest.jython import QuestJython as JQuest
 
 qn = "183_Relic_Exploration"
 
 #NPCs
-Kusto = 30512
+Kusto  = 30512
 Lorain = 30673
 Nikola = 30621
 
 class Quest (JQuest) :
-    def __init__(self,id,name,descr):
-        JQuest.__init__(self,id,name,descr)
 
-    def onAdvEvent (self,event,npc, player) :
-        st = player.getQuestState(qn)
-        if not st: return
-        htmltext = event
-        if event == "30512-03.htm":
-            st.playSound("ItemSound.quest_accept")
-            st.set("cond","1")
-            st.setState(State.STARTED)
-        elif event == "30673-04.htm":
-            st.set("cond","2")
-            st.playSound("ItemSound.quest_middle")
-        elif event == "30621-02.htm":
-            if player.getLevel() < 50:
-               st.addExpAndSp(60000,3000)
-            st.giveItems(57,18100)
-            st.exitQuest(False)
-            st.playSound("ItemSound.quest_finish")
-        elif event == "Contract" :
-            q1 = QuestManager.getInstance().getQuest("184_Nikolas_Cooperation_Contract")
-            if q1 :
-                qs1 = q1.newQuestState(player)
-                qs1.setState(State.STARTED)
-                q1.notifyEvent("30621-01.htm",npc,player)
-            return
-        elif event == "Consideration" :
-            q2 = QuestManager.getInstance().getQuest("185_Nikolas_Cooperation_Consideration")
-            if q2 :
-                qs2 = q2.newQuestState(st.getPlayer())
-                qs2.setState(State.STARTED)
-                q2.notifyEvent("30621-01.htm",npc,player)
-            return
-        return htmltext
+	def __init__(self,id,name,descr):
+		JQuest.__init__(self,id,name,descr)
 
-    def onTalk (self,npc,player):
-        htmltext = "<html><body>目前沒有執行任務，或條件不符。</body></html>"
-        st = player.getQuestState(qn)
-        if not st : return htmltext
-        npcId = npc.getNpcId()
-        id = st.getState()
-        cond = st.getInt("cond")
-        if id == State.COMPLETED :
-            if npcId == Kusto :
-                htmltext = "<html><body>這是已經完成的任務。</body></html>"
-            elif npcId == Nikola :
-                qs1 = player.getQuestState("184_Nikolas_Cooperation_Contract")
-                qs2 = player.getQuestState("185_Nikolas_Cooperation_Consideration")
-                if not qs1 and not qs2 :
-                    htmltext = "30621-03.htm"
-                else :
-                    htmltext = "<html><body>這是已經完成的任務。</body></html>"
-        elif npcId == Kusto :
-            if id == State.CREATED :
-                if player.getLevel() < 40 :
-                    htmltext = "30512-00.htm"
-                else :
-                    htmltext = "30512-01.htm"
-            else :
-                htmltext = "30512-04.htm"
-        elif npcId == Lorain :
-            if cond == 1 :
-                htmltext = "30673-01.htm"
-            else :
-                htmltext = "30673-05.htm"
-        elif npcId == Nikola :
-            if cond == 2 :
-                htmltext = "30621-01.htm"
-        return htmltext
+	def onAdvEvent (self,event,npc, player) :
+		st = player.getQuestState(qn)
+		if not st: return
+		htmltext = event
+		if event == "30512-03.htm":
+			st.playSound("ItemSound.quest_accept")
+			st.set("cond","1")
+			st.setState(State.STARTED)
+		elif event == "30673-04.htm":
+			st.set("cond","2")
+			st.playSound("ItemSound.quest_middle")
+		elif event == "30621-02.htm":
+			if player.getLevel() < 50:
+				st.addExpAndSp(60000,3000)
+			st.giveItems(57,18100)
+			st.exitQuest(False)
+			st.playSound("ItemSound.quest_finish")
+		elif event == "Contract" :
+			q1 = QuestManager.getInstance().getQuest("184_Nikolas_Cooperation_Contract")
+			if q1 :
+				qs1 = q1.newQuestState(player)
+				qs1.setState(State.STARTED)
+				q1.notifyEvent("30621-01.htm",npc,player)
+			return
+		elif event == "Consideration" :
+			q2 = QuestManager.getInstance().getQuest("185_Nikolas_Cooperation_Consideration")
+			if q2 :
+				qs2 = q2.newQuestState(st.getPlayer())
+				qs2.setState(State.STARTED)
+				q2.notifyEvent("30621-01.htm",npc,player)
+			return
+		return htmltext
 
-QUEST       = Quest(183,qn,"探查巨人的遺蹟")
+	def onTalk (self,npc,player):
+		htmltext = "<html><body>目前沒有執行任務，或條件不符。</body></html>"
+		st = player.getQuestState(qn)
+		if not st : return htmltext
+
+		npcId = npc.getNpcId()
+		id = st.getState()
+		cond = st.getInt("cond")
+
+		if id == State.COMPLETED :
+			if npcId == Kusto :
+				htmltext = "<html><body>這是已經完成的任務。</body></html>"
+			elif npcId == Nikola :
+				qs1 = player.getQuestState("184_Nikolas_Cooperation_Contract")
+				qs2 = player.getQuestState("185_Nikolas_Cooperation_Consideration")
+				if not qs1 and not qs2 :
+					htmltext = "30621-03.htm"
+				else :
+					htmltext = "<html><body>這是已經完成的任務。</body></html>"
+		elif id == State.CREATED :
+			if npcId == Kusto and cond == 0 :
+				if player.getLevel() < 40 :
+					htmltext = "30512-00.htm"
+					st.exitQuest(1)
+				else :
+					htmltext = "30512-01.htm"
+		elif id == State.STARTED :
+			if npcId == Kusto :
+				if cond == 1 :
+					htmltext = "30512-04.htm"
+			elif npcId == Lorain :
+				if cond == 1 :
+					htmltext = "30673-01.htm"
+				else :
+					htmltext = "30673-05.htm"
+			elif npcId == Nikola :
+				if cond == 2 :
+					htmltext = "30621-01.htm"
+		return htmltext
+
+QUEST		= Quest(183,qn,"探查巨人的遺蹟")
 
 QUEST.addStartNpc(Kusto)
 QUEST.addStartNpc(Nikola)
+
 QUEST.addTalkId(Kusto)
 QUEST.addTalkId(Lorain)
 QUEST.addTalkId(Nikola)
