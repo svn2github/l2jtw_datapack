@@ -200,7 +200,7 @@ class Quest(JQuest) :
 					player.destroyItemByItemId("Moonlight Stone", KEY, 1, player, True);
 					instance = InstanceManager.getInstance().getInstance(npc.getInstanceId())
 					if instance != None:
-						instance.setDuration(30000)
+						instance.setDuration(300000)
 						instance.setReturnTeleport(ReturnPort[dataIndex][0],ReturnPort[dataIndex][1],ReturnPort[dataIndex][2])
 				else :
 					return "32343-2.htm"
