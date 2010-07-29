@@ -972,3 +972,32 @@ REPLACE INTO `custom_npc_buffer` VALUES (1000003, 4701, 10, 57, 100, 4701);  -- 
 REPLACE INTO `custom_npc_buffer` VALUES (1000003, 4702, 10, 57, 100, 4702);  -- 六翼天使的祝福
 REPLACE INTO `custom_npc_buffer` VALUES (1000003, 4703, 10, 57, 100, 4703);  -- 六翼天使的禮物
 REPLACE INTO `custom_npc_buffer` VALUES (1000003, 4704, 10, 57, 100, 4704);  -- 六翼天使的恩典
+
+
+-- 怪物手拿武器
+UPDATE `npc` SET`rhand`= 127 where id = 22485;
+UPDATE `npc` SET`rhand`= 127 where id = 22486;
+UPDATE `npc` SET`rhand`= 72 where id = 22487;
+UPDATE `npc` SET`rhand`= 201 where id = 25616;
+UPDATE `npc` SET`rhand`= 72 where id = 29130;
+UPDATE `npc` SET`rhand`= 201 where id = 29131;
+UPDATE `npc` SET`rhand`= 68 where id = 22488;
+UPDATE `npc` SET`rhand`= 68 where id = 22489;
+UPDATE `npc` SET`rhand`= 93 where id = 22490;
+UPDATE `npc` SET`rhand`= 221 where id = 25617;
+UPDATE `npc` SET`rhand`= 16 where id = 29133;
+UPDATE `npc` SET`rhand`= 159 where id = 29134;
+UPDATE `npc` SET`rhand`= 946, `lhand`= 945 where id = 22495;
+UPDATE `npc` SET`rhand`= 124 where id = 29138;
+UPDATE `npc` SET`rhand`= 148 where id = 22500;
+UPDATE `npc` SET`rhand`= 148 where id = 22501;
+UPDATE `npc` SET`rhand`= 148 where id = 22502;
+UPDATE `npc` SET`rhand`= 8221 where id = 25621;
+UPDATE `npc` SET`rhand`= 8221 where id = 29144;
+UPDATE `npc` SET`rhand`= 6717 where id = 29145;
+UPDATE `npc` SET`rhand`= 6718 where id = 29146;
+UPDATE `npc` SET`rhand`= 78 where id = 25622;
+UPDATE `npc` SET`rhand`= 1472 where id = 22364;
+UPDATE `npc` SET`rhand`= 6722 where id = 22449;
+UPDATE `npc` SET`rhand`= 13983 where id = 25648;
+UPDATE `npc` SET`rhand`= 78 where id = 22368;
