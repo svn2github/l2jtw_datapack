@@ -1670,3 +1670,31 @@ REPLACE INTO `pets_stats` VALUES
 ('16072',16072,84,510786866,3359,3241,88,503,399,367,157,151,52,187,278,333,7032,110,22,54510,10,4,0.27,2,2),
 ('16072',16072,85,551509721,3402,3301,91,508,407,371,159,152,52,187,278,333,7112,112,23,54510,10,4,0.27,2,2),
 ('16072',16072,86,592232575,3447,3361,94,514,414,375,160,153,52,187,278,333,7192,113,23,54510,10,4,0.27,2,2);
+
+-- ©Çª«¤â®³ªZ¾¹
+UPDATE `npc` SET`rhand`= 127 where id = 22485;
+UPDATE `npc` SET`rhand`= 127 where id = 22486;
+UPDATE `npc` SET`rhand`= 72 where id = 22487;
+UPDATE `npc` SET`rhand`= 201 where id = 25616;
+UPDATE `npc` SET`rhand`= 72 where id = 29130;
+UPDATE `npc` SET`rhand`= 201 where id = 29131;
+UPDATE `npc` SET`rhand`= 68 where id = 22488;
+UPDATE `npc` SET`rhand`= 68 where id = 22489;
+UPDATE `npc` SET`rhand`= 93 where id = 22490;
+UPDATE `npc` SET`rhand`= 221 where id = 25617;
+UPDATE `npc` SET`rhand`= 16 where id = 29133;
+UPDATE `npc` SET`rhand`= 159 where id = 29134;
+UPDATE `npc` SET`rhand`= 946, `lhand`= 945 where id = 22495;
+UPDATE `npc` SET`rhand`= 124 where id = 29138;
+UPDATE `npc` SET`rhand`= 148 where id = 22500;
+UPDATE `npc` SET`rhand`= 148 where id = 22501;
+UPDATE `npc` SET`rhand`= 148 where id = 22502;
+UPDATE `npc` SET`rhand`= 8221 where id = 25621;
+UPDATE `npc` SET`rhand`= 8221 where id = 29144;
+UPDATE `npc` SET`rhand`= 6717 where id = 29145;
+UPDATE `npc` SET`rhand`= 6718 where id = 29146;
+UPDATE `npc` SET`rhand`= 78 where id = 25622;
+UPDATE `npc` SET`rhand`= 1472 where id = 22364;
+UPDATE `npc` SET`rhand`= 6722 where id = 22449;
+UPDATE `npc` SET`rhand`= 13983 where id = 25648;
+UPDATE `npc` SET`rhand`= 78 where id = 22368;
