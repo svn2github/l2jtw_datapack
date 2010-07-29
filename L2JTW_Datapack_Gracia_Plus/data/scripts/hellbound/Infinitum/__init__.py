@@ -187,7 +187,7 @@ class Quest (JQuest):
 
   def onTalk (self,npc,player):
     npcId = npc.getNpcId()
-    if npcId == 32344 :
+    if npcId == 32302 :
       tele = PyObject()
       tele.x = -19645
       tele.y = 277528
@@ -226,5 +226,5 @@ class Quest (JQuest):
 
 QUEST = Quest(-1, qn, "hellbound")
 
-QUEST.addStartNpc(32344)
+QUEST.addStartNpc(32302)
 for mob in MFL : QUEST.addKillId(mob)

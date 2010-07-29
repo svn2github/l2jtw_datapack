@@ -1387,7 +1387,7 @@
 		<enchant3 name="isDebuff" val="true" />
 		<enchant3 name="element" val="3" /> <!-- Earth -->
 		<enchant3 name="power" val="#ench123Power" />
-		<enchant3 name="skillType" val="DEBUFF" />
+		<enchant3 name="skillType" val="WEAKNESS" />
 		<enchant3 name="ignoreResists" val="true" />
 		<for>
 			<effect name="Spoil" noicon="1" val="0" />
@@ -1405,7 +1405,7 @@
 		</enchant2for>
 		<enchant3for>
 			<effect name="Spoil" noicon="1" val="0" />
-			<effect name="Debuff" time="15" val="0">
+			<effect name="Debuff" time="15" val="0" stackOrder="1" stackType="element_debuff">
 				<sub order="0x40" stat="earthRes" val="#ench3EarthVuln" />
 			</effect>
 		</enchant3for>

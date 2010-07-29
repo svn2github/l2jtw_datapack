@@ -35,7 +35,6 @@
 		<set name="castRange" val="40" />
 		<set name="effectRange" val="400" />
 		<set name="hitTime" val="1800" />
-		<set name="lvlDepend" val="1" />
 		<set name="magicLvl" val="#magicLvl" />
 		<set name="mpConsume" val="#mpConsume" />
 		<set name="nextActionAttack" val="true" />
@@ -45,28 +44,44 @@
 		<set name="skillType" val="SPOIL" />
 		<set name="target" val="TARGET_AREA" />
 		<enchant1 name="magicLvl" val="#enchantMagicLvl" />
+		<enchant1 name="lvlDepend" val="1" />
 		<enchant1 name="isDebuff" val="true" />
+		<enchant1 name="element" val="3" /> <!-- Earth -->
+		<enchant1 name="power" val="#ench123Power" />
+		<enchant1 name="skillType" val="DEBUFF" />
+		<enchant1 name="ignoreResists" val="true" />
 		<enchant2 name="magicLvl" val="#enchantMagicLvl" />
+		<enchant2 name="lvlDepend" val="1" />
 		<enchant2 name="isDebuff" val="true" />
+		<enchant2 name="elementPower" val="20" />
+		<enchant2 name="element" val="3" /> <!-- Earth -->
+		<enchant2 name="power" val="#ench123Power" />
+		<enchant2 name="skillType" val="DOT" />
+		<enchant2 name="ignoreResists" val="true" />
 		<enchant3 name="magicLvl" val="#enchantMagicLvl" />
+		<enchant3 name="lvlDepend" val="1" />
 		<enchant3 name="isDebuff" val="true" />
+		<enchant3 name="element" val="3" /> <!-- Earth -->
+		<enchant3 name="power" val="#ench123Power" />
+		<enchant3 name="skillType" val="WEAKNESS" />
+		<enchant3 name="ignoreResists" val="true" />
 		<for>
 			<effect name="Spoil" noicon="1" val="0" />
 		</for>
 		<enchant1for>
 			<effect name="Spoil" noicon="1" val="0" />
-			<effect name="Debuff" time="15" val="0" effectPower="#ench123Power" effectType="DEBUFF" stackOrder="23" stackType="attack_time_up">
+			<effect name="Debuff" time="15" val="0" stackOrder="23" stackType="attack_time_up">
 				<mul order="0x30" stat="pAtkSpd" val="0.77" />
 			</effect>
 		</enchant1for>
 		<enchant2for>
 			<effect name="Spoil" noicon="1" val="0" />
 			<!-- Retail Values CT2.3: 118HP * 3 Sec -->
-			<effect count="5" name="DamOverTime" time="3" val="354" effectPower="#ench123Power" effectType="DOT" />
+			<effect count="5" name="DamOverTime" time="3" val="354" />
 		</enchant2for>
 		<enchant3for>
 			<effect name="Spoil" noicon="1" val="0" />
-			<effect name="Debuff" time="15" val="0" effectPower="#ench123Power" effectType="DEBUFF">
+			<effect name="Debuff" time="15" val="0" stackOrder="1" stackType="element_debuff">
 				<sub order="0x40" stat="earthRes" val="#ench3EarthVuln" />
 			</effect>
 		</enchant3for>
@@ -1097,7 +1112,7 @@
 	<skill id="342" levels="1" name="Touch of Death" enchantGroup1="6" enchantGroup2="6">
 		<table name="#enchantMagicLvl"> 78 79 79 80 80 81 81 82 82 83 83 84 84 85 85 </table>
 		<table name="#ench1hpConsume"> 647 625 603 581 559 537 515 492 470 448 426 404 382 360 338 </table>
-		<table name="#ench2Power"> 81 82 83 84 85 86 87 88 89 90 91 92 93 94 95 </table> <!-- Guess -->
+		<table name="#ench2effectPower"> 81 82 83 84 85 86 87 88 89 90 91 92 93 94 95 </table> <!-- Guess -->
 		<set name="castRange" val="40" />
 		<set name="effectRange" val="400" />
 		<set name="hitTime" val="1800" />
@@ -1105,25 +1120,33 @@
 		<set name="isDebuff" val="true" />
 		<set name="lvlDepend" val="1" />
 		<set name="magicLvl" val="78" />
-		<set name="maxNegated" val="5" />
 		<set name="nextActionAttack" val="true" />
 		<set name="operateType" val="OP_ACTIVE" />
-		<set name="power" val="80" /> <!-- Base Land Rate for DEBUFF -->
+		<set name="power" val="90" /> <!-- Consumes 90% CP -->
 		<set name="reuseDelay" val="150000" />
-		<set name="skillType" val="DEBUFF" />
+		<set name="skillType" val="CPDAMPERCENT" />
 		<set name="target" val="TARGET_ONE" />
 		<enchant1 name="magicLvl" val="#enchantMagicLvl" />
 		<enchant1 name="hpConsume" val="#ench1hpConsume" />
 		<enchant2 name="magicLvl" val="#enchantMagicLvl" />
-		<enchant2 name="power" val="#ench2Power" />
 		<for>
-			<effect name="Debuff" time="120" val="0">
+			<effect name="Debuff" time="120" val="0" effectPower="80" effectType="DEBUFF">
 				<mul order="0x30" stat="maxCp" val="0.1" />
 				<mul order="0x30" stat="debuffVuln" val="1.3" />
 				<mul order="0x30" stat="gainHp" val="0.7" />
 			</effect>
 			<!-- effect name="Cancel" val="0" effectPower="25" effectType="CANCEL"/ TODO: Needs Core-Side Support -->
+			<effect name="ChanceSkillTrigger" time="1" noicon="1" val="0" triggeredId="10010" triggeredLevel="1" chanceType="ON_START" activationChance="25" /> <!-- TEMP FIX -->
 		</for>
+		<enchant2for>
+			<effect name="Debuff" time="120" val="0" effectPower="#ench2effectPower" effectType="DEBUFF">
+				<mul order="0x30" stat="maxCp" val="0.1" />
+				<mul order="0x30" stat="debuffVuln" val="1.3" />
+				<mul order="0x30" stat="gainHp" val="0.7" />
+			</effect>
+			<!-- effect name="Cancel" val="0" effectPower="25" effectType="CANCEL"/ TODO: Needs Core-Side Support -->
+			<effect name="ChanceSkillTrigger" time="1" noicon="1" val="0" triggeredId="10010" triggeredLevel="1" chanceType="ON_START" activationChance="25" /> <!-- TEMP FIX -->
+		</enchant2for>
 	</skill>
 	<skill id="343" levels="1" name="Lethal Shot" enchantGroup1="6" enchantGroup2="6" enchantGroup3="6" enchantGroup4="6" enchantGroup5="6" enchantGroup6="6" enchantGroup7="6">
 		<table name="#enchantMagicLvl"> 76 76 77 78 78 79 80 80 81 82 82 83 84 85 85 </table>

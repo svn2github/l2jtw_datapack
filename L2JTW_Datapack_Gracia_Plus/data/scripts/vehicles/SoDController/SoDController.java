@@ -39,7 +39,7 @@ public class SoDController extends AirShipController
 	{
 		{
 			new VehiclePathPoint(-245245, 251040, 4359, 280, 2000),
-			new VehiclePathPoint(-235693, 248843, 5100, 0, 0)			
+			new VehiclePathPoint(-235693, 248843, 5100, 0, 0)
 		},
 		{			
 			new VehiclePathPoint(-245245, 251040, 4359, 280, 2000),
