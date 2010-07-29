@@ -92,6 +92,43 @@ public class PaganKeys implements IItemHandler
 					activeChar.sendMessage(1124);
 				}
 				break;
+			// Add by pmq Start
+			case 9685: //SteelCitade DARKNESS_KEY
+				if (door.getDoorId() == 20260001)
+				{
+					DoorTable.getInstance().getDoor(20260001).openMe();
+					DoorTable.getInstance().getDoor(20260001).onOpen();
+				}
+				else
+				{
+					activeChar.sendMessage(148);
+				}
+				break;
+			case 9686: //SteelCitade DESTRUCTION_KEY
+				if (door.getDoorId() == 20260006)
+				{
+					DoorTable.getInstance().getDoor(20260006).openMe();
+					DoorTable.getInstance().getDoor(20260006).onOpen();
+				}
+				else
+				{
+					activeChar.sendMessage(148);
+				}
+				break;
+			case 9687: //SteelCitade BLOOD_KEY
+				if (door.getDoorId() == 20260002 || door.getDoorId() == 20260005)
+				{
+					DoorTable.getInstance().getDoor(20260002).openMe();
+					DoorTable.getInstance().getDoor(20260002).onOpen();
+					DoorTable.getInstance().getDoor(20260005).openMe();
+					DoorTable.getInstance().getDoor(20260005).onOpen();
+				}
+				else
+				{
+					activeChar.sendMessage(148);
+				}
+				break;
+			// Add by pmq End
 			case 9699:
 				if (door.getDoorId() == 24220022)
 				{

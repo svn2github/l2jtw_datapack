@@ -609,11 +609,21 @@
 		</cond>
 	</skill>
 	<skill id="2357" levels="1" name="Fiery Demon Blood">
-		<set name="target" val="TARGET_NONE" />
-		<set name="skillType" val="NOTDONE" />
-		<set name="operateType" val="OP_PASSIVE" />
+		<!-- Update by pmq -->
 		<set name="hitTime" val="100" />
 		<set name="staticHitTime" val="true" />
+		<set name="target" val="TARGET_SELF" />
+		<set name="skillType" val="BUFF" />
+		<set name="operateType" val="OP_ACTIVE" />
+		<set name="buffDuration" val="600000" />
+		<set name="isPotion" val="true" />
+		<cond msgId="113" addName="1">
+			<player flyMounted="False" />
+		</cond>
+		<for>
+			<effect name="Buff" time="600" val="0" >
+			</effect>
+		</for>
 	</skill>
 	<skill id="2358" levels="1" name="Holy Water">
 		<set name="target" val="TARGET_ONE" />
