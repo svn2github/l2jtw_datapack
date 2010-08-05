@@ -64,14 +64,15 @@ class Quest (JQuest) :
 				else:
 					htmltext = "30847-5.htm"
 					st.exitQuest(1)
-			elif st.getQuestItemsCount(REINFORCED_STEEL) == 5 :
-				htmltext = "30847-2.htm"
 		elif id == State.STARTED :
 			if npcId == 30847 :
 				if cond == 1 :
 					htmltext = "30847-1a.htm"
 				elif cond == 2 :
-					htmltext = "30847-2.htm"
+					if st.getQuestItemsCount(REINFORCED_STEEL) == 5 :
+						htmltext = "30847-2.htm"
+					else :
+						htmltext == "¹D¨ã¤£²Å"
 				elif cond == 3 :
 					if st.getQuestItemsCount(ORIHARUKON) >= 10 and st.getQuestItemsCount(ARTISANS_FRAME) >= 10 :
 						htmltext = "30847-4.htm"

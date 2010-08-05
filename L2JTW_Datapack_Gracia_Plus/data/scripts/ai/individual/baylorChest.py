@@ -6,6 +6,7 @@ from com.l2jserver.gameserver.model.quest import QuestState
 from com.l2jserver.gameserver.model.quest.jython import QuestJython as JQuest
 from com.l2jserver.util import Rnd
 
+# ¤Úº¸°ÇªºÄ_½c
 BOX = 29116
 
 def dropItem(npc,itemId,count):

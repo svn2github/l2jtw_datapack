@@ -431,7 +431,7 @@ public class IceFairySirra extends L2AttackableAIScript
 			int respawn_delay = Rnd.get(respawnMinDelay,respawnMaxDelay);
 			saveGlobalQuestVar("Sirra_Respawn", String.valueOf(System.currentTimeMillis()+respawn_delay));
 			startQuestTimer("respawn", respawn_delay, null, null);
-			screenMessage(killer,"Steward: Thank you for restoring the Queen's appearance!",10000);
+			screenMessage(killer,"芙蕾雅的執事：謝謝讓女王恢復原貌！",10000);
 		}
 		return super.onKill(npc,killer,isPet);
 	}

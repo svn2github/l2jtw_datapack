@@ -76,7 +76,7 @@ class Quest (JQuest) :
 		elif event == "30332-3a.htm" :
 			if st.getQuestItemsCount(BLACK_BONE_NECKLACE) == 100 and st.getQuestItemsCount(RED_BONE_NECKLACE) == 100 :
 				st.takeItems(BLACK_BONE_NECKLACE,100)
-				st.takeItems(RED_BONE_NECKLACE,100)       
+				st.takeItems(RED_BONE_NECKLACE,100)
 				st.set("cond","4")
 				st.playSound("ItemSound.quest_accept")
 			else :
@@ -84,7 +84,7 @@ class Quest (JQuest) :
 		elif event == "30332-5.htm" :
 			if st.getQuestItemsCount(INCENSE_POUCH) == 30 and st.getQuestItemsCount(GEM_OF_MAILLE) == 30 :
 				st.takeItems(INCENSE_POUCH,30)
-				st.takeItems(GEM_OF_MAILLE,30)  
+				st.takeItems(GEM_OF_MAILLE,30)
 				st.giveItems(GREEN_COLORED_LURE_HG,60)
 				st.giveItems(BABY_DUCK_RODE,1)
 				st.giveItems(FISHING_SHOT_NG,500)
