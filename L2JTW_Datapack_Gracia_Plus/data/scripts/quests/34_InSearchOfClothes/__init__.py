@@ -47,7 +47,7 @@ class Quest (JQuest) :
 				st.playSound("ItemSound.quest_accept")
 			else :
 				htmltext = "30165-1a.htm"
-		elif event == "30088-5.htm" and cond == 6 :
+		elif event == "30088-5.htm" :
 			if st.getQuestItemsCount(SUEDE) >= 3000 and st.getQuestItemsCount(THREAD) >= 5000 and st.getQuestItemsCount(SPIDERSILK) == 1 :
 				st.takeItems(SUEDE,3000)
 				st.takeItems(THREAD,5000)
@@ -117,7 +117,7 @@ class Quest (JQuest) :
 		if st.getState() != State.STARTED : return
 
 		count = st.getQuestItemsCount(SPINNERET)
-		if count < 10 :
+		if count <= 10 :
 			st.giveItems(SPINNERET,1)
 			if count == 9 :
 				st.playSound("ItemSound.quest_middle")

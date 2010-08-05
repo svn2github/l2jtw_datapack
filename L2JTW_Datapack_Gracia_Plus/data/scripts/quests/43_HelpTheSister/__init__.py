@@ -42,7 +42,7 @@ class Quest (JQuest) :
 			st.takeItems(CRAFTED_DAGGER,1)
 			st.set("cond","2")
 			st.playSound("ItemSound.quest_accept")
-		elif event == "4" and st.getQuestItemsCount(MAP_PIECE)>=MAX_COUNT:
+		elif event == "4" and st.getQuestItemsCount(MAP_PIECE) >= MAX_COUNT:
 			htmltext = "30829-05.htm"
 			st.takeItems(MAP_PIECE,MAX_COUNT)
 			st.giveItems(MAP,1)
@@ -97,6 +97,8 @@ class Quest (JQuest) :
 			elif npcId == GALLADUCCI :
 				if cond == 4 and st.getQuestItemsCount(MAP):
 					htmltext = "30097-05.htm"
+				elif cond == 5:
+					htmltext = "30097-06a.htm"
 		return htmltext
 
 	def onKill(self,npc,player,isPet):
@@ -106,19 +108,19 @@ class Quest (JQuest) :
 
 		npcId = npc.getNpcId()
 		cond = st.getInt("cond")
-		if cond == 2:
+		if cond == 2 :
 			numItems,chance = divmod(100*Config.RATE_QUEST_DROP,100)
 			if st.getRandom(100) < chance :
 				numItems = numItems +1  
-			pieces=st.getQuestItemsCount(MAP_PIECE)
+			pieces = st.getQuestItemsCount(MAP_PIECE)
 			if pieces + numItems >= MAX_COUNT :
 				numItems = MAX_COUNT - pieces
-				if numItems != 0:
-					st.playSound("ItemSound.quest_middle")
+				if numItems != 0 :
 					st.set("cond","3")
-				else :
-					st.playSound("ItemSound.quest_itemget")
-				st.giveItems(MAP_PIECE,int(numItems))
+					st.playSound("ItemSound.quest_middle")
+			else :
+				st.playSound("ItemSound.quest_itemget")
+			st.giveItems(MAP_PIECE,int(numItems))
 		return
 
 QUEST		= Quest(43,qn,"À°À°©f©f§a!")

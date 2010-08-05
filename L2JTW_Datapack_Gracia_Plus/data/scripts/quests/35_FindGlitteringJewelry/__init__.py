@@ -75,7 +75,7 @@ class Quest (JQuest) :
 					st.exitQuest(1)
 		elif id == State.STARTED :
 			if npcId == 30091 :
-				if cond [1,2,3] :
+				if cond in [1,2,3] :
 					if st.getQuestItemsCount(ROUGH_JEWEL) == 10 :
 						htmltext = "30091-2.htm"
 					else :
@@ -108,7 +108,7 @@ class Quest (JQuest) :
 		if st.getState() != State.STARTED : return
 
 		count = st.getQuestItemsCount(ROUGH_JEWEL)
-		if count < 10 :
+		if count <= 10 :
 			st.giveItems(ROUGH_JEWEL,1)
 			if count == 9 :
 				st.playSound("ItemSound.quest_middle")

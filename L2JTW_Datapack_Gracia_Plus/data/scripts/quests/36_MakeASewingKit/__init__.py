@@ -31,6 +31,7 @@ class Quest (JQuest) :
 		elif event == "30847-3.htm" :
 			st.takeItems(REINFORCED_STEEL,5)
 			st.set("cond","3")
+			st.playSound("ItemSound.quest_accept")
 		elif event == "30847-4a.htm" :
 			st.takeItems(ORIHARUKON,10)
 			st.takeItems(ARTISANS_FRAME,10)
@@ -69,15 +70,11 @@ class Quest (JQuest) :
 			if npcId == 30847 :
 				if cond == 1 :
 					htmltext = "30847-1a.htm"
+				elif cond == 2 :
+					htmltext = "30847-2.htm"
 				elif cond == 3 :
 					if st.getQuestItemsCount(ORIHARUKON) >= 10 and st.getQuestItemsCount(ARTISANS_FRAME) >= 10 :
 						htmltext = "30847-4.htm"
-						st.takeItems(ORIHARUKON,10)
-						st.takeItems(ARTISANS_FRAME,10)
-						st.giveItems(SEWING_KIT,1)
-						st.playSound("ItemSound.quest_finish")
-						st.unset("cond")
-						st.exitQuest(False)
 					else :
 						htmltext = "30847-3a.htm"
 		return htmltext
@@ -88,7 +85,7 @@ class Quest (JQuest) :
 		st = partyMember.getQuestState(qn)
    
 		count = st.getQuestItemsCount(REINFORCED_STEEL)
-		if count < 5 :
+		if count <= 5 :
 			st.giveItems(REINFORCED_STEEL,1)
 			if count == 4 :
 				st.playSound("ItemSound.quest_middle")

@@ -118,9 +118,9 @@ class Quest (JQuest) :
 				if numItems != 0 :
 					st.set("cond","3")
 					st.playSound("ItemSound.quest_middle")
-				else :
-					st.playSound("ItemSound.quest_itemget")
-				st.giveItems(GEMSTONE_FRAGMENT,int(numItems))
+			else :
+				st.playSound("ItemSound.quest_itemget")
+			st.giveItems(GEMSTONE_FRAGMENT,int(numItems))
 		return
 
 QUEST		= Quest(44,qn,"À°À°¨à¤l§a!")
