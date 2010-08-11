@@ -412,6 +412,7 @@ $MYG < ../sql/games.sql &> /dev/null
 $MYG < ../sql/global_tasks.sql &> /dev/null
 $MYG < ../sql/grandboss_data.sql &> /dev/null
 $MYG < ../sql/grandboss_list.sql &> /dev/null
+$MYG < ../sql/hellbound.sql &> /dev/null
 $MYG < ../sql/helper_buff_list.sql &> /dev/null
 $MYG < ../sql/henna.sql &> /dev/null
 $MYG < ../sql/henna_trees.sql &> /dev/null

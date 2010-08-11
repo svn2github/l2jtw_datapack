@@ -1,9 +1,13 @@
 # author: Psycho(killer1888) / L2jFree
 # By: evill33t & vital
 # Update by pmq 10-07-2010
-
+import sys
+from java.lang                                       import System
 from com.l2jserver.gameserver.ai                     import CtrlIntention
+from com.l2jserver.gameserver.datatables             import DoorTable
 from com.l2jserver.gameserver.datatables             import ItemTable
+from com.l2jserver.gameserver.datatables             import SpawnTable
+from com.l2jserver.gameserver.instancemanager        import HellboundManager
 from com.l2jserver.gameserver.instancemanager        import InstanceManager
 from com.l2jserver.gameserver.model                  import L2ItemInstance
 from com.l2jserver.gameserver.model.actor            import L2Summon
@@ -13,6 +17,7 @@ from com.l2jserver.gameserver.model.quest            import State
 from com.l2jserver.gameserver.model.quest            import QuestState
 from com.l2jserver.gameserver.model.quest.jython     import QuestJython as JQuest
 from com.l2jserver.gameserver.network                import SystemMessageId
+from com.l2jserver.gameserver.network.serverpackets  import CreatureSay
 from com.l2jserver.gameserver.network.serverpackets  import InventoryUpdate
 from com.l2jserver.gameserver.network.serverpackets  import MagicSkillUse
 from com.l2jserver.gameserver.network.serverpackets  import NpcSay
@@ -23,17 +28,18 @@ from com.l2jserver.util                              import Rnd
 qn = "HBTown"
 
 debug = False
+
 # NPCs
 KANAF          = 32346  # 卡納夫
 PRISONER       = 32358  # 原住民俘虜
 STELE          = 32343  # 月光石碑
-# CHARMED_NATIVE = 22323  # 被眩惑的原住民
 
 # Mobs
 AMASKARI       = 22449  # 亞邁士康里 拷問專家
 KEYMASTER      = 22361  # 鋼鐵之城 鑰匙守衛
 GUARD          = 22359  # 市區警衛兵
 NATIVE         = 22450  # 被拷問的原住民
+LIST = [22359, 22360]   # 市區警衛兵 / 市區巡邏兵
 
 # Items
 KEY            = 9714   # 惡魔刻紋鑰匙
@@ -159,13 +165,32 @@ def exitInstance(player, tele):
 		pet.teleToLocation(tele.x, tele.y, tele.z)
 
 class Quest(JQuest) :
-	def __init__(self, id, name, desc) :
-		JQuest.__init__(self, id, name, desc)
+
+	def __init__(self, id, name, descr):
+		JQuest.__init__(self, id, name, descr)
 		self.worlds = {}
 		self.world_ids = []
+		self.Slaves = {}
+		self.currentWorld = 0
+		self.Lock = 0
+		self.NATIVELock = 0
+		self.hellboundLevel = 0
+		self.trustp = 0
+		try:
+			self.trustp = int(self.loadGlobalQuestVar("trust10p"))
+		except:
+			pass
+		self.saveGlobalQuestVar("trust10p", str(self.trustp))
+		if HellboundManager.getInstance().getLevel() == 10: self.startQuestTimer("CheckTrustP", 60000, None, None, True)
 
 	def onAdvEvent (self, event, npc, player) :
-		if event == "keySpawn1" or event == "keySpawn2":
+		if event == "CheckTrustP":
+			if self.trustp >= 500000:
+				HellboundManager.getInstance().changeLevel(11)
+				self.trustp = 0
+				self.saveGlobalQuestVar("trust10p", str(self.trustp))
+				self.cancelQuestTimers("CheckTrustP")
+		elif event == "keySpawn1" or event == "keySpawn2":
 			self.startQuestTimer("keySpawn2", 300000, None, None)
 			loc = LOCS[Rnd.get(len(LOCS))]
 			self.keymaster.teleToLocation(loc[0],loc[1],loc[2])
@@ -173,7 +198,7 @@ class Quest(JQuest) :
 				self.startQuestTimer("keySpawn2", 300000, None, None)
 			else:
 				self.startQuestTimer("keySpawn1", 300000, None, None)
-		if event == "decayNpc":
+		elif event == "decayNpc":
 			npc.decayMe()
 		elif event == "NATIVESay":
 			world = self.worlds[npc.getInstanceId()]
@@ -186,11 +211,16 @@ class Quest(JQuest) :
 			npc.broadcastPacket(NpcSay(sayNpc, 0, npc.getNpcId(), "多謝幫助！看守者馬上就要來了快躲起來..."))
 			self.startQuestTimer("decayNpc", 15000, npc, None)
 			chance = Rnd.get(100)
-			if chance <= 20:
+			if chance <= 30:
 				if not world.guardsSpawned:
 					callGuards(self,npc,player,world)
 					world.guardsSpawned = True
 					npc.broadcastPacket(NpcSay(22359, 0, 22359, "發.現.入.侵.者...！"))
+					hellboundLevel = HellboundManager.getInstance().getLevel()
+					if hellboundLevel == 10:
+						HellboundManager.getInstance().increaseTrust(50)
+						self.trustp += 50
+						self.saveGlobalQuestVar("trust10p", str(self.trustp))
 		elif event == "key":
 			world = self.worlds[npc.getInstanceId()]
 			if not world.instanceFinished:
@@ -200,7 +230,7 @@ class Quest(JQuest) :
 					player.destroyItemByItemId("Moonlight Stone", KEY, 1, player, True);
 					instance = InstanceManager.getInstance().getInstance(npc.getInstanceId())
 					if instance != None:
-						instance.setDuration(300000)
+						instance.setDuration(30000)
 						instance.setReturnTeleport(ReturnPort[dataIndex][0],ReturnPort[dataIndex][1],ReturnPort[dataIndex][2])
 				else :
 					return "32343-2.htm"
@@ -208,11 +238,30 @@ class Quest(JQuest) :
 				return "32343-1.htm"
 		return
 
+	def onSpawn(self, npc):
+		npcId = npc.getNpcId()
+		objId = npc.getObjectId()
+		if npcId == AMASKARI:
+			self.Prisonslaves = []
+			self.Slaves[objId] = []
+			self.Slaves[objId].append("noSlaves")
+			xx, yy, zz = npc.getX(), npc.getY(), npc.getZ()
+			self.Slaves[objId] = []
+			for i in range(9):
+				offsetX = xx + (50 - Rnd.get(250))
+				offsetY = yy + (50 - Rnd.get(250))
+				newSlave = self.addSpawn(22450, offsetX, offsetY, zz, 0, False, 0, False, npc.getInstanceId())
+				newSlave.setRunning()
+				newSlave.getAI().setIntention(CtrlIntention.AI_INTENTION_FOLLOW, npc)
+				self.Slaves[objId].append(newSlave)
+
 	def onTalk (self, npc, player) :
 		npcId = npc.getNpcId()
 		st = player.getQuestState(qn)
 		if not st :
 			st = self.newQuestState(player)
+		hellboundLevel = HellboundManager.getInstance().getLevel()
+		if hellboundLevel < 10: return "<html><body>你是誰？...<br>快滾開，我不想和你說話！</body></html>"
 		if npcId == 32346 :
 			party = player.getParty()
 			if not party:
@@ -243,31 +292,75 @@ class Quest(JQuest) :
 
 	def onAttack(self, npc, player, damage, isPet, skill):
 		st = player.getQuestState(qn)
+		npcId = npc.getNpcId()
+		objId = npc.getObjectId()
+		maxHp = npc.getMaxHp()
+		nowHp = npc.getStatus().getCurrentHp()
+		if npcId == AMASKARI:
+			if (nowHp < maxHp * 0.1):
+				if self.Lock == 0:
+					npc.broadcastPacket(CreatureSay(objId, 0, npc.getName(), "我將讓大家和我一樣的痛苦！"))
+					self.Lock = 1
+		elif npcId == KEYMASTER :
+			if not self.keymasterattacked:
+				self.keymasterattacked = True
+				self.amaskari.teleToLocation(player.getX(),player.getY(),player.getZ())
+				self.amaskari.setTarget(player)
+				objId = self.amaskari.getObjectId()
+				self.amaskari.broadcastPacket(NpcSay(objId, 0, self.amaskari.getNpcId(), AMASKARI_TEXT[Rnd.get(len(AMASKARI_TEXT))]))
+				self.startQuestTimer("NATIVESay", 5000, npc, None)
+		elif npcId == NATIVE :
+			if self.NATIVELock == 0:
+				npc.broadcastPacket(CreatureSay(objId, 0, npc.getName(), "嘿...好痛...好痛...啊！"))
+				self.NATIVELock = 1
 		if self.worlds.has_key(npc.getInstanceId()):
 			world = self.worlds[npc.getInstanceId()]
-			npcId = npc.getNpcId()
-			if npcId == KEYMASTER :
-				if not self.keymasterattacked:
-					self.keymasterattacked = True
-					self.amaskari.teleToLocation(player.getX(),player.getY(),player.getZ())
-					self.amaskari.setTarget(player)
-					objId = self.amaskari.getObjectId()
-					self.amaskari.broadcastPacket(NpcSay(objId, 0, self.amaskari.getNpcId(), AMASKARI_TEXT[Rnd.get(len(AMASKARI_TEXT))]))
-					self.startQuestTimer("NATIVESay", 5000, npc, None)
 		return
 
 	def onKill(self, npc, player, isPet):
+		npcId = npc.getNpcId()
+		objId = npc.getObjectId()
+		if npcId == KEYMASTER:
+			HellboundManager.getInstance().increaseTrust(250)
+			self.trustp += 250
+			self.saveGlobalQuestVar("trust10p", str(self.trustp))
+			chance = Rnd.get(100)
+			if chance <= 75:
+				npc.broadcastPacket(NpcSay(objId, 0, npc.getNpcId(), "我的天呀！我.的..鑰...匙......."))
+				dropItem(player,npc,9714,1)
+			else:
+				npc.broadcastPacket(NpcSay(objId, 0, npc.getNpcId(), "你永遠都不能得到我的..鑰匙！"))
+		elif npcId == AMASKARI:
+			if HellboundManager.getInstance().getLevel() <= 11:
+				HellboundManager.getInstance().increaseTrust(500)
+				self.trustp += 500
+				self.saveGlobalQuestVar("trust10p", str(self.trustp))
+			try:
+				if self.Slaves[objId][0] != "noSlaves":
+					for i in self.Slaves[objId]:
+						try:
+							i.setIsInvul(1)
+							i.broadcastPacket(CreatureSay(i.getObjectId(), 0, i.getName(), "謝謝你救我！"))
+							i.decayMe()
+						except:
+							pass
+					self.Slaves[objId] = []
+			except:
+				pass
+		elif npcId == NATIVE:
+			HellboundManager.getInstance().increaseTrust(-10)
+			self.trustp -= 10
+			self.saveGlobalQuestVar("trust10p", str(self.trustp))
+		elif npcId == PRISONER:
+			HellboundManager.getInstance().increaseTrust(-10)
+			self.trustp -= 10
+			self.saveGlobalQuestVar("trust10p", str(self.trustp))
+		elif npcId in LIST:
+			HellboundManager.getInstance().increaseTrust(20)
+			self.trustp += 20
+			self.saveGlobalQuestVar("trust10p", str(self.trustp))
 		if self.worlds.has_key(npc.getInstanceId()):
 			world = self.worlds[npc.getInstanceId()]
-			npcId = npc.getNpcId()
-			objId = npc.getObjectId()
-			if npcId == KEYMASTER:
-				chance = Rnd.get(100)
-				if chance <= 75:
-					npc.broadcastPacket(NpcSay(objId, 0, npc.getNpcId(), "我的天呀！我.的..鑰...匙......."))
-					dropItem(player,npc,9714,1)
-				else:
-					npc.broadcastPacket(NpcSay(objId, 0, npc.getNpcId(), "你永遠都不能得到我的..鑰匙！"))
 		return
 
 QUEST = Quest(-1, qn, "hellbound")
@@ -281,7 +374,7 @@ QUEST.addTalkId(32346)
 QUEST.addTalkId(32343)
 QUEST.addTalkId(32358)
 
-for mob in [22361,22449] :
+for mob in [22361,22449,22450] :
 	QUEST.addAttackId(mob)
 
 for mob in [22359,22360,22361,22449,22450] :

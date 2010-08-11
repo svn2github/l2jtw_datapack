@@ -739,6 +739,7 @@ games.sql
 global_tasks.sql
 grandboss_data.sql
 grandboss_list.sql
+hellbound.sql
 helper_buff_list.sql
 henna.sql
 henna_trees.sql

@@ -1,7 +1,9 @@
 # author Korvin
 import sys
-from com.l2jserver.gameserver.model.quest.jython	import QuestJython as JQuest
-from com.l2jserver.gameserver.model.actor.instance	import L2PcInstance
+from com.l2jserver.gameserver.model.quest.jython   import QuestJython as JQuest
+from com.l2jserver.gameserver.model.actor.instance import L2PcInstance
+
+# ©`¶®¤§¶ð
 
 qn = "Naia"
 

@@ -1,7 +1,6 @@
 # author Korvin
 import sys
 from com.l2jserver.gameserver.model.actor.instance   import L2PcInstance
-from com.l2jserver.util                              import Rnd
 from com.l2jserver.gameserver.model.quest            import State
 from com.l2jserver.gameserver.model.quest            import QuestState
 from com.l2jserver.gameserver.model.quest.jython     import QuestJython as JQuest
@@ -9,6 +8,8 @@ from com.l2jserver.gameserver.instancemanager        import InstanceManager
 from com.l2jserver.gameserver.model.entity           import Instance
 from com.l2jserver.gameserver.network                import SystemMessageId
 from com.l2jserver.gameserver.network.serverpackets  import SystemMessage
+from com.l2jserver.util                              import Rnd
+
 
 qn = "Infinitum"
 
@@ -108,18 +109,6 @@ def enterInstance(self, player, template, teleto) :
   for partyMember in party.getPartyMembers().toArray() :
     if partyMember.getInstanceId() != 0 :
       instanceId = partyMember.getInstanceId()
-  # Existing instance
-  if instanceId != 0 :
-    foundWorld = False
-    for worldid in self.world_ids :
-      if worldid == instanceId :
-        foundWorld = True
-    if not foundWorld :
-      player.sendPacket(SystemMessage.sendString("你的隊員已進入其它的即時地區。"))
-      return
-    teleto.instanceId = instanceId
-    teleportPlayer(self, player, teleto)
-    return instanceId
   # New instance
   else :
     instanceId = InstanceManager.getInstance().createDynamicInstance(template)
@@ -188,6 +177,15 @@ class Quest (JQuest):
   def onTalk (self,npc,player):
     npcId = npc.getNpcId()
     if npcId == 32302 :
+      if not player.getFirstEffect(2357):
+        return "<html><body>塞良：<br>將惡魔溫熱的血液噴灑在全身....！</body></html>"
+#        if content:
+#            content = content.replace("%objectId%", str(player.getTarget().getObjectId()))
+#            npcReply = NpcHtmlMessage(5)
+#            npcReply.setHtml(content)
+#            npcReply.replace("%playername%", player.getName())
+#            player.sendPacket(npcReply);
+#        return
       tele = PyObject()
       tele.x = -19645
       tele.y = 277528
