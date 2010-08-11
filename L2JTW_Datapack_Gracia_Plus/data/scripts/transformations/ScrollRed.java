@@ -16,7 +16,7 @@ import com.l2jserver.gameserver.model.L2Transformation;
  */
 public class ScrollRed extends L2Transformation
 {
-	private static final int[] SKILLS = {5853,5491,619};
+	private static final int[] SKILLS = {5853,5491};  // Add HBCE by pmq
 	public ScrollRed()
 	{
 		// id, colRadius, colHeight
@@ -39,7 +39,7 @@ public class ScrollRed extends L2Transformation
 		// Decrease Bow/Crossbow Attack Speed
 		getPlayer().addSkill(SkillTable.getInstance().getInfo(5491, 1), false);
 		// Transform Dispel
-		getPlayer().addSkill(SkillTable.getInstance().getInfo(619, 1), false);
+		//getPlayer().addSkill(SkillTable.getInstance().getInfo(619, 1), false);  // Add HBCE by pmq
 
 		getPlayer().setTransformAllowedSkills(SKILLS);
 	}
@@ -57,7 +57,7 @@ public class ScrollRed extends L2Transformation
 		// Decrease Bow/Crossbow Attack Speed
 		getPlayer().removeSkill(SkillTable.getInstance().getInfo(5491, 1), false);
 		// Transform Dispel
-		getPlayer().removeSkill(SkillTable.getInstance().getInfo(619, 1), false);
+		//getPlayer().removeSkill(SkillTable.getInstance().getInfo(619, 1), false);  // Add HBCE by pmq
 
 		getPlayer().setTransformAllowedSkills(EMPTY_ARRAY);
 	}

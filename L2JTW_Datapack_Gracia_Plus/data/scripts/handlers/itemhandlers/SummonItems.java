@@ -72,6 +72,9 @@ public class SummonItems implements IItemHandler
 			activeChar.sendPacket(new SystemMessage(SystemMessageId.CANT_MOVE_SITTING));
 			return;
 		}
+		
+		if (activeChar.getBlockCheckerArena() != -1)  // Add HBCE by pmq
+			return;                                   // Add HBCE by pmq
 
 		if (activeChar.inObserverMode())
 			return;

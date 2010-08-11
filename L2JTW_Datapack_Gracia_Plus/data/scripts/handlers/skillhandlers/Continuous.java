@@ -101,8 +101,17 @@ public class Continuous implements ISkillHandler
 			{
 				if (target != activeChar)
 				{
-					if (target instanceof L2PcInstance && ((L2PcInstance) target).isCursedWeaponEquipped())
-						continue;
+					// Add HBCE by pmq Start
+					if (target instanceof L2PcInstance)
+					{
+						L2PcInstance trg = (L2PcInstance)target;
+						if (trg.isCursedWeaponEquipped())
+							continue;
+						// Avoiding block checker players get buffed from outside
+						else if (trg.getBlockCheckerArena() != -1)
+							continue;
+					}
+					// Add HBCE by pmq End
 					else if (player != null && player.isCursedWeaponEquipped())
 						continue;
 				}

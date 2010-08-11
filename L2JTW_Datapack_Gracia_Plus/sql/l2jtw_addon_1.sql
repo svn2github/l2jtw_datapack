@@ -1019,3 +1019,9 @@ REPLACE INTO `droplist` VALUES (32342,9693,1,1,-1,700000);  -- 水晶碎片
 
 -- 刪除地獄NPC轉為AI出現
 DELETE FROM `spawnlist` WHERE `npc_templateid` IN (32297,32354,32345,18463,18464,32355,32364,22341,22448);
+-- HBCE
+REPLACE INTO `etcitem` VALUES (13787,'Bond','','false','potion',180,'stackable','paper','none',-1,-1,0,0,'true','true','true','true','true','ItemSkills','5849-1;');
+REPLACE INTO `etcitem` VALUES (13788,'Land Mine','','false','potion',180,'stackable','paper','none',-1,-1,0,0,'true','true','true','true','true','ItemSkills','5851-1;');
+UPDATE `npc` SET `type`='L2Block' where id='18672';      -- 方塊
+UPDATE `npc` SET `type`='L2Block' where id='18676';      -- 方塊
+
