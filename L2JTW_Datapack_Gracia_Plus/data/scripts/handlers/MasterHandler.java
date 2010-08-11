@@ -135,6 +135,7 @@ public class MasterHandler
 		AdminCommandHandler.getInstance().registerAdminCommandHandler(new AdminTvTEvent());
 		AdminCommandHandler.getInstance().registerAdminCommandHandler(new AdminUnblockIp());
 		AdminCommandHandler.getInstance().registerAdminCommandHandler(new AdminVitality());
+		AdminCommandHandler.getInstance().registerAdminCommandHandler(new AdminVitaminItem());  // Add PI by pmq
 		AdminCommandHandler.getInstance().registerAdminCommandHandler(new AdminZone());
 		_log.config("Loaded " + AdminCommandHandler.getInstance().size() + " AdminCommandHandlers");
 	}
@@ -159,6 +160,7 @@ public class MasterHandler
 		BypassHandler.getInstance().registerBypassHandler(new QuestLink());
 		BypassHandler.getInstance().registerBypassHandler(new PrivateWarehouse());
 		BypassHandler.getInstance().registerBypassHandler(new QuestList());
+		BypassHandler.getInstance().registerBypassHandler(new ReceivePremium());  // Add PI by pmq
 		BypassHandler.getInstance().registerBypassHandler(new ReleaseAttribute());
 		BypassHandler.getInstance().registerBypassHandler(new RemoveDeathPenalty());
 		BypassHandler.getInstance().registerBypassHandler(new RemoveHennaList());

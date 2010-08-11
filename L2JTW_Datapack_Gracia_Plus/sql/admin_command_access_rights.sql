@@ -564,6 +564,10 @@ INSERT IGNORE INTO `admin_command_access_rights` VALUES
 ('admin_empty_vitality','1'),
 ('admin_get_vitality','1'),
 
+-- VITAMIN ITEM
+('admin_vitaminitem','1'),
+('admin_sendVitem','1'),
+
 -- ZONE
 ('admin_zone_check','1'),
 ('admin_zone_reload','1'),

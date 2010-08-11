@@ -694,6 +694,7 @@ character_friends.sql
 character_hennas.sql
 character_instance_time.sql
 character_macroses.sql
+character_premium_items.sql
 character_quest_global_data.sql
 character_offline_trade_items.sql
 character_offline_trade.sql
