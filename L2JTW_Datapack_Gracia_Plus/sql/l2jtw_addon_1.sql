@@ -1111,3 +1111,56 @@ REPLACE INTO `npcAIData` VALUES
 (29162,50,NULL,NULL,NULL,NULL,NULL,NULL,0,0,0,0,NULL,'Tiat',900,NULL,NULL,NULL,'balanced'),
 (29163,50,NULL,NULL,NULL,NULL,NULL,NULL,0,0,0,0,NULL,'Tiat',900,NULL,NULL,NULL,'balanced'),
 (29175,50,NULL,NULL,NULL,NULL,NULL,NULL,0,0,0,0,NULL,'Tiat',900,NULL,NULL,NULL,'balanced');
+
+-- clan hall sieges
+REPLACE INTO `clanhall` VALUES
+('21','Fortress of Resistance','0','0','Ol Mahum Fortress of Resistance','Partisan','0','3','0'),
+('34','Devastated Castle','0','0','Contestable Clan Hall','Devastated','0','3','0'),
+('35','Bandit Stronghold','0','0','Contestable Clan Hall','Bandit','0','3','0'),
+('62','Rainbow Springs','0','0','','HotSpring','0','3','0'),
+('63','Beast Farm','0','0','','BeastFarm','0','3','0'),
+('64','Fortress of the Dead','0','0','','DeadForest','0','3','0');
+-- clan hall sieges
+REPLACE INTO `admin_command_access_rights` VALUES
+-- clan hall sieges
+('admin_startfortresist','1'),
+('admin_endfortresist','1'),
+('admin_startdevastated','1'),
+('admin_enddevastated','1'),
+('admin_startbandit','1'),
+('admin_endbandit','1'),
+('admin_startwildbeastfarm','1'),
+('admin_endwildbeastfarm','1'),
+('admin_startfortress','1'),
+('admin_endfortress','1');
+-- clan hall sieges
+REPLACE INTO `npc` VALUES 
+(35368,35368,'Bloody Lord Nurka',0,'',0,'LineageMonster.oel_mahum',20.00,37.00,55,'male','L2SiegeBoss',40,1264000,987,63.20,2.45,40,43,30,21,20,10,1512,1,670,322,360,261,282,0,333,72,0,0,0,77,121,0,0,'LAST_HIT','false'),
+(35375,35375,'Bloody Lord Nurka',0,'',0,'LineageMonster.oel_mahum',20.00,37.00,55,'male','L2SiegeBoss',40,1264000,987,94.80,2.45,40,43,30,21,20,10,1512,1,670,322,360,261,282,0,333,72,0,0,0,77,121,0,0,'LAST_HIT','false'),
+(35382,35382,'Brakel',0,'Partisan Herald',0,'LineageMonster.ol_mahum_champion',14.00,27.00,70,'male','L2ClanHallSiege',40,3862,1494,0.00,0.00,40,43,30,21,20,20,0,0,1303,471,607,382,253,0,333,0,0,0,0,50,1,0,0,'LAST_HIT','false'),
+(35410,35410,'Gustav',0,'',0,'LineageMonster.headless_knight',21.00,31.00,70,'male','L2SiegeBoss',40,8092000,2987,17.85,2.78,60,57,73,76,70,80,490,0,3987,469,1732,381,333,0,3819,0,0,0,0,113,291,1,0,'LAST_HIT','false'),
+(35420,35420,'Loken',0,'Messenger',0,'LineageMonster.human_ghost',8.00,22.00,70,'male','L2ClanHallSiege',40,3862,1494,0.00,0.00,40,43,30,21,20,20,0,0,1303,471,607,382,253,0,333,74,0,0,0,60,120,1,0,'LAST_HIT','false'),
+(35437,35437,'Messenger',0,'',0,'LineageMonster.oel_mahum',20.00,37.00,70,'male','L2ClanHallSiege',40,3862,1494,0.00,0.00,40,43,30,21,20,20,0,0,1303,471,607,382,253,0,333,0,0,0,0,77,132,0,0,'LAST_HIT','false'),
+(35604,35604,'Messenger',0,'',0,'LineageNPC.yeti_cute',5.00,10.50,70,'male','L2ClanHallSiege',40,3862,1494,0.00,0.00,40,43,30,21,20,20,0,0,1303,471,607,382,253,0,333,0,0,0,0,88,132,0,0,'LAST_HIT','false'),
+(35627,35627,'Messenger',0,'',0,'LineageMonster.kel_mahum_champion',13.00,32.00,70,'male','L2ClanHallSiege',40,3862,1494,0.00,0.00,40,43,30,21,20,20,0,0,1303,471,607,382,253,0,333,0,0,0,0,88,132,0,0,'LAST_HIT','false'),
+(35639,35639,'Jacquard',0,'Messenger',0,'LineageMonster2.vampire_soldier',8.00,23.50,70,'male','L2ClanHallSiege',40,3862,1494,0.00,0.00,40,43,30,21,20,20,0,0,1303,471,607,382,253,0,333,0,0,0,0,88,132,0,0,'LAST_HIT','false');
+-- clan hall sieges
+REPLACE INTO `zone_vertices` VALUES
+-- Fortress of Resistance
+(111000,0,41463,106067),
+(111000,1,49241,114650),
+-- Devastated Castle
+(111004,0,175102,-20791),
+(111004,1,183243,-13675),
+-- Bandit Stronghold
+(111005,0,73630,-2280),
+(111005,1,89056,-13342),
+-- Rainbow Springs
+(111001,0,136507,-126708),
+(111001,1,143822,-121419),
+-- Beast Farm
+(111002,0,51776,-101600),
+(111002,1,65519,-91320),
+-- Fortress of the Dead
+(111003,0,51472,-31543),
+(111003,1,62249,-18324);

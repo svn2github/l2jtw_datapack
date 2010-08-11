@@ -3124,6 +3124,26 @@
 	<!-- Dimensional Rift (Peace Zone) -->
 	<zone id="50500" type="PeaceZone" shape="NPoly" minZ="-6964" maxZ="-6064" /> <!-- [16_12] space_of_dimension_peace1 -->
 
+	<!-- Clan halls Sieges zones -->
+	<zone id='111000' type='ClanHallSiegeZone' shape='Cuboid' minZ='-2312' maxZ='-204'><!-- Add CCH by pmq -->
+		<stat name='name' val='Fortress of Resistance'/>
+	</zone>
+	<zone id='111001' type='ClanHallSiegeZone' shape='Cuboid' minZ='-3577' maxZ='1302'><!-- Add CCH by pmq -->
+		<stat name='name' val='Devastated Castle'/>
+	</zone>
+	<zone id='111002' type='ClanHallSiegeZone' shape='Cuboid' minZ='-2589' maxZ='1147'><!-- Add CCH by pmq -->
+		<stat name='name' val='Bandit Stronghold'/>
+	</zone>
+	<zone id='111003' type='ClanHallSiegeZone' shape='Cuboid' minZ='-2100' maxZ='-1100'><!-- Add CCH by pmq -->
+		<stat name='name' val='Rainbow Springs'/>
+	</zone>
+	<zone id='111004' type='ClanHallSiegeZone' shape='Cuboid' minZ='-2178' maxZ='243'><!-- Add CCH by pmq -->
+		<stat name='name' val='Beast Farm'/>
+	</zone>
+	<zone id='111005' type='ClanHallSiegeZone' shape='Cuboid' minZ='-2637' maxZ='3871'><!-- Add CCH by pmq -->
+		<stat name='name' val='Fortress of the Dead'/>
+	</zone>
+
 	<!-- AirShips docks -->
 	<zone id="50600" type="ScriptZone" shape="Cylinder" minZ="-1000" maxZ="6200" rad="2900" /> <!-- Seed of Infinity -->
 	<zone id="50601" type="ScriptZone" shape="Cylinder" minZ="-1000" maxZ="6200" rad="4300" /> <!-- Seed of Destruction -->

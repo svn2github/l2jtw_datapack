@@ -718,6 +718,7 @@ clan_skills.sql
 clan_subpledges.sql
 clan_wars.sql
 clanhall.sql
+clanhall_siege.sql
 clanhall_functions.sql
 class_list.sql
 cursed_weapons.sql
