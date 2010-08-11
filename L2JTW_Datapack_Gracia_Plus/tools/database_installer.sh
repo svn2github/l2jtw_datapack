@@ -411,6 +411,7 @@ $MYG < ../sql/forums.sql &> /dev/null
 $MYG < ../sql/four_sepulchers_spawnlist.sql &> /dev/null
 $MYG < ../sql/games.sql &> /dev/null
 $MYG < ../sql/global_tasks.sql &> /dev/null
+$MYG < ../sql/gracia_seeds_data.sql &> /dev/null
 $MYG < ../sql/grandboss_data.sql &> /dev/null
 $MYG < ../sql/grandboss_list.sql &> /dev/null
 $MYG < ../sql/hellbound.sql &> /dev/null

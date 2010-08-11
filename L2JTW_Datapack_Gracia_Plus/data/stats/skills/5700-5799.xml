@@ -587,7 +587,26 @@
 		<set name="operateType" val="OP_PASSIVE" />
 	</skill>
 	<skill id="5780" levels="9" name="Agathion Collection">
-		<!-- Update by rocknow -->
+		<!-- Update by pmq -->
+		<set name="target" val="TARGET_ONE" />
+		<set name="skillType" val="DUMMY" />
+		<set name="magicLvl" val="83" />
+		<set name="operateType" val="OP_ACTIVE" />
+		<set name="hitTime" val="6000" />
+		<set name="staticHitTime" val="true" />
+		<set name="reuseDelay" val="10000" />
+		<set name="staticReuse" val="true" />
+		<set name="castRange" val="100" />
+		<set name="effectRange" val="600" />
+		<cond msgId="109">
+			<and>
+			<!-- temp solution as long as we cant ad more than one cond messages -->
+				<player agathionId="16061" />
+				<player flyMounted="False" />
+				<target npcId="18678, 18679, 18680, 18681, 18682, 18683" />
+			</and>
+		</cond>
+		<!-- Update by rocknow 
 		<set name="target" val="TARGET_SELF" />
 		<set name="hitTime" val="6000" />
 		<set name="skillType" val="DUMMY" />
@@ -595,7 +614,7 @@
 		<set name="staticHitTime" val="true" />
 		<cond msgId="2292">
 			<player agathionId="16061"/>
-		</cond>
+		</cond> -->
 	</skill>
 	<skill id="5781" levels="1" name="Presentation - Lindvior Approach">
 		<set name="target" val="TARGET_NONE" />

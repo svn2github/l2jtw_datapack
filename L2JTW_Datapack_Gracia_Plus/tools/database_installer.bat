@@ -738,6 +738,7 @@ forums.sql
 four_sepulchers_spawnlist.sql
 games.sql
 global_tasks.sql
+gracia_seeds_data.sql
 grandboss_data.sql
 grandboss_list.sql
 hellbound.sql

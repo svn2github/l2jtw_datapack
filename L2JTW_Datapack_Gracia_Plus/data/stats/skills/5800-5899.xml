@@ -156,112 +156,264 @@
 		<set name="hitTime" val="5330" />
 	</skill>
 	<skill id="5826" levels="3" name="Fire Breath">
-		<set name="target" val="TARGET_NONE" />
-		<set name="skillType" val="NOTDONE" />
-		<set name="operateType" val="OP_PASSIVE" />
+		<!-- Update by pmq -->
+		<set name="magicLvl" val="85" />
+		<set name="power" val="300" />
+		<set name="element" val="0" /> <!-- Fire -->
+		<set name="elementPower" val="20" />
+		<set name="target" val="TARGET_FRONT_AURA" />
+		<set name="skillRadius" val="600" />
+		<set name="overHit" val="true" />
+		<set name="coolTime" val="2000" />
 		<set name="hitTime" val="2500" />
+		<set name="skillType" val="MDAM" />
+		<set name="castRange" val="200" />
+		<set name="operateType" val="OP_ACTIVE" />
 	</skill>
 	<skill id="5827" levels="6" name="Fireball">
-		<set name="target" val="TARGET_NONE" />
-		<set name="skillType" val="NOTDONE" />
-		<set name="operateType" val="OP_PASSIVE" />
+		<!-- Update by pmq -->
+		<set name="magicLvl" val="85" />
+		<set name="power" val="450" />
+		<set name="element" val="0" /> <!-- Fire -->
+		<set name="elementPower" val="20" />
+		<set name="target" val="TARGET_ONE" />
+		<set name="overHit" val="true" />
+		<set name="coolTime" val="2000" />
 		<set name="hitTime" val="1500" />
+		<set name="skillType" val="MDAM" />
+		<set name="castRange" val="600" />
+		<set name="operateType" val="OP_ACTIVE" />
 	</skill>
 	<skill id="5828" levels="6" name="Unholy Flare">
-		<set name="target" val="TARGET_NONE" />
-		<set name="skillType" val="NOTDONE" />
-		<set name="operateType" val="OP_PASSIVE" />
+		<!-- Update by pmq -->
+		<set name="magicLvl" val="85" />
+		<set name="power" val="500" />
+		<set name="element" val="5" /> <!-- Dark -->
+		<set name="elementPower" val="20" />
+		<set name="target" val="TARGET_ONE" />
+		<set name="overHit" val="true" />
+		<set name="coolTime" val="2000" />
 		<set name="hitTime" val="1000" />
+		<set name="skillType" val="MDAM" />
+		<set name="castRange" val="600" />
+		<set name="operateType" val="OP_ACTIVE" />
 	</skill>
 	<skill id="5829" levels="6" name="Fire Flare">
-		<set name="target" val="TARGET_NONE" />
-		<set name="skillType" val="NOTDONE" />
-		<set name="operateType" val="OP_PASSIVE" />
+		<!-- Update by pmq -->
+		<set name="magicLvl" val="85" />
+		<set name="power" val="500" />
+		<set name="element" val="0" /> <!-- Fire -->
+		<set name="elementPower" val="50" />
+		<set name="target" val="TARGET_ONE" />
+		<set name="overHit" val="true" />
+		<set name="coolTime" val="2000" />
 		<set name="hitTime" val="1000" />
+		<set name="skillType" val="MDAM" />
+		<set name="castRange" val="600" />
+		<set name="operateType" val="OP_ACTIVE" />
 	</skill>
 	<skill id="5830" levels="1" name="Polearm Thrust">
-		<set name="target" val="TARGET_NONE" />
-		<set name="skillType" val="NOTDONE" />
-		<set name="operateType" val="OP_PASSIVE" />
+		<!-- Update by pmq -->
+		<set name="magicLvl" val="85" />
+		<set name="power" val="20000" />
+		<set name="target" val="TARGET_ONE" />
+		<set name="overHit" val="true" />
+		<set name="coolTime" val="2000" />
 		<set name="hitTime" val="1800" />
+		<set name="skillType" val="PDAM" />
+		<set name="castRange" val="150" />
+		<set name="operateType" val="OP_ACTIVE" />
 	</skill>
 	<skill id="5831" levels="1" name="Polearm Swing">
-		<set name="target" val="TARGET_NONE" />
-		<set name="skillType" val="NOTDONE" />
-		<set name="operateType" val="OP_PASSIVE" />
+		<!-- Update by pmq -->
+		<set name="magicLvl" val="85" />
+		<set name="power" val="15000" />
+		<set name="target" val="TARGET_AURA" />
+		<set name="overHit" val="true" />
+		<set name="coolTime" val="2000" />
 		<set name="hitTime" val="1800" />
+		<set name="skillType" val="PDAM" />
+		<set name="castRange" val="150" />
+		<set name="operateType" val="OP_ACTIVE" />
+		<for>
+			<effect count="7" name="DamOverTime" time="3" val="201" abnormal="bleed" effectPower="80" effectType="BLEED" />
+		</for>
 	</skill>
 	<skill id="5832" levels="1" name="Hate Aura">
-		<set name="target" val="TARGET_NONE" />
-		<set name="skillType" val="NOTDONE" />
-		<set name="operateType" val="OP_PASSIVE" />
+		<!-- Update by pmq -->
+		<set name="mpConsume" val="50" />
+		<set name="magicLvl" val="85" />
+		<set name="power" val="6170" />
+		<set name="target" val="TARGET_AURA" />
+		<set name="skillRadius" val="900" />
+		<set name="reuseDelay" val="5000" />
 		<set name="hitTime" val="1000" />
+		<set name="skillType" val="AGGDAMAGE" />
+		<set name="operateType" val="OP_ACTIVE" />
+		<set name="isDebuff" val="true" />
+		<for>
+			<effect name="TargetMe" time="5" val="0" />
+		</for>
 	</skill>
 	<skill id="5833" levels="1" name="Shield">
-		<set name="target" val="TARGET_NONE" />
-		<set name="skillType" val="NOTDONE" />
-		<set name="operateType" val="OP_PASSIVE" />
+		<!-- Update by pmq -->
+		<set name="target" val="TARGET_ONE" />
+		<set name="skillRadius" val="900" />
 		<set name="hitTime" val="2000" />
+		<set name="isMagic" val="true" />
+		<set name="skillType" val="BUFF" />
+		<set name="operateType" val="OP_ACTIVE" />
+		<for>
+			<effect name="Buff" time="120" val="0" stackOrder="1.5" stackType="pd_up">
+				<mul order="0x30" stat="pDef" val="1.15" />
+			</effect>
+		</for>
 	</skill>
 	<skill id="5834" levels="1" name="Magic Barrier">
-		<set name="target" val="TARGET_NONE" />
-		<set name="skillType" val="NOTDONE" />
-		<set name="operateType" val="OP_PASSIVE" />
+		<!-- Update by pmq -->
+		<set name="target" val="TARGET_ONE" />
+		<set name="skillRadius" val="900" />
 		<set name="hitTime" val="2000" />
+		<set name="isMagic" val="true" />
+		<set name="skillType" val="BUFF" />
+		<set name="operateType" val="OP_ACTIVE" />
+		<for>
+			<effect name="Buff" time="120" val="0" stackOrder="1.3" stackType="MagicDefUp">
+				<mul order="0x30" stat="mDef" val="1.3" />
+			</effect>
+		</for>
 	</skill>
 	<skill id="5835" levels="1" name="Major Heal">
-		<set name="target" val="TARGET_NONE" />
-		<set name="skillType" val="NOTDONE" />
-		<set name="operateType" val="OP_PASSIVE" />
+		<!-- Update by pmq -->
+		<set name="castRange" val="600" />
+		<set name="effectRange" val="1100" />
 		<set name="hitTime" val="2000" />
+		<set name="isMagic" val="true" />
+		<set name="mpConsume" val="84" />
+		<set name="operateType" val="OP_ACTIVE" />
+		<set name="power" val="20238" />
+		<set name="reuseDelay" val="1000" />
+		<set name="skillType" val="HEAL" />
+		<set name="target" val="TARGET_ONE" />
 	</skill>
 	<skill id="5836" levels="1" name="Greater Heal">
-		<set name="target" val="TARGET_NONE" />
-		<set name="skillType" val="NOTDONE" />
-		<set name="operateType" val="OP_PASSIVE" />
+		<!-- Update by pmq -->
 		<set name="hitTime" val="6000" />
+		<set name="isMagic" val="true" />
+		<set name="mpConsume" val="252" />
+		<set name="operateType" val="OP_ACTIVE" />
+		<set name="power" val="17466" />
+		<set name="reuseDelay" val="5000" />
+		<set name="skillRadius" val="1000" />
+		<set name="skillType" val="HEAL" />
+		<set name="target" val="TARGET_ONE" />
+		<for>
+			<effect count="15" name="HealOverTime" val="727" stackOrder="27" stackType="LifeForce" />
+		</for>
 	</skill>
 	<skill id="5837" levels="1" name="Double Throwing Javelin">
-		<set name="target" val="TARGET_NONE" />
-		<set name="skillType" val="NOTDONE" />
-		<set name="operateType" val="OP_PASSIVE" />
+		<!-- Update by pmq -->
+		<set name="mpConsume" val="60" />
+		<set name="magicLvl" val="85" />
+		<set name="power" val="28480" />
+		<set name="target" val="TARGET_ONE" />
+		<set name="reuseDelay" val="3000" />
 		<set name="hitTime" val="1800" />
+		<set name="coolTime" val="1000" />
+		<set name="skillType" val="PDAM" />
+		<set name="operateType" val="OP_ACTIVE" />
+		<set name="castRange" val="1100" />
+		<set name="effectRange" val="1600" />
+		<set name="baseCritRate" val="15" />
 	</skill>
 	<skill id="5838" levels="1" name="Throwing Javelin">
-		<set name="target" val="TARGET_NONE" />
-		<set name="skillType" val="NOTDONE" />
-		<set name="operateType" val="OP_PASSIVE" />
+		<!-- Update by pmq -->
+		<set name="mpConsume" val="60" />
+		<set name="magicLvl" val="85" />
+		<set name="power" val="14240" />
+		<set name="target" val="TARGET_ONE" />
+		<set name="reuseDelay" val="3000" />
 		<set name="hitTime" val="1800" />
+		<set name="coolTime" val="1000" />
+		<set name="skillType" val="PDAM" />
+		<set name="operateType" val="OP_ACTIVE" />
+		<set name="castRange" val="1100" />
+		<set name="effectRange" val="1600" />
+		<set name="baseCritRate" val="15" />
 	</skill>
 	<skill id="5839" levels="1" name="Breath">
-		<set name="target" val="TARGET_NONE" />
-		<set name="skillType" val="NOTDONE" />
-		<set name="operateType" val="OP_PASSIVE" />
+		<!-- Update by pmq -->
+		<set name="magicLvl" val="85" />
+		<set name="power" val="600" />
+		<set name="target" val="TARGET_FRONT_AURA" />
+		<set name="skillRadius" val="600" />
+		<set name="overHit" val="true" />
+		<set name="coolTime" val="2000" />
 		<set name="hitTime" val="2600" />
+		<set name="skillType" val="MDAM" />
+		<set name="castRange" val="200" />
+		<set name="operateType" val="OP_ACTIVE" />
 	</skill>
 	<skill id="5840" levels="1" name="Fire Breath">
-		<set name="target" val="TARGET_NONE" />
-		<set name="skillType" val="NOTDONE" />
-		<set name="operateType" val="OP_PASSIVE" />
+		<!-- Update by pmq -->
+		<set name="magicLvl" val="85" />
+		<set name="power" val="600" />
+		<set name="element" val="0" /> <!-- Fire -->
+		<set name="elementPower" val="20" />
+		<set name="target" val="TARGET_FRONT_AURA" />
+		<set name="skillRadius" val="600" />
+		<set name="overHit" val="true" />
+		<set name="coolTime" val="2000" />
 		<set name="hitTime" val="2600" />
+		<set name="skillType" val="MDAM" />
+		<set name="castRange" val="200" />
+		<set name="operateType" val="OP_ACTIVE" />
 	</skill>
 	<skill id="5841" levels="1" name="Multi Defense">
-		<set name="target" val="TARGET_NONE" />
-		<set name="skillType" val="NOTDONE" />
-		<set name="operateType" val="OP_PASSIVE" />
+		<!-- Update by pmq -->
+		<set name="target" val="TARGET_SELF" />
 		<set name="hitTime" val="2120" />
+		<set name="skillType" val="BUFF" />
+		<set name="operateType" val="OP_ACTIVE" />
+		<for>
+			<effect name="Buff" time="120" val="0" stackOrder="1.5" stackType="pd_up">
+				<mul order="0x30" stat="pDef" val="1.15" />
+			</effect>
+			<effect name="Buff" time="120" val="0" stackOrder="1.3" stackType="MagicDefUp">
+				<mul order="0x30" stat="mDef" val="1.3" />
+			</effect>
+		</for>
 	</skill>
 	<skill id="5842" levels="1" name="Spinning Slasher">
-		<set name="target" val="TARGET_NONE" />
-		<set name="skillType" val="NOTDONE" />
-		<set name="operateType" val="OP_PASSIVE" />
+		<!-- Update by pmq -->
+		<set name="magicLvl" val="85" />
+		<set name="power" val="30000" />
+		<set name="target" val="TARGET_AURA" />
+		<set name="skillRadius" val="300" />
+		<set name="overHit" val="true" />
+		<set name="coolTime" val="2000" />
 		<set name="hitTime" val="2120" />
+		<set name="skillType" val="PDAM" />
+		<set name="castRange" val="150" />
+		<set name="operateType" val="OP_ACTIVE" />
 	</skill>
 	<skill id="5843" levels="1" name="Terror">
-		<set name="target" val="TARGET_NONE" />
-		<set name="skillType" val="NOTDONE" />
-		<set name="operateType" val="OP_PASSIVE" />
-		<set name="hitTime" val="26720" />
+		<!-- Update by pmq -->
+		<set name="magicLvl" val="85" />
+		<set name="lvlDepend" val="1" />
+		<set name="power" val="80" />
+		<set name="target" val="TARGET_AREA" />
+		<set name="skillRadius" val="900" />
+		<set name="coolTime" val="2700" />
+		<set name="hitTime" val="2120" />
+		<set name="isDebuff" val="true" />
+		<set name="skillType" val="FEAR" />
+		<set name="operateType" val="OP_ACTIVE" />
+		<set name="castRange" val="600" />
+		<set name="effectRange" val="1100" />
+		<for>
+			<effect count="15" name="Fear" time="2" val="0" stackOrder="1" stackType="turn_flee" />
+		</for>
 	</skill>
 	<skill id="5844" levels="1" name="Thunder Storm">
 		<set name="target" val="TARGET_NONE" />
