@@ -974,7 +974,6 @@ REPLACE INTO `custom_npc_buffer` VALUES (1000003, 4702, 10, 57, 100, 4702);  -- 
 REPLACE INTO `custom_npc_buffer` VALUES (1000003, 4703, 10, 57, 100, 4703);  -- 六翼天使的禮物
 REPLACE INTO `custom_npc_buffer` VALUES (1000003, 4704, 10, 57, 100, 4704);  -- 六翼天使的恩典
 
-
 -- 怪物手拿武器
 UPDATE `npc` SET`rhand`= 127 where id = 22485;
 UPDATE `npc` SET`rhand`= 127 where id = 22486;
@@ -1002,3 +1001,21 @@ UPDATE `npc` SET`rhand`= 1472 where id = 22364;
 UPDATE `npc` SET`rhand`= 6722 where id = 22449;
 UPDATE `npc` SET`rhand`= 13983 where id = 25648;
 UPDATE `npc` SET`rhand`= 78 where id = 22368;
+-- 修改地獄之島怪物
+UPDATE `npc` SET `type`='L2Monster', `level`=83, `hp`=3835, `mp`=1777, `exp`=0, `sp`=0, `walkspd`=0, `runspd`=0 where id='18484';  -- 奈雅塔門
+UPDATE `npc` SET `level`=81, `hp`=338766, `mp`=1708, `exp`=2629657, `sp`=267913 where id='22326';         -- 奈雅的守護者 海琳納克
+UPDATE `npc` SET `level`=81, `hp`=111546, `mp`=1846, `exp`=0, `sp`=0 where id='18466';                    -- 外廓警衛隊長
+UPDATE `npc` SET `level`=86, `hp`=194672, `mp`=1881, `exp`=944308, `sp`=93684 where id='22448';           -- 雷歐達斯 反抗軍指揮官
+UPDATE `npc` SET `level`=86, `hp`=4439, `mp`=1881, `exp`=16123, `sp`=1680 where id='22451';               -- 原住民精銳軍
+UPDATE `npc` SET `level`=81, `hp`=4439, `mp`=1881, `exp`=16123, `sp`=1680 where id='22341';               -- 凱達士
+UPDATE `npc` SET `level`=81, `hp`=3461, `mp`=1708, `exp`=12425, `sp`=1325 where id='22342';               -- 達里昂的執行者
+UPDATE `npc` SET `level`=81, `hp`=3461, `mp`=1708, `exp`=9997, `sp`=1066 where id='22343';                -- 達里昂的處刑者
+
+REPLACE INTO `minions` VALUES (22448, 22451, 2, 2); -- 雷歐達斯 反抗軍指揮官
+REPLACE INTO `minions` VALUES (22449, 22450, 8, 8); -- 亞邁士康里 拷問專家
+
+-- 惡霸的禮物箱子
+REPLACE INTO `droplist` VALUES (32342,9693,1,1,-1,700000);  -- 水晶碎片
+
+-- 刪除地獄NPC轉為AI出現
+DELETE FROM `spawnlist` WHERE `npc_templateid` IN (32297,32354,32345,18463,18464,32355,32364,22341,22448);
