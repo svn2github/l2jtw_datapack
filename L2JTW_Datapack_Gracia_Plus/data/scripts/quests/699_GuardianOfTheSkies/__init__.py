@@ -56,7 +56,7 @@ class Quest (JQuest) :
 				itemcount = st.getQuestItemsCount(GOLDEN_FEATHER)
 				if itemcount > 0 :
 					st.takeItems(GOLDEN_FEATHER, -1)
-					st.rewardItems(57,itemcount * 2300)
+					st.rewardItems(57,itemcount * 1500)  # Update by pmq 14-08-2010
 					st.playSound("ItemSound.quest_itemget")
 					htmltext = "32557-06.htm"
 				else :
