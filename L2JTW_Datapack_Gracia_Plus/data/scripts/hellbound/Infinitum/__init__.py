@@ -4,6 +4,7 @@ from com.l2jserver.gameserver.model.actor.instance   import L2PcInstance
 from com.l2jserver.gameserver.model.quest            import State
 from com.l2jserver.gameserver.model.quest            import QuestState
 from com.l2jserver.gameserver.model.quest.jython     import QuestJython as JQuest
+from com.l2jserver.gameserver.instancemanager        import HellboundManager
 from com.l2jserver.gameserver.instancemanager        import InstanceManager
 from com.l2jserver.gameserver.model.entity           import Instance
 from com.l2jserver.gameserver.network                import SystemMessageId
@@ -176,6 +177,8 @@ class Quest (JQuest):
 
   def onTalk (self,npc,player):
     npcId = npc.getNpcId()
+    hellboundLevel = HellboundManager.getInstance().getLevel()
+    if hellboundLevel <= 10: return "<html><body>塞良：<br>你的實力不適合進去與敵人抗爭，待敵人的實力變弱的時候再來吧。</body></html>"
     if npcId == 32302 :
       if not player.getFirstEffect(2357):
         return "<html><body>塞良：<br>將惡魔溫熱的血液噴灑在全身....！</body></html>"

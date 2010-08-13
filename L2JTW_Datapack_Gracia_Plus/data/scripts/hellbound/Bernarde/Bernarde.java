@@ -62,7 +62,7 @@ public class Bernarde extends Quest
 				return "<html><body>波拿得:<br>看來你已經賜予我的財富嗎？</body></html>";
 			long treasures = st.getQuestItemsCount(9684);
 			if (treasures < 1)
-				return "<html><body>波拿得:<br>哦，寶物在哪裡嗎？</body></html>";
+				return "<html><body>波拿得:<br>哦，原住民的寶物在哪裡？</body></html>";
 			st.takeItems(9684, 1);
 			condition = 1;
 			return "<html><body>波拿得:<br>謝謝你！這珍惜當地人很說明。</body></html>";
@@ -71,7 +71,7 @@ public class Bernarde extends Quest
 		{
 			int hLevel = HellboundManager.getInstance().getLevel();
 			if (hLevel == 6)
-				return "<html><body>波拿得:<br>最近惡魔都非常積極的魔法陣。一定有什麼地方會為他們增加這方面的安全。你會調查嗎？也許你會發現一些能夠幫助我們減少巴列斯的力量。</body></html>";
+				return "<html><body>波拿得:<br>在大陸上來的人們的幫助下達里昂的軍勢削弱了許多。不過最近有傳聞說魔法陣裡好儉有什麼動靜。</body></html>";
 			if (hLevel == 7)
 				return "<html><body>波拿得:<br>我知道，為什麼地政剩下虐待，甚至大篷車為什麼放棄希望都不敢去那裡。也許，當你將準備好了，你會想找出是否獨立？說話時，卻是可以使用魔法瓶，收集靈魂的怪物的魔法在同一隊列是非常重視的海外魔法師。為什麼不能讓你嘗試？</body></html>";
 			if (hLevel == 8)

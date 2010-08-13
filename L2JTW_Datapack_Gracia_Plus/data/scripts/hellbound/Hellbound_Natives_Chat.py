@@ -84,10 +84,10 @@ class Native_Chat (JQuest):
 		npcId = npc.getNpcId()
 		hellboundLevel = HellboundManager.getInstance().getLevel()
 		if npcId == Insurgents:
-			if hellboundLevel <= 5: return "<html><body>地獄邊界反抗軍：<br>我們的同志很難存活，現在他們遭受的創傷和食品短缺。我們需要幫助！</body></html>"
+			if hellboundLevel <= 5: return "<html><body>地獄邊界反抗軍：<br>我們的同胞很難存活，現在他們遭受的創傷和食品短缺。我們需要幫助！</body></html>"
 			if hellboundLevel > 5: return "<html><body>地獄邊界反抗軍：<br>感謝您的幫忙。<br>我十分瞭解同胞們的憤慨，但我們的力量微弱到還不足以面對鋼鐵之城。但是這微不足道的力量若能在擊倒惡魔時幫得上忙，那我們樂於效勞。</body></html>"
 		if npcId == Natives:
-			if hellboundLevel <= 5: return "<html><body>地獄邊界原住民：<br>啊...食物...給我點吃的...</body></html>"
+			if hellboundLevel <= 5: return "<html><body>地獄邊界原住民：<br>呃...呃...吃的...給點吃的吧...</body></html>"
 			if hellboundLevel > 5: return "<html><body>地獄邊界原住民：<br>歡迎你們！<br>多虧你們好不容易才能從吝嗇的那些商隊得到足夠的糧食，總算可以放心了。現在我們得同心協力，讓鋼鐵之城的那些傢伙瞧瞧我們的厲害！</body></html>"
 		return
 

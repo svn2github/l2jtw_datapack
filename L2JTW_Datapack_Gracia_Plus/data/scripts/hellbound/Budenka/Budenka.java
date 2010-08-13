@@ -17,9 +17,11 @@
  */
 package hellbound.Budenka;
 
+import com.l2jserver.gameserver.instancemanager.HellboundManager;
 import com.l2jserver.gameserver.model.actor.L2Npc;
 import com.l2jserver.gameserver.model.actor.instance.L2PcInstance;
 import com.l2jserver.gameserver.model.quest.Quest;
+import com.l2jserver.gameserver.model.quest.QuestState;
 
 public class Budenka extends Quest
 {
@@ -30,10 +32,18 @@ public class Budenka extends Quest
 	@Override
 	public final String onFirstTalk(L2Npc npc, L2PcInstance player)
 	{
-		if (player.getInventory().getInventoryItemCount(PREMIUM_CERT, -1, false) > 0)
-			return "32294-premium.htm";
-		if (player.getInventory().getInventoryItemCount(STANDART_CERT, -1, false) > 0)
-			return "32294-standart.htm";
+		QuestState st = player.getQuestState(getName());
+		if (st == null)
+			st = newQuestState(player);
+
+		int hellboundLevel = HellboundManager.getInstance().getLevel();
+		if (hellboundLevel < 2)
+			return "32294.htm";
+		else if (hellboundLevel >= 2)
+			if (player.getInventory().getInventoryItemCount(PREMIUM_CERT, -1, false) > 0)
+				return "32294-premium.htm";
+			if (player.getInventory().getInventoryItemCount(STANDART_CERT, -1, false) > 0)
+				return "32294-standart.htm";
 
 		npc.showChatWindow(player);
 		return null;

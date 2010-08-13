@@ -243,11 +243,11 @@ class Native_Quarry_Slaves (JQuest):
 			st = self.newQuestState(player)
 		npcId = npc.getNpcId()
 		if npcId == QuarrySlave:
-			if hellboundLevel != 5: return "<html><body>採石場奴隸：<br>你是誰？不要打擾我的工作。</body></html>"
+			if hellboundLevel != 5: return "<html><body>採石場奴隸：<br>是來救我們的人嗎？求求你，救救我們吧！！！<br><a action=\"bypass -h Quest\">任務</a></body></html>"
 			else:
 				htmltext = "<html><body>採石場奴隸：<br>"
-				htmltext += "唉，你是來救我的嗎？<br><br>"
-				htmltext += "<a action=\"bypass -h Quest Native_Quarry_Slaves FollowMe\">是的，跟著我走吧</a>"
+				htmltext += "誰...誰？<br><br>"
+				htmltext += "<a action=\"bypass -h Quest Native_Quarry_Slaves FollowMe\">說跟著我走吧</a>"
 				htmltext += "</body></html>"
 		return htmltext
 

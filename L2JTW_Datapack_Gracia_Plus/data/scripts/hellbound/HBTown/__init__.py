@@ -261,7 +261,7 @@ class Quest(JQuest) :
 		if not st :
 			st = self.newQuestState(player)
 		hellboundLevel = HellboundManager.getInstance().getLevel()
-		if hellboundLevel < 10: return "<html><body>你是誰？...<br>快滾開，我不想和你說話！</body></html>"
+		if hellboundLevel < 10: return "<html><body>卡納夫：<br>你是誰？...<br>快滾開，我不想和你說話！</body></html>"
 		if npcId == 32346 :
 			party = player.getParty()
 			if not party:
