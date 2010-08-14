@@ -107,7 +107,9 @@ class Quest (JQuest) :
 			if cond >= 5 and cond <= 7 :
 				htmltext = "30200-05.htm"
 		elif npcId == CORPSE :
-			if cond == 5 :
+			if cond >= 0 and cond <= 5 :
+				htmltext = "32568-03.htm"
+			elif cond == 5 :
 				htmltext = "32568-01.htm"
 		elif npcId == HOLLINT :
 			if cond == 7 :
@@ -117,7 +119,7 @@ class Quest (JQuest) :
 QUEST	= Quest(192,qn,"七封印，可疑的連續死亡事件")
 
 QUEST.addStartNpc(CROOP)
-
+QUEST.addStartNpc(HOLLINT)
 QUEST.addTalkId(CROOP)
 QUEST.addTalkId(HECTOR)
 QUEST.addTalkId(STAN)

@@ -54,7 +54,7 @@ class Quest (JQuest) :
 			htmltext = "<html><body>這是已經完成的任務。</body></html>"
 		elif id == State.CREATED :
 			if npcId == CASIAN and cond == 0 :
-				if not HellboundManager.getInstance().isLocked() :
+				if HellboundManager.getInstance().isLocked() :
 					if player.getLevel() >= 78 :
 						htmltext = "30612-01.htm"
 					else :
