@@ -1172,3 +1172,17 @@ REPLACE INTO `clanhall_siege` VALUES
 (21, 'Fortress of Resistance', 0),
 (34, 'Devastated Castle', 0),
 (35, 'Bandit Stronghold', 0);
+
+-- 菲拉卡-惡魔的遺產
+UPDATE `npc` SET `type`='L2Monster', `hp`=100, `exp`=0, `sp`=0, `walkspd`=0, `runspd`=0 where id='32495';  -- 寶箱
+UPDATE `npc` SET `type`='L2Monster', `hp`=100, `exp`=1521, `sp`=126, `walkspd`=0, `runspd`=0 where id='18622';  -- 火藥桶
+UPDATE `npc` SET `hp`=4814, `exp`=9631, `sp`=819, `aggro`=400 where id='18623';  -- 怨恨的弓手
+UPDATE `npc` SET `hp`=4225, `exp`=5655, `sp`=453, `aggro`=400 where id='18624';  -- 死者的怨恨
+UPDATE `npc` SET `hp`=4344, `exp`=6255, `sp`=522, `aggro`=400 where id='18625';  -- 死者的怨恨
+UPDATE `npc` SET `hp`=4530, `exp`=6886, `sp`=597, `aggro`=400 where id='18626';  -- 死者的怨恨
+UPDATE `npc` SET `hp`=4530, `exp`=6886, `sp`=597, `aggro`=400 where id='18627';  -- 死者的怨恨
+UPDATE `npc` SET `hp`=89279, `exp`=189547, `sp`=16686 where id='18629';  -- 卡姆士
+UPDATE `npc` SET `hp`=89279, `exp`=189547, `sp`=16686 where id='18630';  -- 日比
+UPDATE `npc` SET `hp`=89279, `exp`=189547, `sp`=16686 where id='18631';  -- 瓦克守
+UPDATE `npc` SET `hp`=89279, `exp`=194641, `sp`=17856 where id='18632';  -- 格魯巴拉
+UPDATE `npc` SET `hp`=176244, `exp`=953463, `sp`=69240 where id='18633';  -- 雷馬堂
