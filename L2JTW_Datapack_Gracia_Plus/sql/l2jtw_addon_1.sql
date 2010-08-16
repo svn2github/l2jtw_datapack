@@ -705,8 +705,8 @@ REPLACE INTO `minions` VALUES (22370, 22371, 4, 4);
 
 -- ¼W¥[ SteelCitade 1/F 2/F
 DELETE FROM `spawnlist` WHERE `npc_templateid` IN (22363,22365,22367,22368,22369,22370,22372);
-DELETE FROM `custom_spawnlist` WHERE `npc_templateid` IN (22363,22365,22367,22368,22369,22370,22372);
-INSERT INTO `custom_spawnlist` VALUES
+-- DELETE FROM `custom_spawnlist` WHERE `npc_templateid` IN (22363,22365,22367,22368,22369,22370,22372);
+REPLACE INTO `spawnlist` VALUES
 ('', '', 1, 22363, 16290, 282328, -9709, 0, 0, 15719, 120, 0, 0),
 ('', '', 1, 22363, 16287, 281847, -9709, 0, 0, 50191, 120, 0, 0),
 ('', '', 1, 22368, 18755, 280971, -9710, 0, 0, 381, 120, 0, 0),
@@ -1164,3 +1164,11 @@ REPLACE INTO `zone_vertices` VALUES
 -- Fortress of the Dead
 (111003,0,51472,-31543),
 (111003,1,62249,-18324);
+
+-- ----------------------------
+-- Records 
+-- ----------------------------
+REPLACE INTO `clanhall_siege` VALUES
+(21, 'Fortress of Resistance', 0),
+(34, 'Devastated Castle', 0),
+(35, 'Bandit Stronghold', 0);
