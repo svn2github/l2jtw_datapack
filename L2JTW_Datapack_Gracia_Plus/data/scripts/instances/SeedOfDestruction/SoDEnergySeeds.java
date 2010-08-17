@@ -41,8 +41,6 @@ public class SoDEnergySeeds extends L2AttackableAIScript
 	private static final int RATE = 1;
 	private static final int RESPAWN = 480000;
 	private static final int RANDOM_RESPAWN_OFFSET = 180000;
-	// private static final int[] ENTER_LOCATION = {-245800,220488,-12112};
-	private static final int[] EXIT_LOCATION = {-248376,250440,4344};
 	private static boolean _isAIActive = false;
 	private static Map<Integer, ESSpawn> _spawns = new FastMap<Integer, ESSpawn>();
 	private static Map<L2Npc, Integer> _spawnedNpcs = new FastMap<L2Npc, Integer>();
@@ -65,14 +63,12 @@ public class SoDEnergySeeds extends L2AttackableAIScript
 		private int _spawnId;
 		private int[] _npcIds; 
 		private int[] _spawnCoords;
-		//private L2Npc _npc;
 		
 		public ESSpawn(int spawnId, int[] spawnCoords, int[] npcIds)
 		{
 			_spawnId = spawnId;
 			_spawnCoords = spawnCoords;
 			_npcIds = npcIds;
-			//_npc = npc;
 		}
 		
 		public void scheduleRespawn(long waitTime)
@@ -285,8 +281,9 @@ public class SoDEnergySeeds extends L2AttackableAIScript
 	public String onFirstTalk (L2Npc npc, L2PcInstance player)
 	{
 		if (npc.getNpcId() == TEMPORARY_TELEPORTER)
-			player.teleToLocation(EXIT_LOCATION[0], EXIT_LOCATION[1], EXIT_LOCATION[2]);
-		player.sendPacket(ActionFailed.STATIC_PACKET);
+			return "32602.htm";
+
+			player.sendPacket(ActionFailed.STATIC_PACKET);
 		return null;
 	}
 	
@@ -294,7 +291,7 @@ public class SoDEnergySeeds extends L2AttackableAIScript
 	{
 		//Temporary Teleporters
 		_spawns.put(1, new ESSpawn(1, new int[]{-245790,220320,-12104}, new int[]{TEMPORARY_TELEPORTER}));
-		_spawns.put(2, new ESSpawn(2, new int[]{-249770,207300,-11952}, new int[]{TEMPORARY_TELEPORTER}));
+		_spawns.put(2, new ESSpawn(2, new int[]{-249937,207224,-11968}, new int[]{TEMPORARY_TELEPORTER}));
 		//Energy Seeds
 		_spawns.put(3, new ESSpawn(3, new int[]{-248360,219272,-12448}, new int[]{18678,18679,18680}));
 		_spawns.put(4, new ESSpawn(4, new int[]{-249448,219256,-12448}, new int[]{18678,18679,18680}));
