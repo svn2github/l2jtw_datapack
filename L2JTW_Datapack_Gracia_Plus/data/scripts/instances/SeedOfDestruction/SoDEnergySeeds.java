@@ -283,7 +283,7 @@ public class SoDEnergySeeds extends L2AttackableAIScript
 		if (npc.getNpcId() == TEMPORARY_TELEPORTER)
 			return "32602.htm";
 
-			player.sendPacket(ActionFailed.STATIC_PACKET);
+		player.sendPacket(ActionFailed.STATIC_PACKET);
 		return null;
 	}
 	
