@@ -24,7 +24,7 @@ Mark = 13691
 class Quest (JQuest) :
 	def __init__(self,id,name,descr):
 		JQuest.__init__(self,id,name,descr)
-		self.questItemIds = [Mark]
+		#self.questItemIds = [Mark]
 		self.Lock = 0
 
 	def onAdvEvent (self,event,npc, player) :
