@@ -3,6 +3,7 @@ Todo:
 - Traps not done
 - no random mob spawns after mob kill
 Contributing authors: Gigiikun
+Contributing authors: d0S
 Please maintain consistency between the Seed scripts.
 */
 
@@ -13,6 +14,14 @@ import java.util.Map;
 
 import javolution.util.FastMap;
 
+import com.l2jserver.gameserver.model.zone.L2ZoneType;
+import com.l2jserver.gameserver.model.actor.L2Summon;
+import com.l2jserver.gameserver.model.actor.L2Character;
+import com.l2jserver.gameserver.network.serverpackets.*;
+import com.l2jserver.gameserver.network.serverpackets.L2GameServerPacket;
+import com.l2jserver.gameserver.network.serverpackets.SocialAction;
+import com.l2jserver.gameserver.network.serverpackets.SpecialCamera;
+import com.l2jserver.gameserver.datatables.SkillTable;
 import com.l2jserver.gameserver.ai.CtrlIntention;
 import com.l2jserver.gameserver.instancemanager.GraciaSeedManager;
 import com.l2jserver.gameserver.instancemanager.InstanceManager;
@@ -21,10 +30,12 @@ import com.l2jserver.gameserver.model.L2CharPosition;
 import com.l2jserver.gameserver.model.L2CommandChannel;
 import com.l2jserver.gameserver.model.L2Object;
 import com.l2jserver.gameserver.model.L2Skill;
+import com.l2jserver.gameserver.model.L2Effect;
 import com.l2jserver.gameserver.model.L2World;
 import com.l2jserver.gameserver.model.L2Object.InstanceType;
 import com.l2jserver.gameserver.model.actor.L2Attackable;
 import com.l2jserver.gameserver.model.actor.L2Npc;
+import com.l2jserver.gameserver.model.entity.Instance;
 import com.l2jserver.gameserver.model.actor.instance.L2DoorInstance;
 import com.l2jserver.gameserver.model.actor.instance.L2PcInstance;
 import com.l2jserver.gameserver.model.quest.Quest;
@@ -34,17 +45,25 @@ import com.l2jserver.gameserver.network.serverpackets.ExShowScreenMessage;
 import com.l2jserver.gameserver.network.serverpackets.SystemMessage;
 import com.l2jserver.gameserver.util.Util;
 import com.l2jserver.util.Rnd;
+import javolution.util.FastList;
+
+import java.util.List;
 
 public class SeedOfDestruction extends Quest
 {
 
 	private class SODWorld extends InstanceWorld
 	{
-		public           Map<L2Npc,Boolean> npcList                      = new FastMap<L2Npc,Boolean>();
-		public           int                killedDevice                 = 0;
-		public           int                deviceSpawnedMobCount        = 0;
+		public Map<L2Npc,Boolean> npcList           = new FastMap<L2Npc,Boolean>();
+		public int killedDevice                     = 0;
+		public int deviceSpawnedMobCount            = 0;
+		public boolean ZoneWaitForTP                = true;
+		public List<L2Npc> naezds                   = new FastList<L2Npc>();
+		public List<L2PcInstance> PlayersInInstance = new FastList<L2PcInstance>();
+		public List<L2Npc> _mags                    = new FastList<L2Npc>();
+		private L2Npc _tiada, _priest, _ChangePortal, _MovePeltast, _naezdTR1, _naezdTR2, _naezdTL1, _naezdTL2, _portalForCamera;
 
-		public SODWorld()
+		public SODWorld(Long time)
 		{
 			InstanceManager.getInstance().super();
 		}
@@ -52,36 +71,40 @@ public class SeedOfDestruction extends Quest
 
 	private static final String qn = "SeedOfDestruction";
 	private static final int INSTANCEID = 110; // this is the client number
-	private static final int MIN_PLAYERS = 2; // Default 36
+	private static final int MIN_PLAYERS = 36; // Default 36
 	private static final int MAX_PLAYERS = 45;
 	private static final int MAX_DEVICESPAWNEDMOBCOUNT = 100; // prevent too much mob spawn
 	private static final boolean debug = false;
+	//private static final int EMPTY_DESTROY_TIME = 5;
+	private static final int EXIT_TIME = 5;
 
 	// Items
 
 	// NPCs,mobs
-	private static final int ALENOS = 32526;
-	private static final int TELEPORT = 32601;
-	private static final int OBELISK = 18776;
-	private static final int POWERFUL_DEVICE = 18777;
+	private static final int ALENOS                 = 32526;
+	private static final int TELEPORT               = 32601;
+	private static final int OBELISK                = 18776;
+	private static final int POWERFUL_DEVICE        = 18777;
 	private static final int THRONE_POWERFUL_DEVICE = 18778;
-	private static final int SPAWN_DEVICE = 18696;
-	private static final int TIAT = 29163;
-	private static final int[] TIAT_VIDEO_NPC = { 29167, -251022, 211660, -11957 }; // this is a temp id
+	private static final int SPAWN_DEVICE           = 18696;
+	private static final int TIADA                  = 29163;
+	private static final int ChangePortal           = 29172;
+	private static final int PRIEST                 = 29173;
+	private static final int NAEZD                  = 29162;
+	private static final int PELTAST                = 22581;
+	private static final int PORTAL                 = 18696;
 	private static final int[] SPAWN_MOB_IDS = { 22536, 22537, 22538, 22539, 22540, 22541, 22542, 22543, 22544, 22547, 22550, 22551, 22552, 22596 };
 	private static final int[] MOB_IDS = { 22536, 22537, 22538, 22539, 22540, 22541, 22542, 22543, 22544, 22547, 22550, 22551, 22552, 22596, 29162 };
-	private static final L2CharPosition MOVE_TO_TIAT = new L2CharPosition( -250403, 207273, -11952, 16384 );
-	private static final L2CharPosition MOVE_TO_DOOR = new L2CharPosition( -251432, 214905, -12088, 16384 );
+	private static final L2CharPosition MOVE_TO_TIADA = new L2CharPosition( -250403, 207273, -11952, 16384 );
 
 	// Doors/Walls/Zones
 	private static final int[] ATTACKABLE_DOORS = { 12240005, 12240006, 12240007, 12240008, 12240009, 12240010,
 		12240013, 12240014, 12240015, 12240016, 12240017, 12240018, 12240021, 12240022, 12240023, 12240024, 12240025,
 		12240026, 12240028, 12240029, 12240030
-		};
+	};
 	private static final int[] ENTRANCE_ROOM_DOORS = { 12240001, 12240002 };
 	private static final int[] SQUARE_DOORS = { 12240003, 12240004, 12240011, 12240012, 12240019, 12240020 };
 	private static final int SCOUTPASS_DOOR = 12240027;
-	private static final int FORTRESS_DOOR = 12240030;
 	private static final int THRONE_DOOR = 12240031;
 
 	// spawns
@@ -385,63 +408,188 @@ public class SeedOfDestruction extends Quest
 		{ 22596, -252094, 213194, -12048, 0 }, { 22547, -252210, 213189, -11992, 0 },
 		{ 22596, -252096, 213120, -12048, 0 }, { 22596, -252089, 213271, -12048, 0 }
 	};
-	private static final int[][] FORT_PORTALS = {
-		{ 18696,-249924,218225,-12334,16384}, { 18696,-252938,218225,-12334,16384}
+	private static int[][] FIVETR = {
+		{-250123, 207338, -11966},{-249948, 207338, -11951},
+		{-249773, 207338, -11946},{-250687, 207338, -11968},
+		{-250862, 207338, -11963},{-251037, 207338, -11958}
 	};
-	private static final int[][] THRONE_SPAWNS = {{ 29162, -250444, 208084, -11952, 56886},
-		{ 29162, -250403, 207123, -11952, 31020 }, { 29162, -250509, 207167, -11952, 28663 },
-		{ 29162, -250297, 207166, -11952, 33570 }, { 29162, -250253, 207273, -11952, 11692 },
-		{ TIAT, -250403, 207273, -11952, 16384 }, { 22542, -249927, 207968, -11968, 16384 },
-		{ 22542, -250094, 207968, -11968, 16384 }, { 22542, -250687, 207968, -11968, 16384 },
-		{ 22542, -250839, 207968, -11968, 16384 }, { 22543, -251004, 207968, -11968, 16384 },
-		{ 22538, -249927, 208133, -11968, 16384 }, { 22538, -250094, 208133, -11968, 16384 },
-		{ 22538, -250687, 208133, -11968, 16384 }, { 22538, -250839, 208133, -11968, 16384 },
-		{ 22539, -251004, 208133, -11968, 16384 }, { 22539, -251168, 208133, -11968, 16384 },
-		{ 22539, -251332, 208133, -11968, 16384 }, { 22539, -251496, 208133, -11968, 16384 },
-		{ 22542, -249927, 208286, -11960, 16384 }, { 22542, -250094, 208293, -11968, 16384 },
-		{ 22542, -250687, 208287, -11968, 16384 }, { 22542, -250839, 208287, -11960, 16384 },
-		{ 22543, -251332, 208287, -11960, 16384 }, { 22543, -251004, 208287, -11960, 16384 },
-		{ 22543, -251496, 208287, -11968, 16384 }, { 22543, -251168, 208287, -11960, 16384 },
-		{ 22537, -250071, 207344, -11960, 16384 }, { 22537, -250688, 207344, -11968, 16384 },
-		{ 22537, -251086, 207344, -11960, 16384 }, { 22536, -250071, 207587, -11968, 16384 },
-		{ 22536, -251086, 207587, -11952, 16384 }, { 22536, -250688, 207587, -11968, 16384 },
-		{ 22536, -250881, 207587, -11960, 16384 }, { 22543, -249763, 207968, -11968, 16384 },
-		{ 22539, -249601, 208133, -11968, 16384 }, { 22539, -249273, 208133, -11968, 16384 },
-		{ 22539, -249437, 208133, -11968, 16384 }, { 22539, -249763, 208133, -11968, 16384 },
-		{ 22543, -249437, 208286, -11960, 16384 }, { 22543, -249273, 208284, -11968, 16384 },
-		{ 22543, -249601, 208284, -11960, 16384 }, { 22543, -249763, 208286, -11960, 16384 },
-		{ 22537, -249848, 207344, -11952, 16384 }, { 22536, -249621, 207587, -11952, 16384 },
-		{ 22536, -249848, 207587, -11960, 16384 }, { 29162, -250424, 207903, -11952, 13278 },
-		{ 29162, -250346, 207949, -11952, 21817 }, { 29162, -250442, 208041, -11952, 61952 }
+	private static int[][] FORTR = {
+		{-251037, 207563, -11954},{-250862, 207563, -11949},
+		{-250687, 207563, -11944},{-250123, 207563, -11966},
+		{-249948, 207563, -11961},{-249773, 207563, -11956}
 	};
-	private static final int[][] THRONE_PORTALS = {
-		{ 18696,-252022,210130,-11968,16384}, { 18696,-248782,210130,-11968,16384},
-		{ 18696,-252022,206875,-11968,16384}, { 18696,-248782,206875,-11968,16384}
+	private static int[][] FRETR = {
+		{22547, -250123, 207738, -11939},{22546, -249948, 207738, -11934},
+		{22546, -249773, 207738, -11949},{22547, -250687, 207738, -11909},
+		{22546, -250862, 207738, -11904},{22546, -251037, 207738, -11889}
+	};
+	private static int[][] TWOTR = {
+		{-251562, 207913, -11969},{-251387, 207913, -11964},
+		{-251212, 207913, -11959},{-251037, 207913, -11954},
+		{-250862, 207913, -11949},{-250687, 207913, -11944},
+		{-250123, 207913, -11909},{-249948, 207913, -11904},
+		{-249773, 207913, -11899},{-249598, 207913, -11894},
+		{-249423, 207913, -11894},{-249248, 207913, -11889}
+	};
+	private static int[][] ONETR = {
+		{-251562, 208088, -11969},{-251387, 208088, -11964},
+		{-251212, 208088, -11959},{-251037, 208088, -11954},
+		{-250862, 208088, -11949},{-250687, 208088, -11944},
+		{-250123, 208088, -11909},{-249948, 208088, -11904},
+		{-249773, 208088, -11899},{-249598, 208088, -11894},
+		{-249423, 208088, -11894},{-249248, 208088, -11889}
+	};
+	private static int[][] NAEZDSPAWNS = {
+		{-250304, 206624, -11908, 26492},{-250304, 206529, -11908, 26492},
+		{-250506, 206624, -11907, 8191},{-250506, 206529, -11909, 8191}
 	};
 	
 	// Initialization at 6:30 am on Wednesday and Saturday
-	private static final int RESET_HOUR = 6;
-	private static final int RESET_MIN = 30;
+	private static final int RESET_HOUR  = 6;
+	private static final int RESET_MIN   = 30;
 	private static final int RESET_DAY_1 = 4;
 	private static final int RESET_DAY_2 = 7;
 
 	private class teleCoord {int instanceId; int x; int y; int z;}
 
+	private boolean checkConditions(L2PcInstance player)
+	{
+		if (debug)
+		{
+			return true;
+		}
+		else
+		{
+			if (player.getParty() == null)
+			{
+				player.sendPacket(new SystemMessage(2101));
+				return false;
+			}
+			L2CommandChannel channel = player.getParty().getCommandChannel();
+			if (channel == null)
+			{
+				player.sendPacket(new SystemMessage(2103));
+				return false;
+			}
+			else if (channel.getChannelLeader() != player)
+			{
+				player.sendPacket(new SystemMessage(2185));
+				return false;
+			}
+			else if (channel.getMemberCount() < MIN_PLAYERS || channel.getMemberCount() > MAX_PLAYERS)
+			{
+				player.sendPacket(new SystemMessage(2102));
+				return false;
+			}
+			for (L2PcInstance channelMember : channel.getMembers())
+			{
+				if (channelMember.getLevel() < 75)
+				{
+					SystemMessage sm = new SystemMessage(2097);
+					sm.addPcName(channelMember);
+					channel.broadcastToChannelMembers(sm);
+					return false;
+				}
+				if (!Util.checkIfInRange(1000, player, channelMember, true))
+				{
+					SystemMessage sm = new SystemMessage(2096);
+					sm.addPcName(channelMember);
+					channel.broadcastToChannelMembers(sm);
+					return false;
+				}
+				Long reentertime = InstanceManager.getInstance().getInstanceTime(channelMember.getObjectId(), INSTANCEID);
+				if (System.currentTimeMillis() < reentertime)
+				{
+					SystemMessage sm = new SystemMessage(2100);
+					sm.addPcName(channelMember);
+					channel.broadcastToChannelMembers(sm);
+					return false;
+				}
+			}
+			return true;
+		}
+	}
+
+	private int checkworld(L2PcInstance player)
+	{
+		InstanceWorld checkworld = InstanceManager.getInstance().getPlayerWorld(player);
+		if (checkworld != null)
+		{
+			if (!(checkworld instanceof SODWorld))
+			{
+				return 0;
+			}
+			return 1;
+		}
+		return 2;
+	}
+
+	protected int enterInstance(L2PcInstance player, String template, teleCoord teleto)
+	{
+		InstanceWorld world = InstanceManager.getInstance().getPlayerWorld(player);
+		int inst = checkworld(player);
+		if (inst == 0)
+		{
+			player.sendPacket(new SystemMessage(SystemMessageId.ALREADY_ENTERED_ANOTHER_INSTANCE_CANT_ENTER));
+			return 0;
+		}
+		else if (inst == 1)
+		{
+			teleto.instanceId = world.instanceId;
+			teleportplayer(player,teleto,(SODWorld)world);
+			return world.instanceId;
+		}
+		//New instance
+		else
+		{
+			if (!checkConditions(player))
+				return 0;
+			int instanceId = InstanceManager.getInstance().createDynamicInstance(template);
+			world = new SODWorld(System.currentTimeMillis() + 5400000);
+			world.instanceId = instanceId;
+			world.templateId = INSTANCEID;
+			world.status = 0;
+			InstanceManager.getInstance().addWorld(world);
+			spawnState((SODWorld)world);
+			for (L2DoorInstance door : InstanceManager.getInstance().getInstance(instanceId).getDoors())
+				if (contains(ATTACKABLE_DOORS, door.getDoorId()))
+					door.setIsAttackableDoor(true);
+					_log.info("Seed of Destruction started " + template + " Instance: " + instanceId + " created by player: " + player.getName());
+					((SODWorld)world).ZoneWaitForTP = true;
+			teleto.instanceId = instanceId;
+			if (debug)
+			{
+				InstanceManager.getInstance().setInstanceTime(player.getObjectId(), INSTANCEID, (System.currentTimeMillis()));
+				teleportplayer(player,teleto,(SODWorld)world);
+				removeBuffs(player);
+				world.allowed.add(player.getObjectId());
+			}
+			else
+			{
+				for (L2PcInstance partyMember : player.getParty().getCommandChannel().getMembers())
+				{
+					InstanceManager.getInstance().setInstanceTime(partyMember.getObjectId(), INSTANCEID, (System.currentTimeMillis()));
+					teleportplayer(partyMember,teleto,(SODWorld)world);
+					removeBuffs(partyMember);
+					world.allowed.add(partyMember.getObjectId());
+				}
+			}
+			return instanceId;
+		}
+	}
 	protected void openDoor(int doorId,int instanceId)
 	{
 		for (L2DoorInstance door : InstanceManager.getInstance().getInstance(instanceId).getDoors())
 			if (door.getDoorId() == doorId)
 				door.openMe();
 	}
-
 	protected void closeDoor(int doorId,int instanceId)
 	{
-			for (L2DoorInstance door : InstanceManager.getInstance().getInstance(instanceId).getDoors())
-				if (door.getDoorId() == doorId)
-					if (door.getOpen())
-						door.closeMe();
+		for (L2DoorInstance door : InstanceManager.getInstance().getInstance(instanceId).getDoors())
+			if (door.getDoorId() == doorId)
+				if (door.getOpen())
+					door.closeMe();
 	}
-
 	public static boolean contains(int[] array, int obj)
 	{
 		for (int i = 0; i < array.length; i++)
@@ -453,125 +601,56 @@ public class SeedOfDestruction extends Quest
 		}
 		return false;
 	}
-
-	private boolean checkConditions(L2PcInstance player)
-	{
-		if (debug)
-			return true;
-		if (player.getParty() == null)
-		{
-			player.sendPacket(new SystemMessage(2101));
-			return false;
-		}
-		L2CommandChannel channel = player.getParty().getCommandChannel();
-		if (channel == null)
-		{
-			player.sendPacket(new SystemMessage(2103));
-			return false;
-		}
-		else if (channel.getChannelLeader() != player)
-		{
-			player.sendPacket(new SystemMessage(2185));
-			return false;
-		}
-		else if (channel.getMemberCount() < MIN_PLAYERS || channel.getMemberCount() > MAX_PLAYERS)
-		{
-			player.sendPacket(new SystemMessage(2102));
-			return false;
-		}
-		for (L2PcInstance channelMember : channel.getMembers())
-		{
-			if (channelMember.getLevel() < 75)
-			{
-				SystemMessage sm = new SystemMessage(2097);
-				sm.addPcName(channelMember);
-				channel.broadcastToChannelMembers(sm);
-				return false;
-			}
-			if (!Util.checkIfInRange(1000, player, channelMember, true))
-			{
-				SystemMessage sm = new SystemMessage(2096);
-				sm.addPcName(channelMember);
-				channel.broadcastToChannelMembers(sm);
-				return false;
-			}
-			Long reentertime = InstanceManager.getInstance().getInstanceTime(channelMember.getObjectId(), INSTANCEID);
-			if (System.currentTimeMillis() < reentertime)
-			{
-				SystemMessage sm = new SystemMessage(2100);
-				sm.addPcName(channelMember);
-				channel.broadcastToChannelMembers(sm);
-				return false;
-			}
-		}
-		return true;
-	}
-
-	private void teleportplayer(L2PcInstance player, teleCoord teleto)
+	private void teleportplayerEnergy(L2PcInstance player, teleCoord teleto)
 	{
 		player.getAI().setIntention(CtrlIntention.AI_INTENTION_IDLE);
 		player.setInstanceId(teleto.instanceId);
 		player.teleToLocation(teleto.x, teleto.y, teleto.z);
 		return;
 	}
-
-	protected int enterInstance(L2PcInstance player, String template, teleCoord teleto)
+	private static final void removeBuffs(L2Character ch)
 	{
-		int instanceId = 0;
-		//check for existing instances for this player
-		InstanceWorld world = InstanceManager.getInstance().getPlayerWorld(player);
-		//existing instance
-		if (world != null)
+		for (L2Effect e : ch.getAllEffects())
 		{
-			if (!(world instanceof SODWorld))
-			{
-				player.sendPacket(new SystemMessage(SystemMessageId.ALREADY_ENTERED_ANOTHER_INSTANCE_CANT_ENTER));
-				return 0;
-			}
-			teleto.instanceId = world.instanceId;
-			teleportplayer(player,teleto);
-			return instanceId;
+			if (e == null)
+				continue;
+			L2Skill skill = e.getSkill();
+			if (skill.isDebuff() || skill.isStayAfterDeath())
+				continue;
+			e.exit();
 		}
-		//New instance
-		else
+		if (ch.getPet() != null)
 		{
-			if (!checkConditions(player))
-				return 0;
-			instanceId = InstanceManager.getInstance().createDynamicInstance(template);
-			world = new SODWorld();
-			world.instanceId = instanceId;
-			world.status = 0;
-			InstanceManager.getInstance().addWorld(world);
-			spawnState((SODWorld)world);
-			for (L2DoorInstance door : InstanceManager.getInstance().getInstance(instanceId).getDoors())
-				if (contains(ATTACKABLE_DOORS, door.getDoorId()))
-					door.setIsAttackableDoor(true);
-			_log.info("Seed of Destruction started " + template + " Instance: " + instanceId + " created by player: " + player.getName());
-			// teleport players
-			teleto.instanceId = instanceId;
-			if (player.getParty() == null || player.getParty().getCommandChannel() == null)
+			for (L2Effect e : ch.getPet().getAllEffects())
 			{
-				teleportplayer(player,teleto);
-				world.allowed.add(player.getObjectId());
+				if (e == null)
+					continue;
+				L2Skill skill = e.getSkill();
+				if (skill.isDebuff() || skill.isStayAfterDeath())
+					continue;
+				e.exit();
 			}
-			else
-			{
-				for (L2PcInstance channelMember : player.getParty().getCommandChannel().getMembers())
-				{
-					teleportplayer(channelMember,teleto);
-					world.allowed.add(channelMember.getObjectId());
-				}
-			}
-			return instanceId;
 		}
 	}
-
-	protected void exitInstance(L2PcInstance player, teleCoord tele)
+	private void teleportplayer(L2PcInstance player, teleCoord teleto, SODWorld world )
+	{
+		player.getAI().setIntention(CtrlIntention.AI_INTENTION_IDLE);
+		player.setInstanceId(teleto.instanceId);
+		player.teleToLocation(teleto.x, teleto.y, teleto.z);
+		L2Summon pet = player.getPet();
+		if (pet != null)
+		{
+			pet.setInstanceId(teleto.instanceId);
+			pet.teleToLocation(teleto.x, teleto.y, teleto.z);
+		}
+		world.PlayersInInstance.add(player);
+	}
+	/* protected void exitInstance(L2PcInstance player, teleCoord tele)
 	{
 		player.getAI().setIntention(CtrlIntention.AI_INTENTION_IDLE);
 		player.setInstanceId(0);
 		player.teleToLocation(tele.x, tele.y, tele.z);
-	}
+	}*/
 
 	protected boolean checkKillProgress(L2Npc mob, SODWorld world)
 	{
@@ -588,62 +667,54 @@ public class SeedOfDestruction extends Quest
 		world.npcList.clear();
 		switch(world.status)
 		{
-		case 0:
-			spawn(world, ENTRANCE_GROUND_SPAWNS_1, true, false);
-			spawn(world, ENTRANCE_GROUND_SPAWNS_2, false, false);
-			spawn(world, ENTRANCE_UPPER_SPAWNS, false, true);
-			break;
-		case 1:
-			ExShowScreenMessage message1 = new ExShowScreenMessage(1,0,5,0,1,0,0,false,10000,1,"The enemies have attacked. Everyone come out and fight!!!! ... Urgh~!");
-			sendScreenMessage(world, message1);
-			for(int i : ENTRANCE_ROOM_DOORS)
-				openDoor(i,world.instanceId);
-			spawn(world, SQUARE_SPAWNS_STATIC, false, true);
-			spawn(world, SQUARE_SPAWNS_MAIN, true, false);
-			break;
-		case 2:
-		case 3:
-			// handled elsewhere
-			return;
-		case 4:
-			ExShowScreenMessage message2 = new ExShowScreenMessage(1,0,5,0,1,0,0,false,10000,1,"Obelisk has collapsed. Don't let the enemies jump around wildly anymore!!!!");
-			sendScreenMessage(world, message2);
-			for(int i : SQUARE_DOORS)
-				openDoor(i,world.instanceId);
-			spawn(world, CORRIDOR_SPAWNS_UPPER, false, true);
-			spawn(world, CORRIDOR_SPAWNS_GROUND, false, false);
-			world.killedDevice = 0;
-			break;
-		case 5:
-			openDoor(SCOUTPASS_DOOR,world.instanceId);
-			spawn(world, SQUARE_SPAWNS_HALF, false, false);
-			spawn(world, SCOUTPASS_SPAWNS_UPPER, false, true);
-			spawn(world, SCOUTPASS_SPAWNS_GROUND, false, false);
-			spawn(world, PREFORT_SPAWNS, false, false);
-			spawn(world, FORT_SPAWNS_UPPER, false, true);
-			spawn(world, FORT_SPAWNS_GROUND, false, false);
-			L2Npc npc = addSpawn(TIAT_VIDEO_NPC[0], TIAT_VIDEO_NPC[1], TIAT_VIDEO_NPC[2], TIAT_VIDEO_NPC[3], 0, false,0,false,world.instanceId);
-			npc.setIsNoRndWalk(true);
-			((L2Attackable)npc).setSeeThroughSilentMove(true);
-			startQuestTimer("DoorCheck", 10000, npc, null);
-			world.killedDevice = 0;
-			break;
-		case 6:
-			openDoor(THRONE_DOOR,world.instanceId);
-			spawn(world, THRONE_SPAWNS, false, false);
-			break;
-		case 7:
-			// handled elsewhere
-			return;
-		case 8:
-			ExShowScreenMessage message3 = new ExShowScreenMessage(1,0,5,0,1,0,0,false,10000,1,"Come out, warriors. Protect Seed of Destruction");
-			sendScreenMessage(world, message3);
-			world.deviceSpawnedMobCount = 0;
-			spawn(world, THRONE_PORTALS, false, true);
-			break;
-		case 9:
-			// instance end
-			break;
+			case 0:
+				spawn(world, ENTRANCE_GROUND_SPAWNS_1, true, false);
+				spawn(world, ENTRANCE_GROUND_SPAWNS_2, false, false);
+				spawn(world, ENTRANCE_UPPER_SPAWNS, false, true);
+				break;
+			case 1:
+				ExShowScreenMessage message1 = new ExShowScreenMessage(1,0,5,0,1,0,0,false,10000,1,"敵人的攻擊。兄弟們都站出來，打！！ ... 去吧！");
+				sendScreenMessage(world, message1);
+				for(int i : ENTRANCE_ROOM_DOORS)
+					openDoor(i,world.instanceId);
+				spawn(world, SQUARE_SPAWNS_STATIC, false, true);
+				spawn(world, SQUARE_SPAWNS_MAIN, true, false);
+				break;
+			case 2:
+			case 3:
+				// handled elsewhere
+				return;
+			case 4:
+				ExShowScreenMessage message2 = new ExShowScreenMessage(1,0,5,0,1,0,0,false,10000,1,"方尖碑已經崩潰。不要讓周圍的敵人瘋狂起舞吧！");
+				sendScreenMessage(world, message2);
+				for(int i : SQUARE_DOORS)
+					openDoor(i,world.instanceId);
+				spawn(world, CORRIDOR_SPAWNS_UPPER, false, true);
+				spawn(world, CORRIDOR_SPAWNS_GROUND, false, false);
+				world.killedDevice = 0;
+				break;
+			case 5:
+				openDoor(SCOUTPASS_DOOR,world.instanceId);
+				spawn(world, SQUARE_SPAWNS_HALF, false, false);
+				spawn(world, SCOUTPASS_SPAWNS_UPPER, false, true);
+				spawn(world, SCOUTPASS_SPAWNS_GROUND, false, false);
+				spawn(world, PREFORT_SPAWNS, false, false);
+				spawn(world, FORT_SPAWNS_UPPER, false, true);
+				spawn(world, FORT_SPAWNS_GROUND, false, false);
+				world.killedDevice = 0;
+				break;
+			case 6:
+				runThrone(world);
+				openDoor(THRONE_DOOR,world.instanceId);
+				break;
+			case 7:
+				// handled elsewhere
+				return;
+			case 8:
+				break;
+			case 9:
+				// instance end
+				break;
 		}
 		world.status++;
 	}
@@ -655,7 +726,7 @@ public class SeedOfDestruction extends Quest
 			L2Npc npc = addSpawn(mob[0], mob[1], mob[2], mob[3], mob[4], false,0,false,world.instanceId);
 			if (addToKillTable)
 				world.npcList.put(npc, false);
-			npc.setIsImmobilized(TIAT == mob[0] ? true : isImmobilized);
+			npc.setIsImmobilized(TIADA == mob[0] ? true : isImmobilized);
 			npc.setIsNoRndWalk(true);
 			if (npc.isInstanceType(InstanceType.L2Attackable))
 				((L2Attackable)npc).setSeeThroughSilentMove(true);
@@ -705,9 +776,49 @@ public class SeedOfDestruction extends Quest
 		}
 	}
 
-	public String onFirstTalk(L2Npc npc, L2PcInstance player)
+	protected void runThrone(SODWorld world)
 	{
-		return"";
+		L2Npc portal1 = addSpawn(PORTAL, -248781, 209587, -11966, 0, false,0,false,world.instanceId);
+		portal1.setIsNoRndWalk(true);
+		L2Npc portal2 = addSpawn(PORTAL, -252025, 209587, -11966, 0, false,0,false,world.instanceId);
+		portal2.setIsNoRndWalk(true); 
+		world._portalForCamera = addSpawn(PORTAL, -248781, 206325, -11966, 0, false,0,false,world.instanceId);
+		world._portalForCamera.setIsNoRndWalk(true);
+		L2Npc portal3 = addSpawn(PORTAL, -252027, 206325, -11966, 0, false,0,false,world.instanceId);
+		portal3.setIsNoRndWalk(true);
+
+		for (int i=0;i<12;i++)
+		{
+			L2Npc npc1 = addSpawn(22543,ONETR[i][0],ONETR[i][1],ONETR[i][2],16285,false,0,false,world.instanceId);
+			npc1.setIsNoRndWalk(true);
+			world._mags.add(npc1);
+
+			L2Npc npc2 = addSpawn(22541,TWOTR[i][0],TWOTR[i][1],TWOTR[i][2],16285,false,0,false,world.instanceId);
+			npc2.setIsNoRndWalk(true);
+		}
+		for (int i=0;i<6;i++)
+		{
+			L2Npc npc3 = addSpawn(FRETR[i][0],FRETR[i][1],FRETR[i][2],FRETR[i][3],16285,false,0,false,world.instanceId);
+			npc3.setIsNoRndWalk(true);
+
+			L2Npc npc4 = addSpawn(22536,FORTR[i][0],FORTR[i][1],FORTR[i][2],16285,false,0,false,world.instanceId);
+			npc4.setIsNoRndWalk(true);
+
+			L2Npc npc5 = addSpawn(22537,FIVETR[i][0],FIVETR[i][1],FIVETR[i][2],16285,false,0,false,world.instanceId);
+			npc5.setIsNoRndWalk(true);
+		}
+
+		for (int i=0;i<4;i++)
+		{
+			L2Npc npc = addSpawn(NAEZD,NAEZDSPAWNS[i][0],NAEZDSPAWNS[i][1],NAEZDSPAWNS[i][2],NAEZDSPAWNS[i][3],false,0,false,world.instanceId);
+			npc.setIsNoRndWalk(true);
+			world.naezds.add(npc);
+		}
+		world._MovePeltast = addSpawn(PELTAST,-250403, 207556, -11957, 16383,false,0,false,world.instanceId);
+		world._MovePeltast.setIsNoRndWalk(true);
+
+		world._priest = addSpawn(PRIEST,-250408, 205862, -11727, 16383,false,0,false,world.instanceId);
+		world._priest.setIsNoRndWalk(true);
 	}
 
 	public String onSkillSee (L2Npc npc, L2PcInstance caster, L2Skill skill, L2Object[] targets, boolean isPet)
@@ -719,30 +830,6 @@ public class SeedOfDestruction extends Quest
 	{
 		npc.disableCoreAI(true);
 		return super.onSpawn(npc); 
-	}
-
-	public String onAggroRangeEnter(L2Npc npc, L2PcInstance player, boolean isPet)
-	{
-		if (isPet == false && player != null)
-		{
-			InstanceWorld tmpworld = InstanceManager.getInstance().getWorld(player.getInstanceId());
-			if (tmpworld instanceof SODWorld)
-			{
-				SODWorld world = (SODWorld) tmpworld;
-				if (world.status == 7)
-				{
-					world.status++;
-					for(int objId : world.allowed)
-					{
-						L2PcInstance pl = L2World.getInstance().getPlayer(objId);
-						if (pl != null)
-							pl.showQuestMovie(5);
-					}
-				}
-			}
-			npc.deleteMe();
-		}
-		return null;
 	}
 
 	public String onAttack (L2Npc npc, L2PcInstance attacker, int damage, boolean isPet, L2Skill skill)
@@ -761,13 +848,17 @@ public class SeedOfDestruction extends Quest
 				world.status = 4;
 				spawn(world, SQUARE_SPAWNS_HALF, false, false);
 			}
-			else if (world.status <= 8 && npc.getNpcId() == TIAT)
+			else if (world.status <= 8 && npc.getNpcId() == TIADA)
 			{
 				if (npc.getCurrentHp() < (npc.getMaxHp() / 2))
 				{
-					spawnState(world);
-					startQuestTimer("TiatFullHp", 3000, npc, null);
-					setInstanceTimeRestrictions(world);
+					ExShowScreenMessage message3 = new ExShowScreenMessage(1,0,5,0,1,0,0,false,10000,1,"出來吧，戰士。保護破滅種子！");
+					sendScreenMessage(world, message3);
+					world.deviceSpawnedMobCount = 0;
+					L2Attackable mob = (L2Attackable) addSpawn(SPAWN_MOB_IDS[Rnd.get(SPAWN_MOB_IDS.length)], npc.getSpawn().getLocx(), npc.getSpawn().getLocy(), npc.getSpawn().getLocz(), npc.getSpawn().getHeading(), false,0,false,world.instanceId);
+					mob.getAI().setIntention(CtrlIntention.AI_INTENTION_MOVE_TO, MOVE_TO_TIADA);
+					world._tiada.doCast(SkillTable.getInstance().getInfo(5818, 1));
+					world._tiada.doCast(SkillTable.getInstance().getInfo(181, 1));
 				}
 			}
 		}
@@ -782,13 +873,254 @@ public class SeedOfDestruction extends Quest
 			SODWorld world = (SODWorld) tmpworld;
 			teleCoord teleto = new teleCoord();
 			teleto.instanceId = world.instanceId;
-			if (event.equalsIgnoreCase("TeleportOut"))
+			if (event.equalsIgnoreCase("Part1"))
 			{
-				teleCoord tele = new teleCoord();
-				tele.x = -248717;
-				tele.y = 250260;
-				tele.z = 4337;
-				exitInstance(player,tele);
+				world.ZoneWaitForTP = false;
+
+				broadcastPacket((new SpecialCamera(player.getObjectId(),3500,90,15,100,5000,0,0,1,0)),world);
+				startQuestTimer("Part2", 500, world._MovePeltast,player);
+			}
+			else if (event.equalsIgnoreCase("Part2"))
+			{
+				MoveTo(world._MovePeltast,-250401,207130, -11957);
+				broadcastPacket((new SpecialCamera(player.getObjectId(),300,90,5,6000,7000,0,0,1,0)),world);
+				startQuestTimer("Part3",6000,world._MovePeltast,null);
+			}
+			else if (event.equalsIgnoreCase("Part3"))
+			{
+				broadcastPacket((new SocialAction(world._priest.getObjectId(),1)),world);
+				broadcastPacket((new SpecialCamera(world._priest.getObjectId(),200,90,10,0,5000,0,0,1,0)),world);
+				startQuestTimer("Part4",300, npc, null);
+			}
+			else if (event.equalsIgnoreCase("Part4"))
+			{
+				broadcastPacket((new SpecialCamera(world._priest.getObjectId(),200,90,5,2500,5000,0,0,1,0)),world);
+				startQuestTimer("Part5",3100,world._MovePeltast,null);
+			}
+			else if (event.equalsIgnoreCase("Part5"))
+			{
+				broadcastPacket((new SpecialCamera(world._MovePeltast.getObjectId(),150,90,5,0,5000,0,0,1,0)),world);
+				startQuestTimer("Part6",300,world._MovePeltast,null);
+			}
+			else if (event.equalsIgnoreCase("Part6"))
+			{
+				broadcastPacket((new SpecialCamera(world._MovePeltast.getObjectId(),150,15,10,3000,5000,0,0,1,0)),world);
+				MoveTo(world._priest,-250402,206519,-11905);
+				broadcastPacket((new SocialAction(world._MovePeltast.getObjectId(),1)),world);
+				startQuestTimer("Part7",3500, world._MovePeltast, null);
+			}
+			else if (event.equalsIgnoreCase("Part7"))
+			{
+				broadcastPacket((new SpecialCamera(world._priest.getObjectId(),1400,40,20,0,5000,0,0,1,0)),world);
+				Delete(world._MovePeltast);
+				startQuestTimer("Part8",300,world._priest,null);
+			}
+			else if (event.equalsIgnoreCase("Part8"))
+			{
+				broadcastPacket((new SpecialCamera(world._priest.getObjectId(),350,90,5,7000,8000,0,0,1,0)),world);
+				startQuestTimer("Part9",6000,world._priest,null);
+			}
+			else if (event.equalsIgnoreCase("Part9"))
+			{
+				broadcastPacket((new SpecialCamera(world._priest.getObjectId(),350,90,0,2500,15000,0,0,1,0)),world);
+				startQuestTimer("Part10",2000,world._priest,null);
+			}
+			else if (event.equalsIgnoreCase("Part10"))
+			{
+				world._ChangePortal = addSpawn(ChangePortal, -250402, 206519, -11905, 0, false, 0, false, world.instanceId);
+				world._ChangePortal.setIsNoRndWalk(true);
+				world._priest.doCast(SkillTable.getInstance().getInfo(5816, 1));
+				startQuestTimer("Part11",6000,world._priest,null);
+				startQuestTimer("PartUnnamed",50,world._priest,null);
+			}
+			else if (event.equalsIgnoreCase("PartUnnamed"))
+			{
+				L2Skill _skill = SkillTable.getInstance().getInfo(5815, 1);
+				for (L2Npc naezd : world.naezds)
+					naezd.doCast(_skill);
+				startQuestTimer("PartUnnamed",2300,world._priest,null);
+			}
+			else if (event.equalsIgnoreCase("Part11"))
+			{
+				cancelQuestTimers("PartUnnamed");
+
+				world._tiada = addSpawn(TIADA, -250403, 207040, -11957, 16285, false, 0, false, world.instanceId);
+				world._tiada.setIsNoRndWalk(true);
+				world._tiada.getAI().setIntention(CtrlIntention.AI_INTENTION_IDLE);
+				world._naezdTR1 = addSpawn(NAEZD, -250154, 207203, -11970, 33818, false, 0, false, world.instanceId);
+				world._naezdTR1.setIsNoRndWalk(true);
+				world._naezdTR2 = addSpawn(NAEZD, -250209, 206941, -11966, 27379, false, 0, false, world.instanceId);
+				world._naezdTR2.setIsNoRndWalk(true);
+				world._naezdTL1 = addSpawn(NAEZD, -250652, 207203, -11970, 0, false, 0, false, world.instanceId);
+				world._naezdTL1.setIsNoRndWalk(true);
+				world._naezdTL2 = addSpawn(NAEZD, -250597, 206941, -11966, 6867, false, 0, false, world.instanceId);
+				world._naezdTL2.setIsNoRndWalk(true);
+				broadcastPacket((new SpecialCamera(world._tiada.getObjectId(),400,90,5,1500,13000,0,0,1,0)),world);
+				startQuestTimer("Part12",250, world._tiada, null);
+			}
+			else if (event.equalsIgnoreCase("Part12"))
+			{
+				broadcastPacket((new SocialAction(world._tiada.getObjectId(),1)),world);
+
+				Delete(world._priest);
+				Delete(world._ChangePortal);
+				startQuestTimer("Part13",6000, world._tiada, null);
+			}
+			else if (event.equalsIgnoreCase("Part13"))
+			{
+				world._naezdTR2.doCast(SkillTable.getInstance().getInfo(5815, 1));
+				world._naezdTL2.doCast(SkillTable.getInstance().getInfo(5815, 1));
+				startQuestTimer("Part14",2000, world._tiada, null);
+			}
+			else if (event.equalsIgnoreCase("Part14"))
+			{
+				world._naezdTR1.doCast(SkillTable.getInstance().getInfo(5815, 1));
+				world._naezdTL1.doCast(SkillTable.getInstance().getInfo(5815, 1));
+				broadcastPacket((new SpecialCamera(world._tiada.getObjectId(),600,90,5,4000,8000,0,0,1,0)),world);
+				startQuestTimer("Part15",2000, world._tiada, null);
+			}
+			else if (event.equalsIgnoreCase("Part15"))
+			{
+				MoveTo(world._naezdTR1,-249576,207155, -11969);
+				MoveTo(world._naezdTR2,-249576,207155, -11969);
+				MoveTo(world._naezdTL1,-251465,206601, -11970);
+				MoveTo(world._naezdTL2,-251465,206601, -11970);
+				startQuestTimer("Part16",1600, world._tiada, null);
+			}
+			else if (event.equalsIgnoreCase("Part16"))
+			{
+				broadcastPacket((new SpecialCamera(world._tiada.getObjectId(),1400,90,40,3000,3000,0,0,1,0)),world);
+				startQuestTimer("Part17",2200, world._tiada, null);
+			}
+			else if (event.equalsIgnoreCase("Part17"))
+			{
+				broadcastPacket((new SpecialCamera(world._portalForCamera.getObjectId(),3500,37,1,0,2000,0,0,1,0)),world);
+				startQuestTimer("Part18",1200, world._tiada, null);
+			}
+			else if (event.equalsIgnoreCase("Part18"))
+			{
+				L2Skill _skill = SkillTable.getInstance().getInfo(5833, 1);
+				for (L2Npc mag : world._mags)
+				{
+					mag.setTarget(mag);
+					mag.doCast(_skill);
+				}
+				broadcastPacket((new SpecialCamera(world._portalForCamera.getObjectId(),2400,60,1,5000,6000,0,0,1,0)),world);
+				startQuestTimer("Part19",5000, world._tiada, null);
+			}
+			else if (event.equalsIgnoreCase("Part19"))
+			{
+				broadcastPacket((new SpecialCamera(world._portalForCamera.getObjectId(),2000,75,4,2000,3000,0,0,1,0)),world);
+				startQuestTimer("Part20",2000, world._tiada, null);
+			}
+			else if (event.equalsIgnoreCase("Part20"))
+			{
+				broadcastPacket((new SpecialCamera(world._tiada.getObjectId(),250,90,0,100,3000,0,0,1,0)),world);
+				startQuestTimer("Part21",300, world._tiada, null);
+			}
+			else if (event.equalsIgnoreCase("Part21"))
+			{
+				broadcastPacket((new SpecialCamera(world._tiada.getObjectId(),1500,90,5,5000,6500,0,0,1,0)),world);
+				startQuestTimer("Part22",1000, world._tiada, null);
+			}
+			else if (event.equalsIgnoreCase("Part22"))
+			{
+				world._tiada.doCast(SkillTable.getInstance().getInfo(5818, 1));
+				startQuestTimer("End!",4000, world._tiada, null);
+			}
+			else if (event.equalsIgnoreCase("End!"))
+			{
+				for (L2PcInstance plr : world.PlayersInInstance)
+				{
+					if (plr == null || checkworld(plr) != 1) continue;
+						plr.teleToLocation(-250402, 210408, -11957);
+					if (plr.getPet() != null)
+						plr.getPet().teleToLocation(-250402, 210408, -11957);
+						SetMovieMode(plr,false);
+				}
+				for (L2Npc naezd : world.naezds)
+					Delete(naezd);
+			}
+			else if (event.equalsIgnoreCase("KillTiadaPart1"))
+			{
+				for (L2PcInstance plr : world.PlayersInInstance)
+				{
+					if (plr == null || checkworld(plr) != 1) continue;
+						SetMovieMode(plr,true);
+				}
+				broadcastPacket((new SpecialCamera(world._tiada.getObjectId(),100,90,2,0,2000,0,0,1,0)),world);
+				//
+				world._tiada.reduceCurrentHp(world._tiada.getMaxHp() + 1, null, null);
+				startQuestTimer("KillTiadaPart2",250, world._tiada, null);
+			}
+			else if (event.equalsIgnoreCase("KillTiadaPart2"))
+			{
+				broadcastPacket((new SpecialCamera(world._tiada.getObjectId(),100,180,90,8000,8000,0,0,1,0)),world);
+				startQuestTimer("KillTiadaPart3",3500, world._tiada, null);
+			}
+			else if (event.equalsIgnoreCase("KillTiadaPart3"))
+			{
+				world._ChangePortal = addSpawn(29171, -250402,206519,-11905,16068, false, 0, false, world.instanceId);
+				world._ChangePortal.setIsNoRndWalk(true);
+				broadcastPacket((new SpecialCamera(world._ChangePortal.getObjectId(),350,120,15,100,8000,0,5,1,0)),world);
+				startQuestTimer("KillTiadaPart4",200, world._ChangePortal, null);
+			}
+			else if (event.equalsIgnoreCase("KillTiadaPart4"))
+			{
+				broadcastPacket((new SpecialCamera(world._ChangePortal.getObjectId(),350,180,20,5000,8000,0,0,1,0)),world);
+				startQuestTimer("KillTiadaPart5",2000, world._ChangePortal, null);
+			}
+			else if (event.equalsIgnoreCase("KillTiadaPart5"))
+			{
+				broadcastPacket((new SpecialCamera(world._ChangePortal.getObjectId(),400,90,10,0,8000,0,0,1,0)),world);
+				startQuestTimer("KillTiadaPart6",500, world._ChangePortal, null);
+			}
+			else if (event.equalsIgnoreCase("KillTiadaPart6"))
+			{
+				broadcastPacket((new SpecialCamera(world._ChangePortal.getObjectId(),10,90,10,1000,8000,0,5,1,0)),world);
+				world._priest = addSpawn(PRIEST, -250402,206519,-11905,16068, false, 0, false, world.instanceId);
+				startQuestTimer("KillTiadaPart7",1600, world._ChangePortal, null);
+			}
+			else if (event.equalsIgnoreCase("KillTiadaPart7"))
+			{
+				broadcastPacket((new SpecialCamera(world._ChangePortal.getObjectId(),150,90,10,0,8000,0,0,1,0)),world);
+				Delete(world._tiada);
+				startQuestTimer("KillTiadaPart8",250,world._ChangePortal, null);
+			}
+			else if (event.equalsIgnoreCase("KillTiadaPart8"))
+			{
+				broadcastPacket((new SpecialCamera(world._ChangePortal.getObjectId(),100,90,10,4500,8000,0,0,1,0)),world);
+				world._priest.doCast(SkillTable.getInstance().getInfo(5821, 1));
+				startQuestTimer("KillTiadaPart9",5000, world._ChangePortal, null);
+			}
+			else if (event.equalsIgnoreCase("KillTiadaPart9"))
+			{
+				broadcastPacket((new SpecialCamera(world._ChangePortal.getObjectId(),120,90,1,1000,5000,0,45,1,0)),world);
+				startQuestTimer("KillTiadaPart10",1500, world._ChangePortal, null);
+			}
+			else if (event.equalsIgnoreCase("KillTiadaPart10"))
+			{
+				Delete(world._priest);
+				broadcastPacket((new SpecialCamera(world._ChangePortal.getObjectId(),1000,60,20,7000,10000,0,20,1,0)),world);
+				startQuestTimer("KillTiadaPart11",7000,world._ChangePortal, null);
+			}
+			else if (event.equalsIgnoreCase("KillTiadaPart11"))
+			{
+				Delete(world._priest);
+				broadcastPacket((new SpecialCamera(world._ChangePortal.getObjectId(),1500,45,20,5000,6000,0,0,1,0)),world);
+				startQuestTimer("KillTiadaEnd!",5100,world._ChangePortal, null);
+			}
+			else if (event.equalsIgnoreCase("KillTiadaEnd!"))
+			{
+				Delete(npc);
+				for(L2Npc mob:InstanceManager.getInstance().getInstance(world.instanceId).getNpcs())
+					mob.deleteMe();
+				Delete(world._ChangePortal);
+				for (L2PcInstance plr : world.PlayersInInstance)
+				{
+					if (plr == null || checkworld(plr) != 1) continue;
+						SetMovieMode(plr,false);
+				}
 			}
 			else if (event.equalsIgnoreCase("Spawn"))
 			{
@@ -801,27 +1133,7 @@ public class SeedOfDestruction extends Quest
 					world.deviceSpawnedMobCount++;
 					mob.setSeeThroughSilentMove(true);
 					mob.setRunning();
-					if (world.status >= 7)
-						mob.getAI().setIntention(CtrlIntention.AI_INTENTION_MOVE_TO, MOVE_TO_TIAT);
-					else
-						mob.getAI().setIntention(CtrlIntention.AI_INTENTION_MOVE_TO, MOVE_TO_DOOR);
 				}
-			}
-			else if (event.equalsIgnoreCase("DoorCheck"))
-			{
-				L2DoorInstance tmp = InstanceManager.getInstance().getInstance(npc.getInstanceId()).getDoor(FORTRESS_DOOR);
-				if (tmp.getCurrentHp() < tmp.getMaxHp())
-				{
-					world.deviceSpawnedMobCount = 0;
-					spawn(world, FORT_PORTALS, false, true);
-				}
-				else
-					startQuestTimer("DoorCheck", 10000, npc, null);
-			}
-			else if (event.equalsIgnoreCase("TiatFullHp"))
-			{
-				if (!npc.isStunned() && !npc.isInvul())
-					npc.setCurrentHp(npc.getMaxHp());
 			}
 		}
 		return "";
@@ -866,18 +1178,18 @@ public class SeedOfDestruction extends Quest
 			}
 			else if (world.status >= 7)
 			{
-				if (npc.getNpcId() == TIAT)
+				if (npc.getNpcId() == TIADA)
 				{
 					world.status++;
-					for(int objId : world.allowed)
-					{
-						L2PcInstance pl = L2World.getInstance().getPlayer(objId);
-						if (pl != null)
-							pl.showQuestMovie(6);
-					}
 					GraciaSeedManager.getInstance().increaseSoDTiatKilled();
+					Delete(npc);
 					for(L2Npc mob:InstanceManager.getInstance().getInstance(world.instanceId).getNpcs())
 						mob.deleteMe();
+					Instance inst = InstanceManager.getInstance().getInstance(world.instanceId);
+					inst.setDuration(EXIT_TIME * 60000);
+					inst.setEmptyDestroyTime(0);
+					world._tiada = addSpawn(TIADA, -250402,206519,-11905,16068, false, 0, false, world.instanceId);
+					startQuestTimer("KillTiadaPart1",250, world._tiada, null);
 				}
 				else if (npc.getNpcId() == 29162)
 				{
@@ -885,6 +1197,14 @@ public class SeedOfDestruction extends Quest
 					mob.setIsNoRndWalk(true);
 					mob.setSeeThroughSilentMove(true);
 					mob.setIsRaidMinion(true);
+				}
+				 else if (npc.getNpcId() == PORTAL)
+				{
+					_log.info("portal  kill");
+					final L2Skill skilla = SkillTable.getInstance().getInfo(5699, 7);
+					skilla.getEffects(world._tiada, world._tiada);
+					final L2Skill skillb = SkillTable.getInstance().getInfo(5700, 7);
+					skillb.getEffects(world._tiada, world._tiada);
 				}
 			}
 		}
@@ -914,21 +1234,113 @@ public class SeedOfDestruction extends Quest
 				tele.y = 220488;
 				tele.z = -12112;
 				tele.instanceId = 0;
-				teleportplayer(player, tele);
+				teleportplayerEnergy(player,tele);
 			}
 		}
 		else if (npcId == TELEPORT)
 		{
-			teleCoord tele = new teleCoord();
-			tele.x = -245802;
-			tele.y = 220528;
-			tele.z = -12104;
-			tele.instanceId = player.getInstanceId();
-			teleportplayer(player, tele);
+			InstanceWorld tmpworld = InstanceManager.getInstance().getWorld(npc.getInstanceId());
+			if (tmpworld instanceof SODWorld)
+			{
+				SODWorld world = (SODWorld) tmpworld;
+				teleCoord tele = new teleCoord();
+				tele.x = -245802;
+				tele.y = 220528;
+				tele.z = -12104;
+				tele.instanceId = player.getInstanceId();
+				teleportplayer(player,tele,world);
+			}
 		}
 		return "";
 	}
 
+	public String onFirstTalk(L2Npc npc, L2PcInstance player)
+	{
+		_log.info("FirstTalkEvent: NPC " + npc.getNpcId() + ".");
+		if (npc.getNpcId() == TELEPORT)
+		{
+			InstanceWorld tmpworld = InstanceManager.getInstance().getWorld(npc.getInstanceId());
+			if (tmpworld instanceof SODWorld)
+			{
+				SODWorld world = (SODWorld) tmpworld;
+				//if (world.status == 1 && world.seed.contains(npc))
+				if (world.status == 2 )
+					return "32601-1.htm";
+				if (world.status > 2  && world.status < 9)
+					return "32601-2.htm";
+				if (world.status == 9)
+					return "32601-3.htm";
+			}
+			npc.showChatWindow(player);
+			return null;
+		}
+		return "";
+	}
+	public String onEnterZone(L2Character character, L2ZoneType zone)
+	{
+		if (character instanceof L2PcInstance)
+		{
+			InstanceWorld tmpworld = InstanceManager.getInstance().getWorld(character.getInstanceId());
+			if (tmpworld instanceof SODWorld)
+			{
+				SODWorld world = (SODWorld) tmpworld;
+				if (zone.getId() == 25253 && world.ZoneWaitForTP)
+				{
+					startQuestTimer("Part1",2000, world._priest, (L2PcInstance)character);
+					for (L2PcInstance player : world.PlayersInInstance)
+					{
+						if (player == null || checkworld(player) != 1) continue;
+							player.teleToLocation(-250403, 207040, -11957);
+						if (player.getPet() != null)
+							player.getPet().teleToLocation(-250403, 207040, -11957);
+						SetMovieMode(player,true);
+					}
+				}
+			}
+		}
+		return super.onEnterZone(character,zone);
+	}
+	private void broadcastPacket(L2GameServerPacket mov, SODWorld world)
+	{
+		for (L2PcInstance player : world.PlayersInInstance)
+		{
+			if (player==null || checkworld(player) != 1) continue;
+				player.sendPacket(mov);
+		}
+	}
+	private void Delete(L2Npc npc)
+	{
+		npc.decayMe();
+		npc.deleteMe();
+	}
+	private void SetMovieMode(L2PcInstance player,boolean mode)
+	{
+		if (mode)
+		{
+			player.abortAttack();
+			player.abortCast();
+			player.getAI().setIntention(CtrlIntention.AI_INTENTION_IDLE);
+			player.setTarget(null);
+			player.setIsImmobilized(true);
+			player.sendPacket(new CameraMode(1));
+			player.getAppearance().setInvisible();
+		}
+		else
+		{
+			player.setIsImmobilized(false);
+			player.sendPacket(new CameraMode(0));
+			player.sendPacket(new NormalCamera());
+			player.getAppearance().setVisible();
+		}
+	}
+	//author by d0S
+	private void MoveTo(L2Npc npc, int x, int y, int z)
+	{
+		npc.abortCast();
+		npc.abortAttack();
+		npc.setRunning();
+		npc.getAI().setIntention(CtrlIntention.AI_INTENTION_MOVE_TO, (new L2CharPosition(x,y,z,0)));
+	}
 	public SeedOfDestruction(int questId, String name, String descr)
 	{
 		super(questId, name, descr);
@@ -937,6 +1349,7 @@ public class SeedOfDestruction extends Quest
 		addTalkId(ALENOS);
 		addStartNpc(TELEPORT);
 		addTalkId(TELEPORT);
+		addFirstTalkId(TELEPORT);
 		addAttackId(OBELISK);
 		addSpawnId(OBELISK);
 		addKillId(OBELISK);
@@ -944,10 +1357,12 @@ public class SeedOfDestruction extends Quest
 		addKillId(POWERFUL_DEVICE);
 		addSpawnId(THRONE_POWERFUL_DEVICE);
 		addKillId(THRONE_POWERFUL_DEVICE);
-		addAttackId(TIAT);
-		addKillId(TIAT);
+		addAttackId(TIADA);
+		addKillId(TIADA);
 		addKillId(SPAWN_DEVICE);
-		addAggroRangeEnterId(TIAT_VIDEO_NPC[0]);
+		addKillId(NAEZD);
+		addKillId(PORTAL);  
+		addEnterZoneId(25253);
 		for(int mobId : MOB_IDS)
 			addKillId(mobId);
 	}
@@ -956,5 +1371,6 @@ public class SeedOfDestruction extends Quest
 	{
 		// now call the constructor (starts up the)
 		new SeedOfDestruction(-1,qn,"instances");
+		System.out.println("Instance: Seed of Destruction");
 	}
 }
