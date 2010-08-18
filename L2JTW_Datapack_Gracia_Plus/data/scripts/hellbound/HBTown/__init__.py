@@ -141,7 +141,7 @@ def enterInstance(self,player,template,teleto,quest):
 			world.status = 0
 			self.worlds[instanceId] = world
 			self.world_ids.append(instanceId)
-			print "地獄舊市區：使用 " + template + "  即時地區：" +str(instanceId) + " 創造玩家：" + str(player.getName()) 
+			print "地獄舊市區：使用 " + template + "  即時地區：" +str(instanceId) + " 創造玩家：" + str(player.getName())
 			newNpc = self.addSpawn(AMASKARI,19496,253125,-2030,0,False,0,False,instanceId)
 			quest.amaskari = newNpc
 			quest.amaskariattacked = False

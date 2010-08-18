@@ -443,7 +443,7 @@ public class SeedOfDestruction extends Quest
 		{-250304, 206624, -11908, 26492},{-250304, 206529, -11908, 26492},
 		{-250506, 206624, -11907, 8191},{-250506, 206529, -11909, 8191}
 	};
-	
+
 	// Initialization at 6:30 am on Wednesday and Saturday
 	private static final int RESET_HOUR  = 6;
 	private static final int RESET_MIN   = 30;
@@ -566,23 +566,25 @@ public class SeedOfDestruction extends Quest
 			}
 			else
 			{
-				for (L2PcInstance partyMember : player.getParty().getCommandChannel().getMembers())
+				for (L2PcInstance channelMember : player.getParty().getCommandChannel().getMembers())
 				{
-					InstanceManager.getInstance().setInstanceTime(partyMember.getObjectId(), INSTANCEID, (System.currentTimeMillis()));
-					teleportplayer(partyMember,teleto,(SODWorld)world);
-					removeBuffs(partyMember);
-					world.allowed.add(partyMember.getObjectId());
+					InstanceManager.getInstance().setInstanceTime(channelMember.getObjectId(), INSTANCEID, (System.currentTimeMillis()));
+					teleportplayer(channelMember,teleto,(SODWorld)world);
+					removeBuffs(channelMember);
+					world.allowed.add(channelMember.getObjectId());
 				}
 			}
 			return instanceId;
 		}
 	}
+
 	protected void openDoor(int doorId,int instanceId)
 	{
 		for (L2DoorInstance door : InstanceManager.getInstance().getInstance(instanceId).getDoors())
 			if (door.getDoorId() == doorId)
 				door.openMe();
 	}
+
 	protected void closeDoor(int doorId,int instanceId)
 	{
 		for (L2DoorInstance door : InstanceManager.getInstance().getInstance(instanceId).getDoors())
@@ -590,6 +592,7 @@ public class SeedOfDestruction extends Quest
 				if (door.getOpen())
 					door.closeMe();
 	}
+
 	public static boolean contains(int[] array, int obj)
 	{
 		for (int i = 0; i < array.length; i++)
@@ -601,6 +604,7 @@ public class SeedOfDestruction extends Quest
 		}
 		return false;
 	}
+
 	private void teleportplayerEnergy(L2PcInstance player, teleCoord teleto)
 	{
 		player.getAI().setIntention(CtrlIntention.AI_INTENTION_IDLE);
@@ -608,6 +612,7 @@ public class SeedOfDestruction extends Quest
 		player.teleToLocation(teleto.x, teleto.y, teleto.z);
 		return;
 	}
+
 	private static final void removeBuffs(L2Character ch)
 	{
 		for (L2Effect e : ch.getAllEffects())
@@ -632,6 +637,7 @@ public class SeedOfDestruction extends Quest
 			}
 		}
 	}
+
 	private void teleportplayer(L2PcInstance player, teleCoord teleto, SODWorld world )
 	{
 		player.getAI().setIntention(CtrlIntention.AI_INTENTION_IDLE);
@@ -718,7 +724,7 @@ public class SeedOfDestruction extends Quest
 		}
 		world.status++;
 	}
-	
+
 	protected void spawn(SODWorld world, int[][] spawnTable, boolean addToKillTable, boolean isImmobilized)
 	{
 		for (int[] mob : spawnTable)
@@ -737,7 +743,7 @@ public class SeedOfDestruction extends Quest
 			}
 		}
 	}
-	
+
 	protected void setInstanceTimeRestrictions(SODWorld world)
 	{
 		Calendar reenter = Calendar.getInstance();
@@ -765,7 +771,7 @@ public class SeedOfDestruction extends Quest
 				player.sendPacket(sm);
 		}
 	}
-	
+
 	private void sendScreenMessage(SODWorld world, ExShowScreenMessage message)
 	{
 		for(int objId : world.allowed)
@@ -1049,7 +1055,7 @@ public class SeedOfDestruction extends Quest
 						SetMovieMode(plr,true);
 				}
 				broadcastPacket((new SpecialCamera(world._tiada.getObjectId(),100,90,2,0,2000,0,0,1,0)),world);
-				//
+
 				world._tiada.reduceCurrentHp(world._tiada.getMaxHp() + 1, null, null);
 				startQuestTimer("KillTiadaPart2",250, world._tiada, null);
 			}
@@ -1210,7 +1216,7 @@ public class SeedOfDestruction extends Quest
 		}
 		return "";
 	}
-	
+
 	public String onTalk (L2Npc npc, L2PcInstance player)
 	{
 		int npcId = npc.getNpcId();
@@ -1276,6 +1282,7 @@ public class SeedOfDestruction extends Quest
 		}
 		return "";
 	}
+
 	public String onEnterZone(L2Character character, L2ZoneType zone)
 	{
 		if (character instanceof L2PcInstance)
@@ -1300,19 +1307,22 @@ public class SeedOfDestruction extends Quest
 		}
 		return super.onEnterZone(character,zone);
 	}
+
 	private void broadcastPacket(L2GameServerPacket mov, SODWorld world)
 	{
 		for (L2PcInstance player : world.PlayersInInstance)
 		{
-			if (player==null || checkworld(player) != 1) continue;
+			if (player == null || checkworld(player) != 1) continue;
 				player.sendPacket(mov);
 		}
 	}
+
 	private void Delete(L2Npc npc)
 	{
 		npc.decayMe();
 		npc.deleteMe();
 	}
+
 	private void SetMovieMode(L2PcInstance player,boolean mode)
 	{
 		if (mode)
@@ -1333,7 +1343,7 @@ public class SeedOfDestruction extends Quest
 			player.getAppearance().setVisible();
 		}
 	}
-	//author by d0S
+
 	private void MoveTo(L2Npc npc, int x, int y, int z)
 	{
 		npc.abortCast();
@@ -1341,10 +1351,11 @@ public class SeedOfDestruction extends Quest
 		npc.setRunning();
 		npc.getAI().setIntention(CtrlIntention.AI_INTENTION_MOVE_TO, (new L2CharPosition(x,y,z,0)));
 	}
+
 	public SeedOfDestruction(int questId, String name, String descr)
 	{
 		super(questId, name, descr);
-		
+
 		addStartNpc(ALENOS);
 		addTalkId(ALENOS);
 		addStartNpc(TELEPORT);
