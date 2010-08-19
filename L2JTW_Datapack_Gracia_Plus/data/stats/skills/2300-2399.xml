@@ -617,12 +617,8 @@
 		<set name="operateType" val="OP_ACTIVE" />
 		<set name="buffDuration" val="600000" />
 		<set name="isPotion" val="true" />
-		<cond msgId="113" addName="1">
-			<player flyMounted="False" />
-		</cond>
 		<for>
-			<effect name="Buff" time="600" val="0" >
-			</effect>
+			<effect name="Buff" time="600" val="0" stackOrder="1" stackType="fiery_demon" />
 		</for>
 	</skill>
 	<skill id="2358" levels="1" name="Holy Water">
