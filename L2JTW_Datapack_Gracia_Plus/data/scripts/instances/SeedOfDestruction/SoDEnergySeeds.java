@@ -45,6 +45,7 @@ public class SoDEnergySeeds extends L2AttackableAIScript
 	private static Map<Integer, ESSpawn> _spawns = new FastMap<Integer, ESSpawn>();
 	private static Map<L2Npc, Integer> _spawnedNpcs = new FastMap<L2Npc, Integer>();
 	
+	private static final int EDRIC_OFFICER = 32527;
 	private static final int TEMPORARY_TELEPORTER = 32602;
 	private static final int[] seeds = {18678, 18679, 18680, 18681, 18682, 18683 };
 	private static int[] doors = 
@@ -417,6 +418,8 @@ public class SoDEnergySeeds extends L2AttackableAIScript
 		_spawns.put(100, new ESSpawn(100, new int[]{-242104,207272,-12768}, new int[]{18681,18682}));
 		_spawns.put(101, new ESSpawn(101, new int[]{-242088,205624,-12768}, new int[]{18681,18682}));
 		_spawns.put(102, new ESSpawn(102, new int[]{-242600,205608,-12768}, new int[]{18681,18682}));
+		
+		_spawns.put(103, new ESSpawn(103, new int[]{-248525,250048,4307}, new int[]{EDRIC_OFFICER}));
 	}
 	
 	public static void main(String[] args)
