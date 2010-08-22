@@ -1014,9 +1014,6 @@ UPDATE `npc` SET `level`=81, `hp`=3461, `mp`=1708, `exp`=9997, `sp`=1066 where i
 REPLACE INTO `minions` VALUES (22448, 22451, 2, 2); -- 雷歐達斯 反抗軍指揮官
 REPLACE INTO `minions` VALUES (22449, 22450, 8, 8); -- 亞邁士康里 拷問專家
 
--- 惡霸的禮物箱子
-REPLACE INTO `droplist` VALUES (32342,9693,1,1,-1,700000);  -- 水晶碎片
-
 -- 刪除地獄NPC轉為AI出現
 DELETE FROM `spawnlist` WHERE `npc_templateid` IN (32297,32354,32345,18463,18464,32355,32364,22341,22448);
 -- HBCE
@@ -1528,3 +1525,16 @@ REPLACE INTO npcskills VALUES
 -- Varangkas Destroyer
 (22702,4417,14),
 (22702,4333,6);
+-- Seed of Destruction show movie
+REPLACE INTO `zone_vertices` VALUES
+(25253,0,-251280,211765),
+(25253,1,-250599,211765),
+(25253,2,-250599,211571),
+(25253,3,-251280,211571);
+
+-- land zone before enter in SoD
+REPLACE INTO `zone_vertices` VALUES
+(25254,0,-249138,250114),
+(25254,1,-246840,252076),
+(25254,2,-246730,251982),
+(25254,3,-248699,249660);
