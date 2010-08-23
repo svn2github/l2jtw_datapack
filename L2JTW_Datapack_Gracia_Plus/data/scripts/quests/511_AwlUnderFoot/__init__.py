@@ -3,25 +3,26 @@
 # Date: 10.23.2009
 
 import sys
-from java.lang import System
-from com.l2jserver import Config
-from com.l2jserver.gameserver.model.quest import State
-from com.l2jserver.gameserver.model.quest import QuestState
-from com.l2jserver.gameserver.instancemanager import FortManager
-from com.l2jserver.gameserver.model.actor.instance import L2PcInstance
-from com.l2jserver.gameserver.instancemanager import InstanceManager
-from com.l2jserver.gameserver.model.entity import Fort
-from com.l2jserver.gameserver import ThreadPoolManager
-from com.l2jserver.gameserver.datatables import NpcTable
-from com.l2jserver.gameserver.datatables import SpawnTable
-from com.l2jserver.gameserver.network.serverpackets  import SystemMessage
-from com.l2jserver.gameserver.network import SystemMessageId
-from com.l2jserver.gameserver.util import Util
-from com.l2jserver.util import Rnd
-from com.l2jserver.gameserver.model.entity import Instance
-from com.l2jserver.gameserver.model.quest.jython import QuestJython as JQuest
+from java.lang                                      import System
+from com.l2jserver                                  import Config
+from com.l2jserver.gameserver                       import ThreadPoolManager
+from com.l2jserver.gameserver.datatables            import NpcTable
+from com.l2jserver.gameserver.datatables            import SpawnTable
+from com.l2jserver.gameserver.instancemanager       import FortManager
+from com.l2jserver.gameserver.instancemanager       import InstanceManager
+from com.l2jserver.gameserver.model.actor.instance  import L2PcInstance
+from com.l2jserver.gameserver.model.entity          import Fort
+from com.l2jserver.gameserver.model.entity          import Instance
+from com.l2jserver.gameserver.model.quest           import State
+from com.l2jserver.gameserver.model.quest           import QuestState
+from com.l2jserver.gameserver.model.quest.jython    import QuestJython as JQuest
+from com.l2jserver.gameserver.network               import SystemMessageId
+from com.l2jserver.gameserver.network.serverpackets import SystemMessage
+from com.l2jserver.gameserver.util                  import Util
+from com.l2jserver.util                             import Rnd
 
 qn = "511_AwlUnderFoot"
+
 QuestId = 511
 QuestName = "AwlUnderFoot"
 QuestDesc = "Fortress Dungeon"
@@ -30,7 +31,7 @@ QuestDesc = "Fortress Dungeon"
 WARDEN = [ 35666, 35698, 35735, 35767, 35804, 35835, 35867, 35904, 35936, 35974, 36011, 36043, 36081, 36118, 36149, 36181, 36219, 36257, 36294, 36326, 36364 ]
 ESCAPE = [ 32496 ]
 
-#MONSTER TO KILL -- Only last 3 Raids (lvl ordered) from 10, drop DL_MARK
+#MONSTER TO KILL -- Only last 3 Raids (lvl ordered) from 136, drop DL_MARK
 RAIDS1 = [ 25572, 25575, 25578 ]
 RAIDS2 = [ 25579, 25582, 25585, 25588 ]
 RAIDS3 = [ 25589, 25592, 25593 ]
@@ -42,12 +43,12 @@ DL_MARK = 9797
 KNIGHT_EPALUETTE = 9912
 
 #MESSAGES
-default = "<html><title>Detention camp Warden</title><body><br><br>Warden:<br>You are either not on a quest that involves this NPC, or you don't meet this NPC's minimum quest requirements.</body></html>"
-nolvl = "<html><title>Detention camp Warden</title><body><br>Warden:<br>Thank you for volunteering to help, kind adventurer, but we can't allow inexperienced clan members to put themselves in jeopardy -- bad for our reputation, you know.<br>Believe it or not, I was once a prominent adventurer before taking this job.<br> If I can give you some advice, you're not quite ready for such a task.<br>Why don't you come back to me after you've had an opportunity to further develop your skills.<br>(This quest is only available for characters Level 60 or higher.)</body></html>"
-noitem = "<html><title>Detention camp Warden</title><body><br>Warden:<br>You come back already?<br1>You do not seam to have what I requested. Come back when you have one or more Dungeon Leader Mark.</body></html>"
-wrongfortress = "<html><title>Detention camp Warden</title><body><br>Warden:<br>This fortress is not under your clan control.</body></html>"
-noclan = "<html><title>Detention camp Warden:</title><body><br>Warden:<br>Who are you? I don't see your name on the list of clan members...<br>  (This quest is reserved for members of the clan that currently owns this fortress.)</body></html>"
-finish = "<html><title>Detention camp Warden:</title><body>Warden:<br>Ah, I understand -- no doubt another adventure calls you...<br>Thank you for all you've done here.<br>If you'd like to lend a hand again, we'd be very grateful.<br>Good luck on your journeys!</body></html>"
+default = "<html><body>收容所管理人：<br>目前沒有執行任務，或條件不符。</body></html>"
+nolvl = "<html><body>收容所管理人：<br>我很感謝冒險家您想要協助的心意，但我也是身為要塞的一員，可不希望讓實力不符的血盟成員陷入險境。<br>如此之類的管理責任也是我的職務。<br>在接任這職務之前，我也曾是個叱吒風雲的冒險家。<br以前輩的立場來看，冒險家您的實力還不足接任征討任務。<br>去磨練實力後再來找我吧。<br>(只有等級60以上才可以執行的任務。)</body></html>"
+noitem = "<html><body>收容所管理人：<br>你已經回來嗎？<br1>你做不到了我的要求。你沒有收容所罪犯首領的標章。</body></html>"
+wrongfortress = "<html><body>收容所管理人：<br>(擁有此要塞的血盟之血盟成員才能執行的任務。)</body></html>"
+noclan = "<html><body>收容所管理人：<br>你是誰？好像不在血盟成員的名單內...<br>(擁有此要塞的血盟之血盟成員才能執行的任務。)</body></html>"
+finish = "<html><body>收容所管理人：<br>啊，我明白。果然，我沒有看錯人...<br>謝謝你為這裡做的一切。<br>如果你想再次伸出援手的話，我們會非常感激。<br>祝你旅途愉快！</body></html>"
 
 class PyObject:
 	pass
@@ -55,10 +56,10 @@ class PyObject:
 def Reward(st) :
 	if st.getState() == State.STARTED :
 		if st.getRandom(9) > 5 : #No retail info about drop quantity. Guesed 1-2. 60% for 1 and 40% for 2 
-			st.giveItems(DL_MARK, int(2 * Config.RATE_DROP_QUEST))
+			st.giveItems(DL_MARK, int(2 * Config.RATE_QUEST_DROP))
 			st.playSound("ItemSound.quest_itemget")
 		elif st.getRandom(9) < 6  :
-			st.giveItems(DL_MARK, int(1 * Config.RATE_DROP_QUEST))
+			st.giveItems(DL_MARK, int(1 * Config.RATE_QUEST_DROP))
 			st.playSound("ItemSound.quest_itemget") 
 
 def checkConditions(player, new):
@@ -179,7 +180,7 @@ def checkEnter(self, player) :
 def checkLeader(player) :
 	party = player.getParty()
 	if not party:
-		player.sendPacket(SystemMessage.sendString("You are not currently in a party, so you cannot enter."))
+		player.sendPacket(SystemMessage.sendString("為了進入收容所，得先組織2人以上的隊伍才行。"))
 		return False
 	elif not player.getParty().isLeader(player):
 		player.sendPacket(SystemMessage(2185))
@@ -239,7 +240,7 @@ class Quest (JQuest) :
 						text = "You cant enter now. Check again in: " + str(timeleft) + " min."
 			else :
 				text = "The dungeon is empty and you can enter now."
-			htmltext = st.showHtmlFile("status.htm").replace("%text%", text)
+				htmltext = st.showHtmlFile("status.htm").replace("%text%", text)
 		elif event == "enter" :
 			if checkLeader(player) :
 				tele = PyObject()
@@ -289,7 +290,7 @@ class Quest (JQuest) :
 				if cond == 1 and count > 0 :
 					htmltext = "warden_exchange.htm"
 					st.takeItems(DL_MARK, count)
-					st.giveItems(KNIGHT_EPALUETTE, count * 10)
+					st.giveItems(KNIGHT_EPALUETTE, count * 136)
 				elif cond == 1 and count == 0 :
 					htmltext = "warden_yes.htm"
 		return htmltext
@@ -315,7 +316,7 @@ class Quest (JQuest) :
 			if self.worlds.has_key(npc.getInstanceId()):
 				world = self.worlds[npc.getInstanceId()]
 				instanceObj = InstanceManager.getInstance().getInstance(self.currentWorld)
-				instanceObj.setDuration(60000) 
+				instanceObj.setDuration(60000)
 				instanceObj.removeNpcs()
 		elif npcId in RAIDS1 :
 			spawnRaid(self, world, 2)

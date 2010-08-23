@@ -1,23 +1,24 @@
 import sys
-from java.lang import System
-from com.l2jserver import Config
-from com.l2jserver.gameserver.model.quest import State
-from com.l2jserver.gameserver.model.quest import QuestState
-from com.l2jserver.gameserver.instancemanager import FortManager
-from com.l2jserver.gameserver.model.actor.instance import L2PcInstance
-from com.l2jserver.gameserver.instancemanager import InstanceManager
-from com.l2jserver.gameserver.model.entity import Fort
-from com.l2jserver.gameserver import ThreadPoolManager
-from com.l2jserver.gameserver.datatables import NpcTable
-from com.l2jserver.gameserver.datatables import SpawnTable
-from com.l2jserver.gameserver.network.serverpackets  import SystemMessage
-from com.l2jserver.gameserver.network import SystemMessageId
-from com.l2jserver.gameserver.util import Util
-from com.l2jserver.util import Rnd
-from com.l2jserver.gameserver.model.entity import Instance
-from com.l2jserver.gameserver.model.quest.jython import QuestJython as JQuest
+from java.lang                                      import System
+from com.l2jserver                                  import Config
+from com.l2jserver.gameserver                       import ThreadPoolManager
+from com.l2jserver.gameserver.datatables            import NpcTable
+from com.l2jserver.gameserver.datatables            import SpawnTable
+from com.l2jserver.gameserver.instancemanager       import FortManager
+from com.l2jserver.gameserver.instancemanager       import InstanceManager
+from com.l2jserver.gameserver.model.actor.instance  import L2PcInstance
+from com.l2jserver.gameserver.model.entity          import Fort
+from com.l2jserver.gameserver.model.entity          import Instance
+from com.l2jserver.gameserver.model.quest           import State
+from com.l2jserver.gameserver.model.quest           import QuestState
+from com.l2jserver.gameserver.model.quest.jython    import QuestJython as JQuest
+from com.l2jserver.gameserver.network               import SystemMessageId
+from com.l2jserver.gameserver.network.serverpackets import SystemMessage
+from com.l2jserver.gameserver.util                  import Util
+from com.l2jserver.util                             import Rnd
 
 qn = "512_AwlUnderFoot"
+
 QuestId = 512
 QuestName = "AwlUnderFoot"
 QuestDesc = "Access Castle Dungeon"
@@ -25,7 +26,7 @@ QuestDesc = "Access Castle Dungeon"
 #NPC
 WARDEN = [ 36403, 36404, 36405, 36406, 36407, 36408, 36409, 36410, 36411 ]
 
-#MONSTER TO KILL -- Only last 3 Raids (lvl ordered) from 10, drop DL_MARK
+#MONSTER TO KILL -- Only last 3 Raids (lvl ordered) from 162, drop DL_MARK
 RAIDS1 = [ 25546, 25549, 25552 ]
 RAIDS2 = [ 25553, 25554, 25557, 25560 ]
 RAIDS3 = [ 25563, 25566, 25569 ]
@@ -36,7 +37,7 @@ DL_MARK = 9798
 #REWARDS
 KNIGHT_EPALUETTE = 9912
 
-#MESSAGES 
+#MESSAGES
 default = "<html><title>Underground Warden:</title><body><br><br>Warden:<br>You are either not on a quest that involves this NPC, or you don't meet this NPC's minimum quest requirements.</body></html>"
 nolvl = "<html><title>Underground Warden:</title><body><br>Warden:<br>Thank you for volunteering to help, kind adventurer, but we can't allow inexperienced clan members to put themselves in jeopardy -- bad for our reputation, you know.<br>Believe it or not, I was once a prominent adventurer before taking this job.<br> If I can give you some advice, you're not quite ready for such a task.<br>Why don't you come back to me after you've had an opportunity to further develop your skills.<br>(This quest is only available for characters Level 70 or higher.)</body></html>"
 noitem = "<html><title>Underground Warden:</title><body><br>Warden:<br>You come back already?<br1>You do not seam to have what I requested. Come back when you have one or more Dungeon Leader Mark.</body></html>"
@@ -50,10 +51,10 @@ class PyObject:
 def Reward(st) :
 	if st.getState() == State.STARTED :
 		if st.getRandom(9) > 5 : #No retail info about drop quantity. Guesed 1-2. 60% for 1 and 40% for 2 
-			st.giveItems(DL_MARK, int(2 * Config.RATE_DROP_QUEST))
+			st.giveItems(DL_MARK, int(2 * Config.RATE_QUEST_DROP))
 			st.playSound("ItemSound.quest_itemget")
 		elif st.getRandom(9) < 6  :
-			st.giveItems(DL_MARK, int(1 * Config.RATE_DROP_QUEST))
+			st.giveItems(DL_MARK, int(1 * Config.RATE_QUEST_DROP))
 			st.playSound("ItemSound.quest_itemget") 
 
 def checkConditions(player, new):
@@ -93,15 +94,15 @@ def enterInstance(self, player, template, teleto):
 				if not id == State.STARTED :
 					player.sendPacket(SystemMessage.sendString(partyMember.getName() + " not take Awl under foot quest."))
 					return 0
-				else :
-					player.sendPacket(SystemMessage.sendString(partyMember.getName() + " not take Awl under foot quest."))
-					return 0
+			else :
+				player.sendPacket(SystemMessage.sendString(partyMember.getName() + " not take Awl under foot quest."))
+				return 0
 			if partyMember.getInstanceId() != 0:
 				instanceId = partyMember.getInstanceId()
 				if debug: print "Rim Pailaka: found party member in instance:" + str(instanceId)
-			else :
-				if player.getInstanceId() != 0:
-					instanceId = player.getInstanceId()
+		else :
+			if player.getInstanceId() != 0:
+				instanceId = player.getInstanceId()
 	#exising instance
 	if instanceId != 0:
 		if not checkConditions(player, False):
@@ -279,7 +280,7 @@ class Quest (JQuest) :
 				if cond == 1 and count > 0 :
 					htmltext = "warden_exchange.htm"
 					st.takeItems(DL_MARK, count)
-					st.giveItems(KNIGHT_EPALUETTE, count * 10)
+					st.giveItems(KNIGHT_EPALUETTE, count * 162)
 				elif cond == 1 and count == 0 :
 					htmltext = "warden_yes.htm"
 		return htmltext
@@ -322,7 +323,7 @@ class Quest (JQuest) :
 # Quest class and state definition
 QUEST = Quest(QuestId, str(QuestId) + "_" + QuestName, QuestDesc)
 
-for npcId in WARDEN:
+for npcId in WARDEN :
 	QUEST.addStartNpc(npcId)
 	QUEST.addTalkId(npcId)
 	QUEST.addFirstTalkId(npcId)
