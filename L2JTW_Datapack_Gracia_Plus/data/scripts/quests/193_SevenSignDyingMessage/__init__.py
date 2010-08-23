@@ -2,26 +2,25 @@
 # Based on official server Franz
 
 import sys
-from com.l2jserver.gameserver.ai import CtrlIntention
-from com.l2jserver.gameserver.model.quest import State
-from com.l2jserver.gameserver.model.quest import QuestState
-from com.l2jserver.gameserver.model.quest.jython import QuestJython as JQuest
+from com.l2jserver.gameserver.ai                    import CtrlIntention
+from com.l2jserver.gameserver.model.quest           import State
+from com.l2jserver.gameserver.model.quest           import QuestState
+from com.l2jserver.gameserver.model.quest.jython    import QuestJython as JQuest
 from com.l2jserver.gameserver.network.serverpackets import ExStartScenePlayer
 from com.l2jserver.gameserver.network.serverpackets import NpcSay
 
 qn = "193_SevenSignDyingMessage"
 
 # NPCs
-HOLLINT		= 30191
-CAIN		= 32569
-ERIC		= 32570
-ATHEBALDT	= 30760
-SHILENSEVIL	= 27343
-
+HOLLINT       = 30191
+CAIN          = 32569
+ERIC          = 32570
+ATHEBALDT     = 30760
+SHILENSEVIL   = 27343
 # ITEMS
-JACOB_NECK		= 13814
-DEADMANS_HERB	= 13816
-SCULPTURE		= 14353
+JACOB_NECK    = 13814
+DEADMANS_HERB = 13816
+SCULPTURE     = 14353
 
 class Quest (JQuest) :
 	def __init__(self,id,name,descr):
@@ -78,37 +77,42 @@ class Quest (JQuest) :
 		if not st : return htmltext
 
 		npcId = npc.getNpcId()
+		id = st.getState()
 		cond = st.getInt("cond")
 
-		if npcId == HOLLINT :
-			first = player.getQuestState("192_SevenSignSeriesOfDoubt")
-			if st.getState() == State.COMPLETED :
-				htmltext = "<html><head><body>This quest has already been completed.<br></body></html>"
-			elif first and first.getState() == State.COMPLETED and st.getState() == State.CREATED and player.getLevel() >= 79 :
-				htmltext = "30191-01.htm"
-			elif cond == 1 :
-				htmltext = "30191-03.htm"
-			else :
-				htmltext = "30191-00.htm"
-				st.exitQuest(True)
-		elif npcId == CAIN :
-			if cond == 1 :
-				htmltext = "32569-01.htm"
-			elif cond == 2 :
-				htmltext = "32569-06.htm"
-			elif cond == 3 :
-				htmltext = "32569-07.htm"
-			elif cond == 4 :
-				htmltext = "32569-08.htm"
-			elif cond == 5 :
-				htmltext = "32569-10.htm"
-		elif npcId == ERIC :
-			if cond == 2 :
-				htmltext = "32570-01.htm"
-			elif cond == 3 :
-				htmltext = "32570-03.htm"
-		elif npcId == ATHEBALDT and cond == 6:
-				htmltext = "30760-01.htm"
+		if id == State.COMPLETED :
+			htmltext = "<html><body>這是已經完成的任務。</body></html>"
+		elif id == State.CREATED :
+			if npcId == HOLLINT and cond == 0 :
+				first = player.getQuestState("192_SevenSignSeriesOfDoubt")
+				if first and first.getState() == State.COMPLETED and player.getLevel() >= 79 :
+					htmltext = "30191-01.htm"
+				else :
+					htmltext = "30191-00.htm"
+					st.exitQuest(True)
+		elif id == State.STARTED :
+			if npcId == HOLLINT :
+				if cond == 1 :
+					htmltext = "30191-03.htm"
+			elif npcId == CAIN :
+				if cond == 1 :
+					htmltext = "32569-01.htm"
+				elif cond == 2 :
+					htmltext = "32569-06.htm"
+				elif cond == 3 :
+					htmltext = "32569-07.htm"
+				elif cond == 4 :
+					htmltext = "32569-08.htm"
+				elif cond == 5 :
+					htmltext = "32569-10.htm"
+			elif npcId == ERIC :
+				if cond == 2 :
+					htmltext = "32570-01.htm"
+				elif cond == 3 :
+					htmltext = "32570-03.htm"
+			elif npcId == ATHEBALDT :
+				if cond == 6:
+					htmltext = "30760-01.htm"
 		return htmltext
 
 	def onKill(self, npc, player, isPet) :

@@ -1,24 +1,23 @@
 #Created by Bloodshed
 import sys
 
-from com.l2jserver.gameserver.model.quest			import State
-from com.l2jserver.gameserver.model.quest			import QuestState
-from com.l2jserver.gameserver.model.quest.jython	import QuestJython as JQuest
-from com.l2jserver.gameserver.network.serverpackets	import ExStartScenePlayer
+from com.l2jserver.gameserver.model.quest           import State
+from com.l2jserver.gameserver.model.quest           import QuestState
+from com.l2jserver.gameserver.model.quest.jython    import QuestJython as JQuest
+from com.l2jserver.gameserver.network.serverpackets import ExStartScenePlayer
 
 qn = "192_SevenSignSeriesOfDoubt"
 
 #NPCs
-CROOP	= 30676
-HECTOR	= 30197
-STAN	= 30200
-CORPSE	= 32568
-HOLLINT	= 30191
-
+CROOP        = 30676
+HECTOR       = 30197
+STAN         = 30200
+CORPSE       = 32568
+HOLLINT      = 30191
 #ITEMS
-CROOP_INTRO		= 13813
-JACOB_NECK		= 13814
-CROOP_LETTER	= 13815
+CROOP_INTRO  = 13813
+JACOB_NECK   = 13814
+CROOP_LETTER = 13815
 
 class Quest (JQuest) :
 
@@ -77,43 +76,48 @@ class Quest (JQuest) :
 		npcId = npc.getNpcId()
 		cond = st.getInt("cond")
 		id = st.getState()
-		if npcId == CROOP :
-			if id == State.CREATED and player.getLevel() >= 79 :
-				htmltext = "30676-01.htm"
-			elif cond == 1 :
-				htmltext = "30676-04.htm"
-			elif cond == 2 :
-				htmltext = "30676-05.htm"
-				st.set("cond","3")
-				st.playSound("ItemSound.quest_middle")
-				st.giveItems(CROOP_INTRO,1)
-			elif cond >= 3 and cond <= 5 :
-				htmltext = "30676-06.htm"
-			elif cond == 6 :
-				htmltext = "30676-07.htm"
-			elif id == State.COMPLETED :
+
+		if id == State.COMPLETED :
+			if npcId == CROOP :
 				htmltext = "30676-13.htm"
-			elif player.getLevel() < 79 :
-				htmltext = "30676-00.htm"
-				st.exitQuest(True)
-		elif npcId == HECTOR :
-			if cond == 3 :
-				htmltext = "30197-01.htm"
-			if cond >= 4 and cond <= 7 :
-				htmltext = "30197-04.htm"
-		elif npcId == STAN :
-			if cond == 4 :
-				htmltext = "30200-01.htm"
-			if cond >= 5 and cond <= 7 :
-				htmltext = "30200-05.htm"
-		elif npcId == CORPSE :
-			if cond >= 0 and cond <= 5 :
-				htmltext = "32568-03.htm"
-			elif cond == 5 :
-				htmltext = "32568-01.htm"
-		elif npcId == HOLLINT :
-			if cond == 7 :
-				htmltext = "30191-01.htm"
+		elif id == State.CREATED :
+			if npcId == CROOP and cond == 0:
+				if player.getLevel() >= 79 :
+					htmltext = "30676-01.htm"
+				elif player.getLevel() < 79 :
+					htmltext = "30676-00.htm"
+					st.exitQuest(True)
+		elif id == State.STARTED :
+			if npcId == CROOP :
+				if cond == 1 :
+					htmltext = "30676-04.htm"
+				elif cond == 2 :
+					htmltext = "30676-05.htm"
+					st.set("cond","3")
+					st.playSound("ItemSound.quest_middle")
+					st.giveItems(CROOP_INTRO,1)
+				elif cond in [3,4,5] :
+					htmltext = "30676-06.htm"
+				elif cond == 6 :
+					htmltext = "30676-07.htm"
+			elif npcId == HECTOR :
+				if cond == 3 :
+					htmltext = "30197-01.htm"
+				elif cond in [4,5,6,7] :
+					htmltext = "30197-04.htm"
+			elif npcId == STAN :
+				if cond == 4 :
+					htmltext = "30200-01.htm"
+				elif cond in [5,6,7] :
+					htmltext = "30200-05.htm"
+			elif npcId == CORPSE :
+				if cond in [0,1,2,3,4,5] :
+					htmltext = "32568-03.htm"
+				elif cond == 5 :
+					htmltext = "32568-01.htm"
+			elif npcId == HOLLINT :
+				if cond == 7 :
+					htmltext = "30191-01.htm"
 		return htmltext
 
 QUEST	= Quest(192,qn,"七封印，可疑的連續死亡事件")
