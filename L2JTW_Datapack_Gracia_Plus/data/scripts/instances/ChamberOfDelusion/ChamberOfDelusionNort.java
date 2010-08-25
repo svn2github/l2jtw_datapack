@@ -1,3 +1,6 @@
+/**
+ * @author by d0S
+ */
 package instances.ChamberOfDelusion;
 
 import com.l2jserver.gameserver.ai.CtrlIntention;
@@ -36,13 +39,14 @@ public class ChamberOfDelusionNort extends Quest
 	private static final int FAIL1    = 18819;
 	private static final int FAIL2    = 18819;
 	private static final int FAIL3    = 18819;
-	private static final int[] ROOMRB = {-121440,-154688,-6752};
+	private static final int ROOMRB   = 4;
 	private int rb = 0;
 	private int a;
 	public int instId = 0;
 	private int b;
 	private int c;
 	private class teleCoord {int instanceId; int x; int y; int z;}
+
 	private static final int[][] TELEPORT =
 	{
 		{ -122368,-152624,-6752},
@@ -55,6 +59,7 @@ public class ChamberOfDelusionNort extends Quest
 		{ -122368,-154800,-6752},
 		{ -121440,-153008,-6752}
 	};
+
 	private boolean checkConditions(L2PcInstance player)
 	{
 		if (debug)
@@ -105,7 +110,7 @@ public class ChamberOfDelusionNort extends Quest
 	private void teleportrnd(L2PcInstance player, CDWorld world)
 	{
 		int tp = Rnd.get(TELEPORT.length);
-		if (rb == 1 && tp == ROOMRB.length)
+		if (rb == 1 && tp == ROOMRB)
 		{
 			tp = Rnd.get(TELEPORT.length);
 			for (int i = 0; i < TELEPORT.length; i++)
@@ -148,7 +153,7 @@ public class ChamberOfDelusionNort extends Quest
 
 	protected void spawnState(CDWorld world)
 	{
-		world._aenkinel = addSpawn(AENKINEL, -121463,-155094,-6752, 0, false, 0, false, world.instanceId);
+		world._aenkinel = addSpawn(AENKINEL,-121463,-155094,-6752,0,false,0,false,world.instanceId);
 		world._aenkinel.setIsNoRndWalk(false);
 		world.manager = addSpawn(32667,-121440,-154688,-6752,0,false,0,false,world.instanceId);
 		world.manager.setIsNoRndWalk(true);
@@ -379,6 +384,10 @@ public class ChamberOfDelusionNort extends Quest
 			tele.x = -114592;
 			tele.y = -152509;
 			tele.z = -6723;
+			cancelQuestTimers("tproom");
+			cancelQuestTimers("tproom1");
+			cancelQuestTimers("tproom2");
+			cancelQuestTimers("tproom3");
 			for (L2PcInstance partyMember :  player.getParty().getPartyMembers())
 			{
 				exitInstance(partyMember,tele);
