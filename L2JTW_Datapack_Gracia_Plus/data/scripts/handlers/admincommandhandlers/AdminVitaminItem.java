@@ -138,8 +138,9 @@ public class AdminVitaminItem implements IAdminCommandHandler
 		{
 			e.printStackTrace();
 		}
-		finally {
-			try {con.close();} catch (Exception e) {}
+		finally
+		{
+			L2DatabaseFactory.close(con);
 		}
 	}
 	

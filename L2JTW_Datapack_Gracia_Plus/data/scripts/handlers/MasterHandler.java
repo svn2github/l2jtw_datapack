@@ -80,7 +80,6 @@ public class MasterHandler
 		AdminCommandHandler.getInstance().registerAdminCommandHandler(new AdminCache());
 		AdminCommandHandler.getInstance().registerAdminCommandHandler(new AdminCamera());
 		AdminCommandHandler.getInstance().registerAdminCommandHandler(new AdminChangeAccessLevel());
-		AdminCommandHandler.getInstance().registerAdminCommandHandler(new AdminClanHallSieges());  // Add CCH by pmq
 		AdminCommandHandler.getInstance().registerAdminCommandHandler(new AdminCreateItem());
 		AdminCommandHandler.getInstance().registerAdminCommandHandler(new AdminCursedWeapons());
 		AdminCommandHandler.getInstance().registerAdminCommandHandler(new AdminDelete());

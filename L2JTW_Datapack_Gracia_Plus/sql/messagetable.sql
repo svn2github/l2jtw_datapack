@@ -1406,11 +1406,11 @@ INSERT INTO `messagetable` VALUES ('665', 'en', 'Restores the Exp of any clan me
 INSERT INTO `messagetable` VALUES ('665', 'tw', '要塞的血盟成員復活時 EXP 多增加 ', '', 'L2FortManagerInstance.java');
 INSERT INTO `messagetable` VALUES ('665', 'cn', '要塞的血盟成员复活时 EXP 多增加 ', '', 'L2FortManagerInstance.java');
 INSERT INTO `messagetable` VALUES ('666', 'en', 'Withdraw the fee for the next time at ', '', 'L2FortManagerInstance.java');
-INSERT INTO `messagetable` VALUES ('666', 'tw', '收取下一次的費用：', '', 'L2FortManagerInstance.java');
-INSERT INTO `messagetable` VALUES ('666', 'cn', '收取下一次的费用：', '', 'L2FortManagerInstance.java');
+INSERT INTO `messagetable` VALUES ('666', 'tw', '時，將會把下回使用費用匯出', '', 'L2FortManagerInstance.java');
+INSERT INTO `messagetable` VALUES ('666', 'cn', '时，将会把下回使用费用汇出', '', 'L2FortManagerInstance.java');
 INSERT INTO `messagetable` VALUES ('667', 'en', 'Deactivate', '', 'L2FortManagerInstance.java');
-INSERT INTO `messagetable` VALUES ('667', 'tw', '取消', '', 'L2FortManagerInstance.java');
-INSERT INTO `messagetable` VALUES ('667', 'cn', '取消', '', 'L2FortManagerInstance.java');
+INSERT INTO `messagetable` VALUES ('667', 'tw', '非活性化', '', 'L2FortManagerInstance.java');
+INSERT INTO `messagetable` VALUES ('667', 'cn', '非活性化', '', 'L2FortManagerInstance.java');
 INSERT INTO `messagetable` VALUES ('668', 'en', 'none', '', 'L2FortManagerInstance.java');
 INSERT INTO `messagetable` VALUES ('668', 'tw', '無', '', 'L2FortManagerInstance.java');
 INSERT INTO `messagetable` VALUES ('668', 'cn', '无', '', 'L2FortManagerInstance.java');
@@ -1432,12 +1432,15 @@ INSERT INTO `messagetable` VALUES ('673', 'cn', '阶段', '', 'L2FortManagerInst
 INSERT INTO `messagetable` VALUES ('674', 'en', ' staging area', '', 'L2FortManagerInstance.java');
 INSERT INTO `messagetable` VALUES ('674', 'tw', '的位置', '', 'L2FortManagerInstance.java');
 INSERT INTO `messagetable` VALUES ('674', 'cn', '的位置', '', 'L2FortManagerInstance.java');
-INSERT INTO `messagetable` VALUES ('675', 'en', 'Level ', '', 'L2FortManagerInstance.java');
-INSERT INTO `messagetable` VALUES ('675', 'tw', '等級', '', 'L2FortManagerInstance.java');
-INSERT INTO `messagetable` VALUES ('675', 'cn', '等级', '', 'L2FortManagerInstance.java');
+INSERT INTO `messagetable` VALUES ('675', 'en', '', 'Level;', 'L2FortManagerInstance.java');
+INSERT INTO `messagetable` VALUES ('675', 'tw', '', '第;階段', 'L2FortManagerInstance.java');
+INSERT INTO `messagetable` VALUES ('675', 'cn', '', '第;阶段', 'L2FortManagerInstance.java');
 INSERT INTO `messagetable` VALUES ('676', 'en', 'Invalid skill level, contact your admin!', '', 'L2FortManagerInstance.java');
 INSERT INTO `messagetable` VALUES ('676', 'tw', '技能等級錯誤，請回報給管理者！', '', 'L2FortManagerInstance.java');
 INSERT INTO `messagetable` VALUES ('676', 'cn', '技能等级错误，请回报给管理者！', '', 'L2FortManagerInstance.java');
+INSERT INTO `messagetable` VALUES ('677', 'en', '', '「;」', 'L2FortManagerInstance.java');
+INSERT INTO `messagetable` VALUES ('677', 'tw', '', '「;」', 'L2FortManagerInstance.java');
+INSERT INTO `messagetable` VALUES ('677', 'cn', '', '「;」', 'L2FortManagerInstance.java');
 
 INSERT INTO `messagetable` VALUES ('679', 'en', 'I cannot teach you. My class list is empty.', '', 'L2NpcInstance.java');
 INSERT INTO `messagetable` VALUES ('679', 'tw', '我無法教你任何東西。', '', 'L2NpcInstance.java');

@@ -53,7 +53,6 @@ DROP TABLE IF EXISTS clan_subpledges;
 DROP TABLE IF EXISTS clan_wars;
 DROP TABLE IF EXISTS clanhall;
 DROP TABLE IF EXISTS clanhall_functions;
-DROP TABLE IF EXISTS clanhall_siege;
 DROP TABLE IF EXISTS class_list;
 DROP TABLE IF EXISTS cursed_weapons;
 DROP TABLE IF EXISTS dimensional_rift;

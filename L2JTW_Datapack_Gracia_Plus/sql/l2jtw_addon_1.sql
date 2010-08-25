@@ -705,7 +705,6 @@ REPLACE INTO `minions` VALUES (22370, 22371, 4, 4);
 
 -- 增加 SteelCitade 1/F 2/F
 DELETE FROM `spawnlist` WHERE `npc_templateid` IN (22363,22365,22367,22368,22369,22370,22372);
--- DELETE FROM `custom_spawnlist` WHERE `npc_templateid` IN (22363,22365,22367,22368,22369,22370,22372);
 REPLACE INTO `spawnlist` VALUES
 ('', '', 1, 22363, 16290, 282328, -9709, 0, 0, 15719, 120, 0, 0),
 ('', '', 1, 22363, 16287, 281847, -9709, 0, 0, 50191, 120, 0, 0),
@@ -856,124 +855,6 @@ REPLACE INTO `spawnlist` VALUES
 ('', '', 1, 22372, 13742, 280662, -7558, 0, 0, 16383, 120, 0, 0),
 ('', '', 1, 32302, 13293, 282023, -7555, 0, 0, 38182, 120, 0, 0);
 
--- Custom NPC Buffer for npc 1000003
--- (`npc_id`, `skill_id`, `skill_level`, `skill_fee_id`, `skill_fee_amount`, `buff_group`)
-REPLACE INTO `custom_npc_buffer` VALUES (1000003, 10, 8, 57, 100, 10);       -- 召喚暴風晶體
-REPLACE INTO `custom_npc_buffer` VALUES (1000003, 22, 7, 57, 100, 22);       -- 召喚吸血晶體
-REPLACE INTO `custom_npc_buffer` VALUES (1000003, 33, 8, 57, 100, 33);       -- 召喚干擾晶體
-REPLACE INTO `custom_npc_buffer` VALUES (1000003, 67, 7, 57, 100, 67);       -- 召喚治癒晶體
-REPLACE INTO `custom_npc_buffer` VALUES (1000003, 264, 1, 57, 100, 264);     -- 大地之歌
-REPLACE INTO `custom_npc_buffer` VALUES (1000003, 265, 1, 57, 100, 265);     -- 生命之歌
-REPLACE INTO `custom_npc_buffer` VALUES (1000003, 266, 1, 57, 100, 266);     -- 水靈之歌
-REPLACE INTO `custom_npc_buffer` VALUES (1000003, 267, 1, 57, 100, 267);     -- 護衛之歌
-REPLACE INTO `custom_npc_buffer` VALUES (1000003, 268, 1, 57, 100, 268);     -- 風靈之歌
-REPLACE INTO `custom_npc_buffer` VALUES (1000003, 269, 1, 57, 100, 269);     -- 獵者之歌
-REPLACE INTO `custom_npc_buffer` VALUES (1000003, 270, 1, 57, 100, 270);     -- 祈願之歌
-REPLACE INTO `custom_npc_buffer` VALUES (1000003, 271, 1, 57, 100, 271);     -- 戰士之舞
-REPLACE INTO `custom_npc_buffer` VALUES (1000003, 272, 1, 57, 100, 272);     -- 士氣之舞
-REPLACE INTO `custom_npc_buffer` VALUES (1000003, 273, 1, 57, 100, 273);     -- 神祕之舞
-REPLACE INTO `custom_npc_buffer` VALUES (1000003, 274, 1, 57, 100, 274);     -- 火靈之舞
-REPLACE INTO `custom_npc_buffer` VALUES (1000003, 275, 1, 57, 100, 275);     -- 狂暴之舞
-REPLACE INTO `custom_npc_buffer` VALUES (1000003, 276, 1, 57, 100, 276);     -- 專注之舞
-REPLACE INTO `custom_npc_buffer` VALUES (1000003, 277, 1, 57, 100, 277);     -- 光耀之舞
-REPLACE INTO `custom_npc_buffer` VALUES (1000003, 278, 6, 57, 100, 278);     -- 召喚毒蛇晶體
-REPLACE INTO `custom_npc_buffer` VALUES (1000003, 304, 1, 57, 100, 304);     -- 勝利之歌
-REPLACE INTO `custom_npc_buffer` VALUES (1000003, 305, 1, 57, 100, 305);     -- 復仇之歌
-REPLACE INTO `custom_npc_buffer` VALUES (1000003, 306, 1, 57, 100, 306);     -- 抗火之歌
-REPLACE INTO `custom_npc_buffer` VALUES (1000003, 307, 1, 57, 100, 307);     -- 抗水之舞
-REPLACE INTO `custom_npc_buffer` VALUES (1000003, 308, 1, 57, 100, 308);     -- 抗風之歌
-REPLACE INTO `custom_npc_buffer` VALUES (1000003, 309, 1, 57, 100, 309);     -- 抗地之舞
-REPLACE INTO `custom_npc_buffer` VALUES (1000003, 310, 1, 57, 100, 310);     -- 吸血之舞
-REPLACE INTO `custom_npc_buffer` VALUES (1000003, 311, 1, 57, 100, 311);     -- 保護之舞
-REPLACE INTO `custom_npc_buffer` VALUES (1000003, 349, 1, 57, 100, 349);     -- 奮迅之歌
-REPLACE INTO `custom_npc_buffer` VALUES (1000003, 363, 1, 57, 100, 363);     -- 沉思之歌
-REPLACE INTO `custom_npc_buffer` VALUES (1000003, 364, 1, 57, 100, 364);     -- 鬥者之歌
-REPLACE INTO `custom_npc_buffer` VALUES (1000003, 365, 1, 57, 100, 365);     -- 艷惑之舞
-REPLACE INTO `custom_npc_buffer` VALUES (1000003, 366, 1, 57, 100, 366);     -- 闇影之舞
-REPLACE INTO `custom_npc_buffer` VALUES (1000003, 367, 1, 57, 100, 367);     -- 梅杜莎之舞
-REPLACE INTO `custom_npc_buffer` VALUES (1000003, 395, 1, 57, 100, 395);     -- 英雄的奇蹟
-REPLACE INTO `custom_npc_buffer` VALUES (1000003, 396, 1, 57, 100, 396);     -- 英雄的狂熱
-REPLACE INTO `custom_npc_buffer` VALUES (1000003, 529, 1, 57, 100, 529);     -- 元素之歌
-REPLACE INTO `custom_npc_buffer` VALUES (1000003, 530, 1, 57, 100, 530);     -- 團結之舞
-REPLACE INTO `custom_npc_buffer` VALUES (1000003, 783, 1, 57, 100, 783);     -- 召喚聰慧晶體
-REPLACE INTO `custom_npc_buffer` VALUES (1000003, 1002, 3, 57, 100, 1002);   -- 靈火頌歌
-REPLACE INTO `custom_npc_buffer` VALUES (1000003, 1003, 3, 57, 100, 1003);   -- 帕格立歐力量
-REPLACE INTO `custom_npc_buffer` VALUES (1000003, 1004, 3, 57, 100, 1004);   -- 帕格立歐智慧
-REPLACE INTO `custom_npc_buffer` VALUES (1000003, 1005, 3, 57, 100, 1005);   -- 帕格立歐祝福
-REPLACE INTO `custom_npc_buffer` VALUES (1000003, 1006, 3, 57, 100, 1006);   -- 聖火頌歌
-REPLACE INTO `custom_npc_buffer` VALUES (1000003, 1007, 2, 57, 100, 1007);   -- 狂戰頌歌
-REPLACE INTO `custom_npc_buffer` VALUES (1000003, 1008, 3, 57, 100, 1008);   -- 帕格立歐榮光
-REPLACE INTO `custom_npc_buffer` VALUES (1000003, 1009, 3, 57, 100, 1009);   -- 鐵壁頌歌
-REPLACE INTO `custom_npc_buffer` VALUES (1000003, 1010, 3, 57, 100, 1010);   -- 聖靈之盾
-REPLACE INTO `custom_npc_buffer` VALUES (1000003, 1032, 3, 57, 100, 1032);   -- 充沛活力
-REPLACE INTO `custom_npc_buffer` VALUES (1000003, 1033, 3, 57, 100, 1033);   -- 毒性抵抗
-REPLACE INTO `custom_npc_buffer` VALUES (1000003, 1035, 4, 57, 100, 1035);   -- 心靈防護
-REPLACE INTO `custom_npc_buffer` VALUES (1000003, 1036, 2, 57, 100, 1036);   -- 魔法屏障
-REPLACE INTO `custom_npc_buffer` VALUES (1000003, 1040, 3, 57, 100, 1040);   -- 保護盾
-REPLACE INTO `custom_npc_buffer` VALUES (1000003, 1043, 1, 57, 100, 1043);   -- 神聖武器
-REPLACE INTO `custom_npc_buffer` VALUES (1000003, 1044, 3, 57, 100, 1044);   -- 強癒術
-REPLACE INTO `custom_npc_buffer` VALUES (1000003, 1045, 6, 57, 100, 1045);   -- 神佑之體
-REPLACE INTO `custom_npc_buffer` VALUES (1000003, 1048, 6, 57, 100, 1048);   -- 神佑之魂
-REPLACE INTO `custom_npc_buffer` VALUES (1000003, 1059, 3, 57, 100, 1059);   -- 魔力催化
-REPLACE INTO `custom_npc_buffer` VALUES (1000003, 1062, 2, 57, 100, 1062);   -- 狂戰士魂
-REPLACE INTO `custom_npc_buffer` VALUES (1000003, 1068, 3, 57, 100, 1068);   -- 力量強化
-REPLACE INTO `custom_npc_buffer` VALUES (1000003, 1077, 3, 57, 100, 1077);   -- 弱點偵測
-REPLACE INTO `custom_npc_buffer` VALUES (1000003, 1078, 6, 57, 100, 1078);   -- 精神專注
-REPLACE INTO `custom_npc_buffer` VALUES (1000003, 1085, 3, 57, 100, 1085);   -- 靈活思緒
-REPLACE INTO `custom_npc_buffer` VALUES (1000003, 1086, 2, 57, 100, 1086);   -- 速度激發
-REPLACE INTO `custom_npc_buffer` VALUES (1000003, 1087, 3, 57, 100, 1087);   -- 敏捷術
-REPLACE INTO `custom_npc_buffer` VALUES (1000003, 1182, 3, 57, 100, 1182);   -- 水之防護
-REPLACE INTO `custom_npc_buffer` VALUES (1000003, 1189, 3, 57, 100, 1189);   -- 風之防護
-REPLACE INTO `custom_npc_buffer` VALUES (1000003, 1191, 3, 57, 100, 1191);   -- 火之防護
-REPLACE INTO `custom_npc_buffer` VALUES (1000003, 1204, 2, 57, 100, 1204);   -- 風之疾走
-REPLACE INTO `custom_npc_buffer` VALUES (1000003, 1240, 3, 57, 100, 1240);   -- 導引
-REPLACE INTO `custom_npc_buffer` VALUES (1000003, 1242, 3, 57, 100, 1242);   -- 死之呢喃
-REPLACE INTO `custom_npc_buffer` VALUES (1000003, 1243, 6, 57, 100, 1243);   -- 祝福之盾
-REPLACE INTO `custom_npc_buffer` VALUES (1000003, 1249, 3, 57, 100, 1249);   -- 帕格立歐之眼
-REPLACE INTO `custom_npc_buffer` VALUES (1000003, 1250, 3, 57, 100, 1250);   -- 帕格立歐之盾
-REPLACE INTO `custom_npc_buffer` VALUES (1000003, 1251, 2, 57, 100, 1251);   -- 狂暴頌歌
-REPLACE INTO `custom_npc_buffer` VALUES (1000003, 1252, 3, 57, 100, 1252);   -- 迴避頌歌
-REPLACE INTO `custom_npc_buffer` VALUES (1000003, 1253, 3, 57, 100, 1253);   -- 盛怒頌歌
-REPLACE INTO `custom_npc_buffer` VALUES (1000003, 1256, 13, 57, 100, 1256);  -- 帕格立歐之心
-REPLACE INTO `custom_npc_buffer` VALUES (1000003, 1259, 4, 57, 100, 1259);   -- 抵抗休克
-REPLACE INTO `custom_npc_buffer` VALUES (1000003, 1260, 3, 57, 100, 1260);   -- 帕格立歐迅捷
-REPLACE INTO `custom_npc_buffer` VALUES (1000003, 1261, 2, 57, 100, 1261);   -- 帕格立歐憤怒
-REPLACE INTO `custom_npc_buffer` VALUES (1000003, 1268, 4, 57, 100, 1268);   -- 吸血怒擊
-REPLACE INTO `custom_npc_buffer` VALUES (1000003, 1279, 9, 57, 100, 1279);   -- 召喚麻痺晶體
-REPLACE INTO `custom_npc_buffer` VALUES (1000003, 1280, 9, 57, 100, 1280);   -- 召喚水液晶體
-REPLACE INTO `custom_npc_buffer` VALUES (1000003, 1281, 9, 57, 100, 1281);   -- 召喚火光晶體
-REPLACE INTO `custom_npc_buffer` VALUES (1000003, 1284, 3, 57, 100, 1284);   -- 復仇頌歌
-REPLACE INTO `custom_npc_buffer` VALUES (1000003, 1303, 2, 57, 100, 1303);   -- 野性魔力
-REPLACE INTO `custom_npc_buffer` VALUES (1000003, 1308, 3, 57, 100, 1308);   -- 掠奪頌歌
-REPLACE INTO `custom_npc_buffer` VALUES (1000003, 1309, 3, 57, 100, 1309);   -- 獵鷹頌歌
-REPLACE INTO `custom_npc_buffer` VALUES (1000003, 1310, 4, 57, 100, 1310);   -- 嗜血頌歌
-REPLACE INTO `custom_npc_buffer` VALUES (1000003, 1323, 1, 57, 100, 1323);   -- 貴族的祝福
-REPLACE INTO `custom_npc_buffer` VALUES (1000003, 1325, 1, 57, 100, 1325);   -- 貴族的強運
-REPLACE INTO `custom_npc_buffer` VALUES (1000003, 1352, 1, 57, 100, 1352);   -- 元素加護
-REPLACE INTO `custom_npc_buffer` VALUES (1000003, 1353, 1, 57, 100, 1353);   -- 神聖加護
-REPLACE INTO `custom_npc_buffer` VALUES (1000003, 1355, 1, 57, 100, 1355);   -- 水之預言
-REPLACE INTO `custom_npc_buffer` VALUES (1000003, 1356, 1, 57, 100, 1356);   -- 火之預言
-REPLACE INTO `custom_npc_buffer` VALUES (1000003, 1357, 1, 57, 100, 1357);   -- 風之預言
-REPLACE INTO `custom_npc_buffer` VALUES (1000003, 1362, 1, 57, 100, 1362);   -- 聖靈頌歌
-REPLACE INTO `custom_npc_buffer` VALUES (1000003, 1363, 1, 57, 100, 1363);   -- 凱旋頌歌
-REPLACE INTO `custom_npc_buffer` VALUES (1000003, 1364, 1, 57, 100, 1364);   -- 帕格立歐凝視
-REPLACE INTO `custom_npc_buffer` VALUES (1000003, 1365, 1, 57, 100, 1365);   -- 帕格立歐之魂
-REPLACE INTO `custom_npc_buffer` VALUES (1000003, 1374, 1, 57, 100, 1374);   -- 英雄的勇氣
-REPLACE INTO `custom_npc_buffer` VALUES (1000003, 1388, 3, 57, 100, 1388);   -- 高級力量強化
-REPLACE INTO `custom_npc_buffer` VALUES (1000003, 1389, 3, 57, 100, 1389);   -- 高級保護盾
-REPLACE INTO `custom_npc_buffer` VALUES (1000003, 1390, 3, 57, 100, 1390);   -- 戰爭頌歌
-REPLACE INTO `custom_npc_buffer` VALUES (1000003, 1391, 3, 57, 100, 1391);   -- 大地頌歌
-REPLACE INTO `custom_npc_buffer` VALUES (1000003, 1392, 3, 57, 100, 1392);   -- 聖之防護
-REPLACE INTO `custom_npc_buffer` VALUES (1000003, 1393, 3, 57, 100, 1393);   -- 暗之防護
-REPLACE INTO `custom_npc_buffer` VALUES (1000003, 1397, 3, 57, 100, 1397);   -- 澄澈思緒
-REPLACE INTO `custom_npc_buffer` VALUES (1000003, 1413, 1, 57, 100, 1413);   -- 輝煌頌歌
-REPLACE INTO `custom_npc_buffer` VALUES (1000003, 4699, 10, 57, 100, 4699);  -- 皇后的祝福
-REPLACE INTO `custom_npc_buffer` VALUES (1000003, 4700, 10, 57, 100, 4700);  -- 皇后的禮物
-REPLACE INTO `custom_npc_buffer` VALUES (1000003, 4701, 10, 57, 100, 4701);  -- 皇后的恩寵
-REPLACE INTO `custom_npc_buffer` VALUES (1000003, 4702, 10, 57, 100, 4702);  -- 六翼天使的祝福
-REPLACE INTO `custom_npc_buffer` VALUES (1000003, 4703, 10, 57, 100, 4703);  -- 六翼天使的禮物
-REPLACE INTO `custom_npc_buffer` VALUES (1000003, 4704, 10, 57, 100, 4704);  -- 六翼天使的恩典
-
 -- 怪物手拿武器
 UPDATE `npc` SET`rhand`= 127 where id = 22485;
 UPDATE `npc` SET`rhand`= 127 where id = 22486;
@@ -1108,67 +989,6 @@ REPLACE INTO `npcAIData` VALUES
 (29162,50,NULL,NULL,NULL,NULL,NULL,NULL,0,0,0,0,NULL,'Tiat',900,NULL,NULL,NULL,'balanced'),
 (29163,50,NULL,NULL,NULL,NULL,NULL,NULL,0,0,0,0,NULL,'Tiat',900,NULL,NULL,NULL,'balanced'),
 (29175,50,NULL,NULL,NULL,NULL,NULL,NULL,0,0,0,0,NULL,'Tiat',900,NULL,NULL,NULL,'balanced');
-
--- clan hall sieges
-REPLACE INTO `clanhall` VALUES
-('21','Fortress of Resistance','0','0','Ol Mahum Fortress of Resistance','Partisan','0','3','0'),
-('34','Devastated Castle','0','0','Contestable Clan Hall','Devastated','0','3','0'),
-('35','Bandit Stronghold','0','0','Contestable Clan Hall','Bandit','0','3','0'),
-('62','Rainbow Springs','0','0','','HotSpring','0','3','0'),
-('63','Beast Farm','0','0','','BeastFarm','0','3','0'),
-('64','Fortress of the Dead','0','0','','DeadForest','0','3','0');
--- clan hall sieges
-REPLACE INTO `admin_command_access_rights` VALUES
--- clan hall sieges
-('admin_startfortresist','1'),
-('admin_endfortresist','1'),
-('admin_startdevastated','1'),
-('admin_enddevastated','1'),
-('admin_startbandit','1'),
-('admin_endbandit','1'),
-('admin_startwildbeastfarm','1'),
-('admin_endwildbeastfarm','1'),
-('admin_startfortress','1'),
-('admin_endfortress','1');
--- clan hall sieges
-REPLACE INTO `npc` VALUES 
-(35368,35368,'Bloody Lord Nurka',0,'',0,'LineageMonster.oel_mahum',20.00,37.00,55,'male','L2SiegeBoss',40,1264000,987,63.20,2.45,40,43,30,21,20,10,1512,1,670,322,360,261,282,0,333,72,0,0,0,77,121,0,0,'LAST_HIT','false'),
-(35375,35375,'Bloody Lord Nurka',0,'',0,'LineageMonster.oel_mahum',20.00,37.00,55,'male','L2SiegeBoss',40,1264000,987,94.80,2.45,40,43,30,21,20,10,1512,1,670,322,360,261,282,0,333,72,0,0,0,77,121,0,0,'LAST_HIT','false'),
-(35382,35382,'Brakel',0,'Partisan Herald',0,'LineageMonster.ol_mahum_champion',14.00,27.00,70,'male','L2ClanHallSiege',40,3862,1494,0.00,0.00,40,43,30,21,20,20,0,0,1303,471,607,382,253,0,333,0,0,0,0,50,1,0,0,'LAST_HIT','false'),
-(35410,35410,'Gustav',0,'',0,'LineageMonster.headless_knight',21.00,31.00,70,'male','L2SiegeBoss',40,8092000,2987,17.85,2.78,60,57,73,76,70,80,490,0,3987,469,1732,381,333,0,3819,0,0,0,0,113,291,1,0,'LAST_HIT','false'),
-(35420,35420,'Loken',0,'Messenger',0,'LineageMonster.human_ghost',8.00,22.00,70,'male','L2ClanHallSiege',40,3862,1494,0.00,0.00,40,43,30,21,20,20,0,0,1303,471,607,382,253,0,333,74,0,0,0,60,120,1,0,'LAST_HIT','false'),
-(35437,35437,'Messenger',0,'',0,'LineageMonster.oel_mahum',20.00,37.00,70,'male','L2ClanHallSiege',40,3862,1494,0.00,0.00,40,43,30,21,20,20,0,0,1303,471,607,382,253,0,333,0,0,0,0,77,132,0,0,'LAST_HIT','false'),
-(35604,35604,'Messenger',0,'',0,'LineageNPC.yeti_cute',5.00,10.50,70,'male','L2ClanHallSiege',40,3862,1494,0.00,0.00,40,43,30,21,20,20,0,0,1303,471,607,382,253,0,333,0,0,0,0,88,132,0,0,'LAST_HIT','false'),
-(35627,35627,'Messenger',0,'',0,'LineageMonster.kel_mahum_champion',13.00,32.00,70,'male','L2ClanHallSiege',40,3862,1494,0.00,0.00,40,43,30,21,20,20,0,0,1303,471,607,382,253,0,333,0,0,0,0,88,132,0,0,'LAST_HIT','false'),
-(35639,35639,'Jacquard',0,'Messenger',0,'LineageMonster2.vampire_soldier',8.00,23.50,70,'male','L2ClanHallSiege',40,3862,1494,0.00,0.00,40,43,30,21,20,20,0,0,1303,471,607,382,253,0,333,0,0,0,0,88,132,0,0,'LAST_HIT','false');
--- clan hall sieges
-REPLACE INTO `zone_vertices` VALUES
--- Fortress of Resistance
-(111000,0,41463,106067),
-(111000,1,49241,114650),
--- Devastated Castle
-(111004,0,175102,-20791),
-(111004,1,183243,-13675),
--- Bandit Stronghold
-(111005,0,73630,-2280),
-(111005,1,89056,-13342),
--- Rainbow Springs
-(111001,0,136507,-126708),
-(111001,1,143822,-121419),
--- Beast Farm
-(111002,0,51776,-101600),
-(111002,1,65519,-91320),
--- Fortress of the Dead
-(111003,0,51472,-31543),
-(111003,1,62249,-18324);
-
--- ----------------------------
--- Records 
--- ----------------------------
-REPLACE INTO `clanhall_siege` VALUES
-(21, 'Fortress of Resistance', 0),
-(34, 'Devastated Castle', 0),
-(35, 'Bandit Stronghold', 0);
 
 -- 菲拉卡-惡魔的遺產
 UPDATE `npc` SET `type`='L2Monster', `hp`=100, `exp`=0, `sp`=0, `walkspd`=0, `runspd`=0 where id='32495';  -- 寶箱
@@ -1737,3 +1557,57 @@ UPDATE `npc` SET `type`='L2Minion', `level`=81, `exp`=0, `sp`=0, `hp`=8760, `mp`
 UPDATE `npc` SET `type`='L2Minion', `level`=81, `exp`=0, `sp`=0, `hp`=8760, `mp`=1708 where id='25571';  -- 加斯的突擊兵
 REPLACE INTO `minions` VALUES (25569, 25570, 1, 1);
 REPLACE INTO `minions` VALUES (25569, 25571, 1, 1);
+
+-- 權能培訓場
+UPDATE `npc` SET `type`='L2Monster', `level`=83, `exp`=8453,  `sp`=912,   `hp`=3835, `mp`=1777 where id='22780';  -- 賽爾豺狼士兵(弓手)
+UPDATE `npc` SET `type`='L2Monster', `level`=83, `exp`=8453,  `sp`=912,   `hp`=3835, `mp`=1777 where id='22782';  -- 賽爾豺狼士兵(戰士)
+UPDATE `npc` SET `type`='L2Monster', `level`=83, `exp`=8453,  `sp`=912,   `hp`=3835, `mp`=1777 where id='22784';  -- 賽爾豺狼士兵(法師)
+UPDATE `npc` SET `type`='L2Monster', `level`=83, `exp`=17547, `sp`=1759,  `hp`=3835, `mp`=1777 where id='18908';  -- 賽爾豺狼料理長
+UPDATE `npc` SET `type`='L2Monster', `level`=84, `exp`=20751, `sp`=2063,  `hp`=4039, `mp`=1812 where id='22786';  -- 賽爾豺狼十夫長(弓手)
+UPDATE `npc` SET `type`='L2Monster', `level`=84, `exp`=20751, `sp`=2063,  `hp`=4039, `mp`=1812 where id='22787';  -- 賽爾豺狼十夫長(戰士)
+UPDATE `npc` SET `type`='L2Monster', `level`=84, `exp`=20751, `sp`=2063,  `hp`=4039, `mp`=1812 where id='22788';  -- 賽爾豺狼十夫長(法師)
+UPDATE `npc` SET `type`='L2Monster', `level`=84, `exp`=4807,  `sp`=512,   `hp`=4039, `mp`=1812 where id='22781';  -- 賽爾豺狼熟練兵(弓手)
+UPDATE `npc` SET `type`='L2Monster', `level`=84, `exp`=8532,  `sp`=910,   `hp`=4039, `mp`=1812 where id='22783';  -- 賽爾豺狼熟練兵(戰士)
+UPDATE `npc` SET `type`='L2Monster', `level`=84, `exp`=11192, `sp`=1194,  `hp`=4039, `mp`=1812 where id='22785';  -- 賽爾豺狼熟練兵(法師)
+UPDATE `npc` SET `type`='L2Monster', `level`=84, `exp`=25111, `sp`=2528,  `hp`=4039, `mp`=1812 where id='22778';  -- 賽爾豺狼訓練教官(弓手)
+UPDATE `npc` SET `type`='L2Monster', `level`=84, `exp`=25111, `sp`=2528,  `hp`=4039, `mp`=1812 where id='22775';  -- 賽爾豺狼訓練教官(法師)
+UPDATE `npc` SET `type`='L2Monster', `level`=84, `exp`=25111, `sp`=2528,  `hp`=4039, `mp`=1812 where id='22777';  -- 賽爾豺狼訓練教官(戰士)
+UPDATE `npc` SET `type`='L2Monster', `level`=84, `exp`=37863, `sp`=3820,  `hp`=4039, `mp`=1812 where id='22776';  -- 賽爾豺狼訓練教官長
+UPDATE `npc` SET `type`='L2Monster', `level`=84, `exp`=24663, `sp`= 2481, `hp`=4039, `mp`=1812 where id='22779';  -- 賽爾豺狼護衛戰士
+-- 蜥蜴草原
+UPDATE `npc` SET `type`='L2Monster', `level`=82, `exp`=19616, `sp`=2145, `hp`=3643, `mp`=1743 where id='18862';  -- 坦塔蜥蜴人守護者 幽谷勒斯的隨行員
+UPDATE `npc` SET `type`='L2Monster', `level`=82, `exp`=14826, `sp`=1621, `hp`=3643, `mp`=1743 where id='22768';  -- 坦塔蜥蜴人巡守
+UPDATE `npc` SET `type`='L2Monster', `level`=83, `exp`=21133, `sp`=2282, `hp`=3835, `mp`=1777 where id='22772';  -- 坦塔蜥蜴人弓箭手
+UPDATE `npc` SET `type`='L2Monster', `level`=83, `exp`=19888, `sp`=2147, `hp`=3835, `mp`=1777 where id='22769';  -- 坦塔蜥蜴人戰士
+UPDATE `npc` SET `type`='L2Monster', `level`=83, `exp`=20911, `sp`=2258, `hp`=3835, `mp`=1777 where id='22773';  -- 坦塔蜥蜴人魔法師
+UPDATE `npc` SET `type`='L2Monster', `level`=84, `exp`=34362, `sp`=3499, `hp`=4039, `mp`=1812 where id='22770';  -- 坦塔蜥蜴人勇士
+UPDATE `npc` SET `type`='L2Monster', `level`=84, `exp`=38824, `sp`=3950, `hp`=4039, `mp`=1812 where id='22774';  -- 坦塔蜥蜴人召喚士
+UPDATE `npc` SET `type`='L2Monster', `level`=84, `exp`=35295, `sp`=3599, `hp`=4039, `mp`=1812 where id='22771';  -- 坦塔蜥蜴人狂戰士
+UPDATE `npc` SET `type`='L2Monster', `level`=84, `exp`=0,     `sp`=0,    `hp`=4039, `mp`=1812 where id='18863';  -- 祭司長 幽谷勒斯 坦塔蜥蜴人
+-- 柯克拉闊 -- 殄滅之種
+UPDATE `npc` SET `type`='L2Monster', `level`=85, `exp`=579450,  `sp`=58220,  `hp`=55817,  `mp`=1846 where id='22762';  -- 卡伊歐納
+UPDATE `npc` SET `type`='L2Monster', `level`=85, `exp`=579303,  `sp`=58205,  `hp`=55817,  `mp`=1846 where id='22760';  -- 卡尼比
+UPDATE `npc` SET `type`='L2Monster', `level`=85, `exp`=579303,  `sp`=58205,  `hp`=55817,  `mp`=1846 where id='22761';  -- 奇里歐納
+UPDATE `npc` SET `type`='L2Monster', `level`=85, `exp`=1209443, `sp`=121549, `hp`=111546, `mp`=1846 where id='22765';  -- 精銳卡伊歐納 柯克拉闊
+UPDATE `npc` SET `type`='L2Monster', `level`=85, `exp`=1209443, `sp`=121549, `hp`=111546, `mp`=1846 where id='22763';  -- 精銳卡尼比 柯克拉闊
+UPDATE `npc` SET `type`='L2Monster', `level`=85, `exp`=1206702, `sp`=121260, `hp`=111546, `mp`=1846 where id='22764';  -- 精銳奇里歐納 柯克拉闊
+-- 比斯塔闊 -- 殄滅之種
+UPDATE `npc` SET `type`='L2Monster', `level`=85, `exp`=585939,  `sp`=58904,  `hp`=55817,  `mp`=1846 where id='22749';  -- 特雷坎
+UPDATE `npc` SET `type`='L2Monster', `level`=85, `exp`=579303,  `sp`=58205,  `hp`=55817,  `mp`=1846 where id='22746';  -- 巴格連特
+UPDATE `npc` SET `type`='L2Monster', `level`=85, `exp`=579303,  `sp`=58205,  `hp`=55817,  `mp`=1846 where id='22747';  -- 布拉奇安
+UPDATE `npc` SET `type`='L2Monster', `level`=85, `exp`=579450,  `sp`=58220,  `hp`=55817,  `mp`=1846 where id='22748';  -- 格洛伊坎
+UPDATE `npc` SET `type`='L2Monster', `level`=85, `exp`=1209443, `sp`=121549, `hp`=111546, `mp`=1846 where id='22750';  -- 精銳巴格連特 比斯塔闊
+UPDATE `npc` SET `type`='L2Monster', `level`=85, `exp`=1209443, `sp`=121549, `hp`=111546, `mp`=1846 where id='22751';  -- 精銳布拉齊安 比斯塔闊
+UPDATE `npc` SET `type`='L2Monster', `level`=85, `exp`=1206702, `sp`=121260, `hp`=111546, `mp`=1846 where id='22752';  -- 精銳格洛伊坎 比斯塔闊
+UPDATE `npc` SET `type`='L2Monster', `level`=85, `exp`=1209443, `sp`=121549, `hp`=111546, `mp`=1846 where id='22753';  -- 精銳特雷坎 比斯塔闊
+-- 雷提里闊 -- 殄滅之種
+UPDATE `npc` SET `type`='L2Monster', `level`=85, `exp`=579303,  `sp`=58205,  `hp`=55817,  `mp`=1846 where id='22755';  -- 克拉奇安
+UPDATE `npc` SET `type`='L2Monster', `level`=85, `exp`=579450,  `sp`=58220,  `hp`=55817,  `mp`=1846 where id='22756';  -- 塔迪翁
+UPDATE `npc` SET `type`='L2Monster', `level`=85, `exp`=579303,  `sp`=58205,  `hp`=55817,  `mp`=1846 where id='22754';  -- 托特黎安
+UPDATE `npc` SET `type`='L2Monster', `level`=85, `exp`=1206702, `sp`=121260, `hp`=111546, `mp`=1846 where id='22758';  -- 精銳克拉奇安 雷提里闊
+UPDATE `npc` SET `type`='L2Monster', `level`=85, `exp`=1209443, `sp`=121549, `hp`=111546, `mp`=1846 where id='22759';  -- 精銳塔迪翁 雷提里闊
+UPDATE `npc` SET `type`='L2Monster', `level`=85, `exp`=1209443, `sp`=121549, `hp`=111546, `mp`=1846 where id='22757';  -- 精銳托特黎安 雷提里闊
+-- 殄滅之種 85級狩獵首領
+UPDATE `npc` SET `type`='L2RaidBoss', `level`=85, `exp`=3233771, `sp`=403115, `hp`=631293, `mp`=18468 where id='25697';  -- 土倫巴 雷提里闊
+UPDATE `npc` SET `type`='L2RaidBoss', `level`=85, `exp`=3078748, `sp`=399008, `hp`=763865, `mp`=18468 where id='25696';  -- 塔克拉甘 比斯塔闊  可吸魂
+UPDATE `npc` SET `type`='L2RaidBoss', `level`=85, `exp`=3233771, `sp`=403115, `hp`=631293, `mp`=18468 where id='25698';  -- 多帕建 柯克拉闊  可吸魂
