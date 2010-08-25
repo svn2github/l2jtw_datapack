@@ -240,9 +240,9 @@ REPLACE INTO `teleport` VALUES
 ('Disciples Necropolis -> Lilith',450,184448,-10120,-5500,0,0,57);
 
 -- 修正攻城時間
-ALTER TABLE `castle` DROP PRIMARY KEY, ADD PRIMARY KEY (`id`);
-UPDATE `castle` SET `siegeDate` = '978782400000' WHERE `siegeDate` = '0' AND `id` IN (1,2,5,8,9);
-UPDATE `castle` SET `siegeDate` = '979459200000' WHERE `siegeDate` = '0' AND `id` IN (3,4,6,7);
+-- ALTER TABLE `castle` DROP PRIMARY KEY, ADD PRIMARY KEY (`id`);
+-- UPDATE `castle` SET `siegeDate` = '978782400000' WHERE `siegeDate` = '0' AND `id` IN (1,2,5,8,9);
+-- UPDATE `castle` SET `siegeDate` = '979459200000' WHERE `siegeDate` = '0' AND `id` IN (3,4,6,7);
 
 -- 修正奇岩港口的傳送價格
 UPDATE `teleport` SET `price` = '5200' WHERE `id` IN (63);
