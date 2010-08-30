@@ -1,4 +1,4 @@
-/*
+/**
 Todo:
 - Traps not done
 - no random mob spawns after mob kill
@@ -77,7 +77,7 @@ public class SeedOfDestruction extends Quest
 	private static final boolean debug = false;
 	//private static final int EMPTY_DESTROY_TIME = 5;
 	private static final int EXIT_TIME = 5;
-
+	private int _numAtk = 0;
 	// Items
 
 	// NPCs,mobs
@@ -92,7 +92,6 @@ public class SeedOfDestruction extends Quest
 	private static final int PRIEST                 = 29173;
 	private static final int NAEZD                  = 29162;
 	private static final int PELTAST                = 22581;
-	private static final int PORTAL                 = 18696;
 	private static final int[] SPAWN_MOB_IDS = { 22536, 22537, 22538, 22539, 22540, 22541, 22542, 22543, 22544, 22547, 22550, 22551, 22552, 22596 };
 	private static final int[] MOB_IDS = { 22536, 22537, 22538, 22539, 22540, 22541, 22542, 22543, 22544, 22547, 22550, 22551, 22552, 22596, 29162 };
 	private static final L2CharPosition MOVE_TO_TIADA = new L2CharPosition( -250403, 207273, -11952, 16384 );
@@ -135,6 +134,10 @@ public class SeedOfDestruction extends Quest
 	private static final int[][] SQUARE_SPAWNS_STATIC = {
 		{ 18776, -245817, 217075, -12208, 0 },
 		{ 32601, -245820, 220921, -12091, 0 }
+	};
+	private static final int[][] FORT_PORTALS = {
+		{ 18696,-248781,209587,-11966,16384}, { 18696,-252025,209587,-11966,16384},
+		{ 18696,-248781,206325,-11966,16384}, { 18696,-252027,206325,-11966,16384}
 	};
 	private static final int[][] SQUARE_SPAWNS_MAIN = {{ 22541, -245714, 216761, -12208, 11487 },
 		{ 22541, -245563, 217294, -12208, 33720 }, { 22544, -246104, 217132, -12208, 62589 },
@@ -739,7 +742,7 @@ public class SeedOfDestruction extends Quest
 			if (mob[0] == SPAWN_DEVICE)
 			{
 				npc.disableCoreAI(true);
-				startQuestTimer("Spawn", 10000, npc, null, true);
+				startQuestTimer("Spawn", 60000, npc, null, true);  // Edit Spawn Mob Time
 			}
 		}
 	}
@@ -784,14 +787,8 @@ public class SeedOfDestruction extends Quest
 
 	protected void runThrone(SODWorld world)
 	{
-		L2Npc portal1 = addSpawn(PORTAL, -248781, 209587, -11966, 0, false,0,false,world.instanceId);
-		portal1.setIsNoRndWalk(true);
-		L2Npc portal2 = addSpawn(PORTAL, -252025, 209587, -11966, 0, false,0,false,world.instanceId);
-		portal2.setIsNoRndWalk(true); 
-		world._portalForCamera = addSpawn(PORTAL, -248781, 206325, -11966, 0, false,0,false,world.instanceId);
+		world._portalForCamera = addSpawn(SPAWN_DEVICE, -248781, 206325, -11966, 0, false,0,false,world.instanceId);
 		world._portalForCamera.setIsNoRndWalk(true);
-		L2Npc portal3 = addSpawn(PORTAL, -252027, 206325, -11966, 0, false,0,false,world.instanceId);
-		portal3.setIsNoRndWalk(true);
 
 		for (int i=0;i<12;i++)
 		{
@@ -858,13 +855,17 @@ public class SeedOfDestruction extends Quest
 			{
 				if (npc.getCurrentHp() < (npc.getMaxHp() / 2))
 				{
-					ExShowScreenMessage message3 = new ExShowScreenMessage(1,0,5,0,1,0,0,false,10000,1,"出來吧，戰士。保護破滅種子！");
-					sendScreenMessage(world, message3);
 					world.deviceSpawnedMobCount = 0;
-					L2Attackable mob = (L2Attackable) addSpawn(SPAWN_MOB_IDS[Rnd.get(SPAWN_MOB_IDS.length)], npc.getSpawn().getLocx(), npc.getSpawn().getLocy(), npc.getSpawn().getLocz(), npc.getSpawn().getHeading(), false,0,false,world.instanceId);
-					mob.getAI().setIntention(CtrlIntention.AI_INTENTION_MOVE_TO, MOVE_TO_TIADA);
+					ExShowScreenMessage message3 = new ExShowScreenMessage(1,0,5,0,1,0,0,false,10000,1,"闇龍的族人啊，隨我一同戰鬥吧！");
+					sendScreenMessage(world, message3);
 					world._tiada.doCast(SkillTable.getInstance().getInfo(5818, 1));
 					world._tiada.doCast(SkillTable.getInstance().getInfo(181, 1));
+					if (_numAtk < 1)
+					{
+						world.deviceSpawnedMobCount = 0;
+						spawn(world, FORT_PORTALS, false, true);
+						_numAtk++;
+					}
 				}
 			}
 		}
@@ -1043,6 +1044,7 @@ public class SeedOfDestruction extends Quest
 					if (plr.getPet() != null)
 						plr.getPet().teleToLocation(-250402, 210408, -11957);
 						SetMovieMode(plr,false);
+						Delete(world._portalForCamera);
 				}
 				for (L2Npc naezd : world.naezds)
 					Delete(naezd);
@@ -1052,8 +1054,11 @@ public class SeedOfDestruction extends Quest
 				for (L2PcInstance plr : world.PlayersInInstance)
 				{
 					if (plr == null || checkworld(plr) != 1) continue;
-						SetMovieMode(plr,true);
+						//SetMovieMode(plr,true);
+						plr.showQuestMovie(6);
 				}
+				/*startQuestTimer("KillTiadaEnd!",250, world._tiada, null);
+
 				broadcastPacket((new SpecialCamera(world._tiada.getObjectId(),100,90,2,0,2000,0,0,1,0)),world);
 
 				world._tiada.reduceCurrentHp(world._tiada.getMaxHp() + 1, null, null);
@@ -1117,7 +1122,7 @@ public class SeedOfDestruction extends Quest
 				startQuestTimer("KillTiadaEnd!",5100,world._ChangePortal, null);
 			}
 			else if (event.equalsIgnoreCase("KillTiadaEnd!"))
-			{
+			{*/
 				Delete(npc);
 				for(L2Npc mob:InstanceManager.getInstance().getInstance(world.instanceId).getNpcs())
 					mob.deleteMe();
@@ -1139,6 +1144,7 @@ public class SeedOfDestruction extends Quest
 					world.deviceSpawnedMobCount++;
 					mob.setSeeThroughSilentMove(true);
 					mob.setRunning();
+					mob.getAI().setIntention(CtrlIntention.AI_INTENTION_MOVE_TO, MOVE_TO_TIADA);
 				}
 			}
 		}
@@ -1147,11 +1153,6 @@ public class SeedOfDestruction extends Quest
 
 	public String onKill( L2Npc npc, L2PcInstance player, boolean isPet)
 	{
-		if (npc.getNpcId() == SPAWN_DEVICE)
-		{
-			this.cancelQuestTimer("Spawn", npc, null);
-			return "";
-		}
 		InstanceWorld tmpworld = InstanceManager.getInstance().getWorld(npc.getInstanceId());
 		if (tmpworld instanceof SODWorld)
 		{
@@ -1194,8 +1195,9 @@ public class SeedOfDestruction extends Quest
 					Instance inst = InstanceManager.getInstance().getInstance(world.instanceId);
 					inst.setDuration(EXIT_TIME * 60000);
 					inst.setEmptyDestroyTime(0);
-					world._tiada = addSpawn(TIADA, -250402,206519,-11905,16068, false, 0, false, world.instanceId);
-					startQuestTimer("KillTiadaPart1",250, world._tiada, null);
+					//world._tiada = addSpawn(TIADA, -250402,206519,-11905,16068, false, 0, false, world.instanceId);
+					startQuestTimer("KillTiadaPart1", 250, world._tiada, null);
+					_numAtk = 0;
 				}
 				else if (npc.getNpcId() == 29162)
 				{
@@ -1204,13 +1206,15 @@ public class SeedOfDestruction extends Quest
 					mob.setSeeThroughSilentMove(true);
 					mob.setIsRaidMinion(true);
 				}
-				 else if (npc.getNpcId() == PORTAL)
+				else if (npc.getNpcId() == SPAWN_DEVICE)
 				{
-					_log.info("portal  kill");
+					_log.info("portal kill");
 					final L2Skill skilla = SkillTable.getInstance().getInfo(5699, 7);
 					skilla.getEffects(world._tiada, world._tiada);
 					final L2Skill skillb = SkillTable.getInstance().getInfo(5700, 7);
 					skillb.getEffects(world._tiada, world._tiada);
+					this.cancelQuestTimer("Spawn", npc, null);
+					return "";
 				}
 			}
 		}
@@ -1301,6 +1305,7 @@ public class SeedOfDestruction extends Quest
 						if (player.getPet() != null)
 							player.getPet().teleToLocation(-250403, 207040, -11957);
 						SetMovieMode(player,true);
+						//player.showQuestMovie(5);
 					}
 				}
 			}
@@ -1372,7 +1377,6 @@ public class SeedOfDestruction extends Quest
 		addKillId(TIADA);
 		addKillId(SPAWN_DEVICE);
 		addKillId(NAEZD);
-		addKillId(PORTAL);  
 		addEnterZoneId(25253);
 		for(int mobId : MOB_IDS)
 			addKillId(mobId);
