@@ -112,9 +112,16 @@
 		<set name="operateType" val="OP_PASSIVE" />
 	</skill>
 	<skill id="5613" levels="4" name="Vampiric Rage">
-		<set name="target" val="TARGET_NONE" />
-		<set name="skillType" val="NOTDONE" />
-		<set name="operateType" val="OP_PASSIVE" />
+		<!-- Update by pmq -->
+		<set name="target" val="TARGET_SELF" />
+		<set name="skillType" val="BUFF" />
+		<set name="isMagic" val="true" />
+		<set name="operateType" val="OP_ACTIVE" />
+		<for>
+			<effect name="Buff" time="1200" val="0" stackOrder="9" stackType="vampRage">
+				<add order="0x40" stat="absorbDam" val="9"/>
+			</effect>
+		</for>
 	</skill>
 	<skill id="5614" levels="1" name="Raid Boss - Level 87">
 		<set name="target" val="TARGET_NONE" />
@@ -142,10 +149,11 @@
 		<set name="operateType" val="OP_PASSIVE" />
 	</skill>
 	<skill id="5619" levels="1" name="Presentation - Super Giant Mutated Animal Union">
-		<set name="target" val="TARGET_NONE" />
-		<set name="skillType" val="NOTDONE" />
-		<set name="operateType" val="OP_PASSIVE" />
-		<set name="hitTime" val="5800" />
+		<!-- Update by pmq -->
+		<set name="hitTime" val="5000" />
+		<set name="target" val="TARGET_SELF" />
+		<set name="skillType" val="DUMMY" />
+		<set name="operateType" val="OP_ACTIVE" />
 	</skill>
 	<skill id="5620" levels="12" name="Short-Range Physical Attack Weakness">
 		<table name="#vuln"> 1.05 1.08 1.1 1.13 1.15 1.17 1.2 1.25 1.3 1.35 1.4 1.5 </table>
@@ -178,10 +186,22 @@
 		<set name="operateType" val="OP_PASSIVE" />
 	</skill>
 	<skill id="5623" levels="1" name="Weakened Magic Force">
-		<set name="target" val="TARGET_NONE" />
-		<set name="skillType" val="NOTDONE" />
-		<set name="operateType" val="OP_PASSIVE" />
-		<set name="hitTime" val="1200" />
+		<!-- Update by pmq -->
+		<!-- Used by NPCs: 32483 -->
+		<set name="activateRate" val="80" />
+		<set name="hitTime" val="1000" />
+		<set name="reuseDelay" val="6000" />
+		<set name="isMagic" val="true" />
+		<set name="target" val="TARGET_ONE" />
+		<set name="skillType" val="DEBUFF" />
+		<set name="operateType" val="OP_ACTIVE" />
+		<set name="castRange" val="200" />
+		<set name="effectRange" val="700" />
+		<for>
+			<effect count="1" name="Buff" stackOrder="3" stackType="pDefDown" time="15" val="0">
+				<mul order="0x30" stat="pDef" val="0.77"/>
+			</effect>
+		</for>
 	</skill>
 	<skill id="5624" levels="1" name="Soul Confinement">
 		<set name="target" val="TARGET_NONE" />
@@ -448,16 +468,30 @@
 		</for>
 	</skill>
 	<skill id="5644" levels="1" name="not_used">
-		<set name="target" val="TARGET_NONE" />
-		<set name="skillType" val="NOTDONE" />
-		<set name="operateType" val="OP_PASSIVE" />
+		<!-- Update by pmq -->
+		<set name="mpInitialConsume" val="5" />
+		<set name="mpConsume" val="22" />
+		<set name="isMagic" val="true" />
 		<set name="hitTime" val="4000" />
+		<set name="target" val="TARGET_ONE" />
+		<set name="skillType" val="DUMMY" />
+		<set name="operateType" val="OP_ACTIVE" />
+		<set name="castRange" val="400" />
+		<set name="effectRange" val="900" />
 	</skill>
 	<skill id="5645" levels="3" name="not_used">
-		<set name="target" val="TARGET_NONE" />
-		<set name="skillType" val="NOTDONE" />
-		<set name="operateType" val="OP_PASSIVE" />
+		<!-- Update by pmq -->
+		<table name="#mpInitialConsume"> 7 9 10 </table>
+		<table name="#mpConsume"> 28 35 42 </table>
+		<set name="mpInitialConsume" val="#mpInitialConsume" />
+		<set name="mpConsume" val="#mpConsume" />
+		<set name="isMagic" val="true" />
 		<set name="hitTime" val="4000" />
+		<set name="target" val="TARGET_ONE" />
+		<set name="skillType" val="DUMMY" />
+		<set name="operateType" val="OP_ACTIVE" />
+		<set name="castRange" val="400" />
+		<set name="effectRange" val="900" />
 	</skill>
 	<skill id="5646" levels="2" name="Unicorn Seraphim - Wild Magic">
 		<table name="#aggro"> 582 635 </table>
@@ -522,22 +556,44 @@
 		</for>
 	</skill>
 	<skill id="5649" levels="2" name="not_used">
-		<set name="target" val="TARGET_NONE" />
-		<set name="skillType" val="NOTDONE" />
-		<set name="operateType" val="OP_PASSIVE" />
+		<!-- Update by pmq -->
+		<table name="#mpInitialConsume"> 8 10 </table>
+		<table name="#mpConsume"> 31 38 </table>
+		<set name="mpInitialConsume" val="#mpInitialConsume" />
+		<set name="mpConsume" val="#mpConsume" />
+		<set name="isMagic" val="true" />
 		<set name="hitTime" val="4000" />
+		<set name="target" val="TARGET_ONE" />
+		<set name="skillType" val="DUMMY" />
+		<set name="operateType" val="OP_ACTIVE" />
+		<set name="castRange" val="400" />
+		<set name="effectRange" val="900" />
 	</skill>
 	<skill id="5650" levels="3" name="not_used">
-		<set name="target" val="TARGET_NONE" />
-		<set name="skillType" val="NOTDONE" />
-		<set name="operateType" val="OP_PASSIVE" />
+		<!-- Update by pmq -->
+		<table name="#mpInitialConsume"> 10 11 13 </table>
+		<table name="#mpConsume"> 38 44 51 </table>
+		<set name="mpInitialConsume" val="#mpInitialConsume" />
+		<set name="mpConsume" val="#mpConsume" />
+		<set name="isMagic" val="true" />
 		<set name="hitTime" val="4000" />
+		<set name="target" val="TARGET_ONE" />
+		<set name="skillType" val="DUMMY" />
+		<set name="operateType" val="OP_ACTIVE" />
+		<set name="castRange" val="400" />
+		<set name="effectRange" val="900" />
 	</skill>
 	<skill id="5651" levels="1" name="not_used">
-		<set name="target" val="TARGET_NONE" />
-		<set name="skillType" val="NOTDONE" />
-		<set name="operateType" val="OP_PASSIVE" />
+		<!-- Update by pmq -->
+		<set name="mpInitialConsume" val="7" />
+		<set name="mpConsume" val="28" />
+		<set name="isMagic" val="true" />
 		<set name="hitTime" val="4000" />
+		<set name="target" val="TARGET_ONE" />
+		<set name="skillType" val="DUMMY" />
+		<set name="operateType" val="OP_ACTIVE" />
+		<set name="castRange" val="400" />
+		<set name="effectRange" val="900" />
 	</skill>
 	<skill id="5652" levels="3" name="Nightshade - Death Whisper">
 		<table name="#aggro"> 379 457 532 </table>
@@ -1058,14 +1114,34 @@
 	</skill>
 	<skill id="5688" levels="1" name="PvP Weapon - Decrease Resist">
 		<!-- Triggered from 3657 -->
-		<set name="target" val="TARGET_NONE" />
-		<set name="skillType" val="NOTDONE" />
-		<set name="operateType" val="OP_PASSIVE" />
+		<!-- Update by pmq -->
+		<set name="power" val="80" />
+		<set name="target" val="TARGET_ONE" />
+		<set name="skillType" val="DEBUFF" />
+		<set name="operateType" val="OP_ACTIVE" />
+		<for>
+			<effect count="1" name="Debuff" time="15" val="0">
+				<sub order="0x40" stat="waterRes" val="20"/>
+				<sub order="0x40" stat="fireRes" val="20"/>
+				<sub order="0x40" stat="windRes" val="20"/>
+				<sub order="0x40" stat="earthRes" val="20"/>
+				<sub order="0x40" stat="darkRes" val="20"/>
+				<sub order="0x40" stat="holyRes" val="20"/>
+			</effect>
+		</for>
 	</skill>
 	<skill id="5689" levels="1" name="PvP Shield - Reflect Damage">
-		<set name="target" val="TARGET_NONE" />
-		<set name="skillType" val="NOTDONE" />
-		<set name="operateType" val="OP_PASSIVE" />
+		<!-- Update by pmq -->
+		<!-- Triggered from 3658 -->
+		<set name="power" val="0" />
+		<set name="target" val="TARGET_SELF" />
+		<set name="skillType" val="BUFF" />
+		<set name="operateType" val="OP_ACTIVE" />
+		<for>
+			<effect count="1" name="Buff" time="15" val="0">
+				<add order="0x40" stat="reflectDam" val="20"/>
+			</effect>
+		</for>
 	</skill>
 	<skill id="5690" levels="1" name="PvP Armor - Damage Down">
 		<set name="hitTime" val="100" />
@@ -1093,9 +1169,12 @@
 		</for>
 	</skill>
 	<skill id="5692" levels="1" name="PvP Armor - Heal">
-		<set name="target" val="TARGET_NONE" />
-		<set name="skillType" val="NOTDONE" />
-		<set name="operateType" val="OP_PASSIVE" />
+		<!-- Update by pmq -->
+		<!-- Triggered from 3661 -->
+		<set name="power" val="200" />
+		<set name="target" val="TARGET_SELF" />
+		<set name="skillType" val="HEAL" />
+		<set name="operateType" val="OP_ACTIVE" />
 	</skill>
 	<skill id="5693" levels="1" name="PvP Armor - Speed Down">
 		<set name="castRange" val="600" />

@@ -13,10 +13,23 @@
 		<set name="hitTime" val="4000" />
 	</skill>
 	<skill id="5102" levels="1" name="Cancel All Capture">
-		<set name="target" val="TARGET_NONE" />
-		<set name="skillType" val="NOTDONE" />
-		<set name="operateType" val="OP_PASSIVE" />
+		<!-- Update by pmq -->
+		<table name="#mpConsume"> 6 10 13 18 23 28 33 35 36 38 39 39 </table>
+		<table name="#magicLvl"> 14 24 34 44 54 64 74 79 84 89 94 99 </table>
+		<set name="magicLvl" val="#magicLvl" />
+		<set name="lvlDepend" val="1" />
+		<set name="mpConsume" val="#mpConsume" />
+		<set name="target" val="TARGET_SELF" />
+		<set name="reuseDelay" val="8000" /> <!-- SHOULD BE 0 -->
 		<set name="hitTime" val="4000" />
+		<set name="skillType" val="BUFF" />
+		<set name="operateType" val="OP_ACTIVE" />
+		<set name="castRange" val="-1" />
+		<for>
+			<effect count="1" name="Buff" time="60" val="0" stackOrder="99" stackType="pAtkSpeedUp">
+				<mul order="0x30" stat="pAtkSpd" val="1.5" />
+			</effect>
+		</for>
 	</skill>
 	<skill id="5103" levels="1" name="Production - Clan / Transfer">
 		<!-- Needs more work -->
@@ -29,16 +42,28 @@
 		<set name="effectRange" val="1100" />
 	</skill>
 	<skill id="5104" levels="3" name="Battle Force">
-		<!-- Not Used Anymore -->
-		<set name="target" val="TARGET_NONE" />
-		<set name="skillType" val="NOTDONE" />
-		<set name="operateType" val="OP_PASSIVE" />
+		<!-- Update by pmq -->
+		<set name="target" val="TARGET_ONE" />
+		<set name="skillType" val="CONT" />
+		<set name="operateType" val="OP_ACTIVE" />
+		<set name="castRange" val="1000" /> <!-- Must be validated -->
+		<for>
+			<effect count="0x7fffffff" name="Fusion" time="600" val="15" stackOrder="0" stackType="BattleForce">
+				<mul order="0x30" stat="pAtk" val="1.1" /> <!-- Guess -->
+			</effect>
+		</for>
 	</skill>
 	<skill id="5105" levels="3" name="Spell Force">
-		<!-- Not Used Anymore -->
-		<set name="target" val="TARGET_NONE" />
-		<set name="skillType" val="NOTDONE" />
-		<set name="operateType" val="OP_PASSIVE" />
+		<!-- Update by pmq -->
+		<set name="target" val="TARGET_ONE" />
+		<set name="skillType" val="CONT" />
+		<set name="operateType" val="OP_ACTIVE" />
+		<set name="castRange" val="1000" /> <!-- Must be validated -->
+		<for>
+			<effect count="0x7fffffff" name="Fusion" time="600" val="15" stackOrder="0" stackType="SpellForce">
+				<mul order="0x30" stat="mAtk" val="1.1" /> <!-- Guess -->
+			</effect>
+		</for>
 	</skill>
 	<skill id="5106" levels="4" name="Capture A State">
 		<set name="target" val="TARGET_ONE" />
@@ -91,17 +116,32 @@
 	</skill>
 	<skill id="5110" levels="1" name="Cannon Fodder">
 		<!-- Bombards enemies that are either above you or protected by structures such as castle walls or doors. Consumes 4 Flash Gunpowder. -->
-		<set name="target" val="TARGET_NONE" />
-		<set name="skillType" val="NOTDONE" />
-		<set name="operateType" val="OP_PASSIVE" />
+		<!-- Update by pmq -->
+		<set name="magicLvl" val="70" />
+		<set name="itemConsumeId" val="8872" />
+		<set name="itemConsumeCount" val="4" />
+		<set name="lvlDepend" val="1" />
+		<set name="power" val="532048" />
 		<set name="hitTime" val="10000" />
+		<set name="target" val="TARGET_ONE" />
+		<set name="reuseDelay" val="10500" />
+		<set name="skillType" val="PDAM" />
+		<set name="operateType" val="OP_ACTIVE" />
+		<set name="castRange" val="1500" />
 	</skill>
 	<skill id="5111" levels="1" name="Big Bang">
-		<!-- Bombards enemies that are either above you or protected by structures such as castle walls or doors. Consumes 5 Flash Gunpowder. -->
-		<set name="target" val="TARGET_NONE" />
-		<set name="skillType" val="NOTDONE" />
-		<set name="operateType" val="OP_PASSIVE" />
+		<!-- Update by pmq -->
+		<set name="magicLvl" val="70" />
+		<set name="itemConsumeId" val="8872" />
+		<set name="itemConsumeCount" val="5" />
+		<set name="lvlDepend" val="1" />
+		<set name="power" val="532048" />
 		<set name="hitTime" val="10000" />
+		<set name="target" val="TARGET_ONE" />
+		<set name="reuseDelay" val="10500" />
+		<set name="skillType" val="PDAM" />
+		<set name="operateType" val="OP_ACTIVE" />
+		<set name="castRange" val="3500" />
 	</skill>
 	<skill id="5112" levels="12" name="Stun">
 		<!-- Lvl 1-12 - Temporarily Immobilized and in a state of shock. -->
@@ -192,16 +232,41 @@
 		</for>
 	</skill>
 	<skill id="5118" levels="1" name="Cancel Sailren Use">
-		<!-- Update by rocknow -->
-		<set name="target" val="TARGET_SELF" />
-		<set name="skillType" val="DUMMY" />
+		<!-- Update by pmq -->
+		<set name="mpInitialConsume" val="14" />
+		<set name="mpConsume" val="55" />
+		<set name="magicLvl" val="87" />
+		<set name="power" val="45"/>
+		<set name="target" val="TARGET_AURA" />
+		<set name="hitTime" val="6000"/>
+		<set name="reuseDelay" val="292000" />
+		<set name="skillType" val="CANCEL" />
+		<set name="isMagic" val="true" />
 		<set name="operateType" val="OP_ACTIVE" />
+		<set name="skill_landing_percent" val="85" />
+		<set name="castRange" val="600" />
+		<set name="effectRange" val="1100" />
+		<set name="negateStats" val="BUFF" />
+		<set name="negatePower" val="45.0" />
+		<set name="maxNegated" val="5" />
 	</skill>
 	<skill id="5119" levels="1" name="Bleed">
-		<set name="target" val="TARGET_NONE" />
-		<set name="skillType" val="NOTDONE" />
-		<set name="operateType" val="OP_PASSIVE" />
+		<!-- Update by pmq -->
+		<set name="weaponsAllowed" val="16" /> <!-- Dagger -->
+		<set name="mpConsume" val="99" />
+		<set name="magicLvl" val="70" />
+		<set name="power" val="8.0" />
+		<set name="lvlDepend" val="2" />
+		<set name="target" val="TARGET_ONE" />
 		<set name="hitTime" val="1080" />
+		<set name="reuseDelay" val="930000" />
+		<set name="skillType" val="BLEED" />
+		<set name="operateType" val="OP_ACTIVE" />
+		<set name="castRange" val="40" />
+		<set name="effectRange" val="400" />
+		<for>
+			<effect count="4" name="DamOverTime" time="5" val="34" abnormal="bleed" />
+		</for>
 	</skill>
 	<skill id="5120" levels="1" name="Stun">
 		<set name="magicLvl" val="80" />
@@ -230,15 +295,19 @@
 		<set name="operateType" val="OP_ACTIVE" />
 	</skill>
 	<skill id="5122" levels="1" name="Sailren Use Might">
-		<!-- Update by rocknow -->
-		<set name="mpConsume" val="38" />
+		<!-- Update by pmq -->
+		<set name="mpInitialConsume" val="7" />
+		<set name="mpConsume" val="28" />
 		<set name="target" val="TARGET_SELF" />
 		<set name="hitTime" val="2500" />
-		<set name="reuseDelay" val="60000" />
+		<set name="reuseDelay" val="6000" />
 		<set name="skillType" val="BUFF" />
+		<set name="isMagic" val="true" />
 		<set name="operateType" val="OP_ACTIVE" />
+		<set name="castRange" val="400" />
+		<set name="effectRange" val="900" />
 		<for>
-			<effect name="Buff" time="300" val="0" stackOrder="1.15" stackType="pAtk">
+			<effect count="1" name="Buff" time="1200" val="0" stackOrder="1.15" stackType="pAtk">
 				<mul order="0x30" stat="pAtk" val="1.15" />
 			</effect>
 		</for>
@@ -497,16 +566,19 @@
 		<set name="target" val="TARGET_AREA_CORPSE_MOB" />
 	</skill>
 	<skill id="5143" levels="1" name="Sailren Use Blow">
-		<!-- Update by rocknow -->
-		<set name="mpConsume" val="84" />
-		<set name="power" val="2500" />
-		<set name="hitTime" val="2500" />
-		<set name="reuseDelay" val="20000" />
+		<!-- Update by pmq -->
+		<set name="weaponsAllowed" val="16" />
+		<set name="power" val="38371" />
+		<set name="mpConsume" val="96" />
+		<set name="hitTime" val="830" />
 		<set name="target" val="TARGET_ONE" />
 		<set name="skillType" val="PDAM" />
 		<set name="operateType" val="OP_ACTIVE" />
 		<set name="castRange" val="40" />
 		<set name="effectRange" val="400" />
+		<for>
+			<add order="0x10" stat="rCrit" val="45" />
+		</for>
 	</skill>
 	<skill id="5144" levels="1" name="Mirage">
 		<set name="castRange" val="900" />
@@ -524,9 +596,24 @@
 	</skill>
 	<skill id="5145" levels="1" name="Day of Doom">
 		<!-- Decreases P. Atk./P. Def./Speed/HP recovery rate/type M. Def., and increases skill/magic MP consumption. Prevents from receiving buff. -->
-		<set name="target" val="TARGET_NONE" />
-		<set name="skillType" val="NOTDONE" />
-		<set name="operateType" val="OP_PASSIVE" />
+		<!-- Update by pmq -->
+		<set name="target" val="TARGET_ONE" />
+		<set name="skillType" val="CONT" />
+		<set name="operateType" val="OP_ACTIVE" />
+		<set name="castRange" val="-1" />
+		<for>
+			<effect count="1" name="Debuff" time="8" val="0">
+				<mul order="0x30" stat="pAtk" val="0.8" />
+				<mul order="0x30" stat="pDef" val="0.8" />
+				<mul order="0x30" stat="runSpd" val="0.5" />
+				<mul order="0x30" stat="regHp" val="0.8" />
+				<mul order="0x30" stat="mDef" val="0.8" />
+				<add order="0x40" stat="MagicalMpConsumeRate" val="10" />
+				<add order="0x40" stat="PhysicalMpConsumeRate" val="10" />
+				<mul order="0x30" stat="debuffVuln" val="0.1" />
+				<mul order="0x30" stat="cancelVuln" val="0.1" />
+			</effect>
+		</for>
 	</skill>
 	<skill id="5146" levels="10" name="Heal">
 		<table name="#power"> 308 337 365 393 421 448 474 498 520 552 </table>

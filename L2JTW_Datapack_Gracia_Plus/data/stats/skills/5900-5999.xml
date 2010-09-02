@@ -1,93 +1,262 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <list>
 	<skill id="5900" levels="1" name="Burst of Oblivion">
+		<!-- Update by pmq -->
+		<!-- When a blow is incurred, the target is continuously removed, and skills and magic cannot be used. -->
+		<!--
+			Used by NPCs:
+			22530 22531 25642 25648
+		-->
+		<set name="mpInitialConsume" val="15" />
+		<set name="mpConsume" val="60" />
+		<set name="isMagic" val="true" />
+		<set name="reuseDelay" val="2000" />
+		<set name="hitTime" val="2000" />
 		<set name="target" val="TARGET_NONE" />
 		<set name="skillType" val="NOTDONE" />
 		<set name="operateType" val="OP_PASSIVE" />
-		<set name="hitTime" val="2000" />
+		<set name="castRange" val="40" />
+		<set name="effectRange" val="400" />
 	</skill>
 	<skill id="5901" levels="2" name="Mist of Oblivion">
-		<table name="#hitTime"> 2000 22940 </table>
+		<!-- Update by pmq -->
+		<!-- Lv1: When a blow is incurred, the target is continuously removed, and skills and magic cannot be used. -->
+		<!--
+			Used by NPCs:
+			18717 - Lv1 22534 - Lv1 22535 - Lv1 25638 - Lv1 25651 - Lv2
+			25667 - Lv1
+		-->
+		<table name="#mpInitialConsume"> 15 44 </table>
+		<table name="#mpConsume"> 60 179 </table>
+		<table name="#reuseDelay"> 2000 22000 </table>
+		<table name="#hitTime"> 2000 22000 </table>
+		<table name="#coolTime"> 1332 14666 </table>
+		<set name="mpInitialConsume" val="#mpInitialConsume" />
+		<set name="mpConsume" val="#mpConsume" />
+		<set name="reuseDelay" val="#reuseDelay" />
+		<set name="hitTime" val="#hitTime" />
+		<set name="coolTime" val="#coolTime" />
+		<set name="isMagic" val="true" />
 		<set name="target" val="TARGET_NONE" />
 		<set name="skillType" val="NOTDONE" />
 		<set name="operateType" val="OP_PASSIVE" />
-		<set name="hitTime" val="#hitTime" />
 	</skill>
 	<skill id="5902" levels="1" name="NPC Trigger Target Cancel">
-		<set name="target" val="TARGET_NONE" />
-		<set name="skillType" val="NOTDONE" />
-		<set name="operateType" val="OP_PASSIVE" />
+		<!-- Update by pmq -->
+		<!-- none -->
+		<set name="SSBoost" val="2.0" />
+		<set name="reuseDelay" val="0" />
+		<set name="target" val="TARGET_SELF" />
+		<set name="skillType" val="PDAM" />
+		<set name="operateType" val="OP_ACTIVE" />
 	</skill>
 	<skill id="5903" levels="1" name="Burst of Misplace">
-		<set name="target" val="TARGET_NONE" />
-		<set name="skillType" val="NOTDONE" />
-		<set name="operateType" val="OP_PASSIVE" />
+		<!-- Update by pmq -->
 		<set name="hitTime" val="2000" />
+		<set name="isDebuff" val="true" />
+		<set name="magicLvl" val="80" />
+		<set name="operateType" val="OP_ACTIVE" />
+		<set name="power" val="33" /> <!-- Base Land Rate -->
+		<set name="ignoreResists" val="true" />
+		<set name="castRange" val="600" />
+		<set name="effectRange" val="1100" />
+		<set name="reuseDelay" val="10000" />
+		<set name="skillType" val="DISARM" />
+		<set name="target" val="TARGET_ONE" />
+		<for>
+			<effect name="Disarm" time="5" val="0" />
+		</for>
 	</skill>
 	<skill id="5904" levels="3" name="Mist of Souliter">
+		<!-- Update by pmq -->
 		<table name="#hitTime"> 2000 22940 22940 </table>
-		<set name="target" val="TARGET_NONE" />
-		<set name="skillType" val="NOTDONE" />
-		<set name="operateType" val="OP_PASSIVE" />
+		<set name="power" val="3000" />
+		<set name="target" val="TARGET_ONE" />
+		<set name="skillType" val="PDAM" />
+		<set name="operateType" val="OP_ACTIVE" />
+		<set name="castRange" val="150" />
+		<set name="effectRange" val="650" />
+		<set name="reuseDelay" val="4000" />
 		<set name="hitTime" val="#hitTime" />
 	</skill>
 	<skill id="5905" levels="1" name="Confusing Nuph">
+		<!-- Update by pmq -->
+		<!-- Physical and magic skills are all blocked. -->
+		<!--
+			Used by NPCs:
+			22514 22521 22616 25645
+		-->
+		<set name="mpInitialConsume" val="14" />
+		<set name="mpConsume" val="58" />
+		<set name="isMagic" val="true" />
+		<set name="reuseDelay" val="2000" />
+		<set name="hitTime" val="2000" />
 		<set name="target" val="TARGET_NONE" />
 		<set name="skillType" val="NOTDONE" />
 		<set name="operateType" val="OP_PASSIVE" />
-		<set name="hitTime" val="2000" />
 	</skill>
 	<skill id="5906" levels="1" name="Ritual of Revive">
+		<!-- Update by pmq -->
+		<!-- none -->
+		<!--
+			Used by NPCs:
+			29150
+		-->
+		<set name="isMagic" val="true" />
+		<set name="reuseDelay" val="3000" />
+		<set name="hitTime" val="3000" />
 		<set name="target" val="TARGET_NONE" />
 		<set name="skillType" val="NOTDONE" />
 		<set name="operateType" val="OP_PASSIVE" />
-		<set name="hitTime" val="3000" />
+		<set name="castRange" val="600" />
+		<set name="effectRange" val="1100" />
 	</skill>
 	<skill id="5907" levels="2" name="Ritual of Entombment">
-		<table name="#hitTime"> 3000 34400 </table>
+		<!-- Update by pmq -->
+		<!--
+			Lv1: none
+			Lv2: Temporarily inflicts Hold on the enemy. Additional Hold is not available while effects last.
+		-->
+		<!--
+			Used by NPCs:
+			22532 - Lv1 22533 - Lv1 25634 - Lv2 25637 - Lv2 25652 - Lv2
+		-->
+		<table name="#reuseDelay"> 3000 34000 </table>
+		<table name="#hitTime"> 3000 34000 </table>
+		<table name="#coolTime"> 2000 22666 </table>
+		<set name="mpInitialConsume" val="15" />
+		<set name="mpConsume" val="60" />
+		<set name="isMagic" val="true" />
+		<set name="reuseDelay" val="#reuseDelay" />
+		<set name="hitTime" val="#hitTime" />
+		<set name="coolTime" val="#coolTime" />
 		<set name="target" val="TARGET_NONE" />
 		<set name="skillType" val="NOTDONE" />
 		<set name="operateType" val="OP_PASSIVE" />
-		<set name="hitTime" val="#hitTime" />
+		<set name="castRange" val="600" />
+		<set name="effectRange" val="1100" />
 	</skill>
 	<skill id="5908" levels="2" name="Ritual of Entombment">
-		<table name="#hitTime"> 3000 34400 </table>
+		<!-- Update by pmq -->
+		<!-- Lv1: Temporarily inflicts Hold on the enemy. Additional Hold is not available while effects last. -->
+		<!--
+			Used by NPCs:
+			22534 - Lv2 22535 - Lv2 25634 - Lv2 25638 - Lv1 25651 - Lv2
+		-->
+		<table name="#reuseDelay"> 3000 34000 </table>
+		<table name="#hitTime"> 3000 34000 </table>
+		<table name="#coolTime"> 2000 22666 </table>
+		<set name="mpInitialConsume" val="15" />
+		<set name="mpConsume" val="60" />
+		<set name="isMagic" val="true" />
+		<set name="reuseDelay" val="#reuseDelay" />
+		<set name="hitTime" val="#hitTime" />
+		<set name="coolTime" val="#coolTime" />
 		<set name="target" val="TARGET_NONE" />
 		<set name="skillType" val="NOTDONE" />
 		<set name="operateType" val="OP_PASSIVE" />
-		<set name="hitTime" val="#hitTime" />
+		<set name="castRange" val="600" />
+		<set name="effectRange" val="1100" />
 	</skill>
 	<skill id="5909" levels="1" name="Stronghold Attack">
-		<set name="target" val="TARGET_NONE" />
-		<set name="skillType" val="NOTDONE" />
-		<set name="operateType" val="OP_PASSIVE" />
+		<!-- Update by pmq -->
+		<set name="power" val="3000" />
+		<set name="target" val="TARGET_ONE" />
+		<set name="skillType" val="PDAM" />
+		<set name="operateType" val="OP_ACTIVE" />
+		<set name="castRange" val="150" />
+		<set name="effectRange" val="650" />
+		<set name="reuseDelay" val="4000" />
 		<set name="hitTime" val="1000" />
 	</skill>
 	<skill id="5910" levels="1" name="Stronghold Attack">
-		<set name="target" val="TARGET_NONE" />
-		<set name="skillType" val="NOTDONE" />
-		<set name="operateType" val="OP_PASSIVE" />
+		<!-- Update by pmq -->
+		<set name="power" val="5000" />
+		<set name="target" val="TARGET_ONE" />
+		<set name="skillType" val="PDAM" />
+		<set name="operateType" val="OP_ACTIVE" />
+		<set name="castRange" val="150" />
+		<set name="effectRange" val="650" />
+		<set name="reuseDelay" val="4000" />
 		<set name="hitTime" val="1000" />
 	</skill>
 	<skill id="5911" levels="1" name="Pestilence Cleanse">
-		<set name="target" val="TARGET_NONE" />
-		<set name="skillType" val="NOTDONE" />
-		<set name="operateType" val="OP_PASSIVE" />
+		<set name="castRange" val="800" />
+		<set name="effectRange" val="900" />
+		<set name="hitTime" val="4000" />
+		<set name="isMagic" val="true" />
+		<set name="operateType" val="OP_ACTIVE" />
+		<set name="power" val="100" />
+		<set name="skillType" val="DEBUFF" />
+		<set name="isDebuff" val="true" />
+		<set name="target" val="TARGET_ONE" />
+		<for>
+			<effect name="Debuff" time="600" val="0">
+				<mul order="0x30" stat="pAtk" val="0.8" />
+				<mul order="0x30" stat="mAtk" val="0.8" />
+				<mul order="0x30" stat="pAtkSpd" val="0.85" />
+				<sub order="0x40" stat="rCrit" val="15" />
+				<mul order="0x30" stat="pReuse" val="1.05" />
+			</effect>
+		</for>
 	</skill>
 	<skill id="5912" levels="1" name="Pestilence Cleanse">
-		<set name="target" val="TARGET_NONE" />
-		<set name="skillType" val="NOTDONE" />
-		<set name="operateType" val="OP_PASSIVE" />
+		<set name="castRange" val="800" />
+		<set name="effectRange" val="900" />
+		<set name="hitTime" val="4000" />
+		<set name="isMagic" val="true" />
+		<set name="operateType" val="OP_ACTIVE" />
+		<set name="power" val="100" />
+		<set name="skillType" val="DEBUFF" />
+		<set name="isDebuff" val="true" />
+		<set name="target" val="TARGET_ONE" />
+		<for>
+			<effect name="Debuff" time="600" val="0">
+				<mul order="0x30" stat="pAtk" val="0.85" />
+				<mul order="0x30" stat="mAtk" val="0.85" />
+				<mul order="0x30" stat="pAtkSpd" val="0.85" />
+				<sub order="0x40" stat="rCrit" val="12" />
+				<mul order="0x30" stat="pReuse" val="1.05" />
+			</effect>
+		</for>
 	</skill>
 	<skill id="5913" levels="1" name="Putrifection Cleanse">
-		<set name="target" val="TARGET_NONE" />
-		<set name="skillType" val="NOTDONE" />
-		<set name="operateType" val="OP_PASSIVE" />
+		<set name="castRange" val="800" />
+		<set name="effectRange" val="900" />
+		<set name="hitTime" val="4000" />
+		<set name="isMagic" val="true" />
+		<set name="operateType" val="OP_ACTIVE" />
+		<set name="power" val="100" />
+		<set name="skillType" val="DEBUFF" />
+		<set name="isDebuff" val="true" />
+		<set name="target" val="TARGET_ONE" />
+		<for>
+			<effect name="Debuff" time="600" val="0">
+				<mul order="0x30" stat="pDef" val="0.85" />
+				<mul order="0x30" stat="mDef" val="0.85" />
+				<sub order="0x40" stat="rEvas" val="8" />
+				<mul order="0x30" stat="runSpd" val="0.85" />
+			</effect>
+		</for>
 	</skill>
 	<skill id="5914" levels="1" name="Putrifection Cleanse">
-		<set name="target" val="TARGET_NONE" />
-		<set name="skillType" val="NOTDONE" />
-		<set name="operateType" val="OP_PASSIVE" />
+		<set name="castRange" val="800" />
+		<set name="effectRange" val="900" />
+		<set name="hitTime" val="4000" />
+		<set name="isMagic" val="true" />
+		<set name="operateType" val="OP_ACTIVE" />
+		<set name="power" val="100" />
+		<set name="skillType" val="DEBUFF" />
+		<set name="isDebuff" val="true" />
+		<set name="target" val="TARGET_ONE" />
+		<for>
+			<effect name="Debuff" time="600" val="0">
+				<mul order="0x30" stat="pDef" val="0.90" />
+				<mul order="0x30" stat="mDef" val="0.90" />
+				<sub order="0x40" stat="rEvas" val="6" />
+				<mul order="0x30" stat="runSpd" val="0.85" />
+			</effect>
+		</for>
 	</skill>
 	<skill id="5915" levels="9" name="Mummifying Aura">
 		<set name="target" val="TARGET_NONE" />
@@ -110,10 +279,22 @@
 		<set name="operateType" val="OP_PASSIVE" />
 	</skill>
 	<skill id="5919" levels="1" name="Obey">
+		<!-- Update by pmq -->
+		<!-- Lord of Immortality's command. Cannot resurrect. -->
+		<!--
+			Used by NPCs:
+			29150
+		-->
+		<set name="mpInitialConsume" val="15" />
+		<set name="mpConsume" val="60" />
+		<set name="isMagic" val="true" />
+		<set name="reuseDelay" val="12000" />
+		<set name="hitTime" val="12000" />
 		<set name="target" val="TARGET_NONE" />
 		<set name="skillType" val="NOTDONE" />
 		<set name="operateType" val="OP_PASSIVE" />
-		<set name="hitTime" val="12610" />
+		<set name="castRange" val="300" />
+		<set name="effectRange" val="800" />
 	</skill>
 	<skill id="5920" levels="1" name="Tentacle of Agony">
 		<set name="target" val="TARGET_NONE" />
@@ -122,6 +303,12 @@
 		<set name="hitTime" val="91740" />
 	</skill>
 	<skill id="5921" levels="1" name="Inhale">
+		<!-- Update by pmq -->
+		<!-- P. Atk., Atk. Spd., M. Atk., accuracy, critical attack rate and critical damage are decreased. -->
+		<!--
+			Used by NPCs:
+			29150
+		-->
 		<set name="target" val="TARGET_NONE" />
 		<set name="skillType" val="NOTDONE" />
 		<set name="operateType" val="OP_PASSIVE" />
@@ -183,15 +370,25 @@
 		<set name="operateType" val="OP_PASSIVE" />
 	</skill>
 	<skill id="5932" levels="1" name="Dark Blade">
-		<set name="target" val="TARGET_NONE" />
-		<set name="skillType" val="NOTDONE" />
-		<set name="operateType" val="OP_PASSIVE" />
+		<!-- Update by pmq -->
+		<set name="power" val="3000" />
+		<set name="target" val="TARGET_ONE" />
+		<set name="skillType" val="PDAM" />
+		<set name="operateType" val="OP_ACTIVE" />
+		<set name="castRange" val="150" />
+		<set name="effectRange" val="650" />
+		<set name="reuseDelay" val="4000" />
 		<set name="hitTime" val="1500" />
 	</skill>
 	<skill id="5933" levels="1" name="Dark Blade">
-		<set name="target" val="TARGET_NONE" />
-		<set name="skillType" val="NOTDONE" />
-		<set name="operateType" val="OP_PASSIVE" />
+		<!-- Update by pmq -->
+		<set name="power" val="3000" />
+		<set name="target" val="TARGET_ONE" />
+		<set name="skillType" val="PDAM" />
+		<set name="operateType" val="OP_ACTIVE" />
+		<set name="castRange" val="150" />
+		<set name="effectRange" val="650" />
+		<set name="reuseDelay" val="4000" />
 		<set name="hitTime" val="1500" />
 	</skill>
 	<skill id="5934" levels="1" name="Meet the soul of darkness and fight against it.">
@@ -200,15 +397,25 @@
 		<set name="operateType" val="OP_PASSIVE" />
 	</skill>
 	<skill id="5935" levels="1" name="Dark Ring">
-		<set name="target" val="TARGET_NONE" />
-		<set name="skillType" val="NOTDONE" />
-		<set name="operateType" val="OP_PASSIVE" />
+		<!-- Update by pmq -->
+		<set name="power" val="3000" />
+		<set name="target" val="TARGET_ONE" />
+		<set name="skillType" val="PDAM" />
+		<set name="operateType" val="OP_ACTIVE" />
+		<set name="castRange" val="150" />
+		<set name="effectRange" val="650" />
+		<set name="reuseDelay" val="4000" />
 		<set name="hitTime" val="1500" />
 	</skill>
 	<skill id="5936" levels="1" name="Earth Ring">
-		<set name="target" val="TARGET_NONE" />
-		<set name="skillType" val="NOTDONE" />
-		<set name="operateType" val="OP_PASSIVE" />
+		<!-- Update by pmq -->
+		<set name="power" val="3000" />
+		<set name="target" val="TARGET_ONE" />
+		<set name="skillType" val="PDAM" />
+		<set name="operateType" val="OP_ACTIVE" />
+		<set name="castRange" val="150" />
+		<set name="effectRange" val="650" />
+		<set name="reuseDelay" val="4000" />
 		<set name="hitTime" val="1500" />
 	</skill>
 	<skill id="5937" levels="1" name="Self Stun">
@@ -257,14 +464,24 @@
 		<set name="operateType" val="OP_PASSIVE" />
 	</skill>
 	<skill id="5946" levels="1" name="Large Firework">
-		<set name="target" val="TARGET_NONE" />
-		<set name="skillType" val="NOTDONE" />
-		<set name="operateType" val="OP_PASSIVE" />
+		<!-- Update by pmq -->
+		<set name="itemConsumeId" val="6407" />
+		<set name="itemConsumeCount" val="1" />
+		<set name="target" val="TARGET_SELF" />
+		<set name="skillType" val="DUMMY" />
+		<set name="operateType" val="OP_ACTIVE" />
+		<set name="reuseDelay" val="3000" />
+		<set name="staticReuse" val="true" />
 	</skill>
 	<skill id="5947" levels="1" name="Large Firework">
-		<set name="target" val="TARGET_NONE" />
-		<set name="skillType" val="NOTDONE" />
-		<set name="operateType" val="OP_PASSIVE" />
+		<!-- Update by pmq -->
+		<set name="itemConsumeId" val="6407" />
+		<set name="itemConsumeCount" val="1" />
+		<set name="target" val="TARGET_SELF" />
+		<set name="skillType" val="DUMMY" />
+		<set name="operateType" val="OP_ACTIVE" />
+		<set name="reuseDelay" val="3000" />
+		<set name="staticReuse" val="true" />
 	</skill>
 	<skill id="5948" levels="1" name="Large Firework">
 		<set name="target" val="TARGET_NONE" />
@@ -308,10 +525,17 @@
 		<set name="hitTime" val="3000" />
 	</skill>
 	<skill id="5954" levels="1" name="Agathion Cute Trick - Tin Plate Golem">
-		<set name="target" val="TARGET_NONE" />
-		<set name="skillType" val="NOTDONE" />
-		<set name="operateType" val="OP_PASSIVE" />
+		<!-- Update by pmq -->
+		<set name="reuseDelay" val="20000" />
 		<set name="hitTime" val="3000" />
+		<set name="staticReuse" val="true" />
+		<set name="staticHitTime" val="true" />
+		<set name="target" val="TARGET_SELF" />
+		<set name="skillType" val="DUMMY" />
+		<set name="operateType" val="OP_ACTIVE" />
+		<!-- cond msgId="2292">
+			<player agathionId="TO Do - Missing agathionId"/>
+			</cond -->
 	</skill>
 	<skill id="5955" levels="1" name="Agathion Cute Trick - Joy">
 		<set name="target" val="TARGET_SELF" />
@@ -368,21 +592,49 @@
 		</cond>
 	</skill>
 	<skill id="5960" levels="1" name="Stronghold Reactivate">
+		<!-- Update by pmq -->
+		<!-- Wrapped in flames and HP is decreased. -->
+		<set name="SSBoost" val="2.0" />
+		<set name="reuseDelay" val="0" />
 		<set name="target" val="TARGET_NONE" />
 		<set name="skillType" val="NOTDONE" />
 		<set name="operateType" val="OP_PASSIVE" />
 	</skill>
 	<skill id="5961" levels="1" name="Barrier Thunder Storm">
+		<!-- Update by pmq -->
+		<!-- A state of instant paralysis caused by the shock -->
+		<!--
+			Used by NPCs:
+			22557
+		-->
+		<set name="SSBoost" val="2.0" />
+		<set name="mpInitialConsume" val="10" />
+		<set name="mpConsume" val="41" />
+		<set name="reuseDelay" val="4000" />
+		<set name="hitTime" val="4000" />
 		<set name="target" val="TARGET_NONE" />
 		<set name="skillType" val="NOTDONE" />
 		<set name="operateType" val="OP_PASSIVE" />
-		<set name="hitTime" val="4000" />
+		<set name="castRange" val="600" />
+		<set name="effectRange" val="1100" />
 	</skill>
 	<skill id="5962" levels="1" name="Air Defense Cannon">
+		<!-- Update by pmq -->
+		<!-- none -->
+		<!--
+			Used by NPCs:
+			22558
+		-->
+		<set name="SSBoost" val="2.0" />
+		<set name="mpInitialConsume" val="17" />
+		<set name="mpConsume" val="68" />
+		<set name="reuseDelay" val="7000" />
+		<set name="hitTime" val="7000" />
 		<set name="target" val="TARGET_NONE" />
 		<set name="skillType" val="NOTDONE" />
 		<set name="operateType" val="OP_PASSIVE" />
-		<set name="hitTime" val="7000" />
+		<set name="castRange" val="600" />
+		<set name="effectRange" val="1100" />
 	</skill>
 	<skill id="5963" levels="1" name="Emery Conversion">
 		<set name="target" val="TARGET_NONE" />
@@ -405,9 +657,14 @@
 		<set name="staticHitTime" val="true" />
 	</skill>
 	<skill id="5966" levels="1" name="Large Firework">
-		<set name="target" val="TARGET_NONE" />
-		<set name="skillType" val="NOTDONE" />
-		<set name="operateType" val="OP_PASSIVE" />
+		<!-- Update by pmq -->
+		<set name="itemConsumeId" val="6407" />
+		<set name="itemConsumeCount" val="1" />
+		<set name="target" val="TARGET_SELF" />
+		<set name="skillType" val="DUMMY" />
+		<set name="operateType" val="OP_ACTIVE" />
+		<set name="reuseDelay" val="1500" />
+		<set name="staticReuse" val="true" />
 	</skill>
 	<skill id="5967" levels="2" name="Hate Aura">
 		<set name="target" val="TARGET_NONE" />
@@ -415,40 +672,132 @@
 		<set name="operateType" val="OP_PASSIVE" />
 	</skill>
 	<skill id="5968" levels="2" name="Rapid Shot">
-		<set name="target" val="TARGET_NONE" />
-		<set name="skillType" val="NOTDONE" />
-		<set name="operateType" val="OP_PASSIVE" />
-		<set name="hitTime" val="1500" />
+		<!-- Update by pmq -->
+		<!--
+			Lv1: Temporarily increases your own bow Atk. Spd. Effect 1.
+			Lv2: Temporarily increases your own bow Atk. Spd. Effect 2.
+		-->
+		<!--
+			Used by NPCs:
+			36563 - Lv2 36567 - Lv1
+		-->
+		<table name="#mpInitialConsume"> 2 5 </table>
+		<table name="#mpConsume"> 11 20 </table>
+		<table name="#rate"> 1.08 1.12 </table>
+		<set name="mpConsume" val="#mpConsume" />
+		<set name="mpInitialConsume" val="#mpInitialConsume" />
+		<set name="target" val="TARGET_SELF" />
+		<set name="reuseDelay" val="1000" />
+		<set name="hitTime" val="1000" />
+		<set name="skillType" val="BUFF" />
+		<set name="operateType" val="OP_ACTIVE" />
+		<for>
+			<effect name="Buff" time="1200" val="0">
+				<mul order="0x30" stat="pAtkSpd" val="#rate"/>
+			</effect>
+		</for>
 	</skill>
 	<skill id="5969" levels="2" name="Punch of Doom">
-		<set name="target" val="TARGET_NONE" />
-		<set name="skillType" val="NOTDONE" />
-		<set name="operateType" val="OP_PASSIVE" />
-		<set name="hitTime" val="1360" />
+		<!-- Update by pmq -->
+		<!--
+			Lv1: Becomes shocked momentarily while propelling a powerful iron-fist to enemy that gives significant damage. Requires a hand-to-hand combat weapon. Ignores shield defense. Over-hit is possible. Power 10331.
+			Lv2: Becomes shocked momentarily while propelling a powerful iron-fist to enemy that gives significant damage. Requires a hand-to-hand combat weapon. Ignores shield defense. Over-hit is possible. Power 12288.
+		-->
+		<!--
+			Used by NPCs:
+			36565 - Lv2 36569 - Lv1
+		-->
+		<table name="#magicLvl"> 64 74 </table>
+		<table name="#hpConsume"> 455 499 </table>
+		<table name="#power"> 10331 12288 </table>
+		<set name="magicLvl" val="#magicLvl" />
+		<set name="hpConsume" val="#hpConsume" />
+		<set name="power" val="#power" />
+		<set name="target" val="TARGET_ONE" />
+		<set name="ignoreShld" val="true" />
+		<set name="overHit" val="true" />
+		<set name="SSBoost" val="2.0" />
+		<set name="reuseDelay" val="1000" />
+		<set name="hitTime" val="1000" />
+		<set name="skillType" val="PDAM" />
+		<set name="operateType" val="OP_ACTIVE" />
+		<set name="castRange" val="40" />
+		<set name="effectRange" val="400" />
+		<for>
+			<effect name="StunSelf" time="9" val="0" stackOrder="1" stackType="Stun" effectPower="80" effectType="STUN"/>
+		</for>
 	</skill>
 	<skill id="5970" levels="1" name="Seduced Knight's Help">
+		<!-- Update by pmq -->
+		<!-- Increases Max HP. -->
+		<!--
+			Used by NPCs:
+			36562 36566
+		-->
+		<set name="mpInitialConsume" val="13" />
+		<set name="mpConsume" val="54" />
+		<set name="isMagic" val="true" />
+		<set name="reuseDelay" val="4000" />
+		<set name="hitTime" val="4000" />
 		<set name="target" val="TARGET_NONE" />
 		<set name="skillType" val="NOTDONE" />
 		<set name="operateType" val="OP_PASSIVE" />
-		<set name="hitTime" val="4000" />
+		<set name="castRange" val="75" />
+		<set name="effectRange" val="750" />
 	</skill>
 	<skill id="5971" levels="1" name="Seduced Ranger's Help">
+		<!-- Update by pmq -->
+		<!-- Increases HP regeneration. -->
+		<!--
+			Used by NPCs:
+			36563 36567
+		-->
+		<set name="mpInitialConsume" val="13" />
+		<set name="mpConsume" val="54" />
+		<set name="isMagic" val="true" />
+		<set name="reuseDelay" val="4000" />
+		<set name="hitTime" val="4000" />
 		<set name="target" val="TARGET_NONE" />
 		<set name="skillType" val="NOTDONE" />
 		<set name="operateType" val="OP_PASSIVE" />
-		<set name="hitTime" val="4000" />
+		<set name="castRange" val="75" />
+		<set name="effectRange" val="750" />
 	</skill>
 	<skill id="5972" levels="1" name="Seduced Wizard's Help">
+		<!-- Update by pmq -->
+		<!-- Increases Max MP. -->
+		<!--
+			Used by NPCs:
+			36564 36568
+		-->
+		<set name="mpInitialConsume" val="13" />
+		<set name="mpConsume" val="54" />
+		<set name="isMagic" val="true" />
+		<set name="reuseDelay" val="4000" />
+		<set name="hitTime" val="4000" />
 		<set name="target" val="TARGET_NONE" />
 		<set name="skillType" val="NOTDONE" />
 		<set name="operateType" val="OP_PASSIVE" />
-		<set name="hitTime" val="4000" />
+		<set name="castRange" val="75" />
+		<set name="effectRange" val="750" />
 	</skill>
 	<skill id="5973" levels="1" name="Seduced Warrior's Help">
+		<!-- Update by pmq -->
+		<!-- Increases MP regeneration. -->
+		<!--
+			Used by NPCs:
+			36565 36569
+		-->
+		<set name="mpInitialConsume" val="13" />
+		<set name="mpConsume" val="54" />
+		<set name="isMagic" val="true" />
+		<set name="reuseDelay" val="4000" />
+		<set name="hitTime" val="4000" />
 		<set name="target" val="TARGET_NONE" />
 		<set name="skillType" val="NOTDONE" />
 		<set name="operateType" val="OP_PASSIVE" />
-		<set name="hitTime" val="4000" />
+		<set name="castRange" val="75" />
+		<set name="effectRange" val="750" />
 	</skill>
 	<skill id="5974" levels="1" name="Tiat Transformation">
 		<set name="target" val="TARGET_NONE" />
@@ -457,16 +806,43 @@
 		<set name="hitTime" val="7900" />
 	</skill>
 	<skill id="5975" levels="3" name="Dark Attack">
-		<set name="target" val="TARGET_NONE" />
-		<set name="skillType" val="NOTDONE" />
+		<!-- Update by pmq -->
+		<!-- Lv1: none -->
+		<!--
+			Used by NPCs:
+			27341 - Lv1 27342 - Lv2 27343 - Lv3 27344 - Lv1 27345 - Lv2
+			27346 - Lv3 27394 - Lv1 27395 - Lv1 27396 - Lv1 27397 - Lv1
+			27398 - Lv1 27399 - Lv1 27400 - Lv1 27401 - Lv1 27402 - Lv1
+		-->
+		<table name="#pwr"> 5 10 15 </table> <!--Guess -->
+		<set name="target" val="TARGET_SELF" />
+		<set name="skillType" val="BUFF" />
+		<set name="magicLvl" val="1" />
 		<set name="operateType" val="OP_PASSIVE" />
-		<set name="hitTime" val="1000" />
+		<set name="element" val="5" /> <!-- Dark -->
+		<for>
+			<add order="0x40" stat="darkPower" val="#pwr"/>
+		</for>
 	</skill>
 	<skill id="5976" levels="3" name="Dark Storm">
+		<!-- Update by pmq -->
+		<!-- Lv1: none -->
+		<!--
+			Used by NPCs:
+			27341 - Lv1 27342 - Lv2 27343 - Lv3 27344 - Lv1 27345 - Lv2
+			27346 - Lv3 27394 - Lv1 27395 - Lv1 27396 - Lv1 27397 - Lv1
+			27398 - Lv1 27399 - Lv1 27400 - Lv1 27401 - Lv1 27402 - Lv1
+			27396 - Lv3 27399 - Lv3 27402 - Lv3
+		-->
+		<table name="#mpInitialConsume"> 10 12 15 </table>
+		<table name="#mpConsume"> 40 48 60 </table>
+		<set name="mpInitialConsume" val="#mpInitialConsume" />
+		<set name="mpConsume" val="#mpConsume" />
+		<set name="reuseDelay" val="2000" />
+		<set name="hitTime" val="2000" />
 		<set name="target" val="TARGET_NONE" />
 		<set name="skillType" val="NOTDONE" />
 		<set name="operateType" val="OP_PASSIVE" />
-		<set name="hitTime" val="2500" />
 	</skill>
 	<skill id="5977" levels="3" name="Dark Strike">
 		<set name="target" val="TARGET_NONE" />
@@ -487,10 +863,20 @@
 		<set name="hitTime" val="2500" />
 	</skill>
 	<skill id="5980" levels="3" name="Seal Isolation">
+		<!-- Update by pmq -->
+		<!--
+			Used by NPCs:
+			27382 - Lv1 27383 - Lv2 27384 - Lv3
+		-->
+		<table name="#mpInitialConsume"> 10 12 15 </table>
+		<table name="#mpConsume"> 40 48 60 </table>
+		<set name="mpInitialConsume" val="#mpInitialConsume" />
+		<set name="mpConsume" val="#mpConsume" />
+		<set name="reuseDelay" val="2000" />
+		<set name="hitTime" val="2000" />
 		<set name="target" val="TARGET_NONE" />
 		<set name="skillType" val="NOTDONE" />
 		<set name="operateType" val="OP_PASSIVE" />
-		<set name="hitTime" val="2500" />
 	</skill>
 	<skill id="5981" levels="3" name="Lilith's Curse">
 		<set name="target" val="TARGET_NONE" />
@@ -515,6 +901,14 @@
 		</cond>
 		<for>
 			<effect name="Transformation" time="-1" val="0"> <!-- Transformation has unlimited time -->
+		<!-- Update by pmq -->
+				<set order="0x08" stat="STR" val="41"/>
+				<set order="0x08" stat="DEX" val="33"/>
+				<set order="0x08" stat="CON" val="31"/>
+				<set order="0x08" stat="INT" val="29"/>
+				<set order="0x08" stat="WIT" val="11"/>
+				<set order="0x08" stat="MEN" val="25"/>
+				<mul order="0x30" stat="maxCp" val="0.15"/>
 			</effect>
 		</for>
 	</skill>
@@ -536,6 +930,14 @@
 		</cond>
 		<for>
 			<effect name="Transformation" time="-1" val="0"> <!-- Transformation has unlimited time -->
+		<!-- Update by pmq -->
+				<set order="0x08" stat="STR" val="41"/>
+				<set order="0x08" stat="DEX" val="33"/>
+				<set order="0x08" stat="CON" val="31"/>
+				<set order="0x08" stat="INT" val="29"/>
+				<set order="0x08" stat="WIT" val="11"/>
+				<set order="0x08" stat="MEN" val="25"/>
+				<mul order="0x30" stat="maxCp" val="0.15"/>
 			</effect>
 		</for>
 	</skill>
@@ -573,10 +975,24 @@
 		<set name="hitTime" val="3500" />
 	</skill>
 	<skill id="5990" levels="3" name="Lesser Heal">
-		<set name="target" val="TARGET_NONE" />
-		<set name="skillType" val="NOTDONE" />
-		<set name="operateType" val="OP_PASSIVE" />
+		<!-- Update by pmq -->
+		<!--
+			Lv1: Quickly restores HP. Power 817.
+			Lv2: Quickly restores HP. Power 839.
+			Lv3: Quickly restores HP. Power 867.
+		-->
+		<table name="#power"> 817 839 867 </table>
+		<table name="#mpInitialConsume"> 17 17 18 </table>
+		<table name="#mpConsume"> 68 70 73 </table>
+		<set name="power" val="#power" />
+		<set name="mpInitialConsume" val="#mpInitialConsume" />
+		<set name="mpConsume" val="#mpConsume" />
+		<set name="isMagic" val="true" />
+		<set name="reuseDelay" val="2000" />
 		<set name="hitTime" val="2000" />
+		<set name="target" val="TARGET_SELF" />
+		<set name="skillType" val="HEAL" />
+		<set name="operateType" val="OP_ACTIVE" />
 	</skill>
 	<skill id="5991" levels="1" name="Presentation - Summon Tiat">
 		<set name="target" val="TARGET_NONE" />

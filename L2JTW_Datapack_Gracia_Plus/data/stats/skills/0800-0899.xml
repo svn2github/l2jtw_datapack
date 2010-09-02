@@ -691,10 +691,17 @@
 		</for>
 	</skill>
 	<skill id="843" levels="1" name="Shooting Star">
-		<set name="target" val="TARGET_NONE" />
-		<set name="skillType" val="NOTDONE" />
-		<set name="operateType" val="OP_PASSIVE" />
+		<!-- Update by pmq -->
+		<set name="mpConsume" val="60" />
+		<set name="power" val="3422" />
+		<set name="target" val="TARGET_ONE" />
+		<set name="reuseDelay" val="1200" />
 		<set name="hitTime" val="1500" />
+		<set name="skillType" val="PDAM" />
+		<set name="isMagic" val="true" />
+		<set name="operateType" val="OP_ACTIVE" />
+		<set name="castRange" val="600" />
+		<set name="effectRange" val="1100" />
 	</skill>
 	<skill id="844" levels="1" name="Outpost Construction">
 		<set name="mpInitialConsume" val="30" />
@@ -949,94 +956,263 @@
 		</for>
 	</skill>
 	<skill id="869" levels="1" name="Mercenary Power Strike">
-		<set name="target" val="TARGET_NONE" />
-		<set name="skillType" val="NOTDONE" />
-		<set name="operateType" val="OP_PASSIVE" />
+		<!-- Update by pmq -->
+		<set name="mpConsume" val="8" />
+		<set name="power" val="4684" />
+		<set name="target" val="TARGET_ONE" />
+		<set name="overHit" val="true" />
+		<set name="SSBoost" val="2.0" />
+		<set name="reuseDelay" val="3000" />
 		<set name="hitTime" val="1080" />
+		<set name="coolTime" val="720" />
+		<set name="skillType" val="PDAM" />
+		<set name="operateType" val="OP_ACTIVE" />
+		<set name="castRange" val="40" />
+		<set name="effectRange" val="400" />
 	</skill>
 	<skill id="870" levels="1" name="Royal Guard Captain Power Strike">
-		<set name="target" val="TARGET_NONE" />
-		<set name="skillType" val="NOTDONE" />
-		<set name="operateType" val="OP_PASSIVE" />
+		<!-- Update by pmq -->
+		<set name="mpConsume" val="8" />
+		<set name="power" val="5684" />
+		<set name="target" val="TARGET_ONE" />
+		<set name="overHit" val="true" />
+		<set name="SSBoost" val="2.0" />
+		<set name="reuseDelay" val="3000" />
 		<set name="hitTime" val="1080" />
+		<set name="coolTime" val="720" />
+		<set name="skillType" val="PDAM" />
+		<set name="operateType" val="OP_ACTIVE" />
+		<set name="castRange" val="40" />
+		<set name="effectRange" val="400" />
 	</skill>
 	<skill id="871" levels="1" name="Royal Guard Captain Might">
-		<set name="target" val="TARGET_NONE" />
-		<set name="skillType" val="NOTDONE" />
-		<set name="operateType" val="OP_PASSIVE" />
+		<!-- Update by pmq -->
+		<table name="#mpConsume"> 35 </table>
+		<table name="#rate"> 1.15 </table>
+		<table name="#aggro"> 379 </table>
+		<set name="mpConsume" val="#mpConsume" />
+		<set name="target" val="TARGET_ONE" />
+		<set name="reuseDelay" val="2000" />
 		<set name="hitTime" val="4000" />
+		<set name="skillType" val="BUFF" />
+		<set name="isMagic" val="true" />
+		<set name="operateType" val="OP_ACTIVE" />
+		<set name="castRange" val="400" />
+		<set name="effectRange" val="900" />
+		<set name="aggroPoints" val="#aggro" />
+		<for>
+			<effect name="Buff" time="1200" val="0" stackOrder="#rate"
+				stackType="pa_up">
+				<mul order="0x30" stat="pAtk" val="#rate" />
+			</effect>
+		</for>
 	</skill>
 	<skill id="872" levels="1" name="Archer Captain Power Shot">
-		<set name="target" val="TARGET_NONE" />
-		<set name="skillType" val="NOTDONE" />
-		<set name="operateType" val="OP_PASSIVE" />
+		<!-- Update by pmq -->
+		<set name="weaponsAllowed" val="32" /> <!-- Bow -->
+		<set name="mpConsume" val="16" />
+		<set name="power" val="4870" />
+		<set name="target" val="TARGET_ONE" />
+		<set name="overHit" val="true" />
+		<set name="SSBoost" val="2.0" />
+		<set name="reuseDelay" val="6000" />
 		<set name="hitTime" val="3200" />
+		<set name="coolTime" val="800" />
+		<set name="skillType" val="PDAM" />
+		<set name="operateType" val="OP_ACTIVE" />
+		<set name="castRange" val="700" />
+		<set name="effectRange" val="1200" />
 	</skill>
 	<skill id="873" levels="1" name="Archer Captain Rapid Shot">
-		<set name="target" val="TARGET_NONE" />
-		<set name="skillType" val="NOTDONE" />
-		<set name="operateType" val="OP_PASSIVE" />
+		<!-- Update by pmq -->
+		<table name="#mpConsume"> 25 </table>
+		<table name="#rate"> 1.12 </table>
+		<table name="#aggro"> 549 </table>
+		<set name="mpConsume" val="#mpConsume" />
+		<set name="target" val="TARGET_SELF" />
+		<set name="reuseDelay" val="3000" />
 		<set name="hitTime" val="1500" />
+		<set name="skillType" val="BUFF" />
+		<set name="operateType" val="OP_ACTIVE" />
+		<set name="aggroPoints" val="#aggro" />
+		<for>
+			<effect name="Buff" time="1200" val="0">
+				<mul order="0x30" stat="pAtkSpd" val="#rate">
+					<using kind="Bow" />
+				</mul>
+			</effect>
+		</for>
 	</skill>
 	<skill id="874" levels="1" name="Magic Leader Flame Strike">
-		<set name="target" val="TARGET_NONE" />
-		<set name="skillType" val="NOTDONE" />
-		<set name="operateType" val="OP_PASSIVE" />
+		<!-- Update by pmq -->
+		<table name="#mpConsume"> 40 </table>
+		<table name="#power"> 117 </table>
+		<set name="mpConsume" val="#mpConsume" />
+		<set name="power" val="#power" />
+		<set name="target" val="TARGET_AREA" />
+		<set name="skillRadius" val="200" />
+		<set name="element" val="0" /> <!-- Fire -->
+		<set name="reuseDelay" val="4000" />
 		<set name="hitTime" val="4000" />
+		<set name="skillType" val="MDAM" />
+		<set name="isMagic" val="true" />
+		<set name="operateType" val="OP_ACTIVE" />
+		<set name="castRange" val="500" />
+		<set name="effectRange" val="1000" />
 	</skill>
 	<skill id="875" levels="1" name="Magic Leader Empower">
-		<set name="target" val="TARGET_NONE" />
-		<set name="skillType" val="NOTDONE" />
-		<set name="operateType" val="OP_PASSIVE" />
+		<!-- Update by pmq -->
+		<table name="#mpConsume"> 70 </table>
+		<table name="#mAtk"> 1.75 </table>
+		<table name="#aggro"> 495 </table>
+		<set name="mpConsume" val="#mpConsume" />
+		<set name="target" val="TARGET_ONE" />
+		<set name="reuseDelay" val="2000" />
 		<set name="hitTime" val="4000" />
+		<set name="skillType" val="BUFF" />
+		<set name="isMagic" val="true" />
+		<set name="operateType" val="OP_ACTIVE" />
+		<set name="castRange" val="400" />
+		<set name="effectRange" val="900" />
+		<set name="aggroPoints" val="#aggro" />
+		<for>
+			<effect name="Buff" time="1200" val="0" stackOrder="#mAtk"
+				stackType="ma_up">
+				<mul order="0x30" stat="mAtk" val="#mAtk" />
+			</effect>
+		</for>
 	</skill>
 	<skill id="876" levels="1" name="Kamael Guard Captain Enuma Elish">
-		<set name="target" val="TARGET_NONE" />
-		<set name="skillType" val="NOTDONE" />
-		<set name="operateType" val="OP_PASSIVE" />
+		<!-- Update by pmq -->
+		<set name="mpConsume" val="40" />
+		<set name="power" val="7060" />
 		<set name="hitTime" val="1080" />
+		<set name="overHit" val="true" />
+		<set name="operateType" val="OP_ACTIVE" />
+		<set name="target" val="TARGET_FRONT_AREA" />
+		<set name="skillRadius" val="310" />
+		<set name="skillType" val="PDAM" />
+		<set name="castRange" val="40" />
+		<set name="effectRange" val="400" />
+		<set name="reuseDelay" val="8000" />
+		<set name="soulMaxConsumeCount" val="5" />
 	</skill>
 	<skill id="877" levels="1" name="Kamael Guard Captain Disarm">
-		<set name="target" val="TARGET_NONE" />
-		<set name="skillType" val="NOTDONE" />
-		<set name="operateType" val="OP_PASSIVE" />
+		<!-- Update by pmq -->
+		<set name="castRange" val="40" />
+		<set name="effectRange" val="400" />
 		<set name="hitTime" val="1500" />
+		<set name="isDebuff" val="true" />
+		<set name="lvlDepend" val="2" />
+		<set name="mpConsume" val="25" />
+		<set name="operateType" val="OP_ACTIVE" />
+		<set name="power" val="100" /> <!-- Base Land Rate -->
+		<set name="reuseDelay" val="8000" />
+		<set name="skillType" val="DISARM" />
+		<set name="target" val="TARGET_ONE" />
+		<for>
+			<effect name="Disarm" time="7" val="0" />
+		</for>
 	</skill>
 	<skill id="878" levels="1" name="Knight of Dawn Power Strike">
-		<set name="target" val="TARGET_NONE" />
-		<set name="skillType" val="NOTDONE" />
-		<set name="operateType" val="OP_PASSIVE" />
+		<!-- Update by pmq -->
+		<set name="mpConsume" val="8" />
+		<set name="power" val="5684" />
+		<set name="target" val="TARGET_ONE" />
+		<set name="overHit" val="true" />
+		<set name="SSBoost" val="2.0" />
+		<set name="reuseDelay" val="3000" />
 		<set name="hitTime" val="1080" />
+		<set name="coolTime" val="720" />
+		<set name="skillType" val="PDAM" />
+		<set name="operateType" val="OP_ACTIVE" />
+		<set name="castRange" val="40" />
+		<set name="effectRange" val="400" />
 	</skill>
 	<skill id="879" levels="1" name="Knight of Dawn Curse Fear">
-		<set name="target" val="TARGET_NONE" />
-		<set name="skillType" val="NOTDONE" />
-		<set name="operateType" val="OP_PASSIVE" />
+		<!-- Update by pmq -->
+		<set name="mpConsume" val="70" />
+		<set name="power" val="60" />
+		<set name="target" val="TARGET_ONE" />
+		<set name="reuseDelay" val="3000" />
+		<set name="isDebuff" val="true" />
 		<set name="hitTime" val="4000" />
+		<set name="skillType" val="FEAR" />
+		<set name="isMagic" val="true" />
+		<set name="operateType" val="OP_ACTIVE" />
+		<set name="castRange" val="600" />
+		<set name="effectRange" val="1100" />
+		<for>
+			<effect count="5" name="Fear" time="2" val="0" />
+		</for>
 	</skill>
 	<skill id="880" levels="1" name="Knight of Dawn Ultimate Defense">
-		<set name="target" val="TARGET_NONE" />
-		<set name="skillType" val="NOTDONE" />
-		<set name="operateType" val="OP_PASSIVE" />
+		<!-- Update by pmq -->
+		<table name="#pDef"> 4200 </table>
+		<table name="#mDef"> 3500 </table>
+		<table name="#mpConsume"> 21 </table>
+		<table name="#aggro"> 438 </table>
+		<set name="mpConsume" val="#mpConsume" />
+		<set name="target" val="TARGET_SELF" />
+		<set name="reuseDelay" val="900000" />
 		<set name="hitTime" val="1000" />
+		<set name="skillType" val="BUFF" />
+		<set name="operateType" val="OP_ACTIVE" />
+		<set name="aggroPoints" val="#aggro" />
+		<for>
+			<effect name="ImmobileBuff" time="30" val="0" stackOrder="1"
+				stackType="pd_up_special">
+				<add order="0x40" stat="pDef" val="#pDef" />
+				<add order="0x40" stat="mDef" val="#mDef" />
+				<mul order="0x30" stat="cancelVuln" val="0.2" />
+			</effect>
+		</for>
 	</skill>
 	<skill id="881" levels="1" name="Fortress Captain Twister">
-		<set name="target" val="TARGET_NONE" />
-		<set name="skillType" val="NOTDONE" />
-		<set name="operateType" val="OP_PASSIVE" />
+		<!-- Update by pmq -->
+		<set name="mpConsume" val="70" />
+		<set name="power" val="117" />
+		<set name="target" val="TARGET_ONE" />
+		<set name="element" val="2" /> <!-- Wind -->
+		<set name="reuseDelay" val="1200" />
 		<set name="hitTime" val="4000" />
+		<set name="skillType" val="MDAM" />
+		<set name="isMagic" val="true" />
+		<set name="operateType" val="OP_ACTIVE" />
+		<set name="castRange" val="750" />
+		<set name="effectRange" val="1250" />
 	</skill>
 	<skill id="882" levels="1" name="Fortress Captain Blaze">
-		<set name="target" val="TARGET_NONE" />
-		<set name="skillType" val="NOTDONE" />
-		<set name="operateType" val="OP_PASSIVE" />
+		<!-- Update by pmq -->
+		<set name="mpConsume" val="70" />
+		<set name="power" val="117" />
+		<set name="target" val="TARGET_ONE" />
+		<set name="element" val="0" /> <!-- Fire -->
+		<set name="reuseDelay" val="1200" />
 		<set name="hitTime" val="4000" />
+		<set name="skillType" val="MDAM" />
+		<set name="isMagic" val="true" />
+		<set name="operateType" val="OP_ACTIVE" />
+		<set name="castRange" val="750" />
+		<set name="effectRange" val="1250" />
 	</skill>
 	<skill id="883" levels="1" name="Fortress Captain Seal of Binding">
-		<set name="target" val="TARGET_NONE" />
-		<set name="skillType" val="NOTDONE" />
-		<set name="operateType" val="OP_PASSIVE" />
+		<!-- Update by pmq -->
+		<set name="mpConsume" val="70" />
+		<set name="power" val="90" />
+		<set name="lvlDepend" val="2" />
+		<set name="target" val="TARGET_AURA" />
+		<set name="skillRadius" val="200" />
+		<set name="reuseDelay" val="4000" />
 		<set name="hitTime" val="4000" />
+		<set name="skillType" val="ROOT" />
+		<set name="isMagic" val="true" />
+		<set name="isDebuff" val="true" />
+		<set name="operateType" val="OP_ACTIVE" />
+		<for>
+			<effect name="Root" time="30" val="0" stackOrder="1"
+				stackType="Root" />
+		</for>
 	</skill>
 	<skill id="884" levels="11" name="Air Assault">
 		<!-- Aurabird Falcon & Owl -->

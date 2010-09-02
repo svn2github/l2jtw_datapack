@@ -902,9 +902,18 @@
 		</for>
 	</skill>
 	<skill id="2578" levels="1" name="Cure Poison Paralyze">
-		<set name="target" val="TARGET_NONE" />
-		<set name="skillType" val="NOTDONE" />
-		<set name="operateType" val="OP_PASSIVE" />
+		<!-- Update by pmq -->
+		<set name="itemConsumeId" val="13048" />
+		<set name="itemConsumeCount" val="1" />
+		<set name="target" val="TARGET_SELF" />
+		<set name="skillType" val="NEGATE" />
+		<set name="negateStats" val="POISON" />
+		<set name="negateLvl" val="7" />
+		<set name="operateType" val="OP_ACTIVE" />
+		<set name="isPotion" val="true" />
+		<cond msgId="113" addName="1">
+			<player flyMounted="False" />
+		</cond>
 	</skill>
 	<skill id="2579" levels="1" name="Cure Death Clock">
 		<set name="target" val="TARGET_NONE" />

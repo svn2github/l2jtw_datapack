@@ -770,16 +770,36 @@
 		</for>
 	</skill>
 	<skill id="950" levels="7" name="Nail Attack">
-		<set name="target" val="TARGET_NONE" />
-		<set name="skillType" val="NOTDONE" />
-		<set name="operateType" val="OP_PASSIVE" />
+		<!-- Update by pmq -->
+		<set name="mpConsume" val="71" />
+		<set name="power" val="2583" />
+		<set name="target" val="TARGET_ONE" />
+		<set name="reuseDelay" val="13000" />
 		<set name="hitTime" val="1080" />
+		<set name="skillType" val="PDAM" />
+		<set name="operateType" val="OP_ACTIVE" />
+		<set name="castRange" val="40" />
+		<set name="effectRange" val="400" />
 	</skill>
 	<skill id="951" levels="7" name="Wing Assault">
-		<set name="target" val="TARGET_NONE" />
-		<set name="skillType" val="NOTDONE" />
-		<set name="operateType" val="OP_PASSIVE" />
+		<!-- Update by pmq -->
+		<set name="castRange" val="600" />
+		<set name="effectRange" val="1100" />
+		<set name="flyType" val="CHARGE" />
 		<set name="hitTime" val="800" />
+		<set name="magicLvl" val="76" />
+		<set name="mpConsume" val="71" />
+		<set name="operateType" val="OP_ACTIVE" />
+		<set name="overHit" val="true" />
+		<set name="power" val="2067" />
+		<set name="reuseDelay" val="13000" />
+		<set name="skillRadius" val="600" />
+		<set name="skillType" val="PDAM" />
+		<set name="SSBoost" val="2.0" />
+		<set name="target" val="TARGET_FRONT_AREA" />
+		<cond msgId="113" addName="1">
+			<target mindistance="2" />
+		</cond>
 	</skill>
 	<skill id="952" levels="5" name="Collector's Experience">
 		<table name="#pAtk"> 72.7 86.1 100.2 114.8 129.3 </table>
@@ -795,11 +815,16 @@
 		</for>
 	</skill>
 	<skill id="953" levels="1" name="Life to Soul">
-		<set name="target" val="TARGET_NONE" />
-		<set name="skillType" val="NOTDONE" />
-		<set name="operateType" val="OP_PASSIVE" />
-		<set name="reuseDelay" val="11000" />
+		<!-- Update by pmq -->
+		<table name="#hpConsume"> 328 </table>
+		<table name="#num_souls"> 5 </table>
+		<set name="hpConsume" val="#hpConsume" />
+		<set name="target" val="TARGET_SELF" />
+		<set name="reuseDelay" val="8000" />
 		<set name="hitTime" val="900" />
+		<set name="skillType" val="CHARGESOUL" />
+		<set name="operateType" val="OP_ACTIVE" />
+		<set name="num_souls" val="#num_souls" />
 	</skill>
 	<skill id="954" levels="1" name="Strider Bite">
 		<!-- Commands the mounted strider to bite the enemies at the front. Attacks the enemy with 1649 power added to P. Atk., causes bleed for 20 seconds, and makes him consume 54 HP every second. Over-hit. Critical. -->
@@ -916,15 +941,31 @@
 	</skill>
 	<skill id="962" levels="1" name="Guard's March">
 		<!-- Increases one's own moving speed by 33 for 5 seconds. -->
-		<set name="target" val="TARGET_NONE" />
-		<set name="skillType" val="NOTDONE" />
-		<set name="operateType" val="OP_PASSIVE" />
+		<!-- Update by pmq -->
+		<set name="operateType" val="OP_ACTIVE" />
+		<set name="skillType" val="BUFF" />
+		<set name="target" val="TARGET_SELF" />
+		<set name="hitTime" val="4500" />
+		<set name="reuseDelay" val="30000" />
+		<for>
+			<effect name="Buff" time="5" val="0">
+				<add order="0x40" stat="runSpd" val="33" />
+			</effect>
+		</for>
 	</skill>
 	<skill id="963" levels="1" name="Guard's Ambush">
 		<!-- Hides the user. Movement speed is decreased by 30%, and the effect is canceled if any action other than movement is initiated. -->
-		<set name="target" val="TARGET_NONE" />
-		<set name="skillType" val="NOTDONE" />
-		<set name="operateType" val="OP_PASSIVE" />
+		<!-- Update by pmq -->
+		<set name="target" val="TARGET_SELF" />
+		<set name="skillType" val="BUFF" />
+		<set name="reuseDelay" val="15000" />
+		<set name="operateType" val="OP_ACTIVE" />
+		<for>
+			<!-- Info From PTS Freya -->
+			<effect count="1" name="Hide" time="20" val="0"> 
+				<mul order="0x30" stat="runSpd" val="0.7" />
+			</effect>
+		</for>
 	</skill>
 	<skill id="964" levels="1" name="Children of Shilen">
 		<set name="operateType" val="OP_PASSIVE" />

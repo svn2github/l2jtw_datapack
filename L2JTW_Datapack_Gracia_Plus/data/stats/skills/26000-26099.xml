@@ -1,34 +1,88 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <list>
 	<skill id="26000" levels="1" name="Small fortuna box">
-		<set name="target" val="TARGET_NONE" />
-		<set name="skillType" val="NOTDONE" />
-		<set name="operateType" val="OP_PASSIVE" />
+		<!-- Update by pmq -->
+		<set name="itemConsumeId" val="22000" />
+		<set name="itemConsumeCount" val="1" />
+		<set name="target" val="TARGET_SELF" />
+		<set name="skillType" val="EXTRACTABLE" />
+		<set name="operateType" val="OP_ACTIVE" />
+		<cond msgId="129">
+		<and>
+			<player invSize="10" />
+			<player weight="80" />
+		</and>
+		</cond>
 	</skill>
 	<skill id="26001" levels="1" name="Middle fortuna box">
-		<set name="target" val="TARGET_NONE" />
-		<set name="skillType" val="NOTDONE" />
-		<set name="operateType" val="OP_PASSIVE" />
+		<!-- Update by pmq -->
+		<set name="itemConsumeId" val="22001" />
+		<set name="itemConsumeCount" val="1" />
+		<set name="target" val="TARGET_SELF" />
+		<set name="skillType" val="EXTRACTABLE" />
+		<set name="operateType" val="OP_ACTIVE" />
+		<cond msgId="129">
+		<and>
+			<player invSize="10" />
+			<player weight="80" />
+		</and>
+		</cond>
 	</skill>
 	<skill id="26002" levels="1" name="Large fortuna box">
-		<set name="target" val="TARGET_NONE" />
-		<set name="skillType" val="NOTDONE" />
-		<set name="operateType" val="OP_PASSIVE" />
+		<!-- Update by pmq -->
+		<set name="itemConsumeId" val="22002" />
+		<set name="itemConsumeCount" val="1" />
+		<set name="target" val="TARGET_SELF" />
+		<set name="skillType" val="EXTRACTABLE" />
+		<set name="operateType" val="OP_ACTIVE" />
+		<cond msgId="129">
+		<and>
+			<player invSize="10" />
+			<player weight="80" />
+		</and>
+		</cond>
 	</skill>
 	<skill id="26003" levels="1" name="Small fortuna cube">
-		<set name="target" val="TARGET_NONE" />
-		<set name="skillType" val="NOTDONE" />
-		<set name="operateType" val="OP_PASSIVE" />
+		<!-- Update by pmq -->
+		<set name="itemConsumeId" val="22003" />
+		<set name="itemConsumeCount" val="1" />
+		<set name="target" val="TARGET_SELF" />
+		<set name="skillType" val="EXTRACTABLE" />
+		<set name="operateType" val="OP_ACTIVE" />
+		<cond msgId="129">
+		<and>
+			<player invSize="10" />
+			<player weight="80" />
+		</and>
+		</cond>
 	</skill>
 	<skill id="26004" levels="1" name="Middle fortuna cube">
-		<set name="target" val="TARGET_NONE" />
-		<set name="skillType" val="NOTDONE" />
-		<set name="operateType" val="OP_PASSIVE" />
+		<!-- Update by pmq -->
+		<set name="itemConsumeId" val="22004" />
+		<set name="itemConsumeCount" val="1" />
+		<set name="target" val="TARGET_SELF" />
+		<set name="skillType" val="EXTRACTABLE" />
+		<set name="operateType" val="OP_ACTIVE" />
+		<cond msgId="129">
+		<and>
+			<player invSize="10" />
+			<player weight="80" />
+		</and>
+		</cond>
 	</skill>
 	<skill id="26005" levels="1" name="Large fortuna cube">
-		<set name="target" val="TARGET_NONE" />
-		<set name="skillType" val="NOTDONE" />
-		<set name="operateType" val="OP_PASSIVE" />
+		<!-- Update by pmq -->
+		<set name="itemConsumeId" val="22005" />
+		<set name="itemConsumeCount" val="1" />
+		<set name="target" val="TARGET_SELF" />
+		<set name="skillType" val="EXTRACTABLE" />
+		<set name="operateType" val="OP_ACTIVE" />
+		<cond msgId="129">
+		<and>
+			<player invSize="10" />
+			<player weight="80" />
+		</and>
+		</cond>
 	</skill>
 	<skill id="26006" levels="1" name="Weapon Enchant Scroll - D Grade">
 		<set name="target" val="TARGET_NONE" />
@@ -501,9 +555,14 @@
 		</for>
 	</skill>
 	<skill id="26046" levels="5" name="Rune of Experience Points">
-		<set name="target" val="TARGET_NONE" />
-		<set name="skillType" val="NOTDONE" />
+		<!-- Update by pmq -->
+		<table name="#rExp"> 1.1 1.2 1.3 1.4 1.5 </table>
+		<set name="target" val="TARGET_SELF" />
+		<set name="skillType" val="BUFF" />
 		<set name="operateType" val="OP_PASSIVE" />
+		<for>
+			<mul order="0x30" stat="rExp" val="#rExp" />
+		</for>
 	</skill>
 	<skill id="26047" levels="5" name="Rune of SP">
 		<set name="target" val="TARGET_NONE" />
@@ -516,9 +575,13 @@
 		<set name="operateType" val="OP_PASSIVE" />
 	</skill>
 	<skill id="26049" levels="1" name="Rune of Feather">
-		<set name="target" val="TARGET_NONE" />
-		<set name="skillType" val="NOTDONE" />
+		<!-- Update by pmq -->
+		<set name="target" val="TARGET_SELF" />
+		<set name="skillType" val="BUFF" />
 		<set name="operateType" val="OP_PASSIVE" />
+		<for>
+			<mul order="0x30" stat="maxLoad" val="1.2" />
+		</for>
 	</skill>
 	<skill id="26050" levels="1" name="Blessed Spiritshot - D grade">
 		<set name="target" val="TARGET_SELF" />
@@ -726,5 +789,42 @@
 				<player weight="80" />
 			</and>
 		</cond>
+	</skill>
+	<skill id="26074" levels="1" name="Weapon Enchant Scroll - S Grade">
+		<!-- Update by pmq -->
+		<set name="target" val="TARGET_NONE" />
+		<set name="skillType" val="NOTDONE" />
+		<set name="operateType" val="OP_PASSIVE" />
+	</skill>
+	<skill id="26075" levels="1" name="Armor Enchant Scroll - S Grade">
+		<!-- Update by pmq -->
+		<set name="target" val="TARGET_NONE" />
+		<set name="skillType" val="NOTDONE" />
+		<set name="operateType" val="OP_PASSIVE" />
+	</skill>
+	<skill id="26076" levels="1" name="Divine Weapon Enchant Crystal - S grade">
+		<!-- Update by pmq -->
+		<set name="target" val="TARGET_NONE" />
+		<set name="skillType" val="NOTDONE" />
+		<set name="operateType" val="OP_PASSIVE" />
+	</skill>
+	<skill id="26077" levels="1" name="Divine Armor Enchant Crystal - S grade">
+		<!-- Update by pmq -->
+		<set name="target" val="TARGET_NONE" />
+		<set name="skillType" val="NOTDONE" />
+		<set name="operateType" val="OP_PASSIVE" />
+	</skill>
+	<skill id="26078" levels="1" name="Ancient Weapon Enchant Crystal - S grade">
+		<!-- Update by pmq -->
+		<set name="target" val="TARGET_NONE" />
+		<set name="skillType" val="NOTDONE" />
+		<set name="operateType" val="OP_PASSIVE" />
+	</skill>
+ 
+	<skill id="26079" levels="1" name="Ancient Armor Enchant Crystal - S grade">
+		<!-- Update by pmq -->
+		<set name="target" val="TARGET_NONE" />
+		<set name="skillType" val="NOTDONE" />
+		<set name="operateType" val="OP_PASSIVE" />
 	</skill>
 </list>

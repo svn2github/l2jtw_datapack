@@ -1638,13 +1638,19 @@
 		</for>
 	</skill>
 	<skill id="792" levels="1" name="Betrayal Mark">
-		<!-- duration is 30 seconds -->
-		<set name="target" val="TARGET_NONE" />
-		<set name="skillType" val="NOTDONE" />
-		<set name="operateType" val="OP_PASSIVE" />
-		<set name="power" val="70" /> <!-- Base Land Rate -->
+		<!-- duration is 30 seconds --><!-- Update by pmq -->
+		<set name="magicLvl" val="78" />
+		<set name="mpInitialConsume" val="11" />
+		<set name="mpConsume" val="26" />
+		<set name="power" val="80" /> <!-- Base Land Rate -->
 		<set name="hitTime" val="1200" />
-		<set name="reuseDelay" val="11000" />
+		<set name="operateType" val="OP_ACTIVE" />
+		<set name="isMagic" val="true" />
+		<set name="target" val="TARGET_ONE" />
+		<set name="skillType" val="DEBUFF" />
+		<set name="castRange" val="600" />
+		<set name="effectPoint" val="900" />
+		<set name="reuseDelay" val="60000" />
 	</skill>
 	<skill id="793" levels="1" name="Rush Impact" enchantGroup1="6" enchantGroup2="6" enchantGroup3="6" enchantGroup4="6" enchantGroup5="6" enchantGroup6="6" enchantGroup7="6" enchantGroup8="6">
 		<table name="#enchantMagicLvl"> 78 79 79 80 80 81 81 82 82 83 83 84 84 85 85 </table>

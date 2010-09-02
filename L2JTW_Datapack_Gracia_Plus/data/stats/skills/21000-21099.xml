@@ -516,101 +516,323 @@
 	</skill>
 	<skill id="21052" levels="1" name="Bless the Body">
 		<!-- Increases Max HP by 25% for 30 minutes -->
-		<set name="target" val="TARGET_NONE" />
-		<set name="skillType" val="NOTDONE" />
-		<set name="operateType" val="OP_PASSIVE" />
+		<!-- Update by pmq -->
+		<table name="#maxHp"> 1.25 </table>
+		<table name="#aggroPoints"> 532 </table>
+		<set name="mpInitialConsume" val="11" />
+		<set name="mpConsume" val="41" />
+		<set name="target" val="TARGET_ONE" />
+		<set name="reuseDelay" val="4000" />
 		<set name="hitTime" val="4000" />
+		<set name="skillType" val="BUFF" />
+		<set name="isMagic" val="true" />
+		<set name="operateType" val="OP_ACTIVE" />
+		<set name="aggroPoints" val="#aggroPoints" />
+		<for>
+			<effect name="Buff" time="1800" val="0" stackOrder="#maxHp" stackType="max_hp_up">
+				<mul order="0x30" stat="maxHp" val="#maxHp" />
+			</effect>
+		</for>
 	</skill>
 	<skill id="21053" levels="1" name="Bless the Soul">
 		<!-- Increases Max MP by 25% for 30 minutes -->
-		<set name="target" val="TARGET_NONE" />
-		<set name="skillType" val="NOTDONE" />
-		<set name="operateType" val="OP_PASSIVE" />
+		<!-- Update by pmq -->
+		<table name="#mpInitialConsume"> 10 </table>
+		<table name="#mpConsume"> 41 </table>
+		<table name="#maxMp"> 1.25 </table>
+		<!-- Same table, 2 times with different values -->
+		<table name="#aggroPoints"> 532 </table>
+		<set name="mpInitialConsume" val="#mpInitialConsume" />
+		<set name="mpConsume" val="#mpConsume" />
+		<set name="target" val="TARGET_ONE" />
+		<set name="reuseDelay" val="4000" />
 		<set name="hitTime" val="4000" />
+		<set name="skillType" val="BUFF" />
+		<set name="isMagic" val="true" />
+		<set name="operateType" val="OP_ACTIVE" />
+		<set name="castRange" val="400" />
+		<set name="effectRange" val="900" />
+		<set name="aggroPoints" val="#aggroPoints" />
+		<for>
+			<effect name="Buff" time="1800" val="0" stackOrder="#maxMp" stackType="max_mp_up">
+				<mul order="0x30" stat="maxMp" val="#maxMp" />
+			</effect>
+		</for>
 	</skill>
 	<skill id="21054" levels="1" name="Blessed Resurrection Ability">
 		<!-- Can use the ability of Blessed Resurrection. Reuse Delay 12 hours -->
-		<set name="target" val="TARGET_NONE" />
-		<set name="skillType" val="NOTDONE" />
-		<set name="operateType" val="OP_PASSIVE" />
+		<!-- Update by pmq -->
+		<set name="power" val="100" />
+		<set name="reuseDelay" val="43200000" />
 		<set name="hitTime" val="3000" />
+		<set name="staticHitTime" val="true" />
+		<set name="target" val="TARGET_CORPSE_PLAYER" />
+		<set name="skillType" val="RESURRECT" />
+		<set name="operateType" val="OP_ACTIVE" />
+		<set name="castRange" val="400" />
+		<set name="effectRange" val="900" />
 	</skill>
 	<skill id="21055" levels="1" name="Wind Walk">
 		<!-- Increases moving speed by 20 for 2 minutes. Reuse delay 18 minutes -->
-		<set name="target" val="TARGET_NONE" />
-		<set name="skillType" val="NOTDONE" />
-		<set name="operateType" val="OP_PASSIVE" />
+		<!-- Update by pmq -->
+		<table name="#mpInitialConsume"> 4 </table>
+		<table name="#mpConsume"> 16 </table>
+		<table name="#runSpd"> 20 </table>
+		<table name="#aggroPoints"> 204 </table>
+		<set name="mpInitialConsume" val="#mpInitialConsume" />
+		<set name="mpConsume" val="#mpConsume" />
+		<set name="target" val="TARGET_ONE" />
+		<set name="reuseDelay" val="1080000" />
 		<set name="hitTime" val="4000" />
+		<set name="skillType" val="BUFF" />
+		<set name="isMagic" val="true" />
+		<set name="operateType" val="OP_ACTIVE" />
+		<set name="castRange" val="400" />
+		<set name="effectRange" val="900" />
+		<set name="aggroPoints" val="#aggroPoints" />
+		<for>
+			<effect name="Buff" time="120" val="0" stackOrder="#runSpd" stackType="speed_up">
+				<add order="0x40" stat="runSpd" val="#runSpd" />
+			</effect>
+		</for>
 	</skill>
 	<skill id="21056" levels="1" name="Agility">
 		<!-- Increases evasion rate by 4 for 1 hour. Reuse Delay 24 hours -->
-		<set name="target" val="TARGET_NONE" />
-		<set name="skillType" val="NOTDONE" />
-		<set name="operateType" val="OP_PASSIVE" />
+		<!-- Update by pmq -->
+		<table name="#mpInitialConsume"> 4 </table>
+		<table name="#mpConsume"> 18 </table>
+		<table name="#rEvas"> 2 </table>
+		<table name="#aggroPoints"> 243 </table>
+		<set name="mpInitialConsume" val="#mpInitialConsume" />
+		<set name="mpConsume" val="#mpConsume" />
+		<set name="target" val="TARGET_ONE" />
+		<set name="reuseDelay" val="86400000" />
 		<set name="hitTime" val="4000" />
+		<set name="skillType" val="BUFF" />
+		<set name="isMagic" val="true" />
+		<set name="operateType" val="OP_ACTIVE" />
+		<set name="castRange" val="400" />
+		<set name="effectRange" val="900" />
+		<set name="aggroPoints" val="#aggroPoints" />
+		<for>
+			<effect name="Buff" time="1200" val="0" stackOrder="#rEvas" stackType="rEvas">
+				<add order="0x40" stat="rEvas" val="#rEvas" />
+			</effect>
+		</for>
 	</skill>
 	<skill id="21057" levels="1" name="Reflect">
 		<!-- For 5 minutes, returns 20% of the damage back to the enemy. Excludes skill and long-range attacks. Reuse Delay 1 hours -->
-		<set name="target" val="TARGET_NONE" />
-		<set name="skillType" val="NOTDONE" />
-		<set name="operateType" val="OP_PASSIVE" />
+		<!-- Update by pmq -->
+		<table name="#mpInitialConsume"> 5 </table>
+		<table name="#mpConsume"> 19 </table>
+		<table name="#reflectDam"> 20 </table>
+		<table name="#aggroPoints"> 495 </table>
+		<set name="mpInitialConsume" val="#mpInitialConsume" />
+		<set name="mpConsume" val="#mpConsume" />
+		<set name="target" val="TARGET_SELF" />
+		<set name="reuseDelay" val="3600000" />
 		<set name="hitTime" val="3000" />
+		<set name="skillType" val="REFLECT" />
+		<set name="isMagic" val="true" />
+		<set name="operateType" val="OP_ACTIVE" />
+		<set name="aggroPoints" val="#aggroPoints" />
+		<for>
+			<effect name="Buff" time="300" val="0" stackOrder="#reflectDam" stackType="DmgShield">
+				<add order="0x40" stat="reflectDam" val="#reflectDam" />
+			</effect>
+		</for>
 	</skill>
 	<skill id="21058" levels="1" name="Mana Regeneration">
 		<!-- Increases MP Regeneration by 3% for 5 minutes. Reuse Delay 1 hours -->
-		<set name="target" val="TARGET_NONE" />
-		<set name="skillType" val="NOTDONE" />
-		<set name="operateType" val="OP_PASSIVE" />
+		<!-- Update by pmq -->
+		<table name="#regMp"> 3.0 </table>
+		<table name="#itemConsumeCount"> 15 </table>
+		<table name="#mpInitialConsume"> 13 </table>
+		<table name="#mpConsume"> 52 </table>
+		<table name="#aggroPoints"> 635 </table>
+		<set name="mpInitialConsume" val="#mpInitialConsume" />
+		<set name="mpConsume" val="#mpConsume" />
+		<set name="itemConsumeId" val="3031" />
+		<set name="itemConsumeCount" val="#itemConsumeCount" />
+		<set name="target" val="TARGET_SELF" />
+		<set name="reuseDelay" val="3600000" />
 		<set name="hitTime" val="3000" />
+		<set name="skillType" val="BUFF" />
+		<set name="isMagic" val="true" />
+		<set name="operateType" val="OP_ACTIVE" />
+		<set name="aggroPoints" val="#aggroPoints" />
+		<for>
+			<effect name="Buff" time="300" val="0">
+				<add order="0x40" stat="regMp" val="#regMp" />
+			</effect>
+		</for>
 	</skill>
 	<skill id="21059" levels="1" name="Greater Heal">
 		<!-- Recovers HP by 444 and increases HP Recovery by 30 for 15 seconds. Reuse Delay 4 hours -->
-		<set name="target" val="TARGET_NONE" />
-		<set name="skillType" val="NOTDONE" />
-		<set name="operateType" val="OP_PASSIVE" />
+		<!-- Update by pmq -->
+		<table name="#mpInitialConsume"> 22 </table>
+		<table name="#mpConsume"> 90 </table>
+		<table name="#power"> 444 </table>
+		<table name="#hotValue"> 30 </table>
+		<table name="#aggroPoints"> 733 </table>
+		<set name="mpInitialConsume" val="#mpInitialConsume" />
+		<set name="mpConsume" val="#mpConsume" />
+		<set name="power" val="#power" />
+		<set name="target" val="TARGET_ONE" />
+		<set name="reuseDelay" val="14400000" />
 		<set name="hitTime" val="3000" />
+		<set name="skillType" val="HEAL" />
+		<set name="isMagic" val="true" />
+		<set name="operateType" val="OP_ACTIVE" />
+		<set name="castRange" val="600" />
+		<set name="effectRange" val="1100" />
+		<set name="aggroPoints" val="#aggroPoints" />
+		<for>
+			<effect count="15" name="HealOverTime" val="#hotValue" stackOrder="#hotValue" stackType="LifeForce" />
+		</for>
 	</skill>
 	<skill id="21060" levels="1" name="Death Whisper">
 		<!-- Increases Critical attack power by 35% for 5 minutes. Reuse Delay 1 hours -->
-		<set name="target" val="TARGET_NONE" />
-		<set name="skillType" val="NOTDONE" />
-		<set name="operateType" val="OP_PASSIVE" />
+		<!-- Update by pmq -->
+		<table name="#cAtk"> 1.35 </table>
+		<table name="#mpInitialConsume"> 10 </table>
+		<table name="#mpConsume"> 41 </table>
+		<table name="#aggroPoints"> 532 </table>
+		<set name="mpInitialConsume" val="#mpInitialConsume" />
+		<set name="mpConsume" val="#mpConsume" />
+		<set name="target" val="TARGET_ONE" />
+		<set name="reuseDelay" val="3600000" />
 		<set name="hitTime" val="3000" />
+		<set name="skillType" val="BUFF" />
+		<set name="isMagic" val="true" />
+		<set name="operateType" val="OP_ACTIVE" />
+		<set name="castRange" val="400" />
+		<set name="effectRange" val="900" />
+		<set name="aggroPoints" val="#aggroPoints" />
+		<for>
+			<effect name="Buff" time="300" val="0" stackOrder="#cAtk" stackType="critical_dmg_up">
+				<mul order="0x30" stat="cAtk" val="#cAtk" />
+			</effect>
+		</for>
 	</skill>
 	<skill id="21061" levels="1" name="Agility">
 		<!-- Increases evasion rate by 4 for 1 hour. Reuse Delay 24 hours -->
-		<set name="target" val="TARGET_NONE" />
-		<set name="skillType" val="NOTDONE" />
-		<set name="operateType" val="OP_PASSIVE" />
+		<!-- Update by pmq -->
+		<table name="#mpInitialConsume"> 4 </table>
+		<table name="#mpConsume"> 18 </table>
+		<table name="#rEvas"> 2 </table>
+		<table name="#aggroPoints"> 243 </table>
+		<set name="mpInitialConsume" val="#mpInitialConsume" />
+		<set name="mpConsume" val="#mpConsume" />
+		<set name="target" val="TARGET_ONE" />
+		<set name="reuseDelay" val="86400000" />
 		<set name="hitTime" val="4000" />
+		<set name="skillType" val="BUFF" />
+		<set name="isMagic" val="true" />
+		<set name="operateType" val="OP_ACTIVE" />
+		<set name="castRange" val="400" />
+		<set name="effectRange" val="900" />
+		<set name="aggroPoints" val="#aggroPoints" />
+		<for>
+			<effect name="Buff" time="1200" val="0" stackOrder="#rEvas" stackType="rEvas">
+				<add order="0x40" stat="rEvas" val="#rEvas" />
+			</effect>
+		</for>
 	</skill>
 	<skill id="21062" levels="1" name="Wild Magic">
 		<!-- For 5 minutes, increases by 2% the occurrence rate of damage that is caused by damage magic. Reuse Delay 1 hours -->
-		<set name="target" val="TARGET_NONE" />
-		<set name="skillType" val="NOTDONE" />
-		<set name="operateType" val="OP_PASSIVE" />
+		<!-- Update by pmq -->
+		<table name="#mpInitialConsume"> 11 </table>
+		<table name="#mpConsume"> 46 </table>
+		<table name="#mCritRate"> 1.02 </table>
+		<table name="#aggroPoints"> 582 </table>
+		<set name="mpInitialConsume" val="#mpInitialConsume" />
+		<set name="mpConsume" val="#mpConsume" />
+		<set name="target" val="TARGET_ONE" />
+		<set name="reuseDelay" val="3600000" />
 		<set name="hitTime" val="3000" />
+		<set name="skillType" val="BUFF" />
+		<set name="isMagic" val="true" />
+		<set name="operateType" val="OP_ACTIVE" />
+		<set name="castRange" val="400" />
+		<set name="effectRange" val="900" />
+		<set name="aggroPoints" val="#aggroPoints" />
+		<for>
+			<effect name="Buff" time="300" val="0" stackOrder="#mCritRate" stackType="magic_critical_up">
+				<basemul order="0x30" stat="mCritRate" val="#mCritRate" />
+			</effect>
+		</for>
 	</skill>
 	<skill id="21063" levels="1" name="Wind Walk">
 		<!-- Increases moving speed by 20 for 2 minutes. Reuse delay 18 minutes -->
-		<set name="target" val="TARGET_NONE" />
-		<set name="skillType" val="NOTDONE" />
-		<set name="operateType" val="OP_PASSIVE" />
+		<!-- Update by pmq -->
+		<table name="#mpInitialConsume"> 4 </table>
+		<table name="#mpConsume"> 16 </table>
+		<table name="#runSpd"> 20 </table>
+		<table name="#aggroPoints"> 204 </table>
+		<set name="mpInitialConsume" val="#mpInitialConsume" />
+		<set name="mpConsume" val="#mpConsume" />
+		<set name="target" val="TARGET_ONE" />
+		<set name="reuseDelay" val="1080000" />
 		<set name="hitTime" val="4000" />
+		<set name="skillType" val="BUFF" />
+		<set name="isMagic" val="true" />
+		<set name="operateType" val="OP_ACTIVE" />
+		<set name="castRange" val="400" />
+		<set name="effectRange" val="900" />
+		<set name="aggroPoints" val="#aggroPoints" />
+		<for>
+			<effect name="Buff" time="120" val="0" stackOrder="#runSpd" stackType="speed_up">
+				<add order="0x40" stat="runSpd" val="#runSpd" />
+			</effect>
+		</for>
 	</skill>
 	<skill id="21064" levels="1" name="Mana Regeneration">
 		<!-- Increases MP Regeneration by 3% for 5 minutes. Reuse Delay 1 hours -->
-		<set name="target" val="TARGET_NONE" />
-		<set name="skillType" val="NOTDONE" />
-		<set name="operateType" val="OP_PASSIVE" />
+		<!-- Update by pmq -->
+		<table name="#regMp"> 3.0 </table>
+		<table name="#itemConsumeCount"> 15 </table>
+		<table name="#mpInitialConsume"> 13 </table>
+		<table name="#mpConsume"> 52 </table>
+		<table name="#aggroPoints"> 635 </table>
+		<set name="mpInitialConsume" val="#mpInitialConsume" />
+		<set name="mpConsume" val="#mpConsume" />
+		<set name="itemConsumeId" val="3031" />
+		<set name="itemConsumeCount" val="#itemConsumeCount" />
+		<set name="target" val="TARGET_SELF" />
+		<set name="reuseDelay" val="3600000" />
 		<set name="hitTime" val="3000" />
+		<set name="skillType" val="BUFF" />
+		<set name="isMagic" val="true" />
+		<set name="operateType" val="OP_ACTIVE" />
+		<set name="aggroPoints" val="#aggroPoints" />
+		<for>
+			<effect name="Buff" time="300" val="0">
+				<add order="0x40" stat="regMp" val="#regMp" />
+			</effect>
+		</for>
 	</skill>
 	<skill id="21065" levels="1" name="Reflect">
 		<!-- For 5 minutes, returns 20% of the damage back to the enemy. Excludes skill and long-range attacks. Reuse Delay 1 hours -->
-		<set name="target" val="TARGET_NONE" />
-		<set name="skillType" val="NOTDONE" />
-		<set name="operateType" val="OP_PASSIVE" />
+		<!-- Update by pmq -->
+		<table name="#mpInitialConsume"> 5 </table>
+		<table name="#mpConsume"> 19 </table>
+		<table name="#reflectDam"> 20 </table>
+		<table name="#aggroPoints"> 495 </table>
+		<set name="mpInitialConsume" val="#mpInitialConsume" />
+		<set name="mpConsume" val="#mpConsume" />
+		<set name="target" val="TARGET_SELF" />
+		<set name="reuseDelay" val="3600000" />
 		<set name="hitTime" val="3000" />
+		<set name="skillType" val="REFLECT" />
+		<set name="isMagic" val="true" />
+		<set name="operateType" val="OP_ACTIVE" />
+		<set name="aggroPoints" val="#aggroPoints" />
+		<for>
+			<effect name="Buff" time="300" val="0" stackOrder="#reflectDam" stackType="DmgShield">
+				<add order="0x40" stat="reflectDam" val="#reflectDam" />
+			</effect>
+		</for>
 	</skill>
 	<skill id="21066" levels="1" name="Energy Recovery">
 		<!-- Recovers energy when acquiring Exp. for 5 minutes. Reuse Delay 1 hours -->
@@ -628,122 +850,392 @@
 	</skill>
 	<skill id="21067" levels="1" name="Blessed Escape Ability">
 		<!-- Can use the ability of Blessed Return. Reuse Delay 12 hours -->
-		<set name="target" val="TARGET_NONE" />
-		<set name="skillType" val="NOTDONE" />
-		<set name="operateType" val="OP_PASSIVE" />
+		<!-- Update by pmq -->
+		<set name="reuseDelay" val="43200000" />
 		<set name="hitTime" val="200" />
+		<set name="target" val="TARGET_SELF" />
+		<set name="skillType" val="RECALL" />
+		<set name="operateType" val="OP_ACTIVE" />
 	</skill>
 	<skill id="21068" levels="1" name="Resist Unholy">
 		<!-- Increases resistance to darkness type attacks by 30 for 5 minutes. Reuse Delay 1 hours -->
-		<set name="target" val="TARGET_NONE" />
-		<set name="skillType" val="NOTDONE" />
-		<set name="operateType" val="OP_PASSIVE" />
+		<!-- Update by pmq -->
+		<table name="#mpInitialConsume"> 13 </table>
+		<table name="#mpConsume"> 55 </table>
+		<table name="#power"> 30 </table>
+		<table name="#stack"> 1.3 </table>
+		<set name="mpInitialConsume" val="#mpInitialConsume" />
+		<set name="mpConsume" val="#mpConsume" />
+		<set name="reuseDelay" val="3600000" />
 		<set name="hitTime" val="3000" />
+		<set name="target" val="TARGET_ONE" />
+		<set name="skillType" val="BUFF" />
+		<set name="operateType" val="OP_ACTIVE" />
+		<set name="castRange" val="400" />
+		<set name="effectRange" val="900" />
+		<set name="isMagic" val="true" />
+		<for>
+			<effect name="Buff" time="300" val="0" stackOrder="#stack" stackType="DarkAtr">
+				<add order="0x40" stat="darkRes" val="#power" />
+			</effect>
+		</for>
 	</skill>
 	<skill id="21069" levels="1" name="Wind Walk">
 		<!-- Increases moving speed by 20 for 2 minutes. Reuse delay 18 minutes -->
-		<set name="target" val="TARGET_NONE" />
-		<set name="skillType" val="NOTDONE" />
-		<set name="operateType" val="OP_PASSIVE" />
+		<!-- Update by pmq -->
+		<table name="#mpInitialConsume"> 4 </table>
+		<table name="#mpConsume"> 16 </table>
+		<table name="#runSpd"> 20 </table>
+		<table name="#aggroPoints"> 204 </table>
+		<set name="mpInitialConsume" val="#mpInitialConsume" />
+		<set name="mpConsume" val="#mpConsume" />
+		<set name="target" val="TARGET_ONE" />
+		<set name="reuseDelay" val="1080000" />
 		<set name="hitTime" val="4000" />
+		<set name="skillType" val="BUFF" />
+		<set name="isMagic" val="true" />
+		<set name="operateType" val="OP_ACTIVE" />
+		<set name="castRange" val="400" />
+		<set name="effectRange" val="900" />
+		<set name="aggroPoints" val="#aggroPoints" />
+		<for>
+			<effect name="Buff" time="120" val="0" stackOrder="#runSpd" stackType="speed_up">
+				<add order="0x40" stat="runSpd" val="#runSpd" />
+			</effect>
+		</for>
 	</skill>
 	<skill id="21070" levels="1" name="Death Whisper">
 		<!-- Increases Critical attack power by 35% for 5 minutes. Reuse Delay 1 hours -->
-		<set name="target" val="TARGET_NONE" />
-		<set name="skillType" val="NOTDONE" />
-		<set name="operateType" val="OP_PASSIVE" />
+		<!-- Update by pmq -->
+		<table name="#cAtk"> 1.35 </table>
+		<table name="#mpInitialConsume"> 10 </table>
+		<table name="#mpConsume"> 41 </table>
+		<table name="#aggroPoints"> 532 </table>
+		<set name="mpInitialConsume" val="#mpInitialConsume" />
+		<set name="mpConsume" val="#mpConsume" />
+		<set name="target" val="TARGET_ONE" />
+		<set name="reuseDelay" val="3600000" />
 		<set name="hitTime" val="3000" />
+		<set name="skillType" val="BUFF" />
+		<set name="isMagic" val="true" />
+		<set name="operateType" val="OP_ACTIVE" />
+		<set name="castRange" val="400" />
+		<set name="effectRange" val="900" />
+		<set name="aggroPoints" val="#aggroPoints" />
+		<for>
+			<effect name="Buff" time="300" val="0" stackOrder="#cAtk" stackType="critical_dmg_up">
+				<mul order="0x30" stat="cAtk" val="#cAtk" />
+			</effect>
+		</for>
 	</skill>
 	<skill id="21071" levels="1" name="Agility">
 		<!-- Increases evasion rate by 4 for 1 hour. Reuse Delay 24 hours -->
-		<set name="target" val="TARGET_NONE" />
-		<set name="skillType" val="NOTDONE" />
-		<set name="operateType" val="OP_PASSIVE" />
+		<!-- Update by pmq -->
+		<table name="#mpInitialConsume"> 4 </table>
+		<table name="#mpConsume"> 18 </table>
+		<table name="#rEvas"> 2 </table>
+		<table name="#aggroPoints"> 243 </table>
+		<set name="mpInitialConsume" val="#mpInitialConsume" />
+		<set name="mpConsume" val="#mpConsume" />
+		<set name="target" val="TARGET_ONE" />
+		<set name="reuseDelay" val="86400000" />
 		<set name="hitTime" val="4000" />
+		<set name="skillType" val="BUFF" />
+		<set name="isMagic" val="true" />
+		<set name="operateType" val="OP_ACTIVE" />
+		<set name="castRange" val="400" />
+		<set name="effectRange" val="900" />
+		<set name="aggroPoints" val="#aggroPoints" />
+		<for>
+			<effect name="Buff" time="1200" val="0" stackOrder="#rEvas" stackType="rEvas">
+				<add order="0x40" stat="rEvas" val="#rEvas" />
+			</effect>
+		</for>
 	</skill>
 	<skill id="21072" levels="1" name="Wild Magic">
 		<!-- For 5 minutes, increases by 2% the occurrence rate of damage that is caused by damage magic. Reuse Delay 1 hours -->
-		<set name="target" val="TARGET_NONE" />
-		<set name="skillType" val="NOTDONE" />
-		<set name="operateType" val="OP_PASSIVE" />
+		<!-- Update by pmq -->
+		<table name="#mpInitialConsume"> 11 </table>
+		<table name="#mpConsume"> 46 </table>
+		<table name="#mCritRate"> 1.02 </table>
+		<table name="#aggroPoints"> 582 </table>
+		<set name="mpInitialConsume" val="#mpInitialConsume" />
+		<set name="mpConsume" val="#mpConsume" />
+		<set name="target" val="TARGET_ONE" />
+		<set name="reuseDelay" val="3600000" />
 		<set name="hitTime" val="3000" />
+		<set name="skillType" val="BUFF" />
+		<set name="isMagic" val="true" />
+		<set name="operateType" val="OP_ACTIVE" />
+		<set name="castRange" val="400" />
+		<set name="effectRange" val="900" />
+		<set name="aggroPoints" val="#aggroPoints" />
+		<for>
+			<effect name="Buff" time="300" val="0" stackOrder="#mCritRate" stackType="magic_critical_up">
+				<basemul order="0x30" stat="mCritRate" val="#mCritRate" />
+			</effect>
+		</for>
 	</skill>
 	<skill id="21073" levels="1" name="Mana Regeneration">
 		<!-- Increases MP Regeneration by 3% for 5 minutes. Reuse Delay 1 hours -->
-		<set name="target" val="TARGET_NONE" />
-		<set name="skillType" val="NOTDONE" />
-		<set name="operateType" val="OP_PASSIVE" />
+		<!-- Update by pmq -->
+		<table name="#regMp"> 3.0 </table>
+		<table name="#itemConsumeCount"> 15 </table>
+		<table name="#mpInitialConsume"> 13 </table>
+		<table name="#mpConsume"> 52 </table>
+		<table name="#aggroPoints"> 635 </table>
+		<set name="mpInitialConsume" val="#mpInitialConsume" />
+		<set name="mpConsume" val="#mpConsume" />
+		<set name="itemConsumeId" val="3031" />
+		<set name="itemConsumeCount" val="#itemConsumeCount" />
+		<set name="target" val="TARGET_SELF" />
+		<set name="reuseDelay" val="3600000" />
 		<set name="hitTime" val="3000" />
+		<set name="skillType" val="BUFF" />
+		<set name="isMagic" val="true" />
+		<set name="operateType" val="OP_ACTIVE" />
+		<set name="aggroPoints" val="#aggroPoints" />
+		<for>
+			<effect name="Buff" time="300" val="0">
+				<add order="0x40" stat="regMp" val="#regMp" />
+			</effect>
+		</for>
 	</skill>
 	<skill id="21074" levels="1" name="Reflect">
 		<!-- For 5 minutes, returns 20% of the damage back to the enemy. Excludes skill and long-range attacks. Reuse Delay 1 hours -->
-		<set name="target" val="TARGET_NONE" />
-		<set name="skillType" val="NOTDONE" />
-		<set name="operateType" val="OP_PASSIVE" />
+		<!-- Update by pmq -->
+		<table name="#mpInitialConsume"> 5 </table>
+		<table name="#mpConsume"> 19 </table>
+		<table name="#reflectDam"> 20 </table>
+		<table name="#aggroPoints"> 495 </table>
+		<set name="mpInitialConsume" val="#mpInitialConsume" />
+		<set name="mpConsume" val="#mpConsume" />
+		<set name="target" val="TARGET_SELF" />
+		<set name="reuseDelay" val="3600000" />
 		<set name="hitTime" val="3000" />
+		<set name="skillType" val="REFLECT" />
+		<set name="isMagic" val="true" />
+		<set name="operateType" val="OP_ACTIVE" />
+		<set name="aggroPoints" val="#aggroPoints" />
+		<for>
+			<effect name="Buff" time="300" val="0" stackOrder="#reflectDam" stackType="DmgShield">
+				<add order="0x40" stat="reflectDam" val="#reflectDam" />
+			</effect>
+		</for>
 	</skill>
 	<skill id="21075" levels="1" name="Greater Heal">
 		<!-- Recovers HP by 444 and increases HP Recovery by 30 for 15 seconds. Reuse Delay 4 hours -->
-		<set name="target" val="TARGET_NONE" />
-		<set name="skillType" val="NOTDONE" />
-		<set name="operateType" val="OP_PASSIVE" />
+		<!-- Update by pmq -->
+		<table name="#mpInitialConsume"> 22 </table>
+		<table name="#mpConsume"> 90 </table>
+		<table name="#power"> 444 </table>
+		<table name="#hotValue"> 30 </table>
+		<table name="#aggroPoints"> 733 </table>
+		<set name="mpInitialConsume" val="#mpInitialConsume" />
+		<set name="mpConsume" val="#mpConsume" />
+		<set name="power" val="#power" />
+		<set name="target" val="TARGET_ONE" />
+		<set name="reuseDelay" val="14400000" />
 		<set name="hitTime" val="3000" />
+		<set name="skillType" val="HEAL" />
+		<set name="isMagic" val="true" />
+		<set name="operateType" val="OP_ACTIVE" />
+		<set name="castRange" val="600" />
+		<set name="effectRange" val="1100" />
+		<set name="aggroPoints" val="#aggroPoints" />
+		<for>
+			<effect count="15" name="HealOverTime" val="#hotValue" stackOrder="#hotValue" stackType="LifeForce" />
+		</for>
 	</skill>
 	<skill id="21076" levels="1" name="Resist Unholy">
 		<!-- Increases resistance to darkness type attacks by 30 for 5 minutes. Reuse Delay 1 hours -->
-		<set name="target" val="TARGET_NONE" />
-		<set name="skillType" val="NOTDONE" />
-		<set name="operateType" val="OP_PASSIVE" />
+		<!-- Update by pmq -->
+		<table name="#mpInitialConsume"> 13 </table>
+		<table name="#mpConsume"> 55 </table>
+		<table name="#power"> 30 </table>
+		<table name="#stack"> 1.3 </table>
+		<set name="mpInitialConsume" val="#mpInitialConsume" />
+		<set name="mpConsume" val="#mpConsume" />
+		<set name="reuseDelay" val="3600000" />
 		<set name="hitTime" val="3000" />
+		<set name="target" val="TARGET_ONE" />
+		<set name="skillType" val="BUFF" />
+		<set name="operateType" val="OP_ACTIVE" />
+		<set name="castRange" val="400" />
+		<set name="effectRange" val="900" />
+		<set name="isMagic" val="true" />
+		<for>
+			<effect name="Buff" time="300" val="0" stackOrder="#stack" stackType="DarkAtr">
+				<add order="0x40" stat="darkRes" val="#power" />
+			</effect>
+		</for>
 	</skill>
 	<skill id="21077" levels="1" name="Wind Walk">
 		<!-- Increases moving speed by 20 for 2 minutes. Reuse delay 18 minutes -->
-		<set name="target" val="TARGET_NONE" />
-		<set name="skillType" val="NOTDONE" />
-		<set name="operateType" val="OP_PASSIVE" />
+		<!-- Update by pmq -->
+		<table name="#mpInitialConsume"> 4 </table>
+		<table name="#mpConsume"> 16 </table>
+		<table name="#runSpd"> 20 </table>
+		<table name="#aggroPoints"> 204 </table>
+		<set name="mpInitialConsume" val="#mpInitialConsume" />
+		<set name="mpConsume" val="#mpConsume" />
+		<set name="target" val="TARGET_ONE" />
+		<set name="reuseDelay" val="1080000" />
 		<set name="hitTime" val="4000" />
+		<set name="skillType" val="BUFF" />
+		<set name="isMagic" val="true" />
+		<set name="operateType" val="OP_ACTIVE" />
+		<set name="castRange" val="400" />
+		<set name="effectRange" val="900" />
+		<set name="aggroPoints" val="#aggroPoints" />
+		<for>
+			<effect name="Buff" time="120" val="0" stackOrder="#runSpd" stackType="speed_up">
+				<add order="0x40" stat="runSpd" val="#runSpd" />
+			</effect>
+		</for>
 	</skill>
 	<skill id="21078" levels="1" name="Death Whisper">
 		<!-- Increases Critical attack power by 35% for 5 minutes. Reuse Delay 1 hours -->
-		<set name="target" val="TARGET_NONE" />
-		<set name="skillType" val="NOTDONE" />
-		<set name="operateType" val="OP_PASSIVE" />
+		<!-- Update by pmq -->
+		<table name="#cAtk"> 1.35 </table>
+		<table name="#mpInitialConsume"> 10 </table>
+		<table name="#mpConsume"> 41 </table>
+		<table name="#aggroPoints"> 532 </table>
+		<set name="mpInitialConsume" val="#mpInitialConsume" />
+		<set name="mpConsume" val="#mpConsume" />
+		<set name="target" val="TARGET_ONE" />
+		<set name="reuseDelay" val="3600000" />
 		<set name="hitTime" val="3000" />
+		<set name="skillType" val="BUFF" />
+		<set name="isMagic" val="true" />
+		<set name="operateType" val="OP_ACTIVE" />
+		<set name="castRange" val="400" />
+		<set name="effectRange" val="900" />
+		<set name="aggroPoints" val="#aggroPoints" />
+		<for>
+			<effect name="Buff" time="300" val="0" stackOrder="#cAtk" stackType="critical_dmg_up">
+				<mul order="0x30" stat="cAtk" val="#cAtk" />
+			</effect>
+		</for>
 	</skill>
 	<skill id="21079" levels="1" name="Agility">
 		<!-- Increases evasion rate by 4 for 1 hour. Reuse Delay 24 hours -->
-		<set name="target" val="TARGET_NONE" />
-		<set name="skillType" val="NOTDONE" />
-		<set name="operateType" val="OP_PASSIVE" />
+		<!-- Update by pmq -->
+		<table name="#mpInitialConsume"> 4 </table>
+		<table name="#mpConsume"> 18 </table>
+		<table name="#rEvas"> 2 </table>
+		<table name="#aggroPoints"> 243 </table>
+		<set name="mpInitialConsume" val="#mpInitialConsume" />
+		<set name="mpConsume" val="#mpConsume" />
+		<set name="target" val="TARGET_ONE" />
+		<set name="reuseDelay" val="86400000" />
 		<set name="hitTime" val="4000" />
+		<set name="skillType" val="BUFF" />
+		<set name="isMagic" val="true" />
+		<set name="operateType" val="OP_ACTIVE" />
+		<set name="castRange" val="400" />
+		<set name="effectRange" val="900" />
+		<set name="aggroPoints" val="#aggroPoints" />
+		<for>
+			<effect name="Buff" time="1200" val="0" stackOrder="#rEvas" stackType="rEvas">
+				<add order="0x40" stat="rEvas" val="#rEvas" />
+			</effect>
+		</for>
 	</skill>
 	<skill id="21080" levels="1" name="Wild Magic">
 		<!-- For 5 minutes, increases by 2% the occurrence rate of damage that is caused by damage magic. Reuse Delay 1 hours -->
-		<set name="target" val="TARGET_NONE" />
-		<set name="skillType" val="NOTDONE" />
-		<set name="operateType" val="OP_PASSIVE" />
+		<!-- Update by pmq -->
+		<table name="#mpInitialConsume"> 11 </table>
+		<table name="#mpConsume"> 46 </table>
+		<table name="#mCritRate"> 1.02 </table>
+		<table name="#aggroPoints"> 582 </table>
+		<set name="mpInitialConsume" val="#mpInitialConsume" />
+		<set name="mpConsume" val="#mpConsume" />
+		<set name="target" val="TARGET_ONE" />
+		<set name="reuseDelay" val="3600000" />
 		<set name="hitTime" val="3000" />
+		<set name="skillType" val="BUFF" />
+		<set name="isMagic" val="true" />
+		<set name="operateType" val="OP_ACTIVE" />
+		<set name="castRange" val="400" />
+		<set name="effectRange" val="900" />
+		<set name="aggroPoints" val="#aggroPoints" />
+		<for>
+			<effect name="Buff" time="300" val="0" stackOrder="#mCritRate" stackType="magic_critical_up">
+				<basemul order="0x30" stat="mCritRate" val="#mCritRate" />
+			</effect>
+		</for>
 	</skill>
 	<skill id="21081" levels="1" name="Mana Regeneration">
 		<!-- Increases MP Regeneration by 3% for 5 minutes. Reuse Delay 1 hours -->
-		<set name="target" val="TARGET_NONE" />
-		<set name="skillType" val="NOTDONE" />
-		<set name="operateType" val="OP_PASSIVE" />
+		<!-- Update by pmq -->
+		<table name="#regMp"> 3.0 </table>
+		<table name="#itemConsumeCount"> 15 </table>
+		<table name="#mpInitialConsume"> 13 </table>
+		<table name="#mpConsume"> 52 </table>
+		<table name="#aggroPoints"> 635 </table>
+		<set name="mpInitialConsume" val="#mpInitialConsume" />
+		<set name="mpConsume" val="#mpConsume" />
+		<set name="itemConsumeId" val="3031" />
+		<set name="itemConsumeCount" val="#itemConsumeCount" />
+		<set name="target" val="TARGET_SELF" />
+		<set name="reuseDelay" val="3600000" />
 		<set name="hitTime" val="3000" />
+		<set name="skillType" val="BUFF" />
+		<set name="isMagic" val="true" />
+		<set name="operateType" val="OP_ACTIVE" />
+		<set name="aggroPoints" val="#aggroPoints" />
+		<for>
+			<effect name="Buff" time="300" val="0">
+				<add order="0x40" stat="regMp" val="#regMp" />
+			</effect>
+		</for>
 	</skill>
 	<skill id="21082" levels="1" name="Reflect">
 		<!-- For 5 minutes, returns 20% of the damage back to the enemy. Excludes skill and long-range attacks. Reuse Delay 1 hours -->
-		<set name="target" val="TARGET_NONE" />
-		<set name="skillType" val="NOTDONE" />
-		<set name="operateType" val="OP_PASSIVE" />
+		<!-- Update by pmq -->
+		<table name="#mpInitialConsume"> 5 </table>
+		<table name="#mpConsume"> 19 </table>
+		<table name="#reflectDam"> 20 </table>
+		<table name="#aggroPoints"> 495 </table>
+		<set name="mpInitialConsume" val="#mpInitialConsume" />
+		<set name="mpConsume" val="#mpConsume" />
+		<set name="target" val="TARGET_SELF" />
+		<set name="reuseDelay" val="3600000" />
 		<set name="hitTime" val="3000" />
+		<set name="skillType" val="REFLECT" />
+		<set name="isMagic" val="true" />
+		<set name="operateType" val="OP_ACTIVE" />
+		<set name="aggroPoints" val="#aggroPoints" />
+		<for>
+			<effect name="Buff" time="300" val="0" stackOrder="#reflectDam" stackType="DmgShield">
+				<add order="0x40" stat="reflectDam" val="#reflectDam" />
+			</effect>
+		</for>
 	</skill>
 	<skill id="21083" levels="1" name="Greater Heal">
 		<!-- Recovers HP by 444 and increases HP Recovery by 30 for 15 seconds. Reuse Delay 4 hours -->
-		<set name="target" val="TARGET_NONE" />
-		<set name="skillType" val="NOTDONE" />
-		<set name="operateType" val="OP_PASSIVE" />
+		<!-- Update by pmq -->
+		<table name="#mpInitialConsume"> 22 </table>
+		<table name="#mpConsume"> 90 </table>
+		<table name="#power"> 444 </table>
+		<table name="#hotValue"> 30 </table>
+		<table name="#aggroPoints"> 733 </table>
+		<set name="mpInitialConsume" val="#mpInitialConsume" />
+		<set name="mpConsume" val="#mpConsume" />
+		<set name="power" val="#power" />
+		<set name="target" val="TARGET_ONE" />
+		<set name="reuseDelay" val="14400000" />
 		<set name="hitTime" val="3000" />
+		<set name="skillType" val="HEAL" />
+		<set name="isMagic" val="true" />
+		<set name="operateType" val="OP_ACTIVE" />
+		<set name="castRange" val="600" />
+		<set name="effectRange" val="1100" />
+		<set name="aggroPoints" val="#aggroPoints" />
+		<for>
+			<effect count="15" name="HealOverTime" val="#hotValue" stackOrder="#hotValue" stackType="LifeForce" />
+		</for>
 	</skill>
 	<skill id="21084" levels="1" name="Energy Recovery">
 		<!-- Recovers energy when acquiring Exp. for 5 minutes. Reuse Delay 1 hours -->
@@ -791,10 +1283,17 @@
 	</skill>
 	<skill id="21088" levels="1" name="Summon Friend">
 		<!-- Summons your friend. -->
-		<set name="target" val="TARGET_NONE" />
-		<set name="skillType" val="NOTDONE" />
-		<set name="operateType" val="OP_PASSIVE" />
-		<set name="hitTime" val="10000" />
+		<!-- Update by pmq -->
+		<set name="target" val="TARGET_PARTY_MEMBER" />
+		<set name="skillRadius" val="-1" />
+		<set name="skillType" val="SUMMON_FRIEND" />
+		<set name="operateType" val="OP_ACTIVE" />
+		<set name="mpConsume" val="180" />
+		<set name="hitTime" val="15000" />
+		<set name="reuseDelay" val="150000" />
+		<set name="castRange" val="-2" />
+		<set name="effectRange" val="-2" />
+		<set name="isMagic" val="true" />
 	</skill>
 	<skill id="21089" levels="1" name="Dance of Shadows">
 		<!-- Receives the soul's help, and for 2 minutes, decreases one's own moving speed by 50% and invokes the ability not to receive the preemptive attack of monsters. -->
@@ -887,10 +1386,17 @@
 	</skill>
 	<skill id="21097" levels="1" name="Summon Friend">
 		<!-- Summons your friend. -->
-		<set name="target" val="TARGET_NONE" />
-		<set name="skillType" val="NOTDONE" />
-		<set name="operateType" val="OP_PASSIVE" />
-		<set name="hitTime" val="10000" />
+		<!-- Update by pmq -->
+		<set name="target" val="TARGET_PARTY_MEMBER" />
+		<set name="skillRadius" val="-1" />
+		<set name="skillType" val="SUMMON_FRIEND" />
+		<set name="operateType" val="OP_ACTIVE" />
+		<set name="mpConsume" val="180" />
+		<set name="hitTime" val="15000" />
+		<set name="reuseDelay" val="150000" />
+		<set name="castRange" val="-2" />
+		<set name="effectRange" val="-2" />
+		<set name="isMagic" val="true" />
 	</skill>
 	<skill id="21098" levels="1" name="Great Adventurer's Soul Power : Endless">
 		<!-- For five minutes, the Great Spirit increases maximum HP by 20%, maximum MP by 20%, moving speed by 20%, and resistance against debuff by 10%. -->

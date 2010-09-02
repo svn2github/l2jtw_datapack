@@ -96,38 +96,67 @@
 		<set name="operateType" val="OP_PASSIVE" />
 	</skill>
 	<skill id="6019" levels="1" name="Searching Master">
+		<!-- Update by pmq -->
+		<!-- Directly attacks a pet's master or summoner. -->
+		<!--
+			Used by NPCs:
+			20965 20966 20967 20968 20969 20970 20971 20972 20973 18694
+			18695
+		-->
 		<set name="target" val="TARGET_NONE" />
 		<set name="skillType" val="NOTDONE" />
 		<set name="operateType" val="OP_PASSIVE" />
 	</skill>
 	<skill id="6020" levels="1" name="Soul Retain">
-		<set name="target" val="TARGET_NONE" />
-		<set name="skillType" val="NOTDONE" />
-		<set name="operateType" val="OP_PASSIVE" />
+		<!-- Update by pmq -->
+		<set name="isMagic" val="true" />
+		<set name="isDebuff" val="true" />
+		<set name="reuseDelay" val="1000" />
 		<set name="hitTime" val="1000" />
+		<set name="target" val="TARGET_SELF" />
+		<set name="skillType" val="DEBUFF" />
+		<set name="operateType" val="OP_ACTIVE" />
 	</skill>
 	<skill id="6021" levels="1" name="Soul Retain">
-		<set name="target" val="TARGET_NONE" />
-		<set name="skillType" val="NOTDONE" />
-		<set name="operateType" val="OP_PASSIVE" />
+		<!-- Update by pmq -->
+		<set name="isMagic" val="true" />
+		<set name="isDebuff" val="true" />
+		<set name="reuseDelay" val="1000" />
 		<set name="hitTime" val="1000" />
+		<set name="target" val="TARGET_SELF" />
+		<set name="skillType" val="DEBUFF" />
+		<set name="operateType" val="OP_ACTIVE" />
 	</skill>
 	<skill id="6022" levels="1" name="Soul Retain">
-		<set name="target" val="TARGET_NONE" />
-		<set name="skillType" val="NOTDONE" />
-		<set name="operateType" val="OP_PASSIVE" />
+		<!-- Update by pmq -->
+		<set name="isMagic" val="true" />
+		<set name="isDebuff" val="true" />
+		<set name="reuseDelay" val="1000" />
 		<set name="hitTime" val="1000" />
+		<set name="target" val="TARGET_SELF" />
+		<set name="skillType" val="DEBUFF" />
+		<set name="operateType" val="OP_ACTIVE" />
 	</skill>
 	<skill id="6023" levels="1" name="Soul Retain">
-		<set name="target" val="TARGET_NONE" />
-		<set name="skillType" val="NOTDONE" />
-		<set name="operateType" val="OP_PASSIVE" />
+		<!-- Update by pmq -->
+		<set name="isMagic" val="true" />
+		<set name="isDebuff" val="true" />
+		<set name="reuseDelay" val="1000" />
 		<set name="hitTime" val="1000" />
+		<set name="target" val="TARGET_SELF" />
+		<set name="skillType" val="DEBUFF" />
+		<set name="operateType" val="OP_ACTIVE" />
 	</skill>
 	<skill id="6024" levels="1" name="Weight Aerial Cleft">
-		<set name="target" val="TARGET_NONE" />
-		<set name="skillType" val="NOTDONE" />
-		<set name="operateType" val="OP_PASSIVE" />
+		<!-- Update by pmq -->
+		<!-- Renders target unable to transform into a flying transformed object. -->
+		<set name="isDebuff" val="true" />
+		<set name="reuseDelay" val="0" />
+		<set name="target" val="TARGET_ONE" />
+		<set name="skillType" val="DEBUFF" />
+		<set name="operateType" val="OP_ACTIVE" />
+		<set name="castRange" val="900" />
+		<set name="effectRange" val="1400" />
 	</skill>
 	<skill id="6025" levels="1" name="not_used">
 		<set name="target" val="TARGET_NONE" />
@@ -170,9 +199,16 @@
 		<set name="operateType" val="OP_PASSIVE" />
 	</skill>
 	<skill id="6033" levels="1" name="Treasure Seeker's Betrayal">
+		<!-- Update by pmq -->
+		<!-- Carrying this mark of betrayal makes one the target of nearby monsters. -->
+		<set name="mpInitialConsume" val="8" />
+		<set name="mpConsume" val="33" />
+		<set name="reuseDelay" val="0" />
 		<set name="target" val="TARGET_NONE" />
 		<set name="skillType" val="NOTDONE" />
 		<set name="operateType" val="OP_PASSIVE" />
+		<set name="castRange" val="1500" />
+		<set name="effectRange" val="2000" />
 	</skill>
 	<skill id="6034" levels="1" name="Freeze">
 		<!-- Update by pmq -->

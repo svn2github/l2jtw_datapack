@@ -1,10 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <list>
 	<skill id="5400" levels="1" name="Presentation - Solar Spark">
-		<set name="target" val="TARGET_NONE" />
-		<set name="skillType" val="NOTDONE" />
-		<set name="operateType" val="OP_PASSIVE" />
+		<!-- Update by pmq -->
 		<set name="hitTime" val="5000" />
+		<set name="target" val="TARGET_ONE" />
+		<set name="element" val="4" /> <!-- Holy -->
+		<set name="elementPower" val="20" />
+		<set name="skillType" val="DUMMY" />
+		<set name="isMagic" val="true" />
+		<set name="operateType" val="OP_ACTIVE" />
+		<set name="castRange" val="750" />
+		<set name="effectRange" val="1250" />
 	</skill>
 	<skill id="5401" levels="1" name="Stun">
 		<!-- Temporarily gets thrown into a state of shock and immobilized. -->
@@ -22,70 +28,95 @@
 	</skill>
 	<skill id="5403" levels="1" name="Presentation - Balor 3">
 		<!-- Balor - Magic Skill2 -->
-		<set name="target" val="TARGET_NONE" />
-		<set name="skillType" val="NOTDONE" />
-		<set name="operateType" val="OP_PASSIVE" />
+		<!-- Update by pmq -->
 		<set name="hitTime" val="4000" />
+		<set name="target" val="TARGET_SELF" />
+		<set name="skillType" val="DUMMY" />
+		<set name="operateType" val="OP_ACTIVE" />
 	</skill>
 	<skill id="5404" levels="1" name="Presentation - Balor 4">
 		<!-- Balor - Instant Cast Skill -->
-		<set name="target" val="TARGET_NONE" />
-		<set name="skillType" val="NOTDONE" />
-		<set name="operateType" val="OP_PASSIVE" />
-		<set name="hitTime" val="3500" />
+		<!-- Update by pmq -->
+		<set name="hitTime" val="3000" />
+		<set name="target" val="TARGET_ONE" />
+		<set name="skillType" val="DUMMY" />
+		<set name="operateType" val="OP_ACTIVE" />
+		<set name="castRange" val="600" />
+		<set name="effectRange" val="1100" />
 	</skill>
 	<skill id="5405" levels="1" name="Presentation - Demonic 1">
 		<!-- Demonic - General Long Range Magic Skill -->
-		<set name="target" val="TARGET_NONE" />
-		<set name="skillType" val="NOTDONE" />
-		<set name="operateType" val="OP_PASSIVE" />
+		<!-- Update by pmq -->
 		<set name="hitTime" val="3000" />
+		<set name="target" val="TARGET_ONE" />
+		<set name="skillType" val="DUMMY" />
+		<set name="operateType" val="OP_ACTIVE" />
+		<set name="castRange" val="600" />
+		<set name="effectRange" val="1100" />
 	</skill>
 	<skill id="5406" levels="1" name="Presentation - Demonic 2">
-		<set name="target" val="TARGET_NONE" />
-		<set name="skillType" val="NOTDONE" />
-		<set name="operateType" val="OP_PASSIVE" />
+		<!-- Update by pmq -->
 		<set name="hitTime" val="3000" />
+		<set name="target" val="TARGET_ONE" />
+		<set name="skillType" val="DUMMY" />
+		<set name="isMagic" val="true" />
+		<set name="operateType" val="OP_ACTIVE" />
+		<set name="castRange" val="600" />
+		<set name="effectRange" val="1100" />
 	</skill>
 	<skill id="5407" levels="1" name="Presentation - Crystalline Golem 1">
 		<!-- Crystaline-Instant Cast Skill -->
-		<set name="target" val="TARGET_NONE" />
-		<set name="skillType" val="NOTDONE" />
-		<set name="operateType" val="OP_PASSIVE" />
+		<!-- Update by pmq -->
 		<set name="hitTime" val="2000" />
+		<set name="target" val="TARGET_SELF" />
+		<set name="skillType" val="DUMMY" />
+		<set name="operateType" val="OP_ACTIVE" />
 	</skill>
 	<skill id="5408" levels="1" name="Presentation - Crystalline Golem 2">
 		<!-- Crystaline-General Long Range Magic Skill -->
-		<set name="target" val="TARGET_NONE" />
-		<set name="skillType" val="NOTDONE" />
-		<set name="operateType" val="OP_PASSIVE" />
+		<!-- Update by pmq -->
 		<set name="hitTime" val="4000" />
+		<set name="target" val="TARGET_ONE" />
+		<set name="skillType" val="DUMMY" />
+		<set name="isMagic" val="true" />
+		<set name="operateType" val="OP_ACTIVE" />
+		<set name="castRange" val="600" />
+		<set name="effectRange" val="1100" />
 	</skill>
 	<skill id="5409" levels="1" name="Presentation - Crystalline Golem 3">
 		<!-- Crystaline Golem -->
-		<set name="target" val="TARGET_NONE" />
-		<set name="skillType" val="NOTDONE" />
-		<set name="operateType" val="OP_PASSIVE" />
+		<!-- Update by pmq -->
 		<set name="hitTime" val="4000" />
+		<set name="target" val="TARGET_ONE" />
+		<set name="skillType" val="DUMMY" />
+		<set name="isMagic" val="true" />
+		<set name="operateType" val="OP_ACTIVE" />
+		<set name="castRange" val="600" />
+		<set name="effectRange" val="1100" />
 	</skill>
 	<skill id="5410" levels="1" name="Presentation - Balor 10">
 		<!-- Balor Social. -->
-		<set name="target" val="TARGET_NONE" />
-		<set name="skillType" val="NOTDONE" />
-		<set name="operateType" val="OP_PASSIVE" />
+		<!-- Update by pmq -->
 		<set name="hitTime" val="17000" />
+		<set name="target" val="TARGET_SELF" />
+		<set name="skillType" val="DUMMY" />
+		<set name="operateType" val="OP_ACTIVE" />
 	</skill>
 	<skill id="5411" levels="1" name="Presentation - Balor 11">
-		<set name="target" val="TARGET_NONE" />
-		<set name="skillType" val="NOTDONE" />
-		<set name="operateType" val="OP_PASSIVE" />
+		<!-- Update by pmq -->
 		<set name="hitTime" val="1000" />
+		<set name="target" val="TARGET_ONE" />
+		<set name="skillType" val="DUMMY" />
+		<set name="operateType" val="OP_ACTIVE" />
+		<set name="castRange" val="600" />
+		<set name="effectRange" val="1100" />
 	</skill>
 	<skill id="5412" levels="1" name="Presentation - Balor 12">
-		<set name="target" val="TARGET_NONE" />
-		<set name="skillType" val="NOTDONE" />
-		<set name="operateType" val="OP_PASSIVE" />
-		<set name="hitTime" val="2500" />
+		<!-- Update by pmq -->
+		<set name="hitTime" val="2000" />
+		<set name="target" val="TARGET_SELF" />
+		<set name="skillType" val="DUMMY" />
+		<set name="operateType" val="OP_ACTIVE" />
 	</skill>
 	<skill id="5413" levels="1" name="Performing Agathion - Beast Farm">
 		<!-- Needs to be verified -->
@@ -121,9 +152,18 @@
 		</cond>
 	</skill>
 	<skill id="5416" levels="1" name="Dark Cloud Mansion">
-		<set name="target" val="TARGET_NONE" />
-		<set name="skillType" val="NOTDONE" />
-		<set name="operateType" val="OP_PASSIVE" />
+		<!-- Update by pmq -->
+		<!-- Needs to be verified -->
+		<set name="reuseDelay" val="20000" />
+		<set name="hitTime" val="3000" />
+		<set name="staticReuse" val="true" />
+		<set name="staticHitTime" val="true" />
+		<set name="target" val="TARGET_SELF" />
+		<set name="skillType" val="DUMMY" />
+		<set name="operateType" val="OP_ACTIVE" />
+		<cond msgId="2292">
+			<player agathionId="16029"/>
+		</cond>
 	</skill>
 	<skill id="5417" levels="1" name="Invincible">
 		<!-- Invincible against general attack and skill, buff/de-buff. -->
@@ -158,15 +198,48 @@
 	</skill>
 	<skill id="5423" levels="12" name="Poison">
 		<!-- Condition causing target to be poisoned. -->
-		<set name="target" val="TARGET_NONE" />
-		<set name="skillType" val="NOTDONE" />
-		<set name="operateType" val="OP_PASSIVE" />
+		<!-- Update by pmq -->
+		<!-- This skill is custom made... Must be corrected -->
+		<table name="#dmg"> 93 114 132 144 144 150 150 153 153 156 156 160 </table>
+		<table name="#mpConsume"> 35 45 55 65 69 73 83 77 78 82 85 88 </table>
+		<table name="#power"> 2 3 4 5 6 7 8 9 10 11 12 13 </table>
+		<table name="#magicLvl"> 40 45 50 55 60 65 70 75 80 85 90 95 </table>
+		<set name="magicLvl" val="#magicLvl" />
+		<set name="mpConsume" val="#mpConsume" />
+		<set name="power" val="#power" />
+		<set name="target" val="TARGET_AREA" />
+		<set name="reuseDelay" val="8000" />
+		<set name="hitTime" val="2000" />
+		<set name="skillType" val="POISON" />
+		<set name="isMagic" val="true" />
+		<set name="operateType" val="OP_ACTIVE" />
+		<set name="castRange" val="600" />
+		<set name="effectRange" val="1100" />
+		<for>
+			<effect count="10" name="DamOverTime" time="3" val="#dmg" abnormal="poison"/>
+		</for>
 	</skill>
 	<skill id="5424" levels="12" name="Bleed">
-		<!-- Condition causing target to instantly decrease HP by bleeding. Effect 2-10. -->
-		<set name="target" val="TARGET_NONE" />
-		<set name="skillType" val="NOTDONE" />
-		<set name="operateType" val="OP_PASSIVE" />
+		<!-- Update by pmq -->
+		<!-- This skill is custom made... Must be corrected -->
+		<table name="#dmg"> 27 39 51 66 81 93 102 102 105 105 108 108 </table>
+		<table name="#mpConsume"> 22 34 48 64 83 102 119 127 133 138 140 143 </table>
+		<table name="#power"> 2 3 4 5 6 7 8 9 10 11 12 13 </table>
+		<table name="#magicLvl"> 40 45 50 55 60 65 70 75 80 85 90 95 </table>
+		<set name="magicLvl" val="#magicLvl" />
+		<set name="mpConsume" val="#mpConsume" />
+		<set name="power" val="#power" />
+		<set name="target" val="TARGET_AREA" />
+		<set name="skillType" val="MDAM" />
+		<set name="isDebuff" val="true" />
+		<set name="hitTime" val="2000" />
+		<set name="operateType" val="OP_ACTIVE" />
+		<set name="isMagic" val="true" />
+		<set name="castRange" val="500" />
+		<set name="effectRange" val="1000" />
+		<for>
+			<effect count="7" name="DamOverTime" time="3" val="#dmg" abnormal="bleed"/>
+		</for>
 	</skill>
 	<skill id="5425" levels="1" name="Iron Shield">
 		<!-- Needs to be verified -->
@@ -283,22 +356,35 @@
 		</for>
 	</skill>
 	<skill id="5438" levels="9" name="NPC party 30 Clan Heal">
+		<!-- Update by pmq -->
+		<table name="#mpInitialConsume"> 5 9 13 18 24 29 34 36 38 </table>
+		<table name="#mpConsume"> 20 35 54 74 96 118 136 146 151 </table>
+		<set name="mpInitialConsume" val="#mpInitialConsume" />
+		<set name="mpConsume" val="#mpConsume" />
+		<set name="hitTime" val="2000" />
 		<set name="target" val="TARGET_NONE" />
 		<set name="skillType" val="NOTDONE" />
-		<set name="operateType" val="OP_PASSIVE" />
-		<set name="hitTime" val="2000" />
+		<set name="isMagic" val="true" />
+		<set name="operateType" val="OP_ACTIVE" />
 	</skill>
 	<skill id="5439" levels="9" name="NPC party 60 Clan Heal">
+		<!-- Update by pmq -->
+		<table name="#mpInitialConsume"> 5 9 13 18 24 29 34 36 38 </table>
+		<table name="#mpConsume"> 20 35 54 74 96 118 136 146 151 </table>
+		<set name="mpInitialConsume" val="#mpInitialConsume" />
+		<set name="mpConsume" val="#mpConsume" />
+		<set name="hitTime" val="2000" />
 		<set name="target" val="TARGET_NONE" />
 		<set name="skillType" val="NOTDONE" />
-		<set name="operateType" val="OP_PASSIVE" />
-		<set name="hitTime" val="2000" />
+		<set name="isMagic" val="true" />
+		<set name="operateType" val="OP_ACTIVE" />
 	</skill>
 	<skill id="5440" levels="1" name="Presentation - Trap Activate">
-		<set name="target" val="TARGET_NONE" />
-		<set name="skillType" val="NOTDONE" />
-		<set name="operateType" val="OP_PASSIVE" />
+		<!-- Update by pmq -->
 		<set name="hitTime" val="3000" />
+		<set name="target" val="TARGET_SELF" />
+		<set name="skillType" val="DUMMY" />
+		<set name="operateType" val="OP_ACTIVE" />
 	</skill>
 	<skill id="5441" levels="1" name="Presentation - Tears Mirror Image">
 		<!-- Update by rocknow -->
@@ -680,16 +766,24 @@
 	</skill>
 	<skill id="5479" levels="1" name="Boss Petrification Resistance">
 		<!-- Resist against Petrification. -->
-		<set name="target" val="TARGET_NONE" />
-		<set name="skillType" val="NOTDONE" />
+		<!-- Update by pmq -->
+		<set name="target" val="TARGET_SELF" />
+		<set name="skillType" val="BUFF" />
 		<set name="operateType" val="OP_PASSIVE" />
-		<set name="hitTime" val="4000" />
+		<for>
+			<mul order="0x30" stat="paralyzeVuln" val="0"/>
+		</for>
 	</skill>
 	<skill id="5480" levels="1" name="Balor Invincible Removal">
-		<set name="target" val="TARGET_NONE" />
-		<set name="skillType" val="NOTDONE" />
-		<set name="operateType" val="OP_PASSIVE" />
+		<!-- Update by pmq -->
 		<set name="hitTime" val="4000" />
+		<set name="target" val="TARGET_ONE" />
+		<set name="skillType" val="NEGATE" />
+		<set name="isMagic" val="true" />
+		<set name="operateType" val="OP_ACTIVE" />
+		<set name="castRange" val="600" />
+		<set name="effectRange" val="1100" />
+		<set name="negateId" val="5225" />
 	</skill>
 	<skill id="5481" levels="1" name="Transform Penalty">
 		<!-- You cannot be transformed while under this effect. -->
@@ -760,10 +854,15 @@
 		</for>
 	</skill>
 	<skill id="5492" levels="12" name="NPC CrossBow Attack">
+		<!-- Update by pmq -->
+		<table name="#mpConsume"> 25 40 56 76 99 121 142 151 159 165 168 170 </table>
+		<set name="mpConsume" val="#mpConsume" />
+		<set name="hitTime" val="4000" />
 		<set name="target" val="TARGET_NONE" />
 		<set name="skillType" val="NOTDONE" />
-		<set name="operateType" val="OP_PASSIVE" />
-		<set name="hitTime" val="4000" />
+		<set name="operateType" val="OP_ACTIVE" />
+		<set name="castRange" val="600" />
+		<set name="effectRange" val="1100" />
 	</skill>
 	<skill id="5493" levels="1" name="Naia Production">
 		<set name="target" val="TARGET_NONE" />
@@ -784,28 +883,52 @@
 		<set name="hitTime" val="3000" />
 	</skill>
 	<skill id="5496" levels="1" name="Dark Fireball">
-		<set name="target" val="TARGET_NONE" />
-		<set name="skillType" val="NOTDONE" />
-		<set name="operateType" val="OP_PASSIVE" />
+		<!-- Update by pmq -->
+		<set name="magicLvl" val="87" />
 		<set name="hitTime" val="2000" />
+		<set name="target" val="TARGET_NONE" />
+		<set name="element" val="5" /> <!-- Dark -->
+		<set name="elementPower" val="20" />
+		<set name="skillType" val="NOTDONE" />
+		<set name="isMagic" val="true" />
+		<set name="operateType" val="OP_ACTIVE" />
+		<set name="castRange" val="1000" />
+		<set name="effectRange" val="1500" />
 	</skill>
 	<skill id="5497" levels="1" name="Horn of Rising Darkness">
 		<!-- Cannot move and HP decreases temporarily due to the stun and bleeding. Effect 1. -->
+		<!-- GRAND BOSS 29118,29119 (Beleth) -->
+		<!-- Update by pmq -->
+		<set name="magicLvl" val="87" />
+		<set name="hitTime" val="1500" />
 		<set name="target" val="TARGET_NONE" />
 		<set name="skillType" val="NOTDONE" />
 		<set name="operateType" val="OP_PASSIVE" />
-		<set name="hitTime" val="1500" />
+		<set name="castRange" val="1000" />
+		<set name="effectRange" val="1500" />
 	</skill>
 	<skill id="5498" levels="1" name="Self-Destruct">
+		<!-- Update by pmq -->
+		<!-- GRAND BOSS 29118,29119 (Beleth) -->
+		<set name="magicLvl" val="87" />
+		<set name="hitTime" val="3000" />
 		<set name="target" val="TARGET_NONE" />
 		<set name="skillType" val="NOTDONE" />
-		<set name="operateType" val="OP_PASSIVE" />
-		<set name="hitTime" val="3000" />
+		<set name="isMagic" val="true" />
+		<set name="operateType" val="OP_ACTIVE" />
 	</skill>
 	<skill id="5499" levels="1" name="Dark Lightening">
-		<set name="target" val="TARGET_NONE" />
-		<set name="skillType" val="NOTDONE" />
-		<set name="operateType" val="OP_PASSIVE" />
+		<!-- Update by pmq -->
+		<!-- GRAND BOSS 29119 (Beleth) -->
+		<set name="magicLvl" val="87" />
 		<set name="hitTime" val="4000" />
+		<set name="target" val="TARGET_NONE" />
+		<set name="element" val="5" /> <!-- Dark -->
+		<set name="elementPower" val="20" />
+		<set name="skillType" val="NOTDONE" />
+		<set name="isMagic" val="true" />
+		<set name="operateType" val="OP_ACTIVE" />
+		<set name="castRange" val="500" />
+		<set name="effectRange" val="1000" />
 	</skill>
 </list>

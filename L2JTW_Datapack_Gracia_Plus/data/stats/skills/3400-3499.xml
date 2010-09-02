@@ -430,11 +430,18 @@
 		</for>
 	</skill>
 	<skill id="3436" levels="1" name="Blue Talisman - Self destruction">
-		<set name="target" val="TARGET_NONE" />
-		<set name="skillType" val="NOTDONE" />
-		<set name="operateType" val="OP_PASSIVE" />
-		<set name="hitTime" val="3000" />
-		<set name="hpConsume" val="800" />
+		<!-- Update by pmq -->
+		<set name="mpConsume" val="50" />
+		<set name="hitTime" val="10000" />
+		<set name="power" val="1000" />
+		<set name="reuseDelay" val="900000" />
+		<set name="staticReuse" val="true" />
+		<set name="staticHitTime" val="true" />
+		<set name="target" val="TARGET_ONE" />
+		<set name="castRange" val="600" />
+		<set name="effectRange" val="900" />
+		<set name="skillType" val="MDAM" />
+		<set name="operateType" val="OP_ACTIVE" />
 	</skill>
 	<skill id="3437" levels="1" name="Blue Talisman - Magic Explosive Power">
 		<set name="mpConsume" val="50" />

@@ -1,22 +1,46 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <list>
 	<skill id="22000" levels="1" name="Spicy Kimchee">
-		<set name="target" val="TARGET_NONE" />
-		<set name="skillType" val="NOTDONE" />
-		<set name="operateType" val="OP_PASSIVE" />
+		<!-- Update by pmq -->
+		<set name="itemConsumeId" val="20000" />
+		<set name="itemConsumeCount" val="1" />
+		<set name="target" val="TARGET_SELF" />
+		<set name="skillType" val="BUFF" />
+		<set name="operateType" val="OP_ACTIVE" />
 		<set name="hitTime" val="100" />
+		<for>
+			<effect name="Buff" time="1200" val="0" stackOrder="1" stackType="hp_regen_up">
+				<mul order="0x30" stat="regHp" val="1.1"/>
+			</effect>
+		</for>
 	</skill>
 	<skill id="22001" levels="1" name="Spicy Kimchee">
-		<set name="target" val="TARGET_NONE" />
-		<set name="skillType" val="NOTDONE" />
-		<set name="operateType" val="OP_PASSIVE" />
+		<!-- Update by pmq -->
+		<set name="itemConsumeId" val="20001" />
+		<set name="itemConsumeCount" val="1" />
+		<set name="target" val="TARGET_SELF" />
+		<set name="skillType" val="BUFF" />
+		<set name="operateType" val="OP_ACTIVE" />
 		<set name="hitTime" val="100" />
+		<for>
+			<effect name="Buff" time="1200" val="0" stackOrder="2" stackType="hp_regen_up">
+				<mul order="0x30" stat="regHp" val="1.15"/>
+			</effect>
+		</for>
 	</skill>
 	<skill id="22002" levels="1" name="Spicy Kimchee">
-		<set name="target" val="TARGET_NONE" />
-		<set name="skillType" val="NOTDONE" />
-		<set name="operateType" val="OP_PASSIVE" />
+		<!-- Update by pmq -->
+		<set name="itemConsumeId" val="20002" />
+		<set name="itemConsumeCount" val="1" />
+		<set name="target" val="TARGET_SELF" />
+		<set name="skillType" val="BUFF" />
+		<set name="operateType" val="OP_ACTIVE" />
 		<set name="hitTime" val="100" />
+		<for>
+			<effect name="Buff" time="1200" val="0" stackOrder="3" stackType="hp_regen_up">
+				<mul order="0x30" stat="regHp" val="1.2"/>
+			</effect>
+		</for>
 	</skill>
 	<skill id="22003" levels="1" name="Sweet-and-Sour White Kimchee">
 		<set name="target" val="TARGET_NONE" />
@@ -39,9 +63,10 @@
 		</for>
 	</skill>
 	<skill id="22005" levels="1" name="Energy Red Ginseng">
-		<set name="target" val="TARGET_NONE" />
-		<set name="skillType" val="NOTDONE" />
-		<set name="operateType" val="OP_PASSIVE" />
+		<!-- Update by pmq -->
+		<set name="target" val="TARGET_SELF" />
+		<set name="skillType" val="DUMMY" />
+		<set name="operateType" val="OP_ACTIVE" />
 		<set name="hitTime" val="100" />
 	</skill>
 	<skill id="22006" levels="1" name="Halloween Candy">
@@ -353,9 +378,20 @@
 		<set name="operateType" val="OP_PASSIVE" />
 	</skill>
 	<skill id="22035" levels="1" name="Birthday Cake Effect">
-		<set name="target" val="TARGET_NONE" />
-		<set name="skillType" val="NOTDONE" />
-		<set name="operateType" val="OP_PASSIVE" />
+		<!-- Update by pmq -->
+		<!-- Vitamin Item -->
+		<!-- Someone should verify the consume -->
+		<set name="itemConsumeId" val="20320" />
+		<set name="itemConsumeCount" val="1" />
+		<set name="target" val="TARGET_SELF" />
+		<set name="skillType" val="BUFF" />
+		<set name="operateType" val="OP_ACTIVE" />
+		<set name="isPotion" val="true" />
+		<for>
+			<effect name="Buff" time="1200" val="0" abnormal="vitality" stackOrder="10" stackType="energy_up">
+				<sub order="0x40" stat="vitalityConsumeRate" val="10"/>
+			</effect>
+		</for>
 	</skill>
 	<skill id="22036" levels="1" name="Beast Soulshot">
 		<set name="target" val="TARGET_SELF" />
@@ -373,9 +409,14 @@
 		<set name="operateType" val="OP_ACTIVE" />
 	</skill>
 	<skill id="22039" levels="2" name="Rune of Experience Points">
-		<set name="target" val="TARGET_NONE" />
-		<set name="skillType" val="NOTDONE" />
+		<!-- Update by pmq -->
+		<table name="#rExp"> 1.3 1.5 </table>
+		<set name="target" val="TARGET_SELF" />
+		<set name="skillType" val="BUFF" />
 		<set name="operateType" val="OP_PASSIVE" />
+		<for>
+			<mul order="0x30" stat="rExp" val="#rExp" />
+		</for>
 	</skill>
 	<skill id="22040" levels="2" name="Rune of SP">
 		<set name="target" val="TARGET_NONE" />
@@ -585,17 +626,25 @@
 		</for>
 	</skill>
 	<skill id="22055" levels="1" name="Potion of Energy Replenishing">
+		<!-- Update by pmq -->
+		<set name="itemConsumeId" val="20392" />
 		<set name="itemConsumeCount" val="1" />
+		<set name="hitTime" val="100" />
 		<set name="target" val="TARGET_SELF" />
-		<set name="skillType" val="GIVE_VITALITY" />
-		<set name="power" val="5000" />
-		<set name="operateType" val="OP_ACTIVE" />
-		<set name="reuseDelay" val="1800000" />
+		<set name="reuseDelay" val="10000" />
 		<set name="staticReuse" val="true" />
+		<set name="skillType" val="BUFF" />
+		<set name="operateType" val="OP_ACTIVE" />
 		<set name="isPotion" val="true" />
+		<set name="buffDuration" val="300000" />
 		<cond msgId="113" addName="1">
 			<player flyMounted="False" />
 		</cond>
+		<for>
+			<effect name="Buff" time="300" val="0" abnormal="vitality">
+				<sub order="0x40" stat="vitalityConsumeRate" val="10" />
+			</effect>
+		</for>
 	</skill>
 	<skill id="22056" levels="1" name="Wind Walk">
 		<set name="itemConsumeCount" val="1" />
@@ -869,87 +918,295 @@
 	</skill>
 	<skill id="22079" levels="1" name="Resist Aqua">
 		<!-- Increases resistance to water type attacks by 20% for 1 hour -->
-		<set name="target" val="TARGET_NONE" />
-		<set name="skillType" val="NOTDONE" />
-		<set name="operateType" val="OP_PASSIVE" />
+		<!-- Update by pmq -->
+		<table name="#mpInitialConsume"> 8 </table>
+		<table name="#mpConsume"> 31 </table>
+		<table name="#vuln"> 20 </table>
+		<table name="#aggroPoints"> 418 </table>
+		<set name="mpInitialConsume" val="#mpInitialConsume" />
+		<set name="mpConsume" val="#mpConsume" />
+		<set name="target" val="TARGET_ONE" />
+		<set name="reuseDelay" val="2000" />
 		<set name="hitTime" val="4000" />
+		<set name="skillType" val="BUFF" />
+		<set name="isMagic" val="true" />
+		<set name="operateType" val="OP_ACTIVE" />
+		<set name="castRange" val="400" />
+		<set name="effectRange" val="900" />
+		<set name="aggroPoints" val="#aggroPoints" />
+		<for>
+			<effect name="Buff" time="3600" val="0" stackOrder="1" stackType="AquaAtr">
+				<add order="0x40" stat="waterRes" val="#vuln"/>
+			</effect>
+		</for>
 	</skill>
 	<skill id="22080" levels="1" name="Resist Wind">
 		<!-- Increases resistance to wind type attacks by 20% for 1 hour -->
-		<set name="target" val="TARGET_NONE" />
-		<set name="skillType" val="NOTDONE" />
-		<set name="operateType" val="OP_PASSIVE" />
+		<!-- Update by pmq -->
+		<table name="#mpInitialConsume"> 8 </table>
+		<table name="#mpConsume"> 31 </table>
+		<table name="#vuln"> 20 </table>
+		<table name="#aggroPoints"> 418 </table>
+		<set name="mpInitialConsume" val="#mpInitialConsume" />
+		<set name="mpConsume" val="#mpConsume" />
+		<set name="target" val="TARGET_ONE" />
+		<set name="reuseDelay" val="2000" />
 		<set name="hitTime" val="4000" />
+		<set name="skillType" val="BUFF" />
+		<set name="isMagic" val="true" />
+		<set name="operateType" val="OP_ACTIVE" />
+		<set name="castRange" val="400" />
+		<set name="effectRange" val="900" />
+		<set name="aggroPoints" val="#aggroPoints" />
+		<for>
+			<effect name="Buff" time="3600" val="0" stackOrder="1" stackType="WindAtr">
+				<add order="0x40" stat="waterRes" val="#vuln"/>
+			</effect>
+		</for>
 	</skill>
 	<skill id="22081" levels="1" name="Resist Fire">
 		<!-- Increases resistance to fire type attacks by 20% for 1 hour -->
-		<set name="target" val="TARGET_NONE" />
-		<set name="skillType" val="NOTDONE" />
-		<set name="operateType" val="OP_PASSIVE" />
+		<!-- Update by pmq -->
+		<table name="#mpInitialConsume"> 8 </table>
+		<table name="#mpConsume"> 31 </table>
+		<table name="#vuln"> 20 </table>
+		<table name="#aggroPoints"> 418 </table>
+		<set name="mpInitialConsume" val="#mpInitialConsume" />
+		<set name="mpConsume" val="#mpConsume" />
+		<set name="target" val="TARGET_ONE" />
+		<set name="reuseDelay" val="2000" />
 		<set name="hitTime" val="4000" />
+		<set name="skillType" val="BUFF" />
+		<set name="isMagic" val="true" />
+		<set name="operateType" val="OP_ACTIVE" />
+		<set name="castRange" val="400" />
+		<set name="effectRange" val="900" />
+		<set name="aggroPoints" val="#aggroPoints" />
+		<for>
+			<effect name="Buff" time="3600" val="0" stackOrder="1" stackType="FireAtr">
+				<add order="0x40" stat="waterRes" val="#vuln"/>
+			</effect>
+		</for>
 	</skill>
 	<skill id="22082" levels="1" name="Resist Holy">
 		<!-- Increases resistance to divinity type attacks by 23% for 1 hour -->
-		<set name="target" val="TARGET_NONE" />
-		<set name="skillType" val="NOTDONE" />
-		<set name="operateType" val="OP_PASSIVE" />
+		<!-- Update by pmq -->
+		<table name="#mpInitialConsume"> 8 </table>
+		<table name="#mpConsume"> 31 </table>
+		<table name="#vuln"> 20 </table>
+		<table name="#aggroPoints"> 418 </table>
+		<set name="mpInitialConsume" val="#mpInitialConsume" />
+		<set name="mpConsume" val="#mpConsume" />
+		<set name="target" val="TARGET_ONE" />
+		<set name="reuseDelay" val="2000" />
 		<set name="hitTime" val="4000" />
+		<set name="skillType" val="BUFF" />
+		<set name="isMagic" val="true" />
+		<set name="operateType" val="OP_ACTIVE" />
+		<set name="castRange" val="400" />
+		<set name="effectRange" val="900" />
+		<set name="aggroPoints" val="#aggroPoints" />
+		<for>
+			<effect name="Buff" time="3600" val="0" stackOrder="1" stackType="HolyAtr">
+				<add order="0x40" stat="waterRes" val="#vuln"/>
+			</effect>
+		</for>
 	</skill>
 	<skill id="22083" levels="1" name="Resist Unholy">
 		<!-- Increases resistance to darkness type attacks by 23% for 1 hour -->
-		<set name="target" val="TARGET_NONE" />
-		<set name="skillType" val="NOTDONE" />
-		<set name="operateType" val="OP_PASSIVE" />
+		<!-- Update by pmq -->
+		<table name="#mpInitialConsume"> 8 </table>
+		<table name="#mpConsume"> 31 </table>
+		<table name="#vuln"> 20 </table>
+		<table name="#aggroPoints"> 418 </table>
+		<set name="mpInitialConsume" val="#mpInitialConsume" />
+		<set name="mpConsume" val="#mpConsume" />
+		<set name="target" val="TARGET_ONE" />
+		<set name="reuseDelay" val="2000" />
 		<set name="hitTime" val="4000" />
+		<set name="skillType" val="BUFF" />
+		<set name="isMagic" val="true" />
+		<set name="operateType" val="OP_ACTIVE" />
+		<set name="castRange" val="400" />
+		<set name="effectRange" val="900" />
+		<set name="aggroPoints" val="#aggroPoints" />
+		<for>
+			<effect name="Buff" time="3600" val="0" stackOrder="1" stackType="DarkAtr">
+				<add order="0x40" stat="waterRes" val="#vuln"/>
+			</effect>
+		</for>
 	</skill>
 	<skill id="22084" levels="1" name="Mental Shield">
 		<!-- Increases resistance to hold/sleep/abnormal mental attacks by 40 for 1 hour -->
-		<set name="target" val="TARGET_NONE" />
-		<set name="skillType" val="NOTDONE" />
-		<set name="operateType" val="OP_PASSIVE" />
+		<!-- Update by pmq -->
+		<table name="#mpInitialConsume"> 8 </table>
+		<table name="#mpConsume"> 35 </table>
+		<table name="#stack"> 40 </table>
+		<table name="#aggroPoints"> 457 </table>
+		<table name="#vuln"> 0.6 </table>
+		<set name="mpInitialConsume" val="#mpInitialConsume" />
+		<set name="mpConsume" val="#mpConsume" />
+		<set name="target" val="TARGET_ONE" />
+		<set name="reuseDelay" val="2000" />
 		<set name="hitTime" val="4000" />
+		<set name="skillType" val="BUFF" />
+		<set name="isMagic" val="true" />
+		<set name="operateType" val="OP_ACTIVE" />
+		<set name="castRange" val="400" />
+		<set name="effectRange" val="900" />
+		<set name="aggroPoints" val="#aggroPoints" />
+		<for>
+			<effect name="Buff" time="3600" val="0" stackOrder="#stack" stackType="MentalShield">
+				<mul order="0x30" stat="rootVuln" val="#vuln"/>
+				<mul order="0x30" stat="sleepVuln" val="#vuln"/>
+				<mul order="0x30" stat="confusionVuln" val="#vuln"/>
+				<mul order="0x30" stat="derangementVuln" val="#vuln"/>
+			</effect>
+		</for>
 	</skill>
 	<skill id="22085" levels="1" name="Focus">
 		<!-- Increases Critical attack rate by 30 for 1 hour -->
-		<set name="target" val="TARGET_NONE" />
-		<set name="skillType" val="NOTDONE" />
-		<set name="operateType" val="OP_PASSIVE" />
+		<!-- Update by pmq -->
+		<table name="#mpInitialConsume"> 9 </table>
+		<table name="#mpConsume"> 38 </table>
+		<table name="#rCrit"> 0.3 </table>
+		<table name="#aggroPoints"> 495 </table>
+		<set name="mpInitialConsume" val="#mpInitialConsume" />
+		<set name="mpConsume" val="#mpConsume" />
+		<set name="target" val="TARGET_ONE" />
+		<set name="reuseDelay" val="2000" />
 		<set name="hitTime" val="4000" />
+		<set name="skillType" val="BUFF" />
+		<set name="isMagic" val="true" />
+		<set name="operateType" val="OP_ACTIVE" />
+		<set name="castRange" val="400" />
+		<set name="effectRange" val="900" />
+		<set name="aggroPoints" val="#aggroPoints" />
+		<for>
+			<effect name="Buff" time="3600" val="0" stackOrder="#rCrit" stackType="critical_prob_up">
+				<basemul order="0x30" stat="rCrit" val="#rCrit"/>
+			</effect>
+		</for>
 	</skill>
 	<skill id="22086" levels="1" name="Concentration">
 		<!-- Decreases magic cancel damage by 36 for 1 hour -->
-		<set name="target" val="TARGET_NONE" />
-		<set name="skillType" val="NOTDONE" />
-		<set name="operateType" val="OP_PASSIVE" />
+		<!-- Update by pmq -->
+		<table name="#mpInitialConsume"> 7 </table>
+		<table name="#mpConsume"> 31 </table>
+		<table name="#cancel"> 36 </table>
+		<table name="#aggroPoints"> 418 </table>
+		<set name="mpInitialConsume" val="#mpInitialConsume" />
+		<set name="mpConsume" val="#mpConsume" />
+		<set name="target" val="TARGET_ONE" />
+		<set name="reuseDelay" val="2000" />
 		<set name="hitTime" val="4000" />
+		<set name="skillType" val="BUFF" />
+		<set name="isMagic" val="true" />
+		<set name="operateType" val="OP_ACTIVE" />
+		<set name="castRange" val="400" />
+		<set name="effectRange" val="900" />
+		<set name="aggroPoints" val="#aggroPoints" />
+		<for>
+			<effect name="Buff" time="3600" val="0" stackOrder="#cancel" stackType="Concentration">
+				<sub order="0x40" stat="cancel" val="#cancel"/>
+			</effect>
+		</for>
 	</skill>
 	<skill id="22087" levels="1" name="Blessing Shield">
 		<!-- Increases Shield defense rate by 15 for 1 hour -->
-		<set name="target" val="TARGET_NONE" />
-		<set name="skillType" val="NOTDONE" />
-		<set name="operateType" val="OP_PASSIVE" />
+		<!-- Update by pmq -->
+		<table name="#mpInitialConsume"> 10 </table>
+		<table name="#mpConsume"> 41 </table>
+		<table name="#rShld"> 1.15 </table>
+		<table name="#aggroPoints"> 532 </table>
+		<set name="mpInitialConsume" val="#mpInitialConsume" />
+		<set name="mpConsume" val="#mpConsume" />
+		<set name="target" val="TARGET_ONE" />
+		<set name="reuseDelay" val="2000" />
 		<set name="hitTime" val="4000" />
+		<set name="skillType" val="BUFF" />
+		<set name="isMagic" val="true" />
+		<set name="operateType" val="OP_ACTIVE" />
+		<set name="castRange" val="400" />
+		<set name="effectRange" val="900" />
+		<set name="aggroPoints" val="#aggroPoints" />
+		<for>
+			<effect name="Buff" time="3600" val="0" stackOrder="#rShld" stackType="shieldProbUp">
+				<mul order="0x30" stat="rShld" val="#rShld"/>
+			</effect>
+		</for>
 	</skill>
 	<skill id="22088" levels="1" name="Agility">
 		<!-- Increases evasion rate by 4 for 1 hour -->
-		<set name="target" val="TARGET_NONE" />
-		<set name="skillType" val="NOTDONE" />
-		<set name="operateType" val="OP_PASSIVE" />
+		<!-- Update by pmq -->
+		<table name="#mpInitialConsume"> 4 </table>
+		<table name="#mpConsume"> 18 </table>
+		<table name="#rEvas"> 2 </table>
+		<table name="#aggroPoints"> 243 </table>
+		<set name="mpInitialConsume" val="#mpInitialConsume" />
+		<set name="mpConsume" val="#mpConsume" />
+		<set name="target" val="TARGET_ONE" />
+		<set name="reuseDelay" val="2000" />
 		<set name="hitTime" val="4000" />
+		<set name="skillType" val="BUFF" />
+		<set name="isMagic" val="true" />
+		<set name="operateType" val="OP_ACTIVE" />
+		<set name="castRange" val="400" />
+		<set name="effectRange" val="900" />
+		<set name="aggroPoints" val="#aggroPoints" />
+		<for>
+			<effect name="Buff" time="3600" val="0" stackOrder="#rEvas" stackType="rEvas">
+				<add order="0x40" stat="rEvas" val="#rEvas"/>
+			</effect>
+		</for>
 	</skill>
 	<skill id="22089" levels="1" name="Regeneration">
 		<!-- Increases HP Regeneration by 20% for 1 hour -->
-		<set name="target" val="TARGET_NONE" />
-		<set name="skillType" val="NOTDONE" />
-		<set name="operateType" val="OP_PASSIVE" />
+		<!-- Update by pmq -->
+		<table name="#mpInitialConsume"> 10 </table>
+		<table name="#mpConsume"> 41 </table>
+		<table name="#rate"> 1.2 </table>
+		<table name="#aggroPoints"> 532 </table>
+		<set name="mpInitialConsume" val="#mpInitialConsume" />
+		<set name="mpConsume" val="#mpConsume" />
+		<set name="target" val="TARGET_ONE" />
+		<set name="reuseDelay" val="2000" />
 		<set name="hitTime" val="4000" />
+		<set name="skillType" val="BUFF" />
+		<set name="isMagic" val="true" />
+		<set name="operateType" val="OP_ACTIVE" />
+		<set name="castRange" val="400" />
+		<set name="effectRange" val="900" />
+		<set name="aggroPoints" val="#aggroPoints" />
+		<for>
+			<effect name="Buff" time="3600" val="0" stackOrder="#rate" stackType="hp_regen_up">
+				<mul order="0x30" stat="regHp" val="#rate"/>
+			</effect>
+		</for>
 	</skill>
 	<skill id="22090" levels="1" name="Advanced Block">
 		<!-- Increases Shield P. Def. by 40% for 1 hour -->
-		<set name="target" val="TARGET_NONE" />
-		<set name="skillType" val="NOTDONE" />
-		<set name="operateType" val="OP_PASSIVE" />
+		<!-- Update by pmq -->
+		<table name="#mpInitialConsume"> 13 </table>
+		<table name="#mpConsume"> 49 </table>
+		<table name="#sDef"> 1.4 </table>
+		<table name="#aggroPoints"> 611 </table>
+		<set name="mpInitialConsume" val="#mpInitialConsume" />
+		<set name="mpConsume" val="#mpConsume" />
+		<set name="target" val="TARGET_ONE" />
+		<set name="reuseDelay" val="2000" />
 		<set name="hitTime" val="4000" />
+		<set name="skillType" val="BUFF" />
+		<set name="isMagic" val="true" />
+		<set name="operateType" val="OP_ACTIVE" />
+		<set name="castRange" val="400" />
+		<set name="effectRange" val="900" />
+		<set name="aggroPoints" val="#aggroPoints" />
+		<for>
+			<effect name="Buff" time="3600" val="0" stackOrder="#sDef" stackType="sdef_up">
+				<mul order="0x30" stat="sDef" val="#sDef"/>
+			</effect>
+		</for>
 	</skill>
 	<skill id="22091" levels="1" name="Eva's Rune">
 		<!-- With the power of Eva, increases max HP by 10%, and decreases skill reuse time by 20%. Reflects partial damage received back to the emeny. Excludes damage caused by skills and long-range attack. -->
@@ -1013,9 +1270,30 @@
 	</skill>
 	<skill id="22099" levels="1" name="Soul Silver Foil">
 		<!-- When using a monster's corpse, comforts the monster's soul to borrow the monster's power temporarily. For 2 minutes, increases Max HP by 60%, Max MP by 60%, Max CP by 60%, physical P. Def. by 30%, M. Def. by 30%, moving speed by 30, and physical P. Atk. by 20%. Decreases MP consumption during skill use by 10%. -->
-		<set name="target" val="TARGET_NONE" />
-		<set name="skillType" val="NOTDONE" />
-		<set name="operateType" val="OP_PASSIVE" />
+		<!-- Update by pmq -->
+		<set name="itemConsumeId" val="20602" />
+		<set name="itemConsumeCount" val="1" />
+		<set name="target" val="TARGET_SELF" />
+		<set name="skillType" val="BUFF" />
+		<set name="operateType" val="OP_ACTIVE" />
 		<set name="hitTime" val="1500" />
+		<set name="castRange" val="20" />
+		<set name="effectRange" val="400" />
+		<set name="reuseDelay" val="120000" />
+		<set name="staticReuse" val="true" />
+		<for>
+			<effect name="Buff" time="120" val="0" stackOrder="1" stackType="multi_buff">
+				<mul order="0x40" stat="maxHp" val="1.60" />
+				<mul order="0x40" stat="maxMp" val="1.60" />
+				<mul order="0x40" stat="maxCp" val="1.60" />
+				<mul order="0x40" stat="pDef" val="1.30" />
+				<mul order="0x40" stat="mDef" val="1.30" />
+				<add order="0x40" stat="runSpd" val="30" />
+				<mul order="0x40" stat="pAtk" val="1.20" />
+				<mul order="0x30" stat="MagicalMpConsumeRate" val="0.9" />
+				<mul order="0x30" stat="PhysicalMpConsumeRate" val="0.9" />
+				<mul order="0x30" stat="DanceMpConsumeRate" val="0.9" />
+			</effect>
+		</for>
 	</skill>
 </list>

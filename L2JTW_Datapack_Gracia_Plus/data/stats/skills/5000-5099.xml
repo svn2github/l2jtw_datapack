@@ -42,37 +42,73 @@
 		<set name="isMagic" val="true" />
 	</skill>
 	<skill id="5006" levels="1" name="Frintezza's Melody">
-		<!-- Lvl 1: A general performance -->
-		<set name="target" val="TARGET_NONE" />
-		<set name="skillType" val="NOTDONE" />
-		<set name="operateType" val="OP_PASSIVE" />
-		<set name="hitTime" val="34000" />
-		<set name="reuseDelay" val="34000" />
+		<!-- Update by pmq -->
+		<!-- Needs to be finished. Description(s): A general performance. -->
+		<set name="power" val="60000" />
+		<set name="reuseDelay" val="40000" />
+		<set name="hitTime" val="25000" />
+		<set name="target" val="TARGET_AREA" />
+		<set name="skillRadius" val="700" />
+		<set name="skillType" val="MDAM" />
+		<set name="operateType" val="OP_ACTIVE" />
+		<set name="castRange" val="1200" />
+		<set name="effectRange" val="1400" />
 	</skill>
 	<skill id="5007" levels="5" name="Frintezza's Songs">
 		<!--
-			Lvl 1: Frintezza's Healing Rhapsody (Music to soothe the soul). 
-			Lvl 2: Frintezza's Rampaging Opus (A Consecutive Dash + Portrait Replay Performance). 
-			Lvl 3: Frintezza's Power Concerto (A powerful tune affecting Attack/Speed). 
-			Lvl 4: Frintezza's Plagued Concerto (A triumphant ballad of Heal Suppressing). 
+			Needs to be finished.
+			Description(s):
+			Lvl 1: Frintezza's Healing Rhapsody (Music to soothe the soul).
+			Lvl 2: Frintezza's Rampaging Opus (A Consecutive Dash + Portrait Replay Performance).
+			Lvl 3: Frintezza's Power Concerto (A powerful tune affecting Attack/Speed).
+			Lvl 4: Frintezza's Plagued Concerto (A triumphant ballad of Heal Suppressing).
 			Lvl 5: Frintezza's Psycho Symphony (Two Can Dance + Cancel Performance).
 		-->
+		<!-- Update by pmq -->
 		<table name="#hitTime"> 32000 32000 32000 31000 35000 </table>
-		<table name="#reuseDelay"> 32000 32000 32000 31000 35000 </table>
-		<set name="target" val="TARGET_NONE" />
-		<set name="skillType" val="NOTDONE" />
-		<set name="operateType" val="OP_PASSIVE" />
+		<table name="#skill_landing_percent"> 0 60 0 0 0 </table>
+		<table name="#skillRadius"> 0 100 0 100 100 </table>
+		<table name="#Power"> 0 0 5 10 30 </table>
+		<table name="#Heal"> 2.3 0 0 10 30 </table>
+		<table name="#time"> 20 20 0 10 30 </table>
+		<!-- <table name="#rampage"> 0 1000 0 0 0 </table> -->
+		<table name="#Plague"> 0 0 0 450 0 </table>
+		<table name="#Psycho"> 0 0 0 0 4.9 </table>
 		<set name="hitTime" val="#hitTime" />
-		<set name="reuseDelay" val="#reuseDelay" />
+		<set name="target" val="TARGET_ONE" />
+		<set name="skillType" val="DEBUFF" />
+		<set name="operateType" val="OP_ACTIVE" />
+		<set name="skillRadius" val="#skillRadius" />
+		<set name="castRange" val="1200" />
+		<set name="skill_landing_percent" val="#skill_landing_percent" />
+		<set name="negateStats" val="BUFF" />
+		<!-- <set name="negatePower" val="#rampage" /> -->
+		<for>
+			<effect count="5" name="DamOverTime" time="#time" val="#Plague" />
+			<effect name="Confusion" time="#time" val="0">
+				<div order="0x30" stat="pAtkSpd" val="#Psycho" />
+				<div order="0x30" stat="mAtkSpd" val="#Psycho" />
+				<div order="0x30" stat="runSpd" val="#Psycho" />
+				<div order="0x30" stat="accCombat" val="#Psycho" />
+				<div order="0x30" stat="rEvas" val="#Psycho" />
+				<div order="0x30" stat="pDef" val="#Psycho" />
+			</effect>
+			<effect name="Buff" time="#time" val="0">
+				<div order="0x30" stat="pAtkSpd" val="#Power" />
+				<div order="0x30" stat="runSpd" val="#Power" />
+				<div order="0x30" stat="regHp" val="#Heal" />
+			</effect>
+		</for>
 	</skill>
 	<skill id="5008" levels="5" name="Frintezza's Songs">
 		<!--
-			Lvl 1: Frintezza's Concert Hall Melody (Music that makes you feel oh so good inside). 
-			Lvl 2: Frintezza's Rampaging Opus en masse (Consecutive Dash + Portrait Replay Performance). 
-			Lvl 3: Frintezza Power Encore (Attack/Speed Performance). 
-			Lvl 4: Mournful Chorale Prelude (Instantly decreases the effect of HP regeneration magic). 
+			Lvl 1: Frintezza's Concert Hall Melody (Music that makes you feel oh so good inside).
+			Lvl 2: Frintezza's Rampaging Opus en masse (Consecutive Dash + Portrait Replay Performance).
+			Lvl 3: Frintezza Power Encore (Attack/Speed Performance).
+			Lvl 4: Mournful Chorale Prelude (Instantly decreases the effect of HP regeneration magic).
 			Lvl 5: Hypnotic Mazurka (Instantly immobilizes the target by making it dance involuntarily).
 		-->
+		<!-- Update by pmq -->
 		<table name="#isMagic"> true false false true true </table>
 		<!-- Update by rocknow -->
 		<table name="#RegHp">10000 0 0 0 0</table>
@@ -473,10 +509,17 @@
 		<set name="operateType" val="OP_PASSIVE" />
 	</skill>
 	<skill id="5043" levels="12" name="NPC Super Sonic Blaster">
-		<set name="target" val="TARGET_NONE" />
-		<set name="skillType" val="NOTDONE" />
-		<set name="operateType" val="OP_PASSIVE" />
-		<set name="hitTime" val="1900" />
+		<!-- Update by pmq -->
+		<table name="#mpConsume"> 7 10 14 19 25 31 36 38 40 42 42 43 </table>
+		<set name="mpConsume" val="#mpConsume" />
+		<set name="power" val="1958" /> <!-- Guess, and only for lvl 10 -->
+		<set name="hitTime" val="1000" />
+		<set name="reuseDelay" val="7000" /> <!-- However, it's ignored? -->
+		<set name="target" val="TARGET_ONE" />
+		<set name="skillType" val="PDAM" />
+		<set name="operateType" val="OP_ACTIVE" />
+		<set name="castRange" val="1200" />
+		<set name="effectRange" val="1700" />
 	</skill>
 	<skill id="5044" levels="3" name="NPC Ultimate Defense">
 		<set name="target" val="TARGET_NONE" />
@@ -533,10 +576,25 @@
 		<set name="hitTime" val="2000" />
 	</skill>
 	<skill id="5050" levels="12" name="Castle DD Fire">
-		<set name="target" val="TARGET_NONE" />
-		<set name="skillType" val="NOTDONE" />
-		<set name="operateType" val="OP_PASSIVE" />
+		<!-- Update by pmq -->
+		<table name="#mpInitialConsume"> 1 2 2 3 4 5 6 7 7 7 7 7 </table>
+		<table name="#mpConsume"> 5 8 11 14 18 22 26 28 29 30 31 31 </table>
+		<table name="#power"> 18 26 38 52 68 85 102 110 116 122 126 129 </table>
+		<table name="#magicLvl"> 10 20 30 40 50 60 70 75 80 85 90 95 </table>
+		<set name="magicLvl" val="#magicLvl" />
+		<set name="mpInitialConsume" val="#mpInitialConsume" />
+		<set name="mpConsume" val="#mpConsume" />
+		<set name="power" val="#power" />
+		<set name="element" val="0" /> <!-- Fire -->
+		<set name="elementPower" val="20" />
+		<set name="reuseDelay" val="3000" />
 		<set name="hitTime" val="4000" />
+		<set name="target" val="TARGET_ONE" />
+		<set name="skillType" val="MDAM" />
+		<set name="isMagic" val="true" />
+		<set name="operateType" val="OP_ACTIVE" />
+		<set name="castRange" val="1500" />
+		<set name="effectRange" val="2000" />
 	</skill>
 	<skill id="5051" levels="12" name="Castle Self AE Fire">
 		<set name="target" val="TARGET_NONE" />
@@ -545,10 +603,25 @@
 		<set name="hitTime" val="4000" />
 	</skill>
 	<skill id="5052" levels="12" name="Castle Long AE Fire">
-		<set name="target" val="TARGET_NONE" />
-		<set name="skillType" val="NOTDONE" />
-		<set name="operateType" val="OP_PASSIVE" />
+		<!-- Update by pmq -->
+		<table name="#mpInitialConsume"> 1 2 2 3 4 5 6 7 7 7 7 7 </table>
+		<table name="#mpConsume"> 5 8 11 14 18 22 26 28 29 30 31 31 </table>
+		<table name="#power"> 18 26 38 52 68 85 102 110 116 122 126 129 </table>
+		<table name="#magicLvl"> 10 20 30 40 50 60 70 75 80 85 90 95 </table>
+		<set name="magicLvl" val="#magicLvl" />
+		<set name="mpInitialConsume" val="#mpInitialConsume" />
+		<set name="mpConsume" val="#mpConsume" />
+		<set name="power" val="#power" />
+		<set name="element" val="0" /> <!-- Fire -->
+		<set name="elementPower" val="20" />
+		<set name="reuseDelay" val="3000" />
 		<set name="hitTime" val="4000" />
+		<set name="target" val="TARGET_ONE" />
+		<set name="skillType" val="MDAM" />
+		<set name="isMagic" val="true" />
+		<set name="operateType" val="OP_ACTIVE" />
+		<set name="castRange" val="1500" />
+		<set name="effectRange" val="2000" />
 	</skill>
 	<skill id="5053" levels="12" name="Castle DD Water">
 		<table name="#mpConsume"> 7 10 14 18 23 28 33 35 37 38 39 39 </table>
@@ -575,16 +648,46 @@
 		<set name="hitTime" val="4000" />
 	</skill>
 	<skill id="5055" levels="12" name="Castle Long AE Water">
-		<set name="target" val="TARGET_NONE" />
-		<set name="skillType" val="NOTDONE" />
-		<set name="operateType" val="OP_PASSIVE" />
+		<!-- Update by pmq -->
+		<table name="#mpInitialConsume"> 1 2 2 3 4 5 6 7 7 7 7 7 </table>
+		<table name="#mpConsume"> 5 8 11 14 18 22 26 28 29 30 31 31 </table>
+		<table name="#power"> 18 26 38 52 68 85 102 110 116 122 126 129 </table>
+		<table name="#magicLvl"> 10 20 30 40 50 60 70 75 80 85 90 95 </table>
+		<set name="magicLvl" val="#magicLvl" />
+		<set name="mpInitialConsume" val="#mpInitialConsume" />
+		<set name="mpConsume" val="#mpConsume" />
+		<set name="power" val="#power" />
+		<set name="element" val="1" /> <!-- Water -->
+		<set name="elementPower" val="20" />
+		<set name="reuseDelay" val="3000" />
 		<set name="hitTime" val="4000" />
+		<set name="target" val="TARGET_ONE" />
+		<set name="skillType" val="MDAM" />
+		<set name="isMagic" val="true" />
+		<set name="operateType" val="OP_ACTIVE" />
+		<set name="castRange" val="1500" />
+		<set name="effectRange" val="2000" />
 	</skill>
 	<skill id="5056" levels="12" name="Castle DD Wind">
-		<set name="target" val="TARGET_NONE" />
-		<set name="skillType" val="NOTDONE" />
-		<set name="operateType" val="OP_PASSIVE" />
+		<!-- Update by pmq -->
+		<table name="#mpInitialConsume"> 1 2 2 3 4 5 6 7 7 7 7 7 </table>
+		<table name="#mpConsume"> 5 8 11 14 18 22 26 28 29 30 31 31 </table>
+		<table name="#power"> 18 26 38 52 68 85 102 110 116 122 126 129 </table>
+		<table name="#magicLvl"> 10 20 30 40 50 60 70 75 80 85 90 95 </table>
+		<set name="magicLvl" val="#magicLvl" />
+		<set name="mpInitialConsume" val="#mpInitialConsume" />
+		<set name="mpConsume" val="#mpConsume" />
+		<set name="power" val="#power" />
+		<set name="element" val="2" /> <!-- Wind -->
+		<set name="elementPower" val="20" />
+		<set name="reuseDelay" val="3000" />
 		<set name="hitTime" val="4000" />
+		<set name="target" val="TARGET_ONE" />
+		<set name="skillType" val="MDAM" />
+		<set name="isMagic" val="true" />
+		<set name="operateType" val="OP_ACTIVE" />
+		<set name="castRange" val="1500" />
+		<set name="effectRange" val="2000" />
 	</skill>
 	<skill id="5057" levels="12" name="Castle Self AE Wind">
 		<set name="target" val="TARGET_NONE" />
@@ -593,16 +696,46 @@
 		<set name="hitTime" val="4000" />
 	</skill>
 	<skill id="5058" levels="12" name="Castle Long AE Wind">
-		<set name="target" val="TARGET_NONE" />
-		<set name="skillType" val="NOTDONE" />
-		<set name="operateType" val="OP_PASSIVE" />
+		<!-- Update by pmq -->
+		<table name="#mpInitialConsume"> 1 2 2 3 4 5 6 7 7 7 7 7 </table>
+		<table name="#mpConsume"> 5 8 11 14 18 22 26 28 29 30 31 31 </table>
+		<table name="#power"> 18 26 38 52 68 85 102 110 116 122 126 129 </table>
+		<table name="#magicLvl"> 10 20 30 40 50 60 70 75 80 85 90 95 </table>
+		<set name="magicLvl" val="#magicLvl" />
+		<set name="mpInitialConsume" val="#mpInitialConsume" />
+		<set name="mpConsume" val="#mpConsume" />
+		<set name="power" val="#power" />
+		<set name="element" val="2" /> <!-- Wind -->
+		<set name="elementPower" val="20" />
+		<set name="reuseDelay" val="3000" />
 		<set name="hitTime" val="4000" />
+		<set name="target" val="TARGET_ONE" />
+		<set name="skillType" val="MDAM" />
+		<set name="isMagic" val="true" />
+		<set name="operateType" val="OP_ACTIVE" />
+		<set name="castRange" val="1500" />
+		<set name="effectRange" val="2000" />
 	</skill>
 	<skill id="5059" levels="12" name="Castle DD Earth">
-		<set name="target" val="TARGET_NONE" />
-		<set name="skillType" val="NOTDONE" />
-		<set name="operateType" val="OP_PASSIVE" />
+		<!-- Update by pmq -->
+		<table name="#mpInitialConsume"> 1 2 2 3 4 5 6 7 7 7 7 7 </table>
+		<table name="#mpConsume"> 5 8 11 14 18 22 26 28 29 30 31 31 </table>
+		<table name="#power"> 18 26 38 52 68 85 102 110 116 122 126 129 </table>
+		<table name="#magicLvl"> 10 20 30 40 50 60 70 75 80 85 90 95 </table>
+		<set name="magicLvl" val="#magicLvl" />
+		<set name="mpInitialConsume" val="#mpInitialConsume" />
+		<set name="mpConsume" val="#mpConsume" />
+		<set name="power" val="#power" />
+		<set name="element" val="3" /> <!-- Earth -->
+		<set name="elementPower" val="20" />
+		<set name="reuseDelay" val="3000" />
 		<set name="hitTime" val="4000" />
+		<set name="target" val="TARGET_ONE" />
+		<set name="skillType" val="MDAM" />
+		<set name="isMagic" val="true" />
+		<set name="operateType" val="OP_ACTIVE" />
+		<set name="castRange" val="1500" />
+		<set name="effectRange" val="2000" />
 	</skill>
 	<skill id="5060" levels="12" name="Castle Self AE Earth">
 		<set name="target" val="TARGET_NONE" />
@@ -617,10 +750,25 @@
 		<set name="hitTime" val="4000" />
 	</skill>
 	<skill id="5062" levels="12" name="Castle DD Holy">
-		<set name="target" val="TARGET_NONE" />
-		<set name="skillType" val="NOTDONE" />
-		<set name="operateType" val="OP_PASSIVE" />
+		<!-- Update by pmq -->
+		<table name="#mpInitialConsume"> 1 2 2 3 4 5 6 7 7 7 7 7 </table>
+		<table name="#mpConsume"> 5 8 11 14 18 22 26 28 29 30 31 31 </table>
+		<table name="#power"> 18 26 38 52 68 85 102 110 116 122 126 129 </table>
+		<table name="#magicLvl"> 10 20 30 40 50 60 70 75 80 85 90 95 </table>
+		<set name="magicLvl" val="#magicLvl" />
+		<set name="mpInitialConsume" val="#mpInitialConsume" />
+		<set name="mpConsume" val="#mpConsume" />
+		<set name="power" val="#power" />
+		<set name="element" val="4" /> <!-- Holy -->
+		<set name="elementPower" val="20" />
+		<set name="reuseDelay" val="3000" />
 		<set name="hitTime" val="4000" />
+		<set name="target" val="TARGET_ONE" />
+		<set name="skillType" val="MDAM" />
+		<set name="isMagic" val="true" />
+		<set name="operateType" val="OP_ACTIVE" />
+		<set name="castRange" val="1500" />
+		<set name="effectRange" val="2000" />
 	</skill>
 	<skill id="5063" levels="12" name="Castle Self AE Holy">
 		<set name="target" val="TARGET_NONE" />
@@ -629,10 +777,25 @@
 		<set name="hitTime" val="4000" />
 	</skill>
 	<skill id="5064" levels="12" name="Castle Long AE Holy">
-		<set name="target" val="TARGET_NONE" />
-		<set name="skillType" val="NOTDONE" />
-		<set name="operateType" val="OP_PASSIVE" />
+		<!-- Update by pmq -->
+		<table name="#mpInitialConsume"> 1 2 2 3 4 5 6 7 7 7 7 7 </table>
+		<table name="#mpConsume"> 5 8 11 14 18 22 26 28 29 30 31 31 </table>
+		<table name="#power"> 18 26 38 52 68 85 102 110 116 122 126 129 </table>
+		<table name="#magicLvl"> 10 20 30 40 50 60 70 75 80 85 90 95 </table>
+		<set name="magicLvl" val="#magicLvl" />
+		<set name="mpInitialConsume" val="#mpInitialConsume" />
+		<set name="mpConsume" val="#mpConsume" />
+		<set name="power" val="#power" />
+		<set name="element" val="4" /> <!-- Holy -->
+		<set name="elementPower" val="20" />
+		<set name="reuseDelay" val="3000" />
 		<set name="hitTime" val="4000" />
+		<set name="target" val="TARGET_ONE" />
+		<set name="skillType" val="MDAM" />
+		<set name="isMagic" val="true" />
+		<set name="operateType" val="OP_ACTIVE" />
+		<set name="castRange" val="1500" />
+		<set name="effectRange" val="2000" />
 	</skill>
 	<skill id="5065" levels="12" name="Castle DD Unholy">
 		<table name="#mpConsume"> 7 10 14 18 23 28 33 35 37 38 39 39 </table>
@@ -659,110 +822,161 @@
 		<set name="hitTime" val="4000" />
 	</skill>
 	<skill id="5067" levels="12" name="Castle Long AE Unholy">
-		<set name="target" val="TARGET_NONE" />
-		<set name="skillType" val="NOTDONE" />
-		<set name="operateType" val="OP_PASSIVE" />
+		<!-- Update by pmq -->
+		<table name="#mpInitialConsume"> 1 2 2 3 4 5 6 7 7 7 7 7 </table>
+		<table name="#mpConsume"> 5 8 11 14 18 22 26 28 29 30 31 31 </table>
+		<table name="#power"> 18 26 38 52 68 85 102 110 116 122 126 129 </table>
+		<table name="#magicLvl"> 10 20 30 40 50 60 70 75 80 85 90 95 </table>
+		<set name="magicLvl" val="#magicLvl" />
+		<set name="mpInitialConsume" val="#mpInitialConsume" />
+		<set name="mpConsume" val="#mpConsume" />
+		<set name="power" val="#power" />
+		<set name="element" val="5" /> <!-- Dark -->
+		<set name="elementPower" val="20" />
+		<set name="reuseDelay" val="3000" />
 		<set name="hitTime" val="4000" />
+		<set name="target" val="TARGET_ONE" />
+		<set name="skillType" val="MDAM" />
+		<set name="isMagic" val="true" />
+		<set name="operateType" val="OP_ACTIVE" />
+		<set name="castRange" val="1500" />
+		<set name="effectRange" val="2000" />
 	</skill>
 	<skill id="5068" levels="12" name="Decrease Speed">
-		<!--
-			Lvl 1 - Instantly reduces Speed. Effect 3. 
-			Lvl 2 - Instantly reduces Speed. Effect 3. 
-			Lvl 3 - Instantly reduces Speed. Effect 3. 
-			Lvl 4 - Instantly reduces Speed. Effect 3. 
-			Lvl 5 - Instantly reduces Speed. Effect 3. 
-			Lvl 6 - Instantly reduces Speed. Effect 3. 
-			Lvl 7 - Instantly reduces Speed. Effect 3. 
-			Lvl 8 - Instantly reduces Speed. Effect 3. 
-			Lvl 9 - Instantly reduces Speed. Effect 3. 
-			Lvl 10 - Instantly reduces Speed. Effect 3. 
-			Lvl 11 - Instantly reduces Speed. Effect 3. 
-			Lvl 12 - Instantly reduces Speed. Effect 3.
-		-->
-		<set name="target" val="TARGET_NONE" />
-		<set name="skillType" val="NOTDONE" />
-		<set name="operateType" val="OP_PASSIVE" />
-		<set name="hitTime" val="4000" />
+		<!-- Update by pmq -->
+		<!-- Description(s): Lvl 1-12 - Instantly reduces Speed. Effect 3. -->
+		<table name="#power"> 11 16 23 31 41 51 61 66 70 73 76 78 </table>
+		<table name="#mpInitialConsume"> 1 2 2 3 4 5 6 7 7 7 7 7 </table>
+		<table name="#mpConsume"> 5 8 11 14 18 22 26 28 29 30 31 31 </table>
+		<table name="#magicLvl"> 10 20 30 40 50 60 70 75 80 85 90 95 </table>
+		<set name="magicLvl" val="#magicLvl" />
+		<set name="mpInitialConsume" val="#mpInitialConsume" />
+		<set name="mpConsume" val="#mpConsume" />
+		<set name="power" val="#power" />
+		<set name="reuseDelay" val="3000" />
+		<set name="hitTime" val="3000" />
+		<set name="target" val="TARGET_ONE" />
+		<set name="skillType" val="MDAM" />
+		<set name="isMagic" val="true" />
+		<set name="operateType" val="OP_ACTIVE" />
+		<set name="castRange" val="600" />
+		<set name="effectRange" val="1100" />
+		<set name="isDebuff" val="true" />
+		<for>
+			<effect name="Debuff" time="30" val="0" effectPower="60" effectType="DEBUFF" stackOrder="0.7" stackType="RunSpeedDown">
+				<mul order="0x30" stat="runSpd" val="0.7"/>
+			</effect>
+		</for>
 	</skill>
 	<skill id="5069" levels="12" name="Decrease Atk. Spd.">
-		<!--
-			Lvl 1 - Instantly reduces Atk. Spd. Effect 3. 
-			Lvl 2 - Instantly reduces Atk. Spd. Effect 3. 
-			Lvl 3 - Instantly reduces Atk. Spd. Effect 3. 
-			Lvl 4 - Instantly reduces Atk. Spd. Effect 3. 
-			Lvl 5 - Instantly reduces Atk. Spd. Effect 3. 
-			Lvl 6 - Instantly reduces Atk. Spd. Effect 3. 
-			Lvl 7 - Instantly reduces Atk. Spd. Effect 3. 
-			Lvl 8 - Instantly reduces Atk. Spd. Effect 3. 
-			Lvl 9 - Instantly reduces Atk. Spd. Effect 3. 
-			Lvl 10 - Instantly reduces Atk. Spd. Effect 3. 
-			Lvl 11 - Instantly reduces Atk. Spd. Effect 3. 
-			Lvl 12 - Instantly reduces Atk. Spd. Effect 3.
-		-->
-		<set name="target" val="TARGET_NONE" />
-		<set name="skillType" val="NOTDONE" />
-		<set name="operateType" val="OP_PASSIVE" />
-		<set name="hitTime" val="2000" />
+		<!-- Update by pmq -->
+		<!-- Description(s): Lvl 1-12 - Instantly reduces Atk. Spd. Effect 3. -->
+		<table name="#pAtkSpd"> 0.83 0.8 0.8 0.77 0.77 0.77 0.77 0.77 0.77 0.77 0.77 0.77 </table>
+		<table name="#mpInitialConsume"> 3 5 7 10 13 16 19 20 21 22 23 23 </table>
+		<table name="#mpConsume"> 13 23 31 42 53 66 77 82 86 89 92 92 </table>
+		<table name="#magicLvl"> 14 24 34 44 54 64 74 79 84 89 94 99 </table>
+		<set name="magicLvl" val="#magicLvl" />
+		<set name="mpInitialConsume" val="#mpInitialConsume" />
+		<set name="mpConsume" val="#mpConsume" />
+		<set name="power" val="90" /> <!-- Base Land Rate -->
+		<set name="reuseDelay" val="3000" />
+		<set name="hitTime" val="3000" />
+		<set name="target" val="TARGET_AURA" />
+		<set name="skillRadius" val="200" />
+		<set name="skillType" val="DEBUFF" />
+		<set name="operateType" val="OP_ACTIVE" />
+		<set name="isDebuff" val="true" />
+		<for>
+			<effect name="Debuff" time="15" val="0" stackOrder="#pAtkSpd" stackType="attack_time_up">
+				<mul order="0x30" stat="pAtkSpd" val="#pAtkSpd"/>
+			</effect>
+		</for>
 	</skill>
 	<skill id="5070" levels="12" name="Decrease Casting Spd">
-		<!--
-			Lvl 1 - Instantly reduces Casting Spd. Effect 3. 
-			Lvl 2 - Instantly reduces Casting Spd. Effect 3. 
-			Lvl 3 - Instantly reduces Casting Spd. Effect 3. 
-			Lvl 4 - Instantly reduces Casting Spd. Effect 3. 
-			Lvl 5 - Instantly reduces Casting Spd. Effect 3. 
-			Lvl 6 - Instantly reduces Casting Spd. Effect 3. 
-			Lvl 7 - Instantly reduces Casting Spd. Effect 3. 
-			Lvl 8 - Instantly reduces Casting Spd. Effect 3. 
-			Lvl 9 - Instantly reduces Casting Spd. Effect 3. 
-			Lvl 10 - Instantly reduces Casting Spd. Effect 3. 
-			Lvl 11 - Instantly reduces Casting Spd. Effect 3. 
-			Lvl 12 - Instantly reduces Casting Spd. Effect 3.
-		-->
-		<set name="target" val="TARGET_NONE" />
-		<set name="skillType" val="NOTDONE" />
-		<set name="operateType" val="OP_PASSIVE" />
-		<set name="hitTime" val="2000" />
+		<!-- Update by pmq -->
+		<!-- Description(s): Lvl 1-12 - Instantly reduces Casting Spd. Effect 3. -->
+		<table name="#mAtkSpd"> 0.83 0.8 0.8 0.77 0.77 0.77 0.77 0.77 0.77 0.77 0.77 0.77 </table>
+		<table name="#mpInitialConsume"> 3 5 7 10 13 16 19 20 21 22 23 23 </table>
+		<table name="#mpConsume"> 13 23 31 42 53 66 77 82 86 89 92 92 </table>
+		<table name="#magicLvl"> 14 24 34 44 54 64 74 79 84 89 94 99 </table>
+		<set name="magicLvl" val="#magicLvl" />
+		<set name="mpInitialConsume" val="#mpInitialConsume" />
+		<set name="mpConsume" val="#mpConsume" />
+		<set name="power" val="90" /> <!-- Base Land Rate -->
+		<set name="reuseDelay" val="3000" />
+		<set name="hitTime" val="3000" />
+		<set name="target" val="TARGET_AURA" />
+		<set name="skillRadius" val="200" />
+		<set name="skillType" val="DEBUFF" />
+		<set name="operateType" val="OP_ACTIVE" />
+		<set name="isDebuff" val="true" />
+		<for>
+			<effect name="Debuff" time="15" val="0" stackOrder="#mAtkSpd" stackType="casting_time_down">
+				<mul order="0x30" stat="mAtkSpd" val="#mAtkSpd"/>
+			</effect>
+		</for>
 	</skill>
 	<skill id="5071" levels="12" name="Decrease P. Atk.">
-		<!--
-			Lvl 1 - Instantly reduces P. Atk. Effect 3. 
-			Lvl 2 - Instantly reduces P. Atk. Effect 3. 
-			Lvl 3 - Instantly reduces P. Atk. Effect 3. 
-			Lvl 4 - Instantly reduces P. Atk. Effect 3. 
-			Lvl 5 - Instantly reduces P. Atk. Effect 3. 
-			Lvl 6 - Instantly reduces P. Atk. Effect 3. 
-			Lvl 7 - Instantly reduces P. Atk. Effect 3. 
-			Lvl 8 - Instantly reduces P. Atk. Effect 3. 
-			Lvl 9 - Instantly reduces P. Atk. Effect 3. 
-			Lvl 10 - Instantly reduces P. Atk. Effect 3. 
-			Lvl 11 - Instantly reduces P. Atk. Effect 3. 
-			Lvl 12 - Instantly reduces P. Atk. Effect 3.
-		-->
-		<set name="target" val="TARGET_NONE" />
-		<set name="skillType" val="NOTDONE" />
-		<set name="operateType" val="OP_PASSIVE" />
-		<set name="hitTime" val="2000" />
+		<!-- Update by pmq -->
+		<!-- Description(s): Lvl 1-12 - Instantly reduces P. Atk. Effect 3. -->
+		<table name="#pAtk"> 0.83 0.8 0.8 0.77 0.77 0.77 0.77 0.77 0.77 0.77 0.77 0.77 </table>
+		<table name="#mpInitialConsume"> 3 5 7 10 13 16 19 20 21 22 23 23 </table>
+		<table name="#mpConsume"> 13 23 31 42 53 66 77 82 86 89 92 92 </table>
+		<table name="#magicLvl"> 14 24 34 44 54 64 74 79 84 89 94 99 </table>
+		<set name="magicLvl" val="#magicLvl" />
+		<set name="mpInitialConsume" val="#mpInitialConsume" />
+		<set name="mpConsume" val="#mpConsume" />
+		<set name="power" val="90" /> <!-- Base Land Rate -->
+		<set name="reuseDelay" val="3000" />
+		<set name="hitTime" val="3000" />
+		<set name="target" val="TARGET_AURA" />
+		<set name="skillRadius" val="200" />
+		<set name="skillType" val="DEBUFF" />
+		<set name="operateType" val="OP_ACTIVE" />
+		<set name="isDebuff" val="true" />
+		<for>
+			<effect name="Buff" time="15" val="0" stackOrder="#pAtk" stackType="pAtkDown">
+				<mul order="0x30" stat="pAtk" val="#pAtk"/>
+			</effect>
+		</for>
 	</skill>
 	<skill id="5072" levels="12" name="Decrease M. Atk.">
+		<!-- Update by pmq -->
+		<!-- Description(s): Lvl 1-12 - Instantly reduces M. Atk. Effect 3. -->
 		<!--
-			Lvl 1 - Instantly reduces M. Atk. Effect 3. 
-			Lvl 2 - Instantly reduces M. Atk. Effect 3. 
-			Lvl 3 - Instantly reduces M. Atk. Effect 3. 
-			Lvl 4 - Instantly reduces M. Atk. Effect 3. 
-			Lvl 5 - Instantly reduces M. Atk. Effect 3. 
-			Lvl 6 - Instantly reduces M. Atk. Effect 3. 
-			Lvl 7 - Instantly reduces M. Atk. Effect 3. 
-			Lvl 8 - Instantly reduces M. Atk. Effect 3. 
-			Lvl 9 - Instantly reduces M. Atk. Effect 3. 
-			Lvl 10 - Instantly reduces M. Atk. Effect 3. 
-			Lvl 11 - Instantly reduces M. Atk. Effect 3. 
+			Lvl 1 - Instantly reduces M. Atk. Effect 3.
+			Lvl 2 - Instantly reduces M. Atk. Effect 3.
+			Lvl 3 - Instantly reduces M. Atk. Effect 3.
+			Lvl 4 - Instantly reduces M. Atk. Effect 3.
+			Lvl 5 - Instantly reduces M. Atk. Effect 3.
+			Lvl 6 - Instantly reduces M. Atk. Effect 3.
+			Lvl 7 - Instantly reduces M. Atk. Effect 3.
+			Lvl 8 - Instantly reduces M. Atk. Effect 3.
+			Lvl 9 - Instantly reduces M. Atk. Effect 3.
+			Lvl 10 - Instantly reduces M. Atk. Effect 3.
+			Lvl 11 - Instantly reduces M. Atk. Effect 3.
 			Lvl 12 - Instantly reduces M. Atk. Effect 3.
 		-->
-		<set name="target" val="TARGET_NONE" />
-		<set name="skillType" val="NOTDONE" />
-		<set name="operateType" val="OP_PASSIVE" />
-		<set name="hitTime" val="2000" />
+		<table name="#mAtk"> 0.83 0.8 0.8 0.77 0.77 0.77 0.77 0.77 0.77 0.77 0.77 0.77 </table>
+		<table name="#mpInitialConsume"> 3 5 7 10 13 16 19 20 21 22 23 23 </table>
+		<table name="#mpConsume"> 13 23 31 42 53 66 77 82 86 89 92 92 </table>
+		<table name="#magicLvl"> 14 24 34 44 54 64 74 79 84 89 94 99 </table>
+		<set name="magicLvl" val="#magicLvl" />
+		<set name="mpInitialConsume" val="#mpInitialConsume" />
+		<set name="mpConsume" val="#mpConsume" />
+		<set name="power" val="90" /> <!-- Base Land Rate -->
+		<set name="reuseDelay" val="3000" />
+		<set name="hitTime" val="3000" />
+		<set name="target" val="TARGET_AURA" />
+		<set name="skillRadius" val="200" />
+		<set name="skillType" val="DEBUFF" />
+		<set name="operateType" val="OP_ACTIVE" />
+		<set name="isDebuff" val="true" />
+		<for>
+			<effect name="Buff" time="15" val="0" stackOrder="#mAtk" stackType="ma_up">
+				<mul order="0x30" stat="mAtk" val="#mAtk"/>
+			</effect>
+		</for>
 	</skill>
 	<skill id="5073" levels="12" name="Quest Trap - Power Shot">
 		<table name="#power"> 18 26 38 52 68 85 102 110 116 122 126 129 </table>

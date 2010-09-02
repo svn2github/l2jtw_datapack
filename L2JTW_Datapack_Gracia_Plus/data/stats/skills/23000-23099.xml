@@ -884,9 +884,14 @@
 	</skill>
 	<skill id="23066" levels="1" name="Daewoonso Agathion Special Skill - New Year's Gift Ability">
 		<!-- Can receive a New Year's Gift. Reuse Delay 1 hours -->
-		<set name="target" val="TARGET_NONE" />
-		<set name="skillType" val="NOTDONE" />
-		<set name="operateType" val="OP_PASSIVE" />
+		<!-- Update by pmq -->
+		<set name="target" val="TARGET_SELF" />
+		<set name="skillType" val="DUMMY" />
+		<set name="reuseDelay" val="20000" />
+		<set name="staticReuse" val="true" />
+		<set name="hitTime" val="3000" />
+		<set name="staticHitTime" val="true" />
+		<set name="operateType" val="OP_ACTIVE" />
 		<cond msgId="2292">
 			<player agathionId="1526" />
 		</cond>

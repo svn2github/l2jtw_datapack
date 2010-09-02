@@ -58,9 +58,22 @@
 		</for>
 	</skill>
 	<skill id="6204" levels="1" name="Transformed Condition - Guards of the Dawn">
-		<set name="target" val="TARGET_NONE" />
-		<set name="skillType" val="NOTDONE" />
-		<set name="operateType" val="OP_PASSIVE" />
+		<!-- Update by pmq -->
+		<set name="target" val="TARGET_SELF" />
+		<set name="skillType" val="BUFF" />
+		<set name="operateType" val="OP_ACTIVE" />
+		<set name="transformId" val="113" />
+		<for>
+			<!-- Don't Have Time Limit, info from PTS Euro -->
+			<effect name="Transformation" time="21600" val="0" stackOrder="99" stackType="speed_up"> 
+				<set order="0x08" stat="STR" val="40"/>
+				<set order="0x08" stat="DEX" val="30"/>
+				<set order="0x08" stat="CON" val="43"/>
+				<set order="0x08" stat="INT" val="21"/>
+				<set order="0x08" stat="WIT" val="13"/>
+				<set order="0x08" stat="MEN" val="23"/>
+			</effect>
+		</for>
 	</skill>
 	<skill id="6205" levels="19" name="Strider Bite">
 		<!-- Update by rocknow -->

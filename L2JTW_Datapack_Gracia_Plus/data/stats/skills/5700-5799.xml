@@ -43,249 +43,861 @@
 		</for>
 	</skill>
 	<skill id="5702" levels="2" name="Adiantum Round Fighter">
-		<set name="target" val="TARGET_NONE" />
-		<set name="skillType" val="NOTDONE" />
-		<set name="operateType" val="OP_PASSIVE" />
+		<!-- Update by pmq -->
+		<table name="#magicLvl"> 0 1 </table>
+		<table name="#mpConsume_Init"> 2 2 </table>
+		<table name="#mpConsume"> 5 5 </table>
+		<table name="#castRange"> -1 40 </table>
+		<table name="#effectRange"> -2 80 </table>
+		<set name="magicLvl" val="#magicLvl" />
+		<set name="mpInitialConsume" val="#mpConsume_Init" />
+		<set name="mpConsume" val="#mpConsume" />
+		<set name="power" val="0" />
 		<set name="hitTime" val="2500" />
+		<set name="overHit" val="false" />
+		<set name="ignoreShld" val="false" />
+		<set name="operateType" val="OP_ACTIVE" />
+		<set name="isMagic" val="true" />
+		<set name="target" val="TARGET_ONE" />
+		<set name="skillType" val="PDAM" />
+		<set name="castRange" val="#castRange" />
+		<set name="effectRange" val="#effectRange" />
+		<set name="reuseDelay" val="360000" />
+		<for>
+		</for>
 	</skill>
 	<skill id="5703" levels="2" name="Adiantum Water Strike Deflect">
-		<set name="target" val="TARGET_NONE" />
-		<set name="skillType" val="NOTDONE" />
-		<set name="operateType" val="OP_PASSIVE" />
+		<!-- Update by pmq -->
+		<table name="#magicLvl"> 0 1 </table>
+		<table name="#mpConsume"> 7 7 </table>
+		<set name="magicLvl" val="#magicLvl" />
+		<set name="mpConsume" val="#mpConsume" />
+		<set name="power" val="0" />
 		<set name="hitTime" val="1000" />
+		<set name="overHit" val="false" />
+		<set name="ignoreShld" val="false" />
+		<set name="operateType" val="OP_ACTIVE" />
+		<set name="isMagic" val="false" />
+		<set name="target" val="TARGET_ONE" />
+		<set name="skillType" val="PDAM" />
+		<set name="castRange" val="40" />
+		<set name="effectRange" val="80" />
+		<set name="reuseDelay" val="360000" />
+		<for>
+		</for>
 	</skill>
 	<skill id="5704" levels="1" name="Water Strike">
-		<set name="target" val="TARGET_NONE" />
-		<set name="skillType" val="NOTDONE" />
-		<set name="operateType" val="OP_PASSIVE" />
+		<!-- Update by pmq -->
+		<set name="magicLvl" val="0" />
+		<set name="mpInitialConsume" val="2" />
+		<set name="mpConsume" val="7" />
+		<set name="power" val="0" />
 		<set name="hitTime" val="2500" />
+		<set name="overHit" val="false" />
+		<set name="ignoreShld" val="false" />
+		<set name="operateType" val="OP_ACTIVE" />
+		<set name="isMagic" val="true" />
+		<set name="target" val="TARGET_ONE" />
+		<set name="skillType" val="PDAM" />
+		<set name="castRange" val="900" />
+		<set name="effectRange" val="1800" />
+		<set name="reuseDelay" val="360000" />
+		<for>
+		</for>
 	</skill>
 	<skill id="5705" levels="1" name="Fire Trap">
-		<set name="target" val="TARGET_NONE" />
-		<set name="skillType" val="NOTDONE" />
+		<!-- Update by pmq -->
+		<set name="magicLvl" val="0" />
+		<set name="mpInitialConsume" val="0" />
+		<set name="mpConsume" val="0" />
+		<set name="power" val="0" />
+		<set name="hitTime" val="0" />
+		<set name="overHit" val="false" />
+		<set name="ignoreShld" val="false" />
 		<set name="operateType" val="OP_PASSIVE" />
+		<set name="isMagic" val="true" />
+		<set name="target" val="TARGET_SELF" />
+		<set name="skillType" val="PDAM" />
+		<set name="castRange" val="-1" />
+		<set name="effectRange" val="-2" />
+		<set name="reuseDelay" val="360000" />
+		<for>
+		</for>
 	</skill>
 	<skill id="5706" levels="1" name="Poison">
-		<set name="target" val="TARGET_NONE" />
-		<set name="skillType" val="NOTDONE" />
-		<set name="operateType" val="OP_PASSIVE" />
+		<!-- Update by pmq -->
+		<set name="magicLvl" val="0" />
+		<set name="mpInitialConsume" val="17" />
+		<set name="mpConsume" val="40" />
+		<set name="power" val="0" />
 		<set name="hitTime" val="2000" />
+		<set name="overHit" val="false" />
+		<set name="ignoreShld" val="false" />
+		<set name="operateType" val="OP_ACTIVE" />
+		<set name="isMagic" val="true" />
+		<set name="target" val="TARGET_PARTY" />
+		<set name="skillRadius" val="1000" />
+		<set name="skillType" val="PDAM" />
+		<set name="castRange" val="900" />
+		<set name="effectRange" val="1800" />
+		<set name="reuseDelay" val="360000" />
+		<for>
+		</for>
 	</skill>
 	<skill id="5707" levels="1" name="Paralysis">
-		<set name="target" val="TARGET_NONE" />
-		<set name="skillType" val="NOTDONE" />
+		<!-- Update by pmq -->
+		<set name="magicLvl" val="0" />
+		<set name="mpInitialConsume" val="0" />
+		<set name="mpConsume" val="0" />
+		<set name="power" val="0" />
+		<set name="hitTime" val="0" />
+		<set name="overHit" val="false" />
+		<set name="ignoreShld" val="false" />
 		<set name="operateType" val="OP_PASSIVE" />
+		<set name="isMagic" val="true" />
+		<set name="target" val="TARGET_SELF" />
+		<set name="skillType" val="PDAM" />
+		<set name="castRange" val="-1" />
+		<set name="effectRange" val="-2" />
+		<set name="reuseDelay" val="360000" />
+		<for>
+		</for>
 	</skill>
 	<skill id="5708" levels="1" name="Water Cannon">
-		<set name="target" val="TARGET_NONE" />
-		<set name="skillType" val="NOTDONE" />
-		<set name="operateType" val="OP_PASSIVE" />
+		<!-- Update by pmq -->
+		<set name="magicLvl" val="0" />
+		<set name="mpInitialConsume" val="17" />
+		<set name="mpConsume" val="40" />
+		<set name="power" val="0" />
 		<set name="hitTime" val="1500" />
+		<set name="overHit" val="false" />
+		<set name="ignoreShld" val="false" />
+		<set name="operateType" val="OP_ACTIVE" />
+		<set name="isMagic" val="true" />
+		<set name="target" val="TARGET_ONE" />
+		<set name="skillType" val="PDAM" />
+		<set name="castRange" val="600" />
+		<set name="effectRange" val="1200" />
+		<set name="reuseDelay" val="360000" />
+		<for>
+		</for>
 	</skill>
 	<skill id="5709" levels="1" name="Whirlpool">
-		<set name="target" val="TARGET_NONE" />
-		<set name="skillType" val="NOTDONE" />
-		<set name="operateType" val="OP_PASSIVE" />
+		<!-- Update by pmq -->
+		<set name="magicLvl" val="0" />
+		<set name="mpInitialConsume" val="13" />
+		<set name="mpConsume" val="31" />
+		<set name="power" val="0" />
 		<set name="hitTime" val="1200" />
+		<set name="overHit" val="false" />
+		<set name="ignoreShld" val="false" />
+		<set name="operateType" val="OP_ACTIVE" />
+		<set name="isMagic" val="true" />
+		<set name="target" val="TARGET_ONE" />
+		<set name="skillType" val="PDAM" />
+		<set name="castRange" val="900" />
+		<set name="effectRange" val="1800" />
+		<set name="reuseDelay" val="360000" />
+		<for>
+		</for>
 	</skill>
 	<skill id="5710" levels="1" name="Triple Sword">
-		<set name="target" val="TARGET_NONE" />
-		<set name="skillType" val="NOTDONE" />
-		<set name="operateType" val="OP_PASSIVE" />
+		<!-- Update by pmq -->
+		<set name="magicLvl" val="0" />
+		<set name="mpConsume" val="47" />
+		<set name="power" val="0" />
 		<set name="hitTime" val="1500" />
+		<set name="overHit" val="false" />
+		<set name="ignoreShld" val="false" />
+		<set name="operateType" val="OP_ACTIVE" />
+		<set name="isMagic" val="false" />
+		<set name="target" val="TARGET_ONE" />
+		<set name="skillType" val="PDAM" />
+		<set name="castRange" val="900" />
+		<set name="effectRange" val="1800" />
+		<set name="reuseDelay" val="360000" />
+		<for>
+		</for>
 	</skill>
 	<skill id="5711" levels="1" name="Power of Rage">
-		<set name="target" val="TARGET_NONE" />
-		<set name="skillType" val="NOTDONE" />
-		<set name="operateType" val="OP_PASSIVE" />
+		<!-- Update by pmq -->
+		<set name="magicLvl" val="0" />
+		<set name="mpInitialConsume" val="17" />
+		<set name="mpConsume" val="40" />
+		<set name="power" val="0" />
+		<set name="hitTime" val="4000" />
+		<set name="overHit" val="false" />
+		<set name="ignoreShld" val="false" />
+		<set name="operateType" val="OP_ACTIVE" />
+		<set name="isMagic" val="true" />
+		<set name="target" val="TARGET_PARTY" />
+		<set name="skillRadius" val="1000" />
+		<set name="skillType" val="PDAM" />
+		<set name="castRange" val="-1" />
+		<set name="effectRange" val="-2" />
+		<set name="reuseDelay" val="360000" />
+		<for>
+		</for>
 	</skill>
 	<skill id="5712" levels="1" name="Energy Ditch">
-		<set name="target" val="TARGET_NONE" />
-		<set name="skillType" val="NOTDONE" />
-		<set name="operateType" val="OP_PASSIVE" />
+		<!-- Update by pmq -->
+		<set name="magicLvl" val="0" />
+		<set name="mpConsume" val="0" />
+		<set name="power" val="0" />
+		<set name="hitTime" val="15000" />
+		<set name="overHit" val="false" />
+		<set name="ignoreShld" val="false" />
+		<set name="operateType" val="OP_ACTIVE" />
+		<set name="isMagic" val="false" />
+		<set name="target" val="TARGET_ONE" />
+		<set name="skillType" val="BUFF" />
+		<set name="castRange" val="1300" />
+		<set name="effectRange" val="2600" />
+		<set name="reuseDelay" val="360000" />
+		<for>
+		</for>
 	</skill>
 	<skill id="5713" levels="5" name="Energy Ditch">
-		<set name="target" val="TARGET_NONE" />
-		<set name="skillType" val="NOTDONE" />
-		<set name="operateType" val="OP_PASSIVE" />
+		<!-- Update by pmq -->
+		<table name="#magicLvl"> 0 0 1 1 2 </table>
+		<set name="magicLvl" val="#magicLvl" />
+		<set name="mpConsume" val="0" />
+		<set name="power" val="0" />
+		<set name="hitTime" val="0" />
+		<set name="overHit" val="false" />
+		<set name="ignoreShld" val="false" />
+		<set name="operateType" val="OP_ACTIVE" />
+		<set name="isMagic" val="false" />
+		<set name="target" val="TARGET_PARTY" />
+		<set name="skillRadius" val="1000" />
+		<set name="skillType" val="PDAM" />
+		<set name="castRange" val="-1" />
+		<set name="effectRange" val="-2" />
+		<set name="reuseDelay" val="360000" />
+		<for>
+		</for>
 	</skill>
 	<skill id="5714" levels="1" name="Boom Up">
-		<set name="target" val="TARGET_NONE" />
-		<set name="skillType" val="NOTDONE" />
-		<set name="operateType" val="OP_PASSIVE" />
+		<!-- Update by pmq -->
+		<set name="magicLvl" val="0" />
+		<set name="mpInitialConsume" val="17" />
+		<set name="mpConsume" val="40" />
+		<set name="power" val="0" />
+		<set name="hitTime" val="0" />
+		<set name="overHit" val="false" />
+		<set name="ignoreShld" val="false" />
+		<set name="operateType" val="OP_TOGGLE" />
+		<set name="isMagic" val="true" />
+		<set name="target" val="TARGET_SELF" />
+		<set name="skillType" val="PDAM" />
+		<set name="castRange" val="-1" />
+		<set name="effectRange" val="-2" />
+		<set name="reuseDelay" val="360000" />
+		<for>
+		</for>
 	</skill>
 	<skill id="5715" levels="1" name="Electric Flame">
-		<set name="target" val="TARGET_NONE" />
-		<set name="skillType" val="NOTDONE" />
-		<set name="operateType" val="OP_PASSIVE" />
+		<!-- Update by pmq -->
+		<set name="magicLvl" val="0" />
+		<set name="mpInitialConsume" val="0" />
+		<set name="mpConsume" val="0" />
+		<set name="power" val="0" />
 		<set name="hitTime" val="2500" />
+		<set name="overHit" val="false" />
+		<set name="ignoreShld" val="false" />
+		<set name="operateType" val="OP_ACTIVE" />
+		<set name="isMagic" val="true" />
+		<set name="target" val="TARGET_PARTY" />
+		<set name="skillRadius" val="1000" />
+		<set name="skillType" val="PDAM" />
+		<set name="castRange" val="-1" />
+		<set name="effectRange" val="-2" />
+		<set name="reuseDelay" val="360000" />
+		<for>
+		</for>
 	</skill>
 	<skill id="5716" levels="1" name="Stun">
-		<set name="target" val="TARGET_NONE" />
-		<set name="skillType" val="NOTDONE" />
-		<set name="operateType" val="OP_PASSIVE" />
+		<!-- Update by pmq -->
+		<set name="magicLvl" val="0" />
+		<set name="mpConsume" val="0" />
+		<set name="power" val="0" />
 		<set name="hitTime" val="3000" />
+		<set name="overHit" val="false" />
+		<set name="ignoreShld" val="false" />
+		<set name="operateType" val="OP_ACTIVE" />
+		<set name="isMagic" val="false" />
+		<set name="target" val="TARGET_PARTY" />
+		<set name="skillRadius" val="1000" />
+		<set name="skillType" val="PDAM" />
+		<set name="castRange" val="1500" />
+		<set name="effectRange" val="3000" />
+		<set name="reuseDelay" val="360000" />
+		<for>
+		</for>
 	</skill>
 	<skill id="5717" levels="1" name="Fire Breath">
-		<set name="target" val="TARGET_NONE" />
-		<set name="skillType" val="NOTDONE" />
-		<set name="operateType" val="OP_PASSIVE" />
+		<!-- Update by pmq -->
+		<set name="magicLvl" val="0" />
+		<set name="mpInitialConsume" val="0" />
+		<set name="mpConsume" val="0" />
+		<set name="power" val="0" />
 		<set name="hitTime" val="1500" />
+		<set name="overHit" val="false" />
+		<set name="ignoreShld" val="false" />
+		<set name="operateType" val="OP_ACTIVE" />
+		<set name="isMagic" val="true" />
+		<set name="target" val="TARGET_ONE" />
+		<set name="skillType" val="PDAM" />
+		<set name="castRange" val="1500" />
+		<set name="effectRange" val="3000" />
+		<set name="reuseDelay" val="360000" />
+		<for>
+		</for>
 	</skill>
 	<skill id="5718" levels="1" name="Anger">
-		<set name="target" val="TARGET_NONE" />
-		<set name="skillType" val="NOTDONE" />
-		<set name="operateType" val="OP_PASSIVE" />
+		<!-- Update by pmq -->
+		<set name="magicLvl" val="0" />
+		<set name="mpInitialConsume" val="0" />
+		<set name="mpConsume" val="0" />
+		<set name="power" val="0" />
 		<set name="hitTime" val="1500" />
+		<set name="overHit" val="false" />
+		<set name="ignoreShld" val="false" />
+		<set name="operateType" val="OP_ACTIVE" />
+		<set name="isMagic" val="true" />
+		<set name="target" val="TARGET_PARTY" />
+		<set name="skillRadius" val="1000" />
+		<set name="skillType" val="PDAM" />
+		<set name="castRange" val="-1" />
+		<set name="effectRange" val="-2" />
+		<set name="reuseDelay" val="360000" />
+		<for>
+		</for>
 	</skill>
 	<skill id="5719" levels="1" name="Kamabion Susceptibility">
-		<set name="target" val="TARGET_NONE" />
-		<set name="skillType" val="NOTDONE" />
+		<!-- Update by pmq -->
+		<set name="magicLvl" val="0" />
+		<set name="mpInitialConsume" val="0" />
+		<set name="mpConsume" val="0" />
+		<set name="power" val="0" />
+		<set name="hitTime" val="0" />
+		<set name="overHit" val="false" />
+		<set name="ignoreShld" val="false" />
 		<set name="operateType" val="OP_PASSIVE" />
+		<set name="isMagic" val="true" />
+		<set name="target" val="TARGET_SELF" />
+		<set name="skillType" val="PDAM" />
+		<set name="castRange" val="-1" />
+		<set name="effectRange" val="-2" />
+		<set name="reuseDelay" val="360000" />
+		<for>
+		</for>
 	</skill>
 	<skill id="5720" levels="6" name="Blade Cut">
-		<set name="target" val="TARGET_NONE" />
-		<set name="skillType" val="NOTDONE" />
-		<set name="operateType" val="OP_PASSIVE" />
+		<!-- Update by pmq -->
+		<table name="#magicLvl"> 0 0 1 1 1 2 </table>
+		<table name="#mpConsume"> 61 71 76 80 83 84 </table>
+		<set name="magicLvl" val="#magicLvl" />
+		<set name="mpConsume" val="#mpConsume" />
+		<set name="power" val="0" />
 		<set name="hitTime" val="2000" />
+		<set name="overHit" val="false" />
+		<set name="ignoreShld" val="false" />
+		<set name="operateType" val="OP_ACTIVE" />
+		<set name="isMagic" val="false" />
+		<set name="target" val="TARGET_ONE" />
+		<set name="skillType" val="PDAM" />
+		<set name="castRange" val="40" />
+		<set name="effectRange" val="80" />
+		<set name="reuseDelay" val="360000" />
+		<for>
+		</for>
 	</skill>
 	<skill id="5721" levels="6" name="Blade Strike">
-		<set name="target" val="TARGET_NONE" />
-		<set name="skillType" val="NOTDONE" />
-		<set name="operateType" val="OP_PASSIVE" />
+		<!-- Update by pmq -->
+		<table name="#magicLvl"> 0 0 1 1 1 2 </table>
+		<table name="#mpConsume"> 61 71 76 80 83 84 </table>
+		<set name="magicLvl" val="#magicLvl" />
+		<set name="mpConsume" val="#mpConsume" />
+		<set name="power" val="0" />
 		<set name="hitTime" val="2500" />
+		<set name="overHit" val="false" />
+		<set name="ignoreShld" val="false" />
+		<set name="operateType" val="OP_ACTIVE" />
+		<set name="isMagic" val="false" />
+		<set name="target" val="TARGET_ONE" />
+		<set name="skillType" val="PDAM" />
+		<set name="castRange" val="-1" />
+		<set name="effectRange" val="-2" />
+		<set name="reuseDelay" val="360000" />
+		<for>
+		</for>
 	</skill>
 	<skill id="5722" levels="6" name="Hammer Assault">
-		<set name="target" val="TARGET_NONE" />
-		<set name="skillType" val="NOTDONE" />
-		<set name="operateType" val="OP_PASSIVE" />
+		<!-- Update by pmq -->
+		<table name="#magicLvl"> 0 0 1 1 1 2 </table>
+		<table name="#mpConsume"> 61 71 76 80 83 84 </table>
+		<set name="magicLvl" val="#magicLvl" />
+		<set name="mpConsume" val="#mpConsume" />
+		<set name="power" val="0" />
 		<set name="hitTime" val="2000" />
+		<set name="overHit" val="false" />
+		<set name="ignoreShld" val="false" />
+		<set name="operateType" val="OP_ACTIVE" />
+		<set name="isMagic" val="false" />
+		<set name="target" val="TARGET_ONE" />
+		<set name="skillType" val="PDAM" />
+		<set name="castRange" val="600" />
+		<set name="effectRange" val="1200" />
+		<set name="reuseDelay" val="360000" />
+		<for>
+		</for>
 	</skill>
 	<skill id="5723" levels="6" name="Hammer Swing">
-		<set name="target" val="TARGET_NONE" />
-		<set name="skillType" val="NOTDONE" />
-		<set name="operateType" val="OP_PASSIVE" />
+		<!-- Update by pmq -->
+		<table name="#magicLvl"> 0 0 1 1 1 2 </table>
+		<table name="#mpConsume"> 61 71 76 80 83 84 </table>
+		<set name="magicLvl" val="#magicLvl" />
+		<set name="mpConsume" val="#mpConsume" />
+		<set name="power" val="0" />
 		<set name="hitTime" val="2500" />
+		<set name="overHit" val="false" />
+		<set name="ignoreShld" val="false" />
+		<set name="operateType" val="OP_ACTIVE" />
+		<set name="isMagic" val="false" />
+		<set name="target" val="TARGET_ONE" />
+		<set name="skillType" val="PDAM" />
+		<set name="castRange" val="100" />
+		<set name="effectRange" val="200" />
+		<set name="reuseDelay" val="360000" />
+		<for>
+		</for>
 	</skill>
 	<skill id="5724" levels="6" name="Broom Strike">
-		<set name="target" val="TARGET_NONE" />
-		<set name="skillType" val="NOTDONE" />
-		<set name="operateType" val="OP_PASSIVE" />
+		<!-- Update by pmq -->
+		<table name="#magicLvl"> 0 0 1 1 1 2 </table>
+		<table name="#mpConsume"> 61 71 76 80 83 84 </table>
+		<set name="magicLvl" val="#magicLvl" />
+		<set name="mpConsume" val="#mpConsume" />
+		<set name="power" val="0" />
 		<set name="hitTime" val="2000" />
+		<set name="overHit" val="false" />
+		<set name="ignoreShld" val="false" />
+		<set name="operateType" val="OP_ACTIVE" />
+		<set name="isMagic" val="false" />
+		<set name="target" val="TARGET_ONE" />
+		<set name="skillType" val="PDAM" />
+		<set name="castRange" val="40" />
+		<set name="effectRange" val="80" />
+		<set name="reuseDelay" val="360000" />
+		<for>
+		</for>
 	</skill>
 	<skill id="5725" levels="6" name="Broom Trusting">
-		<set name="target" val="TARGET_NONE" />
-		<set name="skillType" val="NOTDONE" />
-		<set name="operateType" val="OP_PASSIVE" />
+		<!-- Update by pmq -->
+		<table name="#magicLvl"> 0 0 1 1 1 2 </table>
+		<table name="#mpConsume"> 121 142 151 159 165 168 </table>
+		<set name="magicLvl" val="#magicLvl" />
+		<set name="mpConsume" val="#mpConsume" />
+		<set name="power" val="0" />
 		<set name="hitTime" val="1800" />
+		<set name="overHit" val="false" />
+		<set name="ignoreShld" val="false" />
+		<set name="operateType" val="OP_ACTIVE" />
+		<set name="isMagic" val="false" />
+		<set name="target" val="TARGET_ONE" />
+		<set name="skillType" val="PDAM" />
+		<set name="castRange" val="40" />
+		<set name="effectRange" val="80" />
+		<set name="reuseDelay" val="360000" />
+		<for>
+		</for>
 	</skill>
 	<skill id="5726" levels="6" name="Scissors Attack">
-		<set name="target" val="TARGET_NONE" />
-		<set name="skillType" val="NOTDONE" />
-		<set name="operateType" val="OP_PASSIVE" />
+		<!-- Update by pmq -->
+		<table name="#magicLvl"> 0 0 1 1 1 2 </table>
+		<table name="#mpConsume"> 61 71 76 80 83 84 </table>
+		<set name="magicLvl" val="#magicLvl" />
+		<set name="mpConsume" val="#mpConsume" />
+		<set name="power" val="0" />
 		<set name="hitTime" val="2000" />
+		<set name="overHit" val="false" />
+		<set name="ignoreShld" val="false" />
+		<set name="operateType" val="OP_ACTIVE" />
+		<set name="isMagic" val="false" />
+		<set name="target" val="TARGET_ONE" />
+		<set name="skillType" val="PDAM" />
+		<set name="castRange" val="500" />
+		<set name="effectRange" val="1000" />
+		<set name="reuseDelay" val="360000" />
+		<for>
+		</for>
 	</skill>
 	<skill id="5727" levels="6" name="Scissors Strike">
-		<set name="target" val="TARGET_NONE" />
-		<set name="skillType" val="NOTDONE" />
-		<set name="operateType" val="OP_PASSIVE" />
+		<!-- Update by pmq -->
+		<table name="#magicLvl"> 0 0 1 1 1 2 </table>
+		<table name="#mpConsume"> 121 142 151 159 165 168 </table>
+		<set name="magicLvl" val="#magicLvl" />
+		<set name="mpConsume" val="#mpConsume" />
+		<set name="power" val="0" />
 		<set name="hitTime" val="2500" />
+		<set name="overHit" val="false" />
+		<set name="ignoreShld" val="false" />
+		<set name="operateType" val="OP_ACTIVE" />
+		<set name="isMagic" val="false" />
+		<set name="target" val="TARGET_ONE" />
+		<set name="skillType" val="PDAM" />
+		<set name="castRange" val="40" />
+		<set name="effectRange" val="80" />
+		<set name="reuseDelay" val="360000" />
+		<for>
+		</for>
 	</skill>
 	<skill id="5728" levels="6" name="Shobel Attack">
-		<set name="target" val="TARGET_NONE" />
-		<set name="skillType" val="NOTDONE" />
-		<set name="operateType" val="OP_PASSIVE" />
+		<!-- Update by pmq -->
+		<table name="#magicLvl"> 0 0 1 1 1 2 </table>
+		<table name="#mpConsume"> 61 71 76 80 83 84 </table>
+		<set name="magicLvl" val="#magicLvl" />
+		<set name="mpConsume" val="#mpConsume" />
+		<set name="power" val="0" />
 		<set name="hitTime" val="2000" />
+		<set name="overHit" val="false" />
+		<set name="ignoreShld" val="false" />
+		<set name="operateType" val="OP_ACTIVE" />
+		<set name="isMagic" val="false" />
+		<set name="target" val="TARGET_ONE" />
+		<set name="skillType" val="PDAM" />
+		<set name="castRange" val="500" />
+		<set name="effectRange" val="1000" />
+		<set name="reuseDelay" val="360000" />
+		<for>
+		</for>
 	</skill>
 	<skill id="5729" levels="6" name="Shobel Whirlwind">
-		<set name="target" val="TARGET_NONE" />
-		<set name="skillType" val="NOTDONE" />
-		<set name="operateType" val="OP_PASSIVE" />
+		<!-- Update by pmq -->
+		<table name="#magicLvl"> 0 0 1 1 1 2 </table>
+		<table name="#mpConsume"> 61 71 76 80 83 84 </table>
+		<set name="magicLvl" val="#magicLvl" />
+		<set name="mpConsume" val="#mpConsume" />
+		<set name="power" val="0" />
 		<set name="hitTime" val="2500" />
+		<set name="overHit" val="false" />
+		<set name="ignoreShld" val="false" />
+		<set name="operateType" val="OP_ACTIVE" />
+		<set name="isMagic" val="false" />
+		<set name="target" val="TARGET_ONE" />
+		<set name="skillType" val="PDAM" />
+		<set name="castRange" val="-1" />
+		<set name="effectRange" val="-2" />
+		<set name="reuseDelay" val="360000" />
+		<for>
+		</for>
 	</skill>
 	<skill id="5730" levels="6" name="Made Fireball">
-		<set name="target" val="TARGET_NONE" />
-		<set name="skillType" val="NOTDONE" />
-		<set name="operateType" val="OP_PASSIVE" />
+		<!-- Update by pmq -->
+		<table name="#magicLvl"> 0 0 1 1 1 2 </table>
+		<table name="#mpConsume_Init"> 17 20 21 22 23 23 </table>
+		<table name="#mpConsume"> 38 45 48 51 52 54 </table>
+		<set name="magicLvl" val="#magicLvl" />
+		<set name="mpInitialConsume" val="#mpConsume_Init" />
+		<set name="mpConsume" val="#mpConsume" />
+		<set name="power" val="0" />
 		<set name="hitTime" val="1080" />
+		<set name="overHit" val="false" />
+		<set name="ignoreShld" val="false" />
+		<set name="operateType" val="OP_ACTIVE" />
+		<set name="isMagic" val="true" />
+		<set name="target" val="TARGET_ONE" />
+		<set name="skillType" val="PDAM" />
+		<set name="castRange" val="600" />
+		<set name="effectRange" val="1200" />
+		<set name="reuseDelay" val="360000" />
+		<for>
+		</for>
 	</skill>
 	<skill id="5731" levels="6" name="Incense of Death">
-		<set name="target" val="TARGET_NONE" />
-		<set name="skillType" val="NOTDONE" />
-		<set name="operateType" val="OP_PASSIVE" />
+		<!-- Update by pmq -->
+		<table name="#magicLvl"> 0 0 1 1 1 2 </table>
+		<table name="#mpConsume_Init"> 17 20 21 22 23 23 </table>
+		<table name="#mpConsume"> 38 45 48 51 52 54 </table>
+		<set name="magicLvl" val="#magicLvl" />
+		<set name="mpInitialConsume" val="#mpConsume_Init" />
+		<set name="mpConsume" val="#mpConsume" />
+		<set name="power" val="0" />
 		<set name="hitTime" val="2500" />
+		<set name="overHit" val="false" />
+		<set name="ignoreShld" val="false" />
+		<set name="operateType" val="OP_ACTIVE" />
+		<set name="isMagic" val="true" />
+		<set name="target" val="TARGET_ONE" />
+		<set name="skillType" val="PDAM" />
+		<set name="castRange" val="600" />
+		<set name="effectRange" val="1200" />
+		<set name="reuseDelay" val="360000" />
+		<for>
+		</for>
 	</skill>
 	<skill id="5732" levels="6" name="Flame Strike">
-		<set name="target" val="TARGET_NONE" />
-		<set name="skillType" val="NOTDONE" />
-		<set name="operateType" val="OP_PASSIVE" />
+		<!-- Update by pmq -->
+		<table name="#magicLvl"> 0 0 1 1 1 2 </table>
+		<table name="#mpConsume_Init"> 17 20 21 22 23 23 </table>
+		<table name="#mpConsume"> 38 45 48 51 52 54 </table>
+		<set name="magicLvl" val="#magicLvl" />
+		<set name="mpInitialConsume" val="#mpConsume_Init" />
+		<set name="mpConsume" val="#mpConsume" />
+		<set name="power" val="0" />
 		<set name="hitTime" val="2500" />
+		<set name="overHit" val="false" />
+		<set name="ignoreShld" val="false" />
+		<set name="operateType" val="OP_ACTIVE" />
+		<set name="isMagic" val="true" />
+		<set name="target" val="TARGET_ONE" />
+		<set name="skillType" val="MDAM" />
+		<set name="castRange" val="500" />
+		<set name="effectRange" val="1000" />
+		<set name="reuseDelay" val="360000" />
+		<for>
+		</for>
 	</skill>
 	<skill id="5733" levels="6" name="Fear of Steward">
-		<set name="target" val="TARGET_NONE" />
-		<set name="skillType" val="NOTDONE" />
-		<set name="operateType" val="OP_PASSIVE" />
+		<!-- Update by pmq -->
+		<table name="#magicLvl"> 0 0 1 1 1 2 </table>
+		<table name="#mpConsume_Init"> 17 20 21 22 23 23 </table>
+		<table name="#mpConsume"> 38 45 48 51 52 54 </table>
+		<set name="magicLvl" val="#magicLvl" />
+		<set name="mpInitialConsume" val="#mpConsume_Init" />
+		<set name="mpConsume" val="#mpConsume" />
+		<set name="power" val="0" />
 		<set name="hitTime" val="1500" />
+		<set name="overHit" val="false" />
+		<set name="ignoreShld" val="false" />
+		<set name="operateType" val="OP_ACTIVE" />
+		<set name="isMagic" val="true" />
+		<set name="target" val="TARGET_PARTY" />
+		<set name="skillRadius" val="1000" />
+		<set name="skillType" val="PDAM" />
+		<set name="castRange" val="900" />
+		<set name="effectRange" val="1800" />
+		<set name="reuseDelay" val="360000" />
+		<for>
+		</for>
 	</skill>
 	<skill id="5734" levels="6" name="Gust of Wind">
-		<set name="target" val="TARGET_NONE" />
-		<set name="skillType" val="NOTDONE" />
-		<set name="operateType" val="OP_PASSIVE" />
+		<!-- Update by pmq -->
+		<table name="#magicLvl"> 0 0 1 1 1 2 </table>
+		<table name="#mpConsume_Init"> 17 20 21 22 23 23 </table>
+		<table name="#mpConsume"> 38 45 48 51 52 54 </table>
+		<set name="magicLvl" val="#magicLvl" />
+		<set name="mpInitialConsume" val="#mpConsume_Init" />
+		<set name="mpConsume" val="#mpConsume" />
+		<set name="power" val="0" />
 		<set name="hitTime" val="2500" />
+		<set name="overHit" val="false" />
+		<set name="ignoreShld" val="false" />
+		<set name="operateType" val="OP_ACTIVE" />
+		<set name="isMagic" val="true" />
+		<set name="target" val="TARGET_ONE" />
+		<set name="skillType" val="PDAM" />
+		<set name="castRange" val="600" />
+		<set name="effectRange" val="1200" />
+		<set name="reuseDelay" val="360000" />
+		<for>
+		</for>
 	</skill>
 	<skill id="5735" levels="6" name="Curse of Steward">
-		<set name="target" val="TARGET_NONE" />
-		<set name="skillType" val="NOTDONE" />
-		<set name="operateType" val="OP_PASSIVE" />
+		<!-- Update by pmq -->
+		<table name="#magicLvl"> 0 0 1 1 1 2 </table>
+		<table name="#mpConsume_Init"> 17 20 21 22 23 23 </table>
+		<table name="#mpConsume"> 38 45 48 51 52 54 </table>
+		<set name="magicLvl" val="#magicLvl" />
+		<set name="mpInitialConsume" val="#mpConsume_Init" />
+		<set name="mpConsume" val="#mpConsume" />
+		<set name="power" val="0" />
 		<set name="hitTime" val="2500" />
+		<set name="overHit" val="false" />
+		<set name="ignoreShld" val="false" />
+		<set name="operateType" val="OP_ACTIVE" />
+		<set name="isMagic" val="true" />
+		<set name="target" val="TARGET_PARTY" />
+		<set name="skillRadius" val="1000" />
+		<set name="skillType" val="PDAM" />
+		<set name="castRange" val="600" />
+		<set name="effectRange" val="1200" />
+		<set name="reuseDelay" val="360000" />
+		<for>
+		</for>
 	</skill>
 	<skill id="5736" levels="6" name="Katar Trusting">
-		<set name="target" val="TARGET_NONE" />
-		<set name="skillType" val="NOTDONE" />
-		<set name="operateType" val="OP_PASSIVE" />
+		<!-- Update by pmq -->
+		<table name="#magicLvl"> 0 0 1 1 1 2 </table>
+		<table name="#mpConsume"> 182 212 227 238 247 252 </table>
+		<set name="magicLvl" val="#magicLvl" />
+		<set name="mpConsume" val="#mpConsume" />
+		<set name="power" val="0" />
 		<set name="hitTime" val="1800" />
+		<set name="overHit" val="false" />
+		<set name="ignoreShld" val="false" />
+		<set name="operateType" val="OP_ACTIVE" />
+		<set name="isMagic" val="false" />
+		<set name="target" val="TARGET_ONE" />
+		<set name="skillType" val="PDAM" />
+		<set name="castRange" val="40" />
+		<set name="effectRange" val="80" />
+		<set name="reuseDelay" val="360000" />
+		<for>
+		</for>
 	</skill>
 	<skill id="5737" levels="6" name="Power Stamp">
-		<set name="target" val="TARGET_NONE" />
-		<set name="skillType" val="NOTDONE" />
-		<set name="operateType" val="OP_PASSIVE" />
+		<!-- Update by pmq -->
+		<table name="#magicLvl"> 0 0 1 1 1 2 </table>
+		<table name="#mpConsume"> 61 71 76 80 83 84 </table>
+		<set name="magicLvl" val="#magicLvl" />
+		<set name="mpConsume" val="#mpConsume" />
+		<set name="power" val="0" />
 		<set name="hitTime" val="2500" />
+		<set name="overHit" val="false" />
+		<set name="ignoreShld" val="false" />
+		<set name="operateType" val="OP_ACTIVE" />
+		<set name="isMagic" val="false" />
+		<set name="target" val="TARGET_ONE" />
+		<set name="skillType" val="PDAM" />
+		<set name="castRange" val="-1" />
+		<set name="effectRange" val="-2" />
+		<set name="reuseDelay" val="360000" />
+		<for>
+		</for>
 	</skill>
 	<skill id="5738" levels="6" name="Power Roar">
-		<set name="target" val="TARGET_NONE" />
-		<set name="skillType" val="NOTDONE" />
-		<set name="operateType" val="OP_PASSIVE" />
+		<!-- Update by pmq -->
+		<table name="#magicLvl"> 0 0 1 1 1 2 </table>
+		<table name="#mpConsume"> 61 71 76 80 83 84 </table>
+		<set name="magicLvl" val="#magicLvl" />
+		<set name="mpConsume" val="#mpConsume" />
+		<set name="power" val="0" />
 		<set name="hitTime" val="2500" />
+		<set name="overHit" val="false" />
+		<set name="ignoreShld" val="false" />
+		<set name="operateType" val="OP_ACTIVE" />
+		<set name="isMagic" val="false" />
+		<set name="target" val="TARGET_ONE" />
+		<set name="skillType" val="PDAM" />
+		<set name="castRange" val="-1" />
+		<set name="effectRange" val="-2" />
+		<set name="reuseDelay" val="360000" />
+		<for>
+		</for>
 	</skill>
 	<skill id="5739" levels="1" name="Invincible">
-		<set name="target" val="TARGET_NONE" />
-		<set name="skillType" val="NOTDONE" />
+		<!-- Update by pmq -->
+		<set name="magicLvl" val="0" />
+		<set name="mpConsume" val="0" />
+		<set name="power" val="0" />
+		<set name="hitTime" val="0" />
+		<set name="overHit" val="false" />
+		<set name="ignoreShld" val="false" />
 		<set name="operateType" val="OP_PASSIVE" />
+		<set name="isMagic" val="false" />
+		<set name="target" val="TARGET_SELF" />
+		<set name="skillType" val="PDAM" />
+		<set name="castRange" val="400" />
+		<set name="effectRange" val="800" />
+		<set name="reuseDelay" val="360000" />
+		<for>
+		</for>
 	</skill>
 	<skill id="5740" levels="1" name="Recovery Pet">
-		<set name="target" val="TARGET_NONE" />
-		<set name="skillType" val="NOTDONE" />
+		<!-- Update by pmq -->
+		<set name="magicLvl" val="0" />
+		<set name="mpInitialConsume" val="0" />
+		<set name="mpConsume" val="0" />
+		<set name="power" val="0" />
+		<set name="hitTime" val="0" />
+		<set name="overHit" val="false" />
+		<set name="ignoreShld" val="false" />
 		<set name="operateType" val="OP_PASSIVE" />
+		<set name="isMagic" val="true" />
+		<set name="target" val="TARGET_SELF" />
+		<set name="skillType" val="PDAM" />
+		<set name="castRange" val="900" />
+		<set name="effectRange" val="1800" />
+		<set name="reuseDelay" val="360000" />
+		<for>
+		</for>
 	</skill>
 	<skill id="5741" levels="1" name="Mental Pot">
-		<set name="target" val="TARGET_NONE" />
-		<set name="skillType" val="NOTDONE" />
+		<!-- Update by pmq -->
+		<set name="magicLvl" val="0" />
+		<set name="mpInitialConsume" val="0" />
+		<set name="mpConsume" val="0" />
+		<set name="power" val="0" />
+		<set name="hitTime" val="0" />
+		<set name="overHit" val="false" />
+		<set name="ignoreShld" val="false" />
 		<set name="operateType" val="OP_PASSIVE" />
+		<set name="isMagic" val="true" />
+		<set name="target" val="TARGET_SELF" />
+		<set name="skillType" val="PDAM" />
+		<set name="castRange" val="900" />
+		<set name="effectRange" val="1800" />
+		<set name="reuseDelay" val="360000" />
+		<for>
+		</for>
 	</skill>
 	<skill id="5742" levels="5" name="Area Recharge - Per">
-		<set name="target" val="TARGET_NONE" />
-		<set name="skillType" val="NOTDONE" />
-		<set name="operateType" val="OP_PASSIVE" />
+		<!-- Update by pmq -->
+		<table name="#magicLvl"> 0 0 1 1 2 </table>
+		<set name="magicLvl" val="#magicLvl" />
+		<set name="mpConsume" val="0" />
+		<set name="power" val="0" />
+		<set name="hitTime" val="0" />
+		<set name="overHit" val="false" />
+		<set name="ignoreShld" val="false" />
+		<set name="operateType" val="OP_ACTIVE" />
+		<set name="isMagic" val="false" />
+		<set name="target" val="TARGET_ONE" />
+		<set name="skillType" val="PDAM" />
+		<set name="castRange" val="-1" />
+		<set name="effectRange" val="-2" />
+		<set name="reuseDelay" val="360000" />
+		<for>
+		</for>
 	</skill>
 	<skill id="5743" levels="1" name="Area Full Recovery">
-		<set name="target" val="TARGET_NONE" />
-		<set name="skillType" val="NOTDONE" />
-		<set name="operateType" val="OP_PASSIVE" />
+		<!-- Update by pmq -->
+		<set name="magicLvl" val="0" />
+		<set name="mpConsume" val="0" />
+		<set name="power" val="0" />
+		<set name="hitTime" val="0" />
+		<set name="overHit" val="false" />
+		<set name="ignoreShld" val="false" />
+		<set name="operateType" val="OP_ACTIVE" />
+		<set name="isMagic" val="false" />
+		<set name="target" val="TARGET_ONE" />
+		<set name="skillType" val="PDAM" />
+		<set name="castRange" val="-1" />
+		<set name="effectRange" val="-2" />
+		<set name="reuseDelay" val="360000" />
+		<for>
+		</for>
 	</skill>
 	<skill id="5744" levels="1" name="Invincible">
-		<set name="target" val="TARGET_NONE" />
-		<set name="skillType" val="NOTDONE" />
-		<set name="operateType" val="OP_PASSIVE" />
+		<!-- Update by pmq -->
+		<set name="magicLvl" val="0" />
+		<set name="mpConsume" val="0" />
+		<set name="power" val="0" />
+		<set name="hitTime" val="0" />
+		<set name="overHit" val="false" />
+		<set name="ignoreShld" val="false" />
+		<set name="operateType" val="OP_ACTIVE" />
+		<set name="isMagic" val="false" />
+		<set name="target" val="TARGET_PARTY" />
+		<set name="skillRadius" val="1000" />
+		<set name="skillType" val="PDAM" />
+		<set name="castRange" val="-1" />
+		<set name="effectRange" val="-2" />
+		<set name="reuseDelay" val="360000" />
+		<for>
+		</for>
 	</skill>
 	<skill id="5745" levels="12" name="Death Blow">
 		<!-- Update by rocknow -->
@@ -423,44 +1035,135 @@
 		</for>
 	</skill>
 	<skill id="5754" levels="1" name="Presentation - Adiantum Round Fighter">
-		<set name="target" val="TARGET_NONE" />
-		<set name="skillType" val="NOTDONE" />
-		<set name="operateType" val="OP_PASSIVE" />
+		<!-- Update by pmq -->
+		<set name="magicLvl" val="0" />
+		<set name="mpInitialConsume" val="0" />
+		<set name="mpConsume" val="0" />
+		<set name="power" val="0" />
 		<set name="hitTime" val="1500" />
+		<set name="overHit" val="false" />
+		<set name="ignoreShld" val="false" />
+		<set name="operateType" val="OP_ACTIVE" />
+		<set name="isMagic" val="true" />
+		<set name="target" val="TARGET_ONE" />
+		<set name="skillType" val="PDAM" />
+		<set name="castRange" val="-1" />
+		<set name="effectRange" val="-2" />
+		<set name="reuseDelay" val="360000" />
+		<for>
+		</for>
 	</skill>
 	<skill id="5755" levels="1" name="Presentation - Trap On">
-		<set name="target" val="TARGET_NONE" />
-		<set name="skillType" val="NOTDONE" />
-		<set name="operateType" val="OP_PASSIVE" />
+		<!-- Update by pmq -->
+		<set name="magicLvl" val="0" />
+		<set name="mpInitialConsume" val="0" />
+		<set name="mpConsume" val="0" />
+		<set name="power" val="0" />
 		<set name="hitTime" val="2500" />
+		<set name="overHit" val="false" />
+		<set name="ignoreShld" val="false" />
+		<set name="operateType" val="OP_ACTIVE" />
+		<set name="isMagic" val="true" />
+		<set name="target" val="TARGET_ONE" />
+		<set name="skillType" val="PDAM" />
+		<set name="castRange" val="-1" />
+		<set name="effectRange" val="-2" />
+		<set name="reuseDelay" val="360000" />
+		<for>
+		</for>
 	</skill>
 	<skill id="5756" levels="1" name="Presentation - Summon Follower">
-		<set name="target" val="TARGET_NONE" />
-		<set name="skillType" val="NOTDONE" />
-		<set name="operateType" val="OP_PASSIVE" />
+		<!-- Update by pmq -->
+		<set name="magicLvl" val="0" />
+		<set name="mpInitialConsume" val="0" />
+		<set name="mpConsume" val="0" />
+		<set name="power" val="0" />
 		<set name="hitTime" val="2500" />
+		<set name="overHit" val="false" />
+		<set name="ignoreShld" val="false" />
+		<set name="operateType" val="OP_ACTIVE" />
+		<set name="isMagic" val="true" />
+		<set name="target" val="TARGET_ONE" />
+		<set name="skillType" val="PDAM" />
+		<set name="castRange" val="-1" />
+		<set name="effectRange" val="-2" />
+		<set name="reuseDelay" val="360000" />
+		<for>
+		</for>
 	</skill>
 	<skill id="5757" levels="1" name="Presentation - Energy Ditch">
-		<set name="target" val="TARGET_NONE" />
-		<set name="skillType" val="NOTDONE" />
-		<set name="operateType" val="OP_PASSIVE" />
+		<!-- Update by pmq -->
+		<set name="magicLvl" val="0" />
+		<set name="mpConsume" val="0" />
+		<set name="power" val="0" />
 		<set name="hitTime" val="15000" />
+		<set name="overHit" val="false" />
+		<set name="ignoreShld" val="false" />
+		<set name="operateType" val="OP_ACTIVE" />
+		<set name="isMagic" val="false" />
+		<set name="target" val="TARGET_ONE" />
+		<set name="skillType" val="BUFF" />
+		<set name="castRange" val="400" />
+		<set name="effectRange" val="800" />
+		<set name="reuseDelay" val="360000" />
+		<for>
+		</for>
 	</skill>
 	<skill id="5758" levels="1" name="Presentation - Large Firework">
-		<set name="target" val="TARGET_NONE" />
-		<set name="skillType" val="NOTDONE" />
+		<!-- Update by pmq -->
+		<set name="magicLvl" val="0" />
+		<set name="mpConsume" val="0" />
+		<set name="power" val="0" />
+		<set name="hitTime" val="0" />
+		<set name="overHit" val="false" />
+		<set name="ignoreShld" val="false" />
 		<set name="operateType" val="OP_PASSIVE" />
+		<set name="isMagic" val="false" />
+		<set name="target" val="TARGET_SELF" />
+		<set name="skillType" val="BUFF" />
+		<set name="castRange" val="-1" />
+		<set name="effectRange" val="-2" />
+		<set name="reuseDelay" val="360000" />
+		<for>
+		</for>
 	</skill>
 	<skill id="5759" levels="1" name="Presentation - The Rise of Latana">
-		<set name="target" val="TARGET_NONE" />
-		<set name="skillType" val="NOTDONE" />
-		<set name="operateType" val="OP_PASSIVE" />
-		<set name="hitTime" val="9700" />
+		<!-- Update by pmq -->
+		<set name="magicLvl" val="0" />
+		<set name="mpConsume" val="0" />
+		<set name="power" val="0" />
+		<set name="hitTime" val="9699" />
+		<set name="overHit" val="false" />
+		<set name="ignoreShld" val="false" />
+		<set name="operateType" val="OP_ACTIVE" />
+		<set name="isMagic" val="false" />
+		<set name="target" val="TARGET_ONE" />
+		<set name="skillType" val="PDAM" />
+		<set name="castRange" val="-1" />
+		<set name="effectRange" val="-2" />
+		<set name="reuseDelay" val="360000" />
+		<for>
+		</for>
 	</skill>
 	<skill id="5760" levels="9" name="Critical Hit">
-		<set name="target" val="TARGET_NONE" />
-		<set name="skillType" val="NOTDONE" />
+		<!-- Update by pmq -->
+		<table name="#magicLvl"> 0 0 0 1 1 1 1 2 2 </table>
+		<set name="magicLvl" val="#magicLvl" />
+		<set name="mpConsume" val="0" />
+		<set name="power" val="0" />
+		<set name="hitTime" val="0" />
+		<set name="overHit" val="false" />
+		<set name="ignoreShld" val="false" />
 		<set name="operateType" val="OP_PASSIVE" />
+		<set name="isMagic" val="false" />
+		<set name="target" val="TARGET_SELF" />
+		<set name="baseCritRate" val="15" />
+		<set name="skillType" val="PDAM" />
+		<set name="castRange" val="-1" />
+		<set name="effectRange" val="-2" />
+		<set name="reuseDelay" val="360000" />
+		<for>
+		</for>
 	</skill>
 	<skill id="5761" levels="2" name="Power Strike">
 		<!-- Update by rocknow -->
@@ -477,114 +1180,369 @@
 		<set name="effectRange" val="540" />
 	</skill>
 	<skill id="5762" levels="1" name="Blessing of Pathfinder">
-		<set name="target" val="TARGET_NONE" />
-		<set name="skillType" val="NOTDONE" />
+		<!-- Update by pmq -->
+		<set name="magicLvl" val="0" />
+		<set name="mpInitialConsume" val="0" />
+		<set name="mpConsume" val="0" />
+		<set name="power" val="0" />
+		<set name="hitTime" val="0" />
+		<set name="overHit" val="false" />
+		<set name="ignoreShld" val="false" />
 		<set name="operateType" val="OP_PASSIVE" />
+		<set name="isMagic" val="true" />
+		<set name="target" val="TARGET_SELF" />
+		<set name="skillType" val="PDAM" />
+		<set name="castRange" val="900" />
+		<set name="effectRange" val="1800" />
+		<set name="reuseDelay" val="360000" />
+		<for>
+		</for>
 	</skill>
 	<skill id="5763" levels="1" name="Wink">
-		<set name="target" val="TARGET_NONE" />
-		<set name="skillType" val="NOTDONE" />
-		<set name="operateType" val="OP_PASSIVE" />
+		<!-- Update by pmq -->
+		<set name="magicLvl" val="0" />
+		<set name="mpConsume" val="0" />
+		<set name="power" val="0" />
 		<set name="hitTime" val="3000" />
+		<set name="overHit" val="false" />
+		<set name="ignoreShld" val="false" />
+		<set name="operateType" val="OP_ACTIVE" />
+		<set name="isMagic" val="false" />
+		<set name="target" val="TARGET_ONE" />
+		<set name="skillType" val="PDAM" />
+		<set name="castRange" val="-1" />
+		<set name="effectRange" val="-2" />
+		<set name="reuseDelay" val="360000" />
+		<for>
+		</for>
 	</skill>
 	<skill id="5764" levels="1" name="Terror of the Pumpkin Ghost">
-		<set name="target" val="TARGET_NONE" />
-		<set name="skillType" val="NOTDONE" />
-		<set name="operateType" val="OP_PASSIVE" />
-		<set name="hitTime" val="2060" />
+		<!-- Update by pmq -->
+		<set name="magicLvl" val="0" />
+		<set name="mpInitialConsume" val="13" />
+		<set name="mpConsume" val="30" />
+		<set name="power" val="0" />
+		<set name="hitTime" val="2059" />
+		<set name="overHit" val="false" />
+		<set name="ignoreShld" val="false" />
+		<set name="operateType" val="OP_ACTIVE" />
+		<set name="isMagic" val="true" />
+		<set name="target" val="TARGET_PARTY" />
+		<set name="skillRadius" val="1000" />
+		<set name="skillType" val="PDAM" />
+		<set name="castRange" val="900" />
+		<set name="effectRange" val="1800" />
+		<set name="reuseDelay" val="360000" />
+		<for>
+		</for>
 	</skill>
 	<skill id="5765" levels="1" name="Naia Sprout">
-		<set name="target" val="TARGET_NONE" />
-		<set name="skillType" val="NOTDONE" />
-		<set name="operateType" val="OP_PASSIVE" />
+		<!-- Update by pmq -->
+		<set name="magicLvl" val="0" />
+		<set name="mpConsume" val="76" />
+		<set name="power" val="0" />
 		<set name="hitTime" val="1000" />
+		<set name="overHit" val="false" />
+		<set name="ignoreShld" val="false" />
+		<set name="operateType" val="OP_ACTIVE" />
+		<set name="isMagic" val="false" />
+		<set name="target" val="TARGET_ONE" />
+		<set name="skillType" val="PDAM" />
+		<set name="castRange" val="-1" />
+		<set name="effectRange" val="-2" />
+		<set name="reuseDelay" val="360000" />
+		<for>
+		</for>
 	</skill>
 	<skill id="5766" levels="1" name="Naia Sprout">
-		<set name="target" val="TARGET_NONE" />
-		<set name="skillType" val="NOTDONE" />
-		<set name="operateType" val="OP_PASSIVE" />
+		<!-- Update by pmq -->
+		<set name="magicLvl" val="0" />
+		<set name="mpConsume" val="76" />
+		<set name="power" val="0" />
 		<set name="hitTime" val="1000" />
+		<set name="overHit" val="false" />
+		<set name="ignoreShld" val="false" />
+		<set name="operateType" val="OP_ACTIVE" />
+		<set name="isMagic" val="false" />
+		<set name="target" val="TARGET_ONE" />
+		<set name="skillType" val="PDAM" />
+		<set name="castRange" val="-1" />
+		<set name="effectRange" val="-2" />
+		<set name="reuseDelay" val="360000" />
+		<for>
+		</for>
 	</skill>
 	<skill id="5767" levels="1" name="Naia Sprout">
-		<set name="target" val="TARGET_NONE" />
-		<set name="skillType" val="NOTDONE" />
-		<set name="operateType" val="OP_PASSIVE" />
+		<!-- Update by pmq -->
+		<set name="magicLvl" val="0" />
+		<set name="mpConsume" val="76" />
+		<set name="power" val="0" />
 		<set name="hitTime" val="1000" />
+		<set name="overHit" val="false" />
+		<set name="ignoreShld" val="false" />
+		<set name="operateType" val="OP_ACTIVE" />
+		<set name="isMagic" val="false" />
+		<set name="target" val="TARGET_ONE" />
+		<set name="skillType" val="PDAM" />
+		<set name="castRange" val="-1" />
+		<set name="effectRange" val="-2" />
+		<set name="reuseDelay" val="360000" />
+		<for>
+		</for>
 	</skill>
 	<skill id="5768" levels="1" name="Naia Sprout">
-		<set name="target" val="TARGET_NONE" />
-		<set name="skillType" val="NOTDONE" />
-		<set name="operateType" val="OP_PASSIVE" />
+		<!-- Update by pmq -->
+		<set name="magicLvl" val="0" />
+		<set name="mpConsume" val="78" />
+		<set name="power" val="0" />
 		<set name="hitTime" val="1000" />
+		<set name="overHit" val="false" />
+		<set name="ignoreShld" val="false" />
+		<set name="operateType" val="OP_ACTIVE" />
+		<set name="isMagic" val="false" />
+		<set name="target" val="TARGET_ONE" />
+		<set name="skillType" val="PDAM" />
+		<set name="castRange" val="-1" />
+		<set name="effectRange" val="-2" />
+		<set name="reuseDelay" val="360000" />
+		<for>
+		</for>
 	</skill>
 	<skill id="5769" levels="12" name="not_used">
-		<set name="target" val="TARGET_NONE" />
-		<set name="skillType" val="NOTDONE" />
-		<set name="operateType" val="OP_PASSIVE" />
+		<!-- Update by pmq -->
+		<table name="#magicLvl"> 0 0 0 1 1 1 1 1 1 2 2 2 </table>
+		<table name="#mpConsume_Init"> 12 12 12 12 12 12 12 12 12 12 12 12 </table>
+		<table name="#mpConsume"> 27 27 27 27 27 27 27 27 27 27 27 27 </table>
+		<set name="magicLvl" val="#magicLvl" />
+		<set name="mpInitialConsume" val="#mpConsume_Init" />
+		<set name="mpConsume" val="#mpConsume" />
+		<set name="power" val="0" />
 		<set name="hitTime" val="4000" />
+		<set name="overHit" val="false" />
+		<set name="ignoreShld" val="false" />
+		<set name="operateType" val="OP_ACTIVE" />
+		<set name="isMagic" val="true" />
+		<set name="target" val="TARGET_ONE" />
+		<set name="skillType" val="PDAM" />
+		<set name="castRange" val="400" />
+		<set name="effectRange" val="800" />
+		<set name="reuseDelay" val="360000" />
+		<for>
+		</for>
 	</skill>
 	<skill id="5770" levels="12" name="not_used">
-		<set name="target" val="TARGET_NONE" />
-		<set name="skillType" val="NOTDONE" />
-		<set name="operateType" val="OP_PASSIVE" />
+		<!-- Update by pmq -->
+		<table name="#magicLvl"> 0 0 0 1 1 1 1 1 1 2 2 2 </table>
+		<table name="#mpConsume_Init"> 12 12 12 12 12 12 12 12 12 12 12 12 </table>
+		<table name="#mpConsume"> 27 27 27 27 27 27 27 27 27 27 27 27 </table>
+		<set name="magicLvl" val="#magicLvl" />
+		<set name="mpInitialConsume" val="#mpConsume_Init" />
+		<set name="mpConsume" val="#mpConsume" />
+		<set name="power" val="0" />
 		<set name="hitTime" val="4000" />
+		<set name="overHit" val="false" />
+		<set name="ignoreShld" val="false" />
+		<set name="operateType" val="OP_ACTIVE" />
+		<set name="isMagic" val="true" />
+		<set name="target" val="TARGET_ONE" />
+		<set name="skillType" val="PDAM" />
+		<set name="castRange" val="400" />
+		<set name="effectRange" val="800" />
+		<set name="reuseDelay" val="360000" />
+		<for>
+		</for>
 	</skill>
 	<skill id="5771" levels="1" name="Buff Control">
-		<set name="operateType" val="OP_ACTIVE" />
-		<set name="reuseDelay" val="300000" />
-		<set name="hitTime" val="1000" />
-		<set name="skillType" val="BUFF" />
+		<!-- Update by pmq -->
+		<set name="mpConsume" val="260" />
 		<set name="target" val="TARGET_SELF" />
-		<set name="staticReuse" val="true" />
-		<set name="staticHitTime" val="true" />
+		<set name="reuseDelay" val="900000" />
+		<set name="skillType" val="BUFF" />
+		<set name="isMagic" val="true" />
+		<set name="operateType" val="OP_ACTIVE" />
+		<set name="castRange" val="-1" />
+		<set name="effectRange" val="-1" />
 		<for>
-			<effect name="Buff" time="300" val="0" />
+			<effect name="Buff" time="300" count="1" val="0">
+				<mul order="0x30" stat="pAtk" val="1.08" />
+				<mul order="0x30" stat="mAtk" val="1.16" />
+				<mul order="0x30" stat="pAtkSpd" val="1.08" />
+				<add order="0x40" stat="runSpd" val="8" />
+				<mul order="0x30" stat="pDef" val="0.92" />
+				<mul order="0x30" stat="mDef" val="0.84" />
+				<sub order="0x40" stat="rEvas" val="4" />
+			</effect>
 		</for>
 	</skill>
 	<skill id="5772" levels="1" name="Surrender to Fire">
-		<set name="target" val="TARGET_NONE" />
-		<set name="skillType" val="NOTDONE" />
-		<set name="operateType" val="OP_PASSIVE" />
+		<!-- Update by pmq -->
+		<table name="#Tab-fireVuln"> 1.25 </table>
+		<table name="#Tab-waterVuln"> 0.75 </table>
+		<table name="#mpConsume_Init"> 19 </table>
+		<table name="#mpConsume"> 45 </table>
+		<table name="#magicLvl"> 76 </table>
+		<set name="magicLvl" val="#magicLvl" />
+		<set name="lvlDepend" val="1" />
+		<set name="mpInitialConsume" val="#mpConsume_Init" />
+		<set name="mpConsume" val="#mpConsume" />
+		<set name="power" val="0.0" />
+		<set name="target" val="TARGET_ONE" />
+		<set name="reuseDelay" val="8000" />
 		<set name="hitTime" val="2000" />
+		<set name="skillType" val="WEAKNESS" />
+		<set name="isMagic" val="true" />
+		<set name="basicProperty" val="MEN" />
+		<set name="rideState" val="RIDE_NONE;RIDE_WIND;RIDE_STAR;RIDE_TWILIGHT;RIDE_WOLF" />
+		<set name="operateType" val="OP_ACTIVE" />
+		<set name="castRange" val="600" />
+		<set name="effectRange" val="1100" />
+		<for>
+			<effect count="1" name="Debuff" time="120" val="0" stackOrder="2" stackType="surrender">
+				<mul order="0x30" stat="fireRes" val="#Tab-fireVuln" />
+				<mul order="0x30" stat="waterRes" val="#Tab-waterVuln" />
+			</effect>
+		</for>
 	</skill>
 	<skill id="5773" levels="1" name="Surrender to Water">
-		<set name="target" val="TARGET_NONE" />
-		<set name="skillType" val="NOTDONE" />
-		<set name="operateType" val="OP_PASSIVE" />
+		<!-- Update by pmq -->
+		<table name="#Tab-fireVuln"> 1.25 </table>
+		<table name="#Tab-waterVuln"> 0.75 </table>
+		<table name="#mpConsume_Init"> 19 </table>
+		<table name="#mpConsume"> 45 </table>
+		<table name="#magicLvl"> 76 </table>
+		<set name="magicLvl" val="#magicLvl" />
+		<set name="lvlDepend" val="1" />
+		<set name="mpInitialConsume" val="#mpConsume_Init" />
+		<set name="mpConsume" val="#mpConsume" />
+		<set name="power" val="0.0" />
+		<set name="target" val="TARGET_ONE" />
+		<set name="reuseDelay" val="8000" />
 		<set name="hitTime" val="2000" />
+		<set name="skillType" val="WEAKNESS" />
+		<set name="isMagic" val="true" />
+		<set name="basicProperty" val="MEN" />
+		<set name="rideState" val="RIDE_NONE;RIDE_WIND;RIDE_STAR;RIDE_TWILIGHT;RIDE_WOLF" />
+		<set name="operateType" val="OP_ACTIVE" />
+		<set name="castRange" val="600" />
+		<set name="effectRange" val="1100" />
+		<for>
+			<effect count="1" name="Debuff" time="120" val="0" stackOrder="2" stackType="surrender">
+				<mul order="0x30" stat="waterRes" val="#Tab-fireVuln" />
+				<mul order="0x30" stat="fireRes" val="#Tab-waterVuln" />
+			</effect>
+		</for>
 	</skill>
 	<skill id="5774" levels="2" name="Pailaka Reward Energy Replenishing">
-		<!-- lvl1 restore 50%, lvl2 restore 100% of vitality -->
-		<!-- lvl1 used on pailaka 40, lvl2 used on pailaka 60/70 -->
-		<set name="target" val="TARGET_NONE" />
-		<set name="skillType" val="NOTDONE" />
+		<!-- Update by pmq -->
+		<table name="#magicLvl"> 0 1 </table>
+		<set name="magicLvl" val="#magicLvl" />
+		<set name="mpConsume" val="0" />
+		<set name="power" val="0" />
+		<set name="hitTime" val="0" />
+		<set name="overHit" val="false" />
+		<set name="ignoreShld" val="false" />
 		<set name="operateType" val="OP_PASSIVE" />
+		<set name="isMagic" val="false" />
+		<set name="target" val="TARGET_SELF" />
+		<set name="skillType" val="PDAM" />
+		<set name="castRange" val="900" />
+		<set name="effectRange" val="1800" />
+		<set name="reuseDelay" val="360000" />
+		<for>
+		</for>
 	</skill>
 	<skill id="5775" levels="1" name="Great Blessing of Pathfinder">
-		<set name="target" val="TARGET_NONE" />
-		<set name="skillType" val="NOTDONE" />
+		<!-- Update by pmq -->
+		<set name="magicLvl" val="0" />
+		<set name="mpInitialConsume" val="0" />
+		<set name="mpConsume" val="0" />
+		<set name="power" val="0" />
+		<set name="hitTime" val="0" />
+		<set name="overHit" val="false" />
+		<set name="ignoreShld" val="false" />
 		<set name="operateType" val="OP_PASSIVE" />
+		<set name="isMagic" val="true" />
+		<set name="target" val="TARGET_SELF" />
+		<set name="skillType" val="PDAM" />
+		<set name="castRange" val="900" />
+		<set name="effectRange" val="1800" />
+		<set name="reuseDelay" val="360000" />
+		<for>
+		</for>
 	</skill>
 	<skill id="5776" levels="1" name="Raid Boss">
-		<set name="target" val="TARGET_NONE" />
-		<set name="skillType" val="NOTDONE" />
+		<!-- Update by pmq -->
+		<set name="magicLvl" val="0" />
+		<set name="mpConsume" val="0" />
+		<set name="power" val="0" />
+		<set name="hitTime" val="0" />
+		<set name="overHit" val="false" />
+		<set name="ignoreShld" val="false" />
 		<set name="operateType" val="OP_PASSIVE" />
+		<set name="isMagic" val="false" />
+		<set name="target" val="TARGET_SELF" />
+		<set name="skillType" val="BUFF" />
+		<set name="castRange" val="-1" />
+		<set name="effectRange" val="-2" />
+		<set name="reuseDelay" val="360000" />
+		<for>
+		</for>
 	</skill>
 	<skill id="5777" levels="1" name="Raid Boss">
-		<set name="target" val="TARGET_NONE" />
-		<set name="skillType" val="NOTDONE" />
+		<!-- Update by pmq -->
+		<set name="magicLvl" val="0" />
+		<set name="mpConsume" val="0" />
+		<set name="power" val="0" />
+		<set name="hitTime" val="0" />
+		<set name="overHit" val="false" />
+		<set name="ignoreShld" val="false" />
 		<set name="operateType" val="OP_PASSIVE" />
+		<set name="isMagic" val="false" />
+		<set name="target" val="TARGET_SELF" />
+		<set name="skillType" val="BUFF" />
+		<set name="castRange" val="-1" />
+		<set name="effectRange" val="-2" />
+		<set name="reuseDelay" val="360000" />
+		<for>
+		</for>
 	</skill>
 	<skill id="5778" levels="1" name="Invincible After-effect">
-		<!-- skill after ct2.3 not used -->
-		<set name="target" val="TARGET_NONE" />
-		<set name="skillType" val="NOTDONE" />
-		<set name="operateType" val="OP_PASSIVE" />
+		<!-- Update by pmq -->
+		<set name="magicLvl" val="0" />
+		<set name="mpConsume" val="0" />
+		<set name="power" val="0" />
+		<set name="hitTime" val="0" />
+		<set name="overHit" val="false" />
+		<set name="ignoreShld" val="false" />
+		<set name="operateType" val="OP_ACTIVE" />
+		<set name="isMagic" val="false" />
+		<set name="target" val="TARGET_PARTY" />
+		<set name="skillRadius" val="1000" />
+		<set name="skillType" val="BUFF" />
+		<set name="castRange" val="-1" />
+		<set name="effectRange" val="-2" />
+		<set name="reuseDelay" val="360000" />
+		<for>
+		</for>
 	</skill>
 	<skill id="5779" levels="42" name="Transform Effect">
-		<set name="target" val="TARGET_NONE" />
-		<set name="skillType" val="NOTDONE" />
+		<!-- Update by pmq -->
+		<table name="#magicLvl"> 0 0 0 0 0 0 0 0 0 0 0 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 2 2 2 2 2 2 2 2 2 2 </table>
+		<set name="magicLvl" val="#magicLvl" />
+		<set name="mpConsume" val="0" />
+		<set name="power" val="0" />
+		<set name="hitTime" val="0" />
+		<set name="overHit" val="false" />
+		<set name="ignoreShld" val="false" />
 		<set name="operateType" val="OP_PASSIVE" />
+		<set name="isMagic" val="false" />
+		<set name="target" val="TARGET_SELF" />
+		<set name="skillType" val="BUFF" />
+		<set name="castRange" val="-1" />
+		<set name="effectRange" val="-2" />
+		<set name="reuseDelay" val="360000" />
+		<for>
+		</for>
 	</skill>
 	<skill id="5780" levels="9" name="Agathion Collection">
 		<!-- Update by pmq -->
@@ -600,97 +1558,259 @@
 		<set name="effectRange" val="600" />
 		<cond msgId="109">
 			<and>
-			<!-- temp solution as long as we cant ad more than one cond messages -->
+				<!-- temp solution as long as we cant ad more than one cond messages -->
 				<player agathionId="16061" />
 				<player flyMounted="False" />
 				<target npcId="18678, 18679, 18680, 18681, 18682, 18683" />
 			</and>
 		</cond>
-		<!-- Update by rocknow 
-		<set name="target" val="TARGET_SELF" />
-		<set name="hitTime" val="6000" />
-		<set name="skillType" val="DUMMY" />
-		<set name="operateType" val="OP_ACTIVE" />
-		<set name="staticHitTime" val="true" />
-		<cond msgId="2292">
-			<player agathionId="16061"/>
-		</cond> -->
 	</skill>
 	<skill id="5781" levels="1" name="Presentation - Lindvior Approach">
-		<set name="target" val="TARGET_NONE" />
-		<set name="skillType" val="NOTDONE" />
-		<set name="operateType" val="OP_PASSIVE" />
+		<!-- Update by pmq -->
+		<set name="magicLvl" val="0" />
+		<set name="mpInitialConsume" val="0" />
+		<set name="mpConsume" val="0" />
+		<set name="power" val="0" />
 		<set name="hitTime" val="17000" />
+		<set name="overHit" val="false" />
+		<set name="ignoreShld" val="false" />
+		<set name="operateType" val="OP_ACTIVE" />
+		<set name="isMagic" val="true" />
+		<set name="target" val="TARGET_ONE" />
+		<set name="skillType" val="PDAM" />
+		<set name="castRange" val="-1" />
+		<set name="effectRange" val="-2" />
+		<set name="reuseDelay" val="360000" />
+		<for>
+		</for>
 	</skill>
 	<skill id="5782" levels="1" name="Presentation - Lindvior Gust">
-		<set name="target" val="TARGET_NONE" />
-		<set name="skillType" val="NOTDONE" />
-		<set name="operateType" val="OP_PASSIVE" />
+		<!-- Update by pmq -->
+		<set name="magicLvl" val="0" />
+		<set name="mpInitialConsume" val="0" />
+		<set name="mpConsume" val="0" />
+		<set name="power" val="0" />
 		<set name="hitTime" val="10000" />
+		<set name="overHit" val="false" />
+		<set name="ignoreShld" val="false" />
+		<set name="operateType" val="OP_ACTIVE" />
+		<set name="isMagic" val="true" />
+		<set name="target" val="TARGET_ONE" />
+		<set name="skillType" val="PDAM" />
+		<set name="castRange" val="-1" />
+		<set name="effectRange" val="-2" />
+		<set name="reuseDelay" val="360000" />
+		<for>
+		</for>
 	</skill>
 	<skill id="5783" levels="1" name="Presentation - Lindvior Descent">
-		<set name="target" val="TARGET_NONE" />
-		<set name="skillType" val="NOTDONE" />
-		<set name="operateType" val="OP_PASSIVE" />
+		<!-- Update by pmq -->
+		<set name="magicLvl" val="0" />
+		<set name="mpInitialConsume" val="0" />
+		<set name="mpConsume" val="0" />
+		<set name="power" val="0" />
 		<set name="hitTime" val="15000" />
+		<set name="overHit" val="false" />
+		<set name="ignoreShld" val="false" />
+		<set name="operateType" val="OP_ACTIVE" />
+		<set name="isMagic" val="true" />
+		<set name="target" val="TARGET_ONE" />
+		<set name="skillType" val="PDAM" />
+		<set name="castRange" val="-1" />
+		<set name="effectRange" val="-2" />
+		<set name="reuseDelay" val="360000" />
+		<for>
+		</for>
 	</skill>
 	<skill id="5784" levels="1" name="Presentation - Lindvior Dust">
-		<set name="target" val="TARGET_NONE" />
-		<set name="skillType" val="NOTDONE" />
-		<set name="operateType" val="OP_PASSIVE" />
+		<!-- Update by pmq -->
+		<set name="magicLvl" val="0" />
+		<set name="mpInitialConsume" val="0" />
+		<set name="mpConsume" val="0" />
+		<set name="power" val="0" />
 		<set name="hitTime" val="5000" />
+		<set name="overHit" val="false" />
+		<set name="ignoreShld" val="false" />
+		<set name="operateType" val="OP_ACTIVE" />
+		<set name="isMagic" val="true" />
+		<set name="target" val="TARGET_ONE" />
+		<set name="skillType" val="PDAM" />
+		<set name="castRange" val="-1" />
+		<set name="effectRange" val="-2" />
+		<set name="reuseDelay" val="360000" />
+		<for>
+		</for>
 	</skill>
 	<skill id="5785" levels="1" name="Presentation - Dimensional Door">
-		<set name="target" val="TARGET_NONE" />
-		<set name="skillType" val="NOTDONE" />
-		<set name="operateType" val="OP_PASSIVE" />
+		<!-- Update by pmq -->
+		<set name="magicLvl" val="0" />
+		<set name="mpInitialConsume" val="0" />
+		<set name="mpConsume" val="0" />
+		<set name="power" val="0" />
+		<set name="hitTime" val="1500" />
+		<set name="overHit" val="false" />
+		<set name="ignoreShld" val="false" />
+		<set name="operateType" val="OP_ACTIVE" />
+		<set name="isMagic" val="true" />
+		<set name="target" val="TARGET_ONE" />
+		<set name="skillType" val="PDAM" />
+		<set name="castRange" val="-1" />
+		<set name="effectRange" val="-2" />
+		<set name="reuseDelay" val="360000" />
+		<for>
+		</for>
 	</skill>
 	<skill id="5786" levels="1" name="Presentation - Ekimus Separation">
-		<set name="target" val="TARGET_NONE" />
-		<set name="skillType" val="NOTDONE" />
-		<set name="operateType" val="OP_PASSIVE" />
+		<!-- Update by pmq -->
+		<set name="magicLvl" val="0" />
+		<set name="mpInitialConsume" val="0" />
+		<set name="mpConsume" val="0" />
+		<set name="power" val="0" />
 		<set name="hitTime" val="22000" />
+		<set name="overHit" val="false" />
+		<set name="ignoreShld" val="false" />
+		<set name="operateType" val="OP_ACTIVE" />
+		<set name="isMagic" val="true" />
+		<set name="target" val="TARGET_ONE" />
+		<set name="skillType" val="PDAM" />
+		<set name="castRange" val="-1" />
+		<set name="effectRange" val="-2" />
+		<set name="reuseDelay" val="360000" />
+		<for>
+		</for>
 	</skill>
 	<skill id="5787" levels="1" name="Presentation - Ekimus Approach">
-		<set name="target" val="TARGET_NONE" />
-		<set name="skillType" val="NOTDONE" />
-		<set name="operateType" val="OP_PASSIVE" />
+		<!-- Update by pmq -->
+		<set name="magicLvl" val="0" />
+		<set name="mpInitialConsume" val="0" />
+		<set name="mpConsume" val="0" />
+		<set name="power" val="0" />
 		<set name="hitTime" val="11000" />
+		<set name="overHit" val="false" />
+		<set name="ignoreShld" val="false" />
+		<set name="operateType" val="OP_ACTIVE" />
+		<set name="isMagic" val="true" />
+		<set name="target" val="TARGET_ONE" />
+		<set name="skillType" val="PDAM" />
+		<set name="castRange" val="-1" />
+		<set name="effectRange" val="-2" />
+		<set name="reuseDelay" val="360000" />
+		<for>
+		</for>
 	</skill>
 	<skill id="5788" levels="1" name="Presentation - Ekimus Blood Hail">
-		<set name="target" val="TARGET_NONE" />
-		<set name="skillType" val="NOTDONE" />
-		<set name="operateType" val="OP_PASSIVE" />
+		<!-- Update by pmq -->
+		<set name="magicLvl" val="0" />
+		<set name="mpInitialConsume" val="0" />
+		<set name="mpConsume" val="0" />
+		<set name="power" val="0" />
 		<set name="hitTime" val="2100" />
+		<set name="overHit" val="false" />
+		<set name="ignoreShld" val="false" />
+		<set name="operateType" val="OP_ACTIVE" />
+		<set name="isMagic" val="true" />
+		<set name="target" val="TARGET_ONE" />
+		<set name="skillType" val="PDAM" />
+		<set name="castRange" val="-1" />
+		<set name="effectRange" val="-2" />
+		<set name="reuseDelay" val="360000" />
+		<for>
+		</for>
 	</skill>
 	<skill id="5789" levels="1" name="Presentation - Ekimus Sneer">
-		<set name="target" val="TARGET_NONE" />
-		<set name="skillType" val="NOTDONE" />
-		<set name="operateType" val="OP_PASSIVE" />
+		<!-- Update by pmq -->
+		<set name="magicLvl" val="0" />
+		<set name="mpInitialConsume" val="0" />
+		<set name="mpConsume" val="0" />
+		<set name="power" val="0" />
 		<set name="hitTime" val="13000" />
+		<set name="overHit" val="false" />
+		<set name="ignoreShld" val="false" />
+		<set name="operateType" val="OP_ACTIVE" />
+		<set name="isMagic" val="true" />
+		<set name="target" val="TARGET_ONE" />
+		<set name="skillType" val="PDAM" />
+		<set name="castRange" val="-1" />
+		<set name="effectRange" val="-2" />
+		<set name="reuseDelay" val="360000" />
+		<for>
+		</for>
 	</skill>
 	<skill id="5790" levels="1" name="Presentation - Ekimus Aftereffect">
-		<set name="target" val="TARGET_NONE" />
-		<set name="skillType" val="NOTDONE" />
-		<set name="operateType" val="OP_PASSIVE" />
+		<!-- Update by pmq -->
+		<set name="magicLvl" val="0" />
+		<set name="mpInitialConsume" val="0" />
+		<set name="mpConsume" val="0" />
+		<set name="power" val="0" />
+		<set name="hitTime" val="1500" />
+		<set name="overHit" val="false" />
+		<set name="ignoreShld" val="false" />
+		<set name="operateType" val="OP_ACTIVE" />
+		<set name="isMagic" val="true" />
+		<set name="target" val="TARGET_ONE" />
+		<set name="skillType" val="PDAM" />
+		<set name="castRange" val="-1" />
+		<set name="effectRange" val="-2" />
+		<set name="reuseDelay" val="360000" />
+		<for>
+		</for>
 	</skill>
 	<skill id="5791" levels="1" name="Presentation - Magyun's Entrance">
-		<set name="target" val="TARGET_NONE" />
-		<set name="skillType" val="NOTDONE" />
-		<set name="operateType" val="OP_PASSIVE" />
+		<!-- Update by pmq -->
+		<set name="magicLvl" val="0" />
+		<set name="mpInitialConsume" val="0" />
+		<set name="mpConsume" val="0" />
+		<set name="power" val="0" />
 		<set name="hitTime" val="4200" />
+		<set name="overHit" val="false" />
+		<set name="ignoreShld" val="false" />
+		<set name="operateType" val="OP_ACTIVE" />
+		<set name="isMagic" val="true" />
+		<set name="target" val="TARGET_ONE" />
+		<set name="skillType" val="PDAM" />
+		<set name="castRange" val="-1" />
+		<set name="effectRange" val="-2" />
+		<set name="reuseDelay" val="360000" />
+		<for>
+		</for>
 	</skill>
 	<skill id="5792" levels="1" name="Presentation - Summon Banshee Queen Boomi">
-		<set name="target" val="TARGET_NONE" />
-		<set name="skillType" val="NOTDONE" />
-		<set name="operateType" val="OP_PASSIVE" />
+		<!-- Update by pmq -->
+		<set name="magicLvl" val="0" />
+		<set name="mpInitialConsume" val="0" />
+		<set name="mpConsume" val="0" />
+		<set name="power" val="0" />
 		<set name="hitTime" val="2000" />
+		<set name="overHit" val="false" />
+		<set name="ignoreShld" val="false" />
+		<set name="operateType" val="OP_ACTIVE" />
+		<set name="isMagic" val="true" />
+		<set name="target" val="TARGET_ONE" />
+		<set name="skillType" val="PDAM" />
+		<set name="castRange" val="-1" />
+		<set name="effectRange" val="-2" />
+		<set name="reuseDelay" val="360000" />
+		<for>
+		</for>
 	</skill>
 	<skill id="5793" levels="1" name="Presentation - Summon Boomi">
-		<set name="target" val="TARGET_NONE" />
-		<set name="skillType" val="NOTDONE" />
-		<set name="operateType" val="OP_PASSIVE" />
+		<!-- Update by pmq -->
+		<set name="magicLvl" val="0" />
+		<set name="mpInitialConsume" val="0" />
+		<set name="mpConsume" val="0" />
+		<set name="power" val="0" />
 		<set name="hitTime" val="3000" />
+		<set name="overHit" val="false" />
+		<set name="ignoreShld" val="false" />
+		<set name="operateType" val="OP_ACTIVE" />
+		<set name="isMagic" val="true" />
+		<set name="target" val="TARGET_ONE" />
+		<set name="skillType" val="PDAM" />
+		<set name="castRange" val="-1" />
+		<set name="effectRange" val="-2" />
+		<set name="reuseDelay" val="360000" />
+		<for>
+		</for>
 	</skill>
 	<skill id="5794" levels="1" name="Decrease Spd.">
 		<set name="target" val="TARGET_NONE" />
