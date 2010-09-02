@@ -73,14 +73,14 @@ class Quest (JQuest) :
 		if id == State.COMPLETED :
 			htmltext = "<html><body>這是已經完成的任務。</body></html>"
 		elif id == State.CREATED:
-			if npcid == LUNDY and cond == 0 :
+			if npcId == LUNDY and cond == 0 :
 				if player.getLevel() >= 24 :
 					htmltext = "30827-00.htm"
 				else:
 					htmltext = "30827-00a.htm"
 					st.exitQuest(1)
 		elif id == State.STARTED :
-			if npcid == LUNDY :
+			if npcId == LUNDY :
 				if cond == 1 :
 					if not st.getQuestItemsCount(WORK_HAMMER):
 						htmltext = "30827-01a.htm"
@@ -94,7 +94,7 @@ class Quest (JQuest) :
 					htmltext = "30827-05a.htm"
 				elif cond == 5 :
 					htmltext = "30827-06.htm"
-			elif npcid == DRIKUS :
+			elif npcId == DRIKUS :
 				if cond == 4 and st.getQuestItemsCount(GEMSTONE):
 					htmltext = "30505-05.htm"
 				elif cond == 5 :
