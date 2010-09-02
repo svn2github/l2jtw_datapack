@@ -55,7 +55,7 @@ wrongfortress = "<html><body>收容所管理人：<br>(擁有此要塞的血盟之血盟成員才能執
 noclan = "<html><body>收容所管理人：<br>你是誰？好像不在血盟成員的名單內...<br>(擁有此要塞的血盟之血盟成員才能執行的任務。)</body></html>"
 finish = "<html><body>收容所管理人：<br>啊，我明白。果然，我沒有看錯人...<br>謝謝你為這裡做的一切。<br>如果你想再次伸出援手的話，我們會非常感激。<br>祝你旅途愉快！</body></html>"
 noparty = "<html><body>為了進入收容所，得先組織2人以上的隊伍才行。</body></html>"
-noleader = "<html><body>收容所管理人：<br>為了在戰鬥中生存，最重要的是隊伍的隊長如何領導自己的隊伍，當然，在菲拉卡內將領導您的人，也會是隊長。所以，我非常尊重隊伍的領導人物。您的隊長是%leadername%，去將您的隊長請來這邊吧。<br>(只有隊長才能試圖進入。)</body></html>"
+#noleader = "<html><body>收容所管理人：<br>為了在戰鬥中生存，最重要的是隊伍的隊長如何領導自己的隊伍，當然，在菲拉卡內將領導您的人，也會是隊長。所以，我非常尊重隊伍的領導人物。您的隊長是" + str(pln) + "，去將您的隊長請來這邊吧。<br>(只有隊長才能試圖進入。)</body></html>"
 warden_quest = "<html><body>收容所管理人：<br>我是這個要塞的地下怪物收容所管理人。這個地下怪物收容所怪物陣營最近被發現的。<br>我知道其他要塞也有這樣的地下怪物收容所。我的責任是要保持這個地下怪物收容所區安全。<br>畢竟，這將幾乎是可取的怪物出現和消失在地牢的一座要塞，不是嗎？<br>不幸的是，我們根本無法單獨處理這個工作。<br>我們需要冒險家的幫助。<br>當然，我們會支付給您酬勞。<br><br><a action=\"bypass -h Quest 511_AwlUnderFoot start\">我會幫你的</a><br><a action=\"bypass -h Quest 511_AwlUnderFoot warden_no\">我不是現在</a></body></html>"
 warden_yes = "<html><body>收容所管理人：<br>進入要塞地下怪物收容所後，將地下怪物收容所罪犯擊退吧。<br>冒險家您必須要將<font color=\"LEVEL\">三人組</font>都擊退後，擊倒組成地下怪物收容所罪犯族群的所有魔物才行。<br>將最後一組的首領怪物殺死後，帶回城地下怪物收容所魔物的階級章碎片的話，我就支付騎士肩章給您。<br>利用騎士肩章可以向宮廷魔法師交換城堡血盟補給品。<br>對了，還有...<br>到目前為止得到報告的地下怪物收容所罪犯首領有<font color=\"LEVEL\">美貌的奈茲里耶、粗野的南龐、破壞者加斯</font>。<br>可透過我進入城地下怪物收容所。<br>那就拜託您了。<br><a action=\"bypass -h Quest 511_AwlUnderFoot enter\">知道了，現在就出發</a><br><a action=\"bypass -h Quest 511_AwlUnderFoot warden_ask\">地下怪物收容所的怪物們是何方神聖？</a></body></html>"
 
@@ -260,7 +260,8 @@ class Quest (JQuest) :
 			if not party:
 				htmltext = noparty
 			elif not player.getParty().isLeader(player):
-				htmltext = noleader
+				pln = player.getParty().getLeader().getName()
+				htmltext = "<html><body>收容所管理人：<br>為了在戰鬥中生存，最重要的是隊伍的隊長如何領導自己的隊伍，當然，在菲拉卡內將領導您的人，也會是隊長。所以，我非常尊重隊伍的領導人物。您的隊長是" + str(pln) + "，去將您的隊長請來這邊吧。<br>(只有隊長才能試圖進入。)</body></html>"
 			else :
 				tele = PyObject()
 				tele.x = 11740

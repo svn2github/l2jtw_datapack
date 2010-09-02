@@ -80,7 +80,7 @@ public class Shadai extends L2AttackableAIScript
 					if (HellboundManager.getInstance().getLevel() < 9)
 						addSpawn(shadai, -5704, 256417, -3136, 0, false, 3600000);
 					else
-						addSpawn(shadai, 8962, 253278, -1932, 0, false, 3600000);
+						addSpawn(shadai, 9041, 253010, -1938, 49909, false, 3600000);
 					npc.broadcastPacket(new NpcSay(npc.getObjectId(), 1, npc.getNpcId(), "誰會成為今晚的幸運兒呢？哈哈！真是好奇，真是好奇！"));
 				}
 			}
