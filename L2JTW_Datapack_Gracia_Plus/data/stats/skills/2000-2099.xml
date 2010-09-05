@@ -37,7 +37,8 @@
 		<set name="hitTime" val="500" /><!-- Update by pmq -->
 		<set name="staticHitTime" val="true" />
 		<set name="npcId" val="12774" />
-		<set name="despawnDelay" val="120000" />
+		<set name="despawnDelay" val="0" />
+		<set name="isSummonSpawn" val="true" />
 	</skill>
 	<skill id="2004" levels="1" name="Large Squash Seed">
 		<!-- Summer Squash Event Skill (http://www.lineage2.com/archive/2006/11/fall_harvest.html) -->
@@ -48,23 +49,22 @@
 		<set name="hitTime" val="500" /><!-- Update by pmq -->
 		<set name="staticHitTime" val="true" />
 		<set name="npcId" val="12777" />
-		<set name="despawnDelay" val="120000" />
+		<set name="despawnDelay" val="0" />
+		<set name="isSummonSpawn" val="true" />
 	</skill>
 	<skill id="2005" levels="1" name="Nectar">
 		<!-- Update by pmq -->
 		<!-- Summer Squash Event Skill (http://www.lineage2.com/archive/2006/11/fall_harvest.html) -->
-		<set name="itemConsumeId" val="6391"/>
+		<!-- scripts/events/SquashEvent.java onSkillSee() -->
 		<set name="itemConsumeCount" val="1"/>
-		<set name="target" val="TARGET_ONE"/>
-		<set name="staticReuse" val="true" />
-		<set name="hitTime" val="100" />
-		<set name="staticHitTime" val="true" />
-		<set name="skillType" val="AGGREDUCE" />
+		<set name="target" val="TARGET_ONE" />
+		<set name="skillType" val="DEBUFF" />
+		<set name="isDebuff" val="true" />
 		<set name="operateType" val="OP_ACTIVE" />
 		<cond msgId="113" addName="1">
 			<and>
 				<player flyMounted="False" />
-				<target npcId="12774,12775,12776,12777,12778,12779" />
+				<target npcId="12774,12775,12777,12778,13271,13273,,13275,13277" />
 			</and>
 		</cond>
 	</skill>

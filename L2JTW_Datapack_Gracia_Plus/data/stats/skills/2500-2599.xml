@@ -117,6 +117,8 @@
 		<set name="staticHitTime" val="true" />
 		<set name="npcId" val="12774" />
 		<set name="despawnDelay" val="120000" />
+		<set name="isSummonSpawn" val="true" />
+		<set name="showOwnerName" val="true" />
 	</skill>
 	<skill id="2509" levels="1" name="Large Squash Seed">
 		<set name="itemConsumeCount" val="1" />
@@ -127,6 +129,8 @@
 		<set name="staticHitTime" val="true" />
 		<set name="npcId" val="12777" />
 		<set name="despawnDelay" val="120000" />
+		<set name="isSummonSpawn" val="true" />
+		<set name="showOwnerName" val="true" />
 	</skill>
 	<skill id="2510" levels="1" name="Mysterious Cube">
 		<set name="target" val="TARGET_SELF" />

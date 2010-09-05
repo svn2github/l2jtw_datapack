@@ -459,6 +459,7 @@
 		</cond>
 	</skill>
 	<skill id="2136" levels="1" name="Rice Cake">
+		<set name="isPotion" val="true"/><!-- Update by pmq -->
 		<set name="itemConsumeCount" val="1" />
 		<set name="magicLvl" val="1" />
 		<set name="operateType" val="OP_ACTIVE" />
