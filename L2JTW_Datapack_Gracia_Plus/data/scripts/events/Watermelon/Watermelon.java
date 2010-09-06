@@ -30,6 +30,7 @@ import com.l2jserver.gameserver.model.quest.Quest;
 import com.l2jserver.gameserver.model.quest.QuestState;
 import com.l2jserver.gameserver.network.clientpackets.Say2;
 import com.l2jserver.gameserver.network.serverpackets.CreatureSay;
+import com.l2jserver.gameserver.network.serverpackets.PlaySound;
 import com.l2jserver.gameserver.templates.item.L2Weapon;
 import com.l2jserver.util.Rnd;
 
@@ -395,6 +396,11 @@ public class Watermelon extends Quest
 			remove((L2ChronoMonsterInstance)npc);
 			npc.deleteMe();
 		}
+		else if (event == "sound")
+		{
+			final L2ChronoMonsterInstance mob = (L2ChronoMonsterInstance)npc;
+			mob.broadcastPacket(new PlaySound(0, "ItemSound3.sys_sow_success", 0, 0, 0, 0, 0));
+		}
 		else
 			return super.onAdvEvent(event, npc, player);
 		return null;
@@ -579,6 +585,7 @@ public class Watermelon extends Quest
 			case 13278:
 				startQuestTimer("countdown", 10000, mob, null, true);
 				startQuestTimer("despawn", DESPAWN_NEXT, mob, null);
+				startQuestTimer("sound",100, mob, null);
 				self.nectar = 5;
 				self.despawnTime = System.currentTimeMillis() + DESPAWN_NEXT;
 				autoChat(mob, GROWUP_TEXT[Rnd.get(GROWUP_TEXT.length)]);
