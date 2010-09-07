@@ -2,30 +2,28 @@
 # based on Freya PTS
 
 import sys
-from com.l2jserver.gameserver.ai import CtrlIntention
-from com.l2jserver.gameserver.model.quest import State
-from com.l2jserver.gameserver.model.quest import QuestState
-from com.l2jserver.gameserver.model.quest.jython import QuestJython as JQuest
+from com.l2jserver.gameserver.ai                    import CtrlIntention
+from com.l2jserver.gameserver.model.quest           import State
+from com.l2jserver.gameserver.model.quest           import QuestState
+from com.l2jserver.gameserver.model.quest.jython    import QuestJython as JQuest
 from com.l2jserver.gameserver.network.serverpackets import NpcSay
 from com.l2jserver.gameserver.network.serverpackets import ExStartScenePlayer
 
 qn = "196_SevenSignSealOfTheEmperor"
 
 # NPCs
-HEINE		= 30969
-MAMMON		= 32584
-SHUNAIMAN	= 32586
-SEALDEVICE	= 27384
-MAGICAN		= 32598
-WOOD		= 32593
-
-
+HEINE      = 30969
+MAMMON     = 32584
+SHUNAIMAN  = 32586
+SEALDEVICE = 27384
+MAGICAN    = 32598
+WOOD       = 32593
 # ITEMS
-STONE		= 13824
-WATER		= 13808
-SWORD		= 15310
-SEAL		= 13846
-STAFF		= 13809
+STONE      = 13824
+WATER      = 13808
+SWORD      = 15310
+SEAL       = 13846
+STAFF      = 13809
 
 class PyObject :
 	pass
@@ -40,6 +38,7 @@ class Quest (JQuest) :
 		htmltext = event
 		st = player.getQuestState(qn)
 		if not st : return
+
 		if event == "30969-05.htm" :
 			st.set("cond","1")
 			st.setState(State.STARTED)
@@ -88,47 +87,54 @@ class Quest (JQuest) :
 		htmltext = "<html><body>目前沒有執行任務，或條件不符。</body></html>"
 		st = player.getQuestState(qn)
 		if not st : return htmltext
+
 		npcId = npc.getNpcId()
-		cond = st.getInt("cond")
 		id = st.getState()
-		if npcId == HEINE :
-			first = player.getQuestState("195_SevenSignSecretRitualOfThePriests")
-			if first and first.getState() == State.COMPLETED and id == State.CREATED and player.getLevel() >= 79 :
-				htmltext = "30969-01.htm"
-			elif cond == 1 :
-				htmltext = "30969-05.htm"
-			elif cond == 2 :
-				htmltext = "30969-08.htm"
-				st.set("cond", "3")
-			elif cond == 0 :
-				htmltext = "30969-00.htm"
-				st.exitQuest(True)
-			elif cond == 5 :
-				htmltext = "30969-09.htm"
-			elif cond == 6 :
-				htmltext = "30969-11.htm"
-		elif npcId == MAMMON :
-			if cond == 1 :
-				htmltext = "32584-01.htm"
-			elif cond == 2 :
-				htmltext = "32584-05.htm"
-		elif npcId == SHUNAIMAN :
-			if cond == 3 :
-				htmltext = "32586-01.htm"
-			elif cond == 4 and st.getQuestItemsCount(SEAL)==0 :
-				htmltext = "32586-07.htm"
-			elif cond == 4 and st.getQuestItemsCount(SEAL)==4 :
-				htmltext = "32586-08.htm"
-			elif cond == 5 :
-				htmltext = "32586-12.htm"
-		elif npcId == MAGICAN :
-			if cond == 4 and st.getQuestItemsCount(STAFF)==0 :
-				htmltext = "32598-01.htm"
-			elif cond == 4 and st.getQuestItemsCount(STAFF)==1 :
-				htmltext = "32598-03.htm"
-		elif npcId == WOOD :
-			if cond == 6 :
-				htmltext = "32593-01.htm"
+		cond = st.getInt("cond")
+
+		if id == State.COMPLETED :
+			htmltext = "<html><body>這是已經完成的任務。</body></html>"
+		elif id == State.CREATED :
+			if npcId == HEINE and cond == 0 :
+				first = player.getQuestState("195_SevenSignSecretRitualOfThePriests")
+				if first and first.getState() == State.COMPLETED and player.getLevel() >= 79 :
+					htmltext = "30969-01.htm"
+				else :
+					htmltext = "30969-00.htm"
+					st.exitQuest(True)
+		elif id == State.STARTED :
+			if npcId == HEINE :
+				if cond == 1 :
+					htmltext = "30969-05.htm"
+				elif cond == 2 :
+					htmltext = "30969-08.htm"
+					st.set("cond", "3")
+				elif cond == 5 :
+					htmltext = "30969-09.htm"
+				elif cond == 6 :
+					htmltext = "30969-11.htm"
+			elif npcId == MAMMON :
+				if cond == 1 :
+					htmltext = "32584-01.htm"
+				elif cond == 2 :
+					htmltext = "32584-05.htm"
+			elif npcId == SHUNAIMAN :
+				if cond == 3 :
+					htmltext = "32586-01.htm"
+				elif cond == 4 and st.getQuestItemsCount(SEAL)==0 :
+					htmltext = "32586-07.htm"
+				elif cond == 4 and st.getQuestItemsCount(SEAL)==4 :
+					htmltext = "32586-08.htm"
+				elif cond == 5 :
+					htmltext = "32586-12.htm"
+			elif npcId == MAGICAN :
+				if cond == 4 and st.getQuestItemsCount(STAFF)==0 :
+					htmltext = "32598-01.htm"
+				elif cond == 4 and st.getQuestItemsCount(STAFF)==1 :
+					htmltext = "32598-03.htm"
+			elif npcId == WOOD :
+				if cond == 6 :
+					htmltext = "32593-01.htm"
 		return htmltext
 
 	def onKill(self, npc, player, isPet) :
@@ -136,11 +142,11 @@ class Quest (JQuest) :
 		if not st : return
 		if npc.getNpcId() == SEALDEVICE :
 			st.giveItems(SEAL, 1)
-			if st.getQuestItemsCount(SEAL) < 4:
+			if st.getQuestItemsCount(SEAL) < 4 :
 				st.playSound("ItemSound.quest_itemget")
 			else:
 				st.playSound("ItemSound.quest_middle")
-				if st.getQuestItemsCount(SEAL)>=4:
+				if st.getQuestItemsCount(SEAL) >= 4 :
 					player.showQuestMovie(13)
 		return
 

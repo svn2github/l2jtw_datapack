@@ -8,13 +8,13 @@ from com.l2jserver.gameserver.network.serverpackets import ExStartScenePlayer
 
 qn = "192_SevenSignSeriesOfDoubt"
 
-#NPCs
+# NPCs
 CROOP        = 30676
 HECTOR       = 30197
 STAN         = 30200
 CORPSE       = 32568
 HOLLINT      = 30191
-#ITEMS
+# ITEMS
 CROOP_INTRO  = 13813
 JACOB_NECK   = 13814
 CROOP_LETTER = 13815
@@ -74,8 +74,8 @@ class Quest (JQuest) :
 		if not st : return htmltext
 
 		npcId = npc.getNpcId()
-		cond = st.getInt("cond")
 		id = st.getState()
+		cond = st.getInt("cond")
 
 		if id == State.COMPLETED :
 			if npcId == CROOP :
@@ -84,7 +84,7 @@ class Quest (JQuest) :
 			if npcId == CROOP and cond == 0:
 				if player.getLevel() >= 79 :
 					htmltext = "30676-01.htm"
-				elif player.getLevel() < 79 :
+				else :
 					htmltext = "30676-00.htm"
 					st.exitQuest(True)
 		elif id == State.STARTED :

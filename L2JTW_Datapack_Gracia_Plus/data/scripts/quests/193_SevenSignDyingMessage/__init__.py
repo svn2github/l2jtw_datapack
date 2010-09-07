@@ -53,12 +53,12 @@ class Quest (JQuest) :
 				player.showQuestMovie(int(event))
 				return ""
 		elif event == "32569-09.htm" :
-				npc.broadcastPacket(NpcSay(npc.getObjectId(),0,npc.getNpcId(),player.getName() + "! That stranger must be defeated!"))
-				monster = self.addSpawn(SHILENSEVIL, 82624, 47422, -3220, 0, False, 60000, True)
-				monster.broadcastPacket(NpcSay(monster.getObjectId(),0,monster.getNpcId(),"You are not the owner of that item!"))
-				monster.setRunning()
-				monster.addDamageHate(player,0,999)
-				monster.getAI().setIntention(CtrlIntention.AI_INTENTION_ATTACK, st.getPlayer())
+			npc.broadcastPacket(NpcSay(npc.getObjectId(),0,npc.getNpcId(),player.getName() + "! That stranger must be defeated!"))
+			monster = self.addSpawn(SHILENSEVIL, 82624, 47422, -3220, 0, False, 60000, True)
+			monster.broadcastPacket(NpcSay(monster.getObjectId(),0,monster.getNpcId(),"You are not the owner of that item!"))
+			monster.setRunning()
+			monster.addDamageHate(player,0,999)
+			monster.getAI().setIntention(CtrlIntention.AI_INTENTION_ATTACK, st.getPlayer())
 		elif event == "32569-13.htm" :
 			st.set("cond","6")
 			st.takeItems(SCULPTURE,1)
