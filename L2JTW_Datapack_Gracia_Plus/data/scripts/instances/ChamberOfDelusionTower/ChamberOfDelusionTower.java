@@ -24,7 +24,7 @@ public class ChamberOfDelusionTower extends Quest
 {
 	private class CDWorld extends InstanceWorld
 	{
-		private L2Npc manager,managera,managerb,managerc,managerd,managere,managerf,managerg,managerh,chesta,chestb,chestc,chestd,_aenkinel;
+		private L2Npc manager,managera,managerb,managerc,managerd,managere,managerf,managerg,managerh,_aenkinel;
 		public CDWorld()
 		{
 			InstanceManager.getInstance().super();
@@ -39,10 +39,6 @@ public class ChamberOfDelusionTower extends Quest
 	private static final int GKSTART  = 32663;
 	private static final int GKFINISH = 32669;
 	private static final int AENKINEL = 25695;
-	private static final int PRIZ     = 18820;
-	private static final int FAIL1    = 18819;
-	private static final int FAIL2    = 18819;
-	private static final int FAIL3    = 18819;
 	private static final int ROOM1    = 0;
 	private static final int ROOM2    = 1;
 	private static final int ROOM3    = 2;
@@ -489,53 +485,6 @@ public class ChamberOfDelusionTower extends Quest
 		return "";
 	}
 
-	public String onAttack (L2Npc npc, L2PcInstance attacker)
-	{
-		InstanceWorld tmpworld = InstanceManager.getInstance().getWorld(npc.getInstanceId());
-		if (tmpworld instanceof CDWorld)
-		{
-			CDWorld world = (CDWorld) tmpworld;
-			if (npc.getNpcId() == FAIL1 || npc.getNpcId() == FAIL2 || npc.getNpcId() == FAIL3)
-			{
-				world.chesta.deleteMe();
-				world.chestb.deleteMe();
-				world.chestc.deleteMe();
-				world.chestd.deleteMe();
-			}
-			else if (npc.getNpcId() == PRIZ)
-			{
-				world.chestb.deleteMe();
-				world.chestc.deleteMe();
-				world.chestd.deleteMe();
-			}
-		}
-		return null;
-	}
-
-	public String onKill( L2Npc npc, L2PcInstance player)
-	{
-		int npcId = npc.getNpcId();
-		if ( npcId == AENKINEL)
-		{
-			InstanceWorld tmpworld = InstanceManager.getInstance().getWorld(npc.getInstanceId());
-			if (tmpworld instanceof CDWorld)
-			{
-				CDWorld world = (CDWorld) tmpworld;
-
-				world.chesta = addSpawn(PRIZ, -121524,-155073,-6752,0, false, 0, false, world.instanceId);
-				world.chesta.setIsNoRndWalk(true);
-				world.chestb = addSpawn(FAIL1, -121486,-155070,-6752,0, false, 0, false, world.instanceId);
-				world.chestb.setIsNoRndWalk(true);
-				world.chestc = addSpawn(FAIL2, -121457,-155071,-6752,0, false, 0, false, world.instanceId);
-				world.chestc.setIsNoRndWalk(true);
-				world.chestd = addSpawn(FAIL3, -121428,-155070,-6752,0, false, 0, false, world.instanceId);
-				world.chestd.setIsNoRndWalk(true);
-				_log.info("spawn");
-
-			}
-		}
-		return "";
-	}
 
 	public final String onFirstTalk (L2Npc npc, L2PcInstance player)
 	{
@@ -585,11 +534,6 @@ public class ChamberOfDelusionTower extends Quest
 		addStartNpc(GKFINISH);
 		addFirstTalkId(GKFINISH);
 		addTalkId(GKFINISH);
-		addKillId(AENKINEL);
-		addAttackId(PRIZ);
-		addAttackId(FAIL1);
-		addAttackId(FAIL2);
-		addAttackId(FAIL3);
 	}
 
 	public static void main(String[] args)

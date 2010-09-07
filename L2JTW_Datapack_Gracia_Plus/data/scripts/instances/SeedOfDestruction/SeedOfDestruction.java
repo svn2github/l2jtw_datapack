@@ -1037,9 +1037,9 @@ public class SeedOfDestruction extends Quest
 				for (L2PcInstance plr : world.PlayersInInstance)
 				{
 					if (plr == null || checkworld(plr) != 1) continue;
-						plr.teleToLocation(-250402, 210408, -11957);
-					if (plr.getPet() != null)
-						plr.getPet().teleToLocation(-250402, 210408, -11957);
+						//plr.teleToLocation(-250402, 210408, -11957);
+					//if (plr.getPet() != null)
+						//plr.getPet().teleToLocation(-250402, 210408, -11957);
 						SetMovieMode(plr,false);
 						Delete(world._portalForCamera);
 				}
@@ -1239,12 +1239,12 @@ public class SeedOfDestruction extends Quest
 					for (L2PcInstance player : world.PlayersInInstance)
 					{
 						if (player == null || checkworld(player) != 1) continue;
-							player.teleToLocation(-250399, 210544, -11961);
-						if (player.getPet() != null)
-							player.getPet().teleToLocation(-250399, 210544, -11961);
-						SetMovieMode(player,true);
-						player.showQuestMovie(5);
-						world.ZoneWaitForTP = false;
+							//player.teleToLocation(-250399, 210544, -11961);
+						//if (player.getPet() != null)
+							//player.getPet().teleToLocation(-250399, 210544, -11961);
+							SetMovieMode(player,true);
+							player.showQuestMovie(5);
+							world.ZoneWaitForTP = false;
 					}
 				}
 			}
