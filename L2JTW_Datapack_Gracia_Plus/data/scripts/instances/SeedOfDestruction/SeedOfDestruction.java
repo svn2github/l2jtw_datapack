@@ -78,7 +78,6 @@ public class SeedOfDestruction extends Quest
 	//private static final int EMPTY_DESTROY_TIME = 5;
 	private static final int EXIT_TIME = 5;
 	private int _numAtk = 0;
-	// Items
 
 	// NPCs,mobs
 	private static final int ALENOS                 = 32526;
@@ -132,7 +131,7 @@ public class SeedOfDestruction extends Quest
 		{ 32601, -238310, 219984, -10104, 0}
 	};
 	private static final int[][] SQUARE_SPAWNS_STATIC = {
-		{ 18776, -245817, 217075, -12208, 0 },
+		{ 18776, -245817, 217075, -12208, 0 }, { 32528, -246367, 216720, -12231, 0 },
 		{ 32601, -245820, 220921, -12091, 0 }
 	};
 	private static final int[][] FORT_PORTALS = {
