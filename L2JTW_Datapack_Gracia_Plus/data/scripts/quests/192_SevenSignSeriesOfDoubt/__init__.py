@@ -111,7 +111,7 @@ class Quest (JQuest) :
 				elif cond in [5,6,7] :
 					htmltext = "30200-05.htm"
 			elif npcId == CORPSE :
-				if cond in [0,1,2,3,4,5] :
+				if cond in [0,1,2,3,4] :
 					htmltext = "32568-03.htm"
 				elif cond == 5 :
 					htmltext = "32568-01.htm"
