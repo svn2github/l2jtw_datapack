@@ -132,21 +132,23 @@ public class AdminFortSiege implements IAdminCommandHandler
 		int i = 0;
 		NpcHtmlMessage adminReply = new NpcHtmlMessage(5);
 		adminReply.setFile(activeChar.getHtmlPrefix(), "data/html/admin/forts.htm");
-                
-                final List<Fort> forts = FortManager.getInstance().getForts();
-                final StringBuilder cList = new StringBuilder(forts.size() * 100);
 
-                for (Fort fort : forts) {
-			if (fort != null) {
-                            StringUtil.append(cList,
-                                    "<td fixwidth=90><a action=\"bypass -h admin_fortsiege ",
-                                    String.valueOf(fort.getFortId()),
-                                    "\">",
-                                    fort.getName(),
-                                    " ID: ",
-                                    String.valueOf(fort.getFortId()),
-                                    "</a></td>");
-				i++;
+		final List<Fort> forts = FortManager.getInstance().getForts();
+		final StringBuilder cList = new StringBuilder(forts.size() * 100);
+
+		for (Fort fort : forts)
+		{
+			if (fort != null)
+			{
+				StringUtil.append(cList,
+					"<td fixwidth=90><a action=\"bypass -h admin_fortsiege ",
+					String.valueOf(fort.getFortId()),
+					"\">",
+					fort.getCName(),  //Update by pmq
+					" ID: ",
+					String.valueOf(fort.getFortId()),
+					"</a></td>");
+					i++;
 			}
 
 			if (i > 0) { //Update by rocknow
@@ -154,7 +156,7 @@ public class AdminFortSiege implements IAdminCommandHandler
 				i = 0;
 			}
 		}
-                
+
 		adminReply.replace("%forts%", cList.toString());
 		activeChar.sendPacket(adminReply);
 	}
@@ -163,7 +165,7 @@ public class AdminFortSiege implements IAdminCommandHandler
 	{
 		NpcHtmlMessage adminReply = new NpcHtmlMessage(5);
 		adminReply.setFile(activeChar.getHtmlPrefix(), "data/html/admin/fort.htm");
-		adminReply.replace("%fortName%", fort.getName());
+		adminReply.replace("%fortName%", fort.getCName()); //Update by pmq
 		adminReply.replace("%fortId%", String.valueOf(fort.getFortId()));
 		activeChar.sendPacket(adminReply);
 	}

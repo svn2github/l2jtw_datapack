@@ -622,27 +622,27 @@ UPDATE `fishing_skill_trees` SET `name` = '擴充道具' WHERE `skill_id` = 1372
 
 /***** castlename-tw *****/ 
 /***** fort.sql *****/
-UPDATE `fort` SET `name` = '野營要塞' WHERE `id` = 101;
-UPDATE `fort` SET `name` = '古魯丁南部要塞' WHERE `id` = 102;
-UPDATE `fort` SET `name` = '蜂窩要塞' WHERE `id` = 103;
-UPDATE `fort` SET `name` = '峽谷要塞' WHERE `id` = 104;
-UPDATE `fort` SET `name` = '象牙塔要塞' WHERE `id` = 105;
-UPDATE `fort` SET `name` = '湖泊要塞' WHERE `id` = 106;
-UPDATE `fort` SET `name` = '盆地要塞' WHERE `id` = 107;
-UPDATE `fort` SET `name` = '白沙灘要塞' WHERE `id` = 108;
-UPDATE `fort` SET `name` = '前哨基地要塞' WHERE `id` = 109;
-UPDATE `fort` SET `name` = '沼澤要塞' WHERE `id` = 110;
-UPDATE `fort` SET `name` = '遺蹟要塞' WHERE `id` = 111;
-UPDATE `fort` SET `name` = '芙羅蘭邊境要塞' WHERE `id` = 112;
-UPDATE `fort` SET `name` = '薄霧山脈邊境要塞' WHERE `id` = 113;
-UPDATE `fort` SET `name` = '塔諾邊境要塞' WHERE `id` = 114;
-UPDATE `fort` SET `name` = '巨龍士伯吟邊境要塞' WHERE `id` = 115;
-UPDATE `fort` SET `name` = '地龍的邊境要塞' WHERE `id` = 116;
-UPDATE `fort` SET `name` = '西部國境邊境要塞' WHERE `id` = 117;
-UPDATE `fort` SET `name` = '獵人的邊境要塞' WHERE `id` = 118;
-UPDATE `fort` SET `name` = '平原邊境要塞' WHERE `id` = 119;
-UPDATE `fort` SET `name` = '死靈的邊境要塞' WHERE `id` = 120;
-UPDATE `fort` SET `name` = '聖者邊境要塞' WHERE `id` = 121;
+-- UPDATE `fort` SET `name` = '野營要塞' WHERE `id` = 101;
+-- UPDATE `fort` SET `name` = '古魯丁南部要塞' WHERE `id` = 102;
+-- UPDATE `fort` SET `name` = '蜂窩要塞' WHERE `id` = 103;
+-- UPDATE `fort` SET `name` = '峽谷要塞' WHERE `id` = 104;
+-- UPDATE `fort` SET `name` = '象牙塔要塞' WHERE `id` = 105;
+-- UPDATE `fort` SET `name` = '湖泊要塞' WHERE `id` = 106;
+-- UPDATE `fort` SET `name` = '盆地要塞' WHERE `id` = 107;
+-- UPDATE `fort` SET `name` = '白沙灘要塞' WHERE `id` = 108;
+-- UPDATE `fort` SET `name` = '前哨基地要塞' WHERE `id` = 109;
+-- UPDATE `fort` SET `name` = '沼澤要塞' WHERE `id` = 110;
+-- UPDATE `fort` SET `name` = '遺蹟要塞' WHERE `id` = 111;
+-- UPDATE `fort` SET `name` = '芙羅蘭邊境要塞' WHERE `id` = 112;
+-- UPDATE `fort` SET `name` = '薄霧山脈邊境要塞' WHERE `id` = 113;
+-- UPDATE `fort` SET `name` = '塔諾邊境要塞' WHERE `id` = 114;
+-- UPDATE `fort` SET `name` = '巨龍士伯吟邊境要塞' WHERE `id` = 115;
+-- UPDATE `fort` SET `name` = '地龍的邊境要塞' WHERE `id` = 116;
+-- UPDATE `fort` SET `name` = '西部國境邊境要塞' WHERE `id` = 117;
+-- UPDATE `fort` SET `name` = '獵人的邊境要塞' WHERE `id` = 118;
+-- UPDATE `fort` SET `name` = '平原邊境要塞' WHERE `id` = 119;
+-- UPDATE `fort` SET `name` = '死靈的邊境要塞' WHERE `id` = 120;
+-- UPDATE `fort` SET `name` = '聖者邊境要塞' WHERE `id` = 121;
 
 /***** staticobject-tw *****/ 
 /***** fort_staticobjects.sql *****/
