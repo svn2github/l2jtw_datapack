@@ -916,8 +916,8 @@ INSERT INTO `messagetable` VALUES ('437', 'en', 'You may have broken our arrows,
 INSERT INTO `messagetable` VALUES ('437', 'tw', 'You may have broken our arrows, but you will never break our will! Archers retreat!', '', 'FortSiege.java');
 INSERT INTO `messagetable` VALUES ('437', 'cn', 'You may have broken our arrows, but you will never break our will! Archers retreat!', '', 'FortSiege.java');
 INSERT INTO `messagetable` VALUES ('438', 'en', 'Aieeee! Command Center! This is guard unit! We need backup right away!', '', 'FortSiege.java');
-INSERT INTO `messagetable` VALUES ('438', 'tw', 'Aieeee! Command Center! This is guard unit! We need backup right away!', '', 'FortSiege.java');
-INSERT INTO `messagetable` VALUES ('438', 'cn', 'Aieeee! Command Center! This is guard unit! We need backup right away!', '', 'FortSiege.java');
+INSERT INTO `messagetable` VALUES ('438', 'tw', '啊...本部...這裡是守備隊... 請速派兵支援... 啊！', '', 'FortSiege.java');
+INSERT INTO `messagetable` VALUES ('438', 'cn', '啊...本部...这里是守备队... 请速派兵支援... 啊！', '', 'FortSiege.java');
 INSERT INTO `messagetable` VALUES ('439', 'en', 'At last! The Magic Field that protects the fortress has weakened! Volunteers, stand back!', '', 'FortSiege.java');
 INSERT INTO `messagetable` VALUES ('439', 'tw', 'At last! The Magic Field that protects the fortress has weakened! Volunteers, stand back!', '', 'FortSiege.java');
 INSERT INTO `messagetable` VALUES ('439', 'cn', 'At last! The Magic Field that protects the fortress has weakened! Volunteers, stand back!', '', 'FortSiege.java');
@@ -1362,14 +1362,14 @@ INSERT INTO `messagetable` VALUES ('647', 'en', 'Attacking the enemy\'s reinforc
 INSERT INTO `messagetable` VALUES ('647', 'tw', 'Attacking the enemy\'s reinforcements is necesary. Time to Die!', '', 'L2FortCommanderInstance.java');
 INSERT INTO `messagetable` VALUES ('647', 'cn', 'Attacking the enemy\'s reinforcements is necesary. Time to Die!', '', 'L2FortCommanderInstance.java');
 INSERT INTO `messagetable` VALUES ('648', 'en', 'Everyone, concentrate your attacks on ', '', 'L2FortCommanderInstance.java');
-INSERT INTO `messagetable` VALUES ('648', 'tw', 'Everyone, concentrate your attacks on ', '', 'L2FortCommanderInstance.java');
-INSERT INTO `messagetable` VALUES ('648', 'cn', 'Everyone, concentrate your attacks on ', '', 'L2FortCommanderInstance.java');
+INSERT INTO `messagetable` VALUES ('648', 'tw', '全隊員集中攻擊「', '', 'L2FortCommanderInstance.java');
+INSERT INTO `messagetable` VALUES ('648', 'cn', '全队员集中攻击「', '', 'L2FortCommanderInstance.java');
 INSERT INTO `messagetable` VALUES ('649', 'en', '! Show the enemy your resolve!', '', 'L2FortCommanderInstance.java');
-INSERT INTO `messagetable` VALUES ('649', 'tw', '! Show the enemy your resolve!', '', 'L2FortCommanderInstance.java');
-INSERT INTO `messagetable` VALUES ('649', 'cn', '! Show the enemy your resolve!', '', 'L2FortCommanderInstance.java');
+INSERT INTO `messagetable` VALUES ('649', 'tw', '」！讓敵人嚐嚐你們鍛鍊的成果吧！', '', 'L2FortCommanderInstance.java');
+INSERT INTO `messagetable` VALUES ('649', 'cn', '」！让敌人尝尝你们锻炼的成果吧！', '', 'L2FortCommanderInstance.java');
 INSERT INTO `messagetable` VALUES ('650', 'en', 'Spirit of Fire, unleash your power! Burn the enemy!!', '', 'L2FortCommanderInstance.java');
-INSERT INTO `messagetable` VALUES ('650', 'tw', 'Spirit of Fire, unleash your power! Burn the enemy!!', '', 'L2FortCommanderInstance.java');
-INSERT INTO `messagetable` VALUES ('650', 'cn', 'Spirit of Fire, unleash your power! Burn the enemy!!', '', 'L2FortCommanderInstance.java');
+INSERT INTO `messagetable` VALUES ('650', 'tw', '火之精靈啊~ 請展現究極之力！燒盡敵人吧。', '', 'L2FortCommanderInstance.java');
+INSERT INTO `messagetable` VALUES ('650', 'cn', '火之精灵啊〜请展现究极之力！烧尽敌人吧。', '', 'L2FortCommanderInstance.java');
 
 INSERT INTO `messagetable` VALUES ('653', 'en', 'Contact is currently not possible, ', '', 'L2FortEnvoyInstance.java');
 INSERT INTO `messagetable` VALUES ('653', 'tw', '無法接受要求，', '', 'L2FortEnvoyInstance.java');
