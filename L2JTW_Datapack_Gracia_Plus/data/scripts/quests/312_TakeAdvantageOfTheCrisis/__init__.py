@@ -87,7 +87,7 @@ class Quest (JQuest) :
 				if st.getQuestItemsCount(MINERAL_FRAGMENT) >= 1 :
 					htmltext = "30535-10.htm"
 				else :
-					htmltext = "30535-07.htm"				
+					htmltext = "30535-07.htm"
 		return htmltext
 
 	def onKill(self,npc,player,isPet) :

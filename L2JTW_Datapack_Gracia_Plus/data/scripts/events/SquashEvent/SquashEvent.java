@@ -520,6 +520,7 @@ public class SquashEvent extends Quest
 					npc.doCast(SkillTable.getInstance().getInfo(4513, 1));
 					randomSpawn(13017, mob);
 					break;
+				case 12776:
 				case 12779:
 					autoChat(mob, "都長大了！那就來走人囉~");
 					break;

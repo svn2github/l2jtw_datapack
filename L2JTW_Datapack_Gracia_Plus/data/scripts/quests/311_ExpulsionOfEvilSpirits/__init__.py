@@ -8,8 +8,6 @@ from com.l2jserver.gameserver.model.quest.jython import QuestJython as JQuest
 
 qn = "311_ExpulsionOfEvilSpirits"
 
-CHAIREN	= 32655
-
 # NPCS
 CHAIREN           = 32655  # »ô³s
 

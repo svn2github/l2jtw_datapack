@@ -45,10 +45,11 @@ public class SanctumOftheLordsOfDawn extends Quest
 	private static final int WPRIEST     = 27350;  // 黎明的神諭處 警衛隊員
 	private static final int WGUARD      = 27351;  // 黎明的警衛隊員
 	private              int doorst      = 0;
+	private              int _numAtk     = 0;
 	private static final int ONE         = 17240001;
 	private static final int TWO         = 17240003;
 	private static final int THREE       = 17240005;
-	
+
 	private static final L2CharPosition MOVE_TO_1 = new L2CharPosition(-76394, 207956, -7602,0);
 	private static final L2CharPosition MOVE_TO_2 = new L2CharPosition(-76420, 208409, -7602,0);
 	private static final L2CharPosition MOVE_TO_3 = new L2CharPosition(-76398, 208748, -7601,0);
@@ -93,6 +94,7 @@ public class SanctumOftheLordsOfDawn extends Quest
 	}
 	protected void exitInstance(L2PcInstance player, teleCoord tele)
 	{
+		player.getAI().setIntention(CtrlIntention.AI_INTENTION_IDLE);
 		player.setInstanceId(0);
 		player.teleToLocation(tele.x, tele.y, tele.z);
 	}
@@ -306,10 +308,11 @@ public class SanctumOftheLordsOfDawn extends Quest
 			else if (player.getTransformation().getId() != 6204)
 			{
 				teleCoord tele = new teleCoord();
-				tele.x = -75988;
-				tele.y = 213414;
-				tele.z = -7119;
+				tele.x = -76156;
+				tele.y = 213409;
+				tele.z = -7120;
 				enterInstance(player, "SanctumoftheLordsofDawn.xml", tele);
+				return "<html><body>傳送師 黎明之光：<br>好像從發著藍色光芒的球體中，聽到人的聲音。<br>「...您 是 得 到 黎 明 允 許 的 人。即 將 會 移 動 到 內 部...」</body></html>";
 			}
 		}
 		else if (npcId == DEVICE)
@@ -318,12 +321,18 @@ public class SanctumOftheLordsOfDawn extends Quest
 			if (tmpworld instanceof HSWorld)
 			{
 				HSWorld world = (HSWorld) tmpworld;
-				if(doorst == 0)
+				if(doorst == 0 && _numAtk == 0)
 				{
 					openDoor(ONE,world.instanceId);
 					doorst++;
+					_numAtk++;
+					return "<html><body>身份確認裝置：<br>您 的 身 分 已 確 認 完 畢，<br>門 即 將 開 啟。</body></html>";
+					/** ExShowScreenMessage message1 = new ExShowScreenMessage(1,0,5,0,1,0,0,false,10000,1,"使用警衛隊員的隱身技能後，潛入黎明的文件儲藏室內！");
+					sendScreenMessage(world, message1);
+					return "使用警衛隊員的隱身技能後，潛入黎明的文件儲藏室內！男性警衛隊員可以察覺隱身，而女性警衛隊員無法察覺隱身。";
+					return "女性警衛隊員比男性警衛隊員可以在更遠的地方就能察覺到變身術，所以要非常小心。"; */ // 備註：以上訊息都是 (黃色字體)
 				}
-				else if (doorst == 1)
+				else if (doorst == 1 && _numAtk >= 1)
 				{
 					openDoor(TWO,world.instanceId);
 					doorst++;
@@ -334,6 +343,7 @@ public class SanctumOftheLordsOfDawn extends Quest
 							pl.showQuestMovie(11);
 							SetMovieMode(player,true);
 							startQuestTimer("Part4",30000,null,player);
+							_numAtk = 0;
 					}
 					startQuestTimer("Part3",30000,world.npc1f,null);
 				}
@@ -359,6 +369,7 @@ public class SanctumOftheLordsOfDawn extends Quest
 			tele.y = 122305;
 			tele.z = -2989;
 			exitInstance(player,tele);
+			return "<html><body>傳送師 黎明之光：<br>好像從發著藍色光芒的球體中，聽到人的聲音。<br>「...您 是 得 到 黎 明 允 許 的 人。即 將 會 移 動 到 外 部...」</body></html>";
 		}
 
 		return "";

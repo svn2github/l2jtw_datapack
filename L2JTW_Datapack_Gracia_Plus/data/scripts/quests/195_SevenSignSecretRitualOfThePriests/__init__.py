@@ -24,6 +24,7 @@ Black                    = 32579
 # ITEMS
 EmperorShunaimanContract = 13823
 IdentityCard             = 13822
+ScrollofEscape           = 7128
 # Transformation's skills
 GuardofDawn              = 6204
 
@@ -94,25 +95,27 @@ class Quest (JQuest):
 				if cond == 2: htmltext = "30289-01.htm"
 				elif cond == 3: htmltext = "30289-06.htm"
 				elif cond == 4:
-					htmltext = "30289-08.htm" 
-					player.stopAllEffects()
-					st.giveItems(7128,1)
-					st.playSound("ItemSound.quest_middle")
+					if st.getQuestItemsCount(EmperorShunaimanContract) == 1 and st.getQuestItemsCount(ScrollofEscape) == 0 :
+						htmltext = "30289-08.htm"
+						player.stopAllEffects()
+						st.giveItems(ScrollofEscape,1)
+						st.playSound("ItemSound.quest_middle")
+					else : htmltext = "30289-08.htm"
 			elif npcId == LightOfDawn:
 				if cond == 3 and st.getQuestItemsCount(IdentityCard) == 1: htmltext = "32575-03.htm"
 				else : htmltext = "32575-01.htm"
 			elif npcId == Device:
 				if player.getFirstEffect(GuardofDawn) != None: htmltext = "32578-03.htm"
 				elif player.getFirstEffect(GuardofDawn) == None: htmltext = "32578-02.htm"
-			elif npcId == PasswordEntryDevice: 
+			elif npcId == PasswordEntryDevice:
 				if player.getFirstEffect(GuardofDawn) != None: htmltext = "32577-01.htm"
-				elif player.getFirstEffect(GuardofDawn) == None: htmltext = "32577-03.htm"   
+				elif player.getFirstEffect(GuardofDawn) == None: htmltext = "32577-03.htm"
 			elif npcId == Shkaf and st.getQuestItemsCount(EmperorShunaimanContract) == 0:
 				htmltext = "32580-01.htm" 
 				st.giveItems(EmperorShunaimanContract,1)
 				st.set("cond","4")
 			elif npcId == Black and st.getQuestItemsCount(EmperorShunaimanContract) == 1: htmltext = "32579-01.htm"
-			elif npcId == IasonHeine and st.getQuestItemsCount(EmperorShunaimanContract) == 1: 
+			elif npcId == IasonHeine and st.getQuestItemsCount(EmperorShunaimanContract) == 1:
 				htmltext = "30969-01.htm" 
 		return htmltext
 
