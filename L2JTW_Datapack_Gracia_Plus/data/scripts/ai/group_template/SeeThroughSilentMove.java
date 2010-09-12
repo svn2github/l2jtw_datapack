@@ -20,6 +20,9 @@ import com.l2jserver.gameserver.model.actor.L2Attackable;
 import com.l2jserver.gameserver.model.actor.L2Npc;
 import com.l2jserver.gameserver.util.Util;
 
+/**
+ * ¦å¤§¤k¤ý/³ñ¼LÀs/¼ÉÀs/Å]ªk°}¨µÅÞ§L/­}§Jº¸/¥Ë¨½¹F´µ/°ò®y/¤Ç¾¤©i/´¶°Ç¼¯
+ */
 public class SeeThroughSilentMove extends L2AttackableAIScript
 {
 	private static final int[] MOBIDS = {18001,18002,22199,22215,22216,22217,22327,29009,29010,29011,29012,29013};

@@ -34,6 +34,7 @@ import com.l2jserver.util.Rnd;
 import javolution.util.FastMap;
 
 /**
+ * ³¥Ã~©ñªª³õ©Çª«
  * Growth-capable mobs: Polymorphing upon successful feeding.
  * @author Fulminus
  */

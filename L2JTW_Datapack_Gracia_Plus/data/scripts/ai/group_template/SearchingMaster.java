@@ -20,6 +20,9 @@ import com.l2jserver.gameserver.model.actor.L2Character;
 import com.l2jserver.gameserver.model.actor.L2Npc;
 import com.l2jserver.gameserver.model.actor.instance.L2PcInstance;
 
+/**
+ * 妄想的破片/突變的創造物/過去的創造物/不存在者/巨人的影子/古代士兵/古代戰士/古代咒術士/被遺忘的古代人
+ */
 public class SearchingMaster extends L2AttackableAIScript
 {
 	private static final int[] mobs =

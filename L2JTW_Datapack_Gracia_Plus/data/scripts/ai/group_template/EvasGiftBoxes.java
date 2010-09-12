@@ -20,6 +20,9 @@ import com.l2jserver.gameserver.model.quest.Quest;
 import com.l2jserver.gameserver.model.quest.QuestState;
 import com.l2jserver.util.Rnd;
 
+/**
+ * ´cÅQªºÂ§ª«½c¤l
+ */
 public class EvasGiftBoxes extends Quest
 {
 	final private static int GIFTBOX = 32342;

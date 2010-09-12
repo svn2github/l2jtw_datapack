@@ -29,7 +29,9 @@ import com.l2jserver.util.Rnd;
 
 import javolution.util.FastMap;
 
-
+/**
+ * ºÊº»ªºÄµ½Ã§L
+ */
 public class PrisonGuards extends L2AttackableAIScript
 {
 	final private static int GUARD1 = 18367;

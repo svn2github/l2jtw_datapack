@@ -19,10 +19,13 @@ import com.l2jserver.gameserver.model.L2Skill;
 import com.l2jserver.gameserver.model.actor.L2Npc;
 import com.l2jserver.gameserver.model.actor.instance.L2PcInstance;
 
+/**
+ * ¤õÃÄ±í
+ */
 public class PowderKeg extends L2AttackableAIScript
 {
 	private static final int[] NPC_IDS = { 18622 };
-	
+
 	public PowderKeg(int questId, String name, String descr)
 	{
 		super(questId, name, descr);
@@ -33,7 +36,7 @@ public class PowderKeg extends L2AttackableAIScript
 	public String onKill(L2Npc npc, L2PcInstance killer, boolean isPet)
 	{
 		int npcId = npc.getNpcId();
-		
+
 		if (contains(NPC_IDS, npcId))
 		{
 			L2Skill _boom = SkillTable.getInstance().getInfo(5714, 1);

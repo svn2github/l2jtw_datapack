@@ -22,6 +22,9 @@ import com.l2jserver.gameserver.network.SystemMessageId;
 import com.l2jserver.gameserver.network.serverpackets.SystemMessage;
 import com.l2jserver.util.Rnd;
 
+/**
+ * ¬P¥Û
+ */
 public class StarStones extends L2AttackableAIScript
 {
 	private static final int[] mobs = {18684, 18685, 18686, 18687, 18688, 18689, 18690, 18691, 18692};
