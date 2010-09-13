@@ -33,8 +33,8 @@ DROPLIST = {
 class Quest (JQuest) :
 
  def __init__(self,id,name,descr):
- 	JQuest.__init__(self,id,name,descr)
- 	self.questItemIds = range(8283,8286)
+    JQuest.__init__(self,id,name,descr)
+    self.questItemIds = range(8283,8286)
 
  def onEvent (self,event,st) :
     htmltext = event
