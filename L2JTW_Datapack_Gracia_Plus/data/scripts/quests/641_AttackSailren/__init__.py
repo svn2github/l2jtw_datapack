@@ -52,6 +52,7 @@ class Quest (JQuest):
        if player.getLevel() >= 77 :
          htmltext = "32109-01.htm"
        else :
+         htmltext = "<html><body>席琳聖像：<br>放肆！連觸摸神聖的席琳聖像都不夠資格的人，竟敢搖晃席琳的思念並把它叫醒來！毫無意義的觸摸神像就如同是對神的侮辱。<br>愚蠢的人啊：這次饒恕你一次，趕快離開這裡吧！(只有完成「凶神之名為第二部」的角色才能執行的任務。)</body></html>"
          st.exitQuest(1)
          return
      elif cond == 1 :

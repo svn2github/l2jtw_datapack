@@ -19,95 +19,99 @@ DINOSAUR_EGG = 8775
 DINOSAURS = [22196,22197,22198,22199,22200,22201,22202,22203,22204,22205,22218,22219,22220,22223,22224,22225,18344]
 REWARDS = [8690,8692,8694,8696,8698,8700,8702,8704,8706,8708,8710]
 
-
 class Quest (JQuest) :
 
- def __init__(self,id,name,descr):
- 	JQuest.__init__(self,id,name,descr)
- 	self.questItemIds = [DINOSAUR_TISSUE, DINOSAUR_EGG]
+	def __init__(self,id,name,descr):
+		JQuest.__init__(self,id,name,descr)
+		self.questItemIds = [DINOSAUR_TISSUE, DINOSAUR_EGG]
 
- def onAdvEvent (self,event,npc, player) :
-    htmltext = event
-    st = player.getQuestState(qn)
-    if not st : return
-    count_tissue = st.getQuestItemsCount(DINOSAUR_TISSUE)
-    count_egg = st.getQuestItemsCount(DINOSAUR_EGG)
-    if event == "None":
-        return
-    elif event == "32105-04.htm" :
-       st.set("cond","1")
-       st.setState(State.STARTED)
-       st.playSound("ItemSound.quest_accept")
-    elif event == "32105-06a.htm" :   # pmq 修改
-       st.takeItems(DINOSAUR_TISSUE,-1)
-       st.giveItems(57,count_tissue*5000)
-    elif event == "32105-07.htm" :
-       if count_tissue < 150 or count_egg == 0 :
-          htmltext = "32105-07a.htm"  # pmq 修改
-       elif ALT_RP_100 != 0 :
-          htmltext = st.showHtmlFile("32105-07.htm").replace("60%","100%")
-    elif event.isdigit() and int(event) in REWARDS :
-       if count_tissue >= 150 and count_egg >= 1 :
-          htmltext = "32105-08.htm"
-          st.takeItems(DINOSAUR_TISSUE,150)
-          st.takeItems(DINOSAUR_EGG,1)
-          st.giveItems(57,44000)
-          if ALT_RP_100 != 0 :
-             st.giveItems(int(event)+1,1)
-          else :
-             st.giveItems(int(event),1)
-       else :
-          htmltext = "32105-07a.htm"  # pmq 修改
-    return htmltext
+	def onAdvEvent (self,event,npc,player) :
+		htmltext = event
+		st = player.getQuestState(qn)
+		if not st : return
 
- def onTalk (self, npc, player):
-    st = player.getQuestState(qn)
-    htmltext = "<html><body>目前沒有執行任務，或條件不符。</body></html>"
-    if st :
-       cond = st.getInt("cond")
-       count = st.getQuestItemsCount(DINOSAUR_TISSUE)
-       if cond == 0 :
-          if player.getLevel() >= 75 :
-             htmltext = "32105-01.htm"
-          else :
-             htmltext = "32105-00.htm"
-             st.exitQuest(1)
-       elif st.getState() == State.STARTED :
-          if count == 0 :
-             htmltext = "32105-05.htm"
-          else :
-             htmltext = "32105-06.htm"
-    return htmltext
+		count_tissue = st.getQuestItemsCount(DINOSAUR_TISSUE)
+		count_egg = st.getQuestItemsCount(DINOSAUR_EGG)
+		if event == "32105-04.htm" :
+			st.set("cond","1")
+			st.setState(State.STARTED)
+			st.playSound("ItemSound.quest_accept")
+		elif event == "32105-06a.htm" :   # pmq 修改
+			st.takeItems(DINOSAUR_TISSUE,-1)
+			st.giveItems(57,count_tissue*5000)
+		elif event == "32105-07.htm" :
+			if count_tissue < 150 or count_egg == 0 :
+				htmltext = "32105-07a.htm"  # pmq 修改
+			elif ALT_RP_100 != 0 :
+				htmltext = st.showHtmlFile("32105-07.htm").replace("60%","100%")
+		elif event.isdigit() and int(event) in REWARDS :
+			if count_tissue >= 150 and count_egg >= 1 :
+				htmltext = "32105-08.htm"
+				st.takeItems(DINOSAUR_TISSUE,150)
+				st.takeItems(DINOSAUR_EGG,1)
+				st.giveItems(57,44000)
+				if ALT_RP_100 != 0 :
+					st.giveItems(int(event)+1,1)
+				else :
+					st.giveItems(int(event),1)
+			else :
+				htmltext = "32105-07a.htm"  # pmq 修改
+		return htmltext
 
- def onKill (self, npc, player,isPet):
-    partyMember = self.getRandomPartyMember(player,"1")
-    if not partyMember: return
-    st = partyMember.getQuestState(qn)
-    if st :
-       if st.getState() == State.STARTED :
-          npcId = npc.getNpcId()
-          cond = st.getInt("cond")
-          count = st.getQuestItemsCount(DINOSAUR_TISSUE)
-          if cond == 1 :
-             if npcId == 18344 :
-                itemId = DINOSAUR_EGG
-                chance = EGG_DROP_CHANCE*Config.RATE_QUEST_DROP
-                numItems, chance = divmod(chance,100)
-             else :
-                itemId = DINOSAUR_TISSUE
-                chance = TISSUE_DROP_CHANCE*Config.RATE_QUEST_DROP
-                numItems, chance = divmod(chance,100)
-             if st.getRandom(100) < chance : 
-                numItems += 1
-             if numItems :
-                if int(count + numItems)/150 > int(count)/150 and itemId == DINOSAUR_TISSUE :
-                   st.playSound("ItemSound.quest_middle")
-                else :
-                   st.playSound("ItemSound.quest_itemget")
-                st.giveItems(itemId,int(numItems))
-    return
+	def onTalk (self,npc,player):
+		htmltext = "<html><body>目前沒有執行任務，或條件不符。</body></html>"
+		st = player.getQuestState(qn)
+		if not st: return htmltext
 
-QUEST = Quest(642,qn,"有關太古強力生物的研究")
+		npcId = npc.getNpcId()
+		id = st.getState()
+		cond = st.getInt("cond")
+
+		count = st.getQuestItemsCount(DINOSAUR_TISSUE)
+		if id == State.CREATED :
+			if npcId == 32105 and cond == 0 :
+				if player.getLevel() >= 75 :
+					htmltext = "32105-01.htm"
+				else :
+					htmltext = "32105-00.htm"
+					st.exitQuest(1)
+		elif id == State.STARTED :
+			if npcId == 32105 and cond == 1 :
+				if count == 0 :
+					htmltext = "32105-05.htm"
+				else :
+					htmltext = "32105-06.htm"
+		return htmltext
+
+	def onKill (self, npc, player,isPet):
+		partyMember = self.getRandomPartyMember(player,"1")
+		if not partyMember: return
+		st = partyMember.getQuestState(qn)
+		if st :
+			if st.getState() == State.STARTED :
+				npcId = npc.getNpcId()
+				cond = st.getInt("cond")
+				count = st.getQuestItemsCount(DINOSAUR_TISSUE)
+				if cond == 1 :
+					if npcId == 18344 :
+						itemId = DINOSAUR_EGG
+						chance = EGG_DROP_CHANCE*Config.RATE_QUEST_DROP
+						numItems, chance = divmod(chance,100)
+					else :
+						itemId = DINOSAUR_TISSUE
+						chance = TISSUE_DROP_CHANCE*Config.RATE_QUEST_DROP
+						numItems, chance = divmod(chance,100)
+					if st.getRandom(100) < chance : 
+						numItems += 1
+					if numItems :
+						if int(count + numItems)/150 > int(count)/150 and itemId == DINOSAUR_TISSUE :
+							st.playSound("ItemSound.quest_middle")
+						else :
+							st.playSound("ItemSound.quest_itemget")
+						st.giveItems(itemId,int(numItems))
+		return
+
+QUEST		= Quest(642,qn,"有關太古強力生物的研究")
 
 QUEST.addStartNpc(32105)
 
