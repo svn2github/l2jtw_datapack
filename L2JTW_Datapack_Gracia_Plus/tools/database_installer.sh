@@ -312,7 +312,7 @@ esac
 
 fullcbinstall(){
 echo "Deleting all communityserver tables for new content."
-$MYG < community_install.sql &> /dev/null
+$MYC < community_install.sql &> /dev/null  #Update by pmq
 }
 
 upgradecbinstall(){
@@ -575,7 +575,7 @@ while :
      echo "updates parser results. Last run: "`date` >cb_database_installer.log
      for file in $(ls ../cb_sql/updates/*sql);do
         echo $file|cut -d/ -f4 >> cb_database_installer.log
-        $MYG < $file 2>> cb_database_installer.log
+        $MYC < $file 2>> cb_database_installer.log  #Update by pmq
         if [ $? -eq 0 ];then
             echo "no errors">> cb_database_installer.log
         fi

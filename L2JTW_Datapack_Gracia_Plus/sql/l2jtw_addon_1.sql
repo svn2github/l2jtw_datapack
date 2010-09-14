@@ -1614,6 +1614,15 @@ UPDATE `npc` SET `type`='L2RaidBoss', `level`=85, `exp`=3233771, `sp`=403115, `h
 
 -- new npc for ¸¬Äª
 -- NPC
+REPLACE INTO `npc` VALUES (12774,12774,'Young Squash',0,'',0,'LineageNPC.drop_gourd_50_sm',10.00,10.50,70,'male','L2Npc',40,3862,1494,0.00,0.00,40,43,30,21,20,20,0,0,1303,471,607,382,253,0,333,0,0,0,0,88,132,0,0,'LAST_HIT','false');
+REPLACE INTO `npc` VALUES (12775,12775,'High Quality Squash',0,'',0,'LineageNPC.drop_gourd',23.00,25.00,70,'male','L2Npc',40,3862,1494,0.00,0.00,40,43,30,21,20,20,0,0,1303,471,607,382,253,0,333,0,0,0,0,88,132,0,0,'LAST_HIT','false');
+REPLACE INTO `npc` VALUES (12776,12776,'Low Quality Squash',0,'',0,'LineageNPC.drop_gourd_25_sm',15.00,16.00,70,'male','L2Npc',40,3862,1494,0.00,0.00,40,43,30,21,20,20,0,0,1303,471,607,382,253,0,333,0,0,0,0,88,132,0,0,'LAST_HIT','false');
+REPLACE INTO `npc` VALUES (12777,12777,'Large Young Squash',0,'',0,'LineageNPC.drop_gourd',23.00,25.00,70,'male','L2Npc',40,3862,1494,0.00,0.00,40,43,30,21,20,20,0,0,1303,471,607,382,253,0,333,0,0,0,0,88,132,0,0,'LAST_HIT','false');
+REPLACE INTO `npc` VALUES (12778,12778,'High Quality Large Squash',0,'',0,'LineageNPC.drop_gourd_50_bi',34.00,40.00,70,'male','L2Npc',40,3862,1494,0.00,0.00,40,43,30,21,20,20,0,0,1303,471,607,382,253,0,333,0,0,0,0,88,132,0,0,'LAST_HIT','false');
+REPLACE INTO `npc` VALUES (12779,12779,'Low Quality Large Squash',0,'',0,'LineageNPC.drop_gourd_25_bi',28.00,31.00,70,'male','L2Npc',40,3862,1494,0.00,0.00,40,43,30,21,20,20,0,0,1303,471,607,382,253,0,333,0,0,0,0,88,132,0,0,'LAST_HIT','false');
+REPLACE INTO `npc` VALUES (13016,13016,'King Squash',0,'',0,'LineageNPC.drop_gourd',23.00,25.00,70,'male','L2Npc',40,3862,1494,0.00,0.00,40,43,30,21,20,20,0,0,1303,471,607,382,253,0,333,0,0,0,0,88,132,0,0,'LAST_HIT','false');
+REPLACE INTO `npc` VALUES (13017,13017,'Emperor Squash',0,'',0,'LineageNPC.drop_gourd_50_bi',34.00,40.00,70,'male','L2Npc',40,3862,1494,0.00,0.00,40,43,30,21,20,20,0,0,1303,471,607,382,253,0,333,0,0,0,0,88,132,0,0,'LAST_HIT','false');
+
 DELETE FROM npcskills             WHERE  npcid IN (12774,12775,12776,12777,12778,12779,13016,13017);
 -- DELETE FROM npcAIData             WHERE npc_id IN (12774,12775,12776,12777,12778,12779,13016,13017);
 UPDATE npc SET type='L2ChronoMonster' WHERE id IN (12774,12775,12776,12777,12778,12779,13016,13017);

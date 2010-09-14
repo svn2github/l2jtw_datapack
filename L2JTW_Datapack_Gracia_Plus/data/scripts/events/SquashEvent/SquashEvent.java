@@ -604,8 +604,7 @@ public class SquashEvent extends Quest
 					int itemId = drop[i + 0];
 					int itemQty = drop[i + 1];
 					if (itemQty > 1) itemQty = Rnd.get(1, itemQty);
-					mob.dropItem(player, itemId, itemQty);
-					//mob.dropItem(mob.getOwner(), itemId, itemQty);
+					mob.dropItem(mob.getOwner(), itemId, itemQty);
 					continue;
 				}
 			}
