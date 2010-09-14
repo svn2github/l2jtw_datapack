@@ -121,17 +121,19 @@ class Quest (JQuest) :
 			elif npcId == SHUNAIMAN :
 				if cond == 3 :
 					htmltext = "32586-01.htm"
-				elif cond == 4 and st.getQuestItemsCount(SEAL)==0 :
-					htmltext = "32586-07.htm"
-				elif cond == 4 and st.getQuestItemsCount(SEAL)==4 :
-					htmltext = "32586-08.htm"
+				elif cond == 4 :
+					if st.getQuestItemsCount(SEAL) == 4 :
+						htmltext = "32586-08.htm"
+					else :
+						htmltext = "32586-07.htm"
 				elif cond == 5 :
 					htmltext = "32586-12.htm"
 			elif npcId == MAGICAN :
-				if cond == 4 and st.getQuestItemsCount(STAFF)==0 :
-					htmltext = "32598-01.htm"
-				elif cond == 4 and st.getQuestItemsCount(STAFF)==1 :
-					htmltext = "32598-03.htm"
+				if cond == 4 :
+					if st.getQuestItemsCount(STAFF) == 1 :
+						htmltext = "32598-03.htm"
+					else :
+						htmltext = "32598-01.htm"
 			elif npcId == WOOD :
 				if cond == 6 :
 					htmltext = "32593-01.htm"

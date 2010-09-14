@@ -1663,4 +1663,23 @@ UPDATE npc SET level=1,hp=3000,mp=0,hpreg=0,mpreg=0,str=10,con=10,dex=10,`int`=1
 UPDATE weapon SET skill='0-0;' WHERE item_id=5817; -- 克魯諾杖鐘 參章紀念樂器 (3599-1;)
 UPDATE weapon SET crystallizable='false' WHERE item_id=8350; -- 克魯諾瑪拉卡斯 伍章紀念樂器
 
+-- 任務196 武器技能
+REPLACE INTO `etcitem` VALUES (13808,'Elmoreden Holy Water','','false','none',0,'stackable','paper','none',-1,-1,0,0,'false','false','false','false','false','ItemSkills','2633-1;');
+REPLACE INTO `etcitem` VALUES (13809,'Court Magician\'s Magic Staff','','false','none',0,'stackable','paper','none',-1,-1,0,0,'false','false','false','false','false','ItemSkills','2634-1;');
+
+-- UPDATE etcitem SET handler='ItemSkills',skill='2633-1;' WHERE item_id=13808;  -- 艾爾摩亞丁的聖水
+-- UPDATE etcitem SET handler='ItemSkills',skill='2634-1;' WHERE item_id=13809;  -- 宮廷魔法師的魔法棒
+-- 任務196 Npc
+REPLACE INTO `npc` VALUES
+(27346,27346,'Shilen\'s Evil Thoughts',0,'',0,'LineageMonster5.leader_mind_of_silen',27.00,40.00,81,'male','L2Monster',40,7500,2000,0.00,0.00,40,43,30,21,20,10,0,0,1350,550,850,650,278,0,333,0,0,0,0,44,66,0,0,'LAST_HIT','false'),
+(27371,27371,'Lilim Butcher',0,'',0,'LineageMonster2.lilim_assassin_10_sm',11.00,36.00,81,'male','L2Monster',40,80000,349,5.53,1.53,40,43,30,21,20,10,0,0,500,500,500,500,282,1500,333,0,0,0,0,44,66,0,0,'LAST_HIT','false'),
+(27372,27372,'Lilim Magus',0,'',0,'LineageMonster2.lilim_wizard_10_sm',8.00,30.60,81,'male','L2Monster',40,80000,349,5.53,1.53,40,43,30,21,20,10,0,0,500,500,500,500,282,1500,333,0,0,0,0,44,66,0,0,'LAST_HIT','false'),
+(27373,27373,'Lilim Slave Knight',0,'',0,'LineageMonster2.lilim_knight_10_sm',11.00,45.00,81,'male','L2Monster',40,80000,349,5.53,1.53,40,43,30,21,20,10,0,0,500,500,500,500,282,1500,333,0,0,0,0,44,66,0,0,'LAST_HIT','false'),
+(27374,27374,'Shilen\'s Evil Thoughts',0,'',0,'LineageMonster5.leader_mind_of_silen',27.00,40.00,81,'male','L2Monster',40,80000,349,5.53,1.53,40,43,30,21,20,10,0,0,500,500,500,500,282,1500,333,0,0,0,0,44,66,0,0,'LAST_HIT','false'),
+(27375,27375,'Shilen\'s Evil Thoughts',0,'',0,'LineageMonster5.vicious_mind_of_silen',14.00,27.50,81,'male','L2Monster',40,80000,349,5.53,1.53,40,43,30,21,20,10,0,0,500,500,500,500,282,1500,333,0,0,0,0,44,66,0,0,'LAST_HIT','false'),
+(27376,27376,'Lilim Knight',0,'',0,'LineageMonster2.lilim_knight_10_sm',11.00,45.00,81,'male','L2Monster',40,80000,349,5.53,1.53,40,43,30,21,20,10,0,0,500,500,500,500,282,1500,333,0,0,0,0,44,66,0,0,'LAST_HIT','false'),
+(27377,27377,'Lilim Assassin',0,'',0,'LineageMonster2.lilim_assassin_10_bi',13.00,44.00,81,'male','L2Monster',40,80000,349,5.53,1.53,40,43,30,21,20,10,0,0,500,500,500,500,282,1500,333,0,0,0,0,44,66,0,0,'LAST_HIT','false'),
+(27378,27378,'Lilim Great Magus',0,'',0,'LineageMonster2.lilim_wizard_10_bi',10.00,37.50,81,'male','L2Monster',40,80000,349,5.53,1.53,40,43,30,21,20,10,0,0,500,500,500,500,282,1500,333,0,0,0,0,44,66,0,0,'LAST_HIT','false'),
+(27379,27379,'Lilim Guard Knight',0,'',0,'LineageMonster2.lilim_knight_10_bi',13.00,55.00,81,'male','L2Monster',40,80000,349,5.53,1.53,40,43,30,21,20,10,0,0,500,500,500,500,282,1500,333,0,0,0,0,44,66,0,0,'LAST_HIT','false'),
+(27384,27384,'Seal Device',0,'Emperor Shunaiman\'s',0,'LineageNPCEV.ssq_sealing_emperor',12.00,8.00,81,'male','L2Monster',40,80000,349,5.53,1.53,40,43,30,21,20,10,0,0,500,500,500,500,282,0,333,0,0,0,0,0,0,0,0,'LAST_HIT','false');
 

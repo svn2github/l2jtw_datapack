@@ -558,7 +558,7 @@
 	<skill id="8357" levels="1" name="Einhasad's Strike">
 		<!-- Update by rocknow -->
 		<set name="mpConsume" val="100" />
-		<set name="power" val="2000" />
+		<set name="power" val="100000" /><!-- Update by pmq -->
 		<set name="target" val="TARGET_FRONT_AREA" />
 		<set name="hitTime" val="1300" />
 		<set name="reuseDelay" val="10000" />

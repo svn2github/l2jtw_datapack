@@ -22,7 +22,12 @@
 		<for />
 	</item>
 	<item id="15310" name="Sacred Sword of Einhasad">
-		<!-- Update by rocknow -->
+		<!-- Update by pmq -->
+		<cond msgId="1518">
+			<and>
+				<player instanceId="112" />
+			</and>
+		</cond>
 		<for>
 			<set val="7" order="0x08" stat="pAtk" />
 			<set val="5" order="0x08" stat="mAtk" />
