@@ -888,7 +888,7 @@ UPDATE `npc` SET `level`=81, `hp`=338766, `mp`=1708, `exp`=2629657, `sp`=267913 
 UPDATE `npc` SET `level`=81, `hp`=111546, `mp`=1846, `exp`=0, `sp`=0 where id='18466';                    -- 外廓警衛隊長
 UPDATE `npc` SET `level`=86, `hp`=194672, `mp`=1881, `exp`=944308, `sp`=93684 where id='22448';           -- 雷歐達斯 反抗軍指揮官
 UPDATE `npc` SET `level`=86, `hp`=4439, `mp`=1881, `exp`=16123, `sp`=1680 where id='22451';               -- 原住民精銳軍
-UPDATE `npc` SET `level`=81, `hp`=4439, `mp`=1881, `exp`=16123, `sp`=1680 where id='22341';               -- 凱達士
+UPDATE `npc` SET `level`=81, `hp`=197755, `mp`=1708, `exp`=449479, `sp`=47956 where id='22341';           -- 凱達士
 UPDATE `npc` SET `level`=81, `hp`=3461, `mp`=1708, `exp`=12425, `sp`=1325 where id='22342';               -- 達里昂的執行者
 UPDATE `npc` SET `level`=81, `hp`=3461, `mp`=1708, `exp`=9997, `sp`=1066 where id='22343';                -- 達里昂的處刑者
 
@@ -896,12 +896,18 @@ REPLACE INTO `minions` VALUES (22448, 22451, 2, 2); -- 雷歐達斯 反抗軍指揮官
 REPLACE INTO `minions` VALUES (22449, 22450, 8, 8); -- 亞邁士康里 拷問專家
 
 -- 刪除地獄NPC轉為AI出現
-DELETE FROM `spawnlist` WHERE `npc_templateid` IN (32297,32354,32345,18463,18464,32355,32364,22341,22448);
+DELETE FROM `spawnlist` WHERE `npc_templateid` IN (32297,32354,32345,18463,18464,32355,32364,22341,22448,32314);
 -- HBCE
 REPLACE INTO `etcitem` VALUES (13787,'Bond','','false','potion',180,'stackable','paper','none',-1,-1,0,0,'true','true','true','true','true','ItemSkills','5849-1;');
 REPLACE INTO `etcitem` VALUES (13788,'Land Mine','','false','potion',180,'stackable','paper','none',-1,-1,0,0,'true','true','true','true','true','ItemSkills','5851-1;');
 UPDATE `npc` SET `type`='L2Block' where id='18672';      -- 方塊
 UPDATE `npc` SET `type`='L2Block' where id='18676';      -- 方塊
+-- 殤之大地守門人
+INSERT INTO spawnlist VALUES
+('', '', 1, 18467, 21, 234997, -3272, 0, 0, 32767, 300, 0, 0),
+('', '', 1, 18467, 1, 234887, -3272, 0, 0, 32189, 300, 0, 0),
+('', '', 1, 18467, 0, 235109, -3272, 0, 0, 33989, 300, 0, 0);
+
 
 -- Seed OF Destruction
 REPLACE INTO `npc` VALUES 

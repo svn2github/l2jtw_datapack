@@ -14,6 +14,7 @@ from com.l2jserver.gameserver.network.serverpackets import CreatureSay
 from com.l2jserver.util                             import Rnd
 
 # NPCs
+Warpgate      = 32314
 Buron         = 32345                         # 裁縫師 布隆
 Kief          = 32354                         # 凱夫
 Solomon       = 32355                         # 索爾門
@@ -126,13 +127,49 @@ class Leveling_System (JQuest):
 				22450: {'points':-10},
 				25536: {'points':200}
 		}
+		self.Warpgateloc = []
+		self.Warpgate1loc = []
 		self.buronloc = []
 		self.kiefloc = []
 		self.keltasmin = []
 		self.keltasloc = []
 		self.Keltas = 0
+		con = L2DatabaseFactory.getInstance().getConnection()
+		trigger = con.prepareStatement("SELECT name FROM hellbound WHERE dummy=0")
+		trigger1 = trigger.executeQuery()
+		ZoneName = 100
+		while (trigger1.next()):
+			ZoneName = trigger1.getInt("name")
+		try:
+			con.close()
+		except:
+			pass
+		if ZoneName != 8000:
+			con = L2DatabaseFactory.getInstance().getConnection()
+			insertion = con.prepareStatement("INSERT INTO hellbound (name,trustLevel,zonesLevel,unlocked,dummy) VALUES (?,?,?,?,?)")
+			insertion.setInt(1, 8000)
+			insertion.setInt(2, 0)
+			insertion.setInt(3, 0)
+			insertion.setInt(4, 0)
+			insertion.setInt(5, 0)
+			insertion.executeUpdate()
+			insertion.close();
+			try:
+				con.close()
+			except:
+				pass
 		self.hellboundLevel = HellboundManager.getInstance().getLevel()
 		self.hellboundTrust = HellboundManager.getInstance().getTrust()
+		if self.hellboundLevel == 0:
+			self.Warpgateloc = []
+			self.Warpgate1loc = []
+			oldWarpgate = self.addSpawn(Warpgate, 112080, 219568, -3664, 0, False, 0)
+			oldWarpgate1 = self.addSpawn(Warpgate, -16899, 209827, -3640, 0, False, 0)
+			self.Warpgateloc.append(oldWarpgate)
+			self.Warpgate1loc.append(oldWarpgate1)
+		if self.hellboundLevel >= 1:
+			newWarpgate6 = self.addSpawn(32319, 112080, 219568, -3664, 0, False, 0)
+			newWarpgate6 = self.addSpawn(32319, -16899, 209827, -3640, 0, False, 0)
 		if self.hellboundLevel >= 2:
 			newFalk = self.addSpawn(32297, -19904, 250016, -3240, 12288, False, 0)
 		if self.hellboundLevel >= 3 and self.hellboundLevel < 5:
@@ -202,8 +239,12 @@ class Leveling_System (JQuest):
 				announce = "地獄邊界已經達到的等級： " + str(self.hellboundLevel)
 				Announcements.getInstance().announceToAll(announce)
 				if newLevel == 1:
-					newWarpgate = self.addSpawn(32319, 112080, 219568, -3664, 26124, False, 0)
-					newWarpgate = self.addSpawn(32319, -16899, 209827, -3640, 0, False, 0)
+					for i in self.Warpgateloc :
+						i.deleteMe()
+					for i in self.Warpgate1loc :
+						i.deleteMe()
+					newWarpgate6 = self.addSpawn(32319, 112080, 219568, -3664, 0, False, 0)
+					newWarpgate6 = self.addSpawn(32319, -16899, 209827, -3640, 0, False, 0)
 				if newLevel == 2:
 					newFalk = self.addSpawn(32297, -19904, 250016, -3240, 12288, False, 0)  # 福爾克
 				if newLevel == 3:
@@ -226,8 +267,8 @@ class Leveling_System (JQuest):
 						i.deleteMe()
 					for i in self.keltasloc :
 						i.deleteMe()
-#					for i in self.keltasmin :
-#						i.deleteMe()
+					for i in self.keltasmin :
+						i.deleteMe()
 					newSolomon = self.addSpawn(Solomon, -28916, 249381, -3472, 0, False, 0)
 					newTraitor = self.addSpawn(Traitor, -27352, 252387, -3520, 5416, False, 0)
 					newKief = self.addSpawn(Kief, -28357, 248993, -3472, 16384, False, 0)
@@ -274,8 +315,8 @@ class Leveling_System (JQuest):
 				if HellboundManager.getInstance().getLevel() == 3: respTime = (72 + Rnd.get(144)) * 100000 #between 2 and 4 hours respawn retail-like
 				if HellboundManager.getInstance().getLevel() == 4: respTime = (288 + Rnd.get(576)) * 100000 #between 8 and 16 hours respawn retail-like
 				self.startQuestTimer("keltasRespawn", respTime, None, None)
-#				for i in self.keltasmin:
-#					i.deleteMe()
+				for i in self.keltasmin:
+					i.deleteMe()
 			if id in self.hellboundMobs.keys():
 				if HellboundManager.getInstance().getLevel() > 1: return
 				HellboundManager.getInstance().increaseTrust(self.hellboundMobs[id]['points'])
