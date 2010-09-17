@@ -27,6 +27,7 @@ import com.l2jserver.gameserver.model.actor.instance.L2PcInstance;
 import ai.group_template.L2AttackableAIScript;
 
 /**
+ * ·´·ÀÃM¤h °ªµn
  * Gordon AI
  * @author TOFIZ
  * @version $Revision: 1.1 $ $Date: 2008/08/21 $

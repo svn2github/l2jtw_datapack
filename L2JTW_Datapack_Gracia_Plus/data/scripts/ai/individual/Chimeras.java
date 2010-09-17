@@ -11,7 +11,6 @@
  * You should have received a copy of the GNU General Public License along with
  * this program. If not, see <http://www.gnu.org/licenses/>.
  */
-/** 大地奇美拉 / 黑暗奇美拉 / 風之奇美拉 / 火焰奇美拉 / 西爾德斯 奇美拉 */
 package ai.individual;
 
 import ai.group_template.L2AttackableAIScript;
@@ -25,6 +24,7 @@ import com.l2jserver.gameserver.model.actor.instance.L2PcInstance;
 import com.l2jserver.util.Rnd;
 
 /**
+ * 大地奇美拉 / 黑暗奇美拉 / 風之奇美拉 / 火焰奇美拉 / 西爾德斯 奇美拉
  * @author theOne
  */
 public class Chimeras extends L2AttackableAIScript

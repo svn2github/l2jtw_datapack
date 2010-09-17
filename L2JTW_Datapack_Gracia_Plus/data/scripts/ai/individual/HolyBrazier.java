@@ -12,7 +12,6 @@
  * You should have received a copy of the GNU General Public License along with
  * this program. If not, see <http://www.gnu.org/licenses/>.
  */
- /** ¯«¸tªº¤õÄl / ¸tªM¦uÅ@ªÌ */
 package ai.individual;
 
 //import com.l2jserver.gameserver.ai.CtrlIntention;
@@ -24,7 +23,7 @@ import com.l2jserver.gameserver.model.actor.instance.L2PcInstance;
 
 /**
  * HolyBrazier AI
- * 
+ * ¯«¸tªº¤õÄl / ¸tªM¦uÅ@ªÌ
  * @author Emperorc
  * 
  */

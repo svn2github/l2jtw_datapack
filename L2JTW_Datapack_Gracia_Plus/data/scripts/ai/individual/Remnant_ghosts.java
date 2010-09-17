@@ -11,7 +11,6 @@
  * You should have received a copy of the GNU General Public License along with
  * this program. If not, see <http://www.gnu.org/licenses/>.
  */
-/** 舊神殿的戰士 / 舊神殿的祭司長 */
 package ai.individual;
 
 import ai.group_template.L2AttackableAIScript;
@@ -24,6 +23,9 @@ import com.l2jserver.gameserver.model.actor.L2Character;
 import com.l2jserver.gameserver.model.actor.L2Npc;
 import com.l2jserver.gameserver.model.actor.instance.L2PcInstance;
 
+/**
+ * 舊神殿的戰士 / 舊神殿的祭司長
+ */
 public class Remnant_ghosts extends L2AttackableAIScript
 {
 	int npcId = 0;

@@ -12,7 +12,6 @@
  * You should have received a copy of the GNU General Public License along with
  * this program. If not, see <http://www.gnu.org/licenses/>.
  */
- /** 孟塔那的手下 */
 package ai.individual;
 
 import ai.group_template.L2AttackableAIScript;
@@ -20,6 +19,9 @@ import ai.group_template.L2AttackableAIScript;
 import com.l2jserver.gameserver.model.actor.L2Npc;
 import com.l2jserver.gameserver.model.actor.instance.L2PcInstance;
 
+/**
+ * 孟塔那的手下
+ */
 public class FollowerOfMontagnar extends L2AttackableAIScript
 {
 	private static final int FOFMONTAGNAR = 18569;

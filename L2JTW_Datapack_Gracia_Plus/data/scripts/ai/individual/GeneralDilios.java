@@ -30,7 +30,7 @@ import ai.group_template.L2AttackableAIScript;
 /**
  * Dilios AI
  * @author JIV, Sephiroth, Apocalipce
- *
+ * ±N­x ¨f¨½¼Ú´µ
  */
 public class GeneralDilios extends L2AttackableAIScript
 {

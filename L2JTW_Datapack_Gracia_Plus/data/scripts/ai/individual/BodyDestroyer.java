@@ -12,7 +12,6 @@
  * You should have received a copy of the GNU General Public License along with
  * this program. If not, see <http://www.gnu.org/licenses/>.
  */
-/** 肉體破壞者 */
 package ai.individual;
 
 import ai.group_template.L2AttackableAIScript;
@@ -23,6 +22,9 @@ import com.l2jserver.gameserver.model.actor.L2Attackable;
 import com.l2jserver.gameserver.model.actor.L2Npc;
 import com.l2jserver.gameserver.model.actor.instance.L2PcInstance;
 
+/**
+ * 肉體破壞者
+ */
 public class BodyDestroyer extends L2AttackableAIScript
 {
 	private static final int BDESTROYER = 22363;

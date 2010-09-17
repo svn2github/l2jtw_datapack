@@ -32,7 +32,7 @@ import ai.group_template.L2AttackableAIScript;
 
 /**
  * Core AI
- * 
+ * ®Ö¤ß
  * @author DrLecter Revised By Emperorc
  */
 public class Core extends L2AttackableAIScript

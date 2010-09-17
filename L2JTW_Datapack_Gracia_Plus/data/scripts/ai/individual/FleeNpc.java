@@ -22,10 +22,12 @@ import com.l2jserver.gameserver.model.quest.Quest;
 import com.l2jserver.util.Rnd;
 
 import ai.group_template.L2AttackableAIScript;
-
+/**
+ * ¿W¨¤¨ß / ¦Ç¿W¨¤¨ß / Äm²½ªÌ
+ */
 public class FleeNpc extends L2AttackableAIScript 
 {
-	private int[] _npcId = { 20432, 22228 ,18150,18151,18152,18153,18154,18155,18156,18157};
+	private int[] _npcId = {20432,22228,18150,18151,18152,18153,18154,18155,18156,18157};
 
 	public FleeNpc(int questId, String name, String descr) 
 	{

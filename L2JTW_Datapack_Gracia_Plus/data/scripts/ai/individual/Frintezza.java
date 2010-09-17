@@ -50,7 +50,7 @@ import com.l2jserver.util.Rnd;
  
 /**
  * Frintezza AI
- * 
+ * ªÜµY®õ¨F / «ä¥d¹p¯S ¼ï «¢¨½®L
  * @author Darki699
  * @author SANDMAN L2J_JP(modified)
  * @author JOJO

@@ -29,6 +29,7 @@ import com.l2jserver.util.Rnd;
 import com.l2jserver.Config;
 
 /**
+ * ¤õÀs ¤Ú©Ô¥d´µ
  * Valakas AI
  * @author rocknow
  */

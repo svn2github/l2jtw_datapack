@@ -33,6 +33,7 @@ import com.l2jserver.gameserver.network.serverpackets.NpcSay;
 import com.l2jserver.Config;
 
 /**
+ * ¤Ú·Å
  * Baium AI
  * @author rocknow
  */

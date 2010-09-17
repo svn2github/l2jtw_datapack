@@ -40,7 +40,7 @@ import ai.group_template.L2AttackableAIScript;
 
 /**
  * Zaken AI
- * 
+ * ¥¾ªÖ
  */
 public class Zaken extends L2AttackableAIScript
 {

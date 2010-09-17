@@ -5,9 +5,9 @@ from com.l2jserver.gameserver.model.quest import QuestState
 from com.l2jserver.gameserver.model.quest.jython import QuestJython as JQuest
 from com.l2jserver.util import Rnd
 
-FLOUROS = 18559
-GUARD1 = 18560
-GUARD2 = 18560
+FLOUROS = 18559  # 卡納斯 預言者 普勞羅素
+GUARD1  = 18560  # 普勞羅素的手下
+GUARD2  = 18560  # 普勞羅素的手下
 
 class PyObject:
 	pass

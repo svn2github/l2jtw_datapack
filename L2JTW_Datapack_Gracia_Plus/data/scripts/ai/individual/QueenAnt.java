@@ -35,7 +35,7 @@ import ai.group_template.L2AttackableAIScript;
 
 /**
  * Queen Ant AI
- * 
+ * ¥¨ÃÆ¤k¤ý
  * @author Emperorc
  * 
  */

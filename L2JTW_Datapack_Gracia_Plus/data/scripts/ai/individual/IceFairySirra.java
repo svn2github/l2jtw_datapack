@@ -40,6 +40,7 @@ import javolution.util.FastList;
 import ai.group_template.L2AttackableAIScript;
 
 /**
+ * ¬¼Ây­º»â ¦B³·§¯ºë §ÆÅS
  * Ice Fairy Sirra AI
  * @author Kerberos
  */

@@ -34,6 +34,7 @@ import com.l2jserver.util.Rnd;
 import com.l2jserver.Config;
 
 /**
+ * ¦w¶ð·ç´µ
  * Antharas AI
  * @author rocknow
  */

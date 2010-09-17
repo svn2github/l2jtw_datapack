@@ -19,7 +19,9 @@ import com.l2jserver.gameserver.model.actor.instance.L2PcInstance;
 import com.l2jserver.gameserver.model.quest.QuestState;
 
 import ai.group_template.L2AttackableAIScript;
-
+/**
+ * 夢境的侵蝕者 亞恩奇奈爾【夢幻結界】
+ */
 public class Aenkinel extends L2AttackableAIScript
 {
 	private final int GK1 = 32658;

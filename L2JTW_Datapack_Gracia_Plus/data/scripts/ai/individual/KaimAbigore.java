@@ -12,7 +12,6 @@
  * You should have received a copy of the GNU General Public License along with
  * this program. If not, see <http://www.gnu.org/licenses/>.
  */
- /** 卡納斯 卡倚 亞比高爾 / 亞比高爾的手下 */
 package ai.individual;
 
 import ai.group_template.L2AttackableAIScript;
@@ -22,6 +21,9 @@ import com.l2jserver.gameserver.model.L2Skill;
 import com.l2jserver.gameserver.model.actor.L2Npc;
 import com.l2jserver.gameserver.model.actor.instance.L2PcInstance;
 
+/**
+ * 卡納斯 卡倚 亞比高爾 / 亞比高爾的手下
+ */
 public class KaimAbigore extends L2AttackableAIScript
 {
 	private static final int KAIM  = 18566;

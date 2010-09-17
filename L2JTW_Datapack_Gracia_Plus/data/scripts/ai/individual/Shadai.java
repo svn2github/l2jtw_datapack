@@ -12,7 +12,6 @@
  * You should have received a copy of the GNU General Public License along with
  * this program. If not, see <http://www.gnu.org/licenses/>.
  */
- /** 傳說的鐵匠 夏代 */
 package ai.individual;
 
 import java.util.Calendar;
@@ -26,6 +25,9 @@ import com.l2jserver.gameserver.model.actor.instance.L2PcInstance;
 import com.l2jserver.gameserver.network.serverpackets.NpcSay;
 import com.l2jserver.util.Rnd;
 
+/**
+ * 傳說的鐵匠 夏代
+ */
 public class Shadai extends L2AttackableAIScript
 {
 	private static final int shadai = 32347;

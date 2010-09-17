@@ -39,7 +39,7 @@ import ai.group_template.L2AttackableAIScript;
 
 /**
  * Orfen AI
- * 
+ * ¶øº¸ªâ
  * @author Emperorc
  * 
  */

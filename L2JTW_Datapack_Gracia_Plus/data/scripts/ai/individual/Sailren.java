@@ -17,6 +17,7 @@ import com.l2jserver.gameserver.templates.StatsSet;
 import com.l2jserver.util.Rnd;
 
 /**
+ * «Ê¦LªºÅ]¤ö ÁÉº¸Äõ
  * Sailren AI
  * @author rocknow
  */

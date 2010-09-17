@@ -11,7 +11,6 @@
  * You should have received a copy of the GNU General Public License along with
  * this program. If not, see <http://www.gnu.org/licenses/>.
  */
- /** 反抗軍指揮官 雷歐達斯 / 原住民變節份子 */
 package ai.individual;
 
 import ai.group_template.L2AttackableAIScript;
@@ -27,6 +26,7 @@ import com.l2jserver.gameserver.network.serverpackets.CreatureSay;
 import com.l2jserver.util.Rnd;
 
 /**
+ * 反抗軍指揮官 雷歐達斯 / 原住民變節份子
  * @author theOne
  */
 public class Leodas extends L2AttackableAIScript
