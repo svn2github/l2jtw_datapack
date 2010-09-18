@@ -163,7 +163,7 @@ public class AdminSiege implements IAdminCommandHandler
 				{
 					Calendar newAdminSiegeDate = castle.getSiegeDate();
 					if (val.equalsIgnoreCase("day"))
-						newAdminSiegeDate.set(Calendar.DAY_OF_YEAR, Integer.parseInt(st.nextToken()));						
+						newAdminSiegeDate.set(Calendar.DAY_OF_YEAR, Integer.parseInt(st.nextToken()));
 					else if (val.equalsIgnoreCase("hour"))
 						newAdminSiegeDate.set(Calendar.HOUR_OF_DAY, Integer.parseInt(st.nextToken()));
 					else if (val.equalsIgnoreCase("min"))
@@ -244,16 +244,18 @@ public class AdminSiege implements IAdminCommandHandler
 		int i = 0;
 		NpcHtmlMessage adminReply = new NpcHtmlMessage(5);
 		adminReply.setFile(activeChar.getHtmlPrefix(), "data/html/admin/castles.htm");
-                final StringBuilder cList = new StringBuilder(500);
-		for (Castle castle : CastleManager.getInstance().getCastles()) {
-			if (castle != null) {
-				String name = castle.getName();
-                                StringUtil.append(cList,
-                                        "<td fixwidth=90><a action=\"bypass -h admin_siege ",
-                                        name,
-                                        "\">",
-                                        name,
-                                        "</a></td>");
+		
+		final StringBuilder cList = new StringBuilder(500);
+		for (Castle castle : CastleManager.getInstance().getCastles())
+		{
+			if (castle != null)
+			{
+				StringUtil.append(cList,
+				"<td fixwidth=90><a action=\"bypass -h admin_siege ",
+				castle.getName(),  //Update by pmq
+				"\">",
+				castle.getCName(),  //Update by pmq
+				"</a></td>");
 				i++;
 			}
 			if (i > 2) {
@@ -264,14 +266,16 @@ public class AdminSiege implements IAdminCommandHandler
 		adminReply.replace("%castles%", cList.toString());
 		cList.setLength(0);
 		i = 0;
-		for (ClanHall clanhall : ClanHallManager.getInstance().getClanHalls().values()) {
-			if (clanhall != null) {
-                            StringUtil.append(cList,
-                                    "<td fixwidth=134><a action=\"bypass -h admin_clanhall ",
-                                    String.valueOf(clanhall.getId()),
-                                    "\">",
-                                    clanhall.getName(),
-                                    "</a></td>");
+		for (ClanHall clanhall : ClanHallManager.getInstance().getClanHalls().values())
+		{
+			if (clanhall != null)
+			{
+				StringUtil.append(cList,
+				"<td fixwidth=134><a action=\"bypass -h admin_clanhall ",
+				String.valueOf(clanhall.getId()),
+				"\">",
+				clanhall.getName(),
+				"</a></td>");
 				i++;
 			}
 			if (i > 1) {
@@ -282,14 +286,16 @@ public class AdminSiege implements IAdminCommandHandler
 		adminReply.replace("%clanhalls%", cList.toString());
 		cList.setLength(0);
 		i = 0;
-		for (ClanHall clanhall : ClanHallManager.getInstance().getFreeClanHalls().values()) {
-			if (clanhall != null) {
-                            StringUtil.append(cList,
-                                    "<td fixwidth=134><a action=\"bypass -h admin_clanhall ",
-                                    String.valueOf(clanhall.getId()),
-                                    "\">",
-                                    clanhall.getName(),
-                                    "</a></td>");
+		for (ClanHall clanhall : ClanHallManager.getInstance().getFreeClanHalls().values())
+		{
+			if (clanhall != null)
+			{
+				StringUtil.append(cList,
+				"<td fixwidth=134><a action=\"bypass -h admin_clanhall ",
+				String.valueOf(clanhall.getId()),
+				"\">",
+				clanhall.getName(),
+				"</a></td>");
 				i++;
 			}
 			if (i > 1) {
