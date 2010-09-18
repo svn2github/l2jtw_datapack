@@ -7,19 +7,18 @@ from com.l2jserver.gameserver.model.quest.jython import QuestJython as JQuest
 qn = "118_ToLeadAndBeLed"
 
 #CONFIG
-DEBUG=1
+DEBUG = 1
 #ITEMS 
 BLOOD,LEG = 8062,8063
 #NPCS
 PINTER = 30298
 #MOBS and DROPS
-DROPLIST={20919:[BLOOD,90,10,1,0],
-          20920:[BLOOD,90,10,1,0],
-          20921:[BLOOD,90,10,1,0],
-          20927:[LEG,100,8,7,1]
-          }
+DROPLIST = { 20919:[BLOOD,90,10,1,0],
+             20920:[BLOOD,90,10,1,0],
+             20921:[BLOOD,90,10,1,0],
+             20927:[LEG,100,8,7,1]
+             }
 
- 
 class Quest (JQuest) :
 
  def __init__(self,id,name,descr):
@@ -55,7 +54,7 @@ class Quest (JQuest) :
          st.takeItems(BLOOD,-1)
          st.set("cond","5");
          st.set("settype","3")
-         st.playSound("ItemSound.quest_middle") 
+         st.playSound("ItemSound.quest_middle")
      else:
          htmltext = "Incorrect item count"
    elif event == "30517-09.htm" :
@@ -64,13 +63,13 @@ class Quest (JQuest) :
        if cm_apprentice.isOnline():
          apprentice = cm_apprentice.getPlayerInstance()
          if apprentice :
-           ap_quest=apprentice.getQuestState("118_ToLeadAndBeLed")
+           ap_quest = apprentice.getQuestState("118_ToLeadAndBeLed")
            if ap_quest != None :
-              ap_cond=ap_quest.getInt("cond")
+              ap_cond = ap_quest.getInt("cond")
               if ap_cond == 3 :
-                 crystals=922
+                 crystals = 922
               elif ap_cond in [4,5] :
-                 crystals=771
+                 crystals = 771
               if st.getQuestItemsCount(1458) >= crystals:
                  st.takeItems(1458,crystals)
                  ap_quest.set("cond","6")
@@ -85,18 +84,18 @@ class Quest (JQuest) :
    return htmltext 
 
  def onTalk (self,npc,player):
-   npcId = npc.getNpcId()
    htmltext = "<html><body>目前沒有執行任務，或條件不符。</body></html>"
    st = player.getQuestState(qn)
    if not st : return htmltext
 
+   npcId = npc.getNpcId()
    id = st.getState()
-   cond = st.getInt("cond") 
+   cond = st.getInt("cond")
    if player.getClan() == None :
      htmltext = "30517-00.htm"
      st.exitQuest(1)
    elif player.getPledgeType() == -1 :
-     if id==State.COMPLETED:
+     if id == State.COMPLETED:
        htmltext = "<html><body>這是已經完成的任務。</body></html>"
      elif player.getLevel() < 19 or not player.getSponsor() :
        htmltext = "30517-00.htm"
@@ -119,7 +118,7 @@ class Quest (JQuest) :
          st.set("cond", "7")
        elif cond == 7 :
          htmltext = "30517-07.htm"
-       elif cond == 8 and st.getQuestItemsCount(LEG)==8 :
+       elif cond == 8 and st.getQuestItemsCount(LEG) == 8 :
          settype = st.getInt("settype")
          htmltext = "30517-08.htm"
          st.takeItems(LEG,-1)
@@ -141,9 +140,9 @@ class Quest (JQuest) :
         if cm_apprentice.isOnline():
            apprentice = cm_apprentice.getPlayerInstance()
            if apprentice :
-              ap_quest=apprentice.getQuestState(qn)
+              ap_quest = apprentice.getQuestState(qn)
               if ap_quest :
-                 ap_cond=ap_quest.getInt("cond")
+                 ap_cond = ap_quest.getInt("cond")
                  if ap_cond == 3 :
                     htmltext = "30517-09a.htm"
                  elif ap_cond == 4 :
@@ -170,14 +169,14 @@ class Quest (JQuest) :
     item,chance,max,cond,check = DROPLIST[npc.getNpcId()]
     count,enabled=st.getQuestItemsCount(item),True
     if check :
-       enabled=False
+       enabled = False
        cm_sponsor = player.getClan().getClanMember(sponsor)
        if cm_sponsor :
          if cm_sponsor.isOnline():
            sponsor = cm_sponsor.getPlayerInstance()
            if sponsor :
              if player.isInsideRadius(sponsor, 1100, 1, 0) :
-               enabled=True
+               enabled = True
     if st.getInt("cond") == cond and count < max and st.getRandom(100) < chance and enabled :
        st.giveItems(item,1)
        if count == max-1:
@@ -186,7 +185,6 @@ class Quest (JQuest) :
        else :
           st.playSound("ItemSound.quest_itemget")
     return
-     
 
 QUEST     = Quest(118,qn,"引導者，被引導者")
 

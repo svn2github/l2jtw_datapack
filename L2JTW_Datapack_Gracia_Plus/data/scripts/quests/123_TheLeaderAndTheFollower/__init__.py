@@ -7,17 +7,16 @@ from com.l2jserver.gameserver.model.quest.jython import QuestJython as JQuest
 qn = "123_TheLeaderAndTheFollower"
 
 #CONFIG
-DEBUG=1
+DEBUG = 1
 #ITEMS 
 BLOOD,LEG = 8549,8550
 #NPCS
 NEWYEAR = 31961
 #MOBS and DROPS
-DROPLIST={27321:[BLOOD,60,10,1,0],
-          27322:[LEG,70,8,7,1]
-          }
+DROPLIST = { 27321:[BLOOD,60,10,1,0],
+             27322:[LEG,70,8,7,1]
+             }
 
- 
 class Quest (JQuest) :
 
  def __init__(self,id,name,descr):
@@ -53,7 +52,7 @@ class Quest (JQuest) :
          st.takeItems(BLOOD,-1)
          st.set("cond","5");
          st.set("settype","3")
-         st.playSound("ItemSound.quest_middle") 
+         st.playSound("ItemSound.quest_middle")
      else:
          htmltext = "Incorrect item count"
    elif event == "31961-09.htm" :
@@ -61,13 +60,13 @@ class Quest (JQuest) :
      if cm_apprentice.isOnline():
         apprentice = cm_apprentice.getPlayerInstance()
         if apprentice :
-           ap_quest=apprentice.getQuestState("123_TheLeaderAndTheFollower")
+           ap_quest = apprentice.getQuestState("123_TheLeaderAndTheFollower")
            if ap_quest != None :
-              ap_cond=ap_quest.getInt("cond")
+              ap_cond = ap_quest.getInt("cond")
               if  ap_cond == 3 :
-                 crystals=922
+                 crystals = 922
               elif ap_cond in [4,5] :
-                 crystals=771
+                 crystals = 771
               if st.getQuestItemsCount(1458) >= crystals:
                  st.takeItems(1458,crystals)
                  ap_quest.set("cond","6")
@@ -78,18 +77,18 @@ class Quest (JQuest) :
    return htmltext 
 
  def onTalk (self,npc,player):
-   npcId = npc.getNpcId()
    htmltext = "<html><body>目前沒有執行任務，或條件不符。</body></html>"
    st = player.getQuestState(qn)
    if not st : return htmltext
 
+   npcId = npc.getNpcId()
    id = st.getState()
-   cond = st.getInt("cond") 
+   cond = st.getInt("cond")
    if player.getClan() == None :
      htmltext = "31961-00.htm"
      st.exitQuest(1)
    elif player.getPledgeType() == -1 :
-     if id==State.COMPLETED:
+     if id == State.COMPLETED:
        htmltext = "<html><body>這是已經完成的任務。</body></html>"
      elif player.getLevel() < 19 or not player.getSponsor() :
        htmltext = "31961-00.htm"
@@ -98,7 +97,7 @@ class Quest (JQuest) :
        if id == State.CREATED :
          htmltext = "31961-01.htm"
        elif cond == 1 :
-         htmltext = "31961-03.htm" 
+         htmltext = "31961-03.htm"
        elif cond == 2 :
          htmltext = "31961-04.htm"
        elif cond == 3 :
@@ -112,7 +111,7 @@ class Quest (JQuest) :
          st.set("cond", "7")
        elif cond == 7 :
          htmltext = "31961-07.htm"
-       elif cond == 8 and st.getQuestItemsCount(LEG)==8 :
+       elif cond == 8 and st.getQuestItemsCount(LEG) == 8 :
          settype = st.getInt("settype")
          htmltext = "31961-08.htm"
          st.takeItems(LEG,-1)
@@ -134,9 +133,9 @@ class Quest (JQuest) :
         if cm_apprentice.isOnline():
            apprentice = cm_apprentice.getPlayerInstance()
            if apprentice :
-              ap_quest=apprentice.getQuestState(qn)
+              ap_quest = apprentice.getQuestState(qn)
               if ap_quest :
-                 ap_cond=ap_quest.getInt("cond")
+                 ap_cond = ap_quest.getInt("cond")
                  if ap_cond == 3 :
                     htmltext = "31961-09a.htm"
                  elif ap_cond == 4 :
@@ -172,16 +171,16 @@ class Quest (JQuest) :
       st.exitQuest(1)
       return
     item,chance,max,cond,check = DROPLIST[npc.getNpcId()]
-    count,enabled=st.getQuestItemsCount(item),True
+    count,enabled = st.getQuestItemsCount(item),True
     if check :
-       enabled=False
+       enabled = False
        cm_sponsor = player.getClan().getClanMember(sponsor)
        if cm_sponsor :
          if cm_sponsor.isOnline():
            sponsor = cm_sponsor.getPlayerInstance()
            if sponsor :
              if player.isInsideRadius(sponsor, 1100, 1, 0) :
-               enabled=True
+               enabled = True
     if st.getInt("cond") == cond and count < max and st.getRandom(100) < chance and enabled :
        st.giveItems(item,1)
        if count == max-1:
@@ -190,7 +189,6 @@ class Quest (JQuest) :
        else :
           st.playSound("ItemSound.quest_itemget")
     return
-     
 
 QUEST     = Quest(123,qn,"指導者、受指導者")
 
