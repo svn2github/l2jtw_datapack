@@ -68,9 +68,7 @@ class Quest (JQuest) :
 		id = st.getState()
 		cond = st.getInt("cond")
 
-		if id == State.COMPLETED :
-			htmltext = "<html><body>這是已經完成的任務。</body></html>"
-		elif id == State.CREATED :
+		if id == State.CREATED :
 			if npcId == DROPH and cond == 0 :
 				if player.getLevel() >= 79 :
 					htmltext = "32711-01.htm"
