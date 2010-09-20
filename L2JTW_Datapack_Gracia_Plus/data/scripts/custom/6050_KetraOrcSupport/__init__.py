@@ -48,6 +48,8 @@ class Quest (JQuest) :
             npc.doCast(SkillTable.getInstance().getInfo(skillId,level))
             npc.setCurrentHpMp(npc.getMaxHp(), npc.getMaxMp())
             htmltext = "31372-4.htm"
+        else :
+            htmltext = "<html><body>魂靈引導者亞瑟法：<br>如果要得到祖先的祝福就需要供上<font color=\"LEVEL\">野牛的角</font>！你，在出戰場累積更多的戰績，你就會得到野牛的角為其代價！</body></html>"
     elif event == "Withdraw" :
         if player.getWarehouse().getSize() == 0 :
             htmltext = "31374-0.htm"
