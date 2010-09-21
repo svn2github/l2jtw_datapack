@@ -1,10 +1,12 @@
-#Created by Bloodshed
+# Created by Bloodshed
+# Update by pmq 22-09-2010
+
 import sys
-from java.lang	import System
-from java.util	import Calendar
-from com.l2jserver.gameserver.model.quest			import State
-from com.l2jserver.gameserver.model.quest			import QuestState
-from com.l2jserver.gameserver.model.quest.jython	import QuestJython as JQuest
+from java.lang                                   import System
+from java.util                                   import Calendar
+from com.l2jserver.gameserver.model.quest        import State
+from com.l2jserver.gameserver.model.quest        import QuestState
+from com.l2jserver.gameserver.model.quest.jython import QuestJython as JQuest
 
 qn = "451_LuciensAltar"
 
@@ -65,10 +67,13 @@ class Quest (JQuest) :
 				else :
 					htmltext = "30537-06.htm"
 			elif cond == 1 :
-				htmltext = "30537-04.htm"
+				if st.getQuestItemsCount(DISCHARGED_BEAD) >= 1 :
+					htmltext = "30537-04a.htm"
+				else :
+					htmltext = "30537-04.htm"
 			elif cond == 2 :
 				htmltext = "30537-05.htm"
-				st.giveItems(ADENA,127690)
+				st.giveItems(ADENA,255380)
 				st.takeItems(DISCHARGED_BEAD,5)
 				st.setState(State.COMPLETED)
 				st.unset("cond")
