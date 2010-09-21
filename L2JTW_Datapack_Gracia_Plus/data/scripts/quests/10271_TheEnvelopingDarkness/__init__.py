@@ -50,7 +50,7 @@ class Quest (JQuest):
 
 		if id == State.COMPLETED:
 			if npcId == Orby :
-				htmltext = "<html><body>這是已經完成的任務。</body></html>"
+				htmltext = "32560-07.htm"
 			elif npcId == El :
 				htmltext = "32556-10.htm"
 		elif id == State.CREATED :
