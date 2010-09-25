@@ -1631,7 +1631,7 @@ REPLACE INTO `npc` VALUES (13017,13017,'Emperor Squash',0,'',0,'LineageNPC.drop_
 
 DELETE FROM npcskills             WHERE  npcid IN (12774,12775,12776,12777,12778,12779,13016,13017);
 -- DELETE FROM npcAIData             WHERE npc_id IN (12774,12775,12776,12777,12778,12779,13016,13017);
-UPDATE npc SET type='L2ChronoMonster' WHERE id IN (12774,12775,12776,12777,12778,12779,13016,13017);
+UPDATE npc SET `type`='L2ChronoMonster' WHERE id IN (12774,12775,12776,12777,12778,12779,13016,13017);
 
 UPDATE npc SET level=1,hp=3000,mp=0,hpreg=0,mpreg=0,str=10,con=10,dex=10,`int`=10,wit=10,men=10,patk=0,pdef=15,matk=0,mdef=32 WHERE id=12774;  -- 未成熟的葫蘆
 UPDATE npc SET level=1,hp=300 ,mp=0,hpreg=0,mpreg=0,str=10,con=10,dex=10,`int`=10,wit=10,men=10,patk=0,pdef=15,matk=0,mdef=32 WHERE id=12775;  -- 優良的葫蘆
@@ -1654,7 +1654,7 @@ UPDATE etcitem SET sellable='true',tradeable='true',depositable='true' WHERE ite
 -- NPC
 DELETE FROM npcskills             WHERE  npcid IN (13271,13272,13273,13274,13275,13276,13277,13278);
 -- DELETE FROM npcAIData             WHERE npc_id IN (13271,13272,13273,13274,13275,13276,13277,13278);
-UPDATE npc SET type='L2ChronoMonster' WHERE id IN (13271,13272,13273,13274,13275,13276,13277,13278);
+UPDATE npc SET `type`='L2ChronoMonster' WHERE id IN (13271,13272,13273,13274,13275,13276,13277,13278);
 
 UPDATE npc SET level=1,hp=3000,mp=0,hpreg=0,mpreg=0,str=10,con=10,dex=10,`int`=10,wit=10,men=10,patk=0,pdef=15,matk=0,mdef=32 WHERE id=13271; -- 未成熟的西瓜
 UPDATE npc SET level=1,hp=300 ,mp=0,hpreg=0,mpreg=0,str=10,con=10,dex=10,`int`=10,wit=10,men=10,patk=0,pdef=15,matk=0,mdef=32 WHERE id=13272; -- 不良的西瓜
@@ -1670,11 +1670,9 @@ UPDATE weapon SET skill='0-0;' WHERE item_id=5817; -- 克魯諾杖鐘 參章紀念樂器 (3
 UPDATE weapon SET crystallizable='false' WHERE item_id=8350; -- 克魯諾瑪拉卡斯 伍章紀念樂器
 
 -- 任務196 武器技能
-REPLACE INTO `etcitem` VALUES (13808,'Elmoreden Holy Water','','false','none',0,'stackable','paper','none',-1,-1,0,0,'false','false','false','false','false','ItemSkills','2633-1;');
-REPLACE INTO `etcitem` VALUES (13809,'Court Magician\'s Magic Staff','','false','none',0,'stackable','paper','none',-1,-1,0,0,'false','false','false','false','false','ItemSkills','2634-1;');
+REPLACE INTO `etcitem` VALUES (13808,'Elmoreden Holy Water','','false','none',0,'stackable','paper','none',-1,-1,0,0,'false','false','false','false','false','ItemSkills','2633-1;'); -- 艾爾摩亞丁的聖水
+REPLACE INTO `etcitem` VALUES (13809,'Court Magician\'s Magic Staff','','false','none',0,'stackable','paper','none',-1,-1,0,0,'false','false','false','false','false','ItemSkills','2634-1;'); -- 宮廷魔法師的魔法棒
 
--- UPDATE etcitem SET handler='ItemSkills',skill='2633-1;' WHERE item_id=13808;  -- 艾爾摩亞丁的聖水
--- UPDATE etcitem SET handler='ItemSkills',skill='2634-1;' WHERE item_id=13809;  -- 宮廷魔法師的魔法棒
 -- 任務196 Npc
 REPLACE INTO `npc` VALUES
 (27346,27346,'Shilen\'s Evil Thoughts',0,'',0,'LineageMonster5.leader_mind_of_silen',27.00,40.00,81,'male','L2Monster',40,7500,2000,0.00,0.00,40,43,30,21,20,10,0,0,1350,550,850,650,278,0,333,0,0,0,0,44,66,0,0,'LAST_HIT','false'),
@@ -1689,3 +1687,23 @@ REPLACE INTO `npc` VALUES
 (27379,27379,'Lilim Guard Knight',0,'',0,'LineageMonster2.lilim_knight_10_bi',13.00,55.00,81,'male','L2Monster',40,80000,349,5.53,1.53,40,43,30,21,20,10,0,0,500,500,500,500,282,1500,333,0,0,0,0,44,66,0,0,'LAST_HIT','false'),
 (27384,27384,'Seal Device',0,'Emperor Shunaiman\'s',0,'LineageNPCEV.ssq_sealing_emperor',12.00,8.00,81,'male','L2Monster',40,80000,349,5.53,1.53,40,43,30,21,20,10,0,0,500,500,500,500,282,0,333,0,0,0,0,0,0,0,0,'LAST_HIT','false');
 
+-- 諾爾妮庭園首領怪物 
+UPDATE `npc` SET `type`='L2RaidBoss', `level`=22, `exp`=225567, `sp`=18408, `hp`=31106, `mp`=218 where id='25528';  -- 最終試練官 塔庇里歐斯
+UPDATE `npc` SET `type`='L2Minion',   `level`=21, `exp`=0,      `sp`=0,     `hp`=1604,  `mp`=507 where id='25529';  -- 試練官的部下 庭園的警衛隊
+UPDATE `npc` SET `type`='L2Minion',   `level`=21, `exp`=0,      `sp`=0,     `hp`=1632,  `mp`=475 where id='25530';  -- 試練官的部下 庭園的警衛隊
+REPLACE INTO `minions` VALUES (25528, 25529, 3, 3);
+REPLACE INTO `minions` VALUES (25528, 25530, 1, 1);
+
+UPDATE etcitem SET handler='PaganKeys',skill='2343-1;' WHERE item_id=9703; -- 闇天使之門的鑰匙
+UPDATE etcitem SET handler='PaganKeys',skill='2344-1;' WHERE item_id=9704; -- 紀錄之門的鑰匙
+UPDATE etcitem SET handler='PaganKeys',skill='2345-1;' WHERE item_id=9705; -- 觀察之門的鑰匙
+UPDATE etcitem SET handler='PaganKeys',skill='2346-1;' WHERE item_id=9706; -- 斯比裘拉之門的鑰匙
+UPDATE etcitem SET handler='PaganKeys',skill='2347-1;' WHERE item_id=9707; -- 鑰匙-諸天之上
+UPDATE etcitem SET handler='PaganKeys',skill='2348-1;' WHERE item_id=9708; -- 鑰匙-佛拉赫爾哈
+UPDATE etcitem SET handler='PaganKeys',skill='2349-1;' WHERE item_id=9709; -- 亞爾比泰魯之門的鑰匙
+UPDATE etcitem SET handler='PaganKeys',skill='2350-1;' WHERE item_id=9710; -- 鑰匙-雷歐波爾德
+UPDATE etcitem SET handler='PaganKeys',skill='2351-1;' WHERE item_id=9711; -- 預測之門的鑰匙
+UPDATE etcitem SET handler='PaganKeys',skill='2352-1;' WHERE item_id=9712; -- 大空洞之門的鑰匙
+UPDATE etcitem SET handler='ItemSkills',skill='2353-1;' WHERE item_id=9713; -- 諾爾妮之力
+
+UPDATE `npc` SET `type`='L2Monster', `hp`=999999, `exp`=0, `sp`=0, `mp`=100000, `walkspd`=0, `runspd`=0, `aggro`=500 where id='18437';  --  

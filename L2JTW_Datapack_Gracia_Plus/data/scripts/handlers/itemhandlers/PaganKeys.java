@@ -93,6 +93,216 @@ public class PaganKeys implements IItemHandler
 				}
 				break;
 			// Add by pmq Start
+			case 9703:
+				if (door.getDoorId() == 16200002)
+				{
+					if (activeChar.getInstanceId() != door.getInstanceId())
+					{
+						for (L2DoorInstance instanceDoor : InstanceManager.getInstance().getInstance(activeChar.getInstanceId()).getDoors())
+							if (instanceDoor.getDoorId() == door.getDoorId())
+							{
+								instanceDoor.openMe();
+							}
+					}
+					else
+					{
+						door.openMe();
+					}
+				}
+				else
+				{
+					activeChar.sendMessage(1124);
+				}
+				break;
+			case 9704:
+				if (door.getDoorId() == 16200005)
+				{
+					if (activeChar.getInstanceId() != door.getInstanceId())
+					{
+						for (L2DoorInstance instanceDoor : InstanceManager.getInstance().getInstance(activeChar.getInstanceId()).getDoors())
+							if (instanceDoor.getDoorId() == door.getDoorId())
+							{
+								instanceDoor.openMe();
+							}
+					}
+					else
+					{
+						door.openMe();
+					}
+				}
+				else
+				{
+					activeChar.sendMessage(1124);
+				}
+				break;
+			case 9705:
+				if (door.getDoorId() == 16200009)
+				{
+					if (activeChar.getInstanceId() != door.getInstanceId())
+					{
+						for (L2DoorInstance instanceDoor : InstanceManager.getInstance().getInstance(activeChar.getInstanceId()).getDoors())
+							if (instanceDoor.getDoorId() == door.getDoorId())
+							{
+								instanceDoor.openMe();
+							}
+					}
+					else
+					{
+						door.openMe();
+					}
+				}
+				else
+				{
+					activeChar.sendMessage(1124);
+				}
+				break;
+			case 9706:
+				if (door.getDoorId() == 16200003)
+				{
+					if (activeChar.getInstanceId() != door.getInstanceId())
+					{
+						for (L2DoorInstance instanceDoor : InstanceManager.getInstance().getInstance(activeChar.getInstanceId()).getDoors())
+							if (instanceDoor.getDoorId() == door.getDoorId())
+							{
+								instanceDoor.openMe();
+							}
+					}
+					else
+					{
+						door.openMe();
+					}
+				}
+				else
+				{
+					activeChar.sendMessage(1124);
+				}
+				break;
+			case 9707:
+				if (door.getDoorId() == 16200007)
+				{
+					if (activeChar.getInstanceId() != door.getInstanceId())
+					{
+						for (L2DoorInstance instanceDoor : InstanceManager.getInstance().getInstance(activeChar.getInstanceId()).getDoors())
+							if (instanceDoor.getDoorId() == door.getDoorId())
+							{
+								instanceDoor.openMe();
+							}
+					}
+					else
+					{
+						door.openMe();
+					}
+				}
+				else
+				{
+					activeChar.sendMessage(1124);
+				}
+				break;
+			case 9708:
+				if (door.getDoorId() == 16200008)
+				{
+					if (activeChar.getInstanceId() != door.getInstanceId())
+					{
+						for (L2DoorInstance instanceDoor : InstanceManager.getInstance().getInstance(activeChar.getInstanceId()).getDoors())
+							if (instanceDoor.getDoorId() == door.getDoorId())
+							{
+								instanceDoor.openMe();
+							}
+					}
+					else
+					{
+						door.openMe();
+					}
+				}
+				else
+				{
+					activeChar.sendMessage(1124);
+				}
+				break;
+			case 9709:
+				if (door.getDoorId() == 16200010)
+				{
+					if (activeChar.getInstanceId() != door.getInstanceId())
+					{
+						for (L2DoorInstance instanceDoor : InstanceManager.getInstance().getInstance(activeChar.getInstanceId()).getDoors())
+							if (instanceDoor.getDoorId() == door.getDoorId())
+							{
+								instanceDoor.openMe();
+							}
+					}
+					else
+					{
+						door.openMe();
+					}
+				}
+				else
+				{
+					activeChar.sendMessage(1124);
+				}
+				break;
+			case 9710:
+				if (door.getDoorId() == 16200006)
+				{
+					if (activeChar.getInstanceId() != door.getInstanceId())
+					{
+						for (L2DoorInstance instanceDoor : InstanceManager.getInstance().getInstance(activeChar.getInstanceId()).getDoors())
+							if (instanceDoor.getDoorId() == door.getDoorId())
+							{
+								instanceDoor.openMe();
+							}
+					}
+					else
+					{
+						door.openMe();
+					}
+				}
+				else
+				{
+					activeChar.sendMessage(1124);
+				}
+				break;
+			case 9711:
+				if (door.getDoorId() == 16200011)
+				{
+					if (activeChar.getInstanceId() != door.getInstanceId())
+					{
+						for (L2DoorInstance instanceDoor : InstanceManager.getInstance().getInstance(activeChar.getInstanceId()).getDoors())
+							if (instanceDoor.getDoorId() == door.getDoorId())
+							{
+								instanceDoor.openMe();
+							}
+					}
+					else
+					{
+						door.openMe();
+					}
+				}
+				else
+				{
+					activeChar.sendMessage(1124);
+				}
+				break;
+			case 9712:
+				if (door.getDoorId() == 16200012)
+				{
+					if (activeChar.getInstanceId() != door.getInstanceId())
+					{
+						for (L2DoorInstance instanceDoor : InstanceManager.getInstance().getInstance(activeChar.getInstanceId()).getDoors())
+							if (instanceDoor.getDoorId() == door.getDoorId())
+							{
+								instanceDoor.openMe();
+							}
+					}
+					else
+					{
+						door.openMe();
+					}
+				}
+				else
+				{
+					activeChar.sendMessage(1124);
+				}
+				break;
 			case 9685: //SteelCitade DARKNESS_KEY
 				if (door.getDoorId() == 20260001)
 				{

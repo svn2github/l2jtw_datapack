@@ -1,17 +1,19 @@
-/*
-By knoxville OpenTeamFree 14.09.2010, Based on PTS Freya.
-TODO: Lilith and Anakim Attack.
+/**
+ * By knoxville OpenTeamFree 14.09.2010, Based on PTS Freya.
+ * TODO: Lilith and Anakim Attack.
 */
-
 package instances.Disciple;
 
 import com.l2jserver.gameserver.ai.CtrlIntention;
+import com.l2jserver.gameserver.datatables.SkillTable;
 import com.l2jserver.gameserver.instancemanager.InstanceManager;
 import com.l2jserver.gameserver.instancemanager.InstanceManager.InstanceWorld;
 import com.l2jserver.gameserver.model.actor.L2Npc;
 import com.l2jserver.gameserver.model.actor.instance.L2DoorInstance;
 import com.l2jserver.gameserver.model.actor.instance.L2PcInstance;
 //import com.l2jserver.gameserver.model.L2CharPosition;
+import com.l2jserver.gameserver.model.L2Object;
+import com.l2jserver.gameserver.model.L2Skill;
 import com.l2jserver.gameserver.model.L2World;
 import com.l2jserver.gameserver.model.quest.Quest;
 import com.l2jserver.gameserver.model.quest.QuestState;
@@ -37,6 +39,8 @@ public class Disciple extends Quest
 	private static final int LEON = 32587;
 	private static final int DOOR = 17240111;
 	private static final int GATEKEEPER = 32657;
+	private static final int SEALDEVICE = 27384;  // «Ê¦L¸Ë¸m
+	//private static final int EINHASAD_STRIKE = 8357;
 
 	private class teleCoord {int instanceId; int x; int y; int z;}
 
@@ -95,6 +99,24 @@ public class Disciple extends Quest
 		}
 	}
 
+	public String onSkillSee(L2Npc npc, L2PcInstance caster, L2Skill skill, L2Object[] targets, boolean isPet)
+	{
+		InstanceWorld tmpworld = InstanceManager.getInstance().getWorld(npc.getInstanceId());
+		if (tmpworld instanceof DiSWorld)
+		{
+			for (L2Object obj : targets)
+			{
+				if (npc != obj)
+					return null;
+			}
+			if (skill.getId() == 8357 && npc.getNpcId() == SEALDEVICE)
+			{
+				npc.doCast(SkillTable.getInstance().getInfo(5980, 1));
+			}
+		}
+		return super.onSkillSee(npc,caster,skill,targets,isPet);
+	}
+
 	public String onTalk ( L2Npc npc, L2PcInstance player)
 	{
 		int npcId = npc.getNpcId();
@@ -149,6 +171,7 @@ public class Disciple extends Quest
 		addTalkId(PROMISE);
 		addTalkId(LEON);
 		addTalkId(GATEKEEPER);
+		addSkillSeeId(SEALDEVICE);
 	}
 
 	public static void main(String[] args)
