@@ -1706,46 +1706,52 @@ UPDATE etcitem SET handler='PaganKeys',skill='2351-1;' WHERE item_id=9711; -- 預
 UPDATE etcitem SET handler='PaganKeys',skill='2352-1;' WHERE item_id=9712; -- 大空洞之門的鑰匙
 UPDATE etcitem SET handler='ItemSkills',skill='2353-1;' WHERE item_id=9713; -- 諾爾妮之力
 
+REPLACE INTO `npc` VALUES
+(18347,18347,'Garden Guard',0,'',0,'LineageMonster4.Mostro_Fighter',15.50,22.50,21,'male','L2Monster',40,720,213,3.95,1.21,40,43,30,21,10,10,726,32,63,86,23,76,218,500,333,0,0,0,0,55,132,0,0,'LAST_HIT','false'),
+(18348,18348,'Garden Guard',0,'',0,'LineageMonster4.Mostro_Fighter',15.50,22.50,21,'male','L2Monster',40,720,213,3.95,1.21,40,43,30,21,10,10,726,32,63,86,23,76,218,500,333,0,0,0,0,55,132,0,0,'LAST_HIT','false'),
+(18349,18349,'Garden Guard',0,'',0,'LineageMonster4.Mostro_Gunner',15.00,24.50,21,'male','L2Monster',500,720,213,3.95,1.21,40,43,30,21,10,10,726,32,63,86,23,76,218,500,333,0,0,0,0,55,132,0,0,'LAST_HIT','false'),
+(18350,18350,'Garden Guard',0,'',0,'LineageMonster4.Mostro_Fighter',15.50,22.50,21,'male','L2Monster',40,720,213,3.95,1.21,40,43,30,21,10,10,726,32,63,86,23,76,218,500,333,0,0,0,0,55,132,0,0,'LAST_HIT','false'),
+(18351,18351,'Garden Guard',0,'',0,'LineageMonster4.Mostro_Fighter',15.50,22.50,21,'male','L2Monster',40,720,213,3.95,1.21,40,43,30,21,10,10,726,32,63,86,23,76,218,500,333,0,0,0,0,55,132,0,0,'LAST_HIT','false'),
+(18352,18352,'Kamael Guard',0,'',0,'LineageMonster4.Mostro_Fighter',15.50,22.50,22,'male','L2Monster',40,541,213,3.95,1.21,40,43,30,21,20,10,726,32,63,86,23,76,218,500,333,0,0,0,0,55,132,0,0,'LAST_HIT','false'),
+(18353,18353,'Guardian of Records',0,'',0,'LineageMonster4.Mostro_Fighter',15.50,22.50,22,'male','L2Monster',40,541,213,3.95,1.21,40,43,30,21,20,10,726,32,63,86,23,76,218,500,333,0,0,0,0,55,132,0,0,'LAST_HIT','false'),
+(18354,18354,'Guardian of Observation',0,'',0,'LineageMonster4.Mostro_Fighter',15.50,22.50,22,'male','L2Monster',40,541,213,3.95,1.21,40,43,30,21,20,10,726,32,63,86,23,76,218,500,333,0,0,0,0,55,132,0,0,'LAST_HIT','false'),
+(18355,18355,'Spicula\'s Guard',0,'',0,'LineageMonster4.Mostro_Fighter',15.50,22.50,22,'male','L2Monster',40,541,213,3.95,1.21,40,43,30,21,20,10,726,32,63,86,23,76,218,500,333,0,0,0,0,55,132,0,0,'LAST_HIT','false'),
+(18356,18356,'Harkilgamed\'s Gatekeeper',0,'',0,'LineageMonster4.Mostro_Gunner',15.00,24.50,22,'male','L2Monster',40,541,213,3.95,1.21,40,43,30,21,20,10,726,32,63,86,23,76,218,500,333,0,0,0,0,55,132,0,0,'LAST_HIT','false'),
+(18357,18357,'Rodenpicula\'s Gatekeeper',0,'',0,'LineageMonster4.Mostro_Fighter',15.50,22.50,22,'male','L2Monster',40,541,213,3.95,1.21,40,43,30,21,20,10,726,32,63,86,23,76,218,500,333,0,0,0,0,55,132,0,0,'LAST_HIT','false'),
+(18358,18358,'Guardian of Secrets',0,'',0,'LineageMonster4.Mostro_Fighter',15.50,22.50,22,'male','L2Monster',40,541,213,3.95,1.21,40,43,30,21,20,10,726,32,63,86,23,76,218,500,333,0,0,0,0,55,132,0,0,'LAST_HIT','false'),
+(18359,18359,'Arviterre\'s Guardian',0,'',0,'LineageMonster4.Mostro_Fighter',15.50,22.50,22,'male','L2Monster',40,541,213,3.95,1.21,40,43,30,21,20,10,726,32,63,86,23,76,218,500,333,0,0,0,0,55,132,0,0,'LAST_HIT','false'),
+(18360,18360,'Katenar\'s Gatekeeper',0,'',0,'LineageMonster4.Mostro_Fighter',15.50,22.50,22,'male','L2Monster',40,541,213,3.95,1.21,40,43,30,21,20,10,726,32,63,86,23,76,218,500,333,0,0,0,0,55,132,0,0,'LAST_HIT','false'),
+(18361,18361,'Guardian of Prediction',0,'',0,'LineageMonster4.Mostro_Fighter',15.50,22.50,22,'male','L2Monster',40,541,213,3.95,1.21,40,43,30,21,20,10,726,32,63,86,23,76,218,500,333,0,0,0,0,55,132,0,0,'LAST_HIT','false'),
+(18362,18362,'Garden Guard',0,'',0,'LineageMonster4.Mostro_Fighter',15.50,22.50,20,'male','L2Monster',40,541,213,3.95,1.21,40,43,30,21,10,10,726,32,63,86,23,76,218,500,333,0,0,0,0,55,132,0,0,'LAST_HIT','false'),
+(18363,18363,'Garden Guard',0,'',0,'LineageMonster4.Mostro_Gunner',15.00,24.50,20,'male','L2Monster',40,541,213,3.95,1.21,40,43,30,21,10,10,726,32,63,86,23,76,218,500,333,0,0,0,0,55,132,0,0,'LAST_HIT','false'),
+(18437,18437,'Trap',0,'',0,'LineageNPC.clear_npc',0.10,0.10,1,'male','L2Npc',40,3862,1494,0.00,0.00,0,10,10,21,20,20,0,0,0,0,0,0,0,0,333,0,0,0,0,80,120,0,0,'LAST_HIT','false'),
+(18444,18444,'Garden Guard',0,'',0,'LineageMonster4.Mostro_Fighter',15.50,22.50,21,'male','L2Monster',40,541,213,3.95,1.21,40,43,30,21,10,10,726,32,63,86,23,76,218,500,333,0,0,0,0,55,132,0,0,'LAST_HIT','false'),
+(18483,18483,'Garden Guard',0,'',0,'LineageMonster4.Mostro_Fighter',15.50,22.50,21,'male','L2Monster',40,541,213,3.95,1.21,40,43,30,21,10,10,726,32,63,86,23,76,218,500,333,0,0,0,0,55,132,0,0,'LAST_HIT','false');
+
+UPDATE `npc` SET `type`='L2Monster', `level`=19, `exp`=720,  `sp`=32,  `hp`=720,  `mp`=213, `aggro`=400 where id='18347';  --  庭園的警衛兵
+UPDATE `npc` SET `type`='L2Monster', `level`=20, `exp`=935,  `sp`=35,  `hp`=720,  `mp`=213, `aggro`=400 where id='18348';  --  庭園的警衛兵
+UPDATE `npc` SET `type`='L2Monster', `level`=21, `exp`=920,  `sp`=40,  `hp`=720,  `mp`=213, `aggro`=600, `walkspd`=0, `runspd`=0 where id='18349';  --  庭園的警衛兵
+UPDATE `npc` SET `type`='L2Monster', `level`=21, `exp`=980,  `sp`=40,  `hp`=720,  `mp`=213, `aggro`=400 where id='18350';  --  庭園的警衛兵
+UPDATE `npc` SET `type`='L2Monster', `level`=21, `exp`=980,  `sp`=40,  `hp`=720,  `mp`=213, `aggro`=400 where id='18351';  --  庭園的警衛兵
+UPDATE `npc` SET `type`='L2Monster', `level`=22, `exp`=1807, `sp`=68,  `hp`=1387, `mp`=218, `aggro`=400 where id='18352';  --  闇天使守護者
+UPDATE `npc` SET `type`='L2Monster', `level`=22, `exp`=2401, `sp`=99,  `hp`=1387, `mp`=218, `aggro`=400 where id='18353';  --  紀錄守護者
+UPDATE `npc` SET `type`='L2Monster', `level`=22, `exp`=1807, `sp`=68,  `hp`=1387, `mp`=218, `aggro`=400 where id='18354';  --  觀察守護者
+UPDATE `npc` SET `type`='L2Monster', `level`=22, `exp`=2541, `sp`=99,  `hp`=1387, `mp`=218, `aggro`=400 where id='18355';  --  斯比裘拉守護者
+UPDATE `npc` SET `type`='L2Monster', `level`=22, `exp`=2469, `sp`=111, `hp`=1387, `mp`=218, `aggro`=400 where id='18356';  --  諸天之上守門人
+UPDATE `npc` SET `type`='L2Monster', `level`=22, `exp`=2401, `sp`=99,  `hp`=1387, `mp`=218, `aggro`=400 where id='18357';  --  羅丹彼裘拉守門人
+UPDATE `npc` SET `type`='L2Monster', `level`=22, `exp`=1807, `sp`=68,  `hp`=1387, `mp`=218, `aggro`=400 where id='18358';  --  祕密守護者
+UPDATE `npc` SET `type`='L2Monster', `level`=22, `exp`=1807, `sp`=68,  `hp`=1387, `mp`=218, `aggro`=400 where id='18359';  --  亞爾比泰魯守護者
+UPDATE `npc` SET `type`='L2Monster', `level`=22, `exp`=1807, `sp`=68,  `hp`=1387, `mp`=218, `aggro`=400 where id='18360';  --  凱特奈特守門人
+UPDATE `npc` SET `type`='L2Monster', `level`=22, `exp`=2401, `sp`=99,  `hp`=1387, `mp`=218, `aggro`=400 where id='18361';  --  預測守護者
+UPDATE `npc` SET `type`='L2Monster', `level`=20, `exp`=850,  `sp`=35,  `hp`=582,  `mp`=185, `aggro`=400 where id='18362';  --  庭園的警衛兵
+UPDATE `npc` SET `type`='L2Monster', `level`=20, `exp`=850,  `sp`=35,  `hp`=582,  `mp`=185, `aggro`=400 where id='18363';  --  庭園的警衛兵
+UPDATE `npc` SET `type`='L2Monster', `level`=21, `exp`=1401, `sp`=72,  `hp`=780,  `mp`=185, `aggro`=400 where id='18444';  --  庭園的警衛兵
+UPDATE `npc` SET `type`='L2Monster', `level`=21, `exp`=1757, `sp`=80,  `hp`=780,  `mp`=213, `aggro`=400 where id='18483';  --  庭園的警衛兵
+UPDATE `npc` SET `type`='L2Monster', `level`=17, `exp`=0,    `sp`=0,   `hp`=100,  `mp`=0,   `walkspd`=0, `runspd`=0 where id='18478';  --  藥草甕
 UPDATE `npc` SET `type`='L2Monster', `hp`=999999, `exp`=0, `sp`=0, `mp`=100000, `walkspd`=0, `runspd`=0, `aggro`=500 where id='18437';  --  
 
-REPLACE INTO `npc` VALUES
-(18347,18347,'Garden Guard',0,'',0,'LineageMonster4.Mostro_Fighter',15.50,22.50,21,'male','L2Monster',40,720,213,3.95,1.21,40,43,30,21,20,10,726,32,63,86,23,76,128,500,333,0,0,0,0,55,132,0,0,'LAST_HIT','false'),
-(18348,18348,'Garden Guard',0,'',0,'LineageMonster4.Mostro_Fighter',15.50,22.50,21,'male','L2Monster',40,720,213,3.95,1.21,40,43,30,21,20,10,726,32,63,86,23,76,128,500,333,0,0,0,0,55,132,0,0,'LAST_HIT','false'),
-(18349,18349,'Garden Guard',0,'',0,'LineageMonster4.Mostro_Gunner',15.00,24.50,21,'male','L2Monster',40,720,213,3.95,1.21,40,43,30,21,20,10,726,32,63,86,23,76,128,500,333,0,0,0,0,55,132,0,0,'LAST_HIT','false'),
-(18350,18350,'Garden Guard',0,'',0,'LineageMonster4.Mostro_Fighter',15.50,22.50,21,'male','L2Monster',40,720,213,3.95,1.21,40,43,30,21,20,10,726,32,63,86,23,76,128,500,333,0,0,0,0,55,132,0,0,'LAST_HIT','false'),
-(18351,18351,'Garden Guard',0,'',0,'LineageMonster4.Mostro_Fighter',15.50,22.50,21,'male','L2Monster',40,720,213,3.95,1.21,40,43,30,21,20,10,726,32,63,86,23,76,128,500,333,0,0,0,0,55,132,0,0,'LAST_HIT','false'),
-(18352,18352,'Kamael Guard',0,'',0,'LineageMonster4.Mostro_Fighter',15.50,22.50,22,'male','L2Monster',40,541,213,3.95,1.21,40,43,30,21,20,10,726,32,63,86,23,76,128,500,333,0,0,0,0,55,132,0,0,'LAST_HIT','false'),
-(18353,18353,'Guardian of Records',0,'',0,'LineageMonster4.Mostro_Fighter',15.50,22.50,22,'male','L2Monster',40,541,213,3.95,1.21,40,43,30,21,20,10,726,32,63,86,23,76,128,500,333,0,0,0,0,55,132,0,0,'LAST_HIT','false'),
-(18354,18354,'Guardian of Observation',0,'',0,'LineageMonster4.Mostro_Fighter',15.50,22.50,22,'male','L2Monster',40,541,213,3.95,1.21,40,43,30,21,20,10,726,32,63,86,23,76,128,500,333,0,0,0,0,55,132,0,0,'LAST_HIT','false'),
-(18355,18355,'Spicula\'s Guard',0,'',0,'LineageMonster4.Mostro_Fighter',15.50,22.50,22,'male','L2Monster',40,541,213,3.95,1.21,40,43,30,21,20,10,726,32,63,86,23,76,128,500,333,0,0,0,0,55,132,0,0,'LAST_HIT','false'),
-(18356,18356,'Harkilgamed\'s Gatekeeper',0,'',0,'LineageMonster4.Mostro_Gunner',15.00,24.50,22,'male','L2Monster',40,541,213,3.95,1.21,40,43,30,21,20,10,726,32,63,86,23,76,128,500,333,0,0,0,0,55,132,0,0,'LAST_HIT','false'),
-(18357,18357,'Rodenpicula\'s Gatekeeper',0,'',0,'LineageMonster4.Mostro_Fighter',15.50,22.50,22,'male','L2Monster',40,541,213,3.95,1.21,40,43,30,21,20,10,726,32,63,86,23,76,128,500,333,0,0,0,0,55,132,0,0,'LAST_HIT','false'),
-(18358,18358,'Guardian of Secrets',0,'',0,'LineageMonster4.Mostro_Fighter',15.50,22.50,22,'male','L2Monster',40,541,213,3.95,1.21,40,43,30,21,20,10,726,32,63,86,23,76,128,500,333,0,0,0,0,55,132,0,0,'LAST_HIT','false'),
-(18359,18359,'Arviterre\'s Guardian',0,'',0,'LineageMonster4.Mostro_Fighter',15.50,22.50,22,'male','L2Monster',40,541,213,3.95,1.21,40,43,30,21,20,10,726,32,63,86,23,76,128,500,333,0,0,0,0,55,132,0,0,'LAST_HIT','false'),
-(18360,18360,'Katenar\'s Gatekeeper',0,'',0,'LineageMonster4.Mostro_Fighter',15.50,22.50,22,'male','L2Monster',40,541,213,3.95,1.21,40,43,30,21,20,10,726,32,63,86,23,76,128,500,333,0,0,0,0,55,132,0,0,'LAST_HIT','false'),
-(18361,18361,'Guardian of Prediction',0,'',0,'LineageMonster4.Mostro_Fighter',15.50,22.50,22,'male','L2Monster',40,541,213,3.95,1.21,40,43,30,21,20,10,726,32,63,86,23,76,128,500,333,0,0,0,0,55,132,0,0,'LAST_HIT','false'),
-(18362,18362,'Garden Guard',0,'',0,'LineageMonster4.Mostro_Fighter',15.50,22.50,20,'male','L2Monster',40,541,213,3.95,1.21,40,43,30,21,20,10,726,32,63,86,23,76,128,500,333,0,0,0,0,55,132,0,0,'LAST_HIT','false'),
-(18363,18363,'Garden Guard',0,'',0,'LineageMonster4.Mostro_Gunner',15.00,24.50,20,'male','L2Monster',40,541,213,3.95,1.21,40,43,30,21,20,10,726,32,63,86,23,76,128,500,333,0,0,0,0,55,132,0,0,'LAST_HIT','false'),
-(18444,18444,'Garden Guard',0,'',0,'LineageMonster4.Mostro_Fighter',15.50,22.50,21,'male','L2Monster',40,541,213,3.95,1.21,40,43,30,21,20,10,726,32,63,86,23,76,128,500,333,0,0,0,0,55,132,0,0,'LAST_HIT','false'),
-(18483,18483,'Garden Guard',0,'',0,'LineageMonster4.Mostro_Fighter',15.50,22.50,21,'male','L2Monster',40,541,213,3.95,1.21,40,43,30,21,20,10,726,32,63,86,23,76,128,500,333,0,0,0,0,55,132,0,0,'LAST_HIT','false');
+DELETE FROM npcskills WHERE npcid IN (18437);
 
-UPDATE `npc` SET `type`='L2Monster', `level`=21, `exp`=820,  `sp`=40,  `hp`=720,  `mp`=213, `aggro`=350 where id='18347';  --  庭園的警衛兵
-UPDATE `npc` SET `type`='L2Monster', `level`=21, `exp`=980,  `sp`=40,  `hp`=720,  `mp`=213, `aggro`=350 where id='18348';  --  庭園的警衛兵
-UPDATE `npc` SET `type`='L2Monster', `level`=21, `exp`=920,  `sp`=40,  `hp`=720,  `mp`=213, `aggro`=600, `walkspd`=0, `runspd`=0 where id='18349';  --  庭園的警衛兵
-UPDATE `npc` SET `type`='L2Monster', `level`=21, `exp`=980,  `sp`=40,  `hp`=720,  `mp`=213, `aggro`=350 where id='18350';  --  庭園的警衛兵
-UPDATE `npc` SET `type`='L2Monster', `level`=21, `exp`=980,  `sp`=40,  `hp`=720,  `mp`=213, `aggro`=350 where id='18351';  --  庭園的警衛兵
-UPDATE `npc` SET `type`='L2Monster', `level`=22, `exp`=1807, `sp`=68,  `hp`=1387, `mp`=218, `aggro`=350 where id='18352';  --  闇天使守護者
-UPDATE `npc` SET `type`='L2Monster', `level`=22, `exp`=2401, `sp`=99,  `hp`=1387, `mp`=218, `aggro`=350 where id='18353';  --  紀錄守護者
-UPDATE `npc` SET `type`='L2Monster', `level`=22, `exp`=1807, `sp`=68,  `hp`=1387, `mp`=218, `aggro`=350 where id='18354';  --  觀察守護者
-UPDATE `npc` SET `type`='L2Monster', `level`=22, `exp`=2541, `sp`=99,  `hp`=1387, `mp`=218, `aggro`=350 where id='18355';  --  斯比裘拉守護者
-UPDATE `npc` SET `type`='L2Monster', `level`=22, `exp`=2469, `sp`=111, `hp`=1387, `mp`=218, `aggro`=350 where id='18356';  --  諸天之上守門人
-UPDATE `npc` SET `type`='L2Monster', `level`=22, `exp`=2401, `sp`=99,  `hp`=1387, `mp`=218, `aggro`=350 where id='18357';  --  羅丹彼裘拉守門人
-UPDATE `npc` SET `type`='L2Monster', `level`=22, `exp`=1807, `sp`=68,  `hp`=1387, `mp`=218, `aggro`=350 where id='18358';  --  祕密守護者
-UPDATE `npc` SET `type`='L2Monster', `level`=22, `exp`=1807, `sp`=68,  `hp`=1387, `mp`=218, `aggro`=350 where id='18359';  --  亞爾比泰魯守護者
-UPDATE `npc` SET `type`='L2Monster', `level`=22, `exp`=1807, `sp`=68,  `hp`=1387, `mp`=218, `aggro`=350 where id='18360';  --  凱特奈特守門人
-UPDATE `npc` SET `type`='L2Monster', `level`=22, `exp`=2401, `sp`=99,  `hp`=1387, `mp`=218, `aggro`=350 where id='18361';  --  預測守護者
-UPDATE `npc` SET `type`='L2Monster', `level`=20, `exp`=850,  `sp`=35,  `hp`=582,  `mp`=185, `aggro`=350 where id='18362';  --  庭園的警衛兵
-UPDATE `npc` SET `type`='L2Monster', `level`=20, `exp`=850,  `sp`=35,  `hp`=582,  `mp`=185, `aggro`=350 where id='18363';  --  庭園的警衛兵
-UPDATE `npc` SET `type`='L2Monster', `level`=21, `exp`=1401, `sp`=72,  `hp`=780,  `mp`=185, `aggro`=350 where id='18444';  --  庭園的警衛兵
-UPDATE `npc` SET `type`='L2Monster', `level`=21, `exp`=1757, `sp`=80,  `hp`=780,  `mp`=213, `aggro`=350 where id='18483';  --  庭園的警衛兵
-UPDATE `npc` SET `type`='L2Monster', `level`=17, `exp`=0,    `sp`=0,   `hp`=100,  `mp`=0,   `walkspd`=0, `runspd`=0 where id='18478';  --  藥草甕
+REPLACE INTO `droplist` VALUES
+(18478,8154,1,7,2,700000),-- 生命藥草
+(18478,8155,1,7,2,700000);-- 瑪那藥草

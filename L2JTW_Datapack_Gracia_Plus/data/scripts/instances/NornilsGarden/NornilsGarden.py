@@ -1,11 +1,14 @@
 # Update by pmq 25-09-2010
 
 import sys
+from com.l2jserver.gameserver.datatables            import ItemTable
 from com.l2jserver.gameserver.datatables            import SkillTable
 from com.l2jserver.gameserver.instancemanager       import InstanceManager
 from com.l2jserver.gameserver.instancemanager       import InstanceManager as InstanceWorld
+from com.l2jserver.gameserver.model                 import L2ItemInstance
 from com.l2jserver.gameserver.model.actor.instance  import L2PcInstance
 from com.l2jserver.gameserver.model.entity          import Instance
+from com.l2jserver.gameserver.model.itemcontainer   import PcInventory
 from com.l2jserver.gameserver.model.quest           import State
 from com.l2jserver.gameserver.model.quest           import QuestState
 from com.l2jserver.gameserver.model.quest.jython    import QuestJython as JQuest
@@ -13,9 +16,6 @@ from com.l2jserver.gameserver.network               import SystemMessageId
 from com.l2jserver.gameserver.network.serverpackets import NpcSay
 from com.l2jserver.gameserver.network.serverpackets import SystemMessage
 from com.l2jserver.gameserver.network.serverpackets import MagicSkillUse
-from com.l2jserver.gameserver.datatables            import ItemTable
-from com.l2jserver.gameserver.model                 import L2ItemInstance
-from com.l2jserver.gameserver.model.itemcontainer   import PcInventory
 from com.l2jserver.gameserver.network.serverpackets import InventoryUpdate
 from com.l2jserver.gameserver.network.serverpackets import ExShowScreenMessage
 
@@ -123,10 +123,11 @@ def enterInstance(self,player,template,tele,quest):
         if not foundworld:
             player.sendPacket(SystemMessage.sendString("Your Party Members are in another Instance."))    
             return
-        instanceObj = InstanceManager.getInstance().getInstance(instanceId)
-        if instanceObj.getCountPlayers() >= PartySize[dataIndex]:
-            player.sendPacket(SystemMessage(2112))
-            return
+#        instanceObj = InstanceManager.getInstance().getInstance(instanceId)
+#        if instanceObj.getPlayerWorld() >= PartySize[dataIndex]:
+#            player.sendPacket(SystemMessage(2112))
+#            return
+        player.stopAllEffects()
         tele.instanceId = instanceId
         teleportPlayer(self, player, tele)
     return
@@ -143,9 +144,6 @@ def runStartRoom(self, world):
     world.status = 0
     world.startRoom = PyObject()
     world.startRoom.npclist = {}
-    newNpc = self.addSpawn(18379,-111478,74271,-12341,0,False,0,False,world.instanceId)
-    newNpc.setIsNoRndWalk(True)
-    world.startRoom.npclist[newNpc] = False
     newNpc = self.addSpawn(18348,-109613,75659,-12629,34047,False,0,False,world.instanceId)
     newNpc.setIsNoRndWalk(True)
     world.startRoom.npclist[newNpc] = False
@@ -704,6 +702,7 @@ def runStartRoom(self, world):
     # 輔助加加裝置
     newNpc = self.addSpawn(18437,-111287,74504,-12441,0,False,0,False,world.instanceId)
     newNpc.setIsNoRndWalk(True)
+    newNpc.setIsInvul(True)
     world.startRoom.npclist[newNpc] = False
     # 藥草甕
     newNpc = self.addSpawn(18478,-109975,86016,-12981,18574,False,0,False,world.instanceId)
@@ -770,6 +769,32 @@ def runStartRoom(self, world):
     newNpc.setIsNoRndWalk(True)
     world.startRoom.npclist[newNpc] = False
 
+def runSecondRoom(self, world):
+    world.status = 2
+    world.startRoom = PyObject()
+    world.startRoom.npclist = {}
+    newNpc = self.addSpawn(18349,-110594,78277,-12850,47308,False,0,False,world.instanceId)#
+    newNpc.setIsNoRndWalk(True)
+    world.startRoom.npclist[newNpc] = False
+    newNpc = self.addSpawn(18350,-110356,78260,-12848,49151,False,0,False,world.instanceId)#
+    newNpc.setIsNoRndWalk(True)
+    world.startRoom.npclist[newNpc] = False
+    newNpc = self.addSpawn(18350,-110478,78423,-12888,48408,False,0,False,world.instanceId)#
+    newNpc.setIsNoRndWalk(True)
+    world.startRoom.npclist[newNpc] = False
+    newNpc = self.addSpawn(18350,-110484,78619,-12917,47671,False,0,False,world.instanceId)#
+    newNpc.setIsNoRndWalk(True)
+    world.startRoom.npclist[newNpc] = False
+    newNpc = self.addSpawn(18350,-110360,79079,-12917,49700,False,0,False,world.instanceId)#
+    newNpc.setIsNoRndWalk(True)
+    world.startRoom.npclist[newNpc] = False
+    newNpc = self.addSpawn(18350,-110586,79178,-12917,49151,False,0,False,world.instanceId)#
+    newNpc.setIsNoRndWalk(True)
+    world.startRoom.npclist[newNpc] = False
+    newNpc = self.addSpawn(18350,-110579,78912,-12917,46671,False,0,False,world.instanceId)#
+    newNpc.setIsNoRndWalk(True)
+    world.startRoom.npclist[newNpc] = False
+
 class PyObject:
     pass
 
@@ -806,11 +831,12 @@ class NornilsGarden(JQuest) :
             htmltext = "32260-05.htm"
         elif event == "32260-06a.htm" :
             st.set("pass",str(passwrd+1))
-            world = self.worlds[player.getInstanceId()]
-            openDoor(16200014, world.instanceId) # 過去之門
-            player.sendPacket(ExShowScreenMessage("被掩蓋的創造主...",30000))
-            htmltext = "被掩蓋的創造主..."
-            if st.getInt("pass") != 4:
+            if st.getInt("pass") == 4:
+                world = self.worlds[player.getInstanceId()]
+                openDoor(16200014, world.instanceId) # 過去之門
+                player.sendPacket(ExShowScreenMessage("被掩蓋的創造主...",15000))
+                htmltext = "被掩蓋的創造主..."
+            else:
                 return "32260-06.htm"
         elif event == "32261-02.htm" :
             st.set("pass","0")
@@ -825,11 +851,12 @@ class NornilsGarden(JQuest) :
             htmltext = "32261-05.htm"
         elif event == "32261-06a.htm" :
             st.set("pass",str(passwrd+1))
-            world = self.worlds[player.getInstanceId()]
-            openDoor(16200015, world.instanceId) # 現在之門
-            player.sendPacket(ExShowScreenMessage("應封印起來的種族",30000))
-            htmltext = "應封印起來的種族"
-            if st.getInt("pass") != 4:
+            if st.getInt("pass") == 4:
+                world = self.worlds[player.getInstanceId()]
+                openDoor(16200015, world.instanceId) # 現在之門
+                player.sendPacket(ExShowScreenMessage("應封印起來的種族",15000))
+                htmltext = "應封印起來的種族"
+            else:
                 return "32261-06.htm"
         elif event == "32262-02.htm" :
             st.set("pass","0")
@@ -847,11 +874,12 @@ class NornilsGarden(JQuest) :
             htmltext = "32262-06.htm"
         elif event == "32262-07a.htm" :
             st.set("pass",str(passwrd+1))
-            world = self.worlds[player.getInstanceId()]
-            openDoor(16200016, world.instanceId) # 未來之門
-            player.sendPacket(ExShowScreenMessage("渾沌的未來...",30000))
-            htmltext = "渾沌的未來..."
-            if st.getInt("pass") != 5:
+            if st.getInt("pass") == 5:
+                world = self.worlds[player.getInstanceId()]
+                openDoor(16200016, world.instanceId) # 未來之門
+                player.sendPacket(ExShowScreenMessage("渾沌的未來...",15000))
+                htmltext = "渾沌的未來..."
+            else:
                 return "32262-07.htm"
         return htmltext
 
@@ -891,8 +919,8 @@ class NornilsGarden(JQuest) :
                 for partyMember in party.getPartyMembers().toArray() :
                     st = partyMember.getQuestState(qn)
                     if not st : st = self.newQuestState(partyMember)
-        world = self.worlds[player.getInstanceId()]
-        if world.status >= 0 :
+        if self.worlds.has_key(npc.getInstanceId()):
+            world = self.worlds[npc.getInstanceId()]
             st2 = player.getQuestState("179_IntoTheLargeCavern")
             if st2 :
                 if npcId == 32260 :
@@ -925,12 +953,14 @@ class NornilsGarden(JQuest) :
         if self.worlds.has_key(npc.getInstanceId()):
             world = self.worlds[npc.getInstanceId()]
             if npc.getNpcId() == 18437:
-                npc.getAggroList().remove(player)
-                npc.setTarget(player)
-                npc.doCast(SkillTable.getInstance().getInfo(4322,1))
-                npc.doCast(SkillTable.getInstance().getInfo(4327,1))
-                npc.doCast(SkillTable.getInstance().getInfo(4329,1))
-                npc.doCast(SkillTable.getInstance().getInfo(4324,1))
+                if player.isInsideRadius(player, 500, False, False):
+                    npc.getAggroList().remove(player)
+                    npc.setTarget(player)
+                    npc.doCast(SkillTable.getInstance().getInfo(4322,1))
+                    npc.doCast(SkillTable.getInstance().getInfo(4327,1))
+                    npc.doCast(SkillTable.getInstance().getInfo(4329,1))
+                    npc.doCast(SkillTable.getInstance().getInfo(4324,1))
+                    #return
         return
 
     def onKill(self,npc,player,isPet):
@@ -946,6 +976,7 @@ class NornilsGarden(JQuest) :
             elif npcId == 18353 :            # 紀錄守護者
                 dropItem(player,npc,9704,1)  # 紀錄之門的鑰匙       可打開紀錄之門的鑰匙。
             elif npcId == 18354 :            # 觀察守護者
+                runSecondRoom(self, world)
                 dropItem(player,npc,9705,1)  # 觀察之門的鑰匙       可打開觀察之門的鑰匙。
             elif npcId == 18355 :            # 斯比裘拉守護者
                 dropItem(player,npc,9706,1)  # 斯比裘拉之門的鑰匙   可打開斯比裘拉之門的鑰匙。
@@ -983,5 +1014,5 @@ QUEST.addAttackId(18347)
 
 QUEST.addAggroRangeEnterId(18437)
 
-for mob in [25528,18352,18353,18354,18355,18356,18357,18358,18359,18360,18361] :
+for mob in [25528,18352,18353,18354,18355,18356,18357,18358,18359,18360,18361,18478] :
 	QUEST.addKillId(mob)
