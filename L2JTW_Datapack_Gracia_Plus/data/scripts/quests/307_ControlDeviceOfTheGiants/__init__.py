@@ -46,15 +46,15 @@ class Quest (JQuest) :
 				st.addRadar(x,y,z)
 				htmltext = "32711-06.htm"
 			elif npcId in RADAR1.keys():
-				x,y,z = RADAR[npcId]
+				x,y,z = RADAR1[npcId]
 				st.addRadar(x,y,z)
 				htmltext = "32711-07.htm"
 			elif npcId in RADAR2.keys():
-				x,y,z = RADAR[npcId]
+				x,y,z = RADAR2[npcId]
 				st.addRadar(x,y,z)
 				htmltext = "32711-08.htm"
 			elif npcId in RADAR3.keys():
-				x,y,z = RADAR[npcId]
+				x,y,z = RADAR3[npcId]
 				st.addRadar(x,y,z)
 				htmltext = "MISS"
 		return htmltext

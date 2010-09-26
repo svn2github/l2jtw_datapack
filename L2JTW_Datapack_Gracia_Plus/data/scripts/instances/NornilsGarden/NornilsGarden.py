@@ -1,6 +1,7 @@
 # Update by pmq 25-09-2010
 
 import sys
+from com.l2jserver.gameserver.datatables            import DoorTable
 from com.l2jserver.gameserver.datatables            import ItemTable
 from com.l2jserver.gameserver.datatables            import SkillTable
 from com.l2jserver.gameserver.instancemanager       import InstanceManager
@@ -18,13 +19,12 @@ from com.l2jserver.gameserver.network.serverpackets import SystemMessage
 from com.l2jserver.gameserver.network.serverpackets import MagicSkillUse
 from com.l2jserver.gameserver.network.serverpackets import InventoryUpdate
 from com.l2jserver.gameserver.network.serverpackets import ExShowScreenMessage
+from com.l2jserver.util                             import Rnd
 
 qn = "NornilsGarden"
 
 InstanceTemplate = "NGarden.xml"
 Class = [0, 10, 18, 25, 31, 38, 44, 49, 53, 123, 124]
-
-dataIndex = 0
 
 def dropItem(player,npc,itemId,count):
     ditem = ItemTable.getInstance().createItem("Loot", itemId, count, player)
@@ -121,12 +121,8 @@ def enterInstance(self,player,template,tele,quest):
             if worldid == instanceId:
                 foundworld = True
         if not foundworld:
-            player.sendPacket(SystemMessage.sendString("Your Party Members are in another Instance."))    
+            player.sendPacket(SystemMessage.sendString("你的隊員已進入其它的即時地區。"))    
             return
-#        instanceObj = InstanceManager.getInstance().getInstance(instanceId)
-#        if instanceObj.getPlayerWorld() >= PartySize[dataIndex]:
-#            player.sendPacket(SystemMessage(2112))
-#            return
         player.stopAllEffects()
         tele.instanceId = instanceId
         teleportPlayer(self, player, tele)
@@ -960,7 +956,7 @@ class NornilsGarden(JQuest) :
                     npc.doCast(SkillTable.getInstance().getInfo(4327,1))
                     npc.doCast(SkillTable.getInstance().getInfo(4329,1))
                     npc.doCast(SkillTable.getInstance().getInfo(4324,1))
-                    #return
+                    return
         return
 
     def onKill(self,npc,player,isPet):

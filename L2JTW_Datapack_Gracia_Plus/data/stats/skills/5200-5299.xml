@@ -685,10 +685,20 @@
 		</for>
 	</skill>
 	<skill id="5260" levels="12" name="Disarm">
-		<set name="target" val="TARGET_NONE" />
-		<set name="skillType" val="NOTDONE" />
-		<set name="operateType" val="OP_PASSIVE" />
+		<!-- Update by pmq -->
 		<set name="hitTime" val="1500" />
+		<set name="isDebuff" val="true" />
+		<set name="operateType" val="OP_ACTIVE" />
+		<set name="power" val="100" /> <!-- Base Land Rate -->
+		<set name="ignoreResists" val="true" />
+		<set name="castRange" val="600" />
+		<set name="effectRange" val="1100" />
+		<set name="reuseDelay" val="10000" />
+		<set name="skillType" val="DISARM" />
+		<set name="target" val="TARGET_ONE" />
+		<for>
+			<effect name="Disarm" time="5" val="0" />
+		</for>
 	</skill>
 	<skill id="5261" levels="1" name="Zombie">
 		<set name="target" val="TARGET_NONE" />
