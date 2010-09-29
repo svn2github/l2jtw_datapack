@@ -78,7 +78,7 @@ def NextTimeInstance(player):
     INSTANCEID = 11
     party = player.getParty()
     for partyMember in party.getPartyMembers().toArray():
-        InstanceManager.getInstance().setInstanceTime(partyMember.getObjectId(), INSTANCEID, ((System.currentTimeMillis() + 300000))) # 再進入時間 3小時 = 18000000
+        InstanceManager.getInstance().setInstanceTime(partyMember.getObjectId(), INSTANCEID, ((System.currentTimeMillis() + 18000000))) # 再進入時間 3小時 = 18000000
         sm = SystemMessage(SystemMessageId.INSTANT_ZONE_RESTRICTED)
         sm.addString(InstanceManager.getInstance().getInstanceIdName(INSTANCEID))
         partyMember.sendPacket(sm)
