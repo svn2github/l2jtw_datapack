@@ -1,6 +1,8 @@
 # Update by pmq 25-09-2010
 
 import sys
+from java.lang                                      import System
+from com.l2jserver.gameserver.ai                    import CtrlIntention
 from com.l2jserver.gameserver.datatables            import DoorTable
 from com.l2jserver.gameserver.datatables            import ItemTable
 from com.l2jserver.gameserver.datatables            import SkillTable
@@ -16,10 +18,9 @@ from com.l2jserver.gameserver.model.quest.jython    import QuestJython as JQuest
 from com.l2jserver.gameserver.network               import SystemMessageId
 from com.l2jserver.gameserver.network.serverpackets import NpcSay
 from com.l2jserver.gameserver.network.serverpackets import SystemMessage
-from com.l2jserver.gameserver.network.serverpackets import MagicSkillUse
 from com.l2jserver.gameserver.network.serverpackets import InventoryUpdate
 from com.l2jserver.gameserver.network.serverpackets import ExShowScreenMessage
-from com.l2jserver.util                             import Rnd
+
 
 qn = "NornilsGarden"
 
@@ -73,6 +74,15 @@ def checkNewInstanceConditions(player):
             return False
     return True
 
+def NextTimeInstance(player):
+    INSTANCEID = 11
+    party = player.getParty()
+    for partyMember in party.getPartyMembers().toArray():
+        InstanceManager.getInstance().setInstanceTime(partyMember.getObjectId(), INSTANCEID, ((System.currentTimeMillis() + 300000))) # 再進入時間 3小時 = 18000000
+        sm = SystemMessage(SystemMessageId.INSTANT_ZONE_RESTRICTED)
+        sm.addString(InstanceManager.getInstance().getInstanceIdName(INSTANCEID))
+        partyMember.sendPacket(sm)
+
 def getExistingInstanceId(player):
     instanceId = 0
     party = player.getParty()
@@ -106,6 +116,7 @@ def enterInstance(self,player,template,tele,quest):
             self.world_ids.append(instanceId)
             self.currentWorld = instanceId
             player.stopAllEffects()
+            print "諾爾妮庭園：使用 " + template + " 即時地區：" + str(instanceId) + " 創造玩家：" + str(player.getName()) 
             runStartRoom(self, world)
             tele.instanceId = instanceId
             teleportPlayer(self, player, tele)
@@ -910,11 +921,6 @@ class NornilsGarden(JQuest) :
             tele.y = 74553
             tele.z = -12432
             enterInstance(self, player, "NGarden.xml", tele, self)
-            party = player.getParty()
-            if party :
-                for partyMember in party.getPartyMembers().toArray() :
-                    st = partyMember.getQuestState(qn)
-                    if not st : st = self.newQuestState(partyMember)
         if self.worlds.has_key(npc.getInstanceId()):
             world = self.worlds[npc.getInstanceId()]
             st2 = player.getQuestState("179_IntoTheLargeCavern")
@@ -949,14 +955,14 @@ class NornilsGarden(JQuest) :
         if self.worlds.has_key(npc.getInstanceId()):
             world = self.worlds[npc.getInstanceId()]
             if npc.getNpcId() == 18437:
-                if player.isInsideRadius(player, 500, False, False):
-                    npc.getAggroList().remove(player)
-                    npc.setTarget(player)
-                    npc.doCast(SkillTable.getInstance().getInfo(4322,1))
-                    npc.doCast(SkillTable.getInstance().getInfo(4327,1))
-                    npc.doCast(SkillTable.getInstance().getInfo(4329,1))
-                    npc.doCast(SkillTable.getInstance().getInfo(4324,1))
-                    return
+                npc.getAI().setIntention(CtrlIntention.AI_INTENTION_IDLE)
+                npc.getAggroList().remove(player)
+                npc.setTarget(player)
+                npc.doCast(SkillTable.getInstance().getInfo(4322,1))
+                npc.doCast(SkillTable.getInstance().getInfo(4327,1))
+                npc.doCast(SkillTable.getInstance().getInfo(4329,1))
+                npc.doCast(SkillTable.getInstance().getInfo(4324,1))
+                return
         return
 
     def onKill(self,npc,player,isPet):
@@ -968,6 +974,7 @@ class NornilsGarden(JQuest) :
                 npc.broadcastPacket(NpcSay(objId, 0, npc.getNpcId(), "真有實力。到了這個程度，那我也就認同你達到了可以通過我的水準。拿著鑰匙離開此地吧。"))
                 dropItem(player,npc,9712,1)  # 大空洞之門的鑰匙     可打開大空洞之門的鑰匙。
             elif npcId == 18352 :            # 闇天使守護者
+                NextTimeInstance(player)
                 dropItem(player,npc,9703,1)  # 闇天使之門的鑰匙     可打開闇天使之門的鑰匙。
             elif npcId == 18353 :            # 紀錄守護者
                 dropItem(player,npc,9704,1)  # 紀錄之門的鑰匙       可打開紀錄之門的鑰匙。
@@ -990,8 +997,8 @@ class NornilsGarden(JQuest) :
                 openDoor(16200013, world.instanceId)
                 dropItem(player,npc,9709,1)  # 亞爾比泰魯之門的鑰匙 可打開亞爾比泰魯之門的鑰匙。
             elif npcId == 18360 :            # 凱特奈特守門人
-                #openDoor(16200017, world.instanceId)
-                #openDoor(16200023, world.instanceId)
+                openDoor(16200017, world.instanceId)
+                openDoor(16200023, world.instanceId)
                 dropItem(player,npc,9710,1)  # 鑰匙-雷歐波爾德      可打開凱特奈特之門的鑰匙。
             elif npcId == 18361 :            # 預測守護者
                 dropItem(player,npc,9711,1)  # 預測之門的鑰匙       可打開預測之門的鑰匙。
