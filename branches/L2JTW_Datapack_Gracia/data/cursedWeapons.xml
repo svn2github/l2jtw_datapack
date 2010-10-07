@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<list>
+	<item id="8190" skillId="3603" name="魔劍‧薩雷奇">
+		<dropRate val="1" /> <!-- 掉落機率。(％) 100000 = 100% -->
+		<duration val="300" /> <!-- 持有時間。(分鐘) -->
+		<durationLost val="3" /> <!-- 掉落後消失時間。(分鐘) -->
+		<disapearChance val="50" /> <!-- 死亡後消失機率。(％) -->
+		<stageKills val="10" /> <!-- 升級獵殺數量。(人) -->
+	</item>
+	<item id="8689" skillId="3629" name="血劍‧阿卡瑪那夫">
+		<dropRate val="1" /> <!-- 掉落機率。(％) 100000 = 100% -->
+		<duration val="300" /> <!-- 持有時間。(分鐘) -->
+		<durationLost val="3" /> <!-- 掉落後消失時間。(分鐘) -->
+		<disapearChance val="50" /> <!-- 死亡後消失機率。(％) -->
+		<stageKills val="10" /> <!-- 升級獵殺數量。(人) -->
+	</item>
+</list>

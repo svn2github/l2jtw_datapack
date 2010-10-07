@@ -1,0 +1,7 @@
+#Messages
+error_1   = "<html><body>首席調查員蕭伯霖：<br>謝謝你的好意，等你等級再高一點的時候，再來找我吧。<br><font color=\"LEVEL\">(等級達到57以上才能執行此任務)</font></body></html>"
+start     = "<html><body>首席調查員蕭伯霖：<br>所以，克里弗叫你將這本辭典拿給我們，嗯‧‧‧這樣我可以來看一下這本書的內容。這真是令人驚奇阿‧‧‧原來還有更多的古代遺物是我們還沒發現的，也許你還願意幫我們繼續找尋這些還未尋獲的古代遺物，我們現在要找的是<font color=\"LEVEL\">巨人的科學理論、下巨人文化年鑑</font>。<br>我們的報償是你無法拒絕的<font color=\"LEVEL\">A級制捲</font>，當然你如果找到其他的遺物，我們是不會接受的，我們只接受有關下巨人的書籍。<br><a action=\"bypass -h Quest 377_GiantsExploration2 yes\">我願意尋找古代文獻</a><br><a action=\"bypass -h Quest 377_GiantsExploration2 0\">現在我沒有時間幫你</a><br></body></html>"
+checkout  = "<html><body>首席調查員蕭伯霖：<br>太好了！你終於回來了！找尋文獻的過程有遇到困難嗎？<br>讓我看看你找到了些什麼‧‧‧<br><a action=\"bypass -h Quest 377_GiantsExploration2 show\">讓他觀看找到的文獻</a></body></html>"
+checkout2 = "<html><body>首席調查員蕭伯霖：<br>太好了！你終於回來了！找尋文獻的過程有遇到困難嗎？<br>嗯‧‧‧這是什麼？這一些古代的文獻，除非你能將內容翻譯出來，不然這對於我是沒有用處的，我沒有時間去了解內容，這就是為什麼我給你那本古代的中級辭典的用意。也許你還有其他的文獻是我所需要的‧‧‧<br><br><a action=\"bypass -h Quest 377_GiantsExploration2 show\">讓他觀看其他的文獻</a></body></html>"
+no_items  = "<html><body>首席調查員蕭伯霖：<br>嗯‧‧‧這裡沒有我想要的東西，你應該繼續你的冒險了。我相信你可以做的更好只要你再努力一點‧‧‧你覺得呢？<br><a action=\"bypass -h Quest 377_GiantsExploration2 Starting.htm\">我會繼續找尋文獻</a><br><a action=\"bypass -h Quest 377_GiantsExploration2 0\">我想要休息</a></body></html>"
+tnx4items = "<html><body>首席調查員蕭伯霖：<br>真是太好了！這些就是我在尋找的東西‧‧‧拿去吧，這是我的一點心意。不管怎樣，我相信在巨人洞穴裡還有更多的文獻還沒被發現，你願意繼續去尋找嗎？<br><a action=\"bypass -h Quest 377_GiantsExploration2 Starting.htm\">我願意繼續找尋文獻</a><br><a action=\"bypass -h Quest 377_GiantsExploration2 0\">我想要休息</a></body></html>"
