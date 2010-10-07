@@ -170,7 +170,7 @@ public class PailakaInjuredDragon extends Quest {
 		{
 			final int instanceId = InstanceManager.getInstance().createDynamicInstance("PailakaInjuredDragon.xml");
 
-			world = InstanceManager.getInstance().new InstanceWorld();
+			world = new InstanceWorld();
 			world.instanceId = instanceId;
 			world.templateId = INSTANCE_ID;
 			InstanceManager.getInstance().addWorld(world);
@@ -390,7 +390,7 @@ public class PailakaInjuredDragon extends Quest {
 		if (character instanceof L2PcInstance
 				&& !character.isDead()
 				&& !character.isTeleporting()
-				&& ((L2PcInstance)character).isOnline() > 0)
+				&& ((L2PcInstance)character).isOnline())
 		{
 			InstanceWorld world = InstanceManager.getInstance().getWorld(character.getInstanceId());
 			if (world != null && world.templateId == INSTANCE_ID)

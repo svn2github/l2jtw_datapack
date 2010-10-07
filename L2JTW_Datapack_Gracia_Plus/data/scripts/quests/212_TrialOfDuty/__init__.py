@@ -79,7 +79,8 @@ class Quest (JQuest) :
       htmltext = "<html><body>這是已經完成的任務。</body></html>"
 
    elif npcId == 30109 and cond == 18  and st.getQuestItemsCount(LETTER_OF_DUSTIN):
-      st.addExpAndSp(79832,3750)
+      st.addExpAndSp(381288,24729)
+      st.giveItems(57,69484)
       st.giveItems(7562,8)
       htmltext = "30109-05.htm"
       st.takeItems(LETTER_OF_DUSTIN,1)

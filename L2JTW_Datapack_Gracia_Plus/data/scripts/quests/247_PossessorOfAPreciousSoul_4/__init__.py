@@ -37,6 +37,7 @@ class Quest (JQuest) :
      if cond == 2 :
        st.set("cond","0")
        st.getPlayer().setNoble(True)
+       st.addExpAndSp(93836,0)
        st.giveItems(NOBLESS_TIARA,1)
        st.playSound("ItemSound.quest_finish")
        st.exitQuest(False)

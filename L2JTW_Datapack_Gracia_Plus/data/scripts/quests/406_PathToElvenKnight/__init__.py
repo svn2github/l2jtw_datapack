@@ -15,8 +15,6 @@ ELVEN_KNIGHT_BROOCH = 1204
 TOPAZ_PIECE = 1205
 EMERALD_PIECE = 1206
 KLUTO_MEMO = 1276
-#messages
-default="<html><body>目前沒有執行任務，或條件不符。</body></html>"
 
 class Quest (JQuest) :
 
@@ -52,9 +50,9 @@ class Quest (JQuest) :
              st.giveItems(KLUTO_MEMO,1)
              st.set("cond","4")
           else :
-             htmltext = default
+             htmltext = "<html><body>目前沒有執行任務，或條件不符。</body></html>"
        else :
-          htmltext = default
+          htmltext = "<html><body>目前沒有執行任務，或條件不符。</body></html>"
     return htmltext
 
  def onTalk (self,npc,player):

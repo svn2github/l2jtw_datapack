@@ -27,6 +27,7 @@ import com.l2jserver.gameserver.network.serverpackets.SystemMessage;
 import com.l2jserver.gameserver.templates.item.L2Weapon;
 import com.l2jserver.gameserver.templates.skills.L2SkillType;
 import com.l2jserver.gameserver.datatables.MessageTable;
+
 public class FishingSkill implements ISkillHandler
 {
 	private static final L2SkillType[] SKILL_IDS =
@@ -90,7 +91,7 @@ public class FishingSkill implements ISkillHandler
 			fish.useRealing(dmg, pen);
 		}
 		else
-		//Pumping
+			//Pumping
 		{
 			fish.usePomping(dmg, pen);
 		}

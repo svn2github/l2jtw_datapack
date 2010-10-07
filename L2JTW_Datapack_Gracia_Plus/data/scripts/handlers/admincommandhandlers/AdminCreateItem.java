@@ -188,7 +188,7 @@ public class AdminCreateItem implements IAdminCommandHandler
 			{
 				for (L2PcInstance onlinePlayer : pls)
 				{
-					if (activeChar != onlinePlayer && onlinePlayer.isOnline() == 1 && (onlinePlayer.getClient() != null && !onlinePlayer.getClient().isDetached()))
+					if (activeChar != onlinePlayer && onlinePlayer.isOnline() && (onlinePlayer.getClient() != null && !onlinePlayer.getClient().isDetached()))
 					{
 						onlinePlayer.getInventory().addItem("Admin", idval, numval, onlinePlayer, activeChar);
 						onlinePlayer.sendMessage(MessageTable.Messages[1485].getExtra(1)+numval+MessageTable.Messages[1485].getExtra(2)+template.getName()+MessageTable.Messages[1485].getExtra(3));

@@ -24,6 +24,7 @@ import com.l2jserver.gameserver.network.serverpackets.NpcHtmlMessage;
 import com.l2jserver.gameserver.network.serverpackets.StaticObject;
 import com.l2jserver.util.StringUtil;
 import com.l2jserver.gameserver.datatables.MessageTable;
+
 public class L2StaticObjectInstanceActionShift implements IActionHandler
 {
 	public boolean action(L2PcInstance activeChar, L2Object target, boolean interact)
@@ -32,10 +33,10 @@ public class L2StaticObjectInstanceActionShift implements IActionHandler
 		{
 			activeChar.setTarget(target);
 			activeChar.sendPacket(new MyTargetSelected(target.getObjectId(), activeChar.getLevel()));
-
+			
 			StaticObject su = new StaticObject((L2StaticObjectInstance)target);
 			activeChar.sendPacket(su);
-
+			
 			NpcHtmlMessage html = new NpcHtmlMessage(target.getObjectId());
 			final String html1 = StringUtil.concat(
 					"<html><body><center><font color=\"LEVEL\">Static Object Info</font></center><br><table border=0><tr><td>Coords X,Y,Z: </td><td>",
@@ -59,7 +60,7 @@ public class L2StaticObjectInstanceActionShift implements IActionHandler
 		}
 		return true;
 	}
-
+	
 	public InstanceType getInstanceType()
 	{
 		return InstanceType.L2StaticObjectInstance;

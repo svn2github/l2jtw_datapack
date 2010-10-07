@@ -63,8 +63,6 @@ PLATINUM_PRE:[BK_PAP,25],
 MESSENGER_A1:[WH_PAP,25],
 MESSENGER_A2:[WH_PAP,25]
 }
-#Messages
-default = "<html><body>目前沒有執行任務，或條件不符。</body></html>"
 #Helpers
 def check_n_take(st,collection) :
     result = False
@@ -134,7 +132,7 @@ class Quest (JQuest) :
     return htmltext
 
  def onTalk (self,npc,player):
-   htmltext = default
+   htmltext = "<html><body>目前沒有執行任務，或條件不符。</body></html>"
    st = player.getQuestState(qn)
    if not st : return htmltext
 

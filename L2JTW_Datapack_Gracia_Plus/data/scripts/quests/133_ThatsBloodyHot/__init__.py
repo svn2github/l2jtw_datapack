@@ -32,7 +32,8 @@ class Quest (JQuest) :
    elif event == "32292-03.htm" :
      st.takeItems(CRYSTAL_SAMPLE,-1)
    elif event == "32292-04.htm" :
-     st.addExpAndSp(670612,0)
+     st.giveItems(57,254247)
+     st.addExpAndSp(331457,32524)
      st.playSound("ItemSound.quest_finish")
      st.exitQuest(False)
    return htmltext

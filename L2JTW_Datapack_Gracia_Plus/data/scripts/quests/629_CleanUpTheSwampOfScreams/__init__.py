@@ -27,8 +27,6 @@ CHANCE={
     21517:560
 }
 
-default="<html><body>目前沒有執行任務，或條件不符。</body></html>"
-
 class Quest (JQuest) :
 
  def __init__(self,id,name,descr):
@@ -43,7 +41,7 @@ class Quest (JQuest) :
        st.setState(State.STARTED)
        st.playSound("ItemSound.quest_accept")
      else:
-       htmltext=default
+       htmltext = "<html><body>目前沒有執行任務，或條件不符。</body></html>"
        st.exitQuest(1)
    elif event == "31553-3.htm" :
      if st.getQuestItemsCount(CLAWS) >= 100 :
@@ -58,7 +56,7 @@ class Quest (JQuest) :
 
  def onTalk (self,npc,player):
    st = player.getQuestState(qn)
-   htmltext = default
+   htmltext = "<html><body>目前沒有執行任務，或條件不符。</body></html>"
    if st :
        npcId = npc.getNpcId()
        id = st.getState()

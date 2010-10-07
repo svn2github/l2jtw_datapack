@@ -109,6 +109,7 @@ class Quest (JQuest) :
        elif npcId == 30307 and st.getInt("cond")==8 and st.getQuestItemsCount(STEELBENDERS_HEAD_ID)==1 :
             htmltext = "30307-07.htm"
             st.giveItems(57,19799)
+            st.addExpAndSp(46663,3999)
             st.takeItems(STEELBENDERS_HEAD_ID,1)
             st.giveItems(BLOODSABER_ID,1)
             st.rewardItems(1060,100)     # Lesser Healing Potions

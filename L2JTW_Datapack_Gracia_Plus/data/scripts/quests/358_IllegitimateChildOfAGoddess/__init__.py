@@ -23,9 +23,6 @@ REWARDS=range(6329,6340,2)+range(5364,5367,2)
 #Changing this value to non-zero, will turn recipes to 100% instead of 70/60%
 ALT_RP_100 = 0
 
-#Messages
-default   = "<html><body>目前沒有執行任務，或條件不符。</body></html>"
-
 #NPCs
 OLTLIN = 30862
 
@@ -59,7 +56,7 @@ class Quest (JQuest) :
     return htmltext
 
  def onTalk (self,npc,player):
-   htmltext = default
+   htmltext = "<html><body>目前沒有執行任務，或條件不符。</body></html>"
    st = player.getQuestState(qn)
    if not st : return htmltext
 

@@ -34,7 +34,7 @@ public class Ol_Mahum_General extends L2AttackableAIScript
 	{
 		super(questId, name, descr);
 		int[] mobs = {Ol_Mahum_General};
-		registerMobs(mobs);
+		registerMobs(mobs, QuestEventType.ON_ATTACK, QuestEventType.ON_KILL);
 		_FirstAttacked = false;
 	}
 

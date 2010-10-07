@@ -45,7 +45,7 @@ class Quest (JQuest) :
      st.playSound("ItemSound.quest_middle")
    elif event == "32264-13.htm" :
      st.takeItems(ECHO_CRYSTAL, 1)
-     st.addExpAndSp(1304752, 0)
+     st.addExpAndSp(250677,25019)
      st.playSound("ItemSound.quest_finish")
      st.exitQuest(False)
    return htmltext

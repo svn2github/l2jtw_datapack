@@ -108,7 +108,7 @@ class Quest (JQuest) :
 				elif cond == 6 :
 					htmltext = "31328-19.htm"
 			elif npcId == BrokenBookshelf:
-				if cond == 2 : 
+				if cond == 2 :
 					if st.getQuestItemsCount(SilverKey) != 0:
 						htmltext = "31526-00.htm"
 						st.playSound("ItemSound.quest_middle")

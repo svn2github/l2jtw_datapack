@@ -1,174 +1,212 @@
+# 2010-06-26 by Gnacik
+# Based on official server Franz
+
 import sys
-from com.l2jserver.gameserver.datatables            import SkillTable
-from com.l2jserver.gameserver.model.actor.instance  import L2PcInstance
-from com.l2jserver.gameserver.model.quest           import State
-from com.l2jserver.gameserver.model.quest           import QuestState
-from com.l2jserver.gameserver.model.quest.jython    import QuestJython as JQuest
-from com.l2jserver.gameserver.network.serverpackets import ExStartScenePlayer
+import time
+from com.l2jserver.gameserver.datatables					import SkillTable
+from com.l2jserver.gameserver.model.actor.instance		import L2PcInstance
+from com.l2jserver.gameserver.model.quest					import State
+from com.l2jserver.gameserver.model.quest					import QuestState
+from com.l2jserver.gameserver.model.quest.jython		import QuestJython as JQuest
+from com.l2jserver.gameserver.network.serverpackets	import ExStartScenePlayer
 
 qn = "194_SevenSignContractOfMammon"
 
-# NPCs 
-SirGustavAthebaldt    = 30760
-Kollin                = 32571
-FrogKing              = 32572
-Tess                  = 32573
-Kuta                  = 32574
-ClaudiaAthebalt       = 31001
+# NPCs
+ATHEBALDT = 30760
+COLIN     = 32571
+FROG      = 32572
+TESS      = 32573
+KUTA      = 32574
+CLAUDIA   = 31001
+
 # ITEMS
-AthebaltsIntroduction = 13818
-FrogKingsBead         = 13820
-GrandmaTessCandyPouch = 13821
-NativesGlove          = 13819
-# Transformation's skills
-Frog                  = 6201
-YoungChild            = 6202
-Native                = 6203
+INTRODUCTION   = 13818
+FROG_KING_BEAD = 13820
+CANDY_POUCH    = 13821
+NATIVES_GLOVE  = 13819
 
-class Quest (JQuest):
+def transformPlayer(npc, player, transid) :
+	if player.isTransformed() == True :
+		player.untransform()
+		time.sleep(2)
+	for effect in player.getAllEffects() :
+		if effect.getStackType() == "speed_up":
+			effect.exit()
+	npc.setTarget(player)
+	npc.doCast(SkillTable.getInstance().getInfo(transid,1))
+	return
 
+def checkPlayer(player, transid) :
+	effect = player.getFirstEffect(transid)
+	if effect :
+		return True
+	return False
+
+class Quest (JQuest) :
 	def __init__(self,id,name,descr):
 		JQuest.__init__(self,id,name,descr)
-		self.questItemIds = [AthebaltsIntroduction,FrogKingsBead,GrandmaTessCandyPouch,NativesGlove]
+		self.questItemIds = [INTRODUCTION, FROG_KING_BEAD, CANDY_POUCH, NATIVES_GLOVE]
 
-	def onAdvEvent (self,event,npc,player):
+	def onAdvEvent(self, event, npc, player) :
 		htmltext = event
 		st = player.getQuestState(qn)
-		if not st: return
+		if not st : return
 
-		if event == "30760-1.htm":
+		if event == "30760-02.htm" :
 			st.set("cond","1")
 			st.setState(State.STARTED)
 			st.playSound("ItemSound.quest_accept")
-		elif event == "30760-3.htm":
-			st.set("cond","2")
-			st.playSound("ItemSound.quest_middle")
-		elif event == "30760-4.htm":
-			player.showQuestMovie(10)
-			self.startQuestTimer("normal_world",102000,None,player)
-			return
-		elif event == "30760-6.htm":
-			st.giveItems(AthebaltsIntroduction,1)
+		elif event == "30760-07.htm" :
 			st.set("cond","3")
+			st.giveItems(INTRODUCTION, 1)
 			st.playSound("ItemSound.quest_middle")
-		elif event == "32571-3.htm":
-			st.takeItems(AthebaltsIntroduction,-1)
-			player.stopAllEffects()
-			SkillTable.getInstance().getInfo(6201,1).getEffects(player,player)
+		elif event == "32571-04.htm" :
 			st.set("cond","4")
+			st.takeItems(INTRODUCTION,1)
+			transformPlayer(npc, player, 6201)
 			st.playSound("ItemSound.quest_middle")
-		elif event == "32572-3.htm":
-			st.giveItems(FrogKingsBead,1)
+		elif event == "32571-06.htm" or event == "32571-14.htm" or event == "32571-22.htm":
+			if player.isTransformed() == True:
+				player.untransform()
+		elif event == "32571-08.htm" :
+			transformPlayer(npc, player, 6201)
+		elif event == "32572-04.htm" :
 			st.set("cond","5")
+			st.giveItems(FROG_KING_BEAD,1)
 			st.playSound("ItemSound.quest_middle")
-		elif event == "32571-5.htm":
-			st.takeItems(FrogKingsBead,-1)
+		elif event == "32571-10.htm" :
 			st.set("cond","6")
+			st.takeItems(FROG_KING_BEAD,1)
 			st.playSound("ItemSound.quest_middle")
-		elif event == "32571-7.htm":
-			player.stopAllEffects()
-			SkillTable.getInstance().getInfo(6202,1).getEffects(player,player)
+		elif event == "32571-12.htm" :
 			st.set("cond","7")
+			transformPlayer(npc, player, 6202)
 			st.playSound("ItemSound.quest_middle")
-		elif event == "32573-2.htm":
-			st.giveItems(GrandmaTessCandyPouch,1)
+		elif event == "32571-16.htm" :
+			transformPlayer(npc, player, 6202)
+		elif event == "32573-03.htm" :
 			st.set("cond","8")
+			st.giveItems(CANDY_POUCH,1)
 			st.playSound("ItemSound.quest_middle")
-		elif event == "32571-9.htm":
-			st.takeItems(GrandmaTessCandyPouch,-1)
+		elif event == "32571-18.htm" :
 			st.set("cond","9")
+			st.takeItems(CANDY_POUCH,1)
 			st.playSound("ItemSound.quest_middle")
-		elif event == "32571-11.htm":
-			player.stopAllEffects()
-			SkillTable.getInstance().getInfo(6203,1).getEffects(player,player)
+		elif event == "32571-20.htm" :
 			st.set("cond","10")
+			transformPlayer(npc, player, 6203)
 			st.playSound("ItemSound.quest_middle")
-		elif event == "32574-3.htm":
-			st.giveItems(NativesGlove,1)
+		elif event == "32571-24.htm" :
+			transformPlayer(npc, player, 6203)
+		elif event == "32574-04.htm" :
 			st.set("cond","11")
+			st.giveItems(NATIVES_GLOVE,1)
 			st.playSound("ItemSound.quest_middle")
-		elif event == "32571-13.htm":
-			st.takeItems(NativesGlove,-1)
-			player.stopAllEffects()
+		elif event == "32571-26.htm" :
 			st.set("cond","12")
+			st.takeItems(NATIVES_GLOVE,1)
 			st.playSound("ItemSound.quest_middle")
-		elif event == "31001-2.htm":
-			st.addExpAndSp(52518015, 5817677)
-			st.unset("cond") 
+		elif event.isdigit() :
+			if int(event) == 10 :
+				st.set("cond","2")
+				st.playSound("ItemSound.quest_middle")
+				player.showQuestMovie(int(event))
+				return ""
+		elif event == "31001-03.htm" :
+			st.addExpAndSp(52518015,5817677)
+			st.unset("cond")
+			st.setState(State.COMPLETED)
 			st.exitQuest(False)
 			st.playSound("ItemSound.quest_finish")
-		elif event == "normal_world":
-			player.teleToLocation(80102,56532,-1550)
-			return "30760-4.htm"
 		return htmltext
 
-	def onTalk (self,npc,player):
-		htmltext = "<html><body>目前沒有執行任務，或條件不符。</body></html>" 
+	def onTalk (self, npc, player) :
+		htmltext = Quest.getNoQuestMsg(player)
 		st = player.getQuestState(qn)
-		if not st: return htmltext
+		if not st : return htmltext
 
 		npcId = npc.getNpcId()
-		id = st.getState()
 		cond = st.getInt("cond")
-
-		if id == State.COMPLETED:
-			htmltext = "<html><body>這是已經完成的任務。</body></html>"
-		elif id == State.CREATED :
-			if npcId == SirGustavAthebaldt and cond == 0 :
-				first = player.getQuestState("193_SevenSignDyingMessage")
-				if first:
-					if first.getState() == State.COMPLETED and player.getLevel() >= 79 :
-						htmltext = "30760-0.htm"
-					else:
-						htmltext = "30760-0a.htm"
-						st.exitQuest(1)
+		id = st.getState()
+		if npcId == ATHEBALDT :
+			second = player.getQuestState("193_SevenSignDyingMessage")
+			if st.getState() == State.COMPLETED :
+				htmltext = "<html><head><body>This quest has already been completed.<br></body></html>"
+			elif second and second.getState() == State.COMPLETED and id == State.CREATED and player.getLevel() >= 79 :
+				htmltext = "30760-01.htm"
+			elif cond == 1 :
+				htmltext = "30760-03.htm"
+			elif cond == 2 :
+				htmltext = "30760-05.htm"
+			elif cond == 3 :
+				htmltext = "30760-08.htm"
+			else:
+				htmltext = "30760-00.htm"
+				st.exitQuest(True)
+		elif npcId == COLIN :
+			if cond == 3 :
+				htmltext = "32571-01.htm"
+			elif cond == 4 :
+				if checkPlayer(player, 6201):
+					htmltext = "32571-05.htm"
 				else :
-					htmltext = "30760-0b.htm"
-					st.exitQuest(1)
-		elif id == State.STARTED:
-			if npcId == SirGustavAthebaldt:
-				if cond == 1: htmltext = "30760-1.htm"
-				elif cond == 2: htmltext = "30760-3.htm"
-				elif cond == 3: htmltext = "30760-6a.htm"
-			elif npcId == Kollin:
-				if cond == 3: htmltext = "32571-0.htm"
-				elif cond == 4 and player.getFirstEffect(Frog) != None: htmltext = "32571-3a.htm"
-				elif cond == 4 and player.getFirstEffect(Frog) == None:
-					player.doCast(SkillTable.getInstance().getInfo(Frog,1))
-					htmltext = "32571-3a.htm"
-				elif cond == 5: htmltext = "32571-4.htm"
-				elif cond == 6: htmltext = "32571-6.htm"
-				elif cond == 7 and player.getFirstEffect(Frog) != None: htmltext = "32571-7a.htm"
-				elif cond == 7 and player.getFirstEffect(Frog) == None:
-					player.doCast(SkillTable.getInstance().getInfo(YoungChild,1))
-					htmltext = "32571-7a.htm"
-				elif cond == 8: htmltext = "32571-8.htm"
-				elif cond == 9: htmltext = "32571-10.htm"
-				elif cond == 10 and player.getFirstEffect(Native) != None: htmltext = "32571-11a.htm"
-				elif cond == 10 and player.getFirstEffect(Native) == None:
-					player.doCast(SkillTable.getInstance().getInfo(Native,1))
-					htmltext = "32571-11a.htm"
-				elif cond == 11: htmltext = "32571-12.htm"
-				elif cond == 12: htmltext = "32571-13a.htm"
-			elif npcId == FrogKing:
-				if cond == 4 and player.getFirstEffect(Frog) != None: htmltext = "32572-0.htm"
-				elif cond == 4 and player.getFirstEffect(Frog) == None: htmltext = "32572-0a.htm"
-			elif npcId == Tess:
-				if cond == 7 and player.getFirstEffect(YoungChild) != None: htmltext = "32573-0.htm"
-				elif cond == 7 and player.getFirstEffect(YoungChild) == None: htmltext = "32573-0a.htm"
-			elif npcId == Kuta:
-				if cond == 10 and player.getFirstEffect(Native) != None: htmltext = "32574-0.htm"
-				elif cond == 10 and player.getFirstEffect(Native) == None: htmltext = "32574-0a.htm"
-			elif npcId == ClaudiaAthebalt:
-				if cond == 12: htmltext = "31001-0.htm"
+					htmltext = "32571-07.htm"
+			elif cond == 5 :
+				htmltext = "32571-09.htm"
+			elif cond == 6 :
+				htmltext = "32571-11.htm"
+			elif cond == 7 :
+				if checkPlayer(player, 6202):
+					htmltext = "32571-13.htm"
+				else :
+					htmltext = "32571-15.htm"
+			elif cond == 8 :
+					htmltext = "32571-17.htm"
+			elif cond == 9 :
+					htmltext = "32571-19.htm"
+			elif cond == 10 :
+				if checkPlayer(player, 6203):
+					htmltext = "32571-21.htm"
+				else :
+					htmltext = "32571-23.htm"
+			elif cond == 11 :
+				htmltext = "32571-25.htm"
+		elif npcId == FROG :
+			if checkPlayer(player, 6201):
+				if cond == 4:
+					htmltext = "32572-01.htm"
+				elif cond == 5:
+					htmltext = "32572-05.htm"
+			else :
+				htmltext = "32572-00.htm"
+		elif npcId == TESS :
+			if checkPlayer(player, 6202):
+				if cond == 7:
+					htmltext = "32573-01.htm"
+				elif cond == 8:
+					htmltext = "32573-04.htm"
+			else :
+				htmltext = "32573-00.htm"
+		elif npcId == KUTA :
+			if checkPlayer(player, 6203):
+				if cond == 10:
+					htmltext = "32574-01.htm"
+				elif cond == 11:
+					htmltext = "32574-05.htm"
+			else :
+				htmltext = "32574-00.htm"
+		elif npcId == CLAUDIA :
+			if cond == 12 :
+				htmltext = "31001-01.htm"
 		return htmltext
 
-QUEST		= Quest(194,qn,"七封印，財富的契約書") 
+QUEST	= Quest(194,qn,"Seven Sign Contract Of Mammon")
 
-QUEST.addStartNpc(SirGustavAthebaldt)
-QUEST.addTalkId(SirGustavAthebaldt)
-QUEST.addTalkId(Kollin)
-QUEST.addTalkId(FrogKing)
-QUEST.addTalkId(Tess)
-QUEST.addTalkId(Kuta)
-QUEST.addTalkId(ClaudiaAthebalt)
+QUEST.addStartNpc(ATHEBALDT)
+QUEST.addTalkId(ATHEBALDT)
+QUEST.addTalkId(COLIN)
+QUEST.addTalkId(FROG)
+QUEST.addTalkId(TESS)
+QUEST.addTalkId(KUTA)
+QUEST.addTalkId(CLAUDIA)

@@ -17,6 +17,8 @@ package ai.individual;
 import java.util.ArrayList;
 import java.util.List;
 
+import ai.group_template.L2AttackableAIScript;
+
 import com.l2jserver.gameserver.datatables.SpawnTable;
 import com.l2jserver.gameserver.model.L2Spawn;
 import com.l2jserver.gameserver.model.actor.L2Npc;
@@ -24,8 +26,6 @@ import com.l2jserver.gameserver.model.actor.instance.L2PcInstance;
 import com.l2jserver.gameserver.network.serverpackets.NpcSay;
 import com.l2jserver.gameserver.network.serverpackets.SocialAction;
 import com.l2jserver.util.Rnd;
-
-import ai.group_template.L2AttackableAIScript;
 
 /**
  * Dilios AI
@@ -77,7 +77,7 @@ public class GeneralDilios extends L2AttackableAIScript
 			{
 				_general.broadcastPacket(new NpcSay(_general.getObjectId(), 0, generalId, "πÍ¨I3¶∏®Î¿ª°I"));
 				startQuestTimer("guard_animation_0", 3400, null, null);
-			}	
+			}
 			else
 			{
 				value = -1;

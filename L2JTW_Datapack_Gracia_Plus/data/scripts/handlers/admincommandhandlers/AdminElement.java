@@ -28,6 +28,7 @@ import com.l2jserver.gameserver.network.SystemMessageId;
 import com.l2jserver.gameserver.network.serverpackets.InventoryUpdate;
 import com.l2jserver.gameserver.network.serverpackets.SystemMessage;
 import com.l2jserver.gameserver.datatables.MessageTable;
+
 /**
  * This class handles following admin commands: - delete = deletes target
  * 
@@ -132,16 +133,18 @@ public class AdminElement implements IAdminCommandHandler
 		if (itemInstance != null)
 		{
 			String old, current;
-			Elementals element = itemInstance.getElementals();
+			Elementals element = itemInstance.getElemental(type);
 			if (element == null)
 				old = MessageTable.Messages[1660].getMessage();
 			else
+			{
 				old = element.toString();
-
+			}
+			
 			// set enchant value
 			player.getInventory().unEquipItemInSlotAndRecord(armorType);
 			if (type == -1)
-				itemInstance.clearElementAttr();
+				itemInstance.clearElementAttr(type);
 			else
 				itemInstance.setElementAttr(type, value);
 			player.getInventory().equipItemAndRecord(itemInstance);
@@ -149,8 +152,8 @@ public class AdminElement implements IAdminCommandHandler
 			if (itemInstance.getElementals() == null)
 				current = MessageTable.Messages[1660].getMessage();
 			else
-				current = itemInstance.getElementals().toString();
-
+				current = itemInstance.getElemental(type).toString();
+			
 			// send packets
 			InventoryUpdate iu = new InventoryUpdate();
 			iu.addModifiedItem(itemInstance);

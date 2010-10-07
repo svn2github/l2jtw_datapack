@@ -236,7 +236,7 @@ class Leveling_System (JQuest):
 			if newLevel > self.hellboundLevel:
 				self.hellboundLevel = newLevel
 				print "---- Hellbound achieved Level " + str(self.hellboundLevel)
-				announce = "地獄邊界已經達到的等級： " + str(self.hellboundLevel)
+				announce = "地獄邊界已經達到的階段： " + str(self.hellboundLevel)
 				Announcements.getInstance().announceToAll(announce)
 				if newLevel == 1:
 					for i in self.Warpgateloc :
@@ -282,9 +282,6 @@ class Leveling_System (JQuest):
 					newCeltus = HellboundManager.getInstance().addSpawn(celtus, LOC[0], LOC[1], LOC[2], 0, CeltrespTime)
 				if newLevel == 8:
 					newCaptain = HellboundManager.getInstance().addSpawn(Captain, 4766, 243995, -1928, 36561, 0)
-				if newLevel == 9:
-					newWarpgate = self.addSpawn(32319, 112080, 219568, -3664, 0, False, 0)
-					newWarpgate = self.addSpawn(32319, -16899, 209827, -3640, 0, False, 0)
 			if self.hellboundLevel >= 5:
 				DoorTable.getInstance().getDoor(19250001).openMe()
 				DoorTable.getInstance().getDoor(19250002).openMe()

@@ -16,6 +16,9 @@ package ai.individual;
 
 import java.util.List;
 
+import javolution.util.FastList;
+import ai.group_template.L2AttackableAIScript;
+
 import com.l2jserver.Config;
 import com.l2jserver.gameserver.ai.CtrlIntention;
 import com.l2jserver.gameserver.datatables.SkillTable;
@@ -34,9 +37,6 @@ import com.l2jserver.gameserver.network.serverpackets.PlaySound;
 import com.l2jserver.gameserver.templates.StatsSet;
 import com.l2jserver.util.Rnd;
 
-import javolution.util.FastList;
-import ai.group_template.L2AttackableAIScript;
-
 /**
  * Orfen AI
  * 奧爾芬
@@ -48,20 +48,21 @@ public class Orfen extends L2AttackableAIScript
 
 	private static final int[][] Pos =
 	{
-			{
-					43728, 17220, -4342
-			},
-			{
-					55024, 17368, -5412
-			},
-			{
-					53504, 21248, -5486
-			},
-			{
-					53248, 24576, -5262
-			}
+		{
+			43728, 17220, -4342
+		},
+		{
+			55024, 17368, -5412
+		},
+		{
+			53504, 21248, -5486
+		},
+		{
+			53248, 24576, -5262
+		}
 	};
-
+	
+	//TODO: npcstring
 	private static final String[] Text =
 	{
 			"PLAYERNAME！讓你體驗何謂真正的恐怖！", "PLAYERNAME，不要再使用同樣的招數了！",

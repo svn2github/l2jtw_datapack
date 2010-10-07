@@ -339,6 +339,34 @@ public class SkillTransfer extends Quest
 					player.addItem(qn, PORMANDERS[index][0], PORMANDERS[index][1], npc, true);
 				}
 			}
+			
+			if (Config.SKILL_CHECK_ENABLE && (!player.isGM() || Config.SKILL_CHECK_GM))
+			{
+				int count = PORMANDERS[index][1] - (int)player.getInventory().getInventoryItemCount(PORMANDERS[index][0], -1, false);
+				for (L2Skill s : player.getAllSkills())
+				{
+					for (int i = SKILL_TRANSFER_TREE[index].length; --i >= 0;)
+					{
+						if (SKILL_TRANSFER_TREE[index][i][0] == s.getId())
+						{
+							// Holy Weapon allowed for Shilien Saint/Inquisitor stance
+							if (s.getId() == 1043 && index == 2 && player.isInStance())
+								continue;
+							
+							count--;
+							if (count < 0)
+							{
+								Util.handleIllegalPlayerAction(player, "Player " + player.getName() +
+										" has too many transfered skills or items, skill:" + s.getName() +
+										" ("+s.getId() + "/" + s.getLevel() + "), class:" +
+										player.getTemplate().className, 1);
+								if (Config.SKILL_CHECK_REMOVE)
+									player.removeSkill(s);
+							}
+						}
+					}
+				}
+			}
 		}
 	}
 

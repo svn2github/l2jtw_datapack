@@ -28,9 +28,6 @@ RPCHANCE=10
 #Change this value to 1 if you wish 100% recipes, default 70%
 ALT_RP100=0
 
-#MESSAGES
-default="<html><body>目前沒有執行任務，或條件不符。</body></html>"
-
 class Quest (JQuest) :
 
  def __init__(self,id,name,descr):
@@ -47,7 +44,7 @@ class Quest (JQuest) :
        st.giveItems(BOILED_EGGS,5)
        st.playSound("ItemSound.quest_accept")
      else:
-       htmltext=default
+       htmltext = "<html><body>目前沒有執行任務，或條件不符。</body></html>"
    elif event == "31543-1.htm" :
      if st.getQuestItemsCount(BOILED_EGGS):
        if cond==1:
@@ -55,7 +52,7 @@ class Quest (JQuest) :
          st.giveItems(FEE_OF_EGGS,1)
          st.set("cond","2")
        else:
-         htmltext=default
+         htmltext = "<html><body>目前沒有執行任務，或條件不符。</body></html>"
      else:
        htmltext="LMFAO!"
        st.exitQuest(1)
@@ -66,7 +63,7 @@ class Quest (JQuest) :
          st.giveItems(FEE_OF_EGGS,1)
          st.set("cond","3")
        else:
-         htmltext=default
+         htmltext = "<html><body>目前沒有執行任務，或條件不符。</body></html>"
      else:
        htmltext="LMFAO!"
        st.exitQuest(1)
@@ -77,7 +74,7 @@ class Quest (JQuest) :
          st.giveItems(FEE_OF_EGGS,1)
          st.set("cond","4")
        else:
-         htmltext=default
+         htmltext = "<html><body>目前沒有執行任務，或條件不符。</body></html>"
      else:
        htmltext="LMFAO!"
        st.exitQuest(1)
@@ -88,7 +85,7 @@ class Quest (JQuest) :
          st.giveItems(FEE_OF_EGGS,1)
          st.set("cond","5")
        else:
-         htmltext=default
+         htmltext = "<html><body>目前沒有執行任務，或條件不符。</body></html>"
      else:
        htmltext="LMFAO!"
        st.extiQuest(1)
@@ -99,7 +96,7 @@ class Quest (JQuest) :
          st.giveItems(FEE_OF_EGGS,1)
          st.set("cond","6")
        else:
-         htmltext=default
+         htmltext = "<html><body>目前沒有執行任務，或條件不符。</body></html>"
      else:
        htmltext="LMFAO!"
        st.extiQuest(1)
@@ -116,11 +113,11 @@ class Quest (JQuest) :
         st.playSound("ItemSound.quest_finish")
         st.exitQuest(1)
      else:
-        htmltext=default
+        htmltext = "<html><body>目前沒有執行任務，或條件不符。</body></html>"
    return htmltext
 
  def onTalk (self,npc,player):
-   htmltext = default
+   htmltext = "<html><body>目前沒有執行任務，或條件不符。</body></html>"
    st = player.getQuestState(qn)
    if st :
      npcId = npc.getNpcId()

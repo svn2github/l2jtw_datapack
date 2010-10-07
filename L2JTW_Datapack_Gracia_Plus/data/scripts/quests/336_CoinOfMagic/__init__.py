@@ -5,8 +5,6 @@ qn = "336_CoinOfMagic"
 QUEST_NUMBER      = 336
 QUEST_NAME        = "CoinOfMagic"
 QUEST_DESCRIPTION = "魔法銅錢"
-#Messages
-default = "<html><body>目前沒有執行任務，或條件不符。</body></html>"
 
 #Quest items
 COIN_DIAGRAM,KALDIS_COIN,MEMBERSHIP_1,MEMBERSHIP_2,MEMBERSHIP_3 = range(3811,3816)
@@ -293,7 +291,7 @@ class Quest (JQuest) :
     return htmltext
 
  def onTalk (self,npc,player):
-   htmltext = default
+   htmltext = "<html><body>目前沒有執行任務，或條件不符。</body></html>"
    st = player.getQuestState(qn)
    if not st : return htmltext
 

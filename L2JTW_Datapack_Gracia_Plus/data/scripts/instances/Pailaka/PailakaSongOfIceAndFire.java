@@ -78,8 +78,8 @@ public class PailakaSongOfIceAndFire extends Quest
 		{ BRAZIER, FIRE_ENHANCER, 40 },
 		{ BRAZIER,   HEAL_POTION, 80 }
 	};
-
-	private static final int[][] HP_HERBS_DROPLIST = 
+	
+	private static final int[][] HP_HERBS_DROPLIST =
 	{
 		// itemId, count, chance
 		{ 8602, 1, 10 }, { 8601, 1, 40 }, { 8600, 1, 70 }
@@ -92,9 +92,7 @@ public class PailakaSongOfIceAndFire extends Quest
 	};
 
 	private static final int[] REWARDS = { 13294, 13293, 13129 };
-
-	private static final String EMPTY = "<html><body>You are either not on a quest that involves this NPC, or you don't meet this NPC's minimum quest requirements.</body></html>";
-
+	
 	private static final void dropHerb(L2Npc mob, L2PcInstance player, int[][] drop)
 	{
 		final int chance = Rnd.get(100);
@@ -155,8 +153,8 @@ public class PailakaSongOfIceAndFire extends Quest
 		else
 		{
 			final int instanceId = InstanceManager.getInstance().createDynamicInstance("PailakaSongOfIceAndFire.xml");
-
-			world = InstanceManager.getInstance().new InstanceWorld();
+			
+			world = new InstanceWorld();
 			world.instanceId = instanceId;
 			world.templateId = INSTANCE_ID;
 			InstanceManager.getInstance().addWorld(world);
@@ -172,8 +170,8 @@ public class PailakaSongOfIceAndFire extends Quest
 	{
 		final QuestState st = player.getQuestState(qn);
 		if (st == null)
-			return EMPTY;
-
+			return getNoQuestMsg(player);
+		
 		final int cond = st.getInt("cond");
 		if (event.equalsIgnoreCase("enter"))
 		{
@@ -257,8 +255,8 @@ public class PailakaSongOfIceAndFire extends Quest
 	{
 		final QuestState st = player.getQuestState(qn);
 		if (st == null)
-			return EMPTY;
-
+			return getNoQuestMsg(player);
+		
 		final int cond = st.getInt("cond");
 		switch (npc.getNpcId())
 		{
@@ -309,7 +307,7 @@ public class PailakaSongOfIceAndFire extends Quest
 				else if (cond == 9)
 					return "32510-01.htm";
 		}
-		return EMPTY;
+		return getNoQuestMsg(player);
 	}
 
 	@Override
@@ -402,7 +400,7 @@ public class PailakaSongOfIceAndFire extends Quest
 		if (character instanceof L2PcInstance
 				&& !character.isDead()
 				&& !character.isTeleporting()
-				&& ((L2PcInstance)character).isOnline() > 0)
+				&& ((L2PcInstance)character).isOnline())
 		{
 			InstanceWorld world = InstanceManager.getInstance().getWorld(character.getInstanceId());
 			if (world != null && world.templateId == INSTANCE_ID)

@@ -17,6 +17,8 @@ package ai.fantasy_isle;
 import java.text.SimpleDateFormat;
 import java.util.Map;
 
+import javolution.util.FastMap;
+
 import com.l2jserver.Config;
 import com.l2jserver.gameserver.GameTimeController;
 import com.l2jserver.gameserver.ThreadPoolManager;
@@ -28,8 +30,6 @@ import com.l2jserver.gameserver.model.quest.Quest;
 import com.l2jserver.gameserver.network.serverpackets.NpcSay;
 import com.l2jserver.gameserver.network.serverpackets.PlaySound;
 import com.l2jserver.gameserver.network.serverpackets.SocialAction;
-
-import javolution.util.FastMap;
 
 
 /**
@@ -361,10 +361,10 @@ public class MC_Show extends Quest
 				npc.getAI().setIntention(CtrlIntention.AI_INTENTION_MOVE_TO,new  L2CharPosition(-56702,-56340,-2008,32768));
 				startQuestTimer("24",2800, npc, null);
 				addSpawn(showstuff[0],-56672,-56406,-2000,32768,false,20900);
-			    addSpawn(showstuff[1],-56648,-56368,-2000,32768,false,20900);
-			    addSpawn(showstuff[2],-56608,-56338,-2000,32768,false,20900);
-			    addSpawn(showstuff[3],-56652,-56307,-2000,32768,false,20900);
-			    addSpawn(showstuff[4],-56672,-56272,-2000,32768,false,20900);
+				addSpawn(showstuff[1],-56648,-56368,-2000,32768,false,20900);
+				addSpawn(showstuff[2],-56608,-56338,-2000,32768,false,20900);
+				addSpawn(showstuff[3],-56652,-56307,-2000,32768,false,20900);
+				addSpawn(showstuff[4],-56672,-56272,-2000,32768,false,20900);
 			}
 			else if (event.equalsIgnoreCase("28"))
 			{
@@ -409,9 +409,9 @@ public class MC_Show extends Quest
 		return null;
 	}
 	
-    public static void main(String[] args)
-    {
-    	// now call the constructor (starts up the ai)
-    	new MC_Show(-1,"MC_Show","fantasy_isle");
-    }
+	public static void main(String[] args)
+	{
+		// now call the constructor (starts up the ai)
+		new MC_Show(-1,"MC_Show","fantasy_isle");
+	}
 }

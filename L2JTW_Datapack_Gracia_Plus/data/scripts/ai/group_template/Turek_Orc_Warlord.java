@@ -34,7 +34,7 @@ public class Turek_Orc_Warlord extends L2AttackableAIScript
 	{
 		super(questId, name, descr);
 		int[] mobs = {Turek_Orc_Warlord};
-		registerMobs(mobs);
+		registerMobs(mobs, QuestEventType.ON_ATTACK, QuestEventType.ON_KILL);
 		_FirstAttacked = false;
 	}
 

@@ -107,7 +107,8 @@ class Quest (JQuest) :
              st.takeItems(8773,1)
              st.giveItems(8763,1)
              st.giveItems(8764,100)
-             st.giveItems(ADENA,1022636)
+             st.giveItems(ADENA,1071691)
+             st.addExpAndSp(553524,55538)
              st.playSound("ItemSound.quest_finish")
              htmltext = "32116-02.htm"
              st.exitQuest(False)

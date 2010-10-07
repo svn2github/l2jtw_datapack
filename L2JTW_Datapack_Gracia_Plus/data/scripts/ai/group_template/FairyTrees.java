@@ -13,7 +13,7 @@
  * this program. If not, see <http://www.gnu.org/licenses/>.
  */
 package ai.group_template;
- 
+
 import com.l2jserver.gameserver.ai.CtrlIntention;
 import com.l2jserver.gameserver.datatables.SkillTable;
 import com.l2jserver.gameserver.model.L2Skill;
@@ -21,6 +21,7 @@ import com.l2jserver.gameserver.model.actor.L2Attackable;
 import com.l2jserver.gameserver.model.actor.L2Character;
 import com.l2jserver.gameserver.model.actor.instance.L2NpcInstance;
 import com.l2jserver.gameserver.model.actor.instance.L2PcInstance;
+import com.l2jserver.gameserver.util.Util;
 import com.l2jserver.util.Rnd;
 
 /**
@@ -33,18 +34,18 @@ import com.l2jserver.util.Rnd;
 public class FairyTrees extends L2AttackableAIScript
 {
 	private static final int[] mobs = { 27185, 27186, 27187, 27188 };
-
+	
 	public FairyTrees(int questId, String name, String descr)
 	{
 		super(questId, name, descr);
-		this.registerMobs(mobs);
+		this.registerMobs(mobs, QuestEventType.ON_KILL);
 		super.addSpawnId(27189);
 	}
-
+	
 	public String onKill (L2NpcInstance npc, L2PcInstance killer, boolean isPet)
 	{
 		int npcId = npc.getNpcId();
-		if (contains(mobs, npcId))
+		if (Util.contains(mobs, npcId))
 		{
 			for (int i = 0; i < 20; i++)
 			{
@@ -61,10 +62,10 @@ public class FairyTrees extends L2AttackableAIScript
 				}
 			}
 		}
-
+		
 		return super.onKill(npc, killer, isPet);
 	}
-
+	
 	public static void main(String[] args)
 	{
 		new FairyTrees(-1, "fairy_trees", "ai");

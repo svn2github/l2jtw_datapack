@@ -22,9 +22,6 @@ REMAINS = 5869
 #Rewards
 REWARDS=range(6341,6347)+range(5494,5496)
 
-#Messages
-default   = "<html><body>目前沒有執行任務，或條件不符。</body></html>"
-
 #NPCs
 ORVEN = 30857
 
@@ -54,7 +51,7 @@ class Quest (JQuest) :
     return htmltext
 
  def onTalk (self,npc,player):
-   htmltext = default
+   htmltext = "<html><body>目前沒有執行任務，或條件不符。</body></html>"
    st = player.getQuestState(qn)
    if not st : return htmltext
 

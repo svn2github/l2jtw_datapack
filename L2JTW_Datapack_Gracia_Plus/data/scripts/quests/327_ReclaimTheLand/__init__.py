@@ -261,5 +261,5 @@ QUEST.addStartNpc(30597)
 for n in [30034,30313,30314,30382,30597] :
     QUEST.addTalkId(n)
 
-for i in range(20495,20501) :
+for i in range(20495,20502) :
     QUEST.addKillId(i)

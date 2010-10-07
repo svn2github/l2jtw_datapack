@@ -29,6 +29,7 @@ import com.l2jserver.gameserver.skills.Formulas;
 import com.l2jserver.gameserver.templates.item.L2WeaponType;
 import com.l2jserver.gameserver.templates.skills.L2SkillType;
 import com.l2jserver.gameserver.datatables.MessageTable;
+
 /**
  * @author _tomciaaa_
  *
@@ -84,7 +85,7 @@ public class StrSiegeAssault implements ISkillHandler
 				L2ItemInstance weapon = activeChar.getActiveWeaponInstance();
 				if (activeChar instanceof L2PcInstance && target instanceof L2PcInstance && ((L2PcInstance)target).isFakeDeath())
 				{
-					target.stopFakeDeath(null);
+					target.stopFakeDeath(true);
 				}
 				else if (target.isDead())
 					continue;

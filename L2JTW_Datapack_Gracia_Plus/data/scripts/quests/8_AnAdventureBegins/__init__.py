@@ -86,6 +86,8 @@ class Quest (JQuest) :
 			elif npcId == HARNE :
 				if cond == 2 and st.getQuestItemsCount(ROSELYNS_NOTE) > 0 :
 					htmltext = "30144-01.htm"
+				elif cond == 3 :
+					htmltext = "30144-03.htm"
 		return htmltext
 
 QUEST		= Quest(8,qn,"«_ÀIªº¶}©l")

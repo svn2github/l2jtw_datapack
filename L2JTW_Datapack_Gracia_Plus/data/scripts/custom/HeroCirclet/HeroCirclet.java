@@ -42,8 +42,8 @@ public class HeroCirclet extends Quest
 		String htmltext = "";
 		QuestState st = player.getQuestState(getName());
 		if (st == null)
-			newQuestState(player);
-
+			st = newQuestState(player);
+		
 		if (player.isHero())
 		{
 			if (player.getInventory().getItemByItemId(6842) == null)

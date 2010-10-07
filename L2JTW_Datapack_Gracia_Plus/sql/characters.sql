@@ -61,6 +61,7 @@ CREATE TABLE IF NOT EXISTS `characters` (
   `vitality_points` SMALLINT UNSIGNED NOT NULL DEFAULT 0,
   `createTime` DECIMAL(20,0) NOT NULL default 0,
   `language` VARCHAR(2) DEFAULT NULL,
+  `PcPoint` int(15) NOT NULL DEFAULT 0,
   PRIMARY KEY (`charId`),
   KEY `clanid` (`clanid`)
 );

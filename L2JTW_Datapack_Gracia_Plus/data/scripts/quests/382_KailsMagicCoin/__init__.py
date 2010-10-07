@@ -7,8 +7,6 @@ from com.l2jserver.gameserver.model.quest.jython import QuestJython as JQuest
 
 qn = "382_KailsMagicCoin"
 
-#Messages
-default = "<html><body>目前沒有執行任務，或條件不符。</body></html>"
 #Quest items
 ROYAL_MEMBERSHIP = 5898
 #NPCs
@@ -37,7 +35,7 @@ class Quest (JQuest) :
       return htmltext
 
   def onTalk (self,npc,player):
-      htmltext = default
+      htmltext = "<html><body>目前沒有執行任務，或條件不符。</body></html>"
       st = player.getQuestState(qn)
       if not st : return htmltext
       npcId = npc.getNpcId()

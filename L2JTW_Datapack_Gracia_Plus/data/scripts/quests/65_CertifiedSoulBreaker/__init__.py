@@ -137,7 +137,8 @@ class Quest (JQuest) :
                 st.giveItems(certificate,1)
                 st.exitQuest(False)
                 st.playSound("ItemSound.quest_finish")
-                st.addExpAndSp(189831,21526)
+                st.giveItems(57,35597)
+                st.addExpAndSp(196875,13510)
         elif npcId == Kekropus :
             if cond == 1 :
                 htmltext = "32138-00.htm"

@@ -52,7 +52,7 @@ public class DefenceHallOfSuffering extends Quest
 
 		public DHSWorld()
 		{
-			InstanceManager.getInstance().super();
+			//InstanceManager.getInstance().super();
 		}
 	}
 
@@ -433,7 +433,7 @@ public class DefenceHallOfSuffering extends Quest
 				for (int objectId : tmpworld.allowed)
 				{
 					L2PcInstance player = L2World.getInstance().getPlayer(objectId);
-					if (player != null && player.isOnline() > 0)
+					if (player != null && player.isOnline())
 					{
 						InstanceManager.getInstance().setInstanceTime(objectId, tmpworld.templateId, reenter.getTimeInMillis());
 						player.sendPacket(sm);

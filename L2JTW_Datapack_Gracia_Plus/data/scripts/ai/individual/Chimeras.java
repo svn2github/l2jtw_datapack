@@ -14,6 +14,7 @@
 package ai.individual;
 
 import ai.group_template.L2AttackableAIScript;
+
 import com.l2jserver.gameserver.datatables.ItemTable;
 import com.l2jserver.gameserver.instancemanager.HellboundManager;
 import com.l2jserver.gameserver.model.L2ItemInstance;
@@ -21,6 +22,7 @@ import com.l2jserver.gameserver.model.L2Object;
 import com.l2jserver.gameserver.model.L2Skill;
 import com.l2jserver.gameserver.model.actor.L2Npc;
 import com.l2jserver.gameserver.model.actor.instance.L2PcInstance;
+import com.l2jserver.gameserver.util.Util;
 import com.l2jserver.util.Rnd;
 
 /**
@@ -83,7 +85,7 @@ public class Chimeras extends L2AttackableAIScript
 
 		if (HellboundManager.getInstance().getLevel() >= 7 && skill.getId() == 2359 && currentHp < maxHp * 0.1)
 		{
-			if (contains(npcIds, npc.getNpcId()))
+			if (Util.contains(npcIds, npc.getNpcId()))
 			{
 				if (Rnd.get(100) < 10)
 					dropItem(player, npc, 9681, 1);

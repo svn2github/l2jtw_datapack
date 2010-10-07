@@ -44,10 +44,10 @@ class Quest (JQuest) :
    return htmltext
 
  def onTalk (self,npc,player):
+   htmltext = "<html><body>目前沒有執行任務，或條件不符。</body></html>"
    st = player.getQuestState(qn)
    if st :
         npcId = npc.getNpcId()
-        htmltext = "<html><body>目前沒有執行任務，或條件不符。</body></html>"
         id = st.getState()
         cond = st.getInt("cond")
         if cond == 0 :

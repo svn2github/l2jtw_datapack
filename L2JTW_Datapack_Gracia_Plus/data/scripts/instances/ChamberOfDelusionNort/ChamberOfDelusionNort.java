@@ -24,7 +24,7 @@ public class ChamberOfDelusionNort extends Quest
 		private L2Npc manager,managera,managerb,managerc,managerd,managere,managerf,managerg,managerh,_aenkinel;
 		public CDWorld()
 		{
-			InstanceManager.getInstance().super();
+			//InstanceManager.getInstance().super();
 		}
 	}
 

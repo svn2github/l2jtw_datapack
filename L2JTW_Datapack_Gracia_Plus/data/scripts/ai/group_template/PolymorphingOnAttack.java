@@ -16,6 +16,8 @@ package ai.group_template;
 
 import java.util.Map;
 
+import javolution.util.FastMap;
+
 import com.l2jserver.gameserver.ai.CtrlIntention;
 import com.l2jserver.gameserver.model.actor.L2Attackable;
 import com.l2jserver.gameserver.model.actor.L2Character;
@@ -24,8 +26,6 @@ import com.l2jserver.gameserver.model.actor.instance.L2PcInstance;
 import com.l2jserver.gameserver.network.clientpackets.Say2;
 import com.l2jserver.gameserver.network.serverpackets.CreatureSay;
 import com.l2jserver.util.Rnd;
-
-import javolution.util.FastMap;
 
 /**
  * @author Slyce
@@ -55,14 +55,14 @@ public class PolymorphingOnAttack extends L2AttackableAIScript
 		new String[]{"I must admit, no one makes my blood boil quite like you do!", "Now the battle begins!", "Witness my true power!"},
 		new String[]{"Prepare to die!", "I'll double my strength!", "You have more skill than I thought"}
 	};
-
+	
 	public PolymorphingOnAttack(int questId, String name, String descr)
 	{
 		super(questId, name, descr);
 		for (int id : MOBSPAWNS.keySet())
 			super.addAttackId(id);
 	}
-
+	
 	@Override
 	public String onAttack (L2Npc npc, L2PcInstance attacker, int damage, boolean isPet)
 	{
@@ -76,7 +76,6 @@ public class PolymorphingOnAttack extends L2AttackableAIScript
 					String text = MOBTEXTS[tmp[3]][Rnd.get(MOBTEXTS[tmp[3]].length)];
 					npc.broadcastPacket(new CreatureSay(npc.getObjectId(),Say2.ALL,npc.getName(),text));
 				}
-				npc.getSpawn().decreaseCount(npc);
 				npc.deleteMe();
 				L2Attackable newNpc = (L2Attackable) addSpawn(tmp[0], npc.getX(), npc.getY(), npc.getZ()+10, npc.getHeading(), false, 0, true);
 				L2Character originalAttacker = isPet? attacker.getPet(): attacker;
@@ -87,7 +86,7 @@ public class PolymorphingOnAttack extends L2AttackableAIScript
 		}
 		return super.onAttack (npc, attacker, damage, isPet);
 	}
-
+	
 	public static void main(String[] args)
 	{
 		new PolymorphingOnAttack(-1,"polymorphing_on_attack","ai");

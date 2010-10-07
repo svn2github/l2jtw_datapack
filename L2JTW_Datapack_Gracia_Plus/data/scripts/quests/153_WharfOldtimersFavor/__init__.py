@@ -101,7 +101,7 @@ class Quest (JQuest) :
               st.playSound("ItemSound.quest_finish")
               st.set("onlyone","1")
               st.giveItems(RING_ID,1)
-              st.giveItems(RING_ID,1)
+              st.giveItems(1835,3)
               st.takeItems(DELIVERY_LIST_ID,-1)
               st.takeItems(JACKSONS_RECEIPT_ID,-1)
               st.takeItems(SILVIAS_RECEIPT_ID,-1)

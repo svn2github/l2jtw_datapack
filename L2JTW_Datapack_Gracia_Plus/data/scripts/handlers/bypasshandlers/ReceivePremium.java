@@ -20,7 +20,7 @@ import com.l2jserver.gameserver.model.L2Object.InstanceType;
 import com.l2jserver.gameserver.model.actor.L2Character;
 import com.l2jserver.gameserver.model.actor.instance.L2PcInstance;
 import com.l2jserver.gameserver.network.SystemMessageId;
-import com.l2jserver.gameserver.network.serverpackets.ExGetPremiumItemListPacket;
+import com.l2jserver.gameserver.network.serverpackets.ExGetPremiumItemList;
 import com.l2jserver.gameserver.network.serverpackets.SystemMessage;
 
 
@@ -30,23 +30,23 @@ public class ReceivePremium implements IBypassHandler
 	{
 		"ReceivePremium"
 	};
-
+	
 	public boolean useBypass(String command, L2PcInstance activeChar, L2Character target)
 	{
 		if (!(target.isInstanceType(InstanceType.L2Npc)))
 			return false;
-
+		
 		if (activeChar.getPremiumItemList().isEmpty())
 		{
 			activeChar.sendPacket(new SystemMessage(SystemMessageId.THERE_ARE_NO_MORE_VITAMIN_ITEMS_TO_BE_FOUND));
 			return false;
 		}
 		
-		activeChar.sendPacket(new ExGetPremiumItemListPacket(activeChar));
+		activeChar.sendPacket(new ExGetPremiumItemList(activeChar));
 		
 		return true;
 	}
-
+	
 	public String[] getBypassList()
 	{
 		return COMMANDS;

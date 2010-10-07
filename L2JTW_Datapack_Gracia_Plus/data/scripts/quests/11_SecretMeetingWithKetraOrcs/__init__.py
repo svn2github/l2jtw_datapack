@@ -38,7 +38,7 @@ class Quest (JQuest) :
 		elif event == "31371-02.htm" :
 			htmltext = "31371-02.htm"
 			st.takeItems(Box,-1)
-			st.addExpAndSp(22787,0) #Despite what stratics may say, this is the correct reward for this quest.
+			st.addExpAndSp(82045,6047)
 			st.unset("cond")
 			st.exitQuest(False)
 			st.playSound("ItemSound.quest_finish")

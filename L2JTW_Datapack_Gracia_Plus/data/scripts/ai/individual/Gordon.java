@@ -16,6 +16,8 @@ package ai.individual;
 
 import java.util.Collection;
 
+import ai.group_template.L2AttackableAIScript;
+
 import com.l2jserver.gameserver.ai.CtrlIntention;
 import com.l2jserver.gameserver.datatables.SpawnTable;
 import com.l2jserver.gameserver.model.L2CharPosition;
@@ -23,8 +25,6 @@ import com.l2jserver.gameserver.model.L2Spawn;
 import com.l2jserver.gameserver.model.actor.L2Attackable;
 import com.l2jserver.gameserver.model.actor.L2Npc;
 import com.l2jserver.gameserver.model.actor.instance.L2PcInstance;
-
-import ai.group_template.L2AttackableAIScript;
 
 /**
  * ·´·ÀÃM¤h °ªµn
@@ -64,9 +64,8 @@ public class Gordon extends L2AttackableAIScript
 		{139279, -53781, -3091},{139810, -52687, -2866},{139657, -52041, -2793},
 		{139215, -51355, -2698},{139334, -50514, -2594},{139817, -49715, -2449},
 		{139824, -48976, -2263},{140130, -47578, -2213},{140483, -46339, -2382},
-		{141569, -45908, -2387}
-	};
-
+		{141569, -45908, -2387}};
+	
 	private static boolean _isAttacked = false;
 	private static boolean _isSpawned = false;
 
@@ -74,7 +73,7 @@ public class Gordon extends L2AttackableAIScript
 	{
 		super(id,name,descr);
 		int[] mobs = {GORDON};
-		registerMobs(mobs);
+		registerMobs(mobs, QuestEventType.ON_ATTACK, QuestEventType.ON_KILL, QuestEventType.ON_SPAWN);
 		// wait 2 minutes after Start AI
 		startQuestTimer("check_ai", 120000, null, null, true);
 
@@ -194,7 +193,7 @@ public class Gordon extends L2AttackableAIScript
 	}
 
 	@Override
-	public String onSpawn (L2Npc npc) 
+	public String onSpawn (L2Npc npc)
 	{
 		if (npc.getNpcId() == GORDON && _npcBlock == 0)
 		{
@@ -202,7 +201,7 @@ public class Gordon extends L2AttackableAIScript
 			_isWalkTo = 1;
 			startQuestTimer("Start", 1000, npc, null, true);
 		}
-		return super.onSpawn(npc); 
+		return super.onSpawn(npc);
 	}
 
 	@Override
@@ -224,7 +223,7 @@ public class Gordon extends L2AttackableAIScript
 	}
 
 	@Override
-	public String onKill (L2Npc npc, L2PcInstance killer, boolean isPet) 
+	public String onKill (L2Npc npc, L2PcInstance killer, boolean isPet)
 	{
 		if (npc.getNpcId() == GORDON)
 		{

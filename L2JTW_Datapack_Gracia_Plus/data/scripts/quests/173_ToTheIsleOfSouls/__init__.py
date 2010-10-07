@@ -7,7 +7,7 @@ from com.l2jserver.gameserver.model.quest import State
 from com.l2jserver.gameserver.model.quest import QuestState
 from com.l2jserver.gameserver.model.quest.jython import QuestJython as JQuest
 
-#Complete - 100%. 
+#Complete - 100%.
 qn = "173_ToTheIsleOfSouls"
 
 #NPC'S
@@ -68,7 +68,7 @@ class Quest (JQuest) :
 					htmltext = "30097-01.htm"
 					st.exitQuest(1)
 		elif id == State.STARTED :
-			if npcId == GALLADUCCI : 
+			if npcId == GALLADUCCI :
 				if cond == 1 :
 					htmltext = "30097-04.htm"
 				elif cond == 2 :

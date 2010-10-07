@@ -49,7 +49,7 @@ public class Delu_Lizardman_Special_Commander extends L2AttackableAIScript
 	{
 		super(questId, name, descr);
 		int[] mobs = {Delu_Lizardman_Special_Commander};
-		registerMobs(mobs);
+		registerMobs(mobs, QuestEventType.ON_ATTACK, QuestEventType.ON_KILL);
 		_FirstAttacked = false;
 	}
 

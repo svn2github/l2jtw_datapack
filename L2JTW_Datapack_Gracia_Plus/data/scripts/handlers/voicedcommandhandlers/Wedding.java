@@ -96,7 +96,7 @@ public class Wedding implements IVoicedCommandHandler
 			activeChar.sendMessage(1216);
 		
 		L2PcInstance partner;
-		partner = (L2PcInstance) L2World.getInstance().findObject(_partnerId);
+		partner = L2World.getInstance().getPlayer(_partnerId);
 		
 		if (partner != null)
 		{
@@ -273,8 +273,8 @@ public class Wedding implements IVoicedCommandHandler
 		}
 		
 		L2PcInstance partner;
-		partner = (L2PcInstance) L2World.getInstance().findObject(activeChar.getPartnerId());
-		if (partner == null)
+		partner = L2World.getInstance().getPlayer(activeChar.getPartnerId());
+		if (partner == null || !partner.isOnline())
 		{
 			activeChar.sendMessage(1233);
 			return false;

@@ -82,6 +82,7 @@ public class MasterHandler
 		AdminCommandHandler.getInstance().registerAdminCommandHandler(new AdminChangeAccessLevel());
 		AdminCommandHandler.getInstance().registerAdminCommandHandler(new AdminCreateItem());
 		AdminCommandHandler.getInstance().registerAdminCommandHandler(new AdminCursedWeapons());
+		AdminCommandHandler.getInstance().registerAdminCommandHandler(new AdminDebug());
 		AdminCommandHandler.getInstance().registerAdminCommandHandler(new AdminDelete());
 		AdminCommandHandler.getInstance().registerAdminCommandHandler(new AdminDisconnect());
 		AdminCommandHandler.getInstance().registerAdminCommandHandler(new AdminDoorControl());
@@ -91,6 +92,7 @@ public class MasterHandler
 		AdminCommandHandler.getInstance().registerAdminCommandHandler(new AdminElement());
 		AdminCommandHandler.getInstance().registerAdminCommandHandler(new AdminEnchant());
 		AdminCommandHandler.getInstance().registerAdminCommandHandler(new AdminEventEngine());
+		AdminCommandHandler.getInstance().registerAdminCommandHandler(new AdminEvents());
 		AdminCommandHandler.getInstance().registerAdminCommandHandler(new AdminExpSp());
 		AdminCommandHandler.getInstance().registerAdminCommandHandler(new AdminFightCalculator());
 		AdminCommandHandler.getInstance().registerAdminCommandHandler(new AdminFortSiege());
@@ -152,6 +154,7 @@ public class MasterHandler
 		BypassHandler.getInstance().registerBypassHandler(new Festival());
 		BypassHandler.getInstance().registerBypassHandler(new FishSkillList());
 		BypassHandler.getInstance().registerBypassHandler(new FortSiege());
+		BypassHandler.getInstance().registerBypassHandler(new ItemAuctionLink());
 		BypassHandler.getInstance().registerBypassHandler(new Link());
 		BypassHandler.getInstance().registerBypassHandler(new Loto());
 		BypassHandler.getInstance().registerBypassHandler(new ManorManager());
@@ -212,7 +215,6 @@ public class MasterHandler
 		ItemHandler.getInstance().registerItemHandler(new EnchantScrolls());
 		ItemHandler.getInstance().registerItemHandler(new ExtractableItems());
 		ItemHandler.getInstance().registerItemHandler(new Book());
-		ItemHandler.getInstance().registerItemHandler(new SoulCrystals());
 		ItemHandler.getInstance().registerItemHandler(new SevenSignsRecord());
 		ItemHandler.getInstance().registerItemHandler(new ItemSkills());
 		ItemHandler.getInstance().registerItemHandler(new ItemSkillsTemplate());
@@ -229,6 +231,7 @@ public class MasterHandler
 		ItemHandler.getInstance().registerItemHandler(new Disguise());
 		ItemHandler.getInstance().registerItemHandler(new ManaPotion());
 		ItemHandler.getInstance().registerItemHandler(new EnergyStarStone());
+		ItemHandler.getInstance().registerItemHandler(new QuestItems());  // Add CH by pmq
 		_log.config("Loaded " + ItemHandler.getInstance().size() + " ItemHandlers");
 	}
 	
@@ -256,15 +259,16 @@ public class MasterHandler
 		SkillHandler.getInstance().registerSkillHandler(new SummonFriend());
 		SkillHandler.getInstance().registerSkillHandler(new SummonTreasureKey());
 		SkillHandler.getInstance().registerSkillHandler(new Disablers());
+		SkillHandler.getInstance().registerSkillHandler(new Cancel());
+		SkillHandler.getInstance().registerSkillHandler(new StealBuffs());
 		SkillHandler.getInstance().registerSkillHandler(new BallistaBomb());
 		SkillHandler.getInstance().registerSkillHandler(new TakeCastle());
 		SkillHandler.getInstance().registerSkillHandler(new TakeFort());
 		SkillHandler.getInstance().registerSkillHandler(new Unlock());
-		SkillHandler.getInstance().registerSkillHandler(new DrainSoul());
 		SkillHandler.getInstance().registerSkillHandler(new Craft());
 		SkillHandler.getInstance().registerSkillHandler(new Fishing());
 		SkillHandler.getInstance().registerSkillHandler(new FishingSkill());
-		SkillHandler.getInstance().registerSkillHandler(new BeastFeed());
+		SkillHandler.getInstance().registerSkillHandler(new BeastSkills());
 		SkillHandler.getInstance().registerSkillHandler(new DeluxeKey());
 		SkillHandler.getInstance().registerSkillHandler(new Sow());
 		SkillHandler.getInstance().registerSkillHandler(new Soul());
@@ -313,6 +317,8 @@ public class MasterHandler
 			VoicedCommandHandler.getInstance().registerVoicedCommandHandler(new ChatAdmin());
 		if (Config.L2JMOD_MULTILANG_ENABLE && Config.L2JMOD_MULTILANG_VOICED_ALLOW)
 			VoicedCommandHandler.getInstance().registerVoicedCommandHandler(new Lang());
+		if (Config.L2JMOD_DEBUG_VOICE_COMMAND)
+			VoicedCommandHandler.getInstance().registerVoicedCommandHandler(new Debug());
 		_log.config("Loaded " + VoicedCommandHandler.getInstance().size() + " VoicedHandlers");
 	}
 	

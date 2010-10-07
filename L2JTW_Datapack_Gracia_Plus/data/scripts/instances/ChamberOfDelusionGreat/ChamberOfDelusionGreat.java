@@ -27,7 +27,7 @@ public class ChamberOfDelusionGreat extends Quest
 		private L2Npc manager,managera,managerb,managerc,managerd,managere,managerf,managerg,managerh,_aenkinel;
 		public CDWorld()
 		{
-			InstanceManager.getInstance().super();
+			//InstanceManager.getInstance().super();
 		}
 	}
 
@@ -139,7 +139,7 @@ public class ChamberOfDelusionGreat extends Quest
 			for (int objectId : world.allowed)
 			{
 				L2PcInstance player = L2World.getInstance().getPlayer(objectId);
-				if (player != null && player.isOnline() > 0)
+				if (player != null && player.isOnline())
 				{
 					InstanceManager.getInstance().setInstanceTime(objectId, world.templateId, reenter.getTimeInMillis());
 					player.sendPacket(sm);

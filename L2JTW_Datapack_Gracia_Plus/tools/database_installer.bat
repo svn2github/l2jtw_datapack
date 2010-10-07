@@ -37,7 +37,7 @@ set cmode=c
 set fresh_setup=0
 
 :loadconfig
-title L2JTW Datapack 安裝 - For：L2JTW GameServer Gracia Alpha
+title L2JTW Datapack 安裝 - For：L2JTW GameServer Freya Alpha
 cls
 if not exist %config_file% goto configure
 ren %config_file% vars.bat
@@ -78,7 +78,7 @@ goto :eof
 
 :configure
 call :colors 17
-title L2JTW Datapack 安裝 - For：L2JTW GameServer Gracia Alpha
+title L2JTW Datapack 安裝 - For：L2JTW GameServer Freya Alpha
 cls
 set config_version=2
 if NOT %upgrade_mode% == 2 (
@@ -239,7 +239,7 @@ cls
 call :colors 17
 set cmdline=
 set stage=1
-title L2JTW Datapack 安裝 - For：L2JTW GameServer Gracia Alpha
+title L2JTW Datapack 安裝 - For：L2JTW GameServer Freya Alpha
 echo.
 echo 正在備份登入伺服器的資料庫...
 set cmdline="%mysqldumpPath%" --add-drop-table -h %lshost% -u %lsuser% --password=%lspass% %lsdb% ^> "%backup%\loginserver_backup.sql" 2^> NUL
@@ -248,7 +248,7 @@ if %ERRORLEVEL% == 0 goto lsdbok
 REM if %safe_mode% == 1 goto omfg
 :ls_err1
 call :colors 47
-title L2JTW Datapack 安裝 - For：L2JTW GameServer Gracia Alpha
+title L2JTW Datapack 安裝 - For：L2JTW GameServer Freya Alpha
 cls
 echo.
 echo 備份失敗！
@@ -277,7 +277,7 @@ goto ls_ask1
 :omfg
 cls
 call :colors 57
-title L2JTW Datapack 安裝 - For：L2JTW GameServer Gracia Alpha
+title L2JTW Datapack 安裝 - For：L2JTW GameServer Freya Alpha
 echo.
 echo 執行時出現錯誤：
 echo.
@@ -313,7 +313,7 @@ goto omfgask1
 call :colors 17
 set cmdline=
 set stage=2
-title L2JTW Datapack 安裝 - For：L2JTW GameServer Gracia Alpha
+title L2JTW Datapack 安裝 - For：L2JTW GameServer Freya Alpha
 echo.
 echo 正在建立登入伺服器的資料庫...
 set cmdline="%mysqlPath%" -h %lshost% -u %lsuser% --password=%lspass% -e "CREATE DATABASE %lsdb%" 2^> NUL
@@ -322,7 +322,7 @@ if %ERRORLEVEL% == 0 goto logininstall
 if %safe_mode% == 1 goto omfg
 :ls_err2
 call :colors 47
-title L2JTW Datapack 安裝 - For：L2JTW GameServer Gracia Alpha
+title L2JTW Datapack 安裝 - For：L2JTW GameServer Freya Alpha
 cls
 echo 登入伺服器的資料庫建立失敗！
 echo.
@@ -349,7 +349,7 @@ goto ls_ask2
 
 :lsdbok
 call :colors 17
-title L2JTW Datapack 安裝 - For：L2JTW GameServer Gracia Alpha
+title L2JTW Datapack 安裝 - For：L2JTW GameServer Freya Alpha
 echo.
 :asklogin
 if %fresh_setup%==0 (
@@ -380,7 +380,7 @@ goto asklogin
 set stage=3
 call :colors 17
 set cmdline=
-title L2JTW Datapack 安裝 - For：L2JTW GameServer Gracia Alpha
+title L2JTW Datapack 安裝 - For：L2JTW GameServer Freya Alpha
 echo 正在移除登入伺服器的資料庫，然後導入新的資料庫...
 set cmdline="%mysqlPath%" -h %lshost% -u %lsuser% --password=%lspass% -D %lsdb% ^< login_install.sql 2^> NUL
 %cmdline%
@@ -394,7 +394,7 @@ call :colors 17
 set cmdline=
 if %full% == 1 goto communityinstall
 set stage=4
-title L2JTW Datapack 安裝 - For：L2JTW GameServer Gracia Alpha
+title L2JTW Datapack 安裝 - For：L2JTW GameServer Freya Alpha
 echo.
 echo 正在備份「討論版專用」的資料庫...
 set cmdline="%mysqldumpPath%" --add-drop-table -h %cbhost% -u %cbuser% --password=%cbpass% %cbdb% ^> "%backup%\cbserver_backup.sql" 2^> NUL
@@ -403,7 +403,7 @@ if %ERRORLEVEL% == 0 goto cbdbok
 REM if %safe_mode% == 1 goto omfg
 :cb_err1
 call :colors 47
-title L2JTW Datapack 安裝 - For：L2JTW GameServer Gracia Alpha
+title L2JTW Datapack 安裝 - For：L2JTW GameServer Freya Alpha
 cls
 echo.
 echo 備份失敗！
@@ -433,7 +433,7 @@ goto cb_ask1
 call :colors 17
 set cmdline=
 set stage=5
-title L2JTW Datapack 安裝 - For：L2JTW GameServer Gracia Alpha
+title L2JTW Datapack 安裝 - For：L2JTW GameServer Freya Alpha
 echo.
 echo 正在建立「討論版專用」的資料庫...
 set cmdline="%mysqlPath%" -h %cbhost% -u %cbuser% --password=%cbpass% -e "CREATE DATABASE %cbdb%" 2^> NUL
@@ -442,7 +442,7 @@ if %ERRORLEVEL% == 0 goto communityinstall
 if %safe_mode% == 1 goto omfg
 :cb_err2
 call :colors 47
-title L2JTW Datapack 安裝 - For：L2JTW GameServer Gracia Alpha
+title L2JTW Datapack 安裝 - For：L2JTW GameServer Freya Alpha
 cls
 echo 「討論版專用」的資料庫建立失敗！
 echo.
@@ -469,7 +469,7 @@ goto cb_ask2
 
 :cbdbok
 call :colors 17
-title L2JTW Datapack 安裝 - For：L2JTW GameServer Gracia Alpha
+title L2JTW Datapack 安裝 - For：L2JTW GameServer Freya Alpha
 echo.
 :askcommunity
 if %fresh_setup%==0 (
@@ -503,7 +503,7 @@ goto askcommunity
 set stage=6
 call :colors 17
 set cmdline=
-title L2JTW Datapack 安裝 - For：L2JTW GameServer Gracia Alpha
+title L2JTW Datapack 安裝 - For：L2JTW GameServer Freya Alpha
 echo 正在移除「討論版專用」的資料庫，然後導入新的資料庫...
 set cmdline="%mysqlPath%" -h %cbhost% -u %cbuser% --password=%cbpass% -D %cbdb% ^< community_install.sql 2^> NUL
 %cmdline%
@@ -514,10 +514,10 @@ goto upgradecbinstall
 set stage=6
 set cmdline=
 if %full% == 1 (
-title L2JTW Datapack 安裝 - For：L2JTW GameServer Gracia Alpha
+title L2JTW Datapack 安裝 - For：L2JTW GameServer Freya Alpha
 echo 安裝新的「討論版專用」資料庫...
 ) else (
-title L2JTW Datapack 安裝 - For：L2JTW GameServer Gracia Alpha
+title L2JTW Datapack 安裝 - For：L2JTW GameServer Freya Alpha
 echo 更新「討論版專用」資料庫...
 )
 if %logging% == 0 set output=NUL
@@ -541,7 +541,7 @@ call :colors 17
 set cmdline=
 if %full% == 1 goto fullinstall
 set stage=7
-title L2JTW Datapack 安裝 - For：L2JTW GameServer Gracia Alpha
+title L2JTW Datapack 安裝 - For：L2JTW GameServer Freya Alpha
 cls
 echo.
 echo 正在備份遊戲伺服器的資料庫...
@@ -551,7 +551,7 @@ if %ERRORLEVEL% == 0 goto gsdbok
 rem if %safe_mode% == 1 goto omfg
 :gs_err1
 call :colors 47
-title L2JTW Datapack 安裝 - For：L2JTW GameServer Gracia Alpha
+title L2JTW Datapack 安裝 - For：L2JTW GameServer Freya Alpha
 cls
 echo.
 echo 備份失敗！
@@ -581,7 +581,7 @@ goto askgsdb
 call :colors 17
 set stage=8
 set cmdline=
-title L2JTW Datapack 安裝 - For：L2JTW GameServer Gracia Alpha
+title L2JTW Datapack 安裝 - For：L2JTW GameServer Freya Alpha
 cls
 echo 正在建立遊戲伺服器的資料庫...
 set cmdline="%mysqlPath%" -h %gshost% -u %gsuser% --password=%gspass% -e "CREATE DATABASE %gsdb%" 2^> NUL
@@ -590,7 +590,7 @@ if %ERRORLEVEL% == 0 goto fullinstall
 if %safe_mode% == 1 goto omfg
 :gs_err2
 call :colors 47
-title L2JTW Datapack 安裝 - For：L2JTW GameServer Gracia Alpha
+title L2JTW Datapack 安裝 - For：L2JTW GameServer Freya Alpha
 cls
 echo.
 echo 遊戲伺服器的資料庫建立失敗！
@@ -615,7 +615,7 @@ goto askgsdbcreate
 
 :gsdbok
 call :colors 17
-title L2JTW Datapack 安裝 - For：L2JTW GameServer Gracia Alpha
+title L2JTW Datapack 安裝 - For：L2JTW GameServer Freya Alpha
 cls
 echo.
 :asktype
@@ -641,7 +641,7 @@ goto asktype
 call :colors 17
 set stage=9
 set cmdline=
-title L2JTW Datapack 安裝 - For：L2JTW GameServer Gracia Alpha
+title L2JTW Datapack 安裝 - For：L2JTW GameServer Freya Alpha
 echo 正在移除遊戲伺服器的資料庫，然後導入新的資料庫...
 set cmdline="%mysqlPath%" -h %gshost% -u %gsuser% --password=%gspass% -D %gsdb% ^< full_install.sql 2^> NUL
 %cmdline%
@@ -655,10 +655,10 @@ goto upgradeinstall
 set stage=9
 set cmdline=
 if %full% == 1 (
-title L2JTW Datapack 安裝 - For：L2JTW GameServer Gracia Alpha
+title L2JTW Datapack 安裝 - For：L2JTW GameServer Freya Alpha
 echo 安裝新的遊戲資料庫...
 ) else (
-title L2JTW Datapack 安裝 - For：L2JTW GameServer Gracia Alpha
+title L2JTW Datapack 安裝 - For：L2JTW GameServer Freya Alpha
 echo 更新遊戲資料庫...
 )
 if %logging% == 0 set output=NUL
@@ -719,6 +719,7 @@ clan_subpledges.sql
 clan_wars.sql
 clanhall.sql
 clanhall_functions.sql
+clanhall_siege_guards.sql
 class_list.sql
 cursed_weapons.sql
 dimensional_rift.sql
@@ -745,9 +746,13 @@ hellbound.sql
 helper_buff_list.sql
 henna.sql
 henna_trees.sql
+herb_droplist_groups.sql
 heroes.sql
 heroes_diary.sql
 item_attributes.sql
+item_auction_bid.sql
+item_auction.sql
+item_elementals.sql
 items.sql
 itemsonground.sql
 locations.sql
@@ -760,7 +765,8 @@ messages.sql
 minions.sql
 npc.sql
 npc_buffer.sql
-npcAIData.sql
+npcaidata.sql
+npc_elementals.sql
 npcskills.sql
 olympiad_data.sql
 olympiad_fights.sql
@@ -826,7 +832,7 @@ goto :eof
 :omfg2
 cls
 call :colors 47
-title L2JTW Datapack 安裝 - For：L2JTW GameServer Gracia Alpha
+title L2JTW Datapack 安裝 - For：L2JTW GameServer Freya Alpha
 echo.
 echo 出現錯誤：
 echo %mysqlPath% -h %gshost% -u %gsuser% --password=%gspass% -D %gsdb%
@@ -855,7 +861,7 @@ goto askomfg2
 :logginon
 cls
 call :colors 17
-title L2JTW Datapack 安裝 - For：L2JTW GameServer Gracia Alpha
+title L2JTW Datapack 安裝 - For：L2JTW GameServer Freya Alpha
 set logging=1
 if %full% == 1 (
   set output=%logdir%\install-%~nx1.log
@@ -913,7 +919,7 @@ for %%i in (*.sql) do echo "%mysqlPath%" -h %gshost% -u %gsuser% --password=%gsp
 call temp.bat> nul
 del temp.bat
 move custom_errors.txt %workdir%
-title L2JTW Datapack 安裝 - For：L2JTW GameServer Gracia Alpha
+title L2JTW Datapack 安裝 - For：L2JTW GameServer Freya Alpha
 cls
 echo custom 自訂資料表加入資料庫完成
 echo 所有錯誤資訊將放入「custom_errors.txt」
@@ -956,7 +962,7 @@ goto newbie_helper
 :newbie_helper
 call :colors 17
 set stage=10
-title L2JTW Datapack 安裝 - For：L2JTW GameServer Gracia Alpha
+title L2JTW Datapack 安裝 - For：L2JTW GameServer Freya Alpha
 cls
 if %full% == 1 goto end
 echo.
@@ -998,7 +1004,7 @@ del temp.bat
 move cberrors.txt %workdir%
 cd %workdir%
 :nbfinished
-title L2JTW Datapack 安裝 - For：L2JTW GameServer Gracia Alpha
+title L2JTW Datapack 安裝 - For：L2JTW GameServer Freya Alpha
 cls
 echo 自動更新完畢，所有錯誤資訊將放入「errors.txt」
 echo.
@@ -1023,7 +1029,7 @@ goto :eof
 
 :horrible_end
 call :colors 47
-title L2JTW Datapack 安裝 - For：L2JTW GameServer Gracia Alpha
+title L2JTW Datapack 安裝 - For：L2JTW GameServer Freya Alpha
 cls
 echo 發生錯誤，請查詢相關問題，尋找幫助
 echo.
@@ -1064,10 +1070,10 @@ goto end
 
 :end
 call :colors 17
-title L2JTW Datapack 安裝 - For：L2JTW GameServer Gracia Alpha
+title L2JTW Datapack 安裝 - For：L2JTW GameServer Freya Alpha
 cls
 echo.
-echo L2JTW Datapack 安裝程序 - For：L2JTW GameServer Gracia Alpha
+echo L2JTW Datapack 安裝程序 - For：L2JTW GameServer Freya Alpha
 echo (C) 2007-2010 L2JTW Datapack 開發團隊
 echo.
 echo 感謝使用 L2JTW 伺服器

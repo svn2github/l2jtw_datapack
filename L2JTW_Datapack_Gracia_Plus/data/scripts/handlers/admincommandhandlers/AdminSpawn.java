@@ -262,9 +262,9 @@ public class AdminSpawn implements IAdminCommandHandler
 		L2NpcTemplate[] mobs = NpcTable.getInstance().getAllMonstersOfLevel(level);
 		final StringBuilder tb = StringUtil.startAppend(500 + mobs.length * 80,
 				"<html><title>"+MessageTable.Messages[1865].getExtra(1)+"</title><body><p>"+MessageTable.Messages[1865].getExtra(2), 
-				Integer.toString(level), 
+				Integer.toString(level),
 				"<br>"+MessageTable.Messages[1865].getExtra(3),
-				Integer.toString(mobs.length), 
+				Integer.toString(mobs.length),
 				"<br>");
 
 		// Loop
@@ -287,7 +287,7 @@ public class AdminSpawn implements IAdminCommandHandler
 				"<html><title>"+MessageTable.Messages[1868].getExtra(1)+"</title><body><p>"+MessageTable.Messages[1868].getExtra(2), 
 				Integer.toString(mobs.length),
 				MessageTable.Messages[1868].getExtra(3), 
-				starting, 
+				starting,
 				":<br>");
 
 		// Loop

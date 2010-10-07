@@ -54,8 +54,6 @@ MIXING_STONE1 = 5904
 BLOOD_FIRE, MIMIRS_ELIXIR, PURE_SILVER, TRUE_GOLD = range(6318,6322)
 
 MATS=range(6011,6032)+range(6320,6322)
-#Messages
-default   = "<html><body>目前沒有執行任務，或條件不符。</body></html>"
 #NPCs
 WESLEY,URN=30166,31149
 #Mobs & Drop
@@ -252,7 +250,7 @@ class Quest (JQuest) :
     return htmltext
 
  def onTalk (self,npc,player):
-   htmltext = default
+   htmltext = "<html><body>目前沒有執行任務，或條件不符。</body></html>"
    st = player.getQuestState(qn)
    if not st : return htmltext
 

@@ -8,12 +8,15 @@ This script takes the best elements of different versions and combines them into
 Original sources: theone, L2JEmu, L2JOfficial, L2JFree
 Contributing authors: TGS, Lantoc, Janiii, Gigiikun, RosT
 Please maintain consistency between the Crystal Caverns scripts.
-*/
+ */
 
 package instances.CrystalCaverns;
 
 import java.util.List;
 import java.util.Map;
+
+import javolution.util.FastList;
+import javolution.util.FastMap;
 
 import com.l2jserver.Config;
 import com.l2jserver.gameserver.GeoData;
@@ -26,13 +29,14 @@ import com.l2jserver.gameserver.model.L2ItemInstance;
 import com.l2jserver.gameserver.model.L2Object;
 import com.l2jserver.gameserver.model.L2Party;
 import com.l2jserver.gameserver.model.L2Skill;
+import com.l2jserver.gameserver.model.L2Skill.SkillTargetType;
 import com.l2jserver.gameserver.model.L2World;
 import com.l2jserver.gameserver.model.Location;
-import com.l2jserver.gameserver.model.L2Skill.SkillTargetType;
 import com.l2jserver.gameserver.model.actor.L2Attackable;
 import com.l2jserver.gameserver.model.actor.L2Character;
 import com.l2jserver.gameserver.model.actor.L2Npc;
 import com.l2jserver.gameserver.model.actor.L2Summon;
+import com.l2jserver.gameserver.model.actor.L2Trap;
 import com.l2jserver.gameserver.model.actor.instance.L2DoorInstance;
 import com.l2jserver.gameserver.model.actor.instance.L2MonsterInstance;
 import com.l2jserver.gameserver.model.actor.instance.L2PcInstance;
@@ -45,18 +49,15 @@ import com.l2jserver.gameserver.network.SystemMessageId;
 import com.l2jserver.gameserver.network.serverpackets.ActionFailed;
 import com.l2jserver.gameserver.network.serverpackets.CreatureSay;
 import com.l2jserver.gameserver.network.serverpackets.FlyToLocation;
+import com.l2jserver.gameserver.network.serverpackets.FlyToLocation.FlyType;
 import com.l2jserver.gameserver.network.serverpackets.MagicSkillUse;
 import com.l2jserver.gameserver.network.serverpackets.PlaySound;
 import com.l2jserver.gameserver.network.serverpackets.SocialAction;
 import com.l2jserver.gameserver.network.serverpackets.SpecialCamera;
 import com.l2jserver.gameserver.network.serverpackets.SystemMessage;
 import com.l2jserver.gameserver.network.serverpackets.ValidateLocation;
-import com.l2jserver.gameserver.network.serverpackets.FlyToLocation.FlyType;
 import com.l2jserver.gameserver.util.Util;
 import com.l2jserver.util.Rnd;
-
-import javolution.util.FastList;
-import javolution.util.FastMap;
 
 public class CrystalCaverns extends Quest
 {
@@ -104,7 +105,6 @@ public class CrystalCaverns extends Quest
 
 		public CCWorld(Long time)
 		{
-			InstanceManager.getInstance().super();
 			endTime = time;
 		}
 	}
@@ -130,8 +130,8 @@ public class CrystalCaverns extends Quest
 	private static final int ORACLE_GUIDE_3 = 32280;
 	private static final int ORACLE_GUIDE_4 = 32279;
 	private static final int CRYSTAL_GOLEM  = 32328;
-	// private static final int DOOR_OPENING_TRAP = 18378;
-
+	private static final int[] DOOR_OPENING_TRAP = { 18378, 143682, 142492, -11886, 16384 };
+	
 	//mobs
 	private static final int GK1 = 22275;
 	private static final int GK2 = 22277;
@@ -273,8 +273,8 @@ public class CrystalCaverns extends Quest
 	};
 
 	private static int[][] ROOM4_SPAWNS = {{22304, 150563, 142240, -12108, 16454},{22294, 150769, 142495, -12108, 16870},
-	    {22281, 150783, 141995, -12108, 20033},{22283, 150273, 141983, -12108, 16043},
-	    {22294, 150276, 142492, -12108, 13540}
+		{22281, 150783, 141995, -12108, 20033},{22283, 150273, 141983, -12108, 16043},
+		{22294, 150276, 142492, -12108, 13540}
 	};
 
 	// Steam Corridor
@@ -326,11 +326,11 @@ public class CrystalCaverns extends Quest
 	}
 
 	protected void closeDoor(int doorId,int instanceId)
-		{
-			for (L2DoorInstance door : InstanceManager.getInstance().getInstance(instanceId).getDoors())
-				if (door.getDoorId() == doorId)
-					if (door.getOpen())
-						door.closeMe();
+	{
+		for (L2DoorInstance door : InstanceManager.getInstance().getInstance(instanceId).getDoors())
+			if (door.getDoorId() == doorId)
+				if (door.getOpen())
+					door.closeMe();
 	}
 
 	private boolean checkConditions(L2PcInstance player)
@@ -706,8 +706,8 @@ public class CrystalCaverns extends Quest
 				return false;
 		return true;
 	}
-
-/*	protected void runBaylorRoom(CCWorld world)
+	
+	/*	protected void runBaylorRoom(CCWorld world)
 	{
 		world.status = 30;
 
@@ -800,18 +800,18 @@ public class CrystalCaverns extends Quest
 
 		switch(skill.getId())
 		{
-		case 1011:
-		case 1015:
-		case 1217:
-		case 1218:
-		case 1401:
-		case 2360:
-		case 2369:
-		case 5146:
-			doReturn = false;
-			break;
-		default:
-			doReturn = true;
+			case 1011:
+			case 1015:
+			case 1217:
+			case 1218:
+			case 1401:
+			case 2360:
+			case 2369:
+			case 5146:
+				doReturn = false;
+				break;
+			default:
+				doReturn = true;
 		}
 		if (doReturn)
 			return super.onSkillSee(npc, caster, skill, targets, isPet);
@@ -1646,10 +1646,8 @@ public class CrystalCaverns extends Quest
 				if (npc.getNpcId() == DOLPH)
 				{
 					world.status = 8;
-
-					// TODO: Trap is not implemented
-					openDoor(24220001, world.instanceId);
-					runEmeraldRooms(world, ROOM1_SPAWNS, 1);
+					// first door opener trap
+					addTrap(DOOR_OPENING_TRAP[0], DOOR_OPENING_TRAP[1], DOOR_OPENING_TRAP[2], DOOR_OPENING_TRAP[3], DOOR_OPENING_TRAP[4], null, world.instanceId);
 				}
 			}
 			else if (world.status == 8)
@@ -1682,32 +1680,32 @@ public class CrystalCaverns extends Quest
 					int[][] oracleOrder;
 					switch(world.status)
 					{
-					case 22:
-						closeDoor(DOOR6,npc.getInstanceId());
-						oracleOrder = ordreOracle1;
-						break;
-					case 23:
-						oracleOrder = ordreOracle2;
-						break;
-					case 24:
-						oracleOrder = ordreOracle3;
-						break;
-					case 25:
-						world.status = 26;
-						L2Party party = player.getParty();
-						if (party != null)
-							for(L2PcInstance partyMember : party.getPartyMembers())
-								partyMember.stopSkillEffects(5239);
-						cancelQuestTimers("Timer5");
-						cancelQuestTimers("Timer51");
-						openDoor(DOOR3,npc.getInstanceId());
-						openDoor(DOOR4,npc.getInstanceId());
-						L2Npc kechi = addSpawn(KECHI, 154069, 149525, -12158, 51165, false,0,false,world.instanceId);
-						startQuestTimer("checkKechiAttack", 1000, kechi, null);
-						return "";
-					default:
-						_log.warning("CrystalCavern-SteamCorridor: status " + world.status + " error. OracleOrder not found in " + world.instanceId);
-						return "";
+						case 22:
+							closeDoor(DOOR6,npc.getInstanceId());
+							oracleOrder = ordreOracle1;
+							break;
+						case 23:
+							oracleOrder = ordreOracle2;
+							break;
+						case 24:
+							oracleOrder = ordreOracle3;
+							break;
+						case 25:
+							world.status = 26;
+							L2Party party = player.getParty();
+							if (party != null)
+								for(L2PcInstance partyMember : party.getPartyMembers())
+									partyMember.stopSkillEffects(5239);
+							cancelQuestTimers("Timer5");
+							cancelQuestTimers("Timer51");
+							openDoor(DOOR3,npc.getInstanceId());
+							openDoor(DOOR4,npc.getInstanceId());
+							L2Npc kechi = addSpawn(KECHI, 154069, 149525, -12158, 51165, false,0,false,world.instanceId);
+							startQuestTimer("checkKechiAttack", 1000, kechi, null);
+							return "";
+						default:
+							_log.warning("CrystalCavern-SteamCorridor: status " + world.status + " error. OracleOrder not found in " + world.instanceId);
+							return "";
 					}
 					runSteamOracles(world, oracleOrder);
 				}
@@ -1788,87 +1786,87 @@ public class CrystalCaverns extends Quest
 				doTeleport = true;
 				switch(npc.getNpcId())
 				{
-				case 32275:
-					if (world.status == 22)
-						runSteamRooms(world, STEAM2_SPAWNS, 23);
-					teleto.x = 147529;
-					teleto.y = 152587;
-					teleto.z = -12169;
-					cancelQuestTimers("Timer2");
-					cancelQuestTimers("Timer21");
-					if (party != null)
-						for(L2PcInstance partyMember : party.getPartyMembers())
-						{
-							if (partyMember.getInstanceId() == world.instanceId)
+					case 32275:
+						if (world.status == 22)
+							runSteamRooms(world, STEAM2_SPAWNS, 23);
+						teleto.x = 147529;
+						teleto.y = 152587;
+						teleto.z = -12169;
+						cancelQuestTimers("Timer2");
+						cancelQuestTimers("Timer21");
+						if (party != null)
+							for(L2PcInstance partyMember : party.getPartyMembers())
 							{
-								partyMember.stopSkillEffects(5239);
-								SkillTable.getInstance().getInfo(5239, 2).getEffects(partyMember, partyMember);
-								startQuestTimer("Timer3",600000,npc,partyMember);
+								if (partyMember.getInstanceId() == world.instanceId)
+								{
+									partyMember.stopSkillEffects(5239);
+									SkillTable.getInstance().getInfo(5239, 2).getEffects(partyMember, partyMember);
+									startQuestTimer("Timer3",600000,npc,partyMember);
+								}
 							}
-						}
-					else
-					{
-						player.stopSkillEffects(5239);
-						SkillTable.getInstance().getInfo(5239, 2).getEffects(player, player);
-						startQuestTimer("Timer3",600000,npc,player);
-					}
-					startQuestTimer("Timer31",600000,npc,null);
-					break;
-				case 32276:
-					if (world.status == 23)
-						runSteamRooms(world, STEAM3_SPAWNS, 24);
-					teleto.x = 150194;
-					teleto.y = 152610;
-					teleto.z = -12169;
-					cancelQuestTimers("Timer3");
-					cancelQuestTimers("Timer31");
-					if (party != null)
-						for(L2PcInstance partyMember : party.getPartyMembers())
+						else
 						{
-							if (partyMember.getInstanceId() == world.instanceId)
-							{
-								partyMember.stopSkillEffects(5239);
-								SkillTable.getInstance().getInfo(5239, 4).getEffects(partyMember, partyMember);
-								startQuestTimer("Timer4",1200000,npc,partyMember);
-							}
+							player.stopSkillEffects(5239);
+							SkillTable.getInstance().getInfo(5239, 2).getEffects(player, player);
+							startQuestTimer("Timer3",600000,npc,player);
 						}
-					else
-					{
-						player.stopSkillEffects(5239);
-						SkillTable.getInstance().getInfo(5239, 4).getEffects(player, player);
-						startQuestTimer("Timer4",1200000,npc,player);
-					}
-					startQuestTimer("Timer41",1200000,npc,null);
-					break;
-				case 32277:
-					if (world.status == 24)
-						runSteamRooms(world, STEAM4_SPAWNS, 25);
-					teleto.x = 149743;
-					teleto.y = 149986;
-					teleto.z = -12141;
-					cancelQuestTimers("Timer4");
-					cancelQuestTimers("Timer41");
-					if (party != null)
-						for(L2PcInstance partyMember : party.getPartyMembers())
+						startQuestTimer("Timer31",600000,npc,null);
+						break;
+					case 32276:
+						if (world.status == 23)
+							runSteamRooms(world, STEAM3_SPAWNS, 24);
+						teleto.x = 150194;
+						teleto.y = 152610;
+						teleto.z = -12169;
+						cancelQuestTimers("Timer3");
+						cancelQuestTimers("Timer31");
+						if (party != null)
+							for(L2PcInstance partyMember : party.getPartyMembers())
+							{
+								if (partyMember.getInstanceId() == world.instanceId)
+								{
+									partyMember.stopSkillEffects(5239);
+									SkillTable.getInstance().getInfo(5239, 4).getEffects(partyMember, partyMember);
+									startQuestTimer("Timer4",1200000,npc,partyMember);
+								}
+							}
+						else
 						{
-							if (partyMember.getInstanceId() == world.instanceId)
-							{
-								partyMember.stopSkillEffects(5239);
-								SkillTable.getInstance().getInfo(5239, 3).getEffects(partyMember, partyMember);
-								startQuestTimer("Timer5",900000,npc,partyMember);
-							}
+							player.stopSkillEffects(5239);
+							SkillTable.getInstance().getInfo(5239, 4).getEffects(player, player);
+							startQuestTimer("Timer4",1200000,npc,player);
 						}
-					else
-					{
-						player.stopSkillEffects(5239);
-						SkillTable.getInstance().getInfo(5239, 3).getEffects(player, player);
-						startQuestTimer("Timer5",900000,npc,player);
-					}
-					startQuestTimer("Timer51",900000,npc,null);
-					break;
-				default:
-					// something is wrong
-					doTeleport = false;
+						startQuestTimer("Timer41",1200000,npc,null);
+						break;
+					case 32277:
+						if (world.status == 24)
+							runSteamRooms(world, STEAM4_SPAWNS, 25);
+						teleto.x = 149743;
+						teleto.y = 149986;
+						teleto.z = -12141;
+						cancelQuestTimers("Timer4");
+						cancelQuestTimers("Timer41");
+						if (party != null)
+							for(L2PcInstance partyMember : party.getPartyMembers())
+							{
+								if (partyMember.getInstanceId() == world.instanceId)
+								{
+									partyMember.stopSkillEffects(5239);
+									SkillTable.getInstance().getInfo(5239, 3).getEffects(partyMember, partyMember);
+									startQuestTimer("Timer5",900000,npc,partyMember);
+								}
+							}
+						else
+						{
+							player.stopSkillEffects(5239);
+							SkillTable.getInstance().getInfo(5239, 3).getEffects(player, player);
+							startQuestTimer("Timer5",900000,npc,player);
+						}
+						startQuestTimer("Timer51",900000,npc,null);
+						break;
+					default:
+						// something is wrong
+						doTeleport = false;
 				}
 				if (doTeleport)
 				{
@@ -1942,7 +1940,28 @@ public class CrystalCaverns extends Quest
 		}
 		return "";
 	}
-
+	
+	@Override
+	public String onTrapAction(L2Trap trap, L2Character trigger, TrapAction action)
+	{
+		InstanceWorld tmpworld = InstanceManager.getInstance().getWorld(trap.getInstanceId());
+		if (tmpworld instanceof CCWorld)
+		{
+			CCWorld world = (CCWorld) tmpworld;
+			switch(action)
+			{
+				case TRAP_DISARMED:
+					if (trap.getNpcId() == DOOR_OPENING_TRAP[0])
+					{
+						openDoor(24220001, world.instanceId);
+						runEmeraldRooms(world, ROOM1_SPAWNS, 1);
+					}
+					break;
+			}
+		}
+		return null;
+	}
+	
 	@Override
 	public String onEnterZone(L2Character character, L2ZoneType zone)
 	{
@@ -1958,20 +1977,20 @@ public class CrystalCaverns extends Quest
 					int[][] spawns;
 					switch(zone.getId())
 					{
-					case 20105:
-						spawns = ROOM2_SPAWNS;
-						room = 2;
-						break;
-					case 20106:
-						spawns = ROOM3_SPAWNS;
-						room = 3;
-						break;
-					case 20107:
-						spawns = ROOM4_SPAWNS;
-						room = 4;
-						break;
-					default:
-						return super.onEnterZone(character,zone);
+						case 20105:
+							spawns = ROOM2_SPAWNS;
+							room = 2;
+							break;
+						case 20106:
+							spawns = ROOM3_SPAWNS;
+							room = 3;
+							break;
+						case 20107:
+							spawns = ROOM4_SPAWNS;
+							room = 4;
+							break;
+						default:
+							return super.onEnterZone(character,zone);
 					}
 					for (L2DoorInstance door : InstanceManager.getInstance().getInstance(world.instanceId).getDoors())
 						if (door.getDoorId() == (room + 24220000))
@@ -2013,17 +2032,17 @@ public class CrystalCaverns extends Quest
 					int doorId;
 					switch(zone.getId())
 					{
-					case 20105:
-						doorId = 24220002;
-						break;
-					case 20106:
-						doorId = 24220003;
-						break;
-					case 20107:
-						doorId = 24220004;
-						break;
-					default:
-						return super.onExitZone(character,zone);
+						case 20105:
+							doorId = 24220002;
+							break;
+						case 20106:
+							doorId = 24220003;
+							break;
+						case 20107:
+							doorId = 24220004;
+							break;
+						default:
+							return super.onExitZone(character,zone);
 					}
 					for (L2DoorInstance door : InstanceManager.getInstance().getInstance(world.instanceId).getDoors())
 						if (door.getDoorId() == doorId)
@@ -2056,6 +2075,7 @@ public class CrystalCaverns extends Quest
 		addTalkId(ORACLE_GUIDE_4);
 		addFirstTalkId(CRYSTAL_GOLEM);
 		addAttackId(TEARS);
+		addTrapActionId(DOOR_OPENING_TRAP[0]);
 		addKillId(TEARS);
 		addKillId(GK1);
 		addKillId(GK2);

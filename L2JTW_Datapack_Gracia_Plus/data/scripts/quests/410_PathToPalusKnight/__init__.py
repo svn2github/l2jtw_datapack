@@ -82,7 +82,6 @@ class Quest (JQuest) :
    if npcId != 30329 and id != State.STARTED : return htmltext
 
    npcId = npc.getNpcId()
-   htmltext = "<html><body>目前沒有執行任務，或條件不符。</body></html>"
    id = st.getState()
    if npcId == 30329 and st.getInt("cond")==0 :
         htmltext = "30329-01.htm"

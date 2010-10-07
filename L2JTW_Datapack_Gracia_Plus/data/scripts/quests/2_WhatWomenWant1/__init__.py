@@ -49,7 +49,7 @@ class Quest (JQuest) :
 			st.playSound("ItemSound.quest_middle")
 		elif event == "30223-10.htm" :
 			st.takeItems(ARUJIENS_LETTER3,-1)
-			st.giveItems(ADENA,2300)
+			st.giveItems(ADENA,1850)
 			st.addExpAndSp(4254,335)
 			st.unset("cond")
 			st.exitQuest(False)

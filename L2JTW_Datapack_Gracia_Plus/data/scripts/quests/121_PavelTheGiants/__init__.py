@@ -20,7 +20,7 @@ class Quest (JQuest) :
     if not st : return
     if event == "32041-2.htm" :
        st.playSound("ItemSound.quest_finish")
-       st.addExpAndSp(76960,5793)
+       st.addExpAndSp(346320,26069)
        st.unset("cond")
        st.exitQuest(False)
     elif event == "31961-1.htm" :
@@ -39,7 +39,7 @@ class Quest (JQuest) :
     if id == State.COMPLETED:
        htmltext = "<html><body>這是已經完成的任務。</body></html>"
     elif id == State.CREATED and npcId == NEWYEAR :
-       if player.getLevel() >= 46 :
+       if player.getLevel() >= 70 :
           htmltext = "31961-0.htm"
        else:
           htmltext = "31961-1a.htm"

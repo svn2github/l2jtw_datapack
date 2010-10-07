@@ -283,7 +283,6 @@
 		<set name="hitTime" val="2500" />
 	</skill>
 	<skill id="5824" levels="1" name="Presentation - District1 Boss Arise">
-		<!-- Update by pmq -->
 		<set name="target" val="TARGET_SELF" />
 		<set name="skillType" val="DUMMY" />
 		<set name="operateType" val="OP_ACTIVE" />
@@ -1093,7 +1092,6 @@
 		<set name="operateType" val="OP_ACTIVE" />
 	</skill>
 	<skill id="5878" levels="1" name="Cruel Puncture">
-		<!-- Update by pmq -->
 		<set name="hitTime" val="1000" />
 		<set name="isDebuff" val="true" />
 		<set name="magicLvl" val="80" />
@@ -1112,7 +1110,6 @@
 		</for>
 	</skill>
 	<skill id="5879" levels="1" name="Cruel Expunge">
-		<!-- Update by pmq -->
 		<set name="abnormalLvl" val="9" />
 		<set name="magicLvl" val="80" />
 		<set name="mpConsume" val="112" />
@@ -1168,7 +1165,6 @@
 		</for>
 	</skill>
 	<skill id="5882" levels="2" name="Weakened Pommel">
-		<!-- Update by pmq -->
 		<set name="magicLvl" val="80" />
 		<set name="mpConsume" val="189" />
 		<set name="power" val="873" />
@@ -1187,7 +1183,6 @@
 		</for>
 	</skill>
 	<skill id="5883" levels="1" name="Meggling Injury">
-		<!-- Update by pmq -->
 		<set name="abnormalLvl" val="9" />
 		<set name="magicLvl" val="80" />
 		<set name="mpConsume" val="112" />
@@ -1206,7 +1201,6 @@
 		</for>
 	</skill>
 	<skill id="5884" levels="2" name="Weakened Sweep">
-		<!-- Update by pmq -->
 		<set name="hitTime" val="1500" />
 		<set name="isDebuff" val="true" />
 		<set name="magicLvl" val="80" />
@@ -1240,7 +1234,6 @@
 		</for>
 	</skill>
 	<skill id="5886" levels="1" name="Ground Shaker">
-		<!-- Update by pmq -->
 		<set name="hitTime" val="1000" />
 		<set name="isDebuff" val="true" />
 		<set name="magicLvl" val="80" />
@@ -1282,7 +1275,6 @@
 		</for>
 	</skill>
 	<skill id="5888" levels="2" name="Earth Shaker">
-		<!-- Update by pmq -->
 		<set name="hitTime" val="1000" />
 		<set name="isDebuff" val="true" />
 		<set name="magicLvl" val="80" />
@@ -1326,7 +1318,6 @@
 		</for>
 	</skill>
 	<skill id="5892" levels="2" name="Cunning Coercion">
-		<!-- Update by pmq -->
 		<table name="#hitTime"> 1000 11470 </table>
 		<set name="hitTime" val="#hitTime" />
 		<set name="isDebuff" val="true" />
@@ -1358,7 +1349,6 @@
 		</for>
 	</skill>
 	<skill id="5894" levels="1" name="Mark of Despair">
-		<!-- Update by pmq -->
 		<set name="hitTime" val="2000" />
 		<set name="isDebuff" val="true" />
 		<set name="magicLvl" val="80" />
@@ -1387,7 +1377,6 @@
 		</for>
 	</skill>
 	<skill id="5895" levels="1" name="Mark of Cowardice">
-		<!-- Update by pmq -->
 		<set name="hitTime" val="2000" />
 		<set name="isDebuff" val="true" />
 		<set name="magicLvl" val="80" />
@@ -1427,7 +1416,6 @@
 		</for>
 	</skill>
 	<skill id="5897" levels="1" name="Spike of Anger">
-		<!-- Update by pmq -->
 		<set name="isDebuff" val="true" />
 		<set name="magicLvl" val="80" />
 		<set name="operateType" val="OP_ACTIVE" />
@@ -1449,9 +1437,7 @@
 		</for>
 	</skill>
 	<skill id="5898" levels="2" name="Blast of Anger">
-		<!-- Update by pmq -->
 		<table name="#hitTime"> 2000 22940 </table>
-		<set name="hitTime" val="#hitTime" />
 		<set name="isDebuff" val="true" />
 		<set name="magicLvl" val="80" />
 		<set name="operateType" val="OP_ACTIVE" />
@@ -1462,6 +1448,7 @@
 		<set name="reuseDelay" val="10000" />
 		<set name="skillType" val="DEBUFF" />
 		<set name="target" val="TARGET_ONE" />
+		<set name="hitTime" val="#hitTime" />
 		<for>
 			<effect name="Debuff" time="30" val="0">
 				<sub order="0x40" stat="rEvas" val="10" />
@@ -1472,7 +1459,6 @@
 		</for>
 	</skill>
 	<skill id="5899" levels="2" name="Burst of Pain">
-		<!-- Update by pmq -->
 		<table name="#hitTime"> 2000 22940 </table>
 		<set name="power" val="3000" />
 		<set name="target" val="TARGET_ONE" />

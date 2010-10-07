@@ -52,7 +52,7 @@ public class Pdam implements ISkillHandler
 	
 	private static final L2SkillType[] SKILL_IDS =
 	{
-		L2SkillType.PDAM, L2SkillType.FATAL, L2SkillType.DEATHLINK_PDAM
+		L2SkillType.PDAM, L2SkillType.FATAL
 	};
 	
 	/**
@@ -90,7 +90,7 @@ public class Pdam implements ISkillHandler
 			
 			if (activeChar instanceof L2PcInstance && target instanceof L2PcInstance && ((L2PcInstance)target).isFakeDeath())
 			{
-				target.stopFakeDeath(null);
+				target.stopFakeDeath(true);
 			}
 			else if (target.isDead())
 				continue;
@@ -107,16 +107,6 @@ public class Pdam implements ISkillHandler
 				damage = 0;
 			else
 				damage = (int) Formulas.calcPhysDam(activeChar, target, skill, shld, false, dual, soul);
-
-			if (skill.getSkillType() == L2SkillType.DEATHLINK_PDAM || skill.getSkillType() == L2SkillType.FATAL)
-			{
-				double cur = 2*activeChar.getCurrentHp();
-				double max = activeChar.getMaxHp();
-				if (cur<max)
-					 damage *= Math.sqrt(max/cur);
-				else damage *= Math.pow(max/cur, 4);
-			}
-
 			if (skill.getMaxSoulConsumeCount() > 0 && activeChar instanceof L2PcInstance)
 			{
 				switch (((L2PcInstance) activeChar).getSouls())
@@ -142,7 +132,7 @@ public class Pdam implements ISkillHandler
 			}
 			if (crit)
 				damage *= 2; // PDAM Critical damage always 2x and not affected by buffs
-				
+			
 			
 			final boolean skillIsEvaded = Formulas.calcPhysicalSkillEvasion(target, skill);
 			final byte reflect = Formulas.calcSkillReflect(target, skill);
@@ -152,7 +142,7 @@ public class Pdam implements ISkillHandler
 				if (damage > 0)
 				{
 					activeChar.sendDamageMessage(target, damage, false, crit, false);
-				
+					
 					if (skill.hasEffects())
 					{
 						if ((reflect & Formulas.SKILL_REFLECT_SUCCEED) != 0)
@@ -170,7 +160,7 @@ public class Pdam implements ISkillHandler
 							if (Formulas.calcSkillSuccess(activeChar, target, skill, shld, false, false, true))
 							{
 								skill.getEffects(activeChar, target, new Env(shld, false, false, false));
-							
+								
 								SystemMessage sm = new SystemMessage(SystemMessageId.YOU_FEEL_S1_EFFECT);
 								sm.addSkillName(skill);
 								target.sendPacket(sm);
@@ -183,7 +173,7 @@ public class Pdam implements ISkillHandler
 								activeChar.sendPacket(sm);
 							}
 						}
-					
+						
 						if (Config.LOG_GAME_DAMAGE
 								&& activeChar instanceof L2Playable
 								&& damage > Config.LOG_GAME_DAMAGE_THRESHOLD)
@@ -194,10 +184,10 @@ public class Pdam implements ISkillHandler
 							_logDamage.log(record);
 						}
 					}
-				
+					
 					// Possibility of a lethal strike
 					final boolean lethal = Formulas.calcLethalHit(activeChar, target, skill);
-				
+					
 					// Make damage directly to HP
 					if (!lethal && skill.getDmgDirectlyToHP())
 					{
@@ -238,13 +228,13 @@ public class Pdam implements ISkillHandler
 									else
 										player.setCurrentHp(player.getCurrentHp()- damage);
 								}
-
+								
 								SystemMessage smsg = new SystemMessage(SystemMessageId.C1_RECEIVED_DAMAGE_OF_S3_FROM_C2);
 								smsg.addPcName(player);
 								smsg.addCharName(activeChar);
 								smsg.addNumber(damage);
 								player.sendPacket(smsg);
-
+								
 							}
 							else
 								target.reduceCurrentHp(damage, activeChar, skill);
@@ -261,7 +251,7 @@ public class Pdam implements ISkillHandler
 						if ((reflect & Formulas.SKILL_REFLECT_VENGEANCE) != 0)
 							activeChar.reduceCurrentHp(damage, target, skill);
 					}
-				
+					
 				}
 				else // No - damage
 				{
@@ -295,7 +285,7 @@ public class Pdam implements ISkillHandler
 					if (((L2PcInstance) activeChar).getSouls() < soulmastery.getNumSouls())
 					{
 						int count = 0;
-					
+						
 						if (((L2PcInstance) activeChar).getSouls() + skill.getNumSouls() <= soulmastery.getNumSouls())
 							count = skill.getNumSouls();
 						else
@@ -309,21 +299,25 @@ public class Pdam implements ISkillHandler
 					}
 				}
 			}
-			//self Effect :]
-			L2Effect effect = activeChar.getFirstEffect(skill.getId());
+		}
+		
+		//self Effect :]
+		if (skill.hasSelfEffects())
+		{
+			final L2Effect effect = activeChar.getFirstEffect(skill.getId());
 			if (effect != null && effect.isSelfEffect())
 			{
 				//Replace old effect with new one.
 				effect.exit();
 			}
 			skill.getEffectsSelf(activeChar);
-			
-			if (skill.isSuicideAttack())
-				activeChar.doDie(activeChar);
 		}
 		
 		if (soul && weapon != null)
 			weapon.setChargedSoulshot(L2ItemInstance.CHARGED_NONE);
+		
+		if (skill.isSuicideAttack())
+			activeChar.doDie(activeChar);
 	}
 	
 	/**

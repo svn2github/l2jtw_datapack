@@ -269,8 +269,8 @@ public abstract class AirShipController extends Quest
 
 	protected void validityCheck()
 	{
-		L2ZoneType zone = ZoneManager.getInstance().getZoneById(_dockZone);
-		if (zone == null || !(zone instanceof L2ScriptZone))
+		L2ScriptZone zone = ZoneManager.getInstance().getZoneById(_dockZone, L2ScriptZone.class);
+		if (zone == null)
 		{
 			_log.log(Level.WARNING, getName()+": Invalid zone "+_dockZone+", controller disabled");
 			_isBusy = true;
@@ -297,7 +297,7 @@ public abstract class AirShipController extends Quest
 		}
 		if (_arrivalPath == null)
 		{
-			if (!ZoneManager.getInstance().getZoneById(_dockZone).isInsideZone(_shipSpawnX, _shipSpawnY, _shipSpawnZ))
+			if (!ZoneManager.getInstance().getZoneById(_dockZone, L2ScriptZone.class).isInsideZone(_shipSpawnX, _shipSpawnY, _shipSpawnZ))
 			{
 				_log.log(Level.WARNING, getName()+": Arrival path is null and spawn point not in zone "+_dockZone+", controller disabled");
 				_isBusy = true;

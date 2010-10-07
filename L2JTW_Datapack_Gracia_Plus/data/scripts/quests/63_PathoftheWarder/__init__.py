@@ -138,8 +138,7 @@ class Quest (JQuest) :
                 st.giveItems(Eval,1)
                 isFinished = st.getGlobalQuestVar("1ClassQuestFinished")
                 if isFinished == "" : 
-                  st.giveItems(57,81900)
-                  st.addExpAndSp(160267,11023)
+                  st.addExpAndSp(160267,2967)
                 st.playSound("ItemSound.quest_finish")
                 st.exitQuest(False)
                 st.saveGlobalQuestVar("1ClassQuestFinished","1")

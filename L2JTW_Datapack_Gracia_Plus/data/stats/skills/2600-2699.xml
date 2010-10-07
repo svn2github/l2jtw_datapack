@@ -166,7 +166,7 @@
 		<set name="skillType" val="NOTDONE" />
 		<set name="operateType" val="OP_PASSIVE" />
 	</skill>
-	<skill id="2625" levels="1" name="Enbalming">
+	<skill id="2625" levels="1" name="Embalming">
 		<set name="target" val="TARGET_NONE" />
 		<set name="skillType" val="NOTDONE" />
 		<set name="operateType" val="OP_PASSIVE" />
@@ -370,7 +370,7 @@
 		<cond msgId="113" addName="1">
 			<and>
 				<not>
-					<player active_skill_id="912"/>
+					<player active_skill_id="912" />
 				</not>
 				<player class_id_restriction="90" />
 				<player level="83" />
@@ -388,7 +388,7 @@
 		<cond msgId="113" addName="1">
 			<and>
 				<not>
-					<player active_skill_id="913"/>
+					<player active_skill_id="913" />
 				</not>
 				<player class_id_restriction="90, 91, 99, 100, 106, 107" />
 				<player level="81" />
@@ -406,7 +406,7 @@
 		<cond msgId="113" addName="1">
 			<and>
 				<not>
-					<player active_skill_id="914"/>
+					<player active_skill_id="914" />
 				</not>
 				<player class_id_restriction="100" />
 				<player level="83" />
@@ -424,7 +424,7 @@
 		<cond msgId="113" addName="1">
 			<and>
 				<not>
-					<player active_skill_id="915"/>
+					<player active_skill_id="915" />
 				</not>
 				<player class_id_restriction="107" />
 				<player level="83" />
@@ -442,7 +442,7 @@
 		<cond msgId="113" addName="1">
 			<and>
 				<not>
-					<player active_skill_id="917"/>
+					<player active_skill_id="917" />
 				</not>
 				<player class_id_restriction="88, 89, 113, 114, 117, 118, 131" />
 				<player level="81" />
@@ -460,7 +460,7 @@
 		<cond msgId="113" addName="1">
 			<and>
 				<not>
-					<player active_skill_id="918"/>
+					<player active_skill_id="918" />
 				</not>
 				<player class_id_restriction="114" />
 				<player level="83" />
@@ -478,7 +478,7 @@
 		<cond msgId="113" addName="1">
 			<and>
 				<not>
-					<player active_skill_id="919"/>
+					<player active_skill_id="919" />
 				</not>
 				<player class_id_restriction="88" />
 				<player level="83" />
@@ -496,7 +496,7 @@
 		<cond msgId="113" addName="1">
 			<and>
 				<not>
-					<player active_skill_id="922"/>
+					<player active_skill_id="922" />
 				</not>
 				<player class_id_restriction="93, 101, 108" />
 				<player level="81" />
@@ -515,7 +515,7 @@
 		<cond msgId="113" addName="1">
 			<and>
 				<not>
-					<player active_skill_id="923"/>
+					<player active_skill_id="923" />
 				</not>
 				<player class_id_restriction="93, 101, 108" />
 				<player level="81" />
@@ -533,7 +533,7 @@
 		<cond msgId="113" addName="1">
 			<and>
 				<not>
-					<player active_skill_id="924"/>
+					<player active_skill_id="924" />
 				</not>
 				<player class_id_restriction="92, 102, 109" />
 				<player level="81" />
@@ -551,7 +551,7 @@
 		<cond msgId="113" addName="1">
 			<and>
 				<not>
-					<player active_skill_id="1532"/>
+					<player active_skill_id="1532" />
 				</not>
 				<player class_id_restriction="94, 95, 103, 110, 132, 133" />
 				<player level="81" />
@@ -569,7 +569,7 @@
 		<cond msgId="113" addName="1">
 			<and>
 				<not>
-					<player active_skill_id="1533"/>
+					<player active_skill_id="1533" />
 				</not>
 				<player class_id_restriction="97, 98, 105, 112, 115, 116" />
 				<player level="81" />
@@ -587,7 +587,7 @@
 		<cond msgId="113" addName="1">
 			<and>
 				<not>
-					<player active_skill_id="1535"/>
+					<player active_skill_id="1535" />
 				</not>
 				<player class_id_restriction="52, 116" />
 				<player level="72" />
@@ -605,7 +605,7 @@
 		<cond msgId="113" addName="1">
 			<and>
 				<not>
-					<player active_skill_id="1536"/>
+					<player active_skill_id="1536" />
 				</not>
 				<player class_id_restriction="51, 115" />
 				<player level="70" />
@@ -623,7 +623,7 @@
 		<cond msgId="113" addName="1">
 			<and>
 				<not>
-					<player active_skill_id="1537"/>
+					<player active_skill_id="1537" />
 				</not>
 				<player class_id_restriction="51, 115" />
 				<player level="74" />
@@ -641,7 +641,7 @@
 		<cond msgId="113" addName="1">
 			<and>
 				<not>
-					<player active_skill_id="1538"/>
+					<player active_skill_id="1538" />
 				</not>
 				<player class_id_restriction="51, 115" />
 				<player level="72" />
@@ -659,7 +659,7 @@
 		<cond msgId="113" addName="1">
 			<and>
 				<not>
-					<player active_skill_id="928"/>
+					<player active_skill_id="928" />
 				</not>
 				<player class_id_restriction="93, 101, 108" />
 				<player level="81" />
@@ -677,7 +677,7 @@
 		<cond msgId="113" addName="1">
 			<and>
 				<not>
-					<player active_skill_id="929"/>
+					<player active_skill_id="929" />
 				</not>
 				<player class_id_restriction="96" />
 				<player level="83" />
@@ -695,7 +695,7 @@
 		<cond msgId="113" addName="1">
 			<and>
 				<not>
-					<player active_skill_id="930"/>
+					<player active_skill_id="930" />
 				</not>
 				<player class_id_restriction="111" />
 				<player level="83" />
@@ -713,7 +713,7 @@
 		<cond msgId="113" addName="1">
 			<and>
 				<not>
-					<player active_skill_id="931"/>
+					<player active_skill_id="931" />
 				</not>
 				<player class_id_restriction="104" />
 				<player level="83" />
@@ -862,7 +862,7 @@
 			<effect name="Transformation" time="1800" val="0" /> <!-- Transformation lasts 30 minutes -->
 		</for>
 	</skill>
-	<skill id="2678" levels="1" name="Gludio Royal Guard Captain">
+	<skill id="2678" levels="1" name="Gludio Knight Mercenary">
 		<set name="target" val="TARGET_SELF" />
 		<set name="skillType" val="BUFF" />
 		<set name="isMagic" val="true" />
@@ -881,7 +881,7 @@
 			<effect name="Transformation" time="1800" val="0" /> <!-- Transformation lasts 30 minutes -->
 		</for>
 	</skill>
-	<skill id="2679" levels="1" name="Gludio Archer Captain">
+	<skill id="2679" levels="1" name="Gludio Archer Mercenary">
 		<set name="target" val="TARGET_SELF" />
 		<set name="skillType" val="BUFF" />
 		<set name="isMagic" val="true" />
@@ -900,7 +900,7 @@
 			<effect name="Transformation" time="1800" val="0" /> <!-- Transformation lasts 30 minutes -->
 		</for>
 	</skill>
-	<skill id="2680" levels="1" name="Gludio Magic Leader">
+	<skill id="2680" levels="1" name="Gludio Wizard Mercenary">
 		<set name="target" val="TARGET_SELF" />
 		<set name="skillType" val="BUFF" />
 		<set name="isMagic" val="true" />
@@ -919,7 +919,7 @@
 			<effect name="Transformation" time="1800" val="0" /> <!-- Transformation lasts 30 minutes -->
 		</for>
 	</skill>
-	<skill id="2681" levels="1" name="Gludio Kamael Guard Captain">
+	<skill id="2681" levels="1" name="Gludio Kamael Captain Mercenary">
 		<set name="target" val="TARGET_SELF" />
 		<set name="skillType" val="BUFF" />
 		<set name="isMagic" val="true" />
@@ -938,7 +938,7 @@
 			<effect name="Transformation" time="1800" val="0" /> <!-- Transformation lasts 30 minutes -->
 		</for>
 	</skill>
-	<skill id="2682" levels="1" name="Gludio Knight of Dawn">
+	<skill id="2682" levels="1" name="Gludio Knight Captain Mercenary">
 		<set name="target" val="TARGET_SELF" />
 		<set name="skillType" val="BUFF" />
 		<set name="isMagic" val="true" />
@@ -957,7 +957,7 @@
 			<effect name="Transformation" time="1800" val="0" /> <!-- Transformation lasts 30 minutes -->
 		</for>
 	</skill>
-	<skill id="2683" levels="1" name="Gludio Fortress Captain">
+	<skill id="2683" levels="1" name="Gludio Commander Mercenary">
 		<set name="target" val="TARGET_SELF" />
 		<set name="skillType" val="BUFF" />
 		<set name="isMagic" val="true" />
@@ -1090,7 +1090,7 @@
 			<effect name="Transformation" time="1800" val="0" /> <!-- Transformation lasts 30 minutes -->
 		</for>
 	</skill>
-	<skill id="2690" levels="1" name="Dion Royal Guard Captain">
+	<skill id="2690" levels="1" name="Dion Knight Mercenary">
 		<set name="target" val="TARGET_SELF" />
 		<set name="skillType" val="BUFF" />
 		<set name="isMagic" val="true" />
@@ -1109,7 +1109,7 @@
 			<effect name="Transformation" time="1800" val="0" /> <!-- Transformation lasts 30 minutes -->
 		</for>
 	</skill>
-	<skill id="2691" levels="1" name="Dion Archer Captain">
+	<skill id="2691" levels="1" name="Dion Archer Mercenary">
 		<set name="target" val="TARGET_SELF" />
 		<set name="skillType" val="BUFF" />
 		<set name="isMagic" val="true" />
@@ -1128,7 +1128,7 @@
 			<effect name="Transformation" time="1800" val="0" /> <!-- Transformation lasts 30 minutes -->
 		</for>
 	</skill>
-	<skill id="2692" levels="1" name="Dion Magic Leader">
+	<skill id="2692" levels="1" name="Dion Wizard Mercenary">
 		<set name="target" val="TARGET_SELF" />
 		<set name="skillType" val="BUFF" />
 		<set name="isMagic" val="true" />
@@ -1147,7 +1147,7 @@
 			<effect name="Transformation" time="1800" val="0" /> <!-- Transformation lasts 30 minutes -->
 		</for>
 	</skill>
-	<skill id="2693" levels="1" name="Dion Kamael Guard Captain">
+	<skill id="2693" levels="1" name="Dion Kamael Captain Mercenary">
 		<set name="target" val="TARGET_SELF" />
 		<set name="skillType" val="BUFF" />
 		<set name="isMagic" val="true" />
@@ -1166,7 +1166,7 @@
 			<effect name="Transformation" time="1800" val="0" /> <!-- Transformation lasts 30 minutes -->
 		</for>
 	</skill>
-	<skill id="2694" levels="1" name="Dion Knight of Dawn">
+	<skill id="2694" levels="1" name="Dion Knight Captain Mercenary">
 		<set name="target" val="TARGET_SELF" />
 		<set name="skillType" val="BUFF" />
 		<set name="isMagic" val="true" />
@@ -1185,7 +1185,7 @@
 			<effect name="Transformation" time="1800" val="0" /> <!-- Transformation lasts 30 minutes -->
 		</for>
 	</skill>
-	<skill id="2695" levels="1" name="Dion Fortress Captain">
+	<skill id="2695" levels="1" name="Dion Commander Mercenary">
 		<set name="target" val="TARGET_SELF" />
 		<set name="skillType" val="BUFF" />
 		<set name="isMagic" val="true" />

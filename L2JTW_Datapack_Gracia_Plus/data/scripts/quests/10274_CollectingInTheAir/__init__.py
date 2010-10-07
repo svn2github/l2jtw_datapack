@@ -4,9 +4,10 @@
 
 import sys
 
-from com.l2jserver.gameserver.model.quest        			import State
-from com.l2jserver.gameserver.model.quest        			import QuestState
-from com.l2jserver.gameserver.model.quest.jython 			import QuestJython as JQuest
+from com.l2jserver.gameserver.model.quest import State
+from com.l2jserver.gameserver.model.quest import QuestState
+from com.l2jserver.gameserver.model.quest.jython import QuestJython as JQuest
+from com.l2jserver.gameserver.util import Util
 
 qn = "10274_CollectingInTheAir"
 
@@ -70,7 +71,7 @@ class Quest (JQuest) :
     def onSkillSee (self, npc, player, skill, targets, isPet):
         st = player.getQuestState(qn)
         if not st : return
-        if targets[0] == npc and st.getInt("cond") == 1 and skill.getId() == 2630:
+        if Util.contains(targets, npc) and st.getInt("cond") == 1 and skill.getId() == 2630:
             st.playSound("ItemSound.quest_itemget")
             npcId = npc.getNpcId()
             if npcId in range(18684,18687):

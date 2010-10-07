@@ -72,10 +72,10 @@ public class AdminTeleport implements IAdminCommandHandler
 		"admin_explore",
 		"teleportto",
 		"recall",
-		"admin_recall_npc", 
+		"admin_recall_npc",
 		"admin_gonorth",
 		"admin_gosouth",
-		"admin_goeast", 
+		"admin_goeast",
 		"admin_gowest",
 		"admin_goup",
 		"admin_godown",
@@ -91,9 +91,9 @@ public class AdminTeleport implements IAdminCommandHandler
 			activeChar.setTeleMode(1);
 		}
 		if (command.equals("admin_instant_move"))
-        {
-            activeChar.setTeleMode(1);
-        }
+		{
+			activeChar.setTeleMode(1);
+		}
 		if (command.equals("admin_teleto r"))
 		{
 			activeChar.setTeleMode(2);
@@ -449,7 +449,7 @@ public class AdminTeleport implements IAdminCommandHandler
 			statement.setInt(2, activeChar.getY());
 			statement.setInt(3, activeChar.getZ());
 			statement.setString(4, name);
-			statement.execute();			
+			statement.execute();
 			int count = statement.getUpdateCount();
 			statement.close();
 			if (count == 0)

@@ -15,15 +15,14 @@
 package handlers.admincommandhandlers;
 
 import java.util.StringTokenizer;
+import java.util.logging.Level;
 import java.util.logging.Logger;
 
 import com.l2jserver.Config;
 import com.l2jserver.gameserver.datatables.SkillTable;
-import com.l2jserver.gameserver.datatables.SkillTreeTable;
 import com.l2jserver.gameserver.handler.IAdminCommandHandler;
 import com.l2jserver.gameserver.model.L2Object;
 import com.l2jserver.gameserver.model.L2Skill;
-import com.l2jserver.gameserver.model.L2SkillLearn;
 import com.l2jserver.gameserver.model.actor.instance.L2PcInstance;
 import com.l2jserver.gameserver.network.SystemMessageId;
 import com.l2jserver.gameserver.network.serverpackets.NpcHtmlMessage;
@@ -64,7 +63,8 @@ public class AdminSkill implements IAdminCommandHandler
 		"admin_reset_skills",
 		"admin_give_all_skills",
 		"admin_remove_all_skills",
-		"admin_add_clan_skill"
+		"admin_add_clan_skill",
+		"admin_setskill"
 	};
 	
 	private static L2Skill[] adminSkills;
@@ -162,6 +162,16 @@ public class AdminSkill implements IAdminCommandHandler
 				activeChar.sendMessage("Usage: //add_clan_skill <skill_id> <level>");
 			}
 		}
+		else if (command.startsWith("admin_setskill"))
+		{
+			String[] split = command.split(" ");
+			int id = Integer.parseInt(split[1]);
+			int lvl = Integer.parseInt(split[2]);
+			L2Skill skill = SkillTable.getInstance().getInfo(id, lvl);
+			activeChar.addSkill(skill);
+			activeChar.sendSkillList();
+			activeChar.sendMessage("You added yourself skill "+skill.getName()+"("+id+") level "+lvl);
+		}
 		return true;
 	}
 	
@@ -180,31 +190,8 @@ public class AdminSkill implements IAdminCommandHandler
 			activeChar.sendPacket(new SystemMessage(SystemMessageId.INCORRECT_TARGET));
 			return;
 		}
-		boolean countUnlearnable = true;
-		int unLearnable = 0;
-		int skillCounter = 0;
-		L2SkillLearn[] skills = SkillTreeTable.getInstance().getAvailableSkills(player, player.getClassId());
-		while (skills.length > unLearnable)
-		{
-			for (L2SkillLearn s : skills)
-			{
-				L2Skill sk = SkillTable.getInstance().getInfo(s.getId(), s.getLevel());
-				if (sk == null )
-				{
-					if (countUnlearnable)
-						unLearnable++;
-					continue;
-				}
-				if (player.getSkillLevel(sk.getId()) == -1)
-					skillCounter++;
-				player.addSkill(sk, true);
-			}
-			countUnlearnable = false;
-			skills = SkillTreeTable.getInstance().getAvailableSkills(player, player.getClassId());
-		}
 		//Notify player and admin
-		player.sendMessage(MessageTable.Messages[1829].getExtra(1) + skillCounter + MessageTable.Messages[1829].getExtra(2));
-		activeChar.sendMessage(MessageTable.Messages[1830].getExtra(1) + skillCounter + MessageTable.Messages[1830].getExtra(2) + player.getName());
+		activeChar.sendMessage(MessageTable.Messages[1830].getExtra(1) + player.giveAvailableSkills() + MessageTable.Messages[1830].getExtra(2) + player.getName());
 		player.sendSkillList();
 	}
 	
@@ -419,6 +406,7 @@ public class AdminSkill implements IAdminCommandHandler
 			}
 			catch (Exception e)
 			{
+				_log.log(Level.WARNING, "", e);
 			}
 			if (skill != null)
 			{
@@ -462,7 +450,7 @@ public class AdminSkill implements IAdminCommandHandler
 		}
 		else
 			activeChar.sendMessage(1848);
-		removeSkillsPage(activeChar, 0); //Back to previous page	
+		removeSkillsPage(activeChar, 0); //Back to previous page
 	}
 	
 	private void adminAddClanSkill(L2PcInstance activeChar, int id, int level)

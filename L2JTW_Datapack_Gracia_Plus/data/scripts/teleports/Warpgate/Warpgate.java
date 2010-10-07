@@ -50,7 +50,7 @@ public class Warpgate extends Quest
 				return true;
 		}
 
-		st = player.getQuestState(THATS_BLOODY_HOT); 
+		st = player.getQuestState(THATS_BLOODY_HOT);
 		if (st != null && st.getState() == State.COMPLETED)
 			return true;
 

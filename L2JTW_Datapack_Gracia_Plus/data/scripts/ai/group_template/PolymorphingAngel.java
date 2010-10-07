@@ -16,11 +16,11 @@ package ai.group_template;
 
 import java.util.Map;
 
+import javolution.util.FastMap;
+
 import com.l2jserver.gameserver.model.actor.L2Attackable;
 import com.l2jserver.gameserver.model.actor.L2Npc;
 import com.l2jserver.gameserver.model.actor.instance.L2PcInstance;
-
-import javolution.util.FastMap;
 
 /**
  * ¶ÆºC¶ð¤Ñ¨Ï
@@ -29,6 +29,7 @@ import javolution.util.FastMap;
  */
 public class PolymorphingAngel extends L2AttackableAIScript
 {
+	
 	private static final Map<Integer,Integer> ANGELSPAWNS = new FastMap<Integer,Integer>();
 	static
 	{
@@ -38,14 +39,14 @@ public class PolymorphingAngel extends L2AttackableAIScript
 		ANGELSPAWNS.put(20831,20860);
 		ANGELSPAWNS.put(21070,21071);
 	}
-
+	
 	public PolymorphingAngel(int questId, String name, String descr)
 	{
 		super(questId, name, descr);
 		int[] temp = {20830,21067,21062,20831,21070};
-		this.registerMobs(temp);
+		this.registerMobs(temp, QuestEventType.ON_KILL);
 	}
-
+	
 	@Override
 	public String onKill (L2Npc npc, L2PcInstance killer, boolean isPet)
 	{
@@ -57,7 +58,7 @@ public class PolymorphingAngel extends L2AttackableAIScript
 		}
 		return super.onKill(npc,killer,isPet);
 	}
-
+	
 	public static void main(String[] args)
 	{
 		// now call the constructor (starts up the ai)

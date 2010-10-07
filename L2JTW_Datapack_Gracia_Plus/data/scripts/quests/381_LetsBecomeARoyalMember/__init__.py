@@ -10,8 +10,6 @@ QuestName        = "LetsBecomeARoyalMember"
 QuestDescription = "成為最高的會員"
 qn = "381_LetsBecomeARoyalMember"
 
-#Messages
-default = "<html><body>目前沒有執行任務，或條件不符。</body></html>"
 #Quest items
 KAILS_COIN, COIN_ALBUM, MEMBERSHIP_1, CLOVER_COIN, ROYAL_MEMBERSHIP = 5899, 5900, 3813, 7569, 5898
 #NPCs
@@ -44,11 +42,11 @@ class Quest (JQuest) :
             st.set("id","1")
             st.playSound("ItemSound.quest_accept")
          else :
-            htmltext = default
+            htmltext = "<html><body>目前沒有執行任務，或條件不符。</body></html>"
       return htmltext
 
   def onTalk (self,npc,player):
-      htmltext = default
+      htmltext = "<html><body>目前沒有執行任務，或條件不符。</body></html>"
       st = player.getQuestState(qn)
       if not st : return htmltext
 

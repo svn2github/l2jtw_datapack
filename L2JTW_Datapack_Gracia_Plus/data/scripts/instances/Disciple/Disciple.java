@@ -28,7 +28,7 @@ public class Disciple extends Quest
 		public  long[]  storeTime = {0,0}; 
 		public DiSWorld()
 		{
-			InstanceManager.getInstance().super();
+			//InstanceManager.getInstance().super();
 		}
 	}
 

@@ -87,7 +87,7 @@ class Quest (JQuest) :
           else:
             st.addExpAndSp(118304,26250)
           st.giveItems(MARK_OF_HEALER,1)
-          st.giveItems(ADENA,233490)
+          st.giveItems(ADENA,133490)
           st.giveItems(7562,60)
           st.giveItems(SHADOW_WEAPON_COUPON_CGRADE,15)
           st.takeItems(GOLDEN_STATUE,1)

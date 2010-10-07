@@ -22,18 +22,19 @@ import com.l2jserver.gameserver.model.actor.L2Npc;
 import com.l2jserver.gameserver.model.actor.instance.L2PcInstance;
 import com.l2jserver.gameserver.network.serverpackets.NpcHtmlMessage;
 import com.l2jserver.gameserver.datatables.MessageTable;
+
 public class TerritoryStatus implements IBypassHandler
 {
 	private static final String[] COMMANDS =
 	{
 		"TerritoryStatus"
 	};
-
+	
 	public boolean useBypass(String command, L2PcInstance activeChar, L2Character target)
 	{
 		if (!(target instanceof L2Npc))
 			return false;
-
+		
 		final L2Npc npc = (L2Npc)target;
 		final NpcHtmlMessage html = new NpcHtmlMessage(npc.getObjectId());
 		{
@@ -65,7 +66,7 @@ public class TerritoryStatus implements IBypassHandler
 		activeChar.sendPacket(html);
 		return true;
 	}
-
+	
 	public String[] getBypassList()
 	{
 		return COMMANDS;

@@ -14,11 +14,11 @@
  */
 package ai.individual;
 
-import ai.group_template.L2AttackableAIScript;
 
 import java.util.List;
 
 import javolution.util.FastList;
+import ai.group_template.L2AttackableAIScript;
 
 import com.l2jserver.Config;
 import com.l2jserver.gameserver.ai.CtrlIntention;
@@ -57,6 +57,9 @@ import com.l2jserver.util.Rnd;
  * 
  * Update by rocknow
  * Updated by L2jOff team
+ *
+ * <BR>
+ * Warn: be careful with adding new spawns {@link #getXFix(int)}
  * 
  */
 public class Frintezza extends L2AttackableAIScript
@@ -274,7 +277,7 @@ public class Frintezza extends L2AttackableAIScript
 	{
 		super(id,name,descr);
 		int[] mob = {SCARLET1, SCARLET2, FRINTEZZA, 18328, 18329, 18330, 18331, 18332, 18333, 18334, 18335, 18336, 18337, 18338, 18339, 29048, 29049, 29050, 29051};
-		_Zone = GrandBossManager.getInstance().getZone(174232, -88020, -5116);
+		_Zone = GrandBossManager.getInstance().getZone(getXFix(174232), getYFix(-88020), getZFix(-5116));
 		this.registerMobs(mob);
 		addStartNpc(GUIDE);
 		addTalkId(GUIDE);
@@ -295,7 +298,7 @@ public class Frintezza extends L2AttackableAIScript
 		
 		//tempfix for messed door cords
 		for (int i = 0; i < 8; i++)
-			DoorTable.getInstance().getDoor(25150051+i).setRange(0, 0, 0, 0, 0, 0);
+			DoorTable.getInstance().getDoor(17130051+i).setRange(0, 0, 0, 0, 0, 0);
 	}
 
 	@Override
@@ -306,7 +309,7 @@ public class Frintezza extends L2AttackableAIScript
 		{
 			this.startQuestTimer("close", 27000, npc, null);
 			this.startQuestTimer("camera_1", 30000, npc, null);
-			_Zone.broadcastPacket(new Earthquake(174232, -88020, -5116, 45, 27));
+			_Zone.broadcastPacket(new Earthquake(getXFix(174232), getYFix(-88020), getZFix(-5116), 45, 27));
 		}
 		else if (event.equalsIgnoreCase("room1_spawn"))
 		{
@@ -431,15 +434,15 @@ public class Frintezza extends L2AttackableAIScript
 		}
 		else if (event.equalsIgnoreCase("close"))
 		{
-			for (int i = 25150051; i <= 25150058; i++)
+			for (int i = 17130051; i <= 17130058; i++)
 				DoorTable.getInstance().getDoor(i).closeMe();
-			for (int i = 25150061; i <= 25150070; i++)
+			for (int i = 17130061; i <= 17130070; i++)
 				DoorTable.getInstance().getDoor(i).closeMe();
-
-			DoorTable.getInstance().getDoor(25150042).closeMe();
-			DoorTable.getInstance().getDoor(25150043).closeMe();
-			DoorTable.getInstance().getDoor(25150045).closeMe();
-			DoorTable.getInstance().getDoor(25150046).closeMe();
+			
+			DoorTable.getInstance().getDoor(17130042).closeMe();
+			DoorTable.getInstance().getDoor(17130043).closeMe();
+			DoorTable.getInstance().getDoor(17130045).closeMe();
+			DoorTable.getInstance().getDoor(17130046).closeMe();
 		}
 		else if (event.equalsIgnoreCase("ann_reg"))
 		{
@@ -532,9 +535,9 @@ public class Frintezza extends L2AttackableAIScript
 			if (GrandBossManager.getInstance().getBossStatus(FRINTEZZA) == FIGHTING)
 			{
 				if (!_Zone.isInsideZone(npc))
-					npc.teleToLocation(174232,-88020,-5116);
-				if (npc.getX() < 171932 || npc.getX() > 176532 || npc.getY() < -90320 || npc.getY() > -85720 || npc.getZ() < -5130)
-					npc.teleToLocation(174232,-88020,-5116);
+					npc.teleToLocation(getXFix(174232),getYFix(-88020),getZFix(-5116));
+				if (npc.getX() < getXFix(171932) || npc.getX() > getXFix(176532) || npc.getY() < getYFix(-90320) || npc.getY() > getYFix(-85720) || npc.getZ() < getZFix(-5130))
+					npc.teleToLocation(getXFix(174232),getYFix(-88020),getZFix(-5116));
 			}
 		}
 		else if (event.equalsIgnoreCase("camera_1"))
@@ -655,7 +658,7 @@ public class Frintezza extends L2AttackableAIScript
 			{
 				if (pc instanceof L2PcInstance)
 				{
-					if (pc.getX() < 174232)
+					if (pc.getX() < getXFix(174232))
 						pc.broadcastPacket(new SpecialCamera(_portraitDummy1.getObjectId(),1000, 118, 0, 0, 1000, 0, 0, 1, 0));
 					else
 						pc.broadcastPacket(new SpecialCamera(_portraitDummy3.getObjectId(),1000, 62, 0, 0, 1000, 0, 0, 1, 0));
@@ -669,7 +672,7 @@ public class Frintezza extends L2AttackableAIScript
 			{
 				if (pc instanceof L2PcInstance)
 				{
-					if (pc.getX() < 174232)
+					if (pc.getX() < getXFix(174232))
 						pc.broadcastPacket(new SpecialCamera(_portraitDummy1.getObjectId(),1000, 118, 0, 0, 10000, 0, 0, 1, 0));
 					else
 						pc.broadcastPacket(new SpecialCamera(_portraitDummy3.getObjectId(),1000, 62, 0, 0, 10000, 0, 0, 1, 0));
@@ -741,7 +744,7 @@ public class Frintezza extends L2AttackableAIScript
 		}
 		else if (event.equalsIgnoreCase("camera_19"))
 		{
-			weakScarlet.teleToLocation(174232, -88020, -5110);
+			weakScarlet.teleToLocation(getXFix(174232), getYFix(-88020), getZFix(-5110));
 		}
 		else if (event.equalsIgnoreCase("camera_19b"))
 		{
@@ -957,7 +960,7 @@ public class Frintezza extends L2AttackableAIScript
 		}
 		else if (event.equalsIgnoreCase("morph_13"))
 		{
-			strongScarlet = (L2GrandBossInstance) addSpawn(SCARLET2, _Scarlet_x, _Scarlet_y, _Scarlet_z, _Scarlet_h, false,0);
+			strongScarlet = (L2GrandBossInstance) addSpawn(SCARLET2, reverseXFix(_Scarlet_x), reverseYFix(_Scarlet_y), reverseZFix(_Scarlet_z), _Scarlet_h, false,0);
 			strongScarlet.setIsInvul(true);
 			strongScarlet.setIsImmobilized(true);
 			strongScarlet.disableAllSkills();
@@ -1118,7 +1121,8 @@ public class Frintezza extends L2AttackableAIScript
 			this.cancelQuestTimers("songs_play");
 			this.cancelQuestTimers("songs_effect");
 
-			_Zone.broadcastPacket(new MagicSkillCanceld(frintezza.getObjectId()));
+			if (frintezza != null)
+				_Zone.broadcastPacket(new MagicSkillCanceld(frintezza.getObjectId()));
 		}
 		else if (event.equalsIgnoreCase("check_hp"))
 		{
@@ -1320,7 +1324,7 @@ public class Frintezza extends L2AttackableAIScript
 			_Zone.oustAllPlayers();
 		}
 
-	return super.onAdvEvent(event, npc, player);
+		return super.onAdvEvent(event, npc, player);
 	}
 
 	@Override
@@ -1433,7 +1437,7 @@ public class Frintezza extends L2AttackableAIScript
 		else if (GrandBossManager.getInstance().getBossStatus(FRINTEZZA) == WAITING || GrandBossManager.getInstance().getBossStatus(FRINTEZZA) == FIGHTING)
 			htmltext = "<html><body>皇陵引導者：<br><font color=\"LEVEL\">已經有人進入最後的皇陵。<br1>在他們與芙琳泰沙的對戰結束之前不能讓你們進入。</font></body></html>";
 
-	return htmltext;
+		return htmltext;
 	}
 
 	@Override
@@ -1492,7 +1496,7 @@ public class Frintezza extends L2AttackableAIScript
 			}
 		}
 
-	return super.onAttack(npc, attacker, damage, isPet);
+		return super.onAttack(npc, attacker, damage, isPet);
 	}
 
 	@Override
@@ -1609,14 +1613,14 @@ public class Frintezza extends L2AttackableAIScript
 			_KillDarkChoirPlayer ++;
 			if (_KillDarkChoirPlayer == 2)
 			{
-				DoorTable.getInstance().getDoor(25150042).closeMe();
-				DoorTable.getInstance().getDoor(25150043).closeMe();
-				DoorTable.getInstance().getDoor(25150045).closeMe();
-				DoorTable.getInstance().getDoor(25150046).closeMe();
+				DoorTable.getInstance().getDoor(17130042).closeMe();
+				DoorTable.getInstance().getDoor(17130043).closeMe();
+				DoorTable.getInstance().getDoor(17130045).closeMe();
+				DoorTable.getInstance().getDoor(17130046).closeMe();
 				int outside = 0;
 				for (L2PcInstance room2_pc : _PlayersInside)
 				{
-					if (_Zone.isInsideZone(room2_pc) && room2_pc.getY() > -86130)
+					if (_Zone.isInsideZone(room2_pc) && room2_pc.getY() > getYFix(-86130))
 						outside++;
 				}
 				if (outside == 0)
@@ -1627,7 +1631,7 @@ public class Frintezza extends L2AttackableAIScript
 				}
 				else
 				{
-					for (int i = 25150061; i <= 25150070; i++)
+					for (int i = 17130061; i <= 17130070; i++)
 						DoorTable.getInstance().getDoor(i).openMe();
 
 					this.startQuestTimer("room2_spawn2", 1000, npc, null);
@@ -1649,7 +1653,45 @@ public class Frintezza extends L2AttackableAIScript
 			}
 		}
 
-	return super.onKill(npc,killer,isPet);
+		return super.onKill(npc,killer,isPet);
+	}
+	
+	/**
+	 * Override spawn method to correct spawn cords after lair move<BR>
+	 * TODO: Update cords in script, im just lazy :)
+	 */
+	@Override
+	public L2Npc addSpawn(int npcId, int x, int y, int z, int heading, boolean randomOffset, long despawnDelay, boolean isSummonSpawn, int instanceId)
+	{
+		// cords fix:
+		return super.addSpawn(npcId, getXFix(x), getYFix(y), getZFix(z), heading, randomOffset, despawnDelay, isSummonSpawn, instanceId);
+	}
+	
+	
+	public int getXFix(int x)
+	{
+		return x - 262016;
+	}
+	public int getYFix(int y)
+	{
+		return y - 65278;
+	}
+	public int getZFix(int z)
+	{
+		return z - 4065;
+	}
+	
+	public int reverseXFix(int x)
+	{
+		return x + 262016;
+	}
+	public int reverseYFix(int y)
+	{
+		return y + 65278;
+	}
+	public int reverseZFix(int z)
+	{
+		return z + 4065;
 	}
 
 	public static void main(String[] args)

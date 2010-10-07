@@ -35,7 +35,7 @@ public class kamalokaAi  extends L2AttackableAIScript
 	{
 		super(questId, name, descr);
 		int[] temp = {22452,22455,22458,22461,22464,22467,22470,22473,22476,22479,22482};
-		this.registerMobs(temp);
+		this.registerMobs(temp, QuestEventType.ON_KILL);
 	}
 
 	public String onKill (L2Npc npc, L2PcInstance killer, boolean isPet)

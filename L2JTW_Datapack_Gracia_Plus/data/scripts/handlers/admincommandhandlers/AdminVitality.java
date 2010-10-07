@@ -21,7 +21,8 @@ import com.l2jserver.gameserver.handler.IAdminCommandHandler;
 import com.l2jserver.gameserver.model.actor.instance.L2PcInstance;
 import com.l2jserver.gameserver.model.actor.stat.PcStat;
 import com.l2jserver.gameserver.datatables.MessageTable;
-/** 
+
+/**
  * @author Psychokiller1888
  */
 
@@ -29,7 +30,7 @@ public class AdminVitality implements IAdminCommandHandler
 {
 	
 	private static final String[]	ADMIN_COMMANDS	=
-	{ 
+	{
 		"admin_set_vitality",
 		"admin_set_vitality_level",
 		"admin_full_vitality",
@@ -89,7 +90,7 @@ public class AdminVitality implements IAdminCommandHandler
 					if (level == 0)
 						vitality = PcStat.MIN_VITALITY_POINTS;
 					else
-						vitality = PcStat.VITALITY_LEVELS[level-1]; 
+						vitality = PcStat.VITALITY_LEVELS[level-1];
 					target.setVitalityPoints(vitality, true);
 					target.sendMessage(MessageTable.Messages[1914].getMessage()  + level);
 				}

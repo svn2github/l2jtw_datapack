@@ -347,7 +347,7 @@ public class RimKamaloka extends Quest
 
 		public RimKamaWorld()
 		{
-			InstanceManager.getInstance().super();
+			//InstanceManager.getInstance().super();
 		}
 	}
 
@@ -601,7 +601,7 @@ public class RimKamaloka extends Quest
 		for (int objectId : world.allowed)
 		{
 			L2PcInstance player = L2World.getInstance().getPlayer(objectId);
-			if (player != null && player.isOnline() > 0)
+			if (player != null && player.isOnline())
 			{
 				player.sendMessage("Grade:"+world.grade);
 				for (int i = 0; i < reward.length; i+=2)
@@ -638,7 +638,7 @@ public class RimKamaloka extends Quest
 				for (int objectId : _world.allowed)
 				{
 					L2PcInstance player = L2World.getInstance().getPlayer(objectId);
-					if (player != null && player.isOnline() > 0)
+					if (player != null && player.isOnline())
 					{
 						found = true;
 						InstanceManager.getInstance().setInstanceTime(objectId, _world.templateId, reenter.getTimeInMillis());

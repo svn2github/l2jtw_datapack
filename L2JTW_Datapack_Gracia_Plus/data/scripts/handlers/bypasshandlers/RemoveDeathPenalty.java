@@ -24,23 +24,24 @@ import com.l2jserver.gameserver.network.serverpackets.NpcHtmlMessage;
 import com.l2jserver.gameserver.network.serverpackets.SystemMessage;
 import com.l2jserver.util.StringUtil;
 import com.l2jserver.gameserver.datatables.MessageTable;
+
 public class RemoveDeathPenalty implements IBypassHandler
 {
 	private static final String[] COMMANDS =
 	{
 		"remove_dp"
 	};
-
+	
 	static final int[] pen_clear_price =
 	{
 		3600, 8640, 25200, 50400, 86400, 144000, 144000, 144000
 	};
-
+	
 	public boolean useBypass(String command, L2PcInstance activeChar, L2Character target)
 	{
 		if (!(target instanceof L2Npc))
 			return false;
-
+		
 		try
 		{
 			final int cmdChoice = Integer.parseInt(command.substring(10, 11).trim());
@@ -57,10 +58,10 @@ public class RemoveDeathPenalty implements IBypassHandler
 					break;
 				case 2:
 					NpcHtmlMessage Reply = new NpcHtmlMessage(npc.getObjectId());
-                                            final StringBuilder replyMSG = StringUtil.startAppend(400,
-                                                    "<html><body>"+MessageTable.Messages[1022].getMessage()+"<br>"
-                                                    );
-
+					final StringBuilder replyMSG = StringUtil.startAppend(400,
+							"<html><body>"+MessageTable.Messages[1022].getMessage()+"<br>"
+					);
+					
 					if (activeChar.getDeathPenaltyBuffLevel() > 0)
 					{
 						if (activeChar.getAdena() >= pen_clear_price[activeChar.getExpertiseIndex()])
@@ -77,10 +78,10 @@ public class RemoveDeathPenalty implements IBypassHandler
 							replyMSG.append(MessageTable.Messages[1023].getMessage());
 						}
 					}
-					else 
+					else
 					{
 						replyMSG.append(MessageTable.Messages[1024].getMessage()+"<br>" +
-                                                            MessageTable.Messages[1025].getMessage());
+							MessageTable.Messages[1025].getMessage());
 					}
 					
 					replyMSG.append("</body></html>");
@@ -96,7 +97,7 @@ public class RemoveDeathPenalty implements IBypassHandler
 		}
 		return false;
 	}
-
+	
 	public String[] getBypassList()
 	{
 		return COMMANDS;

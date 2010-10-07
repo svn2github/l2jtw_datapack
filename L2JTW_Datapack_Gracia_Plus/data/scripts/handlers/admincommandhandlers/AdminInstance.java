@@ -24,7 +24,8 @@ import com.l2jserver.gameserver.model.actor.instance.L2PcInstance;
 import com.l2jserver.gameserver.model.entity.Instance;
 import com.l2jserver.gameserver.datatables.MessageTable;
 
-/** 
+
+/**
  * @author evill33t, GodKratos
  * 
  */
@@ -32,12 +33,12 @@ public class AdminInstance implements IAdminCommandHandler
 {
 	private static final String[] ADMIN_COMMANDS =
 	{
-			"admin_setinstance",
-			"admin_ghoston",
-			"admin_ghostoff",
-			"admin_createinstance",
-			"admin_destroyinstance",
-			"admin_listinstances"
+		"admin_setinstance",
+		"admin_ghoston",
+		"admin_ghostoff",
+		"admin_createinstance",
+		"admin_destroyinstance",
+		"admin_listinstances"
 	};
 
 	public boolean useAdminCommand(String command, L2PcInstance activeChar)
@@ -140,7 +141,7 @@ public class AdminInstance implements IAdminCommandHandler
 
 		// set ghost mode on aka not appearing on any knownlist
 		// you will be invis to all players but you also dont get update packets ;)
-		// you will see snapshots (knownlist echoes?) if you port 
+		// you will see snapshots (knownlist echoes?) if you port
 		// so kinda useless atm
 		// TODO: enable broadcast packets for ghosts
 		else if (command.startsWith("admin_ghoston"))

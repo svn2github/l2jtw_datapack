@@ -1,4 +1,4 @@
- 
+
 /*
  * This program is free software: you can redistribute it and/or modify it under
  * the terms of the GNU General Public License as published by the Free Software
@@ -14,8 +14,10 @@
  * this program. If not, see <http://www.gnu.org/licenses/>.
  */
 package ai.group_template;
- 
+
 import java.util.Collection;
+
+import javolution.util.FastList;
 
 import com.l2jserver.gameserver.ai.CtrlIntention;
 import com.l2jserver.gameserver.datatables.SkillTable;
@@ -33,8 +35,6 @@ import com.l2jserver.gameserver.templates.skills.L2SkillType;
 import com.l2jserver.gameserver.util.Util;
 import com.l2jserver.util.Rnd;
 
-import javolution.util.FastList;
-
 /**
  * ¨IÀq­×¹D°|©Çª«
  */
@@ -42,6 +42,7 @@ public class Monastery extends L2AttackableAIScript
 {
 	static final int[] mobs1 = {22124, 22125, 22126, 22127, 22129};
 	static final int[] mobs2 = {22134, 22135};
+	//TODO: npcstring
 	static final String[] text = {
 		"You cannot carry a weapon without authorization!",
 		"name, why would you choose the path of darkness?!",
@@ -50,14 +51,14 @@ public class Monastery extends L2AttackableAIScript
 	public Monastery(int questId, String name, String descr)
 	{
 		super(questId, name, descr);
-		registerMobs(mobs1);
-		registerMobs(mobs2);
+		registerMobs(mobs1, QuestEventType.ON_AGGRO_RANGE_ENTER, QuestEventType.ON_SPAWN, QuestEventType.ON_SPELL_FINISHED);
+		registerMobs(mobs2, QuestEventType.ON_SKILL_SEE);
 	}
-
+	
 	@Override
 	public String onAggroRangeEnter(L2Npc npc, L2PcInstance player, boolean isPet)
 	{
-		if (contains(mobs1,npc.getNpcId()) && !npc.isInCombat() && npc.getTarget() == null)
+		if (Util.contains(mobs1,npc.getNpcId()) && !npc.isInCombat() && npc.getTarget() == null)
 		{
 			if (player.getActiveWeaponInstance() != null)
 			{
@@ -81,16 +82,16 @@ public class Monastery extends L2AttackableAIScript
 					}
 				}
 			}
-			else if (((L2Attackable)npc).getMostHated() == null) 
+			else if (((L2Attackable)npc).getMostHated() == null)
 				return null;
 		}
 		return super.onAggroRangeEnter(npc, player, isPet);
 	}
-
+	
 	@Override
 	public String onSkillSee(L2Npc npc, L2PcInstance caster, L2Skill skill, L2Object[] targets, boolean isPet)
 	{
-		if (contains(mobs2,npc.getNpcId()))
+		if (Util.contains(mobs2,npc.getNpcId()))
 		{
 			if (skill.getSkillType() == L2SkillType.AGGDAMAGE && targets.length != 0)
 			{
@@ -108,11 +109,11 @@ public class Monastery extends L2AttackableAIScript
 		}
 		return super.onSkillSee(npc, caster, skill, targets, isPet);
 	}
-
+	
 	@Override
 	public String onSpawn(L2Npc npc)
 	{
-		if (contains(mobs1,npc.getNpcId()))
+		if (Util.contains(mobs1,npc.getNpcId()))
 		{
 			FastList<L2Playable> result = new FastList<L2Playable>();
 			Collection<L2Object> objs = npc.getKnownList().getKnownObjects().values();
@@ -158,11 +159,11 @@ public class Monastery extends L2AttackableAIScript
 		}
 		return super.onSpawn(npc);
 	}
-
+	
 	@Override
 	public String onSpellFinished(L2Npc npc, L2PcInstance player, L2Skill skill)
 	{
-		if (contains(mobs1,npc.getNpcId()) && skill.getId() == 4589)
+		if (Util.contains(mobs1,npc.getNpcId()) && skill.getId() == 4589)
 		{
 			npc.setIsRunning(true);
 			((L2Attackable) npc).addDamageHate(player, 0, 999);
@@ -170,7 +171,7 @@ public class Monastery extends L2AttackableAIScript
 		}
 		return super.onSpellFinished(npc, player, skill);
 	}
-
+	
 	public static void main(String[] args)
 	{
 		new Monastery(-1, "Monastery", "ai");

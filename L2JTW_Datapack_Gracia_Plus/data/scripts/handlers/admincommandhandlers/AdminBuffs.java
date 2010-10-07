@@ -204,7 +204,7 @@ public class AdminBuffs implements IAdminCommandHandler
 		if (effects.length > PAGE_LIMIT * max)
 			max++;
 		
-		final StringBuilder html = StringUtil.startAppend(500 + effects.length * 200, 
+		final StringBuilder html = StringUtil.startAppend(500 + effects.length * 200,
 				"<html><table width=\"100%\"><tr><td width=45><button value=\""+MessageTable.Messages[1453].getMessage()+"\" action=\"bypass -h admin_admin\" width=45 height=21 back=\"L2UI_ct1.button_df\" fore=\"L2UI_ct1.button_df\"></td><td width=180><center><font color=\"LEVEL\">"+MessageTable.Messages[1454].getMessage(), 
 				target.getName(),
 				"</font></td><td width=45><button value=\""+MessageTable.Messages[1455].getMessage()+"\" action=\"bypass -h admin_current_player\" width=45 height=21 back=\"L2UI_ct1.button_df\" fore=\"L2UI_ct1.button_df\"></td></tr></table><br><table width=\"100%\"><tr><td width=150>"+MessageTable.Messages[1456].getExtra(1)+"</td><td width=50>"+MessageTable.Messages[1456].getExtra(2)+"</td><td width=70>"+MessageTable.Messages[1456].getExtra(3)+"</td></tr>");
@@ -217,15 +217,15 @@ public class AdminBuffs implements IAdminCommandHandler
 			L2Effect e = effects[i];
 			if (e != null)
 			{
-				StringUtil.append(html, 
-						"<tr><td>", 
-						e.getSkill().getName(), 
-						"</td><td>", 
+				StringUtil.append(html,
+						"<tr><td>",
+						e.getSkill().getName(),
+						"</td><td>",
 						e.getSkill().isToggle() ? "toggle" : e.getPeriod() - e.getTime() + "s",
-						"</td><td><button value=\""+MessageTable.Messages[1457].getMessage()+"\" action=\"bypass -h admin_stopbuff ", 
-						Integer.toString(target.getObjectId()), 
-						" ", 
-						String.valueOf(e.getSkill().getId()), 
+						"</td><td><button value=\""+MessageTable.Messages[1457].getMessage()+"\" action=\"bypass -h admin_stopbuff ",
+						Integer.toString(target.getObjectId()),
+						" ",
+						String.valueOf(e.getSkill().getId()),
 						"\" width=60 height=21 back=\"L2UI_ct1.button_df\" fore=\"L2UI_ct1.button_df\"></td></tr>");
 			}
 		}
@@ -261,7 +261,7 @@ public class AdminBuffs implements IAdminCommandHandler
 		NpcHtmlMessage ms = new NpcHtmlMessage(1);
 		ms.setHtml(html.toString());
 		activeChar.sendPacket(ms);
-
+		
 		if (Config.GMAUDIT)
 			GMAudit.auditGMAction(activeChar.getName()+" ["+activeChar.getObjectId()+"]", "getbuffs", target.getName() + " (" + Integer.toString(target.getObjectId()) + ")", "");
 	}

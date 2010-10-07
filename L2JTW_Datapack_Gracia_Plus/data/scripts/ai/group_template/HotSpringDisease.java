@@ -17,6 +17,7 @@ package ai.group_template;
 import com.l2jserver.gameserver.datatables.SkillTable;
 import com.l2jserver.gameserver.model.actor.L2Npc;
 import com.l2jserver.gameserver.model.actor.instance.L2PcInstance;
+import com.l2jserver.gameserver.util.Util;
 import com.l2jserver.util.Rnd;
 
 /**
@@ -46,7 +47,7 @@ public class HotSpringDisease extends L2AttackableAIScript
 	@Override
 	public String onAttack(L2Npc npc, L2PcInstance attacker, int damage, boolean isPet)
 	{
-		if (contains(disease1mobs, npc.getNpcId()))
+		if (Util.contains(disease1mobs, npc.getNpcId()))
 		{
 			if (Rnd.get(100) < DISEASE_CHANCE)
 			{
@@ -54,7 +55,7 @@ public class HotSpringDisease extends L2AttackableAIScript
 				npc.doCast(SkillTable.getInstance().getInfo(4554, Rnd.get(10) + 1));
 			}
 		}
-		if (contains(disease2mobs, npc.getNpcId()))
+		if (Util.contains(disease2mobs, npc.getNpcId()))
 		{
 			if (Rnd.get(100) < DISEASE_CHANCE)
 			{
@@ -62,7 +63,7 @@ public class HotSpringDisease extends L2AttackableAIScript
 				npc.doCast(SkillTable.getInstance().getInfo(4553, Rnd.get(10) + 1));
 			}
 		}
-		if (contains(disease3mobs, npc.getNpcId()))
+		if (Util.contains(disease3mobs, npc.getNpcId()))
 		{
 			if (Rnd.get(100) < DISEASE_CHANCE)
 			{
@@ -70,7 +71,7 @@ public class HotSpringDisease extends L2AttackableAIScript
 				npc.doCast(SkillTable.getInstance().getInfo(4552, Rnd.get(10) + 1));
 			}
 		}
-		if (contains(disease4mobs, npc.getNpcId()))
+		if (Util.contains(disease4mobs, npc.getNpcId()))
 		{
 			if (Rnd.get(100) < DISEASE_CHANCE)
 			{

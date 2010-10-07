@@ -23,7 +23,7 @@ public class HideoutoftheDawn extends Quest
 		public long[] storeTime = {0,0}; 
 		public HoDWorld()
 		{
-			InstanceManager.getInstance().super();
+			//InstanceManager.getInstance().super();
 		}
 	}
 

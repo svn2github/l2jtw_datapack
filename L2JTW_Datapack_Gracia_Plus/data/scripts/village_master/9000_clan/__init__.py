@@ -44,6 +44,9 @@ class Quest (JQuest) :
    elif event == "9000-12a.htm" :
       if player.getClan() == None or not player.isClanLeader():
          return "9000-07-no.htm"
+   elif event == "9000-12b.htm" :
+      if player.getClan() == None or not player.isClanLeader():
+         return "9000-07-no.htm"
    elif event == "9000-13a.htm" :
       if player.getClan() == None or not player.isClanLeader():
          return "9000-07-no.htm"
@@ -51,6 +54,9 @@ class Quest (JQuest) :
       if player.getClan() == None or not player.isClanLeader():
          return "9000-07-no.htm"
    elif event == "9000-14a.htm" :
+      if player.getClan() == None or not player.isClanLeader():
+         return "9000-07-no.htm"
+   elif event == "9000-14b.htm" :
       if player.getClan() == None or not player.isClanLeader():
          return "9000-07-no.htm"
    elif event == "9000-15.htm" :

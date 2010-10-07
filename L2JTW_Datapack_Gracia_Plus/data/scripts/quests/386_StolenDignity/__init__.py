@@ -21,7 +21,6 @@ SI_ORE = 6363
 REWARDS=[5529]+range(5532,5540)+range(5541,5549)+[8331]+range(8341,8343)+[8346]+[8349]+range(8712,8723)
  
 #Messages
-default   = "<html><body>目前沒有執行任務，或條件不符。</body></html>"
 error_1   = "Low_level.htm"
 start     = "Start.htm"
 starting  = "Starting.htm"
@@ -172,11 +171,11 @@ class Quest (JQuest) :
                   else :
                       htmltext = header+"來，請選擇第"+number[8-chosen.count("?")]+partial(st)
             else:
-              htmltext=default
+              htmltext = "<html><body>目前沒有執行任務，或條件不符。</body></html>"
     return htmltext
 
  def onTalk (self,npc,player):
-   htmltext = default
+   htmltext = "<html><body>目前沒有執行任務，或條件不符。</body></html>"
    st = player.getQuestState(qn)
    if not st : return htmltext
 

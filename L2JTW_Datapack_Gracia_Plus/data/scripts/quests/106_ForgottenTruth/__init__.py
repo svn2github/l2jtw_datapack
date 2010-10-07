@@ -89,6 +89,8 @@ class Quest (JQuest) :
        if npcId == 30358 and st.getQuestItemsCount(KARTAS_TRANSLATION) :
          htmltext = "30358-07.htm"
          st.takeItems(KARTAS_TRANSLATION,1)
+         st.giveItems(57,10266)
+         st.addExpAndSp(24195,2074)
          st.giveItems(ELDRITCH_DAGGER,1)
          for item in range(4412,4417) :
                st.rewardItems(item,10)

@@ -119,7 +119,7 @@ class Quest (JQuest) :
        htmltext = "30531-05.htm"
      elif progress==17 :
        st.addExpAndSp(1029122,70620)
-       st.giveItems(57,186977)
+       st.giveItems(57,186077)
        htmltext = "30531-06.htm"
        st.giveItems(MARK_OF_MAESTRO,1)
        st.takeItems(RECOMMENDATION_OF_BALANKI,1)

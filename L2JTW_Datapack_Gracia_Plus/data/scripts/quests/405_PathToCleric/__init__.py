@@ -60,7 +60,6 @@ class Quest (JQuest) :
    if npcId != 30022 and id != State.STARTED : return htmltext
 
    npcId = npc.getNpcId()
-   htmltext = "<html><body>目前沒有執行任務，或條件不符。</body></html>"
    id = st.getState()
    if npcId == 30022 and st.getInt("cond")==0 :
       if st.getQuestItemsCount(MARK_OF_FAITH) == 0 :

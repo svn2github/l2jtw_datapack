@@ -104,7 +104,7 @@ public class PinsAndPouchUnseal extends Quest
 			{
 				if (st.getQuestItemsCount(57) > price)
 				{
-					htmltext = "";	
+					htmltext = "";
 					st.takeItems(57, price);
 					st.takeItems(itemIds[0], 1);
 					int rand = Rnd.get(100);

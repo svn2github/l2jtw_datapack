@@ -159,7 +159,8 @@ class Quest (JQuest) :
                 st.giveItems(Mark,1)
                 st.exitQuest(False)
                 st.playSound("ItemSound.quest_finish")
-                st.addExpAndSp(108974,12357)
+                st.giveItems(57,38833)
+                st.addExpAndSp(214773,14738)
                 st.unset("cond")
         elif npcId == Gaius :
             if cond == 13 :

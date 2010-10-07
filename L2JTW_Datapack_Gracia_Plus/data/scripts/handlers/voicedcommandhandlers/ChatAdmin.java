@@ -22,6 +22,7 @@ import com.l2jserver.gameserver.handler.IVoicedCommandHandler;
 import com.l2jserver.gameserver.model.L2World;
 import com.l2jserver.gameserver.model.actor.instance.L2PcInstance;
 import com.l2jserver.gameserver.datatables.MessageTable;
+
 public class ChatAdmin implements IVoicedCommandHandler
 {
 	private static final String[] VOICED_COMMANDS =
@@ -29,7 +30,7 @@ public class ChatAdmin implements IVoicedCommandHandler
 		"banchat",
 		"unbanchat"
 	};
-
+	
 	/**
 	 * 
 	 * @see com.l2jserver.gameserver.handler.IVoicedCommandHandler#useVoicedCommand(java.lang.String, com.l2jserver.gameserver.model.actor.instance.L2PcInstance, java.lang.String)
@@ -38,7 +39,7 @@ public class ChatAdmin implements IVoicedCommandHandler
 	{
 		if (!AdminCommandAccessRights.getInstance().hasAccess(command, activeChar.getAccessLevel()))
 			return false;
-
+		
 		if (command.equalsIgnoreCase(VOICED_COMMANDS[0])) // banchat
 		{
 			if (params == null)
@@ -65,12 +66,12 @@ public class ChatAdmin implements IVoicedCommandHandler
 				}
 				if (length < 0)
 					length = 0;
-
+				
 				int objId = CharNameTable.getInstance().getIdByName(name);
 				if (objId > 0)
 				{
 					L2PcInstance player = L2World.getInstance().getPlayer(objId);
-					if (player == null || player.isOnline() == 0)
+					if (player == null || !player.isOnline())
 					{
 						activeChar.sendMessage(1189);
 						return false;
@@ -127,7 +128,7 @@ public class ChatAdmin implements IVoicedCommandHandler
 				if (objId > 0)
 				{
 					L2PcInstance player = L2World.getInstance().getPlayer(objId);
-					if (player == null || player.isOnline() == 0)
+					if (player == null || !player.isOnline())
 					{
 						activeChar.sendMessage(1198);
 						return false;
@@ -137,7 +138,7 @@ public class ChatAdmin implements IVoicedCommandHandler
 						activeChar.sendMessage(1199);
 						return false;
 					}
-
+					
 					player.setPunishLevel(L2PcInstance.PunishLevel.NONE, 0);
 
 					activeChar.sendMessage(MessageTable.Messages[1195].getExtra(1) + player.getName() + MessageTable.Messages[1195].getExtra(5));
@@ -152,7 +153,7 @@ public class ChatAdmin implements IVoicedCommandHandler
 		}
 		return true;
 	}
-
+	
 	/**
 	 * 
 	 * @see com.l2jserver.gameserver.handler.IVoicedCommandHandler#getVoicedCommandList()

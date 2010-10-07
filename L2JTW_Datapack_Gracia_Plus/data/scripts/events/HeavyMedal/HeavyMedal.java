@@ -73,7 +73,7 @@ public class HeavyMedal extends Quest
 		}
 		else if (event.equalsIgnoreCase("talk"))
 		{
-			return String.valueOf(npc.getNpcId())+ "-lvl-"+String.valueOf(level)+".htm";			
+			return String.valueOf(npc.getNpcId())+ "-lvl-"+String.valueOf(level)+".htm";
 		}
 		return htmltext;
 	}

@@ -65,7 +65,7 @@ public class SeedOfDestruction extends Quest
 
 		public SODWorld(Long time)
 		{
-			InstanceManager.getInstance().super();
+			//InstanceManager.getInstance().super();
 		}
 	}
 
@@ -767,7 +767,7 @@ public class SeedOfDestruction extends Quest
 		{
 			L2PcInstance player = L2World.getInstance().getPlayer(objectId);
 			InstanceManager.getInstance().setInstanceTime(objectId, INSTANCEID, reenter.getTimeInMillis());
-			if (player != null && player.isOnline() > 0)
+			if (player != null && player.isOnline())
 				player.sendPacket(sm);
 		}
 	}

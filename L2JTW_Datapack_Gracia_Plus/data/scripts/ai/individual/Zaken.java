@@ -16,6 +16,8 @@ package ai.individual;
 
 import java.util.logging.Logger;
 
+import ai.group_template.L2AttackableAIScript;
+
 import com.l2jserver.Config;
 import com.l2jserver.gameserver.GameTimeController;
 import com.l2jserver.gameserver.ThreadPoolManager;
@@ -35,8 +37,6 @@ import com.l2jserver.gameserver.model.zone.type.L2BossZone;
 import com.l2jserver.gameserver.network.serverpackets.PlaySound;
 import com.l2jserver.gameserver.templates.StatsSet;
 import com.l2jserver.util.Rnd;
-
-import ai.group_template.L2AttackableAIScript;
 
 /**
  * Zaken AI
@@ -67,15 +67,15 @@ public class Zaken extends L2AttackableAIScript
 	private static final int pirates_zombie_b = 29027;
 	private static final int[] Xcoords =
 	{
-			53950, 55980, 54950, 55970, 53930, 55970, 55980, 54960, 53950, 53930, 55970, 55980, 54960, 53950, 53930
+		53950, 55980, 54950, 55970, 53930, 55970, 55980, 54960, 53950, 53930, 55970, 55980, 54960, 53950, 53930
 	};
 	private static final int[] Ycoords =
 	{
-			219860, 219820, 218790, 217770, 217760, 217770, 219920, 218790, 219860, 217760, 217770, 219920, 218790, 219860, 217760
+		219860, 219820, 218790, 217770, 217760, 217770, 219920, 218790, 219860, 217760, 217770, 219920, 218790, 219860, 217760
 	};
 	private static final int[] Zcoords =
 	{
-			-3488, -3488, -3488, -3488, -3488, -3216, -3216, -3216, -3216, -3216, -2944, -2944, -2944, -2944, -2944
+		-3488, -3488, -3488, -3488, -3488, -3216, -3216, -3216, -3216, -3216, -2944, -2944, -2944, -2944, -2944
 	};
 
 	//ZAKEN Status Tracking :
@@ -224,7 +224,7 @@ public class Zaken extends L2AttackableAIScript
 			}
 			if (getTimeHour() < 5)
 			{
-				if (sk_4223 == 1) //use night face if zaken have day face 
+				if (sk_4223 == 1) //use night face if zaken have day face
 				{
 					npc.setTarget(npc);
 					npc.doCast(SkillTable.getInstance().getInfo(4224, 1));

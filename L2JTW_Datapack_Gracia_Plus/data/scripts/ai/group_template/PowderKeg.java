@@ -18,6 +18,7 @@ import com.l2jserver.gameserver.datatables.SkillTable;
 import com.l2jserver.gameserver.model.L2Skill;
 import com.l2jserver.gameserver.model.actor.L2Npc;
 import com.l2jserver.gameserver.model.actor.instance.L2PcInstance;
+import com.l2jserver.gameserver.util.Util;
 
 /**
  * ¤õÃÄ±í
@@ -37,7 +38,7 @@ public class PowderKeg extends L2AttackableAIScript
 	{
 		int npcId = npc.getNpcId();
 
-		if (contains(NPC_IDS, npcId))
+		if (Util.contains(NPC_IDS, npcId))
 		{
 			L2Skill _boom = SkillTable.getInstance().getInfo(5714, 1);
 			npc.disableCoreAI(true);

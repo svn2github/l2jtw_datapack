@@ -15,7 +15,7 @@ BROOCH   = 7262     #破舊的胸針
 
 #REWARD
 ADENA    = 57       #金幣
-AMOUNT   = 68787    #數量
+AMOUNT   = 150292   #數量
 
 class Quest (JQuest) :
 
@@ -36,6 +36,7 @@ class Quest (JQuest) :
        st.playSound("ItemSound.quest_middle")
     elif event == "31453-7.htm" :
        st.giveItems(ADENA,AMOUNT)
+       st.addExpAndSp(902439,90067)
        st.setState(State.COMPLETED)
        st.playSound("ItemSound.quest_finish")
        st.exitQuest(1)

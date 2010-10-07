@@ -5,6 +5,7 @@
 		<set name="target" val="TARGET_SELF" />
 		<set name="skillType" val="BUFF" />
 		<set name="operateType" val="OP_PASSIVE" />
+		<set name="excludedFromCheck" val="true" />
 		<for>
 			<add order="0x40" stat="mDef" val="#mDef" />
 		</for>
@@ -14,6 +15,7 @@
 		<set name="skillType" val="BUFF" />
 		<set name="operateType" val="OP_PASSIVE" />
 		<set name="isMagic" val="true" />
+		<set name="excludedFromCheck" val="true" />
 		<for>
 			<add order="0x40" stat="maxCp" val="738" />
 		</for>
@@ -23,6 +25,7 @@
 		<set name="skillType" val="BUFF" />
 		<set name="operateType" val="OP_PASSIVE" />
 		<set name="isMagic" val="true" />
+		<set name="excludedFromCheck" val="true" />
 		<for>
 			<mul order="0x30" stat="magicDamVul" val="0.95" />
 		</for>
@@ -32,6 +35,7 @@
 		<set name="skillType" val="BUFF" />
 		<set name="operateType" val="OP_PASSIVE" />
 		<set name="isMagic" val="true" />
+		<set name="excludedFromCheck" val="true" />
 		<for>
 			<add order="0x40" stat="darkRes" val="5" />
 			<add order="0x40" stat="holyRes" val="5" />
@@ -41,6 +45,7 @@
 		<set name="target" val="TARGET_SELF" />
 		<set name="skillType" val="BUFF" />
 		<set name="operateType" val="OP_PASSIVE" />
+		<set name="excludedFromCheck" val="true" />
 		<for>
 			<mul order="0x30" stat="critVuln" val="0.97" />
 		</for>
@@ -383,9 +388,9 @@
 				<mul order="0x30" stat="pAtk" val="1.05">
 					<using kind="Blunt,Big Blunt" />
 				</mul>
-				<mul order="0x30" stat="stunProf" val="1.08">
+				<add order="0x40" stat="stunProf" val="8">
 					<using kind="Blunt,Big Blunt" />
-				</mul>
+				</add>
 			</effect>
 		</for>
 	</skill>
@@ -970,7 +975,7 @@
 		<set name="castRange" val="40" />
 		<set name="effectRange" val="400" />
 	</skill>
-	<skill id="870" levels="1" name="Royal Guard Captain Power Strike">
+	<skill id="870" levels="1" name="Knight Mercenary Power Strike">
 		<!-- Update by pmq -->
 		<set name="mpConsume" val="8" />
 		<set name="power" val="5684" />
@@ -985,7 +990,7 @@
 		<set name="castRange" val="40" />
 		<set name="effectRange" val="400" />
 	</skill>
-	<skill id="871" levels="1" name="Royal Guard Captain Might">
+	<skill id="871" levels="1" name="Might">
 		<!-- Update by pmq -->
 		<table name="#mpConsume"> 35 </table>
 		<table name="#rate"> 1.15 </table>
@@ -1007,7 +1012,7 @@
 			</effect>
 		</for>
 	</skill>
-	<skill id="872" levels="1" name="Archer Captain Power Shot">
+	<skill id="872" levels="1" name="Archer Mercenary Power Shot">
 		<!-- Update by pmq -->
 		<set name="weaponsAllowed" val="32" /> <!-- Bow -->
 		<set name="mpConsume" val="16" />
@@ -1023,7 +1028,7 @@
 		<set name="castRange" val="700" />
 		<set name="effectRange" val="1200" />
 	</skill>
-	<skill id="873" levels="1" name="Archer Captain Rapid Shot">
+	<skill id="873" levels="1" name="Rapid Shot">
 		<!-- Update by pmq -->
 		<table name="#mpConsume"> 25 </table>
 		<table name="#rate"> 1.12 </table>
@@ -1043,7 +1048,7 @@
 			</effect>
 		</for>
 	</skill>
-	<skill id="874" levels="1" name="Magic Leader Flame Strike">
+	<skill id="874" levels="1" name="Wizard Mercenary Flame Strike">
 		<!-- Update by pmq -->
 		<table name="#mpConsume"> 40 </table>
 		<table name="#power"> 117 </table>
@@ -1060,7 +1065,7 @@
 		<set name="castRange" val="500" />
 		<set name="effectRange" val="1000" />
 	</skill>
-	<skill id="875" levels="1" name="Magic Leader Empower">
+	<skill id="875" levels="1" name="Empower">
 		<!-- Update by pmq -->
 		<table name="#mpConsume"> 70 </table>
 		<table name="#mAtk"> 1.75 </table>
@@ -1082,7 +1087,7 @@
 			</effect>
 		</for>
 	</skill>
-	<skill id="876" levels="1" name="Kamael Guard Captain Enuma Elish">
+	<skill id="876" levels="1" name="Kamael Captain Mercenary Enuma Elish">
 		<!-- Update by pmq -->
 		<set name="mpConsume" val="40" />
 		<set name="power" val="7060" />
@@ -1097,7 +1102,7 @@
 		<set name="reuseDelay" val="8000" />
 		<set name="soulMaxConsumeCount" val="5" />
 	</skill>
-	<skill id="877" levels="1" name="Kamael Guard Captain Disarm">
+	<skill id="877" levels="1" name="Kamael Captain Mercenary Disarm">
 		<!-- Update by pmq -->
 		<set name="castRange" val="40" />
 		<set name="effectRange" val="400" />
@@ -1114,7 +1119,7 @@
 			<effect name="Disarm" time="7" val="0" />
 		</for>
 	</skill>
-	<skill id="878" levels="1" name="Knight of Dawn Power Strike">
+	<skill id="878" levels="1" name="Knight Captain Mercenary Power Strike">
 		<!-- Update by pmq -->
 		<set name="mpConsume" val="8" />
 		<set name="power" val="5684" />
@@ -1129,7 +1134,7 @@
 		<set name="castRange" val="40" />
 		<set name="effectRange" val="400" />
 	</skill>
-	<skill id="879" levels="1" name="Knight of Dawn Curse Fear">
+	<skill id="879" levels="1" name="Knight Captain Mercenary Curse Fear">
 		<!-- Update by pmq -->
 		<set name="mpConsume" val="70" />
 		<set name="power" val="60" />
@@ -1146,7 +1151,7 @@
 			<effect count="5" name="Fear" time="2" val="0" />
 		</for>
 	</skill>
-	<skill id="880" levels="1" name="Knight of Dawn Ultimate Defense">
+	<skill id="880" levels="1" name="Knight Captain Mercenary Ultimate Defense">
 		<!-- Update by pmq -->
 		<table name="#pDef"> 4200 </table>
 		<table name="#mDef"> 3500 </table>
@@ -1168,7 +1173,7 @@
 			</effect>
 		</for>
 	</skill>
-	<skill id="881" levels="1" name="Fortress Captain Twister">
+	<skill id="881" levels="1" name="Commander Mercenary Twister">
 		<!-- Update by pmq -->
 		<set name="mpConsume" val="70" />
 		<set name="power" val="117" />
@@ -1182,7 +1187,7 @@
 		<set name="castRange" val="750" />
 		<set name="effectRange" val="1250" />
 	</skill>
-	<skill id="882" levels="1" name="Fortress Captain Blaze">
+	<skill id="882" levels="1" name="Commander Mercenary Blaze">
 		<!-- Update by pmq -->
 		<set name="mpConsume" val="70" />
 		<set name="power" val="117" />
@@ -1196,7 +1201,7 @@
 		<set name="castRange" val="750" />
 		<set name="effectRange" val="1250" />
 	</skill>
-	<skill id="883" levels="1" name="Fortress Captain Seal of Binding">
+	<skill id="883" levels="1" name="Commander Mercenary Seal of Binding">
 		<!-- Update by pmq -->
 		<set name="mpConsume" val="70" />
 		<set name="power" val="90" />
@@ -1233,7 +1238,6 @@
 	</skill>
 	<skill id="885" levels="1" name="Air Blink">
 		<!-- Aurabird Falcon & Owl -->
-		<set name="coolTime" val="200" />
 		<set name="flyCourse" val="0" /> <!-- Teleport to Back -->
 		<set name="flyRadius" val="500" />
 		<set name="hitTime" val="100" />
@@ -1243,7 +1247,7 @@
 		<set name="power" val="100" />
 		<set name="reuseDelay" val="23000" />
 		<set name="saveVs" val="CON" />
-		<set name="skillRadius" val="150" />
+		<set name="skillRadius" val="100" />
 		<set name="skillType" val="PDAM" />
 		<set name="target" val="TARGET_AURA" />
 		<for>

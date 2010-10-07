@@ -56,7 +56,7 @@ class Quest (JQuest) :
         elif id == State.STARTED and npcId == Allenos:
             htmltext = "32526-01.htm"
             st.giveItems(57,29174)
-            st.addExpAndSp(176121,17671)
+            st.addExpAndSp(176121,7671)
             st.unset("cond")
             st.exitQuest(False)
             st.playSound("ItemSound.quest_finish")

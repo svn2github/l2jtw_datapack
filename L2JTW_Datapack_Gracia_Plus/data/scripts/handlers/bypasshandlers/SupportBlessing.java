@@ -22,27 +22,28 @@ import com.l2jserver.gameserver.model.actor.L2Npc;
 import com.l2jserver.gameserver.model.actor.instance.L2PcInstance;
 import com.l2jserver.gameserver.network.serverpackets.NpcHtmlMessage;
 import com.l2jserver.gameserver.datatables.MessageTable;
+
 public class SupportBlessing implements IBypassHandler
 {
 	private static final String[] COMMANDS =
 	{
 		"GiveBlessing"
 	};
-
+	
 	public boolean useBypass(String command, L2PcInstance activeChar, L2Character target)
 	{
 		if (!(target instanceof L2Npc))
 			return false;
-
+		
 		// Blessing of protection - author kerberos_20. Used codes from Rayan - L2Emu project.
 		// Prevent a cursed weapon weilder of being buffed - I think no need of that becouse karma check > 0
-		// if (player.isCursedWeaponEquiped()) 
-		//   return; 
-
+		// if (player.isCursedWeaponEquiped())
+		//   return;
+		
 		int player_level = activeChar.getLevel();
-		// Select the player 
+		// Select the player
 		((L2Npc)target).setTarget(activeChar);
-		// If the player is too high level, display a message and return 
+		// If the player is too high level, display a message and return
 		if (player_level > 39 || activeChar.getClassId().level() >= 2)
 		{
 			NpcHtmlMessage msg = new NpcHtmlMessage(((L2Npc)target).getObjectId());
@@ -52,10 +53,10 @@ public class SupportBlessing implements IBypassHandler
 		}
 		L2Skill skill = SkillTable.FrequentSkill.BLESSING_OF_PROTECTION.getSkill();
 		((L2Npc)target).doCast(skill);
-
+		
 		return false;
 	}
-
+	
 	public String[] getBypassList()
 	{
 		return COMMANDS;

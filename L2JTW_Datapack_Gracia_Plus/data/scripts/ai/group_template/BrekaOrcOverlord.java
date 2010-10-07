@@ -34,7 +34,7 @@ public class BrekaOrcOverlord extends L2AttackableAIScript
 	{
 		super(questId, name, descr);
 		int[] mobs = {BREKA};
-		registerMobs(mobs);
+		registerMobs(mobs, QuestEventType.ON_ATTACK, QuestEventType.ON_KILL);
 		_FirstAttacked = false;
 	}
 

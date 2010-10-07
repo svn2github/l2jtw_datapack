@@ -1,5 +1,8 @@
 package instances.DarkCloudMansion;
 
+import javolution.util.FastList;
+import javolution.util.FastMap;
+
 import com.l2jserver.gameserver.ai.CtrlIntention;
 import com.l2jserver.gameserver.instancemanager.InstanceManager;
 import com.l2jserver.gameserver.instancemanager.InstanceManager.InstanceWorld;
@@ -16,9 +19,6 @@ import com.l2jserver.gameserver.network.serverpackets.MagicSkillUse;
 import com.l2jserver.gameserver.network.serverpackets.NpcSay;
 import com.l2jserver.gameserver.network.serverpackets.SystemMessage;
 import com.l2jserver.util.Rnd;
-
-import javolution.util.FastList;
-import javolution.util.FastMap;
 
 
 public class DarkCloudMansion extends Quest
@@ -67,7 +67,6 @@ public class DarkCloudMansion extends Quest
 
 		public DMCWorld()
 		{
-			InstanceManager.getInstance().super();
 		}
 	}
 
@@ -833,7 +832,7 @@ public class DarkCloudMansion extends Quest
 					if (mob.order == i && ForthRoom.counter == i)
 					{
 						openDoor(W1+i, world.instanceId);
-						ForthRoom.counter += 1; 
+						ForthRoom.counter += 1;
 						if (ForthRoom.counter == 7)
 							runThirdRoom2(world);
 					}
@@ -1059,7 +1058,7 @@ public class DarkCloudMansion extends Quest
 				tele.z = -3111;
 				if (world.allowed.contains(player.getObjectId()))
 				{
-					if (debug) 
+					if (debug)
 						_log.info("DarkCloudMansion - id " + player.getObjectId() + " removed from allowed player in this Instances.");
 					world.allowed.remove(world.allowed.indexOf(player.getObjectId()));
 				}

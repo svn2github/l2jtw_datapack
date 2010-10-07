@@ -25,7 +25,7 @@ public class SanctumOftheLordsOfDawn extends Quest
 		private L2Npc npc1f,npc2a,npc2b,npc2c,npc2d,npc5,npc6,npc7,npc8,npc9,npca,npcb,npc4e,npc4f,npc5a,npc5b,npc5c,npc5d,npc5e,npc5f,npc6a,npc6b;
 		public HSWorld()
 		{
-			InstanceManager.getInstance().super();
+			//InstanceManager.getInstance().super();
 		}
 	}
 

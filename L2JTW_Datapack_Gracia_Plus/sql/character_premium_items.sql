@@ -1,5 +1,4 @@
-DROP TABLE IF EXISTS `character_premium_items`;
-CREATE TABLE `character_premium_items` (
+CREATE TABLE IF NOT EXISTS `character_premium_items` (
   `charId` int(11) NOT NULL,
   `itemNum` int(11) NOT NULL,
   `itemId` int(11) NOT NULL,

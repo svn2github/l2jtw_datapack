@@ -25,6 +25,7 @@ import com.l2jserver.gameserver.model.actor.instance.L2SummonInstance;
 import com.l2jserver.gameserver.templates.L2HelperBuff;
 import com.l2jserver.gameserver.templates.skills.L2SkillType;
 import com.l2jserver.gameserver.datatables.MessageTable;
+
 public class SupportMagic implements IBypassHandler
 {
 	private static final String[] COMMANDS =
@@ -32,21 +33,21 @@ public class SupportMagic implements IBypassHandler
 		"supportmagicservitor",
 		"supportmagic"
 	};
-
+	
 	public boolean useBypass(String command, L2PcInstance activeChar, L2Character target)
 	{
 		if (!(target instanceof L2Npc))
 			return false;
-
+		
 		boolean result = false;
 		if (command.toLowerCase().startsWith(COMMANDS[0]))
 			result = makeSupportMagic(activeChar, (L2Npc)target, true);
 		else if (command.toLowerCase().startsWith(COMMANDS[1]))
 			result = makeSupportMagic(activeChar, (L2Npc)target, false);
-
+		
 		return result;
 	}
-
+	
 	/**
 	 * Add Newbie helper buffs to L2Player according to its level.<BR><BR>
 	 * 
@@ -64,15 +65,15 @@ public class SupportMagic implements IBypassHandler
 	{
 		if (player == null)
 			return false;
-
+		
 		// Prevent a cursed weapon weilder of being buffed
 		if (player.isCursedWeaponEquipped())
 			return false;
-
+		
 		int player_level = player.getLevel();
 		int lowestLevel = 0;
 		int highestLevel = 0;
-
+		
 		if (isSummon)
 		{
 			if (player.getPet() == null || !(player.getPet() instanceof L2SummonInstance))
@@ -86,7 +87,7 @@ public class SupportMagic implements IBypassHandler
 		else
 			// 	Select the player
 			npc.setTarget(player);
-
+		
 		if (isSummon)
 		{
 			lowestLevel = HelperBuffTable.getInstance().getServitorLowestLevel();
@@ -114,7 +115,7 @@ public class SupportMagic implements IBypassHandler
 			npc.insertObjectIdAndShowChatWindow(player, content);
 			return true;
 		}
-
+		
 		// If the player is too low level, display a message and return
 		if (player_level < lowestLevel)
 		{
@@ -122,7 +123,7 @@ public class SupportMagic implements IBypassHandler
 			npc.insertObjectIdAndShowChatWindow(player, content);
 			return true;
 		}
-
+		
 		L2Skill skill = null;
 		if (isSummon)
 		{
@@ -156,7 +157,7 @@ public class SupportMagic implements IBypassHandler
 		}
 		return true;
 	}
-
+	
 	public String[] getBypassList()
 	{
 		return COMMANDS;

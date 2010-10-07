@@ -51,7 +51,6 @@
 		<set name="operateType" val="OP_ACTIVE" />
 	</skill>
 	<skill id="5903" levels="1" name="Burst of Misplace">
-		<!-- Update by pmq -->
 		<set name="hitTime" val="2000" />
 		<set name="isDebuff" val="true" />
 		<set name="magicLvl" val="80" />
@@ -67,8 +66,7 @@
 			<effect name="Disarm" time="5" val="0" />
 		</for>
 	</skill>
-	<skill id="5904" levels="3" name="Mist of Souliter">
-		<!-- Update by pmq -->
+	<skill id="5904" levels="3" name="Mist of Souleater">
 		<table name="#hitTime"> 2000 22940 22940 </table>
 		<set name="power" val="3000" />
 		<set name="target" val="TARGET_ONE" />
@@ -159,7 +157,6 @@
 		<set name="effectRange" val="1100" />
 	</skill>
 	<skill id="5909" levels="1" name="Stronghold Attack">
-		<!-- Update by pmq -->
 		<set name="power" val="3000" />
 		<set name="target" val="TARGET_ONE" />
 		<set name="skillType" val="PDAM" />
@@ -170,7 +167,6 @@
 		<set name="hitTime" val="1000" />
 	</skill>
 	<skill id="5910" levels="1" name="Stronghold Attack">
-		<!-- Update by pmq -->
 		<set name="power" val="5000" />
 		<set name="target" val="TARGET_ONE" />
 		<set name="skillType" val="PDAM" />
@@ -370,7 +366,6 @@
 		<set name="operateType" val="OP_PASSIVE" />
 	</skill>
 	<skill id="5932" levels="1" name="Dark Blade">
-		<!-- Update by pmq -->
 		<set name="power" val="3000" />
 		<set name="target" val="TARGET_ONE" />
 		<set name="skillType" val="PDAM" />
@@ -381,7 +376,6 @@
 		<set name="hitTime" val="1500" />
 	</skill>
 	<skill id="5933" levels="1" name="Dark Blade">
-		<!-- Update by pmq -->
 		<set name="power" val="3000" />
 		<set name="target" val="TARGET_ONE" />
 		<set name="skillType" val="PDAM" />
@@ -397,7 +391,6 @@
 		<set name="operateType" val="OP_PASSIVE" />
 	</skill>
 	<skill id="5935" levels="1" name="Dark Ring">
-		<!-- Update by pmq -->
 		<set name="power" val="3000" />
 		<set name="target" val="TARGET_ONE" />
 		<set name="skillType" val="PDAM" />
@@ -408,7 +401,6 @@
 		<set name="hitTime" val="1500" />
 	</skill>
 	<skill id="5936" levels="1" name="Earth Ring">
-		<!-- Update by pmq -->
 		<set name="power" val="3000" />
 		<set name="target" val="TARGET_ONE" />
 		<set name="skillType" val="PDAM" />

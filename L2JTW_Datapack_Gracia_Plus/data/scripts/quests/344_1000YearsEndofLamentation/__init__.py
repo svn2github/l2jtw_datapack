@@ -23,8 +23,6 @@ ORVEN = 30857
 KAIEN = 30623
 GARVARENTZ = 30704
 
-default = "<html><body>目前沒有執行任務，或條件不符。</body></html>"
-
 def rewards(st,npcId):
     state=False
     chance=st.getRandom(100)
@@ -89,7 +87,7 @@ class Quest (JQuest) :
           st.set("cond","1")
           st.playSound("ItemSound.quest_accept")
         else :
-          htmltext = default
+          htmltext = "<html><body>目前沒有執行任務，或條件不符。</body></html>"
           st.exitQuest(1)
      elif event == "30754-08.htm" :     
          st.exitQuest(1)

@@ -36,9 +36,9 @@ public class SoulShots implements IItemHandler
 {
 	/**
 	 * 
-	 * @see com.l2jserver.gameserver.handler.IItemHandler#useItem(com.l2jserver.gameserver.model.actor.L2Playable, com.l2jserver.gameserver.model.L2ItemInstance)
+	 * @see com.l2jserver.gameserver.handler.IItemHandler#useItem(com.l2jserver.gameserver.model.actor.L2Playable, com.l2jserver.gameserver.model.L2ItemInstance, boolean)
 	 */
-	public void useItem(L2Playable playable, L2ItemInstance item)
+	public void useItem(L2Playable playable, L2ItemInstance item, boolean forceUse)
 	{
 		if (!(playable instanceof L2PcInstance))
 			return;
@@ -47,7 +47,6 @@ public class SoulShots implements IItemHandler
 		L2ItemInstance weaponInst = activeChar.getActiveWeaponInstance();
 		L2Weapon weaponItem = activeChar.getActiveWeaponItem();
 		int itemId = item.getItemId();
-		//int weaponId = weaponItem.getItemId(); //Update by rocknow //Update by pmq
 		
 		// Check if Soul shot can be used
 		if (weaponInst == null || weaponItem.getSoulShotCount() == 0)
@@ -68,7 +67,6 @@ public class SoulShots implements IItemHandler
 					gradeCheck = false;
 				break;
 			case L2Item.CRYSTAL_D:
-				//if (itemId != 1463 && itemId != 22082 && !(itemId == 13037 && (weaponId >= 13034 && weaponId <= 13036))) //Update by rocknow //Update by pmq
 				if (itemId != 1463 && itemId != 22082)
 					gradeCheck = false;
 				break;
@@ -81,7 +79,6 @@ public class SoulShots implements IItemHandler
 					gradeCheck = false;
 				break;
 			case L2Item.CRYSTAL_A:
-				//if (itemId != 1466 && itemId != 22085 && !(itemId == 13045 && (weaponId >= 13042 && weaponId <= 13044)) && !(itemId == 13055 && (weaponId >= 13052 && weaponId <= 13054))) //Update by rocknow //Update by pmq
 				if (itemId != 1466 && itemId != 22085)
 					gradeCheck = false;
 				break;
@@ -134,7 +131,6 @@ public class SoulShots implements IItemHandler
 				skillId=2039;
 				break;
 			case 1463:
-			//case 13037: //Update by rocknow //Update by pmq
 				skillId=2150;
 				break;
 			case 1464:
@@ -144,8 +140,6 @@ public class SoulShots implements IItemHandler
 				skillId=2152;
 				break;
 			case 1466:
-			//case 13045: //Update by rocknow //Update by pmq
-			//case 13055: //Update by rocknow //Update by pmq
 				skillId=2153;
 				break;
 			case 1467:

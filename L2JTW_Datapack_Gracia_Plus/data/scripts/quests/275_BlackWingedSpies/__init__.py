@@ -51,7 +51,7 @@ class Quest (JQuest) :
        htmltext = "30567-05.htm"
        st.exitQuest(1)
        st.playSound("ItemSound.quest_finish")
-       st.giveItems(ADENA,4200)
+       st.giveItems(ADENA,4550)
        st.takeItems(DARKWING_BAT_FANG,-1)
        st.takeItems(VARANGKAS_PARASITE,-1)
    return htmltext

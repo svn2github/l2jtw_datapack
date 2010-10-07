@@ -10,14 +10,14 @@ qn = "122_OminousNews"
 MOIRA = 31979
 KARUDA = 32017
 
-default="<html><body>目前沒有執行任務，或條件不符。</body></html>"
-
 class Quest (JQuest) :
 
  def __init__(self,id,name,descr): JQuest.__init__(self,id,name,descr)
 
- def onEvent (self,event,st) :
-   htmltext = default
+ def onAdvEvent (self,event,npc,player) :
+   st = player.getQuestState(qn)
+   if not st : return
+   htmltext = "<html><body>目前沒有執行任務，或條件不符。</body></html>"
    id = st.getState()
    cond = st.getInt("cond")
    if id != State.COMPLETED :
@@ -28,18 +28,19 @@ class Quest (JQuest) :
        st.playSound("ItemSound.quest_accept")
      elif htmltext == "32017-02.htm" :
        if cond == 1 and st.getInt("ok") :
-         st.giveItems(57,1695)
+         st.giveItems(57,8923)
+         st.addExpAndSp(45151,2310)
          st.unset("cond")
          st.unset("ok")
          st.exitQuest(False)
          st.playSound("ItemSound.quest_finish")
        else :
-         htmltext=default
+         htmltext = "<html><body>目前沒有執行任務，或條件不符。</body></html>"
    return htmltext
 
  def onTalk (self,npc,player):
    npcId = npc.getNpcId()
-   htmltext = default
+   htmltext = "<html><body>目前沒有執行任務，或條件不符。</body></html>"
    st = player.getQuestState(qn)
    if not st : return htmltext
 

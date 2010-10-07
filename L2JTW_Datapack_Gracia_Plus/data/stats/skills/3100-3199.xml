@@ -1662,6 +1662,7 @@
 		<set name="mpConsume" val="#mpConsume" />
 		<set name="power" val="#power" />
 		<set name="target" val="TARGET_ONE" />
+		<set name="saveVs" val="WIT" />
 		<set name="skillType" val="SLEEP" />
 		<set name="hitTime" val="4000" />
 		<set name="operateType" val="OP_ACTIVE" />
@@ -1815,6 +1816,7 @@
 		<set name="reuseDelay" val="30000" />
 		<set name="staticReuse" val="true" />
 		<set name="hitTime" val="4000" />
+		<set name="saveVs" val="WIT" />
 		<set name="skillType" val="MUTE" />
 		<set name="isMagic" val="true" />
 		<set name="operateType" val="OP_ACTIVE" />
@@ -1835,6 +1837,7 @@
 		<set name="lvlDepend" val="2" />
 		<set name="target" val="TARGET_ONE" />
 		<set name="reuseDelay" val="30000" />
+		<set name="saveVs" val="WIT" />
 		<set name="staticReuse" val="true" />
 		<set name="hitTime" val="4000" />
 		<set name="skillType" val="MUTE" />

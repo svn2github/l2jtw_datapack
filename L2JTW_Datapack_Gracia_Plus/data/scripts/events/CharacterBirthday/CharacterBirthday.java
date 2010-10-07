@@ -75,7 +75,7 @@ public class CharacterBirthday extends Quest
 			// Give Adventurer Hat (Event)
 			st.giveItems(10250, 1);
 
-			// Give Buff			
+			// Give Buff
 			L2Skill skill;
 			skill = SkillTable.getInstance().getInfo(5950, 1);
 			if (skill != null)

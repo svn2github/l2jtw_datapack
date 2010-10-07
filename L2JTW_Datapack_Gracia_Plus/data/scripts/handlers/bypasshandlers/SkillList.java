@@ -13,8 +13,9 @@
  * this program. If not, see <http://www.gnu.org/licenses/>.
  */
 package handlers.bypasshandlers;
-import com.l2jserver.gameserver.datatables.CharTemplateTable; //Update by rocknow
+
 import com.l2jserver.Config;
+import com.l2jserver.gameserver.datatables.CharTemplateTable; //Update by rocknow
 import com.l2jserver.gameserver.datatables.SkillTreeTable;
 import com.l2jserver.gameserver.handler.IBypassHandler;
 import com.l2jserver.gameserver.model.actor.L2Character;
@@ -25,18 +26,19 @@ import com.l2jserver.gameserver.model.base.ClassId;
 import com.l2jserver.gameserver.network.serverpackets.ActionFailed;
 import com.l2jserver.gameserver.network.serverpackets.NpcHtmlMessage;
 import com.l2jserver.gameserver.datatables.MessageTable;
+
 public class SkillList implements IBypassHandler
 {
 	private static final String[] COMMANDS =
 	{
 		"SkillList"
 	};
-
+	
 	public boolean useBypass(String command, L2PcInstance activeChar, L2Character target)
 	{
 		if (!(target instanceof L2NpcInstance))
 			return false;
-
+		
 		if (Config.ALT_GAME_SKILL_LEARN)
 		{
 			try
@@ -50,7 +52,7 @@ public class SkillList implements IBypassHandler
 				else
 				{
 					boolean own_class = false;
-
+					
 					ClassId[] classesToTeach = ((L2NpcInstance)target).getClassesToTeach();
 					if (classesToTeach != null)
 					{
@@ -63,9 +65,9 @@ public class SkillList implements IBypassHandler
 							}
 						}
 					}
-
+					
 					String text = "<html><body><center>"+MessageTable.Messages[1061].getMessage()+"</center><br>";
-
+					
 					if (!own_class)
 					{
 						String charType = activeChar.getClassId().isMage() ? MessageTable.Messages[1062].getMessage() : MessageTable.Messages[1063].getMessage();
@@ -75,23 +77,23 @@ public class SkillList implements IBypassHandler
 							MessageTable.Messages[1066].getMessage()+"<br>"+
 							MessageTable.Messages[1067].getMessage()+ charType +MessageTable.Messages[1068].getMessage()+"<br>";
 					}
-
+					
 					// make a list of classes
 					if (classesToTeach != null)
 					{
 						int count = 0;
 						ClassId classCheck = activeChar.getClassId();
-
+						
 						while ((count == 0) && (classCheck != null))
 						{
 							for (ClassId cid : classesToTeach)
 							{
-								if (cid.level() > classCheck.level()) 
+								if (cid.level() > classCheck.level())
 									continue;
-
+								
 								if (SkillTreeTable.getInstance().getAvailableSkills(activeChar, cid).length == 0)
 									continue;
-
+								
 								text += "<a action=\"bypass -h npc_%objectId%_SkillList "+cid.getId()+"\">"+MessageTable.Messages[1069].getExtra(1)+CharTemplateTable.getInstance().getClassNameById(cid.getId())+MessageTable.Messages[1069].getExtra(2)+"</a><br>\n"; //Update by rocknow
 								count++;
 							}
@@ -101,14 +103,14 @@ public class SkillList implements IBypassHandler
 					}
 					else
 						text += MessageTable.Messages[1070].getMessage()+"<br>";
-
+					
 					text += "</body></html>";
-
+					
 					NpcHtmlMessage html = new NpcHtmlMessage(((L2Npc)target).getObjectId());
 					html.setHtml(text);
 					html.replace("%objectId%", String.valueOf(((L2Npc)target).getObjectId()));
 					activeChar.sendPacket(html);
-
+					
 					activeChar.sendPacket(ActionFailed.STATIC_PACKET);
 				}
 			}
@@ -124,7 +126,7 @@ public class SkillList implements IBypassHandler
 		}
 		return true;
 	}
-
+	
 	public String[] getBypassList()
 	{
 		return COMMANDS;

@@ -18,6 +18,7 @@ import com.l2jserver.gameserver.model.actor.L2Npc;
 import com.l2jserver.gameserver.model.actor.instance.L2PcInstance;
 import com.l2jserver.gameserver.model.quest.Quest;
 import com.l2jserver.gameserver.model.quest.QuestState;
+import com.l2jserver.gameserver.util.Util;
 
 public class HeroWeapon extends Quest
 {
@@ -47,7 +48,7 @@ public class HeroWeapon extends Quest
 		QuestState st = player.getQuestState(getName());
 
 		int weaponId = Integer.valueOf(event);
-		if (contains(weaponIds, weaponId))
+		if (Util.contains(weaponIds, weaponId))
 			st.giveItems(weaponId, 1);
 
 		st.exitQuest(true);
@@ -91,18 +92,7 @@ public class HeroWeapon extends Quest
 
 		return false;
 	}
-
-	private static boolean contains(int[] array, int obj)
-	{
-		for (int i = 0; i < array.length; i++)
-		{
-			if (array[i] == obj)
-				return true;
-		}
-
-		return false;
-	}
-
+	
 	public static void main(String[] args)
 	{
 		new HeroWeapon(-1, "HeroWeapon", "custom");

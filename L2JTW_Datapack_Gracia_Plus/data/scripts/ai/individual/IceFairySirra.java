@@ -17,6 +17,9 @@ package ai.individual;
 import java.util.concurrent.Future;
 import java.util.logging.Level;
 
+import javolution.util.FastList;
+import ai.group_template.L2AttackableAIScript;
+
 import com.l2jserver.Config;
 import com.l2jserver.gameserver.cache.HtmCache;
 import com.l2jserver.gameserver.datatables.DoorTable;
@@ -35,9 +38,6 @@ import com.l2jserver.gameserver.network.serverpackets.ExShowScreenMessage;
 import com.l2jserver.gameserver.network.serverpackets.NpcHtmlMessage;
 import com.l2jserver.gameserver.templates.chars.L2NpcTemplate;
 import com.l2jserver.util.Rnd;
-
-import javolution.util.FastList;
-import ai.group_template.L2AttackableAIScript;
 
 /**
  * ¬¼Ây­º»â ¦B³·§¯ºë §ÆÅS
@@ -405,7 +405,7 @@ public class IceFairySirra extends L2AttackableAIScript
 	}
 
 	@Override
-	public String onKill (L2Npc npc, L2PcInstance killer, boolean isPet) 
+	public String onKill (L2Npc npc, L2PcInstance killer, boolean isPet)
 	{
 		if (npc.getNpcId() == 29056)
 		{

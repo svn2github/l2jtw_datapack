@@ -29,8 +29,6 @@ ADENA_X=int(Config.RATE_DROP_ITEMS_ID.get(57))
  
 #Quest items
 CB_TOOTH, DW_LIGHT, SEALD_MSTONE, MSTONE = range(5884,5888)
-#Messages
-default   = "<html><body>目前沒有執行任務，或條件不符。</body></html>"
  
 #NPCs
 MANAKIA,TORAI = 30515, 30557
@@ -96,7 +94,7 @@ class Quest (JQuest) :
     return htmltext
  
  def onTalk (self,npc,player):
-   htmltext = default
+   htmltext = "<html><body>目前沒有執行任務，或條件不符。</body></html>"
    st = player.getQuestState(qn)
    if not st : return htmltext
 

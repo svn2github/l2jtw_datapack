@@ -14,6 +14,8 @@
  */
 package ai.individual;
 
+import ai.group_template.L2AttackableAIScript;
+
 import com.l2jserver.gameserver.ai.CtrlIntention;
 import com.l2jserver.gameserver.model.L2CharPosition;
 import com.l2jserver.gameserver.model.actor.L2Npc;
@@ -21,15 +23,14 @@ import com.l2jserver.gameserver.model.actor.instance.L2PcInstance;
 import com.l2jserver.gameserver.model.quest.Quest;
 import com.l2jserver.util.Rnd;
 
-import ai.group_template.L2AttackableAIScript;
 /**
  * ¿W¨¤¨ß / ¦Ç¿W¨¤¨ß / Äm²½ªÌ
  */
-public class FleeNpc extends L2AttackableAIScript 
+public class FleeNpc extends L2AttackableAIScript
 {
 	private int[] _npcId = {20432,22228,18150,18151,18152,18153,18154,18155,18156,18157};
 
-	public FleeNpc(int questId, String name, String descr) 
+	public FleeNpc(int questId, String name, String descr)
 	{
 		super(questId, name, descr);
 
@@ -40,7 +41,7 @@ public class FleeNpc extends L2AttackableAIScript
 	}
 
 	@Override
-	public String onAttack(L2Npc npc, L2PcInstance attacker, int damage, boolean isPet) 
+	public String onAttack(L2Npc npc, L2PcInstance attacker, int damage, boolean isPet)
 	{
 		if (npc.getNpcId() >= 18150 && npc.getNpcId() <= 18157)
 		{
@@ -59,7 +60,7 @@ public class FleeNpc extends L2AttackableAIScript
 	}
 
 	// Register the new Script at the Script System
-	public static void main(String[] args) 
+	public static void main(String[] args)
 	{
 		new FleeNpc(-1, "FleeNpc", "Ai for Flee Npcs");
 	}
