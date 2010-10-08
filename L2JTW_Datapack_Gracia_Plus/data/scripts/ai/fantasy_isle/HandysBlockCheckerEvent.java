@@ -26,7 +26,7 @@ import com.l2jserver.gameserver.model.actor.instance.L2PcInstance;
 import com.l2jserver.gameserver.model.actor.instance.L2BlockInstance;
 import com.l2jserver.gameserver.model.entity.BlockCheckerEngine;
 import com.l2jserver.gameserver.model.quest.Quest;
-import com.l2jserver.gameserver.network.SystemMessageId;
+import com.l2jserver.gameserver.network.SystemMessageId2;
 import com.l2jserver.gameserver.network.serverpackets.ExCubeGameChangePoints;
 import com.l2jserver.gameserver.network.serverpackets.ExCubeGameChangeTimeToStart;
 import com.l2jserver.gameserver.network.serverpackets.ExCubeGameExtendedChangePoints;
@@ -80,12 +80,12 @@ public class HandysBlockCheckerEvent extends Quest
 		{
 			if (eventIsFull(arena))
 			{
-				player.sendPacket(new SystemMessage(SystemMessageId.CANNOT_REGISTER_CAUSE_QUEUE_FULL));
+				player.sendPacket(new SystemMessage(SystemMessageId2.CANNOT_REGISTER_CAUSE_QUEUE_FULL));
 				return null;
 			}
 			if (HandysBlockCheckerManager.getInstance().arenaIsBeingUsed(arena))
 			{
-				player.sendPacket(new SystemMessage(SystemMessageId.MATCH_BEING_PREPARED_TRY_LATER));
+				player.sendPacket(new SystemMessage(SystemMessageId2.MATCH_BEING_PREPARED_TRY_LATER));
 				return null;
 			}
 			if(HandysBlockCheckerManager.getInstance().addPlayerToArena(player, arena))
@@ -126,12 +126,12 @@ public class HandysBlockCheckerEvent extends Quest
 				L2BlockInstance block = (L2BlockInstance)npc;
 				ArenaParticipantsHolder holder = HandysBlockCheckerManager.getInstance().getHolder(arena);
 				
-				if(holder.getPlayerTeam(player) == 0 && !block.isRed())
+				if(holder.getPlayerTeam(player) == 0 && block.getColorEffect() == 0x00)
 				{
 					block.changeColor(player);
 					increaseTeamPointsAndSend(player, holder.getEvent());
 				}
-				else if(holder.getPlayerTeam(player) == 1 && block.isRed())
+				else if(holder.getPlayerTeam(player) == 1 && block.getColorEffect() == 0x53)
 				{
 					block.changeColor(player);
 					increaseTeamPointsAndSend(player, holder.getEvent());
