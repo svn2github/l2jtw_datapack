@@ -3373,18 +3373,18 @@
 		<stat name="reuse" val="600" />
 		<stat name="targetClass" val="L2Playable" />
 	</zone>
-	
+
 	<!-- Rainbow Springs Arenas -->
-	<zone id="112081" type="Arena" shape="Cylinder" minZ="-2220" maxZ="-2210" rad="688">
+	<zone id="112081" type="ArenaZone" shape="Cylinder" minZ="-2220" maxZ="-2210" rad="688">
 		<node X="151562" Y="-127080" />
 	</zone> 
-	<zone id="112082" type="Arena" shape="Cylinder" minZ="-2220" maxZ="-2210" rad="688">
+	<zone id="112082" type="ArenaZone" shape="Cylinder" minZ="-2220" maxZ="-2210" rad="688">
 			<node X="153141" Y="-125335" />
 	</zone>  
-	<zone id="112083" type="Arena" shape="Cylinder" minZ="-2220" maxZ="-2210" rad="688">
+	<zone id="112083" type="ArenaZone" shape="Cylinder" minZ="-2220" maxZ="-2210" rad="688">
 			<node X="153892" Y="-127530" />
 	</zone>  
-	<zone id="112084" type="Arena" shape="Cylinder" minZ="-2220" maxZ="-2210" rad="688">
+	<zone id="112084" type="ArenaZone" shape="Cylinder" minZ="-2220" maxZ="-2210" rad="688">
 			<node X="155657" Y="-125752" />
 	</zone>
 
