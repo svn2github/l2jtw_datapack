@@ -3819,3 +3819,13 @@ INSERT INTO `messagetable` VALUES ('1969', 'cn', '死靈的邊境', '', 'Fort.ja
 INSERT INTO `messagetable` VALUES ('1970', 'en', 'Monastic', '', 'Fort.java');
 INSERT INTO `messagetable` VALUES ('1970', 'tw', '聖者邊境', '', 'Fort.java');
 INSERT INTO `messagetable` VALUES ('1970', 'cn', '聖者邊境', '', 'Fort.java');
+
+INSERT INTO `messagetable` VALUES ('1994', 'en', 'Red Team', '', 'BlockCheckerEngine.java');
+INSERT INTO `messagetable` VALUES ('1994', 'tw', '紅隊', '', 'BlockCheckerEngine.java');
+INSERT INTO `messagetable` VALUES ('1994', 'cn', '红队', '', 'BlockCheckerEngine.java');
+INSERT INTO `messagetable` VALUES ('1995', 'en', 'Blue Team', '', 'BlockCheckerEngine.java');
+INSERT INTO `messagetable` VALUES ('1995', 'tw', '藍隊', '', 'BlockCheckerEngine.java');
+INSERT INTO `messagetable` VALUES ('1995', 'cn', '蓝队', '', 'BlockCheckerEngine.java');
+INSERT INTO `messagetable` VALUES ('1999', 'en', 'Teleport spawn protection ended.', '', 'L2PcInstance.java');
+INSERT INTO `messagetable` VALUES ('1999', 'tw', '傳送保護 - 從現在起可以刺激有先制攻擊性的怪物。', '', 'L2PcInstance.java');
+INSERT INTO `messagetable` VALUES ('1999', 'cn', '传送保护- 从现在起可以刺激有先制攻击性的怪物。', '', 'L2PcInstance.java');

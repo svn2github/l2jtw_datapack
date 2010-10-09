@@ -1509,3 +1509,18 @@ DELETE FROM npcskills WHERE npcid IN (18437);
 REPLACE INTO `droplist` VALUES
 (18478,8154,1,7,2,700000),-- 生命藥草
 (18478,8155,1,7,2,700000);-- 瑪那藥草
+
+-- etcitem for Vitality CT2.5
+REPLACE INTO `etcitem` VALUES (20005,'活力紅蔘','','false','herb',0,'normal','paper','none',-1,-1,0,0,'true','true','true','true','true','ItemSkills','22005-1;');
+REPLACE INTO `etcitem` VALUES (20214,'巧克力餅乾','','false','potion',5,'stackable','paper','none',-1,-1,0,0,'true','true','true','true','true','ItemSkills','22028-1;');
+REPLACE INTO `etcitem` VALUES (13787,'強力膠','','false','potion',180,'stackable','paper','none',-1,-1,0,0,'true','true','true','true','true','ItemSkills','5849-1;');
+REPLACE INTO `etcitem` VALUES (13788,'地雷','','false','potion',180,'stackable','paper','none',-1,-1,0,0,'true','true','true','true','true','ItemSkills','5851-1;');
+
+UPDATE `etcitem` SET `item_type` = 'none' WHERE `item_id` = '13798';  -- 靈魂的片段
+
+-- New ectitem 2009-08-26
+REPLACE INTO `etcitem` VALUES (20602,'靈魂銀紙-活動','','false','none',0,'stackable','wood','none',-1,-1,0,0,'false','false','true','false','true','ItemSkills','22099-1;');
+REPLACE INTO `etcitem` VALUES (20603,'靈魂香-活動','','false','none',0,'stackable','wood','none',-1,-1,0,0,'false','false','true','false','true','ItemSkills','22100-1;');
+REPLACE INTO `etcitem` VALUES (20623,'靈魂銀紙-香組','','false','none',0,'stackable','wood','none',-1,-1,0,0,'false','false','true','false','true','ExtractableItems','0-0;');
+REPLACE INTO `etcitem` VALUES (20630,'靈魂魔法箱','','false','none',0,'stackable','wood','none',-1,-1,0,0,'false','false','true','false','true','ItemSkills','22102-1;');
+
