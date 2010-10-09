@@ -33,6 +33,7 @@ import com.l2jserver.gameserver.model.actor.instance.L2PcInstance;
 import com.l2jserver.gameserver.network.SystemMessageId;
 import com.l2jserver.gameserver.network.serverpackets.ActionFailed;
 import com.l2jserver.gameserver.network.serverpackets.SystemMessage;
+import com.l2jserver.gameserver.util.Util;
 import com.l2jserver.util.Rnd;
 
 public class SoDEnergySeeds extends L2AttackableAIScript
@@ -94,8 +95,8 @@ public class SoDEnergySeeds extends L2AttackableAIScript
 	{
 		super(questId, name, descr);
 		registerMobs(seeds);
-		for(int i : seeds)
-			addFirstTalkId(i);
+		//for(int i : seeds)
+			//addSkillSeeId(i);
 		addFirstTalkId(TEMPORARY_TELEPORTER);
 		addSpawnsToList();
 		
@@ -128,7 +129,7 @@ public class SoDEnergySeeds extends L2AttackableAIScript
 		if (!_isAIActive)
 			return super.onSkillSee(npc, caster, skill, targets, isPet);
 		
-		if (targets[0] == npc && skill.getId() == 5780)
+		if (Util.contains(targets, npc) && skill.getId() == 5780)
 		{
 			int itemId = 0;
 			
