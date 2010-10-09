@@ -1524,3 +1524,103 @@ REPLACE INTO `etcitem` VALUES (20603,'靈魂香-活動','','false','none',0,'stackabl
 REPLACE INTO `etcitem` VALUES (20623,'靈魂銀紙-香組','','false','none',0,'stackable','wood','none',-1,-1,0,0,'false','false','true','false','true','ExtractableItems','0-0;');
 REPLACE INTO `etcitem` VALUES (20630,'靈魂魔法箱','','false','none',0,'stackable','wood','none',-1,-1,0,0,'false','false','true','false','true','ItemSkills','22102-1;');
 
+-- ----------------- --
+-- Devastated Castle --
+-- ----------------- --
+
+-- Update siege npcs
+
+UPDATE npc SET type = 'L2Defender' WHERE id = 35411;
+UPDATE npc SET type = 'L2Defender' WHERE id = 35412;
+UPDATE npc SET type = 'L2Defender' Where id = 35413;
+UPDATE npc SET type = 'L2Defender' WHERE id = 35414;
+UPDATE npc SET type = 'L2Defender' WHERE id = 35415;
+UPDATE npc SET type = 'L2Defender' WHERE id = 35416;
+UPDATE npc SET type = 'L2ClanHallDoormen', rhand = 0, lhand = 0 WHERE id = 35417;
+UPDATE npc SET type = 'L2ClanHallDoormen', rhand = 0, lhand = 0 WHERE id = 35418;
+UPDATE npc SET type = 'L2WyvernManager' WHERE id = 35419;
+
+-- Delete mobs from normal spawnlist
+
+DELETE FROM spawnlist WHERE npc_templateid = 35411;
+DELETE FROM spawnlist WHERE npc_templateid = 35412;
+DELETE FROM spawnlist WHERE npc_templateid = 35413;
+DELETE FROM spawnlist WHERE npc_templateid = 35414;
+DELETE FROM spawnlist WHERE npc_templateid = 35415;
+DELETE FROM spawnlist WHERE npc_templateid = 35416;
+DELETE FROM spawnlist WHERE npc_templateid = 35410;
+
+-- Devastated castle doors
+
+REPLACE INTO castle_door VALUES (34, 25170001, 'devastated_castle_outer_001', 178212, -15038, -2135, 178211, -15038, -2294, 178342, -15017, -1976, 158250, 644, 518, 'false');
+REPLACE INTO castle_door VALUES (34, 25170002, 'devastated_castle_outer_002', 178468, -15038, -2135, 178339, -15038, -2295, 178469, -15017, -1977, 158250, 644, 518, 'false');
+REPLACE INTO castle_door VALUES (34, 25170003, 'devastated_castle_inner_003', 178119, -18220, -2210, 178120, -18225, -2286, 178183, -18211, -1836, 79125, 644, 518, 'false');
+REPLACE INTO castle_door VALUES (34, 25170004, 'devastated_castle_inner_004', 178247, -18220, -2210, 178182, -18225, -2286, 178245, -18211, -1836, 79125, 644, 518, 'false');
+REPLACE INTO castle_door VALUES (34, 25170005, 'devastated_castle_inner_005', 178298, -18573, -2233, 178302, -18611, -2287, 178309, -18573, -1837, 79125, 644, 518, 'false');
+REPLACE INTO castle_door VALUES (34, 25170006, 'devastated_castle_inner_006', 178298, -18650, -2233, 178302, -18648, -2287, 178309, -18610, -1837, 79125, 644, 518, 'false');
+
+-- ---------------------- --
+-- Fortress of Resistance --
+-- ---------------------- --
+
+-- -------------------- --
+-- Fortress of the Dead --
+-- -------------------- --
+
+-- Update siege npcs
+
+UPDATE npc SET type = 'L2WyvernManager' WHERE id = 35638;
+UPDATE npc SET type = 'L2ClanHallDoormen', rhand = 0, lhand = 0 WHERE id = 35641;
+UPDATE npc SET type = 'L2ClanHallDoormen', rhand = 0, lhand = 0 WHERE id = 35642;
+
+-- Fortress of the Dead doors
+REPLACE INTO castle_door VALUES (64, 21170001, 'Fortress_of_the_Dead_outer_001', 57857, -29480, 707, 57849, -29498, 543, 57969, -29465, 869, 158250, 644, 518, 'false');
+REPLACE INTO castle_door VALUES (64, 21170002, 'Fortress_of_the_Dead_outer_002', 58061, -29479, 707, 57954, -29498, 543, 58071, -29465, 869, 158250, 644, 518, 'false');
+REPLACE INTO castle_door VALUES (64, 21170003, 'Fortress_of_the_Dead_inner_003', 56977, -27193, 639, 56972, -27259, 550, 56982, -27188, 728, 158250, 644, 518, 'false');
+REPLACE INTO castle_door VALUES (64, 21170004, 'Fortress_of_the_Dead_inner_004', 56977, -27318, 639, 56971, -27323, 550, 56981, -27251, 726, 158250, 644, 518, 'false');
+REPLACE INTO castle_door VALUES (64, 21170005, 'Fortress_of_the_Dead_inner_005', 57902, -26392, 654, 57893, -26401, 563, 57976, -26382, 743, 158250, 644, 518, 'false');
+REPLACE INTO castle_door VALUES (64, 21170006, 'Fortress_of_the_Dead_inner_006', 58024, -26391, 654, 57953, -26400, 563, 58037, -26383, 743, 158250, 644, 518, 'false');
+
+-- ----------------------- --
+-- Rainbow Springs Chateau --
+-- ----------------------- --
+
+-- Messenger
+REPLACE INTO spawnlist VALUES (NULL, 'rainbowsprings_messenger', 1, 35604, 143944, -119196, -2136, 0, 0, 1000, 0, 0, 0); 
+
+-- Caretaker
+REPLACE INTO clanhall_siege_guards VALUES (62, NULL, 35603, 153337, -126441, -2270, 1, 1, 0);
+
+-- Arena 1 npc / monsters
+REPLACE INTO clanhall_siege_guards VALUES (62, NULL, 35596, 151774, -126861, -2218, 1, 1, 0);
+REPLACE INTO clanhall_siege_guards VALUES (62, NULL, 35593, 151862, -127080, -2218, 1, 300000, 0);
+REPLACE INTO clanhall_siege_guards VALUES (62, NULL, 35592, 151262, -127080, -2218, 1, 300000, 0);
+
+-- Arena 2 npc / monsters
+REPLACE INTO clanhall_siege_guards VALUES (62, NULL, 35597, 153404, -125576, -2218, 1, 1, 0);
+REPLACE INTO clanhall_siege_guards VALUES (62, NULL, 35593, 153341, -125335, -2218, 1, 300000, 0);
+REPLACE INTO clanhall_siege_guards VALUES (62, NULL, 35592, 152841, -125335, -2218, 1, 300000, 0);
+
+-- Arena 3 npc / monsters
+REPLACE INTO clanhall_siege_guards VALUES (62, NULL, 35598, 154132, -127301, -2218, 1, 1, 0);
+REPLACE INTO clanhall_siege_guards VALUES (62, NULL, 35593, 154192, -127530, -2218, 1, 300000, 0);
+REPLACE INTO clanhall_siege_guards VALUES (62, NULL, 35592, 153592, -127530, -2218, 1, 300000, 0);
+
+-- Arena 4 npc / monsters
+REPLACE INTO clanhall_siege_guards VALUES (62, NULL, 35598, 155390, -125489, -2218, 1, 1, 0);
+REPLACE INTO clanhall_siege_guards VALUES (62, NULL, 35593, 155969, -125752, -2218, 1, 300000, 0);
+REPLACE INTO clanhall_siege_guards VALUES (62, NULL, 35592, 155369, -125752, -2218, 1, 300000, 0);
+
+-- Update siege npcs
+UPDATE npc SET type = 'L2Monster' WHERE id = 35592;
+UPDATE npc SET type = 'L2Monster' WHERE id = 35593;
+UPDATE npc SET type = 'L2Monster' WHERE id = 35588;
+UPDATE npc SET type = 'L2Monster' WHERE id = 35589;
+UPDATE npc SET type = 'L2Monster' WHERE id = 35590;
+UPDATE npc SET type = 'L2Monster' WHERE id = 35591;
+
+-- Update siege items
+UPDATE etcitem SET item_type = 'stackable', handler = 'QuestItems' WHERE item_id = 8030;
+UPDATE etcitem SET item_type = 'stackable', handler = 'QuestItems' WHERE item_id = 8031;
+UPDATE etcitem SET item_type = 'stackable', handler = 'QuestItems' WHERE item_id = 8032;
+UPDATE etcitem SET item_type = 'stackable', handler = 'QuestItems' WHERE item_id = 8033;

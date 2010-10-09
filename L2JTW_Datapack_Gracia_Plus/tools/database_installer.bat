@@ -719,6 +719,8 @@ clan_subpledges.sql
 clan_wars.sql
 clanhall.sql
 clanhall_functions.sql
+clanhall_siege.sql
+clanhall_siege_attackers.sql
 clanhall_siege_guards.sql
 class_list.sql
 cursed_weapons.sql
@@ -779,6 +781,7 @@ pledge_skill_trees.sql
 posts.sql
 quest_global_data.sql
 raidboss_spawnlist.sql
+rainbowsprings_attacker_list.sql
 random_spawn.sql
 random_spawn_loc.sql
 seven_signs.sql
@@ -809,10 +812,7 @@ skill.sql
 l2jtw_addon_1.sql
 l2jtw_addon_2.sql
 ) do call :dump %%i
-if exist ..\libs\javolution-5.3.1.jar del ..\libs\javolution-5.3.1.jar >nul
-if exist ..\libs\cachedir\packages\javolution-5.3.1.pkc del ..\libs\cachedir\packages\javolution-5.3.1.pkc >nul
-if exist ..\libs\javolution-5.5.0.jar del ..\libs\javolution-5.5.0.jar >nul
-if exist ..\libs\cachedir\packages\javolution-5.5.0.pkc del ..\libs\cachedir\packages\javolution-5.5.0.pkc >nul
+
 echo งนฆจ...
 echo.
 goto custom
