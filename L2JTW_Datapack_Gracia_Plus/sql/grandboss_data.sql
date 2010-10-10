@@ -1,3 +1,4 @@
+DROP TABLE IF EXISTS `grandboss_data`;
 CREATE TABLE IF NOT EXISTS `grandboss_data` (
   `boss_id` INTEGER NOT NULL DEFAULT 0,
   `loc_x` INTEGER NOT NULL DEFAULT 0,

@@ -1,7 +1,7 @@
 -- ------------- --
 -- Common Tables --
 -- ------------- --
-
+DROP TABLE IF EXISTS `clanhall_siege`;
 CREATE TABLE `clanhall_siege` (
 `clanhall_id` INT( 3 ) NULL DEFAULT NULL ,
 `siege_date` DOUBLE( 20, 0 ) NOT NULL DEFAULT '0' 
