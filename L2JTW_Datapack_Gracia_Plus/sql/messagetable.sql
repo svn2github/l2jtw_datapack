@@ -913,14 +913,14 @@ INSERT INTO `messagetable` VALUES ('434', 'tw', '決鬥已取消，因位決鬥�
 INSERT INTO `messagetable` VALUES ('434', 'cn', '决斗已取消，因位决斗者正在进行 PvP 竞赛。', '', 'Duel.java');
 
 INSERT INTO `messagetable` VALUES ('437', 'en', 'You may have broken our arrows, but you will never break our will! Archers retreat!', '', 'FortSiege.java');
-INSERT INTO `messagetable` VALUES ('437', 'tw', 'You may have broken our arrows, but you will never break our will! Archers retreat!', '', 'FortSiege.java');
-INSERT INTO `messagetable` VALUES ('437', 'cn', 'You may have broken our arrows, but you will never break our will! Archers retreat!', '', 'FortSiege.java');
+INSERT INTO `messagetable` VALUES ('437', 'tw', '你們雖能折斷我的箭矢，但絕對不能折斷我們的意志...弓兵隊後退。', '', 'FortSiege.java');
+INSERT INTO `messagetable` VALUES ('437', 'cn', '你们虽能折断我的箭矢，但绝对不能折断我们的意志...弓兵队后退。', '', 'FortSiege.java');
 INSERT INTO `messagetable` VALUES ('438', 'en', 'Aieeee! Command Center! This is guard unit! We need backup right away!', '', 'FortSiege.java');
 INSERT INTO `messagetable` VALUES ('438', 'tw', '啊...本部...這裡是守備隊... 請速派兵支援... 啊！', '', 'FortSiege.java');
 INSERT INTO `messagetable` VALUES ('438', 'cn', '啊...本部...这里是守备队... 请速派兵支援... 啊！', '', 'FortSiege.java');
 INSERT INTO `messagetable` VALUES ('439', 'en', 'At last! The Magic Field that protects the fortress has weakened! Volunteers, stand back!', '', 'FortSiege.java');
-INSERT INTO `messagetable` VALUES ('439', 'tw', 'At last! The Magic Field that protects the fortress has weakened! Volunteers, stand back!', '', 'FortSiege.java');
-INSERT INTO `messagetable` VALUES ('439', 'cn', 'At last! The Magic Field that protects the fortress has weakened! Volunteers, stand back!', '', 'FortSiege.java');
+INSERT INTO `messagetable` VALUES ('439', 'tw', '啊...保護要塞的魔法陣力量漸衰弱，支援隊員，全員退下！', '', 'FortSiege.java');
+INSERT INTO `messagetable` VALUES ('439', 'cn', '啊...保护要塞的魔法阵力量渐衰弱，支援队员，全员退下！', '', 'FortSiege.java');
 INSERT INTO `messagetable` VALUES ('440', 'en', 'I feel so much grief that I can\'t even take care of myself. There isn\'t any reason for me to stay here any longer.', '', 'FortSiege.java');
 INSERT INTO `messagetable` VALUES ('440', 'tw', 'I feel so much grief that I can\'t even take care of myself. There isn\'t any reason for me to stay here any longer.', '', 'FortSiege.java');
 INSERT INTO `messagetable` VALUES ('440', 'cn', 'I feel so much grief that I can\'t even take care of myself. There isn\'t any reason for me to stay here any longer.', '', 'FortSiege.java');

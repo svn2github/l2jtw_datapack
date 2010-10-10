@@ -1408,6 +1408,11 @@ UPDATE `npc` SET `type`='L2Monster', `level`=85, `exp`=1209443, `sp`=121549, `hp
 UPDATE `npc` SET `type`='L2RaidBoss', `level`=85, `exp`=3233771, `sp`=403115, `hp`=631293, `mp`=18468 where id='25697';  -- ¤g­Û¤Ú ¹p´£¨½Áï
 UPDATE `npc` SET `type`='L2RaidBoss', `level`=85, `exp`=3078748, `sp`=399008, `hp`=763865, `mp`=18468 where id='25696';  -- ¶ð§J©Ô¥Ì ¤ñ´µ¶ðÁï  ¥i§l»î
 UPDATE `npc` SET `type`='L2RaidBoss', `level`=85, `exp`=3233771, `sp`=403115, `hp`=631293, `mp`=18468 where id='25698';  -- ¦h©¬«Ø ¬_§J©ÔÁï  ¥i§l»î
+-- ¤è¶ô
+REPLACE INTO `npc` VALUES (18672,18672,'Block',0,'',0,'LineageNPC2.block',16.00,17.00,70,'male','L2Block',400,2444,2444,0.00,0.00,10,10,10,10,10,10,0,0,500,500,500,500,278,0,333,0,0,0,0,60,60,0,0,1);
+REPLACE INTO `npc` VALUES (18676,18676,'Block-Carrying Girl',0,'',0,'LineageNPC2.block_mother',12.00,31.00,70,'male','L2Npc',40,2444,2444,0.00,0.00,10,10,10,10,10,10,0,0,500,500,500,500,278,0,333,0,0,0,0,60,60,0,0,1);
+REPLACE INTO `etcitem` VALUES (13787,'Bond','','false','potion',180,'stackable','paper','none',-1,-1,0,0,'true','true','true','true','true','ItemSkills','5849-1;');
+REPLACE INTO `etcitem` VALUES (13788,'Land Mine','','false','potion',180,'stackable','paper','none',-1,-1,0,0,'true','true','true','true','true','ItemSkills','5851-1;');
 
 -- new npc for ¸¬Äª
 REPLACE INTO `npc` VALUES (12774,12774,'Young Squash',0,'',0,'LineageNPC.drop_gourd_50_sm',10.00,10.50,70,'male','L2Npc',40,3862,1494,0.00,0.00,40,43,30,21,20,20,0,0,1303,471,607,382,253,0,333,0,0,0,0,88,132,0,0,1);
