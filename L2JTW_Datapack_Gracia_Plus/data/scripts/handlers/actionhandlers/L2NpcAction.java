@@ -20,6 +20,7 @@ import com.l2jserver.gameserver.model.L2Object;
 import com.l2jserver.gameserver.model.L2Object.InstanceType;
 import com.l2jserver.gameserver.model.actor.L2Character;
 import com.l2jserver.gameserver.model.actor.L2Npc;
+import com.l2jserver.gameserver.model.actor.instance.L2BlockInstance;  // Add HBCE by pmq
 import com.l2jserver.gameserver.model.actor.instance.L2PcInstance;
 import com.l2jserver.gameserver.model.entity.L2Event;
 import com.l2jserver.gameserver.model.quest.Quest;
@@ -95,8 +96,13 @@ public class L2NpcAction implements IActionHandler
 		else if (interact)
 		{
 			activeChar.sendPacket(new ValidateLocation((L2Character)target));
+			/** Add HBCE by pmq Start **/
+			if (target instanceof L2BlockInstance)
+				activeChar.sendPacket(ActionFailed.STATIC_PACKET);
+			
 			// Check if the activeChar is attackable (without a forced attack) and isn't dead
-			if (target.isAutoAttackable(activeChar) && !((L2Character)target).isAlikeDead())
+			else if (target.isAutoAttackable(activeChar) && !((L2Character)target).isAlikeDead())
+			/** Add HBCE by pmq End **/
 			{
 				// Check the height difference
 				if (Math.abs(activeChar.getZ() - target.getZ()) < 400) // this max heigth difference might need some tweaking

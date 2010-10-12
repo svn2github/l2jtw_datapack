@@ -25,6 +25,7 @@ import com.l2jserver.gameserver.datatables.DoorTable;
 import com.l2jserver.gameserver.datatables.SkillTable;
 import com.l2jserver.gameserver.instancemanager.GrandBossManager;
 import com.l2jserver.gameserver.model.L2CommandChannel;
+import com.l2jserver.gameserver.model.L2Object;
 import com.l2jserver.gameserver.model.L2Party;
 import com.l2jserver.gameserver.model.L2Skill;
 import com.l2jserver.gameserver.model.actor.L2Attackable;
@@ -258,6 +259,9 @@ public class Frintezza extends L2AttackableAIScript
 	private static int _KillDarkChoirPlayer = 0;
 	private static int _KillDarkChoirCaptain = 0;
 	
+	private static int _SoulBreakEffectLenght = 5; // Guess.. need verify
+	private static long _LastSoulBreakArrowUse = 0;
+	
 	private static L2BossZone _Zone;
 	private L2GrandBossInstance frintezza, weakScarlet, strongScarlet, activeScarlet;
 	private L2MonsterInstance demon1, demon2, demon3, demon4, portrait1, portrait2, portrait3, portrait4;
@@ -279,6 +283,7 @@ public class Frintezza extends L2AttackableAIScript
 		_Zone = GrandBossManager.getInstance().getZone(getXFix(174232), getYFix(-88020), getZFix(-5116));
 		registerMobs(mob);
 		addStartNpc(GUIDE);
+		addSkillSeeId(FRINTEZZA);
 		addTalkId(GUIDE);
 		addStartNpc(CUBE);
 		addTalkId(CUBE);
@@ -933,6 +938,9 @@ public class Frintezza extends L2AttackableAIScript
 		{
 			if (frintezza != null && !frintezza.isDead() && _OnMorph == 0)
 			{
+				if (_LastSoulBreakArrowUse + _SoulBreakEffectLenght * 60 * 1000 > System.currentTimeMillis())
+					return null; 
+				
 				_OnSong = Rnd.get(1, 5);
 				if (_OnSong == 1 && _ThirdMorph == 1 && strongScarlet.getCurrentHp() < strongScarlet.getMaxHp() * 0.6 && Rnd.get(100) < 80)
 				{
@@ -1328,6 +1336,36 @@ public class Frintezza extends L2AttackableAIScript
 	}
 	
 	@Override
+	public String onSkillSee(L2Npc npc, L2PcInstance caster, L2Skill skill, L2Object[] targets, boolean isPet)
+	{
+		switch (skill.getId())
+		{
+			case 2234:
+				if (frintezza != null && targets[0] == npc && npc.getNpcId() == FRINTEZZA)
+				{
+					// Support for Soul Breaking Arrow by UnAfraid xD
+					_LastSoulBreakArrowUse = System.currentTimeMillis();
+					
+					if (Rnd.get(100) < 33)
+					{
+						cancelQuestTimers("stop_effect");
+						startQuestTimer("stop_effect", 1000, frintezza, caster);
+					}
+				}
+				break;
+			case 2276:
+				if (frintezza != null && targets[0] == npc && npc.getNpcId() == 29048 || npc.getNpcId() == 29048)
+				{
+					// Support for Dewdrop of Destruction by UnAfraid xD
+					npc.doDie(caster);
+				}
+				break;
+		}
+		
+		return null;
+	}
+	
+	@Override
 	public String onAttack (L2Npc npc, L2PcInstance attacker, int damage, boolean isPet)
 	{
 		_LastAction = System.currentTimeMillis();
@@ -1434,6 +1472,11 @@ public class Frintezza extends L2AttackableAIScript
 				for (int i = 17130051; i <= 17130058; i++)
 					DoorTable.getInstance().getDoor(i).openMe();
 			}
+			if (Rnd.get(100) < 33)
+			{
+				if (npc instanceof L2MonsterInstance)
+		          ((L2MonsterInstance)npc).dropItem(killer, 8556, 1); // Dewdrop of Destruction
+			}
 		}
 		else if (npc.getNpcId() == 18339)
 		{
@@ -1478,8 +1521,20 @@ public class Frintezza extends L2AttackableAIScript
 				startQuestTimer("waiting", 180000, npc, null);
 				cancelQuestTimers("room_final");
 			}
+			if (Rnd.get(100) < 33)
+			{
+				if (npc instanceof L2MonsterInstance)
+		          ((L2MonsterInstance)npc).dropItem(killer, 8192, 1); // Soul Breaking Arrow
+			}
 		}
-		
+		else if (npc.getNpcId() > 18329 && npc.getNpcId() < 18333)
+		{
+			if (Rnd.get(100) < 20)
+			{
+				if (npc instanceof L2MonsterInstance)
+		          ((L2MonsterInstance)npc).dropItem(killer, 8556, 1); // Dewdrop of Destruction
+			}
+		}
 		return super.onKill(npc,killer,isPet);
 	}
 	

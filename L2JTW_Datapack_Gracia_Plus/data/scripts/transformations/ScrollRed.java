@@ -16,7 +16,7 @@ import com.l2jserver.gameserver.model.L2Transformation;
  */
 public class ScrollRed extends L2Transformation
 {
-	private static final int[] SKILLS = {5853,5491};  // Add HBCE by pmq
+	private static final int[] SKILLS = {5853,5491,619};
 	public ScrollRed()
 	{
 		// id, colRadius, colHeight

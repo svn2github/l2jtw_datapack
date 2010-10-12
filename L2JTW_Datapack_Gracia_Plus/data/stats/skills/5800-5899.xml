@@ -665,6 +665,7 @@
 		<!-- Update by pmq -->
 		<set name="target" val="TARGET_ONE" />
 		<set name="skillType" val="DUMMY" />
+		<set name="neutral" val="true" />
 		<set name="magicLvl" val="1" />
 		<set name="castRange" val="40" />
 		<set name="hitTime" val="1000" />
@@ -678,6 +679,7 @@
 		<!-- Update by pmq -->
 		<set name="target" val="TARGET_ONE" />
 		<set name="skillType" val="DUMMY" />
+		<set name="neutral" val="true" />
 		<set name="magicLvl" val="1" />
 		<set name="castRange" val="40" />
 		<set name="hitTime" val="1000" />
@@ -690,13 +692,11 @@
 		<set name="target" val="TARGET_NONE" />
 		<set name="skillType" val="NOTDONE" />
 		<set name="operateType" val="OP_PASSIVE" />
-		<set name="hitTime" val="1000" />
 	</skill>
 	<skill id="5855" levels="1" name="Shock">
 		<set name="target" val="TARGET_NONE" />
 		<set name="skillType" val="NOTDONE" />
 		<set name="operateType" val="OP_PASSIVE" />
-		<set name="hitTime" val="1000" />
 	</skill>
 	<skill id="5856" levels="1" name="Transform Tow">
 		<set name="target" val="TARGET_SELF"/>

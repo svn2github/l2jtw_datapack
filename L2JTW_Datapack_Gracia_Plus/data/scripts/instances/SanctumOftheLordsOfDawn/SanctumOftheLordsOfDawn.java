@@ -225,16 +225,6 @@ public class SanctumOftheLordsOfDawn extends Quest
 		}
 	}
 
-	private void sendScreenMessage(HSWorld world, ExShowScreenMessage message)
-	{
-		for(int objId : world.allowed)
-		{
-			L2PcInstance player = L2World.getInstance().getPlayer(objId);
-			if (player != null)
-				player.sendPacket(message);
-		}
-	}
-
 	protected void spawnState(HSWorld world)
 	{
 		L2Npc npc = addSpawn(DEVICE, -75710, 213535, -7126, 0, false, 0, false, world.instanceId);
@@ -374,10 +364,12 @@ public class SanctumOftheLordsOfDawn extends Quest
 				{
 					openDoor(ONE,world.instanceId);
 					startQuestTimer("Part5",60000,null,null);
-					ExShowScreenMessage message1 = new ExShowScreenMessage(1,0,2,0,0,0,0,false,10000,1,"使用警衛隊員的隱身技能後，潛入黎明的文件儲藏室內！");  //(黃色字體)
-					sendScreenMessage(world, message1);
-					player.sendMessage("使用警衛隊員的隱身技能後，潛入到黎明的文件儲藏室內！男性警衛隊員可以察覺隱身，而女性警衛隊員無法察覺隱身。");  //(黃色字體)
-					player.sendMessage("女性警衛隊員比男性警衛隊員可以在更遠的地方就能察覺到變身術，所以要非常小心。"); //(黃色字體)
+					ExShowScreenMessage message1 = new ExShowScreenMessage(1,0,2,15,0,15,15,false,10000,1,"使用警衛隊員的隱身技能後，潛入黎明的文件儲藏室內！");  //(黃色字體)
+					player.sendPacket(message1);
+					CreatureSay cs = new CreatureSay(0,20,"","使用警衛隊員的隱身技能後，潛入到黎明的文件儲藏室內！男性警衛隊員可以察覺隱身，而女性警衛隊員無法察覺隱身。");
+					CreatureSay cs1 = new CreatureSay(0,20,"","女性警衛隊員比男性警衛隊員可以在更遠的地方就能察覺到變身術，所以要非常小心。");
+					player.sendPacket(cs);
+					player.sendPacket(cs1);
 					return "<html><body>身份確認裝置：<br>您 的 身 分 已 確 認 完 畢，<br>門 即 將 開 啟。</body></html>";
 				}
 				else if (doorst >= 1)
