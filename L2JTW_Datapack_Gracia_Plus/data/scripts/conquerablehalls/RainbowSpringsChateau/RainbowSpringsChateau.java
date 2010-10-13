@@ -6,6 +6,8 @@ import java.sql.Connection;
 import java.sql.PreparedStatement;
 import java.sql.ResultSet;
 import java.util.ArrayList;
+import java.util.Calendar;
+import java.util.Date;
 import java.util.List;
 import java.util.Map;
 import java.util.concurrent.ScheduledFuture;
@@ -41,7 +43,8 @@ import com.l2jserver.gameserver.model.quest.QuestState;
 import com.l2jserver.gameserver.model.quest.State;
 import com.l2jserver.gameserver.model.zone.L2ZoneType;
 import com.l2jserver.gameserver.network.clientpackets.Say2;
-import com.l2jserver.gameserver.network.serverpackets.CreatureSay;
+import com.l2jserver.gameserver.network.serverpackets.NpcHtmlMessage;
+import com.l2jserver.gameserver.network.serverpackets.NpcSay;
 import com.l2jserver.gameserver.templates.item.L2Item;
 import com.l2jserver.util.Rnd;
 
@@ -151,6 +154,7 @@ public class RainbowSpringsChateau extends Quest
 			long nextSiege = (Config.CHS_SIEGE_INTERVAL * 60 * 1000) - 3600000;
 			CHSiegeManager.getInstance().siegeEnds(RAINBOW_SPRINGS, nextSiege);
 			ThreadPoolManager.getInstance().scheduleGeneral(new SetFinalAttackers(), nextSiege);
+			setRegistrationEndString(nextSiege + System.currentTimeMillis());
 			ThreadPoolManager.getInstance().scheduleGeneral(new TeleportBack(), 120000);
 		}
 	}
@@ -224,6 +228,7 @@ public class RainbowSpringsChateau extends Quest
 	
 	private static boolean _inSiege = false;
 	private static ScheduledFuture<?> _siegeEnd;
+	private static String _registrationEnds;
 	
 	
 	/**
@@ -241,68 +246,73 @@ public class RainbowSpringsChateau extends Quest
 		for(int npc : YETIS)
 		{
 			addFirstTalkId(npc);
+			addTalkId(npc);
 		}
+		
 		loadAttackers();
 		
 		long delay = CHSiegeManager.getInstance().getSiegeDate(RAINBOW_SPRINGS);
 		if(delay > -1)
 		{
-			delay -= (System.currentTimeMillis() + 3600000);
-			ThreadPoolManager.getInstance().scheduleGeneral(new SetFinalAttackers(), delay);
+			delay -=  3600000;
+			setRegistrationEndString(delay);
+			ThreadPoolManager.getInstance().scheduleGeneral(new SetFinalAttackers(), delay - System.currentTimeMillis());
 		}
 		else
 			_log.warning("CHSiegeManager: No Date setted for RainBow Springs Chateau Clan hall siege!. SIEGE CANCELED!");
 	}
 	
 	@Override
-	public final String onFirstTalk(L2Npc npc, L2PcInstance player)
+	public String onFirstTalk(L2Npc npc, L2PcInstance player)
 	{
 		if(player.getQuestState(qn) == null)
 		{
-			final QuestState state = newQuestState(player);
+			QuestState state = newQuestState(player);
 			state.setState(State.STARTED);
 		}
 
 		int npcId = npc.getNpcId();
+		String html = "";
 		
 		if(npcId == MESSENGER)
 		{
-			return "messenger_main.htm";
+			sendMessengerMain(player);
+		}
+		else if(npcId == CARETAKER)
+		{
+			html = "caretaker_main.htm";
 		}
 		else if(_inSiege)
 		{
 			if(!player.isClanLeader())
-				return "no_clan_leader.htm";
-			
-			if(npcId == CARETAKER)
-				return "caretaker_main.htm";
-
-			L2Clan clan = player.getClan();
-			if(clan != null && _acceptedClans.contains(clan))
+				html = "no_clan_leader.htm";
+			else
 			{
-				int index = _acceptedClans.indexOf(clan);
-				if(npcId == YETIS[index])
-					return "yeti_main.htm";
+				L2Clan clan = player.getClan();
+				if(clan != null && _acceptedClans.contains(clan))
+				{
+					int index = _acceptedClans.indexOf(clan);
+					if(npcId == YETIS[index])
+						html = "yeti_main.htm";
+				}
 			}
 		}
-		return super.onFirstTalk(npc, player);
+		player.setLastQuestNpcObject(npc.getObjectId());
+		return html;
 	}
 	
 	@Override
-	public final String onAdvEvent(String event, L2Npc npc, L2PcInstance player)
+	public String onAdvEvent(String event, L2Npc npc, L2PcInstance player)
 	{
-		if(!_inSiege)
-			return null;
-		
-		if(!player.isClanLeader())
-			return "no_clan_leader.htm";
-
 		String html = event;
-		final L2Clan clan = player.getClan();
-		final int clanId = clan.getClanId();
-		
+
 		if(event.equals("register"))
 		{
+			if(!player.isClanLeader())
+				return "no_clan_leader.htm";
+
+			final L2Clan clan = player.getClan();
+			final int clanId = clan.getClanId();
 			if(_warDecreesCount.containsKey(clanId))
 				html = "messenger_alredy_registered.htm";
 			else if(clan.getLevel() < 3 || clan.getMembersCount() < 5)
@@ -324,6 +334,8 @@ public class RainbowSpringsChateau extends Quest
 		}
 		else if(event.equals("unregister"))
 		{
+			final L2Clan clan = player.getClan();
+			final int clanId = clan.getClanId();
 			if(!_warDecreesCount.containsKey(clanId))
 				html = "messenger_notinlist.htm";
 			else
@@ -351,6 +363,7 @@ public class RainbowSpringsChateau extends Quest
 		}
 		else if(event.equals("portToArena"))
 		{
+			final L2Clan clan = player.getClan();
 			if(_acceptedClans.contains(clan))
 				html = "caretaker_not_allowed.htm";
 			else if(player.getParty() == null)
@@ -363,6 +376,8 @@ public class RainbowSpringsChateau extends Quest
 		}
 		else if(event.startsWith("enterText"))
 		{
+			final L2Clan clan = player.getClan();
+			final int clanId = clan.getClanId();
 			if(!_acceptedClans.contains(clan))
 				return null;
 			
@@ -398,6 +413,8 @@ public class RainbowSpringsChateau extends Quest
 		}
 		else if(event.startsWith("getItem"))
 		{
+			final L2Clan clan = player.getClan();
+			final int clanId = clan.getClanId();
 			if(!_pendingItemToGet.contains(clanId))
 				return null;
 				
@@ -603,8 +620,7 @@ public class RainbowSpringsChateau extends Quest
 			_usedTextPassages.put(message, new FastList<L2Clan>());
 			int shout = Say2.SHOUT;
 			int objId = npc.getObjectId();
-			String name = npc.getName();
-			CreatureSay say = new CreatureSay(objId, shout, name, message);
+			NpcSay say = new NpcSay(objId, shout, npc.getNpcId(), message);
 			npc.broadcastPacket(say);
 		}
 	}
@@ -680,6 +696,40 @@ public class RainbowSpringsChateau extends Quest
 		finally
 		{
 			L2DatabaseFactory.close(con);
+		}
+	}
+	
+	private void setRegistrationEndString(long time)
+	{
+		Calendar c = Calendar.getInstance();
+		c.setTime(new Date(time));
+		int year = c.get(Calendar.YEAR);
+		int month = c.get(Calendar.MONTH) + 1;
+		int day = c.get(Calendar.DAY_OF_MONTH);
+		int hour = c.get(Calendar.HOUR);
+		int mins = c.get(Calendar.MINUTE);
+		
+		_registrationEnds = year+"-"+month+"-"+day+" "+hour+":"+mins;
+	}
+	
+	private void sendMessengerMain(L2PcInstance player)
+	{
+		ClanHall rainbow = ClanHallManager.getInstance().getClanHallById(RAINBOW_SPRINGS);
+		L2Clan owner = ClanTable.getInstance().getClan(rainbow.getOwnerId());
+		if (owner == null)
+		{
+			NpcHtmlMessage message = new NpcHtmlMessage(5);
+			message.setFile(null, "data/scripts/conquerablehalls/RainbowSpringsChateau/messenger_main.htm");
+			message.replace("%time%", _registrationEnds);
+			player.sendPacket(message);
+		}
+		else
+		{
+			NpcHtmlMessage message = new NpcHtmlMessage(5);
+			message.setFile(null, "data/scripts/conquerablehalls/RainbowSpringsChateau/messenger_main1.htm");
+			message.replace("%clanname%", owner.getName());
+			message.replace("%time%", _registrationEnds);
+			player.sendPacket(message);
 		}
 	}
 	

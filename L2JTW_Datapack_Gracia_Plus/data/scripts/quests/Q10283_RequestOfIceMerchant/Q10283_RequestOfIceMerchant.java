@@ -89,9 +89,9 @@ public class Q10283_RequestOfIceMerchant extends Quest
 	@Override
 	public String onTalk(L2Npc npc, L2PcInstance player)
 	{
-		player.sendMessage("OnTalk");
+		//player.sendMessage("OnTalk");
 		
-		String htmltext = getNoQuestMsg(player);
+		String htmltext = "<html><body>目前沒有執行任務，或條件不符。</body></html>";
 		QuestState st = player.getQuestState(qn);
 		if (st == null)
 			return htmltext;
@@ -143,6 +143,6 @@ public class Q10283_RequestOfIceMerchant extends Quest
 	}
 	public static void main(String[] args)
 	{
-		new Q10283_RequestOfIceMerchant(10283, qn, "Request of Ice Merchant");
+		new Q10283_RequestOfIceMerchant(10283, qn, "賣冰人的委託");
 	}
 }

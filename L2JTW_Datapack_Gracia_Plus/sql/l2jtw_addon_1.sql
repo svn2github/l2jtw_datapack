@@ -1519,6 +1519,9 @@ REPLACE INTO `droplist` VALUES
 (18478,8154,1,7,2,700000),-- 生命藥草
 (18478,8155,1,7,2,700000);-- 瑪那藥草
 
+-- 修改 LV 16071 馬奎安 / 16072 精銳馬奎安
+UPDATE npc SET `level` = '75' WHERE `id` in (16071,16072);
+
 -- etcitem for Vitality CT2.5
 REPLACE INTO `etcitem` VALUES (20005,'活力紅蔘','','false','herb',0,'normal','paper','none',-1,-1,0,0,'true','true','true','true','true','ItemSkills','22005-1;');
 REPLACE INTO `etcitem` VALUES (20214,'巧克力餅乾','','false','potion',5,'stackable','paper','none',-1,-1,0,0,'true','true','true','true','true','ItemSkills','22028-1;');
@@ -1572,6 +1575,11 @@ REPLACE INTO castle_door VALUES (34, 25170006, 'devastated_castle_inner_006', 17
 -- Fortress of Resistance --
 -- ---------------------- --
 
+UPDATE npc SET type = 'L2ClanHallDoormen' WHERE id = 30596;
+UPDATE npc SET type = 'L2ClanHallManager' WHERE id = 35383;
+UPDATE npc SET type = 'L2RaidBoss', title = 'Raid Boss' WHERE id = 35368;
+UPDATE npc SET type = 'L2Minion', title = 'Raid Figther' WHERE id = 35370;
+
 -- -------------------- --
 -- Fortress of the Dead --
 -- -------------------- --
@@ -1581,6 +1589,7 @@ REPLACE INTO castle_door VALUES (34, 25170006, 'devastated_castle_inner_006', 17
 UPDATE npc SET type = 'L2WyvernManager' WHERE id = 35638;
 UPDATE npc SET type = 'L2ClanHallDoormen', rhand = 0, lhand = 0 WHERE id = 35641;
 UPDATE npc SET type = 'L2ClanHallDoormen', rhand = 0, lhand = 0 WHERE id = 35642;
+UPDATE npc SET type = 'L2ClanHallManager' WHERE id = 35640;
 
 -- Fortress of the Dead doors
 REPLACE INTO castle_door VALUES (64, 21170001, 'Fortress_of_the_Dead_outer_001', 57857, -29480, 707, 57849, -29498, 543, 57969, -29465, 869, 158250, 644, 518, 'false');
@@ -1627,11 +1636,12 @@ UPDATE npc SET type = 'L2Monster' WHERE id = 35588;
 UPDATE npc SET type = 'L2Monster' WHERE id = 35589;
 UPDATE npc SET type = 'L2Monster' WHERE id = 35590;
 UPDATE npc SET type = 'L2Monster' WHERE id = 35591;
+UPDATE npc SET type = 'L2ClanHallDoormen' WHERE id = 35602;
+UPDATE npc SET type = 'L2ClanHallDoormen' WHERE id = 35601;
+UPDATE npc SET type = 'L2ClanHallManager' WHERE id = 35605;
 
 -- Update siege items
 UPDATE etcitem SET item_type = 'stackable', handler = 'QuestItems' WHERE item_id = 8030;
 UPDATE etcitem SET item_type = 'stackable', handler = 'QuestItems' WHERE item_id = 8031;
 UPDATE etcitem SET item_type = 'stackable', handler = 'QuestItems' WHERE item_id = 8032;
 UPDATE etcitem SET item_type = 'stackable', handler = 'QuestItems' WHERE item_id = 8033;
-
-UPDATE npc SET `level` = '75' WHERE `id` in (16071,16072);

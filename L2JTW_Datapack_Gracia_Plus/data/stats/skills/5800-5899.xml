@@ -459,7 +459,7 @@
 		<set name="target" val="TARGET_ONE" />
 		<set name="reuseDelay" val="3000" />
 		<set name="hitTime" val="1800" />
-		<set name="coolTime" val="1000" />
+		<set name="coolTime" val="2000" />
 		<set name="skillType" val="PDAM" />
 		<set name="operateType" val="OP_ACTIVE" />
 		<set name="castRange" val="1100" />
@@ -474,7 +474,7 @@
 		<set name="target" val="TARGET_ONE" />
 		<set name="reuseDelay" val="3000" />
 		<set name="hitTime" val="1800" />
-		<set name="coolTime" val="1000" />
+		<set name="coolTime" val="2000" />
 		<set name="skillType" val="PDAM" />
 		<set name="operateType" val="OP_ACTIVE" />
 		<set name="castRange" val="1100" />
@@ -661,7 +661,6 @@
 		</for>
 	</skill>
 	<skill id="5852" levels="1" name="Flip Block">
-	<!-- Everythng Guessed or randomnly took -->
 		<!-- Update by pmq -->
 		<set name="target" val="TARGET_ONE" />
 		<set name="skillType" val="DUMMY" />
@@ -675,7 +674,6 @@
 		<set name="effectRange" val="40" />
 	</skill>
 	<skill id="5853" levels="1" name="Flip Block">
-	<!-- Everythng Guessed or randomnly took -->
 		<!-- Update by pmq -->
 		<set name="target" val="TARGET_ONE" />
 		<set name="skillType" val="DUMMY" />
