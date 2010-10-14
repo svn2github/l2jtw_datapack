@@ -24,11 +24,11 @@ import com.l2jserver.gameserver.network.serverpackets.SiegeInfo;
 
 /**
  * @author BiggBoss
- * Fortress of the Dead siege script
+ * Fortress of the Dead clan hall siege script
  */
 public class FortressOfTheDead extends Quest
 {	
-	private class SiegeStart implements Runnable
+	private static class SiegeStart implements Runnable
 	{
 		@Override
 		public void run()
@@ -62,7 +62,7 @@ public class FortressOfTheDead extends Quest
 		}
 	}
 	
-	private class SiegeEnd implements Runnable
+	private static class SiegeEnd implements Runnable
 	{		
 		private boolean _isKilled;
 		
@@ -95,7 +95,7 @@ public class FortressOfTheDead extends Quest
 			}
 			
 			final long nextSiege = Config.CHS_SIEGE_INTERVAL * 24 * 60 * 60 * 1000 - (Config.CHS_SIEGE_LENGTH * 60000);
-			ThreadPoolManager.getInstance().scheduleGeneral(new SiegeStart(), nextSiege);
+			_nextSiege = ThreadPoolManager.getInstance().scheduleGeneral(new SiegeStart(), nextSiege);
 			CHSiegeManager.getInstance().siegeEnds(FDEAD, nextSiege);
 			Announcements.getInstance().announceToAll("The Fortress Of The Dead siege is over!");
 		}
@@ -111,7 +111,7 @@ public class FortressOfTheDead extends Quest
 	
 	private static TIntIntHashMap _damageToLidia = new TIntIntHashMap();
 	private static boolean _inSiege = false;
-	private ScheduledFuture<?> _siegeEnd;
+	private static ScheduledFuture<?> _nextSiege, _siegeEnd;
 	
 	/**
 	 * @param questId
@@ -130,7 +130,7 @@ public class FortressOfTheDead extends Quest
 		else
 		{
 			delay -= System.currentTimeMillis();
-			ThreadPoolManager.getInstance().scheduleGeneral(new SiegeStart(), delay);
+			_nextSiege = ThreadPoolManager.getInstance().scheduleGeneral(new SiegeStart(), delay);
 			CHSiegeManager.getInstance().prepareOwnerForSiege(FDEAD);
 		}
 	}
@@ -200,7 +200,7 @@ public class FortressOfTheDead extends Quest
 		return super.onKill(npc, killer, isPet);
 	}
 				
-	private L2Clan getWinner()
+	private static L2Clan getWinner()
 	{
 		int counter = 0;
 		int damagest = 0;
@@ -215,6 +215,25 @@ public class FortressOfTheDead extends Quest
 		}
 		L2Clan winner = ClanTable.getInstance().getClan(damagest);
 		return winner;
+	}
+	
+	public static void launchSiege()
+	{
+		ThreadPoolManager.getInstance().executeTask(new SiegeStart());
+	}
+	
+	public static void endSiege()
+	{
+		_siegeEnd.cancel(false);
+		ThreadPoolManager.getInstance().executeTask(new SiegeEnd(false));
+	}
+	
+	public static void updateAdminDate(long date)
+	{
+		CHSiegeManager.getInstance().reSchedulePrepareOwner(FDEAD);
+		CHSiegeManager.getInstance().setSiegeDate(FDEAD, date);
+		_nextSiege.cancel(true);
+		_nextSiege = ThreadPoolManager.getInstance().scheduleGeneral(new SiegeStart(), date - System.currentTimeMillis());
 	}
 	
 	public static void main(String[] args)

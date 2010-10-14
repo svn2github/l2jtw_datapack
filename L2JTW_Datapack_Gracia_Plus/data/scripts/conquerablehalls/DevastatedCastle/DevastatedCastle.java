@@ -23,11 +23,11 @@ import com.l2jserver.gameserver.network.serverpackets.SiegeInfo;
 
 /**
  * @author BiggBoss
- * Devastated Castle siege script
+ * Devastated Castle clan hall siege script
  */
 public class DevastatedCastle extends Quest
 {	
-	private class SiegeStart implements Runnable
+	private static class SiegeStart implements Runnable
 	{
 		@Override
 		public void run()
@@ -61,7 +61,7 @@ public class DevastatedCastle extends Quest
 		}
 	}
 	
-	private class SiegeEnd implements Runnable
+	private static class SiegeEnd implements Runnable
 	{		
 		private boolean _isKilled;
 		
@@ -94,7 +94,7 @@ public class DevastatedCastle extends Quest
 			}
 			
 			final long nextSiege = Config.CHS_SIEGE_INTERVAL * 24 * 60 * 60 * 1000 - (Config.CHS_SIEGE_LENGTH * 60000);
-			ThreadPoolManager.getInstance().scheduleGeneral(new SiegeStart(), nextSiege);
+			_nextSiege = ThreadPoolManager.getInstance().scheduleGeneral(new SiegeStart(), nextSiege);
 			CHSiegeManager.getInstance().siegeEnds(DEVASTATED, nextSiege);
 			Announcements.getInstance().announceToAll("The Devastated Castle siege is over!");
 		}
@@ -110,7 +110,7 @@ public class DevastatedCastle extends Quest
 	
 	private static TIntIntHashMap _damageToGustav = new TIntIntHashMap();
 	private static boolean _inSiege = false;
-	private ScheduledFuture<?> _siegeEnd;
+	private static ScheduledFuture<?> _nextSiege, _siegeEnd;
 	
 	/**
 	 * @param questId
@@ -129,7 +129,7 @@ public class DevastatedCastle extends Quest
 		else
 		{
 			delay -= System.currentTimeMillis();
-			ThreadPoolManager.getInstance().scheduleGeneral(new SiegeStart(), delay);
+			_nextSiege = ThreadPoolManager.getInstance().scheduleGeneral(new SiegeStart(), delay);
 			CHSiegeManager.getInstance().prepareOwnerForSiege(DEVASTATED);
 		}
 	}
@@ -199,7 +199,7 @@ public class DevastatedCastle extends Quest
 		return super.onKill(npc, killer, isPet);
 	}
 				
-	private L2Clan getWinner()
+	private static L2Clan getWinner()
 	{
 		double counter = 0;
 		int damagest = 0;
@@ -214,6 +214,25 @@ public class DevastatedCastle extends Quest
 		}
 		L2Clan winner = ClanTable.getInstance().getClan(damagest);
 		return winner;
+	}
+	
+	public static void launchSiege()
+	{
+		ThreadPoolManager.getInstance().executeTask(new SiegeStart());
+	}
+	
+	public static void endSiege()
+	{
+		_siegeEnd.cancel(false);
+		ThreadPoolManager.getInstance().executeTask(new SiegeEnd(false));
+	}
+	
+	public static void updateAdminDate(long date)
+	{
+		CHSiegeManager.getInstance().setSiegeDate(DEVASTATED, date);
+		CHSiegeManager.getInstance().reSchedulePrepareOwner(DEVASTATED);
+		_nextSiege.cancel(true);
+		_nextSiege = ThreadPoolManager.getInstance().scheduleGeneral(new SiegeStart(), date - System.currentTimeMillis());
 	}
 	
 	public static void main(String[] args)

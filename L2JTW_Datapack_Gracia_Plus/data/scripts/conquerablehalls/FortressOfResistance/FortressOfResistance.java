@@ -27,13 +27,13 @@ import com.l2jserver.gameserver.model.quest.Quest;
 
 /**
  * @author BiggBoss
- * Fortress of Resistance siege Script
+ * Fortress of Resistance clan hall siege Script
  */
 public class FortressOfResistance extends Quest
 {
 	private static final Logger _log = Logger.getLogger(FortressOfResistance.class.getName());
 	
-	private class SiegeStart implements Runnable
+	private static class SiegeStart implements Runnable
 	{
 		/* (non-Javadoc)
 		 * @see java.lang.Runnable#run()
@@ -83,7 +83,7 @@ public class FortressOfResistance extends Quest
 		}
 	}
 	
-	private class SiegeEnd implements Runnable
+	private static class SiegeEnd implements Runnable
 	{
 		private L2Clan _winner;
 		
@@ -123,7 +123,7 @@ public class FortressOfResistance extends Quest
 			
 			hall.banishForeigners();
 			final long nextSiege = Config.CHS_SIEGE_INTERVAL * 24 * 60 * 60 * 1000 - (Config.CHS_SIEGE_LENGTH * 60000);
-			ThreadPoolManager.getInstance().scheduleGeneral(new SiegeStart(), nextSiege);
+			_nextSiege = ThreadPoolManager.getInstance().scheduleGeneral(new SiegeStart(), nextSiege);
 			CHSiegeManager.getInstance().siegeEnds(FORTRESS, nextSiege);
 			Announcements.getInstance().announceToAll("The Fortress of Resistance siege is over!");
 		}
@@ -135,8 +135,8 @@ public class FortressOfResistance extends Quest
 	private static final int BLOODY_LORD_NURKA = 35375;
 	
 	private static boolean _inSiege = false;
-	private static ScheduledFuture<?> _siegeEnd;
-	private L2Spawn _bloodyLordNuka;
+	private static ScheduledFuture<?> _nextSiege, _siegeEnd;
+	private static L2Spawn _bloodyLordNuka;
 	
 	/**
 	 * @param questId
@@ -155,7 +155,7 @@ public class FortressOfResistance extends Quest
 		else
 		{
 			siegeTime -= System.currentTimeMillis();
-			ThreadPoolManager.getInstance().scheduleGeneral(new SiegeStart(), siegeTime);
+			_nextSiege = ThreadPoolManager.getInstance().scheduleGeneral(new SiegeStart(), siegeTime);
 			setSpawn();
 		}
 	}
@@ -199,7 +199,25 @@ public class FortressOfResistance extends Quest
 		}
 		return super.onKill(npc, killer, isPet);
 	}
-		
+	
+	public static void launchSiege()
+	{
+		ThreadPoolManager.getInstance().executeTask(new SiegeStart());
+	}
+	
+	public static void endSiege()
+	{
+		_siegeEnd.cancel(false);
+		ThreadPoolManager.getInstance().executeTask(new SiegeEnd(null));
+	}
+	
+	public static void updateAdminDate(long date)
+	{
+		CHSiegeManager.getInstance().setSiegeDate(FORTRESS, date);
+		_nextSiege.cancel(true);
+		_nextSiege = ThreadPoolManager.getInstance().scheduleGeneral(new SiegeStart(), date - System.currentTimeMillis());
+	}
+
 	public static void main(String[] args)
 	{
 		new FortressOfResistance(-1, qn, "conquerablehalls");

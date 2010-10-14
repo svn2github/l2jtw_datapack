@@ -2,6 +2,7 @@
 
 import sys
 from com.l2jserver.gameserver.datatables            import SkillTable
+from com.l2jserver.gameserver.instancemanager       import InstanceManager
 from com.l2jserver.gameserver.model.actor.instance  import L2PcInstance
 from com.l2jserver.gameserver.model.actor.instance  import L2DoorInstance
 from com.l2jserver.gameserver.model.quest           import State
@@ -33,6 +34,7 @@ class Quest (JQuest):
 	def __init__(self,id,name,descr):
 		JQuest.__init__(self,id,name,descr)
 		self.questItemIds = [IdentityCard, EmperorShunaimanContract]
+		SCROLL = 0
 
 	def onAdvEvent (self,event,npc,player):
 		htmltext = event
@@ -60,6 +62,12 @@ class Quest (JQuest):
 			st.unset("cond") 
 			st.exitQuest(False)
 			st.playSound("ItemSound.quest_finish")
+		elif event == "quit":
+			instanceId = player.getInstanceId()
+			instance = InstanceManager.getInstance().getInstance(instanceId)
+			player.setInstanceId(0)
+			player.teleToLocation(-12491,122331,-2984)
+			htmltext = ""
 		return htmltext
 
 	def onTalk (self,npc,player):
@@ -87,34 +95,53 @@ class Quest (JQuest):
 					st.exitQuest(1)
 		elif id == State.STARTED:
 			if npcId == ClaudiaAthebalt:
-				if cond == 1: htmltext = "31001-06.htm"
+				if cond == 1:
+					htmltext = "31001-06.htm"
 			elif npcId == John:
-				if cond == 1: htmltext = "32576-01.htm"
-				elif cond == 2: htmltext = "32576-03.htm"
+				if cond == 1:
+					htmltext = "32576-01.htm"
+				elif cond == 2:
+					htmltext = "32576-03.htm"
 			elif npcId == Raymond:
-				if cond == 2: htmltext = "30289-01.htm"
-				elif cond == 3: htmltext = "30289-06.htm"
+				if cond == 2:
+					htmltext = "30289-01.htm"
+				elif cond == 3:
+					htmltext = "30289-06.htm"
 				elif cond == 4:
-					if st.getQuestItemsCount(EmperorShunaimanContract) == 1 and st.getQuestItemsCount(ScrollofEscape) == 0 :
-						htmltext = "30289-08.htm"
+					if SCROLL == 0:  # Fix Bug Scroll of Escape
+						if st.getQuestItemsCount(EmperorShunaimanContract) == 1 and st.getQuestItemsCount(ScrollofEscape) == 0 :
+							htmltext = "30289-08.htm"
+							player.stopAllEffects()
+							st.giveItems(ScrollofEscape,1)
+							st.playSound("ItemSound.quest_middle")
+							SCROLL = 1
+						else :
+							player.stopAllEffects()
+							htmltext = "30289-08.htm"
+					else :
 						player.stopAllEffects()
-						st.giveItems(ScrollofEscape,1)
-						st.playSound("ItemSound.quest_middle")
-					else : htmltext = "30289-08.htm"
+						htmltext = "30289-08.htm"
 			elif npcId == LightOfDawn:
-				if cond == 3 and st.getQuestItemsCount(IdentityCard) == 1: htmltext = "32575-03.htm"
-				else : htmltext = "32575-01.htm"
+				if cond == 3 and st.getQuestItemsCount(IdentityCard) == 1:
+					htmltext = "32575-03.htm"
+				else :
+					htmltext = "32575-01.htm"
 			elif npcId == Device:
-				if player.getFirstEffect(GuardofDawn) != None: htmltext = "32578-03.htm"
-				elif player.getFirstEffect(GuardofDawn) == None: htmltext = "32578-02.htm"
+				if player.getFirstEffect(GuardofDawn) != None:
+					htmltext = "32578-03.htm"
+				elif player.getFirstEffect(GuardofDawn) == None:
+					htmltext = "32578-02.htm"
 			elif npcId == PasswordEntryDevice:
-				if player.getFirstEffect(GuardofDawn) != None: htmltext = "32577-01.htm"
-				elif player.getFirstEffect(GuardofDawn) == None: htmltext = "32577-03.htm"
+				if player.getFirstEffect(GuardofDawn) != None:
+					htmltext = "32577-01.htm"
+				elif player.getFirstEffect(GuardofDawn) == None:
+					htmltext = "32577-03.htm"
 			elif npcId == Shkaf and st.getQuestItemsCount(EmperorShunaimanContract) == 0:
 				htmltext = "32580-01.htm" 
 				st.giveItems(EmperorShunaimanContract,1)
 				st.set("cond","4")
-			elif npcId == Black and st.getQuestItemsCount(EmperorShunaimanContract) == 1: htmltext = "32579-01.htm"
+			elif npcId == Black and st.getQuestItemsCount(EmperorShunaimanContract) == 1:
+				htmltext = "32579-01.htm"
 			elif npcId == IasonHeine and st.getQuestItemsCount(EmperorShunaimanContract) == 1:
 				htmltext = "30969-01.htm" 
 		return htmltext

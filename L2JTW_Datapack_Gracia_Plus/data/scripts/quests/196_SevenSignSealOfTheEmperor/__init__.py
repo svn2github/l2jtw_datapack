@@ -12,18 +12,19 @@ from com.l2jserver.gameserver.network.serverpackets import ExStartScenePlayer
 qn = "196_SevenSignSealOfTheEmperor"
 
 # NPCs
-HEINE      = 30969
-MAMMON     = 32584
-SHUNAIMAN  = 32586
-SEALDEVICE = 27384
-MAGICAN    = 32598
-WOOD       = 32593
+HEINE       = 30969
+MAMMON      = 32584
+SHUNAIMAN   = 32586
+SEALDEVICE  = 27384
+SEALDEVICE2	= 18833
+MAGICAN     = 32598
+WOOD        = 32593
 # ITEMS
-STONE      = 13824
-WATER      = 13808
-SWORD      = 15310
-SEAL       = 13846
-STAFF      = 13809
+STONE       = 13824
+WATER       = 13808
+SWORD       = 15310
+SEAL        = 13846
+STAFF       = 13809
 
 class PyObject :
 	pass
@@ -144,6 +145,7 @@ class Quest (JQuest) :
 		if not st : return
 		if npc.getNpcId() == SEALDEVICE :
 			st.giveItems(SEAL, 1)
+			st.addSpawn(SEALDEVICE2,6000000)
 			if st.getQuestItemsCount(SEAL) < 4 :
 				st.playSound("ItemSound.quest_itemget")
 			else:
@@ -161,3 +163,4 @@ QUEST.addTalkId(MAMMON)
 QUEST.addTalkId(MAGICAN)
 QUEST.addTalkId(SHUNAIMAN)
 QUEST.addKillId(SEALDEVICE)
+QUEST.addTalkId(SEALDEVICE2)

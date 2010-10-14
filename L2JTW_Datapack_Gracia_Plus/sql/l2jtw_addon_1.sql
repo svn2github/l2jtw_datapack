@@ -1548,9 +1548,10 @@ UPDATE npc SET type = 'L2Defender' Where id = 35413;
 UPDATE npc SET type = 'L2Defender' WHERE id = 35414;
 UPDATE npc SET type = 'L2Defender' WHERE id = 35415;
 UPDATE npc SET type = 'L2Defender' WHERE id = 35416;
-UPDATE npc SET type = 'L2ClanHallDoormen', rhand = 0, lhand = 0 WHERE id = 35417;
-UPDATE npc SET type = 'L2ClanHallDoormen', rhand = 0, lhand = 0 WHERE id = 35418;
+UPDATE npc SET type = 'L2CastleDoormen', rhand = 0, lhand = 0 WHERE id = 35417;
+UPDATE npc SET type = 'L2CastleDoormen', rhand = 0, lhand = 0 WHERE id = 35418;
 UPDATE npc SET type = 'L2WyvernManager' WHERE id = 35419;
+UPDATE npc SET type = 'L2ClanHallManager' WHERE id = 35421;
 
 -- Delete mobs from normal spawnlist
 
@@ -1574,11 +1575,16 @@ REPLACE INTO castle_door VALUES (34, 25170006, 'devastated_castle_inner_006', 17
 -- ---------------------- --
 -- Fortress of Resistance --
 -- ---------------------- --
-
-UPDATE npc SET type = 'L2ClanHallDoormen' WHERE id = 30596;
+UPDATE npc SET type = 'L2CastleDoormen' WHERE id = 30596;
 UPDATE npc SET type = 'L2ClanHallManager' WHERE id = 35383;
+DELETE FROM spawnlist WHERE npc_templateid = 35368;
+DELETE FROM spawnlist WHERE npc_templateid = 35369;
+DELETE FROM spawnlist WHERE npc_templateid = 35370;
+DELETE FROM spawnlist WHERE npc_templateid = 35371;
 UPDATE npc SET type = 'L2RaidBoss', title = 'Raid Boss' WHERE id = 35368;
+UPDATE npc SET type = 'L2Minion', title = 'Raid Figther' WHERE id = 35369;
 UPDATE npc SET type = 'L2Minion', title = 'Raid Figther' WHERE id = 35370;
+UPDATE npc SET type = 'L2Minion', title = 'Raid Figther' WHERE id = 35371;
 
 -- -------------------- --
 -- Fortress of the Dead --
@@ -1587,8 +1593,8 @@ UPDATE npc SET type = 'L2Minion', title = 'Raid Figther' WHERE id = 35370;
 -- Update siege npcs
 
 UPDATE npc SET type = 'L2WyvernManager' WHERE id = 35638;
-UPDATE npc SET type = 'L2ClanHallDoormen', rhand = 0, lhand = 0 WHERE id = 35641;
-UPDATE npc SET type = 'L2ClanHallDoormen', rhand = 0, lhand = 0 WHERE id = 35642;
+UPDATE npc SET type = 'L2CastleDoormen', rhand = 0, lhand = 0 WHERE id = 35641;
+UPDATE npc SET type = 'L2CastleDoormen', rhand = 0, lhand = 0 WHERE id = 35642;
 UPDATE npc SET type = 'L2ClanHallManager' WHERE id = 35640;
 
 -- Fortress of the Dead doors
@@ -1636,9 +1642,9 @@ UPDATE npc SET type = 'L2Monster' WHERE id = 35588;
 UPDATE npc SET type = 'L2Monster' WHERE id = 35589;
 UPDATE npc SET type = 'L2Monster' WHERE id = 35590;
 UPDATE npc SET type = 'L2Monster' WHERE id = 35591;
-UPDATE npc SET type = 'L2ClanHallDoormen' WHERE id = 35602;
-UPDATE npc SET type = 'L2ClanHallDoormen' WHERE id = 35601;
-UPDATE npc SET type = 'L2ClanHallManager' WHERE id = 35605;
+UPDATE npc SET type = 'L2Doormen' WHERE id = 35602;
+UPDATE npc SET type = 'L2Doormen' WHERE id = 35601;
+UPDATE npc SET type = 'L2ClanHallManager', `mp` = '152120' WHERE id = 35605;
 
 -- Update siege items
 UPDATE etcitem SET item_type = 'stackable', handler = 'QuestItems' WHERE item_id = 8030;
