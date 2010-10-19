@@ -1,7 +1,7 @@
 /************ Made in Taiwan ************/
 
 /************ 刪除自定的NPC ************/
-DELETE FROM `spawnlist` WHERE `id` > 820000 AND `id` < 880000;
+-- DELETE FROM `spawnlist` WHERE `id` > 820000 AND `id` < 880000;
 
 
 /************ 修正32007加爾巴-釣魚會員 ************/
@@ -65,7 +65,7 @@ REPLACE INTO `spawnlist` (location,count,npc_templateid,locx,locy,locz,randomx,r
 ('', 1, 32478, 17735, 169802, -3495, 0, 0, 19465, 60, 0, 0); -- 獵人村莊
 
 -- 修正NPC位置
-DELETE FROM `spawnlist` WHERE `npc_templateid` IN (30134,31605,31092,31675,31679,31677,30767); -- 刪除不正確位置的NPC
+DELETE FROM `spawnlist` WHERE `npc_templateid` IN (30134,31605,31675,31679,31677,30767); -- 刪除不正確位置的NPC
 INSERT INTO `spawnlist` (location,count,npc_templateid,locx,locy,locz,randomx,randomy,heading,respawn_delay,loc_id,periodOfDay) VALUES 
 ('oren09_npc2018_010', 1, 30134, 9689, 15550, -4574, 0, 0, 5892, 60, 0, 0),     -- 傑斯密(黑暗精靈村莊)
 ('oren16_npc2218_016', 1, 31605, 85692, 16400, -2803, 0, 0, 38000, 60, 0, 0),   -- 金斯雷(象牙塔)
@@ -77,7 +77,7 @@ INSERT INTO `spawnlist` (location,count,npc_templateid,locx,locy,locz,randomx,ra
 ('schuttgart', 1, 30767, 85792, -142809, -1341, 0, 0, 10508, 60, 0, 0);         -- 拍賣管理者(修加特城鎮)
 
 -- 加入漏掉的NPC
-DELETE FROM `spawnlist` WHERE `npc_templateid` IN (31691,35601,35602,35603,35605,35623,35624,35628,35638,35639,35640,35641,35642); -- 刪除不正確位置的NPC
+DELETE FROM `spawnlist` WHERE `npc_templateid` IN (35601,35602,35603,35605,35623,35624,35628,35638,35639,35640,35641,35642); -- 刪除不正確位置的NPC
 INSERT INTO `spawnlist` (location,count,npc_templateid,locx,locy,locz,randomx,randomy,heading,respawn_delay,loc_id,periodOfDay) VALUES 
 -- ('', 1, 35644, 116178, -181602, -1365, 0, 0, 0, 60, 0, 0),      -- 莊園管理員(矮人村莊)
 -- ('', 1, 35645, -44159, -112229, -239, 0, 0, 39768, 60, 0, 0),   -- 莊園管理員(半獸人村莊)
