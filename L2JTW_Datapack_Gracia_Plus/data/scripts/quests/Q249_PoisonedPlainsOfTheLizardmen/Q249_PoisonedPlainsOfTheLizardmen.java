@@ -108,6 +108,6 @@ public class Q249_PoisonedPlainsOfTheLizardmen extends Quest
 	
 	public static void main(String[] args)
 	{
-		new Q249_PoisonedPlainsOfTheLizardmen(249, qn, "Poisoned Plains of the Lizardmen");
+		new Q249_PoisonedPlainsOfTheLizardmen(249, qn, "¤¤¬rªº»hç°¯ó­ì");
 	}
 }

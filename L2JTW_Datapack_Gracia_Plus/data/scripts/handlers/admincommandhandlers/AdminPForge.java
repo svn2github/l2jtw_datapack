@@ -18,7 +18,7 @@ import java.math.BigInteger;
 import java.nio.ByteBuffer;
 import java.util.StringTokenizer;
 
-//import org.mmocore.network.NioNetStringBuffer;
+import org.mmocore.network.NioNetStringBuffer;
 
 import com.l2jserver.gameserver.GameServer;
 import com.l2jserver.gameserver.ThreadPoolManager;
@@ -108,7 +108,7 @@ public class AdminPForge implements IAdminCommandHandler
 					}
 					else if (val.toLowerCase().equals("$clanid"))
 					{
-						val = String.valueOf(activeChar.getCharId());
+						val = String.valueOf(activeChar.getClanId());
 					}
 					else if (val.toLowerCase().equals("$allyid"))
 					{
@@ -116,7 +116,7 @@ public class AdminPForge implements IAdminCommandHandler
 					}
 					else if (val.toLowerCase().equals("$tclanid"))
 					{
-						val = String.valueOf(((L2PcInstance) activeChar.getTarget()).getCharId());
+						val = String.valueOf(((L2PcInstance) activeChar.getTarget()).getClanId());
 					}
 					else if (val.toLowerCase().equals("$tallyid"))
 					{
@@ -170,7 +170,7 @@ public class AdminPForge implements IAdminCommandHandler
 					L2GameClientPacket p = (L2GameClientPacket) GameServer.gameServer.getL2GamePacketHandler().handlePacket(buf, activeChar.getClient());
 					if (p != null)
 					{
-						//p.setBuffers(buf, activeChar.getClient(), new NioNetStringBuffer(2000));
+						p.setBuffers(buf, activeChar.getClient(), new NioNetStringBuffer(2000));
 						if (p.read())
 							ThreadPoolManager.getInstance().executePacket(p);
 					}

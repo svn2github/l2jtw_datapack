@@ -39,10 +39,9 @@
 		</for>
 	</skill>
 	<skill id="3405" levels="1" name="Large Firecracker Effect">
-		<!-- HOT ??? this a temp hack to make it work? -->
-		<set name="target" val="TARGET_SELF" />
-		<set name="skillType" val="BUFF" />
 		<set name="operateType" val="OP_ACTIVE" />
+		<set name="skillType" val="DUMMY" />
+		<set name="target" val="TARGET_SELF" />
 	</skill>
 	<skill id="3406" levels="1" name="Weight Decrease Ring">
 		<!-- Update by rocknow -->
@@ -101,7 +100,7 @@
 		<set name="equipDelay" val="30000" />
 		<set name="operateType" val="OP_ACTIVE" />
 		<for>
-			<effect name="Buff" time="120" val="0" stackOrder="1" stackType="talisman_blue">
+			<effect name="Buff" time="120" val="0" stackOrder="1" stackType="ab_talisman">
 				<add order="0x40" stat="reflectDam" val="5" />
 			</effect>
 		</for>
@@ -319,7 +318,7 @@
 		<set name="equipDelay" val="30000" />
 		<set name="operateType" val="OP_ACTIVE" />
 		<for>
-			<effect name="Buff" time="10" val="0" stackOrder="1" stackType="talisman_blue">
+			<effect name="Buff" time="10" val="0" stackOrder="1" stackType="ab_talisman">
 				<mul order="0x30" stat="pAtk" val="1.15" />
 				<mul order="0x30" stat="pAtkSpd" val="1.15" />
 			</effect>
@@ -347,7 +346,7 @@
 		<set name="operateType" val="OP_ACTIVE" />
 		<set name="target" val="TARGET_SELF" />
 		<for>
-			<effect name="Buff" time="10" val="0" stackOrder="1" stackType="talismanElementRes">
+			<effect name="Buff" time="10" val="0" stackOrder="1" stackType="ab_talisman">
 				<add order="0x40" stat="darkRes" val="50" />
 			</effect>
 		</for>
@@ -363,7 +362,7 @@
 		<set name="operateType" val="OP_ACTIVE" />
 		<set name="target" val="TARGET_SELF" />
 		<for>
-			<effect name="Buff" time="10" val="0" stackOrder="1" stackType="talismanElementRes">
+			<effect name="Buff" time="10" val="0" stackOrder="1" stackType="ab_talisman">
 				<add order="0x40" stat="windRes" val="50" />
 			</effect>
 		</for>
@@ -379,7 +378,7 @@
 		<set name="operateType" val="OP_ACTIVE" />
 		<set name="target" val="TARGET_SELF" />
 		<for>
-			<effect name="Buff" time="10" val="0" stackOrder="1" stackType="talismanElementRes">
+			<effect name="Buff" time="10" val="0" stackOrder="1" stackType="ab_talisman">
 				<add order="0x40" stat="waterRes" val="50" />
 			</effect>
 		</for>
@@ -395,7 +394,7 @@
 		<set name="operateType" val="OP_ACTIVE" />
 		<set name="target" val="TARGET_SELF" />
 		<for>
-			<effect name="Buff" time="10" val="0" stackOrder="1" stackType="talismanElementRes">
+			<effect name="Buff" time="10" val="0" stackOrder="1" stackType="ab_talisman">
 				<add order="0x40" stat="fireRes" val="50" />
 			</effect>
 		</for>
@@ -411,7 +410,7 @@
 		<set name="operateType" val="OP_ACTIVE" />
 		<set name="target" val="TARGET_SELF" />
 		<for>
-			<effect name="Buff" time="10" val="0" stackOrder="1" stackType="talismanElementRes">
+			<effect name="Buff" time="10" val="0" stackOrder="1" stackType="ab_talisman">
 				<add order="0x40" stat="earthRes" val="50" />
 			</effect>
 		</for>
@@ -427,7 +426,7 @@
 		<set name="operateType" val="OP_ACTIVE" />
 		<set name="target" val="TARGET_SELF" />
 		<for>
-			<effect name="Buff" time="10" val="0" stackOrder="1" stackType="talismanElementRes">
+			<effect name="Buff" time="10" val="0" stackOrder="1" stackType="ab_talisman">
 				<add order="0x40" stat="holyRes" val="50" />
 			</effect>
 		</for>
@@ -457,7 +456,7 @@
 		<set name="equipDelay" val="30000" />
 		<set name="operateType" val="OP_ACTIVE" />
 		<for>
-			<effect name="Buff" time="10" val="0" stackOrder="1" stackType="talisman_blue">
+			<effect name="Buff" time="10" val="0" stackOrder="1" stackType="ab_talisman">
 				<mul order="0x30" stat="mAtk" val="1.15" />
 				<mul order="0x30" stat="mCritRate" val="1.15" />
 			</effect>
@@ -473,7 +472,7 @@
 		<set name="skillType" val="BUFF" />
 		<set name="operateType" val="OP_ACTIVE" />
 		<for>
-			<effect name="Buff" time="10" val="0" stackOrder="1" stackType="talisman_blue">
+			<effect name="Buff" time="10" val="0" stackOrder="1" stackType="ab_talisman">
 				<mul order="0x30" stat="gainHp" val="1.3" />
 			</effect>
 		</for>
@@ -896,7 +895,7 @@
 		<set name="skillType" val="BUFF" />
 		<set name="operateType" val="OP_ACTIVE" />
 		<for>
-			<effect name="Buff" time="120" val="0" stackOrder="1" stackType="talisman_blue">
+			<effect name="Buff" time="120" val="0" stackOrder="1" stackType="ab_talisman">
 				<mul order="0x30" stat="pAtk" val="1.02" />
 			</effect>
 		</for>
@@ -911,7 +910,7 @@
 		<set name="skillType" val="BUFF" />
 		<set name="operateType" val="OP_ACTIVE" />
 		<for>
-			<effect name="Buff" time="120" val="0" stackOrder="1" stackType="talisman_blue">
+			<effect name="Buff" time="120" val="0" stackOrder="1" stackType="ab_talisman">
 				<mul order="0x30" stat="sDef" val="1.02" />
 			</effect>
 		</for>

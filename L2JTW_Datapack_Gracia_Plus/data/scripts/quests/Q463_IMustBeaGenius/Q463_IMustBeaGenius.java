@@ -168,7 +168,7 @@ public class Q463_IMustBeaGenius extends Quest
 	
 	public static void main(String[] args)
 	{
-		new Q463_IMustBeaGenius(463, qn, "I Must Be a Genius");
+		new Q463_IMustBeaGenius(463, qn, "看來我真是個天才");
 	}
 }
 

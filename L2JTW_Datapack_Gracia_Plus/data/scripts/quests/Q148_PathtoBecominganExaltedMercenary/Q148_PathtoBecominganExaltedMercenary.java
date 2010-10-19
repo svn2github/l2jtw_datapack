@@ -122,6 +122,6 @@ public class Q148_PathtoBecominganExaltedMercenary extends Quest
 	
 	public static void main(String[] args)
 	{
-		new Q148_PathtoBecominganExaltedMercenary(148, qn, "Path to Becoming an Exalted Mercenary");
+		new Q148_PathtoBecominganExaltedMercenary(148, qn, "成為最高精銳傭兵的路");
 	}
 }

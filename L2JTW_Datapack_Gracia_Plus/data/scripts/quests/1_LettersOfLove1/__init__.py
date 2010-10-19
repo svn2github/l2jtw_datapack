@@ -98,7 +98,7 @@ class Quest (JQuest) :
 					st.giveItems(57,2466)
 					st.giveItems(NECKLACE,1)
 					st.addExpAndSp(5672,446)
-					st.unset("cond") 
+					st.unset("cond")
 					st.exitQuest(False)
 					st.playSound("ItemSound.quest_finish")
 				else:

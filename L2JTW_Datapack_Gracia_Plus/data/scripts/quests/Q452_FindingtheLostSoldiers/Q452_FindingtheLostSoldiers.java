@@ -150,6 +150,6 @@ public class Q452_FindingtheLostSoldiers extends Quest
 	
 	public static void main(String[] args)
 	{
-		new Q452_FindingtheLostSoldiers(452, qn, "Finding the Lost Soldiers");
+		new Q452_FindingtheLostSoldiers(452, qn, "´M§ä¿ò§Ñªº¤h§L­Ì");
 	}
 }

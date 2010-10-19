@@ -526,11 +526,11 @@ public class AdminEditChar implements IAdminCommandHandler
 					activeChar.sendMessage("Usage: //remove_clan_penalty join|create charname");
 					return false;
 				}
-
+				
 				st.nextToken();
-
+				
 				boolean changeCreateExpiryTime = st.nextToken().equalsIgnoreCase("create");
-
+				
 				String playerName = st.nextToken();
 				L2PcInstance player = null;
 				player = L2World.getInstance().getPlayer(playerName);
@@ -539,7 +539,7 @@ public class AdminEditChar implements IAdminCommandHandler
 				{
 					Connection con = L2DatabaseFactory.getInstance().getConnection();
 					PreparedStatement ps = con.prepareStatement("UPDATE characters SET "
-							+ (changeCreateExpiryTime ? "clan_create_expiry_time" : "clan_join_expiry_time") 
+							+ (changeCreateExpiryTime ? "clan_create_expiry_time" : "clan_join_expiry_time")
 							+ " WHERE char_name=? LIMIT 1");
 					
 					ps.setString(1, playerName);
@@ -554,7 +554,7 @@ public class AdminEditChar implements IAdminCommandHandler
 						player.setClanJoinExpiryTime(0);
 				}
 				
-
+				
 				activeChar.sendMessage(MessageTable.Messages[1542].getExtra(1)+ playerName + MessageTable.Messages[1542].getExtra(2));
 			}
 			catch (Exception e)
@@ -1108,9 +1108,9 @@ public class AdminEditChar implements IAdminCommandHandler
 				break;
 		}
 		adminReply.replace("%results%", replyMSG.toString());
-
+		
 		final String replyMSG2;
-
+		
 		if (CharactersFound == 0) {
 			replyMSG2 = MessageTable.Messages[1557].getMessage();
 		} else if (CharactersFound > 20) {
@@ -1290,7 +1290,7 @@ public class AdminEditChar implements IAdminCommandHandler
 			this.ip = ip;
 			this.tracert = tracert;
 		}
-
+		
 		@Override
 		public int hashCode()
 		{
@@ -1301,7 +1301,7 @@ public class AdminEditChar implements IAdminCommandHandler
 				result = prime * result + Arrays.hashCode(array);
 			return result;
 		}
-
+		
 		@Override
 		public boolean equals(Object obj)
 		{
@@ -1327,7 +1327,7 @@ public class AdminEditChar implements IAdminCommandHandler
 						return false;
 			return true;
 		}
-
+		
 		private AdminEditChar getOuterType()
 		{
 			return AdminEditChar.this;
@@ -1349,6 +1349,7 @@ public class AdminEditChar implements IAdminCommandHandler
 		html.replace("%hp%", (int)target.getStatus().getCurrentHp()+"/"+target.getStat().getMaxHp());
 		html.replace("%mp%", (int)target.getStatus().getCurrentMp()+"/"+target.getStat().getMaxMp());
 		html.replace("%karma%", Integer.toString(target.getKarma()));
+		html.replace("%undead%", target.isUndead() ? "yes" : "no");
 		if (target instanceof L2PetInstance)
 		{
 			int objId = target.getActingPlayer().getObjectId();

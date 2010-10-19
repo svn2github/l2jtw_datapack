@@ -252,7 +252,7 @@
 	</skill>
 	<skill id="6365" levels="2" name="Maguen Plasma - Speed">
 		<!--
-			The Wild Maguen blesses you with a buff that increases your moving speed, Atk. Spd. and  Casting Speed for 10 minutes.
+			The Wild Maguen blesses you with a buff that increases your moving speed, Atk. Spd. and? Casting Speed for 10 minutes.
 			You are once again blessed by the Wild Maguen, who further increases your moving speed, Atk. Spd. and Casting Speed.
 		-->
 		<set name="target" val="TARGET_NONE" />
@@ -367,7 +367,7 @@
 		<set name="operateType" val="OP_ACTIVE" />
 		<set name="power" val="80" /> <!-- Base Land Rate -->
 		<set name="reuseDelay" val="30000" /> <!-- Guess -->
-		<set name="saveVs" val="WIT" />
+		<set name="saveVs" val="MEN" />
 		<set name="skillRadius" val="150" /> <!-- Guess -->
 		<set name="skillType" val="MUTE" />
 		<set name="target" val="TARGET_AURA" />
@@ -387,7 +387,7 @@
 		<set name="operateType" val="OP_ACTIVE" />
 		<set name="power" val="80" /> <!-- Base Land Rate -->
 		<set name="reuseDelay" val="30000" /> <!-- Guess -->
-		<set name="saveVs" val="WIT" />
+		<set name="saveVs" val="MEN" />
 		<set name="skillType" val="MUTE" />
 		<set name="target" val="TARGET_ONE" />
 		<for>
@@ -427,7 +427,7 @@
 		<set name="operateType" val="OP_ACTIVE" />
 		<set name="power" val="80" /> <!-- Base Land Rate -->
 		<set name="reuseDelay" val="30000" /> <!-- Guess -->
-		<set name="saveVs" val="WIT" />
+		<set name="saveVs" val="MEN" />
 		<set name="skillType" val="MUTE" />
 		<set name="target" val="TARGET_ONE" />
 		<for>

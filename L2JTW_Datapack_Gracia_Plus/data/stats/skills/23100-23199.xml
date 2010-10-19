@@ -667,6 +667,18 @@
 			</effect>
 		</for>
 	</skill>
+	<skill id="23169" levels="1" name="Mesmerized">
+		<!-- Critical Seduction has left you mesmerized. You cannot be buffed with Critical Seduction again during the next 40 minutes. -->
+		<set name="target" val="TARGET_NONE" />
+		<set name="skillType" val="NOTDONE" />
+		<set name="operateType" val="OP_PASSIVE" />
+	</skill>
+	<skill id="23170" levels="1" name="Mesmerized">
+		<!-- Rosy Seduction has left you mesmerized. You cannot be buffed with Rosy Seduction again during the next 10 minutes. -->
+		<set name="target" val="TARGET_NONE" />
+		<set name="skillType" val="NOTDONE" />
+		<set name="operateType" val="OP_PASSIVE" />
+	</skill>
 	<skill id="23171" levels="1" name="Phoenix Agathion Cute Trick">
 		<set name="target" val="TARGET_SELF" />
 		<set name="skillType" val="DUMMY" />

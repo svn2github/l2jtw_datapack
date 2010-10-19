@@ -29,7 +29,7 @@ import com.l2jserver.gameserver.model.zone.L2ZoneType;
  */
 public final class Q636_TruthBeyond extends Quest
 {
-	private static final String QN = "636_TruthBeyond";
+	private static final String qn = "636_TruthBeyond";
 	
 	private static final int ELIAH = 31329;
 	private static final int FLAURON = 32010;
@@ -51,7 +51,7 @@ public final class Q636_TruthBeyond extends Quest
 	@Override
 	public final String onAdvEvent(String event, L2Npc npc, L2PcInstance player)
 	{
-		final QuestState st = player.getQuestState(QN);
+		final QuestState st = player.getQuestState(qn);
 		if (st == null)
 			return null;
 		
@@ -73,7 +73,7 @@ public final class Q636_TruthBeyond extends Quest
 	@Override
 	public final String onTalk(L2Npc npc, L2PcInstance player)
 	{
-		final QuestState st = player.getQuestState(QN);
+		final QuestState st = player.getQuestState(qn);
 		if (st == null)
 			return getNoQuestMsg(player);
 		
@@ -124,6 +124,6 @@ public final class Q636_TruthBeyond extends Quest
 	
 	public static void main(String[] args)
 	{
-		new Q636_TruthBeyond(636, QN, "The Truth Beyond the Gate");
+		new Q636_TruthBeyond(636, qn, "門扉後的真實");
 	}
 }

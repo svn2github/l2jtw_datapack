@@ -283,6 +283,7 @@ public class MasterHandler
 		SkillHandler.getInstance().registerSkillHandler(new Dummy());
 		SkillHandler.getInstance().registerSkillHandler(new Extractable());
 		SkillHandler.getInstance().registerSkillHandler(new RefuelAirShip());
+		SkillHandler.getInstance().registerSkillHandler(new NornilsPower());
 		_log.config("Loaded " + SkillHandler.getInstance().size() + " SkillHandlers");
 	}
 	

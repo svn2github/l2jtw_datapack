@@ -133,6 +133,6 @@ public class Q20_BringUpWithLove extends Quest
 	
 	public static void main(String[] args)
 	{
-		new Q20_BringUpWithLove(20, qn, "Bring Up With Love");
+		new Q20_BringUpWithLove(20, qn, "請以愛心養育");
 	}
 }

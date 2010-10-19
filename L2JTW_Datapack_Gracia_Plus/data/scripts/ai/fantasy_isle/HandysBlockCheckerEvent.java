@@ -110,17 +110,20 @@ public class HandysBlockCheckerEvent extends Quest
 		}
 		return null;
 	}
-		
+	
 	@Override
 	public final String onSkillSee(L2Npc npc, L2PcInstance player, L2Skill skill, L2Object[] targets, boolean isPet)
 	{
-		if(player == null || npc == null) return null;
+		if(npc == null) return null;
 		
 		int arena = player.getBlockCheckerArena();
 		if(arena == -1 || arena > 3) return null;
 		
 		if(npc instanceof L2BlockInstance && npc.getNpcId() == BLOCK && player.getTarget() == npc)
 		{
+			if(Math.sqrt(player.getPlanDistanceSq(npc)) > skill.getEffectRange())
+				return null;
+			
 			if(skill.getId() == 5852 || skill.getId() == 5853)
 			{
 				L2BlockInstance block = (L2BlockInstance)npc;

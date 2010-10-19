@@ -16,20 +16,20 @@ package quests.TerritoryWarScripts;
 
 
 /**
-*
-* @author Gigiikun
-*/
+ *
+ * @author Gigiikun
+ */
 
 public class KillTheKnights extends TerritoryWarSuperClass
 {
 	public static String qn1 = "734_Piercethroughashield";
 	public static int qnu = 734;
 	public static String qna = "Pierce through a shield";
-
+	
 	public KillTheKnights()
 	{
 		super(qnu,qn1,qna);
-		CLASS_IDS = new int[]{5, 6, 20, 33, 90, 91, 99, 106};
+		CLASS_IDS = new int[] { 6, 91, 5, 90, 20, 99, 33, 106 };
 		qn = qn1;
 		RANDOM_MIN = 10;
 		RANDOM_MAX = 15;

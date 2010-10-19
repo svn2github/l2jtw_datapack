@@ -132,7 +132,7 @@ class Quest (JQuest) :
 		if npcId == ATHEBALDT :
 			second = player.getQuestState("193_SevenSignDyingMessage")
 			if st.getState() == State.COMPLETED :
-				htmltext = "<html><head><body>This quest has already been completed.<br></body></html>"
+				htmltext = "<html><body>這是已經完成的任務。</body></html>"
 			elif second and second.getState() == State.COMPLETED and id == State.CREATED and player.getLevel() >= 79 :
 				htmltext = "30760-01.htm"
 			elif cond == 1 :
@@ -201,7 +201,7 @@ class Quest (JQuest) :
 				htmltext = "31001-01.htm"
 		return htmltext
 
-QUEST	= Quest(194,qn,"Seven Sign Contract Of Mammon")
+QUEST	= Quest(194,qn,"七封印，財富的契約書")
 
 QUEST.addStartNpc(ATHEBALDT)
 QUEST.addTalkId(ATHEBALDT)

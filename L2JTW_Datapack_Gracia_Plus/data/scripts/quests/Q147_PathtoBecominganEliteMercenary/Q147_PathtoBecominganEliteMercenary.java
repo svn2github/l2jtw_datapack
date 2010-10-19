@@ -75,7 +75,10 @@ public class Q147_PathtoBecominganEliteMercenary extends Quest
 			switch(st.getState())
 			{
 				case State.CREATED :
-					htmltext = "elite-01.htm";
+					if (player.getClan() != null && player.getClan().getHasCastle() > 0)
+						htmltext = "castle.htm";
+					else
+						htmltext = "elite-01.htm";
 					break;
 				case State.STARTED :
 					if (st.getInt("cond") < 4)
@@ -113,6 +116,6 @@ public class Q147_PathtoBecominganEliteMercenary extends Quest
 	
 	public static void main(String[] args)
 	{
-		new Q147_PathtoBecominganEliteMercenary(147, qn, "Path to Becoming an Elite Mercenary");
+		new Q147_PathtoBecominganEliteMercenary(147, qn, "成為精銳傭兵的路");
 	}
 }

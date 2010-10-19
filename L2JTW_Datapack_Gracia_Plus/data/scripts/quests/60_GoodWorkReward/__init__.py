@@ -73,7 +73,7 @@ class Quest (JQuest) :
 		self.questItemIds = [10867,10868]
 		self.isNpcSpawned = 0
 
-	def onAdvEvent (self,event,npc, player) :
+	def onAdvEvent (self,event,npc,player) :
 		if event == "npc_cleanup" :
 			self.isNpcSpawned = 0
 			return

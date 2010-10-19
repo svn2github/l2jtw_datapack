@@ -343,7 +343,7 @@ public class Q350_EnhanceYourWeapon extends Quest
 			st.giveItems(GREEN_SOUL_CRYSTAL0_ID,1);
 		else if (event.endsWith("-11.htm"))
 			st.giveItems(BLUE_SOUL_CRYSTAL0_ID,1);
-		else if (event.equalsIgnoreCase("exit.htm"))
+		else if (event.endsWith("-22.htm"))
 			st.exitQuest(true);
 		return htmltext;
 	}
@@ -359,9 +359,20 @@ public class Q350_EnhanceYourWeapon extends Quest
 		if (st.getState() == State.CREATED)
 			st.set("cond","0");
 		if (st.getInt("cond") == 0)
-			htmltext = npc.getNpcId() + "-01.htm";
+		{
+			if (player.getLevel() >= 40)
+			{
+				htmltext = npc.getNpcId() + "-01.htm";
+			}
+			else
+			{
+				htmltext = npc.getNpcId() + "-00.htm";
+			}
+		}
 		else if (check(st))
+		{
 			htmltext = npc.getNpcId() + "-03.htm";
+		}
 		else if (st.getQuestItemsCount(RED_SOUL_CRYSTAL0_ID) == 0
 				&& st.getQuestItemsCount(GREEN_SOUL_CRYSTAL0_ID) == 0
 				&& st.getQuestItemsCount(BLUE_SOUL_CRYSTAL0_ID) == 0)
@@ -371,7 +382,7 @@ public class Q350_EnhanceYourWeapon extends Quest
 	
 	public static void main(String[] args)
 	{
-		new Q350_EnhanceYourWeapon(350, qn, "Enhance Your Weapon");
+		new Q350_EnhanceYourWeapon(350, qn, "力量集中在刀尖");
 	}
 	
 	/**

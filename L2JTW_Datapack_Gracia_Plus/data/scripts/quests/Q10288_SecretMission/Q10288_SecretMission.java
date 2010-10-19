@@ -164,6 +164,6 @@ public class Q10288_SecretMission extends Quest
 	
 	public static void main(String[] args)
 	{
-		new Q10288_SecretMission(10288, qn, "Secret Mission");
+		new Q10288_SecretMission(10288, qn, "¡Ù±K•Ù∞»");
 	}
 }

@@ -22,12 +22,15 @@ import com.l2jserver.gameserver.model.quest.QuestState;
 
 public class DimensionalMerchants extends Quest
 {
+	private static final String qn = "DimensionalMerchants";
+	private static final int DIMENSIONAL_MERCHANT = 32478;  // 維他命管理者
+
 	public DimensionalMerchants(int questId, String name, String descr)
 	{
 		super(questId, name, descr);
-		addStartNpc(32478);
-		addTalkId(32478);
-		addFirstTalkId(32478);
+		addStartNpc(DIMENSIONAL_MERCHANT);
+		addTalkId(DIMENSIONAL_MERCHANT);
+		addFirstTalkId(DIMENSIONAL_MERCHANT);
 	}
 
 	@Override
@@ -98,7 +101,7 @@ public class DimensionalMerchants extends Quest
 
 	public static void main(String[] args)
 	{
-		new DimensionalMerchants(-1, "DimensionalMerchants", "custom");
+		new DimensionalMerchants(-1, qn, "custom");
 	}
 
 }

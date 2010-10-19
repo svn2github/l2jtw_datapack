@@ -28,7 +28,7 @@ import com.l2jserver.gameserver.model.quest.State;
  */
 public final class Q637_ThroughOnceMore extends Quest
 {
-	private static final String QN = "637_ThroughOnceMore";
+	private static final String qn = "637_ThroughOnceMore";
 	
 	private static final int FLAURON = 32010;
 	private static final int[] MOBS = { 21565, 21566, 21567 };
@@ -54,7 +54,7 @@ public final class Q637_ThroughOnceMore extends Quest
 	@Override
 	public final String onAdvEvent(String event, L2Npc npc, L2PcInstance player)
 	{
-		final QuestState st = player.getQuestState(QN);
+		final QuestState st = player.getQuestState(qn);
 		if (st == null)
 			return null;
 		
@@ -73,7 +73,7 @@ public final class Q637_ThroughOnceMore extends Quest
 	@Override
 	public final String onTalk(L2Npc npc, L2PcInstance player)
 	{
-		final QuestState st = player.getQuestState(QN);
+		final QuestState st = player.getQuestState(qn);
 		if (st == null)
 			return getNoQuestMsg(player);
 		
@@ -121,7 +121,7 @@ public final class Q637_ThroughOnceMore extends Quest
 	@Override
 	public final String onKill(L2Npc npc, L2PcInstance player, boolean isPet)
 	{
-		final QuestState st = player.getQuestState(QN);
+		final QuestState st = player.getQuestState(qn);
 		if (st != null && st.getState() == State.STARTED)
 		{
 			final long count = st.getQuestItemsCount(NECRO_HEART);
@@ -152,6 +152,6 @@ public final class Q637_ThroughOnceMore extends Quest
 	
 	public static void main(String[] args)
 	{
-		new Q637_ThroughOnceMore(637, QN, "Through the Gate Once More");
+		new Q637_ThroughOnceMore(637, qn, "再次往那門扉之後");
 	}
 }

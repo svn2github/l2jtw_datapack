@@ -172,6 +172,6 @@ public class Q250_WatchWhatYouEat extends Quest
 	
 	public static void main(String[] args)
 	{
-		new Q250_WatchWhatYouEat(250, qn, "Watch What You Eat");
+		new Q250_WatchWhatYouEat(250, qn, "Ω–§≈¿H∑N≠π•Œ");
 	}
 }
