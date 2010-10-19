@@ -5,6 +5,7 @@ DELETE FROM `spawnlist` WHERE `id` > 820000 AND `id` < 880000;
 
 
 /************ 修正32007加爾巴-釣魚會員 ************/
+DELETE FROM `spawnlist` WHERE `npc_templateid` IN (32007);
 INSERT INTO `spawnlist` (location,count,npc_templateid,locx,locy,locz,randomx,randomy,heading,respawn_delay,loc_id,periodOfDay) VALUES 
 ('',1,32007,140967,-123600,-1905,0,0,11829,60,0,0);
 UPDATE `npc` SET `rhand` = '7560' WHERE `id` IN (32007);
@@ -120,6 +121,7 @@ INSERT INTO `spawnlist` (location,count,npc_templateid,locx,locy,locz,randomx,ra
 -- 加入地下競技場的入場管理員
 DELETE FROM `spawnlist` WHERE `npc_templateid` IN (32377); -- 刪除地下競技場重複的入場管理員
 UPDATE `npc` SET `type` = 'L2Teleporter' WHERE `id` IN (32503); -- 入場管理員 柯雷塔的晶體
+DELETE FROM `spawnlist` WHERE `npc_templateid` IN (32491,32503,32513,32514,32515,32516,32377);
 INSERT INTO `spawnlist` (location,count,npc_templateid,locx,locy,locz,randomx,randomy,heading,respawn_delay,loc_id,periodOfDay) VALUES 
 ('', 1, 32491, -82166, -49176, -10341, 0, 0, 31175, 60, 0, 0),  -- 地下競技場助手
 ('', 1, 32503, -70661, -71066, -1419, 0, 0, 49151, 60, 0, 0),   -- 入場管理員 柯雷塔的晶體
@@ -1556,6 +1558,7 @@ REPLACE INTO castle_door VALUES (62, 24140007, 'Rainbow_Springs_outer_007', 1407
 REPLACE INTO castle_door VALUES (62, 24140008, 'Rainbow_Springs_outer_008', 140722, -123934, -1932, 140709, -123935, -1941, 140723, -123884, -1491, 158250, 644, 518, 'false');
 
 -- Messenger
+DELETE FROM `spawnlist` WHERE `npc_templateid` IN (35604);
 INSERT INTO `spawnlist` (location,count,npc_templateid,locx,locy,locz,randomx,randomy,heading,respawn_delay,loc_id,periodOfDay) VALUES 
 ('rainbowsprings_messenger', 1, 35604, 143944, -119196, -2136, 0, 0, 1000, 0, 0, 0); 
 
