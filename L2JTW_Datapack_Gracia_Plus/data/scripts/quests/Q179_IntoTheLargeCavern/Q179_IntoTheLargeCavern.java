@@ -106,6 +106,10 @@ public class Q179_IntoTheLargeCavern extends Quest
 			{
 				htmltext = "32258-01.htm";
 			}
+			else if (npc.getNpcId() == _nornil && st.getState() == State.COMPLETED)
+			{
+				htmltext = "32258-exit.htm";
+			}
 		}
 		else
 			htmltext = "32138-00.htm";

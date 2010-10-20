@@ -106,6 +106,10 @@ public class Q182_NewRecruits extends Quest
 			{
 				htmltext = "32258-01.htm";
 			}
+			else if (npc.getNpcId() == _nornil && st.getState() == State.COMPLETED)
+			{
+				htmltext = "32258-exit.htm";
+			}
 		}
 		
 		return htmltext;

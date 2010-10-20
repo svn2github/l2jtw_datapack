@@ -22,7 +22,7 @@ import com.l2jserver.gameserver.instancemanager.QuestManager;
 import com.l2jserver.gameserver.model.L2Effect;
 import com.l2jserver.gameserver.model.L2Party;
 import com.l2jserver.gameserver.model.L2Skill;
-import com.l2jserver.gameserver.model.actor.L2Attackable;
+//import com.l2jserver.gameserver.model.actor.L2Attackable;
 import com.l2jserver.gameserver.model.actor.L2Character;
 import com.l2jserver.gameserver.model.actor.L2Npc;
 import com.l2jserver.gameserver.model.actor.instance.L2DoorInstance;
@@ -71,6 +71,7 @@ public class NornilsGarden extends Quest
 	private static final int INSTANCE_LVL_MAX = 21;
 
 	private static final int _garden_guard = 32330;
+	private static final int _nornil = 32258;
 
 	private static final int[] _final_gates = { 32260, 32261, 32262 };
 	
@@ -185,7 +186,7 @@ public class NornilsGarden extends Quest
 			e.exit();
 		}
 	}
-
+	/*
 	public String onAggroRangeEnter(L2Npc npc, L2PcInstance player, boolean isPet)
 	{
 		InstanceWorld tmpworld = InstanceManager.getInstance().getWorld(player.getInstanceId());
@@ -196,19 +197,16 @@ public class NornilsGarden extends Quest
 				((L2Attackable) npc).clearAggroList();
 				npc.getAI().setIntention(CtrlIntention.AI_INTENTION_IDLE);
 				npc.setTarget(player);
-				if (skill1 != null)
-					npc.doCast(SkillTable.getInstance().getInfo(4322,1));
-				if (skill2 != null)
-					npc.doCast(SkillTable.getInstance().getInfo(4327,1));
-				if (skill3 != null)
-					npc.doCast(SkillTable.getInstance().getInfo(4329,1));
-				if (skill4 != null)
-					npc.doCast(SkillTable.getInstance().getInfo(4324,1));
+				giveBuffs(player);
+				//npc.doCast(SkillTable.getInstance().getInfo(4322,1));
+				//npc.doCast(SkillTable.getInstance().getInfo(4327,1));
+				//npc.doCast(SkillTable.getInstance().getInfo(4329,1));
+				//npc.doCast(SkillTable.getInstance().getInfo(4324,1));
 			}
 		}
 		return null;
 	}
-
+	*/
 	private static final void giveBuffs(L2Character ch)
 	{
 		if(skill1 != null)
@@ -519,8 +517,6 @@ public class NornilsGarden extends Quest
 	@Override
 	public final String onAdvEvent(String event, L2Npc npc, L2PcInstance player)
 	{
-		player.sendMessage("On Event");
-		
 		String htmltext = event;
 		QuestState st = player.getQuestState(qn);
 		if(st == null)
@@ -531,16 +527,6 @@ public class NornilsGarden extends Quest
 			try
 			{
 				htmltext = enterInstance(npc, player);
-			}
-			catch (Exception e)
-			{
-			}
-		}
-		else if (npc.getNpcId() == 32258 && event.equalsIgnoreCase("exit"))
-		{
-			try
-			{
-				exitInstance(player);
 			}
 			catch (Exception e)
 			{
@@ -603,7 +589,19 @@ public class NornilsGarden extends Quest
 				return npc.getNpcId()+"-01.html";
 			}
 			else
+			{
 				return getNoQuestMsg(player);
+			}
+		}
+		if (npc.getNpcId() == _nornil)
+		{
+			try
+			{
+				exitInstance(player);
+			}
+			catch (Exception e)
+			{
+			}
 		}
 
 		return null;
@@ -633,10 +631,6 @@ public class NornilsGarden extends Quest
 		else if (npc.getNpcId() == 18362 && npc.getInstanceId() > 0)
 		{
 			spawn1(npc);
-		}
-		else if (npc.getNpcId() == 18437 && npc.getInstanceId() > 0)
-		{
-			npc.setIsInvul(true);
 		}
 		return null;
 	}
@@ -690,6 +684,7 @@ public class NornilsGarden extends Quest
 		addStartNpc(_garden_guard);
 		addFirstTalkId(_garden_guard);
 		addTalkId(_garden_guard);
+		addTalkId(_nornil);
 
 		for(int i[] : _gatekeepers)
 			addKillId(i[0]);
@@ -697,10 +692,10 @@ public class NornilsGarden extends Quest
 			addEnterZoneId(i[0]);
 		for(int i : _final_gates)
 			addTalkId(i);
-		
+
 		addAttackId(_herb_jar);
 		addAttackId(18362); // first garden guard
-		addAggroRangeEnterId(18437);
+		//addAggroRangeEnterId(18437);
 	}
 
 	public static void main(String[] args)
