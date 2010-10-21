@@ -700,9 +700,9 @@ DELETE FROM `spawnlist` WHERE `npc_templateid` IN (32297,32354,32345,18463,18464
 -- 殤之大地守門人
 DELETE FROM `spawnlist` WHERE `npc_templateid` IN (18467);
 INSERT INTO `spawnlist` (location,count,npc_templateid,locx,locy,locz,randomx,randomy,heading,respawn_delay,loc_id,periodOfDay) VALUES 
-('殤之大地', 1, 18467, 21, 234997, -3272, 0, 0, 32767, 300, 0, 0),
-('殤之大地', 1, 18467, 1, 234887, -3272, 0, 0, 32189, 300, 0, 0),
-('殤之大地', 1, 18467, 0, 235109, -3272, 0, 0, 33989, 300, 0, 0);
+('', 1, 18467, 21, 234997, -3272, 0, 0, 32767, 300, 0, 0),
+('', 1, 18467, 1, 234887, -3272, 0, 0, 32189, 300, 0, 0),
+('', 1, 18467, 0, 235109, -3272, 0, 0, 33989, 300, 0, 0);
 
 -- Seed OF Destruction
 UPDATE `npc` SET `type`='L2Monster' where id='18696';  --
@@ -1461,18 +1461,18 @@ DELETE FROM npcskills WHERE npcid IN (18437);
 UPDATE npc SET `level` = '75' WHERE `id` in (16071,16072);
 
 -- etcitem for Vitality CT2.5
-REPLACE INTO `etcitem` VALUES (20005,'活力紅蔘','','false','herb',0,'normal','paper','none',-1,-1,0,0,'true','true','true','true','true','ItemSkills','22005-1;');
-REPLACE INTO `etcitem` VALUES (20214,'巧克力餅乾','','false','potion',5,'stackable','paper','none',-1,-1,0,0,'true','true','true','true','true','ItemSkills','22028-1;');
-REPLACE INTO `etcitem` VALUES (13787,'強力膠','','false','potion',180,'stackable','paper','none',-1,-1,0,0,'true','true','true','true','true','ItemSkills','5849-1;');
-REPLACE INTO `etcitem` VALUES (13788,'地雷','','false','potion',180,'stackable','paper','none',-1,-1,0,0,'true','true','true','true','true','ItemSkills','5851-1;');
+REPLACE INTO `etcitem` VALUES (20005,'Energy Red Ginseng','','false','herb',0,'normal','paper','none',-1,-1,0,0,'true','true','true','true','true','ItemSkills','22005-1;');
+REPLACE INTO `etcitem` VALUES (20214,'Chocolate Cookie','','false','potion',5,'stackable','paper','none',-1,-1,0,0,'true','true','true','true','true','ItemSkills','22028-1;');
+REPLACE INTO `etcitem` VALUES (13787,'Bond','','false','potion',180,'stackable','paper','none',-1,-1,0,0,'true','true','true','true','true','ItemSkills','5849-1;');
+REPLACE INTO `etcitem` VALUES (13788,'Land Mine','','false','potion',180,'stackable','paper','none',-1,-1,0,0,'true','true','true','true','true','ItemSkills','5851-1;');
 
 UPDATE `etcitem` SET `item_type` = 'none' WHERE `item_id` = '13798';  -- 靈魂的片段
 
 -- New ectitem 2009-08-26
-REPLACE INTO `etcitem` VALUES (20602,'靈魂銀紙-活動','','false','none',0,'stackable','wood','none',-1,-1,0,0,'false','false','true','false','true','ItemSkills','22099-1;');
-REPLACE INTO `etcitem` VALUES (20603,'靈魂香-活動','','false','none',0,'stackable','wood','none',-1,-1,0,0,'false','false','true','false','true','ItemSkills','22100-1;');
-REPLACE INTO `etcitem` VALUES (20623,'靈魂銀紙-香組','','false','none',0,'stackable','wood','none',-1,-1,0,0,'false','false','true','false','true','ExtractableItems','0-0;');
-REPLACE INTO `etcitem` VALUES (20630,'靈魂魔法箱','','false','none',0,'stackable','wood','none',-1,-1,0,0,'false','false','true','false','true','ItemSkills','22102-1;');
+REPLACE INTO `etcitem` VALUES (20602,'Soul Silver Foil - Event','','false','none',0,'stackable','wood','none',-1,-1,0,0,'false','false','true','false','true','ItemSkills','22099-1;');
+REPLACE INTO `etcitem` VALUES (20603,'Soul Scent - Event','','false','none',0,'stackable','wood','none',-1,-1,0,0,'false','false','true','false','true','ItemSkills','22100-1;');
+REPLACE INTO `etcitem` VALUES (20623,'Soul Silver Foil - Scent Pack','','false','none',0,'stackable','wood','none',-1,-1,0,0,'false','false','true','false','true','ExtractableItems','0-0;');
+REPLACE INTO `etcitem` VALUES (20630,'Soul Magic Box','','false','none',0,'stackable','wood','none',-1,-1,0,0,'false','false','true','false','true','ItemSkills','22102-1;');
 
 -- ----------------- --
 -- Devastated Castle --
