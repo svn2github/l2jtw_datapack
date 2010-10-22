@@ -62,7 +62,7 @@ UPDATE `droplist` SET `mobId` = '21070' WHERE `mobId` IN (21071); -- 封印大天使
 
 -- 加入維他命管理者
 REPLACE INTO `spawnlist` (location,count,npc_templateid,locx,locy,locz,randomx,randomy,heading,respawn_delay,loc_id,periodOfDay) VALUES 
-('', 1, 32478, 17735, 169802, -3495, 0, 0, 19465, 60, 0, 0); -- 獵人村莊
+('', 1, 32478, 17735, 169802, -3495, 0, 0, 19465, 60, 0, 0); -- 芙羅蘭村莊
 
 -- 修正NPC位置
 DELETE FROM `spawnlist` WHERE `npc_templateid` IN (30134,31605,31675,31679,31677,30767); -- 刪除不正確位置的NPC
