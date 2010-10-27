@@ -119,10 +119,10 @@ public class HandysBlockCheckerEvent extends Quest
 		int arena = player.getBlockCheckerArena();
 		if(arena == -1 || arena > 3) return null;
 		
-		if(npc instanceof L2BlockInstance && npc.getNpcId() == BLOCK && player.getTarget() == npc)
+		if(npc.getNpcId() == BLOCK && player.getTarget() == npc)
 		{
-			if(Math.sqrt(player.getPlanDistanceSq(npc)) > skill.getEffectRange())
-				return null;
+			if(!player.isInsideRadius(npc, skill.getEffectRange() + 5, false, false))
+					return null;
 			
 			if(skill.getId() == 5852 || skill.getId() == 5853)
 			{

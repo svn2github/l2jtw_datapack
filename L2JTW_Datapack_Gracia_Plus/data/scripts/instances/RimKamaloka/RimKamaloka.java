@@ -818,7 +818,7 @@ public class RimKamaloka extends Quest
 
 		final int npcId = npc.getNpcId();
 		if (npcId == START_NPC)
-			return npc.getCastle().getCName() + ".htm";
+			return npc.getCastle().getName() + ".htm";
 
 		else if (npcId == REWARDER)
 		{

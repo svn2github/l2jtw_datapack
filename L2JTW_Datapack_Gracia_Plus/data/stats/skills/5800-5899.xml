@@ -166,7 +166,7 @@
 		<set name="ignoreResists" val="true" />
 		<set name="mpConsume" val="10" />
 		<set name="power" val="80" />
-		<set name="target" val="TARGET_EVENT" />
+		<set name="target" val="TARGET_ONE" />
 		<set name="hitTime" val="1000" />
 		<set name="skillType" val="DEBUFF" />
 		<set name="isMagic" val="true" />
@@ -621,7 +621,7 @@
 		<set name="ignoreResists" val="true" />
 		<set name="mpConsume" val="10" />
 		<set name="power" val="80" />
-		<set name="target" val="TARGET_EVENT" />
+		<set name="target" val="TARGET_ONE" />
 		<set name="hitTime" val="1000" />
 		<set name="skillType" val="DEBUFF" />
 		<set name="isMagic" val="true" />
@@ -648,7 +648,7 @@
 		<set name="itemConsumeCount" val="1" />
 		<set name="power" val="80" />
 		<set name="ignoreResists" val="true" />
-		<set name="target" val="TARGET_EVENT" />
+		<set name="target" val="TARGET_ONE" />
 		<set name="skillType" val="DEBUFF" />
 		<set name="isMagic" val="true" />
 		<set name="operateType" val="OP_ACTIVE" />

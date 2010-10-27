@@ -232,6 +232,7 @@ public class MasterHandler
 		ItemHandler.getInstance().registerItemHandler(new Disguise());
 		ItemHandler.getInstance().registerItemHandler(new ManaPotion());
 		ItemHandler.getInstance().registerItemHandler(new EnergyStarStone());
+		ItemHandler.getInstance().registerItemHandler(new EventItemHandler());  // Add HBCE by pmq
 		ItemHandler.getInstance().registerItemHandler(new QuestItems());  // Add CH by pmq
 		_log.config("Loaded " + ItemHandler.getInstance().size() + " ItemHandlers");
 	}

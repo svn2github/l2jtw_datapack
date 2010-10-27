@@ -58,19 +58,7 @@ public class ItemSkillsTemplate implements IItemHandler
 			playable.sendPacket(ActionFailed.STATIC_PACKET);
 			return;
 		}
-		// Add HBCE by pmq Start
-		if (activeChar.getBlockCheckerArena() != -1)
-		{
-			int itemId = item.getItem().getItemId();
-			if (itemId != 13787 && itemId != 13788)
-			{
-				SystemMessage msg = new SystemMessage(SystemMessageId.S1_CANNOT_BE_USED);
-				msg.addItemName(item);
-				activeChar.sendPacket(msg);
-				return;
-			}
-		}
-		// Add HBCE by pmq End
+		
 		// pets can use items only when they are tradeable
 		if (isPet && !item.isTradeable())
 		{
