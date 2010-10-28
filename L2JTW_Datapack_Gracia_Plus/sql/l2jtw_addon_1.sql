@@ -51,6 +51,8 @@ UPDATE `armor` SET `skill` = '21005-3;' WHERE `item_id` IN (20016);
 UPDATE `armor` SET `skill` = '21006-1;21007-1;' WHERE `item_id` IN (20018);
 UPDATE `armor` SET `skill` = '21004-1;' WHERE `item_id` IN (20019);
 
+-- 修正 禮服為輕裝
+UPDATE `armor` SET `armor_type` = 'light' WHERE `item_id` IN (6408);
 
 /************ 增加/修正/刪除NPC ************/
 UPDATE `npc` SET `type` = 'L2VillageMaster' WHERE `id` IN (32191); -- 修正漢娜琳  宗師的NPC類型
