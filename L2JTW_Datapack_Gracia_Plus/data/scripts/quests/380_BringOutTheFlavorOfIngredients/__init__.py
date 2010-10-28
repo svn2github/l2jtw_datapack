@@ -48,7 +48,7 @@ class Quest (JQuest) :
         st.giveItems(JELLY_RECIPE,1)
         st.playSound("ItemSound.quest_finish")
      else :
-        htmltext = "I'll squeeze the jelly from your eyes"
+        htmltext = "我會從你的眼睛擠出果凍來"
      st.exitQuest(1)
    return htmltext
 
