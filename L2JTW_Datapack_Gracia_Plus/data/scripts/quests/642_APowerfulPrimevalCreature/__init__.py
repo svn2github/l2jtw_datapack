@@ -89,7 +89,8 @@ class Quest (JQuest) :
 			if count_tissue < 150 or count_egg == 0 :
 				htmltext = Dinn_J
 			elif ALT_RP_100 != 0 :
-				htmltext = st.showHtmlFile("Dinn_I").replace("60%","100%")
+				#htmltext = st.showHtmlFile("Dinn_I").replace("60%","100%")
+				htmltext = Dinn_I
 		elif event.isdigit() and int(event) in REWARDS :
 			if count_tissue >= 150 and count_egg >= 1 :
 				htmltext = Dinn_K
