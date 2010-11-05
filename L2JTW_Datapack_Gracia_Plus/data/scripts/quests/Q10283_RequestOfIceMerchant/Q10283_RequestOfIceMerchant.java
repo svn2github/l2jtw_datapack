@@ -110,7 +110,7 @@ public class Q10283_RequestOfIceMerchant extends Quest
 						htmltext = "32020-08.htm";
 					break;
 				case State.COMPLETED:
-					htmltext = "31350-08.htm";
+					htmltext = "32020-09.htm";
 					break;
 			}
 		}
