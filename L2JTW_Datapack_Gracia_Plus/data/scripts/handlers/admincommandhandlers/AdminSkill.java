@@ -442,7 +442,7 @@ public class AdminSkill implements IAdminCommandHandler
 			String skillname = skill.getName();
 			player.sendMessage(MessageTable.Messages[1849].getExtra(1) + skillname + MessageTable.Messages[1849].getExtra(2));
 			player.removeSkill(skill);
-			//Admin information	
+			//Admin information
 			activeChar.sendMessage(MessageTable.Messages[1850].getExtra(1) + skillname + MessageTable.Messages[1850].getExtra(2) + player.getName() + MessageTable.Messages[1850].getExtra(3));
 			if (Config.DEBUG)
 				_log.fine("[GM]" + activeChar.getName() + " removed skill " + skillname + " from " + player.getName() + ".");

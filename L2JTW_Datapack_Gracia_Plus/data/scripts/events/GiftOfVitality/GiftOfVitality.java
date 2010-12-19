@@ -73,7 +73,7 @@ public class GiftOfVitality extends Quest
 		String htmltext = "";
 		QuestState st = player.getQuestState(getName());
 		htmltext = event;
-
+		
 		if (event.equalsIgnoreCase("vitality"))
 		{
 			long _reuse = 0;

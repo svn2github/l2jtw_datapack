@@ -22,7 +22,6 @@ import com.l2jserver.gameserver.instancemanager.QuestManager;
 import com.l2jserver.gameserver.model.L2Effect;
 import com.l2jserver.gameserver.model.L2Party;
 import com.l2jserver.gameserver.model.L2Skill;
-//import com.l2jserver.gameserver.model.actor.L2Attackable;
 import com.l2jserver.gameserver.model.actor.L2Character;
 import com.l2jserver.gameserver.model.actor.L2Npc;
 import com.l2jserver.gameserver.model.actor.instance.L2DoorInstance;
@@ -245,7 +244,7 @@ public class NornilsGarden extends Quest
 		if (inst instanceof NornilsWorld)
 		{
 			NornilsWorld world = ((NornilsWorld) inst);
-			world.allowed.remove(player);
+			world.allowed.remove(Integer.valueOf(player.getObjectId()));
 			player.getAI().setIntention(CtrlIntention.AI_INTENTION_IDLE);
 			player.setInstanceId(0);
 			player.teleToLocation(EXIT_PPL[0], EXIT_PPL[1], EXIT_PPL[2], true);

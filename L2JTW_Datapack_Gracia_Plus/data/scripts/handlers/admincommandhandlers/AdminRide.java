@@ -68,7 +68,8 @@ public class AdminRide implements IAdminCommandHandler
 			else if (command.startsWith("admin_ride_horse")) // handled using transformation
 			{
 				if (activeChar.isTransformed() || activeChar.isInStance())
-					activeChar.sendPacket(new SystemMessage(SystemMessageId.YOU_CANNOT_MOUNT_A_STEED_WHILE_TRANSFORMED));
+					//FIXME: Wrong Message
+					activeChar.sendPacket(new SystemMessage(SystemMessageId.YOU_CANNOT_BOARD_AN_AIRSHIP_WHILE_TRANSFORMED));
 				else
 					TransformationManager.getInstance().transformPlayer(PURPLE_MANED_HORSE_TRANSFORMATION_ID, activeChar);
 				
@@ -77,7 +78,8 @@ public class AdminRide implements IAdminCommandHandler
 			else if (command.startsWith("admin_ride_bike")) // handled using transformation
 			{
 				if (activeChar.isTransformed() || activeChar.isInStance())
-					activeChar.sendPacket(new SystemMessage (SystemMessageId.YOU_CANNOT_MOUNT_A_STEED_WHILE_TRANSFORMED));
+					//FIXME: Wrong Message
+					activeChar.sendPacket(new SystemMessage (SystemMessageId.YOU_CANNOT_BOARD_AN_AIRSHIP_WHILE_TRANSFORMED));
 				else
 					TransformationManager.getInstance().transformPlayer(JET_BIKE_TRANSFORMATION_ID, activeChar);
 

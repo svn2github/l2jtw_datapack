@@ -17,6 +17,7 @@ package events.MasterOfEnchanting;
 import com.l2jserver.gameserver.instancemanager.QuestManager;
 import com.l2jserver.gameserver.model.actor.L2Npc;
 import com.l2jserver.gameserver.model.actor.instance.L2PcInstance;
+import com.l2jserver.gameserver.model.itemcontainer.Inventory;
 import com.l2jserver.gameserver.model.quest.Quest;
 import com.l2jserver.gameserver.model.quest.QuestState;
 import com.l2jserver.gameserver.network.SystemMessageId;
@@ -26,7 +27,7 @@ import com.l2jserver.util.Rnd;
 /**
  * Event Code for "Master of Enchanting"
  * http://www.lineage2.com/archive/2009/06/master_of_encha.html
- * @author  Gnat
+ * @author  Gnacik
  */
 public class MasterOfEnchanting extends Quest
 {
@@ -42,7 +43,6 @@ public class MasterOfEnchanting extends Quest
 	private static final int _scroll_1_price		= 77777;
 	private static final int _scroll_10_price		= 777770;
 
-	private static final int _hand_slot				= 16;
 	private static final int[] _hat_shadow_reward	= { 13074, 13075, 13076 };
 	private static final int[] _hat_event_reward	= { 13518, 13519, 13522 };
 	private static final int[] _crystal_reward 		= { 9570, 9571, 9572 };
@@ -79,6 +79,10 @@ public class MasterOfEnchanting extends Quest
 			long _curr_time = System.currentTimeMillis();
 			String value = q.loadGlobalQuestVar(player.getAccountName());
 			long _reuse_time = value == "" ? 0 : Long.parseLong(value);
+			if ( player.getCreateTime() > Long.parseLong("1246913000000"))
+			{
+				return "32599-bidth.htm";
+			}
 			if (_curr_time > _reuse_time)
 			{
 				if (st.getQuestItemsCount(_adena) > _scroll_24_price)
@@ -151,9 +155,9 @@ public class MasterOfEnchanting extends Quest
 		}
 		else if (event.equalsIgnoreCase("receive_reward"))
 		{
-			if (st.getItemEquipped(_hand_slot) == _master_yogi_staff && st.getEnchantLevel(_master_yogi_staff) > 3)
+			if (st.getItemEquipped(Inventory.PAPERDOLL_RHAND) == _master_yogi_staff && st.getEnchantLevel(_master_yogi_staff) > 3)
 			{
-				switch (st.getEnchantLevel(_master_yogi_staff))
+				switch(st.getEnchantLevel(_master_yogi_staff))
 				{
 					case 4:
 						st.giveItems(6406, 1);	// Firework
@@ -221,7 +225,7 @@ public class MasterOfEnchanting extends Quest
 					case 23:
 						st.giveItems(13988, 1);	// S80 Grade Weapon Chest (Event)
 					default:
-						if (st.getEnchantLevel(_master_yogi_staff) >= 23)
+						if (st.getEnchantLevel(_master_yogi_staff) > 23)
 							st.giveItems(13988, 1);	// S80 Grade Weapon Chest (Event)
 						break;
 				}

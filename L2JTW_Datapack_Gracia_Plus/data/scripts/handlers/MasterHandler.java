@@ -80,6 +80,7 @@ public class MasterHandler
 		AdminCommandHandler.getInstance().registerAdminCommandHandler(new AdminCache());
 		AdminCommandHandler.getInstance().registerAdminCommandHandler(new AdminCamera());
 		AdminCommandHandler.getInstance().registerAdminCommandHandler(new AdminChangeAccessLevel());
+		AdminCommandHandler.getInstance().registerAdminCommandHandler(new AdminClan());
 		AdminCommandHandler.getInstance().registerAdminCommandHandler(new AdminCHSiege());  // Add CH by pmq
 		AdminCommandHandler.getInstance().registerAdminCommandHandler(new AdminCreateItem());
 		AdminCommandHandler.getInstance().registerAdminCommandHandler(new AdminCursedWeapons());
@@ -161,10 +162,13 @@ public class MasterHandler
 		BypassHandler.getInstance().registerBypassHandler(new ManorManager());
 		BypassHandler.getInstance().registerBypassHandler(new Multisell());
 		BypassHandler.getInstance().registerBypassHandler(new Observation());
+		BypassHandler.getInstance().registerBypassHandler(new OlympiadObservation());
+		BypassHandler.getInstance().registerBypassHandler(new OlympiadManagerLink());
 		BypassHandler.getInstance().registerBypassHandler(new QuestLink());
+		BypassHandler.getInstance().registerBypassHandler(new PlayerHelp());
 		BypassHandler.getInstance().registerBypassHandler(new PrivateWarehouse());
 		BypassHandler.getInstance().registerBypassHandler(new QuestList());
-		BypassHandler.getInstance().registerBypassHandler(new ReceivePremium());  // Add PI by pmq
+		BypassHandler.getInstance().registerBypassHandler(new ReceivePremium());
 		BypassHandler.getInstance().registerBypassHandler(new ReleaseAttribute());
 		BypassHandler.getInstance().registerBypassHandler(new RemoveDeathPenalty());
 		BypassHandler.getInstance().registerBypassHandler(new RemoveHennaList());
@@ -177,6 +181,7 @@ public class MasterHandler
 		BypassHandler.getInstance().registerBypassHandler(new TerritoryStatus());
 		BypassHandler.getInstance().registerBypassHandler(new TerritoryWar());
 		BypassHandler.getInstance().registerBypassHandler(new Transform());
+		BypassHandler.getInstance().registerBypassHandler(new VoiceCommand());
 		BypassHandler.getInstance().registerBypassHandler(new Wear());
 		_log.config("Loaded " + BypassHandler.getInstance().size() + " BypassHandlers");
 	}
@@ -232,7 +237,7 @@ public class MasterHandler
 		ItemHandler.getInstance().registerItemHandler(new Disguise());
 		ItemHandler.getInstance().registerItemHandler(new ManaPotion());
 		ItemHandler.getInstance().registerItemHandler(new EnergyStarStone());
-		ItemHandler.getInstance().registerItemHandler(new EventItemHandler());  // Add HBCE by pmq
+		ItemHandler.getInstance().registerItemHandler(new EventItem());
 		ItemHandler.getInstance().registerItemHandler(new QuestItems());  // Add CH by pmq
 		_log.config("Loaded " + ItemHandler.getInstance().size() + " ItemHandlers");
 	}
@@ -279,6 +284,7 @@ public class MasterHandler
 		SkillHandler.getInstance().registerSkillHandler(new TransformDispel());
 		SkillHandler.getInstance().registerSkillHandler(new Trap());
 		SkillHandler.getInstance().registerSkillHandler(new GiveSp());
+		SkillHandler.getInstance().registerSkillHandler(new GiveReco());
 		SkillHandler.getInstance().registerSkillHandler(new GiveVitality());
 		SkillHandler.getInstance().registerSkillHandler(new InstantJump());
 		SkillHandler.getInstance().registerSkillHandler(new Dummy());

@@ -45,25 +45,25 @@ public class Core extends L2AttackableAIScript
 	private static final int SUSCEPTOR = 29011;
 	//private static final int PERUM = 29012;
 	//private static final int PREMO = 29013;
-
+	
 	//CORE Status Tracking :
 	private static final byte ALIVE = 0; //Core is spawned.
 	private static final byte DEAD = 1; //Core has been killed.
-
+	
 	private static boolean _FirstAttacked;
-
+	
 	List<L2Attackable> Minions = new FastList<L2Attackable>();
-
+	
 	public Core(int id, String name, String descr)
 	{
 		super(id, name, descr);
-
+		
 		int[] mobs =
 		{
 				CORE, DEATH_KNIGHT, DOOM_WRAITH, SUSCEPTOR
 		};
 		registerMobs(mobs);
-
+		
 		_FirstAttacked = false;
 		StatsSet info = GrandBossManager.getInstance().getStatsSet(CORE);
 		int status = GrandBossManager.getInstance().getBossStatus(CORE);
@@ -99,43 +99,43 @@ public class Core extends L2AttackableAIScript
 			this.spawnBoss(core);
 		}
 	}
-
+	
 	@Override
 	public void saveGlobalData()
 	{
 		String val = "" + _FirstAttacked;
 		saveGlobalQuestVar("Core_Attacked", val);
 	}
-
+	
 	public void spawnBoss(L2GrandBossInstance npc)
 	{
 		GrandBossManager.getInstance().addBoss(npc);
 		npc.broadcastPacket(new PlaySound(1, "BS01_A", 1, npc.getObjectId(), npc.getX(), npc.getY(), npc.getZ()));
 		//Spawn minions
-		L2Npc mob;
+		L2Attackable mob;
 		for (int i = 0; i < 5; i++)
 		{
 			int x = 16800 + i * 360;
-			mob = addSpawn(DEATH_KNIGHT, x, 110000, npc.getZ(), 280 + Rnd.get(40), false, 0);
+			mob = (L2Attackable)addSpawn(DEATH_KNIGHT, x, 110000, npc.getZ(), 280 + Rnd.get(40), false, 0);
 			mob.setIsRaidMinion(true);
-			Minions.add((L2Attackable) mob);
-			mob = addSpawn(DEATH_KNIGHT, x, 109000, npc.getZ(), 280 + Rnd.get(40), false, 0);
+			Minions.add(mob);
+			mob = (L2Attackable)addSpawn(DEATH_KNIGHT, x, 109000, npc.getZ(), 280 + Rnd.get(40), false, 0);
 			mob.setIsRaidMinion(true);
-			Minions.add((L2Attackable) mob);
+			Minions.add(mob);
 			int x2 = 16800 + i * 600;
-			mob = addSpawn(DOOM_WRAITH, x2, 109300, npc.getZ(), 280 + Rnd.get(40), false, 0);
+			mob = (L2Attackable)addSpawn(DOOM_WRAITH, x2, 109300, npc.getZ(), 280 + Rnd.get(40), false, 0);
 			mob.setIsRaidMinion(true);
-			Minions.add((L2Attackable) mob);
+			Minions.add(mob);
 		}
 		for (int i = 0; i < 4; i++)
 		{
 			int x = 16800 + i * 450;
-			mob = addSpawn(SUSCEPTOR, x, 110300, npc.getZ(), 280 + Rnd.get(40), false, 0);
+			mob = (L2Attackable)addSpawn(SUSCEPTOR, x, 110300, npc.getZ(), 280 + Rnd.get(40), false, 0);
 			mob.setIsRaidMinion(true);
-			Minions.add((L2Attackable) mob);
+			Minions.add(mob);
 		}
 	}
-
+	
 	@Override
 	public String onAdvEvent(String event, L2Npc npc, L2PcInstance player)
 	{
@@ -147,9 +147,9 @@ public class Core extends L2AttackableAIScript
 		}
 		else if (event.equalsIgnoreCase("spawn_minion"))
 		{
-			L2Npc mob = addSpawn(npc.getNpcId(), npc.getX(), npc.getY(), npc.getZ(), npc.getHeading(), false, 0);
+			L2Attackable mob = (L2Attackable)addSpawn(npc.getNpcId(), npc.getX(), npc.getY(), npc.getZ(), npc.getHeading(), false, 0);
 			mob.setIsRaidMinion(true);
-			Minions.add((L2Attackable) mob);
+			Minions.add(mob);
 		}
 		else if (event.equalsIgnoreCase("despawn_minions"))
 		{
@@ -163,7 +163,7 @@ public class Core extends L2AttackableAIScript
 		}
 		return super.onAdvEvent(event, npc, player);
 	}
-
+	
 	@Override
 	public String onAttack(L2Npc npc, L2PcInstance attacker, int damage, boolean isPet)
 	{
@@ -183,7 +183,7 @@ public class Core extends L2AttackableAIScript
 		}
 		return super.onAttack(npc, attacker, damage, isPet);
 	}
-
+	
 	@Override
 	public String onKill(L2Npc npc, L2PcInstance killer, boolean isPet)
 	{
@@ -216,7 +216,7 @@ public class Core extends L2AttackableAIScript
 		}
 		return super.onKill(npc, killer, isPet);
 	}
-
+	
 	public static void main(String[] args)
 	{
 		// now call the constructor (starts up the ai)

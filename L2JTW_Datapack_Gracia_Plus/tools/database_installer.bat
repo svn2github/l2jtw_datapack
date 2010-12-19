@@ -673,7 +673,6 @@ for %%i in (
 access_levels.sql
 admin_command_access_rights.sql
 airships.sql
-armor.sql
 armorsets.sql
 auction.sql
 auction_bid.sql
@@ -702,7 +701,7 @@ character_quests.sql
 character_raid_points.sql
 character_recipebook.sql
 character_recipeshoplist.sql
-character_recommends.sql
+character_reco_bonus.sql
 character_shortcuts.sql
 character_skills.sql
 character_skills_save.sql
@@ -727,7 +726,6 @@ cursed_weapons.sql
 dimensional_rift.sql
 droplist.sql
 enchant_skill_groups.sql
-etcitem.sql
 fish.sql
 fishing_skill_trees.sql
 fort.sql
@@ -741,7 +739,7 @@ forums.sql
 four_sepulchers_spawnlist.sql
 games.sql
 global_tasks.sql
-gracia_seeds_data.sql
+global_variables.sql
 grandboss_data.sql
 grandboss_list.sql
 hellbound.sql
@@ -776,7 +774,6 @@ olympiad_nobles.sql
 olympiad_nobles_eom.sql
 pets.sql
 pets_skills.sql
-pets_stats.sql
 pledge_skill_trees.sql
 posts.sql
 quest_global_data.sql
@@ -800,8 +797,6 @@ territories.sql
 territory_registrations.sql
 territory_spawnlist.sql
 transform_skill_trees.sql
-walker_routes.sql
-weapon.sql
 zone_vertices.sql
 mods\mods_wedding.sql
 custom\custom_npc.sql
