@@ -58,7 +58,7 @@ public class Shadai extends L2AttackableAIScript
 	private L2Npc findTemplate(int npcId)
 	{
 		L2Npc npc = null;
-		for (L2Spawn spawn : SpawnTable.getInstance().getSpawnTable().values())
+		for (L2Spawn spawn : SpawnTable.getInstance().getSpawnTable())
 		{
 			if (spawn != null && spawn.getNpcid() == npcId)
 			{

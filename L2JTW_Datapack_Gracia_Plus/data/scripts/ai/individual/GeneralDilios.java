@@ -36,7 +36,7 @@ public class GeneralDilios extends L2AttackableAIScript
 {
 	private static final int generalId = 32549;
 	private static final int guardId = 32619;
-
+	
 	private L2Npc _general;
 	private List<L2Npc> _guards = new ArrayList<L2Npc>();
 	
@@ -47,7 +47,7 @@ public class GeneralDilios extends L2AttackableAIScript
 		"傳令，告知柯塞勒斯同盟聯合的夥伴們！目前破滅之種在同盟聯合的旗幟下維護得很安全！",
 		"傳令，告知柯塞勒斯同盟聯合的夥伴們！目前已掃蕩不滅之種的種子心臟部，正在對伊卡姆士展開直接的攻擊！",
 	};
-
+	
 	public GeneralDilios(int questId, String name, String descr)
 	{
 		super(questId, name, descr);
@@ -56,17 +56,17 @@ public class GeneralDilios extends L2AttackableAIScript
 			throw new NullPointerException("Cannot find npcs!");
 		startQuestTimer("command_0", 60000, null, null);
 	}
-
+	
 	public void findNpcs()
 	{
-		for (L2Spawn spawn : SpawnTable.getInstance().getSpawnTable().values())
+		for (L2Spawn spawn : SpawnTable.getInstance().getSpawnTable())
 			if (spawn != null)
 				if (spawn.getNpcid() == generalId)
 					_general = spawn.getLastSpawn();
 				else if (spawn.getNpcid() == guardId)
 					_guards.add(spawn.getLastSpawn());
 	}
-
+	
 	@Override
 	public String onAdvEvent(String event, L2Npc npc, L2PcInstance player)
 	{
@@ -97,7 +97,7 @@ public class GeneralDilios extends L2AttackableAIScript
 		}
 		return super.onAdvEvent(event, npc, player);
 	}
-
+	
 	public static void main(String[] args)
 	{
 		new GeneralDilios(-1, "GeneralDilios", "ai");

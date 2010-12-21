@@ -75,7 +75,7 @@ public class Remnant_ghosts extends L2AttackableAIScript
 
 		if (hblvl > 4)
 		{
-			for (L2Spawn spawn : SpawnTable.getInstance().getSpawnTable().values())
+			for (L2Spawn spawn : SpawnTable.getInstance().getSpawnTable())
 			{
 				npcId = spawn.getNpcid();
 				for (int i : remnants)
