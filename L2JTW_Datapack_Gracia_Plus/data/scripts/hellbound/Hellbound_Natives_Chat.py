@@ -34,7 +34,8 @@ CorpseLocs = {
 }
 
 def changeNativeSpawn(booleanValue, corpseList, self):
-	worldObjects = SpawnTable.getInstance().getSpawnTable().values()
+	#worldObjects = SpawnTable.getInstance().getSpawnTable().values()
+	worldObjects = SpawnTable.getInstance().getSpawnTable()
 	if booleanValue == 0:
 		for i in worldObjects:
 			npcId = i.getNpcid()

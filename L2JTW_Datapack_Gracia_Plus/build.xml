@@ -31,7 +31,6 @@
 	<property name="build.dist.cb_sql" location="${build.dist}/cb_sql" />
 	<property name="build.dist.tools" location="${build.dist}/tools" />
 	<property name="build.dist.doc" location="${build.dist}/doc" />
-	<property name="build.dist.L2JTW_Addon" location="${build.dist}/L2JTW_Addon"/>
 	<property name="properties-file" location="${build.dist.game}/config/l2jdp-version.properties" />
 
 	<target name="init" description="Create the output directories. Do nothing if dirs were already created">
@@ -45,7 +44,6 @@
 		<mkdir dir="${build.dist.login}" />
 		<mkdir dir="${build.dist.sql}" />
 		<mkdir dir="${build.dist.tools}" />
-		<mkdir dir="${build.dist.L2JTW_Addon}" />
 	</target>
 
 	<target name="export" depends="version" description="Syncronizes build space contents with project.">
@@ -56,18 +54,7 @@
 			</fileset>
 		</sync>
 		<sync todir="${build.dist.game}/data" includeemptydirs="true">
-			<fileset dir="${basedir}/data">
-				<exclude name=".project" />
-				<exclude name="log/**" />
-				<exclude name="cachedir/**" />
-				<exclude name="clans/**" />
-				<exclude name="crests/**" />
-				<exclude name="**.svn**" />
-				<exclude name="**/*.class" />
-				<exclude name="**/*.jar" />
-				<exclude name="geodata/**" />
-				<exclude name="pathnode/**" />
-			</fileset>
+			<fileset dir="${basedir}/data" />
 		</sync>
 		<sync todir="${build.dist.cb}/data">
 			<fileset dir="${basedir}/cb_data" />
@@ -79,12 +66,7 @@
 			<fileset dir="${basedir}/sql" />
 		</sync>
 		<sync todir="${build.dist.tools}">
-			<fileset dir="${basedir}/tools">
-				<exclude name="database_installer.rc" />
-				<exclude name="*.txt" />
-				<exclude name="*.log" />
-				<exclude name="*backup.sql" />
-			</fileset>
+			<fileset dir="${basedir}/tools" />
 		</sync>
 		<sync todir="${build.dist.lang}">
 			<fileset dir="${basedir}/data/lang" />
@@ -92,11 +74,6 @@
 		<sync todir="${build.dist.login}">
 			<fileset dir="${build.dist.game}/data">
 				<include name="servername.xml" />
-			</fileset>
-		</sync>
-		<sync todir="${build.dist.L2JTW_Addon}">
-			<fileset dir="${basedir}/L2JTW_Addon">
-				<include name="**/*.*"/>
 			</fileset>
 		</sync>
 	</target>

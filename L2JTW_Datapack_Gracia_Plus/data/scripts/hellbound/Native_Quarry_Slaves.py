@@ -194,7 +194,8 @@ class Native_Quarry_Slaves (JQuest):
 			timerName = "followCheck" + str(newObjId)
 			self.startQuestTimer(timerName, 1000, npcSlave, None)
 		if event == "SpawnSlaves":
-			worldObjects = SpawnTable.getInstance().getSpawnTable().values()
+			#worldObjects = SpawnTable.getInstance().getSpawnTable().values()
+			worldObjects = SpawnTable.getInstance().getSpawnTable()
 			for i in worldObjects:
 				if i.getNpcid() in SlaveMasters:
 					curNpc = i.getLastSpawn()

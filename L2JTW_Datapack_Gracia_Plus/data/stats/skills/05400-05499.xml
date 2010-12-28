@@ -27,7 +27,7 @@
 		<set name="isDebuff" val="true" />
 		<for>
 			<effect name="Stun" time="2" val="0" />
-			<effect name="ThrowUp" time="3" val="0" stackOrder="1" stackType="fly_away" />
+			<effect name="ThrowUp" noicon="1" val="0" stackOrder="1" stackType="fly_away" />
 		</for>
 	</skill>
 	<skill id="5402" levels="1" name="Presentation - Balor 2">
@@ -820,15 +820,18 @@
 		</for>
 	</skill>
 	<skill id="5480" levels="1" name="Balor Invincible Removal">
-		<!-- Update by pmq -->
-		<set name="hitTime" val="4000" />
-		<set name="target" val="TARGET_ONE" />
-		<set name="skillType" val="NEGATE" />
-		<set name="isMagic" val="true" />
-		<set name="operateType" val="OP_ACTIVE" />
+		<!-- Confirmed CT2.5 -->
+		<!-- Baylor Skills -->
 		<set name="castRange" val="600" />
 		<set name="effectRange" val="1100" />
-		<set name="negateId" val="5225" />
+		<set name="hitTime" val="4000" />
+		<set name="isMagic" val="true" />
+		<set name="magicLvl" val="85" />
+		<set name="maxNegated" val="9" />
+		<!-- set name="negateStats" val="INVINCIBILITY" / TODO: Require Support -->
+		<set name="operateType" val="OP_ACTIVE" />
+		<set name="skillType" val="NEGATE" />
+		<set name="target" val="TARGET_ONE" />
 	</skill>
 	<skill id="5481" levels="1" name="Transform Penalty">
 		<!-- You cannot be transformed while under this effect. -->

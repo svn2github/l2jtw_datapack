@@ -71,7 +71,8 @@ LOCS = [
 ]
 
 def changeChimeraSpawnState(booleanValue):
-	worldObjects = SpawnTable.getInstance().getSpawnTable().values()
+	#worldObjects = SpawnTable.getInstance().getSpawnTable().values()
+	worldObjects = SpawnTable.getInstance().getSpawnTable()
 	for i in worldObjects:
 		npcId = i.getNpcid()
 		if npcId in Chimeras:
@@ -87,7 +88,8 @@ def changeChimeraSpawnState(booleanValue):
 				return
 
 def changeBoxesSpawnState(booleanValue):
-	worldObjects = SpawnTable.getInstance().getSpawnTable().values()
+	#worldObjects = SpawnTable.getInstance().getSpawnTable().values()
+	worldObjects = SpawnTable.getInstance().getSpawnTable()
 	for i in worldObjects:
 		npcId = i.getNpcid()
 		if npcId == 32361:  # °Ó¶¤¤ä´©Â³­¹
