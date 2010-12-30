@@ -220,7 +220,7 @@ public class Loto implements IBypassHandler
 			iu.addModifiedItem(adenaupdate);
 			player.sendPacket(iu);
 			
-			filename = (npc.getHtmlPath(npcId, 3));
+			filename = (npc.getHtmlPath(npcId, 6));
 			html.setFile(player.getHtmlPrefix(), filename);
 		}
 		else if (val == 23) //23 - current lottery jackpot
@@ -276,7 +276,12 @@ public class Loto implements IBypassHandler
 			}
 			html.replace("%result%", message);
 		}
-		else if (val > 24) // >24 - check lottery ticket by item object id
+		else if (val == 25) //25 - lottery instructions
+		{
+			filename = (npc.getHtmlPath(npcId, 2));
+			html.setFile(player.getHtmlPrefix(), filename);
+		}
+		else if (val > 25) // >25 - check lottery ticket by item object id
 		{
 			int lotonumber = Lottery.getInstance().getId();
 			L2ItemInstance item = player.getInventory().getItemByObjectId(val);
