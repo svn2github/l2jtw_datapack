@@ -56,7 +56,7 @@ public class HideoutoftheDawn extends Quest
 		{
 			if (!(world instanceof HoDWorld))
 			{
-				player.sendPacket(new SystemMessage(SystemMessageId.ALREADY_ENTERED_ANOTHER_INSTANCE_CANT_ENTER));
+				player.sendPacket(SystemMessage.getSystemMessage(SystemMessageId.ALREADY_ENTERED_ANOTHER_INSTANCE_CANT_ENTER));
 				return 0;
 			}
 			teleto.instanceId = world.instanceId;

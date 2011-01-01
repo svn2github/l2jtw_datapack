@@ -102,13 +102,13 @@ public class Loto implements IBypassHandler
 			if (!Lottery.getInstance().isStarted())
 			{
 				//tickets can't be sold
-				player.sendPacket(new SystemMessage(SystemMessageId.NO_LOTTERY_TICKETS_CURRENT_SOLD));
+				player.sendPacket(SystemMessage.getSystemMessage(SystemMessageId.NO_LOTTERY_TICKETS_CURRENT_SOLD));
 				return;
 			}
 			if (!Lottery.getInstance().isSellableTickets())
 			{
 				//tickets can't be sold
-				player.sendPacket(new SystemMessage(SystemMessageId.NO_LOTTERY_TICKETS_AVAILABLE));
+				player.sendPacket(SystemMessage.getSystemMessage(SystemMessageId.NO_LOTTERY_TICKETS_AVAILABLE));
 				return;
 			}
 			
@@ -167,13 +167,13 @@ public class Loto implements IBypassHandler
 			if (!Lottery.getInstance().isStarted())
 			{
 				//tickets can't be sold
-				player.sendPacket(new SystemMessage(SystemMessageId.NO_LOTTERY_TICKETS_CURRENT_SOLD));
+				player.sendPacket(SystemMessage.getSystemMessage(SystemMessageId.NO_LOTTERY_TICKETS_CURRENT_SOLD));
 				return;
 			}
 			if (!Lottery.getInstance().isSellableTickets())
 			{
 				//tickets can't be sold
-				player.sendPacket(new SystemMessage(SystemMessageId.NO_LOTTERY_TICKETS_AVAILABLE));
+				player.sendPacket(SystemMessage.getSystemMessage(SystemMessageId.NO_LOTTERY_TICKETS_AVAILABLE));
 				return;
 			}
 			
@@ -194,7 +194,7 @@ public class Loto implements IBypassHandler
 			}
 			if (player.getAdena() < price)
 			{
-				sm = new SystemMessage(SystemMessageId.YOU_NOT_ENOUGH_ADENA);
+				sm = SystemMessage.getSystemMessage(SystemMessageId.YOU_NOT_ENOUGH_ADENA);
 				player.sendPacket(sm);
 				return;
 			}
@@ -202,7 +202,7 @@ public class Loto implements IBypassHandler
 				return;
 			Lottery.getInstance().increasePrize(price);
 			
-			sm = new SystemMessage(SystemMessageId.ACQUIRED_S1_S2);
+			sm = SystemMessage.getSystemMessage(SystemMessageId.ACQUIRED_S1_S2);
 			sm.addNumber(lotonumber);
 			sm.addItemName(4442);
 			player.sendPacket(sm);
@@ -289,7 +289,7 @@ public class Loto implements IBypassHandler
 				return;
 			long[] check = Lottery.getInstance().checkTicket(item);
 			
-			sm = new SystemMessage(SystemMessageId.S1_DISAPPEARED);
+			sm = SystemMessage.getSystemMessage(SystemMessageId.S1_DISAPPEARED);
 			sm.addItemName(4442);
 			player.sendPacket(sm);
 			

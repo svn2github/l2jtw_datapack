@@ -53,7 +53,7 @@ public class EventItemHandler implements IItemHandler
 		final int blockCheckerArena = castor.getBlockCheckerArena();
 		if(blockCheckerArena == -1)
 		{
-			SystemMessage msg = new SystemMessage(SystemMessageId.S1_CANNOT_BE_USED);
+			SystemMessage msg = SystemMessage.getSystemMessage(SystemMessageId.S1_CANNOT_BE_USED);
 			msg.addItemName(item);
 			castor.sendPacket(msg);
 			return;

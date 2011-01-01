@@ -82,26 +82,26 @@ public class ChamberOfDelusionGreat extends Quest
 		L2Party party = player.getParty();
 		if (party == null)
 		{
-			player.sendPacket(new SystemMessage(2101));
+			player.sendPacket(SystemMessage.getSystemMessage(2101));
 			return false;
 		}
 		if (party.getLeader() != player)
 		{
-			player.sendPacket(new SystemMessage(2185));
+			player.sendPacket(SystemMessage.getSystemMessage(2185));
 			return false;
 		}
 		for (L2PcInstance partyMember : party.getPartyMembers())
 		{
 			if (partyMember.getLevel() < 80)
 			{
-				SystemMessage sm = new SystemMessage(2097);
+				SystemMessage sm = SystemMessage.getSystemMessage(2097);
 				sm.addPcName(partyMember);
 				party.broadcastToPartyMembers(sm);
 				return false;
 			}
 			if (!Util.checkIfInRange(1000, player, partyMember, true))
 			{
-				SystemMessage sm = new SystemMessage(2096);
+				SystemMessage sm = SystemMessage.getSystemMessage(2096);
 				sm.addPcName(partyMember);
 				party.broadcastToPartyMembers(sm);
 				return false;
@@ -109,7 +109,7 @@ public class ChamberOfDelusionGreat extends Quest
 			Long reentertime = InstanceManager.getInstance().getInstanceTime(partyMember.getObjectId(), INSTANCEID);
 			if (System.currentTimeMillis() < reentertime)
 			{
-				SystemMessage sm = new SystemMessage(2100);
+				SystemMessage sm = SystemMessage.getSystemMessage(2100);
 				sm.addPcName(partyMember);
 				party.broadcastToPartyMembers(sm);
 				return false;
@@ -133,7 +133,7 @@ public class ChamberOfDelusionGreat extends Quest
 			Calendar reenter = Calendar.getInstance();
 			reenter.add(Calendar.MINUTE, RESET_MIN);
 			reenter.add(Calendar.HOUR_OF_DAY, RESET_HOUR);
-			SystemMessage sm = new SystemMessage(SystemMessageId.INSTANT_ZONE_RESTRICTED);
+			SystemMessage sm = SystemMessage.getSystemMessage(SystemMessageId.INSTANT_ZONE_RESTRICTED);
 			sm.addString(InstanceManager.getInstance().getInstanceIdName(world.templateId));
 			// set instance reenter time for all allowed players
 			for (int objectId : world.allowed)
@@ -341,7 +341,7 @@ public class ChamberOfDelusionGreat extends Quest
 		{
 			if (!(world instanceof CDWorld))
 			{
-				player.sendPacket(new SystemMessage(SystemMessageId.ALREADY_ENTERED_ANOTHER_INSTANCE_CANT_ENTER));
+				player.sendPacket(SystemMessage.getSystemMessage(SystemMessageId.ALREADY_ENTERED_ANOTHER_INSTANCE_CANT_ENTER));
 				return 0;
 			}
 			teleCoord tele = new teleCoord();

@@ -186,7 +186,7 @@ public class Festival implements IBypassHandler
 							return true;
 						
 						final boolean isHighestScore = SevenSignsFestival.getInstance().setFinalScore(activeChar, npc.getFestivalOracle(), npc.getFestivalType(), offeringScore);
-						SystemMessage sm = new SystemMessage(SystemMessageId.CONTRIB_SCORE_INCREASED);
+						SystemMessage sm = SystemMessage.getSystemMessage(SystemMessageId.CONTRIB_SCORE_INCREASED);
 						sm.addItemNumber(offeringScore);
 						activeChar.sendPacket(sm);
 						
@@ -315,7 +315,7 @@ public class Festival implements IBypassHandler
 					case 0: // Distribute Accumulated Bonus
 						if (!SevenSigns.getInstance().isSealValidationPeriod())
 						{
-							activeChar.sendPacket(new SystemMessage(SystemMessageId.SETTLE_ACCOUNT_ONLY_IN_SEAL_VALIDATION));
+							activeChar.sendPacket(SystemMessage.getSystemMessage(SystemMessageId.SETTLE_ACCOUNT_ONLY_IN_SEAL_VALIDATION));
 							return true;
 						}
 						

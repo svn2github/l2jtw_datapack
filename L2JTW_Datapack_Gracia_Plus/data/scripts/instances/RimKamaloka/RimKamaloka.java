@@ -365,7 +365,7 @@ public class RimKamaloka extends Quest
 		// player must not be in party
 		if (party != null)
 		{
-			player.sendPacket(new SystemMessage(SystemMessageId.PARTY_EXCEEDED_THE_LIMIT_CANT_ENTER));
+			player.sendPacket(SystemMessage.getSystemMessage(SystemMessageId.PARTY_EXCEEDED_THE_LIMIT_CANT_ENTER));
 			return false;
 		}
 
@@ -377,7 +377,7 @@ public class RimKamaloka extends Quest
 		// player level must be in range
 		if (Math.abs(player.getLevel() - level) > MAX_LEVEL_DIFFERENCE)
 		{
-			SystemMessage sm = new SystemMessage(SystemMessageId.C1_LEVEL_REQUIREMENT_NOT_SUFFICIENT);
+			SystemMessage sm = SystemMessage.getSystemMessage(SystemMessageId.C1_LEVEL_REQUIREMENT_NOT_SUFFICIENT);
 			sm.addPcName(player);
 			player.sendPacket(sm);
 			return false;
@@ -394,7 +394,7 @@ public class RimKamaloka extends Quest
 				// if found instance still can't be reentered - exit
 				if (System.currentTimeMillis() < instanceTimes.get(id))
 				{
-					SystemMessage sm = new SystemMessage(SystemMessageId.C1_MAY_NOT_REENTER_YET);
+					SystemMessage sm = SystemMessage.getSystemMessage(SystemMessageId.C1_MAY_NOT_REENTER_YET);
 					sm.addPcName(player);
 					player.sendPacket(sm);
 					return false;
@@ -450,14 +450,14 @@ public class RimKamaloka extends Quest
 			if (!(tmpWorld instanceof RimKamaWorld)
 					|| tmpWorld.templateId != templateId)
 			{
-				player.sendPacket(new SystemMessage(SystemMessageId.ALREADY_ENTERED_ANOTHER_INSTANCE_CANT_ENTER));
+				player.sendPacket(SystemMessage.getSystemMessage(SystemMessageId.ALREADY_ENTERED_ANOTHER_INSTANCE_CANT_ENTER));
 				return;
 			}
 			RimKamaWorld world = (RimKamaWorld) tmpWorld;
 			// check for level difference again on reenter
 			if (Math.abs(player.getLevel() - LEVEL[world.index]) > MAX_LEVEL_DIFFERENCE)
 			{
-				SystemMessage sm = new SystemMessage(SystemMessageId.C1_LEVEL_REQUIREMENT_NOT_SUFFICIENT);
+				SystemMessage sm = SystemMessage.getSystemMessage(SystemMessageId.C1_LEVEL_REQUIREMENT_NOT_SUFFICIENT);
 				sm.addPcName(player);
 				player.sendPacket(sm);
 				return;
@@ -630,7 +630,7 @@ public class RimKamaloka extends Quest
 					reenter.roll(Calendar.DATE, true);
 				reenter.set(Calendar.HOUR_OF_DAY, RESET_HOUR);
 
-				SystemMessage sm = new SystemMessage(SystemMessageId.INSTANT_ZONE_RESTRICTED);
+				SystemMessage sm = SystemMessage.getSystemMessage(SystemMessageId.INSTANT_ZONE_RESTRICTED);
 				sm.addString(InstanceManager.getInstance().getInstanceIdName(_world.templateId));
 
 				// set instance reenter time for all allowed players

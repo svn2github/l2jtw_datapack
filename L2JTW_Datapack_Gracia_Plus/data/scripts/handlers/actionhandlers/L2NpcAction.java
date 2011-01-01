@@ -95,7 +95,6 @@ public class L2NpcAction implements IActionHandler
 		else if (interact)
 		{
 			activeChar.sendPacket(new ValidateLocation((L2Character)target));
-			
 			// Check if the activeChar is attackable (without a forced attack) and isn't dead
 			if (target.isAutoAttackable(activeChar) && !((L2Character)target).isAlikeDead())
 			{

@@ -96,7 +96,7 @@ public class Blow implements ISkillHandler
 					{
 						activeChar.stopSkillEffects(skill.getId());
 						skill.getEffects(target, activeChar);
-						SystemMessage sm = new SystemMessage(SystemMessageId.YOU_FEEL_S1_EFFECT);
+						SystemMessage sm = SystemMessage.getSystemMessage(SystemMessageId.YOU_FEEL_S1_EFFECT);
 						sm.addSkillName(skill);
 						activeChar.sendPacket(sm);
 					}
@@ -107,13 +107,13 @@ public class Blow implements ISkillHandler
 						if (Formulas.calcSkillSuccess(activeChar, target, skill, shld, false, false, true))
 						{
 							skill.getEffects(activeChar, target, new Env(shld, false, false, false));
-							SystemMessage sm = new SystemMessage(SystemMessageId.YOU_FEEL_S1_EFFECT);
+							SystemMessage sm = SystemMessage.getSystemMessage(SystemMessageId.YOU_FEEL_S1_EFFECT);
 							sm.addSkillName(skill);
 							target.sendPacket(sm);
 						}
 						else
 						{
-							SystemMessage sm = new SystemMessage(SystemMessageId.C1_RESISTED_YOUR_S2);
+							SystemMessage sm = SystemMessage.getSystemMessage(SystemMessageId.C1_RESISTED_YOUR_S2);
 							sm.addCharName(target);
 							sm.addSkillName(skill);
 							activeChar.sendPacket(sm);
@@ -193,13 +193,13 @@ public class Blow implements ISkillHandler
 				{
 					if (target instanceof L2PcInstance)
 					{
-						SystemMessage sm = new SystemMessage(SystemMessageId.COUNTERED_C1_ATTACK);
+						SystemMessage sm = SystemMessage.getSystemMessage(SystemMessageId.COUNTERED_C1_ATTACK);
 						sm.addCharName(activeChar);
 						target.sendPacket(sm);
 					}
 					if (activeChar instanceof L2PcInstance)
 					{
-						SystemMessage sm = new SystemMessage(SystemMessageId.C1_PERFORMING_COUNTERATTACK);
+						SystemMessage sm = SystemMessage.getSystemMessage(SystemMessageId.C1_PERFORMING_COUNTERATTACK);
 						sm.addCharName(target);
 						activeChar.sendPacket(sm);
 					}

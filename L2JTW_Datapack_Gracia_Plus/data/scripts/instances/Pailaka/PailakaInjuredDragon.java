@@ -157,7 +157,7 @@ public class PailakaInjuredDragon extends Quest {
 		{
 			if (world.templateId != INSTANCE_ID)
 			{
-				player.sendPacket(new SystemMessage(SystemMessageId.ALREADY_ENTERED_ANOTHER_INSTANCE_CANT_ENTER));
+				player.sendPacket(SystemMessage.getSystemMessage(SystemMessageId.ALREADY_ENTERED_ANOTHER_INSTANCE_CANT_ENTER));
 				return;
 			}
 			Instance inst = InstanceManager.getInstance().getInstance(world.instanceId);

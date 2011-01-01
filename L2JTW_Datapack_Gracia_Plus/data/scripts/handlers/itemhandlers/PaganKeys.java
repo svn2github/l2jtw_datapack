@@ -47,7 +47,7 @@ public class PaganKeys implements IItemHandler
 		
 		if (!(target instanceof L2DoorInstance))
 		{
-			activeChar.sendPacket(new SystemMessage(SystemMessageId.INCORRECT_TARGET));
+			activeChar.sendPacket(SystemMessage.getSystemMessage(SystemMessageId.INCORRECT_TARGET));
 			activeChar.sendPacket(ActionFailed.STATIC_PACKET);
 			return;
 		}
@@ -55,7 +55,7 @@ public class PaganKeys implements IItemHandler
 		
 		if (!(activeChar.isInsideRadius(door, INTERACTION_DISTANCE, false, false)))
 		{
-			activeChar.sendPacket(new SystemMessage(SystemMessageId.TARGET_TOO_FAR));
+			activeChar.sendPacket(SystemMessage.getSystemMessage(SystemMessageId.TARGET_TOO_FAR));
 			activeChar.sendPacket(ActionFailed.STATIC_PACKET);
 			return;
 		}

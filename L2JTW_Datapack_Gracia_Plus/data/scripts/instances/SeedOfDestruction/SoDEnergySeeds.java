@@ -159,18 +159,18 @@ public class SoDEnergySeeds extends L2AttackableAIScript
 			
 			if (Rnd.get(100) < 33)
 			{
-				caster.sendPacket(new SystemMessage(SystemMessageId.THE_COLLECTION_HAS_SUCCEEDED));
+				caster.sendPacket(SystemMessage.getSystemMessage(SystemMessageId.THE_COLLECTION_HAS_SUCCEEDED));
 				caster.addItem("Loot", itemId, Rnd.get(RATE + 1, 2 * RATE), null, true);
 			}
 			else if ((skill.getLevel() == 1 && Rnd.get(100) < 15) ||
 					(skill.getLevel() == 2 && Rnd.get(100) < 50) ||
 					(skill.getLevel() == 3 && Rnd.get(100) < 75))
 			{
-				caster.sendPacket(new SystemMessage(SystemMessageId.THE_COLLECTION_HAS_SUCCEEDED));
+				caster.sendPacket(SystemMessage.getSystemMessage(SystemMessageId.THE_COLLECTION_HAS_SUCCEEDED));
 				caster.addItem("Loot", itemId, Rnd.get(1, RATE), null, true);
 			}
 			else
-				caster.sendPacket(new SystemMessage(SystemMessageId.THE_COLLECTION_HAS_FAILED));
+				caster.sendPacket(SystemMessage.getSystemMessage(SystemMessageId.THE_COLLECTION_HAS_FAILED));
 			
 			//_spawnedNpcs contains the ESSpawn ID of this NPC, and we call that ESSpawn from _spawns
 			_spawns.get(_spawnedNpcs.get(npc)).scheduleRespawn(RESPAWN+Rnd.get(RANDOM_RESPAWN_OFFSET));

@@ -51,13 +51,13 @@ public class InstantJump implements ISkillHandler
 		{
 			if (activeChar instanceof L2PcInstance)
 			{
-				SystemMessage sm = new SystemMessage(SystemMessageId.C1_DODGES_ATTACK);
+				SystemMessage sm = SystemMessage.getSystemMessage(SystemMessageId.C1_DODGES_ATTACK);
 				sm.addString(target.getName());
 				((L2PcInstance) activeChar).sendPacket(sm);
 			}
 			if (target instanceof L2PcInstance)
 			{
-				SystemMessage sm = new SystemMessage(SystemMessageId.AVOIDED_C1_ATTACK);
+				SystemMessage sm = SystemMessage.getSystemMessage(SystemMessageId.AVOIDED_C1_ATTACK);
 				sm.addString(activeChar.getName());
 				((L2PcInstance) target).sendPacket(sm);
 			}
@@ -117,7 +117,7 @@ public class InstantJump implements ISkillHandler
 				}
 				else
 				{
-					SystemMessage sm = new SystemMessage(SystemMessageId.C1_RESISTED_YOUR_S2);
+					SystemMessage sm = SystemMessage.getSystemMessage(SystemMessageId.C1_RESISTED_YOUR_S2);
 					sm.addCharName(target);
 					sm.addSkillName(skill);
 					activeChar.sendPacket(sm);

@@ -86,7 +86,7 @@ public class AdminCursedWeapons implements IAdminCommandHandler
 					{
 						activeChar.sendMessage(1497);
 					}
-					activeChar.sendPacket(new SystemMessage(SystemMessageId.FRIEND_LIST_FOOTER));
+					activeChar.sendPacket(SystemMessage.getSystemMessage(SystemMessageId.FRIEND_LIST_FOOTER));
 				}
 			}
 			else

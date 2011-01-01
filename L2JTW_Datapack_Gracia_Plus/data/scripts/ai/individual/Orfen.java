@@ -304,7 +304,7 @@ public class Orfen extends L2AttackableAIScript
 		int npcId = npc.getNpcId();
 		if (npcId == ORFEN)
 		{
-			if ((npc.getCurrentHp() - damage) < (npc.getMaxHp() / 2) && !_IsTeleported)
+			if (!_IsTeleported && (npc.getCurrentHp() - damage) < (npc.getMaxHp() / 2))
 			{
 				_IsTeleported = true;
 				setSpawnPoint(npc, 0);

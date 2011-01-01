@@ -133,7 +133,7 @@ public class AdminEditChar implements IAdminCommandHandler
 				if (target != null)
 					showCharacterInfo(activeChar, target);
 				else
-					activeChar.sendPacket(new SystemMessage(SystemMessageId.CHARACTER_DOES_NOT_EXIST));
+					activeChar.sendPacket(SystemMessage.getSystemMessage(SystemMessageId.CHARACTER_DOES_NOT_EXIST));
 			}
 			catch (StringIndexOutOfBoundsException e)
 			{
@@ -231,7 +231,7 @@ public class AdminEditChar implements IAdminCommandHandler
 					activeChar.sendMessage(player.getName()+MessageTable.Messages[1563].getMessage()+pk);
 				}
 				else
-					activeChar.sendPacket(new SystemMessage(SystemMessageId.INCORRECT_TARGET));
+					activeChar.sendPacket(SystemMessage.getSystemMessage(SystemMessageId.INCORRECT_TARGET));
 			}
 			catch (Exception e)
 			{
@@ -258,7 +258,7 @@ public class AdminEditChar implements IAdminCommandHandler
 					activeChar.sendMessage(player.getName()+MessageTable.Messages[1565].getMessage()+pvp);
 				}
 				else
-					activeChar.sendPacket(new SystemMessage(SystemMessageId.INCORRECT_TARGET));
+					activeChar.sendPacket(SystemMessage.getSystemMessage(SystemMessageId.INCORRECT_TARGET));
 			}
 			catch (Exception e)
 			{
@@ -285,7 +285,7 @@ public class AdminEditChar implements IAdminCommandHandler
 					activeChar.sendMessage(player.getName()+MessageTable.Messages[1531].getMessage()+fame);
 				}
 				else
-					activeChar.sendPacket(new SystemMessage(SystemMessageId.INCORRECT_TARGET));
+					activeChar.sendPacket(SystemMessage.getSystemMessage(SystemMessageId.INCORRECT_TARGET));
 			}
 			catch (Exception e)
 			{
@@ -326,7 +326,7 @@ public class AdminEditChar implements IAdminCommandHandler
 					activeChar.sendMessage(player.getName()+MessageTable.Messages[1533].getMessage()+recVal);
 				}
 				else
-					activeChar.sendPacket(new SystemMessage(SystemMessageId.INCORRECT_TARGET));
+					activeChar.sendPacket(SystemMessage.getSystemMessage(SystemMessageId.INCORRECT_TARGET));
 			}
 			catch (Exception e)
 			{
@@ -515,7 +515,7 @@ public class AdminEditChar implements IAdminCommandHandler
 				targetPet.getOwner().sendPacket(new SetSummonRemainTime(targetPet.getMaxFed(), targetPet.getCurrentFed()));
 			}
 			else
-				activeChar.sendPacket(new SystemMessage(SystemMessageId.INCORRECT_TARGET));
+				activeChar.sendPacket(SystemMessage.getSystemMessage(SystemMessageId.INCORRECT_TARGET));
 		}
 		else if(command.startsWith("admin_remove_clan_penalty"))
 		{
@@ -890,7 +890,7 @@ public class AdminEditChar implements IAdminCommandHandler
 			// update karma
 			player.setKarma(newKarma);
 			//Common character information
-			player.sendPacket(new SystemMessage(SystemMessageId.YOUR_KARMA_HAS_BEEN_CHANGED_TO).addString(String.valueOf(newKarma)));
+			player.sendPacket(SystemMessage.getSystemMessage(SystemMessageId.YOUR_KARMA_HAS_BEEN_CHANGED_TO).addString(String.valueOf(newKarma)));
 			//Admin information
 			activeChar.sendMessage(MessageTable.Messages[1548].getExtra(1) + player.getName() + MessageTable.Messages[1548].getExtra(2) + oldKarma + MessageTable.Messages[1548].getExtra(3) + newKarma + MessageTable.Messages[1548].getExtra(4));
 			if (Config.DEBUG)

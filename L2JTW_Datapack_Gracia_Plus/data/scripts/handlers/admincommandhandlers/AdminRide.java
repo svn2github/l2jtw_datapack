@@ -50,7 +50,7 @@ public class AdminRide implements IAdminCommandHandler
 		{
 			if (activeChar.isMounted() || activeChar.getPet() != null)
 			{
-				activeChar.sendPacket(new SystemMessage(SystemMessageId.YOU_ALREADY_HAVE_A_PET));
+				activeChar.sendPacket(SystemMessage.getSystemMessage(SystemMessageId.YOU_ALREADY_HAVE_A_PET));
 				return false;
 			}
 			if (command.startsWith("admin_ride_wyvern"))
@@ -69,7 +69,7 @@ public class AdminRide implements IAdminCommandHandler
 			{
 				if (activeChar.isTransformed() || activeChar.isInStance())
 					//FIXME: Wrong Message
-					activeChar.sendPacket(new SystemMessage(SystemMessageId.YOU_CANNOT_BOARD_AN_AIRSHIP_WHILE_TRANSFORMED));
+					activeChar.sendPacket(SystemMessage.getSystemMessage(SystemMessageId.YOU_CANNOT_BOARD_AN_AIRSHIP_WHILE_TRANSFORMED));
 				else
 					TransformationManager.getInstance().transformPlayer(PURPLE_MANED_HORSE_TRANSFORMATION_ID, activeChar);
 				
@@ -79,7 +79,7 @@ public class AdminRide implements IAdminCommandHandler
 			{
 				if (activeChar.isTransformed() || activeChar.isInStance())
 					//FIXME: Wrong Message
-					activeChar.sendPacket(new SystemMessage (SystemMessageId.YOU_CANNOT_BOARD_AN_AIRSHIP_WHILE_TRANSFORMED));
+					activeChar.sendPacket(SystemMessage.getSystemMessage(SystemMessageId.YOU_CANNOT_BOARD_AN_AIRSHIP_WHILE_TRANSFORMED));
 				else
 					TransformationManager.getInstance().transformPlayer(JET_BIKE_TRANSFORMATION_ID, activeChar);
 

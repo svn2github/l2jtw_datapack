@@ -467,37 +467,37 @@ public class SeedOfDestruction extends Quest
 		{
 			if (player.getParty() == null)
 			{
-				player.sendPacket(new SystemMessage(2101));
+				player.sendPacket(SystemMessage.getSystemMessage(2101));
 				return false;
 			}
 			L2CommandChannel channel = player.getParty().getCommandChannel();
 			if (channel == null)
 			{
-				player.sendPacket(new SystemMessage(2103));
+				player.sendPacket(SystemMessage.getSystemMessage(2103));
 				return false;
 			}
 			else if (channel.getChannelLeader() != player)
 			{
-				player.sendPacket(new SystemMessage(2185));
+				player.sendPacket(SystemMessage.getSystemMessage(2185));
 				return false;
 			}
 			else if (channel.getMemberCount() < MIN_PLAYERS || channel.getMemberCount() > MAX_PLAYERS)
 			{
-				player.sendPacket(new SystemMessage(2102));
+				player.sendPacket(SystemMessage.getSystemMessage(2102));
 				return false;
 			}
 			for (L2PcInstance channelMember : channel.getMembers())
 			{
 				if (channelMember.getLevel() < 75)
 				{
-					SystemMessage sm = new SystemMessage(2097);
+					SystemMessage sm = SystemMessage.getSystemMessage(2097);
 					sm.addPcName(channelMember);
 					channel.broadcastToChannelMembers(sm);
 					return false;
 				}
 				if (!Util.checkIfInRange(1000, player, channelMember, true))
 				{
-					SystemMessage sm = new SystemMessage(2096);
+					SystemMessage sm = SystemMessage.getSystemMessage(2096);
 					sm.addPcName(channelMember);
 					channel.broadcastToChannelMembers(sm);
 					return false;
@@ -505,7 +505,7 @@ public class SeedOfDestruction extends Quest
 				Long reentertime = InstanceManager.getInstance().getInstanceTime(channelMember.getObjectId(), INSTANCEID);
 				if (System.currentTimeMillis() < reentertime)
 				{
-					SystemMessage sm = new SystemMessage(2100);
+					SystemMessage sm = SystemMessage.getSystemMessage(2100);
 					sm.addPcName(channelMember);
 					channel.broadcastToChannelMembers(sm);
 					return false;
@@ -535,7 +535,7 @@ public class SeedOfDestruction extends Quest
 		int inst = checkworld(player);
 		if (inst == 0)
 		{
-			player.sendPacket(new SystemMessage(SystemMessageId.ALREADY_ENTERED_ANOTHER_INSTANCE_CANT_ENTER));
+			player.sendPacket(SystemMessage.getSystemMessage(SystemMessageId.ALREADY_ENTERED_ANOTHER_INSTANCE_CANT_ENTER));
 			return 0;
 		}
 		else if (inst == 1)
@@ -759,7 +759,7 @@ public class SeedOfDestruction extends Quest
 			while(reenter.get(Calendar.DAY_OF_WEEK) != RESET_DAY_2)
 				reenter.add(Calendar.DAY_OF_MONTH, 1);
 
-		SystemMessage sm = new SystemMessage(SystemMessageId.INSTANT_ZONE_RESTRICTED);
+		SystemMessage sm = SystemMessage.getSystemMessage(SystemMessageId.INSTANT_ZONE_RESTRICTED);
 		sm.addString(InstanceManager.getInstance().getInstanceIdName(INSTANCEID));
 
 		// set instance reenter time for all allowed players
