@@ -67,7 +67,7 @@ REPLACE INTO `spawnlist` (location,count,npc_templateid,locx,locy,locz,randomx,r
 ('', 1, 32478, 17735, 169802, -3495, 0, 0, 19465, 60, 0, 0); -- 芙羅蘭村莊
 
 -- 修正NPC位置
-DELETE FROM `spawnlist` WHERE `npc_templateid` IN (30134,31605,31675,31679,31677,30767); -- 刪除不正確位置的NPC
+DELETE FROM `spawnlist` WHERE `npc_templateid` IN (30134,31605,31675,31679,31677); -- 刪除不正確位置的NPC
 INSERT INTO `spawnlist` (location,count,npc_templateid,locx,locy,locz,randomx,randomy,heading,respawn_delay,loc_id,periodOfDay) VALUES 
 ('oren09_npc2018_010', 1, 30134, 9689, 15550, -4574, 0, 0, 5892, 60, 0, 0),     -- 傑斯密(黑暗精靈村莊)
 ('oren16_npc2218_016', 1, 31605, 85692, 16400, -2803, 0, 0, 38000, 60, 0, 0),   -- 金斯雷(象牙塔)

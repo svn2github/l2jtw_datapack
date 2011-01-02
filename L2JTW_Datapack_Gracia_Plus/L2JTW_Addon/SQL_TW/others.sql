@@ -1076,28 +1076,28 @@ UPDATE `henna` SET `symbol_name` = '高級智慧紋章' WHERE `dye_id` = 4624;
 
 /***** skillname-tw *****/ 
 /***** pledge_skill_trees.sql *****/
-UPDATE `pledge_skill_trees` SET `name` = '盟誓-血盟體魄', `Description` = '增加血盟成員的HP最大值。效果適用於名門階級以上。' WHERE `skill_id` = 370;
-UPDATE `pledge_skill_trees` SET `name` = '盟誓-血盟精神', `Description` = '增加血盟成員的CP最大值。效果適用於男爵階級以上。' WHERE `skill_id` = 371;
-UPDATE `pledge_skill_trees` SET `name` = '盟誓-血盟靈魂', `Description` = '增加血盟成員的MP最大值。效果適用於子爵階級以上。' WHERE `skill_id` = 372;
-UPDATE `pledge_skill_trees` SET `name` = '盟誓-奮戰不懈', `Description` = '提升血盟成員的HP額外恢復量。效果適用於名門階級以上。' WHERE `skill_id` = 373;
-UPDATE `pledge_skill_trees` SET `name` = '盟誓-士氣高昂', `Description` = '提升血盟成員的CP額外恢復量。效果適用於智者階級以上。' WHERE `skill_id` = 374;
-UPDATE `pledge_skill_trees` SET `name` = '盟誓-沉著冷靜', `Description` = '提升血盟成員的MP額外恢復量。效果適用於子爵階級以上。' WHERE `skill_id` = 375;
-UPDATE `pledge_skill_trees` SET `name` = '盟誓-威猛剛健', `Description` = '提升血盟成員的物理攻擊力。效果適用於騎士階級以上。' WHERE `skill_id` = 376;
-UPDATE `pledge_skill_trees` SET `name` = '盟誓-堅定不移', `Description` = '提升血盟成員的物理防禦力。效果適用於騎士階級以上。' WHERE `skill_id` = 377;
-UPDATE `pledge_skill_trees` SET `name` = '盟誓-英明睿智', `Description` = '提升血盟成員的魔法攻擊力。效果適用於子爵階級以上。' WHERE `skill_id` = 378;
-UPDATE `pledge_skill_trees` SET `name` = '盟誓-鋼鐵意志', `Description` = '提升血盟成員的魔法防禦力。效果適用於名門階級以上。' WHERE `skill_id` = 379;
-UPDATE `pledge_skill_trees` SET `name` = '盟誓-將士用命', `Description` = '提升血盟成員的命中能力。效果適用於男爵階級以上。' WHERE `skill_id` = 380;
-UPDATE `pledge_skill_trees` SET `name` = '盟誓-謀定後動', `Description` = '提升血盟成員的迴避能力。效果適用於男爵階級以上。' WHERE `skill_id` = 381;
-UPDATE `pledge_skill_trees` SET `name` = '盟誓-騎士精神', `Description` = '提高血盟成員的盾牌防禦機率。效果適用於子爵階級以上。' WHERE `skill_id` = 382;
-UPDATE `pledge_skill_trees` SET `name` = '盟誓-騎士榮耀', `Description` = '提升血盟成員的盾牌防禦力。效果適用於男爵階級以上。' WHERE `skill_id` = 383;
-UPDATE `pledge_skill_trees` SET `name` = '盟誓-風雨無阻', `Description` = '提升血盟成員對水/風屬性攻擊的抗性。效果適用於子爵階級以上。' WHERE `skill_id` = 384;
-UPDATE `pledge_skill_trees` SET `name` = '盟誓-百鍊成鋼', `Description` = '提升血盟成員對火/大地屬性攻擊的抗性。效果適用於子爵階級以上。' WHERE `skill_id` = 385;
-UPDATE `pledge_skill_trees` SET `name` = '盟誓-威武不屈', `Description` = '提升血盟成員對休克攻擊的抗性。效果適用於子爵階級以上。' WHERE `skill_id` = 386;
-UPDATE `pledge_skill_trees` SET `name` = '盟誓-勇往直前', `Description` = '提升血盟成員對束縛攻擊的抗性。效果適用於子爵階級以上。' WHERE `skill_id` = 387;
-UPDATE `pledge_skill_trees` SET `name` = '盟誓-盡忠職守', `Description` = '提升血盟成員對睡眠攻擊的抗性。效果適用於子爵階級以上。' WHERE `skill_id` = 388;
-UPDATE `pledge_skill_trees` SET `name` = '盟誓-兵貴神速', `Description` = '加快血盟成員的移動速度。效果適用於伯爵階級以上。' WHERE `skill_id` = 389;
-UPDATE `pledge_skill_trees` SET `name` = '盟誓-鞠躬盡瘁', `Description` = '血盟成員因PK或一般怪物攻擊導致死亡時，減少經驗值下降的比率並降低產生死亡後遺症的機率。效果適用於名門階級以上。' WHERE `skill_id` = 390;
-UPDATE `pledge_skill_trees` SET `name` = '盟誓-帝權授命', `Description` = '賦予可組成聯合軍的權限。效果適用於智者階級以上。' WHERE `skill_id` = 391;
+UPDATE `pledge_skill_trees` SET `name` = '盟誓-血盟體魄' WHERE `skill_id` = 370;
+UPDATE `pledge_skill_trees` SET `name` = '盟誓-血盟精神' WHERE `skill_id` = 371;
+UPDATE `pledge_skill_trees` SET `name` = '盟誓-血盟靈魂' WHERE `skill_id` = 372;
+UPDATE `pledge_skill_trees` SET `name` = '盟誓-奮戰不懈' WHERE `skill_id` = 373;
+UPDATE `pledge_skill_trees` SET `name` = '盟誓-士氣高昂' WHERE `skill_id` = 374;
+UPDATE `pledge_skill_trees` SET `name` = '盟誓-沉著冷靜' WHERE `skill_id` = 375;
+UPDATE `pledge_skill_trees` SET `name` = '盟誓-威猛剛健' WHERE `skill_id` = 376;
+UPDATE `pledge_skill_trees` SET `name` = '盟誓-堅定不移' WHERE `skill_id` = 377;
+UPDATE `pledge_skill_trees` SET `name` = '盟誓-英明睿智' WHERE `skill_id` = 378;
+UPDATE `pledge_skill_trees` SET `name` = '盟誓-鋼鐵意志' WHERE `skill_id` = 379;
+UPDATE `pledge_skill_trees` SET `name` = '盟誓-將士用命' WHERE `skill_id` = 380;
+UPDATE `pledge_skill_trees` SET `name` = '盟誓-謀定後動' WHERE `skill_id` = 381;
+UPDATE `pledge_skill_trees` SET `name` = '盟誓-騎士精神' WHERE `skill_id` = 382;
+UPDATE `pledge_skill_trees` SET `name` = '盟誓-騎士榮耀' WHERE `skill_id` = 383;
+UPDATE `pledge_skill_trees` SET `name` = '盟誓-風雨無阻' WHERE `skill_id` = 384;
+UPDATE `pledge_skill_trees` SET `name` = '盟誓-百鍊成鋼' WHERE `skill_id` = 385;
+UPDATE `pledge_skill_trees` SET `name` = '盟誓-威武不屈' WHERE `skill_id` = 386;
+UPDATE `pledge_skill_trees` SET `name` = '盟誓-勇往直前' WHERE `skill_id` = 387;
+UPDATE `pledge_skill_trees` SET `name` = '盟誓-盡忠職守' WHERE `skill_id` = 388;
+UPDATE `pledge_skill_trees` SET `name` = '盟誓-兵貴神速' WHERE `skill_id` = 389;
+UPDATE `pledge_skill_trees` SET `name` = '盟誓-鞠躬盡瘁' WHERE `skill_id` = 390;
+UPDATE `pledge_skill_trees` SET `name` = '盟誓-帝權授命' WHERE `skill_id` = 391;
 
 /***** skillname-tw *****/ 
 /***** transform_skill_trees.sql *****/
@@ -1125,50 +1125,5 @@ UPDATE `transform_skill_trees` SET `name` = '變身 人偶刀手' WHERE `skill_i
 /***** skillname-tw *****/ 
 /***** special_skill_trees.sql *****/
 UPDATE `special_skill_trees` SET `name` = '星石匯集' WHERE `skill_id` = 932;
-
-/***** 闇天使版資料 *****/ 
-/***** walker_routes.sql *****/
-/***** 黑暗精靈村莊 *****/
-/***** 31361 長老執行者 克里德 *****/
-UPDATE `walker_routes` SET `chatText` = '幾天後將開始黑暗儀式，需要更注重警備工作！' WHERE `route_id` = 1 AND `move_point` = 5;
-/***** 31360 長老代理人艾爾海娜 *****/
-UPDATE `walker_routes` SET `chatText` = '您很辛苦。萊伊爾拉！' WHERE `route_id` = 2 AND `move_point` = 5;
-UPDATE `walker_routes` SET `chatText` = '多勞您辛苦了！' WHERE `route_id` = 2 AND `move_point` = 11;
-
-/***** 矮人村莊 *****/
-/***** 31362 使者 泰特 *****/
-UPDATE `walker_routes` SET `chatText` = '里德！ 摩普琳！ 艾兒黎！ 你們大家都好嗎？' WHERE `route_id` = 3 AND `move_point` = 1;
-UPDATE `walker_routes` SET `chatText` = '好！那麼就開始轉一轉？' WHERE `route_id` = 3 AND `move_point` = 7;
-UPDATE `walker_routes` SET `chatText` = '卡黎塔！ 米恩！ 很愉快的一天！' WHERE `route_id` = 3 AND `move_point` = 12;
-/***** 31363 信使 洛金 *****/
-UPDATE `walker_routes` SET `chatText` = '那個鼠輩！ 到底躲在哪兒？' WHERE `route_id` = 4 AND `move_point` = 1;
-UPDATE `walker_routes` SET `chatText` = '今天你沒看到吐魯克嗎？' WHERE `route_id` = 4 AND `move_point` = 7;
-UPDATE `walker_routes` SET `chatText` = '你沒看到吐魯克嗎？' WHERE `route_id` = 4 AND `move_point` = 10;
-
-/***** 精靈村莊 *****/
-/***** 31359 世界樹守護者 傑洛迪 *****/
-UPDATE `walker_routes` SET `chatText` = '為了救活世界樹該怎麼做？' WHERE `route_id` = 5 AND `move_point` = 3;
-UPDATE `walker_routes` SET `chatText` = '世界樹在逐漸凋零枯萎...' WHERE `route_id` = 5 AND `move_point` = 4;
-UPDATE `walker_routes` SET `chatText` = '世界樹在逐漸凋零枯萎...' WHERE `route_id` = 5 AND `move_point` = 10;
-UPDATE `walker_routes` SET `chatText` = '為了救活世界樹該怎麼做？' WHERE `route_id` = 5 AND `move_point` = 11;
-/***** 31358 吟遊詩人 卡斯爾 *****/
-UPDATE `walker_routes` SET `chatText` = '米帝爾，湖水的和平與你同在..' WHERE `route_id` = 6 AND `move_point` = 1;
-UPDATE `walker_routes` SET `chatText` = '無論何時凝視世界樹都是如此美麗..' WHERE `route_id` = 6 AND `move_point` = 5;
-UPDATE `walker_routes` SET `chatText` = '無論何時凝視世界樹都是如此美麗..' WHERE `route_id` = 6 AND `move_point` = 13;
-
-/***** 說話之島村莊 *****/
-/***** 31357 書記官 萊安德路 *****/
-UPDATE `walker_routes` SET `chatText` = '他到底在哪裡呢？' WHERE `route_id` = 7 AND `move_point` = 1;
-UPDATE `walker_routes` SET `chatText` = '你有看到溫達伍德嗎？' WHERE `route_id` = 7 AND `move_point` = 4;
-UPDATE `walker_routes` SET `chatText` = '到底去哪裡呢？' WHERE `route_id` = 7 AND `move_point` = 6;
-UPDATE `walker_routes` SET `chatText` = '到底去哪裡呢？' WHERE `route_id` = 7 AND `move_point` = 16;
-UPDATE `walker_routes` SET `chatText` = '你有看到溫達伍德嗎？' WHERE `route_id` = 7 AND `move_point` = 18;
-/***** 31356 使者 雷米 *****/
-UPDATE `walker_routes` SET `chatText` = '運送給雷克特？好好，知道了~' WHERE `route_id` = 8 AND `move_point` = 1;
-UPDATE `walker_routes` SET `chatText` = '哎呀！要稍微休息一下~' WHERE `route_id` = 8 AND `move_point` = 5;
-UPDATE `walker_routes` SET `chatText` = '你好！雷克特！傑克森也好久不見！' WHERE `route_id` = 8 AND `move_point` = 9;
-UPDATE `walker_routes` SET `chatText` = '啦啦啦啦~' WHERE `route_id` = 8 AND `move_point` = 14;
-UPDATE `walker_routes` SET `chatText` = '啦啦啦啦~' WHERE `route_id` = 8 AND `move_point` = 15;
-UPDATE `walker_routes` SET `chatText` = '啦啦啦啦~' WHERE `route_id` = 8 AND `move_point` = 16;
 
 /***** Done by vdmyagami！ *****/
