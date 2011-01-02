@@ -86,7 +86,7 @@ def dropItem(player,npc,itemId,count):
 
 def checkCondition(player):
 	if not player.getLevel() >= 78:
-		sm = SystemMessage(SystemMessageId.C1_LEVEL_REQUIREMENT_NOT_SUFFICIENT)
+		sm = SystemMessage.getSystemMessage(SystemMessageId.C1_LEVEL_REQUIREMENT_NOT_SUFFICIENT)
 		sm.addCharName(player)
 		player.sendPacket(sm)
 		return False
