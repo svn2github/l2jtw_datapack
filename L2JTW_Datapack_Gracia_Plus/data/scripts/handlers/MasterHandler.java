@@ -81,7 +81,6 @@ public class MasterHandler
 		AdminCommandHandler.getInstance().registerAdminCommandHandler(new AdminCamera());
 		AdminCommandHandler.getInstance().registerAdminCommandHandler(new AdminChangeAccessLevel());
 		AdminCommandHandler.getInstance().registerAdminCommandHandler(new AdminClan());
-		AdminCommandHandler.getInstance().registerAdminCommandHandler(new AdminCHSiege());  // Add CH by pmq
 		AdminCommandHandler.getInstance().registerAdminCommandHandler(new AdminCreateItem());
 		AdminCommandHandler.getInstance().registerAdminCommandHandler(new AdminCursedWeapons());
 		AdminCommandHandler.getInstance().registerAdminCommandHandler(new AdminDebug());
@@ -238,7 +237,6 @@ public class MasterHandler
 		ItemHandler.getInstance().registerItemHandler(new ManaPotion());
 		ItemHandler.getInstance().registerItemHandler(new EnergyStarStone());
 		ItemHandler.getInstance().registerItemHandler(new EventItem());
-		ItemHandler.getInstance().registerItemHandler(new QuestItems());  // Add CH by pmq
 		_log.config("Loaded " + ItemHandler.getInstance().size() + " ItemHandlers");
 	}
 	
