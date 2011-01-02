@@ -43,22 +43,22 @@ INSERT INTO `merchant_buylists` (`item_id`,`price`,`shop_id`,`order`) VALUES
 
 
 /************ ¼W¥[ÀY¹¢ªºªş¥[§Ş¯à(¯¬ºÖ´_¬¡/¯¬ºÖªğ¦^/¤jÀY/·Ï¤õ) ************/
-UPDATE `armor` SET `skill` = '3263-1;' WHERE `item_id` IN (10621,10625,10629);
-UPDATE `armor` SET `skill` = '3264-1;' WHERE `item_id` IN (10620,10624,10628,14753,14756,14759,14762);
-UPDATE `armor` SET `skill` = '3265-1;' WHERE `item_id` IN (10623,10627,10631,14754,14757,14760,14763);
-UPDATE `armor` SET `skill` = '3266-1;' WHERE `item_id` IN (10622,10626,10630,14755,14758,14761,14764);
-UPDATE `armor` SET `skill` = '21005-3;' WHERE `item_id` IN (20016);
-UPDATE `armor` SET `skill` = '21006-1;21007-1;' WHERE `item_id` IN (20018);
-UPDATE `armor` SET `skill` = '21004-1;' WHERE `item_id` IN (20019);
+-- UPDATE `armor` SET `skill` = '3263-1;' WHERE `item_id` IN (10621,10625,10629);
+-- UPDATE `armor` SET `skill` = '3264-1;' WHERE `item_id` IN (10620,10624,10628,14753,14756,14759,14762);
+-- UPDATE `armor` SET `skill` = '3265-1;' WHERE `item_id` IN (10623,10627,10631,14754,14757,14760,14763);
+-- UPDATE `armor` SET `skill` = '3266-1;' WHERE `item_id` IN (10622,10626,10630,14755,14758,14761,14764);
+-- UPDATE `armor` SET `skill` = '21005-3;' WHERE `item_id` IN (20016);
+-- UPDATE `armor` SET `skill` = '21006-1;21007-1;' WHERE `item_id` IN (20018);
+-- UPDATE `armor` SET `skill` = '21004-1;' WHERE `item_id` IN (20019);
 
 -- ­×¥¿ Â§ªA¬°»´¸Ë
-UPDATE `armor` SET `armor_type` = 'light' WHERE `item_id` IN (6408);
+-- UPDATE `armor` SET `armor_type` = 'light' WHERE `item_id` IN (6408);
 
 /************ ¼W¥[/­×¥¿/§R°£NPC ************/
 UPDATE `npc` SET `type` = 'L2VillageMaster' WHERE `id` IN (32191); -- ­×¥¿º~®RµY  ©v®vªºNPCÃş«¬
 UPDATE `npc` SET `type` = 'L2Adventurer' WHERE `id` IN (32074); -- ­×¥¿¥j¾|¤B¤À·|ªøªºNPCÃş«¬
 UPDATE `npc` SET `type` = 'L2Npc', `collision_radius` = '9', `collision_height` = '16.5', `rhand` = '0' WHERE `id` IN (35417,35418); -- ­×¥¿¦aº»¦uªù¤H
-UPDATE `spawnlist` SET `npc_templateid` = '35440' WHERE `id` = 33771; -- ­×¥¿NPC ID:¤¦¥§º¸(®Ú¾Ú¦a¦uªù¤H)
+-- UPDATE `spawnlist` SET `npc_templateid` = '35440' WHERE `id` = 33771; -- ­×¥¿NPC ID:¤¦¥§º¸(®Ú¾Ú¦a¦uªù¤H)
 DELETE FROM `spawnlist` WHERE `npc_templateid` IN (30880,30881,30882,30883,30884,30885,30886,30887,30888,30889); -- §R°£¤£¦s¦bªºNPC
 UPDATE `droplist` SET `mobId` = '21070' WHERE `mobId` IN (21071); -- «Ê¦L¤j¤Ñ¨Ï
 
@@ -260,42 +260,42 @@ UPDATE `teleport` SET `price` = '5200' WHERE `id` IN (63);
 UPDATE `teleport` SET `price` = '7100' WHERE `id` IN (107);
 
 -- ­×¥¿Ây®·¥Ûªº¹D¨ãÃş«¬
-UPDATE `etcitem` SET `item_type` = 'none' WHERE `item_id` IN (8764);
+-- UPDATE `etcitem` SET `item_type` = 'none' WHERE `item_id` IN (8764);
 
 -- ­×¥¿»ù®æ
-UPDATE `etcitem` SET `price` = '1550000' WHERE `item_id` = '729';  -- ªZ¾¹±j¤Æ¨÷¶b-A¯Å
-UPDATE `etcitem` SET `price` = '2250000' WHERE `item_id` = '959';  -- ªZ¾¹±j¤Æ¨÷¶b-S¯Å
-UPDATE `etcitem` SET `price` = '2700000' WHERE `item_id` = '6569'; -- ¯¬ºÖªºªZ¾¹±j¤Æ¨÷¶b-A¯Å
-UPDATE `etcitem` SET `price` = '5000000' WHERE `item_id` = '6577'; -- ¯¬ºÖªºªZ¾¹±j¤Æ¨÷¶b-S¯Å
+-- UPDATE `etcitem` SET `price` = '1550000' WHERE `item_id` = '729';  -- ªZ¾¹±j¤Æ¨÷¶b-A¯Å
+-- UPDATE `etcitem` SET `price` = '2250000' WHERE `item_id` = '959';  -- ªZ¾¹±j¤Æ¨÷¶b-S¯Å
+-- UPDATE `etcitem` SET `price` = '2700000' WHERE `item_id` = '6569'; -- ¯¬ºÖªºªZ¾¹±j¤Æ¨÷¶b-A¯Å
+-- UPDATE `etcitem` SET `price` = '5000000' WHERE `item_id` = '6577'; -- ¯¬ºÖªºªZ¾¹±j¤Æ¨÷¶b-S¯Å
 
 -- ­×¥¿­º»â­«¥Í®É¡AHP/MP¥şº¡ (·PÁÂ wolo ´£¨Ñ)
 Update `npc`, `raidboss_spawnlist` SET `raidboss_spawnlist`.`heading`=0, `raidboss_spawnlist`.`currentHp`=`npc`.`hp`,`raidboss_spawnlist`.`currentMp`=`npc`.`mp` WHERE `npc`.`type`='L2RaidBoss' AND `npc`.`id`=`raidboss_spawnlist`.`boss_id`;
 
 -- ­×¥¿ªZ¾¹
-UPDATE `weapon` SET `onCrit_skill_chance` = '100' WHERE `item_id` in (4694,4789,4795,4804,4807,5604,5646,6308,8104,8105,8125,8128,8811,9254,9282,9287,9321,9347);
-UPDATE `weapon` SET `onCrit_skill_chance` = '6' WHERE `item_id` in (4781);
-UPDATE `weapon` SET `onCrit_skill_chance` = '7' WHERE `item_id` in (4775);
-UPDATE `weapon` SET `onCrit_skill_chance` = '9' WHERE `item_id` in (4760,4766);
-UPDATE `weapon` SET `onCrit_skill_chance` = '12' WHERE `item_id` in (4805);
-UPDATE `weapon` SET `onCrit_skill_chance` = '14' WHERE `item_id` in (4796,4801);
-UPDATE `weapon` SET `onCrit_skill_chance` = '17' WHERE `item_id` in (4790);
-UPDATE `weapon` SET `onCrit_skill_chance` = '25' WHERE `item_id` in (4859);
-UPDATE `weapon` SET `onCrit_skill_chance` = '27' WHERE `item_id` in (4856);
-UPDATE `weapon` SET `onCrit_skill_chance` = '29' WHERE `item_id` in (4852);
-UPDATE `weapon` SET `onCrit_skill_chance` = '31' WHERE `item_id` in (4847,4849);
-UPDATE `weapon` SET `onCrit_skill_chance` = '32' WHERE `item_id` in (4843);
-UPDATE `weapon` SET `onCrit_skill_chance` = '34' WHERE `item_id` in (4835,4838,4840);
-UPDATE `weapon` SET `onCast_skill_chance` = '50' WHERE `item_id` in (4865,4877,4889,4898);
-UPDATE `weapon` SET `skill` = '3260-1;3261-1;3262-1;' WHERE `item_id` in (9140,9141);
+-- UPDATE `weapon` SET `onCrit_skill_chance` = '100' WHERE `item_id` in (4694,4789,4795,4804,4807,5604,5646,6308,8104,8105,8125,8128,8811,9254,9282,9287,9321,9347);
+-- UPDATE `weapon` SET `onCrit_skill_chance` = '6' WHERE `item_id` in (4781);
+-- UPDATE `weapon` SET `onCrit_skill_chance` = '7' WHERE `item_id` in (4775);
+-- UPDATE `weapon` SET `onCrit_skill_chance` = '9' WHERE `item_id` in (4760,4766);
+-- UPDATE `weapon` SET `onCrit_skill_chance` = '12' WHERE `item_id` in (4805);
+-- UPDATE `weapon` SET `onCrit_skill_chance` = '14' WHERE `item_id` in (4796,4801);
+-- UPDATE `weapon` SET `onCrit_skill_chance` = '17' WHERE `item_id` in (4790);
+-- UPDATE `weapon` SET `onCrit_skill_chance` = '25' WHERE `item_id` in (4859);
+-- UPDATE `weapon` SET `onCrit_skill_chance` = '27' WHERE `item_id` in (4856);
+-- UPDATE `weapon` SET `onCrit_skill_chance` = '29' WHERE `item_id` in (4852);
+-- UPDATE `weapon` SET `onCrit_skill_chance` = '31' WHERE `item_id` in (4847,4849);
+-- UPDATE `weapon` SET `onCrit_skill_chance` = '32' WHERE `item_id` in (4843);
+-- UPDATE `weapon` SET `onCrit_skill_chance` = '34' WHERE `item_id` in (4835,4838,4840);
+-- UPDATE `weapon` SET `onCast_skill_chance` = '50' WHERE `item_id` in (4865,4877,4889,4898);
+-- UPDATE `weapon` SET `skill` = '3260-1;3261-1;3262-1;' WHERE `item_id` in (9140,9141);
 
 
 /************ ¥[¤J¯}·À°ê¹Òªº¹D¨ã ************/
 -- ·sÀY¹¢
-DELETE FROM `etcitem` WHERE `item_id` IN (20497,20498); -- ¥À¿ËªºªáÀô (L2J¿ù»~³]©w¬°etcitem)
+-- DELETE FROM `etcitem` WHERE `item_id` IN (20497,20498); -- ¥À¿ËªºªáÀô (L2J¿ù»~³]©w¬°etcitem)
 -- DELETE FROM `etcitem` WHERE `item_id` IN (15436); -- ¸U¸t©]ÅÜ¨­Å]§ú (L2J¿ù»~³]©w¬°etcitem)
-REPLACE INTO `armor` VALUES
-(20497,'Mother\'s Wreath - Event Blessing of Love - 24 hours limited period','','hairall','false','none',120,'wood','none',0,-1,1440,0,0,0,0,0,'false','false','true','false','true','0-0','21086-1;'), -- ¥À¿ËªºªáÀô-¬¡°Ê ·Rªº¯¬ºÖ(­­®É24¤p®É)
-(20498,'Mother\'s Wreath Blessing of Love - 3 day limited period','','hairall','false','none',120,'wood','none',0,-1,4320,0,0,0,0,0,'false','false','true','false','true','0-0','21086-1;'); -- ¥À¿ËªºªáÀô-¬¡°Ê ·Rªº¯¬ºÖ(­­®É3¤é)
+-- REPLACE INTO `armor` VALUES
+-- (20497,'Mother\'s Wreath - Event Blessing of Love - 24 hours limited period','','hairall','false','none',120,'wood','none',0,-1,1440,0,0,0,0,0,'false','false','true','false','true','0-0','21086-1;'), -- ¥À¿ËªºªáÀô-¬¡°Ê ·Rªº¯¬ºÖ(­­®É24¤p®É)
+-- (20498,'Mother\'s Wreath Blessing of Love - 3 day limited period','','hairall','false','none',120,'wood','none',0,-1,4320,0,0,0,0,0,'false','false','true','false','true','0-0','21086-1;'); -- ¥À¿ËªºªáÀô-¬¡°Ê ·Rªº¯¬ºÖ(­­®É3¤é)
 -- REPLACE INTO `weapon` VALUES (15436,'Halloween Transformation Stick','7 day limited period','rhand','false',1600,1,1,'steel','none',8,10,'sword',8,0.00000,0,0,0,379,0,6,-1,-1,590,0,'false','false','false','false','false',0,0,0,0,0,0,0,0,0,'0-0;');
 -- ­×¥¿NPC
 UPDATE `npc` SET `type` = 'L2Npc' WHERE `id` IN (32628,32629); -- ½XÀY¨µÅŞ§LªºÃş«¬§ï¬°¤@¯ëNPC
@@ -313,45 +313,45 @@ REPLACE INTO `teleport` VALUES
 Delete From `spawnlist` Where `npc_templateid` in (32628,32629); -- ½XÀY¨µÅŞ§L
 
 -- ¨¾¨ã­×¥¿
-UPDATE `armor` SET `armor_type` = 'heavy' WHERE `item_id` IN (9821,10019,10020); -- ¤Û¶H¸Ë³Æ-·ù»}²¯¥Ò/Âê¤l¯İ¥Ò/¿ûÅK×H¥Ò
-UPDATE `armor` SET `armor_type` = 'light' WHERE `item_id` IN (9824,10021,10022); -- ¤Û¶H¸Ë³Æ-·ù»}Â§ªA/¤ô´¹·à¥ÖÅ¨­m/¤ô´¹·à¥Ö×H¥Ò
-UPDATE `armor` SET `armor_type` = 'magic' WHERE `item_id` IN (9827,10023,10024); -- ¤Û¶H¸Ë³Æ-·ù»}ªø³T/¨ü¶A©Gªº¥~¦ç/¨ü¶A©GªºªøÄû
-UPDATE `armor` SET `time` = 0 WHERE `item_id` IN (20098); -- Â§ªA-¬¡°Ê 1¤p®É¤Û¶H
-UPDATE `armor` SET `time` = 43200 WHERE `item_id` IN (13544,13545); -- ³ıºë¥l³ê¤âÅN-¨k¥Í®õ­}ºµ/³ıºë¥l³ê¤âÅN-¤k¥Í®õ­}ºµ
-UPDATE `armor` SET `time` = 43200 WHERE `item_id` IN (20503,20504); -- ¶ÀÃO·à¤l/»]¨T¥ÒÂÎÃM­¼¤âÅN ­­®É30¤é (L2J¿ù»~³]©w¬°etcitem)
-UPDATE `armor` SET `duration` = 360 WHERE `item_id` IN (14753,14754,14755,14756,14757,14758,14759,14760,14761,14762,14763,14764); -- ¤Û¶H¸Ë³Æ
+-- UPDATE `armor` SET `armor_type` = 'heavy' WHERE `item_id` IN (9821,10019,10020); -- ¤Û¶H¸Ë³Æ-·ù»}²¯¥Ò/Âê¤l¯İ¥Ò/¿ûÅK×H¥Ò
+-- UPDATE `armor` SET `armor_type` = 'light' WHERE `item_id` IN (9824,10021,10022); -- ¤Û¶H¸Ë³Æ-·ù»}Â§ªA/¤ô´¹·à¥ÖÅ¨­m/¤ô´¹·à¥Ö×H¥Ò
+-- UPDATE `armor` SET `armor_type` = 'magic' WHERE `item_id` IN (9827,10023,10024); -- ¤Û¶H¸Ë³Æ-·ù»}ªø³T/¨ü¶A©Gªº¥~¦ç/¨ü¶A©GªºªøÄû
+-- UPDATE `armor` SET `time` = 0 WHERE `item_id` IN (20098); -- Â§ªA-¬¡°Ê 1¤p®É¤Û¶H
+-- UPDATE `armor` SET `time` = 43200 WHERE `item_id` IN (13544,13545); -- ³ıºë¥l³ê¤âÅN-¨k¥Í®õ­}ºµ/³ıºë¥l³ê¤âÅN-¤k¥Í®õ­}ºµ
+-- UPDATE `armor` SET `time` = 43200 WHERE `item_id` IN (20503,20504); -- ¶ÀÃO·à¤l/»]¨T¥ÒÂÎÃM­¼¤âÅN ­­®É30¤é (L2J¿ù»~³]©w¬°etcitem)
+-- UPDATE `armor` SET `duration` = 360 WHERE `item_id` IN (14753,14754,14755,14756,14757,14758,14759,14760,14761,14762,14763,14764); -- ¤Û¶H¸Ë³Æ
 
 -- ªZ¾¹­×¥¿
-UPDATE `weapon` SET `bodypart` = 'lrhand', `weaponType` = 'bigblunt' WHERE `item_id` IN (9819,13530,13531,13532,13533,13534,13535,13536,13537,13538);  -- °«ª§ºX¼m/¥j¾|¤BºX¼m/¨f®¦ºX¼m/©_©¥ºX¼m/¼Ú·çºX¼m/¨È¤BºX¼m/¦]¯Ç±o¥ßºX¼m/°ª¹F¯SºX¼m/¾|¦]ºX¼m/­×¥[¯SºX¼m
-UPDATE `weapon` SET `bodypart` = 'lrhand', `weaponType` = 'bigblunt' WHERE `item_id` IN (13539,13560,13561,13562,13563,13564,13565,13566,13567,13568); -- ¤j®v§E¸qªºÅ]§ú/¥j¾|¤B ¦uÅ@¤§ª«/¨f®¦ ¦uÅ@¤§ª«/©_©¥ ¦uÅ@¤§ª«/¼Ú·ç ¦uÅ@¤§ª«/¨È¤B ¦uÅ@¤§ª«/¦]¯Ç±o¥ß ¦uÅ@¤§ª«/°ª¹F¯S ¦uÅ@¤§ª«/¾|¦] ¦uÅ@¤§ª«/­×¥[¯S ¦uÅ@¤§ª«
-UPDATE `weapon` SET `bodypart` = 'lrhand', `weaponType` = 'bigblunt' WHERE `item_id` IN (13809,13981); -- ®c§ÊÅ]ªk®vªºÅ]ªk´Î/©Çª«¥Î(Às°¨­x¾Ô°«§L)
-UPDATE `weapon` SET `weaponType` = 'none' WHERE `item_id` IN (13525); -- ®æ°Ç¦è¨È¤h§L¬ŞµP
+-- UPDATE `weapon` SET `bodypart` = 'lrhand', `weaponType` = 'bigblunt' WHERE `item_id` IN (9819,13530,13531,13532,13533,13534,13535,13536,13537,13538);  -- °«ª§ºX¼m/¥j¾|¤BºX¼m/¨f®¦ºX¼m/©_©¥ºX¼m/¼Ú·çºX¼m/¨È¤BºX¼m/¦]¯Ç±o¥ßºX¼m/°ª¹F¯SºX¼m/¾|¦]ºX¼m/­×¥[¯SºX¼m
+-- UPDATE `weapon` SET `bodypart` = 'lrhand', `weaponType` = 'bigblunt' WHERE `item_id` IN (13539,13560,13561,13562,13563,13564,13565,13566,13567,13568); -- ¤j®v§E¸qªºÅ]§ú/¥j¾|¤B ¦uÅ@¤§ª«/¨f®¦ ¦uÅ@¤§ª«/©_©¥ ¦uÅ@¤§ª«/¼Ú·ç ¦uÅ@¤§ª«/¨È¤B ¦uÅ@¤§ª«/¦]¯Ç±o¥ß ¦uÅ@¤§ª«/°ª¹F¯S ¦uÅ@¤§ª«/¾|¦] ¦uÅ@¤§ª«/­×¥[¯S ¦uÅ@¤§ª«
+-- UPDATE `weapon` SET `bodypart` = 'lrhand', `weaponType` = 'bigblunt' WHERE `item_id` IN (13809,13981); -- ®c§ÊÅ]ªk®vªºÅ]ªk´Î/©Çª«¥Î(Às°¨­x¾Ô°«§L)
+-- UPDATE `weapon` SET `weaponType` = 'none' WHERE `item_id` IN (13525); -- ®æ°Ç¦è¨È¤h§L¬ŞµP
 
 -- ¨ä¥Lª««~­×¥¿
-Delete From `items` Where (`item_id` > 708 and `item_id` < 725); -- §R°£©M¨¾¨ã¦P¼Ë¦WºÙªº¨ä¥Lª««~
-UPDATE `etcitem` SET `consume_type` = 'normal' WHERE `item_id` IN (731,732,949,950,953,954,957,958,961,962); -- ªZ¾¹±j¤Æµ²´¹¨÷¶b/¨¾¨ã±j¤Æµ²´¹¨÷¶b
-UPDATE `etcitem` SET `consume_type` = 'normal' WHERE `item_id` IN (10117,10118); -- ´ı¨Pªº«Ê¦Lªº¤ı´Â²Å¦L/´ı¨Pªº ¤ı´Â²Å¦L
-UPDATE `etcitem` SET `consume_type` = 'normal' WHERE `item_id` IN (10414,10607,13382); -- ³ıºë¥æ´«¨é/³ıºë«Ê¦L¤âÅN-ÂG³À/®æÄõªÖªºÂ§²°-¬¡°Ê¥Î
-UPDATE `etcitem` SET `consume_type` = 'stackable' WHERE `item_id` IN (13420,13421,20025,20026,20027,20028,20033); -- ÂI¤ß/³J¿|/¦Û¥Ñ¶Ç°e¨÷¶b/°l¥[¤J³õ¨é-±ı¬É(²`²W¤§ÆU)/°l¥[¤J³õ¨é-ªñ½t±ı¬É/°l¥[¤J³õ¨é-±ı¬É(²`²W°g®c)/¦Û¥Ñ¶Ç°eºX
-UPDATE `etcitem` SET `time` = 1440 WHERE `item_id` IN (20320); -- ¥Í¤é³J¿|
-UPDATE `etcitem` SET `time` = 10080 WHERE `item_id` IN (20339,20340,20345,20346,20351,20352); -- ¸gÅç­È¥j¤å/SP¥j¤å/µ²´¹«¬¥j¤å
-UPDATE `etcitem` SET `time` = 21600 WHERE `item_id` IN (20190); -- ±¡¤H¸`¸Ë¹¢«~
-UPDATE `etcitem` SET `time` = 43200 WHERE `item_id` IN (13027,14728,20199); -- ®æÄõªÖªºÂ§²°/¬¡°Ê-Äq¥Û´¹Åé/¹Ú¤Ûªº±¡¤H¸`³J¿|
+-- Delete From `items` Where (`item_id` > 708 and `item_id` < 725); -- §R°£©M¨¾¨ã¦P¼Ë¦WºÙªº¨ä¥Lª««~
+-- UPDATE `etcitem` SET `consume_type` = 'normal' WHERE `item_id` IN (731,732,949,950,953,954,957,958,961,962); -- ªZ¾¹±j¤Æµ²´¹¨÷¶b/¨¾¨ã±j¤Æµ²´¹¨÷¶b
+-- UPDATE `etcitem` SET `consume_type` = 'normal' WHERE `item_id` IN (10117,10118); -- ´ı¨Pªº«Ê¦Lªº¤ı´Â²Å¦L/´ı¨Pªº ¤ı´Â²Å¦L
+-- UPDATE `etcitem` SET `consume_type` = 'normal' WHERE `item_id` IN (10414,10607,13382); -- ³ıºë¥æ´«¨é/³ıºë«Ê¦L¤âÅN-ÂG³À/®æÄõªÖªºÂ§²°-¬¡°Ê¥Î
+-- UPDATE `etcitem` SET `consume_type` = 'stackable' WHERE `item_id` IN (13420,13421,20025,20026,20027,20028,20033); -- ÂI¤ß/³J¿|/¦Û¥Ñ¶Ç°e¨÷¶b/°l¥[¤J³õ¨é-±ı¬É(²`²W¤§ÆU)/°l¥[¤J³õ¨é-ªñ½t±ı¬É/°l¥[¤J³õ¨é-±ı¬É(²`²W°g®c)/¦Û¥Ñ¶Ç°eºX
+-- UPDATE `etcitem` SET `time` = 1440 WHERE `item_id` IN (20320); -- ¥Í¤é³J¿|
+-- UPDATE `etcitem` SET `time` = 10080 WHERE `item_id` IN (20339,20340,20345,20346,20351,20352); -- ¸gÅç­È¥j¤å/SP¥j¤å/µ²´¹«¬¥j¤å
+-- UPDATE `etcitem` SET `time` = 21600 WHERE `item_id` IN (20190); -- ±¡¤H¸`¸Ë¹¢«~
+-- UPDATE `etcitem` SET `time` = 43200 WHERE `item_id` IN (13027,14728,20199); -- ®æÄõªÖªºÂ§²°/¬¡°Ê-Äq¥Û´¹Åé/¹Ú¤Ûªº±¡¤H¸`³J¿|
 
 -- ¼W¥[ª««~®ÄªG
-UPDATE `armor` SET `skill` = '3407-1;' WHERE `item_id` = '9900';                               -- ÀR­µ¤§¨B§Ù«ü
-UPDATE `etcitem` SET `skill` = '2309-1;', `handler` = 'ItemSkills' WHERE `item_id` = '9144';   -- ½Ş½ŞÂ§²°
-UPDATE `etcitem` SET `skill` = '2422-1;', `handler` = 'ItemSkills' WHERE `item_id` = '10254';  -- 1¯ÅÄ_³U
-UPDATE `etcitem` SET `skill` = '2423-2;', `handler` = 'ItemSkills' WHERE `item_id` = '10255';  -- 2¯ÅÄ_³U
-UPDATE `etcitem` SET `skill` = '2424-3;', `handler` = 'ItemSkills' WHERE `item_id` = '10256';  -- 3¯ÅÄ_³U
-UPDATE `etcitem` SET `skill` = '2425-4;', `handler` = 'ItemSkills' WHERE `item_id` = '10257';  -- 4¯ÅÄ_³U
-UPDATE `etcitem` SET `skill` = '2426-5;', `handler` = 'ItemSkills' WHERE `item_id` = '10258';  -- 5¯ÅÄ_³U
-UPDATE `etcitem` SET `skill` = '2427-6;', `handler` = 'ItemSkills' WHERE `item_id` = '10259';  -- 6¯ÅÄ_³U
-UPDATE `etcitem` SET `skill` = '2487-1;', `handler` = 'ItemSkills' WHERE `item_id` = '10520';  -- ¦^Án¤ô´¹-­Ü¤ì³Â¦ç
-UPDATE `etcitem` SET `skill` = '2670-1;', `handler` = 'ItemSkills' WHERE `item_id` = '13794';  -- ÅÜ¨­Åé-Â½ºu¤è¶ôÅÜ¨­¨÷¶b
-UPDATE `etcitem` SET `skill` = '2671-1;', `handler` = 'ItemSkills' WHERE `item_id` = '13795';  -- ÅÜ¨­Åé-Â½ºu¤è¶ôÅÜ¨­¨÷¶b
-UPDATE `etcitem` SET `skill` = '2631-1;', `handler` = 'ItemSkills' WHERE `item_id` = '13800';  -- «CµìÅÜ¨­¨÷¶b
-UPDATE `etcitem` SET `skill` = '2632-1;', `handler` = 'ItemSkills' WHERE `item_id` = '13801';  -- ¤p«ÄÅÜ¨­¨÷¶b
+-- UPDATE `armor` SET `skill` = '3407-1;' WHERE `item_id` = '9900';                               -- ÀR­µ¤§¨B§Ù«ü
+-- UPDATE `etcitem` SET `skill` = '2309-1;', `handler` = 'ItemSkills' WHERE `item_id` = '9144';   -- ½Ş½ŞÂ§²°
+-- UPDATE `etcitem` SET `skill` = '2422-1;', `handler` = 'ItemSkills' WHERE `item_id` = '10254';  -- 1¯ÅÄ_³U
+-- UPDATE `etcitem` SET `skill` = '2423-2;', `handler` = 'ItemSkills' WHERE `item_id` = '10255';  -- 2¯ÅÄ_³U
+-- UPDATE `etcitem` SET `skill` = '2424-3;', `handler` = 'ItemSkills' WHERE `item_id` = '10256';  -- 3¯ÅÄ_³U
+-- UPDATE `etcitem` SET `skill` = '2425-4;', `handler` = 'ItemSkills' WHERE `item_id` = '10257';  -- 4¯ÅÄ_³U
+-- UPDATE `etcitem` SET `skill` = '2426-5;', `handler` = 'ItemSkills' WHERE `item_id` = '10258';  -- 5¯ÅÄ_³U
+-- UPDATE `etcitem` SET `skill` = '2427-6;', `handler` = 'ItemSkills' WHERE `item_id` = '10259';  -- 6¯ÅÄ_³U
+-- UPDATE `etcitem` SET `skill` = '2487-1;', `handler` = 'ItemSkills' WHERE `item_id` = '10520';  -- ¦^Án¤ô´¹-­Ü¤ì³Â¦ç
+-- UPDATE `etcitem` SET `skill` = '2670-1;', `handler` = 'ItemSkills' WHERE `item_id` = '13794';  -- ÅÜ¨­Åé-Â½ºu¤è¶ôÅÜ¨­¨÷¶b
+-- UPDATE `etcitem` SET `skill` = '2671-1;', `handler` = 'ItemSkills' WHERE `item_id` = '13795';  -- ÅÜ¨­Åé-Â½ºu¤è¶ôÅÜ¨­¨÷¶b
+-- UPDATE `etcitem` SET `skill` = '2631-1;', `handler` = 'ItemSkills' WHERE `item_id` = '13800';  -- «CµìÅÜ¨­¨÷¶b
+-- UPDATE `etcitem` SET `skill` = '2632-1;', `handler` = 'ItemSkills' WHERE `item_id` = '13801';  -- ¤p«ÄÅÜ¨­¨÷¶b
 
 -- §R°£Å]ªk®Ñ°Ó¤H
 DELETE FROM `spawnlist` WHERE `npc_templateid` IN (30840,31262,31413,31414,31415,31416,31417,31421,31422,31423,31424,31425,31426,31426,31429,31430,31431,31666,31667,31670,31951,31973,31980);
@@ -359,82 +359,82 @@ DELETE FROM `merchant_buylists` WHERE `shop_id` IN ( SELECT `shop_id` FROM `merc
 DELETE FROM `merchant_shopids` WHERE `npc_id` IN (30840,31262,31413,31414,31415,31416,31417,31421,31422,31423,31424,31425,31426,31427,31429,31430,31431,31666,31667,31670,31951,31973,31980);
 
 -- §R°£±m¨é°Ó¤H
-DELETE FROM `spawnlist` WHERE `npc_templateid` IN (30990,30993,30994) AND `id` NOT IN (45033);
+-- DELETE FROM `spawnlist` WHERE `npc_templateid` IN (30990,30993,30994) AND `id` NOT IN (45033);
 
 -- §R°£¨ä¤¤¤@°¦ÂàÂ¾ºŞ²z­û
 -- DELETE FROM `spawnlist` WHERE `npc_templateid` IN (31756);
 DELETE FROM `spawnlist` WHERE `npc_templateid` IN (31757);
 
 -- ­×¥¿/§ó·s¥ô°È128 µá©Ô¥d-¦B»P¤õ¤§ºq
-UPDATE `etcitem` SET `skill` = '2150-1;', `handler` = 'SoulShots', `item_type` = 'shot', `crystal_type` = 'd' WHERE `item_id` = 13037;
-UPDATE `etcitem` SET `skill` = '2153-1;', `handler` = 'SoulShots', `item_type` = 'shot', `crystal_type` = 'a' WHERE `item_id` = 13045;
-UPDATE `etcitem` SET `skill` = '2153-1;', `handler` = 'SoulShots', `item_type` = 'shot', `crystal_type` = 'a' WHERE `item_id` = 13055;
-UPDATE `weapon` SET `skill` = '0-0;' WHERE `item_id` = 13042;
+-- UPDATE `etcitem` SET `skill` = '2150-1;', `handler` = 'SoulShots', `item_type` = 'shot', `crystal_type` = 'd' WHERE `item_id` = 13037;
+-- UPDATE `etcitem` SET `skill` = '2153-1;', `handler` = 'SoulShots', `item_type` = 'shot', `crystal_type` = 'a' WHERE `item_id` = 13045;
+-- UPDATE `etcitem` SET `skill` = '2153-1;', `handler` = 'SoulShots', `item_type` = 'shot', `crystal_type` = 'a' WHERE `item_id` = 13055;
+-- UPDATE `weapon` SET `skill` = '0-0;' WHERE `item_id` = 13042;
 UPDATE `npc` SET `collision_radius` = 28, `collision_height` = 20, `level` = 61, `hp` = 3450, `mp` = 1365, `patk` = 991, `pdef` = 415, `matk` = 504, `mdef` = 388, `runspd` = 187 WHERE `id` = 14916;
 UPDATE `npc` SET `collision_radius` = 28, `collision_height` = 20, `level` = 70, `hp` = 4025, `mp` = 1592, `patk` = 1156, `pdef` = 484, `matk` = 588, `mdef` = 452, `runspd` = 187 WHERE `id` = 14917;
 
 
 /************ CT 2.5 ¸tÁl¨Ï©R­×¥¿ ************/
 -- ¤æÁO§ï¬°³q¥Î,¤£¦A¤À­«/»´/ªk/îî¤Ñ¨Ï
-UPDATE `items` SET `item_id` = 13687 WHERE `item_id` IN (13688,13689,13690); -- »´/ªk/îî¤Ñ¨ÏªºÃM¤h¤æÁO§ï³q¥Î¤æÁO
-UPDATE `items` SET `item_id` = 13890 WHERE `item_id` IN (13889,13891,13892); -- »´/ªk/îî¤Ñ¨Ïªº¸tÆF¤æÁO§ï³q¥Î¤æÁO
-UPDATE `items` SET `item_id` = 14609 WHERE `item_id` IN (14601,14602,14608,14610); -- »´/ªk/îî¤Ñ¨Ïªº¥j¥N¤æÁO§ï³q¥Î¤æÁO
+-- UPDATE `items` SET `item_id` = 13687 WHERE `item_id` IN (13688,13689,13690); -- »´/ªk/îî¤Ñ¨ÏªºÃM¤h¤æÁO§ï³q¥Î¤æÁO
+-- UPDATE `items` SET `item_id` = 13890 WHERE `item_id` IN (13889,13891,13892); -- »´/ªk/îî¤Ñ¨Ïªº¸tÆF¤æÁO§ï³q¥Î¤æÁO
+-- UPDATE `items` SET `item_id` = 14609 WHERE `item_id` IN (14601,14602,14608,14610); -- »´/ªk/îî¤Ñ¨Ïªº¥j¥N¤æÁO§ï³q¥Î¤æÁO
 DELETE FROM `merchant_buylists` WHERE `item_id` IN (13688,13689,13690,13889,13891,13892,14601,14602,14608,14610); -- §R°£»´/ªk/îî¤Ñ¨Ïªº¤æÁOªº³c½æ
 
 -- ·sÀY¹¢
-UPDATE `armor` SET `skill` = '21090-1;' WHERE `item_id` = 20601;         -- ¦^»î´U
-UPDATE `armor` SET `skill` = '21092-1;' WHERE `item_id` = 20613;         -- ¦Õ¾÷
-UPDATE `armor` SET `skill` = '21093-1;' WHERE `item_id` = 20614;         -- ¦Õ¾÷
-UPDATE `armor` SET `skill` = '21094-1;' WHERE `item_id` = 20615;         -- ¦Õ¾÷
-UPDATE `armor` SET `skill` = '21092-1;21111-1;' WHERE `item_id` = 20616; -- ¦Õ¾÷
-UPDATE `armor` SET `skill` = '21093-1;21112-1;' WHERE `item_id` = 20617; -- ¦Õ¾÷
-UPDATE `armor` SET `skill` = '21094-1;21113-1;' WHERE `item_id` = 20618; -- ¦Õ¾÷
-UPDATE `armor` SET `skill` = '21095-1;' WHERE `item_id` = 20626;         -- ¦^»î´U
-UPDATE `armor` SET `skill` = '21096-1;' WHERE `item_id` = 20633;         -- ¦è¥Ê´U
-UPDATE `armor` SET `skill` = '21098-1;' WHERE `item_id` = 20667;         -- ¤kªZ¯«´U
-UPDATE `armor` SET `skill` = '21099-1;' WHERE `item_id` = 20669;         -- ¦Ñªê´U
-UPDATE `armor` SET `skill` = '21100-1;' WHERE `item_id` = 20671;         -- ¤k¹²¾v¹¢
-UPDATE `armor` SET `skill` = '21101-1;' WHERE `item_id` = 20673;         -- Ä_Ä_¿ßºµ´U
-UPDATE `armor` SET `skill` = '21103-1;' WHERE `item_id` = 20675;         -- ¹Î¹Î¿ßºµ´U
-UPDATE `armor` SET `skill` = '21102-1;' WHERE `item_id` = 20677;         -- ¶ê¶ê¿ßºµ´U
-UPDATE `armor` SET `skill` = '21104-1;' WHERE `item_id` = 20679;         -- ¦uªù¤H´U
-UPDATE `armor` SET `skill` = '21120-1;' WHERE `item_id` = 20711;         -- ³Ç§J«n¥Ê­±¨ã-¬¡°Ê
-UPDATE `armor` SET `skill` = '21120-1;' WHERE `item_id` = 20723;         -- ¶Àª÷³Ç§J«n¥Ê­±¨ã
-UPDATE `armor` SET `skill` = '21120-1;21136-1;' WHERE `item_id` = 20724; -- ¶Àª÷³Ç§J«n¥Ê­±¨ã
-UPDATE `armor` SET `skill` = '21137-1;' WHERE `item_id` = 20743;         -- °{Ä£ªº¬ì¾Ç©Ç¤H­±¨ã
-UPDATE `armor` SET `skill` = '21138-1;' WHERE `item_id` = 20744;         -- °{Ä£ªºÅåÁn¦y¥s­±¨ã
-UPDATE `armor` SET `skill` = '21139-1;' WHERE `item_id` = 20745;         -- °{Ä£ªº¼««ãºëÆF­±¨ã
-UPDATE `armor` SET `skill` = '21140-1;' WHERE `item_id` = 20746;         -- °{Ä£ªº¤£¦´Àe°©­±¨ã
-UPDATE `armor` SET `skill` = '21141-1;' WHERE `item_id` = 20747;         -- °{Ä£ªºX235¦æ¬P­±¨ã
+-- UPDATE `armor` SET `skill` = '21090-1;' WHERE `item_id` = 20601;         -- ¦^»î´U
+-- UPDATE `armor` SET `skill` = '21092-1;' WHERE `item_id` = 20613;         -- ¦Õ¾÷
+-- UPDATE `armor` SET `skill` = '21093-1;' WHERE `item_id` = 20614;         -- ¦Õ¾÷
+-- UPDATE `armor` SET `skill` = '21094-1;' WHERE `item_id` = 20615;         -- ¦Õ¾÷
+-- UPDATE `armor` SET `skill` = '21092-1;21111-1;' WHERE `item_id` = 20616; -- ¦Õ¾÷
+-- UPDATE `armor` SET `skill` = '21093-1;21112-1;' WHERE `item_id` = 20617; -- ¦Õ¾÷
+-- UPDATE `armor` SET `skill` = '21094-1;21113-1;' WHERE `item_id` = 20618; -- ¦Õ¾÷
+-- UPDATE `armor` SET `skill` = '21095-1;' WHERE `item_id` = 20626;         -- ¦^»î´U
+-- UPDATE `armor` SET `skill` = '21096-1;' WHERE `item_id` = 20633;         -- ¦è¥Ê´U
+-- UPDATE `armor` SET `skill` = '21098-1;' WHERE `item_id` = 20667;         -- ¤kªZ¯«´U
+-- UPDATE `armor` SET `skill` = '21099-1;' WHERE `item_id` = 20669;         -- ¦Ñªê´U
+-- UPDATE `armor` SET `skill` = '21100-1;' WHERE `item_id` = 20671;         -- ¤k¹²¾v¹¢
+-- UPDATE `armor` SET `skill` = '21101-1;' WHERE `item_id` = 20673;         -- Ä_Ä_¿ßºµ´U
+-- UPDATE `armor` SET `skill` = '21103-1;' WHERE `item_id` = 20675;         -- ¹Î¹Î¿ßºµ´U
+-- UPDATE `armor` SET `skill` = '21102-1;' WHERE `item_id` = 20677;         -- ¶ê¶ê¿ßºµ´U
+-- UPDATE `armor` SET `skill` = '21104-1;' WHERE `item_id` = 20679;         -- ¦uªù¤H´U
+-- UPDATE `armor` SET `skill` = '21120-1;' WHERE `item_id` = 20711;         -- ³Ç§J«n¥Ê­±¨ã-¬¡°Ê
+-- UPDATE `armor` SET `skill` = '21120-1;' WHERE `item_id` = 20723;         -- ¶Àª÷³Ç§J«n¥Ê­±¨ã
+-- UPDATE `armor` SET `skill` = '21120-1;21136-1;' WHERE `item_id` = 20724; -- ¶Àª÷³Ç§J«n¥Ê­±¨ã
+-- UPDATE `armor` SET `skill` = '21137-1;' WHERE `item_id` = 20743;         -- °{Ä£ªº¬ì¾Ç©Ç¤H­±¨ã
+-- UPDATE `armor` SET `skill` = '21138-1;' WHERE `item_id` = 20744;         -- °{Ä£ªºÅåÁn¦y¥s­±¨ã
+-- UPDATE `armor` SET `skill` = '21139-1;' WHERE `item_id` = 20745;         -- °{Ä£ªº¼««ãºëÆF­±¨ã
+-- UPDATE `armor` SET `skill` = '21140-1;' WHERE `item_id` = 20746;         -- °{Ä£ªº¤£¦´Àe°©­±¨ã
+-- UPDATE `armor` SET `skill` = '21141-1;' WHERE `item_id` = 20747;         -- °{Ä£ªºX235¦æ¬P­±¨ã
 
 -- ·s¤âÅN
-UPDATE `armor` SET `bodypart` = 'lbracelet', `skill` = '8358-1;3267-1;' WHERE `item_id` = 15351;                           -- «Ê¦L¸Ñ°£¤âÅN-¦«¨©
-UPDATE `armor` SET `bodypart` = 'lbracelet' WHERE `item_id` IN (20658,20659);                                              -- ³ıºë«Ê¦L¤âÅN-»R°Ê©¯¹B¨à
-UPDATE `armor` SET `skill` = '8464-1;3267-1;' WHERE `item_id` = 17004;                                                     -- ³ıºë«Ê¦L¤âÅN-ÂG³ÀÄ_Ä_
-UPDATE `armor` SET `bodypart` = 'lbracelet', `skill` = '21191-1;23171-1;23173-1;3267-1;' WHERE `item_id` = 20941;          -- »ñ°Ä³ıºë«Ê¦L¤âÅN-¦³»ñ¨Ó»ö
-UPDATE `armor` SET `bodypart` = 'hairall' WHERE `item_id` IN (20942,20944);                                                -- ª°¯W­±¨ã/±ÆÆW±Ú´U¤l
+-- UPDATE `armor` SET `bodypart` = 'lbracelet', `skill` = '8358-1;3267-1;' WHERE `item_id` = 15351;                           -- «Ê¦L¸Ñ°£¤âÅN-¦«¨©
+-- UPDATE `armor` SET `bodypart` = 'lbracelet' WHERE `item_id` IN (20658,20659);                                              -- ³ıºë«Ê¦L¤âÅN-»R°Ê©¯¹B¨à
+-- UPDATE `armor` SET `skill` = '8464-1;3267-1;' WHERE `item_id` = 17004;                                                     -- ³ıºë«Ê¦L¤âÅN-ÂG³ÀÄ_Ä_
+-- UPDATE `armor` SET `bodypart` = 'lbracelet', `skill` = '21191-1;23171-1;23173-1;3267-1;' WHERE `item_id` = 20941;          -- »ñ°Ä³ıºë«Ê¦L¤âÅN-¦³»ñ¨Ó»ö
+-- UPDATE `armor` SET `bodypart` = 'hairall' WHERE `item_id` IN (20942,20944);                                                -- ª°¯W­±¨ã/±ÆÆW±Ú´U¤l
 
 -- ¨ä¥¦
-UPDATE `etcitem` SET `skill` = '2869-1;', `handler` = 'ItemSkills' WHERE `item_id` = 14724;                                -- ¬¡°Ê-ÎNÎN¤û¥l³ê¨÷¶b
-UPDATE `etcitem` SET `skill` = '2870-1;', `handler` = 'ItemSkills' WHERE `item_id` = 14725;                                -- ¬¡°Ê-¶W¯«¤û¥l³ê¨÷¶b
-UPDATE `etcitem` SET `skill` = '2880-1;', `handler` = 'ItemSkills' WHERE `item_id` = 14726;                                -- ¬¡°Ê-¼~Æ{ÎNÎN¤û¥l³ê¨÷¶b
-UPDATE `etcitem` SET `skill` = '2881-1;', `handler` = 'ItemSkills' WHERE `item_id` = 14727;                                -- ¬¡°Ê-¼~Æ{¶W¯«¤û¥l³ê¨÷¶b
-UPDATE `etcitem` SET `consume_type` = 'stackable' WHERE `item_id` = 20597;                                                 -- ¤Ö¤kªººëÆF¥Û
-UPDATE `etcitem` SET `skill` = '22105-1;', `handler` = 'ItemSkills', `consume_type` = 'stackable' WHERE `item_id` = 20707; -- ¤a¨à¼w¥l³ê¨÷¶b
-UPDATE `etcitem` SET `skill` = '22106-1;', `handler` = 'ItemSkills', `consume_type` = 'stackable' WHERE `item_id` = 20708; -- ¨©º¸¤¦¸¦¥l³ê¨÷¶b
-UPDATE `etcitem` SET `skill` = '22107-1;', `handler` = 'ItemSkills', `consume_type` = 'stackable' WHERE `item_id` = 20709; -- ´µ®w­}¥l³ê¨÷¶b
-UPDATE `etcitem` SET `skill` = '22110-1;', `handler` = 'ItemSkills', `consume_type` = 'stackable' WHERE `item_id` = 20728; -- ¦N²»¤Ñ¿O¥l³ê®Ñ
-UPDATE `etcitem` SET `skill` = '22111-1;', `handler` = 'ItemSkills', `consume_type` = 'stackable' WHERE `item_id` = 20729; -- Åw¼y¤Ñ¿O¥l³ê®Ñ
-UPDATE `etcitem` SET `skill` = '22112-1;', `handler` = 'ItemSkills', `consume_type` = 'stackable' WHERE `item_id` = 20730; -- ¬èºÖ¤Ñ¿O¥l³ê®Ñ
-UPDATE `etcitem` SET `skill` = '22113-1;', `handler` = 'ItemSkills', `consume_type` = 'stackable' WHERE `item_id` = 20731; -- ¥­¦w¤Ñ¿O¥l³ê®Ñ
-UPDATE `etcitem` SET `consume_type` = 'stackable' WHERE `item_id` IN (20904,20905,20906,20907);                            -- ª´ºÀºëµØ/ª´ºÀªá
-UPDATE `etcitem` SET `sellable` = 'true', `dropable` = 'true' WHERE `item_id` IN (20904,20905,20906,20907);                -- ª´ºÀºëµØ/ª´ºÀªá
-UPDATE `etcitem` SET `destroyable` = 'true', `tradeable` = 'true' WHERE `item_id` IN (20904,20905,20906,20907);            -- ª´ºÀºëµØ/ª´ºÀªá
+-- UPDATE `etcitem` SET `skill` = '2869-1;', `handler` = 'ItemSkills' WHERE `item_id` = 14724;                                -- ¬¡°Ê-ÎNÎN¤û¥l³ê¨÷¶b
+-- UPDATE `etcitem` SET `skill` = '2870-1;', `handler` = 'ItemSkills' WHERE `item_id` = 14725;                                -- ¬¡°Ê-¶W¯«¤û¥l³ê¨÷¶b
+-- UPDATE `etcitem` SET `skill` = '2880-1;', `handler` = 'ItemSkills' WHERE `item_id` = 14726;                                -- ¬¡°Ê-¼~Æ{ÎNÎN¤û¥l³ê¨÷¶b
+-- UPDATE `etcitem` SET `skill` = '2881-1;', `handler` = 'ItemSkills' WHERE `item_id` = 14727;                                -- ¬¡°Ê-¼~Æ{¶W¯«¤û¥l³ê¨÷¶b
+-- UPDATE `etcitem` SET `consume_type` = 'stackable' WHERE `item_id` = 20597;                                                 -- ¤Ö¤kªººëÆF¥Û
+-- UPDATE `etcitem` SET `skill` = '22105-1;', `handler` = 'ItemSkills', `consume_type` = 'stackable' WHERE `item_id` = 20707; -- ¤a¨à¼w¥l³ê¨÷¶b
+-- UPDATE `etcitem` SET `skill` = '22106-1;', `handler` = 'ItemSkills', `consume_type` = 'stackable' WHERE `item_id` = 20708; -- ¨©º¸¤¦¸¦¥l³ê¨÷¶b
+-- UPDATE `etcitem` SET `skill` = '22107-1;', `handler` = 'ItemSkills', `consume_type` = 'stackable' WHERE `item_id` = 20709; -- ´µ®w­}¥l³ê¨÷¶b
+-- UPDATE `etcitem` SET `skill` = '22110-1;', `handler` = 'ItemSkills', `consume_type` = 'stackable' WHERE `item_id` = 20728; -- ¦N²»¤Ñ¿O¥l³ê®Ñ
+-- UPDATE `etcitem` SET `skill` = '22111-1;', `handler` = 'ItemSkills', `consume_type` = 'stackable' WHERE `item_id` = 20729; -- Åw¼y¤Ñ¿O¥l³ê®Ñ
+-- UPDATE `etcitem` SET `skill` = '22112-1;', `handler` = 'ItemSkills', `consume_type` = 'stackable' WHERE `item_id` = 20730; -- ¬èºÖ¤Ñ¿O¥l³ê®Ñ
+-- UPDATE `etcitem` SET `skill` = '22113-1;', `handler` = 'ItemSkills', `consume_type` = 'stackable' WHERE `item_id` = 20731; -- ¥­¦w¤Ñ¿O¥l³ê®Ñ
+-- UPDATE `etcitem` SET `consume_type` = 'stackable' WHERE `item_id` IN (20904,20905,20906,20907);                            -- ª´ºÀºëµØ/ª´ºÀªá
+-- UPDATE `etcitem` SET `sellable` = 'true', `dropable` = 'true' WHERE `item_id` IN (20904,20905,20906,20907);                -- ª´ºÀºëµØ/ª´ºÀªá
+-- UPDATE `etcitem` SET `destroyable` = 'true', `tradeable` = 'true' WHERE `item_id` IN (20904,20905,20906,20907);            -- ª´ºÀºëµØ/ª´ºÀªá
 
 -- ·s¯S®íªZ¾¹
-UPDATE `weapon` SET `skill` = '8357-1;' WHERE `item_id` = 15310;          -- ®ï®üÂÄ¸t¼C
-UPDATE `weapon` SET `skill` = '21089-1;' WHERE `item_id` = 20600;         -- ©Û»î§ú
-UPDATE `weapon` SET `skill` = '21169-1;23154-1;' WHERE `item_id` = 20867; -- ªùªQÅÜ¨­Å]§ú
+-- UPDATE `weapon` SET `skill` = '8357-1;' WHERE `item_id` = 15310;          -- ®ï®üÂÄ¸t¼C
+-- UPDATE `weapon` SET `skill` = '21089-1;' WHERE `item_id` = 20600;         -- ©Û»î§ú
+-- UPDATE `weapon` SET `skill` = '21169-1;23154-1;' WHERE `item_id` = 20867; -- ªùªQÅÜ¨­Å]§ú
 
 
 /************ CT 2.6 ªÜÁ¢¶®­×¥¿ ************/
@@ -445,45 +445,45 @@ UPDATE `weapon` SET `skill` = '21169-1;23154-1;' WHERE `item_id` = 20867; -- ªùª
 -- ·s³ıºë(¤TÀYÀs/®æ¿Õ®u¦w±±²y/¶øÃ¹¼w§Qº¸±±²y/¤Q¤G½X»@²y)
 
 -- ·sÀY¹¢(¤Ñ¨Ï/¦Bµ²/¾uÅ\ÀYãT/ÃT³½/ª÷¨¤/»È¨¤/¥øÃZ/ÀY¤y/¯QÀt/¤û¤û/Às¦à´U/¨¬²yÃz¬µÀY/¨Ê¼@­±¨ã-¼B³Æ/Ãö¦Ğ/±i­¸)
-REPLACE INTO `armor` VALUES
-(17033,'Circlet of Freeze - For Events','30 day limited period','none','false','none',10,'wood','none',0,-1,43200,0,0,0,0,0,'false','false','false','false','false','0-0','8497-1;');
+-- REPLACE INTO `armor` VALUES
+-- (17033,'Circlet of Freeze - For Events','30 day limited period','none','false','none',10,'wood','none',0,-1,43200,0,0,0,0,0,'false','false','false','false','false','0-0','8497-1;');
 
 -- ·s¹¢«~(¼Ü¦±/³Õ¨Ø´µ/¤Ñ©R)
 
 -- ·sBOSS¹¢«~(ªÜÁ¢¶®¶µÁå)
 
 -- ·s®õ´Ë­}ªZ¾¹(¤ı´ÂªZ¾¹ªºÅÜ¦âª©+Á¡¼ÇªZ¾¹ªº¯à¤O)
-REPLACE INTO `weapon` VALUES
-(15676,'15676','','rhand','true',1520,1,1,'fine_steel','s84',396,10,'sword',8,0.00000,0,0,0,379,0,183,-1,-1,0,0,'true','true','true','true','true',0,0,0,0,0,0,0,0,15687,'0-0;'),
-(15677,'15677','','rhand','true',1520,1,1,'fine_steel','s84',346,5,'dagger',12,-3.00000,0,0,0,433,0,183,-1,-1,0,0,'true','true','true','true','true',0,0,0,0,0,0,0,0,0,'0-0;'),
-(15678,'15678','','rhand','true',1740,1,1,'fine_steel','s84',396,20,'blunt',4,4.00000,0,0,0,379,0,183,-1,-1,0,0,'true','true','true','true','true',0,0,0,0,0,0,0,0,0,'0-0;'),
-(15679,'15679','','lrhand','true',1740,1,1,'fine_steel','s84',482,20,'bigblunt',4,4.00000,0,0,0,325,0,183,-1,-1,0,0,'true','true','true','true','true',0,0,0,0,0,0,0,0,0,'0-0;'),
-(15680,'15680','','lrhand','true',1740,1,1,'fine_steel','s84',482,10,'bigsword',8,0.00000,0,0,0,325,0,183,-1,-1,0,0,'true','true','true','true','true',0,0,0,0,0,0,0,0,15688,'0-0;'),
-(15681,'15681','','lrhand','true',1550,1,1,'fine_steel','s84',482,5,'dualfist',4,4.00000,0,0,0,325,0,183,-1,-1,0,0,'true','true','true','true','true',0,0,0,0,0,0,0,0,0,'0-0;'),
-(15682,'15682','','lrhand','true',2010,1,1,'fine_steel','s84',396,10,'pole',8,-3.00000,0,0,0,325,0,183,-1,-1,0,0,'true','true','true','true','true',0,0,0,0,0,0,0,0,0,'3599-1;'),
-(15683,'15683','','rhand','true',1080,1,1,'fine_steel','s84',317,20,'blunt',4,4.00000,0,0,0,379,0,244,-1,-1,0,0,'true','true','true','true','true',0,0,0,0,0,0,0,0,0,'0-0;'),
-(15684,'15684','','lrhand','true',1080,1,1,'fine_steel','s84',386,20,'bigblunt',4,4.00000,0,0,0,325,0,268,-1,-1,0,0,'true','true','true','true','true',0,0,0,0,0,0,0,0,0,'0-0;'),
-(15685,'15685','','rhand','true',1520,1,1,'fine_steel','s84',317,10,'sword',8,0.00000,0,0,0,379,0,244,-1,-1,0,0,'true','true','true','true','true',0,0,0,0,0,0,0,0,0,'0-0;'),
-(15686,'15686','','lrhand','true',1520,1,1,'fine_steel','s84',724,5,'bow',12,-3.00000,0,0,0,293,12,183,-1,-1,0,0,'true','true','true','true','true',0,0,0,0,0,0,0,0,15689,'0-0;'),
-(15687,'15687','','rhand','true',1280,1,1,'fine_steel','s84',359,40,'rapier',10,-1.00000,0,0,0,406,0,183,-1,-1,0,0,'true','true','true','true','true',3426,1,0,0,0,0,0,0,15676,'0-0;'),
-(15688,'15688','','lrhand','true',1800,1,1,'fine_steel','s84',429,15,'ancient',8,2.00000,0,0,0,350,0,183,-1,-1,0,0,'true','true','true','true','true',0,0,0,0,0,0,0,0,15680,'0-0;'),
-(15689,'15689','','rhand','true',1580,1,1,'fine_steel','s84',444,10,'crossbow',10,-1.00000,0,0,0,303,0,183,-1,-1,0,0,'true','true','true','true','true',0,0,0,0,0,0,0,0,15686,'0-0;');
+-- REPLACE INTO `weapon` VALUES
+-- (15676,'15676','','rhand','true',1520,1,1,'fine_steel','s84',396,10,'sword',8,0.00000,0,0,0,379,0,183,-1,-1,0,0,'true','true','true','true','true',0,0,0,0,0,0,0,0,15687,'0-0;'),
+-- (15677,'15677','','rhand','true',1520,1,1,'fine_steel','s84',346,5,'dagger',12,-3.00000,0,0,0,433,0,183,-1,-1,0,0,'true','true','true','true','true',0,0,0,0,0,0,0,0,0,'0-0;'),
+-- (15678,'15678','','rhand','true',1740,1,1,'fine_steel','s84',396,20,'blunt',4,4.00000,0,0,0,379,0,183,-1,-1,0,0,'true','true','true','true','true',0,0,0,0,0,0,0,0,0,'0-0;'),
+-- (15679,'15679','','lrhand','true',1740,1,1,'fine_steel','s84',482,20,'bigblunt',4,4.00000,0,0,0,325,0,183,-1,-1,0,0,'true','true','true','true','true',0,0,0,0,0,0,0,0,0,'0-0;'),
+-- (15680,'15680','','lrhand','true',1740,1,1,'fine_steel','s84',482,10,'bigsword',8,0.00000,0,0,0,325,0,183,-1,-1,0,0,'true','true','true','true','true',0,0,0,0,0,0,0,0,15688,'0-0;'),
+-- (15681,'15681','','lrhand','true',1550,1,1,'fine_steel','s84',482,5,'dualfist',4,4.00000,0,0,0,325,0,183,-1,-1,0,0,'true','true','true','true','true',0,0,0,0,0,0,0,0,0,'0-0;'),
+-- (15682,'15682','','lrhand','true',2010,1,1,'fine_steel','s84',396,10,'pole',8,-3.00000,0,0,0,325,0,183,-1,-1,0,0,'true','true','true','true','true',0,0,0,0,0,0,0,0,0,'3599-1;'),
+-- (15683,'15683','','rhand','true',1080,1,1,'fine_steel','s84',317,20,'blunt',4,4.00000,0,0,0,379,0,244,-1,-1,0,0,'true','true','true','true','true',0,0,0,0,0,0,0,0,0,'0-0;'),
+-- (15684,'15684','','lrhand','true',1080,1,1,'fine_steel','s84',386,20,'bigblunt',4,4.00000,0,0,0,325,0,268,-1,-1,0,0,'true','true','true','true','true',0,0,0,0,0,0,0,0,0,'0-0;'),
+-- (15685,'15685','','rhand','true',1520,1,1,'fine_steel','s84',317,10,'sword',8,0.00000,0,0,0,379,0,244,-1,-1,0,0,'true','true','true','true','true',0,0,0,0,0,0,0,0,0,'0-0;'),
+-- (15686,'15686','','lrhand','true',1520,1,1,'fine_steel','s84',724,5,'bow',12,-3.00000,0,0,0,293,12,183,-1,-1,0,0,'true','true','true','true','true',0,0,0,0,0,0,0,0,15689,'0-0;'),
+-- (15687,'15687','','rhand','true',1280,1,1,'fine_steel','s84',359,40,'rapier',10,-1.00000,0,0,0,406,0,183,-1,-1,0,0,'true','true','true','true','true',3426,1,0,0,0,0,0,0,15676,'0-0;'),
+-- (15688,'15688','','lrhand','true',1800,1,1,'fine_steel','s84',429,15,'ancient',8,2.00000,0,0,0,350,0,183,-1,-1,0,0,'true','true','true','true','true',0,0,0,0,0,0,0,0,15680,'0-0;'),
+-- (15689,'15689','','rhand','true',1580,1,1,'fine_steel','s84',444,10,'crossbow',10,-1.00000,0,0,0,303,0,183,-1,-1,0,0,'true','true','true','true','true',0,0,0,0,0,0,0,0,15686,'0-0;');
 
 -- ¯S§O¬°®õ´Ë­}ªZ¾¹¼W¥[»î¥Û®ÄªG
-UPDATE `weapon` SET `skill` = '8297-1;' WHERE `item_id` = 15676;
-UPDATE `weapon` SET `skill` = '8297-1;' WHERE `item_id` = 15677;
-UPDATE `weapon` SET `skill` = '3568-1;' WHERE `item_id` = 15678;
-UPDATE `weapon` SET `skill` = '3568-1;' WHERE `item_id` = 15679;
-UPDATE `weapon` SET `skill` = '8297-1;' WHERE `item_id` = 15680;
-UPDATE `weapon` SET `skill` = '8289-1;' WHERE `item_id` = 15681;
-UPDATE `weapon` SET `skill` = '3599-1;8297-1;' WHERE `item_id` = 15682;
-UPDATE `weapon` SET `skill` = '3047-3;' WHERE `item_id` = 15683;
-UPDATE `weapon` SET `skill` = '3575-2;' WHERE `item_id` = 15684;
-UPDATE `weapon` SET `skill` = '3047-3;' WHERE `item_id` = 15685;
-UPDATE `weapon` SET `skill` = '8298-1;' WHERE `item_id` = 15686;
-UPDATE `weapon` SET `skill` = '8297-1;' WHERE `item_id` = 15687;
-UPDATE `weapon` SET `skill` = '8297-1;' WHERE `item_id` = 15688;
-UPDATE `weapon` SET `skill` = '8296-1;' WHERE `item_id` = 15689;
+-- UPDATE `weapon` SET `skill` = '8297-1;' WHERE `item_id` = 15676;
+-- UPDATE `weapon` SET `skill` = '8297-1;' WHERE `item_id` = 15677;
+-- UPDATE `weapon` SET `skill` = '3568-1;' WHERE `item_id` = 15678;
+-- UPDATE `weapon` SET `skill` = '3568-1;' WHERE `item_id` = 15679;
+-- UPDATE `weapon` SET `skill` = '8297-1;' WHERE `item_id` = 15680;
+-- UPDATE `weapon` SET `skill` = '8289-1;' WHERE `item_id` = 15681;
+-- UPDATE `weapon` SET `skill` = '3599-1;8297-1;' WHERE `item_id` = 15682;
+-- UPDATE `weapon` SET `skill` = '3047-3;' WHERE `item_id` = 15683;
+-- UPDATE `weapon` SET `skill` = '3575-2;' WHERE `item_id` = 15684;
+-- UPDATE `weapon` SET `skill` = '3047-3;' WHERE `item_id` = 15685;
+-- UPDATE `weapon` SET `skill` = '8298-1;' WHERE `item_id` = 15686;
+-- UPDATE `weapon` SET `skill` = '8297-1;' WHERE `item_id` = 15687;
+-- UPDATE `weapon` SET `skill` = '8297-1;' WHERE `item_id` = 15688;
+-- UPDATE `weapon` SET `skill` = '8296-1;' WHERE `item_id` = 15689;
 
 -- ·s¨¾¨ã(¼Ü¦±/³Õ¨Ø´µ/¤Ñ©R)
 
@@ -714,30 +714,30 @@ UPDATE `npc` SET `type`='L2Monster' where id='18778';  --
 UPDATE `npc` SET `type`='L2Monster' where id='29167';  --
 
 -- Seed OF Destruction
-REPLACE INTO `npcaidata` VALUES
-(22536,25,NULL,NULL,NULL,NULL,NULL,NULL,50,25,20,20,NULL,'SeedOfDestruction',100,NULL,NULL,NULL,'balanced'),
-(22537,70,NULL,NULL,NULL,NULL,NULL,NULL,50,25,20,20,NULL,'SeedOfDestruction',100,NULL,NULL,NULL,'mage'),
-(22538,25,NULL,NULL,NULL,NULL,NULL,NULL,50,25,20,20,NULL,'SeedOfDestruction',100,NULL,NULL,NULL,'balanced'),
-(22539,25,NULL,NULL,NULL,NULL,NULL,NULL,50,25,20,20,NULL,'SeedOfDestruction',100,NULL,NULL,NULL,'balanced'),
-(22540,25,NULL,NULL,NULL,NULL,NULL,NULL,50,25,20,20,NULL,'SeedOfDestruction',100,NULL,NULL,NULL,'balanced'),
-(22541,25,NULL,NULL,NULL,NULL,NULL,NULL,50,25,20,20,NULL,'SeedOfDestruction',100,NULL,NULL,NULL,'balanced'),
-(22542,25,NULL,NULL,NULL,NULL,NULL,NULL,50,25,20,20,NULL,'SeedOfDestruction',100,NULL,NULL,NULL,'balanced'),
-(22543,70,NULL,NULL,NULL,NULL,NULL,NULL,50,25,20,20,NULL,'SeedOfDestruction',100,NULL,NULL,NULL,'mage'),
-(22544,25,NULL,NULL,NULL,NULL,NULL,NULL,50,25,20,20,NULL,'SeedOfDestruction',100,NULL,NULL,NULL,'balanced'),
-(22545,25,NULL,NULL,NULL,NULL,NULL,NULL,50,25,20,20,NULL,'SeedOfDestruction',100,NULL,NULL,NULL,'balanced'),
-(22546,25,NULL,NULL,NULL,NULL,NULL,NULL,50,25,20,20,NULL,'SeedOfDestruction',100,NULL,NULL,NULL,'balanced'),
-(22547,90,NULL,NULL,NULL,NULL,NULL,NULL,50,25,20,20,NULL,'SeedOfDestruction',100,NULL,NULL,NULL,'healer'),
-(22548,40,NULL,NULL,NULL,NULL,NULL,NULL,50,25,20,20,NULL,'SeedOfDestruction',100,NULL,NULL,15,'archer'),
-(22549,40,NULL,NULL,NULL,NULL,NULL,NULL,50,25,20,20,NULL,'SeedOfDestruction',100,NULL,NULL,15,'archer'),
-(22550,25,NULL,NULL,NULL,NULL,NULL,NULL,50,25,20,20,NULL,'SeedOfDestruction',100,NULL,NULL,NULL,'balanced'),
-(22551,25,NULL,NULL,NULL,NULL,NULL,NULL,50,25,20,20,NULL,'SeedOfDestruction',100,NULL,NULL,NULL,'balanced'),
-(22552,25,NULL,NULL,NULL,NULL,NULL,NULL,50,25,20,20,NULL,'SeedOfDestruction',100,NULL,NULL,NULL,'balanced'),
-(22593,25,NULL,NULL,NULL,NULL,NULL,NULL,50,25,20,20,NULL,'SeedOfDestruction',100,NULL,NULL,NULL,'balanced'),
-(22596,25,NULL,NULL,NULL,NULL,NULL,NULL,50,25,20,20,NULL,'SeedOfDestruction',100,NULL,NULL,NULL,'balanced'),
-(22597,25,NULL,NULL,NULL,NULL,NULL,NULL,50,25,20,20,NULL,'SeedOfDestruction',100,NULL,NULL,NULL,'balanced'),
-(29162,50,NULL,NULL,NULL,NULL,NULL,NULL,0,0,0,0,NULL,'Tiat',900,NULL,NULL,NULL,'balanced'),
-(29163,50,NULL,NULL,NULL,NULL,NULL,NULL,0,0,0,0,NULL,'Tiat',900,NULL,NULL,NULL,'balanced'),
-(29175,50,NULL,NULL,NULL,NULL,NULL,NULL,0,0,0,0,NULL,'Tiat',900,NULL,NULL,NULL,'balanced');
+-- REPLACE INTO `npcaidata` VALUES
+-- (22536,25,NULL,NULL,NULL,NULL,NULL,NULL,50,25,20,20,NULL,'SeedOfDestruction',100,NULL,NULL,NULL,'balanced'),
+-- (22537,70,NULL,NULL,NULL,NULL,NULL,NULL,50,25,20,20,NULL,'SeedOfDestruction',100,NULL,NULL,NULL,'mage'),
+-- (22538,25,NULL,NULL,NULL,NULL,NULL,NULL,50,25,20,20,NULL,'SeedOfDestruction',100,NULL,NULL,NULL,'balanced'),
+-- (22539,25,NULL,NULL,NULL,NULL,NULL,NULL,50,25,20,20,NULL,'SeedOfDestruction',100,NULL,NULL,NULL,'balanced'),
+-- (22540,25,NULL,NULL,NULL,NULL,NULL,NULL,50,25,20,20,NULL,'SeedOfDestruction',100,NULL,NULL,NULL,'balanced'),
+-- (22541,25,NULL,NULL,NULL,NULL,NULL,NULL,50,25,20,20,NULL,'SeedOfDestruction',100,NULL,NULL,NULL,'balanced'),
+-- (22542,25,NULL,NULL,NULL,NULL,NULL,NULL,50,25,20,20,NULL,'SeedOfDestruction',100,NULL,NULL,NULL,'balanced'),
+-- (22543,70,NULL,NULL,NULL,NULL,NULL,NULL,50,25,20,20,NULL,'SeedOfDestruction',100,NULL,NULL,NULL,'mage'),
+-- (22544,25,NULL,NULL,NULL,NULL,NULL,NULL,50,25,20,20,NULL,'SeedOfDestruction',100,NULL,NULL,NULL,'balanced'),
+-- (22545,25,NULL,NULL,NULL,NULL,NULL,NULL,50,25,20,20,NULL,'SeedOfDestruction',100,NULL,NULL,NULL,'balanced'),
+-- (22546,25,NULL,NULL,NULL,NULL,NULL,NULL,50,25,20,20,NULL,'SeedOfDestruction',100,NULL,NULL,NULL,'balanced'),
+-- (22547,90,NULL,NULL,NULL,NULL,NULL,NULL,50,25,20,20,NULL,'SeedOfDestruction',100,NULL,NULL,NULL,'healer'),
+-- (22548,40,NULL,NULL,NULL,NULL,NULL,NULL,50,25,20,20,NULL,'SeedOfDestruction',100,NULL,NULL,15,'archer'),
+-- (22549,40,NULL,NULL,NULL,NULL,NULL,NULL,50,25,20,20,NULL,'SeedOfDestruction',100,NULL,NULL,15,'archer'),
+-- (22550,25,NULL,NULL,NULL,NULL,NULL,NULL,50,25,20,20,NULL,'SeedOfDestruction',100,NULL,NULL,NULL,'balanced'),
+-- (22551,25,NULL,NULL,NULL,NULL,NULL,NULL,50,25,20,20,NULL,'SeedOfDestruction',100,NULL,NULL,NULL,'balanced'),
+-- (22552,25,NULL,NULL,NULL,NULL,NULL,NULL,50,25,20,20,NULL,'SeedOfDestruction',100,NULL,NULL,NULL,'balanced'),
+-- (22593,25,NULL,NULL,NULL,NULL,NULL,NULL,50,25,20,20,NULL,'SeedOfDestruction',100,NULL,NULL,NULL,'balanced'),
+-- (22596,25,NULL,NULL,NULL,NULL,NULL,NULL,50,25,20,20,NULL,'SeedOfDestruction',100,NULL,NULL,NULL,'balanced'),
+-- (22597,25,NULL,NULL,NULL,NULL,NULL,NULL,50,25,20,20,NULL,'SeedOfDestruction',100,NULL,NULL,NULL,'balanced'),
+-- (29162,50,NULL,NULL,NULL,NULL,NULL,NULL,0,0,0,0,NULL,'Tiat',900,NULL,NULL,NULL,'balanced'),
+-- (29163,50,NULL,NULL,NULL,NULL,NULL,NULL,0,0,0,0,NULL,'Tiat',900,NULL,NULL,NULL,'balanced'),
+-- (29175,50,NULL,NULL,NULL,NULL,NULL,NULL,0,0,0,0,NULL,'Tiat',900,NULL,NULL,NULL,'balanced');
 
 -- µá©Ô¥d-´cÅ]ªº¿ò²£
 -- UPDATE `npc` SET `type`='L2Monster', `hp`=100, `exp`=0, `sp`=0, `walkspd`=0, `runspd`=0 where id='32495';  -- Ä_½c
@@ -1096,18 +1096,18 @@ REPLACE INTO npcskills VALUES
 (22702,4333,6);
 
 -- Seed of Destruction show movie
-REPLACE INTO `zone_vertices` VALUES
-(25253,0,-251280,211765),
-(25253,1,-250599,211765),
-(25253,2,-250599,211571),
-(25253,3,-251280,211571);
+-- REPLACE INTO `zone_vertices` VALUES
+-- (25253,0,-251280,211765),
+-- (25253,1,-250599,211765),
+-- (25253,2,-250599,211571),
+-- (25253,3,-251280,211571);
 
 -- land zone before enter in SoD
-REPLACE INTO `zone_vertices` VALUES
-(25254,0,-249138,250114),
-(25254,1,-246840,252076),
-(25254,2,-246730,251982),
-(25254,3,-248699,249660);
+-- REPLACE INTO `zone_vertices` VALUES
+-- (25254,0,-249138,250114),
+-- (25254,1,-246840,252076),
+-- (25254,2,-246730,251982),
+-- (25254,3,-248699,249660);
 
 -- ¥|¤èµ²¬É©Çª«¸ê®Æ Update 23-08-2010
 UPDATE `npc` SET `type`='L2Monster', `level`=81, `exp`=86802,  `sp`=9470,  `hp`=3461, `mp`=1708 where id='22708';  -- ´c¹Úªº«I²¤¾Ô¤h
@@ -1208,48 +1208,48 @@ UPDATE `npc` SET `type`='L2Monster', `level`=80, `exp`=10183, `sp`=1143, `hp`=32
 
 -- ¼W¥[¦a¤U¦¬®e©Ò©Çª«¸ê®Æ Update 23-08-2010
 UPDATE `npc` SET `type`='L2Monster', `level`=72, `exp`=2192267, `sp`=353878, `hp`=192008, `mp`=1410 where id='25572';  -- ¤£ªkªÌ«¢º¸®w ¹L¥hªº¥}¥Ç
-UPDATE `npc` SET `type`='L2Minion', `level`=71, `exp`=0, `sp`=0, `hp`=8318, `mp`=1377 where id='25574';  -- «¢º¸®wªºÄµ½Ã
-UPDATE `npc` SET `type`='L2Minion', `level`=71, `exp`=0, `sp`=0, `hp`=8318, `mp`=1377 where id='25573';  -- «¢º¸®wªº°lÀHªÌ
+UPDATE `npc` SET `type`='L2Monster', `level`=71, `exp`=0, `sp`=0, `hp`=8318, `mp`=1377 where id='25574';  -- «¢º¸®wªºÄµ½Ã
+UPDATE `npc` SET `type`='L2Monster', `level`=71, `exp`=0, `sp`=0, `hp`=8318, `mp`=1377 where id='25573';  -- «¢º¸®wªº°lÀHªÌ
 REPLACE INTO `minions` VALUES (25572, 25574, 1, 1);
 REPLACE INTO `minions` VALUES (25572, 25573, 1, 1);
 
 UPDATE `npc` SET `type`='L2Monster', `level`=73, `exp`=2234730, `sp`=360602, `hp`=194342, `mp`=1442 where id='25575';  -- ³zµøªÌ®ÔÅK ¹L¥hªº¥}¥Ç
-UPDATE `npc` SET `type`='L2Minion', `level`=72, `exp`=0, `sp`=0, `hp`=8383, `mp`=1410 where id='25577';  -- ®ÔÅKªº¤ô´¹Åé
-UPDATE `npc` SET `type`='L2Minion', `level`=72, `exp`=0, `sp`=0, `hp`=8383, `mp`=1410 where id='25576';  -- ®ÔÅKªº­i½¤
+UPDATE `npc` SET `type`='L2Monster', `level`=72, `exp`=0, `sp`=0, `hp`=8383, `mp`=1410 where id='25577';  -- ®ÔÅKªº¤ô´¹Åé
+UPDATE `npc` SET `type`='L2Monster', `level`=72, `exp`=0, `sp`=0, `hp`=8383, `mp`=1410 where id='25576';  -- ®ÔÅKªº­i½¤
 REPLACE INTO `minions` VALUES (25575, 25577, 1, 1);
 REPLACE INTO `minions` VALUES (25575, 25576, 1, 1);
 
 UPDATE `npc` SET `type`='L2Monster', `level`=73, `exp`=2234730, `sp`=360602, `hp`=388684, `mp`=1442 where id='25578';  -- ¥v§J¹p ¹L¥hªº¥}¥Ç
 
 UPDATE `npc` SET `type`='L2Monster', `level`=74, `exp`=2280800, `sp`=367102, `hp`=196619, `mp`=1475 where id='25579';  -- ®ü¦è©`º¸ ¹L¥hªº¥}¥Ç
-UPDATE `npc` SET `type`='L2Minion', `level`=73, `exp`=0, `sp`=0, `hp`=8444, `mp`=1442 where id='25581';  -- ®ü¦è©`º¸ªº¨ë«È
-UPDATE `npc` SET `type`='L2Minion', `level`=73, `exp`=0, `sp`=0, `hp`=8444, `mp`=1442 where id='25580';  -- ®ü¦è©`º¸ªº¦uÅ@§L
+UPDATE `npc` SET `type`='L2Monster', `level`=73, `exp`=0, `sp`=0, `hp`=8444, `mp`=1442 where id='25581';  -- ®ü¦è©`º¸ªº¨ë«È
+UPDATE `npc` SET `type`='L2Monster', `level`=73, `exp`=0, `sp`=0, `hp`=8444, `mp`=1442 where id='25580';  -- ®ü¦è©`º¸ªº¦uÅ@§L
 REPLACE INTO `minions` VALUES (25579, 25581, 1, 1);
 REPLACE INTO `minions` VALUES (25579, 25580, 1, 1);
 
 UPDATE `npc` SET `type`='L2Monster', `level`=75, `exp`=2329613, `sp`=373311, `hp`=198851, `mp`=1507 where id='25582';  -- ¥[º¸¤O¦w ¹L¥hªº¥}¥Ç
-UPDATE `npc` SET `type`='L2Minion', `level`=74, `exp`=0, `sp`=0, `hp`=8500, `mp`=1475 where id='25584';  -- ¥[º¸¤O¦wªº¹²¤H
-UPDATE `npc` SET `type`='L2Minion', `level`=74, `exp`=0, `sp`=0, `hp`=8500, `mp`=1475 where id='25583';  -- ¥[º¸¤O¦wªº¤k¨à
+UPDATE `npc` SET `type`='L2Monster', `level`=74, `exp`=0, `sp`=0, `hp`=8500, `mp`=1475 where id='25584';  -- ¥[º¸¤O¦wªº¹²¤H
+UPDATE `npc` SET `type`='L2Monster', `level`=74, `exp`=0, `sp`=0, `hp`=8500, `mp`=1475 where id='25583';  -- ¥[º¸¤O¦wªº¤k¨à
 REPLACE INTO `minions` VALUES (25582, 25584, 1, 1);
 REPLACE INTO `minions` VALUES (25582, 25583, 1, 1);
 
 UPDATE `npc` SET `type`='L2Monster', `level`=76, `exp`=2383518, `sp`=369370, `hp`=201046, `mp`=1540 where id='25585';  -- ³Á¥H­} ¹L¥hªº¥}¥Ç
-UPDATE `npc` SET `type`='L2Minion', `level`=75, `exp`=0, `sp`=0, `hp`=8551, `mp`=1507 where id='25586';  -- ³Á¥H­}¤§©f
-UPDATE `npc` SET `type`='L2Minion', `level`=75, `exp`=0, `sp`=0, `hp`=8551, `mp`=1507 where id='25587';  -- ³Á¥H­}¤§§Ì
+UPDATE `npc` SET `type`='L2Monster', `level`=75, `exp`=0, `sp`=0, `hp`=8551, `mp`=1507 where id='25586';  -- ³Á¥H­}¤§©f
+UPDATE `npc` SET `type`='L2Monster', `level`=75, `exp`=0, `sp`=0, `hp`=8551, `mp`=1507 where id='25587';  -- ³Á¥H­}¤§§Ì
 REPLACE INTO `minions` VALUES (25585, 25586, 1, 1);
 REPLACE INTO `minions` VALUES (25585, 25587, 1, 1);
 
 UPDATE `npc` SET `type`='L2Monster', `level`=77, `exp`=2441393, `sp`=374864, `hp`=406426, `mp`=1574 where id='25588';  -- µLªkªı¤îªº¹õ¯Q¤h ¹L¥hªº¥}¥Ç
 
 UPDATE `npc` SET `type`='L2Monster', `level`=78, `exp`=2504377, `sp`=380180, `hp`=205362, `mp`=1607 where id='25589';  -- ³Q©ñ³vªº¤Ú¨½¹F ¹L¥hªº¥}¥Ç
-UPDATE `npc` SET `type`='L2Minion', `level`=77, `exp`=0, `sp`=0, `hp`=8641, `mp`=1574 where id='25591';  -- ¤Ú¨½¹Fªº¨Í¤k
-UPDATE `npc` SET `type`='L2Minion', `level`=77, `exp`=0, `sp`=0, `hp`=8641, `mp`=1574 where id='25590';  -- ¤Ú¨½¹Fªº¨Í±q
+UPDATE `npc` SET `type`='L2Monster', `level`=77, `exp`=0, `sp`=0, `hp`=8641, `mp`=1574 where id='25591';  -- ¤Ú¨½¹Fªº¨Í¤k
+UPDATE `npc` SET `type`='L2Monster', `level`=77, `exp`=0, `sp`=0, `hp`=8641, `mp`=1574 where id='25590';  -- ¤Ú¨½¹Fªº¨Í±q
 REPLACE INTO `minions` VALUES (25589, 25591, 1, 1);
 REPLACE INTO `minions` VALUES (25589, 25590, 1, 1);
 
 UPDATE `npc` SET `type`='L2Monster', `level`=80, `exp`=2643172, `sp`=390090, `hp`=209635, `mp`=1674 where id='25593';  -- ±°­¹ªÌ³Íº¸®æ ¹L¥hªº¥}¥Ç
-UPDATE `npc` SET `type`='L2Minion', `level`=79, `exp`=0, `sp`=0, `hp`=8710, `mp`=1641 where id='25594';  -- ³Íº¸®æªº°lÀHªÌ
-UPDATE `npc` SET `type`='L2Minion', `level`=79, `exp`=0, `sp`=0, `hp`=8710, `mp`=1641 where id='25595';  -- ³Íº¸®æªº³¡¤U
+UPDATE `npc` SET `type`='L2Monster', `level`=79, `exp`=0, `sp`=0, `hp`=8710, `mp`=1641 where id='25594';  -- ³Íº¸®æªº°lÀHªÌ
+UPDATE `npc` SET `type`='L2Monster', `level`=79, `exp`=0, `sp`=0, `hp`=8710, `mp`=1641 where id='25595';  -- ³Íº¸®æªº³¡¤U
 REPLACE INTO `minions` VALUES (25593, 25594, 1, 1);
 REPLACE INTO `minions` VALUES (25593, 25595, 1, 1);
 
@@ -1257,14 +1257,14 @@ UPDATE `npc` SET `type`='L2Monster', `level`=79, `exp`=2571288, `sp`=385228, `hp
 
 -- ¼W¥[«°³ù¦aºÊ©Çª«¸ê®Æ Update 23-08-2010
 UPDATE `npc` SET `type`='L2Monster', `level`=75, `exp`=2329613, `sp`=373311, `hp`=198851, `mp`=1507 where id='25546';  -- ­I«Hªº©Ô¥§¦w ¹L¥hªº¸o¥Ç
-UPDATE `npc` SET `type`='L2Minion', `level`=74, `exp`=0, `sp`=0, `hp`=8500, `mp`=1475 where id='25547';  -- ©Ô¥§¦wªº¦P¹Ù
-UPDATE `npc` SET `type`='L2Minion', `level`=74, `exp`=0, `sp`=0, `hp`=8500, `mp`=1475 where id='25548';  -- ©Ô¥§¦wªºªvÂ¡ªÌ
+UPDATE `npc` SET `type`='L2Monster', `level`=74, `exp`=0, `sp`=0, `hp`=8500, `mp`=1475 where id='25547';  -- ©Ô¥§¦wªº¦P¹Ù
+UPDATE `npc` SET `type`='L2Monster', `level`=74, `exp`=0, `sp`=0, `hp`=8500, `mp`=1475 where id='25548';  -- ©Ô¥§¦wªºªvÂ¡ªÌ
 REPLACE INTO `minions` VALUES (25546, 25547, 1, 1);
 REPLACE INTO `minions` VALUES (25546, 25548, 1, 1);
 
 UPDATE `npc` SET `type`='L2Monster', `level`=75, `exp`=2329613, `sp`=373311, `hp`=198851, `mp`=1507 where id='25549';  -- ¶B´Û¥Ç®õ¦è¨È ¹L¥hªº¸o¥Ç
-UPDATE `npc` SET `type`='L2Minion', `level`=74, `exp`=0, `sp`=0, `hp`=8500, `mp`=1475 where id='25550';  -- ®õ¦è¨Èªº¤j§Ì¤l
-UPDATE `npc` SET `type`='L2Minion', `level`=74, `exp`=0, `sp`=0, `hp`=8500, `mp`=1475 where id='25551';  -- ®õ¦è¨Èªº¶]»L
+UPDATE `npc` SET `type`='L2Monster', `level`=74, `exp`=0, `sp`=0, `hp`=8500, `mp`=1475 where id='25550';  -- ®õ¦è¨Èªº¤j§Ì¤l
+UPDATE `npc` SET `type`='L2Monster', `level`=74, `exp`=0, `sp`=0, `hp`=8500, `mp`=1475 where id='25551';  -- ®õ¦è¨Èªº¶]»L
 REPLACE INTO `minions` VALUES (25549, 25550, 1, 1);
 REPLACE INTO `minions` VALUES (25549, 25551, 1, 1);
 
@@ -1273,38 +1273,38 @@ UPDATE `npc` SET `type`='L2Monster', `level`=76, `exp`=2383518, `sp`=369370, `hp
 UPDATE `npc` SET `type`='L2Monster', `level`=77, `exp`=2441393, `sp`=374864, `hp`=406426, `mp`=1574 where id='25553';  -- ©¥¥Û®±§ù®õ®æ ¹L¥hªº¸o¥Ç
 
 UPDATE `npc` SET `type`='L2Monster', `level`=78, `exp`=2504377, `sp`=380180, `hp`=205362, `mp`=1607 where id='25554';  -- ¤£©}ªº¥¬¾|®õ»ô¼Ú ¹L¥hªº¸o¥Ç
-UPDATE `npc` SET `type`='L2Minion', `level`=77, `exp`=0, `sp`=0, `hp`=8641, `mp`=1574 where id='25555';  -- ¥¬¾|®õ»ô¼Úªº¥k¤â
-UPDATE `npc` SET `type`='L2Minion', `level`=77, `exp`=0, `sp`=0, `hp`=8641, `mp`=1574 where id='25556';  -- ¥¬¾|®õ»ô¼Úªº¥ª¤â
+UPDATE `npc` SET `type`='L2Monster', `level`=77, `exp`=0, `sp`=0, `hp`=8641, `mp`=1574 where id='25555';  -- ¥¬¾|®õ»ô¼Úªº¥k¤â
+UPDATE `npc` SET `type`='L2Monster', `level`=77, `exp`=0, `sp`=0, `hp`=8641, `mp`=1574 where id='25556';  -- ¥¬¾|®õ»ô¼Úªº¥ª¤â
 REPLACE INTO `minions` VALUES (25554, 25555, 1, 1);
 REPLACE INTO `minions` VALUES (25554, 25556, 1, 1);
 
 UPDATE `npc` SET `type`='L2Monster', `level`=79, `exp`=2571288, `sp`=385228, `hp`=207500, `mp`=1641 where id='25557';  -- ´ËªL±°­¹ªÌ³Í³Í¿Õ´µ ¹L¥hªº¸o¥Ç
-UPDATE `npc` SET `type`='L2Minion', `level`=78, `exp`=0, `sp`=0, `hp`=8678, `mp`=1607 where id='25558';  -- ³Í³Í¿Õ´µªº°¼®Ú
-UPDATE `npc` SET `type`='L2Minion', `level`=78, `exp`=0, `sp`=0, `hp`=8678, `mp`=1607 where id='25559';  -- ³Í³Í¿Õ´µªºªá
+UPDATE `npc` SET `type`='L2Monster', `level`=78, `exp`=0, `sp`=0, `hp`=8678, `mp`=1607 where id='25558';  -- ³Í³Í¿Õ´µªº°¼®Ú
+UPDATE `npc` SET `type`='L2Monster', `level`=78, `exp`=0, `sp`=0, `hp`=8678, `mp`=1607 where id='25559';  -- ³Í³Í¿Õ´µªºªá
 REPLACE INTO `minions` VALUES (25557, 25558, 1, 1);
 REPLACE INTO `minions` VALUES (25557, 25559, 1, 1);
 
 UPDATE `npc` SET `type`='L2Monster', `level`=79, `exp`=2571288, `sp`=385228, `hp`=207500, `mp`=1641 where id='25560';  -- ¼É¨«¼C¤h´µ¨½¥d¼w ¹L¥hªº¸o¥Ç
-UPDATE `npc` SET `type`='L2Minion', `level`=78, `exp`=0, `sp`=0, `hp`=8678, `mp`=1607 where id='25561';  -- ´µ¨½¥d¼wªºÄÁ
-UPDATE `npc` SET `type`='L2Minion', `level`=78, `exp`=0, `sp`=0, `hp`=8678, `mp`=1607 where id='25562';  -- ´µ¨½¥d¼wªº¨£²ß¥Í
+UPDATE `npc` SET `type`='L2Monster', `level`=78, `exp`=0, `sp`=0, `hp`=8678, `mp`=1607 where id='25561';  -- ´µ¨½¥d¼wªºÄÁ
+UPDATE `npc` SET `type`='L2Monster', `level`=78, `exp`=0, `sp`=0, `hp`=8678, `mp`=1607 where id='25562';  -- ´µ¨½¥d¼wªº¨£²ß¥Í
 REPLACE INTO `minions` VALUES (25560, 25561, 1, 1);
 REPLACE INTO `minions` VALUES (25560, 25562, 1, 1);
 
 UPDATE `npc` SET `type`='L2Monster', `level`=81, `exp`=2730278, `sp`=394141, `hp`=211731, `mp`=1708 where id='25563';  -- ¬ü»ªªº©`¯÷¨½­C ¹L¥hªº¸o¥Ç
-UPDATE `npc` SET `type`='L2Minion', `level`=80, `exp`=0, `sp`=0, `hp`=8738, `mp`=1674 where id='25564';  -- ©`¯÷¨½­Cªº°lÀHªÌ
-UPDATE `npc` SET `type`='L2Minion', `level`=80, `exp`=0, `sp`=0, `hp`=8738, `mp`=1674 where id='25565';  -- ©`¯÷¨½­Cªº³¡¤U
+UPDATE `npc` SET `type`='L2Monster', `level`=80, `exp`=0, `sp`=0, `hp`=8738, `mp`=1674 where id='25564';  -- ©`¯÷¨½­Cªº°lÀHªÌ
+UPDATE `npc` SET `type`='L2Monster', `level`=80, `exp`=0, `sp`=0, `hp`=8738, `mp`=1674 where id='25565';  -- ©`¯÷¨½­Cªº³¡¤U
 REPLACE INTO `minions` VALUES (25563, 25564, 1, 1);
 REPLACE INTO `minions` VALUES (25563, 25565, 1, 1);
 
 UPDATE `npc` SET `type`='L2Monster', `level`=82, `exp`=2819564, `sp`=398177, `hp`=213848, `mp`=1743 where id='25566';  -- ²Ê³¥ªº«nÃe ¹L¥hªº¸o¥Ç
-UPDATE `npc` SET `type`='L2Minion', `level`=81, `exp`=0, `sp`=0, `hp`=8760, `mp`=1708 where id='25567';  -- «nÃeªº¦Ü¥æ
-UPDATE `npc` SET `type`='L2Minion', `level`=81, `exp`=0, `sp`=0, `hp`=8760, `mp`=1708 where id='25568';  -- «nÃeªº¦Ñ¤Í
+UPDATE `npc` SET `type`='L2Monster', `level`=81, `exp`=0, `sp`=0, `hp`=8760, `mp`=1708 where id='25567';  -- «nÃeªº¦Ü¥æ
+UPDATE `npc` SET `type`='L2Monster', `level`=81, `exp`=0, `sp`=0, `hp`=8760, `mp`=1708 where id='25568';  -- «nÃeªº¦Ñ¤Í
 REPLACE INTO `minions` VALUES (25566, 25567, 1, 1);
 REPLACE INTO `minions` VALUES (25566, 25568, 1, 1);
 
 UPDATE `npc` SET `type`='L2Monster', `level`=82, `exp`=2819564, `sp`=398177, `hp`=213848, `mp`=1743 where id='25569';  -- ¯}ÃaªÌ¥[´µ ¹L¥hªº¸o¥Ç
-UPDATE `npc` SET `type`='L2Minion', `level`=81, `exp`=0, `sp`=0, `hp`=8760, `mp`=1708 where id='25570';  -- ¥[´µªº°»¬d§L
-UPDATE `npc` SET `type`='L2Minion', `level`=81, `exp`=0, `sp`=0, `hp`=8760, `mp`=1708 where id='25571';  -- ¥[´µªº¬ğÀ»§L
+UPDATE `npc` SET `type`='L2Monster', `level`=81, `exp`=0, `sp`=0, `hp`=8760, `mp`=1708 where id='25570';  -- ¥[´µªº°»¬d§L
+UPDATE `npc` SET `type`='L2Monster', `level`=81, `exp`=0, `sp`=0, `hp`=8760, `mp`=1708 where id='25571';  -- ¥[´µªº¬ğÀ»§L
 REPLACE INTO `minions` VALUES (25569, 25570, 1, 1);
 REPLACE INTO `minions` VALUES (25569, 25571, 1, 1);
 
@@ -1362,10 +1362,10 @@ UPDATE `npc` SET `type`='L2RaidBoss', `level`=85, `exp`=3233771, `sp`=403115, `h
 UPDATE `npc` SET `type`='L2RaidBoss', `level`=85, `exp`=3078748, `sp`=399008, `hp`=763865, `mp`=18468 where id='25696';  -- ¶ğ§J©Ô¥Ì ¤ñ´µ¶ğÁï  ¥i§l»î
 UPDATE `npc` SET `type`='L2RaidBoss', `level`=85, `exp`=3233771, `sp`=403115, `hp`=631293, `mp`=18468 where id='25698';  -- ¦h©¬«Ø ¬_§J©ÔÁï  ¥i§l»î
 -- ¤è¶ô
-UPDATE `npc` SET `type`='L2Block' where id='18672';  -- ¤è¶ô
-UPDATE `npc` SET `type`='L2Npc' where id='18676';    -- 
-REPLACE INTO `etcitem` VALUES (13787,'Bond','','false','potion',180,'stackable','paper','none',-1,-1,0,0,'true','true','true','true','true','ItemSkills','5849-1;');
-REPLACE INTO `etcitem` VALUES (13788,'Land Mine','','false','potion',180,'stackable','paper','none',-1,-1,0,0,'true','true','true','true','true','ItemSkills','5851-1;');
+-- UPDATE `npc` SET `type`='L2Block' where id='18672';  -- ¤è¶ô
+-- UPDATE `npc` SET `type`='L2Npc' where id='18676';    -- 
+-- REPLACE INTO `etcitem` VALUES (13787,'Bond','','false','potion',180,'stackable','paper','none',-1,-1,0,0,'true','true','true','true','true','ItemSkills','5849-1;');
+-- REPLACE INTO `etcitem` VALUES (13788,'Land Mine','','false','potion',180,'stackable','paper','none',-1,-1,0,0,'true','true','true','true','true','ItemSkills','5851-1;');
 
 -- new npc for ¸¬Äª
 DELETE FROM npcskills             WHERE  npcid IN (12774,12775,12776,12777,12778,12779,13016,13017);
@@ -1382,13 +1382,13 @@ UPDATE npc SET level=1,hp=3000,mp=0,hpreg=0,mpreg=0,str=10,con=10,dex=10,`int`=1
 UPDATE npc SET level=1,hp=3000,mp=0,hpreg=0,mpreg=0,str=10,con=10,dex=10,`int`=10,wit=10,men=10,patk=0,pdef=15,matk=0,mdef=32,walkspd=1,runspd=1 WHERE id=13017;  -- Àu¨}ªº¤j¸¬Äª¤ı
 
 -- new npc for ¦è¥Ê
-UPDATE etcitem SET handler='ItemSkills',skill='9029-1;' WHERE item_id=15366;
-UPDATE etcitem SET handler='ItemSkills',skill='9030-1;' WHERE item_id=15367;
-UPDATE etcitem SET handler='ItemSkills',skill='9031-1;' WHERE item_id=15368;
-UPDATE etcitem SET handler='ItemSkills',skill='9032-1;' WHERE item_id=15369;
+-- UPDATE etcitem SET handler='ItemSkills',skill='9029-1;' WHERE item_id=15366;
+-- UPDATE etcitem SET handler='ItemSkills',skill='9030-1;' WHERE item_id=15367;
+-- UPDATE etcitem SET handler='ItemSkills',skill='9031-1;' WHERE item_id=15368;
+-- UPDATE etcitem SET handler='ItemSkills',skill='9032-1;' WHERE item_id=15369;
 
-UPDATE etcitem SET consume_type='stackable' WHERE item_id IN (15366,15367,15368,15369);
-UPDATE etcitem SET sellable='true',tradeable='true',depositable='true' WHERE item_id IN (15366,15367);
+-- UPDATE etcitem SET consume_type='stackable' WHERE item_id IN (15366,15367,15368,15369);
+-- UPDATE etcitem SET sellable='true',tradeable='true',depositable='true' WHERE item_id IN (15366,15367);
 
 -- NPC
 DELETE FROM npcskills             WHERE  npcid IN (13271,13272,13273,13274,13275,13276,13277,13278);
@@ -1405,17 +1405,17 @@ UPDATE npc SET level=1,hp=3000,mp=0,hpreg=0,mpreg=0,str=10,con=10,dex=10,`int`=1
 UPDATE npc SET level=1,hp=3000,mp=0,hpreg=0,mpreg=0,str=10,con=10,dex=10,`int`=10,wit=10,men=10,patk=0,pdef=15,matk=0,mdef=32,walkspd=1,runspd=1 WHERE id=13278; -- Àu¨}ªº­»²¢¦è¥Ê¤ı
 
 -- ªZ¾¹
-UPDATE weapon SET skill='0-0;' WHERE item_id=5817; -- §J¾|¿Õ§úÄÁ °Ñ³¹¬ö©À¼Ö¾¹ (3599-1;)
-UPDATE weapon SET crystallizable='false' WHERE item_id=8350; -- §J¾|¿Õº¿©Ô¥d´µ ¥î³¹¬ö©À¼Ö¾¹
+-- UPDATE weapon SET skill='0-0;' WHERE item_id=5817; -- §J¾|¿Õ§úÄÁ °Ñ³¹¬ö©À¼Ö¾¹ (3599-1;)
+-- UPDATE weapon SET crystallizable='false' WHERE item_id=8350; -- §J¾|¿Õº¿©Ô¥d´µ ¥î³¹¬ö©À¼Ö¾¹
 
 -- ¥ô°È196 ªZ¾¹§Ş¯à
-REPLACE INTO `etcitem` VALUES (13808,'Elmoreden Holy Water','','false','none',0,'stackable','paper','none',-1,-1,0,0,'false','false','false','false','false','ItemSkills','2633-1;'); -- ¦ãº¸¼¯¨È¤Bªº¸t¤ô
-REPLACE INTO `weapon` VALUES (13809,'Court Magician\'s Magic Staff','','rhand','false',0,0,0,'fine_steel','none',0,0,'sword',0,0.00000,0,0,0,0,0,0,-1,-1,0,0,'false','false','false','false','false',0,0,0,0,0,0,0,0,0,'2634-1;'); -- ®c§ÊÅ]ªk®vªºÅ]ªk´Î
+-- REPLACE INTO `etcitem` VALUES (13808,'Elmoreden Holy Water','','false','none',0,'stackable','paper','none',-1,-1,0,0,'false','false','false','false','false','ItemSkills','2633-1;'); -- ¦ãº¸¼¯¨È¤Bªº¸t¤ô
+-- REPLACE INTO `weapon` VALUES (13809,'Court Magician\'s Magic Staff','','rhand','false',0,0,0,'fine_steel','none',0,0,'sword',0,0.00000,0,0,0,0,0,0,-1,-1,0,0,'false','false','false','false','false',0,0,0,0,0,0,0,0,0,'2634-1;'); -- ®c§ÊÅ]ªk®vªºÅ]ªk´Î
 
 -- ¿Õº¸©g®x¶é­º»â©Çª«¸ê®Æ 
 UPDATE `npc` SET `type`='L2RaidBoss' where id='25528';  -- ³Ì²×¸Õ½m©x ¶ğ§È¨½¼Ú´µ
-UPDATE `npc` SET `type`='L2Minion', `exp`=0,  `sp`=0 where id='25529';  -- ¸Õ½m©xªº³¡¤U ®x¶éªºÄµ½Ã¶¤
-UPDATE `npc` SET `type`='L2Minion', `exp`=0,  `sp`=0 where id='25530';  -- ¸Õ½m©xªº³¡¤U ®x¶éªºÄµ½Ã¶¤
+UPDATE `npc` SET `type`='L2Monster', `exp`=0,  `sp`=0 where id='25529';  -- ¸Õ½m©xªº³¡¤U ®x¶éªºÄµ½Ã¶¤
+UPDATE `npc` SET `type`='L2Monster', `exp`=0,  `sp`=0 where id='25530';  -- ¸Õ½m©xªº³¡¤U ®x¶éªºÄµ½Ã¶¤
 REPLACE INTO `minions` VALUES (25528, 25529, 3, 3);
 REPLACE INTO `minions` VALUES (25528, 25530, 1, 1);
 
@@ -1463,18 +1463,18 @@ DELETE FROM npcskills WHERE npcid IN (18437);
 UPDATE npc SET `level` = '75' WHERE `id` in (16071,16072);
 
 -- etcitem for Vitality CT2.5
-REPLACE INTO `etcitem` VALUES (20005,'Energy Red Ginseng','','false','herb',0,'normal','paper','none',-1,-1,0,0,'true','true','true','true','true','ItemSkills','22005-1;');
-REPLACE INTO `etcitem` VALUES (20214,'Chocolate Cookie','','false','potion',5,'stackable','paper','none',-1,-1,0,0,'true','true','true','true','true','ItemSkills','22028-1;');
-REPLACE INTO `etcitem` VALUES (13787,'Bond','','false','potion',180,'stackable','paper','none',-1,-1,0,0,'true','true','true','true','true','ItemSkills','5849-1;');
-REPLACE INTO `etcitem` VALUES (13788,'Land Mine','','false','potion',180,'stackable','paper','none',-1,-1,0,0,'true','true','true','true','true','ItemSkills','5851-1;');
+-- REPLACE INTO `etcitem` VALUES (20005,'Energy Red Ginseng','','false','herb',0,'normal','paper','none',-1,-1,0,0,'true','true','true','true','true','ItemSkills','22005-1;');
+-- REPLACE INTO `etcitem` VALUES (20214,'Chocolate Cookie','','false','potion',5,'stackable','paper','none',-1,-1,0,0,'true','true','true','true','true','ItemSkills','22028-1;');
+-- REPLACE INTO `etcitem` VALUES (13787,'Bond','','false','potion',180,'stackable','paper','none',-1,-1,0,0,'true','true','true','true','true','ItemSkills','5849-1;');
+-- REPLACE INTO `etcitem` VALUES (13788,'Land Mine','','false','potion',180,'stackable','paper','none',-1,-1,0,0,'true','true','true','true','true','ItemSkills','5851-1;');
 
-UPDATE `etcitem` SET `item_type` = 'none' WHERE `item_id` = '13798';  -- ÆF»îªº¤ù¬q
+-- UPDATE `etcitem` SET `item_type` = 'none' WHERE `item_id` = '13798';  -- ÆF»îªº¤ù¬q
 
 -- New ectitem 2009-08-26
-REPLACE INTO `etcitem` VALUES (20602,'Soul Silver Foil - Event','','false','none',0,'stackable','wood','none',-1,-1,0,0,'false','false','true','false','true','ItemSkills','22099-1;');
-REPLACE INTO `etcitem` VALUES (20603,'Soul Scent - Event','','false','none',0,'stackable','wood','none',-1,-1,0,0,'false','false','true','false','true','ItemSkills','22100-1;');
-REPLACE INTO `etcitem` VALUES (20623,'Soul Silver Foil - Scent Pack','','false','none',0,'stackable','wood','none',-1,-1,0,0,'false','false','true','false','true','ExtractableItems','0-0;');
-REPLACE INTO `etcitem` VALUES (20630,'Soul Magic Box','','false','none',0,'stackable','wood','none',-1,-1,0,0,'false','false','true','false','true','ItemSkills','22102-1;');
+-- REPLACE INTO `etcitem` VALUES (20602,'Soul Silver Foil - Event','','false','none',0,'stackable','wood','none',-1,-1,0,0,'false','false','true','false','true','ItemSkills','22099-1;');
+-- REPLACE INTO `etcitem` VALUES (20603,'Soul Scent - Event','','false','none',0,'stackable','wood','none',-1,-1,0,0,'false','false','true','false','true','ItemSkills','22100-1;');
+-- REPLACE INTO `etcitem` VALUES (20623,'Soul Silver Foil - Scent Pack','','false','none',0,'stackable','wood','none',-1,-1,0,0,'false','false','true','false','true','ExtractableItems','0-0;');
+-- REPLACE INTO `etcitem` VALUES (20630,'Soul Magic Box','','false','none',0,'stackable','wood','none',-1,-1,0,0,'false','false','true','false','true','ItemSkills','22102-1;');
 
 -- ----------------- --
 -- Devastated Castle --
@@ -1482,49 +1482,49 @@ REPLACE INTO `etcitem` VALUES (20630,'Soul Magic Box','','false','none',0,'stack
 
 -- Update siege npcs
 
-UPDATE npc SET type = 'L2Defender' WHERE id = 35411;
-UPDATE npc SET type = 'L2Defender' WHERE id = 35412;
-UPDATE npc SET type = 'L2Defender' Where id = 35413;
-UPDATE npc SET type = 'L2Defender' WHERE id = 35414;
-UPDATE npc SET type = 'L2Defender' WHERE id = 35415;
-UPDATE npc SET type = 'L2Defender' WHERE id = 35416;
-UPDATE npc SET type = 'L2CastleDoormen', rhand = 0, lhand = 0 WHERE id = 35417;
-UPDATE npc SET type = 'L2CastleDoormen', rhand = 0, lhand = 0 WHERE id = 35418;
-UPDATE npc SET type = 'L2WyvernManager' WHERE id = 35419;
-UPDATE npc SET type = 'L2ClanHallManager' WHERE id = 35421;
+-- UPDATE npc SET type = 'L2Defender' WHERE id = 35411;
+-- UPDATE npc SET type = 'L2Defender' WHERE id = 35412;
+-- UPDATE npc SET type = 'L2Defender' Where id = 35413;
+-- UPDATE npc SET type = 'L2Defender' WHERE id = 35414;
+-- UPDATE npc SET type = 'L2Defender' WHERE id = 35415;
+-- UPDATE npc SET type = 'L2Defender' WHERE id = 35416;
+-- UPDATE npc SET type = 'L2CastleDoormen', rhand = 0, lhand = 0 WHERE id = 35417;
+-- UPDATE npc SET type = 'L2CastleDoormen', rhand = 0, lhand = 0 WHERE id = 35418;
+-- UPDATE npc SET type = 'L2WyvernManager' WHERE id = 35419;
+-- UPDATE npc SET type = 'L2ClanHallManager' WHERE id = 35421;
 
 -- Delete mobs from normal spawnlist
 
-DELETE FROM spawnlist WHERE npc_templateid = 35411;
-DELETE FROM spawnlist WHERE npc_templateid = 35412;
-DELETE FROM spawnlist WHERE npc_templateid = 35413;
-DELETE FROM spawnlist WHERE npc_templateid = 35414;
-DELETE FROM spawnlist WHERE npc_templateid = 35415;
-DELETE FROM spawnlist WHERE npc_templateid = 35416;
-DELETE FROM spawnlist WHERE npc_templateid = 35410;
+-- DELETE FROM spawnlist WHERE npc_templateid = 35411;
+-- DELETE FROM spawnlist WHERE npc_templateid = 35412;
+-- DELETE FROM spawnlist WHERE npc_templateid = 35413;
+-- DELETE FROM spawnlist WHERE npc_templateid = 35414;
+-- DELETE FROM spawnlist WHERE npc_templateid = 35415;
+-- DELETE FROM spawnlist WHERE npc_templateid = 35416;
+-- DELETE FROM spawnlist WHERE npc_templateid = 35410;
 
 -- Devastated castle doors
 
-REPLACE INTO castle_door VALUES (34, 25170001, 'devastated_castle_outer_001', 178212, -15038, -2135, 178211, -15038, -2294, 178342, -15017, -1976, 158250, 644, 518, 'false');
-REPLACE INTO castle_door VALUES (34, 25170002, 'devastated_castle_outer_002', 178468, -15038, -2135, 178339, -15038, -2295, 178469, -15017, -1977, 158250, 644, 518, 'false');
-REPLACE INTO castle_door VALUES (34, 25170003, 'devastated_castle_inner_003', 178119, -18220, -2210, 178120, -18225, -2286, 178183, -18211, -1836, 79125, 644, 518, 'false');
-REPLACE INTO castle_door VALUES (34, 25170004, 'devastated_castle_inner_004', 178247, -18220, -2210, 178182, -18225, -2286, 178245, -18211, -1836, 79125, 644, 518, 'false');
-REPLACE INTO castle_door VALUES (34, 25170005, 'devastated_castle_inner_005', 178298, -18573, -2233, 178302, -18611, -2287, 178309, -18573, -1837, 79125, 644, 518, 'false');
-REPLACE INTO castle_door VALUES (34, 25170006, 'devastated_castle_inner_006', 178298, -18650, -2233, 178302, -18648, -2287, 178309, -18610, -1837, 79125, 644, 518, 'false');
+-- REPLACE INTO castle_door VALUES (34, 25170001, 'devastated_castle_outer_001', 178212, -15038, -2135, 178211, -15038, -2294, 178342, -15017, -1976, 158250, 644, 518, 'false');
+-- REPLACE INTO castle_door VALUES (34, 25170002, 'devastated_castle_outer_002', 178468, -15038, -2135, 178339, -15038, -2295, 178469, -15017, -1977, 158250, 644, 518, 'false');
+-- REPLACE INTO castle_door VALUES (34, 25170003, 'devastated_castle_inner_003', 178119, -18220, -2210, 178120, -18225, -2286, 178183, -18211, -1836, 79125, 644, 518, 'false');
+-- REPLACE INTO castle_door VALUES (34, 25170004, 'devastated_castle_inner_004', 178247, -18220, -2210, 178182, -18225, -2286, 178245, -18211, -1836, 79125, 644, 518, 'false');
+-- REPLACE INTO castle_door VALUES (34, 25170005, 'devastated_castle_inner_005', 178298, -18573, -2233, 178302, -18611, -2287, 178309, -18573, -1837, 79125, 644, 518, 'false');
+-- REPLACE INTO castle_door VALUES (34, 25170006, 'devastated_castle_inner_006', 178298, -18650, -2233, 178302, -18648, -2287, 178309, -18610, -1837, 79125, 644, 518, 'false');
 
 -- ---------------------- --
 -- Fortress of Resistance --
 -- ---------------------- --
-UPDATE npc SET type = 'L2CastleDoormen' WHERE id = 30596;
-UPDATE npc SET type = 'L2ClanHallManager' WHERE id = 35383;
-DELETE FROM spawnlist WHERE npc_templateid = 35368;
-DELETE FROM spawnlist WHERE npc_templateid = 35369;
-DELETE FROM spawnlist WHERE npc_templateid = 35370;
-DELETE FROM spawnlist WHERE npc_templateid = 35371;
-UPDATE npc SET type = 'L2RaidBoss', title = 'Raid Boss' WHERE id = 35368;
-UPDATE npc SET type = 'L2Minion', title = 'Raid Figther' WHERE id = 35369;
-UPDATE npc SET type = 'L2Minion', title = 'Raid Figther' WHERE id = 35370;
-UPDATE npc SET type = 'L2Minion', title = 'Raid Figther' WHERE id = 35371;
+-- UPDATE npc SET type = 'L2CastleDoormen' WHERE id = 30596;
+-- UPDATE npc SET type = 'L2ClanHallManager' WHERE id = 35383;
+-- DELETE FROM spawnlist WHERE npc_templateid = 35368;
+-- DELETE FROM spawnlist WHERE npc_templateid = 35369;
+-- DELETE FROM spawnlist WHERE npc_templateid = 35370;
+-- DELETE FROM spawnlist WHERE npc_templateid = 35371;
+-- UPDATE npc SET type = 'L2RaidBoss', title = 'Raid Boss' WHERE id = 35368;
+-- UPDATE npc SET type = 'L2Monster', title = 'Raid Figther' WHERE id = 35369;
+-- UPDATE npc SET type = 'L2Monster', title = 'Raid Figther' WHERE id = 35370;
+-- UPDATE npc SET type = 'L2Monster', title = 'Raid Figther' WHERE id = 35371;
 
 -- -------------------- --
 -- Fortress of the Dead --
@@ -1532,77 +1532,77 @@ UPDATE npc SET type = 'L2Minion', title = 'Raid Figther' WHERE id = 35371;
 
 -- Update siege npcs
 
-UPDATE npc SET type = 'L2WyvernManager' WHERE id = 35638;
-UPDATE npc SET type = 'L2CastleDoormen', rhand = 0, lhand = 0 WHERE id = 35641;
-UPDATE npc SET type = 'L2CastleDoormen', rhand = 0, lhand = 0 WHERE id = 35642;
-UPDATE npc SET type = 'L2ClanHallManager' WHERE id = 35640;
+-- UPDATE npc SET type = 'L2WyvernManager' WHERE id = 35638;
+-- UPDATE npc SET type = 'L2CastleDoormen', rhand = 0, lhand = 0 WHERE id = 35641;
+-- UPDATE npc SET type = 'L2CastleDoormen', rhand = 0, lhand = 0 WHERE id = 35642;
+-- UPDATE npc SET type = 'L2ClanHallManager' WHERE id = 35640;
 
 -- Fortress of the Dead doors
-REPLACE INTO castle_door VALUES (64, 21170001, 'Fortress_of_the_Dead_outer_001', 57857, -29480, 707, 57849, -29498, 543, 57969, -29465, 869, 158250, 644, 518, 'false');
-REPLACE INTO castle_door VALUES (64, 21170002, 'Fortress_of_the_Dead_outer_002', 58061, -29479, 707, 57954, -29498, 543, 58071, -29465, 869, 158250, 644, 518, 'false');
-REPLACE INTO castle_door VALUES (64, 21170003, 'Fortress_of_the_Dead_inner_003', 56977, -27193, 639, 56972, -27259, 550, 56982, -27188, 728, 158250, 644, 518, 'false');
-REPLACE INTO castle_door VALUES (64, 21170004, 'Fortress_of_the_Dead_inner_004', 56977, -27318, 639, 56971, -27323, 550, 56981, -27251, 726, 158250, 644, 518, 'false');
-REPLACE INTO castle_door VALUES (64, 21170005, 'Fortress_of_the_Dead_inner_005', 57902, -26392, 654, 57893, -26401, 563, 57976, -26382, 743, 158250, 644, 518, 'false');
-REPLACE INTO castle_door VALUES (64, 21170006, 'Fortress_of_the_Dead_inner_006', 58024, -26391, 654, 57953, -26400, 563, 58037, -26383, 743, 158250, 644, 518, 'false');
+-- REPLACE INTO castle_door VALUES (64, 21170001, 'Fortress_of_the_Dead_outer_001', 57857, -29480, 707, 57849, -29498, 543, 57969, -29465, 869, 158250, 644, 518, 'false');
+-- REPLACE INTO castle_door VALUES (64, 21170002, 'Fortress_of_the_Dead_outer_002', 58061, -29479, 707, 57954, -29498, 543, 58071, -29465, 869, 158250, 644, 518, 'false');
+-- REPLACE INTO castle_door VALUES (64, 21170003, 'Fortress_of_the_Dead_inner_003', 56977, -27193, 639, 56972, -27259, 550, 56982, -27188, 728, 158250, 644, 518, 'false');
+-- REPLACE INTO castle_door VALUES (64, 21170004, 'Fortress_of_the_Dead_inner_004', 56977, -27318, 639, 56971, -27323, 550, 56981, -27251, 726, 158250, 644, 518, 'false');
+-- REPLACE INTO castle_door VALUES (64, 21170005, 'Fortress_of_the_Dead_inner_005', 57902, -26392, 654, 57893, -26401, 563, 57976, -26382, 743, 158250, 644, 518, 'false');
+-- REPLACE INTO castle_door VALUES (64, 21170006, 'Fortress_of_the_Dead_inner_006', 58024, -26391, 654, 57953, -26400, 563, 58037, -26383, 743, 158250, 644, 518, 'false');
 
 -- ----------------------- --
 -- Rainbow Springs Chateau --
 -- ----------------------- --
 
 -- Rainbow Springs Chateau Door
-REPLACE INTO castle_door VALUES (62, 24140001, 'Rainbow_Springs_inner_001', 140728, -124477, -1894, 140725, -124478, -1913, 140754, -124437, -1463, 158250, 644, 518, 'false');
-REPLACE INTO castle_door VALUES (62, 24140002, 'Rainbow_Springs_inner_002', 140778, -124402, -1894, 140750, -124440, -1923, 140779, -124399, -1473, 158250, 644, 518, 'false');
-REPLACE INTO castle_door VALUES (62, 24140003, 'Rainbow_Springs_inner_003', 141149, -124310, -1894, 141146, -124336, -1921, 141187, -124306, -1471, 158250, 644, 518, 'false');
-REPLACE INTO castle_door VALUES (62, 24140004, 'Rainbow_Springs_inner_004', 141224, -124360, -1894, 141184, -124361, -1920, 141225, -124332, -1470, 158250, 644, 518, 'false');
-REPLACE INTO castle_door VALUES (62, 24140005, 'Rainbow_Springs_inner_005', 141281, -124738, -1894, 141253, -124777, -1949, 141282, -124735, -1499, 158250, 644, 518, 'false');
-REPLACE INTO castle_door VALUES (62, 24140006, 'Rainbow_Springs_inner_006', 141231, -124813, -1894, 141228, -124814, -1947, 141258, -124772, -1497, 158250, 644, 518, 'false');
-REPLACE INTO castle_door VALUES (62, 24140007, 'Rainbow_Springs_outer_007', 140702, -123836, -1932, 140700, -123886, -1942, 140715, -123835, -1492, 158250, 644, 518, 'false');
-REPLACE INTO castle_door VALUES (62, 24140008, 'Rainbow_Springs_outer_008', 140722, -123934, -1932, 140709, -123935, -1941, 140723, -123884, -1491, 158250, 644, 518, 'false');
+-- REPLACE INTO castle_door VALUES (62, 24140001, 'Rainbow_Springs_inner_001', 140728, -124477, -1894, 140725, -124478, -1913, 140754, -124437, -1463, 158250, 644, 518, 'false');
+-- REPLACE INTO castle_door VALUES (62, 24140002, 'Rainbow_Springs_inner_002', 140778, -124402, -1894, 140750, -124440, -1923, 140779, -124399, -1473, 158250, 644, 518, 'false');
+-- REPLACE INTO castle_door VALUES (62, 24140003, 'Rainbow_Springs_inner_003', 141149, -124310, -1894, 141146, -124336, -1921, 141187, -124306, -1471, 158250, 644, 518, 'false');
+-- REPLACE INTO castle_door VALUES (62, 24140004, 'Rainbow_Springs_inner_004', 141224, -124360, -1894, 141184, -124361, -1920, 141225, -124332, -1470, 158250, 644, 518, 'false');
+-- REPLACE INTO castle_door VALUES (62, 24140005, 'Rainbow_Springs_inner_005', 141281, -124738, -1894, 141253, -124777, -1949, 141282, -124735, -1499, 158250, 644, 518, 'false');
+-- REPLACE INTO castle_door VALUES (62, 24140006, 'Rainbow_Springs_inner_006', 141231, -124813, -1894, 141228, -124814, -1947, 141258, -124772, -1497, 158250, 644, 518, 'false');
+-- REPLACE INTO castle_door VALUES (62, 24140007, 'Rainbow_Springs_outer_007', 140702, -123836, -1932, 140700, -123886, -1942, 140715, -123835, -1492, 158250, 644, 518, 'false');
+-- REPLACE INTO castle_door VALUES (62, 24140008, 'Rainbow_Springs_outer_008', 140722, -123934, -1932, 140709, -123935, -1941, 140723, -123884, -1491, 158250, 644, 518, 'false');
 
 -- Messenger
-DELETE FROM `spawnlist` WHERE `npc_templateid` IN (35604);
-INSERT INTO `spawnlist` (location,count,npc_templateid,locx,locy,locz,randomx,randomy,heading,respawn_delay,loc_id,periodOfDay) VALUES 
-('rainbowsprings_messenger', 1, 35604, 143944, -119196, -2136, 0, 0, 1000, 0, 0, 0); 
+-- DELETE FROM `spawnlist` WHERE `npc_templateid` IN (35604);
+-- INSERT INTO `spawnlist` (location,count,npc_templateid,locx,locy,locz,randomx,randomy,heading,respawn_delay,loc_id,periodOfDay) VALUES 
+-- ('rainbowsprings_messenger', 1, 35604, 143944, -119196, -2136, 0, 0, 1000, 0, 0, 0); 
 
 -- Caretaker
-REPLACE INTO clanhall_siege_guards VALUES (62, NULL, 35603, 153337, -126441, -2270, 1, 1, 0);
+-- REPLACE INTO clanhall_siege_guards VALUES (62, NULL, 35603, 153337, -126441, -2270, 1, 1, 0);
 
 -- Arena 1 npc / monsters
-REPLACE INTO clanhall_siege_guards VALUES (62, NULL, 35596, 151774, -126861, -2218, 1, 1, 0);
-REPLACE INTO clanhall_siege_guards VALUES (62, NULL, 35593, 151862, -127080, -2218, 1, 300000, 0);
-REPLACE INTO clanhall_siege_guards VALUES (62, NULL, 35592, 151262, -127080, -2218, 1, 300000, 0);
+-- REPLACE INTO clanhall_siege_guards VALUES (62, NULL, 35596, 151774, -126861, -2218, 1, 1, 0);
+-- REPLACE INTO clanhall_siege_guards VALUES (62, NULL, 35593, 151862, -127080, -2218, 1, 300000, 0);
+-- REPLACE INTO clanhall_siege_guards VALUES (62, NULL, 35592, 151262, -127080, -2218, 1, 300000, 0);
 
 -- Arena 2 npc / monsters
-REPLACE INTO clanhall_siege_guards VALUES (62, NULL, 35597, 153404, -125576, -2218, 1, 1, 0);
-REPLACE INTO clanhall_siege_guards VALUES (62, NULL, 35593, 153341, -125335, -2218, 1, 300000, 0);
-REPLACE INTO clanhall_siege_guards VALUES (62, NULL, 35592, 152841, -125335, -2218, 1, 300000, 0);
+-- REPLACE INTO clanhall_siege_guards VALUES (62, NULL, 35597, 153404, -125576, -2218, 1, 1, 0);
+-- REPLACE INTO clanhall_siege_guards VALUES (62, NULL, 35593, 153341, -125335, -2218, 1, 300000, 0);
+-- REPLACE INTO clanhall_siege_guards VALUES (62, NULL, 35592, 152841, -125335, -2218, 1, 300000, 0);
 
 -- Arena 3 npc / monsters
-REPLACE INTO clanhall_siege_guards VALUES (62, NULL, 35598, 154132, -127301, -2218, 1, 1, 0);
-REPLACE INTO clanhall_siege_guards VALUES (62, NULL, 35593, 154192, -127530, -2218, 1, 300000, 0);
-REPLACE INTO clanhall_siege_guards VALUES (62, NULL, 35592, 153592, -127530, -2218, 1, 300000, 0);
+-- REPLACE INTO clanhall_siege_guards VALUES (62, NULL, 35598, 154132, -127301, -2218, 1, 1, 0);
+-- REPLACE INTO clanhall_siege_guards VALUES (62, NULL, 35593, 154192, -127530, -2218, 1, 300000, 0);
+-- REPLACE INTO clanhall_siege_guards VALUES (62, NULL, 35592, 153592, -127530, -2218, 1, 300000, 0);
 
 -- Arena 4 npc / monsters
-REPLACE INTO clanhall_siege_guards VALUES (62, NULL, 35598, 155390, -125489, -2218, 1, 1, 0);
-REPLACE INTO clanhall_siege_guards VALUES (62, NULL, 35593, 155969, -125752, -2218, 1, 300000, 0);
-REPLACE INTO clanhall_siege_guards VALUES (62, NULL, 35592, 155369, -125752, -2218, 1, 300000, 0);
+-- REPLACE INTO clanhall_siege_guards VALUES (62, NULL, 35598, 155390, -125489, -2218, 1, 1, 0);
+-- REPLACE INTO clanhall_siege_guards VALUES (62, NULL, 35593, 155969, -125752, -2218, 1, 300000, 0);
+-- REPLACE INTO clanhall_siege_guards VALUES (62, NULL, 35592, 155369, -125752, -2218, 1, 300000, 0);
 
 -- Update siege npcs
-UPDATE npc SET type = 'L2Monster' WHERE id = 35592;
-UPDATE npc SET type = 'L2Monster' WHERE id = 35593;
-UPDATE npc SET type = 'L2Monster' WHERE id = 35588;
-UPDATE npc SET type = 'L2Monster' WHERE id = 35589;
-UPDATE npc SET type = 'L2Monster' WHERE id = 35590;
-UPDATE npc SET type = 'L2Monster' WHERE id = 35591;
-UPDATE npc SET type = 'L2Doormen' WHERE id = 35602;
-UPDATE npc SET type = 'L2Doormen' WHERE id = 35601;
-UPDATE npc SET type = 'L2ClanHallManager', `mp` = '152120' WHERE id = 35605;
+-- UPDATE npc SET type = 'L2Monster' WHERE id = 35592;
+-- UPDATE npc SET type = 'L2Monster' WHERE id = 35593;
+-- UPDATE npc SET type = 'L2Monster' WHERE id = 35588;
+-- UPDATE npc SET type = 'L2Monster' WHERE id = 35589;
+-- UPDATE npc SET type = 'L2Monster' WHERE id = 35590;
+-- UPDATE npc SET type = 'L2Monster' WHERE id = 35591;
+-- UPDATE npc SET type = 'L2Doormen' WHERE id = 35602;
+-- UPDATE npc SET type = 'L2Doormen' WHERE id = 35601;
+-- UPDATE npc SET type = 'L2ClanHallManager', `mp` = '152120' WHERE id = 35605;
 
 -- Update siege items
-UPDATE etcitem SET item_type = 'stackable', handler = 'QuestItems' WHERE item_id = 8030;
-UPDATE etcitem SET item_type = 'stackable', handler = 'QuestItems' WHERE item_id = 8031;
-UPDATE etcitem SET item_type = 'stackable', handler = 'QuestItems' WHERE item_id = 8032;
-UPDATE etcitem SET item_type = 'stackable', handler = 'QuestItems' WHERE item_id = 8033;
+-- UPDATE etcitem SET item_type = 'stackable', handler = 'QuestItems' WHERE item_id = 8030;
+-- UPDATE etcitem SET item_type = 'stackable', handler = 'QuestItems' WHERE item_id = 8031;
+-- UPDATE etcitem SET item_type = 'stackable', handler = 'QuestItems' WHERE item_id = 8032;
+-- UPDATE etcitem SET item_type = 'stackable', handler = 'QuestItems' WHERE item_id = 8033;
 
 REPLACE INTO npcskills VALUES
 -- Chamber of Delusion

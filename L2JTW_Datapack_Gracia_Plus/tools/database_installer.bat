@@ -718,8 +718,6 @@ clan_subpledges.sql
 clan_wars.sql
 clanhall.sql
 clanhall_functions.sql
-clanhall_siege.sql
-clanhall_siege_attackers.sql
 clanhall_siege_guards.sql
 class_list.sql
 cursed_weapons.sql
@@ -778,7 +776,6 @@ pledge_skill_trees.sql
 posts.sql
 quest_global_data.sql
 raidboss_spawnlist.sql
-rainbowsprings_attacker_list.sql
 random_spawn.sql
 random_spawn_loc.sql
 seven_signs.sql
