@@ -68,7 +68,7 @@ public class CrystalCaverns extends Quest
 		public boolean isAtDestination         = false;
 		public         L2CharPosition oldpos   = null;
 	}
-
+	
 	private class CCWorld extends InstanceWorld
 	{
 		public           Map<L2Npc,Boolean> npcList1                      = new FastMap<L2Npc,Boolean>();
@@ -108,11 +108,11 @@ public class CrystalCaverns extends Quest
 			endTime = time;
 		}
 	}
-
+	
 	private static final String qn = "CrystalCaverns";
 	private static final int INSTANCEID = 10; // this is the client number
 	private static final boolean debug = false;
-
+	
 	//Items
 	private static final int WHITE_SEED     = 9597;
 	private static final int BLACK_SEED     = 9598;
@@ -123,7 +123,7 @@ public class CrystalCaverns extends Quest
 	private static final int BOSS_CRYSTAL_1 = 9695; //Clear Crystal
 	private static final int BOSS_CRYSTAL_2 = 9696; //Clear Crystal
 	private static final int BOSS_CRYSTAL_3 = 9697; //Clear Crystal
-
+	
 	//NPCs
 	private static final int ORACLE_GUIDE_1 = 32281;
 	private static final int ORACLE_GUIDE_2 = 32278;
@@ -135,14 +135,14 @@ public class CrystalCaverns extends Quest
 	//mobs
 	private static final int GK1 = 22275;
 	private static final int GK2 = 22277;
-
+	
 	private static final int TOURMALINE = 22292;
 	private static final int TEROD      = 22301;
 	private static final int DOLPH      = 22299;
 	private static final int WEYLIN     = 22298;
 	private static final int GUARDIAN   = 22303;
 	private static final int GUARDIAN2  = 22304;
-
+	
 	private static final int TEARS       = 25534;
 	private static final int TEARS_COPY  = 25535;
 	private static final int KECHI       = 25532;
@@ -150,12 +150,12 @@ public class CrystalCaverns extends Quest
 	private static final int BAYLOR      = 29099;
 	private static final int DARNEL      = 25531;
 	private final static int ALARMID = 18474;
-
+	
 	// private static final int[] BOSSCR  = {9695,9696,9697};
 	private static final int[] CGMOBS  = {22311,22312,22313,22314,22315,22316,22317};
 	private static final int[] SPAWN   = {60000, 120000, 90000, 60000, 50000, 40000}; // Kechi Hencmans spawn times
 	private static final int[] MOBLIST = {22279,22280,22281,22282,22283,22285,22286,22287,22288,22289,22293,22294,22295,22296,22297,22305,22306,22307,22416,22418,22419,22420};
-
+	
 	// Doors/Walls/Zones
 	private static final int DOOR1 = 24220021;
 	private static final int DOOR2 = 24220024;
@@ -164,12 +164,12 @@ public class CrystalCaverns extends Quest
 	private static final int DOOR5 = 24220025;
 	private static final int DOOR6 = 24220022;
 	private static final int[] ZONES = {20105,20106,20107};
-
+	
 	// Baylor alarm spawns
 	private final static int[][] ALARMSPAWN = {{153572,141277,-12738},{153572,142852,-12738},
 		{154358,142075,-12738},{152788,142075,-12738}
 	};
-
+	
 	// Oracle order
 	private static final int[][] ordreOracle1 = {
 		{32274, 147090, 152505, -12169, 31613},
@@ -177,21 +177,21 @@ public class CrystalCaverns extends Quest
 		{32274, 147090, 152645, -12169, 31613},
 		{32274, 147090, 152715, -12169, 31613}
 	};
-
+	
 	private static final int[][] ordreOracle2 = {
 		{32274, 149783, 152505, -12169, 31613},
 		// {32274, 149783, 152575, -12169, 31613},
 		{32274, 149783, 152645, -12169, 31613},
 		{32276, 149783, 152715, -12169, 31613}
 	};
-
+	
 	private static final int[][] ordreOracle3 = {
 		{32274, 152461, 152505, -12169, 31613},
 		// {32274, 152461, 152575, -12169, 31613},
 		{32277, 152461, 152645, -12169, 31613}
 		// {32274, 152461, 152715, -12169, 31613}
 	};
-
+	
 	//Hall spawns
 	private static int[][] SPAWNS= {{141842, 152556, -11814, 50449},{141503, 153395, -11814, 40738},
 		{141070, 153201, -11814, 39292},{141371, 152986, -11814, 35575},
@@ -213,7 +213,7 @@ public class CrystalCaverns extends Quest
 		{142819, 154372, -11814, 21318},{141157, 154541, -11814, 27090},
 		{141095, 150281, -11814, 55186}
 	};
-
+	
 	//first spawns
 	private static int[][] FIRST_SPAWNS= {{22276, 148109, 149601, -12132, 34490},{22276, 148017, 149529, -12132, 33689},
 		{22278, 148065, 151202, -12132, 35323},{22278, 147966, 151117, -12132, 33234},
@@ -231,7 +231,7 @@ public class CrystalCaverns extends Quest
 		{22285, 147003, 149476, -12132, 31554},{22285, 147738, 149210, -12132, 20971},
 		{22285, 147769, 149757, -12132, 34980}
 	};
-
+	
 	// Emerald Square
 	private static int[][] EMERALD_SPAWNS = {{22280, 144437, 143395, -11969, 34248},{22281, 149241, 143735, -12230, 24575},
 		{22281, 147917, 146861, -12289, 60306},{22281, 144406, 147782, -12133, 14349},
@@ -256,27 +256,27 @@ public class CrystalCaverns extends Quest
 		{22296, 141885, 144969, -12007, 2526},{22296, 147843, 143763, -12220, 28386},
 		{22296, 144753, 143650, -11982, 35429},{22296, 147613, 146760, -12271, 56296}
 	};
-
+	
 	private static int[][] ROOM1_SPAWNS = {{22288, 143114, 140027, -11888, 15025},{22288, 142173, 140973, -11888, 55698},
 		{22289, 143210, 140577, -11888, 17164},{22289, 142638, 140107, -11888, 6571},
 		{22297, 142547, 140938, -11888, 48556},{22298, 142690, 140479, -11887, 7663}
 	};
-
+	
 	private static int[][] ROOM2_SPAWNS = {{22303, 146276, 141483, -11880, 34643},{22287, 145707, 142161, -11880, 28799},
 		{22288, 146857, 142129, -11880, 33647},{22288, 146869, 142000, -11880, 31215},
 		{22289, 146897, 140880, -11880, 19210}
 	};
-
+	
 	private static int[][] ROOM3_SPAWNS = {{22302, 145123, 143713, -12808, 65323},{22294, 145188, 143331, -12808, 496},
 		{22294, 145181, 144104, -12808, 64415},{22293, 144994, 143431, -12808, 65431},
 		{22293, 144976, 143915, -12808, 61461}
 	};
-
+	
 	private static int[][] ROOM4_SPAWNS = {{22304, 150563, 142240, -12108, 16454},{22294, 150769, 142495, -12108, 16870},
 		{22281, 150783, 141995, -12108, 20033},{22283, 150273, 141983, -12108, 16043},
 		{22294, 150276, 142492, -12108, 13540}
 	};
-
+	
 	// Steam Corridor
 	private static int[][] STEAM1_SPAWNS= {{22305, 145260, 152387, -12165, 32767},{22305, 144967, 152390, -12165, 30464},
 		{22305, 145610, 152586, -12165, 17107},{22305, 145620, 152397, -12165, 8191},
@@ -291,7 +291,7 @@ public class CrystalCaverns extends Quest
 		// {22308, 147767, 152939, -12133, 63381},{22309, 147737, 152671, -12165, 65320},
 		{22418, 148207, 152725, -12165, 61801},{22419, 149058, 152828, -12165, 64564}
 	};
-
+	
 	private static int[][] STEAM3_SPAWNS= {{22307, 150735, 152316, -12145, 31930},{22307, 150725, 152467, -12165, 33635},
 		{22307, 151058, 152316, -12146, 65342},{22307, 151057, 152461, -12165, 2171}
 		/*{22308, 150794, 152455, -12165, 31613},{22308, 150665, 152383, -12165, 32767},
@@ -300,7 +300,7 @@ public class CrystalCaverns extends Quest
 		{22309, 151620, 152487, -12165, 30114},{22309, 151672, 152544, -12165, 31846},
 		{22309, 150488, 152350, -12165, 29072},{22310, 151139, 152238, -12132, 1069}*/
 	};
-
+	
 	private static int[][] STEAM4_SPAWNS= {//{22308, 151707, 150199, -12165, 32859},{22308, 152091, 150140, -12165, 32938},
 		// {22308, 149757, 150204, -12138, 65331},{22308, 149950, 150307, -12132, 62437},
 		//{22308, 149901, 150322, -12132, 62136},{22309, 150071, 150173, -12165, 64943},
@@ -309,7 +309,7 @@ public class CrystalCaverns extends Quest
 		{22420, 149986, 150051, -12165, 105},{22420, 151970, 149997, -12165, 32170},
 		{22420, 150744, 150006, -12165, 63}// ,{22417, 149782, 150188, -12151, 64001}
 	};
-
+	
 	// Instance reenter time
 	// default: 86400000ms(24h)
 	private static final int INSTANCEPENALTY = 86400000;
@@ -324,7 +324,7 @@ public class CrystalCaverns extends Quest
 			if (door.getDoorId() == doorId)
 				door.openMe();
 	}
-
+	
 	protected void closeDoor(int doorId,int instanceId)
 	{
 		for (L2DoorInstance door : InstanceManager.getInstance().getInstance(instanceId).getDoors())
@@ -332,7 +332,7 @@ public class CrystalCaverns extends Quest
 				if (door.getOpen())
 					door.closeMe();
 	}
-
+	
 	private boolean checkConditions(L2PcInstance player)
 	{
 		if (debug)
@@ -383,7 +383,7 @@ public class CrystalCaverns extends Quest
 		}
 		return true;
 	}
-
+	
 	private boolean checkOracleConditions(L2PcInstance player)
 	{
 		if (debug)
@@ -419,7 +419,7 @@ public class CrystalCaverns extends Quest
 		}
 		return true;
 	}
-
+	
 	private boolean checkBaylorConditions(L2PcInstance player)
 	{
 		L2Party party = player.getParty();
@@ -455,7 +455,7 @@ public class CrystalCaverns extends Quest
 		}
 		return true;
 	}
-
+	
 	// this should be handled from skill effect
 	private void Throw(L2Character effector, L2Character effected)
 	{
@@ -479,7 +479,7 @@ public class CrystalCaverns extends Quest
 		offset += Math.abs(dz);
 		if (offset < 5)
 			offset = 5;
-
+		
 		if (distance < 1)
 			return;
 		// Calculate movement angles needed
@@ -503,7 +503,7 @@ public class CrystalCaverns extends Quest
 		effected.setXYZ(_x, _y, _z);
 		effected.broadcastPacket(new ValidateLocation(effected));
 	}
-
+	
 	private void teleportplayer(L2PcInstance player, teleCoord teleto)
 	{
 		player.getAI().setIntention(CtrlIntention.AI_INTENTION_IDLE);
@@ -511,7 +511,7 @@ public class CrystalCaverns extends Quest
 		player.teleToLocation(teleto.x, teleto.y, teleto.z);
 		return;
 	}
-
+	
 	protected int enterInstance(L2PcInstance player, String template, teleCoord teleto)
 	{
 		//check for existing instances for this player
@@ -564,14 +564,14 @@ public class CrystalCaverns extends Quest
 			return instanceId;
 		}
 	}
-
+	
 	protected void exitInstance(L2PcInstance player, teleCoord tele)
 	{
 		player.getAI().setIntention(CtrlIntention.AI_INTENTION_IDLE);
 		player.setInstanceId(0);
 		player.teleToLocation(tele.x, tele.y, tele.z);
 	}
-
+	
 	protected void stopAttack(L2PcInstance player)
 	{
 		player.setTarget(null);
@@ -591,21 +591,21 @@ public class CrystalCaverns extends Quest
 			pet.getAI().setIntention(CtrlIntention.AI_INTENTION_IDLE);
 		}
 	}
-
+	
 	protected void runOracle(CCWorld world)
 	{
 		world.status = 0;
-
+		
 		world.oracle.add(addSpawn(ORACLE_GUIDE_1, 143172, 148894, -11975, 0, false,0,false,world.instanceId));
 	}
-
+	
 	protected void runEmerald(CCWorld world)
 	{
 		world.status = 1;
 		runFirst(world);
 		openDoor(DOOR1, world.instanceId);
 	}
-
+	
 	protected void runCoral(CCWorld world)
 	{
 		world.status = 1;
@@ -613,35 +613,35 @@ public class CrystalCaverns extends Quest
 		openDoor(DOOR2, world.instanceId);
 		openDoor(DOOR5, world.instanceId);
 	}
-
+	
 	protected void runHall(CCWorld world)
 	{
 		world.status = 2;
-
+		
 		for (int[] spawn : SPAWNS)
 		{
 			L2Npc mob = addSpawn(CGMOBS[Rnd.get(CGMOBS.length)], spawn[0], spawn[1], spawn[2], spawn[3], false,0,false,world.instanceId);
 			world.npcList1.put(mob, false);
 		}
 	}
-
+	
 	protected void runFirst(CCWorld world)
 	{
 		world.status = 2;
-
+		
 		world.keyKeepers.add(addSpawn(GK1, 148206, 149486, -12140, 32308, false,0,false,world.instanceId));
 		world.keyKeepers.add(addSpawn(GK2, 148203, 151093, -12140, 31100, false,0,false,world.instanceId));
-
+		
 		for (int[] spawn : FIRST_SPAWNS)
 		{
 			addSpawn(spawn[0], spawn[1], spawn[2], spawn[3], spawn[4], false,0,false,world.instanceId);
 		}
 	}
-
+	
 	protected void runEmeraldSquare(CCWorld world)
 	{
 		world.status = 3;
-
+		
 		Map<L2Npc,Boolean> spawnList = new FastMap<L2Npc, Boolean>();
 		for (int[] spawn : EMERALD_SPAWNS)
 		{
@@ -650,7 +650,7 @@ public class CrystalCaverns extends Quest
 		}
 		world.npcList2.put(0, spawnList);
 	}
-
+	
 	protected void runEmeraldRooms(CCWorld world, int[][] spawnList, int room)
 	{
 		Map<L2Npc,Boolean> spawned = new FastMap<L2Npc, Boolean>();
@@ -664,21 +664,21 @@ public class CrystalCaverns extends Quest
 		world.npcList2.put(room, spawned);
 		world.roomsStatus[room-1] = 1;
 	}
-
+	
 	protected void runDarnel(CCWorld world)
 	{
 		world.status = 9;
-
+		
 		addSpawn(DARNEL, 152759, 145949, -12588, 21592, false,0,false,world.instanceId);
 		// TODO: missing traps
 		openDoor(24220005,world.instanceId);
 		openDoor(24220006,world.instanceId);
 	}
-
+	
 	protected void runSteamRooms(CCWorld world, int[][] spawnList, int status)
 	{
 		world.status = status;
-
+		
 		Map<L2Npc,Boolean> spawned = new FastMap<L2Npc, Boolean>();
 		for (int[] spawn : spawnList)
 		{
@@ -687,7 +687,7 @@ public class CrystalCaverns extends Quest
 		}
 		world.npcList2.put(0, spawned);
 	}
-
+	
 	protected void runSteamOracles(CCWorld world, int[][] oracleOrder)
 	{
 		world.oracles.clear();
@@ -696,7 +696,7 @@ public class CrystalCaverns extends Quest
 			world.oracles.put(addSpawn(oracle[0], oracle[1], oracle[2], oracle[3], oracle[4], false,0,false,world.instanceId), null);
 		}
 	}
-
+	
 	protected boolean checkKillProgress(int room, L2Npc mob, CCWorld world)
 	{
 		if (world.npcList2.get(room).containsKey(mob))
@@ -723,8 +723,8 @@ public class CrystalCaverns extends Quest
 		world.Baylor = addSpawn(BAYLOR,153557,142089,-12735,11175,false,0,false,world.instanceId,0);
 
 	}*/
-
-
+	
+	
 	@Override
 	public String onFirstTalk(L2Npc npc, L2PcInstance player)
 	{
@@ -786,18 +786,18 @@ public class CrystalCaverns extends Quest
 			player.sendPacket(ActionFailed.STATIC_PACKET);
 		return"";
 	}
-
+	
 	@Override
 	public String onSkillSee (L2Npc npc, L2PcInstance caster, L2Skill skill, L2Object[] targets, boolean isPet)
 	{
-
+		
 		boolean doReturn = true;
 		for(L2Object obj: targets)
 			if (obj == npc)
 				doReturn = false;
 		if (doReturn)
 			return super.onSkillSee(npc, caster, skill, targets, isPet);
-
+		
 		switch(skill.getId())
 		{
 			case 1011:
@@ -815,7 +815,7 @@ public class CrystalCaverns extends Quest
 		}
 		if (doReturn)
 			return super.onSkillSee(npc, caster, skill, targets, isPet);
-
+		
 		if (npc.getNpcId() >= 32275 && npc.getNpcId() <= 32277 && skill.getId() != 2360 && skill.getId() != 2369)
 		{
 			InstanceWorld tmpworld = InstanceManager.getInstance().getWorld(npc.getInstanceId());
@@ -837,7 +837,7 @@ public class CrystalCaverns extends Quest
 			if (tmpworld instanceof CCWorld)
 			{
 				CCWorld world = (CCWorld) tmpworld;
-
+				
 				if ((world._dragonClawStart + DRAGONCLAWTIME) <= System.currentTimeMillis() || world._dragonClawNeed <= 0)
 				{
 					world._dragonClawStart = System.currentTimeMillis();
@@ -881,7 +881,7 @@ public class CrystalCaverns extends Quest
 		}
 		return super.onSkillSee(npc, caster, skill, targets, isPet);
 	}
-
+	
 	@Override
 	public String onAttack (L2Npc npc, L2PcInstance attacker, int damage, boolean isPet, L2Skill skill)
 	{
@@ -921,11 +921,11 @@ public class CrystalCaverns extends Quest
 					}
 					return "";
 				}
-
+				
 				int maxHp = npc.getMaxHp();
 				double nowHp = npc.getStatus().getCurrentHp();
 				int rand = Rnd.get(1000);
-
+				
 				if (nowHp < maxHp * 0.4 && rand < 5)
 				{
 					L2Party party = attacker.getParty();
@@ -969,7 +969,7 @@ public class CrystalCaverns extends Quest
 		}
 		return super.onSpellFinished(npc, player, skill);
 	}
-
+	
 	@Override
 	public String onAdvEvent (String event, L2Npc npc, L2PcInstance player)
 	{
@@ -1503,11 +1503,11 @@ public class CrystalCaverns extends Quest
 		}
 		return "";
 	}
-
+	
 	private void giveRewards(L2PcInstance player, int instanceId, int bossCry, boolean isBaylor)
 	{
 		final int num = Math.max((int)Config.RATE_DROP_ITEMS_BY_RAID, 1);
-
+		
 		L2Party party = player.getParty();
 		if (party != null)
 		{
@@ -1543,9 +1543,9 @@ public class CrystalCaverns extends Quest
 			else
 				st.giveItems(BLACK_SEED, num);
 		}
-
+		
 	}
-
+	
 	@Override
 	public String onKill( L2Npc npc, L2PcInstance player, boolean isPet)
 	{
@@ -2016,7 +2016,7 @@ public class CrystalCaverns extends Quest
 		}
 		return super.onEnterZone(character,zone);
 	}
-
+	
 	@Override
 	public String onExitZone(L2Character character, L2ZoneType zone)
 	{
@@ -2053,17 +2053,17 @@ public class CrystalCaverns extends Quest
 							}
 							break;
 						}
-
+					
 				}
 			}
 		}
 		return super.onExitZone(character,zone);
 	}
-
+	
 	public CrystalCaverns(int questId, String name, String descr)
 	{
 		super(questId, name, descr);
-
+		
 		addStartNpc(ORACLE_GUIDE_1);
 		addTalkId(ORACLE_GUIDE_1);
 		addStartNpc(ORACLE_GUIDE_3); //Update by rocknow
@@ -2108,7 +2108,7 @@ public class CrystalCaverns extends Quest
 			addExitZoneId(zones);
 		}
 	}
-
+	
 	public static void main(String[] args)
 	{
 		// now call the constructor (starts up the)

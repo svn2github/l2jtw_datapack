@@ -65,140 +65,142 @@ Dinn_N = "<html><body>¤B©w¡G<br>­Y·Q±o¨ì·sªºª««~¡A»Ý­n¦³¬¡Åé²ÕÂ´450­Ó¡C¦A¥h¬¼Ây¤
 
 class Quest (JQuest) :
 
-	def __init__(self,id,name,descr):
-		JQuest.__init__(self,id,name,descr)
-		self.questItemIds = [DINOSAUR_TISSUE, DINOSAUR_EGG]
+   def __init__(self,id,name,descr):
+      JQuest.__init__(self,id,name,descr)
+      self.questItemIds = [DINOSAUR_TISSUE, DINOSAUR_EGG]
 
-	def onAdvEvent (self,event,npc,player) :
-		htmltext = event
-		st = player.getQuestState(qn)
-		if not st : return
+   def onAdvEvent (self,event,npc,player) :
+      htmltext = event
+      st = player.getQuestState(qn)
+      if not st : return
 
-		count_tissue = st.getQuestItemsCount(DINOSAUR_TISSUE)
-		count_egg = st.getQuestItemsCount(DINOSAUR_EGG)
-		if event == "Dinn_E" :
-			htmltext = Dinn_E
-			st.set("cond","1")
-			st.setState(State.STARTED)
-			st.playSound("ItemSound.quest_accept")
-		elif event == "Dinn_H" :
-			htmltext = Dinn_H
-			st.takeItems(DINOSAUR_TISSUE,-1)
-			st.giveItems(57,count_tissue*5000)
-		elif event == "Dinn_I" :
-			if count_tissue < 150 or count_egg == 0 :
-				htmltext = Dinn_J
-			elif ALT_RP_100 != 0 :
-				#htmltext = st.showHtmlFile("Dinn_I").replace("60%","100%")
-				htmltext = Dinn_I
-		elif event.isdigit() and int(event) in REWARDS :
-			if count_tissue >= 150 and count_egg >= 1 :
-				htmltext = Dinn_K
-				st.takeItems(DINOSAUR_TISSUE,150)
-				st.takeItems(DINOSAUR_EGG,1)
-				st.giveItems(57,44000)
-				if ALT_RP_100 != 0 :
-					st.giveItems(int(event)+1,1)
-				else :
-					st.giveItems(int(event),1)
-			else :
-				htmltext = Dinn_J
-		elif event == "Dinn_M" :
-			if count_tissue >= 450 :
-				htmltext = Dinn_M
-			else :
-				htmltext = Dinn_N
-		elif event in REWARDS_W.keys() :
-			if count_tissue >= 450 :
-				item, amount = REWARDS_W[event]
-				st.takeItems(DINOSAUR_TISSUE,450)
-				st.rewardItems(item, amount)
-				st.playSound("ItemSound.quest_itemget")
-				htmltext = Dinn_M
-			else :
-				htmltext = Dinn_N
-		elif event == "Dinn_A" :
-			htmltext = Dinn_A
-		elif event == "Dinn_B" :
-			htmltext = Dinn_B
-		elif event == "Dinn_C" :
-			htmltext = Dinn_C
-		elif event == "Dinn_D" :
-			htmltext = Dinn_D
-		elif event == "Dinn_E" :
-			htmltext = Dinn_E
-		elif event == "Dinn_F" :
-			htmltext = Dinn_F
-		elif event == "Dinn_G" :
-			htmltext = Dinn_G
-		elif event == "Dinn_H" :
-			htmltext = Dinn_H
-		elif event == "Dinn_I" :
-			htmltext = Dinn_I
-		elif event == "Dinn_J" :
-			htmltext = Dinn_J
-		elif event == "Dinn_K" :
-			htmltext = Dinn_K
-		elif event == "Dinn_L" :
-			htmltext = Dinn_L
-		elif event == "Dinn_M" :
-			htmltext = Dinn_M
-		elif event == "Dinn_N" :
-			htmltext = Dinn_N
-		return htmltext
+      count_tissue = st.getQuestItemsCount(DINOSAUR_TISSUE)
+      count_egg = st.getQuestItemsCount(DINOSAUR_EGG)
+      if event == "Dinn_E" :
+         htmltext = Dinn_E
+         st.set("cond","1")
+         st.setState(State.STARTED)
+         st.playSound("ItemSound.quest_accept")
+      elif event == "Dinn_H" :
+         htmltext = Dinn_H
+         st.takeItems(DINOSAUR_TISSUE,-1)
+         st.giveItems(57,count_tissue*5000)
+      elif event == "Dinn_I" :
+         if count_tissue < 150 or count_egg == 0 :
+            htmltext = Dinn_J
+         elif ALT_RP_100 != 0 :
+            #htmltext = st.showHtmlFile("Dinn_I").replace("60%","100%")
+            htmltext = Dinn_I
+      elif event.isdigit() and int(event) in REWARDS :
+         if count_tissue >= 150 and count_egg >= 1 :
+            htmltext = Dinn_K
+            st.takeItems(DINOSAUR_TISSUE,150)
+            st.takeItems(DINOSAUR_EGG,1)
+            st.giveItems(57,44000)
+            if ALT_RP_100 != 0 :
+               st.giveItems(int(event)+1,1)
+            else :
+               st.giveItems(int(event),1)
+         else :
+            htmltext = Dinn_J
+      elif event == "Dinn_M" :
+         if count_tissue >= 450 :
+            htmltext = Dinn_M
+         else :
+            htmltext = Dinn_N
+      elif event in REWARDS_W.keys() :
+         if count_tissue >= 450 :
+            item, amount = REWARDS_W[event]
+            st.takeItems(DINOSAUR_TISSUE,450)
+            st.rewardItems(item, amount)
+            st.playSound("ItemSound.quest_itemget")
+            htmltext = Dinn_M
+         else :
+            htmltext = Dinn_N
+      elif event == "Dinn_A" :
+         htmltext = Dinn_A
+      elif event == "Dinn_B" :
+         htmltext = Dinn_B
+      elif event == "Dinn_C" :
+         htmltext = Dinn_C
+      elif event == "Dinn_D" :
+         htmltext = Dinn_D
+      elif event == "Dinn_E" :
+         htmltext = Dinn_E
+      elif event == "Dinn_F" :
+         htmltext = Dinn_F
+      elif event == "Dinn_G" :
+         htmltext = Dinn_G
+      elif event == "Dinn_H" :
+         htmltext = Dinn_H
+      elif event == "Dinn_I" :
+         htmltext = Dinn_I
+      elif event == "Dinn_J" :
+         htmltext = Dinn_J
+      elif event == "Dinn_K" :
+         htmltext = Dinn_K
+      elif event == "Dinn_L" :
+         htmltext = Dinn_L
+      elif event == "Dinn_M" :
+         htmltext = Dinn_M
+      elif event == "Dinn_N" :
+         htmltext = Dinn_N
+      return htmltext
 
-	def onTalk (self,npc,player):
-		htmltext = "<html><body>¥Ø«e¨S¦³°õ¦æ¥ô°È¡A©Î±ø¥ó¤£²Å¡C</body></html>"
-		st = player.getQuestState(qn)
-		if not st: return htmltext
+   def onTalk (self,npc,player):
+      htmltext = "<html><body>¥Ø«e¨S¦³°õ¦æ¥ô°È¡A©Î±ø¥ó¤£²Å¡C</body></html>"
+      st = player.getQuestState(qn)
+      if not st: return htmltext
 
-		npcId = npc.getNpcId()
-		id = st.getState()
-		cond = st.getInt("cond")
+      npcId = npc.getNpcId()
+      id = st.getState()
+      cond = st.getInt("cond")
 
-		count = st.getQuestItemsCount(DINOSAUR_TISSUE)
-		if id == State.CREATED :
-			if npcId == 32105 and cond == 0 :
-				if player.getLevel() >= 75 :
-					htmltext = Dinn_B
-				else :
-					htmltext = Dinn_A
-					st.exitQuest(1)
-		elif id == State.STARTED :
-			if npcId == 32105 and cond == 1 :
-				if count == 0 :
-					htmltext = Dinn_F
-				else :
-					htmltext = Dinn_G
-		return htmltext
+      count = st.getQuestItemsCount(DINOSAUR_TISSUE)
+      if id == State.CREATED :
+         if npcId == 32105 and cond == 0 :
+            if player.getLevel() >= 75 :
+               htmltext = Dinn_B
+            else :
+               htmltext = Dinn_A
+               st.exitQuest(1)
+      elif id == State.STARTED :
+         if npcId == 32105 and cond == 1 :
+            if count == 0 :
+               htmltext = Dinn_F
+            else :
+               htmltext = Dinn_G
+      return htmltext
 
-	def onKill (self, npc, player,isPet):
-		partyMember = self.getRandomPartyMember(player,"1")
-		if not partyMember: return
-		st = partyMember.getQuestState(qn)
-		if st :
-			if st.getState() == State.STARTED :
-				npcId = npc.getNpcId()
-				cond = st.getInt("cond")
-				count = st.getQuestItemsCount(DINOSAUR_TISSUE)
-				if cond == 1 :
-					if npcId == 18344 :
-						itemId = DINOSAUR_EGG
-						chance = EGG_DROP_CHANCE*Config.RATE_QUEST_DROP
-						numItems, chance = divmod(chance,100)
-					else :
-						itemId = DINOSAUR_TISSUE
-						chance = TISSUE_DROP_CHANCE*Config.RATE_QUEST_DROP
-						numItems, chance = divmod(chance,100)
-					if st.getRandom(100) < chance : 
-						numItems += 1
-					if numItems :
-						if int(count + numItems) and itemId == DINOSAUR_TISSUE :
-							st.playSound("ItemSound.quest_itemget")
-						st.giveItems(itemId,int(numItems))
-		return
+   def onKill (self, npc, player,isPet):
+      partyMember = self.getRandomPartyMember(player,"1")
+      if not partyMember: return
+      st = partyMember.getQuestState(qn)
+      if st :
+         if st.getState() == State.STARTED :
+            npcId = npc.getNpcId()
+            cond = st.getInt("cond")
+            count = st.getQuestItemsCount(DINOSAUR_TISSUE)
+            if cond == 1 :
+               if npcId == 18344 :
+                  itemId = DINOSAUR_EGG
+                  chance = EGG_DROP_CHANCE*Config.RATE_QUEST_DROP
+                  numItems, chance = divmod(chance,100)
+               else :
+                  itemId = DINOSAUR_TISSUE
+                  chance = TISSUE_DROP_CHANCE*Config.RATE_QUEST_DROP
+                  numItems, chance = divmod(chance,100)
+               if st.getRandom(100) < chance : 
+                  numItems += 1
+               if numItems :
+                  if int(count + numItems)/150 > int(count)/150 and itemId == DINOSAUR_TISSUE :
+                     st.playSound("ItemSound.quest_middle")
+                  else :
+                     st.playSound("ItemSound.quest_itemget")
+                  st.giveItems(itemId,int(numItems))
+      return
 
-QUEST		= Quest(642,qn,"¦³Ãö¤Ó¥j±j¤O¥Íª«ªº¬ã¨s")
+QUEST      = Quest(642,qn,"¦³Ãö¤Ó¥j±j¤O¥Íª«ªº¬ã¨s")
 
 QUEST.addStartNpc(32105)
 
@@ -206,3 +208,4 @@ QUEST.addTalkId(32105)
 
 for mob in DINOSAURS :
    QUEST.addKillId(mob)
+

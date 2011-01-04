@@ -630,7 +630,7 @@ public class RimKamaloka extends Quest
 					reenter.roll(Calendar.DATE, true);
 				reenter.set(Calendar.HOUR_OF_DAY, RESET_HOUR);
 
-				SystemMessage sm = SystemMessage.getSystemMessage(SystemMessageId.INSTANT_ZONE_RESTRICTED);
+				SystemMessage sm = SystemMessage.getSystemMessage(SystemMessageId.INSTANT_ZONE_S1_RESTRICTED);
 				sm.addString(InstanceManager.getInstance().getInstanceIdName(_world.templateId));
 
 				// set instance reenter time for all allowed players

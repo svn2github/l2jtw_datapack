@@ -604,10 +604,4 @@ INSERT IGNORE INTO `admin_command_access_rights` VALUES
 
 -- VITAMIN ITEM
 ('admin_vitaminitem','1','false'),
-('admin_sendVitem','1','false'),
-
--- ConquerableHallSiege
-('admin_chsiege_startSiege','1','false'),
-('admin_chsiege_endsSiege','1','false'),
-('admin_chsiege_setSiegeDate','1','false'),
-('admin_chsiege_addAttacker','1','false');
+('admin_sendVitem','1','false');
