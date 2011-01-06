@@ -1377,14 +1377,19 @@
 		</for>
 	</skill>
 	<skill id="1449" levels="1" name="Transfer Soul">
-		<!-- Update by pmq -->
-		<set name="target" val="TARGET_ONE" />
-		<set name="skillType" val="CHARGESOUL" />
-		<set name="numSouls" val="1" />
-		<set name="reuseDelay" val="6000" />
+		<!-- Confirmed CT2.5 -->
+		<set name="aggroPoints" val="150" />
+		<set name="castRange" val="400" />
+		<set name="effectRange" val="900" />
+		<set name="hitTime" val="2500" />
+		<set name="hpConsume" val="20" />
+		<set name="mpConsume" val="5" />
+		<set name="num_souls" val="1" />
 		<set name="operateType" val="OP_ACTIVE" />
-		<set name="soulsConsume" val="1" />
-		<cond msg="This can only be used on Kamael player.">
+		<set name="soulConsumeCount" val="1" />
+		<set name="skillType" val="CHARGESOUL" />
+		<set name="target" val="TARGET_ONE" />
+		<cond msgId="109"><!-- Update by rocknow -->
 			<target race="Kamael" />
 		</cond>
 	</skill>

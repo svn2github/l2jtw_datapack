@@ -68,7 +68,6 @@ public class AdminTeleport implements IAdminCommandHandler
 		"admin_teleport_character",
 		"admin_recall",
 		"admin_walk",
-		"admin_explore",
 		"teleportto",
 		"recall",
 		"admin_recall_npc",
@@ -120,11 +119,6 @@ public class AdminTeleport implements IAdminCommandHandler
 		else if (command.equals("admin_teleport_to_character"))
 		{
 			teleportToCharacter(activeChar, activeChar.getTarget());
-		}
-		else if (command.equals("admin_explore") && Config.ACTIVATE_POSITION_RECORDER)
-		{
-			activeChar._exploring = !activeChar._exploring;
-			activeChar.explore();
 		}
 		else if (command.startsWith("admin_walk"))
 		{
@@ -391,7 +385,7 @@ public class AdminTeleport implements IAdminCommandHandler
 				// Information
 				activeChar.sendMessage(MessageTable.Messages[1887].getExtra(1) + player.getName() + MessageTable.Messages[1887].getExtra(2));
 				player.sendMessage(1888);
-			
+				
 				player.getAI().setIntention(CtrlIntention.AI_INTENTION_IDLE);
 				player.teleToLocation(x, y, z, true);
 			}
