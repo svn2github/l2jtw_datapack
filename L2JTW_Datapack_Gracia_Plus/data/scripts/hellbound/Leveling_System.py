@@ -204,7 +204,8 @@ class Leveling_System (JQuest):
 		if self.hellboundLevel < 7:
 			changeChimeraSpawnState(0)
 		if self.hellboundLevel >= 7:
-			worldObjects = SpawnTable.getInstance().getSpawnTable().values()
+			#worldObjects = SpawnTable.getInstance().getSpawnTable().values()
+			worldObjects = SpawnTable.getInstance().getSpawnTable()
 			for i in worldObjects:
 				npcId = i.getNpcid()
 				if npcId == WLGuard:
@@ -323,7 +324,8 @@ class Leveling_System (JQuest):
 				HellboundManager.getInstance().increaseTrust(self.hellboundMobs1[id]['points'])
 			if id == WLGuard:
 				if HellboundManager.getInstance().getLevel() == 7:
-					worldObjects = SpawnTable.getInstance().getSpawnTable().values()
+					#worldObjects = SpawnTable.getInstance().getSpawnTable().values()
+					worldObjects = SpawnTable.getInstance().getSpawnTable()
 					for i in worldObjects:
 						if i.getNpcid() == WLGuard:
 							i.stopRespawn()
