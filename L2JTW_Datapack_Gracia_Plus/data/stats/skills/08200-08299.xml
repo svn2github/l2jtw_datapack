@@ -659,7 +659,7 @@
 	</skill>
 	<skill id="8239" levels="1" name="Critical Up">
 		<!-- Update by rocknow -->
-		<set name="weaponsAllowed" val="64" />
+		<set name="weaponsAllowed" val="Pole" />
 		<set name="mpConsume" val="74" />
 		<set name="target" val="TARGET_SELF" />
 		<set name="hitTime" val="2500" />
@@ -680,7 +680,7 @@
 	<skill id="8240" levels="3" name="Obliteration Storm">
 		<!-- Update by rocknow -->
 		<table name="#power"> 200 250 300 </table>
-		<set name="weaponsAllowed" val="64" />
+		<set name="weaponsAllowed" val="Pole" />
 		<set name="mpConsume" val="148" />
 		<set name="power" val="#power" />
 		<set name="target" val="TARGET_AURA" />

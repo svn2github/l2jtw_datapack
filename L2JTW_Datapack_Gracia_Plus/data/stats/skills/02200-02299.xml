@@ -374,7 +374,7 @@
 		<set name="skillType" val="PDAM" />
 		<set name="operateType" val="OP_ACTIVE"/>
 	<!--	<set name="weaponsAllowed" val="65568"/>	--> <!-- Bow/Crossbow -->
-		<set name="weaponsAllowed" val="32"/> <!-- Bow -->
+		<set name="weaponsAllowed" val="Bow"/> <!-- Bow -->
 		<set name="itemConsumeId" val="8192"/> <!-- Soul Breaking Arrow -->
 		<set name="itemConsumeCount" val="1"/>
 		<set name="castRange" val="900"/>
