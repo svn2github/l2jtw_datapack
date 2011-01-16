@@ -230,13 +230,13 @@ public class Blow implements ISkillHandler
 			{
 				if (activeChar instanceof L2PcInstance)
 				{
-					SystemMessage sm = new SystemMessage(SystemMessageId.C1_DODGES_ATTACK);
+					SystemMessage sm = SystemMessage.getSystemMessage(SystemMessageId.C1_DODGES_ATTACK);
 					sm.addString(target.getName());
 					((L2PcInstance) activeChar).sendPacket(sm);
 				}
 				if (target instanceof L2PcInstance)
 				{
-					SystemMessage sm = new SystemMessage(SystemMessageId.AVOIDED_C1_ATTACK);
+					SystemMessage sm = SystemMessage.getSystemMessage(SystemMessageId.AVOIDED_C1_ATTACK);
 					sm.addString(activeChar.getName());
 					((L2PcInstance) target).sendPacket(sm);
 				}
