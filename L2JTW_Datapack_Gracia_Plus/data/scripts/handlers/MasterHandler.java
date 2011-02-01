@@ -101,6 +101,7 @@ public class MasterHandler
 		AdminCommandHandler.getInstance().registerAdminCommandHandler(new AdminGeoEditor());
 		AdminCommandHandler.getInstance().registerAdminCommandHandler(new AdminGm());
 		AdminCommandHandler.getInstance().registerAdminCommandHandler(new AdminGmChat());
+		AdminCommandHandler.getInstance().registerAdminCommandHandler(new AdminGraciaSeeds());
 		AdminCommandHandler.getInstance().registerAdminCommandHandler(new AdminHeal());
 		AdminCommandHandler.getInstance().registerAdminCommandHandler(new AdminHelpPage());
 		AdminCommandHandler.getInstance().registerAdminCommandHandler(new AdminInstance());
