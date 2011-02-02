@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <list>
-	<item id="12500" type="EtcItem" name="Foundation Zubei's Helmet">
+	<item id="12500" type="EtcItem" name="渾沌的夏隆頭盔">
 		<set name="icon" val="icon.armor_helmet_i00" />
 		<set name="immediate_effect" val="1" />
 		<set name="crystal_type" val="b" />
@@ -11,7 +11,7 @@
 			<add order="0x10" stat="pDef" val="62" />
 		</for>
 	</item>
-	<item id="12501" type="EtcItem" name="Foundation Zubei's Breastplate">
+	<item id="12501" type="EtcItem" name="渾沌的夏隆胸甲">
 		<set name="icon" val="icon.armor_t64_u_i00" />
 		<set name="armor_type" val="heavy" />
 		<set name="immediate_effect" val="1" />
@@ -24,7 +24,7 @@
 			<add order="0x10" stat="pDef" val="157" />
 		</for>
 	</item>
-	<item id="12502" type="EtcItem" name="Foundation Avadon Gloves">
+	<item id="12502" type="EtcItem" name="渾沌的阿巴敦手套">
 		<set name="icon" val="icon.armor_t66_g_i00" />
 		<set name="immediate_effect" val="1" />
 		<set name="crystal_type" val="b" />
@@ -36,7 +36,7 @@
 			<add order="0x10" stat="pDef" val="41" />
 		</for>
 	</item>
-	<item id="12503" type="EtcItem" name="Foundation Avadon Gloves">
+	<item id="12503" type="EtcItem" name="渾沌的阿巴敦手套">
 		<set name="icon" val="icon.armor_t67_g_i00" />
 		<set name="immediate_effect" val="1" />
 		<set name="crystal_type" val="b" />
@@ -47,7 +47,7 @@
 			<add order="0x10" stat="pDef" val="41" />
 		</for>
 	</item>
-	<item id="12504" type="EtcItem" name="Foundation Avadon Gloves">
+	<item id="12504" type="EtcItem" name="渾沌的阿巴敦手套">
 		<set name="icon" val="icon.armor_t59_g_i00" />
 		<set name="immediate_effect" val="1" />
 		<set name="crystal_type" val="b" />
@@ -59,7 +59,7 @@
 			<add order="0x10" stat="pDef" val="41" />
 		</for>
 	</item>
-	<item id="12505" type="EtcItem" name="Foundation Avadon Leather Armor">
+	<item id="12505" type="EtcItem" name="渾沌的阿巴敦皮甲">
 		<set name="icon" val="icon.armor_t67_ul_i00" />
 		<set name="armor_type" val="light" />
 		<set name="immediate_effect" val="1" />
@@ -71,7 +71,7 @@
 			<add order="0x10" stat="pDef" val="191" />
 		</for>
 	</item>
-	<item id="12506" type="EtcItem" name="Foundation Avadon Robe">
+	<item id="12506" type="EtcItem" name="渾沌的阿巴敦長袍">
 		<set name="icon" val="icon.armor_t59_ul_i00" />
 		<set name="armor_type" val="magic" />
 		<set name="immediate_effect" val="1" />
@@ -85,7 +85,7 @@
 			<add order="0x40" stat="maxMp" val="345" />
 		</for>
 	</item>
-	<item id="12507" type="EtcItem" name="Foundation Avadon Boots">
+	<item id="12507" type="EtcItem" name="渾沌的阿巴敦靴">
 		<set name="icon" val="icon.armor_t66_b_i00" />
 		<set name="immediate_effect" val="1" />
 		<set name="crystal_type" val="b" />
@@ -97,7 +97,7 @@
 			<add order="0x10" stat="pDef" val="41" />
 		</for>
 	</item>
-	<item id="12508" type="EtcItem" name="Foundation Avadon Boots">
+	<item id="12508" type="EtcItem" name="渾沌的阿巴敦靴">
 		<set name="icon" val="icon.armor_t67_b_i00" />
 		<set name="immediate_effect" val="1" />
 		<set name="crystal_type" val="b" />
@@ -108,7 +108,7 @@
 			<add order="0x10" stat="pDef" val="41" />
 		</for>
 	</item>
-	<item id="12509" type="EtcItem" name="Foundation Avadon Boots">
+	<item id="12509" type="EtcItem" name="渾沌的阿巴敦靴">
 		<set name="icon" val="icon.armor_t59_b_i00" />
 		<set name="immediate_effect" val="1" />
 		<set name="crystal_type" val="b" />
@@ -120,7 +120,7 @@
 			<add order="0x10" stat="pDef" val="41" />
 		</for>
 	</item>
-	<item id="12510" type="EtcItem" name="Foundation Avadon Circlet">
+	<item id="12510" type="EtcItem" name="渾沌的阿巴敦頭箍">
 		<set name="icon" val="icon.armor_leather_helmet_i00" />
 		<set name="immediate_effect" val="1" />
 		<set name="crystal_type" val="b" />
@@ -131,7 +131,7 @@
 			<add order="0x10" stat="pDef" val="62" />
 		</for>
 	</item>
-	<item id="12511" type="EtcItem" name="Foundation Avadon Shield">
+	<item id="12511" type="EtcItem" name="渾沌的阿巴敦盾">
 		<set name="icon" val="icon.shield_avadon_shield_i00" />
 		<set name="avoid_modify" val="-8" />
 		<set name="immediate_effect" val="1" />
@@ -146,7 +146,7 @@
 			<set order="0x08" stat="sDef" val="216" />
 		</for>
 	</item>
-	<item id="12512" type="EtcItem" name="Foundation Avadon Gaiters">
+	<item id="12512" type="EtcItem" name="渾沌的阿巴敦脛甲">
 		<set name="icon" val="icon.armor_t66_l_i00" />
 		<set name="armor_type" val="heavy" />
 		<set name="immediate_effect" val="1" />
@@ -159,7 +159,7 @@
 			<add order="0x10" stat="pDef" val="98" />
 		</for>
 	</item>
-	<item id="12513" type="EtcItem" name="Foundation Avadon Breastplate">
+	<item id="12513" type="EtcItem" name="渾沌的阿巴敦胸甲">
 		<set name="icon" val="icon.armor_t66_u_i00" />
 		<set name="armor_type" val="heavy" />
 		<set name="immediate_effect" val="1" />
@@ -172,7 +172,7 @@
 			<add order="0x10" stat="pDef" val="157" />
 		</for>
 	</item>
-	<item id="12514" type="EtcItem" name="Foundation Tunic of Zubei">
+	<item id="12514" type="EtcItem" name="渾沌的夏隆外衣">
 		<set name="icon" val="icon.armor_t56_u_i00" />
 		<set name="armor_type" val="magic" />
 		<set name="immediate_effect" val="1" />
@@ -186,7 +186,7 @@
 			<add order="0x40" stat="maxMp" val="345" />
 		</for>
 	</item>
-	<item id="12515" type="EtcItem" name="Foundation Stockings of Zubei">
+	<item id="12515" type="EtcItem" name="渾沌的夏隆長襪">
 		<set name="icon" val="icon.armor_t56_l_i00" />
 		<set name="armor_type" val="magic" />
 		<set name="immediate_effect" val="1" />
@@ -200,7 +200,7 @@
 			<add order="0x40" stat="maxMp" val="216" />
 		</for>
 	</item>
-	<item id="12516" type="EtcItem" name="Foundation Doom Gloves">
+	<item id="12516" type="EtcItem" name="渾沌的末日手套">
 		<set name="icon" val="icon.armor_t71_g_i00" />
 		<set name="immediate_effect" val="1" />
 		<set name="crystal_type" val="b" />
@@ -212,7 +212,7 @@
 			<add order="0x10" stat="pDef" val="44" />
 		</for>
 	</item>
-	<item id="12517" type="EtcItem" name="Foundation Doom Gloves">
+	<item id="12517" type="EtcItem" name="渾沌的末日手套">
 		<set name="icon" val="icon.armor_t72_g_i00" />
 		<set name="immediate_effect" val="1" />
 		<set name="crystal_type" val="b" />
@@ -223,7 +223,7 @@
 			<add order="0x10" stat="pDef" val="44" />
 		</for>
 	</item>
-	<item id="12518" type="EtcItem" name="Foundation Doom Gloves">
+	<item id="12518" type="EtcItem" name="渾沌的末日手套">
 		<set name="icon" val="icon.armor_t73_g_i00" />
 		<set name="immediate_effect" val="1" />
 		<set name="crystal_type" val="b" />
@@ -235,7 +235,7 @@
 			<add order="0x10" stat="pDef" val="44" />
 		</for>
 	</item>
-	<item id="12519" type="EtcItem" name="Foundation Doom Boots">
+	<item id="12519" type="EtcItem" name="渾沌的末日靴">
 		<set name="icon" val="icon.armor_t71_b_i00" />
 		<set name="immediate_effect" val="1" />
 		<set name="crystal_type" val="b" />
@@ -247,7 +247,7 @@
 			<add order="0x10" stat="pDef" val="44" />
 		</for>
 	</item>
-	<item id="12520" type="EtcItem" name="Foundation Doom Boots">
+	<item id="12520" type="EtcItem" name="渾沌的末日靴">
 		<set name="icon" val="icon.armor_t72_b_i00" />
 		<set name="immediate_effect" val="1" />
 		<set name="crystal_type" val="b" />
@@ -258,7 +258,7 @@
 			<add order="0x10" stat="pDef" val="44" />
 		</for>
 	</item>
-	<item id="12521" type="EtcItem" name="Foundation Doom Boots">
+	<item id="12521" type="EtcItem" name="渾沌的末日靴">
 		<set name="icon" val="icon.armor_t73_b_i00" />
 		<set name="immediate_effect" val="1" />
 		<set name="crystal_type" val="b" />
@@ -270,7 +270,7 @@
 			<add order="0x10" stat="pDef" val="44" />
 		</for>
 	</item>
-	<item id="12522" type="EtcItem" name="Foundation Doom Shield">
+	<item id="12522" type="EtcItem" name="渾沌的末日盾">
 		<set name="icon" val="icon.shield_doom_shield_i00" />
 		<set name="avoid_modify" val="-8" />
 		<set name="immediate_effect" val="1" />
@@ -285,7 +285,7 @@
 			<set order="0x08" stat="sDef" val="230" />
 		</for>
 	</item>
-	<item id="12523" type="EtcItem" name="Foundation Doom Plate Armor">
+	<item id="12523" type="EtcItem" name="渾沌的末日金屬盔甲">
 		<set name="icon" val="icon.armor_t71_ul_i00" />
 		<set name="armor_type" val="heavy" />
 		<set name="immediate_effect" val="1" />
@@ -298,7 +298,7 @@
 			<add order="0x10" stat="pDef" val="270" />
 		</for>
 	</item>
-	<item id="12524" type="EtcItem" name="Foundation Doom Helmet">
+	<item id="12524" type="EtcItem" name="渾沌的末日頭盔">
 		<set name="icon" val="icon.armor_leather_helmet_i00" />
 		<set name="immediate_effect" val="1" />
 		<set name="crystal_type" val="b" />
@@ -309,7 +309,7 @@
 			<add order="0x10" stat="pDef" val="66" />
 		</for>
 	</item>
-	<item id="12525" type="EtcItem" name="Foundation Leather Armor of Doom">
+	<item id="12525" type="EtcItem" name="渾沌的末日皮甲">
 		<set name="icon" val="icon.armor_t72_ul_i00" />
 		<set name="armor_type" val="light" />
 		<set name="immediate_effect" val="1" />
@@ -321,7 +321,7 @@
 			<add order="0x10" stat="pDef" val="202" />
 		</for>
 	</item>
-	<item id="12526" type="EtcItem" name="Foundation Sealed Doom Gloves">
+	<item id="12526" type="EtcItem" name="渾沌的封印的末日手套">
 		<set name="icon" val="icon.armor_t71_g_i02" />
 		<set name="immediate_effect" val="1" />
 		<set name="crystal_type" val="b" />
@@ -332,7 +332,7 @@
 			<add order="0x10" stat="pDef" val="44" />
 		</for>
 	</item>
-	<item id="12527" type="EtcItem" name="Foundation Sealed Boots of Doom">
+	<item id="12527" type="EtcItem" name="渾沌的封印的末日靴">
 		<set name="icon" val="icon.armor_t71_b_i02" />
 		<set name="immediate_effect" val="1" />
 		<set name="crystal_type" val="b" />
@@ -343,7 +343,7 @@
 			<add order="0x10" stat="pDef" val="44" />
 		</for>
 	</item>
-	<item id="12528" type="EtcItem" name="Foundation Sealed Blue Wolf Boots">
+	<item id="12528" type="EtcItem" name="渾沌的封印的青狼長靴">
 		<set name="icon" val="icon.armor_t68_b_i02" />
 		<set name="immediate_effect" val="1" />
 		<set name="crystal_type" val="b" />
@@ -354,7 +354,7 @@
 			<add order="0x10" stat="pDef" val="44" />
 		</for>
 	</item>
-	<item id="12529" type="EtcItem" name="Foundation Sealed Blue Wolf Gloves">
+	<item id="12529" type="EtcItem" name="渾沌的封印的青狼手套">
 		<set name="icon" val="icon.armor_t68_g_i02" />
 		<set name="immediate_effect" val="1" />
 		<set name="crystal_type" val="b" />
@@ -365,7 +365,7 @@
 			<add order="0x10" stat="pDef" val="44" />
 		</for>
 	</item>
-	<item id="12530" type="EtcItem" name="Foundation Tunic of Doom">
+	<item id="12530" type="EtcItem" name="渾沌的末日外衣">
 		<set name="icon" val="icon.armor_t73_u_i00" />
 		<set name="armor_type" val="magic" />
 		<set name="immediate_effect" val="1" />
@@ -379,7 +379,7 @@
 			<add order="0x40" stat="maxMp" val="377" />
 		</for>
 	</item>
-	<item id="12531" type="EtcItem" name="Foundation Blue Wolf Gaiters">
+	<item id="12531" type="EtcItem" name="渾沌的青狼脛甲">
 		<set name="icon" val="icon.armor_t68_l_i00" />
 		<set name="armor_type" val="heavy" />
 		<set name="immediate_effect" val="1" />
@@ -392,7 +392,7 @@
 			<add order="0x10" stat="pDef" val="104" />
 		</for>
 	</item>
-	<item id="12532" type="EtcItem" name="Foundation Blue Wolf Leather Armor">
+	<item id="12532" type="EtcItem" name="渾沌的青狼皮甲">
 		<set name="icon" val="icon.armor_t69_ul_i00" />
 		<set name="armor_type" val="light" />
 		<set name="immediate_effect" val="1" />
@@ -404,7 +404,7 @@
 			<add order="0x10" stat="pDef" val="202" />
 		</for>
 	</item>
-	<item id="12533" type="EtcItem" name="Foundation Blue Wolf Boots">
+	<item id="12533" type="EtcItem" name="渾沌的青狼長靴">
 		<set name="icon" val="icon.armor_t68_b_i00" />
 		<set name="immediate_effect" val="1" />
 		<set name="crystal_type" val="b" />
@@ -416,7 +416,7 @@
 			<add order="0x10" stat="pDef" val="44" />
 		</for>
 	</item>
-	<item id="12534" type="EtcItem" name="Foundation Blue Wolf Boots">
+	<item id="12534" type="EtcItem" name="渾沌的青狼長靴">
 		<set name="icon" val="icon.armor_t69_b_i00" />
 		<set name="immediate_effect" val="1" />
 		<set name="crystal_type" val="b" />
@@ -427,7 +427,7 @@
 			<add order="0x10" stat="pDef" val="44" />
 		</for>
 	</item>
-	<item id="12535" type="EtcItem" name="Foundation Blue Wolf Boots">
+	<item id="12535" type="EtcItem" name="渾沌的青狼長靴">
 		<set name="icon" val="icon.armor_t70_b_i00" />
 		<set name="immediate_effect" val="1" />
 		<set name="crystal_type" val="b" />
@@ -439,7 +439,7 @@
 			<add order="0x10" stat="pDef" val="44" />
 		</for>
 	</item>
-	<item id="12536" type="EtcItem" name="Foundation Blue Wolf Gloves">
+	<item id="12536" type="EtcItem" name="渾沌的青狼手套">
 		<set name="icon" val="icon.armor_t68_g_i00" />
 		<set name="immediate_effect" val="1" />
 		<set name="crystal_type" val="b" />
@@ -451,7 +451,7 @@
 			<add order="0x10" stat="pDef" val="44" />
 		</for>
 	</item>
-	<item id="12537" type="EtcItem" name="Foundation Blue Wolf Gloves">
+	<item id="12537" type="EtcItem" name="渾沌的青狼手套">
 		<set name="icon" val="icon.armor_t69_g_i00" />
 		<set name="immediate_effect" val="1" />
 		<set name="crystal_type" val="b" />
@@ -462,7 +462,7 @@
 			<add order="0x10" stat="pDef" val="44" />
 		</for>
 	</item>
-	<item id="12538" type="EtcItem" name="Foundation Blue Wolf Gloves">
+	<item id="12538" type="EtcItem" name="渾沌的青狼手套">
 		<set name="icon" val="icon.armor_t70_g_i00" />
 		<set name="immediate_effect" val="1" />
 		<set name="crystal_type" val="b" />
@@ -474,7 +474,7 @@
 			<add order="0x10" stat="pDef" val="44" />
 		</for>
 	</item>
-	<item id="12539" type="EtcItem" name="Foundation Blue Wolf Tunic">
+	<item id="12539" type="EtcItem" name="渾沌的青狼外衣">
 		<set name="icon" val="icon.armor_t70_u_i00" />
 		<set name="armor_type" val="magic" />
 		<set name="immediate_effect" val="1" />
@@ -488,7 +488,7 @@
 			<add order="0x40" stat="maxMp" val="377" />
 		</for>
 	</item>
-	<item id="12540" type="EtcItem" name="Foundation Blue Wolf Helmet">
+	<item id="12540" type="EtcItem" name="渾沌的青狼頭盔">
 		<set name="icon" val="icon.armor_leather_helmet_i00" />
 		<set name="immediate_effect" val="1" />
 		<set name="crystal_type" val="b" />
@@ -499,7 +499,7 @@
 			<add order="0x10" stat="pDef" val="66" />
 		</for>
 	</item>
-	<item id="12541" type="EtcItem" name="Foundation Blue Wolf Stockings">
+	<item id="12541" type="EtcItem" name="渾沌的青狼長襪">
 		<set name="icon" val="icon.armor_t70_l_i00" />
 		<set name="armor_type" val="magic" />
 		<set name="immediate_effect" val="1" />
@@ -513,7 +513,7 @@
 			<add order="0x40" stat="maxMp" val="236" />
 		</for>
 	</item>
-	<item id="12542" type="EtcItem" name="Foundation Blue Wolf Breastplate">
+	<item id="12542" type="EtcItem" name="渾沌的青狼胸甲">
 		<set name="icon" val="icon.armor_t68_u_i00" />
 		<set name="armor_type" val="heavy" />
 		<set name="immediate_effect" val="1" />
@@ -526,7 +526,7 @@
 			<add order="0x10" stat="pDef" val="166" />
 		</for>
 	</item>
-	<item id="12543" type="EtcItem" name="Foundation Stockings of Doom">
+	<item id="12543" type="EtcItem" name="渾沌的末日長襪">
 		<set name="icon" val="icon.armor_t73_l_i00" />
 		<set name="armor_type" val="magic" />
 		<set name="immediate_effect" val="1" />
@@ -540,7 +540,7 @@
 			<add order="0x40" stat="maxMp" val="236" />
 		</for>
 	</item>
-	<item id="12544" type="EtcItem" name="Foundation Dark Crystal Gaiters">
+	<item id="12544" type="EtcItem" name="渾沌的黑暗水晶脛甲">
 		<set name="icon" val="icon.armor_t74_l_i00" />
 		<set name="armor_type" val="heavy" />
 		<set name="immediate_effect" val="1" />
@@ -553,7 +553,7 @@
 			<add order="0x10" stat="pDef" val="171" />
 		</for>
 	</item>
-	<item id="12545" type="EtcItem" name="Foundation Dark Crystal Gloves">
+	<item id="12545" type="EtcItem" name="渾沌的黑暗水晶手套">
 		<set name="icon" val="icon.armor_t74_g_i00" />
 		<set name="immediate_effect" val="1" />
 		<set name="crystal_type" val="a" />
@@ -565,7 +565,7 @@
 			<add order="0x10" stat="pDef" val="46" />
 		</for>
 	</item>
-	<item id="12546" type="EtcItem" name="Foundation Dark Crystal Gloves">
+	<item id="12546" type="EtcItem" name="渾沌的黑暗水晶手套">
 		<set name="icon" val="icon.armor_t75_g_i00" />
 		<set name="immediate_effect" val="1" />
 		<set name="crystal_type" val="a" />
@@ -576,7 +576,7 @@
 			<add order="0x10" stat="pDef" val="46" />
 		</for>
 	</item>
-	<item id="12547" type="EtcItem" name="Foundation Dark Crystal Gloves">
+	<item id="12547" type="EtcItem" name="渾沌的黑暗水晶手套">
 		<set name="icon" val="icon.armor_t76_g_i00" />
 		<set name="immediate_effect" val="1" />
 		<set name="crystal_type" val="a" />
@@ -588,7 +588,7 @@
 			<add order="0x10" stat="pDef" val="46" />
 		</for>
 	</item>
-	<item id="12548" type="EtcItem" name="Foundation Dark Crystal Leather Armor">
+	<item id="12548" type="EtcItem" name="渾沌的黑暗水晶皮甲">
 		<set name="icon" val="icon.armor_t75_u_i00" />
 		<set name="armor_type" val="light" />
 		<set name="immediate_effect" val="1" />
@@ -600,7 +600,7 @@
 			<add order="0x10" stat="pDef" val="128" />
 		</for>
 	</item>
-	<item id="12549" type="EtcItem" name="Foundation Dark Crystal Robe">
+	<item id="12549" type="EtcItem" name="渾沌的黑暗水晶長袍">
 		<set name="icon" val="icon.armor_t76_ul_i00" />
 		<set name="armor_type" val="magic" />
 		<set name="immediate_effect" val="1" />
@@ -614,7 +614,7 @@
 			<add order="0x40" stat="maxMp" val="665" />
 		</for>
 	</item>
-	<item id="12550" type="EtcItem" name="Foundation Dark Crystal Boots">
+	<item id="12550" type="EtcItem" name="渾沌的黑暗水晶靴">
 		<set name="icon" val="icon.armor_t74_b_i00" />
 		<set name="immediate_effect" val="1" />
 		<set name="crystal_type" val="a" />
@@ -626,7 +626,7 @@
 			<add order="0x10" stat="pDef" val="46" />
 		</for>
 	</item>
-	<item id="12551" type="EtcItem" name="Foundation Dark Crystal Boots">
+	<item id="12551" type="EtcItem" name="渾沌的黑暗水晶靴">
 		<set name="icon" val="icon.armor_t75_b_i00" />
 		<set name="immediate_effect" val="1" />
 		<set name="crystal_type" val="a" />
@@ -637,7 +637,7 @@
 			<add order="0x10" stat="pDef" val="46" />
 		</for>
 	</item>
-	<item id="12552" type="EtcItem" name="Foundation Dark Crystal Boots">
+	<item id="12552" type="EtcItem" name="渾沌的黑暗水晶靴">
 		<set name="icon" val="icon.armor_t76_b_i00" />
 		<set name="immediate_effect" val="1" />
 		<set name="crystal_type" val="a" />
@@ -649,7 +649,7 @@
 			<add order="0x10" stat="pDef" val="46" />
 		</for>
 	</item>
-	<item id="12553" type="EtcItem" name="Foundation Dark Crystal Shield">
+	<item id="12553" type="EtcItem" name="渾沌的黑暗水晶盾">
 		<set name="icon" val="icon.shield_dark_crystal_shield_i00" />
 		<set name="immediate_effect" val="1" />
 		<set name="crystal_type" val="a" />
@@ -661,7 +661,7 @@
 			<add order="0x10" stat="pDef" val="69" />
 		</for>
 	</item>
-	<item id="12554" type="EtcItem" name="Foundation Dark Crystal Helmet">
+	<item id="12554" type="EtcItem" name="渾沌的黑暗水晶頭盔">
 		<set name="icon" val="icon.armor_helmet_i00" />
 		<set name="immediate_effect" val="1" />
 		<set name="crystal_type" val="a" />
@@ -672,7 +672,7 @@
 			<add order="0x10" stat="pDef" val="69" />
 		</for>
 	</item>
-	<item id="12555" type="EtcItem" name="Foundation Dark Crystal Breastplate">
+	<item id="12555" type="EtcItem" name="渾沌的黑暗水晶胸甲">
 		<set name="icon" val="icon.armor_t74_u_i00" />
 		<set name="armor_type" val="heavy" />
 		<set name="immediate_effect" val="1" />
@@ -685,7 +685,7 @@
 			<add order="0x10" stat="pDef" val="171" />
 		</for>
 	</item>
-	<item id="12556" type="EtcItem" name="Foundation Dark Crystal Leggings">
+	<item id="12556" type="EtcItem" name="渾沌的黑暗水晶皮脛甲">
 		<set name="icon" val="icon.armor_t75_l_i00" />
 		<set name="armor_type" val="light" />
 		<set name="immediate_effect" val="1" />
@@ -697,7 +697,7 @@
 			<add order="0x10" stat="pDef" val="80" />
 		</for>
 	</item>
-	<item id="12557" type="EtcItem" name="Foundation Sealed Dark Crystal Gaiters">
+	<item id="12557" type="EtcItem" name="渾沌的封印的黑暗水晶脛甲">
 		<set name="icon" val="icon.armor_t74_l_i02" />
 		<set name="armor_type" val="heavy" />
 		<set name="immediate_effect" val="1" />
@@ -710,7 +710,7 @@
 			<add order="0x10" stat="pDef" val="107" />
 		</for>
 	</item>
-	<item id="12558" type="EtcItem" name="Foundation Sealed Dark Crystal Gloves">
+	<item id="12558" type="EtcItem" name="渾沌的封印的黑暗水晶手套">
 		<set name="icon" val="icon.armor_t74_g_i02" />
 		<set name="immediate_effect" val="1" />
 		<set name="crystal_type" val="a" />
@@ -721,7 +721,7 @@
 			<add order="0x10" stat="pDef" val="46" />
 		</for>
 	</item>
-	<item id="12559" type="EtcItem" name="Foundation Sealed Dark Crystal Leather Armor">
+	<item id="12559" type="EtcItem" name="渾沌的封印的黑暗水晶皮甲">
 		<set name="icon" val="icon.armor_t75_u_i02" />
 		<set name="armor_type" val="light" />
 		<set name="immediate_effect" val="1" />
@@ -733,7 +733,7 @@
 			<add order="0x10" stat="pDef" val="128" />
 		</for>
 	</item>
-	<item id="12560" type="EtcItem" name="Foundation Dark Crystal Robe">
+	<item id="12560" type="EtcItem" name="渾沌的封印的黑暗水晶長袍">
 		<set name="icon" val="icon.armor_t76_ul_i02" />
 		<set name="armor_type" val="magic" />
 		<set name="immediate_effect" val="1" />
@@ -747,7 +747,7 @@
 			<add order="0x40" stat="maxMp" val="665" />
 		</for>
 	</item>
-	<item id="12561" type="EtcItem" name="Foundation Sealed Dark Crystal Boots">
+	<item id="12561" type="EtcItem" name="渾沌的封印的黑暗水晶靴">
 		<set name="icon" val="icon.armor_t74_b_i02" />
 		<set name="immediate_effect" val="1" />
 		<set name="crystal_type" val="a" />
@@ -758,7 +758,7 @@
 			<add order="0x10" stat="pDef" val="46" />
 		</for>
 	</item>
-	<item id="12562" type="EtcItem" name="Foundation Sealed Dark Crystal Shield">
+	<item id="12562" type="EtcItem" name="渾沌的封印的黑暗水晶盾">
 		<set name="icon" val="icon.shield_dark_crystal_shield_i02" />
 		<set name="avoid_modify" val="-8" />
 		<set name="immediate_effect" val="1" />
@@ -773,7 +773,7 @@
 			<set order="0x08" stat="sDef" val="243" />
 		</for>
 	</item>
-	<item id="12563" type="EtcItem" name="Foundation Sealed Dark Crystal Helmet">
+	<item id="12563" type="EtcItem" name="渾沌的封印的黑暗水晶頭盔">
 		<set name="icon" val="icon.armor_helmet_i02" />
 		<set name="immediate_effect" val="1" />
 		<set name="crystal_type" val="a" />
@@ -784,7 +784,7 @@
 			<add order="0x10" stat="pDef" val="69" />
 		</for>
 	</item>
-	<item id="12564" type="EtcItem" name="Foundation Sealed Dark Crystal Breastplate">
+	<item id="12564" type="EtcItem" name="渾沌的封印的黑暗水晶胸甲">
 		<set name="icon" val="icon.armor_t74_u_i02" />
 		<set name="armor_type" val="heavy" />
 		<set name="immediate_effect" val="1" />
@@ -797,7 +797,7 @@
 			<add order="0x10" stat="pDef" val="171" />
 		</for>
 	</item>
-	<item id="12565" type="EtcItem" name="Foundation Sealed Dark Crystal Leggings">
+	<item id="12565" type="EtcItem" name="渾沌的封印的黑暗水晶皮脛甲">
 		<set name="icon" val="icon.armor_t75_l_i02" />
 		<set name="armor_type" val="light" />
 		<set name="immediate_effect" val="1" />
@@ -809,7 +809,7 @@
 			<add order="0x10" stat="pDef" val="128" />
 		</for>
 	</item>
-	<item id="12566" type="EtcItem" name="Foundation Sealed Tallum Gloves">
+	<item id="12566" type="EtcItem" name="渾沌的封印的塔魯手套">
 		<set name="icon" val="icon.armor_t77_g_i02" />
 		<set name="immediate_effect" val="1" />
 		<set name="crystal_type" val="a" />
@@ -820,7 +820,7 @@
 			<add order="0x10" stat="pDef" val="46" />
 		</for>
 	</item>
-	<item id="12567" type="EtcItem" name="Foundation Sealed Tallum Leather Armor">
+	<item id="12567" type="EtcItem" name="渾沌的封印的塔魯皮甲">
 		<set name="icon" val="icon.armor_t78_ul_i02" />
 		<set name="armor_type" val="light" />
 		<set name="immediate_effect" val="1" />
@@ -832,7 +832,7 @@
 			<add order="0x10" stat="pDef" val="209" />
 		</for>
 	</item>
-	<item id="12568" type="EtcItem" name="Foundation Sealed Tallum Boots">
+	<item id="12568" type="EtcItem" name="渾沌的封印的塔魯靴">
 		<set name="icon" val="icon.armor_t77_b_i02" />
 		<set name="immediate_effect" val="1" />
 		<set name="crystal_type" val="a" />
@@ -843,7 +843,7 @@
 			<add order="0x10" stat="pDef" val="46" />
 		</for>
 	</item>
-	<item id="12569" type="EtcItem" name="Foundation Sealed Tallum Tunic">
+	<item id="12569" type="EtcItem" name="渾沌的封印的塔魯外衣">
 		<set name="icon" val="icon.armor_t79_u_i02" />
 		<set name="armor_type" val="magic" />
 		<set name="immediate_effect" val="1" />
@@ -857,7 +857,7 @@
 			<add order="0x40" stat="maxMp" val="409" />
 		</for>
 	</item>
-	<item id="12570" type="EtcItem" name="Foundation Sealed Tallum Plate Armor">
+	<item id="12570" type="EtcItem" name="渾沌的封印的塔魯金屬盔甲">
 		<set name="icon" val="icon.armor_t77_ul_i02" />
 		<set name="armor_type" val="heavy" />
 		<set name="immediate_effect" val="1" />
@@ -870,7 +870,7 @@
 			<add order="0x10" stat="pDef" val="278" />
 		</for>
 	</item>
-	<item id="12571" type="EtcItem" name="Foundation Sealed Tallum Helmet">
+	<item id="12571" type="EtcItem" name="渾沌的封印的塔魯帽">
 		<set name="icon" val="icon.armor_helmet_i02" />
 		<set name="immediate_effect" val="1" />
 		<set name="crystal_type" val="a" />
@@ -881,7 +881,7 @@
 			<add order="0x10" stat="pDef" val="69" />
 		</for>
 	</item>
-	<item id="12572" type="EtcItem" name="Foundation Sealed Tallum Stockings">
+	<item id="12572" type="EtcItem" name="渾沌的封印的塔魯長襪">
 		<set name="icon" val="icon.armor_t79_l_i02" />
 		<set name="armor_type" val="magic" />
 		<set name="immediate_effect" val="1" />
@@ -895,7 +895,7 @@
 			<add order="0x40" stat="maxMp" val="256" />
 		</for>
 	</item>
-	<item id="12573" type="EtcItem" name="(Not In Use) Chaotic Holy Spirit's Cloak">
+	<item id="12573" type="EtcItem" name="(不使用)渾沌的聖靈斗篷">
 		<set name="icon" val="icon.armor_back09" />
 		<set name="immediate_effect" val="1" />
 		<set name="crystal_type" val="a" />
@@ -906,7 +906,7 @@
 			<add order="0x10" stat="pDef" val="18" />
 		</for>
 	</item>
-	<item id="12574" type="EtcItem" name="Foundation Tallum Gloves">
+	<item id="12574" type="EtcItem" name="渾沌的塔魯手套">
 		<set name="icon" val="icon.armor_t77_g_i00" />
 		<set name="immediate_effect" val="1" />
 		<set name="crystal_type" val="a" />
@@ -918,7 +918,7 @@
 			<add order="0x10" stat="pDef" val="46" />
 		</for>
 	</item>
-	<item id="12575" type="EtcItem" name="Foundation Tallum Gloves">
+	<item id="12575" type="EtcItem" name="渾沌的塔魯手套">
 		<set name="icon" val="icon.armor_t78_g_i00" />
 		<set name="immediate_effect" val="1" />
 		<set name="crystal_type" val="a" />
@@ -929,7 +929,7 @@
 			<add order="0x10" stat="pDef" val="46" />
 		</for>
 	</item>
-	<item id="12576" type="EtcItem" name="Foundation Tallum Gloves">
+	<item id="12576" type="EtcItem" name="渾沌的塔魯手套">
 		<set name="icon" val="icon.armor_t79_g_i00" />
 		<set name="immediate_effect" val="1" />
 		<set name="crystal_type" val="a" />
@@ -941,7 +941,7 @@
 			<add order="0x10" stat="pDef" val="46" />
 		</for>
 	</item>
-	<item id="12577" type="EtcItem" name="Foundation Tallum Leather Armor">
+	<item id="12577" type="EtcItem" name="渾沌的塔魯皮甲">
 		<set name="icon" val="icon.armor_t78_ul_i00" />
 		<set name="armor_type" val="light" />
 		<set name="immediate_effect" val="1" />
@@ -953,7 +953,7 @@
 			<add order="0x10" stat="pDef" val="209" />
 		</for>
 	</item>
-	<item id="12578" type="EtcItem" name="Foundation Tallum Boots">
+	<item id="12578" type="EtcItem" name="渾沌的塔魯靴">
 		<set name="icon" val="icon.armor_t77_b_i00" />
 		<set name="immediate_effect" val="1" />
 		<set name="crystal_type" val="a" />
@@ -965,7 +965,7 @@
 			<add order="0x10" stat="pDef" val="46" />
 		</for>
 	</item>
-	<item id="12579" type="EtcItem" name="Foundation Tallum Boots">
+	<item id="12579" type="EtcItem" name="渾沌的塔魯靴">
 		<set name="icon" val="icon.armor_t78_b_i00" />
 		<set name="immediate_effect" val="1" />
 		<set name="crystal_type" val="a" />
@@ -976,7 +976,7 @@
 			<add order="0x10" stat="pDef" val="46" />
 		</for>
 	</item>
-	<item id="12580" type="EtcItem" name="Foundation Tallum Boots">
+	<item id="12580" type="EtcItem" name="渾沌的塔魯靴">
 		<set name="icon" val="icon.armor_t79_b_i00" />
 		<set name="immediate_effect" val="1" />
 		<set name="crystal_type" val="a" />
@@ -988,7 +988,7 @@
 			<add order="0x10" stat="pDef" val="46" />
 		</for>
 	</item>
-	<item id="12581" type="EtcItem" name="Foundation Tallum Tunic">
+	<item id="12581" type="EtcItem" name="渾沌的塔魯外衣">
 		<set name="icon" val="icon.armor_t79_u_i00" />
 		<set name="armor_type" val="magic" />
 		<set name="immediate_effect" val="1" />
@@ -1002,7 +1002,7 @@
 			<add order="0x40" stat="maxMp" val="409" />
 		</for>
 	</item>
-	<item id="12582" type="EtcItem" name="Foundation Tallum Plate Armor">
+	<item id="12582" type="EtcItem" name="渾沌的塔魯金屬盔甲">
 		<set name="icon" val="icon.armor_t77_ul_i00" />
 		<set name="armor_type" val="heavy" />
 		<set name="immediate_effect" val="1" />
@@ -1015,7 +1015,7 @@
 			<add order="0x10" stat="pDef" val="278" />
 		</for>
 	</item>
-	<item id="12583" type="EtcItem" name="Foundation Tallum Helmet">
+	<item id="12583" type="EtcItem" name="渾沌的塔魯帽">
 		<set name="icon" val="icon.armor_helmet_i00" />
 		<set name="immediate_effect" val="1" />
 		<set name="crystal_type" val="a" />
@@ -1026,7 +1026,7 @@
 			<add order="0x10" stat="pDef" val="69" />
 		</for>
 	</item>
-	<item id="12584" type="EtcItem" name="Foundation Tallum Stockings">
+	<item id="12584" type="EtcItem" name="渾沌的塔魯長襪">
 		<set name="icon" val="icon.armor_t79_l_i00" />
 		<set name="armor_type" val="magic" />
 		<set name="immediate_effect" val="1" />
@@ -1040,7 +1040,7 @@
 			<add order="0x40" stat="maxMp" val="256" />
 		</for>
 	</item>
-	<item id="12585" type="EtcItem" name="Foundation Majestic Gauntlet">
+	<item id="12585" type="EtcItem" name="渾沌的聖威手套">
 		<set name="icon" val="icon.armor_t83_g_i00" />
 		<set name="immediate_effect" val="1" />
 		<set name="crystal_type" val="a" />
@@ -1052,7 +1052,7 @@
 			<add order="0x10" stat="pDef" val="49" />
 		</for>
 	</item>
-	<item id="12586" type="EtcItem" name="Foundation Majestic Gauntlet">
+	<item id="12586" type="EtcItem" name="渾沌的聖威手套">
 		<set name="icon" val="icon.armor_t84_g_i00" />
 		<set name="immediate_effect" val="1" />
 		<set name="crystal_type" val="a" />
@@ -1063,7 +1063,7 @@
 			<add order="0x10" stat="pDef" val="49" />
 		</for>
 	</item>
-	<item id="12587" type="EtcItem" name="Foundation Majestic Gauntlet">
+	<item id="12587" type="EtcItem" name="渾沌的聖威手套">
 		<set name="icon" val="icon.armor_t85_g_i00" />
 		<set name="immediate_effect" val="1" />
 		<set name="crystal_type" val="a" />
@@ -1075,7 +1075,7 @@
 			<add order="0x10" stat="pDef" val="49" />
 		</for>
 	</item>
-	<item id="12588" type="EtcItem" name="Foundation Majestic Leather Armor">
+	<item id="12588" type="EtcItem" name="渾沌的聖威皮甲">
 		<set name="icon" val="icon.armor_t84_ul_i00" />
 		<set name="armor_type" val="light" />
 		<set name="immediate_effect" val="1" />
@@ -1087,7 +1087,7 @@
 			<add order="0x10" stat="pDef" val="220" />
 		</for>
 	</item>
-	<item id="12589" type="EtcItem" name="Foundation Majestic Robe">
+	<item id="12589" type="EtcItem" name="渾沌的聖威長袍">
 		<set name="icon" val="icon.armor_t85_ul_i00" />
 		<set name="armor_type" val="magic" />
 		<set name="immediate_effect" val="1" />
@@ -1101,7 +1101,7 @@
 			<add order="0x40" stat="maxMp" val="718" />
 		</for>
 	</item>
-	<item id="12590" type="EtcItem" name="Foundation Majestic Boots">
+	<item id="12590" type="EtcItem" name="渾沌的聖威靴">
 		<set name="icon" val="icon.armor_t83_b_i00" />
 		<set name="immediate_effect" val="1" />
 		<set name="crystal_type" val="a" />
@@ -1113,7 +1113,7 @@
 			<add order="0x10" stat="pDef" val="49" />
 		</for>
 	</item>
-	<item id="12591" type="EtcItem" name="Foundation Majestic Boots">
+	<item id="12591" type="EtcItem" name="渾沌的聖威靴">
 		<set name="icon" val="icon.armor_t84_b_i00" />
 		<set name="immediate_effect" val="1" />
 		<set name="crystal_type" val="a" />
@@ -1124,7 +1124,7 @@
 			<add order="0x10" stat="pDef" val="49" />
 		</for>
 	</item>
-	<item id="12592" type="EtcItem" name="Foundation Majestic Boots">
+	<item id="12592" type="EtcItem" name="渾沌的聖威靴">
 		<set name="icon" val="icon.armor_t85_b_i00" />
 		<set name="immediate_effect" val="1" />
 		<set name="crystal_type" val="a" />
@@ -1136,7 +1136,7 @@
 			<add order="0x10" stat="pDef" val="49" />
 		</for>
 	</item>
-	<item id="12593" type="EtcItem" name="Foundation Majestic Circlet">
+	<item id="12593" type="EtcItem" name="渾沌的聖威頭箍">
 		<set name="icon" val="icon.armor_leather_helmet_i00" />
 		<set name="immediate_effect" val="1" />
 		<set name="crystal_type" val="a" />
@@ -1147,7 +1147,7 @@
 			<add order="0x10" stat="pDef" val="73" />
 		</for>
 	</item>
-	<item id="12594" type="EtcItem" name="Foundation Majestic Plate Armor">
+	<item id="12594" type="EtcItem" name="渾沌的聖威金屬盔甲">
 		<set name="icon" val="icon.armor_t83_ul_i00" />
 		<set name="armor_type" val="heavy" />
 		<set name="immediate_effect" val="1" />
@@ -1160,7 +1160,7 @@
 			<add order="0x10" stat="pDef" val="293" />
 		</for>
 	</item>
-	<item id="12595" type="EtcItem" name="Foundation Sealed Majestic Gauntlet">
+	<item id="12595" type="EtcItem" name="渾沌的封印的聖威手套">
 		<set name="icon" val="icon.armor_t83_g_i02" />
 		<set name="immediate_effect" val="1" />
 		<set name="crystal_type" val="a" />
@@ -1171,7 +1171,7 @@
 			<add order="0x10" stat="pDef" val="49" />
 		</for>
 	</item>
-	<item id="12596" type="EtcItem" name="Foundation Sealed Majestic Leather Armor">
+	<item id="12596" type="EtcItem" name="渾沌的封印的聖威皮甲">
 		<set name="icon" val="icon.armor_t84_ul_i02" />
 		<set name="armor_type" val="light" />
 		<set name="immediate_effect" val="1" />
@@ -1183,7 +1183,7 @@
 			<add order="0x10" stat="pDef" val="220" />
 		</for>
 	</item>
-	<item id="12597" type="EtcItem" name="Foundation Sealed Majestic Robe">
+	<item id="12597" type="EtcItem" name="渾沌的封印的聖威長袍">
 		<set name="icon" val="icon.armor_t85_ul_i02" />
 		<set name="armor_type" val="magic" />
 		<set name="immediate_effect" val="1" />
@@ -1197,7 +1197,7 @@
 			<add order="0x40" stat="maxMp" val="718" />
 		</for>
 	</item>
-	<item id="12598" type="EtcItem" name="Foundation Sealed Majestic Boots">
+	<item id="12598" type="EtcItem" name="渾沌的封印的聖威靴">
 		<set name="icon" val="icon.armor_t83_b_i02" />
 		<set name="immediate_effect" val="1" />
 		<set name="crystal_type" val="a" />
@@ -1208,7 +1208,7 @@
 			<add order="0x10" stat="pDef" val="49" />
 		</for>
 	</item>
-	<item id="12599" type="EtcItem" name="Foundation Sealed Majestic Circlet">
+	<item id="12599" type="EtcItem" name="渾沌的封印的聖威頭箍">
 		<set name="icon" val="icon.armor_leather_helmet_i02" />
 		<set name="immediate_effect" val="1" />
 		<set name="crystal_type" val="a" />

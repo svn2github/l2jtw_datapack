@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <list>
-	<item id="8000" type="EtcItem" name="Dawn Mercenary Posting Ticket (Bow/Stationary)">
+	<item id="8000" type="EtcItem" name="黎明傭兵配置表(弓/固定)">
 		<set name="icon" val="icon.mticket_bow_fix_i00" />
 		<set name="etcitem_type" val="castle_guard" />
 		<set name="immediate_effect" val="1" />
@@ -9,7 +9,7 @@
 		<set name="is_stackable" val="true" />
 		<set name="handler" val="MercTicket" />
 	</item>
-	<item id="8001" type="EtcItem" name="Dawn Mercenary Posting Ticket (Cleric/Stationary)">
+	<item id="8001" type="EtcItem" name="黎明傭兵配置表(牧師/固定)">
 		<set name="icon" val="icon.mticket_cleric_fix_i00" />
 		<set name="etcitem_type" val="castle_guard" />
 		<set name="immediate_effect" val="1" />
@@ -18,7 +18,7 @@
 		<set name="is_stackable" val="true" />
 		<set name="handler" val="MercTicket" />
 	</item>
-	<item id="8002" type="EtcItem" name="Dawn Mercenary Posting Ticket (Wizard/Stationary)">
+	<item id="8002" type="EtcItem" name="黎明傭兵配置表(巫師/固定)">
 		<set name="icon" val="icon.mticket_wizard_fix_i00" />
 		<set name="etcitem_type" val="castle_guard" />
 		<set name="immediate_effect" val="1" />
@@ -27,7 +27,7 @@
 		<set name="is_stackable" val="true" />
 		<set name="handler" val="MercTicket" />
 	</item>
-	<item id="8003" type="EtcItem" name="Dawn Mercenary Posting Ticket (Sword/Mobile)">
+	<item id="8003" type="EtcItem" name="黎明傭兵配置表(劍/移動)">
 		<set name="icon" val="icon.mticket_sword_move_i00" />
 		<set name="etcitem_type" val="castle_guard" />
 		<set name="immediate_effect" val="1" />
@@ -36,7 +36,7 @@
 		<set name="is_stackable" val="true" />
 		<set name="handler" val="MercTicket" />
 	</item>
-	<item id="8004" type="EtcItem" name="Dawn Mercenary Posting Ticket (Spear/Mobile)">
+	<item id="8004" type="EtcItem" name="黎明傭兵配置表(槍/移動)">
 		<set name="icon" val="icon.mticket_pole_move_i00" />
 		<set name="etcitem_type" val="castle_guard" />
 		<set name="immediate_effect" val="1" />
@@ -45,7 +45,7 @@
 		<set name="is_stackable" val="true" />
 		<set name="handler" val="MercTicket" />
 	</item>
-	<item id="8005" type="EtcItem" name="Dawn Mercenary Posting Ticket (Bow/Mobile)">
+	<item id="8005" type="EtcItem" name="黎明傭兵配置表(弓/移動)">
 		<set name="icon" val="icon.mticket_bow_move_i00" />
 		<set name="etcitem_type" val="castle_guard" />
 		<set name="immediate_effect" val="1" />
@@ -54,7 +54,7 @@
 		<set name="is_stackable" val="true" />
 		<set name="handler" val="MercTicket" />
 	</item>
-	<item id="8006" type="EtcItem" name="Dawn Mercenary Posting Ticket (Cleric/Mobile)">
+	<item id="8006" type="EtcItem" name="黎明傭兵配置表(牧師/移動)">
 		<set name="icon" val="icon.mticket_cleric_move_i00" />
 		<set name="etcitem_type" val="castle_guard" />
 		<set name="immediate_effect" val="1" />
@@ -63,7 +63,7 @@
 		<set name="is_stackable" val="true" />
 		<set name="handler" val="MercTicket" />
 	</item>
-	<item id="8007" type="EtcItem" name="Dawn Mercenary Posting Ticket (Wizard/Mobile)">
+	<item id="8007" type="EtcItem" name="黎明傭兵配置表(巫師/移動)">
 		<set name="icon" val="icon.mticket_wizard_move_i00" />
 		<set name="etcitem_type" val="castle_guard" />
 		<set name="immediate_effect" val="1" />
@@ -72,7 +72,7 @@
 		<set name="is_stackable" val="true" />
 		<set name="handler" val="MercTicket" />
 	</item>
-	<item id="8008" type="EtcItem" name="Greater Recruit Posting Ticket (Sword/Stationary)">
+	<item id="8008" type="EtcItem" name="高級訓練兵配置表(劍/固定)">
 		<set name="icon" val="icon.mticket_sword_fix_i00" />
 		<set name="etcitem_type" val="castle_guard" />
 		<set name="immediate_effect" val="1" />
@@ -81,7 +81,7 @@
 		<set name="is_stackable" val="true" />
 		<set name="handler" val="MercTicket" />
 	</item>
-	<item id="8009" type="EtcItem" name="Greater Recruit Posting Ticket (Spear/Stationary)">
+	<item id="8009" type="EtcItem" name="高級訓練兵配置表(槍/固定)">
 		<set name="icon" val="icon.mticket_pole_fix_i00" />
 		<set name="etcitem_type" val="castle_guard" />
 		<set name="immediate_effect" val="1" />
@@ -90,7 +90,7 @@
 		<set name="is_stackable" val="true" />
 		<set name="handler" val="MercTicket" />
 	</item>
-	<item id="8010" type="EtcItem" name="Greater Recruit Posting Ticket (Bow/Stationary)">
+	<item id="8010" type="EtcItem" name="高級訓練兵配置表(弓/固定)">
 		<set name="icon" val="icon.mticket_bow_fix_i00" />
 		<set name="etcitem_type" val="castle_guard" />
 		<set name="immediate_effect" val="1" />
@@ -99,7 +99,7 @@
 		<set name="is_stackable" val="true" />
 		<set name="handler" val="MercTicket" />
 	</item>
-	<item id="8011" type="EtcItem" name="Greater Recruit Posting Ticket (Cleric/Stationary)">
+	<item id="8011" type="EtcItem" name="高級訓練兵配置表(牧師/固定)">
 		<set name="icon" val="icon.mticket_cleric_fix_i00" />
 		<set name="etcitem_type" val="castle_guard" />
 		<set name="immediate_effect" val="1" />
@@ -108,7 +108,7 @@
 		<set name="is_stackable" val="true" />
 		<set name="handler" val="MercTicket" />
 	</item>
-	<item id="8012" type="EtcItem" name="Greater Recruit Posting Ticket (Wizard/Stationary)">
+	<item id="8012" type="EtcItem" name="高級訓練兵配置表(巫師/固定)">
 		<set name="icon" val="icon.mticket_wizard_fix_i00" />
 		<set name="etcitem_type" val="castle_guard" />
 		<set name="immediate_effect" val="1" />
@@ -117,7 +117,7 @@
 		<set name="is_stackable" val="true" />
 		<set name="handler" val="MercTicket" />
 	</item>
-	<item id="8013" type="EtcItem" name="Greater Recruit Posting Ticket (Sword/Mobile)">
+	<item id="8013" type="EtcItem" name="高級訓練兵配置表(劍/移動)">
 		<set name="icon" val="icon.mticket_sword_move_i00" />
 		<set name="etcitem_type" val="castle_guard" />
 		<set name="immediate_effect" val="1" />
@@ -126,7 +126,7 @@
 		<set name="is_stackable" val="true" />
 		<set name="handler" val="MercTicket" />
 	</item>
-	<item id="8014" type="EtcItem" name="Greater Recruit Posting Ticket (Spear/Mobile)">
+	<item id="8014" type="EtcItem" name="高級訓練兵配置表(槍/移動)">
 		<set name="icon" val="icon.mticket_pole_move_i00" />
 		<set name="etcitem_type" val="castle_guard" />
 		<set name="immediate_effect" val="1" />
@@ -135,7 +135,7 @@
 		<set name="is_stackable" val="true" />
 		<set name="handler" val="MercTicket" />
 	</item>
-	<item id="8015" type="EtcItem" name="Greater Recruit Posting Ticket (Bow/Mobile)">
+	<item id="8015" type="EtcItem" name="高級訓練兵配置表(弓/移動)">
 		<set name="icon" val="icon.mticket_bow_move_i00" />
 		<set name="etcitem_type" val="castle_guard" />
 		<set name="immediate_effect" val="1" />
@@ -144,7 +144,7 @@
 		<set name="is_stackable" val="true" />
 		<set name="handler" val="MercTicket" />
 	</item>
-	<item id="8016" type="EtcItem" name="Greater Recruit Posting Ticket (Cleric/Mobile)">
+	<item id="8016" type="EtcItem" name="高級訓練兵配置表(牧師/移動)">
 		<set name="icon" val="icon.mticket_cleric_move_i00" />
 		<set name="etcitem_type" val="castle_guard" />
 		<set name="immediate_effect" val="1" />
@@ -153,7 +153,7 @@
 		<set name="is_stackable" val="true" />
 		<set name="handler" val="MercTicket" />
 	</item>
-	<item id="8017" type="EtcItem" name="Greater Recruit Posting Ticket (Wizard/Mobile)">
+	<item id="8017" type="EtcItem" name="高級訓練兵配置表(巫師/移動)">
 		<set name="icon" val="icon.mticket_wizard_move_i00" />
 		<set name="etcitem_type" val="castle_guard" />
 		<set name="immediate_effect" val="1" />
@@ -162,7 +162,7 @@
 		<set name="is_stackable" val="true" />
 		<set name="handler" val="MercTicket" />
 	</item>
-	<item id="8018" type="EtcItem" name="Recruit Posting Ticket (Sword/Stationary)">
+	<item id="8018" type="EtcItem" name="訓練兵配置表(劍/固定)">
 		<set name="icon" val="icon.mticket_sword_fix_i00" />
 		<set name="etcitem_type" val="castle_guard" />
 		<set name="immediate_effect" val="1" />
@@ -171,7 +171,7 @@
 		<set name="is_stackable" val="true" />
 		<set name="handler" val="MercTicket" />
 	</item>
-	<item id="8019" type="EtcItem" name="Recruit Posting Ticket (Spear/Stationary)">
+	<item id="8019" type="EtcItem" name="訓練兵配置表(槍/固定)">
 		<set name="icon" val="icon.mticket_pole_fix_i00" />
 		<set name="etcitem_type" val="castle_guard" />
 		<set name="immediate_effect" val="1" />
@@ -180,7 +180,7 @@
 		<set name="is_stackable" val="true" />
 		<set name="handler" val="MercTicket" />
 	</item>
-	<item id="8020" type="EtcItem" name="Recruit Posting Ticket (Bow/Stationary)">
+	<item id="8020" type="EtcItem" name="訓練兵配置表(弓/固定)">
 		<set name="icon" val="icon.mticket_bow_fix_i00" />
 		<set name="etcitem_type" val="castle_guard" />
 		<set name="immediate_effect" val="1" />
@@ -189,7 +189,7 @@
 		<set name="is_stackable" val="true" />
 		<set name="handler" val="MercTicket" />
 	</item>
-	<item id="8021" type="EtcItem" name="Recruit Posting Ticket (Cleric/Stationary)">
+	<item id="8021" type="EtcItem" name="訓練兵配置表(牧師/固定)">
 		<set name="icon" val="icon.mticket_cleric_fix_i00" />
 		<set name="etcitem_type" val="castle_guard" />
 		<set name="immediate_effect" val="1" />
@@ -198,7 +198,7 @@
 		<set name="is_stackable" val="true" />
 		<set name="handler" val="MercTicket" />
 	</item>
-	<item id="8022" type="EtcItem" name="Recruit Posting Ticket (Wizard/Stationary)">
+	<item id="8022" type="EtcItem" name="訓練兵配置表(巫師/固定)">
 		<set name="icon" val="icon.mticket_wizard_fix_i00" />
 		<set name="etcitem_type" val="castle_guard" />
 		<set name="immediate_effect" val="1" />
@@ -207,7 +207,7 @@
 		<set name="is_stackable" val="true" />
 		<set name="handler" val="MercTicket" />
 	</item>
-	<item id="8023" type="EtcItem" name="Recruit Posting Ticket (Sword/Mobile)">
+	<item id="8023" type="EtcItem" name="訓練兵配置表(劍/移動)">
 		<set name="icon" val="icon.mticket_sword_move_i00" />
 		<set name="etcitem_type" val="castle_guard" />
 		<set name="immediate_effect" val="1" />
@@ -216,7 +216,7 @@
 		<set name="is_stackable" val="true" />
 		<set name="handler" val="MercTicket" />
 	</item>
-	<item id="8024" type="EtcItem" name="Recruit Posting Ticket (Spear/Mobile)">
+	<item id="8024" type="EtcItem" name="訓練兵配置表(槍/移動)">
 		<set name="icon" val="icon.mticket_pole_move_i00" />
 		<set name="etcitem_type" val="castle_guard" />
 		<set name="immediate_effect" val="1" />
@@ -225,7 +225,7 @@
 		<set name="is_stackable" val="true" />
 		<set name="handler" val="MercTicket" />
 	</item>
-	<item id="8025" type="EtcItem" name="Recruit Posting Ticket (Bow/Mobile)">
+	<item id="8025" type="EtcItem" name="訓練兵配置表(弓/移動)">
 		<set name="icon" val="icon.mticket_bow_move_i00" />
 		<set name="etcitem_type" val="castle_guard" />
 		<set name="immediate_effect" val="1" />
@@ -234,7 +234,7 @@
 		<set name="is_stackable" val="true" />
 		<set name="handler" val="MercTicket" />
 	</item>
-	<item id="8026" type="EtcItem" name="Recruit Posting Ticket (Cleric/Mobile)">
+	<item id="8026" type="EtcItem" name="訓練兵配置表(牧師/移動)">
 		<set name="icon" val="icon.mticket_cleric_move_i00" />
 		<set name="etcitem_type" val="castle_guard" />
 		<set name="immediate_effect" val="1" />
@@ -243,7 +243,7 @@
 		<set name="is_stackable" val="true" />
 		<set name="handler" val="MercTicket" />
 	</item>
-	<item id="8027" type="EtcItem" name="Recruit Posting Ticket (Wizard/Mobile)">
+	<item id="8027" type="EtcItem" name="訓練兵配置表(巫師/移動)">
 		<set name="icon" val="icon.mticket_wizard_move_i00" />
 		<set name="etcitem_type" val="castle_guard" />
 		<set name="immediate_effect" val="1" />
@@ -252,7 +252,7 @@
 		<set name="is_stackable" val="true" />
 		<set name="handler" val="MercTicket" />
 	</item>
-	<item id="8028" type="EtcItem" name="Nephilim Warrior Posting Ticket">
+	<item id="8028" type="EtcItem" name="那芙琳戰士配置表">
 		<set name="icon" val="icon.mticket_sword_move_i00" />
 		<set name="etcitem_type" val="castle_guard" />
 		<set name="immediate_effect" val="1" />
@@ -261,7 +261,7 @@
 		<set name="is_stackable" val="true" />
 		<set name="handler" val="MercTicket" />
 	</item>
-	<item id="8029" type="EtcItem" name="Nephilim Shaman Posting Ticket">
+	<item id="8029" type="EtcItem" name="那芙琳咒術士配置表">
 		<set name="icon" val="icon.mticket_wizard_move_i00" />
 		<set name="etcitem_type" val="castle_guard" />
 		<set name="immediate_effect" val="1" />
@@ -270,7 +270,7 @@
 		<set name="is_stackable" val="true" />
 		<set name="handler" val="MercTicket" />
 	</item>
-	<item id="8030" type="EtcItem" name="Hot Spring Nectar">
+	<item id="8030" type="EtcItem" name="溫泉神酒">
 		<set name="icon" val="icon.etc_hot_spring_nectar_i00" />
 		<set name="default_action" val="skill_reduce" />
 		<set name="material" val="steel" />
@@ -281,7 +281,7 @@
 		<set name="is_stackable" val="true" />
 		<set name="item_skill" val="2240-1" />
 	</item>
-	<item id="8031" type="EtcItem" name="Hot Spring Mineral Water">
+	<item id="8031" type="EtcItem" name="溫泉礦泉水">
 		<set name="icon" val="icon.etc_hot_spring_mineral_i00" />
 		<set name="default_action" val="skill_reduce" />
 		<set name="material" val="steel" />
@@ -292,7 +292,7 @@
 		<set name="is_stackable" val="true" />
 		<set name="item_skill" val="2241-1" />
 	</item>
-	<item id="8032" type="EtcItem" name="Hot Spring Water">
+	<item id="8032" type="EtcItem" name="溫泉湧泉水">
 		<set name="icon" val="icon.etc_hot_spring_fountain_i00" />
 		<set name="default_action" val="skill_reduce" />
 		<set name="material" val="steel" />
@@ -303,7 +303,7 @@
 		<set name="is_stackable" val="true" />
 		<set name="item_skill" val="2242-1" />
 	</item>
-	<item id="8033" type="EtcItem" name="Hot Spring Sulfur">
+	<item id="8033" type="EtcItem" name="溫泉硫磺">
 		<set name="icon" val="icon.etc_hot_spring_sulfur_i00" />
 		<set name="default_action" val="skill_reduce" />
 		<set name="material" val="steel" />
@@ -314,13 +314,13 @@
 		<set name="is_stackable" val="true" />
 		<set name="item_skill" val="2243-1" />
 	</item>
-	<item id="8034" type="EtcItem" name="Rainbow Springs Clan Hall War Decree">
+	<item id="8034" type="EtcItem" name="溫泉根據地爭奪參賽證">
 		<set name="icon" val="icon.etc_hs_agit_war_joining_certificate_i00" />
 		<set name="immediate_effect" val="1" />
 		<set name="material" val="steel" />
 		<set name="is_stackable" val="true" />
 	</item>
-	<item id="8035" type="EtcItem" name="Hot Spring Letter A">
+	<item id="8035" type="EtcItem" name="溫泉地文字A">
 		<set name="icon" val="icon.etc_alphabet_a_i00" />
 		<set name="immediate_effect" val="1" />
 		<set name="material" val="steel" />
@@ -330,7 +330,7 @@
 		<set name="is_depositable" val="false" />
 		<set name="is_stackable" val="true" />
 	</item>
-	<item id="8036" type="EtcItem" name="Hot Spring Letter B">
+	<item id="8036" type="EtcItem" name="溫泉地文字B">
 		<set name="icon" val="icon.etc_alphabet_b_i00" />
 		<set name="immediate_effect" val="1" />
 		<set name="material" val="steel" />
@@ -340,7 +340,7 @@
 		<set name="is_depositable" val="false" />
 		<set name="is_stackable" val="true" />
 	</item>
-	<item id="8037" type="EtcItem" name="Hot Spring Letter C">
+	<item id="8037" type="EtcItem" name="溫泉地文字C">
 		<set name="icon" val="icon.etc_alphabet_c_i00" />
 		<set name="immediate_effect" val="1" />
 		<set name="material" val="steel" />
@@ -350,7 +350,7 @@
 		<set name="is_depositable" val="false" />
 		<set name="is_stackable" val="true" />
 	</item>
-	<item id="8038" type="EtcItem" name="Hot Spring Letter D">
+	<item id="8038" type="EtcItem" name="溫泉地文字D">
 		<set name="icon" val="icon.etc_alphabet_d_i00" />
 		<set name="immediate_effect" val="1" />
 		<set name="material" val="steel" />
@@ -360,7 +360,7 @@
 		<set name="is_depositable" val="false" />
 		<set name="is_stackable" val="true" />
 	</item>
-	<item id="8039" type="EtcItem" name="Hot Spring Letter E">
+	<item id="8039" type="EtcItem" name="溫泉地文字E">
 		<set name="icon" val="icon.etc_alphabet_e_i00" />
 		<set name="immediate_effect" val="1" />
 		<set name="material" val="steel" />
@@ -370,7 +370,7 @@
 		<set name="is_depositable" val="false" />
 		<set name="is_stackable" val="true" />
 	</item>
-	<item id="8040" type="EtcItem" name="Hot Spring Letter F">
+	<item id="8040" type="EtcItem" name="溫泉地文字F">
 		<set name="icon" val="icon.etc_alphabet_f_i00" />
 		<set name="immediate_effect" val="1" />
 		<set name="material" val="steel" />
@@ -380,7 +380,7 @@
 		<set name="is_depositable" val="false" />
 		<set name="is_stackable" val="true" />
 	</item>
-	<item id="8041" type="EtcItem" name="Hot Spring Letter G">
+	<item id="8041" type="EtcItem" name="溫泉地文字G">
 		<set name="icon" val="icon.etc_alphabet_g_i00" />
 		<set name="immediate_effect" val="1" />
 		<set name="material" val="steel" />
@@ -390,7 +390,7 @@
 		<set name="is_depositable" val="false" />
 		<set name="is_stackable" val="true" />
 	</item>
-	<item id="8042" type="EtcItem" name="Hot Spring Letter H">
+	<item id="8042" type="EtcItem" name="溫泉地文字H">
 		<set name="icon" val="icon.etc_alphabet_h_i00" />
 		<set name="immediate_effect" val="1" />
 		<set name="material" val="steel" />
@@ -400,7 +400,7 @@
 		<set name="is_depositable" val="false" />
 		<set name="is_stackable" val="true" />
 	</item>
-	<item id="8043" type="EtcItem" name="Hot Spring Letter I">
+	<item id="8043" type="EtcItem" name="溫泉地文字I">
 		<set name="icon" val="icon.etc_alphabet_i_i00" />
 		<set name="immediate_effect" val="1" />
 		<set name="material" val="steel" />
@@ -410,7 +410,7 @@
 		<set name="is_depositable" val="false" />
 		<set name="is_stackable" val="true" />
 	</item>
-	<item id="8044" type="EtcItem" name="Hot Spring Letter J">
+	<item id="8044" type="EtcItem" name="溫泉地文字J">
 		<set name="immediate_effect" val="1" />
 		<set name="material" val="steel" />
 		<set name="is_tradable" val="false" />
@@ -419,7 +419,7 @@
 		<set name="is_depositable" val="false" />
 		<set name="is_stackable" val="true" />
 	</item>
-	<item id="8045" type="EtcItem" name="Hot Spring Letter K">
+	<item id="8045" type="EtcItem" name="溫泉地文字K">
 		<set name="icon" val="icon.etc_alphabet_k_i00" />
 		<set name="immediate_effect" val="1" />
 		<set name="material" val="steel" />
@@ -429,7 +429,7 @@
 		<set name="is_depositable" val="false" />
 		<set name="is_stackable" val="true" />
 	</item>
-	<item id="8046" type="EtcItem" name="Hot Spring Letter L">
+	<item id="8046" type="EtcItem" name="溫泉地文字L">
 		<set name="icon" val="icon.etc_alphabet_l_i00" />
 		<set name="immediate_effect" val="1" />
 		<set name="material" val="steel" />
@@ -439,7 +439,7 @@
 		<set name="is_depositable" val="false" />
 		<set name="is_stackable" val="true" />
 	</item>
-	<item id="8047" type="EtcItem" name="Hot Spring Letter N">
+	<item id="8047" type="EtcItem" name="溫泉地文字N">
 		<set name="icon" val="icon.etc_alphabet_n_i00" />
 		<set name="immediate_effect" val="1" />
 		<set name="material" val="steel" />
@@ -449,7 +449,7 @@
 		<set name="is_depositable" val="false" />
 		<set name="is_stackable" val="true" />
 	</item>
-	<item id="8048" type="EtcItem" name="Hot Spring Letter O">
+	<item id="8048" type="EtcItem" name="溫泉地文字O">
 		<set name="icon" val="icon.etc_alphabet_o_i00" />
 		<set name="immediate_effect" val="1" />
 		<set name="material" val="steel" />
@@ -459,7 +459,7 @@
 		<set name="is_depositable" val="false" />
 		<set name="is_stackable" val="true" />
 	</item>
-	<item id="8049" type="EtcItem" name="Hot Spring Letter P">
+	<item id="8049" type="EtcItem" name="溫泉地文字P">
 		<set name="icon" val="icon.etc_alphabet_p_i00" />
 		<set name="immediate_effect" val="1" />
 		<set name="material" val="steel" />
@@ -469,7 +469,7 @@
 		<set name="is_depositable" val="false" />
 		<set name="is_stackable" val="true" />
 	</item>
-	<item id="8050" type="EtcItem" name="Hot Spring Letter R">
+	<item id="8050" type="EtcItem" name="溫泉地文字R">
 		<set name="icon" val="icon.etc_alphabet_r_i00" />
 		<set name="immediate_effect" val="1" />
 		<set name="material" val="steel" />
@@ -479,7 +479,7 @@
 		<set name="is_depositable" val="false" />
 		<set name="is_stackable" val="true" />
 	</item>
-	<item id="8051" type="EtcItem" name="Hot Spring Letter S">
+	<item id="8051" type="EtcItem" name="溫泉地文字S">
 		<set name="icon" val="icon.etc_alphabet_s_i00" />
 		<set name="immediate_effect" val="1" />
 		<set name="material" val="steel" />
@@ -489,7 +489,7 @@
 		<set name="is_depositable" val="false" />
 		<set name="is_stackable" val="true" />
 	</item>
-	<item id="8052" type="EtcItem" name="Hot Spring letter T">
+	<item id="8052" type="EtcItem" name="溫泉地文字T">
 		<set name="icon" val="icon.etc_alphabet_t_i00" />
 		<set name="immediate_effect" val="1" />
 		<set name="material" val="steel" />
@@ -499,7 +499,7 @@
 		<set name="is_depositable" val="false" />
 		<set name="is_stackable" val="true" />
 	</item>
-	<item id="8053" type="EtcItem" name="Hot Spring Letter U">
+	<item id="8053" type="EtcItem" name="溫泉地文字U">
 		<set name="icon" val="icon.etc_alphabet_u_i00" />
 		<set name="immediate_effect" val="1" />
 		<set name="material" val="steel" />
@@ -509,7 +509,7 @@
 		<set name="is_depositable" val="false" />
 		<set name="is_stackable" val="true" />
 	</item>
-	<item id="8054" type="EtcItem" name="Hot Spring Letter W">
+	<item id="8054" type="EtcItem" name="溫泉地文字W">
 		<set name="icon" val="icon.etc_alphabet_w_i00" />
 		<set name="immediate_effect" val="1" />
 		<set name="material" val="steel" />
@@ -519,7 +519,7 @@
 		<set name="is_depositable" val="false" />
 		<set name="is_stackable" val="true" />
 	</item>
-	<item id="8055" type="EtcItem" name="Hot Spring Letter Y">
+	<item id="8055" type="EtcItem" name="溫泉地文字Y">
 		<set name="icon" val="icon.etc_alphabet_y_i00" />
 		<set name="immediate_effect" val="1" />
 		<set name="material" val="steel" />
@@ -529,7 +529,7 @@
 		<set name="is_depositable" val="false" />
 		<set name="is_stackable" val="true" />
 	</item>
-	<item id="8056" type="EtcItem" name="Key of Splendor Room">
+	<item id="8056" type="EtcItem" name="輝煌之間的鑰匙">
 		<set name="icon" val="icon.etc_old_key_i02" />
 		<set name="default_action" val="skill_reduce" />
 		<set name="material" val="steel" />
@@ -537,13 +537,13 @@
 		<set name="handler" val="PaganKeys" />
 		<set name="item_skill" val="2238-1" />
 	</item>
-	<item id="8057" type="EtcItem" name="Silver Hemocyte">
+	<item id="8057" type="EtcItem" name="銀血">
 		<set name="icon" val="icon.etc_lesser_potion_clear_i00" />
 		<set name="immediate_effect" val="1" />
 		<set name="material" val="steel" />
 		<set name="is_stackable" val="true" />
 	</item>
-	<item id="8058" type="EtcItem" name="Lockup Research Report">
+	<item id="8058" type="EtcItem" name="被鎖住的研究日誌">
 		<set name="icon" val="icon.etc_magic_book_blue_i00" />
 		<set name="immediate_effect" val="1" />
 		<set name="material" val="paper" />
@@ -552,7 +552,7 @@
 		<set name="is_sellable" val="false" />
 		<set name="is_stackable" val="true" />
 	</item>
-	<item id="8059" type="EtcItem" name="Research Report">
+	<item id="8059" type="EtcItem" name="研究日誌">
 		<set name="icon" val="icon.etc_magic_book_blue_i00" />
 		<set name="default_action" val="show_html" />
 		<set name="immediate_effect" val="1" />
@@ -563,7 +563,7 @@
 		<set name="is_stackable" val="true" />
 		<set name="handler" val="Book" />
 	</item>
-	<item id="8060" type="EtcItem" name="Key of Enigma">
+	<item id="8060" type="EtcItem" name="謎樣的鑰匙">
 		<set name="icon" val="icon.etc_key_i00" />
 		<set name="default_action" val="call_skill" />
 		<set name="material" val="paper" />
@@ -574,7 +574,7 @@
 		<set name="handler" val="ItemSkills" />
 		<set name="item_skill" val="2260-1" />
 	</item>
-	<item id="8061" type="EtcItem" name="Scribbled Memo">
+	<item id="8061" type="EtcItem" name="潦草的筆記">
 		<set name="icon" val="icon.etc_memopad_i00" />
 		<set name="immediate_effect" val="1" />
 		<set name="material" val="paper" />
@@ -584,7 +584,7 @@
 		<set name="is_stackable" val="true" />
 		<set name="is_questitem" val="true" />
 	</item>
-	<item id="8062" type="EtcItem" name="Blood of Maille Lizardman">
+	<item id="8062" type="EtcItem" name="雄性蜥蜴人血">
 		<set name="icon" val="icon.etc_lesser_potion_purple_i00" />
 		<set name="immediate_effect" val="1" />
 		<set name="material" val="paper" />
@@ -594,7 +594,7 @@
 		<set name="is_stackable" val="true" />
 		<set name="is_questitem" val="true" />
 	</item>
-	<item id="8063" type="EtcItem" name="Leg of King Araneid">
+	<item id="8063" type="EtcItem" name="阿朗尼得王的腳">
 		<set name="icon" val="icon.etc_sting_b_i00" />
 		<set name="immediate_effect" val="1" />
 		<set name="material" val="paper" />
@@ -604,7 +604,7 @@
 		<set name="is_stackable" val="true" />
 		<set name="is_questitem" val="true" />
 	</item>
-	<item id="8064" type="EtcItem" name="Visitor's Mark">
+	<item id="8064" type="EtcItem" name="見習生標章">
 		<set name="icon" val="icon.etc_red_rose_i00" />
 		<set name="immediate_effect" val="1" />
 		<set name="material" val="paper" />
@@ -615,7 +615,7 @@
 		<set name="is_stackable" val="true" />
 		<set name="is_questitem" val="true" />
 	</item>
-	<item id="8065" type="EtcItem" name="Faded Visitor's Mark">
+	<item id="8065" type="EtcItem" name="變色的見習生標章">
 		<set name="icon" val="icon.etc_white_rose_i00" />
 		<set name="immediate_effect" val="1" />
 		<set name="material" val="paper" />
@@ -626,7 +626,7 @@
 		<set name="is_stackable" val="true" />
 		<set name="is_questitem" val="true" />
 	</item>
-	<item id="8066" type="EtcItem" name="Necromancer's Heart">
+	<item id="8066" type="EtcItem" name="死靈法師的心臟">
 		<set name="icon" val="icon.etc_bodypart_heart_i00" />
 		<set name="immediate_effect" val="1" />
 		<set name="material" val="paper" />
@@ -637,7 +637,7 @@
 		<set name="is_stackable" val="true" />
 		<set name="is_questitem" val="true" />
 	</item>
-	<item id="8067" type="EtcItem" name="Pagan's Mark">
+	<item id="8067" type="EtcItem" name="主教標章">
 		<set name="icon" val="icon.etc_totem_necklace_red_i00" />
 		<set name="immediate_effect" val="1" />
 		<set name="material" val="paper" />
@@ -648,7 +648,7 @@
 		<set name="is_stackable" val="true" />
 		<set name="is_questitem" val="true" />
 	</item>
-	<item id="8068" type="EtcItem" name="Pagan Totem">
+	<item id="8068" type="EtcItem" name="邪教徒圖騰">
 		<set name="icon" val="icon.etc_totem_necklace_green_i00" />
 		<set name="immediate_effect" val="1" />
 		<set name="material" val="paper" />
@@ -659,7 +659,7 @@
 		<set name="is_stackable" val="true" />
 		<set name="is_questitem" val="true" />
 	</item>
-	<item id="8069" type="EtcItem" name="Monk's Scripture">
+	<item id="8069" type="EtcItem" name="修道僧經典">
 		<set name="icon" val="icon.etc_magic_book_white_i00" />
 		<set name="immediate_effect" val="1" />
 		<set name="material" val="paper" />
@@ -669,7 +669,7 @@
 		<set name="is_stackable" val="true" />
 		<set name="is_questitem" val="true" />
 	</item>
-	<item id="8070" type="EtcItem" name="Water Bottle">
+	<item id="8070" type="EtcItem" name="寶瓶">
 		<set name="icon" val="icon.etc_potion_yellow_i00" />
 		<set name="immediate_effect" val="1" />
 		<set name="material" val="paper" />
@@ -679,7 +679,7 @@
 		<set name="is_stackable" val="true" />
 		<set name="is_questitem" val="true" />
 	</item>
-	<item id="8071" type="EtcItem" name="Bottle of water from the Holy Grail">
+	<item id="8071" type="EtcItem" name="裝著聖杯之水的寶瓶">
 		<set name="icon" val="icon.etc_potion_yellow_i00" />
 		<set name="immediate_effect" val="1" />
 		<set name="material" val="paper" />
@@ -689,7 +689,7 @@
 		<set name="is_stackable" val="true" />
 		<set name="is_questitem" val="true" />
 	</item>
-	<item id="8072" type="EtcItem" name="Antelope Skin">
+	<item id="8072" type="EtcItem" name="羚羊皮革">
 		<set name="icon" val="icon.etc_leather_brown_i00" />
 		<set name="immediate_effect" val="1" />
 		<set name="material" val="paper" />
@@ -700,7 +700,7 @@
 		<set name="is_stackable" val="true" />
 		<set name="is_questitem" val="true" />
 	</item>
-	<item id="8073" type="EtcItem" name="Frintezza's Magic Force Field Removal Scroll">
+	<item id="8073" type="EtcItem" name="芙琳泰沙的結界破咒書">
 		<set name="icon" val="icon.etc_scroll_gray_i00" />
 		<set name="immediate_effect" val="1" />
 		<set name="material" val="paper" />
@@ -711,7 +711,7 @@
 		<set name="is_stackable" val="true" />
 		<set name="is_questitem" val="true" />
 	</item>
-	<item id="8074" type="EtcItem" name="Watching Eyes">
+	<item id="8074" type="EtcItem" name="監視者之眼">
 		<set name="icon" val="icon.etc_eyeball_i00" />
 		<set name="immediate_effect" val="1" />
 		<set name="material" val="paper" />
@@ -721,7 +721,7 @@
 		<set name="is_stackable" val="true" />
 		<set name="is_questitem" val="true" />
 	</item>
-	<item id="8075" type="EtcItem" name="Roughly Hewn Rock Golem Shard">
+	<item id="8075" type="EtcItem" name="怪岩高崙的碎片">
 		<set name="icon" val="icon.etc_debris_i00" />
 		<set name="immediate_effect" val="1" />
 		<set name="material" val="paper" />
@@ -731,7 +731,7 @@
 		<set name="is_stackable" val="true" />
 		<set name="is_questitem" val="true" />
 	</item>
-	<item id="8076" type="EtcItem" name="Delu Lizardman's Scale">
+	<item id="8076" type="EtcItem" name="德魯蜥蜴人的鱗片">
 		<set name="icon" val="icon.etc_scale_of_medusa_green_i00" />
 		<set name="immediate_effect" val="1" />
 		<set name="material" val="paper" />
@@ -741,7 +741,7 @@
 		<set name="is_stackable" val="true" />
 		<set name="is_questitem" val="true" />
 	</item>
-	<item id="8077" type="EtcItem" name="Silver Ice Crystal">
+	<item id="8077" type="EtcItem" name="銀冰晶">
 		<set name="icon" val="icon.etc_broken_crystal_silver_i00" />
 		<set name="immediate_effect" val="1" />
 		<set name="material" val="paper" />
@@ -751,7 +751,7 @@
 		<set name="is_stackable" val="true" />
 		<set name="is_questitem" val="true" />
 	</item>
-	<item id="8078" type="EtcItem" name="Black Ice Crystal">
+	<item id="8078" type="EtcItem" name="黑冰晶">
 		<set name="icon" val="icon.etc_gem_black_i00" />
 		<set name="immediate_effect" val="1" />
 		<set name="material" val="paper" />
@@ -761,7 +761,7 @@
 		<set name="is_stackable" val="true" />
 		<set name="is_questitem" val="true" />
 	</item>
-	<item id="8079" type="EtcItem" name="Misa's Letter">
+	<item id="8079" type="EtcItem" name="美紗的信">
 		<set name="icon" val="icon.etc_letter_red_i00" />
 		<set name="immediate_effect" val="1" />
 		<set name="material" val="paper" />
@@ -771,7 +771,7 @@
 		<set name="is_stackable" val="true" />
 		<set name="is_questitem" val="true" />
 	</item>
-	<item id="8080" type="EtcItem" name="Rafforty's Letter">
+	<item id="8080" type="EtcItem" name="雷普利的信">
 		<set name="icon" val="icon.etc_letter_envelope_i00" />
 		<set name="immediate_effect" val="1" />
 		<set name="material" val="paper" />
@@ -781,7 +781,7 @@
 		<set name="is_stackable" val="true" />
 		<set name="is_questitem" val="true" />
 	</item>
-	<item id="8081" type="EtcItem" name="Piece of Tablet">
+	<item id="8081" type="EtcItem" name="便條紙的片段">
 		<set name="icon" val="icon.etc_broken_tablet_fragment_i00" />
 		<set name="immediate_effect" val="1" />
 		<set name="material" val="paper" />
@@ -791,7 +791,7 @@
 		<set name="is_stackable" val="true" />
 		<set name="is_questitem" val="true" />
 	</item>
-	<item id="8082" type="EtcItem" name="Report Piece">
+	<item id="8082" type="EtcItem" name="報告書的片段">
 		<set name="icon" val="icon.etc_piece_of_report_i00" />
 		<set name="immediate_effect" val="1" />
 		<set name="material" val="paper" />
@@ -801,7 +801,7 @@
 		<set name="is_stackable" val="true" />
 		<set name="is_questitem" val="true" />
 	</item>
-	<item id="8083" type="EtcItem" name="Scout's Memo">
+	<item id="8083" type="EtcItem" name="偵查兵的偵查記錄">
 		<set name="icon" val="icon.etc_piece_of_report_i00" />
 		<set name="immediate_effect" val="1" />
 		<set name="material" val="paper" />
@@ -811,7 +811,7 @@
 		<set name="is_stackable" val="true" />
 		<set name="is_questitem" val="true" />
 	</item>
-	<item id="8084" type="EtcItem" name="Crystal of Purity">
+	<item id="8084" type="EtcItem" name="純粹的結晶">
 		<set name="icon" val="icon.etc_crystal_ball_white_i00" />
 		<set name="immediate_effect" val="1" />
 		<set name="material" val="paper" />
@@ -821,7 +821,7 @@
 		<set name="is_stackable" val="true" />
 		<set name="is_questitem" val="true" />
 	</item>
-	<item id="8085" type="EtcItem" name="Fang of Stakato">
+	<item id="8085" type="EtcItem" name="司塔卡拓的牙齒">
 		<set name="icon" val="icon.etc_fang_red_i00" />
 		<set name="immediate_effect" val="1" />
 		<set name="material" val="paper" />
@@ -831,7 +831,7 @@
 		<set name="is_stackable" val="true" />
 		<set name="is_questitem" val="true" />
 	</item>
-	<item id="8086" type="EtcItem" name="Box Containing the Fire of Holy Spirit">
+	<item id="8086" type="EtcItem" name="藏有聖火的寶箱">
 		<set name="icon" val="icon.etc_jewel_box_i00" />
 		<set name="immediate_effect" val="1" />
 		<set name="material" val="paper" />
@@ -841,7 +841,7 @@
 		<set name="is_stackable" val="true" />
 		<set name="is_questitem" val="true" />
 	</item>
-	<item id="8087" type="EtcItem" name="Cursed Doll">
+	<item id="8087" type="EtcItem" name="受詛咒的人偶">
 		<set name="icon" val="icon.etc_totem_red_i00" />
 		<set name="immediate_effect" val="1" />
 		<set name="material" val="paper" />
@@ -851,7 +851,7 @@
 		<set name="is_stackable" val="true" />
 		<set name="is_questitem" val="true" />
 	</item>
-	<item id="8088" type="EtcItem" name="Orc Grave Goods">
+	<item id="8088" type="EtcItem" name="半獸人的陪葬品">
 		<set name="icon" val="icon.etc_orcish_talisman_i00" />
 		<set name="immediate_effect" val="1" />
 		<set name="material" val="paper" />
@@ -861,7 +861,7 @@
 		<set name="is_stackable" val="true" />
 		<set name="is_questitem" val="true" />
 	</item>
-	<item id="8089" type="EtcItem" name="Cursed Grave Goods">
+	<item id="8089" type="EtcItem" name="受詛咒的陪葬品">
 		<set name="icon" val="icon.etc_totem_black_i00" />
 		<set name="immediate_effect" val="1" />
 		<set name="material" val="paper" />
@@ -871,7 +871,7 @@
 		<set name="is_stackable" val="true" />
 		<set name="is_questitem" val="true" />
 	</item>
-	<item id="8090" type="EtcItem" name="Electric Wave Detector">
+	<item id="8090" type="EtcItem" name="電波探測器">
 		<set name="icon" val="icon.weapon_the_staff_of_hero_i00" />
 		<set name="immediate_effect" val="1" />
 		<set name="material" val="paper" />
@@ -881,7 +881,7 @@
 		<set name="is_stackable" val="true" />
 		<set name="is_questitem" val="true" />
 	</item>
-	<item id="8091" type="EtcItem" name="Electric Wave Detector">
+	<item id="8091" type="EtcItem" name="電波探測器">
 		<set name="icon" val="icon.weapon_the_staff_of_hero_i01" />
 		<set name="immediate_effect" val="1" />
 		<set name="material" val="paper" />
@@ -891,7 +891,7 @@
 		<set name="is_stackable" val="true" />
 		<set name="is_questitem" val="true" />
 	</item>
-	<item id="8092" type="EtcItem" name="Telescope Golem's Corpse">
+	<item id="8092" type="EtcItem" name="望遠鏡高崙殘骸">
 		<set name="icon" val="icon.etc_debris_i00" />
 		<set name="immediate_effect" val="1" />
 		<set name="material" val="paper" />
@@ -901,7 +901,7 @@
 		<set name="is_stackable" val="true" />
 		<set name="is_questitem" val="true" />
 	</item>
-	<item id="8093" type="EtcItem" name="Golem's Dispatcher">
+	<item id="8093" type="EtcItem" name="高崙發信裝置">
 		<set name="icon" val="icon.etc_mechanic_box_i00" />
 		<set name="immediate_effect" val="1" />
 		<set name="material" val="paper" />
@@ -911,7 +911,7 @@
 		<set name="is_stackable" val="true" />
 		<set name="is_questitem" val="true" />
 	</item>
-	<item id="8094" type="EtcItem" name="Storage Medium">
+	<item id="8094" type="EtcItem" name="儲藏媒介">
 		<set name="icon" val="icon.etc_calculator_i00" />
 		<set name="immediate_effect" val="1" />
 		<set name="material" val="paper" />
@@ -921,7 +921,7 @@
 		<set name="is_stackable" val="true" />
 		<set name="is_questitem" val="true" />
 	</item>
-	<item id="8095" type="EtcItem" name="Storage Medium">
+	<item id="8095" type="EtcItem" name="儲藏媒介">
 		<set name="icon" val="icon.etc_calculator_i00" />
 		<set name="immediate_effect" val="1" />
 		<set name="material" val="paper" />
@@ -931,7 +931,7 @@
 		<set name="is_stackable" val="true" />
 		<set name="is_questitem" val="true" />
 	</item>
-	<item id="8096" type="EtcItem" name="Ginzu Golem's Black Box">
+	<item id="8096" type="EtcItem" name="雙刀高崙運作記錄器">
 		<set name="icon" val="icon.etc_mechanic_box_i00" />
 		<set name="immediate_effect" val="1" />
 		<set name="material" val="paper" />
@@ -951,7 +951,7 @@
 		<set name="is_stackable" val="true" />
 		<set name="is_questitem" val="true" />
 	</item>
-	<item id="8098" type="EtcItem" name="Supplying Goods for Railroad Worker">
+	<item id="8098" type="EtcItem" name="鐵道員的補給物資">
 		<set name="icon" val="icon.etc_squares_wood_i00" />
 		<set name="immediate_effect" val="1" />
 		<set name="material" val="paper" />
@@ -961,7 +961,7 @@
 		<set name="is_stackable" val="true" />
 		<set name="is_questitem" val="true" />
 	</item>
-	<item id="8099" type="EtcItem" name="Thief Guild's Mark">
+	<item id="8099" type="EtcItem" name="山賊團的證物">
 		<set name="icon" val="icon.etc_fang_ivory_i00" />
 		<set name="immediate_effect" val="1" />
 		<set name="material" val="paper" />

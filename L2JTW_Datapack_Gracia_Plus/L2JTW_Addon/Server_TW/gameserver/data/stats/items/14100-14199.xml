@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <list>
-	<item id="14100" type="Armor" name="Teddy Girl Agathion Bracelet (event) - 7-day Limited Period">
+	<item id="14100" type="Armor" name="女生泰迪熊壺精手鐲-活動用">
 		<set name="icon" val="icon.etc_rbracelet_aga_agit_i00" />
 		<set name="default_action" val="equip" />
 		<set name="bodypart" val="lbracelet" />
@@ -17,7 +17,7 @@
 		<for>
 		</for>
 	</item>
-	<item id="14101" type="Armor" name="Sudden Agathion (Event) - 7-day Limited Period">
+	<item id="14101" type="Armor" name="怒氣壺精-活動用">
 		<set name="icon" val="icon.etc_rbracelet_aga_agit_i00" />
 		<set name="default_action" val="equip" />
 		<set name="bodypart" val="lbracelet" />
@@ -34,7 +34,7 @@
 		<for>
 		</for>
 	</item>
-	<item id="14102" type="Armor" name="Shiny Agathion (Event) - 7-day Limited Period">
+	<item id="14102" type="Armor" name="開心壺精-活動用">
 		<set name="icon" val="icon.etc_rbracelet_aga_agit_i00" />
 		<set name="default_action" val="equip" />
 		<set name="bodypart" val="lbracelet" />
@@ -51,7 +51,7 @@
 		<for>
 		</for>
 	</item>
-	<item id="14103" type="Armor" name="Sobbing Agathion (Event) - 7-day Limited Period">
+	<item id="14103" type="Armor" name="嗚咽壺精-活動用">
 		<set name="icon" val="icon.etc_rbracelet_aga_agit_i00" />
 		<set name="default_action" val="equip" />
 		<set name="bodypart" val="lbracelet" />
@@ -68,7 +68,7 @@
 		<for>
 		</for>
 	</item>
-	<item id="14104" type="Armor" name="Shadow Item - Collection Agathion Summon Bracelet">
+	<item id="14104" type="Armor" name="幻象裝備-能量凝結裝置召喚手鐲">
 		<set name="icon" val="icon.etc_rbracelet_aga_agit_i00" />
 		<set name="default_action" val="equip" />
 		<set name="bodypart" val="lbracelet" />
@@ -85,7 +85,7 @@
 		<for>
 		</for>
 	</item>
-	<item id="14105" type="Armor" name="Sealed Vesper Breastplate">
+	<item id="14105" type="Armor" name="封印的薄暮胸甲">
 		<set name="icon" val="icon.armor_t94_u_i02" />
 		<set name="default_action" val="equip" />
 		<set name="armor_type" val="heavy" />
@@ -104,7 +104,7 @@
 			<enchant order="0x0C" stat="pDef" val="0" />
 		</for>
 	</item>
-	<item id="14106" type="Armor" name="Sealed Vesper Leather Breastplate">
+	<item id="14106" type="Armor" name="封印的薄暮皮胸甲">
 		<set name="icon" val="icon.armor_t95_u_i02" />
 		<set name="default_action" val="equip" />
 		<set name="armor_type" val="light" />
@@ -122,7 +122,7 @@
 			<enchant order="0x0C" stat="pDef" val="0" />
 		</for>
 	</item>
-	<item id="14107" type="Armor" name="Sealed Vesper Tunic">
+	<item id="14107" type="Armor" name="封印的薄暮外衣">
 		<set name="icon" val="icon.armor_t96_u_i02" />
 		<set name="default_action" val="equip" />
 		<set name="armor_type" val="magic" />
@@ -142,7 +142,7 @@
 			<enchant order="0x0C" stat="pDef" val="0" />
 		</for>
 	</item>
-	<item id="14108" type="Armor" name="Sealed Vesper Gaiters">
+	<item id="14108" type="Armor" name="封印的薄暮脛甲">
 		<set name="icon" val="icon.armor_t94_l_i02" />
 		<set name="default_action" val="equip" />
 		<set name="armor_type" val="heavy" />
@@ -161,7 +161,7 @@
 			<enchant order="0x0C" stat="pDef" val="0" />
 		</for>
 	</item>
-	<item id="14109" type="Armor" name="Sealed Vesper Gauntlet">
+	<item id="14109" type="Armor" name="封印的薄暮護手">
 		<set name="icon" val="icon.armor_t94_g_i02" />
 		<set name="default_action" val="equip" />
 		<set name="bodypart" val="gloves" />
@@ -179,7 +179,7 @@
 			<enchant order="0x0C" stat="pDef" val="0" />
 		</for>
 	</item>
-	<item id="14110" type="Armor" name="Sealed Vesper Boots">
+	<item id="14110" type="Armor" name="封印的薄暮靴">
 		<set name="icon" val="icon.armor_t94_b_i02" />
 		<set name="default_action" val="equip" />
 		<set name="bodypart" val="feet" />
@@ -197,7 +197,7 @@
 			<enchant order="0x0C" stat="pDef" val="0" />
 		</for>
 	</item>
-	<item id="14111" type="Armor" name="Sealed Vesper Shield">
+	<item id="14111" type="Armor" name="封印的薄暮衛盾">
 		<set name="icon" val="icon.weapon_vesper_verteidiger_i00" />
 		<set name="default_action" val="equip" />
 		<set name="bodypart" val="lhand" />
@@ -218,7 +218,7 @@
 			<enchant val="0" order="0x0C" stat="sDef" />
 		</for>
 	</item>
-	<item id="14112" type="Armor" name="Sealed Vesper Leather Leggings">
+	<item id="14112" type="Armor" name="封印的薄暮皮脛甲">
 		<set name="icon" val="icon.armor_t95_l_i02" />
 		<set name="default_action" val="equip" />
 		<set name="armor_type" val="light" />
@@ -236,7 +236,7 @@
 			<enchant order="0x0C" stat="pDef" val="0" />
 		</for>
 	</item>
-	<item id="14113" type="Armor" name="Sealed Vesper Leather Gloves">
+	<item id="14113" type="Armor" name="封印的薄暮皮手套">
 		<set name="icon" val="icon.armor_t95_g_i02" />
 		<set name="default_action" val="equip" />
 		<set name="bodypart" val="gloves" />
@@ -253,7 +253,7 @@
 			<enchant order="0x0C" stat="pDef" val="0" />
 		</for>
 	</item>
-	<item id="14114" type="Armor" name="Sealed Vesper Leather Boots">
+	<item id="14114" type="Armor" name="封印的薄暮皮靴">
 		<set name="icon" val="icon.armor_t95_b_i02" />
 		<set name="default_action" val="equip" />
 		<set name="bodypart" val="feet" />
@@ -270,7 +270,7 @@
 			<enchant order="0x0C" stat="pDef" val="0" />
 		</for>
 	</item>
-	<item id="14115" type="Armor" name="Sealed Vesper Stockings">
+	<item id="14115" type="Armor" name="封印的薄暮長襪">
 		<set name="icon" val="icon.armor_t96_l_i02" />
 		<set name="default_action" val="equip" />
 		<set name="armor_type" val="magic" />
@@ -290,7 +290,7 @@
 			<enchant order="0x0C" stat="pDef" val="0" />
 		</for>
 	</item>
-	<item id="14116" type="Armor" name="Sealed Vesper Gloves">
+	<item id="14116" type="Armor" name="封印的薄暮手套">
 		<set name="icon" val="icon.armor_t96_g_i02" />
 		<set name="default_action" val="equip" />
 		<set name="bodypart" val="gloves" />
@@ -308,7 +308,7 @@
 			<enchant order="0x0C" stat="pDef" val="0" />
 		</for>
 	</item>
-	<item id="14117" type="Armor" name="Sealed Vesper Shoes">
+	<item id="14117" type="Armor" name="封印的薄暮鞋">
 		<set name="icon" val="icon.armor_t96_b_i02" />
 		<set name="default_action" val="equip" />
 		<set name="bodypart" val="feet" />
@@ -326,7 +326,7 @@
 			<enchant order="0x0C" stat="pDef" val="0" />
 		</for>
 	</item>
-	<item id="14118" type="Weapon" name="Vesper Cutter - Haste">
+	<item id="14118" type="Weapon" name="薄暮切刃">
 		<set name="icon" val="icon.weapon_vesper_cutter_i01" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="sword" />
@@ -355,7 +355,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="14119" type="Weapon" name="Vesper Cutter - Health">
+	<item id="14119" type="Weapon" name="薄暮切刃">
 		<set name="icon" val="icon.weapon_vesper_cutter_i01" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="sword" />
@@ -384,7 +384,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="14120" type="Weapon" name="Vesper Cutter - Focus">
+	<item id="14120" type="Weapon" name="薄暮切刃">
 		<set name="icon" val="icon.weapon_vesper_cutter_i01" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="sword" />
@@ -413,7 +413,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="14121" type="Weapon" name="Vesper Slasher - Haste">
+	<item id="14121" type="Weapon" name="薄暮殺刃">
 		<set name="icon" val="icon.weapon_vesper_slasher_i01" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="bigsword" />
@@ -442,7 +442,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="14122" type="Weapon" name="Vesper Slasher - Health">
+	<item id="14122" type="Weapon" name="薄暮殺刃">
 		<set name="icon" val="icon.weapon_vesper_slasher_i01" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="bigsword" />
@@ -471,7 +471,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="14123" type="Weapon" name="Vesper Slasher - Focus">
+	<item id="14123" type="Weapon" name="薄暮殺刃">
 		<set name="icon" val="icon.weapon_vesper_slasher_i01" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="bigsword" />
@@ -500,7 +500,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="14124" type="Weapon" name="Vesper Buster - Mana Up">
+	<item id="14124" type="Weapon" name="薄暮爆刃">
 		<set name="icon" val="icon.weapon_vesper_burster_i01" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="sword" />
@@ -529,7 +529,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="14125" type="Weapon" name="Vesper Buster - Acumen">
+	<item id="14125" type="Weapon" name="薄暮爆刃">
 		<set name="icon" val="icon.weapon_vesper_burster_i01" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="sword" />
@@ -558,7 +558,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="14126" type="Weapon" name="Vesper Buster - Magic Hold">
+	<item id="14126" type="Weapon" name="薄暮爆刃">
 		<set name="icon" val="icon.weapon_vesper_burster_i01" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="sword" />
@@ -589,7 +589,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="14127" type="Weapon" name="Vesper Shaper - Critical Damage">
+	<item id="14127" type="Weapon" name="薄暮鉋刀">
 		<set name="icon" val="icon.weapon_vesper_shaper_i01" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="dagger" />
@@ -619,7 +619,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="14128" type="Weapon" name="Vesper Shaper - HP Drain">
+	<item id="14128" type="Weapon" name="薄暮鉋刀">
 		<set name="icon" val="icon.weapon_vesper_shaper_i01" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="dagger" />
@@ -649,7 +649,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="14129" type="Weapon" name="Vesper Shaper - Haste">
+	<item id="14129" type="Weapon" name="薄暮鉋刀">
 		<set name="icon" val="icon.weapon_vesper_shaper_i01" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="dagger" />
@@ -679,7 +679,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="14130" type="Weapon" name="Vesper Fighter - Focus">
+	<item id="14130" type="Weapon" name="薄暮戰爪">
 		<set name="icon" val="icon.weapon_vesper_fighter_i01" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="dualfist" />
@@ -709,7 +709,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="14131" type="Weapon" name="Vesper Fighter - Health">
+	<item id="14131" type="Weapon" name="薄暮戰爪">
 		<set name="icon" val="icon.weapon_vesper_fighter_i01" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="dualfist" />
@@ -739,7 +739,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="14132" type="Weapon" name="Vesper Fighter - Critical Stun">
+	<item id="14132" type="Weapon" name="薄暮戰爪">
 		<set name="icon" val="icon.weapon_vesper_fighter_i01" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="dualfist" />
@@ -771,7 +771,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="14133" type="Weapon" name="Vesper Stormer - Health">
+	<item id="14133" type="Weapon" name="薄暮風暴者">
 		<set name="icon" val="icon.weapon_vesper_stormer_i01" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="pole" />
@@ -801,7 +801,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="14134" type="Weapon" name="Vesper Stormer - Guidance">
+	<item id="14134" type="Weapon" name="薄暮風暴者">
 		<set name="icon" val="icon.weapon_vesper_stormer_i01" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="pole" />
@@ -831,7 +831,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="14135" type="Weapon" name="Vesper Stormer - Haste">
+	<item id="14135" type="Weapon" name="薄暮風暴者">
 		<set name="icon" val="icon.weapon_vesper_stormer_i01" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="pole" />
@@ -861,7 +861,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="14136" type="Weapon" name="Vesper Avenger - HP Drain">
+	<item id="14136" type="Weapon" name="薄暮復仇者">
 		<set name="icon" val="icon.weapon_vesper_avenger_i01" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="blunt" />
@@ -891,7 +891,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="14137" type="Weapon" name="Vesper Avenger - Health">
+	<item id="14137" type="Weapon" name="薄暮復仇者">
 		<set name="icon" val="icon.weapon_vesper_avenger_i01" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="blunt" />
@@ -921,7 +921,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="14138" type="Weapon" name="Vesper Avenger - HP Regeneration">
+	<item id="14138" type="Weapon" name="薄暮復仇者">
 		<set name="icon" val="icon.weapon_vesper_avenger_i01" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="blunt" />
@@ -951,7 +951,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="14139" type="Weapon" name="Vesper Retributer - HP Regeneration">
+	<item id="14139" type="Weapon" name="薄暮報恨者">
 		<set name="icon" val="icon.weapon_vesper_retributer_i01" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="bigblunt" />
@@ -981,7 +981,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="14140" type="Weapon" name="Vesper Retributer - Health">
+	<item id="14140" type="Weapon" name="薄暮報恨者">
 		<set name="icon" val="icon.weapon_vesper_retributer_i01" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="bigblunt" />
@@ -1011,7 +1011,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="14141" type="Weapon" name="Vesper Retributer - HP Drain">
+	<item id="14141" type="Weapon" name="薄暮報恨者">
 		<set name="icon" val="icon.weapon_vesper_retributer_i01" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="bigblunt" />
@@ -1041,7 +1041,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="14142" type="Weapon" name="Vesper Caster - Acumen">
+	<item id="14142" type="Weapon" name="薄暮術杖">
 		<set name="icon" val="icon.weapon_vesper_caster_i01" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="blunt" />
@@ -1072,7 +1072,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="14143" type="Weapon" name="Vesper Caster - MP Regeneration">
+	<item id="14143" type="Weapon" name="薄暮術杖">
 		<set name="icon" val="icon.weapon_vesper_caster_i01" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="blunt" />
@@ -1103,7 +1103,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="14144" type="Weapon" name="Vesper Caster - Mana Up">
+	<item id="14144" type="Weapon" name="薄暮術杖">
 		<set name="icon" val="icon.weapon_vesper_caster_i01" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="blunt" />
@@ -1134,7 +1134,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="14145" type="Weapon" name="Vesper Singer - Empower">
+	<item id="14145" type="Weapon" name="薄暮詩杖">
 		<set name="icon" val="icon.weapon_vesper_singer_i01" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="bigblunt" />
@@ -1165,7 +1165,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="14146" type="Weapon" name="Vesper Singer - MP Regeneration">
+	<item id="14146" type="Weapon" name="薄暮詩杖">
 		<set name="icon" val="icon.weapon_vesper_singer_i01" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="bigblunt" />
@@ -1196,7 +1196,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="14147" type="Weapon" name="Vesper Singer - Magic Hold">
+	<item id="14147" type="Weapon" name="薄暮詩杖">
 		<set name="icon" val="icon.weapon_vesper_singer_i01" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="bigblunt" />
@@ -1229,7 +1229,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="14148" type="Weapon" name="Vesper Thrower - Cheap Shot">
+	<item id="14148" type="Weapon" name="薄暮投弓">
 		<set name="icon" val="icon.weapon_vesper_thrower_i01" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="bow" />
@@ -1263,7 +1263,7 @@
 			<mul order="0x08" stat="MpConsume" val="0.92" />
 		</for>
 	</item>
-	<item id="14149" type="Weapon" name="Vesper Thrower - Focus">
+	<item id="14149" type="Weapon" name="薄暮投弓">
 		<set name="icon" val="icon.weapon_vesper_thrower_i01" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="bow" />
@@ -1296,7 +1296,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="14150" type="Weapon" name="Vesper Thrower - Critical Slow">
+	<item id="14150" type="Weapon" name="薄暮投弓">
 		<set name="icon" val="icon.weapon_vesper_thrower_i01" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="bow" />
@@ -1331,7 +1331,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="14151" type="Weapon" name="Vesper Pincer - Haste">
+	<item id="14151" type="Weapon" name="薄暮螯針">
 		<set name="icon" val="icon.weapon_vesper_pincer_i01" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="rapier" />
@@ -1364,7 +1364,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="14152" type="Weapon" name="Vesper Pincer - Health">
+	<item id="14152" type="Weapon" name="薄暮螯針">
 		<set name="icon" val="icon.weapon_vesper_pincer_i01" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="rapier" />
@@ -1397,7 +1397,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="14153" type="Weapon" name="Vesper Pincer - Focus">
+	<item id="14153" type="Weapon" name="薄暮螯針">
 		<set name="icon" val="icon.weapon_vesper_pincer_i01" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="rapier" />
@@ -1430,7 +1430,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="14154" type="Weapon" name="Vesper Sheutjeh - Cheap Shot">
+	<item id="14154" type="Weapon" name="薄暮射靈">
 		<set name="icon" val="icon.weapon_vesper_schutze_i01" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="crossbow" />
@@ -1468,7 +1468,7 @@
 			</set>
 		</for>
 	</item>
-	<item id="14155" type="Weapon" name="Vesper Sheutjeh - Focus">
+	<item id="14155" type="Weapon" name="薄暮射靈">
 		<set name="icon" val="icon.weapon_vesper_schutze_i01" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="crossbow" />
@@ -1501,7 +1501,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="14156" type="Weapon" name="Vesper Sheutjeh - Critical Slow">
+	<item id="14156" type="Weapon" name="薄暮射靈">
 		<set name="icon" val="icon.weapon_vesper_schutze_i01" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="crossbow" />
@@ -1536,7 +1536,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="14157" type="Weapon" name="Vesper Nagan - Haste">
+	<item id="14157" type="Weapon" name="薄暮槍刃">
 		<set name="icon" val="icon.weapon_vesper_nagen_i01" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="ancientsword" />
@@ -1568,7 +1568,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="14158" type="Weapon" name="Vesper Nagan - Health">
+	<item id="14158" type="Weapon" name="薄暮槍刃">
 		<set name="icon" val="icon.weapon_vesper_nagen_i01" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="ancientsword" />
@@ -1600,7 +1600,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="14159" type="Weapon" name="Vesper Nagan - Focus">
+	<item id="14159" type="Weapon" name="薄暮槍刃">
 		<set name="icon" val="icon.weapon_vesper_nagen_i01" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="ancientsword" />
@@ -1632,7 +1632,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="14160" type="Armor" name="Sealed Vesper Earring">
+	<item id="14160" type="Armor" name="封印的薄暮耳環">
 		<set name="icon" val="icon.vesper_earring_i01" />
 		<set name="default_action" val="equip" />
 		<set name="bodypart" val="rear;lear" />
@@ -1648,7 +1648,7 @@
 			<enchant order="0x0C" stat="mDef" val="0" />
 		</for>
 	</item>
-	<item id="14161" type="Armor" name="Sealed Vesper Necklace">
+	<item id="14161" type="Armor" name="封印的薄暮項鍊">
 		<set name="icon" val="icon.vesper_necklace_i01" />
 		<set name="default_action" val="equip" />
 		<set name="bodypart" val="neck" />
@@ -1664,7 +1664,7 @@
 			<enchant order="0x0C" stat="mDef" val="0" />
 		</for>
 	</item>
-	<item id="14162" type="Armor" name="Sealed Vesper Ring">
+	<item id="14162" type="Armor" name="封印的薄暮戒指">
 		<set name="icon" val="icon.vesper_ring_i01" />
 		<set name="default_action" val="equip" />
 		<set name="bodypart" val="rfinger;lfinger" />
@@ -1680,7 +1680,7 @@
 			<enchant order="0x0C" stat="mDef" val="0" />
 		</for>
 	</item>
-	<item id="14163" type="Armor" name="Vesper Earring">
+	<item id="14163" type="Armor" name="薄暮耳環">
 		<set name="icon" val="icon.vesper_earring_i00" />
 		<set name="default_action" val="equip" />
 		<set name="bodypart" val="rear;lear" />
@@ -1697,7 +1697,7 @@
 			<enchant order="0x0C" stat="mDef" val="0" />
 		</for>
 	</item>
-	<item id="14164" type="Armor" name="Vesper Necklace">
+	<item id="14164" type="Armor" name="薄暮項鍊">
 		<set name="icon" val="icon.vesper_necklace_i00" />
 		<set name="default_action" val="equip" />
 		<set name="bodypart" val="neck" />
@@ -1714,7 +1714,7 @@
 			<enchant order="0x0C" stat="mDef" val="0" />
 		</for>
 	</item>
-	<item id="14165" type="Armor" name="Vesper Ring">
+	<item id="14165" type="Armor" name="薄暮戒指">
 		<set name="icon" val="icon.vesper_ring_i00" />
 		<set name="default_action" val="equip" />
 		<set name="bodypart" val="rfinger;lfinger" />
@@ -1731,7 +1731,7 @@
 			<enchant order="0x0C" stat="mDef" val="0" />
 		</for>
 	</item>
-	<item id="14166" type="EtcItem" name="Life Stone - level 84">
+	<item id="14166" type="EtcItem" name="生命石-84級">
 		<set name="icon" val="icon.etc_mineral_general_i03" />
 		<set name="immediate_effect" val="1" />
 		<set name="material" val="liquid" />
@@ -1740,7 +1740,7 @@
 		<set name="is_stackable" val="true" />
 		<set name="use_condition" val="{{uc_requiredlevel;84}}" />
 	</item>
-	<item id="14167" type="EtcItem" name="Mid-Grade Life Stone - level 84">
+	<item id="14167" type="EtcItem" name="中級生命石-84級">
 		<set name="icon" val="icon.etc_mineral_special_i03" />
 		<set name="immediate_effect" val="1" />
 		<set name="material" val="liquid" />
@@ -1749,7 +1749,7 @@
 		<set name="is_stackable" val="true" />
 		<set name="use_condition" val="{{uc_requiredlevel;84}}" />
 	</item>
-	<item id="14168" type="EtcItem" name="High-Grade Life Stone - level 84">
+	<item id="14168" type="EtcItem" name="高級生命石-84級">
 		<set name="icon" val="icon.etc_mineral_rare_i03" />
 		<set name="immediate_effect" val="1" />
 		<set name="material" val="liquid" />
@@ -1758,7 +1758,7 @@
 		<set name="is_stackable" val="true" />
 		<set name="use_condition" val="{{uc_requiredlevel;84}}" />
 	</item>
-	<item id="14169" type="EtcItem" name="Top-Grade Life Stone - level 84">
+	<item id="14169" type="EtcItem" name="特級生命石-84級">
 		<set name="icon" val="icon.etc_mineral_unique_i03" />
 		<set name="immediate_effect" val="1" />
 		<set name="material" val="liquid" />
@@ -1767,7 +1767,7 @@
 		<set name="is_stackable" val="true" />
 		<set name="use_condition" val="{{uc_requiredlevel;84}}" />
 	</item>
-	<item id="14170" type="EtcItem" name="Forgotten Scroll - Seed of Revenge">
+	<item id="14170" type="EtcItem" name="遺忘祕傳書-復仇種子">
 		<set name="icon" val="icon.etc_spell_books_element_i00" />
 		<set name="default_action" val="skill_reduce" />
 		<set name="material" val="paper" />
@@ -1780,7 +1780,7 @@
 		<set name="handler" val="ItemSkills" />
 		<set name="item_skill" val="2803-1" />
 	</item>
-	<item id="14171" type="EtcItem" name="Forgotten Scroll - Hell Scream">
+	<item id="14171" type="EtcItem" name="遺忘祕傳書-地獄狂嘯">
 		<set name="icon" val="icon.etc_spell_books_element_i00" />
 		<set name="default_action" val="skill_reduce" />
 		<set name="material" val="paper" />
@@ -1793,7 +1793,7 @@
 		<set name="handler" val="ItemSkills" />
 		<set name="item_skill" val="2804-1" />
 	</item>
-	<item id="14172" type="EtcItem" name="Forgotten Scroll - Spirit of Phoenix">
+	<item id="14172" type="EtcItem" name="遺忘祕傳書-鳳凰之魂">
 		<set name="icon" val="icon.etc_spell_books_element_i00" />
 		<set name="default_action" val="skill_reduce" />
 		<set name="material" val="paper" />
@@ -1806,7 +1806,7 @@
 		<set name="handler" val="ItemSkills" />
 		<set name="item_skill" val="2805-1" />
 	</item>
-	<item id="14173" type="EtcItem" name="Forgotten Scroll - Eva's Will / Touch of Eva">
+	<item id="14173" type="EtcItem" name="遺忘祕傳書-伊娃意志">
 		<set name="icon" val="icon.etc_spell_books_element_i00" />
 		<set name="default_action" val="skill_reduce" />
 		<set name="material" val="paper" />
@@ -1819,7 +1819,7 @@
 		<set name="handler" val="ItemSkills" />
 		<set name="item_skill" val="2806-1" />
 	</item>
-	<item id="14174" type="EtcItem" name="Forgotten Scroll - Pain of Shillien">
+	<item id="14174" type="EtcItem" name="遺忘祕傳書-席琳之痛">
 		<set name="icon" val="icon.etc_spell_books_element_i00" />
 		<set name="default_action" val="skill_reduce" />
 		<set name="material" val="paper" />
@@ -1832,7 +1832,7 @@
 		<set name="handler" val="ItemSkills" />
 		<set name="item_skill" val="2807-1" />
 	</item>
-	<item id="14175" type="EtcItem" name="Forgotten Scroll - Exciting Adventure">
+	<item id="14175" type="EtcItem" name="遺忘祕傳書-狂熱鬥志">
 		<set name="icon" val="icon.etc_spell_books_element_i00" />
 		<set name="default_action" val="skill_reduce" />
 		<set name="material" val="paper" />
@@ -1845,7 +1845,7 @@
 		<set name="handler" val="ItemSkills" />
 		<set name="item_skill" val="2808-1" />
 	</item>
-	<item id="14176" type="EtcItem" name="Forgotten Scroll - Wind Riding">
+	<item id="14176" type="EtcItem" name="遺忘祕傳書-御風">
 		<set name="icon" val="icon.etc_spell_books_element_i00" />
 		<set name="default_action" val="skill_reduce" />
 		<set name="material" val="paper" />
@@ -1858,7 +1858,7 @@
 		<set name="handler" val="ItemSkills" />
 		<set name="item_skill" val="2809-1" />
 	</item>
-	<item id="14177" type="EtcItem" name="Forgotten Scroll - Ghost Walking">
+	<item id="14177" type="EtcItem" name="遺忘祕傳書-鬼行">
 		<set name="icon" val="icon.etc_spell_books_element_i00" />
 		<set name="default_action" val="skill_reduce" />
 		<set name="material" val="paper" />
@@ -1871,7 +1871,7 @@
 		<set name="handler" val="ItemSkills" />
 		<set name="item_skill" val="2810-1" />
 	</item>
-	<item id="14178" type="EtcItem" name="Forgotten Scroll - Flame Hawk">
+	<item id="14178" type="EtcItem" name="遺忘祕傳書-火焰之鷹">
 		<set name="icon" val="icon.etc_spell_books_element_i00" />
 		<set name="default_action" val="skill_reduce" />
 		<set name="material" val="paper" />
@@ -1884,7 +1884,7 @@
 		<set name="handler" val="ItemSkills" />
 		<set name="item_skill" val="2811-1" />
 	</item>
-	<item id="14179" type="EtcItem" name="Forgotten Scroll - Arrow Rain">
+	<item id="14179" type="EtcItem" name="遺忘祕傳書-箭雨">
 		<set name="icon" val="icon.etc_spell_books_element_i00" />
 		<set name="default_action" val="skill_reduce" />
 		<set name="material" val="paper" />
@@ -1897,7 +1897,7 @@
 		<set name="handler" val="ItemSkills" />
 		<set name="item_skill" val="2812-1" />
 	</item>
-	<item id="14180" type="EtcItem" name="Forgotten Scroll - Ghost Piercing">
+	<item id="14180" type="EtcItem" name="遺忘祕傳書-鬼刺">
 		<set name="icon" val="icon.etc_spell_books_element_i00" />
 		<set name="default_action" val="skill_reduce" />
 		<set name="material" val="paper" />
@@ -1910,7 +1910,7 @@
 		<set name="handler" val="ItemSkills" />
 		<set name="item_skill" val="2813-1" />
 	</item>
-	<item id="14181" type="EtcItem" name="Forgotten Scroll - Dread Pool">
+	<item id="14181" type="EtcItem" name="遺忘祕傳書-恐懼佈滿">
 		<set name="icon" val="icon.etc_spell_books_element_i00" />
 		<set name="default_action" val="skill_reduce" />
 		<set name="material" val="paper" />
@@ -1923,7 +1923,7 @@
 		<set name="handler" val="ItemSkills" />
 		<set name="item_skill" val="2814-1" />
 	</item>
-	<item id="14182" type="EtcItem" name="Forgotten Scroll - Force of Destruction">
+	<item id="14182" type="EtcItem" name="遺忘祕傳書-毀滅之力">
 		<set name="icon" val="icon.etc_spell_books_element_i00" />
 		<set name="default_action" val="skill_reduce" />
 		<set name="material" val="paper" />
@@ -1936,7 +1936,7 @@
 		<set name="handler" val="ItemSkills" />
 		<set name="item_skill" val="2815-1" />
 	</item>
-	<item id="14183" type="EtcItem" name="Forgotten Scroll - Demolition Impact">
+	<item id="14183" type="EtcItem" name="遺忘祕傳書-壞滅衝擊">
 		<set name="icon" val="icon.etc_spell_books_element_i00" />
 		<set name="default_action" val="skill_reduce" />
 		<set name="material" val="paper" />
@@ -1949,7 +1949,7 @@
 		<set name="handler" val="ItemSkills" />
 		<set name="item_skill" val="2816-1" />
 	</item>
-	<item id="14184" type="EtcItem" name="Forgotten Scroll - Golem Armor">
+	<item id="14184" type="EtcItem" name="遺忘祕傳書-高崙裝甲">
 		<set name="icon" val="icon.etc_spell_books_element_i00" />
 		<set name="default_action" val="skill_reduce" />
 		<set name="material" val="paper" />
@@ -1962,7 +1962,7 @@
 		<set name="handler" val="ItemSkills" />
 		<set name="item_skill" val="2817-1" />
 	</item>
-	<item id="14185" type="EtcItem" name="Forgotten Scroll - Wild Shot">
+	<item id="14185" type="EtcItem" name="遺忘祕傳書-野性射擊">
 		<set name="icon" val="icon.etc_spell_books_element_i00" />
 		<set name="default_action" val="skill_reduce" />
 		<set name="material" val="paper" />
@@ -1975,7 +1975,7 @@
 		<set name="handler" val="ItemSkills" />
 		<set name="item_skill" val="2818-1" />
 	</item>
-	<item id="14186" type="EtcItem" name="Forgotten Scroll - Lightning Shock">
+	<item id="14186" type="EtcItem" name="遺忘祕傳書-強雷震盪">
 		<set name="icon" val="icon.etc_spell_books_element_i00" />
 		<set name="default_action" val="skill_reduce" />
 		<set name="material" val="paper" />
@@ -1988,7 +1988,7 @@
 		<set name="handler" val="ItemSkills" />
 		<set name="item_skill" val="2819-1" />
 	</item>
-	<item id="14187" type="EtcItem" name="Forgotten Scroll - Flame Armor">
+	<item id="14187" type="EtcItem" name="遺忘祕傳書-火焰裝甲">
 		<set name="icon" val="icon.etc_spell_books_element_i00" />
 		<set name="default_action" val="skill_reduce" />
 		<set name="material" val="paper" />
@@ -2001,7 +2001,7 @@
 		<set name="handler" val="ItemSkills" />
 		<set name="item_skill" val="2820-1" />
 	</item>
-	<item id="14188" type="EtcItem" name="Forgotten Scroll - Frost Armor">
+	<item id="14188" type="EtcItem" name="遺忘祕傳書-寒霜裝甲">
 		<set name="icon" val="icon.etc_spell_books_element_i00" />
 		<set name="default_action" val="skill_reduce" />
 		<set name="material" val="paper" />
@@ -2014,7 +2014,7 @@
 		<set name="handler" val="ItemSkills" />
 		<set name="item_skill" val="2821-1" />
 	</item>
-	<item id="14189" type="EtcItem" name="Forgotten Scroll - Hurricane Armor">
+	<item id="14189" type="EtcItem" name="遺忘祕傳書-風暴裝甲">
 		<set name="icon" val="icon.etc_spell_books_element_i00" />
 		<set name="default_action" val="skill_reduce" />
 		<set name="material" val="paper" />
@@ -2027,7 +2027,7 @@
 		<set name="handler" val="ItemSkills" />
 		<set name="item_skill" val="2822-1" />
 	</item>
-	<item id="14190" type="EtcItem" name="Forgotten Scroll - Vampiric Mist">
+	<item id="14190" type="EtcItem" name="遺忘祕傳書-吸血迷霧">
 		<set name="icon" val="icon.etc_spell_books_element_i00" />
 		<set name="default_action" val="skill_reduce" />
 		<set name="material" val="paper" />
@@ -2040,7 +2040,7 @@
 		<set name="handler" val="ItemSkills" />
 		<set name="item_skill" val="2823-1" />
 	</item>
-	<item id="14191" type="EtcItem" name="Forgotten Scroll - Meteor">
+	<item id="14191" type="EtcItem" name="遺忘祕傳書-隕石術">
 		<set name="icon" val="icon.etc_spell_books_element_i00" />
 		<set name="default_action" val="skill_reduce" />
 		<set name="material" val="paper" />
@@ -2050,7 +2050,7 @@
 		<set name="handler" val="ItemSkills" />
 		<set name="item_skill" val="2824-1" />
 	</item>
-	<item id="14192" type="EtcItem" name="Forgotten Scroll - Star Fall">
+	<item id="14192" type="EtcItem" name="遺忘祕傳書-墜星術">
 		<set name="icon" val="icon.etc_spell_books_element_i00" />
 		<set name="default_action" val="skill_reduce" />
 		<set name="material" val="paper" />
@@ -2060,7 +2060,7 @@
 		<set name="handler" val="ItemSkills" />
 		<set name="item_skill" val="2825-1" />
 	</item>
-	<item id="14193" type="EtcItem" name="Forgotten Scroll - Sublime Self Sacrifice">
+	<item id="14193" type="EtcItem" name="遺忘祕傳書-崇高自我獻祭">
 		<set name="icon" val="icon.etc_spell_books_element_i00" />
 		<set name="default_action" val="skill_reduce" />
 		<set name="material" val="paper" />
@@ -2073,7 +2073,7 @@
 		<set name="handler" val="ItemSkills" />
 		<set name="item_skill" val="2826-1" />
 	</item>
-	<item id="14194" type="EtcItem" name="Forgotten Scroll - Blessing of Eva">
+	<item id="14194" type="EtcItem" name="遺忘祕傳書-伊娃祝福">
 		<set name="icon" val="icon.etc_spell_books_element_i00" />
 		<set name="default_action" val="skill_reduce" />
 		<set name="material" val="paper" />
@@ -2086,7 +2086,7 @@
 		<set name="handler" val="ItemSkills" />
 		<set name="item_skill" val="2827-1" />
 	</item>
-	<item id="14195" type="EtcItem" name="Forgotten Scroll - Lord of Vampire">
+	<item id="14195" type="EtcItem" name="遺忘祕傳書-吸血鬼之王">
 		<set name="icon" val="icon.etc_spell_books_element_i00" />
 		<set name="default_action" val="skill_reduce" />
 		<set name="material" val="paper" />
@@ -2099,7 +2099,7 @@
 		<set name="handler" val="ItemSkills" />
 		<set name="item_skill" val="2828-1" />
 	</item>
-	<item id="14196" type="EtcItem" name="Forgotten Scroll - Throne Route">
+	<item id="14196" type="EtcItem" name="遺忘祕傳書-霸權纏繞">
 		<set name="icon" val="icon.etc_spell_books_element_i00" />
 		<set name="default_action" val="skill_reduce" />
 		<set name="material" val="paper" />
@@ -2112,7 +2112,7 @@
 		<set name="handler" val="ItemSkills" />
 		<set name="item_skill" val="2829-1" />
 	</item>
-	<item id="14197" type="EtcItem" name="Forgotten Scroll - Seal of Limit">
+	<item id="14197" type="EtcItem" name="遺忘祕傳書-極限封印">
 		<set name="icon" val="icon.etc_spell_books_element_i00" />
 		<set name="default_action" val="skill_reduce" />
 		<set name="material" val="paper" />
@@ -2125,7 +2125,7 @@
 		<set name="handler" val="ItemSkills" />
 		<set name="item_skill" val="2830-1" />
 	</item>
-	<item id="14198" type="EtcItem" name="Forgotten Scroll - Song of Purification">
+	<item id="14198" type="EtcItem" name="遺忘祕傳書-純淨之歌">
 		<set name="icon" val="icon.etc_spell_books_element_i00" />
 		<set name="default_action" val="skill_reduce" />
 		<set name="material" val="paper" />
@@ -2138,7 +2138,7 @@
 		<set name="handler" val="ItemSkills" />
 		<set name="item_skill" val="2652-1" />
 	</item>
-	<item id="14199" type="EtcItem" name="Forgotten Scroll - Dance of Berserker">
+	<item id="14199" type="EtcItem" name="遺忘祕傳書-狂戰士之舞">
 		<set name="icon" val="icon.etc_spell_books_element_i00" />
 		<set name="default_action" val="skill_reduce" />
 		<set name="material" val="paper" />

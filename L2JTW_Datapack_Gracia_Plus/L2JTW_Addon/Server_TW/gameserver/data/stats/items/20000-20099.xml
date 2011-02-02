@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <list>
-	<item id="20000" type="EtcItem" name="Spicy Kimchee">
+	<item id="20000" type="EtcItem" name="辣白菜泡菜">
 		<set name="icon" val="BranchSys.icon.etc_kimchi_power_i00" />
 		<set name="immediate_effect" val="1" />
 		<set name="ex_immediate_effect" val="1" />
@@ -8,7 +8,7 @@
 		<set name="is_oly_restricted" val="true" />
 		<set name="item_skill" val="22000-1" />
 	</item>
-	<item id="20001" type="EtcItem" name="Spicy Kimchee">
+	<item id="20001" type="EtcItem" name="辣白菜泡菜">
 		<set name="icon" val="BranchSys.icon.etc_kimchi_power_i00" />
 		<set name="immediate_effect" val="1" />
 		<set name="ex_immediate_effect" val="1" />
@@ -16,7 +16,7 @@
 		<set name="is_oly_restricted" val="true" />
 		<set name="item_skill" val="22001-1" />
 	</item>
-	<item id="20002" type="EtcItem" name="Spicy Kimchee">
+	<item id="20002" type="EtcItem" name="辣白菜泡菜">
 		<set name="icon" val="BranchSys.icon.etc_kimchi_power_i00" />
 		<set name="immediate_effect" val="1" />
 		<set name="ex_immediate_effect" val="1" />
@@ -24,7 +24,7 @@
 		<set name="is_oly_restricted" val="true" />
 		<set name="item_skill" val="22002-1" />
 	</item>
-	<item id="20003" type="EtcItem" name="Sweet-and-Sour White Kimchee">
+	<item id="20003" type="EtcItem" name="酸甜白泡菜">
 		<set name="icon" val="BranchSys.icon.etc_kimchi_time_i00" />
 		<set name="immediate_effect" val="1" />
 		<set name="ex_immediate_effect" val="1" />
@@ -32,7 +32,7 @@
 		<set name="is_oly_restricted" val="true" />
 		<set name="item_skill" val="22003-1" />
 	</item>
-	<item id="20004" type="EtcItem" name="Energy Ginseng">
+	<item id="20004" type="EtcItem" name="活力人蔘">
 		<set name="icon" val="BranchSys.icon.etc_ginseng_recovery_i00" />
 		<set name="immediate_effect" val="1" />
 		<set name="ex_immediate_effect" val="1" />
@@ -41,7 +41,7 @@
 		<set name="handler" val="ItemSkills" />
 		<set name="item_skill" val="22004-1" />
 	</item>
-	<item id="20005" type="EtcItem" name="Energy Red Ginseng">
+	<item id="20005" type="EtcItem" name="活力紅蔘">
 		<set name="immediate_effect" val="1" />
 		<set name="ex_immediate_effect" val="1" />
 		<set name="material" val="paper" />
@@ -49,7 +49,7 @@
 		<set name="handler" val="ItemSkills" />
 		<set name="item_skill" val="22005-1" />
 	</item>
-	<item id="20006" type="Armor" name="Agathion Seal Bracelet - Majo">
+	<item id="20006" type="Armor" name="壺精封印手鐲-媽祖">
 		<set name="icon" val="BranchSys.icon.br_bracelet_aga_mazu_i00" />
 		<set name="default_action" val="equip" />
 		<set name="bodypart" val="lbracelet" />
@@ -63,7 +63,7 @@
 		<set name="unequip_skill" val="3267-1" />
 		<set name="item_skill" val="3267-1;21000-1;23000-1" />
 	</item>
-	<item id="20007" type="Armor" name="Agathion Seal Bracelet - Gold Majo">
+	<item id="20007" type="Armor" name="壺精封印手鐲-金面媽祖">
 		<set name="icon" val="BranchSys.icon.br_bracelet_aga_mazu_i00" />
 		<set name="default_action" val="equip" />
 		<set name="bodypart" val="lbracelet" />
@@ -77,7 +77,7 @@
 		<set name="unequip_skill" val="3267-1" />
 		<set name="item_skill" val="3267-1;21001-1;23001-1" />
 	</item>
-	<item id="20008" type="Armor" name="Agathion Seal Bracelet - Black Majo">
+	<item id="20008" type="Armor" name="壺精封印手鐲-黑面媽祖">
 		<set name="icon" val="BranchSys.icon.br_bracelet_aga_mazu_i00" />
 		<set name="default_action" val="equip" />
 		<set name="bodypart" val="lbracelet" />
@@ -91,7 +91,7 @@
 		<set name="unequip_skill" val="3267-1" />
 		<set name="item_skill" val="3267-1;21002-1;23002-1" />
 	</item>
-	<item id="20009" type="Armor" name="Agathion Seal Bracelet - Majo - Big Head 30 Day Expiration Period">
+	<item id="20009" type="Armor" name="壺精封印手鐲-媽祖">
 		<set name="icon" val="BranchSys.icon.br_bracelet_aga_mazu_i00" />
 		<set name="default_action" val="equip" />
 		<set name="bodypart" val="lbracelet" />
@@ -106,7 +106,7 @@
 		<set name="item_skill" val="3267-1;21000-1;23000-1;23000-1;23004-1" />
 		<set name="time" val="43200" />
 	</item>
-	<item id="20010" type="Armor" name="Agathion Seal Bracelet - Gold Majo - Resurrection 30 Day Expiration Period">
+	<item id="20010" type="Armor" name="壺精封印手鐲-金面媽祖">
 		<set name="icon" val="BranchSys.icon.br_bracelet_aga_mazu_i00" />
 		<set name="default_action" val="equip" />
 		<set name="bodypart" val="lbracelet" />
@@ -122,7 +122,7 @@
 		<set name="item_skill" val="3267-1;21001-1;23001-1;23001-1;23005-1" />
 		<set name="time" val="43200" />
 	</item>
-	<item id="20011" type="Armor" name="Agathion Seal Bracelet - Black Majo - Escape 30 Day Expiration Period">
+	<item id="20011" type="Armor" name="壺精封印手鐲-黑面媽祖">
 		<set name="icon" val="BranchSys.icon.br_bracelet_aga_mazu_i00" />
 		<set name="default_action" val="equip" />
 		<set name="bodypart" val="lbracelet" />
@@ -138,7 +138,7 @@
 		<set name="item_skill" val="3267-1;21002-1;23002-1;23002-1;23006-1" />
 		<set name="time" val="43200" />
 	</item>
-	<item id="20012" type="Armor" name="Agathion Seal Bracelet - Plaipitak">
+	<item id="20012" type="Armor" name="壺精封印手鐲-普萊皮塔">
 		<set name="icon" val="BranchSys.icon.br_bracelet_aga_pitak_i00" />
 		<set name="default_action" val="equip" />
 		<set name="bodypart" val="lbracelet" />
@@ -152,7 +152,7 @@
 		<set name="unequip_skill" val="3267-1" />
 		<set name="item_skill" val="3267-1;21003-1;23003-1" />
 	</item>
-	<item id="20013" type="Armor" name="Agathion Seal Bracelet - Plaipitak - Big Head 30 Day Expiration Period">
+	<item id="20013" type="Armor" name="壺精封印手鐲-普萊皮塔">
 		<set name="icon" val="BranchSys.icon.br_bracelet_aga_pitak_i00" />
 		<set name="default_action" val="equip" />
 		<set name="bodypart" val="lbracelet" />
@@ -167,7 +167,7 @@
 		<set name="item_skill" val="3267-1;21003-1;23003-1;23007-1" />
 		<set name="time" val="43200" />
 	</item>
-	<item id="20014" type="Armor" name="Agathion Seal Bracelet - Plaipitak - Resurrection 30 Day Expiration Period">
+	<item id="20014" type="Armor" name="壺精封印手鐲-普萊皮塔">
 		<set name="icon" val="BranchSys.icon.br_bracelet_aga_pitak_i00" />
 		<set name="default_action" val="equip" />
 		<set name="bodypart" val="lbracelet" />
@@ -183,7 +183,7 @@
 		<set name="item_skill" val="3267-1;21003-1;23003-1;23009-1" />
 		<set name="time" val="43200" />
 	</item>
-	<item id="20015" type="Armor" name="Agathion Seal Bracelet - Plaipitak - Escape 30 Day Expiration Period">
+	<item id="20015" type="Armor" name="壺精封印手鐲-普萊皮塔">
 		<set name="icon" val="BranchSys.icon.br_bracelet_aga_pitak_i00" />
 		<set name="default_action" val="equip" />
 		<set name="bodypart" val="lbracelet" />
@@ -199,7 +199,7 @@
 		<set name="item_skill" val="3267-1;21003-1;23003-1;23008-1" />
 		<set name="time" val="43200" />
 	</item>
-	<item id="20016" type="Armor" name="Horn-Rimmed Glasses - Agility">
+	<item id="20016" type="Armor" name="粗框眼鏡">
 		<set name="icon" val="BranchSys.icon.br_Eye_Glasses_i00" />
 		<set name="default_action" val="equip" />
 		<set name="bodypart" val="hair" />
@@ -213,7 +213,7 @@
 		<set name="is_oly_restricted" val="true" />
 		<set name="item_skill" val="21005-3" />
 	</item>
-	<item id="20017" type="Armor" name="Afro Hair">
+	<item id="20017" type="Armor" name="爆炸頭">
 		<set name="icon" val="BranchSys.icon.br_Afro_hair_i00" />
 		<set name="default_action" val="equip" />
 		<set name="bodypart" val="hairall" />
@@ -223,7 +223,7 @@
 		<set name="is_premium" val="true" />
 		<set name="is_oly_restricted" val="true" />
 	</item>
-	<item id="20018" type="Armor" name="Afro Hair - Big Head, Firework">
+	<item id="20018" type="Armor" name="爆炸頭">
 		<set name="icon" val="BranchSys.icon.br_Afro_hair_i00" />
 		<set name="default_action" val="equip" />
 		<set name="bodypart" val="hairall" />
@@ -234,7 +234,7 @@
 		<set name="is_oly_restricted" val="true" />
 		<set name="item_skill" val="21006-1;21007-1" />
 	</item>
-	<item id="20019" type="Armor" name="Afro Hair - Wind Walk">
+	<item id="20019" type="Armor" name="爆炸頭">
 		<set name="icon" val="BranchSys.icon.br_Afro_hair_i00" />
 		<set name="default_action" val="equip" />
 		<set name="bodypart" val="hairall" />
@@ -245,7 +245,7 @@
 		<set name="is_oly_restricted" val="true" />
 		<set name="item_skill" val="21004-1" />
 	</item>
-	<item id="20020" type="Armor" name="Uniform Hat">
+	<item id="20020" type="Armor" name="制服帽">
 		<set name="icon" val="BranchSys.icon.br_Uniform_Hat_i00" />
 		<set name="default_action" val="equip" />
 		<set name="bodypart" val="hairall" />
@@ -255,7 +255,7 @@
 		<set name="is_premium" val="true" />
 		<set name="is_oly_restricted" val="true" />
 	</item>
-	<item id="20021" type="Armor" name="Assassin's Bamboo Hat">
+	<item id="20021" type="Armor" name="刺客斗笠">
 		<set name="icon" val="BranchSys.icon.br_Bamboo_Hat_i00" />
 		<set name="default_action" val="equip" />
 		<set name="bodypart" val="hairall" />
@@ -265,7 +265,7 @@
 		<set name="is_premium" val="true" />
 		<set name="is_oly_restricted" val="true" />
 	</item>
-	<item id="20022" type="Armor" name="Ruthless Tribe Mask">
+	<item id="20022" type="Armor" name="暴走族口罩">
 		<set name="icon" val="BranchSys.icon.br_mask_i00" />
 		<set name="default_action" val="equip" />
 		<set name="bodypart" val="hair" />
@@ -275,7 +275,7 @@
 		<set name="is_premium" val="true" />
 		<set name="is_oly_restricted" val="true" />
 	</item>
-	<item id="20023" type="Armor" name="Ribbon Hairband">
+	<item id="20023" type="Armor" name="緞帶髮飾">
 		<set name="icon" val="BranchSys.icon.br_Ribbon_i00" />
 		<set name="default_action" val="equip" />
 		<set name="bodypart" val="hair" />
@@ -289,7 +289,7 @@
 			<player sex="1" />
 		</cond>
 	</item>
-	<item id="20024" type="Armor" name="Visor">
+	<item id="20024" type="Armor" name="白羽黃金假面">
 		<set name="icon" val="BranchSys.icon.br_Eye_Visor_i00" />
 		<set name="default_action" val="equip" />
 		<set name="bodypart" val="hairall" />
@@ -303,7 +303,7 @@
 			<player sex="0" />
 		</cond>
 	</item>
-	<item id="20025" type="EtcItem" name="My Teleport Spellbook">
+	<item id="20025" type="EtcItem" name="自由傳送卷軸">
 		<set name="icon" val="icon.bookmark_scroll_i00" />
 		<set name="immediate_effect" val="1" />
 		<set name="material" val="paper" />
@@ -311,7 +311,7 @@
 		<set name="is_stackable" val="true" />
 		<set name="is_premium" val="true" />
 	</item>
-	<item id="20026" type="EtcItem" name="Extra Entrance Pass - Kamaloka (Hall of the Abyss)">
+	<item id="20026" type="EtcItem" name="追加入場券-欲界(深淵之廳)">
 		<set name="icon" val="icon.ticket_i00" />
 		<set name="default_action" val="skill_reduce" />
 		<set name="material" val="paper" />
@@ -320,7 +320,7 @@
 		<set name="is_premium" val="true" />
 		<set name="item_skill" val="22019-1" />
 	</item>
-	<item id="20027" type="EtcItem" name="Extra Entrance Pass - Near Kamaloka">
+	<item id="20027" type="EtcItem" name="追加入場券-近緣欲界">
 		<set name="icon" val="icon.ticket_i00" />
 		<set name="default_action" val="skill_reduce" />
 		<set name="material" val="paper" />
@@ -329,7 +329,7 @@
 		<set name="is_premium" val="true" />
 		<set name="item_skill" val="22020-1" />
 	</item>
-	<item id="20028" type="EtcItem" name="Extra Entrance Pass - Kamaloka (Labyrinth of the Abyss)">
+	<item id="20028" type="EtcItem" name="追加入場券-欲界(深淵迷宮)">
 		<set name="icon" val="icon.ticket_i00" />
 		<set name="default_action" val="skill_reduce" />
 		<set name="material" val="paper" />
@@ -338,7 +338,7 @@
 		<set name="is_premium" val="true" />
 		<set name="item_skill" val="22021-1" />
 	</item>
-	<item id="20029" type="Armor" name="Light Purple-Maned Horse Mounting Bracelet">
+	<item id="20029" type="Armor" name="淡紫鬃馬騎乘手鐲">
 		<set name="icon" val="icon.etc_rbracelet_aga_agit_i00" />
 		<set name="default_action" val="equip" />
 		<set name="bodypart" val="lbracelet" />
@@ -352,7 +352,7 @@
 		<set name="unequip_skill" val="619-1" />
 		<set name="item_skill" val="8247-1" />
 	</item>
-	<item id="20030" type="Armor" name="Light Purple-Maned Horse Mounting Bracelet - 30 Day Expiration Period">
+	<item id="20030" type="Armor" name="淡紫鬃馬騎乘手鐲">
 		<set name="icon" val="icon.etc_rbracelet_aga_agit_i00" />
 		<set name="default_action" val="equip" />
 		<set name="bodypart" val="lbracelet" />
@@ -367,7 +367,7 @@
 		<set name="item_skill" val="8247-1" />
 		<set name="time" val="43200" />
 	</item>
-	<item id="20031" type="Armor" name="Kat the Cat Hat">
+	<item id="20031" type="Armor" name="戰鬥貓帽">
 		<set name="icon" val="icon.accessory_cat_the_cat_cap_i00" />
 		<set name="default_action" val="equip" />
 		<set name="bodypart" val="hairall" />
@@ -377,7 +377,7 @@
 		<set name="is_premium" val="true" />
 		<set name="is_oly_restricted" val="true" />
 	</item>
-	<item id="20032" type="Armor" name="Skull Hat">
+	<item id="20032" type="Armor" name="骷髏帽">
 		<set name="icon" val="icon.accessory_skeleton_cap_i00" />
 		<set name="default_action" val="equip" />
 		<set name="bodypart" val="hairall" />
@@ -387,7 +387,7 @@
 		<set name="is_premium" val="true" />
 		<set name="is_oly_restricted" val="true" />
 	</item>
-	<item id="20033" type="EtcItem" name="My Teleport Flag">
+	<item id="20033" type="EtcItem" name="自由傳送旗">
 		<set name="icon" val="BranchSys.icon.br_flag_of_bookmark_i00" />
 		<set name="immediate_effect" val="1" />
 		<set name="material" val="paper" />
@@ -395,7 +395,7 @@
 		<set name="is_stackable" val="true" />
 		<set name="is_premium" val="true" />
 	</item>
-	<item id="20034" type="EtcItem" name="Revita-Pop">
+	<item id="20034" type="EtcItem" name="萬聖夜活力糖果-活動用">
 		<set name="icon" val="BranchSys.br_hallowinday_candy_i00" />
 		<set name="default_action" val="skill_reduce" />
 		<set name="etcitem_type" val="potion" />
@@ -410,7 +410,7 @@
 		<set name="handler" val="ItemSkills" />
 		<set name="item_skill" val="22006-1" />
 	</item>
-	<item id="20035" type="EtcItem" name="Majo Agathion Pack">
+	<item id="20035" type="EtcItem" name="媽祖壺精組">
 		<set name="icon" val="icon.etc_pi_gift_box_i00" />
 		<set name="default_action" val="peel" />
 		<set name="immediate_effect" val="1" />
@@ -424,7 +424,7 @@
 		<set name="handler" val="ExtractableItems" />
 		<set name="capsuled_items" val="20006,1,1,100" />
 	</item>
-	<item id="20036" type="EtcItem" name="Gold Crown Majo Agathion Pack">
+	<item id="20036" type="EtcItem" name="金面媽祖壺精組">
 		<set name="icon" val="icon.etc_pi_gift_box_i00" />
 		<set name="default_action" val="peel" />
 		<set name="immediate_effect" val="1" />
@@ -438,7 +438,7 @@
 		<set name="handler" val="ExtractableItems" />
 		<set name="capsuled_items" val="20007,1,1,100" />
 	</item>
-	<item id="20037" type="EtcItem" name="Black Crown Majo Agathion Pack">
+	<item id="20037" type="EtcItem" name="黑面媽祖壺精組">
 		<set name="icon" val="icon.etc_pi_gift_box_i00" />
 		<set name="default_action" val="peel" />
 		<set name="immediate_effect" val="1" />
@@ -452,7 +452,7 @@
 		<set name="handler" val="ExtractableItems" />
 		<set name="capsuled_items" val="20008,1,1,100" />
 	</item>
-	<item id="20038" type="EtcItem" name="Majo Agathion 30-Day Pack - Big Head">
+	<item id="20038" type="EtcItem" name="媽祖壺精 30日/組">
 		<set name="icon" val="icon.etc_pi_gift_box_i00" />
 		<set name="default_action" val="peel" />
 		<set name="immediate_effect" val="1" />
@@ -466,7 +466,7 @@
 		<set name="handler" val="ExtractableItems" />
 		<set name="capsuled_items" val="20009,1,1,100" />
 	</item>
-	<item id="20039" type="EtcItem" name="Gold Crown Majo Agathion 30-Day Pack - Resurrection">
+	<item id="20039" type="EtcItem" name="金面媽祖壺精 30日/組">
 		<set name="icon" val="icon.etc_pi_gift_box_i00" />
 		<set name="default_action" val="peel" />
 		<set name="immediate_effect" val="1" />
@@ -480,7 +480,7 @@
 		<set name="handler" val="ExtractableItems" />
 		<set name="capsuled_items" val="20010,1,1,100" />
 	</item>
-	<item id="20040" type="EtcItem" name="Black Crown Majo Agathion 30-Day Pack - Leave">
+	<item id="20040" type="EtcItem" name="黑面媽祖壺精 30日/組">
 		<set name="icon" val="icon.etc_pi_gift_box_i00" />
 		<set name="default_action" val="peel" />
 		<set name="immediate_effect" val="1" />
@@ -494,7 +494,7 @@
 		<set name="handler" val="ExtractableItems" />
 		<set name="capsuled_items" val="20011,1,1,100" />
 	</item>
-	<item id="20041" type="EtcItem" name="Plaipitak Agathion Pack">
+	<item id="20041" type="EtcItem" name="普萊皮塔壺精組">
 		<set name="icon" val="icon.etc_pi_gift_box_i00" />
 		<set name="default_action" val="peel" />
 		<set name="immediate_effect" val="1" />
@@ -508,7 +508,7 @@
 		<set name="handler" val="ExtractableItems" />
 		<set name="capsuled_items" val="20012,1,1,100" />
 	</item>
-	<item id="20042" type="EtcItem" name="Plaipitak Agathion 30-Day Pack - Big Head">
+	<item id="20042" type="EtcItem" name="普萊皮塔壺精 30日/組">
 		<set name="icon" val="icon.etc_pi_gift_box_i00" />
 		<set name="default_action" val="peel" />
 		<set name="immediate_effect" val="1" />
@@ -522,7 +522,7 @@
 		<set name="handler" val="ExtractableItems" />
 		<set name="capsuled_items" val="20013,1,1,100" />
 	</item>
-	<item id="20043" type="EtcItem" name="Plaipitak Agathion 30-Day Pack - Resurrection">
+	<item id="20043" type="EtcItem" name="普萊皮塔壺精 30日/組">
 		<set name="icon" val="icon.etc_pi_gift_box_i00" />
 		<set name="default_action" val="peel" />
 		<set name="immediate_effect" val="1" />
@@ -536,7 +536,7 @@
 		<set name="handler" val="ExtractableItems" />
 		<set name="capsuled_items" val="20014,1,1,100" />
 	</item>
-	<item id="20044" type="EtcItem" name="Plaipitak Agathion 30-Day Pack - Leave">
+	<item id="20044" type="EtcItem" name="普萊皮塔壺精 30日/組">
 		<set name="icon" val="icon.etc_pi_gift_box_i00" />
 		<set name="default_action" val="peel" />
 		<set name="immediate_effect" val="1" />
@@ -550,7 +550,7 @@
 		<set name="handler" val="ExtractableItems" />
 		<set name="capsuled_items" val="20015,1,1,100" />
 	</item>
-	<item id="20045" type="EtcItem" name="Horn-Rimmed Glasses Pack - Agility">
+	<item id="20045" type="EtcItem" name="粗框眼鏡組">
 		<set name="icon" val="icon.etc_pi_gift_box_i00" />
 		<set name="default_action" val="peel" />
 		<set name="immediate_effect" val="1" />
@@ -564,7 +564,7 @@
 		<set name="handler" val="ExtractableItems" />
 		<set name="capsuled_items" val="20016,1,1,100" />
 	</item>
-	<item id="20046" type="EtcItem" name="Afro Hair Pack">
+	<item id="20046" type="EtcItem" name="爆炸頭組">
 		<set name="icon" val="icon.etc_pi_gift_box_i00" />
 		<set name="default_action" val="peel" />
 		<set name="immediate_effect" val="1" />
@@ -575,7 +575,7 @@
 		<set name="handler" val="ExtractableItems" />
 		<set name="capsuled_items" val="20017,1,1,100" />
 	</item>
-	<item id="20047" type="EtcItem" name="Afro Hair Pack - Big Head, Firework">
+	<item id="20047" type="EtcItem" name="爆炸頭組">
 		<set name="icon" val="icon.etc_pi_gift_box_i00" />
 		<set name="default_action" val="peel" />
 		<set name="immediate_effect" val="1" />
@@ -586,7 +586,7 @@
 		<set name="handler" val="ExtractableItems" />
 		<set name="capsuled_items" val="20018,1,1,100" />
 	</item>
-	<item id="20048" type="EtcItem" name="Afro Hair Pack - Wind Walk">
+	<item id="20048" type="EtcItem" name="爆炸頭組">
 		<set name="icon" val="icon.etc_pi_gift_box_i00" />
 		<set name="default_action" val="peel" />
 		<set name="immediate_effect" val="1" />
@@ -597,7 +597,7 @@
 		<set name="handler" val="ExtractableItems" />
 		<set name="capsuled_items" val="20019,1,1,100" />
 	</item>
-	<item id="20049" type="EtcItem" name="Uniform Hat Pack">
+	<item id="20049" type="EtcItem" name="制服帽組">
 		<set name="icon" val="icon.etc_pi_gift_box_i00" />
 		<set name="default_action" val="peel" />
 		<set name="immediate_effect" val="1" />
@@ -608,7 +608,7 @@
 		<set name="handler" val="ExtractableItems" />
 		<set name="capsuled_items" val="20020,1,1,100" />
 	</item>
-	<item id="20050" type="EtcItem" name="Assassin's Bamboo Hat Pack">
+	<item id="20050" type="EtcItem" name="刺客斗笠組">
 		<set name="icon" val="icon.etc_pi_gift_box_i00" />
 		<set name="default_action" val="peel" />
 		<set name="immediate_effect" val="1" />
@@ -619,7 +619,7 @@
 		<set name="handler" val="ExtractableItems" />
 		<set name="capsuled_items" val="20021,1,1,100" />
 	</item>
-	<item id="20051" type="EtcItem" name="Ruthless Tribe Mask Pack">
+	<item id="20051" type="EtcItem" name="暴走族口罩組">
 		<set name="icon" val="icon.etc_pi_gift_box_i00" />
 		<set name="default_action" val="peel" />
 		<set name="immediate_effect" val="1" />
@@ -630,7 +630,7 @@
 		<set name="handler" val="ExtractableItems" />
 		<set name="capsuled_items" val="20022,1,1,100" />
 	</item>
-	<item id="20052" type="EtcItem" name="Ribbon Hairband Pack">
+	<item id="20052" type="EtcItem" name="緞帶髮飾組">
 		<set name="icon" val="icon.etc_pi_gift_box_i00" />
 		<set name="default_action" val="peel" />
 		<set name="immediate_effect" val="1" />
@@ -641,7 +641,7 @@
 		<set name="handler" val="ExtractableItems" />
 		<set name="capsuled_items" val="20023,1,1,100" />
 	</item>
-	<item id="20053" type="EtcItem" name="Visor Pack">
+	<item id="20053" type="EtcItem" name="白羽黃金假面組">
 		<set name="icon" val="icon.etc_pi_gift_box_i00" />
 		<set name="default_action" val="peel" />
 		<set name="immediate_effect" val="1" />
@@ -652,7 +652,7 @@
 		<set name="handler" val="ExtractableItems" />
 		<set name="capsuled_items" val="20024,1,1,100" />
 	</item>
-	<item id="20054" type="EtcItem" name="My Teleport Spellbook 1-Sheet Pack">
+	<item id="20054" type="EtcItem" name="自由傳送卷軸 1張/組">
 		<set name="icon" val="icon.etc_pi_gift_box_i00" />
 		<set name="default_action" val="peel" />
 		<set name="immediate_effect" val="1" />
@@ -662,7 +662,7 @@
 		<set name="is_premium" val="true" />
 		<set name="capsuled_items" val="20025,1,1,100" />
 	</item>
-	<item id="20055" type="EtcItem" name="Extra Entrance Pass - Kamaloka (Hall of the Abyss) 1-Sheet Pack">
+	<item id="20055" type="EtcItem" name="追加入場券-欲界（深淵之廳） 1張/組">
 		<set name="icon" val="icon.etc_pi_gift_box_i00" />
 		<set name="default_action" val="peel" />
 		<set name="immediate_effect" val="1" />
@@ -672,7 +672,7 @@
 		<set name="is_premium" val="true" />
 		<set name="capsuled_items" val="20026,1,1,100" />
 	</item>
-	<item id="20056" type="EtcItem" name="Extra Entrance Pass - Near Kamaloka 1-Sheet Pack">
+	<item id="20056" type="EtcItem" name="追加入場券-近緣欲界 1張/組">
 		<set name="icon" val="icon.etc_pi_gift_box_i00" />
 		<set name="default_action" val="peel" />
 		<set name="immediate_effect" val="1" />
@@ -682,7 +682,7 @@
 		<set name="is_premium" val="true" />
 		<set name="capsuled_items" val="20027,1,1,100" />
 	</item>
-	<item id="20057" type="EtcItem" name="Extra Entrance Pass - Kamaloka (Labyrinth of the Abyss) 1-Sheet Pack">
+	<item id="20057" type="EtcItem" name="追加入場券-欲界（深淵迷宮） 1張/組">
 		<set name="icon" val="icon.etc_pi_gift_box_i00" />
 		<set name="default_action" val="peel" />
 		<set name="immediate_effect" val="1" />
@@ -692,7 +692,7 @@
 		<set name="is_premium" val="true" />
 		<set name="capsuled_items" val="20028,1,1,100" />
 	</item>
-	<item id="20058" type="EtcItem" name="Light Purple-Maned Horse Bracelet Pack">
+	<item id="20058" type="EtcItem" name="淡紫鬃馬手鐲組">
 		<set name="icon" val="icon.etc_pi_gift_box_i00" />
 		<set name="default_action" val="peel" />
 		<set name="immediate_effect" val="1" />
@@ -706,7 +706,7 @@
 		<set name="handler" val="ExtractableItems" />
 		<set name="capsuled_items" val="20029,1,1,100" />
 	</item>
-	<item id="20059" type="EtcItem" name="Light Purple Maned Horse Bracelet 30-Day Pack">
+	<item id="20059" type="EtcItem" name="淡紫鬃馬手鐲 30日/組">
 		<set name="icon" val="icon.etc_pi_gift_box_i00" />
 		<set name="default_action" val="peel" />
 		<set name="immediate_effect" val="1" />
@@ -720,7 +720,7 @@
 		<set name="handler" val="ExtractableItems" />
 		<set name="capsuled_items" val="20030,1,1,100" />
 	</item>
-	<item id="20060" type="EtcItem" name="Kat the Cat Hat Pack">
+	<item id="20060" type="EtcItem" name="戰鬥貓帽組">
 		<set name="icon" val="icon.etc_pi_gift_box_i00" />
 		<set name="default_action" val="peel" />
 		<set name="immediate_effect" val="1" />
@@ -731,7 +731,7 @@
 		<set name="handler" val="ExtractableItems" />
 		<set name="capsuled_items" val="20031,1,1,100" />
 	</item>
-	<item id="20061" type="EtcItem" name="Skull Hat Pack">
+	<item id="20061" type="EtcItem" name="骷髏帽組">
 		<set name="icon" val="icon.etc_pi_gift_box_i00" />
 		<set name="default_action" val="peel" />
 		<set name="immediate_effect" val="1" />
@@ -742,7 +742,7 @@
 		<set name="handler" val="ExtractableItems" />
 		<set name="capsuled_items" val="20032,1,1,100" />
 	</item>
-	<item id="20062" type="EtcItem" name="My Teleport Flag Pack">
+	<item id="20062" type="EtcItem" name="自由傳送旗組">
 		<set name="icon" val="icon.etc_pi_gift_box_i00" />
 		<set name="default_action" val="peel" />
 		<set name="immediate_effect" val="1" />
@@ -752,7 +752,7 @@
 		<set name="is_premium" val="true" />
 		<set name="capsuled_items" val="20033,1,1,100" />
 	</item>
-	<item id="20063" type="Armor" name="Agathion Seal Bracelet - Baby Panda">
+	<item id="20063" type="Armor" name="壺精封印手鐲-寶寶貓熊">
 		<set name="icon" val="BranchSys.icon.br_baby_panda_i00" />
 		<set name="default_action" val="equip" />
 		<set name="bodypart" val="lbracelet" />
@@ -766,7 +766,7 @@
 		<set name="unequip_skill" val="3267-1" />
 		<set name="item_skill" val="3267-1;21008-1;23010-1" />
 	</item>
-	<item id="20064" type="Armor" name="Agathion Seal Bracelet - Bamboo Panda">
+	<item id="20064" type="Armor" name="壺精封印手鐲-團團貓熊">
 		<set name="icon" val="BranchSys.icon.br_kunfu_panda_i00" />
 		<set name="default_action" val="equip" />
 		<set name="bodypart" val="lbracelet" />
@@ -780,7 +780,7 @@
 		<set name="unequip_skill" val="3267-1" />
 		<set name="item_skill" val="3267-1;21009-1;23011-1" />
 	</item>
-	<item id="20065" type="Armor" name="Agathion Seal Bracelet - Sexy Panda">
+	<item id="20065" type="Armor" name="壺精封印手鐲-圓圓貓熊">
 		<set name="icon" val="BranchSys.icon.br_sexy_panda_i00" />
 		<set name="default_action" val="equip" />
 		<set name="bodypart" val="lbracelet" />
@@ -794,7 +794,7 @@
 		<set name="unequip_skill" val="3267-1" />
 		<set name="item_skill" val="3267-1;21010-1;23012-1" />
 	</item>
-	<item id="20066" type="Armor" name="Agathion Seal Bracelet - Baby Panda - Big Head-15 Day Expiration Period">
+	<item id="20066" type="Armor" name="壺精封印手鐲-寶寶貓熊">
 		<set name="icon" val="BranchSys.icon.br_baby_panda_i00" />
 		<set name="default_action" val="equip" />
 		<set name="bodypart" val="lbracelet" />
@@ -809,7 +809,7 @@
 		<set name="item_skill" val="3267-1;21008-1;23013-1" />
 		<set name="time" val="21600" />
 	</item>
-	<item id="20067" type="Armor" name="Agathion Seal Bracelet - Bamboo Panda - Resurrection-15 Day Expiration Period">
+	<item id="20067" type="Armor" name="壺精封印手鐲-團團貓熊">
 		<set name="icon" val="BranchSys.icon.br_kunfu_panda_i00" />
 		<set name="default_action" val="equip" />
 		<set name="bodypart" val="lbracelet" />
@@ -825,7 +825,7 @@
 		<set name="item_skill" val="3267-1;21009-1;23014-1" />
 		<set name="time" val="21600" />
 	</item>
-	<item id="20068" type="Armor" name="Agathion Seal Bracelet - Sexy Panda - Escape-15 Day Expiration Period">
+	<item id="20068" type="Armor" name="壺精封印手鐲-圓圓貓熊">
 		<set name="icon" val="BranchSys.icon.br_sexy_panda_i00" />
 		<set name="default_action" val="equip" />
 		<set name="bodypart" val="lbracelet" />
@@ -841,7 +841,7 @@
 		<set name="item_skill" val="3267-1;21010-1;23015-1" />
 		<set name="time" val="21600" />
 	</item>
-	<item id="20069" type="EtcItem" name="Baby Panda Agathion Pack">
+	<item id="20069" type="EtcItem" name="寶寶貓熊壺精組">
 		<set name="icon" val="icon.etc_pi_gift_box_i00" />
 		<set name="default_action" val="peel" />
 		<set name="immediate_effect" val="1" />
@@ -855,7 +855,7 @@
 		<set name="handler" val="ExtractableItems" />
 		<set name="capsuled_items" val="20063,1,1,100" />
 	</item>
-	<item id="20070" type="EtcItem" name="Bamboo Panda Agathion Pack">
+	<item id="20070" type="EtcItem" name="團團貓熊壺精組">
 		<set name="icon" val="icon.etc_pi_gift_box_i00" />
 		<set name="default_action" val="peel" />
 		<set name="immediate_effect" val="1" />
@@ -869,7 +869,7 @@
 		<set name="handler" val="ExtractableItems" />
 		<set name="capsuled_items" val="20064,1,1,100" />
 	</item>
-	<item id="20071" type="EtcItem" name="Sexy Panda Agathion Pack">
+	<item id="20071" type="EtcItem" name="圓圓貓熊壺精組">
 		<set name="icon" val="icon.etc_pi_gift_box_i00" />
 		<set name="default_action" val="peel" />
 		<set name="immediate_effect" val="1" />
@@ -883,7 +883,7 @@
 		<set name="handler" val="ExtractableItems" />
 		<set name="capsuled_items" val="20065,1,1,100" />
 	</item>
-	<item id="20072" type="EtcItem" name="Agathion of Baby Panda 15 Day Pack - Big Head">
+	<item id="20072" type="EtcItem" name="寶寶貓熊壺精 15日/組">
 		<set name="icon" val="icon.etc_pi_gift_box_i00" />
 		<set name="default_action" val="peel" />
 		<set name="immediate_effect" val="1" />
@@ -897,7 +897,7 @@
 		<set name="handler" val="ExtractableItems" />
 		<set name="capsuled_items" val="20066,1,1,100" />
 	</item>
-	<item id="20073" type="EtcItem" name="Bamboo Panda Agathion 15 Day Pack - Resurrection">
+	<item id="20073" type="EtcItem" name="團團貓熊壺精 15日/組">
 		<set name="icon" val="icon.etc_pi_gift_box_i00" />
 		<set name="default_action" val="peel" />
 		<set name="immediate_effect" val="1" />
@@ -911,7 +911,7 @@
 		<set name="handler" val="ExtractableItems" />
 		<set name="capsuled_items" val="20067,1,1,100" />
 	</item>
-	<item id="20074" type="EtcItem" name="Agathion of Sexy Panda 15 Day Pack - Escape">
+	<item id="20074" type="EtcItem" name="圓圓貓熊壺精 15日/組">
 		<set name="icon" val="icon.etc_pi_gift_box_i00" />
 		<set name="default_action" val="peel" />
 		<set name="immediate_effect" val="1" />
@@ -925,7 +925,7 @@
 		<set name="handler" val="ExtractableItems" />
 		<set name="capsuled_items" val="20068,1,1,100" />
 	</item>
-	<item id="20075" type="EtcItem" name="Santa Claus' Gift - Joy - 4 Hour Expiration Period">
+	<item id="20075" type="EtcItem" name="聖誕老人的禮物-喜悅">
 		<set name="icon" val="BranchSys.icon.br_xmas_present_joy_i00" />
 		<set name="default_action" val="capsule" />
 		<set name="immediate_effect" val="1" />
@@ -939,7 +939,7 @@
 		<set name="item_skill" val="22011-1" />
 		<set name="time" val="240" />
 	</item>
-	<item id="20076" type="EtcItem" name="Santa Claus' Gift - Enjoyment - 4 Hour Expiration Period">
+	<item id="20076" type="EtcItem" name="聖誕老人的禮物-趣味">
 		<set name="icon" val="BranchSys.icon.br_xmas_present_fun_i00" />
 		<set name="default_action" val="capsule" />
 		<set name="immediate_effect" val="1" />
@@ -953,7 +953,7 @@
 		<set name="item_skill" val="22012-1" />
 		<set name="time" val="240" />
 	</item>
-	<item id="20077" type="EtcItem" name="Santa Claus' Gift - Luck - 4 Hour Expiration Period">
+	<item id="20077" type="EtcItem" name="聖誕老人的禮物-幸運">
 		<set name="icon" val="BranchSys.icon.br_xmas_present_luck_i00" />
 		<set name="default_action" val="capsule" />
 		<set name="immediate_effect" val="1" />
@@ -967,7 +967,7 @@
 		<set name="item_skill" val="22017-1" />
 		<set name="time" val="240" />
 	</item>
-	<item id="20078" type="EtcItem" name="Santa Claus' Gift - Luck - 4 Hour Expiration Period">
+	<item id="20078" type="EtcItem" name="聖誕老人的禮物-幸運">
 		<set name="icon" val="BranchSys.icon.br_xmas_present_luck_i00" />
 		<set name="default_action" val="capsule" />
 		<set name="immediate_effect" val="1" />
@@ -981,7 +981,7 @@
 		<set name="item_skill" val="22018-1" />
 		<set name="time" val="240" />
 	</item>
-	<item id="20079" type="EtcItem" name="Good Luck Lucky Bag Pack">
+	<item id="20079" type="EtcItem" name="幸運福袋組">
 		<set name="icon" val="BranchSys.icon.br_four_leaf_clover_box_i00" />
 		<set name="default_action" val="peel" />
 		<set name="immediate_effect" val="1" />
@@ -994,7 +994,7 @@
 		<set name="is_premium" val="true" />
 		<set name="capsuled_items" val="20081,1,1,100" />
 	</item>
-	<item id="20080" type="EtcItem" name="Lucky Four-leaf Clover Pack">
+	<item id="20080" type="EtcItem" name="幸運四葉草組">
 		<set name="icon" val="BranchSys.icon.br_four_leaf_clover_box_i00" />
 		<set name="default_action" val="peel" />
 		<set name="immediate_effect" val="1" />
@@ -1007,7 +1007,7 @@
 		<set name="is_premium" val="true" />
 		<set name="capsuled_items" val="20082,1,1,100" />
 	</item>
-	<item id="20081" type="EtcItem" name="Good Luck Lucky Bag">
+	<item id="20081" type="EtcItem" name="幸運福袋">
 		<set name="icon" val="BranchSys.icon.br_lucky_bag_i00" />
 		<set name="default_action" val="capsule" />
 		<set name="immediate_effect" val="1" />
@@ -1021,7 +1021,7 @@
 		<set name="is_oly_restricted" val="true" />
 		<set name="item_skill" val="22007-1" />
 	</item>
-	<item id="20082" type="EtcItem" name="Lucky Four-leaf Clover">
+	<item id="20082" type="EtcItem" name="幸運四葉草">
 		<set name="icon" val="BranchSys.icon.br_four_leaf_clover_i00" />
 		<set name="default_action" val="capsule" />
 		<set name="immediate_effect" val="1" />
@@ -1035,7 +1035,7 @@
 		<set name="is_oly_restricted" val="true" />
 		<set name="item_skill" val="22008-1" />
 	</item>
-	<item id="20083" type="Armor" name="Afro Hair - Energy - 3 Hour Expiration Period">
+	<item id="20083" type="Armor" name="爆炸頭">
 		<set name="icon" val="BranchSys.icon.br_Afro_hair_i00" />
 		<set name="default_action" val="equip" />
 		<set name="bodypart" val="hairall" />
@@ -1050,7 +1050,7 @@
 		<set name="item_skill" val="21011-1" />
 		<set name="time" val="180" />
 	</item>
-	<item id="20084" type="Armor" name="Afro Hair - Energy - 3 Day Expiration Period">
+	<item id="20084" type="Armor" name="爆炸頭">
 		<set name="icon" val="BranchSys.icon.br_Afro_hair_i00" />
 		<set name="default_action" val="equip" />
 		<set name="bodypart" val="hairall" />
@@ -1065,7 +1065,7 @@
 		<set name="item_skill" val="21011-1" />
 		<set name="time" val="4320" />
 	</item>
-	<item id="20085" type="Armor" name="Afro Hair - Energy - 30 Day Expiration Period">
+	<item id="20085" type="Armor" name="爆炸頭">
 		<set name="icon" val="BranchSys.icon.br_Afro_hair_i00" />
 		<set name="default_action" val="equip" />
 		<set name="bodypart" val="hairall" />
@@ -1080,7 +1080,7 @@
 		<set name="item_skill" val="21011-1" />
 		<set name="time" val="43200" />
 	</item>
-	<item id="20086" type="Armor" name="Horn Rimmed Glasses - Energy - 3 Hour Expiration Period">
+	<item id="20086" type="Armor" name="粗框眼鏡">
 		<set name="icon" val="BranchSys.icon.br_Eye_Glasses_i00" />
 		<set name="default_action" val="equip" />
 		<set name="bodypart" val="hair" />
@@ -1095,7 +1095,7 @@
 		<set name="item_skill" val="21012-1" />
 		<set name="time" val="180" />
 	</item>
-	<item id="20087" type="Armor" name="Horn Rimmed Glasses - Energy - 3 Day Expiration Period">
+	<item id="20087" type="Armor" name="粗框眼鏡">
 		<set name="icon" val="BranchSys.icon.br_Eye_Glasses_i00" />
 		<set name="default_action" val="equip" />
 		<set name="bodypart" val="hair" />
@@ -1110,7 +1110,7 @@
 		<set name="item_skill" val="21012-1" />
 		<set name="time" val="4320" />
 	</item>
-	<item id="20088" type="Armor" name="Horn Rimmed Glasses - Energy - 30 Day Expiration Period">
+	<item id="20088" type="Armor" name="粗框眼鏡">
 		<set name="icon" val="BranchSys.icon.br_Eye_Glasses_i00" />
 		<set name="default_action" val="equip" />
 		<set name="bodypart" val="hair" />
@@ -1125,7 +1125,7 @@
 		<set name="item_skill" val="21012-1" />
 		<set name="time" val="43200" />
 	</item>
-	<item id="20089" type="Armor" name="Assassin's Bamboo Hat - Energy - 3 Hour Expiration Period">
+	<item id="20089" type="Armor" name="刺客斗笠">
 		<set name="icon" val="BranchSys.icon.br_Bamboo_Hat_i00" />
 		<set name="default_action" val="equip" />
 		<set name="bodypart" val="hairall" />
@@ -1140,7 +1140,7 @@
 		<set name="item_skill" val="21013-1" />
 		<set name="time" val="180" />
 	</item>
-	<item id="20090" type="Armor" name="Assassin's Bamboo Hat - Energy - 3 Day Expiration Period">
+	<item id="20090" type="Armor" name="刺客斗笠">
 		<set name="icon" val="BranchSys.icon.br_Bamboo_Hat_i00" />
 		<set name="default_action" val="equip" />
 		<set name="bodypart" val="hairall" />
@@ -1155,7 +1155,7 @@
 		<set name="item_skill" val="21013-1" />
 		<set name="time" val="4320" />
 	</item>
-	<item id="20091" type="Armor" name="Assassin's Bamboo Hat - Energy - 30 Day Expiration Period">
+	<item id="20091" type="Armor" name="刺客斗笠">
 		<set name="icon" val="BranchSys.icon.br_Bamboo_Hat_i00" />
 		<set name="default_action" val="equip" />
 		<set name="bodypart" val="hairall" />
@@ -1170,7 +1170,7 @@
 		<set name="item_skill" val="21013-1" />
 		<set name="time" val="43200" />
 	</item>
-	<item id="20092" type="EtcItem" name="Holiday Spirit Pack">
+	<item id="20092" type="EtcItem" name="聖誕的奇蹟組">
 		<set name="icon" val="BranchSys.icon.br_four_leaf_clover_box_i00" />
 		<set name="default_action" val="peel" />
 		<set name="immediate_effect" val="1" />
@@ -1183,7 +1183,7 @@
 		<set name="is_premium" val="true" />
 		<set name="capsuled_items" val="20093,1,1,100" />
 	</item>
-	<item id="20093" type="EtcItem" name="Spirit of the Holiday">
+	<item id="20093" type="EtcItem" name="聖誕的奇蹟">
 		<set name="icon" val="BranchSys.icon.br_xmas_miracle_i00" />
 		<set name="default_action" val="capsule" />
 		<set name="immediate_effect" val="1" />
@@ -1197,7 +1197,7 @@
 		<set name="is_oly_restricted" val="true" />
 		<set name="item_skill" val="22009-1" />
 	</item>
-	<item id="20094" type="Armor" name="Agathion Seal Bracelet: Rudolph - Energy - 30 Day Expiration Period">
+	<item id="20094" type="Armor" name="壺精封印手鐲-麋鹿">
 		<set name="icon" val="icon.etc_rbracelet_aga_agit_i00" />
 		<set name="default_action" val="equip" />
 		<set name="bodypart" val="lbracelet" />
@@ -1212,7 +1212,7 @@
 		<set name="item_skill" val="3267-1;3425-1;5537-1;23016-1" />
 		<set name="time" val="43200" />
 	</item>
-	<item id="20095" type="Armor" name="Santa Horn Hat">
+	<item id="20095" type="Armor" name="聖誕鹿角帽">
 		<set name="icon" val="icon.accessory_santas_antler_i00" />
 		<set name="default_action" val="equip" />
 		<set name="bodypart" val="hairall" />
@@ -1224,7 +1224,7 @@
 		<set name="is_sellable" val="false" />
 		<set name="is_premium" val="true" />
 	</item>
-	<item id="20096" type="EtcItem" name="Mysterious Formal Dress - Event Pack">
+	<item id="20096" type="EtcItem" name="神祕禮服-活動組">
 		<set name="icon" val="BranchSys.icon.br_lucky_bag_box_i00" />
 		<set name="default_action" val="peel" />
 		<set name="immediate_effect" val="1" />
@@ -1237,7 +1237,7 @@
 		<set name="handler" val="ExtractableItems" />
 		<set name="capsuled_items" val="20097,1,1,100" />
 	</item>
-	<item id="20097" type="EtcItem" name="Mysterious Formal Dress - Event Pack">
+	<item id="20097" type="EtcItem" name="神祕禮服-活動">
 		<set name="icon" val="BranchSys.icon.br_mysterious_wedding_i00" />
 		<set name="default_action" val="capsule" />
 		<set name="immediate_effect" val="1" />
@@ -1249,7 +1249,7 @@
 		<set name="is_stackable" val="true" />
 		<set name="item_skill" val="22010-1" />
 	</item>
-	<item id="20098" type="Armor" name="Formal Dress - Event - 1 hour Shadow time">
+	<item id="20098" type="Armor" name="禮服-活動">
 		<set name="icon" val="icon.armor_t2000_ul_i00" />
 		<set name="default_action" val="equip" />
 		<set name="armor_type" val="magic" />
@@ -1262,7 +1262,7 @@
 		<set name="is_sellable" val="false" />
 		<set name="duration" val="60" />
 	</item>
-	<item id="20099" type="Armor" name="Formal Dress - Event - 7 Day Expiration Period">
+	<item id="20099" type="Armor" name="禮服-活動">
 		<set name="icon" val="icon.armor_t2000_ul_i00" />
 		<set name="default_action" val="equip" />
 		<set name="armor_type" val="magic" />

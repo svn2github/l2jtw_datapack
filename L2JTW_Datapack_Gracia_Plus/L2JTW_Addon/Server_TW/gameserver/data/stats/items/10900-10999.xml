@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <list>
-	<item id="10900" type="Weapon" name="Spell Breaker - Hail - Magic Mental Shield">
+	<item id="10900" type="Weapon" name="破咒者-海嘯">
 		<set name="icon" val="icon.weapon_spell_breaker_i01" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="blunt" />
@@ -32,7 +32,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="10901" type="Weapon" name="Spell Breaker - Hail - Magic Hold">
+	<item id="10901" type="Weapon" name="破咒者-海嘯">
 		<set name="icon" val="icon.weapon_spell_breaker_i01" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="blunt" />
@@ -64,7 +64,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="10902" type="Weapon" name="Arthro Nail - Destruction">
+	<item id="10902" type="Weapon" name="阿斯拉爪-破壞">
 		<set name="icon" val="icon.weapon_arthro_nail_i00" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="dualfist" />
@@ -93,7 +93,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="10903" type="Weapon" name="Arthro Nail - Destruction - Critical Poison">
+	<item id="10903" type="Weapon" name="阿斯拉爪-破壞">
 		<set name="icon" val="icon.weapon_arthro_nail_i01" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="dualfist" />
@@ -124,7 +124,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="10904" type="Weapon" name="Arthro Nail - Destruction - Rsk. Evasion">
+	<item id="10904" type="Weapon" name="阿斯拉爪-破壞">
 		<set name="icon" val="icon.weapon_arthro_nail_i01" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="dualfist" />
@@ -153,7 +153,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="10905" type="Weapon" name="Arthro Nail - Destruction - Rsk. Haste">
+	<item id="10905" type="Weapon" name="阿斯拉爪-破壞">
 		<set name="icon" val="icon.weapon_arthro_nail_i01" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="dualfist" />
@@ -182,7 +182,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="10906" type="Weapon" name="Ice Storm Hammer - Lightning">
+	<item id="10906" type="Weapon" name="暴風雪巨鎚-雷鳴">
 		<set name="icon" val="icon.weapon_ice_storm_hammer_i00" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="bigblunt" />
@@ -211,7 +211,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="10907" type="Weapon" name="Ice Storm Hammer - Lightning - Focus">
+	<item id="10907" type="Weapon" name="暴風雪巨鎚-雷鳴">
 		<set name="icon" val="icon.weapon_ice_storm_hammer_i01" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="bigblunt" />
@@ -240,7 +240,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="10908" type="Weapon" name="Ice Storm Hammer - Lightning - Anger">
+	<item id="10908" type="Weapon" name="暴風雪巨鎚-雷鳴">
 		<set name="icon" val="icon.weapon_ice_storm_hammer_i01" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="bigblunt" />
@@ -269,7 +269,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="10909" type="Weapon" name="Ice Storm Hammer - Lightning - Critical Bleed">
+	<item id="10909" type="Weapon" name="暴風雪巨鎚-雷鳴">
 		<set name="icon" val="icon.weapon_ice_storm_hammer_i01" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="bigblunt" />
@@ -300,7 +300,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="10910" type="Weapon" name="Sword of Nightmare*Sword of Nightmare - Destruction">
+	<item id="10910" type="Weapon" name="夢魘劍*夢魘劍-破壞">
 		<set name="icon" val="icon.weapon_dual_sword_i00" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="dual" />
@@ -328,7 +328,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="10911" type="Weapon" name="Sword of Nightmare*Tsurugi - Destruction">
+	<item id="10911" type="Weapon" name="夢魘劍*大和劍-破壞">
 		<set name="icon" val="icon.weapon_dual_sword_i00" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="dual" />
@@ -356,7 +356,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="10912" type="Weapon" name="Military Fleuret - Destruction">
+	<item id="10912" type="Weapon" name="突襲鈍劍-破壞">
 		<set name="icon" val="icon.weapon_assult_fleuret_i00" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="rapier" />
@@ -388,7 +388,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="10913" type="Weapon" name="Military Fleuret - Destruction - Guidance">
+	<item id="10913" type="Weapon" name="突襲鈍劍-破壞">
 		<set name="icon" val="icon.weapon_assult_fleuret_i01" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="rapier" />
@@ -420,7 +420,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="10914" type="Weapon" name="Military Fleuret - Destruction - Focus">
+	<item id="10914" type="Weapon" name="突襲鈍劍-破壞">
 		<set name="icon" val="icon.weapon_assult_fleuret_i01" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="rapier" />
@@ -452,7 +452,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="10915" type="Weapon" name="Military Fleuret - Destruction - Back Blow">
+	<item id="10915" type="Weapon" name="突襲鈍劍-破壞">
 		<set name="icon" val="icon.weapon_assult_fleuret_i01" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="rapier" />
@@ -484,7 +484,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="10916" type="Weapon" name="Sprite's Staff - Hail">
+	<item id="10916" type="Weapon" name="精靈魔杖-海嘯">
 		<set name="icon" val="icon.weapon_sprites_staff_i00" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="bigblunt" />
@@ -514,7 +514,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="10917" type="Weapon" name="Sprite's Staff - Hail - Magic Regeneration">
+	<item id="10917" type="Weapon" name="精靈魔杖-海嘯">
 		<set name="icon" val="icon.weapon_sprites_staff_i01" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="bigblunt" />
@@ -546,7 +546,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="10918" type="Weapon" name="Sprite's Staff - Hail - Magic Mental Shield">
+	<item id="10918" type="Weapon" name="精靈魔杖-海嘯">
 		<set name="icon" val="icon.weapon_sprites_staff_i01" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="bigblunt" />
@@ -578,7 +578,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="10919" type="Weapon" name="Sprite's Staff - Hail - Magic Hold">
+	<item id="10919" type="Weapon" name="精靈魔杖-海嘯">
 		<set name="icon" val="icon.weapon_sprites_staff_i01" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="bigblunt" />
@@ -610,7 +610,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="10920" type="Weapon" name="Tsurugi*Tsurugi - Destruction">
+	<item id="10920" type="Weapon" name="大和劍*大和劍-破壞">
 		<set name="icon" val="icon.weapon_dual_sword_i00" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="dual" />
@@ -638,7 +638,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="10921" type="Weapon" name="Caliburs*Sword of Limit - Destruction">
+	<item id="10921" type="Weapon" name="卡里埔士劍*極限之劍-破壞">
 		<set name="icon" val="icon.weapon_dual_sword_i00" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="dual" />
@@ -666,7 +666,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="10922" type="Weapon" name="Caliburs*Sword of Delusion - Destruction">
+	<item id="10922" type="Weapon" name="卡里埔士劍*迷惑之劍-破壞">
 		<set name="icon" val="icon.weapon_dual_sword_i00" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="dual" />
@@ -694,7 +694,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="10923" type="Weapon" name="Caliburs*Sword of Nightmare - Destruction">
+	<item id="10923" type="Weapon" name="卡里埔士劍*夢魘劍-破壞">
 		<set name="icon" val="icon.weapon_dual_sword_i00" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="dual" />
@@ -722,7 +722,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="10924" type="Weapon" name="Caliburs*Tsurugi - Destruction">
+	<item id="10924" type="Weapon" name="卡里埔士劍*大和劍-破壞">
 		<set name="icon" val="icon.weapon_dual_sword_i00" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="dual" />
@@ -750,7 +750,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="10925" type="Weapon" name="Caliburs*Caliburs - Destruction">
+	<item id="10925" type="Weapon" name="卡里埔士劍*卡里埔士劍-破壞">
 		<set name="icon" val="icon.weapon_dual_sword_i00" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="dual" />
@@ -778,7 +778,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="10926" type="Weapon" name="Kris - Confusion">
+	<item id="10926" type="Weapon" name="波形刃-混亂">
 		<set name="icon" val="icon.weapon_kris_i00" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="dagger" />
@@ -807,7 +807,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="10927" type="Weapon" name="Kris - Confusion - Evasion">
+	<item id="10927" type="Weapon" name="波形刃-混亂">
 		<set name="icon" val="icon.weapon_kris_i01" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="dagger" />
@@ -836,7 +836,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="10928" type="Weapon" name="Kris - Confusion - Focus">
+	<item id="10928" type="Weapon" name="波形刃-混亂">
 		<set name="icon" val="icon.weapon_kris_i01" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="dagger" />
@@ -865,7 +865,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="10929" type="Weapon" name="Kris - Confusion - Back Blow">
+	<item id="10929" type="Weapon" name="波形刃-混亂">
 		<set name="icon" val="icon.weapon_kris_i01" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="dagger" />
@@ -894,7 +894,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="10930" type="Weapon" name="Keshanberk - Destruction">
+	<item id="10930" type="Weapon" name="柯貝克劍-破壞">
 		<set name="icon" val="icon.weapon_kshanberk_i00" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="sword" />
@@ -922,7 +922,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="10931" type="Weapon" name="Keshanberk - Destruction - Guidance">
+	<item id="10931" type="Weapon" name="柯貝克劍-破壞">
 		<set name="icon" val="icon.weapon_kshanberk_i01" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="sword" />
@@ -950,7 +950,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="10932" type="Weapon" name="Keshanberk - Destruction - Focus">
+	<item id="10932" type="Weapon" name="柯貝克劍-破壞">
 		<set name="icon" val="icon.weapon_kshanberk_i01" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="sword" />
@@ -978,7 +978,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="10933" type="Weapon" name="Keshanberk - Destruction - Back Blow">
+	<item id="10933" type="Weapon" name="柯貝克劍-破壞">
 		<set name="icon" val="icon.weapon_kshanberk_i01" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="sword" />
@@ -1006,7 +1006,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="10934" type="Weapon" name="Peacemaker - Concentration">
+	<item id="10934" type="Weapon" name="和平使者-集中">
 		<set name="icon" val="icon.weapon_peace_maker_i00" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="crossbow" />
@@ -1038,7 +1038,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="10935" type="Weapon" name="Peacemaker - Concentration - Evasion">
+	<item id="10935" type="Weapon" name="和平使者-集中">
 		<set name="icon" val="icon.weapon_peace_maker_i01" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="crossbow" />
@@ -1070,7 +1070,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="10936" type="Weapon" name="Peacemaker - Concentration - Critical Bleed">
+	<item id="10936" type="Weapon" name="和平使者-集中">
 		<set name="icon" val="icon.weapon_peace_maker_i01" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="crossbow" />
@@ -1104,7 +1104,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="10937" type="Weapon" name="Peacemaker - Concentration - Miser">
+	<item id="10937" type="Weapon" name="和平使者-集中">
 		<set name="icon" val="icon.weapon_peace_maker_i01" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="crossbow" />
@@ -1142,7 +1142,7 @@
 			</set>
 		</for>
 	</item>
-	<item id="10938" type="Weapon" name="Heavy War Axe - Earth">
+	<item id="10938" type="Weapon" name="巨大戰斧-大地">
 		<set name="icon" val="icon.weapon_heavy_war_axe_i00" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="blunt" />
@@ -1171,7 +1171,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="10939" type="Weapon" name="Heavy War Axe - Earth - Anger">
+	<item id="10939" type="Weapon" name="巨大戰斧-大地">
 		<set name="icon" val="icon.weapon_heavy_war_axe_i01" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="blunt" />
@@ -1200,7 +1200,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="10940" type="Weapon" name="Heavy War Axe - Earth - Health">
+	<item id="10940" type="Weapon" name="巨大戰斧-大地">
 		<set name="icon" val="icon.weapon_heavy_war_axe_i01" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="blunt" />
@@ -1229,7 +1229,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="10941" type="Weapon" name="Heavy War Axe - Earth - Rsk. Focus">
+	<item id="10941" type="Weapon" name="巨大戰斧-大地">
 		<set name="icon" val="icon.weapon_heavy_war_axe_i01" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="blunt" />
@@ -1258,7 +1258,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="10942" type="Weapon" name="Hell Knife - Confusion">
+	<item id="10942" type="Weapon" name="地獄刀-混亂">
 		<set name="icon" val="icon.weapon_hell_knife_i00" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="dagger" />
@@ -1288,7 +1288,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="10943" type="Weapon" name="Hell Knife - Confusion - Magic Regeneration">
+	<item id="10943" type="Weapon" name="地獄刀-混亂">
 		<set name="icon" val="icon.weapon_hell_knife_i01" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="dagger" />
@@ -1320,7 +1320,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="10944" type="Weapon" name="Hell Knife - Confusion - Magic Mental Shield">
+	<item id="10944" type="Weapon" name="地獄刀-混亂">
 		<set name="icon" val="icon.weapon_hell_knife_i01" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="dagger" />
@@ -1352,7 +1352,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="10945" type="Weapon" name="Hell Knife - Confusion - Magic Weakness">
+	<item id="10945" type="Weapon" name="地獄刀-混亂">
 		<set name="icon" val="icon.weapon_hell_knife_i01" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="dagger" />
@@ -1384,7 +1384,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="10946" type="Weapon" name="Raid Sword*Samurai Long Sword - Destruction">
+	<item id="10946" type="Weapon" name="襲擊劍*瑟魯基長劍-破壞">
 		<set name="icon" val="icon.weapon_dual_sword_i00" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="dual" />
@@ -1412,7 +1412,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="10947" type="Weapon" name="Shamshir*Samurai Long Sword - Destruction">
+	<item id="10947" type="Weapon" name="彎刀*瑟魯基長劍-破壞">
 		<set name="icon" val="icon.weapon_dual_sword_i00" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="dual" />
@@ -1440,7 +1440,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="10948" type="Weapon" name="Spirit Sword*Samurai Long Sword - Destruction">
+	<item id="10948" type="Weapon" name="靈魂之劍*瑟魯基長劍-破壞">
 		<set name="icon" val="icon.weapon_dual_sword_i00" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="dual" />
@@ -1468,7 +1468,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="10949" type="Weapon" name="Katana*Samurai Long Sword - Destruction">
+	<item id="10949" type="Weapon" name="武士刀*瑟魯基長劍-破壞">
 		<set name="icon" val="icon.weapon_dual_sword_i00" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="dual" />
@@ -1496,7 +1496,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="10950" type="Weapon" name="Sword of Limit*Samurai Long Sword - Destruction">
+	<item id="10950" type="Weapon" name="極限之劍*瑟魯基長劍-破壞">
 		<set name="icon" val="icon.weapon_dual_sword_i00" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="dual" />
@@ -1524,7 +1524,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="10951" type="Weapon" name="Sword of Delusion*Samurai Long Sword - Destruction">
+	<item id="10951" type="Weapon" name="迷惑之劍*瑟魯基長劍-破壞">
 		<set name="icon" val="icon.weapon_dual_sword_i00" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="dual" />
@@ -1552,7 +1552,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="10952" type="Weapon" name="Sword of Nightmare*Samurai Long Sword - Destruction">
+	<item id="10952" type="Weapon" name="夢魘劍*瑟魯基長劍-破壞">
 		<set name="icon" val="icon.weapon_dual_sword_i00" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="dual" />
@@ -1580,7 +1580,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="10953" type="Weapon" name="Tsurugi*Samurai Long Sword - Destruction">
+	<item id="10953" type="Weapon" name="大和劍*瑟魯基長劍-破壞">
 		<set name="icon" val="icon.weapon_dual_sword_i00" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="dual" />
@@ -1608,7 +1608,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="10954" type="Weapon" name="Caliburs*Samurai Long Sword - Destruction">
+	<item id="10954" type="Weapon" name="卡里埔士劍*瑟魯基長劍-破壞">
 		<set name="icon" val="icon.weapon_dual_sword_i00" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="dual" />
@@ -1636,7 +1636,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="10955" type="Weapon" name="Guardian Sword - Great Gale">
+	<item id="10955" type="Weapon" name="守護神之劍-疾風">
 		<set name="icon" val="icon.weapon_guardians_sword_i00" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="bigsword" />
@@ -1664,7 +1664,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="10956" type="Weapon" name="Guardian Sword - Great Gale - Critical Drain">
+	<item id="10956" type="Weapon" name="守護神之劍-疾風">
 		<set name="icon" val="icon.weapon_guardians_sword_i01" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="bigsword" />
@@ -1694,7 +1694,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="10957" type="Weapon" name="Guardian Sword - Great Gale - Health">
+	<item id="10957" type="Weapon" name="守護神之劍-疾風">
 		<set name="icon" val="icon.weapon_guardians_sword_i01" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="bigsword" />
@@ -1722,7 +1722,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="10958" type="Weapon" name="Guardian Sword - Great Gale - Critical Bleed">
+	<item id="10958" type="Weapon" name="守護神之劍-疾風">
 		<set name="icon" val="icon.weapon_guardians_sword_i01" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="bigsword" />
@@ -1752,7 +1752,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="10959" type="Weapon" name="Sword of Damascus - Earth">
+	<item id="10959" type="Weapon" name="大馬士革刀-大地">
 		<set name="icon" val="icon.weapon_sword_of_damascus_i00" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="sword" />
@@ -1780,7 +1780,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="10960" type="Weapon" name="Sword of Damascus - Earth - Focus">
+	<item id="10960" type="Weapon" name="大馬士革刀-大地">
 		<set name="icon" val="icon.weapon_sword_of_damascus_i01" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="sword" />
@@ -1808,7 +1808,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="10961" type="Weapon" name="Sword of Damascus - Earth - Critical Damage">
+	<item id="10961" type="Weapon" name="大馬士革刀-大地">
 		<set name="icon" val="icon.weapon_sword_of_damascus_i01" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="sword" />
@@ -1836,7 +1836,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="10962" type="Weapon" name="Sword of Damascus - Earth - Haste">
+	<item id="10962" type="Weapon" name="大馬士革刀-大地">
 		<set name="icon" val="icon.weapon_sword_of_damascus_i01" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="sword" />
@@ -1864,7 +1864,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="10963" type="Weapon" name="Dismantler - Great Gale">
+	<item id="10963" type="Weapon" name="裂解劍-疾風">
 		<set name="icon" val="icon.weapon_dismantler_i00" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="ancientsword" />
@@ -1895,7 +1895,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="10964" type="Weapon" name="Dismantler - Great Gale - Critical Drain">
+	<item id="10964" type="Weapon" name="裂解劍-疾風">
 		<set name="icon" val="icon.weapon_dismantler_i01" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="ancientsword" />
@@ -1928,7 +1928,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="10965" type="Weapon" name="Dismantler - Great Gale - Health">
+	<item id="10965" type="Weapon" name="裂解劍-疾風">
 		<set name="icon" val="icon.weapon_dismantler_i01" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="ancientsword" />
@@ -1959,7 +1959,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="10966" type="Weapon" name="Dismantler - Great Gale - Critical Bleed">
+	<item id="10966" type="Weapon" name="裂解劍-疾風">
 		<set name="icon" val="icon.weapon_dismantler_i01" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="ancientsword" />
@@ -1992,7 +1992,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="10967" type="Weapon" name="Lance - Earth">
+	<item id="10967" type="Weapon" name="長槍-大地">
 		<set name="icon" val="icon.weapon_lancia_i00" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="pole" />
@@ -2021,7 +2021,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="10968" type="Weapon" name="Lance - Earth - Anger">
+	<item id="10968" type="Weapon" name="長槍-大地">
 		<set name="icon" val="icon.weapon_lancia_i01" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="pole" />
@@ -2050,7 +2050,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="10969" type="Weapon" name="Lance - Earth - Critical Stun">
+	<item id="10969" type="Weapon" name="長槍-大地">
 		<set name="icon" val="icon.weapon_lancia_i01" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="pole" />
@@ -2081,7 +2081,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="10970" type="Weapon" name="Lance - Earth - Long Blow">
+	<item id="10970" type="Weapon" name="長槍-大地">
 		<set name="icon" val="icon.weapon_lancia_i01" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="pole" />
@@ -2111,7 +2111,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="10971" type="Weapon" name="Bellion Cestus - Great Gale">
+	<item id="10971" type="Weapon" name="博利恩拳套-疾風">
 		<set name="icon" val="icon.weapon_bellion_cestus_i00" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="dualfist" />
@@ -2140,7 +2140,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="10972" type="Weapon" name="Bellion Cestus - Great Gale - Critical Drain">
+	<item id="10972" type="Weapon" name="博利恩拳套-疾風">
 		<set name="icon" val="icon.weapon_bellion_cestus_i01" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="dualfist" />
@@ -2171,7 +2171,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="10973" type="Weapon" name="Bellion Cestus - Great Gale - Critical Poison">
+	<item id="10973" type="Weapon" name="博利恩拳套-疾風">
 		<set name="icon" val="icon.weapon_bellion_cestus_i01" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="dualfist" />
@@ -2202,7 +2202,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="10974" type="Weapon" name="Bellion Cestus - Great Gale - Rsk. Haste">
+	<item id="10974" type="Weapon" name="博利恩拳套-疾風">
 		<set name="icon" val="icon.weapon_bellion_cestus_i01" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="dualfist" />
@@ -2231,7 +2231,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="10975" type="Weapon" name="Staff of Evil Spirits - Holy Spirit">
+	<item id="10975" type="Weapon" name="邪靈魔杖-聖靈">
 		<set name="icon" val="icon.weapon_staff_of_evil_sprit_i00" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="bigblunt" />
@@ -2261,7 +2261,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="10976" type="Weapon" name="Staff of Evil Spirits - Holy Spirit - Magic Focus">
+	<item id="10976" type="Weapon" name="邪靈魔杖-聖靈">
 		<set name="icon" val="icon.weapon_staff_of_evil_sprit_i01" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="bigblunt" />
@@ -2293,7 +2293,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="10977" type="Weapon" name="Staff of Evil Spirits - Holy Spirit - Blessed Body">
+	<item id="10977" type="Weapon" name="邪靈魔杖-聖靈">
 		<set name="icon" val="icon.weapon_staff_of_evil_sprit_i01" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="bigblunt" />
@@ -2325,7 +2325,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="10978" type="Weapon" name="Staff of Evil Spirits - Holy Spirit - Magic Poison">
+	<item id="10978" type="Weapon" name="邪靈魔杖-聖靈">
 		<set name="icon" val="icon.weapon_staff_of_evil_sprit_i01" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="bigblunt" />
@@ -2357,7 +2357,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="10979" type="Weapon" name="Deadman's Glory - Landslide">
+	<item id="10979" type="Weapon" name="亡者榮譽-山崩">
 		<set name="icon" val="icon.weapon_deadmans_glory_i00" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="blunt" />
@@ -2386,7 +2386,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="10980" type="Weapon" name="Deadman's Glory - Landslide - Anger">
+	<item id="10980" type="Weapon" name="亡者榮譽-山崩">
 		<set name="icon" val="icon.weapon_deadmans_glory_i01" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="blunt" />
@@ -2415,7 +2415,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="10981" type="Weapon" name="Deadman's Glory - Landslide - Health">
+	<item id="10981" type="Weapon" name="亡者榮譽-山崩">
 		<set name="icon" val="icon.weapon_deadmans_glory_i01" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="blunt" />
@@ -2444,7 +2444,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="10982" type="Weapon" name="Deadman's Glory - Landslide - Haste">
+	<item id="10982" type="Weapon" name="亡者榮譽-山崩">
 		<set name="icon" val="icon.weapon_deadmans_glory_i01" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="blunt" />
@@ -2473,7 +2473,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="10983" type="Weapon" name="Star Buster - Great Gale">
+	<item id="10983" type="Weapon" name="星爆-疾風">
 		<set name="icon" val="icon.weapon_star_buster_i00" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="bigblunt" />
@@ -2502,7 +2502,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="10984" type="Weapon" name="Star Buster - Great Gale - Health">
+	<item id="10984" type="Weapon" name="星爆-疾風">
 		<set name="icon" val="icon.weapon_star_buster_i01" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="bigblunt" />
@@ -2531,7 +2531,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="10985" type="Weapon" name="Star Buster - Great Gale - Haste">
+	<item id="10985" type="Weapon" name="星爆-疾風">
 		<set name="icon" val="icon.weapon_star_buster_i01" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="bigblunt" />
@@ -2560,7 +2560,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="10986" type="Weapon" name="Star Buster - Great Gale - Rsk. Focus">
+	<item id="10986" type="Weapon" name="星爆-疾風">
 		<set name="icon" val="icon.weapon_star_buster_i01" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="bigblunt" />
@@ -2589,7 +2589,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="10987" type="Weapon" name="Samurai Long Sword*Samurai Long Sword - Landslide">
+	<item id="10987" type="Weapon" name="瑟魯基長劍*瑟魯基長劍-山崩">
 		<set name="icon" val="icon.weapon_dual_sword_i00" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="dual" />
@@ -2617,7 +2617,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="10988" type="Weapon" name="Art of Battle Axe - Landslide">
+	<item id="10988" type="Weapon" name="工藝戰斧-山崩">
 		<set name="icon" val="icon.weapon_art_of_battle_axe_i00" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="blunt" />
@@ -2646,7 +2646,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="10989" type="Weapon" name="Art of Battle Axe - Landslide - Health">
+	<item id="10989" type="Weapon" name="工藝戰斧-山崩">
 		<set name="icon" val="icon.weapon_art_of_battle_axe_i01" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="blunt" />
@@ -2675,7 +2675,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="10990" type="Weapon" name="Art of Battle Axe - Landslide - Rsk. Focus">
+	<item id="10990" type="Weapon" name="工藝戰斧-山崩">
 		<set name="icon" val="icon.weapon_art_of_battle_axe_i01" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="blunt" />
@@ -2704,7 +2704,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="10991" type="Weapon" name="Art of Battle Axe - Landslide - Haste">
+	<item id="10991" type="Weapon" name="工藝戰斧-山崩">
 		<set name="icon" val="icon.weapon_art_of_battle_axe_i01" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="blunt" />
@@ -2733,7 +2733,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="10992" type="Weapon" name="Demon Dagger - Great Gale">
+	<item id="10992" type="Weapon" name="惡魔短劍-疾風">
 		<set name="icon" val="icon.weapon_demons_sword_i00" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="dagger" />
@@ -2762,7 +2762,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="10993" type="Weapon" name="Demon Dagger - Great Gale - Critical Bleed">
+	<item id="10993" type="Weapon" name="惡魔短劍-疾風">
 		<set name="icon" val="icon.weapon_demons_sword_i01" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="dagger" />
@@ -2793,7 +2793,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="10994" type="Weapon" name="Demon Dagger - Great Gale - Critical Poison">
+	<item id="10994" type="Weapon" name="惡魔短劍-疾風">
 		<set name="icon" val="icon.weapon_demons_sword_i01" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="dagger" />
@@ -2824,7 +2824,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="10995" type="Weapon" name="Demon Dagger - Great Gale - Mortal Strike">
+	<item id="10995" type="Weapon" name="惡魔短劍-疾風">
 		<set name="icon" val="icon.weapon_demons_sword_i01" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="dagger" />
@@ -2853,7 +2853,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="10996" type="Weapon" name="Demon Dagger - Great Gale - Critical Damage">
+	<item id="10996" type="Weapon" name="惡魔短劍-疾風">
 		<set name="icon" val="icon.weapon_demons_sword_i01" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="dagger" />
@@ -2882,7 +2882,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="10997" type="Weapon" name="Kaim Vanul's Bones - Earth">
+	<item id="10997" type="Weapon" name="卡倚巴奴之骨-大地">
 		<set name="icon" val="icon.weapon_bone_of_kaim_vanul_i00" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="blunt" />
@@ -2912,7 +2912,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="10998" type="Weapon" name="Kaim Vanul's Bones - Earth - Mana Up">
+	<item id="10998" type="Weapon" name="卡倚巴奴之骨-大地">
 		<set name="icon" val="icon.weapon_bone_of_kaim_vanul_i01" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="blunt" />
@@ -2942,7 +2942,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="10999" type="Weapon" name="Kaim Vanul's Bones - Earth - Magic Silence">
+	<item id="10999" type="Weapon" name="卡倚巴奴之骨-大地">
 		<set name="icon" val="icon.weapon_bone_of_kaim_vanul_i01" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="blunt" />

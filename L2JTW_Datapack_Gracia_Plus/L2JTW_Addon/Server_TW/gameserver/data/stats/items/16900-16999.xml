@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <list>
-	<item id="16900" type="Armor" name="Full Plate Helmet of Friendship - 90 day limited period">
+	<item id="16900" type="Armor" name="友情的全覆式頭盔">
 		<set name="icon" val="icon.armor_leather_helmet_i00" />
 		<set name="default_action" val="equip" />
 		<set name="bodypart" val="head" />
@@ -16,7 +16,7 @@
 			<add order="0x10" stat="pDef" val="58" />
 		</for>
 	</item>
-	<item id="16901" type="Armor" name="Full Plate Armor of Friendship - 90 day limited period">
+	<item id="16901" type="Armor" name="友情的全身盔甲">
 		<set name="icon" val="icon.armor_t62_ul_i00" />
 		<set name="default_action" val="equip" />
 		<set name="armor_type" val="heavy" />
@@ -34,7 +34,7 @@
 			<add order="0x10" stat="pDef" val="239" />
 		</for>
 	</item>
-	<item id="16902" type="Armor" name="Full Plate Boots of Friendship - 90 day limited period">
+	<item id="16902" type="Armor" name="友情的全覆式長靴">
 		<set name="icon" val="icon.armor_t62_b_i00" />
 		<set name="default_action" val="equip" />
 		<set name="bodypart" val="feet" />
@@ -50,7 +50,7 @@
 			<add order="0x10" stat="pDef" val="39" />
 		</for>
 	</item>
-	<item id="16903" type="Armor" name="Full Plate Gauntlet of Friendship - 90 day limited period">
+	<item id="16903" type="Armor" name="友情的全覆式長手套">
 		<set name="icon" val="icon.armor_t62_g_i00" />
 		<set name="default_action" val="equip" />
 		<set name="bodypart" val="gloves" />
@@ -66,7 +66,7 @@
 			<add order="0x10" stat="pDef" val="39" />
 		</for>
 	</item>
-	<item id="16904" type="Armor" name="Full Plate Shield of Friendship - 90 day limited period">
+	<item id="16904" type="Armor" name="友情的全覆式盾">
 		<set name="icon" val="icon.shield_full_plate_shield_i00" />
 		<set name="default_action" val="equip" />
 		<set name="bodypart" val="lhand" />
@@ -87,7 +87,7 @@
 			<set order="0x08" stat="sDef" val="203" />
 		</for>
 	</item>
-	<item id="16905" type="Armor" name="Manticore Skin Shirt of Friendship - 90 day limited period">
+	<item id="16905" type="Armor" name="友情的刺尾獅皮襯衫">
 		<set name="icon" val="icon.armor_t42_u_i00" />
 		<set name="default_action" val="equip" />
 		<set name="armor_type" val="light" />
@@ -104,7 +104,7 @@
 			<add order="0x10" stat="pDef" val="77" />
 		</for>
 	</item>
-	<item id="16906" type="Armor" name="Manticore Skin Gaiters of Friendship - 90 day limited period">
+	<item id="16906" type="Armor" name="友情的刺尾獅皮脛甲">
 		<set name="icon" val="icon.armor_t42_l_i00" />
 		<set name="default_action" val="equip" />
 		<set name="armor_type" val="light" />
@@ -121,7 +121,7 @@
 			<add order="0x10" stat="pDef" val="48" />
 		</for>
 	</item>
-	<item id="16907" type="Armor" name="Manticore Skin Boots of Friendship - 90 day limited period">
+	<item id="16907" type="Armor" name="友情的刺尾獅皮靴">
 		<set name="icon" val="icon.armor_t42_b_i00" />
 		<set name="default_action" val="equip" />
 		<set name="bodypart" val="feet" />
@@ -137,7 +137,7 @@
 			<add order="0x10" stat="pDef" val="27" />
 		</for>
 	</item>
-	<item id="16908" type="Armor" name="Manticore Skin Gloves of Friendship - 90 day limited period">
+	<item id="16908" type="Armor" name="友情的刺尾獅皮手套">
 		<set name="icon" val="icon.armor_t42_g_i00" />
 		<set name="default_action" val="equip" />
 		<set name="bodypart" val="gloves" />
@@ -153,7 +153,7 @@
 			<add order="0x10" stat="pDef" val="27" />
 		</for>
 	</item>
-	<item id="16909" type="Armor" name="Brigandine of Friendship - 90 day limited period">
+	<item id="16909" type="Armor" name="友情的鎖子甲">
 		<set name="icon" val="icon.armor_t43_u_i00" />
 		<set name="default_action" val="equip" />
 		<set name="armor_type" val="heavy" />
@@ -171,7 +171,7 @@
 			<add order="0x10" stat="pDef" val="103" />
 		</for>
 	</item>
-	<item id="16910" type="Armor" name="Brigandine Gaiters of Friendship - 90 day limited period">
+	<item id="16910" type="Armor" name="友情的鎖脛甲">
 		<set name="icon" val="icon.armor_t43_l_i00" />
 		<set name="default_action" val="equip" />
 		<set name="armor_type" val="heavy" />
@@ -189,7 +189,7 @@
 			<add order="0x10" stat="pDef" val="64" />
 		</for>
 	</item>
-	<item id="16911" type="Armor" name="Brigandine Helmet of Friendship - 90 day limited period">
+	<item id="16911" type="Armor" name="友情的鎖子頭盔">
 		<set name="icon" val="icon.armor_leather_helmet_i00" />
 		<set name="default_action" val="equip" />
 		<set name="bodypart" val="head" />
@@ -205,7 +205,7 @@
 			<add order="0x10" stat="pDef" val="41" />
 		</for>
 	</item>
-	<item id="16912" type="Armor" name="Brigandine Boots of Friendship - 90 day limited period">
+	<item id="16912" type="Armor" name="友情的鎖子長靴">
 		<set name="icon" val="icon.armor_t43_b_i00" />
 		<set name="default_action" val="equip" />
 		<set name="bodypart" val="feet" />
@@ -221,7 +221,7 @@
 			<add order="0x10" stat="pDef" val="27" />
 		</for>
 	</item>
-	<item id="16913" type="Armor" name="Brigandine Gauntlet of Friendship - 90 day limited period">
+	<item id="16913" type="Armor" name="友情的鎖子甲長手套">
 		<set name="icon" val="icon.armor_t43_g_i00" />
 		<set name="default_action" val="equip" />
 		<set name="bodypart" val="gloves" />
@@ -237,7 +237,7 @@
 			<add order="0x10" stat="pDef" val="27" />
 		</for>
 	</item>
-	<item id="16914" type="Armor" name="Brigandine Shield of Friendship - 90 day limited period">
+	<item id="16914" type="Armor" name="友情的鎖子盾">
 		<set name="icon" val="icon.shield_brigandine_shield_i00" />
 		<set name="default_action" val="equip" />
 		<set name="bodypart" val="lhand" />
@@ -258,7 +258,7 @@
 			<set order="0x08" stat="sDef" val="142" />
 		</for>
 	</item>
-	<item id="16915" type="Armor" name="Friendship Armor of Nightmare - 90 day limited period">
+	<item id="16915" type="Armor" name="友情的夢魘盔甲">
 		<set name="icon" val="icon.armor_t80_ul_i00" />
 		<set name="default_action" val="equip" />
 		<set name="armor_type" val="heavy" />
@@ -276,7 +276,7 @@
 			<add order="0x10" stat="pDef" val="293" />
 		</for>
 	</item>
-	<item id="16916" type="Armor" name="Friendship Helm of Nightmare - 90 day limited period">
+	<item id="16916" type="Armor" name="友情的夢魘頭盔">
 		<set name="icon" val="icon.armor_leather_helmet_i00" />
 		<set name="default_action" val="equip" />
 		<set name="bodypart" val="head" />
@@ -292,7 +292,7 @@
 			<add order="0x10" stat="pDef" val="73" />
 		</for>
 	</item>
-	<item id="16917" type="Armor" name="Friendship Gauntlet of Nightmare - Heavy Armor - 90 day limited period">
+	<item id="16917" type="Armor" name="友情的夢魘手套-重裝用">
 		<set name="icon" val="icon.armor_t80_g_i00" />
 		<set name="default_action" val="equip" />
 		<set name="bodypart" val="gloves" />
@@ -309,7 +309,7 @@
 			<add order="0x10" stat="pDef" val="49" />
 		</for>
 	</item>
-	<item id="16918" type="Armor" name="Friendship Boots of Nightmare - Heavy Armor - 90 day limited period">
+	<item id="16918" type="Armor" name="友情的夢魘靴-重裝用">
 		<set name="icon" val="icon.armor_t80_b_i00" />
 		<set name="default_action" val="equip" />
 		<set name="bodypart" val="feet" />
@@ -326,7 +326,7 @@
 			<add order="0x10" stat="pDef" val="49" />
 		</for>
 	</item>
-	<item id="16919" type="Armor" name="Friendship Shield of Nightmare - 90 day limited period">
+	<item id="16919" type="Armor" name="友情的夢魘盾">
 		<set name="icon" val="icon.shield_shield_of_nightmare_i00" />
 		<set name="default_action" val="equip" />
 		<set name="bodypart" val="lhand" />
@@ -347,7 +347,7 @@
 			<set order="0x08" stat="sDef" val="256" />
 		</for>
 	</item>
-	<item id="16920" type="Weapon" name="Sword of Miracles of Friendship - 90 day limited period">
+	<item id="16920" type="Weapon" name="友情的奇蹟劍">
 		<set name="icon" val="icon.weapon_sword_of_miracle_i01" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="sword" />
@@ -375,7 +375,7 @@
 			<set order="0x08" stat="pAtkSpd" val="379" />
 		</for>
 	</item>
-	<item id="16921" type="Weapon" name="Wizard's Tear of Friendship - 90 day limited period">
+	<item id="16921" type="Weapon" name="友情的巫師之淚">
 		<set name="icon" val="icon.weapon_tears_of_wizard_i01" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="sword" />
@@ -403,7 +403,7 @@
 			<set order="0x08" stat="pAtkSpd" val="379" />
 		</for>
 	</item>
-	<item id="16922" type="Weapon" name="Homunkulus's Sword of Friendship - 90 day limited period">
+	<item id="16922" type="Weapon" name="友情的何門奎思之劍">
 		<set name="icon" val="icon.weapon_homunkuluss_sword_i01" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="sword" />
@@ -431,7 +431,7 @@
 			<set order="0x08" stat="pAtkSpd" val="379" />
 		</for>
 	</item>
-	<item id="16923" type="Weapon" name="Friendship Staff of Life - 90 day limited period">
+	<item id="16923" type="Weapon" name="友情的生命手杖">
 		<set name="icon" val="icon.weapon_life_stick_i00" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="blunt" />
@@ -460,7 +460,7 @@
 			<set order="0x08" stat="pAtkSpd" val="379" />
 		</for>
 	</item>
-	<item id="16924" type="Weapon" name="Naga Storm of Friendship - 90 day limited period">
+	<item id="16924" type="Weapon" name="友情的那卡風暴">
 		<set name="icon" val="icon.weapon_naga_storm_i01" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="dagger" />
@@ -489,7 +489,7 @@
 			<set order="0x08" stat="pAtkSpd" val="433" />
 		</for>
 	</item>
-	<item id="16925" type="Weapon" name="Kris of Friendship - 90 day limited period">
+	<item id="16925" type="Weapon" name="友情的波形刃">
 		<set name="icon" val="icon.weapon_kris_i01" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="dagger" />
@@ -518,7 +518,7 @@
 			<set order="0x08" stat="pAtkSpd" val="433" />
 		</for>
 	</item>
-	<item id="16926" type="Weapon" name="Dark Screamer of Friendship - 90 day limited period">
+	<item id="16926" type="Weapon" name="友情的黑暗狂嘯者">
 		<set name="icon" val="icon.weapon_dark_screamer_i01" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="dagger" />
@@ -547,7 +547,7 @@
 			<set order="0x08" stat="pAtkSpd" val="433" />
 		</for>
 	</item>
-	<item id="16927" type="Weapon" name="Mithril Dagger of Friendship - 90 day limited period">
+	<item id="16927" type="Weapon" name="友情的米索莉匕首">
 		<set name="icon" val="icon.weapon_mithril_dagger_i00" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="dagger" />
@@ -575,7 +575,7 @@
 			<set order="0x08" stat="pAtkSpd" val="433" />
 		</for>
 	</item>
-	<item id="16928" type="Weapon" name="Shyeed's Bow of Friendship - 90 day limited period">
+	<item id="16928" type="Weapon" name="友情的夏伊德獵弓">
 		<set name="icon" val="icon.weapon_shyid_bow_i01" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="bow" />
@@ -606,7 +606,7 @@
 			<set order="0x08" stat="pAtkSpd" val="227" />
 		</for>
 	</item>
-	<item id="16929" type="Weapon" name="Friendship Bow of Peril - 90 day limited period">
+	<item id="16929" type="Weapon" name="友情的冒險弓">
 		<set name="icon" val="icon.weapon_hazard_bow_i01" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="bow" />
@@ -637,7 +637,7 @@
 			<set order="0x08" stat="pAtkSpd" val="293" />
 		</for>
 	</item>
-	<item id="16930" type="Weapon" name="Eminence Bow of Friendship - 90 day limited period">
+	<item id="16930" type="Weapon" name="友情的卓越弓">
 		<set name="icon" val="icon.weapon_eminence_bow_i01" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="bow" />
@@ -668,7 +668,7 @@
 			<set order="0x08" stat="pAtkSpd" val="293" />
 		</for>
 	</item>
-	<item id="16931" type="Weapon" name="Light Crossbow of Friendship - 90 day limited period">
+	<item id="16931" type="Weapon" name="友情的風暴弓">
 		<set name="icon" val="icon.weapon_cyclone_bow_i00" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="bow" />
@@ -698,7 +698,7 @@
 			<set order="0x08" stat="pAtkSpd" val="293" />
 		</for>
 	</item>
-	<item id="16932" type="Weapon" name="Barakiel's Axe of Friendship - 90 day limited period">
+	<item id="16932" type="Weapon" name="友情的貝拉凱爾聖斧">
 		<set name="icon" val="icon.weapon_barakiel_axe_i01" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="blunt" />
@@ -727,7 +727,7 @@
 			<set order="0x08" stat="pAtkSpd" val="379" />
 		</for>
 	</item>
-	<item id="16933" type="Weapon" name="Art of Battle Axe of Friendship - 90 day limited period">
+	<item id="16933" type="Weapon" name="友情的工藝戰斧">
 		<set name="icon" val="icon.weapon_art_of_battle_axe_i01" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="blunt" />
@@ -756,7 +756,7 @@
 			<set order="0x08" stat="pAtkSpd" val="379" />
 		</for>
 	</item>
-	<item id="16934" type="Weapon" name="Yaksa Mace of Friendship - 90 day limited period">
+	<item id="16934" type="Weapon" name="友情的夜叉釘鎚">
 		<set name="icon" val="icon.weapon_yaksa_mace_i01" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="blunt" />
@@ -785,7 +785,7 @@
 			<set order="0x08" stat="pAtkSpd" val="379" />
 		</for>
 	</item>
-	<item id="16935" type="Weapon" name="Bonebreaker of Friendship - 90 day limited period">
+	<item id="16935" type="Weapon" name="友情的碎骨者">
 		<set name="icon" val="icon.weapon_bonebreaker_i00" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="blunt" />
@@ -813,7 +813,7 @@
 			<set order="0x08" stat="pAtkSpd" val="379" />
 		</for>
 	</item>
-	<item id="16936" type="Weapon" name="Sirra's Blade of Friendship - 90 day limited period">
+	<item id="16936" type="Weapon" name="友情的希露冰刃">
 		<set name="icon" val="icon.weapon_sirr_blade_i01" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="sword" />
@@ -840,7 +840,7 @@
 			<set order="0x08" stat="pAtkSpd" val="379" />
 		</for>
 	</item>
-	<item id="16937" type="Weapon" name="Friendship Sword of Damascus - 90 day limited period">
+	<item id="16937" type="Weapon" name="友情的大馬士革刀">
 		<set name="icon" val="icon.weapon_sword_of_damascus_i01" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="sword" />
@@ -867,7 +867,7 @@
 			<set order="0x08" stat="pAtkSpd" val="379" />
 		</for>
 	</item>
-	<item id="16938" type="Weapon" name="Samurai Longsword of Friendship - 90 day limited period">
+	<item id="16938" type="Weapon" name="友情的瑟魯基長劍">
 		<set name="icon" val="icon.weapon_samurai_longsword_i01" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="sword" />
@@ -894,7 +894,7 @@
 			<set order="0x08" stat="pAtkSpd" val="379" />
 		</for>
 	</item>
-	<item id="16939" type="Weapon" name="Elven Long Sword of Friendship - 90 day limited period">
+	<item id="16939" type="Weapon" name="友情的精靈長劍">
 		<set name="icon" val="icon.weapon_elven_long_sword_i00" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="sword" />
@@ -920,7 +920,7 @@
 			<set order="0x08" stat="pAtkSpd" val="379" />
 		</for>
 	</item>
-	<item id="16940" type="Weapon" name="Friendship Sword of Ipos - 90 day limited period">
+	<item id="16940" type="Weapon" name="友情的伊波斯巨劍">
 		<set name="icon" val="icon.weapon_sword_of_ipos_i01" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="bigsword" />
@@ -947,7 +947,7 @@
 			<set order="0x08" stat="pAtkSpd" val="325" />
 		</for>
 	</item>
-	<item id="16941" type="Weapon" name="Guardian Sword of Friendship - 90 day limited period">
+	<item id="16941" type="Weapon" name="友情的守護神之劍">
 		<set name="icon" val="icon.weapon_guardians_sword_i01" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="bigsword" />
@@ -974,7 +974,7 @@
 			<set order="0x08" stat="pAtkSpd" val="325" />
 		</for>
 	</item>
-	<item id="16942" type="Weapon" name="Berserker Blade of Friendship - 90 day limited period">
+	<item id="16942" type="Weapon" name="友情的狂戰士之刃">
 		<set name="icon" val="icon.weapon_berserker_blade_i01" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="bigsword" />
@@ -1001,7 +1001,7 @@
 			<set order="0x08" stat="pAtkSpd" val="325" />
 		</for>
 	</item>
-	<item id="16943" type="Weapon" name="Claymore of Friendship - 90 day limited period">
+	<item id="16943" type="Weapon" name="友情的雙刃大砍刀">
 		<set name="icon" val="icon.weapon_claymore_i00" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="bigsword" />
@@ -1027,7 +1027,7 @@
 			<set order="0x08" stat="pAtkSpd" val="325" />
 		</for>
 	</item>
-	<item id="16944" type="Weapon" name="Sobekk's Hurricane of Friendship - 90 day limited period">
+	<item id="16944" type="Weapon" name="友情的索貝克颶風">
 		<set name="icon" val="icon.weapon_sobekk_hurricane_i01" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="dualfist" />
@@ -1056,7 +1056,7 @@
 			<set order="0x08" stat="pAtkSpd" val="325" />
 		</for>
 	</item>
-	<item id="16945" type="Weapon" name="Bellion Cestus of Friendship - 90 day limited period">
+	<item id="16945" type="Weapon" name="友情的博利恩拳套">
 		<set name="icon" val="icon.weapon_bellion_cestus_i01" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="dualfist" />
@@ -1085,7 +1085,7 @@
 			<set order="0x08" stat="pAtkSpd" val="325" />
 		</for>
 	</item>
-	<item id="16946" type="Weapon" name="Great Pata of Friendship - 90 day limited period">
+	<item id="16946" type="Weapon" name="友情的巨型帕塔拳刃">
 		<set name="icon" val="icon.weapon_great_pata_i01" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="dualfist" />
@@ -1114,7 +1114,7 @@
 			<set order="0x08" stat="pAtkSpd" val="325" />
 		</for>
 	</item>
-	<item id="16947" type="Weapon" name="Scallop Jamadhr of Friendship - 90 day limited period">
+	<item id="16947" type="Weapon" name="友情的波浪刀">
 		<set name="icon" val="icon.weapon_scallop_jamadhr_i00" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="dualfist" />
@@ -1142,7 +1142,7 @@
 			<set order="0x08" stat="pAtkSpd" val="325" />
 		</for>
 	</item>
-	<item id="16948" type="Weapon" name="Tallum Blade*Damascus of Friendship - 90 day limited period">
+	<item id="16948" type="Weapon" name="友情的塔魯刀*大馬士革刀">
 		<set name="icon" val="icon.weapon_dual_sword_i00" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="dual" />
@@ -1169,7 +1169,7 @@
 			<set order="0x08" stat="pAtkSpd" val="325" />
 		</for>
 	</item>
-	<item id="16949" type="Weapon" name="Samurai Long Sword*Samurai Long Sword of Friendship - 90 day limited period">
+	<item id="16949" type="Weapon" name="友情的瑟魯基長劍*瑟魯基長劍">
 		<set name="icon" val="icon.weapon_dual_sword_i00" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="dual" />
@@ -1196,7 +1196,7 @@
 			<set order="0x08" stat="pAtkSpd" val="325" />
 		</for>
 	</item>
-	<item id="16950" type="Weapon" name="Spirit Sword*Raid Sword of Friendship - 90 day limited period">
+	<item id="16950" type="Weapon" name="友情的靈魂之劍*襲擊劍">
 		<set name="icon" val="icon.weapon_dual_sword_i00" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="dual" />
@@ -1223,7 +1223,7 @@
 			<set order="0x08" stat="pAtkSpd" val="325" />
 		</for>
 	</item>
-	<item id="16951" type="Weapon" name="Bastard Sword*Elven Sword of Friendship - 90 day limited period">
+	<item id="16951" type="Weapon" name="友情的重劍*精靈劍">
 		<set name="icon" val="icon.weapon_dual_sword_i00" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="dual" />
@@ -1249,7 +1249,7 @@
 			<set order="0x08" stat="pAtkSpd" val="325" />
 		</for>
 	</item>
-	<item id="16952" type="Weapon" name="Tiphon's Spear of Friendship - 90 day limited period">
+	<item id="16952" type="Weapon" name="友情的岱依封長戟">
 		<set name="icon" val="icon.weapon_tiphon_spear_i01" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="pole" />
@@ -1278,7 +1278,7 @@
 			<set order="0x08" stat="pAtkSpd" val="325" />
 		</for>
 	</item>
-	<item id="16953" type="Weapon" name="Lance of Friendship - 90 day limited period">
+	<item id="16953" type="Weapon" name="友情的長槍">
 		<set name="icon" val="icon.weapon_lancia_i01" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="pole" />
@@ -1307,7 +1307,7 @@
 			<set order="0x08" stat="pAtkSpd" val="325" />
 		</for>
 	</item>
-	<item id="16954" type="Weapon" name="Orcish Poleaxe of Friendship - 90 day limited period">
+	<item id="16954" type="Weapon" name="友情的歐西斯戰斧">
 		<set name="icon" val="icon.weapon_orcish_poleaxe_i01" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="pole" />
@@ -1336,7 +1336,7 @@
 			<set order="0x08" stat="pAtkSpd" val="325" />
 		</for>
 	</item>
-	<item id="16955" type="Weapon" name="Glaive of Friendship - 90 day limited period">
+	<item id="16955" type="Weapon" name="友情的闊矛">
 		<set name="icon" val="icon.weapon_glaive_i00" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="pole" />
@@ -1365,7 +1365,7 @@
 			<set order="0x08" stat="pAtkSpd" val="325" />
 		</for>
 	</item>
-	<item id="16956" type="Weapon" name="Durendal of Friendship - 90 day limited period">
+	<item id="16956" type="Weapon" name="友情的光明守護之劍">
 		<set name="icon" val="icon.weapon_death_bringer_i01" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="ancientsword" />
@@ -1395,7 +1395,7 @@
 			<set order="0x08" stat="pAtkSpd" val="350" />
 		</for>
 	</item>
-	<item id="16957" type="Weapon" name="Dismantler of Friendship - 90 day limited period">
+	<item id="16957" type="Weapon" name="友情的裂解劍">
 		<set name="icon" val="icon.weapon_dismantler_i01" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="ancientsword" />
@@ -1425,7 +1425,7 @@
 			<set order="0x08" stat="pAtkSpd" val="350" />
 		</for>
 	</item>
-	<item id="16958" type="Weapon" name="Saber Tooth of Friendship - 90 day limited period">
+	<item id="16958" type="Weapon" name="友情的劍齒虎">
 		<set name="icon" val="icon.weapon_invincible_blade_i01" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="ancientsword" />
@@ -1455,7 +1455,7 @@
 			<set order="0x08" stat="pAtkSpd" val="350" />
 		</for>
 	</item>
-	<item id="16959" type="Weapon" name="General's Katzbalger of Friendship - 90 day limited period">
+	<item id="16959" type="Weapon" name="友情的將軍格鬥劍">
 		<set name="icon" val="icon.weapon_tulwar_i00" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="ancientsword" />
@@ -1484,7 +1484,7 @@
 			<set order="0x08" stat="pAtkSpd" val="350" />
 		</for>
 	</item>
-	<item id="16960" type="Weapon" name="Éclair Bijou of Friendship - 90 day limited period">
+	<item id="16960" type="Weapon" name="友情的閃光之珠">
 		<set name="icon" val="icon.weapon_greed_stinger_i01" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="rapier" />
@@ -1515,7 +1515,7 @@
 			<set order="0x08" stat="pAtkSpd" val="406" />
 		</for>
 	</item>
-	<item id="16961" type="Weapon" name="Colichemarde of Friendship - 90 day limited period">
+	<item id="16961" type="Weapon" name="友情的華麗細劍">
 		<set name="icon" val="icon.weapon_colichemarde_i01" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="rapier" />
@@ -1546,7 +1546,7 @@
 			<set order="0x08" stat="pAtkSpd" val="406" />
 		</for>
 	</item>
-	<item id="16962" type="Weapon" name="Admiral's Estoc of Friendship - 90 day limited period">
+	<item id="16962" type="Weapon" name="友情的上將刺劍">
 		<set name="icon" val="icon.weapon_blink_slasher_i01" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="rapier" />
@@ -1577,7 +1577,7 @@
 			<set order="0x08" stat="pAtkSpd" val="406" />
 		</for>
 	</item>
-	<item id="16963" type="Weapon" name="Grand Épée of Friendship - 90 day limited period">
+	<item id="16963" type="Weapon" name="友情的巨銳劍">
 		<set name="icon" val="icon.weapon_rapier_i00" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="rapier" />
@@ -1607,7 +1607,7 @@
 			<set order="0x08" stat="pAtkSpd" val="406" />
 		</for>
 	</item>
-	<item id="16964" type="Weapon" name="Screaming Vengeance of Friendship - 90 day limited period">
+	<item id="16964" type="Weapon" name="友情的復仇爆弩">
 		<set name="icon" val="icon.weapon_soul_shooter_i01" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="crossbow" />
@@ -1638,7 +1638,7 @@
 			<set order="0x08" stat="pAtkSpd" val="303" />
 		</for>
 	</item>
-	<item id="16965" type="Weapon" name="Hell Hound of Friendship - 90 day limited period">
+	<item id="16965" type="Weapon" name="友情的冥犬之牙">
 		<set name="icon" val="icon.weapon_hell_hound_i01" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="crossbow" />
@@ -1669,7 +1669,7 @@
 			<set order="0x08" stat="pAtkSpd" val="303" />
 		</for>
 	</item>
-	<item id="16966" type="Weapon" name="Sharpshooter of Friendship - 90 day limited period">
+	<item id="16966" type="Weapon" name="友情的滅形弩">
 		<set name="icon" val="icon.weapon_taslam_i01" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="crossbow" />
@@ -1700,7 +1700,7 @@
 			<set order="0x08" stat="pAtkSpd" val="303" />
 		</for>
 	</item>
-	<item id="16967" type="Weapon" name="Cranequin of Friendship - 90 day limited period">
+	<item id="16967" type="Weapon" name="友情的齒輪弩">
 		<set name="icon" val="icon.weapon_hunting_gun_i00" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="crossbow" />
@@ -1730,7 +1730,7 @@
 			<set order="0x08" stat="pAtkSpd" val="303" />
 		</for>
 	</item>
-	<item id="16968" type="EtcItem" name="Knight Class Equipment Set - 90 day limited period">
+	<item id="16968" type="EtcItem" name="騎士系列套裝">
 		<set name="icon" val="icon.etc_equip_item_box_i00" />
 		<set name="default_action" val="peel" />
 		<set name="immediate_effect" val="1" />
@@ -1742,7 +1742,7 @@
 		<set name="time" val="129600" />
 		<set name="capsuled_items" val="16975,1,1,100;16976,1,1,100;16977,1,1,100;16978,1,1,100;16990,1,1,100;16991,1,1,100;16994,1,1,100;16999,1,1,100;17000,1,1,100;17001,1,1,100;17002,1,1,100" />
 	</item>
-	<item id="16969" type="EtcItem" name="Magic Class Equipment Set - 90 day limited period">
+	<item id="16969" type="EtcItem" name="法師系列套裝">
 		<set name="icon" val="icon.etc_equip_item_box_i00" />
 		<set name="default_action" val="peel" />
 		<set name="immediate_effect" val="1" />
@@ -1754,7 +1754,7 @@
 		<set name="time" val="129600" />
 		<set name="capsuled_items" val="16983,1,1,100;16984,1,1,100;16985,1,1,100;16986,1,1,100;16987,1,1,100;16999,1,1,100;17000,1,1,100;17001,1,1,100;17002,1,1,100" />
 	</item>
-	<item id="16970" type="EtcItem" name="Warrior Class Equipment Set - 90 day limited period">
+	<item id="16970" type="EtcItem" name="鬥士系列套裝">
 		<set name="icon" val="icon.etc_equip_item_box_i00" />
 		<set name="default_action" val="peel" />
 		<set name="immediate_effect" val="1" />
@@ -1766,7 +1766,7 @@
 		<set name="time" val="129600" />
 		<set name="capsuled_items" val="16975,1,1,100;16976,1,1,100;16977,1,1,100;16978,1,1,100;16990,1,1,100;16994,1,1,100;16995,1,1,100;16999,1,1,100;17000,1,1,100;17001,1,1,100;17002,1,1,100" />
 	</item>
-	<item id="16971" type="EtcItem" name="Rouge Class Equipment Set - 90 day limited period">
+	<item id="16971" type="EtcItem" name="行者系列套裝">
 		<set name="icon" val="icon.etc_equip_item_box_i00" />
 		<set name="default_action" val="peel" />
 		<set name="immediate_effect" val="1" />
@@ -1778,7 +1778,7 @@
 		<set name="time" val="129600" />
 		<set name="capsuled_items" val="16979,1,1,100;16980,1,1,100;16981,1,1,100;16982,1,1,100;16988,1,1,100;16989,1,1,100;16999,1,1,100;17000,1,1,100;17001,1,1,100;17002,1,1,100" />
 	</item>
-	<item id="16972" type="EtcItem" name="Kamael Class Equipment Set - 90 day limited period">
+	<item id="16972" type="EtcItem" name="闇天使系列套裝">
 		<set name="icon" val="icon.etc_equip_item_box_i00" />
 		<set name="default_action" val="peel" />
 		<set name="immediate_effect" val="1" />
@@ -1790,7 +1790,7 @@
 		<set name="time" val="129600" />
 		<set name="capsuled_items" val="16979,1,1,100;16980,1,1,100;16981,1,1,100;16982,1,1,100;16996,1,1,100;16997,1,1,100;16998,1,1,100;16999,1,1,100;17000,1,1,100;17001,1,1,100;17002,1,1,100" />
 	</item>
-	<item id="16973" type="EtcItem" name="Orc Fighter Class Equipment Set - 90 day limited period">
+	<item id="16973" type="EtcItem" name="半獸人戰士系列套裝">
 		<set name="icon" val="icon.etc_equip_item_box_i00" />
 		<set name="default_action" val="peel" />
 		<set name="immediate_effect" val="1" />
@@ -1802,7 +1802,7 @@
 		<set name="time" val="129600" />
 		<set name="capsuled_items" val="16975,1,1,100;16976,1,1,100;16977,1,1,100;16978,1,1,100;16979,1,1,100;16980,1,1,100;16981,1,1,100;16982,1,1,100;16992,1,1,100;16993,1,1,100;16995,1,1,100;16999,1,1,100;17000,1,1,100;17001,1,1,100;17002,1,1,100" />
 	</item>
-	<item id="16974" type="EtcItem" name="Orc Mage Class Equipment Set - 90 day limited period">
+	<item id="16974" type="EtcItem" name="半獸人法師系列套裝">
 		<set name="icon" val="icon.etc_equip_item_box_i00" />
 		<set name="default_action" val="peel" />
 		<set name="immediate_effect" val="1" />
@@ -1814,7 +1814,7 @@
 		<set name="time" val="129600" />
 		<set name="capsuled_items" val="16975,1,1,100;16976,1,1,100;16977,1,1,100;16978,1,1,100;16983,1,1,100;16984,1,1,100;16985,1,1,100;16986,1,1,100;16987,1,1,100;16990,1,1,100;16999,1,1,100;17000,1,1,100;17001,1,1,100;17002,1,1,100" />
 	</item>
-	<item id="16975" type="EtcItem" name="Friendship Heavy Armor of Nightmare Set Pack - 90 day limited period">
+	<item id="16975" type="EtcItem" name="友情的夢魘重裝套裝組-A級">
 		<set name="icon" val="icon.etc_equip_item_box_i02" />
 		<set name="default_action" val="peel" />
 		<set name="immediate_effect" val="1" />
@@ -1827,7 +1827,7 @@
 		<set name="time" val="129600" />
 		<set name="capsuled_items" val="16915,1,1,100;16916,1,1,100;16917,1,1,100;16918,1,1,100;16919,1,1,100" />
 	</item>
-	<item id="16976" type="EtcItem" name="Doom Plate Armor of Friendship Set Pack - 90 day limited period">
+	<item id="16976" type="EtcItem" name="友情的末日金屬盔甲套裝組-B級">
 		<set name="icon" val="icon.etc_equip_item_box_i02" />
 		<set name="default_action" val="peel" />
 		<set name="immediate_effect" val="1" />
@@ -1840,7 +1840,7 @@
 		<set name="time" val="129600" />
 		<set name="capsuled_items" val="16889,1,1,100;16890,1,1,100;16892,1,1,100;16894,1,1,100;16895,1,1,100" />
 	</item>
-	<item id="16977" type="EtcItem" name="Full Plate of Friendship Set Pack - 90 day limited period">
+	<item id="16977" type="EtcItem" name="友情的全覆式套裝組-C級">
 		<set name="icon" val="icon.etc_equip_item_box_i02" />
 		<set name="default_action" val="peel" />
 		<set name="immediate_effect" val="1" />
@@ -1853,7 +1853,7 @@
 		<set name="time" val="129600" />
 		<set name="capsuled_items" val="16900,1,1,100;16901,1,1,100;16902,1,1,100;16903,1,1,100;16904,1,1,100" />
 	</item>
-	<item id="16978" type="EtcItem" name="Brigandine of Friendship Set Pack - 90 day limited period">
+	<item id="16978" type="EtcItem" name="友情的鎖子甲套裝組-D級">
 		<set name="icon" val="icon.etc_equip_item_box_i02" />
 		<set name="default_action" val="peel" />
 		<set name="immediate_effect" val="1" />
@@ -1866,7 +1866,7 @@
 		<set name="time" val="129600" />
 		<set name="capsuled_items" val="16909,1,1,100;16910,1,1,100;16911,1,1,100;16912,1,1,100;16913,1,1,100;16914,1,1,100" />
 	</item>
-	<item id="16979" type="EtcItem" name="Dark Crystal Light Armor of Friendship Set Pack - 90 day limited period">
+	<item id="16979" type="EtcItem" name="友情的黑暗水晶輕裝套裝組-A級">
 		<set name="icon" val="icon.etc_equip_item_box_i02" />
 		<set name="default_action" val="peel" />
 		<set name="immediate_effect" val="1" />
@@ -1879,7 +1879,7 @@
 		<set name="time" val="129600" />
 		<set name="capsuled_items" val="16884,1,1,100;16885,1,1,100;16886,1,1,100;16887,1,1,100;16867,1,1,100" />
 	</item>
-	<item id="16980" type="EtcItem" name="Leather Armor of Doom of Friendship Set Pack - 90 day limited period">
+	<item id="16980" type="EtcItem" name="友情的末日皮甲套裝組-B級">
 		<set name="icon" val="icon.etc_equip_item_box_i02" />
 		<set name="default_action" val="peel" />
 		<set name="immediate_effect" val="1" />
@@ -1892,7 +1892,7 @@
 		<set name="time" val="129600" />
 		<set name="capsuled_items" val="16888,1,1,100;16889,1,1,100;16891,1,1,100;16893,1,1,100" />
 	</item>
-	<item id="16981" type="EtcItem" name="Plate Leather of Friendship Set Pack - 90 day limited period">
+	<item id="16981" type="EtcItem" name="友情的金屬皮套裝組-C級">
 		<set name="icon" val="icon.etc_equip_item_box_i02" />
 		<set name="default_action" val="peel" />
 		<set name="immediate_effect" val="1" />
@@ -1905,7 +1905,7 @@
 		<set name="time" val="129600" />
 		<set name="capsuled_items" val="16896,1,1,100;16897,1,1,100;16898,1,1,100;16899,1,1,100;16900,1,1,100" />
 	</item>
-	<item id="16982" type="EtcItem" name="Manticore Leather of Friendship Set Pack - 90 day limited period">
+	<item id="16982" type="EtcItem" name="友情的刺尾獅皮套裝組-D級">
 		<set name="icon" val="icon.etc_equip_item_box_i02" />
 		<set name="default_action" val="peel" />
 		<set name="immediate_effect" val="1" />
@@ -1918,7 +1918,7 @@
 		<set name="time" val="129600" />
 		<set name="capsuled_items" val="16905,1,1,100;16906,1,1,100;16907,1,1,100;16908,1,1,100;16911,1,1,100" />
 	</item>
-	<item id="16983" type="EtcItem" name="Dark Crystal Robe of Friendship Set Pack - 90 day limited period">
+	<item id="16983" type="EtcItem" name="友情的黑暗水晶長袍套裝組-A級">
 		<set name="icon" val="icon.etc_equip_item_box_i02" />
 		<set name="default_action" val="peel" />
 		<set name="immediate_effect" val="1" />
@@ -1931,7 +1931,7 @@
 		<set name="time" val="129600" />
 		<set name="capsuled_items" val="16866,1,1,100;16867,1,1,100;16868,1,1,100;16869,1,1,100;16870,1,1,100" />
 	</item>
-	<item id="16984" type="EtcItem" name="Avadon Robe of Friendship Set Pack - 90 day limited period">
+	<item id="16984" type="EtcItem" name="友情的阿巴敦長袍套裝組-B級">
 		<set name="icon" val="icon.etc_equip_item_box_i02" />
 		<set name="default_action" val="peel" />
 		<set name="immediate_effect" val="1" />
@@ -1944,7 +1944,7 @@
 		<set name="time" val="129600" />
 		<set name="capsuled_items" val="16871,1,1,100;16872,1,1,100;16873,1,1,100;16874,1,1,100;16875,1,1,100" />
 	</item>
-	<item id="16985" type="EtcItem" name="Karmian of Friendship Set Pack - 90 day limited period">
+	<item id="16985" type="EtcItem" name="友情的卡勒米安套裝組-C級">
 		<set name="icon" val="icon.etc_equip_item_box_i02" />
 		<set name="default_action" val="peel" />
 		<set name="immediate_effect" val="1" />
@@ -1957,7 +1957,7 @@
 		<set name="time" val="129600" />
 		<set name="capsuled_items" val="16876,1,1,100;16877,1,1,100;16878,1,1,100;16879,1,1,100;16900,1,1,100" />
 	</item>
-	<item id="16986" type="EtcItem" name="Mithril Tunic of Friendship Set Pack - 90 day limited period">
+	<item id="16986" type="EtcItem" name="友情的米索莉外衣套裝組-D級">
 		<set name="icon" val="icon.etc_equip_item_box_i02" />
 		<set name="default_action" val="peel" />
 		<set name="immediate_effect" val="1" />
@@ -1970,7 +1970,7 @@
 		<set name="time" val="129600" />
 		<set name="capsuled_items" val="16880,1,1,100;16881,1,1,100;16882,1,1,100;16883,1,1,100;16911,1,1,100" />
 	</item>
-	<item id="16987" type="EtcItem" name="Magic Weapon of Friendship Set - 90 day limited period">
+	<item id="16987" type="EtcItem" name="友情的魔法武器組">
 		<set name="icon" val="icon.etc_equip_item_box_i03" />
 		<set name="default_action" val="peel" />
 		<set name="immediate_effect" val="1" />
@@ -1983,7 +1983,7 @@
 		<set name="time" val="129600" />
 		<set name="capsuled_items" val="16920,1,1,100;16921,1,1,100;16922,1,1,100;16923,1,1,100" />
 	</item>
-	<item id="16988" type="EtcItem" name="Dagger of Friendship Set - 90 day limited period">
+	<item id="16988" type="EtcItem" name="友情的匕首組">
 		<set name="icon" val="icon.etc_equip_item_box_i03" />
 		<set name="default_action" val="peel" />
 		<set name="immediate_effect" val="1" />
@@ -1996,7 +1996,7 @@
 		<set name="time" val="129600" />
 		<set name="capsuled_items" val="16924,1,1,100;16925,1,1,100;16926,1,1,100;16927,1,1,100" />
 	</item>
-	<item id="16989" type="EtcItem" name="Bow of Friendship Set - 90 day limited period">
+	<item id="16989" type="EtcItem" name="友情的弓箭組">
 		<set name="icon" val="icon.etc_equip_item_box_i03" />
 		<set name="default_action" val="peel" />
 		<set name="immediate_effect" val="1" />
@@ -2009,7 +2009,7 @@
 		<set name="time" val="129600" />
 		<set name="capsuled_items" val="16928,1,1,100;16929,1,1,100;16930,1,1,100;16931,1,1,100" />
 	</item>
-	<item id="16990" type="EtcItem" name="Blunt Weapon of Friendship Set - 90 day limited period">
+	<item id="16990" type="EtcItem" name="友情的鈍器組">
 		<set name="icon" val="icon.etc_equip_item_box_i03" />
 		<set name="default_action" val="peel" />
 		<set name="immediate_effect" val="1" />
@@ -2022,7 +2022,7 @@
 		<set name="time" val="129600" />
 		<set name="capsuled_items" val="16932,1,1,100;16933,1,1,100;16934,1,1,100;16935,1,1,100" />
 	</item>
-	<item id="16991" type="EtcItem" name="One-handed Sword of Friendship Set - 90 day limited period">
+	<item id="16991" type="EtcItem" name="友情的單手劍組">
 		<set name="icon" val="icon.etc_equip_item_box_i03" />
 		<set name="default_action" val="peel" />
 		<set name="immediate_effect" val="1" />
@@ -2035,7 +2035,7 @@
 		<set name="time" val="129600" />
 		<set name="capsuled_items" val="16936,1,1,100;16937,1,1,100;16938,1,1,100;16939,1,1,100" />
 	</item>
-	<item id="16992" type="EtcItem" name="Two-handed Sword of Friendship Set - 90 day limited period">
+	<item id="16992" type="EtcItem" name="友情的雙手劍組">
 		<set name="icon" val="icon.etc_equip_item_box_i03" />
 		<set name="default_action" val="peel" />
 		<set name="immediate_effect" val="1" />
@@ -2048,7 +2048,7 @@
 		<set name="time" val="129600" />
 		<set name="capsuled_items" val="16940,1,1,100;16941,1,1,100;16942,1,1,100;16943,1,1,100" />
 	</item>
-	<item id="16993" type="EtcItem" name="Hand-to-hand Combat Weapon of Friendship Set - 90 day limited period">
+	<item id="16993" type="EtcItem" name="友情的格鬥兵器組">
 		<set name="icon" val="icon.etc_equip_item_box_i03" />
 		<set name="default_action" val="peel" />
 		<set name="immediate_effect" val="1" />
@@ -2061,7 +2061,7 @@
 		<set name="time" val="129600" />
 		<set name="capsuled_items" val="16944,1,1,100;16945,1,1,100;16946,1,1,100;16947,1,1,100" />
 	</item>
-	<item id="16994" type="EtcItem" name="Dualsword of Friendship Set - 90 day limited period">
+	<item id="16994" type="EtcItem" name="友情的雙刀組">
 		<set name="icon" val="icon.etc_equip_item_box_i03" />
 		<set name="default_action" val="peel" />
 		<set name="immediate_effect" val="1" />
@@ -2074,7 +2074,7 @@
 		<set name="time" val="129600" />
 		<set name="capsuled_items" val="16948,1,1,100;16949,1,1,100;16950,1,1,100;16951,1,1,100" />
 	</item>
-	<item id="16995" type="EtcItem" name="Spear of Friendship Set - 90 day limited period">
+	<item id="16995" type="EtcItem" name="友情的槍矛組">
 		<set name="icon" val="icon.etc_equip_item_box_i03" />
 		<set name="default_action" val="peel" />
 		<set name="immediate_effect" val="1" />
@@ -2087,7 +2087,7 @@
 		<set name="time" val="129600" />
 		<set name="capsuled_items" val="16952,1,1,100;16953,1,1,100;16954,1,1,100;16955,1,1,100" />
 	</item>
-	<item id="16996" type="EtcItem" name="Ancient Sword of Friendship Set - 90 day limited period">
+	<item id="16996" type="EtcItem" name="友情的古代劍組">
 		<set name="icon" val="icon.etc_equip_item_box_i03" />
 		<set name="default_action" val="peel" />
 		<set name="immediate_effect" val="1" />
@@ -2100,7 +2100,7 @@
 		<set name="time" val="129600" />
 		<set name="capsuled_items" val="16956,1,1,100;16957,1,1,100;16958,1,1,100;16959,1,1,100" />
 	</item>
-	<item id="16997" type="EtcItem" name="Short Sword of Friendship Set - 90 day limited period">
+	<item id="16997" type="EtcItem" name="友情的細劍組">
 		<set name="icon" val="icon.etc_equip_item_box_i03" />
 		<set name="default_action" val="peel" />
 		<set name="immediate_effect" val="1" />
@@ -2113,7 +2113,7 @@
 		<set name="time" val="129600" />
 		<set name="capsuled_items" val="16960,1,1,100;16961,1,1,100;16962,1,1,100;16963,1,1,100" />
 	</item>
-	<item id="16998" type="EtcItem" name="Crossbow of Friendship Set - 90 day limited period">
+	<item id="16998" type="EtcItem" name="友情的弩弓組">
 		<set name="icon" val="icon.etc_equip_item_box_i03" />
 		<set name="default_action" val="peel" />
 		<set name="immediate_effect" val="1" />
@@ -2126,7 +2126,7 @@
 		<set name="time" val="129600" />
 		<set name="capsuled_items" val="16964,1,1,100;16965,1,1,100;16966,1,1,100;16967,1,1,100" />
 	</item>
-	<item id="16999" type="EtcItem" name="Majestic Set of Friendship - 90 day limited period">
+	<item id="16999" type="EtcItem" name="友情的聖威飾品組-A級">
 		<set name="icon" val="icon.etc_jewel_box_i00" />
 		<set name="default_action" val="peel" />
 		<set name="immediate_effect" val="1" />

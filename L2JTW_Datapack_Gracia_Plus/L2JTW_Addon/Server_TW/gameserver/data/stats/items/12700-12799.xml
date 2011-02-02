@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <list>
-	<item id="12700" type="EtcItem" name="Foundation Sealed Dynasty Leather Boots">
+	<item id="12700" type="EtcItem" name="渾沌的封印的王朝皮長靴">
 		<set name="icon" val="icon.armor_t92_b_i02" />
 		<set name="immediate_effect" val="1" />
 		<set name="crystal_type" val="s80" />
@@ -11,7 +11,7 @@
 			<add order="0x10" stat="pDef" val="61" />
 		</for>
 	</item>
-	<item id="12701" type="EtcItem" name="Foundation Sealed Dynasty Leather Helmet">
+	<item id="12701" type="EtcItem" name="渾沌的封印的王朝皮頭盔">
 		<set name="icon" val="icon.armor_leather_helmet_i02" />
 		<set name="immediate_effect" val="1" />
 		<set name="crystal_type" val="s80" />
@@ -22,7 +22,7 @@
 			<add order="0x10" stat="pDef" val="92" />
 		</for>
 	</item>
-	<item id="12702" type="EtcItem" name="Foundation Sealed Dynasty Boots">
+	<item id="12702" type="EtcItem" name="渾沌的封印的王朝長靴">
 		<set name="icon" val="icon.armor_t91_b_i02" />
 		<set name="immediate_effect" val="1" />
 		<set name="crystal_type" val="s80" />
@@ -34,7 +34,7 @@
 			<add order="0x10" stat="pDef" val="61" />
 		</for>
 	</item>
-	<item id="12703" type="EtcItem" name="Foundation Sealed Dynasty Breastplate">
+	<item id="12703" type="EtcItem" name="渾沌的封印的王朝盔甲">
 		<set name="icon" val="icon.armor_t91_u_i02" />
 		<set name="armor_type" val="heavy" />
 		<set name="immediate_effect" val="1" />
@@ -47,7 +47,7 @@
 			<add order="0x10" stat="pDef" val="214" />
 		</for>
 	</item>
-	<item id="12704" type="EtcItem" name="Foundation Sealed Dynasty Shield">
+	<item id="12704" type="EtcItem" name="渾沌的封印的王朝盾">
 		<set name="icon" val="icon.shield_dynasty_shield_i01" />
 		<set name="avoid_modify" val="-8" />
 		<set name="immediate_effect" val="1" />
@@ -62,7 +62,7 @@
 			<set order="0x08" stat="sDef" val="305" />
 		</for>
 	</item>
-	<item id="12705" type="EtcItem" name="Foundation Sealed Dynasty Shoes">
+	<item id="12705" type="EtcItem" name="渾沌的封印的王朝鞋">
 		<set name="icon" val="icon.armor_t93_b_i02" />
 		<set name="immediate_effect" val="1" />
 		<set name="crystal_type" val="s80" />
@@ -74,7 +74,7 @@
 			<add order="0x10" stat="pDef" val="61" />
 		</for>
 	</item>
-	<item id="12706" type="EtcItem" name="Foundation Sealed Dynasty Circlet">
+	<item id="12706" type="EtcItem" name="渾沌的封印的王朝頭箍">
 		<set name="icon" val="icon.armor_circlet_i02" />
 		<set name="immediate_effect" val="1" />
 		<set name="crystal_type" val="s80" />
@@ -86,7 +86,7 @@
 			<add order="0x10" stat="pDef" val="92" />
 		</for>
 	</item>
-	<item id="12707" type="EtcItem" name="Foundation Sealed Dynasty Tunic">
+	<item id="12707" type="EtcItem" name="渾沌的封印的王朝外衣">
 		<set name="icon" val="icon.armor_t93_u_i02" />
 		<set name="armor_type" val="magic" />
 		<set name="immediate_effect" val="1" />
@@ -100,7 +100,7 @@
 			<add order="0x40" stat="maxMp" val="592" />
 		</for>
 	</item>
-	<item id="12708" type="EtcItem" name="Foundation Sealed Dynasty Helmet">
+	<item id="12708" type="EtcItem" name="渾沌的封印的王朝頭盔">
 		<set name="icon" val="icon.armor_helmet_i02" />
 		<set name="immediate_effect" val="1" />
 		<set name="crystal_type" val="s80" />
@@ -112,7 +112,7 @@
 			<add order="0x10" stat="pDef" val="92" />
 		</for>
 	</item>
-	<item id="12709" type="EtcItem" name="Foundation Sealed Dynasty Stockings">
+	<item id="12709" type="EtcItem" name="渾沌的封印的王朝長襪">
 		<set name="icon" val="icon.armor_t93_l_i02" />
 		<set name="armor_type" val="magic" />
 		<set name="immediate_effect" val="1" />
@@ -126,7 +126,7 @@
 			<add order="0x40" stat="maxMp" val="370" />
 		</for>
 	</item>
-	<item id="12710" type="EtcItem" name="Foundation Adamantite Earring">
+	<item id="12710" type="EtcItem" name="渾沌的金剛石耳環">
 		<set name="icon" val="icon.accessary_adamantite_earing_i00" />
 		<set name="immediate_effect" val="1" />
 		<set name="crystal_type" val="b" />
@@ -137,7 +137,7 @@
 			<add order="0x10" stat="mDef" val="51" />
 		</for>
 	</item>
-	<item id="12711" type="EtcItem" name="Foundation Adamantite Necklace">
+	<item id="12711" type="EtcItem" name="渾沌的金剛石項鍊">
 		<set name="icon" val="icon.accessary_adamantite_necklace_i00" />
 		<set name="immediate_effect" val="1" />
 		<set name="crystal_type" val="b" />
@@ -148,7 +148,7 @@
 			<add order="0x10" stat="mDef" val="68" />
 		</for>
 	</item>
-	<item id="12712" type="EtcItem" name="Foundation Adamantite Ring">
+	<item id="12712" type="EtcItem" name="渾沌的金剛石戒指">
 		<set name="icon" val="icon.accessary_adamantite_ring_i00" />
 		<set name="immediate_effect" val="1" />
 		<set name="crystal_type" val="b" />
@@ -159,7 +159,7 @@
 			<add order="0x10" stat="mDef" val="34" />
 		</for>
 	</item>
-	<item id="12713" type="EtcItem" name="Foundation Earring of Black Ore">
+	<item id="12713" type="EtcItem" name="渾沌的黑光耳環">
 		<set name="icon" val="icon.accessary_earing_of_black_ore_i00" />
 		<set name="immediate_effect" val="1" />
 		<set name="crystal_type" val="b" />
@@ -170,7 +170,7 @@
 			<add order="0x10" stat="mDef" val="54" />
 		</for>
 	</item>
-	<item id="12714" type="EtcItem" name="Foundation Necklace of Black Ore">
+	<item id="12714" type="EtcItem" name="渾沌的黑光項鍊">
 		<set name="icon" val="icon.accessary_necklace_of_black_ore_i00" />
 		<set name="immediate_effect" val="1" />
 		<set name="crystal_type" val="b" />
@@ -181,7 +181,7 @@
 			<add order="0x10" stat="mDef" val="72" />
 		</for>
 	</item>
-	<item id="12715" type="EtcItem" name="Foundation Ring of Black Ore">
+	<item id="12715" type="EtcItem" name="渾沌的黑光戒指">
 		<set name="icon" val="icon.accessary_ring_of_black_ore_i00" />
 		<set name="immediate_effect" val="1" />
 		<set name="crystal_type" val="b" />
@@ -192,7 +192,7 @@
 			<add order="0x10" stat="mDef" val="36" />
 		</for>
 	</item>
-	<item id="12716" type="EtcItem" name="Foundation Sealed Phoenix Necklace">
+	<item id="12716" type="EtcItem" name="渾沌的封印的不死鳥項鍊">
 		<set name="icon" val="icon.accessary_phoenixs_necklace_i02" />
 		<set name="immediate_effect" val="1" />
 		<set name="crystal_type" val="a" />
@@ -203,7 +203,7 @@
 			<add order="0x10" stat="mDef" val="76" />
 		</for>
 	</item>
-	<item id="12717" type="EtcItem" name="Foundation Sealed Phoenix Ring">
+	<item id="12717" type="EtcItem" name="渾沌的封印的不死鳥戒指">
 		<set name="icon" val="icon.accessary_phoenixs_ring_i02" />
 		<set name="immediate_effect" val="1" />
 		<set name="crystal_type" val="a" />
@@ -214,7 +214,7 @@
 			<add order="0x10" stat="mDef" val="38" />
 		</for>
 	</item>
-	<item id="12718" type="EtcItem" name="Foundation Sealed Phoenix Earring">
+	<item id="12718" type="EtcItem" name="渾沌的封印的不死鳥耳環">
 		<set name="icon" val="icon.accessary_phoenixs_earing_i02" />
 		<set name="immediate_effect" val="1" />
 		<set name="crystal_type" val="a" />
@@ -225,7 +225,7 @@
 			<add order="0x10" stat="mDef" val="57" />
 		</for>
 	</item>
-	<item id="12719" type="EtcItem" name="Foundation Phoenix Necklace">
+	<item id="12719" type="EtcItem" name="渾沌的不死鳥項鍊">
 		<set name="icon" val="icon.accessary_phoenixs_necklace_i00" />
 		<set name="immediate_effect" val="1" />
 		<set name="crystal_type" val="a" />
@@ -236,7 +236,7 @@
 			<add order="0x10" stat="mDef" val="76" />
 		</for>
 	</item>
-	<item id="12720" type="EtcItem" name="Foundation Phoenix Ring">
+	<item id="12720" type="EtcItem" name="渾沌的不死鳥戒指">
 		<set name="icon" val="icon.accessary_phoenixs_ring_i00" />
 		<set name="immediate_effect" val="1" />
 		<set name="crystal_type" val="a" />
@@ -247,7 +247,7 @@
 			<add order="0x10" stat="mDef" val="38" />
 		</for>
 	</item>
-	<item id="12721" type="EtcItem" name="Foundation Phoenix Earring">
+	<item id="12721" type="EtcItem" name="渾沌的不死鳥耳環">
 		<set name="icon" val="icon.accessary_phoenixs_earing_i00" />
 		<set name="immediate_effect" val="1" />
 		<set name="crystal_type" val="a" />
@@ -258,7 +258,7 @@
 			<add order="0x10" stat="mDef" val="57" />
 		</for>
 	</item>
-	<item id="12722" type="EtcItem" name="Foundation Majestic Necklace">
+	<item id="12722" type="EtcItem" name="渾沌的聖威項鍊">
 		<set name="icon" val="icon.accessary_inferno_necklace_i00" />
 		<set name="immediate_effect" val="1" />
 		<set name="crystal_type" val="a" />
@@ -269,7 +269,7 @@
 			<add order="0x10" stat="mDef" val="80" />
 		</for>
 	</item>
-	<item id="12723" type="EtcItem" name="Foundation Majestic Ring">
+	<item id="12723" type="EtcItem" name="渾沌的聖威戒指">
 		<set name="icon" val="icon.accessary_inferno_ring_i00" />
 		<set name="immediate_effect" val="1" />
 		<set name="crystal_type" val="a" />
@@ -280,7 +280,7 @@
 			<add order="0x10" stat="mDef" val="40" />
 		</for>
 	</item>
-	<item id="12724" type="EtcItem" name="Foundation Majestic Earring">
+	<item id="12724" type="EtcItem" name="渾沌的聖威耳環">
 		<set name="icon" val="icon.accessary_inferno_earing_i00" />
 		<set name="immediate_effect" val="1" />
 		<set name="crystal_type" val="a" />
@@ -291,7 +291,7 @@
 			<add order="0x10" stat="mDef" val="60" />
 		</for>
 	</item>
-	<item id="12725" type="EtcItem" name="Foundation Sealed Majestic Necklace">
+	<item id="12725" type="EtcItem" name="渾沌的封印的聖威項鍊">
 		<set name="icon" val="icon.accessary_inferno_necklace_i02" />
 		<set name="immediate_effect" val="1" />
 		<set name="crystal_type" val="a" />
@@ -302,7 +302,7 @@
 			<add order="0x10" stat="mDef" val="80" />
 		</for>
 	</item>
-	<item id="12726" type="EtcItem" name="Foundation Sealed Majestic Ring">
+	<item id="12726" type="EtcItem" name="渾沌的封印的聖威戒指">
 		<set name="icon" val="icon.accessary_inferno_ring_i02" />
 		<set name="immediate_effect" val="1" />
 		<set name="crystal_type" val="a" />
@@ -313,7 +313,7 @@
 			<add order="0x10" stat="mDef" val="40" />
 		</for>
 	</item>
-	<item id="12727" type="EtcItem" name="Foundation Sealed Majestic Earring">
+	<item id="12727" type="EtcItem" name="渾沌的封印的聖威耳環">
 		<set name="icon" val="icon.accessary_inferno_earing_i02" />
 		<set name="immediate_effect" val="1" />
 		<set name="crystal_type" val="a" />
@@ -324,7 +324,7 @@
 			<add order="0x10" stat="mDef" val="60" />
 		</for>
 	</item>
-	<item id="12728" type="EtcItem" name="Foundation Sealed Tateossian Necklace">
+	<item id="12728" type="EtcItem" name="渾沌的封印的泰狄奧森項鍊">
 		<set name="icon" val="icon.accessory_tateossian_necklace_i02" />
 		<set name="immediate_effect" val="1" />
 		<set name="crystal_type" val="s" />
@@ -335,7 +335,7 @@
 			<add order="0x10" stat="mDef" val="91" />
 		</for>
 	</item>
-	<item id="12729" type="EtcItem" name="Foundation Sealed Tateossian Ring">
+	<item id="12729" type="EtcItem" name="渾沌的封印的泰狄奧森戒指">
 		<set name="icon" val="icon.accessory_tateossian_ring_i02" />
 		<set name="immediate_effect" val="1" />
 		<set name="crystal_type" val="s" />
@@ -346,7 +346,7 @@
 			<add order="0x10" stat="mDef" val="46" />
 		</for>
 	</item>
-	<item id="12730" type="EtcItem" name="Foundation Sealed Tateossian Earring">
+	<item id="12730" type="EtcItem" name="渾沌的封印的泰狄奧森耳環">
 		<set name="icon" val="icon.accessory_tateossian_earring_i02" />
 		<set name="immediate_effect" val="1" />
 		<set name="crystal_type" val="s" />
@@ -357,7 +357,7 @@
 			<add order="0x10" stat="mDef" val="68" />
 		</for>
 	</item>
-	<item id="12731" type="EtcItem" name="Foundation Tateossian Necklace">
+	<item id="12731" type="EtcItem" name="渾沌的泰狄奧森項鍊">
 		<set name="icon" val="icon.accessory_tateossian_necklace_i00" />
 		<set name="immediate_effect" val="1" />
 		<set name="crystal_type" val="s" />
@@ -368,7 +368,7 @@
 			<add order="0x10" stat="mDef" val="91" />
 		</for>
 	</item>
-	<item id="12732" type="EtcItem" name="Foundation Tateossian Ring">
+	<item id="12732" type="EtcItem" name="渾沌的泰狄奧森戒指">
 		<set name="icon" val="icon.accessory_tateossian_ring_i00" />
 		<set name="immediate_effect" val="1" />
 		<set name="crystal_type" val="s" />
@@ -379,7 +379,7 @@
 			<add order="0x10" stat="mDef" val="46" />
 		</for>
 	</item>
-	<item id="12733" type="EtcItem" name="Foundation Tateossian Earring">
+	<item id="12733" type="EtcItem" name="渾沌的泰狄奧森耳環">
 		<set name="icon" val="icon.accessory_tateossian_earring_i00" />
 		<set name="immediate_effect" val="1" />
 		<set name="crystal_type" val="s" />
@@ -390,7 +390,7 @@
 			<add order="0x10" stat="mDef" val="68" />
 		</for>
 	</item>
-	<item id="12734" type="EtcItem" name="Foundation Dynasty Necklace">
+	<item id="12734" type="EtcItem" name="渾沌的王朝項鍊">
 		<set name="icon" val="icon.accessary_dynasty_necklace_i00" />
 		<set name="immediate_effect" val="1" />
 		<set name="crystal_type" val="s80" />
@@ -401,7 +401,7 @@
 			<add order="0x10" stat="mDef" val="106" />
 		</for>
 	</item>
-	<item id="12735" type="EtcItem" name="Foundation Dynasty Ring">
+	<item id="12735" type="EtcItem" name="渾沌的王朝戒指">
 		<set name="icon" val="icon.accessary_dynasty_ring_i00" />
 		<set name="immediate_effect" val="1" />
 		<set name="crystal_type" val="s80" />
@@ -412,7 +412,7 @@
 			<add order="0x10" stat="mDef" val="53" />
 		</for>
 	</item>
-	<item id="12736" type="EtcItem" name="Foundation Dynasty Earring">
+	<item id="12736" type="EtcItem" name="渾沌的王朝耳環">
 		<set name="icon" val="icon.accessary_dynasty_earing_i00" />
 		<set name="immediate_effect" val="1" />
 		<set name="crystal_type" val="s80" />
@@ -423,7 +423,7 @@
 			<add order="0x10" stat="mDef" val="79" />
 		</for>
 	</item>
-	<item id="12737" type="EtcItem" name="Foundation Sealed Dynasty Necklace">
+	<item id="12737" type="EtcItem" name="渾沌的封印的王朝項鍊">
 		<set name="icon" val="icon.accessary_dynasty_necklace_i01" />
 		<set name="immediate_effect" val="1" />
 		<set name="crystal_type" val="s80" />
@@ -434,7 +434,7 @@
 			<add order="0x10" stat="mDef" val="106" />
 		</for>
 	</item>
-	<item id="12738" type="EtcItem" name="Foundation Sealed Dynasty Ring">
+	<item id="12738" type="EtcItem" name="渾沌的封印的王朝戒指">
 		<set name="icon" val="icon.accessary_dynasty_ring_i01" />
 		<set name="immediate_effect" val="1" />
 		<set name="crystal_type" val="s80" />
@@ -445,7 +445,7 @@
 			<add order="0x10" stat="mDef" val="53" />
 		</for>
 	</item>
-	<item id="12739" type="EtcItem" name="Foundation Sealed Dynasty Earring">
+	<item id="12739" type="EtcItem" name="渾沌的封印的王朝耳環">
 		<set name="icon" val="icon.accessary_dynasty_earing_i01" />
 		<set name="immediate_effect" val="1" />
 		<set name="crystal_type" val="s80" />
@@ -456,7 +456,7 @@
 			<add order="0x10" stat="mDef" val="79" />
 		</for>
 	</item>
-	<item id="12740" type="Armor" name="Baby Pet Scale Armor">
+	<item id="12740" type="Armor" name="小寵物用鱗甲">
 		<set name="icon" val="icon.etc_pet_armor_i03" />
 		<set name="default_action" val="equip" />
 		<set name="armor_type" val="light" />
@@ -470,7 +470,7 @@
 			<add order="0x10" stat="pDef" val="112" />
 		</for>
 	</item>
-	<item id="12741" type="Armor" name="Baby Pet Bronze Armor">
+	<item id="12741" type="Armor" name="小寵物用青銅甲">
 		<set name="icon" val="icon.etc_pet_armor_i03" />
 		<set name="default_action" val="equip" />
 		<set name="armor_type" val="light" />
@@ -484,7 +484,7 @@
 			<add order="0x10" stat="pDef" val="124" />
 		</for>
 	</item>
-	<item id="12742" type="Armor" name="Baby Pet Plate Armor">
+	<item id="12742" type="Armor" name="小寵物用金屬甲">
 		<set name="icon" val="icon.etc_pet_armor_i03" />
 		<set name="default_action" val="equip" />
 		<set name="armor_type" val="light" />
@@ -498,7 +498,7 @@
 			<add order="0x10" stat="pDef" val="136" />
 		</for>
 	</item>
-	<item id="12743" type="Armor" name="Baby Pet Mithril Armor">
+	<item id="12743" type="Armor" name="小寵物用米索莉甲">
 		<set name="icon" val="icon.etc_pet_armor_i03" />
 		<set name="default_action" val="equip" />
 		<set name="armor_type" val="light" />
@@ -512,7 +512,7 @@
 			<add order="0x10" stat="pDef" val="148" />
 		</for>
 	</item>
-	<item id="12744" type="Armor" name="Baby Pet Oriharukon Armor">
+	<item id="12744" type="Armor" name="小寵物用奧里哈魯根甲">
 		<set name="icon" val="icon.etc_pet_armor_i03" />
 		<set name="default_action" val="equip" />
 		<set name="armor_type" val="light" />
@@ -526,7 +526,7 @@
 			<add order="0x10" stat="pDef" val="160" />
 		</for>
 	</item>
-	<item id="12745" type="Armor" name="Baby Pet Orichalcum Armor">
+	<item id="12745" type="Armor" name="小寵物用奧里哈魯根合金甲">
 		<set name="icon" val="icon.etc_pet_armor_i03" />
 		<set name="default_action" val="equip" />
 		<set name="armor_type" val="light" />
@@ -540,7 +540,7 @@
 			<add order="0x10" stat="pDef" val="171" />
 		</for>
 	</item>
-	<item id="12746" type="Armor" name="Crystal Pendant">
+	<item id="12746" type="Armor" name="水晶墜子">
 		<set name="icon" val="icon.accessory_necklace_of_funtion_pet_i00" />
 		<set name="default_action" val="equip" />
 		<set name="bodypart" val="neck" />
@@ -553,7 +553,7 @@
 			<add order="0x10" stat="mDef" val="22" />
 		</for>
 	</item>
-	<item id="12747" type="Armor" name="Ruby Pendant">
+	<item id="12747" type="Armor" name="紅寶石墜子">
 		<set name="icon" val="icon.accessory_necklace_of_funtion_pet_i00" />
 		<set name="default_action" val="equip" />
 		<set name="bodypart" val="neck" />
@@ -566,7 +566,7 @@
 			<add order="0x10" stat="mDef" val="30" />
 		</for>
 	</item>
-	<item id="12748" type="Armor" name="Sapphire Pendant">
+	<item id="12748" type="Armor" name="藍寶石墜子">
 		<set name="icon" val="icon.accessory_necklace_of_funtion_pet_i01" />
 		<set name="default_action" val="equip" />
 		<set name="bodypart" val="neck" />
@@ -579,7 +579,7 @@
 			<add order="0x10" stat="mDef" val="40" />
 		</for>
 	</item>
-	<item id="12749" type="Armor" name="Diamond Pendant">
+	<item id="12749" type="Armor" name="鑽石墜子">
 		<set name="icon" val="icon.accessory_necklace_of_funtion_pet_i01" />
 		<set name="default_action" val="equip" />
 		<set name="bodypart" val="neck" />
@@ -592,7 +592,7 @@
 			<add order="0x10" stat="mDef" val="52" />
 		</for>
 	</item>
-	<item id="12750" type="Armor" name="Enria Pendant">
+	<item id="12750" type="Armor" name="恩尼亞墜子">
 		<set name="icon" val="icon.accessory_necklace_of_funtion_pet_i02" />
 		<set name="default_action" val="equip" />
 		<set name="bodypart" val="neck" />
@@ -605,7 +605,7 @@
 			<add order="0x10" stat="mDef" val="66" />
 		</for>
 	</item>
-	<item id="12751" type="Armor" name="Thons Pendant">
+	<item id="12751" type="Armor" name="梭芷墜子">
 		<set name="icon" val="icon.accessory_necklace_of_funtion_pet_i03" />
 		<set name="default_action" val="equip" />
 		<set name="bodypart" val="neck" />
@@ -618,7 +618,7 @@
 			<add order="0x10" stat="mDef" val="80" />
 		</for>
 	</item>
-	<item id="12752" type="Armor" name="Asofe Pendant">
+	<item id="12752" type="Armor" name="亞索沛墜子">
 		<set name="icon" val="icon.accessory_necklace_of_funtion_pet_i04" />
 		<set name="default_action" val="equip" />
 		<set name="bodypart" val="neck" />
@@ -631,7 +631,7 @@
 			<add order="0x10" stat="mDef" val="94" />
 		</for>
 	</item>
-	<item id="12753" type="EtcItem" name="Kamael Village Teleportation Scroll">
+	<item id="12753" type="EtcItem" name="闇天使村莊移動卷軸">
 		<set name="icon" val="icon.etc_scroll_of_return_i00" />
 		<set name="default_action" val="skill_reduce" />
 		<set name="etcitem_type" val="scroll" />
@@ -644,7 +644,7 @@
 		<set name="handler" val="ItemSkills" />
 		<set name="item_skill" val="2525-1" />
 	</item>
-	<item id="12754" type="EtcItem" name="Accessory Life Stone - level 46">
+	<item id="12754" type="EtcItem" name="飾品用生命石-46級">
 		<set name="icon" val="icon.etc_mineral_general_i00" />
 		<set name="immediate_effect" val="1" />
 		<set name="material" val="liquid" />
@@ -653,7 +653,7 @@
 		<set name="is_stackable" val="true" />
 		<set name="use_condition" val="{{uc_requiredlevel;46}}" />
 	</item>
-	<item id="12755" type="EtcItem" name="Accessory Life Stone - level 49">
+	<item id="12755" type="EtcItem" name="飾品用生命石-49級">
 		<set name="icon" val="icon.etc_mineral_general_i00" />
 		<set name="immediate_effect" val="1" />
 		<set name="material" val="liquid" />
@@ -662,7 +662,7 @@
 		<set name="is_stackable" val="true" />
 		<set name="use_condition" val="{{uc_requiredlevel;49}}" />
 	</item>
-	<item id="12756" type="EtcItem" name="Accessory Life Stone - level 52">
+	<item id="12756" type="EtcItem" name="飾品用生命石-52級">
 		<set name="icon" val="icon.etc_mineral_general_i00" />
 		<set name="immediate_effect" val="1" />
 		<set name="material" val="liquid" />
@@ -671,7 +671,7 @@
 		<set name="is_stackable" val="true" />
 		<set name="use_condition" val="{{uc_requiredlevel;52}}" />
 	</item>
-	<item id="12757" type="EtcItem" name="Accessory Life Stone - level 55">
+	<item id="12757" type="EtcItem" name="飾品用生命石-55級">
 		<set name="icon" val="icon.etc_mineral_general_i00" />
 		<set name="immediate_effect" val="1" />
 		<set name="material" val="liquid" />
@@ -680,7 +680,7 @@
 		<set name="is_stackable" val="true" />
 		<set name="use_condition" val="{{uc_requiredlevel;55}}" />
 	</item>
-	<item id="12758" type="EtcItem" name="Accessory Life Stone - level 58">
+	<item id="12758" type="EtcItem" name="飾品用生命石-58級">
 		<set name="icon" val="icon.etc_mineral_general_i01" />
 		<set name="immediate_effect" val="1" />
 		<set name="material" val="liquid" />
@@ -689,7 +689,7 @@
 		<set name="is_stackable" val="true" />
 		<set name="use_condition" val="{{uc_requiredlevel;58}}" />
 	</item>
-	<item id="12759" type="EtcItem" name="Accessory Life Stone - level 61">
+	<item id="12759" type="EtcItem" name="飾品用生命石-61級">
 		<set name="icon" val="icon.etc_mineral_general_i01" />
 		<set name="immediate_effect" val="1" />
 		<set name="material" val="liquid" />
@@ -698,7 +698,7 @@
 		<set name="is_stackable" val="true" />
 		<set name="use_condition" val="{{uc_requiredlevel;61}}" />
 	</item>
-	<item id="12760" type="EtcItem" name="Accessory Life Stone - level 64">
+	<item id="12760" type="EtcItem" name="飾品用生命石-64級">
 		<set name="icon" val="icon.etc_mineral_general_i02" />
 		<set name="immediate_effect" val="1" />
 		<set name="material" val="liquid" />
@@ -707,7 +707,7 @@
 		<set name="is_stackable" val="true" />
 		<set name="use_condition" val="{{uc_requiredlevel;64}}" />
 	</item>
-	<item id="12761" type="EtcItem" name="Accessory Life Stone - level 67">
+	<item id="12761" type="EtcItem" name="飾品用生命石-67級">
 		<set name="icon" val="icon.etc_mineral_general_i02" />
 		<set name="immediate_effect" val="1" />
 		<set name="material" val="liquid" />
@@ -716,7 +716,7 @@
 		<set name="is_stackable" val="true" />
 		<set name="use_condition" val="{{uc_requiredlevel;67}}" />
 	</item>
-	<item id="12762" type="EtcItem" name="Accessory Life Stone - level 70">
+	<item id="12762" type="EtcItem" name="飾品用生命石-70級">
 		<set name="icon" val="icon.etc_mineral_general_i02" />
 		<set name="immediate_effect" val="1" />
 		<set name="material" val="liquid" />
@@ -725,7 +725,7 @@
 		<set name="is_stackable" val="true" />
 		<set name="use_condition" val="{{uc_requiredlevel;70}}" />
 	</item>
-	<item id="12763" type="EtcItem" name="Accessory Life Stone - level 76">
+	<item id="12763" type="EtcItem" name="飾品用生命石-76級">
 		<set name="icon" val="icon.etc_mineral_general_i03" />
 		<set name="immediate_effect" val="1" />
 		<set name="material" val="liquid" />
@@ -734,7 +734,7 @@
 		<set name="is_stackable" val="true" />
 		<set name="use_condition" val="{{uc_requiredlevel;76}}" />
 	</item>
-	<item id="12764" type="EtcItem" name="Fish Chest">
+	<item id="12764" type="EtcItem" name="魚箱子">
 		<set name="icon" val="icon.etc_oil_pot_white_i00" />
 		<set name="immediate_effect" val="1" />
 		<set name="material" val="paper" />
@@ -743,7 +743,7 @@
 		<set name="is_sellable" val="false" />
 		<set name="is_questitem" val="true" />
 	</item>
-	<item id="12765" type="EtcItem" name="Seed Jar">
+	<item id="12765" type="EtcItem" name="種子罐">
 		<set name="icon" val="icon.etc_oil_pot_white_i00" />
 		<set name="immediate_effect" val="1" />
 		<set name="material" val="paper" />
@@ -752,7 +752,7 @@
 		<set name="is_sellable" val="false" />
 		<set name="is_questitem" val="true" />
 	</item>
-	<item id="12766" type="Armor" name="Gold Circlet">
+	<item id="12766" type="Armor" name="黃金頭箍">
 		<set name="icon" val="icon.Accessary_gold_circlet_i00" />
 		<set name="default_action" val="equip" />
 		<set name="bodypart" val="hairall" />
@@ -761,7 +761,7 @@
 		<set name="weight" val="10" />
 		<set name="price" val="500000" />
 	</item>
-	<item id="12767" type="Armor" name="Silver Circlet">
+	<item id="12767" type="Armor" name="白銀頭箍">
 		<set name="icon" val="icon.Accessary_gold_circlet_i01" />
 		<set name="default_action" val="equip" />
 		<set name="bodypart" val="hairall" />
@@ -770,7 +770,7 @@
 		<set name="weight" val="10" />
 		<set name="price" val="500000" />
 	</item>
-	<item id="12768" type="EtcItem" name="Forgotten Scroll - Evasion Counter">
+	<item id="12768" type="EtcItem" name="遺忘祕傳書-迴避反擊">
 		<set name="icon" val="icon.etc_spell_books_element_i00" />
 		<set name="default_action" val="skill_reduce" />
 		<set name="material" val="paper" />
@@ -780,7 +780,7 @@
 		<set name="handler" val="ItemSkills" />
 		<set name="item_skill" val="2526-1" />
 	</item>
-	<item id="12769" type="EtcItem" name="Forgotten Scroll - Evasion Chance">
+	<item id="12769" type="EtcItem" name="遺忘祕傳書-迴避契機">
 		<set name="icon" val="icon.etc_spell_books_element_i00" />
 		<set name="default_action" val="skill_reduce" />
 		<set name="material" val="paper" />
@@ -790,7 +790,7 @@
 		<set name="handler" val="ItemSkills" />
 		<set name="item_skill" val="2527-1" />
 	</item>
-	<item id="12770" type="EtcItem" name="Forgotten Scroll - Evasion Haste">
+	<item id="12770" type="EtcItem" name="遺忘祕傳書-迴避激發">
 		<set name="icon" val="icon.etc_spell_books_element_i00" />
 		<set name="default_action" val="skill_reduce" />
 		<set name="material" val="paper" />
@@ -800,7 +800,7 @@
 		<set name="handler" val="ItemSkills" />
 		<set name="item_skill" val="2528-1" />
 	</item>
-	<item id="12771" type="EtcItem" name="Forgotten Scroll - Shadow Step">
+	<item id="12771" type="EtcItem" name="遺忘祕傳書-影步">
 		<set name="icon" val="icon.etc_spell_books_element_i00" />
 		<set name="default_action" val="skill_reduce" />
 		<set name="material" val="paper" />
@@ -810,7 +810,7 @@
 		<set name="handler" val="ItemSkills" />
 		<set name="item_skill" val="2529-1" />
 	</item>
-	<item id="12772" type="EtcItem" name="Spellbook - Inquisitor">
+	<item id="12772" type="EtcItem" name="魔法書-審問者">
 		<set name="icon" val="icon.etc_spell_books_assistance_i00" />
 		<set name="immediate_effect" val="1" />
 		<set name="material" val="paper" />
@@ -818,7 +818,7 @@
 		<set name="price" val="12500" />
 		<set name="is_stackable" val="true" />
 	</item>
-	<item id="12773" type="EtcItem" name="Battle Manual - Body Reconstruction">
+	<item id="12773" type="EtcItem" name="戰鬥教範-重建之體">
 		<set name="icon" val="icon.etc_kamael_skill_book_i00" />
 		<set name="immediate_effect" val="1" />
 		<set name="material" val="paper" />
@@ -826,7 +826,7 @@
 		<set name="price" val="10000" />
 		<set name="is_stackable" val="true" />
 	</item>
-	<item id="12774" type="EtcItem" name="Battle Manual - Blood Construct">
+	<item id="12774" type="EtcItem" name="戰鬥教範-血之契約">
 		<set name="icon" val="icon.etc_kamael_skill_book_i00" />
 		<set name="immediate_effect" val="1" />
 		<set name="material" val="paper" />
@@ -834,7 +834,7 @@
 		<set name="price" val="10000" />
 		<set name="is_stackable" val="true" />
 	</item>
-	<item id="12775" type="EtcItem" name="Battle Manual - Imbue Seed of Destruction">
+	<item id="12775" type="EtcItem" name="戰鬥教範-植入末日種子">
 		<set name="icon" val="icon.etc_kamael_skill_book_i00" />
 		<set name="immediate_effect" val="1" />
 		<set name="material" val="paper" />
@@ -842,7 +842,7 @@
 		<set name="price" val="10000" />
 		<set name="is_stackable" val="true" />
 	</item>
-	<item id="12776" type="EtcItem" name="Battle Manual - Oblivion Trap">
+	<item id="12776" type="EtcItem" name="戰鬥教範-忘卻陷阱">
 		<set name="icon" val="icon.etc_kamael_skill_book_i00" />
 		<set name="immediate_effect" val="1" />
 		<set name="material" val="paper" />
@@ -850,7 +850,7 @@
 		<set name="price" val="10000" />
 		<set name="is_stackable" val="true" />
 	</item>
-	<item id="12777" type="EtcItem" name="Battle Manual - Painkiller">
+	<item id="12777" type="EtcItem" name="戰鬥教範-止痛術">
 		<set name="icon" val="icon.etc_kamael_skill_book_i00" />
 		<set name="immediate_effect" val="1" />
 		<set name="material" val="paper" />
@@ -858,7 +858,7 @@
 		<set name="price" val="10000" />
 		<set name="is_stackable" val="true" />
 	</item>
-	<item id="12778" type="EtcItem" name="Battle Manual - Soul Web">
+	<item id="12778" type="EtcItem" name="戰鬥教範-捕魂網">
 		<set name="icon" val="icon.etc_kamael_skill_book_i00" />
 		<set name="immediate_effect" val="1" />
 		<set name="material" val="paper" />
@@ -866,7 +866,7 @@
 		<set name="price" val="10000" />
 		<set name="is_stackable" val="true" />
 	</item>
-	<item id="12779" type="Armor" name="Agathion Seal Bracelet - Little Angel">
+	<item id="12779" type="Armor" name="壺精封印手鐲-小天使">
 		<set name="icon" val="icon.etc_rbracelet_aga_agit_i00" />
 		<set name="default_action" val="equip" />
 		<set name="bodypart" val="lbracelet" />
@@ -879,7 +879,7 @@
 		<set name="unequip_skill" val="3267-1" />
 		<set name="item_skill" val="3267-1;3423-1;5535-1" />
 	</item>
-	<item id="12780" type="Armor" name="Agathion Seal Bracelet - Little Devil">
+	<item id="12780" type="Armor" name="壺精封印手鐲-小惡魔">
 		<set name="icon" val="icon.etc_rbracelet_aga_agit_i00" />
 		<set name="default_action" val="equip" />
 		<set name="bodypart" val="lbracelet" />
@@ -892,7 +892,7 @@
 		<set name="unequip_skill" val="3267-1" />
 		<set name="item_skill" val="3267-1;3424-1;5536-1" />
 	</item>
-	<item id="12781" type="Armor" name="Ol Mahum Hat">
+	<item id="12781" type="Armor" name="豺狼帽">
 		<set name="icon" val="icon.accessory_ol_mahum_cap_i00" />
 		<set name="default_action" val="equip" />
 		<set name="bodypart" val="hairall" />
@@ -906,7 +906,7 @@
 		<set name="is_premium" val="true" />
 		<set name="time" val="43200" />
 	</item>
-	<item id="12782" type="Armor" name="Kat the Cat Hat - 30 day limited period">
+	<item id="12782" type="Armor" name="戰鬥貓帽">
 		<set name="icon" val="icon.accessory_cat_the_cat_cap_i00" />
 		<set name="default_action" val="equip" />
 		<set name="bodypart" val="hairall" />
@@ -919,7 +919,7 @@
 		<set name="is_premium" val="true" />
 		<set name="time" val="43200" />
 	</item>
-	<item id="12783" type="Armor" name="Feline Queen Hat - 30 day limited period">
+	<item id="12783" type="Armor" name="皇后貓帽">
 		<set name="icon" val="icon.accessory_queen_of_cat_cap_i00" />
 		<set name="default_action" val="equip" />
 		<set name="bodypart" val="hairall" />
@@ -932,7 +932,7 @@
 		<set name="is_premium" val="true" />
 		<set name="time" val="43200" />
 	</item>
-	<item id="12784" type="Armor" name="Ant Hat">
+	<item id="12784" type="Armor" name="螞蟻帽">
 		<set name="icon" val="icon.accessory_ant_cap_i00" />
 		<set name="default_action" val="equip" />
 		<set name="bodypart" val="hairall" />
@@ -946,7 +946,7 @@
 		<set name="is_premium" val="true" />
 		<set name="time" val="43200" />
 	</item>
-	<item id="12785" type="Armor" name="Wolf Hat">
+	<item id="12785" type="Armor" name="狼帽">
 		<set name="icon" val="icon.accessory_wolf_cap_i00" />
 		<set name="default_action" val="equip" />
 		<set name="bodypart" val="hairall" />
@@ -960,7 +960,7 @@
 		<set name="is_premium" val="true" />
 		<set name="time" val="43200" />
 	</item>
-	<item id="12786" type="Armor" name="Monster Eye Hat - 30 day limited period">
+	<item id="12786" type="Armor" name="眼怪帽">
 		<set name="icon" val="icon.accessory_monstereye_cap_i00" />
 		<set name="default_action" val="equip" />
 		<set name="bodypart" val="hairall" />
@@ -973,7 +973,7 @@
 		<set name="is_premium" val="true" />
 		<set name="time" val="43200" />
 	</item>
-	<item id="12787" type="Armor" name="Brown Bear Hat - 30 day limited period">
+	<item id="12787" type="Armor" name="棕熊帽">
 		<set name="icon" val="icon.accessory_brown_bear_cap_i00" />
 		<set name="default_action" val="equip" />
 		<set name="bodypart" val="hairall" />
@@ -986,7 +986,7 @@
 		<set name="is_premium" val="true" />
 		<set name="time" val="43200" />
 	</item>
-	<item id="12788" type="Armor" name="Fungus Hat - 30 day limited period">
+	<item id="12788" type="Armor" name="蘑菇帽">
 		<set name="icon" val="icon.accessory_fungus_cap_i00" />
 		<set name="default_action" val="equip" />
 		<set name="bodypart" val="hairall" />
@@ -999,7 +999,7 @@
 		<set name="is_premium" val="true" />
 		<set name="time" val="43200" />
 	</item>
-	<item id="12789" type="Armor" name="Skull Hat - 30 day limited period">
+	<item id="12789" type="Armor" name="骷髏帽">
 		<set name="icon" val="icon.accessory_skeleton_cap_i00" />
 		<set name="default_action" val="equip" />
 		<set name="bodypart" val="hairall" />
@@ -1012,7 +1012,7 @@
 		<set name="is_premium" val="true" />
 		<set name="time" val="43200" />
 	</item>
-	<item id="12790" type="Armor" name="Ornithomimus Hat - 30 day limited period">
+	<item id="12790" type="Armor" name="似鳥龍帽">
 		<set name="icon" val="icon.accessory_ornithomimus_cap_i00" />
 		<set name="default_action" val="equip" />
 		<set name="bodypart" val="hairall" />
@@ -1025,7 +1025,7 @@
 		<set name="is_premium" val="true" />
 		<set name="time" val="43200" />
 	</item>
-	<item id="12791" type="Armor" name="Feline King Hat - 30 day limited period">
+	<item id="12791" type="Armor" name="國王貓帽">
 		<set name="icon" val="icon.accessory_king_of_cat_cap_i00" />
 		<set name="default_action" val="equip" />
 		<set name="bodypart" val="hairall" />
@@ -1038,7 +1038,7 @@
 		<set name="is_premium" val="true" />
 		<set name="time" val="43200" />
 	</item>
-	<item id="12792" type="Armor" name="Kai the Cat Hat - 30 day limited period">
+	<item id="12792" type="Armor" name="銀色貓帽">
 		<set name="icon" val="icon.accessory_chi_the_cat_cap_i00" />
 		<set name="default_action" val="equip" />
 		<set name="bodypart" val="hairall" />
@@ -1051,7 +1051,7 @@
 		<set name="is_premium" val="true" />
 		<set name="time" val="43200" />
 	</item>
-	<item id="12793" type="Weapon" name="O Stick - 30 day limited period">
+	<item id="12793" type="Weapon" name="O形魔杖">
 		<set name="icon" val="icon.weapon_o_stick_i00" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="sword" />
@@ -1073,7 +1073,7 @@
 			<set order="0x08" stat="pAtkSpd" val="379" />
 		</for>
 	</item>
-	<item id="12794" type="Weapon" name="X Stick - 30 day limited period">
+	<item id="12794" type="Weapon" name="X形魔杖">
 		<set name="icon" val="icon.weapon_x_stick_i00" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="sword" />
@@ -1095,7 +1095,7 @@
 			<set order="0x08" stat="pAtkSpd" val="379" />
 		</for>
 	</item>
-	<item id="12795" type="Weapon" name="Scissors Stick - 30 day limited period">
+	<item id="12795" type="Weapon" name="剪刀魔杖">
 		<set name="icon" val="icon.weapon_scissors_stick_i00" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="sword" />
@@ -1117,7 +1117,7 @@
 			<set order="0x08" stat="pAtkSpd" val="379" />
 		</for>
 	</item>
-	<item id="12796" type="Weapon" name="Rock Stick - 30 day limited period">
+	<item id="12796" type="Weapon" name="石頭魔杖">
 		<set name="icon" val="icon.weapon_rock_stick_i00" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="sword" />
@@ -1139,7 +1139,7 @@
 			<set order="0x08" stat="pAtkSpd" val="379" />
 		</for>
 	</item>
-	<item id="12797" type="Weapon" name="Paper Stick - 30 day limited period">
+	<item id="12797" type="Weapon" name="布魔杖">
 		<set name="icon" val="icon.weapon_diver_stick_i00" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="sword" />
@@ -1161,7 +1161,7 @@
 			<set order="0x08" stat="pAtkSpd" val="379" />
 		</for>
 	</item>
-	<item id="12798" type="Weapon" name="Snowman Transformation Stick">
+	<item id="12798" type="Weapon" name="雪人變身魔杖">
 		<set name="icon" val="icon.etc_snow_man_i00" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="sword" />
@@ -1185,7 +1185,7 @@
 			<set order="0x08" stat="pAtkSpd" val="379" />
 		</for>
 	</item>
-	<item id="12799" type="Weapon" name="Scarecrow Transformation Stick">
+	<item id="12799" type="Weapon" name="稻草人變身魔杖">
 		<set name="icon" val="icon.weapon_scarescow_stick_i00" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="sword" />

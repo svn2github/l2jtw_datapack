@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <list>
-	<item id="2500" type="Weapon" name="Dark Legion's Edge">
+	<item id="2500" type="Weapon" name="黑暗軍刀">
 		<set name="icon" val="icon.weapon_dark_legions_edge_i00" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="sword" />
@@ -27,7 +27,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="2501" type="Weapon" name="Bone Club">
+	<item id="2501" type="Weapon" name="骨棒">
 		<set name="icon" val="icon.weapon_club_i00" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="blunt" />
@@ -52,7 +52,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="2502" type="Weapon" name="Dwarven War Hammer">
+	<item id="2502" type="Weapon" name="矮人戰鎚">
 		<set name="icon" val="icon.weapon_dwarven_warhammer_i00" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="blunt" />
@@ -80,7 +80,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="2503" type="Weapon" name="Yaksa Mace">
+	<item id="2503" type="Weapon" name="夜叉釘鎚">
 		<set name="icon" val="icon.weapon_yaksa_mace_i00" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="blunt" />
@@ -108,7 +108,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="2504" type="Weapon" name="Meteor Shower">
+	<item id="2504" type="Weapon" name="流星雨">
 		<set name="icon" val="icon.weapon_meteor_shower_i00" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="blunt" />
@@ -136,7 +136,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="2505" type="Weapon" name="Iron Canine">
+	<item id="2505" type="Weapon" name="鋼鐵鑽">
 		<set name="icon" val="icon.etc_pet_arms_i00" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="sword" />
@@ -156,7 +156,7 @@
 			<set order="0x08" stat="pAtkSpd" val="277" />
 		</for>
 	</item>
-	<item id="2506" type="Armor" name="Wolf's Leather Armor">
+	<item id="2506" type="Armor" name="狼皮甲">
 		<set name="icon" val="icon.etc_pet_armor_i00" />
 		<set name="default_action" val="equip" />
 		<set name="armor_type" val="light" />
@@ -171,7 +171,7 @@
 			<add order="0x10" stat="pDef" val="9" />
 		</for>
 	</item>
-	<item id="2507" type="Weapon" name="Lizardspear">
+	<item id="2507" type="Weapon" name="蜥蜴矛">
 		<set name="icon" val="icon.weapon_doomed_dagger_i00" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="dagger" />
@@ -199,7 +199,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="2508" type="EtcItem" name="Cursed Bone">
+	<item id="2508" type="EtcItem" name="受詛咒的骨">
 		<set name="icon" val="icon.etc_piece_bone_red_i00" />
 		<set name="etcitem_type" val="material" />
 		<set name="immediate_effect" val="1" />
@@ -208,7 +208,7 @@
 		<set name="price" val="240" />
 		<set name="is_stackable" val="true" />
 	</item>
-	<item id="2509" type="EtcItem" name="Spiritshot: No Grade">
+	<item id="2509" type="EtcItem" name="魔靈彈-普通">
 		<set name="icon" val="icon.etc_spell_shot_white_i00" />
 		<set name="default_action" val="spiritshot" />
 		<set name="immediate_effect" val="1" />
@@ -219,7 +219,7 @@
 		<set name="handler" val="SpiritShot" />
 		<set name="item_skill" val="2047-1" />
 	</item>
-	<item id="2510" type="EtcItem" name="Spiritshot: D-grade">
+	<item id="2510" type="EtcItem" name="魔靈彈-D級">
 		<set name="icon" val="icon.etc_spell_shot_blue_i00" />
 		<set name="default_action" val="spiritshot" />
 		<set name="immediate_effect" val="1" />
@@ -232,7 +232,7 @@
 		<set name="handler" val="SpiritShot" />
 		<set name="item_skill" val="2155-1" />
 	</item>
-	<item id="2511" type="EtcItem" name="Spiritshot: C-grade">
+	<item id="2511" type="EtcItem" name="魔靈彈-C級">
 		<set name="icon" val="icon.etc_spell_shot_green_i00" />
 		<set name="default_action" val="spiritshot" />
 		<set name="immediate_effect" val="1" />
@@ -245,7 +245,7 @@
 		<set name="handler" val="SpiritShot" />
 		<set name="item_skill" val="2156-1" />
 	</item>
-	<item id="2512" type="EtcItem" name="Spiritshot: B-grade">
+	<item id="2512" type="EtcItem" name="魔靈彈-B級">
 		<set name="icon" val="icon.etc_spell_shot_red_i00" />
 		<set name="default_action" val="spiritshot" />
 		<set name="immediate_effect" val="1" />
@@ -258,7 +258,7 @@
 		<set name="handler" val="SpiritShot" />
 		<set name="item_skill" val="2157-1" />
 	</item>
-	<item id="2513" type="EtcItem" name="Spiritshot: A-grade">
+	<item id="2513" type="EtcItem" name="魔靈彈-A級">
 		<set name="icon" val="icon.etc_spell_shot_silver_i00" />
 		<set name="default_action" val="spiritshot" />
 		<set name="immediate_effect" val="1" />
@@ -271,7 +271,7 @@
 		<set name="handler" val="SpiritShot" />
 		<set name="item_skill" val="2158-1" />
 	</item>
-	<item id="2514" type="EtcItem" name="Spiritshot: S-grade">
+	<item id="2514" type="EtcItem" name="魔靈彈-S級">
 		<set name="icon" val="icon.etc_spell_shot_gold_i00" />
 		<set name="default_action" val="spiritshot" />
 		<set name="immediate_effect" val="1" />
@@ -284,7 +284,7 @@
 		<set name="handler" val="SpiritShot" />
 		<set name="item_skill" val="2159-1" />
 	</item>
-	<item id="2515" type="EtcItem" name="Food For Wolves">
+	<item id="2515" type="EtcItem" name="狼食">
 		<set name="icon" val="icon.etc_pouch_yellow_i00" />
 		<set name="default_action" val="skill_reduce" />
 		<set name="immediate_effect" val="1" />
@@ -297,7 +297,7 @@
 		<set name="item_skill" val="2048-1" />
 		<set name="use_condition" val="{{uc_category;{@all_wolf_group;@sin_eater_group;@deinonychus_pet_group}}}" />
 	</item>
-	<item id="2516" type="Weapon" name="Saber*Saber">
+	<item id="2516" type="Weapon" name="軍刀*軍刀">
 		<set name="icon" val="icon.weapon_dual_sword_i00" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="dual" />
@@ -323,7 +323,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="2517" type="Weapon" name="Saber*Bastard Sword">
+	<item id="2517" type="Weapon" name="軍刀*重劍">
 		<set name="icon" val="icon.weapon_dual_sword_i00" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="dual" />
@@ -349,7 +349,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="2518" type="Weapon" name="Saber*Spinebone Sword">
+	<item id="2518" type="Weapon" name="軍刀*椎骨之劍">
 		<set name="icon" val="icon.weapon_dual_sword_i00" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="dual" />
@@ -375,7 +375,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="2519" type="Weapon" name="Saber*Artisan's Sword">
+	<item id="2519" type="Weapon" name="軍刀*工匠之劍">
 		<set name="icon" val="icon.weapon_dual_sword_i00" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="dual" />
@@ -401,7 +401,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="2520" type="Weapon" name="Saber*Knight's Sword">
+	<item id="2520" type="Weapon" name="軍刀*騎士劍">
 		<set name="icon" val="icon.weapon_dual_sword_i00" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="dual" />
@@ -427,7 +427,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="2521" type="Weapon" name="Saber*Crimson Sword">
+	<item id="2521" type="Weapon" name="軍刀*緋紅劍">
 		<set name="icon" val="icon.weapon_dual_sword_i00" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="dual" />
@@ -453,7 +453,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="2522" type="Weapon" name="Saber*Elven Sword">
+	<item id="2522" type="Weapon" name="軍刀*精靈劍">
 		<set name="icon" val="icon.weapon_dual_sword_i00" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="dual" />
@@ -479,7 +479,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="2523" type="Weapon" name="Saber*Sword of Revolution">
+	<item id="2523" type="Weapon" name="軍刀*革命劍">
 		<set name="icon" val="icon.weapon_dual_sword_i00" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="dual" />
@@ -505,7 +505,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="2524" type="Weapon" name="Saber*Elven Long Sword">
+	<item id="2524" type="Weapon" name="軍刀*精靈長劍">
 		<set name="icon" val="icon.weapon_dual_sword_i00" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="dual" />
@@ -531,7 +531,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="2525" type="Weapon" name="Bastard Sword*Bastard Sword">
+	<item id="2525" type="Weapon" name="重劍*重劍">
 		<set name="icon" val="icon.weapon_dual_sword_i00" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="dual" />
@@ -557,7 +557,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="2526" type="Weapon" name="Bastard Sword*Spinebone Sword">
+	<item id="2526" type="Weapon" name="重劍*椎骨之劍">
 		<set name="icon" val="icon.weapon_dual_sword_i00" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="dual" />
@@ -583,7 +583,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="2527" type="Weapon" name="Bastard Sword*Artisan's Sword">
+	<item id="2527" type="Weapon" name="重劍*工匠之劍">
 		<set name="icon" val="icon.weapon_dual_sword_i00" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="dual" />
@@ -609,7 +609,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="2528" type="Weapon" name="Bastard Sword*Knight's Sword">
+	<item id="2528" type="Weapon" name="重劍*騎士劍">
 		<set name="icon" val="icon.weapon_dual_sword_i00" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="dual" />
@@ -635,7 +635,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="2529" type="Weapon" name="Bastard Sword*Crimson Sword">
+	<item id="2529" type="Weapon" name="重劍*緋紅劍">
 		<set name="icon" val="icon.weapon_dual_sword_i00" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="dual" />
@@ -661,7 +661,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="2530" type="Weapon" name="Bastard Sword*Elven Sword">
+	<item id="2530" type="Weapon" name="重劍*精靈劍">
 		<set name="icon" val="icon.weapon_dual_sword_i00" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="dual" />
@@ -687,7 +687,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="2531" type="Weapon" name="Bastard Sword*Sword of Revolution">
+	<item id="2531" type="Weapon" name="重劍*革命劍">
 		<set name="icon" val="icon.weapon_dual_sword_i00" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="dual" />
@@ -713,7 +713,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="2532" type="Weapon" name="Bastard Sword*Elven Long Sword">
+	<item id="2532" type="Weapon" name="重劍*精靈長劍">
 		<set name="icon" val="icon.weapon_dual_sword_i00" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="dual" />
@@ -739,7 +739,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="2533" type="Weapon" name="Spinebone Sword*Spinebone Sword">
+	<item id="2533" type="Weapon" name="椎骨之劍*椎骨之劍">
 		<set name="icon" val="icon.weapon_dual_sword_i00" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="dual" />
@@ -765,7 +765,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="2534" type="Weapon" name="Spinebone Sword*Artisan's Sword">
+	<item id="2534" type="Weapon" name="椎骨之劍*工匠之劍">
 		<set name="icon" val="icon.weapon_dual_sword_i00" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="dual" />
@@ -791,7 +791,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="2535" type="Weapon" name="Spinebone Sword*Knight's Sword">
+	<item id="2535" type="Weapon" name="椎骨之劍*騎士劍">
 		<set name="icon" val="icon.weapon_dual_sword_i00" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="dual" />
@@ -817,7 +817,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="2536" type="Weapon" name="Spinebone Sword*Crimson Sword">
+	<item id="2536" type="Weapon" name="椎骨之劍*緋紅劍">
 		<set name="icon" val="icon.weapon_dual_sword_i00" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="dual" />
@@ -843,7 +843,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="2537" type="Weapon" name="Spinebone Sword*Elven Sword">
+	<item id="2537" type="Weapon" name="椎骨之劍*精靈劍">
 		<set name="icon" val="icon.weapon_dual_sword_i00" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="dual" />
@@ -869,7 +869,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="2538" type="Weapon" name="Spinebone Sword*Sword of Revolution">
+	<item id="2538" type="Weapon" name="椎骨之劍*革命劍">
 		<set name="icon" val="icon.weapon_dual_sword_i00" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="dual" />
@@ -895,7 +895,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="2539" type="Weapon" name="Spinebone Sword*Elven Long Sword">
+	<item id="2539" type="Weapon" name="椎骨之劍*精靈長劍">
 		<set name="icon" val="icon.weapon_dual_sword_i00" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="dual" />
@@ -921,7 +921,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="2540" type="Weapon" name="Artisan's Sword*Artisan's Sword">
+	<item id="2540" type="Weapon" name="工匠之劍*工匠之劍">
 		<set name="icon" val="icon.weapon_dual_sword_i00" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="dual" />
@@ -947,7 +947,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="2541" type="Weapon" name="Artisan's Sword*Knight's Sword">
+	<item id="2541" type="Weapon" name="工匠之劍*騎士劍">
 		<set name="icon" val="icon.weapon_dual_sword_i00" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="dual" />
@@ -973,7 +973,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="2542" type="Weapon" name="Artisan's Sword*Crimson Sword">
+	<item id="2542" type="Weapon" name="工匠之劍*緋紅劍">
 		<set name="icon" val="icon.weapon_dual_sword_i00" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="dual" />
@@ -999,7 +999,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="2543" type="Weapon" name="Artisan's Sword*Elven Sword">
+	<item id="2543" type="Weapon" name="工匠之劍*精靈劍">
 		<set name="icon" val="icon.weapon_dual_sword_i00" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="dual" />
@@ -1025,7 +1025,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="2544" type="Weapon" name="Artisan's Sword*Sword of Revolution">
+	<item id="2544" type="Weapon" name="工匠之劍*革命劍">
 		<set name="icon" val="icon.weapon_dual_sword_i00" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="dual" />
@@ -1051,7 +1051,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="2545" type="Weapon" name="Artisan's Sword*Elven Long Sword">
+	<item id="2545" type="Weapon" name="工匠之劍*精靈長劍">
 		<set name="icon" val="icon.weapon_dual_sword_i00" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="dual" />
@@ -1077,7 +1077,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="2546" type="Weapon" name="Knight's Sword*Knight's Sword">
+	<item id="2546" type="Weapon" name="騎士劍*騎士劍">
 		<set name="icon" val="icon.weapon_dual_sword_i00" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="dual" />
@@ -1103,7 +1103,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="2547" type="Weapon" name="Knight's Sword*Crimson Sword">
+	<item id="2547" type="Weapon" name="騎士劍*緋紅劍">
 		<set name="icon" val="icon.weapon_dual_sword_i00" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="dual" />
@@ -1129,7 +1129,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="2548" type="Weapon" name="Knight's Sword*Elven Sword">
+	<item id="2548" type="Weapon" name="騎士劍*精靈劍">
 		<set name="icon" val="icon.weapon_dual_sword_i00" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="dual" />
@@ -1155,7 +1155,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="2549" type="Weapon" name="Knight's Sword*Sword of Revolution">
+	<item id="2549" type="Weapon" name="騎士劍*革命劍">
 		<set name="icon" val="icon.weapon_dual_sword_i00" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="dual" />
@@ -1181,7 +1181,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="2550" type="Weapon" name="Knight's Sword*Elven Long Sword">
+	<item id="2550" type="Weapon" name="騎士劍*精靈長劍">
 		<set name="icon" val="icon.weapon_dual_sword_i00" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="dual" />
@@ -1207,7 +1207,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="2551" type="Weapon" name="Crimson Sword*Crimson Sword">
+	<item id="2551" type="Weapon" name="緋紅劍*緋紅劍">
 		<set name="icon" val="icon.weapon_dual_sword_i00" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="dual" />
@@ -1233,7 +1233,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="2552" type="Weapon" name="Crimson Sword*Elven Sword">
+	<item id="2552" type="Weapon" name="緋紅劍*精靈劍">
 		<set name="icon" val="icon.weapon_dual_sword_i00" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="dual" />
@@ -1259,7 +1259,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="2553" type="Weapon" name="Crimson Sword*Sword of Revolution">
+	<item id="2553" type="Weapon" name="緋紅劍*革命劍">
 		<set name="icon" val="icon.weapon_dual_sword_i00" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="dual" />
@@ -1285,7 +1285,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="2554" type="Weapon" name="Crimson Sword*Elven Long Sword">
+	<item id="2554" type="Weapon" name="緋紅劍*精靈長劍">
 		<set name="icon" val="icon.weapon_dual_sword_i00" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="dual" />
@@ -1312,7 +1312,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="2555" type="Weapon" name="Elven Sword*Elven Sword">
+	<item id="2555" type="Weapon" name="精靈劍*精靈劍">
 		<set name="icon" val="icon.weapon_dual_sword_i00" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="dual" />
@@ -1338,7 +1338,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="2556" type="Weapon" name="Elven Sword*Sword of Revolution">
+	<item id="2556" type="Weapon" name="精靈劍*革命劍">
 		<set name="icon" val="icon.weapon_dual_sword_i00" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="dual" />
@@ -1364,7 +1364,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="2557" type="Weapon" name="Elven Sword*Elven Long Sword">
+	<item id="2557" type="Weapon" name="精靈劍*精靈長劍">
 		<set name="icon" val="icon.weapon_dual_sword_i00" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="dual" />
@@ -1391,7 +1391,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="2558" type="Weapon" name="Sword of Revolution*Sword of Revolution">
+	<item id="2558" type="Weapon" name="革命劍*革命劍">
 		<set name="icon" val="icon.weapon_dual_sword_i00" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="dual" />
@@ -1418,7 +1418,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="2559" type="Weapon" name="Sword of Revolution*Elven Long Sword">
+	<item id="2559" type="Weapon" name="革命劍*精靈長劍">
 		<set name="icon" val="icon.weapon_dual_sword_i00" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="dual" />
@@ -1445,7 +1445,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="2560" type="Weapon" name="Elven Long Sword*Elven Long Sword">
+	<item id="2560" type="Weapon" name="精靈長劍*精靈長劍">
 		<set name="icon" val="icon.weapon_dual_sword_i00" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="dual" />
@@ -1472,7 +1472,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="2561" type="Weapon" name="Stormbringer*Stormbringer">
+	<item id="2561" type="Weapon" name="暴風之劍*暴風之劍">
 		<set name="icon" val="icon.weapon_dual_sword_i00" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="dual" />
@@ -1499,7 +1499,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="2562" type="Weapon" name="Stormbringer*Shamshir">
+	<item id="2562" type="Weapon" name="暴風之劍*彎刀">
 		<set name="icon" val="icon.weapon_dual_sword_i00" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="dual" />
@@ -1526,7 +1526,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="2563" type="Weapon" name="Stormbringer*Katana">
+	<item id="2563" type="Weapon" name="暴風之劍*武士刀">
 		<set name="icon" val="icon.weapon_dual_sword_i00" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="dual" />
@@ -1553,7 +1553,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="2564" type="Weapon" name="Stormbringer*Spirit Sword">
+	<item id="2564" type="Weapon" name="暴風之劍*靈魂之劍">
 		<set name="icon" val="icon.weapon_dual_sword_i00" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="dual" />
@@ -1580,7 +1580,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="2565" type="Weapon" name="Stormbringer*Raid Sword">
+	<item id="2565" type="Weapon" name="暴風之劍*襲擊劍">
 		<set name="icon" val="icon.weapon_dual_sword_i00" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="dual" />
@@ -1607,7 +1607,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="2566" type="Weapon" name="Stormbringer*Caliburs">
+	<item id="2566" type="Weapon" name="暴風之劍*卡里埔士劍">
 		<set name="icon" val="icon.weapon_dual_sword_i00" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="dual" />
@@ -1634,7 +1634,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="2567" type="Weapon" name="Stormbringer*Sword of Limit">
+	<item id="2567" type="Weapon" name="暴風之劍*極限之劍">
 		<set name="icon" val="icon.weapon_dual_sword_i00" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="dual" />
@@ -1661,7 +1661,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="2568" type="Weapon" name="Stormbringer*Sword of Delusion">
+	<item id="2568" type="Weapon" name="暴風之劍*迷惑之劍">
 		<set name="icon" val="icon.weapon_dual_sword_i00" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="dual" />
@@ -1688,7 +1688,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="2569" type="Weapon" name="Stormbringer*Sword of Nightmare">
+	<item id="2569" type="Weapon" name="暴風之劍*夢魘劍">
 		<set name="icon" val="icon.weapon_dual_sword_i00" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="dual" />
@@ -1715,7 +1715,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="2570" type="Weapon" name="Stormbringer*Tsurugi">
+	<item id="2570" type="Weapon" name="暴風之劍*大和劍">
 		<set name="icon" val="icon.weapon_dual_sword_i00" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="dual" />
@@ -1742,7 +1742,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="2571" type="Weapon" name="Stormbringer*Samurai Long sword">
+	<item id="2571" type="Weapon" name="暴風之劍*瑟魯基長劍">
 		<set name="icon" val="icon.weapon_dual_sword_i00" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="dual" />
@@ -1769,7 +1769,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="2572" type="Weapon" name="Shamshir*Shamshir">
+	<item id="2572" type="Weapon" name="彎刀*彎刀">
 		<set name="icon" val="icon.weapon_dual_sword_i00" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="dual" />
@@ -1796,7 +1796,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="2573" type="Weapon" name="Shamshir*Katana">
+	<item id="2573" type="Weapon" name="彎刀*武士刀">
 		<set name="icon" val="icon.weapon_dual_sword_i00" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="dual" />
@@ -1823,7 +1823,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="2574" type="Weapon" name="Shamshir*Spirit Sword">
+	<item id="2574" type="Weapon" name="彎刀*靈魂之劍">
 		<set name="icon" val="icon.weapon_dual_sword_i00" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="dual" />
@@ -1850,7 +1850,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="2575" type="Weapon" name="Shamshir*Raid Sword">
+	<item id="2575" type="Weapon" name="彎刀*襲擊劍">
 		<set name="icon" val="icon.weapon_dual_sword_i00" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="dual" />
@@ -1877,7 +1877,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="2576" type="Weapon" name="Shamshir*Caliburs">
+	<item id="2576" type="Weapon" name="彎刀*卡里埔士劍">
 		<set name="icon" val="icon.weapon_dual_sword_i00" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="dual" />
@@ -1904,7 +1904,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="2577" type="Weapon" name="Shamshir*Sword of Limit">
+	<item id="2577" type="Weapon" name="彎刀*極限之劍">
 		<set name="icon" val="icon.weapon_dual_sword_i00" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="dual" />
@@ -1931,7 +1931,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="2578" type="Weapon" name="Shamshir*Sword of Delusion">
+	<item id="2578" type="Weapon" name="彎刀*迷惑之劍">
 		<set name="icon" val="icon.weapon_dual_sword_i00" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="dual" />
@@ -1958,7 +1958,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="2579" type="Weapon" name="Shamshir*Sword of Nightmare">
+	<item id="2579" type="Weapon" name="彎刀*夢魘劍">
 		<set name="icon" val="icon.weapon_dual_sword_i00" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="dual" />
@@ -1985,7 +1985,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="2580" type="Weapon" name="Shamshir*Tsurugi">
+	<item id="2580" type="Weapon" name="彎刀*大和劍">
 		<set name="icon" val="icon.weapon_dual_sword_i00" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="dual" />
@@ -2012,7 +2012,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="2581" type="Weapon" name="Shamshir*Samurai Long Sword">
+	<item id="2581" type="Weapon" name="彎刀*瑟魯基長劍">
 		<set name="icon" val="icon.weapon_dual_sword_i00" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="dual" />
@@ -2039,7 +2039,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="2582" type="Weapon" name="Katana*Katana">
+	<item id="2582" type="Weapon" name="武士刀*武士刀">
 		<set name="icon" val="icon.weapon_dual_sword_i00" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="dual" />
@@ -2066,7 +2066,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="2583" type="Weapon" name="Katana*Spirit Sword">
+	<item id="2583" type="Weapon" name="武士刀*靈魂之劍">
 		<set name="icon" val="icon.weapon_dual_sword_i00" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="dual" />
@@ -2093,7 +2093,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="2584" type="Weapon" name="Katana*Raid Sword">
+	<item id="2584" type="Weapon" name="武士刀*襲擊劍">
 		<set name="icon" val="icon.weapon_dual_sword_i00" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="dual" />
@@ -2120,7 +2120,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="2585" type="Weapon" name="Katana*Caliburs">
+	<item id="2585" type="Weapon" name="武士刀*卡里埔士劍">
 		<set name="icon" val="icon.weapon_dual_sword_i00" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="dual" />
@@ -2147,7 +2147,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="2586" type="Weapon" name="Katana*Sword of Limit">
+	<item id="2586" type="Weapon" name="武士刀*極限之劍">
 		<set name="icon" val="icon.weapon_dual_sword_i00" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="dual" />
@@ -2174,7 +2174,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="2587" type="Weapon" name="Katana*Sword of Delusion">
+	<item id="2587" type="Weapon" name="武士刀*迷惑之劍">
 		<set name="icon" val="icon.weapon_dual_sword_i00" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="dual" />
@@ -2201,7 +2201,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="2588" type="Weapon" name="Katana*Sword of Nightmare">
+	<item id="2588" type="Weapon" name="武士刀*夢魘劍">
 		<set name="icon" val="icon.weapon_dual_sword_i00" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="dual" />
@@ -2228,7 +2228,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="2589" type="Weapon" name="Katana*Tsurugi">
+	<item id="2589" type="Weapon" name="武士刀*大和劍">
 		<set name="icon" val="icon.weapon_dual_sword_i00" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="dual" />
@@ -2255,7 +2255,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="2590" type="Weapon" name="Katana*Samurai Long Sword">
+	<item id="2590" type="Weapon" name="武士刀*瑟魯基長劍">
 		<set name="icon" val="icon.weapon_dual_sword_i00" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="dual" />
@@ -2282,7 +2282,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="2591" type="Weapon" name="Spirit Sword*Spirit Sword">
+	<item id="2591" type="Weapon" name="靈魂之劍*靈魂之劍">
 		<set name="icon" val="icon.weapon_dual_sword_i00" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="dual" />
@@ -2309,7 +2309,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="2592" type="Weapon" name="Spirit Sword*Raid Sword">
+	<item id="2592" type="Weapon" name="靈魂之劍*襲擊劍">
 		<set name="icon" val="icon.weapon_dual_sword_i00" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="dual" />
@@ -2336,7 +2336,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="2593" type="Weapon" name="Spirit Sword*Caliburs">
+	<item id="2593" type="Weapon" name="靈魂之劍*卡里埔士劍">
 		<set name="icon" val="icon.weapon_dual_sword_i00" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="dual" />
@@ -2363,7 +2363,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="2594" type="Weapon" name="Spirit Sword*Sword of Limit">
+	<item id="2594" type="Weapon" name="靈魂之劍*極限之劍">
 		<set name="icon" val="icon.weapon_dual_sword_i00" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="dual" />
@@ -2390,7 +2390,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="2595" type="Weapon" name="Spirit Sword*Sword of Delusion">
+	<item id="2595" type="Weapon" name="靈魂之劍*迷惑之劍">
 		<set name="icon" val="icon.weapon_dual_sword_i00" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="dual" />
@@ -2417,7 +2417,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="2596" type="Weapon" name="Spirit Sword*Sword of Nightmare">
+	<item id="2596" type="Weapon" name="靈魂之劍*夢魘劍">
 		<set name="icon" val="icon.weapon_dual_sword_i00" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="dual" />
@@ -2444,7 +2444,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="2597" type="Weapon" name="Spirit Sword*Tsurugi">
+	<item id="2597" type="Weapon" name="靈魂之劍*大和劍">
 		<set name="icon" val="icon.weapon_dual_sword_i00" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="dual" />
@@ -2471,7 +2471,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="2598" type="Weapon" name="Spirit Sword*Samurai Long Sword">
+	<item id="2598" type="Weapon" name="靈魂之劍*瑟魯基長劍">
 		<set name="icon" val="icon.weapon_dual_sword_i00" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="dual" />
@@ -2498,7 +2498,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="2599" type="Weapon" name="Raid Sword*Raid Sword">
+	<item id="2599" type="Weapon" name="襲擊劍*襲擊劍">
 		<set name="icon" val="icon.weapon_dual_sword_i00" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="dual" />

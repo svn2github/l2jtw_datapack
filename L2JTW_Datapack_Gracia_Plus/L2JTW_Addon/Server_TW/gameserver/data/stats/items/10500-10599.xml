@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <list>
-	<item id="10500" type="Armor" name="Mithril Shirt - HP">
+	<item id="10500" type="Armor" name="米索莉襯衫">
 		<set name="icon" val="icon.etc_shirts_s_i05" />
 		<set name="default_action" val="equip" />
 		<set name="bodypart" val="underwear" />
@@ -17,7 +17,7 @@
 			<enchant order="0x0C" stat="pDef" val="0" />
 		</for>
 	</item>
-	<item id="10501" type="Armor" name="Mithril Shirt - MP">
+	<item id="10501" type="Armor" name="米索莉襯衫">
 		<set name="icon" val="icon.etc_shirts_s_i05" />
 		<set name="default_action" val="equip" />
 		<set name="bodypart" val="underwear" />
@@ -34,7 +34,7 @@
 			<enchant order="0x0C" stat="pDef" val="0" />
 		</for>
 	</item>
-	<item id="10502" type="Armor" name="Mithril Shirt - CP">
+	<item id="10502" type="Armor" name="米索莉襯衫">
 		<set name="icon" val="icon.etc_shirts_s_i05" />
 		<set name="default_action" val="equip" />
 		<set name="bodypart" val="underwear" />
@@ -51,7 +51,7 @@
 			<enchant order="0x0C" stat="pDef" val="0" />
 		</for>
 	</item>
-	<item id="10503" type="Armor" name="Striped Silk Shirt - HP">
+	<item id="10503" type="Armor" name="條紋絲質襯衫">
 		<set name="icon" val="icon.etc_stripe_shirts_c_i02" />
 		<set name="default_action" val="equip" />
 		<set name="bodypart" val="underwear" />
@@ -68,7 +68,7 @@
 			<enchant order="0x0C" stat="pDef" val="0" />
 		</for>
 	</item>
-	<item id="10504" type="Armor" name="Striped Silk Shirt - MP">
+	<item id="10504" type="Armor" name="條紋絲質襯衫">
 		<set name="icon" val="icon.etc_stripe_shirts_c_i02" />
 		<set name="default_action" val="equip" />
 		<set name="bodypart" val="underwear" />
@@ -85,7 +85,7 @@
 			<enchant order="0x0C" stat="pDef" val="0" />
 		</for>
 	</item>
-	<item id="10505" type="Armor" name="Striped Silk Shirt - CP">
+	<item id="10505" type="Armor" name="條紋絲質襯衫">
 		<set name="icon" val="icon.etc_stripe_shirts_c_i02" />
 		<set name="default_action" val="equip" />
 		<set name="bodypart" val="underwear" />
@@ -102,7 +102,7 @@
 			<enchant order="0x0C" stat="pDef" val="0" />
 		</for>
 	</item>
-	<item id="10506" type="Armor" name="Thin Striped Leather Shirt - HP">
+	<item id="10506" type="Armor" name="薄條紋皮質襯衫">
 		<set name="icon" val="icon.etc_stripe_shirts_b_i03" />
 		<set name="default_action" val="equip" />
 		<set name="bodypart" val="underwear" />
@@ -119,7 +119,7 @@
 			<enchant order="0x0C" stat="pDef" val="0" />
 		</for>
 	</item>
-	<item id="10507" type="Armor" name="Thin Striped Leather Shirt - MP">
+	<item id="10507" type="Armor" name="薄條紋皮質襯衫">
 		<set name="icon" val="icon.etc_stripe_shirts_b_i03" />
 		<set name="default_action" val="equip" />
 		<set name="bodypart" val="underwear" />
@@ -136,7 +136,7 @@
 			<enchant order="0x0C" stat="pDef" val="0" />
 		</for>
 	</item>
-	<item id="10508" type="Armor" name="Thin Striped Leather Shirt - CP">
+	<item id="10508" type="Armor" name="薄條紋皮質襯衫">
 		<set name="icon" val="icon.etc_stripe_shirts_b_i03" />
 		<set name="default_action" val="equip" />
 		<set name="bodypart" val="underwear" />
@@ -153,7 +153,7 @@
 			<enchant order="0x0C" stat="pDef" val="0" />
 		</for>
 	</item>
-	<item id="10509" type="Armor" name="Striped Scale Shirt - HP">
+	<item id="10509" type="Armor" name="條紋鱗片襯衫">
 		<set name="icon" val="icon.etc_stripe_shirts_a_i04" />
 		<set name="default_action" val="equip" />
 		<set name="bodypart" val="underwear" />
@@ -170,7 +170,7 @@
 			<enchant order="0x0C" stat="pDef" val="0" />
 		</for>
 	</item>
-	<item id="10510" type="Armor" name="Striped Scale Shirt - MP">
+	<item id="10510" type="Armor" name="條紋鱗片襯衫">
 		<set name="icon" val="icon.etc_stripe_shirts_a_i04" />
 		<set name="default_action" val="equip" />
 		<set name="bodypart" val="underwear" />
@@ -187,7 +187,7 @@
 			<enchant order="0x0C" stat="pDef" val="0" />
 		</for>
 	</item>
-	<item id="10511" type="Armor" name="Striped Scale Shirt - CP">
+	<item id="10511" type="Armor" name="條紋鱗片襯衫">
 		<set name="icon" val="icon.etc_stripe_shirts_a_i04" />
 		<set name="default_action" val="equip" />
 		<set name="bodypart" val="underwear" />
@@ -204,7 +204,7 @@
 			<enchant order="0x0C" stat="pDef" val="0" />
 		</for>
 	</item>
-	<item id="10512" type="Armor" name="Striped Mithril Shirt - HP">
+	<item id="10512" type="Armor" name="條紋米索莉襯衫">
 		<set name="icon" val="icon.etc_stripe_shirts_s_i05" />
 		<set name="default_action" val="equip" />
 		<set name="bodypart" val="underwear" />
@@ -221,7 +221,7 @@
 			<enchant order="0x0C" stat="pDef" val="0" />
 		</for>
 	</item>
-	<item id="10513" type="Armor" name="Striped Mithril Shirt - MP">
+	<item id="10513" type="Armor" name="條紋米索莉襯衫">
 		<set name="icon" val="icon.etc_stripe_shirts_s_i05" />
 		<set name="default_action" val="equip" />
 		<set name="bodypart" val="underwear" />
@@ -238,7 +238,7 @@
 			<enchant order="0x0C" stat="pDef" val="0" />
 		</for>
 	</item>
-	<item id="10514" type="Armor" name="Striped Mithril Shirt - CP">
+	<item id="10514" type="Armor" name="條紋米索莉襯衫">
 		<set name="icon" val="icon.etc_stripe_shirts_s_i05" />
 		<set name="default_action" val="equip" />
 		<set name="bodypart" val="underwear" />
@@ -255,7 +255,7 @@
 			<enchant order="0x0C" stat="pDef" val="0" />
 		</for>
 	</item>
-	<item id="10515" type="EtcItem" name="Beast Soulshot Compressed Pack">
+	<item id="10515" type="EtcItem" name="壓縮野獸靈魂彈">
 		<set name="icon" val="icon.etc_pouch_yellow_i00" />
 		<set name="default_action" val="capsule" />
 		<set name="immediate_effect" val="1" />
@@ -266,7 +266,7 @@
 		<set name="handler" val="ItemSkills" />
 		<set name="item_skill" val="2500-1" />
 	</item>
-	<item id="10516" type="EtcItem" name="Beast Spiritshot Compressed Pack">
+	<item id="10516" type="EtcItem" name="壓縮野獸魔靈彈">
 		<set name="icon" val="icon.etc_pouch_yellow_i00" />
 		<set name="default_action" val="capsule" />
 		<set name="immediate_effect" val="1" />
@@ -277,7 +277,7 @@
 		<set name="handler" val="ItemSkills" />
 		<set name="item_skill" val="2501-1" />
 	</item>
-	<item id="10517" type="EtcItem" name="Blessed Beast Spiritshot Compressed Pack">
+	<item id="10517" type="EtcItem" name="祝福的壓縮野獸魔靈彈">
 		<set name="icon" val="icon.etc_pouch_yellow_i00" />
 		<set name="default_action" val="capsule" />
 		<set name="immediate_effect" val="1" />
@@ -288,7 +288,7 @@
 		<set name="handler" val="ItemSkills" />
 		<set name="item_skill" val="2502-1" />
 	</item>
-	<item id="10518" type="Armor" name="Red Talisman - Life Force">
+	<item id="10518" type="Armor" name="赤色護身符-生命力">
 		<set name="icon" val="icon.etc_talisman_i00" />
 		<set name="default_action" val="equip" />
 		<set name="bodypart" val="deco1" />
@@ -302,7 +302,7 @@
 		<set name="item_skill" val="3429-1" />
 		<set name="duration" val="70" />
 	</item>
-	<item id="10519" type="Armor" name="White Talisman - Earth">
+	<item id="10519" type="Armor" name="白色護身符-大地">
 		<set name="icon" val="icon.etc_talisman_i06" />
 		<set name="default_action" val="equip" />
 		<set name="bodypart" val="deco1" />
@@ -316,7 +316,7 @@
 		<set name="item_skill" val="3434-1" />
 		<set name="duration" val="80" />
 	</item>
-	<item id="10520" type="EtcItem" name="Echo Crystal - Kuraki Mai">
+	<item id="10520" type="EtcItem" name="回聲水晶-倉木麻衣">
 		<set name="icon" val="icon.etc_echo_crystal_i04" />
 		<set name="default_action" val="skill_reduce" />
 		<set name="immediate_effect" val="1" />
@@ -326,7 +326,7 @@
 		<set name="is_stackable" val="true" />
 		<set name="item_skill" val="2487-1" />
 	</item>
-	<item id="10521" type="EtcItem" name="Rough Ore of Fire">
+	<item id="10521" type="EtcItem" name="粗劣的火之原石">
 		<set name="icon" val="icon.etc_fire_stone_i00" />
 		<set name="default_action" val="skill_reduce" />
 		<set name="etcitem_type" val="scrl_enchant_attr" />
@@ -341,7 +341,7 @@
 		<set name="handler" val="EnchantAttribute" />
 		<set name="item_skill" val="2329-1" />
 	</item>
-	<item id="10522" type="EtcItem" name="Rough Ore of Water">
+	<item id="10522" type="EtcItem" name="粗劣的水之原石">
 		<set name="icon" val="icon.etc_water_stone_i00" />
 		<set name="default_action" val="skill_reduce" />
 		<set name="etcitem_type" val="scrl_enchant_attr" />
@@ -356,7 +356,7 @@
 		<set name="handler" val="EnchantAttribute" />
 		<set name="item_skill" val="2330-1" />
 	</item>
-	<item id="10523" type="EtcItem" name="Rough Ore of the Earth">
+	<item id="10523" type="EtcItem" name="粗劣的地之原石">
 		<set name="icon" val="icon.etc_earth_stone_i00" />
 		<set name="default_action" val="skill_reduce" />
 		<set name="etcitem_type" val="scrl_enchant_attr" />
@@ -371,7 +371,7 @@
 		<set name="handler" val="EnchantAttribute" />
 		<set name="item_skill" val="2332-1" />
 	</item>
-	<item id="10524" type="EtcItem" name="Rough Ore of Wind">
+	<item id="10524" type="EtcItem" name="粗劣的風之原石">
 		<set name="icon" val="icon.etc_wind_stone_i00" />
 		<set name="default_action" val="skill_reduce" />
 		<set name="etcitem_type" val="scrl_enchant_attr" />
@@ -386,7 +386,7 @@
 		<set name="handler" val="EnchantAttribute" />
 		<set name="item_skill" val="2331-1" />
 	</item>
-	<item id="10525" type="EtcItem" name="Rough Ore of Darkness">
+	<item id="10525" type="EtcItem" name="粗劣的暗之原石">
 		<set name="icon" val="icon.etc_unholy_stone_i00" />
 		<set name="default_action" val="skill_reduce" />
 		<set name="etcitem_type" val="scrl_enchant_attr" />
@@ -401,7 +401,7 @@
 		<set name="handler" val="EnchantAttribute" />
 		<set name="item_skill" val="2334-1" />
 	</item>
-	<item id="10526" type="EtcItem" name="Rough Ore of Divinity">
+	<item id="10526" type="EtcItem" name="粗劣的聖之原石">
 		<set name="icon" val="icon.etc_holy_stone_i00" />
 		<set name="default_action" val="skill_reduce" />
 		<set name="etcitem_type" val="scrl_enchant_attr" />
@@ -416,7 +416,7 @@
 		<set name="handler" val="EnchantAttribute" />
 		<set name="item_skill" val="2333-1" />
 	</item>
-	<item id="10527" type="Weapon" name="Dynasty Staff - Mana Up">
+	<item id="10527" type="Weapon" name="王朝魔杖">
 		<set name="icon" val="icon.weapon_dynasty_twohand_staff_i01" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="bigblunt" />
@@ -447,7 +447,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="10528" type="Weapon" name="Dynasty Staff - Conversion">
+	<item id="10528" type="Weapon" name="王朝魔杖">
 		<set name="icon" val="icon.weapon_dynasty_twohand_staff_i01" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="bigblunt" />
@@ -478,7 +478,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="10529" type="Weapon" name="Dynasty Staff - Acumen">
+	<item id="10529" type="Weapon" name="王朝魔杖">
 		<set name="icon" val="icon.weapon_dynasty_twohand_staff_i01" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="bigblunt" />
@@ -509,7 +509,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="10530" type="Weapon" name="Dynasty Crusher - Anger">
+	<item id="10530" type="Weapon" name="王朝毀滅者">
 		<set name="icon" val="icon.weapon_dynasty_crusher_i01" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="bigblunt" />
@@ -539,7 +539,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="10531" type="Weapon" name="Dynasty Crusher - Health">
+	<item id="10531" type="Weapon" name="王朝毀滅者">
 		<set name="icon" val="icon.weapon_dynasty_crusher_i01" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="bigblunt" />
@@ -569,7 +569,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="10532" type="Weapon" name="Dynasty Crusher - Rsk. Focus">
+	<item id="10532" type="Weapon" name="王朝毀滅者">
 		<set name="icon" val="icon.weapon_dynasty_crusher_i01" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="bigblunt" />
@@ -599,7 +599,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="10533" type="Armor" name="Blue Talisman - Attack Power">
+	<item id="10533" type="Armor" name="青色護身符-攻擊力">
 		<set name="icon" val="icon.etc_talisman_i01" />
 		<set name="default_action" val="equip" />
 		<set name="bodypart" val="deco1" />
@@ -613,7 +613,7 @@
 		<set name="item_skill" val="3487-1" />
 		<set name="duration" val="65" />
 	</item>
-	<item id="10534" type="Armor" name="Blue Talisman - Shield Defense">
+	<item id="10534" type="Armor" name="青色護身符-盾牌防禦">
 		<set name="icon" val="icon.etc_talisman_i01" />
 		<set name="default_action" val="equip" />
 		<set name="bodypart" val="deco1" />
@@ -627,7 +627,7 @@
 		<set name="item_skill" val="3488-1" />
 		<set name="duration" val="65" />
 	</item>
-	<item id="10535" type="Armor" name="Yellow Talisman - Defense Power">
+	<item id="10535" type="Armor" name="黃色護身符-防禦力">
 		<set name="icon" val="icon.etc_talisman_i02" />
 		<set name="default_action" val="equip" />
 		<set name="bodypart" val="deco1" />
@@ -640,7 +640,7 @@
 		<set name="item_skill" val="3490-1" />
 		<set name="duration" val="60" />
 	</item>
-	<item id="10536" type="Armor" name="Yellow Talisman - Magic Power">
+	<item id="10536" type="Armor" name="黃色護身符-魔法力">
 		<set name="icon" val="icon.etc_talisman_i02" />
 		<set name="default_action" val="equip" />
 		<set name="bodypart" val="deco1" />
@@ -653,7 +653,7 @@
 		<set name="item_skill" val="3489-1" />
 		<set name="duration" val="60" />
 	</item>
-	<item id="10537" type="Armor" name="Yellow Talisman - Evasion">
+	<item id="10537" type="Armor" name="黃色護身符-迴避">
 		<set name="icon" val="icon.etc_talisman_i02" />
 		<set name="default_action" val="equip" />
 		<set name="bodypart" val="deco1" />
@@ -666,7 +666,7 @@
 		<set name="item_skill" val="3491-1" />
 		<set name="duration" val="60" />
 	</item>
-	<item id="10538" type="Armor" name="Yellow Talisman - Healing Power">
+	<item id="10538" type="Armor" name="黃色護身符-治療威力">
 		<set name="icon" val="icon.etc_talisman_i02" />
 		<set name="default_action" val="equip" />
 		<set name="bodypart" val="deco1" />
@@ -679,7 +679,7 @@
 		<set name="item_skill" val="3495-1" />
 		<set name="duration" val="60" />
 	</item>
-	<item id="10539" type="Armor" name="Yellow Talisman - CP Recovery Rate">
+	<item id="10539" type="Armor" name="黃色護身符-CP恢復量">
 		<set name="icon" val="icon.etc_talisman_i02" />
 		<set name="default_action" val="equip" />
 		<set name="bodypart" val="deco1" />
@@ -692,7 +692,7 @@
 		<set name="item_skill" val="3494-1" />
 		<set name="duration" val="60" />
 	</item>
-	<item id="10540" type="Armor" name="Yellow Talisman - HP Recovery Rate">
+	<item id="10540" type="Armor" name="黃色護身符-HP恢復量">
 		<set name="icon" val="icon.etc_talisman_i02" />
 		<set name="default_action" val="equip" />
 		<set name="bodypart" val="deco1" />
@@ -705,7 +705,7 @@
 		<set name="item_skill" val="3493-1" />
 		<set name="duration" val="60" />
 	</item>
-	<item id="10541" type="Armor" name="Yellow Talisman - Low Grade MP regeneration rate">
+	<item id="10541" type="Armor" name="黃色護身符-次級MP恢復量">
 		<set name="icon" val="icon.etc_talisman_i02" />
 		<set name="default_action" val="equip" />
 		<set name="bodypart" val="deco1" />
@@ -718,7 +718,7 @@
 		<set name="item_skill" val="3497-1" />
 		<set name="duration" val="60" />
 	</item>
-	<item id="10542" type="Armor" name="Red Talisman - HP/CP Recovery">
+	<item id="10542" type="Armor" name="赤色護身符-HP/CP恢復">
 		<set name="icon" val="icon.etc_talisman_i00" />
 		<set name="default_action" val="equip" />
 		<set name="bodypart" val="deco1" />
@@ -731,7 +731,7 @@
 		<set name="item_skill" val="3496-1" />
 		<set name="duration" val="64" />
 	</item>
-	<item id="10543" type="Armor" name="Yellow Talisman - Speed">
+	<item id="10543" type="Armor" name="黃色護身符-移動速度">
 		<set name="icon" val="icon.etc_talisman_i02" />
 		<set name="default_action" val="equip" />
 		<set name="bodypart" val="deco1" />
@@ -744,7 +744,7 @@
 		<set name="item_skill" val="3492-1" />
 		<set name="duration" val="60" />
 	</item>
-	<item id="10544" type="EtcItem" name="Recipe - Dynasty Staff(60%)">
+	<item id="10544" type="EtcItem" name="製作卷軸(王朝魔杖60%)">
 		<set name="icon" val="icon.etc_recipe_black_i00" />
 		<set name="default_action" val="recipe" />
 		<set name="etcitem_type" val="recipe" />
@@ -756,7 +756,7 @@
 		<set name="is_stackable" val="true" />
 		<set name="handler" val="Recipes" />
 	</item>
-	<item id="10545" type="EtcItem" name="Recipe - Dynasty Crusher(60%)">
+	<item id="10545" type="EtcItem" name="製作卷軸(王朝毀滅者60%)">
 		<set name="icon" val="icon.etc_recipe_black_i00" />
 		<set name="default_action" val="recipe" />
 		<set name="etcitem_type" val="recipe" />
@@ -768,7 +768,7 @@
 		<set name="is_stackable" val="true" />
 		<set name="handler" val="Recipes" />
 	</item>
-	<item id="10546" type="EtcItem" name="Dynasty Staff Fragment">
+	<item id="10546" type="EtcItem" name="王朝魔杖碎片">
 		<set name="icon" val="icon.etc_sword_body_i00" />
 		<set name="etcitem_type" val="material" />
 		<set name="immediate_effect" val="1" />
@@ -777,7 +777,7 @@
 		<set name="price" val="239000" />
 		<set name="is_stackable" val="true" />
 	</item>
-	<item id="10547" type="EtcItem" name="Dynasty Crusher Fragment">
+	<item id="10547" type="EtcItem" name="王朝毀滅者碎片">
 		<set name="icon" val="icon.etc_sword_body_i00" />
 		<set name="etcitem_type" val="material" />
 		<set name="immediate_effect" val="1" />
@@ -786,7 +786,7 @@
 		<set name="price" val="239000" />
 		<set name="is_stackable" val="true" />
 	</item>
-	<item id="10548" type="Weapon" name="Monster Only (Transparent Shield)">
+	<item id="10548" type="Weapon" name="怪物用(透明盾)">
 		<set name="icon" val="icon.weapon_monster_i00" />
 		<set name="default_action" val="equip" />
 		<set name="bodypart" val="lhand" />
@@ -801,7 +801,7 @@
 			<set order="0x08" stat="sDef" val="47" />
 		</for>
 	</item>
-	<item id="10549" type="EtcItem" name="Forgotten Scroll - Protection of Rune">
+	<item id="10549" type="EtcItem" name="遺忘祕傳書-古文保護">
 		<set name="icon" val="icon.etc_spell_books_element_i00" />
 		<set name="default_action" val="skill_reduce" />
 		<set name="material" val="paper" />
@@ -811,7 +811,7 @@
 		<set name="handler" val="ItemSkills" />
 		<set name="item_skill" val="2441-1" />
 	</item>
-	<item id="10550" type="EtcItem" name="Forgotten Scroll - Protection of Elemental">
+	<item id="10550" type="EtcItem" name="遺忘祕傳書-元素保護">
 		<set name="icon" val="icon.etc_spell_books_element_i00" />
 		<set name="default_action" val="skill_reduce" />
 		<set name="material" val="paper" />
@@ -821,7 +821,7 @@
 		<set name="handler" val="ItemSkills" />
 		<set name="item_skill" val="2442-1" />
 	</item>
-	<item id="10551" type="EtcItem" name="Forgotten Scroll - Protection of Alignment">
+	<item id="10551" type="EtcItem" name="遺忘祕傳書-團結保護">
 		<set name="icon" val="icon.etc_spell_books_element_i00" />
 		<set name="default_action" val="skill_reduce" />
 		<set name="material" val="paper" />
@@ -831,7 +831,7 @@
 		<set name="handler" val="ItemSkills" />
 		<set name="item_skill" val="2443-1" />
 	</item>
-	<item id="10552" type="EtcItem" name="Forgotten Scroll - Fighter's Will">
+	<item id="10552" type="EtcItem" name="遺忘祕傳書-戰士的意志">
 		<set name="icon" val="icon.etc_spell_books_element_i00" />
 		<set name="default_action" val="skill_reduce" />
 		<set name="material" val="paper" />
@@ -841,7 +841,7 @@
 		<set name="handler" val="ItemSkills" />
 		<set name="item_skill" val="2444-1" />
 	</item>
-	<item id="10553" type="EtcItem" name="Forgotten Scroll - Archer's Will">
+	<item id="10553" type="EtcItem" name="遺忘祕傳書-弓手的意志">
 		<set name="icon" val="icon.etc_spell_books_element_i00" />
 		<set name="default_action" val="skill_reduce" />
 		<set name="material" val="paper" />
@@ -851,7 +851,7 @@
 		<set name="handler" val="ItemSkills" />
 		<set name="item_skill" val="2445-1" />
 	</item>
-	<item id="10554" type="EtcItem" name="Forgotten Scroll - Anti-Magic Armor">
+	<item id="10554" type="EtcItem" name="遺忘祕傳書-抗魔裝甲">
 		<set name="icon" val="icon.etc_spell_books_element_i00" />
 		<set name="default_action" val="skill_reduce" />
 		<set name="material" val="paper" />
@@ -861,7 +861,7 @@
 		<set name="handler" val="ItemSkills" />
 		<set name="item_skill" val="2446-1" />
 	</item>
-	<item id="10555" type="EtcItem" name="Forgotten Scroll - Seed of Revenge">
+	<item id="10555" type="EtcItem" name="遺忘祕傳書-復仇種子">
 		<set name="icon" val="icon.etc_spell_books_element_i00" />
 		<set name="default_action" val="skill_reduce" />
 		<set name="material" val="paper" />
@@ -871,7 +871,7 @@
 		<set name="handler" val="ItemSkills" />
 		<set name="item_skill" val="2447-1" />
 	</item>
-	<item id="10556" type="EtcItem" name="Forgotten Scroll - Hell Scream">
+	<item id="10556" type="EtcItem" name="遺忘祕傳書-地獄狂嘯">
 		<set name="icon" val="icon.etc_spell_books_element_i00" />
 		<set name="default_action" val="skill_reduce" />
 		<set name="material" val="paper" />
@@ -881,7 +881,7 @@
 		<set name="handler" val="ItemSkills" />
 		<set name="item_skill" val="2448-1" />
 	</item>
-	<item id="10557" type="EtcItem" name="Forgotten Scroll - Song of Windstorm">
+	<item id="10557" type="EtcItem" name="遺忘祕傳書-風暴之歌">
 		<set name="icon" val="icon.etc_spell_books_element_i00" />
 		<set name="default_action" val="skill_reduce" />
 		<set name="material" val="paper" />
@@ -891,7 +891,7 @@
 		<set name="handler" val="ItemSkills" />
 		<set name="item_skill" val="2449-1" />
 	</item>
-	<item id="10558" type="EtcItem" name="Forgotten Scroll - Dance of Blade Storm">
+	<item id="10558" type="EtcItem" name="遺忘祕傳書-刀刃風暴之舞">
 		<set name="icon" val="icon.etc_spell_books_element_i00" />
 		<set name="default_action" val="skill_reduce" />
 		<set name="material" val="paper" />
@@ -901,7 +901,7 @@
 		<set name="handler" val="ItemSkills" />
 		<set name="item_skill" val="2450-1" />
 	</item>
-	<item id="10559" type="EtcItem" name="Forgotten Scroll - Sixth Sense">
+	<item id="10559" type="EtcItem" name="遺忘祕傳書-第六感">
 		<set name="icon" val="icon.etc_spell_books_element_i00" />
 		<set name="default_action" val="skill_reduce" />
 		<set name="material" val="paper" />
@@ -911,7 +911,7 @@
 		<set name="handler" val="ItemSkills" />
 		<set name="item_skill" val="2451-1" />
 	</item>
-	<item id="10560" type="EtcItem" name="Forgotten Scroll - Expose Weak Point">
+	<item id="10560" type="EtcItem" name="遺忘祕傳書-弱點揭露">
 		<set name="icon" val="icon.etc_spell_books_element_i00" />
 		<set name="default_action" val="skill_reduce" />
 		<set name="material" val="paper" />
@@ -921,7 +921,7 @@
 		<set name="handler" val="ItemSkills" />
 		<set name="item_skill" val="2452-1" />
 	</item>
-	<item id="10561" type="EtcItem" name="Forgotten Scroll - Exciting Adventure">
+	<item id="10561" type="EtcItem" name="遺忘祕傳書-狂熱鬥志">
 		<set name="icon" val="icon.etc_spell_books_element_i00" />
 		<set name="default_action" val="skill_reduce" />
 		<set name="material" val="paper" />
@@ -931,7 +931,7 @@
 		<set name="handler" val="ItemSkills" />
 		<set name="item_skill" val="2453-1" />
 	</item>
-	<item id="10562" type="EtcItem" name="Forgotten Scroll - Wind Riding">
+	<item id="10562" type="EtcItem" name="遺忘祕傳書-御風">
 		<set name="icon" val="icon.etc_spell_books_element_i00" />
 		<set name="default_action" val="skill_reduce" />
 		<set name="material" val="paper" />
@@ -941,7 +941,7 @@
 		<set name="handler" val="ItemSkills" />
 		<set name="item_skill" val="2454-1" />
 	</item>
-	<item id="10563" type="EtcItem" name="Forgotten Scroll - Ghost Walking">
+	<item id="10563" type="EtcItem" name="遺忘祕傳書-鬼行">
 		<set name="icon" val="icon.etc_spell_books_element_i00" />
 		<set name="default_action" val="skill_reduce" />
 		<set name="material" val="paper" />
@@ -951,7 +951,7 @@
 		<set name="handler" val="ItemSkills" />
 		<set name="item_skill" val="2455-1" />
 	</item>
-	<item id="10564" type="EtcItem" name="Forgotten Scroll - Flame Hawk">
+	<item id="10564" type="EtcItem" name="遺忘祕傳書-火焰之鷹">
 		<set name="icon" val="icon.etc_spell_books_element_i00" />
 		<set name="default_action" val="skill_reduce" />
 		<set name="material" val="paper" />
@@ -961,7 +961,7 @@
 		<set name="handler" val="ItemSkills" />
 		<set name="item_skill" val="2456-1" />
 	</item>
-	<item id="10565" type="EtcItem" name="Forgotten Scroll - Arrow Rain">
+	<item id="10565" type="EtcItem" name="遺忘祕傳書-箭雨">
 		<set name="icon" val="icon.etc_spell_books_element_i00" />
 		<set name="default_action" val="skill_reduce" />
 		<set name="material" val="paper" />
@@ -971,7 +971,7 @@
 		<set name="handler" val="ItemSkills" />
 		<set name="item_skill" val="2457-1" />
 	</item>
-	<item id="10566" type="EtcItem" name="Forgotten Scroll - Ghost Piercing">
+	<item id="10566" type="EtcItem" name="遺忘祕傳書-鬼刺">
 		<set name="icon" val="icon.etc_spell_books_element_i00" />
 		<set name="default_action" val="skill_reduce" />
 		<set name="material" val="paper" />
@@ -981,7 +981,7 @@
 		<set name="handler" val="ItemSkills" />
 		<set name="item_skill" val="2458-1" />
 	</item>
-	<item id="10567" type="EtcItem" name="Forgotten Scroll - Dread Pool">
+	<item id="10567" type="EtcItem" name="遺忘祕傳書-恐懼佈滿">
 		<set name="icon" val="icon.etc_spell_books_element_i00" />
 		<set name="default_action" val="skill_reduce" />
 		<set name="material" val="paper" />
@@ -991,7 +991,7 @@
 		<set name="handler" val="ItemSkills" />
 		<set name="item_skill" val="2459-1" />
 	</item>
-	<item id="10568" type="EtcItem" name="Forgotten Scroll - Weapon Blockade">
+	<item id="10568" type="EtcItem" name="遺忘祕傳書-武器封鎖">
 		<set name="icon" val="icon.etc_spell_books_element_i00" />
 		<set name="default_action" val="skill_reduce" />
 		<set name="material" val="paper" />
@@ -1001,7 +1001,7 @@
 		<set name="handler" val="ItemSkills" />
 		<set name="item_skill" val="2460-1" />
 	</item>
-	<item id="10569" type="EtcItem" name="Forgotten Scroll - Force of Destruction">
+	<item id="10569" type="EtcItem" name="遺忘祕傳書-毀滅之力">
 		<set name="icon" val="icon.etc_spell_books_element_i00" />
 		<set name="default_action" val="skill_reduce" />
 		<set name="material" val="paper" />
@@ -1011,7 +1011,7 @@
 		<set name="handler" val="ItemSkills" />
 		<set name="item_skill" val="2461-1" />
 	</item>
-	<item id="10570" type="EtcItem" name="Forgotten Scroll - Demolition Impact">
+	<item id="10570" type="EtcItem" name="遺忘祕傳書-壞滅衝擊">
 		<set name="icon" val="icon.etc_spell_books_element_i00" />
 		<set name="default_action" val="skill_reduce" />
 		<set name="material" val="paper" />
@@ -1021,7 +1021,7 @@
 		<set name="handler" val="ItemSkills" />
 		<set name="item_skill" val="2462-1" />
 	</item>
-	<item id="10571" type="EtcItem" name="Forgotten Scroll - Golem Armor">
+	<item id="10571" type="EtcItem" name="遺忘祕傳書-高崙裝甲">
 		<set name="icon" val="icon.etc_spell_books_element_i00" />
 		<set name="default_action" val="skill_reduce" />
 		<set name="material" val="paper" />
@@ -1031,7 +1031,7 @@
 		<set name="handler" val="ItemSkills" />
 		<set name="item_skill" val="2463-1" />
 	</item>
-	<item id="10572" type="EtcItem" name="Forgotten Scroll - Flame Armor">
+	<item id="10572" type="EtcItem" name="遺忘祕傳書-火焰裝甲">
 		<set name="icon" val="icon.etc_spell_books_element_i00" />
 		<set name="default_action" val="skill_reduce" />
 		<set name="material" val="paper" />
@@ -1041,7 +1041,7 @@
 		<set name="handler" val="ItemSkills" />
 		<set name="item_skill" val="2464-1" />
 	</item>
-	<item id="10573" type="EtcItem" name="Forgotten Scroll - Frost Armor">
+	<item id="10573" type="EtcItem" name="遺忘祕傳書-寒霜裝甲">
 		<set name="icon" val="icon.etc_spell_books_element_i00" />
 		<set name="default_action" val="skill_reduce" />
 		<set name="material" val="paper" />
@@ -1051,7 +1051,7 @@
 		<set name="handler" val="ItemSkills" />
 		<set name="item_skill" val="2465-1" />
 	</item>
-	<item id="10574" type="EtcItem" name="Forgotten Scroll - Hurricane Armor">
+	<item id="10574" type="EtcItem" name="遺忘祕傳書-風暴裝甲">
 		<set name="icon" val="icon.etc_spell_books_element_i00" />
 		<set name="default_action" val="skill_reduce" />
 		<set name="material" val="paper" />
@@ -1061,7 +1061,7 @@
 		<set name="handler" val="ItemSkills" />
 		<set name="item_skill" val="2466-1" />
 	</item>
-	<item id="10575" type="EtcItem" name="Forgotten Scroll - Vampiric Mist">
+	<item id="10575" type="EtcItem" name="遺忘祕傳書-吸血迷霧">
 		<set name="icon" val="icon.etc_spell_books_element_i00" />
 		<set name="default_action" val="skill_reduce" />
 		<set name="material" val="paper" />
@@ -1071,7 +1071,7 @@
 		<set name="handler" val="ItemSkills" />
 		<set name="item_skill" val="2467-1" />
 	</item>
-	<item id="10576" type="EtcItem" name="Forgotten Scroll - Servitor Barrier">
+	<item id="10576" type="EtcItem" name="遺忘祕傳書-使魔屏障">
 		<set name="icon" val="icon.etc_spell_books_element_i00" />
 		<set name="default_action" val="skill_reduce" />
 		<set name="material" val="paper" />
@@ -1081,7 +1081,7 @@
 		<set name="handler" val="ItemSkills" />
 		<set name="item_skill" val="2468-1" />
 	</item>
-	<item id="10577" type="EtcItem" name="Forgotten Scroll - Excessive Loyalty">
+	<item id="10577" type="EtcItem" name="遺忘祕傳書-極度忠誠">
 		<set name="icon" val="icon.etc_spell_books_element_i00" />
 		<set name="default_action" val="skill_reduce" />
 		<set name="material" val="paper" />
@@ -1091,7 +1091,7 @@
 		<set name="handler" val="ItemSkills" />
 		<set name="item_skill" val="2469-1" />
 	</item>
-	<item id="10578" type="EtcItem" name="Forgotten Scroll - Mutual Response">
+	<item id="10578" type="EtcItem" name="遺忘祕傳書-相互呼應">
 		<set name="icon" val="icon.etc_spell_books_element_i00" />
 		<set name="default_action" val="skill_reduce" />
 		<set name="material" val="paper" />
@@ -1101,7 +1101,7 @@
 		<set name="handler" val="ItemSkills" />
 		<set name="item_skill" val="2470-1" />
 	</item>
-	<item id="10579" type="EtcItem" name="Forgotten Scroll - Improve Combat">
+	<item id="10579" type="EtcItem" name="遺忘祕傳書-提升戰鬥">
 		<set name="icon" val="icon.etc_spell_books_element_i00" />
 		<set name="default_action" val="skill_reduce" />
 		<set name="material" val="paper" />
@@ -1111,7 +1111,7 @@
 		<set name="handler" val="ItemSkills" />
 		<set name="item_skill" val="2471-1" />
 	</item>
-	<item id="10580" type="EtcItem" name="Forgotten Scroll - Improve Magic">
+	<item id="10580" type="EtcItem" name="遺忘祕傳書-提升魔法">
 		<set name="icon" val="icon.etc_spell_books_element_i00" />
 		<set name="default_action" val="skill_reduce" />
 		<set name="material" val="paper" />
@@ -1121,7 +1121,7 @@
 		<set name="handler" val="ItemSkills" />
 		<set name="item_skill" val="2472-1" />
 	</item>
-	<item id="10581" type="EtcItem" name="Forgotten Scroll - Improve Condition">
+	<item id="10581" type="EtcItem" name="遺忘祕傳書-提升狀態">
 		<set name="icon" val="icon.etc_spell_books_element_i00" />
 		<set name="default_action" val="skill_reduce" />
 		<set name="material" val="paper" />
@@ -1131,7 +1131,7 @@
 		<set name="handler" val="ItemSkills" />
 		<set name="item_skill" val="2473-1" />
 	</item>
-	<item id="10582" type="EtcItem" name="Forgotten Scroll - Improve Critical Attack">
+	<item id="10582" type="EtcItem" name="遺忘祕傳書-提升致命攻擊">
 		<set name="icon" val="icon.etc_spell_books_element_i00" />
 		<set name="default_action" val="skill_reduce" />
 		<set name="material" val="paper" />
@@ -1141,7 +1141,7 @@
 		<set name="handler" val="ItemSkills" />
 		<set name="item_skill" val="2474-1" />
 	</item>
-	<item id="10583" type="EtcItem" name="Forgotten Scroll - Improve Shield Defense">
+	<item id="10583" type="EtcItem" name="遺忘祕傳書-提升盾防禦">
 		<set name="icon" val="icon.etc_spell_books_element_i00" />
 		<set name="default_action" val="skill_reduce" />
 		<set name="material" val="paper" />
@@ -1151,7 +1151,7 @@
 		<set name="handler" val="ItemSkills" />
 		<set name="item_skill" val="2475-1" />
 	</item>
-	<item id="10584" type="EtcItem" name="Forgotten Scroll - Improve Movement">
+	<item id="10584" type="EtcItem" name="遺忘祕傳書-提升行動力">
 		<set name="icon" val="icon.etc_spell_books_element_i00" />
 		<set name="default_action" val="skill_reduce" />
 		<set name="material" val="paper" />
@@ -1161,7 +1161,7 @@
 		<set name="handler" val="ItemSkills" />
 		<set name="item_skill" val="2476-1" />
 	</item>
-	<item id="10585" type="EtcItem" name="Forgotten Scroll - Sublime Self Sacrifice">
+	<item id="10585" type="EtcItem" name="遺忘祕傳書-崇高自我獻祭">
 		<set name="icon" val="icon.etc_spell_books_element_i00" />
 		<set name="default_action" val="skill_reduce" />
 		<set name="material" val="paper" />
@@ -1171,7 +1171,7 @@
 		<set name="handler" val="ItemSkills" />
 		<set name="item_skill" val="2477-1" />
 	</item>
-	<item id="10586" type="EtcItem" name="Forgotten Scroll - Blessing of Eva">
+	<item id="10586" type="EtcItem" name="遺忘祕傳書-伊娃祝福">
 		<set name="icon" val="icon.etc_spell_books_element_i00" />
 		<set name="default_action" val="skill_reduce" />
 		<set name="material" val="paper" />
@@ -1181,7 +1181,7 @@
 		<set name="handler" val="ItemSkills" />
 		<set name="item_skill" val="2478-1" />
 	</item>
-	<item id="10587" type="EtcItem" name="Forgotten Scroll - Lord of Vampire">
+	<item id="10587" type="EtcItem" name="遺忘祕傳書-吸血鬼之王">
 		<set name="icon" val="icon.etc_spell_books_element_i00" />
 		<set name="default_action" val="skill_reduce" />
 		<set name="material" val="paper" />
@@ -1191,7 +1191,7 @@
 		<set name="handler" val="ItemSkills" />
 		<set name="item_skill" val="2479-1" />
 	</item>
-	<item id="10588" type="EtcItem" name="Forgotten Scroll - Throne Root">
+	<item id="10588" type="EtcItem" name="遺忘祕傳書-霸權纏繞">
 		<set name="icon" val="icon.etc_spell_books_element_i00" />
 		<set name="default_action" val="skill_reduce" />
 		<set name="material" val="paper" />
@@ -1201,7 +1201,7 @@
 		<set name="handler" val="ItemSkills" />
 		<set name="item_skill" val="2480-1" />
 	</item>
-	<item id="10589" type="EtcItem" name="Forgotten Scroll - Seal of Limit">
+	<item id="10589" type="EtcItem" name="遺忘祕傳書-極限封印">
 		<set name="icon" val="icon.etc_spell_books_element_i00" />
 		<set name="default_action" val="skill_reduce" />
 		<set name="material" val="paper" />
@@ -1211,7 +1211,7 @@
 		<set name="handler" val="ItemSkills" />
 		<set name="item_skill" val="2481-1" />
 	</item>
-	<item id="10590" type="EtcItem" name="Spellbook - Summon Smart Cubic">
+	<item id="10590" type="EtcItem" name="魔法書-召喚聰慧晶體">
 		<set name="icon" val="icon.etc_spell_books_element_i00" />
 		<set name="immediate_effect" val="1" />
 		<set name="material" val="paper" />
@@ -1219,7 +1219,7 @@
 		<set name="price" val="40000" />
 		<set name="is_stackable" val="true" />
 	</item>
-	<item id="10591" type="EtcItem" name="Forgotten Scroll - Spirit of Phoenix/Flame Icon">
+	<item id="10591" type="EtcItem" name="遺忘祕傳書-鳳凰之魂">
 		<set name="icon" val="icon.etc_spell_books_element_i00" />
 		<set name="default_action" val="skill_reduce" />
 		<set name="material" val="paper" />
@@ -1229,7 +1229,7 @@
 		<set name="handler" val="ItemSkills" />
 		<set name="item_skill" val="2482-1" />
 	</item>
-	<item id="10592" type="EtcItem" name="Forgotten Scroll - Eva's Will">
+	<item id="10592" type="EtcItem" name="遺忘祕傳書-伊娃意志">
 		<set name="icon" val="icon.etc_spell_books_element_i00" />
 		<set name="default_action" val="skill_reduce" />
 		<set name="material" val="paper" />
@@ -1239,7 +1239,7 @@
 		<set name="handler" val="ItemSkills" />
 		<set name="item_skill" val="2483-1" />
 	</item>
-	<item id="10593" type="EtcItem" name="Forgotten Scroll - Pain of Shilen / Spirit of Shilen">
+	<item id="10593" type="EtcItem" name="遺忘祕傳書-席琳之痛">
 		<set name="icon" val="icon.etc_spell_books_element_i00" />
 		<set name="default_action" val="skill_reduce" />
 		<set name="material" val="paper" />
@@ -1249,7 +1249,7 @@
 		<set name="handler" val="ItemSkills" />
 		<set name="item_skill" val="2484-1" />
 	</item>
-	<item id="10594" type="EtcItem" name="Forgotten Scroll - Wild Shot">
+	<item id="10594" type="EtcItem" name="遺忘祕傳書-野性射擊">
 		<set name="icon" val="icon.etc_spell_books_element_i00" />
 		<set name="default_action" val="skill_reduce" />
 		<set name="material" val="paper" />
@@ -1259,7 +1259,7 @@
 		<set name="handler" val="ItemSkills" />
 		<set name="item_skill" val="2488-1" />
 	</item>
-	<item id="10595" type="EtcItem" name="Forgotten Scroll - Lightning Shock">
+	<item id="10595" type="EtcItem" name="遺忘祕傳書-強雷震盪">
 		<set name="icon" val="icon.etc_spell_books_element_i00" />
 		<set name="default_action" val="skill_reduce" />
 		<set name="material" val="paper" />
@@ -1269,7 +1269,7 @@
 		<set name="handler" val="ItemSkills" />
 		<set name="item_skill" val="2489-1" />
 	</item>
-	<item id="10596" type="EtcItem" name="Battle Manual - Soul Cleanse">
+	<item id="10596" type="EtcItem" name="戰鬥教範-靈魂淨罪">
 		<set name="icon" val="icon.etc_kamael_skill_book_i02" />
 		<set name="immediate_effect" val="1" />
 		<set name="material" val="paper" />
@@ -1277,7 +1277,7 @@
 		<set name="price" val="8700" />
 		<set name="is_stackable" val="true" />
 	</item>
-	<item id="10597" type="EtcItem" name="Battle Manual - Curse of Life Flow">
+	<item id="10597" type="EtcItem" name="戰鬥教範-生命流動詛咒">
 		<set name="icon" val="icon.etc_kamael_skill_book_i02" />
 		<set name="immediate_effect" val="1" />
 		<set name="material" val="paper" />
@@ -1285,7 +1285,7 @@
 		<set name="price" val="7200" />
 		<set name="is_stackable" val="true" />
 	</item>
-	<item id="10598" type="EtcItem" name="Battle Manual - Soul Vortex">
+	<item id="10598" type="EtcItem" name="戰鬥教範-魂之旋流">
 		<set name="icon" val="icon.etc_kamael_skill_book_i03" />
 		<set name="immediate_effect" val="1" />
 		<set name="material" val="paper" />
@@ -1293,7 +1293,7 @@
 		<set name="price" val="11600" />
 		<set name="is_stackable" val="true" />
 	</item>
-	<item id="10599" type="EtcItem" name="Battle Manual - Soul Vortex Extinction">
+	<item id="10599" type="EtcItem" name="戰鬥教範-魂旋破滅">
 		<set name="icon" val="icon.etc_kamael_skill_book_i03" />
 		<set name="immediate_effect" val="1" />
 		<set name="material" val="paper" />

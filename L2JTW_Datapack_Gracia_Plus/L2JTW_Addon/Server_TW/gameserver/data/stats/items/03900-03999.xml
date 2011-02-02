@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <list>
-	<item id="3900" type="Armor" name="Wolf's Luxury Plate">
+	<item id="3900" type="Armor" name="狼用高級鋼甲">
 		<set name="icon" val="icon.etc_pet_armor_i02" />
 		<set name="default_action" val="equip" />
 		<set name="armor_type" val="light" />
@@ -15,7 +15,7 @@
 			<add order="0x10" stat="pDef" val="43" />
 		</for>
 	</item>
-	<item id="3901" type="Armor" name="Wolf's Mithril Armor">
+	<item id="3901" type="Armor" name="狼用米索莉甲">
 		<set name="icon" val="icon.etc_pet_armor_i02" />
 		<set name="default_action" val="equip" />
 		<set name="armor_type" val="light" />
@@ -30,7 +30,7 @@
 			<add order="0x10" stat="pDef" val="47" />
 		</for>
 	</item>
-	<item id="3902" type="Weapon" name="Ghost Canine">
+	<item id="3902" type="Weapon" name="幽靈狼牙">
 		<set name="icon" val="icon.etc_pet_arms_i00" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="sword" />
@@ -50,7 +50,7 @@
 			<set order="0x08" stat="pAtkSpd" val="277" />
 		</for>
 	</item>
-	<item id="3903" type="Weapon" name="Mithril Canine">
+	<item id="3903" type="Weapon" name="米索莉狼牙">
 		<set name="icon" val="icon.etc_pet_arms_i01" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="sword" />
@@ -70,7 +70,7 @@
 			<set order="0x08" stat="pAtkSpd" val="277" />
 		</for>
 	</item>
-	<item id="3904" type="Weapon" name="Sylvan Canine">
+	<item id="3904" type="Weapon" name="森林狼牙">
 		<set name="icon" val="icon.etc_pet_arms_i01" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="sword" />
@@ -90,7 +90,7 @@
 			<set order="0x08" stat="pAtkSpd" val="277" />
 		</for>
 	</item>
-	<item id="3905" type="Weapon" name="Orikarukon Canine">
+	<item id="3905" type="Weapon" name="奧里哈魯根狼牙">
 		<set name="icon" val="icon.etc_pet_arms_i01" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="sword" />
@@ -110,7 +110,7 @@
 			<set order="0x08" stat="pAtkSpd" val="277" />
 		</for>
 	</item>
-	<item id="3906" type="Weapon" name="Fang of Saltydog">
+	<item id="3906" type="Weapon" name="索蒂德狼牙">
 		<set name="icon" val="icon.etc_pet_arms_i01" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="sword" />
@@ -130,7 +130,7 @@
 			<set order="0x08" stat="pAtkSpd" val="277" />
 		</for>
 	</item>
-	<item id="3907" type="Weapon" name="Fang of Cerberus">
+	<item id="3907" type="Weapon" name="地獄犬狼牙">
 		<set name="icon" val="icon.etc_pet_arms_i01" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="sword" />
@@ -150,7 +150,7 @@
 			<set order="0x08" stat="pAtkSpd" val="277" />
 		</for>
 	</item>
-	<item id="3908" type="Weapon" name="Fang of Coyote">
+	<item id="3908" type="Weapon" name="土狼狼牙">
 		<set name="icon" val="icon.etc_pet_arms_i02" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="sword" />
@@ -170,7 +170,7 @@
 			<set order="0x08" stat="pAtkSpd" val="277" />
 		</for>
 	</item>
-	<item id="3909" type="Weapon" name="Crystallized Ice Canine">
+	<item id="3909" type="Weapon" name="冰結晶狼牙">
 		<set name="icon" val="icon.etc_pet_arms_i02" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="sword" />
@@ -190,7 +190,7 @@
 			<set order="0x08" stat="pAtkSpd" val="277" />
 		</for>
 	</item>
-	<item id="3910" type="Weapon" name="Fang of the Blue Wolf">
+	<item id="3910" type="Weapon" name="青狼狼牙">
 		<set name="icon" val="icon.etc_pet_arms_i02" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="sword" />
@@ -210,7 +210,7 @@
 			<set order="0x08" stat="pAtkSpd" val="277" />
 		</for>
 	</item>
-	<item id="3911" type="Weapon" name="Fang of Fenrir">
+	<item id="3911" type="Weapon" name="潘里亞狼牙">
 		<set name="icon" val="icon.etc_pet_arms_i02" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="sword" />
@@ -230,7 +230,7 @@
 			<set order="0x08" stat="pAtkSpd" val="277" />
 		</for>
 	</item>
-	<item id="3912" type="Armor" name="Hatchling's Soft Leather">
+	<item id="3912" type="Armor" name="幼龍用軟甲">
 		<set name="icon" val="icon.etc_pet_armor_i03" />
 		<set name="default_action" val="equip" />
 		<set name="armor_type" val="light" />
@@ -245,7 +245,7 @@
 			<add order="0x10" stat="pDef" val="26" />
 		</for>
 	</item>
-	<item id="3913" type="Armor" name="Hatchling's Scale Mail">
+	<item id="3913" type="Armor" name="幼龍用鱗甲">
 		<set name="icon" val="icon.etc_pet_armor_i03" />
 		<set name="default_action" val="equip" />
 		<set name="armor_type" val="light" />
@@ -260,7 +260,7 @@
 			<add order="0x10" stat="pDef" val="29" />
 		</for>
 	</item>
-	<item id="3914" type="Armor" name="Hatchling's Brigandine">
+	<item id="3914" type="Armor" name="幼龍用鎖子甲">
 		<set name="icon" val="icon.etc_pet_armor_i03" />
 		<set name="default_action" val="equip" />
 		<set name="armor_type" val="light" />
@@ -275,7 +275,7 @@
 			<add order="0x10" stat="pDef" val="31" />
 		</for>
 	</item>
-	<item id="3915" type="Armor" name="Hatchling's Bronze Coat">
+	<item id="3915" type="Armor" name="幼龍用青銅外衣">
 		<set name="icon" val="icon.etc_pet_armor_i04" />
 		<set name="default_action" val="equip" />
 		<set name="armor_type" val="light" />
@@ -290,7 +290,7 @@
 			<add order="0x10" stat="pDef" val="33" />
 		</for>
 	</item>
-	<item id="3916" type="Armor" name="Hatchling's Steel Coat">
+	<item id="3916" type="Armor" name="幼龍用鐵外衣">
 		<set name="icon" val="icon.etc_pet_armor_i04" />
 		<set name="default_action" val="equip" />
 		<set name="armor_type" val="light" />
@@ -305,7 +305,7 @@
 			<add order="0x10" stat="pDef" val="36" />
 		</for>
 	</item>
-	<item id="3917" type="Armor" name="Hatchling's Shadowplate">
+	<item id="3917" type="Armor" name="幼龍用影鋼甲">
 		<set name="icon" val="icon.etc_pet_armor_i04" />
 		<set name="default_action" val="equip" />
 		<set name="armor_type" val="light" />
@@ -320,7 +320,7 @@
 			<add order="0x10" stat="pDef" val="38" />
 		</for>
 	</item>
-	<item id="3918" type="Armor" name="Hatchling's Mithril Coat">
+	<item id="3918" type="Armor" name="幼龍用米索莉外衣">
 		<set name="icon" val="icon.etc_pet_armor_i04" />
 		<set name="default_action" val="equip" />
 		<set name="armor_type" val="light" />
@@ -335,7 +335,7 @@
 			<add order="0x10" stat="pDef" val="41" />
 		</for>
 	</item>
-	<item id="3919" type="Weapon" name="Serpent Fang">
+	<item id="3919" type="Weapon" name="巨蛇之牙">
 		<set name="icon" val="icon.etc_pet_arms_i03" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="sword" />
@@ -355,7 +355,7 @@
 			<set order="0x08" stat="pAtkSpd" val="277" />
 		</for>
 	</item>
-	<item id="3920" type="Weapon" name="Viperbite">
+	<item id="3920" type="Weapon" name="蛇吻">
 		<set name="icon" val="icon.etc_pet_arms_i03" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="sword" />
@@ -375,7 +375,7 @@
 			<set order="0x08" stat="pAtkSpd" val="277" />
 		</for>
 	</item>
-	<item id="3921" type="Weapon" name="Shadow Fang">
+	<item id="3921" type="Weapon" name="影牙">
 		<set name="icon" val="icon.etc_pet_arms_i03" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="sword" />
@@ -395,7 +395,7 @@
 			<set order="0x08" stat="pAtkSpd" val="277" />
 		</for>
 	</item>
-	<item id="3922" type="Weapon" name="Alya Fang">
+	<item id="3922" type="Weapon" name="艾里亞之牙">
 		<set name="icon" val="icon.etc_pet_arms_i04" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="sword" />
@@ -415,7 +415,7 @@
 			<set order="0x08" stat="pAtkSpd" val="277" />
 		</for>
 	</item>
-	<item id="3923" type="Weapon" name="Torturer">
+	<item id="3923" type="Weapon" name="拷刑者">
 		<set name="icon" val="icon.etc_pet_arms_i04" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="sword" />
@@ -435,7 +435,7 @@
 			<set order="0x08" stat="pAtkSpd" val="277" />
 		</for>
 	</item>
-	<item id="3924" type="Weapon" name="Unuk Alhay Fang">
+	<item id="3924" type="Weapon" name="巫努艾之牙">
 		<set name="icon" val="icon.etc_pet_arms_i04" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="sword" />
@@ -455,7 +455,7 @@
 			<set order="0x08" stat="pAtkSpd" val="277" />
 		</for>
 	</item>
-	<item id="3925" type="Weapon" name="Antiplague">
+	<item id="3925" type="Weapon" name="災疫斷絕">
 		<set name="icon" val="icon.etc_pet_arms_i04" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="sword" />
@@ -475,7 +475,7 @@
 			<set order="0x08" stat="pAtkSpd" val="277" />
 		</for>
 	</item>
-	<item id="3926" type="EtcItem" name="L2Day - Scroll of Guidance">
+	<item id="3926" type="EtcItem" name="L2Day-導引卷軸">
 		<set name="icon" val="icon.etc_scroll_white_i00" />
 		<set name="default_action" val="skill_reduce" />
 		<set name="etcitem_type" val="scroll" />
@@ -487,7 +487,7 @@
 		<set name="item_skill" val="2050-1" />
 		<set name="use_condition" val="{{uc_transmode_exclude;{tt_flying}}}" />
 	</item>
-	<item id="3927" type="EtcItem" name="L2Day - Scroll of Death Whisper">
+	<item id="3927" type="EtcItem" name="L2Day-死之呢喃卷軸">
 		<set name="icon" val="icon.etc_scroll_white_i00" />
 		<set name="default_action" val="skill_reduce" />
 		<set name="etcitem_type" val="scroll" />
@@ -499,7 +499,7 @@
 		<set name="item_skill" val="2051-1" />
 		<set name="use_condition" val="{{uc_transmode_exclude;{tt_flying}}}" />
 	</item>
-	<item id="3928" type="EtcItem" name="L2Day - Scroll of Focus">
+	<item id="3928" type="EtcItem" name="L2Day-弱點偵測卷軸">
 		<set name="icon" val="icon.etc_scroll_white_i00" />
 		<set name="default_action" val="skill_reduce" />
 		<set name="etcitem_type" val="scroll" />
@@ -511,7 +511,7 @@
 		<set name="item_skill" val="2052-1" />
 		<set name="use_condition" val="{{uc_transmode_exclude;{tt_flying}}}" />
 	</item>
-	<item id="3929" type="EtcItem" name="L2Day - Scroll of Greater Acumen">
+	<item id="3929" type="EtcItem" name="L2Day-靈活思緒卷軸">
 		<set name="icon" val="icon.etc_scroll_white_i00" />
 		<set name="default_action" val="skill_reduce" />
 		<set name="etcitem_type" val="scroll" />
@@ -523,7 +523,7 @@
 		<set name="item_skill" val="2053-1" />
 		<set name="use_condition" val="{{uc_transmode_exclude;{tt_flying}}}" />
 	</item>
-	<item id="3930" type="EtcItem" name="L2Day - Scroll of Haste">
+	<item id="3930" type="EtcItem" name="L2Day-速度激發卷軸">
 		<set name="icon" val="icon.etc_scroll_white_i00" />
 		<set name="default_action" val="skill_reduce" />
 		<set name="etcitem_type" val="scroll" />
@@ -535,7 +535,7 @@
 		<set name="item_skill" val="2054-1" />
 		<set name="use_condition" val="{{uc_transmode_exclude;{tt_flying}}}" />
 	</item>
-	<item id="3931" type="EtcItem" name="L2Day - Scroll of Agility">
+	<item id="3931" type="EtcItem" name="L2Day-敏捷術卷軸">
 		<set name="icon" val="icon.etc_scroll_white_i00" />
 		<set name="default_action" val="skill_reduce" />
 		<set name="etcitem_type" val="scroll" />
@@ -547,7 +547,7 @@
 		<set name="item_skill" val="2055-1" />
 		<set name="use_condition" val="{{uc_transmode_exclude;{tt_flying}}}" />
 	</item>
-	<item id="3932" type="EtcItem" name="L2Day - Scroll of Mystic Empower">
+	<item id="3932" type="EtcItem" name="L2Day-魔力催化卷軸">
 		<set name="icon" val="icon.etc_scroll_white_i00" />
 		<set name="default_action" val="skill_reduce" />
 		<set name="etcitem_type" val="scroll" />
@@ -559,7 +559,7 @@
 		<set name="item_skill" val="2056-1" />
 		<set name="use_condition" val="{{uc_transmode_exclude;{tt_flying}}}" />
 	</item>
-	<item id="3933" type="EtcItem" name="L2Day - Scroll of Might">
+	<item id="3933" type="EtcItem" name="L2Day-力量強化卷軸">
 		<set name="icon" val="icon.etc_scroll_white_i00" />
 		<set name="default_action" val="skill_reduce" />
 		<set name="etcitem_type" val="scroll" />
@@ -571,7 +571,7 @@
 		<set name="item_skill" val="2057-1" />
 		<set name="use_condition" val="{{uc_transmode_exclude;{tt_flying}}}" />
 	</item>
-	<item id="3934" type="EtcItem" name="L2Day - Scroll of Windwalk">
+	<item id="3934" type="EtcItem" name="L2Day-風之疾走卷軸">
 		<set name="icon" val="icon.etc_scroll_white_i00" />
 		<set name="default_action" val="skill_reduce" />
 		<set name="etcitem_type" val="scroll" />
@@ -583,7 +583,7 @@
 		<set name="item_skill" val="2058-1" />
 		<set name="use_condition" val="{{uc_transmode_exclude;{tt_flying}}}" />
 	</item>
-	<item id="3935" type="EtcItem" name="L2Day - Scroll of Shield">
+	<item id="3935" type="EtcItem" name="L2Day-保護盾卷軸">
 		<set name="icon" val="icon.etc_scroll_white_i00" />
 		<set name="default_action" val="skill_reduce" />
 		<set name="etcitem_type" val="scroll" />
@@ -595,7 +595,7 @@
 		<set name="item_skill" val="2059-1" />
 		<set name="use_condition" val="{{uc_transmode_exclude;{tt_flying}}}" />
 	</item>
-	<item id="3936" type="EtcItem" name="Blessed Scroll of Resurrection">
+	<item id="3936" type="EtcItem" name="祝福的復活卷軸">
 		<set name="icon" val="icon.etc_scroll_of_resurrection_i01" />
 		<set name="default_action" val="skill_reduce" />
 		<set name="etcitem_type" val="scroll" />
@@ -607,7 +607,7 @@
 		<set name="handler" val="ScrollOfResurrection" />
 		<set name="item_skill" val="2049-1" />
 	</item>
-	<item id="3937" type="Weapon" name="Giant Bar">
+	<item id="3937" type="Weapon" name="怪物用(下巨人)">
 		<set name="icon" val="icon.weapon_monster_i00" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="pole" />
@@ -636,7 +636,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="3938" type="Weapon" name="Giant Rod">
+	<item id="3938" type="Weapon" name="怪物用(下巨人魔法師武器)">
 		<set name="icon" val="icon.weapon_monster_i00" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="pole" />
@@ -665,7 +665,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="3939" type="Weapon" name="Lady's Fan">
+	<item id="3939" type="Weapon" name="怪物用(班席)">
 		<set name="icon" val="icon.weapon_monster_i00" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="pole" />
@@ -694,7 +694,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="3940" type="EtcItem" name="Blueprint: Summon Siege Golem">
+	<item id="3940" type="EtcItem" name="設計圖-召喚攻城高崙">
 		<set name="icon" val="icon.etc_plan_i00" />
 		<set name="immediate_effect" val="1" />
 		<set name="material" val="paper" />
@@ -702,7 +702,7 @@
 		<set name="price" val="4800" />
 		<set name="is_stackable" val="true" />
 	</item>
-	<item id="3941" type="EtcItem" name="Spellbook: Mass Resurrection">
+	<item id="3941" type="EtcItem" name="魔法書-團體返生術">
 		<set name="icon" val="icon.etc_spell_books_white_i00" />
 		<set name="immediate_effect" val="1" />
 		<set name="material" val="paper" />
@@ -710,7 +710,7 @@
 		<set name="price" val="4600" />
 		<set name="is_stackable" val="true" />
 	</item>
-	<item id="3942" type="EtcItem" name="Spellbook: Party Return">
+	<item id="3942" type="EtcItem" name="魔法書-隊伍回歸術">
 		<set name="icon" val="icon.etc_spell_books_assistance_i00" />
 		<set name="immediate_effect" val="1" />
 		<set name="material" val="paper" />
@@ -718,7 +718,7 @@
 		<set name="price" val="4600" />
 		<set name="is_stackable" val="true" />
 	</item>
-	<item id="3943" type="EtcItem" name="Amulet: Pa'agrio's Heart">
+	<item id="3943" type="EtcItem" name="護身符-帕格立歐之心">
 		<set name="icon" val="icon.etc_orcish_talisman_i00" />
 		<set name="immediate_effect" val="1" />
 		<set name="material" val="paper" />
@@ -726,7 +726,7 @@
 		<set name="price" val="3850" />
 		<set name="is_stackable" val="true" />
 	</item>
-	<item id="3944" type="EtcItem" name="Spellbook: Decrease Weight">
+	<item id="3944" type="EtcItem" name="魔法書-減輕負重">
 		<set name="icon" val="icon.etc_spell_books_blue_i00" />
 		<set name="immediate_effect" val="1" />
 		<set name="material" val="paper" />
@@ -734,7 +734,7 @@
 		<set name="price" val="2450" />
 		<set name="is_stackable" val="true" />
 	</item>
-	<item id="3945" type="EtcItem" name="Boat Ticket: Talking Island to Giran">
+	<item id="3945" type="EtcItem" name="船票-說話之島往奇岩">
 		<set name="icon" val="icon.etc_ticket_red_i00" />
 		<set name="immediate_effect" val="1" />
 		<set name="material" val="paper" />
@@ -742,7 +742,7 @@
 		<set name="price" val="5000" />
 		<set name="is_stackable" val="true" />
 	</item>
-	<item id="3946" type="EtcItem" name="Boat Ticket: Giran to Talking Island">
+	<item id="3946" type="EtcItem" name="船票-奇岩往說話之島">
 		<set name="icon" val="icon.etc_ticket_blue_i00" />
 		<set name="immediate_effect" val="1" />
 		<set name="material" val="paper" />
@@ -750,7 +750,7 @@
 		<set name="price" val="5000" />
 		<set name="is_stackable" val="true" />
 	</item>
-	<item id="3947" type="EtcItem" name="Blessed Spiritshot: No Grade">
+	<item id="3947" type="EtcItem" name="祝福的魔靈彈-普通">
 		<set name="icon" val="icon.etc_spell_shot_white_i01" />
 		<set name="default_action" val="spiritshot" />
 		<set name="immediate_effect" val="1" />
@@ -761,7 +761,7 @@
 		<set name="handler" val="BlessedSpiritShot" />
 		<set name="item_skill" val="2061-1" />
 	</item>
-	<item id="3948" type="EtcItem" name="Blessed Spiritshot: D-Grade">
+	<item id="3948" type="EtcItem" name="祝福的魔靈彈-D級">
 		<set name="icon" val="icon.etc_spell_shot_blue_i01" />
 		<set name="default_action" val="spiritshot" />
 		<set name="immediate_effect" val="1" />
@@ -774,7 +774,7 @@
 		<set name="handler" val="BlessedSpiritShot" />
 		<set name="item_skill" val="2160-1" />
 	</item>
-	<item id="3949" type="EtcItem" name="Blessed Spiritshot: C-Grade">
+	<item id="3949" type="EtcItem" name="祝福的魔靈彈-C級">
 		<set name="icon" val="icon.etc_spell_shot_green_i01" />
 		<set name="default_action" val="spiritshot" />
 		<set name="immediate_effect" val="1" />
@@ -787,7 +787,7 @@
 		<set name="handler" val="BlessedSpiritShot" />
 		<set name="item_skill" val="2161-1" />
 	</item>
-	<item id="3950" type="EtcItem" name="Blessed Spiritshot: B-Grade">
+	<item id="3950" type="EtcItem" name="祝福的魔靈彈-B級">
 		<set name="icon" val="icon.etc_spell_shot_red_i01" />
 		<set name="default_action" val="spiritshot" />
 		<set name="immediate_effect" val="1" />
@@ -800,7 +800,7 @@
 		<set name="handler" val="BlessedSpiritShot" />
 		<set name="item_skill" val="2162-1" />
 	</item>
-	<item id="3951" type="EtcItem" name="Blessed Spiritshot: A-Grade">
+	<item id="3951" type="EtcItem" name="祝福的魔靈彈-A級">
 		<set name="icon" val="icon.etc_spell_shot_silver_i01" />
 		<set name="default_action" val="spiritshot" />
 		<set name="immediate_effect" val="1" />
@@ -813,7 +813,7 @@
 		<set name="handler" val="BlessedSpiritShot" />
 		<set name="item_skill" val="2163-1" />
 	</item>
-	<item id="3952" type="EtcItem" name="Blessed Spiritshot: S Grade">
+	<item id="3952" type="EtcItem" name="祝福的魔靈彈-S級">
 		<set name="icon" val="icon.etc_spell_shot_gold_i01" />
 		<set name="default_action" val="spiritshot" />
 		<set name="immediate_effect" val="1" />
@@ -826,7 +826,7 @@
 		<set name="handler" val="BlessedSpiritShot" />
 		<set name="item_skill" val="2164-1" />
 	</item>
-	<item id="3953" type="EtcItem" name="Recipe: Blessed Spiritshot D">
+	<item id="3953" type="EtcItem" name="製作卷軸(祝福的魔靈彈-D級100%)">
 		<set name="icon" val="icon.etc_recipe_blue_i00" />
 		<set name="default_action" val="recipe" />
 		<set name="etcitem_type" val="recipe" />
@@ -838,7 +838,7 @@
 		<set name="is_stackable" val="true" />
 		<set name="handler" val="Recipes" />
 	</item>
-	<item id="3954" type="EtcItem" name="Recipe: Blessed Spiritshot C">
+	<item id="3954" type="EtcItem" name="製作卷軸(祝福的魔靈彈-C級100%)">
 		<set name="icon" val="icon.etc_recipe_yellow_i00" />
 		<set name="default_action" val="recipe" />
 		<set name="etcitem_type" val="recipe" />
@@ -850,7 +850,7 @@
 		<set name="is_stackable" val="true" />
 		<set name="handler" val="Recipes" />
 	</item>
-	<item id="3955" type="EtcItem" name="Recipe: Blessed Spiritshot B">
+	<item id="3955" type="EtcItem" name="製作卷軸(祝福的魔靈彈-B級100%)">
 		<set name="icon" val="icon.etc_recipe_red_i00" />
 		<set name="default_action" val="recipe" />
 		<set name="etcitem_type" val="recipe" />
@@ -862,7 +862,7 @@
 		<set name="is_stackable" val="true" />
 		<set name="handler" val="Recipes" />
 	</item>
-	<item id="3956" type="EtcItem" name="Recipe: Blessed Spiritshot A">
+	<item id="3956" type="EtcItem" name="製作卷軸(祝福的魔靈彈-A級100%)">
 		<set name="icon" val="icon.etc_recipe_violet_i00" />
 		<set name="default_action" val="recipe" />
 		<set name="etcitem_type" val="recipe" />
@@ -874,7 +874,7 @@
 		<set name="is_stackable" val="true" />
 		<set name="handler" val="Recipes" />
 	</item>
-	<item id="3957" type="EtcItem" name="Recipe: Blessed Spiritshot S">
+	<item id="3957" type="EtcItem" name="製作卷軸(祝福的魔靈彈-S級100%)">
 		<set name="icon" val="icon.etc_recipe_black_i00" />
 		<set name="default_action" val="recipe" />
 		<set name="etcitem_type" val="recipe" />
@@ -886,7 +886,7 @@
 		<set name="is_stackable" val="true" />
 		<set name="handler" val="Recipes" />
 	</item>
-	<item id="3958" type="EtcItem" name="L2Day - Blessed Escape Effect">
+	<item id="3958" type="EtcItem" name="L2Day-祝福的返回卷軸">
 		<set name="icon" val="icon.etc_scroll_of_return_i01" />
 		<set name="default_action" val="skill_reduce" />
 		<set name="etcitem_type" val="scroll" />
@@ -897,7 +897,7 @@
 		<set name="handler" val="ItemSkills" />
 		<set name="item_skill" val="2036-2" />
 	</item>
-	<item id="3959" type="EtcItem" name="L2Day - Blessed Resurrection Effect">
+	<item id="3959" type="EtcItem" name="L2Day-祝福的復活卷軸">
 		<set name="icon" val="icon.etc_scroll_of_resurrection_i01" />
 		<set name="default_action" val="skill_reduce" />
 		<set name="etcitem_type" val="scroll" />
@@ -908,7 +908,7 @@
 		<set name="handler" val="ScrollOfResurrection" />
 		<set name="item_skill" val="2062-1" />
 	</item>
-	<item id="3960" type="EtcItem" name="Mercenary Posting Ticket (Sword/Stationary)">
+	<item id="3960" type="EtcItem" name="傭兵配置表(劍/固定)">
 		<set name="icon" val="icon.mticket_sword_fix_i00" />
 		<set name="etcitem_type" val="castle_guard" />
 		<set name="immediate_effect" val="1" />
@@ -917,7 +917,7 @@
 		<set name="is_stackable" val="true" />
 		<set name="handler" val="MercTicket" />
 	</item>
-	<item id="3961" type="EtcItem" name="Mercenary Posting Ticket (Spear/Stationary)">
+	<item id="3961" type="EtcItem" name="傭兵配置表(槍/固定)">
 		<set name="icon" val="icon.mticket_pole_fix_i00" />
 		<set name="etcitem_type" val="castle_guard" />
 		<set name="immediate_effect" val="1" />
@@ -926,7 +926,7 @@
 		<set name="is_stackable" val="true" />
 		<set name="handler" val="MercTicket" />
 	</item>
-	<item id="3962" type="EtcItem" name="Mercenary Posting Ticket (Bow/Stationary)">
+	<item id="3962" type="EtcItem" name="傭兵配置表(弓/固定)">
 		<set name="icon" val="icon.mticket_bow_fix_i00" />
 		<set name="etcitem_type" val="castle_guard" />
 		<set name="immediate_effect" val="1" />
@@ -935,7 +935,7 @@
 		<set name="is_stackable" val="true" />
 		<set name="handler" val="MercTicket" />
 	</item>
-	<item id="3963" type="EtcItem" name="Mercenary Posting Ticket (Cleric/Stationary)">
+	<item id="3963" type="EtcItem" name="傭兵配置表(牧師/固定)">
 		<set name="icon" val="icon.mticket_cleric_fix_i00" />
 		<set name="etcitem_type" val="castle_guard" />
 		<set name="immediate_effect" val="1" />
@@ -944,7 +944,7 @@
 		<set name="is_stackable" val="true" />
 		<set name="handler" val="MercTicket" />
 	</item>
-	<item id="3964" type="EtcItem" name="Mercenary Posting Ticket (Wizard/Stationary)">
+	<item id="3964" type="EtcItem" name="傭兵配置表(巫師/固定)">
 		<set name="icon" val="icon.mticket_wizard_fix_i00" />
 		<set name="etcitem_type" val="castle_guard" />
 		<set name="immediate_effect" val="1" />
@@ -953,7 +953,7 @@
 		<set name="is_stackable" val="true" />
 		<set name="handler" val="MercTicket" />
 	</item>
-	<item id="3965" type="EtcItem" name="Mercenary Posting Ticket (Sword/Mobile)">
+	<item id="3965" type="EtcItem" name="傭兵配置表(劍/移動)">
 		<set name="icon" val="icon.mticket_sword_move_i00" />
 		<set name="etcitem_type" val="castle_guard" />
 		<set name="immediate_effect" val="1" />
@@ -962,7 +962,7 @@
 		<set name="is_stackable" val="true" />
 		<set name="handler" val="MercTicket" />
 	</item>
-	<item id="3966" type="EtcItem" name="Mercenary Posting Ticket (Spear/Mobile)">
+	<item id="3966" type="EtcItem" name="傭兵配置表(槍/移動)">
 		<set name="icon" val="icon.mticket_pole_move_i00" />
 		<set name="etcitem_type" val="castle_guard" />
 		<set name="immediate_effect" val="1" />
@@ -971,7 +971,7 @@
 		<set name="is_stackable" val="true" />
 		<set name="handler" val="MercTicket" />
 	</item>
-	<item id="3967" type="EtcItem" name="Mercenary Posting Ticket (Bow/Mobile)">
+	<item id="3967" type="EtcItem" name="傭兵配置表(弓/移動)">
 		<set name="icon" val="icon.mticket_bow_move_i00" />
 		<set name="etcitem_type" val="castle_guard" />
 		<set name="immediate_effect" val="1" />
@@ -980,7 +980,7 @@
 		<set name="is_stackable" val="true" />
 		<set name="handler" val="MercTicket" />
 	</item>
-	<item id="3968" type="EtcItem" name="Mercenary Posting Ticket (Cleric/Mobile)">
+	<item id="3968" type="EtcItem" name="傭兵配置表(牧師/移動)">
 		<set name="icon" val="icon.mticket_cleric_move_i00" />
 		<set name="etcitem_type" val="castle_guard" />
 		<set name="immediate_effect" val="1" />
@@ -989,7 +989,7 @@
 		<set name="is_stackable" val="true" />
 		<set name="handler" val="MercTicket" />
 	</item>
-	<item id="3969" type="EtcItem" name="Mercenary Posting Ticket (Wizard/Mobile)">
+	<item id="3969" type="EtcItem" name="傭兵配置表(巫師/移動)">
 		<set name="icon" val="icon.mticket_wizard_move_i00" />
 		<set name="etcitem_type" val="castle_guard" />
 		<set name="immediate_effect" val="1" />
@@ -998,7 +998,7 @@
 		<set name="is_stackable" val="true" />
 		<set name="handler" val="MercTicket" />
 	</item>
-	<item id="3970" type="EtcItem" name="Mercenary Posting Ticket (Teleporter1)">
+	<item id="3970" type="EtcItem" name="傭兵配置表(傳送師1)">
 		<set name="icon" val="icon.mticket_teleporter_fix_i00" />
 		<set name="etcitem_type" val="castle_guard" />
 		<set name="immediate_effect" val="1" />
@@ -1007,7 +1007,7 @@
 		<set name="is_stackable" val="true" />
 		<set name="handler" val="MercTicket" />
 	</item>
-	<item id="3971" type="EtcItem" name="Mercenary Posting Ticket (Teleporter2)">
+	<item id="3971" type="EtcItem" name="傭兵配置表(傳送師2)">
 		<set name="icon" val="icon.mticket_teleporter_fix_i00" />
 		<set name="etcitem_type" val="castle_guard" />
 		<set name="immediate_effect" val="1" />
@@ -1016,7 +1016,7 @@
 		<set name="is_stackable" val="true" />
 		<set name="handler" val="MercTicket" />
 	</item>
-	<item id="3972" type="EtcItem" name="Mercenary Posting Ticket (Teleporter3)">
+	<item id="3972" type="EtcItem" name="傭兵配置表(傳送師3)">
 		<set name="icon" val="icon.mticket_teleporter_fix_i00" />
 		<set name="etcitem_type" val="castle_guard" />
 		<set name="immediate_effect" val="1" />
@@ -1025,7 +1025,7 @@
 		<set name="is_stackable" val="true" />
 		<set name="handler" val="MercTicket" />
 	</item>
-	<item id="3973" type="EtcItem" name="Mercenary Posting Ticket (Sword/Stationary)">
+	<item id="3973" type="EtcItem" name="傭兵配置表(劍/固定)">
 		<set name="icon" val="icon.mticket_sword_fix_i00" />
 		<set name="etcitem_type" val="castle_guard" />
 		<set name="immediate_effect" val="1" />
@@ -1034,7 +1034,7 @@
 		<set name="is_stackable" val="true" />
 		<set name="handler" val="MercTicket" />
 	</item>
-	<item id="3974" type="EtcItem" name="Mercenary Posting Ticket (Spear/Stationary)">
+	<item id="3974" type="EtcItem" name="傭兵配置表(槍/固定)">
 		<set name="icon" val="icon.mticket_pole_fix_i00" />
 		<set name="etcitem_type" val="castle_guard" />
 		<set name="immediate_effect" val="1" />
@@ -1043,7 +1043,7 @@
 		<set name="is_stackable" val="true" />
 		<set name="handler" val="MercTicket" />
 	</item>
-	<item id="3975" type="EtcItem" name="Mercenary Posting Ticket (Bow/Stationary)">
+	<item id="3975" type="EtcItem" name="傭兵配置表(弓/固定)">
 		<set name="icon" val="icon.mticket_bow_fix_i00" />
 		<set name="etcitem_type" val="castle_guard" />
 		<set name="immediate_effect" val="1" />
@@ -1052,7 +1052,7 @@
 		<set name="is_stackable" val="true" />
 		<set name="handler" val="MercTicket" />
 	</item>
-	<item id="3976" type="EtcItem" name="Mercenary Posting Ticket (Cleric/Stationary)">
+	<item id="3976" type="EtcItem" name="傭兵配置表(牧師/固定)">
 		<set name="icon" val="icon.mticket_cleric_fix_i00" />
 		<set name="etcitem_type" val="castle_guard" />
 		<set name="immediate_effect" val="1" />
@@ -1061,7 +1061,7 @@
 		<set name="is_stackable" val="true" />
 		<set name="handler" val="MercTicket" />
 	</item>
-	<item id="3977" type="EtcItem" name="Mercenary Posting Ticket (Wizard/Stationary)">
+	<item id="3977" type="EtcItem" name="傭兵配置表(巫師/固定)">
 		<set name="icon" val="icon.mticket_wizard_fix_i00" />
 		<set name="etcitem_type" val="castle_guard" />
 		<set name="immediate_effect" val="1" />
@@ -1070,7 +1070,7 @@
 		<set name="is_stackable" val="true" />
 		<set name="handler" val="MercTicket" />
 	</item>
-	<item id="3978" type="EtcItem" name="Mercenary Posting Ticket (Sword/Mobile)">
+	<item id="3978" type="EtcItem" name="傭兵配置表(劍/移動)">
 		<set name="icon" val="icon.mticket_sword_move_i00" />
 		<set name="etcitem_type" val="castle_guard" />
 		<set name="immediate_effect" val="1" />
@@ -1079,7 +1079,7 @@
 		<set name="is_stackable" val="true" />
 		<set name="handler" val="MercTicket" />
 	</item>
-	<item id="3979" type="EtcItem" name="Mercenary Posting Ticket (Spear/Mobile)">
+	<item id="3979" type="EtcItem" name="傭兵配置表(槍/移動)">
 		<set name="icon" val="icon.mticket_pole_move_i00" />
 		<set name="etcitem_type" val="castle_guard" />
 		<set name="immediate_effect" val="1" />
@@ -1088,7 +1088,7 @@
 		<set name="is_stackable" val="true" />
 		<set name="handler" val="MercTicket" />
 	</item>
-	<item id="3980" type="EtcItem" name="Mercenary Posting Ticket (Bow/Mobile)">
+	<item id="3980" type="EtcItem" name="傭兵配置表(弓/移動)">
 		<set name="icon" val="icon.mticket_bow_move_i00" />
 		<set name="etcitem_type" val="castle_guard" />
 		<set name="immediate_effect" val="1" />
@@ -1097,7 +1097,7 @@
 		<set name="is_stackable" val="true" />
 		<set name="handler" val="MercTicket" />
 	</item>
-	<item id="3981" type="EtcItem" name="Mercenary Posting Ticket (Cleric/Mobile)">
+	<item id="3981" type="EtcItem" name="傭兵配置表(牧師/移動)">
 		<set name="icon" val="icon.mticket_cleric_move_i00" />
 		<set name="etcitem_type" val="castle_guard" />
 		<set name="immediate_effect" val="1" />
@@ -1106,7 +1106,7 @@
 		<set name="is_stackable" val="true" />
 		<set name="handler" val="MercTicket" />
 	</item>
-	<item id="3982" type="EtcItem" name="Mercenary Posting Ticket (Wizard/Mobile)">
+	<item id="3982" type="EtcItem" name="傭兵配置表(巫師/移動)">
 		<set name="icon" val="icon.mticket_wizard_move_i00" />
 		<set name="etcitem_type" val="castle_guard" />
 		<set name="immediate_effect" val="1" />
@@ -1115,7 +1115,7 @@
 		<set name="is_stackable" val="true" />
 		<set name="handler" val="MercTicket" />
 	</item>
-	<item id="3983" type="EtcItem" name="Mercenary Posting Ticket (Teleporter1)">
+	<item id="3983" type="EtcItem" name="傭兵配置表(傳送師1)">
 		<set name="icon" val="icon.mticket_teleporter_fix_i00" />
 		<set name="etcitem_type" val="castle_guard" />
 		<set name="immediate_effect" val="1" />
@@ -1124,7 +1124,7 @@
 		<set name="is_stackable" val="true" />
 		<set name="handler" val="MercTicket" />
 	</item>
-	<item id="3984" type="EtcItem" name="Mercenary Posting Ticket (Teleporter2)">
+	<item id="3984" type="EtcItem" name="傭兵配置表(傳送師2)">
 		<set name="icon" val="icon.mticket_teleporter_fix_i00" />
 		<set name="etcitem_type" val="castle_guard" />
 		<set name="immediate_effect" val="1" />
@@ -1133,7 +1133,7 @@
 		<set name="is_stackable" val="true" />
 		<set name="handler" val="MercTicket" />
 	</item>
-	<item id="3985" type="EtcItem" name="Mercenary Posting Ticket (Teleporter3)">
+	<item id="3985" type="EtcItem" name="傭兵配置表(傳送師3)">
 		<set name="icon" val="icon.mticket_teleporter_fix_i00" />
 		<set name="etcitem_type" val="castle_guard" />
 		<set name="immediate_effect" val="1" />
@@ -1142,7 +1142,7 @@
 		<set name="is_stackable" val="true" />
 		<set name="handler" val="MercTicket" />
 	</item>
-	<item id="3986" type="EtcItem" name="Mercenary Posting Ticket (Sword/Stationary)">
+	<item id="3986" type="EtcItem" name="傭兵配置表(劍/固定)">
 		<set name="icon" val="icon.mticket_sword_fix_i00" />
 		<set name="etcitem_type" val="castle_guard" />
 		<set name="immediate_effect" val="1" />
@@ -1151,7 +1151,7 @@
 		<set name="is_stackable" val="true" />
 		<set name="handler" val="MercTicket" />
 	</item>
-	<item id="3987" type="EtcItem" name="Mercenary Posting Ticket (Spear/Stationary)">
+	<item id="3987" type="EtcItem" name="傭兵配置表(槍/固定)">
 		<set name="icon" val="icon.mticket_pole_fix_i00" />
 		<set name="etcitem_type" val="castle_guard" />
 		<set name="immediate_effect" val="1" />
@@ -1160,7 +1160,7 @@
 		<set name="is_stackable" val="true" />
 		<set name="handler" val="MercTicket" />
 	</item>
-	<item id="3988" type="EtcItem" name="Mercenary Posting Ticket (Bow/Stationary)">
+	<item id="3988" type="EtcItem" name="傭兵配置表(弓/固定)">
 		<set name="icon" val="icon.mticket_bow_fix_i00" />
 		<set name="etcitem_type" val="castle_guard" />
 		<set name="immediate_effect" val="1" />
@@ -1169,7 +1169,7 @@
 		<set name="is_stackable" val="true" />
 		<set name="handler" val="MercTicket" />
 	</item>
-	<item id="3989" type="EtcItem" name="Mercenary Posting Ticket (Cleric/Stationary)">
+	<item id="3989" type="EtcItem" name="傭兵配置表(牧師/固定)">
 		<set name="icon" val="icon.mticket_cleric_fix_i00" />
 		<set name="etcitem_type" val="castle_guard" />
 		<set name="immediate_effect" val="1" />
@@ -1178,7 +1178,7 @@
 		<set name="is_stackable" val="true" />
 		<set name="handler" val="MercTicket" />
 	</item>
-	<item id="3990" type="EtcItem" name="Mercenary Posting Ticket (Wizard/Stationary)">
+	<item id="3990" type="EtcItem" name="傭兵配置表(巫師/固定)">
 		<set name="icon" val="icon.mticket_wizard_fix_i00" />
 		<set name="etcitem_type" val="castle_guard" />
 		<set name="immediate_effect" val="1" />
@@ -1187,7 +1187,7 @@
 		<set name="is_stackable" val="true" />
 		<set name="handler" val="MercTicket" />
 	</item>
-	<item id="3991" type="EtcItem" name="Mercenary Posting Ticket (Sword/Mobile)">
+	<item id="3991" type="EtcItem" name="傭兵配置表(劍/移動)">
 		<set name="icon" val="icon.mticket_sword_move_i00" />
 		<set name="etcitem_type" val="castle_guard" />
 		<set name="immediate_effect" val="1" />
@@ -1196,7 +1196,7 @@
 		<set name="is_stackable" val="true" />
 		<set name="handler" val="MercTicket" />
 	</item>
-	<item id="3992" type="EtcItem" name="Mercenary Posting Ticket (Spear/Mobile)">
+	<item id="3992" type="EtcItem" name="傭兵配置表(槍/移動)">
 		<set name="icon" val="icon.mticket_pole_move_i00" />
 		<set name="etcitem_type" val="castle_guard" />
 		<set name="immediate_effect" val="1" />
@@ -1205,7 +1205,7 @@
 		<set name="is_stackable" val="true" />
 		<set name="handler" val="MercTicket" />
 	</item>
-	<item id="3993" type="EtcItem" name="Mercenary Posting Ticket (Bow/Mobile)">
+	<item id="3993" type="EtcItem" name="傭兵配置表(弓/移動)">
 		<set name="icon" val="icon.mticket_bow_move_i00" />
 		<set name="etcitem_type" val="castle_guard" />
 		<set name="immediate_effect" val="1" />
@@ -1214,7 +1214,7 @@
 		<set name="is_stackable" val="true" />
 		<set name="handler" val="MercTicket" />
 	</item>
-	<item id="3994" type="EtcItem" name="Mercenary Posting Ticket (Cleric/Mobile)">
+	<item id="3994" type="EtcItem" name="傭兵配置表(牧師/移動)">
 		<set name="icon" val="icon.mticket_cleric_move_i00" />
 		<set name="etcitem_type" val="castle_guard" />
 		<set name="immediate_effect" val="1" />
@@ -1223,7 +1223,7 @@
 		<set name="is_stackable" val="true" />
 		<set name="handler" val="MercTicket" />
 	</item>
-	<item id="3995" type="EtcItem" name="Mercenary Posting Ticket (Wizard/Mobile)">
+	<item id="3995" type="EtcItem" name="傭兵配置表(巫師/移動)">
 		<set name="icon" val="icon.mticket_wizard_move_i00" />
 		<set name="etcitem_type" val="castle_guard" />
 		<set name="immediate_effect" val="1" />
@@ -1232,7 +1232,7 @@
 		<set name="is_stackable" val="true" />
 		<set name="handler" val="MercTicket" />
 	</item>
-	<item id="3996" type="EtcItem" name="Mercenary Posting Ticket (Teleporter1)">
+	<item id="3996" type="EtcItem" name="傭兵配置表(傳送師1)">
 		<set name="icon" val="icon.mticket_teleporter_fix_i00" />
 		<set name="etcitem_type" val="castle_guard" />
 		<set name="immediate_effect" val="1" />
@@ -1241,7 +1241,7 @@
 		<set name="is_stackable" val="true" />
 		<set name="handler" val="MercTicket" />
 	</item>
-	<item id="3997" type="EtcItem" name="Mercenary Posting Ticket (Teleporter2)">
+	<item id="3997" type="EtcItem" name="傭兵配置表(傳送師2)">
 		<set name="icon" val="icon.mticket_teleporter_fix_i00" />
 		<set name="etcitem_type" val="castle_guard" />
 		<set name="immediate_effect" val="1" />
@@ -1250,7 +1250,7 @@
 		<set name="is_stackable" val="true" />
 		<set name="handler" val="MercTicket" />
 	</item>
-	<item id="3998" type="EtcItem" name="Mercenary Posting Ticket (Teleporter3)">
+	<item id="3998" type="EtcItem" name="傭兵配置表(傳送師3)">
 		<set name="icon" val="icon.mticket_teleporter_fix_i00" />
 		<set name="etcitem_type" val="castle_guard" />
 		<set name="immediate_effect" val="1" />
@@ -1259,7 +1259,7 @@
 		<set name="is_stackable" val="true" />
 		<set name="handler" val="MercTicket" />
 	</item>
-	<item id="3999" type="EtcItem" name="Mercenary Posting Ticket (Sword/Stationary)">
+	<item id="3999" type="EtcItem" name="傭兵配置表(劍/固定)">
 		<set name="icon" val="icon.mticket_sword_fix_i00" />
 		<set name="etcitem_type" val="castle_guard" />
 		<set name="immediate_effect" val="1" />

@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <list>
-	<item id="10600" type="EtcItem" name="Battle Manual - Soul Barrier">
+	<item id="10600" type="EtcItem" name="戰鬥教範-靈魂屏障">
 		<set name="icon" val="icon.etc_kamael_skill_book_i02" />
 		<set name="immediate_effect" val="1" />
 		<set name="material" val="paper" />
@@ -8,7 +8,7 @@
 		<set name="price" val="6750" />
 		<set name="is_stackable" val="true" />
 	</item>
-	<item id="10601" type="EtcItem" name="Battle Manual - Lightning Barrier">
+	<item id="10601" type="EtcItem" name="戰鬥教範-強雷屏障">
 		<set name="icon" val="icon.etc_kamael_skill_book_i03" />
 		<set name="immediate_effect" val="1" />
 		<set name="material" val="paper" />
@@ -16,7 +16,7 @@
 		<set name="price" val="40000" />
 		<set name="is_stackable" val="true" />
 	</item>
-	<item id="10602" type="EtcItem" name="Battle Manual - Soul Strike">
+	<item id="10602" type="EtcItem" name="戰鬥教範-魂靈強擊">
 		<set name="icon" val="icon.etc_kamael_skill_book_i03" />
 		<set name="immediate_effect" val="1" />
 		<set name="material" val="paper" />
@@ -24,7 +24,7 @@
 		<set name="price" val="11600" />
 		<set name="is_stackable" val="true" />
 	</item>
-	<item id="10603" type="EtcItem" name="Battle Manual - Betrayal Mark">
+	<item id="10603" type="EtcItem" name="戰鬥教範-背叛印記">
 		<set name="icon" val="icon.etc_kamael_skill_book_i03" />
 		<set name="immediate_effect" val="1" />
 		<set name="material" val="paper" />
@@ -32,7 +32,7 @@
 		<set name="price" val="30000" />
 		<set name="is_stackable" val="true" />
 	</item>
-	<item id="10604" type="EtcItem" name="Battle Manual - Rush Impact">
+	<item id="10604" type="EtcItem" name="戰鬥教範-疾襲衝擊">
 		<set name="icon" val="icon.etc_kamael_skill_book_i03" />
 		<set name="immediate_effect" val="1" />
 		<set name="material" val="paper" />
@@ -40,7 +40,7 @@
 		<set name="price" val="30000" />
 		<set name="is_stackable" val="true" />
 	</item>
-	<item id="10605" type="EtcItem" name="Battle Manual - Mass Disarm">
+	<item id="10605" type="EtcItem" name="戰鬥教範-集體卸除武器">
 		<set name="icon" val="icon.etc_kamael_skill_book_i03" />
 		<set name="immediate_effect" val="1" />
 		<set name="material" val="paper" />
@@ -48,7 +48,7 @@
 		<set name="price" val="30000" />
 		<set name="is_stackable" val="true" />
 	</item>
-	<item id="10606" type="Armor" name="Agathion Seal Bracelet - Rudolph">
+	<item id="10606" type="Armor" name="壺精封印手鐲-魯道夫">
 		<set name="icon" val="icon.etc_rbracelet_aga_agit_i00" />
 		<set name="default_action" val="equip" />
 		<set name="bodypart" val="lbracelet" />
@@ -61,7 +61,7 @@
 		<set name="unequip_skill" val="3267-1" />
 		<set name="item_skill" val="5537-1;3425-1;3267-1" />
 	</item>
-	<item id="10607" type="EtcItem" name="Agathion Seal Bracelet - Rudolph">
+	<item id="10607" type="EtcItem" name="壺精封印手鐲-魯道夫">
 		<set name="icon" val="icon.etc_rbracelet_aga_agit_i00" />
 		<set name="immediate_effect" val="1" />
 		<set name="material" val="paper" />
@@ -70,7 +70,7 @@
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
 	</item>
-	<item id="10608" type="EtcItem" name="Amulet - Chant of Combat">
+	<item id="10608" type="EtcItem" name="護身符-戰鬥頌歌">
 		<set name="icon" val="icon.etc_orcish_talisman_i00" />
 		<set name="default_action" val="skill_reduce" />
 		<set name="material" val="paper" />
@@ -80,7 +80,7 @@
 		<set name="handler" val="ItemSkills" />
 		<set name="item_skill" val="2505-1" />
 	</item>
-	<item id="10609" type="EtcItem" name="Amulet - Chant of Critical Attack">
+	<item id="10609" type="EtcItem" name="護身符-致命攻擊頌歌">
 		<set name="icon" val="icon.etc_orcish_talisman_i00" />
 		<set name="default_action" val="skill_reduce" />
 		<set name="material" val="paper" />
@@ -90,7 +90,7 @@
 		<set name="handler" val="ItemSkills" />
 		<set name="item_skill" val="2506-1" />
 	</item>
-	<item id="10610" type="EtcItem" name="Amulet - Chant of Blood Awakening">
+	<item id="10610" type="EtcItem" name="護身符-血之覺醒頌歌">
 		<set name="icon" val="icon.etc_orcish_talisman_i00" />
 		<set name="default_action" val="skill_reduce" />
 		<set name="material" val="paper" />
@@ -100,7 +100,7 @@
 		<set name="handler" val="ItemSkills" />
 		<set name="item_skill" val="2507-1" />
 	</item>
-	<item id="10611" type="EtcItem" name="Snow Fenrir Necklace">
+	<item id="10611" type="EtcItem" name="白座狼項鍊">
 		<set name="icon" val="icon.etc_summon_wolf_r_01" />
 		<set name="default_action" val="skill_maintain" />
 		<set name="etcitem_type" val="pet_collar" />
@@ -121,7 +121,7 @@
 			<player olympiad="false" />
 		</cond>
 	</item>
-	<item id="10612" type="EtcItem" name="Certificate - Master Ability">
+	<item id="10612" type="EtcItem" name="認證書-副職業專家">
 		<set name="icon" val="icon.etc_all_subjob_skillbook_i00" />
 		<set name="immediate_effect" val="1" />
 		<set name="material" val="paper" />
@@ -133,7 +133,7 @@
 		<set name="is_depositable" val="false" />
 		<set name="is_stackable" val="true" />
 	</item>
-	<item id="10613" type="Armor" name="Bird Nest (Event)">
+	<item id="10613" type="Armor" name="鳥窩帽-活動用">
 		<set name="icon" val="icon.accessory_nest_hat_i00" />
 		<set name="default_action" val="equip" />
 		<set name="bodypart" val="hairall" />
@@ -144,7 +144,7 @@
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
 	</item>
-	<item id="10614" type="Armor" name="White Wool Hat (Event)">
+	<item id="10614" type="Armor" name="白羊帽-活動用">
 		<set name="icon" val="icon.accessory_sheep_cap_white_i00" />
 		<set name="default_action" val="equip" />
 		<set name="bodypart" val="hairall" />
@@ -155,7 +155,7 @@
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
 	</item>
-	<item id="10615" type="Armor" name="Black Wool Hat (Event)">
+	<item id="10615" type="Armor" name="黑羊帽-活動用">
 		<set name="icon" val="icon.accessory_sheep_cap_black_i00" />
 		<set name="default_action" val="equip" />
 		<set name="bodypart" val="hairall" />
@@ -166,7 +166,7 @@
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
 	</item>
-	<item id="10616" type="Armor" name="Straw Hat (Event)">
+	<item id="10616" type="Armor" name="草帽-活動用">
 		<set name="icon" val="icon.accessory_straw_hat_i00" />
 		<set name="default_action" val="equip" />
 		<set name="bodypart" val="hairall" />
@@ -177,7 +177,7 @@
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
 	</item>
-	<item id="10617" type="Armor" name="Ant Hat - Year 2008">
+	<item id="10617" type="Armor" name="螞蟻帽">
 		<set name="icon" val="icon.accessory_ant_cap_i00" />
 		<set name="default_action" val="equip" />
 		<set name="bodypart" val="hairall" />
@@ -188,7 +188,7 @@
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
 	</item>
-	<item id="10618" type="Armor" name="Ol Mahum Hat - Year 2008">
+	<item id="10618" type="Armor" name="豺狼帽">
 		<set name="icon" val="icon.accessory_ol_mahum_cap_i00" />
 		<set name="default_action" val="equip" />
 		<set name="bodypart" val="hairall" />
@@ -199,7 +199,7 @@
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
 	</item>
-	<item id="10619" type="Armor" name="Wolf Hat - Year 2008">
+	<item id="10619" type="Armor" name="狼帽">
 		<set name="icon" val="icon.accessory_wolf_cap_i00" />
 		<set name="default_action" val="equip" />
 		<set name="bodypart" val="hairall" />
@@ -210,7 +210,7 @@
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
 	</item>
-	<item id="10620" type="Armor" name="Shadow Item - Ant Hat - Blessed Scroll of Escape">
+	<item id="10620" type="Armor" name="幻象裝備-螞蟻帽">
 		<set name="icon" val="icon.accessory_ant_cap_i00" />
 		<set name="default_action" val="equip" />
 		<set name="bodypart" val="hairall" />
@@ -224,7 +224,7 @@
 		<set name="item_skill" val="3264-1" />
 		<set name="duration" val="1440" />
 	</item>
-	<item id="10621" type="Armor" name="Shadow Item - Ant Hat - Blessed Scroll of Resurrection">
+	<item id="10621" type="Armor" name="幻象裝備-螞蟻帽">
 		<set name="icon" val="icon.accessory_ant_cap_i00" />
 		<set name="default_action" val="equip" />
 		<set name="bodypart" val="hairall" />
@@ -238,7 +238,7 @@
 		<set name="item_skill" val="3263-1" />
 		<set name="duration" val="1440" />
 	</item>
-	<item id="10622" type="Armor" name="Shadow Item - Ant Hat - Firecracker">
+	<item id="10622" type="Armor" name="幻象裝備-螞蟻帽">
 		<set name="icon" val="icon.accessory_ant_cap_i00" />
 		<set name="default_action" val="equip" />
 		<set name="bodypart" val="hairall" />
@@ -252,7 +252,7 @@
 		<set name="item_skill" val="3266-1" />
 		<set name="duration" val="1440" />
 	</item>
-	<item id="10623" type="Armor" name="Shadow Item - Ant Hat - Big Head">
+	<item id="10623" type="Armor" name="幻象裝備-螞蟻帽">
 		<set name="icon" val="icon.accessory_ant_cap_i00" />
 		<set name="default_action" val="equip" />
 		<set name="bodypart" val="hairall" />
@@ -266,7 +266,7 @@
 		<set name="item_skill" val="3265-1" />
 		<set name="duration" val="1440" />
 	</item>
-	<item id="10624" type="Armor" name="Shadow Item - Ol Mahum Hat - Blessed Scroll of Escape">
+	<item id="10624" type="Armor" name="幻象裝備-豺狼帽">
 		<set name="icon" val="icon.accessory_ol_mahum_cap_i00" />
 		<set name="default_action" val="equip" />
 		<set name="bodypart" val="hairall" />
@@ -280,7 +280,7 @@
 		<set name="item_skill" val="3264-1" />
 		<set name="duration" val="1440" />
 	</item>
-	<item id="10625" type="Armor" name="Shadow Item - Ol Mahum Hat - Blessed Scroll of Resurrection">
+	<item id="10625" type="Armor" name="幻象裝備-豺狼帽">
 		<set name="icon" val="icon.accessory_ol_mahum_cap_i00" />
 		<set name="default_action" val="equip" />
 		<set name="bodypart" val="hairall" />
@@ -294,7 +294,7 @@
 		<set name="item_skill" val="3263-1" />
 		<set name="duration" val="1440" />
 	</item>
-	<item id="10626" type="Armor" name="Shadow Item - Ol Mahum Hat - Firecracker">
+	<item id="10626" type="Armor" name="幻象裝備-豺狼帽">
 		<set name="icon" val="icon.accessory_ol_mahum_cap_i00" />
 		<set name="default_action" val="equip" />
 		<set name="bodypart" val="hairall" />
@@ -308,7 +308,7 @@
 		<set name="item_skill" val="3266-1" />
 		<set name="duration" val="1440" />
 	</item>
-	<item id="10627" type="Armor" name="Shadow Item - Ol Mahum Hat - Big Head">
+	<item id="10627" type="Armor" name="幻象裝備-豺狼帽">
 		<set name="icon" val="icon.accessory_ol_mahum_cap_i00" />
 		<set name="default_action" val="equip" />
 		<set name="bodypart" val="hairall" />
@@ -322,7 +322,7 @@
 		<set name="item_skill" val="3265-1" />
 		<set name="duration" val="1440" />
 	</item>
-	<item id="10628" type="Armor" name="Shadow Item - Wolf Hat - Blessed Scroll of Escape">
+	<item id="10628" type="Armor" name="幻象裝備-狼帽">
 		<set name="icon" val="icon.accessory_wolf_cap_i00" />
 		<set name="default_action" val="equip" />
 		<set name="bodypart" val="hairall" />
@@ -336,7 +336,7 @@
 		<set name="item_skill" val="3264-1" />
 		<set name="duration" val="1440" />
 	</item>
-	<item id="10629" type="Armor" name="Shadow Item - Wolf Hat - Blessed Scroll of Resurrection">
+	<item id="10629" type="Armor" name="幻象裝備-狼帽">
 		<set name="icon" val="icon.accessory_wolf_cap_i00" />
 		<set name="default_action" val="equip" />
 		<set name="bodypart" val="hairall" />
@@ -350,7 +350,7 @@
 		<set name="item_skill" val="3263-1" />
 		<set name="duration" val="1440" />
 	</item>
-	<item id="10630" type="Armor" name="Shadow Item - Wolf Hat - Firecracker">
+	<item id="10630" type="Armor" name="幻象裝備-狼帽">
 		<set name="icon" val="icon.accessory_wolf_cap_i00" />
 		<set name="default_action" val="equip" />
 		<set name="bodypart" val="hairall" />
@@ -364,7 +364,7 @@
 		<set name="item_skill" val="3266-1" />
 		<set name="duration" val="1440" />
 	</item>
-	<item id="10631" type="Armor" name="Shadow Item - Wolf Hat - Big Head">
+	<item id="10631" type="Armor" name="幻象裝備-狼帽">
 		<set name="icon" val="icon.accessory_wolf_cap_i00" />
 		<set name="default_action" val="equip" />
 		<set name="bodypart" val="hairall" />
@@ -378,7 +378,7 @@
 		<set name="item_skill" val="3265-1" />
 		<set name="duration" val="1440" />
 	</item>
-	<item id="10632" type="EtcItem" name="Wondrous Cubic">
+	<item id="10632" type="EtcItem" name="神祕的晶體">
 		<set name="icon" val="icon.cube_event_i00" />
 		<set name="default_action" val="skill_reduce" />
 		<set name="etcitem_type" val="elixir" />
@@ -391,48 +391,48 @@
 		<set name="handler" val="ItemSkills" />
 		<set name="item_skill" val="2510-1" />
 	</item>
-	<item id="10633" type="EtcItem" name="Rough Blue Cubic Piece">
+	<item id="10633" type="EtcItem" name="粗糙的藍色晶體碎片">
 		<set name="icon" val="icon.event_cubic_piece_i02" />
 		<set name="immediate_effect" val="1" />
 		<set name="material" val="paper" />
 		<set name="is_stackable" val="true" />
 	</item>
-	<item id="10634" type="EtcItem" name="Rough Yellow Cubic Piece">
+	<item id="10634" type="EtcItem" name="粗糙的黃色晶體碎片">
 		<set name="icon" val="icon.event_cubic_piece_i01" />
 		<set name="immediate_effect" val="1" />
 		<set name="material" val="paper" />
 		<set name="is_stackable" val="true" />
 	</item>
-	<item id="10635" type="EtcItem" name="Rough Green Cubic Piece">
+	<item id="10635" type="EtcItem" name="粗糙的綠色晶體碎片">
 		<set name="icon" val="icon.event_cubic_piece_i00" />
 		<set name="immediate_effect" val="1" />
 		<set name="material" val="paper" />
 		<set name="is_stackable" val="true" />
 	</item>
-	<item id="10636" type="EtcItem" name="Rough Red Cubic Piece">
+	<item id="10636" type="EtcItem" name="粗糙的紅色晶體碎片">
 		<set name="icon" val="icon.event_cubic_piece_i03" />
 		<set name="immediate_effect" val="1" />
 		<set name="material" val="paper" />
 		<set name="is_stackable" val="true" />
 	</item>
-	<item id="10637" type="EtcItem" name="Rough White Cubic Piece">
+	<item id="10637" type="EtcItem" name="粗糙的白色晶體碎片">
 		<set name="icon" val="icon.event_cubic_piece_i05" />
 		<set name="immediate_effect" val="1" />
 		<set name="material" val="paper" />
 		<set name="is_stackable" val="true" />
 	</item>
-	<item id="10638" type="EtcItem" name="Rough Black Cubic Piece">
+	<item id="10638" type="EtcItem" name="粗糙的黑色晶體碎片">
 		<set name="icon" val="icon.event_cubic_piece_i04" />
 		<set name="immediate_effect" val="1" />
 		<set name="material" val="paper" />
 		<set name="is_stackable" val="true" />
 	</item>
-	<item id="10639" type="EtcItem" name="Mouse Coin">
+	<item id="10639" type="EtcItem" name="鼠幣">
 		<set name="icon" val="icon.mouse_coin_i00" />
 		<set name="material" val="paper" />
 		<set name="is_stackable" val="true" />
 	</item>
-	<item id="10640" type="EtcItem" name="Cloned Squash Seed">
+	<item id="10640" type="EtcItem" name="複製的葫蘆種子">
 		<set name="icon" val="icon.etc_gourd_i00" />
 		<set name="default_action" val="skill_reduce" />
 		<set name="material" val="paper" />
@@ -445,7 +445,7 @@
 		<set name="handler" val="ItemSkills" />
 		<set name="item_skill" val="2508-1" />
 	</item>
-	<item id="10641" type="EtcItem" name="Cloned Large Squash Seed">
+	<item id="10641" type="EtcItem" name="複製的大葫蘆種子">
 		<set name="icon" val="icon.etc_gourd_i01" />
 		<set name="default_action" val="skill_reduce" />
 		<set name="material" val="paper" />
@@ -458,37 +458,37 @@
 		<set name="handler" val="ItemSkills" />
 		<set name="item_skill" val="2509-1" />
 	</item>
-	<item id="10642" type="EtcItem" name="Fine Blue Cubic Piece">
+	<item id="10642" type="EtcItem" name="細緻的藍色晶體碎片">
 		<set name="icon" val="icon.event_cubic_piece_i02" />
 		<set name="immediate_effect" val="1" />
 		<set name="material" val="paper" />
 		<set name="is_stackable" val="true" />
 	</item>
-	<item id="10643" type="EtcItem" name="Fine Yellow Cubic Piece">
+	<item id="10643" type="EtcItem" name="細緻的黃色晶體碎片">
 		<set name="icon" val="icon.event_cubic_piece_i01" />
 		<set name="immediate_effect" val="1" />
 		<set name="material" val="paper" />
 		<set name="is_stackable" val="true" />
 	</item>
-	<item id="10644" type="EtcItem" name="Fine Green Cubic Piece">
+	<item id="10644" type="EtcItem" name="細緻的綠色晶體碎片">
 		<set name="icon" val="icon.event_cubic_piece_i00" />
 		<set name="immediate_effect" val="1" />
 		<set name="material" val="paper" />
 		<set name="is_stackable" val="true" />
 	</item>
-	<item id="10645" type="EtcItem" name="Fine Red Cubic Piece">
+	<item id="10645" type="EtcItem" name="細緻的紅色晶體碎片">
 		<set name="icon" val="icon.event_cubic_piece_i03" />
 		<set name="immediate_effect" val="1" />
 		<set name="material" val="paper" />
 		<set name="is_stackable" val="true" />
 	</item>
-	<item id="10646" type="EtcItem" name="Fine White Cubic Piece">
+	<item id="10646" type="EtcItem" name="細緻的白色晶體碎片">
 		<set name="icon" val="icon.event_cubic_piece_i05" />
 		<set name="immediate_effect" val="1" />
 		<set name="material" val="paper" />
 		<set name="is_stackable" val="true" />
 	</item>
-	<item id="10647" type="EtcItem" name="Fine Black Cubic Piece">
+	<item id="10647" type="EtcItem" name="細緻的黑色晶體碎片">
 		<set name="icon" val="icon.event_cubic_piece_i04" />
 		<set name="immediate_effect" val="1" />
 		<set name="material" val="paper" />
@@ -503,7 +503,7 @@
 		<set name="is_sellable" val="false" />
 		<set name="is_stackable" val="true" />
 	</item>
-	<item id="10649" type="EtcItem" name="Feather of Blessing">
+	<item id="10649" type="EtcItem" name="祝福的羽毛">
 		<set name="icon" val="icon.blessed_feather_i00" />
 		<set name="material" val="liquid" />
 		<set name="is_tradable" val="false" />
@@ -512,7 +512,7 @@
 		<set name="is_sellable" val="false" />
 		<set name="is_stackable" val="true" />
 	</item>
-	<item id="10650" type="EtcItem" name="Adventurer's Scroll of Escape">
+	<item id="10650" type="EtcItem" name="冒險家專用返回卷軸">
 		<set name="icon" val="icon.etc_scroll_of_return_i00" />
 		<set name="default_action" val="skill_reduce" />
 		<set name="etcitem_type" val="scroll" />
@@ -526,7 +526,7 @@
 		<set name="handler" val="ItemSkills" />
 		<set name="item_skill" val="2531-1" />
 	</item>
-	<item id="10651" type="EtcItem" name="Teleporter Transformation Scroll (Event)">
+	<item id="10651" type="EtcItem" name="傳送師變身卷軸-活動用">
 		<set name="icon" val="icon.etc_trans_4f_s_b_01" />
 		<set name="immediate_effect" val="1" />
 		<set name="material" val="paper" />
@@ -534,7 +534,7 @@
 		<set name="price" val="21600" />
 		<set name="is_stackable" val="true" />
 	</item>
-	<item id="10652" type="EtcItem" name="Teleporter's Tear (Event)">
+	<item id="10652" type="EtcItem" name="傳送師之淚-活動用">
 		<set name="icon" val="icon.etc_trans_4f_s_b_01" />
 		<set name="immediate_effect" val="1" />
 		<set name="material" val="paper" />
@@ -542,7 +542,7 @@
 		<set name="price" val="18000" />
 		<set name="is_stackable" val="true" />
 	</item>
-	<item id="10653" type="EtcItem" name="Guard Transformation Scroll (Event)">
+	<item id="10653" type="EtcItem" name="警衛兵變身卷軸-活動用">
 		<set name="icon" val="icon.etc_trans_4f_s_b_01" />
 		<set name="immediate_effect" val="1" />
 		<set name="material" val="paper" />
@@ -550,7 +550,7 @@
 		<set name="price" val="21600" />
 		<set name="is_stackable" val="true" />
 	</item>
-	<item id="10654" type="EtcItem" name="Guard Edict (Event)">
+	<item id="10654" type="EtcItem" name="警衛兵佈告文-活動用">
 		<set name="icon" val="icon.etc_trans_4f_s_b_01" />
 		<set name="immediate_effect" val="1" />
 		<set name="material" val="paper" />
@@ -558,7 +558,7 @@
 		<set name="price" val="18000" />
 		<set name="is_stackable" val="true" />
 	</item>
-	<item id="10655" type="EtcItem" name="Herb of Vampiric Rage">
+	<item id="10655" type="EtcItem" name="生命力吸收藥草">
 		<set name="immediate_effect" val="1" />
 		<set name="ex_immediate_effect" val="1" />
 		<set name="material" val="paper" />
@@ -566,7 +566,7 @@
 		<set name="handler" val="ItemSkills" />
 		<set name="item_skill" val="2512-1" />
 	</item>
-	<item id="10656" type="EtcItem" name="Herb of Critical Attack - Power">
+	<item id="10656" type="EtcItem" name="致命攻擊藥草-威力">
 		<set name="immediate_effect" val="1" />
 		<set name="ex_immediate_effect" val="1" />
 		<set name="material" val="paper" />
@@ -574,7 +574,7 @@
 		<set name="handler" val="ItemSkills" />
 		<set name="item_skill" val="2514-1" />
 	</item>
-	<item id="10657" type="EtcItem" name="Herb of Doubt">
+	<item id="10657" type="EtcItem" name="疑問藥草">
 		<set name="immediate_effect" val="1" />
 		<set name="ex_immediate_effect" val="1" />
 		<set name="material" val="paper" />
@@ -582,7 +582,7 @@
 		<set name="handler" val="ItemSkills" />
 		<set name="item_skill" val="2513-1" />
 	</item>
-	<item id="10658" type="Armor" name="Pet Accessory (not used)">
+	<item id="10658" type="Armor" name="寵物飾品(無用)">
 		<set name="icon" val="icon.etc_prefect_belt_i00" />
 		<set name="default_action" val="equip" />
 		<set name="bodypart" val="rfinger;lfinger" />
@@ -595,7 +595,7 @@
 			<add order="0x10" stat="mDef" val="7" />
 		</for>
 	</item>
-	<item id="10659" type="Armor" name="Agathion Summon Bracelet - Monkey">
+	<item id="10659" type="Armor" name="壺精召喚手鐲-猴子">
 		<set name="icon" val="icon.etc_rbracelet_aga_agit_i00" />
 		<set name="default_action" val="equip" />
 		<set name="bodypart" val="lbracelet" />
@@ -609,7 +609,7 @@
 		<set name="unequip_skill" val="3267-1" />
 		<set name="item_skill" val="8254-1;3267-1;5951-1;5953-1" />
 	</item>
-	<item id="10660" type="Armor" name="Agathion Summon Bracelet - Griffin">
+	<item id="10660" type="Armor" name="壺精召喚手鐲-獅鷲">
 		<set name="icon" val="icon.etc_rbracelet_aga_agit_i00" />
 		<set name="default_action" val="equip" />
 		<set name="bodypart" val="lbracelet" />
@@ -623,7 +623,7 @@
 		<set name="unequip_skill" val="3267-1" />
 		<set name="item_skill" val="8255-1;3267-1;5952-1;5953-1" />
 	</item>
-	<item id="10661" type="EtcItem" name="Pet Summon Item - Warrior Use">
+	<item id="10661" type="EtcItem" name="寵物召喚道具-戰士用">
 		<set name="icon" val="icon.accessory_necklace_of_pet_i00" />
 		<set name="default_action" val="skill_maintain" />
 		<set name="etcitem_type" val="pet_collar" />
@@ -632,7 +632,7 @@
 		<set name="item_skill" val="2046-1" />
 		<set name="use_condition" val="{{uc_transmode_exclude;{tt_flying;tt_pure_stat}}}" />
 	</item>
-	<item id="10662" type="EtcItem" name="Pet Summon Item - Wizard Use">
+	<item id="10662" type="EtcItem" name="寵物召喚道具-法師用">
 		<set name="icon" val="icon.accessory_necklace_of_pet_i01" />
 		<set name="default_action" val="skill_maintain" />
 		<set name="etcitem_type" val="pet_collar" />
@@ -641,7 +641,7 @@
 		<set name="item_skill" val="2046-1" />
 		<set name="use_condition" val="{{uc_transmode_exclude;{tt_flying;tt_pure_stat}}}" />
 	</item>
-	<item id="10663" type="EtcItem" name="Pet Summon Item - Mixing Use">
+	<item id="10663" type="EtcItem" name="寵物召喚道具-混合用">
 		<set name="icon" val="icon.accessory_necklace_of_pet_i02" />
 		<set name="default_action" val="skill_maintain" />
 		<set name="etcitem_type" val="pet_collar" />
@@ -650,7 +650,7 @@
 		<set name="item_skill" val="2046-1" />
 		<set name="use_condition" val="{{uc_transmode_exclude;{tt_flying;tt_pure_stat}}}" />
 	</item>
-	<item id="10664" type="EtcItem" name="Pet Summon Item - Warrior Pet">
+	<item id="10664" type="EtcItem" name="寵物召喚道具-戰士寵物">
 		<set name="icon" val="icon.accessory_necklace_of_pet_i00" />
 		<set name="default_action" val="skill_maintain" />
 		<set name="etcitem_type" val="pet_collar" />
@@ -659,7 +659,7 @@
 		<set name="item_skill" val="2046-1" />
 		<set name="use_condition" val="{{uc_transmode_exclude;{tt_flying;tt_pure_stat}}}" />
 	</item>
-	<item id="10665" type="EtcItem" name="Pet Summon Item - Warrior Pet">
+	<item id="10665" type="EtcItem" name="寵物召喚道具-戰士寵物">
 		<set name="icon" val="icon.accessory_necklace_of_pet_i01" />
 		<set name="default_action" val="skill_maintain" />
 		<set name="etcitem_type" val="pet_collar" />
@@ -668,7 +668,7 @@
 		<set name="item_skill" val="2046-1" />
 		<set name="use_condition" val="{{uc_transmode_exclude;{tt_flying;tt_pure_stat}}}" />
 	</item>
-	<item id="10666" type="EtcItem" name="Potion of Replenish Energy">
+	<item id="10666" type="EtcItem" name="活力充能藥劑">
 		<set name="icon" val="icon.etc_potion_red_i00" />
 		<set name="default_action" val="skill_reduce" />
 		<set name="etcitem_type" val="potion" />
@@ -678,7 +678,7 @@
 		<set name="price" val="40" />
 		<set name="is_stackable" val="true" />
 	</item>
-	<item id="10667" type="Weapon" name="Sirra's Blade {PvP} - Haste">
+	<item id="10667" type="Weapon" name="希露冰刃 {對戰用}">
 		<set name="icon" val="icon.weapon_sirr_blade_i01" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="sword" />
@@ -708,7 +708,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="10668" type="Weapon" name="Sirra's Blade {PvP} - Health">
+	<item id="10668" type="Weapon" name="希露冰刃 {對戰用}">
 		<set name="icon" val="icon.weapon_sirr_blade_i01" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="sword" />
@@ -738,7 +738,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="10669" type="Weapon" name="Sirra's Blade {PvP} - Critical Poison">
+	<item id="10669" type="Weapon" name="希露冰刃 {對戰用}">
 		<set name="icon" val="icon.weapon_sirr_blade_i01" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="sword" />
@@ -769,7 +769,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="10670" type="Weapon" name="Sword of Ipos {PvP} - Focus">
+	<item id="10670" type="Weapon" name="伊波斯巨劍 {對戰用}">
 		<set name="icon" val="icon.weapon_sword_of_ipos_i01" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="bigsword" />
@@ -799,7 +799,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="10671" type="Weapon" name="Sword of Ipos {PvP} - Haste">
+	<item id="10671" type="Weapon" name="伊波斯巨劍 {對戰用}">
 		<set name="icon" val="icon.weapon_sword_of_ipos_i01" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="bigsword" />
@@ -829,7 +829,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="10672" type="Weapon" name="Sword of Ipos {PvP} - Health">
+	<item id="10672" type="Weapon" name="伊波斯巨劍 {對戰用}">
 		<set name="icon" val="icon.weapon_sword_of_ipos_i01" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="bigsword" />
@@ -859,7 +859,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="10673" type="Weapon" name="Barakiel's Axe {PvP} - Health">
+	<item id="10673" type="Weapon" name="貝拉凱爾聖斧 {對戰用}">
 		<set name="icon" val="icon.weapon_barakiel_axe_i01" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="blunt" />
@@ -891,7 +891,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="10674" type="Weapon" name="Barakiel's Axe {PvP} - Haste">
+	<item id="10674" type="Weapon" name="貝拉凱爾聖斧 {對戰用}">
 		<set name="icon" val="icon.weapon_barakiel_axe_i01" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="blunt" />
@@ -923,7 +923,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="10675" type="Weapon" name="Barakiel's Axe {PvP} - Focus">
+	<item id="10675" type="Weapon" name="貝拉凱爾聖斧 {對戰用}">
 		<set name="icon" val="icon.weapon_barakiel_axe_i01" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="blunt" />
@@ -955,7 +955,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="10676" type="Weapon" name="Behemoth's Tuning Fork {PvP} - Focus">
+	<item id="10676" type="Weapon" name="貝希莫斯巨叉 {對戰用}">
 		<set name="icon" val="icon.weapon_tuning_fork_of_behemoth_i01" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="bigblunt" />
@@ -987,7 +987,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="10677" type="Weapon" name="Behemoth's Tuning Fork {PvP} - Health">
+	<item id="10677" type="Weapon" name="貝希莫斯巨叉 {對戰用}">
 		<set name="icon" val="icon.weapon_tuning_fork_of_behemoth_i01" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="bigblunt" />
@@ -1019,7 +1019,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="10678" type="Weapon" name="Behemoth's Tuning Fork {PvP} - Anger">
+	<item id="10678" type="Weapon" name="貝希莫斯巨叉 {對戰用}">
 		<set name="icon" val="icon.weapon_tuning_fork_of_behemoth_i01" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="bigblunt" />
@@ -1051,7 +1051,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="10679" type="Weapon" name="Naga Storm {PvP} - Focus">
+	<item id="10679" type="Weapon" name="那卡風暴 {對戰用}">
 		<set name="icon" val="icon.weapon_naga_storm_i01" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="dagger" />
@@ -1083,7 +1083,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="10680" type="Weapon" name="Naga Storm {PvP} - Critical Damage">
+	<item id="10680" type="Weapon" name="那卡風暴 {對戰用}">
 		<set name="icon" val="icon.weapon_naga_storm_i01" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="dagger" />
@@ -1115,7 +1115,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="10681" type="Weapon" name="Naga Storm {PvP} - Back Blow">
+	<item id="10681" type="Weapon" name="那卡風暴 {對戰用}">
 		<set name="icon" val="icon.weapon_naga_storm_i01" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="dagger" />
@@ -1147,7 +1147,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="10682" type="Weapon" name="Tiphon's Spear {PvP} - Critical Stun">
+	<item id="10682" type="Weapon" name="岱依封長戟 {對戰用}">
 		<set name="icon" val="icon.weapon_tiphon_spear_i01" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="pole" />
@@ -1180,7 +1180,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="10683" type="Weapon" name="Tiphon's Spear {PvP} - Long Blow">
+	<item id="10683" type="Weapon" name="岱依封長戟 {對戰用}">
 		<set name="icon" val="icon.weapon_tiphon_spear_i01" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="pole" />
@@ -1213,7 +1213,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="10684" type="Weapon" name="Tiphon's Spear {PvP} - Wild Blow">
+	<item id="10684" type="Weapon" name="岱依封長戟 {對戰用}">
 		<set name="icon" val="icon.weapon_tiphon_spear_i01" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="pole" />
@@ -1246,7 +1246,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="10685" type="Weapon" name="Shyeed's Bow {PvP} - Cheap Shot">
+	<item id="10685" type="Weapon" name="夏伊德獵弓 {對戰用}">
 		<set name="icon" val="icon.weapon_shyid_bow_i01" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="bow" />
@@ -1286,7 +1286,7 @@
 			</sub>
 		</for>
 	</item>
-	<item id="10686" type="Weapon" name="Shyeed's Bow {PvP} - Focus">
+	<item id="10686" type="Weapon" name="夏伊德獵弓 {對戰用}">
 		<set name="icon" val="icon.weapon_shyid_bow_i01" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="bow" />
@@ -1320,7 +1320,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="10687" type="Weapon" name="Shyeed's Bow {PvP} - Quick Recovery">
+	<item id="10687" type="Weapon" name="夏伊德獵弓 {對戰用}">
 		<set name="icon" val="icon.weapon_shyid_bow_i01" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="bow" />
@@ -1354,7 +1354,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="10688" type="Weapon" name="Sobekk's Hurricane {PvP} - Rsk. Haste">
+	<item id="10688" type="Weapon" name="索貝克颶風 {對戰用}">
 		<set name="icon" val="icon.weapon_sobekk_hurricane_i01" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="dualfist" />
@@ -1386,7 +1386,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="10689" type="Weapon" name="Sobekk's Hurricane {PvP} - Haste">
+	<item id="10689" type="Weapon" name="索貝克颶風 {對戰用}">
 		<set name="icon" val="icon.weapon_sobekk_hurricane_i01" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="dualfist" />
@@ -1418,7 +1418,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="10690" type="Weapon" name="Sobekk's Hurricane {PvP} - Critical Drain">
+	<item id="10690" type="Weapon" name="索貝克颶風 {對戰用}">
 		<set name="icon" val="icon.weapon_sobekk_hurricane_i01" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="dualfist" />
@@ -1451,7 +1451,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="10691" type="Weapon" name="Themis' Tongue {PvP} - Mana Up">
+	<item id="10691" type="Weapon" name="緹米絲之舌 {對戰用}">
 		<set name="icon" val="icon.weapon_tongue_of_themis_i01" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="sword" />
@@ -1482,7 +1482,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="10692" type="Weapon" name="Themis' Tongue {PvP} - Magic Mental Shield">
+	<item id="10692" type="Weapon" name="緹米絲之舌 {對戰用}">
 		<set name="icon" val="icon.weapon_tongue_of_themis_i01" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="sword" />
@@ -1515,7 +1515,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="10693" type="Weapon" name="Themis' Tongue {PvP} - Magic Focus">
+	<item id="10693" type="Weapon" name="緹米絲之舌 {對戰用}">
 		<set name="icon" val="icon.weapon_tongue_of_themis_i01" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="sword" />
@@ -1548,7 +1548,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="10694" type="Weapon" name="Cabrio's Hand {PvP} - Conversion">
+	<item id="10694" type="Weapon" name="卡布里歐之手 {對戰用}">
 		<set name="icon" val="icon.weapon_hand_of_cabrio_i01" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="blunt" />
@@ -1581,7 +1581,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="10695" type="Weapon" name="Cabrio's Hand {PvP} - Mana Up">
+	<item id="10695" type="Weapon" name="卡布里歐之手 {對戰用}">
 		<set name="icon" val="icon.weapon_hand_of_cabrio_i01" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="blunt" />
@@ -1614,7 +1614,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="10696" type="Weapon" name="Cabrio's Hand {PvP} - Magic Silence">
+	<item id="10696" type="Weapon" name="卡布里歐之手 {對戰用}">
 		<set name="icon" val="icon.weapon_hand_of_cabrio_i01" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="blunt" />
@@ -1649,7 +1649,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="10697" type="Weapon" name="Daimon Crystal {PvP} - Mana Up">
+	<item id="10697" type="Weapon" name="惡魔結晶 {對戰用}">
 		<set name="icon" val="icon.weapon_crystal_of_deamon_i01" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="bigblunt" />
@@ -1682,7 +1682,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="10698" type="Weapon" name="Daimon Crystal {PvP} - Acumen">
+	<item id="10698" type="Weapon" name="惡魔結晶 {對戰用}">
 		<set name="icon" val="icon.weapon_crystal_of_deamon_i01" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="bigblunt" />
@@ -1715,7 +1715,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="10699" type="Weapon" name="Daimon Crystal {PvP} - Magic Mental Shield">
+	<item id="10699" type="Weapon" name="惡魔結晶 {對戰用}">
 		<set name="icon" val="icon.weapon_crystal_of_deamon_i01" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="bigblunt" />

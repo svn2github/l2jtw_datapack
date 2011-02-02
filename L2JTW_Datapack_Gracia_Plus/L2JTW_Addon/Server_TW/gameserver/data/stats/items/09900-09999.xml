@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <list>
-	<item id="9900" type="Armor" name="Quiet Footsteps Ring">
+	<item id="9900" type="Armor" name="靜音之步戒指">
 		<set name="icon" val="icon.accessary_ring_of_mana_i00" />
 		<set name="default_action" val="equip" />
 		<set name="bodypart" val="rfinger;lfinger" />
@@ -15,7 +15,7 @@
 		<set name="item_skill" val="3407-1" />
 		<set name="duration" val="400" />
 	</item>
-	<item id="9901" type="Weapon" name="Improved Falchion">
+	<item id="9901" type="Weapon" name="進階型彎刃大刀">
 		<set name="icon" val="icon.weapon_falchion_i00" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="sword" />
@@ -37,7 +37,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="9902" type="Weapon" name="Improved Great Spear">
+	<item id="9902" type="Weapon" name="進階型長矛">
 		<set name="icon" val="icon.weapon_long_spear_i00" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="pole" />
@@ -62,7 +62,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="9903" type="Weapon" name="Improved Iron Hammer">
+	<item id="9903" type="Weapon" name="進階型鋼鎚">
 		<set name="icon" val="icon.weapon_iron_hammer_i00" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="blunt" />
@@ -86,7 +86,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="9904" type="Weapon" name="Improved Sword Breaker">
+	<item id="9904" type="Weapon" name="進階型碎劍者">
 		<set name="icon" val="icon.weapon_sword_breaker_i00" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="dagger" />
@@ -110,7 +110,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="9905" type="Weapon" name="Improved Viper Fang">
+	<item id="9905" type="Weapon" name="進階型毒蛇之牙">
 		<set name="icon" val="icon.weapon_vipers_canine_i00" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="dualfist" />
@@ -134,7 +134,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="9906" type="Weapon" name="Improved Composite Bow">
+	<item id="9906" type="Weapon" name="進階型合金弓">
 		<set name="icon" val="icon.weapon_composition_bow_i00" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="bow" />
@@ -160,7 +160,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="9907" type="Weapon" name="Improved Flanged Mace">
+	<item id="9907" type="Weapon" name="進階型魔鎚">
 		<set name="icon" val="icon.weapon_buzdygan_i00" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="blunt" />
@@ -184,7 +184,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="9908" type="Weapon" name="Improved Mage Staff">
+	<item id="9908" type="Weapon" name="進階型法師魔杖">
 		<set name="icon" val="icon.weapon_apprentices_staff_i00" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="bigblunt" />
@@ -209,7 +209,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="9909" type="Armor" name="Agathion Seal Bracelet">
+	<item id="9909" type="Armor" name="壺精封印手鐲">
 		<set name="icon" val="icon.etc_rbracelet_aga_agit_i00" />
 		<set name="default_action" val="equip" />
 		<set name="bodypart" val="lbracelet" />
@@ -224,7 +224,7 @@
 		<set name="item_skill" val="5458-1;3361-1;3267-1" />
 		<set name="duration" val="700" />
 	</item>
-	<item id="9910" type="EtcItem" name="Blood Oath">
+	<item id="9910" type="EtcItem" name="血的盟誓">
 		<set name="icon" val="icon.etc_broken_crystal_red_i00" />
 		<set name="immediate_effect" val="1" />
 		<set name="material" val="paper" />
@@ -234,7 +234,7 @@
 		<set name="is_depositable" val="false" />
 		<set name="is_stackable" val="true" />
 	</item>
-	<item id="9911" type="EtcItem" name="Blood Alliance">
+	<item id="9911" type="EtcItem" name="血的決議">
 		<set name="icon" val="icon.etc_broken_crystal_red_i00" />
 		<set name="immediate_effect" val="1" />
 		<set name="material" val="paper" />
@@ -244,14 +244,14 @@
 		<set name="is_depositable" val="false" />
 		<set name="is_stackable" val="true" />
 	</item>
-	<item id="9912" type="EtcItem" name="Knight's Epaulette">
+	<item id="9912" type="EtcItem" name="騎士肩章">
 		<set name="icon" val="icon.etc_shoulder_strap_of_knight_i00" />
 		<set name="immediate_effect" val="1" />
 		<set name="material" val="paper" />
 		<set name="price" val="1000" />
 		<set name="is_stackable" val="true" />
 	</item>
-	<item id="9913" type="Armor" name="Talisman_Test">
+	<item id="9913" type="Armor" name="護身符測試">
 		<set name="icon" val="icon.etc_crystal_ball_silver_i00" />
 		<set name="default_action" val="equip" />
 		<set name="bodypart" val="deco1" />
@@ -263,7 +263,7 @@
 		<set name="is_sellable" val="false" />
 		<set name="duration" val="60" />
 	</item>
-	<item id="9914" type="Armor" name="Blue Talisman of Power">
+	<item id="9914" type="Armor" name="青色護身符-攻擊力">
 		<set name="icon" val="icon.etc_talisman_i01" />
 		<set name="default_action" val="equip" />
 		<set name="bodypart" val="deco1" />
@@ -277,7 +277,7 @@
 		<set name="item_skill" val="3271-1" />
 		<set name="duration" val="65" />
 	</item>
-	<item id="9915" type="Armor" name="Blue Talisman of Wild Magic">
+	<item id="9915" type="Armor" name="青色護身符-魔法致命攻擊機率">
 		<set name="icon" val="icon.etc_talisman_i01" />
 		<set name="default_action" val="equip" />
 		<set name="bodypart" val="deco1" />
@@ -291,7 +291,7 @@
 		<set name="item_skill" val="3277-1" />
 		<set name="duration" val="75" />
 	</item>
-	<item id="9916" type="Armor" name="Blue Talisman of Defense">
+	<item id="9916" type="Armor" name="青色護身符-狂暴">
 		<set name="icon" val="icon.etc_talisman_i01" />
 		<set name="default_action" val="equip" />
 		<set name="bodypart" val="deco1" />
@@ -305,7 +305,7 @@
 		<set name="item_skill" val="3285-1" />
 		<set name="duration" val="65" />
 	</item>
-	<item id="9917" type="Armor" name="Red Talisman of Minimum Clarity">
+	<item id="9917" type="Armor" name="赤色護身符-使用MP小幅減少">
 		<set name="icon" val="icon.etc_talisman_i00" />
 		<set name="default_action" val="equip" />
 		<set name="bodypart" val="deco1" />
@@ -319,7 +319,7 @@
 		<set name="item_skill" val="3281-1" />
 		<set name="duration" val="65" />
 	</item>
-	<item id="9918" type="Armor" name="Red Talisman of Maximum Clarity">
+	<item id="9918" type="Armor" name="赤色護身符-使用MP大幅減少">
 		<set name="icon" val="icon.etc_talisman_i00" />
 		<set name="default_action" val="equip" />
 		<set name="bodypart" val="deco1" />
@@ -333,7 +333,7 @@
 		<set name="item_skill" val="3282-1" />
 		<set name="duration" val="74" />
 	</item>
-	<item id="9919" type="Armor" name="Blue Talisman of Reflection">
+	<item id="9919" type="Armor" name="青色護身符-傷害反射">
 		<set name="icon" val="icon.etc_talisman_i01" />
 		<set name="default_action" val="equip" />
 		<set name="bodypart" val="deco1" />
@@ -347,7 +347,7 @@
 		<set name="item_skill" val="3410-1" />
 		<set name="duration" val="65" />
 	</item>
-	<item id="9920" type="Armor" name="Blue Talisman of Invisibility">
+	<item id="9920" type="Armor" name="青色護身符-透明化">
 		<set name="icon" val="icon.etc_talisman_i01" />
 		<set name="default_action" val="equip" />
 		<set name="bodypart" val="deco1" />
@@ -361,7 +361,7 @@
 		<set name="item_skill" val="3280-1" />
 		<set name="duration" val="64" />
 	</item>
-	<item id="9921" type="Armor" name="Blue Talisman - Shield Protection">
+	<item id="9921" type="Armor" name="青色護身符-盾牌防禦">
 		<set name="icon" val="icon.etc_talisman_i01" />
 		<set name="default_action" val="equip" />
 		<set name="bodypart" val="deco1" />
@@ -375,7 +375,7 @@
 		<set name="item_skill" val="3274-1" />
 		<set name="duration" val="65" />
 	</item>
-	<item id="9922" type="Armor" name="Black Talisman - Mending">
+	<item id="9922" type="Armor" name="黑色護身符-繃帶">
 		<set name="icon" val="icon.etc_talisman_i05" />
 		<set name="default_action" val="equip" />
 		<set name="bodypart" val="deco1" />
@@ -389,7 +389,7 @@
 		<set name="item_skill" val="3286-1" />
 		<set name="duration" val="65" />
 	</item>
-	<item id="9923" type="Armor" name="Black Talisman - Escape">
+	<item id="9923" type="Armor" name="黑色護身符-逃脫">
 		<set name="icon" val="icon.etc_talisman_i05" />
 		<set name="default_action" val="equip" />
 		<set name="bodypart" val="deco1" />
@@ -403,7 +403,7 @@
 		<set name="item_skill" val="3289-1" />
 		<set name="duration" val="65" />
 	</item>
-	<item id="9924" type="Armor" name="Blue Talisman of Healing">
+	<item id="9924" type="Armor" name="青色護身符-治療威力增加">
 		<set name="icon" val="icon.etc_talisman_i01" />
 		<set name="default_action" val="equip" />
 		<set name="bodypart" val="deco1" />
@@ -417,7 +417,7 @@
 		<set name="item_skill" val="3283-1" />
 		<set name="duration" val="64" />
 	</item>
-	<item id="9925" type="Armor" name="Red Talisman of Recovery">
+	<item id="9925" type="Armor" name="赤色護身符-HP/CP恢復">
 		<set name="icon" val="icon.etc_talisman_i00" />
 		<set name="default_action" val="equip" />
 		<set name="bodypart" val="deco1" />
@@ -431,7 +431,7 @@
 		<set name="item_skill" val="3273-1" />
 		<set name="duration" val="64" />
 	</item>
-	<item id="9926" type="Armor" name="Blue Talisman of Defense">
+	<item id="9926" type="Armor" name="青色護身符-防禦力">
 		<set name="icon" val="icon.etc_talisman_i01" />
 		<set name="default_action" val="equip" />
 		<set name="bodypart" val="deco1" />
@@ -445,7 +445,7 @@
 		<set name="item_skill" val="3272-1" />
 		<set name="duration" val="65" />
 	</item>
-	<item id="9927" type="Armor" name="Blue Talisman of Magic Defense">
+	<item id="9927" type="Armor" name="青色護身符-魔法防禦力">
 		<set name="icon" val="icon.etc_talisman_i01" />
 		<set name="default_action" val="equip" />
 		<set name="bodypart" val="deco1" />
@@ -459,7 +459,7 @@
 		<set name="item_skill" val="3276-1" />
 		<set name="duration" val="65" />
 	</item>
-	<item id="9928" type="Armor" name="Red Talisman of Mental Regeneration">
+	<item id="9928" type="Armor" name="赤色護身符-MP恢復速度">
 		<set name="icon" val="icon.etc_talisman_i00" />
 		<set name="default_action" val="equip" />
 		<set name="bodypart" val="deco1" />
@@ -473,7 +473,7 @@
 		<set name="item_skill" val="3278-1" />
 		<set name="duration" val="65" />
 	</item>
-	<item id="9929" type="Armor" name="Blue Talisman of Protection">
+	<item id="9929" type="Armor" name="青色護身符-盾牌防禦率增加">
 		<set name="icon" val="icon.etc_talisman_i01" />
 		<set name="default_action" val="equip" />
 		<set name="bodypart" val="deco1" />
@@ -487,7 +487,7 @@
 		<set name="item_skill" val="3275-1" />
 		<set name="duration" val="65" />
 	</item>
-	<item id="9930" type="Armor" name="Blue Talisman of Evasion">
+	<item id="9930" type="Armor" name="青色護身符-迴避">
 		<set name="icon" val="icon.etc_talisman_i01" />
 		<set name="default_action" val="equip" />
 		<set name="bodypart" val="deco1" />
@@ -501,7 +501,7 @@
 		<set name="item_skill" val="3321-1" />
 		<set name="duration" val="65" />
 	</item>
-	<item id="9931" type="Armor" name="Red Talisman of Meditation">
+	<item id="9931" type="Armor" name="赤色護身符-MP緩和">
 		<set name="icon" val="icon.etc_talisman_i00" />
 		<set name="default_action" val="equip" />
 		<set name="bodypart" val="deco1" />
@@ -515,7 +515,7 @@
 		<set name="item_skill" val="3279-1" />
 		<set name="duration" val="74" />
 	</item>
-	<item id="9932" type="Armor" name="Blue Talisman - Divine Protection">
+	<item id="9932" type="Armor" name="青色護身符-加護">
 		<set name="icon" val="icon.etc_talisman_i01" />
 		<set name="default_action" val="equip" />
 		<set name="bodypart" val="deco1" />
@@ -529,7 +529,7 @@
 		<set name="item_skill" val="3284-1" />
 		<set name="duration" val="74" />
 	</item>
-	<item id="9933" type="Armor" name="Yellow Talisman of Power">
+	<item id="9933" type="Armor" name="黃色護身符-攻擊力">
 		<set name="icon" val="icon.etc_talisman_i02" />
 		<set name="default_action" val="equip" />
 		<set name="bodypart" val="deco1" />
@@ -542,7 +542,7 @@
 		<set name="item_skill" val="3293-1" />
 		<set name="duration" val="60" />
 	</item>
-	<item id="9934" type="Armor" name="Yellow Talisman of Violent Haste">
+	<item id="9934" type="Armor" name="黃色護身符-攻擊速度">
 		<set name="icon" val="icon.etc_talisman_i02" />
 		<set name="default_action" val="equip" />
 		<set name="bodypart" val="deco1" />
@@ -555,7 +555,7 @@
 		<set name="item_skill" val="3301-1" />
 		<set name="duration" val="60" />
 	</item>
-	<item id="9935" type="Armor" name="Yellow Talisman of Arcane Defense">
+	<item id="9935" type="Armor" name="黃色護身符-魔法防禦力">
 		<set name="icon" val="icon.etc_talisman_i02" />
 		<set name="default_action" val="equip" />
 		<set name="bodypart" val="deco1" />
@@ -568,7 +568,7 @@
 		<set name="item_skill" val="3296-1" />
 		<set name="duration" val="60" />
 	</item>
-	<item id="9936" type="Armor" name="Yellow Talisman of Arcane Power">
+	<item id="9936" type="Armor" name="黃色護身符-魔法力">
 		<set name="icon" val="icon.etc_talisman_i02" />
 		<set name="default_action" val="equip" />
 		<set name="bodypart" val="deco1" />
@@ -581,7 +581,7 @@
 		<set name="item_skill" val="3294-1" />
 		<set name="duration" val="60" />
 	</item>
-	<item id="9937" type="Armor" name="Yellow Talisman of Arcane Haste">
+	<item id="9937" type="Armor" name="黃色護身符-施法速度">
 		<set name="icon" val="icon.etc_talisman_i02" />
 		<set name="default_action" val="equip" />
 		<set name="bodypart" val="deco1" />
@@ -594,7 +594,7 @@
 		<set name="item_skill" val="3302-1" />
 		<set name="duration" val="60" />
 	</item>
-	<item id="9938" type="Armor" name="Yellow Talisman of Accuracy">
+	<item id="9938" type="Armor" name="黃色護身符-命中">
 		<set name="icon" val="icon.etc_talisman_i02" />
 		<set name="default_action" val="equip" />
 		<set name="bodypart" val="deco1" />
@@ -607,7 +607,7 @@
 		<set name="item_skill" val="3297-1" />
 		<set name="duration" val="60" />
 	</item>
-	<item id="9939" type="Armor" name="Yellow Talisman of Defense">
+	<item id="9939" type="Armor" name="黃色護身符-防禦力">
 		<set name="icon" val="icon.etc_talisman_i02" />
 		<set name="default_action" val="equip" />
 		<set name="bodypart" val="deco1" />
@@ -620,7 +620,7 @@
 		<set name="item_skill" val="3295-1" />
 		<set name="duration" val="60" />
 	</item>
-	<item id="9940" type="Armor" name="Yellow Talisman of Alacrity">
+	<item id="9940" type="Armor" name="黃色護身符-速度增加">
 		<set name="icon" val="icon.etc_talisman_i02" />
 		<set name="default_action" val="equip" />
 		<set name="bodypart" val="deco1" />
@@ -633,7 +633,7 @@
 		<set name="item_skill" val="3313-1" />
 		<set name="duration" val="60" />
 	</item>
-	<item id="9941" type="Armor" name="Yellow Talisman of Speed">
+	<item id="9941" type="Armor" name="黃色護身符-移動速度">
 		<set name="icon" val="icon.etc_talisman_i02" />
 		<set name="default_action" val="equip" />
 		<set name="bodypart" val="deco1" />
@@ -646,7 +646,7 @@
 		<set name="item_skill" val="3300-1" />
 		<set name="duration" val="60" />
 	</item>
-	<item id="9942" type="Armor" name="Yellow Talisman of Critical Reduction">
+	<item id="9942" type="Armor" name="黃色護身符-致命攻擊減少">
 		<set name="icon" val="icon.etc_talisman_i02" />
 		<set name="default_action" val="equip" />
 		<set name="bodypart" val="deco1" />
@@ -659,7 +659,7 @@
 		<set name="item_skill" val="3317-1" />
 		<set name="duration" val="60" />
 	</item>
-	<item id="9943" type="Armor" name="Yellow Talisman of Critical Power">
+	<item id="9943" type="Armor" name="黃色護身符-致命攻擊威力">
 		<set name="icon" val="icon.etc_talisman_i02" />
 		<set name="default_action" val="equip" />
 		<set name="bodypart" val="deco1" />
@@ -672,7 +672,7 @@
 		<set name="item_skill" val="3299-1" />
 		<set name="duration" val="60" />
 	</item>
-	<item id="9944" type="Armor" name="Yellow Talisman of Critical Dodging">
+	<item id="9944" type="Armor" name="黃色護身符-致命攻擊迴避">
 		<set name="icon" val="icon.etc_talisman_i02" />
 		<set name="default_action" val="equip" />
 		<set name="bodypart" val="deco1" />
@@ -685,7 +685,7 @@
 		<set name="item_skill" val="3316-1" />
 		<set name="duration" val="60" />
 	</item>
-	<item id="9945" type="Armor" name="Yellow Talisman of Evasion">
+	<item id="9945" type="Armor" name="黃色護身符-迴避">
 		<set name="icon" val="icon.etc_talisman_i02" />
 		<set name="default_action" val="equip" />
 		<set name="bodypart" val="deco1" />
@@ -698,7 +698,7 @@
 		<set name="item_skill" val="3298-1" />
 		<set name="duration" val="60" />
 	</item>
-	<item id="9946" type="Armor" name="Yellow Talisman of Healing">
+	<item id="9946" type="Armor" name="黃色護身符-治療威力">
 		<set name="icon" val="icon.etc_talisman_i02" />
 		<set name="default_action" val="equip" />
 		<set name="bodypart" val="deco1" />
@@ -711,7 +711,7 @@
 		<set name="item_skill" val="3312-1" />
 		<set name="duration" val="60" />
 	</item>
-	<item id="9947" type="Armor" name="Yellow Talisman of CP Regeneration">
+	<item id="9947" type="Armor" name="黃色護身符-CP恢復量">
 		<set name="icon" val="icon.etc_talisman_i02" />
 		<set name="default_action" val="equip" />
 		<set name="bodypart" val="deco1" />
@@ -724,7 +724,7 @@
 		<set name="item_skill" val="3311-1" />
 		<set name="duration" val="60" />
 	</item>
-	<item id="9948" type="Armor" name="Yellow Talisman of Physical Regeneration">
+	<item id="9948" type="Armor" name="黃色護身符-HP恢復量">
 		<set name="icon" val="icon.etc_talisman_i02" />
 		<set name="default_action" val="equip" />
 		<set name="bodypart" val="deco1" />
@@ -737,7 +737,7 @@
 		<set name="item_skill" val="3310-1" />
 		<set name="duration" val="60" />
 	</item>
-	<item id="9949" type="Armor" name="Yellow Talisman of Mental Regeneration">
+	<item id="9949" type="Armor" name="黃色護身符-MP恢復量">
 		<set name="icon" val="icon.etc_talisman_i02" />
 		<set name="default_action" val="equip" />
 		<set name="bodypart" val="deco1" />
@@ -750,7 +750,7 @@
 		<set name="item_skill" val="3320-1" />
 		<set name="duration" val="60" />
 	</item>
-	<item id="9950" type="Armor" name="Grey Talisman of Weight Training">
+	<item id="9950" type="Armor" name="灰色護身符-重量標準">
 		<set name="icon" val="icon.etc_talisman_i07" />
 		<set name="default_action" val="equip" />
 		<set name="bodypart" val="deco1" />
@@ -763,7 +763,7 @@
 		<set name="item_skill" val="3314-1" />
 		<set name="duration" val="60" />
 	</item>
-	<item id="9951" type="Armor" name="Grey Talisman of Mid-Grade Fishing">
+	<item id="9951" type="Armor" name="灰色護身符-中級精通釣魚">
 		<set name="icon" val="icon.etc_talisman_i07" />
 		<set name="default_action" val="equip" />
 		<set name="bodypart" val="deco1" />
@@ -776,7 +776,7 @@
 		<set name="item_skill" val="3315-1" />
 		<set name="duration" val="60" />
 	</item>
-	<item id="9952" type="Armor" name="Orange Talisman - Hot Springs CP Potion">
+	<item id="9952" type="Armor" name="橙色護身符-溫泉鬥志藥水">
 		<set name="icon" val="icon.etc_talisman_i04" />
 		<set name="default_action" val="equip" />
 		<set name="bodypart" val="deco1" />
@@ -791,7 +791,7 @@
 		<set name="item_skill" val="3332-1" />
 		<set name="duration" val="64" />
 	</item>
-	<item id="9953" type="Armor" name="Orange Talisman - Elixir of Life">
+	<item id="9953" type="Armor" name="橙色護身符-生命靈藥">
 		<set name="icon" val="icon.etc_talisman_i04" />
 		<set name="default_action" val="equip" />
 		<set name="bodypart" val="deco1" />
@@ -805,7 +805,7 @@
 		<set name="item_skill" val="3333-1" />
 		<set name="duration" val="64" />
 	</item>
-	<item id="9954" type="Armor" name="Orange Talisman - Elixir of Mental Strength">
+	<item id="9954" type="Armor" name="橙色護身符-精神靈藥">
 		<set name="icon" val="icon.etc_talisman_i04" />
 		<set name="default_action" val="equip" />
 		<set name="bodypart" val="deco1" />
@@ -819,7 +819,7 @@
 		<set name="item_skill" val="3334-1" />
 		<set name="duration" val="65" />
 	</item>
-	<item id="9955" type="Armor" name="Black Talisman of Vocalization">
+	<item id="9955" type="Armor" name="黑色護身符-魔法沉默解除">
 		<set name="icon" val="icon.etc_talisman_i05" />
 		<set name="default_action" val="equip" />
 		<set name="bodypart" val="deco1" />
@@ -833,7 +833,7 @@
 		<set name="item_skill" val="3291-1" />
 		<set name="duration" val="65" />
 	</item>
-	<item id="9956" type="Armor" name="Black Talisman of Arcane Freedom">
+	<item id="9956" type="Armor" name="黑色護身符-魔法逃脫">
 		<set name="icon" val="icon.etc_talisman_i05" />
 		<set name="default_action" val="equip" />
 		<set name="bodypart" val="deco1" />
@@ -847,7 +847,7 @@
 		<set name="item_skill" val="3288-1" />
 		<set name="duration" val="65" />
 	</item>
-	<item id="9957" type="Armor" name="Black Talisman of Physical Freedom">
+	<item id="9957" type="Armor" name="黑色護身符-物理逃脫">
 		<set name="icon" val="icon.etc_talisman_i05" />
 		<set name="default_action" val="equip" />
 		<set name="bodypart" val="deco1" />
@@ -861,7 +861,7 @@
 		<set name="item_skill" val="3287-1" />
 		<set name="duration" val="65" />
 	</item>
-	<item id="9958" type="Armor" name="Black Talisman of Rescue">
+	<item id="9958" type="Armor" name="黑色護身符-物理沉默解除">
 		<set name="icon" val="icon.etc_talisman_i05" />
 		<set name="default_action" val="equip" />
 		<set name="bodypart" val="deco1" />
@@ -875,7 +875,7 @@
 		<set name="item_skill" val="3290-1" />
 		<set name="duration" val="65" />
 	</item>
-	<item id="9959" type="Armor" name="Black Talisman of Free Speech">
+	<item id="9959" type="Armor" name="黑色護身符-沉默解除">
 		<set name="icon" val="icon.etc_talisman_i05" />
 		<set name="default_action" val="equip" />
 		<set name="bodypart" val="deco1" />
@@ -889,7 +889,7 @@
 		<set name="item_skill" val="3292-1" />
 		<set name="duration" val="65" />
 	</item>
-	<item id="9960" type="Armor" name="White Talisman of Bravery">
+	<item id="9960" type="Armor" name="白色護身符-恐懼抗性">
 		<set name="icon" val="icon.etc_talisman_i06" />
 		<set name="default_action" val="equip" />
 		<set name="bodypart" val="deco1" />
@@ -902,7 +902,7 @@
 		<set name="item_skill" val="3306-1" />
 		<set name="duration" val="60" />
 	</item>
-	<item id="9961" type="Armor" name="White Talisman of Motion">
+	<item id="9961" type="Armor" name="白色護身符-麻痺抗性">
 		<set name="icon" val="icon.etc_talisman_i06" />
 		<set name="default_action" val="equip" />
 		<set name="bodypart" val="deco1" />
@@ -915,7 +915,7 @@
 		<set name="item_skill" val="3307-1" />
 		<set name="duration" val="60" />
 	</item>
-	<item id="9962" type="Armor" name="White Talisman of Grounding">
+	<item id="9962" type="Armor" name="白色護身符-休克抗性">
 		<set name="icon" val="icon.etc_talisman_i06" />
 		<set name="default_action" val="equip" />
 		<set name="bodypart" val="deco1" />
@@ -928,7 +928,7 @@
 		<set name="item_skill" val="3305-1" />
 		<set name="duration" val="60" />
 	</item>
-	<item id="9963" type="Armor" name="White Talisman of Attention">
+	<item id="9963" type="Armor" name="白色護身符-睡眠抗性">
 		<set name="icon" val="icon.etc_talisman_i06" />
 		<set name="default_action" val="equip" />
 		<set name="bodypart" val="deco1" />
@@ -941,7 +941,7 @@
 		<set name="item_skill" val="3304-1" />
 		<set name="duration" val="60" />
 	</item>
-	<item id="9964" type="Armor" name="White Talisman of Bandages">
+	<item id="9964" type="Armor" name="白色護身符-出血抗性">
 		<set name="icon" val="icon.etc_talisman_i06" />
 		<set name="default_action" val="equip" />
 		<set name="bodypart" val="deco1" />
@@ -954,7 +954,7 @@
 		<set name="item_skill" val="3303-1" />
 		<set name="duration" val="60" />
 	</item>
-	<item id="9965" type="Armor" name="White Talisman of Protection">
+	<item id="9965" type="Armor" name="白色護身符-魔法消除抗性">
 		<set name="icon" val="icon.etc_talisman_i06" />
 		<set name="default_action" val="equip" />
 		<set name="bodypart" val="deco1" />
@@ -967,7 +967,7 @@
 		<set name="item_skill" val="3309-1" />
 		<set name="duration" val="60" />
 	</item>
-	<item id="9966" type="Armor" name="White Talisman of Freedom">
+	<item id="9966" type="Armor" name="白色護身符-束縛抗性">
 		<set name="icon" val="icon.etc_talisman_i06" />
 		<set name="default_action" val="equip" />
 		<set name="bodypart" val="deco1" />
@@ -980,7 +980,7 @@
 		<set name="item_skill" val="3308-1" />
 		<set name="duration" val="60" />
 	</item>
-	<item id="9967" type="EtcItem" name="Recipe - Dynasty Sword (60%)">
+	<item id="9967" type="EtcItem" name="製作卷軸(王朝劍60%)">
 		<set name="icon" val="icon.etc_recipe_black_i00" />
 		<set name="default_action" val="recipe" />
 		<set name="etcitem_type" val="recipe" />
@@ -992,7 +992,7 @@
 		<set name="is_stackable" val="true" />
 		<set name="handler" val="Recipes" />
 	</item>
-	<item id="9968" type="EtcItem" name="Recipe - Dynasty Blade (60%)">
+	<item id="9968" type="EtcItem" name="製作卷軸(王朝之刃60%)">
 		<set name="icon" val="icon.etc_recipe_black_i00" />
 		<set name="default_action" val="recipe" />
 		<set name="etcitem_type" val="recipe" />
@@ -1004,7 +1004,7 @@
 		<set name="is_stackable" val="true" />
 		<set name="handler" val="Recipes" />
 	</item>
-	<item id="9969" type="EtcItem" name="Recipe - Dynasty Phantom (60%)">
+	<item id="9969" type="EtcItem" name="製作卷軸(王朝幻影劍60%)">
 		<set name="icon" val="icon.etc_recipe_black_i00" />
 		<set name="default_action" val="recipe" />
 		<set name="etcitem_type" val="recipe" />
@@ -1016,7 +1016,7 @@
 		<set name="is_stackable" val="true" />
 		<set name="handler" val="Recipes" />
 	</item>
-	<item id="9970" type="EtcItem" name="Recipe - Dynasty Bow (60%)">
+	<item id="9970" type="EtcItem" name="製作卷軸(王朝弓60%)">
 		<set name="icon" val="icon.etc_recipe_black_i00" />
 		<set name="default_action" val="recipe" />
 		<set name="etcitem_type" val="recipe" />
@@ -1028,7 +1028,7 @@
 		<set name="is_stackable" val="true" />
 		<set name="handler" val="Recipes" />
 	</item>
-	<item id="9971" type="EtcItem" name="Recipe - Dynasty Knife (60%)">
+	<item id="9971" type="EtcItem" name="製作卷軸(王朝小刀60%)">
 		<set name="icon" val="icon.etc_recipe_black_i00" />
 		<set name="default_action" val="recipe" />
 		<set name="etcitem_type" val="recipe" />
@@ -1040,7 +1040,7 @@
 		<set name="is_stackable" val="true" />
 		<set name="handler" val="Recipes" />
 	</item>
-	<item id="9972" type="EtcItem" name="Recipe - Dynasty Halberd (60%)">
+	<item id="9972" type="EtcItem" name="製作卷軸(王朝長柄戰戟60%)">
 		<set name="icon" val="icon.etc_recipe_black_i00" />
 		<set name="default_action" val="recipe" />
 		<set name="etcitem_type" val="recipe" />
@@ -1052,7 +1052,7 @@
 		<set name="is_stackable" val="true" />
 		<set name="handler" val="Recipes" />
 	</item>
-	<item id="9973" type="EtcItem" name="Recipe - Dynasty Cudgel (60%)">
+	<item id="9973" type="EtcItem" name="製作卷軸(王朝戰鎚60%)">
 		<set name="icon" val="icon.etc_recipe_black_i00" />
 		<set name="default_action" val="recipe" />
 		<set name="etcitem_type" val="recipe" />
@@ -1064,7 +1064,7 @@
 		<set name="is_stackable" val="true" />
 		<set name="handler" val="Recipes" />
 	</item>
-	<item id="9974" type="EtcItem" name="Recipe - Dynasty Mace (60%)">
+	<item id="9974" type="EtcItem" name="製作卷軸(王朝釘鎚60%)">
 		<set name="icon" val="icon.etc_recipe_black_i00" />
 		<set name="default_action" val="recipe" />
 		<set name="etcitem_type" val="recipe" />
@@ -1076,7 +1076,7 @@
 		<set name="is_stackable" val="true" />
 		<set name="handler" val="Recipes" />
 	</item>
-	<item id="9975" type="EtcItem" name="Recipe - Dynasty Bagh-Nakh (60%)">
+	<item id="9975" type="EtcItem" name="製作卷軸(王朝拳套爪60%)">
 		<set name="icon" val="icon.etc_recipe_black_i00" />
 		<set name="default_action" val="recipe" />
 		<set name="etcitem_type" val="recipe" />
@@ -1088,7 +1088,7 @@
 		<set name="is_stackable" val="true" />
 		<set name="handler" val="Recipes" />
 	</item>
-	<item id="9976" type="EtcItem" name="Recipe - Dynasty Sword (100%)">
+	<item id="9976" type="EtcItem" name="製作卷軸(王朝劍100%)">
 		<set name="icon" val="icon.etc_recipe_black_i00" />
 		<set name="default_action" val="recipe" />
 		<set name="etcitem_type" val="recipe" />
@@ -1099,7 +1099,7 @@
 		<set name="recipe_id" val="1" />
 		<set name="is_stackable" val="true" />
 	</item>
-	<item id="9977" type="EtcItem" name="Recipe - Dynasty Blade (100%)">
+	<item id="9977" type="EtcItem" name="製作卷軸(王朝之刃100%)">
 		<set name="icon" val="icon.etc_recipe_black_i00" />
 		<set name="default_action" val="recipe" />
 		<set name="etcitem_type" val="recipe" />
@@ -1110,7 +1110,7 @@
 		<set name="recipe_id" val="1" />
 		<set name="is_stackable" val="true" />
 	</item>
-	<item id="9978" type="EtcItem" name="Recipe - Dynasty Phantom (100%)">
+	<item id="9978" type="EtcItem" name="製作卷軸(王朝幻影劍100%)">
 		<set name="icon" val="icon.etc_recipe_black_i00" />
 		<set name="default_action" val="recipe" />
 		<set name="etcitem_type" val="recipe" />
@@ -1121,7 +1121,7 @@
 		<set name="recipe_id" val="1" />
 		<set name="is_stackable" val="true" />
 	</item>
-	<item id="9979" type="EtcItem" name="Recipe - Dynasty Bow (100%)">
+	<item id="9979" type="EtcItem" name="製作卷軸(王朝弓100%)">
 		<set name="icon" val="icon.etc_recipe_black_i00" />
 		<set name="default_action" val="recipe" />
 		<set name="etcitem_type" val="recipe" />
@@ -1132,7 +1132,7 @@
 		<set name="recipe_id" val="1" />
 		<set name="is_stackable" val="true" />
 	</item>
-	<item id="9980" type="EtcItem" name="Recipe - Dynasty Knife (100%)">
+	<item id="9980" type="EtcItem" name="製作卷軸(王朝小刀100%)">
 		<set name="icon" val="icon.etc_recipe_black_i00" />
 		<set name="default_action" val="recipe" />
 		<set name="etcitem_type" val="recipe" />
@@ -1143,7 +1143,7 @@
 		<set name="recipe_id" val="1" />
 		<set name="is_stackable" val="true" />
 	</item>
-	<item id="9981" type="EtcItem" name="Recipe - Dynasty Halberd (100%)">
+	<item id="9981" type="EtcItem" name="製作卷軸(王朝長柄戰戟100%)">
 		<set name="icon" val="icon.etc_recipe_black_i00" />
 		<set name="default_action" val="recipe" />
 		<set name="etcitem_type" val="recipe" />
@@ -1154,7 +1154,7 @@
 		<set name="recipe_id" val="1" />
 		<set name="is_stackable" val="true" />
 	</item>
-	<item id="9982" type="EtcItem" name="Recipe - Dynasty Cudgel (100%)">
+	<item id="9982" type="EtcItem" name="製作卷軸(王朝戰鎚100%)">
 		<set name="icon" val="icon.etc_recipe_black_i00" />
 		<set name="default_action" val="recipe" />
 		<set name="etcitem_type" val="recipe" />
@@ -1165,7 +1165,7 @@
 		<set name="recipe_id" val="1" />
 		<set name="is_stackable" val="true" />
 	</item>
-	<item id="9983" type="EtcItem" name="Recipe - Dynasty Mace (100%)">
+	<item id="9983" type="EtcItem" name="製作卷軸(王朝釘鎚100%)">
 		<set name="icon" val="icon.etc_recipe_black_i00" />
 		<set name="default_action" val="recipe" />
 		<set name="etcitem_type" val="recipe" />
@@ -1176,7 +1176,7 @@
 		<set name="recipe_id" val="1" />
 		<set name="is_stackable" val="true" />
 	</item>
-	<item id="9984" type="EtcItem" name="Recipe - Dynasty Bagh-Nakh (100%)">
+	<item id="9984" type="EtcItem" name="製作卷軸(王朝拳套爪100%)">
 		<set name="icon" val="icon.etc_recipe_black_i00" />
 		<set name="default_action" val="recipe" />
 		<set name="etcitem_type" val="recipe" />
@@ -1187,7 +1187,7 @@
 		<set name="recipe_id" val="1" />
 		<set name="is_stackable" val="true" />
 	</item>
-	<item id="9985" type="EtcItem" name="Recipe - Sealed Dynasty Earrings (70%)">
+	<item id="9985" type="EtcItem" name="製作卷軸(封印的王朝耳環(70%)">
 		<set name="icon" val="icon.etc_recipe_black_i00" />
 		<set name="default_action" val="recipe" />
 		<set name="etcitem_type" val="recipe" />
@@ -1199,7 +1199,7 @@
 		<set name="is_stackable" val="true" />
 		<set name="handler" val="Recipes" />
 	</item>
-	<item id="9986" type="EtcItem" name="Recipe - Sealed Dynasty Necklace (70%)">
+	<item id="9986" type="EtcItem" name="製作卷軸(封印的王朝項鍊(70%)">
 		<set name="icon" val="icon.etc_recipe_black_i00" />
 		<set name="default_action" val="recipe" />
 		<set name="etcitem_type" val="recipe" />
@@ -1211,7 +1211,7 @@
 		<set name="is_stackable" val="true" />
 		<set name="handler" val="Recipes" />
 	</item>
-	<item id="9987" type="EtcItem" name="Recipe - Sealed Dynasty Ring (70%)">
+	<item id="9987" type="EtcItem" name="製作卷軸(封印的王朝戒指(70%)">
 		<set name="icon" val="icon.etc_recipe_black_i00" />
 		<set name="default_action" val="recipe" />
 		<set name="etcitem_type" val="recipe" />
@@ -1223,7 +1223,7 @@
 		<set name="is_stackable" val="true" />
 		<set name="handler" val="Recipes" />
 	</item>
-	<item id="9988" type="EtcItem" name="Recipe - Sealed Dynasty Earrings (100%)">
+	<item id="9988" type="EtcItem" name="製作卷軸(封印的王朝耳環100%)">
 		<set name="icon" val="icon.etc_recipe_black_i00" />
 		<set name="default_action" val="recipe" />
 		<set name="etcitem_type" val="recipe" />
@@ -1234,7 +1234,7 @@
 		<set name="recipe_id" val="1" />
 		<set name="is_stackable" val="true" />
 	</item>
-	<item id="9989" type="EtcItem" name="Recipe - Sealed Dynasty Necklace (100%)">
+	<item id="9989" type="EtcItem" name="製作卷軸(封印的王朝項鍊100%)">
 		<set name="icon" val="icon.etc_recipe_black_i00" />
 		<set name="default_action" val="recipe" />
 		<set name="etcitem_type" val="recipe" />
@@ -1245,7 +1245,7 @@
 		<set name="recipe_id" val="1" />
 		<set name="is_stackable" val="true" />
 	</item>
-	<item id="9990" type="EtcItem" name="Recipe - Sealed Dynasty Ring (100%)">
+	<item id="9990" type="EtcItem" name="製作卷軸(封印的王朝戒指100%)">
 		<set name="icon" val="icon.etc_recipe_black_i00" />
 		<set name="default_action" val="recipe" />
 		<set name="etcitem_type" val="recipe" />
@@ -1256,7 +1256,7 @@
 		<set name="recipe_id" val="1" />
 		<set name="is_stackable" val="true" />
 	</item>
-	<item id="9991" type="EtcItem" name="Sealed Dynasty Earring Gemstone">
+	<item id="9991" type="EtcItem" name="封印的王朝耳環寶石">
 		<set name="icon" val="icon.etc_crystal_ball_gold_i00" />
 		<set name="etcitem_type" val="material" />
 		<set name="immediate_effect" val="1" />
@@ -1265,7 +1265,7 @@
 		<set name="price" val="56866" />
 		<set name="is_stackable" val="true" />
 	</item>
-	<item id="9992" type="EtcItem" name="Sealed Dynasty Necklace Gemstone">
+	<item id="9992" type="EtcItem" name="封印的王朝項鍊寶石">
 		<set name="icon" val="icon.etc_jewel_box_i00" />
 		<set name="etcitem_type" val="material" />
 		<set name="immediate_effect" val="1" />
@@ -1274,7 +1274,7 @@
 		<set name="price" val="74095" />
 		<set name="is_stackable" val="true" />
 	</item>
-	<item id="9993" type="EtcItem" name="Sealed Dynasty Ring Gemstone">
+	<item id="9993" type="EtcItem" name="封印的王朝戒指寶石">
 		<set name="icon" val="icon.etc_jewel_box_i00" />
 		<set name="etcitem_type" val="material" />
 		<set name="immediate_effect" val="1" />
@@ -1283,7 +1283,7 @@
 		<set name="price" val="40464" />
 		<set name="is_stackable" val="true" />
 	</item>
-	<item id="9994" type="EtcItem" name="Map of Hellbound">
+	<item id="9994" type="EtcItem" name="地獄邊界地圖">
 		<set name="icon" val="icon.etc_letter_red_i00" />
 		<set name="immediate_effect" val="1" />
 		<set name="material" val="steel" />
@@ -1293,7 +1293,7 @@
 		<set name="is_stackable" val="true" />
 		<set name="is_questitem" val="true" />
 	</item>
-	<item id="9995" type="Weapon" name="Hand Crossbow">
+	<item id="9995" type="Weapon" name="短弩">
 		<set name="icon" val="icon.weapon_hunting_gun_i00" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="crossbow" />
@@ -1324,7 +1324,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="9996" type="Weapon" name="Hand Crossbow">
+	<item id="9996" type="Weapon" name="短弩">
 		<set name="icon" val="icon.weapon_hunting_gun_i00" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="crossbow" />
@@ -1355,7 +1355,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="9997" type="EtcItem" name="Fire Potion">
+	<item id="9997" type="EtcItem" name="火屬性強化藥">
 		<set name="icon" val="icon.etc_fire_potion_i00" />
 		<set name="default_action" val="skill_reduce" />
 		<set name="etcitem_type" val="potion" />
@@ -1368,7 +1368,7 @@
 		<set name="handler" val="ItemSkills" />
 		<set name="item_skill" val="2335-1" />
 	</item>
-	<item id="9998" type="EtcItem" name="Water Potion">
+	<item id="9998" type="EtcItem" name="水屬性強化藥">
 		<set name="icon" val="icon.etc_water_potion_i00" />
 		<set name="default_action" val="skill_reduce" />
 		<set name="etcitem_type" val="potion" />
@@ -1381,7 +1381,7 @@
 		<set name="handler" val="ItemSkills" />
 		<set name="item_skill" val="2336-1" />
 	</item>
-	<item id="9999" type="EtcItem" name="Earth Potion">
+	<item id="9999" type="EtcItem" name="地屬性強化藥">
 		<set name="icon" val="icon.etc_earth_potion_i00" />
 		<set name="default_action" val="skill_reduce" />
 		<set name="etcitem_type" val="potion" />

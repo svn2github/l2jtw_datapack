@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <list>
-	<item id="15400" type="Armor" name="Vitality Belt (Event) - 60 day limited period">
+	<item id="15400" type="Armor" name="活力腰帶-活動用">
 		<set name="icon" val="icon.event_energy_belt_i00" />
 		<set name="default_action" val="equip" />
 		<set name="armor_type" val="light" />
@@ -16,7 +16,7 @@
 		<set name="is_oly_restricted" val="true" />
 		<set name="time" val="86400" />
 	</item>
-	<item id="15401" type="Armor" name="Vitality Belt (Event) - 90 day limited period">
+	<item id="15401" type="Armor" name="活力腰帶-活動用">
 		<set name="icon" val="icon.event_energy_belt_i00" />
 		<set name="default_action" val="equip" />
 		<set name="armor_type" val="light" />
@@ -32,7 +32,7 @@
 		<set name="is_oly_restricted" val="true" />
 		<set name="time" val="129600" />
 	</item>
-	<item id="15402" type="Armor" name="Vitality Belt (Event) - Permanent Use">
+	<item id="15402" type="Armor" name="活力腰帶-活動用">
 		<set name="icon" val="icon.event_energy_belt_i00" />
 		<set name="default_action" val="equip" />
 		<set name="armor_type" val="light" />
@@ -47,7 +47,7 @@
 		<set name="is_depositable" val="false" />
 		<set name="is_oly_restricted" val="true" />
 	</item>
-	<item id="15403" type="Weapon" name="PC Cafe Use - Berserker Blade - Weapon for PC Cafe Use">
+	<item id="15403" type="Weapon" name="活動用-狂戰士之刃">
 		<set name="icon" val="icon.weapon_berserker_blade_i01" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="bigsword" />
@@ -76,7 +76,7 @@
 			<set order="0x08" stat="pAtkSpd" val="325" />
 		</for>
 	</item>
-	<item id="15404" type="EtcItem" name="6th Anniversary Party Gift Box (2003) - Event">
+	<item id="15404" type="EtcItem" name="祝福之神禮盒(30日)">
 		<set name="icon" val="icon.event_six_party_box_i00" />
 		<set name="default_action" val="peel" />
 		<set name="immediate_effect" val="1" />
@@ -90,7 +90,7 @@
 		<set name="is_oly_restricted" val="true" />
 		<set name="capsuled_items" val="15418,1,1,100" />
 	</item>
-	<item id="15405" type="EtcItem" name="6th Anniversary Party Gift Box (2004) - Event">
+	<item id="15405" type="EtcItem" name="祝福之神禮盒(25日)">
 		<set name="icon" val="icon.event_six_party_box_i00" />
 		<set name="default_action" val="peel" />
 		<set name="immediate_effect" val="1" />
@@ -104,7 +104,7 @@
 		<set name="is_oly_restricted" val="true" />
 		<set name="capsuled_items" val="15419,1,1,100" />
 	</item>
-	<item id="15406" type="EtcItem" name="6th Anniversary Party Gift Box (2005) - Event">
+	<item id="15406" type="EtcItem" name="祝福之神禮盒(20日)">
 		<set name="icon" val="icon.event_six_party_box_i00" />
 		<set name="default_action" val="peel" />
 		<set name="immediate_effect" val="1" />
@@ -118,7 +118,7 @@
 		<set name="is_oly_restricted" val="true" />
 		<set name="capsuled_items" val="15420,1,1,100" />
 	</item>
-	<item id="15407" type="EtcItem" name="6th Anniversary Party Gift Box (2006) - Event">
+	<item id="15407" type="EtcItem" name="祝福之神禮盒(15日)">
 		<set name="icon" val="icon.event_six_party_box_i00" />
 		<set name="default_action" val="peel" />
 		<set name="immediate_effect" val="1" />
@@ -132,7 +132,7 @@
 		<set name="is_oly_restricted" val="true" />
 		<set name="capsuled_items" val="15421,1,1,100" />
 	</item>
-	<item id="15408" type="EtcItem" name="6th Anniversary Party Gift Box (2007) - Event">
+	<item id="15408" type="EtcItem" name="祝福之神禮盒(10日)">
 		<set name="icon" val="icon.event_six_party_box_i00" />
 		<set name="default_action" val="peel" />
 		<set name="immediate_effect" val="1" />
@@ -146,7 +146,7 @@
 		<set name="is_oly_restricted" val="true" />
 		<set name="capsuled_items" val="15422,1,1,100" />
 	</item>
-	<item id="15409" type="EtcItem" name="6th Anniversary Party Gift Box (2008) - Event">
+	<item id="15409" type="EtcItem" name="祝福之神禮盒(5日)">
 		<set name="icon" val="icon.event_six_party_box_i00" />
 		<set name="default_action" val="peel" />
 		<set name="immediate_effect" val="1" />
@@ -160,7 +160,7 @@
 		<set name="is_oly_restricted" val="true" />
 		<set name="capsuled_items" val="15423,1,1,100" />
 	</item>
-	<item id="15410" type="EtcItem" name="6th Anniversary Party Gift Box (2009) - Event">
+	<item id="15410" type="EtcItem" name="祝福之神禮盒(3日)">
 		<set name="icon" val="icon.event_six_party_box_i00" />
 		<set name="default_action" val="peel" />
 		<set name="immediate_effect" val="1" />
@@ -174,7 +174,7 @@
 		<set name="is_oly_restricted" val="true" />
 		<set name="capsuled_items" val="15424,1,1,100" />
 	</item>
-	<item id="15411" type="EtcItem" name="6th Anniversary Party Gift Set (2003) - Event">
+	<item id="15411" type="EtcItem" name="祝福之神禮品組(30日)">
 		<set name="icon" val="icon.event_six_party_box_i00" />
 		<set name="default_action" val="peel" />
 		<set name="immediate_effect" val="1" />
@@ -188,7 +188,7 @@
 		<set name="is_oly_restricted" val="true" />
 		<set name="capsuled_items" val="15425,1,1,100;15418,1,1,100" />
 	</item>
-	<item id="15412" type="EtcItem" name="6th Anniversary Party Gift Set (2004) - Event">
+	<item id="15412" type="EtcItem" name="祝福之神禮品組(25日)">
 		<set name="icon" val="icon.event_six_party_box_i00" />
 		<set name="default_action" val="peel" />
 		<set name="immediate_effect" val="1" />
@@ -202,7 +202,7 @@
 		<set name="is_oly_restricted" val="true" />
 		<set name="capsuled_items" val="15425,1,1,100;15419,1,1,100" />
 	</item>
-	<item id="15413" type="EtcItem" name="6th Anniversary Party Gift Set (2005) - Event">
+	<item id="15413" type="EtcItem" name="祝福之神禮品組(20日)">
 		<set name="icon" val="icon.event_six_party_box_i00" />
 		<set name="default_action" val="peel" />
 		<set name="immediate_effect" val="1" />
@@ -216,7 +216,7 @@
 		<set name="is_oly_restricted" val="true" />
 		<set name="capsuled_items" val="15425,1,1,100;15420,1,1,100" />
 	</item>
-	<item id="15414" type="EtcItem" name="6th Anniversary Party Gift Set (2006) - Event">
+	<item id="15414" type="EtcItem" name="祝福之神禮品組(15日)">
 		<set name="icon" val="icon.event_six_party_box_i00" />
 		<set name="default_action" val="peel" />
 		<set name="immediate_effect" val="1" />
@@ -230,7 +230,7 @@
 		<set name="is_oly_restricted" val="true" />
 		<set name="capsuled_items" val="15425,1,1,100;15421,1,1,100" />
 	</item>
-	<item id="15415" type="EtcItem" name="6th Anniversary Party Gift Set (2007) - Event">
+	<item id="15415" type="EtcItem" name="祝福之神禮品組(10日)">
 		<set name="icon" val="icon.event_six_party_box_i00" />
 		<set name="default_action" val="peel" />
 		<set name="immediate_effect" val="1" />
@@ -244,7 +244,7 @@
 		<set name="is_oly_restricted" val="true" />
 		<set name="capsuled_items" val="15425,1,1,100;15422,1,1,100" />
 	</item>
-	<item id="15416" type="EtcItem" name="6th Anniversary Party Gift Set (2008) - Event">
+	<item id="15416" type="EtcItem" name="祝福之神禮品組(5日)">
 		<set name="icon" val="icon.event_six_party_box_i00" />
 		<set name="default_action" val="peel" />
 		<set name="immediate_effect" val="1" />
@@ -258,7 +258,7 @@
 		<set name="is_oly_restricted" val="true" />
 		<set name="capsuled_items" val="15425,1,1,100;15423,1,1,100" />
 	</item>
-	<item id="15417" type="EtcItem" name="6th Anniversary Party Gift Set (2009) - Event">
+	<item id="15417" type="EtcItem" name="祝福之神禮品組(3日)">
 		<set name="icon" val="icon.event_six_party_box_i00" />
 		<set name="default_action" val="peel" />
 		<set name="immediate_effect" val="1" />
@@ -272,7 +272,7 @@
 		<set name="is_oly_restricted" val="true" />
 		<set name="capsuled_items" val="15425,1,1,100;15424,1,1,100" />
 	</item>
-	<item id="15418" type="EtcItem" name="Sixth Anniversary Party Cube Manage - Event - 30 day limited period">
+	<item id="15418" type="EtcItem" name="祝福之神晶體-活動用">
 		<set name="icon" val="icon.event_six_party_cube_i00" />
 		<set name="default_action" val="skill_reduce" />
 		<set name="material" val="fish" />
@@ -284,7 +284,7 @@
 		<set name="item_skill" val="9042-1" />
 		<set name="time" val="43200" />
 	</item>
-	<item id="15419" type="EtcItem" name="Sixth Anniversary Party Cube Manage - Event - 25 day limited period">
+	<item id="15419" type="EtcItem" name="祝福之神晶體-活動用">
 		<set name="icon" val="icon.event_six_party_cube_i00" />
 		<set name="default_action" val="skill_reduce" />
 		<set name="material" val="fish" />
@@ -296,7 +296,7 @@
 		<set name="item_skill" val="9043-1" />
 		<set name="time" val="36000" />
 	</item>
-	<item id="15420" type="EtcItem" name="Sixth Anniversary Party Cube Manage - Event - 20 day limited period">
+	<item id="15420" type="EtcItem" name="祝福之神晶體-活動用">
 		<set name="icon" val="icon.event_six_party_cube_i00" />
 		<set name="default_action" val="skill_reduce" />
 		<set name="material" val="fish" />
@@ -308,7 +308,7 @@
 		<set name="item_skill" val="9044-1" />
 		<set name="time" val="28800" />
 	</item>
-	<item id="15421" type="EtcItem" name="Sixth Anniversary Party Cube Manage - Event - 15 day limited period">
+	<item id="15421" type="EtcItem" name="祝福之神晶體-活動用">
 		<set name="icon" val="icon.event_six_party_cube_i00" />
 		<set name="default_action" val="skill_reduce" />
 		<set name="material" val="fish" />
@@ -320,7 +320,7 @@
 		<set name="item_skill" val="9045-1" />
 		<set name="time" val="21600" />
 	</item>
-	<item id="15422" type="EtcItem" name="Sixth Anniversary Party Cube Manage - Event - 10 day limited period">
+	<item id="15422" type="EtcItem" name="祝福之神晶體-活動用">
 		<set name="icon" val="icon.event_six_party_cube_i00" />
 		<set name="default_action" val="skill_reduce" />
 		<set name="material" val="fish" />
@@ -332,7 +332,7 @@
 		<set name="item_skill" val="9046-1" />
 		<set name="time" val="14400" />
 	</item>
-	<item id="15423" type="EtcItem" name="Sixth Anniversary Party Cube Manage - Event - 5 day limited period">
+	<item id="15423" type="EtcItem" name="祝福之神晶體-活動用">
 		<set name="icon" val="icon.event_six_party_cube_i00" />
 		<set name="default_action" val="skill_reduce" />
 		<set name="material" val="fish" />
@@ -344,7 +344,7 @@
 		<set name="item_skill" val="9047-1" />
 		<set name="time" val="7200" />
 	</item>
-	<item id="15424" type="EtcItem" name="Sixth Anniversary Party Cube Manage - Event - 3 day limited period">
+	<item id="15424" type="EtcItem" name="祝福之神晶體-活動用">
 		<set name="icon" val="icon.event_six_party_cube_i00" />
 		<set name="default_action" val="skill_reduce" />
 		<set name="material" val="fish" />
@@ -356,7 +356,7 @@
 		<set name="item_skill" val="9048-1" />
 		<set name="time" val="4320" />
 	</item>
-	<item id="15425" type="EtcItem" name="Hero's Treasure Box - Event">
+	<item id="15425" type="EtcItem" name="英雄的寶箱">
 		<set name="icon" val="icon.event_hero_treasure_box_i00" />
 		<set name="default_action" val="peel" />
 		<set name="immediate_effect" val="1" />
@@ -368,7 +368,7 @@
 		<set name="is_depositable" val="false" />
 		<set name="capsuled_items" val="15211,1,1,100;13273,1,1,100;15426,1,1,100" />
 	</item>
-	<item id="15426" type="EtcItem" name="Hero's Summon Point - Event - Event">
+	<item id="15426" type="EtcItem" name="英雄的凱旋點數-活動用">
 		<set name="icon" val="icon.etc_pccafe_point_i00" />
 		<set name="default_action" val="skill_reduce" />
 		<set name="material" val="fish" />
@@ -381,7 +381,7 @@
 		<set name="is_stackable" val="true" />
 		<set name="item_skill" val="9040-1" />
 	</item>
-	<item id="15427" type="EtcItem" name="Sixth Anniversary Party Cake - Event - Event">
+	<item id="15427" type="EtcItem" name="祝福之神蛋糕-活動用">
 		<set name="icon" val="icon.event_six_party_cake_i00" />
 		<set name="default_action" val="skill_reduce" />
 		<set name="etcitem_type" val="potion" />
@@ -394,7 +394,7 @@
 		<set name="is_stackable" val="true" />
 		<set name="item_skill" val="9041-1" />
 	</item>
-	<item id="15428" type="Armor" name="Sixth Anniversary Party Earring - Event - 30 day limited period">
+	<item id="15428" type="Armor" name="祝福之神耳環-活動用">
 		<set name="icon" val="icon.event_six_party_earing_i00" />
 		<set name="default_action" val="equip" />
 		<set name="bodypart" val="rear;lear" />
@@ -415,7 +415,7 @@
 			<add order="0x40" stat="maxMp" val="31" />
 		</for>
 	</item>
-	<item id="15429" type="Armor" name="Sixth Anniversary Party Belt - Event - 7 day limited period">
+	<item id="15429" type="Armor" name="祝福之神活力腰帶-活動用">
 		<set name="icon" val="icon.event_energy_belt_i00" />
 		<set name="default_action" val="equip" />
 		<set name="armor_type" val="light" />
@@ -432,7 +432,7 @@
 		<set name="item_skill" val="8360-1" />
 		<set name="time" val="10080" />
 	</item>
-	<item id="15430" type="EtcItem" name="Event - Halloween Candy - Event">
+	<item id="15430" type="EtcItem" name="活動-萬聖夜糖果">
 		<set name="icon" val="icon.ev_hallowinday_candy_i00" />
 		<set name="immediate_effect" val="1" />
 		<set name="material" val="paper" />
@@ -440,7 +440,7 @@
 		<set name="is_stackable" val="true" />
 		<set name="is_oly_restricted" val="true" />
 	</item>
-	<item id="15431" type="EtcItem" name="Event - Uldie Summon Scroll">
+	<item id="15431" type="EtcItem" name="活動-兀兒德召喚卷軸">
 		<set name="icon" val="icon.ev_scroll_of_wooldie_i00" />
 		<set name="default_action" val="skill_reduce" />
 		<set name="etcitem_type" val="scroll" />
@@ -451,7 +451,7 @@
 		<set name="is_oly_restricted" val="true" />
 		<set name="item_skill" val="9061-1" />
 	</item>
-	<item id="15432" type="EtcItem" name="Event - Belldandy Summon Scroll">
+	<item id="15432" type="EtcItem" name="活動-貝爾丹蒂召喚卷軸">
 		<set name="icon" val="icon.ev_scroll_of_berdandi_i00" />
 		<set name="default_action" val="skill_reduce" />
 		<set name="etcitem_type" val="scroll" />
@@ -462,7 +462,7 @@
 		<set name="is_oly_restricted" val="true" />
 		<set name="item_skill" val="9062-1" />
 	</item>
-	<item id="15433" type="EtcItem" name="Event - Skooldie Summon Scroll">
+	<item id="15433" type="EtcItem" name="活動-斯庫迪召喚卷軸">
 		<set name="icon" val="icon.ev_scroll_of_scooldie_i00" />
 		<set name="default_action" val="skill_reduce" />
 		<set name="etcitem_type" val="scroll" />
@@ -477,7 +477,7 @@
 		<set name="is_oly_restricted" val="true" />
 		<set name="item_skill" val="9063-1" />
 	</item>
-	<item id="15434" type="EtcItem" name="Halloween Toy Chest">
+	<item id="15434" type="EtcItem" name="萬聖夜玩具箱">
 		<set name="icon" val="icon.etc_box_of_adventure_1_i00" />
 		<set name="default_action" val="capsule" />
 		<set name="immediate_effect" val="1" />
@@ -490,7 +490,7 @@
 		<set name="is_oly_restricted" val="true" />
 		<set name="item_skill" val="9064-1" />
 	</item>
-	<item id="15435" type="EtcItem" name="Shiny Halloween Toy Chest">
+	<item id="15435" type="EtcItem" name="閃耀的萬聖夜玩具箱">
 		<set name="icon" val="icon.etc_box_of_adventure_1_i00" />
 		<set name="default_action" val="capsule" />
 		<set name="immediate_effect" val="1" />
@@ -503,7 +503,7 @@
 		<set name="is_oly_restricted" val="true" />
 		<set name="item_skill" val="9065-1" />
 	</item>
-	<item id="15436" type="EtcItem" name="Halloween Transformation Stick - 7 day limited period">
+	<item id="15436" type="EtcItem" name="萬聖夜變身魔杖">
 		<set name="icon" val="icon.weapon_pumpkin_stick_i00" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="sword" />
@@ -530,7 +530,7 @@
 			<set order="0x08" stat="pAtkSpd" val="379" />
 		</for>
 	</item>
-	<item id="15437" type="EtcItem" name="Transformation Scroll Box">
+	<item id="15437" type="EtcItem" name="變身卷軸箱">
 		<set name="icon" val="icon.etc_pi_gift_box_i00" />
 		<set name="default_action" val="capsule" />
 		<set name="immediate_effect" val="1" />
@@ -543,7 +543,7 @@
 		<set name="is_stackable" val="true" />
 		<set name="item_skill" val="9066-1" />
 	</item>
-	<item id="15438" type="EtcItem" name="10 minute Energy Maintaining Potion">
+	<item id="15438" type="EtcItem" name="10分鐘活力維持藥水">
 		<set name="icon" val="icon.etc_lesser_potion_blue_i00" />
 		<set name="default_action" val="skill_reduce" />
 		<set name="etcitem_type" val="potion" />
@@ -556,7 +556,7 @@
 		<set name="is_stackable" val="true" />
 		<set name="item_skill" val="9067-1" />
 	</item>
-	<item id="15439" type="EtcItem" name="10,000 SP scroll">
+	<item id="15439" type="EtcItem" name="10萬SP卷軸">
 		<set name="icon" val="icon.etc_sp_scroll3_i00" />
 		<set name="default_action" val="skill_reduce" />
 		<set name="etcitem_type" val="scroll" />
@@ -567,7 +567,7 @@
 		<set name="is_oly_restricted" val="true" />
 		<set name="item_skill" val="9069-1" />
 	</item>
-	<item id="15440" type="EtcItem" name="Vitality Maintenance Potion - 30 minutes">
+	<item id="15440" type="EtcItem" name="30分鐘活力維持藥水">
 		<set name="icon" val="icon.etc_lesser_potion_scarlet_i00" />
 		<set name="default_action" val="skill_reduce" />
 		<set name="etcitem_type" val="potion" />
@@ -581,7 +581,7 @@
 		<set name="handler" val="ItemSkills" />
 		<set name="item_skill" val="9068-2" />
 	</item>
-	<item id="15441" type="Armor" name="Red Flare Valakas Hair Accessory">
+	<item id="15441" type="Armor" name="紅炎巴拉卡斯頭飾">
 		<set name="icon" val="icon.ev_valakas_the_flame_i00" />
 		<set name="default_action" val="equip" />
 		<set name="bodypart" val="hairall" />
@@ -594,7 +594,7 @@
 		<set name="is_depositable" val="false" />
 		<set name="is_oly_restricted" val="true" />
 	</item>
-	<item id="15442" type="Armor" name="Jack O'Lantern Mask">
+	<item id="15442" type="Armor" name="傑克南瓜面具">
 		<set name="icon" val="icon.ev_jack0_mask_i00" />
 		<set name="default_action" val="equip" />
 		<set name="bodypart" val="hairall" />
@@ -608,7 +608,7 @@
 		<set name="is_oly_restricted" val="true" />
 		<set name="item_skill" val="8369-1;8370-1" />
 	</item>
-	<item id="15443" type="Armor" name="Super Strong Giant's Mask">
+	<item id="15443" type="Armor" name="科學怪人面具">
 		<set name="icon" val="icon.br_frankenstein_mask_i00" />
 		<set name="default_action" val="equip" />
 		<set name="bodypart" val="hairall" />
@@ -623,7 +623,7 @@
 		<set name="item_skill" val="8372-1;8369-1;8370-1" />
 		<set name="time" val="240" />
 	</item>
-	<item id="15444" type="Armor" name="Silent Scream's Mask">
+	<item id="15444" type="Armor" name="驚聲尖叫面具">
 		<set name="icon" val="icon.ev_scream_mask_i00" />
 		<set name="default_action" val="equip" />
 		<set name="bodypart" val="hairall" />
@@ -638,7 +638,7 @@
 		<set name="item_skill" val="8373-1;8369-1;8370-1" />
 		<set name="time" val="240" />
 	</item>
-	<item id="15445" type="Armor" name="Wrathful Spirit's Mask">
+	<item id="15445" type="Armor" name="憤怒精靈面具">
 		<set name="icon" val="icon.ev_doccabi_mask_i00" />
 		<set name="default_action" val="equip" />
 		<set name="bodypart" val="hairall" />
@@ -653,7 +653,7 @@
 		<set name="item_skill" val="8374-1;8369-1;8370-1" />
 		<set name="time" val="240" />
 	</item>
-	<item id="15446" type="Armor" name="Unrotten Corpse's Mask">
+	<item id="15446" type="Armor" name="不朽骸骨面具">
 		<set name="icon" val="icon.ev_mummy_mask_i00" />
 		<set name="default_action" val="equip" />
 		<set name="bodypart" val="hairall" />
@@ -668,7 +668,7 @@
 		<set name="item_skill" val="8375-1;8369-1;8370-1" />
 		<set name="time" val="240" />
 	</item>
-	<item id="15447" type="Armor" name="Planet X235 Alien's Mask">
+	<item id="15447" type="Armor" name="X235行星面具">
 		<set name="icon" val="icon.ev_alien_mask_i00" />
 		<set name="default_action" val="equip" />
 		<set name="bodypart" val="hairall" />
@@ -683,7 +683,7 @@
 		<set name="item_skill" val="8376-1;8369-1;8370-1" />
 		<set name="time" val="240" />
 	</item>
-	<item id="15448" type="Armor" name="Golden Jack O'Lantern Mask - Permanent Use">
+	<item id="15448" type="Armor" name="黃金傑克南瓜面具">
 		<set name="icon" val="icon.ev_golden_jack0_mask_i00" />
 		<set name="default_action" val="equip" />
 		<set name="bodypart" val="hairall" />
@@ -696,7 +696,7 @@
 		<set name="is_depositable" val="false" />
 		<set name="is_oly_restricted" val="true" />
 	</item>
-	<item id="15449" type="Armor" name="Shiny Planet X235 Alien's Mask">
+	<item id="15449" type="Armor" name="閃耀的X235行星面具">
 		<set name="icon" val="icon.ev_shiny_alien_mask_i00" />
 		<set name="default_action" val="equip" />
 		<set name="bodypart" val="hairall" />
@@ -711,7 +711,7 @@
 		<set name="item_skill" val="8376-1;8369-1;8370-1" />
 		<set name="time" val="240" />
 	</item>
-	<item id="15450" type="Armor" name="Shiny Super Strong Giant's Mask">
+	<item id="15450" type="Armor" name="閃耀的科學怪人面具">
 		<set name="icon" val="icon.ev_shiny_frankenstein_mask_i00" />
 		<set name="default_action" val="equip" />
 		<set name="bodypart" val="hairall" />
@@ -726,7 +726,7 @@
 		<set name="item_skill" val="8372-1;8369-1;8370-1" />
 		<set name="time" val="240" />
 	</item>
-	<item id="15451" type="Armor" name="Shiny Silent Scream's Mask">
+	<item id="15451" type="Armor" name="閃耀的驚聲尖叫面具">
 		<set name="icon" val="icon.ev_shiny_scream_mask_i00" />
 		<set name="default_action" val="equip" />
 		<set name="bodypart" val="hairall" />
@@ -741,7 +741,7 @@
 		<set name="item_skill" val="8373-1;8369-1;8370-1" />
 		<set name="time" val="240" />
 	</item>
-	<item id="15452" type="Armor" name="Shiny Wrathful Spirit's Mask">
+	<item id="15452" type="Armor" name="閃耀的憤怒精靈面具">
 		<set name="icon" val="icon.ev_shiny_doccabi_mask_i00" />
 		<set name="default_action" val="equip" />
 		<set name="bodypart" val="hairall" />
@@ -756,7 +756,7 @@
 		<set name="item_skill" val="8374-1;8369-1;8370-1" />
 		<set name="time" val="240" />
 	</item>
-	<item id="15453" type="Armor" name="Shiny Unrotten Corpse's Mask">
+	<item id="15453" type="Armor" name="閃耀的不朽骸骨面具">
 		<set name="icon" val="icon.ev_shiny_mummy_mask_i00" />
 		<set name="default_action" val="equip" />
 		<set name="bodypart" val="hairall" />
@@ -771,7 +771,7 @@
 		<set name="item_skill" val="8375-1;8369-1;8370-1" />
 		<set name="time" val="240" />
 	</item>
-	<item id="15454" type="EtcItem" name="Shiny Planet X235 Alien's Mask Pack - Event">
+	<item id="15454" type="EtcItem" name="閃耀的X235行星面具組">
 		<set name="icon" val="icon.etc_pi_gift_box_i04" />
 		<set name="default_action" val="peel" />
 		<set name="immediate_effect" val="1" />
@@ -784,7 +784,7 @@
 		<set name="is_premium" val="true" />
 		<set name="capsuled_items" val="15449,1,1,100" />
 	</item>
-	<item id="15455" type="EtcItem" name="Shiny Super Strong Giant's Mask Pack - Event">
+	<item id="15455" type="EtcItem" name="閃耀的科學怪人面具組">
 		<set name="icon" val="icon.etc_pi_gift_box_i04" />
 		<set name="default_action" val="peel" />
 		<set name="immediate_effect" val="1" />
@@ -797,7 +797,7 @@
 		<set name="is_premium" val="true" />
 		<set name="capsuled_items" val="15450,1,1,100" />
 	</item>
-	<item id="15456" type="EtcItem" name="Shiny Silent Scream's Mask Pack - Event">
+	<item id="15456" type="EtcItem" name="閃耀的驚聲尖叫面具組">
 		<set name="icon" val="icon.etc_pi_gift_box_i04" />
 		<set name="default_action" val="peel" />
 		<set name="immediate_effect" val="1" />
@@ -810,7 +810,7 @@
 		<set name="is_premium" val="true" />
 		<set name="capsuled_items" val="15451,1,1,100" />
 	</item>
-	<item id="15457" type="EtcItem" name="Shiny Wrathful Spirit's Mask Pack - Event">
+	<item id="15457" type="EtcItem" name="閃耀的憤怒精靈面具組">
 		<set name="icon" val="icon.etc_pi_gift_box_i04" />
 		<set name="default_action" val="peel" />
 		<set name="immediate_effect" val="1" />
@@ -823,7 +823,7 @@
 		<set name="is_premium" val="true" />
 		<set name="capsuled_items" val="15452,1,1,100" />
 	</item>
-	<item id="15458" type="EtcItem" name="Shiny Unrotten Corpse's Mask Pack - Event">
+	<item id="15458" type="EtcItem" name="閃耀的不朽骸骨面具組">
 		<set name="icon" val="icon.etc_pi_gift_box_i04" />
 		<set name="default_action" val="peel" />
 		<set name="immediate_effect" val="1" />
@@ -836,7 +836,7 @@
 		<set name="is_premium" val="true" />
 		<set name="capsuled_items" val="15453,1,1,100" />
 	</item>
-	<item id="15459" type="EtcItem" name="Halloween Nectar Pumpkin Pack - Event">
+	<item id="15459" type="EtcItem" name="萬聖夜香甜南瓜組">
 		<set name="icon" val="icon.etc_pi_gift_box_i04" />
 		<set name="default_action" val="peel" />
 		<set name="immediate_effect" val="1" />
@@ -849,7 +849,7 @@
 		<set name="is_premium" val="true" />
 		<set name="capsuled_items" val="15461,1,1,100" />
 	</item>
-	<item id="15460" type="EtcItem" name="Halloween King Pumpkin Pack - Event">
+	<item id="15460" type="EtcItem" name="萬聖夜大王南瓜組">
 		<set name="icon" val="icon.etc_pi_gift_box_i04" />
 		<set name="default_action" val="peel" />
 		<set name="immediate_effect" val="1" />
@@ -862,7 +862,7 @@
 		<set name="is_premium" val="true" />
 		<set name="capsuled_items" val="15462,1,1,100" />
 	</item>
-	<item id="15461" type="EtcItem" name="Halloween Nectar Pumpkin - Event">
+	<item id="15461" type="EtcItem" name="萬聖夜香甜南瓜">
 		<set name="icon" val="icon.event_halloween_pumpkin_i00" />
 		<set name="default_action" val="skill_reduce" />
 		<set name="material" val="fish" />
@@ -873,7 +873,7 @@
 		<set name="is_oly_restricted" val="true" />
 		<set name="item_skill" val="9070-1" />
 	</item>
-	<item id="15462" type="EtcItem" name="Halloween King Pumpkin - Event">
+	<item id="15462" type="EtcItem" name="萬聖夜大王南瓜">
 		<set name="icon" val="icon.event_halloween_king_pumpkin_i00" />
 		<set name="default_action" val="peel" />
 		<set name="immediate_effect" val="1" />
@@ -886,7 +886,7 @@
 		<set name="is_oly_restricted" val="true" />
 		<set name="capsuled_items" val="15461,6,6,100;15464,1,1,100" />
 	</item>
-	<item id="15463" type="EtcItem" name="Small Halloween Pumpkin - Event">
+	<item id="15463" type="EtcItem" name="萬聖夜小南瓜">
 		<set name="icon" val="icon.event_halloween_pumpkin_i00" />
 		<set name="default_action" val="skill_reduce" />
 		<set name="material" val="fish" />
@@ -899,7 +899,7 @@
 		<set name="is_oly_restricted" val="true" />
 		<set name="item_skill" val="9072-1" />
 	</item>
-	<item id="15464" type="Armor" name="Golden Jack O'Lantern Mask - 7 day limited period">
+	<item id="15464" type="Armor" name="黃金傑克南瓜面具">
 		<set name="icon" val="icon.ev_golden_jack0_mask_i00" />
 		<set name="default_action" val="equip" />
 		<set name="bodypart" val="hairall" />
@@ -914,7 +914,7 @@
 		<set name="item_skill" val="8377-1" />
 		<set name="time" val="10080" />
 	</item>
-	<item id="15465" type="EtcItem" name="Halloween Nectar Pumpkin Pack - event - Event">
+	<item id="15465" type="EtcItem" name="萬聖夜香甜南瓜組-活動用">
 		<set name="icon" val="icon.etc_pi_gift_box_i04" />
 		<set name="default_action" val="peel" />
 		<set name="immediate_effect" val="1" />
@@ -927,7 +927,7 @@
 		<set name="is_premium" val="true" />
 		<set name="capsuled_items" val="15461,1,1,100" />
 	</item>
-	<item id="15466" type="EtcItem" name="Halloween King Pumpkin Pack - event - Event">
+	<item id="15466" type="EtcItem" name="萬聖夜大王南瓜組-活動用">
 		<set name="icon" val="icon.etc_pi_gift_box_i04" />
 		<set name="default_action" val="peel" />
 		<set name="immediate_effect" val="1" />
@@ -940,7 +940,7 @@
 		<set name="is_premium" val="true" />
 		<set name="capsuled_items" val="15462,1,1,100" />
 	</item>
-	<item id="15467" type="EtcItem" name="Halloween Nectar Pumpkin - event - Event">
+	<item id="15467" type="EtcItem" name="萬聖夜香甜南瓜-活動用">
 		<set name="icon" val="icon.event_halloween_pumpkin_i00" />
 		<set name="default_action" val="skill_reduce" />
 		<set name="material" val="fish" />
@@ -951,7 +951,7 @@
 		<set name="is_oly_restricted" val="true" />
 		<set name="item_skill" val="9071-1" />
 	</item>
-	<item id="15468" type="EtcItem" name="Halloween King Pumpkin - event - Event">
+	<item id="15468" type="EtcItem" name="萬聖夜大王南瓜-活動用">
 		<set name="icon" val="icon.event_halloween_king_pumpkin_i00" />
 		<set name="default_action" val="peel" />
 		<set name="immediate_effect" val="1" />
@@ -964,7 +964,7 @@
 		<set name="is_oly_restricted" val="true" />
 		<set name="capsuled_items" val="15461,6,6,100;15464,1,1,100" />
 	</item>
-	<item id="15469" type="EtcItem" name="Frozen Core">
+	<item id="15469" type="EtcItem" name="冰結核">
 		<set name="icon" val="icon.etc_freezing_core_i00" />
 		<set name="default_action" val="skill_maintain" />
 		<set name="material" val="crystal" />
@@ -975,7 +975,7 @@
 		<set name="is_oly_restricted" val="true" />
 		<set name="item_skill" val="9057-1" />
 	</item>
-	<item id="15470" type="EtcItem" name="Black Frozen Core">
+	<item id="15470" type="EtcItem" name="黑色冰結核">
 		<set name="icon" val="icon.etc_black_freezing_core_i00" />
 		<set name="default_action" val="skill_reduce" />
 		<set name="material" val="crystal" />
@@ -987,7 +987,7 @@
 		<set name="is_oly_restricted" val="true" />
 		<set name="item_skill" val="9058-1" />
 	</item>
-	<item id="15471" type="EtcItem" name="Invisible Weapon for Freya">
+	<item id="15471" type="EtcItem" name="芙蕾雅用透明武器">
 		<set name="icon" val="icon.event_halloween_king_pumpkin_i03" />
 		<set name="immediate_effect" val="1" />
 		<set name="material" val="crystal" />
@@ -998,7 +998,7 @@
 		<set name="is_depositable" val="false" />
 		<set name="is_oly_restricted" val="true" />
 	</item>
-	<item id="15472" type="EtcItem" name="Sealed Mystery Sword">
+	<item id="15472" type="EtcItem" name="封印神劍">
 		<set name="icon" val="icon.etc_sealed_mystery_sword_i00" />
 		<set name="immediate_effect" val="1" />
 		<set name="material" val="crystal" />
@@ -1009,7 +1009,7 @@
 		<set name="is_depositable" val="false" />
 		<set name="is_oly_restricted" val="true" />
 	</item>
-	<item id="15473" type="EtcItem" name="Beast Handler's Whip">
+	<item id="15473" type="EtcItem" name="猛獸訓練鞭">
 		<set name="icon" val="icon.etc_training_whip_i00" />
 		<set name="default_action" val="equip" />
 		<set name="bodypart" val="lbracelet" />
@@ -1021,7 +1021,7 @@
 		<set name="is_oly_restricted" val="true" />
 		<set name="item_skill" val="8363-1;8364-1;8362-1;8378-1" />
 	</item>
-	<item id="15474" type="EtcItem" name="Golden Spice">
+	<item id="15474" type="EtcItem" name="金色香料">
 		<set name="icon" val="icon.etc_golden_spice_new_i00" />
 		<set name="default_action" val="skill_reduce" />
 		<set name="material" val="crystal" />
@@ -1033,7 +1033,7 @@
 		<set name="handler" val="ItemSkills" />
 		<set name="item_skill" val="9049-1" />
 	</item>
-	<item id="15475" type="EtcItem" name="Crystal Spice">
+	<item id="15475" type="EtcItem" name="水晶香料">
 		<set name="icon" val="icon.etc_crystal_spice_new_i00" />
 		<set name="default_action" val="skill_reduce" />
 		<set name="material" val="crystal" />
@@ -1045,7 +1045,7 @@
 		<set name="handler" val="ItemSkills" />
 		<set name="item_skill" val="9050-1" />
 	</item>
-	<item id="15476" type="EtcItem" name="Blessed Golden Spice">
+	<item id="15476" type="EtcItem" name="祝福的金色香料">
 		<set name="icon" val="icon.etc_golden_spice_blessed_i00" />
 		<set name="default_action" val="skill_reduce" />
 		<set name="material" val="crystal" />
@@ -1059,7 +1059,7 @@
 		<set name="handler" val="ItemSkills" />
 		<set name="item_skill" val="9051-1" />
 	</item>
-	<item id="15477" type="EtcItem" name="Blessed Crystal Spice">
+	<item id="15477" type="EtcItem" name="祝福的水晶香料">
 		<set name="icon" val="icon.etc_crystal_spice_blessed_i00" />
 		<set name="default_action" val="skill_reduce" />
 		<set name="material" val="crystal" />
@@ -1073,7 +1073,7 @@
 		<set name="handler" val="ItemSkills" />
 		<set name="item_skill" val="9052-1" />
 	</item>
-	<item id="15478" type="EtcItem" name="Golden Spice - S grade">
+	<item id="15478" type="EtcItem" name="金色香料-S級">
 		<set name="icon" val="icon.etc_golden_spice_s_i00" />
 		<set name="default_action" val="skill_reduce" />
 		<set name="material" val="crystal" />
@@ -1087,7 +1087,7 @@
 		<set name="handler" val="ItemSkills" />
 		<set name="item_skill" val="9053-1" />
 	</item>
-	<item id="15479" type="EtcItem" name="Crystal Spice - S grade">
+	<item id="15479" type="EtcItem" name="水晶香料-S級">
 		<set name="icon" val="icon.etc_crystal_spice_s_i00" />
 		<set name="default_action" val="skill_reduce" />
 		<set name="material" val="crystal" />
@@ -1101,7 +1101,7 @@
 		<set name="handler" val="ItemSkills" />
 		<set name="item_skill" val="9054-1" />
 	</item>
-	<item id="15480" type="EtcItem" name="Old Golden Spice">
+	<item id="15480" type="EtcItem" name="古老的金色香料">
 		<set name="icon" val="icon.event_halloween_king_pumpkin_i12" />
 		<set name="immediate_effect" val="1" />
 		<set name="material" val="crystal" />
@@ -1109,7 +1109,7 @@
 		<set name="is_stackable" val="true" />
 		<set name="is_oly_restricted" val="true" />
 	</item>
-	<item id="15481" type="EtcItem" name="Old Crystal Spice">
+	<item id="15481" type="EtcItem" name="古老的水晶香料">
 		<set name="icon" val="icon.event_halloween_king_pumpkin_i13" />
 		<set name="immediate_effect" val="1" />
 		<set name="material" val="crystal" />
@@ -1117,7 +1117,7 @@
 		<set name="is_stackable" val="true" />
 		<set name="is_oly_restricted" val="true" />
 	</item>
-	<item id="15482" type="EtcItem" name="Golden Spice Crate">
+	<item id="15482" type="EtcItem" name="金色香料壓縮包">
 		<set name="icon" val="icon.etc_golden_spice_comp_i00" />
 		<set name="default_action" val="skill_reduce" />
 		<set name="material" val="crystal" />
@@ -1129,7 +1129,7 @@
 		<set name="handler" val="ItemSkills" />
 		<set name="item_skill" val="9055-1" />
 	</item>
-	<item id="15483" type="EtcItem" name="Crystal Spice Crate">
+	<item id="15483" type="EtcItem" name="水晶香料壓縮包">
 		<set name="icon" val="icon.etc_crystal_spice_comp_i00" />
 		<set name="default_action" val="skill_reduce" />
 		<set name="material" val="crystal" />
@@ -1141,7 +1141,7 @@
 		<set name="handler" val="ItemSkills" />
 		<set name="item_skill" val="9056-1" />
 	</item>
-	<item id="15484" type="Armor" name="High-level Angel Circlet">
+	<item id="15484" type="Armor" name="上級天使頭箍">
 		<set name="icon" val="icon.accessory_highangel_circlet_i00" />
 		<set name="default_action" val="equip" />
 		<set name="bodypart" val="hairall" />
@@ -1152,7 +1152,7 @@
 		<set name="equip_reuse_delay" val="10" />
 		<set name="item_skill" val="8509-1" />
 	</item>
-	<item id="15485" type="EtcItem" name="Torch">
+	<item id="15485" type="EtcItem" name="火炬">
 		<set name="icon" val="icon.etc_torchlight_i00" />
 		<set name="default_action" val="skill_maintain" />
 		<set name="material" val="crystal" />
@@ -1164,7 +1164,7 @@
 		<set name="item_skill" val="9059-1" />
 		<set name="time" val="4" />
 	</item>
-	<item id="15486" type="EtcItem" name="Spirit Stone Fragment">
+	<item id="15486" type="EtcItem" name="靈魂石碎片">
 		<set name="icon" val="icon.etc_a_broken_piece_of_soul_stone_i00" />
 		<set name="immediate_effect" val="1" />
 		<set name="material" val="crystal" />
@@ -1173,7 +1173,7 @@
 		<set name="is_stackable" val="true" />
 		<set name="is_oly_restricted" val="true" />
 	</item>
-	<item id="15487" type="EtcItem" name="Maguen Plasma Collector">
+	<item id="15487" type="EtcItem" name="馬奎安血漿吸收器">
 		<set name="icon" val="icon.etc_machine_for_marguene_i00" />
 		<set name="default_action" val="skill_maintain" />
 		<set name="material" val="crystal" />
@@ -1185,7 +1185,7 @@
 		<set name="is_oly_restricted" val="true" />
 		<set name="item_skill" val="9060-1" />
 	</item>
-	<item id="15488" type="EtcItem" name="Maguen Pet Collar">
+	<item id="15488" type="EtcItem" name="馬奎安號角">
 		<set name="icon" val="icon.etc_marguene_pet_collar_i00" />
 		<set name="default_action" val="skill_maintain" />
 		<set name="etcitem_type" val="pet_collar" />
@@ -1199,7 +1199,7 @@
 		<set name="item_skill" val="2046-1" />
 		<set name="use_condition" val="{{uc_transmode_exclude;{tt_flying;tt_pure_stat}}}" />
 	</item>
-	<item id="15489" type="EtcItem" name="Elite Maguen Pet Collar">
+	<item id="15489" type="EtcItem" name="精銳馬奎安號角">
 		<set name="icon" val="icon.etc_elite_marguene_pet_collar_i00" />
 		<set name="default_action" val="skill_maintain" />
 		<set name="etcitem_type" val="pet_collar" />
@@ -1213,7 +1213,7 @@
 		<set name="item_skill" val="2046-1" />
 		<set name="use_condition" val="{{uc_transmode_exclude;{tt_flying;tt_pure_stat}}}" />
 	</item>
-	<item id="15490" type="EtcItem" name="Maguen Collection Box">
+	<item id="15490" type="EtcItem" name="馬奎安收集箱">
 		<set name="icon" val="icon.etc_marguene_collection_box_i00" />
 		<set name="immediate_effect" val="1" />
 		<set name="material" val="crystal" />
@@ -1224,7 +1224,7 @@
 		<set name="is_stackable" val="true" />
 		<set name="is_oly_restricted" val="true" />
 	</item>
-	<item id="15491" type="EtcItem" name="Elite Maguen Collection Box">
+	<item id="15491" type="EtcItem" name="精銳馬奎安收集箱">
 		<set name="icon" val="icon.etc_elite_marguene_collection_box_i00" />
 		<set name="immediate_effect" val="1" />
 		<set name="material" val="crystal" />
@@ -1235,7 +1235,7 @@
 		<set name="is_stackable" val="true" />
 		<set name="is_oly_restricted" val="true" />
 	</item>
-	<item id="15492" type="EtcItem" name="Sel Mahum Salmon Porridge">
+	<item id="15492" type="EtcItem" name="賽爾豺狼鮭魚粥">
 		<set name="icon" val="icon.etc_salmon_soup_i00" />
 		<set name="default_action" val="skill_reduce" />
 		<set name="immediate_effect" val="1" />
@@ -1250,7 +1250,7 @@
 		<set name="is_oly_restricted" val="true" />
 		<set name="item_skill" val="9074-1" />
 	</item>
-	<item id="15493" type="EtcItem" name="Fantasy Mushroom Pouch">
+	<item id="15493" type="EtcItem" name="夢幻蘑菇孢子">
 		<set name="icon" val="icon.etc_pouch_yellow_i00" />
 		<set name="immediate_effect" val="1" />
 		<set name="material" val="crystal" />
@@ -1262,7 +1262,7 @@
 		<set name="is_questitem" val="true" />
 		<set name="is_oly_restricted" val="true" />
 	</item>
-	<item id="15494" type="EtcItem" name="Sticky Mushroom Pouch">
+	<item id="15494" type="EtcItem" name="黏黏蘑菇孢子">
 		<set name="icon" val="icon.etc_pouch_gray_i00" />
 		<set name="immediate_effect" val="1" />
 		<set name="material" val="crystal" />
@@ -1274,7 +1274,7 @@
 		<set name="is_questitem" val="true" />
 		<set name="is_oly_restricted" val="true" />
 	</item>
-	<item id="15495" type="EtcItem" name="Energy Plant Leaf">
+	<item id="15495" type="EtcItem" name="活力之葉">
 		<set name="icon" val="icon.etc_leaf_blue_i00" />
 		<set name="immediate_effect" val="1" />
 		<set name="material" val="crystal" />
@@ -1286,7 +1286,7 @@
 		<set name="is_questitem" val="true" />
 		<set name="is_oly_restricted" val="true" />
 	</item>
-	<item id="15496" type="EtcItem" name="Seer Ugoros Pass">
+	<item id="15496" type="EtcItem" name="喬尼的認證書">
 		<set name="icon" val="icon.etc_paper_white_i00" />
 		<set name="immediate_effect" val="1" />
 		<set name="material" val="crystal" />
@@ -1298,7 +1298,7 @@
 		<set name="is_questitem" val="true" />
 		<set name="is_oly_restricted" val="true" />
 	</item>
-	<item id="15497" type="EtcItem" name="Highest Grade Lizard Scale">
+	<item id="15497" type="EtcItem" name="最高級蜥蜴鱗片">
 		<set name="icon" val="icon.etc_godad_fish_scale_i00" />
 		<set name="immediate_effect" val="1" />
 		<set name="material" val="crystal" />
@@ -1310,7 +1310,7 @@
 		<set name="is_questitem" val="true" />
 		<set name="is_oly_restricted" val="true" />
 	</item>
-	<item id="15498" type="EtcItem" name="Middle Grade Lizard Scale">
+	<item id="15498" type="EtcItem" name="高級蜥蜴鱗片">
 		<set name="icon" val="icon.etc_innadrile_fish_scale_i00" />
 		<set name="immediate_effect" val="1" />
 		<set name="material" val="crystal" />
@@ -1322,7 +1322,7 @@
 		<set name="is_questitem" val="true" />
 		<set name="is_oly_restricted" val="true" />
 	</item>
-	<item id="15499" type="EtcItem" name="Vial of Tanta Blood">
+	<item id="15499" type="EtcItem" name="血液保管瓶">
 		<set name="icon" val="icon.etc_dragons_blood_i04" />
 		<set name="immediate_effect" val="1" />
 		<set name="material" val="crystal" />

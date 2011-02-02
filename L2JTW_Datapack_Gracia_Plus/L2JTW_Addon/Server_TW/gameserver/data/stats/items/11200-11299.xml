@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <list>
-	<item id="11200" type="Weapon" name="Draconic Bow - Earth - Focus">
+	<item id="11200" type="Weapon" name="紅龍之弓-大地">
 		<set name="icon" val="icon.weapon_draconic_bow_i01" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="bow" />
@@ -33,7 +33,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="11201" type="Weapon" name="Draconic Bow - Earth - Critical Slow">
+	<item id="11201" type="Weapon" name="紅龍之弓-大地">
 		<set name="icon" val="icon.weapon_draconic_bow_i01" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="bow" />
@@ -68,7 +68,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="11202" type="Weapon" name="Dragon Hunter Axe - Thunder">
+	<item id="11202" type="Weapon" name="狩龍之斧-電擊">
 		<set name="icon" val="icon.weapon_dragon_hunter_axe_i00" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="bigblunt" />
@@ -98,7 +98,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="11203" type="Weapon" name="Dragon Hunter Axe - Thunder - HP Regeneration">
+	<item id="11203" type="Weapon" name="狩龍之斧-電擊">
 		<set name="icon" val="icon.weapon_dragon_hunter_axe_i01" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="bigblunt" />
@@ -128,7 +128,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="11204" type="Weapon" name="Dragon Hunter Axe - Thunder - Health">
+	<item id="11204" type="Weapon" name="狩龍之斧-電擊">
 		<set name="icon" val="icon.weapon_dragon_hunter_axe_i01" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="bigblunt" />
@@ -158,7 +158,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="11205" type="Weapon" name="Dragon Hunter Axe - Thunder - HP Drain">
+	<item id="11205" type="Weapon" name="狩龍之斧-電擊">
 		<set name="icon" val="icon.weapon_dragon_hunter_axe_i01" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="bigblunt" />
@@ -188,7 +188,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="11206" type="Weapon" name="Laevateinn - Lightning">
+	<item id="11206" type="Weapon" name="烈焚天-雷鳴">
 		<set name="icon" val="icon.weapon_leavatein_i00" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="rapier" />
@@ -221,7 +221,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="11207" type="Weapon" name="Laevateinn - Lightning - Haste">
+	<item id="11207" type="Weapon" name="烈焚天-雷鳴">
 		<set name="icon" val="icon.weapon_leavatein_i01" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="rapier" />
@@ -254,7 +254,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="11208" type="Weapon" name="Laevateinn - Lightning - Health">
+	<item id="11208" type="Weapon" name="烈焚天-雷鳴">
 		<set name="icon" val="icon.weapon_leavatein_i01" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="rapier" />
@@ -287,7 +287,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="11209" type="Weapon" name="Laevateinn - Lightning - Focus">
+	<item id="11209" type="Weapon" name="烈焚天-雷鳴">
 		<set name="icon" val="icon.weapon_leavatein_i01" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="rapier" />
@@ -320,7 +320,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="11210" type="Weapon" name="Basalt Battlehammer - Concentration">
+	<item id="11210" type="Weapon" name="玄武岩戰鎚-集中">
 		<set name="icon" val="icon.weapon_basalt_battlehammer_i00" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="blunt" />
@@ -350,7 +350,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="11211" type="Weapon" name="Basalt Battlehammer - Concentration - HP Drain">
+	<item id="11211" type="Weapon" name="玄武岩戰鎚-集中">
 		<set name="icon" val="icon.weapon_basalt_battlehammer_i01" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="blunt" />
@@ -380,7 +380,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="11212" type="Weapon" name="Basalt Battlehammer - Concentration - Health">
+	<item id="11212" type="Weapon" name="玄武岩戰鎚-集中">
 		<set name="icon" val="icon.weapon_basalt_battlehammer_i01" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="blunt" />
@@ -410,7 +410,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="11213" type="Weapon" name="Basalt Battlehammer - Concentration - HP Regeneration">
+	<item id="11213" type="Weapon" name="玄武岩戰鎚-集中">
 		<set name="icon" val="icon.weapon_basalt_battlehammer_i01" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="blunt" />
@@ -440,7 +440,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="11214" type="Weapon" name="Sarunga - Earth">
+	<item id="11214" type="Weapon" name="薩倫伽神弩-大地">
 		<set name="icon" val="icon.weapon_sarnga_i00" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="crossbow" />
@@ -473,7 +473,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="11215" type="Weapon" name="Sarunga - Earth - Cheap Shot">
+	<item id="11215" type="Weapon" name="薩倫伽神弩-大地">
 		<set name="icon" val="icon.weapon_sarnga_i01" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="crossbow" />
@@ -507,7 +507,7 @@
 			<mul order="0x08" stat="MpConsume" val="0.88" />
 		</for>
 	</item>
-	<item id="11216" type="Weapon" name="Sarunga - Earth - Focus">
+	<item id="11216" type="Weapon" name="薩倫伽神弩-大地">
 		<set name="icon" val="icon.weapon_sarnga_i01" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="crossbow" />
@@ -540,7 +540,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="11217" type="Weapon" name="Sarunga - Earth - Critical Slow">
+	<item id="11217" type="Weapon" name="薩倫伽神弩-大地">
 		<set name="icon" val="icon.weapon_sarnga_i01" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="crossbow" />
@@ -575,7 +575,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="11218" type="Weapon" name="Saint Spear - Destruction">
+	<item id="11218" type="Weapon" name="聖者之矛-破壞">
 		<set name="icon" val="icon.weapon_saint_spear_i00" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="pole" />
@@ -605,7 +605,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="11219" type="Weapon" name="Saint Spear - Destruction - Health">
+	<item id="11219" type="Weapon" name="聖者之矛-破壞">
 		<set name="icon" val="icon.weapon_saint_spear_i01" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="pole" />
@@ -635,7 +635,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="11220" type="Weapon" name="Saint Spear - Destruction - Guidance">
+	<item id="11220" type="Weapon" name="聖者之矛-破壞">
 		<set name="icon" val="icon.weapon_saint_spear_i01" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="pole" />
@@ -665,7 +665,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="11221" type="Weapon" name="Saint Spear - Destruction - Haste">
+	<item id="11221" type="Weapon" name="聖者之矛-破壞">
 		<set name="icon" val="icon.weapon_saint_spear_i01" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="pole" />
@@ -695,7 +695,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="11222" type="Weapon" name="Arcana Mace - Nature">
+	<item id="11222" type="Weapon" name="祕儀權杖-自然">
 		<set name="icon" val="icon.weapon_arcana_mace_i00" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="blunt" />
@@ -726,7 +726,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="11223" type="Weapon" name="Arcana Mace - Nature - Acumen">
+	<item id="11223" type="Weapon" name="祕儀權杖-自然">
 		<set name="icon" val="icon.weapon_arcana_mace_i01" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="blunt" />
@@ -757,7 +757,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="11224" type="Weapon" name="Arcana Mace - Nature - MP Regeneration">
+	<item id="11224" type="Weapon" name="祕儀權杖-自然">
 		<set name="icon" val="icon.weapon_arcana_mace_i01" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="blunt" />
@@ -788,7 +788,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="11225" type="Weapon" name="Arcana Mace - Nature - Mana Up">
+	<item id="11225" type="Weapon" name="祕儀權杖-自然">
 		<set name="icon" val="icon.weapon_arcana_mace_i01" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="blunt" />
@@ -819,7 +819,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="11226" type="Weapon" name="Angel Slayer - Concentration">
+	<item id="11226" type="Weapon" name="天使殺手-集中">
 		<set name="icon" val="icon.weapon_angel_slayer_i00" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="dagger" />
@@ -849,7 +849,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="11227" type="Weapon" name="Angel Slayer - Concentration - Critical Damage">
+	<item id="11227" type="Weapon" name="天使殺手-集中">
 		<set name="icon" val="icon.weapon_angel_slayer_i01" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="dagger" />
@@ -879,7 +879,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="11228" type="Weapon" name="Angel Slayer - Concentration - HP Drain">
+	<item id="11228" type="Weapon" name="天使殺手-集中">
 		<set name="icon" val="icon.weapon_angel_slayer_i01" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="dagger" />
@@ -909,7 +909,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="11229" type="Weapon" name="Angel Slayer - Concentration - Haste">
+	<item id="11229" type="Weapon" name="天使殺手-集中">
 		<set name="icon" val="icon.weapon_angel_slayer_i01" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="dagger" />
@@ -939,7 +939,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="11230" type="Weapon" name="Imperial Staff - Nature">
+	<item id="11230" type="Weapon" name="帝國權杖-自然">
 		<set name="icon" val="icon.weapon_imperial_staff_i00" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="bigblunt" />
@@ -970,7 +970,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="11231" type="Weapon" name="Imperial Staff - Nature - Empower">
+	<item id="11231" type="Weapon" name="帝國權杖-自然">
 		<set name="icon" val="icon.weapon_imperial_staff_i01" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="bigblunt" />
@@ -1001,7 +1001,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="11232" type="Weapon" name="Imperial Staff - Nature - MP Regeneration">
+	<item id="11232" type="Weapon" name="帝國權杖-自然">
 		<set name="icon" val="icon.weapon_imperial_staff_i01" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="bigblunt" />
@@ -1032,7 +1032,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="11233" type="Weapon" name="Imperial Staff - Nature - Magic Hold">
+	<item id="11233" type="Weapon" name="帝國權杖-自然">
 		<set name="icon" val="icon.weapon_imperial_staff_i01" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="bigblunt" />
@@ -1065,7 +1065,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="11234" type="Weapon" name="Tallum Blade*Dark Legion's Edge - Lightning">
+	<item id="11234" type="Weapon" name="塔魯刀*黑暗軍刀-雷鳴">
 		<set name="icon" val="icon.weapon_dual_sword_i00" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="dual" />
@@ -1094,7 +1094,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="11235" type="Weapon" name="Forgotten Blade - Lightning">
+	<item id="11235" type="Weapon" name="忘卻之刃-雷鳴">
 		<set name="icon" val="icon.weapon_forgotten_blade_i00" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="sword" />
@@ -1123,7 +1123,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="11236" type="Weapon" name="Forgotten Blade - Lightning - Haste">
+	<item id="11236" type="Weapon" name="忘卻之刃-雷鳴">
 		<set name="icon" val="icon.weapon_forgotten_blade_i01" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="sword" />
@@ -1152,7 +1152,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="11237" type="Weapon" name="Forgotten Blade - Lightning - Health">
+	<item id="11237" type="Weapon" name="忘卻之刃-雷鳴">
 		<set name="icon" val="icon.weapon_forgotten_blade_i01" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="sword" />
@@ -1181,7 +1181,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="11238" type="Weapon" name="Forgotten Blade - Lightning - Focus">
+	<item id="11238" type="Weapon" name="忘卻之刃-雷鳴">
 		<set name="icon" val="icon.weapon_forgotten_blade_i01" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="sword" />
@@ -1210,7 +1210,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="11239" type="Weapon" name="Heaven's Divider - Thunder">
+	<item id="11239" type="Weapon" name="天國審判-電擊">
 		<set name="icon" val="icon.weapon_heavens_divider_i00" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="bigsword" />
@@ -1239,7 +1239,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="11240" type="Weapon" name="Heaven's Divider - Thunder - Haste">
+	<item id="11240" type="Weapon" name="天國審判-電擊">
 		<set name="icon" val="icon.weapon_heavens_divider_i01" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="bigsword" />
@@ -1268,7 +1268,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="11241" type="Weapon" name="Heaven's Divider - Thunder - Health">
+	<item id="11241" type="Weapon" name="天國審判-電擊">
 		<set name="icon" val="icon.weapon_heavens_divider_i01" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="bigsword" />
@@ -1297,7 +1297,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="11242" type="Weapon" name="Heaven's Divider - Thunder - Focus">
+	<item id="11242" type="Weapon" name="天國審判-電擊">
 		<set name="icon" val="icon.weapon_heavens_divider_i01" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="bigsword" />
@@ -1326,7 +1326,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="11243" type="Weapon" name="Dynasty Ancient Sword - Great Gale">
+	<item id="11243" type="Weapon" name="王朝古代劍-疾風">
 		<set name="icon" val="icon.weapon_dynasty_ancient_sword_i00" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="ancientsword" />
@@ -1358,7 +1358,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="11244" type="Weapon" name="Dynasty Ancient Sword - Great Gale - Focus">
+	<item id="11244" type="Weapon" name="王朝古代劍-疾風">
 		<set name="icon" val="icon.weapon_dynasty_ancient_sword_i01" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="ancientsword" />
@@ -1390,7 +1390,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="11245" type="Weapon" name="Dynasty Ancient Sword - Great Gale - Health">
+	<item id="11245" type="Weapon" name="王朝古代劍-疾風">
 		<set name="icon" val="icon.weapon_dynasty_ancient_sword_i01" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="ancientsword" />
@@ -1422,7 +1422,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="11246" type="Weapon" name="Dynasty Ancient Sword - Great Gale - Light">
+	<item id="11246" type="Weapon" name="王朝古代劍-疾風">
 		<set name="icon" val="icon.weapon_dynasty_ancient_sword_i01" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="ancientsword" />
@@ -1454,7 +1454,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="11247" type="Weapon" name="Dynasty Knife - Great Gale">
+	<item id="11247" type="Weapon" name="王朝小刀-疾風">
 		<set name="icon" val="icon.weapon_dynasty_dagger_i00" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="dagger" />
@@ -1484,7 +1484,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="11248" type="Weapon" name="Dynasty Knife - Great Gale - Focus">
+	<item id="11248" type="Weapon" name="王朝小刀-疾風">
 		<set name="icon" val="icon.weapon_dynasty_dagger_i01" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="dagger" />
@@ -1514,7 +1514,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="11249" type="Weapon" name="Dynasty Knife - Great Gale - Evasion">
+	<item id="11249" type="Weapon" name="王朝小刀-疾風">
 		<set name="icon" val="icon.weapon_dynasty_dagger_i01" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="dagger" />
@@ -1544,7 +1544,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="11250" type="Weapon" name="Dynasty Knife - Great Gale - Critical Damage">
+	<item id="11250" type="Weapon" name="王朝小刀-疾風">
 		<set name="icon" val="icon.weapon_dynasty_dagger_i01" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="dagger" />
@@ -1574,7 +1574,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="11251" type="Weapon" name="Dynasty Dual Sword - Earth">
+	<item id="11251" type="Weapon" name="王朝雙刀-大地">
 		<set name="icon" val="icon.weapon_dual_sword_i00" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="dual" />
@@ -1603,7 +1603,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="11252" type="Weapon" name="Dynasty Rapier - Earth">
+	<item id="11252" type="Weapon" name="王朝細劍-大地">
 		<set name="icon" val="icon.weapon_dynasty_rapier_i00" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="rapier" />
@@ -1636,7 +1636,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="11253" type="Weapon" name="Dynasty Rapier - Earth - Focus">
+	<item id="11253" type="Weapon" name="王朝細劍-大地">
 		<set name="icon" val="icon.weapon_dynasty_rapier_i01" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="rapier" />
@@ -1669,7 +1669,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="11254" type="Weapon" name="Dynasty Rapier - Earth - Health">
+	<item id="11254" type="Weapon" name="王朝細劍-大地">
 		<set name="icon" val="icon.weapon_dynasty_rapier_i01" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="rapier" />
@@ -1702,7 +1702,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="11255" type="Weapon" name="Dynasty Rapier - Earth - Light">
+	<item id="11255" type="Weapon" name="王朝細劍-大地">
 		<set name="icon" val="icon.weapon_dynasty_rapier_i01" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="rapier" />
@@ -1735,7 +1735,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="11256" type="Weapon" name="Dynasty Mace - Earth">
+	<item id="11256" type="Weapon" name="王朝釘鎚-大地">
 		<set name="icon" val="icon.weapon_dynasty_staff_i00" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="blunt" />
@@ -1766,7 +1766,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="11257" type="Weapon" name="Dynasty Mace - Earth - Mana Up">
+	<item id="11257" type="Weapon" name="王朝釘鎚-大地">
 		<set name="icon" val="icon.weapon_dynasty_staff_i01" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="blunt" />
@@ -1797,7 +1797,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="11258" type="Weapon" name="Dynasty Mace - Earth - Conversion">
+	<item id="11258" type="Weapon" name="王朝釘鎚-大地">
 		<set name="icon" val="icon.weapon_dynasty_staff_i01" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="blunt" />
@@ -1828,7 +1828,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="11259" type="Weapon" name="Dynasty Mace - Earth - Acumen">
+	<item id="11259" type="Weapon" name="王朝釘鎚-大地">
 		<set name="icon" val="icon.weapon_dynasty_staff_i01" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="blunt" />
@@ -1859,7 +1859,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="11260" type="Weapon" name="Dynasty Bagh-Nakh - Great Gale">
+	<item id="11260" type="Weapon" name="王朝拳套爪-疾風">
 		<set name="icon" val="icon.weapon_dynasty_jamadhr_i00" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="dualfist" />
@@ -1889,7 +1889,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="11261" type="Weapon" name="Dynasty Bagh-Nakh - Great Gale - Rsk. Evasion">
+	<item id="11261" type="Weapon" name="王朝拳套爪-疾風">
 		<set name="icon" val="icon.weapon_dynasty_jamadhr_i01" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="dualfist" />
@@ -1919,7 +1919,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="11262" type="Weapon" name="Dynasty Bagh-Nakh - Great Gale - Focus">
+	<item id="11262" type="Weapon" name="王朝拳套爪-疾風">
 		<set name="icon" val="icon.weapon_dynasty_jamadhr_i01" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="dualfist" />
@@ -1949,7 +1949,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="11263" type="Weapon" name="Dynasty Bagh-Nakh - Great Gale - Haste">
+	<item id="11263" type="Weapon" name="王朝拳套爪-疾風">
 		<set name="icon" val="icon.weapon_dynasty_jamadhr_i01" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="dualfist" />
@@ -1979,7 +1979,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="11264" type="Weapon" name="Dynasty Bow - Great Gale">
+	<item id="11264" type="Weapon" name="王朝弓-疾風">
 		<set name="icon" val="icon.weapon_dynasty_bow_i00" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="bow" />
@@ -2012,7 +2012,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="11265" type="Weapon" name="Dynasty Bow - Great Gale - Cheap Shot">
+	<item id="11265" type="Weapon" name="王朝弓-疾風">
 		<set name="icon" val="icon.weapon_dynasty_bow_i01" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="bow" />
@@ -2050,7 +2050,7 @@
 			</set>
 		</for>
 	</item>
-	<item id="11266" type="Weapon" name="Dynasty Bow - Great Gale - Guidance">
+	<item id="11266" type="Weapon" name="王朝弓-疾風">
 		<set name="icon" val="icon.weapon_dynasty_bow_i01" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="bow" />
@@ -2083,7 +2083,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="11267" type="Weapon" name="Dynasty Bow - Great Gale - Focus">
+	<item id="11267" type="Weapon" name="王朝弓-疾風">
 		<set name="icon" val="icon.weapon_dynasty_bow_i01" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="bow" />
@@ -2116,7 +2116,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="11268" type="Weapon" name="Dynasty Blade - Great Gale">
+	<item id="11268" type="Weapon" name="王朝之刃-疾風">
 		<set name="icon" val="icon.weapon_dynasty_twohand_sword_i00" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="bigsword" />
@@ -2145,7 +2145,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="11269" type="Weapon" name="Dynasty Blade - Great Gale - Focus">
+	<item id="11269" type="Weapon" name="王朝之刃-疾風">
 		<set name="icon" val="icon.weapon_dynasty_twohand_sword_i01" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="bigsword" />
@@ -2174,7 +2174,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="11270" type="Weapon" name="Dynasty Blade - Great Gale - Health">
+	<item id="11270" type="Weapon" name="王朝之刃-疾風">
 		<set name="icon" val="icon.weapon_dynasty_twohand_sword_i01" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="bigsword" />
@@ -2203,7 +2203,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="11271" type="Weapon" name="Dynasty Blade - Great Gale - Light">
+	<item id="11271" type="Weapon" name="王朝之刃-疾風">
 		<set name="icon" val="icon.weapon_dynasty_twohand_sword_i01" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="bigsword" />
@@ -2232,7 +2232,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="11272" type="Weapon" name="Dynasty Sword - Earth">
+	<item id="11272" type="Weapon" name="王朝劍-大地">
 		<set name="icon" val="icon.weapon_dynasty_blade_i00" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="sword" />
@@ -2261,7 +2261,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="11273" type="Weapon" name="Dynasty Sword - Earth - Focus">
+	<item id="11273" type="Weapon" name="王朝劍-大地">
 		<set name="icon" val="icon.weapon_dynasty_blade_i01" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="sword" />
@@ -2290,7 +2290,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="11274" type="Weapon" name="Dynasty Sword - Earth - Health">
+	<item id="11274" type="Weapon" name="王朝劍-大地">
 		<set name="icon" val="icon.weapon_dynasty_blade_i01" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="sword" />
@@ -2319,7 +2319,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="11275" type="Weapon" name="Dynasty Sword - Earth - Light">
+	<item id="11275" type="Weapon" name="王朝劍-大地">
 		<set name="icon" val="icon.weapon_dynasty_blade_i01" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="sword" />
@@ -2348,7 +2348,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="11276" type="Weapon" name="Dynasty Staff - Holy Spirit">
+	<item id="11276" type="Weapon" name="王朝魔杖-聖靈">
 		<set name="icon" val="icon.weapon_dynasty_twohand_staff_i00" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="bigblunt" />
@@ -2379,7 +2379,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="11277" type="Weapon" name="Dynasty Staff - Holy Spirit - Mana Up">
+	<item id="11277" type="Weapon" name="王朝魔杖-聖靈">
 		<set name="icon" val="icon.weapon_dynasty_twohand_staff_i01" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="bigblunt" />
@@ -2410,7 +2410,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="11278" type="Weapon" name="Dynasty Staff - Holy Spirit - Conversion">
+	<item id="11278" type="Weapon" name="王朝魔杖-聖靈">
 		<set name="icon" val="icon.weapon_dynasty_twohand_staff_i01" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="bigblunt" />
@@ -2441,7 +2441,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="11279" type="Weapon" name="Dynasty Staff - Holy Spirit - Acumen">
+	<item id="11279" type="Weapon" name="王朝魔杖-聖靈">
 		<set name="icon" val="icon.weapon_dynasty_twohand_staff_i01" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="bigblunt" />
@@ -2472,7 +2472,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="11280" type="Weapon" name="Dynasty Cudgel - Landslide">
+	<item id="11280" type="Weapon" name="王朝戰鎚-山崩">
 		<set name="icon" val="icon.weapon_dynasty_hammer_i00" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="blunt" />
@@ -2502,7 +2502,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="11281" type="Weapon" name="Dynasty Cudgel - Landslide - Anger">
+	<item id="11281" type="Weapon" name="王朝戰鎚-山崩">
 		<set name="icon" val="icon.weapon_dynasty_hammer_i01" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="blunt" />
@@ -2532,7 +2532,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="11282" type="Weapon" name="Dynasty Cudgel - Landslide - Health">
+	<item id="11282" type="Weapon" name="王朝戰鎚-山崩">
 		<set name="icon" val="icon.weapon_dynasty_hammer_i01" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="blunt" />
@@ -2562,7 +2562,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="11283" type="Weapon" name="Dynasty Cudgel - Landslide - Rsk. Focus">
+	<item id="11283" type="Weapon" name="王朝戰鎚-山崩">
 		<set name="icon" val="icon.weapon_dynasty_hammer_i01" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="blunt" />
@@ -2592,7 +2592,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="11284" type="Weapon" name="Dynasty Crusher - Great Gale">
+	<item id="11284" type="Weapon" name="王朝毀滅者-疾風">
 		<set name="icon" val="icon.weapon_dynasty_crusher_i00" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="bigblunt" />
@@ -2622,7 +2622,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="11285" type="Weapon" name="Dynasty Crusher - Great Gale - Anger">
+	<item id="11285" type="Weapon" name="王朝毀滅者-疾風">
 		<set name="icon" val="icon.weapon_dynasty_crusher_i01" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="bigblunt" />
@@ -2652,7 +2652,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="11286" type="Weapon" name="Dynasty Crusher - Great Gale - Health">
+	<item id="11286" type="Weapon" name="王朝毀滅者-疾風">
 		<set name="icon" val="icon.weapon_dynasty_crusher_i01" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="bigblunt" />
@@ -2682,7 +2682,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="11287" type="Weapon" name="Dynasty Crusher - Great Gale - Rsk. Focus">
+	<item id="11287" type="Weapon" name="王朝毀滅者-疾風">
 		<set name="icon" val="icon.weapon_dynasty_crusher_i01" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="bigblunt" />
@@ -2712,7 +2712,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="11288" type="Weapon" name="Dynasty Crossbow - Great Gale">
+	<item id="11288" type="Weapon" name="王朝十字弓-疾風">
 		<set name="icon" val="icon.weapon_dynasty_crossbow_i00" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="crossbow" />
@@ -2745,7 +2745,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="11289" type="Weapon" name="Dynasty Crossbow - Great Gale - Cheap Shot">
+	<item id="11289" type="Weapon" name="王朝十字弓-疾風">
 		<set name="icon" val="icon.weapon_dynasty_crossbow_i01" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="crossbow" />
@@ -2779,7 +2779,7 @@
 			<mul order="0x08" stat="MpConsume" val="0.88" />
 		</for>
 	</item>
-	<item id="11290" type="Weapon" name="Dynasty Crossbow - Great Gale - Guidance">
+	<item id="11290" type="Weapon" name="王朝十字弓-疾風">
 		<set name="icon" val="icon.weapon_dynasty_crossbow_i01" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="crossbow" />
@@ -2812,7 +2812,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="11291" type="Weapon" name="Dynasty Crossbow - Great Gale - Focus">
+	<item id="11291" type="Weapon" name="王朝十字弓-疾風">
 		<set name="icon" val="icon.weapon_dynasty_crossbow_i01" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="crossbow" />
@@ -2845,7 +2845,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="11292" type="Weapon" name="Dynasty Phantom - Nature">
+	<item id="11292" type="Weapon" name="王朝幻影劍-自然">
 		<set name="icon" val="icon.weapon_dynasty_magic_sword_i00" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="sword" />
@@ -2874,7 +2874,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="11293" type="Weapon" name="Dynasty Phantom - Nature - Acumen">
+	<item id="11293" type="Weapon" name="王朝幻影劍-自然">
 		<set name="icon" val="icon.weapon_dynasty_magic_sword_i01" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="sword" />
@@ -2903,7 +2903,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="11294" type="Weapon" name="Dynasty Phantom - Nature - Mana Up">
+	<item id="11294" type="Weapon" name="王朝幻影劍-自然">
 		<set name="icon" val="icon.weapon_dynasty_magic_sword_i01" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="sword" />
@@ -2932,7 +2932,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="11295" type="Weapon" name="Dynasty Phantom - Nature - Conversion">
+	<item id="11295" type="Weapon" name="王朝幻影劍-自然">
 		<set name="icon" val="icon.weapon_dynasty_magic_sword_i01" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="sword" />
@@ -2961,7 +2961,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="11296" type="Weapon" name="Dynasty Halberd - Earth">
+	<item id="11296" type="Weapon" name="王朝長柄戰戟-大地">
 		<set name="icon" val="icon.weapon_dynasty_spear_i00" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="pole" />
@@ -2991,7 +2991,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="11297" type="Weapon" name="Dynasty Halberd - Earth - Anger">
+	<item id="11297" type="Weapon" name="王朝長柄戰戟-大地">
 		<set name="icon" val="icon.weapon_dynasty_spear_i01" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="pole" />
@@ -3021,7 +3021,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="11298" type="Weapon" name="Dynasty Halberd - Earth - Critical Stun">
+	<item id="11298" type="Weapon" name="王朝長柄戰戟-大地">
 		<set name="icon" val="icon.weapon_dynasty_spear_i01" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="pole" />
@@ -3053,7 +3053,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="11299" type="Weapon" name="Dynasty Halberd - Earth - Light">
+	<item id="11299" type="Weapon" name="王朝長柄戰戟-大地">
 		<set name="icon" val="icon.weapon_dynasty_spear_i01" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="pole" />

@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <list>
-	<item id="11700" type="Weapon" name="Common Item - Spinebone Sword*Artisan's Sword">
+	<item id="11700" type="Weapon" name="基本型-椎骨之劍*工匠之劍">
 		<set name="icon" val="icon.weapon_dual_sword_i00" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="dual" />
@@ -23,7 +23,7 @@
 			<set order="0x08" stat="pAtkSpd" val="325" />
 		</for>
 	</item>
-	<item id="11701" type="Weapon" name="Common Item - Arm Breaker">
+	<item id="11701" type="Weapon" name="基本型-爆破之臂">
 		<set name="icon" val="icon.weapon_hunting_gun_i00" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="crossbow" />
@@ -51,7 +51,7 @@
 			<set order="0x08" stat="pAtkSpd" val="303" />
 		</for>
 	</item>
-	<item id="11702" type="Weapon" name="Common Item - Epee">
+	<item id="11702" type="Weapon" name="基本型-銳劍">
 		<set name="icon" val="icon.weapon_rapier_i00" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="rapier" />
@@ -79,7 +79,7 @@
 			<set order="0x08" stat="pAtkSpd" val="406" />
 		</for>
 	</item>
-	<item id="11703" type="Weapon" name="Common Item - Winged Spear">
+	<item id="11703" type="Weapon" name="基本型-翼之矛">
 		<set name="icon" val="icon.weapon_winged_spear_i00" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="pole" />
@@ -105,7 +105,7 @@
 			<set order="0x08" stat="pAtkSpd" val="325" />
 		</for>
 	</item>
-	<item id="11704" type="Weapon" name="Common Item - Artisan's Sword*Knight's Sword">
+	<item id="11704" type="Weapon" name="基本型-工匠之劍*騎士劍">
 		<set name="icon" val="icon.weapon_dual_sword_i00" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="dual" />
@@ -128,7 +128,7 @@
 			<set order="0x08" stat="pAtkSpd" val="325" />
 		</for>
 	</item>
-	<item id="11705" type="Weapon" name="Common Item - Artisan's Sword*Artisan's Sword">
+	<item id="11705" type="Weapon" name="基本型-工匠之劍*工匠之劍">
 		<set name="icon" val="icon.weapon_dual_sword_i00" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="dual" />
@@ -151,7 +151,7 @@
 			<set order="0x08" stat="pAtkSpd" val="325" />
 		</for>
 	</item>
-	<item id="11706" type="Weapon" name="Common Item - Cursed Maingauche">
+	<item id="11706" type="Weapon" name="基本型-受詛咒的突刺刀">
 		<set name="icon" val="icon.weapon_maingauche_i01" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="dagger" />
@@ -178,7 +178,7 @@
 			<set order="0x08" stat="pAtkSpd" val="433" />
 		</for>
 	</item>
-	<item id="11707" type="Weapon" name="Common Item - Katzbalger">
+	<item id="11707" type="Weapon" name="基本型-格鬥劍">
 		<set name="icon" val="icon.weapon_tulwar_i00" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="ancientsword" />
@@ -205,7 +205,7 @@
 			<set order="0x08" stat="pAtkSpd" val="350" />
 		</for>
 	</item>
-	<item id="11708" type="Weapon" name="Common Item - Tarbar">
+	<item id="11708" type="Weapon" name="基本型-塔巴曲刃斧">
 		<set name="icon" val="icon.weapon_tarbar_i00" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="blunt" />
@@ -230,7 +230,7 @@
 			<set order="0x08" stat="pAtkSpd" val="379" />
 		</for>
 	</item>
-	<item id="11709" type="Weapon" name="Common Item - Crucifix of Blood">
+	<item id="11709" type="Weapon" name="基本型-染血十字架">
 		<set name="icon" val="icon.weapon_crucifix_of_blood_i00" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="etc" />
@@ -254,7 +254,7 @@
 			<set order="0x08" stat="pAtkSpd" val="379" />
 		</for>
 	</item>
-	<item id="11710" type="Weapon" name="Common Item - Titan Sword">
+	<item id="11710" type="Weapon" name="基本型-下巨人之劍">
 		<set name="icon" val="icon.weapon_giants_sword_i00" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="bigsword" />
@@ -278,7 +278,7 @@
 			<set order="0x08" stat="pAtkSpd" val="325" />
 		</for>
 	</item>
-	<item id="11711" type="Weapon" name="Common Item - Titan Hammer">
+	<item id="11711" type="Weapon" name="基本型-下巨人之鎚">
 		<set name="icon" val="icon.weapon_giants_hammer_i00" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="bigblunt" />
@@ -303,7 +303,7 @@
 			<set order="0x08" stat="pAtkSpd" val="325" />
 		</for>
 	</item>
-	<item id="11712" type="Weapon" name="Common Item - War Pick">
+	<item id="11712" type="Weapon" name="基本型-火鎚">
 		<set name="icon" val="icon.weapon_hammer_in_flames_i00" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="pole" />
@@ -329,7 +329,7 @@
 			<set order="0x08" stat="pAtkSpd" val="325" />
 		</for>
 	</item>
-	<item id="11713" type="Weapon" name="Common Item - Heavy Bone Club">
+	<item id="11713" type="Weapon" name="基本型-巨大骨棒">
 		<set name="icon" val="icon.weapon_heavy_bone_club_i00" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="blunt" />
@@ -354,7 +354,7 @@
 			<set order="0x08" stat="pAtkSpd" val="379" />
 		</for>
 	</item>
-	<item id="11714" type="Weapon" name="Common Item - Sword of Revolution">
+	<item id="11714" type="Weapon" name="基本型-革命劍">
 		<set name="icon" val="icon.weapon_sword_of_revolution_i00" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="sword" />
@@ -378,7 +378,7 @@
 			<set order="0x08" stat="pAtkSpd" val="379" />
 		</for>
 	</item>
-	<item id="11715" type="Weapon" name="Common Item - Demon Fangs">
+	<item id="11715" type="Weapon" name="基本型-惡魔尖牙">
 		<set name="icon" val="icon.weapon_demon_fangs_i00" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="etc" />
@@ -402,7 +402,7 @@
 			<set order="0x08" stat="pAtkSpd" val="379" />
 		</for>
 	</item>
-	<item id="11716" type="Weapon" name="Common Item - Knight's Sword*Elven Sword">
+	<item id="11716" type="Weapon" name="基本型-騎士劍*精靈劍">
 		<set name="icon" val="icon.weapon_dual_sword_i00" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="dual" />
@@ -425,7 +425,7 @@
 			<set order="0x08" stat="pAtkSpd" val="325" />
 		</for>
 	</item>
-	<item id="11717" type="Weapon" name="Common Item - Knight's Sword*Crimson Sword">
+	<item id="11717" type="Weapon" name="基本型-騎士劍*緋紅劍">
 		<set name="icon" val="icon.weapon_dual_sword_i00" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="dual" />
@@ -448,7 +448,7 @@
 			<set order="0x08" stat="pAtkSpd" val="325" />
 		</for>
 	</item>
-	<item id="11718" type="Weapon" name="Common Item - Bastard Sword*Elven Sword">
+	<item id="11718" type="Weapon" name="基本型-重劍*精靈劍">
 		<set name="icon" val="icon.weapon_dual_sword_i00" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="dual" />
@@ -471,7 +471,7 @@
 			<set order="0x08" stat="pAtkSpd" val="325" />
 		</for>
 	</item>
-	<item id="11719" type="Weapon" name="Common Item - Bastard Sword*Crimson Sword">
+	<item id="11719" type="Weapon" name="基本型-重劍*緋紅劍">
 		<set name="icon" val="icon.weapon_dual_sword_i00" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="dual" />
@@ -494,7 +494,7 @@
 			<set order="0x08" stat="pAtkSpd" val="325" />
 		</for>
 	</item>
-	<item id="11720" type="Weapon" name="Common Item - Spinebone Sword*Elven Sword">
+	<item id="11720" type="Weapon" name="基本型-椎骨之劍*精靈劍">
 		<set name="icon" val="icon.weapon_dual_sword_i00" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="dual" />
@@ -517,7 +517,7 @@
 			<set order="0x08" stat="pAtkSpd" val="325" />
 		</for>
 	</item>
-	<item id="11721" type="Weapon" name="Common Item - Spinebone Sword*Crimson Sword">
+	<item id="11721" type="Weapon" name="基本型-椎骨之劍*緋紅劍">
 		<set name="icon" val="icon.weapon_dual_sword_i00" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="dual" />
@@ -540,7 +540,7 @@
 			<set order="0x08" stat="pAtkSpd" val="325" />
 		</for>
 	</item>
-	<item id="11722" type="Weapon" name="Common Item - Artisan's Sword*Elven Sword">
+	<item id="11722" type="Weapon" name="基本型-工匠之劍*精靈劍">
 		<set name="icon" val="icon.weapon_dual_sword_i00" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="dual" />
@@ -563,7 +563,7 @@
 			<set order="0x08" stat="pAtkSpd" val="325" />
 		</for>
 	</item>
-	<item id="11723" type="Weapon" name="Common Item - Artisan's Sword*Crimson Sword">
+	<item id="11723" type="Weapon" name="基本型-工匠之劍*緋紅劍">
 		<set name="icon" val="icon.weapon_dual_sword_i00" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="dual" />
@@ -586,7 +586,7 @@
 			<set order="0x08" stat="pAtkSpd" val="325" />
 		</for>
 	</item>
-	<item id="11724" type="Weapon" name="Common Item - Grand Epee">
+	<item id="11724" type="Weapon" name="基本型-巨銳劍">
 		<set name="icon" val="icon.weapon_rapier_i00" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="rapier" />
@@ -614,7 +614,7 @@
 			<set order="0x08" stat="pAtkSpd" val="406" />
 		</for>
 	</item>
-	<item id="11725" type="Weapon" name="Common Item - Glaive">
+	<item id="11725" type="Weapon" name="基本型-闊矛">
 		<set name="icon" val="icon.weapon_glaive_i00" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="pole" />
@@ -640,7 +640,7 @@
 			<set order="0x08" stat="pAtkSpd" val="325" />
 		</for>
 	</item>
-	<item id="11726" type="Weapon" name="Common Item - Mithril Dagger">
+	<item id="11726" type="Weapon" name="基本型-米索莉匕首">
 		<set name="icon" val="icon.weapon_mithril_dagger_i00" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="dagger" />
@@ -665,7 +665,7 @@
 			<set order="0x08" stat="pAtkSpd" val="433" />
 		</for>
 	</item>
-	<item id="11727" type="Weapon" name="Common Item - Bonebreaker">
+	<item id="11727" type="Weapon" name="基本型-碎骨者">
 		<set name="icon" val="icon.weapon_bonebreaker_i00" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="blunt" />
@@ -690,7 +690,7 @@
 			<set order="0x08" stat="pAtkSpd" val="379" />
 		</for>
 	</item>
-	<item id="11728" type="Weapon" name="Common Item - Light Crossbow">
+	<item id="11728" type="Weapon" name="基本型-風暴弓">
 		<set name="icon" val="icon.weapon_cyclone_bow_i00" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="bow" />
@@ -718,7 +718,7 @@
 			<set order="0x08" stat="pAtkSpd" val="293" />
 		</for>
 	</item>
-	<item id="11729" type="Weapon" name="Common Item - Staff of Life">
+	<item id="11729" type="Weapon" name="基本型-生命手杖">
 		<set name="icon" val="icon.weapon_life_stick_i00" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="blunt" />
@@ -744,7 +744,7 @@
 			<set order="0x08" stat="pAtkSpd" val="379" />
 		</for>
 	</item>
-	<item id="11730" type="Weapon" name="Common Item - Scallop Jamadhr">
+	<item id="11730" type="Weapon" name="基本型-波浪刀">
 		<set name="icon" val="icon.weapon_scallop_jamadhr_i00" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="dualfist" />
@@ -769,7 +769,7 @@
 			<set order="0x08" stat="pAtkSpd" val="325" />
 		</for>
 	</item>
-	<item id="11731" type="Weapon" name="Common Item - Atuba Mace">
+	<item id="11731" type="Weapon" name="基本型-阿吐巴釘鎚">
 		<set name="icon" val="icon.weapon_atuba_mace_i00" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="bigblunt" />
@@ -795,7 +795,7 @@
 			<set order="0x08" stat="pAtkSpd" val="325" />
 		</for>
 	</item>
-	<item id="11732" type="Weapon" name="Common Item - Atuba Hammer">
+	<item id="11732" type="Weapon" name="基本型-阿吐巴鎚">
 		<set name="icon" val="icon.weapon_atuba_hammer_i00" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="bigblunt" />
@@ -821,7 +821,7 @@
 			<set order="0x08" stat="pAtkSpd" val="325" />
 		</for>
 	</item>
-	<item id="11733" type="Weapon" name="Common Item - Elven Long Sword">
+	<item id="11733" type="Weapon" name="基本型-精靈長劍">
 		<set name="icon" val="icon.weapon_elven_long_sword_i00" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="sword" />
@@ -845,7 +845,7 @@
 			<set order="0x08" stat="pAtkSpd" val="379" />
 		</for>
 	</item>
-	<item id="11734" type="Weapon" name="Common Item - General's Katzbalger">
+	<item id="11734" type="Weapon" name="基本型-將軍格鬥劍">
 		<set name="icon" val="icon.weapon_tulwar_i00" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="ancientsword" />
@@ -872,7 +872,7 @@
 			<set order="0x08" stat="pAtkSpd" val="350" />
 		</for>
 	</item>
-	<item id="11735" type="Weapon" name="Common Item - Cranequin">
+	<item id="11735" type="Weapon" name="基本型-齒輪弩">
 		<set name="icon" val="icon.weapon_hunting_gun_i00" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="crossbow" />
@@ -900,7 +900,7 @@
 			<set order="0x08" stat="pAtkSpd" val="303" />
 		</for>
 	</item>
-	<item id="11736" type="Weapon" name="Common Item - Claymore">
+	<item id="11736" type="Weapon" name="基本型-雙刃大砍刀">
 		<set name="icon" val="icon.weapon_claymore_i00" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="bigsword" />
@@ -924,7 +924,7 @@
 			<set order="0x08" stat="pAtkSpd" val="325" />
 		</for>
 	</item>
-	<item id="11737" type="Weapon" name="Common Item - Ghost Staff">
+	<item id="11737" type="Weapon" name="基本型-魂靈魔杖">
 		<set name="icon" val="icon.weapon_ghost_staff_i00" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="bigblunt" />
@@ -950,7 +950,7 @@
 			<set order="0x08" stat="pAtkSpd" val="325" />
 		</for>
 	</item>
-	<item id="11738" type="Weapon" name="Common Item - Saber*Sword of Revolution">
+	<item id="11738" type="Weapon" name="基本型-軍刀*革命劍">
 		<set name="icon" val="icon.weapon_dual_sword_i00" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="dual" />
@@ -973,7 +973,7 @@
 			<set order="0x08" stat="pAtkSpd" val="325" />
 		</for>
 	</item>
-	<item id="11739" type="Weapon" name="Common Item - Elven Sword*Elven Sword">
+	<item id="11739" type="Weapon" name="基本型-精靈劍*精靈劍">
 		<set name="icon" val="icon.weapon_dual_sword_i00" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="dual" />
@@ -996,7 +996,7 @@
 			<set order="0x08" stat="pAtkSpd" val="325" />
 		</for>
 	</item>
-	<item id="11740" type="Weapon" name="Common Item - Crimson Sword*Elven Sword">
+	<item id="11740" type="Weapon" name="基本型-緋紅劍*精靈劍">
 		<set name="icon" val="icon.weapon_dual_sword_i00" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="dual" />
@@ -1019,7 +1019,7 @@
 			<set order="0x08" stat="pAtkSpd" val="325" />
 		</for>
 	</item>
-	<item id="11741" type="Weapon" name="Common Item - Crimson Sword*Crimson Sword">
+	<item id="11741" type="Weapon" name="基本型-緋紅劍*緋紅劍">
 		<set name="icon" val="icon.weapon_dual_sword_i00" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="dual" />
@@ -1042,7 +1042,7 @@
 			<set order="0x08" stat="pAtkSpd" val="325" />
 		</for>
 	</item>
-	<item id="11742" type="Weapon" name="Common Item - Knight's Sword*Sword of Revolution">
+	<item id="11742" type="Weapon" name="基本型-騎士劍*革命劍">
 		<set name="icon" val="icon.weapon_dual_sword_i00" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="dual" />
@@ -1065,7 +1065,7 @@
 			<set order="0x08" stat="pAtkSpd" val="325" />
 		</for>
 	</item>
-	<item id="11743" type="Weapon" name="Common Item - Bastard Sword*Sword of Revolution">
+	<item id="11743" type="Weapon" name="基本型-重劍*革命劍">
 		<set name="icon" val="icon.weapon_dual_sword_i00" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="dual" />
@@ -1088,7 +1088,7 @@
 			<set order="0x08" stat="pAtkSpd" val="325" />
 		</for>
 	</item>
-	<item id="11744" type="Weapon" name="Common Item - Spinebone Sword*Sword of Revolution">
+	<item id="11744" type="Weapon" name="基本型-椎骨之劍*革命劍">
 		<set name="icon" val="icon.weapon_dual_sword_i00" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="dual" />
@@ -1111,7 +1111,7 @@
 			<set order="0x08" stat="pAtkSpd" val="325" />
 		</for>
 	</item>
-	<item id="11745" type="Weapon" name="Common Item - Artisan's Sword*Sword of Revolution">
+	<item id="11745" type="Weapon" name="基本型-工匠之劍*革命劍">
 		<set name="icon" val="icon.weapon_dual_sword_i00" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="dual" />
@@ -1134,7 +1134,7 @@
 			<set order="0x08" stat="pAtkSpd" val="325" />
 		</for>
 	</item>
-	<item id="11746" type="Weapon" name="Common Item - Wolverine Needle">
+	<item id="11746" type="Weapon" name="基本型-狼之針">
 		<set name="icon" val="icon.weapon_needle_wolverine_i00" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="dagger" />
@@ -1159,7 +1159,7 @@
 			<set order="0x08" stat="pAtkSpd" val="433" />
 		</for>
 	</item>
-	<item id="11747" type="Weapon" name="Common Item - Dark Elven Dagger">
+	<item id="11747" type="Weapon" name="基本型-黑暗精靈匕首">
 		<set name="icon" val="icon.weapon_darkelven_dagger_i00" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="dagger" />
@@ -1184,7 +1184,7 @@
 			<set order="0x08" stat="pAtkSpd" val="433" />
 		</for>
 	</item>
-	<item id="11748" type="Weapon" name="Common Item - Mysterious Sword">
+	<item id="11748" type="Weapon" name="基本型-奧祕之刃">
 		<set name="icon" val="icon.weapon_mystery_sword_i00" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="sword" />
@@ -1208,7 +1208,7 @@
 			<set order="0x08" stat="pAtkSpd" val="379" />
 		</for>
 	</item>
-	<item id="11749" type="Weapon" name="Common Item - Body Slasher">
+	<item id="11749" type="Weapon" name="基本型-殺戮者">
 		<set name="icon" val="icon.weapon_body_slasher_i00" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="pole" />
@@ -1234,7 +1234,7 @@
 			<set order="0x08" stat="pAtkSpd" val="325" />
 		</for>
 	</item>
-	<item id="11750" type="Weapon" name="Common Item - Battle Axe">
+	<item id="11750" type="Weapon" name="基本型-戰斧">
 		<set name="icon" val="icon.weapon_battle_axe_i00" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="blunt" />
@@ -1259,7 +1259,7 @@
 			<set order="0x08" stat="pAtkSpd" val="379" />
 		</for>
 	</item>
-	<item id="11751" type="Weapon" name="Common Item - Scythe">
+	<item id="11751" type="Weapon" name="基本型-大鐮刀">
 		<set name="icon" val="icon.weapon_scythe_i00" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="pole" />
@@ -1285,7 +1285,7 @@
 			<set order="0x08" stat="pAtkSpd" val="325" />
 		</for>
 	</item>
-	<item id="11752" type="Weapon" name="Common Item - Saber*Elven Long Sword">
+	<item id="11752" type="Weapon" name="基本型-軍刀*精靈長劍">
 		<set name="icon" val="icon.weapon_dual_sword_i00" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="dual" />
@@ -1308,7 +1308,7 @@
 			<set order="0x08" stat="pAtkSpd" val="325" />
 		</for>
 	</item>
-	<item id="11753" type="Weapon" name="Common Item - Soldat Estoc">
+	<item id="11753" type="Weapon" name="基本型-軍用刺劍">
 		<set name="icon" val="icon.weapon_soldat_estoc_i00" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="rapier" />
@@ -1336,7 +1336,7 @@
 			<set order="0x08" stat="pAtkSpd" val="406" />
 		</for>
 	</item>
-	<item id="11754" type="Weapon" name="Common Item - Schlager">
+	<item id="11754" type="Weapon" name="基本型-席拉格重劍">
 		<set name="icon" val="icon.weapon_schlaeger_i00" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="ancientsword" />
@@ -1363,7 +1363,7 @@
 			<set order="0x08" stat="pAtkSpd" val="350" />
 		</for>
 	</item>
-	<item id="11755" type="Weapon" name="Common Item - Skull Graver">
+	<item id="11755" type="Weapon" name="基本型-顱骨雕刻者">
 		<set name="icon" val="icon.weapon_skull_graver_i00" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="blunt" />
@@ -1388,7 +1388,7 @@
 			<set order="0x08" stat="pAtkSpd" val="379" />
 		</for>
 	</item>
-	<item id="11756" type="Weapon" name="Common Item - Stormbringer">
+	<item id="11756" type="Weapon" name="基本型-暴風之劍">
 		<set name="icon" val="icon.weapon_stormbringer_i00" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="sword" />
@@ -1412,7 +1412,7 @@
 			<set order="0x08" stat="pAtkSpd" val="379" />
 		</for>
 	</item>
-	<item id="11757" type="Weapon" name="Common Item - Stick of Faith">
+	<item id="11757" type="Weapon" name="基本型-信仰手杖">
 		<set name="icon" val="icon.weapon_stick_of_faith_i00" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="blunt" />
@@ -1438,7 +1438,7 @@
 			<set order="0x08" stat="pAtkSpd" val="379" />
 		</for>
 	</item>
-	<item id="11758" type="Weapon" name="Common Item - Arbalest">
+	<item id="11758" type="Weapon" name="基本型-強弩">
 		<set name="icon" val="icon.weapon_arbalest_i00" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="crossbow" />
@@ -1466,7 +1466,7 @@
 			<set order="0x08" stat="pAtkSpd" val="303" />
 		</for>
 	</item>
-	<item id="11759" type="Weapon" name="Common Item - Crystallized Ice Bow">
+	<item id="11759" type="Weapon" name="基本型-冰晶弓">
 		<set name="icon" val="icon.weapon_crystallized_ice_bow_i00" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="bow" />
@@ -1494,7 +1494,7 @@
 			<set order="0x08" stat="pAtkSpd" val="293" />
 		</for>
 	</item>
-	<item id="11760" type="Weapon" name="Common Item - Orcish Glaive">
+	<item id="11760" type="Weapon" name="基本型-歐西斯闊矛">
 		<set name="icon" val="icon.weapon_orcish_glaive_i00" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="pole" />
@@ -1520,7 +1520,7 @@
 			<set order="0x08" stat="pAtkSpd" val="325" />
 		</for>
 	</item>
-	<item id="11761" type="Weapon" name="Common Item - Silver Axe">
+	<item id="11761" type="Weapon" name="基本型-戰錐">
 		<set name="icon" val="icon.weapon_war_pick_i00" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="blunt" />
@@ -1545,7 +1545,7 @@
 			<set order="0x08" stat="pAtkSpd" val="379" />
 		</for>
 	</item>
-	<item id="11762" type="Weapon" name="Common Item - Cursed Dagger">
+	<item id="11762" type="Weapon" name="基本型-受詛咒的匕首">
 		<set name="icon" val="icon.weapon_cursed_dagger_i00" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="dagger" />
@@ -1570,7 +1570,7 @@
 			<set order="0x08" stat="pAtkSpd" val="433" />
 		</for>
 	</item>
-	<item id="11763" type="Weapon" name="Common Item - Chakram">
+	<item id="11763" type="Weapon" name="基本型-圓月輪">
 		<set name="icon" val="icon.weapon_chakram_i00" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="dualfist" />
@@ -1595,7 +1595,7 @@
 			<set order="0x08" stat="pAtkSpd" val="325" />
 		</for>
 	</item>
-	<item id="11764" type="Weapon" name="Common Item - Crystal Staff">
+	<item id="11764" type="Weapon" name="基本型-水晶魔杖">
 		<set name="icon" val="icon.weapon_crystal_staff_i00" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="bigblunt" />
@@ -1621,7 +1621,7 @@
 			<set order="0x08" stat="pAtkSpd" val="325" />
 		</for>
 	</item>
-	<item id="11765" type="Weapon" name="Common Item - Big Hammer">
+	<item id="11765" type="Weapon" name="基本型-重鎚">
 		<set name="icon" val="icon.weapon_big_hammer_i00" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="blunt" />
@@ -1646,7 +1646,7 @@
 			<set order="0x08" stat="pAtkSpd" val="379" />
 		</for>
 	</item>
-	<item id="11766" type="Weapon" name="Common Item - Flamberge">
+	<item id="11766" type="Weapon" name="基本型-焰形劍">
 		<set name="icon" val="icon.weapon_flamberge_i00" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="bigsword" />
@@ -1670,7 +1670,7 @@
 			<set order="0x08" stat="pAtkSpd" val="325" />
 		</for>
 	</item>
-	<item id="11767" type="Weapon" name="Common Item - Heavy Doom Axe">
+	<item id="11767" type="Weapon" name="基本型-巨大末日斧">
 		<set name="icon" val="icon.weapon_heavy_doom_axe_i00" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="bigblunt" />
@@ -1696,7 +1696,7 @@
 			<set order="0x08" stat="pAtkSpd" val="325" />
 		</for>
 	</item>
-	<item id="11768" type="Weapon" name="Common Item - Heavy Doom Hammer">
+	<item id="11768" type="Weapon" name="基本型-巨大末日鎚">
 		<set name="icon" val="icon.weapon_heavy_doom_hammer_i00" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="bigblunt" />
@@ -1722,7 +1722,7 @@
 			<set order="0x08" stat="pAtkSpd" val="325" />
 		</for>
 	</item>
-	<item id="11769" type="Weapon" name="Common Item - Knight's Sword*Elven Long Sword">
+	<item id="11769" type="Weapon" name="基本型-騎士劍*精靈長劍">
 		<set name="icon" val="icon.weapon_dual_sword_i00" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="dual" />
@@ -1745,7 +1745,7 @@
 			<set order="0x08" stat="pAtkSpd" val="325" />
 		</for>
 	</item>
-	<item id="11770" type="Weapon" name="Common Item - Bastard Sword*Elven Long Sword">
+	<item id="11770" type="Weapon" name="基本型-重劍*精靈長劍">
 		<set name="icon" val="icon.weapon_dual_sword_i00" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="dual" />
@@ -1768,7 +1768,7 @@
 			<set order="0x08" stat="pAtkSpd" val="325" />
 		</for>
 	</item>
-	<item id="11771" type="Weapon" name="Common Item - Spinebone Sword*Elven Long Sword">
+	<item id="11771" type="Weapon" name="基本型-椎骨之劍*精靈長劍">
 		<set name="icon" val="icon.weapon_dual_sword_i00" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="dual" />
@@ -1791,7 +1791,7 @@
 			<set order="0x08" stat="pAtkSpd" val="325" />
 		</for>
 	</item>
-	<item id="11772" type="Weapon" name="Common Item - Elven Sword*Sword of Revolution">
+	<item id="11772" type="Weapon" name="基本型-精靈劍*革命劍">
 		<set name="icon" val="icon.weapon_dual_sword_i00" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="dual" />
@@ -1814,7 +1814,7 @@
 			<set order="0x08" stat="pAtkSpd" val="325" />
 		</for>
 	</item>
-	<item id="11773" type="Weapon" name="Common Item - Artisan's Sword*Elven Long Sword">
+	<item id="11773" type="Weapon" name="基本型-工匠之劍*精靈長劍">
 		<set name="icon" val="icon.weapon_dual_sword_i00" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="dual" />
@@ -1837,7 +1837,7 @@
 			<set order="0x08" stat="pAtkSpd" val="325" />
 		</for>
 	</item>
-	<item id="11774" type="Weapon" name="Common Item - Crimson Sword*Sword of Revolution">
+	<item id="11774" type="Weapon" name="基本型-緋紅劍*革命劍">
 		<set name="icon" val="icon.weapon_dual_sword_i00" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="dual" />
@@ -1860,7 +1860,7 @@
 			<set order="0x08" stat="pAtkSpd" val="325" />
 		</for>
 	</item>
-	<item id="11775" type="Weapon" name="Common Item - Elven Bow of Nobility">
+	<item id="11775" type="Weapon" name="基本型-高級精靈弓">
 		<set name="icon" val="icon.weapon_noble_elven_bow_i00" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="bow" />
@@ -1888,7 +1888,7 @@
 			<set order="0x08" stat="pAtkSpd" val="293" />
 		</for>
 	</item>
-	<item id="11776" type="Weapon" name="Common Item - Knuckle Duster">
+	<item id="11776" type="Weapon" name="基本型-關節拳">
 		<set name="icon" val="icon.weapon_knuckle_dust_i00" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="dualfist" />
@@ -1913,7 +1913,7 @@
 			<set order="0x08" stat="pAtkSpd" val="325" />
 		</for>
 	</item>
-	<item id="11777" type="Weapon" name="Common Item - Dwarven War Hammer">
+	<item id="11777" type="Weapon" name="基本型-矮人戰鎚">
 		<set name="icon" val="icon.weapon_dwarven_warhammer_i00" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="blunt" />
@@ -1938,7 +1938,7 @@
 			<set order="0x08" stat="pAtkSpd" val="379" />
 		</for>
 	</item>
-	<item id="11778" type="Weapon" name="Common Item - Raid Sword">
+	<item id="11778" type="Weapon" name="基本型-襲擊劍">
 		<set name="icon" val="icon.weapon_raid_sword_i00" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="sword" />
@@ -1962,7 +1962,7 @@
 			<set order="0x08" stat="pAtkSpd" val="379" />
 		</for>
 	</item>
-	<item id="11779" type="Weapon" name="Common Item - Soulfire Dirk">
+	<item id="11779" type="Weapon" name="基本型-魔炎匕首">
 		<set name="icon" val="icon.weapon_dagger_of_magicflame_i00" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="dagger" />
@@ -1988,7 +1988,7 @@
 			<set order="0x08" stat="pAtkSpd" val="433" />
 		</for>
 	</item>
-	<item id="11780" type="Weapon" name="Common Item - Ballista">
+	<item id="11780" type="Weapon" name="基本型-弩砲">
 		<set name="icon" val="icon.weapon_arbalest_i00" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="crossbow" />
@@ -2016,7 +2016,7 @@
 			<set order="0x08" stat="pAtkSpd" val="303" />
 		</for>
 	</item>
-	<item id="11781" type="Weapon" name="Common Item - Ballista">
+	<item id="11781" type="Weapon" name="基本型-弩砲">
 		<set name="icon" val="icon.weapon_arbalest_i00" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="crossbow" />
@@ -2044,7 +2044,7 @@
 			<set order="0x08" stat="pAtkSpd" val="303" />
 		</for>
 	</item>
-	<item id="11782" type="Weapon" name="Common Item - Bec de Corbin">
+	<item id="11782" type="Weapon" name="基本型-貝卡合金">
 		<set name="icon" val="icon.weapon_bech_de_corbin_i00" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="pole" />
@@ -2070,7 +2070,7 @@
 			<set order="0x08" stat="pAtkSpd" val="325" />
 		</for>
 	</item>
-	<item id="11783" type="Weapon" name="Common Item - Shamshir">
+	<item id="11783" type="Weapon" name="基本型-彎刀">
 		<set name="icon" val="icon.weapon_shamshir_i00" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="sword" />
@@ -2094,7 +2094,7 @@
 			<set order="0x08" stat="pAtkSpd" val="379" />
 		</for>
 	</item>
-	<item id="11784" type="Weapon" name="Common Item - Chevalier Rapier">
+	<item id="11784" type="Weapon" name="基本型-騎兵細劍">
 		<set name="icon" val="icon.weapon_soldat_estoc_i00" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="rapier" />
@@ -2122,7 +2122,7 @@
 			<set order="0x08" stat="pAtkSpd" val="406" />
 		</for>
 	</item>
-	<item id="11785" type="Weapon" name="Common Item - Chevalier Rapier">
+	<item id="11785" type="Weapon" name="基本型-騎兵細劍">
 		<set name="icon" val="icon.weapon_soldat_estoc_i00" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="rapier" />
@@ -2150,7 +2150,7 @@
 			<set order="0x08" stat="pAtkSpd" val="406" />
 		</for>
 	</item>
-	<item id="11786" type="Weapon" name="Common Item - Chevalier Rapier">
+	<item id="11786" type="Weapon" name="基本型-騎兵細劍">
 		<set name="icon" val="icon.weapon_soldat_estoc_i00" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="rapier" />
@@ -2178,7 +2178,7 @@
 			<set order="0x08" stat="pAtkSpd" val="406" />
 		</for>
 	</item>
-	<item id="11787" type="Weapon" name="Common Item - Chevalier Rapier">
+	<item id="11787" type="Weapon" name="基本型-騎兵細劍">
 		<set name="icon" val="icon.weapon_soldat_estoc_i00" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="rapier" />
@@ -2206,7 +2206,7 @@
 			<set order="0x08" stat="pAtkSpd" val="406" />
 		</for>
 	</item>
-	<item id="11788" type="Weapon" name="Common Item - Stiletto">
+	<item id="11788" type="Weapon" name="基本型-袖珍刀">
 		<set name="icon" val="icon.weapon_stiletto_i00" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="dagger" />
@@ -2231,7 +2231,7 @@
 			<set order="0x08" stat="pAtkSpd" val="433" />
 		</for>
 	</item>
-	<item id="11789" type="Weapon" name="Common Item - Spirit Sword">
+	<item id="11789" type="Weapon" name="基本型-靈魂之劍">
 		<set name="icon" val="icon.weapon_spirits_sword_i00" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="sword" />
@@ -2255,7 +2255,7 @@
 			<set order="0x08" stat="pAtkSpd" val="379" />
 		</for>
 	</item>
-	<item id="11790" type="Weapon" name="Common Item - Elemental Bow">
+	<item id="11790" type="Weapon" name="基本型-元素弓">
 		<set name="icon" val="icon.weapon_elemental_bow_i00" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="bow" />
@@ -2283,7 +2283,7 @@
 			<set order="0x08" stat="pAtkSpd" val="227" />
 		</for>
 	</item>
-	<item id="11791" type="Weapon" name="Common Item - Elven Sword*Elven Long Sword">
+	<item id="11791" type="Weapon" name="基本型-精靈劍*精靈長劍">
 		<set name="icon" val="icon.weapon_dual_sword_i00" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="dual" />
@@ -2307,7 +2307,7 @@
 			<set order="0x08" stat="pAtkSpd" val="325" />
 		</for>
 	</item>
-	<item id="11792" type="Weapon" name="Common Item - Horn of Glory">
+	<item id="11792" type="Weapon" name="基本型-榮譽號角">
 		<set name="icon" val="icon.weapon_horn_of_glory_i00" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="etc" />
@@ -2331,7 +2331,7 @@
 			<set order="0x08" stat="pAtkSpd" val="379" />
 		</for>
 	</item>
-	<item id="11793" type="Weapon" name="Common Item - Cursed Staff">
+	<item id="11793" type="Weapon" name="基本型-受詛咒的魔杖">
 		<set name="icon" val="icon.weapon_cursed_staff_i00" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="bigblunt" />
@@ -2357,7 +2357,7 @@
 			<set order="0x08" stat="pAtkSpd" val="325" />
 		</for>
 	</item>
-	<item id="11794" type="Weapon" name="Common Item - Katana">
+	<item id="11794" type="Weapon" name="基本型-武士刀">
 		<set name="icon" val="icon.weapon_katana_i00" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="sword" />
@@ -2381,7 +2381,7 @@
 			<set order="0x08" stat="pAtkSpd" val="379" />
 		</for>
 	</item>
-	<item id="11795" type="Weapon" name="Common Item - Crimson Sword*Elven Long Sword">
+	<item id="11795" type="Weapon" name="基本型-緋紅劍*精靈長劍">
 		<set name="icon" val="icon.weapon_dual_sword_i00" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="dual" />
@@ -2405,7 +2405,7 @@
 			<set order="0x08" stat="pAtkSpd" val="325" />
 		</for>
 	</item>
-	<item id="11796" type="Weapon" name="Common Item - Sword of Revolution*Sword of Revolution">
+	<item id="11796" type="Weapon" name="基本型-革命劍*革命劍">
 		<set name="icon" val="icon.weapon_dual_sword_i00" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="dual" />
@@ -2429,7 +2429,7 @@
 			<set order="0x08" stat="pAtkSpd" val="325" />
 		</for>
 	</item>
-	<item id="11797" type="Weapon" name="Common Item - Sword of Revolution*Elven Long Sword">
+	<item id="11797" type="Weapon" name="基本型-革命劍*精靈長劍">
 		<set name="icon" val="icon.weapon_dual_sword_i00" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="dual" />
@@ -2453,7 +2453,7 @@
 			<set order="0x08" stat="pAtkSpd" val="325" />
 		</for>
 	</item>
-	<item id="11798" type="Weapon" name="Common Item - Elven Long Sword*Elven Long Sword">
+	<item id="11798" type="Weapon" name="基本型-精靈長劍*精靈長劍">
 		<set name="icon" val="icon.weapon_dual_sword_i00" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="dual" />
@@ -2477,7 +2477,7 @@
 			<set order="0x08" stat="pAtkSpd" val="325" />
 		</for>
 	</item>
-	<item id="11799" type="Weapon" name="Common Item - Stick of Eternity">
+	<item id="11799" type="Weapon" name="基本型-永恆手杖">
 		<set name="icon" val="icon.weapon_stick_of_eternity_i00" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="blunt" />

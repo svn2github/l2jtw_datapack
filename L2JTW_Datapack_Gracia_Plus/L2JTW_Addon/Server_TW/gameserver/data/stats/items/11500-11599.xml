@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <list>
-	<item id="11500" type="Armor" name="Sealed Imperial Crusader Gauntlet">
+	<item id="11500" type="Armor" name="封印的帝國聖軍長手套">
 		<set name="icon" val="icon.armor_t88_g_i02" />
 		<set name="default_action" val="equip" />
 		<set name="bodypart" val="gloves" />
@@ -18,7 +18,7 @@
 			<enchant order="0x0C" stat="pDef" val="0" />
 		</for>
 	</item>
-	<item id="11501" type="Armor" name="Sealed Imperial Crusader Boots">
+	<item id="11501" type="Armor" name="封印的帝國聖軍長靴">
 		<set name="icon" val="icon.armor_t88_b_i02" />
 		<set name="default_action" val="equip" />
 		<set name="bodypart" val="feet" />
@@ -36,7 +36,7 @@
 			<enchant order="0x0C" stat="pDef" val="0" />
 		</for>
 	</item>
-	<item id="11502" type="Armor" name="Sealed Imperial Crusader Shield">
+	<item id="11502" type="Armor" name="封印的帝國聖軍盾">
 		<set name="icon" val="icon.shield_imperial_crusader_shield_i02" />
 		<set name="default_action" val="equip" />
 		<set name="bodypart" val="lhand" />
@@ -57,7 +57,7 @@
 			<enchant val="0" order="0x0C" stat="sDef" />
 		</for>
 	</item>
-	<item id="11503" type="Armor" name="Sealed Imperial Crusader Helmet">
+	<item id="11503" type="Armor" name="封印的帝國聖軍頭盔">
 		<set name="icon" val="icon.armor_helmet_i02" />
 		<set name="default_action" val="equip" />
 		<set name="bodypart" val="head" />
@@ -75,7 +75,7 @@
 			<enchant order="0x0C" stat="pDef" val="0" />
 		</for>
 	</item>
-	<item id="11504" type="Armor" name="Sealed Imperial Crusader Breastplate">
+	<item id="11504" type="Armor" name="封印的帝國聖軍胸甲">
 		<set name="icon" val="icon.armor_t88_u_i02" />
 		<set name="default_action" val="equip" />
 		<set name="armor_type" val="heavy" />
@@ -94,7 +94,7 @@
 			<enchant order="0x0C" stat="pDef" val="0" />
 		</for>
 	</item>
-	<item id="11505" type="Armor" name="Imperial Crusader Gaiters">
+	<item id="11505" type="Armor" name="帝國聖軍脛甲">
 		<set name="icon" val="icon.armor_t88_l_i00" />
 		<set name="default_action" val="equip" />
 		<set name="armor_type" val="heavy" />
@@ -114,7 +114,7 @@
 			<enchant order="0x0C" stat="pDef" val="0" />
 		</for>
 	</item>
-	<item id="11506" type="Armor" name="Imperial Crusader Gauntlet">
+	<item id="11506" type="Armor" name="帝國聖軍長手套">
 		<set name="icon" val="icon.armor_t88_g_i00" />
 		<set name="default_action" val="equip" />
 		<set name="bodypart" val="gloves" />
@@ -133,7 +133,7 @@
 			<enchant order="0x0C" stat="pDef" val="0" />
 		</for>
 	</item>
-	<item id="11507" type="Armor" name="Imperial Crusader Boots">
+	<item id="11507" type="Armor" name="帝國聖軍長靴">
 		<set name="icon" val="icon.armor_t88_b_i00" />
 		<set name="default_action" val="equip" />
 		<set name="bodypart" val="feet" />
@@ -152,7 +152,7 @@
 			<enchant order="0x0C" stat="pDef" val="0" />
 		</for>
 	</item>
-	<item id="11508" type="Armor" name="Imperial Crusader Shield">
+	<item id="11508" type="Armor" name="帝國聖軍盾">
 		<set name="icon" val="icon.shield_imperial_crusader_shield_i00" />
 		<set name="default_action" val="equip" />
 		<set name="bodypart" val="lhand" />
@@ -174,7 +174,7 @@
 			<enchant val="0" order="0x0C" stat="sDef" />
 		</for>
 	</item>
-	<item id="11509" type="Armor" name="Imperial Crusader Helmet">
+	<item id="11509" type="Armor" name="帝國聖軍頭盔">
 		<set name="icon" val="icon.armor_helmet_i00" />
 		<set name="default_action" val="equip" />
 		<set name="bodypart" val="head" />
@@ -193,7 +193,7 @@
 			<enchant order="0x0C" stat="pDef" val="0" />
 		</for>
 	</item>
-	<item id="11510" type="Armor" name="Imperial Crusader Breastplate">
+	<item id="11510" type="Armor" name="帝國聖軍胸甲">
 		<set name="icon" val="icon.armor_t88_u_i00" />
 		<set name="default_action" val="equip" />
 		<set name="armor_type" val="heavy" />
@@ -213,7 +213,7 @@
 			<enchant order="0x0C" stat="pDef" val="0" />
 		</for>
 	</item>
-	<item id="11511" type="Armor" name="Great Wolf Orichalcum Armor">
+	<item id="11511" type="Armor" name="鬃狼奧里哈魯根合金甲">
 		<set name="icon" val="icon.etc_wolf_r_a_01" />
 		<set name="default_action" val="equip" />
 		<set name="armor_type" val="light" />
@@ -227,7 +227,7 @@
 			<add order="0x10" stat="pDef" val="171" />
 		</for>
 	</item>
-	<item id="11512" type="Armor" name="Dynasty Gaiters">
+	<item id="11512" type="Armor" name="王朝脛甲">
 		<set name="icon" val="icon.armor_t91_l_i00" />
 		<set name="default_action" val="equip" />
 		<set name="armor_type" val="heavy" />
@@ -247,7 +247,7 @@
 			<enchant order="0x0C" stat="pDef" val="0" />
 		</for>
 	</item>
-	<item id="11513" type="Armor" name="Dynasty Gauntlet">
+	<item id="11513" type="Armor" name="王朝長手套">
 		<set name="icon" val="icon.armor_t91_g_i00" />
 		<set name="default_action" val="equip" />
 		<set name="bodypart" val="gloves" />
@@ -266,7 +266,7 @@
 			<enchant order="0x0C" stat="pDef" val="0" />
 		</for>
 	</item>
-	<item id="11514" type="Armor" name="Dynasty Gloves">
+	<item id="11514" type="Armor" name="王朝手套">
 		<set name="icon" val="icon.armor_t93_g_i00" />
 		<set name="default_action" val="equip" />
 		<set name="bodypart" val="gloves" />
@@ -285,7 +285,7 @@
 			<enchant order="0x0C" stat="pDef" val="0" />
 		</for>
 	</item>
-	<item id="11515" type="Armor" name="Dynasty Leather Gloves">
+	<item id="11515" type="Armor" name="王朝皮手套">
 		<set name="icon" val="icon.armor_t92_g_i00" />
 		<set name="default_action" val="equip" />
 		<set name="bodypart" val="gloves" />
@@ -303,7 +303,7 @@
 			<enchant order="0x0C" stat="pDef" val="0" />
 		</for>
 	</item>
-	<item id="11516" type="Armor" name="Dynasty Leather Leggings">
+	<item id="11516" type="Armor" name="王朝皮脛甲">
 		<set name="icon" val="icon.armor_t92_l_i00" />
 		<set name="default_action" val="equip" />
 		<set name="armor_type" val="light" />
@@ -322,7 +322,7 @@
 			<enchant order="0x0C" stat="pDef" val="0" />
 		</for>
 	</item>
-	<item id="11517" type="Armor" name="Dynasty Leather Armor">
+	<item id="11517" type="Armor" name="王朝皮甲">
 		<set name="icon" val="icon.armor_t92_u_i00" />
 		<set name="default_action" val="equip" />
 		<set name="armor_type" val="light" />
@@ -341,7 +341,7 @@
 			<enchant order="0x0C" stat="pDef" val="0" />
 		</for>
 	</item>
-	<item id="11518" type="Armor" name="Dynasty Leather Armor">
+	<item id="11518" type="Armor" name="王朝皮甲">
 		<set name="icon" val="icon.armor_t92_ud_i00" />
 		<set name="default_action" val="equip" />
 		<set name="armor_type" val="light" />
@@ -360,7 +360,7 @@
 			<enchant order="0x0C" stat="pDef" val="0" />
 		</for>
 	</item>
-	<item id="11519" type="Armor" name="Dynasty Leather Armor">
+	<item id="11519" type="Armor" name="王朝皮甲">
 		<set name="icon" val="icon.armor_t92_ub_i00" />
 		<set name="default_action" val="equip" />
 		<set name="armor_type" val="light" />
@@ -379,7 +379,7 @@
 			<enchant order="0x0C" stat="pDef" val="0" />
 		</for>
 	</item>
-	<item id="11520" type="Armor" name="Dynasty Leather Armor">
+	<item id="11520" type="Armor" name="王朝皮甲">
 		<set name="icon" val="icon.armor_t92_ud_i00" />
 		<set name="default_action" val="equip" />
 		<set name="armor_type" val="light" />
@@ -398,7 +398,7 @@
 			<enchant order="0x0C" stat="pDef" val="0" />
 		</for>
 	</item>
-	<item id="11521" type="Armor" name="Dynasty Leather Armor">
+	<item id="11521" type="Armor" name="王朝皮甲">
 		<set name="icon" val="icon.armor_t92_ub_i00" />
 		<set name="default_action" val="equip" />
 		<set name="armor_type" val="light" />
@@ -417,7 +417,7 @@
 			<enchant order="0x0C" stat="pDef" val="0" />
 		</for>
 	</item>
-	<item id="11522" type="Armor" name="Dynasty Leather Armor">
+	<item id="11522" type="Armor" name="王朝皮甲">
 		<set name="icon" val="icon.armor_t92_ud_i00" />
 		<set name="default_action" val="equip" />
 		<set name="armor_type" val="light" />
@@ -436,7 +436,7 @@
 			<enchant order="0x0C" stat="pDef" val="0" />
 		</for>
 	</item>
-	<item id="11523" type="Armor" name="Dynasty Leather Armor">
+	<item id="11523" type="Armor" name="王朝皮甲">
 		<set name="icon" val="icon.armor_t92_u_i00" />
 		<set name="default_action" val="equip" />
 		<set name="armor_type" val="light" />
@@ -455,7 +455,7 @@
 			<enchant order="0x0C" stat="pDef" val="0" />
 		</for>
 	</item>
-	<item id="11524" type="Armor" name="Dynasty Leather Boots">
+	<item id="11524" type="Armor" name="王朝皮長靴">
 		<set name="icon" val="icon.armor_t92_b_i00" />
 		<set name="default_action" val="equip" />
 		<set name="bodypart" val="feet" />
@@ -473,7 +473,7 @@
 			<enchant order="0x0C" stat="pDef" val="0" />
 		</for>
 	</item>
-	<item id="11525" type="Armor" name="Dynasty Leather Helmet">
+	<item id="11525" type="Armor" name="王朝皮頭盔">
 		<set name="icon" val="icon.armor_leather_helmet_i00" />
 		<set name="default_action" val="equip" />
 		<set name="bodypart" val="head" />
@@ -491,7 +491,7 @@
 			<enchant order="0x0C" stat="pDef" val="0" />
 		</for>
 	</item>
-	<item id="11526" type="Armor" name="Dynasty Boots">
+	<item id="11526" type="Armor" name="王朝長靴">
 		<set name="icon" val="icon.armor_t91_b_i00" />
 		<set name="default_action" val="equip" />
 		<set name="bodypart" val="feet" />
@@ -510,7 +510,7 @@
 			<enchant order="0x0C" stat="pDef" val="0" />
 		</for>
 	</item>
-	<item id="11527" type="Armor" name="Dynasty Breastplate">
+	<item id="11527" type="Armor" name="王朝盔甲">
 		<set name="icon" val="icon.armor_t91_u_i00" />
 		<set name="default_action" val="equip" />
 		<set name="armor_type" val="heavy" />
@@ -530,7 +530,7 @@
 			<enchant order="0x0C" stat="pDef" val="0" />
 		</for>
 	</item>
-	<item id="11528" type="Armor" name="Dynasty Breastplate">
+	<item id="11528" type="Armor" name="王朝盔甲">
 		<set name="icon" val="icon.armor_t91_uk_i00" />
 		<set name="default_action" val="equip" />
 		<set name="armor_type" val="heavy" />
@@ -549,7 +549,7 @@
 			<enchant order="0x0C" stat="pDef" val="0" />
 		</for>
 	</item>
-	<item id="11529" type="Armor" name="Dynasty Breastplate">
+	<item id="11529" type="Armor" name="王朝盔甲">
 		<set name="icon" val="icon.armor_t91_uw_i00" />
 		<set name="default_action" val="equip" />
 		<set name="armor_type" val="heavy" />
@@ -568,7 +568,7 @@
 			<enchant order="0x0C" stat="pDef" val="0" />
 		</for>
 	</item>
-	<item id="11530" type="Armor" name="Dynasty Breastplate">
+	<item id="11530" type="Armor" name="王朝盔甲">
 		<set name="icon" val="icon.armor_t91_uf_i00" />
 		<set name="default_action" val="equip" />
 		<set name="armor_type" val="heavy" />
@@ -587,7 +587,7 @@
 			<enchant order="0x0C" stat="pDef" val="0" />
 		</for>
 	</item>
-	<item id="11531" type="Armor" name="Dynasty Breastplate">
+	<item id="11531" type="Armor" name="王朝盔甲">
 		<set name="icon" val="icon.armor_t91_uke_i00" />
 		<set name="default_action" val="equip" />
 		<set name="armor_type" val="heavy" />
@@ -606,7 +606,7 @@
 			<enchant order="0x0C" stat="pDef" val="0" />
 		</for>
 	</item>
-	<item id="11532" type="Armor" name="Dynasty Shield">
+	<item id="11532" type="Armor" name="王朝盾">
 		<set name="icon" val="icon.shield_dynasty_shield_i00" />
 		<set name="default_action" val="equip" />
 		<set name="bodypart" val="lhand" />
@@ -628,7 +628,7 @@
 			<enchant val="0" order="0x0C" stat="sDef" />
 		</for>
 	</item>
-	<item id="11533" type="Armor" name="Dynasty Shoes">
+	<item id="11533" type="Armor" name="王朝鞋">
 		<set name="icon" val="icon.armor_t93_b_i00" />
 		<set name="default_action" val="equip" />
 		<set name="bodypart" val="feet" />
@@ -647,7 +647,7 @@
 			<enchant order="0x0C" stat="pDef" val="0" />
 		</for>
 	</item>
-	<item id="11534" type="Armor" name="Dynasty Silver Satin Tunic">
+	<item id="11534" type="Armor" name="王朝銀絲緞外衣">
 		<set name="icon" val="icon.armor_t93_u_i00" />
 		<set name="default_action" val="equip" />
 		<set name="armor_type" val="magic" />
@@ -668,7 +668,7 @@
 			<enchant order="0x0C" stat="pDef" val="0" />
 		</for>
 	</item>
-	<item id="11535" type="Armor" name="Dynasty Silver Satin Tunic">
+	<item id="11535" type="Armor" name="王朝銀絲緞外衣">
 		<set name="icon" val="icon.armor_t93_uh_i00" />
 		<set name="default_action" val="equip" />
 		<set name="armor_type" val="magic" />
@@ -688,7 +688,7 @@
 			<enchant order="0x0C" stat="pDef" val="0" />
 		</for>
 	</item>
-	<item id="11536" type="Armor" name="Dynasty Silver Satin Tunic">
+	<item id="11536" type="Armor" name="王朝銀絲緞外衣">
 		<set name="icon" val="icon.armor_t93_ue_i00" />
 		<set name="default_action" val="equip" />
 		<set name="armor_type" val="magic" />
@@ -708,7 +708,7 @@
 			<enchant order="0x0C" stat="pDef" val="0" />
 		</for>
 	</item>
-	<item id="11537" type="Armor" name="Dynasty Silver Satin Tunic">
+	<item id="11537" type="Armor" name="王朝銀絲緞外衣">
 		<set name="icon" val="icon.armor_t93_us_i00" />
 		<set name="default_action" val="equip" />
 		<set name="armor_type" val="magic" />
@@ -728,7 +728,7 @@
 			<enchant order="0x0C" stat="pDef" val="0" />
 		</for>
 	</item>
-	<item id="11538" type="Armor" name="Dynasty Silver Satin Tunic">
+	<item id="11538" type="Armor" name="王朝銀絲緞外衣">
 		<set name="icon" val="icon.armor_t93_uw_i00" />
 		<set name="default_action" val="equip" />
 		<set name="armor_type" val="magic" />
@@ -748,7 +748,7 @@
 			<enchant order="0x0C" stat="pDef" val="0" />
 		</for>
 	</item>
-	<item id="11539" type="Armor" name="Dynasty Circlet">
+	<item id="11539" type="Armor" name="王朝頭箍">
 		<set name="icon" val="icon.armor_circlet_i00" />
 		<set name="default_action" val="equip" />
 		<set name="bodypart" val="head" />
@@ -767,7 +767,7 @@
 			<enchant order="0x0C" stat="pDef" val="0" />
 		</for>
 	</item>
-	<item id="11540" type="Armor" name="Dynasty Jewel Leather Mail">
+	<item id="11540" type="Armor" name="王朝寶石皮甲">
 		<set name="icon" val="icon.armor_t92_u_i00" />
 		<set name="default_action" val="equip" />
 		<set name="armor_type" val="light" />
@@ -786,7 +786,7 @@
 			<enchant order="0x0C" stat="pDef" val="0" />
 		</for>
 	</item>
-	<item id="11541" type="Armor" name="Dynasty Jewel Leather Mail">
+	<item id="11541" type="Armor" name="王朝寶石皮甲">
 		<set name="icon" val="icon.armor_t92_ud_i00" />
 		<set name="default_action" val="equip" />
 		<set name="armor_type" val="light" />
@@ -805,7 +805,7 @@
 			<enchant order="0x0C" stat="pDef" val="0" />
 		</for>
 	</item>
-	<item id="11542" type="Armor" name="Dynasty Jewel Leather Mail">
+	<item id="11542" type="Armor" name="王朝寶石皮甲">
 		<set name="icon" val="icon.armor_t92_ub_i00" />
 		<set name="default_action" val="equip" />
 		<set name="armor_type" val="light" />
@@ -824,7 +824,7 @@
 			<enchant order="0x0C" stat="pDef" val="0" />
 		</for>
 	</item>
-	<item id="11543" type="Armor" name="Dynasty Jewel Leather Mail">
+	<item id="11543" type="Armor" name="王朝寶石皮甲">
 		<set name="icon" val="icon.armor_t92_u_i00" />
 		<set name="default_action" val="equip" />
 		<set name="armor_type" val="light" />
@@ -843,7 +843,7 @@
 			<enchant order="0x0C" stat="pDef" val="0" />
 		</for>
 	</item>
-	<item id="11544" type="Armor" name="Dynasty Jewel Leather Mail">
+	<item id="11544" type="Armor" name="王朝寶石皮甲">
 		<set name="icon" val="icon.armor_t92_u_i00" />
 		<set name="default_action" val="equip" />
 		<set name="armor_type" val="light" />
@@ -862,7 +862,7 @@
 			<enchant order="0x0C" stat="pDef" val="0" />
 		</for>
 	</item>
-	<item id="11545" type="Armor" name="Dynasty Jewel Leather Mail">
+	<item id="11545" type="Armor" name="王朝寶石皮甲">
 		<set name="icon" val="icon.armor_t92_u_i00" />
 		<set name="default_action" val="equip" />
 		<set name="armor_type" val="light" />
@@ -881,7 +881,7 @@
 			<enchant order="0x0C" stat="pDef" val="0" />
 		</for>
 	</item>
-	<item id="11546" type="Armor" name="Dynasty Jewel Leather Mail">
+	<item id="11546" type="Armor" name="王朝寶石皮甲">
 		<set name="icon" val="icon.armor_t92_u_i00" />
 		<set name="default_action" val="equip" />
 		<set name="armor_type" val="light" />
@@ -900,7 +900,7 @@
 			<enchant order="0x0C" stat="pDef" val="0" />
 		</for>
 	</item>
-	<item id="11547" type="Armor" name="Dynasty Tunic">
+	<item id="11547" type="Armor" name="王朝外衣">
 		<set name="icon" val="icon.armor_t93_u_i00" />
 		<set name="default_action" val="equip" />
 		<set name="armor_type" val="magic" />
@@ -921,7 +921,7 @@
 			<enchant order="0x0C" stat="pDef" val="0" />
 		</for>
 	</item>
-	<item id="11548" type="Armor" name="Dynasty Tunic">
+	<item id="11548" type="Armor" name="王朝外衣">
 		<set name="icon" val="icon.armor_t93_uh_i00" />
 		<set name="default_action" val="equip" />
 		<set name="armor_type" val="magic" />
@@ -941,7 +941,7 @@
 			<enchant order="0x0C" stat="pDef" val="0" />
 		</for>
 	</item>
-	<item id="11549" type="Armor" name="Dynasty Tunic">
+	<item id="11549" type="Armor" name="王朝外衣">
 		<set name="icon" val="icon.armor_t93_ue_i00" />
 		<set name="default_action" val="equip" />
 		<set name="armor_type" val="magic" />
@@ -961,7 +961,7 @@
 			<enchant order="0x0C" stat="pDef" val="0" />
 		</for>
 	</item>
-	<item id="11550" type="Armor" name="Dynasty Tunic">
+	<item id="11550" type="Armor" name="王朝外衣">
 		<set name="icon" val="icon.armor_t93_us_i00" />
 		<set name="default_action" val="equip" />
 		<set name="armor_type" val="magic" />
@@ -981,7 +981,7 @@
 			<enchant order="0x0C" stat="pDef" val="0" />
 		</for>
 	</item>
-	<item id="11551" type="Armor" name="Dynasty Tunic">
+	<item id="11551" type="Armor" name="王朝外衣">
 		<set name="icon" val="icon.armor_t93_uw_i00" />
 		<set name="default_action" val="equip" />
 		<set name="armor_type" val="magic" />
@@ -1001,7 +1001,7 @@
 			<enchant order="0x0C" stat="pDef" val="0" />
 		</for>
 	</item>
-	<item id="11552" type="Armor" name="Dynasty Platinum Plate">
+	<item id="11552" type="Armor" name="王朝白金盔甲">
 		<set name="icon" val="icon.armor_t91_u_i00" />
 		<set name="default_action" val="equip" />
 		<set name="armor_type" val="heavy" />
@@ -1021,7 +1021,7 @@
 			<enchant order="0x0C" stat="pDef" val="0" />
 		</for>
 	</item>
-	<item id="11553" type="Armor" name="Dynasty Platinum Plate">
+	<item id="11553" type="Armor" name="王朝白金盔甲">
 		<set name="icon" val="icon.armor_t91_uk_i00" />
 		<set name="default_action" val="equip" />
 		<set name="armor_type" val="heavy" />
@@ -1040,7 +1040,7 @@
 			<enchant order="0x0C" stat="pDef" val="0" />
 		</for>
 	</item>
-	<item id="11554" type="Armor" name="Dynasty Platinum Plate">
+	<item id="11554" type="Armor" name="王朝白金盔甲">
 		<set name="icon" val="icon.armor_t91_uw_i00" />
 		<set name="default_action" val="equip" />
 		<set name="armor_type" val="heavy" />
@@ -1059,7 +1059,7 @@
 			<enchant order="0x0C" stat="pDef" val="0" />
 		</for>
 	</item>
-	<item id="11555" type="Armor" name="Dynasty Platinum Plate">
+	<item id="11555" type="Armor" name="王朝白金盔甲">
 		<set name="icon" val="icon.armor_t91_uf_i00" />
 		<set name="default_action" val="equip" />
 		<set name="armor_type" val="heavy" />
@@ -1078,7 +1078,7 @@
 			<enchant order="0x0C" stat="pDef" val="0" />
 		</for>
 	</item>
-	<item id="11556" type="Armor" name="Dynasty Platinum Plate">
+	<item id="11556" type="Armor" name="王朝白金盔甲">
 		<set name="icon" val="icon.armor_t91_uke_i00" />
 		<set name="default_action" val="equip" />
 		<set name="armor_type" val="heavy" />
@@ -1097,7 +1097,7 @@
 			<enchant order="0x0C" stat="pDef" val="0" />
 		</for>
 	</item>
-	<item id="11557" type="Armor" name="Dynasty Helmet">
+	<item id="11557" type="Armor" name="王朝頭盔">
 		<set name="icon" val="icon.armor_helmet_i00" />
 		<set name="default_action" val="equip" />
 		<set name="bodypart" val="head" />
@@ -1116,7 +1116,7 @@
 			<enchant order="0x0C" stat="pDef" val="0" />
 		</for>
 	</item>
-	<item id="11558" type="Armor" name="Dynasty Stockings">
+	<item id="11558" type="Armor" name="王朝長襪">
 		<set name="icon" val="icon.armor_t93_l_i00" />
 		<set name="default_action" val="equip" />
 		<set name="armor_type" val="magic" />
@@ -1137,7 +1137,7 @@
 			<enchant order="0x0C" stat="pDef" val="0" />
 		</for>
 	</item>
-	<item id="11559" type="Armor" name="Sealed Dynasty Gaiters">
+	<item id="11559" type="Armor" name="封印的王朝脛甲">
 		<set name="icon" val="icon.armor_t91_l_i02" />
 		<set name="default_action" val="equip" />
 		<set name="armor_type" val="heavy" />
@@ -1156,7 +1156,7 @@
 			<enchant order="0x0C" stat="pDef" val="0" />
 		</for>
 	</item>
-	<item id="11560" type="Armor" name="Sealed Dynasty Gauntlet">
+	<item id="11560" type="Armor" name="封印的王朝長手套">
 		<set name="icon" val="icon.armor_t91_g_i02" />
 		<set name="default_action" val="equip" />
 		<set name="bodypart" val="gloves" />
@@ -1174,7 +1174,7 @@
 			<enchant order="0x0C" stat="pDef" val="0" />
 		</for>
 	</item>
-	<item id="11561" type="Armor" name="Sealed Dynasty Gloves">
+	<item id="11561" type="Armor" name="封印的王朝手套">
 		<set name="icon" val="icon.armor_t93_g_i02" />
 		<set name="default_action" val="equip" />
 		<set name="bodypart" val="gloves" />
@@ -1192,7 +1192,7 @@
 			<enchant order="0x0C" stat="pDef" val="0" />
 		</for>
 	</item>
-	<item id="11562" type="Armor" name="Sealed Dynasty Leather Gloves">
+	<item id="11562" type="Armor" name="封印的王朝皮手套">
 		<set name="icon" val="icon.armor_t92_g_i02" />
 		<set name="default_action" val="equip" />
 		<set name="bodypart" val="gloves" />
@@ -1209,7 +1209,7 @@
 			<enchant order="0x0C" stat="pDef" val="0" />
 		</for>
 	</item>
-	<item id="11563" type="Armor" name="Sealed Dynasty Leather Leggings">
+	<item id="11563" type="Armor" name="封印的王朝皮脛甲">
 		<set name="icon" val="icon.armor_t92_l_i02" />
 		<set name="default_action" val="equip" />
 		<set name="armor_type" val="light" />
@@ -1227,7 +1227,7 @@
 			<enchant order="0x0C" stat="pDef" val="0" />
 		</for>
 	</item>
-	<item id="11564" type="Armor" name="Sealed Dynasty Leather Armor">
+	<item id="11564" type="Armor" name="封印的王朝皮甲">
 		<set name="icon" val="icon.armor_t92_u_i02" />
 		<set name="default_action" val="equip" />
 		<set name="armor_type" val="light" />
@@ -1245,7 +1245,7 @@
 			<enchant order="0x0C" stat="pDef" val="0" />
 		</for>
 	</item>
-	<item id="11565" type="Armor" name="Sealed Dynasty Leather Boots">
+	<item id="11565" type="Armor" name="封印的王朝皮長靴">
 		<set name="icon" val="icon.armor_t92_b_i02" />
 		<set name="default_action" val="equip" />
 		<set name="bodypart" val="feet" />
@@ -1262,7 +1262,7 @@
 			<enchant order="0x0C" stat="pDef" val="0" />
 		</for>
 	</item>
-	<item id="11566" type="Armor" name="Sealed Dynasty Leather Helmet">
+	<item id="11566" type="Armor" name="封印的王朝皮頭盔">
 		<set name="icon" val="icon.armor_leather_helmet_i02" />
 		<set name="default_action" val="equip" />
 		<set name="bodypart" val="head" />
@@ -1279,7 +1279,7 @@
 			<enchant order="0x0C" stat="pDef" val="0" />
 		</for>
 	</item>
-	<item id="11567" type="Armor" name="Sealed Dynasty Boots">
+	<item id="11567" type="Armor" name="封印的王朝長靴">
 		<set name="icon" val="icon.armor_t91_b_i02" />
 		<set name="default_action" val="equip" />
 		<set name="bodypart" val="feet" />
@@ -1297,7 +1297,7 @@
 			<enchant order="0x0C" stat="pDef" val="0" />
 		</for>
 	</item>
-	<item id="11568" type="Armor" name="Sealed Dynasty Breastplate">
+	<item id="11568" type="Armor" name="封印的王朝盔甲">
 		<set name="icon" val="icon.armor_t91_u_i02" />
 		<set name="default_action" val="equip" />
 		<set name="armor_type" val="heavy" />
@@ -1316,7 +1316,7 @@
 			<enchant order="0x0C" stat="pDef" val="0" />
 		</for>
 	</item>
-	<item id="11569" type="Armor" name="Sealed Dynasty Shield">
+	<item id="11569" type="Armor" name="封印的王朝盾">
 		<set name="icon" val="icon.shield_dynasty_shield_i01" />
 		<set name="default_action" val="equip" />
 		<set name="bodypart" val="lhand" />
@@ -1337,7 +1337,7 @@
 			<enchant val="0" order="0x0C" stat="sDef" />
 		</for>
 	</item>
-	<item id="11570" type="Armor" name="Sealed Dynasty Shoes">
+	<item id="11570" type="Armor" name="封印的王朝鞋">
 		<set name="icon" val="icon.armor_t93_b_i02" />
 		<set name="default_action" val="equip" />
 		<set name="bodypart" val="feet" />
@@ -1355,7 +1355,7 @@
 			<enchant order="0x0C" stat="pDef" val="0" />
 		</for>
 	</item>
-	<item id="11571" type="Armor" name="Sealed Dynasty Circlet">
+	<item id="11571" type="Armor" name="封印的王朝頭箍">
 		<set name="icon" val="icon.armor_circlet_i02" />
 		<set name="default_action" val="equip" />
 		<set name="bodypart" val="head" />
@@ -1373,7 +1373,7 @@
 			<enchant order="0x0C" stat="pDef" val="0" />
 		</for>
 	</item>
-	<item id="11572" type="Armor" name="Sealed Dynasty Tunic">
+	<item id="11572" type="Armor" name="封印的王朝外衣">
 		<set name="icon" val="icon.armor_t93_u_i02" />
 		<set name="default_action" val="equip" />
 		<set name="armor_type" val="magic" />
@@ -1393,7 +1393,7 @@
 			<enchant order="0x0C" stat="pDef" val="0" />
 		</for>
 	</item>
-	<item id="11573" type="Armor" name="Sealed Dynasty Helmet">
+	<item id="11573" type="Armor" name="封印的王朝頭盔">
 		<set name="icon" val="icon.armor_helmet_i02" />
 		<set name="default_action" val="equip" />
 		<set name="bodypart" val="head" />
@@ -1411,7 +1411,7 @@
 			<enchant order="0x0C" stat="pDef" val="0" />
 		</for>
 	</item>
-	<item id="11574" type="Armor" name="Sealed Dynasty Stockings">
+	<item id="11574" type="Armor" name="封印的王朝長襪">
 		<set name="icon" val="icon.armor_t93_l_i02" />
 		<set name="default_action" val="equip" />
 		<set name="armor_type" val="magic" />
@@ -1431,7 +1431,7 @@
 			<enchant order="0x0C" stat="pDef" val="0" />
 		</for>
 	</item>
-	<item id="11575" type="Armor" name="Adamantite Earring">
+	<item id="11575" type="Armor" name="金剛石耳環">
 		<set name="icon" val="icon.accessary_adamantite_earing_i00" />
 		<set name="default_action" val="equip" />
 		<set name="bodypart" val="rear;lear" />
@@ -1448,7 +1448,7 @@
 			<enchant order="0x0C" stat="mDef" val="0" />
 		</for>
 	</item>
-	<item id="11576" type="Armor" name="Adamantite Necklace">
+	<item id="11576" type="Armor" name="金剛石項鍊">
 		<set name="icon" val="icon.accessary_adamantite_necklace_i00" />
 		<set name="default_action" val="equip" />
 		<set name="bodypart" val="neck" />
@@ -1465,7 +1465,7 @@
 			<enchant order="0x0C" stat="mDef" val="0" />
 		</for>
 	</item>
-	<item id="11577" type="Armor" name="Adamantite Ring">
+	<item id="11577" type="Armor" name="金剛石戒指">
 		<set name="icon" val="icon.accessary_adamantite_ring_i00" />
 		<set name="default_action" val="equip" />
 		<set name="bodypart" val="rfinger;lfinger" />
@@ -1482,7 +1482,7 @@
 			<enchant order="0x0C" stat="mDef" val="0" />
 		</for>
 	</item>
-	<item id="11578" type="Armor" name="Earring of Black Ore">
+	<item id="11578" type="Armor" name="黑光耳環">
 		<set name="icon" val="icon.accessary_earing_of_black_ore_i00" />
 		<set name="default_action" val="equip" />
 		<set name="bodypart" val="rear;lear" />
@@ -1499,7 +1499,7 @@
 			<enchant order="0x0C" stat="mDef" val="0" />
 		</for>
 	</item>
-	<item id="11579" type="Armor" name="Necklace of Black Ore">
+	<item id="11579" type="Armor" name="黑光項鍊">
 		<set name="icon" val="icon.accessary_necklace_of_black_ore_i00" />
 		<set name="default_action" val="equip" />
 		<set name="bodypart" val="neck" />
@@ -1516,7 +1516,7 @@
 			<enchant order="0x0C" stat="mDef" val="0" />
 		</for>
 	</item>
-	<item id="11580" type="Armor" name="Ring of Black Ore">
+	<item id="11580" type="Armor" name="黑光戒指">
 		<set name="icon" val="icon.accessary_ring_of_black_ore_i00" />
 		<set name="default_action" val="equip" />
 		<set name="bodypart" val="rfinger;lfinger" />
@@ -1533,7 +1533,7 @@
 			<enchant order="0x0C" stat="mDef" val="0" />
 		</for>
 	</item>
-	<item id="11581" type="Armor" name="Sealed Phoenix Necklace">
+	<item id="11581" type="Armor" name="封印的不死鳥項鍊">
 		<set name="icon" val="icon.accessary_phoenixs_necklace_i02" />
 		<set name="default_action" val="equip" />
 		<set name="bodypart" val="neck" />
@@ -1549,7 +1549,7 @@
 			<enchant order="0x0C" stat="mDef" val="0" />
 		</for>
 	</item>
-	<item id="11582" type="Armor" name="Sealed Phoenix Ring">
+	<item id="11582" type="Armor" name="封印的不死鳥戒指">
 		<set name="icon" val="icon.accessary_phoenixs_ring_i02" />
 		<set name="default_action" val="equip" />
 		<set name="bodypart" val="rfinger;lfinger" />
@@ -1565,7 +1565,7 @@
 			<enchant order="0x0C" stat="mDef" val="0" />
 		</for>
 	</item>
-	<item id="11583" type="Armor" name="Sealed Phoenix Earring">
+	<item id="11583" type="Armor" name="封印的不死鳥耳環">
 		<set name="icon" val="icon.accessary_phoenixs_earing_i02" />
 		<set name="default_action" val="equip" />
 		<set name="bodypart" val="rear;lear" />
@@ -1581,7 +1581,7 @@
 			<enchant order="0x0C" stat="mDef" val="0" />
 		</for>
 	</item>
-	<item id="11584" type="Armor" name="Phoenix Necklace">
+	<item id="11584" type="Armor" name="不死鳥項鍊">
 		<set name="icon" val="icon.accessary_phoenixs_necklace_i00" />
 		<set name="default_action" val="equip" />
 		<set name="bodypart" val="neck" />
@@ -1599,7 +1599,7 @@
 			<enchant order="0x0C" stat="mDef" val="0" />
 		</for>
 	</item>
-	<item id="11585" type="Armor" name="Phoenix Ring">
+	<item id="11585" type="Armor" name="不死鳥戒指">
 		<set name="icon" val="icon.accessary_phoenixs_ring_i00" />
 		<set name="default_action" val="equip" />
 		<set name="bodypart" val="rfinger;lfinger" />
@@ -1617,7 +1617,7 @@
 			<enchant order="0x0C" stat="mDef" val="0" />
 		</for>
 	</item>
-	<item id="11586" type="Armor" name="Phoenix Earring">
+	<item id="11586" type="Armor" name="不死鳥耳環">
 		<set name="icon" val="icon.accessary_phoenixs_earing_i00" />
 		<set name="default_action" val="equip" />
 		<set name="bodypart" val="rear;lear" />
@@ -1635,7 +1635,7 @@
 			<enchant order="0x0C" stat="mDef" val="0" />
 		</for>
 	</item>
-	<item id="11587" type="Armor" name="Majestic Necklace">
+	<item id="11587" type="Armor" name="聖威項鍊">
 		<set name="icon" val="icon.accessary_inferno_necklace_i00" />
 		<set name="default_action" val="equip" />
 		<set name="bodypart" val="neck" />
@@ -1653,7 +1653,7 @@
 			<enchant order="0x0C" stat="mDef" val="0" />
 		</for>
 	</item>
-	<item id="11588" type="Armor" name="Majestic Ring">
+	<item id="11588" type="Armor" name="聖威戒指">
 		<set name="icon" val="icon.accessary_inferno_ring_i00" />
 		<set name="default_action" val="equip" />
 		<set name="bodypart" val="rfinger;lfinger" />
@@ -1671,7 +1671,7 @@
 			<enchant order="0x0C" stat="mDef" val="0" />
 		</for>
 	</item>
-	<item id="11589" type="Armor" name="Majestic Earring">
+	<item id="11589" type="Armor" name="聖威耳環">
 		<set name="icon" val="icon.accessary_inferno_earing_i00" />
 		<set name="default_action" val="equip" />
 		<set name="bodypart" val="rear;lear" />
@@ -1689,7 +1689,7 @@
 			<enchant order="0x0C" stat="mDef" val="0" />
 		</for>
 	</item>
-	<item id="11590" type="Armor" name="Sealed Majestic Necklace">
+	<item id="11590" type="Armor" name="封印的聖威項鍊">
 		<set name="icon" val="icon.accessary_inferno_necklace_i02" />
 		<set name="default_action" val="equip" />
 		<set name="bodypart" val="neck" />
@@ -1705,7 +1705,7 @@
 			<enchant order="0x0C" stat="mDef" val="0" />
 		</for>
 	</item>
-	<item id="11591" type="Armor" name="Sealed Majestic Ring">
+	<item id="11591" type="Armor" name="封印的聖威戒指">
 		<set name="icon" val="icon.accessary_inferno_ring_i02" />
 		<set name="default_action" val="equip" />
 		<set name="bodypart" val="rfinger;lfinger" />
@@ -1721,7 +1721,7 @@
 			<enchant order="0x0C" stat="mDef" val="0" />
 		</for>
 	</item>
-	<item id="11592" type="Armor" name="Sealed Majestic Earring">
+	<item id="11592" type="Armor" name="封印的聖威耳環">
 		<set name="icon" val="icon.accessary_inferno_earing_i02" />
 		<set name="default_action" val="equip" />
 		<set name="bodypart" val="rear;lear" />
@@ -1737,7 +1737,7 @@
 			<enchant order="0x0C" stat="mDef" val="0" />
 		</for>
 	</item>
-	<item id="11593" type="Armor" name="Sealed Tateossian Necklace">
+	<item id="11593" type="Armor" name="封印的泰狄奧森項鍊">
 		<set name="icon" val="icon.accessory_tateossian_necklace_i02" />
 		<set name="default_action" val="equip" />
 		<set name="bodypart" val="neck" />
@@ -1753,7 +1753,7 @@
 			<enchant order="0x0C" stat="mDef" val="0" />
 		</for>
 	</item>
-	<item id="11594" type="Armor" name="Sealed Tateossian Ring">
+	<item id="11594" type="Armor" name="封印的泰狄奧森戒指">
 		<set name="icon" val="icon.accessory_tateossian_ring_i02" />
 		<set name="default_action" val="equip" />
 		<set name="bodypart" val="rfinger;lfinger" />
@@ -1769,7 +1769,7 @@
 			<enchant order="0x0C" stat="mDef" val="0" />
 		</for>
 	</item>
-	<item id="11595" type="Armor" name="Sealed Tateossian Earring">
+	<item id="11595" type="Armor" name="封印的泰狄奧森耳環">
 		<set name="icon" val="icon.accessory_tateossian_earring_i02" />
 		<set name="default_action" val="equip" />
 		<set name="bodypart" val="rear;lear" />
@@ -1785,7 +1785,7 @@
 			<enchant order="0x0C" stat="mDef" val="0" />
 		</for>
 	</item>
-	<item id="11596" type="Armor" name="Tateossian Necklace">
+	<item id="11596" type="Armor" name="泰狄奧森項鍊">
 		<set name="icon" val="icon.accessory_tateossian_necklace_i00" />
 		<set name="default_action" val="equip" />
 		<set name="bodypart" val="neck" />
@@ -1803,7 +1803,7 @@
 			<enchant order="0x0C" stat="mDef" val="0" />
 		</for>
 	</item>
-	<item id="11597" type="Armor" name="Tateossian Ring">
+	<item id="11597" type="Armor" name="泰狄奧森戒指">
 		<set name="icon" val="icon.accessory_tateossian_ring_i00" />
 		<set name="default_action" val="equip" />
 		<set name="bodypart" val="rfinger;lfinger" />
@@ -1821,7 +1821,7 @@
 			<enchant order="0x0C" stat="mDef" val="0" />
 		</for>
 	</item>
-	<item id="11598" type="Armor" name="Tateossian Earring">
+	<item id="11598" type="Armor" name="泰狄奧森耳環">
 		<set name="icon" val="icon.accessory_tateossian_earring_i00" />
 		<set name="default_action" val="equip" />
 		<set name="bodypart" val="rear;lear" />
@@ -1839,7 +1839,7 @@
 			<enchant order="0x0C" stat="mDef" val="0" />
 		</for>
 	</item>
-	<item id="11599" type="Armor" name="Dynasty Necklace">
+	<item id="11599" type="Armor" name="王朝項鍊">
 		<set name="icon" val="icon.accessary_dynasty_necklace_i00" />
 		<set name="default_action" val="equip" />
 		<set name="bodypart" val="neck" />

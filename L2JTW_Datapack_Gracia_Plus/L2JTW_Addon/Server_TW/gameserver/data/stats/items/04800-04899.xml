@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <list>
-	<item id="4800" type="Weapon" name="Knuckle Duster - Haste">
+	<item id="4800" type="Weapon" name="關節拳">
 		<set name="icon" val="icon.weapon_knuckle_dust_i01" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="dualfist" />
@@ -29,7 +29,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="4801" type="Weapon" name="Arthro Nail - Critical Poison">
+	<item id="4801" type="Weapon" name="阿斯拉爪">
 		<set name="icon" val="icon.weapon_arthro_nail_i01" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="dualfist" />
@@ -59,7 +59,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="4802" type="Weapon" name="Arthro Nail - Rsk. Evasion">
+	<item id="4802" type="Weapon" name="阿斯拉爪">
 		<set name="icon" val="icon.weapon_arthro_nail_i01" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="dualfist" />
@@ -88,7 +88,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="4803" type="Weapon" name="Arthro Nail - Rsk. Haste">
+	<item id="4803" type="Weapon" name="阿斯拉爪">
 		<set name="icon" val="icon.weapon_arthro_nail_i01" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="dualfist" />
@@ -117,7 +117,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="4804" type="Weapon" name="Bellion Cestus - Critical Drain">
+	<item id="4804" type="Weapon" name="博利恩拳套">
 		<set name="icon" val="icon.weapon_bellion_cestus_i01" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="dualfist" />
@@ -147,7 +147,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="4805" type="Weapon" name="Bellion Cestus - Critical Poison">
+	<item id="4805" type="Weapon" name="博利恩拳套">
 		<set name="icon" val="icon.weapon_bellion_cestus_i01" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="dualfist" />
@@ -177,7 +177,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="4806" type="Weapon" name="Bellion Cestus - Rsk. Haste">
+	<item id="4806" type="Weapon" name="博利恩拳套">
 		<set name="icon" val="icon.weapon_bellion_cestus_i01" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="dualfist" />
@@ -206,7 +206,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="4807" type="Weapon" name="Blood Tornado - Critical Drain">
+	<item id="4807" type="Weapon" name="血旋風">
 		<set name="icon" val="icon.weapon_blood_tornado_i01" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="dualfist" />
@@ -234,7 +234,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="4808" type="Weapon" name="Blood Tornado - Rsk. Evasion">
+	<item id="4808" type="Weapon" name="血旋風">
 		<set name="icon" val="icon.weapon_blood_tornado_i01" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="dualfist" />
@@ -262,7 +262,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="4809" type="Weapon" name="Blood Tornado - Haste">
+	<item id="4809" type="Weapon" name="血旋風">
 		<set name="icon" val="icon.weapon_blood_tornado_i01" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="dualfist" />
@@ -290,7 +290,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="4810" type="Weapon" name="Crystallized Ice Bow - Guidance">
+	<item id="4810" type="Weapon" name="冰晶弓">
 		<set name="icon" val="icon.weapon_crystallized_ice_bow_i01" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="bow" />
@@ -322,7 +322,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="4811" type="Weapon" name="Crystallized Ice Bow - Evasion">
+	<item id="4811" type="Weapon" name="冰晶弓">
 		<set name="icon" val="icon.weapon_crystallized_ice_bow_i01" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="bow" />
@@ -354,7 +354,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="4812" type="Weapon" name="Crystallized Ice Bow - Quick Recovery">
+	<item id="4812" type="Weapon" name="冰晶弓">
 		<set name="icon" val="icon.weapon_crystallized_ice_bow_i01" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="bow" />
@@ -385,7 +385,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="4813" type="Weapon" name="Elemental Bow - Guidance">
+	<item id="4813" type="Weapon" name="元素弓">
 		<set name="icon" val="icon.weapon_elemental_bow_i01" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="bow" />
@@ -417,7 +417,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="4814" type="Weapon" name="Elemental Bow - Miser">
+	<item id="4814" type="Weapon" name="元素弓">
 		<set name="icon" val="icon.weapon_elemental_bow_i01" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="bow" />
@@ -454,7 +454,7 @@
 			</set>
 		</for>
 	</item>
-	<item id="4815" type="Weapon" name="Elemental Bow - Quick Recovery">
+	<item id="4815" type="Weapon" name="元素弓">
 		<set name="icon" val="icon.weapon_elemental_bow_i01" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="bow" />
@@ -485,7 +485,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="4816" type="Weapon" name="Elven Bow of Nobility - Evasion">
+	<item id="4816" type="Weapon" name="高級精靈弓">
 		<set name="icon" val="icon.weapon_noble_elven_bow_i01" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="bow" />
@@ -517,7 +517,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="4817" type="Weapon" name="Elven Bow of Nobility - Miser">
+	<item id="4817" type="Weapon" name="高級精靈弓">
 		<set name="icon" val="icon.weapon_noble_elven_bow_i01" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="bow" />
@@ -554,7 +554,7 @@
 			</set>
 		</for>
 	</item>
-	<item id="4818" type="Weapon" name="Elven Bow of Nobility - Cheap Shot">
+	<item id="4818" type="Weapon" name="高級精靈弓">
 		<set name="icon" val="icon.weapon_noble_elven_bow_i01" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="bow" />
@@ -591,7 +591,7 @@
 			</set>
 		</for>
 	</item>
-	<item id="4819" type="Weapon" name="Akat Long Bow - Guidance">
+	<item id="4819" type="Weapon" name="阿卡特長弓">
 		<set name="icon" val="icon.weapon_akat_long_bow_i01" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="bow" />
@@ -623,7 +623,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="4820" type="Weapon" name="Akat Long Bow - Evasion">
+	<item id="4820" type="Weapon" name="阿卡特長弓">
 		<set name="icon" val="icon.weapon_akat_long_bow_i01" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="bow" />
@@ -655,7 +655,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="4821" type="Weapon" name="Akat Long Bow - Miser">
+	<item id="4821" type="Weapon" name="阿卡特長弓">
 		<set name="icon" val="icon.weapon_akat_long_bow_i01" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="bow" />
@@ -692,7 +692,7 @@
 			</set>
 		</for>
 	</item>
-	<item id="4822" type="Weapon" name="Eminence Bow - Guidance">
+	<item id="4822" type="Weapon" name="卓越弓">
 		<set name="icon" val="icon.weapon_eminence_bow_i01" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="bow" />
@@ -724,7 +724,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="4823" type="Weapon" name="Eminence Bow - Miser">
+	<item id="4823" type="Weapon" name="卓越弓">
 		<set name="icon" val="icon.weapon_eminence_bow_i01" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="bow" />
@@ -761,7 +761,7 @@
 			</set>
 		</for>
 	</item>
-	<item id="4824" type="Weapon" name="Eminence Bow - Cheap Shot">
+	<item id="4824" type="Weapon" name="卓越弓">
 		<set name="icon" val="icon.weapon_eminence_bow_i01" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="bow" />
@@ -798,7 +798,7 @@
 			</set>
 		</for>
 	</item>
-	<item id="4825" type="Weapon" name="Dark Elven Long Bow - Evasion">
+	<item id="4825" type="Weapon" name="黑暗精靈長弓">
 		<set name="icon" val="icon.weapon_dark_elven_long_bow_i01" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="bow" />
@@ -830,7 +830,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="4826" type="Weapon" name="Dark Elven Long Bow - Critical Bleed">
+	<item id="4826" type="Weapon" name="黑暗精靈長弓">
 		<set name="icon" val="icon.weapon_dark_elven_long_bow_i01" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="bow" />
@@ -863,7 +863,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="4827" type="Weapon" name="Dark Elven Long Bow - Miser">
+	<item id="4827" type="Weapon" name="黑暗精靈長弓">
 		<set name="icon" val="icon.weapon_dark_elven_long_bow_i01" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="bow" />
@@ -900,7 +900,7 @@
 			</set>
 		</for>
 	</item>
-	<item id="4828" type="Weapon" name="Bow of Peril - Guidance">
+	<item id="4828" type="Weapon" name="冒險弓">
 		<set name="icon" val="icon.weapon_hazard_bow_i01" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="bow" />
@@ -932,7 +932,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="4829" type="Weapon" name="Bow of Peril - Quick Recovery">
+	<item id="4829" type="Weapon" name="冒險弓">
 		<set name="icon" val="icon.weapon_hazard_bow_i01" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="bow" />
@@ -963,7 +963,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="4830" type="Weapon" name="Bow of Peril - Cheap Shot">
+	<item id="4830" type="Weapon" name="冒險弓">
 		<set name="icon" val="icon.weapon_hazard_bow_i01" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="bow" />
@@ -1000,7 +1000,7 @@
 			</set>
 		</for>
 	</item>
-	<item id="4831" type="Weapon" name="Carnage Bow - Critical Bleed">
+	<item id="4831" type="Weapon" name="顱之弓">
 		<set name="icon" val="icon.weapon_carnium_bow_i01" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="bow" />
@@ -1030,7 +1030,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="4832" type="Weapon" name="Carnage Bow - Mana Up">
+	<item id="4832" type="Weapon" name="顱之弓">
 		<set name="icon" val="icon.weapon_carnium_bow_i01" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="bow" />
@@ -1060,7 +1060,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="4833" type="Weapon" name="Carnage Bow - Quick Recovery">
+	<item id="4833" type="Weapon" name="顱之弓">
 		<set name="icon" val="icon.weapon_carnium_bow_i01" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="bow" />
@@ -1090,7 +1090,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="4834" type="Weapon" name="Scythe - Anger">
+	<item id="4834" type="Weapon" name="大鐮刀">
 		<set name="icon" val="icon.weapon_scythe_i01" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="pole" />
@@ -1119,7 +1119,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="4835" type="Weapon" name="Scythe - Critical Stun">
+	<item id="4835" type="Weapon" name="大鐮刀">
 		<set name="icon" val="icon.weapon_scythe_i01" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="pole" />
@@ -1150,7 +1150,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="4836" type="Weapon" name="Scythe - Light">
+	<item id="4836" type="Weapon" name="大鐮刀">
 		<set name="icon" val="icon.weapon_scythe_i01" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="pole" />
@@ -1179,7 +1179,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="4837" type="Weapon" name="Orcish Glaive - Anger">
+	<item id="4837" type="Weapon" name="歐西斯闊矛">
 		<set name="icon" val="icon.weapon_orcish_glaive_i01" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="pole" />
@@ -1208,7 +1208,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="4838" type="Weapon" name="Orcish Glaive - Critical Stun">
+	<item id="4838" type="Weapon" name="歐西斯闊矛">
 		<set name="icon" val="icon.weapon_orcish_glaive_i01" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="pole" />
@@ -1239,7 +1239,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="4839" type="Weapon" name="Orcish Glaive - Towering Blow">
+	<item id="4839" type="Weapon" name="歐西斯闊矛">
 		<set name="icon" val="icon.weapon_orcish_glaive_i01" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="pole" />
@@ -1269,7 +1269,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="4840" type="Weapon" name="Body Slasher - Critical Stun">
+	<item id="4840" type="Weapon" name="殺戮者">
 		<set name="icon" val="icon.weapon_body_slasher_i01" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="pole" />
@@ -1300,7 +1300,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="4841" type="Weapon" name="Body Slasher - Towering Blow">
+	<item id="4841" type="Weapon" name="殺戮者">
 		<set name="icon" val="icon.weapon_body_slasher_i01" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="pole" />
@@ -1330,7 +1330,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="4842" type="Weapon" name="Body Slasher - Wide Blow">
+	<item id="4842" type="Weapon" name="殺戮者">
 		<set name="icon" val="icon.weapon_body_slasher_i01" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="pole" />
@@ -1360,7 +1360,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="4843" type="Weapon" name="Bec de Corbin - Critical Stun">
+	<item id="4843" type="Weapon" name="貝卡合金">
 		<set name="icon" val="icon.weapon_bech_de_corbin_i01" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="pole" />
@@ -1391,7 +1391,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="4844" type="Weapon" name="Bec de Corbin - Towering Blow">
+	<item id="4844" type="Weapon" name="貝卡合金">
 		<set name="icon" val="icon.weapon_bech_de_corbin_i01" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="pole" />
@@ -1421,7 +1421,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="4845" type="Weapon" name="Bec de Corbin - Light">
+	<item id="4845" type="Weapon" name="貝卡合金">
 		<set name="icon" val="icon.weapon_bech_de_corbin_i01" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="pole" />
@@ -1450,7 +1450,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="4846" type="Weapon" name="Scorpion - Anger">
+	<item id="4846" type="Weapon" name="蠍子">
 		<set name="icon" val="icon.weapon_scorpion_i01" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="pole" />
@@ -1479,7 +1479,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="4847" type="Weapon" name="Scorpion - Critical Stun">
+	<item id="4847" type="Weapon" name="蠍子">
 		<set name="icon" val="icon.weapon_scorpion_i01" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="pole" />
@@ -1510,7 +1510,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="4848" type="Weapon" name="Scorpion - Towering Blow">
+	<item id="4848" type="Weapon" name="蠍子">
 		<set name="icon" val="icon.weapon_scorpion_i01" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="pole" />
@@ -1540,7 +1540,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="4849" type="Weapon" name="Widow Maker - Critical Stun">
+	<item id="4849" type="Weapon" name="黑寡婦">
 		<set name="icon" val="icon.weapon_widow_maker_i01" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="pole" />
@@ -1571,7 +1571,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="4850" type="Weapon" name="Widow Maker - Towering Blow">
+	<item id="4850" type="Weapon" name="黑寡婦">
 		<set name="icon" val="icon.weapon_widow_maker_i01" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="pole" />
@@ -1601,7 +1601,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="4851" type="Weapon" name="Widow Maker - Wide Blow">
+	<item id="4851" type="Weapon" name="黑寡婦">
 		<set name="icon" val="icon.weapon_widow_maker_i01" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="pole" />
@@ -1631,7 +1631,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="4852" type="Weapon" name="Orcish Poleaxe - Critical Stun">
+	<item id="4852" type="Weapon" name="歐西斯戰斧">
 		<set name="icon" val="icon.weapon_orcish_poleaxe_i01" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="pole" />
@@ -1662,7 +1662,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="4853" type="Weapon" name="Orcish Poleaxe - Towering Blow">
+	<item id="4853" type="Weapon" name="歐西斯戰斧">
 		<set name="icon" val="icon.weapon_orcish_poleaxe_i01" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="pole" />
@@ -1692,7 +1692,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="4854" type="Weapon" name="Orcish Poleaxe - Wide Blow">
+	<item id="4854" type="Weapon" name="歐西斯戰斧">
 		<set name="icon" val="icon.weapon_orcish_poleaxe_i01" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="pole" />
@@ -1722,7 +1722,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="4855" type="Weapon" name="Great Axe - Anger">
+	<item id="4855" type="Weapon" name="巨斧">
 		<set name="icon" val="icon.weapon_great_axe_i01" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="pole" />
@@ -1751,7 +1751,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="4856" type="Weapon" name="Great Axe - Critical Stun">
+	<item id="4856" type="Weapon" name="巨斧">
 		<set name="icon" val="icon.weapon_great_axe_i01" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="pole" />
@@ -1782,7 +1782,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="4857" type="Weapon" name="Great Axe - Light">
+	<item id="4857" type="Weapon" name="巨斧">
 		<set name="icon" val="icon.weapon_great_axe_i01" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="pole" />
@@ -1811,7 +1811,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="4858" type="Weapon" name="Lance - Anger">
+	<item id="4858" type="Weapon" name="長槍">
 		<set name="icon" val="icon.weapon_lancia_i01" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="pole" />
@@ -1840,7 +1840,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="4859" type="Weapon" name="Lance - Critical Stun">
+	<item id="4859" type="Weapon" name="長槍">
 		<set name="icon" val="icon.weapon_lancia_i01" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="pole" />
@@ -1871,7 +1871,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="4860" type="Weapon" name="Lance - Towering Blow">
+	<item id="4860" type="Weapon" name="長槍">
 		<set name="icon" val="icon.weapon_lancia_i01" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="pole" />
@@ -1901,7 +1901,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="4861" type="Weapon" name="Halberd - Critical Stun">
+	<item id="4861" type="Weapon" name="長柄戰戟">
 		<set name="icon" val="icon.weapon_halbard_i01" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="pole" />
@@ -1930,7 +1930,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="4862" type="Weapon" name="Halberd - Towering Blow">
+	<item id="4862" type="Weapon" name="長柄戰戟">
 		<set name="icon" val="icon.weapon_halbard_i01" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="pole" />
@@ -1960,7 +1960,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="4863" type="Weapon" name="Halberd - Wide Blow">
+	<item id="4863" type="Weapon" name="長柄戰戟">
 		<set name="icon" val="icon.weapon_halbard_i01" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="pole" />
@@ -1990,7 +1990,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="4864" type="Weapon" name="Heavy Doom Hammer - Magic Regeneration">
+	<item id="4864" type="Weapon" name="巨大末日鎚">
 		<set name="icon" val="icon.weapon_heavy_doom_hammer_i01" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="bigblunt" />
@@ -2021,7 +2021,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="4865" type="Weapon" name="Heavy Doom Hammer - Mental Shield">
+	<item id="4865" type="Weapon" name="巨大末日鎚">
 		<set name="icon" val="icon.weapon_heavy_doom_hammer_i01" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="bigblunt" />
@@ -2052,7 +2052,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="4866" type="Weapon" name="Heavy Doom Hammer - Magic Hold">
+	<item id="4866" type="Weapon" name="巨大末日鎚">
 		<set name="icon" val="icon.weapon_heavy_doom_hammer_i01" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="bigblunt" />
@@ -2083,7 +2083,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="4867" type="Weapon" name="Crystal Staff - Rsk. Evasion">
+	<item id="4867" type="Weapon" name="水晶魔杖">
 		<set name="icon" val="icon.weapon_crystal_staff_i01" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="bigblunt" />
@@ -2113,7 +2113,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="4868" type="Weapon" name="Crystal Staff - Mana Up">
+	<item id="4868" type="Weapon" name="水晶魔杖">
 		<set name="icon" val="icon.weapon_crystal_staff_i01" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="bigblunt" />
@@ -2143,7 +2143,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="4869" type="Weapon" name="Crystal Staff - Blessed Body">
+	<item id="4869" type="Weapon" name="水晶魔杖">
 		<set name="icon" val="icon.weapon_crystal_staff_i01" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="bigblunt" />
@@ -2174,7 +2174,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="4870" type="Weapon" name="Heavy Doom Axe - Magic Poison">
+	<item id="4870" type="Weapon" name="巨大末日斧">
 		<set name="icon" val="icon.weapon_heavy_doom_axe_i01" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="bigblunt" />
@@ -2205,7 +2205,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="4871" type="Weapon" name="Heavy Doom Axe - Magic Weakness">
+	<item id="4871" type="Weapon" name="巨大末日斧">
 		<set name="icon" val="icon.weapon_heavy_doom_axe_i01" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="bigblunt" />
@@ -2236,7 +2236,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="4872" type="Weapon" name="Heavy Doom Axe - Magic Chaos">
+	<item id="4872" type="Weapon" name="巨大末日斧">
 		<set name="icon" val="icon.weapon_heavy_doom_axe_i01" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="bigblunt" />
@@ -2267,7 +2267,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="4873" type="Weapon" name="Cursed Staff - Magic Hold">
+	<item id="4873" type="Weapon" name="受詛咒的魔杖">
 		<set name="icon" val="icon.weapon_cursed_staff_i01" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="bigblunt" />
@@ -2298,7 +2298,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="4874" type="Weapon" name="Cursed Staff - Magic Poison">
+	<item id="4874" type="Weapon" name="受詛咒的魔杖">
 		<set name="icon" val="icon.weapon_cursed_staff_i01" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="bigblunt" />
@@ -2329,7 +2329,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="4875" type="Weapon" name="Cursed Staff - Magic Weakness">
+	<item id="4875" type="Weapon" name="受詛咒的魔杖">
 		<set name="icon" val="icon.weapon_cursed_staff_i01" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="bigblunt" />
@@ -2360,7 +2360,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="4876" type="Weapon" name="Paradia Staff - Magic Regeneration">
+	<item id="4876" type="Weapon" name="佩勒迪亞魔杖">
 		<set name="icon" val="icon.weapon_paradia_staff_i01" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="bigblunt" />
@@ -2391,7 +2391,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="4877" type="Weapon" name="Paradia Staff - Mental Shield">
+	<item id="4877" type="Weapon" name="佩勒迪亞魔杖">
 		<set name="icon" val="icon.weapon_paradia_staff_i01" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="bigblunt" />
@@ -2422,7 +2422,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="4878" type="Weapon" name="Paradia Staff - Magic Hold">
+	<item id="4878" type="Weapon" name="佩勒迪亞魔杖">
 		<set name="icon" val="icon.weapon_paradia_staff_i01" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="bigblunt" />
@@ -2453,7 +2453,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="4879" type="Weapon" name="Pa'agrian Hammer - Rsk. Evasion">
+	<item id="4879" type="Weapon" name="帕格立歐之鎚">
 		<set name="icon" val="icon.weapon_paagrio_hammer_i01" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="bigblunt" />
@@ -2483,7 +2483,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="4880" type="Weapon" name="Pa'agrian Hammer - Magic Poison">
+	<item id="4880" type="Weapon" name="帕格立歐之鎚">
 		<set name="icon" val="icon.weapon_paagrio_hammer_i01" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="bigblunt" />
@@ -2514,7 +2514,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="4881" type="Weapon" name="Pa'agrian Hammer - Magic Weakness">
+	<item id="4881" type="Weapon" name="帕格立歐之鎚">
 		<set name="icon" val="icon.weapon_paagrio_hammer_i01" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="bigblunt" />
@@ -2545,7 +2545,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="4882" type="Weapon" name="Sage's Staff - Magic Hold">
+	<item id="4882" type="Weapon" name="賢者魔杖">
 		<set name="icon" val="icon.weapon_sages_staff_i01" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="bigblunt" />
@@ -2576,7 +2576,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="4883" type="Weapon" name="Sage's Staff - Magic Poison">
+	<item id="4883" type="Weapon" name="賢者魔杖">
 		<set name="icon" val="icon.weapon_sages_staff_i01" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="bigblunt" />
@@ -2607,7 +2607,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="4884" type="Weapon" name="Sage's Staff - Magic Weakness">
+	<item id="4884" type="Weapon" name="賢者魔杖">
 		<set name="icon" val="icon.weapon_sages_staff_i01" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="bigblunt" />
@@ -2638,7 +2638,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="4885" type="Weapon" name="Pa'agrian Axe - Mana Up">
+	<item id="4885" type="Weapon" name="帕格立歐之斧">
 		<set name="icon" val="icon.weapon_paagrio_axe_i01" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="bigblunt" />
@@ -2668,7 +2668,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="4886" type="Weapon" name="Pa'agrian Axe - Magic Weakness">
+	<item id="4886" type="Weapon" name="帕格立歐之斧">
 		<set name="icon" val="icon.weapon_paagrio_axe_i01" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="bigblunt" />
@@ -2699,7 +2699,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="4887" type="Weapon" name="Pa'agrian Axe - Magic Chaos">
+	<item id="4887" type="Weapon" name="帕格立歐之斧">
 		<set name="icon" val="icon.weapon_paagrio_axe_i01" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="bigblunt" />
@@ -2730,7 +2730,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="4888" type="Weapon" name="Deadman's Staff - Magic Regeneration">
+	<item id="4888" type="Weapon" name="亡者魔杖">
 		<set name="icon" val="icon.weapon_deadmans_staff_i01" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="bigblunt" />
@@ -2761,7 +2761,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="4889" type="Weapon" name="Deadman's Staff - Mental Shield">
+	<item id="4889" type="Weapon" name="亡者魔杖">
 		<set name="icon" val="icon.weapon_deadmans_staff_i01" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="bigblunt" />
@@ -2792,7 +2792,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="4890" type="Weapon" name="Deadman's Staff - Magic Hold">
+	<item id="4890" type="Weapon" name="亡者魔杖">
 		<set name="icon" val="icon.weapon_deadmans_staff_i01" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="bigblunt" />
@@ -2823,7 +2823,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="4891" type="Weapon" name="Ghoul's Staff - Rsk. Evasion">
+	<item id="4891" type="Weapon" name="食屍鬼魔杖">
 		<set name="icon" val="icon.weapon_ghouls_staff_i01" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="bigblunt" />
@@ -2853,7 +2853,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="4892" type="Weapon" name="Ghoul's Staff - Mana Up">
+	<item id="4892" type="Weapon" name="食屍鬼魔杖">
 		<set name="icon" val="icon.weapon_ghouls_staff_i01" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="bigblunt" />
@@ -2883,7 +2883,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="4893" type="Weapon" name="Ghoul's Staff - Blessed Body">
+	<item id="4893" type="Weapon" name="食屍鬼魔杖">
 		<set name="icon" val="icon.weapon_ghouls_staff_i01" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="bigblunt" />
@@ -2914,7 +2914,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="4894" type="Weapon" name="Demon's Staff - Magic Poison">
+	<item id="4894" type="Weapon" name="惡魔魔杖">
 		<set name="icon" val="icon.weapon_demons_staff_i01" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="bigblunt" />
@@ -2945,7 +2945,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="4895" type="Weapon" name="Demon's Staff - Magic Weakness">
+	<item id="4895" type="Weapon" name="惡魔魔杖">
 		<set name="icon" val="icon.weapon_demons_staff_i01" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="bigblunt" />
@@ -2976,7 +2976,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="4896" type="Weapon" name="Demon's Staff - Magic Chaos">
+	<item id="4896" type="Weapon" name="惡魔魔杖">
 		<set name="icon" val="icon.weapon_demons_staff_i01" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="bigblunt" />
@@ -3007,7 +3007,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="4897" type="Weapon" name="Sprite's Staff - Magic Regeneration">
+	<item id="4897" type="Weapon" name="精靈魔杖">
 		<set name="icon" val="icon.weapon_sprites_staff_i01" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="bigblunt" />
@@ -3038,7 +3038,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="4898" type="Weapon" name="Sprite's Staff - Mental Shield">
+	<item id="4898" type="Weapon" name="精靈魔杖">
 		<set name="icon" val="icon.weapon_sprites_staff_i01" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="bigblunt" />
@@ -3069,7 +3069,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="4899" type="Weapon" name="Sprite's Staff - Magic Hold">
+	<item id="4899" type="Weapon" name="精靈魔杖">
 		<set name="icon" val="icon.weapon_sprites_staff_i01" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="bigblunt" />

@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <list>
-	<item id="5200" type="EtcItem" name="Chest Key - Grade 5">
+	<item id="5200" type="EtcItem" name="箱子鑰匙-5級">
 		<set name="icon" val="icon.etc_key_i00" />
 		<set name="default_action" val="skill_reduce" />
 		<set name="material" val="liquid" />
@@ -10,7 +10,7 @@
 		<set name="is_oly_restricted" val="true" />
 		<set name="item_skill" val="2065-4" />
 	</item>
-	<item id="5201" type="EtcItem" name="Chest Key - Grade 4">
+	<item id="5201" type="EtcItem" name="箱子鑰匙-4級">
 		<set name="icon" val="icon.etc_key_i00" />
 		<set name="default_action" val="skill_reduce" />
 		<set name="material" val="liquid" />
@@ -20,7 +20,7 @@
 		<set name="is_oly_restricted" val="true" />
 		<set name="item_skill" val="2065-5" />
 	</item>
-	<item id="5202" type="EtcItem" name="Chest Key - Grade 3">
+	<item id="5202" type="EtcItem" name="箱子鑰匙-3級">
 		<set name="icon" val="icon.etc_key_i00" />
 		<set name="default_action" val="skill_reduce" />
 		<set name="material" val="liquid" />
@@ -30,7 +30,7 @@
 		<set name="is_oly_restricted" val="true" />
 		<set name="item_skill" val="2065-6" />
 	</item>
-	<item id="5203" type="EtcItem" name="Chest Key - Grade 2">
+	<item id="5203" type="EtcItem" name="箱子鑰匙-2級">
 		<set name="icon" val="icon.etc_key_i00" />
 		<set name="default_action" val="skill_reduce" />
 		<set name="material" val="liquid" />
@@ -40,7 +40,7 @@
 		<set name="is_oly_restricted" val="true" />
 		<set name="item_skill" val="2065-7" />
 	</item>
-	<item id="5204" type="EtcItem" name="Chest Key - Grade 1">
+	<item id="5204" type="EtcItem" name="箱子鑰匙-1級">
 		<set name="icon" val="icon.etc_key_i00" />
 		<set name="default_action" val="skill_reduce" />
 		<set name="material" val="liquid" />
@@ -50,7 +50,7 @@
 		<set name="is_oly_restricted" val="true" />
 		<set name="item_skill" val="2065-8" />
 	</item>
-	<item id="5205" type="EtcItem" name="Mercenary Posting Ticket (Sword/Stationary)">
+	<item id="5205" type="EtcItem" name="傭兵配置表(劍/固定)">
 		<set name="icon" val="icon.mticket_sword_fix_i00" />
 		<set name="etcitem_type" val="castle_guard" />
 		<set name="immediate_effect" val="1" />
@@ -59,7 +59,7 @@
 		<set name="is_stackable" val="true" />
 		<set name="handler" val="MercTicket" />
 	</item>
-	<item id="5206" type="EtcItem" name="Mercenary Posting Ticket (Spear/Stationary)">
+	<item id="5206" type="EtcItem" name="傭兵配置表(槍/固定)">
 		<set name="icon" val="icon.mticket_pole_fix_i00" />
 		<set name="etcitem_type" val="castle_guard" />
 		<set name="immediate_effect" val="1" />
@@ -68,7 +68,7 @@
 		<set name="is_stackable" val="true" />
 		<set name="handler" val="MercTicket" />
 	</item>
-	<item id="5207" type="EtcItem" name="Mercenary Posting Ticket (Bow/Stationary)">
+	<item id="5207" type="EtcItem" name="傭兵配置表(弓/固定)">
 		<set name="icon" val="icon.mticket_bow_fix_i00" />
 		<set name="etcitem_type" val="castle_guard" />
 		<set name="immediate_effect" val="1" />
@@ -77,7 +77,7 @@
 		<set name="is_stackable" val="true" />
 		<set name="handler" val="MercTicket" />
 	</item>
-	<item id="5208" type="EtcItem" name="Mercenary Posting Ticket (Cleric/Stationary)">
+	<item id="5208" type="EtcItem" name="傭兵配置表(牧師/固定)">
 		<set name="icon" val="icon.mticket_cleric_fix_i00" />
 		<set name="etcitem_type" val="castle_guard" />
 		<set name="immediate_effect" val="1" />
@@ -86,7 +86,7 @@
 		<set name="is_stackable" val="true" />
 		<set name="handler" val="MercTicket" />
 	</item>
-	<item id="5209" type="EtcItem" name="Mercenary Posting Ticket (Wizard/Stationary)">
+	<item id="5209" type="EtcItem" name="傭兵配置表(巫師/固定)">
 		<set name="icon" val="icon.mticket_wizard_fix_i00" />
 		<set name="etcitem_type" val="castle_guard" />
 		<set name="immediate_effect" val="1" />
@@ -95,7 +95,7 @@
 		<set name="is_stackable" val="true" />
 		<set name="handler" val="MercTicket" />
 	</item>
-	<item id="5210" type="EtcItem" name="Mercenary Posting Ticket (Sword/Mobile)">
+	<item id="5210" type="EtcItem" name="傭兵配置表(劍/移動)">
 		<set name="icon" val="icon.mticket_sword_move_i00" />
 		<set name="etcitem_type" val="castle_guard" />
 		<set name="immediate_effect" val="1" />
@@ -104,7 +104,7 @@
 		<set name="is_stackable" val="true" />
 		<set name="handler" val="MercTicket" />
 	</item>
-	<item id="5211" type="EtcItem" name="Mercenary Posting Ticket (Spear/Mobile)">
+	<item id="5211" type="EtcItem" name="傭兵配置表(槍/移動)">
 		<set name="icon" val="icon.mticket_pole_move_i00" />
 		<set name="etcitem_type" val="castle_guard" />
 		<set name="immediate_effect" val="1" />
@@ -113,7 +113,7 @@
 		<set name="is_stackable" val="true" />
 		<set name="handler" val="MercTicket" />
 	</item>
-	<item id="5212" type="EtcItem" name="Mercenary Posting Ticket (Bow/Mobile)">
+	<item id="5212" type="EtcItem" name="傭兵配置表(弓/移動)">
 		<set name="icon" val="icon.mticket_bow_move_i00" />
 		<set name="etcitem_type" val="castle_guard" />
 		<set name="immediate_effect" val="1" />
@@ -122,7 +122,7 @@
 		<set name="is_stackable" val="true" />
 		<set name="handler" val="MercTicket" />
 	</item>
-	<item id="5213" type="EtcItem" name="Mercenary Posting Ticket (Cleric/Mobile)">
+	<item id="5213" type="EtcItem" name="傭兵配置表(牧師/移動)">
 		<set name="icon" val="icon.mticket_cleric_move_i00" />
 		<set name="etcitem_type" val="castle_guard" />
 		<set name="immediate_effect" val="1" />
@@ -131,7 +131,7 @@
 		<set name="is_stackable" val="true" />
 		<set name="handler" val="MercTicket" />
 	</item>
-	<item id="5214" type="EtcItem" name="Mercenary Posting Ticket (Wizard/Mobile)">
+	<item id="5214" type="EtcItem" name="傭兵配置表(巫師/移動)">
 		<set name="icon" val="icon.mticket_wizard_move_i00" />
 		<set name="etcitem_type" val="castle_guard" />
 		<set name="immediate_effect" val="1" />
@@ -140,7 +140,7 @@
 		<set name="is_stackable" val="true" />
 		<set name="handler" val="MercTicket" />
 	</item>
-	<item id="5215" type="EtcItem" name="Mercenary Posting Ticket (Teleporter1)">
+	<item id="5215" type="EtcItem" name="傭兵配置表(傳送師1)">
 		<set name="icon" val="icon.mticket_teleporter_fix_i00" />
 		<set name="etcitem_type" val="castle_guard" />
 		<set name="immediate_effect" val="1" />
@@ -149,7 +149,7 @@
 		<set name="is_stackable" val="true" />
 		<set name="handler" val="MercTicket" />
 	</item>
-	<item id="5216" type="Armor" name="Wolf Level 75 Armor">
+	<item id="5216" type="Armor" name="狼用75級防具">
 		<set name="icon" val="icon.etc_pet_armor_i02" />
 		<set name="default_action" val="equip" />
 		<set name="armor_type" val="light" />
@@ -164,7 +164,7 @@
 			<add order="0x10" stat="pDef" val="71" />
 		</for>
 	</item>
-	<item id="5217" type="Weapon" name="Wolf Level 75 Weapon">
+	<item id="5217" type="Weapon" name="狼用75級武器">
 		<set name="icon" val="icon.etc_pet_arms_i02" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="sword" />
@@ -184,7 +184,7 @@
 			<set order="0x08" stat="pAtkSpd" val="277" />
 		</for>
 	</item>
-	<item id="5218" type="EtcItem" name="Mercenary Posting Ticket (Teleporter2)">
+	<item id="5218" type="EtcItem" name="傭兵配置表(傳送師2)">
 		<set name="icon" val="icon.mticket_teleporter_fix_i00" />
 		<set name="etcitem_type" val="castle_guard" />
 		<set name="immediate_effect" val="1" />
@@ -193,7 +193,7 @@
 		<set name="is_stackable" val="true" />
 		<set name="handler" val="MercTicket" />
 	</item>
-	<item id="5219" type="EtcItem" name="Mercenary Posting Ticket (Teleporter3)">
+	<item id="5219" type="EtcItem" name="傭兵配置表(傳送師3)">
 		<set name="icon" val="icon.mticket_teleporter_fix_i00" />
 		<set name="etcitem_type" val="castle_guard" />
 		<set name="immediate_effect" val="1" />
@@ -202,7 +202,7 @@
 		<set name="is_stackable" val="true" />
 		<set name="handler" val="MercTicket" />
 	</item>
-	<item id="5220" type="EtcItem" name="Metal Hardener">
+	<item id="5220" type="EtcItem" name="金屬強化劑">
 		<set name="icon" val="icon.etc_plate_blue_i00" />
 		<set name="etcitem_type" val="material" />
 		<set name="immediate_effect" val="1" />
@@ -211,7 +211,7 @@
 		<set name="price" val="5000" />
 		<set name="is_stackable" val="true" />
 	</item>
-	<item id="5221" type="EtcItem" name="Seed: Chilly Cobol">
+	<item id="5221" type="EtcItem" name="冷氣柯柏種子">
 		<set name="icon" val="icon.etc_cobol_seed_i00" />
 		<set name="default_action" val="seed" />
 		<set name="etcitem_type" val="seed" />
@@ -222,7 +222,7 @@
 		<set name="handler" val="Seed" />
 		<set name="item_skill" val="2097-2" />
 	</item>
-	<item id="5222" type="EtcItem" name="Seed: Blue Cobol">
+	<item id="5222" type="EtcItem" name="藍色柯柏種子">
 		<set name="icon" val="icon.etc_cobol_seed_i00" />
 		<set name="default_action" val="seed" />
 		<set name="etcitem_type" val="seed" />
@@ -233,7 +233,7 @@
 		<set name="handler" val="Seed" />
 		<set name="item_skill" val="2097-2" />
 	</item>
-	<item id="5223" type="EtcItem" name="Seed: Thorn Cobol">
+	<item id="5223" type="EtcItem" name="芒刺柯柏種子">
 		<set name="icon" val="icon.etc_cobol_seed_i00" />
 		<set name="default_action" val="seed" />
 		<set name="etcitem_type" val="seed" />
@@ -244,7 +244,7 @@
 		<set name="handler" val="Seed" />
 		<set name="item_skill" val="2097-2" />
 	</item>
-	<item id="5224" type="EtcItem" name="Seed: Golden Cobol">
+	<item id="5224" type="EtcItem" name="金色柯柏種子">
 		<set name="icon" val="icon.etc_cobol_seed_i00" />
 		<set name="default_action" val="seed" />
 		<set name="etcitem_type" val="seed" />
@@ -255,7 +255,7 @@
 		<set name="handler" val="Seed" />
 		<set name="item_skill" val="2097-2" />
 	</item>
-	<item id="5225" type="EtcItem" name="Seed: Great Cobol">
+	<item id="5225" type="EtcItem" name="巨大柯柏種子">
 		<set name="icon" val="icon.etc_cobol_seed_i00" />
 		<set name="default_action" val="seed" />
 		<set name="etcitem_type" val="seed" />
@@ -266,7 +266,7 @@
 		<set name="handler" val="Seed" />
 		<set name="item_skill" val="2097-2" />
 	</item>
-	<item id="5226" type="EtcItem" name="Seed: Red Codran">
+	<item id="5226" type="EtcItem" name="紅色柯德朗種子">
 		<set name="icon" val="icon.etc_codran_seed_i00" />
 		<set name="default_action" val="seed" />
 		<set name="etcitem_type" val="seed" />
@@ -277,7 +277,7 @@
 		<set name="handler" val="Seed" />
 		<set name="item_skill" val="2097-3" />
 	</item>
-	<item id="5227" type="EtcItem" name="Seed: Sea Codran">
+	<item id="5227" type="EtcItem" name="海洋柯德朗種子">
 		<set name="icon" val="icon.etc_codran_seed_i00" />
 		<set name="default_action" val="seed" />
 		<set name="etcitem_type" val="seed" />
@@ -288,7 +288,7 @@
 		<set name="handler" val="Seed" />
 		<set name="item_skill" val="2097-3" />
 	</item>
-	<item id="5228" type="EtcItem" name="Trash">
+	<item id="5228" type="EtcItem" name="垃圾">
 		<set name="icon" val="icon.etc_codran_seed_i00" />
 		<set name="material" val="paper" />
 		<set name="weight" val="20" />
@@ -296,7 +296,7 @@
 		<set name="is_stackable" val="true" />
 		<set name="item_skill" val="2097-3" />
 	</item>
-	<item id="5229" type="EtcItem" name="Trash">
+	<item id="5229" type="EtcItem" name="垃圾">
 		<set name="icon" val="icon.etc_codran_seed_i00" />
 		<set name="material" val="paper" />
 		<set name="weight" val="20" />
@@ -304,7 +304,7 @@
 		<set name="is_stackable" val="true" />
 		<set name="item_skill" val="2097-3" />
 	</item>
-	<item id="5230" type="EtcItem" name="Recipe: Mithril Arrow (100%)">
+	<item id="5230" type="EtcItem" name="製作卷軸(米索莉箭100%)">
 		<set name="icon" val="icon.etc_recipe_violet_i00" />
 		<set name="default_action" val="recipe" />
 		<set name="etcitem_type" val="recipe" />
@@ -316,7 +316,7 @@
 		<set name="is_stackable" val="true" />
 		<set name="handler" val="Recipes" />
 	</item>
-	<item id="5231" type="EtcItem" name="Recipe: Metal Hardener (100%)">
+	<item id="5231" type="EtcItem" name="製作卷軸(金屬強化劑100%)">
 		<set name="icon" val="icon.etc_recipe_blue_i00" />
 		<set name="default_action" val="recipe" />
 		<set name="etcitem_type" val="recipe" />
@@ -328,7 +328,7 @@
 		<set name="is_stackable" val="true" />
 		<set name="handler" val="Recipes" />
 	</item>
-	<item id="5232" type="EtcItem" name="White Fabric">
+	<item id="5232" type="EtcItem" name="白布">
 		<set name="icon" val="icon.etc_piece_of_cloth_white_i00" />
 		<set name="immediate_effect" val="1" />
 		<set name="material" val="cloth" />
@@ -339,7 +339,7 @@
 		<set name="is_stackable" val="true" />
 		<set name="is_questitem" val="true" />
 	</item>
-	<item id="5233" type="Weapon" name="Keshanberk*Keshanberk">
+	<item id="5233" type="Weapon" name="柯貝克劍*柯貝克劍">
 		<set name="icon" val="icon.weapon_dual_sword_i00" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="dual" />
@@ -366,7 +366,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="5234" type="EtcItem" name="Mystery Potion">
+	<item id="5234" type="EtcItem" name="疑問藥水">
 		<set name="icon" val="icon.etc_lesser_potion_clear_i00" />
 		<set name="default_action" val="skill_reduce" />
 		<set name="etcitem_type" val="potion" />
@@ -381,7 +381,7 @@
 		<set name="item_skill" val="2103-1" />
 		<set name="use_condition" val="{{uc_transmode_exclude;{tt_flying}}}" />
 	</item>
-	<item id="5235" type="EtcItem" name="Facelifting Potion - A">
+	<item id="5235" type="EtcItem" name="整形藥水-A">
 		<set name="icon" val="icon.etc_lesser_potion_purple_i00" />
 		<set name="default_action" val="skill_reduce" />
 		<set name="etcitem_type" val="potion" />
@@ -395,7 +395,7 @@
 		<set name="item_skill" val="2122-1" />
 		<set name="use_condition" val="{{uc_transmode_exclude;{tt_flying}}}" />
 	</item>
-	<item id="5236" type="EtcItem" name="Facelifting Potion - B">
+	<item id="5236" type="EtcItem" name="整形藥水-B">
 		<set name="icon" val="icon.etc_lesser_potion_purple_i00" />
 		<set name="default_action" val="skill_reduce" />
 		<set name="etcitem_type" val="potion" />
@@ -409,7 +409,7 @@
 		<set name="item_skill" val="2123-1" />
 		<set name="use_condition" val="{{uc_transmode_exclude;{tt_flying}}}" />
 	</item>
-	<item id="5237" type="EtcItem" name="Facelifting Potion - C">
+	<item id="5237" type="EtcItem" name="整形藥水-C">
 		<set name="icon" val="icon.etc_lesser_potion_purple_i00" />
 		<set name="default_action" val="skill_reduce" />
 		<set name="etcitem_type" val="potion" />
@@ -423,7 +423,7 @@
 		<set name="item_skill" val="2124-1" />
 		<set name="use_condition" val="{{uc_transmode_exclude;{tt_flying}}}" />
 	</item>
-	<item id="5238" type="EtcItem" name="Dye Potion - A">
+	<item id="5238" type="EtcItem" name="染髮藥水-A">
 		<set name="icon" val="icon.etc_lesser_potion_scarlet_i00" />
 		<set name="default_action" val="skill_reduce" />
 		<set name="etcitem_type" val="potion" />
@@ -437,7 +437,7 @@
 		<set name="item_skill" val="2125-1" />
 		<set name="use_condition" val="{{uc_transmode_exclude;{tt_flying}}}" />
 	</item>
-	<item id="5239" type="EtcItem" name="Dye Potion - B">
+	<item id="5239" type="EtcItem" name="染髮藥水-B">
 		<set name="icon" val="icon.etc_lesser_potion_scarlet_i00" />
 		<set name="default_action" val="skill_reduce" />
 		<set name="etcitem_type" val="potion" />
@@ -451,7 +451,7 @@
 		<set name="item_skill" val="2126-1" />
 		<set name="use_condition" val="{{uc_transmode_exclude;{tt_flying}}}" />
 	</item>
-	<item id="5240" type="EtcItem" name="Dye Potion - C">
+	<item id="5240" type="EtcItem" name="染髮藥水-C">
 		<set name="icon" val="icon.etc_lesser_potion_scarlet_i00" />
 		<set name="default_action" val="skill_reduce" />
 		<set name="etcitem_type" val="potion" />
@@ -465,7 +465,7 @@
 		<set name="item_skill" val="2127-1" />
 		<set name="use_condition" val="{{uc_transmode_exclude;{tt_flying}}}" />
 	</item>
-	<item id="5241" type="EtcItem" name="Dye Potion - D">
+	<item id="5241" type="EtcItem" name="染髮藥水-D">
 		<set name="icon" val="icon.etc_lesser_potion_scarlet_i00" />
 		<set name="default_action" val="skill_reduce" />
 		<set name="etcitem_type" val="potion" />
@@ -480,7 +480,7 @@
 		<set name="use_condition" val="{{uc_race;{0;1;2;3;4}};{uc_transmode_exclude;{tt_flying}}}" />
 		<set name="equip_condition" val="{{ec_race;{0;1;2;3;4}}}" />
 	</item>
-	<item id="5242" type="EtcItem" name="Hair Style Change Potion - A">
+	<item id="5242" type="EtcItem" name="造型藥水-A">
 		<set name="icon" val="icon.etc_lesser_potion_green_i00" />
 		<set name="default_action" val="skill_reduce" />
 		<set name="etcitem_type" val="potion" />
@@ -494,7 +494,7 @@
 		<set name="item_skill" val="2129-1" />
 		<set name="use_condition" val="{{uc_transmode_exclude;{tt_flying}}}" />
 	</item>
-	<item id="5243" type="EtcItem" name="Hair Style Change Potion - B">
+	<item id="5243" type="EtcItem" name="造型藥水-B">
 		<set name="icon" val="icon.etc_lesser_potion_green_i00" />
 		<set name="default_action" val="skill_reduce" />
 		<set name="etcitem_type" val="potion" />
@@ -508,7 +508,7 @@
 		<set name="item_skill" val="2130-1" />
 		<set name="use_condition" val="{{uc_transmode_exclude;{tt_flying}}}" />
 	</item>
-	<item id="5244" type="EtcItem" name="Hair Style Change Potion - C">
+	<item id="5244" type="EtcItem" name="造型藥水-C">
 		<set name="icon" val="icon.etc_lesser_potion_green_i00" />
 		<set name="default_action" val="skill_reduce" />
 		<set name="etcitem_type" val="potion" />
@@ -522,7 +522,7 @@
 		<set name="item_skill" val="2131-1" />
 		<set name="use_condition" val="{{uc_transmode_exclude;{tt_flying}}}" />
 	</item>
-	<item id="5245" type="EtcItem" name="Hair Style Change Potion - D">
+	<item id="5245" type="EtcItem" name="造型藥水-D">
 		<set name="icon" val="icon.etc_lesser_potion_green_i00" />
 		<set name="default_action" val="skill_reduce" />
 		<set name="etcitem_type" val="potion" />
@@ -536,7 +536,7 @@
 		<set name="item_skill" val="2132-1" />
 		<set name="use_condition" val="{{uc_transmode_exclude;{tt_flying}}}" />
 	</item>
-	<item id="5246" type="EtcItem" name="Hair Style Change Potion - E">
+	<item id="5246" type="EtcItem" name="造型藥水-E">
 		<set name="icon" val="icon.etc_lesser_potion_green_i00" />
 		<set name="default_action" val="skill_reduce" />
 		<set name="etcitem_type" val="potion" />
@@ -550,7 +550,7 @@
 		<set name="item_skill" val="2133-1" />
 		<set name="use_condition" val="{{uc_transmode_exclude;{tt_flying}}}" />
 	</item>
-	<item id="5247" type="EtcItem" name="Hair Style Change Potion - F">
+	<item id="5247" type="EtcItem" name="造型藥水-F">
 		<set name="icon" val="icon.etc_lesser_potion_green_i00" />
 		<set name="default_action" val="skill_reduce" />
 		<set name="etcitem_type" val="potion" />
@@ -564,7 +564,7 @@
 		<set name="item_skill" val="2134-1" />
 		<set name="use_condition" val="{{uc_transmode_exclude;{tt_flying}}}" />
 	</item>
-	<item id="5248" type="EtcItem" name="Hair Style Change Potion - G">
+	<item id="5248" type="EtcItem" name="造型藥水-G">
 		<set name="icon" val="icon.etc_lesser_potion_green_i00" />
 		<set name="default_action" val="skill_reduce" />
 		<set name="etcitem_type" val="potion" />
@@ -578,7 +578,7 @@
 		<set name="item_skill" val="2135-1" />
 		<set name="use_condition" val="{{uc_transmode_exclude;{tt_flying}}}" />
 	</item>
-	<item id="5249" type="EtcItem" name="Commemorative Item: First Anniversary of Lineage II Service">
+	<item id="5249" type="EtcItem" name="天堂II服務一週年紀念物品">
 		<set name="icon" val="icon.etc_l2_i00" />
 		<set name="immediate_effect" val="1" />
 		<set name="material" val="cloth" />
@@ -588,7 +588,7 @@
 		<set name="is_sellable" val="false" />
 		<set name="is_depositable" val="false" />
 	</item>
-	<item id="5250" type="EtcItem" name="Greater Compressed Package of Soulshots: No-grade">
+	<item id="5250" type="EtcItem" name="高級壓縮靈魂彈-普通">
 		<set name="icon" val="icon.etc_pouch_gray_i00" />
 		<set name="default_action" val="capsule" />
 		<set name="immediate_effect" val="1" />
@@ -598,7 +598,7 @@
 		<set name="handler" val="ItemSkills" />
 		<set name="item_skill" val="2104-1" />
 	</item>
-	<item id="5251" type="EtcItem" name="Greater Compressed Package of Soulshots: D-grade">
+	<item id="5251" type="EtcItem" name="高級壓縮靈魂彈-D級">
 		<set name="icon" val="icon.etc_pouch_gray_i00" />
 		<set name="default_action" val="capsule" />
 		<set name="immediate_effect" val="1" />
@@ -608,7 +608,7 @@
 		<set name="handler" val="ItemSkills" />
 		<set name="item_skill" val="2105-1" />
 	</item>
-	<item id="5252" type="EtcItem" name="Greater Compressed Package of Soulshots: C-grade">
+	<item id="5252" type="EtcItem" name="高級壓縮靈魂彈-C級">
 		<set name="icon" val="icon.etc_pouch_gray_i00" />
 		<set name="default_action" val="capsule" />
 		<set name="immediate_effect" val="1" />
@@ -618,7 +618,7 @@
 		<set name="handler" val="ItemSkills" />
 		<set name="item_skill" val="2106-1" />
 	</item>
-	<item id="5253" type="EtcItem" name="Greater Compressed Package of Soulshots: B-grade">
+	<item id="5253" type="EtcItem" name="高級壓縮靈魂彈-B級">
 		<set name="icon" val="icon.etc_pouch_gray_i00" />
 		<set name="default_action" val="capsule" />
 		<set name="immediate_effect" val="1" />
@@ -628,7 +628,7 @@
 		<set name="handler" val="ItemSkills" />
 		<set name="item_skill" val="2107-1" />
 	</item>
-	<item id="5254" type="EtcItem" name="Greater Compressed Package of Soulshots: A-grade">
+	<item id="5254" type="EtcItem" name="高級壓縮靈魂彈-A級">
 		<set name="icon" val="icon.etc_pouch_gray_i00" />
 		<set name="default_action" val="capsule" />
 		<set name="immediate_effect" val="1" />
@@ -638,7 +638,7 @@
 		<set name="handler" val="ItemSkills" />
 		<set name="item_skill" val="2108-1" />
 	</item>
-	<item id="5255" type="EtcItem" name="Greater Compressed Package of Soulshots: S-grade">
+	<item id="5255" type="EtcItem" name="高級壓縮靈魂彈-S級">
 		<set name="icon" val="icon.etc_pouch_gray_i00" />
 		<set name="default_action" val="capsule" />
 		<set name="immediate_effect" val="1" />
@@ -648,7 +648,7 @@
 		<set name="handler" val="ItemSkills" />
 		<set name="item_skill" val="2109-1" />
 	</item>
-	<item id="5256" type="EtcItem" name="Greater Compressed Package of Spiritshots: No-grade">
+	<item id="5256" type="EtcItem" name="高級壓縮魔靈彈-普通">
 		<set name="icon" val="icon.etc_pouch_gray_i00" />
 		<set name="default_action" val="capsule" />
 		<set name="immediate_effect" val="1" />
@@ -658,7 +658,7 @@
 		<set name="handler" val="ItemSkills" />
 		<set name="item_skill" val="2110-1" />
 	</item>
-	<item id="5257" type="EtcItem" name="Greater Compressed Package of Spiritshots: D-grade">
+	<item id="5257" type="EtcItem" name="高級壓縮魔靈彈-D級">
 		<set name="icon" val="icon.etc_pouch_gray_i00" />
 		<set name="default_action" val="capsule" />
 		<set name="immediate_effect" val="1" />
@@ -668,7 +668,7 @@
 		<set name="handler" val="ItemSkills" />
 		<set name="item_skill" val="2111-1" />
 	</item>
-	<item id="5258" type="EtcItem" name="Greater Compressed Package of Spiritshots: C-grade">
+	<item id="5258" type="EtcItem" name="高級壓縮魔靈彈-C級">
 		<set name="icon" val="icon.etc_pouch_gray_i00" />
 		<set name="default_action" val="capsule" />
 		<set name="immediate_effect" val="1" />
@@ -678,7 +678,7 @@
 		<set name="handler" val="ItemSkills" />
 		<set name="item_skill" val="2112-1" />
 	</item>
-	<item id="5259" type="EtcItem" name="Greater Compressed Package of Spiritshots: B-grade">
+	<item id="5259" type="EtcItem" name="高級壓縮魔靈彈-B級">
 		<set name="icon" val="icon.etc_pouch_gray_i00" />
 		<set name="default_action" val="capsule" />
 		<set name="immediate_effect" val="1" />
@@ -688,7 +688,7 @@
 		<set name="handler" val="ItemSkills" />
 		<set name="item_skill" val="2113-1" />
 	</item>
-	<item id="5260" type="EtcItem" name="Greater Compressed Package of Spiritshots: A-grade">
+	<item id="5260" type="EtcItem" name="高級壓縮魔靈彈-A級">
 		<set name="icon" val="icon.etc_pouch_gray_i00" />
 		<set name="default_action" val="capsule" />
 		<set name="immediate_effect" val="1" />
@@ -698,7 +698,7 @@
 		<set name="handler" val="ItemSkills" />
 		<set name="item_skill" val="2114-1" />
 	</item>
-	<item id="5261" type="EtcItem" name="Greater Compressed Package of Spiritshots: S-grade">
+	<item id="5261" type="EtcItem" name="高級壓縮魔靈彈-S級">
 		<set name="icon" val="icon.etc_pouch_gray_i00" />
 		<set name="default_action" val="capsule" />
 		<set name="immediate_effect" val="1" />
@@ -708,7 +708,7 @@
 		<set name="handler" val="ItemSkills" />
 		<set name="item_skill" val="2115-1" />
 	</item>
-	<item id="5262" type="EtcItem" name="Greater Compressed Package of Blessed Spiritshots: No-grade">
+	<item id="5262" type="EtcItem" name="高級祝福的壓縮魔靈彈-普通">
 		<set name="icon" val="icon.etc_pouch_gray_i00" />
 		<set name="default_action" val="capsule" />
 		<set name="immediate_effect" val="1" />
@@ -718,7 +718,7 @@
 		<set name="handler" val="ItemSkills" />
 		<set name="item_skill" val="2116-1" />
 	</item>
-	<item id="5263" type="EtcItem" name="Greater Compressed Package of Blessed Spiritshots: D-grade">
+	<item id="5263" type="EtcItem" name="高級祝福的壓縮魔靈彈-D級">
 		<set name="icon" val="icon.etc_pouch_gray_i00" />
 		<set name="default_action" val="capsule" />
 		<set name="immediate_effect" val="1" />
@@ -728,7 +728,7 @@
 		<set name="handler" val="ItemSkills" />
 		<set name="item_skill" val="2117-1" />
 	</item>
-	<item id="5264" type="EtcItem" name="Greater Compressed Package of Blessed Spiritshots: C-grade">
+	<item id="5264" type="EtcItem" name="高級祝福的壓縮魔靈彈-C級">
 		<set name="icon" val="icon.etc_pouch_gray_i00" />
 		<set name="default_action" val="capsule" />
 		<set name="immediate_effect" val="1" />
@@ -738,7 +738,7 @@
 		<set name="handler" val="ItemSkills" />
 		<set name="item_skill" val="2118-1" />
 	</item>
-	<item id="5265" type="EtcItem" name="Greater Compressed Package of Blessed Spiritshots: B-grade">
+	<item id="5265" type="EtcItem" name="高級祝福的壓縮魔靈彈-B級">
 		<set name="icon" val="icon.etc_pouch_gray_i00" />
 		<set name="default_action" val="capsule" />
 		<set name="immediate_effect" val="1" />
@@ -748,7 +748,7 @@
 		<set name="handler" val="ItemSkills" />
 		<set name="item_skill" val="2119-1" />
 	</item>
-	<item id="5266" type="EtcItem" name="Greater Compressed Package of Blessed Spiritshots: A-grade">
+	<item id="5266" type="EtcItem" name="高級祝福的壓縮魔靈彈-A級">
 		<set name="icon" val="icon.etc_pouch_gray_i00" />
 		<set name="default_action" val="capsule" />
 		<set name="immediate_effect" val="1" />
@@ -758,7 +758,7 @@
 		<set name="handler" val="ItemSkills" />
 		<set name="item_skill" val="2120-1" />
 	</item>
-	<item id="5267" type="EtcItem" name="Greater Compressed Package of Blessed Spiritshots: S-grade">
+	<item id="5267" type="EtcItem" name="高級祝福的壓縮魔靈彈-S級">
 		<set name="icon" val="icon.etc_pouch_gray_i00" />
 		<set name="default_action" val="capsule" />
 		<set name="immediate_effect" val="1" />
@@ -768,7 +768,7 @@
 		<set name="handler" val="ItemSkills" />
 		<set name="item_skill" val="2121-1" />
 	</item>
-	<item id="5268" type="EtcItem" name="Recipe: Greater Soulshot (D) Compressed Package (100%)">
+	<item id="5268" type="EtcItem" name="製作卷軸(高級壓縮靈魂彈-D級100%)">
 		<set name="icon" val="icon.etc_recipe_blue_i00" />
 		<set name="default_action" val="recipe" />
 		<set name="etcitem_type" val="recipe" />
@@ -780,7 +780,7 @@
 		<set name="is_stackable" val="true" />
 		<set name="handler" val="Recipes" />
 	</item>
-	<item id="5269" type="EtcItem" name="Recipe: Greater Soulshot (C) Compressed Package(100%)">
+	<item id="5269" type="EtcItem" name="製作卷軸(高級壓縮靈魂彈-C級100%)">
 		<set name="icon" val="icon.etc_recipe_yellow_i00" />
 		<set name="default_action" val="recipe" />
 		<set name="etcitem_type" val="recipe" />
@@ -792,7 +792,7 @@
 		<set name="is_stackable" val="true" />
 		<set name="handler" val="Recipes" />
 	</item>
-	<item id="5270" type="EtcItem" name="Recipe: Greater Soulshot (B) Compressed Package(100%)">
+	<item id="5270" type="EtcItem" name="製作卷軸(高級壓縮靈魂彈-B級100%)">
 		<set name="icon" val="icon.etc_recipe_red_i00" />
 		<set name="default_action" val="recipe" />
 		<set name="etcitem_type" val="recipe" />
@@ -804,7 +804,7 @@
 		<set name="is_stackable" val="true" />
 		<set name="handler" val="Recipes" />
 	</item>
-	<item id="5271" type="EtcItem" name="Recipe: Greater Soulshot (A) Compressed Package(100%)">
+	<item id="5271" type="EtcItem" name="製作卷軸(高級壓縮靈魂彈-A級100%)">
 		<set name="icon" val="icon.etc_recipe_violet_i00" />
 		<set name="default_action" val="recipe" />
 		<set name="etcitem_type" val="recipe" />
@@ -816,7 +816,7 @@
 		<set name="is_stackable" val="true" />
 		<set name="handler" val="Recipes" />
 	</item>
-	<item id="5272" type="EtcItem" name="Recipe: Greater Soulshot (S) Compressed Package(100%)">
+	<item id="5272" type="EtcItem" name="製作卷軸(高級壓縮靈魂彈-S級100%)">
 		<set name="icon" val="icon.etc_recipe_black_i00" />
 		<set name="default_action" val="recipe" />
 		<set name="etcitem_type" val="recipe" />
@@ -828,7 +828,7 @@
 		<set name="is_stackable" val="true" />
 		<set name="handler" val="Recipes" />
 	</item>
-	<item id="5273" type="EtcItem" name="Recipe: Greater Spiritshot (D) Compressed Package(100%)">
+	<item id="5273" type="EtcItem" name="製作卷軸(高級壓縮魔靈彈-D級100%)">
 		<set name="icon" val="icon.etc_recipe_blue_i00" />
 		<set name="default_action" val="recipe" />
 		<set name="etcitem_type" val="recipe" />
@@ -840,7 +840,7 @@
 		<set name="is_stackable" val="true" />
 		<set name="handler" val="Recipes" />
 	</item>
-	<item id="5274" type="EtcItem" name="Recipe: Greater Spiritshot (C) Compressed Package(100%)">
+	<item id="5274" type="EtcItem" name="製作卷軸(高級壓縮魔靈彈-C級100%)">
 		<set name="icon" val="icon.etc_recipe_yellow_i00" />
 		<set name="default_action" val="recipe" />
 		<set name="etcitem_type" val="recipe" />
@@ -852,7 +852,7 @@
 		<set name="is_stackable" val="true" />
 		<set name="handler" val="Recipes" />
 	</item>
-	<item id="5275" type="EtcItem" name="Recipe: Greater Spiritshot (B) Compressed Package(100%)">
+	<item id="5275" type="EtcItem" name="製作卷軸(高級壓縮魔靈彈-B級100%)">
 		<set name="icon" val="icon.etc_recipe_red_i00" />
 		<set name="default_action" val="recipe" />
 		<set name="etcitem_type" val="recipe" />
@@ -864,7 +864,7 @@
 		<set name="is_stackable" val="true" />
 		<set name="handler" val="Recipes" />
 	</item>
-	<item id="5276" type="EtcItem" name="Recipe: Greater Spiritshot (A) Compressed Package(100%)">
+	<item id="5276" type="EtcItem" name="製作卷軸(高級壓縮魔靈彈-A級100%)">
 		<set name="icon" val="icon.etc_recipe_violet_i00" />
 		<set name="default_action" val="recipe" />
 		<set name="etcitem_type" val="recipe" />
@@ -876,7 +876,7 @@
 		<set name="is_stackable" val="true" />
 		<set name="handler" val="Recipes" />
 	</item>
-	<item id="5277" type="EtcItem" name="Recipe: Greater Spiritshot (S) Compressed Package(100%)">
+	<item id="5277" type="EtcItem" name="製作卷軸(高級壓縮魔靈彈-S級100%)">
 		<set name="icon" val="icon.etc_recipe_black_i00" />
 		<set name="default_action" val="recipe" />
 		<set name="etcitem_type" val="recipe" />
@@ -888,7 +888,7 @@
 		<set name="is_stackable" val="true" />
 		<set name="handler" val="Recipes" />
 	</item>
-	<item id="5278" type="EtcItem" name="Recipe: Greater Blessed Spiritshot (D) Compressed Package(100%)">
+	<item id="5278" type="EtcItem" name="製作卷軸(高級祝福的壓縮魔靈彈-D級100%)">
 		<set name="icon" val="icon.etc_recipe_blue_i00" />
 		<set name="default_action" val="recipe" />
 		<set name="etcitem_type" val="recipe" />
@@ -900,7 +900,7 @@
 		<set name="is_stackable" val="true" />
 		<set name="handler" val="Recipes" />
 	</item>
-	<item id="5279" type="EtcItem" name="Recipe: Greater Blessed Spiritshot (C) Compressed Package(100%)">
+	<item id="5279" type="EtcItem" name="製作卷軸(高級祝福的壓縮魔靈彈-C級100%)">
 		<set name="icon" val="icon.etc_recipe_yellow_i00" />
 		<set name="default_action" val="recipe" />
 		<set name="etcitem_type" val="recipe" />
@@ -912,7 +912,7 @@
 		<set name="is_stackable" val="true" />
 		<set name="handler" val="Recipes" />
 	</item>
-	<item id="5280" type="EtcItem" name="Recipe: Greater Blessed Spiritshot (B) Compressed Package(100%)">
+	<item id="5280" type="EtcItem" name="製作卷軸(高級祝福的壓縮魔靈彈-B級100%)">
 		<set name="icon" val="icon.etc_recipe_red_i00" />
 		<set name="default_action" val="recipe" />
 		<set name="etcitem_type" val="recipe" />
@@ -924,7 +924,7 @@
 		<set name="is_stackable" val="true" />
 		<set name="handler" val="Recipes" />
 	</item>
-	<item id="5281" type="EtcItem" name="Recipe: Greater Blessed Spiritshot (A) Compressed Package(100%)">
+	<item id="5281" type="EtcItem" name="製作卷軸(高級祝福的壓縮魔靈彈-A級100%)">
 		<set name="icon" val="icon.etc_recipe_violet_i00" />
 		<set name="default_action" val="recipe" />
 		<set name="etcitem_type" val="recipe" />
@@ -936,7 +936,7 @@
 		<set name="is_stackable" val="true" />
 		<set name="handler" val="Recipes" />
 	</item>
-	<item id="5282" type="EtcItem" name="Recipe: Greater Blessed Spiritshot (S) Compressed Package(100%)">
+	<item id="5282" type="EtcItem" name="製作卷軸(高級祝福的壓縮魔靈彈-S級100%)">
 		<set name="icon" val="icon.etc_recipe_black_i00" />
 		<set name="default_action" val="recipe" />
 		<set name="etcitem_type" val="recipe" />
@@ -948,7 +948,7 @@
 		<set name="is_stackable" val="true" />
 		<set name="handler" val="Recipes" />
 	</item>
-	<item id="5283" type="EtcItem" name="Rice Cake">
+	<item id="5283" type="EtcItem" name="麻糬">
 		<set name="icon" val="icon.etc_mochi_i00" />
 		<set name="default_action" val="skill_reduce" />
 		<set name="etcitem_type" val="potion" />
@@ -958,7 +958,7 @@
 		<set name="is_oly_restricted" val="true" />
 		<set name="item_skill" val="2136-1" />
 	</item>
-	<item id="5284" type="Weapon" name="Zweihander">
+	<item id="5284" type="Weapon" name="瑞韓德">
 		<set name="icon" val="icon.weapon_zweihander_i00" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="bigsword" />
@@ -981,7 +981,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="5285" type="Weapon" name="Heavy Sword">
+	<item id="5285" type="Weapon" name="重型劍">
 		<set name="icon" val="icon.weapon_heavy_sword_i00" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="bigsword" />
@@ -1008,7 +1008,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="5286" type="Weapon" name="Berserker Blade">
+	<item id="5286" type="Weapon" name="狂戰士之刃">
 		<set name="icon" val="icon.weapon_berserker_blade_i00" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="bigsword" />
@@ -1035,7 +1035,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="5287" type="Armor" name="Sealed Dark Crystal breastplate">
+	<item id="5287" type="Armor" name="封印的黑暗水晶胸甲">
 		<set name="icon" val="icon.armor_t74_u_i02" />
 		<set name="default_action" val="equip" />
 		<set name="armor_type" val="heavy" />
@@ -1053,7 +1053,7 @@
 			<enchant order="0x0C" stat="pDef" val="0" />
 		</for>
 	</item>
-	<item id="5288" type="Armor" name="Sealed Dark Crystal Gaiters">
+	<item id="5288" type="Armor" name="封印的黑暗水晶脛甲">
 		<set name="icon" val="icon.armor_t74_l_i02" />
 		<set name="default_action" val="equip" />
 		<set name="armor_type" val="heavy" />
@@ -1071,7 +1071,7 @@
 			<enchant order="0x0C" stat="pDef" val="0" />
 		</for>
 	</item>
-	<item id="5289" type="Armor" name="Sealed Dark Crystal Helmet">
+	<item id="5289" type="Armor" name="封印的黑暗水晶頭盔">
 		<set name="icon" val="icon.armor_helmet_i02" />
 		<set name="default_action" val="equip" />
 		<set name="bodypart" val="head" />
@@ -1087,7 +1087,7 @@
 			<enchant order="0x0C" stat="pDef" val="0" />
 		</for>
 	</item>
-	<item id="5290" type="Armor" name="Sealed Dark Crystal Gloves">
+	<item id="5290" type="Armor" name="封印的黑暗水晶手套">
 		<set name="icon" val="icon.armor_t74_g_i02" />
 		<set name="default_action" val="equip" />
 		<set name="bodypart" val="gloves" />
@@ -1103,7 +1103,7 @@
 			<enchant order="0x0C" stat="pDef" val="0" />
 		</for>
 	</item>
-	<item id="5291" type="Armor" name="Sealed Dark Crystal Boots">
+	<item id="5291" type="Armor" name="封印的黑暗水晶靴">
 		<set name="icon" val="icon.armor_t74_b_i02" />
 		<set name="default_action" val="equip" />
 		<set name="bodypart" val="feet" />
@@ -1119,7 +1119,7 @@
 			<enchant order="0x0C" stat="pDef" val="0" />
 		</for>
 	</item>
-	<item id="5292" type="Armor" name="Sealed Dark Crystal Shield">
+	<item id="5292" type="Armor" name="封印的黑暗水晶盾">
 		<set name="icon" val="icon.shield_dark_crystal_shield_i02" />
 		<set name="default_action" val="equip" />
 		<set name="bodypart" val="lhand" />
@@ -1139,7 +1139,7 @@
 			<enchant val="0" order="0x0C" stat="sDef" />
 		</for>
 	</item>
-	<item id="5293" type="Armor" name="Sealed Tallum Plate Armor">
+	<item id="5293" type="Armor" name="封印的塔魯金屬盔甲">
 		<set name="icon" val="icon.armor_t77_ul_i02" />
 		<set name="default_action" val="equip" />
 		<set name="armor_type" val="heavy" />
@@ -1157,7 +1157,7 @@
 			<enchant order="0x0C" stat="pDef" val="0" />
 		</for>
 	</item>
-	<item id="5294" type="Armor" name="Sealed Tallum Helmet">
+	<item id="5294" type="Armor" name="封印的塔魯帽">
 		<set name="icon" val="icon.armor_helmet_i02" />
 		<set name="default_action" val="equip" />
 		<set name="bodypart" val="head" />
@@ -1173,7 +1173,7 @@
 			<enchant order="0x0C" stat="pDef" val="0" />
 		</for>
 	</item>
-	<item id="5295" type="Armor" name="Sealed Tallum Gloves">
+	<item id="5295" type="Armor" name="封印的塔魯手套">
 		<set name="icon" val="icon.armor_t77_g_i02" />
 		<set name="default_action" val="equip" />
 		<set name="bodypart" val="gloves" />
@@ -1189,7 +1189,7 @@
 			<enchant order="0x0C" stat="pDef" val="0" />
 		</for>
 	</item>
-	<item id="5296" type="Armor" name="Sealed Tallum Boots">
+	<item id="5296" type="Armor" name="封印的塔魯靴">
 		<set name="icon" val="icon.armor_t77_b_i02" />
 		<set name="default_action" val="equip" />
 		<set name="bodypart" val="feet" />
@@ -1205,7 +1205,7 @@
 			<enchant order="0x0C" stat="pDef" val="0" />
 		</for>
 	</item>
-	<item id="5297" type="Armor" name="Sealed Dark Crystal Leather Armor">
+	<item id="5297" type="Armor" name="封印的黑暗水晶皮甲">
 		<set name="icon" val="icon.armor_t75_u_i02" />
 		<set name="default_action" val="equip" />
 		<set name="armor_type" val="light" />
@@ -1222,7 +1222,7 @@
 			<enchant order="0x0C" stat="pDef" val="0" />
 		</for>
 	</item>
-	<item id="5298" type="Armor" name="Sealed Dark Crystal Leggings">
+	<item id="5298" type="Armor" name="封印的黑暗水晶皮脛甲">
 		<set name="icon" val="icon.armor_t75_l_i02" />
 		<set name="default_action" val="equip" />
 		<set name="armor_type" val="light" />
@@ -1239,7 +1239,7 @@
 			<enchant order="0x0C" stat="pDef" val="0" />
 		</for>
 	</item>
-	<item id="5299" type="Armor" name="Sealed Gloves of the Underworld">
+	<item id="5299" type="Armor" name="封印的煉獄手套">
 		<set name="icon" val="icon.armor_t40_g_i00" />
 		<set name="default_action" val="equip" />
 		<set name="bodypart" val="gloves" />

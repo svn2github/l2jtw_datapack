@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <list>
-	<item id="5600" type="Weapon" name="Meteor Shower - Critical Bleed">
+	<item id="5600" type="Weapon" name="流星雨">
 		<set name="icon" val="icon.weapon_meteor_shower_i01" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="blunt" />
@@ -31,7 +31,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="5601" type="Weapon" name="Meteor Shower - Rsk. Haste">
+	<item id="5601" type="Weapon" name="流星雨">
 		<set name="icon" val="icon.weapon_meteor_shower_i01" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="blunt" />
@@ -60,7 +60,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="5602" type="Weapon" name="Elysian - Health">
+	<item id="5602" type="Weapon" name="樂園">
 		<set name="icon" val="icon.weapon_elysian_i01" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="blunt" />
@@ -89,7 +89,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="5603" type="Weapon" name="Elysian - Anger">
+	<item id="5603" type="Weapon" name="樂園">
 		<set name="icon" val="icon.weapon_elysian_i01" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="blunt" />
@@ -118,7 +118,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="5604" type="Weapon" name="Elysian - Critical Drain">
+	<item id="5604" type="Weapon" name="樂園">
 		<set name="icon" val="icon.weapon_elysian_i01" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="blunt" />
@@ -149,7 +149,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="5605" type="Weapon" name="Branch of the Mother Tree - Conversion">
+	<item id="5605" type="Weapon" name="世界樹樹枝">
 		<set name="icon" val="icon.weapon_worldtrees_branch_i01" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="bigblunt" />
@@ -179,7 +179,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="5606" type="Weapon" name="Branch of the Mother Tree - Magic Damage">
+	<item id="5606" type="Weapon" name="世界樹樹枝">
 		<set name="icon" val="icon.weapon_worldtrees_branch_i01" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="bigblunt" />
@@ -211,7 +211,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="5607" type="Weapon" name="Branch of the Mother Tree - Acumen">
+	<item id="5607" type="Weapon" name="世界樹樹枝">
 		<set name="icon" val="icon.weapon_worldtrees_branch_i01" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="bigblunt" />
@@ -241,7 +241,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="5608" type="Weapon" name="Carnage Bow - Light">
+	<item id="5608" type="Weapon" name="顱之弓">
 		<set name="icon" val="icon.weapon_carnium_bow_i01" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="bow" />
@@ -273,7 +273,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="5609" type="Weapon" name="Carnage Bow - Critical Bleed">
+	<item id="5609" type="Weapon" name="顱之弓">
 		<set name="icon" val="icon.weapon_carnium_bow_i01" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="bow" />
@@ -307,7 +307,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="5610" type="Weapon" name="Carnage Bow - Mana Up">
+	<item id="5610" type="Weapon" name="顱之弓">
 		<set name="icon" val="icon.weapon_carnium_bow_i01" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="bow" />
@@ -339,7 +339,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="5611" type="Weapon" name="Soul Bow - Cheap Shot">
+	<item id="5611" type="Weapon" name="靈魂弓">
 		<set name="icon" val="icon.weapon_soul_bow_i01" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="bow" />
@@ -377,7 +377,7 @@
 			</set>
 		</for>
 	</item>
-	<item id="5612" type="Weapon" name="Soul Bow - Quick Recovery">
+	<item id="5612" type="Weapon" name="靈魂弓">
 		<set name="icon" val="icon.weapon_soul_bow_i01" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="bow" />
@@ -409,7 +409,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="5613" type="Weapon" name="Soul Bow - Critical Poison">
+	<item id="5613" type="Weapon" name="靈魂弓">
 		<set name="icon" val="icon.weapon_soul_bow_i01" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="bow" />
@@ -443,7 +443,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="5614" type="Weapon" name="Bloody Orchid - Focus">
+	<item id="5614" type="Weapon" name="血腥之蘭">
 		<set name="icon" val="icon.weapon_bloody_orchid_i01" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="dagger" />
@@ -472,7 +472,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="5615" type="Weapon" name="Bloody Orchid - Back Blow">
+	<item id="5615" type="Weapon" name="血腥之蘭">
 		<set name="icon" val="icon.weapon_bloody_orchid_i01" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="dagger" />
@@ -501,7 +501,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="5616" type="Weapon" name="Bloody Orchid - Critical Bleed">
+	<item id="5616" type="Weapon" name="血腥之蘭">
 		<set name="icon" val="icon.weapon_bloody_orchid_i01" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="dagger" />
@@ -532,7 +532,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="5617" type="Weapon" name="Soul Separator - Guidance">
+	<item id="5617" type="Weapon" name="魂體分離器">
 		<set name="icon" val="icon.weapon_soul_separator_i01" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="dagger" />
@@ -561,7 +561,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="5618" type="Weapon" name="Soul Separator - Critical Damage">
+	<item id="5618" type="Weapon" name="魂體分離器">
 		<set name="icon" val="icon.weapon_soul_separator_i01" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="dagger" />
@@ -590,7 +590,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="5619" type="Weapon" name="Soul Separator - Rsk. Haste">
+	<item id="5619" type="Weapon" name="魂體分離器">
 		<set name="icon" val="icon.weapon_soul_separator_i01" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="dagger" />
@@ -619,7 +619,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="5620" type="Weapon" name="Blood Tornado - Haste">
+	<item id="5620" type="Weapon" name="血旋風">
 		<set name="icon" val="icon.weapon_blood_tornado_i01" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="dualfist" />
@@ -648,7 +648,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="5621" type="Weapon" name="Blood Tornado - Focus">
+	<item id="5621" type="Weapon" name="血旋風">
 		<set name="icon" val="icon.weapon_blood_tornado_i01" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="dualfist" />
@@ -677,7 +677,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="5622" type="Weapon" name="Blood Tornado - Anger">
+	<item id="5622" type="Weapon" name="血旋風">
 		<set name="icon" val="icon.weapon_blood_tornado_i01" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="dualfist" />
@@ -706,7 +706,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="5623" type="Weapon" name="Dragon Grinder - Rsk. Evasion">
+	<item id="5623" type="Weapon" name="龍牙">
 		<set name="icon" val="icon.weapon_dragon_grinder_i01" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="dualfist" />
@@ -735,7 +735,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="5624" type="Weapon" name="Dragon Grinder - Guidance">
+	<item id="5624" type="Weapon" name="龍牙">
 		<set name="icon" val="icon.weapon_dragon_grinder_i01" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="dualfist" />
@@ -764,7 +764,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="5625" type="Weapon" name="Dragon Grinder - Health">
+	<item id="5625" type="Weapon" name="龍牙">
 		<set name="icon" val="icon.weapon_dragon_grinder_i01" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="dualfist" />
@@ -793,7 +793,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="5626" type="Weapon" name="Halberd - Haste">
+	<item id="5626" type="Weapon" name="長柄戰戟">
 		<set name="icon" val="icon.weapon_halbard_i01" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="pole" />
@@ -822,7 +822,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="5627" type="Weapon" name="Halberd - Critical Stun">
+	<item id="5627" type="Weapon" name="長柄戰戟">
 		<set name="icon" val="icon.weapon_halbard_i01" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="pole" />
@@ -853,7 +853,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="5628" type="Weapon" name="Halberd - Wide Blow">
+	<item id="5628" type="Weapon" name="長柄戰戟">
 		<set name="icon" val="icon.weapon_halbard_i01" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="pole" />
@@ -883,7 +883,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="5629" type="Weapon" name="Orcish Halberd">
+	<item id="5629" type="Weapon" name="歐西斯戰戟">
 		<set name="icon" val="icon.weapon_orcish_halbard_i01" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="pole" />
@@ -912,7 +912,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="5630" type="Weapon" name="Orcish Halberd">
+	<item id="5630" type="Weapon" name="歐西斯戰戟">
 		<set name="icon" val="icon.weapon_orcish_halbard_i01" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="pole" />
@@ -941,7 +941,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="5631" type="Weapon" name="Orcish Halberd">
+	<item id="5631" type="Weapon" name="歐西斯戰戟">
 		<set name="icon" val="icon.weapon_orcish_halbard_i01" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="pole" />
@@ -970,7 +970,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="5632" type="Weapon" name="Tallum Glaive - Guidance">
+	<item id="5632" type="Weapon" name="塔魯闊矛">
 		<set name="icon" val="icon.weapon_tallum_glaive_i01" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="pole" />
@@ -999,7 +999,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="5633" type="Weapon" name="Tallum Glaive - Health">
+	<item id="5633" type="Weapon" name="塔魯闊矛">
 		<set name="icon" val="icon.weapon_tallum_glaive_i01" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="pole" />
@@ -1028,7 +1028,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="5634" type="Weapon" name="Tallum Glaive - Wide Blow">
+	<item id="5634" type="Weapon" name="塔魯闊矛">
 		<set name="icon" val="icon.weapon_tallum_glaive_i01" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="pole" />
@@ -1058,7 +1058,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="5635" type="Weapon" name="Tallum Blade - Critical Poison">
+	<item id="5635" type="Weapon" name="塔魯刀">
 		<set name="icon" val="icon.weapon_tallum_blade_i01" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="sword" />
@@ -1088,7 +1088,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="5636" type="Weapon" name="Tallum Blade - Haste">
+	<item id="5636" type="Weapon" name="塔魯刀">
 		<set name="icon" val="icon.weapon_tallum_blade_i01" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="sword" />
@@ -1116,7 +1116,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="5637" type="Weapon" name="Tallum Blade - Anger">
+	<item id="5637" type="Weapon" name="塔魯刀">
 		<set name="icon" val="icon.weapon_tallum_blade_i01" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="sword" />
@@ -1144,7 +1144,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="5638" type="Weapon" name="Elemental Sword - Magic Power">
+	<item id="5638" type="Weapon" name="元素劍">
 		<set name="icon" val="icon.weapon_elemental_sword_i01" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="sword" />
@@ -1172,7 +1172,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="5639" type="Weapon" name="Elemental Sword - Magic Paralyze">
+	<item id="5639" type="Weapon" name="元素劍">
 		<set name="icon" val="icon.weapon_elemental_sword_i01" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="sword" />
@@ -1202,7 +1202,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="5640" type="Weapon" name="Elemental Sword - Empower">
+	<item id="5640" type="Weapon" name="元素劍">
 		<set name="icon" val="icon.weapon_elemental_sword_i01" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="sword" />
@@ -1230,7 +1230,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="5641" type="Weapon" name="Sword of Miracles - Magic Power">
+	<item id="5641" type="Weapon" name="奇蹟劍">
 		<set name="icon" val="icon.weapon_sword_of_miracle_i01" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="sword" />
@@ -1258,7 +1258,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="5642" type="Weapon" name="Sword of Miracles - Magic Silence">
+	<item id="5642" type="Weapon" name="奇蹟劍">
 		<set name="icon" val="icon.weapon_sword_of_miracle_i01" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="sword" />
@@ -1288,7 +1288,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="5643" type="Weapon" name="Sword of Miracles - Acumen">
+	<item id="5643" type="Weapon" name="奇蹟劍">
 		<set name="icon" val="icon.weapon_sword_of_miracle_i01" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="sword" />
@@ -1316,7 +1316,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="5644" type="Weapon" name="Dragon Slayer - Health">
+	<item id="5644" type="Weapon" name="斬龍刀">
 		<set name="icon" val="icon.weapon_dragon_slayer_i01" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="bigsword" />
@@ -1344,7 +1344,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="5645" type="Weapon" name="Dragon Slayer - Critical Bleed">
+	<item id="5645" type="Weapon" name="斬龍刀">
 		<set name="icon" val="icon.weapon_dragon_slayer_i01" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="bigsword" />
@@ -1374,7 +1374,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="5646" type="Weapon" name="Dragon Slayer - Critical Drain">
+	<item id="5646" type="Weapon" name="斬龍刀">
 		<set name="icon" val="icon.weapon_dragon_slayer_i01" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="bigsword" />
@@ -1404,7 +1404,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="5647" type="Weapon" name="Dark Legion's Edge - Critical Damage">
+	<item id="5647" type="Weapon" name="黑暗軍刀">
 		<set name="icon" val="icon.weapon_dark_legions_edge_i01" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="sword" />
@@ -1432,7 +1432,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="5648" type="Weapon" name="Dark Legion's Edge - Health">
+	<item id="5648" type="Weapon" name="黑暗軍刀">
 		<set name="icon" val="icon.weapon_dark_legions_edge_i01" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="sword" />
@@ -1460,7 +1460,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="5649" type="Weapon" name="Dark Legion's Edge - Rsk. Focus">
+	<item id="5649" type="Weapon" name="黑暗軍刀">
 		<set name="icon" val="icon.weapon_dark_legions_edge_i01" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="sword" />
@@ -1488,7 +1488,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="5650" type="EtcItem" name="Alternative Dark Coda Seed">
+	<item id="5650" type="EtcItem" name="改良黑暗柯塔種子">
 		<set name="icon" val="icon.etc_coda_seed_i00" />
 		<set name="default_action" val="seed" />
 		<set name="etcitem_type" val="seed2" />
@@ -1499,7 +1499,7 @@
 		<set name="handler" val="Seed" />
 		<set name="item_skill" val="2097-1" />
 	</item>
-	<item id="5651" type="EtcItem" name="Alternative Red Coda Seed">
+	<item id="5651" type="EtcItem" name="改良紅色柯塔種子">
 		<set name="icon" val="icon.etc_coda_seed_i00" />
 		<set name="default_action" val="seed" />
 		<set name="etcitem_type" val="seed2" />
@@ -1510,7 +1510,7 @@
 		<set name="handler" val="Seed" />
 		<set name="item_skill" val="2097-1" />
 	</item>
-	<item id="5652" type="EtcItem" name="Alternative Chilly Coda Seed">
+	<item id="5652" type="EtcItem" name="改良冷氣柯塔種子">
 		<set name="icon" val="icon.etc_coda_seed_i00" />
 		<set name="default_action" val="seed" />
 		<set name="etcitem_type" val="seed2" />
@@ -1521,7 +1521,7 @@
 		<set name="handler" val="Seed" />
 		<set name="item_skill" val="2097-1" />
 	</item>
-	<item id="5653" type="EtcItem" name="Alternative Blue Coda Seed">
+	<item id="5653" type="EtcItem" name="改良藍色柯塔種子">
 		<set name="icon" val="icon.etc_coda_seed_i00" />
 		<set name="default_action" val="seed" />
 		<set name="etcitem_type" val="seed2" />
@@ -1532,7 +1532,7 @@
 		<set name="handler" val="Seed" />
 		<set name="item_skill" val="2097-1" />
 	</item>
-	<item id="5654" type="EtcItem" name="Alternative Golden Coda Seed">
+	<item id="5654" type="EtcItem" name="改良金色柯塔種子">
 		<set name="icon" val="icon.etc_coda_seed_i00" />
 		<set name="default_action" val="seed" />
 		<set name="etcitem_type" val="seed2" />
@@ -1543,7 +1543,7 @@
 		<set name="handler" val="Seed" />
 		<set name="item_skill" val="2097-1" />
 	</item>
-	<item id="5655" type="EtcItem" name="Alternative Lute Coda Seed">
+	<item id="5655" type="EtcItem" name="改良魯特柯塔種子">
 		<set name="icon" val="icon.etc_coda_seed_i00" />
 		<set name="default_action" val="seed" />
 		<set name="etcitem_type" val="seed2" />
@@ -1554,7 +1554,7 @@
 		<set name="handler" val="Seed" />
 		<set name="item_skill" val="2097-1" />
 	</item>
-	<item id="5656" type="EtcItem" name="Alternative Desert Coda Seed">
+	<item id="5656" type="EtcItem" name="改良沙漠柯塔種子">
 		<set name="icon" val="icon.etc_coda_seed_i00" />
 		<set name="default_action" val="seed" />
 		<set name="etcitem_type" val="seed2" />
@@ -1565,7 +1565,7 @@
 		<set name="handler" val="Seed" />
 		<set name="item_skill" val="2097-1" />
 	</item>
-	<item id="5657" type="EtcItem" name="Alternative Blue Cobol Seed">
+	<item id="5657" type="EtcItem" name="改良藍色柯柏種子">
 		<set name="icon" val="icon.etc_cobol_seed_i00" />
 		<set name="default_action" val="seed" />
 		<set name="etcitem_type" val="seed2" />
@@ -1576,7 +1576,7 @@
 		<set name="handler" val="Seed" />
 		<set name="item_skill" val="2097-2" />
 	</item>
-	<item id="5658" type="EtcItem" name="Alternative Blue Coda Seed">
+	<item id="5658" type="EtcItem" name="改良藍色柯塔種子">
 		<set name="icon" val="icon.etc_coda_seed_i00" />
 		<set name="default_action" val="seed" />
 		<set name="etcitem_type" val="seed2" />
@@ -1587,7 +1587,7 @@
 		<set name="handler" val="Seed" />
 		<set name="item_skill" val="2097-1" />
 	</item>
-	<item id="5659" type="EtcItem" name="Alternative Golden Coda Seed">
+	<item id="5659" type="EtcItem" name="改良金色柯塔種子">
 		<set name="icon" val="icon.etc_coda_seed_i00" />
 		<set name="default_action" val="seed" />
 		<set name="etcitem_type" val="seed2" />
@@ -1598,7 +1598,7 @@
 		<set name="handler" val="Seed" />
 		<set name="item_skill" val="2097-1" />
 	</item>
-	<item id="5660" type="EtcItem" name="Alternative Lute Coda Seed">
+	<item id="5660" type="EtcItem" name="改良魯特柯塔種子">
 		<set name="icon" val="icon.etc_coda_seed_i00" />
 		<set name="default_action" val="seed" />
 		<set name="etcitem_type" val="seed2" />
@@ -1609,7 +1609,7 @@
 		<set name="handler" val="Seed" />
 		<set name="item_skill" val="2097-1" />
 	</item>
-	<item id="5661" type="EtcItem" name="Alternative Desert Coda Seed">
+	<item id="5661" type="EtcItem" name="改良沙漠柯塔種子">
 		<set name="icon" val="icon.etc_coda_seed_i00" />
 		<set name="default_action" val="seed" />
 		<set name="etcitem_type" val="seed2" />
@@ -1620,7 +1620,7 @@
 		<set name="handler" val="Seed" />
 		<set name="item_skill" val="2097-1" />
 	</item>
-	<item id="5662" type="EtcItem" name="Alternative Red Cobol Seed">
+	<item id="5662" type="EtcItem" name="改良紅色柯柏種子">
 		<set name="icon" val="icon.etc_cobol_seed_i00" />
 		<set name="default_action" val="seed" />
 		<set name="etcitem_type" val="seed2" />
@@ -1631,7 +1631,7 @@
 		<set name="handler" val="Seed" />
 		<set name="item_skill" val="2097-2" />
 	</item>
-	<item id="5663" type="EtcItem" name="Alternative Chilly Cobol Seed">
+	<item id="5663" type="EtcItem" name="改良冷氣柯柏種子">
 		<set name="icon" val="icon.etc_cobol_seed_i00" />
 		<set name="default_action" val="seed" />
 		<set name="etcitem_type" val="seed2" />
@@ -1642,7 +1642,7 @@
 		<set name="handler" val="Seed" />
 		<set name="item_skill" val="2097-2" />
 	</item>
-	<item id="5664" type="EtcItem" name="Alternative Thorn Cobol Seed">
+	<item id="5664" type="EtcItem" name="改良芒刺柯柏種子">
 		<set name="icon" val="icon.etc_cobol_seed_i00" />
 		<set name="default_action" val="seed" />
 		<set name="etcitem_type" val="seed2" />
@@ -1653,7 +1653,7 @@
 		<set name="handler" val="Seed" />
 		<set name="item_skill" val="2097-2" />
 	</item>
-	<item id="5665" type="EtcItem" name="Alternative Golden Cobol Seed">
+	<item id="5665" type="EtcItem" name="改良金色柯柏種子">
 		<set name="icon" val="icon.etc_cobol_seed_i00" />
 		<set name="default_action" val="seed" />
 		<set name="etcitem_type" val="seed2" />
@@ -1664,7 +1664,7 @@
 		<set name="handler" val="Seed" />
 		<set name="item_skill" val="2097-2" />
 	</item>
-	<item id="5666" type="EtcItem" name="Alternative Great Cobol Seed">
+	<item id="5666" type="EtcItem" name="改良巨大柯柏種子">
 		<set name="icon" val="icon.etc_cobol_seed_i00" />
 		<set name="default_action" val="seed" />
 		<set name="etcitem_type" val="seed2" />
@@ -1675,7 +1675,7 @@
 		<set name="handler" val="Seed" />
 		<set name="item_skill" val="2097-2" />
 	</item>
-	<item id="5667" type="EtcItem" name="Alternative Red Cobol Seed">
+	<item id="5667" type="EtcItem" name="改良紅色柯柏種子">
 		<set name="icon" val="icon.etc_cobol_seed_i00" />
 		<set name="default_action" val="seed" />
 		<set name="etcitem_type" val="seed2" />
@@ -1686,7 +1686,7 @@
 		<set name="handler" val="Seed" />
 		<set name="item_skill" val="2097-2" />
 	</item>
-	<item id="5668" type="EtcItem" name="Alternative Chilly Cobol Seed">
+	<item id="5668" type="EtcItem" name="改良冷氣柯柏種子">
 		<set name="icon" val="icon.etc_cobol_seed_i00" />
 		<set name="default_action" val="seed" />
 		<set name="etcitem_type" val="seed2" />
@@ -1697,7 +1697,7 @@
 		<set name="handler" val="Seed" />
 		<set name="item_skill" val="2097-2" />
 	</item>
-	<item id="5669" type="EtcItem" name="Alternative Blue Cobol Seed">
+	<item id="5669" type="EtcItem" name="改良藍色柯柏種子">
 		<set name="icon" val="icon.etc_cobol_seed_i00" />
 		<set name="default_action" val="seed" />
 		<set name="etcitem_type" val="seed2" />
@@ -1708,7 +1708,7 @@
 		<set name="handler" val="Seed" />
 		<set name="item_skill" val="2097-2" />
 	</item>
-	<item id="5670" type="EtcItem" name="Alternative Thorn Cobol Seed">
+	<item id="5670" type="EtcItem" name="改良芒刺柯柏種子">
 		<set name="icon" val="icon.etc_cobol_seed_i00" />
 		<set name="default_action" val="seed" />
 		<set name="etcitem_type" val="seed2" />
@@ -1719,7 +1719,7 @@
 		<set name="handler" val="Seed" />
 		<set name="item_skill" val="2097-2" />
 	</item>
-	<item id="5671" type="EtcItem" name="Alternative Golden Cobol Seed">
+	<item id="5671" type="EtcItem" name="改良金色柯柏種子">
 		<set name="icon" val="icon.etc_cobol_seed_i00" />
 		<set name="default_action" val="seed" />
 		<set name="etcitem_type" val="seed2" />
@@ -1730,7 +1730,7 @@
 		<set name="handler" val="Seed" />
 		<set name="item_skill" val="2097-2" />
 	</item>
-	<item id="5672" type="EtcItem" name="Alternative Great Cobol Seed">
+	<item id="5672" type="EtcItem" name="改良巨大柯柏種子">
 		<set name="icon" val="icon.etc_cobol_seed_i00" />
 		<set name="default_action" val="seed" />
 		<set name="etcitem_type" val="seed2" />
@@ -1741,7 +1741,7 @@
 		<set name="handler" val="Seed" />
 		<set name="item_skill" val="2097-2" />
 	</item>
-	<item id="5673" type="EtcItem" name="Alternative Red Codran Seed">
+	<item id="5673" type="EtcItem" name="改良紅色柯德朗種子">
 		<set name="icon" val="icon.etc_codran_seed_i00" />
 		<set name="default_action" val="seed" />
 		<set name="etcitem_type" val="seed2" />
@@ -1752,7 +1752,7 @@
 		<set name="handler" val="Seed" />
 		<set name="item_skill" val="2097-3" />
 	</item>
-	<item id="5674" type="EtcItem" name="Alternative Twin Codran Seed">
+	<item id="5674" type="EtcItem" name="改良雙生柯德朗種子">
 		<set name="icon" val="icon.etc_codran_seed_i00" />
 		<set name="default_action" val="seed" />
 		<set name="etcitem_type" val="seed2" />
@@ -1763,7 +1763,7 @@
 		<set name="handler" val="Seed" />
 		<set name="item_skill" val="2097-3" />
 	</item>
-	<item id="5675" type="EtcItem" name="Alternative Desert Codran Seed">
+	<item id="5675" type="EtcItem" name="改良沙漠柯德朗種子">
 		<set name="icon" val="icon.etc_codran_seed_i00" />
 		<set name="default_action" val="seed" />
 		<set name="etcitem_type" val="seed2" />
@@ -1774,7 +1774,7 @@
 		<set name="handler" val="Seed" />
 		<set name="item_skill" val="2097-3" />
 	</item>
-	<item id="5676" type="EtcItem" name="Alternative Dark Coda Seed">
+	<item id="5676" type="EtcItem" name="改良黑暗柯塔種子">
 		<set name="icon" val="icon.etc_coda_seed_i00" />
 		<set name="default_action" val="seed" />
 		<set name="etcitem_type" val="seed2" />
@@ -1785,7 +1785,7 @@
 		<set name="handler" val="Seed" />
 		<set name="item_skill" val="2097-1" />
 	</item>
-	<item id="5677" type="EtcItem" name="Alternative Red Coda Seed">
+	<item id="5677" type="EtcItem" name="改良紅色柯塔種子">
 		<set name="icon" val="icon.etc_coda_seed_i00" />
 		<set name="default_action" val="seed" />
 		<set name="etcitem_type" val="seed2" />
@@ -1796,7 +1796,7 @@
 		<set name="handler" val="Seed" />
 		<set name="item_skill" val="2097-1" />
 	</item>
-	<item id="5678" type="EtcItem" name="Alternative Blue Coda Seed">
+	<item id="5678" type="EtcItem" name="改良藍色柯塔種子">
 		<set name="icon" val="icon.etc_coda_seed_i00" />
 		<set name="default_action" val="seed" />
 		<set name="etcitem_type" val="seed2" />
@@ -1807,7 +1807,7 @@
 		<set name="handler" val="Seed" />
 		<set name="item_skill" val="2097-1" />
 	</item>
-	<item id="5679" type="EtcItem" name="Alternative Red Cobol Seed">
+	<item id="5679" type="EtcItem" name="改良紅色柯柏種子">
 		<set name="icon" val="icon.etc_cobol_seed_i00" />
 		<set name="default_action" val="seed" />
 		<set name="etcitem_type" val="seed2" />
@@ -1818,7 +1818,7 @@
 		<set name="handler" val="Seed" />
 		<set name="item_skill" val="2097-2" />
 	</item>
-	<item id="5680" type="EtcItem" name="Alternative Chilly Cobol Seed">
+	<item id="5680" type="EtcItem" name="改良冷氣柯柏種子">
 		<set name="icon" val="icon.etc_cobol_seed_i00" />
 		<set name="default_action" val="seed" />
 		<set name="etcitem_type" val="seed2" />
@@ -1829,7 +1829,7 @@
 		<set name="handler" val="Seed" />
 		<set name="item_skill" val="2097-2" />
 	</item>
-	<item id="5681" type="EtcItem" name="Alternative Blue Cobol Seed">
+	<item id="5681" type="EtcItem" name="改良藍色柯柏種子">
 		<set name="icon" val="icon.etc_cobol_seed_i00" />
 		<set name="default_action" val="seed" />
 		<set name="etcitem_type" val="seed2" />
@@ -1840,7 +1840,7 @@
 		<set name="handler" val="Seed" />
 		<set name="item_skill" val="2097-2" />
 	</item>
-	<item id="5682" type="EtcItem" name="Alternative Thorn Cobol Seed">
+	<item id="5682" type="EtcItem" name="改良芒刺柯柏種子">
 		<set name="icon" val="icon.etc_cobol_seed_i00" />
 		<set name="default_action" val="seed" />
 		<set name="etcitem_type" val="seed2" />
@@ -1851,7 +1851,7 @@
 		<set name="handler" val="Seed" />
 		<set name="item_skill" val="2097-2" />
 	</item>
-	<item id="5683" type="EtcItem" name="Alternative Sea Codran Seed">
+	<item id="5683" type="EtcItem" name="改良海洋柯德朗種子">
 		<set name="icon" val="icon.etc_codran_seed_i00" />
 		<set name="default_action" val="seed" />
 		<set name="etcitem_type" val="seed2" />
@@ -1862,7 +1862,7 @@
 		<set name="handler" val="Seed" />
 		<set name="item_skill" val="2097-3" />
 	</item>
-	<item id="5684" type="EtcItem" name="Alternative Chilly Codran Seed">
+	<item id="5684" type="EtcItem" name="改良冷氣柯德朗種子">
 		<set name="icon" val="icon.etc_codran_seed_i00" />
 		<set name="default_action" val="seed" />
 		<set name="etcitem_type" val="seed2" />
@@ -1873,7 +1873,7 @@
 		<set name="handler" val="Seed" />
 		<set name="item_skill" val="2097-3" />
 	</item>
-	<item id="5685" type="EtcItem" name="Alternative Blue Codran Seed">
+	<item id="5685" type="EtcItem" name="改良藍色柯德朗種子">
 		<set name="icon" val="icon.etc_codran_seed_i00" />
 		<set name="default_action" val="seed" />
 		<set name="etcitem_type" val="seed2" />
@@ -1884,7 +1884,7 @@
 		<set name="handler" val="Seed" />
 		<set name="item_skill" val="2097-3" />
 	</item>
-	<item id="5686" type="EtcItem" name="Alternative Twin Codran Seed">
+	<item id="5686" type="EtcItem" name="改良雙生柯德朗種子">
 		<set name="icon" val="icon.etc_codran_seed_i00" />
 		<set name="default_action" val="seed" />
 		<set name="etcitem_type" val="seed2" />
@@ -1895,7 +1895,7 @@
 		<set name="handler" val="Seed" />
 		<set name="item_skill" val="2097-3" />
 	</item>
-	<item id="5687" type="EtcItem" name="Alternative Thorn Cobol Seed">
+	<item id="5687" type="EtcItem" name="改良芒刺柯柏種子">
 		<set name="icon" val="icon.etc_cobol_seed_i00" />
 		<set name="default_action" val="seed" />
 		<set name="etcitem_type" val="seed2" />
@@ -1906,7 +1906,7 @@
 		<set name="handler" val="Seed" />
 		<set name="item_skill" val="2097-2" />
 	</item>
-	<item id="5688" type="EtcItem" name="Alternative Golden Cobol Seed">
+	<item id="5688" type="EtcItem" name="改良金色柯柏種子">
 		<set name="icon" val="icon.etc_cobol_seed_i00" />
 		<set name="default_action" val="seed" />
 		<set name="etcitem_type" val="seed2" />
@@ -1917,7 +1917,7 @@
 		<set name="handler" val="Seed" />
 		<set name="item_skill" val="2097-2" />
 	</item>
-	<item id="5689" type="EtcItem" name="Alternative Great Cobol Seed">
+	<item id="5689" type="EtcItem" name="改良巨大柯柏種子">
 		<set name="icon" val="icon.etc_cobol_seed_i00" />
 		<set name="default_action" val="seed" />
 		<set name="etcitem_type" val="seed2" />
@@ -1928,7 +1928,7 @@
 		<set name="handler" val="Seed" />
 		<set name="item_skill" val="2097-2" />
 	</item>
-	<item id="5690" type="EtcItem" name="Alternative Red Codran Seed">
+	<item id="5690" type="EtcItem" name="改良紅色柯德朗種子">
 		<set name="icon" val="icon.etc_codran_seed_i00" />
 		<set name="default_action" val="seed" />
 		<set name="etcitem_type" val="seed2" />
@@ -1939,7 +1939,7 @@
 		<set name="handler" val="Seed" />
 		<set name="item_skill" val="2097-3" />
 	</item>
-	<item id="5691" type="EtcItem" name="Alternative Chilly Codran Seed">
+	<item id="5691" type="EtcItem" name="改良冷氣柯德朗種子">
 		<set name="icon" val="icon.etc_codran_seed_i00" />
 		<set name="default_action" val="seed" />
 		<set name="etcitem_type" val="seed2" />
@@ -1950,7 +1950,7 @@
 		<set name="handler" val="Seed" />
 		<set name="item_skill" val="2097-3" />
 	</item>
-	<item id="5692" type="EtcItem" name="Alternative Blue Codran Seed">
+	<item id="5692" type="EtcItem" name="改良藍色柯德朗種子">
 		<set name="icon" val="icon.etc_codran_seed_i00" />
 		<set name="default_action" val="seed" />
 		<set name="etcitem_type" val="seed2" />
@@ -1961,7 +1961,7 @@
 		<set name="handler" val="Seed" />
 		<set name="item_skill" val="2097-3" />
 	</item>
-	<item id="5693" type="EtcItem" name="Alternative Twin Codran Seed">
+	<item id="5693" type="EtcItem" name="改良雙生柯德朗種子">
 		<set name="icon" val="icon.etc_codran_seed_i00" />
 		<set name="default_action" val="seed" />
 		<set name="etcitem_type" val="seed2" />
@@ -1972,7 +1972,7 @@
 		<set name="handler" val="Seed" />
 		<set name="item_skill" val="2097-3" />
 	</item>
-	<item id="5694" type="EtcItem" name="Alternative Great Codran Seed">
+	<item id="5694" type="EtcItem" name="改良巨大柯德朗種子">
 		<set name="icon" val="icon.etc_codran_seed_i00" />
 		<set name="default_action" val="seed" />
 		<set name="etcitem_type" val="seed2" />
@@ -1983,7 +1983,7 @@
 		<set name="handler" val="Seed" />
 		<set name="item_skill" val="2097-3" />
 	</item>
-	<item id="5695" type="EtcItem" name="Alternative Desert Codran Seed">
+	<item id="5695" type="EtcItem" name="改良沙漠柯德朗種子">
 		<set name="icon" val="icon.etc_codran_seed_i00" />
 		<set name="default_action" val="seed" />
 		<set name="etcitem_type" val="seed2" />
@@ -1994,7 +1994,7 @@
 		<set name="handler" val="Seed" />
 		<set name="item_skill" val="2097-3" />
 	</item>
-	<item id="5696" type="EtcItem" name="Alternative Chilly Cobol Seed">
+	<item id="5696" type="EtcItem" name="改良冷氣柯柏種子">
 		<set name="icon" val="icon.etc_cobol_seed_i00" />
 		<set name="default_action" val="seed" />
 		<set name="etcitem_type" val="seed2" />
@@ -2005,7 +2005,7 @@
 		<set name="handler" val="Seed" />
 		<set name="item_skill" val="2097-2" />
 	</item>
-	<item id="5697" type="EtcItem" name="Alternative Blue Cobol Seed">
+	<item id="5697" type="EtcItem" name="改良藍色柯柏種子">
 		<set name="icon" val="icon.etc_cobol_seed_i00" />
 		<set name="default_action" val="seed" />
 		<set name="etcitem_type" val="seed2" />
@@ -2016,7 +2016,7 @@
 		<set name="handler" val="Seed" />
 		<set name="item_skill" val="2097-2" />
 	</item>
-	<item id="5698" type="EtcItem" name="Alternative Thorn Cobol Seed">
+	<item id="5698" type="EtcItem" name="改良芒刺柯柏種子">
 		<set name="icon" val="icon.etc_cobol_seed_i00" />
 		<set name="default_action" val="seed" />
 		<set name="etcitem_type" val="seed2" />
@@ -2027,7 +2027,7 @@
 		<set name="handler" val="Seed" />
 		<set name="item_skill" val="2097-2" />
 	</item>
-	<item id="5699" type="EtcItem" name="Alternative Golden Cobol Seed">
+	<item id="5699" type="EtcItem" name="改良金色柯柏種子">
 		<set name="icon" val="icon.etc_cobol_seed_i00" />
 		<set name="default_action" val="seed" />
 		<set name="etcitem_type" val="seed2" />

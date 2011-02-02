@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <list>
-	<item id="6600" type="Weapon" name="Saint Spear - Guidance">
+	<item id="6600" type="Weapon" name="聖者之矛">
 		<set name="icon" val="icon.weapon_saint_spear_i01" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="pole" />
@@ -30,7 +30,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="6601" type="Weapon" name="Saint Spear - Haste">
+	<item id="6601" type="Weapon" name="聖者之矛">
 		<set name="icon" val="icon.weapon_saint_spear_i01" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="pole" />
@@ -60,7 +60,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="6602" type="Weapon" name="Demon Splinter - Focus">
+	<item id="6602" type="Weapon" name="惡魔獵爪">
 		<set name="icon" val="icon.weapon_demon_splinter_i01" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="dualfist" />
@@ -90,7 +90,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="6603" type="Weapon" name="Demon Splinter - Health">
+	<item id="6603" type="Weapon" name="惡魔獵爪">
 		<set name="icon" val="icon.weapon_demon_splinter_i01" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="dualfist" />
@@ -120,7 +120,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="6604" type="Weapon" name="Demon Splinter - Critical Stun">
+	<item id="6604" type="Weapon" name="惡魔獵爪">
 		<set name="icon" val="icon.weapon_demon_splinter_i01" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="dualfist" />
@@ -152,7 +152,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="6605" type="Weapon" name="Heavens Divider - Haste">
+	<item id="6605" type="Weapon" name="天國審判">
 		<set name="icon" val="icon.weapon_heavens_divider_i01" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="bigsword" />
@@ -181,7 +181,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="6606" type="Weapon" name="Heavens Divider - Health">
+	<item id="6606" type="Weapon" name="天國審判">
 		<set name="icon" val="icon.weapon_heavens_divider_i01" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="bigsword" />
@@ -210,7 +210,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="6607" type="Weapon" name="Heavens Divider - Focus">
+	<item id="6607" type="Weapon" name="天國審判">
 		<set name="icon" val="icon.weapon_heavens_divider_i01" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="bigsword" />
@@ -239,7 +239,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="6608" type="Weapon" name="Arcana Mace - Acumen">
+	<item id="6608" type="Weapon" name="祕儀權杖">
 		<set name="icon" val="icon.weapon_arcana_mace_i01" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="blunt" />
@@ -270,7 +270,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="6609" type="Weapon" name="Arcana Mace - MP Regeneration">
+	<item id="6609" type="Weapon" name="祕儀權杖">
 		<set name="icon" val="icon.weapon_arcana_mace_i01" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="blunt" />
@@ -301,7 +301,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="6610" type="Weapon" name="Arcana Mace - Mana Up">
+	<item id="6610" type="Weapon" name="祕儀權杖">
 		<set name="icon" val="icon.weapon_arcana_mace_i01" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="blunt" />
@@ -332,7 +332,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="6611" type="Weapon" name="Infinity Blade">
+	<item id="6611" type="Weapon" name="無限聖劍">
 		<set name="icon" val="icon.weapon_the_sword_of_hero_i00" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="sword" />
@@ -354,7 +354,7 @@
 		<set name="is_oly_restricted" val="true" />
 		<set name="oncrit_skill" val="3579-1" />
 		<set name="item_skill" val="3578-1" />
-		<set name="equip_condition" val="{{ec_hero;1}}" />
+		<set name="equip_condition" val="{{ec_hero;1}}"/>
 		<for>
 			<set order="0x08" stat="pAtk" val="437" />
 			<set order="0x08" stat="mAtk" val="192" />
@@ -367,7 +367,7 @@
 			<player olympiad="false" />
 		</cond>
 	</item>
-	<item id="6612" type="Weapon" name="Infinity Cleaver">
+	<item id="6612" type="Weapon" name="無限滅斬">
 		<set name="icon" val="icon.weapon_the_two_handed_sword_of_hero_i00" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="bigsword" />
@@ -388,7 +388,7 @@
 		<set name="is_depositable" val="false" />
 		<set name="is_oly_restricted" val="true" />
 		<set name="item_skill" val="3582-1" />
-		<set name="equip_condition" val="{{ec_hero;1}}" />
+		<set name="equip_condition" val="{{ec_hero;1}}"/>
 		<for>
 			<set order="0x08" stat="pAtk" val="532" />
 			<set order="0x08" stat="mAtk" val="192" />
@@ -401,7 +401,7 @@
 			<player olympiad="false" />
 		</cond>
 	</item>
-	<item id="6613" type="Weapon" name="Infinity Axe">
+	<item id="6613" type="Weapon" name="無限霸斧">
 		<set name="icon" val="icon.weapon_the_axe_of_hero_i00" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="blunt" />
@@ -424,7 +424,7 @@
 		<set name="is_oly_restricted" val="true" />
 		<set name="oncrit_skill" val="3581-1" />
 		<set name="item_skill" val="3580-1" />
-		<set name="equip_condition" val="{{ec_hero;1}}" />
+		<set name="equip_condition" val="{{ec_hero;1}}"/>
 		<for>
 			<set order="0x08" stat="pAtk" val="437" />
 			<set order="0x08" stat="mAtk" val="192" />
@@ -438,7 +438,7 @@
 			<player olympiad="false" />
 		</cond>
 	</item>
-	<item id="6614" type="Weapon" name="Infinity Rod">
+	<item id="6614" type="Weapon" name="無限神杖">
 		<set name="icon" val="icon.weapon_the_mace_of_hero_i00" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="blunt" />
@@ -462,7 +462,7 @@
 		<set name="oncast_chance" val="3" />
 		<set name="oncast_skill" val="3598-1" />
 		<set name="item_skill" val="3597-1" />
-		<set name="equip_condition" val="{{ec_hero;1}}" />
+		<set name="equip_condition" val="{{ec_hero;1}}"/>
 		<for>
 			<set order="0x08" stat="pAtk" val="350" />
 			<set order="0x08" stat="mAtk" val="256" />
@@ -476,7 +476,7 @@
 			<player olympiad="false" />
 		</cond>
 	</item>
-	<item id="6615" type="Weapon" name="Infinity Crusher">
+	<item id="6615" type="Weapon" name="無限巨鎚">
 		<set name="icon" val="icon.weapon_the_hammer_of_hero_i00" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="bigblunt" />
@@ -499,7 +499,7 @@
 		<set name="is_oly_restricted" val="true" />
 		<set name="oncrit_skill" val="3584-1" />
 		<set name="item_skill" val="3583-1" />
-		<set name="equip_condition" val="{{ec_hero;1}}" />
+		<set name="equip_condition" val="{{ec_hero;1}}"/>
 		<for>
 			<set order="0x08" stat="pAtk" val="532" />
 			<set order="0x08" stat="mAtk" val="192" />
@@ -513,7 +513,7 @@
 			<player olympiad="false" />
 		</cond>
 	</item>
-	<item id="6616" type="Weapon" name="Infinity Scepter">
+	<item id="6616" type="Weapon" name="無限魔杖">
 		<set name="icon" val="icon.weapon_the_staff_of_hero_i00" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="bigblunt" />
@@ -537,7 +537,7 @@
 		<set name="oncast_chance" val="3" />
 		<set name="oncast_skill" val="3596-1" />
 		<set name="item_skill" val="3595-1" />
-		<set name="equip_condition" val="{{ec_hero;1}}" />
+		<set name="equip_condition" val="{{ec_hero;1}}"/>
 		<for>
 			<set order="0x08" stat="pAtk" val="426" />
 			<set order="0x08" stat="mAtk" val="281" />
@@ -551,7 +551,7 @@
 			<player olympiad="false" />
 		</cond>
 	</item>
-	<item id="6617" type="Weapon" name="Infinity Stinger">
+	<item id="6617" type="Weapon" name="無限鬼殺">
 		<set name="icon" val="icon.weapon_the_dagger_of_hero_i00" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="dagger" />
@@ -574,7 +574,7 @@
 		<set name="is_oly_restricted" val="true" />
 		<set name="oncrit_skill" val="3590-1" />
 		<set name="item_skill" val="3589-1" />
-		<set name="equip_condition" val="{{ec_hero;1}}" />
+		<set name="equip_condition" val="{{ec_hero;1}}"/>
 		<for>
 			<set order="0x08" stat="pAtk" val="382" />
 			<set order="0x08" stat="mAtk" val="192" />
@@ -588,7 +588,7 @@
 			<player olympiad="false" />
 		</cond>
 	</item>
-	<item id="6618" type="Weapon" name="Infinity Fang">
+	<item id="6618" type="Weapon" name="無限殛牙">
 		<set name="icon" val="icon.weapon_the_fist_of_hero_i00" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="dualfist" />
@@ -611,7 +611,7 @@
 		<set name="is_oly_restricted" val="true" />
 		<set name="oncrit_skill" val="3588-1" />
 		<set name="item_skill" val="3587-1" />
-		<set name="equip_condition" val="{{ec_hero;1}}" />
+		<set name="equip_condition" val="{{ec_hero;1}}"/>
 		<for>
 			<set order="0x08" stat="pAtk" val="532" />
 			<set order="0x08" stat="mAtk" val="192" />
@@ -625,7 +625,7 @@
 			<player olympiad="false" />
 		</cond>
 	</item>
-	<item id="6619" type="Weapon" name="Infinity Bow">
+	<item id="6619" type="Weapon" name="無限斷空">
 		<set name="icon" val="icon.weapon_the_bow_of_hero_i00" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="bow" />
@@ -650,7 +650,7 @@
 		<set name="is_oly_restricted" val="true" />
 		<set name="oncrit_skill" val="3594-1" />
 		<set name="item_skill" val="3593-1" />
-		<set name="equip_condition" val="{{ec_hero;1}}" />
+		<set name="equip_condition" val="{{ec_hero;1}}"/>
 		<for>
 			<set order="0x08" stat="pAtk" val="794" />
 			<set order="0x08" stat="mAtk" val="192" />
@@ -669,7 +669,7 @@
 			<player olympiad="false" />
 		</cond>
 	</item>
-	<item id="6620" type="Weapon" name="Infinity Wing">
+	<item id="6620" type="Weapon" name="無限鬥翼">
 		<set name="icon" val="icon.weapon_the_dualsword_of_hero_i00" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="dual" />
@@ -691,7 +691,7 @@
 		<set name="is_oly_restricted" val="true" />
 		<set name="oncrit_skill" val="3586-1" />
 		<set name="item_skill" val="3585-1" />
-		<set name="equip_condition" val="{{ec_hero;1}}" />
+		<set name="equip_condition" val="{{ec_hero;1}}"/>
 		<for>
 			<set order="0x08" stat="pAtk" val="532" />
 			<set order="0x08" stat="mAtk" val="192" />
@@ -704,7 +704,7 @@
 			<player olympiad="false" />
 		</cond>
 	</item>
-	<item id="6621" type="Weapon" name="Infinity Spear">
+	<item id="6621" type="Weapon" name="無限烈槍">
 		<set name="icon" val="icon.weapon_the_pole_of_hero_i00" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="pole" />
@@ -727,7 +727,7 @@
 		<set name="is_oly_restricted" val="true" />
 		<set name="oncrit_skill" val="3592-1" />
 		<set name="item_skill" val="3591-1" />
-		<set name="equip_condition" val="{{ec_hero;1}}" />
+		<set name="equip_condition" val="{{ec_hero;1}}"/>
 		<for>
 			<set order="0x08" stat="pAtk" val="437" />
 			<set order="0x08" stat="mAtk" val="192" />
@@ -741,7 +741,7 @@
 			<player olympiad="false" />
 		</cond>
 	</item>
-	<item id="6622" type="EtcItem" name="Giant's Codex">
+	<item id="6622" type="EtcItem" name="巨人的經典">
 		<set name="icon" val="icon.etc_codex_of_giant_i00" />
 		<set name="immediate_effect" val="1" />
 		<set name="material" val="paper" />
@@ -749,7 +749,7 @@
 		<set name="price" val="500000" />
 		<set name="is_stackable" val="true" />
 	</item>
-	<item id="6623" type="EtcItem" name="Dummy - Quest Item 1">
+	<item id="6623" type="EtcItem" name="模型-任務道具1">
 		<set name="icon" val="icon.etc_socks_i00" />
 		<set name="immediate_effect" val="1" />
 		<set name="material" val="steel" />
@@ -760,7 +760,7 @@
 		<set name="is_stackable" val="true" />
 		<set name="is_questitem" val="true" />
 	</item>
-	<item id="6624" type="EtcItem" name="Dummy - Quest Item 2">
+	<item id="6624" type="EtcItem" name="模型-任務道具2">
 		<set name="icon" val="icon.etc_socks_i00" />
 		<set name="immediate_effect" val="1" />
 		<set name="material" val="steel" />
@@ -771,7 +771,7 @@
 		<set name="is_stackable" val="true" />
 		<set name="is_questitem" val="true" />
 	</item>
-	<item id="6625" type="EtcItem" name="Dummy - Quest Item 3">
+	<item id="6625" type="EtcItem" name="模型-任務道具3">
 		<set name="icon" val="icon.etc_socks_i00" />
 		<set name="immediate_effect" val="1" />
 		<set name="material" val="steel" />
@@ -782,7 +782,7 @@
 		<set name="is_stackable" val="true" />
 		<set name="is_questitem" val="true" />
 	</item>
-	<item id="6626" type="EtcItem" name="Dummy - Quest Item 4">
+	<item id="6626" type="EtcItem" name="模型-任務道具4">
 		<set name="icon" val="icon.etc_socks_i00" />
 		<set name="immediate_effect" val="1" />
 		<set name="material" val="steel" />
@@ -793,7 +793,7 @@
 		<set name="is_stackable" val="true" />
 		<set name="is_questitem" val="true" />
 	</item>
-	<item id="6627" type="EtcItem" name="Dummy - Quest Item 5">
+	<item id="6627" type="EtcItem" name="模型-任務道具5">
 		<set name="icon" val="icon.etc_socks_i00" />
 		<set name="immediate_effect" val="1" />
 		<set name="material" val="steel" />
@@ -804,7 +804,7 @@
 		<set name="is_stackable" val="true" />
 		<set name="is_questitem" val="true" />
 	</item>
-	<item id="6628" type="EtcItem" name="Dummy - Quest Item 6">
+	<item id="6628" type="EtcItem" name="模型-任務道具6">
 		<set name="icon" val="icon.etc_socks_i00" />
 		<set name="immediate_effect" val="1" />
 		<set name="material" val="steel" />
@@ -815,7 +815,7 @@
 		<set name="is_stackable" val="true" />
 		<set name="is_questitem" val="true" />
 	</item>
-	<item id="6629" type="EtcItem" name="Dummy - Quest Item 7">
+	<item id="6629" type="EtcItem" name="模型-任務道具7">
 		<set name="icon" val="icon.etc_socks_i00" />
 		<set name="immediate_effect" val="1" />
 		<set name="material" val="steel" />
@@ -826,7 +826,7 @@
 		<set name="is_stackable" val="true" />
 		<set name="is_questitem" val="true" />
 	</item>
-	<item id="6630" type="EtcItem" name="Dummy - Quest Item 8">
+	<item id="6630" type="EtcItem" name="模型-任務道具8">
 		<set name="icon" val="icon.etc_socks_i00" />
 		<set name="immediate_effect" val="1" />
 		<set name="material" val="steel" />
@@ -837,7 +837,7 @@
 		<set name="is_stackable" val="true" />
 		<set name="is_questitem" val="true" />
 	</item>
-	<item id="6631" type="EtcItem" name="Dummy - Quest Item 9">
+	<item id="6631" type="EtcItem" name="模型-任務道具9">
 		<set name="icon" val="icon.etc_socks_i00" />
 		<set name="immediate_effect" val="1" />
 		<set name="material" val="steel" />
@@ -848,7 +848,7 @@
 		<set name="is_stackable" val="true" />
 		<set name="is_questitem" val="true" />
 	</item>
-	<item id="6632" type="EtcItem" name="Dummy - Quest Item 10">
+	<item id="6632" type="EtcItem" name="模型-任務道具10">
 		<set name="icon" val="icon.etc_socks_i00" />
 		<set name="immediate_effect" val="1" />
 		<set name="material" val="steel" />
@@ -859,67 +859,67 @@
 		<set name="is_stackable" val="true" />
 		<set name="is_questitem" val="true" />
 	</item>
-	<item id="6633" type="EtcItem" name="Dummy - General Item 1">
+	<item id="6633" type="EtcItem" name="模型-一般道具1">
 		<set name="icon" val="icon.etc_socks_i01" />
 		<set name="immediate_effect" val="1" />
 		<set name="material" val="steel" />
 		<set name="is_stackable" val="true" />
 	</item>
-	<item id="6634" type="EtcItem" name="Dummy - General Item 2">
+	<item id="6634" type="EtcItem" name="模型-一般道具2">
 		<set name="icon" val="icon.etc_socks_i01" />
 		<set name="immediate_effect" val="1" />
 		<set name="material" val="steel" />
 		<set name="is_stackable" val="true" />
 	</item>
-	<item id="6635" type="EtcItem" name="Dummy - General Item 3">
+	<item id="6635" type="EtcItem" name="模型-一般道具3">
 		<set name="icon" val="icon.etc_socks_i01" />
 		<set name="immediate_effect" val="1" />
 		<set name="material" val="steel" />
 		<set name="is_stackable" val="true" />
 	</item>
-	<item id="6636" type="EtcItem" name="Dummy - General Item 4">
+	<item id="6636" type="EtcItem" name="模型-一般道具4">
 		<set name="icon" val="icon.etc_socks_i01" />
 		<set name="immediate_effect" val="1" />
 		<set name="material" val="steel" />
 		<set name="is_stackable" val="true" />
 	</item>
-	<item id="6637" type="EtcItem" name="Dummy - General Item 5">
+	<item id="6637" type="EtcItem" name="模型-一般道具5">
 		<set name="icon" val="icon.etc_socks_i01" />
 		<set name="immediate_effect" val="1" />
 		<set name="material" val="steel" />
 		<set name="is_stackable" val="true" />
 	</item>
-	<item id="6638" type="EtcItem" name="Dummy - General Item 6">
+	<item id="6638" type="EtcItem" name="模型-一般道具6">
 		<set name="icon" val="icon.etc_socks_i01" />
 		<set name="immediate_effect" val="1" />
 		<set name="material" val="steel" />
 		<set name="is_stackable" val="true" />
 	</item>
-	<item id="6639" type="EtcItem" name="Dummy - General Item 7">
+	<item id="6639" type="EtcItem" name="模型-一般道具7">
 		<set name="icon" val="icon.etc_socks_i01" />
 		<set name="immediate_effect" val="1" />
 		<set name="material" val="steel" />
 		<set name="is_stackable" val="true" />
 	</item>
-	<item id="6640" type="EtcItem" name="Dummy - General Item 8">
+	<item id="6640" type="EtcItem" name="模型-一般道具8">
 		<set name="icon" val="icon.etc_socks_i01" />
 		<set name="immediate_effect" val="1" />
 		<set name="material" val="steel" />
 		<set name="is_stackable" val="true" />
 	</item>
-	<item id="6641" type="EtcItem" name="Dummy - General Item 9">
+	<item id="6641" type="EtcItem" name="模型-一般道具9">
 		<set name="icon" val="icon.etc_socks_i01" />
 		<set name="immediate_effect" val="1" />
 		<set name="material" val="steel" />
 		<set name="is_stackable" val="true" />
 	</item>
-	<item id="6642" type="EtcItem" name="Dummy - General Item 10">
+	<item id="6642" type="EtcItem" name="模型-一般道具10">
 		<set name="icon" val="icon.etc_socks_i01" />
 		<set name="immediate_effect" val="1" />
 		<set name="material" val="steel" />
 		<set name="is_stackable" val="true" />
 	</item>
-	<item id="6643" type="EtcItem" name="Old Golden Spice">
+	<item id="6643" type="EtcItem" name="古老的金色香料">
 		<set name="icon" val="icon.etc_pouch_yellow_i00" />
 		<set name="default_action" val="skill_reduce" />
 		<set name="material" val="paper" />
@@ -930,7 +930,7 @@
 		<set name="handler" val="BeastSpice" />
 		<set name="item_skill" val="2188-1" />
 	</item>
-	<item id="6644" type="EtcItem" name="Old Crystal Spice">
+	<item id="6644" type="EtcItem" name="古老的水晶香料">
 		<set name="icon" val="icon.etc_pouch_brown_i00" />
 		<set name="default_action" val="skill_reduce" />
 		<set name="material" val="paper" />
@@ -941,7 +941,7 @@
 		<set name="handler" val="BeastSpice" />
 		<set name="item_skill" val="2189-1" />
 	</item>
-	<item id="6645" type="EtcItem" name="Beast Soulshot">
+	<item id="6645" type="EtcItem" name="野獸靈魂彈">
 		<set name="icon" val="icon.etc_beast_soul_shot_i00" />
 		<set name="default_action" val="summon_soulshot" />
 		<set name="immediate_effect" val="1" />
@@ -952,7 +952,7 @@
 		<set name="handler" val="BeastSoulShot" />
 		<set name="item_skill" val="2033-1" />
 	</item>
-	<item id="6646" type="EtcItem" name="Beast Spiritshot">
+	<item id="6646" type="EtcItem" name="野獸魔靈彈">
 		<set name="icon" val="icon.etc_beast_spirit_shot_i00" />
 		<set name="default_action" val="summon_spiritshot" />
 		<set name="immediate_effect" val="1" />
@@ -963,7 +963,7 @@
 		<set name="handler" val="BeastSpiritShot" />
 		<set name="item_skill" val="2008-1" />
 	</item>
-	<item id="6647" type="EtcItem" name="Blessed Beast Spiritshot">
+	<item id="6647" type="EtcItem" name="祝福的野獸魔靈彈">
 		<set name="icon" val="icon.etc_blessed_beast_spirit_shot_i00" />
 		<set name="default_action" val="summon_spiritshot" />
 		<set name="immediate_effect" val="1" />
@@ -974,7 +974,7 @@
 		<set name="handler" val="BeastSpiritShot" />
 		<set name="item_skill" val="2009-1" />
 	</item>
-	<item id="6648" type="EtcItem" name="Baby Buffalo Panpipe">
+	<item id="6648" type="EtcItem" name="小野牛之笛">
 		<set name="icon" val="icon.etc_buffalo_panpipe_i00" />
 		<set name="default_action" val="skill_maintain" />
 		<set name="etcitem_type" val="pet_collar" />
@@ -986,7 +986,7 @@
 		<set name="item_skill" val="2046-1" />
 		<set name="use_condition" val="{{uc_transmode_exclude;{tt_flying;tt_pure_stat}}}" />
 	</item>
-	<item id="6649" type="EtcItem" name="Baby Cougar Chime">
+	<item id="6649" type="EtcItem" name="小老虎之鐘">
 		<set name="icon" val="icon.etc_cougar_chime_i00" />
 		<set name="default_action" val="skill_maintain" />
 		<set name="etcitem_type" val="pet_collar" />
@@ -998,7 +998,7 @@
 		<set name="item_skill" val="2046-1" />
 		<set name="use_condition" val="{{uc_transmode_exclude;{tt_flying;tt_pure_stat}}}" />
 	</item>
-	<item id="6650" type="EtcItem" name="Baby Kookaburra Ocarina">
+	<item id="6650" type="EtcItem" name="小笑翠鳥之笛">
 		<set name="icon" val="icon.etc_kukaburo_ocarina_i00" />
 		<set name="default_action" val="skill_maintain" />
 		<set name="etcitem_type" val="pet_collar" />
@@ -1010,7 +1010,7 @@
 		<set name="item_skill" val="2046-1" />
 		<set name="use_condition" val="{{uc_transmode_exclude;{tt_flying;tt_pure_stat}}}" />
 	</item>
-	<item id="6651" type="EtcItem" name="Noblesse Gate Pass">
+	<item id="6651" type="EtcItem" name="貴族通行證">
 		<set name="icon" val="icon.etc_nobless_teleport_coupon_i00" />
 		<set name="immediate_effect" val="1" />
 		<set name="material" val="paper" />
@@ -1021,7 +1021,7 @@
 		<set name="is_stackable" val="true" />
 		<set name="is_questitem" val="true" />
 	</item>
-	<item id="6652" type="EtcItem" name="Scroll: Protection of Valakas">
+	<item id="6652" type="EtcItem" name="火龍加持護符">
 		<set name="icon" val="icon.etc_blesscharm_ward_val_i00" />
 		<set name="default_action" val="skill_reduce" />
 		<set name="etcitem_type" val="scroll" />
@@ -1032,7 +1032,7 @@
 		<set name="handler" val="ItemSkills" />
 		<set name="item_skill" val="2231-1" />
 	</item>
-	<item id="6653" type="EtcItem" name="Scroll: Flames of Valakas">
+	<item id="6653" type="EtcItem" name="救護的護符-解除死亡之火">
 		<set name="icon" val="icon.etc_aidcharm_cancel_deathfire_i00" />
 		<set name="etcitem_type" val="scroll" />
 		<set name="material" val="paper" />
@@ -1040,7 +1040,7 @@
 		<set name="price" val="5000" />
 		<set name="is_stackable" val="true" />
 	</item>
-	<item id="6654" type="EtcItem" name="Scroll: Flames of Valakas">
+	<item id="6654" type="EtcItem" name="火龍之炎護符">
 		<set name="icon" val="icon.etc_aidcharm_cancel_valbreath_i00" />
 		<set name="default_action" val="skill_reduce" />
 		<set name="etcitem_type" val="scroll" />
@@ -1051,7 +1051,7 @@
 		<set name="handler" val="ItemSkills" />
 		<set name="item_skill" val="2233-1" />
 	</item>
-	<item id="6655" type="EtcItem" name="Scroll: Slay Valakas">
+	<item id="6655" type="EtcItem" name="火龍刺殺護符">
 		<set name="icon" val="icon.etc_blesscharm_slay_val_i00" />
 		<set name="default_action" val="skill_reduce" />
 		<set name="etcitem_type" val="scroll" />
@@ -1062,7 +1062,7 @@
 		<set name="handler" val="ItemSkills" />
 		<set name="item_skill" val="2232-1" />
 	</item>
-	<item id="6656" type="Armor" name="Earring of Antharas">
+	<item id="6656" type="Armor" name="安塔瑞斯耳環">
 		<set name="icon" val="icon.accessory_earring_of_antaras_i00" />
 		<set name="default_action" val="equip" />
 		<set name="bodypart" val="rear;lear" />
@@ -1080,7 +1080,7 @@
 			<enchant order="0x0C" stat="mDef" val="0" />
 		</for>
 	</item>
-	<item id="6657" type="Armor" name="Necklace of Valakas">
+	<item id="6657" type="Armor" name="巴拉卡斯項鍊">
 		<set name="icon" val="icon.accessory_necklace_of_valakas_i00" />
 		<set name="default_action" val="equip" />
 		<set name="bodypart" val="neck" />
@@ -1098,7 +1098,7 @@
 			<enchant order="0x0C" stat="mDef" val="0" />
 		</for>
 	</item>
-	<item id="6658" type="Armor" name="Ring of Baium">
+	<item id="6658" type="Armor" name="巴溫戒指">
 		<set name="icon" val="icon.accessory_ring_of_baium_i00" />
 		<set name="default_action" val="equip" />
 		<set name="bodypart" val="rfinger;lfinger" />
@@ -1116,7 +1116,7 @@
 			<enchant order="0x0C" stat="mDef" val="0" />
 		</for>
 	</item>
-	<item id="6659" type="Armor" name="Zaken's Earring">
+	<item id="6659" type="Armor" name="札肯耳環">
 		<set name="icon" val="icon.accessory_earring_of_zaken_i00" />
 		<set name="default_action" val="equip" />
 		<set name="bodypart" val="rear;lear" />
@@ -1134,7 +1134,7 @@
 			<enchant order="0x0C" stat="mDef" val="0" />
 		</for>
 	</item>
-	<item id="6660" type="Armor" name="Ring of Queen Ant">
+	<item id="6660" type="Armor" name="巨蟻女王戒指">
 		<set name="icon" val="icon.accessory_ring_of_queen_ant_i00" />
 		<set name="default_action" val="equip" />
 		<set name="bodypart" val="rfinger;lfinger" />
@@ -1152,7 +1152,7 @@
 			<enchant order="0x0C" stat="mDef" val="0" />
 		</for>
 	</item>
-	<item id="6661" type="Armor" name="Earring of Orfen">
+	<item id="6661" type="Armor" name="奧爾芬耳環">
 		<set name="icon" val="icon.accessory_earring_of_orfen_i00" />
 		<set name="default_action" val="equip" />
 		<set name="bodypart" val="rear;lear" />
@@ -1170,7 +1170,7 @@
 			<enchant order="0x0C" stat="mDef" val="0" />
 		</for>
 	</item>
-	<item id="6662" type="Armor" name="Ring of Core">
+	<item id="6662" type="Armor" name="核心戒指">
 		<set name="icon" val="icon.accessory_ring_of_core_i00" />
 		<set name="default_action" val="equip" />
 		<set name="bodypart" val="rfinger;lfinger" />
@@ -1188,7 +1188,7 @@
 			<enchant order="0x0C" stat="mDef" val="0" />
 		</for>
 	</item>
-	<item id="6663" type="EtcItem" name="Scroll of Escape: Orc Village">
+	<item id="6663" type="EtcItem" name="獸人城鎮返回卷軸">
 		<set name="icon" val="icon.etc_scroll_of_return_agit_i00" />
 		<set name="etcitem_type" val="scroll" />
 		<set name="material" val="paper" />
@@ -1196,7 +1196,7 @@
 		<set name="price" val="100000" />
 		<set name="is_stackable" val="true" />
 	</item>
-	<item id="6664" type="EtcItem" name="Scroll of Escape: Silenos Village">
+	<item id="6664" type="EtcItem" name="賽勒諾斯城鎮返回卷軸">
 		<set name="icon" val="icon.etc_scroll_of_return_agit_i00" />
 		<set name="etcitem_type" val="scroll" />
 		<set name="material" val="paper" />
@@ -1204,7 +1204,7 @@
 		<set name="price" val="100000" />
 		<set name="is_stackable" val="true" />
 	</item>
-	<item id="6665" type="EtcItem" name="Deluxe Chest Key - Grade 1">
+	<item id="6665" type="EtcItem" name="寶箱鑰匙-1級">
 		<set name="icon" val="icon.etc_old_key_i00" />
 		<set name="default_action" val="skill_reduce" />
 		<set name="material" val="steel" />
@@ -1214,7 +1214,7 @@
 		<set name="handler" val="ItemSkills" />
 		<set name="item_skill" val="2229-1" />
 	</item>
-	<item id="6666" type="EtcItem" name="Deluxe Chest Key - Grade 2">
+	<item id="6666" type="EtcItem" name="寶箱鑰匙-2級">
 		<set name="icon" val="icon.etc_old_key_i00" />
 		<set name="default_action" val="skill_reduce" />
 		<set name="material" val="steel" />
@@ -1224,7 +1224,7 @@
 		<set name="handler" val="ItemSkills" />
 		<set name="item_skill" val="2229-2" />
 	</item>
-	<item id="6667" type="EtcItem" name="Deluxe Chest Key - Grade 3">
+	<item id="6667" type="EtcItem" name="寶箱鑰匙-3級">
 		<set name="icon" val="icon.etc_old_key_i00" />
 		<set name="default_action" val="skill_reduce" />
 		<set name="material" val="steel" />
@@ -1234,7 +1234,7 @@
 		<set name="handler" val="ItemSkills" />
 		<set name="item_skill" val="2229-3" />
 	</item>
-	<item id="6668" type="EtcItem" name="Deluxe Chest Key - Grade 4">
+	<item id="6668" type="EtcItem" name="寶箱鑰匙-4級">
 		<set name="icon" val="icon.etc_old_key_i00" />
 		<set name="default_action" val="skill_reduce" />
 		<set name="material" val="steel" />
@@ -1244,7 +1244,7 @@
 		<set name="handler" val="ItemSkills" />
 		<set name="item_skill" val="2229-4" />
 	</item>
-	<item id="6669" type="EtcItem" name="Deluxe Chest Key - Grade 5">
+	<item id="6669" type="EtcItem" name="寶箱鑰匙-5級">
 		<set name="icon" val="icon.etc_old_key_i00" />
 		<set name="default_action" val="skill_reduce" />
 		<set name="material" val="steel" />
@@ -1254,7 +1254,7 @@
 		<set name="handler" val="ItemSkills" />
 		<set name="item_skill" val="2229-5" />
 	</item>
-	<item id="6670" type="EtcItem" name="Deluxe Chest Key - Grade 6">
+	<item id="6670" type="EtcItem" name="寶箱鑰匙-6級">
 		<set name="icon" val="icon.etc_old_key_i00" />
 		<set name="default_action" val="skill_reduce" />
 		<set name="material" val="steel" />
@@ -1264,7 +1264,7 @@
 		<set name="handler" val="ItemSkills" />
 		<set name="item_skill" val="2229-6" />
 	</item>
-	<item id="6671" type="EtcItem" name="Deluxe Chest Key - Grade 7">
+	<item id="6671" type="EtcItem" name="寶箱鑰匙-7級">
 		<set name="icon" val="icon.etc_old_key_i00" />
 		<set name="default_action" val="skill_reduce" />
 		<set name="material" val="steel" />
@@ -1274,7 +1274,7 @@
 		<set name="handler" val="ItemSkills" />
 		<set name="item_skill" val="2229-7" />
 	</item>
-	<item id="6672" type="EtcItem" name="Deluxe Chest Key - Grade 8">
+	<item id="6672" type="EtcItem" name="寶箱鑰匙-8級">
 		<set name="icon" val="icon.etc_old_key_i00" />
 		<set name="default_action" val="skill_reduce" />
 		<set name="material" val="steel" />
@@ -1284,7 +1284,7 @@
 		<set name="handler" val="ItemSkills" />
 		<set name="item_skill" val="2229-8" />
 	</item>
-	<item id="6673" type="EtcItem" name="Festival Adena">
+	<item id="6673" type="EtcItem" name="慶典金幣">
 		<set name="icon" val="icon.etc_coin_of_fair_i00" />
 		<set name="immediate_effect" val="1" />
 		<set name="material" val="steel" />
@@ -1294,7 +1294,7 @@
 		<set name="is_depositable" val="false" />
 		<set name="is_stackable" val="true" />
 	</item>
-	<item id="6674" type="Armor" name="Sealed Imperial Crusader Breastplate">
+	<item id="6674" type="Armor" name="封印的帝國聖軍胸甲">
 		<set name="icon" val="icon.armor_t88_u_i02" />
 		<set name="default_action" val="equip" />
 		<set name="armor_type" val="heavy" />
@@ -1313,7 +1313,7 @@
 			<enchant order="0x0C" stat="pDef" val="0" />
 		</for>
 	</item>
-	<item id="6675" type="Armor" name="Sealed Imperial Crusader Gaiters">
+	<item id="6675" type="Armor" name="封印的帝國聖軍脛甲">
 		<set name="icon" val="icon.armor_t88_l_i02" />
 		<set name="default_action" val="equip" />
 		<set name="armor_type" val="heavy" />
@@ -1332,7 +1332,7 @@
 			<enchant order="0x0C" stat="pDef" val="0" />
 		</for>
 	</item>
-	<item id="6676" type="Armor" name="Sealed Imperial Crusader Gauntlet">
+	<item id="6676" type="Armor" name="封印的帝國聖軍長手套">
 		<set name="icon" val="icon.armor_t88_g_i02" />
 		<set name="default_action" val="equip" />
 		<set name="bodypart" val="gloves" />
@@ -1350,7 +1350,7 @@
 			<enchant order="0x0C" stat="pDef" val="0" />
 		</for>
 	</item>
-	<item id="6677" type="Armor" name="Sealed Imperial Crusader Boots">
+	<item id="6677" type="Armor" name="封印的帝國聖軍長靴">
 		<set name="icon" val="icon.armor_t88_b_i02" />
 		<set name="default_action" val="equip" />
 		<set name="bodypart" val="feet" />
@@ -1368,7 +1368,7 @@
 			<enchant order="0x0C" stat="pDef" val="0" />
 		</for>
 	</item>
-	<item id="6678" type="Armor" name="Sealed Imperial Crusader Shield">
+	<item id="6678" type="Armor" name="封印的帝國聖軍盾">
 		<set name="icon" val="icon.shield_imperial_crusader_shield_i02" />
 		<set name="default_action" val="equip" />
 		<set name="bodypart" val="lhand" />
@@ -1389,7 +1389,7 @@
 			<enchant val="0" order="0x0C" stat="sDef" />
 		</for>
 	</item>
-	<item id="6679" type="Armor" name="Sealed Imperial Crusader Helmet">
+	<item id="6679" type="Armor" name="封印的帝國聖軍頭盔">
 		<set name="icon" val="icon.armor_helmet_i02" />
 		<set name="default_action" val="equip" />
 		<set name="bodypart" val="head" />
@@ -1407,7 +1407,7 @@
 			<enchant order="0x0C" stat="pDef" val="0" />
 		</for>
 	</item>
-	<item id="6680" type="Armor" name="Sealed Draconic Leather Armor">
+	<item id="6680" type="Armor" name="封印的紅龍皮甲">
 		<set name="icon" val="icon.armor_t89_ul_i02" />
 		<set name="default_action" val="equip" />
 		<set name="armor_type" val="light" />
@@ -1425,7 +1425,7 @@
 			<enchant order="0x0C" stat="pDef" val="0" />
 		</for>
 	</item>
-	<item id="6681" type="Armor" name="Sealed Draconic Leather Glove">
+	<item id="6681" type="Armor" name="封印的紅龍皮手套">
 		<set name="icon" val="icon.armor_t89_g_i02" />
 		<set name="default_action" val="equip" />
 		<set name="bodypart" val="gloves" />
@@ -1442,7 +1442,7 @@
 			<enchant order="0x0C" stat="pDef" val="0" />
 		</for>
 	</item>
-	<item id="6682" type="Armor" name="Sealed Draconic Leather Boots">
+	<item id="6682" type="Armor" name="封印的紅龍皮靴">
 		<set name="icon" val="icon.armor_t89_b_i02" />
 		<set name="default_action" val="equip" />
 		<set name="bodypart" val="feet" />
@@ -1459,7 +1459,7 @@
 			<enchant order="0x0C" stat="pDef" val="0" />
 		</for>
 	</item>
-	<item id="6683" type="Armor" name="Sealed Draconic Leather Helmet">
+	<item id="6683" type="Armor" name="封印的紅龍皮盔">
 		<set name="icon" val="icon.armor_leather_helmet_i02" />
 		<set name="default_action" val="equip" />
 		<set name="bodypart" val="head" />
@@ -1476,7 +1476,7 @@
 			<enchant order="0x0C" stat="pDef" val="0" />
 		</for>
 	</item>
-	<item id="6684" type="Armor" name="Sealed Major Arcana Robe">
+	<item id="6684" type="Armor" name="封印的大祕儀長袍">
 		<set name="icon" val="icon.armor_t90_ul_i02" />
 		<set name="default_action" val="equip" />
 		<set name="armor_type" val="magic" />
@@ -1496,7 +1496,7 @@
 			<enchant order="0x0C" stat="pDef" val="0" />
 		</for>
 	</item>
-	<item id="6685" type="Armor" name="Sealed Major Arcana Glove">
+	<item id="6685" type="Armor" name="封印的大祕儀手套">
 		<set name="icon" val="icon.armor_t90_g_i02" />
 		<set name="default_action" val="equip" />
 		<set name="bodypart" val="gloves" />
@@ -1514,7 +1514,7 @@
 			<enchant order="0x0C" stat="pDef" val="0" />
 		</for>
 	</item>
-	<item id="6686" type="Armor" name="Sealed Major Arcana Boots">
+	<item id="6686" type="Armor" name="封印的大祕儀長靴">
 		<set name="icon" val="icon.armor_t90_b_i02" />
 		<set name="default_action" val="equip" />
 		<set name="bodypart" val="feet" />
@@ -1532,7 +1532,7 @@
 			<enchant order="0x0C" stat="pDef" val="0" />
 		</for>
 	</item>
-	<item id="6687" type="Armor" name="Sealed Major Arcana Circlet">
+	<item id="6687" type="Armor" name="封印的大祕儀頭箍">
 		<set name="icon" val="icon.armor_circlet_i02" />
 		<set name="default_action" val="equip" />
 		<set name="bodypart" val="head" />
@@ -1550,7 +1550,7 @@
 			<enchant order="0x0C" stat="pDef" val="0" />
 		</for>
 	</item>
-	<item id="6688" type="EtcItem" name="Forgotten Blade Edge">
+	<item id="6688" type="EtcItem" name="忘卻之刃的刀身">
 		<set name="icon" val="icon.etc_sword_body_i00" />
 		<set name="etcitem_type" val="material" />
 		<set name="immediate_effect" val="1" />
@@ -1559,7 +1559,7 @@
 		<set name="price" val="92529" />
 		<set name="is_stackable" val="true" />
 	</item>
-	<item id="6689" type="EtcItem" name="Basalt Battlehammer Head">
+	<item id="6689" type="EtcItem" name="玄武岩戰鎚的金屬塊">
 		<set name="icon" val="icon.etc_squares_gray_i00" />
 		<set name="etcitem_type" val="material" />
 		<set name="immediate_effect" val="1" />
@@ -1568,7 +1568,7 @@
 		<set name="price" val="94306" />
 		<set name="is_stackable" val="true" />
 	</item>
-	<item id="6690" type="EtcItem" name="Imperial Staff Head">
+	<item id="6690" type="EtcItem" name="帝國權杖的碎片">
 		<set name="icon" val="icon.etc_bark_blue_i00" />
 		<set name="etcitem_type" val="material" />
 		<set name="immediate_effect" val="1" />
@@ -1577,7 +1577,7 @@
 		<set name="price" val="92353" />
 		<set name="is_stackable" val="true" />
 	</item>
-	<item id="6691" type="EtcItem" name="Angel Slayer Blade">
+	<item id="6691" type="EtcItem" name="天使殺手的劍身">
 		<set name="icon" val="icon.etc_sword_body_i00" />
 		<set name="etcitem_type" val="material" />
 		<set name="immediate_effect" val="1" />
@@ -1586,7 +1586,7 @@
 		<set name="price" val="92529" />
 		<set name="is_stackable" val="true" />
 	</item>
-	<item id="6692" type="EtcItem" name="Shining Bow Shaft">
+	<item id="6692" type="EtcItem" name="閃耀弓的柄">
 		<set name="icon" val="icon.etc_branch_gold_i00" />
 		<set name="etcitem_type" val="material" />
 		<set name="immediate_effect" val="1" />
@@ -1595,7 +1595,7 @@
 		<set name="price" val="91471" />
 		<set name="is_stackable" val="true" />
 	</item>
-	<item id="6693" type="EtcItem" name="Dragon Hunter Axe Blade">
+	<item id="6693" type="EtcItem" name="狩龍之斧的刃部">
 		<set name="icon" val="icon.etc_sword_body_i00" />
 		<set name="etcitem_type" val="material" />
 		<set name="immediate_effect" val="1" />
@@ -1604,7 +1604,7 @@
 		<set name="price" val="90882" />
 		<set name="is_stackable" val="true" />
 	</item>
-	<item id="6694" type="EtcItem" name="Saint Spear Blade">
+	<item id="6694" type="EtcItem" name="聖者之矛的刃部">
 		<set name="icon" val="icon.etc_sword_body_i00" />
 		<set name="etcitem_type" val="material" />
 		<set name="immediate_effect" val="1" />
@@ -1613,7 +1613,7 @@
 		<set name="price" val="90882" />
 		<set name="is_stackable" val="true" />
 	</item>
-	<item id="6695" type="EtcItem" name="Demon Splinter Blade">
+	<item id="6695" type="EtcItem" name="惡魔獵爪的刃部">
 		<set name="icon" val="icon.etc_sword_body_i00" />
 		<set name="etcitem_type" val="material" />
 		<set name="immediate_effect" val="1" />
@@ -1622,7 +1622,7 @@
 		<set name="price" val="94306" />
 		<set name="is_stackable" val="true" />
 	</item>
-	<item id="6696" type="EtcItem" name="Heavens Divider Edge">
+	<item id="6696" type="EtcItem" name="天國審判的刀身">
 		<set name="icon" val="icon.etc_sword_body_i00" />
 		<set name="etcitem_type" val="material" />
 		<set name="immediate_effect" val="1" />
@@ -1631,7 +1631,7 @@
 		<set name="price" val="91082" />
 		<set name="is_stackable" val="true" />
 	</item>
-	<item id="6697" type="EtcItem" name="Arcana Mace Head">
+	<item id="6697" type="EtcItem" name="祕儀權杖的金屬塊">
 		<set name="icon" val="icon.etc_squares_gray_i00" />
 		<set name="etcitem_type" val="material" />
 		<set name="immediate_effect" val="1" />
@@ -1640,7 +1640,7 @@
 		<set name="price" val="94306" />
 		<set name="is_stackable" val="true" />
 	</item>
-	<item id="6698" type="EtcItem" name="Sealed Tateossian Earring Part">
+	<item id="6698" type="EtcItem" name="封印的泰狄奧森耳環碎片">
 		<set name="icon" val="icon.etc_broken_crystal_silver_i00" />
 		<set name="etcitem_type" val="material" />
 		<set name="immediate_effect" val="1" />
@@ -1649,7 +1649,7 @@
 		<set name="price" val="10182" />
 		<set name="is_stackable" val="true" />
 	</item>
-	<item id="6699" type="EtcItem" name="Sealed Tateossian Ring Gem">
+	<item id="6699" type="EtcItem" name="封印的泰狄奧森戒指寶石">
 		<set name="icon" val="icon.etc_crystal_ball_gold_i00" />
 		<set name="etcitem_type" val="material" />
 		<set name="immediate_effect" val="1" />

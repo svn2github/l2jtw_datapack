@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <list>
-	<item id="14300" type="EtcItem" name="Yaksa Mace">
+	<item id="14300" type="EtcItem" name="夜叉釘鎚">
 		<set name="icon" val="icon.weapon_yaksa_mace_i00" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="blunt" />
@@ -26,7 +26,7 @@
 			<set order="0x08" stat="pAtkSpd" val="379" />
 		</for>
 	</item>
-	<item id="14301" type="EtcItem" name="Shamshir*Shamshir">
+	<item id="14301" type="EtcItem" name="彎刀*彎刀">
 		<set name="icon" val="icon.weapon_dual_sword_i00" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="dual" />
@@ -51,7 +51,7 @@
 			<set order="0x08" stat="pAtkSpd" val="325" />
 		</for>
 	</item>
-	<item id="14302" type="EtcItem" name="Berserker Blade">
+	<item id="14302" type="EtcItem" name="狂戰士之刃">
 		<set name="icon" val="icon.weapon_berserker_blade_i00" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="bigsword" />
@@ -75,7 +75,7 @@
 			<set order="0x08" stat="pAtkSpd" val="325" />
 		</for>
 	</item>
-	<item id="14303" type="EtcItem" name="Crystal Dagger">
+	<item id="14303" type="EtcItem" name="水晶匕首">
 		<set name="icon" val="icon.weapon_crystal_dagger_i01" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="dagger" />
@@ -102,7 +102,7 @@
 			<set order="0x08" stat="pAtkSpd" val="433" />
 		</for>
 	</item>
-	<item id="14304" type="EtcItem" name="Ecliptic Sword">
+	<item id="14304" type="EtcItem" name="日蝕劍">
 		<set name="icon" val="icon.weapon_sword_of_eclipse_i00" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="sword" />
@@ -127,7 +127,7 @@
 			<set order="0x08" stat="pAtkSpd" val="379" />
 		</for>
 	</item>
-	<item id="14305" type="EtcItem" name="Ecliptic Axe">
+	<item id="14305" type="EtcItem" name="月蝕斧">
 		<set name="icon" val="icon.weapon_eclipse_axe_i00" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="blunt" />
@@ -154,7 +154,7 @@
 			<set order="0x08" stat="pAtkSpd" val="379" />
 		</for>
 	</item>
-	<item id="14306" type="EtcItem" name="Dwarven Hammer">
+	<item id="14306" type="EtcItem" name="矮人巨鎚">
 		<set name="icon" val="icon.weapon_dwarven_hammer_i00" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="bigblunt" />
@@ -180,7 +180,7 @@
 			<set order="0x08" stat="pAtkSpd" val="325" />
 		</for>
 	</item>
-	<item id="14307" type="EtcItem" name="Admiral's Estoc">
+	<item id="14307" type="EtcItem" name="上將刺劍">
 		<set name="icon" val="icon.weapon_blink_slasher_i00" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="rapier" />
@@ -208,7 +208,7 @@
 			<set order="0x08" stat="pAtkSpd" val="406" />
 		</for>
 	</item>
-	<item id="14308" type="EtcItem" name="Saber Tooth">
+	<item id="14308" type="EtcItem" name="劍齒虎">
 		<set name="icon" val="icon.weapon_invincible_blade_i00" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="ancientsword" />
@@ -235,7 +235,7 @@
 			<set order="0x08" stat="pAtkSpd" val="350" />
 		</for>
 	</item>
-	<item id="14309" type="EtcItem" name="Sharpshooter">
+	<item id="14309" type="EtcItem" name="滅形弩">
 		<set name="icon" val="icon.weapon_taslam_i00" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="crossbow" />
@@ -263,7 +263,7 @@
 			<set order="0x08" stat="pAtkSpd" val="303" />
 		</for>
 	</item>
-	<item id="14310" type="EtcItem" name="Sword of Damascus">
+	<item id="14310" type="EtcItem" name="大馬士革刀">
 		<set name="icon" val="icon.weapon_sword_of_damascus_i00" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="sword" />
@@ -287,7 +287,7 @@
 			<set order="0x08" stat="pAtkSpd" val="379" />
 		</for>
 	</item>
-	<item id="14311" type="EtcItem" name="Lance">
+	<item id="14311" type="EtcItem" name="長槍">
 		<set name="icon" val="icon.weapon_lancia_i00" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="pole" />
@@ -314,7 +314,7 @@
 			<set order="0x08" stat="pAtkSpd" val="325" />
 		</for>
 	</item>
-	<item id="14312" type="EtcItem" name="Deadman's Glory">
+	<item id="14312" type="EtcItem" name="亡者榮譽">
 		<set name="icon" val="icon.weapon_deadmans_glory_i00" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="blunt" />
@@ -340,7 +340,7 @@
 			<set order="0x08" stat="pAtkSpd" val="379" />
 		</for>
 	</item>
-	<item id="14313" type="EtcItem" name="Art of Battle Axe">
+	<item id="14313" type="EtcItem" name="工藝戰斧">
 		<set name="icon" val="icon.weapon_art_of_battle_axe_i00" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="blunt" />
@@ -366,7 +366,7 @@
 			<set order="0x08" stat="pAtkSpd" val="379" />
 		</for>
 	</item>
-	<item id="14314" type="EtcItem" name="Staff of Evil Spirits">
+	<item id="14314" type="EtcItem" name="邪靈魔杖">
 		<set name="icon" val="icon.weapon_staff_of_evil_sprit_i00" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="bigblunt" />
@@ -393,7 +393,7 @@
 			<set order="0x08" stat="pAtkSpd" val="325" />
 		</for>
 	</item>
-	<item id="14315" type="EtcItem" name="Demon Dagger">
+	<item id="14315" type="EtcItem" name="惡魔短劍">
 		<set name="icon" val="icon.weapon_demons_sword_i00" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="dagger" />
@@ -419,7 +419,7 @@
 			<set order="0x08" stat="pAtkSpd" val="433" />
 		</for>
 	</item>
-	<item id="14316" type="EtcItem" name="Bellion Cestus">
+	<item id="14316" type="EtcItem" name="博利恩拳套">
 		<set name="icon" val="icon.weapon_bellion_cestus_i00" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="dualfist" />
@@ -445,7 +445,7 @@
 			<set order="0x08" stat="pAtkSpd" val="325" />
 		</for>
 	</item>
-	<item id="14317" type="EtcItem" name="Bow of Peril">
+	<item id="14317" type="EtcItem" name="冒險弓">
 		<set name="icon" val="icon.weapon_hazard_bow_i00" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="bow" />
@@ -473,7 +473,7 @@
 			<set order="0x08" stat="pAtkSpd" val="293" />
 		</for>
 	</item>
-	<item id="14318" type="EtcItem" name="Samurai Long Sword*Samurai Long Sword">
+	<item id="14318" type="EtcItem" name="瑟魯基長劍*瑟魯基長劍">
 		<set name="icon" val="icon.weapon_dual_sword_i00" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="dual" />
@@ -498,7 +498,7 @@
 			<set order="0x08" stat="pAtkSpd" val="325" />
 		</for>
 	</item>
-	<item id="14319" type="EtcItem" name="Demon Dagger">
+	<item id="14319" type="EtcItem" name="惡魔短劍">
 		<set name="icon" val="icon.weapon_demons_sword_i01" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="dagger" />
@@ -525,7 +525,7 @@
 			<set order="0x08" stat="pAtkSpd" val="433" />
 		</for>
 	</item>
-	<item id="14320" type="EtcItem" name="Guardian Sword">
+	<item id="14320" type="EtcItem" name="守護神之劍">
 		<set name="icon" val="icon.weapon_guardians_sword_i00" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="bigsword" />
@@ -549,7 +549,7 @@
 			<set order="0x08" stat="pAtkSpd" val="325" />
 		</for>
 	</item>
-	<item id="14321" type="EtcItem" name="Wizard's Tear">
+	<item id="14321" type="EtcItem" name="巫師之淚">
 		<set name="icon" val="icon.weapon_tears_of_wizard_i00" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="sword" />
@@ -574,7 +574,7 @@
 			<set order="0x08" stat="pAtkSpd" val="379" />
 		</for>
 	</item>
-	<item id="14322" type="EtcItem" name="Kaim Vanul's Bones">
+	<item id="14322" type="EtcItem" name="卡倚巴奴之骨">
 		<set name="icon" val="icon.weapon_bone_of_kaim_vanul_i00" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="blunt" />
@@ -601,7 +601,7 @@
 			<set order="0x08" stat="pAtkSpd" val="379" />
 		</for>
 	</item>
-	<item id="14323" type="EtcItem" name="Star Buster">
+	<item id="14323" type="EtcItem" name="星爆">
 		<set name="icon" val="icon.weapon_star_buster_i00" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="bigblunt" />
@@ -627,7 +627,7 @@
 			<set order="0x08" stat="pAtkSpd" val="325" />
 		</for>
 	</item>
-	<item id="14324" type="EtcItem" name="Colichemarde">
+	<item id="14324" type="EtcItem" name="華麗細劍">
 		<set name="icon" val="icon.weapon_colichemarde_i00" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="rapier" />
@@ -655,7 +655,7 @@
 			<set order="0x08" stat="pAtkSpd" val="406" />
 		</for>
 	</item>
-	<item id="14325" type="EtcItem" name="Dismantler">
+	<item id="14325" type="EtcItem" name="裂解劍">
 		<set name="icon" val="icon.weapon_dismantler_i00" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="ancientsword" />
@@ -682,7 +682,7 @@
 			<set order="0x08" stat="pAtkSpd" val="350" />
 		</for>
 	</item>
-	<item id="14326" type="EtcItem" name="Hell Hound">
+	<item id="14326" type="EtcItem" name="冥犬之牙">
 		<set name="icon" val="icon.weapon_hell_hound_i00" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="crossbow" />
@@ -710,7 +710,7 @@
 			<set order="0x08" stat="pAtkSpd" val="303" />
 		</for>
 	</item>
-	<item id="14327" type="EtcItem" name="Sirra's Blade">
+	<item id="14327" type="EtcItem" name="希露冰刃">
 		<set name="icon" val="icon.weapon_sirr_blade_i00" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="sword" />
@@ -734,7 +734,7 @@
 			<set order="0x08" stat="pAtkSpd" val="379" />
 		</for>
 	</item>
-	<item id="14328" type="EtcItem" name="Sword of Ipos">
+	<item id="14328" type="EtcItem" name="伊波斯巨劍">
 		<set name="icon" val="icon.weapon_sword_of_ipos_i00" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="bigsword" />
@@ -758,7 +758,7 @@
 			<set order="0x08" stat="pAtkSpd" val="325" />
 		</for>
 	</item>
-	<item id="14329" type="EtcItem" name="Barakiel's Axe">
+	<item id="14329" type="EtcItem" name="貝拉凱爾聖斧">
 		<set name="icon" val="icon.weapon_barakiel_axe_i00" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="blunt" />
@@ -784,7 +784,7 @@
 			<set order="0x08" stat="pAtkSpd" val="379" />
 		</for>
 	</item>
-	<item id="14330" type="EtcItem" name="Behemoth's Tuning Fork">
+	<item id="14330" type="EtcItem" name="貝希莫斯巨叉">
 		<set name="icon" val="icon.weapon_tuning_fork_of_behemoth_i00" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="bigblunt" />
@@ -810,7 +810,7 @@
 			<set order="0x08" stat="pAtkSpd" val="325" />
 		</for>
 	</item>
-	<item id="14331" type="EtcItem" name="Naga Storm">
+	<item id="14331" type="EtcItem" name="那卡風暴">
 		<set name="icon" val="icon.weapon_naga_storm_i00" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="dagger" />
@@ -836,7 +836,7 @@
 			<set order="0x08" stat="pAtkSpd" val="433" />
 		</for>
 	</item>
-	<item id="14332" type="EtcItem" name="Tiphon's Spear">
+	<item id="14332" type="EtcItem" name="岱依封長戟">
 		<set name="icon" val="icon.weapon_tiphon_spear_i00" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="pole" />
@@ -863,7 +863,7 @@
 			<set order="0x08" stat="pAtkSpd" val="325" />
 		</for>
 	</item>
-	<item id="14333" type="EtcItem" name="Shyeed's Bow">
+	<item id="14333" type="EtcItem" name="夏伊德獵弓">
 		<set name="icon" val="icon.weapon_shyid_bow_i00" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="bow" />
@@ -891,7 +891,7 @@
 			<set order="0x08" stat="pAtkSpd" val="227" />
 		</for>
 	</item>
-	<item id="14334" type="EtcItem" name="Sobekk's Hurricane">
+	<item id="14334" type="EtcItem" name="索貝克颶風">
 		<set name="icon" val="icon.weapon_sobekk_hurricane_i00" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="dualfist" />
@@ -917,7 +917,7 @@
 			<set order="0x08" stat="pAtkSpd" val="325" />
 		</for>
 	</item>
-	<item id="14335" type="EtcItem" name="Themis' Tongue">
+	<item id="14335" type="EtcItem" name="緹米絲之舌">
 		<set name="icon" val="icon.weapon_tongue_of_themis_i00" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="sword" />
@@ -942,7 +942,7 @@
 			<set order="0x08" stat="pAtkSpd" val="379" />
 		</for>
 	</item>
-	<item id="14336" type="EtcItem" name="Cabrio's Hand">
+	<item id="14336" type="EtcItem" name="卡布里歐之手">
 		<set name="icon" val="icon.weapon_hand_of_cabrio_i00" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="blunt" />
@@ -969,7 +969,7 @@
 			<set order="0x08" stat="pAtkSpd" val="379" />
 		</for>
 	</item>
-	<item id="14337" type="EtcItem" name="Daimon Crystal">
+	<item id="14337" type="EtcItem" name="惡魔結晶">
 		<set name="icon" val="icon.weapon_crystal_of_deamon_i00" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="bigblunt" />
@@ -996,7 +996,7 @@
 			<set order="0x08" stat="pAtkSpd" val="325" />
 		</for>
 	</item>
-	<item id="14338" type="EtcItem" name="Tallum Blade*Damascus">
+	<item id="14338" type="EtcItem" name="塔魯刀*大馬士革刀">
 		<set name="icon" val="icon.weapon_dual_sword_i00" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="dual" />
@@ -1021,7 +1021,7 @@
 			<set order="0x08" stat="pAtkSpd" val="325" />
 		</for>
 	</item>
-	<item id="14339" type="EtcItem" name="Éclair Bijou">
+	<item id="14339" type="EtcItem" name="閃光之珠">
 		<set name="icon" val="icon.weapon_greed_stinger_i00" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="rapier" />
@@ -1049,7 +1049,7 @@
 			<set order="0x08" stat="pAtkSpd" val="406" />
 		</for>
 	</item>
-	<item id="14340" type="EtcItem" name="Durendal">
+	<item id="14340" type="EtcItem" name="光明守護之劍">
 		<set name="icon" val="icon.weapon_death_bringer_i00" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="ancientsword" />
@@ -1076,7 +1076,7 @@
 			<set order="0x08" stat="pAtkSpd" val="350" />
 		</for>
 	</item>
-	<item id="14341" type="EtcItem" name="Screaming Vengeance">
+	<item id="14341" type="EtcItem" name="復仇爆弩">
 		<set name="icon" val="icon.weapon_soul_shooter_i00" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="crossbow" />
@@ -1104,7 +1104,7 @@
 			<set order="0x08" stat="pAtkSpd" val="303" />
 		</for>
 	</item>
-	<item id="14342" type="EtcItem" name="Necklace of Binding">
+	<item id="14342" type="EtcItem" name="封印項鍊">
 		<set name="icon" val="icon.accessary_necklace_of_binding_i00" />
 		<set name="default_action" val="equip" />
 		<set name="bodypart" val="neck" />
@@ -1119,7 +1119,7 @@
 			<add order="0x10" stat="mDef" val="64" />
 		</for>
 	</item>
-	<item id="14343" type="EtcItem" name="Nassen's Earring">
+	<item id="14343" type="EtcItem" name="娜仙耳環">
 		<set name="icon" val="icon.accessary_nassens_earing_i00" />
 		<set name="default_action" val="equip" />
 		<set name="bodypart" val="rear;lear" />
@@ -1134,7 +1134,7 @@
 			<add order="0x10" stat="mDef" val="48" />
 		</for>
 	</item>
-	<item id="14344" type="EtcItem" name="Ring of Binding">
+	<item id="14344" type="EtcItem" name="封印戒指">
 		<set name="icon" val="icon.accessary_ring_of_binding_i00" />
 		<set name="default_action" val="equip" />
 		<set name="bodypart" val="rfinger;lfinger" />
@@ -1149,7 +1149,7 @@
 			<add order="0x10" stat="mDef" val="32" />
 		</for>
 	</item>
-	<item id="14345" type="EtcItem" name="Earring of Black Ore">
+	<item id="14345" type="EtcItem" name="黑光耳環">
 		<set name="icon" val="icon.accessary_earing_of_black_ore_i00" />
 		<set name="default_action" val="equip" />
 		<set name="bodypart" val="rear;lear" />
@@ -1164,7 +1164,7 @@
 			<add order="0x10" stat="mDef" val="54" />
 		</for>
 	</item>
-	<item id="14346" type="EtcItem" name="Ring of Black Ore">
+	<item id="14346" type="EtcItem" name="黑光戒指">
 		<set name="icon" val="icon.accessary_ring_of_black_ore_i00" />
 		<set name="default_action" val="equip" />
 		<set name="bodypart" val="rfinger;lfinger" />
@@ -1179,7 +1179,7 @@
 			<add order="0x10" stat="mDef" val="36" />
 		</for>
 	</item>
-	<item id="14347" type="EtcItem" name="Necklace of Black Ore">
+	<item id="14347" type="EtcItem" name="黑光項鍊">
 		<set name="icon" val="icon.accessary_necklace_of_black_ore_i00" />
 		<set name="default_action" val="equip" />
 		<set name="bodypart" val="neck" />
@@ -1194,7 +1194,7 @@
 			<add order="0x10" stat="mDef" val="72" />
 		</for>
 	</item>
-	<item id="14348" type="EtcItem" name="Majestic Earring">
+	<item id="14348" type="EtcItem" name="聖威耳環">
 		<set name="icon" val="icon.accessary_inferno_earing_i00" />
 		<set name="default_action" val="equip" />
 		<set name="bodypart" val="rear;lear" />
@@ -1210,7 +1210,7 @@
 			<add order="0x40" stat="maxMp" val="25" />
 		</for>
 	</item>
-	<item id="14349" type="EtcItem" name="Majestic Ring">
+	<item id="14349" type="EtcItem" name="聖威戒指">
 		<set name="icon" val="icon.accessary_inferno_ring_i00" />
 		<set name="default_action" val="equip" />
 		<set name="bodypart" val="rfinger;lfinger" />
@@ -1226,7 +1226,7 @@
 			<add order="0x40" stat="maxMp" val="17" />
 		</for>
 	</item>
-	<item id="14350" type="EtcItem" name="Majestic Necklace">
+	<item id="14350" type="EtcItem" name="聖威項鍊">
 		<set name="icon" val="icon.accessary_inferno_necklace_i00" />
 		<set name="default_action" val="equip" />
 		<set name="bodypart" val="neck" />
@@ -1242,7 +1242,7 @@
 			<add order="0x40" stat="maxMp" val="33" />
 		</for>
 	</item>
-	<item id="14351" type="EtcItem" name="Gracian Anniversary Coins">
+	<item id="14351" type="EtcItem" name="格勒西亞紀念幣">
 		<set name="icon" val="icon.etc_coins_silver_i00" />
 		<set name="immediate_effect" val="1" />
 		<set name="material" val="cloth" />
@@ -1252,7 +1252,7 @@
 		<set name="is_sellable" val="false" />
 		<set name="is_stackable" val="true" />
 	</item>
-	<item id="14352" type="EtcItem" name="Sculpture of Doubt">
+	<item id="14352" type="EtcItem" name="疑問的雕像">
 		<set name="icon" val="icon.etc_statue_of_einhasad_bronze_i00" />
 		<set name="immediate_effect" val="1" />
 		<set name="material" val="paper" />
@@ -1263,7 +1263,7 @@
 		<set name="is_stackable" val="true" />
 		<set name="is_questitem" val="true" />
 	</item>
-	<item id="14353" type="EtcItem" name="Sculpture of Doubt">
+	<item id="14353" type="EtcItem" name="疑問的雕像">
 		<set name="icon" val="icon.etc_statue_of_einhasad_bronze_i00" />
 		<set name="immediate_effect" val="1" />
 		<set name="material" val="paper" />
@@ -1274,7 +1274,7 @@
 		<set name="is_stackable" val="true" />
 		<set name="is_questitem" val="true" />
 	</item>
-	<item id="14354" type="EtcItem" name="Sculpture of Doubt">
+	<item id="14354" type="EtcItem" name="疑問的雕像">
 		<set name="icon" val="icon.etc_statue_of_einhasad_bronze_i00" />
 		<set name="immediate_effect" val="1" />
 		<set name="material" val="paper" />
@@ -1285,7 +1285,7 @@
 		<set name="is_stackable" val="true" />
 		<set name="is_questitem" val="true" />
 	</item>
-	<item id="14355" type="EtcItem" name="Sculpture of Doubt">
+	<item id="14355" type="EtcItem" name="疑問的雕像">
 		<set name="icon" val="icon.etc_statue_of_einhasad_bronze_i00" />
 		<set name="immediate_effect" val="1" />
 		<set name="material" val="paper" />
@@ -1296,7 +1296,7 @@
 		<set name="is_stackable" val="true" />
 		<set name="is_questitem" val="true" />
 	</item>
-	<item id="14356" type="EtcItem" name="Sculpture of Doubt">
+	<item id="14356" type="EtcItem" name="疑問的雕像">
 		<set name="icon" val="icon.etc_statue_of_einhasad_bronze_i00" />
 		<set name="immediate_effect" val="1" />
 		<set name="material" val="paper" />
@@ -1307,7 +1307,7 @@
 		<set name="is_stackable" val="true" />
 		<set name="is_questitem" val="true" />
 	</item>
-	<item id="14357" type="EtcItem" name="Sculpture of Doubt">
+	<item id="14357" type="EtcItem" name="疑問的雕像">
 		<set name="icon" val="icon.etc_statue_of_einhasad_bronze_i00" />
 		<set name="immediate_effect" val="1" />
 		<set name="material" val="paper" />
@@ -1318,7 +1318,7 @@
 		<set name="is_stackable" val="true" />
 		<set name="is_questitem" val="true" />
 	</item>
-	<item id="14358" type="EtcItem" name="Sculpture of Doubt">
+	<item id="14358" type="EtcItem" name="疑問的雕像">
 		<set name="icon" val="icon.etc_statue_of_einhasad_bronze_i00" />
 		<set name="immediate_effect" val="1" />
 		<set name="material" val="paper" />
@@ -1329,7 +1329,7 @@
 		<set name="is_stackable" val="true" />
 		<set name="is_questitem" val="true" />
 	</item>
-	<item id="14359" type="EtcItem" name="Sculpture of Doubt">
+	<item id="14359" type="EtcItem" name="疑問的雕像">
 		<set name="icon" val="icon.etc_statue_of_einhasad_bronze_i00" />
 		<set name="immediate_effect" val="1" />
 		<set name="material" val="paper" />
@@ -1340,7 +1340,7 @@
 		<set name="is_stackable" val="true" />
 		<set name="is_questitem" val="true" />
 	</item>
-	<item id="14360" type="EtcItem" name="Sculpture of Doubt">
+	<item id="14360" type="EtcItem" name="疑問的雕像">
 		<set name="icon" val="icon.etc_statue_of_einhasad_bronze_i00" />
 		<set name="immediate_effect" val="1" />
 		<set name="material" val="paper" />
@@ -1351,7 +1351,7 @@
 		<set name="is_stackable" val="true" />
 		<set name="is_questitem" val="true" />
 	</item>
-	<item id="14361" type="EtcItem" name="Blood Stained Cloth">
+	<item id="14361" type="EtcItem" name="染血的布">
 		<set name="icon" val="icon.etc_piece_of_cloth_red_i00" />
 		<set name="immediate_effect" val="1" />
 		<set name="material" val="paper" />
@@ -1361,7 +1361,7 @@
 		<set name="is_stackable" val="true" />
 		<set name="is_questitem" val="true" />
 	</item>
-	<item id="14362" type="EtcItem" name="White Cloth">
+	<item id="14362" type="EtcItem" name="白布">
 		<set name="icon" val="icon.etc_piece_of_cloth_white_i00" />
 		<set name="immediate_effect" val="1" />
 		<set name="material" val="paper" />
@@ -1371,7 +1371,7 @@
 		<set name="is_stackable" val="true" />
 		<set name="is_questitem" val="true" />
 	</item>
-	<item id="14363" type="Weapon" name="Icarus Sawsword {PvP}">
+	<item id="14363" type="Weapon" name="伊克魯斯之劍 {對戰用}">
 		<set name="icon" val="icon.weapon_icarus_sowsword_i00" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="sword" />
@@ -1401,7 +1401,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="14364" type="Weapon" name="Icarus Disperser {PvP}">
+	<item id="14364" type="Weapon" name="伊克魯斯分解者 {對戰用}">
 		<set name="icon" val="icon.weapon_icarus_disperser_i00" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="dagger" />
@@ -1433,7 +1433,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="14365" type="Weapon" name="Icarus Spirit {PvP}">
+	<item id="14365" type="Weapon" name="伊克魯斯之靈 {對戰用}">
 		<set name="icon" val="icon.weapon_icarus_spirits_i00" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="sword" />
@@ -1464,7 +1464,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="14366" type="Weapon" name="Icarus Heavy Arms {PvP}">
+	<item id="14366" type="Weapon" name="伊克魯斯重兵刃 {對戰用}">
 		<set name="icon" val="icon.weapon_icarus_heavy_arms_i00" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="bigsword" />
@@ -1494,7 +1494,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="14367" type="Weapon" name="Icarus Trident {PvP}">
+	<item id="14367" type="Weapon" name="伊克魯斯三叉戟 {對戰用}">
 		<set name="icon" val="icon.weapon_icarus_trident_i00" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="pole" />
@@ -1526,7 +1526,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="14368" type="Weapon" name="Icarus Hammer {PvP}">
+	<item id="14368" type="Weapon" name="伊克魯斯之鎚 {對戰用}">
 		<set name="icon" val="icon.weapon_icarus_hammer_i00" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="blunt" />
@@ -1558,7 +1558,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="14369" type="Weapon" name="Icarus Hand {PvP}">
+	<item id="14369" type="Weapon" name="伊克魯斯之手 {對戰用}">
 		<set name="icon" val="icon.weapon_icarus_knuckle_i00" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="dualfist" />
@@ -1590,7 +1590,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="14370" type="Weapon" name="Icarus Hall {PvP}">
+	<item id="14370" type="Weapon" name="伊克魯斯手杖 {對戰用}">
 		<set name="icon" val="icon.weapon_icarus_stick_i00" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="blunt" />
@@ -1623,7 +1623,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="14371" type="Weapon" name="Icarus Spitter {PvP}">
+	<item id="14371" type="Weapon" name="伊克魯斯之弓 {對戰用}">
 		<set name="icon" val="icon.weapon_icarus_spiter_i00" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="bow" />
@@ -1657,7 +1657,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="14372" type="Weapon" name="Icarus Stinger {PvP}">
+	<item id="14372" type="Weapon" name="伊克魯斯刺劍 {對戰用}">
 		<set name="icon" val="icon.weapon_icarus_stinger_i00" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="rapier" />
@@ -1691,7 +1691,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="14373" type="Weapon" name="Icarus Wingblade {PvP}">
+	<item id="14373" type="Weapon" name="伊克魯斯翼刃 {對戰用}">
 		<set name="icon" val="icon.weapon_icarus_wing_blade_i00" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="ancientsword" />
@@ -1724,7 +1724,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="14374" type="Weapon" name="Icarus Shooter {PvP}">
+	<item id="14374" type="Weapon" name="伊克魯斯之弩 {對戰用}">
 		<set name="icon" val="icon.weapon_icarus_shooter_i00" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="crossbow" />
@@ -1758,7 +1758,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="14375" type="Weapon" name="Icarus Dual Sword {PvP}">
+	<item id="14375" type="Weapon" name="伊克魯斯雙刀 {對戰用}">
 		<set name="icon" val="icon.weapon_dual_sword_i00" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="dual" />
@@ -1789,7 +1789,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="14376" type="Weapon" name="Icarus Sawsword {PvP} - Focus">
+	<item id="14376" type="Weapon" name="伊克魯斯之劍 {對戰用}">
 		<set name="icon" val="icon.weapon_icarus_sowsword_i01" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="sword" />
@@ -1819,7 +1819,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="14377" type="Weapon" name="Icarus Sawsword {PvP} - Health">
+	<item id="14377" type="Weapon" name="伊克魯斯之劍 {對戰用}">
 		<set name="icon" val="icon.weapon_icarus_sowsword_i01" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="sword" />
@@ -1849,7 +1849,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="14378" type="Weapon" name="Icarus Sawsword {PvP} - Light">
+	<item id="14378" type="Weapon" name="伊克魯斯之劍 {對戰用}">
 		<set name="icon" val="icon.weapon_icarus_sowsword_i01" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="sword" />
@@ -1879,7 +1879,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="14379" type="Weapon" name="Icarus Heavy Arms {PvP} - Focus">
+	<item id="14379" type="Weapon" name="伊克魯斯重兵刃 {對戰用}">
 		<set name="icon" val="icon.weapon_icarus_heavy_arms_i01" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="bigsword" />
@@ -1909,7 +1909,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="14380" type="Weapon" name="Icarus Heavy Arms {PvP} - Health">
+	<item id="14380" type="Weapon" name="伊克魯斯重兵刃 {對戰用}">
 		<set name="icon" val="icon.weapon_icarus_heavy_arms_i01" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="bigsword" />
@@ -1939,7 +1939,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="14381" type="Weapon" name="Icarus Heavy Arms {PvP} - Light">
+	<item id="14381" type="Weapon" name="伊克魯斯重兵刃 {對戰用}">
 		<set name="icon" val="icon.weapon_icarus_heavy_arms_i01" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="bigsword" />
@@ -1969,7 +1969,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="14382" type="Weapon" name="Icarus Spirit {PvP} - Acumen">
+	<item id="14382" type="Weapon" name="伊克魯斯之靈 {對戰用}">
 		<set name="icon" val="icon.weapon_icarus_spirits_i01" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="sword" />
@@ -2000,7 +2000,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="14383" type="Weapon" name="Icarus Spirit {PvP} - Mana Up">
+	<item id="14383" type="Weapon" name="伊克魯斯之靈 {對戰用}">
 		<set name="icon" val="icon.weapon_icarus_spirits_i01" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="sword" />
@@ -2031,7 +2031,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="14384" type="Weapon" name="Icarus Spirit {PvP} - Conversion">
+	<item id="14384" type="Weapon" name="伊克魯斯之靈 {對戰用}">
 		<set name="icon" val="icon.weapon_icarus_spirits_i01" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="sword" />
@@ -2062,7 +2062,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="14385" type="Weapon" name="Icarus Spitter {PvP} - Cheap Shot">
+	<item id="14385" type="Weapon" name="伊克魯斯之弓 {對戰用}">
 		<set name="icon" val="icon.weapon_icarus_spiter_i01" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="bow" />
@@ -2097,7 +2097,7 @@
 			<mul order="0x08" stat="MpConsume" val="0.96" />
 		</for>
 	</item>
-	<item id="14386" type="Weapon" name="Icarus Spitter {PvP} - Guidance">
+	<item id="14386" type="Weapon" name="伊克魯斯之弓 {對戰用}">
 		<set name="icon" val="icon.weapon_icarus_spiter_i01" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="bow" />
@@ -2131,7 +2131,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="14387" type="Weapon" name="Icarus Spitter {PvP} - Focus">
+	<item id="14387" type="Weapon" name="伊克魯斯之弓 {對戰用}">
 		<set name="icon" val="icon.weapon_icarus_spiter_i01" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="bow" />
@@ -2165,7 +2165,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="14388" type="Weapon" name="Icarus Disperser {PvP} - Focus">
+	<item id="14388" type="Weapon" name="伊克魯斯分解者 {對戰用}">
 		<set name="icon" val="icon.weapon_icarus_disperser_i01" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="dagger" />
@@ -2197,7 +2197,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="14389" type="Weapon" name="Icarus Disperser {PvP} - Evasion">
+	<item id="14389" type="Weapon" name="伊克魯斯分解者 {對戰用}">
 		<set name="icon" val="icon.weapon_icarus_disperser_i01" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="dagger" />
@@ -2229,7 +2229,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="14390" type="Weapon" name="Icarus Disperser {PvP} - Critical Damage">
+	<item id="14390" type="Weapon" name="伊克魯斯分解者 {對戰用}">
 		<set name="icon" val="icon.weapon_icarus_disperser_i01" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="dagger" />
@@ -2261,7 +2261,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="14391" type="Weapon" name="Icarus Trident {PvP} - Anger">
+	<item id="14391" type="Weapon" name="伊克魯斯三叉戟 {對戰用}">
 		<set name="icon" val="icon.weapon_icarus_trident_i01" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="pole" />
@@ -2293,7 +2293,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="14392" type="Weapon" name="Icarus Trident {PvP} - Critical Stun">
+	<item id="14392" type="Weapon" name="伊克魯斯三叉戟 {對戰用}">
 		<set name="icon" val="icon.weapon_icarus_trident_i01" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="pole" />
@@ -2326,7 +2326,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="14393" type="Weapon" name="Icarus Trident {PvP} - Light">
+	<item id="14393" type="Weapon" name="伊克魯斯三叉戟 {對戰用}">
 		<set name="icon" val="icon.weapon_icarus_trident_i01" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="pole" />
@@ -2358,7 +2358,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="14394" type="Weapon" name="Icarus Hammer {PvP} - Anger">
+	<item id="14394" type="Weapon" name="伊克魯斯之鎚 {對戰用}">
 		<set name="icon" val="icon.weapon_icarus_hammer_i01" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="blunt" />
@@ -2390,7 +2390,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="14395" type="Weapon" name="Icarus Hammer {PvP} - Health">
+	<item id="14395" type="Weapon" name="伊克魯斯之鎚 {對戰用}">
 		<set name="icon" val="icon.weapon_icarus_hammer_i01" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="blunt" />
@@ -2422,7 +2422,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="14396" type="Weapon" name="Icarus Hammer {PvP} - Rsk. Focus">
+	<item id="14396" type="Weapon" name="伊克魯斯之鎚 {對戰用}">
 		<set name="icon" val="icon.weapon_icarus_hammer_i01" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="blunt" />
@@ -2454,7 +2454,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="14397" type="Weapon" name="Icarus Hall {PvP} - Mana Up">
+	<item id="14397" type="Weapon" name="伊克魯斯手杖 {對戰用}">
 		<set name="icon" val="icon.weapon_icarus_stick_i01" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="blunt" />
@@ -2487,7 +2487,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="14398" type="Weapon" name="Icarus Hall {PvP} - Conversion">
+	<item id="14398" type="Weapon" name="伊克魯斯手杖 {對戰用}">
 		<set name="icon" val="icon.weapon_icarus_stick_i01" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="blunt" />
@@ -2520,7 +2520,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="14399" type="Weapon" name="Icarus Hall {PvP} - Acumen">
+	<item id="14399" type="Weapon" name="伊克魯斯手杖 {對戰用}">
 		<set name="icon" val="icon.weapon_icarus_stick_i01" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="blunt" />

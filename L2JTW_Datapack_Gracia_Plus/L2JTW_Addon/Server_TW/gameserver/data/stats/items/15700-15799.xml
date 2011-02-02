@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <list>
-	<item id="15700" type="Armor" name="Sealed Moirai Gaiter">
+	<item id="15700" type="Armor" name="封印的天命脛甲">
 		<set name="icon" val="icon.armor_t94_l_i02" />
 		<set name="default_action" val="equip" />
 		<set name="armor_type" val="heavy" />
@@ -19,7 +19,7 @@
 			<enchant order="0x0C" stat="pDef" val="0" />
 		</for>
 	</item>
-	<item id="15701" type="Armor" name="Sealed Moirai Leather Legging">
+	<item id="15701" type="Armor" name="封印的天命皮脛甲">
 		<set name="icon" val="icon.armor_t95_l_i02" />
 		<set name="default_action" val="equip" />
 		<set name="armor_type" val="light" />
@@ -37,7 +37,7 @@
 			<enchant order="0x0C" stat="pDef" val="0" />
 		</for>
 	</item>
-	<item id="15702" type="Armor" name="Sealed Moirai Stockings">
+	<item id="15702" type="Armor" name="封印的天命長襪">
 		<set name="icon" val="icon.armor_t96_l_i02" />
 		<set name="default_action" val="equip" />
 		<set name="armor_type" val="magic" />
@@ -57,7 +57,7 @@
 			<enchant order="0x0C" stat="pDef" val="0" />
 		</for>
 	</item>
-	<item id="15703" type="Armor" name="Sealed Moirai Gauntlet">
+	<item id="15703" type="Armor" name="封印的天命護手">
 		<set name="icon" val="icon.armor_t94_g_i02" />
 		<set name="default_action" val="equip" />
 		<set name="bodypart" val="gloves" />
@@ -75,7 +75,7 @@
 			<enchant order="0x0C" stat="pDef" val="0" />
 		</for>
 	</item>
-	<item id="15704" type="Armor" name="Sealed Moirai Leather Gloves">
+	<item id="15704" type="Armor" name="封印的天命皮手套">
 		<set name="icon" val="icon.armor_t95_g_i02" />
 		<set name="default_action" val="equip" />
 		<set name="bodypart" val="gloves" />
@@ -92,7 +92,7 @@
 			<enchant order="0x0C" stat="pDef" val="0" />
 		</for>
 	</item>
-	<item id="15705" type="Armor" name="Sealed Moirai Gloves">
+	<item id="15705" type="Armor" name="封印的天命手套">
 		<set name="icon" val="icon.armor_t96_g_i02" />
 		<set name="default_action" val="equip" />
 		<set name="bodypart" val="gloves" />
@@ -110,7 +110,7 @@
 			<enchant order="0x0C" stat="pDef" val="0" />
 		</for>
 	</item>
-	<item id="15706" type="Armor" name="Sealed Moirai Boots">
+	<item id="15706" type="Armor" name="封印的天命靴">
 		<set name="icon" val="icon.armor_t94_b_i02" />
 		<set name="default_action" val="equip" />
 		<set name="bodypart" val="feet" />
@@ -128,7 +128,7 @@
 			<enchant order="0x0C" stat="pDef" val="0" />
 		</for>
 	</item>
-	<item id="15707" type="Armor" name="Sealed Moirai Leather Boots">
+	<item id="15707" type="Armor" name="封印的天命皮靴">
 		<set name="icon" val="icon.armor_t95_b_i02" />
 		<set name="default_action" val="equip" />
 		<set name="bodypart" val="feet" />
@@ -145,7 +145,7 @@
 			<enchant order="0x0C" stat="pDef" val="0" />
 		</for>
 	</item>
-	<item id="15708" type="Armor" name="Sealed Moirai Shoes">
+	<item id="15708" type="Armor" name="封印的天命鞋">
 		<set name="icon" val="icon.armor_t96_b_i02" />
 		<set name="default_action" val="equip" />
 		<set name="bodypart" val="feet" />
@@ -163,7 +163,7 @@
 			<enchant order="0x0C" stat="pDef" val="0" />
 		</for>
 	</item>
-	<item id="15709" type="Armor" name="Sealed Moirai Sigil">
+	<item id="15709" type="Armor" name="封印的天命符印">
 		<set name="icon" val="icon.weapon_tysandy_sigil_i00" />
 		<set name="default_action" val="equip" />
 		<set name="armor_type" val="sigil" />
@@ -189,7 +189,7 @@
 			</not>
 		</cond>
 	</item>
-	<item id="15710" type="Armor" name="Sealed Moirai Shield">
+	<item id="15710" type="Armor" name="封印的天命盾">
 		<set name="icon" val="icon.weapon_tysandy_shield_i00" />
 		<set name="default_action" val="equip" />
 		<set name="bodypart" val="lhand" />
@@ -210,7 +210,7 @@
 			<enchant val="0" order="0x0C" stat="sDef" />
 		</for>
 	</item>
-	<item id="15711" type="EtcItem" name="War Veteran Voucher">
+	<item id="15711" type="EtcItem" name="功勳證書">
 		<set name="icon" val="icon.etc_charm_of_courage_i00" />
 		<set name="immediate_effect" val="1" />
 		<set name="material" val="crystal" />
@@ -222,7 +222,7 @@
 		<set name="is_questitem" val="true" />
 		<set name="is_oly_restricted" val="true" />
 	</item>
-	<item id="15712" type="EtcItem" name="Full Barrel of Soup">
+	<item id="15712" type="EtcItem" name="裝滿的竹桶">
 		<set name="icon" val="icon.etc_oil_pot_black_i00" />
 		<set name="immediate_effect" val="1" />
 		<set name="material" val="crystal" />
@@ -234,7 +234,7 @@
 		<set name="is_questitem" val="true" />
 		<set name="is_oly_restricted" val="true" />
 	</item>
-	<item id="15713" type="EtcItem" name="Empty Soup Barrel">
+	<item id="15713" type="EtcItem" name="空竹桶">
 		<set name="icon" val="icon.etc_oil_pot_white_i00" />
 		<set name="immediate_effect" val="1" />
 		<set name="material" val="crystal" />
@@ -246,7 +246,7 @@
 		<set name="is_questitem" val="true" />
 		<set name="is_oly_restricted" val="true" />
 	</item>
-	<item id="15714" type="EtcItem" name="Sel Mahum ID Tag">
+	<item id="15714" type="EtcItem" name="賽爾豺狼識別證">
 		<set name="icon" val="icon.etc_ticket_red_i00" />
 		<set name="immediate_effect" val="1" />
 		<set name="material" val="crystal" />
@@ -258,7 +258,7 @@
 		<set name="is_questitem" val="true" />
 		<set name="is_oly_restricted" val="true" />
 	</item>
-	<item id="15715" type="EtcItem" name="Damaged Book">
+	<item id="15715" type="EtcItem" name="毀損的古書">
 		<set name="icon" val="icon.etc_spellbook_gray_i00" />
 		<set name="immediate_effect" val="1" />
 		<set name="material" val="crystal" />
@@ -267,7 +267,7 @@
 		<set name="is_stackable" val="true" />
 		<set name="is_oly_restricted" val="true" />
 	</item>
-	<item id="15716" type="EtcItem" name="Packaged Book">
+	<item id="15716" type="EtcItem" name="包裝好的書">
 		<set name="icon" val="icon.etc_memopad_i00" />
 		<set name="default_action" val="skill_reduce" />
 		<set name="immediate_effect" val="1" />
@@ -280,7 +280,7 @@
 		<set name="is_oly_restricted" val="true" />
 		<set name="item_skill" val="9077-1" />
 	</item>
-	<item id="15717" type="Armor" name="Elegia Ring">
+	<item id="15717" type="Armor" name="殤曲戒指">
 		<set name="icon" val="icon.accessary_verpes_ring_i00" />
 		<set name="default_action" val="equip" />
 		<set name="bodypart" val="rfinger;lfinger" />
@@ -297,7 +297,7 @@
 			<enchant order="0x0C" stat="mDef" val="0" />
 		</for>
 	</item>
-	<item id="15718" type="Armor" name="Elegia Earring">
+	<item id="15718" type="Armor" name="殤曲耳環">
 		<set name="icon" val="icon.accessary_verpes_earring_i00" />
 		<set name="default_action" val="equip" />
 		<set name="bodypart" val="rear;lear" />
@@ -314,7 +314,7 @@
 			<enchant order="0x0C" stat="mDef" val="0" />
 		</for>
 	</item>
-	<item id="15719" type="Armor" name="Elegia Necklace">
+	<item id="15719" type="Armor" name="殤曲項鍊">
 		<set name="icon" val="icon.accessary_verpes_necklace_i00" />
 		<set name="default_action" val="equip" />
 		<set name="bodypart" val="neck" />
@@ -331,7 +331,7 @@
 			<enchant order="0x0C" stat="mDef" val="0" />
 		</for>
 	</item>
-	<item id="15720" type="Armor" name="Vorpal Ring">
+	<item id="15720" type="Armor" name="博佩斯戒指">
 		<set name="icon" val="icon.accessary_ponshrnoen_ring_i00" />
 		<set name="default_action" val="equip" />
 		<set name="bodypart" val="rfinger;lfinger" />
@@ -348,7 +348,7 @@
 			<enchant order="0x0C" stat="mDef" val="0" />
 		</for>
 	</item>
-	<item id="15721" type="Armor" name="Vorpal Earring">
+	<item id="15721" type="Armor" name="博佩斯耳環">
 		<set name="icon" val="icon.accessary_ponshrnoen_earring_i00" />
 		<set name="default_action" val="equip" />
 		<set name="bodypart" val="rear;lear" />
@@ -365,7 +365,7 @@
 			<enchant order="0x0C" stat="mDef" val="0" />
 		</for>
 	</item>
-	<item id="15722" type="Armor" name="Vorpal Necklace">
+	<item id="15722" type="Armor" name="博佩斯項鍊">
 		<set name="icon" val="icon.accessary_ponshrnoen_necklace_i00" />
 		<set name="default_action" val="equip" />
 		<set name="bodypart" val="neck" />
@@ -382,7 +382,7 @@
 			<enchant order="0x0C" stat="mDef" val="0" />
 		</for>
 	</item>
-	<item id="15723" type="Armor" name="Moirai Ring">
+	<item id="15723" type="Armor" name="天命戒指">
 		<set name="icon" val="icon.accessary_bluelycan_ring_i00" />
 		<set name="default_action" val="equip" />
 		<set name="bodypart" val="rfinger;lfinger" />
@@ -399,7 +399,7 @@
 			<enchant order="0x0C" stat="mDef" val="0" />
 		</for>
 	</item>
-	<item id="15724" type="Armor" name="Moirai Earring">
+	<item id="15724" type="Armor" name="天命耳環">
 		<set name="icon" val="icon.accessary_bluelycan_earring_i00" />
 		<set name="default_action" val="equip" />
 		<set name="bodypart" val="rear;lear" />
@@ -416,7 +416,7 @@
 			<enchant order="0x0C" stat="mDef" val="0" />
 		</for>
 	</item>
-	<item id="15725" type="Armor" name="Moirai Necklace">
+	<item id="15725" type="Armor" name="天命項鍊">
 		<set name="icon" val="icon.accessary_bluelycan_necklace_i00" />
 		<set name="default_action" val="equip" />
 		<set name="bodypart" val="neck" />
@@ -433,7 +433,7 @@
 			<enchant order="0x0C" stat="mDef" val="0" />
 		</for>
 	</item>
-	<item id="15726" type="Armor" name="Sealed Elegia Helmet">
+	<item id="15726" type="Armor" name="封印的殤曲頭盔">
 		<set name="icon" val="icon.armor_helmet_i02" />
 		<set name="default_action" val="equip" />
 		<set name="bodypart" val="head" />
@@ -451,7 +451,7 @@
 			<enchant order="0x0C" stat="pDef" val="0" />
 		</for>
 	</item>
-	<item id="15727" type="Armor" name="Sealed Elegia Leather Helmet">
+	<item id="15727" type="Armor" name="封印的殤曲皮頭盔">
 		<set name="icon" val="icon.armor_leather_helmet_i02" />
 		<set name="default_action" val="equip" />
 		<set name="bodypart" val="head" />
@@ -468,7 +468,7 @@
 			<enchant order="0x0C" stat="pDef" val="0" />
 		</for>
 	</item>
-	<item id="15728" type="Armor" name="Sealed Elegia Circlet">
+	<item id="15728" type="Armor" name="封印的殤曲頭箍">
 		<set name="icon" val="icon.armor_circlet_i02" />
 		<set name="default_action" val="equip" />
 		<set name="bodypart" val="head" />
@@ -486,7 +486,7 @@
 			<enchant order="0x0C" stat="pDef" val="0" />
 		</for>
 	</item>
-	<item id="15729" type="Armor" name="Sealed Elegia Breastplate">
+	<item id="15729" type="Armor" name="封印的殤曲胸甲">
 		<set name="icon" val="icon.armor_t91_u_i02" />
 		<set name="default_action" val="equip" />
 		<set name="armor_type" val="heavy" />
@@ -505,7 +505,7 @@
 			<enchant order="0x0C" stat="pDef" val="0" />
 		</for>
 	</item>
-	<item id="15730" type="Armor" name="Sealed Elegia Leather Breastplate">
+	<item id="15730" type="Armor" name="封印的殤曲皮胸甲">
 		<set name="icon" val="icon.armor_t92_u_i02" />
 		<set name="default_action" val="equip" />
 		<set name="armor_type" val="light" />
@@ -523,7 +523,7 @@
 			<enchant order="0x0C" stat="pDef" val="0" />
 		</for>
 	</item>
-	<item id="15731" type="Armor" name="Sealed Elegia Tunic">
+	<item id="15731" type="Armor" name="封印的殤曲外衣">
 		<set name="icon" val="icon.armor_t93_u_i02" />
 		<set name="default_action" val="equip" />
 		<set name="armor_type" val="magic" />
@@ -543,7 +543,7 @@
 			<enchant order="0x0C" stat="pDef" val="0" />
 		</for>
 	</item>
-	<item id="15732" type="Armor" name="Sealed Elegia Gaiter">
+	<item id="15732" type="Armor" name="封印的殤曲脛甲">
 		<set name="icon" val="icon.armor_t91_l_i02" />
 		<set name="default_action" val="equip" />
 		<set name="armor_type" val="heavy" />
@@ -562,7 +562,7 @@
 			<enchant order="0x0C" stat="pDef" val="0" />
 		</for>
 	</item>
-	<item id="15733" type="Armor" name="Sealed Elegia Leather Legging">
+	<item id="15733" type="Armor" name="封印的殤曲皮脛甲">
 		<set name="icon" val="icon.armor_t92_l_i02" />
 		<set name="default_action" val="equip" />
 		<set name="armor_type" val="light" />
@@ -580,7 +580,7 @@
 			<enchant order="0x0C" stat="pDef" val="0" />
 		</for>
 	</item>
-	<item id="15734" type="Armor" name="Sealed Elegia Stockings">
+	<item id="15734" type="Armor" name="封印的殤曲長襪">
 		<set name="icon" val="icon.armor_t93_l_i02" />
 		<set name="default_action" val="equip" />
 		<set name="armor_type" val="magic" />
@@ -600,7 +600,7 @@
 			<enchant order="0x0C" stat="pDef" val="0" />
 		</for>
 	</item>
-	<item id="15735" type="Armor" name="Sealed Elegia Gauntlet">
+	<item id="15735" type="Armor" name="封印的殤曲護手">
 		<set name="icon" val="icon.armor_t91_g_i02" />
 		<set name="default_action" val="equip" />
 		<set name="bodypart" val="gloves" />
@@ -618,7 +618,7 @@
 			<enchant order="0x0C" stat="pDef" val="0" />
 		</for>
 	</item>
-	<item id="15736" type="Armor" name="Sealed Elegia Leather Gloves">
+	<item id="15736" type="Armor" name="封印的殤曲皮手套">
 		<set name="icon" val="icon.armor_t92_g_i02" />
 		<set name="default_action" val="equip" />
 		<set name="bodypart" val="gloves" />
@@ -635,7 +635,7 @@
 			<enchant order="0x0C" stat="pDef" val="0" />
 		</for>
 	</item>
-	<item id="15737" type="Armor" name="Sealed Elegia Gloves">
+	<item id="15737" type="Armor" name="封印的殤曲手套">
 		<set name="icon" val="icon.armor_t93_g_i02" />
 		<set name="default_action" val="equip" />
 		<set name="bodypart" val="gloves" />
@@ -653,7 +653,7 @@
 			<enchant order="0x0C" stat="pDef" val="0" />
 		</for>
 	</item>
-	<item id="15738" type="Armor" name="Sealed Elegia Boots">
+	<item id="15738" type="Armor" name="封印的殤曲靴">
 		<set name="icon" val="icon.armor_t91_b_i02" />
 		<set name="default_action" val="equip" />
 		<set name="bodypart" val="feet" />
@@ -671,7 +671,7 @@
 			<enchant order="0x0C" stat="pDef" val="0" />
 		</for>
 	</item>
-	<item id="15739" type="Armor" name="Sealed Elegia Leather Boots">
+	<item id="15739" type="Armor" name="封印的殤曲皮靴">
 		<set name="icon" val="icon.armor_t92_b_i02" />
 		<set name="default_action" val="equip" />
 		<set name="bodypart" val="feet" />
@@ -688,7 +688,7 @@
 			<enchant order="0x0C" stat="pDef" val="0" />
 		</for>
 	</item>
-	<item id="15740" type="Armor" name="Sealed Elegia Shoes">
+	<item id="15740" type="Armor" name="封印的殤曲鞋">
 		<set name="icon" val="icon.armor_t93_b_i02" />
 		<set name="default_action" val="equip" />
 		<set name="bodypart" val="feet" />
@@ -706,7 +706,7 @@
 			<enchant order="0x0C" stat="pDef" val="0" />
 		</for>
 	</item>
-	<item id="15741" type="Armor" name="Sealed Elegia Shield">
+	<item id="15741" type="Armor" name="封印的殤曲盾">
 		<set name="icon" val="icon.heavengate_shield_i00" />
 		<set name="default_action" val="equip" />
 		<set name="bodypart" val="lhand" />
@@ -727,7 +727,7 @@
 			<enchant val="0" order="0x0C" stat="sDef" />
 		</for>
 	</item>
-	<item id="15742" type="Armor" name="Sealed Elegia Sigil">
+	<item id="15742" type="Armor" name="封印的殤曲符印">
 		<set name="icon" val="icon.weapon_pricklelotus_i00" />
 		<set name="default_action" val="equip" />
 		<set name="armor_type" val="sigil" />
@@ -753,7 +753,7 @@
 			</not>
 		</cond>
 	</item>
-	<item id="15743" type="Armor" name="Sealed Vorpal Helmet">
+	<item id="15743" type="Armor" name="封印的博佩斯頭盔">
 		<set name="icon" val="icon.armor_helmet_i02" />
 		<set name="default_action" val="equip" />
 		<set name="bodypart" val="head" />
@@ -771,7 +771,7 @@
 			<enchant order="0x0C" stat="pDef" val="0" />
 		</for>
 	</item>
-	<item id="15744" type="Armor" name="Sealed Vorpal Leather Helmet">
+	<item id="15744" type="Armor" name="封印的博佩斯皮頭盔">
 		<set name="icon" val="icon.armor_leather_helmet_i02" />
 		<set name="default_action" val="equip" />
 		<set name="bodypart" val="head" />
@@ -788,7 +788,7 @@
 			<enchant order="0x0C" stat="pDef" val="0" />
 		</for>
 	</item>
-	<item id="15745" type="Armor" name="Sealed Vorpal Circlet">
+	<item id="15745" type="Armor" name="封印的博佩斯頭箍">
 		<set name="icon" val="icon.armor_circlet_i02" />
 		<set name="default_action" val="equip" />
 		<set name="bodypart" val="head" />
@@ -806,7 +806,7 @@
 			<enchant order="0x0C" stat="pDef" val="0" />
 		</for>
 	</item>
-	<item id="15746" type="Armor" name="Sealed Vorpal Breastplate">
+	<item id="15746" type="Armor" name="封印的博佩斯胸甲">
 		<set name="icon" val="icon.armor_t94_u_i02" />
 		<set name="default_action" val="equip" />
 		<set name="armor_type" val="heavy" />
@@ -825,7 +825,7 @@
 			<enchant order="0x0C" stat="pDef" val="0" />
 		</for>
 	</item>
-	<item id="15747" type="Armor" name="Sealed Vorpal Leather Breastplate">
+	<item id="15747" type="Armor" name="封印的博佩斯皮胸甲">
 		<set name="icon" val="icon.armor_t95_u_i02" />
 		<set name="default_action" val="equip" />
 		<set name="armor_type" val="light" />
@@ -843,7 +843,7 @@
 			<enchant order="0x0C" stat="pDef" val="0" />
 		</for>
 	</item>
-	<item id="15748" type="Armor" name="Sealed Vorpal Tunic">
+	<item id="15748" type="Armor" name="封印的博佩斯外衣">
 		<set name="icon" val="icon.armor_t96_u_i02" />
 		<set name="default_action" val="equip" />
 		<set name="armor_type" val="magic" />
@@ -863,7 +863,7 @@
 			<enchant order="0x0C" stat="pDef" val="0" />
 		</for>
 	</item>
-	<item id="15749" type="Armor" name="Sealed Vorpal Gaiter">
+	<item id="15749" type="Armor" name="封印的博佩斯脛甲">
 		<set name="icon" val="icon.armor_t94_l_i02" />
 		<set name="default_action" val="equip" />
 		<set name="armor_type" val="heavy" />
@@ -882,7 +882,7 @@
 			<enchant order="0x0C" stat="pDef" val="0" />
 		</for>
 	</item>
-	<item id="15750" type="Armor" name="Sealed Vorpal Leather Legging">
+	<item id="15750" type="Armor" name="封印的博佩斯皮脛甲">
 		<set name="icon" val="icon.armor_t95_l_i02" />
 		<set name="default_action" val="equip" />
 		<set name="armor_type" val="light" />
@@ -900,7 +900,7 @@
 			<enchant order="0x0C" stat="pDef" val="0" />
 		</for>
 	</item>
-	<item id="15751" type="Armor" name="Sealed Vorpal Stockings">
+	<item id="15751" type="Armor" name="封印的博佩斯長襪">
 		<set name="icon" val="icon.armor_t96_l_i02" />
 		<set name="default_action" val="equip" />
 		<set name="armor_type" val="magic" />
@@ -920,7 +920,7 @@
 			<enchant order="0x0C" stat="pDef" val="0" />
 		</for>
 	</item>
-	<item id="15752" type="Armor" name="Sealed Vorpal Gauntlet">
+	<item id="15752" type="Armor" name="封印的博佩斯護手">
 		<set name="icon" val="icon.armor_t94_g_i02" />
 		<set name="default_action" val="equip" />
 		<set name="bodypart" val="gloves" />
@@ -938,7 +938,7 @@
 			<enchant order="0x0C" stat="pDef" val="0" />
 		</for>
 	</item>
-	<item id="15753" type="Armor" name="Sealed Vorpal Leather Gloves">
+	<item id="15753" type="Armor" name="封印的博佩斯皮手套">
 		<set name="icon" val="icon.armor_t95_g_i02" />
 		<set name="default_action" val="equip" />
 		<set name="bodypart" val="gloves" />
@@ -955,7 +955,7 @@
 			<enchant order="0x0C" stat="pDef" val="0" />
 		</for>
 	</item>
-	<item id="15754" type="Armor" name="Sealed Vorpal Gloves">
+	<item id="15754" type="Armor" name="封印的博佩斯手套">
 		<set name="icon" val="icon.armor_t96_g_i02" />
 		<set name="default_action" val="equip" />
 		<set name="bodypart" val="gloves" />
@@ -973,7 +973,7 @@
 			<enchant order="0x0C" stat="pDef" val="0" />
 		</for>
 	</item>
-	<item id="15755" type="Armor" name="Sealed Vorpal Boots">
+	<item id="15755" type="Armor" name="封印的博佩斯靴">
 		<set name="icon" val="icon.armor_t94_b_i02" />
 		<set name="default_action" val="equip" />
 		<set name="bodypart" val="feet" />
@@ -991,7 +991,7 @@
 			<enchant order="0x0C" stat="pDef" val="0" />
 		</for>
 	</item>
-	<item id="15756" type="Armor" name="Sealed Vorpal Leather Boots">
+	<item id="15756" type="Armor" name="封印的博佩斯皮靴">
 		<set name="icon" val="icon.armor_t95_b_i02" />
 		<set name="default_action" val="equip" />
 		<set name="bodypart" val="feet" />
@@ -1008,7 +1008,7 @@
 			<enchant order="0x0C" stat="pDef" val="0" />
 		</for>
 	</item>
-	<item id="15757" type="Armor" name="Sealed Vorpal Shoes">
+	<item id="15757" type="Armor" name="封印的博佩斯鞋">
 		<set name="icon" val="icon.armor_t96_b_i02" />
 		<set name="default_action" val="equip" />
 		<set name="bodypart" val="feet" />
@@ -1026,7 +1026,7 @@
 			<enchant order="0x0C" stat="pDef" val="0" />
 		</for>
 	</item>
-	<item id="15758" type="Armor" name="Sealed Vorpal Shield">
+	<item id="15758" type="Armor" name="封印的博佩斯盾">
 		<set name="icon" val="icon.Evilgate_Shield_i00" />
 		<set name="default_action" val="equip" />
 		<set name="bodypart" val="lhand" />
@@ -1047,7 +1047,7 @@
 			<enchant val="0" order="0x0C" stat="sDef" />
 		</for>
 	</item>
-	<item id="15759" type="Armor" name="Sealed Vorpal Sigil">
+	<item id="15759" type="Armor" name="封印的博佩斯符印">
 		<set name="icon" val="icon.belleface_i00" />
 		<set name="default_action" val="equip" />
 		<set name="armor_type" val="sigil" />
@@ -1073,7 +1073,7 @@
 			</not>
 		</cond>
 	</item>
-	<item id="15760" type="Armor" name="Sealed Elegia Ring">
+	<item id="15760" type="Armor" name="封印的殤曲戒指">
 		<set name="icon" val="icon.accessary_sealed_verpes_ring_i00" />
 		<set name="default_action" val="equip" />
 		<set name="bodypart" val="rfinger;lfinger" />
@@ -1089,7 +1089,7 @@
 			<enchant order="0x0C" stat="mDef" val="0" />
 		</for>
 	</item>
-	<item id="15761" type="Armor" name="Sealed Elegia Earring">
+	<item id="15761" type="Armor" name="封印的殤曲耳環">
 		<set name="icon" val="icon.accessary_sealed_verpes_earring_i00" />
 		<set name="default_action" val="equip" />
 		<set name="bodypart" val="rear;lear" />
@@ -1105,7 +1105,7 @@
 			<enchant order="0x0C" stat="mDef" val="0" />
 		</for>
 	</item>
-	<item id="15762" type="Armor" name="Sealed Elegia Necklace">
+	<item id="15762" type="Armor" name="封印的殤曲項鍊">
 		<set name="icon" val="icon.accessary_sealed_verpes_necklace_i00" />
 		<set name="default_action" val="equip" />
 		<set name="bodypart" val="neck" />
@@ -1121,7 +1121,7 @@
 			<enchant order="0x0C" stat="mDef" val="0" />
 		</for>
 	</item>
-	<item id="15763" type="Armor" name="Sealed Vorpal Ring">
+	<item id="15763" type="Armor" name="封印的博佩斯戒指">
 		<set name="icon" val="icon.accessary_sealed_ponshrnoen_ring_i00" />
 		<set name="default_action" val="equip" />
 		<set name="bodypart" val="rfinger;lfinger" />
@@ -1137,7 +1137,7 @@
 			<enchant order="0x0C" stat="mDef" val="0" />
 		</for>
 	</item>
-	<item id="15764" type="Armor" name="Sealed Vorpal Earring">
+	<item id="15764" type="Armor" name="封印的博佩斯耳環">
 		<set name="icon" val="icon.accessary_sealed_ponshrnoen_earring_i00" />
 		<set name="default_action" val="equip" />
 		<set name="bodypart" val="rear;lear" />
@@ -1153,7 +1153,7 @@
 			<enchant order="0x0C" stat="mDef" val="0" />
 		</for>
 	</item>
-	<item id="15765" type="Armor" name="Sealed Vorpal Necklace">
+	<item id="15765" type="Armor" name="封印的博佩斯項鍊">
 		<set name="icon" val="icon.accessary_sealed_ponshrnoen_necklace_i00" />
 		<set name="default_action" val="equip" />
 		<set name="bodypart" val="neck" />
@@ -1169,7 +1169,7 @@
 			<enchant order="0x0C" stat="mDef" val="0" />
 		</for>
 	</item>
-	<item id="15766" type="Armor" name="Sealed Moirai Ring">
+	<item id="15766" type="Armor" name="封印的天命戒指">
 		<set name="icon" val="icon.accessary_sealed_bluelycan_ring_i00" />
 		<set name="default_action" val="equip" />
 		<set name="bodypart" val="rfinger;lfinger" />
@@ -1185,7 +1185,7 @@
 			<enchant order="0x0C" stat="mDef" val="0" />
 		</for>
 	</item>
-	<item id="15767" type="Armor" name="Sealed Moirai Earring">
+	<item id="15767" type="Armor" name="封印的天命耳環">
 		<set name="icon" val="icon.accessary_sealed_bluelycan_earring_i00" />
 		<set name="default_action" val="equip" />
 		<set name="bodypart" val="rear;lear" />
@@ -1201,7 +1201,7 @@
 			<enchant order="0x0C" stat="mDef" val="0" />
 		</for>
 	</item>
-	<item id="15768" type="Armor" name="Sealed Moirai Necklace">
+	<item id="15768" type="Armor" name="封印的天命項鍊">
 		<set name="icon" val="icon.accessary_sealed_bluelycan_necklace_i00" />
 		<set name="default_action" val="equip" />
 		<set name="bodypart" val="neck" />
@@ -1217,7 +1217,7 @@
 			<enchant order="0x0C" stat="mDef" val="0" />
 		</for>
 	</item>
-	<item id="15769" type="EtcItem" name="Sealed Vesper Ring Gem">
+	<item id="15769" type="EtcItem" name="封印的薄暮戒指的寶石">
 		<set name="icon" val="icon.sealed_vesper_ring_gem" />
 		<set name="etcitem_type" val="material" />
 		<set name="immediate_effect" val="1" />
@@ -1226,7 +1226,7 @@
 		<set name="price" val="19100" />
 		<set name="is_stackable" val="true" />
 	</item>
-	<item id="15770" type="EtcItem" name="Sealed Vesper Earring Gem">
+	<item id="15770" type="EtcItem" name="封印的薄暮耳環的寶石">
 		<set name="icon" val="icon.sealed_vesper_earring_gem" />
 		<set name="etcitem_type" val="material" />
 		<set name="immediate_effect" val="1" />
@@ -1235,7 +1235,7 @@
 		<set name="price" val="31800" />
 		<set name="is_stackable" val="true" />
 	</item>
-	<item id="15771" type="EtcItem" name="Sealed Vesper Necklace Gem">
+	<item id="15771" type="EtcItem" name="封印的薄暮項鍊的寶石">
 		<set name="icon" val="icon.sealed_vesper_neckalce_gem" />
 		<set name="etcitem_type" val="material" />
 		<set name="immediate_effect" val="1" />
@@ -1244,7 +1244,7 @@
 		<set name="price" val="44200" />
 		<set name="is_stackable" val="true" />
 	</item>
-	<item id="15772" type="EtcItem" name="Sealed Moirai Ring Gem">
+	<item id="15772" type="EtcItem" name="封印的天命戒指的寶石">
 		<set name="icon" val="icon.sealed_bluelycan_ring_gem" />
 		<set name="etcitem_type" val="material" />
 		<set name="immediate_effect" val="1" />
@@ -1253,7 +1253,7 @@
 		<set name="price" val="14500" />
 		<set name="is_stackable" val="true" />
 	</item>
-	<item id="15773" type="EtcItem" name="Sealed Moirai Earring Gem">
+	<item id="15773" type="EtcItem" name="封印的天命耳環的寶石">
 		<set name="icon" val="icon.sealed_bluelycan_earring_gem" />
 		<set name="etcitem_type" val="material" />
 		<set name="immediate_effect" val="1" />
@@ -1262,7 +1262,7 @@
 		<set name="price" val="25800" />
 		<set name="is_stackable" val="true" />
 	</item>
-	<item id="15774" type="EtcItem" name="Sealed Moirai Necklace Gem">
+	<item id="15774" type="EtcItem" name="封印的天命項鍊的寶石">
 		<set name="icon" val="icon.sealed_bluelycan_neckalce_gem" />
 		<set name="etcitem_type" val="material" />
 		<set name="immediate_effect" val="1" />
@@ -1271,7 +1271,7 @@
 		<set name="price" val="29900" />
 		<set name="is_stackable" val="true" />
 	</item>
-	<item id="15775" type="EtcItem" name="Recipe - Sealed Moirai Helmet (60%)">
+	<item id="15775" type="EtcItem" name="製作卷軸(封印的天命頭盔60%)">
 		<set name="icon" val="icon.etc_recipe_black_i00" />
 		<set name="default_action" val="recipe" />
 		<set name="etcitem_type" val="recipe" />
@@ -1283,7 +1283,7 @@
 		<set name="is_stackable" val="true" />
 		<set name="handler" val="Recipes" />
 	</item>
-	<item id="15776" type="EtcItem" name="Recipe - Sealed Moirai Leather Helmet(60%)">
+	<item id="15776" type="EtcItem" name="製作卷軸(封印的天命皮頭盔60%)">
 		<set name="icon" val="icon.etc_recipe_black_i00" />
 		<set name="default_action" val="recipe" />
 		<set name="etcitem_type" val="recipe" />
@@ -1295,7 +1295,7 @@
 		<set name="is_stackable" val="true" />
 		<set name="handler" val="Recipes" />
 	</item>
-	<item id="15777" type="EtcItem" name="Recipe - Sealed Moirai Circlet (60%)">
+	<item id="15777" type="EtcItem" name="製作卷軸(封印的天命頭箍60%)">
 		<set name="icon" val="icon.etc_recipe_black_i00" />
 		<set name="default_action" val="recipe" />
 		<set name="etcitem_type" val="recipe" />
@@ -1307,7 +1307,7 @@
 		<set name="is_stackable" val="true" />
 		<set name="handler" val="Recipes" />
 	</item>
-	<item id="15778" type="EtcItem" name="Recipe - Sealed Moirai Breastplate (60%)">
+	<item id="15778" type="EtcItem" name="製作卷軸(封印的天命胸甲60%)">
 		<set name="icon" val="icon.etc_recipe_black_i00" />
 		<set name="default_action" val="recipe" />
 		<set name="etcitem_type" val="recipe" />
@@ -1319,7 +1319,7 @@
 		<set name="is_stackable" val="true" />
 		<set name="handler" val="Recipes" />
 	</item>
-	<item id="15779" type="EtcItem" name="Recipe - Sealed Moirai Leather Breastplate (60%)">
+	<item id="15779" type="EtcItem" name="製作卷軸(封印的天命皮胸甲60%)">
 		<set name="icon" val="icon.etc_recipe_black_i00" />
 		<set name="default_action" val="recipe" />
 		<set name="etcitem_type" val="recipe" />
@@ -1331,7 +1331,7 @@
 		<set name="is_stackable" val="true" />
 		<set name="handler" val="Recipes" />
 	</item>
-	<item id="15780" type="EtcItem" name="Recipe - Sealed Moirai Tunic (60%)">
+	<item id="15780" type="EtcItem" name="製作卷軸(封印的天命外衣60%)">
 		<set name="icon" val="icon.etc_recipe_black_i00" />
 		<set name="default_action" val="recipe" />
 		<set name="etcitem_type" val="recipe" />
@@ -1343,7 +1343,7 @@
 		<set name="is_stackable" val="true" />
 		<set name="handler" val="Recipes" />
 	</item>
-	<item id="15781" type="EtcItem" name="Recipe - Sealed Moirai Gaiter (60%)">
+	<item id="15781" type="EtcItem" name="製作卷軸(封印的天命脛甲60%)">
 		<set name="icon" val="icon.etc_recipe_black_i00" />
 		<set name="default_action" val="recipe" />
 		<set name="etcitem_type" val="recipe" />
@@ -1355,7 +1355,7 @@
 		<set name="is_stackable" val="true" />
 		<set name="handler" val="Recipes" />
 	</item>
-	<item id="15782" type="EtcItem" name="Recipe - Sealed Moirai Leather Legging (60%)">
+	<item id="15782" type="EtcItem" name="製作卷軸(封印的天命皮脛甲60%)">
 		<set name="icon" val="icon.etc_recipe_black_i00" />
 		<set name="default_action" val="recipe" />
 		<set name="etcitem_type" val="recipe" />
@@ -1367,7 +1367,7 @@
 		<set name="is_stackable" val="true" />
 		<set name="handler" val="Recipes" />
 	</item>
-	<item id="15783" type="EtcItem" name="Recipe - Sealed Moirai Stockings (60%)">
+	<item id="15783" type="EtcItem" name="製作卷軸(封印的天命長襪60%)">
 		<set name="icon" val="icon.etc_recipe_black_i00" />
 		<set name="default_action" val="recipe" />
 		<set name="etcitem_type" val="recipe" />
@@ -1379,7 +1379,7 @@
 		<set name="is_stackable" val="true" />
 		<set name="handler" val="Recipes" />
 	</item>
-	<item id="15784" type="EtcItem" name="Recipe - Sealed Moirai Gauntlet (60%)">
+	<item id="15784" type="EtcItem" name="製作卷軸(封印的天命護手60%)">
 		<set name="icon" val="icon.etc_recipe_black_i00" />
 		<set name="default_action" val="recipe" />
 		<set name="etcitem_type" val="recipe" />
@@ -1391,7 +1391,7 @@
 		<set name="is_stackable" val="true" />
 		<set name="handler" val="Recipes" />
 	</item>
-	<item id="15785" type="EtcItem" name="Recipe - Sealed Moirai Leather Gloves (60%)">
+	<item id="15785" type="EtcItem" name="製作卷軸(封印的天命皮手套60%)">
 		<set name="icon" val="icon.etc_recipe_black_i00" />
 		<set name="default_action" val="recipe" />
 		<set name="etcitem_type" val="recipe" />
@@ -1403,7 +1403,7 @@
 		<set name="is_stackable" val="true" />
 		<set name="handler" val="Recipes" />
 	</item>
-	<item id="15786" type="EtcItem" name="Recipe - Sealed Moirai Gloves (60%)">
+	<item id="15786" type="EtcItem" name="製作卷軸(封印的天命手套60%)">
 		<set name="icon" val="icon.etc_recipe_black_i00" />
 		<set name="default_action" val="recipe" />
 		<set name="etcitem_type" val="recipe" />
@@ -1415,7 +1415,7 @@
 		<set name="is_stackable" val="true" />
 		<set name="handler" val="Recipes" />
 	</item>
-	<item id="15787" type="EtcItem" name="Recipe - Sealed Moirai Boots (60%)">
+	<item id="15787" type="EtcItem" name="製作卷軸(封印的天命靴60%)">
 		<set name="icon" val="icon.etc_recipe_black_i00" />
 		<set name="default_action" val="recipe" />
 		<set name="etcitem_type" val="recipe" />
@@ -1427,7 +1427,7 @@
 		<set name="is_stackable" val="true" />
 		<set name="handler" val="Recipes" />
 	</item>
-	<item id="15788" type="EtcItem" name="Recipe - Sealed Moirai Leather Boots (60%)">
+	<item id="15788" type="EtcItem" name="製作卷軸(封印的天命皮靴60%)">
 		<set name="icon" val="icon.etc_recipe_black_i00" />
 		<set name="default_action" val="recipe" />
 		<set name="etcitem_type" val="recipe" />
@@ -1439,7 +1439,7 @@
 		<set name="is_stackable" val="true" />
 		<set name="handler" val="Recipes" />
 	</item>
-	<item id="15789" type="EtcItem" name="Recipe - Sealed Moirai Shoes (60%)">
+	<item id="15789" type="EtcItem" name="製作卷軸(封印的天命鞋60%)">
 		<set name="icon" val="icon.etc_recipe_black_i00" />
 		<set name="default_action" val="recipe" />
 		<set name="etcitem_type" val="recipe" />
@@ -1451,7 +1451,7 @@
 		<set name="is_stackable" val="true" />
 		<set name="handler" val="Recipes" />
 	</item>
-	<item id="15790" type="EtcItem" name="Recipe - Sealed Moirai Sigil (60%)">
+	<item id="15790" type="EtcItem" name="製作卷軸(封印的天命符印60%)">
 		<set name="icon" val="icon.etc_recipe_black_i00" />
 		<set name="default_action" val="recipe" />
 		<set name="etcitem_type" val="recipe" />
@@ -1463,7 +1463,7 @@
 		<set name="is_stackable" val="true" />
 		<set name="handler" val="Recipes" />
 	</item>
-	<item id="15791" type="EtcItem" name="Recipe - Sealed Moirai Shield (60%)">
+	<item id="15791" type="EtcItem" name="製作卷軸(封印的天命盾60%)">
 		<set name="icon" val="icon.etc_recipe_black_i00" />
 		<set name="default_action" val="recipe" />
 		<set name="etcitem_type" val="recipe" />
@@ -1475,7 +1475,7 @@
 		<set name="is_stackable" val="true" />
 		<set name="handler" val="Recipes" />
 	</item>
-	<item id="15792" type="EtcItem" name="Recipe - Sealed Vesper Helmet (60%)">
+	<item id="15792" type="EtcItem" name="製作卷軸(封印的薄暮頭盔60%)">
 		<set name="icon" val="icon.etc_recipe_black_i00" />
 		<set name="default_action" val="recipe" />
 		<set name="etcitem_type" val="recipe" />
@@ -1487,7 +1487,7 @@
 		<set name="is_stackable" val="true" />
 		<set name="handler" val="Recipes" />
 	</item>
-	<item id="15793" type="EtcItem" name="Recipe - Sealed Vesper Leather Helmet (60%)">
+	<item id="15793" type="EtcItem" name="製作卷軸(封印的薄暮皮頭盔60%)">
 		<set name="icon" val="icon.etc_recipe_black_i00" />
 		<set name="default_action" val="recipe" />
 		<set name="etcitem_type" val="recipe" />
@@ -1499,7 +1499,7 @@
 		<set name="is_stackable" val="true" />
 		<set name="handler" val="Recipes" />
 	</item>
-	<item id="15794" type="EtcItem" name="Recipe - Sealed Vesper Circlet (60%)">
+	<item id="15794" type="EtcItem" name="製作卷軸(封印的薄暮頭箍60%)">
 		<set name="icon" val="icon.etc_recipe_black_i00" />
 		<set name="default_action" val="recipe" />
 		<set name="etcitem_type" val="recipe" />
@@ -1511,7 +1511,7 @@
 		<set name="is_stackable" val="true" />
 		<set name="handler" val="Recipes" />
 	</item>
-	<item id="15795" type="EtcItem" name="Recipe - Sealed Vesper Breastplate (60%)">
+	<item id="15795" type="EtcItem" name="製作卷軸(封印的薄暮胸甲60%)">
 		<set name="icon" val="icon.etc_recipe_black_i00" />
 		<set name="default_action" val="recipe" />
 		<set name="etcitem_type" val="recipe" />
@@ -1523,7 +1523,7 @@
 		<set name="is_stackable" val="true" />
 		<set name="handler" val="Recipes" />
 	</item>
-	<item id="15796" type="EtcItem" name="Recipe - Sealed Vesper Leather Breastplate (60%)">
+	<item id="15796" type="EtcItem" name="製作卷軸(封印的薄暮皮胸甲60%)">
 		<set name="icon" val="icon.etc_recipe_black_i00" />
 		<set name="default_action" val="recipe" />
 		<set name="etcitem_type" val="recipe" />
@@ -1535,7 +1535,7 @@
 		<set name="is_stackable" val="true" />
 		<set name="handler" val="Recipes" />
 	</item>
-	<item id="15797" type="EtcItem" name="Recipe - Sealed Vesper Tunic (60%)">
+	<item id="15797" type="EtcItem" name="製作卷軸(封印的薄暮外衣60%)">
 		<set name="icon" val="icon.etc_recipe_black_i00" />
 		<set name="default_action" val="recipe" />
 		<set name="etcitem_type" val="recipe" />
@@ -1547,7 +1547,7 @@
 		<set name="is_stackable" val="true" />
 		<set name="handler" val="Recipes" />
 	</item>
-	<item id="15798" type="EtcItem" name="Recipe - Sealed Vesper Gaiter (60%)">
+	<item id="15798" type="EtcItem" name="製作卷軸(封印的薄暮脛甲60%)">
 		<set name="icon" val="icon.etc_recipe_black_i00" />
 		<set name="default_action" val="recipe" />
 		<set name="etcitem_type" val="recipe" />
@@ -1559,7 +1559,7 @@
 		<set name="is_stackable" val="true" />
 		<set name="handler" val="Recipes" />
 	</item>
-	<item id="15799" type="EtcItem" name="Recipe - Sealed Vesper Leather Legging (60%)">
+	<item id="15799" type="EtcItem" name="製作卷軸(封印的薄暮皮脛甲60%)">
 		<set name="icon" val="icon.etc_recipe_black_i00" />
 		<set name="default_action" val="recipe" />
 		<set name="etcitem_type" val="recipe" />

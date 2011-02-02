@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <list>
-	<item id="300" type="Weapon" name="Great Axe">
+	<item id="300" type="Weapon" name="巨斧">
 		<set name="icon" val="icon.weapon_great_axe_i00" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="pole" />
@@ -29,7 +29,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="301" type="Weapon" name="Scorpion">
+	<item id="301" type="Weapon" name="蠍子">
 		<set name="icon" val="icon.weapon_scorpion_i00" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="pole" />
@@ -58,7 +58,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="302" type="Weapon" name="Body Slasher">
+	<item id="302" type="Weapon" name="殺戮者">
 		<set name="icon" val="icon.weapon_body_slasher_i00" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="pole" />
@@ -87,7 +87,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="303" type="Weapon" name="Widow Maker">
+	<item id="303" type="Weapon" name="黑寡婦">
 		<set name="icon" val="icon.weapon_widow_maker_i00" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="pole" />
@@ -116,7 +116,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="304" type="Weapon" name="Orcish Halberd">
+	<item id="304" type="Weapon" name="歐西斯戰戟">
 		<set name="icon" val="icon.weapon_orcish_halbard_i00" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="pole" />
@@ -145,7 +145,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="305" type="Weapon" name="Tallum Glaive">
+	<item id="305" type="Weapon" name="塔魯闊矛">
 		<set name="icon" val="icon.weapon_tallum_glaive_i00" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="pole" />
@@ -174,7 +174,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="306" type="Weapon" name="Dragon Claw Axe">
+	<item id="306" type="Weapon" name="龍斧">
 		<set name="icon" val="icon.weapon_dragon_hunter_axe_i00" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="pole" />
@@ -203,7 +203,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="307" type="Weapon" name="Aurakyria Lance">
+	<item id="307" type="Weapon" name="奧拉齊莉長槍">
 		<set name="icon" val="icon.weapon_saint_spear_i00" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="pole" />
@@ -233,7 +233,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="308" type="Weapon" name="Buffalo's Horn">
+	<item id="308" type="Weapon" name="水牛角">
 		<set name="icon" val="icon.weapon_buffalo_horn_i00" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="etc" />
@@ -257,7 +257,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="309" type="Weapon" name="Tears of Eva">
+	<item id="309" type="Weapon" name="伊娃之淚">
 		<set name="icon" val="icon.weapon_tears_of_eva_i00" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="etc" />
@@ -281,7 +281,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="310" type="Weapon" name="Relic of the Saints">
+	<item id="310" type="Weapon" name="聖者遺骨">
 		<set name="icon" val="icon.weapon_apprentices_spellbook_i00" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="etc" />
@@ -305,7 +305,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="311" type="Weapon" name="Crucifix of Blessing">
+	<item id="311" type="Weapon" name="祝福的十字架">
 		<set name="icon" val="icon.weapon_crucifix_of_blessing_i00" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="etc" />
@@ -329,7 +329,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="312" type="Weapon" name="Branch of Life">
+	<item id="312" type="Weapon" name="生命樹枝">
 		<set name="icon" val="icon.weapon_branch_of_life_i00" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="etc" />
@@ -356,7 +356,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="313" type="Weapon" name="Temptation of Abyss">
+	<item id="313" type="Weapon" name="深淵誘惑">
 		<set name="icon" val="icon.weapon_temptation_of_abyss_i00" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="etc" />
@@ -383,7 +383,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="314" type="Weapon" name="Proof of Revenge">
+	<item id="314" type="Weapon" name="復仇的證據">
 		<set name="icon" val="icon.weapon_proof_of_revenge_i00" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="etc" />
@@ -410,7 +410,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="315" type="Weapon" name="Divine Tome">
+	<item id="315" type="Weapon" name="神聖的卷冊">
 		<set name="icon" val="icon.weapon_divine_tome_i00" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="etc" />
@@ -437,7 +437,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="316" type="Weapon" name="Blood of Saints">
+	<item id="316" type="Weapon" name="聖者之血">
 		<set name="icon" val="icon.weapon_blood_of_saints_i00" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="etc" />
@@ -464,7 +464,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="317" type="Weapon" name="Tome of Blood">
+	<item id="317" type="Weapon" name="染血卷冊">
 		<set name="icon" val="icon.weapon_tome_of_blood_i00" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="etc" />
@@ -491,7 +491,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="318" type="Weapon" name="Crucifix of Blood">
+	<item id="318" type="Weapon" name="染血十字架">
 		<set name="icon" val="icon.weapon_crucifix_of_blood_i00" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="etc" />
@@ -518,7 +518,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="319" type="Weapon" name="Eye of Infinity">
+	<item id="319" type="Weapon" name="無界之眼">
 		<set name="icon" val="icon.weapon_apprentices_spellbook_i00" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="etc" />
@@ -545,7 +545,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="320" type="Weapon" name="Blue Crystal Skull">
+	<item id="320" type="Weapon" name="藍色水晶骷髏">
 		<set name="icon" val="icon.weapon_apprentices_spellbook_i00" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="etc" />
@@ -572,7 +572,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="321" type="Weapon" name="Demon Fangs">
+	<item id="321" type="Weapon" name="惡魔尖牙">
 		<set name="icon" val="icon.weapon_demon_fangs_i00" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="etc" />
@@ -599,7 +599,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="322" type="Weapon" name="Vajra Wands">
+	<item id="322" type="Weapon" name="金剛杵">
 		<set name="icon" val="icon.weapon_apprentices_spellbook_i00" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="etc" />
@@ -626,7 +626,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="323" type="Weapon" name="Ancient Reagent">
+	<item id="323" type="Weapon" name="古代藥水">
 		<set name="icon" val="icon.weapon_apprentices_spellbook_i00" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="etc" />
@@ -653,7 +653,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="324" type="Weapon" name="Tears of Fairy">
+	<item id="324" type="Weapon" name="精靈之淚">
 		<set name="icon" val="icon.weapon_apprentices_spellbook_i00" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="etc" />
@@ -680,7 +680,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="325" type="Weapon" name="Horn of Glory">
+	<item id="325" type="Weapon" name="榮譽號角">
 		<set name="icon" val="icon.weapon_horn_of_glory_i00" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="etc" />
@@ -707,7 +707,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="326" type="Weapon" name="Heathen's Book">
+	<item id="326" type="Weapon" name="異教徒之書">
 		<set name="icon" val="icon.weapon_heathens_book_i00" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="etc" />
@@ -734,7 +734,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="327" type="Weapon" name="Hex Doll">
+	<item id="327" type="Weapon" name="詛咒人偶">
 		<set name="icon" val="icon.weapon_apprentices_spellbook_i00" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="etc" />
@@ -761,7 +761,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="328" type="Weapon" name="Candle of Wisdom">
+	<item id="328" type="Weapon" name="智慧蠟燭">
 		<set name="icon" val="icon.weapon_apprentices_spellbook_i00" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="etc" />
@@ -788,7 +788,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="329" type="Weapon" name="Blessed Branch">
+	<item id="329" type="Weapon" name="受祝福的樹枝">
 		<set name="icon" val="icon.weapon_apprentices_spellbook_i00" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="etc" />
@@ -815,7 +815,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="330" type="Weapon" name="Phoenix Feather">
+	<item id="330" type="Weapon" name="不死鳥羽毛">
 		<set name="icon" val="icon.weapon_apprentices_spellbook_i00" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="etc" />
@@ -842,7 +842,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="331" type="Weapon" name="Cerberus Eye">
+	<item id="331" type="Weapon" name="地獄犬之眼">
 		<set name="icon" val="icon.weapon_apprentices_spellbook_i00" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="etc" />
@@ -869,7 +869,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="332" type="Weapon" name="Scroll of Destruction">
+	<item id="332" type="Weapon" name="毀滅卷軸">
 		<set name="icon" val="icon.weapon_apprentices_spellbook_i00" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="etc" />
@@ -896,7 +896,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="333" type="Weapon" name="Claws of Black Dragon">
+	<item id="333" type="Weapon" name="黑龍爪">
 		<set name="icon" val="icon.weapon_apprentices_spellbook_i00" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="etc" />
@@ -923,7 +923,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="334" type="Weapon" name="Three Eyed Crow's Feather">
+	<item id="334" type="Weapon" name="三眼烏鴉的羽毛">
 		<set name="icon" val="icon.weapon_apprentices_spellbook_i00" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="etc" />
@@ -950,7 +950,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="335" type="Weapon" name="Soul Crystal">
+	<item id="335" type="Weapon" name="靈魂水晶">
 		<set name="icon" val="icon.weapon_apprentices_spellbook_i00" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="etc" />
@@ -977,7 +977,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="336" type="Weapon" name="Scroll of Mana">
+	<item id="336" type="Weapon" name="瑪那卷軸">
 		<set name="icon" val="icon.weapon_apprentices_spellbook_i00" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="etc" />
@@ -1004,7 +1004,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="337" type="Weapon" name="Scroll of Massacre">
+	<item id="337" type="Weapon" name="殘殺卷軸">
 		<set name="icon" val="icon.weapon_apprentices_spellbook_i00" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="etc" />
@@ -1031,7 +1031,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="338" type="Weapon" name="Wyvern's Skull">
+	<item id="338" type="Weapon" name="亞龍的頭骨">
 		<set name="icon" val="icon.weapon_apprentices_spellbook_i00" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="etc" />
@@ -1058,7 +1058,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="339" type="Weapon" name="Blood Crystal">
+	<item id="339" type="Weapon" name="血水晶">
 		<set name="icon" val="icon.weapon_apprentices_spellbook_i00" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="etc" />
@@ -1085,7 +1085,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="340" type="Weapon" name="Unicorn's Horn">
+	<item id="340" type="Weapon" name="獨角獸的角">
 		<set name="icon" val="icon.weapon_apprentices_spellbook_i00" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="etc" />
@@ -1112,7 +1112,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="341" type="Weapon" name="Forgotten Tome">
+	<item id="341" type="Weapon" name="被遺忘的卷冊">
 		<set name="icon" val="icon.weapon_apprentices_spellbook_i00" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="etc" />
@@ -1139,7 +1139,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="342" type="Weapon" name="Enchanted Flute">
+	<item id="342" type="Weapon" name="魔法笛子">
 		<set name="icon" val="icon.weapon_apprentices_spellbook_i00" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="etc" />
@@ -1166,7 +1166,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="343" type="Weapon" name="Headless Arrow">
+	<item id="343" type="Weapon" name="破魔箭">
 		<set name="icon" val="icon.weapon_apprentices_spellbook_i00" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="etc" />
@@ -1193,7 +1193,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="344" type="Weapon" name="Proof of Overlord">
+	<item id="344" type="Weapon" name="族長的證據">
 		<set name="icon" val="icon.weapon_apprentices_spellbook_i00" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="etc" />
@@ -1220,7 +1220,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="345" type="Weapon" name="Deathbringer Sword">
+	<item id="345" type="Weapon" name="死亡劍">
 		<set name="icon" val="icon.weapon_apprentices_spellbook_i00" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="etc" />
@@ -1247,7 +1247,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="346" type="Weapon" name="Tears of Fallen Angel">
+	<item id="346" type="Weapon" name="墮天使之淚">
 		<set name="icon" val="icon.weapon_apprentices_spellbook_i00" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="etc" />
@@ -1274,7 +1274,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="347" type="Armor" name="Ring Mail Breastplate">
+	<item id="347" type="Armor" name="鎖子胸甲">
 		<set name="icon" val="icon.armor_t12_u_i00" />
 		<set name="default_action" val="equip" />
 		<set name="armor_type" val="heavy" />
@@ -1292,7 +1292,7 @@
 			<enchant order="0x0C" stat="pDef" val="0" />
 		</for>
 	</item>
-	<item id="348" type="Armor" name="Scale Mail">
+	<item id="348" type="Armor" name="鱗甲">
 		<set name="icon" val="icon.armor_t08_u_i00" />
 		<set name="default_action" val="equip" />
 		<set name="armor_type" val="heavy" />
@@ -1310,7 +1310,7 @@
 			<enchant order="0x0C" stat="pDef" val="0" />
 		</for>
 	</item>
-	<item id="349" type="Armor" name="Compound Scale Mail">
+	<item id="349" type="Armor" name="合金鱗甲">
 		<set name="icon" val="icon.armor_t20_u_i00" />
 		<set name="default_action" val="equip" />
 		<set name="armor_type" val="heavy" />
@@ -1328,7 +1328,7 @@
 			<enchant order="0x0C" stat="pDef" val="0" />
 		</for>
 	</item>
-	<item id="350" type="Armor" name="Dwarven Scale Mail">
+	<item id="350" type="Armor" name="矮人鱗甲">
 		<set name="icon" val="icon.armor_t15_u_i00" />
 		<set name="default_action" val="equip" />
 		<set name="armor_type" val="heavy" />
@@ -1346,7 +1346,7 @@
 			<enchant order="0x0C" stat="pDef" val="0" />
 		</for>
 	</item>
-	<item id="351" type="Armor" name="Blast Plate">
+	<item id="351" type="Armor" name="狂暴盔甲">
 		<set name="icon" val="icon.armor_t40_u_i00" />
 		<set name="default_action" val="equip" />
 		<set name="armor_type" val="heavy" />
@@ -1364,7 +1364,7 @@
 			<enchant order="0x0C" stat="pDef" val="0" />
 		</for>
 	</item>
-	<item id="352" type="Armor" name="Brigandine Tunic">
+	<item id="352" type="Armor" name="鎖子甲">
 		<set name="icon" val="icon.armor_t43_u_i00" />
 		<set name="default_action" val="equip" />
 		<set name="armor_type" val="heavy" />
@@ -1382,7 +1382,7 @@
 			<enchant order="0x0C" stat="pDef" val="0" />
 		</for>
 	</item>
-	<item id="353" type="Armor" name="Half Plate Armor">
+	<item id="353" type="Armor" name="半身盔甲">
 		<set name="icon" val="icon.armor_t46_u_i00" />
 		<set name="default_action" val="equip" />
 		<set name="armor_type" val="heavy" />
@@ -1400,7 +1400,7 @@
 			<enchant order="0x0C" stat="pDef" val="0" />
 		</for>
 	</item>
-	<item id="354" type="Armor" name="Chain Mail Shirt">
+	<item id="354" type="Armor" name="鏈甲衫">
 		<set name="icon" val="icon.armor_t48_u_i00" />
 		<set name="default_action" val="equip" />
 		<set name="armor_type" val="heavy" />
@@ -1418,7 +1418,7 @@
 			<enchant order="0x0C" stat="pDef" val="0" />
 		</for>
 	</item>
-	<item id="355" type="Armor" name="Dwarven Chain Mail Shirt">
+	<item id="355" type="Armor" name="矮人鏈甲衫">
 		<set name="icon" val="icon.armor_t60_u_i00" />
 		<set name="default_action" val="equip" />
 		<set name="armor_type" val="heavy" />
@@ -1436,7 +1436,7 @@
 			<enchant order="0x0C" stat="pDef" val="0" />
 		</for>
 	</item>
-	<item id="356" type="Armor" name="Full Plate Armor">
+	<item id="356" type="Armor" name="全身盔甲">
 		<set name="icon" val="icon.armor_t62_ul_i00" />
 		<set name="default_action" val="equip" />
 		<set name="armor_type" val="heavy" />
@@ -1454,7 +1454,7 @@
 			<enchant order="0x0C" stat="pDef" val="0" />
 		</for>
 	</item>
-	<item id="357" type="Armor" name="Zubei's Breastplate">
+	<item id="357" type="Armor" name="夏隆胸甲">
 		<set name="icon" val="icon.armor_t64_u_i00" />
 		<set name="default_action" val="equip" />
 		<set name="armor_type" val="heavy" />
@@ -1472,7 +1472,7 @@
 			<enchant order="0x0C" stat="pDef" val="0" />
 		</for>
 	</item>
-	<item id="358" type="Armor" name="Blue Wolf Breastplate">
+	<item id="358" type="Armor" name="青狼胸甲">
 		<set name="icon" val="icon.armor_t68_u_i00" />
 		<set name="default_action" val="equip" />
 		<set name="armor_type" val="heavy" />
@@ -1490,7 +1490,7 @@
 			<enchant order="0x0C" stat="pDef" val="0" />
 		</for>
 	</item>
-	<item id="359" type="Armor" name="Shining Dragon Armor">
+	<item id="359" type="Armor" name="光龍盔甲">
 		<set name="icon" val="icon.armor_composite_armor_i02" />
 		<set name="default_action" val="equip" />
 		<set name="armor_type" val="heavy" />
@@ -1507,7 +1507,7 @@
 			<enchant order="0x0C" stat="pDef" val="0" />
 		</for>
 	</item>
-	<item id="360" type="Armor" name="Armor of Victory">
+	<item id="360" type="Armor" name="勝利胸甲">
 		<set name="icon" val="icon.armor_dwarven_scale_mail_i00" />
 		<set name="default_action" val="equip" />
 		<set name="armor_type" val="heavy" />
@@ -1524,7 +1524,7 @@
 			<enchant order="0x0C" stat="pDef" val="0" />
 		</for>
 	</item>
-	<item id="361" type="Armor" name="Breastplate of Valor">
+	<item id="361" type="Armor" name="勇猛胸甲">
 		<set name="icon" val="icon.armor_dwarven_scale_mail_i00" />
 		<set name="default_action" val="equip" />
 		<set name="armor_type" val="heavy" />
@@ -1541,7 +1541,7 @@
 			<enchant order="0x0C" stat="pDef" val="0" />
 		</for>
 	</item>
-	<item id="362" type="Armor" name="Glorious Armor">
+	<item id="362" type="Armor" name="榮譽盔甲">
 		<set name="icon" val="icon.armor_composite_armor_i02" />
 		<set name="default_action" val="equip" />
 		<set name="armor_type" val="heavy" />
@@ -1558,7 +1558,7 @@
 			<enchant order="0x0C" stat="pDef" val="0" />
 		</for>
 	</item>
-	<item id="363" type="Armor" name="Red Flame Armor">
+	<item id="363" type="Armor" name="紅焰盔甲">
 		<set name="icon" val="icon.armor_composite_armor_i02" />
 		<set name="default_action" val="equip" />
 		<set name="armor_type" val="heavy" />
@@ -1575,7 +1575,7 @@
 			<enchant order="0x0C" stat="pDef" val="0" />
 		</for>
 	</item>
-	<item id="364" type="Armor" name="Elven Crystal Breastplate">
+	<item id="364" type="Armor" name="精靈水晶胸甲">
 		<set name="icon" val="icon.armor_dwarven_scale_mail_i00" />
 		<set name="default_action" val="equip" />
 		<set name="armor_type" val="heavy" />
@@ -1592,7 +1592,7 @@
 			<enchant order="0x0C" stat="pDef" val="0" />
 		</for>
 	</item>
-	<item id="365" type="Armor" name="Dark Crystal Breastplate">
+	<item id="365" type="Armor" name="黑暗水晶胸甲">
 		<set name="icon" val="icon.armor_t74_u_i00" />
 		<set name="default_action" val="equip" />
 		<set name="armor_type" val="heavy" />
@@ -1610,7 +1610,7 @@
 			<enchant order="0x0C" stat="pDef" val="0" />
 		</for>
 	</item>
-	<item id="366" type="Armor" name="Implosion Armor">
+	<item id="366" type="Armor" name="毀滅盔甲">
 		<set name="icon" val="icon.armor_composite_armor_i02" />
 		<set name="default_action" val="equip" />
 		<set name="armor_type" val="heavy" />
@@ -1627,7 +1627,7 @@
 			<enchant order="0x0C" stat="pDef" val="0" />
 		</for>
 	</item>
-	<item id="367" type="Armor" name="Dark Dragon Armor">
+	<item id="367" type="Armor" name="闇龍盔甲">
 		<set name="icon" val="icon.armor_composite_armor_i02" />
 		<set name="default_action" val="equip" />
 		<set name="armor_type" val="heavy" />
@@ -1644,7 +1644,7 @@
 			<enchant order="0x0C" stat="pDef" val="0" />
 		</for>
 	</item>
-	<item id="368" type="Armor" name="Elven Vagian Armor">
+	<item id="368" type="Armor" name="精靈鞘甲">
 		<set name="icon" val="icon.armor_composite_armor_i02" />
 		<set name="default_action" val="equip" />
 		<set name="armor_type" val="heavy" />
@@ -1661,7 +1661,7 @@
 			<enchant order="0x0C" stat="pDef" val="0" />
 		</for>
 	</item>
-	<item id="369" type="Armor" name="Dark Vagian Armor">
+	<item id="369" type="Armor" name="黑暗鞘甲">
 		<set name="icon" val="icon.armor_composite_armor_i02" />
 		<set name="default_action" val="equip" />
 		<set name="armor_type" val="heavy" />
@@ -1678,7 +1678,7 @@
 			<enchant order="0x0C" stat="pDef" val="0" />
 		</for>
 	</item>
-	<item id="370" type="Armor" name="Complete Set of Plate Armor">
+	<item id="370" type="Armor" name="合金護甲">
 		<set name="icon" val="icon.armor_composite_armor_i02" />
 		<set name="default_action" val="equip" />
 		<set name="armor_type" val="heavy" />
@@ -1695,7 +1695,7 @@
 			<enchant order="0x0C" stat="pDef" val="0" />
 		</for>
 	</item>
-	<item id="371" type="Armor" name="Hell Plate">
+	<item id="371" type="Armor" name="地獄金屬板">
 		<set name="icon" val="icon.armor_composite_armor_i02" />
 		<set name="default_action" val="equip" />
 		<set name="armor_type" val="heavy" />
@@ -1712,7 +1712,7 @@
 			<enchant order="0x0C" stat="pDef" val="0" />
 		</for>
 	</item>
-	<item id="372" type="Armor" name="Art of Plate">
+	<item id="372" type="Armor" name="工藝金屬板">
 		<set name="icon" val="icon.armor_composite_armor_i02" />
 		<set name="default_action" val="equip" />
 		<set name="armor_type" val="heavy" />
@@ -1729,7 +1729,7 @@
 			<enchant order="0x0C" stat="pDef" val="0" />
 		</for>
 	</item>
-	<item id="373" type="Armor" name="Masterpiece Armor">
+	<item id="373" type="Armor" name="優質盔甲">
 		<set name="icon" val="icon.armor_composite_armor_i02" />
 		<set name="default_action" val="equip" />
 		<set name="armor_type" val="heavy" />
@@ -1746,7 +1746,7 @@
 			<enchant order="0x0C" stat="pDef" val="0" />
 		</for>
 	</item>
-	<item id="374" type="Armor" name="Armor of Nightmare">
+	<item id="374" type="Armor" name="夢魘盔甲">
 		<set name="icon" val="icon.armor_t80_ul_i00" />
 		<set name="default_action" val="equip" />
 		<set name="armor_type" val="heavy" />
@@ -1764,7 +1764,7 @@
 			<enchant order="0x0C" stat="pDef" val="0" />
 		</for>
 	</item>
-	<item id="375" type="Armor" name="Dragon Scale Mail">
+	<item id="375" type="Armor" name="龍鱗甲">
 		<set name="icon" val="icon.armor_t15_u_i00" />
 		<set name="default_action" val="equip" />
 		<set name="armor_type" val="heavy" />
@@ -1784,7 +1784,7 @@
 			<enchant order="0x0C" stat="pDef" val="0" />
 		</for>
 	</item>
-	<item id="376" type="Armor" name="Iron Plate Gaiters">
+	<item id="376" type="Armor" name="鋼鐵脛甲">
 		<set name="icon" val="icon.armor_t12_l_i00" />
 		<set name="default_action" val="equip" />
 		<set name="armor_type" val="heavy" />
@@ -1802,7 +1802,7 @@
 			<enchant order="0x0C" stat="pDef" val="0" />
 		</for>
 	</item>
-	<item id="377" type="Armor" name="Scale Gaiters">
+	<item id="377" type="Armor" name="鱗脛甲">
 		<set name="icon" val="icon.armor_t08_l_i00" />
 		<set name="default_action" val="equip" />
 		<set name="armor_type" val="heavy" />
@@ -1820,7 +1820,7 @@
 			<enchant order="0x0C" stat="pDef" val="0" />
 		</for>
 	</item>
-	<item id="378" type="Armor" name="Compound Scale Gaiters">
+	<item id="378" type="Armor" name="合金鱗脛甲">
 		<set name="icon" val="icon.armor_t20_l_i00" />
 		<set name="default_action" val="equip" />
 		<set name="armor_type" val="heavy" />
@@ -1838,7 +1838,7 @@
 			<enchant order="0x0C" stat="pDef" val="0" />
 		</for>
 	</item>
-	<item id="379" type="Armor" name="Dwarven Scale Gaiters">
+	<item id="379" type="Armor" name="矮人鱗脛甲">
 		<set name="icon" val="icon.armor_t15_l_i00" />
 		<set name="default_action" val="equip" />
 		<set name="armor_type" val="heavy" />
@@ -1856,7 +1856,7 @@
 			<enchant order="0x0C" stat="pDef" val="0" />
 		</for>
 	</item>
-	<item id="380" type="Armor" name="Plate Gaiters">
+	<item id="380" type="Armor" name="金屬脛甲">
 		<set name="icon" val="icon.armor_t46_l_i00" />
 		<set name="default_action" val="equip" />
 		<set name="armor_type" val="heavy" />
@@ -1874,7 +1874,7 @@
 			<enchant order="0x0C" stat="pDef" val="0" />
 		</for>
 	</item>
-	<item id="381" type="Armor" name="Chain Gaiters">
+	<item id="381" type="Armor" name="鏈脛甲">
 		<set name="icon" val="icon.armor_t48_l_i00" />
 		<set name="default_action" val="equip" />
 		<set name="armor_type" val="heavy" />
@@ -1892,7 +1892,7 @@
 			<enchant order="0x0C" stat="pDef" val="0" />
 		</for>
 	</item>
-	<item id="382" type="Armor" name="Dwarven Chain Gaiters">
+	<item id="382" type="Armor" name="矮人鏈脛甲">
 		<set name="icon" val="icon.armor_t60_l_i00" />
 		<set name="default_action" val="equip" />
 		<set name="armor_type" val="heavy" />
@@ -1910,7 +1910,7 @@
 			<enchant order="0x0C" stat="pDef" val="0" />
 		</for>
 	</item>
-	<item id="383" type="Armor" name="Zubei's Gaiters">
+	<item id="383" type="Armor" name="夏隆脛甲">
 		<set name="icon" val="icon.armor_t64_l_i00" />
 		<set name="default_action" val="equip" />
 		<set name="armor_type" val="heavy" />
@@ -1928,7 +1928,7 @@
 			<enchant order="0x0C" stat="pDef" val="0" />
 		</for>
 	</item>
-	<item id="384" type="Armor" name="Wolf Gaiters">
+	<item id="384" type="Armor" name="狼脛甲">
 		<set name="icon" val="icon.armor_plate_gaiters_i00" />
 		<set name="default_action" val="equip" />
 		<set name="armor_type" val="heavy" />
@@ -1945,7 +1945,7 @@
 			<enchant order="0x0C" stat="pDef" val="0" />
 		</for>
 	</item>
-	<item id="385" type="Armor" name="Gaiters of Victory">
+	<item id="385" type="Armor" name="勝利脛甲">
 		<set name="icon" val="icon.armor_plate_gaiters_i00" />
 		<set name="default_action" val="equip" />
 		<set name="armor_type" val="heavy" />
@@ -1962,7 +1962,7 @@
 			<enchant order="0x0C" stat="pDef" val="0" />
 		</for>
 	</item>
-	<item id="386" type="Armor" name="Gaiters of Valor">
+	<item id="386" type="Armor" name="勇猛脛甲">
 		<set name="icon" val="icon.armor_plate_gaiters_i00" />
 		<set name="default_action" val="equip" />
 		<set name="armor_type" val="heavy" />
@@ -1979,7 +1979,7 @@
 			<enchant order="0x0C" stat="pDef" val="0" />
 		</for>
 	</item>
-	<item id="387" type="Armor" name="Elven Crystal Gaiters">
+	<item id="387" type="Armor" name="精靈水晶脛甲">
 		<set name="icon" val="icon.armor_plate_gaiters_i00" />
 		<set name="default_action" val="equip" />
 		<set name="armor_type" val="heavy" />
@@ -1996,7 +1996,7 @@
 			<enchant order="0x0C" stat="pDef" val="0" />
 		</for>
 	</item>
-	<item id="388" type="Armor" name="Dark Crystal Gaiters">
+	<item id="388" type="Armor" name="黑暗水晶脛甲">
 		<set name="icon" val="icon.armor_t74_l_i00" />
 		<set name="default_action" val="equip" />
 		<set name="armor_type" val="heavy" />
@@ -2014,7 +2014,7 @@
 			<enchant order="0x0C" stat="pDef" val="0" />
 		</for>
 	</item>
-	<item id="389" type="Armor" name="Dragon Scale Gaiters">
+	<item id="389" type="Armor" name="龍鱗脛甲">
 		<set name="icon" val="icon.armor_t15_l_i00" />
 		<set name="default_action" val="equip" />
 		<set name="armor_type" val="heavy" />
@@ -2034,7 +2034,7 @@
 			<enchant order="0x0C" stat="pDef" val="0" />
 		</for>
 	</item>
-	<item id="390" type="Armor" name="Cotton Shirt">
+	<item id="390" type="Armor" name="緊身襯衫">
 		<set name="icon" val="icon.armor_t07_u_i00" />
 		<set name="default_action" val="equip" />
 		<set name="armor_type" val="light" />
@@ -2047,7 +2047,7 @@
 			<add order="0x10" stat="pDef" val="50" />
 		</for>
 	</item>
-	<item id="391" type="Armor" name="Puma Skin Shirt">
+	<item id="391" type="Armor" name="水晶獅皮襯衫">
 		<set name="icon" val="icon.armor_t09_u_i00" />
 		<set name="default_action" val="equip" />
 		<set name="armor_type" val="light" />
@@ -2064,7 +2064,7 @@
 			<enchant order="0x0C" stat="pDef" val="0" />
 		</for>
 	</item>
-	<item id="392" type="Armor" name="Lion Skin Shirt">
+	<item id="392" type="Armor" name="獅皮襯衫">
 		<set name="icon" val="icon.armor_t18_u_i00" />
 		<set name="default_action" val="equip" />
 		<set name="armor_type" val="light" />
@@ -2081,7 +2081,7 @@
 			<enchant order="0x0C" stat="pDef" val="0" />
 		</for>
 	</item>
-	<item id="393" type="Armor" name="Mithril Banded Mail">
+	<item id="393" type="Armor" name="米索莉板甲">
 		<set name="icon" val="icon.armor_t10_u_i00" />
 		<set name="default_action" val="equip" />
 		<set name="armor_type" val="light" />
@@ -2098,7 +2098,7 @@
 			<enchant order="0x0C" stat="pDef" val="0" />
 		</for>
 	</item>
-	<item id="394" type="Armor" name="Reinforced Leather Shirt">
+	<item id="394" type="Armor" name="強化皮襯衫">
 		<set name="icon" val="icon.armor_t13_u_i00" />
 		<set name="default_action" val="equip" />
 		<set name="armor_type" val="light" />
@@ -2115,7 +2115,7 @@
 			<enchant order="0x0C" stat="pDef" val="0" />
 		</for>
 	</item>
-	<item id="395" type="Armor" name="Manticore Skin Shirt">
+	<item id="395" type="Armor" name="刺尾獅皮襯衫">
 		<set name="icon" val="icon.armor_t42_u_i00" />
 		<set name="default_action" val="equip" />
 		<set name="armor_type" val="light" />
@@ -2132,7 +2132,7 @@
 			<enchant order="0x0C" stat="pDef" val="0" />
 		</for>
 	</item>
-	<item id="396" type="Armor" name="Salamander Skin Mail">
+	<item id="396" type="Armor" name="火蜥蜴皮甲">
 		<set name="icon" val="icon.armor_t45_ul_i00" />
 		<set name="default_action" val="equip" />
 		<set name="armor_type" val="light" />
@@ -2149,7 +2149,7 @@
 			<enchant order="0x0C" stat="pDef" val="0" />
 		</for>
 	</item>
-	<item id="397" type="Armor" name="Mithril Shirt">
+	<item id="397" type="Armor" name="強化米索莉襯衫">
 		<set name="icon" val="icon.armor_t47_u_i00" />
 		<set name="default_action" val="equip" />
 		<set name="armor_type" val="light" />
@@ -2166,7 +2166,7 @@
 			<enchant order="0x0C" stat="pDef" val="0" />
 		</for>
 	</item>
-	<item id="398" type="Armor" name="Plated Leather">
+	<item id="398" type="Armor" name="金屬皮甲">
 		<set name="icon" val="icon.armor_t47_u_i00" />
 		<set name="default_action" val="equip" />
 		<set name="armor_type" val="light" />
@@ -2183,7 +2183,7 @@
 			<enchant order="0x0C" stat="pDef" val="0" />
 		</for>
 	</item>
-	<item id="399" type="Armor" name="Rind Leather Armor">
+	<item id="399" type="Armor" name="覆皮皮甲">
 		<set name="icon" val="icon.armor_t49_u_i00" />
 		<set name="default_action" val="equip" />
 		<set name="armor_type" val="light" />

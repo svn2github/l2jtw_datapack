@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <list>
-	<item id="4900" type="Weapon" name="Staff of Evil Spirits - Magic Focus">
+	<item id="4900" type="Weapon" name="邪靈魔杖">
 		<set name="icon" val="icon.weapon_staff_of_evil_sprit_i01" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="bigblunt" />
@@ -31,7 +31,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="4901" type="Weapon" name="Staff of Evil Spirits - Blessed Body">
+	<item id="4901" type="Weapon" name="邪靈魔杖">
 		<set name="icon" val="icon.weapon_staff_of_evil_sprit_i01" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="bigblunt" />
@@ -62,7 +62,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="4902" type="Weapon" name="Staff of Evil Spirits - Magic Poison">
+	<item id="4902" type="Weapon" name="邪靈魔杖">
 		<set name="icon" val="icon.weapon_staff_of_evil_sprit_i01" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="bigblunt" />
@@ -93,7 +93,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="4903" type="Weapon" name="Dasparion's Staff">
+	<item id="4903" type="Weapon" name="帕黎恩魔杖">
 		<set name="icon" val="icon.weapon_dasparions_staff_i01" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="bigblunt" />
@@ -122,7 +122,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="4904" type="Weapon" name="Dasparion's Staff">
+	<item id="4904" type="Weapon" name="帕黎恩魔杖">
 		<set name="icon" val="icon.weapon_dasparions_staff_i01" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="bigblunt" />
@@ -153,7 +153,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="4905" type="Weapon" name="Dasparion's Staff">
+	<item id="4905" type="Weapon" name="帕黎恩魔杖">
 		<set name="icon" val="icon.weapon_dasparions_staff_i01" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="bigblunt" />
@@ -184,7 +184,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="4906" type="EtcItem" name="Spellbook: Solar Spark">
+	<item id="4906" type="EtcItem" name="魔法書-太陽閃光">
 		<set name="icon" val="icon.etc_spell_books_element_i00" />
 		<set name="immediate_effect" val="1" />
 		<set name="material" val="paper" />
@@ -192,7 +192,7 @@
 		<set name="price" val="1250" />
 		<set name="is_stackable" val="true" />
 	</item>
-	<item id="4907" type="EtcItem" name="Spellbook: Solar Flare">
+	<item id="4907" type="EtcItem" name="魔法書-太陽火焰">
 		<set name="icon" val="icon.etc_spell_books_element_i00" />
 		<set name="immediate_effect" val="1" />
 		<set name="material" val="paper" />
@@ -200,7 +200,7 @@
 		<set name="price" val="3200" />
 		<set name="is_stackable" val="true" />
 	</item>
-	<item id="4908" type="EtcItem" name="Spellbook: Shadow Spark">
+	<item id="4908" type="EtcItem" name="魔法書-暗影閃光">
 		<set name="icon" val="icon.etc_spell_books_element_i00" />
 		<set name="immediate_effect" val="1" />
 		<set name="material" val="paper" />
@@ -208,7 +208,7 @@
 		<set name="price" val="1250" />
 		<set name="is_stackable" val="true" />
 	</item>
-	<item id="4909" type="EtcItem" name="Spellbook: Shadow Flare">
+	<item id="4909" type="EtcItem" name="魔法書-暗影火焰">
 		<set name="icon" val="icon.etc_spell_books_element_i00" />
 		<set name="immediate_effect" val="1" />
 		<set name="material" val="paper" />
@@ -216,7 +216,7 @@
 		<set name="price" val="3200" />
 		<set name="is_stackable" val="true" />
 	</item>
-	<item id="4910" type="EtcItem" name="Spellbook: Vampiric Rage">
+	<item id="4910" type="EtcItem" name="魔法書-吸血怒擊">
 		<set name="icon" val="icon.etc_spell_books_assistance_i00" />
 		<set name="immediate_effect" val="1" />
 		<set name="material" val="paper" />
@@ -224,7 +224,7 @@
 		<set name="price" val="1800" />
 		<set name="is_stackable" val="true" />
 	</item>
-	<item id="4911" type="EtcItem" name="Spellbook: Curse Disease">
+	<item id="4911" type="EtcItem" name="魔法書-詛咒之疾">
 		<set name="icon" val="icon.etc_spell_books_black_i00" />
 		<set name="immediate_effect" val="1" />
 		<set name="material" val="paper" />
@@ -232,7 +232,7 @@
 		<set name="price" val="6750" />
 		<set name="is_stackable" val="true" />
 	</item>
-	<item id="4912" type="EtcItem" name="Spellbook: Benediction">
+	<item id="4912" type="EtcItem" name="魔法書-祝禱">
 		<set name="icon" val="icon.etc_spell_books_white_i00" />
 		<set name="immediate_effect" val="1" />
 		<set name="material" val="paper" />
@@ -240,7 +240,7 @@
 		<set name="price" val="8700" />
 		<set name="is_stackable" val="true" />
 	</item>
-	<item id="4913" type="EtcItem" name="Spellbook: Word of Fear">
+	<item id="4913" type="EtcItem" name="魔法書-恐懼訊息">
 		<set name="icon" val="icon.etc_spell_books_assistance_i00" />
 		<set name="immediate_effect" val="1" />
 		<set name="material" val="paper" />
@@ -248,7 +248,7 @@
 		<set name="price" val="3850" />
 		<set name="is_stackable" val="true" />
 	</item>
-	<item id="4914" type="EtcItem" name="Spellbook: Serenade of Eva">
+	<item id="4914" type="EtcItem" name="魔法書-伊娃的小夜曲">
 		<set name="icon" val="icon.etc_spell_books_assistance_i00" />
 		<set name="immediate_effect" val="1" />
 		<set name="material" val="paper" />
@@ -256,7 +256,7 @@
 		<set name="price" val="3850" />
 		<set name="is_stackable" val="true" />
 	</item>
-	<item id="4915" type="EtcItem" name="Blueprint: Summon Wild Hog Cannon">
+	<item id="4915" type="EtcItem" name="設計圖-召喚野豬加農砲">
 		<set name="icon" val="icon.etc_plan_i00" />
 		<set name="immediate_effect" val="1" />
 		<set name="material" val="paper" />
@@ -264,7 +264,7 @@
 		<set name="price" val="6750" />
 		<set name="is_stackable" val="true" />
 	</item>
-	<item id="4916" type="EtcItem" name="Spellbook: Energy Bolt">
+	<item id="4916" type="EtcItem" name="魔法書-能量彈">
 		<set name="icon" val="icon.etc_spell_books_element_i00" />
 		<set name="immediate_effect" val="1" />
 		<set name="material" val="paper" />
@@ -272,7 +272,7 @@
 		<set name="price" val="800" />
 		<set name="is_stackable" val="true" />
 	</item>
-	<item id="4917" type="EtcItem" name="Spellbook: Aura Bolt">
+	<item id="4917" type="EtcItem" name="魔法書-靈氣彈">
 		<set name="icon" val="icon.etc_spell_books_element_i00" />
 		<set name="immediate_effect" val="1" />
 		<set name="material" val="paper" />
@@ -280,7 +280,7 @@
 		<set name="price" val="3200" />
 		<set name="is_stackable" val="true" />
 	</item>
-	<item id="4918" type="EtcItem" name="Spellbook: Summon Kai the Cat">
+	<item id="4918" type="EtcItem" name="魔法書-召喚銀色貓">
 		<set name="icon" val="icon.etc_spell_books_summon_i00" />
 		<set name="immediate_effect" val="1" />
 		<set name="material" val="paper" />
@@ -288,7 +288,7 @@
 		<set name="price" val="3200" />
 		<set name="is_stackable" val="true" />
 	</item>
-	<item id="4919" type="EtcItem" name="Spellbook: Summon Merrow the Unicorn">
+	<item id="4919" type="EtcItem" name="魔法書-召喚藍眼獨角獸">
 		<set name="icon" val="icon.etc_spell_books_summon_i00" />
 		<set name="immediate_effect" val="1" />
 		<set name="material" val="paper" />
@@ -296,7 +296,7 @@
 		<set name="price" val="3200" />
 		<set name="is_stackable" val="true" />
 	</item>
-	<item id="4920" type="EtcItem" name="Spellbook: Summon Soulless">
+	<item id="4920" type="EtcItem" name="魔法書-召喚失魂者">
 		<set name="icon" val="icon.etc_spell_books_summon_i00" />
 		<set name="immediate_effect" val="1" />
 		<set name="material" val="paper" />
@@ -304,7 +304,7 @@
 		<set name="price" val="3200" />
 		<set name="is_stackable" val="true" />
 	</item>
-	<item id="4921" type="EtcItem" name="Blueprint: Summon Big Boom">
+	<item id="4921" type="EtcItem" name="設計圖-召喚大炸彈">
 		<set name="icon" val="icon.etc_plan_i00" />
 		<set name="immediate_effect" val="1" />
 		<set name="material" val="paper" />
@@ -312,7 +312,7 @@
 		<set name="price" val="6750" />
 		<set name="is_stackable" val="true" />
 	</item>
-	<item id="4922" type="EtcItem" name="Spellbook: Summon Binding Cubic">
+	<item id="4922" type="EtcItem" name="魔法書-召喚麻痺晶體">
 		<set name="icon" val="icon.etc_spell_books_summon_i00" />
 		<set name="immediate_effect" val="1" />
 		<set name="material" val="paper" />
@@ -320,7 +320,7 @@
 		<set name="price" val="3200" />
 		<set name="is_stackable" val="true" />
 	</item>
-	<item id="4923" type="EtcItem" name="Spellbook: Summon Aqua Cubic">
+	<item id="4923" type="EtcItem" name="魔法書-召喚水液晶體">
 		<set name="icon" val="icon.etc_spell_books_summon_i00" />
 		<set name="immediate_effect" val="1" />
 		<set name="material" val="paper" />
@@ -328,7 +328,7 @@
 		<set name="price" val="3200" />
 		<set name="is_stackable" val="true" />
 	</item>
-	<item id="4924" type="EtcItem" name="Spellbook: Summon Spark Cubic">
+	<item id="4924" type="EtcItem" name="魔法書-召喚火光晶體">
 		<set name="icon" val="icon.etc_spell_books_summon_i00" />
 		<set name="immediate_effect" val="1" />
 		<set name="material" val="paper" />
@@ -336,7 +336,7 @@
 		<set name="price" val="3200" />
 		<set name="is_stackable" val="true" />
 	</item>
-	<item id="4925" type="EtcItem" name="Amulet: Pa'agrio's Haste">
+	<item id="4925" type="EtcItem" name="護身符-帕格立歐神速">
 		<set name="icon" val="icon.etc_orcish_talisman_i00" />
 		<set name="immediate_effect" val="1" />
 		<set name="material" val="paper" />
@@ -344,7 +344,7 @@
 		<set name="price" val="6750" />
 		<set name="is_stackable" val="true" />
 	</item>
-	<item id="4926" type="EtcItem" name="Amulet: Soul Guard">
+	<item id="4926" type="EtcItem" name="護身符-靈魂守護">
 		<set name="icon" val="icon.etc_orcish_talisman_i00" />
 		<set name="immediate_effect" val="1" />
 		<set name="material" val="paper" />
@@ -352,7 +352,7 @@
 		<set name="price" val="3850" />
 		<set name="is_stackable" val="true" />
 	</item>
-	<item id="4927" type="EtcItem" name="Amulet: Chant of Revenge">
+	<item id="4927" type="EtcItem" name="護身符-復仇頌歌">
 		<set name="icon" val="icon.etc_orcish_talisman_i00" />
 		<set name="immediate_effect" val="1" />
 		<set name="material" val="paper" />
@@ -360,7 +360,7 @@
 		<set name="price" val="7700" />
 		<set name="is_stackable" val="true" />
 	</item>
-	<item id="4928" type="EtcItem" name="Spellbook: Seed of Fire">
+	<item id="4928" type="EtcItem" name="魔法書-火的種子">
 		<set name="icon" val="icon.etc_spell_books_assistance_i00" />
 		<set name="immediate_effect" val="1" />
 		<set name="material" val="paper" />
@@ -368,7 +368,7 @@
 		<set name="price" val="7200" />
 		<set name="is_stackable" val="true" />
 	</item>
-	<item id="4929" type="EtcItem" name="Spellbook: Seed of Water">
+	<item id="4929" type="EtcItem" name="魔法書-水的種子">
 		<set name="icon" val="icon.etc_spell_books_assistance_i00" />
 		<set name="immediate_effect" val="1" />
 		<set name="material" val="paper" />
@@ -376,7 +376,7 @@
 		<set name="price" val="7200" />
 		<set name="is_stackable" val="true" />
 	</item>
-	<item id="4930" type="EtcItem" name="Spellbook: Seed of Wind">
+	<item id="4930" type="EtcItem" name="魔法書-風的種子">
 		<set name="icon" val="icon.etc_spell_books_assistance_i00" />
 		<set name="immediate_effect" val="1" />
 		<set name="material" val="paper" />
@@ -384,7 +384,7 @@
 		<set name="price" val="7200" />
 		<set name="is_stackable" val="true" />
 	</item>
-	<item id="4931" type="EtcItem" name="Spellbook: Aura Symphony">
+	<item id="4931" type="EtcItem" name="魔法書-光暈交響曲">
 		<set name="icon" val="icon.etc_spell_books_element_i00" />
 		<set name="immediate_effect" val="1" />
 		<set name="material" val="paper" />
@@ -392,7 +392,7 @@
 		<set name="price" val="7200" />
 		<set name="is_stackable" val="true" />
 	</item>
-	<item id="4932" type="EtcItem" name="Spellbook: Inferno">
+	<item id="4932" type="EtcItem" name="魔法書-地獄火">
 		<set name="icon" val="icon.etc_spell_books_element_i00" />
 		<set name="immediate_effect" val="1" />
 		<set name="material" val="paper" />
@@ -400,7 +400,7 @@
 		<set name="price" val="7200" />
 		<set name="is_stackable" val="true" />
 	</item>
-	<item id="4933" type="EtcItem" name="Spellbook: Blizzard">
+	<item id="4933" type="EtcItem" name="魔法書-暴風雪">
 		<set name="icon" val="icon.etc_spell_books_element_i00" />
 		<set name="immediate_effect" val="1" />
 		<set name="material" val="paper" />
@@ -408,7 +408,7 @@
 		<set name="price" val="7200" />
 		<set name="is_stackable" val="true" />
 	</item>
-	<item id="4934" type="EtcItem" name="Spellbook: Demon Wind">
+	<item id="4934" type="EtcItem" name="魔法書-惡魔之風">
 		<set name="icon" val="icon.etc_spell_books_element_i00" />
 		<set name="immediate_effect" val="1" />
 		<set name="material" val="paper" />
@@ -416,7 +416,7 @@
 		<set name="price" val="7200" />
 		<set name="is_stackable" val="true" />
 	</item>
-	<item id="4935" type="EtcItem" name="Spellbook: Elemental Symphony">
+	<item id="4935" type="EtcItem" name="魔法書-元素交響曲">
 		<set name="icon" val="icon.etc_spell_books_element_i00" />
 		<set name="immediate_effect" val="1" />
 		<set name="material" val="paper" />
@@ -424,7 +424,7 @@
 		<set name="price" val="7200" />
 		<set name="is_stackable" val="true" />
 	</item>
-	<item id="4936" type="EtcItem" name="Recipe: Avadon Shield (60%)">
+	<item id="4936" type="EtcItem" name="製作卷軸(阿巴敦盾60%)">
 		<set name="icon" val="icon.etc_recipe_red_i00" />
 		<set name="default_action" val="recipe" />
 		<set name="etcitem_type" val="recipe" />
@@ -436,7 +436,7 @@
 		<set name="is_stackable" val="true" />
 		<set name="handler" val="Recipes" />
 	</item>
-	<item id="4937" type="EtcItem" name="Recipe: Adamantite Earrings (70%)">
+	<item id="4937" type="EtcItem" name="製作卷軸(金剛石耳環70%)">
 		<set name="icon" val="icon.etc_recipe_red_i00" />
 		<set name="default_action" val="recipe" />
 		<set name="etcitem_type" val="recipe" />
@@ -448,7 +448,7 @@
 		<set name="is_stackable" val="true" />
 		<set name="handler" val="Recipes" />
 	</item>
-	<item id="4938" type="EtcItem" name="Recipe: Adamantite Ring (70%)">
+	<item id="4938" type="EtcItem" name="製作卷軸(金剛石戒指70%)">
 		<set name="icon" val="icon.etc_recipe_red_i00" />
 		<set name="default_action" val="recipe" />
 		<set name="etcitem_type" val="recipe" />
@@ -460,7 +460,7 @@
 		<set name="is_stackable" val="true" />
 		<set name="handler" val="Recipes" />
 	</item>
-	<item id="4939" type="EtcItem" name="Recipe: Adamantite Necklace (70%)">
+	<item id="4939" type="EtcItem" name="製作卷軸(金剛石項鍊70%)">
 		<set name="icon" val="icon.etc_recipe_red_i00" />
 		<set name="default_action" val="recipe" />
 		<set name="etcitem_type" val="recipe" />
@@ -472,7 +472,7 @@
 		<set name="is_stackable" val="true" />
 		<set name="handler" val="Recipes" />
 	</item>
-	<item id="4940" type="EtcItem" name="Recipe: Zubei's Breastplate (60%)">
+	<item id="4940" type="EtcItem" name="製作卷軸(夏隆胸甲60%)">
 		<set name="icon" val="icon.etc_recipe_red_i00" />
 		<set name="default_action" val="recipe" />
 		<set name="etcitem_type" val="recipe" />
@@ -484,7 +484,7 @@
 		<set name="is_stackable" val="true" />
 		<set name="handler" val="Recipes" />
 	</item>
-	<item id="4941" type="EtcItem" name="Recipe: Zubei's Gaiters (60%)">
+	<item id="4941" type="EtcItem" name="製作卷軸(夏隆脛甲60%)">
 		<set name="icon" val="icon.etc_recipe_red_i00" />
 		<set name="default_action" val="recipe" />
 		<set name="etcitem_type" val="recipe" />
@@ -496,7 +496,7 @@
 		<set name="is_stackable" val="true" />
 		<set name="handler" val="Recipes" />
 	</item>
-	<item id="4942" type="EtcItem" name="Recipe: Boots of Silence (60%)">
+	<item id="4942" type="EtcItem" name="製作卷軸(寧靜靴60%)">
 		<set name="icon" val="icon.etc_recipe_red_i00" />
 		<set name="default_action" val="recipe" />
 		<set name="etcitem_type" val="recipe" />
@@ -508,7 +508,7 @@
 		<set name="is_stackable" val="true" />
 		<set name="handler" val="Recipes" />
 	</item>
-	<item id="4943" type="EtcItem" name="Recipe: Guardian's Boots (60%)">
+	<item id="4943" type="EtcItem" name="製作卷軸(守護神靴60%)">
 		<set name="icon" val="icon.etc_recipe_red_i00" />
 		<set name="default_action" val="recipe" />
 		<set name="etcitem_type" val="recipe" />
@@ -520,7 +520,7 @@
 		<set name="is_stackable" val="true" />
 		<set name="handler" val="Recipes" />
 	</item>
-	<item id="4944" type="EtcItem" name="Recipe: Avadon Breastplate (60%)">
+	<item id="4944" type="EtcItem" name="製作卷軸(阿巴敦胸甲60%)">
 		<set name="icon" val="icon.etc_recipe_red_i00" />
 		<set name="default_action" val="recipe" />
 		<set name="etcitem_type" val="recipe" />
@@ -532,7 +532,7 @@
 		<set name="is_stackable" val="true" />
 		<set name="handler" val="Recipes" />
 	</item>
-	<item id="4945" type="EtcItem" name="Recipe: Avadon Gaiters (60%)">
+	<item id="4945" type="EtcItem" name="製作卷軸(阿巴敦脛甲60%)">
 		<set name="icon" val="icon.etc_recipe_red_i00" />
 		<set name="default_action" val="recipe" />
 		<set name="etcitem_type" val="recipe" />
@@ -544,7 +544,7 @@
 		<set name="is_stackable" val="true" />
 		<set name="handler" val="Recipes" />
 	</item>
-	<item id="4946" type="EtcItem" name="Recipe: Zubei's Leather Shirt (60%)">
+	<item id="4946" type="EtcItem" name="製作卷軸(夏隆皮衫60%)">
 		<set name="icon" val="icon.etc_recipe_red_i00" />
 		<set name="default_action" val="recipe" />
 		<set name="etcitem_type" val="recipe" />
@@ -556,7 +556,7 @@
 		<set name="is_stackable" val="true" />
 		<set name="handler" val="Recipes" />
 	</item>
-	<item id="4947" type="EtcItem" name="Recipe: Zubei's Leather Gaiters (60%)">
+	<item id="4947" type="EtcItem" name="製作卷軸(夏隆皮脛甲60%)">
 		<set name="icon" val="icon.etc_recipe_red_i00" />
 		<set name="default_action" val="recipe" />
 		<set name="etcitem_type" val="recipe" />
@@ -568,7 +568,7 @@
 		<set name="is_stackable" val="true" />
 		<set name="handler" val="Recipes" />
 	</item>
-	<item id="4948" type="EtcItem" name="Recipe: Avadon Leather Armor (60%)">
+	<item id="4948" type="EtcItem" name="製作卷軸(阿巴敦皮甲60%)">
 		<set name="icon" val="icon.etc_recipe_red_i00" />
 		<set name="default_action" val="recipe" />
 		<set name="etcitem_type" val="recipe" />
@@ -580,7 +580,7 @@
 		<set name="is_stackable" val="true" />
 		<set name="handler" val="Recipes" />
 	</item>
-	<item id="4949" type="EtcItem" name="Recipe: Tunic of Zubei (60%)">
+	<item id="4949" type="EtcItem" name="製作卷軸(夏隆外衣60%)">
 		<set name="icon" val="icon.etc_recipe_red_i00" />
 		<set name="default_action" val="recipe" />
 		<set name="etcitem_type" val="recipe" />
@@ -592,7 +592,7 @@
 		<set name="is_stackable" val="true" />
 		<set name="handler" val="Recipes" />
 	</item>
-	<item id="4950" type="EtcItem" name="Recipe: Stockings of Zubei (60%)">
+	<item id="4950" type="EtcItem" name="製作卷軸(夏隆長襪60%)">
 		<set name="icon" val="icon.etc_recipe_red_i00" />
 		<set name="default_action" val="recipe" />
 		<set name="etcitem_type" val="recipe" />
@@ -604,7 +604,7 @@
 		<set name="is_stackable" val="true" />
 		<set name="handler" val="Recipes" />
 	</item>
-	<item id="4951" type="EtcItem" name="Recipe: Avadon Robe (60%)">
+	<item id="4951" type="EtcItem" name="製作卷軸(阿巴敦長袍60%)">
 		<set name="icon" val="icon.etc_recipe_red_i00" />
 		<set name="default_action" val="recipe" />
 		<set name="etcitem_type" val="recipe" />
@@ -616,7 +616,7 @@
 		<set name="is_stackable" val="true" />
 		<set name="handler" val="Recipes" />
 	</item>
-	<item id="4952" type="EtcItem" name="Recipe: Avadon Circlet (60%)">
+	<item id="4952" type="EtcItem" name="製作卷軸(阿巴敦頭箍60%)">
 		<set name="icon" val="icon.etc_recipe_red_i00" />
 		<set name="default_action" val="recipe" />
 		<set name="etcitem_type" val="recipe" />
@@ -628,7 +628,7 @@
 		<set name="is_stackable" val="true" />
 		<set name="handler" val="Recipes" />
 	</item>
-	<item id="4953" type="EtcItem" name="Recipe: Avadon Gloves (60%)">
+	<item id="4953" type="EtcItem" name="製作卷軸(封印的阿巴敦手套60%)">
 		<set name="icon" val="icon.etc_recipe_red_i00" />
 		<set name="default_action" val="recipe" />
 		<set name="etcitem_type" val="recipe" />
@@ -640,7 +640,7 @@
 		<set name="is_stackable" val="true" />
 		<set name="handler" val="Recipes" />
 	</item>
-	<item id="4954" type="EtcItem" name="Recipe: Chain Gloves of Silence (60%)">
+	<item id="4954" type="EtcItem" name="製作卷軸(寧靜鏈手套60%)">
 		<set name="icon" val="icon.etc_recipe_red_i00" />
 		<set name="default_action" val="recipe" />
 		<set name="etcitem_type" val="recipe" />
@@ -652,7 +652,7 @@
 		<set name="is_stackable" val="true" />
 		<set name="handler" val="Recipes" />
 	</item>
-	<item id="4955" type="EtcItem" name="Recipe: Guardian's Gloves (60%)">
+	<item id="4955" type="EtcItem" name="製作卷軸(守護神手套60%)">
 		<set name="icon" val="icon.etc_recipe_red_i00" />
 		<set name="default_action" val="recipe" />
 		<set name="etcitem_type" val="recipe" />
@@ -664,7 +664,7 @@
 		<set name="is_stackable" val="true" />
 		<set name="handler" val="Recipes" />
 	</item>
-	<item id="4956" type="EtcItem" name="Recipe: Gloves of Blessing (60%)">
+	<item id="4956" type="EtcItem" name="製作卷軸(祝福手套60%)">
 		<set name="icon" val="icon.etc_recipe_red_i00" />
 		<set name="default_action" val="recipe" />
 		<set name="etcitem_type" val="recipe" />
@@ -676,7 +676,7 @@
 		<set name="is_stackable" val="true" />
 		<set name="handler" val="Recipes" />
 	</item>
-	<item id="4957" type="EtcItem" name="Recipe: Boots of Blessing (60%)">
+	<item id="4957" type="EtcItem" name="製作卷軸(祝福靴60%)">
 		<set name="icon" val="icon.etc_recipe_red_i00" />
 		<set name="default_action" val="recipe" />
 		<set name="etcitem_type" val="recipe" />
@@ -688,7 +688,7 @@
 		<set name="is_stackable" val="true" />
 		<set name="handler" val="Recipes" />
 	</item>
-	<item id="4958" type="EtcItem" name="Recipe: Zubei's Boots (60%)">
+	<item id="4958" type="EtcItem" name="製作卷軸(封印的夏隆靴60%)">
 		<set name="icon" val="icon.etc_recipe_red_i00" />
 		<set name="default_action" val="recipe" />
 		<set name="etcitem_type" val="recipe" />
@@ -700,7 +700,7 @@
 		<set name="is_stackable" val="true" />
 		<set name="handler" val="Recipes" />
 	</item>
-	<item id="4959" type="EtcItem" name="Recipe: Avadon Boots (60%)">
+	<item id="4959" type="EtcItem" name="製作卷軸(封印的阿巴敦靴60%)">
 		<set name="icon" val="icon.etc_recipe_red_i00" />
 		<set name="default_action" val="recipe" />
 		<set name="etcitem_type" val="recipe" />
@@ -712,7 +712,7 @@
 		<set name="is_stackable" val="true" />
 		<set name="handler" val="Recipes" />
 	</item>
-	<item id="4960" type="EtcItem" name="Recipe: Zubei's Gauntlets (60%)">
+	<item id="4960" type="EtcItem" name="製作卷軸(封印的夏隆長手套60%)">
 		<set name="icon" val="icon.etc_recipe_red_i00" />
 		<set name="default_action" val="recipe" />
 		<set name="etcitem_type" val="recipe" />
@@ -724,7 +724,7 @@
 		<set name="is_stackable" val="true" />
 		<set name="handler" val="Recipes" />
 	</item>
-	<item id="4961" type="EtcItem" name="Recipe: Zubei's Shield (60%)">
+	<item id="4961" type="EtcItem" name="製作卷軸(夏隆盾60%)">
 		<set name="icon" val="icon.etc_recipe_red_i00" />
 		<set name="default_action" val="recipe" />
 		<set name="etcitem_type" val="recipe" />
@@ -736,7 +736,7 @@
 		<set name="is_stackable" val="true" />
 		<set name="handler" val="Recipes" />
 	</item>
-	<item id="4962" type="EtcItem" name="Recipe: Zubei's Helmet (60%)">
+	<item id="4962" type="EtcItem" name="製作卷軸(夏隆頭盔60%)">
 		<set name="icon" val="icon.etc_recipe_red_i00" />
 		<set name="default_action" val="recipe" />
 		<set name="etcitem_type" val="recipe" />
@@ -748,7 +748,7 @@
 		<set name="is_stackable" val="true" />
 		<set name="handler" val="Recipes" />
 	</item>
-	<item id="4963" type="EtcItem" name="Recipe: Great Sword (60%)">
+	<item id="4963" type="EtcItem" name="製作卷軸(巨劍60%)">
 		<set name="icon" val="icon.etc_recipe_red_i00" />
 		<set name="default_action" val="recipe" />
 		<set name="etcitem_type" val="recipe" />
@@ -760,7 +760,7 @@
 		<set name="is_stackable" val="true" />
 		<set name="handler" val="Recipes" />
 	</item>
-	<item id="4964" type="EtcItem" name="Recipe: Heavy War Axe (60%)">
+	<item id="4964" type="EtcItem" name="製作卷軸(巨大戰斧60%)">
 		<set name="icon" val="icon.etc_recipe_red_i00" />
 		<set name="default_action" val="recipe" />
 		<set name="etcitem_type" val="recipe" />
@@ -772,7 +772,7 @@
 		<set name="is_stackable" val="true" />
 		<set name="handler" val="Recipes" />
 	</item>
-	<item id="4965" type="EtcItem" name="Recipe: Sprite's Staff (60%)">
+	<item id="4965" type="EtcItem" name="製作卷軸(精靈魔杖60%)">
 		<set name="icon" val="icon.etc_recipe_red_i00" />
 		<set name="default_action" val="recipe" />
 		<set name="etcitem_type" val="recipe" />
@@ -784,7 +784,7 @@
 		<set name="is_stackable" val="true" />
 		<set name="handler" val="Recipes" />
 	</item>
-	<item id="4966" type="EtcItem" name="Recipe: Keshanberk (60%)">
+	<item id="4966" type="EtcItem" name="製作卷軸(柯貝克劍60%)">
 		<set name="icon" val="icon.etc_recipe_red_i00" />
 		<set name="default_action" val="recipe" />
 		<set name="etcitem_type" val="recipe" />
@@ -796,7 +796,7 @@
 		<set name="is_stackable" val="true" />
 		<set name="handler" val="Recipes" />
 	</item>
-	<item id="4967" type="EtcItem" name="Recipe: Sword of Valhalla (60%)">
+	<item id="4967" type="EtcItem" name="製作卷軸(聖堂之劍60%)">
 		<set name="icon" val="icon.etc_recipe_red_i00" />
 		<set name="default_action" val="recipe" />
 		<set name="etcitem_type" val="recipe" />
@@ -808,7 +808,7 @@
 		<set name="is_stackable" val="true" />
 		<set name="handler" val="Recipes" />
 	</item>
-	<item id="4968" type="EtcItem" name="Recipe: Kris (60%)">
+	<item id="4968" type="EtcItem" name="製作卷軸(波形刃60%)">
 		<set name="icon" val="icon.etc_recipe_red_i00" />
 		<set name="default_action" val="recipe" />
 		<set name="etcitem_type" val="recipe" />
@@ -820,7 +820,7 @@
 		<set name="is_stackable" val="true" />
 		<set name="handler" val="Recipes" />
 	</item>
-	<item id="4969" type="EtcItem" name="Recipe: Hell Knife (60%)">
+	<item id="4969" type="EtcItem" name="製作卷軸(地獄刀60%)">
 		<set name="icon" val="icon.etc_recipe_red_i00" />
 		<set name="default_action" val="recipe" />
 		<set name="etcitem_type" val="recipe" />
@@ -832,7 +832,7 @@
 		<set name="is_stackable" val="true" />
 		<set name="handler" val="Recipes" />
 	</item>
-	<item id="4970" type="EtcItem" name="Recipe: Arthro Nail (60%)">
+	<item id="4970" type="EtcItem" name="製作卷軸(阿斯拉爪60%)">
 		<set name="icon" val="icon.etc_recipe_red_i00" />
 		<set name="default_action" val="recipe" />
 		<set name="etcitem_type" val="recipe" />
@@ -844,7 +844,7 @@
 		<set name="is_stackable" val="true" />
 		<set name="handler" val="Recipes" />
 	</item>
-	<item id="4971" type="EtcItem" name="Recipe: Dark Elven Long Bow (60%)">
+	<item id="4971" type="EtcItem" name="製作卷軸(黑暗精靈長弓60%)">
 		<set name="icon" val="icon.etc_recipe_red_i00" />
 		<set name="default_action" val="recipe" />
 		<set name="etcitem_type" val="recipe" />
@@ -856,7 +856,7 @@
 		<set name="is_stackable" val="true" />
 		<set name="handler" val="Recipes" />
 	</item>
-	<item id="4972" type="EtcItem" name="Recipe: Great Axe (60%)">
+	<item id="4972" type="EtcItem" name="製作卷軸(巨斧60%)">
 		<set name="icon" val="icon.etc_recipe_red_i00" />
 		<set name="default_action" val="recipe" />
 		<set name="etcitem_type" val="recipe" />
@@ -868,7 +868,7 @@
 		<set name="is_stackable" val="true" />
 		<set name="handler" val="Recipes" />
 	</item>
-	<item id="4973" type="EtcItem" name="Recipe: Earring of Black Ore (70%)">
+	<item id="4973" type="EtcItem" name="製作卷軸(黑光耳環70%)">
 		<set name="icon" val="icon.etc_recipe_red_i00" />
 		<set name="default_action" val="recipe" />
 		<set name="etcitem_type" val="recipe" />
@@ -880,7 +880,7 @@
 		<set name="is_stackable" val="true" />
 		<set name="handler" val="Recipes" />
 	</item>
-	<item id="4974" type="EtcItem" name="Recipe: Ring of Black Ore (70%)">
+	<item id="4974" type="EtcItem" name="製作卷軸(黑光戒指70%)">
 		<set name="icon" val="icon.etc_recipe_red_i00" />
 		<set name="default_action" val="recipe" />
 		<set name="etcitem_type" val="recipe" />
@@ -892,7 +892,7 @@
 		<set name="is_stackable" val="true" />
 		<set name="handler" val="Recipes" />
 	</item>
-	<item id="4975" type="EtcItem" name="Recipe: Necklace of Black Ore (70%)">
+	<item id="4975" type="EtcItem" name="製作卷軸(黑光項鍊70%)">
 		<set name="icon" val="icon.etc_recipe_red_i00" />
 		<set name="default_action" val="recipe" />
 		<set name="etcitem_type" val="recipe" />
@@ -904,7 +904,7 @@
 		<set name="is_stackable" val="true" />
 		<set name="handler" val="Recipes" />
 	</item>
-	<item id="4976" type="EtcItem" name="Recipe: Implosion Boots (60%)">
+	<item id="4976" type="EtcItem" name="製作卷軸(毀滅靴60%)">
 		<set name="icon" val="icon.etc_recipe_red_i00" />
 		<set name="default_action" val="recipe" />
 		<set name="etcitem_type" val="recipe" />
@@ -916,7 +916,7 @@
 		<set name="is_stackable" val="true" />
 		<set name="handler" val="Recipes" />
 	</item>
-	<item id="4977" type="EtcItem" name="Recipe: Paradia Boots (60%)">
+	<item id="4977" type="EtcItem" name="製作卷軸(佩勒迪亞靴60%)">
 		<set name="icon" val="icon.etc_recipe_red_i00" />
 		<set name="default_action" val="recipe" />
 		<set name="etcitem_type" val="recipe" />
@@ -928,7 +928,7 @@
 		<set name="is_stackable" val="true" />
 		<set name="handler" val="Recipes" />
 	</item>
-	<item id="4978" type="EtcItem" name="Recipe: Elemental Boots (60%)">
+	<item id="4978" type="EtcItem" name="製作卷軸(元素靴60%)">
 		<set name="icon" val="icon.etc_recipe_red_i00" />
 		<set name="default_action" val="recipe" />
 		<set name="etcitem_type" val="recipe" />
@@ -940,7 +940,7 @@
 		<set name="is_stackable" val="true" />
 		<set name="handler" val="Recipes" />
 	</item>
-	<item id="4979" type="EtcItem" name="Recipe: Boots of Grace (60%)">
+	<item id="4979" type="EtcItem" name="製作卷軸(恩寵靴60%)">
 		<set name="icon" val="icon.etc_recipe_red_i00" />
 		<set name="default_action" val="recipe" />
 		<set name="etcitem_type" val="recipe" />
@@ -952,7 +952,7 @@
 		<set name="is_stackable" val="true" />
 		<set name="handler" val="Recipes" />
 	</item>
-	<item id="4980" type="EtcItem" name="Recipe: Doom Shield (60%)">
+	<item id="4980" type="EtcItem" name="製作卷軸(末日盾60%)">
 		<set name="icon" val="icon.etc_recipe_red_i00" />
 		<set name="default_action" val="recipe" />
 		<set name="etcitem_type" val="recipe" />
@@ -964,7 +964,7 @@
 		<set name="is_stackable" val="true" />
 		<set name="handler" val="Recipes" />
 	</item>
-	<item id="4981" type="EtcItem" name="Recipe: Blue Wolf Breastplate (60%)">
+	<item id="4981" type="EtcItem" name="製作卷軸(青狼胸甲60%)">
 		<set name="icon" val="icon.etc_recipe_red_i00" />
 		<set name="default_action" val="recipe" />
 		<set name="etcitem_type" val="recipe" />
@@ -976,7 +976,7 @@
 		<set name="is_stackable" val="true" />
 		<set name="handler" val="Recipes" />
 	</item>
-	<item id="4982" type="EtcItem" name="Recipe: Blue Wolf Gaiters (60%)">
+	<item id="4982" type="EtcItem" name="製作卷軸(青狼脛甲60%)">
 		<set name="icon" val="icon.etc_recipe_red_i00" />
 		<set name="default_action" val="recipe" />
 		<set name="etcitem_type" val="recipe" />
@@ -988,7 +988,7 @@
 		<set name="is_stackable" val="true" />
 		<set name="handler" val="Recipes" />
 	</item>
-	<item id="4983" type="EtcItem" name="Recipe: Doom Plate Armor (60%)">
+	<item id="4983" type="EtcItem" name="製作卷軸(末日金屬盔甲60%)">
 		<set name="icon" val="icon.etc_recipe_red_i00" />
 		<set name="default_action" val="recipe" />
 		<set name="etcitem_type" val="recipe" />
@@ -1000,7 +1000,7 @@
 		<set name="is_stackable" val="true" />
 		<set name="handler" val="Recipes" />
 	</item>
-	<item id="4984" type="EtcItem" name="Recipe: Blue Wolf Leather Armor (60%)">
+	<item id="4984" type="EtcItem" name="製作卷軸(青狼皮甲60%)">
 		<set name="icon" val="icon.etc_recipe_red_i00" />
 		<set name="default_action" val="recipe" />
 		<set name="etcitem_type" val="recipe" />
@@ -1012,7 +1012,7 @@
 		<set name="is_stackable" val="true" />
 		<set name="handler" val="Recipes" />
 	</item>
-	<item id="4985" type="EtcItem" name="Recipe: Leather Armor of Doom (60%)">
+	<item id="4985" type="EtcItem" name="製作卷軸(末日皮甲60%)">
 		<set name="icon" val="icon.etc_recipe_red_i00" />
 		<set name="default_action" val="recipe" />
 		<set name="etcitem_type" val="recipe" />
@@ -1024,7 +1024,7 @@
 		<set name="is_stackable" val="true" />
 		<set name="handler" val="Recipes" />
 	</item>
-	<item id="4986" type="EtcItem" name="Recipe: Blue Wolf Tunic (60%)">
+	<item id="4986" type="EtcItem" name="製作卷軸(青狼外衣60%)">
 		<set name="icon" val="icon.etc_recipe_red_i00" />
 		<set name="default_action" val="recipe" />
 		<set name="etcitem_type" val="recipe" />
@@ -1036,7 +1036,7 @@
 		<set name="is_stackable" val="true" />
 		<set name="handler" val="Recipes" />
 	</item>
-	<item id="4987" type="EtcItem" name="Recipe: Tunic of Doom (60%)">
+	<item id="4987" type="EtcItem" name="製作卷軸(末日外衣60%)">
 		<set name="icon" val="icon.etc_recipe_red_i00" />
 		<set name="default_action" val="recipe" />
 		<set name="etcitem_type" val="recipe" />
@@ -1048,7 +1048,7 @@
 		<set name="is_stackable" val="true" />
 		<set name="handler" val="Recipes" />
 	</item>
-	<item id="4988" type="EtcItem" name="Recipe: Blue Wolf Stockings (60%)">
+	<item id="4988" type="EtcItem" name="製作卷軸(青狼長襪60%)">
 		<set name="icon" val="icon.etc_recipe_red_i00" />
 		<set name="default_action" val="recipe" />
 		<set name="etcitem_type" val="recipe" />
@@ -1060,7 +1060,7 @@
 		<set name="is_stackable" val="true" />
 		<set name="handler" val="Recipes" />
 	</item>
-	<item id="4989" type="EtcItem" name="Recipe: Stockings of Doom (60%)">
+	<item id="4989" type="EtcItem" name="製作卷軸(末日長襪60%)">
 		<set name="icon" val="icon.etc_recipe_red_i00" />
 		<set name="default_action" val="recipe" />
 		<set name="etcitem_type" val="recipe" />
@@ -1072,7 +1072,7 @@
 		<set name="is_stackable" val="true" />
 		<set name="handler" val="Recipes" />
 	</item>
-	<item id="4990" type="EtcItem" name="Recipe: Blue Wolf Helmet (60%)">
+	<item id="4990" type="EtcItem" name="製作卷軸(青狼頭盔60%)">
 		<set name="icon" val="icon.etc_recipe_red_i00" />
 		<set name="default_action" val="recipe" />
 		<set name="etcitem_type" val="recipe" />
@@ -1084,7 +1084,7 @@
 		<set name="is_stackable" val="true" />
 		<set name="handler" val="Recipes" />
 	</item>
-	<item id="4991" type="EtcItem" name="Recipe: Doom Helmet (60%)">
+	<item id="4991" type="EtcItem" name="製作卷軸(末日頭盔60%)">
 		<set name="icon" val="icon.etc_recipe_red_i00" />
 		<set name="default_action" val="recipe" />
 		<set name="etcitem_type" val="recipe" />
@@ -1096,7 +1096,7 @@
 		<set name="is_stackable" val="true" />
 		<set name="handler" val="Recipes" />
 	</item>
-	<item id="4992" type="EtcItem" name="Recipe: Blue Wolf Boots (60%)">
+	<item id="4992" type="EtcItem" name="製作卷軸(封印的青狼長靴60%)">
 		<set name="icon" val="icon.etc_recipe_red_i00" />
 		<set name="default_action" val="recipe" />
 		<set name="etcitem_type" val="recipe" />
@@ -1108,7 +1108,7 @@
 		<set name="is_stackable" val="true" />
 		<set name="handler" val="Recipes" />
 	</item>
-	<item id="4993" type="EtcItem" name="Recipe: Doom Gloves (60%)">
+	<item id="4993" type="EtcItem" name="製作卷軸(封印的末日手套60%)">
 		<set name="icon" val="icon.etc_recipe_red_i00" />
 		<set name="default_action" val="recipe" />
 		<set name="etcitem_type" val="recipe" />
@@ -1120,7 +1120,7 @@
 		<set name="is_stackable" val="true" />
 		<set name="handler" val="Recipes" />
 	</item>
-	<item id="4994" type="EtcItem" name="Recipe: Elemental Gloves (60%)">
+	<item id="4994" type="EtcItem" name="製作卷軸(元素手套60%)">
 		<set name="icon" val="icon.etc_recipe_red_i00" />
 		<set name="default_action" val="recipe" />
 		<set name="etcitem_type" val="recipe" />
@@ -1132,7 +1132,7 @@
 		<set name="is_stackable" val="true" />
 		<set name="handler" val="Recipes" />
 	</item>
-	<item id="4995" type="EtcItem" name="Recipe: Gloves of Grace (60%)">
+	<item id="4995" type="EtcItem" name="製作卷軸(恩寵手套60%)">
 		<set name="icon" val="icon.etc_recipe_red_i00" />
 		<set name="default_action" val="recipe" />
 		<set name="etcitem_type" val="recipe" />
@@ -1144,7 +1144,7 @@
 		<set name="is_stackable" val="true" />
 		<set name="handler" val="Recipes" />
 	</item>
-	<item id="4996" type="EtcItem" name="Recipe: Implosion Gauntlets (60%)">
+	<item id="4996" type="EtcItem" name="製作卷軸(毀滅長手套60%)">
 		<set name="icon" val="icon.etc_recipe_red_i00" />
 		<set name="default_action" val="recipe" />
 		<set name="etcitem_type" val="recipe" />
@@ -1156,7 +1156,7 @@
 		<set name="is_stackable" val="true" />
 		<set name="handler" val="Recipes" />
 	</item>
-	<item id="4997" type="EtcItem" name="Recipe: Paradia Gloves (60%)">
+	<item id="4997" type="EtcItem" name="製作卷軸(佩勒迪亞手套60%)">
 		<set name="icon" val="icon.etc_recipe_red_i00" />
 		<set name="default_action" val="recipe" />
 		<set name="etcitem_type" val="recipe" />
@@ -1168,7 +1168,7 @@
 		<set name="is_stackable" val="true" />
 		<set name="handler" val="Recipes" />
 	</item>
-	<item id="4998" type="EtcItem" name="Recipe: Blue Wolf Gloves (60%)">
+	<item id="4998" type="EtcItem" name="製作卷軸(封印的青狼手套60%)">
 		<set name="icon" val="icon.etc_recipe_red_i00" />
 		<set name="default_action" val="recipe" />
 		<set name="etcitem_type" val="recipe" />
@@ -1180,7 +1180,7 @@
 		<set name="is_stackable" val="true" />
 		<set name="handler" val="Recipes" />
 	</item>
-	<item id="4999" type="EtcItem" name="Recipe: Doom Boots (60%)">
+	<item id="4999" type="EtcItem" name="製作卷軸(封印的末日靴60%)">
 		<set name="icon" val="icon.etc_recipe_red_i00" />
 		<set name="default_action" val="recipe" />
 		<set name="etcitem_type" val="recipe" />

@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <list>
-	<item id="1400" type="EtcItem" name="Spellbook: Surrender To Fire">
+	<item id="1400" type="EtcItem" name="魔法書-火之陷落">
 		<set name="icon" val="icon.etc_spell_books_element_i00" />
 		<set name="immediate_effect" val="1" />
 		<set name="material" val="paper" />
@@ -8,7 +8,7 @@
 		<set name="price" val="1250" />
 		<set name="is_stackable" val="true" />
 	</item>
-	<item id="1401" type="EtcItem" name="Spellbook: Acumen">
+	<item id="1401" type="EtcItem" name="魔法書-靈活思緒">
 		<set name="icon" val="icon.etc_spell_books_assistance_i00" />
 		<set name="immediate_effect" val="1" />
 		<set name="material" val="paper" />
@@ -16,7 +16,7 @@
 		<set name="price" val="800" />
 		<set name="is_stackable" val="true" />
 	</item>
-	<item id="1402" type="EtcItem" name="Spellbook: Agility">
+	<item id="1402" type="EtcItem" name="魔法書-敏捷術">
 		<set name="icon" val="icon.etc_spell_books_assistance_i00" />
 		<set name="immediate_effect" val="1" />
 		<set name="material" val="paper" />
@@ -24,7 +24,7 @@
 		<set name="price" val="1250" />
 		<set name="is_stackable" val="true" />
 	</item>
-	<item id="1403" type="EtcItem" name="Spellbook: Summon Kat the Cat">
+	<item id="1403" type="EtcItem" name="魔法書-召喚戰鬥貓">
 		<set name="icon" val="icon.etc_spell_books_summon_i00" />
 		<set name="immediate_effect" val="1" />
 		<set name="material" val="paper" />
@@ -32,7 +32,7 @@
 		<set name="price" val="800" />
 		<set name="is_stackable" val="true" />
 	</item>
-	<item id="1404" type="EtcItem" name="Spellbook: Servitor Recharge">
+	<item id="1404" type="EtcItem" name="魔法書-使魔魔力回復">
 		<set name="icon" val="icon.etc_spell_books_summon_i00" />
 		<set name="immediate_effect" val="1" />
 		<set name="material" val="paper" />
@@ -40,7 +40,7 @@
 		<set name="price" val="1250" />
 		<set name="is_stackable" val="true" />
 	</item>
-	<item id="1405" type="EtcItem" name="Spellbook: Servitor Heal">
+	<item id="1405" type="EtcItem" name="魔法書-使魔生命回復">
 		<set name="icon" val="icon.etc_spell_books_summon_i00" />
 		<set name="immediate_effect" val="1" />
 		<set name="material" val="paper" />
@@ -48,7 +48,7 @@
 		<set name="price" val="800" />
 		<set name="is_stackable" val="true" />
 	</item>
-	<item id="1406" type="EtcItem" name="Spellbook: Servitor Wind Walk">
+	<item id="1406" type="EtcItem" name="魔法書-快速使魔">
 		<set name="icon" val="icon.etc_spell_books_summon_i00" />
 		<set name="immediate_effect" val="1" />
 		<set name="material" val="paper" />
@@ -56,7 +56,7 @@
 		<set name="price" val="2450" />
 		<set name="is_stackable" val="true" />
 	</item>
-	<item id="1407" type="EtcItem" name="Spellbook: Servitor Magic Boost">
+	<item id="1407" type="EtcItem" name="魔法書-睿智使魔">
 		<set name="icon" val="icon.etc_spell_books_summon_i00" />
 		<set name="immediate_effect" val="1" />
 		<set name="material" val="paper" />
@@ -64,7 +64,7 @@
 		<set name="price" val="2450" />
 		<set name="is_stackable" val="true" />
 	</item>
-	<item id="1408" type="EtcItem" name="Spellbook: Mighty Servitor">
+	<item id="1408" type="EtcItem" name="魔法書-強力使魔">
 		<set name="icon" val="icon.etc_spell_books_summon_i00" />
 		<set name="immediate_effect" val="1" />
 		<set name="material" val="paper" />
@@ -72,7 +72,7 @@
 		<set name="price" val="2450" />
 		<set name="is_stackable" val="true" />
 	</item>
-	<item id="1409" type="EtcItem" name="Spellbook: Slow">
+	<item id="1409" type="EtcItem" name="魔法書-緩速術">
 		<set name="icon" val="icon.etc_spell_books_black_i00" />
 		<set name="immediate_effect" val="1" />
 		<set name="material" val="paper" />
@@ -80,7 +80,7 @@
 		<set name="price" val="2450" />
 		<set name="is_stackable" val="true" />
 	</item>
-	<item id="1410" type="EtcItem" name="Spellbook: Poisonous Cloud">
+	<item id="1410" type="EtcItem" name="魔法書-劇毒之雲">
 		<set name="icon" val="icon.etc_spell_books_black_i00" />
 		<set name="immediate_effect" val="1" />
 		<set name="material" val="paper" />
@@ -88,7 +88,7 @@
 		<set name="price" val="1250" />
 		<set name="is_stackable" val="true" />
 	</item>
-	<item id="1411" type="EtcItem" name="Spellbook: Aura Burn">
+	<item id="1411" type="EtcItem" name="魔法書-精神燃燒">
 		<set name="icon" val="icon.etc_spell_books_element_i00" />
 		<set name="immediate_effect" val="1" />
 		<set name="material" val="paper" />
@@ -96,7 +96,7 @@
 		<set name="price" val="800" />
 		<set name="is_stackable" val="true" />
 	</item>
-	<item id="1412" type="EtcItem" name="Spellbook: Resist Aqua">
+	<item id="1412" type="EtcItem" name="魔法書-水之防護">
 		<set name="icon" val="icon.etc_spell_books_assistance_i00" />
 		<set name="immediate_effect" val="1" />
 		<set name="material" val="paper" />
@@ -104,7 +104,7 @@
 		<set name="price" val="2450" />
 		<set name="is_stackable" val="true" />
 	</item>
-	<item id="1413" type="EtcItem" name="Spellbook: Resist Wind">
+	<item id="1413" type="EtcItem" name="魔法書-風之防護">
 		<set name="icon" val="icon.etc_spell_books_assistance_i00" />
 		<set name="immediate_effect" val="1" />
 		<set name="material" val="paper" />
@@ -112,7 +112,7 @@
 		<set name="price" val="2450" />
 		<set name="is_stackable" val="true" />
 	</item>
-	<item id="1414" type="EtcItem" name="Spellbook: Resist Fire">
+	<item id="1414" type="EtcItem" name="魔法書-火之防護">
 		<set name="icon" val="icon.etc_spell_books_assistance_i00" />
 		<set name="immediate_effect" val="1" />
 		<set name="material" val="paper" />
@@ -120,7 +120,7 @@
 		<set name="price" val="1800" />
 		<set name="is_stackable" val="true" />
 	</item>
-	<item id="1415" type="EtcItem" name="Spellbook: Dryad Root">
+	<item id="1415" type="EtcItem" name="魔法書-樹精之足">
 		<set name="icon" val="icon.etc_spell_books_assistance_i00" />
 		<set name="immediate_effect" val="1" />
 		<set name="material" val="paper" />
@@ -128,7 +128,7 @@
 		<set name="price" val="1250" />
 		<set name="is_stackable" val="true" />
 	</item>
-	<item id="1416" type="EtcItem" name="Spellbook: Curse of Chaos">
+	<item id="1416" type="EtcItem" name="魔法書-混亂之咒">
 		<set name="icon" val="icon.etc_spell_books_black_i00" />
 		<set name="immediate_effect" val="1" />
 		<set name="material" val="paper" />
@@ -136,7 +136,7 @@
 		<set name="price" val="2450" />
 		<set name="is_stackable" val="true" />
 	</item>
-	<item id="1417" type="EtcItem" name="Spellbook: Surrender To Earth">
+	<item id="1417" type="EtcItem" name="魔法書-土之陷落">
 		<set name="icon" val="icon.etc_spell_books_element_i00" />
 		<set name="immediate_effect" val="1" />
 		<set name="material" val="paper" />
@@ -144,7 +144,7 @@
 		<set name="price" val="1250" />
 		<set name="is_stackable" val="true" />
 	</item>
-	<item id="1418" type="EtcItem" name="Spellbook: Surrender To Poison">
+	<item id="1418" type="EtcItem" name="魔法書-毒之陷落">
 		<set name="icon" val="icon.etc_spell_books_black_i00" />
 		<set name="immediate_effect" val="1" />
 		<set name="material" val="paper" />
@@ -152,13 +152,13 @@
 		<set name="price" val="1250" />
 		<set name="is_stackable" val="true" />
 	</item>
-	<item id="1419" type="EtcItem" name="Blood Mark">
+	<item id="1419" type="EtcItem" name="血之證">
 		<set name="icon" val="icon.etc_broken_crystal_red_i00" />
 		<set name="immediate_effect" val="1" />
 		<set name="material" val="liquid" />
 		<set name="is_stackable" val="true" />
 	</item>
-	<item id="1420" type="EtcItem" name="Ingredient List">
+	<item id="1420" type="EtcItem" name="材料明細">
 		<set name="icon" val="icon.etc_piece_of_paper_white_i00" />
 		<set name="immediate_effect" val="1" />
 		<set name="material" val="steel" />
@@ -169,7 +169,7 @@
 		<set name="is_stackable" val="true" />
 		<set name="is_questitem" val="true" />
 	</item>
-	<item id="1421" type="EtcItem" name="Sonia's Botany Book">
+	<item id="1421" type="EtcItem" name="索尼亞的植物書">
 		<set name="icon" val="icon.etc_spell_books_blue_i00" />
 		<set name="immediate_effect" val="1" />
 		<set name="material" val="steel" />
@@ -180,7 +180,7 @@
 		<set name="is_stackable" val="true" />
 		<set name="is_questitem" val="true" />
 	</item>
-	<item id="1422" type="EtcItem" name="Red Mandragora Root">
+	<item id="1422" type="EtcItem" name="紅色曼陀羅草根">
 		<set name="icon" val="icon.etc_pouch_yellow_i00" />
 		<set name="immediate_effect" val="1" />
 		<set name="material" val="steel" />
@@ -191,7 +191,7 @@
 		<set name="is_stackable" val="true" />
 		<set name="is_questitem" val="true" />
 	</item>
-	<item id="1423" type="EtcItem" name="White Mandragora Root">
+	<item id="1423" type="EtcItem" name="白色曼陀羅草根">
 		<set name="icon" val="icon.etc_pouch_gray_i00" />
 		<set name="immediate_effect" val="1" />
 		<set name="material" val="steel" />
@@ -202,7 +202,7 @@
 		<set name="is_stackable" val="true" />
 		<set name="is_questitem" val="true" />
 	</item>
-	<item id="1424" type="EtcItem" name="Red Mandragora Sap">
+	<item id="1424" type="EtcItem" name="紅色曼陀羅草汁">
 		<set name="icon" val="icon.etc_potion_red_i00" />
 		<set name="immediate_effect" val="1" />
 		<set name="material" val="steel" />
@@ -213,7 +213,7 @@
 		<set name="is_stackable" val="true" />
 		<set name="is_questitem" val="true" />
 	</item>
-	<item id="1425" type="EtcItem" name="White Mandragora Sap">
+	<item id="1425" type="EtcItem" name="透明曼陀羅草汁">
 		<set name="icon" val="icon.etc_potion_clear_i00" />
 		<set name="immediate_effect" val="1" />
 		<set name="material" val="steel" />
@@ -224,7 +224,7 @@
 		<set name="is_stackable" val="true" />
 		<set name="is_questitem" val="true" />
 	</item>
-	<item id="1426" type="EtcItem" name="Jacob's Insect Book">
+	<item id="1426" type="EtcItem" name="傑伊庫伯的昆蟲書">
 		<set name="icon" val="icon.etc_spell_books_red_i00" />
 		<set name="immediate_effect" val="1" />
 		<set name="material" val="steel" />
@@ -235,7 +235,7 @@
 		<set name="is_stackable" val="true" />
 		<set name="is_questitem" val="true" />
 	</item>
-	<item id="1427" type="EtcItem" name="Nectar">
+	<item id="1427" type="EtcItem" name="花蜜">
 		<set name="icon" val="icon.etc_reagent_gold_i00" />
 		<set name="immediate_effect" val="1" />
 		<set name="material" val="steel" />
@@ -246,7 +246,7 @@
 		<set name="is_stackable" val="true" />
 		<set name="is_questitem" val="true" />
 	</item>
-	<item id="1428" type="EtcItem" name="Royal Jelly">
+	<item id="1428" type="EtcItem" name="蜂王漿">
 		<set name="icon" val="icon.etc_reagent_white_i00" />
 		<set name="immediate_effect" val="1" />
 		<set name="material" val="steel" />
@@ -257,7 +257,7 @@
 		<set name="is_stackable" val="true" />
 		<set name="is_questitem" val="true" />
 	</item>
-	<item id="1429" type="EtcItem" name="Honey">
+	<item id="1429" type="EtcItem" name="蜂蜜">
 		<set name="icon" val="icon.etc_potion_yellow_i00" />
 		<set name="immediate_effect" val="1" />
 		<set name="material" val="steel" />
@@ -268,7 +268,7 @@
 		<set name="is_stackable" val="true" />
 		<set name="is_questitem" val="true" />
 	</item>
-	<item id="1430" type="EtcItem" name="Golden Honey">
+	<item id="1430" type="EtcItem" name="黃金蜂蜜">
 		<set name="icon" val="icon.etc_potion_gold_i00" />
 		<set name="immediate_effect" val="1" />
 		<set name="material" val="steel" />
@@ -279,7 +279,7 @@
 		<set name="is_stackable" val="true" />
 		<set name="is_questitem" val="true" />
 	</item>
-	<item id="1431" type="EtcItem" name="Pano's Contract">
+	<item id="1431" type="EtcItem" name="帕諾的契約">
 		<set name="icon" val="icon.etc_letter_blue_i00" />
 		<set name="immediate_effect" val="1" />
 		<set name="material" val="steel" />
@@ -290,7 +290,7 @@
 		<set name="is_stackable" val="true" />
 		<set name="is_questitem" val="true" />
 	</item>
-	<item id="1432" type="EtcItem" name="Hobgoblin Amulet">
+	<item id="1432" type="EtcItem" name="哈柏哥布林羽毛護身符">
 		<set name="icon" val="icon.etc_feather_black_i00" />
 		<set name="immediate_effect" val="1" />
 		<set name="material" val="steel" />
@@ -301,7 +301,7 @@
 		<set name="is_stackable" val="true" />
 		<set name="is_questitem" val="true" />
 	</item>
-	<item id="1433" type="EtcItem" name="Dionian Potato">
+	<item id="1433" type="EtcItem" name="狄恩馬鈴薯">
 		<set name="icon" val="icon.etc_pouch_brown_i00" />
 		<set name="immediate_effect" val="1" />
 		<set name="material" val="steel" />
@@ -312,7 +312,7 @@
 		<set name="is_stackable" val="true" />
 		<set name="is_questitem" val="true" />
 	</item>
-	<item id="1434" type="EtcItem" name="Glyvka's Botany Book">
+	<item id="1434" type="EtcItem" name="哥爾黎布卡的植物書">
 		<set name="icon" val="icon.etc_spell_books_blue_i00" />
 		<set name="immediate_effect" val="1" />
 		<set name="material" val="steel" />
@@ -323,7 +323,7 @@
 		<set name="is_stackable" val="true" />
 		<set name="is_questitem" val="true" />
 	</item>
-	<item id="1435" type="EtcItem" name="Green Marsh Moss">
+	<item id="1435" type="EtcItem" name="綠色沼澤青苔">
 		<set name="icon" val="icon.etc_branch_green_i00" />
 		<set name="immediate_effect" val="1" />
 		<set name="material" val="steel" />
@@ -334,7 +334,7 @@
 		<set name="is_stackable" val="true" />
 		<set name="is_questitem" val="true" />
 	</item>
-	<item id="1436" type="EtcItem" name="Brown Marsh Moss">
+	<item id="1436" type="EtcItem" name="棕色沼澤青苔">
 		<set name="icon" val="icon.etc_branch_gold_i00" />
 		<set name="immediate_effect" val="1" />
 		<set name="material" val="steel" />
@@ -345,7 +345,7 @@
 		<set name="is_stackable" val="true" />
 		<set name="is_questitem" val="true" />
 	</item>
-	<item id="1437" type="EtcItem" name="Green Moss Bundle">
+	<item id="1437" type="EtcItem" name="綠色青苔捆">
 		<set name="icon" val="icon.etc_bark_green_i00" />
 		<set name="immediate_effect" val="1" />
 		<set name="material" val="steel" />
@@ -356,7 +356,7 @@
 		<set name="is_stackable" val="true" />
 		<set name="is_questitem" val="true" />
 	</item>
-	<item id="1438" type="EtcItem" name="Brown Moss Bundle">
+	<item id="1438" type="EtcItem" name="棕色青苔捆">
 		<set name="icon" val="icon.etc_bark_gold_i00" />
 		<set name="immediate_effect" val="1" />
 		<set name="material" val="steel" />
@@ -367,7 +367,7 @@
 		<set name="is_stackable" val="true" />
 		<set name="is_questitem" val="true" />
 	</item>
-	<item id="1439" type="EtcItem" name="Rollant's Creature Book">
+	<item id="1439" type="EtcItem" name="羅爾蘭德的生物書">
 		<set name="icon" val="icon.etc_spell_books_red_i00" />
 		<set name="immediate_effect" val="1" />
 		<set name="material" val="steel" />
@@ -378,7 +378,7 @@
 		<set name="is_stackable" val="true" />
 		<set name="is_questitem" val="true" />
 	</item>
-	<item id="1440" type="EtcItem" name="Body of Monster Eye">
+	<item id="1440" type="EtcItem" name="眼怪的屍體">
 		<set name="icon" val="icon.etc_leather_brown_i00" />
 		<set name="immediate_effect" val="1" />
 		<set name="material" val="steel" />
@@ -389,7 +389,7 @@
 		<set name="is_stackable" val="true" />
 		<set name="is_questitem" val="true" />
 	</item>
-	<item id="1441" type="EtcItem" name="Meat of Monster Eye">
+	<item id="1441" type="EtcItem" name="眼怪的肉">
 		<set name="icon" val="icon.etc_pouch_yellow_i00" />
 		<set name="immediate_effect" val="1" />
 		<set name="material" val="steel" />
@@ -400,7 +400,7 @@
 		<set name="is_stackable" val="true" />
 		<set name="is_questitem" val="true" />
 	</item>
-	<item id="1442" type="EtcItem" name="Jonas's 1st Steak Dish">
+	<item id="1442" type="EtcItem" name="約拿斯的肉排料理">
 		<set name="icon" val="icon.etc_jewel_box_i00" />
 		<set name="immediate_effect" val="1" />
 		<set name="material" val="steel" />
@@ -411,7 +411,7 @@
 		<set name="is_stackable" val="true" />
 		<set name="is_questitem" val="true" />
 	</item>
-	<item id="1443" type="EtcItem" name="Jonas's 2nd Steak Dish">
+	<item id="1443" type="EtcItem" name="約拿斯的肉排料理">
 		<set name="icon" val="icon.etc_jewel_box_i00" />
 		<set name="immediate_effect" val="1" />
 		<set name="material" val="steel" />
@@ -422,7 +422,7 @@
 		<set name="is_stackable" val="true" />
 		<set name="is_questitem" val="true" />
 	</item>
-	<item id="1444" type="EtcItem" name="Jonas's 3rd Steak Dish">
+	<item id="1444" type="EtcItem" name="約拿斯的肉排料理">
 		<set name="icon" val="icon.etc_jewel_box_i00" />
 		<set name="immediate_effect" val="1" />
 		<set name="material" val="steel" />
@@ -433,7 +433,7 @@
 		<set name="is_stackable" val="true" />
 		<set name="is_questitem" val="true" />
 	</item>
-	<item id="1445" type="EtcItem" name="Jonas's 4th Steak Dish">
+	<item id="1445" type="EtcItem" name="約拿斯的肉排料理">
 		<set name="icon" val="icon.etc_jewel_box_i00" />
 		<set name="immediate_effect" val="1" />
 		<set name="material" val="steel" />
@@ -444,7 +444,7 @@
 		<set name="is_stackable" val="true" />
 		<set name="is_questitem" val="true" />
 	</item>
-	<item id="1446" type="EtcItem" name="Jonas's 5th Steak Dish">
+	<item id="1446" type="EtcItem" name="約拿斯的肉排料理">
 		<set name="icon" val="icon.etc_jewel_box_i00" />
 		<set name="immediate_effect" val="1" />
 		<set name="material" val="steel" />
@@ -455,7 +455,7 @@
 		<set name="is_stackable" val="true" />
 		<set name="is_questitem" val="true" />
 	</item>
-	<item id="1447" type="EtcItem" name="Mirien's Review">
+	<item id="1447" type="EtcItem" name="米麗恩的料理評價">
 		<set name="icon" val="icon.etc_letter_red_i00" />
 		<set name="immediate_effect" val="1" />
 		<set name="material" val="steel" />
@@ -466,7 +466,7 @@
 		<set name="is_stackable" val="true" />
 		<set name="is_questitem" val="true" />
 	</item>
-	<item id="1448" type="EtcItem" name="Mirien's Review">
+	<item id="1448" type="EtcItem" name="米麗恩的料理評價">
 		<set name="icon" val="icon.item_normal129" />
 		<set name="immediate_effect" val="1" />
 		<set name="material" val="steel" />
@@ -477,7 +477,7 @@
 		<set name="is_stackable" val="true" />
 		<set name="is_questitem" val="true" />
 	</item>
-	<item id="1449" type="EtcItem" name="Mirien's Review">
+	<item id="1449" type="EtcItem" name="米麗恩的料理評價">
 		<set name="icon" val="icon.item_normal129" />
 		<set name="immediate_effect" val="1" />
 		<set name="material" val="steel" />
@@ -488,7 +488,7 @@
 		<set name="is_stackable" val="true" />
 		<set name="is_questitem" val="true" />
 	</item>
-	<item id="1450" type="EtcItem" name="Mirien's Review">
+	<item id="1450" type="EtcItem" name="米麗恩的料理評價">
 		<set name="icon" val="icon.item_normal129" />
 		<set name="immediate_effect" val="1" />
 		<set name="material" val="steel" />
@@ -499,7 +499,7 @@
 		<set name="is_stackable" val="true" />
 		<set name="is_questitem" val="true" />
 	</item>
-	<item id="1451" type="EtcItem" name="Mirien's Review">
+	<item id="1451" type="EtcItem" name="米麗恩的料理評價">
 		<set name="icon" val="icon.item_normal129" />
 		<set name="immediate_effect" val="1" />
 		<set name="material" val="steel" />
@@ -510,7 +510,7 @@
 		<set name="is_stackable" val="true" />
 		<set name="is_questitem" val="true" />
 	</item>
-	<item id="1452" type="EtcItem" name="Harpy Feather">
+	<item id="1452" type="EtcItem" name="鳥妖羽翎">
 		<set name="icon" val="icon.etc_feather_white_i00" />
 		<set name="immediate_effect" val="1" />
 		<set name="material" val="steel" />
@@ -521,7 +521,7 @@
 		<set name="is_stackable" val="true" />
 		<set name="is_questitem" val="true" />
 	</item>
-	<item id="1453" type="EtcItem" name="Medusa Venom">
+	<item id="1453" type="EtcItem" name="梅杜莎毒液">
 		<set name="icon" val="icon.etc_potion_green_i00" />
 		<set name="immediate_effect" val="1" />
 		<set name="material" val="steel" />
@@ -532,7 +532,7 @@
 		<set name="is_stackable" val="true" />
 		<set name="is_questitem" val="true" />
 	</item>
-	<item id="1454" type="EtcItem" name="Wyrm's Tooth">
+	<item id="1454" type="EtcItem" name="亞龍的牙齒">
 		<set name="icon" val="icon.etc_claw_i00" />
 		<set name="immediate_effect" val="1" />
 		<set name="material" val="steel" />
@@ -543,7 +543,7 @@
 		<set name="is_stackable" val="true" />
 		<set name="is_questitem" val="true" />
 	</item>
-	<item id="1455" type="EtcItem" name="Jonas's Salad Recipe">
+	<item id="1455" type="EtcItem" name="約拿斯的沙拉料理食譜">
 		<set name="icon" val="icon.item_canuse39" />
 		<set name="immediate_effect" val="1" />
 		<set name="material" val="paper" />
@@ -555,7 +555,7 @@
 		<set name="is_stackable" val="true" />
 		<set name="is_questitem" val="true" />
 	</item>
-	<item id="1456" type="EtcItem" name="Jonas's Sauce Recipe">
+	<item id="1456" type="EtcItem" name="約拿斯的醬汁料理食譜">
 		<set name="icon" val="icon.item_canuse39" />
 		<set name="immediate_effect" val="1" />
 		<set name="material" val="paper" />
@@ -567,7 +567,7 @@
 		<set name="is_stackable" val="true" />
 		<set name="is_questitem" val="true" />
 	</item>
-	<item id="1457" type="EtcItem" name="Jonas's Steak Recipe">
+	<item id="1457" type="EtcItem" name="約拿斯的牛排料理食譜">
 		<set name="icon" val="icon.item_canuse39" />
 		<set name="immediate_effect" val="1" />
 		<set name="material" val="paper" />
@@ -579,7 +579,7 @@
 		<set name="is_stackable" val="true" />
 		<set name="is_questitem" val="true" />
 	</item>
-	<item id="1458" type="EtcItem" name="Crystal: D-Grade">
+	<item id="1458" type="EtcItem" name="結晶-D級">
 		<set name="icon" val="icon.etc_crystal_blue_i00" />
 		<set name="immediate_effect" val="1" />
 		<set name="crystal_type" val="d" />
@@ -588,7 +588,7 @@
 		<set name="enchant_enabled" val="1" />
 		<set name="is_stackable" val="true" />
 	</item>
-	<item id="1459" type="EtcItem" name="Crystal: C-Grade">
+	<item id="1459" type="EtcItem" name="結晶-C級">
 		<set name="icon" val="icon.etc_crystal_green_i00" />
 		<set name="immediate_effect" val="1" />
 		<set name="crystal_type" val="c" />
@@ -597,7 +597,7 @@
 		<set name="enchant_enabled" val="1" />
 		<set name="is_stackable" val="true" />
 	</item>
-	<item id="1460" type="EtcItem" name="Crystal: B-Grade">
+	<item id="1460" type="EtcItem" name="結晶-B級">
 		<set name="icon" val="icon.etc_crystal_red_i00" />
 		<set name="immediate_effect" val="1" />
 		<set name="crystal_type" val="b" />
@@ -606,7 +606,7 @@
 		<set name="enchant_enabled" val="1" />
 		<set name="is_stackable" val="true" />
 	</item>
-	<item id="1461" type="EtcItem" name="Crystal: A-Grade">
+	<item id="1461" type="EtcItem" name="結晶-A級">
 		<set name="icon" val="icon.etc_crystal_silver_i00" />
 		<set name="immediate_effect" val="1" />
 		<set name="crystal_type" val="a" />
@@ -615,7 +615,7 @@
 		<set name="enchant_enabled" val="1" />
 		<set name="is_stackable" val="true" />
 	</item>
-	<item id="1462" type="EtcItem" name="Crystal: S Grade">
+	<item id="1462" type="EtcItem" name="結晶-S級">
 		<set name="icon" val="icon.etc_crystal_gold_i00" />
 		<set name="immediate_effect" val="1" />
 		<set name="crystal_type" val="s" />
@@ -624,7 +624,7 @@
 		<set name="enchant_enabled" val="1" />
 		<set name="is_stackable" val="true" />
 	</item>
-	<item id="1463" type="EtcItem" name="Soulshot: D-grade">
+	<item id="1463" type="EtcItem" name="靈魂彈-D級">
 		<set name="icon" val="icon.etc_spirit_bullet_blue_i00" />
 		<set name="default_action" val="soulshot" />
 		<set name="immediate_effect" val="1" />
@@ -637,7 +637,7 @@
 		<set name="handler" val="SoulShots" />
 		<set name="item_skill" val="2150-1" />
 	</item>
-	<item id="1464" type="EtcItem" name="Soulshot: C-grade">
+	<item id="1464" type="EtcItem" name="靈魂彈-C級">
 		<set name="icon" val="icon.etc_spirit_bullet_green_i00" />
 		<set name="default_action" val="soulshot" />
 		<set name="immediate_effect" val="1" />
@@ -650,7 +650,7 @@
 		<set name="handler" val="SoulShots" />
 		<set name="item_skill" val="2151-1" />
 	</item>
-	<item id="1465" type="EtcItem" name="Soulshot: B-grade">
+	<item id="1465" type="EtcItem" name="靈魂彈-B級">
 		<set name="icon" val="icon.etc_spirit_bullet_red_i00" />
 		<set name="default_action" val="soulshot" />
 		<set name="immediate_effect" val="1" />
@@ -663,7 +663,7 @@
 		<set name="handler" val="SoulShots" />
 		<set name="item_skill" val="2152-1" />
 	</item>
-	<item id="1466" type="EtcItem" name="Soulshot: A-grade">
+	<item id="1466" type="EtcItem" name="靈魂彈-A級">
 		<set name="icon" val="icon.etc_spirit_bullet_silver_i00" />
 		<set name="default_action" val="soulshot" />
 		<set name="immediate_effect" val="1" />
@@ -676,7 +676,7 @@
 		<set name="handler" val="SoulShots" />
 		<set name="item_skill" val="2153-1" />
 	</item>
-	<item id="1467" type="EtcItem" name="Soulshot: S-grade">
+	<item id="1467" type="EtcItem" name="靈魂彈-S級">
 		<set name="icon" val="icon.etc_spirit_bullet_gold_i00" />
 		<set name="default_action" val="soulshot" />
 		<set name="immediate_effect" val="1" />
@@ -689,7 +689,7 @@
 		<set name="handler" val="SoulShots" />
 		<set name="item_skill" val="2154-1" />
 	</item>
-	<item id="1468" type="EtcItem" name="Gludin Panacen">
+	<item id="1468" type="EtcItem" name="古魯丁粹取人參">
 		<set name="icon" val="icon.etc_reagent_gold_i00" />
 		<set name="immediate_effect" val="1" />
 		<set name="crystal_type" val="s" />
@@ -697,7 +697,7 @@
 		<set name="enchant_enabled" val="1" />
 		<set name="is_stackable" val="true" />
 	</item>
-	<item id="1469" type="EtcItem" name="Gludin Vermouth">
+	<item id="1469" type="EtcItem" name="古魯丁苦艾酒">
 		<set name="icon" val="icon.etc_fruit_green_i00" />
 		<set name="immediate_effect" val="1" />
 		<set name="crystal_type" val="s" />
@@ -705,7 +705,7 @@
 		<set name="enchant_enabled" val="1" />
 		<set name="is_stackable" val="true" />
 	</item>
-	<item id="1470" type="EtcItem" name="Artemeter">
+	<item id="1470" type="EtcItem" name="血清抗劑">
 		<set name="icon" val="icon.etc_leaf_green_i00" />
 		<set name="immediate_effect" val="1" />
 		<set name="crystal_type" val="s" />
@@ -713,7 +713,7 @@
 		<set name="enchant_enabled" val="1" />
 		<set name="is_stackable" val="true" />
 	</item>
-	<item id="1471" type="Weapon" name="Silenos Blowgun">
+	<item id="1471" type="Weapon" name="賽勒諾斯吹箭">
 		<set name="icon" val="icon.weapon_monster_i00" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="dagger" />
@@ -741,7 +741,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="1472" type="Weapon" name="Dreadbane">
+	<item id="1472" type="Weapon" name="死亡騎士吹箭">
 		<set name="icon" val="icon.weapon_monster_i00" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="pole" />
@@ -770,7 +770,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="1473" type="EtcItem" name="Kasha Wolf Fang">
+	<item id="1473" type="EtcItem" name="卡沙狼的尖牙">
 		<set name="icon" val="icon.etc_claw_i00" />
 		<set name="immediate_effect" val="1" />
 		<set name="material" val="steel" />
@@ -781,7 +781,7 @@
 		<set name="is_stackable" val="true" />
 		<set name="is_questitem" val="true" />
 	</item>
-	<item id="1474" type="EtcItem" name="Grave Robber's Head">
+	<item id="1474" type="EtcItem" name="盜墓者的頭">
 		<set name="icon" val="icon.etc_skull_black_i00" />
 		<set name="immediate_effect" val="1" />
 		<set name="material" val="steel" />
@@ -792,7 +792,7 @@
 		<set name="is_stackable" val="true" />
 		<set name="is_questitem" val="true" />
 	</item>
-	<item id="1475" type="EtcItem" name="Black Soulstone">
+	<item id="1475" type="EtcItem" name="黑色靈魂石">
 		<set name="icon" val="icon.etc_bead_gold_i00" />
 		<set name="immediate_effect" val="1" />
 		<set name="material" val="steel" />
@@ -803,7 +803,7 @@
 		<set name="is_stackable" val="true" />
 		<set name="is_questitem" val="true" />
 	</item>
-	<item id="1476" type="EtcItem" name="Red Soulstone">
+	<item id="1476" type="EtcItem" name="紅色靈魂石">
 		<set name="icon" val="icon.etc_crystal_ball_red_i00" />
 		<set name="immediate_effect" val="1" />
 		<set name="material" val="steel" />
@@ -814,7 +814,7 @@
 		<set name="is_stackable" val="true" />
 		<set name="is_questitem" val="true" />
 	</item>
-	<item id="1477" type="EtcItem" name="Maraku Werewolf Head">
+	<item id="1477" type="EtcItem" name="瑪剌庫狼人的頭">
 		<set name="icon" val="icon.etc_skull_red_i00" />
 		<set name="immediate_effect" val="1" />
 		<set name="material" val="steel" />
@@ -825,7 +825,7 @@
 		<set name="is_stackable" val="true" />
 		<set name="is_questitem" val="true" />
 	</item>
-	<item id="1478" type="EtcItem" name="Darkwing Bat Fang">
+	<item id="1478" type="EtcItem" name="黑翼蝙蝠的尖牙">
 		<set name="icon" val="icon.etc_horn_i00" />
 		<set name="immediate_effect" val="1" />
 		<set name="material" val="steel" />
@@ -836,7 +836,7 @@
 		<set name="is_stackable" val="true" />
 		<set name="is_questitem" val="true" />
 	</item>
-	<item id="1479" type="EtcItem" name="Varangka's Parasite">
+	<item id="1479" type="EtcItem" name="巴蘭卡的附身靈">
 		<set name="icon" val="icon.etc_totem_black_i00" />
 		<set name="immediate_effect" val="1" />
 		<set name="material" val="steel" />
@@ -847,7 +847,7 @@
 		<set name="is_stackable" val="true" />
 		<set name="is_questitem" val="true" />
 	</item>
-	<item id="1480" type="EtcItem" name="Kasha Parasite">
+	<item id="1480" type="EtcItem" name="卡沙的附身靈">
 		<set name="icon" val="icon.etc_totem_black_i00" />
 		<set name="immediate_effect" val="1" />
 		<set name="material" val="steel" />
@@ -858,7 +858,7 @@
 		<set name="is_stackable" val="true" />
 		<set name="is_questitem" val="true" />
 	</item>
-	<item id="1481" type="EtcItem" name="Kasha Crystal">
+	<item id="1481" type="EtcItem" name="卡沙的結晶">
 		<set name="icon" val="icon.etc_crystal_green_i00" />
 		<set name="immediate_effect" val="1" />
 		<set name="material" val="steel" />
@@ -869,7 +869,7 @@
 		<set name="is_stackable" val="true" />
 		<set name="is_questitem" val="true" />
 	</item>
-	<item id="1482" type="EtcItem" name="Black Wolf Pelt">
+	<item id="1482" type="EtcItem" name="黑毛狼皮">
 		<set name="icon" val="icon.etc_leather_gray_i00" />
 		<set name="immediate_effect" val="1" />
 		<set name="material" val="steel" />
@@ -880,7 +880,7 @@
 		<set name="is_stackable" val="true" />
 		<set name="is_questitem" val="true" />
 	</item>
-	<item id="1483" type="EtcItem" name="Goblin Necklace">
+	<item id="1483" type="EtcItem" name="哥布林項鍊">
 		<set name="icon" val="icon.etc_totem_necklace_black_i00" />
 		<set name="immediate_effect" val="1" />
 		<set name="material" val="steel" />
@@ -891,7 +891,7 @@
 		<set name="is_stackable" val="true" />
 		<set name="is_questitem" val="true" />
 	</item>
-	<item id="1484" type="EtcItem" name="Goblin Pendant">
+	<item id="1484" type="EtcItem" name="哥布林墜子">
 		<set name="icon" val="icon.etc_totem_necklace_red_i00" />
 		<set name="immediate_effect" val="1" />
 		<set name="material" val="steel" />
@@ -902,7 +902,7 @@
 		<set name="is_stackable" val="true" />
 		<set name="is_questitem" val="true" />
 	</item>
-	<item id="1485" type="EtcItem" name="Goblin Lord Pendant">
+	<item id="1485" type="EtcItem" name="哥布林王墜子">
 		<set name="icon" val="icon.etc_totem_necklace_green_i00" />
 		<set name="immediate_effect" val="1" />
 		<set name="material" val="steel" />
@@ -913,7 +913,7 @@
 		<set name="is_stackable" val="true" />
 		<set name="is_questitem" val="true" />
 	</item>
-	<item id="1486" type="EtcItem" name="Suspicious Memo">
+	<item id="1486" type="EtcItem" name="可疑的留言紙條">
 		<set name="icon" val="icon.etc_piece_of_paper_gray_i00" />
 		<set name="immediate_effect" val="1" />
 		<set name="material" val="steel" />
@@ -924,7 +924,7 @@
 		<set name="is_stackable" val="true" />
 		<set name="is_questitem" val="true" />
 	</item>
-	<item id="1487" type="EtcItem" name="Suspicious Contract">
+	<item id="1487" type="EtcItem" name="可疑的合約書">
 		<set name="icon" val="icon.etc_letter_white_i00" />
 		<set name="immediate_effect" val="1" />
 		<set name="material" val="steel" />
@@ -935,7 +935,7 @@
 		<set name="is_stackable" val="true" />
 		<set name="is_questitem" val="true" />
 	</item>
-	<item id="1488" type="EtcItem" name="Chrysolite Ore">
+	<item id="1488" type="EtcItem" name="橄欖石礦石">
 		<set name="icon" val="icon.etc_plate_blue_i00" />
 		<set name="immediate_effect" val="1" />
 		<set name="material" val="steel" />
@@ -946,7 +946,7 @@
 		<set name="is_stackable" val="true" />
 		<set name="is_questitem" val="true" />
 	</item>
-	<item id="1489" type="EtcItem" name="Torn Map Fragment">
+	<item id="1489" type="EtcItem" name="破損的地圖碎片">
 		<set name="icon" val="icon.etc_piece_of_paper_black_i00" />
 		<set name="immediate_effect" val="1" />
 		<set name="material" val="steel" />
@@ -957,7 +957,7 @@
 		<set name="is_stackable" val="true" />
 		<set name="is_questitem" val="true" />
 	</item>
-	<item id="1490" type="EtcItem" name="Hidden Ore Map">
+	<item id="1490" type="EtcItem" name="隱藏的礦脈地圖">
 		<set name="icon" val="icon.etc_recipe_blue_i00" />
 		<set name="immediate_effect" val="1" />
 		<set name="material" val="steel" />
@@ -968,7 +968,7 @@
 		<set name="is_stackable" val="true" />
 		<set name="is_questitem" val="true" />
 	</item>
-	<item id="1491" type="EtcItem" name="Bat Fang">
+	<item id="1491" type="EtcItem" name="蝙蝠的尖牙">
 		<set name="icon" val="icon.etc_claw_i00" />
 		<set name="immediate_effect" val="1" />
 		<set name="material" val="steel" />
@@ -979,7 +979,7 @@
 		<set name="is_stackable" val="true" />
 		<set name="is_questitem" val="true" />
 	</item>
-	<item id="1492" type="EtcItem" name="Floating Stone">
+	<item id="1492" type="EtcItem" name="浮石">
 		<set name="icon" val="icon.etc_crystal_ball_blue_i00" />
 		<set name="immediate_effect" val="1" />
 		<set name="material" val="steel" />
@@ -990,7 +990,7 @@
 		<set name="is_stackable" val="true" />
 		<set name="is_questitem" val="true" />
 	</item>
-	<item id="1493" type="EtcItem" name="Tarantula Spider Silk">
+	<item id="1493" type="EtcItem" name="狼蛛網">
 		<set name="icon" val="icon.etc_skein_white_i00" />
 		<set name="immediate_effect" val="1" />
 		<set name="material" val="steel" />
@@ -1001,7 +1001,7 @@
 		<set name="is_stackable" val="true" />
 		<set name="is_questitem" val="true" />
 	</item>
-	<item id="1494" type="EtcItem" name="Tarantula Spinnerette">
+	<item id="1494" type="EtcItem" name="狼蛛網噴口">
 		<set name="icon" val="icon.etc_pouch_gray_i00" />
 		<set name="immediate_effect" val="1" />
 		<set name="material" val="steel" />
@@ -1012,7 +1012,7 @@
 		<set name="is_stackable" val="true" />
 		<set name="is_questitem" val="true" />
 	</item>
-	<item id="1495" type="EtcItem" name="Giant Spider Skin">
+	<item id="1495" type="EtcItem" name="巨大蜘蛛皮">
 		<set name="icon" val="icon.etc_leather_gray_i00" />
 		<set name="immediate_effect" val="1" />
 		<set name="material" val="steel" />
@@ -1023,7 +1023,7 @@
 		<set name="is_stackable" val="true" />
 		<set name="is_questitem" val="true" />
 	</item>
-	<item id="1496" type="EtcItem" name="Voucher of Flame">
+	<item id="1496" type="EtcItem" name="火焰憑證">
 		<set name="icon" val="icon.etc_scroll_of_enchant_weapon_i01" />
 		<set name="immediate_effect" val="1" />
 		<set name="material" val="steel" />
@@ -1034,7 +1034,7 @@
 		<set name="is_stackable" val="true" />
 		<set name="is_questitem" val="true" />
 	</item>
-	<item id="1497" type="EtcItem" name="Necklace of Flame">
+	<item id="1497" type="EtcItem" name="火焰項鍊">
 		<set name="icon" val="icon.item_normal142" />
 		<set name="immediate_effect" val="1" />
 		<set name="material" val="steel" />
@@ -1045,7 +1045,7 @@
 		<set name="is_stackable" val="true" />
 		<set name="is_questitem" val="true" />
 	</item>
-	<item id="1498" type="EtcItem" name="License of Miner">
+	<item id="1498" type="EtcItem" name="礦工資格證明">
 		<set name="icon" val="icon.etc_letter_blue_i00" />
 		<set name="immediate_effect" val="1" />
 		<set name="material" val="steel" />
@@ -1056,7 +1056,7 @@
 		<set name="is_stackable" val="true" />
 		<set name="is_questitem" val="true" />
 	</item>
-	<item id="1499" type="EtcItem" name="Laferon's Recommendation">
+	<item id="1499" type="EtcItem" name="拉培倫的推薦函">
 		<set name="icon" val="icon.item_canuse15" />
 		<set name="immediate_effect" val="1" />
 		<set name="material" val="steel" />

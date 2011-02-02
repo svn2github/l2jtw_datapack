@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <list>
-	<item id="9300" type="Weapon" name="Sharpshooter">
+	<item id="9300" type="Weapon" name="滅形弩">
 		<set name="icon" val="icon.weapon_taslam_i00" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="crossbow" />
@@ -31,7 +31,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="9301" type="Weapon" name="Sharpshooter - Guidance">
+	<item id="9301" type="Weapon" name="滅形弩">
 		<set name="icon" val="icon.weapon_taslam_i01" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="crossbow" />
@@ -63,7 +63,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="9302" type="Weapon" name="Sharpshooter - Miser">
+	<item id="9302" type="Weapon" name="滅形弩">
 		<set name="icon" val="icon.weapon_taslam_i01" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="crossbow" />
@@ -100,7 +100,7 @@
 			</set>
 		</for>
 	</item>
-	<item id="9303" type="Weapon" name="Sharpshooter - Cheap Shot">
+	<item id="9303" type="Weapon" name="滅形弩">
 		<set name="icon" val="icon.weapon_taslam_i01" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="crossbow" />
@@ -133,7 +133,7 @@
 			<mul order="0x08" stat="MpConsume" val="0.88" />
 		</for>
 	</item>
-	<item id="9304" type="Weapon" name="Military Fleuret">
+	<item id="9304" type="Weapon" name="突襲鈍劍">
 		<set name="icon" val="icon.weapon_assult_fleuret_i00" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="rapier" />
@@ -164,7 +164,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="9305" type="Weapon" name="Military Fleuret - Guidance">
+	<item id="9305" type="Weapon" name="突襲鈍劍">
 		<set name="icon" val="icon.weapon_assult_fleuret_i01" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="rapier" />
@@ -196,7 +196,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="9306" type="Weapon" name="Military Fleuret - Focus">
+	<item id="9306" type="Weapon" name="突襲鈍劍">
 		<set name="icon" val="icon.weapon_assult_fleuret_i01" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="rapier" />
@@ -228,7 +228,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="9307" type="Weapon" name="Military Fleuret - Back Blow">
+	<item id="9307" type="Weapon" name="突襲鈍劍">
 		<set name="icon" val="icon.weapon_assult_fleuret_i01" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="rapier" />
@@ -260,7 +260,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="9308" type="Weapon" name="Innominate Victory">
+	<item id="9308" type="Weapon" name="無名之勝">
 		<set name="icon" val="icon.weapon_nameless_victory_i00" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="ancientsword" />
@@ -290,7 +290,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="9309" type="Weapon" name="Innominate Victory - Health">
+	<item id="9309" type="Weapon" name="無名之勝">
 		<set name="icon" val="icon.weapon_nameless_victory_i01" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="ancientsword" />
@@ -321,7 +321,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="9310" type="Weapon" name="Innominate Victory - Critical Damage">
+	<item id="9310" type="Weapon" name="無名之勝">
 		<set name="icon" val="icon.weapon_nameless_victory_i01" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="ancientsword" />
@@ -352,7 +352,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="9311" type="Weapon" name="Innominate Victory - Focus">
+	<item id="9311" type="Weapon" name="無名之勝">
 		<set name="icon" val="icon.weapon_nameless_victory_i01" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="ancientsword" />
@@ -383,7 +383,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="9312" type="Weapon" name="Peacemaker">
+	<item id="9312" type="Weapon" name="和平使者">
 		<set name="icon" val="icon.weapon_peace_maker_i00" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="crossbow" />
@@ -414,7 +414,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="9313" type="Weapon" name="Peacemaker - Evasion">
+	<item id="9313" type="Weapon" name="和平使者">
 		<set name="icon" val="icon.weapon_peace_maker_i01" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="crossbow" />
@@ -446,7 +446,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="9314" type="Weapon" name="Peacemaker - Critical Bleed">
+	<item id="9314" type="Weapon" name="和平使者">
 		<set name="icon" val="icon.weapon_peace_maker_i01" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="crossbow" />
@@ -479,7 +479,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="9315" type="Weapon" name="Peacemaker - Miser">
+	<item id="9315" type="Weapon" name="和平使者">
 		<set name="icon" val="icon.weapon_peace_maker_i01" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="crossbow" />
@@ -516,7 +516,7 @@
 			</set>
 		</for>
 	</item>
-	<item id="9316" type="Weapon" name="Colichemarde">
+	<item id="9316" type="Weapon" name="華麗細劍">
 		<set name="icon" val="icon.weapon_colichemarde_i00" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="rapier" />
@@ -547,7 +547,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="9317" type="Weapon" name="Colichemarde - Focus">
+	<item id="9317" type="Weapon" name="華麗細劍">
 		<set name="icon" val="icon.weapon_colichemarde_i01" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="rapier" />
@@ -579,7 +579,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="9318" type="Weapon" name="Colichemarde - Critical Damage">
+	<item id="9318" type="Weapon" name="華麗細劍">
 		<set name="icon" val="icon.weapon_colichemarde_i01" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="rapier" />
@@ -611,7 +611,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="9319" type="Weapon" name="Colichemarde - Haste">
+	<item id="9319" type="Weapon" name="華麗細劍">
 		<set name="icon" val="icon.weapon_colichemarde_i01" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="rapier" />
@@ -643,7 +643,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="9320" type="Weapon" name="Dismantler">
+	<item id="9320" type="Weapon" name="裂解劍">
 		<set name="icon" val="icon.weapon_dismantler_i00" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="ancientsword" />
@@ -673,7 +673,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="9321" type="Weapon" name="Dismantler - Critical Drain">
+	<item id="9321" type="Weapon" name="裂解劍">
 		<set name="icon" val="icon.weapon_dismantler_i01" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="ancientsword" />
@@ -705,7 +705,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="9322" type="Weapon" name="Dismantler - Health">
+	<item id="9322" type="Weapon" name="裂解劍">
 		<set name="icon" val="icon.weapon_dismantler_i01" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="ancientsword" />
@@ -736,7 +736,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="9323" type="Weapon" name="Dismantler - Critical Bleed">
+	<item id="9323" type="Weapon" name="裂解劍">
 		<set name="icon" val="icon.weapon_dismantler_i01" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="ancientsword" />
@@ -768,7 +768,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="9324" type="Weapon" name="Hell Hound">
+	<item id="9324" type="Weapon" name="冥犬之牙">
 		<set name="icon" val="icon.weapon_hell_hound_i00" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="crossbow" />
@@ -799,7 +799,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="9325" type="Weapon" name="Hell Hound - Guidance">
+	<item id="9325" type="Weapon" name="冥犬之牙">
 		<set name="icon" val="icon.weapon_hell_hound_i01" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="crossbow" />
@@ -831,7 +831,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="9326" type="Weapon" name="Hell Hound - Quick Recovery">
+	<item id="9326" type="Weapon" name="冥犬之牙">
 		<set name="icon" val="icon.weapon_hell_hound_i01" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="crossbow" />
@@ -862,7 +862,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="9327" type="Weapon" name="Hell Hound - Cheap Shot">
+	<item id="9327" type="Weapon" name="冥犬之牙">
 		<set name="icon" val="icon.weapon_hell_hound_i01" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="crossbow" />
@@ -895,7 +895,7 @@
 			<mul order="0x08" stat="MpConsume" val="0.88" />
 		</for>
 	</item>
-	<item id="9328" type="Weapon" name="White Lightning">
+	<item id="9328" type="Weapon" name="天雷">
 		<set name="icon" val="icon.weapon_lightning_blaze_i00" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="rapier" />
@@ -926,7 +926,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="9329" type="Weapon" name="White Lightning - Critical Poison">
+	<item id="9329" type="Weapon" name="天雷">
 		<set name="icon" val="icon.weapon_lightning_blaze_i01" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="rapier" />
@@ -960,7 +960,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="9330" type="Weapon" name="White Lightning - Haste">
+	<item id="9330" type="Weapon" name="天雷">
 		<set name="icon" val="icon.weapon_lightning_blaze_i01" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="rapier" />
@@ -992,7 +992,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="9331" type="Weapon" name="White Lightning - Anger">
+	<item id="9331" type="Weapon" name="天雷">
 		<set name="icon" val="icon.weapon_lightning_blaze_i01" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="rapier" />
@@ -1024,7 +1024,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="9332" type="Weapon" name="Divine Pain">
+	<item id="9332" type="Weapon" name="神怨">
 		<set name="icon" val="icon.weapon_pain_of_godness_i00" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="ancientsword" />
@@ -1054,7 +1054,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="9333" type="Weapon" name="Divine Pain - Haste">
+	<item id="9333" type="Weapon" name="神怨">
 		<set name="icon" val="icon.weapon_pain_of_godness_i01" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="ancientsword" />
@@ -1085,7 +1085,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="9334" type="Weapon" name="Divine Pain - Critical Damage">
+	<item id="9334" type="Weapon" name="神怨">
 		<set name="icon" val="icon.weapon_pain_of_godness_i01" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="ancientsword" />
@@ -1116,7 +1116,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="9335" type="Weapon" name="Divine Pain - Focus">
+	<item id="9335" type="Weapon" name="神怨">
 		<set name="icon" val="icon.weapon_pain_of_godness_i01" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="ancientsword" />
@@ -1147,7 +1147,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="9336" type="Weapon" name="Doomchanter">
+	<item id="9336" type="Weapon" name="末日咒詛">
 		<set name="icon" val="icon.weapon_doom_singer_i00" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="crossbow" />
@@ -1178,7 +1178,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="9337" type="Weapon" name="Doomchanter - Light">
+	<item id="9337" type="Weapon" name="末日咒詛">
 		<set name="icon" val="icon.weapon_doom_singer_i01" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="crossbow" />
@@ -1210,7 +1210,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="9338" type="Weapon" name="Doomchanter - Critical Bleed">
+	<item id="9338" type="Weapon" name="末日咒詛">
 		<set name="icon" val="icon.weapon_doom_singer_i01" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="crossbow" />
@@ -1244,7 +1244,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="9339" type="Weapon" name="Doomchanter - Mana Up">
+	<item id="9339" type="Weapon" name="末日咒詛">
 		<set name="icon" val="icon.weapon_doom_singer_i01" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="crossbow" />
@@ -1276,7 +1276,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="9340" type="Weapon" name="Lacerator">
+	<item id="9340" type="Weapon" name="貪婪刺劍">
 		<set name="icon" val="icon.weapon_greed_stinger_i00" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="rapier" />
@@ -1307,7 +1307,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="9341" type="Weapon" name="Lacerator - Critical Damage">
+	<item id="9341" type="Weapon" name="貪婪刺劍">
 		<set name="icon" val="icon.weapon_greed_stinger_i01" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="rapier" />
@@ -1339,7 +1339,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="9342" type="Weapon" name="Lacerator - Health">
+	<item id="9342" type="Weapon" name="貪婪刺劍">
 		<set name="icon" val="icon.weapon_greed_stinger_i01" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="rapier" />
@@ -1371,7 +1371,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="9343" type="Weapon" name="Lacerator - Rsk. Focus">
+	<item id="9343" type="Weapon" name="貪婪刺劍">
 		<set name="icon" val="icon.weapon_greed_stinger_i01" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="rapier" />
@@ -1403,7 +1403,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="9344" type="Weapon" name="Undertaker">
+	<item id="9344" type="Weapon" name="死神使者">
 		<set name="icon" val="icon.weapon_death_bringer_i00" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="ancientsword" />
@@ -1433,7 +1433,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="9345" type="Weapon" name="Undertaker - Health">
+	<item id="9345" type="Weapon" name="死神使者">
 		<set name="icon" val="icon.weapon_death_bringer_i01" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="ancientsword" />
@@ -1464,7 +1464,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="9346" type="Weapon" name="Undertaker - Critical Bleed">
+	<item id="9346" type="Weapon" name="死神使者">
 		<set name="icon" val="icon.weapon_death_bringer_i01" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="ancientsword" />
@@ -1497,7 +1497,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="9347" type="Weapon" name="Undertaker - Critical Drain">
+	<item id="9347" type="Weapon" name="死神使者">
 		<set name="icon" val="icon.weapon_death_bringer_i01" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="ancientsword" />
@@ -1530,7 +1530,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="9348" type="Weapon" name="Reaper">
+	<item id="9348" type="Weapon" name="靈魂弩">
 		<set name="icon" val="icon.weapon_soul_shooter_i00" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="crossbow" />
@@ -1561,7 +1561,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="9349" type="Weapon" name="Reaper - Cheap Shot">
+	<item id="9349" type="Weapon" name="靈魂弩">
 		<set name="icon" val="icon.weapon_soul_shooter_i01" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="crossbow" />
@@ -1594,7 +1594,7 @@
 			<mul order="0x08" stat="MpConsume" val="0.88" />
 		</for>
 	</item>
-	<item id="9350" type="Weapon" name="Reaper - Quick Recovery">
+	<item id="9350" type="Weapon" name="靈魂弩">
 		<set name="icon" val="icon.weapon_soul_shooter_i01" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="crossbow" />
@@ -1626,7 +1626,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="9351" type="Weapon" name="Reaper - Critical Poison">
+	<item id="9351" type="Weapon" name="靈魂弩">
 		<set name="icon" val="icon.weapon_soul_shooter_i01" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="crossbow" />
@@ -1660,7 +1660,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="9352" type="Weapon" name="Éclair Bijou">
+	<item id="9352" type="Weapon" name="閃光之珠">
 		<set name="icon" val="icon.weapon_greed_stinger_i00" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="rapier" />
@@ -1691,7 +1691,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="9353" type="Weapon" name="Éclair Bijou - Haste">
+	<item id="9353" type="Weapon" name="閃光之珠">
 		<set name="icon" val="icon.weapon_greed_stinger_i01" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="rapier" />
@@ -1723,7 +1723,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="9354" type="Weapon" name="Éclair Bijou - Health">
+	<item id="9354" type="Weapon" name="閃光之珠">
 		<set name="icon" val="icon.weapon_greed_stinger_i01" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="rapier" />
@@ -1755,7 +1755,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="9355" type="Weapon" name="Éclair Bijou - Critical Poison">
+	<item id="9355" type="Weapon" name="閃光之珠">
 		<set name="icon" val="icon.weapon_greed_stinger_i01" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="rapier" />
@@ -1789,7 +1789,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="9356" type="Weapon" name="Durendal">
+	<item id="9356" type="Weapon" name="光明守護之劍">
 		<set name="icon" val="icon.weapon_death_bringer_i00" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="ancientsword" />
@@ -1819,7 +1819,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="9357" type="Weapon" name="Durendal - Focus">
+	<item id="9357" type="Weapon" name="光明守護之劍">
 		<set name="icon" val="icon.weapon_death_bringer_i01" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="ancientsword" />
@@ -1850,7 +1850,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="9358" type="Weapon" name="Durendal - Haste">
+	<item id="9358" type="Weapon" name="光明守護之劍">
 		<set name="icon" val="icon.weapon_death_bringer_i01" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="ancientsword" />
@@ -1881,7 +1881,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="9359" type="Weapon" name="Durendal - Health">
+	<item id="9359" type="Weapon" name="光明守護之劍">
 		<set name="icon" val="icon.weapon_death_bringer_i01" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="ancientsword" />
@@ -1912,7 +1912,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="9360" type="Weapon" name="Screaming Vengeance">
+	<item id="9360" type="Weapon" name="復仇爆弩">
 		<set name="icon" val="icon.weapon_soul_shooter_i00" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="crossbow" />
@@ -1943,7 +1943,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="9361" type="Weapon" name="Screaming Vengeance - Cheap Shot">
+	<item id="9361" type="Weapon" name="復仇爆弩">
 		<set name="icon" val="icon.weapon_soul_shooter_i01" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="crossbow" />
@@ -1976,7 +1976,7 @@
 			<mul order="0x08" stat="MpConsume" val="0.88" />
 		</for>
 	</item>
-	<item id="9362" type="Weapon" name="Screaming Vengeance - Focus">
+	<item id="9362" type="Weapon" name="復仇爆弩">
 		<set name="icon" val="icon.weapon_soul_shooter_i01" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="crossbow" />
@@ -2008,7 +2008,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="9363" type="Weapon" name="Screaming Vengeance - Quick Recovery">
+	<item id="9363" type="Weapon" name="復仇爆弩">
 		<set name="icon" val="icon.weapon_soul_shooter_i01" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="crossbow" />
@@ -2040,7 +2040,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="9364" type="Weapon" name="Laevateinn">
+	<item id="9364" type="Weapon" name="烈焚天">
 		<set name="icon" val="icon.weapon_leavatein_i00" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="rapier" />
@@ -2072,7 +2072,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="9365" type="Weapon" name="Laevateinn - Haste">
+	<item id="9365" type="Weapon" name="烈焚天">
 		<set name="icon" val="icon.weapon_leavatein_i01" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="rapier" />
@@ -2105,7 +2105,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="9366" type="Weapon" name="Laevateinn - Health">
+	<item id="9366" type="Weapon" name="烈焚天">
 		<set name="icon" val="icon.weapon_leavatein_i01" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="rapier" />
@@ -2138,7 +2138,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="9367" type="Weapon" name="Laevateinn - Focus">
+	<item id="9367" type="Weapon" name="烈焚天">
 		<set name="icon" val="icon.weapon_leavatein_i01" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="rapier" />
@@ -2171,7 +2171,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="9368" type="Weapon" name="Gram">
+	<item id="9368" type="Weapon" name="勝利之劍格蘭">
 		<set name="icon" val="icon.weapon_gram_i00" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="ancientsword" />
@@ -2202,7 +2202,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="9369" type="Weapon" name="Gram - Haste">
+	<item id="9369" type="Weapon" name="勝利之劍格蘭">
 		<set name="icon" val="icon.weapon_gram_i01" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="ancientsword" />
@@ -2234,7 +2234,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="9370" type="Weapon" name="Gram - Health">
+	<item id="9370" type="Weapon" name="勝利之劍格蘭">
 		<set name="icon" val="icon.weapon_gram_i01" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="ancientsword" />
@@ -2266,7 +2266,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="9371" type="Weapon" name="Gram - Focus">
+	<item id="9371" type="Weapon" name="勝利之劍格蘭">
 		<set name="icon" val="icon.weapon_gram_i01" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="ancientsword" />
@@ -2298,7 +2298,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="9372" type="Weapon" name="Sarnga">
+	<item id="9372" type="Weapon" name="薩倫伽神弩">
 		<set name="icon" val="icon.weapon_sarnga_i00" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="crossbow" />
@@ -2330,7 +2330,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="9373" type="Weapon" name="Sarnga - Cheap Shot">
+	<item id="9373" type="Weapon" name="薩倫伽神弩">
 		<set name="icon" val="icon.weapon_sarnga_i01" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="crossbow" />
@@ -2364,7 +2364,7 @@
 			<mul order="0x08" stat="MpConsume" val="0.88" />
 		</for>
 	</item>
-	<item id="9374" type="Weapon" name="Sarnga - Focus">
+	<item id="9374" type="Weapon" name="薩倫伽神弩">
 		<set name="icon" val="icon.weapon_sarnga_i01" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="crossbow" />
@@ -2397,7 +2397,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="9375" type="Weapon" name="Sarnga - Critical Slow">
+	<item id="9375" type="Weapon" name="薩倫伽神弩">
 		<set name="icon" val="icon.weapon_sarnga_i01" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="crossbow" />
@@ -2432,7 +2432,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="9376" type="Weapon" name="Dynasty Rapier">
+	<item id="9376" type="Weapon" name="王朝細劍">
 		<set name="icon" val="icon.weapon_dynasty_rapier_i00" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="rapier" />
@@ -2464,7 +2464,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="9377" type="Weapon" name="Dynasty Rapier - Focus">
+	<item id="9377" type="Weapon" name="王朝細劍">
 		<set name="icon" val="icon.weapon_dynasty_rapier_i01" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="rapier" />
@@ -2497,7 +2497,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="9378" type="Weapon" name="Dynasty Rapier - Health">
+	<item id="9378" type="Weapon" name="王朝細劍">
 		<set name="icon" val="icon.weapon_dynasty_rapier_i01" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="rapier" />
@@ -2530,7 +2530,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="9379" type="Weapon" name="Dynasty Rapier - Light">
+	<item id="9379" type="Weapon" name="王朝細劍">
 		<set name="icon" val="icon.weapon_dynasty_rapier_i01" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="rapier" />
@@ -2563,7 +2563,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="9380" type="Weapon" name="Dynasty Ancient Sword">
+	<item id="9380" type="Weapon" name="王朝古代劍">
 		<set name="icon" val="icon.weapon_dynasty_ancient_sword_i00" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="ancientsword" />
@@ -2594,7 +2594,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="9381" type="Weapon" name="Dynasty Ancient Sword - Focus">
+	<item id="9381" type="Weapon" name="王朝古代劍">
 		<set name="icon" val="icon.weapon_dynasty_ancient_sword_i01" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="ancientsword" />
@@ -2626,7 +2626,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="9382" type="Weapon" name="Dynasty Ancient Sword - Health">
+	<item id="9382" type="Weapon" name="王朝古代劍">
 		<set name="icon" val="icon.weapon_dynasty_ancient_sword_i01" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="ancientsword" />
@@ -2658,7 +2658,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="9383" type="Weapon" name="Dynasty Ancient Sword - Light">
+	<item id="9383" type="Weapon" name="王朝古代劍">
 		<set name="icon" val="icon.weapon_dynasty_ancient_sword_i01" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="ancientsword" />
@@ -2690,7 +2690,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="9384" type="Weapon" name="Dynasty Crossbow">
+	<item id="9384" type="Weapon" name="王朝十字弓">
 		<set name="icon" val="icon.weapon_dynasty_crossbow_i00" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="crossbow" />
@@ -2722,7 +2722,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="9385" type="Weapon" name="Dynasty Crossbow - Cheap Shot">
+	<item id="9385" type="Weapon" name="王朝十字弓">
 		<set name="icon" val="icon.weapon_dynasty_crossbow_i01" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="crossbow" />
@@ -2756,7 +2756,7 @@
 			<mul order="0x08" stat="MpConsume" val="0.88" />
 		</for>
 	</item>
-	<item id="9386" type="Weapon" name="Dynasty Crossbow - Guidance">
+	<item id="9386" type="Weapon" name="王朝十字弓">
 		<set name="icon" val="icon.weapon_dynasty_crossbow_i01" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="crossbow" />
@@ -2789,7 +2789,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="9387" type="Weapon" name="Dynasty Crossbow - Focus">
+	<item id="9387" type="Weapon" name="王朝十字弓">
 		<set name="icon" val="icon.weapon_dynasty_crossbow_i01" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="crossbow" />
@@ -2822,7 +2822,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="9388" type="Weapon" name="Infinity Rapier">
+	<item id="9388" type="Weapon" name="無限瞬閃">
 		<set name="icon" val="icon.weapon_infinity_rapier_i00" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="rapier" />
@@ -2860,7 +2860,7 @@
 			<player olympiad="false" />
 		</cond>
 	</item>
-	<item id="9389" type="Weapon" name="Infinity Sword">
+	<item id="9389" type="Weapon" name="無限岩裂">
 		<set name="icon" val="icon.weapon_infinity_sword_i00" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="ancientsword" />
@@ -2896,7 +2896,7 @@
 			<player olympiad="false" />
 		</cond>
 	</item>
-	<item id="9390" type="Weapon" name="Infinity Shooter">
+	<item id="9390" type="Weapon" name="無限追魂">
 		<set name="icon" val="icon.weapon_infinity_shooter_i00" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="crossbow" />
@@ -2934,7 +2934,7 @@
 			<player olympiad="false" />
 		</cond>
 	</item>
-	<item id="9391" type="Armor" name="Human Circlet">
+	<item id="9391" type="Armor" name="人類頭箍">
 		<set name="icon" val="icon.accessary_human_circlet_i00" />
 		<set name="default_action" val="equip" />
 		<set name="bodypart" val="hairall" />
@@ -2946,7 +2946,7 @@
 			<player race="Human" />
 		</cond>
 	</item>
-	<item id="9392" type="Armor" name="Elven Circlet">
+	<item id="9392" type="Armor" name="精靈頭箍">
 		<set name="icon" val="icon.accessary_elf_circlet_i00" />
 		<set name="default_action" val="equip" />
 		<set name="bodypart" val="hairall" />
@@ -2958,7 +2958,7 @@
 			<player race="Elf" />
 		</cond>
 	</item>
-	<item id="9393" type="Armor" name="Dark Elven Circlet">
+	<item id="9393" type="Armor" name="黑暗精靈頭箍">
 		<set name="icon" val="icon.accessary_darkelf_circlet_i00" />
 		<set name="default_action" val="equip" />
 		<set name="bodypart" val="hairall" />
@@ -2970,7 +2970,7 @@
 			<player race="DarkElf" />
 		</cond>
 	</item>
-	<item id="9394" type="Armor" name="Orcish Circlet">
+	<item id="9394" type="Armor" name="半獸人頭箍">
 		<set name="icon" val="icon.accessary_orc_circlet_i00" />
 		<set name="default_action" val="equip" />
 		<set name="bodypart" val="hairall" />
@@ -2982,7 +2982,7 @@
 			<player race="Orc" />
 		</cond>
 	</item>
-	<item id="9395" type="Armor" name="Dwarven Circlet">
+	<item id="9395" type="Armor" name="矮人頭箍">
 		<set name="icon" val="icon.accessary_dwarf_circlet_i00" />
 		<set name="default_action" val="equip" />
 		<set name="bodypart" val="hairall" />
@@ -2994,7 +2994,7 @@
 			<player race="Dwarf" />
 		</cond>
 	</item>
-	<item id="9396" type="Armor" name="Kamaelic Circlet">
+	<item id="9396" type="Armor" name="闇天使頭箍">
 		<set name="icon" val="icon.accessary_kamael_circlet_i00" />
 		<set name="default_action" val="equip" />
 		<set name="bodypart" val="hairall" />
@@ -3006,7 +3006,7 @@
 			<player race="Kamael" />
 		</cond>
 	</item>
-	<item id="9397" type="Armor" name="Shield Master Circlet">
+	<item id="9397" type="Armor" name="護盾大師頭箍">
 		<set name="icon" val="icon.accessary_knight_circlet_i00" />
 		<set name="default_action" val="equip" />
 		<set name="bodypart" val="hairall" />
@@ -3018,7 +3018,7 @@
 			<player class_id_restriction="90, 91, 99, 106" />
 		</cond>
 	</item>
-	<item id="9398" type="Armor" name="Bard Circlet">
+	<item id="9398" type="Armor" name="詩人頭箍">
 		<set name="icon" val="icon.accessary_enchant_knight_circlet_i00" />
 		<set name="default_action" val="equip" />
 		<set name="bodypart" val="hairall" />
@@ -3030,7 +3030,7 @@
 			<player class_id_restriction="100, 107" />
 		</cond>
 	</item>
-	<item id="9399" type="Armor" name="Force Master Circlet">
+	<item id="9399" type="Armor" name="力量大師頭箍">
 		<set name="icon" val="icon.accessary_force_master_circlet_i00" />
 		<set name="default_action" val="equip" />
 		<set name="bodypart" val="hairall" />

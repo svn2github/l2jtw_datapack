@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <list>
-	<item id="9000" type="Weapon" name="Shadow Item: Stormbringer*Stormbringer">
+	<item id="9000" type="Weapon" name="幻象裝備-暴風之劍*暴風之劍">
 		<set name="icon" val="icon.time_weapon_dual_sword_i00" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="dual" />
@@ -25,7 +25,7 @@
 			<set order="0x08" stat="pAtkSpd" val="325" />
 		</for>
 	</item>
-	<item id="9001" type="Weapon" name="Shadow Item: Great Sword">
+	<item id="9001" type="Weapon" name="幻象裝備-巨劍">
 		<set name="icon" val="icon.weapon_great_sword_i00" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="bigsword" />
@@ -50,7 +50,7 @@
 			<set order="0x08" stat="pAtkSpd" val="325" />
 		</for>
 	</item>
-	<item id="9002" type="Weapon" name="Shadow Item: Heavy War Axe">
+	<item id="9002" type="Weapon" name="幻象裝備-巨大戰斧">
 		<set name="icon" val="icon.weapon_heavy_war_axe_i00" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="blunt" />
@@ -77,7 +77,7 @@
 			<set order="0x08" stat="pAtkSpd" val="379" />
 		</for>
 	</item>
-	<item id="9003" type="Weapon" name="Shadow Item: Sprite's Staff">
+	<item id="9003" type="Weapon" name="幻象裝備-精靈魔杖">
 		<set name="icon" val="icon.weapon_sprites_staff_i00" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="bigblunt" />
@@ -105,7 +105,7 @@
 			<set order="0x08" stat="pAtkSpd" val="325" />
 		</for>
 	</item>
-	<item id="9004" type="Weapon" name="Shadow Item: Keshanberk">
+	<item id="9004" type="Weapon" name="幻象裝備-柯貝克劍">
 		<set name="icon" val="icon.weapon_kshanberk_i00" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="sword" />
@@ -130,7 +130,7 @@
 			<set order="0x08" stat="pAtkSpd" val="379" />
 		</for>
 	</item>
-	<item id="9005" type="Weapon" name="Shadow Item: Sword of Valhalla">
+	<item id="9005" type="Weapon" name="幻象裝備-聖堂之劍">
 		<set name="icon" val="icon.weapon_sword_of_valhalla_i00" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="sword" />
@@ -156,7 +156,7 @@
 			<set order="0x08" stat="pAtkSpd" val="379" />
 		</for>
 	</item>
-	<item id="9006" type="Weapon" name="Shadow Item: Kris">
+	<item id="9006" type="Weapon" name="幻象裝備-波形刃">
 		<set name="icon" val="icon.weapon_kris_i00" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="dagger" />
@@ -183,7 +183,7 @@
 			<set order="0x08" stat="pAtkSpd" val="433" />
 		</for>
 	</item>
-	<item id="9007" type="Weapon" name="Shadow Item: Arthro Nail">
+	<item id="9007" type="Weapon" name="幻象裝備-阿斯拉爪">
 		<set name="icon" val="icon.weapon_arthro_nail_i00" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="dualfist" />
@@ -210,7 +210,7 @@
 			<set order="0x08" stat="pAtkSpd" val="325" />
 		</for>
 	</item>
-	<item id="9008" type="Weapon" name="Shadow Item: Dark Elven Long Bow">
+	<item id="9008" type="Weapon" name="幻象裝備-黑暗精靈長弓">
 		<set name="icon" val="icon.weapon_dark_elven_long_bow_i00" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="bow" />
@@ -239,7 +239,7 @@
 			<set order="0x08" stat="pAtkSpd" val="227" />
 		</for>
 	</item>
-	<item id="9009" type="Weapon" name="Shadow Item: Sword of Delusion*Sword of Delusion">
+	<item id="9009" type="Weapon" name="幻象裝備-迷惑之劍*迷惑之劍">
 		<set name="icon" val="icon.time_weapon_dual_sword_i00" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="dual" />
@@ -264,7 +264,7 @@
 			<set order="0x08" stat="pAtkSpd" val="325" />
 		</for>
 	</item>
-	<item id="9010" type="Weapon" name="Shadow Item: Great Axe">
+	<item id="9010" type="Weapon" name="幻象裝備-巨斧">
 		<set name="icon" val="icon.weapon_great_axe_i00" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="pole" />
@@ -292,7 +292,7 @@
 			<set order="0x08" stat="pAtkSpd" val="325" />
 		</for>
 	</item>
-	<item id="9011" type="Weapon" name="Shadow Item: Tallum Blade">
+	<item id="9011" type="Weapon" name="幻象裝備-塔魯刀">
 		<set name="icon" val="icon.weapon_tallum_blade_i00" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="sword" />
@@ -317,7 +317,7 @@
 			<set order="0x08" stat="pAtkSpd" val="379" />
 		</for>
 	</item>
-	<item id="9012" type="Weapon" name="Shadow Item: Halberd">
+	<item id="9012" type="Weapon" name="幻象裝備-長柄戰戟">
 		<set name="icon" val="icon.weapon_halbard_i00" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="pole" />
@@ -345,7 +345,7 @@
 			<set order="0x08" stat="pAtkSpd" val="325" />
 		</for>
 	</item>
-	<item id="9013" type="Weapon" name="Shadow Item: Dasparion's Staff">
+	<item id="9013" type="Weapon" name="幻象裝備-帕黎恩魔杖">
 		<set name="icon" val="icon.weapon_dasparions_staff_i00" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="bigblunt" />
@@ -373,7 +373,7 @@
 			<set order="0x08" stat="pAtkSpd" val="325" />
 		</for>
 	</item>
-	<item id="9014" type="Weapon" name="Shadow Item: Bloody Orchid">
+	<item id="9014" type="Weapon" name="幻象裝備-血腥之蘭">
 		<set name="icon" val="icon.weapon_bloody_orchid_i00" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="dagger" />
@@ -400,7 +400,7 @@
 			<set order="0x08" stat="pAtkSpd" val="433" />
 		</for>
 	</item>
-	<item id="9015" type="Weapon" name="Shadow Item: Blood Tornado">
+	<item id="9015" type="Weapon" name="幻象裝備-血旋風">
 		<set name="icon" val="icon.weapon_blood_tornado_i00" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="dualfist" />
@@ -427,7 +427,7 @@
 			<set order="0x08" stat="pAtkSpd" val="325" />
 		</for>
 	</item>
-	<item id="9016" type="Weapon" name="Shadow Item: Carnage Bow">
+	<item id="9016" type="Weapon" name="幻象裝備-顱之弓">
 		<set name="icon" val="icon.weapon_carnium_bow_i00" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="bow" />
@@ -456,7 +456,7 @@
 			<set order="0x08" stat="pAtkSpd" val="293" />
 		</for>
 	</item>
-	<item id="9017" type="Weapon" name="Shadow Item: Keshanberk*Keshanberk">
+	<item id="9017" type="Weapon" name="幻象裝備-柯貝克劍*柯貝克劍">
 		<set name="icon" val="icon.time_weapon_dual_sword_i00" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="dual" />
@@ -481,7 +481,7 @@
 			<set order="0x08" stat="pAtkSpd" val="325" />
 		</for>
 	</item>
-	<item id="9018" type="Weapon" name="Shadow Item: Meteor Shower">
+	<item id="9018" type="Weapon" name="幻象裝備-流星雨">
 		<set name="icon" val="icon.weapon_meteor_shower_i00" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="blunt" />
@@ -508,7 +508,7 @@
 			<set order="0x08" stat="pAtkSpd" val="379" />
 		</for>
 	</item>
-	<item id="9019" type="Weapon" name="Shadow Item: Inferno Master">
+	<item id="9019" type="Weapon" name="幻象裝備-煉獄之主">
 		<set name="icon" val="icon.weapon_inferno_master_i00" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="bigsword" />
@@ -533,7 +533,7 @@
 			<set order="0x08" stat="pAtkSpd" val="325" />
 		</for>
 	</item>
-	<item id="9020" type="Weapon" name="Shadow Item: Keshanberk*Damascus">
+	<item id="9020" type="Weapon" name="幻象裝備-柯貝克劍*大馬士革刀">
 		<set name="icon" val="icon.weapon_dual_sword_i00" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="dual" />
@@ -559,7 +559,7 @@
 			<set order="0x08" stat="pAtkSpd" val="325" />
 		</for>
 	</item>
-	<item id="9021" type="Weapon" name="Shadow Item: Dragon Slayer">
+	<item id="9021" type="Weapon" name="幻象裝備-斬龍刀">
 		<set name="icon" val="icon.weapon_dragon_slayer_i00" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="bigsword" />
@@ -584,7 +584,7 @@
 			<set order="0x08" stat="pAtkSpd" val="325" />
 		</for>
 	</item>
-	<item id="9022" type="Weapon" name="Shadow Item: Sword of Miracles">
+	<item id="9022" type="Weapon" name="幻象裝備-奇蹟劍">
 		<set name="icon" val="icon.weapon_sword_of_miracle_i00" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="sword" />
@@ -610,7 +610,7 @@
 			<set order="0x08" stat="pAtkSpd" val="379" />
 		</for>
 	</item>
-	<item id="9023" type="Weapon" name="Shadow Item: Elysian">
+	<item id="9023" type="Weapon" name="幻象裝備-樂園">
 		<set name="icon" val="icon.weapon_elysian_i00" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="blunt" />
@@ -637,7 +637,7 @@
 			<set order="0x08" stat="pAtkSpd" val="379" />
 		</for>
 	</item>
-	<item id="9024" type="Weapon" name="Shadow Item: Branch of the Mother Tree">
+	<item id="9024" type="Weapon" name="幻象裝備-世界樹樹枝">
 		<set name="icon" val="icon.weapon_worldtrees_branch_i00" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="bigblunt" />
@@ -665,7 +665,7 @@
 			<set order="0x08" stat="pAtkSpd" val="325" />
 		</for>
 	</item>
-	<item id="9025" type="Weapon" name="Shadow Item: Soul Separator">
+	<item id="9025" type="Weapon" name="幻象裝備-魂體分離器">
 		<set name="icon" val="icon.weapon_soul_separator_i00" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="dagger" />
@@ -692,7 +692,7 @@
 			<set order="0x08" stat="pAtkSpd" val="433" />
 		</for>
 	</item>
-	<item id="9026" type="Weapon" name="Shadow Item: Dragon Grinder">
+	<item id="9026" type="Weapon" name="幻象裝備-龍牙">
 		<set name="icon" val="icon.weapon_dragon_grinder_i00" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="dualfist" />
@@ -719,7 +719,7 @@
 			<set order="0x08" stat="pAtkSpd" val="325" />
 		</for>
 	</item>
-	<item id="9027" type="Weapon" name="Shadow Item: Soul Bow">
+	<item id="9027" type="Weapon" name="幻象裝備-靈魂弓">
 		<set name="icon" val="icon.weapon_soul_bow_i00" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="bow" />
@@ -748,7 +748,7 @@
 			<set order="0x08" stat="pAtkSpd" val="227" />
 		</for>
 	</item>
-	<item id="9028" type="Weapon" name="Shadow Item: Tallum Glaive">
+	<item id="9028" type="Weapon" name="幻象裝備-塔魯闊矛">
 		<set name="icon" val="icon.weapon_tallum_glaive_i00" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="pole" />
@@ -776,7 +776,7 @@
 			<set order="0x08" stat="pAtkSpd" val="325" />
 		</for>
 	</item>
-	<item id="9029" type="Weapon" name="Shadow Item: Dark Legion">
+	<item id="9029" type="Weapon" name="幻象裝備-黑暗軍刀">
 		<set name="icon" val="icon.weapon_dark_legions_edge_i00" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="sword" />
@@ -801,7 +801,7 @@
 			<set order="0x08" stat="pAtkSpd" val="379" />
 		</for>
 	</item>
-	<item id="9030" type="Armor" name="Shadow Item: Bronze Breastplate">
+	<item id="9030" type="Armor" name="幻象防具-青銅胸甲">
 		<set name="icon" val="icon.armor_t34_u_i00" />
 		<set name="default_action" val="equip" />
 		<set name="armor_type" val="heavy" />
@@ -818,7 +818,7 @@
 			<add order="0x10" stat="pDef" val="68" />
 		</for>
 	</item>
-	<item id="9031" type="Armor" name="Shadow Item: Bronze Gaiters">
+	<item id="9031" type="Armor" name="幻象裝備-青銅脛甲">
 		<set name="icon" val="icon.armor_t34_l_i00" />
 		<set name="default_action" val="equip" />
 		<set name="armor_type" val="heavy" />
@@ -835,7 +835,7 @@
 			<add order="0x10" stat="pDef" val="43" />
 		</for>
 	</item>
-	<item id="9032" type="Armor" name="Shadow Item: Hard Leather Shirt">
+	<item id="9032" type="Armor" name="幻象裝備-硬皮襯衫">
 		<set name="icon" val="icon.armor_t30_u_i00" />
 		<set name="default_action" val="equip" />
 		<set name="armor_type" val="light" />
@@ -851,7 +851,7 @@
 			<add order="0x10" stat="pDef" val="53" />
 		</for>
 	</item>
-	<item id="9033" type="Armor" name="Shadow Item: Hard Leather Gaiters">
+	<item id="9033" type="Armor" name="幻象裝備-硬皮脛甲">
 		<set name="icon" val="icon.armor_t30_l_i00" />
 		<set name="default_action" val="equip" />
 		<set name="armor_type" val="light" />
@@ -867,7 +867,7 @@
 			<add order="0x10" stat="pDef" val="33" />
 		</for>
 	</item>
-	<item id="9034" type="Armor" name="Shadow Item: Tunic of Magic">
+	<item id="9034" type="Armor" name="幻象裝備-巫術外衣">
 		<set name="icon" val="icon.armor_t58_u_i00" />
 		<set name="default_action" val="equip" />
 		<set name="armor_type" val="magic" />
@@ -885,7 +885,7 @@
 			<add order="0x40" stat="maxMp" val="86" />
 		</for>
 	</item>
-	<item id="9035" type="Armor" name="Shadow Item: Stockings of Magic">
+	<item id="9035" type="Armor" name="幻象裝備-巫術長襪">
 		<set name="icon" val="icon.armor_t58_l_i00" />
 		<set name="default_action" val="equip" />
 		<set name="armor_type" val="magic" />
@@ -903,7 +903,7 @@
 			<add order="0x40" stat="maxMp" val="54" />
 		</for>
 	</item>
-	<item id="9036" type="Armor" name="Shadow Item: Bone Shield">
+	<item id="9036" type="Armor" name="幻象裝備-骨盾">
 		<set name="icon" val="icon.shield_bone_shield_i00" />
 		<set name="default_action" val="equip" />
 		<set name="bodypart" val="lhand" />
@@ -922,7 +922,7 @@
 			<set order="0x08" stat="sDef" val="90" />
 		</for>
 	</item>
-	<item id="9037" type="Armor" name="Shadow Item: Hard Leather Helmet">
+	<item id="9037" type="Armor" name="幻象裝備-硬皮頭盔">
 		<set name="icon" val="icon.armor_leather_helmet_i00" />
 		<set name="default_action" val="equip" />
 		<set name="bodypart" val="head" />
@@ -937,7 +937,7 @@
 			<add order="0x10" stat="pDef" val="26" />
 		</for>
 	</item>
-	<item id="9038" type="Armor" name="Shadow Item: Boots">
+	<item id="9038" type="Armor" name="幻象裝備-長靴">
 		<set name="icon" val="icon.armor_t30_b_i00" />
 		<set name="default_action" val="equip" />
 		<set name="bodypart" val="feet" />
@@ -952,7 +952,7 @@
 			<add order="0x10" stat="pDef" val="17" />
 		</for>
 	</item>
-	<item id="9039" type="Armor" name="Shadow Item: Bracer">
+	<item id="9039" type="Armor" name="幻象裝備-腕甲">
 		<set name="icon" val="icon.armor_t30_g_i00" />
 		<set name="default_action" val="equip" />
 		<set name="bodypart" val="gloves" />
@@ -967,7 +967,7 @@
 			<add order="0x10" stat="pDef" val="17" />
 		</for>
 	</item>
-	<item id="9040" type="Armor" name="Shadow Item: Mithril Breastplate">
+	<item id="9040" type="Armor" name="幻象裝備-米索莉護甲">
 		<set name="icon" val="icon.armor_t19_u_i00" />
 		<set name="default_action" val="equip" />
 		<set name="armor_type" val="heavy" />
@@ -985,7 +985,7 @@
 			<add order="0x10" stat="pDef" val="95" />
 		</for>
 	</item>
-	<item id="9041" type="Armor" name="Shadow Item: Mithril Gaiters">
+	<item id="9041" type="Armor" name="幻象裝備-米索莉脛甲">
 		<set name="icon" val="icon.armor_t19_l_i00" />
 		<set name="default_action" val="equip" />
 		<set name="armor_type" val="heavy" />
@@ -1003,7 +1003,7 @@
 			<add order="0x10" stat="pDef" val="61" />
 		</for>
 	</item>
-	<item id="9042" type="Armor" name="Shadow Item: Gauntlet">
+	<item id="9042" type="Armor" name="幻象裝備-長手套">
 		<set name="icon" val="icon.armor_t10_g_i00" />
 		<set name="default_action" val="equip" />
 		<set name="bodypart" val="gloves" />
@@ -1019,7 +1019,7 @@
 			<add order="0x10" stat="pDef" val="24" />
 		</for>
 	</item>
-	<item id="9043" type="Armor" name="Shadow Item: Iron Boots">
+	<item id="9043" type="Armor" name="幻象裝備-鋼鐵靴">
 		<set name="icon" val="icon.armor_t10_b_i00" />
 		<set name="default_action" val="equip" />
 		<set name="bodypart" val="feet" />
@@ -1035,7 +1035,7 @@
 			<add order="0x10" stat="pDef" val="24" />
 		</for>
 	</item>
-	<item id="9044" type="Armor" name="Shadow Item: Hoplon">
+	<item id="9044" type="Armor" name="幻象裝備-圓木盾">
 		<set name="icon" val="icon.shield_hoplon_i00" />
 		<set name="default_action" val="equip" />
 		<set name="bodypart" val="lhand" />
@@ -1055,7 +1055,7 @@
 			<set order="0x08" stat="sDef" val="128" />
 		</for>
 	</item>
-	<item id="9045" type="Armor" name="Shadow Item: Reinforced Leather Shirt">
+	<item id="9045" type="Armor" name="幻象裝備-強化皮襯衫">
 		<set name="icon" val="icon.armor_t13_u_i00" />
 		<set name="default_action" val="equip" />
 		<set name="armor_type" val="light" />
@@ -1072,7 +1072,7 @@
 			<add order="0x10" stat="pDef" val="73" />
 		</for>
 	</item>
-	<item id="9046" type="Armor" name="Shadow Item: Reinforced Leather Gaiters">
+	<item id="9046" type="Armor" name="幻象裝備-強化皮脛甲">
 		<set name="icon" val="icon.armor_t13_l_i00" />
 		<set name="default_action" val="equip" />
 		<set name="armor_type" val="light" />
@@ -1089,7 +1089,7 @@
 			<add order="0x10" stat="pDef" val="46" />
 		</for>
 	</item>
-	<item id="9047" type="Armor" name="Shadow Item: Reinforced Leather Gloves">
+	<item id="9047" type="Armor" name="幻象裝備-強化皮手套">
 		<set name="icon" val="icon.armor_t13_g_i00" />
 		<set name="default_action" val="equip" />
 		<set name="bodypart" val="gloves" />
@@ -1105,7 +1105,7 @@
 			<add order="0x10" stat="pDef" val="24" />
 		</for>
 	</item>
-	<item id="9048" type="Armor" name="Shadow Item: Reinforced Leather Boots">
+	<item id="9048" type="Armor" name="幻象裝備-強化皮靴">
 		<set name="icon" val="icon.armor_t13_b_i00" />
 		<set name="default_action" val="equip" />
 		<set name="bodypart" val="feet" />
@@ -1121,7 +1121,7 @@
 			<add order="0x10" stat="pDef" val="24" />
 		</for>
 	</item>
-	<item id="9049" type="Armor" name="Shadow Item: Tunic of Knowledge">
+	<item id="9049" type="Armor" name="幻象裝備-知識外衣">
 		<set name="icon" val="icon.armor_t41_u_i00" />
 		<set name="default_action" val="equip" />
 		<set name="armor_type" val="magic" />
@@ -1140,7 +1140,7 @@
 			<add order="0x40" stat="maxMp" val="147" />
 		</for>
 	</item>
-	<item id="9050" type="Armor" name="Shadow Item: Stockings of Knowledge">
+	<item id="9050" type="Armor" name="幻象裝備-知識長襪">
 		<set name="icon" val="icon.armor_t41_l_i00" />
 		<set name="default_action" val="equip" />
 		<set name="armor_type" val="magic" />
@@ -1159,7 +1159,7 @@
 			<add order="0x40" stat="maxMp" val="92" />
 		</for>
 	</item>
-	<item id="9051" type="Armor" name="Shadow Item: Gloves of Knowledge">
+	<item id="9051" type="Armor" name="幻象裝備-知識手套">
 		<set name="icon" val="icon.armor_t41_g_i00" />
 		<set name="default_action" val="equip" />
 		<set name="bodypart" val="gloves" />
@@ -1175,7 +1175,7 @@
 			<add order="0x10" stat="pDef" val="24" />
 		</for>
 	</item>
-	<item id="9052" type="Armor" name="Shadow Item: Boots of Knowledge">
+	<item id="9052" type="Armor" name="幻象裝備-知識長靴">
 		<set name="icon" val="icon.armor_t41_b_i00" />
 		<set name="default_action" val="equip" />
 		<set name="bodypart" val="feet" />
@@ -1191,7 +1191,7 @@
 			<add order="0x10" stat="pDef" val="24" />
 		</for>
 	</item>
-	<item id="9053" type="Armor" name="Shadow Item: Helmet">
+	<item id="9053" type="Armor" name="幻象裝備-頭盔">
 		<set name="icon" val="icon.armor_helmet_i00" />
 		<set name="default_action" val="equip" />
 		<set name="bodypart" val="head" />
@@ -1207,7 +1207,7 @@
 			<add order="0x10" stat="pDef" val="37" />
 		</for>
 	</item>
-	<item id="9054" type="Armor" name="Shadow Item: Composite Armor">
+	<item id="9054" type="Armor" name="幻象裝備-合金盔甲">
 		<set name="icon" val="icon.armor_t61_ul_i00" />
 		<set name="default_action" val="equip" />
 		<set name="armor_type" val="heavy" />
@@ -1225,7 +1225,7 @@
 			<add order="0x10" stat="pDef" val="224" />
 		</for>
 	</item>
-	<item id="9055" type="Armor" name="Shadow Item: Composite Boots">
+	<item id="9055" type="Armor" name="幻象裝備-合金靴">
 		<set name="icon" val="icon.armor_t61_b_i00" />
 		<set name="default_action" val="equip" />
 		<set name="bodypart" val="feet" />
@@ -1241,7 +1241,7 @@
 			<add order="0x10" stat="pDef" val="36" />
 		</for>
 	</item>
-	<item id="9056" type="Armor" name="Shadow Item: Composite Shield">
+	<item id="9056" type="Armor" name="幻象裝備-合金盾">
 		<set name="icon" val="icon.shield_composite_shield_i00" />
 		<set name="default_action" val="equip" />
 		<set name="bodypart" val="lhand" />
@@ -1261,7 +1261,7 @@
 			<set order="0x08" stat="sDef" val="190" />
 		</for>
 	</item>
-	<item id="9057" type="Armor" name="Shadow Item: Composite Helmet">
+	<item id="9057" type="Armor" name="幻象裝備-合金頭盔">
 		<set name="icon" val="icon.armor_leather_helmet_i00" />
 		<set name="default_action" val="equip" />
 		<set name="bodypart" val="head" />
@@ -1277,7 +1277,7 @@
 			<add order="0x10" stat="pDef" val="54" />
 		</for>
 	</item>
-	<item id="9058" type="Armor" name="Shadow Item: Theca Leather Armor">
+	<item id="9058" type="Armor" name="幻象裝備-覆殼皮甲">
 		<set name="icon" val="icon.armor_t63_u_i00" />
 		<set name="default_action" val="equip" />
 		<set name="armor_type" val="light" />
@@ -1294,7 +1294,7 @@
 			<add order="0x10" stat="pDef" val="106" />
 		</for>
 	</item>
-	<item id="9059" type="Armor" name="Shadow Item: Theca Leather Gaiters">
+	<item id="9059" type="Armor" name="幻象裝備-覆殼脛甲">
 		<set name="icon" val="icon.armor_t63_l_i00" />
 		<set name="default_action" val="equip" />
 		<set name="armor_type" val="light" />
@@ -1311,7 +1311,7 @@
 			<add order="0x10" stat="pDef" val="66" />
 		</for>
 	</item>
-	<item id="9060" type="Armor" name="Shadow Item: Theca Leather Boots">
+	<item id="9060" type="Armor" name="幻象裝備-覆殼長靴">
 		<set name="icon" val="icon.armor_t63_b_i00" />
 		<set name="default_action" val="equip" />
 		<set name="bodypart" val="feet" />
@@ -1327,7 +1327,7 @@
 			<add order="0x10" stat="pDef" val="37" />
 		</for>
 	</item>
-	<item id="9061" type="Armor" name="Shadow Item: Theca Leather Gloves">
+	<item id="9061" type="Armor" name="幻象裝備-覆殼手套">
 		<set name="icon" val="icon.armor_t63_g_i00" />
 		<set name="default_action" val="equip" />
 		<set name="bodypart" val="gloves" />
@@ -1343,7 +1343,7 @@
 			<add order="0x10" stat="pDef" val="37" />
 		</for>
 	</item>
-	<item id="9062" type="Armor" name="Shadow Item: Demon's Tunic">
+	<item id="9062" type="Armor" name="幻象裝備-惡魔外衣">
 		<set name="icon" val="icon.armor_t54_u_i00" />
 		<set name="default_action" val="equip" />
 		<set name="armor_type" val="magic" />
@@ -1362,7 +1362,7 @@
 			<add order="0x40" stat="maxMp" val="284" />
 		</for>
 	</item>
-	<item id="9063" type="Armor" name="Shadow Item: Demon's Stockings">
+	<item id="9063" type="Armor" name="幻象裝備-惡魔長襪">
 		<set name="icon" val="icon.armor_t54_l_i00" />
 		<set name="default_action" val="equip" />
 		<set name="armor_type" val="magic" />
@@ -1381,7 +1381,7 @@
 			<add order="0x40" stat="maxMp" val="177" />
 		</for>
 	</item>
-	<item id="9064" type="Armor" name="Shadow Item: Demon's Boots">
+	<item id="9064" type="Armor" name="幻象裝備-惡魔長靴">
 		<set name="icon" val="icon.armor_t54_b_i00" />
 		<set name="default_action" val="equip" />
 		<set name="bodypart" val="feet" />
@@ -1397,7 +1397,7 @@
 			<add order="0x10" stat="pDef" val="36" />
 		</for>
 	</item>
-	<item id="9065" type="Armor" name="Shadow Item: Demon's Gloves">
+	<item id="9065" type="Armor" name="幻象裝備-惡魔手套">
 		<set name="icon" val="icon.armor_t54_g_i00" />
 		<set name="default_action" val="equip" />
 		<set name="bodypart" val="gloves" />
@@ -1413,7 +1413,7 @@
 			<add order="0x10" stat="pDef" val="36" />
 		</for>
 	</item>
-	<item id="9066" type="Armor" name="Shadow Item: Shining Circlet">
+	<item id="9066" type="Armor" name="幻象裝備-閃耀頭箍">
 		<set name="icon" val="icon.armor_circlet_i00" />
 		<set name="default_action" val="equip" />
 		<set name="bodypart" val="head" />
@@ -1429,7 +1429,7 @@
 			<add order="0x10" stat="pDef" val="54" />
 		</for>
 	</item>
-	<item id="9067" type="Armor" name="Shadow Item: Zubei's Breastplate">
+	<item id="9067" type="Armor" name="幻象裝備-夏隆胸甲">
 		<set name="icon" val="icon.armor_t64_u_i00" />
 		<set name="default_action" val="equip" />
 		<set name="armor_type" val="heavy" />
@@ -1447,7 +1447,7 @@
 			<add order="0x10" stat="pDef" val="157" />
 		</for>
 	</item>
-	<item id="9068" type="Armor" name="Shadow Item: Zubei's Gaiters">
+	<item id="9068" type="Armor" name="幻象裝備-夏隆脛甲">
 		<set name="icon" val="icon.armor_t64_l_i00" />
 		<set name="default_action" val="equip" />
 		<set name="armor_type" val="heavy" />
@@ -1465,7 +1465,7 @@
 			<add order="0x10" stat="pDef" val="98" />
 		</for>
 	</item>
-	<item id="9069" type="Armor" name="Shadow Item: Zubei's Helmet">
+	<item id="9069" type="Armor" name="幻象裝備-夏隆頭盔">
 		<set name="icon" val="icon.armor_helmet_i00" />
 		<set name="default_action" val="equip" />
 		<set name="bodypart" val="head" />
@@ -1481,7 +1481,7 @@
 			<add order="0x10" stat="pDef" val="62" />
 		</for>
 	</item>
-	<item id="9070" type="Armor" name="Shadow Item: Zubei's Shield">
+	<item id="9070" type="Armor" name="幻象裝備-夏隆盾">
 		<set name="icon" val="icon.shield_shrnoens_shield_i00" />
 		<set name="default_action" val="equip" />
 		<set name="bodypart" val="lhand" />
@@ -1501,7 +1501,7 @@
 			<set order="0x08" stat="sDef" val="216" />
 		</for>
 	</item>
-	<item id="9071" type="Armor" name="Shadow Item: Zubei's Gauntlet">
+	<item id="9071" type="Armor" name="幻象裝備-夏隆長手套">
 		<set name="icon" val="icon.armor_t64_g_i00" />
 		<set name="default_action" val="equip" />
 		<set name="bodypart" val="gloves" />
@@ -1518,7 +1518,7 @@
 			<add order="0x10" stat="pDef" val="41" />
 		</for>
 	</item>
-	<item id="9072" type="Armor" name="Shadow Item: Zubei's Boots">
+	<item id="9072" type="Armor" name="幻象裝備-夏隆靴">
 		<set name="icon" val="icon.armor_t64_b_i00" />
 		<set name="default_action" val="equip" />
 		<set name="bodypart" val="feet" />
@@ -1535,7 +1535,7 @@
 			<add order="0x10" stat="pDef" val="41" />
 		</for>
 	</item>
-	<item id="9073" type="Armor" name="Shadow Item: Zubei's Leather Shirt">
+	<item id="9073" type="Armor" name="幻象裝備-夏隆皮衫">
 		<set name="icon" val="icon.armor_t65_u_i00" />
 		<set name="default_action" val="equip" />
 		<set name="armor_type" val="light" />
@@ -1552,7 +1552,7 @@
 			<add order="0x10" stat="pDef" val="117" />
 		</for>
 	</item>
-	<item id="9074" type="Armor" name="Shadow Item: Zubei's Leather Gaiters">
+	<item id="9074" type="Armor" name="幻象裝備-夏隆皮脛甲">
 		<set name="icon" val="icon.armor_t65_l_i00" />
 		<set name="default_action" val="equip" />
 		<set name="armor_type" val="light" />
@@ -1569,7 +1569,7 @@
 			<add order="0x10" stat="pDef" val="73" />
 		</for>
 	</item>
-	<item id="9075" type="Armor" name="Shadow Item: Zubei's Gauntlet">
+	<item id="9075" type="Armor" name="幻象裝備-夏隆長手套">
 		<set name="icon" val="icon.armor_t65_g_i00" />
 		<set name="default_action" val="equip" />
 		<set name="bodypart" val="gloves" />
@@ -1585,7 +1585,7 @@
 			<add order="0x10" stat="pDef" val="41" />
 		</for>
 	</item>
-	<item id="9076" type="Armor" name="Shadow Item: Zubei's Boots">
+	<item id="9076" type="Armor" name="幻象裝備-夏隆靴">
 		<set name="icon" val="icon.armor_t65_b_i00" />
 		<set name="default_action" val="equip" />
 		<set name="bodypart" val="feet" />
@@ -1601,7 +1601,7 @@
 			<add order="0x10" stat="pDef" val="41" />
 		</for>
 	</item>
-	<item id="9077" type="Armor" name="Shadow Item: Tunic of Zubei">
+	<item id="9077" type="Armor" name="幻象裝備-夏隆外衣">
 		<set name="icon" val="icon.armor_t56_u_i00" />
 		<set name="default_action" val="equip" />
 		<set name="armor_type" val="magic" />
@@ -1620,7 +1620,7 @@
 			<add order="0x40" stat="maxMp" val="345" />
 		</for>
 	</item>
-	<item id="9078" type="Armor" name="Shadow Item: Stockings of Zubei">
+	<item id="9078" type="Armor" name="幻象裝備-夏隆長襪">
 		<set name="icon" val="icon.armor_t56_l_i00" />
 		<set name="default_action" val="equip" />
 		<set name="armor_type" val="magic" />
@@ -1639,7 +1639,7 @@
 			<add order="0x40" stat="maxMp" val="216" />
 		</for>
 	</item>
-	<item id="9079" type="Armor" name="Shadow Item: Zubei's Gauntlet">
+	<item id="9079" type="Armor" name="幻象裝備-夏隆長手套">
 		<set name="icon" val="icon.armor_t56_g_i00" />
 		<set name="default_action" val="equip" />
 		<set name="bodypart" val="gloves" />
@@ -1656,7 +1656,7 @@
 			<add order="0x10" stat="pDef" val="41" />
 		</for>
 	</item>
-	<item id="9080" type="Armor" name="Shadow Item: Zubei's Boots">
+	<item id="9080" type="Armor" name="幻象裝備-夏隆靴">
 		<set name="icon" val="icon.armor_t56_b_i00" />
 		<set name="default_action" val="equip" />
 		<set name="bodypart" val="feet" />
@@ -1673,7 +1673,7 @@
 			<add order="0x10" stat="pDef" val="41" />
 		</for>
 	</item>
-	<item id="9081" type="Armor" name="Shadow Item: Dark Crystal Breastplate">
+	<item id="9081" type="Armor" name="幻象裝備-黑暗水晶胸甲">
 		<set name="icon" val="icon.armor_t74_u_i00" />
 		<set name="default_action" val="equip" />
 		<set name="armor_type" val="heavy" />
@@ -1691,7 +1691,7 @@
 			<add order="0x10" stat="pDef" val="171" />
 		</for>
 	</item>
-	<item id="9082" type="Armor" name="Shadow Item: Dark Crystal Gaiters">
+	<item id="9082" type="Armor" name="幻象裝備-黑暗水晶脛甲">
 		<set name="icon" val="icon.armor_t74_l_i00" />
 		<set name="default_action" val="equip" />
 		<set name="armor_type" val="heavy" />
@@ -1709,7 +1709,7 @@
 			<add order="0x10" stat="pDef" val="107" />
 		</for>
 	</item>
-	<item id="9083" type="Armor" name="Shadow Item: Dark Crystal Helmet">
+	<item id="9083" type="Armor" name="幻象裝備-黑暗水晶頭盔">
 		<set name="icon" val="icon.armor_helmet_i00" />
 		<set name="default_action" val="equip" />
 		<set name="bodypart" val="head" />
@@ -1725,7 +1725,7 @@
 			<add order="0x10" stat="pDef" val="69" />
 		</for>
 	</item>
-	<item id="9084" type="Armor" name="Shadow Item: Dark Crystal Shield">
+	<item id="9084" type="Armor" name="幻象裝備-黑暗水晶盾">
 		<set name="icon" val="icon.shield_dark_crystal_shield_i00" />
 		<set name="default_action" val="equip" />
 		<set name="bodypart" val="lhand" />
@@ -1745,7 +1745,7 @@
 			<set order="0x08" stat="sDef" val="243" />
 		</for>
 	</item>
-	<item id="9085" type="Armor" name="Shadow Item: Dark Crystal Gloves">
+	<item id="9085" type="Armor" name="幻象裝備-黑暗水晶手套">
 		<set name="icon" val="icon.armor_t74_g_i00" />
 		<set name="default_action" val="equip" />
 		<set name="bodypart" val="gloves" />
@@ -1762,7 +1762,7 @@
 			<add order="0x10" stat="pDef" val="46" />
 		</for>
 	</item>
-	<item id="9086" type="Armor" name="Shadow Item: Dark Crystal Boots">
+	<item id="9086" type="Armor" name="幻象裝備-黑暗水晶靴">
 		<set name="icon" val="icon.armor_t74_b_i00" />
 		<set name="default_action" val="equip" />
 		<set name="bodypart" val="feet" />
@@ -1779,7 +1779,7 @@
 			<add order="0x10" stat="pDef" val="46" />
 		</for>
 	</item>
-	<item id="9087" type="Armor" name="Shadow Item: Dark Crystal Leather Armor">
+	<item id="9087" type="Armor" name="幻象裝備-黑暗水晶皮甲">
 		<set name="icon" val="icon.armor_t75_u_i00" />
 		<set name="default_action" val="equip" />
 		<set name="armor_type" val="light" />
@@ -1796,7 +1796,7 @@
 			<add order="0x10" stat="pDef" val="128" />
 		</for>
 	</item>
-	<item id="9088" type="Armor" name="Shadow Item: Dark Crystal Leggings">
+	<item id="9088" type="Armor" name="幻象裝備-黑暗水晶皮脛甲">
 		<set name="icon" val="icon.armor_t75_l_i00" />
 		<set name="default_action" val="equip" />
 		<set name="armor_type" val="light" />
@@ -1813,7 +1813,7 @@
 			<add order="0x10" stat="pDef" val="80" />
 		</for>
 	</item>
-	<item id="9089" type="Armor" name="Shadow Item: Dark Crystal Gloves">
+	<item id="9089" type="Armor" name="幻象裝備-黑暗水晶手套">
 		<set name="icon" val="icon.armor_t75_g_i00" />
 		<set name="default_action" val="equip" />
 		<set name="bodypart" val="gloves" />
@@ -1829,7 +1829,7 @@
 			<add order="0x10" stat="pDef" val="46" />
 		</for>
 	</item>
-	<item id="9090" type="Armor" name="Shadow Item: Dark Crystal Boots">
+	<item id="9090" type="Armor" name="幻象裝備-黑暗水晶靴">
 		<set name="icon" val="icon.armor_t75_b_i00" />
 		<set name="default_action" val="equip" />
 		<set name="bodypart" val="feet" />
@@ -1845,7 +1845,7 @@
 			<add order="0x10" stat="pDef" val="46" />
 		</for>
 	</item>
-	<item id="9091" type="Armor" name="Shadow Item: Dark Crystal Robe">
+	<item id="9091" type="Armor" name="幻象裝備-黑暗水晶長袍">
 		<set name="icon" val="icon.armor_t76_ul_i00" />
 		<set name="default_action" val="equip" />
 		<set name="armor_type" val="magic" />
@@ -1864,7 +1864,7 @@
 			<add order="0x40" stat="maxMp" val="665" />
 		</for>
 	</item>
-	<item id="9092" type="Armor" name="Shadow Item: Dark Crystal Gloves">
+	<item id="9092" type="Armor" name="幻象裝備-黑暗水晶手套">
 		<set name="icon" val="icon.armor_t76_g_i00" />
 		<set name="default_action" val="equip" />
 		<set name="bodypart" val="gloves" />
@@ -1881,7 +1881,7 @@
 			<add order="0x10" stat="pDef" val="46" />
 		</for>
 	</item>
-	<item id="9093" type="Armor" name="Shadow Item: Dark Crystal Boots">
+	<item id="9093" type="Armor" name="幻象裝備-黑暗水晶靴">
 		<set name="icon" val="icon.armor_t76_b_i00" />
 		<set name="default_action" val="equip" />
 		<set name="bodypart" val="feet" />
@@ -1898,7 +1898,7 @@
 			<add order="0x10" stat="pDef" val="46" />
 		</for>
 	</item>
-	<item id="9094" type="Armor" name="Shadow Item: Majestic Plate Armor">
+	<item id="9094" type="Armor" name="幻象裝備-聖威金屬盔甲">
 		<set name="icon" val="icon.armor_t83_ul_i00" />
 		<set name="default_action" val="equip" />
 		<set name="armor_type" val="heavy" />
@@ -1916,7 +1916,7 @@
 			<add order="0x10" stat="pDef" val="293" />
 		</for>
 	</item>
-	<item id="9095" type="Armor" name="Shadow Item: Majestic Circlet">
+	<item id="9095" type="Armor" name="幻象裝備-聖威頭箍">
 		<set name="icon" val="icon.armor_leather_helmet_i00" />
 		<set name="default_action" val="equip" />
 		<set name="bodypart" val="head" />
@@ -1932,7 +1932,7 @@
 			<add order="0x10" stat="pDef" val="73" />
 		</for>
 	</item>
-	<item id="9096" type="Armor" name="Shadow Item: Majestic Gauntlet">
+	<item id="9096" type="Armor" name="幻象裝備-聖威手套">
 		<set name="icon" val="icon.armor_t83_g_i00" />
 		<set name="default_action" val="equip" />
 		<set name="bodypart" val="gloves" />
@@ -1949,7 +1949,7 @@
 			<add order="0x10" stat="pDef" val="49" />
 		</for>
 	</item>
-	<item id="9097" type="Armor" name="Shadow Item: Majestic Boots">
+	<item id="9097" type="Armor" name="幻象裝備-聖威靴">
 		<set name="icon" val="icon.armor_t83_b_i00" />
 		<set name="default_action" val="equip" />
 		<set name="bodypart" val="feet" />
@@ -1966,7 +1966,7 @@
 			<add order="0x10" stat="pDef" val="49" />
 		</for>
 	</item>
-	<item id="9098" type="Armor" name="Shadow Item: Majestic Leather Armor">
+	<item id="9098" type="Armor" name="幻象裝備-聖威皮甲">
 		<set name="icon" val="icon.armor_t84_ul_i00" />
 		<set name="default_action" val="equip" />
 		<set name="armor_type" val="light" />
@@ -1983,7 +1983,7 @@
 			<add order="0x10" stat="pDef" val="220" />
 		</for>
 	</item>
-	<item id="9099" type="Armor" name="Shadow Item: Majestic Gauntlet">
+	<item id="9099" type="Armor" name="幻象裝備-聖威手套">
 		<set name="icon" val="icon.armor_t84_g_i00" />
 		<set name="default_action" val="equip" />
 		<set name="bodypart" val="gloves" />

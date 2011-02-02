@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <list>
-	<item id="1100" type="Armor" name="Cotton Tunic">
+	<item id="1100" type="Armor" name="棉質外衣">
 		<set name="icon" val="icon.armor_t50_u_i00" />
 		<set name="default_action" val="equip" />
 		<set name="armor_type" val="magic" />
@@ -15,7 +15,7 @@
 			<add order="0x40" stat="maxMp" val="38" />
 		</for>
 	</item>
-	<item id="1101" type="Armor" name="Tunic of Devotion">
+	<item id="1101" type="Armor" name="奉獻外衣">
 		<set name="icon" val="icon.armor_t55_u_i00" />
 		<set name="default_action" val="equip" />
 		<set name="armor_type" val="magic" />
@@ -30,7 +30,7 @@
 			<add order="0x40" stat="maxMp" val="67" />
 		</for>
 	</item>
-	<item id="1102" type="Armor" name="Tunic of Magic">
+	<item id="1102" type="Armor" name="巫術外衣">
 		<set name="icon" val="icon.armor_t58_u_i00" />
 		<set name="default_action" val="equip" />
 		<set name="armor_type" val="magic" />
@@ -45,7 +45,7 @@
 			<add order="0x40" stat="maxMp" val="86" />
 		</for>
 	</item>
-	<item id="1103" type="Armor" name="Cotton Stockings">
+	<item id="1103" type="Armor" name="棉質長襪">
 		<set name="icon" val="icon.armor_t50_l_i00" />
 		<set name="default_action" val="equip" />
 		<set name="armor_type" val="magic" />
@@ -60,7 +60,7 @@
 			<add order="0x40" stat="maxMp" val="23" />
 		</for>
 	</item>
-	<item id="1104" type="Armor" name="Stockings of Devotion">
+	<item id="1104" type="Armor" name="奉獻長襪">
 		<set name="icon" val="icon.armor_t55_l_i00" />
 		<set name="default_action" val="equip" />
 		<set name="armor_type" val="magic" />
@@ -75,7 +75,7 @@
 			<add order="0x40" stat="maxMp" val="42" />
 		</for>
 	</item>
-	<item id="1105" type="Armor" name="Stockings of Magic">
+	<item id="1105" type="Armor" name="巫術長襪">
 		<set name="icon" val="icon.armor_t58_l_i00" />
 		<set name="default_action" val="equip" />
 		<set name="armor_type" val="magic" />
@@ -90,7 +90,7 @@
 			<add order="0x40" stat="maxMp" val="54" />
 		</for>
 	</item>
-	<item id="1106" type="EtcItem" name="Norman's Letter">
+	<item id="1106" type="EtcItem" name="諾曼的信">
 		<set name="icon" val="icon.etc_scroll_gray_i00" />
 		<set name="immediate_effect" val="1" />
 		<set name="material" val="steel" />
@@ -101,7 +101,7 @@
 		<set name="is_stackable" val="true" />
 		<set name="is_questitem" val="true" />
 	</item>
-	<item id="1107" type="EtcItem" name="Bone Fragment">
+	<item id="1107" type="EtcItem" name="骨碎片">
 		<set name="icon" val="icon.etc_piece_bone_white_i00" />
 		<set name="immediate_effect" val="1" />
 		<set name="material" val="steel" />
@@ -112,7 +112,7 @@
 		<set name="is_stackable" val="true" />
 		<set name="is_questitem" val="true" />
 	</item>
-	<item id="1108" type="EtcItem" name="Arbon's Letter">
+	<item id="1108" type="EtcItem" name="亞本的信">
 		<set name="icon" val="icon.item_normal20" />
 		<set name="immediate_effect" val="1" />
 		<set name="material" val="steel" />
@@ -123,7 +123,7 @@
 		<set name="is_stackable" val="true" />
 		<set name="is_questitem" val="true" />
 	</item>
-	<item id="1109" type="EtcItem" name="Roien's Letter">
+	<item id="1109" type="EtcItem" name="宗師羅伊恩的信">
 		<set name="icon" val="icon.item_normal20" />
 		<set name="immediate_effect" val="1" />
 		<set name="material" val="steel" />
@@ -134,7 +134,7 @@
 		<set name="is_stackable" val="true" />
 		<set name="is_questitem" val="true" />
 	</item>
-	<item id="1110" type="EtcItem" name="Bone Fragment">
+	<item id="1110" type="EtcItem" name="骨碎片">
 		<set name="icon" val="icon.item_normal05" />
 		<set name="immediate_effect" val="1" />
 		<set name="material" val="steel" />
@@ -145,7 +145,7 @@
 		<set name="is_stackable" val="true" />
 		<set name="is_questitem" val="true" />
 	</item>
-	<item id="1111" type="EtcItem" name="Adamantite Ore">
+	<item id="1111" type="EtcItem" name="金剛石原石">
 		<set name="icon" val="icon.item_normal49" />
 		<set name="immediate_effect" val="1" />
 		<set name="material" val="steel" />
@@ -156,7 +156,7 @@
 		<set name="is_stackable" val="true" />
 		<set name="is_questitem" val="true" />
 	</item>
-	<item id="1112" type="EtcItem" name="Leaf of the Mother Tree">
+	<item id="1112" type="EtcItem" name="世界樹之葉">
 		<set name="icon" val="icon.etc_leaf_green_i00" />
 		<set name="immediate_effect" val="1" />
 		<set name="material" val="steel" />
@@ -167,7 +167,7 @@
 		<set name="is_stackable" val="true" />
 		<set name="is_questitem" val="true" />
 	</item>
-	<item id="1113" type="EtcItem" name="Blood of Mitraell">
+	<item id="1113" type="EtcItem" name="米特拉爾之血">
 		<set name="icon" val="icon.item_canuse48" />
 		<set name="immediate_effect" val="1" />
 		<set name="material" val="steel" />
@@ -178,7 +178,7 @@
 		<set name="is_stackable" val="true" />
 		<set name="is_questitem" val="true" />
 	</item>
-	<item id="1114" type="EtcItem" name="Orc Amulet">
+	<item id="1114" type="EtcItem" name="獸人的羽毛護身符">
 		<set name="icon" val="icon.etc_feather_gold_i00" />
 		<set name="immediate_effect" val="1" />
 		<set name="material" val="steel" />
@@ -189,7 +189,7 @@
 		<set name="is_stackable" val="true" />
 		<set name="is_questitem" val="true" />
 	</item>
-	<item id="1115" type="EtcItem" name="Orc's Necklace">
+	<item id="1115" type="EtcItem" name="獸人的骨項鍊">
 		<set name="icon" val="icon.accessary_necklace_of_anguish_i00" />
 		<set name="immediate_effect" val="1" />
 		<set name="material" val="steel" />
@@ -200,7 +200,7 @@
 		<set name="is_stackable" val="true" />
 		<set name="is_questitem" val="true" />
 	</item>
-	<item id="1116" type="EtcItem" name="Orc Amulet">
+	<item id="1116" type="EtcItem" name="獸人的羽毛護身符">
 		<set name="icon" val="icon.etc_feather_gold_i00" />
 		<set name="immediate_effect" val="1" />
 		<set name="material" val="steel" />
@@ -211,7 +211,7 @@
 		<set name="is_stackable" val="true" />
 		<set name="is_questitem" val="true" />
 	</item>
-	<item id="1117" type="EtcItem" name="Orc's Necklace">
+	<item id="1117" type="EtcItem" name="獸人的骨項鍊">
 		<set name="icon" val="icon.accessary_necklace_of_anguish_i00" />
 		<set name="immediate_effect" val="1" />
 		<set name="material" val="steel" />
@@ -222,7 +222,7 @@
 		<set name="is_stackable" val="true" />
 		<set name="is_questitem" val="true" />
 	</item>
-	<item id="1118" type="EtcItem" name="Spore Sac">
+	<item id="1118" type="EtcItem" name="蘑菇孢囊">
 		<set name="icon" val="icon.etc_pouch_brown_i00" />
 		<set name="immediate_effect" val="1" />
 		<set name="material" val="steel" />
@@ -233,7 +233,7 @@
 		<set name="is_stackable" val="true" />
 		<set name="is_questitem" val="true" />
 	</item>
-	<item id="1119" type="Armor" name="Short Leather Gloves">
+	<item id="1119" type="Armor" name="短皮手套">
 		<set name="icon" val="icon.armor_t04_g_i00" />
 		<set name="default_action" val="equip" />
 		<set name="bodypart" val="gloves" />
@@ -245,7 +245,7 @@
 			<add order="0x10" stat="pDef" val="11" />
 		</for>
 	</item>
-	<item id="1120" type="Armor" name="Pa'agrian Hand">
+	<item id="1120" type="Armor" name="帕格立歐的手">
 		<set name="icon" val="icon.armor_short_leather_gloves_i00" />
 		<set name="default_action" val="equip" />
 		<set name="bodypart" val="gloves" />
@@ -261,7 +261,7 @@
 			<enchant order="0x0C" stat="pDef" val="0" />
 		</for>
 	</item>
-	<item id="1121" type="Armor" name="Apprentice's Shoes">
+	<item id="1121" type="Armor" name="見習生的鞋">
 		<set name="icon" val="icon.armor_t01_b_i00" />
 		<set name="default_action" val="equip" />
 		<set name="bodypart" val="feet" />
@@ -273,7 +273,7 @@
 			<add order="0x10" stat="pDef" val="8" />
 		</for>
 	</item>
-	<item id="1122" type="Armor" name="Cotton Shoes">
+	<item id="1122" type="Armor" name="棉質涼鞋">
 		<set name="icon" val="icon.armor_t50_b_i00" />
 		<set name="default_action" val="equip" />
 		<set name="bodypart" val="feet" />
@@ -285,7 +285,7 @@
 			<add order="0x10" stat="pDef" val="11" />
 		</for>
 	</item>
-	<item id="1123" type="Armor" name="Blue Buckskin Boots">
+	<item id="1123" type="Armor" name="藍鹿皮靴">
 		<set name="icon" val="icon.armor_t18_b_i00" />
 		<set name="default_action" val="equip" />
 		<set name="bodypart" val="feet" />
@@ -301,7 +301,7 @@
 			<enchant order="0x0C" stat="pDef" val="0" />
 		</for>
 	</item>
-	<item id="1124" type="Armor" name="Boots of Power">
+	<item id="1124" type="Armor" name="力量靴">
 		<set name="icon" val="icon.armor_t40_b_i00" />
 		<set name="default_action" val="equip" />
 		<set name="bodypart" val="feet" />
@@ -317,7 +317,7 @@
 			<enchant order="0x0C" stat="pDef" val="0" />
 		</for>
 	</item>
-	<item id="1125" type="Armor" name="Assault Boots">
+	<item id="1125" type="Armor" name="襲擊靴">
 		<set name="icon" val="icon.armor_t44_b_i00" />
 		<set name="default_action" val="equip" />
 		<set name="bodypart" val="feet" />
@@ -333,7 +333,7 @@
 			<enchant order="0x0C" stat="pDef" val="0" />
 		</for>
 	</item>
-	<item id="1126" type="Armor" name="Crimson Boots">
+	<item id="1126" type="Armor" name="緋紅靴">
 		<set name="icon" val="icon.armor_t57_b_i00" />
 		<set name="default_action" val="equip" />
 		<set name="bodypart" val="feet" />
@@ -349,7 +349,7 @@
 			<enchant order="0x0C" stat="pDef" val="0" />
 		</for>
 	</item>
-	<item id="1127" type="Armor" name="Forgotten Boots">
+	<item id="1127" type="Armor" name="被遺忘的靴">
 		<set name="icon" val="icon.armor_iron_boots_i00" />
 		<set name="default_action" val="equip" />
 		<set name="bodypart" val="feet" />
@@ -365,7 +365,7 @@
 			<enchant order="0x0C" stat="pDef" val="0" />
 		</for>
 	</item>
-	<item id="1128" type="Armor" name="Adamantite Boots">
+	<item id="1128" type="Armor" name="金剛石靴">
 		<set name="icon" val="icon.armor_iron_boots_i00" />
 		<set name="default_action" val="equip" />
 		<set name="bodypart" val="feet" />
@@ -381,7 +381,7 @@
 			<enchant order="0x0C" stat="pDef" val="0" />
 		</for>
 	</item>
-	<item id="1129" type="Armor" name="Crude Leather Shoes">
+	<item id="1129" type="Armor" name="粗糙皮鞋">
 		<set name="icon" val="icon.armor_t04_b_i00" />
 		<set name="default_action" val="equip" />
 		<set name="bodypart" val="feet" />
@@ -393,7 +393,7 @@
 			<add order="0x10" stat="pDef" val="11" />
 		</for>
 	</item>
-	<item id="1130" type="EtcItem" name="Cobendell's Medicine">
+	<item id="1130" type="EtcItem" name="科班得的治癒藥">
 		<set name="icon" val="icon.etc_lesser_potion_green_i00" />
 		<set name="immediate_effect" val="1" />
 		<set name="material" val="steel" />
@@ -404,7 +404,7 @@
 		<set name="is_stackable" val="true" />
 		<set name="is_questitem" val="true" />
 	</item>
-	<item id="1131" type="EtcItem" name="Cobendell's Medicine">
+	<item id="1131" type="EtcItem" name="科班得的治癒藥">
 		<set name="icon" val="icon.etc_lesser_potion_green_i00" />
 		<set name="immediate_effect" val="1" />
 		<set name="material" val="steel" />
@@ -415,7 +415,7 @@
 		<set name="is_stackable" val="true" />
 		<set name="is_questitem" val="true" />
 	</item>
-	<item id="1132" type="EtcItem" name="Cobendell's Medicine">
+	<item id="1132" type="EtcItem" name="科班得的治癒藥">
 		<set name="icon" val="icon.etc_lesser_potion_green_i00" />
 		<set name="immediate_effect" val="1" />
 		<set name="material" val="steel" />
@@ -426,7 +426,7 @@
 		<set name="is_stackable" val="true" />
 		<set name="is_questitem" val="true" />
 	</item>
-	<item id="1133" type="EtcItem" name="Cobendell's Medicine">
+	<item id="1133" type="EtcItem" name="科班得的治癒藥">
 		<set name="icon" val="icon.etc_lesser_potion_green_i00" />
 		<set name="immediate_effect" val="1" />
 		<set name="material" val="steel" />
@@ -437,7 +437,7 @@
 		<set name="is_stackable" val="true" />
 		<set name="is_questitem" val="true" />
 	</item>
-	<item id="1134" type="EtcItem" name="Cobendell's Medicine">
+	<item id="1134" type="EtcItem" name="科班得的治癒藥">
 		<set name="icon" val="icon.etc_lesser_potion_green_i00" />
 		<set name="immediate_effect" val="1" />
 		<set name="material" val="steel" />
@@ -448,7 +448,7 @@
 		<set name="is_stackable" val="true" />
 		<set name="is_questitem" val="true" />
 	</item>
-	<item id="1135" type="EtcItem" name="Spiritbound Wand">
+	<item id="1135" type="EtcItem" name="精靈封印之杖">
 		<set name="icon" val="icon.weapon_club_i01" />
 		<set name="immediate_effect" val="1" />
 		<set name="material" val="steel" />
@@ -459,7 +459,7 @@
 		<set name="is_stackable" val="true" />
 		<set name="is_questitem" val="true" />
 	</item>
-	<item id="1136" type="EtcItem" name="Spiritbound Wand">
+	<item id="1136" type="EtcItem" name="精靈封印之杖">
 		<set name="icon" val="icon.weapon_club_i01" />
 		<set name="immediate_effect" val="1" />
 		<set name="material" val="steel" />
@@ -470,7 +470,7 @@
 		<set name="is_stackable" val="true" />
 		<set name="is_questitem" val="true" />
 	</item>
-	<item id="1137" type="EtcItem" name="Spiritbound Wand">
+	<item id="1137" type="EtcItem" name="精靈封印之杖">
 		<set name="icon" val="icon.weapon_club_i01" />
 		<set name="immediate_effect" val="1" />
 		<set name="material" val="steel" />
@@ -481,7 +481,7 @@
 		<set name="is_stackable" val="true" />
 		<set name="is_questitem" val="true" />
 	</item>
-	<item id="1138" type="EtcItem" name="Auron's Letter">
+	<item id="1138" type="EtcItem" name="阿伊努的信">
 		<set name="icon" val="icon.etc_scroll_white_i00" />
 		<set name="immediate_effect" val="1" />
 		<set name="material" val="steel" />
@@ -492,7 +492,7 @@
 		<set name="is_stackable" val="true" />
 		<set name="is_questitem" val="true" />
 	</item>
-	<item id="1139" type="EtcItem" name="Warrior Guild Mark">
+	<item id="1139" type="EtcItem" name="鬥士聯會的標章">
 		<set name="icon" val="icon.etc_badge_gold_i00" />
 		<set name="immediate_effect" val="1" />
 		<set name="material" val="steel" />
@@ -503,7 +503,7 @@
 		<set name="is_stackable" val="true" />
 		<set name="is_questitem" val="true" />
 	</item>
-	<item id="1140" type="EtcItem" name="Rusted Bronze Sword">
+	<item id="1140" type="EtcItem" name="生銹的青銅劍">
 		<set name="icon" val="icon.weapon_broad_sword_i00" />
 		<set name="immediate_effect" val="1" />
 		<set name="material" val="steel" />
@@ -514,7 +514,7 @@
 		<set name="is_stackable" val="true" />
 		<set name="is_questitem" val="true" />
 	</item>
-	<item id="1141" type="EtcItem" name="Rusted Bronze Sword">
+	<item id="1141" type="EtcItem" name="生銹的青銅劍">
 		<set name="icon" val="icon.weapon_broad_sword_i00" />
 		<set name="immediate_effect" val="1" />
 		<set name="material" val="steel" />
@@ -523,7 +523,7 @@
 		<set name="is_stackable" val="true" />
 		<set name="is_questitem" val="true" />
 	</item>
-	<item id="1142" type="Weapon" name="Rusted Bronze Sword">
+	<item id="1142" type="Weapon" name="生銹的青銅劍">
 		<set name="icon" val="icon.weapon_broad_sword_i00" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="sword" />
@@ -549,7 +549,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="1143" type="EtcItem" name="Simplon's Letter">
+	<item id="1143" type="EtcItem" name="辛普龍的信">
 		<set name="icon" val="icon.etc_scroll_gray_i00" />
 		<set name="immediate_effect" val="1" />
 		<set name="material" val="steel" />
@@ -560,7 +560,7 @@
 		<set name="is_stackable" val="true" />
 		<set name="is_questitem" val="true" />
 	</item>
-	<item id="1144" type="EtcItem" name="Venomous Spider Leg">
+	<item id="1144" type="EtcItem" name="巨大毒蜘蛛的腳">
 		<set name="icon" val="icon.etc_horn_i00" />
 		<set name="immediate_effect" val="1" />
 		<set name="material" val="steel" />
@@ -571,7 +571,7 @@
 		<set name="is_stackable" val="true" />
 		<set name="is_questitem" val="true" />
 	</item>
-	<item id="1145" type="EtcItem" name="Medallion of Warrior">
+	<item id="1145" type="EtcItem" name="鬥士的勳章">
 		<set name="icon" val="icon.accessary_earing_of_protection_i00" />
 		<set name="immediate_effect" val="1" />
 		<set name="material" val="steel" />
@@ -580,7 +580,7 @@
 		<set name="is_stackable" val="true" />
 		<set name="is_questitem" val="true" />
 	</item>
-	<item id="1146" type="Armor" name="Squire's Shirt">
+	<item id="1146" type="Armor" name="見習騎士襯衫">
 		<set name="icon" val="icon.armor_t01_u_i00" />
 		<set name="default_action" val="equip" />
 		<set name="armor_type" val="light" />
@@ -596,7 +596,7 @@
 			<add order="0x10" stat="pDef" val="33" />
 		</for>
 	</item>
-	<item id="1147" type="Armor" name="Squire's Pants">
+	<item id="1147" type="Armor" name="見習騎士褲">
 		<set name="icon" val="icon.armor_t01_l_i00" />
 		<set name="default_action" val="equip" />
 		<set name="armor_type" val="light" />
@@ -612,7 +612,7 @@
 			<add order="0x10" stat="pDef" val="20" />
 		</for>
 	</item>
-	<item id="1148" type="Armor" name="Hard Leather Helmet">
+	<item id="1148" type="Armor" name="硬皮頭盔">
 		<set name="icon" val="icon.armor_leather_helmet_i00" />
 		<set name="default_action" val="equip" />
 		<set name="bodypart" val="head" />
@@ -624,7 +624,7 @@
 			<add order="0x10" stat="pDef" val="26" />
 		</for>
 	</item>
-	<item id="1149" type="Armor" name="Shining Circlet">
+	<item id="1149" type="Armor" name="閃耀頭箍">
 		<set name="icon" val="icon.armor_circlet_i00" />
 		<set name="default_action" val="equip" />
 		<set name="bodypart" val="head" />
@@ -640,7 +640,7 @@
 			<enchant order="0x0C" stat="pDef" val="0" />
 		</for>
 	</item>
-	<item id="1150" type="EtcItem" name="Spellbook: Wind Strike">
+	<item id="1150" type="EtcItem" name="魔法書-狂風之擊">
 		<set name="icon" val="icon.etc_spell_books_blue_i00" />
 		<set name="immediate_effect" val="1" />
 		<set name="material" val="paper" />
@@ -648,7 +648,7 @@
 		<set name="price" val="50" />
 		<set name="is_stackable" val="true" />
 	</item>
-	<item id="1151" type="EtcItem" name="Spellbook: Self Heal">
+	<item id="1151" type="EtcItem" name="魔法書-自我治癒">
 		<set name="icon" val="icon.etc_spell_books_blue_i00" />
 		<set name="immediate_effect" val="1" />
 		<set name="material" val="paper" />
@@ -656,7 +656,7 @@
 		<set name="price" val="50" />
 		<set name="is_stackable" val="true" />
 	</item>
-	<item id="1152" type="EtcItem" name="Spellbook: Heal">
+	<item id="1152" type="EtcItem" name="魔法書-治癒術">
 		<set name="icon" val="icon.etc_spell_books_white_i00" />
 		<set name="immediate_effect" val="1" />
 		<set name="material" val="paper" />
@@ -664,7 +664,7 @@
 		<set name="price" val="100" />
 		<set name="is_stackable" val="true" />
 	</item>
-	<item id="1153" type="EtcItem" name="Jenna's Letter">
+	<item id="1153" type="EtcItem" name="潔妮恩的信">
 		<set name="icon" val="icon.etc_scroll_white_i00" />
 		<set name="immediate_effect" val="1" />
 		<set name="material" val="steel" />
@@ -675,7 +675,7 @@
 		<set name="is_stackable" val="true" />
 		<set name="is_questitem" val="true" />
 	</item>
-	<item id="1154" type="EtcItem" name="Sentry Blade">
+	<item id="1154" type="EtcItem" name="崗哨刀">
 		<set name="icon" val="icon.weapon_bastard_sword_i00" />
 		<set name="immediate_effect" val="1" />
 		<set name="material" val="steel" />
@@ -686,7 +686,7 @@
 		<set name="is_stackable" val="true" />
 		<set name="is_questitem" val="true" />
 	</item>
-	<item id="1155" type="EtcItem" name="Sentry Blade">
+	<item id="1155" type="EtcItem" name="崗哨刀">
 		<set name="icon" val="icon.weapon_bastard_sword_i00" />
 		<set name="immediate_effect" val="1" />
 		<set name="material" val="steel" />
@@ -697,7 +697,7 @@
 		<set name="is_stackable" val="true" />
 		<set name="is_questitem" val="true" />
 	</item>
-	<item id="1156" type="EtcItem" name="Sentry Blade">
+	<item id="1156" type="EtcItem" name="崗哨刀">
 		<set name="icon" val="icon.weapon_bastard_sword_i00" />
 		<set name="immediate_effect" val="1" />
 		<set name="material" val="steel" />
@@ -708,7 +708,7 @@
 		<set name="is_stackable" val="true" />
 		<set name="is_questitem" val="true" />
 	</item>
-	<item id="1157" type="EtcItem" name="Old Bronze Sword">
+	<item id="1157" type="EtcItem" name="老舊的青銅劍">
 		<set name="icon" val="icon.weapon_crimson_sword_i00" />
 		<set name="immediate_effect" val="1" />
 		<set name="material" val="steel" />
@@ -719,7 +719,7 @@
 		<set name="is_stackable" val="true" />
 		<set name="is_questitem" val="true" />
 	</item>
-	<item id="1158" type="EtcItem" name="Bone Fragment">
+	<item id="1158" type="EtcItem" name="骨碎片">
 		<set name="icon" val="icon.etc_piece_bone_red_i00" />
 		<set name="immediate_effect" val="1" />
 		<set name="material" val="steel" />
@@ -730,7 +730,7 @@
 		<set name="is_stackable" val="true" />
 		<set name="is_questitem" val="true" />
 	</item>
-	<item id="1159" type="EtcItem" name="Elf Skull">
+	<item id="1159" type="EtcItem" name="精靈的頭蓋骨">
 		<set name="icon" val="icon.etc_skull_black_i00" />
 		<set name="immediate_effect" val="1" />
 		<set name="material" val="steel" />
@@ -741,7 +741,7 @@
 		<set name="is_stackable" val="true" />
 		<set name="is_questitem" val="true" />
 	</item>
-	<item id="1160" type="EtcItem" name="Dark Bezoar">
+	<item id="1160" type="EtcItem" name="深淵魔精石">
 		<set name="icon" val="icon.etc_bead_gold_i00" />
 		<set name="immediate_effect" val="1" />
 		<set name="material" val="steel" />
@@ -752,7 +752,7 @@
 		<set name="is_stackable" val="true" />
 		<set name="is_questitem" val="true" />
 	</item>
-	<item id="1161" type="EtcItem" name="Sword of Ritual">
+	<item id="1161" type="EtcItem" name="儀式劍">
 		<set name="icon" val="icon.weapon_flamberge_i00" />
 		<set name="immediate_effect" val="1" />
 		<set name="material" val="steel" />
@@ -763,7 +763,7 @@
 		<set name="is_stackable" val="true" />
 		<set name="is_questitem" val="true" />
 	</item>
-	<item id="1162" type="EtcItem" name="Coin of Lords">
+	<item id="1162" type="EtcItem" name="領主的貨幣-警衛隊長巴堤亞">
 		<set name="icon" val="icon.etc_coins_silver_i00" />
 		<set name="immediate_effect" val="1" />
 		<set name="material" val="steel" />
@@ -774,7 +774,7 @@
 		<set name="is_stackable" val="true" />
 		<set name="is_questitem" val="true" />
 	</item>
-	<item id="1163" type="EtcItem" name="Coin of Lords">
+	<item id="1163" type="EtcItem" name="領主的貨幣-大神官雷門德">
 		<set name="icon" val="icon.etc_coins_silver_i00" />
 		<set name="immediate_effect" val="1" />
 		<set name="material" val="steel" />
@@ -785,7 +785,7 @@
 		<set name="is_stackable" val="true" />
 		<set name="is_questitem" val="true" />
 	</item>
-	<item id="1164" type="EtcItem" name="Coin of Lords">
+	<item id="1164" type="EtcItem" name="領主的貨幣-警衛隊長貝茲庫">
 		<set name="icon" val="icon.etc_coins_silver_i00" />
 		<set name="immediate_effect" val="1" />
 		<set name="material" val="steel" />
@@ -796,7 +796,7 @@
 		<set name="is_stackable" val="true" />
 		<set name="is_questitem" val="true" />
 	</item>
-	<item id="1165" type="EtcItem" name="Coin of Lords">
+	<item id="1165" type="EtcItem" name="領主的貨幣-大神官雷比安">
 		<set name="icon" val="icon.etc_coins_silver_i00" />
 		<set name="immediate_effect" val="1" />
 		<set name="material" val="steel" />
@@ -807,7 +807,7 @@
 		<set name="is_stackable" val="true" />
 		<set name="is_questitem" val="true" />
 	</item>
-	<item id="1166" type="EtcItem" name="Coin of Lords">
+	<item id="1166" type="EtcItem" name="領主的貨幣-警衛隊長革爾泊特">
 		<set name="icon" val="icon.etc_coins_silver_i00" />
 		<set name="immediate_effect" val="1" />
 		<set name="material" val="steel" />
@@ -818,7 +818,7 @@
 		<set name="is_stackable" val="true" />
 		<set name="is_questitem" val="true" />
 	</item>
-	<item id="1167" type="EtcItem" name="Coin of Lords">
+	<item id="1167" type="EtcItem" name="領主的貨幣-大神官比奧帝">
 		<set name="icon" val="icon.etc_coins_silver_i00" />
 		<set name="immediate_effect" val="1" />
 		<set name="material" val="steel" />
@@ -829,7 +829,7 @@
 		<set name="is_stackable" val="true" />
 		<set name="is_questitem" val="true" />
 	</item>
-	<item id="1168" type="EtcItem" name="Gludio Guard's 1st Badge">
+	<item id="1168" type="EtcItem" name="古魯丁警衛隊的標章">
 		<set name="icon" val="icon.etc_badge_silver_i00" />
 		<set name="immediate_effect" val="1" />
 		<set name="material" val="steel" />
@@ -840,7 +840,7 @@
 		<set name="is_stackable" val="true" />
 		<set name="is_questitem" val="true" />
 	</item>
-	<item id="1169" type="EtcItem" name="Bugbear Necklace">
+	<item id="1169" type="EtcItem" name="食人妖項鍊">
 		<set name="icon" val="icon.etc_totem_necklace_red_i00" />
 		<set name="immediate_effect" val="1" />
 		<set name="material" val="steel" />
@@ -851,7 +851,7 @@
 		<set name="is_stackable" val="true" />
 		<set name="is_questitem" val="true" />
 	</item>
-	<item id="1170" type="EtcItem" name="Einhasad's 1st Temple Badge">
+	<item id="1170" type="EtcItem" name="殷海薩教團標章">
 		<set name="icon" val="icon.accessary_earing_of_holy_spirit_i00" />
 		<set name="immediate_effect" val="1" />
 		<set name="material" val="steel" />
@@ -862,7 +862,7 @@
 		<set name="is_stackable" val="true" />
 		<set name="is_questitem" val="true" />
 	</item>
-	<item id="1171" type="EtcItem" name="Einhasad's Crucifix">
+	<item id="1171" type="EtcItem" name="殷海薩十字徽章">
 		<set name="icon" val="icon.accessary_necklace_of_knowledge_i00" />
 		<set name="immediate_effect" val="1" />
 		<set name="material" val="steel" />
@@ -873,7 +873,7 @@
 		<set name="is_stackable" val="true" />
 		<set name="is_questitem" val="true" />
 	</item>
-	<item id="1172" type="EtcItem" name="Gludio Guard's 2nd Badge">
+	<item id="1172" type="EtcItem" name="古魯丁警衛隊標章">
 		<set name="icon" val="icon.etc_badge_silver_i00" />
 		<set name="immediate_effect" val="1" />
 		<set name="material" val="steel" />
@@ -884,7 +884,7 @@
 		<set name="is_stackable" val="true" />
 		<set name="is_questitem" val="true" />
 	</item>
-	<item id="1173" type="EtcItem" name="Venomous Spider Leg">
+	<item id="1173" type="EtcItem" name="巨大毒蜘蛛的腳">
 		<set name="icon" val="icon.etc_horn_i00" />
 		<set name="immediate_effect" val="1" />
 		<set name="material" val="steel" />
@@ -895,7 +895,7 @@
 		<set name="is_stackable" val="true" />
 		<set name="is_questitem" val="true" />
 	</item>
-	<item id="1174" type="EtcItem" name="Einhasad's 2nd Temple Badge">
+	<item id="1174" type="EtcItem" name="殷海薩教團標章">
 		<set name="icon" val="icon.accessary_earing_of_holy_spirit_i00" />
 		<set name="immediate_effect" val="1" />
 		<set name="material" val="steel" />
@@ -906,7 +906,7 @@
 		<set name="is_stackable" val="true" />
 		<set name="is_questitem" val="true" />
 	</item>
-	<item id="1175" type="EtcItem" name="Lizardman's Totem">
+	<item id="1175" type="EtcItem" name="蜥蜴人圖騰">
 		<set name="icon" val="icon.etc_totem_green_i00" />
 		<set name="immediate_effect" val="1" />
 		<set name="material" val="steel" />
@@ -917,7 +917,7 @@
 		<set name="is_stackable" val="true" />
 		<set name="is_questitem" val="true" />
 	</item>
-	<item id="1176" type="EtcItem" name="Gludio Guard's 3rd Badge">
+	<item id="1176" type="EtcItem" name="古魯丁警衛隊標章">
 		<set name="icon" val="icon.etc_badge_silver_i00" />
 		<set name="immediate_effect" val="1" />
 		<set name="material" val="steel" />
@@ -928,7 +928,7 @@
 		<set name="is_stackable" val="true" />
 		<set name="is_questitem" val="true" />
 	</item>
-	<item id="1177" type="EtcItem" name="Giant Spider's Husk">
+	<item id="1177" type="EtcItem" name="巨大蜘蛛的皮">
 		<set name="icon" val="icon.etc_leather_gray_i00" />
 		<set name="immediate_effect" val="1" />
 		<set name="material" val="steel" />
@@ -939,7 +939,7 @@
 		<set name="is_stackable" val="true" />
 		<set name="is_questitem" val="true" />
 	</item>
-	<item id="1178" type="EtcItem" name="Einhasad's 3rd Temple Badge">
+	<item id="1178" type="EtcItem" name="殷海薩教團標章">
 		<set name="icon" val="icon.accessary_earing_of_holy_spirit_i00" />
 		<set name="immediate_effect" val="1" />
 		<set name="material" val="steel" />
@@ -950,7 +950,7 @@
 		<set name="is_stackable" val="true" />
 		<set name="is_questitem" val="true" />
 	</item>
-	<item id="1179" type="EtcItem" name="Skull of Silent Horror">
+	<item id="1179" type="EtcItem" name="恐怖的頭蓋骨">
 		<set name="icon" val="icon.etc_skull_black_i00" />
 		<set name="immediate_effect" val="1" />
 		<set name="material" val="steel" />
@@ -961,7 +961,7 @@
 		<set name="is_stackable" val="true" />
 		<set name="is_questitem" val="true" />
 	</item>
-	<item id="1180" type="EtcItem" name="Bezique's Letter">
+	<item id="1180" type="EtcItem" name="貝茲庫的信">
 		<set name="icon" val="icon.etc_scroll_white_i00" />
 		<set name="immediate_effect" val="1" />
 		<set name="material" val="steel" />
@@ -972,7 +972,7 @@
 		<set name="is_stackable" val="true" />
 		<set name="is_questitem" val="true" />
 	</item>
-	<item id="1181" type="Weapon" name="Neti's Bow">
+	<item id="1181" type="Weapon" name="奈提的弓">
 		<set name="icon" val="icon.weapon_bow_i00" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="bow" />
@@ -1001,7 +1001,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="1182" type="Weapon" name="Neti's Dagger">
+	<item id="1182" type="Weapon" name="奈提的匕首">
 		<set name="icon" val="icon.weapon_knife_i00" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="dagger" />
@@ -1028,7 +1028,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="1183" type="EtcItem" name="Spartoi's Bones">
+	<item id="1183" type="EtcItem" name="史巴托骨頭">
 		<set name="icon" val="icon.etc_piece_bone_black_i00" />
 		<set name="immediate_effect" val="1" />
 		<set name="material" val="steel" />
@@ -1039,7 +1039,7 @@
 		<set name="is_stackable" val="true" />
 		<set name="is_questitem" val="true" />
 	</item>
-	<item id="1184" type="EtcItem" name="Horseshoe of Light">
+	<item id="1184" type="EtcItem" name="光之馬蹄">
 		<set name="icon" val="icon.accessary_red_cresent_earing_i00" />
 		<set name="immediate_effect" val="1" />
 		<set name="material" val="steel" />
@@ -1050,7 +1050,7 @@
 		<set name="is_stackable" val="true" />
 		<set name="is_questitem" val="true" />
 	</item>
-	<item id="1185" type="EtcItem" name="Most Wanted List">
+	<item id="1185" type="EtcItem" name="通緝令">
 		<set name="icon" val="icon.etc_recipe_red_i00" />
 		<set name="immediate_effect" val="1" />
 		<set name="material" val="steel" />
@@ -1061,7 +1061,7 @@
 		<set name="is_stackable" val="true" />
 		<set name="is_questitem" val="true" />
 	</item>
-	<item id="1186" type="EtcItem" name="Stolen Jewelry">
+	<item id="1186" type="EtcItem" name="被竊的珠寶">
 		<set name="icon" val="icon.etc_jewel_red_i00" />
 		<set name="immediate_effect" val="1" />
 		<set name="material" val="steel" />
@@ -1072,7 +1072,7 @@
 		<set name="is_stackable" val="true" />
 		<set name="is_questitem" val="true" />
 	</item>
-	<item id="1187" type="EtcItem" name="Stolen Tomes">
+	<item id="1187" type="EtcItem" name="被竊的魔法書">
 		<set name="icon" val="icon.etc_spell_books_red_i00" />
 		<set name="immediate_effect" val="1" />
 		<set name="material" val="steel" />
@@ -1083,7 +1083,7 @@
 		<set name="is_stackable" val="true" />
 		<set name="is_questitem" val="true" />
 	</item>
-	<item id="1188" type="EtcItem" name="Stolen Ring">
+	<item id="1188" type="EtcItem" name="被竊的戒指">
 		<set name="icon" val="icon.accessary_ring_of_grace_i00" />
 		<set name="immediate_effect" val="1" />
 		<set name="material" val="steel" />
@@ -1094,7 +1094,7 @@
 		<set name="is_stackable" val="true" />
 		<set name="is_questitem" val="true" />
 	</item>
-	<item id="1189" type="EtcItem" name="Stolen Necklace">
+	<item id="1189" type="EtcItem" name="被竊的項鍊">
 		<set name="icon" val="icon.accessary_necklace_of_blessing_i00" />
 		<set name="immediate_effect" val="1" />
 		<set name="material" val="steel" />
@@ -1105,7 +1105,7 @@
 		<set name="is_stackable" val="true" />
 		<set name="is_questitem" val="true" />
 	</item>
-	<item id="1190" type="EtcItem" name="Bezique's Recommendation">
+	<item id="1190" type="EtcItem" name="貝茲庫的推薦函">
 		<set name="icon" val="icon.etc_letter_red_i00" />
 		<set name="immediate_effect" val="1" />
 		<set name="material" val="steel" />
@@ -1116,7 +1116,7 @@
 		<set name="is_stackable" val="true" />
 		<set name="is_questitem" val="true" />
 	</item>
-	<item id="1191" type="EtcItem" name="1st Letter of Order">
+	<item id="1191" type="EtcItem" name="教團回收章">
 		<set name="icon" val="icon.etc_scroll_white_i00" />
 		<set name="immediate_effect" val="1" />
 		<set name="material" val="steel" />
@@ -1127,7 +1127,7 @@
 		<set name="is_stackable" val="true" />
 		<set name="is_questitem" val="true" />
 	</item>
-	<item id="1192" type="EtcItem" name="2nd Letter of Order">
+	<item id="1192" type="EtcItem" name="教團委託章">
 		<set name="icon" val="icon.etc_scroll_gray_i00" />
 		<set name="immediate_effect" val="1" />
 		<set name="material" val="steel" />
@@ -1138,7 +1138,7 @@
 		<set name="is_stackable" val="true" />
 		<set name="is_questitem" val="true" />
 	</item>
-	<item id="1193" type="EtcItem" name="Lionel's Book">
+	<item id="1193" type="EtcItem" name="勒莫尼爾的書">
 		<set name="icon" val="icon.etc_spell_books_blue_i00" />
 		<set name="immediate_effect" val="1" />
 		<set name="material" val="steel" />
@@ -1149,7 +1149,7 @@
 		<set name="is_stackable" val="true" />
 		<set name="is_questitem" val="true" />
 	</item>
-	<item id="1194" type="EtcItem" name="Book of Vivyan">
+	<item id="1194" type="EtcItem" name="維維安特的書">
 		<set name="icon" val="icon.etc_spell_books_blue_i00" />
 		<set name="immediate_effect" val="1" />
 		<set name="material" val="steel" />
@@ -1160,7 +1160,7 @@
 		<set name="is_stackable" val="true" />
 		<set name="is_questitem" val="true" />
 	</item>
-	<item id="1195" type="EtcItem" name="Book of Simplon">
+	<item id="1195" type="EtcItem" name="辛普龍的書">
 		<set name="icon" val="icon.etc_spell_books_blue_i00" />
 		<set name="immediate_effect" val="1" />
 		<set name="material" val="steel" />
@@ -1171,7 +1171,7 @@
 		<set name="is_stackable" val="true" />
 		<set name="is_questitem" val="true" />
 	</item>
-	<item id="1196" type="EtcItem" name="Book of Praga">
+	<item id="1196" type="EtcItem" name="普拉卡的書">
 		<set name="icon" val="icon.etc_spell_books_blue_i00" />
 		<set name="immediate_effect" val="1" />
 		<set name="material" val="steel" />
@@ -1182,7 +1182,7 @@
 		<set name="is_stackable" val="true" />
 		<set name="is_questitem" val="true" />
 	</item>
-	<item id="1197" type="EtcItem" name="Certificate of Gallint">
+	<item id="1197" type="EtcItem" name="噶爾林特的證書">
 		<set name="icon" val="icon.etc_letter_white_i00" />
 		<set name="immediate_effect" val="1" />
 		<set name="material" val="steel" />
@@ -1193,7 +1193,7 @@
 		<set name="is_stackable" val="true" />
 		<set name="is_questitem" val="true" />
 	</item>
-	<item id="1198" type="EtcItem" name="Pendant of Mother">
+	<item id="1198" type="EtcItem" name="母親的墜子">
 		<set name="icon" val="icon.accessary_blessed_earing_i00" />
 		<set name="immediate_effect" val="1" />
 		<set name="material" val="steel" />
@@ -1204,7 +1204,7 @@
 		<set name="is_stackable" val="true" />
 		<set name="is_questitem" val="true" />
 	</item>
-	<item id="1199" type="EtcItem" name="Necklace of Mother">
+	<item id="1199" type="EtcItem" name="母親的項鍊">
 		<set name="icon" val="icon.accessary_blessed_necklace_i00" />
 		<set name="immediate_effect" val="1" />
 		<set name="material" val="steel" />

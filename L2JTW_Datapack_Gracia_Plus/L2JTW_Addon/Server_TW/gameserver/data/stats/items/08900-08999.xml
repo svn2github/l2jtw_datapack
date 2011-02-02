@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <list>
-	<item id="8900" type="EtcItem" name="Ancient Spellbook: Cyclone">
+	<item id="8900" type="EtcItem" name="古代魔法書-烈風">
 		<set name="icon" val="icon.etc_spell_books_element_i00" />
 		<set name="immediate_effect" val="1" />
 		<set name="material" val="paper" />
@@ -8,7 +8,7 @@
 		<set name="price" val="40000" />
 		<set name="is_stackable" val="true" />
 	</item>
-	<item id="8901" type="EtcItem" name="Ancient Spellbook: Raging Waves">
+	<item id="8901" type="EtcItem" name="古代魔法書-海嘯">
 		<set name="icon" val="icon.etc_spell_books_element_i00" />
 		<set name="immediate_effect" val="1" />
 		<set name="material" val="paper" />
@@ -16,7 +16,7 @@
 		<set name="price" val="40000" />
 		<set name="is_stackable" val="true" />
 	</item>
-	<item id="8902" type="EtcItem" name="Ancient Spellbook: Day of Doom">
+	<item id="8902" type="EtcItem" name="古代魔法書-末日">
 		<set name="icon" val="icon.etc_spell_books_element_i00" />
 		<set name="immediate_effect" val="1" />
 		<set name="material" val="paper" />
@@ -24,7 +24,7 @@
 		<set name="price" val="40000" />
 		<set name="is_stackable" val="true" />
 	</item>
-	<item id="8903" type="EtcItem" name="Ancient Spellbook: Gehenna">
+	<item id="8903" type="EtcItem" name="古代魔法書-煉獄">
 		<set name="icon" val="icon.etc_spell_books_element_i00" />
 		<set name="immediate_effect" val="1" />
 		<set name="material" val="paper" />
@@ -32,7 +32,7 @@
 		<set name="price" val="40000" />
 		<set name="is_stackable" val="true" />
 	</item>
-	<item id="8904" type="EtcItem" name="Ancient Spellbook: Anti-Summoning Field">
+	<item id="8904" type="EtcItem" name="古代魔法書-次元裂縫">
 		<set name="icon" val="icon.etc_spell_books_element_i00" />
 		<set name="immediate_effect" val="1" />
 		<set name="material" val="paper" />
@@ -40,7 +40,7 @@
 		<set name="price" val="40000" />
 		<set name="is_stackable" val="true" />
 	</item>
-	<item id="8905" type="EtcItem" name="Ancient Spellbook: Purification Field">
+	<item id="8905" type="EtcItem" name="古代魔法書-純淨">
 		<set name="icon" val="icon.etc_spell_books_element_i00" />
 		<set name="immediate_effect" val="1" />
 		<set name="material" val="paper" />
@@ -48,7 +48,7 @@
 		<set name="price" val="40000" />
 		<set name="is_stackable" val="true" />
 	</item>
-	<item id="8906" type="EtcItem" name="Ancient Spellbook: Miracle">
+	<item id="8906" type="EtcItem" name="古代魔法書-奇蹟">
 		<set name="icon" val="icon.etc_spell_books_element_i00" />
 		<set name="immediate_effect" val="1" />
 		<set name="material" val="paper" />
@@ -56,7 +56,7 @@
 		<set name="price" val="40000" />
 		<set name="is_stackable" val="true" />
 	</item>
-	<item id="8907" type="EtcItem" name="Ancient Spellbook: Flames of Invincibility">
+	<item id="8907" type="EtcItem" name="古代魔法書-不滅之火">
 		<set name="icon" val="icon.etc_spell_books_element_i00" />
 		<set name="immediate_effect" val="1" />
 		<set name="material" val="paper" />
@@ -64,7 +64,7 @@
 		<set name="price" val="40000" />
 		<set name="is_stackable" val="true" />
 	</item>
-	<item id="8908" type="EtcItem" name="Ancient Spellbook: Mass Recharge">
+	<item id="8908" type="EtcItem" name="古代魔法書-魔力泉源">
 		<set name="icon" val="icon.etc_spell_books_element_i00" />
 		<set name="immediate_effect" val="1" />
 		<set name="material" val="paper" />
@@ -72,7 +72,7 @@
 		<set name="price" val="40000" />
 		<set name="is_stackable" val="true" />
 	</item>
-	<item id="8909" type="EtcItem" name="Blueprint: Summon Swoop Cannon">
+	<item id="8909" type="EtcItem" name="設計圖-召喚奇襲加農砲">
 		<set name="icon" val="icon.etc_plan_i00" />
 		<set name="immediate_effect" val="1" />
 		<set name="material" val="paper" />
@@ -80,7 +80,7 @@
 		<set name="price" val="9600" />
 		<set name="is_stackable" val="true" />
 	</item>
-	<item id="8910" type="Armor" name="Black Feather Mask (Event)">
+	<item id="8910" type="Armor" name="黑羽假面-活動用">
 		<set name="icon" val="icon.accessary_black_feather_mask_i00" />
 		<set name="default_action" val="equip" />
 		<set name="bodypart" val="hairall" />
@@ -91,7 +91,7 @@
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
 	</item>
-	<item id="8911" type="Armor" name="Black Half-Mask (Event)">
+	<item id="8911" type="Armor" name="闇剎面具-活動用">
 		<set name="icon" val="icon.Accessary_black_half_mask_i00" />
 		<set name="default_action" val="equip" />
 		<set name="bodypart" val="hair" />
@@ -99,7 +99,7 @@
 		<set name="material" val="steel" />
 		<set name="weight" val="10" />
 	</item>
-	<item id="8912" type="Armor" name="Single Stem Flower">
+	<item id="8912" type="Armor" name="花冠">
 		<set name="icon" val="icon.accessory_hairpin_i00" />
 		<set name="default_action" val="equip" />
 		<set name="bodypart" val="hair2" />
@@ -112,7 +112,7 @@
 			<player sex="1" />
 		</cond>
 	</item>
-	<item id="8913" type="Armor" name="Butterfly Hairpin">
+	<item id="8913" type="Armor" name="蝴蝶髮飾">
 		<set name="icon" val="icon.Accessary_butterfly_hearpin_i00" />
 		<set name="default_action" val="equip" />
 		<set name="bodypart" val="hair2" />
@@ -125,7 +125,7 @@
 			<player sex="1" />
 		</cond>
 	</item>
-	<item id="8914" type="Armor" name="Luxurious Gold Circlet">
+	<item id="8914" type="Armor" name="高貴黃金之環">
 		<set name="icon" val="icon.Accessary_gold_circlet_i00" />
 		<set name="default_action" val="equip" />
 		<set name="bodypart" val="hairall" />
@@ -134,7 +134,7 @@
 		<set name="weight" val="10" />
 		<set name="price" val="500000" />
 	</item>
-	<item id="8915" type="Armor" name="Luxurious Silver Circlet">
+	<item id="8915" type="Armor" name="高貴白銀之環">
 		<set name="icon" val="icon.Accessary_gold_circlet_i01" />
 		<set name="default_action" val="equip" />
 		<set name="bodypart" val="hairall" />
@@ -143,7 +143,7 @@
 		<set name="weight" val="10" />
 		<set name="price" val="500000" />
 	</item>
-	<item id="8916" type="Armor" name="Eye Patch">
+	<item id="8916" type="Armor" name="獨眼">
 		<set name="icon" val="icon.Accessary_one_eye_i00" />
 		<set name="default_action" val="equip" />
 		<set name="bodypart" val="hair" />
@@ -152,7 +152,7 @@
 		<set name="weight" val="10" />
 		<set name="price" val="500000" />
 	</item>
-	<item id="8917" type="Armor" name="Goddess Circlet">
+	<item id="8917" type="Armor" name="女神之環">
 		<set name="icon" val="icon.Accessary_goddess_circlet_i00" />
 		<set name="default_action" val="equip" />
 		<set name="bodypart" val="hairall" />
@@ -165,7 +165,7 @@
 			<player sex="1" />
 		</cond>
 	</item>
-	<item id="8918" type="Armor" name="Leather Cap">
+	<item id="8918" type="Armor" name="皮革帽">
 		<set name="icon" val="icon.Accessary_middle_ages_i00" />
 		<set name="default_action" val="equip" />
 		<set name="bodypart" val="hairall" />
@@ -174,7 +174,7 @@
 		<set name="weight" val="10" />
 		<set name="price" val="2000000" />
 	</item>
-	<item id="8919" type="Armor" name="First Mate's Hat">
+	<item id="8919" type="Armor" name="提督軍帽-活動用">
 		<set name="icon" val="icon.Accessary_middle_ages_i01" />
 		<set name="default_action" val="equip" />
 		<set name="bodypart" val="hairall" />
@@ -185,7 +185,7 @@
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
 	</item>
-	<item id="8920" type="Armor" name="Angel Halo">
+	<item id="8920" type="Armor" name="天使之環">
 		<set name="icon" val="icon.Accessary_angel_circlet_i00" />
 		<set name="default_action" val="equip" />
 		<set name="bodypart" val="hairall" />
@@ -194,7 +194,7 @@
 		<set name="weight" val="10" />
 		<set name="price" val="500000" />
 	</item>
-	<item id="8921" type="Armor" name="Demon Circlet">
+	<item id="8921" type="Armor" name="惡魔之環">
 		<set name="icon" val="icon.Accessary_demon_circlet_i00" />
 		<set name="default_action" val="equip" />
 		<set name="bodypart" val="hairall" />
@@ -203,7 +203,7 @@
 		<set name="weight" val="10" />
 		<set name="price" val="500000" />
 	</item>
-	<item id="8922" type="Armor" name="Pirate Hat">
+	<item id="8922" type="Armor" name="海賊帽">
 		<set name="icon" val="icon.Accessary_sea_robber_i00" />
 		<set name="default_action" val="equip" />
 		<set name="bodypart" val="hairall" />
@@ -212,7 +212,7 @@
 		<set name="weight" val="10" />
 		<set name="price" val="2000000" />
 	</item>
-	<item id="8923" type="Armor" name="Scar">
+	<item id="8923" type="Armor" name="疤痕">
 		<set name="icon" val="icon.Accessary_scar_i00" />
 		<set name="default_action" val="equip" />
 		<set name="bodypart" val="hair" />
@@ -225,7 +225,7 @@
 			<player sex="0" />
 		</cond>
 	</item>
-	<item id="8924" type="EtcItem" name="Boat Ticket: Primeval Isle to Rune.">
+	<item id="8924" type="EtcItem" name="船票-原始之島往魯因">
 		<set name="icon" val="icon.etc_ticket_red_i00" />
 		<set name="immediate_effect" val="1" />
 		<set name="material" val="paper" />
@@ -233,7 +233,7 @@
 		<set name="price" val="25000" />
 		<set name="is_stackable" val="true" />
 	</item>
-	<item id="8925" type="EtcItem" name="Boat Ticket: Rune to Primeval Isle.">
+	<item id="8925" type="EtcItem" name="船票-魯因往原始之島">
 		<set name="icon" val="icon.etc_ticket_blue_i00" />
 		<set name="immediate_effect" val="1" />
 		<set name="material" val="paper" />
@@ -241,7 +241,7 @@
 		<set name="price" val="25000" />
 		<set name="is_stackable" val="true" />
 	</item>
-	<item id="8926" type="Weapon" name="Shadow Item: Sword of Delusion">
+	<item id="8926" type="Weapon" name="幻象裝備-迷惑之劍">
 		<set name="icon" val="icon.time_weapon_sword_of_delusion_i00" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="sword" />
@@ -266,7 +266,7 @@
 			<set order="0x08" stat="pAtkSpd" val="379" />
 		</for>
 	</item>
-	<item id="8927" type="Weapon" name="Shadow Item: Poleaxe">
+	<item id="8927" type="Weapon" name="幻象裝備-長柄戰斧">
 		<set name="icon" val="icon.time_weapon_poleaxe_i00" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="pole" />
@@ -294,7 +294,7 @@
 			<set order="0x08" stat="pAtkSpd" val="325" />
 		</for>
 	</item>
-	<item id="8928" type="Weapon" name="Shadow Item: Stick of Eternity">
+	<item id="8928" type="Weapon" name="幻象裝備-永恆手杖">
 		<set name="icon" val="icon.time_weapon_stick_of_eternity_i00" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="blunt" />
@@ -322,7 +322,7 @@
 			<set order="0x08" stat="pAtkSpd" val="379" />
 		</for>
 	</item>
-	<item id="8929" type="Weapon" name="Shadow Item: Inferno Staff">
+	<item id="8929" type="Weapon" name="幻象裝備-地獄魔杖">
 		<set name="icon" val="icon.time_weapon_inferno_staff_i00" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="bigblunt" />
@@ -350,7 +350,7 @@
 			<set order="0x08" stat="pAtkSpd" val="325" />
 		</for>
 	</item>
-	<item id="8930" type="Weapon" name="Shadow Item: Pa'agrian Hammer">
+	<item id="8930" type="Weapon" name="幻象裝備-帕格立歐之鎚">
 		<set name="icon" val="icon.time_weapon_paagrio_hammer_i00" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="bigblunt" />
@@ -378,7 +378,7 @@
 			<set order="0x08" stat="pAtkSpd" val="325" />
 		</for>
 	</item>
-	<item id="8931" type="Weapon" name="Shadow Item: Dark Screamer">
+	<item id="8931" type="Weapon" name="幻象裝備-黑暗狂嘯者">
 		<set name="icon" val="icon.time_weapon_dark_screamer_i00" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="dagger" />
@@ -405,7 +405,7 @@
 			<set order="0x08" stat="pAtkSpd" val="433" />
 		</for>
 	</item>
-	<item id="8932" type="Weapon" name="Shadow Item: Akat Long Bow">
+	<item id="8932" type="Weapon" name="幻象裝備-阿卡特長弓">
 		<set name="icon" val="icon.time_weapon_akat_long_bow_i00" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="bow" />
@@ -434,7 +434,7 @@
 			<set order="0x08" stat="pAtkSpd" val="227" />
 		</for>
 	</item>
-	<item id="8933" type="Weapon" name="Shadow Item: Pa'agrian Sword">
+	<item id="8933" type="Weapon" name="幻象裝備-帕格立歐之劍">
 		<set name="icon" val="icon.time_weapon_sword_of_paagrio_i00" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="bigsword" />
@@ -459,7 +459,7 @@
 			<set order="0x08" stat="pAtkSpd" val="325" />
 		</for>
 	</item>
-	<item id="8934" type="Weapon" name="Shadow Item: Fisted Blade">
+	<item id="8934" type="Weapon" name="幻象裝備-拳刃">
 		<set name="icon" val="icon.time_weapon_fist_blade_i00" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="dualfist" />
@@ -486,7 +486,7 @@
 			<set order="0x08" stat="pAtkSpd" val="325" />
 		</for>
 	</item>
-	<item id="8935" type="Weapon" name="Test Rapier">
+	<item id="8935" type="Weapon" name="測試用細劍">
 		<set name="icon" val="icon.weapon_monster_i00" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="sword" />
@@ -509,7 +509,7 @@
 			<set order="0x08" stat="pAtkSpd" val="379" />
 		</for>
 	</item>
-	<item id="8936" type="Armor" name="Santa's Antlers">
+	<item id="8936" type="Armor" name="聖誕鹿角帽">
 		<set name="icon" val="icon.accessory_santas_antler_i00" />
 		<set name="default_action" val="equip" />
 		<set name="bodypart" val="hairall" />
@@ -518,7 +518,7 @@
 		<set name="weight" val="10" />
 		<set name="is_dropable" val="false" />
 	</item>
-	<item id="8937" type="Weapon" name="Shadow Item: Stormbringer">
+	<item id="8937" type="Weapon" name="幻象裝備-暴風之劍*暴風之劍">
 		<set name="icon" val="icon.time_weapon_dual_sword_i00" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="dual" />
@@ -543,7 +543,7 @@
 			<set order="0x08" stat="pAtkSpd" val="325" />
 		</for>
 	</item>
-	<item id="8938" type="Weapon" name="Damascus * Tallum Blade">
+	<item id="8938" type="Weapon" name="塔魯刀*大馬士革刀">
 		<set name="icon" val="icon.weapon_dual_sword_i00" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="dual" />
@@ -571,7 +571,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="8939" type="EtcItem" name="Dominic's Mark">
+	<item id="8939" type="EtcItem" name="多明尼克的信物">
 		<set name="icon" val="icon.etc_leash_i00" />
 		<set name="immediate_effect" val="1" />
 		<set name="material" val="steel" />
@@ -581,7 +581,7 @@
 		<set name="is_stackable" val="true" />
 		<set name="is_questitem" val="true" />
 	</item>
-	<item id="8940" type="EtcItem" name="Mark of the Future: Human">
+	<item id="8940" type="EtcItem" name="未來的憑證-人類">
 		<set name="icon" val="icon.etc_jewel_green_i00" />
 		<set name="immediate_effect" val="1" />
 		<set name="material" val="steel" />
@@ -591,7 +591,7 @@
 		<set name="is_stackable" val="true" />
 		<set name="is_questitem" val="true" />
 	</item>
-	<item id="8941" type="EtcItem" name="Mark of the Future: Dwarf">
+	<item id="8941" type="EtcItem" name="未來的憑證-矮人">
 		<set name="icon" val="icon.etc_jewel_gold_i00" />
 		<set name="immediate_effect" val="1" />
 		<set name="material" val="steel" />
@@ -601,7 +601,7 @@
 		<set name="is_stackable" val="true" />
 		<set name="is_questitem" val="true" />
 	</item>
-	<item id="8942" type="EtcItem" name="Mark of the Future: Elf">
+	<item id="8942" type="EtcItem" name="未來的憑證-精靈">
 		<set name="icon" val="icon.etc_jewel_silver_i00" />
 		<set name="immediate_effect" val="1" />
 		<set name="material" val="steel" />
@@ -611,7 +611,7 @@
 		<set name="is_stackable" val="true" />
 		<set name="is_questitem" val="true" />
 	</item>
-	<item id="8943" type="EtcItem" name="Mark of the Future: Dark Elf">
+	<item id="8943" type="EtcItem" name="未來的憑證-黑暗精靈">
 		<set name="icon" val="icon.etc_jewel_white_i00" />
 		<set name="immediate_effect" val="1" />
 		<set name="material" val="steel" />
@@ -621,7 +621,7 @@
 		<set name="is_stackable" val="true" />
 		<set name="is_questitem" val="true" />
 	</item>
-	<item id="8944" type="EtcItem" name="Mark of the Future: Orc">
+	<item id="8944" type="EtcItem" name="未來的憑證-半獸人">
 		<set name="icon" val="icon.etc_jewel_red_i00" />
 		<set name="immediate_effect" val="1" />
 		<set name="material" val="steel" />
@@ -631,7 +631,7 @@
 		<set name="is_stackable" val="true" />
 		<set name="is_questitem" val="true" />
 	</item>
-	<item id="8945" type="EtcItem" name="Spellbook: Celestial Shield">
+	<item id="8945" type="EtcItem" name="魔法書-天國聖盾">
 		<set name="icon" val="icon.etc_spell_books_assistance_i00" />
 		<set name="immediate_effect" val="1" />
 		<set name="material" val="paper" />
@@ -639,7 +639,7 @@
 		<set name="price" val="8100" />
 		<set name="is_stackable" val="true" />
 	</item>
-	<item id="8946" type="EtcItem" name="Spellbook: Invocation">
+	<item id="8946" type="EtcItem" name="魔法書-默禱">
 		<set name="icon" val="icon.etc_spell_books_assistance_i00" />
 		<set name="immediate_effect" val="1" />
 		<set name="material" val="paper" />
@@ -647,7 +647,7 @@
 		<set name="price" val="6250" />
 		<set name="is_stackable" val="true" />
 	</item>
-	<item id="8947" type="Armor" name="L2 Day: Rabbit Ears">
+	<item id="8947" type="Armor" name="L2Day-兔耳">
 		<set name="icon" val="icon.accessory_rabbit_ear_i00" />
 		<set name="default_action" val="equip" />
 		<set name="bodypart" val="hair2" />
@@ -655,7 +655,7 @@
 		<set name="material" val="wood" />
 		<set name="weight" val="10" />
 	</item>
-	<item id="8948" type="Armor" name="L2 Day: Little Angel Wings">
+	<item id="8948" type="Armor" name="L2Day-小天使之翼">
 		<set name="icon" val="icon.accessory_hair_ring_i00" />
 		<set name="default_action" val="equip" />
 		<set name="bodypart" val="hair2" />
@@ -663,7 +663,7 @@
 		<set name="material" val="wood" />
 		<set name="weight" val="10" />
 	</item>
-	<item id="8949" type="Armor" name="L2 Day: Fairy Antennae">
+	<item id="8949" type="Armor" name="L2Day-小妖精觸角">
 		<set name="icon" val="icon.accessory_hair_feeler_i00" />
 		<set name="default_action" val="equip" />
 		<set name="bodypart" val="hair2" />
@@ -671,7 +671,7 @@
 		<set name="material" val="wood" />
 		<set name="weight" val="10" />
 	</item>
-	<item id="8950" type="Armor" name="L2 Day: Feathered Hat">
+	<item id="8950" type="Armor" name="L2Day-吟遊詩人帽">
 		<set name="icon" val="icon.accessory_archer_hat_i00" />
 		<set name="default_action" val="equip" />
 		<set name="bodypart" val="hairall" />
@@ -679,7 +679,7 @@
 		<set name="material" val="wood" />
 		<set name="weight" val="10" />
 	</item>
-	<item id="8951" type="Armor" name="L2 Day: Artisan's Goggles">
+	<item id="8951" type="Armor" name="L2Day-工匠的護目鏡">
 		<set name="icon" val="icon.accessory_dwarf_goggle_i00" />
 		<set name="default_action" val="equip" />
 		<set name="bodypart" val="hairall" />
@@ -687,7 +687,7 @@
 		<set name="material" val="wood" />
 		<set name="weight" val="10" />
 	</item>
-	<item id="8952" type="EtcItem" name="Greater Herb of Life">
+	<item id="8952" type="EtcItem" name="強力生命藥草">
 		<set name="immediate_effect" val="1" />
 		<set name="ex_immediate_effect" val="1" />
 		<set name="material" val="paper" />
@@ -697,7 +697,7 @@
 		<set name="handler" val="ItemSkills" />
 		<set name="item_skill" val="2278-2" />
 	</item>
-	<item id="8953" type="EtcItem" name="Greater Herb of Mana">
+	<item id="8953" type="EtcItem" name="強力瑪那藥草">
 		<set name="immediate_effect" val="1" />
 		<set name="ex_immediate_effect" val="1" />
 		<set name="material" val="paper" />
@@ -707,7 +707,7 @@
 		<set name="handler" val="ItemSkills" />
 		<set name="item_skill" val="2279-2" />
 	</item>
-	<item id="8954" type="EtcItem" name="Blue Primeval Crystal">
+	<item id="8954" type="EtcItem" name="藍色原始水晶">
 		<set name="icon" val="icon.etc_sp_crystal_i00" />
 		<set name="default_action" val="skill_reduce" />
 		<set name="etcitem_type" val="scroll" />
@@ -720,7 +720,7 @@
 		<set name="handler" val="ItemSkills" />
 		<set name="item_skill" val="2306-1" />
 	</item>
-	<item id="8955" type="EtcItem" name="Green Primeval Crystal">
+	<item id="8955" type="EtcItem" name="綠色原始水晶">
 		<set name="icon" val="icon.etc_sp_crystal_i02" />
 		<set name="default_action" val="skill_reduce" />
 		<set name="etcitem_type" val="scroll" />
@@ -733,7 +733,7 @@
 		<set name="handler" val="ItemSkills" />
 		<set name="item_skill" val="2306-2" />
 	</item>
-	<item id="8956" type="EtcItem" name="Red Primeval Crystal">
+	<item id="8956" type="EtcItem" name="紅色原始水晶">
 		<set name="icon" val="icon.etc_sp_crystal_i01" />
 		<set name="default_action" val="skill_reduce" />
 		<set name="etcitem_type" val="scroll" />
@@ -746,7 +746,7 @@
 		<set name="handler" val="ItemSkills" />
 		<set name="item_skill" val="2306-3" />
 	</item>
-	<item id="8957" type="EtcItem" name="Attack Orders">
+	<item id="8957" type="EtcItem" name="幻象裝備交換券-活動用">
 		<set name="icon" val="icon.etc_lottery_card_i00" />
 		<set name="material" val="paper" />
 		<set name="weight" val="1" />
@@ -755,7 +755,7 @@
 		<set name="is_sellable" val="false" />
 		<set name="is_stackable" val="true" />
 	</item>
-	<item id="8958" type="EtcItem" name="Defense Orders">
+	<item id="8958" type="EtcItem" name="幻象裝備交換券-活動用">
 		<set name="icon" val="icon.etc_lottery_card_i00" />
 		<set name="material" val="paper" />
 		<set name="weight" val="1" />
@@ -764,7 +764,7 @@
 		<set name="is_sellable" val="false" />
 		<set name="is_stackable" val="true" />
 	</item>
-	<item id="8959" type="EtcItem" name="Supply Orders">
+	<item id="8959" type="EtcItem" name="消耗品交換券-活動用">
 		<set name="icon" val="icon.etc_lottery_card_i00" />
 		<set name="material" val="paper" />
 		<set name="weight" val="1" />
@@ -773,7 +773,7 @@
 		<set name="is_sellable" val="false" />
 		<set name="is_stackable" val="true" />
 	</item>
-	<item id="8960" type="EtcItem" name="No Grade Shadow Armor Set Box">
+	<item id="8960" type="EtcItem" name="無等級幻象防具套裝禮盒">
 		<set name="icon" val="icon.etc_box_of_adventure_1_i00" />
 		<set name="default_action" val="capsule" />
 		<set name="immediate_effect" val="1" />
@@ -785,7 +785,7 @@
 		<set name="is_stackable" val="true" />
 		<set name="item_skill" val="2200-2" />
 	</item>
-	<item id="8961" type="EtcItem" name="D-Grade Shadow Armor Set Box">
+	<item id="8961" type="EtcItem" name="D級幻象防具組禮盒">
 		<set name="icon" val="icon.etc_box_of_adventure_1_i00" />
 		<set name="default_action" val="capsule" />
 		<set name="immediate_effect" val="1" />
@@ -797,7 +797,7 @@
 		<set name="is_stackable" val="true" />
 		<set name="item_skill" val="2200-2" />
 	</item>
-	<item id="8962" type="EtcItem" name="C-Grade Shadow Armor Set Box">
+	<item id="8962" type="EtcItem" name="C級幻象防具組禮盒">
 		<set name="icon" val="icon.etc_box_of_adventure_1_i00" />
 		<set name="default_action" val="capsule" />
 		<set name="immediate_effect" val="1" />
@@ -809,7 +809,7 @@
 		<set name="is_stackable" val="true" />
 		<set name="item_skill" val="2200-2" />
 	</item>
-	<item id="8963" type="EtcItem" name="B-Grade Shadow Armor Set Box">
+	<item id="8963" type="EtcItem" name="B級幻象防具組禮盒">
 		<set name="icon" val="icon.etc_box_of_adventure_1_i00" />
 		<set name="default_action" val="capsule" />
 		<set name="immediate_effect" val="1" />
@@ -821,7 +821,7 @@
 		<set name="is_stackable" val="true" />
 		<set name="item_skill" val="2200-2" />
 	</item>
-	<item id="8964" type="EtcItem" name="A-Grade Shadow Armor Set Box">
+	<item id="8964" type="EtcItem" name="A級幻象防具組禮盒">
 		<set name="icon" val="icon.etc_box_of_adventure_1_i00" />
 		<set name="default_action" val="capsule" />
 		<set name="immediate_effect" val="1" />
@@ -833,7 +833,7 @@
 		<set name="is_stackable" val="true" />
 		<set name="item_skill" val="2200-2" />
 	</item>
-	<item id="8965" type="EtcItem" name="S-Grade Shadow Armor Set Box">
+	<item id="8965" type="EtcItem" name="S級幻象防具組禮盒">
 		<set name="icon" val="icon.etc_box_of_adventure_1_i00" />
 		<set name="default_action" val="capsule" />
 		<set name="immediate_effect" val="1" />
@@ -845,7 +845,7 @@
 		<set name="is_stackable" val="true" />
 		<set name="item_skill" val="2200-2" />
 	</item>
-	<item id="8966" type="EtcItem" name="No Grade Item Set Box (Warrior Use)">
+	<item id="8966" type="EtcItem" name="無等級消耗品組禮盒(戰士用)">
 		<set name="icon" val="icon.etc_box_of_adventure_1_i00" />
 		<set name="default_action" val="capsule" />
 		<set name="immediate_effect" val="1" />
@@ -857,7 +857,7 @@
 		<set name="is_stackable" val="true" />
 		<set name="item_skill" val="2308-25" />
 	</item>
-	<item id="8967" type="EtcItem" name="D Grade Item Set Box (Warrior Use)">
+	<item id="8967" type="EtcItem" name="D級消耗品組禮盒(戰士用)">
 		<set name="icon" val="icon.etc_box_of_adventure_1_i00" />
 		<set name="default_action" val="capsule" />
 		<set name="immediate_effect" val="1" />
@@ -869,7 +869,7 @@
 		<set name="is_stackable" val="true" />
 		<set name="item_skill" val="2308-26" />
 	</item>
-	<item id="8968" type="EtcItem" name="C Grade Item Set Box (Warrior Use)">
+	<item id="8968" type="EtcItem" name="C級消耗品組禮盒(戰士用)">
 		<set name="icon" val="icon.etc_box_of_adventure_1_i00" />
 		<set name="default_action" val="capsule" />
 		<set name="immediate_effect" val="1" />
@@ -881,7 +881,7 @@
 		<set name="is_stackable" val="true" />
 		<set name="item_skill" val="2308-27" />
 	</item>
-	<item id="8969" type="EtcItem" name="B Grade Item Set Box (Warrior Use)">
+	<item id="8969" type="EtcItem" name="B級消耗品組禮盒(戰士用)">
 		<set name="icon" val="icon.etc_box_of_adventure_1_i00" />
 		<set name="default_action" val="capsule" />
 		<set name="immediate_effect" val="1" />
@@ -893,7 +893,7 @@
 		<set name="is_stackable" val="true" />
 		<set name="item_skill" val="2308-28" />
 	</item>
-	<item id="8970" type="EtcItem" name="A Grade Item Set Box (Warrior Use)">
+	<item id="8970" type="EtcItem" name="A級消耗品組禮盒(戰士用)">
 		<set name="icon" val="icon.etc_box_of_adventure_1_i00" />
 		<set name="default_action" val="capsule" />
 		<set name="immediate_effect" val="1" />
@@ -905,7 +905,7 @@
 		<set name="is_stackable" val="true" />
 		<set name="item_skill" val="2308-29" />
 	</item>
-	<item id="8971" type="EtcItem" name="A, S Grade Item Set Box (Warrior Use)">
+	<item id="8971" type="EtcItem" name="A、S級消耗品組禮盒(戰士用)">
 		<set name="icon" val="icon.etc_box_of_adventure_1_i00" />
 		<set name="default_action" val="capsule" />
 		<set name="immediate_effect" val="1" />
@@ -917,7 +917,7 @@
 		<set name="is_stackable" val="true" />
 		<set name="item_skill" val="2308-30" />
 	</item>
-	<item id="8972" type="Weapon" name="Shadow Item: Great Spear">
+	<item id="8972" type="Weapon" name="幻象裝備-長矛">
 		<set name="icon" val="icon.weapon_long_spear_i00" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="pole" />
@@ -944,7 +944,7 @@
 			<set order="0x08" stat="pAtkSpd" val="325" />
 		</for>
 	</item>
-	<item id="8973" type="Weapon" name="Shadow Item: Falchion">
+	<item id="8973" type="Weapon" name="幻象裝備-彎刃大刀">
 		<set name="icon" val="icon.weapon_falchion_i00" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="sword" />
@@ -968,7 +968,7 @@
 			<set order="0x08" stat="pAtkSpd" val="379" />
 		</for>
 	</item>
-	<item id="8974" type="Weapon" name="Shadow Item: Iron Hammer">
+	<item id="8974" type="Weapon" name="幻象裝備-鋼鎚">
 		<set name="icon" val="icon.weapon_iron_hammer_i00" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="blunt" />
@@ -994,7 +994,7 @@
 			<set order="0x08" stat="pAtkSpd" val="379" />
 		</for>
 	</item>
-	<item id="8975" type="Weapon" name="Shadow Item: Voodoo Doll">
+	<item id="8975" type="Weapon" name="幻象裝備-巫毒人偶">
 		<set name="icon" val="icon.weapon_voodoo_doll_i00" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="etc" />
@@ -1019,7 +1019,7 @@
 			<set order="0x08" stat="pAtkSpd" val="379" />
 		</for>
 	</item>
-	<item id="8976" type="Weapon" name="Shadow Item: Flanged Mace">
+	<item id="8976" type="Weapon" name="幻象裝備-魔鎚">
 		<set name="icon" val="icon.weapon_buzdygan_i00" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="blunt" />
@@ -1045,7 +1045,7 @@
 			<set order="0x08" stat="pAtkSpd" val="379" />
 		</for>
 	</item>
-	<item id="8977" type="Weapon" name="Shadow Item: Mage Staff">
+	<item id="8977" type="Weapon" name="幻象裝備-法師魔杖">
 		<set name="icon" val="icon.weapon_apprentices_staff_i00" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="bigblunt" />
@@ -1072,7 +1072,7 @@
 			<set order="0x08" stat="pAtkSpd" val="325" />
 		</for>
 	</item>
-	<item id="8978" type="Weapon" name="Shadow Item: Sword Breaker">
+	<item id="8978" type="Weapon" name="幻象裝備-碎劍者">
 		<set name="icon" val="icon.weapon_sword_breaker_i00" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="dagger" />
@@ -1098,7 +1098,7 @@
 			<set order="0x08" stat="pAtkSpd" val="433" />
 		</for>
 	</item>
-	<item id="8979" type="Weapon" name="Shadow Item: Viper Fang">
+	<item id="8979" type="Weapon" name="幻象裝備-毒蛇之牙">
 		<set name="icon" val="icon.weapon_vipers_canine_i00" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="dualfist" />
@@ -1124,7 +1124,7 @@
 			<set order="0x08" stat="pAtkSpd" val="325" />
 		</for>
 	</item>
-	<item id="8980" type="Weapon" name="Shadow Item: Composite Bow">
+	<item id="8980" type="Weapon" name="幻象裝備-合金弓">
 		<set name="icon" val="icon.weapon_composition_bow_i00" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="bow" />
@@ -1152,7 +1152,7 @@
 			<set order="0x08" stat="pAtkSpd" val="293" />
 		</for>
 	</item>
-	<item id="8981" type="Weapon" name="Shadow Item: Crucifix of Blessing">
+	<item id="8981" type="Weapon" name="幻象裝備-祝福的十字架">
 		<set name="icon" val="icon.weapon_crucifix_of_blessing_i00" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="etc" />
@@ -1177,7 +1177,7 @@
 			<set order="0x08" stat="pAtkSpd" val="379" />
 		</for>
 	</item>
-	<item id="8982" type="Weapon" name="Shadow Item: Two Handed Sword">
+	<item id="8982" type="Weapon" name="幻象裝備-雙手劍">
 		<set name="icon" val="icon.weapon_two_handed_sword_i00" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="bigsword" />
@@ -1202,7 +1202,7 @@
 			<set order="0x08" stat="pAtkSpd" val="325" />
 		</for>
 	</item>
-	<item id="8983" type="Weapon" name="Shadow Item: Crimson Sword">
+	<item id="8983" type="Weapon" name="幻象裝備-緋紅劍">
 		<set name="icon" val="icon.weapon_crimson_sword_i00" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="sword" />
@@ -1227,7 +1227,7 @@
 			<set order="0x08" stat="pAtkSpd" val="379" />
 		</for>
 	</item>
-	<item id="8984" type="Weapon" name="Shadow Item: Spiked Club">
+	<item id="8984" type="Weapon" name="幻象裝備-狼牙棒">
 		<set name="icon" val="icon.weapon_spike_club_i00" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="blunt" />
@@ -1254,7 +1254,7 @@
 			<set order="0x08" stat="pAtkSpd" val="379" />
 		</for>
 	</item>
-	<item id="8985" type="Weapon" name="Shadow Item: Staff of Magic">
+	<item id="8985" type="Weapon" name="幻象裝備-巫術魔杖">
 		<set name="icon" val="icon.weapon_staff_of_magicpower_i00" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="bigblunt" />
@@ -1282,7 +1282,7 @@
 			<set order="0x08" stat="pAtkSpd" val="325" />
 		</for>
 	</item>
-	<item id="8986" type="Weapon" name="Shadow Item: Kukuri">
+	<item id="8986" type="Weapon" name="幻象裝備-反曲刀">
 		<set name="icon" val="icon.weapon_kukuri_i00" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="dagger" />
@@ -1309,7 +1309,7 @@
 			<set order="0x08" stat="pAtkSpd" val="433" />
 		</for>
 	</item>
-	<item id="8987" type="Weapon" name="Shadow Item: Dagger of Mana">
+	<item id="8987" type="Weapon" name="幻象裝備-瑪那匕首">
 		<set name="icon" val="icon.weapon_dagger_of_mana_i00" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="dagger" />
@@ -1337,7 +1337,7 @@
 			<set order="0x08" stat="pAtkSpd" val="433" />
 		</for>
 	</item>
-	<item id="8988" type="Weapon" name="Shadow Item: Triple-Edged Jamadhr">
+	<item id="8988" type="Weapon" name="幻象裝備-三刃刀">
 		<set name="icon" val="icon.weapon_triple-edged_jamadhr_i00" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="dualfist" />
@@ -1364,7 +1364,7 @@
 			<set order="0x08" stat="pAtkSpd" val="325" />
 		</for>
 	</item>
-	<item id="8989" type="Weapon" name="Shadow Item: Gastraphetes">
+	<item id="8989" type="Weapon" name="幻象裝備-腰弩">
 		<set name="icon" val="icon.weapon_gastraphetes_i00" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="bow" />
@@ -1393,7 +1393,7 @@
 			<set order="0x08" stat="pAtkSpd" val="293" />
 		</for>
 	</item>
-	<item id="8990" type="Weapon" name="Shadow Item: War Hammer">
+	<item id="8990" type="Weapon" name="幻象裝備-戰鎚">
 		<set name="icon" val="icon.weapon_war_hammer_i00" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="pole" />
@@ -1421,7 +1421,7 @@
 			<set order="0x08" stat="pAtkSpd" val="325" />
 		</for>
 	</item>
-	<item id="8991" type="Weapon" name="Shadow Item: Sword of Delusion">
+	<item id="8991" type="Weapon" name="幻象裝備-迷惑之劍">
 		<set name="icon" val="icon.weapon_sword_of_delusion_i00" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="sword" />
@@ -1446,7 +1446,7 @@
 			<set order="0x08" stat="pAtkSpd" val="379" />
 		</for>
 	</item>
-	<item id="8992" type="Weapon" name="Shadow Item: Poleaxe">
+	<item id="8992" type="Weapon" name="幻象裝備-長柄戰斧">
 		<set name="icon" val="icon.weapon_poleaxe_i00" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="pole" />
@@ -1474,7 +1474,7 @@
 			<set order="0x08" stat="pAtkSpd" val="325" />
 		</for>
 	</item>
-	<item id="8993" type="Weapon" name="Shadow Item: Stick of Eternity">
+	<item id="8993" type="Weapon" name="幻象裝備-永恆手杖">
 		<set name="icon" val="icon.weapon_stick_of_eternity_i00" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="blunt" />
@@ -1502,7 +1502,7 @@
 			<set order="0x08" stat="pAtkSpd" val="379" />
 		</for>
 	</item>
-	<item id="8994" type="Weapon" name="Shadow Item: Inferno Staff">
+	<item id="8994" type="Weapon" name="幻象裝備-地獄魔杖">
 		<set name="icon" val="icon.weapon_inferno_staff_i00" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="bigblunt" />
@@ -1530,7 +1530,7 @@
 			<set order="0x08" stat="pAtkSpd" val="325" />
 		</for>
 	</item>
-	<item id="8995" type="Weapon" name="Shadow Item: Pa'agrian Hammer">
+	<item id="8995" type="Weapon" name="幻象裝備-帕格立歐之鎚">
 		<set name="icon" val="icon.weapon_paagrio_hammer_i00" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="bigblunt" />
@@ -1558,7 +1558,7 @@
 			<set order="0x08" stat="pAtkSpd" val="325" />
 		</for>
 	</item>
-	<item id="8996" type="Weapon" name="Shadow Item: Dark Screamer">
+	<item id="8996" type="Weapon" name="幻象裝備-黑暗狂嘯者">
 		<set name="icon" val="icon.weapon_dark_screamer_i00" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="dagger" />
@@ -1585,7 +1585,7 @@
 			<set order="0x08" stat="pAtkSpd" val="433" />
 		</for>
 	</item>
-	<item id="8997" type="Weapon" name="Shadow Item: Akat Long Bow">
+	<item id="8997" type="Weapon" name="幻象裝備-阿卡特長弓">
 		<set name="icon" val="icon.weapon_akat_long_bow_i00" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="bow" />
@@ -1614,7 +1614,7 @@
 			<set order="0x08" stat="pAtkSpd" val="227" />
 		</for>
 	</item>
-	<item id="8998" type="Weapon" name="Shadow Item: Pa'agrian Sword">
+	<item id="8998" type="Weapon" name="幻象裝備-帕格立歐之劍">
 		<set name="icon" val="icon.weapon_sword_of_paagrio_i00" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="bigsword" />
@@ -1639,7 +1639,7 @@
 			<set order="0x08" stat="pAtkSpd" val="325" />
 		</for>
 	</item>
-	<item id="8999" type="Weapon" name="Shadow Item: Fisted Blade">
+	<item id="8999" type="Weapon" name="幻象裝備-拳刃">
 		<set name="icon" val="icon.weapon_fist_blade_i00" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="dualfist" />

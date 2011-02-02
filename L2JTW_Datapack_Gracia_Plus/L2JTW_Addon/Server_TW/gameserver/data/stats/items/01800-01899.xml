@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <list>
-	<item id="1800" type="EtcItem" name="Recipe: Piece Bone Breastplate">
+	<item id="1800" type="EtcItem" name="製作卷軸(骨片胸甲100%)">
 		<set name="icon" val="icon.etc_recipe_white_i00" />
 		<set name="default_action" val="recipe" />
 		<set name="etcitem_type" val="recipe" />
@@ -12,7 +12,7 @@
 		<set name="is_stackable" val="true" />
 		<set name="handler" val="Recipes" />
 	</item>
-	<item id="1801" type="EtcItem" name="Recipe: Piece Bone Gaiters">
+	<item id="1801" type="EtcItem" name="製作卷軸(骨片脛甲100%)">
 		<set name="icon" val="icon.etc_recipe_white_i00" />
 		<set name="default_action" val="recipe" />
 		<set name="etcitem_type" val="recipe" />
@@ -24,7 +24,7 @@
 		<set name="is_stackable" val="true" />
 		<set name="handler" val="Recipes" />
 	</item>
-	<item id="1802" type="EtcItem" name="Recipe: Necklace of Anguish">
+	<item id="1802" type="EtcItem" name="製作卷軸(幻滅項鍊100%)">
 		<set name="icon" val="icon.etc_recipe_white_i00" />
 		<set name="default_action" val="recipe" />
 		<set name="etcitem_type" val="recipe" />
@@ -36,7 +36,7 @@
 		<set name="is_stackable" val="true" />
 		<set name="handler" val="Recipes" />
 	</item>
-	<item id="1803" type="EtcItem" name="Recipe: Necklace of Wisdom">
+	<item id="1803" type="EtcItem" name="製作卷軸(智慧項鍊100%)">
 		<set name="icon" val="icon.etc_recipe_white_i00" />
 		<set name="default_action" val="recipe" />
 		<set name="etcitem_type" val="recipe" />
@@ -48,7 +48,7 @@
 		<set name="is_stackable" val="true" />
 		<set name="handler" val="Recipes" />
 	</item>
-	<item id="1804" type="EtcItem" name="Recipe: Soulshot: D-Grade">
+	<item id="1804" type="EtcItem" name="製作卷軸(靈魂彈-D級100%)">
 		<set name="icon" val="icon.etc_recipe_blue_i00" />
 		<set name="default_action" val="recipe" />
 		<set name="etcitem_type" val="recipe" />
@@ -60,7 +60,7 @@
 		<set name="is_stackable" val="true" />
 		<set name="handler" val="Recipes" />
 	</item>
-	<item id="1805" type="EtcItem" name="Recipe: Soulshot: C-Grade">
+	<item id="1805" type="EtcItem" name="製作卷軸(靈魂彈-C級100%)">
 		<set name="icon" val="icon.etc_recipe_yellow_i00" />
 		<set name="default_action" val="recipe" />
 		<set name="etcitem_type" val="recipe" />
@@ -72,7 +72,7 @@
 		<set name="is_stackable" val="true" />
 		<set name="handler" val="Recipes" />
 	</item>
-	<item id="1806" type="EtcItem" name="Recipe: Soulshot: B-Grade">
+	<item id="1806" type="EtcItem" name="製作卷軸(靈魂彈-B級100%)">
 		<set name="icon" val="icon.etc_recipe_red_i00" />
 		<set name="default_action" val="recipe" />
 		<set name="etcitem_type" val="recipe" />
@@ -84,7 +84,7 @@
 		<set name="is_stackable" val="true" />
 		<set name="handler" val="Recipes" />
 	</item>
-	<item id="1807" type="EtcItem" name="Recipe: Soulshot: A-Grade">
+	<item id="1807" type="EtcItem" name="製作卷軸(靈魂彈-A級100%)">
 		<set name="icon" val="icon.etc_recipe_violet_i00" />
 		<set name="default_action" val="recipe" />
 		<set name="etcitem_type" val="recipe" />
@@ -96,7 +96,7 @@
 		<set name="is_stackable" val="true" />
 		<set name="handler" val="Recipes" />
 	</item>
-	<item id="1808" type="EtcItem" name="Recipe: Soulshot: S Grade">
+	<item id="1808" type="EtcItem" name="製作卷軸(靈魂彈-S級100%)">
 		<set name="icon" val="icon.etc_recipe_black_i00" />
 		<set name="default_action" val="recipe" />
 		<set name="etcitem_type" val="recipe" />
@@ -108,7 +108,7 @@
 		<set name="is_stackable" val="true" />
 		<set name="handler" val="Recipes" />
 	</item>
-	<item id="1809" type="EtcItem" name="Recipe: Durable Stem">
+	<item id="1809" type="EtcItem" name="製作卷軸(耐久的枝葉)">
 		<set name="icon" val="icon.etc_recipe_white_i00" />
 		<set name="default_action" val="recipe" />
 		<set name="etcitem_type" val="recipe" />
@@ -118,7 +118,7 @@
 		<set name="price" val="100" />
 		<set name="is_stackable" val="true" />
 	</item>
-	<item id="1810" type="EtcItem" name="Recipe: Wooden Frame">
+	<item id="1810" type="EtcItem" name="製作卷軸(木製模具)">
 		<set name="icon" val="icon.etc_recipe_white_i00" />
 		<set name="default_action" val="recipe" />
 		<set name="etcitem_type" val="recipe" />
@@ -128,7 +128,7 @@
 		<set name="price" val="100" />
 		<set name="is_stackable" val="true" />
 	</item>
-	<item id="1811" type="EtcItem" name="Recipe: Bark of Treant">
+	<item id="1811" type="EtcItem" name="製作卷軸(安特之樹皮)">
 		<set name="icon" val="icon.etc_recipe_white_i00" />
 		<set name="default_action" val="recipe" />
 		<set name="etcitem_type" val="recipe" />
@@ -138,7 +138,7 @@
 		<set name="price" val="100" />
 		<set name="is_stackable" val="true" />
 	</item>
-	<item id="1812" type="EtcItem" name="Recipe: Coarse Bone Powder">
+	<item id="1812" type="EtcItem" name="製作卷軸(顆粒狀的骨粉)(無用)">
 		<set name="icon" val="icon.etc_recipe_white_i00" />
 		<set name="default_action" val="recipe" />
 		<set name="etcitem_type" val="recipe" />
@@ -148,7 +148,7 @@
 		<set name="price" val="100" />
 		<set name="is_stackable" val="true" />
 	</item>
-	<item id="1813" type="EtcItem" name="Recipe: Refined Steel">
+	<item id="1813" type="EtcItem" name="製作卷軸(精製鐵塊)">
 		<set name="icon" val="icon.etc_recipe_white_i00" />
 		<set name="default_action" val="recipe" />
 		<set name="etcitem_type" val="recipe" />
@@ -158,7 +158,7 @@
 		<set name="price" val="100" />
 		<set name="is_stackable" val="true" />
 	</item>
-	<item id="1814" type="EtcItem" name="Recipe: Leather">
+	<item id="1814" type="EtcItem" name="製作卷軸(皮革100%)">
 		<set name="icon" val="icon.etc_recipe_white_i00" />
 		<set name="default_action" val="recipe" />
 		<set name="etcitem_type" val="recipe" />
@@ -170,7 +170,7 @@
 		<set name="is_stackable" val="true" />
 		<set name="handler" val="Recipes" />
 	</item>
-	<item id="1815" type="EtcItem" name="Recipe: Bowstring">
+	<item id="1815" type="EtcItem" name="製作卷軸(弓弦)">
 		<set name="icon" val="icon.etc_recipe_white_i00" />
 		<set name="default_action" val="recipe" />
 		<set name="etcitem_type" val="recipe" />
@@ -180,7 +180,7 @@
 		<set name="price" val="100" />
 		<set name="is_stackable" val="true" />
 	</item>
-	<item id="1816" type="EtcItem" name="Recipe: Steel Frame">
+	<item id="1816" type="EtcItem" name="製作卷軸(鐵製模具)">
 		<set name="icon" val="icon.etc_recipe_white_i00" />
 		<set name="default_action" val="recipe" />
 		<set name="etcitem_type" val="recipe" />
@@ -190,7 +190,7 @@
 		<set name="price" val="500" />
 		<set name="is_stackable" val="true" />
 	</item>
-	<item id="1817" type="EtcItem" name="Recipe: Cord">
+	<item id="1817" type="EtcItem" name="製作卷軸(強化繩索100%)">
 		<set name="icon" val="icon.etc_recipe_white_i00" />
 		<set name="default_action" val="recipe" />
 		<set name="etcitem_type" val="recipe" />
@@ -202,7 +202,7 @@
 		<set name="is_stackable" val="true" />
 		<set name="handler" val="Recipes" />
 	</item>
-	<item id="1818" type="EtcItem" name="Recipe: Refined Bronze">
+	<item id="1818" type="EtcItem" name="製作卷軸(精製青銅)">
 		<set name="icon" val="icon.etc_recipe_white_i00" />
 		<set name="default_action" val="recipe" />
 		<set name="etcitem_type" val="recipe" />
@@ -212,7 +212,7 @@
 		<set name="price" val="500" />
 		<set name="is_stackable" val="true" />
 	</item>
-	<item id="1819" type="EtcItem" name="Recipe: Treant Potion">
+	<item id="1819" type="EtcItem" name="製作卷軸(安特藥水)">
 		<set name="icon" val="icon.etc_recipe_white_i00" />
 		<set name="default_action" val="recipe" />
 		<set name="etcitem_type" val="recipe" />
@@ -222,7 +222,7 @@
 		<set name="price" val="500" />
 		<set name="is_stackable" val="true" />
 	</item>
-	<item id="1820" type="EtcItem" name="Recipe: Spell Paper">
+	<item id="1820" type="EtcItem" name="製作卷軸(魔法紙)">
 		<set name="icon" val="icon.etc_recipe_white_i00" />
 		<set name="default_action" val="recipe" />
 		<set name="etcitem_type" val="recipe" />
@@ -232,7 +232,7 @@
 		<set name="price" val="500" />
 		<set name="is_stackable" val="true" />
 	</item>
-	<item id="1821" type="EtcItem" name="Recipe: Flaming Oil">
+	<item id="1821" type="EtcItem" name="製作卷軸(灼熱的油)">
 		<set name="icon" val="icon.etc_recipe_white_i00" />
 		<set name="default_action" val="recipe" />
 		<set name="etcitem_type" val="recipe" />
@@ -242,7 +242,7 @@
 		<set name="price" val="500" />
 		<set name="is_stackable" val="true" />
 	</item>
-	<item id="1822" type="EtcItem" name="Recipe: Magic Powder">
+	<item id="1822" type="EtcItem" name="製作卷軸(魔法粉)">
 		<set name="icon" val="icon.etc_recipe_blue_i00" />
 		<set name="default_action" val="recipe" />
 		<set name="etcitem_type" val="recipe" />
@@ -252,7 +252,7 @@
 		<set name="price" val="1000" />
 		<set name="is_stackable" val="true" />
 	</item>
-	<item id="1823" type="EtcItem" name="Recipe: Refined Mythril">
+	<item id="1823" type="EtcItem" name="製作卷軸(精製的米索莉)">
 		<set name="icon" val="icon.etc_recipe_blue_i00" />
 		<set name="default_action" val="recipe" />
 		<set name="etcitem_type" val="recipe" />
@@ -262,7 +262,7 @@
 		<set name="price" val="1000" />
 		<set name="is_stackable" val="true" />
 	</item>
-	<item id="1824" type="EtcItem" name="Recipe: Fortified Steel">
+	<item id="1824" type="EtcItem" name="製作卷軸(強化鋼鐵)">
 		<set name="icon" val="icon.etc_recipe_blue_i00" />
 		<set name="default_action" val="recipe" />
 		<set name="etcitem_type" val="recipe" />
@@ -272,7 +272,7 @@
 		<set name="price" val="1000" />
 		<set name="is_stackable" val="true" />
 	</item>
-	<item id="1825" type="EtcItem" name="Recipe: Oriharukon">
+	<item id="1825" type="EtcItem" name="製作卷軸(奧里哈魯根100%)">
 		<set name="icon" val="icon.etc_recipe_blue_i00" />
 		<set name="default_action" val="recipe" />
 		<set name="etcitem_type" val="recipe" />
@@ -284,7 +284,7 @@
 		<set name="is_stackable" val="true" />
 		<set name="handler" val="Recipes" />
 	</item>
-	<item id="1826" type="EtcItem" name="Recipe: Spell Solution">
+	<item id="1826" type="EtcItem" name="製作卷軸(魔力液)">
 		<set name="icon" val="icon.etc_recipe_blue_i00" />
 		<set name="default_action" val="recipe" />
 		<set name="etcitem_type" val="recipe" />
@@ -294,7 +294,7 @@
 		<set name="price" val="1000" />
 		<set name="is_stackable" val="true" />
 	</item>
-	<item id="1827" type="EtcItem" name="Recipe: Metal Frame">
+	<item id="1827" type="EtcItem" name="製作卷軸(金屬模具)">
 		<set name="icon" val="icon.etc_recipe_blue_i00" />
 		<set name="default_action" val="recipe" />
 		<set name="etcitem_type" val="recipe" />
@@ -304,7 +304,7 @@
 		<set name="price" val="1000" />
 		<set name="is_stackable" val="true" />
 	</item>
-	<item id="1828" type="EtcItem" name="Recipe: Steel of Highest Grade">
+	<item id="1828" type="EtcItem" name="製作卷軸(高等級鐵塊)">
 		<set name="icon" val="icon.etc_recipe_blue_i00" />
 		<set name="default_action" val="recipe" />
 		<set name="etcitem_type" val="recipe" />
@@ -314,7 +314,7 @@
 		<set name="price" val="1000" />
 		<set name="is_stackable" val="true" />
 	</item>
-	<item id="1829" type="EtcItem" name="Scroll of Escape: Clan Hall">
+	<item id="1829" type="EtcItem" name="根據地返回卷軸">
 		<set name="icon" val="icon.etc_scroll_of_return_agit_i00" />
 		<set name="default_action" val="skill_reduce" />
 		<set name="etcitem_type" val="scroll" />
@@ -327,7 +327,7 @@
 		<set name="item_skill" val="2040-1" />
 		<set name="use_condition" val="{{uc_transmode_exclude;{tt_flying}}}" />
 	</item>
-	<item id="1830" type="EtcItem" name="Scroll of Escape: Castle">
+	<item id="1830" type="EtcItem" name="城堡返回卷軸">
 		<set name="icon" val="icon.etc_scroll_of_return_castle_i00" />
 		<set name="default_action" val="skill_reduce" />
 		<set name="etcitem_type" val="scroll" />
@@ -340,7 +340,7 @@
 		<set name="item_skill" val="2041-1" />
 		<set name="use_condition" val="{{uc_transmode_exclude;{tt_flying}}}" />
 	</item>
-	<item id="1831" type="EtcItem" name="Antidote">
+	<item id="1831" type="EtcItem" name="解毒草">
 		<set name="icon" val="icon.etc_herb_green_i00" />
 		<set name="default_action" val="skill_reduce" />
 		<set name="etcitem_type" val="potion" />
@@ -354,7 +354,7 @@
 		<set name="handler" val="ItemSkills" />
 		<set name="item_skill" val="2042-1" />
 	</item>
-	<item id="1832" type="EtcItem" name="Greater Antidote">
+	<item id="1832" type="EtcItem" name="濃縮解毒藥">
 		<set name="icon" val="icon.etc_reagent_green_i00" />
 		<set name="default_action" val="skill_reduce" />
 		<set name="etcitem_type" val="potion" />
@@ -368,7 +368,7 @@
 		<set name="handler" val="ItemSkills" />
 		<set name="item_skill" val="2043-1" />
 	</item>
-	<item id="1833" type="EtcItem" name="Bandage">
+	<item id="1833" type="EtcItem" name="繃帶">
 		<set name="icon" val="icon.etc_piece_of_cloth_white_i00" />
 		<set name="default_action" val="skill_reduce" />
 		<set name="etcitem_type" val="potion" />
@@ -382,7 +382,7 @@
 		<set name="handler" val="ItemSkills" />
 		<set name="item_skill" val="2044-1" />
 	</item>
-	<item id="1834" type="EtcItem" name="Emergency Dressing">
+	<item id="1834" type="EtcItem" name="強力繃帶">
 		<set name="icon" val="icon.etc_piece_of_cloth_white_i00" />
 		<set name="default_action" val="skill_reduce" />
 		<set name="etcitem_type" val="potion" />
@@ -396,7 +396,7 @@
 		<set name="handler" val="ItemSkills" />
 		<set name="item_skill" val="2045-1" />
 	</item>
-	<item id="1835" type="EtcItem" name="Soulshot: No Grade">
+	<item id="1835" type="EtcItem" name="靈魂彈-普通">
 		<set name="icon" val="icon.etc_spirit_bullet_white_i00" />
 		<set name="default_action" val="soulshot" />
 		<set name="immediate_effect" val="1" />
@@ -407,7 +407,7 @@
 		<set name="handler" val="SoulShots" />
 		<set name="item_skill" val="2039-1" />
 	</item>
-	<item id="1836" type="EtcItem" name="Kendell's 1st Order">
+	<item id="1836" type="EtcItem" name="肯德尼爾的命令">
 		<set name="icon" val="icon.etc_recipe_blue_i00" />
 		<set name="immediate_effect" val="1" />
 		<set name="material" val="steel" />
@@ -418,7 +418,7 @@
 		<set name="is_stackable" val="true" />
 		<set name="is_questitem" val="true" />
 	</item>
-	<item id="1837" type="EtcItem" name="Kendell's 2nd Order">
+	<item id="1837" type="EtcItem" name="肯德尼爾的命令">
 		<set name="icon" val="icon.etc_recipe_blue_i00" />
 		<set name="immediate_effect" val="1" />
 		<set name="material" val="steel" />
@@ -429,7 +429,7 @@
 		<set name="is_stackable" val="true" />
 		<set name="is_questitem" val="true" />
 	</item>
-	<item id="1838" type="EtcItem" name="Kendell's 3rd Order">
+	<item id="1838" type="EtcItem" name="肯德尼爾的命令">
 		<set name="icon" val="icon.etc_recipe_blue_i00" />
 		<set name="immediate_effect" val="1" />
 		<set name="material" val="steel" />
@@ -440,7 +440,7 @@
 		<set name="is_stackable" val="true" />
 		<set name="is_questitem" val="true" />
 	</item>
-	<item id="1839" type="EtcItem" name="Kendell's 4th Order">
+	<item id="1839" type="EtcItem" name="肯德尼爾的命令">
 		<set name="icon" val="icon.etc_recipe_blue_i00" />
 		<set name="immediate_effect" val="1" />
 		<set name="material" val="steel" />
@@ -451,7 +451,7 @@
 		<set name="is_stackable" val="true" />
 		<set name="is_questitem" val="true" />
 	</item>
-	<item id="1840" type="EtcItem" name="Kendell's 5th Order">
+	<item id="1840" type="EtcItem" name="肯德尼爾的命令">
 		<set name="icon" val="icon.etc_recipe_red_i00" />
 		<set name="immediate_effect" val="1" />
 		<set name="material" val="steel" />
@@ -462,7 +462,7 @@
 		<set name="is_stackable" val="true" />
 		<set name="is_questitem" val="true" />
 	</item>
-	<item id="1841" type="EtcItem" name="Kendell's 6th Order">
+	<item id="1841" type="EtcItem" name="肯德尼爾的命令">
 		<set name="icon" val="icon.etc_recipe_red_i00" />
 		<set name="immediate_effect" val="1" />
 		<set name="material" val="steel" />
@@ -473,7 +473,7 @@
 		<set name="is_stackable" val="true" />
 		<set name="is_questitem" val="true" />
 	</item>
-	<item id="1842" type="EtcItem" name="Kendell's 7th Order">
+	<item id="1842" type="EtcItem" name="肯德尼爾的命令">
 		<set name="icon" val="icon.etc_recipe_red_i00" />
 		<set name="immediate_effect" val="1" />
 		<set name="material" val="steel" />
@@ -484,7 +484,7 @@
 		<set name="is_stackable" val="true" />
 		<set name="is_questitem" val="true" />
 	</item>
-	<item id="1843" type="EtcItem" name="Kendell's 8th Order">
+	<item id="1843" type="EtcItem" name="肯德尼爾的命令">
 		<set name="icon" val="icon.etc_recipe_red_i00" />
 		<set name="immediate_effect" val="1" />
 		<set name="material" val="steel" />
@@ -495,7 +495,7 @@
 		<set name="is_stackable" val="true" />
 		<set name="is_questitem" val="true" />
 	</item>
-	<item id="1844" type="EtcItem" name="Kaboo Chief's 1st Torque">
+	<item id="1844" type="EtcItem" name="卡布獸人首領項鍊">
 		<set name="icon" val="icon.accessary_necklace_of_black_ore_i00" />
 		<set name="immediate_effect" val="1" />
 		<set name="material" val="steel" />
@@ -506,7 +506,7 @@
 		<set name="is_stackable" val="true" />
 		<set name="is_questitem" val="true" />
 	</item>
-	<item id="1845" type="EtcItem" name="Kaboo Chief's 2nd Torque">
+	<item id="1845" type="EtcItem" name="卡布獸人首領項鍊">
 		<set name="icon" val="icon.accessary_necklace_of_black_ore_i00" />
 		<set name="immediate_effect" val="1" />
 		<set name="material" val="steel" />
@@ -517,7 +517,7 @@
 		<set name="is_stackable" val="true" />
 		<set name="is_questitem" val="true" />
 	</item>
-	<item id="1846" type="EtcItem" name="Turek Dog Tag">
+	<item id="1846" type="EtcItem" name="土瑞克頸鍊">
 		<set name="icon" val="icon.etc_totem_necklace_black_i00" />
 		<set name="immediate_effect" val="1" />
 		<set name="material" val="steel" />
@@ -528,7 +528,7 @@
 		<set name="is_stackable" val="true" />
 		<set name="is_questitem" val="true" />
 	</item>
-	<item id="1847" type="EtcItem" name="Turek Medallion">
+	<item id="1847" type="EtcItem" name="土瑞克勳章">
 		<set name="icon" val="icon.etc_totem_necklace_green_i00" />
 		<set name="immediate_effect" val="1" />
 		<set name="material" val="steel" />
@@ -539,7 +539,7 @@
 		<set name="is_stackable" val="true" />
 		<set name="is_questitem" val="true" />
 	</item>
-	<item id="1848" type="EtcItem" name="Clay Urn Fragment">
+	<item id="1848" type="EtcItem" name="瓷器的碎片">
 		<set name="icon" val="icon.etc_broken_crystal_white_i00" />
 		<set name="immediate_effect" val="1" />
 		<set name="material" val="liquid" />
@@ -547,7 +547,7 @@
 		<set name="price" val="200" />
 		<set name="is_stackable" val="true" />
 	</item>
-	<item id="1849" type="EtcItem" name="Brass Trinket Piece">
+	<item id="1849" type="EtcItem" name="銅製飾品的碎片">
 		<set name="icon" val="icon.etc_broken_crystal_gold_i00" />
 		<set name="immediate_effect" val="1" />
 		<set name="material" val="liquid" />
@@ -555,7 +555,7 @@
 		<set name="price" val="240" />
 		<set name="is_stackable" val="true" />
 	</item>
-	<item id="1850" type="EtcItem" name="Bronze Mirror Piece">
+	<item id="1850" type="EtcItem" name="青銅鏡的碎片">
 		<set name="icon" val="icon.etc_broken_crystal_silver_i00" />
 		<set name="immediate_effect" val="1" />
 		<set name="material" val="liquid" />
@@ -563,7 +563,7 @@
 		<set name="price" val="240" />
 		<set name="is_stackable" val="true" />
 	</item>
-	<item id="1851" type="EtcItem" name="Jade Necklace Bead">
+	<item id="1851" type="EtcItem" name="玉石項鍊的珠子">
 		<set name="icon" val="icon.etc_debris_i00" />
 		<set name="immediate_effect" val="1" />
 		<set name="material" val="liquid" />
@@ -571,7 +571,7 @@
 		<set name="price" val="280" />
 		<set name="is_stackable" val="true" />
 	</item>
-	<item id="1852" type="EtcItem" name="Ancient Clay Urn">
+	<item id="1852" type="EtcItem" name="古代瓷器">
 		<set name="icon" val="icon.etc_oil_pot_white_i00" />
 		<set name="immediate_effect" val="1" />
 		<set name="material" val="liquid" />
@@ -579,7 +579,7 @@
 		<set name="price" val="1800" />
 		<set name="is_stackable" val="true" />
 	</item>
-	<item id="1853" type="EtcItem" name="Ancient Brass Tiara">
+	<item id="1853" type="EtcItem" name="古老的銅製冠冕">
 		<set name="icon" val="icon.etc_ancient_crown_i03" />
 		<set name="immediate_effect" val="1" />
 		<set name="material" val="liquid" />
@@ -587,7 +587,7 @@
 		<set name="price" val="2100" />
 		<set name="is_stackable" val="true" />
 	</item>
-	<item id="1854" type="EtcItem" name="Ancient Bronze Mirror">
+	<item id="1854" type="EtcItem" name="古老的青銅鏡">
 		<set name="icon" val="icon.etc_mirror_i00" />
 		<set name="immediate_effect" val="1" />
 		<set name="material" val="liquid" />
@@ -595,7 +595,7 @@
 		<set name="price" val="2100" />
 		<set name="is_stackable" val="true" />
 	</item>
-	<item id="1855" type="EtcItem" name="Ancient Jade Necklace">
+	<item id="1855" type="EtcItem" name="古老的玉石項鍊">
 		<set name="icon" val="icon.etc_leash_i00" />
 		<set name="immediate_effect" val="1" />
 		<set name="material" val="liquid" />
@@ -603,7 +603,7 @@
 		<set name="price" val="2550" />
 		<set name="is_stackable" val="true" />
 	</item>
-	<item id="1856" type="EtcItem" name="Amulet: Chant of Life">
+	<item id="1856" type="EtcItem" name="護身符-生命禮讚">
 		<set name="icon" val="icon.etc_orcish_talisman_i00" />
 		<set name="immediate_effect" val="1" />
 		<set name="material" val="paper" />
@@ -611,7 +611,7 @@
 		<set name="price" val="800" />
 		<set name="is_stackable" val="true" />
 	</item>
-	<item id="1857" type="EtcItem" name="Keltir Fang">
+	<item id="1857" type="EtcItem" name="尼比特狐狗的尖牙">
 		<set name="icon" val="icon.etc_claw_i00" />
 		<set name="immediate_effect" val="1" />
 		<set name="material" val="steel" />
@@ -622,7 +622,7 @@
 		<set name="is_stackable" val="true" />
 		<set name="is_questitem" val="true" />
 	</item>
-	<item id="1858" type="EtcItem" name="Keltir Fang">
+	<item id="1858" type="EtcItem" name="尼比特狐狗的尖牙">
 		<set name="icon" val="icon.etc_claw_i00" />
 		<set name="immediate_effect" val="1" />
 		<set name="material" val="steel" />
@@ -633,7 +633,7 @@
 		<set name="is_stackable" val="true" />
 		<set name="is_questitem" val="true" />
 	</item>
-	<item id="1859" type="EtcItem" name="Keltir Fang">
+	<item id="1859" type="EtcItem" name="尼比特狐狗的尖牙">
 		<set name="icon" val="icon.etc_claw_i00" />
 		<set name="immediate_effect" val="1" />
 		<set name="material" val="steel" />
@@ -644,7 +644,7 @@
 		<set name="is_stackable" val="true" />
 		<set name="is_questitem" val="true" />
 	</item>
-	<item id="1860" type="EtcItem" name="Keltir Fang">
+	<item id="1860" type="EtcItem" name="尼比特狐狗的尖牙">
 		<set name="icon" val="icon.etc_claw_i00" />
 		<set name="immediate_effect" val="1" />
 		<set name="material" val="steel" />
@@ -655,7 +655,7 @@
 		<set name="is_stackable" val="true" />
 		<set name="is_questitem" val="true" />
 	</item>
-	<item id="1861" type="EtcItem" name="Keltir Fang">
+	<item id="1861" type="EtcItem" name="尼比特狐狗的尖牙">
 		<set name="icon" val="icon.etc_claw_i00" />
 		<set name="immediate_effect" val="1" />
 		<set name="material" val="steel" />
@@ -666,7 +666,7 @@
 		<set name="is_stackable" val="true" />
 		<set name="is_questitem" val="true" />
 	</item>
-	<item id="1862" type="EtcItem" name="Keltir Fang">
+	<item id="1862" type="EtcItem" name="尼比特狐狗的尖牙">
 		<set name="icon" val="icon.etc_claw_i00" />
 		<set name="immediate_effect" val="1" />
 		<set name="material" val="steel" />
@@ -677,14 +677,14 @@
 		<set name="is_stackable" val="true" />
 		<set name="is_questitem" val="true" />
 	</item>
-	<item id="1863" type="EtcItem" name="Map: Elmore">
+	<item id="1863" type="EtcItem" name="地圖-艾爾摩">
 		<set name="icon" val="icon.etc_letter_red_i00" />
 		<set name="immediate_effect" val="1" />
 		<set name="material" val="liquid" />
 		<set name="price" val="1000" />
 		<set name="handler" val="Maps" />
 	</item>
-	<item id="1864" type="EtcItem" name="Stem">
+	<item id="1864" type="EtcItem" name="樹枝">
 		<set name="icon" val="icon.etc_branch_gold_i00" />
 		<set name="etcitem_type" val="material" />
 		<set name="immediate_effect" val="1" />
@@ -693,7 +693,7 @@
 		<set name="price" val="100" />
 		<set name="is_stackable" val="true" />
 	</item>
-	<item id="1865" type="EtcItem" name="Varnish">
+	<item id="1865" type="EtcItem" name="研磨劑">
 		<set name="icon" val="icon.etc_pouch_yellow_i00" />
 		<set name="etcitem_type" val="material" />
 		<set name="immediate_effect" val="1" />
@@ -702,7 +702,7 @@
 		<set name="price" val="200" />
 		<set name="is_stackable" val="true" />
 	</item>
-	<item id="1866" type="EtcItem" name="Suede">
+	<item id="1866" type="EtcItem" name="軟皮">
 		<set name="icon" val="icon.etc_suede_i00" />
 		<set name="etcitem_type" val="material" />
 		<set name="immediate_effect" val="1" />
@@ -711,7 +711,7 @@
 		<set name="price" val="300" />
 		<set name="is_stackable" val="true" />
 	</item>
-	<item id="1867" type="EtcItem" name="Animal Skin">
+	<item id="1867" type="EtcItem" name="動物的皮">
 		<set name="icon" val="icon.etc_leather_brown_i00" />
 		<set name="etcitem_type" val="material" />
 		<set name="immediate_effect" val="1" />
@@ -720,7 +720,7 @@
 		<set name="price" val="150" />
 		<set name="is_stackable" val="true" />
 	</item>
-	<item id="1868" type="EtcItem" name="Thread">
+	<item id="1868" type="EtcItem" name="線">
 		<set name="icon" val="icon.etc_skein_white_i00" />
 		<set name="etcitem_type" val="material" />
 		<set name="immediate_effect" val="1" />
@@ -729,7 +729,7 @@
 		<set name="price" val="100" />
 		<set name="is_stackable" val="true" />
 	</item>
-	<item id="1869" type="EtcItem" name="Iron Ore">
+	<item id="1869" type="EtcItem" name="鋼鐵礦">
 		<set name="icon" val="icon.etc_lump_gray_i00" />
 		<set name="etcitem_type" val="material" />
 		<set name="immediate_effect" val="1" />
@@ -738,7 +738,7 @@
 		<set name="price" val="200" />
 		<set name="is_stackable" val="true" />
 	</item>
-	<item id="1870" type="EtcItem" name="Coal">
+	<item id="1870" type="EtcItem" name="煤礦">
 		<set name="icon" val="icon.etc_coal_i00" />
 		<set name="etcitem_type" val="material" />
 		<set name="immediate_effect" val="1" />
@@ -747,7 +747,7 @@
 		<set name="price" val="200" />
 		<set name="is_stackable" val="true" />
 	</item>
-	<item id="1871" type="EtcItem" name="Charcoal">
+	<item id="1871" type="EtcItem" name="木炭">
 		<set name="icon" val="icon.etc_charcoal_i00" />
 		<set name="etcitem_type" val="material" />
 		<set name="immediate_effect" val="1" />
@@ -756,7 +756,7 @@
 		<set name="price" val="200" />
 		<set name="is_stackable" val="true" />
 	</item>
-	<item id="1872" type="EtcItem" name="Animal Bone">
+	<item id="1872" type="EtcItem" name="動物的骨頭">
 		<set name="icon" val="icon.etc_piece_bone_white_i00" />
 		<set name="etcitem_type" val="material" />
 		<set name="immediate_effect" val="1" />
@@ -765,7 +765,7 @@
 		<set name="price" val="150" />
 		<set name="is_stackable" val="true" />
 	</item>
-	<item id="1873" type="EtcItem" name="Silver Nugget">
+	<item id="1873" type="EtcItem" name="銀塊">
 		<set name="icon" val="icon.etc_silver_i00" />
 		<set name="etcitem_type" val="material" />
 		<set name="immediate_effect" val="1" />
@@ -774,7 +774,7 @@
 		<set name="price" val="500" />
 		<set name="is_stackable" val="true" />
 	</item>
-	<item id="1874" type="EtcItem" name="Oriharukon Ore">
+	<item id="1874" type="EtcItem" name="奧里哈魯根原石">
 		<set name="icon" val="icon.etc_oriharukon_ore_i00" />
 		<set name="etcitem_type" val="material" />
 		<set name="immediate_effect" val="1" />
@@ -783,7 +783,7 @@
 		<set name="price" val="3000" />
 		<set name="is_stackable" val="true" />
 	</item>
-	<item id="1875" type="EtcItem" name="Stone of Purity">
+	<item id="1875" type="EtcItem" name="純石">
 		<set name="icon" val="icon.etc_crystal_ball_white_i00" />
 		<set name="etcitem_type" val="material" />
 		<set name="immediate_effect" val="1" />
@@ -792,7 +792,7 @@
 		<set name="price" val="3000" />
 		<set name="is_stackable" val="true" />
 	</item>
-	<item id="1876" type="EtcItem" name="Mithril Ore">
+	<item id="1876" type="EtcItem" name="米索莉原石">
 		<set name="icon" val="icon.etc_mithril_ore_i00" />
 		<set name="etcitem_type" val="material" />
 		<set name="immediate_effect" val="1" />
@@ -801,7 +801,7 @@
 		<set name="price" val="1000" />
 		<set name="is_stackable" val="true" />
 	</item>
-	<item id="1877" type="EtcItem" name="Adamantite Nugget">
+	<item id="1877" type="EtcItem" name="金剛石塊">
 		<set name="icon" val="icon.etc_adamantite_i00" />
 		<set name="etcitem_type" val="material" />
 		<set name="immediate_effect" val="1" />
@@ -810,7 +810,7 @@
 		<set name="price" val="5000" />
 		<set name="is_stackable" val="true" />
 	</item>
-	<item id="1878" type="EtcItem" name="Braided Hemp">
+	<item id="1878" type="EtcItem" name="絞線">
 		<set name="icon" val="icon.etc_braided_hemp_i00" />
 		<set name="etcitem_type" val="material" />
 		<set name="immediate_effect" val="1" />
@@ -819,7 +819,7 @@
 		<set name="price" val="500" />
 		<set name="is_stackable" val="true" />
 	</item>
-	<item id="1879" type="EtcItem" name="Cokes">
+	<item id="1879" type="EtcItem" name="炭焦">
 		<set name="icon" val="icon.etc_oil_pot_black_i00" />
 		<set name="etcitem_type" val="material" />
 		<set name="immediate_effect" val="1" />
@@ -828,7 +828,7 @@
 		<set name="price" val="1200" />
 		<set name="is_stackable" val="true" />
 	</item>
-	<item id="1880" type="EtcItem" name="Steel">
+	<item id="1880" type="EtcItem" name="鐵">
 		<set name="icon" val="icon.etc_lump_black_i00" />
 		<set name="etcitem_type" val="material" />
 		<set name="immediate_effect" val="1" />
@@ -837,7 +837,7 @@
 		<set name="price" val="2000" />
 		<set name="is_stackable" val="true" />
 	</item>
-	<item id="1881" type="EtcItem" name="Coarse Bone Powder">
+	<item id="1881" type="EtcItem" name="顆粒狀的骨粉">
 		<set name="icon" val="icon.etc_powder_white_i00" />
 		<set name="etcitem_type" val="material" />
 		<set name="immediate_effect" val="1" />
@@ -846,7 +846,7 @@
 		<set name="price" val="1500" />
 		<set name="is_stackable" val="true" />
 	</item>
-	<item id="1882" type="EtcItem" name="Leather">
+	<item id="1882" type="EtcItem" name="皮革">
 		<set name="icon" val="icon.etc_leather_i00" />
 		<set name="etcitem_type" val="material" />
 		<set name="immediate_effect" val="1" />
@@ -855,7 +855,7 @@
 		<set name="price" val="900" />
 		<set name="is_stackable" val="true" />
 	</item>
-	<item id="1883" type="EtcItem" name="Steel Mold">
+	<item id="1883" type="EtcItem" name="鐵鑄模">
 		<set name="icon" val="icon.etc_mold_i00" />
 		<set name="etcitem_type" val="material" />
 		<set name="immediate_effect" val="1" />
@@ -864,7 +864,7 @@
 		<set name="price" val="4500" />
 		<set name="is_stackable" val="true" />
 	</item>
-	<item id="1884" type="EtcItem" name="Cord">
+	<item id="1884" type="EtcItem" name="強化繩索">
 		<set name="icon" val="icon.etc_skein_gray_i00" />
 		<set name="etcitem_type" val="material" />
 		<set name="immediate_effect" val="1" />
@@ -873,7 +873,7 @@
 		<set name="price" val="325" />
 		<set name="is_stackable" val="true" />
 	</item>
-	<item id="1885" type="EtcItem" name="High Grade Suede">
+	<item id="1885" type="EtcItem" name="高級軟皮">
 		<set name="icon" val="icon.etc_pouch_yellow_i00" />
 		<set name="etcitem_type" val="material" />
 		<set name="immediate_effect" val="1" />
@@ -882,7 +882,7 @@
 		<set name="price" val="2400" />
 		<set name="is_stackable" val="true" />
 	</item>
-	<item id="1886" type="EtcItem" name="Silver Mold">
+	<item id="1886" type="EtcItem" name="銀鑄模">
 		<set name="icon" val="icon.etc_silver_mold_i00" />
 		<set name="etcitem_type" val="material" />
 		<set name="immediate_effect" val="1" />
@@ -891,7 +891,7 @@
 		<set name="price" val="13500" />
 		<set name="is_stackable" val="true" />
 	</item>
-	<item id="1887" type="EtcItem" name="Varnish of Purity">
+	<item id="1887" type="EtcItem" name="純化的研磨劑">
 		<set name="icon" val="icon.etc_potion_clear_i00" />
 		<set name="etcitem_type" val="material" />
 		<set name="immediate_effect" val="1" />
@@ -900,7 +900,7 @@
 		<set name="price" val="8100" />
 		<set name="is_stackable" val="true" />
 	</item>
-	<item id="1888" type="EtcItem" name="Synthetic Cokes">
+	<item id="1888" type="EtcItem" name="合成的炭焦">
 		<set name="icon" val="icon.etc_synthetic_cokes_i00" />
 		<set name="etcitem_type" val="material" />
 		<set name="immediate_effect" val="1" />
@@ -909,7 +909,7 @@
 		<set name="price" val="6600" />
 		<set name="is_stackable" val="true" />
 	</item>
-	<item id="1889" type="EtcItem" name="Compound Braid">
+	<item id="1889" type="EtcItem" name="合成的絞線">
 		<set name="icon" val="icon.etc_compound_braid_i00" />
 		<set name="etcitem_type" val="material" />
 		<set name="immediate_effect" val="1" />
@@ -918,7 +918,7 @@
 		<set name="price" val="3000" />
 		<set name="is_stackable" val="true" />
 	</item>
-	<item id="1890" type="EtcItem" name="Mithril Alloy">
+	<item id="1890" type="EtcItem" name="米索莉合金">
 		<set name="icon" val="icon.etc_lump_white_i00" />
 		<set name="etcitem_type" val="material" />
 		<set name="immediate_effect" val="1" />
@@ -927,7 +927,7 @@
 		<set name="price" val="13100" />
 		<set name="is_stackable" val="true" />
 	</item>
-	<item id="1891" type="EtcItem" name="Artisan's Frame">
+	<item id="1891" type="EtcItem" name="工匠模具">
 		<set name="icon" val="icon.etc_artisans_frame_i00" />
 		<set name="etcitem_type" val="material" />
 		<set name="immediate_effect" val="1" />
@@ -936,7 +936,7 @@
 		<set name="price" val="95000" />
 		<set name="is_stackable" val="true" />
 	</item>
-	<item id="1892" type="EtcItem" name="Blacksmith's Frame">
+	<item id="1892" type="EtcItem" name="鐵匠模具">
 		<set name="icon" val="icon.etc_blacksmiths_frame_i00" />
 		<set name="etcitem_type" val="material" />
 		<set name="immediate_effect" val="1" />
@@ -945,7 +945,7 @@
 		<set name="price" val="64000" />
 		<set name="is_stackable" val="true" />
 	</item>
-	<item id="1893" type="EtcItem" name="Oriharukon">
+	<item id="1893" type="EtcItem" name="奧里哈魯根">
 		<set name="icon" val="icon.etc_oriharukon_i00" />
 		<set name="etcitem_type" val="material" />
 		<set name="immediate_effect" val="1" />
@@ -954,7 +954,7 @@
 		<set name="price" val="24600" />
 		<set name="is_stackable" val="true" />
 	</item>
-	<item id="1894" type="EtcItem" name="Crafted Leather">
+	<item id="1894" type="EtcItem" name="高級皮革">
 		<set name="icon" val="icon.etc_crafted_leather_i00" />
 		<set name="etcitem_type" val="material" />
 		<set name="immediate_effect" val="1" />
@@ -963,7 +963,7 @@
 		<set name="price" val="5700" />
 		<set name="is_stackable" val="true" />
 	</item>
-	<item id="1895" type="EtcItem" name="Metallic Fiber">
+	<item id="1895" type="EtcItem" name="金屬纖維">
 		<set name="icon" val="icon.etc_metallic_fiber_i00" />
 		<set name="etcitem_type" val="material" />
 		<set name="immediate_effect" val="1" />
@@ -972,7 +972,7 @@
 		<set name="price" val="700" />
 		<set name="is_stackable" val="true" />
 	</item>
-	<item id="1896" type="EtcItem" name="Necklace of Anguish Chain">
+	<item id="1896" type="EtcItem" name="幻滅項鍊的鍊子">
 		<set name="icon" val="icon.etc_jewel_box_i00" />
 		<set name="etcitem_type" val="material" />
 		<set name="immediate_effect" val="1" />
@@ -981,7 +981,7 @@
 		<set name="price" val="472" />
 		<set name="is_stackable" val="true" />
 	</item>
-	<item id="1897" type="EtcItem" name="Necklace of Wisdom Chain">
+	<item id="1897" type="EtcItem" name="智慧項鍊的鍊子">
 		<set name="icon" val="icon.etc_jewel_box_i00" />
 		<set name="etcitem_type" val="material" />
 		<set name="immediate_effect" val="1" />
@@ -990,7 +990,7 @@
 		<set name="price" val="840" />
 		<set name="is_stackable" val="true" />
 	</item>
-	<item id="1898" type="EtcItem" name="Blue Diamond Necklace Gem">
+	<item id="1898" type="EtcItem" name="藍鑽項鍊的鍊子">
 		<set name="icon" val="icon.etc_gem_blue_i00" />
 		<set name="etcitem_type" val="material" />
 		<set name="immediate_effect" val="1" />
@@ -999,7 +999,7 @@
 		<set name="price" val="1947" />
 		<set name="is_stackable" val="true" />
 	</item>
-	<item id="1899" type="EtcItem" name="Necklace of Devotion Chain">
+	<item id="1899" type="EtcItem" name="奉獻項鍊的鍊子">
 		<set name="icon" val="icon.etc_jewel_box_i00" />
 		<set name="etcitem_type" val="material" />
 		<set name="immediate_effect" val="1" />

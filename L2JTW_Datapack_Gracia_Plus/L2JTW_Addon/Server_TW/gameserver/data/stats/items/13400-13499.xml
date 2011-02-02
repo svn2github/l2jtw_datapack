@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <list>
-	<item id="13400" type="EtcItem" name="Escape - Gludin Village">
+	<item id="13400" type="EtcItem" name="返回卷軸-古魯丁村莊">
 		<set name="icon" val="icon.etc_scroll_of_return_i00" />
 		<set name="default_action" val="skill_reduce" />
 		<set name="material" val="paper" />
@@ -13,7 +13,7 @@
 		<set name="item_skill" val="2609-6" />
 		<set name="use_condition" val="{{uc_transmode_exclude;{tt_flying}}}" />
 	</item>
-	<item id="13401" type="EtcItem" name="Escape - Town of Gludio">
+	<item id="13401" type="EtcItem" name="返回卷軸-古魯丁城鎮">
 		<set name="icon" val="icon.etc_scroll_of_return_i00" />
 		<set name="default_action" val="skill_reduce" />
 		<set name="material" val="paper" />
@@ -26,7 +26,7 @@
 		<set name="item_skill" val="2609-7" />
 		<set name="use_condition" val="{{uc_transmode_exclude;{tt_flying}}}" />
 	</item>
-	<item id="13402" type="EtcItem" name="Escape - Town of Dion">
+	<item id="13402" type="EtcItem" name="返回卷軸-狄恩城鎮">
 		<set name="icon" val="icon.etc_scroll_of_return_i00" />
 		<set name="default_action" val="skill_reduce" />
 		<set name="material" val="paper" />
@@ -39,7 +39,7 @@
 		<set name="item_skill" val="2609-8" />
 		<set name="use_condition" val="{{uc_transmode_exclude;{tt_flying}}}" />
 	</item>
-	<item id="13403" type="EtcItem" name="Escape - Floran Village">
+	<item id="13403" type="EtcItem" name="返回卷軸-芙羅蘭村莊">
 		<set name="icon" val="icon.etc_scroll_of_return_i00" />
 		<set name="default_action" val="skill_reduce" />
 		<set name="material" val="paper" />
@@ -52,7 +52,7 @@
 		<set name="item_skill" val="2609-9" />
 		<set name="use_condition" val="{{uc_transmode_exclude;{tt_flying}}}" />
 	</item>
-	<item id="13404" type="EtcItem" name="Escape - Giran Castle Town">
+	<item id="13404" type="EtcItem" name="返回卷軸-奇岩城鎮">
 		<set name="icon" val="icon.etc_scroll_of_return_i00" />
 		<set name="default_action" val="skill_reduce" />
 		<set name="material" val="paper" />
@@ -65,7 +65,7 @@
 		<set name="item_skill" val="2609-10" />
 		<set name="use_condition" val="{{uc_transmode_exclude;{tt_flying}}}" />
 	</item>
-	<item id="13405" type="EtcItem" name="Escape - Hardin's Academy">
+	<item id="13405" type="EtcItem" name="返回卷軸-哈汀學院">
 		<set name="icon" val="icon.etc_scroll_of_return_i00" />
 		<set name="default_action" val="skill_reduce" />
 		<set name="material" val="paper" />
@@ -78,7 +78,7 @@
 		<set name="item_skill" val="2609-11" />
 		<set name="use_condition" val="{{uc_transmode_exclude;{tt_flying}}}" />
 	</item>
-	<item id="13406" type="EtcItem" name="Escape - Heine">
+	<item id="13406" type="EtcItem" name="返回卷軸-水上都市海音斯">
 		<set name="icon" val="icon.etc_scroll_of_return_i00" />
 		<set name="default_action" val="skill_reduce" />
 		<set name="material" val="paper" />
@@ -91,7 +91,7 @@
 		<set name="item_skill" val="2609-12" />
 		<set name="use_condition" val="{{uc_transmode_exclude;{tt_flying}}}" />
 	</item>
-	<item id="13407" type="EtcItem" name="Escape - Town of Oren">
+	<item id="13407" type="EtcItem" name="返回卷軸-歐瑞城鎮">
 		<set name="icon" val="icon.etc_scroll_of_return_i00" />
 		<set name="default_action" val="skill_reduce" />
 		<set name="material" val="paper" />
@@ -104,7 +104,7 @@
 		<set name="item_skill" val="2609-13" />
 		<set name="use_condition" val="{{uc_transmode_exclude;{tt_flying}}}" />
 	</item>
-	<item id="13408" type="EtcItem" name="Escape - Ivory Tower">
+	<item id="13408" type="EtcItem" name="返回卷軸-象牙塔">
 		<set name="icon" val="icon.etc_scroll_of_return_i00" />
 		<set name="default_action" val="skill_reduce" />
 		<set name="material" val="paper" />
@@ -117,7 +117,7 @@
 		<set name="item_skill" val="2609-14" />
 		<set name="use_condition" val="{{uc_transmode_exclude;{tt_flying}}}" />
 	</item>
-	<item id="13409" type="EtcItem" name="Escape - Hunters Village">
+	<item id="13409" type="EtcItem" name="返回卷軸-獵人村莊">
 		<set name="icon" val="icon.etc_scroll_of_return_i00" />
 		<set name="default_action" val="skill_reduce" />
 		<set name="material" val="paper" />
@@ -130,7 +130,7 @@
 		<set name="item_skill" val="2609-15" />
 		<set name="use_condition" val="{{uc_transmode_exclude;{tt_flying}}}" />
 	</item>
-	<item id="13410" type="EtcItem" name="Escape - Town of Aden">
+	<item id="13410" type="EtcItem" name="返回卷軸-亞丁城鎮">
 		<set name="icon" val="icon.etc_scroll_of_return_i00" />
 		<set name="default_action" val="skill_reduce" />
 		<set name="material" val="paper" />
@@ -143,7 +143,7 @@
 		<set name="item_skill" val="2609-16" />
 		<set name="use_condition" val="{{uc_transmode_exclude;{tt_flying}}}" />
 	</item>
-	<item id="13411" type="EtcItem" name="Escape - Town of Goddard">
+	<item id="13411" type="EtcItem" name="返回卷軸-高達特城鎮">
 		<set name="icon" val="icon.etc_scroll_of_return_i00" />
 		<set name="default_action" val="skill_reduce" />
 		<set name="material" val="paper" />
@@ -156,7 +156,7 @@
 		<set name="item_skill" val="2609-17" />
 		<set name="use_condition" val="{{uc_transmode_exclude;{tt_flying}}}" />
 	</item>
-	<item id="13412" type="EtcItem" name="Escape - Rune Township">
+	<item id="13412" type="EtcItem" name="返回卷軸-魯因城鎮">
 		<set name="icon" val="icon.etc_scroll_of_return_i00" />
 		<set name="default_action" val="skill_reduce" />
 		<set name="material" val="paper" />
@@ -169,7 +169,7 @@
 		<set name="item_skill" val="2609-18" />
 		<set name="use_condition" val="{{uc_transmode_exclude;{tt_flying}}}" />
 	</item>
-	<item id="13413" type="EtcItem" name="Escape - Town of Schuttgart">
+	<item id="13413" type="EtcItem" name="返回卷軸-修加特城鎮">
 		<set name="icon" val="icon.etc_scroll_of_return_i00" />
 		<set name="default_action" val="skill_reduce" />
 		<set name="material" val="paper" />
@@ -182,7 +182,7 @@
 		<set name="item_skill" val="2609-19" />
 		<set name="use_condition" val="{{uc_transmode_exclude;{tt_flying}}}" />
 	</item>
-	<item id="13414" type="EtcItem" name="Escape - Kamael Village">
+	<item id="13414" type="EtcItem" name="返回卷軸-英魂之島村莊">
 		<set name="icon" val="icon.etc_scroll_of_return_i00" />
 		<set name="default_action" val="skill_reduce" />
 		<set name="material" val="paper" />
@@ -195,7 +195,7 @@
 		<set name="item_skill" val="2609-20" />
 		<set name="use_condition" val="{{uc_transmode_exclude;{tt_flying}}}" />
 	</item>
-	<item id="13415" type="Armor" name="Frog Hat">
+	<item id="13415" type="Armor" name="青蛙帽">
 		<set name="icon" val="icon.accessory_frog_cap_i00" />
 		<set name="default_action" val="equip" />
 		<set name="bodypart" val="hairall" />
@@ -206,7 +206,7 @@
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
 	</item>
-	<item id="13416" type="Armor" name="Chicken Hat">
+	<item id="13416" type="Armor" name="弱雞帽">
 		<set name="icon" val="icon.accessory_chicken_cap_i00" />
 		<set name="default_action" val="equip" />
 		<set name="bodypart" val="hairall" />
@@ -217,19 +217,19 @@
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
 	</item>
-	<item id="13417" type="EtcItem" name="L2day - Letter Y">
+	<item id="13417" type="EtcItem" name="L2Day-文字Y">
 		<set name="icon" val="icon.etc_alphabet_y_i00" />
 		<set name="immediate_effect" val="1" />
 		<set name="material" val="steel" />
 		<set name="is_stackable" val="true" />
 	</item>
-	<item id="13418" type="EtcItem" name="L2day - Letter 5">
+	<item id="13418" type="EtcItem" name="L2Day-文字5">
 		<set name="icon" val="icon.etc_alphabet_5_i00" />
 		<set name="immediate_effect" val="1" />
 		<set name="material" val="steel" />
 		<set name="is_stackable" val="true" />
 	</item>
-	<item id="13419" type="EtcItem" name="Lineage II Commemorative Mark">
+	<item id="13419" type="EtcItem" name="5週年紀念徽章">
 		<set name="icon" val="icon.etc_scroll_of_memory_i00" />
 		<set name="immediate_effect" val="1" />
 		<set name="material" val="paper" />
@@ -239,7 +239,7 @@
 		<set name="is_sellable" val="false" />
 		<set name="is_stackable" val="true" />
 	</item>
-	<item id="13420" type="EtcItem" name="Multi-colored Honey Rice Cake">
+	<item id="13420" type="EtcItem" name="點心">
 		<set name="icon" val="icon.etc_five_color_honey_cake_i00" />
 		<set name="default_action" val="skill_reduce" />
 		<set name="etcitem_type" val="potion" />
@@ -250,7 +250,7 @@
 		<set name="is_stackable" val="true" />
 		<set name="item_skill" val="2645-1" />
 	</item>
-	<item id="13421" type="EtcItem" name="Honey Wheat Cake">
+	<item id="13421" type="EtcItem" name="蛋糕">
 		<set name="icon" val="icon.etc_cake_of_wheatlfour_i00" />
 		<set name="default_action" val="skill_reduce" />
 		<set name="etcitem_type" val="potion" />
@@ -264,7 +264,7 @@
 		<set name="is_stackable" val="true" />
 		<set name="item_skill" val="2646-1" />
 	</item>
-	<item id="13422" type="EtcItem" name="Medium Parchment Box">
+	<item id="13422" type="EtcItem" name="返回卷軸2張/箱">
 		<set name="icon" val="icon.etc_exchange_box_i00" />
 		<set name="default_action" val="capsule" />
 		<set name="immediate_effect" val="1" />
@@ -276,7 +276,7 @@
 		<set name="is_stackable" val="true" />
 		<set name="item_skill" val="2644-1" />
 	</item>
-	<item id="13423" type="EtcItem" name="Medium Mineral Box">
+	<item id="13423" type="EtcItem" name="原石2個/箱">
 		<set name="icon" val="icon.etc_exchange_box_i00" />
 		<set name="default_action" val="capsule" />
 		<set name="immediate_effect" val="1" />
@@ -288,7 +288,7 @@
 		<set name="is_stackable" val="true" />
 		<set name="item_skill" val="2639-1" />
 	</item>
-	<item id="13424" type="EtcItem" name="Large Libation Box">
+	<item id="13424" type="EtcItem" name="飲料3個/箱">
 		<set name="icon" val="icon.etc_exchange_box_i00" />
 		<set name="default_action" val="capsule" />
 		<set name="immediate_effect" val="1" />
@@ -300,7 +300,7 @@
 		<set name="is_stackable" val="true" />
 		<set name="item_skill" val="2642-1" />
 	</item>
-	<item id="13425" type="EtcItem" name="Small Parchment Box">
+	<item id="13425" type="EtcItem" name="返回卷軸 1張/箱">
 		<set name="icon" val="icon.etc_exchange_box_i00" />
 		<set name="default_action" val="capsule" />
 		<set name="immediate_effect" val="1" />
@@ -312,7 +312,7 @@
 		<set name="is_stackable" val="true" />
 		<set name="item_skill" val="2643-1" />
 	</item>
-	<item id="13426" type="EtcItem" name="Small Mineral Box">
+	<item id="13426" type="EtcItem" name="原石1個/箱">
 		<set name="icon" val="icon.etc_exchange_box_i00" />
 		<set name="default_action" val="capsule" />
 		<set name="immediate_effect" val="1" />
@@ -324,7 +324,7 @@
 		<set name="is_stackable" val="true" />
 		<set name="item_skill" val="2638-1" />
 	</item>
-	<item id="13427" type="EtcItem" name="Medium Libation Box">
+	<item id="13427" type="EtcItem" name="飲料2個/箱">
 		<set name="icon" val="icon.etc_exchange_box_i00" />
 		<set name="default_action" val="capsule" />
 		<set name="immediate_effect" val="1" />
@@ -336,7 +336,7 @@
 		<set name="is_stackable" val="true" />
 		<set name="item_skill" val="2641-1" />
 	</item>
-	<item id="13428" type="EtcItem" name="Small Libation Box">
+	<item id="13428" type="EtcItem" name="飲料1個/箱">
 		<set name="icon" val="icon.etc_exchange_box_i00" />
 		<set name="default_action" val="capsule" />
 		<set name="immediate_effect" val="1" />
@@ -348,7 +348,7 @@
 		<set name="is_stackable" val="true" />
 		<set name="item_skill" val="2640-1" />
 	</item>
-	<item id="13429" type="Armor" name="Teddy Bear Hat (Event)">
+	<item id="13429" type="Armor" name="熊熊帽-活動用">
 		<set name="icon" val="icon.accessory_bear_cap_i00" />
 		<set name="default_action" val="equip" />
 		<set name="bodypart" val="hairall" />
@@ -359,7 +359,7 @@
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
 	</item>
-	<item id="13430" type="Armor" name="Piggy Hat (Event)">
+	<item id="13430" type="Armor" name="豬豬帽-活動用">
 		<set name="icon" val="icon.accessory_pig_cap_i00" />
 		<set name="default_action" val="equip" />
 		<set name="bodypart" val="hairall" />
@@ -370,7 +370,7 @@
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
 	</item>
-	<item id="13431" type="Armor" name="Jester Hat (Event)">
+	<item id="13431" type="Armor" name="小丑帽-活動用">
 		<set name="icon" val="icon.accessory_jester_cap_i00" />
 		<set name="default_action" val="equip" />
 		<set name="bodypart" val="hairall" />
@@ -381,7 +381,7 @@
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
 	</item>
-	<item id="13432" type="Armor" name="Vesper Breastplate">
+	<item id="13432" type="Armor" name="薄暮胸甲">
 		<set name="icon" val="icon.armor_t94_u_i00" />
 		<set name="default_action" val="equip" />
 		<set name="armor_type" val="heavy" />
@@ -400,7 +400,7 @@
 			<enchant order="0x0C" stat="pDef" val="0" />
 		</for>
 	</item>
-	<item id="13433" type="Armor" name="Vesper Leather Breastplate">
+	<item id="13433" type="Armor" name="薄暮皮胸甲">
 		<set name="icon" val="icon.armor_t95_u_i00" />
 		<set name="default_action" val="equip" />
 		<set name="armor_type" val="light" />
@@ -418,7 +418,7 @@
 			<enchant order="0x0C" stat="pDef" val="0" />
 		</for>
 	</item>
-	<item id="13434" type="Armor" name="Vesper Tunic">
+	<item id="13434" type="Armor" name="薄暮外衣">
 		<set name="icon" val="icon.armor_t96_u_i00" />
 		<set name="default_action" val="equip" />
 		<set name="armor_type" val="magic" />
@@ -438,7 +438,7 @@
 			<enchant order="0x0C" stat="pDef" val="0" />
 		</for>
 	</item>
-	<item id="13435" type="Armor" name="Vesper Noble Breastplate">
+	<item id="13435" type="Armor" name="薄暮貴族胸甲">
 		<set name="icon" val="icon.armor_t94_u_i01" />
 		<set name="default_action" val="equip" />
 		<set name="armor_type" val="heavy" />
@@ -457,7 +457,7 @@
 			<enchant order="0x0C" stat="pDef" val="0" />
 		</for>
 	</item>
-	<item id="13436" type="Armor" name="Vesper Noble Leather Breastplate">
+	<item id="13436" type="Armor" name="薄暮貴族皮胸甲">
 		<set name="icon" val="icon.armor_t95_u_i01" />
 		<set name="default_action" val="equip" />
 		<set name="armor_type" val="light" />
@@ -475,7 +475,7 @@
 			<enchant order="0x0C" stat="pDef" val="0" />
 		</for>
 	</item>
-	<item id="13437" type="Armor" name="Vesper Noble Tunic">
+	<item id="13437" type="Armor" name="薄暮貴族外衣">
 		<set name="icon" val="icon.armor_t96_u_i01" />
 		<set name="default_action" val="equip" />
 		<set name="armor_type" val="magic" />
@@ -495,7 +495,7 @@
 			<enchant order="0x0C" stat="pDef" val="0" />
 		</for>
 	</item>
-	<item id="13438" type="Armor" name="Vesper Gaiters">
+	<item id="13438" type="Armor" name="薄暮脛甲">
 		<set name="icon" val="icon.armor_t94_l_i00" />
 		<set name="default_action" val="equip" />
 		<set name="armor_type" val="heavy" />
@@ -514,7 +514,7 @@
 			<enchant order="0x0C" stat="pDef" val="0" />
 		</for>
 	</item>
-	<item id="13439" type="Armor" name="Vesper Gauntlet">
+	<item id="13439" type="Armor" name="薄暮護手">
 		<set name="icon" val="icon.armor_t94_g_i00" />
 		<set name="default_action" val="equip" />
 		<set name="bodypart" val="gloves" />
@@ -532,7 +532,7 @@
 			<enchant order="0x0C" stat="pDef" val="0" />
 		</for>
 	</item>
-	<item id="13440" type="Armor" name="Vesper Boots">
+	<item id="13440" type="Armor" name="薄暮靴">
 		<set name="icon" val="icon.armor_t94_b_i00" />
 		<set name="default_action" val="equip" />
 		<set name="bodypart" val="feet" />
@@ -550,7 +550,7 @@
 			<enchant order="0x0C" stat="pDef" val="0" />
 		</for>
 	</item>
-	<item id="13441" type="Armor" name="Vesper Leather Leggings">
+	<item id="13441" type="Armor" name="薄暮皮脛甲">
 		<set name="icon" val="icon.armor_t95_l_i00" />
 		<set name="default_action" val="equip" />
 		<set name="armor_type" val="light" />
@@ -568,7 +568,7 @@
 			<enchant order="0x0C" stat="pDef" val="0" />
 		</for>
 	</item>
-	<item id="13442" type="Armor" name="Vesper Leather Gloves">
+	<item id="13442" type="Armor" name="薄暮皮手套">
 		<set name="icon" val="icon.armor_t95_g_i00" />
 		<set name="default_action" val="equip" />
 		<set name="bodypart" val="gloves" />
@@ -585,7 +585,7 @@
 			<enchant order="0x0C" stat="pDef" val="0" />
 		</for>
 	</item>
-	<item id="13443" type="Armor" name="Vesper Leather Boots">
+	<item id="13443" type="Armor" name="薄暮皮靴">
 		<set name="icon" val="icon.armor_t95_b_i00" />
 		<set name="default_action" val="equip" />
 		<set name="bodypart" val="feet" />
@@ -602,7 +602,7 @@
 			<enchant order="0x0C" stat="pDef" val="0" />
 		</for>
 	</item>
-	<item id="13444" type="Armor" name="Vesper Stockings">
+	<item id="13444" type="Armor" name="薄暮長襪">
 		<set name="icon" val="icon.armor_t96_l_i00" />
 		<set name="default_action" val="equip" />
 		<set name="armor_type" val="magic" />
@@ -622,7 +622,7 @@
 			<enchant order="0x0C" stat="pDef" val="0" />
 		</for>
 	</item>
-	<item id="13445" type="Armor" name="Vesper Gloves">
+	<item id="13445" type="Armor" name="薄暮手套">
 		<set name="icon" val="icon.armor_t96_g_i00" />
 		<set name="default_action" val="equip" />
 		<set name="bodypart" val="gloves" />
@@ -640,7 +640,7 @@
 			<enchant order="0x0C" stat="pDef" val="0" />
 		</for>
 	</item>
-	<item id="13446" type="Armor" name="Vesper Shoes">
+	<item id="13446" type="Armor" name="薄暮鞋">
 		<set name="icon" val="icon.armor_t96_b_i00" />
 		<set name="default_action" val="equip" />
 		<set name="bodypart" val="feet" />
@@ -658,7 +658,7 @@
 			<enchant order="0x0C" stat="pDef" val="0" />
 		</for>
 	</item>
-	<item id="13447" type="Armor" name="(not used) Vesper Shield">
+	<item id="13447" type="Armor" name="薄暮盾(不使用)">
 		<set name="icon" val="icon.shield_vesper_verteidiger_i00" />
 		<set name="default_action" val="equip" />
 		<set name="bodypart" val="lhand" />
@@ -677,7 +677,7 @@
 			<enchant val="0" order="0x0C" stat="sDef" />
 		</for>
 	</item>
-	<item id="13448" type="Armor" name="Vesper Noble Gaiters">
+	<item id="13448" type="Armor" name="薄暮貴族脛甲">
 		<set name="icon" val="icon.armor_t94_l_i01" />
 		<set name="default_action" val="equip" />
 		<set name="armor_type" val="heavy" />
@@ -696,7 +696,7 @@
 			<enchant order="0x0C" stat="pDef" val="0" />
 		</for>
 	</item>
-	<item id="13449" type="Armor" name="Vesper Noble Gauntlet">
+	<item id="13449" type="Armor" name="薄暮貴族護手">
 		<set name="icon" val="icon.armor_t94_g_i01" />
 		<set name="default_action" val="equip" />
 		<set name="bodypart" val="gloves" />
@@ -714,7 +714,7 @@
 			<enchant order="0x0C" stat="pDef" val="0" />
 		</for>
 	</item>
-	<item id="13450" type="Armor" name="Vesper Noble Boots">
+	<item id="13450" type="Armor" name="薄暮貴族靴">
 		<set name="icon" val="icon.armor_t94_b_i01" />
 		<set name="default_action" val="equip" />
 		<set name="bodypart" val="feet" />
@@ -732,7 +732,7 @@
 			<enchant order="0x0C" stat="pDef" val="0" />
 		</for>
 	</item>
-	<item id="13451" type="Armor" name="Vesper Noble Leather Leggings">
+	<item id="13451" type="Armor" name="薄暮貴族皮脛甲">
 		<set name="icon" val="icon.armor_t95_l_i01" />
 		<set name="default_action" val="equip" />
 		<set name="armor_type" val="light" />
@@ -750,7 +750,7 @@
 			<enchant order="0x0C" stat="pDef" val="0" />
 		</for>
 	</item>
-	<item id="13452" type="Armor" name="Vesper Noble Leather Gloves">
+	<item id="13452" type="Armor" name="薄暮貴族皮手套">
 		<set name="icon" val="icon.armor_t95_g_i01" />
 		<set name="default_action" val="equip" />
 		<set name="bodypart" val="gloves" />
@@ -767,7 +767,7 @@
 			<enchant order="0x0C" stat="pDef" val="0" />
 		</for>
 	</item>
-	<item id="13453" type="Armor" name="Vesper Noble Leather Boots">
+	<item id="13453" type="Armor" name="薄暮貴族皮靴">
 		<set name="icon" val="icon.armor_t95_b_i01" />
 		<set name="default_action" val="equip" />
 		<set name="bodypart" val="feet" />
@@ -784,7 +784,7 @@
 			<enchant order="0x0C" stat="pDef" val="0" />
 		</for>
 	</item>
-	<item id="13454" type="Armor" name="Vesper Noble Stockings">
+	<item id="13454" type="Armor" name="薄暮貴族長襪">
 		<set name="icon" val="icon.armor_t96_l_i01" />
 		<set name="default_action" val="equip" />
 		<set name="armor_type" val="magic" />
@@ -804,7 +804,7 @@
 			<enchant order="0x0C" stat="pDef" val="0" />
 		</for>
 	</item>
-	<item id="13455" type="Armor" name="Vesper Noble Gloves">
+	<item id="13455" type="Armor" name="薄暮貴族手套">
 		<set name="icon" val="icon.armor_t96_g_i01" />
 		<set name="default_action" val="equip" />
 		<set name="bodypart" val="gloves" />
@@ -822,7 +822,7 @@
 			<enchant order="0x0C" stat="pDef" val="0" />
 		</for>
 	</item>
-	<item id="13456" type="Armor" name="Vesper Noble Shoes">
+	<item id="13456" type="Armor" name="薄暮貴族鞋">
 		<set name="icon" val="icon.armor_t96_b_i01" />
 		<set name="default_action" val="equip" />
 		<set name="bodypart" val="feet" />
@@ -840,7 +840,7 @@
 			<enchant order="0x0C" stat="pDef" val="0" />
 		</for>
 	</item>
-	<item id="13457" type="Weapon" name="Vesper Cutter">
+	<item id="13457" type="Weapon" name="薄暮切刃">
 		<set name="icon" val="icon.weapon_vesper_cutter_i00" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="sword" />
@@ -868,7 +868,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="13458" type="Weapon" name="Vesper Slasher">
+	<item id="13458" type="Weapon" name="薄暮殺刃">
 		<set name="icon" val="icon.weapon_vesper_slasher_i00" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="bigsword" />
@@ -896,7 +896,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="13459" type="Weapon" name="Vesper Buster">
+	<item id="13459" type="Weapon" name="薄暮爆刃">
 		<set name="icon" val="icon.weapon_vesper_burster_i00" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="sword" />
@@ -924,7 +924,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="13460" type="Weapon" name="Vesper Shaper">
+	<item id="13460" type="Weapon" name="薄暮鉋刀">
 		<set name="icon" val="icon.weapon_vesper_shaper_i00" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="dagger" />
@@ -953,7 +953,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="13461" type="Weapon" name="Vesper Fighter">
+	<item id="13461" type="Weapon" name="薄暮戰爪">
 		<set name="icon" val="icon.weapon_vesper_fighter_i00" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="dualfist" />
@@ -982,7 +982,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="13462" type="Weapon" name="Vesper Stormer">
+	<item id="13462" type="Weapon" name="薄暮風暴者">
 		<set name="icon" val="icon.weapon_vesper_stormer_i00" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="pole" />
@@ -1012,7 +1012,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="13463" type="Weapon" name="Vesper Avenger">
+	<item id="13463" type="Weapon" name="薄暮復仇者">
 		<set name="icon" val="icon.weapon_vesper_avenger_i00" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="blunt" />
@@ -1041,7 +1041,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="13464" type="Weapon" name="Vesper Retributer">
+	<item id="13464" type="Weapon" name="薄暮報恨者">
 		<set name="icon" val="icon.weapon_vesper_retributer_i00" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="bigblunt" />
@@ -1070,7 +1070,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="13465" type="Weapon" name="Vesper Caster">
+	<item id="13465" type="Weapon" name="薄暮術杖">
 		<set name="icon" val="icon.weapon_vesper_caster_i00" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="blunt" />
@@ -1100,7 +1100,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="13466" type="Weapon" name="Vesper Singer">
+	<item id="13466" type="Weapon" name="薄暮詩杖">
 		<set name="icon" val="icon.weapon_vesper_singer_i00" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="bigblunt" />
@@ -1130,7 +1130,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="13467" type="Weapon" name="Vesper Thrower">
+	<item id="13467" type="Weapon" name="薄暮投弓">
 		<set name="icon" val="icon.weapon_vesper_thrower_i00" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="bow" />
@@ -1162,7 +1162,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="13468" type="Weapon" name="Vesper Pincer">
+	<item id="13468" type="Weapon" name="薄暮螯針">
 		<set name="icon" val="icon.weapon_vesper_pincer_i00" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="rapier" />
@@ -1194,7 +1194,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="13469" type="Weapon" name="Vesper Sheutjeh">
+	<item id="13469" type="Weapon" name="薄暮射靈">
 		<set name="icon" val="icon.weapon_vesper_schutze_i00" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="crossbow" />
@@ -1226,7 +1226,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="13470" type="Weapon" name="Vesper Nagan">
+	<item id="13470" type="Weapon" name="薄暮槍刃">
 		<set name="icon" val="icon.weapon_vesper_nagen_i00" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="ancientsword" />
@@ -1257,7 +1257,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="13471" type="Armor" name="Vesper Shield">
+	<item id="13471" type="Armor" name="薄暮衛盾">
 		<set name="icon" val="icon.weapon_vesper_verteidiger_i01" />
 		<set name="default_action" val="equip" />
 		<set name="bodypart" val="lhand" />
@@ -1278,7 +1278,7 @@
 			<enchant val="0" order="0x0C" stat="sDef" />
 		</for>
 	</item>
-	<item id="13472" type="Armor" name="Circlet of Innadril Valor">
+	<item id="13472" type="Armor" name="因納得立勇猛頭箍">
 		<set name="icon" val="icon.accessory_pledge_hair1_i00" />
 		<set name="default_action" val="equip" />
 		<set name="bodypart" val="hairall" />
@@ -1290,7 +1290,7 @@
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
 	</item>
-	<item id="13473" type="Armor" name="Circlet of Aden Valor">
+	<item id="13473" type="Armor" name="亞丁 勇猛頭箍">
 		<set name="icon" val="icon.accessory_pledge_hair2_i00" />
 		<set name="default_action" val="equip" />
 		<set name="bodypart" val="hairall" />
@@ -1302,7 +1302,7 @@
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
 	</item>
-	<item id="13474" type="Armor" name="Circlet of Dion Valor">
+	<item id="13474" type="Armor" name="狄恩 勇猛頭箍">
 		<set name="icon" val="icon.accessory_pledge_hair3_i00" />
 		<set name="default_action" val="equip" />
 		<set name="bodypart" val="hairall" />
@@ -1314,7 +1314,7 @@
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
 	</item>
-	<item id="13475" type="Armor" name="Circlet of Dion Sniper">
+	<item id="13475" type="Armor" name="狄恩 射手頭箍">
 		<set name="icon" val="icon.accessory_pledge_hair4_i00" />
 		<set name="default_action" val="equip" />
 		<set name="bodypart" val="hairall" />
@@ -1326,7 +1326,7 @@
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
 	</item>
-	<item id="13476" type="Armor" name="Circlet of Innadril Sniper">
+	<item id="13476" type="Armor" name="因納得立 射手頭箍">
 		<set name="icon" val="icon.accessory_pledge_hair5_i00" />
 		<set name="default_action" val="equip" />
 		<set name="bodypart" val="hairall" />
@@ -1338,7 +1338,7 @@
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
 	</item>
-	<item id="13477" type="Armor" name="Circlet of Oren Sniper">
+	<item id="13477" type="Armor" name="歐瑞 射手頭箍">
 		<set name="icon" val="icon.accessory_pledge_hair6_i00" />
 		<set name="default_action" val="equip" />
 		<set name="bodypart" val="hairall" />
@@ -1350,7 +1350,7 @@
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
 	</item>
-	<item id="13478" type="Armor" name="Circlet of Gludio Sage">
+	<item id="13478" type="Armor" name="古魯丁 賢者頭箍">
 		<set name="icon" val="icon.accessory_pledge_hair7_i00" />
 		<set name="default_action" val="equip" />
 		<set name="bodypart" val="hairall" />
@@ -1362,7 +1362,7 @@
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
 	</item>
-	<item id="13479" type="Armor" name="Circlet of Rune Sage">
+	<item id="13479" type="Armor" name="魯因 賢者頭箍">
 		<set name="icon" val="icon.accessory_pledge_hair8_i00" />
 		<set name="default_action" val="equip" />
 		<set name="bodypart" val="hairall" />
@@ -1374,7 +1374,7 @@
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
 	</item>
-	<item id="13480" type="Armor" name="Circlet of Giran Sage">
+	<item id="13480" type="Armor" name="奇岩 賢者頭箍">
 		<set name="icon" val="icon.accessory_pledge_hair9_i00" />
 		<set name="default_action" val="equip" />
 		<set name="bodypart" val="hairall" />
@@ -1386,7 +1386,7 @@
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
 	</item>
-	<item id="13481" type="Armor" name="Circlet of Goddard Combat">
+	<item id="13481" type="Armor" name="高達特 鬥爭頭箍">
 		<set name="icon" val="icon.accessory_pledge_hair10_i00" />
 		<set name="default_action" val="equip" />
 		<set name="bodypart" val="hairall" />
@@ -1398,7 +1398,7 @@
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
 	</item>
-	<item id="13482" type="Armor" name="Circlet of Schuttgart Combat">
+	<item id="13482" type="Armor" name="修加特 鬥爭頭箍">
 		<set name="icon" val="icon.accessory_pledge_hair11_i00" />
 		<set name="default_action" val="equip" />
 		<set name="bodypart" val="hairall" />
@@ -1410,7 +1410,7 @@
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
 	</item>
-	<item id="13483" type="Armor" name="Circlet of Oren Combat">
+	<item id="13483" type="Armor" name="歐瑞 鬥爭頭箍">
 		<set name="icon" val="icon.accessory_pledge_hair12_i00" />
 		<set name="default_action" val="equip" />
 		<set name="bodypart" val="hairall" />
@@ -1422,7 +1422,7 @@
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
 	</item>
-	<item id="13484" type="Armor" name="Circlet of Gludio Silence">
+	<item id="13484" type="Armor" name="古魯丁 寧靜頭箍">
 		<set name="icon" val="icon.accessory_pledge_hair13_i00" />
 		<set name="default_action" val="equip" />
 		<set name="bodypart" val="hairall" />
@@ -1434,7 +1434,7 @@
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
 	</item>
-	<item id="13485" type="Armor" name="Circlet of Schuttgart Silence">
+	<item id="13485" type="Armor" name="修加特 寧靜頭箍">
 		<set name="icon" val="icon.accessory_pledge_hair14_i00" />
 		<set name="default_action" val="equip" />
 		<set name="bodypart" val="hairall" />
@@ -1446,7 +1446,7 @@
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
 	</item>
-	<item id="13486" type="Armor" name="Circlet of Aden Unity">
+	<item id="13486" type="Armor" name="亞丁 寧靜頭箍">
 		<set name="icon" val="icon.accessory_pledge_hair15_i00" />
 		<set name="default_action" val="equip" />
 		<set name="bodypart" val="hairall" />
@@ -1458,7 +1458,7 @@
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
 	</item>
-	<item id="13487" type="Armor" name="Circlet of Rune Silence">
+	<item id="13487" type="Armor" name="魯因 寧靜頭箍">
 		<set name="icon" val="icon.accessory_pledge_hair16_i00" />
 		<set name="default_action" val="equip" />
 		<set name="bodypart" val="hairall" />
@@ -1470,7 +1470,7 @@
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
 	</item>
-	<item id="13488" type="Armor" name="Birthday Hat">
+	<item id="13488" type="Armor" name="生日帽">
 		<set name="icon" val="icon.accessory_birthday_cap_i00" />
 		<set name="default_action" val="equip" />
 		<set name="bodypart" val="hairall" />
@@ -1479,7 +1479,7 @@
 		<set name="weight" val="10" />
 		<set name="price" val="2000000" />
 	</item>
-	<item id="13489" type="Armor" name="Halloween Hat">
+	<item id="13489" type="Armor" name="萬聖夜帽">
 		<set name="icon" val="icon.accessory_halloween_cap_i00" />
 		<set name="default_action" val="equip" />
 		<set name="bodypart" val="hairall" />
@@ -1488,7 +1488,7 @@
 		<set name="weight" val="10" />
 		<set name="price" val="2000000" />
 	</item>
-	<item id="13490" type="Armor" name="Arrow-Pierced Apple">
+	<item id="13490" type="Armor" name="穿箭蘋果">
 		<set name="icon" val="icon.accessory_arrow_apple_i00" />
 		<set name="default_action" val="equip" />
 		<set name="bodypart" val="hairall" />
@@ -1497,7 +1497,7 @@
 		<set name="weight" val="10" />
 		<set name="price" val="2000000" />
 	</item>
-	<item id="13491" type="Armor" name="Popped-Out Eye">
+	<item id="13491" type="Armor" name="跳跳眼">
 		<set name="icon" val="icon.accessory_beetle_eye_i00" />
 		<set name="default_action" val="equip" />
 		<set name="bodypart" val="hairall" />
@@ -1506,7 +1506,7 @@
 		<set name="weight" val="10" />
 		<set name="price" val="2000000" />
 	</item>
-	<item id="13492" type="Armor" name="Graduation Cap">
+	<item id="13492" type="Armor" name="學士帽">
 		<set name="icon" val="icon.accessory_graduation_cap_i00" />
 		<set name="default_action" val="equip" />
 		<set name="bodypart" val="hairall" />
@@ -1515,7 +1515,7 @@
 		<set name="weight" val="10" />
 		<set name="price" val="2000000" />
 	</item>
-	<item id="13493" type="Armor" name="Refined Carnival Circlet">
+	<item id="13493" type="Armor" name="時髦嘉年華頭箍">
 		<set name="icon" val="icon.accessory_carnival_circlet_i00" />
 		<set name="default_action" val="equip" />
 		<set name="bodypart" val="hairall" />
@@ -1524,7 +1524,7 @@
 		<set name="weight" val="10" />
 		<set name="price" val="2000000" />
 	</item>
-	<item id="13494" type="Armor" name="Refined Angel Ring">
+	<item id="13494" type="Armor" name="時髦天使戒指">
 		<set name="icon" val="icon.accessory_angel_ring_i00" />
 		<set name="default_action" val="equip" />
 		<set name="bodypart" val="hairall" />
@@ -1533,7 +1533,7 @@
 		<set name="weight" val="10" />
 		<set name="price" val="6000000" />
 	</item>
-	<item id="13495" type="Armor" name="Refined Devil Horn">
+	<item id="13495" type="Armor" name="時髦惡魔的角">
 		<set name="icon" val="icon.accessory_devil_horn_i00" />
 		<set name="default_action" val="equip" />
 		<set name="bodypart" val="hairall" />
@@ -1542,7 +1542,7 @@
 		<set name="weight" val="10" />
 		<set name="price" val="6000000" />
 	</item>
-	<item id="13496" type="Armor" name="Refined Pirate Hat">
+	<item id="13496" type="Armor" name="時髦船長帽">
 		<set name="icon" val="icon.accessory_captain_cap_i00" />
 		<set name="default_action" val="equip" />
 		<set name="bodypart" val="hairall" />
@@ -1551,7 +1551,7 @@
 		<set name="weight" val="10" />
 		<set name="price" val="6000000" />
 	</item>
-	<item id="13497" type="Armor" name="Refined Chick Hat">
+	<item id="13497" type="Armor" name="時髦小雞帽">
 		<set name="icon" val="icon.accessory_chicken_cap2_i00" />
 		<set name="default_action" val="equip" />
 		<set name="bodypart" val="hairall" />
@@ -1560,7 +1560,7 @@
 		<set name="weight" val="10" />
 		<set name="price" val="6000000" />
 	</item>
-	<item id="13498" type="Armor" name="Refined Wizard Hat">
+	<item id="13498" type="Armor" name="時髦法師帽">
 		<set name="icon" val="icon.accessory_magician_cap2_i00" />
 		<set name="default_action" val="equip" />
 		<set name="bodypart" val="hairall" />
@@ -1569,7 +1569,7 @@
 		<set name="weight" val="10" />
 		<set name="price" val="6000000" />
 	</item>
-	<item id="13499" type="Armor" name="Refined Jester Hat">
+	<item id="13499" type="Armor" name="時髦小丑帽">
 		<set name="icon" val="icon.accessory_jester_cap_2_i00" />
 		<set name="default_action" val="equip" />
 		<set name="bodypart" val="hairall" />

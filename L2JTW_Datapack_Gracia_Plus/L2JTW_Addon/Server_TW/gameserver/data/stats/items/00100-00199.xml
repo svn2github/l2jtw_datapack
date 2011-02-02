@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <list>
-	<item id="100" type="Weapon" name="Voodoo Doll">
+	<item id="100" type="Weapon" name="巫毒人偶">
 		<set name="icon" val="icon.weapon_voodoo_doll_i00" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="etc" />
@@ -24,7 +24,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="101" type="Weapon" name="Scroll of Wisdom">
+	<item id="101" type="Weapon" name="智慧卷軸">
 		<set name="icon" val="icon.weapon_scroll_of_wisdom_i00" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="etc" />
@@ -51,7 +51,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="102" type="Armor" name="Round Shield">
+	<item id="102" type="Armor" name="圓盾">
 		<set name="icon" val="icon.shield_round_shield_i00" />
 		<set name="default_action" val="equip" />
 		<set name="bodypart" val="lhand" />
@@ -68,7 +68,7 @@
 			<enchant val="0" order="0x0C" stat="sDef" />
 		</for>
 	</item>
-	<item id="103" type="Armor" name="Tower Shield">
+	<item id="103" type="Armor" name="塔盾">
 		<set name="icon" val="icon.shield_tower_shield_i00" />
 		<set name="default_action" val="equip" />
 		<set name="bodypart" val="lhand" />
@@ -88,7 +88,7 @@
 			<enchant val="0" order="0x0C" stat="sDef" />
 		</for>
 	</item>
-	<item id="104" type="Armor" name="Shield of Victory">
+	<item id="104" type="Armor" name="勝利盾">
 		<set name="icon" val="icon.shield_small_shield_i00" />
 		<set name="default_action" val="equip" />
 		<set name="bodypart" val="lhand" />
@@ -108,7 +108,7 @@
 			<enchant val="0" order="0x0C" stat="sDef" />
 		</for>
 	</item>
-	<item id="105" type="Armor" name="Implosion Shield">
+	<item id="105" type="Armor" name="毀滅盾">
 		<set name="icon" val="icon.shield_doom_shield_i00" />
 		<set name="default_action" val="equip" />
 		<set name="bodypart" val="lhand" />
@@ -128,7 +128,7 @@
 			<enchant val="0" order="0x0C" stat="sDef" />
 		</for>
 	</item>
-	<item id="106" type="Armor" name="Dark Dragon Shield">
+	<item id="106" type="Armor" name="闇龍盾">
 		<set name="icon" val="icon.shield_dark_dragon_shield_i00" />
 		<set name="default_action" val="equip" />
 		<set name="bodypart" val="lhand" />
@@ -148,7 +148,7 @@
 			<enchant val="0" order="0x0C" stat="sDef" />
 		</for>
 	</item>
-	<item id="107" type="Armor" name="Composite Shield">
+	<item id="107" type="Armor" name="合金盾">
 		<set name="icon" val="icon.shield_composite_shield_i00" />
 		<set name="default_action" val="equip" />
 		<set name="bodypart" val="lhand" />
@@ -168,7 +168,7 @@
 			<enchant val="0" order="0x0C" stat="sDef" />
 		</for>
 	</item>
-	<item id="108" type="Armor" name="Masterpiece Shield">
+	<item id="108" type="Armor" name="優質盾">
 		<set name="icon" val="icon.shield_masterpiece_shield_i00" />
 		<set name="default_action" val="equip" />
 		<set name="bodypart" val="lhand" />
@@ -188,7 +188,7 @@
 			<enchant val="0" order="0x0C" stat="sDef" />
 		</for>
 	</item>
-	<item id="109" type="Armor" name="Shield of Solar Eclipse">
+	<item id="109" type="Armor" name="日蝕盾">
 		<set name="icon" val="icon.shield_shield_of_sola_eclipse_i00" />
 		<set name="default_action" val="equip" />
 		<set name="bodypart" val="lhand" />
@@ -208,7 +208,7 @@
 			<enchant val="0" order="0x0C" stat="sDef" />
 		</for>
 	</item>
-	<item id="110" type="Armor" name="Doom Shield">
+	<item id="110" type="Armor" name="末日盾">
 		<set name="icon" val="icon.shield_doom_shield_i00" />
 		<set name="default_action" val="equip" />
 		<set name="bodypart" val="lhand" />
@@ -228,7 +228,7 @@
 			<enchant val="0" order="0x0C" stat="sDef" />
 		</for>
 	</item>
-	<item id="111" type="Armor" name="Shield of Pledge">
+	<item id="111" type="Armor" name="盟約盾">
 		<set name="icon" val="icon.shield_shield_of_pledge_i00" />
 		<set name="default_action" val="equip" />
 		<set name="bodypart" val="lhand" />
@@ -248,7 +248,7 @@
 			<enchant val="0" order="0x0C" stat="sDef" />
 		</for>
 	</item>
-	<item id="112" type="Armor" name="Apprentice's Earring">
+	<item id="112" type="Armor" name="見習生耳環">
 		<set name="icon" val="icon.accessary_apprentices_earing_i00" />
 		<set name="default_action" val="equip" />
 		<set name="bodypart" val="rear;lear" />
@@ -260,7 +260,7 @@
 			<add order="0x10" stat="mDef" val="11" />
 		</for>
 	</item>
-	<item id="113" type="Armor" name="Mystic's Earring">
+	<item id="113" type="Armor" name="法師耳環">
 		<set name="icon" val="icon.accessary_mage_earing_i00" />
 		<set name="default_action" val="equip" />
 		<set name="bodypart" val="rear;lear" />
@@ -272,7 +272,7 @@
 			<add order="0x10" stat="mDef" val="13" />
 		</for>
 	</item>
-	<item id="114" type="Armor" name="Earring of Strength">
+	<item id="114" type="Armor" name="力量耳環">
 		<set name="icon" val="icon.accessary_earing_of_strength_i00" />
 		<set name="default_action" val="equip" />
 		<set name="bodypart" val="rear;lear" />
@@ -284,7 +284,7 @@
 			<add order="0x10" stat="mDef" val="16" />
 		</for>
 	</item>
-	<item id="115" type="Armor" name="Earring of Wisdom">
+	<item id="115" type="Armor" name="智慧耳環">
 		<set name="icon" val="icon.accessary_earing_of_wisdom_i00" />
 		<set name="default_action" val="equip" />
 		<set name="bodypart" val="rear;lear" />
@@ -296,7 +296,7 @@
 			<add order="0x10" stat="mDef" val="16" />
 		</for>
 	</item>
-	<item id="116" type="Armor" name="Magic Ring">
+	<item id="116" type="Armor" name="魔法戒指">
 		<set name="icon" val="icon.accessary_magic_ring_i00" />
 		<set name="default_action" val="equip" />
 		<set name="bodypart" val="rfinger;lfinger" />
@@ -308,7 +308,7 @@
 			<add order="0x10" stat="mDef" val="7" />
 		</for>
 	</item>
-	<item id="117" type="Armor" name="Ring of Mana">
+	<item id="117" type="Armor" name="瑪那戒指">
 		<set name="icon" val="icon.accessary_ring_of_mana_i00" />
 		<set name="default_action" val="equip" />
 		<set name="bodypart" val="rfinger;lfinger" />
@@ -324,7 +324,7 @@
 			<enchant order="0x0C" stat="mDef" val="0" />
 		</for>
 	</item>
-	<item id="118" type="Armor" name="Necklace of Magic">
+	<item id="118" type="Armor" name="魔法項鍊">
 		<set name="icon" val="icon.accessary_necklace_of_magic_i00" />
 		<set name="default_action" val="equip" />
 		<set name="bodypart" val="neck" />
@@ -336,7 +336,7 @@
 			<add order="0x10" stat="mDef" val="15" />
 		</for>
 	</item>
-	<item id="119" type="Armor" name="Necklace of Binding">
+	<item id="119" type="Armor" name="封印項鍊">
 		<set name="icon" val="icon.accessary_necklace_of_binding_i00" />
 		<set name="default_action" val="equip" />
 		<set name="bodypart" val="neck" />
@@ -352,7 +352,7 @@
 			<enchant order="0x0C" stat="mDef" val="0" />
 		</for>
 	</item>
-	<item id="120" type="Weapon" name="Sword of Reflection">
+	<item id="120" type="Weapon" name="反射劍">
 		<set name="icon" val="icon.weapon_sword_of_watershadow_i00" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="sword" />
@@ -375,7 +375,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="121" type="Weapon" name="Sword of Watershadow">
+	<item id="121" type="Weapon" name="水影劍">
 		<set name="icon" val="icon.weapon_sword_of_watershadow_i00" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="sword" />
@@ -398,7 +398,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="122" type="Weapon" name="Handmade Sword">
+	<item id="122" type="Weapon" name="精鍛劍">
 		<set name="icon" val="icon.weapon_handmade_sword_i00" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="sword" />
@@ -421,7 +421,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="123" type="Weapon" name="Saber">
+	<item id="123" type="Weapon" name="軍刀">
 		<set name="icon" val="icon.weapon_saber_i00" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="sword" />
@@ -448,7 +448,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="124" type="Weapon" name="Two-Handed Sword">
+	<item id="124" type="Weapon" name="雙手劍">
 		<set name="icon" val="icon.weapon_two_handed_sword_i00" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="bigsword" />
@@ -475,7 +475,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="125" type="Weapon" name="Spinebone Sword">
+	<item id="125" type="Weapon" name="椎骨之劍">
 		<set name="icon" val="icon.weapon_spinebone_sword_i00" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="sword" />
@@ -502,7 +502,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="126" type="Weapon" name="Artisan's Sword">
+	<item id="126" type="Weapon" name="工匠之劍">
 		<set name="icon" val="icon.weapon_artisans_sword_i00" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="sword" />
@@ -529,7 +529,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="127" type="Weapon" name="Crimson Sword">
+	<item id="127" type="Weapon" name="緋紅劍">
 		<set name="icon" val="icon.weapon_crimson_sword_i00" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="sword" />
@@ -556,7 +556,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="128" type="Weapon" name="Knight's Sword">
+	<item id="128" type="Weapon" name="騎士劍">
 		<set name="icon" val="icon.weapon_knights_sword_i00" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="sword" />
@@ -583,7 +583,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="129" type="Weapon" name="Sword of Revolution">
+	<item id="129" type="Weapon" name="革命劍">
 		<set name="icon" val="icon.weapon_sword_of_revolution_i00" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="sword" />
@@ -610,7 +610,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="130" type="Weapon" name="Elven Sword">
+	<item id="130" type="Weapon" name="精靈劍">
 		<set name="icon" val="icon.weapon_elven_sword_i00" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="sword" />
@@ -637,7 +637,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="131" type="Weapon" name="Spirit Sword">
+	<item id="131" type="Weapon" name="靈魂之劍">
 		<set name="icon" val="icon.weapon_spirits_sword_i00" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="sword" />
@@ -664,7 +664,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="132" type="Weapon" name="Sword of Limit">
+	<item id="132" type="Weapon" name="極限之劍">
 		<set name="icon" val="icon.weapon_sword_of_limit_i00" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="sword" />
@@ -691,7 +691,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="133" type="Weapon" name="Raid Sword">
+	<item id="133" type="Weapon" name="襲擊劍">
 		<set name="icon" val="icon.weapon_raid_sword_i00" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="sword" />
@@ -718,7 +718,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="134" type="Weapon" name="Sword of Nightmare">
+	<item id="134" type="Weapon" name="夢魘劍">
 		<set name="icon" val="icon.weapon_sword_of_nightmare_i00" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="sword" />
@@ -745,7 +745,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="135" type="Weapon" name="Samurai Longsword">
+	<item id="135" type="Weapon" name="瑟魯基長劍">
 		<set name="icon" val="icon.weapon_samurai_longsword_i00" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="sword" />
@@ -772,7 +772,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="136" type="EtcItem" name="(Not In Use)">
+	<item id="136" type="EtcItem" name="(不使用)">
 		<set name="icon" val="icon.etc_pi_gift_box_i00" />
 		<set name="default_action" val="peel" />
 		<set name="immediate_effect" val="1" />
@@ -785,7 +785,7 @@
 		<set name="is_premium" val="true" />
 		<set name="capsuled_items" val="14075,1,1,100" />
 	</item>
-	<item id="137" type="EtcItem" name="(Not In Use)">
+	<item id="137" type="EtcItem" name="(不使用)">
 		<set name="icon" val="icon.etc_pi_gift_box_i00" />
 		<set name="default_action" val="peel" />
 		<set name="immediate_effect" val="1" />
@@ -798,7 +798,7 @@
 		<set name="is_premium" val="true" />
 		<set name="capsuled_items" val="14076,1,1,100" />
 	</item>
-	<item id="138" type="EtcItem" name="(Not In Use)">
+	<item id="138" type="EtcItem" name="(不使用)">
 		<set name="icon" val="icon.etc_pi_gift_box_i00" />
 		<set name="default_action" val="peel" />
 		<set name="immediate_effect" val="1" />
@@ -811,7 +811,7 @@
 		<set name="is_premium" val="true" />
 		<set name="capsuled_items" val="14077,1,1,100" />
 	</item>
-	<item id="139" type="EtcItem" name="Sudden Agathion 7 Day Pack">
+	<item id="139" type="EtcItem" name="怒氣壺精 7日/組">
 		<set name="icon" val="icon.etc_pi_gift_box_i02" />
 		<set name="default_action" val="peel" />
 		<set name="immediate_effect" val="1" />
@@ -825,7 +825,7 @@
 		<set name="handler" val="ExtractableItems" />
 		<set name="capsuled_items" val="14093,1,1,100" />
 	</item>
-	<item id="140" type="EtcItem" name="Shiny Agathion 7 Day Pack">
+	<item id="140" type="EtcItem" name="開心壺精 7日/組">
 		<set name="icon" val="icon.etc_pi_gift_box_i02" />
 		<set name="default_action" val="peel" />
 		<set name="immediate_effect" val="1" />
@@ -839,7 +839,7 @@
 		<set name="handler" val="ExtractableItems" />
 		<set name="capsuled_items" val="14094,1,1,100" />
 	</item>
-	<item id="141" type="EtcItem" name="Sobbing Agathion 7 Day Pack">
+	<item id="141" type="EtcItem" name="嗚咽壺精 7日/組">
 		<set name="icon" val="icon.etc_pi_gift_box_i02" />
 		<set name="default_action" val="peel" />
 		<set name="immediate_effect" val="1" />
@@ -853,7 +853,7 @@
 		<set name="handler" val="ExtractableItems" />
 		<set name="capsuled_items" val="14095,1,1,100" />
 	</item>
-	<item id="142" type="Weapon" name="Keshanberk">
+	<item id="142" type="Weapon" name="柯貝克劍">
 		<set name="icon" val="icon.weapon_kshanberk_i00" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="sword" />
@@ -880,7 +880,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="143" type="Weapon" name="Sword of Mystic">
+	<item id="143" type="Weapon" name="神祕劍">
 		<set name="icon" val="icon.weapon_sword_of_mystic_i00" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="sword" />
@@ -907,7 +907,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="144" type="Weapon" name="Sword of Occult">
+	<item id="144" type="Weapon" name="密術劍">
 		<set name="icon" val="icon.weapon_sword_of_occult_i00" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="sword" />
@@ -934,7 +934,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="145" type="Weapon" name="Sword of Whispering Death">
+	<item id="145" type="Weapon" name="死息之劍">
 		<set name="icon" val="icon.weapon_deathbreath_sword_i00" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="sword" />
@@ -961,7 +961,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="146" type="Weapon" name="Ghoulbane">
+	<item id="146" type="Weapon" name="食屍鬼之劍">
 		<set name="icon" val="icon.weapon_falchion_i00" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="sword" />
@@ -988,7 +988,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="147" type="Weapon" name="Tear of Darkness">
+	<item id="147" type="Weapon" name="黑暗之淚">
 		<set name="icon" val="icon.weapon_shamshir_i00" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="sword" />
@@ -1015,7 +1015,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="148" type="Weapon" name="Sword of Valhalla">
+	<item id="148" type="Weapon" name="聖堂之劍">
 		<set name="icon" val="icon.weapon_sword_of_valhalla_i00" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="sword" />
@@ -1042,7 +1042,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="149" type="Weapon" name="Sword of Life">
+	<item id="149" type="Weapon" name="生命之劍">
 		<set name="icon" val="icon.weapon_needle_wolverine_i00" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="sword" />
@@ -1069,7 +1069,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="150" type="Weapon" name="Elemental Sword">
+	<item id="150" type="Weapon" name="元素劍">
 		<set name="icon" val="icon.weapon_elemental_sword_i00" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="sword" />
@@ -1096,7 +1096,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="151" type="Weapon" name="Sword of Miracles">
+	<item id="151" type="Weapon" name="奇蹟劍">
 		<set name="icon" val="icon.weapon_sword_of_miracle_i00" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="sword" />
@@ -1123,7 +1123,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="152" type="Weapon" name="Heavy Chisel">
+	<item id="152" type="Weapon" name="重鑿刀">
 		<set name="icon" val="icon.weapon_heavy_chisel_i00" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="blunt" />
@@ -1148,7 +1148,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="153" type="Weapon" name="Sigil">
+	<item id="153" type="Weapon" name="鐮刀">
 		<set name="icon" val="icon.weapon_sickle_i00" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="blunt" />
@@ -1173,7 +1173,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="154" type="Weapon" name="Dwarven Mace">
+	<item id="154" type="Weapon" name="矮人釘鎚">
 		<set name="icon" val="icon.weapon_dwarven_mace_i00" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="blunt" />
@@ -1198,7 +1198,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="155" type="Weapon" name="Flanged Mace">
+	<item id="155" type="Weapon" name="魔鎚">
 		<set name="icon" val="icon.weapon_buzdygan_i00" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="blunt" />
@@ -1223,7 +1223,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="156" type="Weapon" name="Hand Axe">
+	<item id="156" type="Weapon" name="手斧">
 		<set name="icon" val="icon.weapon_hand_axe_i00" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="blunt" />
@@ -1251,7 +1251,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="157" type="Weapon" name="Spiked Club">
+	<item id="157" type="Weapon" name="狼牙棒">
 		<set name="icon" val="icon.weapon_spike_club_i00" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="blunt" />
@@ -1279,7 +1279,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="158" type="Weapon" name="Tarbar">
+	<item id="158" type="Weapon" name="塔巴曲刃斧">
 		<set name="icon" val="icon.weapon_tarbar_i00" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="blunt" />
@@ -1307,7 +1307,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="159" type="Weapon" name="Bonebreaker">
+	<item id="159" type="Weapon" name="碎骨者">
 		<set name="icon" val="icon.weapon_bonebreaker_i00" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="blunt" />
@@ -1335,7 +1335,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="160" type="Weapon" name="Battle Axe">
+	<item id="160" type="Weapon" name="戰斧">
 		<set name="icon" val="icon.weapon_battle_axe_i00" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="blunt" />
@@ -1363,7 +1363,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="161" type="Weapon" name="Silver Axe">
+	<item id="161" type="Weapon" name="戰錐">
 		<set name="icon" val="icon.weapon_war_pick_i00" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="blunt" />
@@ -1391,7 +1391,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="162" type="Weapon" name="War Axe">
+	<item id="162" type="Weapon" name="巨戰斧">
 		<set name="icon" val="icon.weapon_war_axe_i00" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="blunt" />
@@ -1419,7 +1419,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="163" type="EtcItem" name="(Not In Use)">
+	<item id="163" type="EtcItem" name="(不使用)">
 		<set name="icon" val="icon.etc_pi_gift_box_i00" />
 		<set name="default_action" val="peel" />
 		<set name="immediate_effect" val="1" />
@@ -1432,7 +1432,7 @@
 		<set name="is_premium" val="true" />
 		<set name="capsuled_items" val="13026,1,1,100" />
 	</item>
-	<item id="164" type="Weapon" name="Elysian">
+	<item id="164" type="Weapon" name="樂園">
 		<set name="icon" val="icon.weapon_elysian_i00" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="blunt" />
@@ -1460,7 +1460,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="165" type="Weapon" name="Yablonski's Hammer">
+	<item id="165" type="Weapon" name="海魯門之鎚">
 		<set name="icon" val="icon.weapon_basalt_battlehammer_i00" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="blunt" />
@@ -1488,7 +1488,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="166" type="Weapon" name="Heavy Mace">
+	<item id="166" type="Weapon" name="巨大釘鎚">
 		<set name="icon" val="icon.weapon_heavy_mace_i00" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="blunt" />
@@ -1516,7 +1516,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="167" type="Weapon" name="Scalpel">
+	<item id="167" type="Weapon" name="解剖刀">
 		<set name="icon" val="icon.weapon_scalpel_i00" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="blunt" />
@@ -1544,7 +1544,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="168" type="Weapon" name="Work Hammer">
+	<item id="168" type="Weapon" name="工作鎚">
 		<set name="icon" val="icon.weapon_work_hammer_i00" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="blunt" />
@@ -1572,7 +1572,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="169" type="Weapon" name="Skull Breaker">
+	<item id="169" type="Weapon" name="頭顱破壞者">
 		<set name="icon" val="icon.weapon_skull_breaker_i00" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="blunt" />
@@ -1600,7 +1600,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="170" type="EtcItem" name="Sudden Agathion 7 Day Pack (Event)">
+	<item id="170" type="EtcItem" name="怒氣壺精 7日/組-活動用">
 		<set name="icon" val="icon.etc_pi_gift_box_i02" />
 		<set name="default_action" val="peel" />
 		<set name="immediate_effect" val="1" />
@@ -1614,7 +1614,7 @@
 		<set name="handler" val="ExtractableItems" />
 		<set name="capsuled_items" val="14101,1,1,100" />
 	</item>
-	<item id="171" type="Weapon" name="Deadman's Glory">
+	<item id="171" type="Weapon" name="亡者榮譽">
 		<set name="icon" val="icon.weapon_deadmans_glory_i00" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="blunt" />
@@ -1642,7 +1642,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="172" type="Weapon" name="Heavy Bone Club">
+	<item id="172" type="Weapon" name="巨大骨棒">
 		<set name="icon" val="icon.weapon_heavy_bone_club_i00" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="blunt" />
@@ -1670,7 +1670,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="173" type="Weapon" name="Skull Graver">
+	<item id="173" type="Weapon" name="顱骨雕刻者">
 		<set name="icon" val="icon.weapon_skull_graver_i00" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="blunt" />
@@ -1698,7 +1698,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="174" type="Weapon" name="Nirvana Axe">
+	<item id="174" type="Weapon" name="夢想斧">
 		<set name="icon" val="icon.weapon_nirvana_axe_i00" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="blunt" />
@@ -1727,7 +1727,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="175" type="Weapon" name="Art of Battle Axe">
+	<item id="175" type="Weapon" name="工藝戰斧">
 		<set name="icon" val="icon.weapon_art_of_battle_axe_i00" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="blunt" />
@@ -1755,7 +1755,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="176" type="Weapon" name="Journeyman's Staff">
+	<item id="176" type="Weapon" name="見習生魔杖">
 		<set name="icon" val="icon.weapon_apprentices_staff_i00" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="bigblunt" />
@@ -1781,7 +1781,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="177" type="Weapon" name="Mage Staff">
+	<item id="177" type="Weapon" name="法師魔杖">
 		<set name="icon" val="icon.weapon_apprentices_staff_i00" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="bigblunt" />
@@ -1807,7 +1807,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="178" type="Weapon" name="Bone Staff">
+	<item id="178" type="Weapon" name="骨頭魔杖">
 		<set name="icon" val="icon.weapon_apprentices_staff_i00" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="bigblunt" />
@@ -1836,7 +1836,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="179" type="Weapon" name="Mace of Prayer">
+	<item id="179" type="Weapon" name="祈禱者之鎚">
 		<set name="icon" val="icon.weapon_mace_of_prayer_i00" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="blunt" />
@@ -1865,7 +1865,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="180" type="Weapon" name="Mace of Judgment">
+	<item id="180" type="Weapon" name="審判之鎚">
 		<set name="icon" val="icon.weapon_mace_of_judgment_i00" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="blunt" />
@@ -1894,7 +1894,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="181" type="Weapon" name="Mace of Miracle">
+	<item id="181" type="Weapon" name="奇蹟之鎚">
 		<set name="icon" val="icon.weapon_mace_of_miracle_i00" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="blunt" />
@@ -1923,7 +1923,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="182" type="Weapon" name="Doom Hammer">
+	<item id="182" type="Weapon" name="末日之鎚">
 		<set name="icon" val="icon.weapon_doom_hammer_i00" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="blunt" />
@@ -1952,7 +1952,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="183" type="Weapon" name="Mystic Staff">
+	<item id="183" type="Weapon" name="神祕魔杖">
 		<set name="icon" val="icon.weapon_mystic_staff_i00" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="bigblunt" />
@@ -1981,7 +1981,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="184" type="Weapon" name="Conjuror's Staff">
+	<item id="184" type="Weapon" name="法咒魔杖">
 		<set name="icon" val="icon.weapon_conjure_staff_i00" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="bigblunt" />
@@ -2010,7 +2010,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="185" type="Weapon" name="Staff of Mana">
+	<item id="185" type="Weapon" name="瑪那魔杖">
 		<set name="icon" val="icon.weapon_staff_of_mana_i00" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="bigblunt" />
@@ -2039,7 +2039,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="186" type="Weapon" name="Staff of Magic">
+	<item id="186" type="Weapon" name="巫術魔杖">
 		<set name="icon" val="icon.weapon_staff_of_magicpower_i00" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="bigblunt" />
@@ -2068,7 +2068,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="187" type="Weapon" name="Atuba Hammer">
+	<item id="187" type="Weapon" name="阿吐巴鎚">
 		<set name="icon" val="icon.weapon_atuba_hammer_i00" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="bigblunt" />
@@ -2097,7 +2097,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="188" type="Weapon" name="Ghost Staff">
+	<item id="188" type="Weapon" name="魂靈魔杖">
 		<set name="icon" val="icon.weapon_ghost_staff_i00" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="bigblunt" />
@@ -2126,7 +2126,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="189" type="Weapon" name="Staff of Life">
+	<item id="189" type="Weapon" name="生命手杖">
 		<set name="icon" val="icon.weapon_life_stick_i00" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="blunt" />
@@ -2155,7 +2155,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="190" type="Weapon" name="Atuba Mace">
+	<item id="190" type="Weapon" name="阿吐巴釘鎚">
 		<set name="icon" val="icon.weapon_atuba_mace_i00" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="bigblunt" />
@@ -2184,7 +2184,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="191" type="Weapon" name="Heavy Doom Hammer">
+	<item id="191" type="Weapon" name="巨大末日鎚">
 		<set name="icon" val="icon.weapon_heavy_doom_hammer_i00" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="bigblunt" />
@@ -2213,7 +2213,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="192" type="Weapon" name="Crystal Staff">
+	<item id="192" type="Weapon" name="水晶魔杖">
 		<set name="icon" val="icon.weapon_crystal_staff_i00" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="bigblunt" />
@@ -2242,7 +2242,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="193" type="Weapon" name="Stick of Faith">
+	<item id="193" type="Weapon" name="信仰手杖">
 		<set name="icon" val="icon.weapon_stick_of_faith_i00" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="blunt" />
@@ -2271,7 +2271,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="194" type="Weapon" name="Heavy Doom Axe">
+	<item id="194" type="Weapon" name="巨大末日斧">
 		<set name="icon" val="icon.weapon_heavy_doom_axe_i00" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="bigblunt" />
@@ -2300,7 +2300,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="195" type="Weapon" name="Cursed Staff">
+	<item id="195" type="Weapon" name="受詛咒的魔杖">
 		<set name="icon" val="icon.weapon_cursed_staff_i00" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="bigblunt" />
@@ -2329,7 +2329,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="196" type="Weapon" name="Stick of Eternity">
+	<item id="196" type="Weapon" name="永恆手杖">
 		<set name="icon" val="icon.weapon_stick_of_eternity_i00" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="blunt" />
@@ -2358,7 +2358,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="197" type="Weapon" name="Paradia Staff">
+	<item id="197" type="Weapon" name="佩勒迪亞魔杖">
 		<set name="icon" val="icon.weapon_paradia_staff_i00" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="bigblunt" />
@@ -2387,7 +2387,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="198" type="Weapon" name="Inferno Staff">
+	<item id="198" type="Weapon" name="地獄魔杖">
 		<set name="icon" val="icon.weapon_inferno_staff_i00" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="bigblunt" />
@@ -2416,7 +2416,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="199" type="Weapon" name="Pa'agrian Hammer">
+	<item id="199" type="Weapon" name="帕格立歐之鎚">
 		<set name="icon" val="icon.weapon_paagrio_hammer_i00" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="bigblunt" />

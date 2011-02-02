@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <list>
-	<item id="5300" type="Armor" name="Sealed Boots of the Underworld">
+	<item id="5300" type="Armor" name="封印的煉獄靴">
 		<set name="icon" val="icon.armor_t10_b_i00" />
 		<set name="default_action" val="equip" />
 		<set name="bodypart" val="feet" />
@@ -16,7 +16,7 @@
 			<enchant order="0x0C" stat="pDef" val="0" />
 		</for>
 	</item>
-	<item id="5301" type="Armor" name="Sealed Tallum Leather Armor">
+	<item id="5301" type="Armor" name="封印的塔魯皮甲">
 		<set name="icon" val="icon.armor_t78_ul_i02" />
 		<set name="default_action" val="equip" />
 		<set name="armor_type" val="light" />
@@ -33,7 +33,7 @@
 			<enchant order="0x0C" stat="pDef" val="0" />
 		</for>
 	</item>
-	<item id="5302" type="Armor" name="Sealed Gust Bracer">
+	<item id="5302" type="Armor" name="封印的勁風手套">
 		<set name="icon" val="icon.armor_t45_g_i00" />
 		<set name="default_action" val="equip" />
 		<set name="bodypart" val="gloves" />
@@ -49,7 +49,7 @@
 			<enchant order="0x0C" stat="pDef" val="0" />
 		</for>
 	</item>
-	<item id="5303" type="Armor" name="Sealed Gust Boots">
+	<item id="5303" type="Armor" name="封印的勁風靴">
 		<set name="icon" val="icon.armor_t45_b_i00" />
 		<set name="default_action" val="equip" />
 		<set name="bodypart" val="feet" />
@@ -65,7 +65,7 @@
 			<enchant order="0x0C" stat="pDef" val="0" />
 		</for>
 	</item>
-	<item id="5304" type="Armor" name="Sealed Tallum Tunic">
+	<item id="5304" type="Armor" name="封印的塔魯外衣">
 		<set name="icon" val="icon.armor_t79_u_i02" />
 		<set name="default_action" val="equip" />
 		<set name="armor_type" val="magic" />
@@ -84,7 +84,7 @@
 			<enchant order="0x0C" stat="pDef" val="0" />
 		</for>
 	</item>
-	<item id="5305" type="Armor" name="Sealed Tallum Stockings">
+	<item id="5305" type="Armor" name="封印的塔魯長襪">
 		<set name="icon" val="icon.armor_t79_l_i02" />
 		<set name="default_action" val="equip" />
 		<set name="armor_type" val="magic" />
@@ -103,7 +103,7 @@
 			<enchant order="0x0C" stat="pDef" val="0" />
 		</for>
 	</item>
-	<item id="5306" type="Armor" name="Sealed Gloves of Black Ore">
+	<item id="5306" type="Armor" name="封印的黑光手套">
 		<set name="icon" val="icon.armor_t14_g_i00" />
 		<set name="default_action" val="equip" />
 		<set name="bodypart" val="gloves" />
@@ -119,7 +119,7 @@
 			<enchant order="0x0C" stat="pDef" val="0" />
 		</for>
 	</item>
-	<item id="5307" type="Armor" name="Sealed Red Flame Boots">
+	<item id="5307" type="Armor" name="封印的黑光靴">
 		<set name="icon" val="icon.armor_t14_b_i00" />
 		<set name="default_action" val="equip" />
 		<set name="bodypart" val="feet" />
@@ -135,7 +135,7 @@
 			<enchant order="0x0C" stat="pDef" val="0" />
 		</for>
 	</item>
-	<item id="5308" type="Armor" name="Sealed Dark Crystal Robe">
+	<item id="5308" type="Armor" name="封印的黑暗水晶長袍">
 		<set name="icon" val="icon.armor_t76_ul_i02" />
 		<set name="default_action" val="equip" />
 		<set name="armor_type" val="magic" />
@@ -154,7 +154,7 @@
 			<enchant order="0x0C" stat="pDef" val="0" />
 		</for>
 	</item>
-	<item id="5309" type="Armor" name="Sealed Phoenix Gloves">
+	<item id="5309" type="Armor" name="封印的不死鳥手套">
 		<set name="icon" val="icon.armor_t44_g_i00" />
 		<set name="default_action" val="equip" />
 		<set name="bodypart" val="gloves" />
@@ -170,7 +170,7 @@
 			<enchant order="0x0C" stat="pDef" val="0" />
 		</for>
 	</item>
-	<item id="5310" type="Armor" name="Sealed Phoenix Boots">
+	<item id="5310" type="Armor" name="封印的不死鳥靴">
 		<set name="icon" val="icon.armor_t44_b_i00" />
 		<set name="default_action" val="equip" />
 		<set name="bodypart" val="feet" />
@@ -186,7 +186,7 @@
 			<enchant order="0x0C" stat="pDef" val="0" />
 		</for>
 	</item>
-	<item id="5311" type="Armor" name="Sealed Armor of Nightmare">
+	<item id="5311" type="Armor" name="封印的夢魘盔甲">
 		<set name="icon" val="icon.armor_t80_ul_i02" />
 		<set name="default_action" val="equip" />
 		<set name="armor_type" val="heavy" />
@@ -204,7 +204,7 @@
 			<enchant order="0x0C" stat="pDef" val="0" />
 		</for>
 	</item>
-	<item id="5312" type="Armor" name="Sealed Helm of Nightmare">
+	<item id="5312" type="Armor" name="封印的夢魘頭盔">
 		<set name="icon" val="icon.armor_leather_helmet_i02" />
 		<set name="default_action" val="equip" />
 		<set name="bodypart" val="head" />
@@ -220,7 +220,7 @@
 			<enchant order="0x0C" stat="pDef" val="0" />
 		</for>
 	</item>
-	<item id="5313" type="Armor" name="Sealed Gauntlets of Nightmare">
+	<item id="5313" type="Armor" name="封印的夢魘手套">
 		<set name="icon" val="icon.armor_t80_g_i02" />
 		<set name="default_action" val="equip" />
 		<set name="bodypart" val="gloves" />
@@ -236,7 +236,7 @@
 			<enchant order="0x0C" stat="pDef" val="0" />
 		</for>
 	</item>
-	<item id="5314" type="Armor" name="Sealed Boots of Nightmare">
+	<item id="5314" type="Armor" name="封印的夢魘靴">
 		<set name="icon" val="icon.armor_t80_b_i02" />
 		<set name="default_action" val="equip" />
 		<set name="bodypart" val="feet" />
@@ -252,7 +252,7 @@
 			<enchant order="0x0C" stat="pDef" val="0" />
 		</for>
 	</item>
-	<item id="5315" type="Armor" name="Sealed Shield of Nightmare">
+	<item id="5315" type="Armor" name="封印的夢魘盾">
 		<set name="icon" val="icon.shield_shield_of_nightmare_i02" />
 		<set name="default_action" val="equip" />
 		<set name="bodypart" val="lhand" />
@@ -272,7 +272,7 @@
 			<enchant val="0" order="0x0C" stat="sDef" />
 		</for>
 	</item>
-	<item id="5316" type="Armor" name="Sealed Majestic Plate Armor">
+	<item id="5316" type="Armor" name="封印的聖威金屬盔甲">
 		<set name="icon" val="icon.armor_t83_ul_i02" />
 		<set name="default_action" val="equip" />
 		<set name="armor_type" val="heavy" />
@@ -290,7 +290,7 @@
 			<enchant order="0x0C" stat="pDef" val="0" />
 		</for>
 	</item>
-	<item id="5317" type="Armor" name="Sealed Majestic Circlet">
+	<item id="5317" type="Armor" name="封印的聖威頭箍">
 		<set name="icon" val="icon.armor_leather_helmet_i02" />
 		<set name="default_action" val="equip" />
 		<set name="bodypart" val="head" />
@@ -306,7 +306,7 @@
 			<enchant order="0x0C" stat="pDef" val="0" />
 		</for>
 	</item>
-	<item id="5318" type="Armor" name="Sealed Majestic Gauntlets">
+	<item id="5318" type="Armor" name="封印的聖威手套">
 		<set name="icon" val="icon.armor_t83_g_i02" />
 		<set name="default_action" val="equip" />
 		<set name="bodypart" val="gloves" />
@@ -322,7 +322,7 @@
 			<enchant order="0x0C" stat="pDef" val="0" />
 		</for>
 	</item>
-	<item id="5319" type="Armor" name="Sealed Majestic Boots">
+	<item id="5319" type="Armor" name="封印的聖威靴">
 		<set name="icon" val="icon.armor_t83_b_i02" />
 		<set name="default_action" val="equip" />
 		<set name="bodypart" val="feet" />
@@ -338,7 +338,7 @@
 			<enchant order="0x0C" stat="pDef" val="0" />
 		</for>
 	</item>
-	<item id="5320" type="Armor" name="Sealed Leather Armor of Nightmare">
+	<item id="5320" type="Armor" name="封印的夢魘皮甲">
 		<set name="icon" val="icon.armor_t81_ul_i02" />
 		<set name="default_action" val="equip" />
 		<set name="armor_type" val="light" />
@@ -355,7 +355,7 @@
 			<enchant order="0x0C" stat="pDef" val="0" />
 		</for>
 	</item>
-	<item id="5321" type="Armor" name="Sealed Dark Legion Gloves">
+	<item id="5321" type="Armor" name="封印的黑暗軍手套">
 		<set name="icon" val="icon.armor_t45_g_i00" />
 		<set name="default_action" val="equip" />
 		<set name="bodypart" val="gloves" />
@@ -371,7 +371,7 @@
 			<enchant order="0x0C" stat="pDef" val="0" />
 		</for>
 	</item>
-	<item id="5322" type="Armor" name="Sealed Dark Legion Boots">
+	<item id="5322" type="Armor" name="封印的黑暗軍靴">
 		<set name="icon" val="icon.armor_t45_b_i00" />
 		<set name="default_action" val="equip" />
 		<set name="bodypart" val="feet" />
@@ -387,7 +387,7 @@
 			<enchant order="0x0C" stat="pDef" val="0" />
 		</for>
 	</item>
-	<item id="5323" type="Armor" name="Sealed Majestic Leather Armor">
+	<item id="5323" type="Armor" name="封印的聖威皮甲">
 		<set name="icon" val="icon.armor_t84_ul_i02" />
 		<set name="default_action" val="equip" />
 		<set name="armor_type" val="light" />
@@ -404,7 +404,7 @@
 			<enchant order="0x0C" stat="pDef" val="0" />
 		</for>
 	</item>
-	<item id="5324" type="Armor" name="Sealed Gloves of Phantom">
+	<item id="5324" type="Armor" name="封印的幻影手套">
 		<set name="icon" val="icon.armor_t45_g_i00" />
 		<set name="default_action" val="equip" />
 		<set name="bodypart" val="gloves" />
@@ -420,7 +420,7 @@
 			<enchant order="0x0C" stat="pDef" val="0" />
 		</for>
 	</item>
-	<item id="5325" type="Armor" name="Sealed Boots of Phantom">
+	<item id="5325" type="Armor" name="封印的幻影靴">
 		<set name="icon" val="icon.armor_t45_b_i00" />
 		<set name="default_action" val="equip" />
 		<set name="bodypart" val="feet" />
@@ -436,7 +436,7 @@
 			<enchant order="0x0C" stat="pDef" val="0" />
 		</for>
 	</item>
-	<item id="5326" type="Armor" name="Sealed Nightmare Robe">
+	<item id="5326" type="Armor" name="封印的夢魘長袍">
 		<set name="icon" val="icon.armor_t82_ul_i02" />
 		<set name="default_action" val="equip" />
 		<set name="armor_type" val="magic" />
@@ -455,7 +455,7 @@
 			<enchant order="0x0C" stat="pDef" val="0" />
 		</for>
 	</item>
-	<item id="5327" type="Armor" name="Sealed Cerberus Gloves">
+	<item id="5327" type="Armor" name="封印的地獄犬手套">
 		<set name="icon" val="icon.armor_t44_g_i00" />
 		<set name="default_action" val="equip" />
 		<set name="bodypart" val="gloves" />
@@ -471,7 +471,7 @@
 			<enchant order="0x0C" stat="pDef" val="0" />
 		</for>
 	</item>
-	<item id="5328" type="Armor" name="Sealed Cerberus Boots">
+	<item id="5328" type="Armor" name="封印的地獄犬靴">
 		<set name="icon" val="icon.armor_t44_b_i00" />
 		<set name="default_action" val="equip" />
 		<set name="bodypart" val="feet" />
@@ -487,7 +487,7 @@
 			<enchant order="0x0C" stat="pDef" val="0" />
 		</for>
 	</item>
-	<item id="5329" type="Armor" name="Sealed Majestic Robe">
+	<item id="5329" type="Armor" name="封印的聖威長袍">
 		<set name="icon" val="icon.armor_t85_ul_i02" />
 		<set name="default_action" val="equip" />
 		<set name="armor_type" val="magic" />
@@ -506,7 +506,7 @@
 			<enchant order="0x0C" stat="pDef" val="0" />
 		</for>
 	</item>
-	<item id="5330" type="Armor" name="Sealed Dasparion's Gloves">
+	<item id="5330" type="Armor" name="封印的帕黎恩手套">
 		<set name="icon" val="icon.armor_t44_g_i00" />
 		<set name="default_action" val="equip" />
 		<set name="bodypart" val="gloves" />
@@ -522,7 +522,7 @@
 			<enchant order="0x0C" stat="pDef" val="0" />
 		</for>
 	</item>
-	<item id="5331" type="Armor" name="Sealed Dasparion's Boots">
+	<item id="5331" type="Armor" name="封印的帕黎恩靴">
 		<set name="icon" val="icon.armor_t44_b_i00" />
 		<set name="bodypart" val="feet" />
 		<set name="immediate_effect" val="1" />
@@ -537,7 +537,7 @@
 			<enchant order="0x0C" stat="pDef" val="0" />
 		</for>
 	</item>
-	<item id="5332" type="EtcItem" name="Recipe: Sealed Dark Crystal Leather Armor(60%)">
+	<item id="5332" type="EtcItem" name="製作卷軸(封印的黑暗水晶皮甲60%)">
 		<set name="icon" val="icon.etc_recipe_violet_i00" />
 		<set name="default_action" val="recipe" />
 		<set name="etcitem_type" val="recipe" />
@@ -552,7 +552,7 @@
 			<add order="0x10" stat="pDef" val="49" />
 		</for>
 	</item>
-	<item id="5333" type="EtcItem" name="Recipe: Sealed Dark Crystal Leather Armor(100%)">
+	<item id="5333" type="EtcItem" name="製作卷軸(封印的黑暗水晶皮甲100%)">
 		<set name="icon" val="icon.etc_recipe_violet_i00" />
 		<set name="default_action" val="recipe" />
 		<set name="etcitem_type" val="recipe" />
@@ -567,7 +567,7 @@
 			<add order="0x10" stat="pDef" val="49" />
 		</for>
 	</item>
-	<item id="5334" type="EtcItem" name="Recipe: Sealed Tallum Leather Armor(60%)">
+	<item id="5334" type="EtcItem" name="製作卷軸(封印的塔魯皮甲60%)">
 		<set name="icon" val="icon.etc_recipe_violet_i00" />
 		<set name="default_action" val="recipe" />
 		<set name="etcitem_type" val="recipe" />
@@ -582,7 +582,7 @@
 			<add order="0x10" stat="pDef" val="49" />
 		</for>
 	</item>
-	<item id="5335" type="EtcItem" name="Recipe: Sealed Tallum Leather Armor(100%)">
+	<item id="5335" type="EtcItem" name="製作卷軸(封印的塔魯皮甲100%)">
 		<set name="icon" val="icon.etc_recipe_violet_i00" />
 		<set name="default_action" val="recipe" />
 		<set name="etcitem_type" val="recipe" />
@@ -597,7 +597,7 @@
 			<add order="0x10" stat="pDef" val="49" />
 		</for>
 	</item>
-	<item id="5336" type="EtcItem" name="Recipe: Sealed Leather Armor of Nightmare(60%)">
+	<item id="5336" type="EtcItem" name="製作卷軸(封印的夢魘皮甲60%)">
 		<set name="icon" val="icon.etc_recipe_violet_i00" />
 		<set name="default_action" val="recipe" />
 		<set name="etcitem_type" val="recipe" />
@@ -612,7 +612,7 @@
 			<add order="0x10" stat="pDef" val="49" />
 		</for>
 	</item>
-	<item id="5337" type="EtcItem" name="Recipe: Sealed Leather Armor of Nightmare(100%)">
+	<item id="5337" type="EtcItem" name="製作卷軸(封印的夢魘皮甲100%)">
 		<set name="icon" val="icon.etc_recipe_violet_i00" />
 		<set name="default_action" val="recipe" />
 		<set name="etcitem_type" val="recipe" />
@@ -627,7 +627,7 @@
 			<add order="0x10" stat="pDef" val="49" />
 		</for>
 	</item>
-	<item id="5338" type="EtcItem" name="Recipe: Sealed Majestic Leather Armor(60%)">
+	<item id="5338" type="EtcItem" name="製作卷軸(封印的聖威皮甲60%)">
 		<set name="icon" val="icon.etc_recipe_violet_i00" />
 		<set name="default_action" val="recipe" />
 		<set name="etcitem_type" val="recipe" />
@@ -642,7 +642,7 @@
 			<add order="0x10" stat="pDef" val="49" />
 		</for>
 	</item>
-	<item id="5339" type="EtcItem" name="Recipe: Sealed Majestic Leather Armor(100%)">
+	<item id="5339" type="EtcItem" name="製作卷軸(封印的聖威皮甲100%)">
 		<set name="icon" val="icon.etc_recipe_violet_i00" />
 		<set name="default_action" val="recipe" />
 		<set name="etcitem_type" val="recipe" />
@@ -657,7 +657,7 @@
 			<add order="0x10" stat="pDef" val="49" />
 		</for>
 	</item>
-	<item id="5340" type="EtcItem" name="Recipe: Sealed Dark Crystal Leggings(60%)">
+	<item id="5340" type="EtcItem" name="製作卷軸(封印的黑暗水晶皮脛甲60%)">
 		<set name="icon" val="icon.etc_recipe_violet_i00" />
 		<set name="default_action" val="recipe" />
 		<set name="etcitem_type" val="recipe" />
@@ -672,7 +672,7 @@
 			<add order="0x10" stat="pDef" val="49" />
 		</for>
 	</item>
-	<item id="5341" type="EtcItem" name="Recipe: Sealed Dark Crystal Leggings(100%)">
+	<item id="5341" type="EtcItem" name="製作卷軸(封印的黑暗水晶皮脛甲100%)">
 		<set name="icon" val="icon.etc_recipe_violet_i00" />
 		<set name="default_action" val="recipe" />
 		<set name="etcitem_type" val="recipe" />
@@ -687,7 +687,7 @@
 			<add order="0x10" stat="pDef" val="49" />
 		</for>
 	</item>
-	<item id="5342" type="EtcItem" name="Echo Crystal - Sad Song">
+	<item id="5342" type="EtcItem" name="回聲水晶-大悲咒">
 		<set name="icon" val="icon.etc_recipe_blue_i00" />
 		<set name="default_action" val="skill_reduce" />
 		<set name="immediate_effect" val="1" />
@@ -697,7 +697,7 @@
 		<set name="is_stackable" val="true" />
 		<set name="item_skill" val="2584-1" />
 	</item>
-	<item id="5343" type="EtcItem" name="Echo Crystal - Holy Song">
+	<item id="5343" type="EtcItem" name="回聲水晶-聖歌">
 		<set name="icon" val="icon.etc_recipe_blue_i00" />
 		<set name="default_action" val="skill_reduce" />
 		<set name="immediate_effect" val="1" />
@@ -707,7 +707,7 @@
 		<set name="is_stackable" val="true" />
 		<set name="item_skill" val="2585-1" />
 	</item>
-	<item id="5344" type="EtcItem" name="Recipe: Inferno Earring(70%)">
+	<item id="5344" type="EtcItem" name="(無用)製作卷軸(聖威耳環70%)">
 		<set name="icon" val="icon.etc_recipe_blue_i00" />
 		<set name="material" val="paper" />
 		<set name="weight" val="20" />
@@ -715,7 +715,7 @@
 		<set name="is_stackable" val="true" />
 		<set name="item_skill" val="2097-1" />
 	</item>
-	<item id="5345" type="EtcItem" name="Recipe: Inferno Earring(70%)">
+	<item id="5345" type="EtcItem" name="(無用)製作卷軸(聖威耳環100%)">
 		<set name="icon" val="icon.etc_recipe_blue_i00" />
 		<set name="material" val="paper" />
 		<set name="weight" val="20" />
@@ -723,7 +723,7 @@
 		<set name="is_stackable" val="true" />
 		<set name="item_skill" val="2097-1" />
 	</item>
-	<item id="5346" type="EtcItem" name="Recipe: Sealed Tallum Tunic(60%)">
+	<item id="5346" type="EtcItem" name="製作卷軸(封印的塔魯外衣60%)">
 		<set name="icon" val="icon.etc_recipe_violet_i00" />
 		<set name="default_action" val="recipe" />
 		<set name="etcitem_type" val="recipe" />
@@ -738,7 +738,7 @@
 			<add order="0x10" stat="pDef" val="49" />
 		</for>
 	</item>
-	<item id="5347" type="EtcItem" name="Recipe: Sealed Tallum Tunic(100%)">
+	<item id="5347" type="EtcItem" name="製作卷軸(封印的塔魯外衣100%)">
 		<set name="icon" val="icon.etc_recipe_violet_i00" />
 		<set name="default_action" val="recipe" />
 		<set name="etcitem_type" val="recipe" />
@@ -753,7 +753,7 @@
 			<add order="0x10" stat="pDef" val="49" />
 		</for>
 	</item>
-	<item id="5348" type="EtcItem" name="Recipe: Sealed Dark Crystal Robe(60%)">
+	<item id="5348" type="EtcItem" name="製作卷軸(封印的黑暗水晶長袍60%)">
 		<set name="icon" val="icon.etc_recipe_violet_i00" />
 		<set name="default_action" val="recipe" />
 		<set name="etcitem_type" val="recipe" />
@@ -768,7 +768,7 @@
 			<add order="0x10" stat="pDef" val="49" />
 		</for>
 	</item>
-	<item id="5349" type="EtcItem" name="Recipe: Sealed Dark Crystal Robe(100%)">
+	<item id="5349" type="EtcItem" name="製作卷軸(封印的黑暗水晶長袍100%)">
 		<set name="icon" val="icon.etc_recipe_violet_i00" />
 		<set name="default_action" val="recipe" />
 		<set name="etcitem_type" val="recipe" />
@@ -783,7 +783,7 @@
 			<add order="0x10" stat="pDef" val="49" />
 		</for>
 	</item>
-	<item id="5350" type="EtcItem" name="Recipe: Sealed Nightmare Robe(60%)">
+	<item id="5350" type="EtcItem" name="製作卷軸(封印的夢魘長袍60%)">
 		<set name="icon" val="icon.etc_recipe_violet_i00" />
 		<set name="default_action" val="recipe" />
 		<set name="etcitem_type" val="recipe" />
@@ -798,7 +798,7 @@
 			<add order="0x10" stat="pDef" val="49" />
 		</for>
 	</item>
-	<item id="5351" type="EtcItem" name="Recipe: Sealed Nightmare Robe(100%)">
+	<item id="5351" type="EtcItem" name="製作卷軸(封印的夢魘長袍100%)">
 		<set name="icon" val="icon.etc_recipe_violet_i00" />
 		<set name="default_action" val="recipe" />
 		<set name="etcitem_type" val="recipe" />
@@ -813,7 +813,7 @@
 			<add order="0x10" stat="pDef" val="49" />
 		</for>
 	</item>
-	<item id="5352" type="EtcItem" name="Recipe: Sealed Majestic Robe(60%)">
+	<item id="5352" type="EtcItem" name="製作卷軸(封印的聖威長袍60%)">
 		<set name="icon" val="icon.etc_recipe_violet_i00" />
 		<set name="default_action" val="recipe" />
 		<set name="etcitem_type" val="recipe" />
@@ -828,7 +828,7 @@
 			<add order="0x10" stat="pDef" val="49" />
 		</for>
 	</item>
-	<item id="5353" type="EtcItem" name="Recipe: Sealed Majestic Robe(100%)">
+	<item id="5353" type="EtcItem" name="製作卷軸(封印的聖威長袍100%)">
 		<set name="icon" val="icon.etc_recipe_violet_i00" />
 		<set name="default_action" val="recipe" />
 		<set name="etcitem_type" val="recipe" />
@@ -843,7 +843,7 @@
 			<add order="0x10" stat="pDef" val="49" />
 		</for>
 	</item>
-	<item id="5354" type="EtcItem" name="Recipe: Sealed Tallum Stockings(60%)">
+	<item id="5354" type="EtcItem" name="製作卷軸(封印的塔魯長襪60%)">
 		<set name="icon" val="icon.etc_recipe_violet_i00" />
 		<set name="default_action" val="recipe" />
 		<set name="etcitem_type" val="recipe" />
@@ -858,7 +858,7 @@
 			<add order="0x10" stat="pDef" val="49" />
 		</for>
 	</item>
-	<item id="5355" type="EtcItem" name="Recipe: Sealed Tallum Stockings(100%)">
+	<item id="5355" type="EtcItem" name="製作卷軸(封印的塔魯長襪100%)">
 		<set name="icon" val="icon.etc_recipe_violet_i00" />
 		<set name="default_action" val="recipe" />
 		<set name="etcitem_type" val="recipe" />
@@ -873,7 +873,7 @@
 			<add order="0x10" stat="pDef" val="49" />
 		</for>
 	</item>
-	<item id="5356" type="EtcItem" name="Recipe: Phoenix Necklace(70%)">
+	<item id="5356" type="EtcItem" name="(無用)製作卷軸(不死鳥項鍊70%)">
 		<set name="icon" val="icon.etc_recipe_blue_i00" />
 		<set name="material" val="paper" />
 		<set name="weight" val="20" />
@@ -881,7 +881,7 @@
 		<set name="is_stackable" val="true" />
 		<set name="item_skill" val="2097-1" />
 	</item>
-	<item id="5357" type="EtcItem" name="Recipe: Phoenix Necklace(100%)">
+	<item id="5357" type="EtcItem" name="(無用)製作卷軸(不死鳥項鍊100%)">
 		<set name="icon" val="icon.etc_recipe_blue_i00" />
 		<set name="material" val="paper" />
 		<set name="weight" val="20" />
@@ -889,7 +889,7 @@
 		<set name="is_stackable" val="true" />
 		<set name="item_skill" val="2097-1" />
 	</item>
-	<item id="5358" type="EtcItem" name="Recipe: Inferno Necklace(70%)">
+	<item id="5358" type="EtcItem" name="(無用)製作卷軸(聖威項鍊70%)">
 		<set name="icon" val="icon.etc_recipe_blue_i00" />
 		<set name="material" val="paper" />
 		<set name="weight" val="20" />
@@ -897,7 +897,7 @@
 		<set name="is_stackable" val="true" />
 		<set name="item_skill" val="2097-1" />
 	</item>
-	<item id="5359" type="EtcItem" name="Recipe: Inferno Necklace(100%)">
+	<item id="5359" type="EtcItem" name="(無用)製作卷軸(聖威項鍊100%)">
 		<set name="icon" val="icon.etc_recipe_blue_i00" />
 		<set name="material" val="paper" />
 		<set name="weight" val="20" />
@@ -905,7 +905,7 @@
 		<set name="is_stackable" val="true" />
 		<set name="item_skill" val="2097-1" />
 	</item>
-	<item id="5360" type="EtcItem" name="Recipe: Phoenix Ring(70%)">
+	<item id="5360" type="EtcItem" name="(無用)製作卷軸(不死鳥戒指70%)">
 		<set name="icon" val="icon.etc_recipe_blue_i00" />
 		<set name="material" val="paper" />
 		<set name="weight" val="20" />
@@ -913,7 +913,7 @@
 		<set name="is_stackable" val="true" />
 		<set name="item_skill" val="2097-1" />
 	</item>
-	<item id="5361" type="EtcItem" name="Recipe: Phoenix Ring(100%)">
+	<item id="5361" type="EtcItem" name="(無用)製作卷軸(不死鳥戒指100%)">
 		<set name="icon" val="icon.etc_recipe_blue_i00" />
 		<set name="material" val="paper" />
 		<set name="weight" val="20" />
@@ -921,7 +921,7 @@
 		<set name="is_stackable" val="true" />
 		<set name="item_skill" val="2097-1" />
 	</item>
-	<item id="5362" type="EtcItem" name="Recipe: Inferno Ring(70%)">
+	<item id="5362" type="EtcItem" name="(無用)製作卷軸(聖威戒指70%)">
 		<set name="icon" val="icon.etc_recipe_blue_i00" />
 		<set name="material" val="paper" />
 		<set name="weight" val="20" />
@@ -929,7 +929,7 @@
 		<set name="is_stackable" val="true" />
 		<set name="item_skill" val="2097-1" />
 	</item>
-	<item id="5363" type="EtcItem" name="Recipe: Inferno Ring(100%)">
+	<item id="5363" type="EtcItem" name="(無用)製作卷軸(聖威戒指100%)">
 		<set name="icon" val="icon.etc_recipe_blue_i00" />
 		<set name="material" val="paper" />
 		<set name="weight" val="20" />
@@ -937,7 +937,7 @@
 		<set name="is_stackable" val="true" />
 		<set name="item_skill" val="2097-1" />
 	</item>
-	<item id="5364" type="EtcItem" name="Recipe: Sealed Dark Crystal Shield(60%)">
+	<item id="5364" type="EtcItem" name="製作卷軸(封印的黑暗水晶盾60%)">
 		<set name="icon" val="icon.etc_recipe_violet_i00" />
 		<set name="default_action" val="recipe" />
 		<set name="etcitem_type" val="recipe" />
@@ -952,7 +952,7 @@
 			<add order="0x10" stat="pDef" val="49" />
 		</for>
 	</item>
-	<item id="5365" type="EtcItem" name="Recipe: Sealed Dark Crystal Shield(100%)">
+	<item id="5365" type="EtcItem" name="製作卷軸(封印的黑暗水晶盾100%)">
 		<set name="icon" val="icon.etc_recipe_violet_i00" />
 		<set name="default_action" val="recipe" />
 		<set name="etcitem_type" val="recipe" />
@@ -967,7 +967,7 @@
 			<add order="0x10" stat="pDef" val="49" />
 		</for>
 	</item>
-	<item id="5366" type="EtcItem" name="Recipe: Sealed Shield of Nightmare(60%)">
+	<item id="5366" type="EtcItem" name="製作卷軸(封印的夢魘盾60%)">
 		<set name="icon" val="icon.etc_recipe_violet_i00" />
 		<set name="default_action" val="recipe" />
 		<set name="etcitem_type" val="recipe" />
@@ -982,7 +982,7 @@
 			<add order="0x10" stat="pDef" val="49" />
 		</for>
 	</item>
-	<item id="5367" type="EtcItem" name="Recipe: Sealed Shield of Nightmare(100%)">
+	<item id="5367" type="EtcItem" name="製作卷軸(封印的夢魘盾100%)">
 		<set name="icon" val="icon.etc_recipe_violet_i00" />
 		<set name="default_action" val="recipe" />
 		<set name="etcitem_type" val="recipe" />
@@ -997,7 +997,7 @@
 			<add order="0x10" stat="pDef" val="49" />
 		</for>
 	</item>
-	<item id="5368" type="EtcItem" name="Recipe: Sealed Dark Crystal Boots(60%)">
+	<item id="5368" type="EtcItem" name="製作卷軸(封印的黑暗水晶靴60%)">
 		<set name="icon" val="icon.etc_recipe_violet_i00" />
 		<set name="default_action" val="recipe" />
 		<set name="etcitem_type" val="recipe" />
@@ -1012,7 +1012,7 @@
 			<add order="0x10" stat="pDef" val="49" />
 		</for>
 	</item>
-	<item id="5369" type="EtcItem" name="Recipe: Sealed Dark Crystal Boots(100%)">
+	<item id="5369" type="EtcItem" name="製作卷軸(封印的黑暗水晶靴100%)">
 		<set name="icon" val="icon.etc_recipe_violet_i00" />
 		<set name="default_action" val="recipe" />
 		<set name="etcitem_type" val="recipe" />
@@ -1027,7 +1027,7 @@
 			<add order="0x10" stat="pDef" val="49" />
 		</for>
 	</item>
-	<item id="5370" type="EtcItem" name="Recipe: Sealed Tallum Boots(60%)">
+	<item id="5370" type="EtcItem" name="製作卷軸(封印的塔魯靴60%)">
 		<set name="icon" val="icon.etc_recipe_violet_i00" />
 		<set name="default_action" val="recipe" />
 		<set name="etcitem_type" val="recipe" />
@@ -1042,7 +1042,7 @@
 			<add order="0x10" stat="pDef" val="49" />
 		</for>
 	</item>
-	<item id="5371" type="EtcItem" name="Recipe: Sealed Tallum Boots(100%)">
+	<item id="5371" type="EtcItem" name="製作卷軸(封印的塔魯靴100%)">
 		<set name="icon" val="icon.etc_recipe_violet_i00" />
 		<set name="default_action" val="recipe" />
 		<set name="etcitem_type" val="recipe" />
@@ -1057,7 +1057,7 @@
 			<add order="0x10" stat="pDef" val="49" />
 		</for>
 	</item>
-	<item id="5372" type="EtcItem" name="Recipe: Sealed Boots of the Underworld(60%)">
+	<item id="5372" type="EtcItem" name="製作卷軸(封印的煉獄靴60%)">
 		<set name="icon" val="icon.etc_recipe_violet_i00" />
 		<set name="default_action" val="recipe" />
 		<set name="etcitem_type" val="recipe" />
@@ -1070,7 +1070,7 @@
 			<add order="0x10" stat="pDef" val="49" />
 		</for>
 	</item>
-	<item id="5373" type="EtcItem" name="Recipe: Sealed Boots of the Underworld(100%)">
+	<item id="5373" type="EtcItem" name="製作卷軸(封印的煉獄靴100%)">
 		<set name="icon" val="icon.etc_recipe_violet_i00" />
 		<set name="default_action" val="recipe" />
 		<set name="etcitem_type" val="recipe" />
@@ -1083,7 +1083,7 @@
 			<add order="0x10" stat="pDef" val="49" />
 		</for>
 	</item>
-	<item id="5374" type="EtcItem" name="Recipe: Sealed Gust Boots(60%)">
+	<item id="5374" type="EtcItem" name="製作卷軸(封印的勁風靴60%)">
 		<set name="icon" val="icon.etc_recipe_violet_i00" />
 		<set name="default_action" val="recipe" />
 		<set name="etcitem_type" val="recipe" />
@@ -1096,7 +1096,7 @@
 			<add order="0x10" stat="pDef" val="49" />
 		</for>
 	</item>
-	<item id="5375" type="EtcItem" name="Recipe: Sealed Gust Boots(100%)">
+	<item id="5375" type="EtcItem" name="製作卷軸(封印的勁風靴100%)">
 		<set name="icon" val="icon.etc_recipe_violet_i00" />
 		<set name="default_action" val="recipe" />
 		<set name="etcitem_type" val="recipe" />
@@ -1109,7 +1109,7 @@
 			<add order="0x10" stat="pDef" val="49" />
 		</for>
 	</item>
-	<item id="5376" type="EtcItem" name="Recipe: Sealed Red Flame Boots(60%)">
+	<item id="5376" type="EtcItem" name="製作卷軸(封印的黑光靴60%)">
 		<set name="icon" val="icon.etc_recipe_violet_i00" />
 		<set name="default_action" val="recipe" />
 		<set name="etcitem_type" val="recipe" />
@@ -1122,7 +1122,7 @@
 			<add order="0x10" stat="pDef" val="49" />
 		</for>
 	</item>
-	<item id="5377" type="EtcItem" name="Recipe: Sealed Red Flame Boots(100%)">
+	<item id="5377" type="EtcItem" name="製作卷軸(封印的黑光靴100%)">
 		<set name="icon" val="icon.etc_recipe_violet_i00" />
 		<set name="default_action" val="recipe" />
 		<set name="etcitem_type" val="recipe" />
@@ -1135,7 +1135,7 @@
 			<add order="0x10" stat="pDef" val="49" />
 		</for>
 	</item>
-	<item id="5378" type="EtcItem" name="Recipe: Sealed Phoenix Boots(60%)">
+	<item id="5378" type="EtcItem" name="製作卷軸(封印的不死鳥靴60%)">
 		<set name="icon" val="icon.etc_recipe_violet_i00" />
 		<set name="default_action" val="recipe" />
 		<set name="etcitem_type" val="recipe" />
@@ -1148,7 +1148,7 @@
 			<add order="0x10" stat="pDef" val="49" />
 		</for>
 	</item>
-	<item id="5379" type="EtcItem" name="Recipe: Sealed Phoenix Boots(100%)">
+	<item id="5379" type="EtcItem" name="製作卷軸(封印的不死鳥靴100%)">
 		<set name="icon" val="icon.etc_recipe_violet_i00" />
 		<set name="default_action" val="recipe" />
 		<set name="etcitem_type" val="recipe" />
@@ -1161,7 +1161,7 @@
 			<add order="0x10" stat="pDef" val="49" />
 		</for>
 	</item>
-	<item id="5380" type="EtcItem" name="Recipe: Sealed Boots of Nightmare(60%)">
+	<item id="5380" type="EtcItem" name="製作卷軸(封印的夢魘靴60%)">
 		<set name="icon" val="icon.etc_recipe_violet_i00" />
 		<set name="default_action" val="recipe" />
 		<set name="etcitem_type" val="recipe" />
@@ -1176,7 +1176,7 @@
 			<add order="0x10" stat="pDef" val="49" />
 		</for>
 	</item>
-	<item id="5381" type="EtcItem" name="Recipe: Sealed Boots of Nightmare(100%)">
+	<item id="5381" type="EtcItem" name="製作卷軸(封印的夢魘靴100%)">
 		<set name="icon" val="icon.etc_recipe_violet_i00" />
 		<set name="default_action" val="recipe" />
 		<set name="etcitem_type" val="recipe" />
@@ -1191,7 +1191,7 @@
 			<add order="0x10" stat="pDef" val="49" />
 		</for>
 	</item>
-	<item id="5382" type="EtcItem" name="Recipe: Sealed Majestic Boots(60%)">
+	<item id="5382" type="EtcItem" name="製作卷軸(封印的聖威靴60%)">
 		<set name="icon" val="icon.etc_recipe_violet_i00" />
 		<set name="default_action" val="recipe" />
 		<set name="etcitem_type" val="recipe" />
@@ -1206,7 +1206,7 @@
 			<add order="0x10" stat="pDef" val="49" />
 		</for>
 	</item>
-	<item id="5383" type="EtcItem" name="Recipe: Sealed Majestic Boots(100%)">
+	<item id="5383" type="EtcItem" name="製作卷軸(封印的聖威靴100%)">
 		<set name="icon" val="icon.etc_recipe_violet_i00" />
 		<set name="default_action" val="recipe" />
 		<set name="etcitem_type" val="recipe" />
@@ -1221,7 +1221,7 @@
 			<add order="0x10" stat="pDef" val="49" />
 		</for>
 	</item>
-	<item id="5384" type="EtcItem" name="Recipe: Sealed Dark Legion Boots(60%)">
+	<item id="5384" type="EtcItem" name="製作卷軸(封印的黑暗軍靴60%)">
 		<set name="icon" val="icon.etc_recipe_violet_i00" />
 		<set name="default_action" val="recipe" />
 		<set name="etcitem_type" val="recipe" />
@@ -1234,7 +1234,7 @@
 			<add order="0x10" stat="pDef" val="49" />
 		</for>
 	</item>
-	<item id="5385" type="EtcItem" name="Recipe: Sealed Dark Legion Boots(100%)">
+	<item id="5385" type="EtcItem" name="製作卷軸(封印的黑暗軍靴100%)">
 		<set name="icon" val="icon.etc_recipe_violet_i00" />
 		<set name="default_action" val="recipe" />
 		<set name="etcitem_type" val="recipe" />
@@ -1247,7 +1247,7 @@
 			<add order="0x10" stat="pDef" val="49" />
 		</for>
 	</item>
-	<item id="5386" type="EtcItem" name="Recipe: Sealed Boots of Phantom(60%)">
+	<item id="5386" type="EtcItem" name="製作卷軸(封印的幻影靴60%)">
 		<set name="icon" val="icon.etc_recipe_violet_i00" />
 		<set name="default_action" val="recipe" />
 		<set name="etcitem_type" val="recipe" />
@@ -1260,7 +1260,7 @@
 			<add order="0x10" stat="pDef" val="49" />
 		</for>
 	</item>
-	<item id="5387" type="EtcItem" name="Recipe: Sealed Boots of Phantom(100%)">
+	<item id="5387" type="EtcItem" name="製作卷軸(封印的幻影靴100%)">
 		<set name="icon" val="icon.etc_recipe_violet_i00" />
 		<set name="default_action" val="recipe" />
 		<set name="etcitem_type" val="recipe" />
@@ -1273,7 +1273,7 @@
 			<add order="0x10" stat="pDef" val="49" />
 		</for>
 	</item>
-	<item id="5388" type="EtcItem" name="Recipe: Sealed Cerberus Boots(60%)">
+	<item id="5388" type="EtcItem" name="製作卷軸(封印的地獄犬靴60%)">
 		<set name="icon" val="icon.etc_recipe_violet_i00" />
 		<set name="default_action" val="recipe" />
 		<set name="etcitem_type" val="recipe" />
@@ -1286,7 +1286,7 @@
 			<add order="0x10" stat="pDef" val="49" />
 		</for>
 	</item>
-	<item id="5389" type="EtcItem" name="Recipe: Sealed Cerberus Boots(100%)">
+	<item id="5389" type="EtcItem" name="製作卷軸(封印的地獄犬靴100%)">
 		<set name="icon" val="icon.etc_recipe_violet_i00" />
 		<set name="default_action" val="recipe" />
 		<set name="etcitem_type" val="recipe" />
@@ -1299,7 +1299,7 @@
 			<add order="0x10" stat="pDef" val="49" />
 		</for>
 	</item>
-	<item id="5390" type="EtcItem" name="Recipe: Sealed Dasparion's Boots Boots(60%)">
+	<item id="5390" type="EtcItem" name="製作卷軸(封印的帕黎恩靴60%)">
 		<set name="icon" val="icon.etc_recipe_violet_i00" />
 		<set name="default_action" val="recipe" />
 		<set name="etcitem_type" val="recipe" />
@@ -1312,7 +1312,7 @@
 			<add order="0x10" stat="pDef" val="49" />
 		</for>
 	</item>
-	<item id="5391" type="EtcItem" name="Recipe: Sealed Dasparion's Boots Boots(100%)">
+	<item id="5391" type="EtcItem" name="製作卷軸(封印的帕黎恩靴100%)">
 		<set name="icon" val="icon.etc_recipe_violet_i00" />
 		<set name="default_action" val="recipe" />
 		<set name="etcitem_type" val="recipe" />
@@ -1325,7 +1325,7 @@
 			<add order="0x10" stat="pDef" val="49" />
 		</for>
 	</item>
-	<item id="5392" type="EtcItem" name="Recipe: Sealed Dark Crystal Gloves(60%)">
+	<item id="5392" type="EtcItem" name="製作卷軸(封印的黑暗水晶手套60%)">
 		<set name="icon" val="icon.etc_recipe_violet_i00" />
 		<set name="default_action" val="recipe" />
 		<set name="etcitem_type" val="recipe" />
@@ -1340,7 +1340,7 @@
 			<add order="0x10" stat="pDef" val="49" />
 		</for>
 	</item>
-	<item id="5393" type="EtcItem" name="Recipe: Sealed Dark Crystal Gloves(100%)">
+	<item id="5393" type="EtcItem" name="製作卷軸(封印的黑暗水晶手套100%)">
 		<set name="icon" val="icon.etc_recipe_violet_i00" />
 		<set name="default_action" val="recipe" />
 		<set name="etcitem_type" val="recipe" />
@@ -1355,7 +1355,7 @@
 			<add order="0x10" stat="pDef" val="49" />
 		</for>
 	</item>
-	<item id="5394" type="EtcItem" name="Recipe: Sealed Tallum Gloves(60%)">
+	<item id="5394" type="EtcItem" name="製作卷軸(封印的塔魯手套60%)">
 		<set name="icon" val="icon.etc_recipe_violet_i00" />
 		<set name="default_action" val="recipe" />
 		<set name="etcitem_type" val="recipe" />
@@ -1370,7 +1370,7 @@
 			<add order="0x10" stat="pDef" val="49" />
 		</for>
 	</item>
-	<item id="5395" type="EtcItem" name="Recipe: Sealed Tallum Gloves(100%)">
+	<item id="5395" type="EtcItem" name="製作卷軸(封印的塔魯手套100%)">
 		<set name="icon" val="icon.etc_recipe_violet_i00" />
 		<set name="default_action" val="recipe" />
 		<set name="etcitem_type" val="recipe" />
@@ -1385,7 +1385,7 @@
 			<add order="0x10" stat="pDef" val="49" />
 		</for>
 	</item>
-	<item id="5396" type="EtcItem" name="Recipe: Sealed Gloves of the Underworld(60%)">
+	<item id="5396" type="EtcItem" name="製作卷軸(封印的煉獄手套60%)">
 		<set name="icon" val="icon.etc_recipe_violet_i00" />
 		<set name="default_action" val="recipe" />
 		<set name="etcitem_type" val="recipe" />
@@ -1398,7 +1398,7 @@
 			<add order="0x10" stat="pDef" val="49" />
 		</for>
 	</item>
-	<item id="5397" type="EtcItem" name="Recipe: Sealed Gloves of the Underworld(100%)">
+	<item id="5397" type="EtcItem" name="製作卷軸(封印的煉獄手套100%)">
 		<set name="icon" val="icon.etc_recipe_violet_i00" />
 		<set name="default_action" val="recipe" />
 		<set name="etcitem_type" val="recipe" />
@@ -1411,7 +1411,7 @@
 			<add order="0x10" stat="pDef" val="49" />
 		</for>
 	</item>
-	<item id="5398" type="EtcItem" name="Recipe: Sealed Gust Bracer(60%)">
+	<item id="5398" type="EtcItem" name="製作卷軸(封印的勁風手套60%)">
 		<set name="icon" val="icon.etc_recipe_violet_i00" />
 		<set name="default_action" val="recipe" />
 		<set name="etcitem_type" val="recipe" />
@@ -1424,7 +1424,7 @@
 			<add order="0x10" stat="pDef" val="49" />
 		</for>
 	</item>
-	<item id="5399" type="EtcItem" name="Recipe: Sealed Gust Bracer(100%)">
+	<item id="5399" type="EtcItem" name="製作卷軸(封印的勁風手套100%)">
 		<set name="icon" val="icon.etc_recipe_violet_i00" />
 		<set name="default_action" val="recipe" />
 		<set name="etcitem_type" val="recipe" />

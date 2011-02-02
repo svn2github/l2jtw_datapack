@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <list>
-	<item id="13200" type="Weapon" name="For PC Cafe Use - Bellion Cestus - Weapons for PC Cafe Use">
+	<item id="13200" type="Weapon" name="活動用-博利恩拳套">
 		<set name="icon" val="icon.weapon_bellion_cestus_i00" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="dualfist" />
@@ -32,7 +32,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="13201" type="Weapon" name="For PC cafe use - Hazard Bow - Weapons for PC Cafe Use">
+	<item id="13201" type="Weapon" name="活動用-冒險弓">
 		<set name="icon" val="icon.weapon_hazard_bow_i00" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="bow" />
@@ -65,7 +65,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="13202" type="Weapon" name="For PC Cafe Use - Samurai*Samurai - Weapons for PC Cafe Use">
+	<item id="13202" type="Weapon" name="活動用-瑟魯基長劍*瑟魯基長劍">
 		<set name="icon" val="icon.weapon_dual_sword_i00" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="dual" />
@@ -95,7 +95,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="13203" type="Weapon" name="For PC Cafe Use - Guardian's Sword - Weapons for PC Cafe Use">
+	<item id="13203" type="Weapon" name="活動用-守護神之劍">
 		<set name="icon" val="icon.weapon_guardians_sword_i00" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="bigsword" />
@@ -125,7 +125,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="13204" type="Weapon" name="For PC Cafe Use - Wizard's Tear - Weapons for PC Cafe Use">
+	<item id="13204" type="Weapon" name="活動用-巫師之淚">
 		<set name="icon" val="icon.weapon_tears_of_wizard_i00" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="sword" />
@@ -156,7 +156,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="13205" type="Weapon" name="For PC Cafe Use - Kaim Vanul's Bones - Weapons for PC Cafe Use">
+	<item id="13205" type="Weapon" name="活動用-卡倚巴奴之骨">
 		<set name="icon" val="icon.weapon_bone_of_kaim_vanul_i00" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="blunt" />
@@ -189,7 +189,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="13206" type="Weapon" name="For PC Cafe Use - Star Buster - Weapons for PC Cafe Use">
+	<item id="13206" type="Weapon" name="活動用-星爆">
 		<set name="icon" val="icon.weapon_star_buster_i00" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="bigblunt" />
@@ -221,7 +221,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="13207" type="Weapon" name="For PC cafe use - Colichemarde - Weapons for PC Cafe Use">
+	<item id="13207" type="Weapon" name="活動用-華麗細劍">
 		<set name="icon" val="icon.weapon_colichemarde_i00" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="rapier" />
@@ -255,7 +255,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="13208" type="Weapon" name="For PC cafe use - Dismantler - Weapons for PC Cafe Use">
+	<item id="13208" type="Weapon" name="活動用-裂解劍">
 		<set name="icon" val="icon.weapon_dismantler_i00" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="ancientsword" />
@@ -288,7 +288,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="13209" type="Weapon" name="For PC Cafe Use - Hell Hound - Weapons for PC Cafe Use">
+	<item id="13209" type="Weapon" name="活動用-冥犬之牙">
 		<set name="icon" val="icon.weapon_hell_hound_i00" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="crossbow" />
@@ -322,7 +322,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="13210" type="Weapon" name="PC cafe' exclusive - Sirra's Blade - Weapons for PC Cafe Use">
+	<item id="13210" type="Weapon" name="活動用-希露冰刃">
 		<set name="icon" val="icon.weapon_sirr_blade_i00" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="sword" />
@@ -352,7 +352,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="13211" type="Weapon" name="For PC Cafe Use - Sword of Ipos - Weapons for PC Cafe Use">
+	<item id="13211" type="Weapon" name="活動用-伊波斯巨劍">
 		<set name="icon" val="icon.weapon_sword_of_ipos_i00" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="bigsword" />
@@ -382,7 +382,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="13212" type="Weapon" name="For PC Cafe Use - Barakiel's Axe - Weapons for PC Cafe Use">
+	<item id="13212" type="Weapon" name="活動用-貝拉凱爾聖斧">
 		<set name="icon" val="icon.weapon_barakiel_axe_i00" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="blunt" />
@@ -414,7 +414,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="13213" type="Weapon" name="For PC Cafe Use - Behemoth Tuning Fork - Weapons for PC Cafe Use">
+	<item id="13213" type="Weapon" name="活動用-貝希莫斯巨叉">
 		<set name="icon" val="icon.weapon_tuning_fork_of_behemoth_i00" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="bigblunt" />
@@ -446,7 +446,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="13214" type="Weapon" name="For PC Cafe Use - Naga Storm - Weapons for PC Cafe Use">
+	<item id="13214" type="Weapon" name="活動用-那卡風暴">
 		<set name="icon" val="icon.weapon_naga_storm_i00" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="dagger" />
@@ -478,7 +478,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="13215" type="Weapon" name="For PC cafe use - Tiphon's Spear - Weapons for PC Cafe Use">
+	<item id="13215" type="Weapon" name="活動用-岱依封長戟">
 		<set name="icon" val="icon.weapon_tiphon_spear_i00" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="pole" />
@@ -510,7 +510,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="13216" type="Weapon" name="For PC cafe use - Shyeed's Bow - Weapons for PC Cafe Use">
+	<item id="13216" type="Weapon" name="活動用-夏伊德獵弓">
 		<set name="icon" val="icon.weapon_shyid_bow_i00" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="bow" />
@@ -544,7 +544,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="13217" type="Weapon" name="For PC Cafe Use - Sobekk's Hurricane - Weapons for PC Cafe Use">
+	<item id="13217" type="Weapon" name="活動用-索貝克颶風">
 		<set name="icon" val="icon.weapon_sobekk_hurricane_i00" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="dualfist" />
@@ -576,7 +576,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="13218" type="Weapon" name="For PC Cafe Use - Themis' Tongue - Weapons for PC Cafe Use">
+	<item id="13218" type="Weapon" name="活動用-緹米絲之舌">
 		<set name="icon" val="icon.weapon_tongue_of_themis_i00" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="sword" />
@@ -607,7 +607,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="13219" type="Weapon" name="For PC Cafe Use - Cabrio's Hand - Weapons for PC Cafe Use">
+	<item id="13219" type="Weapon" name="活動用-卡布里歐之手">
 		<set name="icon" val="icon.weapon_hand_of_cabrio_i00" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="blunt" />
@@ -640,7 +640,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="13220" type="Weapon" name="For PC Cafe Use - Daimon Crystal - Weapons for PC Cafe Use">
+	<item id="13220" type="Weapon" name="活動用-惡魔結晶">
 		<set name="icon" val="icon.weapon_crystal_of_deamon_i00" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="bigblunt" />
@@ -673,7 +673,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="13221" type="Weapon" name="For PC cafe use - Tallum Blade*Damascus - Weapons for PC Cafe Use">
+	<item id="13221" type="Weapon" name="活動用-塔魯刀*大馬士革刀">
 		<set name="icon" val="icon.weapon_dual_sword_i00" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="dual" />
@@ -703,7 +703,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="13222" type="Weapon" name="For PC Cafe Use - Éclair Bijou - Weapons for PC Cafe Use">
+	<item id="13222" type="Weapon" name="活動用-閃光之珠">
 		<set name="icon" val="icon.weapon_greed_stinger_i00" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="rapier" />
@@ -737,7 +737,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="13223" type="Weapon" name="For PC cafe use - Durendal - Weapons for PC Cafe Use">
+	<item id="13223" type="Weapon" name="活動用-光明守護之劍">
 		<set name="icon" val="icon.weapon_death_bringer_i00" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="ancientsword" />
@@ -770,7 +770,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="13224" type="Weapon" name="For PC Cafe Use - Screaming Vengeance - Weapons for PC Cafe Use">
+	<item id="13224" type="Weapon" name="活動用-復仇爆弩">
 		<set name="icon" val="icon.weapon_soul_shooter_i00" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="crossbow" />
@@ -804,7 +804,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="13225" type="EtcItem" name="Kamaloka (Hall of the Abyss) 15-Sheet Box">
+	<item id="13225" type="EtcItem" name="欲界(深淵之廳) 15張 箱子">
 		<set name="icon" val="icon.etc_pi_gift_box_i01" />
 		<set name="default_action" val="peel" />
 		<set name="immediate_effect" val="1" />
@@ -817,7 +817,7 @@
 		<set name="is_premium" val="true" />
 		<set name="capsuled_items" val="13010,15,15,100" />
 	</item>
-	<item id="13226" type="EtcItem" name="Near Kamaloka 15-Sheet Box">
+	<item id="13226" type="EtcItem" name="近緣欲界 15張 箱子">
 		<set name="icon" val="icon.etc_pi_gift_box_i01" />
 		<set name="default_action" val="peel" />
 		<set name="immediate_effect" val="1" />
@@ -830,7 +830,7 @@
 		<set name="is_premium" val="true" />
 		<set name="capsuled_items" val="13011,15,15,100" />
 	</item>
-	<item id="13227" type="EtcItem" name="Kamaloka (Labyrinth of the Abyss) 15-Sheet Box">
+	<item id="13227" type="EtcItem" name="欲界(深淵迷宮) 15張 箱子">
 		<set name="icon" val="icon.etc_pi_gift_box_i01" />
 		<set name="default_action" val="peel" />
 		<set name="immediate_effect" val="1" />
@@ -843,7 +843,7 @@
 		<set name="is_premium" val="true" />
 		<set name="capsuled_items" val="13012,15,15,100" />
 	</item>
-	<item id="13228" type="EtcItem" name="Kamaloka (Hall of the Abyss) 15-Sheet Pack">
+	<item id="13228" type="EtcItem" name="欲界(深淵之廳) 15張/組">
 		<set name="icon" val="icon.etc_pi_gift_box_i00" />
 		<set name="default_action" val="peel" />
 		<set name="immediate_effect" val="1" />
@@ -856,7 +856,7 @@
 		<set name="is_premium" val="true" />
 		<set name="capsuled_items" val="13010,15,15,100" />
 	</item>
-	<item id="13229" type="EtcItem" name="Near Kamaloka 15-Sheet Pack">
+	<item id="13229" type="EtcItem" name="近緣欲界 15張/組">
 		<set name="icon" val="icon.etc_pi_gift_box_i00" />
 		<set name="default_action" val="peel" />
 		<set name="immediate_effect" val="1" />
@@ -869,7 +869,7 @@
 		<set name="is_premium" val="true" />
 		<set name="capsuled_items" val="13011,15,15,100" />
 	</item>
-	<item id="13230" type="EtcItem" name="Kamaloka (Labyrinth of the Abyss) 15-Sheet Pack">
+	<item id="13230" type="EtcItem" name="欲界(深淵迷宮) 15張/組">
 		<set name="icon" val="icon.etc_pi_gift_box_i00" />
 		<set name="default_action" val="peel" />
 		<set name="immediate_effect" val="1" />
@@ -882,7 +882,7 @@
 		<set name="is_premium" val="true" />
 		<set name="capsuled_items" val="13012,15,15,100" />
 	</item>
-	<item id="13231" type="EtcItem" name="Kamaloka (Hall of the Abyss) 5-Sheet Pack">
+	<item id="13231" type="EtcItem" name="欲界(深淵之廳) 5張/組">
 		<set name="icon" val="icon.etc_pi_gift_box_i02" />
 		<set name="default_action" val="peel" />
 		<set name="immediate_effect" val="1" />
@@ -895,7 +895,7 @@
 		<set name="is_premium" val="true" />
 		<set name="capsuled_items" val="13010,5,5,100" />
 	</item>
-	<item id="13232" type="EtcItem" name="Near Kamaloka 5-Sheet Pack">
+	<item id="13232" type="EtcItem" name="近緣欲界 5張/組">
 		<set name="icon" val="icon.etc_pi_gift_box_i02" />
 		<set name="default_action" val="peel" />
 		<set name="immediate_effect" val="1" />
@@ -908,7 +908,7 @@
 		<set name="is_premium" val="true" />
 		<set name="capsuled_items" val="13011,5,5,100" />
 	</item>
-	<item id="13233" type="EtcItem" name="Kamaloka (Labyrinth of the Abyss) 5-Sheet Pack">
+	<item id="13233" type="EtcItem" name="欲界(深淵迷宮) 5張/組">
 		<set name="icon" val="icon.etc_pi_gift_box_i02" />
 		<set name="default_action" val="peel" />
 		<set name="immediate_effect" val="1" />
@@ -921,7 +921,7 @@
 		<set name="is_premium" val="true" />
 		<set name="capsuled_items" val="13012,5,5,100" />
 	</item>
-	<item id="13234" type="Armor" name="Varka Karm (used by Varka Silenos)">
+	<item id="13234" type="Armor" name="巴瑞卡卡輪(巴瑞卡賽勒諾斯用)">
 		<set name="icon" val="icon.accessory_barka_karm_i00" />
 		<set name="default_action" val="equip" />
 		<set name="bodypart" val="hairall" />
@@ -932,7 +932,7 @@
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
 	</item>
-	<item id="13235" type="Armor" name="Ketra Karm (used by Ketra Orcs)">
+	<item id="13235" type="Armor" name="肯特拉卡輪(肯特拉獸人用)">
 		<set name="icon" val="icon.accessory_ketra_karm_i00" />
 		<set name="default_action" val="equip" />
 		<set name="bodypart" val="hairall" />
@@ -943,7 +943,7 @@
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
 	</item>
-	<item id="13236" type="Armor" name="AU Karm">
+	<item id="13236" type="Armor" name="奧歐卡輪">
 		<set name="icon" val="icon.accessory_au_karm_i00" />
 		<set name="default_action" val="equip" />
 		<set name="bodypart" val="hairall" />
@@ -954,7 +954,7 @@
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
 	</item>
-	<item id="13237" type="Armor" name="AR Karm">
+	<item id="13237" type="Armor" name="奧爾卡輪">
 		<set name="icon" val="icon.accessory_ar_karm_i00" />
 		<set name="default_action" val="equip" />
 		<set name="bodypart" val="hairall" />
@@ -965,7 +965,7 @@
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
 	</item>
-	<item id="13238" type="Armor" name="AE Karm">
+	<item id="13238" type="Armor" name="奧耶卡輪">
 		<set name="icon" val="icon.accessory_ae_karm_i00" />
 		<set name="default_action" val="equip" />
 		<set name="bodypart" val="hairall" />
@@ -976,7 +976,7 @@
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
 	</item>
-	<item id="13239" type="Armor" name="Kat the Cat Hat - 7-day Limited Period">
+	<item id="13239" type="Armor" name="戰鬥貓帽">
 		<set name="icon" val="icon.accessory_cat_the_cat_cap_i00" />
 		<set name="default_action" val="equip" />
 		<set name="bodypart" val="hairall" />
@@ -989,7 +989,7 @@
 		<set name="is_premium" val="true" />
 		<set name="time" val="10080" />
 	</item>
-	<item id="13240" type="Armor" name="Feline Queen Hat - 7-day Limited Period">
+	<item id="13240" type="Armor" name="皇后貓帽">
 		<set name="icon" val="icon.accessory_queen_of_cat_cap_i00" />
 		<set name="default_action" val="equip" />
 		<set name="bodypart" val="hairall" />
@@ -1002,7 +1002,7 @@
 		<set name="is_premium" val="true" />
 		<set name="time" val="10080" />
 	</item>
-	<item id="13241" type="Armor" name="Monster Eye Hat - 7-day Limited Period">
+	<item id="13241" type="Armor" name="眼怪帽">
 		<set name="icon" val="icon.accessory_monstereye_cap_i00" />
 		<set name="default_action" val="equip" />
 		<set name="bodypart" val="hairall" />
@@ -1015,7 +1015,7 @@
 		<set name="is_premium" val="true" />
 		<set name="time" val="10080" />
 	</item>
-	<item id="13242" type="Armor" name="Brown Bear Hat - 7-day Limited Period">
+	<item id="13242" type="Armor" name="棕熊帽">
 		<set name="icon" val="icon.accessory_brown_bear_cap_i00" />
 		<set name="default_action" val="equip" />
 		<set name="bodypart" val="hairall" />
@@ -1028,7 +1028,7 @@
 		<set name="is_premium" val="true" />
 		<set name="time" val="10080" />
 	</item>
-	<item id="13243" type="Armor" name="Fungus Hat - 7-day Limited Period">
+	<item id="13243" type="Armor" name="蘑菇帽">
 		<set name="icon" val="icon.accessory_fungus_cap_i00" />
 		<set name="default_action" val="equip" />
 		<set name="bodypart" val="hairall" />
@@ -1041,7 +1041,7 @@
 		<set name="is_premium" val="true" />
 		<set name="time" val="10080" />
 	</item>
-	<item id="13244" type="Armor" name="Skull Hat - 7-day Limited Period">
+	<item id="13244" type="Armor" name="骷髏帽">
 		<set name="icon" val="icon.accessory_skeleton_cap_i00" />
 		<set name="default_action" val="equip" />
 		<set name="bodypart" val="hairall" />
@@ -1054,7 +1054,7 @@
 		<set name="is_premium" val="true" />
 		<set name="time" val="10080" />
 	</item>
-	<item id="13245" type="Armor" name="Ornithomimus Hat - 7-day Limited Period">
+	<item id="13245" type="Armor" name="似鳥龍帽">
 		<set name="icon" val="icon.accessory_ornithomimus_cap_i00" />
 		<set name="default_action" val="equip" />
 		<set name="bodypart" val="hairall" />
@@ -1067,7 +1067,7 @@
 		<set name="is_premium" val="true" />
 		<set name="time" val="10080" />
 	</item>
-	<item id="13246" type="Armor" name="Feline King Hat - 7-day Limited Period">
+	<item id="13246" type="Armor" name="國王貓帽">
 		<set name="icon" val="icon.accessory_king_of_cat_cap_i00" />
 		<set name="default_action" val="equip" />
 		<set name="bodypart" val="hairall" />
@@ -1080,7 +1080,7 @@
 		<set name="is_premium" val="true" />
 		<set name="time" val="10080" />
 	</item>
-	<item id="13247" type="Armor" name="Kai the Cat Hat - 7-day Limited Period">
+	<item id="13247" type="Armor" name="銀色貓帽">
 		<set name="icon" val="icon.accessory_chi_the_cat_cap_i00" />
 		<set name="default_action" val="equip" />
 		<set name="bodypart" val="hairall" />
@@ -1093,7 +1093,7 @@
 		<set name="is_premium" val="true" />
 		<set name="time" val="10080" />
 	</item>
-	<item id="13248" type="Weapon" name="O-type Stick - 7-day Limited Period">
+	<item id="13248" type="Weapon" name="O形魔杖">
 		<set name="icon" val="icon.weapon_o_stick_i00" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="sword" />
@@ -1115,7 +1115,7 @@
 			<set order="0x08" stat="pAtkSpd" val="379" />
 		</for>
 	</item>
-	<item id="13249" type="Weapon" name="X-type Stick - 7-day Limited Period">
+	<item id="13249" type="Weapon" name="X形魔杖">
 		<set name="icon" val="icon.weapon_x_stick_i00" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="sword" />
@@ -1137,7 +1137,7 @@
 			<set order="0x08" stat="pAtkSpd" val="379" />
 		</for>
 	</item>
-	<item id="13250" type="Weapon" name="Scissors-type Stick - 7-day Limited Period">
+	<item id="13250" type="Weapon" name="剪刀魔杖">
 		<set name="icon" val="icon.weapon_scissors_stick_i00" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="sword" />
@@ -1159,7 +1159,7 @@
 			<set order="0x08" stat="pAtkSpd" val="379" />
 		</for>
 	</item>
-	<item id="13251" type="Weapon" name="Rock-type Stick - 7-day Limited Period">
+	<item id="13251" type="Weapon" name="石頭魔杖">
 		<set name="icon" val="icon.weapon_rock_stick_i00" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="sword" />
@@ -1181,7 +1181,7 @@
 			<set order="0x08" stat="pAtkSpd" val="379" />
 		</for>
 	</item>
-	<item id="13252" type="Weapon" name="Paper-type Stick - 7-day Limited Period">
+	<item id="13252" type="Weapon" name="布魔杖">
 		<set name="icon" val="icon.weapon_diver_stick_i00" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="sword" />
@@ -1203,7 +1203,7 @@
 			<set order="0x08" stat="pAtkSpd" val="379" />
 		</for>
 	</item>
-	<item id="13253" type="Weapon" name="Pumpkin Transformation Stick - 7-day Limited Period">
+	<item id="13253" type="Weapon" name="南瓜變身魔杖">
 		<set name="icon" val="icon.weapon_pumpkin_stick_i00" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="sword" />
@@ -1227,7 +1227,7 @@
 			<set order="0x08" stat="pAtkSpd" val="379" />
 		</for>
 	</item>
-	<item id="13254" type="Armor" name="Agathion of Love - 7-day Limited Period">
+	<item id="13254" type="Armor" name="愛心壺精">
 		<set name="icon" val="icon.etc_rbracelet_aga_agit_i00" />
 		<set name="default_action" val="equip" />
 		<set name="bodypart" val="lbracelet" />
@@ -1242,7 +1242,7 @@
 		<set name="item_skill" val="5763-1;8245-1;3267-1" />
 		<set name="time" val="10080" />
 	</item>
-	<item id="13255" type="EtcItem" name="Gran Kain's Gift Box - 7 Day">
+	<item id="13255" type="EtcItem" name="格蘭肯的禮盒-7日">
 		<set name="icon" val="icon.special_cube_i00" />
 		<set name="default_action" val="capsule" />
 		<set name="immediate_effect" val="1" />
@@ -1254,7 +1254,7 @@
 		<set name="is_premium" val="true" />
 		<set name="time" val="10080" />
 	</item>
-	<item id="13256" type="EtcItem" name="Gran Kain's Gift Box Pack">
+	<item id="13256" type="EtcItem" name="格蘭肯的禮盒組">
 		<set name="icon" val="icon.etc_pi_gift_box_i04" />
 		<set name="default_action" val="peel" />
 		<set name="immediate_effect" val="1" />
@@ -1267,7 +1267,7 @@
 		<set name="is_premium" val="true" />
 		<set name="capsuled_items" val="13027,1,1,100" />
 	</item>
-	<item id="13257" type="EtcItem" name="Gran Kain's Gift Box Pack (Event)">
+	<item id="13257" type="EtcItem" name="格蘭肯的禮盒組-活動用">
 		<set name="icon" val="icon.etc_pi_gift_box_i04" />
 		<set name="default_action" val="peel" />
 		<set name="immediate_effect" val="1" />
@@ -1280,7 +1280,7 @@
 		<set name="is_premium" val="true" />
 		<set name="capsuled_items" val="13382,1,1,100" />
 	</item>
-	<item id="13258" type="EtcItem" name="Gran Kain's Blessed Scroll of Escape">
+	<item id="13258" type="EtcItem" name="格蘭肯的祝福返回卷軸">
 		<set name="icon" val="icon.etc_scroll_of_return_i01" />
 		<set name="default_action" val="skill_reduce" />
 		<set name="etcitem_type" val="scroll" />
@@ -1293,7 +1293,7 @@
 		<set name="handler" val="ItemSkills" />
 		<set name="item_skill" val="2595-1" />
 	</item>
-	<item id="13259" type="EtcItem" name="Gran Kain's Blessed Scroll of Resurrection">
+	<item id="13259" type="EtcItem" name="格蘭肯的祝福復活卷軸">
 		<set name="icon" val="icon.etc_scroll_of_resurrection_i01" />
 		<set name="default_action" val="skill_reduce" />
 		<set name="etcitem_type" val="scroll" />
@@ -1306,7 +1306,7 @@
 		<set name="handler" val="ScrollOfResurrection" />
 		<set name="item_skill" val="2596-1" />
 	</item>
-	<item id="13260" type="Armor" name="Gran Kain's Squeaking Shoes - 10 hours limited period">
+	<item id="13260" type="Armor" name="格蘭肯的鳴響鞋">
 		<set name="icon" val="icon.armor_t02_b_i00" />
 		<set name="default_action" val="equip" />
 		<set name="bodypart" val="feet" />
@@ -1318,7 +1318,7 @@
 		<set name="is_sellable" val="false" />
 		<set name="time" val="600" />
 	</item>
-	<item id="13261" type="EtcItem" name="Gran Kain's Echo Crystal - Theme of Journey">
+	<item id="13261" type="EtcItem" name="格蘭肯的回聲水晶-旅行之歌">
 		<set name="icon" val="icon.etc_echo_crystal_i00" />
 		<set name="default_action" val="skill_reduce" />
 		<set name="immediate_effect" val="1" />
@@ -1332,7 +1332,7 @@
 		<set name="handler" val="ItemSkills" />
 		<set name="item_skill" val="2597-1" />
 	</item>
-	<item id="13262" type="EtcItem" name="Gran Kain's Echo Crystal - Theme of Battle">
+	<item id="13262" type="EtcItem" name="格蘭肯的回聲水晶-決戰之歌">
 		<set name="icon" val="icon.etc_echo_crystal_i01" />
 		<set name="default_action" val="skill_reduce" />
 		<set name="immediate_effect" val="1" />
@@ -1346,7 +1346,7 @@
 		<set name="handler" val="ItemSkills" />
 		<set name="item_skill" val="2598-1" />
 	</item>
-	<item id="13263" type="EtcItem" name="Gran Kain's Echo Crystal - Theme of Love">
+	<item id="13263" type="EtcItem" name="格蘭肯的回聲水晶-愛情之歌">
 		<set name="icon" val="icon.etc_echo_crystal_i02" />
 		<set name="default_action" val="skill_reduce" />
 		<set name="immediate_effect" val="1" />
@@ -1360,7 +1360,7 @@
 		<set name="handler" val="ItemSkills" />
 		<set name="item_skill" val="2599-1" />
 	</item>
-	<item id="13264" type="EtcItem" name="Gran Kain's Echo Crystal - Theme of Solitude">
+	<item id="13264" type="EtcItem" name="格蘭肯的回聲水晶-孤獨之歌">
 		<set name="icon" val="icon.etc_echo_crystal_i03" />
 		<set name="default_action" val="skill_reduce" />
 		<set name="immediate_effect" val="1" />
@@ -1374,7 +1374,7 @@
 		<set name="handler" val="ItemSkills" />
 		<set name="item_skill" val="2600-1" />
 	</item>
-	<item id="13265" type="EtcItem" name="Gran Kain's Echo Crystal - Theme of the Feast">
+	<item id="13265" type="EtcItem" name="格蘭肯的回聲水晶-祝典之歌">
 		<set name="icon" val="icon.etc_echo_crystal_i04" />
 		<set name="default_action" val="skill_reduce" />
 		<set name="immediate_effect" val="1" />
@@ -1388,7 +1388,7 @@
 		<set name="handler" val="ItemSkills" />
 		<set name="item_skill" val="2601-1" />
 	</item>
-	<item id="13266" type="EtcItem" name="Gran Kain's Echo Crystal - Theme of Celebration">
+	<item id="13266" type="EtcItem" name="格蘭肯的回聲水晶-慶祝之歌">
 		<set name="icon" val="icon.etc_echo_crystal_i00" />
 		<set name="default_action" val="skill_reduce" />
 		<set name="immediate_effect" val="1" />
@@ -1402,7 +1402,7 @@
 		<set name="handler" val="ItemSkills" />
 		<set name="item_skill" val="2602-1" />
 	</item>
-	<item id="13267" type="EtcItem" name="Gran Kain's Echo Crystal - Theme of Comedy">
+	<item id="13267" type="EtcItem" name="格蘭肯的回聲水晶-喜劇之歌">
 		<set name="icon" val="icon.etc_echo_crystal_i01" />
 		<set name="default_action" val="skill_reduce" />
 		<set name="immediate_effect" val="1" />
@@ -1416,7 +1416,7 @@
 		<set name="handler" val="ItemSkills" />
 		<set name="item_skill" val="2603-1" />
 	</item>
-	<item id="13268" type="EtcItem" name="Gran Kain's Firework">
+	<item id="13268" type="EtcItem" name="格蘭肯的煙火">
 		<set name="icon" val="icon.etc_small_ultra_bomb_i00" />
 		<set name="default_action" val="skill_reduce" />
 		<set name="immediate_effect" val="1" />
@@ -1428,7 +1428,7 @@
 		<set name="handler" val="ItemSkills" />
 		<set name="item_skill" val="2604-1" />
 	</item>
-	<item id="13269" type="EtcItem" name="Gran Kain's Large Firework">
+	<item id="13269" type="EtcItem" name="格蘭肯的大煙火">
 		<set name="icon" val="icon.etc_ultra_bomb_i00" />
 		<set name="default_action" val="skill_reduce" />
 		<set name="immediate_effect" val="1" />
@@ -1440,7 +1440,7 @@
 		<set name="handler" val="ItemSkills" />
 		<set name="item_skill" val="2605-1" />
 	</item>
-	<item id="13270" type="EtcItem" name="Pathfinder's Reward - AU Karm">
+	<item id="13270" type="EtcItem" name="開拓者獎勵品-奧歐卡輪">
 		<set name="icon" val="icon.etc_bead_gold_i00" />
 		<set name="default_action" val="peel" />
 		<set name="immediate_effect" val="1" />
@@ -1453,7 +1453,7 @@
 		<set name="handler" val="ExtractableItems" />
 		<set name="capsuled_items" val="13236,1,1,30" />
 	</item>
-	<item id="13271" type="EtcItem" name="Pathfinder's Reward - AR Karm">
+	<item id="13271" type="EtcItem" name="開拓者獎勵品-奧爾卡輪">
 		<set name="icon" val="icon.etc_bead_gold_i00" />
 		<set name="default_action" val="peel" />
 		<set name="immediate_effect" val="1" />
@@ -1466,7 +1466,7 @@
 		<set name="handler" val="ExtractableItems" />
 		<set name="capsuled_items" val="13237,1,1,30" />
 	</item>
-	<item id="13272" type="EtcItem" name="Pathfinder's Reward - AE Karm">
+	<item id="13272" type="EtcItem" name="開拓者獎勵品-奧耶卡輪">
 		<set name="icon" val="icon.etc_bead_gold_i00" />
 		<set name="default_action" val="peel" />
 		<set name="immediate_effect" val="1" />
@@ -1479,7 +1479,7 @@
 		<set name="handler" val="ExtractableItems" />
 		<set name="capsuled_items" val="13238,1,1,30" />
 	</item>
-	<item id="13273" type="EtcItem" name="Hunting Helper Exchange Coupon - 5 hours">
+	<item id="13273" type="EtcItem" name="狩獵幫手交換券-5小時">
 		<set name="icon" val="icon.etc_ticket_red_i00" />
 		<set name="immediate_effect" val="1" />
 		<set name="material" val="fish" />
@@ -1490,7 +1490,7 @@
 		<set name="is_sellable" val="false" />
 		<set name="is_stackable" val="true" />
 	</item>
-	<item id="13274" type="EtcItem" name="Hunting Helper Exchange Coupon - 7 days">
+	<item id="13274" type="EtcItem" name="狩獵幫手交換券-7日">
 		<set name="icon" val="icon.etc_ticket_blue_i00" />
 		<set name="immediate_effect" val="1" />
 		<set name="material" val="fish" />
@@ -1501,7 +1501,7 @@
 		<set name="is_stackable" val="true" />
 		<set name="is_premium" val="true" />
 	</item>
-	<item id="13275" type="EtcItem" name="Hunting Helper Exchange Coupon 3-Sheet Pack">
+	<item id="13275" type="EtcItem" name="狩獵幫手交換券 3張/組">
 		<set name="icon" val="icon.etc_pi_gift_box_i00" />
 		<set name="default_action" val="peel" />
 		<set name="immediate_effect" val="1" />
@@ -1514,7 +1514,7 @@
 		<set name="is_premium" val="true" />
 		<set name="capsuled_items" val="13273,3,3,100" />
 	</item>
-	<item id="13276" type="EtcItem" name="Hunting Helper Exchange Coupon 1-Sheet Pack">
+	<item id="13276" type="EtcItem" name="狩獵幫手交換券 1張/組">
 		<set name="icon" val="icon.etc_pi_gift_box_i02" />
 		<set name="default_action" val="peel" />
 		<set name="immediate_effect" val="1" />
@@ -1527,7 +1527,7 @@
 		<set name="is_premium" val="true" />
 		<set name="capsuled_items" val="13273,1,1,100" />
 	</item>
-	<item id="13277" type="EtcItem" name="Energy Star Stone">
+	<item id="13277" type="EtcItem" name="能量星石">
 		<set name="icon" val="icon.etc_int_symbol_i00" />
 		<set name="default_action" val="skill_reduce" />
 		<set name="material" val="leather" />
@@ -1536,7 +1536,7 @@
 		<set name="handler" val="EnergyStarStone" />
 		<set name="item_skill" val="2647-1" />
 	</item>
-	<item id="13278" type="EtcItem" name="High Quality Energy Star Stone">
+	<item id="13278" type="EtcItem" name="高級能量星石">
 		<set name="icon" val="icon.etc_int_symbol_i01" />
 		<set name="default_action" val="skill_reduce" />
 		<set name="material" val="leather" />
@@ -1545,7 +1545,7 @@
 		<set name="handler" val="EnergyStarStone" />
 		<set name="item_skill" val="2648-1" />
 	</item>
-	<item id="13279" type="EtcItem" name="Feather of Blessing 1-Sheet Pack">
+	<item id="13279" type="EtcItem" name="祝福的羽毛 1張/組">
 		<set name="icon" val="icon.etc_pi_gift_box_i02" />
 		<set name="default_action" val="peel" />
 		<set name="immediate_effect" val="1" />
@@ -1559,7 +1559,7 @@
 		<set name="handler" val="ExtractableItems" />
 		<set name="capsuled_items" val="10649,1,1,100" />
 	</item>
-	<item id="13280" type="EtcItem" name="Agathion of Love 7-Day Pack">
+	<item id="13280" type="EtcItem" name="愛心壺精 7日/組">
 		<set name="icon" val="icon.etc_pi_gift_box_i02" />
 		<set name="default_action" val="peel" />
 		<set name="immediate_effect" val="1" />
@@ -1573,7 +1573,7 @@
 		<set name="handler" val="ExtractableItems" />
 		<set name="capsuled_items" val="13254,1,1,100" />
 	</item>
-	<item id="13281" type="EtcItem" name="Pumpkin Transformation Stick 7 Day Pack">
+	<item id="13281" type="EtcItem" name="南瓜變身魔杖 7日/組">
 		<set name="icon" val="icon.etc_pi_gift_box_i02" />
 		<set name="default_action" val="peel" />
 		<set name="immediate_effect" val="1" />
@@ -1587,7 +1587,7 @@
 		<set name="handler" val="ExtractableItems" />
 		<set name="capsuled_items" val="13253,1,1,100" />
 	</item>
-	<item id="13282" type="EtcItem" name="Kat the Cat Hat 7-Day Pack">
+	<item id="13282" type="EtcItem" name="戰鬥貓帽 7日/組">
 		<set name="icon" val="icon.etc_pi_gift_box_i02" />
 		<set name="default_action" val="peel" />
 		<set name="immediate_effect" val="1" />
@@ -1601,7 +1601,7 @@
 		<set name="handler" val="ExtractableItems" />
 		<set name="capsuled_items" val="13239,1,1,100" />
 	</item>
-	<item id="13283" type="EtcItem" name="Feline Queen Hat 7-Day Pack">
+	<item id="13283" type="EtcItem" name="皇后貓帽 7日/組">
 		<set name="icon" val="icon.etc_pi_gift_box_i02" />
 		<set name="default_action" val="peel" />
 		<set name="immediate_effect" val="1" />
@@ -1615,7 +1615,7 @@
 		<set name="handler" val="ExtractableItems" />
 		<set name="capsuled_items" val="13240,1,1,100" />
 	</item>
-	<item id="13284" type="EtcItem" name="Monster Eye Hat 7-Day Pack">
+	<item id="13284" type="EtcItem" name="眼怪帽 7日/組">
 		<set name="icon" val="icon.etc_pi_gift_box_i02" />
 		<set name="default_action" val="peel" />
 		<set name="immediate_effect" val="1" />
@@ -1629,7 +1629,7 @@
 		<set name="handler" val="ExtractableItems" />
 		<set name="capsuled_items" val="13241,1,1,100" />
 	</item>
-	<item id="13285" type="EtcItem" name="Brown Bear Hat 7-Day Pack">
+	<item id="13285" type="EtcItem" name="棕熊帽 7日/組">
 		<set name="icon" val="icon.etc_pi_gift_box_i02" />
 		<set name="default_action" val="peel" />
 		<set name="immediate_effect" val="1" />
@@ -1643,7 +1643,7 @@
 		<set name="handler" val="ExtractableItems" />
 		<set name="capsuled_items" val="13242,1,1,100" />
 	</item>
-	<item id="13286" type="EtcItem" name="Fungus Hat 7-Day Pack">
+	<item id="13286" type="EtcItem" name="蘑菇帽 7日/組">
 		<set name="icon" val="icon.etc_pi_gift_box_i02" />
 		<set name="default_action" val="peel" />
 		<set name="immediate_effect" val="1" />
@@ -1657,7 +1657,7 @@
 		<set name="handler" val="ExtractableItems" />
 		<set name="capsuled_items" val="13243,1,1,100" />
 	</item>
-	<item id="13287" type="EtcItem" name="Skull Hat 7-Day Pack">
+	<item id="13287" type="EtcItem" name="骷髏帽 7日/組">
 		<set name="icon" val="icon.etc_pi_gift_box_i02" />
 		<set name="default_action" val="peel" />
 		<set name="immediate_effect" val="1" />
@@ -1671,7 +1671,7 @@
 		<set name="handler" val="ExtractableItems" />
 		<set name="capsuled_items" val="13244,1,1,100" />
 	</item>
-	<item id="13288" type="EtcItem" name="Ornithomimus Hat 7-Day Pack">
+	<item id="13288" type="EtcItem" name="似鳥龍帽 7日/組">
 		<set name="icon" val="icon.etc_pi_gift_box_i02" />
 		<set name="default_action" val="peel" />
 		<set name="immediate_effect" val="1" />
@@ -1685,7 +1685,7 @@
 		<set name="handler" val="ExtractableItems" />
 		<set name="capsuled_items" val="13245,1,1,100" />
 	</item>
-	<item id="13289" type="EtcItem" name="Feline King Hat 7-Day Pack">
+	<item id="13289" type="EtcItem" name="國王貓帽 7日/組">
 		<set name="icon" val="icon.etc_pi_gift_box_i02" />
 		<set name="default_action" val="peel" />
 		<set name="immediate_effect" val="1" />
@@ -1699,7 +1699,7 @@
 		<set name="handler" val="ExtractableItems" />
 		<set name="capsuled_items" val="13246,1,1,100" />
 	</item>
-	<item id="13290" type="EtcItem" name="Kai the Cat Hat 7-Day Pack">
+	<item id="13290" type="EtcItem" name="銀色貓帽 7日/組">
 		<set name="icon" val="icon.etc_pi_gift_box_i02" />
 		<set name="default_action" val="peel" />
 		<set name="immediate_effect" val="1" />
@@ -1713,7 +1713,7 @@
 		<set name="handler" val="ExtractableItems" />
 		<set name="capsuled_items" val="13247,1,1,100" />
 	</item>
-	<item id="13291" type="EtcItem" name="OX Stick 7-Day Pack">
+	<item id="13291" type="EtcItem" name="OX 魔杖 7日/組">
 		<set name="icon" val="icon.etc_pi_gift_box_i02" />
 		<set name="default_action" val="peel" />
 		<set name="immediate_effect" val="1" />
@@ -1726,7 +1726,7 @@
 		<set name="is_premium" val="true" />
 		<set name="capsuled_items" val="13248,1,1,100;13249,1,1,100" />
 	</item>
-	<item id="13292" type="EtcItem" name="Rock-Paper-Scissors Stick 7-Day Pack">
+	<item id="13292" type="EtcItem" name="剪刀石頭布魔杖 7日/組">
 		<set name="icon" val="icon.etc_pi_gift_box_i02" />
 		<set name="default_action" val="peel" />
 		<set name="immediate_effect" val="1" />
@@ -1739,7 +1739,7 @@
 		<set name="is_premium" val="true" />
 		<set name="capsuled_items" val="13250,1,1,100;13251,1,1,100;13252,1,1,100" />
 	</item>
-	<item id="13293" type="Armor" name="Pailaka Earring">
+	<item id="13293" type="Armor" name="菲拉卡耳環">
 		<set name="icon" val="icon.accessary_onyxbeastseye_earing_i00" />
 		<set name="default_action" val="equip" />
 		<set name="bodypart" val="rear;lear" />
@@ -1755,7 +1755,7 @@
 			<add order="0x40" stat="maxMp" val="20" />
 		</for>
 	</item>
-	<item id="13294" type="Armor" name="Pailaka Ring">
+	<item id="13294" type="Armor" name="菲拉卡戒指">
 		<set name="icon" val="icon.accessary_mithril_ring_i00" />
 		<set name="default_action" val="equip" />
 		<set name="bodypart" val="rfinger;lfinger" />
@@ -1771,7 +1771,7 @@
 			<add order="0x40" stat="maxMp" val="15" />
 		</for>
 	</item>
-	<item id="13295" type="Armor" name="Pailaka Bracelet">
+	<item id="13295" type="Armor" name="菲拉卡手鐲">
 		<set name="icon" val="icon.etc_rbracelet_c_i00" />
 		<set name="default_action" val="equip" />
 		<set name="bodypart" val="rbracelet" />
@@ -1787,7 +1787,7 @@
 			<add order="0x40" stat="maxMp" val="20" />
 		</for>
 	</item>
-	<item id="13296" type="Armor" name="Pailaka Shirt">
+	<item id="13296" type="Armor" name="菲拉卡衫">
 		<set name="icon" val="icon.etc_shirts_a_i04" />
 		<set name="default_action" val="equip" />
 		<set name="bodypart" val="underwear" />
@@ -1803,7 +1803,7 @@
 			<add order="0x40" stat="maxMp" val="40" />
 		</for>
 	</item>
-	<item id="13297" type="EtcItem" name="Extra Entrance Pass - Kamaloka (Hall of the Abyss) (Event)">
+	<item id="13297" type="EtcItem" name="追加入場券-欲界(深淵之廳)-活動用">
 		<set name="icon" val="icon.ticket_i00" />
 		<set name="default_action" val="skill_reduce" />
 		<set name="material" val="paper" />
@@ -1815,7 +1815,7 @@
 		<set name="is_stackable" val="true" />
 		<set name="item_skill" val="2619-1" />
 	</item>
-	<item id="13298" type="EtcItem" name="Extra Entrance Pass - Near Kamaloka (Event)">
+	<item id="13298" type="EtcItem" name="追加入場券-近緣欲界-活動用">
 		<set name="icon" val="icon.ticket_i00" />
 		<set name="default_action" val="skill_reduce" />
 		<set name="material" val="paper" />
@@ -1827,7 +1827,7 @@
 		<set name="is_stackable" val="true" />
 		<set name="item_skill" val="2620-1" />
 	</item>
-	<item id="13299" type="EtcItem" name="Extra Entrance Pass - Kamaloka (Labyrinth of the Abyss) (Event)">
+	<item id="13299" type="EtcItem" name="追加入場券-欲界(深淵迷宮)-活動用">
 		<set name="icon" val="icon.ticket_i00" />
 		<set name="default_action" val="skill_reduce" />
 		<set name="material" val="paper" />

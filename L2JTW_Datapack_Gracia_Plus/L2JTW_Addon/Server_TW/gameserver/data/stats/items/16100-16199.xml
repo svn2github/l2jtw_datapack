@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <list>
-	<item id="16100" type="Armor" name="Refined Green Skeleton Circlet">
+	<item id="16100" type="Armor" name="時髦綠色骷髏頭箍">
 		<set name="icon" val="icon.accessory_animal_warrior_skeleton_circlet_i00" />
 		<set name="default_action" val="equip" />
 		<set name="bodypart" val="hairall" />
@@ -9,7 +9,7 @@
 		<set name="weight" val="10" />
 		<set name="price" val="6000000" />
 	</item>
-	<item id="16101" type="Armor" name="Refined Brown Skeleton Circlet">
+	<item id="16101" type="Armor" name="時髦棕色骷髏頭箍">
 		<set name="icon" val="icon.accessory_animal_rage_skeleton_circlet_i00" />
 		<set name="default_action" val="equip" />
 		<set name="bodypart" val="hairall" />
@@ -18,7 +18,7 @@
 		<set name="weight" val="10" />
 		<set name="price" val="6000000" />
 	</item>
-	<item id="16102" type="Armor" name="Refined Shark Hat">
+	<item id="16102" type="Armor" name="時髦鯊魚帽">
 		<set name="icon" val="icon.accessory_shark_of_cap_i00" />
 		<set name="default_action" val="equip" />
 		<set name="bodypart" val="hairall" />
@@ -27,7 +27,7 @@
 		<set name="weight" val="10" />
 		<set name="price" val="6000000" />
 	</item>
-	<item id="16103" type="Armor" name="Chic Gold Horn Cap">
+	<item id="16103" type="Armor" name="時髦金角帽">
 		<set name="icon" val="icon.accessory_horn01_hat_i00" />
 		<set name="default_action" val="equip" />
 		<set name="bodypart" val="hairall" />
@@ -36,7 +36,7 @@
 		<set name="weight" val="10" />
 		<set name="price" val="6000000" />
 	</item>
-	<item id="16104" type="Armor" name="Chic Silver Horn Cap">
+	<item id="16104" type="Armor" name="時髦銀角帽">
 		<set name="icon" val="icon.accessory_horn01_hat_i01" />
 		<set name="default_action" val="equip" />
 		<set name="bodypart" val="hairall" />
@@ -45,7 +45,7 @@
 		<set name="weight" val="10" />
 		<set name="price" val="6000000" />
 	</item>
-	<item id="16105" type="Armor" name="Refined Penguin Hat">
+	<item id="16105" type="Armor" name="時髦企鵝帽">
 		<set name="icon" val="icon.accessory_penguin_of_cap_i00" />
 		<set name="default_action" val="equip" />
 		<set name="bodypart" val="hairall" />
@@ -54,7 +54,7 @@
 		<set name="weight" val="10" />
 		<set name="price" val="6000000" />
 	</item>
-	<item id="16106" type="Armor" name="Refined Brown Turban">
+	<item id="16106" type="Armor" name="時髦棕色頭巾">
 		<set name="icon" val="icon.accessory_turban_yellow_hat_i00" />
 		<set name="default_action" val="equip" />
 		<set name="bodypart" val="hairall" />
@@ -63,7 +63,7 @@
 		<set name="weight" val="10" />
 		<set name="price" val="6000000" />
 	</item>
-	<item id="16107" type="Armor" name="Refined Yellow Turban">
+	<item id="16107" type="Armor" name="時髦黃色頭巾">
 		<set name="icon" val="icon.accessory_turban_yellow_hat_i01" />
 		<set name="default_action" val="equip" />
 		<set name="bodypart" val="hairall" />
@@ -72,7 +72,7 @@
 		<set name="weight" val="10" />
 		<set name="price" val="6000000" />
 	</item>
-	<item id="16108" type="Armor" name="Refined Turtle Hat">
+	<item id="16108" type="Armor" name="時髦烏龜帽">
 		<set name="icon" val="icon.accessory_turtle_of_cap_i00" />
 		<set name="default_action" val="equip" />
 		<set name="bodypart" val="hairall" />
@@ -81,7 +81,7 @@
 		<set name="weight" val="10" />
 		<set name="price" val="6000000" />
 	</item>
-	<item id="16109" type="Armor" name="Refined Cow Hat">
+	<item id="16109" type="Armor" name="時髦牛牛帽">
 		<set name="icon" val="icon.accessory_cow_of_cap_i00" />
 		<set name="default_action" val="equip" />
 		<set name="bodypart" val="hairall" />
@@ -90,7 +90,7 @@
 		<set name="weight" val="10" />
 		<set name="price" val="6000000" />
 	</item>
-	<item id="16110" type="EtcItem" name="Recipe - Refined Black Skeleton Circlet (10%)">
+	<item id="16110" type="EtcItem" name="製作卷軸(時髦黑色骷髏頭箍10%)">
 		<set name="icon" val="icon.etc_recipe_green_i00" />
 		<set name="default_action" val="recipe" />
 		<set name="etcitem_type" val="recipe" />
@@ -102,7 +102,7 @@
 		<set name="is_stackable" val="true" />
 		<set name="handler" val="Recipes" />
 	</item>
-	<item id="16111" type="EtcItem" name="Recipe - Refined Orange Skeleton Circlet (10%)">
+	<item id="16111" type="EtcItem" name="製作卷軸(時髦橙色骷髏頭箍10%)">
 		<set name="icon" val="icon.etc_recipe_green_i00" />
 		<set name="default_action" val="recipe" />
 		<set name="etcitem_type" val="recipe" />
@@ -114,7 +114,7 @@
 		<set name="is_stackable" val="true" />
 		<set name="handler" val="Recipes" />
 	</item>
-	<item id="16112" type="EtcItem" name="Recipe - Refined Green Skeleton Circlet (10%)">
+	<item id="16112" type="EtcItem" name="製作卷軸(時髦綠色骷髏頭箍10%)">
 		<set name="icon" val="icon.etc_recipe_green_i00" />
 		<set name="default_action" val="recipe" />
 		<set name="etcitem_type" val="recipe" />
@@ -126,7 +126,7 @@
 		<set name="is_stackable" val="true" />
 		<set name="handler" val="Recipes" />
 	</item>
-	<item id="16113" type="EtcItem" name="Recipe - Refined Brown Skeleton Circlet (10%)">
+	<item id="16113" type="EtcItem" name="製作卷軸(時髦棕色骷髏頭箍10%)">
 		<set name="icon" val="icon.etc_recipe_green_i00" />
 		<set name="default_action" val="recipe" />
 		<set name="etcitem_type" val="recipe" />
@@ -138,7 +138,7 @@
 		<set name="is_stackable" val="true" />
 		<set name="handler" val="Recipes" />
 	</item>
-	<item id="16114" type="EtcItem" name="Recipe - Refined Shark Hat (10%)">
+	<item id="16114" type="EtcItem" name="製作卷軸(時髦鯊魚帽10%)">
 		<set name="icon" val="icon.etc_recipe_green_i00" />
 		<set name="default_action" val="recipe" />
 		<set name="etcitem_type" val="recipe" />
@@ -150,7 +150,7 @@
 		<set name="is_stackable" val="true" />
 		<set name="handler" val="Recipes" />
 	</item>
-	<item id="16115" type="EtcItem" name="Recipe - Chick Gold Horn Cap (10%)">
+	<item id="16115" type="EtcItem" name="製作卷軸(時髦金角帽10%)">
 		<set name="icon" val="icon.etc_recipe_green_i00" />
 		<set name="default_action" val="recipe" />
 		<set name="etcitem_type" val="recipe" />
@@ -162,7 +162,7 @@
 		<set name="is_stackable" val="true" />
 		<set name="handler" val="Recipes" />
 	</item>
-	<item id="16116" type="EtcItem" name="Recipe - Chick Silver Horn Cap (10%)">
+	<item id="16116" type="EtcItem" name="製作卷軸(時髦銀角帽10%)">
 		<set name="icon" val="icon.etc_recipe_green_i00" />
 		<set name="default_action" val="recipe" />
 		<set name="etcitem_type" val="recipe" />
@@ -174,7 +174,7 @@
 		<set name="is_stackable" val="true" />
 		<set name="handler" val="Recipes" />
 	</item>
-	<item id="16117" type="EtcItem" name="Recipe - Refined Penguin Hat (10%)">
+	<item id="16117" type="EtcItem" name="製作卷軸(時髦企鵝帽10%)">
 		<set name="icon" val="icon.etc_recipe_green_i00" />
 		<set name="default_action" val="recipe" />
 		<set name="etcitem_type" val="recipe" />
@@ -186,7 +186,7 @@
 		<set name="is_stackable" val="true" />
 		<set name="handler" val="Recipes" />
 	</item>
-	<item id="16118" type="EtcItem" name="Recipe - Refined Brown Turban (10%)">
+	<item id="16118" type="EtcItem" name="製作卷軸(時髦棕色頭巾10%)">
 		<set name="icon" val="icon.etc_recipe_green_i00" />
 		<set name="default_action" val="recipe" />
 		<set name="etcitem_type" val="recipe" />
@@ -198,7 +198,7 @@
 		<set name="is_stackable" val="true" />
 		<set name="handler" val="Recipes" />
 	</item>
-	<item id="16119" type="EtcItem" name="Recipe - Refined Yellow Turban (10%)">
+	<item id="16119" type="EtcItem" name="製作卷軸(時髦黃色頭巾10%)">
 		<set name="icon" val="icon.etc_recipe_green_i00" />
 		<set name="default_action" val="recipe" />
 		<set name="etcitem_type" val="recipe" />
@@ -210,7 +210,7 @@
 		<set name="is_stackable" val="true" />
 		<set name="handler" val="Recipes" />
 	</item>
-	<item id="16120" type="EtcItem" name="Recipe - Refined Turtle Hat (10%)">
+	<item id="16120" type="EtcItem" name="製作卷軸(時髦烏龜帽10%)">
 		<set name="icon" val="icon.etc_recipe_green_i00" />
 		<set name="default_action" val="recipe" />
 		<set name="etcitem_type" val="recipe" />
@@ -222,7 +222,7 @@
 		<set name="is_stackable" val="true" />
 		<set name="handler" val="Recipes" />
 	</item>
-	<item id="16121" type="EtcItem" name="Recipe - Refined Cow Hat (10%)">
+	<item id="16121" type="EtcItem" name="製作卷軸(時髦牛牛帽10%)">
 		<set name="icon" val="icon.etc_recipe_green_i00" />
 		<set name="default_action" val="recipe" />
 		<set name="etcitem_type" val="recipe" />
@@ -234,7 +234,7 @@
 		<set name="is_stackable" val="true" />
 		<set name="handler" val="Recipes" />
 	</item>
-	<item id="16122" type="EtcItem" name="Refined Black Skeleton Circlet Piece">
+	<item id="16122" type="EtcItem" name="時髦黑色骷髏頭箍碎片">
 		<set name="icon" val="icon.etc_broken_crystal_green_i00" />
 		<set name="etcitem_type" val="material" />
 		<set name="immediate_effect" val="1" />
@@ -243,7 +243,7 @@
 		<set name="price" val="23000" />
 		<set name="is_stackable" val="true" />
 	</item>
-	<item id="16123" type="EtcItem" name="Refined Orange Skeleton Circlet Piece">
+	<item id="16123" type="EtcItem" name="時髦橙色骷髏頭箍碎片">
 		<set name="icon" val="icon.etc_broken_crystal_green_i00" />
 		<set name="etcitem_type" val="material" />
 		<set name="immediate_effect" val="1" />
@@ -252,7 +252,7 @@
 		<set name="price" val="23000" />
 		<set name="is_stackable" val="true" />
 	</item>
-	<item id="16124" type="EtcItem" name="Refined Green Skeleton Circlet Piece">
+	<item id="16124" type="EtcItem" name="時髦綠色骷髏頭箍碎片">
 		<set name="icon" val="icon.etc_broken_crystal_green_i00" />
 		<set name="etcitem_type" val="material" />
 		<set name="immediate_effect" val="1" />
@@ -261,7 +261,7 @@
 		<set name="price" val="23000" />
 		<set name="is_stackable" val="true" />
 	</item>
-	<item id="16125" type="EtcItem" name="Refined Brown Skeleton Circlet Piece">
+	<item id="16125" type="EtcItem" name="時髦棕色骷髏頭箍碎片">
 		<set name="icon" val="icon.etc_broken_crystal_green_i00" />
 		<set name="etcitem_type" val="material" />
 		<set name="immediate_effect" val="1" />
@@ -270,7 +270,7 @@
 		<set name="price" val="23000" />
 		<set name="is_stackable" val="true" />
 	</item>
-	<item id="16126" type="EtcItem" name="Fabric of Refined Shark Hat">
+	<item id="16126" type="EtcItem" name="時髦鯊魚帽碎片">
 		<set name="icon" val="icon.etc_piece_of_cloth_blue_i00" />
 		<set name="etcitem_type" val="material" />
 		<set name="immediate_effect" val="1" />
@@ -279,7 +279,7 @@
 		<set name="price" val="23000" />
 		<set name="is_stackable" val="true" />
 	</item>
-	<item id="16127" type="EtcItem" name="Fabric of Chic Gold Horn Cap">
+	<item id="16127" type="EtcItem" name="時髦金角帽碎片">
 		<set name="icon" val="icon.etc_piece_of_cloth_blue_i00" />
 		<set name="etcitem_type" val="material" />
 		<set name="immediate_effect" val="1" />
@@ -288,7 +288,7 @@
 		<set name="price" val="23000" />
 		<set name="is_stackable" val="true" />
 	</item>
-	<item id="16128" type="EtcItem" name="Fabric of Chic Silver Horn Cap">
+	<item id="16128" type="EtcItem" name="時髦銀角帽碎片">
 		<set name="icon" val="icon.etc_piece_of_cloth_blue_i00" />
 		<set name="etcitem_type" val="material" />
 		<set name="immediate_effect" val="1" />
@@ -297,7 +297,7 @@
 		<set name="price" val="23000" />
 		<set name="is_stackable" val="true" />
 	</item>
-	<item id="16129" type="EtcItem" name="Fabric of Refined Penguin Hat">
+	<item id="16129" type="EtcItem" name="時髦企鵝帽碎片">
 		<set name="icon" val="icon.etc_piece_of_cloth_blue_i00" />
 		<set name="etcitem_type" val="material" />
 		<set name="immediate_effect" val="1" />
@@ -306,7 +306,7 @@
 		<set name="price" val="23000" />
 		<set name="is_stackable" val="true" />
 	</item>
-	<item id="16130" type="EtcItem" name="Fabric of Refined Brown Turban">
+	<item id="16130" type="EtcItem" name="時髦棕色頭巾碎片">
 		<set name="icon" val="icon.etc_piece_of_cloth_blue_i00" />
 		<set name="etcitem_type" val="material" />
 		<set name="immediate_effect" val="1" />
@@ -315,7 +315,7 @@
 		<set name="price" val="23000" />
 		<set name="is_stackable" val="true" />
 	</item>
-	<item id="16131" type="EtcItem" name="Fabric of Refined Yellow Turban">
+	<item id="16131" type="EtcItem" name="時髦黃色頭巾碎片">
 		<set name="icon" val="icon.etc_piece_of_cloth_blue_i00" />
 		<set name="etcitem_type" val="material" />
 		<set name="immediate_effect" val="1" />
@@ -324,7 +324,7 @@
 		<set name="price" val="23000" />
 		<set name="is_stackable" val="true" />
 	</item>
-	<item id="16132" type="EtcItem" name="Fabric of Refined Turtle Hat">
+	<item id="16132" type="EtcItem" name="時髦烏龜帽碎片">
 		<set name="icon" val="icon.etc_piece_of_cloth_blue_i00" />
 		<set name="etcitem_type" val="material" />
 		<set name="immediate_effect" val="1" />
@@ -333,7 +333,7 @@
 		<set name="price" val="23000" />
 		<set name="is_stackable" val="true" />
 	</item>
-	<item id="16133" type="EtcItem" name="Fabric of Refined Cow Hat">
+	<item id="16133" type="EtcItem" name="時髦牛牛帽碎片">
 		<set name="icon" val="icon.etc_piece_of_cloth_blue_i00" />
 		<set name="etcitem_type" val="material" />
 		<set name="immediate_effect" val="1" />
@@ -342,7 +342,7 @@
 		<set name="price" val="23000" />
 		<set name="is_stackable" val="true" />
 	</item>
-	<item id="16134" type="Weapon" name="Vesper Cutter- Thunder {PvP}">
+	<item id="16134" type="Weapon" name="薄暮切刃-雷鳴 {對戰用}">
 		<set name="icon" val="icon.weapon_vesper_cutter_i00" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="sword" />
@@ -372,7 +372,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="16135" type="Weapon" name="Vesper Slasher- Gail {PvP}">
+	<item id="16135" type="Weapon" name="薄暮殺刃-疾風 {對戰用}">
 		<set name="icon" val="icon.weapon_vesper_slasher_i00" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="bigsword" />
@@ -402,7 +402,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="16136" type="Weapon" name="Vesper Buster - Cleverness {PvP}">
+	<item id="16136" type="Weapon" name="薄暮爆刃-聰明 {對戰用}">
 		<set name="icon" val="icon.weapon_vesper_burster_i00" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="sword" />
@@ -433,7 +433,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="16137" type="Weapon" name="Vesper Shaper - Gail {PvP}">
+	<item id="16137" type="Weapon" name="薄暮鉋刀-疾風 {對戰用}">
 		<set name="icon" val="icon.weapon_vesper_shaper_i00" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="dagger" />
@@ -465,7 +465,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="16138" type="Weapon" name="Vesper Fighter - Gail {PvP}">
+	<item id="16138" type="Weapon" name="薄暮戰爪-疾風 {對戰用}">
 		<set name="icon" val="icon.weapon_vesper_fighter_i00" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="dualfist" />
@@ -497,7 +497,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="16139" type="Weapon" name="Vesper Stormer - Thunder {PvP}">
+	<item id="16139" type="Weapon" name="薄暮風暴者-雷鳴 {對戰用}">
 		<set name="icon" val="icon.weapon_vesper_stormer_i00" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="pole" />
@@ -529,7 +529,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="16140" type="Weapon" name="Vesper Avenger - Landslide {PvP}">
+	<item id="16140" type="Weapon" name="薄暮復仇者-山崩 {對戰用}">
 		<set name="icon" val="icon.weapon_vesper_avenger_i00" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="blunt" />
@@ -561,7 +561,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="16141" type="Weapon" name="Vesper Retributer - Gail {PvP}">
+	<item id="16141" type="Weapon" name="薄暮報恨者-疾風 {對戰用}">
 		<set name="icon" val="icon.weapon_vesper_retributer_i00" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="bigblunt" />
@@ -593,7 +593,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="16142" type="Weapon" name="Vesper Caster - Cleverness {PvP}">
+	<item id="16142" type="Weapon" name="薄暮術杖-聰明 {對戰用}">
 		<set name="icon" val="icon.weapon_vesper_caster_i00" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="blunt" />
@@ -626,7 +626,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="16143" type="Weapon" name="Vesper Singer - Tidal Wave {PvP}">
+	<item id="16143" type="Weapon" name="薄暮詩杖-海嘯 {對戰用}">
 		<set name="icon" val="icon.weapon_vesper_singer_i00" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="bigblunt" />
@@ -659,7 +659,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="16144" type="Weapon" name="Vesper Thrower - Clairvoyance {PvP}">
+	<item id="16144" type="Weapon" name="薄暮投弓-千里眼 {對戰用}">
 		<set name="icon" val="icon.weapon_vesper_thrower_i00" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="bow" />
@@ -693,7 +693,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="16145" type="Weapon" name="Vesper Pincer- Thunder {PvP}">
+	<item id="16145" type="Weapon" name="薄暮螯針-雷鳴 {對戰用}">
 		<set name="icon" val="icon.weapon_vesper_pincer_i00" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="rapier" />
@@ -727,7 +727,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="16146" type="Weapon" name="Vesper Schutze - Clairvoyance {PvP}">
+	<item id="16146" type="Weapon" name="薄暮射靈-千里眼 {對戰用}">
 		<set name="icon" val="icon.weapon_vesper_schutze_i00" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="crossbow" />
@@ -761,7 +761,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="16147" type="Weapon" name="Vesper Nagan - Gail {PvP}">
+	<item id="16147" type="Weapon" name="薄暮槍刃-疾風 {對戰用}">
 		<set name="icon" val="icon.weapon_vesper_nagen_i00" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="ancientsword" />
@@ -794,7 +794,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="16148" type="Weapon" name="Vesper Dual Daggers - Gale">
+	<item id="16148" type="Weapon" name="薄暮雙匕首-疾風">
 		<set name="icon" val="icon.dual_dagger_i00" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="dualdagger" />
@@ -832,7 +832,7 @@
 			</and>
 		</cond>
 	</item>
-	<item id="16149" type="Weapon" name="Vesper Dual Daggers - Gale {PvP}">
+	<item id="16149" type="Weapon" name="薄暮雙匕首-疾風 {對戰用}">
 		<set name="icon" val="icon.dual_dagger_i00" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="dualdagger" />
@@ -872,7 +872,7 @@
 			</and>
 		</cond>
 	</item>
-	<item id="16150" type="Weapon" name="Vesper Dual Sword - Destruction">
+	<item id="16150" type="Weapon" name="薄暮雙刀-破壞">
 		<set name="icon" val="icon.weapon_dual_sword_i00" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="dual" />
@@ -901,7 +901,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="16151" type="Weapon" name="Vesper Dual Sword - Destruction {PvP}">
+	<item id="16151" type="Weapon" name="薄暮雙刀-破壞 {對戰用}">
 		<set name="icon" val="icon.weapon_dual_sword_i00" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="dual" />
@@ -932,7 +932,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="16152" type="Weapon" name="Skull Edge Dual Daggers">
+	<item id="16152" type="Weapon" name="滅骨之鋒雙匕首">
 		<set name="icon" val="icon.dual_dagger_i00" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="dualdagger" />
@@ -970,7 +970,7 @@
 			</and>
 		</cond>
 	</item>
-	<item id="16153" type="Weapon" name="Skull Edge Dual Daggers {PvP}">
+	<item id="16153" type="Weapon" name="滅骨之鋒雙匕首 {對戰用}">
 		<set name="icon" val="icon.dual_dagger_i00" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="dualdagger" />
@@ -1010,7 +1010,7 @@
 			</and>
 		</cond>
 	</item>
-	<item id="16154" type="Weapon" name="Periel Dual Sword">
+	<item id="16154" type="Weapon" name="佩利爾雙刀">
 		<set name="icon" val="icon.weapon_dual_sword_i00" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="dual" />
@@ -1039,7 +1039,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="16155" type="Weapon" name="Periel Dual Sword {PvP}">
+	<item id="16155" type="Weapon" name="佩利爾雙刀 {對戰用}">
 		<set name="icon" val="icon.weapon_dual_sword_i00" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="dual" />
@@ -1070,7 +1070,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="16156" type="Weapon" name="Mamba Edge Dual Daggers">
+	<item id="16156" type="Weapon" name="毒蛇祕刃雙匕首">
 		<set name="icon" val="icon.dual_dagger_i00" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="dualdagger" />
@@ -1108,7 +1108,7 @@
 			</and>
 		</cond>
 	</item>
-	<item id="16157" type="Weapon" name="Mamba Edge Dual Daggers {PvP}">
+	<item id="16157" type="Weapon" name="毒蛇祕刃雙匕首 {對戰用}">
 		<set name="icon" val="icon.dual_dagger_i00" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="dualdagger" />
@@ -1148,7 +1148,7 @@
 			</and>
 		</cond>
 	</item>
-	<item id="16158" type="Weapon" name="Eternal Core Dual Sword">
+	<item id="16158" type="Weapon" name="無盡核心雙刀">
 		<set name="icon" val="icon.weapon_dual_sword_i00" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="dual" />
@@ -1177,7 +1177,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="16159" type="Weapon" name="Eternal Core Dual Sword {PvP}">
+	<item id="16159" type="Weapon" name="無盡核心雙刀 {對戰用}">
 		<set name="icon" val="icon.weapon_dual_sword_i00" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="dual" />
@@ -1208,7 +1208,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="16160" type="EtcItem" name="Life Stone - level 85">
+	<item id="16160" type="EtcItem" name="生命石-85級">
 		<set name="icon" val="icon.etc_mineral_general_i03" />
 		<set name="immediate_effect" val="1" />
 		<set name="material" val="liquid" />
@@ -1217,7 +1217,7 @@
 		<set name="is_stackable" val="true" />
 		<set name="use_condition" val="{{uc_requiredlevel;85}}" />
 	</item>
-	<item id="16161" type="EtcItem" name="Mid-Grade Life Stone - level 85">
+	<item id="16161" type="EtcItem" name="中級生命石-85級">
 		<set name="icon" val="icon.etc_mineral_special_i03" />
 		<set name="immediate_effect" val="1" />
 		<set name="material" val="liquid" />
@@ -1226,7 +1226,7 @@
 		<set name="is_stackable" val="true" />
 		<set name="use_condition" val="{{uc_requiredlevel;85}}" />
 	</item>
-	<item id="16162" type="EtcItem" name="High-Grade Life Stone - level 85">
+	<item id="16162" type="EtcItem" name="高級生命石-85級">
 		<set name="icon" val="icon.etc_mineral_rare_i03" />
 		<set name="immediate_effect" val="1" />
 		<set name="material" val="liquid" />
@@ -1235,7 +1235,7 @@
 		<set name="is_stackable" val="true" />
 		<set name="use_condition" val="{{uc_requiredlevel;85}}" />
 	</item>
-	<item id="16163" type="EtcItem" name="Top-Grade Life Stone - level 85">
+	<item id="16163" type="EtcItem" name="特級生命石-85級">
 		<set name="icon" val="icon.etc_mineral_unique_i03" />
 		<set name="immediate_effect" val="1" />
 		<set name="material" val="liquid" />
@@ -1244,7 +1244,7 @@
 		<set name="is_stackable" val="true" />
 		<set name="use_condition" val="{{uc_requiredlevel;85}}" />
 	</item>
-	<item id="16164" type="EtcItem" name="Life Stone - level 86">
+	<item id="16164" type="EtcItem" name="生命石-86級">
 		<set name="icon" val="icon.etc_mineral_general_i03" />
 		<set name="immediate_effect" val="1" />
 		<set name="material" val="liquid" />
@@ -1253,7 +1253,7 @@
 		<set name="is_stackable" val="true" />
 		<set name="use_condition" val="{{uc_requiredlevel;85}}" />
 	</item>
-	<item id="16165" type="EtcItem" name="Mid-Grade Life Stone - level 86">
+	<item id="16165" type="EtcItem" name="中級生命石-86級">
 		<set name="icon" val="icon.etc_mineral_special_i03" />
 		<set name="immediate_effect" val="1" />
 		<set name="material" val="liquid" />
@@ -1262,7 +1262,7 @@
 		<set name="is_stackable" val="true" />
 		<set name="use_condition" val="{{uc_requiredlevel;85}}" />
 	</item>
-	<item id="16166" type="EtcItem" name="High-Grade Life Stone - level 86">
+	<item id="16166" type="EtcItem" name="高級生命石-86級">
 		<set name="icon" val="icon.etc_mineral_rare_i03" />
 		<set name="immediate_effect" val="1" />
 		<set name="material" val="liquid" />
@@ -1271,7 +1271,7 @@
 		<set name="is_stackable" val="true" />
 		<set name="use_condition" val="{{uc_requiredlevel;85}}" />
 	</item>
-	<item id="16167" type="EtcItem" name="Top-Grade Life Stone - level 86">
+	<item id="16167" type="EtcItem" name="特級生命石-86級">
 		<set name="icon" val="icon.etc_mineral_unique_i03" />
 		<set name="immediate_effect" val="1" />
 		<set name="material" val="liquid" />
@@ -1280,7 +1280,7 @@
 		<set name="is_stackable" val="true" />
 		<set name="use_condition" val="{{uc_requiredlevel;85}}" />
 	</item>
-	<item id="16168" type="Armor" name="Vesper Breastplate {PvP}">
+	<item id="16168" type="Armor" name="殤曲胸甲 {對戰用}">
 		<set name="icon" val="icon.armor_t97_u_i00" />
 		<set name="default_action" val="equip" />
 		<set name="armor_type" val="heavy" />
@@ -1301,7 +1301,7 @@
 			<enchant order="0x0C" stat="pDef" val="0" />
 		</for>
 	</item>
-	<item id="16169" type="Armor" name="Elegia Leather Breastplate {PvP}">
+	<item id="16169" type="Armor" name="殤曲皮胸甲 {對戰用}">
 		<set name="icon" val="icon.armor_t98_u_i00" />
 		<set name="default_action" val="equip" />
 		<set name="armor_type" val="light" />
@@ -1321,7 +1321,7 @@
 			<enchant order="0x0C" stat="pDef" val="0" />
 		</for>
 	</item>
-	<item id="16170" type="Armor" name="Elegia Tunic {PvP}">
+	<item id="16170" type="Armor" name="殤曲外衣 {對戰用}">
 		<set name="icon" val="icon.armor_t99_u_i00" />
 		<set name="default_action" val="equip" />
 		<set name="armor_type" val="magic" />
@@ -1343,7 +1343,7 @@
 			<enchant order="0x0C" stat="pDef" val="0" />
 		</for>
 	</item>
-	<item id="16171" type="Armor" name="Vorpal Breastplate {PvP}">
+	<item id="16171" type="Armor" name="博佩斯胸甲 {對戰用}">
 		<set name="icon" val="icon.armor_t94_u_i03" />
 		<set name="default_action" val="equip" />
 		<set name="armor_type" val="heavy" />
@@ -1364,7 +1364,7 @@
 			<enchant order="0x0C" stat="pDef" val="0" />
 		</for>
 	</item>
-	<item id="16172" type="Armor" name="Vorpal Leather Breastplate {PvP}">
+	<item id="16172" type="Armor" name="博佩斯皮胸甲 {對戰用}">
 		<set name="icon" val="icon.armor_t95_u_i03" />
 		<set name="default_action" val="equip" />
 		<set name="armor_type" val="light" />
@@ -1384,7 +1384,7 @@
 			<enchant order="0x0C" stat="pDef" val="0" />
 		</for>
 	</item>
-	<item id="16173" type="Armor" name="Vorpal Tunic {PvP}">
+	<item id="16173" type="Armor" name="博佩斯外衣 {對戰用}">
 		<set name="icon" val="icon.armor_t96_u_i03" />
 		<set name="default_action" val="equip" />
 		<set name="armor_type" val="magic" />
@@ -1406,7 +1406,7 @@
 			<enchant order="0x0C" stat="pDef" val="0" />
 		</for>
 	</item>
-	<item id="16174" type="Armor" name="Moirai Breastplate {PvP}">
+	<item id="16174" type="Armor" name="天命胸甲 {對戰用}">
 		<set name="icon" val="icon.armor_t100_u_i00" />
 		<set name="default_action" val="equip" />
 		<set name="armor_type" val="heavy" />
@@ -1427,7 +1427,7 @@
 			<enchant order="0x0C" stat="pDef" val="0" />
 		</for>
 	</item>
-	<item id="16175" type="Armor" name="Moirai Leather Breastplate {PvP}">
+	<item id="16175" type="Armor" name="天命皮胸甲 {對戰用}">
 		<set name="icon" val="icon.armor_t101_u_i00" />
 		<set name="default_action" val="equip" />
 		<set name="armor_type" val="light" />
@@ -1447,7 +1447,7 @@
 			<enchant order="0x0C" stat="pDef" val="0" />
 		</for>
 	</item>
-	<item id="16176" type="Armor" name="Moirai Tunic {PvP}">
+	<item id="16176" type="Armor" name="天命外衣 {對戰用}">
 		<set name="icon" val="icon.armor_t102_u_i00" />
 		<set name="default_action" val="equip" />
 		<set name="armor_type" val="magic" />
@@ -1469,7 +1469,7 @@
 			<enchant order="0x0C" stat="pDef" val="0" />
 		</for>
 	</item>
-	<item id="16177" type="EtcItem" name="Accessory Type Life Stone - level 85">
+	<item id="16177" type="EtcItem" name="飾品用生命石-85級">
 		<set name="icon" val="icon.etc_mineral_general_i03" />
 		<set name="immediate_effect" val="1" />
 		<set name="material" val="liquid" />
@@ -1478,7 +1478,7 @@
 		<set name="is_stackable" val="true" />
 		<set name="use_condition" val="{{uc_requiredlevel;85}}" />
 	</item>
-	<item id="16178" type="EtcItem" name="Accessory Type Life Stone - level 86">
+	<item id="16178" type="EtcItem" name="飾品用生命石-86級">
 		<set name="icon" val="icon.etc_mineral_general_i03" />
 		<set name="immediate_effect" val="1" />
 		<set name="material" val="liquid" />
@@ -1487,7 +1487,7 @@
 		<set name="is_stackable" val="true" />
 		<set name="use_condition" val="{{uc_requiredlevel;85}}" />
 	</item>
-	<item id="16179" type="Weapon" name="Vesper Cutter- Thunder {PvP}">
+	<item id="16179" type="Weapon" name="薄暮切刃-雷鳴 {對戰用}">
 		<set name="icon" val="icon.weapon_vesper_cutter_i01" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="sword" />
@@ -1517,7 +1517,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="16180" type="Weapon" name="Vesper Cutter- Thunder {PvP}">
+	<item id="16180" type="Weapon" name="薄暮切刃-雷鳴 {對戰用}">
 		<set name="icon" val="icon.weapon_vesper_cutter_i01" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="sword" />
@@ -1547,7 +1547,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="16181" type="Weapon" name="Vesper Cutter- Thunder {PvP}">
+	<item id="16181" type="Weapon" name="薄暮切刃-雷鳴 {對戰用}">
 		<set name="icon" val="icon.weapon_vesper_cutter_i01" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="sword" />
@@ -1577,7 +1577,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="16182" type="Weapon" name="Vesper Slasher- Gail {PvP}">
+	<item id="16182" type="Weapon" name="薄暮殺刃-疾風 {對戰用}">
 		<set name="icon" val="icon.weapon_vesper_slasher_i01" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="bigsword" />
@@ -1607,7 +1607,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="16183" type="Weapon" name="Vesper Slasher- Gail {PvP}">
+	<item id="16183" type="Weapon" name="薄暮殺刃-疾風 {對戰用}">
 		<set name="icon" val="icon.weapon_vesper_slasher_i01" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="bigsword" />
@@ -1637,7 +1637,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="16184" type="Weapon" name="Vesper Slasher- Gail {PvP}">
+	<item id="16184" type="Weapon" name="薄暮殺刃-疾風 {對戰用}">
 		<set name="icon" val="icon.weapon_vesper_slasher_i01" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="bigsword" />
@@ -1667,7 +1667,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="16185" type="Weapon" name="Vesper Buster - Cleverness {PvP}">
+	<item id="16185" type="Weapon" name="薄暮爆刃-聰明 {對戰用}">
 		<set name="icon" val="icon.weapon_vesper_burster_i01" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="sword" />
@@ -1698,7 +1698,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="16186" type="Weapon" name="Vesper Buster - Cleverness {PvP}">
+	<item id="16186" type="Weapon" name="薄暮爆刃-聰明 {對戰用}">
 		<set name="icon" val="icon.weapon_vesper_burster_i01" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="sword" />
@@ -1729,7 +1729,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="16187" type="Weapon" name="Vesper Buster - Cleverness {PvP}">
+	<item id="16187" type="Weapon" name="薄暮爆刃-聰明 {對戰用}">
 		<set name="icon" val="icon.weapon_vesper_burster_i01" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="sword" />
@@ -1762,7 +1762,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="16188" type="Weapon" name="Vesper Shaper - Gail {PvP}">
+	<item id="16188" type="Weapon" name="薄暮鉋刀-疾風 {對戰用}">
 		<set name="icon" val="icon.weapon_vesper_shaper_i01" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="dagger" />
@@ -1794,7 +1794,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="16189" type="Weapon" name="Vesper Shaper - Gail {PvP}">
+	<item id="16189" type="Weapon" name="薄暮鉋刀-疾風 {對戰用}">
 		<set name="icon" val="icon.weapon_vesper_shaper_i01" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="dagger" />
@@ -1826,7 +1826,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="16190" type="Weapon" name="Vesper Shaper - Gail {PvP}">
+	<item id="16190" type="Weapon" name="薄暮鉋刀-疾風 {對戰用}">
 		<set name="icon" val="icon.weapon_vesper_shaper_i01" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="dagger" />
@@ -1858,7 +1858,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="16191" type="Weapon" name="Vesper Fighter - Gail {PvP}">
+	<item id="16191" type="Weapon" name="薄暮戰爪-疾風 {對戰用}">
 		<set name="icon" val="icon.weapon_vesper_fighter_i01" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="dualfist" />
@@ -1890,7 +1890,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="16192" type="Weapon" name="Vesper Fighter - Gail {PvP}">
+	<item id="16192" type="Weapon" name="薄暮戰爪-疾風 {對戰用}">
 		<set name="icon" val="icon.weapon_vesper_fighter_i01" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="dualfist" />
@@ -1922,7 +1922,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="16193" type="Weapon" name="Vesper Fighter - Gail {PvP}">
+	<item id="16193" type="Weapon" name="薄暮戰爪-疾風 {對戰用}">
 		<set name="icon" val="icon.weapon_vesper_fighter_i01" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="dualfist" />
@@ -1955,7 +1955,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="16194" type="Weapon" name="Vesper Stormer - Thunder {PvP}">
+	<item id="16194" type="Weapon" name="薄暮風暴者-雷鳴 {對戰用}">
 		<set name="icon" val="icon.weapon_vesper_stormer_i01" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="pole" />
@@ -1987,7 +1987,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="16195" type="Weapon" name="Vesper Stormer - Thunder {PvP}">
+	<item id="16195" type="Weapon" name="薄暮風暴者-雷鳴 {對戰用}">
 		<set name="icon" val="icon.weapon_vesper_stormer_i01" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="pole" />
@@ -2019,7 +2019,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="16196" type="Weapon" name="Vesper Stormer - Thunder {PvP}">
+	<item id="16196" type="Weapon" name="薄暮風暴者-雷鳴 {對戰用}">
 		<set name="icon" val="icon.weapon_vesper_stormer_i01" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="pole" />
@@ -2051,7 +2051,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="16197" type="Weapon" name="Vesper Avenger - Landslide {PvP}">
+	<item id="16197" type="Weapon" name="薄暮復仇者-山崩 {對戰用}">
 		<set name="icon" val="icon.weapon_vesper_avenger_i01" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="blunt" />
@@ -2083,7 +2083,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="16198" type="Weapon" name="Vesper Avenger - Landslide {PvP}">
+	<item id="16198" type="Weapon" name="薄暮復仇者-山崩 {對戰用}">
 		<set name="icon" val="icon.weapon_vesper_avenger_i01" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="blunt" />
@@ -2115,7 +2115,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="16199" type="Weapon" name="Vesper Avenger - Landslide {PvP}">
+	<item id="16199" type="Weapon" name="薄暮復仇者-山崩 {對戰用}">
 		<set name="icon" val="icon.weapon_vesper_avenger_i01" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="blunt" />

@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <list>
-	<item id="4400" type="EtcItem" name="White Fabric">
+	<item id="4400" type="EtcItem" name="白布">
 		<set name="icon" val="icon.etc_piece_of_cloth_white_i00" />
 		<set name="immediate_effect" val="1" />
 		<set name="material" val="cloth" />
@@ -9,7 +9,7 @@
 		<set name="is_depositable" val="false" />
 		<set name="is_stackable" val="true" />
 	</item>
-	<item id="4401" type="EtcItem" name="Green Dimensional Stone">
+	<item id="4401" type="EtcItem" name="綠色因次石">
 		<set name="icon" val="icon.etc_gem_green_i00" />
 		<set name="immediate_effect" val="1" />
 		<set name="material" val="crystal" />
@@ -17,7 +17,7 @@
 		<set name="price" val="100000" />
 		<set name="is_stackable" val="true" />
 	</item>
-	<item id="4402" type="EtcItem" name="Blue Dimensional Stone">
+	<item id="4402" type="EtcItem" name="藍色因次石">
 		<set name="icon" val="icon.etc_gem_blue_i00" />
 		<set name="immediate_effect" val="1" />
 		<set name="material" val="crystal" />
@@ -25,7 +25,7 @@
 		<set name="price" val="100000" />
 		<set name="is_stackable" val="true" />
 	</item>
-	<item id="4403" type="EtcItem" name="Red Dimensional Stone">
+	<item id="4403" type="EtcItem" name="紅色因次石">
 		<set name="icon" val="icon.etc_gem_red_i00" />
 		<set name="immediate_effect" val="1" />
 		<set name="material" val="crystal" />
@@ -33,7 +33,7 @@
 		<set name="price" val="100000" />
 		<set name="is_stackable" val="true" />
 	</item>
-	<item id="4404" type="EtcItem" name="Green Dimensional Stone - Shard">
+	<item id="4404" type="EtcItem" name="綠色因次石破片">
 		<set name="icon" val="icon.etc_broken_crystal_green_i00" />
 		<set name="immediate_effect" val="1" />
 		<set name="material" val="crystal" />
@@ -41,7 +41,7 @@
 		<set name="price" val="10" />
 		<set name="is_stackable" val="true" />
 	</item>
-	<item id="4405" type="EtcItem" name="Blue Dimensional Stone - Shard">
+	<item id="4405" type="EtcItem" name="藍色因次石破片">
 		<set name="icon" val="icon.etc_broken_crystal_blue_i00" />
 		<set name="immediate_effect" val="1" />
 		<set name="material" val="crystal" />
@@ -49,7 +49,7 @@
 		<set name="price" val="10" />
 		<set name="is_stackable" val="true" />
 	</item>
-	<item id="4406" type="EtcItem" name="Red Dimensional Stone - Shard">
+	<item id="4406" type="EtcItem" name="紅色因次石破片">
 		<set name="icon" val="icon.etc_broken_crystal_red_i00" />
 		<set name="immediate_effect" val="1" />
 		<set name="material" val="crystal" />
@@ -57,14 +57,14 @@
 		<set name="price" val="10" />
 		<set name="is_stackable" val="true" />
 	</item>
-	<item id="4407" type="EtcItem" name="Bill of Iason Heine">
+	<item id="4407" type="EtcItem" name="艾森海內的票據">
 		<set name="icon" val="icon.etc_paper_black_i00" />
 		<set name="immediate_effect" val="1" />
 		<set name="material" val="paper" />
 		<set name="price" val="10" />
 		<set name="is_stackable" val="true" />
 	</item>
-	<item id="4408" type="EtcItem" name="Musical Score - Theme of Love">
+	<item id="4408" type="EtcItem" name="樂譜-愛情之歌">
 		<set name="icon" val="icon.etc_musical_note_i01" />
 		<set name="immediate_effect" val="1" />
 		<set name="material" val="paper" />
@@ -72,7 +72,7 @@
 		<set name="price" val="500" />
 		<set name="is_stackable" val="true" />
 	</item>
-	<item id="4409" type="EtcItem" name="Musical Score - Theme of Battle">
+	<item id="4409" type="EtcItem" name="樂譜-決戰之歌">
 		<set name="icon" val="icon.etc_musical_note_i01" />
 		<set name="immediate_effect" val="1" />
 		<set name="material" val="paper" />
@@ -80,7 +80,7 @@
 		<set name="price" val="500" />
 		<set name="is_stackable" val="true" />
 	</item>
-	<item id="4410" type="EtcItem" name="Musical Score - Theme of Journey">
+	<item id="4410" type="EtcItem" name="樂譜-旅行之歌">
 		<set name="icon" val="icon.etc_musical_note_i01" />
 		<set name="immediate_effect" val="1" />
 		<set name="material" val="paper" />
@@ -88,7 +88,7 @@
 		<set name="price" val="500" />
 		<set name="is_stackable" val="true" />
 	</item>
-	<item id="4411" type="EtcItem" name="Echo Crystal - Theme of Journey">
+	<item id="4411" type="EtcItem" name="回聲水晶-旅行之歌">
 		<set name="icon" val="icon.etc_echo_crystal_i00" />
 		<set name="default_action" val="skill_reduce" />
 		<set name="immediate_effect" val="1" />
@@ -99,7 +99,7 @@
 		<set name="handler" val="ItemSkills" />
 		<set name="item_skill" val="2069-1" />
 	</item>
-	<item id="4412" type="EtcItem" name="Echo Crystal - Theme of Battle">
+	<item id="4412" type="EtcItem" name="回聲水晶-決戰之歌">
 		<set name="icon" val="icon.etc_echo_crystal_i01" />
 		<set name="default_action" val="skill_reduce" />
 		<set name="immediate_effect" val="1" />
@@ -110,7 +110,7 @@
 		<set name="handler" val="ItemSkills" />
 		<set name="item_skill" val="2068-1" />
 	</item>
-	<item id="4413" type="EtcItem" name="Echo Crystal - Theme of Love">
+	<item id="4413" type="EtcItem" name="回聲水晶-愛情之歌">
 		<set name="icon" val="icon.etc_echo_crystal_i02" />
 		<set name="default_action" val="skill_reduce" />
 		<set name="immediate_effect" val="1" />
@@ -121,7 +121,7 @@
 		<set name="handler" val="ItemSkills" />
 		<set name="item_skill" val="2070-1" />
 	</item>
-	<item id="4414" type="EtcItem" name="Echo Crystal - Theme of Solitude">
+	<item id="4414" type="EtcItem" name="回聲水晶-孤獨之歌">
 		<set name="icon" val="icon.etc_echo_crystal_i03" />
 		<set name="default_action" val="skill_reduce" />
 		<set name="immediate_effect" val="1" />
@@ -132,7 +132,7 @@
 		<set name="handler" val="ItemSkills" />
 		<set name="item_skill" val="2072-1" />
 	</item>
-	<item id="4415" type="EtcItem" name="Echo Crystal - Theme of the Feast">
+	<item id="4415" type="EtcItem" name="回聲水晶-祝典之歌">
 		<set name="icon" val="icon.etc_echo_crystal_i04" />
 		<set name="default_action" val="skill_reduce" />
 		<set name="immediate_effect" val="1" />
@@ -143,7 +143,7 @@
 		<set name="handler" val="ItemSkills" />
 		<set name="item_skill" val="2071-1" />
 	</item>
-	<item id="4416" type="EtcItem" name="Echo Crystal - Theme of Celebration">
+	<item id="4416" type="EtcItem" name="回聲水晶-慶祝之歌">
 		<set name="icon" val="icon.etc_echo_crystal_i00" />
 		<set name="default_action" val="skill_reduce" />
 		<set name="immediate_effect" val="1" />
@@ -154,7 +154,7 @@
 		<set name="handler" val="ItemSkills" />
 		<set name="item_skill" val="2073-1" />
 	</item>
-	<item id="4417" type="EtcItem" name="Echo Crystal - Theme of Comedy">
+	<item id="4417" type="EtcItem" name="回聲水晶-喜劇之歌">
 		<set name="icon" val="icon.etc_echo_crystal_i01" />
 		<set name="default_action" val="skill_reduce" />
 		<set name="immediate_effect" val="1" />
@@ -165,7 +165,7 @@
 		<set name="handler" val="ItemSkills" />
 		<set name="item_skill" val="2067-1" />
 	</item>
-	<item id="4418" type="EtcItem" name="Musical Score - Theme of Celebration">
+	<item id="4418" type="EtcItem" name="樂譜-慶祝之歌">
 		<set name="icon" val="icon.etc_musical_note_i01" />
 		<set name="immediate_effect" val="1" />
 		<set name="material" val="paper" />
@@ -173,7 +173,7 @@
 		<set name="price" val="500" />
 		<set name="is_stackable" val="true" />
 	</item>
-	<item id="4419" type="EtcItem" name="Musical Score - Theme of Comedy">
+	<item id="4419" type="EtcItem" name="樂譜-喜劇之歌">
 		<set name="icon" val="icon.etc_musical_note_i01" />
 		<set name="immediate_effect" val="1" />
 		<set name="material" val="paper" />
@@ -181,7 +181,7 @@
 		<set name="price" val="500" />
 		<set name="is_stackable" val="true" />
 	</item>
-	<item id="4420" type="EtcItem" name="Musical Score - Theme of Solitude">
+	<item id="4420" type="EtcItem" name="樂譜-孤獨之歌">
 		<set name="icon" val="icon.etc_musical_note_i01" />
 		<set name="immediate_effect" val="1" />
 		<set name="material" val="paper" />
@@ -189,7 +189,7 @@
 		<set name="price" val="500" />
 		<set name="is_stackable" val="true" />
 	</item>
-	<item id="4421" type="EtcItem" name="Musical Score - Theme of the Feast">
+	<item id="4421" type="EtcItem" name="樂譜-祝典之歌">
 		<set name="icon" val="icon.etc_musical_note_i02" />
 		<set name="immediate_effect" val="1" />
 		<set name="material" val="paper" />
@@ -197,7 +197,7 @@
 		<set name="price" val="500" />
 		<set name="is_stackable" val="true" />
 	</item>
-	<item id="4422" type="EtcItem" name="Dragon Bugle of Wind">
+	<item id="4422" type="EtcItem" name="風龍號角">
 		<set name="icon" val="icon.etc_bugle_i00" />
 		<set name="default_action" val="skill_maintain" />
 		<set name="etcitem_type" val="pet_collar" />
@@ -209,7 +209,7 @@
 		<set name="item_skill" val="2046-1" />
 		<set name="use_condition" val="{{uc_transmode_exclude;{tt_flying;tt_pure_stat}}}" />
 	</item>
-	<item id="4423" type="EtcItem" name="Dragon Bugle of Star">
+	<item id="4423" type="EtcItem" name="星龍號角">
 		<set name="icon" val="icon.etc_bugle_i00" />
 		<set name="default_action" val="skill_maintain" />
 		<set name="etcitem_type" val="pet_collar" />
@@ -221,7 +221,7 @@
 		<set name="item_skill" val="2046-1" />
 		<set name="use_condition" val="{{uc_transmode_exclude;{tt_flying;tt_pure_stat}}}" />
 	</item>
-	<item id="4424" type="EtcItem" name="Dragon Bugle of Twilight">
+	<item id="4424" type="EtcItem" name="黃昏龍號角">
 		<set name="icon" val="icon.etc_bugle_i00" />
 		<set name="default_action" val="skill_maintain" />
 		<set name="etcitem_type" val="pet_collar" />
@@ -233,7 +233,7 @@
 		<set name="item_skill" val="2046-1" />
 		<set name="use_condition" val="{{uc_transmode_exclude;{tt_flying;tt_pure_stat}}}" />
 	</item>
-	<item id="4425" type="EtcItem" name="Penitent's Manacles">
+	<item id="4425" type="EtcItem" name="贖罪者手銬">
 		<set name="icon" val="icon.etc_leash_i00" />
 		<set name="default_action" val="skill_maintain" />
 		<set name="etcitem_type" val="pet_collar" />
@@ -249,7 +249,7 @@
 		<set name="item_skill" val="2046-1" />
 		<set name="use_condition" val="{{uc_transmode_exclude;{tt_flying;tt_pure_stat}}}" />
 	</item>
-	<item id="4426" type="EtcItem" name="Manacles of Penitent">
+	<item id="4426" type="EtcItem" name="贖罪者手銬">
 		<set name="icon" val="icon.etc_leash_i00" />
 		<set name="immediate_effect" val="1" />
 		<set name="material" val="steel" />
@@ -259,49 +259,49 @@
 		<set name="is_depositable" val="false" />
 		<set name="is_oly_restricted" val="true" />
 	</item>
-	<item id="4427" type="EtcItem" name="Alligator Leather Belt">
+	<item id="4427" type="EtcItem" name="鱷魚皮帶">
 		<set name="icon" val="icon.etc_prefect_belt_i00" />
 		<set name="immediate_effect" val="1" />
 		<set name="material" val="leather" />
 		<set name="weight" val="20" />
 		<set name="price" val="100" />
 	</item>
-	<item id="4428" type="EtcItem" name="Blue Alligator Leather Belt">
+	<item id="4428" type="EtcItem" name="藍色鱷魚皮帶">
 		<set name="icon" val="icon.etc_prefect_belt_i00" />
 		<set name="immediate_effect" val="1" />
 		<set name="material" val="leather" />
 		<set name="weight" val="20" />
 		<set name="price" val="2000" />
 	</item>
-	<item id="4429" type="EtcItem" name="Bejeweled Leather Belt">
+	<item id="4429" type="EtcItem" name="寶石鱷魚皮帶">
 		<set name="icon" val="icon.etc_prefect_belt_i00" />
 		<set name="immediate_effect" val="1" />
 		<set name="material" val="leather" />
 		<set name="weight" val="20" />
 		<set name="price" val="10000" />
 	</item>
-	<item id="4430" type="EtcItem" name="Alligator Leather Purse">
+	<item id="4430" type="EtcItem" name="皮背包">
 		<set name="icon" val="icon.etc_handbag_i00" />
 		<set name="immediate_effect" val="1" />
 		<set name="material" val="leather" />
 		<set name="weight" val="20" />
 		<set name="price" val="200" />
 	</item>
-	<item id="4431" type="EtcItem" name="Blue Alligator Leather Purse">
+	<item id="4431" type="EtcItem" name="藍色皮背包">
 		<set name="icon" val="icon.etc_handbag_i00" />
 		<set name="immediate_effect" val="1" />
 		<set name="material" val="leather" />
 		<set name="weight" val="20" />
 		<set name="price" val="4000" />
 	</item>
-	<item id="4432" type="EtcItem" name="Bejeweled Purse">
+	<item id="4432" type="EtcItem" name="寶石皮背包">
 		<set name="icon" val="icon.etc_handbag_i00" />
 		<set name="immediate_effect" val="1" />
 		<set name="material" val="leather" />
 		<set name="weight" val="20" />
 		<set name="price" val="20000" />
 	</item>
-	<item id="4433" type="EtcItem" name="Elemental Stone Powder">
+	<item id="4433" type="EtcItem" name="元素石粉末">
 		<set name="icon" val="icon.etc_powder_white_i00" />
 		<set name="immediate_effect" val="1" />
 		<set name="material" val="crystal" />
@@ -309,7 +309,7 @@
 		<set name="price" val="50" />
 		<set name="is_stackable" val="true" />
 	</item>
-	<item id="4434" type="EtcItem" name="Elemental Stone Shards">
+	<item id="4434" type="EtcItem" name="元素石碎片">
 		<set name="icon" val="icon.etc_broken_crystal_green_i00" />
 		<set name="immediate_effect" val="1" />
 		<set name="material" val="crystal" />
@@ -317,7 +317,7 @@
 		<set name="price" val="500" />
 		<set name="is_stackable" val="true" />
 	</item>
-	<item id="4435" type="EtcItem" name="Elemental Stone Lump">
+	<item id="4435" type="EtcItem" name="元素石破塊">
 		<set name="icon" val="icon.etc_crystal_green_i00" />
 		<set name="immediate_effect" val="1" />
 		<set name="material" val="crystal" />
@@ -325,7 +325,7 @@
 		<set name="price" val="5000" />
 		<set name="is_stackable" val="true" />
 	</item>
-	<item id="4436" type="EtcItem" name="Bentley's Request">
+	<item id="4436" type="EtcItem" name="本特列的清單">
 		<set name="icon" val="icon.etc_piece_of_paper_gray_i00" />
 		<set name="immediate_effect" val="1" />
 		<set name="material" val="paper" />
@@ -336,7 +336,7 @@
 		<set name="is_stackable" val="true" />
 		<set name="is_questitem" val="true" />
 	</item>
-	<item id="4437" type="EtcItem" name="Carson's Request">
+	<item id="4437" type="EtcItem" name="卡薩的委託書">
 		<set name="icon" val="icon.etc_piece_of_paper_black_i00" />
 		<set name="immediate_effect" val="1" />
 		<set name="material" val="paper" />
@@ -347,7 +347,7 @@
 		<set name="is_stackable" val="true" />
 		<set name="is_questitem" val="true" />
 	</item>
-	<item id="4438" type="EtcItem" name="Knuckle Duster Edge">
+	<item id="4438" type="EtcItem" name="關節拳的刃">
 		<set name="icon" val="icon.etc_sword_body_i00" />
 		<set name="etcitem_type" val="material" />
 		<set name="immediate_effect" val="1" />
@@ -356,7 +356,7 @@
 		<set name="price" val="28044" />
 		<set name="is_stackable" val="true" />
 	</item>
-	<item id="4439" type="EtcItem" name="Avadon Shield Fragment">
+	<item id="4439" type="EtcItem" name="阿巴敦盾的破片">
 		<set name="icon" val="icon.etc_plate_silver_i00" />
 		<set name="etcitem_type" val="material" />
 		<set name="immediate_effect" val="1" />
@@ -365,7 +365,7 @@
 		<set name="price" val="2900" />
 		<set name="is_stackable" val="true" />
 	</item>
-	<item id="4440" type="EtcItem" name="Recipe: Knuckle Duster">
+	<item id="4440" type="EtcItem" name="製作卷軸(關節拳100%)">
 		<set name="icon" val="icon.etc_recipe_yellow_i00" />
 		<set name="default_action" val="recipe" />
 		<set name="etcitem_type" val="recipe" />
@@ -377,7 +377,7 @@
 		<set name="is_stackable" val="true" />
 		<set name="handler" val="Recipes" />
 	</item>
-	<item id="4441" type="EtcItem" name="Recipe: Avadon Shield">
+	<item id="4441" type="EtcItem" name="製作卷軸(阿巴敦盾100%)">
 		<set name="icon" val="icon.etc_recipe_red_i00" />
 		<set name="default_action" val="recipe" />
 		<set name="etcitem_type" val="recipe" />
@@ -389,7 +389,7 @@
 		<set name="is_stackable" val="true" />
 		<set name="handler" val="Recipes" />
 	</item>
-	<item id="4442" type="EtcItem" name="Lottery Ticket">
+	<item id="4442" type="EtcItem" name="彩券">
 		<set name="icon" val="icon.etc_lottery_card_i00" />
 		<set name="etcitem_type" val="lotto" />
 		<set name="immediate_effect" val="1" />
@@ -397,7 +397,7 @@
 		<set name="weight" val="20" />
 		<set name="price" val="2" />
 	</item>
-	<item id="4443" type="EtcItem" name="Monster Race Ticket - Single">
+	<item id="4443" type="EtcItem" name="怪物賽票-單勝">
 		<set name="icon" val="icon.etc_ticket_i00" />
 		<set name="etcitem_type" val="race_ticket" />
 		<set name="immediate_effect" val="1" />
@@ -409,7 +409,7 @@
 		<set name="is_sellable" val="false" />
 		<set name="is_depositable" val="false" />
 	</item>
-	<item id="4444" type="EtcItem" name="Monster Race Ticket - Double">
+	<item id="4444" type="EtcItem" name="怪物賽票-複勝">
 		<set name="icon" val="icon.etc_ticket_i00" />
 		<set name="etcitem_type" val="race_ticket" />
 		<set name="immediate_effect" val="1" />
@@ -421,7 +421,7 @@
 		<set name="is_sellable" val="false" />
 		<set name="is_depositable" val="false" />
 	</item>
-	<item id="4445" type="EtcItem" name="Dye of STR (Str+1 Con-3)">
+	<item id="4445" type="EtcItem" name="力量染料&lt;Str+1Con-3&gt;">
 		<set name="icon" val="icon.etc_str_hena_i00" />
 		<set name="etcitem_type" val="dye" />
 		<set name="immediate_effect" val="1" />
@@ -430,7 +430,7 @@
 		<set name="price" val="5100" />
 		<set name="is_stackable" val="true" />
 	</item>
-	<item id="4446" type="EtcItem" name="Dye of STR (Str+1 Dex-3)">
+	<item id="4446" type="EtcItem" name="力量染料&lt;Str+1Dex-3&gt;">
 		<set name="icon" val="icon.etc_str_hena_i00" />
 		<set name="etcitem_type" val="dye" />
 		<set name="immediate_effect" val="1" />
@@ -439,7 +439,7 @@
 		<set name="price" val="5100" />
 		<set name="is_stackable" val="true" />
 	</item>
-	<item id="4447" type="EtcItem" name="Dye of CON (Con+1 Str-3)">
+	<item id="4447" type="EtcItem" name="體質染料&lt;Con+1Str-3&gt;">
 		<set name="icon" val="icon.etc_con_hena_i00" />
 		<set name="etcitem_type" val="dye" />
 		<set name="immediate_effect" val="1" />
@@ -448,7 +448,7 @@
 		<set name="price" val="5100" />
 		<set name="is_stackable" val="true" />
 	</item>
-	<item id="4448" type="EtcItem" name="Dye of CON (Con+1 Dex-3)">
+	<item id="4448" type="EtcItem" name="體質染料&lt;Con+1Dex-3&gt;">
 		<set name="icon" val="icon.etc_con_hena_i00" />
 		<set name="etcitem_type" val="dye" />
 		<set name="immediate_effect" val="1" />
@@ -457,7 +457,7 @@
 		<set name="price" val="5100" />
 		<set name="is_stackable" val="true" />
 	</item>
-	<item id="4449" type="EtcItem" name="Dye of DEX (Dex+1 Str-3)">
+	<item id="4449" type="EtcItem" name="敏捷染料&lt;Dex+1Str-3&gt;">
 		<set name="icon" val="icon.etc_dex_hena_i00" />
 		<set name="etcitem_type" val="dye" />
 		<set name="immediate_effect" val="1" />
@@ -466,7 +466,7 @@
 		<set name="price" val="5100" />
 		<set name="is_stackable" val="true" />
 	</item>
-	<item id="4450" type="EtcItem" name="Dye of DEX (Dex+1 Con-3)">
+	<item id="4450" type="EtcItem" name="敏捷染料&lt;Dex+1Con-3&gt;">
 		<set name="icon" val="icon.etc_dex_hena_i00" />
 		<set name="etcitem_type" val="dye" />
 		<set name="immediate_effect" val="1" />
@@ -475,7 +475,7 @@
 		<set name="price" val="5100" />
 		<set name="is_stackable" val="true" />
 	</item>
-	<item id="4451" type="EtcItem" name="Dye of INT (Int+1 Men-3)">
+	<item id="4451" type="EtcItem" name="智力染料&lt;Int+1Men-3&gt;">
 		<set name="icon" val="icon.etc_int_hena_i00" />
 		<set name="etcitem_type" val="dye" />
 		<set name="immediate_effect" val="1" />
@@ -484,7 +484,7 @@
 		<set name="price" val="5100" />
 		<set name="is_stackable" val="true" />
 	</item>
-	<item id="4452" type="EtcItem" name="Dye of INT (Int+1 Wit-3)">
+	<item id="4452" type="EtcItem" name="智力染料&lt;Int+1Wit-3&gt;">
 		<set name="icon" val="icon.etc_int_hena_i00" />
 		<set name="etcitem_type" val="dye" />
 		<set name="immediate_effect" val="1" />
@@ -493,7 +493,7 @@
 		<set name="price" val="5100" />
 		<set name="is_stackable" val="true" />
 	</item>
-	<item id="4453" type="EtcItem" name="Dye of MEN (Men+1 Int-3)">
+	<item id="4453" type="EtcItem" name="精神染料&lt;Men+1Int-3&gt;">
 		<set name="icon" val="icon.etc_men_hena_i00" />
 		<set name="etcitem_type" val="dye" />
 		<set name="immediate_effect" val="1" />
@@ -502,7 +502,7 @@
 		<set name="price" val="5100" />
 		<set name="is_stackable" val="true" />
 	</item>
-	<item id="4454" type="EtcItem" name="Dye of MEN (Men+1 Wit-3)">
+	<item id="4454" type="EtcItem" name="精神染料&lt;Men+1Wit-3&gt;">
 		<set name="icon" val="icon.etc_men_hena_i00" />
 		<set name="etcitem_type" val="dye" />
 		<set name="immediate_effect" val="1" />
@@ -511,7 +511,7 @@
 		<set name="price" val="5100" />
 		<set name="is_stackable" val="true" />
 	</item>
-	<item id="4455" type="EtcItem" name="Dye of WIT (Wit+1 Int-3)">
+	<item id="4455" type="EtcItem" name="智慧染料&lt;Wit+1Int-3&gt;">
 		<set name="icon" val="icon.etc_wit_hena_i00" />
 		<set name="etcitem_type" val="dye" />
 		<set name="immediate_effect" val="1" />
@@ -520,7 +520,7 @@
 		<set name="price" val="5100" />
 		<set name="is_stackable" val="true" />
 	</item>
-	<item id="4456" type="EtcItem" name="Dye of WIT (Wit+1 Men-3)">
+	<item id="4456" type="EtcItem" name="智慧染料&lt;Wit+1Men-3&gt;">
 		<set name="icon" val="icon.etc_wit_hena_i00" />
 		<set name="etcitem_type" val="dye" />
 		<set name="immediate_effect" val="1" />
@@ -529,7 +529,7 @@
 		<set name="price" val="5100" />
 		<set name="is_stackable" val="true" />
 	</item>
-	<item id="4457" type="EtcItem" name="Dye of STR (Str+1 Con-2)">
+	<item id="4457" type="EtcItem" name="力量染料&lt;Str+1Con-2&gt;">
 		<set name="icon" val="icon.etc_str_hena_i00" />
 		<set name="etcitem_type" val="dye" />
 		<set name="immediate_effect" val="1" />
@@ -538,7 +538,7 @@
 		<set name="price" val="12000" />
 		<set name="is_stackable" val="true" />
 	</item>
-	<item id="4458" type="EtcItem" name="Dye of STR (Str+1 Dex-2)">
+	<item id="4458" type="EtcItem" name="力量染料&lt;Str+1Dex-2&gt;">
 		<set name="icon" val="icon.etc_str_hena_i00" />
 		<set name="etcitem_type" val="dye" />
 		<set name="immediate_effect" val="1" />
@@ -547,7 +547,7 @@
 		<set name="price" val="12000" />
 		<set name="is_stackable" val="true" />
 	</item>
-	<item id="4459" type="EtcItem" name="Dye of CON (Con+1 Str-2)">
+	<item id="4459" type="EtcItem" name="體質染料&lt;Con+1Str-2&gt;">
 		<set name="icon" val="icon.etc_con_hena_i00" />
 		<set name="etcitem_type" val="dye" />
 		<set name="immediate_effect" val="1" />
@@ -556,7 +556,7 @@
 		<set name="price" val="12000" />
 		<set name="is_stackable" val="true" />
 	</item>
-	<item id="4460" type="EtcItem" name="Dye of CON (Con+1 Dex-2)">
+	<item id="4460" type="EtcItem" name="體質染料&lt;Con+1Dex-2&gt;">
 		<set name="icon" val="icon.etc_con_hena_i00" />
 		<set name="etcitem_type" val="dye" />
 		<set name="immediate_effect" val="1" />
@@ -565,7 +565,7 @@
 		<set name="price" val="12000" />
 		<set name="is_stackable" val="true" />
 	</item>
-	<item id="4461" type="EtcItem" name="Dye of DEX (Dex+1 Str-2)">
+	<item id="4461" type="EtcItem" name="敏捷染料&lt;Dex+1Str-2&gt;">
 		<set name="icon" val="icon.etc_dex_hena_i00" />
 		<set name="etcitem_type" val="dye" />
 		<set name="immediate_effect" val="1" />
@@ -574,7 +574,7 @@
 		<set name="price" val="12000" />
 		<set name="is_stackable" val="true" />
 	</item>
-	<item id="4462" type="EtcItem" name="Dye of DEX (Dex+1 Con-2)">
+	<item id="4462" type="EtcItem" name="敏捷染料&lt;Dex+1Con-2&gt;">
 		<set name="icon" val="icon.etc_dex_hena_i00" />
 		<set name="etcitem_type" val="dye" />
 		<set name="immediate_effect" val="1" />
@@ -583,7 +583,7 @@
 		<set name="price" val="12000" />
 		<set name="is_stackable" val="true" />
 	</item>
-	<item id="4463" type="EtcItem" name="Dye of INT (Int+1 Men-2)">
+	<item id="4463" type="EtcItem" name="智力染料&lt;Int+1Men-2&gt;">
 		<set name="icon" val="icon.etc_int_hena_i00" />
 		<set name="etcitem_type" val="dye" />
 		<set name="immediate_effect" val="1" />
@@ -592,7 +592,7 @@
 		<set name="price" val="12000" />
 		<set name="is_stackable" val="true" />
 	</item>
-	<item id="4464" type="EtcItem" name="Dye of INT (Int+1 Wit-2)">
+	<item id="4464" type="EtcItem" name="智力染料&lt;Int+1Wit-2&gt;">
 		<set name="icon" val="icon.etc_int_hena_i00" />
 		<set name="etcitem_type" val="dye" />
 		<set name="immediate_effect" val="1" />
@@ -601,7 +601,7 @@
 		<set name="price" val="12000" />
 		<set name="is_stackable" val="true" />
 	</item>
-	<item id="4465" type="EtcItem" name="Dye of MEN (Men+1 Int-2)">
+	<item id="4465" type="EtcItem" name="精神染料&lt;Men+1Int-2&gt;">
 		<set name="icon" val="icon.etc_men_hena_i00" />
 		<set name="etcitem_type" val="dye" />
 		<set name="immediate_effect" val="1" />
@@ -610,7 +610,7 @@
 		<set name="price" val="12000" />
 		<set name="is_stackable" val="true" />
 	</item>
-	<item id="4466" type="EtcItem" name="Dye of MEN (Men+1 Wit-2)">
+	<item id="4466" type="EtcItem" name="精神染料&lt;Men+1Wit-2&gt;">
 		<set name="icon" val="icon.etc_men_hena_i00" />
 		<set name="etcitem_type" val="dye" />
 		<set name="immediate_effect" val="1" />
@@ -619,7 +619,7 @@
 		<set name="price" val="12000" />
 		<set name="is_stackable" val="true" />
 	</item>
-	<item id="4467" type="EtcItem" name="Dye of WIT (Wit+1 Int-2)">
+	<item id="4467" type="EtcItem" name="智慧染料&lt;Wit+1Int-2&gt;">
 		<set name="icon" val="icon.etc_wit_hena_i00" />
 		<set name="etcitem_type" val="dye" />
 		<set name="immediate_effect" val="1" />
@@ -628,7 +628,7 @@
 		<set name="price" val="12000" />
 		<set name="is_stackable" val="true" />
 	</item>
-	<item id="4468" type="EtcItem" name="Dye of WIT (Wit+1 Men-2)">
+	<item id="4468" type="EtcItem" name="智慧染料&lt;Wit+1Men-2&gt;">
 		<set name="icon" val="icon.etc_wit_hena_i00" />
 		<set name="etcitem_type" val="dye" />
 		<set name="immediate_effect" val="1" />
@@ -637,7 +637,7 @@
 		<set name="price" val="12000" />
 		<set name="is_stackable" val="true" />
 	</item>
-	<item id="4469" type="EtcItem" name="Dye of STR (Str+1 Con-1)">
+	<item id="4469" type="EtcItem" name="力量染料&lt;Str+1Con-1&gt;">
 		<set name="icon" val="icon.etc_str_hena_i00" />
 		<set name="etcitem_type" val="dye" />
 		<set name="immediate_effect" val="1" />
@@ -646,7 +646,7 @@
 		<set name="price" val="35000" />
 		<set name="is_stackable" val="true" />
 	</item>
-	<item id="4470" type="EtcItem" name="Dye of STR (Str+1 Dex-1)">
+	<item id="4470" type="EtcItem" name="力量染料&lt;Str+1Dex-1&gt;">
 		<set name="icon" val="icon.etc_str_hena_i00" />
 		<set name="etcitem_type" val="dye" />
 		<set name="immediate_effect" val="1" />
@@ -655,7 +655,7 @@
 		<set name="price" val="35000" />
 		<set name="is_stackable" val="true" />
 	</item>
-	<item id="4471" type="EtcItem" name="Dye of CON (Con+1 Str-1)">
+	<item id="4471" type="EtcItem" name="體質染料&lt;Con+1Str-1&gt;">
 		<set name="icon" val="icon.etc_con_hena_i00" />
 		<set name="etcitem_type" val="dye" />
 		<set name="immediate_effect" val="1" />
@@ -664,7 +664,7 @@
 		<set name="price" val="35000" />
 		<set name="is_stackable" val="true" />
 	</item>
-	<item id="4472" type="EtcItem" name="Dye of CON (Con+1 Dex-1)">
+	<item id="4472" type="EtcItem" name="體質染料&lt;Con+1Dex-1&gt;">
 		<set name="icon" val="icon.etc_con_hena_i00" />
 		<set name="etcitem_type" val="dye" />
 		<set name="immediate_effect" val="1" />
@@ -673,7 +673,7 @@
 		<set name="price" val="35000" />
 		<set name="is_stackable" val="true" />
 	</item>
-	<item id="4473" type="EtcItem" name="Dye of DEX (Dex+1 Str-1)">
+	<item id="4473" type="EtcItem" name="敏捷染料&lt;Dex+1Str-1&gt;">
 		<set name="icon" val="icon.etc_dex_hena_i00" />
 		<set name="etcitem_type" val="dye" />
 		<set name="immediate_effect" val="1" />
@@ -682,7 +682,7 @@
 		<set name="price" val="35000" />
 		<set name="is_stackable" val="true" />
 	</item>
-	<item id="4474" type="EtcItem" name="Dye of DEX (Dex+1 Con-1)">
+	<item id="4474" type="EtcItem" name="敏捷染料&lt;Dex+1Con-1&gt;">
 		<set name="icon" val="icon.etc_dex_hena_i00" />
 		<set name="etcitem_type" val="dye" />
 		<set name="immediate_effect" val="1" />
@@ -691,7 +691,7 @@
 		<set name="price" val="35000" />
 		<set name="is_stackable" val="true" />
 	</item>
-	<item id="4475" type="EtcItem" name="Dye of INT (Int+1 Men-1)">
+	<item id="4475" type="EtcItem" name="智力染料&lt;Int+1Men-1&gt;">
 		<set name="icon" val="icon.etc_int_hena_i00" />
 		<set name="etcitem_type" val="dye" />
 		<set name="immediate_effect" val="1" />
@@ -700,7 +700,7 @@
 		<set name="price" val="35000" />
 		<set name="is_stackable" val="true" />
 	</item>
-	<item id="4476" type="EtcItem" name="Dye of INT (Int+1 Wit-1)">
+	<item id="4476" type="EtcItem" name="智力染料&lt;Int+1Wit-1&gt;">
 		<set name="icon" val="icon.etc_int_hena_i00" />
 		<set name="etcitem_type" val="dye" />
 		<set name="immediate_effect" val="1" />
@@ -709,7 +709,7 @@
 		<set name="price" val="35000" />
 		<set name="is_stackable" val="true" />
 	</item>
-	<item id="4477" type="EtcItem" name="Dye of MEN (Men+1 Int-1)">
+	<item id="4477" type="EtcItem" name="精神染料&lt;Men+1Int-1&gt;">
 		<set name="icon" val="icon.etc_men_hena_i00" />
 		<set name="etcitem_type" val="dye" />
 		<set name="immediate_effect" val="1" />
@@ -718,7 +718,7 @@
 		<set name="price" val="35000" />
 		<set name="is_stackable" val="true" />
 	</item>
-	<item id="4478" type="EtcItem" name="Dye of MEN (Men+1 Wit-1)">
+	<item id="4478" type="EtcItem" name="精神染料&lt;Men+1Wit-1&gt;">
 		<set name="icon" val="icon.etc_men_hena_i00" />
 		<set name="etcitem_type" val="dye" />
 		<set name="immediate_effect" val="1" />
@@ -727,7 +727,7 @@
 		<set name="price" val="35000" />
 		<set name="is_stackable" val="true" />
 	</item>
-	<item id="4479" type="EtcItem" name="Dye of WIT (Wit+1 Int-1)">
+	<item id="4479" type="EtcItem" name="智慧染料&lt;Wit+1Int-1&gt;">
 		<set name="icon" val="icon.etc_wit_hena_i00" />
 		<set name="etcitem_type" val="dye" />
 		<set name="immediate_effect" val="1" />
@@ -736,7 +736,7 @@
 		<set name="price" val="35000" />
 		<set name="is_stackable" val="true" />
 	</item>
-	<item id="4480" type="EtcItem" name="Dye of WIT (Wit+1 Men-1)">
+	<item id="4480" type="EtcItem" name="智慧染料&lt;Wit+1Men-1&gt;">
 		<set name="icon" val="icon.etc_wit_hena_i00" />
 		<set name="etcitem_type" val="dye" />
 		<set name="immediate_effect" val="1" />
@@ -745,7 +745,7 @@
 		<set name="price" val="35000" />
 		<set name="is_stackable" val="true" />
 	</item>
-	<item id="4481" type="EtcItem" name="Greater Dye of STR (Str+1 Con-3)">
+	<item id="4481" type="EtcItem" name="高級力量染料&lt;Str+1Con-3&gt;">
 		<set name="icon" val="icon.etc_str_hena_i01" />
 		<set name="etcitem_type" val="dye" />
 		<set name="immediate_effect" val="1" />
@@ -754,7 +754,7 @@
 		<set name="price" val="12000" />
 		<set name="is_stackable" val="true" />
 	</item>
-	<item id="4482" type="EtcItem" name="Greater Dye of STR (Str+1 Dex-3)">
+	<item id="4482" type="EtcItem" name="高級力量染料&lt;Str+1Dex-3&gt;">
 		<set name="icon" val="icon.etc_str_hena_i01" />
 		<set name="etcitem_type" val="dye" />
 		<set name="immediate_effect" val="1" />
@@ -763,7 +763,7 @@
 		<set name="price" val="12000" />
 		<set name="is_stackable" val="true" />
 	</item>
-	<item id="4483" type="EtcItem" name="Greater Dye of CON(Con+1 Str-3)">
+	<item id="4483" type="EtcItem" name="高級體質染料&lt;Con+1Str-3&gt;">
 		<set name="icon" val="icon.etc_con_hena_i01" />
 		<set name="etcitem_type" val="dye" />
 		<set name="immediate_effect" val="1" />
@@ -772,7 +772,7 @@
 		<set name="price" val="12000" />
 		<set name="is_stackable" val="true" />
 	</item>
-	<item id="4484" type="EtcItem" name="Greater Dye of CON(Con+1 Dex-3)">
+	<item id="4484" type="EtcItem" name="高級體質染料&lt;Con+1Dex-3&gt;">
 		<set name="icon" val="icon.etc_con_hena_i01" />
 		<set name="etcitem_type" val="dye" />
 		<set name="immediate_effect" val="1" />
@@ -781,7 +781,7 @@
 		<set name="price" val="12000" />
 		<set name="is_stackable" val="true" />
 	</item>
-	<item id="4485" type="EtcItem" name="Greater Dye of DEX (Dex+1 Str-3)">
+	<item id="4485" type="EtcItem" name="高級敏捷染料&lt;Dex+1Str-3&gt;">
 		<set name="icon" val="icon.etc_dex_hena_i01" />
 		<set name="etcitem_type" val="dye" />
 		<set name="immediate_effect" val="1" />
@@ -790,7 +790,7 @@
 		<set name="price" val="12000" />
 		<set name="is_stackable" val="true" />
 	</item>
-	<item id="4486" type="EtcItem" name="Greater Dye of DEX (Dex+1 Con-3)">
+	<item id="4486" type="EtcItem" name="高級敏捷染料&lt;Dex+1Con-3&gt;">
 		<set name="icon" val="icon.etc_dex_hena_i01" />
 		<set name="etcitem_type" val="dye" />
 		<set name="immediate_effect" val="1" />
@@ -799,7 +799,7 @@
 		<set name="price" val="12000" />
 		<set name="is_stackable" val="true" />
 	</item>
-	<item id="4487" type="EtcItem" name="Greater Dye of INT (Int+1 Men-3)">
+	<item id="4487" type="EtcItem" name="高級智力染料&lt;Int+1Men-3&gt;">
 		<set name="icon" val="icon.etc_int_hena_i01" />
 		<set name="etcitem_type" val="dye" />
 		<set name="immediate_effect" val="1" />
@@ -808,7 +808,7 @@
 		<set name="price" val="12000" />
 		<set name="is_stackable" val="true" />
 	</item>
-	<item id="4488" type="EtcItem" name="Greater Dye of INT (Int+1 Wit-3)">
+	<item id="4488" type="EtcItem" name="高級智力染料&lt;Int+1Wit-3&gt;">
 		<set name="icon" val="icon.etc_int_hena_i01" />
 		<set name="etcitem_type" val="dye" />
 		<set name="immediate_effect" val="1" />
@@ -817,7 +817,7 @@
 		<set name="price" val="12000" />
 		<set name="is_stackable" val="true" />
 	</item>
-	<item id="4489" type="EtcItem" name="Greater Dye of MEN (Men+1 Int-3)">
+	<item id="4489" type="EtcItem" name="高級精神染料&lt;Men+1Int-3&gt;">
 		<set name="icon" val="icon.etc_men_hena_i01" />
 		<set name="etcitem_type" val="dye" />
 		<set name="immediate_effect" val="1" />
@@ -826,7 +826,7 @@
 		<set name="price" val="12000" />
 		<set name="is_stackable" val="true" />
 	</item>
-	<item id="4490" type="EtcItem" name="Greater Dye of MEN (Men+1 Wit-3)">
+	<item id="4490" type="EtcItem" name="高級精神染料&lt;Men+1Wit-3&gt;">
 		<set name="icon" val="icon.etc_men_hena_i01" />
 		<set name="etcitem_type" val="dye" />
 		<set name="immediate_effect" val="1" />
@@ -835,7 +835,7 @@
 		<set name="price" val="12000" />
 		<set name="is_stackable" val="true" />
 	</item>
-	<item id="4491" type="EtcItem" name="Greater Dye of WIT (Wit+1 Int-3)">
+	<item id="4491" type="EtcItem" name="高級智慧染料&lt;Wit+1Int-3&gt;">
 		<set name="icon" val="icon.etc_wit_hena_i01" />
 		<set name="etcitem_type" val="dye" />
 		<set name="immediate_effect" val="1" />
@@ -844,7 +844,7 @@
 		<set name="price" val="12000" />
 		<set name="is_stackable" val="true" />
 	</item>
-	<item id="4492" type="EtcItem" name="Greater Dye of WIT (Wit+1 Men-3)">
+	<item id="4492" type="EtcItem" name="高級智慧染料&lt;Wit+1Men-3&gt;">
 		<set name="icon" val="icon.etc_wit_hena_i01" />
 		<set name="etcitem_type" val="dye" />
 		<set name="immediate_effect" val="1" />
@@ -853,7 +853,7 @@
 		<set name="price" val="12000" />
 		<set name="is_stackable" val="true" />
 	</item>
-	<item id="4493" type="EtcItem" name="Greater Dye of STR (Str+1 Con-2)">
+	<item id="4493" type="EtcItem" name="高級力量染料&lt;Str+1Con-2&gt;">
 		<set name="icon" val="icon.etc_str_hena_i01" />
 		<set name="etcitem_type" val="dye" />
 		<set name="immediate_effect" val="1" />
@@ -862,7 +862,7 @@
 		<set name="price" val="21000" />
 		<set name="is_stackable" val="true" />
 	</item>
-	<item id="4494" type="EtcItem" name="Greater Dye of STR (Str+1 Dex-2)">
+	<item id="4494" type="EtcItem" name="高級力量染料&lt;Str+1Dex-2&gt;">
 		<set name="icon" val="icon.etc_str_hena_i01" />
 		<set name="etcitem_type" val="dye" />
 		<set name="immediate_effect" val="1" />
@@ -871,7 +871,7 @@
 		<set name="price" val="21000" />
 		<set name="is_stackable" val="true" />
 	</item>
-	<item id="4495" type="EtcItem" name="Greater Dye of CON (Con+1 Str-2)">
+	<item id="4495" type="EtcItem" name="高級體質染料&lt;Con+1Str-2&gt;">
 		<set name="icon" val="icon.etc_con_hena_i01" />
 		<set name="etcitem_type" val="dye" />
 		<set name="immediate_effect" val="1" />
@@ -880,7 +880,7 @@
 		<set name="price" val="21000" />
 		<set name="is_stackable" val="true" />
 	</item>
-	<item id="4496" type="EtcItem" name="Greater Dye of CON (Con+1 Dex-2)">
+	<item id="4496" type="EtcItem" name="高級體質染料&lt;Con+1Dex-2&gt;">
 		<set name="icon" val="icon.etc_con_hena_i01" />
 		<set name="etcitem_type" val="dye" />
 		<set name="immediate_effect" val="1" />
@@ -889,7 +889,7 @@
 		<set name="price" val="21000" />
 		<set name="is_stackable" val="true" />
 	</item>
-	<item id="4497" type="EtcItem" name="Greater Dye of DEX (Dex+1 Str-2)">
+	<item id="4497" type="EtcItem" name="高級敏捷染料&lt;Dex+1Str-2&gt;">
 		<set name="icon" val="icon.etc_dex_hena_i01" />
 		<set name="etcitem_type" val="dye" />
 		<set name="immediate_effect" val="1" />
@@ -898,7 +898,7 @@
 		<set name="price" val="21000" />
 		<set name="is_stackable" val="true" />
 	</item>
-	<item id="4498" type="EtcItem" name="Greater Dye of DEX (Dex+1 Con-2)">
+	<item id="4498" type="EtcItem" name="高級敏捷染料&lt;Dex+1Con-2&gt;">
 		<set name="icon" val="icon.etc_dex_hena_i01" />
 		<set name="etcitem_type" val="dye" />
 		<set name="immediate_effect" val="1" />
@@ -907,7 +907,7 @@
 		<set name="price" val="21000" />
 		<set name="is_stackable" val="true" />
 	</item>
-	<item id="4499" type="EtcItem" name="Greater Dye of INT (Int+1 Men-2)">
+	<item id="4499" type="EtcItem" name="高級智力染料&lt;Int+1Men-2&gt;">
 		<set name="icon" val="icon.etc_int_hena_i01" />
 		<set name="etcitem_type" val="dye" />
 		<set name="immediate_effect" val="1" />

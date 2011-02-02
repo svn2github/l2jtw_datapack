@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <list>
-	<item id="6500" type="EtcItem" name="Big Blue Treasure Chest">
+	<item id="6500" type="EtcItem" name="藍色大寶箱">
 		<set name="icon" val="icon.etc_treasure_box_i01" />
 		<set name="default_action" val="capsule" />
 		<set name="immediate_effect" val="1" />
@@ -12,7 +12,7 @@
 		<set name="handler" val="ItemSkills" />
 		<set name="item_skill" val="2201-3" />
 	</item>
-	<item id="6501" type="EtcItem" name="Small Yellow Treasure Chest">
+	<item id="6501" type="EtcItem" name="黃色小寶箱">
 		<set name="icon" val="icon.etc_treasure_box_i02" />
 		<set name="default_action" val="capsule" />
 		<set name="immediate_effect" val="1" />
@@ -24,7 +24,7 @@
 		<set name="handler" val="ItemSkills" />
 		<set name="item_skill" val="2202-1" />
 	</item>
-	<item id="6502" type="EtcItem" name="Yellow Treasure Chest">
+	<item id="6502" type="EtcItem" name="黃色寶箱">
 		<set name="icon" val="icon.etc_treasure_box_i02" />
 		<set name="default_action" val="capsule" />
 		<set name="immediate_effect" val="1" />
@@ -36,7 +36,7 @@
 		<set name="handler" val="ItemSkills" />
 		<set name="item_skill" val="2202-2" />
 	</item>
-	<item id="6503" type="EtcItem" name="Big Yellow Treasure Chest">
+	<item id="6503" type="EtcItem" name="黃色大寶箱">
 		<set name="icon" val="icon.etc_treasure_box_i02" />
 		<set name="default_action" val="capsule" />
 		<set name="immediate_effect" val="1" />
@@ -48,7 +48,7 @@
 		<set name="handler" val="ItemSkills" />
 		<set name="item_skill" val="2202-3" />
 	</item>
-	<item id="6504" type="EtcItem" name="Small Orange Treasure Chest">
+	<item id="6504" type="EtcItem" name="橙色小寶箱">
 		<set name="icon" val="icon.etc_treasure_box_i08" />
 		<set name="default_action" val="capsule" />
 		<set name="immediate_effect" val="1" />
@@ -60,7 +60,7 @@
 		<set name="handler" val="ItemSkills" />
 		<set name="item_skill" val="2203-1" />
 	</item>
-	<item id="6505" type="EtcItem" name="Orange Treasure Chest">
+	<item id="6505" type="EtcItem" name="橙色寶箱">
 		<set name="icon" val="icon.etc_treasure_box_i08" />
 		<set name="default_action" val="capsule" />
 		<set name="immediate_effect" val="1" />
@@ -72,7 +72,7 @@
 		<set name="handler" val="ItemSkills" />
 		<set name="item_skill" val="2203-2" />
 	</item>
-	<item id="6506" type="EtcItem" name="Big Orange Treasure Chest">
+	<item id="6506" type="EtcItem" name="橙色大寶箱">
 		<set name="icon" val="icon.etc_treasure_box_i08" />
 		<set name="default_action" val="capsule" />
 		<set name="immediate_effect" val="1" />
@@ -84,7 +84,7 @@
 		<set name="handler" val="ItemSkills" />
 		<set name="item_skill" val="2203-3" />
 	</item>
-	<item id="6507" type="EtcItem" name="Small Purple Treasure Chest">
+	<item id="6507" type="EtcItem" name="紫色小寶箱">
 		<set name="icon" val="icon.etc_treasure_box_i04" />
 		<set name="default_action" val="capsule" />
 		<set name="immediate_effect" val="1" />
@@ -96,7 +96,7 @@
 		<set name="handler" val="ItemSkills" />
 		<set name="item_skill" val="2204-1" />
 	</item>
-	<item id="6508" type="EtcItem" name="Purple Treasure Chest">
+	<item id="6508" type="EtcItem" name="紫色寶箱">
 		<set name="icon" val="icon.etc_treasure_box_i04" />
 		<set name="default_action" val="capsule" />
 		<set name="immediate_effect" val="1" />
@@ -108,7 +108,7 @@
 		<set name="handler" val="ItemSkills" />
 		<set name="item_skill" val="2204-2" />
 	</item>
-	<item id="6509" type="EtcItem" name="Big Purple Treasure Chest">
+	<item id="6509" type="EtcItem" name="紫色大寶箱">
 		<set name="icon" val="icon.etc_treasure_box_i04" />
 		<set name="default_action" val="capsule" />
 		<set name="immediate_effect" val="1" />
@@ -120,7 +120,7 @@
 		<set name="handler" val="ItemSkills" />
 		<set name="item_skill" val="2204-3" />
 	</item>
-	<item id="6510" type="EtcItem" name="Small Red Treasure Chest">
+	<item id="6510" type="EtcItem" name="紅色小寶箱">
 		<set name="icon" val="icon.etc_treasure_box_i03" />
 		<set name="default_action" val="capsule" />
 		<set name="immediate_effect" val="1" />
@@ -132,7 +132,7 @@
 		<set name="handler" val="ItemSkills" />
 		<set name="item_skill" val="2205-1" />
 	</item>
-	<item id="6511" type="EtcItem" name="Red Treasure Chest">
+	<item id="6511" type="EtcItem" name="紅色寶箱">
 		<set name="icon" val="icon.etc_treasure_box_i03" />
 		<set name="default_action" val="capsule" />
 		<set name="immediate_effect" val="1" />
@@ -144,7 +144,7 @@
 		<set name="handler" val="ItemSkills" />
 		<set name="item_skill" val="2205-2" />
 	</item>
-	<item id="6512" type="EtcItem" name="Big Red Treasure Chest">
+	<item id="6512" type="EtcItem" name="紅色大寶箱">
 		<set name="icon" val="icon.etc_treasure_box_i03" />
 		<set name="default_action" val="capsule" />
 		<set name="immediate_effect" val="1" />
@@ -156,7 +156,7 @@
 		<set name="handler" val="ItemSkills" />
 		<set name="item_skill" val="2205-3" />
 	</item>
-	<item id="6513" type="EtcItem" name="Small White Treasure Chest">
+	<item id="6513" type="EtcItem" name="白色小寶箱">
 		<set name="icon" val="icon.etc_treasure_box_i00" />
 		<set name="default_action" val="capsule" />
 		<set name="immediate_effect" val="1" />
@@ -168,7 +168,7 @@
 		<set name="handler" val="ItemSkills" />
 		<set name="item_skill" val="2206-1" />
 	</item>
-	<item id="6514" type="EtcItem" name="White Treasure Chest">
+	<item id="6514" type="EtcItem" name="白色寶箱">
 		<set name="icon" val="icon.etc_treasure_box_i00" />
 		<set name="default_action" val="capsule" />
 		<set name="immediate_effect" val="1" />
@@ -180,7 +180,7 @@
 		<set name="handler" val="ItemSkills" />
 		<set name="item_skill" val="2206-2" />
 	</item>
-	<item id="6515" type="EtcItem" name="Big White Treasure Chest">
+	<item id="6515" type="EtcItem" name="白色大寶箱">
 		<set name="icon" val="icon.etc_treasure_box_i00" />
 		<set name="default_action" val="capsule" />
 		<set name="immediate_effect" val="1" />
@@ -192,7 +192,7 @@
 		<set name="handler" val="ItemSkills" />
 		<set name="item_skill" val="2206-3" />
 	</item>
-	<item id="6516" type="EtcItem" name="Small Black Treasure Chest">
+	<item id="6516" type="EtcItem" name="黑色小寶箱">
 		<set name="icon" val="icon.etc_treasure_box_i05" />
 		<set name="default_action" val="capsule" />
 		<set name="immediate_effect" val="1" />
@@ -204,7 +204,7 @@
 		<set name="handler" val="ItemSkills" />
 		<set name="item_skill" val="2207-1" />
 	</item>
-	<item id="6517" type="EtcItem" name="Black Treasure Chest">
+	<item id="6517" type="EtcItem" name="黑色寶箱">
 		<set name="icon" val="icon.etc_treasure_box_i05" />
 		<set name="default_action" val="capsule" />
 		<set name="immediate_effect" val="1" />
@@ -216,7 +216,7 @@
 		<set name="handler" val="ItemSkills" />
 		<set name="item_skill" val="2207-2" />
 	</item>
-	<item id="6518" type="EtcItem" name="Big Black Treasure Chest">
+	<item id="6518" type="EtcItem" name="黑色大寶箱">
 		<set name="icon" val="icon.etc_treasure_box_i05" />
 		<set name="default_action" val="capsule" />
 		<set name="immediate_effect" val="1" />
@@ -228,7 +228,7 @@
 		<set name="handler" val="ItemSkills" />
 		<set name="item_skill" val="2207-3" />
 	</item>
-	<item id="6519" type="EtcItem" name="Green Colored Lure - Low Grade">
+	<item id="6519" type="EtcItem" name="綠色魚餌-下等">
 		<set name="icon" val="icon.etc_bait_i00" />
 		<set name="default_action" val="equip" />
 		<set name="etcitem_type" val="lure" />
@@ -240,7 +240,7 @@
 		<set name="is_stackable" val="true" />
 		<set name="is_oly_restricted" val="true" />
 	</item>
-	<item id="6520" type="EtcItem" name="Green Colored Lure">
+	<item id="6520" type="EtcItem" name="綠色魚餌-中等">
 		<set name="icon" val="icon.etc_bait_i00" />
 		<set name="default_action" val="equip" />
 		<set name="etcitem_type" val="lure" />
@@ -252,7 +252,7 @@
 		<set name="is_stackable" val="true" />
 		<set name="is_oly_restricted" val="true" />
 	</item>
-	<item id="6521" type="EtcItem" name="Green Colored Lure - High Grade">
+	<item id="6521" type="EtcItem" name="綠色魚餌-高等">
 		<set name="icon" val="icon.etc_bait_i00" />
 		<set name="default_action" val="equip" />
 		<set name="etcitem_type" val="lure" />
@@ -264,7 +264,7 @@
 		<set name="is_stackable" val="true" />
 		<set name="is_oly_restricted" val="true" />
 	</item>
-	<item id="6522" type="EtcItem" name="Purple Colored Lure - Low Grade">
+	<item id="6522" type="EtcItem" name="紫色魚餌-下等">
 		<set name="icon" val="icon.etc_bait_i01" />
 		<set name="default_action" val="equip" />
 		<set name="etcitem_type" val="lure" />
@@ -276,7 +276,7 @@
 		<set name="is_stackable" val="true" />
 		<set name="is_oly_restricted" val="true" />
 	</item>
-	<item id="6523" type="EtcItem" name="Purple Colored Lure">
+	<item id="6523" type="EtcItem" name="紫色魚餌-中等">
 		<set name="icon" val="icon.etc_bait_i01" />
 		<set name="default_action" val="equip" />
 		<set name="etcitem_type" val="lure" />
@@ -288,7 +288,7 @@
 		<set name="is_stackable" val="true" />
 		<set name="is_oly_restricted" val="true" />
 	</item>
-	<item id="6524" type="EtcItem" name="Purple Colored Lure - High Grade">
+	<item id="6524" type="EtcItem" name="紫色魚餌-高等">
 		<set name="icon" val="icon.etc_bait_i01" />
 		<set name="default_action" val="equip" />
 		<set name="etcitem_type" val="lure" />
@@ -300,7 +300,7 @@
 		<set name="is_stackable" val="true" />
 		<set name="is_oly_restricted" val="true" />
 	</item>
-	<item id="6525" type="EtcItem" name="Yellow Colored Lure - Low Grade">
+	<item id="6525" type="EtcItem" name="黃色魚餌-下等">
 		<set name="icon" val="icon.etc_bait_i02" />
 		<set name="default_action" val="equip" />
 		<set name="etcitem_type" val="lure" />
@@ -312,7 +312,7 @@
 		<set name="is_stackable" val="true" />
 		<set name="is_oly_restricted" val="true" />
 	</item>
-	<item id="6526" type="EtcItem" name="Yellow Colored Lure">
+	<item id="6526" type="EtcItem" name="黃色魚餌-中等">
 		<set name="icon" val="icon.etc_bait_i02" />
 		<set name="default_action" val="equip" />
 		<set name="etcitem_type" val="lure" />
@@ -324,7 +324,7 @@
 		<set name="is_stackable" val="true" />
 		<set name="is_oly_restricted" val="true" />
 	</item>
-	<item id="6527" type="EtcItem" name="Yellow Colored Lure - High Grade">
+	<item id="6527" type="EtcItem" name="黃色魚餌-高等">
 		<set name="icon" val="icon.etc_bait_i02" />
 		<set name="default_action" val="equip" />
 		<set name="etcitem_type" val="lure" />
@@ -336,7 +336,7 @@
 		<set name="is_stackable" val="true" />
 		<set name="is_oly_restricted" val="true" />
 	</item>
-	<item id="6528" type="EtcItem" name="Event bait">
+	<item id="6528" type="EtcItem" name="活動用魚餌">
 		<set name="icon" val="icon.etc_special_bait_i00" />
 		<set name="default_action" val="equip" />
 		<set name="etcitem_type" val="lure" />
@@ -348,7 +348,7 @@
 		<set name="is_stackable" val="true" />
 		<set name="is_oly_restricted" val="true" />
 	</item>
-	<item id="6529" type="Weapon" name="Baby Duck Rod">
+	<item id="6529" type="Weapon" name="雛鴨桿">
 		<set name="icon" val="icon.weapon_fishing_rod_i00" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="fishingrod" />
@@ -361,7 +361,7 @@
 		<set name="material" val="bone" />
 		<set name="weight" val="1000" />
 		<set name="price" val="30000" />
-		<set name="item_equip_option" val="{no_attack}" />
+		<set name="item_equip_option" val="{no_attack}"/>
 		<for>
 			<set order="0x08" stat="pAtk" val="1" />
 			<set order="0x08" stat="mAtk" val="1" />
@@ -371,7 +371,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="6530" type="Weapon" name="Albatross Rod">
+	<item id="6530" type="Weapon" name="信天翁桿">
 		<set name="icon" val="icon.weapon_fishing_rod_i01" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="fishingrod" />
@@ -385,7 +385,7 @@
 		<set name="material" val="bone" />
 		<set name="weight" val="1000" />
 		<set name="price" val="100000" />
-		<set name="item_equip_option" val="{no_attack}" />
+		<set name="item_equip_option" val="{no_attack}"/>
 		<for>
 			<set order="0x08" stat="pAtk" val="1" />
 			<set order="0x08" stat="mAtk" val="1" />
@@ -395,7 +395,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="6531" type="Weapon" name="Pelican Rod">
+	<item id="6531" type="Weapon" name="送子鳥桿">
 		<set name="icon" val="icon.weapon_fishing_rod_i02" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="fishingrod" />
@@ -409,7 +409,7 @@
 		<set name="material" val="bone" />
 		<set name="weight" val="1000" />
 		<set name="price" val="400000" />
-		<set name="item_equip_option" val="{no_attack}" />
+		<set name="item_equip_option" val="{no_attack}"/>
 		<for>
 			<set order="0x08" stat="pAtk" val="1" />
 			<set order="0x08" stat="mAtk" val="1" />
@@ -419,7 +419,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="6532" type="Weapon" name="KingFisher Rod">
+	<item id="6532" type="Weapon" name="翠鳥桿">
 		<set name="icon" val="icon.weapon_fishing_rod_i03" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="fishingrod" />
@@ -433,7 +433,7 @@
 		<set name="material" val="bone" />
 		<set name="weight" val="1000" />
 		<set name="price" val="1200000" />
-		<set name="item_equip_option" val="{no_attack}" />
+		<set name="item_equip_option" val="{no_attack}"/>
 		<for>
 			<set order="0x08" stat="pAtk" val="1" />
 			<set order="0x08" stat="mAtk" val="1" />
@@ -443,7 +443,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="6533" type="Weapon" name="Cygnus Pole">
+	<item id="6533" type="Weapon" name="天鵝座長竿">
 		<set name="icon" val="icon.weapon_fishing_rod_i04" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="fishingrod" />
@@ -457,7 +457,7 @@
 		<set name="material" val="bone" />
 		<set name="weight" val="1000" />
 		<set name="price" val="4000000" />
-		<set name="item_equip_option" val="{no_attack}" />
+		<set name="item_equip_option" val="{no_attack}"/>
 		<for>
 			<set order="0x08" stat="pAtk" val="1" />
 			<set order="0x08" stat="mAtk" val="1" />
@@ -467,7 +467,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="6534" type="Weapon" name="Triton Pole">
+	<item id="6534" type="Weapon" name="海神崔坦長竿">
 		<set name="icon" val="icon.weapon_fishing_rod_i05" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="fishingrod" />
@@ -481,7 +481,7 @@
 		<set name="material" val="bone" />
 		<set name="weight" val="1000" />
 		<set name="price" val="10000000" />
-		<set name="item_equip_option" val="{no_attack}" />
+		<set name="item_equip_option" val="{no_attack}"/>
 		<for>
 			<set order="0x08" stat="pAtk" val="1" />
 			<set order="0x08" stat="mAtk" val="1" />
@@ -491,7 +491,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="6535" type="EtcItem" name="Fishing Shot: non-grade">
+	<item id="6535" type="EtcItem" name="漁靈彈-普通">
 		<set name="icon" val="icon.etc_spirit_bullet_fish_i00" />
 		<set name="default_action" val="fishingshot" />
 		<set name="immediate_effect" val="1" />
@@ -503,7 +503,7 @@
 		<set name="handler" val="FishShots" />
 		<set name="item_skill" val="2181-1" />
 	</item>
-	<item id="6536" type="EtcItem" name="Fishing Shot: D-grade">
+	<item id="6536" type="EtcItem" name="漁靈彈-D級">
 		<set name="icon" val="icon.etc_spirit_bullet_fish_i01" />
 		<set name="default_action" val="fishingshot" />
 		<set name="immediate_effect" val="1" />
@@ -516,7 +516,7 @@
 		<set name="handler" val="FishShots" />
 		<set name="item_skill" val="2182-1" />
 	</item>
-	<item id="6537" type="EtcItem" name="Fishing Shot: C-grade">
+	<item id="6537" type="EtcItem" name="漁靈彈-C級">
 		<set name="icon" val="icon.etc_spirit_bullet_fish_i02" />
 		<set name="default_action" val="fishingshot" />
 		<set name="immediate_effect" val="1" />
@@ -529,7 +529,7 @@
 		<set name="handler" val="FishShots" />
 		<set name="item_skill" val="2183-1" />
 	</item>
-	<item id="6538" type="EtcItem" name="Fishing Shot: B-grade">
+	<item id="6538" type="EtcItem" name="漁靈彈-B級">
 		<set name="icon" val="icon.etc_spirit_bullet_fish_i03" />
 		<set name="default_action" val="fishingshot" />
 		<set name="immediate_effect" val="1" />
@@ -542,7 +542,7 @@
 		<set name="handler" val="FishShots" />
 		<set name="item_skill" val="2184-1" />
 	</item>
-	<item id="6539" type="EtcItem" name="Fishing Shot: A-grade">
+	<item id="6539" type="EtcItem" name="漁靈彈-A級">
 		<set name="icon" val="icon.etc_spirit_bullet_fish_i04" />
 		<set name="default_action" val="fishingshot" />
 		<set name="immediate_effect" val="1" />
@@ -555,7 +555,7 @@
 		<set name="handler" val="FishShots" />
 		<set name="item_skill" val="2185-1" />
 	</item>
-	<item id="6540" type="EtcItem" name="Fishing Shot: S-grade">
+	<item id="6540" type="EtcItem" name="漁靈彈-S級">
 		<set name="icon" val="icon.etc_spirit_bullet_fish_i05" />
 		<set name="default_action" val="fishingshot" />
 		<set name="immediate_effect" val="1" />
@@ -568,7 +568,7 @@
 		<set name="handler" val="FishShots" />
 		<set name="item_skill" val="2186-1" />
 	</item>
-	<item id="6541" type="EtcItem" name="Blue Coba">
+	<item id="6541" type="EtcItem" name="藍色柯巴">
 		<set name="icon" val="icon.etc_blue_coba_i00" />
 		<set name="etcitem_type" val="crop" />
 		<set name="material" val="paper" />
@@ -576,7 +576,7 @@
 		<set name="price" val="1250" />
 		<set name="is_stackable" val="true" />
 	</item>
-	<item id="6542" type="EtcItem" name="Red Coba">
+	<item id="6542" type="EtcItem" name="紅色柯巴">
 		<set name="icon" val="icon.etc_red_coba_i00" />
 		<set name="etcitem_type" val="crop" />
 		<set name="material" val="paper" />
@@ -584,7 +584,7 @@
 		<set name="price" val="1500" />
 		<set name="is_stackable" val="true" />
 	</item>
-	<item id="6543" type="EtcItem" name="Gold Coba">
+	<item id="6543" type="EtcItem" name="金色柯巴">
 		<set name="icon" val="icon.etc_golden_coba_i00" />
 		<set name="etcitem_type" val="crop" />
 		<set name="material" val="paper" />
@@ -592,7 +592,7 @@
 		<set name="price" val="1750" />
 		<set name="is_stackable" val="true" />
 	</item>
-	<item id="6544" type="EtcItem" name="Desert Coba">
+	<item id="6544" type="EtcItem" name="沙漠柯巴">
 		<set name="icon" val="icon.etc_desert_coba_i00" />
 		<set name="etcitem_type" val="crop" />
 		<set name="material" val="paper" />
@@ -600,7 +600,7 @@
 		<set name="price" val="2000" />
 		<set name="is_stackable" val="true" />
 	</item>
-	<item id="6545" type="EtcItem" name="Sea Coba">
+	<item id="6545" type="EtcItem" name="海洋柯巴">
 		<set name="icon" val="icon.etc_sea_coba_i00" />
 		<set name="etcitem_type" val="crop" />
 		<set name="material" val="paper" />
@@ -608,7 +608,7 @@
 		<set name="price" val="2250" />
 		<set name="is_stackable" val="true" />
 	</item>
-	<item id="6546" type="EtcItem" name="Twin Coba">
+	<item id="6546" type="EtcItem" name="雙生柯巴">
 		<set name="icon" val="icon.etc_twin_coba_i00" />
 		<set name="etcitem_type" val="crop" />
 		<set name="material" val="paper" />
@@ -616,7 +616,7 @@
 		<set name="price" val="2500" />
 		<set name="is_stackable" val="true" />
 	</item>
-	<item id="6547" type="EtcItem" name="King Coba">
+	<item id="6547" type="EtcItem" name="巨大柯巴">
 		<set name="icon" val="icon.etc_great_coba_i00" />
 		<set name="etcitem_type" val="crop" />
 		<set name="material" val="paper" />
@@ -624,7 +624,7 @@
 		<set name="price" val="2750" />
 		<set name="is_stackable" val="true" />
 	</item>
-	<item id="6548" type="EtcItem" name="Alternative Blue Coba">
+	<item id="6548" type="EtcItem" name="改良藍色柯巴">
 		<set name="icon" val="icon.etc_blue_coba_i00" />
 		<set name="etcitem_type" val="crop" />
 		<set name="material" val="paper" />
@@ -632,7 +632,7 @@
 		<set name="price" val="1250" />
 		<set name="is_stackable" val="true" />
 	</item>
-	<item id="6549" type="EtcItem" name="Alternative Red Coba">
+	<item id="6549" type="EtcItem" name="改良紅色柯巴">
 		<set name="icon" val="icon.etc_red_coba_i00" />
 		<set name="etcitem_type" val="crop" />
 		<set name="material" val="paper" />
@@ -640,7 +640,7 @@
 		<set name="price" val="1500" />
 		<set name="is_stackable" val="true" />
 	</item>
-	<item id="6550" type="EtcItem" name="Alternative Gold Coba">
+	<item id="6550" type="EtcItem" name="改良金色柯巴">
 		<set name="icon" val="icon.etc_golden_coba_i00" />
 		<set name="etcitem_type" val="crop" />
 		<set name="material" val="paper" />
@@ -648,7 +648,7 @@
 		<set name="price" val="1750" />
 		<set name="is_stackable" val="true" />
 	</item>
-	<item id="6551" type="EtcItem" name="Alternative Desert Coba">
+	<item id="6551" type="EtcItem" name="改良沙漠柯巴">
 		<set name="icon" val="icon.etc_desert_coba_i00" />
 		<set name="etcitem_type" val="crop" />
 		<set name="material" val="paper" />
@@ -656,7 +656,7 @@
 		<set name="price" val="2000" />
 		<set name="is_stackable" val="true" />
 	</item>
-	<item id="6552" type="EtcItem" name="Alternative Sea Coba">
+	<item id="6552" type="EtcItem" name="改良海洋柯巴">
 		<set name="icon" val="icon.etc_sea_coba_i00" />
 		<set name="etcitem_type" val="crop" />
 		<set name="material" val="paper" />
@@ -664,7 +664,7 @@
 		<set name="price" val="2250" />
 		<set name="is_stackable" val="true" />
 	</item>
-	<item id="6553" type="EtcItem" name="Alternative Twin Coba">
+	<item id="6553" type="EtcItem" name="改良雙生柯巴">
 		<set name="icon" val="icon.etc_twin_coba_i00" />
 		<set name="etcitem_type" val="crop" />
 		<set name="material" val="paper" />
@@ -672,7 +672,7 @@
 		<set name="price" val="2500" />
 		<set name="is_stackable" val="true" />
 	</item>
-	<item id="6554" type="EtcItem" name="Alternative King Coba">
+	<item id="6554" type="EtcItem" name="改良巨大柯巴">
 		<set name="icon" val="icon.etc_great_coba_i00" />
 		<set name="etcitem_type" val="crop" />
 		<set name="material" val="paper" />
@@ -680,7 +680,7 @@
 		<set name="price" val="2750" />
 		<set name="is_stackable" val="true" />
 	</item>
-	<item id="6555" type="EtcItem" name="Ripe Blue Coba">
+	<item id="6555" type="EtcItem" name="成熟的藍色柯巴">
 		<set name="icon" val="icon.etc_blue_coba_i00" />
 		<set name="etcitem_type" val="maturecrop" />
 		<set name="material" val="paper" />
@@ -688,7 +688,7 @@
 		<set name="price" val="1250" />
 		<set name="is_stackable" val="true" />
 	</item>
-	<item id="6556" type="EtcItem" name="Ripe Red Coba">
+	<item id="6556" type="EtcItem" name="成熟的紅色柯巴">
 		<set name="icon" val="icon.etc_red_coba_i00" />
 		<set name="etcitem_type" val="maturecrop" />
 		<set name="material" val="paper" />
@@ -696,7 +696,7 @@
 		<set name="price" val="1500" />
 		<set name="is_stackable" val="true" />
 	</item>
-	<item id="6557" type="EtcItem" name="Ripe Gold Coba">
+	<item id="6557" type="EtcItem" name="成熟的金色柯巴">
 		<set name="icon" val="icon.etc_golden_coba_i00" />
 		<set name="etcitem_type" val="maturecrop" />
 		<set name="material" val="paper" />
@@ -704,7 +704,7 @@
 		<set name="price" val="1750" />
 		<set name="is_stackable" val="true" />
 	</item>
-	<item id="6558" type="EtcItem" name="Ripe Desert Coba">
+	<item id="6558" type="EtcItem" name="成熟的沙漠柯巴">
 		<set name="icon" val="icon.etc_desert_coba_i00" />
 		<set name="etcitem_type" val="maturecrop" />
 		<set name="material" val="paper" />
@@ -712,7 +712,7 @@
 		<set name="price" val="2000" />
 		<set name="is_stackable" val="true" />
 	</item>
-	<item id="6559" type="EtcItem" name="Ripe Sea Coba">
+	<item id="6559" type="EtcItem" name="成熟的海洋柯巴">
 		<set name="icon" val="icon.etc_sea_coba_i00" />
 		<set name="etcitem_type" val="maturecrop" />
 		<set name="material" val="paper" />
@@ -720,7 +720,7 @@
 		<set name="price" val="2250" />
 		<set name="is_stackable" val="true" />
 	</item>
-	<item id="6560" type="EtcItem" name="Ripe Twin Coba">
+	<item id="6560" type="EtcItem" name="成熟的雙生柯巴">
 		<set name="icon" val="icon.etc_twin_coba_i00" />
 		<set name="etcitem_type" val="maturecrop" />
 		<set name="material" val="paper" />
@@ -728,7 +728,7 @@
 		<set name="price" val="2500" />
 		<set name="is_stackable" val="true" />
 	</item>
-	<item id="6561" type="EtcItem" name="Ripe King Coba">
+	<item id="6561" type="EtcItem" name="成熟的巨大柯巴">
 		<set name="icon" val="icon.etc_great_coba_i00" />
 		<set name="etcitem_type" val="maturecrop" />
 		<set name="material" val="paper" />
@@ -736,7 +736,7 @@
 		<set name="price" val="2750" />
 		<set name="is_stackable" val="true" />
 	</item>
-	<item id="6562" type="EtcItem" name="Ripe Alternative Blue Coba">
+	<item id="6562" type="EtcItem" name="成熟的改良藍色柯巴">
 		<set name="icon" val="icon.etc_blue_coba_i00" />
 		<set name="etcitem_type" val="maturecrop" />
 		<set name="material" val="paper" />
@@ -744,7 +744,7 @@
 		<set name="price" val="1250" />
 		<set name="is_stackable" val="true" />
 	</item>
-	<item id="6563" type="EtcItem" name="Ripe Alternative Red Coba">
+	<item id="6563" type="EtcItem" name="成熟的改良紅色柯巴">
 		<set name="icon" val="icon.etc_red_coba_i00" />
 		<set name="etcitem_type" val="maturecrop" />
 		<set name="material" val="paper" />
@@ -752,7 +752,7 @@
 		<set name="price" val="1500" />
 		<set name="is_stackable" val="true" />
 	</item>
-	<item id="6564" type="EtcItem" name="Ripe Alternative Gold Coba">
+	<item id="6564" type="EtcItem" name="成熟的改良金色柯巴">
 		<set name="icon" val="icon.etc_golden_coba_i00" />
 		<set name="etcitem_type" val="maturecrop" />
 		<set name="material" val="paper" />
@@ -760,7 +760,7 @@
 		<set name="price" val="1750" />
 		<set name="is_stackable" val="true" />
 	</item>
-	<item id="6565" type="EtcItem" name="Ripe Alternative Desert Coba">
+	<item id="6565" type="EtcItem" name="成熟的改良沙漠柯巴">
 		<set name="icon" val="icon.etc_desert_coba_i00" />
 		<set name="etcitem_type" val="maturecrop" />
 		<set name="material" val="paper" />
@@ -768,7 +768,7 @@
 		<set name="price" val="2000" />
 		<set name="is_stackable" val="true" />
 	</item>
-	<item id="6566" type="EtcItem" name="Ripe Alternative Sea Coba">
+	<item id="6566" type="EtcItem" name="成熟的改良海洋柯巴">
 		<set name="icon" val="icon.etc_sea_coba_i00" />
 		<set name="etcitem_type" val="maturecrop" />
 		<set name="material" val="paper" />
@@ -776,7 +776,7 @@
 		<set name="price" val="2250" />
 		<set name="is_stackable" val="true" />
 	</item>
-	<item id="6567" type="EtcItem" name="Ripe Alternative Twin Coba">
+	<item id="6567" type="EtcItem" name="成熟的改良雙生柯巴">
 		<set name="icon" val="icon.etc_twin_coba_i00" />
 		<set name="etcitem_type" val="maturecrop" />
 		<set name="material" val="paper" />
@@ -784,7 +784,7 @@
 		<set name="price" val="2500" />
 		<set name="is_stackable" val="true" />
 	</item>
-	<item id="6568" type="EtcItem" name="Ripe Alternative King Coba">
+	<item id="6568" type="EtcItem" name="成熟的改良巨大柯巴">
 		<set name="icon" val="icon.etc_great_coba_i00" />
 		<set name="etcitem_type" val="maturecrop" />
 		<set name="material" val="paper" />
@@ -792,7 +792,7 @@
 		<set name="price" val="2750" />
 		<set name="is_stackable" val="true" />
 	</item>
-	<item id="6569" type="EtcItem" name="Blessed Scroll: Enchant Weapon (A)">
+	<item id="6569" type="EtcItem" name="祝福的武器強化卷軸-A級">
 		<set name="icon" val="icon.etc_blessed_scrl_of_ench_wp_a_i04" />
 		<set name="default_action" val="skill_reduce" />
 		<set name="etcitem_type" val="bless_scrl_enchant_wp" />
@@ -805,7 +805,7 @@
 		<set name="handler" val="EnchantScrolls" />
 		<set name="item_skill" val="2027-1" />
 	</item>
-	<item id="6570" type="EtcItem" name="Blessed Scroll: Enchant Armor (A)">
+	<item id="6570" type="EtcItem" name="祝福的防具強化卷軸-A級">
 		<set name="icon" val="icon.etc_blessed_scrl_of_ench_am_a_i04" />
 		<set name="default_action" val="skill_reduce" />
 		<set name="etcitem_type" val="bless_scrl_enchant_am" />
@@ -818,7 +818,7 @@
 		<set name="handler" val="EnchantScrolls" />
 		<set name="item_skill" val="2209-1" />
 	</item>
-	<item id="6571" type="EtcItem" name="Blessed Scroll: Enchant Weapon (B)">
+	<item id="6571" type="EtcItem" name="祝福的武器強化卷軸-B級">
 		<set name="icon" val="icon.etc_blessed_scrl_of_ench_wp_b_i03" />
 		<set name="default_action" val="skill_reduce" />
 		<set name="etcitem_type" val="bless_scrl_enchant_wp" />
@@ -831,7 +831,7 @@
 		<set name="handler" val="EnchantScrolls" />
 		<set name="item_skill" val="2028-1" />
 	</item>
-	<item id="6572" type="EtcItem" name="Blessed Scroll: Enchant Armor (B)">
+	<item id="6572" type="EtcItem" name="祝福的防具強化卷軸-B級">
 		<set name="icon" val="icon.etc_blessed_scrl_of_ench_am_b_i03" />
 		<set name="default_action" val="skill_reduce" />
 		<set name="etcitem_type" val="bless_scrl_enchant_am" />
@@ -844,7 +844,7 @@
 		<set name="handler" val="EnchantScrolls" />
 		<set name="item_skill" val="2210-1" />
 	</item>
-	<item id="6573" type="EtcItem" name="Blessed Scroll: Enchant Weapon (C)">
+	<item id="6573" type="EtcItem" name="祝福的武器強化卷軸-C級">
 		<set name="icon" val="icon.etc_blessed_scrl_of_ench_wp_c_i02" />
 		<set name="default_action" val="skill_reduce" />
 		<set name="etcitem_type" val="bless_scrl_enchant_wp" />
@@ -857,7 +857,7 @@
 		<set name="handler" val="EnchantScrolls" />
 		<set name="item_skill" val="2029-1" />
 	</item>
-	<item id="6574" type="EtcItem" name="Blessed Scroll: Enchant Armor (C)">
+	<item id="6574" type="EtcItem" name="祝福的防具強化卷軸-C級">
 		<set name="icon" val="icon.etc_blessed_scrl_of_ench_am_c_i02" />
 		<set name="default_action" val="skill_reduce" />
 		<set name="etcitem_type" val="bless_scrl_enchant_am" />
@@ -870,7 +870,7 @@
 		<set name="handler" val="EnchantScrolls" />
 		<set name="item_skill" val="2211-1" />
 	</item>
-	<item id="6575" type="EtcItem" name="Blessed Scroll: Enchant Weapon (D)">
+	<item id="6575" type="EtcItem" name="祝福的武器強化卷軸-D級">
 		<set name="icon" val="icon.etc_blessed_scrl_of_ench_wp_d_i01" />
 		<set name="default_action" val="skill_reduce" />
 		<set name="etcitem_type" val="bless_scrl_enchant_wp" />
@@ -883,7 +883,7 @@
 		<set name="handler" val="EnchantScrolls" />
 		<set name="item_skill" val="2030-1" />
 	</item>
-	<item id="6576" type="EtcItem" name="Blessed Scroll: Enchant Armor (D)">
+	<item id="6576" type="EtcItem" name="祝福的防具強化卷軸-D級">
 		<set name="icon" val="icon.etc_blessed_scrl_of_ench_am_d_i01" />
 		<set name="default_action" val="skill_reduce" />
 		<set name="etcitem_type" val="bless_scrl_enchant_am" />
@@ -896,7 +896,7 @@
 		<set name="handler" val="EnchantScrolls" />
 		<set name="item_skill" val="2212-1" />
 	</item>
-	<item id="6577" type="EtcItem" name="Blessed Scroll: Enchant Weapon (S)">
+	<item id="6577" type="EtcItem" name="祝福的武器強化卷軸-S級">
 		<set name="icon" val="icon.etc_blessed_scrl_of_ench_wp_s_i05" />
 		<set name="default_action" val="skill_reduce" />
 		<set name="etcitem_type" val="bless_scrl_enchant_wp" />
@@ -909,7 +909,7 @@
 		<set name="handler" val="EnchantScrolls" />
 		<set name="item_skill" val="2026-1" />
 	</item>
-	<item id="6578" type="EtcItem" name="Blessed Scroll: Enchant Armor (S)">
+	<item id="6578" type="EtcItem" name="祝福的防具強化卷軸-S級">
 		<set name="icon" val="icon.etc_blessed_scrl_of_ench_am_s_i05" />
 		<set name="default_action" val="skill_reduce" />
 		<set name="etcitem_type" val="bless_scrl_enchant_am" />
@@ -922,7 +922,7 @@
 		<set name="handler" val="EnchantScrolls" />
 		<set name="item_skill" val="2208-1" />
 	</item>
-	<item id="6579" type="Weapon" name="Arcana Mace">
+	<item id="6579" type="Weapon" name="祕儀權杖">
 		<set name="icon" val="icon.weapon_arcana_mace_i00" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="blunt" />
@@ -952,7 +952,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="6580" type="Weapon" name="Tallum Blade*Dark Legion's Edge">
+	<item id="6580" type="Weapon" name="塔魯刀*黑暗軍刀">
 		<set name="icon" val="icon.weapon_dual_sword_i00" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="dual" />
@@ -981,7 +981,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="6581" type="Weapon" name="Forgotten Blade - Haste">
+	<item id="6581" type="Weapon" name="忘卻之刃">
 		<set name="icon" val="icon.weapon_forgotten_blade_i01" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="sword" />
@@ -1010,7 +1010,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="6582" type="Weapon" name="Forgotten Blade - Health">
+	<item id="6582" type="Weapon" name="忘卻之刃">
 		<set name="icon" val="icon.weapon_forgotten_blade_i01" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="sword" />
@@ -1039,7 +1039,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="6583" type="Weapon" name="Forgotten Blade - Focus">
+	<item id="6583" type="Weapon" name="忘卻之刃">
 		<set name="icon" val="icon.weapon_forgotten_blade_i01" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="sword" />
@@ -1068,7 +1068,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="6584" type="Weapon" name="Basalt Battlehammer - HP Drain">
+	<item id="6584" type="Weapon" name="玄武岩戰鎚">
 		<set name="icon" val="icon.weapon_basalt_battlehammer_i01" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="blunt" />
@@ -1098,7 +1098,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="6585" type="Weapon" name="Basalt Battlehammer - Health">
+	<item id="6585" type="Weapon" name="玄武岩戰鎚">
 		<set name="icon" val="icon.weapon_basalt_battlehammer_i01" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="blunt" />
@@ -1128,7 +1128,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="6586" type="Weapon" name="Basalt Battlehammer - HP Regeneration">
+	<item id="6586" type="Weapon" name="玄武岩戰鎚">
 		<set name="icon" val="icon.weapon_basalt_battlehammer_i01" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="blunt" />
@@ -1158,7 +1158,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="6587" type="Weapon" name="Imperial Staff - Empower">
+	<item id="6587" type="Weapon" name="帝國權杖">
 		<set name="icon" val="icon.weapon_imperial_staff_i01" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="bigblunt" />
@@ -1189,7 +1189,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="6588" type="Weapon" name="Imperial Staff - MP Regeneration">
+	<item id="6588" type="Weapon" name="帝國權杖">
 		<set name="icon" val="icon.weapon_imperial_staff_i01" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="bigblunt" />
@@ -1220,7 +1220,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="6589" type="Weapon" name="Imperial Staff - Magic Hold">
+	<item id="6589" type="Weapon" name="帝國權杖">
 		<set name="icon" val="icon.weapon_imperial_staff_i01" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="bigblunt" />
@@ -1253,7 +1253,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="6590" type="Weapon" name="Angel Slayer - Critical Damage">
+	<item id="6590" type="Weapon" name="天使殺手">
 		<set name="icon" val="icon.weapon_angel_slayer_i01" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="dagger" />
@@ -1283,7 +1283,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="6591" type="Weapon" name="Angel Slayer - HP Drain">
+	<item id="6591" type="Weapon" name="天使殺手">
 		<set name="icon" val="icon.weapon_angel_slayer_i01" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="dagger" />
@@ -1313,7 +1313,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="6592" type="Weapon" name="Angel Slayer - Haste">
+	<item id="6592" type="Weapon" name="天使殺手">
 		<set name="icon" val="icon.weapon_angel_slayer_i01" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="dagger" />
@@ -1343,7 +1343,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="6593" type="Weapon" name="Shining Bow - Cheap Shot">
+	<item id="6593" type="Weapon" name="閃耀弓">
 		<set name="icon" val="icon.weapon_shining_bow_i01" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="bow" />
@@ -1379,7 +1379,7 @@
 			</set>
 		</for>
 	</item>
-	<item id="6594" type="Weapon" name="Shining Bow - Focus">
+	<item id="6594" type="Weapon" name="閃耀弓">
 		<set name="icon" val="icon.weapon_shining_bow_i01" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="bow" />
@@ -1410,7 +1410,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="6595" type="Weapon" name="Shining Bow - Critical Slow">
+	<item id="6595" type="Weapon" name="閃耀弓">
 		<set name="icon" val="icon.weapon_shining_bow_i01" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="bow" />
@@ -1441,7 +1441,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="6596" type="Weapon" name="Dragon Hunter Axe - HP Regeneration">
+	<item id="6596" type="Weapon" name="狩龍之斧">
 		<set name="icon" val="icon.weapon_dragon_hunter_axe_i01" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="bigblunt" />
@@ -1471,7 +1471,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="6597" type="Weapon" name="Dragon Hunter Axe - Health">
+	<item id="6597" type="Weapon" name="狩龍之斧">
 		<set name="icon" val="icon.weapon_dragon_hunter_axe_i01" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="bigblunt" />
@@ -1501,7 +1501,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="6598" type="Weapon" name="Dragon Hunter Axe - HP Drain">
+	<item id="6598" type="Weapon" name="狩龍之斧">
 		<set name="icon" val="icon.weapon_dragon_hunter_axe_i01" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="bigblunt" />
@@ -1531,7 +1531,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="6599" type="Weapon" name="Saint Spear - Health">
+	<item id="6599" type="Weapon" name="聖者之矛">
 		<set name="icon" val="icon.weapon_saint_spear_i01" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="pole" />

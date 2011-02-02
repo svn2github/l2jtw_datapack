@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <list>
-	<item id="900" type="Armor" name="Ring of Grace">
+	<item id="900" type="Armor" name="恩寵戒指">
 		<set name="icon" val="icon.accessary_ring_of_grace_i00" />
 		<set name="default_action" val="equip" />
 		<set name="bodypart" val="rfinger;lfinger" />
@@ -16,7 +16,7 @@
 			<enchant order="0x0C" stat="mDef" val="0" />
 		</for>
 	</item>
-	<item id="901" type="Armor" name="Ring of Holy Spirit">
+	<item id="901" type="Armor" name="聖靈戒指">
 		<set name="icon" val="icon.accessary_ring_of_holy_spirit_i00" />
 		<set name="default_action" val="equip" />
 		<set name="bodypart" val="rfinger;lfinger" />
@@ -32,7 +32,7 @@
 			<enchant order="0x0C" stat="mDef" val="0" />
 		</for>
 	</item>
-	<item id="902" type="Armor" name="Phoenix Ring">
+	<item id="902" type="Armor" name="不死鳥戒指">
 		<set name="icon" val="icon.accessary_phoenixs_ring_i00" />
 		<set name="default_action" val="equip" />
 		<set name="bodypart" val="rfinger;lfinger" />
@@ -49,7 +49,7 @@
 			<enchant order="0x0C" stat="mDef" val="0" />
 		</for>
 	</item>
-	<item id="903" type="Armor" name="Cerberus Ring">
+	<item id="903" type="Armor" name="地獄犬的戒指">
 		<set name="icon" val="icon.accessary_cerberuss_ring_i00" />
 		<set name="default_action" val="equip" />
 		<set name="bodypart" val="rfinger;lfinger" />
@@ -65,7 +65,7 @@
 			<enchant order="0x0C" stat="mDef" val="0" />
 		</for>
 	</item>
-	<item id="904" type="Armor" name="Ring of Aid">
+	<item id="904" type="Armor" name="輔助戒指">
 		<set name="icon" val="icon.accessary_ring_of_assistance_i00" />
 		<set name="default_action" val="equip" />
 		<set name="bodypart" val="rfinger;lfinger" />
@@ -81,7 +81,7 @@
 			<enchant order="0x0C" stat="mDef" val="0" />
 		</for>
 	</item>
-	<item id="905" type="Armor" name="Ring of Blessing">
+	<item id="905" type="Armor" name="祝福戒指">
 		<set name="icon" val="icon.accessary_ring_of_blessing_i00" />
 		<set name="default_action" val="equip" />
 		<set name="bodypart" val="rfinger;lfinger" />
@@ -97,7 +97,7 @@
 			<enchant order="0x0C" stat="mDef" val="0" />
 		</for>
 	</item>
-	<item id="906" type="Armor" name="Necklace of Knowledge">
+	<item id="906" type="Armor" name="知識項鍊">
 		<set name="icon" val="icon.accessary_necklace_of_knowledge_i00" />
 		<set name="default_action" val="equip" />
 		<set name="bodypart" val="neck" />
@@ -109,7 +109,7 @@
 			<add order="0x10" stat="mDef" val="18" />
 		</for>
 	</item>
-	<item id="907" type="Armor" name="Necklace of Anguish">
+	<item id="907" type="Armor" name="幻滅項鍊">
 		<set name="icon" val="icon.accessary_necklace_of_anguish_i00" />
 		<set name="default_action" val="equip" />
 		<set name="bodypart" val="neck" />
@@ -121,7 +121,7 @@
 			<add order="0x10" stat="mDef" val="21" />
 		</for>
 	</item>
-	<item id="908" type="Armor" name="Necklace of Wisdom">
+	<item id="908" type="Armor" name="智慧項鍊">
 		<set name="icon" val="icon.accessary_necklace_of_wisdom_i00" />
 		<set name="default_action" val="equip" />
 		<set name="bodypart" val="neck" />
@@ -133,7 +133,7 @@
 			<add order="0x10" stat="mDef" val="25" />
 		</for>
 	</item>
-	<item id="909" type="Armor" name="Blue Diamond Necklace">
+	<item id="909" type="Armor" name="藍鑽項鍊">
 		<set name="icon" val="icon.accessary_blue_diamond_necklace_i00" />
 		<set name="default_action" val="equip" />
 		<set name="bodypart" val="neck" />
@@ -145,7 +145,7 @@
 			<add order="0x10" stat="mDef" val="28" />
 		</for>
 	</item>
-	<item id="910" type="Armor" name="Necklace of Devotion">
+	<item id="910" type="Armor" name="奉獻項鍊">
 		<set name="icon" val="icon.accessary_necklace_of_devotion_i00" />
 		<set name="default_action" val="equip" />
 		<set name="bodypart" val="neck" />
@@ -161,7 +161,7 @@
 			<enchant order="0x0C" stat="mDef" val="0" />
 		</for>
 	</item>
-	<item id="911" type="Armor" name="Enchanted Necklace">
+	<item id="911" type="Armor" name="魔力項鍊">
 		<set name="icon" val="icon.accessary_enchanted_necklace_i00" />
 		<set name="default_action" val="equip" />
 		<set name="bodypart" val="neck" />
@@ -177,7 +177,7 @@
 			<enchant order="0x0C" stat="mDef" val="0" />
 		</for>
 	</item>
-	<item id="912" type="Armor" name="Near Forest Necklace">
+	<item id="912" type="Armor" name="古森林項鍊">
 		<set name="icon" val="icon.accessary_near_forest_necklace_i00" />
 		<set name="default_action" val="equip" />
 		<set name="bodypart" val="neck" />
@@ -193,7 +193,7 @@
 			<enchant order="0x0C" stat="mDef" val="0" />
 		</for>
 	</item>
-	<item id="913" type="Armor" name="Elven Necklace">
+	<item id="913" type="Armor" name="精靈項鍊">
 		<set name="icon" val="icon.accessary_elven_necklace_i00" />
 		<set name="default_action" val="equip" />
 		<set name="bodypart" val="neck" />
@@ -209,7 +209,7 @@
 			<enchant order="0x0C" stat="mDef" val="0" />
 		</for>
 	</item>
-	<item id="914" type="Armor" name="Necklace of Darkness">
+	<item id="914" type="Armor" name="黑暗項鍊">
 		<set name="icon" val="icon.accessary_necklace_of_darkness_i00" />
 		<set name="default_action" val="equip" />
 		<set name="bodypart" val="neck" />
@@ -225,7 +225,7 @@
 			<enchant order="0x0C" stat="mDef" val="0" />
 		</for>
 	</item>
-	<item id="915" type="Armor" name="Aquastone Necklace">
+	<item id="915" type="Armor" name="水石項鍊">
 		<set name="icon" val="icon.accessary_aquastone_necklace_i00" />
 		<set name="default_action" val="equip" />
 		<set name="bodypart" val="neck" />
@@ -241,7 +241,7 @@
 			<enchant order="0x0C" stat="mDef" val="0" />
 		</for>
 	</item>
-	<item id="916" type="Armor" name="Necklace of Protection">
+	<item id="916" type="Armor" name="守護項鍊">
 		<set name="icon" val="icon.accessary_necklace_of_protection_i00" />
 		<set name="default_action" val="equip" />
 		<set name="bodypart" val="neck" />
@@ -257,7 +257,7 @@
 			<enchant order="0x0C" stat="mDef" val="0" />
 		</for>
 	</item>
-	<item id="917" type="Armor" name="Necklace of Mermaid">
+	<item id="917" type="Armor" name="人魚之淚">
 		<set name="icon" val="icon.accessary_necklace_of_mermaid_i00" />
 		<set name="default_action" val="equip" />
 		<set name="bodypart" val="neck" />
@@ -273,7 +273,7 @@
 			<enchant order="0x0C" stat="mDef" val="0" />
 		</for>
 	</item>
-	<item id="918" type="Armor" name="Adamantite Necklace">
+	<item id="918" type="Armor" name="金剛石項鍊">
 		<set name="icon" val="icon.accessary_adamantite_necklace_i00" />
 		<set name="default_action" val="equip" />
 		<set name="bodypart" val="neck" />
@@ -289,7 +289,7 @@
 			<enchant order="0x0C" stat="mDef" val="0" />
 		</for>
 	</item>
-	<item id="919" type="Armor" name="Blessed Necklace">
+	<item id="919" type="Armor" name="神聖項鍊">
 		<set name="icon" val="icon.accessary_blessed_necklace_i00" />
 		<set name="default_action" val="equip" />
 		<set name="bodypart" val="neck" />
@@ -305,7 +305,7 @@
 			<enchant order="0x0C" stat="mDef" val="0" />
 		</for>
 	</item>
-	<item id="920" type="Armor" name="Tateossian Necklace">
+	<item id="920" type="Armor" name="泰狄奧森項鍊">
 		<set name="icon" val="icon.accessory_tateossian_necklace_i00" />
 		<set name="default_action" val="equip" />
 		<set name="bodypart" val="neck" />
@@ -322,7 +322,7 @@
 			<enchant order="0x0C" stat="mDef" val="0" />
 		</for>
 	</item>
-	<item id="921" type="Armor" name="Necklace of Mana">
+	<item id="921" type="Armor" name="瑪那項鍊">
 		<set name="icon" val="icon.accessary_necklace_of_mana_i00" />
 		<set name="default_action" val="equip" />
 		<set name="bodypart" val="neck" />
@@ -338,7 +338,7 @@
 			<enchant order="0x0C" stat="mDef" val="0" />
 		</for>
 	</item>
-	<item id="922" type="Armor" name="Sage's Necklace">
+	<item id="922" type="Armor" name="賢者項鍊">
 		<set name="icon" val="icon.accessary_sages_necklace_i00" />
 		<set name="default_action" val="equip" />
 		<set name="bodypart" val="neck" />
@@ -354,7 +354,7 @@
 			<enchant order="0x0C" stat="mDef" val="0" />
 		</for>
 	</item>
-	<item id="923" type="Armor" name="Paradia Necklace">
+	<item id="923" type="Armor" name="佩勒迪亞項鍊">
 		<set name="icon" val="icon.accessary_paradia_necklace_i00" />
 		<set name="default_action" val="equip" />
 		<set name="bodypart" val="neck" />
@@ -370,7 +370,7 @@
 			<enchant order="0x0C" stat="mDef" val="0" />
 		</for>
 	</item>
-	<item id="924" type="Armor" name="Majestic Necklace">
+	<item id="924" type="Armor" name="聖威項鍊">
 		<set name="icon" val="icon.accessary_inferno_necklace_i00" />
 		<set name="default_action" val="equip" />
 		<set name="bodypart" val="neck" />
@@ -387,7 +387,7 @@
 			<enchant order="0x0C" stat="mDef" val="0" />
 		</for>
 	</item>
-	<item id="925" type="Armor" name="Necklace of Solar Eclipse">
+	<item id="925" type="Armor" name="日蝕項鍊">
 		<set name="icon" val="icon.accessary_necklace_of_sola_eclipse_i00" />
 		<set name="default_action" val="equip" />
 		<set name="bodypart" val="neck" />
@@ -403,7 +403,7 @@
 			<enchant order="0x0C" stat="mDef" val="0" />
 		</for>
 	</item>
-	<item id="926" type="Armor" name="Necklace of Black Ore">
+	<item id="926" type="Armor" name="黑光項鍊">
 		<set name="icon" val="icon.accessary_necklace_of_black_ore_i00" />
 		<set name="default_action" val="equip" />
 		<set name="bodypart" val="neck" />
@@ -419,7 +419,7 @@
 			<enchant order="0x0C" stat="mDef" val="0" />
 		</for>
 	</item>
-	<item id="927" type="Armor" name="Necklace of Summoning">
+	<item id="927" type="Armor" name="召喚項鍊">
 		<set name="icon" val="icon.accessary_necklace_of_summons_i00" />
 		<set name="default_action" val="equip" />
 		<set name="bodypart" val="neck" />
@@ -435,7 +435,7 @@
 			<enchant order="0x0C" stat="mDef" val="0" />
 		</for>
 	</item>
-	<item id="928" type="Armor" name="Otherworldly Necklace">
+	<item id="928" type="Armor" name="異界項鍊">
 		<set name="icon" val="icon.accessary_another_worlds_necklace_i00" />
 		<set name="default_action" val="equip" />
 		<set name="bodypart" val="neck" />
@@ -451,7 +451,7 @@
 			<enchant order="0x0C" stat="mDef" val="0" />
 		</for>
 	</item>
-	<item id="929" type="Armor" name="Elemental Necklace">
+	<item id="929" type="Armor" name="元素項鍊">
 		<set name="icon" val="icon.accessary_elemental_necklace_i00" />
 		<set name="default_action" val="equip" />
 		<set name="bodypart" val="neck" />
@@ -467,7 +467,7 @@
 			<enchant order="0x0C" stat="mDef" val="0" />
 		</for>
 	</item>
-	<item id="930" type="Armor" name="Necklace of Phantom">
+	<item id="930" type="Armor" name="幻影項鍊">
 		<set name="icon" val="icon.accessary_necklace_of_phantom_i00" />
 		<set name="default_action" val="equip" />
 		<set name="bodypart" val="neck" />
@@ -483,7 +483,7 @@
 			<enchant order="0x0C" stat="mDef" val="0" />
 		</for>
 	</item>
-	<item id="931" type="Armor" name="Necklace of Grace">
+	<item id="931" type="Armor" name="恩寵項鍊">
 		<set name="icon" val="icon.accessary_necklace_of_grace_i00" />
 		<set name="default_action" val="equip" />
 		<set name="bodypart" val="neck" />
@@ -499,7 +499,7 @@
 			<enchant order="0x0C" stat="mDef" val="0" />
 		</for>
 	</item>
-	<item id="932" type="Armor" name="Necklace of Holy Spirit">
+	<item id="932" type="Armor" name="聖靈項鍊">
 		<set name="icon" val="icon.accessary_necklace_of_holy_spirit_i00" />
 		<set name="default_action" val="equip" />
 		<set name="bodypart" val="neck" />
@@ -515,7 +515,7 @@
 			<enchant order="0x0C" stat="mDef" val="0" />
 		</for>
 	</item>
-	<item id="933" type="Armor" name="Phoenix Necklace">
+	<item id="933" type="Armor" name="不死鳥項鍊">
 		<set name="icon" val="icon.accessary_phoenixs_necklace_i00" />
 		<set name="default_action" val="equip" />
 		<set name="bodypart" val="neck" />
@@ -532,7 +532,7 @@
 			<enchant order="0x0C" stat="mDef" val="0" />
 		</for>
 	</item>
-	<item id="934" type="Armor" name="Cerberus Necklace">
+	<item id="934" type="Armor" name="地獄犬項鍊">
 		<set name="icon" val="icon.accessary_cerberuss_necklace_i00" />
 		<set name="default_action" val="equip" />
 		<set name="bodypart" val="neck" />
@@ -548,7 +548,7 @@
 			<enchant order="0x0C" stat="mDef" val="0" />
 		</for>
 	</item>
-	<item id="935" type="Armor" name="Necklace of Aid">
+	<item id="935" type="Armor" name="輔助項鍊">
 		<set name="icon" val="icon.accessary_necklace_of_assistance_i00" />
 		<set name="default_action" val="equip" />
 		<set name="bodypart" val="neck" />
@@ -564,7 +564,7 @@
 			<enchant order="0x0C" stat="mDef" val="0" />
 		</for>
 	</item>
-	<item id="936" type="Armor" name="Necklace of Blessing">
+	<item id="936" type="Armor" name="祝福項鍊">
 		<set name="icon" val="icon.accessary_necklace_of_blessing_i00" />
 		<set name="default_action" val="equip" />
 		<set name="bodypart" val="neck" />
@@ -580,7 +580,7 @@
 			<enchant order="0x0C" stat="mDef" val="0" />
 		</for>
 	</item>
-	<item id="937" type="EtcItem" name="Directions to Ruins">
+	<item id="937" type="EtcItem" name="遺蹟之道">
 		<set name="icon" val="icon.etc_piece_of_paper_gray_i00" />
 		<set name="immediate_effect" val="1" />
 		<set name="material" val="steel" />
@@ -591,14 +591,14 @@
 		<set name="is_stackable" val="true" />
 		<set name="is_questitem" val="true" />
 	</item>
-	<item id="938" type="EtcItem" name="Deck">
+	<item id="938" type="EtcItem" name="試驗甲板">
 		<set name="icon" val="icon.etc_spell_books_red_i00" />
 		<set name="immediate_effect" val="1" />
 		<set name="material" val="silver" />
 		<set name="is_tradable" val="false" />
 		<set name="is_sellable" val="false" />
 	</item>
-	<item id="939" type="EtcItem" name="Gara's Quest Item #11">
+	<item id="939" type="EtcItem" name="卡拉試練道具11">
 		<set name="icon" val="icon.item_normal52" />
 		<set name="immediate_effect" val="1" />
 		<set name="material" val="steel" />
@@ -609,7 +609,7 @@
 		<set name="is_stackable" val="true" />
 		<set name="is_questitem" val="true" />
 	</item>
-	<item id="940" type="EtcItem" name="Gara's Quest Item #12">
+	<item id="940" type="EtcItem" name="卡拉試練道具12">
 		<set name="icon" val="icon.item_normal52" />
 		<set name="immediate_effect" val="1" />
 		<set name="material" val="steel" />
@@ -620,7 +620,7 @@
 		<set name="is_stackable" val="true" />
 		<set name="is_questitem" val="true" />
 	</item>
-	<item id="941" type="EtcItem" name="Gara's Proof of Bravery">
+	<item id="941" type="EtcItem" name="卡拉勇氣的憑據">
 		<set name="icon" val="icon.item_normal52" />
 		<set name="immediate_effect" val="1" />
 		<set name="material" val="steel" />
@@ -631,7 +631,7 @@
 		<set name="is_stackable" val="true" />
 		<set name="is_questitem" val="true" />
 	</item>
-	<item id="942" type="EtcItem" name="Gara's Proof of Justice">
+	<item id="942" type="EtcItem" name="卡拉正義的憑證">
 		<set name="icon" val="icon.item_normal52" />
 		<set name="immediate_effect" val="1" />
 		<set name="material" val="steel" />
@@ -642,7 +642,7 @@
 		<set name="is_stackable" val="true" />
 		<set name="is_questitem" val="true" />
 	</item>
-	<item id="943" type="EtcItem" name="Gara's Proof of Despair">
+	<item id="943" type="EtcItem" name="卡拉絕望的憑證">
 		<set name="icon" val="icon.item_normal52" />
 		<set name="immediate_effect" val="1" />
 		<set name="material" val="steel" />
@@ -653,7 +653,7 @@
 		<set name="is_stackable" val="true" />
 		<set name="is_questitem" val="true" />
 	</item>
-	<item id="944" type="EtcItem" name="Deathknight Skull">
+	<item id="944" type="EtcItem" name="死亡騎士的頭骨">
 		<set name="icon" val="icon.armor_head15" />
 		<set name="immediate_effect" val="1" />
 		<set name="material" val="steel" />
@@ -664,7 +664,7 @@
 		<set name="is_stackable" val="true" />
 		<set name="is_questitem" val="true" />
 	</item>
-	<item id="945" type="Armor" name="Skeleton Buckler">
+	<item id="945" type="Armor" name="骷髏小圓盾">
 		<set name="icon" val="icon.shield_skeleton_buckler_i00" />
 		<set name="default_action" val="equip" />
 		<set name="bodypart" val="lhand" />
@@ -681,7 +681,7 @@
 			<enchant val="0" order="0x0C" stat="sDef" />
 		</for>
 	</item>
-	<item id="946" type="Weapon" name="Skeleton Dagger">
+	<item id="946" type="Weapon" name="骷髏匕首">
 		<set name="icon" val="icon.weapon_dagger_i00" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="dagger" />
@@ -706,7 +706,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="947" type="EtcItem" name="Scroll: Enchant Weapon (B)">
+	<item id="947" type="EtcItem" name="武器強化卷軸-B級">
 		<set name="icon" val="icon.etc_scroll_of_enchant_weapon_i03" />
 		<set name="default_action" val="skill_reduce" />
 		<set name="etcitem_type" val="scrl_enchant_wp" />
@@ -719,7 +719,7 @@
 		<set name="handler" val="EnchantScrolls" />
 		<set name="item_skill" val="2015-1" />
 	</item>
-	<item id="948" type="EtcItem" name="Scroll: Enchant Armor (B)">
+	<item id="948" type="EtcItem" name="防具強化卷軸-B級">
 		<set name="icon" val="icon.etc_scroll_of_enchant_armor_i03" />
 		<set name="default_action" val="skill_reduce" />
 		<set name="etcitem_type" val="scrl_enchant_am" />
@@ -732,7 +732,7 @@
 		<set name="handler" val="EnchantScrolls" />
 		<set name="item_skill" val="2016-1" />
 	</item>
-	<item id="949" type="EtcItem" name="Crystal Scroll: Enchant Weapon (B)">
+	<item id="949" type="EtcItem" name="武器強化結晶卷軸-B級">
 		<set name="icon" val="icon.etc_scroll_of_enchant_weapon_i01" />
 		<set name="default_action" val="skill_reduce" />
 		<set name="immediate_effect" val="1" />
@@ -741,7 +741,7 @@
 		<set name="is_oly_restricted" val="true" />
 		<set name="handler" val="EnchantScrolls" />
 	</item>
-	<item id="950" type="EtcItem" name="Crystal Scroll: Enchant Armor (B)">
+	<item id="950" type="EtcItem" name="防具強化結晶卷軸-B級">
 		<set name="icon" val="icon.etc_scroll_of_enchant_armor_i01" />
 		<set name="default_action" val="skill_reduce" />
 		<set name="immediate_effect" val="1" />
@@ -750,7 +750,7 @@
 		<set name="is_oly_restricted" val="true" />
 		<set name="handler" val="EnchantScrolls" />
 	</item>
-	<item id="951" type="EtcItem" name="Scroll: Enchant Weapon (C)">
+	<item id="951" type="EtcItem" name="武器強化卷軸-C級">
 		<set name="icon" val="icon.etc_scroll_of_enchant_weapon_i02" />
 		<set name="default_action" val="skill_reduce" />
 		<set name="etcitem_type" val="scrl_enchant_wp" />
@@ -763,7 +763,7 @@
 		<set name="handler" val="EnchantScrolls" />
 		<set name="item_skill" val="2017-1" />
 	</item>
-	<item id="952" type="EtcItem" name="Scroll: Enchant Armor (C)">
+	<item id="952" type="EtcItem" name="防具強化卷軸-C級">
 		<set name="icon" val="icon.etc_scroll_of_enchant_armor_i02" />
 		<set name="default_action" val="skill_reduce" />
 		<set name="etcitem_type" val="scrl_enchant_am" />
@@ -776,7 +776,7 @@
 		<set name="handler" val="EnchantScrolls" />
 		<set name="item_skill" val="2018-1" />
 	</item>
-	<item id="953" type="EtcItem" name="Crystal Scroll: Enchant Weapon (C)">
+	<item id="953" type="EtcItem" name="武器強化結晶卷軸-C級">
 		<set name="icon" val="icon.etc_scroll_of_enchant_weapon_i01" />
 		<set name="default_action" val="skill_reduce" />
 		<set name="immediate_effect" val="1" />
@@ -785,7 +785,7 @@
 		<set name="is_oly_restricted" val="true" />
 		<set name="handler" val="EnchantScrolls" />
 	</item>
-	<item id="954" type="EtcItem" name="Crystal Scroll: Enchant Armor (C)">
+	<item id="954" type="EtcItem" name="防具強化結晶卷軸-C級">
 		<set name="icon" val="icon.etc_scroll_of_enchant_armor_i01" />
 		<set name="default_action" val="skill_reduce" />
 		<set name="immediate_effect" val="1" />
@@ -794,7 +794,7 @@
 		<set name="is_oly_restricted" val="true" />
 		<set name="handler" val="EnchantScrolls" />
 	</item>
-	<item id="955" type="EtcItem" name="Scroll: Enchant Weapon (D)">
+	<item id="955" type="EtcItem" name="武器強化卷軸-D級">
 		<set name="icon" val="icon.etc_scroll_of_enchant_weapon_i01" />
 		<set name="default_action" val="skill_reduce" />
 		<set name="etcitem_type" val="scrl_enchant_wp" />
@@ -807,7 +807,7 @@
 		<set name="handler" val="EnchantScrolls" />
 		<set name="item_skill" val="2019-1" />
 	</item>
-	<item id="956" type="EtcItem" name="Scroll: Enchant Armor (D)">
+	<item id="956" type="EtcItem" name="防具強化卷軸-D級">
 		<set name="icon" val="icon.etc_scroll_of_enchant_armor_i01" />
 		<set name="default_action" val="skill_reduce" />
 		<set name="etcitem_type" val="scrl_enchant_am" />
@@ -820,7 +820,7 @@
 		<set name="handler" val="EnchantScrolls" />
 		<set name="item_skill" val="2020-1" />
 	</item>
-	<item id="957" type="EtcItem" name="Crystal Scroll: Enchant Weapon (D)">
+	<item id="957" type="EtcItem" name="武器強化結晶卷軸-D級">
 		<set name="icon" val="icon.etc_scroll_of_enchant_weapon_i01" />
 		<set name="default_action" val="skill_reduce" />
 		<set name="immediate_effect" val="1" />
@@ -829,7 +829,7 @@
 		<set name="is_oly_restricted" val="true" />
 		<set name="handler" val="EnchantScrolls" />
 	</item>
-	<item id="958" type="EtcItem" name="Crystal Scroll: Enchant Armor (D)">
+	<item id="958" type="EtcItem" name="防具強化結晶卷軸-D級">
 		<set name="icon" val="icon.etc_scroll_of_enchant_armor_i01" />
 		<set name="default_action" val="skill_reduce" />
 		<set name="immediate_effect" val="1" />
@@ -838,7 +838,7 @@
 		<set name="is_oly_restricted" val="true" />
 		<set name="handler" val="EnchantScrolls" />
 	</item>
-	<item id="959" type="EtcItem" name="Scroll: Enchant Weapon (S)">
+	<item id="959" type="EtcItem" name="武器強化卷軸-S級">
 		<set name="icon" val="icon.etc_scroll_of_enchant_weapon_i05" />
 		<set name="default_action" val="skill_reduce" />
 		<set name="etcitem_type" val="scrl_enchant_wp" />
@@ -851,7 +851,7 @@
 		<set name="handler" val="EnchantScrolls" />
 		<set name="item_skill" val="2021-1" />
 	</item>
-	<item id="960" type="EtcItem" name="Scroll: Enchant Armor (S)">
+	<item id="960" type="EtcItem" name="防具強化卷軸-S級">
 		<set name="icon" val="icon.etc_scroll_of_enchant_armor_i05" />
 		<set name="default_action" val="skill_reduce" />
 		<set name="etcitem_type" val="scrl_enchant_am" />
@@ -864,7 +864,7 @@
 		<set name="handler" val="EnchantScrolls" />
 		<set name="item_skill" val="2022-1" />
 	</item>
-	<item id="961" type="EtcItem" name="Crystal Scroll: Enchant Weapon (S)">
+	<item id="961" type="EtcItem" name="武器強化結晶卷軸-S級">
 		<set name="icon" val="icon.etc_scroll_of_enchant_weapon_i01" />
 		<set name="default_action" val="skill_reduce" />
 		<set name="immediate_effect" val="1" />
@@ -873,7 +873,7 @@
 		<set name="is_oly_restricted" val="true" />
 		<set name="handler" val="EnchantScrolls" />
 	</item>
-	<item id="962" type="EtcItem" name="Crystal Scroll: Enchant Armor (S)">
+	<item id="962" type="EtcItem" name="防具強化結晶卷軸-S級">
 		<set name="icon" val="icon.etc_scroll_of_enchant_armor_i01" />
 		<set name="default_action" val="skill_reduce" />
 		<set name="immediate_effect" val="1" />
@@ -882,7 +882,7 @@
 		<set name="is_oly_restricted" val="true" />
 		<set name="handler" val="EnchantScrolls" />
 	</item>
-	<item id="963" type="EtcItem" name="Orcish Arrowhead">
+	<item id="963" type="EtcItem" name="獸人的箭頭">
 		<set name="icon" val="icon.weapon_winged_spear_i00" />
 		<set name="immediate_effect" val="1" />
 		<set name="material" val="steel" />
@@ -893,7 +893,7 @@
 		<set name="is_stackable" val="true" />
 		<set name="is_questitem" val="true" />
 	</item>
-	<item id="964" type="EtcItem" name="Alberius's Letter">
+	<item id="964" type="EtcItem" name="艾貝里烏斯的信">
 		<set name="icon" val="icon.etc_scroll_white_i00" />
 		<set name="immediate_effect" val="1" />
 		<set name="material" val="steel" />
@@ -904,7 +904,7 @@
 		<set name="is_stackable" val="true" />
 		<set name="is_questitem" val="true" />
 	</item>
-	<item id="965" type="EtcItem" name="Evergreen Amulet">
+	<item id="965" type="EtcItem" name="長青護身符">
 		<set name="icon" val="icon.accessary_near_forest_necklace_i00" />
 		<set name="immediate_effect" val="1" />
 		<set name="material" val="steel" />
@@ -915,7 +915,7 @@
 		<set name="is_stackable" val="true" />
 		<set name="is_questitem" val="true" />
 	</item>
-	<item id="966" type="EtcItem" name="Dryad's Tears">
+	<item id="966" type="EtcItem" name="樹精之淚">
 		<set name="icon" val="icon.etc_crystal_ball_green_i00" />
 		<set name="immediate_effect" val="1" />
 		<set name="material" val="steel" />
@@ -926,7 +926,7 @@
 		<set name="is_stackable" val="true" />
 		<set name="is_questitem" val="true" />
 	</item>
-	<item id="967" type="EtcItem" name="Cobendell Medicine">
+	<item id="967" type="EtcItem" name="科班得的治癒藥">
 		<set name="icon" val="icon.item_canuse24" />
 		<set name="immediate_effect" val="1" />
 		<set name="material" val="steel" />
@@ -937,7 +937,7 @@
 		<set name="is_stackable" val="true" />
 		<set name="is_questitem" val="true" />
 	</item>
-	<item id="968" type="EtcItem" name="Karrod's Letter">
+	<item id="968" type="EtcItem" name="卡羅伊德的信函">
 		<set name="icon" val="icon.etc_scroll_gray_i00" />
 		<set name="immediate_effect" val="1" />
 		<set name="material" val="steel" />
@@ -948,7 +948,7 @@
 		<set name="is_stackable" val="true" />
 		<set name="is_questitem" val="true" />
 	</item>
-	<item id="969" type="EtcItem" name="Cecktinon's First Voucher">
+	<item id="969" type="EtcItem" name="塞克提諾的推薦函">
 		<set name="icon" val="icon.etc_letter_red_i00" />
 		<set name="immediate_effect" val="1" />
 		<set name="material" val="steel" />
@@ -959,7 +959,7 @@
 		<set name="is_stackable" val="true" />
 		<set name="is_questitem" val="true" />
 	</item>
-	<item id="970" type="EtcItem" name="Cecktinon's Second Voucher">
+	<item id="970" type="EtcItem" name="塞克提諾的推薦函">
 		<set name="icon" val="icon.etc_letter_red_i00" />
 		<set name="immediate_effect" val="1" />
 		<set name="material" val="steel" />
@@ -970,7 +970,7 @@
 		<set name="is_stackable" val="true" />
 		<set name="is_questitem" val="true" />
 	</item>
-	<item id="971" type="EtcItem" name="Soul Catcher">
+	<item id="971" type="EtcItem" name="捕魂器">
 		<set name="icon" val="icon.weapon_voodoo_doll_i00" />
 		<set name="immediate_effect" val="1" />
 		<set name="material" val="steel" />
@@ -981,7 +981,7 @@
 		<set name="is_stackable" val="true" />
 		<set name="is_questitem" val="true" />
 	</item>
-	<item id="972" type="EtcItem" name="Preserving Oil">
+	<item id="972" type="EtcItem" name="油罐">
 		<set name="icon" val="icon.etc_potion_clear_i00" />
 		<set name="immediate_effect" val="1" />
 		<set name="material" val="steel" />
@@ -992,7 +992,7 @@
 		<set name="is_stackable" val="true" />
 		<set name="is_questitem" val="true" />
 	</item>
-	<item id="973" type="EtcItem" name="Zombie Head">
+	<item id="973" type="EtcItem" name="殭屍頭">
 		<set name="icon" val="icon.etc_skull_black_i00" />
 		<set name="immediate_effect" val="1" />
 		<set name="material" val="steel" />
@@ -1003,7 +1003,7 @@
 		<set name="is_stackable" val="true" />
 		<set name="is_questitem" val="true" />
 	</item>
-	<item id="974" type="EtcItem" name="Steelbender Head">
+	<item id="974" type="EtcItem" name="史提班德的頭">
 		<set name="icon" val="icon.etc_skull_red_i00" />
 		<set name="immediate_effect" val="1" />
 		<set name="material" val="steel" />
@@ -1014,7 +1014,7 @@
 		<set name="is_stackable" val="true" />
 		<set name="is_questitem" val="true" />
 	</item>
-	<item id="975" type="Weapon" name="Blood Saber">
+	<item id="975" type="Weapon" name="血騎兵">
 		<set name="icon" val="icon.weapon_broad_sword_i00" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="sword" />
@@ -1037,7 +1037,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="976" type="EtcItem" name="1st Mark of Sentinel">
+	<item id="976" type="EtcItem" name="哨兵的標章">
 		<set name="icon" val="icon.item_system03" />
 		<set name="immediate_effect" val="1" />
 		<set name="material" val="steel" />
@@ -1048,7 +1048,7 @@
 		<set name="is_stackable" val="true" />
 		<set name="is_questitem" val="true" />
 	</item>
-	<item id="977" type="EtcItem" name="2nd Mark of Sentinel">
+	<item id="977" type="EtcItem" name="哨兵的標章">
 		<set name="icon" val="icon.item_system03" />
 		<set name="immediate_effect" val="1" />
 		<set name="material" val="steel" />
@@ -1059,7 +1059,7 @@
 		<set name="is_stackable" val="true" />
 		<set name="is_questitem" val="true" />
 	</item>
-	<item id="978" type="EtcItem" name="Skullcrusher Amulet">
+	<item id="978" type="EtcItem" name="頭骨碎片護身符">
 		<set name="icon" val="icon.item_normal145" />
 		<set name="immediate_effect" val="1" />
 		<set name="material" val="steel" />
@@ -1070,7 +1070,7 @@
 		<set name="is_stackable" val="true" />
 		<set name="is_questitem" val="true" />
 	</item>
-	<item id="979" type="EtcItem" name="Bloodspear Amulet">
+	<item id="979" type="EtcItem" name="血矛護身符">
 		<set name="icon" val="icon.item_normal89" />
 		<set name="immediate_effect" val="1" />
 		<set name="material" val="steel" />
@@ -1081,7 +1081,7 @@
 		<set name="is_stackable" val="true" />
 		<set name="is_questitem" val="true" />
 	</item>
-	<item id="980" type="EtcItem" name="_red_sunset_staff">
+	<item id="980" type="EtcItem" name="零">
 		<set name="icon" val="icon.weapon_mace23" />
 		<set name="immediate_effect" val="1" />
 		<set name="material" val="steel" />
@@ -1092,7 +1092,7 @@
 		<set name="is_stackable" val="true" />
 		<set name="is_questitem" val="true" />
 	</item>
-	<item id="981" type="Weapon" name="Red Sunset Sword">
+	<item id="981" type="Weapon" name="夕陽之劍">
 		<set name="icon" val="icon.weapon_brandish_i00" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="bigsword" />
@@ -1115,7 +1115,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="982" type="EtcItem" name="Esrandell's Letter">
+	<item id="982" type="EtcItem" name="艾斯蘭德的推薦函">
 		<set name="icon" val="icon.item_normal20" />
 		<set name="immediate_effect" val="1" />
 		<set name="material" val="steel" />
@@ -1126,7 +1126,7 @@
 		<set name="is_stackable" val="true" />
 		<set name="is_questitem" val="true" />
 	</item>
-	<item id="983" type="EtcItem" name="Kendell's Letter">
+	<item id="983" type="EtcItem" name="肯特奈爾的信">
 		<set name="icon" val="icon.item_normal20" />
 		<set name="immediate_effect" val="1" />
 		<set name="material" val="steel" />
@@ -1137,7 +1137,7 @@
 		<set name="is_stackable" val="true" />
 		<set name="is_questitem" val="true" />
 	</item>
-	<item id="984" type="EtcItem" name="1st Onyx Talisman">
+	<item id="984" type="EtcItem" name="瑪瑙護身符">
 		<set name="icon" val="icon.accessary_sages_necklace_i00" />
 		<set name="immediate_effect" val="1" />
 		<set name="material" val="steel" />
@@ -1148,7 +1148,7 @@
 		<set name="is_stackable" val="true" />
 		<set name="is_questitem" val="true" />
 	</item>
-	<item id="985" type="EtcItem" name="2nd Onyx Talisman">
+	<item id="985" type="EtcItem" name="瑪瑙護身符">
 		<set name="icon" val="icon.accessary_sages_necklace_i00" />
 		<set name="immediate_effect" val="1" />
 		<set name="material" val="steel" />
@@ -1159,7 +1159,7 @@
 		<set name="is_stackable" val="true" />
 		<set name="is_questitem" val="true" />
 	</item>
-	<item id="986" type="EtcItem" name="Ancient Scroll">
+	<item id="986" type="EtcItem" name="古代卷軸">
 		<set name="icon" val="icon.etc_scroll_gray_i00" />
 		<set name="immediate_effect" val="1" />
 		<set name="material" val="steel" />
@@ -1170,7 +1170,7 @@
 		<set name="is_stackable" val="true" />
 		<set name="is_questitem" val="true" />
 	</item>
-	<item id="987" type="EtcItem" name="Ancient Clay Tablet">
+	<item id="987" type="EtcItem" name="古代的粘土字板">
 		<set name="icon" val="icon.etc_plate_glay_i00" />
 		<set name="immediate_effect" val="1" />
 		<set name="material" val="steel" />
@@ -1181,7 +1181,7 @@
 		<set name="is_stackable" val="true" />
 		<set name="is_questitem" val="true" />
 	</item>
-	<item id="988" type="EtcItem" name="Kartia's Translation">
+	<item id="988" type="EtcItem" name="卡勒帝亞的譯本">
 		<set name="icon" val="icon.etc_piece_of_paper_gray_i00" />
 		<set name="immediate_effect" val="1" />
 		<set name="material" val="steel" />
@@ -1192,7 +1192,7 @@
 		<set name="is_stackable" val="true" />
 		<set name="is_questitem" val="true" />
 	</item>
-	<item id="989" type="Weapon" name="Eldritch Dagger">
+	<item id="989" type="Weapon" name="怪異匕首">
 		<set name="icon" val="icon.weapon_knife_i00" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="dagger" />
@@ -1217,7 +1217,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="990" type="Armor" name="Mandragora Essence">
+	<item id="990" type="Armor" name="劵000">
 		<set name="icon" val="icon.item_canuse27" />
 		<set name="default_action" val="equip" />
 		<set name="bodypart" val="gloves" />
@@ -1229,7 +1229,7 @@
 			<add order="0x10" stat="pDef" val="9" />
 		</for>
 	</item>
-	<item id="991" type="Armor" name="Royen's Key">
+	<item id="991" type="Armor" name="劵001">
 		<set name="icon" val="icon.item_normal26" />
 		<set name="default_action" val="equip" />
 		<set name="bodypart" val="gloves" />
@@ -1241,7 +1241,7 @@
 			<add order="0x10" stat="pDef" val="9" />
 		</for>
 	</item>
-	<item id="992" type="Armor" name="Shilen's 1st Mark">
+	<item id="992" type="Armor" name="劵002">
 		<set name="icon" val="icon.armor_head15" />
 		<set name="default_action" val="equip" />
 		<set name="bodypart" val="gloves" />
@@ -1253,7 +1253,7 @@
 			<add order="0x10" stat="pDef" val="9" />
 		</for>
 	</item>
-	<item id="993" type="Armor" name="Shilen's 2nd Mark">
+	<item id="993" type="Armor" name="劵003">
 		<set name="icon" val="icon.armor_head15" />
 		<set name="default_action" val="equip" />
 		<set name="bodypart" val="gloves" />
@@ -1265,7 +1265,7 @@
 			<add order="0x10" stat="pDef" val="9" />
 		</for>
 	</item>
-	<item id="994" type="Armor" name="Eye of Abyss">
+	<item id="994" type="Armor" name="劵004">
 		<set name="icon" val="icon.item_normal46" />
 		<set name="default_action" val="equip" />
 		<set name="bodypart" val="gloves" />
@@ -1277,7 +1277,7 @@
 			<add order="0x10" stat="pDef" val="9" />
 		</for>
 	</item>
-	<item id="995" type="Armor" name="Wanted Poster">
+	<item id="995" type="Armor" name="劵005">
 		<set name="icon" val="icon.item_normal20" />
 		<set name="default_action" val="equip" />
 		<set name="bodypart" val="gloves" />
@@ -1289,7 +1289,7 @@
 			<add order="0x10" stat="pDef" val="9" />
 		</for>
 	</item>
-	<item id="996" type="Armor" name="Alex's Dagger">
+	<item id="996" type="Armor" name="劵006">
 		<set name="icon" val="icon.weapon_ss08" />
 		<set name="default_action" val="equip" />
 		<set name="bodypart" val="gloves" />
@@ -1301,7 +1301,7 @@
 			<add order="0x10" stat="pDef" val="9" />
 		</for>
 	</item>
-	<item id="997" type="Armor" name="Pinter's Bill">
+	<item id="997" type="Armor" name="劵007">
 		<set name="icon" val="icon.item_normal50" />
 		<set name="default_action" val="equip" />
 		<set name="bodypart" val="gloves" />
@@ -1313,7 +1313,7 @@
 			<add order="0x10" stat="pDef" val="9" />
 		</for>
 	</item>
-	<item id="998" type="Armor" name="Book of Aklantoth - Part 1">
+	<item id="998" type="Armor" name="劵008">
 		<set name="icon" val="icon.item_normal07" />
 		<set name="default_action" val="equip" />
 		<set name="bodypart" val="gloves" />
@@ -1325,7 +1325,7 @@
 			<add order="0x10" stat="pDef" val="9" />
 		</for>
 	</item>
-	<item id="999" type="Armor" name="Book of Aklantoth - Part 2">
+	<item id="999" type="Armor" name="劵009">
 		<set name="icon" val="icon.item_normal07" />
 		<set name="default_action" val="equip" />
 		<set name="bodypart" val="gloves" />

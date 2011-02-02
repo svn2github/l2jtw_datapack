@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <list>
-	<item id="12100" type="Armor" name="Common Item - Karmian Stockings">
+	<item id="12100" type="Armor" name="基本型-卡勒米安長襪">
 		<set name="icon" val="icon.armor_t53_l_i00" />
 		<set name="default_action" val="equip" />
 		<set name="armor_type" val="magic" />
@@ -17,7 +17,7 @@
 			<add order="0x40" stat="maxMp" val="141" />
 		</for>
 	</item>
-	<item id="12101" type="Armor" name="Common Item - Plate Leather Boots">
+	<item id="12101" type="Armor" name="基本型-金屬皮長靴">
 		<set name="icon" val="icon.armor_t47_b_i00" />
 		<set name="default_action" val="equip" />
 		<set name="bodypart" val="feet" />
@@ -31,7 +31,7 @@
 			<add order="0x10" stat="pDef" val="32" />
 		</for>
 	</item>
-	<item id="12102" type="Armor" name="Common Item - Dwarven Chain Shield">
+	<item id="12102" type="Armor" name="基本型-矮人鏈盾">
 		<set name="icon" val="icon.shield_dwarven_chain_shield_i00" />
 		<set name="default_action" val="equip" />
 		<set name="bodypart" val="lhand" />
@@ -49,7 +49,7 @@
 			<set order="0x08" stat="sDef" val="174" />
 		</for>
 	</item>
-	<item id="12103" type="Armor" name="Common Item - Plate Leather Gaiters">
+	<item id="12103" type="Armor" name="基本型-金屬皮脛甲">
 		<set name="icon" val="icon.armor_t47_l_i00" />
 		<set name="default_action" val="equip" />
 		<set name="armor_type" val="light" />
@@ -64,7 +64,7 @@
 			<add order="0x10" stat="pDef" val="59" />
 		</for>
 	</item>
-	<item id="12104" type="Armor" name="Common Item - Plate Leather Gloves">
+	<item id="12104" type="Armor" name="基本型-金屬皮手套">
 		<set name="icon" val="icon.armor_t47_g_i00" />
 		<set name="default_action" val="equip" />
 		<set name="bodypart" val="gloves" />
@@ -78,7 +78,7 @@
 			<add order="0x10" stat="pDef" val="33" />
 		</for>
 	</item>
-	<item id="12105" type="Armor" name="Common Item - Plate Leather Armor">
+	<item id="12105" type="Armor" name="基本型-金屬皮甲">
 		<set name="icon" val="icon.armor_t47_u_i00" />
 		<set name="default_action" val="equip" />
 		<set name="armor_type" val="light" />
@@ -93,7 +93,7 @@
 			<add order="0x10" stat="pDef" val="94" />
 		</for>
 	</item>
-	<item id="12106" type="Armor" name="Common Item - Great Helmet">
+	<item id="12106" type="Armor" name="基本型-巨型頭盔">
 		<set name="icon" val="icon.armor_helmet_i00" />
 		<set name="default_action" val="equip" />
 		<set name="bodypart" val="head" />
@@ -107,7 +107,7 @@
 			<add order="0x10" stat="pDef" val="51" />
 		</for>
 	</item>
-	<item id="12107" type="Armor" name="Common Item - Knight's Shield">
+	<item id="12107" type="Armor" name="基本型-騎士盾">
 		<set name="icon" val="icon.shield_knight_shield_i00" />
 		<set name="default_action" val="equip" />
 		<set name="bodypart" val="lhand" />
@@ -125,7 +125,7 @@
 			<set order="0x08" stat="sDef" val="178" />
 		</for>
 	</item>
-	<item id="12108" type="Armor" name="Common Item - Dwarven Chain Gloves">
+	<item id="12108" type="Armor" name="基本型-矮人鏈手套">
 		<set name="icon" val="icon.armor_t60_g_i00" />
 		<set name="default_action" val="equip" />
 		<set name="bodypart" val="gloves" />
@@ -139,7 +139,7 @@
 			<add order="0x10" stat="pDef" val="34" />
 		</for>
 	</item>
-	<item id="12109" type="Armor" name="Common Item - Dwarven Chain Gaiters">
+	<item id="12109" type="Armor" name="基本型-矮人鏈脛甲">
 		<set name="icon" val="icon.armor_t60_l_i00" />
 		<set name="default_action" val="equip" />
 		<set name="armor_type" val="heavy" />
@@ -155,7 +155,7 @@
 			<add order="0x10" stat="pDef" val="80" />
 		</for>
 	</item>
-	<item id="12110" type="Armor" name="Common Item - Dwarven Chain Mail Shirt">
+	<item id="12110" type="Armor" name="基本型-矮人鏈甲衫">
 		<set name="icon" val="icon.armor_t60_u_i00" />
 		<set name="default_action" val="equip" />
 		<set name="armor_type" val="heavy" />
@@ -171,7 +171,7 @@
 			<add order="0x10" stat="pDef" val="129" />
 		</for>
 	</item>
-	<item id="12111" type="Armor" name="Common Item - Rind Leather Gaiters">
+	<item id="12111" type="Armor" name="基本型-覆皮脛甲">
 		<set name="icon" val="icon.armor_t49_l_i00" />
 		<set name="default_action" val="equip" />
 		<set name="armor_type" val="light" />
@@ -186,7 +186,7 @@
 			<add order="0x10" stat="pDef" val="60" />
 		</for>
 	</item>
-	<item id="12112" type="Armor" name="Common Item - Rind Leather Gloves">
+	<item id="12112" type="Armor" name="基本型-覆皮手套">
 		<set name="icon" val="icon.armor_t49_g_i00" />
 		<set name="default_action" val="equip" />
 		<set name="bodypart" val="gloves" />
@@ -200,7 +200,7 @@
 			<add order="0x10" stat="pDef" val="34" />
 		</for>
 	</item>
-	<item id="12113" type="Armor" name="Common Item - Rind Leather Armor">
+	<item id="12113" type="Armor" name="基本型-覆皮皮甲">
 		<set name="icon" val="icon.armor_t49_u_i00" />
 		<set name="default_action" val="equip" />
 		<set name="armor_type" val="light" />
@@ -215,7 +215,7 @@
 			<add order="0x10" stat="pDef" val="97" />
 		</for>
 	</item>
-	<item id="12114" type="Armor" name="Common Item - Rind Leather Boots">
+	<item id="12114" type="Armor" name="基本型-覆皮長靴">
 		<set name="icon" val="icon.armor_t49_b_i00" />
 		<set name="default_action" val="equip" />
 		<set name="bodypart" val="feet" />
@@ -229,7 +229,7 @@
 			<add order="0x10" stat="pDef" val="34" />
 		</for>
 	</item>
-	<item id="12115" type="Armor" name="Common Item - Robe of Seal">
+	<item id="12115" type="Armor" name="基本型-封印長袍">
 		<set name="icon" val="icon.armor_t44_ul_i00" />
 		<set name="default_action" val="equip" />
 		<set name="armor_type" val="magic" />
@@ -246,7 +246,7 @@
 			<add order="0x40" stat="maxMp" val="413" />
 		</for>
 	</item>
-	<item id="12116" type="Armor" name="Common Item - Gloves of Seal">
+	<item id="12116" type="Armor" name="基本型-封印手套">
 		<set name="icon" val="icon.armor_t44_g_i00" />
 		<set name="default_action" val="equip" />
 		<set name="bodypart" val="gloves" />
@@ -260,7 +260,7 @@
 			<add order="0x10" stat="pDef" val="34" />
 		</for>
 	</item>
-	<item id="12117" type="Armor" name="Common Item - Silk Shirt">
+	<item id="12117" type="Armor" name="基本型-絲質襯衫">
 		<set name="icon" val="icon.etc_shirts_c_i02" />
 		<set name="default_action" val="equip" />
 		<set name="bodypart" val="underwear" />
@@ -274,7 +274,7 @@
 			<add order="0x10" stat="pDef" val="17" />
 		</for>
 	</item>
-	<item id="12118" type="Armor" name="Common Item - Crimson Boots">
+	<item id="12118" type="Armor" name="基本型-緋紅靴">
 		<set name="icon" val="icon.armor_t57_b_i00" />
 		<set name="default_action" val="equip" />
 		<set name="bodypart" val="feet" />
@@ -288,7 +288,7 @@
 			<add order="0x10" stat="pDef" val="34" />
 		</for>
 	</item>
-	<item id="12119" type="Armor" name="Common Item - Mithril Gauntlet">
+	<item id="12119" type="Armor" name="基本型-米索莉長手套">
 		<set name="icon" val="icon.armor_t61_g_i00" />
 		<set name="default_action" val="equip" />
 		<set name="bodypart" val="gloves" />
@@ -302,7 +302,7 @@
 			<add order="0x10" stat="pDef" val="36" />
 		</for>
 	</item>
-	<item id="12120" type="Armor" name="Common Item - Shining Circlet">
+	<item id="12120" type="Armor" name="基本型-閃耀頭箍">
 		<set name="icon" val="icon.armor_circlet_i00" />
 		<set name="default_action" val="equip" />
 		<set name="bodypart" val="head" />
@@ -316,7 +316,7 @@
 			<add order="0x10" stat="pDef" val="54" />
 		</for>
 	</item>
-	<item id="12121" type="Armor" name="Common Item - Demon's Boots">
+	<item id="12121" type="Armor" name="基本型-惡魔長靴">
 		<set name="icon" val="icon.armor_t54_b_i00" />
 		<set name="default_action" val="equip" />
 		<set name="bodypart" val="feet" />
@@ -330,7 +330,7 @@
 			<add order="0x10" stat="pDef" val="36" />
 		</for>
 	</item>
-	<item id="12122" type="Armor" name="Common Item - Demon's Gloves">
+	<item id="12122" type="Armor" name="基本型-惡魔手套">
 		<set name="icon" val="icon.armor_t54_g_i00" />
 		<set name="default_action" val="equip" />
 		<set name="bodypart" val="gloves" />
@@ -344,7 +344,7 @@
 			<add order="0x10" stat="pDef" val="36" />
 		</for>
 	</item>
-	<item id="12123" type="Armor" name="Common Item - Demon's Tunic">
+	<item id="12123" type="Armor" name="基本型-惡魔外衣">
 		<set name="icon" val="icon.armor_t54_u_i00" />
 		<set name="default_action" val="equip" />
 		<set name="armor_type" val="magic" />
@@ -361,7 +361,7 @@
 			<add order="0x40" stat="maxMp" val="284" />
 		</for>
 	</item>
-	<item id="12124" type="Armor" name="Common Item - Demon's Stockings">
+	<item id="12124" type="Armor" name="基本型-惡魔長襪">
 		<set name="icon" val="icon.armor_t54_l_i00" />
 		<set name="default_action" val="equip" />
 		<set name="armor_type" val="magic" />
@@ -378,7 +378,7 @@
 			<add order="0x40" stat="maxMp" val="177" />
 		</for>
 	</item>
-	<item id="12125" type="Armor" name="Common Item - Composite Boots">
+	<item id="12125" type="Armor" name="基本型-合金靴">
 		<set name="icon" val="icon.armor_t61_b_i00" />
 		<set name="default_action" val="equip" />
 		<set name="bodypart" val="feet" />
@@ -392,7 +392,7 @@
 			<add order="0x10" stat="pDef" val="36" />
 		</for>
 	</item>
-	<item id="12126" type="Armor" name="Common Item - Composite Shield">
+	<item id="12126" type="Armor" name="基本型-合金盾">
 		<set name="icon" val="icon.shield_composite_shield_i00" />
 		<set name="default_action" val="equip" />
 		<set name="bodypart" val="lhand" />
@@ -410,7 +410,7 @@
 			<set order="0x08" stat="sDef" val="190" />
 		</for>
 	</item>
-	<item id="12127" type="Armor" name="Common Item - Composite Helmet">
+	<item id="12127" type="Armor" name="基本型-合金頭盔">
 		<set name="icon" val="icon.armor_leather_helmet_i00" />
 		<set name="default_action" val="equip" />
 		<set name="bodypart" val="head" />
@@ -424,7 +424,7 @@
 			<add order="0x10" stat="pDef" val="54" />
 		</for>
 	</item>
-	<item id="12128" type="Armor" name="Common Item - Composite Armor">
+	<item id="12128" type="Armor" name="基本型-合金盔甲">
 		<set name="icon" val="icon.armor_t61_ul_i00" />
 		<set name="default_action" val="equip" />
 		<set name="armor_type" val="heavy" />
@@ -440,7 +440,7 @@
 			<add order="0x10" stat="pDef" val="224" />
 		</for>
 	</item>
-	<item id="12129" type="Armor" name="Common Item - Tower Shield">
+	<item id="12129" type="Armor" name="基本型-塔盾">
 		<set name="icon" val="icon.shield_tower_shield_i00" />
 		<set name="default_action" val="equip" />
 		<set name="bodypart" val="lhand" />
@@ -458,7 +458,7 @@
 			<set order="0x08" stat="sDef" val="190" />
 		</for>
 	</item>
-	<item id="12130" type="Armor" name="Common Item - Theca Leather Gaiters">
+	<item id="12130" type="Armor" name="基本型-覆殼脛甲">
 		<set name="icon" val="icon.armor_t63_l_i00" />
 		<set name="default_action" val="equip" />
 		<set name="armor_type" val="light" />
@@ -473,7 +473,7 @@
 			<add order="0x10" stat="pDef" val="66" />
 		</for>
 	</item>
-	<item id="12131" type="Armor" name="Common Item - Theca Leather Gloves">
+	<item id="12131" type="Armor" name="基本型-覆殼手套">
 		<set name="icon" val="icon.armor_t63_g_i00" />
 		<set name="default_action" val="equip" />
 		<set name="bodypart" val="gloves" />
@@ -487,7 +487,7 @@
 			<add order="0x10" stat="pDef" val="37" />
 		</for>
 	</item>
-	<item id="12132" type="Armor" name="Common Item - Theca Leather Boots">
+	<item id="12132" type="Armor" name="基本型-覆殼長靴">
 		<set name="icon" val="icon.armor_t63_b_i00" />
 		<set name="default_action" val="equip" />
 		<set name="bodypart" val="feet" />
@@ -501,7 +501,7 @@
 			<add order="0x10" stat="pDef" val="37" />
 		</for>
 	</item>
-	<item id="12133" type="Armor" name="Common Item - Theca Leather Armor">
+	<item id="12133" type="Armor" name="基本型-覆殼皮甲">
 		<set name="icon" val="icon.armor_t63_u_i00" />
 		<set name="default_action" val="equip" />
 		<set name="armor_type" val="light" />
@@ -516,7 +516,7 @@
 			<add order="0x10" stat="pDef" val="106" />
 		</for>
 	</item>
-	<item id="12134" type="Armor" name="Common Item - Drake Leather Gloves">
+	<item id="12134" type="Armor" name="基本型-飛龍皮手套">
 		<set name="icon" val="icon.armor_t21_g_i00" />
 		<set name="default_action" val="equip" />
 		<set name="bodypart" val="gloves" />
@@ -530,7 +530,7 @@
 			<add order="0x10" stat="pDef" val="39" />
 		</for>
 	</item>
-	<item id="12135" type="Armor" name="Common Item - Drake Leather Armor">
+	<item id="12135" type="Armor" name="基本型-飛龍皮甲">
 		<set name="icon" val="icon.armor_t21_ul_i00" />
 		<set name="default_action" val="equip" />
 		<set name="armor_type" val="light" />
@@ -545,7 +545,7 @@
 			<add order="0x10" stat="pDef" val="179" />
 		</for>
 	</item>
-	<item id="12136" type="Armor" name="Common Item - Drake Leather Boots">
+	<item id="12136" type="Armor" name="基本型-飛龍皮長靴">
 		<set name="icon" val="icon.armor_t21_b_i00" />
 		<set name="default_action" val="equip" />
 		<set name="bodypart" val="feet" />
@@ -559,7 +559,7 @@
 			<add order="0x10" stat="pDef" val="39" />
 		</for>
 	</item>
-	<item id="12137" type="Armor" name="Common Item - Divine Gloves">
+	<item id="12137" type="Armor" name="基本型-神聖手套">
 		<set name="icon" val="icon.armor_t57_g_i00" />
 		<set name="default_action" val="equip" />
 		<set name="bodypart" val="gloves" />
@@ -573,7 +573,7 @@
 			<add order="0x10" stat="pDef" val="39" />
 		</for>
 	</item>
-	<item id="12138" type="Armor" name="Common Item - Divine Tunic">
+	<item id="12138" type="Armor" name="基本型-神聖外衣">
 		<set name="icon" val="icon.armor_t57_u_i00" />
 		<set name="default_action" val="equip" />
 		<set name="armor_type" val="magic" />
@@ -590,7 +590,7 @@
 			<add order="0x40" stat="maxMp" val="314" />
 		</for>
 	</item>
-	<item id="12139" type="Armor" name="Common Item - Divine Stockings">
+	<item id="12139" type="Armor" name="基本型-神聖長襪">
 		<set name="icon" val="icon.armor_t57_l_i00" />
 		<set name="default_action" val="equip" />
 		<set name="armor_type" val="magic" />
@@ -607,7 +607,7 @@
 			<add order="0x40" stat="maxMp" val="196" />
 		</for>
 	</item>
-	<item id="12140" type="Armor" name="Common Item - Stripe Silk Shirt">
+	<item id="12140" type="Armor" name="基本型-條紋絲質襯衫">
 		<set name="icon" val="icon.etc_stripe_shirts_c_i02" />
 		<set name="default_action" val="equip" />
 		<set name="bodypart" val="underwear" />
@@ -621,7 +621,7 @@
 			<add order="0x10" stat="pDef" val="19" />
 		</for>
 	</item>
-	<item id="12141" type="Armor" name="Common Item - Full Plate Gauntlet">
+	<item id="12141" type="Armor" name="基本型-全覆式長手套">
 		<set name="icon" val="icon.armor_t62_g_i00" />
 		<set name="default_action" val="equip" />
 		<set name="bodypart" val="gloves" />
@@ -635,7 +635,7 @@
 			<add order="0x10" stat="pDef" val="39" />
 		</for>
 	</item>
-	<item id="12142" type="Armor" name="Common Item - Full Plate Boots">
+	<item id="12142" type="Armor" name="基本型-全覆式長靴">
 		<set name="icon" val="icon.armor_t62_b_i00" />
 		<set name="default_action" val="equip" />
 		<set name="bodypart" val="feet" />
@@ -649,7 +649,7 @@
 			<add order="0x10" stat="pDef" val="39" />
 		</for>
 	</item>
-	<item id="12143" type="Armor" name="Common Item - Full Plate Shield">
+	<item id="12143" type="Armor" name="基本型-全覆式盾">
 		<set name="icon" val="icon.shield_full_plate_shield_i00" />
 		<set name="default_action" val="equip" />
 		<set name="bodypart" val="lhand" />
@@ -667,7 +667,7 @@
 			<set order="0x08" stat="sDef" val="203" />
 		</for>
 	</item>
-	<item id="12144" type="Armor" name="Common Item - Full Plate Armor">
+	<item id="12144" type="Armor" name="基本型-全身盔甲">
 		<set name="icon" val="icon.armor_t62_ul_i00" />
 		<set name="default_action" val="equip" />
 		<set name="armor_type" val="heavy" />
@@ -683,7 +683,7 @@
 			<add order="0x10" stat="pDef" val="239" />
 		</for>
 	</item>
-	<item id="12145" type="Armor" name="Common Item - Full Plate Helmet">
+	<item id="12145" type="Armor" name="基本型-全覆式頭盔">
 		<set name="icon" val="icon.armor_leather_helmet_i00" />
 		<set name="default_action" val="equip" />
 		<set name="bodypart" val="head" />
@@ -697,7 +697,7 @@
 			<add order="0x10" stat="pDef" val="58" />
 		</for>
 	</item>
-	<item id="12146" type="Armor" name="Common Item - Sealed Zubei's Gauntlet">
+	<item id="12146" type="Armor" name="基本型-封印的夏隆長手套">
 		<set name="icon" val="icon.armor_t64_g_i02" />
 		<set name="default_action" val="equip" />
 		<set name="bodypart" val="gloves" />
@@ -711,7 +711,7 @@
 			<add order="0x10" stat="pDef" val="41" />
 		</for>
 	</item>
-	<item id="12147" type="Armor" name="Common Item - Sealed Zubei's Boots">
+	<item id="12147" type="Armor" name="基本型-封印的夏隆靴">
 		<set name="icon" val="icon.armor_t64_b_i02" />
 		<set name="default_action" val="equip" />
 		<set name="bodypart" val="feet" />
@@ -725,7 +725,7 @@
 			<add order="0x10" stat="pDef" val="41" />
 		</for>
 	</item>
-	<item id="12148" type="Armor" name="Common Item - Sealed Avadon Gloves">
+	<item id="12148" type="Armor" name="基本型-封印的阿巴敦手套">
 		<set name="icon" val="icon.armor_t66_g_i02" />
 		<set name="default_action" val="equip" />
 		<set name="bodypart" val="gloves" />
@@ -739,7 +739,7 @@
 			<add order="0x10" stat="pDef" val="41" />
 		</for>
 	</item>
-	<item id="12149" type="Armor" name="Common Item - Sealed Avadon Boots">
+	<item id="12149" type="Armor" name="基本型-封印的阿巴敦靴">
 		<set name="icon" val="icon.armor_t66_b_i02" />
 		<set name="default_action" val="equip" />
 		<set name="bodypart" val="feet" />
@@ -753,7 +753,7 @@
 			<add order="0x10" stat="pDef" val="41" />
 		</for>
 	</item>
-	<item id="12150" type="Armor" name="Common Item - Zubei's Leather Gaiters">
+	<item id="12150" type="Armor" name="基本型-夏隆皮脛甲">
 		<set name="icon" val="icon.armor_t65_l_i00" />
 		<set name="default_action" val="equip" />
 		<set name="armor_type" val="light" />
@@ -768,7 +768,7 @@
 			<add order="0x10" stat="pDef" val="73" />
 		</for>
 	</item>
-	<item id="12151" type="Armor" name="Common Item - Zubei's Leather Shirt">
+	<item id="12151" type="Armor" name="基本型-夏隆皮衫">
 		<set name="icon" val="icon.armor_t65_u_i00" />
 		<set name="default_action" val="equip" />
 		<set name="armor_type" val="light" />
@@ -783,7 +783,7 @@
 			<add order="0x10" stat="pDef" val="117" />
 		</for>
 	</item>
-	<item id="12152" type="Armor" name="Common Item - Zubei's Gaiters">
+	<item id="12152" type="Armor" name="基本型-夏隆脛甲">
 		<set name="icon" val="icon.armor_t64_l_i00" />
 		<set name="default_action" val="equip" />
 		<set name="armor_type" val="heavy" />
@@ -799,7 +799,7 @@
 			<add order="0x10" stat="pDef" val="98" />
 		</for>
 	</item>
-	<item id="12153" type="Armor" name="Common Item - Zubei's Gauntlet - Heavy Armor Use">
+	<item id="12153" type="Armor" name="基本型-夏隆長手套">
 		<set name="icon" val="icon.armor_t64_g_i00" />
 		<set name="default_action" val="equip" />
 		<set name="bodypart" val="gloves" />
@@ -814,7 +814,7 @@
 			<add order="0x10" stat="pDef" val="41" />
 		</for>
 	</item>
-	<item id="12154" type="Armor" name="Common Item - Zubei's Gauntlet - Tans Armor Use">
+	<item id="12154" type="Armor" name="基本型-夏隆長手套">
 		<set name="icon" val="icon.armor_t65_g_i00" />
 		<set name="default_action" val="equip" />
 		<set name="bodypart" val="gloves" />
@@ -828,7 +828,7 @@
 			<add order="0x10" stat="pDef" val="41" />
 		</for>
 	</item>
-	<item id="12155" type="Armor" name="Common Item - Zubei's Gauntlet - Robe Use">
+	<item id="12155" type="Armor" name="基本型-夏隆長手套">
 		<set name="icon" val="icon.armor_t56_g_i00" />
 		<set name="default_action" val="equip" />
 		<set name="bodypart" val="gloves" />
@@ -843,7 +843,7 @@
 			<add order="0x10" stat="pDef" val="41" />
 		</for>
 	</item>
-	<item id="12156" type="Armor" name="Common Item - Zubei's Boots - Heavy Armor Use">
+	<item id="12156" type="Armor" name="基本型-夏隆靴">
 		<set name="icon" val="icon.armor_t64_b_i00" />
 		<set name="default_action" val="equip" />
 		<set name="bodypart" val="feet" />
@@ -858,7 +858,7 @@
 			<add order="0x10" stat="pDef" val="41" />
 		</for>
 	</item>
-	<item id="12157" type="Armor" name="Common Item - Zubei's Boots - Tans Armor Use">
+	<item id="12157" type="Armor" name="基本型-夏隆靴">
 		<set name="icon" val="icon.armor_t65_b_i00" />
 		<set name="default_action" val="equip" />
 		<set name="bodypart" val="feet" />
@@ -872,7 +872,7 @@
 			<add order="0x10" stat="pDef" val="41" />
 		</for>
 	</item>
-	<item id="12158" type="Armor" name="Common Item - Zubei's Boots - Robe Use">
+	<item id="12158" type="Armor" name="基本型-夏隆靴">
 		<set name="icon" val="icon.armor_t56_b_i00" />
 		<set name="default_action" val="equip" />
 		<set name="bodypart" val="feet" />
@@ -887,7 +887,7 @@
 			<add order="0x10" stat="pDef" val="41" />
 		</for>
 	</item>
-	<item id="12159" type="Armor" name="Common Item - Zubei's Shield">
+	<item id="12159" type="Armor" name="基本型-夏隆盾">
 		<set name="icon" val="icon.shield_shrnoens_shield_i00" />
 		<set name="default_action" val="equip" />
 		<set name="bodypart" val="lhand" />
@@ -905,7 +905,7 @@
 			<set order="0x08" stat="sDef" val="216" />
 		</for>
 	</item>
-	<item id="12160" type="Armor" name="Common Item - Zubei's Helmet">
+	<item id="12160" type="Armor" name="基本型-夏隆頭盔">
 		<set name="icon" val="icon.armor_helmet_i00" />
 		<set name="default_action" val="equip" />
 		<set name="bodypart" val="head" />
@@ -919,7 +919,7 @@
 			<add order="0x10" stat="pDef" val="62" />
 		</for>
 	</item>
-	<item id="12161" type="Armor" name="Common Item - Zubei's Breastplate">
+	<item id="12161" type="Armor" name="基本型-夏隆胸甲">
 		<set name="icon" val="icon.armor_t64_u_i00" />
 		<set name="default_action" val="equip" />
 		<set name="armor_type" val="heavy" />
@@ -935,7 +935,7 @@
 			<add order="0x10" stat="pDef" val="157" />
 		</for>
 	</item>
-	<item id="12162" type="Armor" name="Common Item - Avadon Gloves - Heavy Armor Use">
+	<item id="12162" type="Armor" name="基本型-阿巴敦手套">
 		<set name="icon" val="icon.armor_t66_g_i00" />
 		<set name="default_action" val="equip" />
 		<set name="bodypart" val="gloves" />
@@ -950,7 +950,7 @@
 			<add order="0x10" stat="pDef" val="41" />
 		</for>
 	</item>
-	<item id="12163" type="Armor" name="Common Item - Avadon Gloves - Tans Armor Use">
+	<item id="12163" type="Armor" name="基本型-阿巴敦手套">
 		<set name="icon" val="icon.armor_t67_g_i00" />
 		<set name="default_action" val="equip" />
 		<set name="bodypart" val="gloves" />
@@ -964,7 +964,7 @@
 			<add order="0x10" stat="pDef" val="41" />
 		</for>
 	</item>
-	<item id="12164" type="Armor" name="Common Item - Avadon Gloves - Robe Use">
+	<item id="12164" type="Armor" name="基本型-阿巴敦手套">
 		<set name="icon" val="icon.armor_t59_g_i00" />
 		<set name="default_action" val="equip" />
 		<set name="bodypart" val="gloves" />
@@ -979,7 +979,7 @@
 			<add order="0x10" stat="pDef" val="41" />
 		</for>
 	</item>
-	<item id="12165" type="Armor" name="Common Item - Avadon Leather Armor">
+	<item id="12165" type="Armor" name="基本型-阿巴敦皮甲">
 		<set name="icon" val="icon.armor_t67_ul_i00" />
 		<set name="default_action" val="equip" />
 		<set name="armor_type" val="light" />
@@ -994,7 +994,7 @@
 			<add order="0x10" stat="pDef" val="191" />
 		</for>
 	</item>
-	<item id="12166" type="Armor" name="Common Item - Avadon Robe">
+	<item id="12166" type="Armor" name="基本型-阿巴敦長袍">
 		<set name="icon" val="icon.armor_t59_ul_i00" />
 		<set name="default_action" val="equip" />
 		<set name="armor_type" val="magic" />
@@ -1011,7 +1011,7 @@
 			<add order="0x40" stat="maxMp" val="561" />
 		</for>
 	</item>
-	<item id="12167" type="Armor" name="Common Item - Avadon Boots - Heavy Armor Use">
+	<item id="12167" type="Armor" name="基本型-阿巴敦靴">
 		<set name="icon" val="icon.armor_t66_b_i00" />
 		<set name="default_action" val="equip" />
 		<set name="bodypart" val="feet" />
@@ -1026,7 +1026,7 @@
 			<add order="0x10" stat="pDef" val="41" />
 		</for>
 	</item>
-	<item id="12168" type="Armor" name="Common Item - Avadon Boots - Tans Armor Use">
+	<item id="12168" type="Armor" name="基本型-阿巴敦靴">
 		<set name="icon" val="icon.armor_t67_b_i00" />
 		<set name="default_action" val="equip" />
 		<set name="bodypart" val="feet" />
@@ -1040,7 +1040,7 @@
 			<add order="0x10" stat="pDef" val="41" />
 		</for>
 	</item>
-	<item id="12169" type="Armor" name="Common Item - Avadon Boots - Robe Use">
+	<item id="12169" type="Armor" name="基本型-阿巴敦靴">
 		<set name="icon" val="icon.armor_t59_b_i00" />
 		<set name="default_action" val="equip" />
 		<set name="bodypart" val="feet" />
@@ -1055,7 +1055,7 @@
 			<add order="0x10" stat="pDef" val="41" />
 		</for>
 	</item>
-	<item id="12170" type="Armor" name="Common Item - Avadon Circlet">
+	<item id="12170" type="Armor" name="基本型-阿巴敦頭箍">
 		<set name="icon" val="icon.armor_leather_helmet_i00" />
 		<set name="default_action" val="equip" />
 		<set name="bodypart" val="head" />
@@ -1069,7 +1069,7 @@
 			<add order="0x10" stat="pDef" val="62" />
 		</for>
 	</item>
-	<item id="12171" type="Armor" name="Common Item - Avadon Shield">
+	<item id="12171" type="Armor" name="基本型-阿巴敦盾">
 		<set name="icon" val="icon.shield_avadon_shield_i00" />
 		<set name="default_action" val="equip" />
 		<set name="bodypart" val="lhand" />
@@ -1087,7 +1087,7 @@
 			<set order="0x08" stat="sDef" val="216" />
 		</for>
 	</item>
-	<item id="12172" type="Armor" name="Common Item - Avadon Plate Gaiters">
+	<item id="12172" type="Armor" name="基本型-阿巴敦脛甲">
 		<set name="icon" val="icon.armor_t66_l_i00" />
 		<set name="default_action" val="equip" />
 		<set name="armor_type" val="heavy" />
@@ -1103,7 +1103,7 @@
 			<add order="0x10" stat="pDef" val="98" />
 		</for>
 	</item>
-	<item id="12173" type="Armor" name="Common Item - Avadon Breastplate">
+	<item id="12173" type="Armor" name="基本型-阿巴敦胸甲">
 		<set name="icon" val="icon.armor_t66_u_i00" />
 		<set name="default_action" val="equip" />
 		<set name="armor_type" val="heavy" />
@@ -1119,7 +1119,7 @@
 			<add order="0x10" stat="pDef" val="157" />
 		</for>
 	</item>
-	<item id="12174" type="Armor" name="Common Item - Thin Leather Shirt">
+	<item id="12174" type="Armor" name="基本型-薄皮質襯衫">
 		<set name="icon" val="icon.etc_shirts_b_i03" />
 		<set name="default_action" val="equip" />
 		<set name="bodypart" val="underwear" />
@@ -1133,7 +1133,7 @@
 			<add order="0x10" stat="pDef" val="21" />
 		</for>
 	</item>
-	<item id="12175" type="Armor" name="Common Item - Tunic of Zubei">
+	<item id="12175" type="Armor" name="基本型-夏隆外衣">
 		<set name="icon" val="icon.armor_t56_u_i00" />
 		<set name="default_action" val="equip" />
 		<set name="armor_type" val="magic" />
@@ -1150,7 +1150,7 @@
 			<add order="0x40" stat="maxMp" val="345" />
 		</for>
 	</item>
-	<item id="12176" type="Armor" name="Common Item - Stockings of Zubei">
+	<item id="12176" type="Armor" name="基本型-夏隆長襪">
 		<set name="icon" val="icon.armor_t56_l_i00" />
 		<set name="default_action" val="equip" />
 		<set name="armor_type" val="magic" />
@@ -1167,7 +1167,7 @@
 			<add order="0x40" stat="maxMp" val="216" />
 		</for>
 	</item>
-	<item id="12177" type="Armor" name="Common Item - Doom Gloves - Heavy Armor Use">
+	<item id="12177" type="Armor" name="基本型-末日手套">
 		<set name="icon" val="icon.armor_t71_g_i00" />
 		<set name="default_action" val="equip" />
 		<set name="bodypart" val="gloves" />
@@ -1182,7 +1182,7 @@
 			<add order="0x10" stat="pDef" val="44" />
 		</for>
 	</item>
-	<item id="12178" type="Armor" name="Common Item - Doom Gloves - Tans Armor Use">
+	<item id="12178" type="Armor" name="基本型-末日手套">
 		<set name="icon" val="icon.armor_t72_g_i00" />
 		<set name="default_action" val="equip" />
 		<set name="bodypart" val="gloves" />
@@ -1196,7 +1196,7 @@
 			<add order="0x10" stat="pDef" val="44" />
 		</for>
 	</item>
-	<item id="12179" type="Armor" name="Common Item - Doom Gloves - Robe Use">
+	<item id="12179" type="Armor" name="基本型-末日手套">
 		<set name="icon" val="icon.armor_t73_g_i00" />
 		<set name="default_action" val="equip" />
 		<set name="bodypart" val="gloves" />
@@ -1211,7 +1211,7 @@
 			<add order="0x10" stat="pDef" val="44" />
 		</for>
 	</item>
-	<item id="12180" type="Armor" name="Common Item - Doom Boots - Heavy Armor Use">
+	<item id="12180" type="Armor" name="基本型-末日靴">
 		<set name="icon" val="icon.armor_t71_b_i00" />
 		<set name="default_action" val="equip" />
 		<set name="bodypart" val="feet" />
@@ -1226,7 +1226,7 @@
 			<add order="0x10" stat="pDef" val="44" />
 		</for>
 	</item>
-	<item id="12181" type="Armor" name="Common Item - Doom Boots - Tans Armor Use">
+	<item id="12181" type="Armor" name="基本型-末日靴">
 		<set name="icon" val="icon.armor_t72_b_i00" />
 		<set name="default_action" val="equip" />
 		<set name="bodypart" val="feet" />
@@ -1240,7 +1240,7 @@
 			<add order="0x10" stat="pDef" val="44" />
 		</for>
 	</item>
-	<item id="12182" type="Armor" name="Common Item - Doom Boots - Robe Use">
+	<item id="12182" type="Armor" name="基本型-末日靴">
 		<set name="icon" val="icon.armor_t73_b_i00" />
 		<set name="default_action" val="equip" />
 		<set name="bodypart" val="feet" />
@@ -1255,7 +1255,7 @@
 			<add order="0x10" stat="pDef" val="44" />
 		</for>
 	</item>
-	<item id="12183" type="Armor" name="Common Item - Doom Shield">
+	<item id="12183" type="Armor" name="基本型-末日盾">
 		<set name="icon" val="icon.shield_doom_shield_i00" />
 		<set name="default_action" val="equip" />
 		<set name="bodypart" val="lhand" />
@@ -1273,7 +1273,7 @@
 			<set order="0x08" stat="sDef" val="230" />
 		</for>
 	</item>
-	<item id="12184" type="Armor" name="Common Item - Doom Plate Armor">
+	<item id="12184" type="Armor" name="基本型-末日金屬盔甲">
 		<set name="icon" val="icon.armor_t71_ul_i00" />
 		<set name="default_action" val="equip" />
 		<set name="armor_type" val="heavy" />
@@ -1289,7 +1289,7 @@
 			<add order="0x10" stat="pDef" val="270" />
 		</for>
 	</item>
-	<item id="12185" type="Armor" name="Common Item - Doom Helmet">
+	<item id="12185" type="Armor" name="基本型-末日頭盔">
 		<set name="icon" val="icon.armor_leather_helmet_i00" />
 		<set name="default_action" val="equip" />
 		<set name="bodypart" val="head" />
@@ -1303,7 +1303,7 @@
 			<add order="0x10" stat="pDef" val="66" />
 		</for>
 	</item>
-	<item id="12186" type="Armor" name="Common Item - Leather Armor of Doom">
+	<item id="12186" type="Armor" name="基本型-末日皮甲">
 		<set name="icon" val="icon.armor_t72_ul_i00" />
 		<set name="default_action" val="equip" />
 		<set name="armor_type" val="light" />
@@ -1318,7 +1318,7 @@
 			<add order="0x10" stat="pDef" val="202" />
 		</for>
 	</item>
-	<item id="12187" type="Armor" name="Common Item - Sealed Doom Gloves">
+	<item id="12187" type="Armor" name="基本型-封印的末日手套">
 		<set name="icon" val="icon.armor_t71_g_i02" />
 		<set name="default_action" val="equip" />
 		<set name="bodypart" val="gloves" />
@@ -1332,7 +1332,7 @@
 			<add order="0x10" stat="pDef" val="44" />
 		</for>
 	</item>
-	<item id="12188" type="Armor" name="Common Item - Sealed Doom Boots">
+	<item id="12188" type="Armor" name="基本型-封印的末日靴">
 		<set name="icon" val="icon.armor_t71_b_i02" />
 		<set name="default_action" val="equip" />
 		<set name="bodypart" val="feet" />
@@ -1346,7 +1346,7 @@
 			<add order="0x10" stat="pDef" val="44" />
 		</for>
 	</item>
-	<item id="12189" type="Armor" name="Common Item - Sealed Blue Wolf Boots">
+	<item id="12189" type="Armor" name="基本型-封印的青狼長靴">
 		<set name="icon" val="icon.armor_t68_b_i02" />
 		<set name="default_action" val="equip" />
 		<set name="bodypart" val="feet" />
@@ -1360,7 +1360,7 @@
 			<add order="0x10" stat="pDef" val="44" />
 		</for>
 	</item>
-	<item id="12190" type="Armor" name="Common Item - Sealed Blue Wolf Gloves">
+	<item id="12190" type="Armor" name="基本型-封印的青狼手套">
 		<set name="icon" val="icon.armor_t68_g_i02" />
 		<set name="default_action" val="equip" />
 		<set name="bodypart" val="gloves" />
@@ -1374,7 +1374,7 @@
 			<add order="0x10" stat="pDef" val="44" />
 		</for>
 	</item>
-	<item id="12191" type="Armor" name="Common Item - Thin Stripe Leather Shirt">
+	<item id="12191" type="Armor" name="基本型-薄條紋皮質襯衫">
 		<set name="icon" val="icon.etc_stripe_shirts_b_i03" />
 		<set name="default_action" val="equip" />
 		<set name="bodypart" val="underwear" />
@@ -1388,7 +1388,7 @@
 			<add order="0x10" stat="pDef" val="22" />
 		</for>
 	</item>
-	<item id="12192" type="Armor" name="Common Item - Tunic of Doom">
+	<item id="12192" type="Armor" name="基本型-末日外衣">
 		<set name="icon" val="icon.armor_t73_u_i00" />
 		<set name="default_action" val="equip" />
 		<set name="armor_type" val="magic" />
@@ -1405,7 +1405,7 @@
 			<add order="0x40" stat="maxMp" val="377" />
 		</for>
 	</item>
-	<item id="12193" type="Armor" name="Common Item - Blue Wolf Gaiters">
+	<item id="12193" type="Armor" name="基本型-青狼脛甲">
 		<set name="icon" val="icon.armor_t68_l_i00" />
 		<set name="default_action" val="equip" />
 		<set name="armor_type" val="heavy" />
@@ -1421,7 +1421,7 @@
 			<add order="0x10" stat="pDef" val="104" />
 		</for>
 	</item>
-	<item id="12194" type="Armor" name="Common Item - Blue Wolf Leather Armor">
+	<item id="12194" type="Armor" name="基本型-青狼皮甲">
 		<set name="icon" val="icon.armor_t69_ul_i00" />
 		<set name="default_action" val="equip" />
 		<set name="armor_type" val="light" />
@@ -1436,7 +1436,7 @@
 			<add order="0x10" stat="pDef" val="202" />
 		</for>
 	</item>
-	<item id="12195" type="Armor" name="Common Item - Blue Wolf Boots - Heavy Armor Use">
+	<item id="12195" type="Armor" name="基本型-青狼長靴">
 		<set name="icon" val="icon.armor_t68_b_i00" />
 		<set name="default_action" val="equip" />
 		<set name="bodypart" val="feet" />
@@ -1451,7 +1451,7 @@
 			<add order="0x10" stat="pDef" val="44" />
 		</for>
 	</item>
-	<item id="12196" type="Armor" name="Common Item - Blue Wolf Boots - Tans Armor Use">
+	<item id="12196" type="Armor" name="基本型-青狼長靴">
 		<set name="icon" val="icon.armor_t69_b_i00" />
 		<set name="default_action" val="equip" />
 		<set name="bodypart" val="feet" />
@@ -1465,7 +1465,7 @@
 			<add order="0x10" stat="pDef" val="44" />
 		</for>
 	</item>
-	<item id="12197" type="Armor" name="Common Item - Blue Wolf Boots - Robe Use">
+	<item id="12197" type="Armor" name="基本型-青狼長靴">
 		<set name="icon" val="icon.armor_t70_b_i00" />
 		<set name="default_action" val="equip" />
 		<set name="bodypart" val="feet" />
@@ -1480,7 +1480,7 @@
 			<add order="0x10" stat="pDef" val="44" />
 		</for>
 	</item>
-	<item id="12198" type="Armor" name="Common Item - Blue Wolf Gloves - Heavy Armor Use">
+	<item id="12198" type="Armor" name="基本型-青狼手套">
 		<set name="icon" val="icon.armor_t68_g_i00" />
 		<set name="default_action" val="equip" />
 		<set name="bodypart" val="gloves" />
@@ -1495,7 +1495,7 @@
 			<add order="0x10" stat="pDef" val="44" />
 		</for>
 	</item>
-	<item id="12199" type="Armor" name="Common Item - Blue Wolf Gloves - Tans Armor Use">
+	<item id="12199" type="Armor" name="基本型-青狼手套">
 		<set name="icon" val="icon.armor_t69_g_i00" />
 		<set name="default_action" val="equip" />
 		<set name="bodypart" val="gloves" />

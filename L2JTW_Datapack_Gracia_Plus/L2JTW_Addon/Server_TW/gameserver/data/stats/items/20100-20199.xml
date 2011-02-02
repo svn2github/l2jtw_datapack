@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <list>
-	<item id="20100" type="Armor" name="Saving Santa Hat - 24 Hour Expiration Period">
+	<item id="20100" type="Armor" name="剪刀-石頭-布聖誕帽">
 		<set name="icon" val="BranchSys.icon.br_xmas_gawibawibo_cap_i00" />
 		<set name="default_action" val="equip" />
 		<set name="bodypart" val="hairall" />
@@ -14,7 +14,7 @@
 		<set name="item_skill" val="21014-1;21015-1;21016-1" />
 		<set name="time" val="1440" />
 	</item>
-	<item id="20101" type="EtcItem" name="Santa Claus' Gift Set">
+	<item id="20101" type="EtcItem" name="聖誕老人的禮物組">
 		<set name="icon" val="BranchSys.icon.br_xmas_present_i00" />
 		<set name="default_action" val="peel" />
 		<set name="immediate_effect" val="1" />
@@ -22,7 +22,7 @@
 		<set name="weight" val="100" />
 		<set name="capsuled_items" val="20075,1,1,100;20076,1,1,100;20077,1,1,100" />
 	</item>
-	<item id="20102" type="EtcItem" name="Santa Claus' Gift Set">
+	<item id="20102" type="EtcItem" name="聖誕老人的禮物組">
 		<set name="icon" val="BranchSys.icon.br_xmas_present_i00" />
 		<set name="default_action" val="peel" />
 		<set name="immediate_effect" val="1" />
@@ -30,7 +30,7 @@
 		<set name="weight" val="100" />
 		<set name="capsuled_items" val="20075,1,1,100;20076,1,1,100;20078,1,1,100" />
 	</item>
-	<item id="20103" type="EtcItem" name="Holiday Scroll: Heavy Armor Fighter - 8 Hour Expiration Period">
+	<item id="20103" type="EtcItem" name="聖誕慶典卷軸-重裝戰士">
 		<set name="icon" val="BranchSys.icon.br_xmas_scroll_i00" />
 		<set name="default_action" val="call_skill" />
 		<set name="etcitem_type" val="scroll" />
@@ -44,7 +44,7 @@
 		<set name="item_skill" val="22013-1" />
 		<set name="time" val="480" />
 	</item>
-	<item id="20104" type="EtcItem" name="Holiday Scroll: Light Armor Fighter - 8 Hour Expiration Period">
+	<item id="20104" type="EtcItem" name="聖誕慶典卷軸-輕裝戰士">
 		<set name="icon" val="BranchSys.icon.br_xmas_scroll_i00" />
 		<set name="default_action" val="call_skill" />
 		<set name="etcitem_type" val="scroll" />
@@ -58,7 +58,7 @@
 		<set name="item_skill" val="22014-1" />
 		<set name="time" val="480" />
 	</item>
-	<item id="20105" type="EtcItem" name="Holiday Scroll: Healer - 8 Hour Expiration Period">
+	<item id="20105" type="EtcItem" name="聖誕慶典卷軸-牧師">
 		<set name="icon" val="BranchSys.icon.br_xmas_scroll_i00" />
 		<set name="default_action" val="call_skill" />
 		<set name="etcitem_type" val="scroll" />
@@ -72,7 +72,7 @@
 		<set name="item_skill" val="22015-1" />
 		<set name="time" val="480" />
 	</item>
-	<item id="20106" type="EtcItem" name="Holiday Scroll: Mage - 8 Hour Expiration Period">
+	<item id="20106" type="EtcItem" name="聖誕慶典卷軸-巫師">
 		<set name="icon" val="BranchSys.icon.br_xmas_scroll_i00" />
 		<set name="default_action" val="call_skill" />
 		<set name="etcitem_type" val="scroll" />
@@ -86,7 +86,7 @@
 		<set name="item_skill" val="22016-1" />
 		<set name="time" val="480" />
 	</item>
-	<item id="20107" type="EtcItem" name="Santa Claus' Weapon Exchange Ticket - 12 Hour Expiration Period">
+	<item id="20107" type="EtcItem" name="聖誕老人的武器交換券">
 		<set name="icon" val="icon.etc_lottery_card_i00" />
 		<set name="immediate_effect" val="1" />
 		<set name="material" val="paper" />
@@ -96,7 +96,7 @@
 		<set name="is_sellable" val="false" />
 		<set name="time" val="720" />
 	</item>
-	<item id="20108" type="EtcItem" name="Santa Claus' Weapon Exchange Ticket - 12 Hour Expiration Period">
+	<item id="20108" type="EtcItem" name="聖誕老人的武器交換券">
 		<set name="icon" val="icon.etc_lottery_card_i00" />
 		<set name="immediate_effect" val="1" />
 		<set name="material" val="paper" />
@@ -106,7 +106,7 @@
 		<set name="is_sellable" val="false" />
 		<set name="time" val="720" />
 	</item>
-	<item id="20109" type="Weapon" name="Sword of Revolution - Event - 4 Hour Expiration Period">
+	<item id="20109" type="Weapon" name="革命劍-活動">
 		<set name="icon" val="icon.weapon_sword_of_revolution_i00" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="sword" />
@@ -136,7 +136,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="20110" type="Weapon" name="Titan Sword - Event - 4 Hour Expiration Period">
+	<item id="20110" type="Weapon" name="下巨人之劍-活動">
 		<set name="icon" val="icon.weapon_giants_sword_i00" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="bigsword" />
@@ -165,7 +165,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="20111" type="Weapon" name="Maingauche - Event - 4 Hour Expiration Period">
+	<item id="20111" type="Weapon" name="突刺刀-活動">
 		<set name="icon" val="icon.weapon_maingauche_i00" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="dagger" />
@@ -196,7 +196,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="20112" type="Weapon" name="Tarbar - Event - 4 Hour Expiration Period">
+	<item id="20112" type="Weapon" name="塔巴曲刃斧-活動">
 		<set name="icon" val="icon.weapon_tarbar_i00" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="blunt" />
@@ -227,7 +227,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="20113" type="Weapon" name="Titan Hammer - Event - 4 Hour Expiration Period">
+	<item id="20113" type="Weapon" name="下巨人之鎚-活動">
 		<set name="icon" val="icon.weapon_giants_hammer_i00" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="bigblunt" />
@@ -258,7 +258,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="20114" type="Weapon" name="Priest Mace - Event - 4 Hour Expiration Period">
+	<item id="20114" type="Weapon" name="祭司釘鎚-活動">
 		<set name="icon" val="icon.weapon_mace_of_priest_i00" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="blunt" />
@@ -289,7 +289,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="20115" type="Weapon" name="Goat Head Staff - Event - 4 Hour Expiration Period">
+	<item id="20115" type="Weapon" name="山羊頭之杖-活動">
 		<set name="icon" val="icon.weapon_goathead_staff_i00" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="bigblunt" />
@@ -320,7 +320,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="20116" type="Weapon" name="Bich'Hwa - Event - 4 Hour Expiration Period">
+	<item id="20116" type="Weapon" name="拳套刀-活動">
 		<set name="icon" val="icon.weapon_bichhwa_i00" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="dualfist" />
@@ -351,7 +351,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="20117" type="Weapon" name="Strengthened Long Bow - Event - 4 Hour Expiration Period">
+	<item id="20117" type="Weapon" name="強化長弓-活動">
 		<set name="icon" val="icon.weapon_strengthening_long_bow_i00" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="bow" />
@@ -384,7 +384,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="20118" type="Weapon" name="Winged Spear - Event - 4 Hour Expiration Period">
+	<item id="20118" type="Weapon" name="翼之矛-活動">
 		<set name="icon" val="icon.weapon_winged_spear_i00" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="pole" />
@@ -415,7 +415,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="20119" type="Weapon" name="Artisan's Sword*Artisan's Sword - Event - 4 Hour Expiration Period">
+	<item id="20119" type="Weapon" name="工匠之劍*工匠之劍-活動">
 		<set name="icon" val="icon.weapon_dual_sword_i00" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="dual" />
@@ -444,7 +444,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="20120" type="Weapon" name="Epee - Event - 4 Hour Expiration Period">
+	<item id="20120" type="Weapon" name="銳劍-活動">
 		<set name="icon" val="icon.weapon_rapier_i00" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="rapier" />
@@ -477,7 +477,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="20121" type="Weapon" name="Katzbalger - Event - 4 Hour Expiration Period">
+	<item id="20121" type="Weapon" name="格鬥劍-活動">
 		<set name="icon" val="icon.weapon_tulwar_i00" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="ancientsword" />
@@ -509,7 +509,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="20122" type="Weapon" name="Arm Breaker - Event - 4 Hour Expiration Period">
+	<item id="20122" type="Weapon" name="爆破之臂-活動">
 		<set name="icon" val="icon.weapon_hunting_gun_i00" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="crossbow" />
@@ -542,7 +542,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="20123" type="Weapon" name="Samurai Longsword - Event - 4 Hour Expiration Period">
+	<item id="20123" type="Weapon" name="瑟魯基長劍-活動">
 		<set name="icon" val="icon.weapon_samurai_longsword_i00" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="sword" />
@@ -571,7 +571,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="20124" type="Weapon" name="Berserker Blade - Event - 4 Hour Expiration Period">
+	<item id="20124" type="Weapon" name="狂戰士之刃-活動">
 		<set name="icon" val="icon.weapon_berserker_blade_i00" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="bigsword" />
@@ -600,7 +600,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="20125" type="Weapon" name="Crystal Dagger - Event - 4 Hour Expiration Period">
+	<item id="20125" type="Weapon" name="水晶匕首-活動">
 		<set name="icon" val="icon.weapon_crystal_dagger_i00" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="dagger" />
@@ -631,7 +631,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="20126" type="Weapon" name="Yaksa Mace - Event - 4 Hour Expiration Period">
+	<item id="20126" type="Weapon" name="夜叉釘鎚-活動">
 		<set name="icon" val="icon.weapon_yaksa_mace_i00" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="blunt" />
@@ -662,7 +662,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="20127" type="Weapon" name="Dwarven Hammer - Event - 4 Hour Expiration Period">
+	<item id="20127" type="Weapon" name="矮人巨鎚-活動">
 		<set name="icon" val="icon.weapon_dwarven_hammer_i00" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="bigblunt" />
@@ -693,7 +693,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="20128" type="Weapon" name="Ecliptic Axe - Event - 4 Hour Expiration Period">
+	<item id="20128" type="Weapon" name="月蝕斧-活動">
 		<set name="icon" val="icon.weapon_eclipse_axe_i00" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="blunt" />
@@ -724,7 +724,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="20129" type="Weapon" name="Demon's Staff - Event - 4 Hour Expiration Period">
+	<item id="20129" type="Weapon" name="惡魔魔杖-活動">
 		<set name="icon" val="icon.weapon_demons_staff_i00" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="bigblunt" />
@@ -755,7 +755,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="20130" type="Weapon" name="Great Pata - Event - 4 Hour Expiration Period">
+	<item id="20130" type="Weapon" name="巨型帕塔拳刃-活動">
 		<set name="icon" val="icon.weapon_great_pata_i00" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="dualfist" />
@@ -786,7 +786,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="20131" type="Weapon" name="Eminence Bow - Event - 4 Hour Expiration Period">
+	<item id="20131" type="Weapon" name="卓越弓-活動">
 		<set name="icon" val="icon.weapon_eminence_bow_i00" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="bow" />
@@ -819,7 +819,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="20132" type="Weapon" name="Orcish Poleaxe - Event - 4 Hour Expiration Period">
+	<item id="20132" type="Weapon" name="歐西斯戰斧-活動">
 		<set name="icon" val="icon.weapon_orcish_poleaxe_i00" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="pole" />
@@ -850,7 +850,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="20133" type="Weapon" name="Katana*Katana - Event - 4 Hour Expiration Period">
+	<item id="20133" type="Weapon" name="武士刀*武士刀-活動">
 		<set name="icon" val="icon.weapon_dual_sword_i00" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="dual" />
@@ -880,7 +880,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="20134" type="Weapon" name="Admiral's Estoc - Event - 4 Hour Expiration Period">
+	<item id="20134" type="Weapon" name="上將刺劍-活動">
 		<set name="icon" val="icon.weapon_blink_slasher_i00" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="rapier" />
@@ -913,7 +913,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="20135" type="Weapon" name="Saber Tooth - Event - 4 Hour Expiration Period">
+	<item id="20135" type="Weapon" name="劍齒虎-活動">
 		<set name="icon" val="icon.weapon_invincible_blade_i00" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="ancientsword" />
@@ -945,7 +945,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="20136" type="Weapon" name="Sharpshooter - Event - 4 Hour Expiration Period">
+	<item id="20136" type="Weapon" name="滅形弩-活動">
 		<set name="icon" val="icon.weapon_taslam_i00" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="crossbow" />
@@ -978,7 +978,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="20137" type="Weapon" name="Sword of Damascus - Event - 4 Hour Expiration Period">
+	<item id="20137" type="Weapon" name="大馬士革刀-活動">
 		<set name="icon" val="icon.weapon_sword_of_damascus_i00" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="sword" />
@@ -1007,7 +1007,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="20138" type="Weapon" name="Guardian Sword - Event - 4 Hour Expiration Period">
+	<item id="20138" type="Weapon" name="守護神之劍-活動">
 		<set name="icon" val="icon.weapon_guardians_sword_i00" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="bigsword" />
@@ -1036,7 +1036,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="20139" type="Weapon" name="Demon's Dagger - Event - 4 Hour Expiration Period">
+	<item id="20139" type="Weapon" name="惡魔短劍-活動">
 		<set name="icon" val="icon.weapon_demons_sword_i00" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="dagger" />
@@ -1067,7 +1067,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="20140" type="Weapon" name="Art of Battle Axe - Event - 4 Hour Expiration Period">
+	<item id="20140" type="Weapon" name="工藝戰斧-活動">
 		<set name="icon" val="icon.weapon_art_of_battle_axe_i00" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="blunt" />
@@ -1098,7 +1098,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="20141" type="Weapon" name="Star Buster - Event - 4 Hour Expiration Period">
+	<item id="20141" type="Weapon" name="星爆-活動">
 		<set name="icon" val="icon.weapon_star_buster_i00" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="bigblunt" />
@@ -1129,7 +1129,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="20142" type="Weapon" name="Kaim Vanul's Bones - Event - 4 Hour Expiration Period">
+	<item id="20142" type="Weapon" name="卡倚巴奴之骨-活動">
 		<set name="icon" val="icon.weapon_bone_of_kaim_vanul_i00" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="blunt" />
@@ -1160,7 +1160,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="20143" type="Weapon" name="Staff of Evil Spirits - Event - 4 Hour Expiration Period">
+	<item id="20143" type="Weapon" name="邪靈魔杖-活動">
 		<set name="icon" val="icon.weapon_staff_of_evil_sprit_i00" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="bigblunt" />
@@ -1191,7 +1191,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="20144" type="Weapon" name="Bellion Cestus - Event - 4 Hour Expiration Period">
+	<item id="20144" type="Weapon" name="博利恩拳套-活動">
 		<set name="icon" val="icon.weapon_bellion_cestus_i00" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="dualfist" />
@@ -1222,7 +1222,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="20145" type="Weapon" name="Bow of Peril - Event - 4 Hour Expiration Period">
+	<item id="20145" type="Weapon" name="冒險弓-活動">
 		<set name="icon" val="icon.weapon_hazard_bow_i00" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="bow" />
@@ -1255,7 +1255,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="20146" type="Weapon" name="Lance - Event - 4 Hour Expiration Period">
+	<item id="20146" type="Weapon" name="長槍-活動">
 		<set name="icon" val="icon.weapon_lancia_i00" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="pole" />
@@ -1286,7 +1286,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="20147" type="Weapon" name="Samurai Long Sword*Samurai Long Sword - Event - 4 Hour Expiration Period">
+	<item id="20147" type="Weapon" name="瑟魯基長劍*瑟魯基長劍-活動">
 		<set name="icon" val="icon.weapon_dual_sword_i00" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="dual" />
@@ -1316,7 +1316,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="20148" type="Weapon" name="Colichemarde - Event - 4 Hour Expiration Period">
+	<item id="20148" type="Weapon" name="華麗細劍-活動">
 		<set name="icon" val="icon.weapon_colichemarde_i00" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="rapier" />
@@ -1349,7 +1349,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="20149" type="Weapon" name="Dismantler - Event - 4 Hour Expiration Period">
+	<item id="20149" type="Weapon" name="裂解劍-活動">
 		<set name="icon" val="icon.weapon_dismantler_i00" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="ancientsword" />
@@ -1381,7 +1381,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="20150" type="Weapon" name="Hell Hound - Event - 4 Hour Expiration Period">
+	<item id="20150" type="Weapon" name="冥犬之牙-活動">
 		<set name="icon" val="icon.weapon_hell_hound_i00" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="crossbow" />
@@ -1414,7 +1414,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="20151" type="Weapon" name="Dark Legion - Event - 4 Hour Expiration Period">
+	<item id="20151" type="Weapon" name="黑暗軍刀-活動">
 		<set name="icon" val="icon.weapon_dark_legions_edge_i00" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="sword" />
@@ -1443,7 +1443,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="20152" type="Weapon" name="Dragon Slayer - Event - 4 Hour Expiration Period">
+	<item id="20152" type="Weapon" name="斬龍刀-活動">
 		<set name="icon" val="icon.weapon_dragon_slayer_i00" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="bigsword" />
@@ -1472,7 +1472,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="20153" type="Weapon" name="Soul Separator - Event - 4 Hour Expiration Period">
+	<item id="20153" type="Weapon" name="魂體分離器-活動">
 		<set name="icon" val="icon.weapon_soul_separator_i00" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="dagger" />
@@ -1503,7 +1503,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="20154" type="Weapon" name="Elysian - Event - 4 Hour Expiration Period">
+	<item id="20154" type="Weapon" name="樂園-活動">
 		<set name="icon" val="icon.weapon_elysian_i00" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="blunt" />
@@ -1534,7 +1534,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="20155" type="Weapon" name="Doom Crusher - Event - 4 Hour Expiration Period">
+	<item id="20155" type="Weapon" name="末日毀滅者-活動">
 		<set name="icon" val="icon.weapon_doom_crusher_i00" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="bigblunt" />
@@ -1565,7 +1565,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="20156" type="Weapon" name="Flaming Dragon Skull - Event - 4 Hour Expiration Period">
+	<item id="20156" type="Weapon" name="火龍之首-活動">
 		<set name="icon" val="icon.weapon_dragon_flame_head_i00" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="blunt" />
@@ -1596,7 +1596,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="20157" type="Weapon" name="Branch of the Mother Tree - Event - 4 Hour Expiration Period">
+	<item id="20157" type="Weapon" name="世界樹樹枝-活動">
 		<set name="icon" val="icon.weapon_worldtrees_branch_i00" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="bigblunt" />
@@ -1627,7 +1627,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="20158" type="Weapon" name="Dragon Grinder - Event - 4 Hour Expiration Period">
+	<item id="20158" type="Weapon" name="龍牙-活動">
 		<set name="icon" val="icon.weapon_dragon_grinder_i00" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="dualfist" />
@@ -1658,7 +1658,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="20159" type="Weapon" name="Soul Bow - Event - 4 Hour Expiration Period">
+	<item id="20159" type="Weapon" name="靈魂弓-活動">
 		<set name="icon" val="icon.weapon_soul_bow_i00" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="bow" />
@@ -1691,7 +1691,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="20160" type="Weapon" name="Tallum Glaive - Event - 4 Hour Expiration Period">
+	<item id="20160" type="Weapon" name="塔魯闊矛-活動">
 		<set name="icon" val="icon.weapon_tallum_glaive_i00" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="pole" />
@@ -1722,7 +1722,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="20161" type="Weapon" name="Damascus*Damascus - Event - 4 Hour Expiration Period">
+	<item id="20161" type="Weapon" name="大馬士革刀*大馬士革刀-活動">
 		<set name="icon" val="icon.weapon_dual_sword_i00" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="dual" />
@@ -1752,7 +1752,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="20162" type="Weapon" name="Lacerator - Event - 4 Hour Expiration Period">
+	<item id="20162" type="Weapon" name="貪婪刺劍-活動">
 		<set name="icon" val="icon.weapon_greed_stinger_i00" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="rapier" />
@@ -1785,7 +1785,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="20163" type="Weapon" name="Undertaker - Event - 4 Hour Expiration Period">
+	<item id="20163" type="Weapon" name="死神使者-活動">
 		<set name="icon" val="icon.weapon_death_bringer_i00" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="ancientsword" />
@@ -1817,7 +1817,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="20164" type="Weapon" name="Reaper - Event - 4 Hour Expiration Period">
+	<item id="20164" type="Weapon" name="靈魂弩-活動">
 		<set name="icon" val="icon.weapon_soul_shooter_i00" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="crossbow" />
@@ -1850,7 +1850,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="20165" type="Weapon" name="Forgotten Blade - Event - 4 Hour Expiration Period">
+	<item id="20165" type="Weapon" name="忘卻之刃-活動">
 		<set name="icon" val="icon.weapon_forgotten_blade_i00" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="sword" />
@@ -1879,7 +1879,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="20166" type="Weapon" name="Heaven's Divider - Event - 4 Hour Expiration Period">
+	<item id="20166" type="Weapon" name="天國審判-活動">
 		<set name="icon" val="icon.weapon_heavens_divider_i00" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="bigsword" />
@@ -1908,7 +1908,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="20167" type="Weapon" name="Angel Slayer - Event - 4 Hour Expiration Period">
+	<item id="20167" type="Weapon" name="天使殺手-活動">
 		<set name="icon" val="icon.weapon_angel_slayer_i00" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="dagger" />
@@ -1939,7 +1939,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="20168" type="Weapon" name="Basalt Battlehammer - Event - 4 Hour Expiration Period">
+	<item id="20168" type="Weapon" name="玄武岩戰鎚-活動">
 		<set name="icon" val="icon.weapon_basalt_battlehammer_i00" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="blunt" />
@@ -1970,7 +1970,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="20169" type="Weapon" name="Dragon Hunter Axe - Event - 4 Hour Expiration Period">
+	<item id="20169" type="Weapon" name="狩龍之斧-活動">
 		<set name="icon" val="icon.weapon_dragon_hunter_axe_i00" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="bigblunt" />
@@ -2001,7 +2001,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="20170" type="Weapon" name="Arcana Mace - Event - 4 Hour Expiration Period">
+	<item id="20170" type="Weapon" name="祕儀權杖-活動">
 		<set name="icon" val="icon.weapon_arcana_mace_i00" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="blunt" />
@@ -2032,7 +2032,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="20171" type="Weapon" name="Imperial Staff - Event - 4 Hour Expiration Period">
+	<item id="20171" type="Weapon" name="帝國權杖-活動">
 		<set name="icon" val="icon.weapon_imperial_staff_i00" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="bigblunt" />
@@ -2063,7 +2063,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="20172" type="Weapon" name="Demon Splinter - Event - 4 Hour Expiration Period">
+	<item id="20172" type="Weapon" name="惡魔獵爪-活動">
 		<set name="icon" val="icon.weapon_demon_splinter_i00" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="dualfist" />
@@ -2094,7 +2094,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="20173" type="Weapon" name="Draconic Bow - Event - 4 Hour Expiration Period">
+	<item id="20173" type="Weapon" name="紅龍之弓-活動">
 		<set name="icon" val="icon.weapon_draconic_bow_i00" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="bow" />
@@ -2127,7 +2127,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="20174" type="Weapon" name="Saint Spear - Event - 4 Hour Expiration Period">
+	<item id="20174" type="Weapon" name="聖者之矛-活動">
 		<set name="icon" val="icon.weapon_saint_spear_i00" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="pole" />
@@ -2158,7 +2158,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="20175" type="Weapon" name="Tallum Blade*Dark Legion - Event - 4 Hour Expiration Period">
+	<item id="20175" type="Weapon" name="塔魯刀*黑暗軍刀-活動">
 		<set name="icon" val="icon.weapon_dual_sword_i00" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="dual" />
@@ -2188,7 +2188,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="20176" type="Weapon" name="Laevateinn - Event - 4 Hour Expiration Period">
+	<item id="20176" type="Weapon" name="烈焚天-活動">
 		<set name="icon" val="icon.weapon_leavatein_i00" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="rapier" />
@@ -2221,7 +2221,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="20177" type="Weapon" name="Gram - Event - 4 Hour Expiration Period">
+	<item id="20177" type="Weapon" name="勝利之劍格蘭-活動">
 		<set name="icon" val="icon.weapon_gram_i00" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="ancientsword" />
@@ -2253,7 +2253,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="20178" type="Weapon" name="Sarnga - Event - 4 Hour Expiration Period">
+	<item id="20178" type="Weapon" name="薩倫伽神弩-活動">
 		<set name="icon" val="icon.weapon_sarnga_i00" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="crossbow" />
@@ -2286,7 +2286,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="20179" type="EtcItem" name="Extra Entrance Pass - Near Kamaloka 5 Sheet Pack">
+	<item id="20179" type="EtcItem" name="追加入場券-近緣欲界 5張/組">
 		<set name="icon" val="icon.etc_pi_gift_box_i00" />
 		<set name="default_action" val="peel" />
 		<set name="immediate_effect" val="1" />
@@ -2296,7 +2296,7 @@
 		<set name="is_premium" val="true" />
 		<set name="capsuled_items" val="20027,5,5,100" />
 	</item>
-	<item id="20180" type="EtcItem" name="Extra Entrance Pass - Near Kamaloka 10 Sheet Pack">
+	<item id="20180" type="EtcItem" name="追加入場券-近緣欲界 10張/組">
 		<set name="icon" val="icon.etc_pi_gift_box_i00" />
 		<set name="default_action" val="peel" />
 		<set name="immediate_effect" val="1" />
@@ -2306,7 +2306,7 @@
 		<set name="is_premium" val="true" />
 		<set name="capsuled_items" val="20027,10,10,100" />
 	</item>
-	<item id="20181" type="EtcItem" name="My Teleport Spellbook 5 Sheet Pack">
+	<item id="20181" type="EtcItem" name="自由傳送卷軸 5張/組">
 		<set name="icon" val="icon.etc_pi_gift_box_i00" />
 		<set name="default_action" val="peel" />
 		<set name="immediate_effect" val="1" />
@@ -2316,7 +2316,7 @@
 		<set name="is_premium" val="true" />
 		<set name="capsuled_items" val="20025,5,5,100" />
 	</item>
-	<item id="20182" type="EtcItem" name="My Teleport Spellbook 10 Sheet Pack">
+	<item id="20182" type="EtcItem" name="自由傳送卷軸 10張/組">
 		<set name="icon" val="icon.etc_pi_gift_box_i00" />
 		<set name="default_action" val="peel" />
 		<set name="immediate_effect" val="1" />
@@ -2326,7 +2326,7 @@
 		<set name="is_premium" val="true" />
 		<set name="capsuled_items" val="20025,10,10,100" />
 	</item>
-	<item id="20183" type="EtcItem" name="My Teleport Flag 5 Sheet Pack">
+	<item id="20183" type="EtcItem" name="自由傳送旗 5張/組">
 		<set name="icon" val="icon.etc_pi_gift_box_i00" />
 		<set name="default_action" val="peel" />
 		<set name="immediate_effect" val="1" />
@@ -2336,7 +2336,7 @@
 		<set name="is_premium" val="true" />
 		<set name="capsuled_items" val="20033,5,5,100" />
 	</item>
-	<item id="20184" type="EtcItem" name="My Teleport Flag 10 Sheet Pack">
+	<item id="20184" type="EtcItem" name="自由傳送旗 10張/組">
 		<set name="icon" val="icon.etc_pi_gift_box_i00" />
 		<set name="default_action" val="peel" />
 		<set name="immediate_effect" val="1" />
@@ -2346,7 +2346,7 @@
 		<set name="is_premium" val="true" />
 		<set name="capsuled_items" val="20033,10,10,100" />
 	</item>
-	<item id="20185" type="EtcItem" name="Extra Entrance Pass - Kamaloka (Hall of the Abyss) 5 Sheet Pack">
+	<item id="20185" type="EtcItem" name="追加入場券-欲界（深淵之廳） 5張/組">
 		<set name="icon" val="icon.etc_pi_gift_box_i00" />
 		<set name="default_action" val="peel" />
 		<set name="immediate_effect" val="1" />
@@ -2356,7 +2356,7 @@
 		<set name="is_premium" val="true" />
 		<set name="capsuled_items" val="20026,5,5,100" />
 	</item>
-	<item id="20186" type="EtcItem" name="Extra Entrance Pass - Kamaloka (Labyrinth of the Abyss) 5 Sheet Pack">
+	<item id="20186" type="EtcItem" name="追加入場券-欲界（深淵迷宮） 5張/組">
 		<set name="icon" val="icon.etc_pi_gift_box_i00" />
 		<set name="default_action" val="peel" />
 		<set name="immediate_effect" val="1" />
@@ -2366,7 +2366,7 @@
 		<set name="is_premium" val="true" />
 		<set name="capsuled_items" val="20028,5,5,100" />
 	</item>
-	<item id="20187" type="EtcItem" name="Extra Entrance Pass - Kamaloka (Hall of the Abyss) 10 Sheet Pack">
+	<item id="20187" type="EtcItem" name="追加入場券-欲界（深淵之廳） 10張/組">
 		<set name="icon" val="icon.etc_pi_gift_box_i00" />
 		<set name="default_action" val="peel" />
 		<set name="immediate_effect" val="1" />
@@ -2376,7 +2376,7 @@
 		<set name="is_premium" val="true" />
 		<set name="capsuled_items" val="20026,10,10,100" />
 	</item>
-	<item id="20188" type="EtcItem" name="Extra Entrance Pass - Kamaloka (Labyrinth of the Abyss) 10 Sheet Pack">
+	<item id="20188" type="EtcItem" name="追加入場券-欲界（深淵迷宮） 10張/組">
 		<set name="icon" val="icon.etc_pi_gift_box_i00" />
 		<set name="default_action" val="peel" />
 		<set name="immediate_effect" val="1" />
@@ -2386,7 +2386,7 @@
 		<set name="is_premium" val="true" />
 		<set name="capsuled_items" val="20028,10,10,100" />
 	</item>
-	<item id="20189" type="EtcItem" name="Premium Valentine Decoration Pack">
+	<item id="20189" type="EtcItem" name="情人節裝飾品組">
 		<set name="icon" val="BranchSys.icon.br_four_leaf_clover_box_i00" />
 		<set name="default_action" val="peel" />
 		<set name="immediate_effect" val="1" />
@@ -2400,7 +2400,7 @@
 		<set name="handler" val="ExtractableItems" />
 		<set name="capsuled_items" val="20190,1,1,100" />
 	</item>
-	<item id="20190" type="EtcItem" name="Premium Valentine Decoration - 15 Day Expiration Period">
+	<item id="20190" type="EtcItem" name="情人節裝飾品">
 		<set name="icon" val="BranchSys.icon.br_valentine_deco_i00" />
 		<set name="immediate_effect" val="1" />
 		<set name="material" val="paper" />
@@ -2411,7 +2411,7 @@
 		<set name="is_premium" val="true" />
 		<set name="time" val="21600" />
 	</item>
-	<item id="20191" type="EtcItem" name="Valentine Cake Recipe">
+	<item id="20191" type="EtcItem" name="情人節祕密咒語">
 		<set name="icon" val="BranchSys.icon.br_valentine_recipe_i00" />
 		<set name="default_action" val="recipe" />
 		<set name="etcitem_type" val="recipe" />
@@ -2425,25 +2425,25 @@
 		<set name="is_stackable" val="true" />
 		<set name="handler" val="Recipes" />
 	</item>
-	<item id="20192" type="EtcItem" name="Valentine Dark Chocolate">
+	<item id="20192" type="EtcItem" name="情人節黑巧克力">
 		<set name="icon" val="BranchSys.icon.br_valentine_darkchoco_i00" />
 		<set name="immediate_effect" val="1" />
 		<set name="material" val="paper" />
 		<set name="is_stackable" val="true" />
 	</item>
-	<item id="20193" type="EtcItem" name="Valentine White Chocolate">
+	<item id="20193" type="EtcItem" name="情人節白巧克力">
 		<set name="icon" val="BranchSys.icon.br_valentine_whitechoco_i00" />
 		<set name="immediate_effect" val="1" />
 		<set name="material" val="paper" />
 		<set name="is_stackable" val="true" />
 	</item>
-	<item id="20194" type="EtcItem" name="Valentine Fresh Cream">
+	<item id="20194" type="EtcItem" name="情人節鮮奶油">
 		<set name="icon" val="BranchSys.icon.br_valentine_cream_i00" />
 		<set name="immediate_effect" val="1" />
 		<set name="material" val="paper" />
 		<set name="is_stackable" val="true" />
 	</item>
-	<item id="20195" type="EtcItem" name="Simple Valentine Cake">
+	<item id="20195" type="EtcItem" name="平淡的情人節蛋糕">
 		<set name="icon" val="BranchSys.icon.br_valentine_cake_1_i00" />
 		<set name="default_action" val="capsule" />
 		<set name="immediate_effect" val="1" />
@@ -2453,7 +2453,7 @@
 		<set name="handler" val="ItemSkills" />
 		<set name="item_skill" val="22023-1" />
 	</item>
-	<item id="20196" type="EtcItem" name="Velvety Valentine Cake">
+	<item id="20196" type="EtcItem" name="普通的情人節蛋糕">
 		<set name="icon" val="BranchSys.icon.br_valentine_cake_2_i00" />
 		<set name="default_action" val="capsule" />
 		<set name="immediate_effect" val="1" />
@@ -2463,7 +2463,7 @@
 		<set name="handler" val="ItemSkills" />
 		<set name="item_skill" val="22024-1" />
 	</item>
-	<item id="20197" type="EtcItem" name="Delectable Valentine Cake">
+	<item id="20197" type="EtcItem" name="美味的情人節蛋糕">
 		<set name="icon" val="BranchSys.icon.br_valentine_cake_3_i00" />
 		<set name="default_action" val="capsule" />
 		<set name="immediate_effect" val="1" />
@@ -2473,7 +2473,7 @@
 		<set name="handler" val="ItemSkills" />
 		<set name="item_skill" val="22025-1" />
 	</item>
-	<item id="20198" type="EtcItem" name="Decadent Valentine Cake">
+	<item id="20198" type="EtcItem" name="完美的情人節蛋糕">
 		<set name="icon" val="BranchSys.icon.br_valentine_cake_4_i00" />
 		<set name="default_action" val="capsule" />
 		<set name="immediate_effect" val="1" />
@@ -2483,7 +2483,7 @@
 		<set name="handler" val="ItemSkills" />
 		<set name="item_skill" val="22026-1" />
 	</item>
-	<item id="20199" type="EtcItem" name="Heavenly Valentine Cake - 30 Day Expiration Period">
+	<item id="20199" type="EtcItem" name="夢幻的情人節蛋糕">
 		<set name="icon" val="BranchSys.icon.br_valentine_cake_5_i00" />
 		<set name="default_action" val="capsule" />
 		<set name="immediate_effect" val="1" />

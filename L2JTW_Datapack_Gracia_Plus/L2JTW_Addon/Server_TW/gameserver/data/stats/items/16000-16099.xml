@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <list>
-	<item id="16000" type="Weapon" name="Jade Claw {PvP} - Health">
+	<item id="16000" type="Weapon" name="傑特曼戰爪 {對戰用}">
 		<set name="icon" val="icon.weapon_jademice_claw_i01" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="dualfist" />
@@ -32,7 +32,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="16001" type="Weapon" name="Demitelum {PvP} - Haste">
+	<item id="16001" type="Weapon" name="幽魂掃蕩者 {對戰用}">
 		<set name="icon" val="icon.weapon_ghostcleaner_i01" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="pole" />
@@ -64,7 +64,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="16002" type="Weapon" name="Demitelum {PvP} - Health">
+	<item id="16002" type="Weapon" name="幽魂掃蕩者 {對戰用}">
 		<set name="icon" val="icon.weapon_ghostcleaner_i01" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="pole" />
@@ -96,7 +96,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="16003" type="Weapon" name="Demitelum {PvP} - Guidance">
+	<item id="16003" type="Weapon" name="幽魂掃蕩者 {對戰用}">
 		<set name="icon" val="icon.weapon_ghostcleaner_i01" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="pole" />
@@ -128,7 +128,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="16004" type="Weapon" name="Sacredium {PvP} - Mana Up">
+	<item id="16004" type="Weapon" name="神聖痕跡 {對戰用}">
 		<set name="icon" val="icon.weapon_sacredumors_i01" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="blunt" />
@@ -161,7 +161,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="16005" type="Weapon" name="Sacredium {PvP} - Acumen">
+	<item id="16005" type="Weapon" name="神聖痕跡 {對戰用}">
 		<set name="icon" val="icon.weapon_sacredumors_i01" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="blunt" />
@@ -194,7 +194,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="16006" type="Weapon" name="Sacredium {PvP} - MP Regeneration">
+	<item id="16006" type="Weapon" name="神聖痕跡 {對戰用}">
 		<set name="icon" val="icon.weapon_sacredumors_i01" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="blunt" />
@@ -227,7 +227,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="16007" type="Weapon" name="Cyclic Cane {PvP} - Magic Hold">
+	<item id="16007" type="Weapon" name="靈識權杖 {對戰用}">
 		<set name="icon" val="icon.weapon_psyskilt_cane_i01" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="bigblunt" />
@@ -262,7 +262,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="16008" type="Weapon" name="Cyclic Cane {PvP} - Empower">
+	<item id="16008" type="Weapon" name="靈識權杖 {對戰用}">
 		<set name="icon" val="icon.weapon_psyskilt_cane_i01" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="bigblunt" />
@@ -295,7 +295,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="16009" type="Weapon" name="Cyclic Cane {PvP} - MP Regeneration">
+	<item id="16009" type="Weapon" name="靈識權杖 {對戰用}">
 		<set name="icon" val="icon.weapon_psyskilt_cane_i01" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="bigblunt" />
@@ -328,7 +328,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="16010" type="Weapon" name="Archangel Sword {PvP} - Magic Hold">
+	<item id="16010" type="Weapon" name="天使長之劍 {對戰用}">
 		<set name="icon" val="icon.weapon_archangel_sword_i001" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="sword" />
@@ -361,7 +361,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="16011" type="Weapon" name="Archangel Sword {PvP} - Mana Up">
+	<item id="16011" type="Weapon" name="天使長之劍 {對戰用}">
 		<set name="icon" val="icon.weapon_archangel_sword_i001" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="sword" />
@@ -392,7 +392,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="16012" type="Weapon" name="Archangel Sword {PvP} - Acumen">
+	<item id="16012" type="Weapon" name="天使長之劍 {對戰用}">
 		<set name="icon" val="icon.weapon_archangel_sword_i001" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="sword" />
@@ -423,7 +423,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="16013" type="Weapon" name="Recurve Thorne Bow {PvP} - Crt. Slow">
+	<item id="16013" type="Weapon" name="曲刺靈弓 {對戰用}">
 		<set name="icon" val="icon.weapon_recurvethorne_bow_i01" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="bow" />
@@ -458,7 +458,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="16014" type="Weapon" name="Recurve Thorne Bow {PvP} - Cheap Shot">
+	<item id="16014" type="Weapon" name="曲刺靈弓 {對戰用}">
 		<set name="icon" val="icon.weapon_recurvethorne_bow_i01" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="bow" />
@@ -497,7 +497,7 @@
 			</set>
 		</for>
 	</item>
-	<item id="16015" type="Weapon" name="Recurve Thorne Bow {PvP} - Focus">
+	<item id="16015" type="Weapon" name="曲刺靈弓 {對戰用}">
 		<set name="icon" val="icon.weapon_recurvethorne_bow_i01" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="bow" />
@@ -531,7 +531,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="16016" type="Weapon" name="Heavenstare Rapier {PvP} - Focus">
+	<item id="16016" type="Weapon" name="天階細劍 {對戰用}">
 		<set name="icon" val="icon.weapon_heavenstair_rapier_i01" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="rapier" />
@@ -565,7 +565,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="16017" type="Weapon" name="Heavenstare Rapier {PvP} - Haste">
+	<item id="16017" type="Weapon" name="天階細劍 {對戰用}">
 		<set name="icon" val="icon.weapon_heavenstair_rapier_i01" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="rapier" />
@@ -599,7 +599,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="16018" type="Weapon" name="Heavenstare Rapier {PvP} - Health">
+	<item id="16018" type="Weapon" name="天階細劍 {對戰用}">
 		<set name="icon" val="icon.weapon_heavenstair_rapier_i01" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="rapier" />
@@ -633,7 +633,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="16019" type="Weapon" name="Pyseal Blade {PvP} - Focus">
+	<item id="16019" type="Weapon" name="賽席爾巨刃 {對戰用}">
 		<set name="icon" val="icon.weapon_pyseal_blade_i01" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="ancientsword" />
@@ -666,7 +666,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="16020" type="Weapon" name="Pyseal Blade {PvP} - Haste">
+	<item id="16020" type="Weapon" name="賽席爾巨刃 {對戰用}">
 		<set name="icon" val="icon.weapon_pyseal_blade_i01" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="ancientsword" />
@@ -699,7 +699,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="16021" type="Weapon" name="Pyseal Blade {PvP} - Health">
+	<item id="16021" type="Weapon" name="賽席爾巨刃 {對戰用}">
 		<set name="icon" val="icon.weapon_pyseal_blade_i01" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="ancientsword" />
@@ -732,7 +732,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="16022" type="Weapon" name="Thorne Crossbow {PvP} - Crt. Slow">
+	<item id="16022" type="Weapon" name="聖威十字弓 {對戰用}">
 		<set name="icon" val="icon.weapon_thorne_crossbow_i01" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="crossbow" />
@@ -767,7 +767,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="16023" type="Weapon" name="Thorne Crossbow {PvP} - Cheap Shot">
+	<item id="16023" type="Weapon" name="聖威十字弓 {對戰用}">
 		<set name="icon" val="icon.weapon_thorne_crossbow_i01" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="crossbow" />
@@ -806,7 +806,7 @@
 			</set>
 		</for>
 	</item>
-	<item id="16024" type="Weapon" name="Thorne Crossbow {PvP} - Focus">
+	<item id="16024" type="Weapon" name="聖威十字弓 {對戰用}">
 		<set name="icon" val="icon.weapon_thorne_crossbow_i01" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="crossbow" />
@@ -840,7 +840,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="16025" type="Armor" name="Freya Necklace">
+	<item id="16025" type="Armor" name="芙蕾雅項鍊">
 		<set name="icon" val="icon.accessary_queen_of_ice_necklace_i00" />
 		<set name="default_action" val="equip" />
 		<set name="bodypart" val="neck" />
@@ -858,7 +858,7 @@
 			<enchant order="0x0C" stat="mDef" val="0" />
 		</for>
 	</item>
-	<item id="16026" type="Armor" name="Blessed Freya Necklace">
+	<item id="16026" type="Armor" name="祝福的芙蕾雅項鍊">
 		<set name="icon" val="icon.accessary_queen_of_ice_necklace_i00" />
 		<set name="default_action" val="equip" />
 		<set name="bodypart" val="neck" />
@@ -876,7 +876,7 @@
 			<enchant order="0x0C" stat="mDef" val="0" />
 		</for>
 	</item>
-	<item id="16027" type="EtcItem" name="Bottle of Freya's Soul">
+	<item id="16027" type="EtcItem" name="裝有芙蕾雅靈魂之瓶">
 		<set name="icon" val="icon.etc_recovery_set_i00" />
 		<set name="etcitem_type" val="material" />
 		<set name="immediate_effect" val="1" />
@@ -886,7 +886,7 @@
 		<set name="is_depositable" val="false" />
 		<set name="is_stackable" val="true" />
 	</item>
-	<item id="16028" type="EtcItem" name="Vesper Cutter of Chaos">
+	<item id="16028" type="EtcItem" name="渾沌的薄暮切刃">
 		<set name="icon" val="icon.weapon_vesper_cutter_i00" />
 		<set name="weapon_type" val="ancientsword" />
 		<set name="random_damage" val="15" />
@@ -907,7 +907,7 @@
 			<set order="0x08" stat="pAtkSpd" val="350" />
 		</for>
 	</item>
-	<item id="16029" type="EtcItem" name="Vesper Slasher of Chaos">
+	<item id="16029" type="EtcItem" name="渾沌的薄暮殺刃">
 		<set name="icon" val="icon.weapon_vesper_slasher_i00" />
 		<set name="weapon_type" val="ancientsword" />
 		<set name="random_damage" val="15" />
@@ -928,7 +928,7 @@
 			<set order="0x08" stat="pAtkSpd" val="350" />
 		</for>
 	</item>
-	<item id="16030" type="EtcItem" name="Vesper Buster of Chaos">
+	<item id="16030" type="EtcItem" name="渾沌的薄暮爆刃">
 		<set name="icon" val="icon.weapon_vesper_burster_i00" />
 		<set name="weapon_type" val="ancientsword" />
 		<set name="random_damage" val="15" />
@@ -949,7 +949,7 @@
 			<set order="0x08" stat="pAtkSpd" val="350" />
 		</for>
 	</item>
-	<item id="16031" type="EtcItem" name="Vesper Shaper of Chaos">
+	<item id="16031" type="EtcItem" name="渾沌的薄暮鉋刀">
 		<set name="icon" val="icon.weapon_vesper_shaper_i00" />
 		<set name="weapon_type" val="ancientsword" />
 		<set name="random_damage" val="15" />
@@ -970,7 +970,7 @@
 			<set order="0x08" stat="pAtkSpd" val="350" />
 		</for>
 	</item>
-	<item id="16032" type="EtcItem" name="Vesper Fighter of Chaos">
+	<item id="16032" type="EtcItem" name="渾沌的薄暮戰爪">
 		<set name="icon" val="icon.weapon_vesper_fighter_i00" />
 		<set name="weapon_type" val="ancientsword" />
 		<set name="random_damage" val="15" />
@@ -991,7 +991,7 @@
 			<set order="0x08" stat="pAtkSpd" val="350" />
 		</for>
 	</item>
-	<item id="16033" type="EtcItem" name="Vesper Stormer of Chaos">
+	<item id="16033" type="EtcItem" name="渾沌的薄暮風暴者">
 		<set name="icon" val="icon.weapon_vesper_stormer_i00" />
 		<set name="weapon_type" val="ancientsword" />
 		<set name="random_damage" val="15" />
@@ -1012,7 +1012,7 @@
 			<set order="0x08" stat="pAtkSpd" val="350" />
 		</for>
 	</item>
-	<item id="16034" type="EtcItem" name="Vesper Avenger of Chaos">
+	<item id="16034" type="EtcItem" name="渾沌的薄暮復仇者">
 		<set name="icon" val="icon.weapon_vesper_avenger_i00" />
 		<set name="weapon_type" val="ancientsword" />
 		<set name="random_damage" val="15" />
@@ -1033,7 +1033,7 @@
 			<set order="0x08" stat="pAtkSpd" val="350" />
 		</for>
 	</item>
-	<item id="16035" type="EtcItem" name="Vesper Retributer of Chaos">
+	<item id="16035" type="EtcItem" name="渾沌的薄暮報恨者">
 		<set name="icon" val="icon.weapon_vesper_retributer_i00" />
 		<set name="weapon_type" val="ancientsword" />
 		<set name="random_damage" val="15" />
@@ -1054,7 +1054,7 @@
 			<set order="0x08" stat="pAtkSpd" val="350" />
 		</for>
 	</item>
-	<item id="16036" type="EtcItem" name="Vesper Caster of Chaos">
+	<item id="16036" type="EtcItem" name="渾沌的薄暮術杖">
 		<set name="icon" val="icon.weapon_vesper_caster_i00" />
 		<set name="weapon_type" val="ancientsword" />
 		<set name="random_damage" val="15" />
@@ -1075,7 +1075,7 @@
 			<set order="0x08" stat="pAtkSpd" val="350" />
 		</for>
 	</item>
-	<item id="16037" type="EtcItem" name="Vesper Singer of Chaos">
+	<item id="16037" type="EtcItem" name="渾沌的薄暮詩杖">
 		<set name="icon" val="icon.weapon_vesper_singer_i00" />
 		<set name="weapon_type" val="ancientsword" />
 		<set name="random_damage" val="15" />
@@ -1096,7 +1096,7 @@
 			<set order="0x08" stat="pAtkSpd" val="350" />
 		</for>
 	</item>
-	<item id="16038" type="EtcItem" name="Vesper Thrower of Chaos">
+	<item id="16038" type="EtcItem" name="渾沌的薄暮投弓">
 		<set name="icon" val="icon.weapon_vesper_thrower_i00" />
 		<set name="weapon_type" val="ancientsword" />
 		<set name="random_damage" val="15" />
@@ -1117,7 +1117,7 @@
 			<set order="0x08" stat="pAtkSpd" val="350" />
 		</for>
 	</item>
-	<item id="16039" type="EtcItem" name="Vesper Pincer of Chaos">
+	<item id="16039" type="EtcItem" name="渾沌的薄暮螯針">
 		<set name="icon" val="icon.weapon_vesper_pincer_i00" />
 		<set name="weapon_type" val="ancientsword" />
 		<set name="random_damage" val="15" />
@@ -1138,7 +1138,7 @@
 			<set order="0x08" stat="pAtkSpd" val="350" />
 		</for>
 	</item>
-	<item id="16040" type="EtcItem" name="Vesper Schutze of Chaos">
+	<item id="16040" type="EtcItem" name="渾沌的薄暮射靈">
 		<set name="icon" val="icon.weapon_vesper_schutze_i00" />
 		<set name="weapon_type" val="ancientsword" />
 		<set name="random_damage" val="15" />
@@ -1159,7 +1159,7 @@
 			<set order="0x08" stat="pAtkSpd" val="350" />
 		</for>
 	</item>
-	<item id="16041" type="EtcItem" name="Vesper Nagan of Chaos">
+	<item id="16041" type="EtcItem" name="渾沌的薄暮槍刃">
 		<set name="icon" val="icon.weapon_vesper_nagen_i00" />
 		<set name="weapon_type" val="ancientsword" />
 		<set name="random_damage" val="15" />
@@ -1180,7 +1180,7 @@
 			<set order="0x08" stat="pAtkSpd" val="350" />
 		</for>
 	</item>
-	<item id="16042" type="Weapon" name="Vesper Cutter - Thunder">
+	<item id="16042" type="Weapon" name="薄暮切刃-雷鳴">
 		<set name="icon" val="icon.weapon_vesper_cutter_i00" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="sword" />
@@ -1209,7 +1209,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="16043" type="Weapon" name="Vesper Slasher - Gale">
+	<item id="16043" type="Weapon" name="薄暮殺刃-疾風">
 		<set name="icon" val="icon.weapon_vesper_slasher_i00" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="bigsword" />
@@ -1238,7 +1238,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="16044" type="Weapon" name="Vesper Buster - Cleverness">
+	<item id="16044" type="Weapon" name="薄暮爆刃-聰明">
 		<set name="icon" val="icon.weapon_vesper_burster_i00" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="sword" />
@@ -1267,7 +1267,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="16045" type="Weapon" name="Vesper Shaper - Gale">
+	<item id="16045" type="Weapon" name="薄暮鉋刀-疾風">
 		<set name="icon" val="icon.weapon_vesper_shaper_i00" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="dagger" />
@@ -1297,7 +1297,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="16046" type="Weapon" name="Vesper Fighter - Gale">
+	<item id="16046" type="Weapon" name="薄暮戰爪-疾風">
 		<set name="icon" val="icon.weapon_vesper_fighter_i00" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="dualfist" />
@@ -1327,7 +1327,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="16047" type="Weapon" name="Vesper Stormer - Thunder">
+	<item id="16047" type="Weapon" name="薄暮風暴者-雷鳴">
 		<set name="icon" val="icon.weapon_vesper_stormer_i00" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="pole" />
@@ -1357,7 +1357,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="16048" type="Weapon" name="Vesper Avenger - Landslide">
+	<item id="16048" type="Weapon" name="薄暮復仇者-山崩">
 		<set name="icon" val="icon.weapon_vesper_avenger_i00" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="blunt" />
@@ -1387,7 +1387,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="16049" type="Weapon" name="Vesper Retributer - Gale">
+	<item id="16049" type="Weapon" name="薄暮報恨者-疾風">
 		<set name="icon" val="icon.weapon_vesper_retributer_i00" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="bigblunt" />
@@ -1417,7 +1417,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="16050" type="Weapon" name="Vesper Caster - Cleverness">
+	<item id="16050" type="Weapon" name="薄暮術杖-聰明">
 		<set name="icon" val="icon.weapon_vesper_caster_i00" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="blunt" />
@@ -1448,7 +1448,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="16051" type="Weapon" name="Vesper Singer - Tidal Wave">
+	<item id="16051" type="Weapon" name="薄暮詩杖-海嘯">
 		<set name="icon" val="icon.weapon_vesper_singer_i00" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="bigblunt" />
@@ -1479,7 +1479,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="16052" type="Weapon" name="Vesper Thrower - Clairvoyance">
+	<item id="16052" type="Weapon" name="薄暮投弓-千里眼">
 		<set name="icon" val="icon.weapon_vesper_thrower_i00" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="bow" />
@@ -1512,7 +1512,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="16053" type="Weapon" name="Vesper Pincer - Thunder">
+	<item id="16053" type="Weapon" name="薄暮螯針-雷鳴">
 		<set name="icon" val="icon.weapon_vesper_pincer_i00" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="rapier" />
@@ -1545,7 +1545,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="16054" type="Weapon" name="Vesper Schutze - Clairvoyance">
+	<item id="16054" type="Weapon" name="薄暮射靈-千里眼">
 		<set name="icon" val="icon.weapon_vesper_schutze_i00" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="crossbow" />
@@ -1578,7 +1578,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="16055" type="Weapon" name="Vesper Nagan - Gale">
+	<item id="16055" type="Weapon" name="薄暮槍刃-疾風">
 		<set name="icon" val="icon.weapon_vesper_nagen_i00" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="ancientsword" />
@@ -1610,7 +1610,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="16056" type="Weapon" name="Vesper Cutter - Thunder - Haste">
+	<item id="16056" type="Weapon" name="薄暮切刃-雷鳴">
 		<set name="icon" val="icon.weapon_vesper_cutter_i01" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="sword" />
@@ -1639,7 +1639,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="16057" type="Weapon" name="Vesper Cutter - Thunder - Health">
+	<item id="16057" type="Weapon" name="薄暮切刃-雷鳴">
 		<set name="icon" val="icon.weapon_vesper_cutter_i01" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="sword" />
@@ -1668,7 +1668,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="16058" type="Weapon" name="Vesper Cutter - Thunder - Focus">
+	<item id="16058" type="Weapon" name="薄暮切刃-雷鳴">
 		<set name="icon" val="icon.weapon_vesper_cutter_i01" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="sword" />
@@ -1697,7 +1697,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="16059" type="Weapon" name="Vesper Slasher - Gale - Haste">
+	<item id="16059" type="Weapon" name="薄暮殺刃-疾風">
 		<set name="icon" val="icon.weapon_vesper_slasher_i01" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="bigsword" />
@@ -1726,7 +1726,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="16060" type="Weapon" name="Vesper Slasher - Gale - Health">
+	<item id="16060" type="Weapon" name="薄暮殺刃-疾風">
 		<set name="icon" val="icon.weapon_vesper_slasher_i01" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="bigsword" />
@@ -1755,7 +1755,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="16061" type="Weapon" name="Vesper Slasher - Gale - Focus">
+	<item id="16061" type="Weapon" name="薄暮殺刃-疾風">
 		<set name="icon" val="icon.weapon_vesper_slasher_i01" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="bigsword" />
@@ -1784,7 +1784,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="16062" type="Weapon" name="Vesper Buster - Cleverness - Mana Up">
+	<item id="16062" type="Weapon" name="薄暮爆刃-聰明">
 		<set name="icon" val="icon.weapon_vesper_burster_i01" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="sword" />
@@ -1813,7 +1813,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="16063" type="Weapon" name="Vesper Buster - Cleverness - Acumen">
+	<item id="16063" type="Weapon" name="薄暮爆刃-聰明">
 		<set name="icon" val="icon.weapon_vesper_burster_i01" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="sword" />
@@ -1842,7 +1842,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="16064" type="Weapon" name="Vesper Buster - Cleverness - Magic Hold">
+	<item id="16064" type="Weapon" name="薄暮爆刃-聰明">
 		<set name="icon" val="icon.weapon_vesper_burster_i01" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="sword" />
@@ -1873,7 +1873,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="16065" type="Weapon" name="Vesper Shaper - Gale - Crt. Damage">
+	<item id="16065" type="Weapon" name="薄暮鉋刀-疾風">
 		<set name="icon" val="icon.weapon_vesper_shaper_i01" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="dagger" />
@@ -1903,7 +1903,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="16066" type="Weapon" name="Vesper Shaper - Gale - HP Drain">
+	<item id="16066" type="Weapon" name="薄暮鉋刀-疾風">
 		<set name="icon" val="icon.weapon_vesper_shaper_i01" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="dagger" />
@@ -1933,7 +1933,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="16067" type="Weapon" name="Vesper Shaper - Gale - Haste">
+	<item id="16067" type="Weapon" name="薄暮鉋刀-疾風">
 		<set name="icon" val="icon.weapon_vesper_shaper_i01" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="dagger" />
@@ -1963,7 +1963,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="16068" type="Weapon" name="Vesper Fighter - Gale - Focus">
+	<item id="16068" type="Weapon" name="薄暮戰爪-疾風">
 		<set name="icon" val="icon.weapon_vesper_fighter_i01" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="dualfist" />
@@ -1993,7 +1993,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="16069" type="Weapon" name="Vesper Fighter - Gale - Health">
+	<item id="16069" type="Weapon" name="薄暮戰爪-疾風">
 		<set name="icon" val="icon.weapon_vesper_fighter_i01" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="dualfist" />
@@ -2023,7 +2023,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="16070" type="Weapon" name="Vesper Fighter - Gale - Crt. Stun">
+	<item id="16070" type="Weapon" name="薄暮戰爪-疾風">
 		<set name="icon" val="icon.weapon_vesper_fighter_i01" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="dualfist" />
@@ -2055,7 +2055,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="16071" type="Weapon" name="Vesper Stormer - Thunder - Health">
+	<item id="16071" type="Weapon" name="薄暮風暴者-雷鳴">
 		<set name="icon" val="icon.weapon_vesper_stormer_i01" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="pole" />
@@ -2085,7 +2085,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="16072" type="Weapon" name="Vesper Stormer - Thunder - Guidance">
+	<item id="16072" type="Weapon" name="薄暮風暴者-雷鳴">
 		<set name="icon" val="icon.weapon_vesper_stormer_i01" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="pole" />
@@ -2115,7 +2115,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="16073" type="Weapon" name="Vesper Stormer - Thunder - Haste">
+	<item id="16073" type="Weapon" name="薄暮風暴者-雷鳴">
 		<set name="icon" val="icon.weapon_vesper_stormer_i01" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="pole" />
@@ -2145,7 +2145,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="16074" type="Weapon" name="Vesper Avenger - Landslide - HP Drain">
+	<item id="16074" type="Weapon" name="薄暮復仇者-山崩">
 		<set name="icon" val="icon.weapon_vesper_avenger_i01" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="blunt" />
@@ -2175,7 +2175,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="16075" type="Weapon" name="Vesper Avenger - Landslide - Health">
+	<item id="16075" type="Weapon" name="薄暮復仇者-山崩">
 		<set name="icon" val="icon.weapon_vesper_avenger_i01" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="blunt" />
@@ -2205,7 +2205,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="16076" type="Weapon" name="Vesper Avenger - Landslide - HP Regeneration">
+	<item id="16076" type="Weapon" name="薄暮復仇者-山崩">
 		<set name="icon" val="icon.weapon_vesper_avenger_i01" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="blunt" />
@@ -2235,7 +2235,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="16077" type="Weapon" name="Vesper Retributer - Gale - HP Regeneration">
+	<item id="16077" type="Weapon" name="薄暮報恨者-疾風">
 		<set name="icon" val="icon.weapon_vesper_retributer_i01" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="bigblunt" />
@@ -2265,7 +2265,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="16078" type="Weapon" name="Vesper Retributer - Gale - Health">
+	<item id="16078" type="Weapon" name="薄暮報恨者-疾風">
 		<set name="icon" val="icon.weapon_vesper_retributer_i01" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="bigblunt" />
@@ -2295,7 +2295,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="16079" type="Weapon" name="Vesper Retributer - Gale - HP Drain">
+	<item id="16079" type="Weapon" name="薄暮報恨者-疾風">
 		<set name="icon" val="icon.weapon_vesper_retributer_i01" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="bigblunt" />
@@ -2325,7 +2325,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="16080" type="Weapon" name="Vesper Caster - Cleverness - Acumen">
+	<item id="16080" type="Weapon" name="薄暮術杖-聰明">
 		<set name="icon" val="icon.weapon_vesper_caster_i01" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="blunt" />
@@ -2356,7 +2356,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="16081" type="Weapon" name="Vesper Caster - Cleverness - MP Regeneration">
+	<item id="16081" type="Weapon" name="薄暮術杖-聰明">
 		<set name="icon" val="icon.weapon_vesper_caster_i01" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="blunt" />
@@ -2387,7 +2387,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="16082" type="Weapon" name="Vesper Caster - Cleverness - Mana Up">
+	<item id="16082" type="Weapon" name="薄暮術杖-聰明">
 		<set name="icon" val="icon.weapon_vesper_caster_i01" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="blunt" />
@@ -2418,7 +2418,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="16083" type="Weapon" name="Vesper Singer - Tidal Wave - Empower">
+	<item id="16083" type="Weapon" name="薄暮詩杖-海嘯">
 		<set name="icon" val="icon.weapon_vesper_singer_i01" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="bigblunt" />
@@ -2449,7 +2449,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="16084" type="Weapon" name="Vesper Singer - Tidal Wave - MP Regeneration">
+	<item id="16084" type="Weapon" name="薄暮詩杖-海嘯">
 		<set name="icon" val="icon.weapon_vesper_singer_i01" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="bigblunt" />
@@ -2480,7 +2480,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="16085" type="Weapon" name="Vesper Singer - Tidal Wave - Magic Hold">
+	<item id="16085" type="Weapon" name="薄暮詩杖-海嘯">
 		<set name="icon" val="icon.weapon_vesper_singer_i01" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="bigblunt" />
@@ -2513,7 +2513,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="16086" type="Weapon" name="Vesper Thrower - Clairvoyance - Cheap Shot">
+	<item id="16086" type="Weapon" name="薄暮投弓-千里眼">
 		<set name="icon" val="icon.weapon_vesper_thrower_i01" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="bow" />
@@ -2551,7 +2551,7 @@
 			</set>
 		</for>
 	</item>
-	<item id="16087" type="Weapon" name="Vesper Thrower - Clairvoyance - Focus">
+	<item id="16087" type="Weapon" name="薄暮投弓-千里眼">
 		<set name="icon" val="icon.weapon_vesper_thrower_i01" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="bow" />
@@ -2584,7 +2584,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="16088" type="Weapon" name="Vesper Thrower - Clairvoyance - Crt. Slow">
+	<item id="16088" type="Weapon" name="薄暮投弓-千里眼">
 		<set name="icon" val="icon.weapon_vesper_thrower_i01" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="bow" />
@@ -2619,7 +2619,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="16089" type="Weapon" name="Vesper Pincer - Thunder - Haste">
+	<item id="16089" type="Weapon" name="薄暮螯針-雷鳴">
 		<set name="icon" val="icon.weapon_vesper_pincer_i01" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="rapier" />
@@ -2652,7 +2652,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="16090" type="Weapon" name="Vesper Pincer - Thunder - Health">
+	<item id="16090" type="Weapon" name="薄暮螯針-雷鳴">
 		<set name="icon" val="icon.weapon_vesper_pincer_i01" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="rapier" />
@@ -2685,7 +2685,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="16091" type="Weapon" name="Vesper Pincer - Thunder - Focus">
+	<item id="16091" type="Weapon" name="薄暮螯針-雷鳴">
 		<set name="icon" val="icon.weapon_vesper_pincer_i01" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="rapier" />
@@ -2718,7 +2718,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="16092" type="Weapon" name="Vesper Schutze - Clairvoyance - Cheap Shot">
+	<item id="16092" type="Weapon" name="薄暮射靈-千里眼">
 		<set name="icon" val="icon.weapon_vesper_schutze_i01" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="crossbow" />
@@ -2756,7 +2756,7 @@
 			</set>
 		</for>
 	</item>
-	<item id="16093" type="Weapon" name="Vesper Schutze - Clairvoyance - Focus">
+	<item id="16093" type="Weapon" name="薄暮射靈-千里眼">
 		<set name="icon" val="icon.weapon_vesper_schutze_i01" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="crossbow" />
@@ -2789,7 +2789,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="16094" type="Weapon" name="Vesper Schutze - Clairvoyance - Crt. Slow">
+	<item id="16094" type="Weapon" name="薄暮射靈-千里眼">
 		<set name="icon" val="icon.weapon_vesper_schutze_i01" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="crossbow" />
@@ -2824,7 +2824,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="16095" type="Weapon" name="Vesper Nagan - Gale - Haste">
+	<item id="16095" type="Weapon" name="薄暮槍刃-疾風">
 		<set name="icon" val="icon.weapon_vesper_nagen_i01" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="ancientsword" />
@@ -2856,7 +2856,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="16096" type="Weapon" name="Vesper Nagan - Gale - Health">
+	<item id="16096" type="Weapon" name="薄暮槍刃-疾風">
 		<set name="icon" val="icon.weapon_vesper_nagen_i01" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="ancientsword" />
@@ -2888,7 +2888,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="16097" type="Weapon" name="Vesper Nagan - Gale - Focus">
+	<item id="16097" type="Weapon" name="薄暮槍刃-疾風">
 		<set name="icon" val="icon.weapon_vesper_nagen_i01" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="ancientsword" />
@@ -2920,7 +2920,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="16098" type="Armor" name="Refined Black Skeleton Circlet">
+	<item id="16098" type="Armor" name="時髦黑色骷髏頭箍">
 		<set name="icon" val="icon.accessory_animal_skeleton_circlet_i00" />
 		<set name="default_action" val="equip" />
 		<set name="bodypart" val="hairall" />
@@ -2929,7 +2929,7 @@
 		<set name="weight" val="10" />
 		<set name="price" val="6000000" />
 	</item>
-	<item id="16099" type="Armor" name="Refined Orange Skeleton Circlet">
+	<item id="16099" type="Armor" name="時髦橙色骷髏頭箍">
 		<set name="icon" val="icon.accessory_animal_feather_skeleton_circlet_i00" />
 		<set name="default_action" val="equip" />
 		<set name="bodypart" val="hairall" />

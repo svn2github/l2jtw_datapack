@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <list>
-	<item id="16300" type="Armor" name="Moirai Gloves">
+	<item id="16300" type="Armor" name="天命手套">
 		<set name="icon" val="icon.armor_t102_g_i00" />
 		<set name="default_action" val="equip" />
 		<set name="bodypart" val="gloves" />
@@ -19,7 +19,7 @@
 			<enchant order="0x0C" stat="pDef" val="0" />
 		</for>
 	</item>
-	<item id="16301" type="Armor" name="Moirai Boots">
+	<item id="16301" type="Armor" name="天命靴">
 		<set name="icon" val="icon.armor_t100_b_i00" />
 		<set name="default_action" val="equip" />
 		<set name="bodypart" val="feet" />
@@ -38,7 +38,7 @@
 			<enchant order="0x0C" stat="pDef" val="0" />
 		</for>
 	</item>
-	<item id="16302" type="Armor" name="Moirai Leather Boots">
+	<item id="16302" type="Armor" name="天命皮靴">
 		<set name="icon" val="icon.armor_t101_b_i00" />
 		<set name="default_action" val="equip" />
 		<set name="bodypart" val="feet" />
@@ -56,7 +56,7 @@
 			<enchant order="0x0C" stat="pDef" val="0" />
 		</for>
 	</item>
-	<item id="16303" type="Armor" name="Moirai Shoes">
+	<item id="16303" type="Armor" name="天命鞋">
 		<set name="icon" val="icon.armor_t102_b_i00" />
 		<set name="default_action" val="equip" />
 		<set name="bodypart" val="feet" />
@@ -75,7 +75,7 @@
 			<enchant order="0x0C" stat="pDef" val="0" />
 		</for>
 	</item>
-	<item id="16304" type="Armor" name="Moirai Shield">
+	<item id="16304" type="Armor" name="天命盾">
 		<set name="icon" val="icon.weapon_tysandy_shield_i01" />
 		<set name="default_action" val="equip" />
 		<set name="bodypart" val="lhand" />
@@ -97,7 +97,7 @@
 			<enchant val="0" order="0x0C" stat="sDef" />
 		</for>
 	</item>
-	<item id="16305" type="Armor" name="Moirai Sigil">
+	<item id="16305" type="Armor" name="天命符印">
 		<set name="icon" val="icon.weapon_tysandy_sigil_i01" />
 		<set name="default_action" val="equip" />
 		<set name="armor_type" val="sigil" />
@@ -124,7 +124,7 @@
 			</not>
 		</cond>
 	</item>
-	<item id="16306" type="Armor" name="Vesper Helmet">
+	<item id="16306" type="Armor" name="薄暮頭盔">
 		<set name="icon" val="icon.armor_helmet_i00" />
 		<set name="default_action" val="equip" />
 		<set name="bodypart" val="head" />
@@ -143,7 +143,7 @@
 			<enchant order="0x0C" stat="pDef" val="0" />
 		</for>
 	</item>
-	<item id="16307" type="Armor" name="Vesper Leather Helmet">
+	<item id="16307" type="Armor" name="薄暮皮頭盔">
 		<set name="icon" val="icon.armor_leather_helmet_i00" />
 		<set name="default_action" val="equip" />
 		<set name="bodypart" val="head" />
@@ -161,7 +161,7 @@
 			<enchant order="0x0C" stat="pDef" val="0" />
 		</for>
 	</item>
-	<item id="16308" type="Armor" name="Vesper Circlet">
+	<item id="16308" type="Armor" name="薄暮頭箍">
 		<set name="icon" val="icon.armor_circlet_i00" />
 		<set name="default_action" val="equip" />
 		<set name="bodypart" val="head" />
@@ -180,7 +180,7 @@
 			<enchant order="0x0C" stat="pDef" val="0" />
 		</for>
 	</item>
-	<item id="16309" type="Armor" name="Vesper Breastplate">
+	<item id="16309" type="Armor" name="薄暮胸甲">
 		<set name="icon" val="icon.armor_t94_u_i00" />
 		<set name="default_action" val="equip" />
 		<set name="armor_type" val="heavy" />
@@ -200,7 +200,7 @@
 			<enchant order="0x0C" stat="pDef" val="0" />
 		</for>
 	</item>
-	<item id="16310" type="Armor" name="Vesper Leather Breastplate">
+	<item id="16310" type="Armor" name="薄暮皮胸甲">
 		<set name="icon" val="icon.armor_t95_u_i00" />
 		<set name="default_action" val="equip" />
 		<set name="armor_type" val="light" />
@@ -219,7 +219,7 @@
 			<enchant order="0x0C" stat="pDef" val="0" />
 		</for>
 	</item>
-	<item id="16311" type="Armor" name="Vesper Tunic">
+	<item id="16311" type="Armor" name="薄暮外衣">
 		<set name="icon" val="icon.armor_t96_u_i00" />
 		<set name="default_action" val="equip" />
 		<set name="armor_type" val="magic" />
@@ -240,7 +240,7 @@
 			<enchant order="0x0C" stat="pDef" val="0" />
 		</for>
 	</item>
-	<item id="16312" type="Armor" name="Vesper Gaiter">
+	<item id="16312" type="Armor" name="薄暮脛甲">
 		<set name="icon" val="icon.armor_t94_l_i00" />
 		<set name="default_action" val="equip" />
 		<set name="armor_type" val="heavy" />
@@ -260,7 +260,7 @@
 			<enchant order="0x0C" stat="pDef" val="0" />
 		</for>
 	</item>
-	<item id="16313" type="Armor" name="Vesper Leather Legging">
+	<item id="16313" type="Armor" name="薄暮皮脛甲">
 		<set name="icon" val="icon.armor_t95_l_i00" />
 		<set name="default_action" val="equip" />
 		<set name="armor_type" val="light" />
@@ -279,7 +279,7 @@
 			<enchant order="0x0C" stat="pDef" val="0" />
 		</for>
 	</item>
-	<item id="16314" type="Armor" name="Vesper Stockings">
+	<item id="16314" type="Armor" name="薄暮長襪">
 		<set name="icon" val="icon.armor_t96_l_i00" />
 		<set name="default_action" val="equip" />
 		<set name="armor_type" val="magic" />
@@ -300,7 +300,7 @@
 			<enchant order="0x0C" stat="pDef" val="0" />
 		</for>
 	</item>
-	<item id="16315" type="Armor" name="Vesper Gauntlet">
+	<item id="16315" type="Armor" name="薄暮護手">
 		<set name="icon" val="icon.armor_t94_g_i00" />
 		<set name="default_action" val="equip" />
 		<set name="bodypart" val="gloves" />
@@ -319,7 +319,7 @@
 			<enchant order="0x0C" stat="pDef" val="0" />
 		</for>
 	</item>
-	<item id="16316" type="Armor" name="Vesper Leather Gloves">
+	<item id="16316" type="Armor" name="薄暮皮手套">
 		<set name="icon" val="icon.armor_t95_g_i00" />
 		<set name="default_action" val="equip" />
 		<set name="bodypart" val="gloves" />
@@ -337,7 +337,7 @@
 			<enchant order="0x0C" stat="pDef" val="0" />
 		</for>
 	</item>
-	<item id="16317" type="Armor" name="Vesper Gloves">
+	<item id="16317" type="Armor" name="薄暮手套">
 		<set name="icon" val="icon.armor_t96_g_i00" />
 		<set name="default_action" val="equip" />
 		<set name="bodypart" val="gloves" />
@@ -356,7 +356,7 @@
 			<enchant order="0x0C" stat="pDef" val="0" />
 		</for>
 	</item>
-	<item id="16318" type="Armor" name="Vesper Boots">
+	<item id="16318" type="Armor" name="薄暮靴">
 		<set name="icon" val="icon.armor_t94_b_i00" />
 		<set name="default_action" val="equip" />
 		<set name="bodypart" val="feet" />
@@ -375,7 +375,7 @@
 			<enchant order="0x0C" stat="pDef" val="0" />
 		</for>
 	</item>
-	<item id="16319" type="Armor" name="Vesper Leather Boots">
+	<item id="16319" type="Armor" name="薄暮皮靴">
 		<set name="icon" val="icon.armor_t95_b_i00" />
 		<set name="default_action" val="equip" />
 		<set name="bodypart" val="feet" />
@@ -393,7 +393,7 @@
 			<enchant order="0x0C" stat="pDef" val="0" />
 		</for>
 	</item>
-	<item id="16320" type="Armor" name="Vesper Shoes">
+	<item id="16320" type="Armor" name="薄暮鞋">
 		<set name="icon" val="icon.armor_t96_b_i00" />
 		<set name="default_action" val="equip" />
 		<set name="bodypart" val="feet" />
@@ -412,7 +412,7 @@
 			<enchant order="0x0C" stat="pDef" val="0" />
 		</for>
 	</item>
-	<item id="16321" type="Armor" name="Vesper Shield">
+	<item id="16321" type="Armor" name="薄暮衛盾">
 		<set name="icon" val="icon.weapon_vesper_verteidiger_i01" />
 		<set name="default_action" val="equip" />
 		<set name="bodypart" val="lhand" />
@@ -434,7 +434,7 @@
 			<enchant val="0" order="0x0C" stat="sDef" />
 		</for>
 	</item>
-	<item id="16322" type="Armor" name="Vesper Sigil">
+	<item id="16322" type="Armor" name="薄暮符印">
 		<set name="icon" val="icon.verper_sigil_i01" />
 		<set name="default_action" val="equip" />
 		<set name="armor_type" val="sigil" />
@@ -461,7 +461,7 @@
 			</not>
 		</cond>
 	</item>
-	<item id="16323" type="Armor" name="Sealed Moirai Helmet">
+	<item id="16323" type="Armor" name="封印的天命頭盔">
 		<set name="icon" val="icon.armor_helmet_i02" />
 		<set name="default_action" val="equip" />
 		<set name="bodypart" val="head" />
@@ -479,7 +479,7 @@
 			<enchant order="0x0C" stat="pDef" val="0" />
 		</for>
 	</item>
-	<item id="16324" type="Armor" name="Sealed Moirai Leather Helmet">
+	<item id="16324" type="Armor" name="封印的天命皮頭盔">
 		<set name="icon" val="icon.armor_leather_helmet_i02" />
 		<set name="default_action" val="equip" />
 		<set name="bodypart" val="head" />
@@ -496,7 +496,7 @@
 			<enchant order="0x0C" stat="pDef" val="0" />
 		</for>
 	</item>
-	<item id="16325" type="Armor" name="Sealed Moirai Circlet">
+	<item id="16325" type="Armor" name="封印的天命頭箍">
 		<set name="icon" val="icon.armor_circlet_i02" />
 		<set name="default_action" val="equip" />
 		<set name="bodypart" val="head" />
@@ -514,7 +514,7 @@
 			<enchant order="0x0C" stat="pDef" val="0" />
 		</for>
 	</item>
-	<item id="16326" type="Armor" name="Sealed Moirai Breastplate">
+	<item id="16326" type="Armor" name="封印的天命胸甲">
 		<set name="icon" val="icon.armor_t94_u_i02" />
 		<set name="default_action" val="equip" />
 		<set name="armor_type" val="heavy" />
@@ -533,7 +533,7 @@
 			<enchant order="0x0C" stat="pDef" val="0" />
 		</for>
 	</item>
-	<item id="16327" type="Armor" name="Sealed Moirai Leather Breastplate">
+	<item id="16327" type="Armor" name="封印的天命皮胸甲">
 		<set name="icon" val="icon.armor_t95_u_i02" />
 		<set name="default_action" val="equip" />
 		<set name="armor_type" val="light" />
@@ -551,7 +551,7 @@
 			<enchant order="0x0C" stat="pDef" val="0" />
 		</for>
 	</item>
-	<item id="16328" type="Armor" name="Sealed Moirai Tunic">
+	<item id="16328" type="Armor" name="封印的天命外衣">
 		<set name="icon" val="icon.armor_t96_u_i02" />
 		<set name="default_action" val="equip" />
 		<set name="armor_type" val="magic" />
@@ -571,7 +571,7 @@
 			<enchant order="0x0C" stat="pDef" val="0" />
 		</for>
 	</item>
-	<item id="16329" type="Armor" name="Sealed Moirai Gaiter">
+	<item id="16329" type="Armor" name="封印的天命脛甲">
 		<set name="icon" val="icon.armor_t94_l_i02" />
 		<set name="default_action" val="equip" />
 		<set name="armor_type" val="heavy" />
@@ -590,7 +590,7 @@
 			<enchant order="0x0C" stat="pDef" val="0" />
 		</for>
 	</item>
-	<item id="16330" type="Armor" name="Sealed Moirai Leather Legging">
+	<item id="16330" type="Armor" name="封印的天命皮脛甲">
 		<set name="icon" val="icon.armor_t95_l_i02" />
 		<set name="default_action" val="equip" />
 		<set name="armor_type" val="light" />
@@ -608,7 +608,7 @@
 			<enchant order="0x0C" stat="pDef" val="0" />
 		</for>
 	</item>
-	<item id="16331" type="Armor" name="Sealed Moirai Stockings">
+	<item id="16331" type="Armor" name="封印的天命長襪">
 		<set name="icon" val="icon.armor_t96_l_i02" />
 		<set name="default_action" val="equip" />
 		<set name="armor_type" val="magic" />
@@ -628,7 +628,7 @@
 			<enchant order="0x0C" stat="pDef" val="0" />
 		</for>
 	</item>
-	<item id="16332" type="Armor" name="Sealed Moirai Gauntlet">
+	<item id="16332" type="Armor" name="封印的天命護手">
 		<set name="icon" val="icon.armor_t94_g_i02" />
 		<set name="default_action" val="equip" />
 		<set name="bodypart" val="gloves" />
@@ -646,7 +646,7 @@
 			<enchant order="0x0C" stat="pDef" val="0" />
 		</for>
 	</item>
-	<item id="16333" type="Armor" name="Sealed Moirai Leather Gloves">
+	<item id="16333" type="Armor" name="封印的天命皮手套">
 		<set name="icon" val="icon.armor_t95_g_i02" />
 		<set name="default_action" val="equip" />
 		<set name="bodypart" val="gloves" />
@@ -663,7 +663,7 @@
 			<enchant order="0x0C" stat="pDef" val="0" />
 		</for>
 	</item>
-	<item id="16334" type="Armor" name="Sealed Moirai Gloves">
+	<item id="16334" type="Armor" name="封印的天命手套">
 		<set name="icon" val="icon.armor_t96_g_i02" />
 		<set name="default_action" val="equip" />
 		<set name="bodypart" val="gloves" />
@@ -681,7 +681,7 @@
 			<enchant order="0x0C" stat="pDef" val="0" />
 		</for>
 	</item>
-	<item id="16335" type="Armor" name="Sealed Moirai Boots">
+	<item id="16335" type="Armor" name="封印的天命靴">
 		<set name="icon" val="icon.armor_t94_b_i02" />
 		<set name="default_action" val="equip" />
 		<set name="bodypart" val="feet" />
@@ -699,7 +699,7 @@
 			<enchant order="0x0C" stat="pDef" val="0" />
 		</for>
 	</item>
-	<item id="16336" type="Armor" name="Sealed Moirai Leather Boots">
+	<item id="16336" type="Armor" name="封印的天命皮靴">
 		<set name="icon" val="icon.armor_t95_b_i02" />
 		<set name="default_action" val="equip" />
 		<set name="bodypart" val="feet" />
@@ -716,7 +716,7 @@
 			<enchant order="0x0C" stat="pDef" val="0" />
 		</for>
 	</item>
-	<item id="16337" type="Armor" name="Sealed Moirai Shoes">
+	<item id="16337" type="Armor" name="封印的天命鞋">
 		<set name="icon" val="icon.armor_t96_b_i02" />
 		<set name="default_action" val="equip" />
 		<set name="bodypart" val="feet" />
@@ -734,7 +734,7 @@
 			<enchant order="0x0C" stat="pDef" val="0" />
 		</for>
 	</item>
-	<item id="16338" type="Armor" name="Sealed Moirai Shield">
+	<item id="16338" type="Armor" name="封印的天命盾">
 		<set name="icon" val="icon.weapon_tysandy_shield_i00" />
 		<set name="default_action" val="equip" />
 		<set name="bodypart" val="lhand" />
@@ -755,7 +755,7 @@
 			<enchant val="0" order="0x0C" stat="sDef" />
 		</for>
 	</item>
-	<item id="16339" type="Armor" name="Sealed Moirai Sigil">
+	<item id="16339" type="Armor" name="封印的天命符印">
 		<set name="icon" val="icon.weapon_tysandy_sigil_i00" />
 		<set name="default_action" val="equip" />
 		<set name="armor_type" val="sigil" />
@@ -781,7 +781,7 @@
 			</not>
 		</cond>
 	</item>
-	<item id="16340" type="Armor" name="Sealed Vesper Helmet">
+	<item id="16340" type="Armor" name="封印的薄暮頭盔">
 		<set name="icon" val="icon.armor_helmet_i02" />
 		<set name="default_action" val="equip" />
 		<set name="bodypart" val="head" />
@@ -799,7 +799,7 @@
 			<enchant order="0x0C" stat="pDef" val="0" />
 		</for>
 	</item>
-	<item id="16341" type="Armor" name="Sealed Vesper Leather Helmet">
+	<item id="16341" type="Armor" name="封印的薄暮皮頭盔">
 		<set name="icon" val="icon.armor_leather_helmet_i02" />
 		<set name="default_action" val="equip" />
 		<set name="bodypart" val="head" />
@@ -816,7 +816,7 @@
 			<enchant order="0x0C" stat="pDef" val="0" />
 		</for>
 	</item>
-	<item id="16342" type="Armor" name="Sealed Vesper Circlet">
+	<item id="16342" type="Armor" name="封印的薄暮頭箍">
 		<set name="icon" val="icon.armor_circlet_i02" />
 		<set name="default_action" val="equip" />
 		<set name="bodypart" val="head" />
@@ -834,7 +834,7 @@
 			<enchant order="0x0C" stat="pDef" val="0" />
 		</for>
 	</item>
-	<item id="16343" type="Armor" name="Sealed Vesper Breastplate">
+	<item id="16343" type="Armor" name="封印的薄暮胸甲">
 		<set name="icon" val="icon.armor_t94_u_i02" />
 		<set name="default_action" val="equip" />
 		<set name="armor_type" val="heavy" />
@@ -853,7 +853,7 @@
 			<enchant order="0x0C" stat="pDef" val="0" />
 		</for>
 	</item>
-	<item id="16344" type="Armor" name="Sealed Vesper Leather Leather Breastplate">
+	<item id="16344" type="Armor" name="封印的薄暮皮胸甲">
 		<set name="icon" val="icon.armor_t95_u_i02" />
 		<set name="default_action" val="equip" />
 		<set name="armor_type" val="light" />
@@ -871,7 +871,7 @@
 			<enchant order="0x0C" stat="pDef" val="0" />
 		</for>
 	</item>
-	<item id="16345" type="Armor" name="Sealed Vesper Tunic">
+	<item id="16345" type="Armor" name="封印的薄暮外衣">
 		<set name="icon" val="icon.armor_t96_u_i02" />
 		<set name="default_action" val="equip" />
 		<set name="armor_type" val="magic" />
@@ -891,7 +891,7 @@
 			<enchant order="0x0C" stat="pDef" val="0" />
 		</for>
 	</item>
-	<item id="16346" type="Armor" name="Sealed Vesper Gaiter">
+	<item id="16346" type="Armor" name="封印的薄暮脛甲">
 		<set name="icon" val="icon.armor_t94_l_i02" />
 		<set name="default_action" val="equip" />
 		<set name="armor_type" val="heavy" />
@@ -910,7 +910,7 @@
 			<enchant order="0x0C" stat="pDef" val="0" />
 		</for>
 	</item>
-	<item id="16347" type="Armor" name="Sealed Vesper Leather Legging">
+	<item id="16347" type="Armor" name="封印的薄暮皮脛甲">
 		<set name="icon" val="icon.armor_t95_l_i02" />
 		<set name="default_action" val="equip" />
 		<set name="armor_type" val="light" />
@@ -928,7 +928,7 @@
 			<enchant order="0x0C" stat="pDef" val="0" />
 		</for>
 	</item>
-	<item id="16348" type="Armor" name="Sealed Vesper Stockings">
+	<item id="16348" type="Armor" name="封印的薄暮長襪">
 		<set name="icon" val="icon.armor_t96_l_i02" />
 		<set name="default_action" val="equip" />
 		<set name="armor_type" val="magic" />
@@ -948,7 +948,7 @@
 			<enchant order="0x0C" stat="pDef" val="0" />
 		</for>
 	</item>
-	<item id="16349" type="Armor" name="Sealed Vesper Gauntlet">
+	<item id="16349" type="Armor" name="封印的薄暮護手">
 		<set name="icon" val="icon.armor_t94_g_i02" />
 		<set name="default_action" val="equip" />
 		<set name="bodypart" val="gloves" />
@@ -966,7 +966,7 @@
 			<enchant order="0x0C" stat="pDef" val="0" />
 		</for>
 	</item>
-	<item id="16350" type="Armor" name="Sealed Vesper Leather Gloves">
+	<item id="16350" type="Armor" name="封印的薄暮皮手套">
 		<set name="icon" val="icon.armor_t95_g_i02" />
 		<set name="default_action" val="equip" />
 		<set name="bodypart" val="gloves" />
@@ -983,7 +983,7 @@
 			<enchant order="0x0C" stat="pDef" val="0" />
 		</for>
 	</item>
-	<item id="16351" type="Armor" name="Sealed Vesper Gloves">
+	<item id="16351" type="Armor" name="封印的薄暮手套">
 		<set name="icon" val="icon.armor_t96_g_i02" />
 		<set name="default_action" val="equip" />
 		<set name="bodypart" val="gloves" />
@@ -1001,7 +1001,7 @@
 			<enchant order="0x0C" stat="pDef" val="0" />
 		</for>
 	</item>
-	<item id="16352" type="Armor" name="Sealed Vesper Boots">
+	<item id="16352" type="Armor" name="封印的薄暮靴">
 		<set name="icon" val="icon.armor_t94_b_i02" />
 		<set name="default_action" val="equip" />
 		<set name="bodypart" val="feet" />
@@ -1019,7 +1019,7 @@
 			<enchant order="0x0C" stat="pDef" val="0" />
 		</for>
 	</item>
-	<item id="16353" type="Armor" name="Sealed Vesper Leather Boots">
+	<item id="16353" type="Armor" name="封印的薄暮皮靴">
 		<set name="icon" val="icon.armor_t95_b_i02" />
 		<set name="default_action" val="equip" />
 		<set name="bodypart" val="feet" />
@@ -1036,7 +1036,7 @@
 			<enchant order="0x0C" stat="pDef" val="0" />
 		</for>
 	</item>
-	<item id="16354" type="Armor" name="Sealed Vesper Shoes">
+	<item id="16354" type="Armor" name="封印的薄暮鞋">
 		<set name="icon" val="icon.armor_t96_b_i02" />
 		<set name="default_action" val="equip" />
 		<set name="bodypart" val="feet" />
@@ -1054,7 +1054,7 @@
 			<enchant order="0x0C" stat="pDef" val="0" />
 		</for>
 	</item>
-	<item id="16355" type="Armor" name="Sealed Vesper Shield">
+	<item id="16355" type="Armor" name="封印的薄暮衛盾">
 		<set name="icon" val="icon.weapon_vesper_verteidiger_i00" />
 		<set name="default_action" val="equip" />
 		<set name="bodypart" val="lhand" />
@@ -1075,7 +1075,7 @@
 			<enchant val="0" order="0x0C" stat="sDef" />
 		</for>
 	</item>
-	<item id="16356" type="Armor" name="Sealed Vesper Sigil">
+	<item id="16356" type="Armor" name="封印的薄暮符印">
 		<set name="icon" val="icon.armor_verper_sigil_i01" />
 		<set name="default_action" val="equip" />
 		<set name="armor_type" val="sigil" />
@@ -1101,7 +1101,7 @@
 			</not>
 		</cond>
 	</item>
-	<item id="16357" type="EtcItem" name="Sealed Vesper Ring of Chaos">
+	<item id="16357" type="EtcItem" name="渾沌的封印的薄暮戒指">
 		<set name="icon" val="icon.vesper_ring_i01" />
 		<set name="immediate_effect" val="1" />
 		<set name="crystal_type" val="s84" />
@@ -1112,7 +1112,7 @@
 			<add order="0x10" stat="mDef" val="55" />
 		</for>
 	</item>
-	<item id="16358" type="EtcItem" name="Sealed Vesper Earring of Chaos">
+	<item id="16358" type="EtcItem" name="渾沌的封印的薄暮耳環">
 		<set name="icon" val="icon.vesper_earring_i01" />
 		<set name="immediate_effect" val="1" />
 		<set name="crystal_type" val="s84" />
@@ -1123,7 +1123,7 @@
 			<add order="0x10" stat="mDef" val="83" />
 		</for>
 	</item>
-	<item id="16359" type="EtcItem" name="Sealed Vesper Necklace of Chaos">
+	<item id="16359" type="EtcItem" name="渾沌的封印的薄暮項鍊">
 		<set name="icon" val="icon.vesper_necklace_i01" />
 		<set name="immediate_effect" val="1" />
 		<set name="crystal_type" val="s84" />
@@ -1134,7 +1134,7 @@
 			<add order="0x10" stat="mDef" val="110" />
 		</for>
 	</item>
-	<item id="16360" type="EtcItem" name="Sealed Moirai Ring of Chaos">
+	<item id="16360" type="EtcItem" name="渾沌的封印的天命戒指">
 		<set name="icon" val="icon.accessary_sealed_bluelycan_ring_i00" />
 		<set name="immediate_effect" val="1" />
 		<set name="crystal_type" val="s80" />
@@ -1145,7 +1145,7 @@
 			<add order="0x10" stat="mDef" val="53" />
 		</for>
 	</item>
-	<item id="16361" type="EtcItem" name="Sealed Moirai Earring of Chaos">
+	<item id="16361" type="EtcItem" name="渾沌的封印的天命耳環">
 		<set name="icon" val="icon.accessary_sealed_bluelycan_earring_i00" />
 		<set name="immediate_effect" val="1" />
 		<set name="crystal_type" val="s80" />
@@ -1156,7 +1156,7 @@
 			<add order="0x10" stat="mDef" val="76" />
 		</for>
 	</item>
-	<item id="16362" type="EtcItem" name="Sealed Moirai Necklace of Chaos">
+	<item id="16362" type="EtcItem" name="渾沌的封印的天命項鍊">
 		<set name="icon" val="icon.accessary_sealed_bluelycan_necklace_i00" />
 		<set name="immediate_effect" val="1" />
 		<set name="crystal_type" val="s80" />
@@ -1167,7 +1167,7 @@
 			<add order="0x10" stat="mDef" val="101" />
 		</for>
 	</item>
-	<item id="16363" type="EtcItem" name="Vesper Ring of Chaos">
+	<item id="16363" type="EtcItem" name="渾沌的薄暮戒指">
 		<set name="icon" val="icon.vesper_ring_i00" />
 		<set name="immediate_effect" val="1" />
 		<set name="crystal_count" val="365" />
@@ -1180,7 +1180,7 @@
 			<add order="0x40" stat="maxMp" val="25" />
 		</for>
 	</item>
-	<item id="16364" type="EtcItem" name="Vesper Earring of Chaos">
+	<item id="16364" type="EtcItem" name="渾沌的薄暮耳環">
 		<set name="icon" val="icon.vesper_earring_i00" />
 		<set name="immediate_effect" val="1" />
 		<set name="crystal_count" val="547" />
@@ -1193,7 +1193,7 @@
 			<add order="0x40" stat="maxMp" val="37" />
 		</for>
 	</item>
-	<item id="16365" type="EtcItem" name="Vesper Necklace of Chaos">
+	<item id="16365" type="EtcItem" name="渾沌的薄暮項鍊">
 		<set name="icon" val="icon.vesper_necklace_i00" />
 		<set name="immediate_effect" val="1" />
 		<set name="crystal_count" val="729" />
@@ -1206,7 +1206,7 @@
 			<add order="0x40" stat="maxMp" val="50" />
 		</for>
 	</item>
-	<item id="16366" type="EtcItem" name="Moirai Ring of Chaos">
+	<item id="16366" type="EtcItem" name="渾沌的天命戒指">
 		<set name="icon" val="icon.accessary_bluelycan_earring_i00" />
 		<set name="immediate_effect" val="1" />
 		<set name="crystal_count" val="263" />
@@ -1219,7 +1219,7 @@
 			<add order="0x40" stat="maxMp" val="24" />
 		</for>
 	</item>
-	<item id="16367" type="EtcItem" name="Moirai Earring of Chaos">
+	<item id="16367" type="EtcItem" name="渾沌的天命耳環">
 		<set name="icon" val="icon.accessary_bluelycan_necklace_i00" />
 		<set name="immediate_effect" val="1" />
 		<set name="crystal_count" val="395" />
@@ -1232,7 +1232,7 @@
 			<add order="0x40" stat="maxMp" val="36" />
 		</for>
 	</item>
-	<item id="16368" type="EtcItem" name="Moirai Necklace of Chaos">
+	<item id="16368" type="EtcItem" name="渾沌的天命項鍊">
 		<set name="icon" val="icon.accessary_bluelycan_ring_i00" />
 		<set name="immediate_effect" val="1" />
 		<set name="crystal_count" val="526" />
@@ -1245,7 +1245,7 @@
 			<add order="0x40" stat="maxMp" val="48" />
 		</for>
 	</item>
-	<item id="16369" type="Armor" name="Sealed Vesper Ring">
+	<item id="16369" type="Armor" name="封印的薄暮戒指">
 		<set name="icon" val="icon.vesper_ring_i01" />
 		<set name="default_action" val="equip" />
 		<set name="bodypart" val="rfinger;lfinger" />
@@ -1261,7 +1261,7 @@
 			<enchant order="0x0C" stat="mDef" val="0" />
 		</for>
 	</item>
-	<item id="16370" type="Armor" name="Sealed Vesper Earring">
+	<item id="16370" type="Armor" name="封印的薄暮耳環">
 		<set name="icon" val="icon.vesper_earring_i01" />
 		<set name="default_action" val="equip" />
 		<set name="bodypart" val="rear;lear" />
@@ -1277,7 +1277,7 @@
 			<enchant order="0x0C" stat="mDef" val="0" />
 		</for>
 	</item>
-	<item id="16371" type="Armor" name="Sealed Vesper Necklace">
+	<item id="16371" type="Armor" name="封印的薄暮項鍊">
 		<set name="icon" val="icon.vesper_necklace_i01" />
 		<set name="default_action" val="equip" />
 		<set name="bodypart" val="neck" />
@@ -1293,7 +1293,7 @@
 			<enchant order="0x0C" stat="mDef" val="0" />
 		</for>
 	</item>
-	<item id="16372" type="Armor" name="Sealed Moirai Ring">
+	<item id="16372" type="Armor" name="封印的天命戒指">
 		<set name="icon" val="icon.accessary_sealed_bluelycan_ring_i00" />
 		<set name="default_action" val="equip" />
 		<set name="bodypart" val="rfinger;lfinger" />
@@ -1309,7 +1309,7 @@
 			<enchant order="0x0C" stat="mDef" val="0" />
 		</for>
 	</item>
-	<item id="16373" type="Armor" name="Sealed Moirai Earring">
+	<item id="16373" type="Armor" name="封印的天命耳環">
 		<set name="icon" val="icon.accessary_sealed_bluelycan_earring_i00" />
 		<set name="default_action" val="equip" />
 		<set name="bodypart" val="rear;lear" />
@@ -1325,7 +1325,7 @@
 			<enchant order="0x0C" stat="mDef" val="0" />
 		</for>
 	</item>
-	<item id="16374" type="Armor" name="Sealed Moirai Necklace">
+	<item id="16374" type="Armor" name="封印的天命項鍊">
 		<set name="icon" val="icon.accessary_sealed_bluelycan_necklace_i00" />
 		<set name="default_action" val="equip" />
 		<set name="bodypart" val="neck" />
@@ -1341,7 +1341,7 @@
 			<enchant order="0x0C" stat="mDef" val="0" />
 		</for>
 	</item>
-	<item id="16375" type="Armor" name="Vesper Ring">
+	<item id="16375" type="Armor" name="薄暮戒指">
 		<set name="icon" val="icon.vesper_ring_i00" />
 		<set name="default_action" val="equip" />
 		<set name="bodypart" val="rfinger;lfinger" />
@@ -1359,7 +1359,7 @@
 			<enchant order="0x0C" stat="mDef" val="0" />
 		</for>
 	</item>
-	<item id="16376" type="Armor" name="Vesper Earring">
+	<item id="16376" type="Armor" name="薄暮耳環">
 		<set name="icon" val="icon.vesper_earring_i00" />
 		<set name="default_action" val="equip" />
 		<set name="bodypart" val="rear;lear" />
@@ -1377,7 +1377,7 @@
 			<enchant order="0x0C" stat="mDef" val="0" />
 		</for>
 	</item>
-	<item id="16377" type="Armor" name="Vesper Necklace">
+	<item id="16377" type="Armor" name="薄暮項鍊">
 		<set name="icon" val="icon.vesper_necklace_i00" />
 		<set name="default_action" val="equip" />
 		<set name="bodypart" val="neck" />
@@ -1395,7 +1395,7 @@
 			<enchant order="0x0C" stat="mDef" val="0" />
 		</for>
 	</item>
-	<item id="16378" type="Armor" name="Moirai Ring">
+	<item id="16378" type="Armor" name="天命戒指">
 		<set name="icon" val="icon.accessary_bluelycan_ring_i00" />
 		<set name="default_action" val="equip" />
 		<set name="bodypart" val="rfinger;lfinger" />
@@ -1413,7 +1413,7 @@
 			<enchant order="0x0C" stat="mDef" val="0" />
 		</for>
 	</item>
-	<item id="16379" type="Armor" name="Moirai Earring">
+	<item id="16379" type="Armor" name="天命耳環">
 		<set name="icon" val="icon.accessary_bluelycan_earring_i00" />
 		<set name="default_action" val="equip" />
 		<set name="bodypart" val="rear;lear" />
@@ -1431,7 +1431,7 @@
 			<enchant order="0x0C" stat="mDef" val="0" />
 		</for>
 	</item>
-	<item id="16380" type="Armor" name="Moirai Necklace">
+	<item id="16380" type="Armor" name="天命項鍊">
 		<set name="icon" val="icon.accessary_bluelycan_necklace_i00" />
 		<set name="default_action" val="equip" />
 		<set name="bodypart" val="neck" />
@@ -1449,7 +1449,7 @@
 			<enchant order="0x0C" stat="mDef" val="0" />
 		</for>
 	</item>
-	<item id="16381" type="EtcItem" name="Training Order Paper">
+	<item id="16381" type="EtcItem" name="訓練指令書">
 		<set name="icon" val="icon.roll_of_paper_red_i00" />
 		<set name="immediate_effect" val="1" />
 		<set name="material" val="crystal" />
@@ -1461,7 +1461,7 @@
 		<set name="is_questitem" val="true" />
 		<set name="is_oly_restricted" val="true" />
 	</item>
-	<item id="16382" type="EtcItem" name="Shoes String of Sel Mahum">
+	<item id="16382" type="EtcItem" name="賽爾豺狼的鞋帶">
 		<set name="icon" val="icon.etc_braided_hemp_i00" />
 		<set name="immediate_effect" val="1" />
 		<set name="material" val="crystal" />
@@ -1473,7 +1473,7 @@
 		<set name="is_questitem" val="true" />
 		<set name="is_oly_restricted" val="true" />
 	</item>
-	<item id="16383" type="EtcItem" name="Christmas Cake Pack">
+	<item id="16383" type="EtcItem" name="聖誕蛋糕組">
 		<set name="icon" val="icon.etc_pi_gift_box_i04" />
 		<set name="default_action" val="peel" />
 		<set name="immediate_effect" val="1" />
@@ -1487,7 +1487,7 @@
 		<set name="is_oly_restricted" val="true" />
 		<set name="capsuled_items" val="16391,1,1,100" />
 	</item>
-	<item id="16384" type="EtcItem" name="Special Christmas Cake Pack">
+	<item id="16384" type="EtcItem" name="特大聖誕蛋糕組">
 		<set name="icon" val="icon.etc_pi_gift_box_i04" />
 		<set name="default_action" val="peel" />
 		<set name="immediate_effect" val="1" />
@@ -1501,7 +1501,7 @@
 		<set name="is_oly_restricted" val="true" />
 		<set name="capsuled_items" val="16392,1,1,100" />
 	</item>
-	<item id="16385" type="EtcItem" name="Teddy Boy Gift Box Pack">
+	<item id="16385" type="EtcItem" name="男生泰迪熊禮盒組">
 		<set name="icon" val="icon.etc_pi_gift_box_i04" />
 		<set name="default_action" val="peel" />
 		<set name="immediate_effect" val="1" />
@@ -1515,7 +1515,7 @@
 		<set name="is_oly_restricted" val="true" />
 		<set name="capsuled_items" val="16395,1,1,100" />
 	</item>
-	<item id="16386" type="EtcItem" name="Teddy Girl Gift Box Pack">
+	<item id="16386" type="EtcItem" name="女生泰迪熊禮盒組">
 		<set name="icon" val="icon.etc_pi_gift_box_i04" />
 		<set name="default_action" val="peel" />
 		<set name="immediate_effect" val="1" />
@@ -1529,7 +1529,7 @@
 		<set name="is_oly_restricted" val="true" />
 		<set name="capsuled_items" val="16396,1,1,100" />
 	</item>
-	<item id="16387" type="EtcItem" name="Christmas Cake Pack (event)">
+	<item id="16387" type="EtcItem" name="聖誕蛋糕組-活動用">
 		<set name="icon" val="icon.etc_pi_gift_box_i04" />
 		<set name="default_action" val="peel" />
 		<set name="immediate_effect" val="1" />
@@ -1543,7 +1543,7 @@
 		<set name="is_oly_restricted" val="true" />
 		<set name="capsuled_items" val="16393,1,1,100" />
 	</item>
-	<item id="16388" type="EtcItem" name="Special Christmas Cake Pack (event)">
+	<item id="16388" type="EtcItem" name="特大聖誕蛋糕組-活動用">
 		<set name="icon" val="icon.etc_pi_gift_box_i04" />
 		<set name="default_action" val="peel" />
 		<set name="immediate_effect" val="1" />
@@ -1557,7 +1557,7 @@
 		<set name="is_oly_restricted" val="true" />
 		<set name="capsuled_items" val="16394,1,1,100" />
 	</item>
-	<item id="16389" type="EtcItem" name="Teddy Boy Gift Box Pack (event)">
+	<item id="16389" type="EtcItem" name="男生泰迪熊禮盒組-活動用">
 		<set name="icon" val="icon.etc_pi_gift_box_i04" />
 		<set name="default_action" val="peel" />
 		<set name="immediate_effect" val="1" />
@@ -1571,7 +1571,7 @@
 		<set name="is_oly_restricted" val="true" />
 		<set name="capsuled_items" val="16397,1,1,100" />
 	</item>
-	<item id="16390" type="EtcItem" name="Teddy Girl Gift Box Pack (event)">
+	<item id="16390" type="EtcItem" name="女生泰迪熊禮盒組-活動用">
 		<set name="icon" val="icon.etc_pi_gift_box_i04" />
 		<set name="default_action" val="peel" />
 		<set name="immediate_effect" val="1" />
@@ -1585,7 +1585,7 @@
 		<set name="is_oly_restricted" val="true" />
 		<set name="capsuled_items" val="16398,1,1,100" />
 	</item>
-	<item id="16391" type="EtcItem" name="Christmas Cake Box">
+	<item id="16391" type="EtcItem" name="聖誕蛋糕盒">
 		<set name="icon" val="icon.lucky_bag_box_i00" />
 		<set name="default_action" val="peel" />
 		<set name="immediate_effect" val="1" />
@@ -1598,7 +1598,7 @@
 		<set name="is_oly_restricted" val="true" />
 		<set name="capsuled_items" val="16403,1,1,100;16404,1,1,100" />
 	</item>
-	<item id="16392" type="EtcItem" name="Special Christmas Cake Box">
+	<item id="16392" type="EtcItem" name="特大聖誕蛋糕盒">
 		<set name="icon" val="icon.four_leaf_clover_box_i00" />
 		<set name="default_action" val="peel" />
 		<set name="immediate_effect" val="1" />
@@ -1611,7 +1611,7 @@
 		<set name="is_oly_restricted" val="true" />
 		<set name="capsuled_items" val="16391,5,5,100;16407,1,1,100" />
 	</item>
-	<item id="16393" type="EtcItem" name="Christmas Cake Box (event)">
+	<item id="16393" type="EtcItem" name="聖誕蛋糕盒-活動用">
 		<set name="icon" val="icon.lucky_bag_box_i00" />
 		<set name="default_action" val="peel" />
 		<set name="immediate_effect" val="1" />
@@ -1624,7 +1624,7 @@
 		<set name="is_oly_restricted" val="true" />
 		<set name="capsuled_items" val="16405,1,1,100;16406,1,1,100" />
 	</item>
-	<item id="16394" type="EtcItem" name="Special Christmas Cake Box (event)">
+	<item id="16394" type="EtcItem" name="特大聖誕蛋糕盒-活動用">
 		<set name="icon" val="icon.four_leaf_clover_box_i00" />
 		<set name="default_action" val="peel" />
 		<set name="immediate_effect" val="1" />
@@ -1637,7 +1637,7 @@
 		<set name="is_oly_restricted" val="true" />
 		<set name="capsuled_items" val="16393,5,5,100;16407,1,1,100" />
 	</item>
-	<item id="16395" type="EtcItem" name="Teddy Boy Gift Box">
+	<item id="16395" type="EtcItem" name="男生泰迪熊禮盒">
 		<set name="icon" val="icon.lucky_bag_box_i00" />
 		<set name="default_action" val="peel" />
 		<set name="immediate_effect" val="1" />
@@ -1650,7 +1650,7 @@
 		<set name="is_oly_restricted" val="true" />
 		<set name="capsuled_items" val="16399,1,1,100;16404,3,3,100" />
 	</item>
-	<item id="16396" type="EtcItem" name="Teddy Girl Gift Box">
+	<item id="16396" type="EtcItem" name="女生泰迪熊禮盒">
 		<set name="icon" val="icon.lucky_bag_box_i00" />
 		<set name="default_action" val="peel" />
 		<set name="immediate_effect" val="1" />
@@ -1663,7 +1663,7 @@
 		<set name="is_oly_restricted" val="true" />
 		<set name="capsuled_items" val="16400,1,1,100;16404,3,3,100" />
 	</item>
-	<item id="16397" type="EtcItem" name="Teddy Boy Gift Box (event)">
+	<item id="16397" type="EtcItem" name="男生泰迪熊禮盒-活動用">
 		<set name="icon" val="icon.lucky_bag_box_i00" />
 		<set name="default_action" val="peel" />
 		<set name="immediate_effect" val="1" />
@@ -1676,7 +1676,7 @@
 		<set name="is_oly_restricted" val="true" />
 		<set name="capsuled_items" val="16401,1,1,100;16406,3,3,100" />
 	</item>
-	<item id="16398" type="EtcItem" name="Teddy Girl Gift Box (event)">
+	<item id="16398" type="EtcItem" name="女生泰迪熊禮盒-活動用">
 		<set name="icon" val="icon.lucky_bag_box_i00" />
 		<set name="default_action" val="peel" />
 		<set name="immediate_effect" val="1" />
@@ -1689,7 +1689,7 @@
 		<set name="is_oly_restricted" val="true" />
 		<set name="capsuled_items" val="16402,1,1,100;16406,3,3,100" />
 	</item>
-	<item id="16399" type="EtcItem" name="Teddy Boy Summon Bracelet - Permanent Use">
+	<item id="16399" type="EtcItem" name="男生泰迪熊召喚手鐲">
 		<set name="icon" val="icon.etc_rbracelet_aga_agit_i00" />
 		<set name="default_action" val="equip" />
 		<set name="bodypart" val="lbracelet" />

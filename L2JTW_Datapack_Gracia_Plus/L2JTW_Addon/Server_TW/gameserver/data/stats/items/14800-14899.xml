@@ -1,13 +1,13 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <list>
-	<item id="14800" type="Armor" name="Afro Perm Wig - Pink">
+	<item id="14800" type="Armor" name="爆炸頭假髮-粉紅色">
 		<set name="icon" val="icon.accessory_captain_cap_i00" />
 		<set name="immediate_effect" val="1" />
 		<set name="ex_immediate_effect" val="1" />
 		<set name="material" val="paper" />
 		<set name="is_depositable" val="false" />
 	</item>
-	<item id="14801" type="Armor" name="Gludio Guard Earring">
+	<item id="14801" type="Armor" name="古魯丁親衛耳環">
 		<set name="icon" val="icon.accessory_earring_of_domi_protection_i00" />
 		<set name="default_action" val="equip" />
 		<set name="bodypart" val="rear;lear" />
@@ -27,7 +27,7 @@
 			<enchant order="0x0C" stat="mDef" val="0" />
 		</for>
 	</item>
-	<item id="14802" type="Armor" name="Dion Guard Earring">
+	<item id="14802" type="Armor" name="狄恩親衛耳環">
 		<set name="icon" val="icon.accessory_earring_of_domi_protection_i00" />
 		<set name="default_action" val="equip" />
 		<set name="bodypart" val="rear;lear" />
@@ -47,7 +47,7 @@
 			<enchant order="0x0C" stat="mDef" val="0" />
 		</for>
 	</item>
-	<item id="14803" type="Armor" name="Giran Guard Earring">
+	<item id="14803" type="Armor" name="奇岩親衛耳環">
 		<set name="icon" val="icon.accessory_earring_of_domi_protection_i00" />
 		<set name="default_action" val="equip" />
 		<set name="bodypart" val="rear;lear" />
@@ -67,7 +67,7 @@
 			<enchant order="0x0C" stat="mDef" val="0" />
 		</for>
 	</item>
-	<item id="14804" type="Armor" name="Oren Guard Earring">
+	<item id="14804" type="Armor" name="歐瑞親衛耳環">
 		<set name="icon" val="icon.accessory_earring_of_domi_protection_i00" />
 		<set name="default_action" val="equip" />
 		<set name="bodypart" val="rear;lear" />
@@ -87,7 +87,7 @@
 			<enchant order="0x0C" stat="mDef" val="0" />
 		</for>
 	</item>
-	<item id="14805" type="Armor" name="Aden Guard Earring">
+	<item id="14805" type="Armor" name="亞丁親衛耳環">
 		<set name="icon" val="icon.accessory_earring_of_domi_protection_i00" />
 		<set name="default_action" val="equip" />
 		<set name="bodypart" val="rear;lear" />
@@ -107,7 +107,7 @@
 			<enchant order="0x0C" stat="mDef" val="0" />
 		</for>
 	</item>
-	<item id="14806" type="Armor" name="Innadril Guard Earring">
+	<item id="14806" type="Armor" name="因納得立親衛耳環">
 		<set name="icon" val="icon.accessory_earring_of_domi_protection_i00" />
 		<set name="default_action" val="equip" />
 		<set name="bodypart" val="rear;lear" />
@@ -127,7 +127,7 @@
 			<enchant order="0x0C" stat="mDef" val="0" />
 		</for>
 	</item>
-	<item id="14807" type="Armor" name="Goddard Guard Earring">
+	<item id="14807" type="Armor" name="高達特親衛耳環">
 		<set name="icon" val="icon.accessory_earring_of_domi_protection_i00" />
 		<set name="default_action" val="equip" />
 		<set name="bodypart" val="rear;lear" />
@@ -147,7 +147,7 @@
 			<enchant order="0x0C" stat="mDef" val="0" />
 		</for>
 	</item>
-	<item id="14808" type="Armor" name="Rune Guard Earring">
+	<item id="14808" type="Armor" name="魯因親衛耳環">
 		<set name="icon" val="icon.accessory_earring_of_domi_protection_i00" />
 		<set name="default_action" val="equip" />
 		<set name="bodypart" val="rear;lear" />
@@ -167,7 +167,7 @@
 			<enchant order="0x0C" stat="mDef" val="0" />
 		</for>
 	</item>
-	<item id="14809" type="Armor" name="Schuttgart Guard Earring">
+	<item id="14809" type="Armor" name="修加特親衛耳環">
 		<set name="icon" val="icon.accessory_earring_of_domi_protection_i00" />
 		<set name="default_action" val="equip" />
 		<set name="bodypart" val="rear;lear" />
@@ -187,7 +187,7 @@
 			<enchant order="0x0C" stat="mDef" val="0" />
 		</for>
 	</item>
-	<item id="14810" type="Armor" name="Blue Talisman - Buff Cancel">
+	<item id="14810" type="Armor" name="青色護身符-魔法消除">
 		<set name="icon" val="icon.etc_talisman_i01" />
 		<set name="default_action" val="equip" />
 		<set name="bodypart" val="deco1" />
@@ -201,7 +201,7 @@
 		<set name="item_skill" val="8331-1" />
 		<set name="duration" val="65" />
 	</item>
-	<item id="14811" type="Armor" name="Blue Talisman - Buff Steal">
+	<item id="14811" type="Armor" name="青色護身符-魔法竊取">
 		<set name="icon" val="icon.etc_talisman_i01" />
 		<set name="default_action" val="equip" />
 		<set name="bodypart" val="deco1" />
@@ -215,7 +215,7 @@
 		<set name="item_skill" val="8332-1" />
 		<set name="duration" val="65" />
 	</item>
-	<item id="14812" type="Armor" name="Red Talisman - Territory Guard">
+	<item id="14812" type="Armor" name="赤色護身符-領地親衛隊">
 		<set name="icon" val="icon.etc_talisman_i00" />
 		<set name="default_action" val="equip" />
 		<set name="bodypart" val="deco1" />
@@ -229,7 +229,7 @@
 		<set name="item_skill" val="8333-1" />
 		<set name="duration" val="66" />
 	</item>
-	<item id="14813" type="Armor" name="Blue Talisman - Lord's Divine Protection">
+	<item id="14813" type="Armor" name="青色護身符-領主的加護">
 		<set name="icon" val="icon.etc_talisman_i01" />
 		<set name="default_action" val="equip" />
 		<set name="bodypart" val="deco1" />
@@ -243,7 +243,7 @@
 		<set name="item_skill" val="8334-1" />
 		<set name="duration" val="74" />
 	</item>
-	<item id="14814" type="Armor" name="White Talisman - All Resistance">
+	<item id="14814" type="Armor" name="白色護身符-全面抵抗">
 		<set name="icon" val="icon.etc_talisman_i06" />
 		<set name="default_action" val="equip" />
 		<set name="bodypart" val="deco1" />
@@ -257,7 +257,7 @@
 		<set name="item_skill" val="8335-1" />
 		<set name="duration" val="65" />
 	</item>
-	<item id="14815" type="EtcItem" name="Territory Health Recovery Potion">
+	<item id="14815" type="EtcItem" name="戰場用超強力生命靈藥">
 		<set name="icon" val="icon.etc_super_hp_potion_i05" />
 		<set name="default_action" val="skill_reduce" />
 		<set name="etcitem_type" val="elixir" />
@@ -273,7 +273,7 @@
 		<set name="item_skill" val="2907-5" />
 		<set name="use_condition" val="{{uc_in_residence_siege_field}}" />
 	</item>
-	<item id="14816" type="EtcItem" name="Territory Mana Recovery Potion">
+	<item id="14816" type="EtcItem" name="戰場用超強力精神靈藥">
 		<set name="icon" val="icon.etc_super_mp_potion_i05" />
 		<set name="default_action" val="skill_reduce" />
 		<set name="etcitem_type" val="elixir" />
@@ -289,7 +289,7 @@
 		<set name="item_skill" val="2908-5" />
 		<set name="use_condition" val="{{uc_in_residence_siege_field}}" />
 	</item>
-	<item id="14817" type="EtcItem" name="Territory CP Recovery Potion">
+	<item id="14817" type="EtcItem" name="戰場用超強力鬥志靈藥">
 		<set name="icon" val="icon.etc_super_cp_potion_i05" />
 		<set name="default_action" val="skill_reduce" />
 		<set name="etcitem_type" val="elixir" />
@@ -305,7 +305,7 @@
 		<set name="item_skill" val="2909-5" />
 		<set name="use_condition" val="{{uc_in_residence_siege_field}}" />
 	</item>
-	<item id="14818" type="EtcItem" name="Enriched Pet Food for Wolves">
+	<item id="14818" type="EtcItem" name="高濃縮強化寵物飼料">
 		<set name="icon" val="icon.etc_pouch_red_i00" />
 		<set name="default_action" val="skill_reduce" />
 		<set name="immediate_effect" val="1" />
@@ -318,7 +318,7 @@
 		<set name="item_skill" val="2916-1" />
 		<set name="use_condition" val="{{uc_category;{@grown_up_wolf_group}}}" />
 	</item>
-	<item id="14819" type="EtcItem" name="Guardian's Dragon Bugle">
+	<item id="14819" type="EtcItem" name="守護者龍號角">
 		<set name="icon" val="icon.etc_bugle_i00" />
 		<set name="default_action" val="skill_maintain" />
 		<set name="etcitem_type" val="pet_collar" />
@@ -331,7 +331,7 @@
 		<set name="item_skill" val="2046-1" />
 		<set name="use_condition" val="{{uc_transmode_exclude;{tt_flying;tt_pure_stat}}}" />
 	</item>
-	<item id="14820" type="EtcItem" name="Skull Key of Suffering">
+	<item id="14820" type="EtcItem" name="苦痛的骸骨鑰匙">
 		<set name="icon" val="icon.etc_skeleton_key_i00" />
 		<set name="default_action" val="skill_reduce" />
 		<set name="material" val="steel" />
@@ -342,7 +342,7 @@
 		<set name="is_stackable" val="true" />
 		<set name="item_skill" val="2910-1" />
 	</item>
-	<item id="14821" type="EtcItem" name="Skull Key of Erosion">
+	<item id="14821" type="EtcItem" name="侵蝕的骸骨鑰匙">
 		<set name="icon" val="icon.etc_skeleton_key_i00" />
 		<set name="default_action" val="skill_reduce" />
 		<set name="material" val="steel" />
@@ -353,7 +353,7 @@
 		<set name="is_stackable" val="true" />
 		<set name="item_skill" val="2911-1" />
 	</item>
-	<item id="14822" type="EtcItem" name="Skull Key of the Heart">
+	<item id="14822" type="EtcItem" name="心臟部的骸骨鑰匙">
 		<set name="icon" val="icon.etc_skeleton_key_i00" />
 		<set name="default_action" val="skill_reduce" />
 		<set name="material" val="steel" />
@@ -364,7 +364,7 @@
 		<set name="is_stackable" val="true" />
 		<set name="item_skill" val="2912-1" />
 	</item>
-	<item id="14823" type="EtcItem" name="Soul Extraction Device">
+	<item id="14823" type="EtcItem" name="靈魂抽取裝置">
 		<set name="icon" val="icon.etc_lantern_i00" />
 		<set name="default_action" val="skill_maintain" />
 		<set name="material" val="steel" />
@@ -375,7 +375,7 @@
 		<set name="item_skill" val="2913-1" />
 		<set name="use_condition" val="{{uc_inzone_num;{115;116;119;120;121;122}}}" />
 	</item>
-	<item id="14824" type="EtcItem" name="Ancient Herb - Slayer">
+	<item id="14824" type="EtcItem" name="原始藥草-虐殺者">
 		<set name="icon" val="icon.freed_soul_core_i00" />
 		<set name="default_action" val="skill_reduce" />
 		<set name="immediate_effect" val="1" />
@@ -385,7 +385,7 @@
 		<set name="handler" val="ItemSkills" />
 		<set name="item_skill" val="2900-1" />
 	</item>
-	<item id="14825" type="EtcItem" name="Ancient Herb - Immortal">
+	<item id="14825" type="EtcItem" name="原始藥草-不滅者">
 		<set name="icon" val="icon.freed_soul_core_i00" />
 		<set name="default_action" val="skill_reduce" />
 		<set name="immediate_effect" val="1" />
@@ -395,7 +395,7 @@
 		<set name="handler" val="ItemSkills" />
 		<set name="item_skill" val="2901-1" />
 	</item>
-	<item id="14826" type="EtcItem" name="Ancient Herb - Terminator">
+	<item id="14826" type="EtcItem" name="原始藥草-終結者">
 		<set name="icon" val="icon.freed_soul_core_i00" />
 		<set name="default_action" val="skill_reduce" />
 		<set name="immediate_effect" val="1" />
@@ -405,7 +405,7 @@
 		<set name="handler" val="ItemSkills" />
 		<set name="item_skill" val="2902-1" />
 	</item>
-	<item id="14827" type="EtcItem" name="Ancient Herb - Guide">
+	<item id="14827" type="EtcItem" name="原始藥草-引導者">
 		<set name="icon" val="icon.freed_soul_core_i00" />
 		<set name="default_action" val="skill_reduce" />
 		<set name="immediate_effect" val="1" />
@@ -415,7 +415,7 @@
 		<set name="handler" val="ItemSkills" />
 		<set name="item_skill" val="2903-1" />
 	</item>
-	<item id="14828" type="EtcItem" name="Deinonychus Mesozoic Stone">
+	<item id="14828" type="EtcItem" name="太初的生命石">
 		<set name="icon" val="icon.etc_life_stone_of_begining_i00" />
 		<set name="default_action" val="skill_maintain" />
 		<set name="etcitem_type" val="pet_collar" />
@@ -427,28 +427,28 @@
 		<set name="item_skill" val="2046-1" />
 		<set name="use_condition" val="{{uc_transmode_exclude;{tt_flying;tt_pure_stat}}}" />
 	</item>
-	<item id="14829" type="EtcItem" name="Cave Exploration Text 1 Sheet">
+	<item id="14829" type="EtcItem" name="洞窟探險之書 第1章">
 		<set name="icon" val="icon.etc_cave_page_i00" />
 		<set name="immediate_effect" val="1" />
 		<set name="material" val="liquid" />
 		<set name="is_depositable" val="false" />
 		<set name="is_stackable" val="true" />
 	</item>
-	<item id="14830" type="EtcItem" name="Cave Exploration Text 2 Sheet">
+	<item id="14830" type="EtcItem" name="洞窟探險之書 第2章">
 		<set name="icon" val="icon.etc_cave_page_i00" />
 		<set name="immediate_effect" val="1" />
 		<set name="material" val="liquid" />
 		<set name="is_depositable" val="false" />
 		<set name="is_stackable" val="true" />
 	</item>
-	<item id="14831" type="EtcItem" name="Cave Exploration Text 3 Sheet">
+	<item id="14831" type="EtcItem" name="洞窟探險之書 第3章">
 		<set name="icon" val="icon.etc_cave_page_i00" />
 		<set name="immediate_effect" val="1" />
 		<set name="material" val="liquid" />
 		<set name="is_depositable" val="false" />
 		<set name="is_stackable" val="true" />
 	</item>
-	<item id="14832" type="EtcItem" name="Growth Accelerator">
+	<item id="14832" type="EtcItem" name="成長促進劑">
 		<set name="icon" val="icon.etc_medicine_of_growth_i00" />
 		<set name="default_action" val="skill_reduce" />
 		<set name="etcitem_type" val="potion" />
@@ -461,7 +461,7 @@
 		<set name="handler" val="ItemSkills" />
 		<set name="item_skill" val="2905-1" />
 	</item>
-	<item id="14833" type="EtcItem" name="Small Stakato Cocoon">
+	<item id="14833" type="EtcItem" name="小型司塔卡拓的繭">
 		<set name="icon" val="icon.etc_dragon_egg_i04" />
 		<set name="default_action" val="capsule" />
 		<set name="immediate_effect" val="1" />
@@ -474,7 +474,7 @@
 		<set name="handler" val="ItemSkills" />
 		<set name="item_skill" val="2918-1" />
 	</item>
-	<item id="14834" type="EtcItem" name="Large Stakato Cocoon">
+	<item id="14834" type="EtcItem" name="大型司塔卡拓的繭">
 		<set name="icon" val="icon.etc_dragon_egg_i01" />
 		<set name="default_action" val="capsule" />
 		<set name="immediate_effect" val="1" />
@@ -487,7 +487,7 @@
 		<set name="handler" val="ItemSkills" />
 		<set name="item_skill" val="2917-1" />
 	</item>
-	<item id="14835" type="EtcItem" name="Multi-colored Jewel">
+	<item id="14835" type="EtcItem" name="五彩繽紛的礦石">
 		<set name="icon" val="icon.etc_crystal_cave_crystal_i02" />
 		<set name="default_action" val="skill_reduce" />
 		<set name="material" val="liquid" />
@@ -500,42 +500,42 @@
 		<set name="handler" val="ItemSkills" />
 		<set name="item_skill" val="2915-1" />
 	</item>
-	<item id="14836" type="EtcItem" name="Knowledge of the Giants Anthology, Chapter 1">
+	<item id="14836" type="EtcItem" name="巨人的知識全書-第1章">
 		<set name="icon" val="icon.etc_paper_black_i00" />
 		<set name="immediate_effect" val="1" />
 		<set name="material" val="paper" />
 		<set name="weight" val="2" />
 		<set name="is_stackable" val="true" />
 	</item>
-	<item id="14837" type="EtcItem" name="Knowledge of the Giants Anthology, Chapter 2">
+	<item id="14837" type="EtcItem" name="巨人的知識全書-第2章">
 		<set name="icon" val="icon.etc_paper_black_i00" />
 		<set name="immediate_effect" val="1" />
 		<set name="material" val="paper" />
 		<set name="weight" val="2" />
 		<set name="is_stackable" val="true" />
 	</item>
-	<item id="14838" type="EtcItem" name="Knowledge of the Giants Anthology, Chapter 3">
+	<item id="14838" type="EtcItem" name="巨人的知識全書-第3章">
 		<set name="icon" val="icon.etc_paper_black_i00" />
 		<set name="immediate_effect" val="1" />
 		<set name="material" val="paper" />
 		<set name="weight" val="2" />
 		<set name="is_stackable" val="true" />
 	</item>
-	<item id="14839" type="EtcItem" name="Knowledge of the Giants Anthology, Chapter 4">
+	<item id="14839" type="EtcItem" name="巨人的知識全書-第4章">
 		<set name="icon" val="icon.etc_paper_black_i00" />
 		<set name="immediate_effect" val="1" />
 		<set name="material" val="paper" />
 		<set name="weight" val="2" />
 		<set name="is_stackable" val="true" />
 	</item>
-	<item id="14840" type="EtcItem" name="Knowledge of the Giants Anthology, Chapter 5">
+	<item id="14840" type="EtcItem" name="巨人的知識全書-第5章">
 		<set name="icon" val="icon.etc_paper_black_i00" />
 		<set name="immediate_effect" val="1" />
 		<set name="material" val="paper" />
 		<set name="weight" val="2" />
 		<set name="is_stackable" val="true" />
 	</item>
-	<item id="14841" type="EtcItem" name="Ancient Parchment">
+	<item id="14841" type="EtcItem" name="古代的羊皮紙">
 		<set name="icon" val="icon.etc_roll_of_paper_black_i00" />
 		<set name="default_action" val="capsule" />
 		<set name="immediate_effect" val="1" />
@@ -545,42 +545,42 @@
 		<set name="handler" val="ItemSkills" />
 		<set name="item_skill" val="2919-1" />
 	</item>
-	<item id="14842" type="EtcItem" name="Wisdom of the Giants Text, Chapter 1">
+	<item id="14842" type="EtcItem" name="巨人的智慧之書-第1章">
 		<set name="icon" val="icon.etc_spell_books_white_i00" />
 		<set name="immediate_effect" val="1" />
 		<set name="material" val="paper" />
 		<set name="weight" val="2" />
 		<set name="is_stackable" val="true" />
 	</item>
-	<item id="14843" type="EtcItem" name="Wisdom of the Giants Text, Chapter 2">
+	<item id="14843" type="EtcItem" name="巨人的智慧之書-第2章">
 		<set name="icon" val="icon.etc_spell_books_white_i00" />
 		<set name="immediate_effect" val="1" />
 		<set name="material" val="paper" />
 		<set name="weight" val="2" />
 		<set name="is_stackable" val="true" />
 	</item>
-	<item id="14844" type="EtcItem" name="Wisdom of the Giants Text, Chapter 3">
+	<item id="14844" type="EtcItem" name="巨人的智慧之書-第3章">
 		<set name="icon" val="icon.etc_spell_books_white_i00" />
 		<set name="immediate_effect" val="1" />
 		<set name="material" val="paper" />
 		<set name="weight" val="2" />
 		<set name="is_stackable" val="true" />
 	</item>
-	<item id="14845" type="EtcItem" name="Wisdom of the Giants Text, Chapter 4">
+	<item id="14845" type="EtcItem" name="巨人的智慧之書-第4章">
 		<set name="icon" val="icon.etc_spell_books_white_i00" />
 		<set name="immediate_effect" val="1" />
 		<set name="material" val="paper" />
 		<set name="weight" val="2" />
 		<set name="is_stackable" val="true" />
 	</item>
-	<item id="14846" type="EtcItem" name="Wisdom of the Giants Text, Chapter 5">
+	<item id="14846" type="EtcItem" name="巨人的智慧之書-第5章">
 		<set name="icon" val="icon.etc_spell_books_white_i00" />
 		<set name="immediate_effect" val="1" />
 		<set name="material" val="paper" />
 		<set name="weight" val="2" />
 		<set name="is_stackable" val="true" />
 	</item>
-	<item id="14847" type="EtcItem" name="Titan Ancient Book">
+	<item id="14847" type="EtcItem" name="下巨人古書籍">
 		<set name="icon" val="icon.etc_spell_books_black_i00" />
 		<set name="default_action" val="capsule" />
 		<set name="immediate_effect" val="1" />
@@ -590,7 +590,7 @@
 		<set name="handler" val="ItemSkills" />
 		<set name="item_skill" val="2920-1" />
 	</item>
-	<item id="14848" type="EtcItem" name="Protection Soul's Pendant">
+	<item id="14848" type="EtcItem" name="守護靈魂的墜子">
 		<set name="icon" val="icon.ect_charm_of_protection_i00" />
 		<set name="immediate_effect" val="1" />
 		<set name="material" val="paper" />
@@ -601,7 +601,7 @@
 		<set name="is_depositable" val="false" />
 		<set name="is_stackable" val="true" />
 	</item>
-	<item id="14849" type="EtcItem" name="Kahman's Supply Box">
+	<item id="14849" type="EtcItem" name="卡姆恩的補給箱">
 		<set name="icon" val="icon.etc_jewel_box_i00" />
 		<set name="default_action" val="peel" />
 		<set name="immediate_effect" val="1" />
@@ -614,7 +614,7 @@
 		<set name="is_stackable" val="true" />
 		<set name="capsuled_items" val="9625,1,1,100;9626,1,1,80" />
 	</item>
-	<item id="14850" type="EtcItem" name="Droph's Support Items">
+	<item id="14850" type="EtcItem" name="德洛夫的支援品">
 		<set name="icon" val="icon.etc_jewel_box_i00" />
 		<set name="default_action" val="peel" />
 		<set name="immediate_effect" val="1" />
@@ -627,7 +627,7 @@
 		<set name="is_stackable" val="true" />
 		<set name="capsuled_items" val="5575,140000,240000,100" />
 	</item>
-	<item id="14851" type="EtcItem" name="Cave Exploration Text 1 Sheet">
+	<item id="14851" type="EtcItem" name="洞窟探險之書 第1章">
 		<set name="icon" val="icon.etc_cave_page_i00" />
 		<set name="immediate_effect" val="1" />
 		<set name="material" val="paper" />
@@ -635,7 +635,7 @@
 		<set name="is_depositable" val="false" />
 		<set name="is_stackable" val="true" />
 	</item>
-	<item id="14852" type="EtcItem" name="Cave Exploration Text 2 Sheet">
+	<item id="14852" type="EtcItem" name="洞窟探險之書 第2章">
 		<set name="icon" val="icon.etc_cave_page_i00" />
 		<set name="immediate_effect" val="1" />
 		<set name="material" val="paper" />
@@ -643,7 +643,7 @@
 		<set name="is_depositable" val="false" />
 		<set name="is_stackable" val="true" />
 	</item>
-	<item id="14853" type="EtcItem" name="Cave Exploration Text 3 Sheet">
+	<item id="14853" type="EtcItem" name="洞窟探險之書 第3章">
 		<set name="icon" val="icon.etc_cave_page_i00" />
 		<set name="immediate_effect" val="1" />
 		<set name="material" val="paper" />
@@ -651,7 +651,7 @@
 		<set name="is_depositable" val="false" />
 		<set name="is_stackable" val="true" />
 	</item>
-	<item id="14854" type="EtcItem" name="Recipe - Spiteful Soul Energy">
+	<item id="14854" type="EtcItem" name="製作卷軸(怨靈能量)">
 		<set name="icon" val="icon.etc_recipe_white_i00" />
 		<set name="default_action" val="recipe" />
 		<set name="immediate_effect" val="1" />
@@ -664,7 +664,7 @@
 		<set name="is_depositable" val="false" />
 		<set name="is_stackable" val="true" />
 	</item>
-	<item id="14855" type="EtcItem" name="Spiteful Soul Energy">
+	<item id="14855" type="EtcItem" name="怨靈能量">
 		<set name="icon" val="icon.etc_crystal_ball_blue_i00" />
 		<set name="immediate_effect" val="1" />
 		<set name="material" val="paper" />
@@ -672,7 +672,7 @@
 		<set name="is_depositable" val="false" />
 		<set name="is_stackable" val="true" />
 	</item>
-	<item id="14856" type="EtcItem" name="Spiteful Soul Vengeance">
+	<item id="14856" type="EtcItem" name="怨靈的冤魂">
 		<set name="icon" val="icon.etc_bead_silver_i00" />
 		<set name="immediate_effect" val="1" />
 		<set name="material" val="paper" />
@@ -680,7 +680,7 @@
 		<set name="is_depositable" val="false" />
 		<set name="is_stackable" val="true" />
 	</item>
-	<item id="14857" type="EtcItem" name="Shell of Monsters">
+	<item id="14857" type="EtcItem" name="魔物的甲殼">
 		<set name="icon" val="icon.etc_bark_gold_i00" />
 		<set name="immediate_effect" val="1" />
 		<set name="material" val="paper" />
@@ -691,7 +691,7 @@
 		<set name="is_stackable" val="true" />
 		<set name="is_questitem" val="true" />
 	</item>
-	<item id="14858" type="EtcItem" name="Scout's Note">
+	<item id="14858" type="EtcItem" name="偵查兵的偵查記錄">
 		<set name="icon" val="icon.etc_piece_of_report_i00" />
 		<set name="immediate_effect" val="1" />
 		<set name="material" val="paper" />
@@ -702,7 +702,7 @@
 		<set name="is_stackable" val="true" />
 		<set name="is_questitem" val="true" />
 	</item>
-	<item id="14859" type="EtcItem" name="Stakato Queen's Fang">
+	<item id="14859" type="EtcItem" name="司塔卡拓女王的牙齒">
 		<set name="icon" val="icon.etc_claw_i00" />
 		<set name="immediate_effect" val="1" />
 		<set name="material" val="paper" />
@@ -713,7 +713,7 @@
 		<set name="is_stackable" val="true" />
 		<set name="is_questitem" val="true" />
 	</item>
-	<item id="14860" type="EtcItem" name="Box Containing the Flame of the Holy Spirit">
+	<item id="14860" type="EtcItem" name="藏有聖火的寶箱">
 		<set name="icon" val="icon.etc_jewel_box_i00" />
 		<set name="immediate_effect" val="1" />
 		<set name="material" val="paper" />
@@ -724,7 +724,7 @@
 		<set name="is_stackable" val="true" />
 		<set name="is_questitem" val="true" />
 	</item>
-	<item id="14861" type="EtcItem" name="Cursed Burial Items">
+	<item id="14861" type="EtcItem" name="受詛咒的陪葬品">
 		<set name="icon" val="icon.etc_totem_black_i00" />
 		<set name="immediate_effect" val="1" />
 		<set name="material" val="paper" />
@@ -735,7 +735,7 @@
 		<set name="is_stackable" val="true" />
 		<set name="is_questitem" val="true" />
 	</item>
-	<item id="14862" type="EtcItem" name="Flauen's Letter">
+	<item id="14862" type="EtcItem" name="朋勞恩的信">
 		<set name="icon" val="icon.etc_letter_envelope_i00" />
 		<set name="immediate_effect" val="1" />
 		<set name="material" val="paper" />
@@ -746,7 +746,7 @@
 		<set name="is_stackable" val="true" />
 		<set name="is_questitem" val="true" />
 	</item>
-	<item id="14863" type="EtcItem" name="Letter to Helvetica">
+	<item id="14863" type="EtcItem" name="寄給德斯寇佐的信">
 		<set name="icon" val="icon.etc_letter_red_i00" />
 		<set name="immediate_effect" val="1" />
 		<set name="material" val="paper" />
@@ -757,7 +757,7 @@
 		<set name="is_stackable" val="true" />
 		<set name="is_questitem" val="true" />
 	</item>
-	<item id="14864" type="EtcItem" name="Letter to Athenia">
+	<item id="14864" type="EtcItem" name="寄給雅泰妮亞的信">
 		<set name="icon" val="icon.etc_letter_blue_i00" />
 		<set name="immediate_effect" val="1" />
 		<set name="material" val="paper" />
@@ -768,7 +768,7 @@
 		<set name="is_stackable" val="true" />
 		<set name="is_questitem" val="true" />
 	</item>
-	<item id="14865" type="EtcItem" name="Certificate of Support">
+	<item id="14865" type="EtcItem" name="平原開發研究所認證書">
 		<set name="icon" val="icon.etc_letter_red_i00" />
 		<set name="immediate_effect" val="1" />
 		<set name="material" val="paper" />
@@ -779,7 +779,7 @@
 		<set name="is_stackable" val="true" />
 		<set name="is_questitem" val="true" />
 	</item>
-	<item id="14866" type="EtcItem" name="Certificate of Support">
+	<item id="14866" type="EtcItem" name="淨化儀式場認證書">
 		<set name="icon" val="icon.etc_letter_blue_i00" />
 		<set name="immediate_effect" val="1" />
 		<set name="material" val="paper" />
@@ -790,7 +790,7 @@
 		<set name="is_stackable" val="true" />
 		<set name="is_questitem" val="true" />
 	</item>
-	<item id="14867" type="EtcItem" name="Damaged Torch Fragment">
+	<item id="14867" type="EtcItem" name="破損的魔法陣碎片">
 		<set name="icon" val="icon.etc_charcoal_i00" />
 		<set name="immediate_effect" val="1" />
 		<set name="material" val="paper" />
@@ -801,7 +801,7 @@
 		<set name="is_stackable" val="true" />
 		<set name="is_questitem" val="true" />
 	</item>
-	<item id="14868" type="EtcItem" name="Guardian Spirit Fragment">
+	<item id="14868" type="EtcItem" name="守護靈的破片">
 		<set name="icon" val="icon.etc_crystal_ball_blue_i00" />
 		<set name="immediate_effect" val="1" />
 		<set name="material" val="paper" />
@@ -812,7 +812,7 @@
 		<set name="is_stackable" val="true" />
 		<set name="is_questitem" val="true" />
 	</item>
-	<item id="14869" type="EtcItem" name="Destroyed machine piece">
+	<item id="14869" type="EtcItem" name="被破壞的掩埋機零件碎片">
 		<set name="icon" val="icon.etc_plate_black_i00" />
 		<set name="immediate_effect" val="1" />
 		<set name="material" val="paper" />
@@ -823,7 +823,7 @@
 		<set name="is_stackable" val="true" />
 		<set name="is_questitem" val="true" />
 	</item>
-	<item id="14870" type="EtcItem" name="Enchanted Golem Fragment">
+	<item id="14870" type="EtcItem" name="強化高崙破片">
 		<set name="icon" val="icon.etc_plate_glay_i00" />
 		<set name="immediate_effect" val="1" />
 		<set name="material" val="paper" />
@@ -834,7 +834,7 @@
 		<set name="is_stackable" val="true" />
 		<set name="is_questitem" val="true" />
 	</item>
-	<item id="14871" type="EtcItem" name="Mucrokian Hide">
+	<item id="14871" type="EtcItem" name="瑪可羅津的皮">
 		<set name="icon" val="icon.etc_leather_gray_i00" />
 		<set name="immediate_effect" val="1" />
 		<set name="material" val="paper" />
@@ -845,7 +845,7 @@
 		<set name="is_stackable" val="true" />
 		<set name="is_questitem" val="true" />
 	</item>
-	<item id="14872" type="EtcItem" name="Awakened Mucrokian Hide">
+	<item id="14872" type="EtcItem" name="覺醒的瑪可羅津的皮">
 		<set name="icon" val="icon.etc_leather_brown_i00" />
 		<set name="immediate_effect" val="1" />
 		<set name="material" val="paper" />
@@ -856,7 +856,7 @@
 		<set name="is_stackable" val="true" />
 		<set name="is_questitem" val="true" />
 	</item>
-	<item id="14873" type="EtcItem" name="Mucrokian Hide">
+	<item id="14873" type="EtcItem" name="瑪可羅津的皮">
 		<set name="icon" val="icon.etc_leather_gray_i00" />
 		<set name="immediate_effect" val="1" />
 		<set name="material" val="paper" />
@@ -867,7 +867,7 @@
 		<set name="is_stackable" val="true" />
 		<set name="is_questitem" val="true" />
 	</item>
-	<item id="14874" type="EtcItem" name="Fallen Mucrokian Hide">
+	<item id="14874" type="EtcItem" name="墮落的瑪可羅津的皮">
 		<set name="icon" val="icon.etc_leather_brown_i00" />
 		<set name="immediate_effect" val="1" />
 		<set name="material" val="paper" />
@@ -878,7 +878,7 @@
 		<set name="is_stackable" val="true" />
 		<set name="is_questitem" val="true" />
 	</item>
-	<item id="14875" type="EtcItem" name="Mineral Fragment">
+	<item id="14875" type="EtcItem" name="礦物破片">
 		<set name="icon" val="icon.etc_debris_i00" />
 		<set name="immediate_effect" val="1" />
 		<set name="material" val="paper" />
@@ -889,7 +889,7 @@
 		<set name="is_stackable" val="true" />
 		<set name="is_questitem" val="true" />
 	</item>
-	<item id="14876" type="EtcItem" name="Evidence of Migration">
+	<item id="14876" type="EtcItem" name="懷柔的證據">
 		<set name="icon" val="icon.etc_paper_red_i00" />
 		<set name="immediate_effect" val="1" />
 		<set name="material" val="paper" />
@@ -900,7 +900,7 @@
 		<set name="is_stackable" val="true" />
 		<set name="is_questitem" val="true" />
 	</item>
-	<item id="14877" type="EtcItem" name="Replenished Power Bead">
+	<item id="14877" type="EtcItem" name="充電的結界之珠">
 		<set name="icon" val="icon.etc_crystal_ball_blue_i00" />
 		<set name="immediate_effect" val="1" />
 		<set name="material" val="paper" />
@@ -911,7 +911,7 @@
 		<set name="is_stackable" val="true" />
 		<set name="is_questitem" val="true" />
 	</item>
-	<item id="14878" type="EtcItem" name="Discharged Power Bead">
+	<item id="14878" type="EtcItem" name="放電的結界之珠">
 		<set name="icon" val="icon.etc_bead_silver_i00" />
 		<set name="immediate_effect" val="1" />
 		<set name="material" val="paper" />
@@ -922,7 +922,7 @@
 		<set name="is_stackable" val="true" />
 		<set name="is_questitem" val="true" />
 	</item>
-	<item id="14879" type="EtcItem" name="Stakato Fang">
+	<item id="14879" type="EtcItem" name="司塔卡拓的牙齒">
 		<set name="icon" val="icon.etc_claw_i00" />
 		<set name="immediate_effect" val="1" />
 		<set name="material" val="paper" />
@@ -933,7 +933,7 @@
 		<set name="is_stackable" val="true" />
 		<set name="is_questitem" val="true" />
 	</item>
-	<item id="14880" type="EtcItem" name="Dirty Bead">
+	<item id="14880" type="EtcItem" name="骯髒的珠子">
 		<set name="icon" val="icon.etc_bead_gold_i00" />
 		<set name="immediate_effect" val="1" />
 		<set name="material" val="paper" />
@@ -944,7 +944,7 @@
 		<set name="is_stackable" val="true" />
 		<set name="is_questitem" val="true" />
 	</item>
-	<item id="14881" type="EtcItem" name="Soul Core Containing Evil Spirit">
+	<item id="14881" type="EtcItem" name="封住惡靈的靈魂之核">
 		<set name="icon" val="icon.etc_evil_soul_core_i00" />
 		<set name="immediate_effect" val="1" />
 		<set name="material" val="paper" />
@@ -955,7 +955,7 @@
 		<set name="is_stackable" val="true" />
 		<set name="is_questitem" val="true" />
 	</item>
-	<item id="14882" type="EtcItem" name="Ragna Orc's Amulet">
+	<item id="14882" type="EtcItem" name="羅格那獸人的符咒">
 		<set name="icon" val="icon.etc_totem_red_i00" />
 		<set name="immediate_effect" val="1" />
 		<set name="material" val="paper" />
@@ -966,7 +966,7 @@
 		<set name="is_stackable" val="true" />
 		<set name="is_questitem" val="true" />
 	</item>
-	<item id="14883" type="EtcItem" name="Hisilrome's Heart">
+	<item id="14883" type="EtcItem" name="希瑟雷蒙的心臟">
 		<set name="icon" val="icon.etc_bodypart_heart_i00" />
 		<set name="immediate_effect" val="1" />
 		<set name="material" val="paper" />
@@ -976,7 +976,7 @@
 		<set name="is_stackable" val="true" />
 		<set name="is_questitem" val="true" />
 	</item>
-	<item id="14884" type="EtcItem" name="Gludio Supply Box - Magic Rune Clip - Grade S, A">
+	<item id="14884" type="EtcItem" name="古魯丁補給箱-魔法古文夾">
 		<set name="icon" val="icon.etc_box_of_adventure_1_i00" />
 		<set name="default_action" val="capsule" />
 		<set name="immediate_effect" val="1" />
@@ -989,7 +989,7 @@
 		<set name="handler" val="ItemSkills" />
 		<set name="item_skill" val="2975-1" />
 	</item>
-	<item id="14885" type="EtcItem" name="Dion Supply Box - Magic Rune Clip - Grade S, A">
+	<item id="14885" type="EtcItem" name="狄恩補給箱-魔法古文夾">
 		<set name="icon" val="icon.etc_box_of_adventure_1_i00" />
 		<set name="default_action" val="capsule" />
 		<set name="immediate_effect" val="1" />
@@ -1002,7 +1002,7 @@
 		<set name="handler" val="ItemSkills" />
 		<set name="item_skill" val="2976-1" />
 	</item>
-	<item id="14886" type="EtcItem" name="Giran Supply Box - Magic Rune Clip - Grade S, A">
+	<item id="14886" type="EtcItem" name="奇岩補給箱-魔法古文夾">
 		<set name="icon" val="icon.etc_box_of_adventure_1_i00" />
 		<set name="default_action" val="capsule" />
 		<set name="immediate_effect" val="1" />
@@ -1015,7 +1015,7 @@
 		<set name="handler" val="ItemSkills" />
 		<set name="item_skill" val="2977-1" />
 	</item>
-	<item id="14887" type="EtcItem" name="Oren Supply Box - Magic Rune Clip - Grade S, A">
+	<item id="14887" type="EtcItem" name="歐瑞補給箱-魔法古文夾">
 		<set name="icon" val="icon.etc_box_of_adventure_1_i00" />
 		<set name="default_action" val="capsule" />
 		<set name="immediate_effect" val="1" />
@@ -1028,7 +1028,7 @@
 		<set name="handler" val="ItemSkills" />
 		<set name="item_skill" val="2978-1" />
 	</item>
-	<item id="14888" type="EtcItem" name="Aden Supply Box - Magic Rune Clip - Grade S, A">
+	<item id="14888" type="EtcItem" name="亞丁補給箱-魔法古文夾">
 		<set name="icon" val="icon.etc_box_of_adventure_1_i00" />
 		<set name="default_action" val="capsule" />
 		<set name="immediate_effect" val="1" />
@@ -1041,7 +1041,7 @@
 		<set name="handler" val="ItemSkills" />
 		<set name="item_skill" val="2979-1" />
 	</item>
-	<item id="14889" type="EtcItem" name="Innadril Supply Box - Magic Rune Clip - Grade S, A">
+	<item id="14889" type="EtcItem" name="因納得立補給箱-魔法古文夾">
 		<set name="icon" val="icon.etc_box_of_adventure_1_i00" />
 		<set name="default_action" val="capsule" />
 		<set name="immediate_effect" val="1" />
@@ -1054,7 +1054,7 @@
 		<set name="handler" val="ItemSkills" />
 		<set name="item_skill" val="2980-1" />
 	</item>
-	<item id="14890" type="EtcItem" name="Goddard Supply Box - Magic Rune Clip - Grade S, A">
+	<item id="14890" type="EtcItem" name="高達特補給箱-魔法古文夾">
 		<set name="icon" val="icon.etc_box_of_adventure_1_i00" />
 		<set name="default_action" val="capsule" />
 		<set name="immediate_effect" val="1" />
@@ -1067,7 +1067,7 @@
 		<set name="handler" val="ItemSkills" />
 		<set name="item_skill" val="2981-1" />
 	</item>
-	<item id="14891" type="EtcItem" name="Rune Supply Box - Magic Rune Clip - Grade S, A">
+	<item id="14891" type="EtcItem" name="魯因補給箱-魔法古文夾">
 		<set name="icon" val="icon.etc_box_of_adventure_1_i00" />
 		<set name="default_action" val="capsule" />
 		<set name="immediate_effect" val="1" />
@@ -1080,7 +1080,7 @@
 		<set name="handler" val="ItemSkills" />
 		<set name="item_skill" val="2982-1" />
 	</item>
-	<item id="14892" type="EtcItem" name="Schuttgart Supply Box - Magic Rune Clip - Grade S, A">
+	<item id="14892" type="EtcItem" name="修加特補給箱-魔法古文夾">
 		<set name="icon" val="icon.etc_box_of_adventure_1_i00" />
 		<set name="default_action" val="capsule" />
 		<set name="immediate_effect" val="1" />
@@ -1093,7 +1093,7 @@
 		<set name="handler" val="ItemSkills" />
 		<set name="item_skill" val="2983-1" />
 	</item>
-	<item id="14893" type="EtcItem" name="Gludio Supply Box - Magic Ornament - Grade S, A">
+	<item id="14893" type="EtcItem" name="古魯丁補給箱-魔法飾品">
 		<set name="icon" val="icon.etc_box_of_adventure_2_i00" />
 		<set name="default_action" val="capsule" />
 		<set name="immediate_effect" val="1" />
@@ -1106,7 +1106,7 @@
 		<set name="handler" val="ItemSkills" />
 		<set name="item_skill" val="2984-1" />
 	</item>
-	<item id="14894" type="EtcItem" name="Dion Supply Box - Magic Ornament - Grade S, A">
+	<item id="14894" type="EtcItem" name="狄恩補給箱-魔法飾品">
 		<set name="icon" val="icon.etc_box_of_adventure_2_i00" />
 		<set name="default_action" val="capsule" />
 		<set name="immediate_effect" val="1" />
@@ -1119,7 +1119,7 @@
 		<set name="handler" val="ItemSkills" />
 		<set name="item_skill" val="2985-1" />
 	</item>
-	<item id="14895" type="EtcItem" name="Giran Supply Box - Magic Ornament - Grade S, A">
+	<item id="14895" type="EtcItem" name="奇岩補給箱-魔法飾品">
 		<set name="icon" val="icon.etc_box_of_adventure_2_i00" />
 		<set name="default_action" val="capsule" />
 		<set name="immediate_effect" val="1" />
@@ -1132,7 +1132,7 @@
 		<set name="handler" val="ItemSkills" />
 		<set name="item_skill" val="2986-1" />
 	</item>
-	<item id="14896" type="EtcItem" name="Oren Supply Box - Magic Ornament - Grade S, A">
+	<item id="14896" type="EtcItem" name="歐瑞補給箱-魔法飾品">
 		<set name="icon" val="icon.etc_box_of_adventure_2_i00" />
 		<set name="default_action" val="capsule" />
 		<set name="immediate_effect" val="1" />
@@ -1145,7 +1145,7 @@
 		<set name="handler" val="ItemSkills" />
 		<set name="item_skill" val="2987-1" />
 	</item>
-	<item id="14897" type="EtcItem" name="Aden Supply Box - Magic Ornament - Grade S, A">
+	<item id="14897" type="EtcItem" name="亞丁補給箱-魔法飾品">
 		<set name="icon" val="icon.etc_box_of_adventure_2_i00" />
 		<set name="default_action" val="capsule" />
 		<set name="immediate_effect" val="1" />
@@ -1158,7 +1158,7 @@
 		<set name="handler" val="ItemSkills" />
 		<set name="item_skill" val="2988-1" />
 	</item>
-	<item id="14898" type="EtcItem" name="Innadril Supply Box - Magic Ornament - Grade S, A">
+	<item id="14898" type="EtcItem" name="因納得立補給箱-魔法飾品">
 		<set name="icon" val="icon.etc_box_of_adventure_2_i00" />
 		<set name="default_action" val="capsule" />
 		<set name="immediate_effect" val="1" />
@@ -1171,7 +1171,7 @@
 		<set name="handler" val="ItemSkills" />
 		<set name="item_skill" val="2989-1" />
 	</item>
-	<item id="14899" type="EtcItem" name="Goddard Supply Box - Magic Ornament - Grade S, A">
+	<item id="14899" type="EtcItem" name="高達特補給箱-魔法飾品">
 		<set name="icon" val="icon.etc_box_of_adventure_2_i00" />
 		<set name="default_action" val="capsule" />
 		<set name="immediate_effect" val="1" />

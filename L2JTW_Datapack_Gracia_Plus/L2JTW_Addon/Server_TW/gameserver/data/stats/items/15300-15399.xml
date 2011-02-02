@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <list>
-	<item id="15300" type="Weapon" name="NPC exclusive transparent dual">
+	<item id="15300" type="Weapon" name="NPC用透明雙刀">
 		<set name="icon" val="icon.weapon_dual_sword_i00" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="dual" />
@@ -27,7 +27,7 @@
 			<set order="0x08" stat="pAtkSpd" val="325" />
 		</for>
 	</item>
-	<item id="15301" type="Weapon" name="NPC exclusive transparent pole">
+	<item id="15301" type="Weapon" name="NPC用透明槍">
 		<set name="icon" val="icon.weapon_long_spear_i00" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="pole" />
@@ -56,7 +56,7 @@
 			<set order="0x08" stat="pAtkSpd" val="325" />
 		</for>
 	</item>
-	<item id="15302" type="Weapon" name="NPC exclusive transparent bow">
+	<item id="15302" type="Weapon" name="NPC用透明弓">
 		<set name="icon" val="icon.weapon_long_bow_i00" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="bow" />
@@ -87,7 +87,7 @@
 			<set order="0x08" stat="pAtkSpd" val="227" />
 		</for>
 	</item>
-	<item id="15303" type="Weapon" name="NPC exclusive transparent claw">
+	<item id="15303" type="Weapon" name="NPC用透明爪">
 		<set name="icon" val="icon.weapon_foxs_nail_i00" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="dualfist" />
@@ -117,7 +117,7 @@
 			<set order="0x08" stat="pAtkSpd" val="325" />
 		</for>
 	</item>
-	<item id="15304" type="Weapon" name="NPC exclusive transparent bowgun">
+	<item id="15304" type="Weapon" name="NPC用透明弩">
 		<set name="icon" val="icon.weapon_hunting_gun_i00" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="crossbow" />
@@ -148,7 +148,7 @@
 			<set order="0x08" stat="pAtkSpd" val="303" />
 		</for>
 	</item>
-	<item id="15305" type="Weapon" name="NPC exclusive transparent rapier">
+	<item id="15305" type="Weapon" name="NPC用透明細劍">
 		<set name="icon" val="icon.weapon_rapier_i00" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="rapier" />
@@ -178,7 +178,7 @@
 			<set order="0x08" stat="pAtkSpd" val="406" />
 		</for>
 	</item>
-	<item id="15306" type="Weapon" name="NPC exclusive transparent dual dagger">
+	<item id="15306" type="Weapon" name="NPC用透明雙匕首">
 		<set name="icon" val="icon.dual_dagger_i00" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="dualdagger" />
@@ -209,7 +209,7 @@
 			<set order="0x08" stat="pAtkSpd" val="433" />
 		</for>
 	</item>
-	<item id="15307" type="EtcItem" name="Holy Pomander - Cardinal">
+	<item id="15307" type="EtcItem" name="神聖香盒-樞機主教">
 		<set name="icon" val="icon.etc_saint_pomander_bishop_i00" />
 		<set name="immediate_effect" val="1" />
 		<set name="material" val="paper" />
@@ -220,7 +220,7 @@
 		<set name="is_sellable" val="false" />
 		<set name="is_depositable" val="false" />
 	</item>
-	<item id="15308" type="EtcItem" name="Holy Pomander - Eva's Saint">
+	<item id="15308" type="EtcItem" name="神聖香盒-伊娃聖者">
 		<set name="icon" val="icon.etc_saint_pomander_elder_i00" />
 		<set name="immediate_effect" val="1" />
 		<set name="material" val="paper" />
@@ -231,7 +231,7 @@
 		<set name="is_sellable" val="false" />
 		<set name="is_depositable" val="false" />
 	</item>
-	<item id="15309" type="EtcItem" name="Holy Pomander - Shillien Saint">
+	<item id="15309" type="EtcItem" name="神聖香盒-席琳聖者">
 		<set name="icon" val="icon.etc_saint_pomander_silienelder_i00" />
 		<set name="immediate_effect" val="1" />
 		<set name="material" val="paper" />
@@ -242,7 +242,7 @@
 		<set name="is_sellable" val="false" />
 		<set name="is_depositable" val="false" />
 	</item>
-	<item id="15310" type="Weapon" name="Sacred Sword of Einhasad">
+	<item id="15310" type="Weapon" name="殷海薩聖劍">
 		<set name="icon" val="icon.weapon_the_sword_of_hero_i00" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="sword" />
@@ -270,7 +270,7 @@
 			<set order="0x08" stat="pAtkSpd" val="379" />
 		</for>
 	</item>
-	<item id="15311" type="EtcItem" name="Delusion Chamber Invitation">
+	<item id="15311" type="EtcItem" name="夢幻結界邀請書">
 		<set name="icon" val="icon.etc_magic_coin_gold_i01" />
 		<set name="immediate_effect" val="1" />
 		<set name="material" val="paper" />
@@ -280,7 +280,7 @@
 		<set name="is_sellable" val="false" />
 		<set name="is_depositable" val="false" />
 	</item>
-	<item id="15312" type="Armor" name="Dawn's Bracelet">
+	<item id="15312" type="Armor" name="黎明的手鐲">
 		<set name="icon" val="icon.accessory_lbracelet_of_dawn" />
 		<set name="default_action" val="equip" />
 		<set name="bodypart" val="lbracelet" />
@@ -295,7 +295,7 @@
 		<set name="is_depositable" val="false" />
 		<set name="item_skill" val="8337-1" />
 	</item>
-	<item id="15313" type="Weapon" name="PC cafe' exclusive - Forgotten Blade - Weapons for PC Cafe Use">
+	<item id="15313" type="Weapon" name="活動用-忘卻之刃">
 		<set name="icon" val="icon.weapon_forgotten_blade_i00" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="sword" />
@@ -324,7 +324,7 @@
 			<set order="0x08" stat="pAtkSpd" val="379" />
 		</for>
 	</item>
-	<item id="15314" type="Weapon" name="For PC cafe use - Basalt Battlehammer - Weapons for PC Cafe Use">
+	<item id="15314" type="Weapon" name="活動用-玄武岩戰鎚">
 		<set name="icon" val="icon.weapon_basalt_battlehammer_i00" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="blunt" />
@@ -355,7 +355,7 @@
 			<set order="0x08" stat="pAtkSpd" val="379" />
 		</for>
 	</item>
-	<item id="15315" type="Weapon" name="For PC cafe use - Imperial Staff - Weapons for PC Cafe Use">
+	<item id="15315" type="Weapon" name="活動用-帝國權杖">
 		<set name="icon" val="icon.weapon_imperial_staff_i00" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="bigblunt" />
@@ -387,7 +387,7 @@
 			<set order="0x08" stat="pAtkSpd" val="325" />
 		</for>
 	</item>
-	<item id="15316" type="Weapon" name="For PC cafe use - Angel Slayer - Weapons for PC Cafe Use">
+	<item id="15316" type="Weapon" name="活動用-天使殺手">
 		<set name="icon" val="icon.weapon_angel_slayer_i00" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="dagger" />
@@ -418,7 +418,7 @@
 			<set order="0x08" stat="pAtkSpd" val="433" />
 		</for>
 	</item>
-	<item id="15317" type="Weapon" name="For PC cafe use - Dragon Hunter Axe - Weapons for PC Cafe Use">
+	<item id="15317" type="Weapon" name="活動用-狩龍之斧">
 		<set name="icon" val="icon.weapon_dragon_hunter_axe_i00" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="bigblunt" />
@@ -449,7 +449,7 @@
 			<set order="0x08" stat="pAtkSpd" val="325" />
 		</for>
 	</item>
-	<item id="15318" type="Weapon" name="For PC cafe use - Saint Spear - Weapons for PC Cafe Use">
+	<item id="15318" type="Weapon" name="活動用-聖者之矛">
 		<set name="icon" val="icon.weapon_saint_spear_i00" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="pole" />
@@ -480,7 +480,7 @@
 			<set order="0x08" stat="pAtkSpd" val="325" />
 		</for>
 	</item>
-	<item id="15319" type="Weapon" name="For PC cafe use - Demon Splinter - Weapons for PC Cafe Use">
+	<item id="15319" type="Weapon" name="活動用-惡魔獵爪">
 		<set name="icon" val="icon.weapon_demon_splinter_i00" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="dualfist" />
@@ -511,7 +511,7 @@
 			<set order="0x08" stat="pAtkSpd" val="325" />
 		</for>
 	</item>
-	<item id="15320" type="Weapon" name="For PC cafe use - Heaven's Divider - Weapons for PC Cafe Use">
+	<item id="15320" type="Weapon" name="活動用-天國審判">
 		<set name="icon" val="icon.weapon_heavens_divider_i00" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="bigsword" />
@@ -540,7 +540,7 @@
 			<set order="0x08" stat="pAtkSpd" val="325" />
 		</for>
 	</item>
-	<item id="15321" type="Weapon" name="For PC cafe use - Arcana Macw - Weapons for PC Cafe Use">
+	<item id="15321" type="Weapon" name="活動用-秘儀權杖">
 		<set name="icon" val="icon.weapon_arcana_mace_i00" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="blunt" />
@@ -572,7 +572,7 @@
 			<set order="0x08" stat="pAtkSpd" val="379" />
 		</for>
 	</item>
-	<item id="15322" type="Weapon" name="For PC cafe use - Draconic Bow - Weapons for PC Cafe Use">
+	<item id="15322" type="Weapon" name="活動用-紅龍之弓">
 		<set name="icon" val="icon.weapon_draconic_bow_i00" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="bow" />
@@ -605,7 +605,7 @@
 			<set order="0x08" stat="pAtkSpd" val="293" />
 		</for>
 	</item>
-	<item id="15323" type="Weapon" name="For PC cafe use - Laevateinn - Weapons for PC Cafe Use">
+	<item id="15323" type="Weapon" name="活動用-烈焚天">
 		<set name="icon" val="icon.weapon_leavatein_i00" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="rapier" />
@@ -638,7 +638,7 @@
 			<set order="0x08" stat="pAtkSpd" val="406" />
 		</for>
 	</item>
-	<item id="15324" type="Weapon" name="For PC cafe use - Gram - Weapons for PC Cafe Use">
+	<item id="15324" type="Weapon" name="活動用-勝利之劍格蘭">
 		<set name="icon" val="icon.weapon_gram_i01" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="ancientsword" />
@@ -670,7 +670,7 @@
 			<set order="0x08" stat="pAtkSpd" val="350" />
 		</for>
 	</item>
-	<item id="15325" type="Weapon" name="For PC cafe use - Sarnga - Weapons for PC Cafe Use">
+	<item id="15325" type="Weapon" name="活動用-薩倫伽神弩">
 		<set name="icon" val="icon.weapon_sarnga_i00" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="crossbow" />
@@ -703,7 +703,7 @@
 			<set order="0x08" stat="pAtkSpd" val="303" />
 		</for>
 	</item>
-	<item id="15326" type="Weapon" name="For PC cafe use - Tallum Blade *Dark Legion - Weapons for PC Cafe Use">
+	<item id="15326" type="Weapon" name="活動用-塔魯刀*黑暗軍刀">
 		<set name="icon" val="icon.weapon_dual_sword_i00" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="dual" />
@@ -732,7 +732,7 @@
 			<set order="0x08" stat="pAtkSpd" val="325" />
 		</for>
 	</item>
-	<item id="15327" type="EtcItem" name="Seed: Sea Coba">
+	<item id="15327" type="EtcItem" name="海洋柯巴種子">
 		<set name="icon" val="icon.etc_sea_coba_seed_i00" />
 		<set name="default_action" val="seed" />
 		<set name="etcitem_type" val="seed" />
@@ -743,7 +743,7 @@
 		<set name="handler" val="Seed" />
 		<set name="item_skill" val="2097-3" />
 	</item>
-	<item id="15328" type="EtcItem" name="Seed: Sea Coba">
+	<item id="15328" type="EtcItem" name="海洋柯巴種子">
 		<set name="icon" val="icon.etc_sea_coba_seed_i00" />
 		<set name="default_action" val="seed" />
 		<set name="etcitem_type" val="seed" />
@@ -754,7 +754,7 @@
 		<set name="handler" val="Seed" />
 		<set name="item_skill" val="2097-3" />
 	</item>
-	<item id="15329" type="EtcItem" name="Seed: Twin Coba">
+	<item id="15329" type="EtcItem" name="雙生柯巴種子">
 		<set name="icon" val="icon.etc_twin_coba_seed_i00" />
 		<set name="default_action" val="seed" />
 		<set name="etcitem_type" val="seed" />
@@ -765,7 +765,7 @@
 		<set name="handler" val="Seed" />
 		<set name="item_skill" val="2097-3" />
 	</item>
-	<item id="15330" type="EtcItem" name="Seed: Twin Coba">
+	<item id="15330" type="EtcItem" name="雙生柯巴種子">
 		<set name="icon" val="icon.etc_twin_coba_seed_i00" />
 		<set name="default_action" val="seed" />
 		<set name="etcitem_type" val="seed" />
@@ -776,7 +776,7 @@
 		<set name="handler" val="Seed" />
 		<set name="item_skill" val="2097-3" />
 	</item>
-	<item id="15331" type="EtcItem" name="Seed: Twin Coba">
+	<item id="15331" type="EtcItem" name="雙生柯巴種子">
 		<set name="icon" val="icon.etc_twin_coba_seed_i00" />
 		<set name="default_action" val="seed" />
 		<set name="etcitem_type" val="seed" />
@@ -787,7 +787,7 @@
 		<set name="handler" val="Seed" />
 		<set name="item_skill" val="2097-3" />
 	</item>
-	<item id="15332" type="EtcItem" name="Seed: Twin Coba">
+	<item id="15332" type="EtcItem" name="雙生柯巴種子">
 		<set name="icon" val="icon.etc_twin_coba_seed_i00" />
 		<set name="default_action" val="seed" />
 		<set name="etcitem_type" val="seed" />
@@ -798,7 +798,7 @@
 		<set name="handler" val="Seed" />
 		<set name="item_skill" val="2097-3" />
 	</item>
-	<item id="15333" type="EtcItem" name="Seed: King Coba">
+	<item id="15333" type="EtcItem" name="巨大柯巴種子">
 		<set name="icon" val="icon.etc_great_coba_seed_i00" />
 		<set name="default_action" val="seed" />
 		<set name="etcitem_type" val="seed" />
@@ -809,7 +809,7 @@
 		<set name="handler" val="Seed" />
 		<set name="item_skill" val="2097-3" />
 	</item>
-	<item id="15334" type="EtcItem" name="Seed: Alternative Sea Coba">
+	<item id="15334" type="EtcItem" name="改良海洋柯巴種子">
 		<set name="icon" val="icon.etc_sea_coba_seed_i00" />
 		<set name="default_action" val="seed" />
 		<set name="etcitem_type" val="seed2" />
@@ -820,7 +820,7 @@
 		<set name="handler" val="Seed" />
 		<set name="item_skill" val="2097-3" />
 	</item>
-	<item id="15335" type="EtcItem" name="Seed: Alternative Sea Coba">
+	<item id="15335" type="EtcItem" name="改良海洋柯巴種子">
 		<set name="icon" val="icon.etc_sea_coba_seed_i00" />
 		<set name="default_action" val="seed" />
 		<set name="etcitem_type" val="seed2" />
@@ -831,7 +831,7 @@
 		<set name="handler" val="Seed" />
 		<set name="item_skill" val="2097-3" />
 	</item>
-	<item id="15336" type="EtcItem" name="Seed: Alternative Twin Coba">
+	<item id="15336" type="EtcItem" name="改良雙生柯巴種子">
 		<set name="icon" val="icon.etc_twin_coba_seed_i00" />
 		<set name="default_action" val="seed" />
 		<set name="etcitem_type" val="seed2" />
@@ -842,7 +842,7 @@
 		<set name="handler" val="Seed" />
 		<set name="item_skill" val="2097-3" />
 	</item>
-	<item id="15337" type="EtcItem" name="Seed: Alternative Twin Coba">
+	<item id="15337" type="EtcItem" name="改良雙生柯巴種子">
 		<set name="icon" val="icon.etc_twin_coba_seed_i00" />
 		<set name="default_action" val="seed" />
 		<set name="etcitem_type" val="seed2" />
@@ -853,7 +853,7 @@
 		<set name="handler" val="Seed" />
 		<set name="item_skill" val="2097-3" />
 	</item>
-	<item id="15338" type="EtcItem" name="Seed: Alternative Twin Coba">
+	<item id="15338" type="EtcItem" name="改良雙生柯巴種子">
 		<set name="icon" val="icon.etc_twin_coba_seed_i00" />
 		<set name="default_action" val="seed" />
 		<set name="etcitem_type" val="seed2" />
@@ -864,7 +864,7 @@
 		<set name="handler" val="Seed" />
 		<set name="item_skill" val="2097-3" />
 	</item>
-	<item id="15339" type="EtcItem" name="Seed: Alternative Twin Coba">
+	<item id="15339" type="EtcItem" name="改良雙生柯巴種子">
 		<set name="icon" val="icon.etc_twin_coba_seed_i00" />
 		<set name="default_action" val="seed" />
 		<set name="etcitem_type" val="seed2" />
@@ -875,7 +875,7 @@
 		<set name="handler" val="Seed" />
 		<set name="item_skill" val="2097-3" />
 	</item>
-	<item id="15340" type="EtcItem" name="Seed: Alternative King Coba">
+	<item id="15340" type="EtcItem" name="改良巨大柯巴種子">
 		<set name="icon" val="icon.etc_great_coba_seed_i00" />
 		<set name="default_action" val="seed" />
 		<set name="etcitem_type" val="seed2" />
@@ -886,12 +886,12 @@
 		<set name="handler" val="Seed" />
 		<set name="item_skill" val="2097-3" />
 	</item>
-	<item id="15341" type="EtcItem" name="Guiding Tea Leaves">
+	<item id="15341" type="EtcItem" name="導引罌粟花花瓣">
 		<set name="icon" val="icon.etc_leaf_green_i00" />
 		<set name="material" val="paper" />
 		<set name="is_stackable" val="true" />
 	</item>
-	<item id="15342" type="Weapon" name="Aqua Elf Transforming Harp - 60 day limited period">
+	<item id="15342" type="Weapon" name="水精靈變身豎琴">
 		<set name="icon" val="icon.harp_of_transform_i00" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="sword" />
@@ -916,7 +916,7 @@
 			<set order="0x08" stat="pAtkSpd" val="379" />
 		</for>
 	</item>
-	<item id="15343" type="EtcItem" name="Aqua Elf Transforming Harp 60-day Pack">
+	<item id="15343" type="EtcItem" name="水精靈變身豎琴 60日/組">
 		<set name="icon" val="icon.etc_pi_gift_box_i02" />
 		<set name="default_action" val="peel" />
 		<set name="immediate_effect" val="1" />
@@ -929,7 +929,7 @@
 		<set name="is_premium" val="true" />
 		<set name="capsuled_items" val="15342,1,1,100" />
 	</item>
-	<item id="15344" type="Weapon" name="Aqua Elf Transforming Harp - Event - 60 day limited period">
+	<item id="15344" type="Weapon" name="水精靈變身豎琴-活動用">
 		<set name="icon" val="icon.harp_of_transform_i00" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="sword" />
@@ -954,7 +954,7 @@
 			<set order="0x08" stat="pAtkSpd" val="379" />
 		</for>
 	</item>
-	<item id="15345" type="EtcItem" name="Aqua Elf Transforming Harp 60-day Pack">
+	<item id="15345" type="EtcItem" name="水精靈變身豎琴 60日/組-活動用">
 		<set name="icon" val="icon.etc_pi_gift_box_i02" />
 		<set name="default_action" val="peel" />
 		<set name="immediate_effect" val="1" />
@@ -967,7 +967,7 @@
 		<set name="is_premium" val="true" />
 		<set name="capsuled_items" val="15344,1,1,100" />
 	</item>
-	<item id="15346" type="EtcItem" name="Weapon enhancing scroll exclusive for PC cafe-S grade">
+	<item id="15346" type="EtcItem" name="活動專用武器強化卷軸-S級">
 		<set name="icon" val="icon.etc_scroll_of_enchant_weapon_i05" />
 		<set name="default_action" val="skill_reduce" />
 		<set name="etcitem_type" val="scrl_enchant_wp" />
@@ -982,7 +982,7 @@
 		<set name="is_oly_restricted" val="true" />
 		<set name="item_skill" val="2999-1" />
 	</item>
-	<item id="15347" type="EtcItem" name="Weapon enhancing scroll exclusive for PC cafe-A grade">
+	<item id="15347" type="EtcItem" name="活動專用武器強化卷軸-A級">
 		<set name="icon" val="icon.etc_scroll_of_enchant_weapon_i04" />
 		<set name="default_action" val="skill_reduce" />
 		<set name="etcitem_type" val="scrl_enchant_wp" />
@@ -997,7 +997,7 @@
 		<set name="is_oly_restricted" val="true" />
 		<set name="item_skill" val="2998-1" />
 	</item>
-	<item id="15348" type="EtcItem" name="Weapon enhancing scroll exclusive for PC cafe-B grade">
+	<item id="15348" type="EtcItem" name="活動專用武器強化卷軸-B級">
 		<set name="icon" val="icon.etc_scroll_of_enchant_weapon_i03" />
 		<set name="default_action" val="skill_reduce" />
 		<set name="etcitem_type" val="scrl_enchant_wp" />
@@ -1012,7 +1012,7 @@
 		<set name="is_oly_restricted" val="true" />
 		<set name="item_skill" val="2997-1" />
 	</item>
-	<item id="15349" type="EtcItem" name="Weapon enhancing scroll exclusive for PC cafe-C grade">
+	<item id="15349" type="EtcItem" name="活動專用武器強化卷軸-C級">
 		<set name="icon" val="icon.etc_scroll_of_enchant_weapon_i02" />
 		<set name="default_action" val="skill_reduce" />
 		<set name="etcitem_type" val="scrl_enchant_wp" />
@@ -1027,7 +1027,7 @@
 		<set name="is_oly_restricted" val="true" />
 		<set name="item_skill" val="2996-1" />
 	</item>
-	<item id="15350" type="EtcItem" name="Weapon enhancing scroll exclusive for PC cafe-D grade">
+	<item id="15350" type="EtcItem" name="活動專用武器強化卷軸-D級">
 		<set name="icon" val="icon.etc_scroll_of_enchant_weapon_i01" />
 		<set name="default_action" val="skill_reduce" />
 		<set name="etcitem_type" val="scrl_enchant_wp" />
@@ -1042,7 +1042,7 @@
 		<set name="is_oly_restricted" val="true" />
 		<set name="item_skill" val="2995-1" />
 	</item>
-	<item id="15351" type="Armor" name="Seal Removal Bracelet_Towbat">
+	<item id="15351" type="Armor" name="封印解除手鐲-托貝">
 		<set name="icon" val="icon.etc_rbracelet_aga_agit_i00" />
 		<set name="default_action" val="equip" />
 		<set name="bodypart" val="lbracelet" />
@@ -1058,7 +1058,7 @@
 		<set name="unequip_skill" val="3267-1" />
 		<set name="item_skill" val="8358-1;8359-1;3267-1" />
 	</item>
-	<item id="15352" type="EtcItem" name="Proof of Time and Space">
+	<item id="15352" type="EtcItem" name="時空的證據">
 		<set name="icon" val="icon.etc_sign_i00" />
 		<set name="immediate_effect" val="1" />
 		<set name="material" val="crystal" />
@@ -1071,7 +1071,7 @@
 		<set name="is_stackable" val="true" />
 		<set name="is_oly_restricted" val="true" />
 	</item>
-	<item id="15353" type="EtcItem" name="Proof of Resurrection">
+	<item id="15353" type="EtcItem" name="復活的憑證">
 		<set name="icon" val="icon.etc_scroll_chalik_i00" />
 		<set name="immediate_effect" val="1" />
 		<set name="material" val="paper" />
@@ -1084,7 +1084,7 @@
 		<set name="is_stackable" val="true" />
 		<set name="is_oly_restricted" val="true" />
 	</item>
-	<item id="15354" type="EtcItem" name="Scroll of Resurrection">
+	<item id="15354" type="EtcItem" name="復活之書">
 		<set name="icon" val="icon.etc_ancient_tablet_i00" />
 		<set name="immediate_effect" val="1" />
 		<set name="material" val="paper" />
@@ -1097,7 +1097,7 @@
 		<set name="is_stackable" val="true" />
 		<set name="is_oly_restricted" val="true" />
 	</item>
-	<item id="15355" type="EtcItem" name="Stone of Resurrection">
+	<item id="15355" type="EtcItem" name="復活之石">
 		<set name="icon" val="icon.etc_life_stone_of_begining_i00" />
 		<set name="immediate_effect" val="1" />
 		<set name="material" val="crystal" />
@@ -1110,7 +1110,7 @@
 		<set name="is_stackable" val="true" />
 		<set name="is_oly_restricted" val="true" />
 	</item>
-	<item id="15356" type="EtcItem" name="Sweet Concentrated Fruit Cocktail">
+	<item id="15356" type="EtcItem" name="濃縮香甜水果雞尾酒">
 		<set name="icon" val="icon.etc_fruit_cocktail_i00" />
 		<set name="default_action" val="skill_reduce" />
 		<set name="etcitem_type" val="potion" />
@@ -1126,7 +1126,7 @@
 		<set name="is_oly_restricted" val="true" />
 		<set name="item_skill" val="9011-1;9012-1;9013-1;9014-1;9015-1;9016-1;9017-1;9018-1;9019-1;9020-1;9021-1" />
 	</item>
-	<item id="15357" type="EtcItem" name="Fresh Concentrated Fruit Cocktail">
+	<item id="15357" type="EtcItem" name="濃縮爽口水果雞尾酒">
 		<set name="icon" val="icon.etc_fruit_cocktail_i01" />
 		<set name="default_action" val="skill_reduce" />
 		<set name="etcitem_type" val="potion" />
@@ -1142,7 +1142,7 @@
 		<set name="is_oly_restricted" val="true" />
 		<set name="item_skill" val="9021-1;9022-1;9023-1;9024-1;9025-1;9026-1;9013-1;9018-1;9012-1" />
 	</item>
-	<item id="15358" type="EtcItem" name="For PC Cafe exclusive Instant Lottery - 30 day limited period">
+	<item id="15358" type="EtcItem" name="活動用幸運彩券">
 		<set name="icon" val="icon.etc_exchange_ticket_i04" />
 		<set name="default_action" val="capsule" />
 		<set name="immediate_effect" val="1" />
@@ -1156,7 +1156,7 @@
 		<set name="item_skill" val="9027-1" />
 		<set name="time" val="43200" />
 	</item>
-	<item id="15359" type="EtcItem" name="100,000 PC Cafe points wining lottery - 30 day limited period">
+	<item id="15359" type="EtcItem" name="10萬點活動點數中獎獎券">
 		<set name="icon" val="icon.etc_exchange_ticket_i04" />
 		<set name="immediate_effect" val="1" />
 		<set name="material" val="paper" />
@@ -1167,7 +1167,7 @@
 		<set name="is_depositable" val="false" />
 		<set name="time" val="43200" />
 	</item>
-	<item id="15360" type="EtcItem" name="10,000 PC Cafe points wining lottery - 30 day limited period">
+	<item id="15360" type="EtcItem" name="1萬點活動點數中獎獎券">
 		<set name="icon" val="icon.etc_exchange_ticket_i00" />
 		<set name="immediate_effect" val="1" />
 		<set name="material" val="paper" />
@@ -1178,7 +1178,7 @@
 		<set name="is_depositable" val="false" />
 		<set name="time" val="43200" />
 	</item>
-	<item id="15361" type="EtcItem" name="2000 PC Cafe points wining lottery - 30 day limited period">
+	<item id="15361" type="EtcItem" name="2000點活動點數中獎獎券">
 		<set name="icon" val="icon.etc_exchange_ticket_i01" />
 		<set name="immediate_effect" val="1" />
 		<set name="material" val="paper" />
@@ -1189,7 +1189,7 @@
 		<set name="is_depositable" val="false" />
 		<set name="time" val="43200" />
 	</item>
-	<item id="15362" type="EtcItem" name="1000 PC Cafe points wining lottery - 30 day limited period">
+	<item id="15362" type="EtcItem" name="1000點活動點數中獎獎券">
 		<set name="icon" val="icon.etc_exchange_ticket_i02" />
 		<set name="immediate_effect" val="1" />
 		<set name="material" val="paper" />
@@ -1200,7 +1200,7 @@
 		<set name="is_depositable" val="false" />
 		<set name="time" val="43200" />
 	</item>
-	<item id="15363" type="EtcItem" name="100 PC Cafe points wining lottery - 30 day limited period">
+	<item id="15363" type="EtcItem" name="100點活動點數中獎獎券">
 		<set name="icon" val="icon.etc_exchange_ticket_i03" />
 		<set name="immediate_effect" val="1" />
 		<set name="material" val="paper" />
@@ -1211,7 +1211,7 @@
 		<set name="is_depositable" val="false" />
 		<set name="time" val="43200" />
 	</item>
-	<item id="15364" type="EtcItem" name="Cool Pack">
+	<item id="15364" type="EtcItem" name="冷氣泡">
 		<set name="icon" val="icon.etc_int_symbol_i00" />
 		<set name="default_action" val="skill_reduce" />
 		<set name="material" val="steel" />
@@ -1220,7 +1220,7 @@
 		<set name="is_stackable" val="true" />
 		<set name="item_skill" val="9010-1" />
 	</item>
-	<item id="15365" type="EtcItem" name="Lucky Cool Pack">
+	<item id="15365" type="EtcItem" name="幸運冷氣泡">
 		<set name="icon" val="icon.etc_int_symbol_i01" />
 		<set name="default_action" val="skill_reduce" />
 		<set name="material" val="steel" />
@@ -1229,7 +1229,7 @@
 		<set name="is_stackable" val="true" />
 		<set name="item_skill" val="9028-1" />
 	</item>
-	<item id="15366" type="EtcItem" name="Watermelon seed">
+	<item id="15366" type="EtcItem" name="西瓜種子">
 		<set name="icon" val="icon.event_honey_watermelon_seed_i00" />
 		<set name="default_action" val="skill_reduce" />
 		<set name="material" val="paper" />
@@ -1238,7 +1238,7 @@
 		<set name="is_oly_restricted" val="true" />
 		<set name="item_skill" val="9029-1" />
 	</item>
-	<item id="15367" type="EtcItem" name="Honey Watermelon Seed">
+	<item id="15367" type="EtcItem" name="香甜的西瓜種子">
 		<set name="icon" val="icon.event_watermelon_seed_i00" />
 		<set name="default_action" val="skill_reduce" />
 		<set name="material" val="paper" />
@@ -1247,7 +1247,7 @@
 		<set name="is_oly_restricted" val="true" />
 		<set name="item_skill" val="9030-1" />
 	</item>
-	<item id="15368" type="EtcItem" name="Copied Watermelon Seed">
+	<item id="15368" type="EtcItem" name="複製的西瓜種子">
 		<set name="icon" val="icon.event_honey_watermelon_seed_i00" />
 		<set name="default_action" val="skill_reduce" />
 		<set name="material" val="paper" />
@@ -1259,7 +1259,7 @@
 		<set name="is_oly_restricted" val="true" />
 		<set name="item_skill" val="9031-1" />
 	</item>
-	<item id="15369" type="EtcItem" name="Copied Honey Watermelon Seed">
+	<item id="15369" type="EtcItem" name="複製的香甜西瓜種子">
 		<set name="icon" val="icon.event_watermelon_seed_i00" />
 		<set name="default_action" val="skill_reduce" />
 		<set name="material" val="paper" />
@@ -1271,7 +1271,7 @@
 		<set name="is_oly_restricted" val="true" />
 		<set name="item_skill" val="9032-1" />
 	</item>
-	<item id="15370" type="EtcItem" name="Special July 7th Package">
+	<item id="15370" type="EtcItem" name="特大時空之愛組合包">
 		<set name="icon" val="icon.etc_pi_gift_box_i04" />
 		<set name="default_action" val="peel" />
 		<set name="immediate_effect" val="1" />
@@ -1285,7 +1285,7 @@
 		<set name="is_oly_restricted" val="true" />
 		<set name="capsuled_items" val="15372,1,1,100" />
 	</item>
-	<item id="15371" type="EtcItem" name="July 7th Package">
+	<item id="15371" type="EtcItem" name="時空之愛組合包">
 		<set name="icon" val="icon.etc_pi_gift_box_i04" />
 		<set name="default_action" val="peel" />
 		<set name="immediate_effect" val="1" />
@@ -1299,7 +1299,7 @@
 		<set name="is_oly_restricted" val="true" />
 		<set name="capsuled_items" val="15373,1,1,100" />
 	</item>
-	<item id="15372" type="EtcItem" name="Special July 7th Parcel">
+	<item id="15372" type="EtcItem" name="特大時空之愛包裹">
 		<set name="icon" val="icon.event_big_july_seven_park_i00" />
 		<set name="default_action" val="capsule" />
 		<set name="immediate_effect" val="1" />
@@ -1312,7 +1312,7 @@
 		<set name="is_oly_restricted" val="true" />
 		<set name="item_skill" val="9036-1" />
 	</item>
-	<item id="15373" type="EtcItem" name="July 7th Parcel">
+	<item id="15373" type="EtcItem" name="時空之愛包裹">
 		<set name="icon" val="icon.event_july_seven_park_i00" />
 		<set name="default_action" val="peel" />
 		<set name="immediate_effect" val="1" />
@@ -1325,7 +1325,7 @@
 		<set name="is_oly_restricted" val="true" />
 		<set name="capsuled_items" val="15379,1,1,100" />
 	</item>
-	<item id="15374" type="EtcItem" name="Special July 7th Package (Event)">
+	<item id="15374" type="EtcItem" name="特大時空之愛組合包-活動用">
 		<set name="icon" val="icon.etc_pi_gift_box_i04" />
 		<set name="default_action" val="peel" />
 		<set name="immediate_effect" val="1" />
@@ -1339,7 +1339,7 @@
 		<set name="is_oly_restricted" val="true" />
 		<set name="capsuled_items" val="15376,1,1,100" />
 	</item>
-	<item id="15375" type="EtcItem" name="July 7th Package (Event)">
+	<item id="15375" type="EtcItem" name="時空之愛組合包-活動用">
 		<set name="icon" val="icon.etc_pi_gift_box_i04" />
 		<set name="default_action" val="peel" />
 		<set name="immediate_effect" val="1" />
@@ -1353,7 +1353,7 @@
 		<set name="is_oly_restricted" val="true" />
 		<set name="capsuled_items" val="15377,1,1,100" />
 	</item>
-	<item id="15376" type="EtcItem" name="Special July 7th Parcel (Event)">
+	<item id="15376" type="EtcItem" name="特大時空之愛包裹-活動用">
 		<set name="icon" val="icon.event_big_july_seven_park_i00" />
 		<set name="default_action" val="capsule" />
 		<set name="immediate_effect" val="1" />
@@ -1366,7 +1366,7 @@
 		<set name="is_oly_restricted" val="true" />
 		<set name="item_skill" val="9037-1" />
 	</item>
-	<item id="15377" type="EtcItem" name="July 7th Parcel (Event)">
+	<item id="15377" type="EtcItem" name="時空之愛包裹-活動用">
 		<set name="icon" val="icon.event_july_seven_park_i00" />
 		<set name="default_action" val="peel" />
 		<set name="immediate_effect" val="1" />
@@ -1379,7 +1379,7 @@
 		<set name="is_oly_restricted" val="true" />
 		<set name="capsuled_items" val="15380,1,1,100" />
 	</item>
-	<item id="15378" type="EtcItem" name="July 7th Gift Box">
+	<item id="15378" type="EtcItem" name="時空之愛禮盒">
 		<set name="icon" val="icon.etc_pi_gift_box_i04" />
 		<set name="default_action" val="peel" />
 		<set name="immediate_effect" val="1" />
@@ -1393,7 +1393,7 @@
 		<set name="is_oly_restricted" val="true" />
 		<set name="capsuled_items" val="15383,1,1,100" />
 	</item>
-	<item id="15379" type="EtcItem" name="Steamed Rice Cake">
+	<item id="15379" type="EtcItem" name="時空之愛紅豆糕">
 		<set name="icon" val="icon.event_steamed_rice_cake_i00" />
 		<set name="default_action" val="skill_reduce" />
 		<set name="etcitem_type" val="potion" />
@@ -1407,7 +1407,7 @@
 		<set name="is_stackable" val="true" />
 		<set name="item_skill" val="9038-1" />
 	</item>
-	<item id="15380" type="EtcItem" name="Steamed Rice Cake (Event)">
+	<item id="15380" type="EtcItem" name="時空之愛紅豆糕-活動用">
 		<set name="icon" val="icon.event_steamed_rice_cake_i00" />
 		<set name="default_action" val="skill_reduce" />
 		<set name="etcitem_type" val="potion" />
@@ -1421,7 +1421,7 @@
 		<set name="is_stackable" val="true" />
 		<set name="item_skill" val="9039-1" />
 	</item>
-	<item id="15381" type="EtcItem" name="Event - Herdsman's Love Scroll - Event">
+	<item id="15381" type="EtcItem" name="活動-牛郎之愛卷軸">
 		<set name="icon" val="icon.event_altair_enchant_scroll_i00" />
 		<set name="default_action" val="skill_reduce" />
 		<set name="etcitem_type" val="scrl_enchant_am" />
@@ -1432,7 +1432,7 @@
 		<set name="is_oly_restricted" val="true" />
 		<set name="item_skill" val="9033-1" />
 	</item>
-	<item id="15382" type="EtcItem" name="Event - Vitality Belt Enchant Scroll - Event">
+	<item id="15382" type="EtcItem" name="活動-活力腰帶強化卷軸">
 		<set name="icon" val="icon.event_energy_enchant_scroll_i00" />
 		<set name="default_action" val="skill_reduce" />
 		<set name="etcitem_type" val="scrl_enchant_am" />
@@ -1443,7 +1443,7 @@
 		<set name="is_oly_restricted" val="true" />
 		<set name="item_skill" val="9034-1" />
 	</item>
-	<item id="15383" type="Armor" name="Weaver's Multi-colored Clothes - 7 day limited period">
+	<item id="15383" type="Armor" name="織女彩衣">
 		<set name="icon" val="icon.event_vega_rainbow_shirt_i00" />
 		<set name="default_action" val="equip" />
 		<set name="bodypart" val="underwear" />
@@ -1456,7 +1456,7 @@
 		<set name="is_depositable" val="false" />
 		<set name="time" val="10080" />
 	</item>
-	<item id="15384" type="Armor" name="Weaver's Multi-colored Clothes - 30 day limited period">
+	<item id="15384" type="Armor" name="織女彩衣">
 		<set name="icon" val="icon.event_vega_rainbow_shirt_i00" />
 		<set name="default_action" val="equip" />
 		<set name="bodypart" val="underwear" />
@@ -1469,7 +1469,7 @@
 		<set name="is_depositable" val="false" />
 		<set name="time" val="43200" />
 	</item>
-	<item id="15385" type="Armor" name="Weaver's Multi-colored Clothes - 60 day limited period">
+	<item id="15385" type="Armor" name="織女彩衣">
 		<set name="icon" val="icon.event_vega_rainbow_shirt_i00" />
 		<set name="default_action" val="equip" />
 		<set name="bodypart" val="underwear" />
@@ -1482,7 +1482,7 @@
 		<set name="is_depositable" val="false" />
 		<set name="time" val="86400" />
 	</item>
-	<item id="15386" type="Armor" name="Weaver's Multi-colored Clothes - 90 day limited period">
+	<item id="15386" type="Armor" name="織女彩衣">
 		<set name="icon" val="icon.event_vega_rainbow_shirt_i00" />
 		<set name="default_action" val="equip" />
 		<set name="bodypart" val="underwear" />
@@ -1495,7 +1495,7 @@
 		<set name="is_depositable" val="false" />
 		<set name="time" val="129600" />
 	</item>
-	<item id="15387" type="Armor" name="Weaver's Multi-colored Clothes - Permanent Use">
+	<item id="15387" type="Armor" name="織女彩衣">
 		<set name="icon" val="icon.event_vega_rainbow_shirt_i00" />
 		<set name="default_action" val="equip" />
 		<set name="bodypart" val="underwear" />
@@ -1508,7 +1508,7 @@
 		<set name="is_sellable" val="false" />
 		<set name="is_depositable" val="false" />
 	</item>
-	<item id="15388" type="Armor" name="Weaver's Multi-colored Clothes (Event) - 7 day limited period">
+	<item id="15388" type="Armor" name="織女彩衣-活動用">
 		<set name="icon" val="icon.event_vega_rainbow_shirt_i00" />
 		<set name="default_action" val="equip" />
 		<set name="bodypart" val="underwear" />
@@ -1521,7 +1521,7 @@
 		<set name="is_depositable" val="false" />
 		<set name="time" val="10080" />
 	</item>
-	<item id="15389" type="Armor" name="Weaver's Multi-colored Clothes (Event) - 30 day limited period">
+	<item id="15389" type="Armor" name="織女彩衣-活動用">
 		<set name="icon" val="icon.event_vega_rainbow_shirt_i00" />
 		<set name="default_action" val="equip" />
 		<set name="bodypart" val="underwear" />
@@ -1534,7 +1534,7 @@
 		<set name="is_depositable" val="false" />
 		<set name="time" val="43200" />
 	</item>
-	<item id="15390" type="Armor" name="Weaver's Multi-colored Clothes (Event) - 60 day limited period">
+	<item id="15390" type="Armor" name="織女彩衣-活動用">
 		<set name="icon" val="icon.event_vega_rainbow_shirt_i00" />
 		<set name="default_action" val="equip" />
 		<set name="bodypart" val="underwear" />
@@ -1547,7 +1547,7 @@
 		<set name="is_depositable" val="false" />
 		<set name="time" val="86400" />
 	</item>
-	<item id="15391" type="Armor" name="Weaver's Multi-colored Clothes (Event) - 90 day limited period">
+	<item id="15391" type="Armor" name="織女彩衣-活動用">
 		<set name="icon" val="icon.event_vega_rainbow_shirt_i00" />
 		<set name="default_action" val="equip" />
 		<set name="bodypart" val="underwear" />
@@ -1560,7 +1560,7 @@
 		<set name="is_depositable" val="false" />
 		<set name="time" val="129600" />
 	</item>
-	<item id="15392" type="Armor" name="Weaver's Multi-colored Clothes (Event) - Permanent Use">
+	<item id="15392" type="Armor" name="織女彩衣-活動用">
 		<set name="icon" val="icon.event_vega_rainbow_shirt_i00" />
 		<set name="default_action" val="equip" />
 		<set name="bodypart" val="underwear" />
@@ -1573,7 +1573,7 @@
 		<set name="is_sellable" val="false" />
 		<set name="is_depositable" val="false" />
 	</item>
-	<item id="15393" type="Armor" name="Vitality Belt - 7 day limited period">
+	<item id="15393" type="Armor" name="活力腰帶">
 		<set name="icon" val="icon.event_energy_belt_i00" />
 		<set name="default_action" val="equip" />
 		<set name="armor_type" val="light" />
@@ -1589,7 +1589,7 @@
 		<set name="is_oly_restricted" val="true" />
 		<set name="time" val="10080" />
 	</item>
-	<item id="15394" type="Armor" name="Vitality Belt - 30 day limited period">
+	<item id="15394" type="Armor" name="活力腰帶">
 		<set name="icon" val="icon.event_energy_belt_i00" />
 		<set name="default_action" val="equip" />
 		<set name="armor_type" val="light" />
@@ -1605,7 +1605,7 @@
 		<set name="is_oly_restricted" val="true" />
 		<set name="time" val="43200" />
 	</item>
-	<item id="15395" type="Armor" name="Vitality Belt - 60 day limited period">
+	<item id="15395" type="Armor" name="活力腰帶">
 		<set name="icon" val="icon.event_energy_belt_i00" />
 		<set name="default_action" val="equip" />
 		<set name="armor_type" val="light" />
@@ -1621,7 +1621,7 @@
 		<set name="is_oly_restricted" val="true" />
 		<set name="time" val="86400" />
 	</item>
-	<item id="15396" type="Armor" name="Vitality Belt - 90 day limited period">
+	<item id="15396" type="Armor" name="活力腰帶">
 		<set name="icon" val="icon.event_energy_belt_i00" />
 		<set name="default_action" val="equip" />
 		<set name="armor_type" val="light" />
@@ -1637,7 +1637,7 @@
 		<set name="is_oly_restricted" val="true" />
 		<set name="time" val="129600" />
 	</item>
-	<item id="15397" type="Armor" name="Vitality Belt - Permanent Use">
+	<item id="15397" type="Armor" name="活力腰帶">
 		<set name="icon" val="icon.event_energy_belt_i00" />
 		<set name="default_action" val="equip" />
 		<set name="armor_type" val="light" />
@@ -1652,7 +1652,7 @@
 		<set name="is_depositable" val="false" />
 		<set name="is_oly_restricted" val="true" />
 	</item>
-	<item id="15398" type="Armor" name="Vitality Belt (Event) - 7 day limited period">
+	<item id="15398" type="Armor" name="活力腰帶-活動用">
 		<set name="icon" val="icon.event_energy_belt_i00" />
 		<set name="default_action" val="equip" />
 		<set name="armor_type" val="light" />
@@ -1668,7 +1668,7 @@
 		<set name="is_oly_restricted" val="true" />
 		<set name="time" val="10080" />
 	</item>
-	<item id="15399" type="Armor" name="Vitality Belt (Event) - 30 day limited period">
+	<item id="15399" type="Armor" name="活力腰帶-活動用">
 		<set name="icon" val="icon.event_energy_belt_i00" />
 		<set name="default_action" val="equip" />
 		<set name="armor_type" val="light" />

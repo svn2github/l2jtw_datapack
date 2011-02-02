@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <list>
-	<item id="6800" type="EtcItem" name="Greater Mercenary Posting Ticket (Cleric/Mobile)">
+	<item id="6800" type="EtcItem" name="高級傭兵配置表(牧師/移動)">
 		<set name="icon" val="icon.mticket_cleric_move_i00" />
 		<set name="etcitem_type" val="castle_guard" />
 		<set name="immediate_effect" val="1" />
@@ -9,7 +9,7 @@
 		<set name="is_stackable" val="true" />
 		<set name="handler" val="MercTicket" />
 	</item>
-	<item id="6801" type="EtcItem" name="Greater Mercenary Posting Ticket (Wizard/Mobile)">
+	<item id="6801" type="EtcItem" name="高級傭兵配置表(巫師/移動)">
 		<set name="icon" val="icon.mticket_wizard_move_i00" />
 		<set name="etcitem_type" val="castle_guard" />
 		<set name="immediate_effect" val="1" />
@@ -18,7 +18,7 @@
 		<set name="is_stackable" val="true" />
 		<set name="handler" val="MercTicket" />
 	</item>
-	<item id="6802" type="EtcItem" name="Dawn Mercenary Posting Ticket (Sword/Stationary)">
+	<item id="6802" type="EtcItem" name="黎明傭兵配置表(劍/固定)">
 		<set name="icon" val="icon.mticket_sword_fix_i00" />
 		<set name="etcitem_type" val="castle_guard" />
 		<set name="immediate_effect" val="1" />
@@ -27,7 +27,7 @@
 		<set name="is_stackable" val="true" />
 		<set name="handler" val="MercTicket" />
 	</item>
-	<item id="6803" type="EtcItem" name="Dawn Mercenary Posting Ticket (Spear/Stationary)">
+	<item id="6803" type="EtcItem" name="黎明傭兵配置表(槍/固定)">
 		<set name="icon" val="icon.mticket_pole_fix_i00" />
 		<set name="etcitem_type" val="castle_guard" />
 		<set name="immediate_effect" val="1" />
@@ -36,7 +36,7 @@
 		<set name="is_stackable" val="true" />
 		<set name="handler" val="MercTicket" />
 	</item>
-	<item id="6804" type="EtcItem" name="Dawn Mercenary Posting Ticket (Bow/Stationary)">
+	<item id="6804" type="EtcItem" name="黎明傭兵配置表(弓/固定)">
 		<set name="icon" val="icon.mticket_bow_fix_i00" />
 		<set name="etcitem_type" val="castle_guard" />
 		<set name="immediate_effect" val="1" />
@@ -45,7 +45,7 @@
 		<set name="is_stackable" val="true" />
 		<set name="handler" val="MercTicket" />
 	</item>
-	<item id="6805" type="EtcItem" name="Dawn Mercenary Posting Ticket (Cleric/Stationary)">
+	<item id="6805" type="EtcItem" name="黎明傭兵配置表(牧師/固定)">
 		<set name="icon" val="icon.mticket_cleric_fix_i00" />
 		<set name="etcitem_type" val="castle_guard" />
 		<set name="immediate_effect" val="1" />
@@ -54,7 +54,7 @@
 		<set name="is_stackable" val="true" />
 		<set name="handler" val="MercTicket" />
 	</item>
-	<item id="6806" type="EtcItem" name="Dawn Mercenary Posting Ticket (Wizard/Stationary)">
+	<item id="6806" type="EtcItem" name="黎明傭兵配置表(巫師/固定)">
 		<set name="icon" val="icon.mticket_wizard_fix_i00" />
 		<set name="etcitem_type" val="castle_guard" />
 		<set name="immediate_effect" val="1" />
@@ -63,7 +63,7 @@
 		<set name="is_stackable" val="true" />
 		<set name="handler" val="MercTicket" />
 	</item>
-	<item id="6807" type="EtcItem" name="Dawn Mercenary Posting Ticket (Sword/Mobile)">
+	<item id="6807" type="EtcItem" name="黎明傭兵配置表(劍/移動)">
 		<set name="icon" val="icon.mticket_sword_move_i00" />
 		<set name="etcitem_type" val="castle_guard" />
 		<set name="immediate_effect" val="1" />
@@ -72,7 +72,7 @@
 		<set name="is_stackable" val="true" />
 		<set name="handler" val="MercTicket" />
 	</item>
-	<item id="6808" type="EtcItem" name="Dawn Mercenary Posting Ticket (Spear/Mobile)">
+	<item id="6808" type="EtcItem" name="黎明傭兵配置表(槍/移動)">
 		<set name="icon" val="icon.mticket_pole_move_i00" />
 		<set name="etcitem_type" val="castle_guard" />
 		<set name="immediate_effect" val="1" />
@@ -81,7 +81,7 @@
 		<set name="is_stackable" val="true" />
 		<set name="handler" val="MercTicket" />
 	</item>
-	<item id="6809" type="EtcItem" name="Dawn Mercenary Posting Ticket (Bow/Mobile)">
+	<item id="6809" type="EtcItem" name="黎明傭兵配置表(弓/移動)">
 		<set name="icon" val="icon.mticket_bow_move_i00" />
 		<set name="etcitem_type" val="castle_guard" />
 		<set name="immediate_effect" val="1" />
@@ -90,7 +90,7 @@
 		<set name="is_stackable" val="true" />
 		<set name="handler" val="MercTicket" />
 	</item>
-	<item id="6810" type="EtcItem" name="Dawn Mercenary Posting Ticket (Cleric/Mobile)">
+	<item id="6810" type="EtcItem" name="黎明傭兵配置表(牧師/移動)">
 		<set name="icon" val="icon.mticket_cleric_move_i00" />
 		<set name="etcitem_type" val="castle_guard" />
 		<set name="immediate_effect" val="1" />
@@ -99,7 +99,7 @@
 		<set name="is_stackable" val="true" />
 		<set name="handler" val="MercTicket" />
 	</item>
-	<item id="6811" type="EtcItem" name="Dawn Mercenary Posting Ticket (Wizard/Mobile)">
+	<item id="6811" type="EtcItem" name="黎明傭兵配置表(巫師/移動)">
 		<set name="icon" val="icon.mticket_wizard_move_i00" />
 		<set name="etcitem_type" val="castle_guard" />
 		<set name="immediate_effect" val="1" />
@@ -108,7 +108,7 @@
 		<set name="is_stackable" val="true" />
 		<set name="handler" val="MercTicket" />
 	</item>
-	<item id="6812" type="EtcItem" name="Greater Recruit Posting Ticket (Sword/Stationary)">
+	<item id="6812" type="EtcItem" name="高級訓練兵配置表(劍/固定)">
 		<set name="icon" val="icon.mticket_sword_fix_i00" />
 		<set name="etcitem_type" val="castle_guard" />
 		<set name="immediate_effect" val="1" />
@@ -117,7 +117,7 @@
 		<set name="is_stackable" val="true" />
 		<set name="handler" val="MercTicket" />
 	</item>
-	<item id="6813" type="EtcItem" name="Greater Recruit Posting Ticket (Spear/Stationary)">
+	<item id="6813" type="EtcItem" name="高級訓練兵配置表(槍/固定)">
 		<set name="icon" val="icon.mticket_pole_fix_i00" />
 		<set name="etcitem_type" val="castle_guard" />
 		<set name="immediate_effect" val="1" />
@@ -126,7 +126,7 @@
 		<set name="is_stackable" val="true" />
 		<set name="handler" val="MercTicket" />
 	</item>
-	<item id="6814" type="EtcItem" name="Greater Recruit Posting Ticket (Bow/Stationary)">
+	<item id="6814" type="EtcItem" name="高級訓練兵配置表(弓/固定)">
 		<set name="icon" val="icon.mticket_bow_fix_i00" />
 		<set name="etcitem_type" val="castle_guard" />
 		<set name="immediate_effect" val="1" />
@@ -135,7 +135,7 @@
 		<set name="is_stackable" val="true" />
 		<set name="handler" val="MercTicket" />
 	</item>
-	<item id="6815" type="EtcItem" name="Greater Recruit Posting Ticket (Cleric/Stationary)">
+	<item id="6815" type="EtcItem" name="高級訓練兵配置表(牧師/固定)">
 		<set name="icon" val="icon.mticket_cleric_fix_i00" />
 		<set name="etcitem_type" val="castle_guard" />
 		<set name="immediate_effect" val="1" />
@@ -144,7 +144,7 @@
 		<set name="is_stackable" val="true" />
 		<set name="handler" val="MercTicket" />
 	</item>
-	<item id="6816" type="EtcItem" name="Greater Recruit Posting Ticket (Wizard/Stationary)">
+	<item id="6816" type="EtcItem" name="高級訓練兵配置表(巫師/固定)">
 		<set name="icon" val="icon.mticket_wizard_fix_i00" />
 		<set name="etcitem_type" val="castle_guard" />
 		<set name="immediate_effect" val="1" />
@@ -153,7 +153,7 @@
 		<set name="is_stackable" val="true" />
 		<set name="handler" val="MercTicket" />
 	</item>
-	<item id="6817" type="EtcItem" name="Greater Recruit Posting Ticket (Sword/Mobile)">
+	<item id="6817" type="EtcItem" name="高級訓練兵配置表(劍/移動)">
 		<set name="icon" val="icon.mticket_sword_move_i00" />
 		<set name="etcitem_type" val="castle_guard" />
 		<set name="immediate_effect" val="1" />
@@ -162,7 +162,7 @@
 		<set name="is_stackable" val="true" />
 		<set name="handler" val="MercTicket" />
 	</item>
-	<item id="6818" type="EtcItem" name="Greater Recruit Posting Ticket (Spear/Mobile)">
+	<item id="6818" type="EtcItem" name="高級訓練兵配置表(槍/移動)">
 		<set name="icon" val="icon.mticket_pole_move_i00" />
 		<set name="etcitem_type" val="castle_guard" />
 		<set name="immediate_effect" val="1" />
@@ -171,7 +171,7 @@
 		<set name="is_stackable" val="true" />
 		<set name="handler" val="MercTicket" />
 	</item>
-	<item id="6819" type="EtcItem" name="Greater Recruit Posting Ticket (Bow/Mobile)">
+	<item id="6819" type="EtcItem" name="高級訓練兵配置表(弓/移動)">
 		<set name="icon" val="icon.mticket_bow_move_i00" />
 		<set name="etcitem_type" val="castle_guard" />
 		<set name="immediate_effect" val="1" />
@@ -180,7 +180,7 @@
 		<set name="is_stackable" val="true" />
 		<set name="handler" val="MercTicket" />
 	</item>
-	<item id="6820" type="EtcItem" name="Greater Recruit Posting Ticket (Cleric/Mobile)">
+	<item id="6820" type="EtcItem" name="高級訓練兵配置表(牧師/移動)">
 		<set name="icon" val="icon.mticket_cleric_move_i00" />
 		<set name="etcitem_type" val="castle_guard" />
 		<set name="immediate_effect" val="1" />
@@ -189,7 +189,7 @@
 		<set name="is_stackable" val="true" />
 		<set name="handler" val="MercTicket" />
 	</item>
-	<item id="6821" type="EtcItem" name="Greater Recruit Posting Ticket (Wizard/Mobile)">
+	<item id="6821" type="EtcItem" name="高級訓練兵配置表(巫師/移動)">
 		<set name="icon" val="icon.mticket_wizard_move_i00" />
 		<set name="etcitem_type" val="castle_guard" />
 		<set name="immediate_effect" val="1" />
@@ -198,7 +198,7 @@
 		<set name="is_stackable" val="true" />
 		<set name="handler" val="MercTicket" />
 	</item>
-	<item id="6822" type="EtcItem" name="Recruit Posting Ticket (Sword/Stationary)">
+	<item id="6822" type="EtcItem" name="訓練兵配置表(劍/固定)">
 		<set name="icon" val="icon.mticket_sword_fix_i00" />
 		<set name="etcitem_type" val="castle_guard" />
 		<set name="immediate_effect" val="1" />
@@ -207,7 +207,7 @@
 		<set name="is_stackable" val="true" />
 		<set name="handler" val="MercTicket" />
 	</item>
-	<item id="6823" type="EtcItem" name="Recruit Posting Ticket (Spear/Stationary)">
+	<item id="6823" type="EtcItem" name="訓練兵配置表(槍/固定)">
 		<set name="icon" val="icon.mticket_pole_fix_i00" />
 		<set name="etcitem_type" val="castle_guard" />
 		<set name="immediate_effect" val="1" />
@@ -216,7 +216,7 @@
 		<set name="is_stackable" val="true" />
 		<set name="handler" val="MercTicket" />
 	</item>
-	<item id="6824" type="EtcItem" name="Recruit Posting Ticket (Bow/Stationary)">
+	<item id="6824" type="EtcItem" name="訓練兵配置表(弓/固定)">
 		<set name="icon" val="icon.mticket_bow_fix_i00" />
 		<set name="etcitem_type" val="castle_guard" />
 		<set name="immediate_effect" val="1" />
@@ -225,7 +225,7 @@
 		<set name="is_stackable" val="true" />
 		<set name="handler" val="MercTicket" />
 	</item>
-	<item id="6825" type="EtcItem" name="Recruit Posting Ticket (Cleric/Stationary)">
+	<item id="6825" type="EtcItem" name="訓練兵配置表(牧師/固定)">
 		<set name="icon" val="icon.mticket_cleric_fix_i00" />
 		<set name="etcitem_type" val="castle_guard" />
 		<set name="immediate_effect" val="1" />
@@ -234,7 +234,7 @@
 		<set name="is_stackable" val="true" />
 		<set name="handler" val="MercTicket" />
 	</item>
-	<item id="6826" type="EtcItem" name="Recruit Posting Ticket (Wizard/Stationary)">
+	<item id="6826" type="EtcItem" name="訓練兵配置表(巫師/固定)">
 		<set name="icon" val="icon.mticket_wizard_fix_i00" />
 		<set name="etcitem_type" val="castle_guard" />
 		<set name="immediate_effect" val="1" />
@@ -243,7 +243,7 @@
 		<set name="is_stackable" val="true" />
 		<set name="handler" val="MercTicket" />
 	</item>
-	<item id="6827" type="EtcItem" name="Recruit Posting Ticket (Sword/Mobile)">
+	<item id="6827" type="EtcItem" name="訓練兵配置表(劍/移動)">
 		<set name="icon" val="icon.mticket_sword_move_i00" />
 		<set name="etcitem_type" val="castle_guard" />
 		<set name="immediate_effect" val="1" />
@@ -252,7 +252,7 @@
 		<set name="is_stackable" val="true" />
 		<set name="handler" val="MercTicket" />
 	</item>
-	<item id="6828" type="EtcItem" name="Recruit Posting Ticket (Spear/Mobile)">
+	<item id="6828" type="EtcItem" name="訓練兵配置表(槍/移動)">
 		<set name="icon" val="icon.mticket_pole_move_i00" />
 		<set name="etcitem_type" val="castle_guard" />
 		<set name="immediate_effect" val="1" />
@@ -261,7 +261,7 @@
 		<set name="is_stackable" val="true" />
 		<set name="handler" val="MercTicket" />
 	</item>
-	<item id="6829" type="EtcItem" name="Recruit Posting Ticket (Bow/Mobile)">
+	<item id="6829" type="EtcItem" name="訓練兵配置表(弓/移動)">
 		<set name="icon" val="icon.mticket_bow_move_i00" />
 		<set name="etcitem_type" val="castle_guard" />
 		<set name="immediate_effect" val="1" />
@@ -270,7 +270,7 @@
 		<set name="is_stackable" val="true" />
 		<set name="handler" val="MercTicket" />
 	</item>
-	<item id="6830" type="EtcItem" name="Recruit Posting Ticket (Cleric/Mobile)">
+	<item id="6830" type="EtcItem" name="訓練兵配置表(牧師/移動)">
 		<set name="icon" val="icon.mticket_cleric_move_i00" />
 		<set name="etcitem_type" val="castle_guard" />
 		<set name="immediate_effect" val="1" />
@@ -279,7 +279,7 @@
 		<set name="is_stackable" val="true" />
 		<set name="handler" val="MercTicket" />
 	</item>
-	<item id="6831" type="EtcItem" name="Recruit Posting Ticket (Wizard/Mobile)">
+	<item id="6831" type="EtcItem" name="訓練兵配置表(巫師/移動)">
 		<set name="icon" val="icon.mticket_wizard_move_i00" />
 		<set name="etcitem_type" val="castle_guard" />
 		<set name="immediate_effect" val="1" />
@@ -288,7 +288,7 @@
 		<set name="is_stackable" val="true" />
 		<set name="handler" val="MercTicket" />
 	</item>
-	<item id="6832" type="EtcItem" name="Nephilim Warrior Posting Ticket (Sword/Mobile)">
+	<item id="6832" type="EtcItem" name="那芙琳戰士配置表">
 		<set name="icon" val="icon.mticket_sword_move_i00" />
 		<set name="etcitem_type" val="castle_guard" />
 		<set name="immediate_effect" val="1" />
@@ -297,7 +297,7 @@
 		<set name="is_stackable" val="true" />
 		<set name="handler" val="MercTicket" />
 	</item>
-	<item id="6833" type="EtcItem" name="Nephilim Shaman Posting Ticket (Wizard/Mobile)">
+	<item id="6833" type="EtcItem" name="那芙琳咒術士配置表">
 		<set name="icon" val="icon.mticket_wizard_move_i00" />
 		<set name="etcitem_type" val="castle_guard" />
 		<set name="immediate_effect" val="1" />
@@ -306,7 +306,7 @@
 		<set name="is_stackable" val="true" />
 		<set name="handler" val="MercTicket" />
 	</item>
-	<item id="6834" type="Armor" name="Circlet of Innadril">
+	<item id="6834" type="Armor" name="因納得立之環">
 		<set name="icon" val="icon.accessory_pledge_cap1_i00" />
 		<set name="default_action" val="equip" />
 		<set name="bodypart" val="hair" />
@@ -327,7 +327,7 @@
 			</and>
 		</cond>
 	</item>
-	<item id="6835" type="Armor" name="Circlet of Dion">
+	<item id="6835" type="Armor" name="狄恩之環">
 		<set name="icon" val="icon.accessory_pledge_cap1_i02" />
 		<set name="default_action" val="equip" />
 		<set name="bodypart" val="hair" />
@@ -348,7 +348,7 @@
 			</and>
 		</cond>
 	</item>
-	<item id="6836" type="Armor" name="Circlet of Goddard">
+	<item id="6836" type="Armor" name="高達特之環">
 		<set name="icon" val="icon.accessory_pledge_cap1_i03" />
 		<set name="default_action" val="equip" />
 		<set name="bodypart" val="hair" />
@@ -369,7 +369,7 @@
 			</and>
 		</cond>
 	</item>
-	<item id="6837" type="Armor" name="Circlet of Oren">
+	<item id="6837" type="Armor" name="歐瑞之環">
 		<set name="icon" val="icon.accessory_pledge_cap1_i04" />
 		<set name="default_action" val="equip" />
 		<set name="bodypart" val="hair" />
@@ -390,7 +390,7 @@
 			</and>
 		</cond>
 	</item>
-	<item id="6838" type="Armor" name="Circlet of Gludio">
+	<item id="6838" type="Armor" name="古魯丁之環">
 		<set name="icon" val="icon.accessory_pledge_cap1_i05" />
 		<set name="default_action" val="equip" />
 		<set name="bodypart" val="hair" />
@@ -411,7 +411,7 @@
 			</and>
 		</cond>
 	</item>
-	<item id="6839" type="Armor" name="Circlet of Giran">
+	<item id="6839" type="Armor" name="奇岩之環">
 		<set name="icon" val="icon.accessory_pledge_cap1_i06" />
 		<set name="default_action" val="equip" />
 		<set name="bodypart" val="hair" />
@@ -432,7 +432,7 @@
 			</and>
 		</cond>
 	</item>
-	<item id="6840" type="Armor" name="Circlet of Aden">
+	<item id="6840" type="Armor" name="亞丁之環">
 		<set name="icon" val="icon.accessory_pledge_cap2_i07" />
 		<set name="default_action" val="equip" />
 		<set name="bodypart" val="hair" />
@@ -453,7 +453,7 @@
 			</and>
 		</cond>
 	</item>
-	<item id="6841" type="Armor" name="The Lord's Crown">
+	<item id="6841" type="Armor" name="城主的王冠">
 		<set name="icon" val="icon.accessory_crown_i00" />
 		<set name="default_action" val="equip" />
 		<set name="bodypart" val="hair" />
@@ -464,7 +464,7 @@
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="item_skill" val="3632-1" />
-		<set name="equip_condition" val="{{ec_castle;1};{ec_clan_leader;1}}" />
+		<set name="equip_condition" val="{{ec_castle;1};{ec_clan_leader;1}}"/>
 		<cond msgId="1518">
 			<and>
 				<player castle="-1" />
@@ -473,7 +473,7 @@
 			</and>
 		</cond>
 	</item>
-	<item id="6842" type="Armor" name="Wings of Destiny Circlet">
+	<item id="6842" type="Armor" name="命運之翼">
 		<set name="icon" val="icon.accessory_hero_cap_i00" />
 		<set name="default_action" val="equip" />
 		<set name="bodypart" val="hair" />
@@ -484,12 +484,12 @@
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_depositable" val="false" />
-		<set name="equip_condition" val="{{ec_hero;1}}" />
+		<set name="equip_condition" val="{{ec_hero;1}}"/>
 		<cond msgId="1508">
 			<player olympiad="false" />
 		</cond>
 	</item>
-	<item id="6843" type="Armor" name="Cat Ear">
+	<item id="6843" type="Armor" name="貓耳">
 		<set name="icon" val="icon.accessory_cat_ear_i00" />
 		<set name="default_action" val="equip" />
 		<set name="bodypart" val="hair2" />
@@ -498,7 +498,7 @@
 		<set name="weight" val="10" />
 		<set name="price" val="500000" />
 	</item>
-	<item id="6844" type="Armor" name="Lady's Hair Pin">
+	<item id="6844" type="Armor" name="名媛髮飾">
 		<set name="icon" val="icon.accessory_hairpin_i00" />
 		<set name="default_action" val="equip" />
 		<set name="bodypart" val="hair2" />
@@ -506,12 +506,12 @@
 		<set name="material" val="wood" />
 		<set name="weight" val="10" />
 		<set name="price" val="500000" />
-		<set name="equip_condition" val="{{ec_sex;1}}" />
+		<set name="equip_condition" val="{{ec_sex;1}}"/>
 		<cond msgId="1518">
 			<player sex="1" />
 		</cond>
 	</item>
-	<item id="6845" type="Armor" name="Pirate's Eye Patch">
+	<item id="6845" type="Armor" name="海盜眼罩">
 		<set name="icon" val="icon.accessory_eye_bandage_i00" />
 		<set name="default_action" val="equip" />
 		<set name="bodypart" val="hair" />
@@ -520,7 +520,7 @@
 		<set name="weight" val="10" />
 		<set name="price" val="500000" />
 	</item>
-	<item id="6846" type="Armor" name="Monocle">
+	<item id="6846" type="Armor" name="單片眼鏡">
 		<set name="icon" val="icon.accessory_glasses_i00" />
 		<set name="default_action" val="equip" />
 		<set name="bodypart" val="hair" />
@@ -529,7 +529,7 @@
 		<set name="weight" val="10" />
 		<set name="price" val="500000" />
 	</item>
-	<item id="6847" type="EtcItem" name="Recipe: Sealed Tateossian Earring (70%)">
+	<item id="6847" type="EtcItem" name="製作卷軸(封印的泰狄奧森耳環70%)">
 		<set name="icon" val="icon.etc_recipe_black_i00" />
 		<set name="default_action" val="recipe" />
 		<set name="etcitem_type" val="recipe" />
@@ -541,7 +541,7 @@
 		<set name="is_stackable" val="true" />
 		<set name="handler" val="Recipes" />
 	</item>
-	<item id="6848" type="EtcItem" name="Recipe: Sealed Tateossian Earring (100%)">
+	<item id="6848" type="EtcItem" name="製作卷軸(封印的泰狄奧森耳環100%)">
 		<set name="icon" val="icon.etc_recipe_black_i00" />
 		<set name="default_action" val="recipe" />
 		<set name="etcitem_type" val="recipe" />
@@ -553,7 +553,7 @@
 		<set name="is_stackable" val="true" />
 		<set name="handler" val="Recipes" />
 	</item>
-	<item id="6849" type="EtcItem" name="Recipe: Sealed Tateossian Ring(70%)">
+	<item id="6849" type="EtcItem" name="製作卷軸(封印的泰狄奧森戒指70%)">
 		<set name="icon" val="icon.etc_recipe_black_i00" />
 		<set name="default_action" val="recipe" />
 		<set name="etcitem_type" val="recipe" />
@@ -565,7 +565,7 @@
 		<set name="is_stackable" val="true" />
 		<set name="handler" val="Recipes" />
 	</item>
-	<item id="6850" type="EtcItem" name="Recipe: Sealed Tateossian Ring(100%)">
+	<item id="6850" type="EtcItem" name="製作卷軸(封印的泰狄奧森戒指100%)">
 		<set name="icon" val="icon.etc_recipe_black_i00" />
 		<set name="default_action" val="recipe" />
 		<set name="etcitem_type" val="recipe" />
@@ -577,7 +577,7 @@
 		<set name="is_stackable" val="true" />
 		<set name="handler" val="Recipes" />
 	</item>
-	<item id="6851" type="EtcItem" name="Recipe: Sealed Tateossian Necklace(70%)">
+	<item id="6851" type="EtcItem" name="製作卷軸(封印的泰狄奧森項鍊70%)">
 		<set name="icon" val="icon.etc_recipe_black_i00" />
 		<set name="default_action" val="recipe" />
 		<set name="etcitem_type" val="recipe" />
@@ -589,7 +589,7 @@
 		<set name="is_stackable" val="true" />
 		<set name="handler" val="Recipes" />
 	</item>
-	<item id="6852" type="EtcItem" name="Recipe: Sealed Tateossian Necklace(100%)">
+	<item id="6852" type="EtcItem" name="製作卷軸(封印的泰狄奧森項鍊100%)">
 		<set name="icon" val="icon.etc_recipe_black_i00" />
 		<set name="default_action" val="recipe" />
 		<set name="etcitem_type" val="recipe" />
@@ -601,7 +601,7 @@
 		<set name="is_stackable" val="true" />
 		<set name="handler" val="Recipes" />
 	</item>
-	<item id="6853" type="EtcItem" name="Recipe: Sealed Imperial Crusader Breastplate (60%)">
+	<item id="6853" type="EtcItem" name="製作卷軸(封印的帝國聖軍胸甲60%)">
 		<set name="icon" val="icon.etc_recipe_black_i00" />
 		<set name="default_action" val="recipe" />
 		<set name="etcitem_type" val="recipe" />
@@ -613,7 +613,7 @@
 		<set name="is_stackable" val="true" />
 		<set name="handler" val="Recipes" />
 	</item>
-	<item id="6854" type="EtcItem" name="Recipe: Sealed Imperial Crusader Breastplate (100%)">
+	<item id="6854" type="EtcItem" name="製作卷軸(封印的帝國聖軍胸甲100%)">
 		<set name="icon" val="icon.etc_recipe_black_i00" />
 		<set name="default_action" val="recipe" />
 		<set name="etcitem_type" val="recipe" />
@@ -625,7 +625,7 @@
 		<set name="is_stackable" val="true" />
 		<set name="handler" val="Recipes" />
 	</item>
-	<item id="6855" type="EtcItem" name="Recipe: Sealed Imperial Crusader Gaiters (60%)">
+	<item id="6855" type="EtcItem" name="製作卷軸(封印的帝國聖軍脛甲60%)">
 		<set name="icon" val="icon.etc_recipe_black_i00" />
 		<set name="default_action" val="recipe" />
 		<set name="etcitem_type" val="recipe" />
@@ -637,7 +637,7 @@
 		<set name="is_stackable" val="true" />
 		<set name="handler" val="Recipes" />
 	</item>
-	<item id="6856" type="EtcItem" name="Recipe: Sealed Imperial Crusader Gaiters (100%)">
+	<item id="6856" type="EtcItem" name="製作卷軸(封印的帝國聖軍脛甲100%)">
 		<set name="icon" val="icon.etc_recipe_black_i00" />
 		<set name="default_action" val="recipe" />
 		<set name="etcitem_type" val="recipe" />
@@ -649,7 +649,7 @@
 		<set name="is_stackable" val="true" />
 		<set name="handler" val="Recipes" />
 	</item>
-	<item id="6857" type="EtcItem" name="Recipe: Sealed Imperial Crusader Gauntlets (60%)">
+	<item id="6857" type="EtcItem" name="製作卷軸(封印的帝國聖軍長手套60%)">
 		<set name="icon" val="icon.etc_recipe_black_i00" />
 		<set name="default_action" val="recipe" />
 		<set name="etcitem_type" val="recipe" />
@@ -661,7 +661,7 @@
 		<set name="is_stackable" val="true" />
 		<set name="handler" val="Recipes" />
 	</item>
-	<item id="6858" type="EtcItem" name="Recipe: Sealed Imperial Crusader Gauntlets (100%)">
+	<item id="6858" type="EtcItem" name="製作卷軸(封印的帝國聖軍長手套100%)">
 		<set name="icon" val="icon.etc_recipe_black_i00" />
 		<set name="default_action" val="recipe" />
 		<set name="etcitem_type" val="recipe" />
@@ -673,7 +673,7 @@
 		<set name="is_stackable" val="true" />
 		<set name="handler" val="Recipes" />
 	</item>
-	<item id="6859" type="EtcItem" name="Recipe: Sealed Imperial Crusader Boots (60%)">
+	<item id="6859" type="EtcItem" name="製作卷軸(封印的帝國聖軍長靴60%)">
 		<set name="icon" val="icon.etc_recipe_black_i00" />
 		<set name="default_action" val="recipe" />
 		<set name="etcitem_type" val="recipe" />
@@ -685,7 +685,7 @@
 		<set name="is_stackable" val="true" />
 		<set name="handler" val="Recipes" />
 	</item>
-	<item id="6860" type="EtcItem" name="Recipe: Sealed Imperial Crusader Boots (100%)">
+	<item id="6860" type="EtcItem" name="製作卷軸(封印的帝國聖軍長靴100%)">
 		<set name="icon" val="icon.etc_recipe_black_i00" />
 		<set name="default_action" val="recipe" />
 		<set name="etcitem_type" val="recipe" />
@@ -697,7 +697,7 @@
 		<set name="is_stackable" val="true" />
 		<set name="handler" val="Recipes" />
 	</item>
-	<item id="6861" type="EtcItem" name="Recipe: Sealed Imperial Crusader Shield (60%)">
+	<item id="6861" type="EtcItem" name="製作卷軸(封印的帝國聖軍盾60%)">
 		<set name="icon" val="icon.etc_recipe_black_i00" />
 		<set name="default_action" val="recipe" />
 		<set name="etcitem_type" val="recipe" />
@@ -709,7 +709,7 @@
 		<set name="is_stackable" val="true" />
 		<set name="handler" val="Recipes" />
 	</item>
-	<item id="6862" type="EtcItem" name="Recipe: Sealed Imperial Crusader Shield (100%)">
+	<item id="6862" type="EtcItem" name="製作卷軸(封印的帝國聖軍盾100%)">
 		<set name="icon" val="icon.etc_recipe_black_i00" />
 		<set name="default_action" val="recipe" />
 		<set name="etcitem_type" val="recipe" />
@@ -721,7 +721,7 @@
 		<set name="is_stackable" val="true" />
 		<set name="handler" val="Recipes" />
 	</item>
-	<item id="6863" type="EtcItem" name="Recipe: Sealed Imperial Crusader Helmet (60%)">
+	<item id="6863" type="EtcItem" name="製作卷軸(封印的帝國聖軍頭盔60%)">
 		<set name="icon" val="icon.etc_recipe_black_i00" />
 		<set name="default_action" val="recipe" />
 		<set name="etcitem_type" val="recipe" />
@@ -733,7 +733,7 @@
 		<set name="is_stackable" val="true" />
 		<set name="handler" val="Recipes" />
 	</item>
-	<item id="6864" type="EtcItem" name="Recipe: Sealed Imperial Crusader Helmet (100%)">
+	<item id="6864" type="EtcItem" name="製作卷軸(封印的帝國聖軍頭盔100%)">
 		<set name="icon" val="icon.etc_recipe_black_i00" />
 		<set name="default_action" val="recipe" />
 		<set name="etcitem_type" val="recipe" />
@@ -745,7 +745,7 @@
 		<set name="is_stackable" val="true" />
 		<set name="handler" val="Recipes" />
 	</item>
-	<item id="6865" type="EtcItem" name="Recipe: Sealed Draconic Leather Armor (60%)">
+	<item id="6865" type="EtcItem" name="製作卷軸(封印的紅龍皮甲60%)">
 		<set name="icon" val="icon.etc_recipe_black_i00" />
 		<set name="default_action" val="recipe" />
 		<set name="etcitem_type" val="recipe" />
@@ -757,7 +757,7 @@
 		<set name="is_stackable" val="true" />
 		<set name="handler" val="Recipes" />
 	</item>
-	<item id="6866" type="EtcItem" name="Recipe: Sealed Draconic Leather Armor (100%)">
+	<item id="6866" type="EtcItem" name="製作卷軸(封印的紅龍皮甲100%)">
 		<set name="icon" val="icon.etc_recipe_black_i00" />
 		<set name="default_action" val="recipe" />
 		<set name="etcitem_type" val="recipe" />
@@ -769,7 +769,7 @@
 		<set name="is_stackable" val="true" />
 		<set name="handler" val="Recipes" />
 	</item>
-	<item id="6867" type="EtcItem" name="Recipe: Sealed Draconic Leather Gloves (60%)">
+	<item id="6867" type="EtcItem" name="製作卷軸(封印的紅龍皮手套60%)">
 		<set name="icon" val="icon.etc_recipe_black_i00" />
 		<set name="default_action" val="recipe" />
 		<set name="etcitem_type" val="recipe" />
@@ -781,7 +781,7 @@
 		<set name="is_stackable" val="true" />
 		<set name="handler" val="Recipes" />
 	</item>
-	<item id="6868" type="EtcItem" name="Recipe: Sealed Draconic Leather Gloves (100%)">
+	<item id="6868" type="EtcItem" name="製作卷軸(封印的紅龍皮手套100%)">
 		<set name="icon" val="icon.etc_recipe_black_i00" />
 		<set name="default_action" val="recipe" />
 		<set name="etcitem_type" val="recipe" />
@@ -793,7 +793,7 @@
 		<set name="is_stackable" val="true" />
 		<set name="handler" val="Recipes" />
 	</item>
-	<item id="6869" type="EtcItem" name="Recipe: Sealed Draconic Leather Boots (60%)">
+	<item id="6869" type="EtcItem" name="製作卷軸(封印的紅龍皮靴60%)">
 		<set name="icon" val="icon.etc_recipe_black_i00" />
 		<set name="default_action" val="recipe" />
 		<set name="etcitem_type" val="recipe" />
@@ -805,7 +805,7 @@
 		<set name="is_stackable" val="true" />
 		<set name="handler" val="Recipes" />
 	</item>
-	<item id="6870" type="EtcItem" name="Recipe: Sealed Draconic Leather Boots (100%)">
+	<item id="6870" type="EtcItem" name="製作卷軸(封印的紅龍皮靴100%)">
 		<set name="icon" val="icon.etc_recipe_black_i00" />
 		<set name="default_action" val="recipe" />
 		<set name="etcitem_type" val="recipe" />
@@ -817,7 +817,7 @@
 		<set name="is_stackable" val="true" />
 		<set name="handler" val="Recipes" />
 	</item>
-	<item id="6871" type="EtcItem" name="Recipe: Sealed Draconic Leather Helmet (60%)">
+	<item id="6871" type="EtcItem" name="製作卷軸(封印的紅龍皮盔60%)">
 		<set name="icon" val="icon.etc_recipe_black_i00" />
 		<set name="default_action" val="recipe" />
 		<set name="etcitem_type" val="recipe" />
@@ -829,7 +829,7 @@
 		<set name="is_stackable" val="true" />
 		<set name="handler" val="Recipes" />
 	</item>
-	<item id="6872" type="EtcItem" name="Recipe: Sealed Draconic Leather Helmet (100%)">
+	<item id="6872" type="EtcItem" name="製作卷軸(封印的紅龍皮盔100%)">
 		<set name="icon" val="icon.etc_recipe_black_i00" />
 		<set name="default_action" val="recipe" />
 		<set name="etcitem_type" val="recipe" />
@@ -841,7 +841,7 @@
 		<set name="is_stackable" val="true" />
 		<set name="handler" val="Recipes" />
 	</item>
-	<item id="6873" type="EtcItem" name="Recipe: Sealed Major Arcana Robe (60%)">
+	<item id="6873" type="EtcItem" name="製作卷軸(封印的大祕儀長袍60%)">
 		<set name="icon" val="icon.etc_recipe_black_i00" />
 		<set name="default_action" val="recipe" />
 		<set name="etcitem_type" val="recipe" />
@@ -853,7 +853,7 @@
 		<set name="is_stackable" val="true" />
 		<set name="handler" val="Recipes" />
 	</item>
-	<item id="6874" type="EtcItem" name="Recipe: Sealed Major Arcana Robe (100%)">
+	<item id="6874" type="EtcItem" name="製作卷軸(封印的大祕儀長袍100%)">
 		<set name="icon" val="icon.etc_recipe_black_i00" />
 		<set name="default_action" val="recipe" />
 		<set name="etcitem_type" val="recipe" />
@@ -865,7 +865,7 @@
 		<set name="is_stackable" val="true" />
 		<set name="handler" val="Recipes" />
 	</item>
-	<item id="6875" type="EtcItem" name="Recipe: Sealed Major Arcana Gloves (60%)">
+	<item id="6875" type="EtcItem" name="製作卷軸(封印的大祕儀手套60%)">
 		<set name="icon" val="icon.etc_recipe_black_i00" />
 		<set name="default_action" val="recipe" />
 		<set name="etcitem_type" val="recipe" />
@@ -877,7 +877,7 @@
 		<set name="is_stackable" val="true" />
 		<set name="handler" val="Recipes" />
 	</item>
-	<item id="6876" type="EtcItem" name="Recipe: Sealed Major Arcana Gloves (100%)">
+	<item id="6876" type="EtcItem" name="製作卷軸(封印的大祕儀手套100%)">
 		<set name="icon" val="icon.etc_recipe_black_i00" />
 		<set name="default_action" val="recipe" />
 		<set name="etcitem_type" val="recipe" />
@@ -889,7 +889,7 @@
 		<set name="is_stackable" val="true" />
 		<set name="handler" val="Recipes" />
 	</item>
-	<item id="6877" type="EtcItem" name="Recipe: Sealed Major Arcana Boots (60%)">
+	<item id="6877" type="EtcItem" name="製作卷軸(封印的大祕儀長靴60%)">
 		<set name="icon" val="icon.etc_recipe_black_i00" />
 		<set name="default_action" val="recipe" />
 		<set name="etcitem_type" val="recipe" />
@@ -901,7 +901,7 @@
 		<set name="is_stackable" val="true" />
 		<set name="handler" val="Recipes" />
 	</item>
-	<item id="6878" type="EtcItem" name="Recipe: Sealed Major Arcana Boots (100%)">
+	<item id="6878" type="EtcItem" name="製作卷軸(封印的大祕儀長靴100%)">
 		<set name="icon" val="icon.etc_recipe_black_i00" />
 		<set name="default_action" val="recipe" />
 		<set name="etcitem_type" val="recipe" />
@@ -913,7 +913,7 @@
 		<set name="is_stackable" val="true" />
 		<set name="handler" val="Recipes" />
 	</item>
-	<item id="6879" type="EtcItem" name="Recipe: Sealed Major Arcana Circlet (60%)">
+	<item id="6879" type="EtcItem" name="製作卷軸(封印的大祕儀頭箍60%)">
 		<set name="icon" val="icon.etc_recipe_black_i00" />
 		<set name="default_action" val="recipe" />
 		<set name="etcitem_type" val="recipe" />
@@ -925,7 +925,7 @@
 		<set name="is_stackable" val="true" />
 		<set name="handler" val="Recipes" />
 	</item>
-	<item id="6880" type="EtcItem" name="Recipe: Sealed Major Arcana Circlet (100%)">
+	<item id="6880" type="EtcItem" name="製作卷軸(封印的大祕儀頭箍100%)">
 		<set name="icon" val="icon.etc_recipe_black_i00" />
 		<set name="default_action" val="recipe" />
 		<set name="etcitem_type" val="recipe" />
@@ -937,7 +937,7 @@
 		<set name="is_stackable" val="true" />
 		<set name="handler" val="Recipes" />
 	</item>
-	<item id="6881" type="EtcItem" name="Recipe: Forgotten Blade (60%)">
+	<item id="6881" type="EtcItem" name="製作卷軸(忘卻之刃60%)">
 		<set name="icon" val="icon.etc_recipe_black_i00" />
 		<set name="default_action" val="recipe" />
 		<set name="etcitem_type" val="recipe" />
@@ -949,7 +949,7 @@
 		<set name="is_stackable" val="true" />
 		<set name="handler" val="Recipes" />
 	</item>
-	<item id="6882" type="EtcItem" name="Recipe: Forgotten Blade (100%)">
+	<item id="6882" type="EtcItem" name="製作卷軸(忘卻之刃100%)">
 		<set name="icon" val="icon.etc_recipe_black_i00" />
 		<set name="default_action" val="recipe" />
 		<set name="etcitem_type" val="recipe" />
@@ -961,7 +961,7 @@
 		<set name="is_stackable" val="true" />
 		<set name="handler" val="Recipes" />
 	</item>
-	<item id="6883" type="EtcItem" name="Recipe: Basalt Battlehammer (60%)">
+	<item id="6883" type="EtcItem" name="製作卷軸(玄武岩戰鎚60%)">
 		<set name="icon" val="icon.etc_recipe_black_i00" />
 		<set name="default_action" val="recipe" />
 		<set name="etcitem_type" val="recipe" />
@@ -973,7 +973,7 @@
 		<set name="is_stackable" val="true" />
 		<set name="handler" val="Recipes" />
 	</item>
-	<item id="6884" type="EtcItem" name="Recipe: Basalt Battlehammer (100%)">
+	<item id="6884" type="EtcItem" name="製作卷軸(玄武岩戰鎚100%)">
 		<set name="icon" val="icon.etc_recipe_black_i00" />
 		<set name="default_action" val="recipe" />
 		<set name="etcitem_type" val="recipe" />
@@ -985,7 +985,7 @@
 		<set name="is_stackable" val="true" />
 		<set name="handler" val="Recipes" />
 	</item>
-	<item id="6885" type="EtcItem" name="Recipe: Imperial Staff (60%)">
+	<item id="6885" type="EtcItem" name="製作卷軸(帝國權杖60%)">
 		<set name="icon" val="icon.etc_recipe_black_i00" />
 		<set name="default_action" val="recipe" />
 		<set name="etcitem_type" val="recipe" />
@@ -997,7 +997,7 @@
 		<set name="is_stackable" val="true" />
 		<set name="handler" val="Recipes" />
 	</item>
-	<item id="6886" type="EtcItem" name="Recipe: Imperial Staff(100%)">
+	<item id="6886" type="EtcItem" name="製作卷軸(帝國權杖100%)">
 		<set name="icon" val="icon.etc_recipe_black_i00" />
 		<set name="default_action" val="recipe" />
 		<set name="etcitem_type" val="recipe" />
@@ -1009,7 +1009,7 @@
 		<set name="is_stackable" val="true" />
 		<set name="handler" val="Recipes" />
 	</item>
-	<item id="6887" type="EtcItem" name="Recipe: Angel Slayer (60%)">
+	<item id="6887" type="EtcItem" name="製作卷軸(天使殺手60%)">
 		<set name="icon" val="icon.etc_recipe_black_i00" />
 		<set name="default_action" val="recipe" />
 		<set name="etcitem_type" val="recipe" />
@@ -1021,7 +1021,7 @@
 		<set name="is_stackable" val="true" />
 		<set name="handler" val="Recipes" />
 	</item>
-	<item id="6888" type="EtcItem" name="Recipe: Angel Slayer (100%)">
+	<item id="6888" type="EtcItem" name="製作卷軸(天使殺手100%)">
 		<set name="icon" val="icon.etc_recipe_black_i00" />
 		<set name="default_action" val="recipe" />
 		<set name="etcitem_type" val="recipe" />
@@ -1033,7 +1033,7 @@
 		<set name="is_stackable" val="true" />
 		<set name="handler" val="Recipes" />
 	</item>
-	<item id="6889" type="EtcItem" name="Recipe: Shining Bow (60%)">
+	<item id="6889" type="EtcItem" name="製作卷軸(閃耀弓60%)">
 		<set name="icon" val="icon.etc_recipe_black_i00" />
 		<set name="default_action" val="recipe" />
 		<set name="etcitem_type" val="recipe" />
@@ -1045,7 +1045,7 @@
 		<set name="is_stackable" val="true" />
 		<set name="handler" val="Recipes" />
 	</item>
-	<item id="6890" type="EtcItem" name="Recipe: Shining Bow (100%)">
+	<item id="6890" type="EtcItem" name="製作卷軸(閃耀弓100%)">
 		<set name="icon" val="icon.etc_recipe_black_i00" />
 		<set name="default_action" val="recipe" />
 		<set name="etcitem_type" val="recipe" />
@@ -1057,7 +1057,7 @@
 		<set name="is_stackable" val="true" />
 		<set name="handler" val="Recipes" />
 	</item>
-	<item id="6891" type="EtcItem" name="Recipe: Dragon Hunter Axe (60%)">
+	<item id="6891" type="EtcItem" name="製作卷軸(狩龍之斧60%)">
 		<set name="icon" val="icon.etc_recipe_black_i00" />
 		<set name="default_action" val="recipe" />
 		<set name="etcitem_type" val="recipe" />
@@ -1069,7 +1069,7 @@
 		<set name="is_stackable" val="true" />
 		<set name="handler" val="Recipes" />
 	</item>
-	<item id="6892" type="EtcItem" name="Recipe: Dragon Hunter Axe (100%)">
+	<item id="6892" type="EtcItem" name="製作卷軸(狩龍之斧100%)">
 		<set name="icon" val="icon.etc_recipe_black_i00" />
 		<set name="default_action" val="recipe" />
 		<set name="etcitem_type" val="recipe" />
@@ -1081,7 +1081,7 @@
 		<set name="is_stackable" val="true" />
 		<set name="handler" val="Recipes" />
 	</item>
-	<item id="6893" type="EtcItem" name="Recipe: Saint Spear (60%)">
+	<item id="6893" type="EtcItem" name="製作卷軸(聖者之矛60%)">
 		<set name="icon" val="icon.etc_recipe_black_i00" />
 		<set name="default_action" val="recipe" />
 		<set name="etcitem_type" val="recipe" />
@@ -1093,7 +1093,7 @@
 		<set name="is_stackable" val="true" />
 		<set name="handler" val="Recipes" />
 	</item>
-	<item id="6894" type="EtcItem" name="Recipe: Saint Spear (100%)">
+	<item id="6894" type="EtcItem" name="製作卷軸(聖者之矛100%)">
 		<set name="icon" val="icon.etc_recipe_black_i00" />
 		<set name="default_action" val="recipe" />
 		<set name="etcitem_type" val="recipe" />
@@ -1105,7 +1105,7 @@
 		<set name="is_stackable" val="true" />
 		<set name="handler" val="Recipes" />
 	</item>
-	<item id="6895" type="EtcItem" name="Recipe: Demon Splinter (60%)">
+	<item id="6895" type="EtcItem" name="製作卷軸(惡魔獵爪60%)">
 		<set name="icon" val="icon.etc_recipe_black_i00" />
 		<set name="default_action" val="recipe" />
 		<set name="etcitem_type" val="recipe" />
@@ -1117,7 +1117,7 @@
 		<set name="is_stackable" val="true" />
 		<set name="handler" val="Recipes" />
 	</item>
-	<item id="6896" type="EtcItem" name="Recipe: Demon Splinter (100%)">
+	<item id="6896" type="EtcItem" name="製作卷軸(惡魔獵爪100%)">
 		<set name="icon" val="icon.etc_recipe_black_i00" />
 		<set name="default_action" val="recipe" />
 		<set name="etcitem_type" val="recipe" />
@@ -1129,7 +1129,7 @@
 		<set name="is_stackable" val="true" />
 		<set name="handler" val="Recipes" />
 	</item>
-	<item id="6897" type="EtcItem" name="Recipe: Heavens Divider (60%)">
+	<item id="6897" type="EtcItem" name="製作卷軸(天國審判60%)">
 		<set name="icon" val="icon.etc_recipe_black_i00" />
 		<set name="default_action" val="recipe" />
 		<set name="etcitem_type" val="recipe" />
@@ -1141,7 +1141,7 @@
 		<set name="is_stackable" val="true" />
 		<set name="handler" val="Recipes" />
 	</item>
-	<item id="6898" type="EtcItem" name="Recipe: Heavens Divider (100%)">
+	<item id="6898" type="EtcItem" name="製作卷軸(天國審判100%)">
 		<set name="icon" val="icon.etc_recipe_black_i00" />
 		<set name="default_action" val="recipe" />
 		<set name="etcitem_type" val="recipe" />
@@ -1153,7 +1153,7 @@
 		<set name="is_stackable" val="true" />
 		<set name="handler" val="Recipes" />
 	</item>
-	<item id="6899" type="EtcItem" name="Recipe: Arcana Mace (60%)">
+	<item id="6899" type="EtcItem" name="製作卷軸(祕儀權杖60%)">
 		<set name="icon" val="icon.etc_recipe_black_i00" />
 		<set name="default_action" val="recipe" />
 		<set name="etcitem_type" val="recipe" />

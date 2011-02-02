@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <list>
-	<item id="15500" type="EtcItem" name="Sel Mahum Diary">
+	<item id="15500" type="EtcItem" name="賽爾豺狼的日記">
 		<set name="icon" val="icon.etc_spell_books_white_i00" />
 		<set name="immediate_effect" val="1" />
 		<set name="material" val="crystal" />
@@ -12,7 +12,7 @@
 		<set name="is_questitem" val="true" />
 		<set name="is_oly_restricted" val="true" />
 	</item>
-	<item id="15501" type="EtcItem" name="Sel Mahum Cookbook Page">
+	<item id="15501" type="EtcItem" name="撕裂的料理筆記">
 		<set name="icon" val="icon.etc_hidden_2nd_page_i00" />
 		<set name="immediate_effect" val="1" />
 		<set name="material" val="crystal" />
@@ -24,7 +24,7 @@
 		<set name="is_questitem" val="true" />
 		<set name="is_oly_restricted" val="true" />
 	</item>
-	<item id="15502" type="EtcItem" name="Sel Mahum Cookbook">
+	<item id="15502" type="EtcItem" name="完整的料理筆記">
 		<set name="icon" val="icon.etc_spell_books_assistance_i00" />
 		<set name="immediate_effect" val="1" />
 		<set name="material" val="crystal" />
@@ -36,7 +36,7 @@
 		<set name="is_questitem" val="true" />
 		<set name="is_oly_restricted" val="true" />
 	</item>
-	<item id="15503" type="EtcItem" name="Shiny Salmon">
+	<item id="15503" type="EtcItem" name="閃亮鱗片鮭魚">
 		<set name="icon" val="icon.etc_tuna_i00" />
 		<set name="immediate_effect" val="1" />
 		<set name="material" val="crystal" />
@@ -48,7 +48,7 @@
 		<set name="is_questitem" val="true" />
 		<set name="is_oly_restricted" val="true" />
 	</item>
-	<item id="15504" type="EtcItem" name="Gray Salmon">
+	<item id="15504" type="EtcItem" name="黯淡鱗片鮭魚">
 		<set name="icon" val="icon.etc_tuna_i02" />
 		<set name="immediate_effect" val="1" />
 		<set name="material" val="crystal" />
@@ -60,7 +60,7 @@
 		<set name="is_questitem" val="true" />
 		<set name="is_oly_restricted" val="true" />
 	</item>
-	<item id="15505" type="EtcItem" name="Sickly Salmon">
+	<item id="15505" type="EtcItem" name="破損鱗片鮭魚">
 		<set name="icon" val="icon.etc_tuna_i08" />
 		<set name="immediate_effect" val="1" />
 		<set name="material" val="crystal" />
@@ -72,7 +72,7 @@
 		<set name="is_questitem" val="true" />
 		<set name="is_oly_restricted" val="true" />
 	</item>
-	<item id="15506" type="EtcItem" name="Salmon Lure">
+	<item id="15506" type="EtcItem" name="釣取鮭魚用魚餌">
 		<set name="icon" val="icon.etc_bait_i00" />
 		<set name="immediate_effect" val="1" />
 		<set name="material" val="crystal" />
@@ -84,7 +84,7 @@
 		<set name="is_questitem" val="true" />
 		<set name="is_oly_restricted" val="true" />
 	</item>
-	<item id="15507" type="EtcItem" name="Foul Fruit">
+	<item id="15507" type="EtcItem" name="苦澀的果實">
 		<set name="icon" val="icon.etc_codran_i06" />
 		<set name="default_action" val="skill_reduce" />
 		<set name="material" val="crystal" />
@@ -96,7 +96,7 @@
 		<set name="is_oly_restricted" val="true" />
 		<set name="item_skill" val="9075-1" />
 	</item>
-	<item id="15508" type="EtcItem" name="Sel Mahum Training Diary">
+	<item id="15508" type="EtcItem" name="賽爾豺狼訓練日誌">
 		<set name="icon" val="icon.etc_spellbook_gray_i00" />
 		<set name="immediate_effect" val="1" />
 		<set name="material" val="crystal" />
@@ -108,7 +108,7 @@
 		<set name="is_questitem" val="true" />
 		<set name="is_oly_restricted" val="true" />
 	</item>
-	<item id="15509" type="EtcItem" name="Sel Mahum Training Timetable">
+	<item id="15509" type="EtcItem" name="賽爾豺狼訓練行程表">
 		<set name="icon" val="icon.etc_plan_i00" />
 		<set name="immediate_effect" val="1" />
 		<set name="material" val="crystal" />
@@ -120,7 +120,7 @@
 		<set name="is_questitem" val="true" />
 		<set name="is_oly_restricted" val="true" />
 	</item>
-	<item id="15510" type="EtcItem" name="Golem Corps Log">
+	<item id="15510" type="EtcItem" name="高崙軍團記錄">
 		<set name="icon" val="icon.etc_piece_of_paper_white_i00" />
 		<set name="immediate_effect" val="1" />
 		<set name="material" val="crystal" />
@@ -133,7 +133,7 @@
 		<set name="is_questitem" val="true" />
 		<set name="is_oly_restricted" val="true" />
 	</item>
-	<item id="15511" type="EtcItem" name="Golem Corps Collection">
+	<item id="15511" type="EtcItem" name="高崙軍團記錄冊">
 		<set name="icon" val="icon.etc_roll_of_paper_black_i00" />
 		<set name="immediate_effect" val="1" />
 		<set name="material" val="crystal" />
@@ -145,7 +145,7 @@
 		<set name="is_questitem" val="true" />
 		<set name="is_oly_restricted" val="true" />
 	</item>
-	<item id="15512" type="EtcItem" name="Seed of Annihilation Orders">
+	<item id="15512" type="EtcItem" name="柯巴爾狄的指令書">
 		<set name="icon" val="icon.etc_letter_white_i00" />
 		<set name="immediate_effect" val="1" />
 		<set name="material" val="crystal" />
@@ -157,7 +157,7 @@
 		<set name="is_questitem" val="true" />
 		<set name="is_oly_restricted" val="true" />
 	</item>
-	<item id="15513" type="EtcItem" name="Gracian Soldier Tag">
+	<item id="15513" type="EtcItem" name="格勒西亞士兵識別證">
 		<set name="icon" val="icon.etc_ticket_blue_i00" />
 		<set name="immediate_effect" val="1" />
 		<set name="material" val="crystal" />
@@ -169,7 +169,7 @@
 		<set name="is_questitem" val="true" />
 		<set name="is_oly_restricted" val="true" />
 	</item>
-	<item id="15514" type="EtcItem" name="Cold Resistance Potion">
+	<item id="15514" type="EtcItem" name="冰冷氣息解毒液">
 		<set name="icon" val="icon.etc_cp_potion_i00" />
 		<set name="immediate_effect" val="1" />
 		<set name="material" val="crystal" />
@@ -181,7 +181,7 @@
 		<set name="is_questitem" val="true" />
 		<set name="is_oly_restricted" val="true" />
 	</item>
-	<item id="15515" type="EtcItem" name="Seal Breaker - 5th Floor">
+	<item id="15515" type="EtcItem" name="結界解除石-5樓">
 		<set name="icon" val="icon.etc_crystal_cave_crystal_i0" />
 		<set name="immediate_effect" val="1" />
 		<set name="material" val="crystal" />
@@ -193,7 +193,7 @@
 		<set name="is_questitem" val="true" />
 		<set name="is_oly_restricted" val="true" />
 	</item>
-	<item id="15516" type="EtcItem" name="Seal Breaker - 10th Floor">
+	<item id="15516" type="EtcItem" name="結界解除石-10樓">
 		<set name="icon" val="icon.etc_crystal_cave_crystal_i00" />
 		<set name="immediate_effect" val="1" />
 		<set name="material" val="crystal" />
@@ -205,7 +205,7 @@
 		<set name="is_questitem" val="true" />
 		<set name="is_oly_restricted" val="true" />
 	</item>
-	<item id="15517" type="EtcItem" name="Seal Components Part 1">
+	<item id="15517" type="EtcItem" name="結界的零件碎片-1">
 		<set name="icon" val="icon.etc_debris_i00" />
 		<set name="immediate_effect" val="1" />
 		<set name="material" val="crystal" />
@@ -217,7 +217,7 @@
 		<set name="is_questitem" val="true" />
 		<set name="is_oly_restricted" val="true" />
 	</item>
-	<item id="15518" type="EtcItem" name="Seal Components Part 2">
+	<item id="15518" type="EtcItem" name="結界的零件碎片-2">
 		<set name="icon" val="icon.etc_stone_black_i00" />
 		<set name="immediate_effect" val="1" />
 		<set name="material" val="crystal" />
@@ -229,7 +229,7 @@
 		<set name="is_questitem" val="true" />
 		<set name="is_oly_restricted" val="true" />
 	</item>
-	<item id="15519" type="EtcItem" name="Seal Components Part 3">
+	<item id="15519" type="EtcItem" name="結界的零件碎片-3">
 		<set name="icon" val="icon.etc_synthetic_cokes_i00" />
 		<set name="immediate_effect" val="1" />
 		<set name="material" val="crystal" />
@@ -241,7 +241,7 @@
 		<set name="is_questitem" val="true" />
 		<set name="is_oly_restricted" val="true" />
 	</item>
-	<item id="15520" type="EtcItem" name="Seal Components Part 4">
+	<item id="15520" type="EtcItem" name="結界的零件碎片-4">
 		<set name="icon" val="icon.event_cubic_i00" />
 		<set name="immediate_effect" val="1" />
 		<set name="material" val="crystal" />
@@ -253,7 +253,7 @@
 		<set name="is_questitem" val="true" />
 		<set name="is_oly_restricted" val="true" />
 	</item>
-	<item id="15521" type="EtcItem" name="Broken Golem Fragment">
+	<item id="15521" type="EtcItem" name="損壞的高崙破片">
 		<set name="icon" val="icon.etc_plate_white_i00" />
 		<set name="immediate_effect" val="1" />
 		<set name="material" val="crystal" />
@@ -265,7 +265,7 @@
 		<set name="is_questitem" val="true" />
 		<set name="is_oly_restricted" val="true" />
 	</item>
-	<item id="15522" type="EtcItem" name="Shabby Necklace">
+	<item id="15522" type="EtcItem" name="破舊的項鍊">
 		<set name="icon" val="icon.armor_neck01" />
 		<set name="immediate_effect" val="1" />
 		<set name="material" val="crystal" />
@@ -277,7 +277,7 @@
 		<set name="is_questitem" val="true" />
 		<set name="is_oly_restricted" val="true" />
 	</item>
-	<item id="15523" type="EtcItem" name="Miracle Necklace">
+	<item id="15523" type="EtcItem" name="奇蹟的證據">
 		<set name="icon" val="icon.accessary_necklace_of_protection_i00" />
 		<set name="immediate_effect" val="1" />
 		<set name="material" val="crystal" />
@@ -289,7 +289,7 @@
 		<set name="is_questitem" val="true" />
 		<set name="is_oly_restricted" val="true" />
 	</item>
-	<item id="15524" type="EtcItem" name="Poor Necklace">
+	<item id="15524" type="EtcItem" name="粗劣的項鍊">
 		<set name="icon" val="icon.armor_neck02" />
 		<set name="immediate_effect" val="1" />
 		<set name="material" val="crystal" />
@@ -301,7 +301,7 @@
 		<set name="is_questitem" val="true" />
 		<set name="is_oly_restricted" val="true" />
 	</item>
-	<item id="15525" type="EtcItem" name="Valor Necklace">
+	<item id="15525" type="EtcItem" name="勇猛的證據">
 		<set name="icon" val="icon.accessary_necklace_of_valor_i00" />
 		<set name="immediate_effect" val="1" />
 		<set name="material" val="crystal" />
@@ -313,7 +313,7 @@
 		<set name="is_questitem" val="true" />
 		<set name="is_oly_restricted" val="true" />
 	</item>
-	<item id="15526" type="EtcItem" name="Tattered Monk Clothes">
+	<item id="15526" type="EtcItem" name="修道僧的破衣">
 		<set name="icon" val="icon.etc_leather_gray_i00" />
 		<set name="immediate_effect" val="1" />
 		<set name="material" val="crystal" />
@@ -325,7 +325,7 @@
 		<set name="is_questitem" val="true" />
 		<set name="is_oly_restricted" val="true" />
 	</item>
-	<item id="15527" type="EtcItem" name="Mark of Splendor">
+	<item id="15527" type="EtcItem" name="輝煌信物">
 		<set name="icon" val="icon.etc_potion_yellow_i00" />
 		<set name="immediate_effect" val="1" />
 		<set name="material" val="crystal" />
@@ -337,7 +337,7 @@
 		<set name="is_questitem" val="true" />
 		<set name="is_oly_restricted" val="true" />
 	</item>
-	<item id="15528" type="EtcItem" name="Mark of Darkness">
+	<item id="15528" type="EtcItem" name="黑暗信物">
 		<set name="icon" val="icon.etc_potion_yellow_i00" />
 		<set name="immediate_effect" val="1" />
 		<set name="material" val="crystal" />
@@ -349,7 +349,7 @@
 		<set name="is_questitem" val="true" />
 		<set name="is_oly_restricted" val="true" />
 	</item>
-	<item id="15529" type="EtcItem" name="Priest Dominic's Letter">
+	<item id="15529" type="EtcItem" name="多明尼克的密函">
 		<set name="icon" val="icon.etc_piece_of_paper_gray_i00" />
 		<set name="immediate_effect" val="1" />
 		<set name="material" val="crystal" />
@@ -361,7 +361,7 @@
 		<set name="is_questitem" val="true" />
 		<set name="is_oly_restricted" val="true" />
 	</item>
-	<item id="15530" type="EtcItem" name="Monk Scripture">
+	<item id="15530" type="EtcItem" name="修道僧的經典">
 		<set name="icon" val="icon.etc_magic_book_white_i00" />
 		<set name="immediate_effect" val="1" />
 		<set name="material" val="crystal" />
@@ -373,7 +373,7 @@
 		<set name="is_questitem" val="true" />
 		<set name="is_oly_restricted" val="true" />
 	</item>
-	<item id="15531" type="EtcItem" name="Sel Mahum Mane">
+	<item id="15531" type="EtcItem" name="掠奪者的鬃毛">
 		<set name="icon" val="icon.etc_mane_i00" />
 		<set name="immediate_effect" val="1" />
 		<set name="material" val="crystal" />
@@ -385,7 +385,7 @@
 		<set name="is_questitem" val="true" />
 		<set name="is_oly_restricted" val="true" />
 	</item>
-	<item id="15532" type="EtcItem" name="Veal">
+	<item id="15532" type="EtcItem" name="幼獸鮮肉">
 		<set name="icon" val="icon.etc_meat_i00" />
 		<set name="immediate_effect" val="1" />
 		<set name="material" val="crystal" />
@@ -397,7 +397,7 @@
 		<set name="is_questitem" val="true" />
 		<set name="is_oly_restricted" val="true" />
 	</item>
-	<item id="15533" type="EtcItem" name="Innocence Jewel">
+	<item id="15533" type="EtcItem" name="純粹的寶石">
 		<set name="icon" val="icon.etc_crystal_ball_white_i00" />
 		<set name="immediate_effect" val="1" />
 		<set name="material" val="crystal" />
@@ -409,7 +409,7 @@
 		<set name="is_questitem" val="true" />
 		<set name="is_oly_restricted" val="true" />
 	</item>
-	<item id="15534" type="EtcItem" name="Prime Meat">
+	<item id="15534" type="EtcItem" name="高級鮮肉">
 		<set name="icon" val="icon.etc_meat_of_monstereye_i00" />
 		<set name="immediate_effect" val="1" />
 		<set name="material" val="crystal" />
@@ -421,7 +421,7 @@
 		<set name="is_questitem" val="true" />
 		<set name="is_oly_restricted" val="true" />
 	</item>
-	<item id="15535" type="EtcItem" name="Concentrated Spirit Energy">
+	<item id="15535" type="EtcItem" name="凝縮的生命能量">
 		<set name="icon" val="icon.etc_oil_pot_white_i00" />
 		<set name="immediate_effect" val="1" />
 		<set name="material" val="crystal" />
@@ -433,7 +433,7 @@
 		<set name="is_questitem" val="true" />
 		<set name="is_oly_restricted" val="true" />
 	</item>
-	<item id="15536" type="EtcItem" name="Spirit Stone Dust">
+	<item id="15536" type="EtcItem" name="靈魂石碎片粉末">
 		<set name="icon" val="icon.etc_pouch_brown_i00" />
 		<set name="immediate_effect" val="1" />
 		<set name="material" val="crystal" />
@@ -445,7 +445,7 @@
 		<set name="is_questitem" val="true" />
 		<set name="is_oly_restricted" val="true" />
 	</item>
-	<item id="15537" type="EtcItem" name="Strongbox of Promise">
+	<item id="15537" type="EtcItem" name="誓約的金庫">
 		<set name="icon" val="icon.etc_jewel_box_i00" />
 		<set name="default_action" val="start_quest" />
 		<set name="immediate_effect" val="1" />
@@ -456,7 +456,7 @@
 		<set name="is_depositable" val="false" />
 		<set name="is_oly_restricted" val="true" />
 	</item>
-	<item id="15538" type="EtcItem" name="Book of Silence">
+	<item id="15538" type="EtcItem" name="遺忘的古書">
 		<set name="icon" val="icon.high_kamael_skill_book_i00" />
 		<set name="default_action" val="show_html" />
 		<set name="immediate_effect" val="1" />
@@ -467,7 +467,7 @@
 		<set name="is_depositable" val="false" />
 		<set name="is_oly_restricted" val="true" />
 	</item>
-	<item id="15539" type="EtcItem" name="Book of Silence">
+	<item id="15539" type="EtcItem" name="遺忘的古書">
 		<set name="icon" val="icon.high_kamael_skill_book_i00" />
 		<set name="default_action" val="show_html" />
 		<set name="immediate_effect" val="1" />
@@ -478,7 +478,7 @@
 		<set name="is_depositable" val="false" />
 		<set name="is_oly_restricted" val="true" />
 	</item>
-	<item id="15540" type="EtcItem" name="Unlit Torchlight">
+	<item id="15540" type="EtcItem" name="未點燃的火炬">
 		<set name="icon" val="icon.weapon_club_i00" />
 		<set name="immediate_effect" val="1" />
 		<set name="material" val="crystal" />
@@ -486,7 +486,7 @@
 		<set name="is_stackable" val="true" />
 		<set name="is_oly_restricted" val="true" />
 	</item>
-	<item id="15541" type="EtcItem" name="Red Soul Crystal - Stage 17">
+	<item id="15541" type="EtcItem" name="紅色搜魂石-階段17">
 		<set name="icon" val="icon.etc_soul_stone_i00" />
 		<set name="default_action" val="skill_reduce" />
 		<set name="etcitem_type" val="scroll" />
@@ -496,7 +496,7 @@
 		<set name="handler" val="ItemSkills" />
 		<set name="item_skill" val="2096-1" />
 	</item>
-	<item id="15542" type="EtcItem" name="Blue Soul Crystal - Stage 17">
+	<item id="15542" type="EtcItem" name="藍色搜魂石-階段17">
 		<set name="icon" val="icon.etc_soul_stone_i01" />
 		<set name="default_action" val="skill_reduce" />
 		<set name="etcitem_type" val="scroll" />
@@ -506,7 +506,7 @@
 		<set name="handler" val="ItemSkills" />
 		<set name="item_skill" val="2096-1" />
 	</item>
-	<item id="15543" type="EtcItem" name="Green Soul Crystal - Stage 17">
+	<item id="15543" type="EtcItem" name="綠色搜魂石-階段17">
 		<set name="icon" val="icon.etc_soul_stone_i02" />
 		<set name="default_action" val="skill_reduce" />
 		<set name="etcitem_type" val="scroll" />
@@ -516,7 +516,7 @@
 		<set name="handler" val="ItemSkills" />
 		<set name="item_skill" val="2096-1" />
 	</item>
-	<item id="15544" type="Weapon" name="Eternal Core Sword">
+	<item id="15544" type="Weapon" name="無盡核心之劍">
 		<set name="icon" val="icon.weapon_incessantcore_sword_i00" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="sword" />
@@ -544,7 +544,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="15545" type="Weapon" name="Mamba Edge">
+	<item id="15545" type="Weapon" name="毒蛇祕刃">
 		<set name="icon" val="icon.weapon_mambaedge_i00" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="dagger" />
@@ -573,7 +573,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="15546" type="Weapon" name="Eversor Mace">
+	<item id="15546" type="Weapon" name="粉塵裂鎚">
 		<set name="icon" val="icon.weapon_expowder_mace_i00" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="blunt" />
@@ -602,7 +602,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="15547" type="Weapon" name="Contristo Hammer">
+	<item id="15547" type="Weapon" name="派雷斯提戰鎚">
 		<set name="icon" val="icon.weapon_pereztear_hammer_i00" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="bigblunt" />
@@ -631,7 +631,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="15548" type="Weapon" name="Lava Saw">
+	<item id="15548" type="Weapon" name="熔岩爆刃">
 		<set name="icon" val="icon.weapon_lavamond_saw_i00" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="bigsword" />
@@ -659,7 +659,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="15549" type="Weapon" name="Jade Claw">
+	<item id="15549" type="Weapon" name="傑特曼戰爪">
 		<set name="icon" val="icon.weapon_jademice_claw_i00" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="dualfist" />
@@ -688,7 +688,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="15550" type="Weapon" name="Demitelum">
+	<item id="15550" type="Weapon" name="幽魂掃蕩者">
 		<set name="icon" val="icon.weapon_ghostcleaner_i00" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="pole" />
@@ -718,7 +718,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="15551" type="Weapon" name="Sacredium">
+	<item id="15551" type="Weapon" name="神聖痕跡">
 		<set name="icon" val="icon.weapon_sacredumors_i00" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="blunt" />
@@ -748,7 +748,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="15552" type="Weapon" name="Cyclic Cane">
+	<item id="15552" type="Weapon" name="靈識權杖">
 		<set name="icon" val="icon.weapon_psyskilt_cane_i00" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="bigblunt" />
@@ -778,7 +778,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="15553" type="Weapon" name="Archangel Sword">
+	<item id="15553" type="Weapon" name="天使長之劍">
 		<set name="icon" val="icon.weapon_archangel_sword_i00" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="sword" />
@@ -806,7 +806,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="15554" type="Weapon" name="Recurve Thorne Bow">
+	<item id="15554" type="Weapon" name="曲刺靈弓">
 		<set name="icon" val="icon.weapon_recurvethorne_bow_i00" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="bow" />
@@ -838,7 +838,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="15555" type="Weapon" name="Heavenstare Rapier">
+	<item id="15555" type="Weapon" name="天階細劍">
 		<set name="icon" val="icon.weapon_heavenstair_rapier_i00" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="rapier" />
@@ -871,7 +871,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="15556" type="Weapon" name="Pyseal Blade">
+	<item id="15556" type="Weapon" name="賽席爾巨刃">
 		<set name="icon" val="icon.weapon_pyseal_blade_i00" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="ancientsword" />
@@ -902,7 +902,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="15557" type="Weapon" name="Thorne Crossbow">
+	<item id="15557" type="Weapon" name="聖威十字弓">
 		<set name="icon" val="icon.weapon_thorne_crossbow_i00" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="crossbow" />
@@ -934,7 +934,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="15558" type="Weapon" name="Periel Sword">
+	<item id="15558" type="Weapon" name="佩利爾之劍">
 		<set name="icon" val="icon.weapon_periwing_sword_i00" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="sword" />
@@ -962,7 +962,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="15559" type="Weapon" name="Skull Edge">
+	<item id="15559" type="Weapon" name="滅骨之鋒">
 		<set name="icon" val="icon.weapon_skulledge_i00" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="dagger" />
@@ -991,7 +991,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="15560" type="Weapon" name="Vigwik Axe">
+	<item id="15560" type="Weapon" name="比格維克戰斧">
 		<set name="icon" val="icon.weapon_vigwik_axe_i00" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="blunt" />
@@ -1020,7 +1020,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="15561" type="Weapon" name="Devilish Maul">
+	<item id="15561" type="Weapon" name="邪靈衝鎚">
 		<set name="icon" val="icon.weapon_evildeity_maul_i00" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="bigblunt" />
@@ -1049,7 +1049,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="15562" type="Weapon" name="Feather Eye Blade">
+	<item id="15562" type="Weapon" name="羽翼劍刃">
 		<set name="icon" val="icon.weapon_feathereye_blade_i00" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="bigsword" />
@@ -1077,7 +1077,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="15563" type="Weapon" name="Octo Claw">
+	<item id="15563" type="Weapon" name="八翼攻爪">
 		<set name="icon" val="icon.weapon_octoclaw_i00" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="dualfist" />
@@ -1106,7 +1106,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="15564" type="Weapon" name="Doubletop Spear">
+	<item id="15564" type="Weapon" name="雙破戰戟">
 		<set name="icon" val="icon.weapon_doubletopa_spear_i00" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="pole" />
@@ -1136,7 +1136,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="15565" type="Weapon" name="Rising Star">
+	<item id="15565" type="Weapon" name="庫提克魔杖">
 		<set name="icon" val="icon.weapon_cuticle_i00" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="blunt" />
@@ -1166,7 +1166,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="15566" type="Weapon" name="Black Visage">
+	<item id="15566" type="Weapon" name="闇黑榮耀">
 		<set name="icon" val="icon.weapon_blackvisage_i00" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="bigblunt" />
@@ -1196,7 +1196,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="15567" type="Weapon" name="Veniplant Sword">
+	<item id="15567" type="Weapon" name="神臨之劍">
 		<set name="icon" val="icon.weapon_veniplant_sword_i00" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="sword" />
@@ -1224,7 +1224,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="15568" type="Weapon" name="Skull Carnium Bow">
+	<item id="15568" type="Weapon" name="顱骨之弓">
 		<set name="icon" val="icon.weapon_skullgrove_bow_i00" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="bow" />
@@ -1256,7 +1256,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="15569" type="Weapon" name="Gemtail Rapier">
+	<item id="15569" type="Weapon" name="耀芒細劍">
 		<set name="icon" val="icon.weapon_gemtail_rapier_i00" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="rapier" />
@@ -1288,7 +1288,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="15570" type="Weapon" name="Finale Blade">
+	<item id="15570" type="Weapon" name="無敗聖刃">
 		<set name="icon" val="icon.weapon_findragon blade_i00" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="ancientsword" />
@@ -1319,7 +1319,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="15571" type="Weapon" name="Dominion Crossbow">
+	<item id="15571" type="Weapon" name="斷罪十字弓">
 		<set name="icon" val="icon.weapon_rudecutter_crossbow_i00" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="crossbow" />
@@ -1351,7 +1351,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="15572" type="Armor" name="Elegia Helmet">
+	<item id="15572" type="Armor" name="殤曲頭盔">
 		<set name="icon" val="icon.armor_helmet_i00" />
 		<set name="default_action" val="equip" />
 		<set name="bodypart" val="head" />
@@ -1369,7 +1369,7 @@
 			<enchant order="0x0C" stat="pDef" val="0" />
 		</for>
 	</item>
-	<item id="15573" type="Armor" name="Elegia Leather Helmet">
+	<item id="15573" type="Armor" name="殤曲皮頭盔">
 		<set name="icon" val="icon.armor_leather_helmet_i00" />
 		<set name="default_action" val="equip" />
 		<set name="bodypart" val="head" />
@@ -1386,7 +1386,7 @@
 			<enchant order="0x0C" stat="pDef" val="0" />
 		</for>
 	</item>
-	<item id="15574" type="Armor" name="Elegia Circlet">
+	<item id="15574" type="Armor" name="殤曲頭箍">
 		<set name="icon" val="icon.armor_circlet_i00" />
 		<set name="default_action" val="equip" />
 		<set name="bodypart" val="head" />
@@ -1404,7 +1404,7 @@
 			<enchant order="0x0C" stat="pDef" val="0" />
 		</for>
 	</item>
-	<item id="15575" type="Armor" name="Elegia Breastplate">
+	<item id="15575" type="Armor" name="殤曲胸甲">
 		<set name="icon" val="icon.armor_t97_u_i00" />
 		<set name="default_action" val="equip" />
 		<set name="armor_type" val="heavy" />
@@ -1423,7 +1423,7 @@
 			<enchant order="0x0C" stat="pDef" val="0" />
 		</for>
 	</item>
-	<item id="15576" type="Armor" name="Elegia Leather Breastplate">
+	<item id="15576" type="Armor" name="殤曲皮胸甲">
 		<set name="icon" val="icon.armor_t98_u_i00" />
 		<set name="default_action" val="equip" />
 		<set name="armor_type" val="light" />
@@ -1441,7 +1441,7 @@
 			<enchant order="0x0C" stat="pDef" val="0" />
 		</for>
 	</item>
-	<item id="15577" type="Armor" name="Elegia Tunic">
+	<item id="15577" type="Armor" name="殤曲外衣">
 		<set name="icon" val="icon.armor_t99_u_i00" />
 		<set name="default_action" val="equip" />
 		<set name="armor_type" val="magic" />
@@ -1461,7 +1461,7 @@
 			<enchant order="0x0C" stat="pDef" val="0" />
 		</for>
 	</item>
-	<item id="15578" type="Armor" name="Elegia Gaiter">
+	<item id="15578" type="Armor" name="殤曲脛甲">
 		<set name="icon" val="icon.armor_t97_l_i00" />
 		<set name="default_action" val="equip" />
 		<set name="armor_type" val="heavy" />
@@ -1480,7 +1480,7 @@
 			<enchant order="0x0C" stat="pDef" val="0" />
 		</for>
 	</item>
-	<item id="15579" type="Armor" name="Elegia Leather Legging">
+	<item id="15579" type="Armor" name="殤曲皮脛甲">
 		<set name="icon" val="icon.armor_t98_l_i00" />
 		<set name="default_action" val="equip" />
 		<set name="armor_type" val="light" />
@@ -1498,7 +1498,7 @@
 			<enchant order="0x0C" stat="pDef" val="0" />
 		</for>
 	</item>
-	<item id="15580" type="Armor" name="Elegia Stockings">
+	<item id="15580" type="Armor" name="殤曲長襪">
 		<set name="icon" val="icon.armor_t99_l_i00" />
 		<set name="default_action" val="equip" />
 		<set name="armor_type" val="magic" />
@@ -1518,7 +1518,7 @@
 			<enchant order="0x0C" stat="pDef" val="0" />
 		</for>
 	</item>
-	<item id="15581" type="Armor" name="Elegia Gauntlet">
+	<item id="15581" type="Armor" name="殤曲護手">
 		<set name="icon" val="icon.armor_t97_g_i00" />
 		<set name="default_action" val="equip" />
 		<set name="bodypart" val="gloves" />
@@ -1536,7 +1536,7 @@
 			<enchant order="0x0C" stat="pDef" val="0" />
 		</for>
 	</item>
-	<item id="15582" type="Armor" name="Elegia Leather Gloves">
+	<item id="15582" type="Armor" name="殤曲皮手套">
 		<set name="icon" val="icon.armor_t98_g_i00" />
 		<set name="default_action" val="equip" />
 		<set name="bodypart" val="gloves" />
@@ -1553,7 +1553,7 @@
 			<enchant order="0x0C" stat="pDef" val="0" />
 		</for>
 	</item>
-	<item id="15583" type="Armor" name="Elegia Gloves">
+	<item id="15583" type="Armor" name="殤曲手套">
 		<set name="icon" val="icon.armor_t99_g_i00" />
 		<set name="default_action" val="equip" />
 		<set name="bodypart" val="gloves" />
@@ -1571,7 +1571,7 @@
 			<enchant order="0x0C" stat="pDef" val="0" />
 		</for>
 	</item>
-	<item id="15584" type="Armor" name="Elegia Boots">
+	<item id="15584" type="Armor" name="殤曲靴">
 		<set name="icon" val="icon.armor_t97_b_i00" />
 		<set name="default_action" val="equip" />
 		<set name="bodypart" val="feet" />
@@ -1589,7 +1589,7 @@
 			<enchant order="0x0C" stat="pDef" val="0" />
 		</for>
 	</item>
-	<item id="15585" type="Armor" name="Elegia Leather Boots">
+	<item id="15585" type="Armor" name="殤曲皮靴">
 		<set name="icon" val="icon.armor_t98_b_i00" />
 		<set name="default_action" val="equip" />
 		<set name="bodypart" val="feet" />
@@ -1606,7 +1606,7 @@
 			<enchant order="0x0C" stat="pDef" val="0" />
 		</for>
 	</item>
-	<item id="15586" type="Armor" name="Elegia Shoes">
+	<item id="15586" type="Armor" name="殤曲鞋">
 		<set name="icon" val="icon.armor_t99_b_i00" />
 		<set name="default_action" val="equip" />
 		<set name="bodypart" val="feet" />
@@ -1624,7 +1624,7 @@
 			<enchant order="0x0C" stat="pDef" val="0" />
 		</for>
 	</item>
-	<item id="15587" type="Armor" name="Elegia Shield">
+	<item id="15587" type="Armor" name="殤曲盾">
 		<set name="icon" val="icon.heavengate_shield_i01" />
 		<set name="default_action" val="equip" />
 		<set name="bodypart" val="lhand" />
@@ -1645,7 +1645,7 @@
 			<enchant val="0" order="0x0C" stat="sDef" />
 		</for>
 	</item>
-	<item id="15588" type="Armor" name="Elegia Sigil">
+	<item id="15588" type="Armor" name="殤曲符印">
 		<set name="icon" val="icon.weapon_pricklelotus_i01" />
 		<set name="default_action" val="equip" />
 		<set name="armor_type" val="sigil" />
@@ -1671,7 +1671,7 @@
 			</not>
 		</cond>
 	</item>
-	<item id="15589" type="Armor" name="Vorpal Helmet">
+	<item id="15589" type="Armor" name="博佩斯頭盔">
 		<set name="icon" val="icon.armor_helmet_i00" />
 		<set name="default_action" val="equip" />
 		<set name="bodypart" val="head" />
@@ -1689,7 +1689,7 @@
 			<enchant order="0x0C" stat="pDef" val="0" />
 		</for>
 	</item>
-	<item id="15590" type="Armor" name="Vorpal Leather Helmet">
+	<item id="15590" type="Armor" name="博佩斯皮頭盔">
 		<set name="icon" val="icon.armor_leather_helmet_i00" />
 		<set name="default_action" val="equip" />
 		<set name="bodypart" val="head" />
@@ -1706,7 +1706,7 @@
 			<enchant order="0x0C" stat="pDef" val="0" />
 		</for>
 	</item>
-	<item id="15591" type="Armor" name="Vorpal Circlet">
+	<item id="15591" type="Armor" name="博佩斯頭箍">
 		<set name="icon" val="icon.armor_circlet_i00" />
 		<set name="default_action" val="equip" />
 		<set name="bodypart" val="head" />
@@ -1724,7 +1724,7 @@
 			<enchant order="0x0C" stat="pDef" val="0" />
 		</for>
 	</item>
-	<item id="15592" type="Armor" name="Vorpal Breastplate">
+	<item id="15592" type="Armor" name="博佩斯胸甲">
 		<set name="icon" val="icon.armor_t94_u_i03" />
 		<set name="default_action" val="equip" />
 		<set name="armor_type" val="heavy" />
@@ -1743,7 +1743,7 @@
 			<enchant order="0x0C" stat="pDef" val="0" />
 		</for>
 	</item>
-	<item id="15593" type="Armor" name="Vorpal Leather Breastplate">
+	<item id="15593" type="Armor" name="博佩斯皮胸甲">
 		<set name="icon" val="icon.armor_t95_u_i03" />
 		<set name="default_action" val="equip" />
 		<set name="armor_type" val="light" />
@@ -1761,7 +1761,7 @@
 			<enchant order="0x0C" stat="pDef" val="0" />
 		</for>
 	</item>
-	<item id="15594" type="Armor" name="Vorpal Tunic">
+	<item id="15594" type="Armor" name="博佩斯外衣">
 		<set name="icon" val="icon.armor_t96_u_i03" />
 		<set name="default_action" val="equip" />
 		<set name="armor_type" val="magic" />
@@ -1781,7 +1781,7 @@
 			<enchant order="0x0C" stat="pDef" val="0" />
 		</for>
 	</item>
-	<item id="15595" type="Armor" name="Vorpal Gaiter">
+	<item id="15595" type="Armor" name="博佩斯脛甲">
 		<set name="icon" val="icon.armor_t94_l_i03" />
 		<set name="default_action" val="equip" />
 		<set name="armor_type" val="heavy" />
@@ -1800,7 +1800,7 @@
 			<enchant order="0x0C" stat="pDef" val="0" />
 		</for>
 	</item>
-	<item id="15596" type="Armor" name="Vorpal Leather Legging">
+	<item id="15596" type="Armor" name="博佩斯皮脛甲">
 		<set name="icon" val="icon.armor_t95_l_i03" />
 		<set name="default_action" val="equip" />
 		<set name="armor_type" val="light" />
@@ -1818,7 +1818,7 @@
 			<enchant order="0x0C" stat="pDef" val="0" />
 		</for>
 	</item>
-	<item id="15597" type="Armor" name="Vorpal Stockings">
+	<item id="15597" type="Armor" name="博佩斯長襪">
 		<set name="icon" val="icon.armor_t96_l_i03" />
 		<set name="default_action" val="equip" />
 		<set name="armor_type" val="magic" />
@@ -1838,7 +1838,7 @@
 			<enchant order="0x0C" stat="pDef" val="0" />
 		</for>
 	</item>
-	<item id="15598" type="Armor" name="Vorpal Gauntlet">
+	<item id="15598" type="Armor" name="博佩斯護手">
 		<set name="icon" val="icon.armor_t94_g_i03" />
 		<set name="default_action" val="equip" />
 		<set name="bodypart" val="gloves" />
@@ -1856,7 +1856,7 @@
 			<enchant order="0x0C" stat="pDef" val="0" />
 		</for>
 	</item>
-	<item id="15599" type="Armor" name="Vorpal Leather Gloves">
+	<item id="15599" type="Armor" name="博佩斯皮手套">
 		<set name="icon" val="icon.armor_t95_g_i03" />
 		<set name="default_action" val="equip" />
 		<set name="bodypart" val="gloves" />

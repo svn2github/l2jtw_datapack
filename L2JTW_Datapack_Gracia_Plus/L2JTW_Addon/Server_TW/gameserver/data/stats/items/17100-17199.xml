@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <list>
-	<item id="17100" type="EtcItem" name="Nevit's Hourglass - 1 hour - 20~39">
+	<item id="17100" type="EtcItem" name="奈比特沙漏-1小時">
 		<set name="icon" val="icon.etc_dragons_blood_i03" />
 		<set name="default_action" val="skill_reduce" />
 		<set name="etcitem_type" val="potion" />
@@ -14,7 +14,7 @@
 		<set name="item_skill" val="9120-1" />
 		<set name="use_condition" val="{{uc_level;{20;39}}}" />
 	</item>
-	<item id="17101" type="EtcItem" name="Nevit's Hourglass - 1.5 hour - 20~39">
+	<item id="17101" type="EtcItem" name="奈比特沙漏-1.5小時">
 		<set name="icon" val="icon.etc_dragons_blood_i03" />
 		<set name="default_action" val="skill_reduce" />
 		<set name="etcitem_type" val="potion" />
@@ -28,7 +28,7 @@
 		<set name="item_skill" val="9121-1" />
 		<set name="use_condition" val="{{uc_level;{20;39}}}" />
 	</item>
-	<item id="17102" type="EtcItem" name="Nevit's Hourglass - 2 hour - 20~39">
+	<item id="17102" type="EtcItem" name="奈比特沙漏-2小時">
 		<set name="icon" val="icon.etc_dragons_blood_i03" />
 		<set name="default_action" val="skill_reduce" />
 		<set name="etcitem_type" val="potion" />
@@ -42,7 +42,7 @@
 		<set name="item_skill" val="9122-1" />
 		<set name="use_condition" val="{{uc_level;{20;39}}}" />
 	</item>
-	<item id="17103" type="EtcItem" name="Nevit's Hourglass - 2.5 hour - 20~39">
+	<item id="17103" type="EtcItem" name="奈比特沙漏-2.5小時">
 		<set name="icon" val="icon.etc_dragons_blood_i03" />
 		<set name="default_action" val="skill_reduce" />
 		<set name="etcitem_type" val="potion" />
@@ -56,7 +56,7 @@
 		<set name="item_skill" val="9123-1" />
 		<set name="use_condition" val="{{uc_level;{20;39}}}" />
 	</item>
-	<item id="17104" type="EtcItem" name="Nevit's Hourglass - 3 hour - 20~39">
+	<item id="17104" type="EtcItem" name="奈比特沙漏-3小時">
 		<set name="icon" val="icon.etc_dragons_blood_i03" />
 		<set name="default_action" val="skill_reduce" />
 		<set name="etcitem_type" val="potion" />
@@ -70,7 +70,7 @@
 		<set name="item_skill" val="9124-1" />
 		<set name="use_condition" val="{{uc_level;{20;39}}}" />
 	</item>
-	<item id="17105" type="EtcItem" name="Nevit's Hourglass - 1 hour - 40~51">
+	<item id="17105" type="EtcItem" name="奈比特沙漏-1小時">
 		<set name="icon" val="icon.etc_dragons_blood_i03" />
 		<set name="default_action" val="skill_reduce" />
 		<set name="etcitem_type" val="potion" />
@@ -84,7 +84,7 @@
 		<set name="item_skill" val="9125-1" />
 		<set name="use_condition" val="{{uc_level;{40;51}}}" />
 	</item>
-	<item id="17106" type="EtcItem" name="Nevit's Hourglass - 1.5 hour - 40~51">
+	<item id="17106" type="EtcItem" name="奈比特沙漏-1.5小時">
 		<set name="icon" val="icon.etc_dragons_blood_i03" />
 		<set name="default_action" val="skill_reduce" />
 		<set name="etcitem_type" val="potion" />
@@ -98,7 +98,7 @@
 		<set name="item_skill" val="9126-1" />
 		<set name="use_condition" val="{{uc_level;{40;51}}}" />
 	</item>
-	<item id="17107" type="EtcItem" name="Nevit's Hourglass - 2 hour - 40~51">
+	<item id="17107" type="EtcItem" name="奈比特沙漏-2小時">
 		<set name="icon" val="icon.etc_dragons_blood_i03" />
 		<set name="default_action" val="skill_reduce" />
 		<set name="etcitem_type" val="potion" />
@@ -112,7 +112,7 @@
 		<set name="item_skill" val="9127-1" />
 		<set name="use_condition" val="{{uc_level;{40;51}}}" />
 	</item>
-	<item id="17108" type="EtcItem" name="Nevit's Hourglass - 2.5 hour - 40~51">
+	<item id="17108" type="EtcItem" name="奈比特沙漏-2.5小時">
 		<set name="icon" val="icon.etc_dragons_blood_i03" />
 		<set name="default_action" val="skill_reduce" />
 		<set name="etcitem_type" val="potion" />
@@ -126,7 +126,7 @@
 		<set name="item_skill" val="9128-1" />
 		<set name="use_condition" val="{{uc_level;{40;51}}}" />
 	</item>
-	<item id="17109" type="EtcItem" name="Nevit's Hourglass - 3 hour - 40~51">
+	<item id="17109" type="EtcItem" name="奈比特沙漏-3小時">
 		<set name="icon" val="icon.etc_dragons_blood_i03" />
 		<set name="default_action" val="skill_reduce" />
 		<set name="etcitem_type" val="potion" />
@@ -140,7 +140,7 @@
 		<set name="item_skill" val="9129-1" />
 		<set name="use_condition" val="{{uc_level;{40;51}}}" />
 	</item>
-	<item id="17110" type="EtcItem" name="Nevit's Hourglass - 1 hour - 52~60">
+	<item id="17110" type="EtcItem" name="奈比特沙漏-1小時">
 		<set name="icon" val="icon.etc_dragons_blood_i03" />
 		<set name="default_action" val="skill_reduce" />
 		<set name="etcitem_type" val="potion" />
@@ -154,7 +154,7 @@
 		<set name="item_skill" val="9130-1" />
 		<set name="use_condition" val="{{uc_level;{52;60}}}" />
 	</item>
-	<item id="17111" type="EtcItem" name="Nevit's Hourglass - 1.5 hour - 52~60">
+	<item id="17111" type="EtcItem" name="奈比特沙漏-1.5小時">
 		<set name="icon" val="icon.etc_dragons_blood_i03" />
 		<set name="default_action" val="skill_reduce" />
 		<set name="etcitem_type" val="potion" />
@@ -168,7 +168,7 @@
 		<set name="item_skill" val="9131-1" />
 		<set name="use_condition" val="{{uc_level;{52;60}}}" />
 	</item>
-	<item id="17112" type="EtcItem" name="Nevit's Hourglass - 2 hour - 52~60">
+	<item id="17112" type="EtcItem" name="奈比特沙漏-2小時">
 		<set name="icon" val="icon.etc_dragons_blood_i03" />
 		<set name="default_action" val="skill_reduce" />
 		<set name="etcitem_type" val="potion" />
@@ -182,7 +182,7 @@
 		<set name="item_skill" val="9132-1" />
 		<set name="use_condition" val="{{uc_level;{52;60}}}" />
 	</item>
-	<item id="17113" type="EtcItem" name="Nevit's Hourglass - 2.5 hour - 52~60">
+	<item id="17113" type="EtcItem" name="奈比特沙漏-2.5小時">
 		<set name="icon" val="icon.etc_dragons_blood_i03" />
 		<set name="default_action" val="skill_reduce" />
 		<set name="etcitem_type" val="potion" />
@@ -196,7 +196,7 @@
 		<set name="item_skill" val="9133-1" />
 		<set name="use_condition" val="{{uc_level;{52;60}}}" />
 	</item>
-	<item id="17114" type="EtcItem" name="Nevit's Hourglass - 3 hour - 52~60">
+	<item id="17114" type="EtcItem" name="奈比特沙漏-3小時">
 		<set name="icon" val="icon.etc_dragons_blood_i03" />
 		<set name="default_action" val="skill_reduce" />
 		<set name="etcitem_type" val="potion" />
@@ -210,7 +210,7 @@
 		<set name="item_skill" val="9134-1" />
 		<set name="use_condition" val="{{uc_level;{52;60}}}" />
 	</item>
-	<item id="17115" type="EtcItem" name="Nevit's Hourglass - 1 hour - 61~75">
+	<item id="17115" type="EtcItem" name="奈比特沙漏-1小時">
 		<set name="icon" val="icon.etc_dragons_blood_i03" />
 		<set name="default_action" val="skill_reduce" />
 		<set name="etcitem_type" val="potion" />
@@ -224,7 +224,7 @@
 		<set name="item_skill" val="9135-1" />
 		<set name="use_condition" val="{{uc_level;{61;75}}}" />
 	</item>
-	<item id="17116" type="EtcItem" name="Nevit's Hourglass - 1.5 hour - 61~75">
+	<item id="17116" type="EtcItem" name="奈比特沙漏-1.5小時">
 		<set name="icon" val="icon.etc_dragons_blood_i03" />
 		<set name="default_action" val="skill_reduce" />
 		<set name="etcitem_type" val="potion" />
@@ -238,7 +238,7 @@
 		<set name="item_skill" val="9136-1" />
 		<set name="use_condition" val="{{uc_level;{61;75}}}" />
 	</item>
-	<item id="17117" type="EtcItem" name="Nevit's Hourglass - 2 hour - 61~75">
+	<item id="17117" type="EtcItem" name="奈比特沙漏-2小時">
 		<set name="icon" val="icon.etc_dragons_blood_i03" />
 		<set name="default_action" val="skill_reduce" />
 		<set name="etcitem_type" val="potion" />
@@ -252,7 +252,7 @@
 		<set name="item_skill" val="9137-1" />
 		<set name="use_condition" val="{{uc_level;{61;75}}}" />
 	</item>
-	<item id="17118" type="EtcItem" name="Nevit's Hourglass - 2.5 hour - 61~75">
+	<item id="17118" type="EtcItem" name="奈比特沙漏-2.5小時">
 		<set name="icon" val="icon.etc_dragons_blood_i03" />
 		<set name="default_action" val="skill_reduce" />
 		<set name="etcitem_type" val="potion" />
@@ -266,7 +266,7 @@
 		<set name="item_skill" val="9138-1" />
 		<set name="use_condition" val="{{uc_level;{61;75}}}" />
 	</item>
-	<item id="17119" type="EtcItem" name="Nevit's Hourglass - 3 hour - 61~75">
+	<item id="17119" type="EtcItem" name="奈比特沙漏-3小時">
 		<set name="icon" val="icon.etc_dragons_blood_i03" />
 		<set name="default_action" val="skill_reduce" />
 		<set name="etcitem_type" val="potion" />
@@ -280,7 +280,7 @@
 		<set name="item_skill" val="9139-1" />
 		<set name="use_condition" val="{{uc_level;{61;75}}}" />
 	</item>
-	<item id="17120" type="EtcItem" name="Nevit's Hourglass - 1 hour - 76~79">
+	<item id="17120" type="EtcItem" name="奈比特沙漏-1小時">
 		<set name="icon" val="icon.etc_dragons_blood_i03" />
 		<set name="default_action" val="skill_reduce" />
 		<set name="etcitem_type" val="potion" />
@@ -294,7 +294,7 @@
 		<set name="item_skill" val="9140-1" />
 		<set name="use_condition" val="{{uc_level;{76;79}}}" />
 	</item>
-	<item id="17121" type="EtcItem" name="Nevit's Hourglass - 1.5 hour - 76~79">
+	<item id="17121" type="EtcItem" name="奈比特沙漏-1.5小時">
 		<set name="icon" val="icon.etc_dragons_blood_i03" />
 		<set name="default_action" val="skill_reduce" />
 		<set name="etcitem_type" val="potion" />
@@ -308,7 +308,7 @@
 		<set name="item_skill" val="9141-1" />
 		<set name="use_condition" val="{{uc_level;{76;79}}}" />
 	</item>
-	<item id="17122" type="EtcItem" name="Nevit's Hourglass - 2 hour - 76~79">
+	<item id="17122" type="EtcItem" name="奈比特沙漏-2小時">
 		<set name="icon" val="icon.etc_dragons_blood_i03" />
 		<set name="default_action" val="skill_reduce" />
 		<set name="etcitem_type" val="potion" />
@@ -322,7 +322,7 @@
 		<set name="item_skill" val="9142-1" />
 		<set name="use_condition" val="{{uc_level;{76;79}}}" />
 	</item>
-	<item id="17123" type="EtcItem" name="Nevit's Hourglass - 2.5 hour - 76~79">
+	<item id="17123" type="EtcItem" name="奈比特沙漏-2.5小時">
 		<set name="icon" val="icon.etc_dragons_blood_i03" />
 		<set name="default_action" val="skill_reduce" />
 		<set name="etcitem_type" val="potion" />
@@ -336,7 +336,7 @@
 		<set name="item_skill" val="9143-1" />
 		<set name="use_condition" val="{{uc_level;{76;79}}}" />
 	</item>
-	<item id="17124" type="EtcItem" name="Nevit's Hourglass - 3 hour - 76~79">
+	<item id="17124" type="EtcItem" name="奈比特沙漏-3小時">
 		<set name="icon" val="icon.etc_dragons_blood_i03" />
 		<set name="default_action" val="skill_reduce" />
 		<set name="etcitem_type" val="potion" />
@@ -350,7 +350,7 @@
 		<set name="item_skill" val="9144-1" />
 		<set name="use_condition" val="{{uc_level;{76;79}}}" />
 	</item>
-	<item id="17125" type="EtcItem" name="Nevit's Hourglass - 1 hour - 80~85">
+	<item id="17125" type="EtcItem" name="奈比特沙漏-1小時">
 		<set name="icon" val="icon.etc_dragons_blood_i03" />
 		<set name="default_action" val="skill_reduce" />
 		<set name="etcitem_type" val="potion" />
@@ -364,7 +364,7 @@
 		<set name="item_skill" val="9145-1" />
 		<set name="use_condition" val="{{uc_level;{80;85}}}" />
 	</item>
-	<item id="17126" type="EtcItem" name="Nevit's Hourglass - 1.5 hour - 80~85">
+	<item id="17126" type="EtcItem" name="奈比特沙漏-1.5小時">
 		<set name="icon" val="icon.etc_dragons_blood_i03" />
 		<set name="default_action" val="skill_reduce" />
 		<set name="etcitem_type" val="potion" />
@@ -378,7 +378,7 @@
 		<set name="item_skill" val="9146-1" />
 		<set name="use_condition" val="{{uc_level;{80;85}}}" />
 	</item>
-	<item id="17127" type="EtcItem" name="Nevit's Hourglass - 2 hour - 80~85">
+	<item id="17127" type="EtcItem" name="奈比特沙漏-2小時">
 		<set name="icon" val="icon.etc_dragons_blood_i03" />
 		<set name="default_action" val="skill_reduce" />
 		<set name="etcitem_type" val="potion" />
@@ -392,7 +392,7 @@
 		<set name="item_skill" val="9147-1" />
 		<set name="use_condition" val="{{uc_level;{80;85}}}" />
 	</item>
-	<item id="17128" type="EtcItem" name="Nevit's Hourglass - 2.5 hour - 80~85">
+	<item id="17128" type="EtcItem" name="奈比特沙漏-2.5小時">
 		<set name="icon" val="icon.etc_dragons_blood_i03" />
 		<set name="default_action" val="skill_reduce" />
 		<set name="etcitem_type" val="potion" />
@@ -406,7 +406,7 @@
 		<set name="item_skill" val="9148-1" />
 		<set name="use_condition" val="{{uc_level;{80;85}}}" />
 	</item>
-	<item id="17129" type="EtcItem" name="Nevit's Hourglass - 3 hour - 80~85">
+	<item id="17129" type="EtcItem" name="奈比特沙漏-3小時">
 		<set name="icon" val="icon.etc_dragons_blood_i03" />
 		<set name="default_action" val="skill_reduce" />
 		<set name="etcitem_type" val="potion" />
@@ -420,7 +420,7 @@
 		<set name="item_skill" val="9149-1" />
 		<set name="use_condition" val="{{uc_level;{80;85}}}" />
 	</item>
-	<item id="17130" type="EtcItem" name="Freesia Bouquet - Event">
+	<item id="17130" type="EtcItem" name="小蒼蘭花束-活動">
 		<set name="icon" val="icon.etc_flower_bouquet_i02" />
 		<set name="default_action" val="skill_reduce" />
 		<set name="etcitem_type" val="scroll" />
@@ -430,7 +430,7 @@
 		<set name="handler" val="ItemSkills" />
 		<set name="item_skill" val="9150-1" />
 	</item>
-	<item id="17131" type="EtcItem" name="Baby Breath Bouquet - Event">
+	<item id="17131" type="EtcItem" name="滿天星花束-活動">
 		<set name="icon" val="icon.etc_flower_bouquet_i03" />
 		<set name="default_action" val="skill_reduce" />
 		<set name="etcitem_type" val="scroll" />
@@ -440,7 +440,7 @@
 		<set name="handler" val="ItemSkills" />
 		<set name="item_skill" val="9151-1" />
 	</item>
-	<item id="17132" type="EtcItem" name="Pink Lady - Event">
+	<item id="17132" type="EtcItem" name="粉紅佳人-活動">
 		<set name="icon" val="icon.etc_fruit_cocktail_i02" />
 		<set name="default_action" val="skill_reduce" />
 		<set name="etcitem_type" val="scroll" />
@@ -450,7 +450,7 @@
 		<set name="handler" val="ItemSkills" />
 		<set name="item_skill" val="9152-1" />
 	</item>
-	<item id="17133" type="EtcItem" name="June Bug - Event">
+	<item id="17133" type="EtcItem" name="六月小蟲-活動">
 		<set name="icon" val="icon.etc_fruit_cocktail_i03" />
 		<set name="default_action" val="skill_reduce" />
 		<set name="etcitem_type" val="scroll" />
@@ -460,7 +460,7 @@
 		<set name="handler" val="ItemSkills" />
 		<set name="item_skill" val="9153-1" />
 	</item>
-	<item id="17134" type="EtcItem" name="Soft Cheesecake - Event">
+	<item id="17134" type="EtcItem" name="柔軟的起司蛋糕-活動">
 		<set name="icon" val="icon.etc_herb_of_cheesecake" />
 		<set name="default_action" val="skill_reduce" />
 		<set name="etcitem_type" val="scroll" />
@@ -470,7 +470,7 @@
 		<set name="handler" val="ItemSkills" />
 		<set name="item_skill" val="9154-1" />
 	</item>
-	<item id="17135" type="EtcItem" name="Freshly-Baked Baguette - Event">
+	<item id="17135" type="EtcItem" name="剛烤好的法國麵包-活動">
 		<set name="icon" val="icon.etc_herb_of_baguette" />
 		<set name="default_action" val="skill_reduce" />
 		<set name="etcitem_type" val="scroll" />
@@ -480,7 +480,7 @@
 		<set name="handler" val="ItemSkills" />
 		<set name="item_skill" val="9155-1" />
 	</item>
-	<item id="17136" type="EtcItem" name="Sweet Cream Bun - Event">
+	<item id="17136" type="EtcItem" name="香甜的奶黃麵包-活動">
 		<set name="icon" val="icon.etc_herb_of_cream" />
 		<set name="default_action" val="skill_reduce" />
 		<set name="etcitem_type" val="scroll" />
@@ -490,7 +490,7 @@
 		<set name="handler" val="ItemSkills" />
 		<set name="item_skill" val="9156-1" />
 	</item>
-	<item id="17137" type="EtcItem" name="White Day Candy - Event">
+	<item id="17137" type="EtcItem" name="白色情人節糖果-活動">
 		<set name="icon" val="icon.etc_whiteday_candy_i00" />
 		<set name="default_action" val="skill_reduce" />
 		<set name="etcitem_type" val="scroll" />
@@ -500,7 +500,7 @@
 		<set name="handler" val="ItemSkills" />
 		<set name="item_skill" val="9157-1" />
 	</item>
-	<item id="17138" type="EtcItem" name="Freya's Gift">
+	<item id="17138" type="EtcItem" name="芙蕾雅的禮物">
 		<set name="icon" val="icon.etc_pi_gift_box_i04" />
 		<set name="default_action" val="capsule" />
 		<set name="immediate_effect" val="1" />
@@ -510,7 +510,7 @@
 		<set name="handler" val="ItemSkills" />
 		<set name="item_skill" val="9158-1" />
 	</item>
-	<item id="17139" type="EtcItem" name="Transformation Scroll - Anakim">
+	<item id="17139" type="EtcItem" name="變身卷軸-亞納">
 		<set name="icon" val="icon.etc_trans_4f_s_b_01" />
 		<set name="default_action" val="skill_reduce" />
 		<set name="material" val="paper" />
@@ -522,7 +522,7 @@
 		<set name="handler" val="ItemSkills" />
 		<set name="item_skill" val="9159-1" />
 	</item>
-	<item id="17140" type="EtcItem" name="Transformation Scroll - Zaken">
+	<item id="17140" type="EtcItem" name="變身卷軸-札肯">
 		<set name="icon" val="icon.etc_trans_4f_s_b_01" />
 		<set name="default_action" val="skill_reduce" />
 		<set name="material" val="paper" />
@@ -534,7 +534,7 @@
 		<set name="handler" val="ItemSkills" />
 		<set name="item_skill" val="9160-1" />
 	</item>
-	<item id="17141" type="Armor" name="Ribbon Hairband - Promotion">
+	<item id="17141" type="Armor" name="緞帶髮飾">
 		<set name="icon" val="icon.accessory_ev_ribbon_band_i00" />
 		<set name="default_action" val="equip" />
 		<set name="bodypart" val="hairall" />
@@ -546,7 +546,7 @@
 		<set name="is_depositable" val="false" />
 		<set name="equip_condition" val="{{ec_sex;1}}" />
 	</item>
-	<item id="17142" type="Armor" name="Refined Wizard Hat - Promotion">
+	<item id="17142" type="Armor" name="時髦法師帽">
 		<set name="icon" val="icon.accessory_magician_cap2_i00" />
 		<set name="default_action" val="equip" />
 		<set name="bodypart" val="hairall" />
@@ -557,7 +557,7 @@
 		<set name="is_sellable" val="false" />
 		<set name="is_depositable" val="false" />
 	</item>
-	<item id="17143" type="Armor" name="Refined Jester Hat - Promotion">
+	<item id="17143" type="Armor" name="時髦小丑帽">
 		<set name="icon" val="icon.accessory_jester_cap_2_i00" />
 		<set name="default_action" val="equip" />
 		<set name="bodypart" val="hairall" />
@@ -568,7 +568,7 @@
 		<set name="is_sellable" val="false" />
 		<set name="is_depositable" val="false" />
 	</item>
-	<item id="17144" type="Armor" name="Refined Romantic Chapeau - Promotion">
+	<item id="17144" type="Armor" name="時髦浪漫圓帽">
 		<set name="icon" val="icon.accessory_archer_hat2_i00" />
 		<set name="default_action" val="equip" />
 		<set name="bodypart" val="hairall" />
@@ -579,7 +579,7 @@
 		<set name="is_sellable" val="false" />
 		<set name="is_depositable" val="false" />
 	</item>
-	<item id="17145" type="Armor" name="Refined Dapper Cap - Promotion">
+	<item id="17145" type="Armor" name="時髦花花公子帽">
 		<set name="icon" val="icon.accessory_dandy_cap2_i00" />
 		<set name="default_action" val="equip" />
 		<set name="bodypart" val="hairall" />
@@ -590,7 +590,7 @@
 		<set name="is_sellable" val="false" />
 		<set name="is_depositable" val="false" />
 	</item>
-	<item id="17146" type="Armor" name="Refined Angel Ring - Promotion">
+	<item id="17146" type="Armor" name="時髦天使戒指">
 		<set name="icon" val="icon.accessory_angel_ring_i00" />
 		<set name="default_action" val="equip" />
 		<set name="bodypart" val="hairall" />
@@ -601,7 +601,7 @@
 		<set name="is_sellable" val="false" />
 		<set name="is_depositable" val="false" />
 	</item>
-	<item id="17147" type="Armor" name="Popped-Out Eye - Promotion">
+	<item id="17147" type="Armor" name="跳跳眼">
 		<set name="icon" val="icon.accessory_beetle_eye_i00" />
 		<set name="default_action" val="equip" />
 		<set name="bodypart" val="hairall" />
@@ -612,7 +612,7 @@
 		<set name="is_sellable" val="false" />
 		<set name="is_depositable" val="false" />
 	</item>
-	<item id="17148" type="Armor" name="Bird Nest - Promotion">
+	<item id="17148" type="Armor" name="鳥窩帽">
 		<set name="icon" val="icon.accessory_nest_hat_i00" />
 		<set name="default_action" val="equip" />
 		<set name="bodypart" val="hairall" />
@@ -623,7 +623,7 @@
 		<set name="is_sellable" val="false" />
 		<set name="is_depositable" val="false" />
 	</item>
-	<item id="17149" type="Armor" name="Varka Karm (used by Varka Silenos) - Promotion">
+	<item id="17149" type="Armor" name="巴瑞卡卡輪(巴瑞卡賽勒諾斯用)">
 		<set name="icon" val="icon.accessory_barka_karm_i00" />
 		<set name="default_action" val="equip" />
 		<set name="bodypart" val="hairall" />
@@ -634,7 +634,7 @@
 		<set name="is_sellable" val="false" />
 		<set name="is_depositable" val="false" />
 	</item>
-	<item id="17150" type="Armor" name="Ketra Karm (used by Ketra Orcs) - Promotion">
+	<item id="17150" type="Armor" name="肯特拉卡輪(肯特拉獸人用)">
 		<set name="icon" val="icon.accessory_ketra_karm_i00" />
 		<set name="default_action" val="equip" />
 		<set name="bodypart" val="hairall" />
@@ -645,7 +645,7 @@
 		<set name="is_sellable" val="false" />
 		<set name="is_depositable" val="false" />
 	</item>
-	<item id="17151" type="Armor" name="Puffy Hat of Friendship - Promotion">
+	<item id="17151" type="Armor" name="友情的河豚帽">
 		<set name="icon" val="icon.accessory_globefish_cap_i00" />
 		<set name="default_action" val="equip" />
 		<set name="bodypart" val="hairall" />
@@ -656,7 +656,7 @@
 		<set name="is_sellable" val="false" />
 		<set name="is_depositable" val="false" />
 	</item>
-	<item id="17152" type="Armor" name="Arrow-Pierced Apple - Promotion">
+	<item id="17152" type="Armor" name="穿箭蘋果">
 		<set name="icon" val="icon.accessory_arrow_apple_i00" />
 		<set name="default_action" val="equip" />
 		<set name="bodypart" val="hairall" />
@@ -667,7 +667,7 @@
 		<set name="is_sellable" val="false" />
 		<set name="is_depositable" val="false" />
 	</item>
-	<item id="17153" type="Armor" name="Fish Hat - Promotion">
+	<item id="17153" type="Armor" name="魚帽">
 		<set name="icon" val="icon.accessory_fish_cap_i00" />
 		<set name="default_action" val="equip" />
 		<set name="bodypart" val="hairall" />
@@ -678,7 +678,7 @@
 		<set name="is_sellable" val="false" />
 		<set name="is_depositable" val="false" />
 	</item>
-	<item id="17154" type="Armor" name="Purple Viking Circlet - Promotion">
+	<item id="17154" type="Armor" name="紫色維京頭箍">
 		<set name="icon" val="icon.accessory_viking_circlet_violet_i00" />
 		<set name="default_action" val="equip" />
 		<set name="bodypart" val="hairall" />
@@ -689,7 +689,7 @@
 		<set name="is_sellable" val="false" />
 		<set name="is_depositable" val="false" />
 	</item>
-	<item id="17155" type="Armor" name="Golden Viking Circlet - Promotion">
+	<item id="17155" type="Armor" name="金色維京頭箍">
 		<set name="icon" val="icon.accessory_viking_circlet_gold_i00" />
 		<set name="default_action" val="equip" />
 		<set name="bodypart" val="hairall" />
@@ -700,7 +700,7 @@
 		<set name="is_sellable" val="false" />
 		<set name="is_depositable" val="false" />
 	</item>
-	<item id="17156" type="Armor" name="White Sheep Hat - Promotion">
+	<item id="17156" type="Armor" name="白羊帽">
 		<set name="icon" val="icon.accessory_sheep_cap_white_i00" />
 		<set name="default_action" val="equip" />
 		<set name="bodypart" val="hairall" />
@@ -711,7 +711,7 @@
 		<set name="is_sellable" val="false" />
 		<set name="is_depositable" val="false" />
 	</item>
-	<item id="17157" type="Armor" name="Black Sheep Hat - Promotion">
+	<item id="17157" type="Armor" name="黑羊帽">
 		<set name="icon" val="icon.accessory_sheep_cap_black_i00" />
 		<set name="default_action" val="equip" />
 		<set name="bodypart" val="hairall" />
@@ -722,28 +722,28 @@
 		<set name="is_sellable" val="false" />
 		<set name="is_depositable" val="false" />
 	</item>
-	<item id="17158" type="EtcItem" name="Vesper's Mighty Power">
+	<item id="17158" type="EtcItem" name="薄暮怪力">
 		<set name="immediate_effect" val="1" />
 		<set name="ex_immediate_effect" val="1" />
 		<set name="material" val="paper" />
 		<set name="is_depositable" val="false" />
 		<set name="item_skill" val="9161-1" />
 	</item>
-	<item id="17159" type="EtcItem" name="Vesper's Critical Attack Power">
+	<item id="17159" type="EtcItem" name="薄暮致命">
 		<set name="immediate_effect" val="1" />
 		<set name="ex_immediate_effect" val="1" />
 		<set name="material" val="paper" />
 		<set name="is_depositable" val="false" />
 		<set name="item_skill" val="9162-1" />
 	</item>
-	<item id="17160" type="EtcItem" name="Invincible Vesper">
+	<item id="17160" type="EtcItem" name="薄暮不敗">
 		<set name="immediate_effect" val="1" />
 		<set name="ex_immediate_effect" val="1" />
 		<set name="material" val="paper" />
 		<set name="is_depositable" val="false" />
 		<set name="item_skill" val="9163-1" />
 	</item>
-	<item id="17161" type="EtcItem" name="Special Gift of April Fool's Day - Event">
+	<item id="17161" type="EtcItem" name="愚人節特別禮物-活動用">
 		<set name="icon" val="icon.etc_pi_gift_box_i04" />
 		<set name="default_action" val="capsule" />
 		<set name="immediate_effect" val="1" />
@@ -753,7 +753,7 @@
 		<set name="is_oly_restricted" val="true" />
 		<set name="item_skill" val="9164-1" />
 	</item>
-	<item id="17162" type="EtcItem" name="Shards of Golem">
+	<item id="17162" type="EtcItem" name="高崙的破裂碎片">
 		<set name="icon" val="icon.etc_coal_i00" />
 		<set name="immediate_effect" val="1" />
 		<set name="material" val="crystal" />
@@ -765,7 +765,7 @@
 		<set name="is_questitem" val="true" />
 		<set name="is_oly_restricted" val="true" />
 	</item>
-	<item id="17163" type="EtcItem" name="Event - Energy of Sprout">
+	<item id="17163" type="EtcItem" name="活動-幼苗的氣息">
 		<set name="icon" val="icon.etc_leaf_green_i00" />
 		<set name="default_action" val="skill_reduce" />
 		<set name="etcitem_type" val="potion" />
@@ -781,7 +781,7 @@
 		<set name="is_oly_restricted" val="true" />
 		<set name="item_skill" val="9165-1" />
 	</item>
-	<item id="17164" type="EtcItem" name="Event - Pack of Energy of Sprout">
+	<item id="17164" type="EtcItem" name="活動-幼苗的氣息組">
 		<set name="icon" val="icon.etc_pi_gift_box_i04" />
 		<set name="default_action" val="peel" />
 		<set name="material" val="fish" />
@@ -794,7 +794,7 @@
 		<set name="is_oly_restricted" val="true" />
 		<set name="capsuled_items" val="17163,3,3,100" />
 	</item>
-	<item id="17165" type="EtcItem" name="Event - Energy Replenishing Herb Tea 30 minutes">
+	<item id="17165" type="EtcItem" name="活動-活力充能藥草茶 30分組">
 		<set name="icon" val="icon.etc_pi_gift_box_i04" />
 		<set name="default_action" val="peel" />
 		<set name="material" val="fish" />
@@ -807,7 +807,7 @@
 		<set name="is_oly_restricted" val="true" />
 		<set name="capsuled_items" val="14744,5,5,100" />
 	</item>
-	<item id="17166" type="EtcItem" name="Pack of 10 Noble Enhancement Stones">
+	<item id="17166" type="EtcItem" name="薄暮貴族強化石10個/組">
 		<set name="icon" val="icon.etc_pi_gift_box_i04" />
 		<set name="default_action" val="peel" />
 		<set name="material" val="fish" />
@@ -816,7 +816,7 @@
 		<set name="is_oly_restricted" val="true" />
 		<set name="capsuled_items" val="14052,10,10,100" />
 	</item>
-	<item id="17167" type="EtcItem" name="Weapon Enchant Scroll - S Grade Pack">
+	<item id="17167" type="EtcItem" name="武器強化卷軸-S級組">
 		<set name="icon" val="icon.etc_pi_gift_box_i04" />
 		<set name="default_action" val="peel" />
 		<set name="material" val="fish" />
@@ -825,7 +825,7 @@
 		<set name="is_oly_restricted" val="true" />
 		<set name="capsuled_items" val="959,1,1,100" />
 	</item>
-	<item id="17168" type="EtcItem" name="Lesser Giant's Codex - Mastery Pack">
+	<item id="17168" type="EtcItem" name="巨人的經典-熟練篇組">
 		<set name="icon" val="icon.etc_pi_gift_box_i04" />
 		<set name="default_action" val="peel" />
 		<set name="material" val="fish" />
@@ -834,7 +834,7 @@
 		<set name="is_oly_restricted" val="true" />
 		<set name="capsuled_items" val="9627,1,1,100" />
 	</item>
-	<item id="17169" type="EtcItem" name="Olympiad Treasure Chest">
+	<item id="17169" type="EtcItem" name="奧林匹亞寶箱">
 		<set name="icon" val="icon.event_hero_treasure_box_i00" />
 		<set name="default_action" val="peel" />
 		<set name="material" val="fish" />

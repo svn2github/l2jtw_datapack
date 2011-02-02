@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <list>
-	<item id="2800" type="EtcItem" name="Jax's Diary">
+	<item id="2800" type="EtcItem" name="傑克斯的日記">
 		<set name="icon" val="icon.etc_spellbook_blue_i00" />
 		<set name="immediate_effect" val="1" />
 		<set name="material" val="steel" />
@@ -11,7 +11,7 @@
 		<set name="is_stackable" val="true" />
 		<set name="is_questitem" val="true" />
 	</item>
-	<item id="2801" type="EtcItem" name="1st Torn Map Piece">
+	<item id="2801" type="EtcItem" name="地圖碎片">
 		<set name="icon" val="icon.etc_map_piece_yellow_i00" />
 		<set name="immediate_effect" val="1" />
 		<set name="material" val="steel" />
@@ -22,7 +22,7 @@
 		<set name="is_stackable" val="true" />
 		<set name="is_questitem" val="true" />
 	</item>
-	<item id="2802" type="EtcItem" name="2nd Torn Map Piece">
+	<item id="2802" type="EtcItem" name="地圖碎片">
 		<set name="icon" val="icon.etc_map_piece_yellow_i00" />
 		<set name="immediate_effect" val="1" />
 		<set name="material" val="steel" />
@@ -33,7 +33,7 @@
 		<set name="is_stackable" val="true" />
 		<set name="is_questitem" val="true" />
 	</item>
-	<item id="2803" type="EtcItem" name="Solt's Map">
+	<item id="2803" type="EtcItem" name="索特的地圖">
 		<set name="icon" val="icon.etc_map_yellow_i00" />
 		<set name="immediate_effect" val="1" />
 		<set name="material" val="steel" />
@@ -44,7 +44,7 @@
 		<set name="is_stackable" val="true" />
 		<set name="is_questitem" val="true" />
 	</item>
-	<item id="2804" type="EtcItem" name="Makel's Map">
+	<item id="2804" type="EtcItem" name="馬克歐的地圖">
 		<set name="icon" val="icon.etc_map_yellow_i00" />
 		<set name="immediate_effect" val="1" />
 		<set name="material" val="steel" />
@@ -55,7 +55,7 @@
 		<set name="is_stackable" val="true" />
 		<set name="is_questitem" val="true" />
 	</item>
-	<item id="2805" type="EtcItem" name="Combined Map">
+	<item id="2805" type="EtcItem" name="合起來的地圖">
 		<set name="icon" val="icon.etc_map_ivory_i00" />
 		<set name="immediate_effect" val="1" />
 		<set name="material" val="steel" />
@@ -66,7 +66,7 @@
 		<set name="is_stackable" val="true" />
 		<set name="is_questitem" val="true" />
 	</item>
-	<item id="2806" type="EtcItem" name="Rusted Key">
+	<item id="2806" type="EtcItem" name="生銹的鑰匙">
 		<set name="icon" val="icon.etc_key_i00" />
 		<set name="immediate_effect" val="1" />
 		<set name="material" val="steel" />
@@ -77,7 +77,7 @@
 		<set name="is_stackable" val="true" />
 		<set name="is_questitem" val="true" />
 	</item>
-	<item id="2807" type="EtcItem" name="Gold Bar">
+	<item id="2807" type="EtcItem" name="金塊">
 		<set name="icon" val="icon.etc_lump_yellow_i00" />
 		<set name="immediate_effect" val="1" />
 		<set name="material" val="steel" />
@@ -88,7 +88,7 @@
 		<set name="is_stackable" val="true" />
 		<set name="is_questitem" val="true" />
 	</item>
-	<item id="2808" type="EtcItem" name="Alex's Recommend">
+	<item id="2808" type="EtcItem" name="阿蘭克爾的推薦函">
 		<set name="icon" val="icon.etc_letter_white_i00" />
 		<set name="immediate_effect" val="1" />
 		<set name="material" val="steel" />
@@ -99,7 +99,7 @@
 		<set name="is_stackable" val="true" />
 		<set name="is_questitem" val="true" />
 	</item>
-	<item id="2809" type="EtcItem" name="Mark of Searcher">
+	<item id="2809" type="EtcItem" name="探索者標章">
 		<set name="icon" val="icon.etc_badge_gold_i00" />
 		<set name="immediate_effect" val="1" />
 		<set name="material" val="steel" />
@@ -110,7 +110,7 @@
 		<set name="is_stackable" val="true" />
 		<set name="is_questitem" val="true" />
 	</item>
-	<item id="2810" type="EtcItem" name="Report of Perrin">
+	<item id="2810" type="EtcItem" name="裴琳的報告書">
 		<set name="icon" val="icon.etc_letter_blue_i00" />
 		<set name="immediate_effect" val="1" />
 		<set name="material" val="steel" />
@@ -121,7 +121,7 @@
 		<set name="is_stackable" val="true" />
 		<set name="is_questitem" val="true" />
 	</item>
-	<item id="2811" type="EtcItem" name="Kristina's Letter">
+	<item id="2811" type="EtcItem" name="克莉絲蒂娜的信">
 		<set name="icon" val="icon.etc_piece_of_paper_white_i00" />
 		<set name="immediate_effect" val="1" />
 		<set name="material" val="steel" />
@@ -132,7 +132,7 @@
 		<set name="is_stackable" val="true" />
 		<set name="is_questitem" val="true" />
 	</item>
-	<item id="2812" type="EtcItem" name="Picture of Windy">
+	<item id="2812" type="EtcItem" name="溫蒂的圖畫">
 		<set name="icon" val="icon.etc_plate_white_i00" />
 		<set name="immediate_effect" val="1" />
 		<set name="material" val="steel" />
@@ -143,7 +143,7 @@
 		<set name="is_stackable" val="true" />
 		<set name="is_questitem" val="true" />
 	</item>
-	<item id="2813" type="EtcItem" name="Golden Statue">
+	<item id="2813" type="EtcItem" name="黃金神像">
 		<set name="icon" val="icon.etc_orcish_talisman_i00" />
 		<set name="immediate_effect" val="1" />
 		<set name="material" val="steel" />
@@ -154,7 +154,7 @@
 		<set name="is_stackable" val="true" />
 		<set name="is_questitem" val="true" />
 	</item>
-	<item id="2814" type="EtcItem" name="Windy's Pebbles">
+	<item id="2814" type="EtcItem" name="溫蒂的小鵝卵石">
 		<set name="icon" val="icon.etc_stone_gray_i00" />
 		<set name="immediate_effect" val="1" />
 		<set name="material" val="steel" />
@@ -165,7 +165,7 @@
 		<set name="is_stackable" val="true" />
 		<set name="is_questitem" val="true" />
 	</item>
-	<item id="2815" type="EtcItem" name="Order of Sorius">
+	<item id="2815" type="EtcItem" name="索日烏斯的命令書">
 		<set name="icon" val="icon.etc_letter_red_i00" />
 		<set name="immediate_effect" val="1" />
 		<set name="material" val="steel" />
@@ -176,7 +176,7 @@
 		<set name="is_stackable" val="true" />
 		<set name="is_questitem" val="true" />
 	</item>
-	<item id="2816" type="EtcItem" name="1st Secret Letter">
+	<item id="2816" type="EtcItem" name="第一個機密文件">
 		<set name="icon" val="icon.etc_scroll_gray_i00" />
 		<set name="immediate_effect" val="1" />
 		<set name="material" val="steel" />
@@ -187,7 +187,7 @@
 		<set name="is_stackable" val="true" />
 		<set name="is_questitem" val="true" />
 	</item>
-	<item id="2817" type="EtcItem" name="2nd Secret Letter">
+	<item id="2817" type="EtcItem" name="第二個機密文件">
 		<set name="icon" val="icon.etc_scroll_white_i00" />
 		<set name="immediate_effect" val="1" />
 		<set name="material" val="steel" />
@@ -198,7 +198,7 @@
 		<set name="is_stackable" val="true" />
 		<set name="is_questitem" val="true" />
 	</item>
-	<item id="2818" type="EtcItem" name="3rd Secret Letter">
+	<item id="2818" type="EtcItem" name="第三個機密文件">
 		<set name="icon" val="icon.weapon_scroll_of_wisdom_i00" />
 		<set name="immediate_effect" val="1" />
 		<set name="material" val="steel" />
@@ -209,7 +209,7 @@
 		<set name="is_stackable" val="true" />
 		<set name="is_questitem" val="true" />
 	</item>
-	<item id="2819" type="EtcItem" name="4th Secret Letter">
+	<item id="2819" type="EtcItem" name="第四個機密文件">
 		<set name="icon" val="icon.weapon_scroll_of_wisdom_i01" />
 		<set name="immediate_effect" val="1" />
 		<set name="material" val="steel" />
@@ -220,7 +220,7 @@
 		<set name="is_stackable" val="true" />
 		<set name="is_questitem" val="true" />
 	</item>
-	<item id="2820" type="EtcItem" name="Mark of Healer">
+	<item id="2820" type="EtcItem" name="治癒者標章">
 		<set name="icon" val="icon.etc_jewel_white_i00" />
 		<set name="immediate_effect" val="1" />
 		<set name="material" val="steel" />
@@ -231,7 +231,7 @@
 		<set name="is_stackable" val="true" />
 		<set name="is_questitem" val="true" />
 	</item>
-	<item id="2821" type="EtcItem" name="Mark of Reformer">
+	<item id="2821" type="EtcItem" name="變革者標章">
 		<set name="icon" val="icon.etc_jewel_gold_i00" />
 		<set name="immediate_effect" val="1" />
 		<set name="material" val="steel" />
@@ -242,7 +242,7 @@
 		<set name="is_stackable" val="true" />
 		<set name="is_questitem" val="true" />
 	</item>
-	<item id="2822" type="EtcItem" name="Book of Reform">
+	<item id="2822" type="EtcItem" name="變革之書">
 		<set name="icon" val="icon.weapon_apprentices_spellbook_i01" />
 		<set name="immediate_effect" val="1" />
 		<set name="material" val="steel" />
@@ -253,7 +253,7 @@
 		<set name="is_stackable" val="true" />
 		<set name="is_questitem" val="true" />
 	</item>
-	<item id="2823" type="EtcItem" name="Letter of Introduction">
+	<item id="2823" type="EtcItem" name="介紹信">
 		<set name="icon" val="icon.etc_scroll_of_enchant_armor_i00" />
 		<set name="immediate_effect" val="1" />
 		<set name="material" val="steel" />
@@ -264,7 +264,7 @@
 		<set name="is_stackable" val="true" />
 		<set name="is_questitem" val="true" />
 	</item>
-	<item id="2824" type="EtcItem" name="Sla's Letter">
+	<item id="2824" type="EtcItem" name="史拉的信">
 		<set name="icon" val="icon.etc_piece_of_paper_black_i00" />
 		<set name="immediate_effect" val="1" />
 		<set name="material" val="steel" />
@@ -275,7 +275,7 @@
 		<set name="is_stackable" val="true" />
 		<set name="is_questitem" val="true" />
 	</item>
-	<item id="2825" type="EtcItem" name="Greetings">
+	<item id="2825" type="EtcItem" name="問候信">
 		<set name="icon" val="icon.etc_piece_of_paper_gray_i00" />
 		<set name="immediate_effect" val="1" />
 		<set name="material" val="steel" />
@@ -286,7 +286,7 @@
 		<set name="is_stackable" val="true" />
 		<set name="is_questitem" val="true" />
 	</item>
-	<item id="2826" type="EtcItem" name="Ol Mahum's Money">
+	<item id="2826" type="EtcItem" name="豺狼的貨幣">
 		<set name="icon" val="icon.etc_coins_silver_i00" />
 		<set name="immediate_effect" val="1" />
 		<set name="material" val="steel" />
@@ -297,7 +297,7 @@
 		<set name="is_stackable" val="true" />
 		<set name="is_questitem" val="true" />
 	</item>
-	<item id="2827" type="EtcItem" name="Katari's Letter">
+	<item id="2827" type="EtcItem" name="卡塔利的信">
 		<set name="icon" val="icon.etc_letter_blue_i00" />
 		<set name="immediate_effect" val="1" />
 		<set name="material" val="steel" />
@@ -308,7 +308,7 @@
 		<set name="is_stackable" val="true" />
 		<set name="is_questitem" val="true" />
 	</item>
-	<item id="2828" type="EtcItem" name="Nyakuri's Letter">
+	<item id="2828" type="EtcItem" name="尼庫利的信">
 		<set name="icon" val="icon.etc_letter_red_i00" />
 		<set name="immediate_effect" val="1" />
 		<set name="material" val="steel" />
@@ -319,7 +319,7 @@
 		<set name="is_stackable" val="true" />
 		<set name="is_questitem" val="true" />
 	</item>
-	<item id="2829" type="EtcItem" name="Undead List">
+	<item id="2829" type="EtcItem" name="不死生物清單">
 		<set name="icon" val="icon.etc_recipe_red_i00" />
 		<set name="immediate_effect" val="1" />
 		<set name="material" val="steel" />
@@ -330,7 +330,7 @@
 		<set name="is_stackable" val="true" />
 		<set name="is_questitem" val="true" />
 	</item>
-	<item id="2830" type="EtcItem" name="Ramus's Letter">
+	<item id="2830" type="EtcItem" name="拉姆斯的信">
 		<set name="icon" val="icon.etc_letter_white_i00" />
 		<set name="immediate_effect" val="1" />
 		<set name="material" val="steel" />
@@ -341,7 +341,7 @@
 		<set name="is_stackable" val="true" />
 		<set name="is_questitem" val="true" />
 	</item>
-	<item id="2831" type="EtcItem" name="Ripped Diary">
+	<item id="2831" type="EtcItem" name="日記碎片">
 		<set name="icon" val="icon.etc_map_piece_ivory_i00" />
 		<set name="immediate_effect" val="1" />
 		<set name="material" val="steel" />
@@ -352,7 +352,7 @@
 		<set name="is_stackable" val="true" />
 		<set name="is_questitem" val="true" />
 	</item>
-	<item id="2832" type="EtcItem" name="Huge Nail">
+	<item id="2832" type="EtcItem" name="巨大釘子">
 		<set name="icon" val="icon.weapon_heavy_chisel_i00" />
 		<set name="immediate_effect" val="1" />
 		<set name="material" val="steel" />
@@ -363,7 +363,7 @@
 		<set name="is_stackable" val="true" />
 		<set name="is_questitem" val="true" />
 	</item>
-	<item id="2833" type="EtcItem" name="Letter of Betrayer">
+	<item id="2833" type="EtcItem" name="背叛者的信">
 		<set name="icon" val="icon.etc_scroll_gray_i00" />
 		<set name="immediate_effect" val="1" />
 		<set name="material" val="steel" />
@@ -374,7 +374,7 @@
 		<set name="is_stackable" val="true" />
 		<set name="is_questitem" val="true" />
 	</item>
-	<item id="2834" type="EtcItem" name="Bone Fragment">
+	<item id="2834" type="EtcItem" name="骨頭片">
 		<set name="icon" val="icon.etc_rib_black_i00" />
 		<set name="immediate_effect" val="1" />
 		<set name="material" val="steel" />
@@ -385,7 +385,7 @@
 		<set name="is_stackable" val="true" />
 		<set name="is_questitem" val="true" />
 	</item>
-	<item id="2835" type="EtcItem" name="Bone Fragment">
+	<item id="2835" type="EtcItem" name="骨頭片">
 		<set name="icon" val="icon.etc_piece_bone_white_i00" />
 		<set name="immediate_effect" val="1" />
 		<set name="material" val="steel" />
@@ -396,7 +396,7 @@
 		<set name="is_stackable" val="true" />
 		<set name="is_questitem" val="true" />
 	</item>
-	<item id="2836" type="EtcItem" name="Bone Fragment">
+	<item id="2836" type="EtcItem" name="骨頭片">
 		<set name="icon" val="icon.etc_molar_black_i00" />
 		<set name="immediate_effect" val="1" />
 		<set name="material" val="steel" />
@@ -407,7 +407,7 @@
 		<set name="is_stackable" val="true" />
 		<set name="is_questitem" val="true" />
 	</item>
-	<item id="2837" type="EtcItem" name="Bone Fragment">
+	<item id="2837" type="EtcItem" name="骨頭片">
 		<set name="icon" val="icon.etc_molar_white_i00" />
 		<set name="immediate_effect" val="1" />
 		<set name="material" val="steel" />
@@ -418,7 +418,7 @@
 		<set name="is_stackable" val="true" />
 		<set name="is_questitem" val="true" />
 	</item>
-	<item id="2838" type="EtcItem" name="Bone Fragment">
+	<item id="2838" type="EtcItem" name="骨頭片">
 		<set name="icon" val="icon.etc_rib_white_i00" />
 		<set name="immediate_effect" val="1" />
 		<set name="material" val="steel" />
@@ -429,7 +429,7 @@
 		<set name="is_stackable" val="true" />
 		<set name="is_questitem" val="true" />
 	</item>
-	<item id="2839" type="EtcItem" name="Bone Fragment">
+	<item id="2839" type="EtcItem" name="骨頭片">
 		<set name="icon" val="icon.etc_rib_black_i00" />
 		<set name="immediate_effect" val="1" />
 		<set name="material" val="steel" />
@@ -440,7 +440,7 @@
 		<set name="is_stackable" val="true" />
 		<set name="is_questitem" val="true" />
 	</item>
-	<item id="2840" type="EtcItem" name="Mark of Magus">
+	<item id="2840" type="EtcItem" name="巫師標章">
 		<set name="icon" val="icon.etc_mark_yellow_i00" />
 		<set name="immediate_effect" val="1" />
 		<set name="material" val="steel" />
@@ -451,7 +451,7 @@
 		<set name="is_stackable" val="true" />
 		<set name="is_questitem" val="true" />
 	</item>
-	<item id="2841" type="EtcItem" name="Rukal's Letter">
+	<item id="2841" type="EtcItem" name="露凱的信">
 		<set name="icon" val="icon.etc_letter_blue_i00" />
 		<set name="immediate_effect" val="1" />
 		<set name="material" val="steel" />
@@ -462,7 +462,7 @@
 		<set name="is_stackable" val="true" />
 		<set name="is_questitem" val="true" />
 	</item>
-	<item id="2842" type="EtcItem" name="Parina's Letter">
+	<item id="2842" type="EtcItem" name="帕瑞那的信">
 		<set name="icon" val="icon.etc_letter_red_i00" />
 		<set name="immediate_effect" val="1" />
 		<set name="material" val="steel" />
@@ -473,7 +473,7 @@
 		<set name="is_stackable" val="true" />
 		<set name="is_questitem" val="true" />
 	</item>
-	<item id="2843" type="EtcItem" name="Lilac Charm">
+	<item id="2843" type="EtcItem" name="紫丁香符咒">
 		<set name="icon" val="icon.etc_badge_gold_i00" />
 		<set name="immediate_effect" val="1" />
 		<set name="material" val="steel" />
@@ -484,7 +484,7 @@
 		<set name="is_stackable" val="true" />
 		<set name="is_questitem" val="true" />
 	</item>
-	<item id="2844" type="EtcItem" name="1st Golden Seed">
+	<item id="2844" type="EtcItem" name="黃金種子">
 		<set name="icon" val="icon.etc_pouch_yellow_i00" />
 		<set name="immediate_effect" val="1" />
 		<set name="material" val="steel" />
@@ -495,7 +495,7 @@
 		<set name="is_stackable" val="true" />
 		<set name="is_questitem" val="true" />
 	</item>
-	<item id="2845" type="EtcItem" name="2nd Golden Seed">
+	<item id="2845" type="EtcItem" name="黃金種子">
 		<set name="icon" val="icon.etc_pouch_gray_i00" />
 		<set name="immediate_effect" val="1" />
 		<set name="material" val="steel" />
@@ -506,7 +506,7 @@
 		<set name="is_stackable" val="true" />
 		<set name="is_questitem" val="true" />
 	</item>
-	<item id="2846" type="EtcItem" name="3rd Golden Seed">
+	<item id="2846" type="EtcItem" name="黃金種子">
 		<set name="icon" val="icon.etc_pouch_brown_i00" />
 		<set name="immediate_effect" val="1" />
 		<set name="material" val="steel" />
@@ -517,7 +517,7 @@
 		<set name="is_stackable" val="true" />
 		<set name="is_questitem" val="true" />
 	</item>
-	<item id="2847" type="EtcItem" name="Score of Elements">
+	<item id="2847" type="EtcItem" name="元素樂譜">
 		<set name="icon" val="icon.etc_recipe_red_i00" />
 		<set name="immediate_effect" val="1" />
 		<set name="material" val="steel" />
@@ -528,7 +528,7 @@
 		<set name="is_stackable" val="true" />
 		<set name="is_questitem" val="true" />
 	</item>
-	<item id="2848" type="EtcItem" name="Dazzling Drop">
+	<item id="2848" type="EtcItem" name="眩惑水滴">
 		<set name="icon" val="icon.etc_crystal_ball_blue_i00" />
 		<set name="immediate_effect" val="1" />
 		<set name="material" val="steel" />
@@ -539,7 +539,7 @@
 		<set name="is_stackable" val="true" />
 		<set name="is_questitem" val="true" />
 	</item>
-	<item id="2849" type="EtcItem" name="Flame Crystal">
+	<item id="2849" type="EtcItem" name="火焰的結晶">
 		<set name="icon" val="icon.etc_gem_red_i00" />
 		<set name="immediate_effect" val="1" />
 		<set name="material" val="steel" />
@@ -550,7 +550,7 @@
 		<set name="is_stackable" val="true" />
 		<set name="is_questitem" val="true" />
 	</item>
-	<item id="2850" type="EtcItem" name="Harpy's Feather">
+	<item id="2850" type="EtcItem" name="鳥妖的羽毛">
 		<set name="icon" val="icon.etc_feather_white_i00" />
 		<set name="immediate_effect" val="1" />
 		<set name="material" val="steel" />
@@ -561,7 +561,7 @@
 		<set name="is_stackable" val="true" />
 		<set name="is_questitem" val="true" />
 	</item>
-	<item id="2851" type="EtcItem" name="Wyrm's Wingbone">
+	<item id="2851" type="EtcItem" name="亞龍翅膀之骨">
 		<set name="icon" val="icon.etc_piece_bone_red_i00" />
 		<set name="immediate_effect" val="1" />
 		<set name="material" val="steel" />
@@ -572,7 +572,7 @@
 		<set name="is_stackable" val="true" />
 		<set name="is_questitem" val="true" />
 	</item>
-	<item id="2852" type="EtcItem" name="Windsus Mane">
+	<item id="2852" type="EtcItem" name="溫德薩斯之鬃">
 		<set name="icon" val="icon.etc_mane_i00" />
 		<set name="immediate_effect" val="1" />
 		<set name="material" val="steel" />
@@ -583,7 +583,7 @@
 		<set name="is_stackable" val="true" />
 		<set name="is_questitem" val="true" />
 	</item>
-	<item id="2853" type="EtcItem" name="Enchanted Monster Eye Shell">
+	<item id="2853" type="EtcItem" name="附法眼怪殼">
 		<set name="icon" val="icon.etc_bark_gold_i00" />
 		<set name="immediate_effect" val="1" />
 		<set name="material" val="steel" />
@@ -594,7 +594,7 @@
 		<set name="is_stackable" val="true" />
 		<set name="is_questitem" val="true" />
 	</item>
-	<item id="2854" type="EtcItem" name="Enchanted Stone Golem Powder">
+	<item id="2854" type="EtcItem" name="附法岩石高崙的石頭粉">
 		<set name="icon" val="icon.etc_powder_gray_i00" />
 		<set name="immediate_effect" val="1" />
 		<set name="material" val="steel" />
@@ -605,7 +605,7 @@
 		<set name="is_stackable" val="true" />
 		<set name="is_questitem" val="true" />
 	</item>
-	<item id="2855" type="EtcItem" name="Enchanted Iron Golem Scrap">
+	<item id="2855" type="EtcItem" name="附法鋼鐵高崙的破片">
 		<set name="icon" val="icon.etc_stone_black_i00" />
 		<set name="immediate_effect" val="1" />
 		<set name="material" val="steel" />
@@ -616,7 +616,7 @@
 		<set name="is_stackable" val="true" />
 		<set name="is_questitem" val="true" />
 	</item>
-	<item id="2856" type="EtcItem" name="Tone of Water">
+	<item id="2856" type="EtcItem" name="水之音標">
 		<set name="icon" val="icon.etc_scroll_of_enchant_armor_i01" />
 		<set name="immediate_effect" val="1" />
 		<set name="material" val="steel" />
@@ -627,7 +627,7 @@
 		<set name="is_stackable" val="true" />
 		<set name="is_questitem" val="true" />
 	</item>
-	<item id="2857" type="EtcItem" name="Tone of Fire">
+	<item id="2857" type="EtcItem" name="火之音標">
 		<set name="icon" val="icon.etc_scroll_of_enchant_weapon_i01" />
 		<set name="immediate_effect" val="1" />
 		<set name="material" val="steel" />
@@ -638,7 +638,7 @@
 		<set name="is_stackable" val="true" />
 		<set name="is_questitem" val="true" />
 	</item>
-	<item id="2858" type="EtcItem" name="Tone of Wind">
+	<item id="2858" type="EtcItem" name="風之音標">
 		<set name="icon" val="icon.etc_scroll_of_return_i01" />
 		<set name="immediate_effect" val="1" />
 		<set name="material" val="steel" />
@@ -649,7 +649,7 @@
 		<set name="is_stackable" val="true" />
 		<set name="is_questitem" val="true" />
 	</item>
-	<item id="2859" type="EtcItem" name="Tone of Earth">
+	<item id="2859" type="EtcItem" name="大地之音標">
 		<set name="icon" val="icon.etc_scroll_of_resurrection_i01" />
 		<set name="immediate_effect" val="1" />
 		<set name="material" val="steel" />
@@ -660,7 +660,7 @@
 		<set name="is_stackable" val="true" />
 		<set name="is_questitem" val="true" />
 	</item>
-	<item id="2860" type="EtcItem" name="Salamander Charm">
+	<item id="2860" type="EtcItem" name="火蜥蜴的符咒">
 		<set name="icon" val="icon.etc_piece_of_cloth_red_i00" />
 		<set name="immediate_effect" val="1" />
 		<set name="material" val="steel" />
@@ -671,7 +671,7 @@
 		<set name="is_stackable" val="true" />
 		<set name="is_questitem" val="true" />
 	</item>
-	<item id="2861" type="EtcItem" name="Sylph Charm">
+	<item id="2861" type="EtcItem" name="風妖精的符咒">
 		<set name="icon" val="icon.etc_piece_of_cloth_white_i00" />
 		<set name="immediate_effect" val="1" />
 		<set name="material" val="steel" />
@@ -682,7 +682,7 @@
 		<set name="is_stackable" val="true" />
 		<set name="is_questitem" val="true" />
 	</item>
-	<item id="2862" type="EtcItem" name="Undine Charm">
+	<item id="2862" type="EtcItem" name="水妖精的符咒">
 		<set name="icon" val="icon.etc_piece_of_cloth_blue_i00" />
 		<set name="immediate_effect" val="1" />
 		<set name="material" val="steel" />
@@ -693,7 +693,7 @@
 		<set name="is_stackable" val="true" />
 		<set name="is_questitem" val="true" />
 	</item>
-	<item id="2863" type="EtcItem" name="Serpent Charm">
+	<item id="2863" type="EtcItem" name="大地之蛇的符咒">
 		<set name="icon" val="icon.etc_piece_of_cloth_green_i00" />
 		<set name="immediate_effect" val="1" />
 		<set name="material" val="steel" />
@@ -704,7 +704,7 @@
 		<set name="is_stackable" val="true" />
 		<set name="is_questitem" val="true" />
 	</item>
-	<item id="2864" type="EtcItem" name="Recommendation of Balanki">
+	<item id="2864" type="EtcItem" name="巴蘭克的推薦函">
 		<set name="icon" val="icon.etc_letter_blue_i00" />
 		<set name="immediate_effect" val="1" />
 		<set name="material" val="steel" />
@@ -715,7 +715,7 @@
 		<set name="is_stackable" val="true" />
 		<set name="is_questitem" val="true" />
 	</item>
-	<item id="2865" type="EtcItem" name="Recommendation of Filaur">
+	<item id="2865" type="EtcItem" name="斐拉爾的推薦函">
 		<set name="icon" val="icon.etc_letter_red_i00" />
 		<set name="immediate_effect" val="1" />
 		<set name="material" val="steel" />
@@ -726,7 +726,7 @@
 		<set name="is_stackable" val="true" />
 		<set name="is_questitem" val="true" />
 	</item>
-	<item id="2866" type="EtcItem" name="Recommendation of Arin">
+	<item id="2866" type="EtcItem" name="亞琳的推薦函">
 		<set name="icon" val="icon.etc_letter_white_i00" />
 		<set name="immediate_effect" val="1" />
 		<set name="material" val="steel" />
@@ -737,7 +737,7 @@
 		<set name="is_stackable" val="true" />
 		<set name="is_questitem" val="true" />
 	</item>
-	<item id="2867" type="EtcItem" name="Mark of Maestro">
+	<item id="2867" type="EtcItem" name="巨匠標章">
 		<set name="icon" val="icon.etc_badge_silver_i00" />
 		<set name="immediate_effect" val="1" />
 		<set name="material" val="steel" />
@@ -748,7 +748,7 @@
 		<set name="is_stackable" val="true" />
 		<set name="is_questitem" val="true" />
 	</item>
-	<item id="2868" type="EtcItem" name="Letter of Solder Detachment">
+	<item id="2868" type="EtcItem" name="傭兵派遣書">
 		<set name="icon" val="icon.etc_scroll_of_return_i01" />
 		<set name="immediate_effect" val="1" />
 		<set name="material" val="steel" />
@@ -759,7 +759,7 @@
 		<set name="is_stackable" val="true" />
 		<set name="is_questitem" val="true" />
 	</item>
-	<item id="2869" type="EtcItem" name="Paint of Kamuru">
+	<item id="2869" type="EtcItem" name="卡謬兒的圖畫">
 		<set name="icon" val="icon.etc_scroll_gray_i00" />
 		<set name="immediate_effect" val="1" />
 		<set name="material" val="steel" />
@@ -770,7 +770,7 @@
 		<set name="is_stackable" val="true" />
 		<set name="is_questitem" val="true" />
 	</item>
-	<item id="2870" type="EtcItem" name="Necklace of Kamuru">
+	<item id="2870" type="EtcItem" name="卡謬兒的項鍊">
 		<set name="icon" val="icon.accessary_necklace_of_darkness_i00" />
 		<set name="immediate_effect" val="1" />
 		<set name="material" val="steel" />
@@ -781,7 +781,7 @@
 		<set name="is_stackable" val="true" />
 		<set name="is_questitem" val="true" />
 	</item>
-	<item id="2871" type="EtcItem" name="Paint of Teleport Device">
+	<item id="2871" type="EtcItem" name="傳送裝置的圖畫">
 		<set name="icon" val="icon.etc_recipe_blue_i00" />
 		<set name="immediate_effect" val="1" />
 		<set name="material" val="steel" />
@@ -792,7 +792,7 @@
 		<set name="is_stackable" val="true" />
 		<set name="is_questitem" val="true" />
 	</item>
-	<item id="2872" type="EtcItem" name="Teleport Device">
+	<item id="2872" type="EtcItem" name="傳送裝置">
 		<set name="icon" val="icon.etc_squares_gray_i00" />
 		<set name="immediate_effect" val="1" />
 		<set name="material" val="steel" />
@@ -804,7 +804,7 @@
 		<set name="is_stackable" val="true" />
 		<set name="is_questitem" val="true" />
 	</item>
-	<item id="2873" type="EtcItem" name="Architecture of Cruma">
+	<item id="2873" type="EtcItem" name="克魯瑪建築學">
 		<set name="icon" val="icon.etc_scroll_white_i00" />
 		<set name="immediate_effect" val="1" />
 		<set name="material" val="steel" />
@@ -815,7 +815,7 @@
 		<set name="is_stackable" val="true" />
 		<set name="is_questitem" val="true" />
 	</item>
-	<item id="2874" type="EtcItem" name="Report of Cruma">
+	<item id="2874" type="EtcItem" name="克魯瑪報告書">
 		<set name="icon" val="icon.etc_scroll_gray_i00" />
 		<set name="immediate_effect" val="1" />
 		<set name="material" val="steel" />
@@ -826,7 +826,7 @@
 		<set name="is_stackable" val="true" />
 		<set name="is_questitem" val="true" />
 	</item>
-	<item id="2875" type="EtcItem" name="Ingredients of Antidote">
+	<item id="2875" type="EtcItem" name="解毒藥材料清單">
 		<set name="icon" val="icon.etc_piece_of_paper_gray_i00" />
 		<set name="immediate_effect" val="1" />
 		<set name="material" val="steel" />
@@ -837,7 +837,7 @@
 		<set name="is_stackable" val="true" />
 		<set name="is_questitem" val="true" />
 	</item>
-	<item id="2876" type="EtcItem" name="Stinger Wasp Needle">
+	<item id="2876" type="EtcItem" name="奇異的蜜蜂之毒針">
 		<set name="icon" val="icon.etc_horn_i00" />
 		<set name="immediate_effect" val="1" />
 		<set name="material" val="steel" />
@@ -848,7 +848,7 @@
 		<set name="is_stackable" val="true" />
 		<set name="is_questitem" val="true" />
 	</item>
-	<item id="2877" type="EtcItem" name="Marsh Spider's Web">
+	<item id="2877" type="EtcItem" name="沼澤蜘蛛的蜘蛛網">
 		<set name="icon" val="icon.etc_skein_white_i00" />
 		<set name="immediate_effect" val="1" />
 		<set name="material" val="steel" />
@@ -859,7 +859,7 @@
 		<set name="is_stackable" val="true" />
 		<set name="is_questitem" val="true" />
 	</item>
-	<item id="2878" type="EtcItem" name="Blood of Leech">
+	<item id="2878" type="EtcItem" name="水蛭之血">
 		<set name="icon" val="icon.etc_reagent_red_i00" />
 		<set name="immediate_effect" val="1" />
 		<set name="material" val="steel" />
@@ -870,7 +870,7 @@
 		<set name="is_stackable" val="true" />
 		<set name="is_questitem" val="true" />
 	</item>
-	<item id="2879" type="EtcItem" name="Mark of Warspirit">
+	<item id="2879" type="EtcItem" name="戰爭靈標章">
 		<set name="icon" val="icon.etc_jewel_red_i00" />
 		<set name="immediate_effect" val="1" />
 		<set name="material" val="steel" />
@@ -881,7 +881,7 @@
 		<set name="is_stackable" val="true" />
 		<set name="is_questitem" val="true" />
 	</item>
-	<item id="2880" type="EtcItem" name="Vendetta Totem">
+	<item id="2880" type="EtcItem" name="報酬的圖騰">
 		<set name="icon" val="icon.etc_orcish_talisman_i00" />
 		<set name="immediate_effect" val="1" />
 		<set name="material" val="steel" />
@@ -892,7 +892,7 @@
 		<set name="is_stackable" val="true" />
 		<set name="is_questitem" val="true" />
 	</item>
-	<item id="2881" type="EtcItem" name="Tamlin Orc Head">
+	<item id="2881" type="EtcItem" name="塔林獸人之頭">
 		<set name="icon" val="icon.etc_pouch_brown_i00" />
 		<set name="immediate_effect" val="1" />
 		<set name="material" val="steel" />
@@ -903,7 +903,7 @@
 		<set name="is_stackable" val="true" />
 		<set name="is_questitem" val="true" />
 	</item>
-	<item id="2882" type="EtcItem" name="Warspirit Totem">
+	<item id="2882" type="EtcItem" name="戰爭靈的圖騰">
 		<set name="icon" val="icon.accessary_another_worlds_necklace_i00" />
 		<set name="immediate_effect" val="1" />
 		<set name="material" val="steel" />
@@ -914,7 +914,7 @@
 		<set name="is_stackable" val="true" />
 		<set name="is_questitem" val="true" />
 	</item>
-	<item id="2883" type="EtcItem" name="Orim's Contract">
+	<item id="2883" type="EtcItem" name="奧瑞米的合約書">
 		<set name="icon" val="icon.etc_scroll_gray_i00" />
 		<set name="immediate_effect" val="1" />
 		<set name="material" val="steel" />
@@ -925,7 +925,7 @@
 		<set name="is_stackable" val="true" />
 		<set name="is_questitem" val="true" />
 	</item>
-	<item id="2884" type="EtcItem" name="Porta's Eye">
+	<item id="2884" type="EtcItem" name="破塔的眼">
 		<set name="icon" val="icon.etc_eyeball_i00" />
 		<set name="immediate_effect" val="1" />
 		<set name="material" val="steel" />
@@ -936,7 +936,7 @@
 		<set name="is_stackable" val="true" />
 		<set name="is_questitem" val="true" />
 	</item>
-	<item id="2885" type="EtcItem" name="Excuro's Scale">
+	<item id="2885" type="EtcItem" name="艾斯庫洛之鱗">
 		<set name="icon" val="icon.etc_parasite_i00" />
 		<set name="immediate_effect" val="1" />
 		<set name="material" val="steel" />
@@ -947,7 +947,7 @@
 		<set name="is_stackable" val="true" />
 		<set name="is_questitem" val="true" />
 	</item>
-	<item id="2886" type="EtcItem" name="Mordeos Talon">
+	<item id="2886" type="EtcItem" name="莫狄奧之爪">
 		<set name="icon" val="icon.etc_claw_i00" />
 		<set name="immediate_effect" val="1" />
 		<set name="material" val="steel" />
@@ -958,7 +958,7 @@
 		<set name="is_stackable" val="true" />
 		<set name="is_questitem" val="true" />
 	</item>
-	<item id="2887" type="EtcItem" name="Braki's Remains">
+	<item id="2887" type="EtcItem" name="布拉齊的遺骨">
 		<set name="icon" val="icon.etc_ashes_black_i00" />
 		<set name="immediate_effect" val="1" />
 		<set name="material" val="steel" />
@@ -969,7 +969,7 @@
 		<set name="is_stackable" val="true" />
 		<set name="is_questitem" val="true" />
 	</item>
-	<item id="2888" type="EtcItem" name="Pekiron's Totem">
+	<item id="2888" type="EtcItem" name="佩克隆的圖騰">
 		<set name="icon" val="icon.etc_totem_black_i00" />
 		<set name="immediate_effect" val="1" />
 		<set name="material" val="steel" />
@@ -980,7 +980,7 @@
 		<set name="is_stackable" val="true" />
 		<set name="is_questitem" val="true" />
 	</item>
-	<item id="2889" type="EtcItem" name="Tonar's Skull">
+	<item id="2889" type="EtcItem" name="托那努依的頭骨">
 		<set name="icon" val="icon.etc_skull_black_i00" />
 		<set name="immediate_effect" val="1" />
 		<set name="material" val="steel" />
@@ -991,7 +991,7 @@
 		<set name="is_stackable" val="true" />
 		<set name="is_questitem" val="true" />
 	</item>
-	<item id="2890" type="EtcItem" name="Tonar's Rib Bone">
+	<item id="2890" type="EtcItem" name="托那努依的肋骨">
 		<set name="icon" val="icon.etc_rib_black_i00" />
 		<set name="immediate_effect" val="1" />
 		<set name="material" val="steel" />
@@ -1002,7 +1002,7 @@
 		<set name="is_stackable" val="true" />
 		<set name="is_questitem" val="true" />
 	</item>
-	<item id="2891" type="EtcItem" name="Tonar's Spine">
+	<item id="2891" type="EtcItem" name="托那努依的脊骨">
 		<set name="icon" val="icon.etc_ginseng_gray_i00" />
 		<set name="immediate_effect" val="1" />
 		<set name="material" val="steel" />
@@ -1013,7 +1013,7 @@
 		<set name="is_stackable" val="true" />
 		<set name="is_questitem" val="true" />
 	</item>
-	<item id="2892" type="EtcItem" name="Tonar's Arm Bone">
+	<item id="2892" type="EtcItem" name="托那努依的臂骨">
 		<set name="icon" val="icon.etc_piece_bone_black_i00" />
 		<set name="immediate_effect" val="1" />
 		<set name="material" val="steel" />
@@ -1024,7 +1024,7 @@
 		<set name="is_stackable" val="true" />
 		<set name="is_questitem" val="true" />
 	</item>
-	<item id="2893" type="EtcItem" name="Tonar's Thigh Bone">
+	<item id="2893" type="EtcItem" name="托那努依的大腿骨">
 		<set name="icon" val="icon.etc_piece_bone_black_i00" />
 		<set name="immediate_effect" val="1" />
 		<set name="material" val="steel" />
@@ -1035,7 +1035,7 @@
 		<set name="is_stackable" val="true" />
 		<set name="is_questitem" val="true" />
 	</item>
-	<item id="2894" type="EtcItem" name="Tonar's Remains">
+	<item id="2894" type="EtcItem" name="托那努依的遺骨">
 		<set name="icon" val="icon.etc_ashes_black_i00" />
 		<set name="immediate_effect" val="1" />
 		<set name="material" val="steel" />
@@ -1046,7 +1046,7 @@
 		<set name="is_stackable" val="true" />
 		<set name="is_questitem" val="true" />
 	</item>
-	<item id="2895" type="EtcItem" name="Manakia's Totem">
+	<item id="2895" type="EtcItem" name="瑪拉其亞的圖騰">
 		<set name="icon" val="icon.etc_totem_green_i00" />
 		<set name="immediate_effect" val="1" />
 		<set name="material" val="steel" />
@@ -1057,7 +1057,7 @@
 		<set name="is_stackable" val="true" />
 		<set name="is_questitem" val="true" />
 	</item>
-	<item id="2896" type="EtcItem" name="Hermodt's Skull">
+	<item id="2896" type="EtcItem" name="火努摩特的頭骨">
 		<set name="icon" val="icon.etc_skull_red_i00" />
 		<set name="immediate_effect" val="1" />
 		<set name="material" val="steel" />
@@ -1068,7 +1068,7 @@
 		<set name="is_stackable" val="true" />
 		<set name="is_questitem" val="true" />
 	</item>
-	<item id="2897" type="EtcItem" name="Hermodt's Rib Bone">
+	<item id="2897" type="EtcItem" name="火努摩特的肋骨">
 		<set name="icon" val="icon.etc_rib_red_i00" />
 		<set name="immediate_effect" val="1" />
 		<set name="material" val="steel" />
@@ -1079,7 +1079,7 @@
 		<set name="is_stackable" val="true" />
 		<set name="is_questitem" val="true" />
 	</item>
-	<item id="2898" type="EtcItem" name="Hermodt's Spine">
+	<item id="2898" type="EtcItem" name="火努摩特的脊骨">
 		<set name="icon" val="icon.etc_ginseng_red_i00" />
 		<set name="immediate_effect" val="1" />
 		<set name="material" val="steel" />
@@ -1090,7 +1090,7 @@
 		<set name="is_stackable" val="true" />
 		<set name="is_questitem" val="true" />
 	</item>
-	<item id="2899" type="EtcItem" name="Hermodt's Arm Bone">
+	<item id="2899" type="EtcItem" name="火努摩特的臂骨">
 		<set name="icon" val="icon.etc_piece_bone_red_i00" />
 		<set name="immediate_effect" val="1" />
 		<set name="material" val="steel" />
