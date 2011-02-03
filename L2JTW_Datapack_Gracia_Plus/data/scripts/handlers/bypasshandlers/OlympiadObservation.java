@@ -111,8 +111,8 @@ public class OlympiadObservation implements IBypassHandler
 							StringUtil.append(list,
 									"<a action=\"bypass -h npc_%objectId%_arenachange ",
 									String.valueOf(i),
-									"\">Arena ",
-									String.valueOf(i + 1),
+									"\">²Ä",
+									String.valueOf(i + 1) + "Äv§Þ³õ",
 									"&nbsp;&nbsp;&nbsp;");
 
 							if (task.isGameStarted())
@@ -142,7 +142,7 @@ public class OlympiadObservation implements IBypassHandler
 				}
 				else
 				{
-					message.setFile(activeChar.getHtmlPrefix(), Olympiad.OLYMPIAD_HTML_PATH + "olympiad_arena_observe_list.htm");					
+					message.setFile(activeChar.getHtmlPrefix(), Olympiad.OLYMPIAD_HTML_PATH + "olympiad_arena_observe_list.htm");
 					for (int i = firstArena; i <= lastArena; i++)
 					{
 						task = OlympiadGameManager.getInstance().getOlympiadTask(i);
