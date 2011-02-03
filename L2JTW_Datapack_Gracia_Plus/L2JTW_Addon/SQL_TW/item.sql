@@ -18093,7 +18093,7 @@ INSERT INTO `item_name` VALUES
 (22170, '小妖精觸角', ''),
 (22171, '吟遊詩人帽', ''),
 (22172, '工匠的護目鏡', '');
-Update `armor`, `item_name` SET `armor`.`name`=`item_name`.`name`, `armor`.`additionalname`=`item_name`.`additionalname` WHERE `armor`.`item_id`=`item_name`.`item_id`;
-Update `etcitem`, `item_name` SET `etcitem`.`name`=`item_name`.`name`, `etcitem`.`additionalname`=`item_name`.`additionalname` WHERE `etcitem`.`item_id`=`item_name`.`item_id`;
-Update `weapon`, `item_name` SET `weapon`.`name`=`item_name`.`name`, `weapon`.`additionalname`=`item_name`.`additionalname` WHERE `weapon`.`item_id`=`item_name`.`item_id`;
+-- Update `armor`, `item_name` SET `armor`.`name`=`item_name`.`name`, `armor`.`additionalname`=`item_name`.`additionalname` WHERE `armor`.`item_id`=`item_name`.`item_id`;
+-- Update `etcitem`, `item_name` SET `etcitem`.`name`=`item_name`.`name`, `etcitem`.`additionalname`=`item_name`.`additionalname` WHERE `etcitem`.`item_id`=`item_name`.`item_id`;
+-- Update `weapon`, `item_name` SET `weapon`.`name`=`item_name`.`name`, `weapon`.`additionalname`=`item_name`.`additionalname` WHERE `weapon`.`item_id`=`item_name`.`item_id`;
 DROP TABLE IF EXISTS `item_name`;
