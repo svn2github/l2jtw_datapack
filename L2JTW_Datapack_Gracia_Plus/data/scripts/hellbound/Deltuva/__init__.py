@@ -29,6 +29,9 @@ class Quest (JQuest) :
 				else :
 					htmltext = "<html><body>道爾土巴：<br>看來你們還沒有進去過鋼鐵之城喔。因為太過危險，所以無法讓你們進去。</body></html>"
 					st.exitQuest(1)
+			else :
+				htmltext = "<html><body>道爾土巴：<br>看來你們還沒有進去過鋼鐵之城喔。因為太過危險，所以無法讓你們進去。</body></html>"
+				st.exitQuest(1)
 		return htmltext
 
 QUEST = Quest(-1, qn, "hellbound")
