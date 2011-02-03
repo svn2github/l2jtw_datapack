@@ -1,97 +1,97 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <list>
-	<skill id="9100" levels="1" name="Vesper Weapon Box">
+	<skill id="9100" levels="1" name="薄暮武器禮盒">
 		<set name="target" val="TARGET_NONE" />
 		<set name="skillType" val="NOTDONE" />
 		<set name="operateType" val="OP_PASSIVE" />
 		<set name="reuseDelay" val="2000" />
 		<set name="staticReuse" val="true" />
 	</skill>
-	<skill id="9101" levels="1" name="Icarus Weapon Box">
+	<skill id="9101" levels="1" name="伊克魯斯武器禮盒">
 		<set name="target" val="TARGET_NONE" />
 		<set name="skillType" val="NOTDONE" />
 		<set name="operateType" val="OP_PASSIVE" />
 		<set name="reuseDelay" val="2000" />
 		<set name="staticReuse" val="true" />
 	</skill>
-	<skill id="9102" levels="1" name="Dynasty Weapon Box">
+	<skill id="9102" levels="1" name="王朝武器禮盒">
 		<set name="target" val="TARGET_NONE" />
 		<set name="skillType" val="NOTDONE" />
 		<set name="operateType" val="OP_PASSIVE" />
 		<set name="reuseDelay" val="2000" />
 		<set name="staticReuse" val="true" />
 	</skill>
-	<skill id="9103" levels="1" name="Box of Vesper Armor">
+	<skill id="9103" levels="1" name="薄暮防具禮盒">
 		<set name="target" val="TARGET_NONE" />
 		<set name="skillType" val="NOTDONE" />
 		<set name="operateType" val="OP_PASSIVE" />
 		<set name="reuseDelay" val="2000" />
 		<set name="staticReuse" val="true" />
 	</skill>
-	<skill id="9104" levels="1" name="Box of Moirai Armor">
+	<skill id="9104" levels="1" name="天命防具禮盒">
 		<set name="target" val="TARGET_NONE" />
 		<set name="skillType" val="NOTDONE" />
 		<set name="operateType" val="OP_PASSIVE" />
 		<set name="reuseDelay" val="2000" />
 		<set name="staticReuse" val="true" />
 	</skill>
-	<skill id="9105" levels="1" name="Box of Dynasty Armor">
+	<skill id="9105" levels="1" name="王朝防具禮盒">
 		<set name="target" val="TARGET_NONE" />
 		<set name="skillType" val="NOTDONE" />
 		<set name="operateType" val="OP_PASSIVE" />
 		<set name="reuseDelay" val="2000" />
 		<set name="staticReuse" val="true" />
 	</skill>
-	<skill id="9106" levels="1" name="Soul Crystal Box - Level 14">
+	<skill id="9106" levels="1" name="搜魂石-階段14禮盒">
 		<set name="target" val="TARGET_NONE" />
 		<set name="skillType" val="NOTDONE" />
 		<set name="operateType" val="OP_PASSIVE" />
 		<set name="reuseDelay" val="2000" />
 		<set name="staticReuse" val="true" />
 	</skill>
-	<skill id="9107" levels="1" name="Soul Crystal Box - Level 15">
+	<skill id="9107" levels="1" name="搜魂石-階段15禮盒">
 		<set name="target" val="TARGET_NONE" />
 		<set name="skillType" val="NOTDONE" />
 		<set name="operateType" val="OP_PASSIVE" />
 		<set name="reuseDelay" val="2000" />
 		<set name="staticReuse" val="true" />
 	</skill>
-	<skill id="9108" levels="1" name="Soul Crystal Box - Level 16">
+	<skill id="9108" levels="1" name="搜魂石-階段16禮盒">
 		<set name="target" val="TARGET_NONE" />
 		<set name="skillType" val="NOTDONE" />
 		<set name="operateType" val="OP_PASSIVE" />
 		<set name="reuseDelay" val="2000" />
 		<set name="staticReuse" val="true" />
 	</skill>
-	<skill id="9109" levels="1" name="Box of Facelift Potions">
+	<skill id="9109" levels="1" name="整形藥水禮盒">
 		<set name="target" val="TARGET_NONE" />
 		<set name="skillType" val="NOTDONE" />
 		<set name="operateType" val="OP_PASSIVE" />
 		<set name="reuseDelay" val="2000" />
 		<set name="staticReuse" val="true" />
 	</skill>
-	<skill id="9110" levels="1" name="Box of Haircolor Change Potions">
+	<skill id="9110" levels="1" name="染髮藥水禮盒">
 		<set name="target" val="TARGET_NONE" />
 		<set name="skillType" val="NOTDONE" />
 		<set name="operateType" val="OP_PASSIVE" />
 		<set name="reuseDelay" val="2000" />
 		<set name="staticReuse" val="true" />
 	</skill>
-	<skill id="9111" levels="1" name="Box of Hairstyle Change Potions">
+	<skill id="9111" levels="1" name="造型藥水禮盒">
 		<set name="target" val="TARGET_NONE" />
 		<set name="skillType" val="NOTDONE" />
 		<set name="operateType" val="OP_PASSIVE" />
 		<set name="reuseDelay" val="2000" />
 		<set name="staticReuse" val="true" />
 	</skill>
-	<skill id="9112" levels="1" name="Box of Gold Apiga">
+	<skill id="9112" levels="1" name="黃金豬豬幣禮盒">
 		<set name="target" val="TARGET_NONE" />
 		<set name="skillType" val="NOTDONE" />
 		<set name="operateType" val="OP_PASSIVE" />
 		<set name="reuseDelay" val="2000" />
 		<set name="staticReuse" val="true" />
 	</skill>
-	<skill id="9113" levels="1" name="Vitality Potion">
+	<skill id="9113" levels="1" name="活力維持藥水">
 		<!-- Maintains the current Vitality for 10 minutes. -->
 		<set name="target" val="TARGET_NONE" />
 		<set name="skillType" val="NOTDONE" />
@@ -99,7 +99,7 @@
 		<set name="reuseDelay" val="1800000" />
 		<set name="staticReuse" val="true" />
 	</skill>
-	<skill id="9114" levels="1" name="Nevit's Voice">
+	<skill id="9114" levels="1" name="奈比特之聲">
 		<set name="itemConsumeCount" val="1" />
 		<set name="target" val="TARGET_SELF" />
 		<set name="skillType" val="GIVE_RECO" />
@@ -110,252 +110,252 @@
 		<set name="reuseDelay" val="2000" />
 		<set name="staticReuse" val="true" />
 	</skill>
-	<skill id="9115" levels="1" name="Nevit's Hourglass - 1 hour">
+	<skill id="9115" levels="1" name="奈比特沙漏-1小時">
 		<!-- Increases Nevit's blessing by 1 hour. -->
 		<set name="target" val="TARGET_NONE" />
 		<set name="skillType" val="NOTDONE" />
 		<set name="operateType" val="OP_PASSIVE" />
 		<set name="staticReuse" val="true" />
 	</skill>
-	<skill id="9116" levels="1" name="Nevit's Hourglass - 1.5 hour">
+	<skill id="9116" levels="1" name="奈比特沙漏-1.5小時">
 		<!-- Increases Nevit's blessing by 1.5 hour. -->
 		<set name="target" val="TARGET_NONE" />
 		<set name="skillType" val="NOTDONE" />
 		<set name="operateType" val="OP_PASSIVE" />
 		<set name="staticReuse" val="true" />
 	</skill>
-	<skill id="9117" levels="1" name="Nevit's Hourglass - 2 hour">
+	<skill id="9117" levels="1" name="奈比特沙漏-2小時">
 		<!-- Increases Nevit's blessing by 2 hour. -->
 		<set name="target" val="TARGET_NONE" />
 		<set name="skillType" val="NOTDONE" />
 		<set name="operateType" val="OP_PASSIVE" />
 		<set name="staticReuse" val="true" />
 	</skill>
-	<skill id="9118" levels="1" name="Nevit's Hourglass - 2.5 hour">
+	<skill id="9118" levels="1" name="奈比特沙漏-2.5小時">
 		<!-- Increases Nevit's blessing by 2.5 hour. -->
 		<set name="target" val="TARGET_NONE" />
 		<set name="skillType" val="NOTDONE" />
 		<set name="operateType" val="OP_PASSIVE" />
 		<set name="staticReuse" val="true" />
 	</skill>
-	<skill id="9119" levels="1" name="Nevit's Hourglass - 3 hour">
+	<skill id="9119" levels="1" name="奈比特沙漏-3小時">
 		<!-- Increases Nevit's blessing by 3 hour. -->
 		<set name="target" val="TARGET_NONE" />
 		<set name="skillType" val="NOTDONE" />
 		<set name="operateType" val="OP_PASSIVE" />
 		<set name="staticReuse" val="true" />
 	</skill>
-	<skill id="9120" levels="1" name="Nevit's Hourglass - 1 hour">
+	<skill id="9120" levels="1" name="奈比特沙漏-1小時">
 		<!-- Increases Nevit's blessing by 1 hour. -->
 		<set name="target" val="TARGET_NONE" />
 		<set name="skillType" val="NOTDONE" />
 		<set name="operateType" val="OP_PASSIVE" />
 		<set name="staticReuse" val="true" />
 	</skill>
-	<skill id="9121" levels="1" name="Nevit's Hourglass - 1.5 hour">
+	<skill id="9121" levels="1" name="奈比特沙漏-1.5小時">
 		<!-- Increases Nevit's blessing by 1.5 hour. -->
 		<set name="target" val="TARGET_NONE" />
 		<set name="skillType" val="NOTDONE" />
 		<set name="operateType" val="OP_PASSIVE" />
 		<set name="staticReuse" val="true" />
 	</skill>
-	<skill id="9122" levels="1" name="Nevit's Hourglass - 2 hour">
+	<skill id="9122" levels="1" name="奈比特沙漏-2小時">
 		<!-- Increases Nevit's blessing by 2 hour. -->
 		<set name="target" val="TARGET_NONE" />
 		<set name="skillType" val="NOTDONE" />
 		<set name="operateType" val="OP_PASSIVE" />
 		<set name="staticReuse" val="true" />
 	</skill>
-	<skill id="9123" levels="1" name="Nevit's Hourglass - 2.5 hour">
+	<skill id="9123" levels="1" name="奈比特沙漏-2.5小時">
 		<!-- Increases Nevit's blessing by 2.5 hour. -->
 		<set name="target" val="TARGET_NONE" />
 		<set name="skillType" val="NOTDONE" />
 		<set name="operateType" val="OP_PASSIVE" />
 		<set name="staticReuse" val="true" />
 	</skill>
-	<skill id="9124" levels="1" name="Nevit's Hourglass - 3 hour">
+	<skill id="9124" levels="1" name="奈比特沙漏-3小時">
 		<!-- Increases Nevit's blessing by 3 hour. -->
 		<set name="target" val="TARGET_NONE" />
 		<set name="skillType" val="NOTDONE" />
 		<set name="operateType" val="OP_PASSIVE" />
 		<set name="staticReuse" val="true" />
 	</skill>
-	<skill id="9125" levels="1" name="Nevit's Hourglass - 1 hour">
+	<skill id="9125" levels="1" name="奈比特沙漏-1小時">
 		<!-- Increases Nevit's blessing by 1 hour. -->
 		<set name="target" val="TARGET_NONE" />
 		<set name="skillType" val="NOTDONE" />
 		<set name="operateType" val="OP_PASSIVE" />
 		<set name="staticReuse" val="true" />
 	</skill>
-	<skill id="9126" levels="1" name="Nevit's Hourglass - 1.5 hour">
+	<skill id="9126" levels="1" name="奈比特沙漏-1.5小時">
 		<!-- Increases Nevit's blessing by 1.5 hour. -->
 		<set name="target" val="TARGET_NONE" />
 		<set name="skillType" val="NOTDONE" />
 		<set name="operateType" val="OP_PASSIVE" />
 		<set name="staticReuse" val="true" />
 	</skill>
-	<skill id="9127" levels="1" name="Nevit's Hourglass - 2 hour">
+	<skill id="9127" levels="1" name="奈比特沙漏-2小時">
 		<!-- Increases Nevit's blessing by 2 hour. -->
 		<set name="target" val="TARGET_NONE" />
 		<set name="skillType" val="NOTDONE" />
 		<set name="operateType" val="OP_PASSIVE" />
 		<set name="staticReuse" val="true" />
 	</skill>
-	<skill id="9128" levels="1" name="Nevit's Hourglass - 2.5 hour">
+	<skill id="9128" levels="1" name="奈比特沙漏-2.5小時">
 		<!-- Increases Nevit's blessing by 2.5 hour. -->
 		<set name="target" val="TARGET_NONE" />
 		<set name="skillType" val="NOTDONE" />
 		<set name="operateType" val="OP_PASSIVE" />
 		<set name="staticReuse" val="true" />
 	</skill>
-	<skill id="9129" levels="1" name="Nevit's Hourglass - 3 hour">
+	<skill id="9129" levels="1" name="奈比特沙漏-3小時">
 		<!-- Increases Nevit's blessing by 3 hour. -->
 		<set name="target" val="TARGET_NONE" />
 		<set name="skillType" val="NOTDONE" />
 		<set name="operateType" val="OP_PASSIVE" />
 		<set name="staticReuse" val="true" />
 	</skill>
-	<skill id="9130" levels="1" name="Nevit's Hourglass - 1 hour">
+	<skill id="9130" levels="1" name="奈比特沙漏-1小時">
 		<!-- Increases Nevit's blessing by 1 hour. -->
 		<set name="target" val="TARGET_NONE" />
 		<set name="skillType" val="NOTDONE" />
 		<set name="operateType" val="OP_PASSIVE" />
 		<set name="staticReuse" val="true" />
 	</skill>
-	<skill id="9131" levels="1" name="Nevit's Hourglass - 1.5 hour">
+	<skill id="9131" levels="1" name="奈比特沙漏-1.5小時">
 		<!-- Increases Nevit's blessing by 1.5 hour. -->
 		<set name="target" val="TARGET_NONE" />
 		<set name="skillType" val="NOTDONE" />
 		<set name="operateType" val="OP_PASSIVE" />
 		<set name="staticReuse" val="true" />
 	</skill>
-	<skill id="9132" levels="1" name="Nevit's Hourglass - 2 hour">
+	<skill id="9132" levels="1" name="奈比特沙漏-2小時">
 		<!-- Increases Nevit's blessing by 2 hour. -->
 		<set name="target" val="TARGET_NONE" />
 		<set name="skillType" val="NOTDONE" />
 		<set name="operateType" val="OP_PASSIVE" />
 		<set name="staticReuse" val="true" />
 	</skill>
-	<skill id="9133" levels="1" name="Nevit's Hourglass - 2.5 hour">
+	<skill id="9133" levels="1" name="奈比特沙漏-2.5小時">
 		<!-- Increases Nevit's blessing by 2.5 hour. -->
 		<set name="target" val="TARGET_NONE" />
 		<set name="skillType" val="NOTDONE" />
 		<set name="operateType" val="OP_PASSIVE" />
 		<set name="staticReuse" val="true" />
 	</skill>
-	<skill id="9134" levels="1" name="Nevit's Hourglass - 3 hour">
+	<skill id="9134" levels="1" name="奈比特沙漏-3小時">
 		<!-- Increases Nevit's blessing by 3 hour. -->
 		<set name="target" val="TARGET_NONE" />
 		<set name="skillType" val="NOTDONE" />
 		<set name="operateType" val="OP_PASSIVE" />
 		<set name="staticReuse" val="true" />
 	</skill>
-	<skill id="9135" levels="1" name="Nevit's Hourglass - 1 hour">
+	<skill id="9135" levels="1" name="奈比特沙漏-1小時">
 		<!-- Increases Nevit's blessing by 1 hour. -->
 		<set name="target" val="TARGET_NONE" />
 		<set name="skillType" val="NOTDONE" />
 		<set name="operateType" val="OP_PASSIVE" />
 		<set name="staticReuse" val="true" />
 	</skill>
-	<skill id="9136" levels="1" name="Nevit's Hourglass - 1.5 hour">
+	<skill id="9136" levels="1" name="奈比特沙漏-1.5小時">
 		<!-- Increases Nevit's blessing by 1.5 hour. -->
 		<set name="target" val="TARGET_NONE" />
 		<set name="skillType" val="NOTDONE" />
 		<set name="operateType" val="OP_PASSIVE" />
 		<set name="staticReuse" val="true" />
 	</skill>
-	<skill id="9137" levels="1" name="Nevit's Hourglass - 2 hour">
+	<skill id="9137" levels="1" name="奈比特沙漏-2小時">
 		<!-- Increases Nevit's blessing by 2 hour. -->
 		<set name="target" val="TARGET_NONE" />
 		<set name="skillType" val="NOTDONE" />
 		<set name="operateType" val="OP_PASSIVE" />
 		<set name="staticReuse" val="true" />
 	</skill>
-	<skill id="9138" levels="1" name="Nevit's Hourglass - 2.5 hour">
+	<skill id="9138" levels="1" name="奈比特沙漏-2.5小時">
 		<!-- Increases Nevit's blessing by 2.5 hour. -->
 		<set name="target" val="TARGET_NONE" />
 		<set name="skillType" val="NOTDONE" />
 		<set name="operateType" val="OP_PASSIVE" />
 		<set name="staticReuse" val="true" />
 	</skill>
-	<skill id="9139" levels="1" name="Nevit's Hourglass - 3 hour">
+	<skill id="9139" levels="1" name="奈比特沙漏-3小時">
 		<!-- Increases Nevit's blessing by 3 hour. -->
 		<set name="target" val="TARGET_NONE" />
 		<set name="skillType" val="NOTDONE" />
 		<set name="operateType" val="OP_PASSIVE" />
 		<set name="staticReuse" val="true" />
 	</skill>
-	<skill id="9140" levels="1" name="Nevit's Hourglass - 1 hour">
+	<skill id="9140" levels="1" name="奈比特沙漏-1小時">
 		<!-- Increases Nevit's blessing by 1 hour. -->
 		<set name="target" val="TARGET_NONE" />
 		<set name="skillType" val="NOTDONE" />
 		<set name="operateType" val="OP_PASSIVE" />
 		<set name="staticReuse" val="true" />
 	</skill>
-	<skill id="9141" levels="1" name="Nevit's Hourglass - 1.5 hour">
+	<skill id="9141" levels="1" name="奈比特沙漏-1.5小時">
 		<!-- Increases Nevit's blessing by 1.5 hour. -->
 		<set name="target" val="TARGET_NONE" />
 		<set name="skillType" val="NOTDONE" />
 		<set name="operateType" val="OP_PASSIVE" />
 		<set name="staticReuse" val="true" />
 	</skill>
-	<skill id="9142" levels="1" name="Nevit's Hourglass - 2 hour">
+	<skill id="9142" levels="1" name="奈比特沙漏-2小時">
 		<!-- Increases Nevit's blessing by 2 hour. -->
 		<set name="target" val="TARGET_NONE" />
 		<set name="skillType" val="NOTDONE" />
 		<set name="operateType" val="OP_PASSIVE" />
 		<set name="staticReuse" val="true" />
 	</skill>
-	<skill id="9143" levels="1" name="Nevit's Hourglass - 2.5 hour">
+	<skill id="9143" levels="1" name="奈比特沙漏-2.5小時">
 		<!-- Increases Nevit's blessing by 2.5 hour. -->
 		<set name="target" val="TARGET_NONE" />
 		<set name="skillType" val="NOTDONE" />
 		<set name="operateType" val="OP_PASSIVE" />
 		<set name="staticReuse" val="true" />
 	</skill>
-	<skill id="9144" levels="1" name="Nevit's Hourglass - 3 hour">
+	<skill id="9144" levels="1" name="奈比特沙漏-3小時">
 		<!-- Increases Nevit's blessing by 3 hour. -->
 		<set name="target" val="TARGET_NONE" />
 		<set name="skillType" val="NOTDONE" />
 		<set name="operateType" val="OP_PASSIVE" />
 		<set name="staticReuse" val="true" />
 	</skill>
-	<skill id="9145" levels="1" name="Nevit's Hourglass - 1 hour">
+	<skill id="9145" levels="1" name="奈比特沙漏-1小時">
 		<!-- Increases Nevit's blessing by 1 hour. -->
 		<set name="target" val="TARGET_NONE" />
 		<set name="skillType" val="NOTDONE" />
 		<set name="operateType" val="OP_PASSIVE" />
 		<set name="staticReuse" val="true" />
 	</skill>
-	<skill id="9146" levels="1" name="Nevit's Hourglass - 1.5 hour">
+	<skill id="9146" levels="1" name="奈比特沙漏-1.5小時">
 		<!-- Increases Nevit's blessing by 1.5 hour. -->
 		<set name="target" val="TARGET_NONE" />
 		<set name="skillType" val="NOTDONE" />
 		<set name="operateType" val="OP_PASSIVE" />
 		<set name="staticReuse" val="true" />
 	</skill>
-	<skill id="9147" levels="1" name="Nevit's Hourglass - 2 hour">
+	<skill id="9147" levels="1" name="奈比特沙漏-2小時">
 		<!-- Increases Nevit's blessing by 2 hour. -->
 		<set name="target" val="TARGET_NONE" />
 		<set name="skillType" val="NOTDONE" />
 		<set name="operateType" val="OP_PASSIVE" />
 		<set name="staticReuse" val="true" />
 	</skill>
-	<skill id="9148" levels="1" name="Nevit's Hourglass - 2.5 hour">
+	<skill id="9148" levels="1" name="奈比特沙漏-2.5小時">
 		<!-- Increases Nevit's blessing by 2.5 hour. -->
 		<set name="target" val="TARGET_NONE" />
 		<set name="skillType" val="NOTDONE" />
 		<set name="operateType" val="OP_PASSIVE" />
 		<set name="staticReuse" val="true" />
 	</skill>
-	<skill id="9149" levels="1" name="Nevit's Hourglass - 3 hour">
+	<skill id="9149" levels="1" name="奈比特沙漏-3小時">
 		<!-- Increases Nevit's blessing by 3 hour. -->
 		<set name="target" val="TARGET_NONE" />
 		<set name="skillType" val="NOTDONE" />
 		<set name="operateType" val="OP_PASSIVE" />
 		<set name="staticReuse" val="true" />
 	</skill>
-	<skill id="9150" levels="1" name="Freesia Bouquet - Event">
+	<skill id="9150" levels="1" name="小蒼蘭花束-活動">
 		<set name="itemConsumeCount" val="1" />
 		<set name="target" val="TARGET_ONE" />
 		<set name="skillType" val="DUMMY" />
@@ -377,7 +377,7 @@
 			</not>
 		</cond>
 	</skill>
-	<skill id="9151" levels="1" name="Baby's Breath Bouquet - Event">
+	<skill id="9151" levels="1" name="滿天星花束-活動">
 		<set name="itemConsumeCount" val="1" />
 		<set name="target" val="TARGET_ONE" />
 		<set name="skillType" val="DUMMY" />
@@ -399,7 +399,7 @@
 			</not>
 		</cond>
 	</skill>
-	<skill id="9152" levels="1" name="Pink Lady - Event">
+	<skill id="9152" levels="1" name="粉紅佳人-活動">
 		<set name="itemConsumeCount" val="1" />
 		<set name="target" val="TARGET_ONE" />
 		<set name="skillType" val="DUMMY" />
@@ -421,7 +421,7 @@
 			</not>
 		</cond>
 	</skill>
-	<skill id="9153" levels="1" name="June Bug - Event">
+	<skill id="9153" levels="1" name="六月小蟲-活動">
 		<set name="itemConsumeCount" val="1" />
 		<set name="target" val="TARGET_ONE" />
 		<set name="skillType" val="DUMMY" />
@@ -443,7 +443,7 @@
 			</not>
 		</cond>
 	</skill>
-	<skill id="9154" levels="1" name="Soft Cheese Cake - Event">
+	<skill id="9154" levels="1" name="柔軟的起司蛋糕-活動">
 		<set name="itemConsumeCount" val="1" />
 		<set name="target" val="TARGET_ONE" />
 		<set name="skillType" val="DUMMY" />
@@ -465,7 +465,7 @@
 			</not>
 		</cond>
 	</skill>
-	<skill id="9155" levels="1" name="Freshly-Baked Baguette - Event">
+	<skill id="9155" levels="1" name="剛烤好的法國麵包-活動">
 		<set name="itemConsumeCount" val="1" />
 		<set name="target" val="TARGET_ONE" />
 		<set name="skillType" val="DUMMY" />
@@ -487,7 +487,7 @@
 			</not>
 		</cond>
 	</skill>
-	<skill id="9156" levels="1" name="Sweet Cream-filled Bread - Event">
+	<skill id="9156" levels="1" name="香甜的奶黃麵包-活動">
 		<set name="itemConsumeCount" val="1" />
 		<set name="target" val="TARGET_ONE" />
 		<set name="skillType" val="DUMMY" />
@@ -509,7 +509,7 @@
 			</not>
 		</cond>
 	</skill>
-	<skill id="9157" levels="1" name="White Day Candy - Event">
+	<skill id="9157" levels="1" name="白色情人節糖果-活動">
 		<set name="itemConsumeCount" val="1" />
 		<set name="target" val="TARGET_ONE" />
 		<set name="skillType" val="DUMMY" />
@@ -531,7 +531,7 @@
 			</not>
 		</cond>
 	</skill>
-	<skill id="9158" levels="1" name="Freya's Gift">
+	<skill id="9158" levels="1" name="芙蕾雅的禮物">
 		<set name="itemConsumeCount" val="1" />
 		<set name="target" val="TARGET_SELF" />
 		<set name="skillType" val="EXTRACTABLE" />
@@ -545,7 +545,7 @@
 			</and>
 		</cond>
 	</skill>
-	<skill id="9159" levels="1" name="Transformation Scroll - Anakim">
+	<skill id="9159" levels="1" name="變身卷軸-亞納">
 		<set name="itemConsumeCount" val="1" />
 		<set name="target" val="TARGET_SELF" />
 		<set name="skillType" val="BUFF" />
@@ -569,7 +569,7 @@
 			</effect>
 		</for>
 	</skill>
-	<skill id="9160" levels="1" name="Transformation Scroll - Zaken">
+	<skill id="9160" levels="1" name="變身卷軸-札肯">
 		<set name="itemConsumeCount" val="1" />
 		<set name="target" val="TARGET_SELF" />
 		<set name="skillType" val="BUFF" />
@@ -593,41 +593,41 @@
 			</effect>
 		</for>
 	</skill>
-	<skill id="9161" levels="1" name="Vesper's Mighty Power">
+	<skill id="9161" levels="1" name="薄暮怪力">
 		<!-- Increase Physical Attack by 15%, Magical Attack by 20%, and Moving Speed by 10 for 10 minutes. -->
 		<set name="target" val="TARGET_NONE" />
 		<set name="skillType" val="NOTDONE" />
 		<set name="operateType" val="OP_PASSIVE" />
 		<set name="reuseDelay" val="2000" />
 	</skill>
-	<skill id="9162" levels="1" name="Vesper's Critical Attack Power">
+	<skill id="9162" levels="1" name="薄暮致命">
 		<!-- Increase Physical Critical Attack Rate by 15, Magic Critical Attack Rate by 2, and Moving Speed by 10 for 10 minutes. Recovers 5% of the standard short-range physical damage inflicted on the enemy as HP. -->
 		<set name="target" val="TARGET_NONE" />
 		<set name="skillType" val="NOTDONE" />
 		<set name="operateType" val="OP_PASSIVE" />
 		<set name="reuseDelay" val="2000" />
 	</skill>
-	<skill id="9163" levels="1" name="Invincible Vesper">
+	<skill id="9163" levels="1" name="薄暮不敗">
 		<!-- Increase Max. Attack Speed by 20%, Magic Speed by 20%, and Moving Speed by 20 for 10 minutes. -->
 		<set name="target" val="TARGET_NONE" />
 		<set name="skillType" val="NOTDONE" />
 		<set name="operateType" val="OP_PASSIVE" />
 		<set name="reuseDelay" val="2000" />
 	</skill>
-	<skill id="9164" levels="1" name="Special Gift of April Fool's Day - Event">
+	<skill id="9164" levels="1" name="愚人節特別禮物-活動">
 		<set name="target" val="TARGET_NONE" />
 		<set name="skillType" val="NOTDONE" />
 		<set name="operateType" val="OP_PASSIVE" />
 		<set name="reuseDelay" val="2000" />
 		<set name="staticReuse" val="true" />
 	</skill>
-	<skill id="9165" levels="1" name="Energy of Sprout">
+	<skill id="9165" levels="1" name="幼苗的氣息">
 		<!-- For 1 hour, receives help from the Energy of Sprout to increase Max MP by 20%, MP recovery bonus by 20%, HP recovery bonus by 20%, the rate of Prominent Damage occurring through damage magic by 2, the power of critical attacks by 20%, P. Atk. by 10%, P. Def. by 20%, Atk. Spd. by 20%, M. Atk. by 20%, M. Def. by 20%, Casting Spd. by 20%, and resistance to de-buffs by 10%. Decreases moving speed by 20% and MP consumption needed for skill use by 5%. -->
 		<set name="target" val="TARGET_NONE" />
 		<set name="skillType" val="NOTDONE" />
 		<set name="operateType" val="OP_PASSIVE" />
 	</skill>
-	<skill id="9166" levels="1" name="Energy Replenishing Herb Tea">
+	<skill id="9166" levels="1" name="活力充能藥草茶">
 		<!-- Recovers energy upon acquiring Exp. points for 30 minutes. -->
 		<set name="target" val="TARGET_NONE" />
 		<set name="skillType" val="NOTDONE" />

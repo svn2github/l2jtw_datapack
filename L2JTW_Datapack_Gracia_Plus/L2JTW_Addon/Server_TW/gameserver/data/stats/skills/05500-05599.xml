@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <list>
-	<skill id="5500" levels="1" name="Black Dragon Claw">
+	<skill id="5500" levels="1" name="黑龍爪">
 		<!-- Confirmed CT2.5 -->
 		<!-- Darion Skills -->
 		<set name="castRange" val="40" />
@@ -23,7 +23,7 @@
 			<effect count="4" name="DamOverTime" time="5" val="260" abnormal="bleed" effectPower="90" effectType="BLEED" stackOrder="10" stackType="bleeding" />
 		</for>
 	</skill>
-	<skill id="5501" levels="1" name="Stuns">
+	<skill id="5501" levels="1" name="休克">
 		<!-- Confirmed CT2.5 -->
 		<!-- Darion Skills -->
 		<set name="castRange" val="40" />
@@ -43,7 +43,7 @@
 			<effect name="RemoveTarget" noicon="1" val="0" effectPower="80" />
 		</for>
 	</skill>
-	<skill id="5502" levels="1" name="Stuns">
+	<skill id="5502" levels="1" name="休克">
 		<!-- Confirmed CT2.5 -->
 		<!-- Darion Skills -->
 		<set name="hitTime" val="1500" />
@@ -61,7 +61,7 @@
 			<effect name="RemoveTarget" noicon="1" val="0" effectPower="80" />
 		</for>
 	</skill>
-	<skill id="5503" levels="1" name="Ultimate Guard">
+	<skill id="5503" levels="1" name="極限防護">
 		<!-- Confirmed CT2.5 -->
 		<!-- Darion Skills -->
 		<set name="aggroPoints" val="100" />
@@ -80,7 +80,7 @@
 			</effect>
 		</for>
 	</skill>
-	<skill id="5504" levels="1" name="Shield Defense">
+	<skill id="5504" levels="1" name="盾牌防禦">
 		<!-- Confirmed CT2.5 -->
 		<!-- Darion Skills -->
 		<set name="magicLvl" val="1" />
@@ -91,31 +91,31 @@
 			<mul order="0x30" stat="rShld" val="1.9" />
 		</for>
 	</skill>
-	<skill id="5505" levels="1" name="Fire Blossom">
+	<skill id="5505" levels="1" name="火之花">
 		<set name="target" val="TARGET_NONE" />
 		<set name="skillType" val="NOTDONE" />
 		<set name="operateType" val="OP_PASSIVE" />
 		<set name="hitTime" val="2500" />
 	</skill>
-	<skill id="5506" levels="1" name="Water Blossom">
+	<skill id="5506" levels="1" name="水之花">
 		<set name="target" val="TARGET_NONE" />
 		<set name="skillType" val="NOTDONE" />
 		<set name="operateType" val="OP_PASSIVE" />
 		<set name="hitTime" val="2500" />
 	</skill>
-	<skill id="5507" levels="1" name="Wind Blossom">
+	<skill id="5507" levels="1" name="風之花">
 		<set name="target" val="TARGET_NONE" />
 		<set name="skillType" val="NOTDONE" />
 		<set name="operateType" val="OP_PASSIVE" />
 		<set name="hitTime" val="2500" />
 	</skill>
-	<skill id="5508" levels="1" name="Earth Blossom">
+	<skill id="5508" levels="1" name="土之花">
 		<set name="target" val="TARGET_NONE" />
 		<set name="skillType" val="NOTDONE" />
 		<set name="operateType" val="OP_PASSIVE" />
 		<set name="hitTime" val="2500" />
 	</skill>
-	<skill id="5509" levels="1" name="Fire Power">
+	<skill id="5509" levels="1" name="火之蔓延">
 		<!-- Update by pmq -->
 		<set name="mpConsume" val="95" />
 		<set name="power" val="0" />
@@ -134,7 +134,7 @@
 			</effect>
 		</for>
 	</skill>
-	<skill id="5510" levels="1" name="Water Power">
+	<skill id="5510" levels="1" name="水之蔓延">
 		<!-- Update by pmq -->
 		<set name="mpConsume" val="95" />
 		<set name="power" val="0" />
@@ -153,7 +153,7 @@
 			</effect>
 		</for>
 	</skill>
-	<skill id="5511" levels="1" name="Wind Power">
+	<skill id="5511" levels="1" name="風之蔓延">
 		<!-- Update by pmq -->
 		<set name="mpConsume" val="95" />
 		<set name="power" val="0" />
@@ -172,7 +172,7 @@
 			</effect>
 		</for> 
 	</skill>
-	<skill id="5512" levels="1" name="Earth Power">
+	<skill id="5512" levels="1" name="土之蔓延">
 		<!-- Update by pmq -->
 		<set name="mpConsume" val="95" />
 		<set name="power" val="0" />
@@ -191,62 +191,62 @@
 			</effect>
 		</for> 
 	</skill>
-	<skill id="5513" levels="1" name="Fire Taint">
+	<skill id="5513" levels="1" name="火之感染">
 		<set name="target" val="TARGET_NONE" />
 		<set name="skillType" val="NOTDONE" />
 		<set name="operateType" val="OP_PASSIVE" />
 		<set name="hitTime" val="15000" />
 	</skill>
-	<skill id="5514" levels="1" name="Water Taint">
+	<skill id="5514" levels="1" name="水之感染">
 		<set name="target" val="TARGET_NONE" />
 		<set name="skillType" val="NOTDONE" />
 		<set name="operateType" val="OP_PASSIVE" />
 		<set name="hitTime" val="15000" />
 	</skill>
-	<skill id="5515" levels="1" name="Wind Taint">
+	<skill id="5515" levels="1" name="風之感染">
 		<set name="target" val="TARGET_NONE" />
 		<set name="skillType" val="NOTDONE" />
 		<set name="operateType" val="OP_PASSIVE" />
 		<set name="hitTime" val="15000" />
 	</skill>
-	<skill id="5516" levels="1" name="Earth Taint">
+	<skill id="5516" levels="1" name="土之感染">
 		<set name="target" val="TARGET_NONE" />
 		<set name="skillType" val="NOTDONE" />
 		<set name="operateType" val="OP_PASSIVE" />
 		<set name="hitTime" val="15000" />
 	</skill>
-	<skill id="5517" levels="1" name="Nurture">
+	<skill id="5517" levels="1" name="自然">
 		<set name="target" val="TARGET_NONE" />
 		<set name="skillType" val="NOTDONE" />
 		<set name="operateType" val="OP_PASSIVE" />
 	</skill>
-	<skill id="5518" levels="1" name="Last Stand">
+	<skill id="5518" levels="1" name="最終態勢">
 		<set name="target" val="TARGET_NONE" />
 		<set name="skillType" val="NOTDONE" />
 		<set name="operateType" val="OP_PASSIVE" />
 	</skill>
-	<skill id="5519" levels="1" name="Chain Buff - Power Up">
+	<skill id="5519" levels="1" name="連鎖輔助-力量上升">
 		<set name="target" val="TARGET_NONE" />
 		<set name="skillType" val="NOTDONE" />
 		<set name="operateType" val="OP_PASSIVE" />
 	</skill>
-	<skill id="5520" levels="1" name="Chain Buff - Vampiric Shield">
+	<skill id="5520" levels="1" name="連鎖輔助-吸血盾">
 		<set name="target" val="TARGET_NONE" />
 		<set name="skillType" val="NOTDONE" />
 		<set name="operateType" val="OP_PASSIVE" />
 	</skill>
-	<skill id="5521" levels="1" name="Chain Buff - Critical Sense">
+	<skill id="5521" levels="1" name="連鎖輔助-爆擊感識">
 		<set name="target" val="TARGET_NONE" />
 		<set name="skillType" val="NOTDONE" />
 		<set name="operateType" val="OP_PASSIVE" />
 	</skill>
-	<skill id="5522" levels="1" name="Chain Magic - Dark Explosion">
+	<skill id="5522" levels="1" name="連鎖魔法-黑暗爆裂">
 		<set name="target" val="TARGET_NONE" />
 		<set name="skillType" val="NOTDONE" />
 		<set name="operateType" val="OP_PASSIVE" />
 		<set name="hitTime" val="1000" />
 	</skill>
-	<skill id="5523" levels="1" name="Chain Magic - Unholy Castle">
+	<skill id="5523" levels="1" name="連鎖魔法-邪惡魔消">
 		<set name="target" val="TARGET_NONE" />
 		<set name="skillType" val="NOTDONE" />
 		<set name="operateType" val="OP_PASSIVE" />
@@ -254,32 +254,32 @@
 		<set name="saveVs" val="MEN" />
 		<set name="lvlDepend" val="1" />
 	</skill>
-	<skill id="5524" levels="1" name="Chain Buff - Resistance to Bow and Magic attacks">
+	<skill id="5524" levels="1" name="連鎖輔助-弓與魔法抵抗">
 		<set name="target" val="TARGET_NONE" />
 		<set name="skillType" val="NOTDONE" />
 		<set name="operateType" val="OP_PASSIVE" />
 	</skill>
-	<skill id="5525" levels="1" name="Chain Buff - Resistance to Melee Attacks">
+	<skill id="5525" levels="1" name="連鎖輔助-近戰攻擊抵抗">
 		<set name="target" val="TARGET_NONE" />
 		<set name="skillType" val="NOTDONE" />
 		<set name="operateType" val="OP_PASSIVE" />
 	</skill>
-	<skill id="5526" levels="1" name="Challenger's Blessing">
+	<skill id="5526" levels="1" name="挑戰者的祝福">
 		<set name="target" val="TARGET_NONE" />
 		<set name="skillType" val="NOTDONE" />
 		<set name="operateType" val="OP_PASSIVE" />
 	</skill>
-	<skill id="5527" levels="1" name="Overflow">
+	<skill id="5527" levels="1" name="氾濫">
 		<set name="target" val="TARGET_NONE" />
 		<set name="skillType" val="NOTDONE" />
 		<set name="operateType" val="OP_PASSIVE" />
 	</skill>
-	<skill id="5528" levels="1" name="Self-Destruct">
+	<skill id="5528" levels="1" name="自爆">
 		<set name="target" val="TARGET_NONE" />
 		<set name="skillType" val="NOTDONE" />
 		<set name="operateType" val="OP_PASSIVE" />
 	</skill>
-	<skill id="5529" levels="12" name="Surrender to the Unholy">
+	<skill id="5529" levels="12" name="臣服邪惡">
 		<!-- Update by pmq -->
 		<table name="#dark"> 1.08 1.17 1.25 1.33 1.42 1.5 1.58 1.66 1.75 1.83 1.91 2.0 </table>
 		<table name="#mpConsume_Init"> 3 6 8 11 15 18 21 23 24 24 25 25 </table>
@@ -304,7 +304,7 @@
 			</effect>
 		</for>
 	</skill>
-	<skill id="5530" levels="12" name="Blood Storm">
+	<skill id="5530" levels="12" name="出血風暴">
 		<!-- Update by pmq -->
 		<table name="#mpConsume"> 13 20 29 39 50 62 72 77 80 83 85 85 </table>
 		<table name="#power"> 46.0 105.0 219.0 417.0 722.0 1136.0 1626.0 1876.0 2112.0 2320.0 2487.0 2617.0 </table>
@@ -328,7 +328,7 @@
 		<set name="bloodPower" val="10.0" />
 		<effect count="7" name="DamOverTime" time="3" val="#bleedpower" abnormal="bleed" stackOrder="7" stackType="Bleed" /> 	
 	</skill>
-	<skill id="5531" levels="1" name="Direction-Beleth Magic Skill 1">
+	<skill id="5531" levels="1" name="展示-巴列斯魔法技能1">
 		<!-- Update by pmq -->
 		<set name="magicLvl" val="95" />
 		<set name="power" val="140" />
@@ -341,24 +341,24 @@
 		<set name="castRange" val="400" />
 		<set name="effectRange" val="900" />
 	</skill>
-	<skill id="5532" levels="1" name="Direction-Beleth Summon Skill 1">
+	<skill id="5532" levels="1" name="展示-巴列斯召喚技能1">
 		<set name="target" val="TARGET_NONE" />
 		<set name="skillType" val="NOTDONE" />
 		<set name="operateType" val="OP_PASSIVE" />
 		<set name="hitTime" val="2000" />
 	</skill>
-	<skill id="5533" levels="1" name="Direction-Beleth Self-Destruction Skill 1">
+	<skill id="5533" levels="1" name="展示-巴列斯自爆技能1">
 		<set name="target" val="TARGET_NONE" />
 		<set name="skillType" val="NOTDONE" />
 		<set name="operateType" val="OP_PASSIVE" />
 		<set name="hitTime" val="2000" />
 	</skill>
-	<skill id="5534" levels="1" name="Direction-Beleth Transformation Skill 1">
+	<skill id="5534" levels="1" name="展示-巴列斯變身技能1">
 		<set name="target" val="TARGET_NONE" />
 		<set name="skillType" val="NOTDONE" />
 		<set name="operateType" val="OP_PASSIVE" />
 	</skill>
-	<skill id="5535" levels="1" name="Little Angel Cuteness Trick">
+	<skill id="5535" levels="1" name="小天使壺精聰明伶俐">
 		<set name="target" val="TARGET_SELF" />
 		<set name="skillType" val="DUMMY" />
 		<set name="operateType" val="OP_ACTIVE" />
@@ -366,7 +366,7 @@
 			<player agathionId="16031" />
 		</cond>
 	</skill>
-	<skill id="5536" levels="1" name="Little Devil Cuteness Trick">
+	<skill id="5536" levels="1" name="小惡魔壺精聰明伶俐">
 		<set name="target" val="TARGET_SELF" />
 		<set name="skillType" val="DUMMY" />
 		<set name="operateType" val="OP_ACTIVE" />
@@ -374,7 +374,7 @@
 			<player agathionId="16032" />
 		</cond>
 	</skill>
-	<skill id="5537" levels="1" name="Rudolph Cuteness Trick">
+	<skill id="5537" levels="1" name="魯道夫壺精聰明伶俐">
 		<set name="target" val="TARGET_SELF" />
 		<set name="skillType" val="DUMMY" />
 		<set name="operateType" val="OP_ACTIVE" />
@@ -382,7 +382,7 @@
 			<player agathionId="16033" />
 		</cond>
 	</skill>
-	<skill id="5538" levels="1" name="Little Angel Agathion Special Skill - Firecrackers">
+	<skill id="5538" levels="1" name="小天使壺精特殊技能-煙火">
 		<set name="target" val="TARGET_SELF" />
 		<set name="skillType" val="DUMMY" />
 		<set name="operateType" val="OP_ACTIVE" />
@@ -391,7 +391,7 @@
 			<player agathionId="16031" />
 		</cond>
 	</skill>
-	<skill id="5539" levels="1" name="Little Angel Agathion Special Skill - Mysterious Power">
+	<skill id="5539" levels="1" name="小天使壺精特殊技能-疑問藥水">
 		<set name="operateType" val="OP_ACTIVE" />
 		<set name="skillType" val="BUFF" />
 		<set name="target" val="TARGET_SELF" />
@@ -403,7 +403,7 @@
 			<effect name="BigHead" time="120" val="0" abnormal="bighead" stackOrder="0" stackType="big_head" />
 		</for>
 	</skill>
-	<skill id="5540" levels="1" name="Little Angel Agathion Special Skill - Power of Blessed Return">
+	<skill id="5540" levels="1" name="小天使壺精特殊技能-祝福的返回卷軸">
 		<set name="target" val="TARGET_SELF" />
 		<set name="hitTime" val="200" />
 		<set name="staticHitTime" val="true" />
@@ -414,7 +414,7 @@
 			<player agathionId="16031" />
 		</cond>
 	</skill>
-	<skill id="5541" levels="1" name="Little Angel Agathion Special Skill - Power of Blessed Resurrection">
+	<skill id="5541" levels="1" name="小天使壺精特殊技能-祝福的復活卷軸">
 		<set name="power" val="100" />
 		<set name="target" val="TARGET_CORPSE_PLAYER" />
 		<set name="hitTime" val="3000" />
@@ -428,7 +428,7 @@
 			<player agathionId="16031" />
 		</cond>
 	</skill>
-	<skill id="5542" levels="1" name="Little Devil Agathion Special Skill - Firecrackers">
+	<skill id="5542" levels="1" name="小惡魔壺精特殊技能-煙火">
 		<set name="target" val="TARGET_SELF" />
 		<set name="skillType" val="DUMMY" />
 		<set name="operateType" val="OP_ACTIVE" />
@@ -437,7 +437,7 @@
 			<player agathionId="16032" />
 		</cond>
 	</skill>
-	<skill id="5543" levels="1" name="Little Devil Agathion Special Skill - Mysterious Power">
+	<skill id="5543" levels="1" name="小惡魔壺精特殊技能-疑問藥水">
 		<set name="operateType" val="OP_ACTIVE" />
 		<set name="skillType" val="BUFF" />
 		<set name="target" val="TARGET_SELF" />
@@ -449,7 +449,7 @@
 			<effect name="BigHead" time="120" val="0" abnormal="bighead" stackOrder="0" stackType="big_head" />
 		</for>
 	</skill>
-	<skill id="5544" levels="1" name="Little Devil Agathion Special Skill - Power of Blessed Return">
+	<skill id="5544" levels="1" name="小惡魔壺精特殊技能-祝福的返回卷軸">
 		<set name="target" val="TARGET_SELF" />
 		<set name="hitTime" val="200" />
 		<set name="staticHitTime" val="true" />
@@ -460,7 +460,7 @@
 			<player agathionId="16032" />
 		</cond>
 	</skill>
-	<skill id="5545" levels="1" name="Little Devil Agathion Special Skill - Power of Blessed Resurrection">
+	<skill id="5545" levels="1" name="小惡魔壺精特殊技能-祝福的復活卷軸">
 		<set name="power" val="100" />
 		<set name="target" val="TARGET_CORPSE_PLAYER" />
 		<set name="hitTime" val="3000" />
@@ -474,12 +474,12 @@
 			<player agathionId="16032" />
 		</cond>
 	</skill>
-	<skill id="5546" levels="1" name="Alert">
+	<skill id="5546" levels="1" name="警報">
 		<set name="target" val="TARGET_NONE" />
 		<set name="skillType" val="NOTDONE" />
 		<set name="operateType" val="OP_PASSIVE" />
 	</skill>
-	<skill id="5547" levels="1" name="Maximum Ability">
+	<skill id="5547" levels="1" name="臨界能力">
 		<!-- Confirmed CT2.5 -->
 		<set name="magicLvl" val="40" />
 		<set name="operateType" val="OP_ACTIVE" />
@@ -497,7 +497,7 @@
 			</effect>
 		</for>
 	</skill>
-	<skill id="5548" levels="4" name="Critical Spiritual Energy Attack">
+	<skill id="5548" levels="4" name="爆擊之魂">
 		<!-- Confirmed CT2.5 -->
 		<table name="#magicLvl"> 20 40 58 70 </table>
 		<set name="magicLvl" val="#magicLvl" />
@@ -507,17 +507,17 @@
 		<set name="skillType" val="CHARGESOUL" />
 		<set name="target" val="TARGET_SELF" />
 	</skill>
-	<skill id="5549" levels="1" name="Physical Short-range Weakness">
+	<skill id="5549" levels="1" name="物理近距離弱點">
 		<set name="target" val="TARGET_NONE" />
 		<set name="skillType" val="NOTDONE" />
 		<set name="operateType" val="OP_PASSIVE" />
 	</skill>
-	<skill id="5550" levels="12" name="NPC Trigger Stun">
+	<skill id="5550" levels="12" name="NPC觸發衝擊">
 		<set name="target" val="TARGET_NONE" />
 		<set name="skillType" val="NOTDONE" />
 		<set name="operateType" val="OP_PASSIVE" />
 	</skill>
-	<skill id="5551" levels="12" name="Stun">
+	<skill id="5551" levels="12" name="休克">
 		<!-- Update by pmq -->
 		<set name="mpConsume" val="0" />
 		<set name="power" val="40" />
@@ -537,27 +537,27 @@
 			<effect count="1" name="Stun" time="8" val="0" stackOrder="1" stackType="Stun" />
 		</for>
 	</skill>
-	<skill id="5552" levels="12" name="NPC Hill Up">
+	<skill id="5552" levels="12" name="NPC治療上升">
 		<set name="target" val="TARGET_NONE" />
 		<set name="skillType" val="NOTDONE" />
 		<set name="operateType" val="OP_PASSIVE" />
 	</skill>
-	<skill id="5553" levels="12" name="NPC HP Region">
+	<skill id="5553" levels="12" name="NPC HP再生">
 		<set name="target" val="TARGET_NONE" />
 		<set name="skillType" val="NOTDONE" />
 		<set name="operateType" val="OP_PASSIVE" />
 	</skill>
-	<skill id="5554" levels="12" name="NPC Silence Resistance enhanced">
+	<skill id="5554" levels="12" name="NPC沉默抗性強化">
 		<set name="target" val="TARGET_NONE" />
 		<set name="skillType" val="NOTDONE" />
 		<set name="operateType" val="OP_PASSIVE" />
 	</skill>
-	<skill id="5555" levels="12" name="NPC Silence Resistance weakened">
+	<skill id="5555" levels="12" name="NPC沉默抗性弱化">
 		<set name="target" val="TARGET_NONE" />
 		<set name="skillType" val="NOTDONE" />
 		<set name="operateType" val="OP_PASSIVE" />
 	</skill>
-	<skill id="5556" levels="1" name="Protection Power">
+	<skill id="5556" levels="1" name="保護之力">
 		<!-- Confirmed CT2.5 -->
 		<!-- Triggered Skill for Protection of Rune/Elemental/Alignment -->
 		<set name="magicLvl" val="81" />
@@ -577,7 +577,7 @@
 			</effect>
 		</for>
 	</skill>
-	<skill id="5557" levels="1" name="Protection of Elemental">
+	<skill id="5557" levels="1" name="元素保護">
 		<!-- Update by pmq -->
 		<set name="magicLvl" val="82" />
 		<set name="target" val="TARGET_SELF" />
@@ -594,7 +594,7 @@
 			</effect>
 		</for>
 	</skill>
-	<skill id="5558" levels="1" name="Protection of Alignment">
+	<skill id="5558" levels="1" name="團結保護">
 		<!-- Update by pmq -->
 		<set name="magicLvl" val="82" />
 		<set name="target" val="TARGET_SELF" />
@@ -609,7 +609,7 @@
 			</effect>
 		</for>
 	</skill>
-	<skill id="5559" levels="1" name="Physical Pose">
+	<skill id="5559" levels="1" name="物理力量">
 		<!-- Confirmed CT2.5 -->
 		<!-- Triggered Skill for Fighter's/Archer's Will -->
 		<set name="magicLvl" val="81" />
@@ -624,7 +624,7 @@
 			</effect>
 		</for>
 	</skill>
-	<skill id="5560" levels="1" name="Archer's Will">
+	<skill id="5560" levels="1" name="弓手的意志">
 		<!-- Not Used Anymore -->
 		<!-- Update by pmq -->
 		<set name="weaponsAllowed" val="Bow,Crossbow" /> <!-- Bow/Crossbow -->
@@ -643,7 +643,7 @@
 			</effect>
 		</for>
 	</skill>
-	<skill id="5561" levels="3" name="Seed of Revenge">
+	<skill id="5561" levels="3" name="復仇種子">
 		<!-- Confirmed CT2.5 -->
 		<table name="#stackOrder"> 2 3 4 </table>
 		<table name="#activationChance"> 10 10 0 </table>
@@ -662,7 +662,7 @@
 			</effect>
 		</for>
 	</skill>
-	<skill id="5562" levels="3" name="Spirit of Phoenix">
+	<skill id="5562" levels="3" name="鳳凰之魂">
 		<!-- Confirmed CT2.5 -->
 		<table name="#stackOrder"> 2 3 4 </table>
 		<table name="#activationChance"> 10 10 0 </table>
@@ -683,7 +683,7 @@
 			</effect>
 		</for>
 	</skill>
-	<skill id="5563" levels="3" name="Eva's Will">
+	<skill id="5563" levels="3" name="伊娃意志">
 		<!-- Confirmed CT2.5 -->
 		<table name="#stackOrder"> 2 3 4 </table>
 		<table name="#activationChance"> 10 10 0 </table>
@@ -702,7 +702,7 @@
 			</effect>
 		</for>
 	</skill>
-	<skill id="5564" levels="3" name="Pain of Shilen">
+	<skill id="5564" levels="3" name="席琳之痛">
 		<!-- Confirmed CT2.5 -->
 		<table name="#stackOrder"> 2 3 4 </table>
 		<table name="#activationChance"> 10 10 0 </table>
@@ -722,7 +722,7 @@
 			</effect>
 		</for>
 	</skill>
-	<skill id="5565" levels="1" name="Expose Weak Point">
+	<skill id="5565" levels="1" name="弱點揭露">
 		<!-- Confirmed CT2.5 -->
 		<set name="hitTime" val="1500" />
 		<set name="isDebuff" val="true" />
@@ -746,12 +746,12 @@
 			</effect>
 		</for>
 	</skill>
-	<skill id="5566" levels="1" name="Post of Destruction">
+	<skill id="5566" levels="1" name="毀滅之力">
 		<set name="target" val="TARGET_NONE" />
 		<set name="skillType" val="NOTDONE" />
 		<set name="operateType" val="OP_PASSIVE" />
 	</skill>
-	<skill id="5567" levels="1" name="Flame Armor">
+	<skill id="5567" levels="1" name="火焰裝甲">
 		<!-- Confirmed CT2.5 -->
 		<set name="castRange" val="400" />
 		<set name="effectRange" val="900" />
@@ -763,7 +763,7 @@
 		<set name="skillType" val="MDAM" />
 		<set name="target" val="TARGET_ONE" />
 	</skill>
-	<skill id="5568" levels="1" name="Frost Armor">
+	<skill id="5568" levels="1" name="寒霜裝甲">
 		<!-- Confirmed CT2.5 -->
 		<set name="castRange" val="400" />
 		<set name="effectRange" val="900" />
@@ -781,7 +781,7 @@
 			</effect>
 		</for>
 	</skill>
-	<skill id="5569" levels="1" name="Hurricane Armor">
+	<skill id="5569" levels="1" name="風暴裝甲">
 		<!-- Confirmed CT2.5 -->
 		<set name="castRange" val="400" />
 		<set name="effectRange" val="900" />
@@ -799,7 +799,7 @@
 			</effect>
 		</for>
 	</skill>
-	<skill id="5570" levels="1" name="Excessive Loyalty">
+	<skill id="5570" levels="1" name="極度忠誠">
 		<!-- CT2.5 retail confirmed -->
 		<set name="target" val="TARGET_PET" />
 		<set name="skillType" val="BUFF" />
@@ -814,7 +814,7 @@
 			</effect>
 		</for>
 	</skill>
-	<skill id="5571" levels="1" name="Mutual Response">
+	<skill id="5571" levels="1" name="相互呼應">
 		<!-- CT2.5 retail confirmed -->
 		<set name="castRange" val="400" />
 		<set name="effectRange" val="900" />
@@ -827,7 +827,7 @@
 			<effect name="ManaHealOverTime" noicon="1" val="73" />
 		</for>
 	</skill>
-	<skill id="5572" levels="1" name="Warrior Ability - Haste">
+	<skill id="5572" levels="1" name="鬥士能力-速度激發">
 		<!-- CT2.5 retail confirmed -->
 		<!-- NOTE: Description says "Excludes damage caused by a skill or ranged attack" but is client typo -->
 		<set name="castRange" val="400" />
@@ -844,7 +844,7 @@
 			</effect>
 		</for>
 	</skill>
-	<skill id="5573" levels="1" name="Knight Ability - Defense">
+	<skill id="5573" levels="1" name="騎士能力-防禦">
 		<!-- CT2.5 retail confirmed -->
 		<set name="castRange" val="400" />
 		<set name="effectRange" val="900" />
@@ -861,7 +861,7 @@
 			</effect>
 		</for>
 	</skill>
-	<skill id="5574" levels="1" name="Log Ability - Critical Chance">
+	<skill id="5574" levels="1" name="盜賊能力-致命攻擊機率">
 		<!-- CT2.5 retail confirmed -->
 		<set name="castRange" val="400" />
 		<set name="effectRange" val="900" />
@@ -877,7 +877,7 @@
 			</effect>
 		</for>
 	</skill>
-	<skill id="5575" levels="1" name="Wizard Ability - Mana Steal">
+	<skill id="5575" levels="1" name="巫師能力-魔力竊取">
 		<!-- CT2.5 retail confirmed -->
 		<set name="magicLvl" val="80" />
 		<set name="operateType" val="OP_ACTIVE" />
@@ -886,7 +886,7 @@
 		<set name="skillType" val="MANARECHARGE" />
 		<set name="target" val="TARGET_SELF" />
 	</skill>
-	<skill id="5576" levels="1" name="Enchanter Ability - Barrier">
+	<skill id="5576" levels="1" name="法師能力-壁障">
 		<!-- CT2.5 retail confirmed -->
 		<set name="castRange" val="400" />
 		<set name="effectRange" val="900" />
@@ -900,7 +900,7 @@
 			<effect name="Invincible" time="5" val="0" special="invincible" stackOrder="1" stackType="sub_trigger_defence" />
 		</for>
 	</skill>
-	<skill id="5577" levels="1" name="Healer Ability - Heal">
+	<skill id="5577" levels="1" name="牧師能力-治療">
 		<!-- CT2.5 retail confirmed -->
 		<set name="magicLvl" val="80" />
 		<set name="operateType" val="OP_ACTIVE" />
@@ -909,7 +909,7 @@
 		<set name="skillType" val="HEAL_STATIC" />
 		<set name="target" val="TARGET_SELF" />
 	</skill>
-	<skill id="5578" levels="1" name="Summoner Ability - Spirit">
+	<skill id="5578" levels="1" name="召喚士能力-魂靈">
 		<!-- CT2.5 retail confirmed -->
 		<set name="castRange" val="400" />
 		<set name="effectRange" val="900" />
@@ -928,7 +928,7 @@
 			</effect>
 		</for>
 	</skill>
-	<skill id="5579" levels="1" name="Cubic Cure">
+	<skill id="5579" levels="1" name="晶體治療">
 		<!-- Smart Cubic Skill -->
 		<!-- Confirmed CT2.5 -->
 		<set name="aggroPoints" val="408" />
@@ -938,7 +938,7 @@
 		<set name="skillType" val="CANCEL_DEBUFF" />
 		<set name="target" val="TARGET_SELF" />
 	</skill>
-	<skill id="5580" levels="1" name="Divine Beast Bite">
+	<skill id="5580" levels="1" name="聖恩獸 撕咬">
 		<set name="mpConsume" val="80" />
 		<set name="magicLvl" val="80" />
 		<set name="target" val="TARGET_ONE" />
@@ -951,7 +951,7 @@
 		<set name="castRange" val="40" />
 		<set name="effectRange" val="400" />
 	</skill>
-	<skill id="5581" levels="1" name="Divine Beast Stun Attack">
+	<skill id="5581" levels="1" name="聖恩獸 昏迷之擊">
 		<set name="magicLvl" val="80" />
 		<set name="power" val="704" />
 		<set name="nextActionAttack" val="true" />
@@ -969,7 +969,7 @@
 			<effect name="Stun" val="0" effectPower="100" effectType="STUN" stackOrder="1" stackType="stun" /> <!-- using 1 second due abnormal don't have abnormal time -->
 		</for>
 	</skill>
-	<skill id="5582" levels="1" name="Divine Beast Fire Breath">
+	<skill id="5582" levels="1" name="聖恩獸 火焰氣息">
 		<set name="mpConsume" val="80" />
 		<set name="power" val="875" />
 		<set name="magicLvl" val="80" />
@@ -986,7 +986,7 @@
 		<set name="skillRadius" val="250" />
 		<set name="effectRange" val="400" />
 	</skill>
-	<skill id="5583" levels="1" name="Divine Beast Roar">
+	<skill id="5583" levels="1" name="聖恩獸 咆哮">
 		<set name="mpConsume" val="80" />
 		<set name="magicLvl" val="80" />
 		<set name="lvlDepend" val="2" />
@@ -1004,7 +1004,7 @@
 			</effect>
 		</for>
 	</skill>
-	<skill id="5584" levels="1" name="Wolf Howl">
+	<skill id="5584" levels="1" name="狼吼">
 		<!-- Update by rocknow -->
 		<set name="mpConsume" val="55" />
 		<set name="target" val="TARGET_AURA" />
@@ -1021,7 +1021,7 @@
 			</effect>
 		</for>
 	</skill>
-	<skill id="5585" levels="1" name="Strider Roar">
+	<skill id="5585" levels="1" name="座龍咆哮">
 		<!-- Update by rocknow -->
 		<set name="mpConsume" val="55" />
 		<set name="target" val="TARGET_AURA" />
@@ -1038,7 +1038,7 @@
 			</effect>
 		</for>
 	</skill>
-	<skill id="5586" levels="3" name="Pet Might">
+	<skill id="5586" levels="3" name="寵物力量強化">
 		<table name="#mpConsume"> 5 10 18 </table>
 		<table name="#rate"> 1.08 1.12 1.15 </table>
 		<table name="#stackOrder"> 1 2 3 </table>
@@ -1059,7 +1059,7 @@
 			</effect>
 		</for>
 	</skill>
-	<skill id="5587" levels="3" name="Pet Shield">
+	<skill id="5587" levels="3" name="寵物保護盾">
 		<table name="#mpConsume"> 5 12 20 </table>
 		<table name="#rate"> 1.08 1.12 1.15 </table>
 		<table name="#stackOrder"> 1 2 3 </table>
@@ -1080,7 +1080,7 @@
 			</effect>
 		</for>
 	</skill>
-	<skill id="5588" levels="3" name="Pet Focus">
+	<skill id="5588" levels="3" name="寵物弱點偵測">
 		<table name="#mpConsume"> 12 20 24 </table>
 		<table name="#rCrit"> 0.2 0.25 0.3 </table>
 		<table name="#aggro"> 243 418 495 </table>
@@ -1101,7 +1101,7 @@
 			</effect>
 		</for>
 	</skill>
-	<skill id="5589" levels="3" name="Pet Death Whisper">
+	<skill id="5589" levels="3" name="寵物死之呢喃">
 		<table name="#cAtk"> 1.25 1.3 1.35 </table>
 		<table name="#aggro"> 379 457 532 </table>
 		<table name="#stackOrder"> 1 2 3 </table>
@@ -1122,7 +1122,7 @@
 			</effect>
 		</for>
 	</skill>
-	<skill id="5590" levels="12" name="Pet Battle Heal">
+	<skill id="5590" levels="12" name="寵物急救術">
 		<table name="#mpConsume"> 13 23 34 47 60 74 85 92 95 98 99 99 </table>
 		<table name="#power"> 91 166 269 398 544 690 817 867 909 954 985 1005 </table>
 		<set name="mpConsume" val="#mpConsume" />
@@ -1136,7 +1136,7 @@
 		<set name="castRange" val="600" />
 		<set name="effectRange" val="1100" />
 	</skill>
-	<skill id="5591" levels="8" name="Light Flow">
+	<skill id="5591" levels="8" name="生命流動">
 		<!-- Confirmed CT2.5 -->
 		<!-- Curse of Life Flow effect -->
 		<table name="#magicLvl"> 60 62 64 66 68 70 72 74 </table>
@@ -1148,7 +1148,7 @@
 		<set name="skillType" val="HEAL" />
 		<set name="target" val="TARGET_ONE" />
 	</skill>
-	<skill id="5592" levels="16" name="Lightning Barrier">
+	<skill id="5592" levels="16" name="強雷屏障">
 		<!-- CT2.5 retail confirmed -->
 		<table name="#magicLvl"> 80 81 81 81 82 82 82 83 83 83 84 84 85 85 85 85 </table>
 		<table name="#power"> 80 81 82 83 84 85 86 87 88 89 90 91 92 93 94 95 </table>
@@ -1167,7 +1167,7 @@
 			<effect name="Paralyze" time="3" val="0" stackOrder="1" stackType="paralyze" />
 		</for>
 	</skill>
-	<skill id="5593" levels="1" name="Vampiric Mana Burn">
+	<skill id="5593" levels="1" name="吸血魔力燃燒">
 		<!-- Confirmed CT2.5 -->
 		<!-- Darion Skills -->
 		<set name="absorbPart" val="0.8" />
@@ -1187,7 +1187,7 @@
 			<effect name="ManaDamOverTime" noicon="1" val="182" />
 		</for>
 	</skill>
-	<skill id="5594" levels="1" name="Poison">
+	<skill id="5594" levels="1" name="毒">
 		<!-- Update by pmq -->
 		<set name="bloodPower" val="11" />
 		<set name="power" val="60" />
@@ -1199,7 +1199,7 @@
 		<set name="effectRange" val="-1" />
 		<effect count="7" name="Poisoning" time="1" val="365" abnormal="poison" stackOrder="11" stackType="Poison" />
 	</skill>
-	<skill id="5595" levels="1" name="Bleed">
+	<skill id="5595" levels="1" name="出血">
 		<!-- Update by pmq -->
 		<set name="bloodPower" val="11" />
 		<set name="power" val="60" />
@@ -1211,7 +1211,7 @@
 		<set name="effectRange" val="-1" />
 		<effect count="7" name="DamOverTime" time="1" val="365" abnormal="bleed" stackOrder="11" stackType="Bleed" />
 	</skill>
-	<skill id="5596" levels="1" name="Flame">
+	<skill id="5596" levels="1" name="火焰">
 		<!-- Confirmed CT2.5 -->
 		<!-- Zone Skill -->
 		<set name="element" val="0" /> <!-- Fire -->
@@ -1229,12 +1229,12 @@
 			<effect count="5" name="DamOverTime" val="200" abnormal="bleed" stackOrder="10" stackType="dot_attr" />
 		</for>
 	</skill>
-	<skill id="5597" levels="1" name="Invalid Skill cancel">
+	<skill id="5597" levels="1" name="技能取消無效化">
 		<set name="target" val="TARGET_NONE" />
 		<set name="skillType" val="NOTDONE" />
 		<set name="operateType" val="OP_PASSIVE" />
 	</skill>
-	<skill id="5598" levels="12" name="Flash Resistance">
+	<skill id="5598" levels="12" name="石化抵抗">
 		<!-- Update by pmq -->
 		<table name="#resist"> 0.9 0.9 0.8 0.8 0.8 0.7 0.7 0.7 0.6 0.6 0.6 0.5 </table>
 		<set name="magicLvl" val="1" />
@@ -1249,7 +1249,7 @@
 			<mul order="0x30" stat="stunVuln" val="#resist" />
 		</for>
 	</skill>
-	<skill id="5599" levels="12" name="Stun Resistance">
+	<skill id="5599" levels="12" name="衝擊抵抗">
 		<!-- Update by pmq -->
 		<table name="#resist"> 0.9 0.9 0.8 0.8 0.8 0.7 0.7 0.7 0.6 0.6 0.6 0.5 </table>
 		<set name="magicLvl" val="1" />

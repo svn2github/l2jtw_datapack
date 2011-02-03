@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <list>
-	<skill id="3300" levels="1" name="Yellow Talisman of Speed">
+	<skill id="3300" levels="1" name="黃色護身符-移動速度">
 		<!-- CT 2.3 Confirmed, Run Spd. +5 -->
 		<set name="target" val="TARGET_SELF" />
 		<set name="skillType" val="BUFF" />
@@ -9,7 +9,7 @@
 			<add order="0x40" stat="runSpd" val="5" />
 		</for>
 	</skill>
-	<skill id="3301" levels="1" name="Yellow Talisman of Violent Haste">
+	<skill id="3301" levels="1" name="黃色護身符-攻擊速度">
 		<!-- CT 2.3 Confirmed, P. Atk. Spd. +10 -->
 		<set name="target" val="TARGET_SELF" />
 		<set name="skillType" val="BUFF" />
@@ -18,7 +18,7 @@
 			<add order="0x40" stat="pAtkSpd" val="10" />
 		</for>
 	</skill>
-	<skill id="3302" levels="1" name="Yellow Talisman of Arcane Haste">
+	<skill id="3302" levels="1" name="黃色護身符-施法速度">
 		<!-- CT 2.3 Confirmed, C. Spd. +8 -->
 		<set name="target" val="TARGET_SELF" />
 		<set name="skillType" val="BUFF" />
@@ -27,7 +27,7 @@
 			<add order="0x40" stat="mAtkSpd" val="8" />
 		</for>
 	</skill>
-	<skill id="3303" levels="1" name="White Talisman of Bandages">
+	<skill id="3303" levels="1" name="白色護身符-出血抗性">
 		<set name="target" val="TARGET_SELF" />
 		<set name="skillType" val="BUFF" />
 		<set name="operateType" val="OP_PASSIVE" />
@@ -35,7 +35,7 @@
 			<sub order="0x40" stat="bleedVuln" val="5" />
 		</for>
 	</skill>
-	<skill id="3304" levels="1" name="White Talisman of Attention">
+	<skill id="3304" levels="1" name="白色護身符-睡眠抗性">
 		<set name="target" val="TARGET_SELF" />
 		<set name="skillType" val="BUFF" />
 		<set name="operateType" val="OP_PASSIVE" />
@@ -43,7 +43,7 @@
 			<sub order="0x40" stat="sleepVuln" val="5" />
 		</for>
 	</skill>
-	<skill id="3305" levels="1" name="White Talisman of Grounding">
+	<skill id="3305" levels="1" name="白色護身符-休克抗性">
 		<set name="target" val="TARGET_SELF" />
 		<set name="skillType" val="BUFF" />
 		<set name="operateType" val="OP_PASSIVE" />
@@ -51,7 +51,7 @@
 			<sub order="0x40" stat="stunVuln" val="5" />
 		</for>
 	</skill>
-	<skill id="3306" levels="1" name="White Talisman of Bravery">
+	<skill id="3306" levels="1" name="白色護身符-恐懼抗性">
 		<set name="target" val="TARGET_SELF" />
 		<set name="skillType" val="BUFF" />
 		<set name="operateType" val="OP_PASSIVE" />
@@ -59,7 +59,7 @@
 			<sub order="0x40" stat="derangementVuln" val="5" />
 		</for>
 	</skill>
-	<skill id="3307" levels="1" name="White Talisman of Motion">
+	<skill id="3307" levels="1" name="白色護身符-麻痺抗性">
 		<set name="target" val="TARGET_SELF" />
 		<set name="skillType" val="BUFF" />
 		<set name="operateType" val="OP_PASSIVE" />
@@ -67,7 +67,7 @@
 			<sub order="0x40" stat="paralyzeVuln" val="5" />
 		</for>
 	</skill>
-	<skill id="3308" levels="1" name="White Talisman of Freedom">
+	<skill id="3308" levels="1" name="白色護身符-束縛抗性">
 		<set name="target" val="TARGET_SELF" />
 		<set name="skillType" val="BUFF" />
 		<set name="operateType" val="OP_PASSIVE" />
@@ -75,7 +75,7 @@
 			<sub order="0x40" stat="rootVuln" val="5" />
 		</for>
 	</skill>
-	<skill id="3309" levels="1" name="White Talisman of Protection">
+	<skill id="3309" levels="1" name="白色護身符-魔法消除抗性">
 		<set name="target" val="TARGET_SELF" />
 		<set name="skillType" val="BUFF" />
 		<set name="operateType" val="OP_PASSIVE" />
@@ -83,7 +83,7 @@
 			<sub order="0x40" stat="cancelVuln" val="5" />
 		</for>
 	</skill>
-	<skill id="3310" levels="1" name="Yellow Talisman of Physical Regeneration">
+	<skill id="3310" levels="1" name="黃色護身符-HP恢復量">
 		<set name="target" val="TARGET_SELF" />
 		<set name="skillType" val="BUFF" />
 		<set name="operateType" val="OP_PASSIVE" />
@@ -91,7 +91,7 @@
 			<mul order="0x30" stat="regHp" val="1.03" />
 		</for>
 	</skill>
-	<skill id="3311" levels="1" name="Yellow Talisman of CP Regeneration">
+	<skill id="3311" levels="1" name="黃色護身符-CP恢復量">
 		<set name="target" val="TARGET_SELF" />
 		<set name="skillType" val="BUFF" />
 		<set name="operateType" val="OP_PASSIVE" />
@@ -99,7 +99,7 @@
 			<mul order="0x30" stat="regCp" val="1.03" />
 		</for>
 	</skill>
-	<skill id="3312" levels="1" name="Yellow Talisman of Healing">
+	<skill id="3312" levels="1" name="黃色護身符-治療威力">
 		<set name="target" val="TARGET_SELF" />
 		<set name="skillType" val="BUFF" />
 		<set name="operateType" val="OP_PASSIVE" />
@@ -107,7 +107,7 @@
 			<add order="0x40" stat="gainHp" val="8" /> <!-- increase Healing Power +8 -->
 		</for>
 	</skill>
-	<skill id="3313" levels="1" name="Yellow Talisman of Alacrity">
+	<skill id="3313" levels="1" name="黃色護身符-速度增加">
 		<!-- CT 2.3 Confirmed, RunSpeed +3, Cast Speed +4, Atk Spd +5 -->
 		<set name="target" val="TARGET_SELF" />
 		<set name="skillType" val="BUFF" />
@@ -118,7 +118,7 @@
 			<add order="0x40" stat="pAtkSpd" val="5" />
 		</for>
 	</skill>
-	<skill id="3314" levels="1" name="Grey Talisman of Weight Training">
+	<skill id="3314" levels="1" name="灰色護身符-重量標準">
 		<!-- CT 2.3 Confirmed, Weight 6210 -->
 		<set name="target" val="TARGET_SELF" />
 		<set name="skillType" val="BUFF" />
@@ -127,22 +127,22 @@
 			<add order="0x40" stat="maxLoad" val="6210" />
 		</for>
 	</skill>
-	<skill id="3315" levels="1" name="Grey Talisman of Fishing">
+	<skill id="3315" levels="1" name="灰色護身符-中等釣魚熟練">
 		<set name="target" val="TARGET_NONE" />
 		<set name="skillType" val="NOTDONE" />
 		<set name="operateType" val="OP_PASSIVE" />
 	</skill>
-	<skill id="3316" levels="1" name="Yellow Talisman of Critical Dodging">
+	<skill id="3316" levels="1" name="黃色護身符-致命攻擊迴避">
 		<set name="target" val="TARGET_NONE" />
 		<set name="skillType" val="NOTDONE" />
 		<set name="operateType" val="OP_PASSIVE" />
 	</skill>
-	<skill id="3317" levels="1" name="Yellow Talisman of Critical Reduction">
+	<skill id="3317" levels="1" name="黃色護身符-致命攻擊減少">
 		<set name="target" val="TARGET_NONE" />
 		<set name="skillType" val="NOTDONE" />
 		<set name="operateType" val="OP_PASSIVE" />
 	</skill>
-	<skill id="3318" levels="1" name="Flag Display">
+	<skill id="3318" levels="1" name="揚旗">
 		<set name="target" val="TARGET_FLAGPOLE" />
 		<set name="hitTime" val="180000" />
 		<set name="reuseDelay" val="5000" />
@@ -150,12 +150,12 @@
 		<set name="skillType" val="TAKEFORT" />
 		<set name="operateType" val="OP_ACTIVE" />
 	</skill>
-	<skill id="3319" levels="1" name="Divine Protection of Ring">
+	<skill id="3319" levels="1" name="戒指的加護">
 		<set name="target" val="TARGET_NONE" />
 		<set name="skillType" val="NOTDONE" />
 		<set name="operateType" val="OP_PASSIVE" />
 	</skill>
-	<skill id="3320" levels="1" name="Yellow Talisman of Mental Regeneration">
+	<skill id="3320" levels="1" name="黃色護身符-MP恢復量">
 		<set name="target" val="TARGET_SELF" />
 		<set name="skillType" val="BUFF" />
 		<set name="operateType" val="OP_PASSIVE" />
@@ -163,7 +163,7 @@
 			<mul order="0x30" stat="regMp" val="1.03" />
 		</for>
 	</skill>
-	<skill id="3321" levels="1" name="Blue Talisman of Evasion">
+	<skill id="3321" levels="1" name="青色護身符-迴避">
 		<!-- CT 2.3 Confirmed, Evasion +2 -->
 		<set name="mpConsume" val="50" />
 		<set name="target" val="TARGET_SELF" />
@@ -182,7 +182,7 @@
 			</effect>
 		</for>
 	</skill>
-	<skill id="3322" levels="1" name="Brass Bracelet">
+	<skill id="3322" levels="1" name="鐵手鐲">
 		<set name="target" val="TARGET_SELF" />
 		<set name="skillType" val="BUFF" />
 		<set name="operateType" val="OP_PASSIVE" />
@@ -190,7 +190,7 @@
 			<set order="0x50" stat="talisman" val="1" />
 		</for>
 	</skill>
-	<skill id="3323" levels="1" name="Bronze Bracelet">
+	<skill id="3323" levels="1" name="青銅手鐲">
 		<set name="target" val="TARGET_SELF" />
 		<set name="skillType" val="BUFF" />
 		<set name="operateType" val="OP_PASSIVE" />
@@ -198,7 +198,7 @@
 			<set order="0x50" stat="talisman" val="2" />
 		</for>
 	</skill>
-	<skill id="3324" levels="1" name="Steel Bracelet">
+	<skill id="3324" levels="1" name="鋼鐵手鐲">
 		<set name="target" val="TARGET_SELF" />
 		<set name="skillType" val="BUFF" />
 		<set name="operateType" val="OP_PASSIVE" />
@@ -206,7 +206,7 @@
 			<set order="0x50" stat="talisman" val="3" />
 		</for>
 	</skill>
-	<skill id="3325" levels="1" name="Mithril Bracelet">
+	<skill id="3325" levels="1" name="米索莉手鐲">
 		<set name="target" val="TARGET_SELF" />
 		<set name="skillType" val="BUFF" />
 		<set name="operateType" val="OP_PASSIVE" />
@@ -214,7 +214,7 @@
 			<set order="0x50" stat="talisman" val="4" />
 		</for>
 	</skill>
-	<skill id="3326" levels="1" name="Jewelry Bracelet">
+	<skill id="3326" levels="1" name="寶石手鐲">
 		<set name="target" val="TARGET_SELF" />
 		<set name="skillType" val="BUFF" />
 		<set name="operateType" val="OP_PASSIVE" />
@@ -222,7 +222,7 @@
 			<set order="0x50" stat="talisman" val="5" />
 		</for>
 	</skill>
-	<skill id="3327" levels="1" name="Oriharukon Bracelet">
+	<skill id="3327" levels="1" name="奧里哈魯根手鐲">
 		<set name="target" val="TARGET_SELF" />
 		<set name="skillType" val="BUFF" />
 		<set name="operateType" val="OP_PASSIVE" />
@@ -230,7 +230,7 @@
 			<set order="0x50" stat="talisman" val="6" />
 		</for>
 	</skill>
-	<skill id="3328" levels="1" name="Double Stab">
+	<skill id="3328" levels="1" name="連環刺">
 		<set name="nextActionAttack" val="true" />
 		<set name="target" val="TARGET_NONE" />
 		<set name="skillType" val="NOTDONE" />
@@ -239,7 +239,7 @@
 		<set name="hitTime" val="1670" />
 		<set name="coolTime" val="133" />
 	</skill>
-	<skill id="3329" levels="1" name="Power Slash">
+	<skill id="3329" levels="1" name="強力斬">
 		<set name="target" val="TARGET_NONE" />
 		<set name="nextActionAttack" val="true" />
 		<set name="skillType" val="NOTDONE" />
@@ -248,7 +248,7 @@
 		<set name="hitTime" val="1670" />
 		<set name="coolTime" val="133" />
 	</skill>
-	<skill id="3330" levels="1" name="Air Blade">
+	<skill id="3330" levels="1" name="大氣之刃">
 		<set name="target" val="TARGET_NONE" />
 		<set name="nextActionAttack" val="true" />
 		<set name="skillType" val="NOTDONE" />
@@ -257,7 +257,7 @@
 		<set name="hitTime" val="1080" />
 		<set name="coolTime" val="720" />
 	</skill>
-	<skill id="3331" levels="1" name="Enslave">
+	<skill id="3331" levels="1" name="縛役">
 		<set name="target" val="TARGET_NONE" />
 		<set name="lvlDepend" val="1" />
 		<set name="skillType" val="NOTDONE" />
@@ -267,7 +267,7 @@
 		<set name="hitTime" val="3000" />
 		<set name="saveVs" val="MEN" />
 	</skill>
-	<skill id="3332" levels="1" name="Orange Talisman - Hot Springs Recovery">
+	<skill id="3332" levels="1" name="橙色護身符-溫泉鬥志藥水">
 		<set name="target" val="TARGET_SELF" />
 		<set name="skillType" val="CREATE_ITEM" />
 		<set name="operateType" val="OP_ACTIVE" />
@@ -280,7 +280,7 @@
 		<set name="staticReuse" val="true" />
 		<set name="reuseDelay" val="300000" />
 	</skill>
-	<skill id="3333" levels="1" name="Orange Talisman - A Grade Elixir of Life">
+	<skill id="3333" levels="1" name="橙色護身符-A級生命靈藥">
 		<set name="target" val="TARGET_SELF" />
 		<set name="skillType" val="CREATE_ITEM" />
 		<set name="operateType" val="OP_ACTIVE" />
@@ -292,7 +292,7 @@
 		<set name="equipDelay" val="30000" />
 		<set name="reuseDelay" val="600000" />
 	</skill>
-	<skill id="3334" levels="1" name="Orange Talisman - A Grade Elixir of Mental Strength">
+	<skill id="3334" levels="1" name="橙色護身符-A級精神靈藥">
 		<set name="target" val="TARGET_SELF" />
 		<set name="skillType" val="CREATE_ITEM" />
 		<set name="operateType" val="OP_ACTIVE" />
@@ -305,7 +305,7 @@
 		<set name="reuseDelay" val="600000" />
 		<set name="staticReuse" val="true" />
 	</skill>
-	<skill id="3335" levels="1" name="Transform Yeti">
+	<skill id="3335" levels="1" name="變身 雪人">
 		<set name="target" val="TARGET_SELF" />
 		<set name="skillType" val="BUFF" />
 		<set name="operateType" val="OP_ACTIVE" />
@@ -319,7 +319,7 @@
 			<effect name="Transformation" time="300" val="0" stackOrder="1" stackType="transform" />
 		</for>
 	</skill>
-	<skill id="3336" levels="1" name="Transform Buffalo">
+	<skill id="3336" levels="1" name="變身 野牛">
 		<set name="target" val="TARGET_SELF" />
 		<set name="skillType" val="BUFF" />
 		<set name="operateType" val="OP_ACTIVE" />
@@ -333,7 +333,7 @@
 			<effect name="Transformation" time="300" val="0" stackOrder="1" stackType="transform" />
 		</for>
 	</skill>
-	<skill id="3337" levels="1" name="Transform Cutie Pig">
+	<skill id="3337" levels="1" name="變身 可愛豬">
 		<set name="target" val="TARGET_SELF" />
 		<set name="skillType" val="BUFF" />
 		<set name="reuseDelay" val="600000" />
@@ -346,57 +346,57 @@
 			<effect name="Transformation" time="1800" val="0" stackOrder="1" stackType="transform" />
 		</for>
 	</skill>
-	<skill id="3338" levels="1" name="Shield Master">
+	<skill id="3338" levels="1" name="護盾大師">
 		<set name="target" val="TARGET_NONE" />
 		<set name="skillType" val="NOTDONE" />
 		<set name="operateType" val="OP_PASSIVE" />
 	</skill>
-	<skill id="3339" levels="1" name="Bard">
+	<skill id="3339" levels="1" name="詩人">
 		<set name="target" val="TARGET_NONE" />
 		<set name="skillType" val="NOTDONE" />
 		<set name="operateType" val="OP_PASSIVE" />
 	</skill>
-	<skill id="3340" levels="1" name="Weapon Master">
+	<skill id="3340" levels="1" name="武器大師">
 		<set name="target" val="TARGET_NONE" />
 		<set name="skillType" val="NOTDONE" />
 		<set name="operateType" val="OP_PASSIVE" />
 	</skill>
-	<skill id="3341" levels="1" name="Force Master">
+	<skill id="3341" levels="1" name="力量大師">
 		<set name="target" val="TARGET_NONE" />
 		<set name="skillType" val="NOTDONE" />
 		<set name="operateType" val="OP_PASSIVE" />
 	</skill>
-	<skill id="3342" levels="1" name="Bow Master">
+	<skill id="3342" levels="1" name="弓術大師">
 		<set name="target" val="TARGET_NONE" />
 		<set name="skillType" val="NOTDONE" />
 		<set name="operateType" val="OP_PASSIVE" />
 	</skill>
-	<skill id="3343" levels="1" name="Dagger Master">
+	<skill id="3343" levels="1" name="匕首大師">
 		<set name="target" val="TARGET_NONE" />
 		<set name="skillType" val="NOTDONE" />
 		<set name="operateType" val="OP_PASSIVE" />
 	</skill>
-	<skill id="3344" levels="1" name="Wizard">
+	<skill id="3344" levels="1" name="巫師">
 		<set name="target" val="TARGET_NONE" />
 		<set name="skillType" val="NOTDONE" />
 		<set name="operateType" val="OP_PASSIVE" />
 	</skill>
-	<skill id="3345" levels="1" name="Summoner">
+	<skill id="3345" levels="1" name="召喚士">
 		<set name="target" val="TARGET_NONE" />
 		<set name="skillType" val="NOTDONE" />
 		<set name="operateType" val="OP_PASSIVE" />
 	</skill>
-	<skill id="3346" levels="1" name="Healer">
+	<skill id="3346" levels="1" name="牧師">
 		<set name="target" val="TARGET_NONE" />
 		<set name="skillType" val="NOTDONE" />
 		<set name="operateType" val="OP_PASSIVE" />
 	</skill>
-	<skill id="3347" levels="1" name="Enchanter">
+	<skill id="3347" levels="1" name="法師">
 		<set name="target" val="TARGET_NONE" />
 		<set name="skillType" val="NOTDONE" />
 		<set name="operateType" val="OP_PASSIVE" />
 	</skill>
-	<skill id="3348" levels="1" name="Dynasty Breast Plate - Shield Master">
+	<skill id="3348" levels="1" name="王朝盔甲">
 		<set name="target" val="TARGET_SELF" />
 		<set name="skillType" val="BUFF" />
 		<set name="operateType" val="OP_PASSIVE" />
@@ -411,7 +411,7 @@
 			<add order="0x10" stat="cloak" val="1" />
 		</for>
 	</skill>
-	<skill id="3349" levels="1" name="Dynasty Breast Plate - Weapon Master">
+	<skill id="3349" levels="1" name="王朝盔甲">
 		<set name="target" val="TARGET_SELF" />
 		<set name="skillType" val="BUFF" />
 		<set name="operateType" val="OP_PASSIVE" />
@@ -426,7 +426,7 @@
 			<add order="0x10" stat="cloak" val="1" />
 		</for>
 	</skill>
-	<skill id="3350" levels="1" name="Dynasty Breast Plate - Force Master">
+	<skill id="3350" levels="1" name="王朝盔甲">
 		<set name="target" val="TARGET_SELF" />
 		<set name="skillType" val="BUFF" />
 		<set name="operateType" val="OP_PASSIVE" />
@@ -441,7 +441,7 @@
 			<add order="0x10" stat="cloak" val="1" />
 		</for>
 	</skill>
-	<skill id="3351" levels="1" name="Dynasty Breast Plate - Bard">
+	<skill id="3351" levels="1" name="王朝盔甲">
 		<set name="target" val="TARGET_SELF" />
 		<set name="skillType" val="BUFF" />
 		<set name="operateType" val="OP_PASSIVE" />
@@ -455,7 +455,7 @@
 			<add order="0x10" stat="cloak" val="1" />
 		</for>
 	</skill>
-	<skill id="3352" levels="1" name="Dynasty Leather Armor - Dagger Master">
+	<skill id="3352" levels="1" name="王朝皮甲">
 		<set name="target" val="TARGET_SELF" />
 		<set name="skillType" val="BUFF" />
 		<set name="operateType" val="OP_PASSIVE" />
@@ -470,7 +470,7 @@
 			<add order="0x10" stat="cloak" val="1" />
 		</for>
 	</skill>
-	<skill id="3353" levels="1" name="Dynasty Leather Armor - Bow Master">
+	<skill id="3353" levels="1" name="王朝皮甲">
 		<set name="target" val="TARGET_SELF" />
 		<set name="skillType" val="BUFF" />
 		<set name="operateType" val="OP_PASSIVE" />
@@ -485,7 +485,7 @@
 			<add order="0x10" stat="cloak" val="1" />
 		</for>
 	</skill>
-	<skill id="3354" levels="1" name="Dynasty Tunic - Healer">
+	<skill id="3354" levels="1" name="王朝長袍">
 		<set name="target" val="TARGET_SELF" />
 		<set name="skillType" val="BUFF" />
 		<set name="operateType" val="OP_PASSIVE" />
@@ -500,7 +500,7 @@
 			<add order="0x10" stat="cloak" val="1" />
 		</for>
 	</skill>
-	<skill id="3355" levels="1" name="Dynasty Tunic - Enchanter">
+	<skill id="3355" levels="1" name="王朝長袍">
 		<set name="target" val="TARGET_SELF" />
 		<set name="skillType" val="BUFF" />
 		<set name="operateType" val="OP_PASSIVE" />
@@ -509,7 +509,7 @@
 			<add order="0x10" stat="MEN" val="2" /> <!-- Men +2 -->
 			<sub order="0x10" stat="WIT" val="2"> <!-- Wit -2 -->
 				<using kind="Light" />
-			</sub>
+			</sub>	
 			<mul order="0x30" stat="mAtkSpd" val="1.15" /> <!-- Casting Spd. +15% -->
 			<add order="0x40" stat="maxMp" val="321" /> <!-- Max MP +321 -->
 			<add order="0x40" stat="darkRes" val="8" /> <!-- Dark Resistance +8 -->
@@ -518,7 +518,7 @@
 			<add order="0x10" stat="cloak" val="1" />
 		</for>
 	</skill>
-	<skill id="3356" levels="1" name="Dynasty Tunic - Summoner">
+	<skill id="3356" levels="1" name="王朝長袍">
 		<set name="target" val="TARGET_SELF" />
 		<set name="skillType" val="BUFF" />
 		<set name="operateType" val="OP_PASSIVE" />
@@ -533,7 +533,7 @@
 			<add order="0x10" stat="cloak" val="1" />
 		</for>
 	</skill>
-	<skill id="3357" levels="1" name="Dynasty Tunic - Wizard">
+	<skill id="3357" levels="1" name="王朝長袍">
 		<set name="target" val="TARGET_SELF" />
 		<set name="skillType" val="BUFF" />
 		<set name="operateType" val="OP_PASSIVE" />
@@ -548,7 +548,7 @@
 			<add order="0x10" stat="cloak" val="1" />
 		</for>
 	</skill>
-	<skill id="3358" levels="1" name="Flag Equip">
+	<skill id="3358" levels="1" name="裝備旗子">
 		<set name="target" val="TARGET_SELF" />
 		<set name="skillType" val="BUFF" />
 		<set name="operateType" val="OP_PASSIVE" />
@@ -556,7 +556,7 @@
 			<mul order="0x30" stat="runSpd" val="0.5" />
 		</for>
 	</skill>
-	<skill id="3359" levels="1" name="Transform Native">
+	<skill id="3359" levels="1" name="變身 土著">
 		<!-- Confirmed CT2.5 -->
 		<set name="aggroPoints" val="1" />
 		<set name="isMagic" val="true" />
@@ -572,12 +572,12 @@
 			<effect name="Transformation" time="300" val="0" stackOrder="1" stackType="transform" />
 		</for>
 	</skill>
-	<skill id="3360" levels="1" name="Cheap Shot">
+	<skill id="3360" levels="1" name="特殊能力輕射">
 		<set name="target" val="TARGET_NONE" />
 		<set name="skillType" val="NOTDONE" />
 		<set name="operateType" val="OP_PASSIVE" />
 	</skill>
-	<skill id="3361" levels="1" name="Summon Agathion - Fortress">
+	<skill id="3361" levels="1" name="壺精封印解除-要塞">
 		<set name="target" val="TARGET_SELF" />
 		<set name="skillType" val="AGATHION" />
 		<set name="hitTime" val="3000" />
@@ -585,22 +585,22 @@
 		<set name="operateType" val="OP_ACTIVE" />
 		<set name="npcId" val="16029" />
 	</skill>
-	<skill id="3362" levels="1" name="Traits Strengthen Necklace">
+	<skill id="3362" levels="1" name="特性強化項鍊">
 		<set name="target" val="TARGET_NONE" />
 		<set name="skillType" val="NOTDONE" />
 		<set name="operateType" val="OP_PASSIVE" />
 	</skill>
-	<skill id="3363" levels="1" name="Traits Strengthen Ring">
+	<skill id="3363" levels="1" name="特性強化戒指">
 		<set name="target" val="TARGET_NONE" />
 		<set name="skillType" val="NOTDONE" />
 		<set name="operateType" val="OP_PASSIVE" />
 	</skill>
-	<skill id="3364" levels="1" name="Traits Strengthen Earring">
+	<skill id="3364" levels="1" name="特性強化耳環">
 		<set name="target" val="TARGET_NONE" />
 		<set name="skillType" val="NOTDONE" />
 		<set name="operateType" val="OP_PASSIVE" />
 	</skill>
-	<skill id="3365" levels="1" name="Dynasty Resistance Necklace">
+	<skill id="3365" levels="1" name="特性抵抗項鍊">
 		<set name="target" val="TARGET_SELF" />
 		<set name="skillType" val="BUFF" />
 		<set name="operateType" val="OP_PASSIVE" />
@@ -608,7 +608,7 @@
 			<sub order="0x40" stat="stunVuln" val="18" /> <!-- Stun Resistance +18 -->
 		</for>
 	</skill>
-	<skill id="3366" levels="1" name="Dynasty Resistance Ring">
+	<skill id="3366" levels="1" name="特性抵抗戒指">
 		<set name="target" val="TARGET_SELF" />
 		<set name="skillType" val="BUFF" />
 		<set name="operateType" val="OP_PASSIVE" />
@@ -616,7 +616,7 @@
 			<sub order="0x40" stat="stunVuln" val="8" /> <!-- Stun Resistance +8 -->
 		</for>
 	</skill>
-	<skill id="3367" levels="1" name="Dynasty Resistance Earring">
+	<skill id="3367" levels="1" name="特性抵抗耳環">
 		<set name="target" val="TARGET_SELF" />
 		<set name="skillType" val="BUFF" />
 		<set name="operateType" val="OP_PASSIVE" />
@@ -624,22 +624,22 @@
 			<sub order="0x40" stat="stunVuln" val="12" /> <!-- Stun Resistance +12 -->
 		</for>
 	</skill>
-	<skill id="3368" levels="1" name="Traits Strengthen Necklace">
+	<skill id="3368" levels="1" name="特性強化項鍊">
 		<set name="target" val="TARGET_NONE" />
 		<set name="skillType" val="NOTDONE" />
 		<set name="operateType" val="OP_PASSIVE" />
 	</skill>
-	<skill id="3369" levels="1" name="Traits Strengthen Ring">
+	<skill id="3369" levels="1" name="特性強化戒指">
 		<set name="target" val="TARGET_NONE" />
 		<set name="skillType" val="NOTDONE" />
 		<set name="operateType" val="OP_PASSIVE" />
 	</skill>
-	<skill id="3370" levels="1" name="Traits Strengthen Earring">
+	<skill id="3370" levels="1" name="特性強化耳環">
 		<set name="target" val="TARGET_NONE" />
 		<set name="skillType" val="NOTDONE" />
 		<set name="operateType" val="OP_PASSIVE" />
 	</skill>
-	<skill id="3371" levels="1" name="Dynasty Resistance Necklace">
+	<skill id="3371" levels="1" name="特性抵抗項鍊">
 		<set name="target" val="TARGET_SELF" />
 		<set name="skillType" val="BUFF" />
 		<set name="operateType" val="OP_PASSIVE" />
@@ -647,7 +647,7 @@
 			<sub order="0x40" stat="bleedVuln" val="11" /> <!-- Bleed Resistance +11 -->
 		</for>
 	</skill>
-	<skill id="3372" levels="1" name="Dynasty Resistance Ring">
+	<skill id="3372" levels="1" name="特性抵抗戒指">
 		<set name="target" val="TARGET_SELF" />
 		<set name="skillType" val="BUFF" />
 		<set name="operateType" val="OP_PASSIVE" />
@@ -655,7 +655,7 @@
 			<sub order="0x40" stat="bleedVuln" val="5" /> <!-- Bleed Resistance +5 -->
 		</for>
 	</skill>
-	<skill id="3373" levels="1" name="Dynasty Resistance Earring">
+	<skill id="3373" levels="1" name="特性抵抗耳環">
 		<set name="target" val="TARGET_SELF" />
 		<set name="skillType" val="BUFF" />
 		<set name="operateType" val="OP_PASSIVE" />
@@ -663,22 +663,22 @@
 			<sub order="0x40" stat="bleedVuln" val="8" /> <!-- Bleed Resistance +8 -->
 		</for>
 	</skill>
-	<skill id="3374" levels="1" name="Traits Strengthen Necklace">
+	<skill id="3374" levels="1" name="特性強化項鍊">
 		<set name="target" val="TARGET_NONE" />
 		<set name="skillType" val="NOTDONE" />
 		<set name="operateType" val="OP_PASSIVE" />
 	</skill>
-	<skill id="3375" levels="1" name="Traits Strengthen Ring">
+	<skill id="3375" levels="1" name="特性強化戒指">
 		<set name="target" val="TARGET_NONE" />
 		<set name="skillType" val="NOTDONE" />
 		<set name="operateType" val="OP_PASSIVE" />
 	</skill>
-	<skill id="3376" levels="1" name="Traits Strengthen Earring">
+	<skill id="3376" levels="1" name="特性強化耳環">
 		<set name="target" val="TARGET_NONE" />
 		<set name="skillType" val="NOTDONE" />
 		<set name="operateType" val="OP_PASSIVE" />
 	</skill>
-	<skill id="3377" levels="1" name="Dynasty Resistance Necklace">
+	<skill id="3377" levels="1" name="特性抵抗項鍊">
 		<set name="target" val="TARGET_SELF" />
 		<set name="skillType" val="BUFF" />
 		<set name="operateType" val="OP_PASSIVE" />
@@ -686,7 +686,7 @@
 			<sub order="0x40" stat="poisonVuln" val="16" /> <!-- Poison Resistance +16 -->
 		</for>
 	</skill>
-	<skill id="3378" levels="1" name="Dynasty Resistance Ring">
+	<skill id="3378" levels="1" name="特性抵抗戒指">
 		<set name="target" val="TARGET_SELF" />
 		<set name="skillType" val="BUFF" />
 		<set name="operateType" val="OP_PASSIVE" />
@@ -694,7 +694,7 @@
 			<sub order="0x40" stat="poisonVuln" val="7" /> <!-- Poison Resistance +7 -->
 		</for>
 	</skill>
-	<skill id="3379" levels="1" name="Dynasty Resistance Earring">
+	<skill id="3379" levels="1" name="特性抵抗耳環">
 		<set name="target" val="TARGET_SELF" />
 		<set name="skillType" val="BUFF" />
 		<set name="operateType" val="OP_PASSIVE" />
@@ -702,22 +702,22 @@
 			<sub order="0x40" stat="poisonVuln" val="11" /> <!-- Poison Resistance +11 -->
 		</for>
 	</skill>
-	<skill id="3380" levels="1" name="Traits Strengthen Necklace">
+	<skill id="3380" levels="1" name="特性強化項鍊">
 		<set name="target" val="TARGET_NONE" />
 		<set name="skillType" val="NOTDONE" />
 		<set name="operateType" val="OP_PASSIVE" />
 	</skill>
-	<skill id="3381" levels="1" name="Traits Strengthen Ring">
+	<skill id="3381" levels="1" name="特性強化戒指">
 		<set name="target" val="TARGET_NONE" />
 		<set name="skillType" val="NOTDONE" />
 		<set name="operateType" val="OP_PASSIVE" />
 	</skill>
-	<skill id="3382" levels="1" name="Traits Strengthen Earring">
+	<skill id="3382" levels="1" name="特性強化耳環">
 		<set name="target" val="TARGET_NONE" />
 		<set name="skillType" val="NOTDONE" />
 		<set name="operateType" val="OP_PASSIVE" />
 	</skill>
-	<skill id="3383" levels="1" name="Dynasty Resistance Necklace">
+	<skill id="3383" levels="1" name="特性抵抗項鍊">
 		<set name="target" val="TARGET_SELF" />
 		<set name="skillType" val="BUFF" />
 		<set name="operateType" val="OP_PASSIVE" />
@@ -725,7 +725,7 @@
 			<sub order="0x40" stat="paralyzeVuln" val="9" /> <!-- Paralysis Resistance +9 -->
 		</for>
 	</skill>
-	<skill id="3384" levels="1" name="Dynasty Resistance Ring">
+	<skill id="3384" levels="1" name="特性抵抗戒指">
 		<set name="target" val="TARGET_SELF" />
 		<set name="skillType" val="BUFF" />
 		<set name="operateType" val="OP_PASSIVE" />
@@ -733,7 +733,7 @@
 			<sub order="0x40" stat="paralyzeVuln" val="4" /> <!-- Paralysis Resistance +4 -->
 		</for>
 	</skill>
-	<skill id="3385" levels="1" name="Dynasty Resistance Earring">
+	<skill id="3385" levels="1" name="特性抵抗耳環">
 		<set name="target" val="TARGET_SELF" />
 		<set name="skillType" val="BUFF" />
 		<set name="operateType" val="OP_PASSIVE" />
@@ -741,22 +741,22 @@
 			<sub order="0x40" stat="paralyzeVuln" val="6" /> <!-- Paralysis Resistance +6 -->
 		</for>
 	</skill>
-	<skill id="3386" levels="1" name="Traits Strengthen Necklace">
+	<skill id="3386" levels="1" name="特性強化項鍊">
 		<set name="target" val="TARGET_NONE" />
 		<set name="skillType" val="NOTDONE" />
 		<set name="operateType" val="OP_PASSIVE" />
 	</skill>
-	<skill id="3387" levels="1" name="Traits Strengthen Ring">
+	<skill id="3387" levels="1" name="特性強化戒指">
 		<set name="target" val="TARGET_NONE" />
 		<set name="skillType" val="NOTDONE" />
 		<set name="operateType" val="OP_PASSIVE" />
 	</skill>
-	<skill id="3388" levels="1" name="Traits Strengthen Earring">
+	<skill id="3388" levels="1" name="特性強化耳環">
 		<set name="target" val="TARGET_NONE" />
 		<set name="skillType" val="NOTDONE" />
 		<set name="operateType" val="OP_PASSIVE" />
 	</skill>
-	<skill id="3389" levels="1" name="Dynasty Resistance Necklace">
+	<skill id="3389" levels="1" name="特性抵抗項鍊">
 		<set name="target" val="TARGET_SELF" />
 		<set name="skillType" val="BUFF" />
 		<set name="operateType" val="OP_PASSIVE" />
@@ -764,7 +764,7 @@
 			<sub order="0x40" stat="rootVuln" val="18" /> <!-- Hold Resistance +18 -->
 		</for>
 	</skill>
-	<skill id="3390" levels="1" name="Dynasty Resistance Ring">
+	<skill id="3390" levels="1" name="特性抵抗戒指">
 		<set name="target" val="TARGET_SELF" />
 		<set name="skillType" val="BUFF" />
 		<set name="operateType" val="OP_PASSIVE" />
@@ -772,7 +772,7 @@
 			<sub order="0x40" stat="rootVuln" val="8" /> <!-- Hold Resistance +8 -->
 		</for>
 	</skill>
-	<skill id="3391" levels="1" name="Dynasty Resistance Earring">
+	<skill id="3391" levels="1" name="特性抵抗耳環">
 		<set name="target" val="TARGET_SELF" />
 		<set name="skillType" val="BUFF" />
 		<set name="operateType" val="OP_PASSIVE" />
@@ -780,22 +780,22 @@
 			<sub order="0x40" stat="rootVuln" val="12" /> <!-- Hold Resistance +12 -->
 		</for>
 	</skill>
-	<skill id="3392" levels="1" name="Traits Strengthen Necklace">
+	<skill id="3392" levels="1" name="特性強化項鍊">
 		<set name="target" val="TARGET_NONE" />
 		<set name="skillType" val="NOTDONE" />
 		<set name="operateType" val="OP_PASSIVE" />
 	</skill>
-	<skill id="3393" levels="1" name="Traits Strengthen Ring">
+	<skill id="3393" levels="1" name="特性強化戒指">
 		<set name="target" val="TARGET_NONE" />
 		<set name="skillType" val="NOTDONE" />
 		<set name="operateType" val="OP_PASSIVE" />
 	</skill>
-	<skill id="3394" levels="1" name="Traits Strengthen Earring">
+	<skill id="3394" levels="1" name="特性強化耳環">
 		<set name="target" val="TARGET_NONE" />
 		<set name="skillType" val="NOTDONE" />
 		<set name="operateType" val="OP_PASSIVE" />
 	</skill>
-	<skill id="3395" levels="1" name="Dynasty Resistance Necklace">
+	<skill id="3395" levels="1" name="特性抵抗項鍊">
 		<set name="target" val="TARGET_SELF" />
 		<set name="skillType" val="BUFF" />
 		<set name="operateType" val="OP_PASSIVE" />
@@ -803,7 +803,7 @@
 			<sub order="0x40" stat="sleepVuln" val="18" /> <!-- Sleep Resistance +18 -->
 		</for>
 	</skill>
-	<skill id="3396" levels="1" name="Dynasty Resistance Ring">
+	<skill id="3396" levels="1" name="特性抵抗戒指">
 		<set name="target" val="TARGET_SELF" />
 		<set name="skillType" val="BUFF" />
 		<set name="operateType" val="OP_PASSIVE" />
@@ -811,7 +811,7 @@
 			<sub order="0x40" stat="sleepVuln" val="8" /> <!-- Sleep Resistance +8 -->
 		</for>
 	</skill>
-	<skill id="3397" levels="1" name="Dynasty Resistance Earring">
+	<skill id="3397" levels="1" name="特性抵抗耳環">
 		<set name="target" val="TARGET_SELF" />
 		<set name="skillType" val="BUFF" />
 		<set name="operateType" val="OP_PASSIVE" />
@@ -819,12 +819,12 @@
 			<sub order="0x40" stat="sleepVuln" val="12" /> <!-- Sleep Resistance +12 -->
 		</for>
 	</skill>
-	<skill id="3398" levels="1" name="Traits Strengthen Necklace">
+	<skill id="3398" levels="1" name="特性強化項鍊">
 		<set name="target" val="TARGET_NONE" />
 		<set name="skillType" val="NOTDONE" />
 		<set name="operateType" val="OP_PASSIVE" />
 	</skill>
-	<skill id="3399" levels="1" name="Traits Strengthen Ring">
+	<skill id="3399" levels="1" name="特性強化戒指">
 		<set name="target" val="TARGET_NONE" />
 		<set name="skillType" val="NOTDONE" />
 		<set name="operateType" val="OP_PASSIVE" />

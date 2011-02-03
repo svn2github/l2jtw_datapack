@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <list>
-	<skill id="2700" levels="1" name="Giran Dwarf Mercenary">
+	<skill id="2700" levels="1" name="奇岩矮人傭兵">
 		<set name="target" val="TARGET_SELF" />
 		<set name="skillType" val="BUFF" />
 		<set name="isMagic" val="true" />
@@ -21,7 +21,7 @@
 			<effect name="Transformation" time="1800" val="0" stackOrder="1" stackType="transform" /> <!-- Transformation lasts 30 minutes -->
 		</for>
 	</skill>
-	<skill id="2701" levels="1" name="Giran Kamael Mercenary">
+	<skill id="2701" levels="1" name="奇岩闇天使傭兵">
 		<set name="target" val="TARGET_SELF" />
 		<set name="skillType" val="BUFF" />
 		<set name="isMagic" val="true" />
@@ -42,7 +42,7 @@
 			<effect name="Transformation" time="1800" val="0" stackOrder="1" stackType="transform" /> <!-- Transformation lasts 30 minutes -->
 		</for>
 	</skill>
-	<skill id="2702" levels="1" name="Giran Knight Mercenary">
+	<skill id="2702" levels="1" name="奇岩親衛隊長">
 		<set name="target" val="TARGET_SELF" />
 		<set name="skillType" val="BUFF" />
 		<set name="isMagic" val="true" />
@@ -63,7 +63,7 @@
 			<effect name="Transformation" time="1800" val="0" stackOrder="1" stackType="transform" /> <!-- Transformation lasts 30 minutes -->
 		</for>
 	</skill>
-	<skill id="2703" levels="1" name="Giran Archer Mercenary">
+	<skill id="2703" levels="1" name="奇岩弓手隊長">
 		<set name="target" val="TARGET_SELF" />
 		<set name="skillType" val="BUFF" />
 		<set name="isMagic" val="true" />
@@ -84,7 +84,7 @@
 			<effect name="Transformation" time="1800" val="0" stackOrder="1" stackType="transform" /> <!-- Transformation lasts 30 minutes -->
 		</for>
 	</skill>
-	<skill id="2704" levels="1" name="Giran Wizard Mercenary">
+	<skill id="2704" levels="1" name="奇岩魔法隊長">
 		<set name="target" val="TARGET_SELF" />
 		<set name="skillType" val="BUFF" />
 		<set name="isMagic" val="true" />
@@ -105,7 +105,7 @@
 			<effect name="Transformation" time="1800" val="0" stackOrder="1" stackType="transform" /> <!-- Transformation lasts 30 minutes -->
 		</for>
 	</skill>
-	<skill id="2705" levels="1" name="Giran Kamael Captain Mercenary">
+	<skill id="2705" levels="1" name="奇岩闇天使警衛隊長">
 		<set name="target" val="TARGET_SELF" />
 		<set name="skillType" val="BUFF" />
 		<set name="isMagic" val="true" />
@@ -126,7 +126,7 @@
 			<effect name="Transformation" time="1800" val="0" stackOrder="1" stackType="transform" /> <!-- Transformation lasts 30 minutes -->
 		</for>
 	</skill>
-	<skill id="2706" levels="1" name="Giran Knight Captain Mercenary">
+	<skill id="2706" levels="1" name="奇岩黎明的騎士">
 		<set name="target" val="TARGET_SELF" />
 		<set name="skillType" val="BUFF" />
 		<set name="isMagic" val="true" />
@@ -147,7 +147,7 @@
 			<effect name="Transformation" time="1800" val="0" stackOrder="1" stackType="transform" /> <!-- Transformation lasts 30 minutes -->
 		</for>
 	</skill>
-	<skill id="2707" levels="1" name="Giran Commander Mercenary">
+	<skill id="2707" levels="1" name="奇岩要塞隊長">
 		<set name="target" val="TARGET_SELF" />
 		<set name="skillType" val="BUFF" />
 		<set name="isMagic" val="true" />
@@ -168,7 +168,7 @@
 			<effect name="Transformation" time="1800" val="0" stackOrder="1" stackType="transform" /> <!-- Transformation lasts 30 minutes -->
 		</for>
 	</skill>
-	<skill id="2708" levels="1" name="Oren Human Mercenary">
+	<skill id="2708" levels="1" name="歐瑞人類傭兵">
 		<set name="target" val="TARGET_SELF" />
 		<set name="skillType" val="BUFF" />
 		<set name="isMagic" val="true" />
@@ -189,7 +189,7 @@
 			<effect name="Transformation" time="1800" val="0" stackOrder="1" stackType="transform" /> <!-- Transformation lasts 30 minutes -->
 		</for>
 	</skill>
-	<skill id="2709" levels="1" name="Oren Elf Mercenary">
+	<skill id="2709" levels="1" name="歐瑞精靈傭兵">
 		<set name="target" val="TARGET_SELF" />
 		<set name="skillType" val="BUFF" />
 		<set name="isMagic" val="true" />
@@ -210,7 +210,7 @@
 			<effect name="Transformation" time="1800" val="0" stackOrder="1" stackType="transform" /> <!-- Transformation lasts 30 minutes -->
 		</for>
 	</skill>
-	<skill id="2710" levels="1" name="Oren Dark Elf Mercenary">
+	<skill id="2710" levels="1" name="歐瑞黑暗精靈傭兵">
 		<set name="target" val="TARGET_SELF" />
 		<set name="skillType" val="BUFF" />
 		<set name="isMagic" val="true" />
@@ -231,7 +231,7 @@
 			<effect name="Transformation" time="1800" val="0" stackOrder="1" stackType="transform" /> <!-- Transformation lasts 30 minutes -->
 		</for>
 	</skill>
-	<skill id="2711" levels="1" name="Oren Orc Mercenary">
+	<skill id="2711" levels="1" name="歐瑞半獸人傭兵">
 		<set name="target" val="TARGET_SELF" />
 		<set name="skillType" val="BUFF" />
 		<set name="isMagic" val="true" />
@@ -252,7 +252,7 @@
 			<effect name="Transformation" time="1800" val="0" stackOrder="1" stackType="transform" /> <!-- Transformation lasts 30 minutes -->
 		</for>
 	</skill>
-	<skill id="2712" levels="1" name="Oren Dwarf Mercenary">
+	<skill id="2712" levels="1" name="歐瑞矮人傭兵">
 		<set name="target" val="TARGET_SELF" />
 		<set name="skillType" val="BUFF" />
 		<set name="isMagic" val="true" />
@@ -273,7 +273,7 @@
 			<effect name="Transformation" time="1800" val="0" stackOrder="1" stackType="transform" /> <!-- Transformation lasts 30 minutes -->
 		</for>
 	</skill>
-	<skill id="2713" levels="1" name="Oren Kamael Mercenary">
+	<skill id="2713" levels="1" name="歐瑞闇天使傭兵">
 		<set name="target" val="TARGET_SELF" />
 		<set name="skillType" val="BUFF" />
 		<set name="isMagic" val="true" />
@@ -294,7 +294,7 @@
 			<effect name="Transformation" time="1800" val="0" stackOrder="1" stackType="transform" /> <!-- Transformation lasts 30 minutes -->
 		</for>
 	</skill>
-	<skill id="2714" levels="1" name="Oren Knight Mercenary">
+	<skill id="2714" levels="1" name="歐瑞親衛隊長">
 		<set name="target" val="TARGET_SELF" />
 		<set name="skillType" val="BUFF" />
 		<set name="isMagic" val="true" />
@@ -315,7 +315,7 @@
 			<effect name="Transformation" time="1800" val="0" stackOrder="1" stackType="transform" /> <!-- Transformation lasts 30 minutes -->
 		</for>
 	</skill>
-	<skill id="2715" levels="1" name="Oren Archer Mercenary">
+	<skill id="2715" levels="1" name="歐瑞弓手隊長">
 		<set name="target" val="TARGET_SELF" />
 		<set name="skillType" val="BUFF" />
 		<set name="isMagic" val="true" />
@@ -336,7 +336,7 @@
 			<effect name="Transformation" time="1800" val="0" stackOrder="1" stackType="transform" /> <!-- Transformation lasts 30 minutes -->
 		</for>
 	</skill>
-	<skill id="2716" levels="1" name="Oren Wizard Mercenary">
+	<skill id="2716" levels="1" name="歐瑞魔法隊長">
 		<set name="target" val="TARGET_SELF" />
 		<set name="skillType" val="BUFF" />
 		<set name="isMagic" val="true" />
@@ -357,7 +357,7 @@
 			<effect name="Transformation" time="1800" val="0" stackOrder="1" stackType="transform" /> <!-- Transformation lasts 30 minutes -->
 		</for>
 	</skill>
-	<skill id="2717" levels="1" name="Oren Kamael Captain Mercenary">
+	<skill id="2717" levels="1" name="歐瑞闇天使警衛隊長">
 		<set name="target" val="TARGET_SELF" />
 		<set name="skillType" val="BUFF" />
 		<set name="isMagic" val="true" />
@@ -378,7 +378,7 @@
 			<effect name="Transformation" time="1800" val="0" stackOrder="1" stackType="transform" /> <!-- Transformation lasts 30 minutes -->
 		</for>
 	</skill>
-	<skill id="2718" levels="1" name="Oren Knight Captain Mercenary">
+	<skill id="2718" levels="1" name="歐瑞黎明的騎士">
 		<set name="target" val="TARGET_SELF" />
 		<set name="skillType" val="BUFF" />
 		<set name="isMagic" val="true" />
@@ -399,7 +399,7 @@
 			<effect name="Transformation" time="1800" val="0" stackOrder="1" stackType="transform" /> <!-- Transformation lasts 30 minutes -->
 		</for>
 	</skill>
-	<skill id="2719" levels="1" name="Oren Commander Mercenary">
+	<skill id="2719" levels="1" name="歐瑞要塞隊長">
 		<set name="target" val="TARGET_SELF" />
 		<set name="skillType" val="BUFF" />
 		<set name="isMagic" val="true" />
@@ -420,7 +420,7 @@
 			<effect name="Transformation" time="1800" val="0" stackOrder="1" stackType="transform" /> <!-- Transformation lasts 30 minutes -->
 		</for>
 	</skill>
-	<skill id="2720" levels="1" name="Aden Human Mercenary">
+	<skill id="2720" levels="1" name="亞丁人類傭兵">
 		<set name="target" val="TARGET_SELF" />
 		<set name="skillType" val="BUFF" />
 		<set name="isMagic" val="true" />
@@ -441,7 +441,7 @@
 			<effect name="Transformation" time="1800" val="0" stackOrder="1" stackType="transform" /> <!-- Transformation lasts 30 minutes -->
 		</for>
 	</skill>
-	<skill id="2721" levels="1" name="Aden Elf Mercenary">
+	<skill id="2721" levels="1" name="亞丁精靈傭兵">
 		<set name="target" val="TARGET_SELF" />
 		<set name="skillType" val="BUFF" />
 		<set name="isMagic" val="true" />
@@ -462,7 +462,7 @@
 			<effect name="Transformation" time="1800" val="0" stackOrder="1" stackType="transform" /> <!-- Transformation lasts 30 minutes -->
 		</for>
 	</skill>
-	<skill id="2722" levels="1" name="Aden Dark Elf Mercenary">
+	<skill id="2722" levels="1" name="亞丁黑暗精靈傭兵">
 		<set name="target" val="TARGET_SELF" />
 		<set name="skillType" val="BUFF" />
 		<set name="isMagic" val="true" />
@@ -483,7 +483,7 @@
 			<effect name="Transformation" time="1800" val="0" stackOrder="1" stackType="transform" /> <!-- Transformation lasts 30 minutes -->
 		</for>
 	</skill>
-	<skill id="2723" levels="1" name="Aden Orc Mercenary">
+	<skill id="2723" levels="1" name="亞丁半獸人傭兵">
 		<set name="target" val="TARGET_SELF" />
 		<set name="skillType" val="BUFF" />
 		<set name="isMagic" val="true" />
@@ -504,7 +504,7 @@
 			<effect name="Transformation" time="1800" val="0" stackOrder="1" stackType="transform" /> <!-- Transformation lasts 30 minutes -->
 		</for>
 	</skill>
-	<skill id="2724" levels="1" name="Aden Dwarf Mercenary">
+	<skill id="2724" levels="1" name="亞丁矮人傭兵">
 		<set name="target" val="TARGET_SELF" />
 		<set name="skillType" val="BUFF" />
 		<set name="isMagic" val="true" />
@@ -525,7 +525,7 @@
 			<effect name="Transformation" time="1800" val="0" stackOrder="1" stackType="transform" /> <!-- Transformation lasts 30 minutes -->
 		</for>
 	</skill>
-	<skill id="2725" levels="1" name="Aden Kamael Mercenary">
+	<skill id="2725" levels="1" name="亞丁闇天使傭兵">
 		<set name="target" val="TARGET_SELF" />
 		<set name="skillType" val="BUFF" />
 		<set name="isMagic" val="true" />
@@ -546,7 +546,7 @@
 			<effect name="Transformation" time="1800" val="0" stackOrder="1" stackType="transform" /> <!-- Transformation lasts 30 minutes -->
 		</for>
 	</skill>
-	<skill id="2726" levels="1" name="Aden Knight Mercenary">
+	<skill id="2726" levels="1" name="亞丁親衛隊長">
 		<set name="target" val="TARGET_SELF" />
 		<set name="skillType" val="BUFF" />
 		<set name="isMagic" val="true" />
@@ -567,7 +567,7 @@
 			<effect name="Transformation" time="1800" val="0" stackOrder="1" stackType="transform" /> <!-- Transformation lasts 30 minutes -->
 		</for>
 	</skill>
-	<skill id="2727" levels="1" name="Aden Archer Mercenary">
+	<skill id="2727" levels="1" name="亞丁弓手隊長">
 		<set name="target" val="TARGET_SELF" />
 		<set name="skillType" val="BUFF" />
 		<set name="isMagic" val="true" />
@@ -588,7 +588,7 @@
 			<effect name="Transformation" time="1800" val="0" stackOrder="1" stackType="transform" /> <!-- Transformation lasts 30 minutes -->
 		</for>
 	</skill>
-	<skill id="2728" levels="1" name="Aden Wizard Mercenary">
+	<skill id="2728" levels="1" name="亞丁魔法隊長">
 		<set name="target" val="TARGET_SELF" />
 		<set name="skillType" val="BUFF" />
 		<set name="isMagic" val="true" />
@@ -609,7 +609,7 @@
 			<effect name="Transformation" time="1800" val="0" stackOrder="1" stackType="transform" /> <!-- Transformation lasts 30 minutes -->
 		</for>
 	</skill>
-	<skill id="2729" levels="1" name="Aden Kamael Captain Mercenary">
+	<skill id="2729" levels="1" name="亞丁闇天使警衛隊長">
 		<set name="target" val="TARGET_SELF" />
 		<set name="skillType" val="BUFF" />
 		<set name="isMagic" val="true" />
@@ -630,7 +630,7 @@
 			<effect name="Transformation" time="1800" val="0" stackOrder="1" stackType="transform" /> <!-- Transformation lasts 30 minutes -->
 		</for>
 	</skill>
-	<skill id="2730" levels="1" name="Aden Knight Captain Mercenary">
+	<skill id="2730" levels="1" name="亞丁黎明的騎士">
 		<set name="target" val="TARGET_SELF" />
 		<set name="skillType" val="BUFF" />
 		<set name="isMagic" val="true" />
@@ -651,7 +651,7 @@
 			<effect name="Transformation" time="1800" val="0" stackOrder="1" stackType="transform" /> <!-- Transformation lasts 30 minutes -->
 		</for>
 	</skill>
-	<skill id="2731" levels="1" name="Aden Commander Mercenary">
+	<skill id="2731" levels="1" name="亞丁要塞隊長">
 		<set name="target" val="TARGET_SELF" />
 		<set name="skillType" val="BUFF" />
 		<set name="isMagic" val="true" />
@@ -672,7 +672,7 @@
 			<effect name="Transformation" time="1800" val="0" stackOrder="1" stackType="transform" /> <!-- Transformation lasts 30 minutes -->
 		</for>
 	</skill>
-	<skill id="2732" levels="1" name="Innadril Human Mercenary">
+	<skill id="2732" levels="1" name="因納得立人類傭兵">
 		<set name="target" val="TARGET_SELF" />
 		<set name="skillType" val="BUFF" />
 		<set name="isMagic" val="true" />
@@ -693,7 +693,7 @@
 			<effect name="Transformation" time="1800" val="0" stackOrder="1" stackType="transform" /> <!-- Transformation lasts 30 minutes -->
 		</for>
 	</skill>
-	<skill id="2733" levels="1" name="Innadril Elf Mercenary">
+	<skill id="2733" levels="1" name="因納得立精靈傭兵">
 		<set name="target" val="TARGET_SELF" />
 		<set name="skillType" val="BUFF" />
 		<set name="isMagic" val="true" />
@@ -714,7 +714,7 @@
 			<effect name="Transformation" time="1800" val="0" stackOrder="1" stackType="transform" /> <!-- Transformation lasts 30 minutes -->
 		</for>
 	</skill>
-	<skill id="2734" levels="1" name="Innadril Dark Elf Mercenary">
+	<skill id="2734" levels="1" name="因納得立黑暗精靈傭兵">
 		<set name="target" val="TARGET_SELF" />
 		<set name="skillType" val="BUFF" />
 		<set name="isMagic" val="true" />
@@ -735,7 +735,7 @@
 			<effect name="Transformation" time="1800" val="0" stackOrder="1" stackType="transform" /> <!-- Transformation lasts 30 minutes -->
 		</for>
 	</skill>
-	<skill id="2735" levels="1" name="Innadril Orc Mercenary">
+	<skill id="2735" levels="1" name="因納得立半獸人傭兵">
 		<set name="target" val="TARGET_SELF" />
 		<set name="skillType" val="BUFF" />
 		<set name="isMagic" val="true" />
@@ -756,7 +756,7 @@
 			<effect name="Transformation" time="1800" val="0" stackOrder="1" stackType="transform" /> <!-- Transformation lasts 30 minutes -->
 		</for>
 	</skill>
-	<skill id="2736" levels="1" name="Innadril Dwarf Mercenary">
+	<skill id="2736" levels="1" name="因納得立矮人傭兵">
 		<set name="target" val="TARGET_SELF" />
 		<set name="skillType" val="BUFF" />
 		<set name="isMagic" val="true" />
@@ -777,7 +777,7 @@
 			<effect name="Transformation" time="1800" val="0" stackOrder="1" stackType="transform" /> <!-- Transformation lasts 30 minutes -->
 		</for>
 	</skill>
-	<skill id="2737" levels="1" name="Innadril Kamael Mercenary">
+	<skill id="2737" levels="1" name="因納得立闇天使傭兵">
 		<set name="target" val="TARGET_SELF" />
 		<set name="skillType" val="BUFF" />
 		<set name="isMagic" val="true" />
@@ -798,7 +798,7 @@
 			<effect name="Transformation" time="1800" val="0" stackOrder="1" stackType="transform" /> <!-- Transformation lasts 30 minutes -->
 		</for>
 	</skill>
-	<skill id="2738" levels="1" name="Innadril Knight Mercenary">
+	<skill id="2738" levels="1" name="因納得立親衛隊長">
 		<set name="target" val="TARGET_SELF" />
 		<set name="skillType" val="BUFF" />
 		<set name="isMagic" val="true" />
@@ -819,7 +819,7 @@
 			<effect name="Transformation" time="1800" val="0" stackOrder="1" stackType="transform" /> <!-- Transformation lasts 30 minutes -->
 		</for>
 	</skill>
-	<skill id="2739" levels="1" name="Innadril Archer Mercenary">
+	<skill id="2739" levels="1" name="因納得立弓手隊長">
 		<set name="target" val="TARGET_SELF" />
 		<set name="skillType" val="BUFF" />
 		<set name="isMagic" val="true" />
@@ -840,7 +840,7 @@
 			<effect name="Transformation" time="1800" val="0" stackOrder="1" stackType="transform" /> <!-- Transformation lasts 30 minutes -->
 		</for>
 	</skill>
-	<skill id="2740" levels="1" name="Innadril Wizard Mercenary">
+	<skill id="2740" levels="1" name="因納得立魔法隊長">
 		<set name="target" val="TARGET_SELF" />
 		<set name="skillType" val="BUFF" />
 		<set name="isMagic" val="true" />
@@ -861,7 +861,7 @@
 			<effect name="Transformation" time="1800" val="0" stackOrder="1" stackType="transform" /> <!-- Transformation lasts 30 minutes -->
 		</for>
 	</skill>
-	<skill id="2741" levels="1" name="Innadril Kamael Captain Mercenary">
+	<skill id="2741" levels="1" name="因納得立闇天使警衛隊長">
 		<set name="target" val="TARGET_SELF" />
 		<set name="skillType" val="BUFF" />
 		<set name="isMagic" val="true" />
@@ -882,7 +882,7 @@
 			<effect name="Transformation" time="1800" val="0" stackOrder="1" stackType="transform" /> <!-- Transformation lasts 30 minutes -->
 		</for>
 	</skill>
-	<skill id="2742" levels="1" name="Innadril Knight Captain Mercenary">
+	<skill id="2742" levels="1" name="因納得立黎明的騎士">
 		<set name="target" val="TARGET_SELF" />
 		<set name="skillType" val="BUFF" />
 		<set name="isMagic" val="true" />
@@ -903,7 +903,7 @@
 			<effect name="Transformation" time="1800" val="0" stackOrder="1" stackType="transform" /> <!-- Transformation lasts 30 minutes -->
 		</for>
 	</skill>
-	<skill id="2743" levels="1" name="Innadril Commander Mercenary">
+	<skill id="2743" levels="1" name="因納得立要塞隊長">
 		<set name="target" val="TARGET_SELF" />
 		<set name="skillType" val="BUFF" />
 		<set name="isMagic" val="true" />
@@ -924,7 +924,7 @@
 			<effect name="Transformation" time="1800" val="0" stackOrder="1" stackType="transform" /> <!-- Transformation lasts 30 minutes -->
 		</for>
 	</skill>
-	<skill id="2744" levels="1" name="Goddard Human Mercenary">
+	<skill id="2744" levels="1" name="高達特人類傭兵">
 		<set name="target" val="TARGET_SELF" />
 		<set name="skillType" val="BUFF" />
 		<set name="isMagic" val="true" />
@@ -945,7 +945,7 @@
 			<effect name="Transformation" time="1800" val="0" stackOrder="1" stackType="transform" /> <!-- Transformation lasts 30 minutes -->
 		</for>
 	</skill>
-	<skill id="2745" levels="1" name="Goddard Elf Mercenary">
+	<skill id="2745" levels="1" name="高達特精靈傭兵">
 		<set name="target" val="TARGET_SELF" />
 		<set name="skillType" val="BUFF" />
 		<set name="isMagic" val="true" />
@@ -966,7 +966,7 @@
 			<effect name="Transformation" time="1800" val="0" stackOrder="1" stackType="transform" /> <!-- Transformation lasts 30 minutes -->
 		</for>
 	</skill>
-	<skill id="2746" levels="1" name="Goddard Dark Elf Mercenary">
+	<skill id="2746" levels="1" name="高達特黑暗精靈傭兵">
 		<set name="target" val="TARGET_SELF" />
 		<set name="skillType" val="BUFF" />
 		<set name="isMagic" val="true" />
@@ -987,7 +987,7 @@
 			<effect name="Transformation" time="1800" val="0" stackOrder="1" stackType="transform" /> <!-- Transformation lasts 30 minutes -->
 		</for>
 	</skill>
-	<skill id="2747" levels="1" name="Goddard Orc Mercenary">
+	<skill id="2747" levels="1" name="高達特半獸人傭兵">
 		<set name="target" val="TARGET_SELF" />
 		<set name="skillType" val="BUFF" />
 		<set name="isMagic" val="true" />
@@ -1008,7 +1008,7 @@
 			<effect name="Transformation" time="1800" val="0" stackOrder="1" stackType="transform" /> <!-- Transformation lasts 30 minutes -->
 		</for>
 	</skill>
-	<skill id="2748" levels="1" name="Goddard Dwarf Mercenary">
+	<skill id="2748" levels="1" name="高達特矮人傭兵">
 		<set name="target" val="TARGET_SELF" />
 		<set name="skillType" val="BUFF" />
 		<set name="isMagic" val="true" />
@@ -1029,7 +1029,7 @@
 			<effect name="Transformation" time="1800" val="0" stackOrder="1" stackType="transform" /> <!-- Transformation lasts 30 minutes -->
 		</for>
 	</skill>
-	<skill id="2749" levels="1" name="Goddard Kamael Mercenary">
+	<skill id="2749" levels="1" name="高達特闇天使傭兵">
 		<set name="target" val="TARGET_SELF" />
 		<set name="skillType" val="BUFF" />
 		<set name="isMagic" val="true" />
@@ -1050,7 +1050,7 @@
 			<effect name="Transformation" time="1800" val="0" stackOrder="1" stackType="transform" /> <!-- Transformation lasts 30 minutes -->
 		</for>
 	</skill>
-	<skill id="2750" levels="1" name="Goddard Knight Mercenary">
+	<skill id="2750" levels="1" name="高達特親衛隊長">
 		<set name="target" val="TARGET_SELF" />
 		<set name="skillType" val="BUFF" />
 		<set name="isMagic" val="true" />
@@ -1071,7 +1071,7 @@
 			<effect name="Transformation" time="1800" val="0" stackOrder="1" stackType="transform" /> <!-- Transformation lasts 30 minutes -->
 		</for>
 	</skill>
-	<skill id="2751" levels="1" name="Goddard Archer Mercenary">
+	<skill id="2751" levels="1" name="高達特弓手隊長">
 		<set name="target" val="TARGET_SELF" />
 		<set name="skillType" val="BUFF" />
 		<set name="isMagic" val="true" />
@@ -1092,7 +1092,7 @@
 			<effect name="Transformation" time="1800" val="0" stackOrder="1" stackType="transform" /> <!-- Transformation lasts 30 minutes -->
 		</for>
 	</skill>
-	<skill id="2752" levels="1" name="Goddard Wizard Mercenary">
+	<skill id="2752" levels="1" name="高達特魔法隊長">
 		<set name="target" val="TARGET_SELF" />
 		<set name="skillType" val="BUFF" />
 		<set name="isMagic" val="true" />
@@ -1113,7 +1113,7 @@
 			<effect name="Transformation" time="1800" val="0" stackOrder="1" stackType="transform" /> <!-- Transformation lasts 30 minutes -->
 		</for>
 	</skill>
-	<skill id="2753" levels="1" name="Goddard Kamael Captain Mercenary">
+	<skill id="2753" levels="1" name="高達特闇天使警衛隊長">
 		<set name="target" val="TARGET_SELF" />
 		<set name="skillType" val="BUFF" />
 		<set name="isMagic" val="true" />
@@ -1134,7 +1134,7 @@
 			<effect name="Transformation" time="1800" val="0" stackOrder="1" stackType="transform" /> <!-- Transformation lasts 30 minutes -->
 		</for>
 	</skill>
-	<skill id="2754" levels="1" name="Goddard Knight Captain Mercenary">
+	<skill id="2754" levels="1" name="高達特黎明的騎士">
 		<set name="target" val="TARGET_SELF" />
 		<set name="skillType" val="BUFF" />
 		<set name="isMagic" val="true" />
@@ -1155,7 +1155,7 @@
 			<effect name="Transformation" time="1800" val="0" stackOrder="1" stackType="transform" /> <!-- Transformation lasts 30 minutes -->
 		</for>
 	</skill>
-	<skill id="2755" levels="1" name="Goddard Commander Mercenary">
+	<skill id="2755" levels="1" name="高達特要塞隊長">
 		<set name="target" val="TARGET_SELF" />
 		<set name="skillType" val="BUFF" />
 		<set name="isMagic" val="true" />
@@ -1176,7 +1176,7 @@
 			<effect name="Transformation" time="1800" val="0" stackOrder="1" stackType="transform" /> <!-- Transformation lasts 30 minutes -->
 		</for>
 	</skill>
-	<skill id="2756" levels="1" name="Rune Human Mercenary">
+	<skill id="2756" levels="1" name="魯因人類傭兵">
 		<set name="target" val="TARGET_SELF" />
 		<set name="skillType" val="BUFF" />
 		<set name="isMagic" val="true" />
@@ -1197,7 +1197,7 @@
 			<effect name="Transformation" time="1800" val="0" stackOrder="1" stackType="transform" /> <!-- Transformation lasts 30 minutes -->
 		</for>
 	</skill>
-	<skill id="2757" levels="1" name="Rune Elf Mercenary">
+	<skill id="2757" levels="1" name="魯因精靈傭兵">
 		<set name="target" val="TARGET_SELF" />
 		<set name="skillType" val="BUFF" />
 		<set name="isMagic" val="true" />
@@ -1218,7 +1218,7 @@
 			<effect name="Transformation" time="1800" val="0" stackOrder="1" stackType="transform" /> <!-- Transformation lasts 30 minutes -->
 		</for>
 	</skill>
-	<skill id="2758" levels="1" name="Rune Dark Elf Mercenary">
+	<skill id="2758" levels="1" name="魯因黑暗精靈傭兵">
 		<set name="target" val="TARGET_SELF" />
 		<set name="skillType" val="BUFF" />
 		<set name="isMagic" val="true" />
@@ -1239,7 +1239,7 @@
 			<effect name="Transformation" time="1800" val="0" stackOrder="1" stackType="transform" /> <!-- Transformation lasts 30 minutes -->
 		</for>
 	</skill>
-	<skill id="2759" levels="1" name="Rune Orc Mercenary">
+	<skill id="2759" levels="1" name="魯因半獸人傭兵">
 		<set name="target" val="TARGET_SELF" />
 		<set name="skillType" val="BUFF" />
 		<set name="isMagic" val="true" />
@@ -1260,7 +1260,7 @@
 			<effect name="Transformation" time="1800" val="0" stackOrder="1" stackType="transform" /> <!-- Transformation lasts 30 minutes -->
 		</for>
 	</skill>
-	<skill id="2760" levels="1" name="Rune Dwarf Mercenary">
+	<skill id="2760" levels="1" name="魯因矮人傭兵">
 		<set name="target" val="TARGET_SELF" />
 		<set name="skillType" val="BUFF" />
 		<set name="isMagic" val="true" />
@@ -1281,7 +1281,7 @@
 			<effect name="Transformation" time="1800" val="0" stackOrder="1" stackType="transform" /> <!-- Transformation lasts 30 minutes -->
 		</for>
 	</skill>
-	<skill id="2761" levels="1" name="Rune Kamael Mercenary">
+	<skill id="2761" levels="1" name="魯因闇天使傭兵">
 		<set name="target" val="TARGET_SELF" />
 		<set name="skillType" val="BUFF" />
 		<set name="isMagic" val="true" />
@@ -1302,7 +1302,7 @@
 			<effect name="Transformation" time="1800" val="0" stackOrder="1" stackType="transform" /> <!-- Transformation lasts 30 minutes -->
 		</for>
 	</skill>
-	<skill id="2762" levels="1" name="Rune Knight Mercenary">
+	<skill id="2762" levels="1" name="魯因親衛隊長">
 		<set name="target" val="TARGET_SELF" />
 		<set name="skillType" val="BUFF" />
 		<set name="isMagic" val="true" />
@@ -1323,7 +1323,7 @@
 			<effect name="Transformation" time="1800" val="0" stackOrder="1" stackType="transform" /> <!-- Transformation lasts 30 minutes -->
 		</for>
 	</skill>
-	<skill id="2763" levels="1" name="Rune Archer Mercenary">
+	<skill id="2763" levels="1" name="魯因弓手隊長">
 		<set name="target" val="TARGET_SELF" />
 		<set name="skillType" val="BUFF" />
 		<set name="isMagic" val="true" />
@@ -1344,7 +1344,7 @@
 			<effect name="Transformation" time="1800" val="0" stackOrder="1" stackType="transform" /> <!-- Transformation lasts 30 minutes -->
 		</for>
 	</skill>
-	<skill id="2764" levels="1" name="Rune Wizard Mercenary">
+	<skill id="2764" levels="1" name="魯因魔法隊長">
 		<set name="target" val="TARGET_SELF" />
 		<set name="skillType" val="BUFF" />
 		<set name="isMagic" val="true" />
@@ -1365,7 +1365,7 @@
 			<effect name="Transformation" time="1800" val="0" stackOrder="1" stackType="transform" /> <!-- Transformation lasts 30 minutes -->
 		</for>
 	</skill>
-	<skill id="2765" levels="1" name="Rune Kamael Captain Mercenary">
+	<skill id="2765" levels="1" name="魯因闇天使警衛隊長">
 		<set name="target" val="TARGET_SELF" />
 		<set name="skillType" val="BUFF" />
 		<set name="isMagic" val="true" />
@@ -1386,7 +1386,7 @@
 			<effect name="Transformation" time="1800" val="0" stackOrder="1" stackType="transform" /> <!-- Transformation lasts 30 minutes -->
 		</for>
 	</skill>
-	<skill id="2766" levels="1" name="Rune Knight Captain Mercenary">
+	<skill id="2766" levels="1" name="魯因黎明的騎士">
 		<set name="target" val="TARGET_SELF" />
 		<set name="skillType" val="BUFF" />
 		<set name="isMagic" val="true" />
@@ -1407,7 +1407,7 @@
 			<effect name="Transformation" time="1800" val="0" stackOrder="1" stackType="transform" /> <!-- Transformation lasts 30 minutes -->
 		</for>
 	</skill>
-	<skill id="2767" levels="1" name="Rune Commander Mercenary">
+	<skill id="2767" levels="1" name="魯因要塞隊長">
 		<set name="target" val="TARGET_SELF" />
 		<set name="skillType" val="BUFF" />
 		<set name="isMagic" val="true" />
@@ -1428,7 +1428,7 @@
 			<effect name="Transformation" time="1800" val="0" stackOrder="1" stackType="transform" /> <!-- Transformation lasts 30 minutes -->
 		</for>
 	</skill>
-	<skill id="2768" levels="1" name="Schuttgart Human Mercenary">
+	<skill id="2768" levels="1" name="修加特人類傭兵">
 		<set name="target" val="TARGET_SELF" />
 		<set name="skillType" val="BUFF" />
 		<set name="isMagic" val="true" />
@@ -1449,7 +1449,7 @@
 			<effect name="Transformation" time="1800" val="0" stackOrder="1" stackType="transform" /> <!-- Transformation lasts 30 minutes -->
 		</for>
 	</skill>
-	<skill id="2769" levels="1" name="Schuttgart Elf Mercenary">
+	<skill id="2769" levels="1" name="修加特精靈傭兵">
 		<set name="target" val="TARGET_SELF" />
 		<set name="skillType" val="BUFF" />
 		<set name="isMagic" val="true" />
@@ -1470,7 +1470,7 @@
 			<effect name="Transformation" time="1800" val="0" stackOrder="1" stackType="transform" /> <!-- Transformation lasts 30 minutes -->
 		</for>
 	</skill>
-	<skill id="2770" levels="1" name="Schuttgart Dark Elf Mercenary">
+	<skill id="2770" levels="1" name="修加特黑暗精靈傭兵">
 		<set name="target" val="TARGET_SELF" />
 		<set name="skillType" val="BUFF" />
 		<set name="isMagic" val="true" />
@@ -1491,7 +1491,7 @@
 			<effect name="Transformation" time="1800" val="0" stackOrder="1" stackType="transform" /> <!-- Transformation lasts 30 minutes -->
 		</for>
 	</skill>
-	<skill id="2771" levels="1" name="Schuttgart Orc Mercenary">
+	<skill id="2771" levels="1" name="修加特半獸人傭兵">
 		<set name="target" val="TARGET_SELF" />
 		<set name="skillType" val="BUFF" />
 		<set name="isMagic" val="true" />
@@ -1512,7 +1512,7 @@
 			<effect name="Transformation" time="1800" val="0" stackOrder="1" stackType="transform" /> <!-- Transformation lasts 30 minutes -->
 		</for>
 	</skill>
-	<skill id="2772" levels="1" name="Schuttgart Dwarf Mercenary">
+	<skill id="2772" levels="1" name="修加特矮人傭兵">
 		<set name="target" val="TARGET_SELF" />
 		<set name="skillType" val="BUFF" />
 		<set name="isMagic" val="true" />
@@ -1533,7 +1533,7 @@
 			<effect name="Transformation" time="1800" val="0" stackOrder="1" stackType="transform" /> <!-- Transformation lasts 30 minutes -->
 		</for>
 	</skill>
-	<skill id="2773" levels="1" name="Schuttgart Kamael Mercenary">
+	<skill id="2773" levels="1" name="修加特闇天使傭兵">
 		<set name="target" val="TARGET_SELF" />
 		<set name="skillType" val="BUFF" />
 		<set name="isMagic" val="true" />
@@ -1554,7 +1554,7 @@
 			<effect name="Transformation" time="1800" val="0" stackOrder="1" stackType="transform" /> <!-- Transformation lasts 30 minutes -->
 		</for>
 	</skill>
-	<skill id="2774" levels="1" name="Schuttgart Knight Mercenary">
+	<skill id="2774" levels="1" name="修加特親衛隊長">
 		<set name="target" val="TARGET_SELF" />
 		<set name="skillType" val="BUFF" />
 		<set name="isMagic" val="true" />
@@ -1575,7 +1575,7 @@
 			<effect name="Transformation" time="1800" val="0" stackOrder="1" stackType="transform" /> <!-- Transformation lasts 30 minutes -->
 		</for>
 	</skill>
-	<skill id="2775" levels="1" name="Schuttgart Archer Mercenary">
+	<skill id="2775" levels="1" name="修加特弓手隊長">
 		<set name="target" val="TARGET_SELF" />
 		<set name="skillType" val="BUFF" />
 		<set name="isMagic" val="true" />
@@ -1596,7 +1596,7 @@
 			<effect name="Transformation" time="1800" val="0" stackOrder="1" stackType="transform" /> <!-- Transformation lasts 30 minutes -->
 		</for>
 	</skill>
-	<skill id="2776" levels="1" name="Schuttgart Wizard Mercenary">
+	<skill id="2776" levels="1" name="修加特魔法隊長">
 		<set name="target" val="TARGET_SELF" />
 		<set name="skillType" val="BUFF" />
 		<set name="isMagic" val="true" />
@@ -1617,7 +1617,7 @@
 			<effect name="Transformation" time="1800" val="0" stackOrder="1" stackType="transform" /> <!-- Transformation lasts 30 minutes -->
 		</for>
 	</skill>
-	<skill id="2777" levels="1" name="Schuttgart Kamael Captain Mercenary">
+	<skill id="2777" levels="1" name="修加特闇天使警衛隊長">
 		<set name="target" val="TARGET_SELF" />
 		<set name="skillType" val="BUFF" />
 		<set name="isMagic" val="true" />
@@ -1638,7 +1638,7 @@
 			<effect name="Transformation" time="1800" val="0" stackOrder="1" stackType="transform" /> <!-- Transformation lasts 30 minutes -->
 		</for>
 	</skill>
-	<skill id="2778" levels="1" name="Schuttgart Knight Captain Mercenary">
+	<skill id="2778" levels="1" name="修加特黎明的騎士">
 		<set name="target" val="TARGET_SELF" />
 		<set name="skillType" val="BUFF" />
 		<set name="isMagic" val="true" />
@@ -1659,7 +1659,7 @@
 			<effect name="Transformation" time="1800" val="0" stackOrder="1" stackType="transform" /> <!-- Transformation lasts 30 minutes -->
 		</for>
 	</skill>
-	<skill id="2779" levels="1" name="Schuttgart Commander Mercenary">
+	<skill id="2779" levels="1" name="修加特要塞隊長">
 		<set name="target" val="TARGET_SELF" />
 		<set name="skillType" val="BUFF" />
 		<set name="isMagic" val="true" />
@@ -1680,7 +1680,7 @@
 			<effect name="Transformation" time="1800" val="0" stackOrder="1" stackType="transform" /> <!-- Transformation lasts 30 minutes -->
 		</for>
 	</skill>
-	<skill id="2780" levels="1" name="Magician's Will">
+	<skill id="2780" levels="1" name="法師的意志">
 		<set name="itemConsumeCount" val="1" />
 		<set name="target" val="TARGET_SELF" />
 		<set name="skillType" val="LEARN_SKILL" />
@@ -1698,7 +1698,7 @@
 			</and>
 		</cond>
 	</skill>
-	<skill id="2781" levels="1" name="Silent Mind">
+	<skill id="2781" levels="1" name="沉默之心">
 		<set name="itemConsumeCount" val="1" />
 		<set name="target" val="TARGET_SELF" />
 		<set name="skillType" val="LEARN_SKILL" />
@@ -1716,7 +1716,7 @@
 			</and>
 		</cond>
 	</skill>
-	<skill id="2782" levels="1" name="Turn Stone">
+	<skill id="2782" levels="1" name="石化退返">
 		<set name="itemConsumeCount" val="1" />
 		<set name="target" val="TARGET_SELF" />
 		<set name="skillType" val="LEARN_SKILL" />
@@ -1734,7 +1734,7 @@
 			</and>
 		</cond>
 	</skill>
-	<skill id="2783" levels="1" name="Lucky Strike">
+	<skill id="2783" levels="1" name="幸運之擊">
 		<set name="itemConsumeCount" val="1" />
 		<set name="target" val="TARGET_SELF" />
 		<set name="skillType" val="LEARN_SKILL" />
@@ -1752,7 +1752,7 @@
 			</and>
 		</cond>
 	</skill>
-	<skill id="2784" levels="1" name="Eye for Eye">
+	<skill id="2784" levels="1" name="以眼還眼">
 		<set name="itemConsumeCount" val="1" />
 		<set name="target" val="TARGET_SELF" />
 		<set name="skillType" val="LEARN_SKILL" />
@@ -1770,7 +1770,7 @@
 			</and>
 		</cond>
 	</skill>
-	<skill id="2785" levels="1" name="Curse of Desparion">
+	<skill id="2785" levels="1" name="帕黎恩詛咒">
 		<set name="itemConsumeCount" val="1" />
 		<set name="target" val="TARGET_SELF" />
 		<set name="skillType" val="LEARN_SKILL" />
@@ -1788,7 +1788,7 @@
 			</and>
 		</cond>
 	</skill>
-	<skill id="2786" levels="1" name="Counter Critical">
+	<skill id="2786" levels="1" name="反制爆擊">
 		<set name="itemConsumeCount" val="1" />
 		<set name="target" val="TARGET_SELF" />
 		<set name="skillType" val="LEARN_SKILL" />
@@ -1806,7 +1806,7 @@
 			</and>
 		</cond>
 	</skill>
-	<skill id="2787" levels="1" name="Onslaught of Pa'agrio">
+	<skill id="2787" levels="1" name="帕格立歐突擊">
 		<set name="itemConsumeCount" val="1" />
 		<set name="target" val="TARGET_SELF" />
 		<set name="skillType" val="LEARN_SKILL" />
@@ -1824,7 +1824,7 @@
 			</and>
 		</cond>
 	</skill>
-	<skill id="2788" levels="1" name="Great Fury">
+	<skill id="2788" levels="1" name="劇烈暴怒">
 		<set name="itemConsumeCount" val="1" />
 		<set name="target" val="TARGET_SELF" />
 		<set name="skillType" val="LEARN_SKILL" />
@@ -1842,7 +1842,7 @@
 			</and>
 		</cond>
 	</skill>
-	<skill id="2789" levels="1" name="Final Flying Form">
+	<skill id="2789" levels="1" name="最終飛行型態">
 		<set name="itemConsumeCount" val="1" />
 		<set name="target" val="TARGET_SELF" />
 		<set name="skillType" val="LEARN_SKILL" />
@@ -1860,7 +1860,7 @@
 			</and>
 		</cond>
 	</skill>
-	<skill id="2790" levels="1" name="Aura Bird - Falcon">
+	<skill id="2790" levels="1" name="靈鳥-獵鷹">
 		<set name="itemConsumeCount" val="1" />
 		<set name="target" val="TARGET_SELF" />
 		<set name="skillType" val="LEARN_SKILL" />
@@ -1877,7 +1877,7 @@
 			</and>
 		</cond>
 	</skill>
-	<skill id="2791" levels="1" name="Aura Bird - Owl">
+	<skill id="2791" levels="1" name="靈鳥-貓頭鷹">
 		<set name="itemConsumeCount" val="1" />
 		<set name="target" val="TARGET_SELF" />
 		<set name="skillType" val="LEARN_SKILL" />
@@ -1894,7 +1894,7 @@
 			</and>
 		</cond>
 	</skill>
-	<skill id="2792" levels="2" name="Stone of Stamina">
+	<skill id="2792" levels="2" name="體力石">
 		<table name="#power"> 700 20000 </table> <!-- Need Fix -->
 		<set name="itemConsumeCount" val="1" />
 		<set name="isPotion" val="true" />
@@ -1909,7 +1909,7 @@
 			<player flyMounted="True" />
 		</cond>
 	</skill>
-	<skill id="2793" levels="2" name="Stone of Mana">
+	<skill id="2793" levels="2" name="瑪那石">
 		<table name="#power"> 500 20000 </table> <!-- Need Fix -->
 		<set name="itemConsumeCount" val="1" />
 		<set name="isPotion" val="true" />
@@ -1923,7 +1923,7 @@
 			<player flyMounted="True" />
 		</cond>
 	</skill>
-	<skill id="2794" levels="2" name="Stone of Recovery">
+	<skill id="2794" levels="2" name="恢復石">
 		<!-- Update by pmq -->
 		<table name="#power"> 100 200 </table>
 		<table name="#temConsumeId"> 14042 14043 </table>
@@ -1939,7 +1939,7 @@
 			<player flyMounted="True" />
 		</cond>
 	</skill>
-	<skill id="2795" levels="1" name="Stone of Destruction">
+	<skill id="2795" levels="1" name="破壞石">
 		<set name="itemConsumeCount" val="1" />
 		<set name="isPotion" val="true" />
 		<set name="magicLvl" val="1" />
@@ -1955,7 +1955,7 @@
 			</effect>
 		</for>
 	</skill>
-	<skill id="2796" levels="1" name="Stone of Invincibility">
+	<skill id="2796" levels="1" name="無敵石">
 		<set name="itemConsumeCount" val="1" />
 		<set name="isPotion" val="true" />
 		<set name="magicLvl" val="1" />
@@ -1971,7 +1971,7 @@
 			</effect>
 		</for>
 	</skill>
-	<skill id="2797" levels="1" name="Stone of Great Speed">
+	<skill id="2797" levels="1" name="快速石">
 		<set name="itemConsumeCount" val="1" />
 		<set name="isPotion" val="true" />
 		<set name="magicLvl" val="1" />
@@ -1991,7 +1991,7 @@
 			</effect>
 		</for>
 	</skill>
-	<skill id="2798" levels="1" name="Stone of Speed">
+	<skill id="2798" levels="1" name="迅速石">
 		<set name="itemConsumeCount" val="1" />
 		<set name="isPotion" val="true" />
 		<set name="magicLvl" val="1" />
@@ -2007,7 +2007,7 @@
 			</effect>
 		</for>
 	</skill>
-	<skill id="2799" levels="1" name="Stone of Concentration">
+	<skill id="2799" levels="1" name="集中石">
 		<set name="itemConsumeCount" val="1" />
 		<set name="isPotion" val="true" />
 		<set name="magicLvl" val="1" />

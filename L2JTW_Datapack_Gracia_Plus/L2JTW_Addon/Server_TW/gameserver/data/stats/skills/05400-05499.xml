@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <list>
-	<skill id="5400" levels="1" name="Presentation - Solar Spark">
+	<skill id="5400" levels="1" name="展示-太陽閃光">
 		<!-- Update by pmq -->
 		<set name="hitTime" val="5000" />
 		<set name="target" val="TARGET_ONE" />
@@ -12,7 +12,7 @@
 		<set name="castRange" val="750" />
 		<set name="effectRange" val="1250" />
 	</skill>
-	<skill id="5401" levels="1" name="Stun">
+	<skill id="5401" levels="1" name="休克">
 		<!-- Temporarily gets thrown into a state of shock and immobilized. -->
 		<set name="target" val="TARGET_AURA" />
 		<set name="skillType" val="STUN" />
@@ -30,7 +30,7 @@
 			<effect name="ThrowUp" noicon="1" val="0" stackOrder="1" stackType="fly_away" />
 		</for>
 	</skill>
-	<skill id="5402" levels="1" name="Presentation - Balor 2">
+	<skill id="5402" levels="1" name="展示-巴爾勒2">
 		<!-- Balor - Magic Skill1 -->
 		<set name="target" val="TARGET_SELF" />
 		<set name="skillType" val="DUMMY" />
@@ -39,7 +39,7 @@
 		<set name="hitTime" val="4000" />
 		<set name="coolTime" val="500" />
 	</skill>
-	<skill id="5403" levels="1" name="Presentation - Balor 3">
+	<skill id="5403" levels="1" name="展示-巴爾勒3">
 		<!-- Balor - Magic Skill2 -->
 		<set name="target" val="TARGET_SELF" />
 		<set name="operateType" val="OP_ACTIVE" />
@@ -48,7 +48,7 @@
 		<set name="hitTime" val="4000" />
 		<set name="coolTime" val="500" />
 	</skill>
-	<skill id="5404" levels="1" name="Presentation - Balor 4">
+	<skill id="5404" levels="1" name="展示-巴爾勒4">
 		<!-- Balor - Instant Cast Skill -->
 		<set name="target" val="TARGET_ONE" />
 		<set name="operateType" val="OP_ACTIVE" />
@@ -59,7 +59,7 @@
 		<set name="hitTime" val="3500" />
 		<set name="coolTime" val="500" />
 	</skill>
-	<skill id="5405" levels="1" name="Presentation - Demonic 1">
+	<skill id="5405" levels="1" name="展示-惡魔1">
 		<!-- Demonic - General Long Range Magic Skill -->
 		<set name="target" val="TARGET_ONE" />
 		<set name="operateType" val="OP_ACTIVE" />
@@ -69,7 +69,7 @@
 		<set name="effectRange" val="1100" />
 		<set name="hitTime" val="3000" />
 	</skill>
-	<skill id="5406" levels="1" name="Presentation - Demonic 2">
+	<skill id="5406" levels="1" name="展示-惡魔2">
 		<set name="target" val="TARGET_ONE" />
 		<set name="operateType" val="OP_ACTIVE" />
 		<set name="skillType" val="DUMMY" />
@@ -79,7 +79,7 @@
 		<set name="effectRange" val="1100" />
 		<set name="hitTime" val="3000" />
 	</skill>
-	<skill id="5407" levels="1" name="Presentation - Crystalline Golem 1">
+	<skill id="5407" levels="1" name="展示-水晶高崙1">
 		<!-- Crystaline-Instant Cast Skill -->
 		<set name="target" val="TARGET_SELF" />
 		<set name="skillType" val="DUMMY" />
@@ -87,7 +87,7 @@
 		<set name="magicLvl" val="85" />
 		<set name="hitTime" val="2000" />
 	</skill>
-	<skill id="5408" levels="1" name="Presentation - Crystalline Golem 2">
+	<skill id="5408" levels="1" name="展示-水晶高崙2">
 		<!-- Crystaline-General Long Range Magic Skill -->
 		<set name="target" val="TARGET_ONE" />
 		<set name="skillType" val="DUMMY" />
@@ -98,7 +98,7 @@
 		<set name="effectRange" val="1100" />
 		<set name="hitTime" val="4000" />
 	</skill>
-	<skill id="5409" levels="1" name="Presentation - Crystalline Golem 3">
+	<skill id="5409" levels="1" name="展示-水晶高崙3">
 		<!-- Crystaline Golem -->
 		<set name="target" val="TARGET_ONE" />
 		<set name="skillType" val="DUMMY" />
@@ -109,7 +109,7 @@
 		<set name="effectRange" val="1100" />
 		<set name="hitTime" val="4000" />
 	</skill>
-	<skill id="5410" levels="1" name="Presentation - Balor 10">
+	<skill id="5410" levels="1" name="展示-巴爾勒10">
 		<!-- Balor Social. -->
 		<!-- Update by pmq -->
 		<set name="hitTime" val="17000" />
@@ -117,7 +117,7 @@
 		<set name="skillType" val="DUMMY" />
 		<set name="operateType" val="OP_ACTIVE" />
 	</skill>
-	<skill id="5411" levels="1" name="Presentation - Balor 11">
+	<skill id="5411" levels="1" name="展示-巴爾勒11">
 		<!-- Update by pmq -->
 		<set name="hitTime" val="1000" />
 		<set name="target" val="TARGET_ONE" />
@@ -126,14 +126,14 @@
 		<set name="castRange" val="600" />
 		<set name="effectRange" val="1100" />
 	</skill>
-	<skill id="5412" levels="1" name="Presentation - Balor 12">
+	<skill id="5412" levels="1" name="展示-巴爾勒12">
 		<!-- Update by pmq -->
 		<set name="hitTime" val="2000" />
 		<set name="target" val="TARGET_SELF" />
 		<set name="skillType" val="DUMMY" />
 		<set name="operateType" val="OP_ACTIVE" />
 	</skill>
-	<skill id="5413" levels="1" name="Performing Agathion - Beast Farm">
+	<skill id="5413" levels="1" name="壺精聰明伶俐-野獸農莊">
 		<!-- Needs to be verified -->
 		<set name="target" val="TARGET_SELF" />
 		<set name="skillType" val="DUMMY" />
@@ -142,7 +142,7 @@
 			<player agathionId="16026" />
 		</cond>
 	</skill>
-	<skill id="5414" levels="1" name="Performing Agathion - Rainbow Clan Hall">
+	<skill id="5414" levels="1" name="壺精聰明伶俐-虹彩之泉根據地">
 		<!-- Needs to be verified -->
 		<set name="target" val="TARGET_SELF" />
 		<set name="skillType" val="DUMMY" />
@@ -151,7 +151,7 @@
 			<player agathionId="16027" />
 		</cond>
 	</skill>
-	<skill id="5415" levels="1" name="Performing Agathion - Castle">
+	<skill id="5415" levels="1" name="壺精聰明伶俐-城堡">
 		<!-- Needs to be verified -->
 		<set name="target" val="TARGET_SELF" />
 		<set name="skillType" val="DUMMY" />
@@ -160,7 +160,7 @@
 			<player agathionId="16028" />
 		</cond>
 	</skill>
-	<skill id="5416" levels="1" name="Dark Cloud Mansion">
+	<skill id="5416" levels="1" name="暗雲宅邸">
 		<!-- Update by pmq -->
 		<!-- Needs to be verified -->
 		<set name="reuseDelay" val="20000" />
@@ -171,35 +171,35 @@
 		<set name="skillType" val="DUMMY" />
 		<set name="operateType" val="OP_ACTIVE" />
 		<cond msgId="2292">
-			<player agathionId="16029"/>
+			<player agathionId="16029" />
 		</cond>
 	</skill>
-	<skill id="5417" levels="1" name="Invincible">
+	<skill id="5417" levels="1" name="無敵">
 		<!-- Invincible against general attack and skill, buff/de-buff. -->
 		<set name="target" val="TARGET_NONE" />
 		<set name="skillType" val="NOTDONE" />
 		<set name="operateType" val="OP_PASSIVE" />
 	</skill>
-	<skill id="5418" levels="1" name="Invincible">
+	<skill id="5418" levels="1" name="無敵">
 		<!-- Invincible against general attack and skill, buff/de-buff. -->
 		<set name="target" val="TARGET_NONE" />
 		<set name="skillType" val="NOTDONE" />
 		<set name="operateType" val="OP_PASSIVE" />
 	</skill>
-	<skill id="5419" levels="1" name="Invincible Blow">
+	<skill id="5419" levels="1" name="無敵取消">
 		<!-- Crystaline Golem -->
 		<set name="target" val="TARGET_NONE" />
 		<set name="skillType" val="NOTDONE" />
 		<set name="operateType" val="OP_PASSIVE" />
 		<set name="hitTime" val="4000" />
 	</skill>
-	<skill id="5420" levels="1" name="Invincible">
+	<skill id="5420" levels="1" name="無敵">
 		<!-- Invincible against general attack and skill, buff/de-buff. -->
 		<set name="target" val="TARGET_NONE" />
 		<set name="skillType" val="NOTDONE" />
 		<set name="operateType" val="OP_PASSIVE" />
 	</skill>
-	<skill id="5422" levels="12" name="Flame">
+	<skill id="5422" levels="12" name="火焰">
 		<!-- Body is on fire. HP continually decreases. -->
 		<table name="#magicLvl"> 10 20 30 40 50 60 70 75 80 85 90 95 </table>
 		<table name="#mAtk"> 9.16 15.36 27.82 41.49 61.66 84.61 111.26 126.31 142.73 160.7 180.46 201.65 </table>
@@ -223,7 +223,7 @@
 			</effect>
 		</for>
 	</skill>
-	<skill id="5423" levels="12" name="Poison">
+	<skill id="5423" levels="12" name="毒">
 		<!-- Condition causing target to be poisoned. -->
 		<table name="#magicLvl"> 10 20 30 40 50 60 70 75 80 85 90 95 </table>
 		<table name="#dot"> 40 105 285 455 665 895 1115 1255 1445 1590 1620 1770 </table>
@@ -244,7 +244,7 @@
 			</effect>
 		</for>
 	</skill>
-	<skill id="5424" levels="12" name="Bleed">
+	<skill id="5424" levels="12" name="出血">
 		<!-- Condition causing target to instantly decrease HP by bleeding. Effect 2-10. -->
 		<table name="#magicLvl"> 10 20 30 40 50 60 70 75 80 85 90 95 </table>
 		<table name="#dot"> 75 105 215 275 445 515 700 840 870 1160 1325 1475 </table>
@@ -264,7 +264,7 @@
 			</effect>
 		</for>
 	</skill>
-	<skill id="5425" levels="1" name="Iron Shield">
+	<skill id="5425" levels="1" name="鐵盾">
 		<!-- Confirmed CT2.5 -->
 		<set name="magicLvl" val="79" />
 		<set name="operateType" val="OP_ACTIVE" />
@@ -277,7 +277,7 @@
 			</effect>
 		</for>
 	</skill>
-	<skill id="5426" levels="1" name="Counter Chance">
+	<skill id="5426" levels="1" name="反擊契機">
 		<!-- Confirmed CT2.5 -->
 		<set name="magicLvl" val="79" />
 		<set name="operateType" val="OP_ACTIVE" />
@@ -291,7 +291,7 @@
 			</effect>
 		</for>
 	</skill>
-	<skill id="5427" levels="1" name="Counter Rapid Shot">
+	<skill id="5427" levels="1" name="反擊快速箭">
 		<!-- Confirmed CT2.5 -->
 		<set name="magicLvl" val="79" />
 		<set name="operateType" val="OP_ACTIVE" />
@@ -307,7 +307,7 @@
 			</effect>
 		</for>
 	</skill>
-	<skill id="5428" levels="1" name="Counter Dash">
+	<skill id="5428" levels="1" name="反擊衝刺">
 		<!-- Confirmed CT2.5 -->
 		<set name="magicLvl" val="79" />
 		<set name="operateType" val="OP_ACTIVE" />
@@ -321,7 +321,7 @@
 			</effect>
 		</for>
 	</skill>
-	<skill id="5429" levels="1" name="Counter Mind">
+	<skill id="5429" levels="1" name="反擊心靈">
 		<!-- Confirmed CT2.5 -->
 		<set name="magicLvl" val="79" />
 		<set name="operateType" val="OP_ACTIVE" />
@@ -330,7 +330,7 @@
 		<set name="skillType" val="MANARECHARGE" /> <!-- TODO: Should be by Level -->
 		<set name="target" val="TARGET_SELF" />
 	</skill>
-	<skill id="5430" levels="1" name="Spoil Bomb">
+	<skill id="5430" levels="1" name="變質炸彈">
 		<!-- Confirmed CT2.5 -->
 		<!-- Spoil Bomb effect -->
 		<set name="isMagic" val="true" />
@@ -342,7 +342,7 @@
 		<set name="skillType" val="MDAM" />
 		<set name="target" val="TARGET_AURA" /> <!-- TODO: plz confirm if this should affect all monsters around or only clan monsters around -->
 	</skill>
-	<skill id="5431" levels="1" name="Slow">
+	<skill id="5431" levels="1" name="緩速">
 		<!-- Condition causing target to temporarily decrease attack speed and casting speed. -->
 		<set name="target" val="TARGET_NONE" />
 		<set name="nextActionAttack" val="true" />
@@ -353,17 +353,17 @@
 		<set name="hitTime" val="2000" />
 		<set name="saveVs" val="MEN" />
 	</skill>
-	<skill id="5432" levels="2" name="Weapon Supply">
+	<skill id="5432" levels="2" name="武器機關">
 		<set name="target" val="TARGET_NONE" />
 		<set name="skillType" val="NOTDONE" />
 		<set name="operateType" val="OP_PASSIVE" />
 	</skill>
-	<skill id="5433" levels="1" name="Presentation - Gathering of Evil Power">
+	<skill id="5433" levels="1" name="展示-魔力匯集">
 		<set name="target" val="TARGET_NONE" />
 		<set name="skillType" val="NOTDONE" />
 		<set name="operateType" val="OP_PASSIVE" />
 	</skill>
-	<skill id="5434" levels="1" name="Gust">
+	<skill id="5434" levels="1" name="突風">
 		<!-- Instantly immobilized by gust. -->
 		<set name="target" val="TARGET_NONE" />
 		<set name="skillType" val="NOTDONE" />
@@ -373,7 +373,7 @@
 		<set name="saveVs" val="CON" />
 		<set name="lvlDepend" val="1" />
 	</skill>
-	<skill id="5435" levels="1" name="Gust">
+	<skill id="5435" levels="1" name="突風">
 		<!-- Instantly immobilized by gust. -->
 		<set name="target" val="TARGET_NONE" />
 		<set name="skillType" val="NOTDONE" />
@@ -383,13 +383,13 @@
 		<set name="saveVs" val="CON" />
 		<set name="lvlDepend" val="1" />
 	</skill>
-	<skill id="5436" levels="1" name="Increase Recovery Rate">
+	<skill id="5436" levels="1" name="恢復力提昇">
 		<!-- Condition causing target to increase recovery rate of HP and MP. -->
 		<set name="target" val="TARGET_NONE" />
 		<set name="skillType" val="NOTDONE" />
 		<set name="operateType" val="OP_PASSIVE" />
 	</skill>
-	<skill id="5437" levels="2" name="Dissonance">
+	<skill id="5437" levels="2" name="不協調">
 		<set name="target" val="TARGET_SELF" />
 		<set name="skillType" val="BUFF" />
 		<set name="operateType" val="OP_PASSIVE" />
@@ -434,21 +434,21 @@
 		<set name="operateType" val="OP_ACTIVE" />
 		<set name="hitTime" val="2000" />
 	</skill>
-	<skill id="5440" levels="1" name="Presentation - Trap Activate">
+	<skill id="5440" levels="1" name="展示-察覺陷阱">
 		<set name="target" val="TARGET_SELF" />
 		<set name="operateType" val="OP_ACTIVE" />
 		<set name="skillType" val="DUMMY" />
 		<set name="magicLvl" val="1" />
 		<set name="hitTime" val="3000" />
 	</skill>
-	<skill id="5441" levels="1" name="Presentation - Tears Mirror Image">
+	<skill id="5441" levels="1" name="展示-提爾斯分身">
 		<set name="target" val="TARGET_SELF" />
 		<set name="operateType" val="OP_ACTIVE" />
 		<set name="skillType" val="DUMMY" />
 		<set name="magicLvl" val="1" />
 		<set name="hitTime" val="3000" />
 	</skill>
-	<skill id="5442" levels="4" name="Bite Attack">
+	<skill id="5442" levels="4" name="撕咬攻擊">
 		<table name="#magicLvl"> 55 60 65 70 </table>
 		<table name="#mpConsume"> 55 61 66 71 </table>
 		<table name="#power"> 916 1136 1376 1626 </table>
@@ -465,7 +465,7 @@
 		<set name="SSBoost" val="2.0" />
 		<set name="target" val="TARGET_ONE" />
 	</skill>
-	<skill id="5443" levels="4" name="Cry of the Wolf">
+	<skill id="5443" levels="4" name="狼嚎">
 		<table name="#magicLvl"> 55 60 65 70 </table>
 		<table name="#mpConsume"> 55 61 66 71 </table>
 		<set name="magicLvl" val="#magicLvl" />
@@ -486,7 +486,7 @@
 			</effect>
 		</for>
 	</skill>
-	<skill id="5444" levels="2" name="Maul">
+	<skill id="5444" levels="2" name="銳爪">
 		<table name="#magicLvl"> 65 70 </table>
 		<table name="#mpConsume"> 66 71 </table>
 		<table name="#power"> 917 1084 </table>
@@ -513,7 +513,7 @@
 			<effect count="4" name="DamOverTime" time="5" val="#val" stackOrder="3" stackType="bleeding" abnormal="bleed" effectPower="50" effectType="BLEED" />
 		</for>
 	</skill>
-	<skill id="5445" levels="1" name="Awakening">
+	<skill id="5445" levels="1" name="覺醒">
 		<set name="magicLvl" val="70" />
 		<set name="aggroPoints" val="303" />
 		<set name="hitTime" val="1500" />
@@ -535,14 +535,14 @@
 			</effect>
 		</for>
 	</skill>
-	<skill id="5446" levels="45" name="Soul Expansion">
+	<skill id="5446" levels="45" name="靈魂增加">
 		<table name="#num_souls"> 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 33 34 35 36 37 38 39 40 41 42 43 44 45 </table>
 		<set name="num_souls" val="#num_souls" />
 		<set name="operateType" val="OP_PASSIVE" />
 		<set name="skillType" val="CHARGESOUL" />
 		<set name="target" val="TARGET_SELF" />
 	</skill>
-	<skill id="5447" levels="7" name="Paralysis">
+	<skill id="5447" levels="7" name="麻痺">
 		<!-- Imbue Dark Seed effect -->
 		<set name="ignoreResists" val="true" />
 		<set name="isDebuff" val="true" />
@@ -556,7 +556,7 @@
 			<effect name="Paralyze" time="10" val="0" stackOrder="1" stackType="paralyze" />
 		</for>
 	</skill>
-	<skill id="5448" levels="1" name="Oblivion">
+	<skill id="5448" levels="1" name="忘卻">
 		<set name="magicLvl" val="79" />
 		<set name="operateType" val="OP_ACTIVE" />
 		<set name="power" val="100" /> <!-- Base Land Rate -->
@@ -566,7 +566,7 @@
 			<effect name="RemoveTarget" noicon="1" val="0" />
 		</for>
 	</skill>
-	<skill id="5449" levels="1" name="Weak Constitution">
+	<skill id="5449" levels="1" name="體質弱化">
 		<set name="isDebuff" val="true" />
 		<set name="ignoreResists" val="true" />
 		<set name="operateType" val="OP_ACTIVE" />
@@ -577,7 +577,7 @@
 			<effect name="StunSelf" time="3" val="0" stackOrder="1" stackType="stun" />
 		</for>
 	</skill>
-	<skill id="5450" levels="7" name="Thin Skin">
+	<skill id="5450" levels="7" name="皮膚破損">
 		<table name="#dot"> 75 102 132 156 186 201 230 </table>
 		<table name="#abnormalLvl"> 4 5 5 6 7 8 8 </table>
 		<set name="effectAbnormalLvl" val="#abnormalLvl" />
@@ -594,7 +594,7 @@
 			</effect>
 		</for>
 	</skill>
-	<skill id="5451" levels="1" name="Enervation">
+	<skill id="5451" levels="1" name="虛弱">
 		<set name="isDebuff" val="true" />
 		<set name="ignoreResists" val="true" />
 		<set name="operateType" val="OP_ACTIVE" />
@@ -609,7 +609,7 @@
 			</effect>
 		</for>
 	</skill>
-	<skill id="5452" levels="3" name="Spite">
+	<skill id="5452" levels="3" name="惡意">
 		<!-- TODO: Missing levels 1-2 -->
 		<set name="isDebuff" val="true" />
 		<set name="ignoreResists" val="true" />
@@ -623,26 +623,26 @@
 			</effect>
 		</for>
 	</skill>
-	<skill id="5453" levels="4" name="Mental Impoverish">
+	<skill id="5453" levels="4" name="心靈耗竭">
 		<!-- TODO: Missing levels 1-3 -->
 		<set name="operateType" val="OP_ACTIVE" />
 		<set name="power" val="1000" />
 		<set name="skillType" val="MANADAM" />
 		<set name="target" val="TARGET_SELF" />
 	</skill>
-	<skill id="5454" levels="1" name="Shadow Bind">
+	<skill id="5454" levels="1" name="縫影">
 		<!-- Immobilized. -->
 		<set name="target" val="TARGET_NONE" />
 		<set name="skillType" val="NOTDONE" />
 		<set name="operateType" val="OP_PASSIVE" />
 	</skill>
-	<skill id="5455" levels="1" name="Voice Bind">
+	<skill id="5455" levels="1" name="絕音">
 		<!-- Silenced. -->
 		<set name="target" val="TARGET_NONE" />
 		<set name="skillType" val="NOTDONE" />
 		<set name="operateType" val="OP_PASSIVE" />
 	</skill>
-	<skill id="5456" levels="1" name="Stubborn Resistance">
+	<skill id="5456" levels="1" name="頑強抵抗">
 		<set name="magicLvl" val="90" />
 		<set name="castRange" val="900" />
 		<set name="effectRange" val="1400" />
@@ -658,12 +658,12 @@
 			</effect>
 		</for>
 	</skill>
-	<skill id="5457" levels="1" name="NPC Full Recover">
+	<skill id="5457" levels="1" name="NPC恢復">
 		<set name="target" val="TARGET_NONE" />
 		<set name="skillType" val="NOTDONE" />
 		<set name="operateType" val="OP_PASSIVE" />
 	</skill>
-	<skill id="5458" levels="1" name="Performing Agathion - Fortress">
+	<skill id="5458" levels="1" name="壺精聰明伶俐-要塞">
 		<!-- Needs to be verified -->
 		<set name="target" val="TARGET_SELF" />
 		<set name="skillType" val="DUMMY" />
@@ -672,7 +672,7 @@
 			<player agathionId="16029" />
 		</cond>
 	</skill>
-	<skill id="5459" levels="1" name="Paralysis">
+	<skill id="5459" levels="1" name="麻痺">
 		<!-- A temporary paralysis that prevents movement. -->
 		<set name="target" val="TARGET_NONE" />
 		<set name="skillType" val="NOTDONE" />
@@ -680,7 +680,7 @@
 		<set name="saveVs" val="MEN" />
 		<set name="lvlDepend" val="1" />
 	</skill>
-	<skill id="5460" levels="1" name="Fear">
+	<skill id="5460" levels="1" name="畏懼">
 		<!-- Causes a temporary fear so strong that a target flees mindlessly. -->
 		<set name="target" val="TARGET_NONE" />
 		<set name="skillType" val="NOTDONE" />
@@ -703,32 +703,32 @@
 		<set name="castRange" val="900" />
 		<set name="effectRange" val="1500" />
 	</skill>
-	<skill id="5462" levels="1" name="Fire Attacks">
+	<skill id="5462" levels="1" name="火屬性">
 		<set name="target" val="TARGET_SELF" />
 		<set name="skillType" val="BUFF" />
 		<set name="operateType" val="OP_PASSIVE" />
 	</skill>
-	<skill id="5463" levels="1" name="Water Attacks">
+	<skill id="5463" levels="1" name="水屬性">
 		<set name="target" val="TARGET_SELF" />
 		<set name="skillType" val="BUFF" />
 		<set name="operateType" val="OP_PASSIVE" />
 	</skill>
-	<skill id="5464" levels="1" name="Wind Attacks">
+	<skill id="5464" levels="1" name="風屬性">
 		<set name="target" val="TARGET_SELF" />
 		<set name="skillType" val="BUFF" />
 		<set name="operateType" val="OP_PASSIVE" />
 	</skill>
-	<skill id="5465" levels="1" name="Earth Attacks">
+	<skill id="5465" levels="1" name="大地屬性">
 		<set name="target" val="TARGET_SELF" />
 		<set name="skillType" val="BUFF" />
 		<set name="operateType" val="OP_PASSIVE" />
 	</skill>
-	<skill id="5466" levels="1" name="Holy Attacks">
+	<skill id="5466" levels="1" name="神聖屬性">
 		<set name="target" val="TARGET_SELF" />
 		<set name="skillType" val="BUFF" />
 		<set name="operateType" val="OP_PASSIVE" />
 	</skill>
-	<skill id="5467" levels="1" name="Dark Attacks">
+	<skill id="5467" levels="1" name="黑暗屬性">
 		<set name="target" val="TARGET_SELF" />
 		<set name="skillType" val="BUFF" />
 		<set name="operateType" val="OP_PASSIVE" />
@@ -749,77 +749,77 @@
 		<set name="castRange" val="300" />
 		<set name="effectRange" val="600" />
 	</skill>
-	<skill id="5469" levels="1" name="Raid Boss - Level 22">
+	<skill id="5469" levels="1" name="22級狩獵首領">
 		<!-- This Skill Is Only For Description In The Client -->
 		<set name="target" val="TARGET_SELF" />
 		<set name="skillType" val="PASSIVE" />
 		<set name="operateType" val="OP_PASSIVE" />
 	</skill>
-	<skill id="5470" levels="1" name="Raid Boss - Level 81">
+	<skill id="5470" levels="1" name="81級狩獵首領">
 		<!-- This Skill Is Only For Description In The Client -->
 		<set name="target" val="TARGET_SELF" />
 		<set name="skillType" val="PASSIVE" />
 		<set name="operateType" val="OP_PASSIVE" />
 	</skill>
-	<skill id="5471" levels="1" name="Raid Boss - Level 82">
+	<skill id="5471" levels="1" name="82級狩獵首領">
 		<!-- This Skill Is Only For Description In The Client -->
 		<set name="target" val="TARGET_SELF" />
 		<set name="skillType" val="PASSIVE" />
 		<set name="operateType" val="OP_PASSIVE" />
 	</skill>
-	<skill id="5472" levels="1" name="Raid Boss - Level 83">
+	<skill id="5472" levels="1" name="83級狩獵首領">
 		<!-- This Skill Is Only For Description In The Client -->
 		<set name="target" val="TARGET_SELF" />
 		<set name="skillType" val="PASSIVE" />
 		<set name="operateType" val="OP_PASSIVE" />
 	</skill>
-	<skill id="5473" levels="1" name="Raid Boss - Level 81">
+	<skill id="5473" levels="1" name="81級狩獵首領">
 		<!-- This Skill Is Only For Description In The Client -->
 		<set name="target" val="TARGET_SELF" />
 		<set name="skillType" val="PASSIVE" />
 		<set name="operateType" val="OP_PASSIVE" />
 	</skill>
-	<skill id="5474" levels="1" name="Raid Boss - Level 81">
+	<skill id="5474" levels="1" name="81級狩獵首領">
 		<!-- This Skill Is Only For Description In The Client -->
 		<set name="target" val="TARGET_SELF" />
 		<set name="skillType" val="PASSIVE" />
 		<set name="operateType" val="OP_PASSIVE" />
 	</skill>
-	<skill id="5475" levels="1" name="Raid Boss - Level 83">
+	<skill id="5475" levels="1" name="83級狩獵首領">
 		<!-- This Skill Is Only For Description In The Client -->
 		<set name="target" val="TARGET_SELF" />
 		<set name="skillType" val="PASSIVE" />
 		<set name="operateType" val="OP_PASSIVE" />
 	</skill>
-	<skill id="5476" levels="1" name="Raid Boss - Level 83">
+	<skill id="5476" levels="1" name="83級狩獵首領">
 		<!-- This Skill Is Only For Description In The Client -->
 		<set name="target" val="TARGET_SELF" />
 		<set name="skillType" val="PASSIVE" />
 		<set name="operateType" val="OP_PASSIVE" />
 	</skill>
-	<skill id="5477" levels="1" name="Raid Boss - Level 86">
+	<skill id="5477" levels="1" name="83級狩獵首領">
 		<!-- This Skill Is Only For Description In The Client -->
 		<set name="target" val="TARGET_SELF" />
 		<set name="skillType" val="PASSIVE" />
 		<set name="operateType" val="OP_PASSIVE" />
 	</skill>
-	<skill id="5478" levels="1" name="Raid Boss - Level 83">
+	<skill id="5478" levels="1" name="83級狩獵首領">
 		<!-- This Skill Is Only For Description In The Client -->
 		<set name="target" val="TARGET_SELF" />
 		<set name="skillType" val="PASSIVE" />
 		<set name="operateType" val="OP_PASSIVE" />
 	</skill>
-	<skill id="5479" levels="1" name="Boss Petrification Resistance">
+	<skill id="5479" levels="1" name="首領石化抵抗">
 		<!-- Resist against Petrification. -->
 		<!-- Update by pmq -->
 		<set name="target" val="TARGET_SELF" />
 		<set name="skillType" val="BUFF" />
 		<set name="operateType" val="OP_PASSIVE" />
 		<for>
-			<mul order="0x30" stat="paralyzeVuln" val="0"/>
+			<mul order="0x30" stat="paralyzeVuln" val="0" />
 		</for>
 	</skill>
-	<skill id="5480" levels="1" name="Balor Invincible Removal">
+	<skill id="5480" levels="1" name="巴爾勒無敵狀態解除">
 		<!-- Confirmed CT2.5 -->
 		<!-- Baylor Skills -->
 		<set name="castRange" val="600" />
@@ -833,65 +833,65 @@
 		<set name="skillType" val="NEGATE" />
 		<set name="target" val="TARGET_ONE" />
 	</skill>
-	<skill id="5481" levels="1" name="Transform Penalty">
+	<skill id="5481" levels="1" name="變身後遺症">
 		<!-- You cannot be transformed while under this effect. -->
 		<set name="target" val="TARGET_NONE" />
 		<set name="skillType" val="NOTDONE" />
 		<set name="operateType" val="OP_PASSIVE" />
 	</skill>
-	<skill id="5482" levels="1" name="Transform Penalty">
+	<skill id="5482" levels="1" name="變身後遺症">
 		<!-- You cannot be transformed while under this effect. -->
 		<set name="target" val="TARGET_NONE" />
 		<set name="skillType" val="NOTDONE" />
 		<set name="operateType" val="OP_PASSIVE" />
 	</skill>
-	<skill id="5483" levels="1" name="Counter Aggression">
+	<skill id="5483" levels="1" name="回擊挑撥">
 		<set name="target" val="TARGET_NONE" />
 		<set name="skillType" val="NOTDONE" />
 		<set name="operateType" val="OP_PASSIVE" />
 	</skill>
-	<skill id="5484" levels="1" name="Endurance Defense Up">
+	<skill id="5484" levels="1" name="耐力 防禦 上升">
 		<!-- Increases P. Def. Effect 1. -->
 		<set name="target" val="TARGET_NONE" />
 		<set name="skillType" val="NOTDONE" />
 		<set name="operateType" val="OP_PASSIVE" />
 	</skill>
-	<skill id="5485" levels="1" name="Endurance Defense Up">
+	<skill id="5485" levels="1" name="耐力 防禦 上升">
 		<!-- Increases P. Def. Effect 1. -->
 		<set name="target" val="TARGET_NONE" />
 		<set name="skillType" val="NOTDONE" />
 		<set name="operateType" val="OP_PASSIVE" />
 	</skill>
-	<skill id="5486" levels="1" name="Endurance Offense Up">
+	<skill id="5486" levels="1" name="耐力 攻擊 上升">
 		<!-- Increases P. Atk. Effect 1. -->
 		<set name="target" val="TARGET_NONE" />
 		<set name="skillType" val="NOTDONE" />
 		<set name="operateType" val="OP_PASSIVE" />
 	</skill>
-	<skill id="5487" levels="1" name="Counter Delete Aggression">
+	<skill id="5487" levels="1" name="反擊刪除挑撥">
 		<set name="target" val="TARGET_NONE" />
 		<set name="skillType" val="NOTDONE" />
 		<set name="operateType" val="OP_PASSIVE" />
 	</skill>
-	<skill id="5488" levels="1" name="Counter Critical Power Up">
+	<skill id="5488" levels="1" name="反擊爆擊力量上升">
 		<!-- Increases critical attack power. Effect 1. -->
 		<set name="target" val="TARGET_NONE" />
 		<set name="skillType" val="NOTDONE" />
 		<set name="operateType" val="OP_PASSIVE" />
 	</skill>
-	<skill id="5489" levels="1" name="Counter Critical Rate Up">
+	<skill id="5489" levels="1" name="反擊爆擊機率上升">
 		<!-- Increases critical attack rate. Effect 1. -->
 		<set name="target" val="TARGET_NONE" />
 		<set name="skillType" val="NOTDONE" />
 		<set name="operateType" val="OP_PASSIVE" />
 	</skill>
-	<skill id="5490" levels="1" name="Weakened Life">
+	<skill id="5490" levels="1" name="虛弱化生命力">
 		<!-- You have been infected by a fatal poison. -->
 		<set name="target" val="TARGET_NONE" />
 		<set name="skillType" val="NOTDONE" />
 		<set name="operateType" val="OP_PASSIVE" />
 	</skill>
-	<skill id="5491" levels="1" name="Decrease Bow/Crossbow Atk. Spd.">
+	<skill id="5491" levels="1" name="弓/弩攻擊速度下降">
 		<set name="target" val="TARGET_SELF" />
 		<set name="skillType" val="BUFF" />
 		<set name="operateType" val="OP_PASSIVE" />
@@ -917,19 +917,19 @@
 		<set name="skillType" val="PDAM" />
 		<set name="target" val="TARGET_ONE" />
 	</skill>
-	<skill id="5493" levels="1" name="Naia Production">
+	<skill id="5493" levels="1" name="奈雅展示">
 		<set name="target" val="TARGET_NONE" />
 		<set name="skillType" val="NOTDONE" />
 		<set name="reuseDelay" val="1000" />
 		<set name="operateType" val="OP_PASSIVE" />
 		<set name="hitTime" val="25000" />
 	</skill>
-	<skill id="5494" levels="1" name="Gust">
+	<skill id="5494" levels="1" name="突風">
 		<set name="target" val="TARGET_NONE" />
 		<set name="skillType" val="NOTDONE" />
 		<set name="operateType" val="OP_PASSIVE" />
 	</skill>
-	<skill id="5495" levels="1" name="Bleed">
+	<skill id="5495" levels="1" name="出血">
 		<!-- Confirmed CT2.5 -->
 		<!-- Beleth Skills -->
 		<set name="effectAbnormalLvl" val="10" />
@@ -949,7 +949,7 @@
 			<effect count="4" name="DamOverTime" time="5" val="355" abnormal="bleed" effectPower="100" effectType="BLEED" stackOrder="10" stackType="bleeding" />
 		</for>
 	</skill>
-	<skill id="5496" levels="1" name="Dark Fireball">
+	<skill id="5496" levels="1" name="黑暗火球">
 		<!-- Confirmed CT2.5 -->
 		<!-- Beleth Skills -->
 		<set name="castRange" val="1000" />
@@ -965,7 +965,7 @@
 		<set name="skillType" val="MDAM" />
 		<set name="target" val="TARGET_AREA" />
 	</skill>
-	<skill id="5497" levels="1" name="Horn of Rising Darkness">
+	<skill id="5497" levels="1" name="上衝黑暗之角">
 		<!-- Confirmed CT2.5 -->
 		<!-- Beleth Skills -->
 		<set name="castRange" val="1000" />
@@ -987,7 +987,7 @@
 			<effect count="9" name="DamOverTime" noicon="1" val="52" effectPower="80" effectType="STUN" />
 		</for>
 	</skill>
-	<skill id="5498" levels="1" name="Self-Destruct">
+	<skill id="5498" levels="1" name="自爆">
 		<!-- Confirmed CT2.5 -->
 		<!-- Beleth Skills -->
 		<set name="aggroPoints" val="1" />
@@ -1003,7 +1003,7 @@
 			<effect name="TargetMe" val="0" />
 		</for>
 	</skill>
-	<skill id="5499" levels="1" name="Dark Lightening">
+	<skill id="5499" levels="1" name="黑暗閃電">
 		<!-- Confirmed CT2.5 -->
 		<!-- Beleth Skills -->
 		<set name="castRange" val="500" />

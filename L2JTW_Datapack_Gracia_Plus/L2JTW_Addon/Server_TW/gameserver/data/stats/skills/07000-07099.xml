@@ -35,7 +35,7 @@
 		<set name="effectRange" val="900" />
 		<set name="aggroPoints" val="100" />
 	</skill>
-	<skill id="7004" levels="2" name="Dispel Petrification">
+	<skill id="7004" levels="2" name="石化解除">
 		<set name="magicLvl" val="60" />
 		<set name="target" val="TARGET_SELF" />
 		<set name="skillType" val="NEGATE" />
@@ -45,7 +45,7 @@
 		<set name="isMagic" val="true" />
 		<set name="aggroPoints" val="566" />
 	</skill>
-	<skill id="7005" levels="4" name="Greater Chant of Vampire">
+	<skill id="7005" levels="4" name="高級嗜血頌歌">
 		<set name="magicLvl" val="74" />
 		<set name="mpInitialConsume" val="55" />
 		<set name="mpConsume" val="217" />
@@ -64,7 +64,7 @@
 			</effect>
 		</for>
 	</skill>
-	<skill id="7006" levels="13" name="The Love of Pa'agrio">
+	<skill id="7006" levels="13" name="高級帕格立歐之心">
 		<!-- Needs to be done -->
 		<set name="mpConsume" val="272" />
 		<set name="target" val="TARGET_SELF" />
@@ -77,7 +77,7 @@
 		<set name="effectRange" val="900" />
 		<set name="aggroPoints" val="655" />
 	</skill>
-	<skill id="7007" levels="4" name="Greater Seal of Flame">
+	<skill id="7007" levels="4" name="高級火焰封印">
 		<!-- Needs to be done -->
 		<set name="mpConsume" val="153" />
 		<set name="target" val="TARGET_SELF" />
@@ -91,113 +91,113 @@
 		<set name="castRange" val="400" />
 		<set name="effectRange" val="900" />
 	</skill>
-	<skill id="7008" levels="1" name="not_used">
+	<skill id="7008" levels="1" name="不使用">
 		<set name="target" val="TARGET_SELF" />
 		<set name="skillType" val="NOTDONE" />
 		<set name="operateType" val="OP_PASSIVE" />
 	</skill>
-	<skill id="7009" levels="1" name="not_used">
+	<skill id="7009" levels="1" name="不使用">
 		<set name="target" val="TARGET_SELF" />
 		<set name="skillType" val="NOTDONE" />
 		<set name="operateType" val="OP_PASSIVE" />
 	</skill>
-	<skill id="7010" levels="1" name="not_used">
+	<skill id="7010" levels="1" name="不使用">
 		<set name="target" val="TARGET_SELF" />
 		<set name="skillType" val="NOTDONE" />
 		<set name="operateType" val="OP_PASSIVE" />
 	</skill>
-	<skill id="7011" levels="1" name="not_used">
+	<skill id="7011" levels="1" name="測試-變身">
 		<set name="target" val="TARGET_SELF" />
 		<set name="skillType" val="NOTDONE" />
 		<set name="operateType" val="OP_PASSIVE" />
 	</skill>
-	<skill id="7012" levels="1" name="not_used">
+	<skill id="7012" levels="1" name="變身後遺症">
 		<set name="target" val="TARGET_SELF" />
 		<set name="skillType" val="NOTDONE" />
 		<set name="operateType" val="OP_PASSIVE" />
 	</skill>
-	<skill id="7013" levels="1" name="not_used">
+	<skill id="7013" levels="1" name="不使用">
 		<set name="target" val="TARGET_SELF" />
 		<set name="skillType" val="NOTDONE" />
 		<set name="operateType" val="OP_PASSIVE" />
 	</skill>
-	<skill id="7014" levels="1" name="Test - Critical Damage Up">
+	<skill id="7014" levels="1" name="測試-致命傷害大">
 		<set name="target" val="TARGET_SELF" />
 		<set name="skillType" val="NOTDONE" />
 		<set name="operateType" val="OP_PASSIVE" />
 	</skill>
-	<skill id="7015" levels="1" name="Test - Critical Damage Down">
+	<skill id="7015" levels="1" name="測試-致命傷害小">
 		<set name="target" val="TARGET_SELF" />
 		<set name="skillType" val="NOTDONE" />
 		<set name="operateType" val="OP_PASSIVE" />
 	</skill>
-	<skill id="7016" levels="1" name="Test - Critical Damage Up">
+	<skill id="7016" levels="1" name="測試-致命傷害大">
 		<set name="target" val="TARGET_SELF" />
 		<set name="skillType" val="NOTDONE" />
 		<set name="operateType" val="OP_PASSIVE" />
 	</skill>
-	<skill id="7017" levels="1" name="Test - Critical Damage Down">
+	<skill id="7017" levels="1" name="測試-致命傷害小">
 		<set name="target" val="TARGET_SELF" />
 		<set name="skillType" val="NOTDONE" />
 		<set name="operateType" val="OP_PASSIVE" />
 	</skill>
-	<skill id="7018" levels="1" name="Test - Critical Rate Up">
+	<skill id="7018" levels="1" name="測試-致命傷害機率大">
 		<set name="target" val="TARGET_SELF" />
 		<set name="skillType" val="NOTDONE" />
 		<set name="operateType" val="OP_PASSIVE" />
 	</skill>
-	<skill id="7019" levels="1" name="Test - Critical Rate Down">
+	<skill id="7019" levels="1" name="測試-致命傷害機率小">
 		<set name="target" val="TARGET_SELF" />
 		<set name="skillType" val="NOTDONE" />
 		<set name="operateType" val="OP_PASSIVE" />
 	</skill>
-	<skill id="7020" levels="1" name="Test - Critical Rate Up">
+	<skill id="7020" levels="1" name="測試-致命傷害機率大">
 		<set name="target" val="TARGET_SELF" />
 		<set name="skillType" val="NOTDONE" />
 		<set name="operateType" val="OP_PASSIVE" />
 	</skill>
-	<skill id="7021" levels="1" name="Test - Critical Rate Down">
+	<skill id="7021" levels="1" name="測試-致命傷害機率小">
 		<set name="target" val="TARGET_SELF" />
 		<set name="skillType" val="NOTDONE" />
 		<set name="operateType" val="OP_PASSIVE" />
 	</skill>
-	<skill id="7022" levels="1" name="Test - Find Hidden Door">
+	<skill id="7022" levels="1" name="測試-尋找隱藏的門">
 		<set name="target" val="TARGET_SELF" />
 		<set name="skillType" val="NOTDONE" />
 		<set name="operateType" val="OP_PASSIVE" />
 		<set name="hitTime" val="1000" />
 	</skill>
-	<skill id="7023" levels="1" name="not_used">
+	<skill id="7023" levels="1" name="不使用">
 		<set name="target" val="TARGET_SELF" />
 		<set name="skillType" val="NOTDONE" />
 		<set name="operateType" val="OP_PASSIVE" />
 	</skill>
-	<skill id="7024" levels="1" name="not_used">
+	<skill id="7024" levels="1" name="不使用">
 		<set name="target" val="TARGET_SELF" />
 		<set name="skillType" val="NOTDONE" />
 		<set name="operateType" val="OP_PASSIVE" />
 	</skill>
-	<skill id="7025" levels="1" name="not_used">
+	<skill id="7025" levels="1" name="不使用">
 		<set name="target" val="TARGET_SELF" />
 		<set name="skillType" val="NOTDONE" />
 		<set name="operateType" val="OP_PASSIVE" />
 	</skill>
-	<skill id="7026" levels="1" name="not_used">
+	<skill id="7026" levels="1" name="不使用">
 		<set name="target" val="TARGET_SELF" />
 		<set name="skillType" val="NOTDONE" />
 		<set name="operateType" val="OP_PASSIVE" />
 	</skill>
-	<skill id="7027" levels="1" name="not_used">
+	<skill id="7027" levels="1" name="不使用">
 		<set name="target" val="TARGET_SELF" />
 		<set name="skillType" val="NOTDONE" />
 		<set name="operateType" val="OP_PASSIVE" />
 	</skill>
-	<skill id="7028" levels="1" name="For Stationary NPCs">
+	<skill id="7028" levels="1" name="固定NPC用">
 		<set name="target" val="TARGET_SELF" />
 		<set name="skillType" val="NOTDONE" />
 		<set name="operateType" val="OP_PASSIVE" />
 	</skill>
-	<skill id="7029" levels="4" name="Super Haste">
+	<skill id="7029" levels="4" name="超級加速">
 		<!-- Update by rocknow (Original Super Haste) -->
 		<!-- GM Skill -->
 		<table name="#pAtkSpd"> 1.2 1.5 2 3 </table>
@@ -220,7 +220,7 @@
 			</effect>
 		</for>
 	</skill>
-	<skill id="7030" levels="1" name="Summon King Bugbear">
+	<skill id="7030" levels="1" name="召喚食人妖王">
 		<set name="itemConsumeId" val="1458" />
 		<set name="mpConsume" val="3" />
 		<set name="itemConsumeSteps" val="0" />
@@ -237,7 +237,7 @@
 		<!-- Summon-specific -->
 		<set name="npcId" val="20150" />
 	</skill>
-	<skill id="7031" levels="1" name="Summon Skeleton Royal Guard">
+	<skill id="7031" levels="1" name="召喚骷髏RG">
 		<set name="itemConsumeId" val="1458" />
 		<set name="mpConsume" val="3" />
 		<set name="itemConsumeSteps" val="0" />
@@ -254,7 +254,7 @@
 		<!-- Summon-specific -->
 		<set name="npcId" val="20169" />
 	</skill>
-	<skill id="7032" levels="1" name="Summon Hunter Gargoyle">
+	<skill id="7032" levels="1" name="召喚狩獵翼魔">
 		<set name="itemConsumeId" val="1458" />
 		<set name="mpConsume" val="3" />
 		<set name="itemConsumeSteps" val="0" />
@@ -311,7 +311,7 @@
 		<set name="skillType" val="NOTDONE" />
 		<set name="operateType" val="OP_PASSIVE" />
 	</skill>
-	<skill id="7041" levels="1" name="Master's Blessing - Focus">
+	<skill id="7041" levels="1" name="GM的祝福-弱點偵測">
 		<!-- GM Skill -->
 		<set name="aggroPoints" val="495" />
 		<set name="castRange" val="400" />
@@ -328,7 +328,7 @@
 			</effect>
 		</for>
 	</skill>
-	<skill id="7042" levels="1" name="Master's Blessing - Death Whisper">
+	<skill id="7042" levels="1" name="GM的祝福-死之呢喃">
 		<!-- GM Skill -->
 		<set name="aggroPoints" val="532" />
 		<set name="castRange" val="400" />
@@ -345,7 +345,7 @@
 			</effect>
 		</for>
 	</skill>
-	<skill id="7043" levels="1" name="Master's Blessing - Haste">
+	<skill id="7043" levels="1" name="GM的祝福-速度激發">
 		<!-- GM Skill -->
 		<set name="aggroPoints" val="495" />
 		<set name="castRange" val="400" />
@@ -363,7 +363,7 @@
 			</effect>
 		</for>
 	</skill>
-	<skill id="7044" levels="1" name="Master's Blessing - Guidance">
+	<skill id="7044" levels="1" name="GM的祝福-導引">
 		<!-- GM Skill -->
 		<set name="aggroPoints" val="532" />
 		<set name="castRange" val="400" />
@@ -380,7 +380,7 @@
 			</effect>
 		</for>
 	</skill>
-	<skill id="7045" levels="1" name="Master's Blessing - Blessed Body">
+	<skill id="7045" levels="1" name="GM的祝福-神佑之體">
 		<!-- GM Skill -->
 		<set name="aggroPoints" val="646" />
 		<set name="castRange" val="400" />
@@ -397,7 +397,7 @@
 			</effect>
 		</for>
 	</skill>
-	<skill id="7046" levels="1" name="Master's Blessing - Blessed Soul">
+	<skill id="7046" levels="1" name="GM的祝福-神佑之魂">
 		<!-- GM Skill -->
 		<set name="aggroPoints" val="635" />
 		<set name="castRange" val="400" />
@@ -414,7 +414,7 @@
 			</effect>
 		</for>
 	</skill>
-	<skill id="7047" levels="1" name="Master's Blessing - Agility">
+	<skill id="7047" levels="1" name="GM的祝福-敏捷術">
 		<!-- GM Skill -->
 		<set name="aggroPoints" val="495" />
 		<set name="castRange" val="400" />
@@ -431,7 +431,7 @@
 			</effect>
 		</for>
 	</skill>
-	<skill id="7048" levels="1" name="Master's Blessing - Acumen">
+	<skill id="7048" levels="1" name="GM的祝福-靈活思緒">
 		<!-- GM Skill -->
 		<set name="aggroPoints" val="457" />
 		<set name="castRange" val="400" />
@@ -449,7 +449,7 @@
 			</effect>
 		</for>
 	</skill>
-	<skill id="7049" levels="1" name="Master's Blessing - Decrease Weight">
+	<skill id="7049" levels="1" name="GM的祝福-減輕負重">
 		<!-- GM Skill -->
 		<set name="aggroPoints" val="495" />
 		<set name="castRange" val="400" />
@@ -466,7 +466,7 @@
 			</effect>
 		</for>
 	</skill>
-	<skill id="7050" levels="1" name="Master's Blessing - Might">
+	<skill id="7050" levels="1" name="GM的祝福-力量強化">
 		<!-- GM Skill -->
 		<set name="aggroPoints" val="379" />
 		<set name="castRange" val="400" />
@@ -483,7 +483,7 @@
 			</effect>
 		</for>
 	</skill>
-	<skill id="7051" levels="1" name="Master's Blessing - Shield">
+	<skill id="7051" levels="1" name="GM的祝福-保護盾">
 		<!-- GM Skill -->
 		<set name="aggroPoints" val="418" />
 		<set name="castRange" val="400" />
@@ -500,7 +500,7 @@
 			</effect>
 		</for>
 	</skill>
-	<skill id="7052" levels="1" name="Master's Blessing - Magic Barrier">
+	<skill id="7052" levels="1" name="GM的祝福-魔法屏障">
 		<!-- GM Skill -->
 		<set name="aggroPoints" val="495" />
 		<set name="castRange" val="400" />
@@ -517,7 +517,7 @@
 			</effect>
 		</for>
 	</skill>
-	<skill id="7053" levels="1" name="Master's Blessing - Vampiric Rage">
+	<skill id="7053" levels="1" name="GM的祝福-吸血怒擊">
 		<!-- GM Skill -->
 		<set name="aggroPoints" val="646" />
 		<set name="castRange" val="400" />
@@ -534,7 +534,7 @@
 			</effect>
 		</for>
 	</skill>
-	<skill id="7054" levels="1" name="Master's Blessing - Empower">
+	<skill id="7054" levels="1" name="GM的祝福-魔力催化">
 		<!-- GM Skill -->
 		<set name="aggroPoints" val="495" />
 		<set name="castRange" val="400" />
@@ -551,7 +551,7 @@
 			</effect>
 		</for>
 	</skill>
-	<skill id="7055" levels="1" name="Master's Blessing - Wind Walk">
+	<skill id="7055" levels="1" name="GM的祝福-風之疾走">
 		<!-- GM Skill -->
 		<set name="aggroPoints" val="285" />
 		<set name="castRange" val="400" />
@@ -568,7 +568,7 @@
 			</effect>
 		</for>
 	</skill>
-	<skill id="7056" levels="1" name="Master's Blessing - Berserker Spirit">
+	<skill id="7056" levels="1" name="GM的祝福-狂戰士魂">
 		<!-- GM Skill -->
 		<set name="aggroPoints" val="495" />
 		<set name="castRange" val="400" />
@@ -592,7 +592,7 @@
 			</effect>
 		</for>
 	</skill>
-	<skill id="7057" levels="1" name="Master's Blessing - Greater Might">
+	<skill id="7057" levels="1" name="GM的祝福-高級力量強化">
 		<!-- GM Skill -->
 		<set name="castRange" val="400" />
 		<set name="effectRange" val="900" />
@@ -608,7 +608,7 @@
 			</effect>
 		</for>
 	</skill>
-	<skill id="7058" levels="1" name="Master's Blessing - Greater Shield">
+	<skill id="7058" levels="1" name="GM的祝福-高級保護盾">
 		<!-- GM Skill -->
 		<set name="castRange" val="400" />
 		<set name="effectRange" val="900" />
@@ -624,7 +624,7 @@
 			</effect>
 		</for>
 	</skill>
-	<skill id="7059" levels="1" name="Master's Blessing - Wild Magic">
+	<skill id="7059" levels="1" name="GM的祝福-野性魔力">
 		<!-- GM Skill -->
 		<set name="aggroPoints" val="635" />
 		<set name="castRange" val="400" />
@@ -641,7 +641,7 @@
 			</effect>
 		</for>
 	</skill>
-	<skill id="7060" levels="1" name="Master's Blessing - Clarity">
+	<skill id="7060" levels="1" name="GM的祝福-澄澈思緒">
 		<!-- GM Skill -->
 		<set name="castRange" val="400" />
 		<set name="effectRange" val="900" />
@@ -659,7 +659,7 @@
 			</effect>
 		</for>
 	</skill>
-	<skill id="7061" levels="1" name="Master's Blessing - Prophecy of Water">
+	<skill id="7061" levels="1" name="GM的祝福-水之預言">
 		<!-- GM Skill -->
 		<set name="aggroPoints" val="669" />
 		<set name="castRange" val="400" />
@@ -686,7 +686,7 @@
 			</effect>
 		</for>
 	</skill>
-	<skill id="7062" levels="1" name="Master's Blessing - Prophecy of Fire">
+	<skill id="7062" levels="1" name="GM的祝福-火之預言">
 		<!-- GM Skill -->
 		<set name="aggroPoints" val="669" />
 		<set name="castRange" val="400" />
@@ -715,7 +715,7 @@
 			</effect>
 		</for>
 	</skill>
-	<skill id="7063" levels="1" name="Master's Blessing - Prophecy of Wind">
+	<skill id="7063" levels="1" name="GM的祝福-風之預言">
 		<!-- GM Skill -->
 		<set name="aggroPoints" val="669" />
 		<set name="castRange" val="400" />
@@ -743,7 +743,7 @@
 			</effect>
 		</for>
 	</skill>
-	<skill id="7064" levels="1" name="Master's Blessing - Chant of Victory">
+	<skill id="7064" levels="1" name="GM的祝福-凱旋頌歌">
 		<!-- GM Skill -->
 		<set name="aggroPoints" val="669" />
 		<set name="castRange" val="400" />
@@ -772,7 +772,7 @@
 			</effect>
 		</for>
 	</skill>
-	<skill id="7065" levels="1" name="Test - Charge">
+	<skill id="7065" levels="1" name="測試用突擊">
 		<set name="target" val="TARGET_NONE" />
 		<set name="nextActionAttack" val="true" />
 		<set name="skillType" val="NOTDONE" />
@@ -783,7 +783,7 @@
 			<target mindistance="200" />
 		</cond>
 	</skill>
-	<skill id="7066" levels="1" name="Test Stun Charge">
+	<skill id="7066" levels="1" name="測試用衝擊突擊">
 		<set name="target" val="TARGET_NONE" />
 		<set name="nextActionAttack" val="true" />
 		<set name="skillType" val="NOTDONE" />
@@ -796,7 +796,7 @@
 			<target mindistance="200" />
 		</cond>
 	</skill>
-	<skill id="7067" levels="1" name="Test Range Charge">
+	<skill id="7067" levels="1" name="測試用範圍 突擊">
 		<set name="target" val="TARGET_NONE" />
 		<set name="nextActionAttack" val="true" />
 		<set name="skillType" val="NOTDONE" />
@@ -809,7 +809,7 @@
 			<target mindistance="200" />
 		</cond>
 	</skill>
-	<skill id="7068" levels="1" name="Test Steal Abnormal State">
+	<skill id="7068" levels="1" name="測試用異常狀態-偷竊">
 		<set name="target" val="TARGET_NONE" />
 		<set name="nextActionAttack" val="true" />
 		<set name="skillType" val="NOTDONE" />
@@ -820,7 +820,7 @@
 			<target mindistance="200" />
 		</cond>
 	</skill>
-	<skill id="7069" levels="1" name="Test Abnormal State DD">
+	<skill id="7069" levels="1" name="測試用異常狀態-DD">
 		<set name="target" val="TARGET_NONE" />
 		<set name="nextActionAttack" val="true" />
 		<set name="skillType" val="NOTDONE" />
@@ -831,47 +831,47 @@
 			<target mindistance="200" />
 		</cond>
 	</skill>
-	<skill id="7070" levels="1" name="Test - Soul Eating Passive">
+	<skill id="7070" levels="1" name="測試用- 食魂 被動">
 		<set name="target" val="TARGET_NONE" />
 		<set name="skillType" val="NOTDONE" />
 		<set name="operateType" val="OP_PASSIVE" />
 	</skill>
-	<skill id="7071" levels="1" name="Test - Soul Transfer">
+	<skill id="7071" levels="1" name="測試用- 靈魂轉移">
 		<set name="target" val="TARGET_NONE" />
 		<set name="skillType" val="NOTDONE" />
 		<set name="operateType" val="OP_PASSIVE" />
 		<set name="reuseDelay" val="1000" />
 		<set name="hitTime" val="900" />
 	</skill>
-	<skill id="7072" levels="1" name="Test - Basic Trap">
+	<skill id="7072" levels="1" name="測試用- 基本陷阱">
 		<set name="target" val="TARGET_NONE" />
 		<set name="skillType" val="NOTDONE" />
 		<set name="operateType" val="OP_PASSIVE" />
 		<set name="reuseDelay" val="30000" />
 		<set name="hitTime" val="3000" />
 	</skill>
-	<skill id="7073" levels="1" name="Test - Find Trap">
+	<skill id="7073" levels="1" name="測試用- 察覺陷阱">
 		<set name="target" val="TARGET_NONE" />
 		<set name="skillType" val="NOTDONE" />
 		<set name="operateType" val="OP_PASSIVE" />
 		<set name="reuseDelay" val="30000" />
 		<set name="hitTime" val="1000" />
 	</skill>
-	<skill id="7074" levels="1" name="Test - Cancel Trap">
+	<skill id="7074" levels="1" name="測試用- 拆除陷阱">
 		<set name="target" val="TARGET_NONE" />
 		<set name="skillType" val="NOTDONE" />
 		<set name="operateType" val="OP_PASSIVE" />
 		<set name="reuseDelay" val="30000" />
 		<set name="hitTime" val="4000" />
 	</skill>
-	<skill id="7075" levels="1" name="Test - Distance DD">
+	<skill id="7075" levels="1" name="測試用- 距離DD">
 		<set name="target" val="TARGET_NONE" />
 		<set name="skillType" val="NOTDONE" />
 		<set name="operateType" val="OP_PASSIVE" />
 		<set name="reuseDelay" val="6000" />
 		<set name="hitTime" val="4000" />
 	</skill>
-	<skill id="7076" levels="1" name="Test - Delay Debuff">
+	<skill id="7076" levels="1" name="測試用- 延遲 Debuff">
 		<set name="target" val="TARGET_NONE" />
 		<set name="nextActionAttack" val="true" />
 		<set name="skillType" val="NOTDONE" />
@@ -881,12 +881,12 @@
 		<set name="lvlDepend" val="2" />
 		<set name="saveVs" val="CON" />
 	</skill>
-	<skill id="7077" levels="1" name="Test - Delay Debuff - Call">
+	<skill id="7077" levels="1" name="測試用- 延遲 Debuff-呼喊">
 		<set name="target" val="TARGET_NONE" />
 		<set name="skillType" val="NOTDONE" />
 		<set name="operateType" val="OP_PASSIVE" />
 	</skill>
-	<skill id="7078" levels="1" name="Test - Blink">
+	<skill id="7078" levels="1" name="測試用- 閃逝">
 		<set name="target" val="TARGET_NONE" />
 		<set name="skillType" val="NOTDONE" />
 		<set name="operateType" val="OP_PASSIVE" />
@@ -896,20 +896,20 @@
 		<set name="lvlDepend" val="1" />
 		<set name="saveVs" val="CON" />
 	</skill>
-	<skill id="7079" levels="1" name="Test - Party Damage Absorb">
+	<skill id="7079" levels="1" name="測試用- 隊伍傷害吸收">
 		<set name="target" val="TARGET_NONE" />
 		<set name="skillType" val="NOTDONE" />
 		<set name="operateType" val="OP_PASSIVE" />
 		<set name="hitTime" val="2500" />
 	</skill>
-	<skill id="7080" levels="1" name="Test - General Attack Prohibited">
+	<skill id="7080" levels="1" name="測試用-一般攻擊禁止">
 		<set name="target" val="TARGET_NONE" />
 		<set name="skillType" val="NOTDONE" />
 		<set name="operateType" val="OP_PASSIVE" />
 		<set name="hitTime" val="2500" />
 		<set name="saveVs" val="CON" />
 	</skill>
-	<skill id="7081" levels="1" name="Effect Test - Land Shot">
+	<skill id="7081" levels="1" name="效果測試用-朝地射擊">
 		<set name="target" val="TARGET_NONE" />
 		<set name="skillType" val="NOTDONE" />
 		<set name="operateType" val="OP_PASSIVE" />
@@ -917,41 +917,41 @@
 		<set name="hitTime" val="3200" />
 		<set name="coolTime" val="800" />
 	</skill>
-	<skill id="7082" levels="1" name="Effect Test - Chain Lightning">
+	<skill id="7082" levels="1" name="效果測試用- 連鎖閃電">
 		<set name="target" val="TARGET_NONE" />
 		<set name="skillType" val="NOTDONE" />
 		<set name="operateType" val="OP_PASSIVE" />
 		<set name="reuseDelay" val="20000" />
 		<set name="hitTime" val="5000" />
 	</skill>
-	<skill id="7083" levels="1" name="Test - Trap Skill">
+	<skill id="7083" levels="1" name="測試用- 陷阱技能">
 		<set name="target" val="TARGET_NONE" />
 		<set name="skillType" val="NOTDONE" />
 		<set name="operateType" val="OP_PASSIVE" />
 	</skill>
-	<skill id="7084" levels="1" name="Test - Trap Skill">
+	<skill id="7084" levels="1" name="測試用- 陷阱技能">
 		<set name="target" val="TARGET_NONE" />
 		<set name="skillType" val="NOTDONE" />
 		<set name="operateType" val="OP_PASSIVE" />
 	</skill>
-	<skill id="7085" levels="1" name="Self-Destruct Explosion">
-		<set name="target" val="TARGET_NONE" />
-		<set name="skillType" val="NOTDONE" />
-		<set name="operateType" val="OP_PASSIVE" />
-		<set name="hitTime" val="1000" />
-	</skill>
-	<skill id="7086" levels="1" name="Last Stand_test">
-		<set name="target" val="TARGET_NONE" />
-		<set name="skillType" val="NOTDONE" />
-		<set name="operateType" val="OP_PASSIVE" />
-	</skill>
-	<skill id="7087" levels="1" name="Chain Magic - Dark Explosion_test">
+	<skill id="7085" levels="1" name="自爆_測試">
 		<set name="target" val="TARGET_NONE" />
 		<set name="skillType" val="NOTDONE" />
 		<set name="operateType" val="OP_PASSIVE" />
 		<set name="hitTime" val="1000" />
 	</skill>
-	<skill id="7088" levels="1" name="Master's Blessing - Improve Combat">
+	<skill id="7086" levels="1" name="最終態勢_測試">
+		<set name="target" val="TARGET_NONE" />
+		<set name="skillType" val="NOTDONE" />
+		<set name="operateType" val="OP_PASSIVE" />
+	</skill>
+	<skill id="7087" levels="1" name="連鎖魔法-黑暗爆裂_測試">
+		<set name="target" val="TARGET_NONE" />
+		<set name="skillType" val="NOTDONE" />
+		<set name="operateType" val="OP_PASSIVE" />
+		<set name="hitTime" val="1000" />
+	</skill>
+	<skill id="7088" levels="1" name="GM的祝福-提升戰鬥">
 		<!-- GM Skill -->
 		<set name="aggroPoints" val="655" />
 		<set name="castRange" val="400" />
@@ -972,7 +972,7 @@
 			</effect>
 		</for>
 	</skill>
-	<skill id="7089" levels="1" name="Master's Blessing - Improve Magic">
+	<skill id="7089" levels="1" name="GM的祝福-提升魔法">
 		<!-- GM Skill -->
 		<set name="aggroPoints" val="655" />
 		<set name="castRange" val="400" />
@@ -993,7 +993,7 @@
 			</effect>
 		</for>
 	</skill>
-	<skill id="7090" levels="1" name="Master's Blessing - Improve Condition">
+	<skill id="7090" levels="1" name="GM的祝福-提升狀態">
 		<!-- GM Skill -->
 		<set name="aggroPoints" val="655" />
 		<set name="castRange" val="400" />
@@ -1014,7 +1014,7 @@
 			</effect>
 		</for>
 	</skill>
-	<skill id="7091" levels="1" name="Master's Blessing - Improve Critical">
+	<skill id="7091" levels="1" name="GM的祝福-提升致命攻擊">
 		<!-- GM Skill -->
 		<set name="aggroPoints" val="655" />
 		<set name="castRange" val="400" />
@@ -1035,7 +1035,7 @@
 			</effect>
 		</for>
 	</skill>
-	<skill id="7092" levels="1" name="Master's Blessing - Improve Shield Defense">
+	<skill id="7092" levels="1" name="GM的祝福-提升盾防禦">
 		<!-- GM Skill -->
 		<set name="aggroPoints" val="655" />
 		<set name="castRange" val="400" />
@@ -1056,7 +1056,7 @@
 			</effect>
 		</for>
 	</skill>
-	<skill id="7093" levels="1" name="Master's Blessing - Improve Movement">
+	<skill id="7093" levels="1" name="GM的祝福-提升行動力">
 		<!-- GM Skill -->
 		<set name="aggroPoints" val="655" />
 		<set name="castRange" val="400" />
@@ -1077,7 +1077,7 @@
 			</effect>
 		</for>
 	</skill>
-	<skill id="7094" levels="1" name="Master's Blessing - Sharpen Edge">
+	<skill id="7094" levels="1" name="GM的祝福-尖銳之刃">
 		<!-- GM Skill -->
 		<set name="castRange" val="40" />
 		<set name="effectRange" val="400" />
@@ -1099,7 +1099,7 @@
 			</effect>
 		</for>
 	</skill>
-	<skill id="7095" levels="1" name="Master's Blessing - Face Harden">
+	<skill id="7095" levels="1" name="GM的祝福-表層硬化">
 		<!-- GM Skill -->
 		<set name="castRange" val="40" />
 		<set name="effectRange" val="400" />
@@ -1118,7 +1118,7 @@
 			</effect>
 		</for>
 	</skill>
-	<skill id="7096" levels="1" name="Master's Blessing - Blessing of Noblesse">
+	<skill id="7096" levels="1" name="GM的祝福-貴族的祝福">
 		<!-- GM Skill -->
 		<set name="aggroPoints" val="1" />
 		<set name="canBeDispeled" val="false" />

@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <list>
-	<skill id="700" levels="1" name="Divine Healer Group Heal">
+	<skill id="700" levels="1" name="聖恩牧師 集體治癒術">
 		<set name="aggroPoints" val="400" />
 		<set name="hitTime" val="7000" />
 		<set name="isMagic" val="true" />
@@ -15,7 +15,7 @@
 			<effect count="15" name="HealOverTime" val="27" stackOrder="5" stackType="life_force_others" />
 		</for>
 	</skill>
-	<skill id="701" levels="1" name="Divine Healer Resurrection">
+	<skill id="701" levels="1" name="聖恩牧師 返生術">
 		<set name="aggroPoints" val="624" />
 		<set name="castRange" val="400" />
 		<set name="effectRange" val="900" />
@@ -28,7 +28,7 @@
 		<set name="skillType" val="RESURRECT" />
 		<set name="target" val="TARGET_CORPSE_PLAYER" />
 	</skill>
-	<skill id="702" levels="1" name="Divine Healer Cleanse">
+	<skill id="702" levels="1" name="聖恩牧師 淨罪">
 		<set name="castRange" val="600" />
 		<set name="effectRange" val="1100" />
 		<set name="hitTime" val="4000" />
@@ -39,7 +39,7 @@
 		<set name="skillType" val="CANCEL_DEBUFF" />
 		<set name="target" val="TARGET_ONE" />
 	</skill>
-	<skill id="703" levels="1" name="Sacrifice Healer">
+	<skill id="703" levels="1" name="牧師 獻祭">
 		<set name="hitTime" val="4000" />
 		<set name="operateType" val="OP_ACTIVE" />
 		<set name="power" val="100" />
@@ -57,7 +57,7 @@
 			<effect self="1" name="ChanceSkillTrigger" noicon="1" val="0" triggeredId="5602" triggeredLevel="1" chanceType="ON_EXIT" />
 		</for>
 	</skill>
-	<skill id="704" levels="1" name="Divine Enchanter Water Spirit">
+	<skill id="704" levels="1" name="聖恩法師 水靈">
 		<set name="aggroPoints" val="669" />
 		<set name="castRange" val="400" />
 		<set name="effectRange" val="900" />
@@ -86,7 +86,7 @@
 			</effect>
 		</for>
 	</skill>
-	<skill id="705" levels="1" name="Divine Enchanter Fire Spirit">
+	<skill id="705" levels="1" name="聖恩法師 火靈">
 		<set name="aggroPoints" val="669" />
 		<set name="castRange" val="400" />
 		<set name="effectRange" val="900" />
@@ -117,7 +117,7 @@
 			</effect>
 		</for>
 	</skill>
-	<skill id="706" levels="1" name="Divine Enchanter Wind Spirit">
+	<skill id="706" levels="1" name="聖恩法師 風靈">
 		<set name="aggroPoints" val="669" />
 		<set name="castRange" val="400" />
 		<set name="effectRange" val="900" />
@@ -147,7 +147,7 @@
 			</effect>
 		</for>
 	</skill>
-	<skill id="707" levels="1" name="Divine Enchanter Hero Spirit">
+	<skill id="707" levels="1" name="聖恩法師 英雄之靈">
 		<set name="aggroPoints" val="669" />
 		<set name="castRange" val="400" />
 		<set name="effectRange" val="900" />
@@ -177,7 +177,7 @@
 			</effect>
 		</for>
 	</skill>
-	<skill id="708" levels="1" name="Divine Enchanter Mass Binding">
+	<skill id="708" levels="1" name="聖恩法師 約束結界">
 		<set name="hitTime" val="4000" />
 		<set name="lvlDepend" val="2" />
 		<set name="isDebuff" val="true" />
@@ -194,7 +194,7 @@
 			<effect name="Root" time="30" val="0" stackOrder="1" stackType="root_magically" />
 		</for>
 	</skill>
-	<skill id="709" levels="1" name="Sacrifice Enchanter">
+	<skill id="709" levels="1" name="法師 獻祭">
 		<set name="hitTime" val="2500" />
 		<set name="operateType" val="OP_ACTIVE" />
 		<set name="reuseDelay" val="1800000" />
@@ -223,7 +223,7 @@
 			</effect>
 		</for>
 	</skill>
-	<skill id="710" levels="1" name="Divine Summoner Summon Divine Beast">
+	<skill id="710" levels="1" name="聖恩召喚士 召喚聖恩獸">
 		<set name="hitTime" val="15000" />
 		<set name="isMagic" val="true" />
 		<set name="itemConsumeId" val="1461" />
@@ -242,7 +242,7 @@
 		<set name="summonTotalLifeTime" val="1200000" />
 		<set name="target" val="TARGET_SELF" />
 	</skill>
-	<skill id="711" levels="1" name="Divine Summoner Transfer Pain">
+	<skill id="711" levels="1" name="聖恩召喚士 痛苦轉移">
 		<set name="mpInitialConsume" val="72" />
 		<set name="operateType" val="OP_TOGGLE" />
 		<set name="skillType" val="CONT" />
@@ -253,7 +253,7 @@
 			</effect>
 		</for>
 	</skill>
-	<skill id="712" levels="1" name="Divine Summoner Final Servitor">
+	<skill id="712" levels="1" name="聖恩召喚士 終極使魔">
 		<set name="aggroPoints" val="669" />
 		<set name="castRange" val="400" />
 		<set name="effectRange" val="900" />
@@ -285,7 +285,7 @@
 			</effect>
 		</for>
 	</skill>
-	<skill id="713" levels="1" name="Divine Summoner Servitor Hill">
+	<skill id="713" levels="1" name="聖恩召喚士 使魔生命回復">
 		<set name="aggroPoints" val="780" />
 		<set name="castRange" val="600" />
 		<set name="effectRange" val="1100" />
@@ -298,7 +298,7 @@
 		<set name="skillType" val="HEAL" />
 		<set name="target" val="TARGET_PET" />
 	</skill>
-	<skill id="714" levels="1" name="Sacrifice Summoner">
+	<skill id="714" levels="1" name="召喚士 獻祭">
 		<set name="hitTime" val="2500" />
 		<set name="operateType" val="OP_ACTIVE" />
 		<set name="reuseDelay" val="1800000" />
@@ -319,7 +319,7 @@
 			</effect>
 		</for>
 	</skill>
-	<skill id="715" levels="4" name="Zaken Energy Drain">
+	<skill id="715" levels="4" name="札肯 能量吸收">
 		<!-- Confirmed CT2.5 -->
 		<table name="#mpConsume"> 60 65 69 72 </table>
 		<table name="#magicLvl"> 65 70 75 80 </table>
@@ -340,7 +340,7 @@
 		<set name="effectRange" val="1100" />
 		<set name="absorbPart" val="0.4" /> <!-- absorbs 40% of damage -->
 	</skill>
-	<skill id="716" levels="4" name="Zaken Hold">
+	<skill id="716" levels="4" name="札肯 束縛">
 		<!-- Confirmed CT2.5 -->
 		<table name="#mpConsume"> 60 65 69 72 </table>
 		<table name="#magicLvl"> 65 70 75 80 </table>
@@ -361,7 +361,7 @@
 			<effect name="Root" time="30" val="0" stackOrder="1" stackType="root_magically" />
 		</for>
 	</skill>
-	<skill id="717" levels="4" name="Zaken Concentrated Attack">
+	<skill id="717" levels="4" name="札肯 全力攻擊">
 		<!-- Confirmed CT2.5 -->
 		<table name="#power"> 2751 3252 3752 4224 </table>
 		<table name="#mpConsume"> 60 65 69 72 </table>
@@ -379,7 +379,7 @@
 		<set name="castRange" val="50" />
 		<set name="effectRange" val="150" />
 	</skill>
-	<skill id="718" levels="4" name="Zaken Dancing Sword">
+	<skill id="718" levels="4" name="札肯 飛舞之劍">
 		<!-- Confirmed CT2.5 -->
 		<table name="#power"> 1651 1951 2251 2534 </table>
 		<table name="#mpConsume"> 60 65 69 72 </table>
@@ -396,7 +396,7 @@
 		<set name="skillType" val="PDAM" />
 		<set name="operateType" val="OP_ACTIVE" />
 	</skill>
-	<skill id="719" levels="1" name="Zaken Vampiric Rage">
+	<skill id="719" levels="1" name="札肯 吸血怒擊">
 		<!-- Confirmed CT2.5 -->
 		<set name="mpInitialConsume" val="12" />
 		<set name="mpConsume" val="48" />
@@ -415,7 +415,7 @@
 			</effect>
 		</for>
 	</skill>
-	<skill id="720" levels="2" name="Anakim Holy Light Burst">
+	<skill id="720" levels="2" name="亞納 聖光爆裂">
 		<!-- Confirmed CT2.5 -->
 		<table name="#magicLvl"> 75 80 </table>
 		<table name="#power"> 3189 3590 </table>
@@ -436,7 +436,7 @@
 		<set name="effectRange" val="400" />
 		<set name="nextActionAttack" val="true" />
 	</skill>
-	<skill id="721" levels="2" name="Anakim Energy Attack">
+	<skill id="721" levels="2" name="亞納 能量攻擊">
 		<!-- Confirmed CT2.5 -->
 		<table name="#mpConsume"> 69 72 </table>
 		<table name="#magicLvl"> 75 80 </table>
@@ -456,7 +456,7 @@
 		<set name="castRange" val="700" />
 		<set name="effectRange" val="1200" />
 	</skill>
-	<skill id="722" levels="2" name="Anakim Holy Beam">
+	<skill id="722" levels="2" name="亞納 神聖光束">
 		<!-- Confirmed CT2.5 -->
 		<table name="#mpConsume"> 69 72 </table>
 		<table name="#magicLvl"> 75 80 </table>
@@ -476,7 +476,7 @@
 		<set name="castRange" val="700" />
 		<set name="effectRange" val="1200" />
 	</skill>
-	<skill id="723" levels="1" name="Anakim Sunshine">
+	<skill id="723" levels="1" name="亞納 日光術">
 		<!-- Confirmed CT2.5 -->
 		<set name="mpInitialConsume" val="5" />
 		<set name="mpConsume" val="20" />
@@ -491,7 +491,7 @@
 		<set name="operateType" val="OP_ACTIVE" />
 		<set name="aggroPoints" val="624" />
 	</skill>
-	<skill id="724" levels="1" name="Anakim Clans">
+	<skill id="724" levels="1" name="亞納 淨罪">
 		<!-- Confirmed CT2.5 -->
 		<set name="mpInitialConsume" val="5" />
 		<set name="mpConsume" val="20" />
@@ -504,7 +504,7 @@
 		<set name="isMagic" val="true" />
 		<set name="aggroPoints" val="624" />
 	</skill>
-	<skill id="725" levels="2" name="Venom Power Smash">
+	<skill id="725" levels="2" name="貝諾姆 能量破擊">
 		<!-- Confirmed CT2.5 -->
 		<table name="#magicLvl"> 75 80 </table>
 		<table name="#power"> 2626 2957 </table>
@@ -521,7 +521,7 @@
 		<set name="castRange" val="40" />
 		<set name="effectRange" val="200" />
 	</skill>
-	<skill id="726" levels="2" name="Venom Sonic Storm">
+	<skill id="726" levels="2" name="貝諾姆 波動風暴">
 		<!-- Confirmed CT2.5 -->
 		<table name="#magicLvl"> 75 80 </table>
 		<table name="#power"> 1576 1774 </table>
@@ -537,7 +537,7 @@
 		<set name="castRange" val="500" />
 		<set name="effectRange" val="1000" />
 	</skill>
-	<skill id="727" levels="1" name="Venom Disillusion">
+	<skill id="727" levels="1" name="貝諾姆 幻滅">
 		<!-- Confirmed CT2.5 -->
 		<set name="magicLvl" val="75" />
 		<set name="mpInitialConsume" val="7" />
@@ -554,7 +554,7 @@
 			</effect>
 		</for>
 	</skill>
-	<skill id="728" levels="1" name="Gordon Beast Attack">
+	<skill id="728" levels="1" name="高登 獸擊">
 		<!-- Confirmed CT2.5 -->
 		<set name="magicLvl" val="80" />
 		<set name="mpConsume" val="88" />
@@ -569,7 +569,7 @@
 		<set name="castRange" val="40" />
 		<set name="effectRange" val="200" />
 	</skill>
-	<skill id="729" levels="1" name="Gordon Sword Stab">
+	<skill id="729" levels="1" name="高登 劍刺">
 		<!-- Confirmed CT2.5 -->
 		<set name="magicLvl" val="80" />
 		<set name="mpConsume" val="88" />
@@ -584,7 +584,7 @@
 		<set name="castRange" val="500" />
 		<set name="effectRange" val="1000" />
 	</skill>
-	<skill id="730" levels="1" name="Gordon Press">
+	<skill id="730" levels="1" name="高登 擠壓">
 		<!-- Confirmed CT2.5 -->
 		<set name="magicLvl" val="80" />
 		<set name="lvlDepend" val="1" />
@@ -608,7 +608,7 @@
 			</effect>
 		</for>
 	</skill>
-	<skill id="731" levels="1" name="Ranku Dark Explosion">
+	<skill id="731" levels="1" name="勞庫 黑暗爆裂">
 		<!-- Confirmed CT2.5 -->
 		<set name="magicLvl" val="80" />
 		<set name="mpConsume" val="112" />
@@ -625,7 +625,7 @@
 		<set name="effectRange" val="1400" />
 		<set name="isMagic" val="true" />
 	</skill>
-	<skill id="732" levels="1" name="Ranku Stun Attack">
+	<skill id="732" levels="1" name="勞庫 昏迷之擊">
 		<!-- Confirmed CT2.5 -->
 		<set name="magicLvl" val="80" />
 		<set name="mpConsume" val="19" />
@@ -647,7 +647,7 @@
 			<effect name="Stun" time="9" val="0" stackOrder="1" stackType="stun" effectPower="50" effectType="STUN" />
 		</for>
 	</skill>
-	<skill id="733" levels="1" name="Kechi Double Cutter">
+	<skill id="733" levels="1" name="基亞齊 雙刃殺">
 		<!-- Confirmed CT2.5 -->
 		<set name="magicLvl" val="80" />
 		<set name="mpConsume" val="88" />
@@ -662,7 +662,7 @@
 		<set name="castRange" val="40" />
 		<set name="effectRange" val="200" />
 	</skill>
-	<skill id="734" levels="1" name="Kechi Air Blade">
+	<skill id="734" levels="1" name="基亞齊 大氣之刃">
 		<!-- Confirmed CT2.5 -->
 		<set name="magicLvl" val="80" />
 		<set name="mpConsume" val="56" />
@@ -676,7 +676,7 @@
 		<set name="castRange" val="600" />
 		<set name="effectRange" val="1100" />
 	</skill>
-	<skill id="735" levels="1" name="Devil Spinning Weapon">
+	<skill id="735" levels="1" name="惡魔 揮舞兵器">
 		<!-- Confirmed CT2.5 -->
 		<set name="magicLvl" val="80" />
 		<set name="mpInitialConsume" val="22" />
@@ -692,7 +692,7 @@
 		<set name="operateType" val="OP_ACTIVE" />
 		<set name="isMagic" val="true" />
 	</skill>
-	<skill id="736" levels="1" name="Devil Seed">
+	<skill id="736" levels="1" name="惡魔 種子">
 		<!-- This skill is wrong, needs core support! -->
 		<set name="magicLvl" val="80" />
 		<set name="lvlDepend" val="2" />
@@ -714,7 +714,7 @@
 			<effect count="15" name="DamOverTime" val="144" stackOrder="9" stackType="dark_seed" />
 		</for>
 	</skill>
-	<skill id="737" levels="1" name="Devil Ultimate Defense">
+	<skill id="737" levels="1" name="惡魔 極限防禦">
 		<!-- Confirmed CT2.5 -->
 		<set name="magicLvl" val="80" />
 		<set name="mpConsume" val="10" />
@@ -731,7 +731,7 @@
 			</effect>
 		</for>
 	</skill>
-	<skill id="738" levels="3" name="Heretic Heal">
+	<skill id="738" levels="3" name="異教徒 治療術">
 		<!-- Confirmed CT2.5 -->
 		<table name="#magicLvl"> 70 73 76 </table>
 		<table name="#power"> 892 926 956 </table>
@@ -748,7 +748,7 @@
 		<set name="castRange" val="600" />
 		<set name="effectRange" val="1100" />
 	</skill>
-	<skill id="739" levels="3" name="Heretic Battle Heal">
+	<skill id="739" levels="3" name="異教徒 急救術">
 		<!-- Confirmed CT2.5 -->
 		<table name="#magicLvl"> 70 73 76 </table>
 		<table name="#power"> 743 772 796 </table>
@@ -767,7 +767,7 @@
 		<set name="castRange" val="600" />
 		<set name="effectRange" val="1100" />
 	</skill>
-	<skill id="740" levels="3" name="Heretic Resurrection">
+	<skill id="740" levels="3" name="異教徒 返生術">
 		<!-- Confirmed CT2.5 -->
 		<table name="#magicLvl"> 70 73 76 </table>
 		<table name="#power"> 50 55 60 </table>
@@ -786,7 +786,7 @@
 		<set name="castRange" val="400" />
 		<set name="effectRange" val="900" />
 	</skill>
-	<skill id="741" levels="3" name="Heretic Heal Side Effect">
+	<skill id="741" levels="3" name="異教徒 治療副作用">
 		<!-- Confirmed CT2.5 -->
 		<table name="#magicLvl"> 70 73 76 </table>
 		<table name="#mpInitialConsume"> 13 14 14 </table>
@@ -811,7 +811,7 @@
 			<effect count="10" name="DamOverTime" time="3" val="156" stackOrder="8" stackType="poison" abnormal="poison" />
 		</for>
 	</skill>
-	<skill id="742" levels="3" name="Vale Master Bursting Flame">
+	<skill id="742" levels="3" name="貝里大師 爆裂火焰">
 		<!-- Confirmed CT2.5 -->
 		<table name="#magicLvl"> 70 73 76 </table>
 		<table name="#mpInitialConsume"> 17 18 19 </table>
@@ -832,7 +832,7 @@
 		<set name="element" val="5" /> <!-- Dark -->
 		<set name="elementPower" val="20" />
 	</skill>
-	<skill id="743" levels="3" name="Vale Master Dark Explosion">
+	<skill id="743" levels="3" name="貝里大師 黑暗爆裂">
 		<!-- Confirmed CT2.5 -->
 		<table name="#magicLvl"> 70 73 76 </table>
 		<table name="#mpInitialConsume"> 17 18 19 </table>
@@ -854,7 +854,7 @@
 		<set name="element" val="5" /> <!-- Dark -->
 		<set name="elementPower" val="20" />
 	</skill>
-	<skill id="744" levels="3" name="Vale Master Dark Flare">
+	<skill id="744" levels="3" name="貝里大師 黑暗閃焰">
 		<!-- Confirmed CT2.5 -->
 		<table name="#magicLvl"> 70 73 76 </table>
 		<table name="#mpInitialConsume"> 17 18 19 </table>
@@ -875,7 +875,7 @@
 		<set name="elementPower" val="20" />
 		<set name="hitTime" val="1800" />
 	</skill>
-	<skill id="745" levels="3" name="Vale Master Dark Cure">
+	<skill id="745" levels="3" name="貝里大師 黑暗治療">
 		<!-- Confirmed CT2.5 -->
 		<table name="#magicLvl"> 70 73 76 </table>
 		<table name="#mpInitialConsume"> 6 6 6 </table>
@@ -893,7 +893,7 @@
 		<set name="effectRange" val="1100" />
 		<set name="aggroPoints" val="624" />
 	</skill>
-	<skill id="746" levels="3" name="Saber Tooth Tiger Bite">
+	<skill id="746" levels="3" name="劍齒虎 撕咬">
 		<!-- Confirmed CT2.5 -->
 		<table name="#magicLvl"> 70 73 76 </table>
 		<table name="#power"> 1789 1955 2117 </table>
@@ -912,7 +912,7 @@
 		<set name="effectRange" val="200" />
 		<set name="nextActionAttack" val="true" />
 	</skill>
-	<skill id="747" levels="3" name="Saber Tooth Tiger Fear">
+	<skill id="747" levels="3" name="劍齒虎 恐懼">
 		<!-- Confirmed CT2.5 -->
 		<table name="#magicLvl"> 70 73 76 </table>
 		<table name="#dmg"> 895 978 1059 </table>
@@ -933,7 +933,7 @@
 			<effect count="5" name="Fear" time="2" val="0" stackOrder="1" stackType="turn_flee" effectPower="60" effectType="FEAR" />
 		</for>
 	</skill>
-	<skill id="748" levels="1" name="Saber Tooth Tiger Sprint">
+	<skill id="748" levels="1" name="劍齒虎 疾風衝刺">
 		<!-- Confirmed CT2.5 -->
 		<set name="magicLvl" val="70" />
 		<set name="mpInitialConsume" val="5" />
@@ -950,7 +950,7 @@
 			</effect>
 		</for>
 	</skill>
-	<skill id="749" levels="3" name="Oel Mahum Stun Attack">
+	<skill id="749" levels="3" name="奧耶豺狼 昏迷之擊">
 		<!-- Confirmed CT2.5 -->
 		<table name="#magicLvl"> 70 73 76 </table>
 		<table name="#dmg"> 895 978 1059 </table>
@@ -975,7 +975,7 @@
 			<effect name="Stun" time="9" val="0" stackOrder="1" stackType="stun" effectPower="50" effectType="STUN" />
 		</for>
 	</skill>
-	<skill id="750" levels="1" name="Oel Mahum Ultimate Defense">
+	<skill id="750" levels="1" name="奧耶豺狼 極限防禦">
 		<!-- Confirmed CT2.5 -->
 		<set name="magicLvl" val="70" />
 		<set name="mpConsume" val="10" />
@@ -992,7 +992,7 @@
 			</effect>
 		</for>
 	</skill>
-	<skill id="751" levels="3" name="Oel Mahum Arm Flourish">
+	<skill id="751" levels="3" name="奧耶豺狼 揮動武器">
 		<!-- Confirmed CT2.5 -->
 		<table name="#magicLvl"> 70 73 76 </table>
 		<table name="#dmg"> 1073 1173 1271 </table>
@@ -1013,7 +1013,7 @@
 		<set name="effectRange" val="400" />
 		<set name="nextActionAttack" val="true" />
 	</skill>
-	<skill id="752" levels="3" name="Doll Blader Sting">
+	<skill id="752" levels="3" name="人偶刀手 要害刺擊">
 		<!-- Confirmed CT2.5 -->
 		<table name="#magicLvl"> 70 73 76 </table>
 		<table name="#power"> 1193 1303 1412 </table>
@@ -1040,7 +1040,7 @@
 			<effect count="7" name="DamOverTime" time="3" val="402" stackOrder="3" stackType="bleeding" abnormal="bleed" effectPower="50" effectType="BLEED" />
 		</for>
 	</skill>
-	<skill id="753" levels="3" name="Doll Blader Throwing Knife">
+	<skill id="753" levels="3" name="人偶刀手 飛刀">
 		<!-- Confirmed CT2.5 -->
 		<table name="#magicLvl"> 70 73 76 </table>
 		<table name="#power"> 4769 5211 5645 </table>
@@ -1058,7 +1058,7 @@
 		<set name="coolTime" val="800" />
 		<set name="reuseDelay" val="6000" />
 	</skill>
-	<skill id="754" levels="1" name="Doll Blader Clairvoyance">
+	<skill id="754" levels="1" name="人偶刀手 洞察之眼">
 		<!-- Confirmed CT2.5 -->
 		<set name="magicLvl" val="70" />
 		<set name="mpInitialConsume" val="13" />
@@ -1077,7 +1077,7 @@
 			</effect>
 		</for>
 	</skill>
-	<skill id="755" levels="1" name="Protection of Rune">
+	<skill id="755" levels="1" name="古文保護">
 		<set name="target" val="TARGET_SELF" />
 		<set name="skillType" val="BUFF" />
 		<set name="magicLvl" val="81" />
@@ -1091,7 +1091,7 @@
 			<mul order="0x30" stat="mDef" val="1.15" />
 		</for>
 	</skill>
-	<skill id="756" levels="1" name="Protection of Elemental">
+	<skill id="756" levels="1" name="元素保護">
 		<set name="target" val="TARGET_SELF" />
 		<set name="skillType" val="BUFF" />
 		<set name="magicLvl" val="81" />
@@ -1108,7 +1108,7 @@
 			<add order="0x40" stat="earthRes" val="20" />
 		</for>
 	</skill>
-	<skill id="757" levels="1" name="Protection of Alignment">
+	<skill id="757" levels="1" name="團結保護">
 		<set name="target" val="TARGET_SELF" />
 		<set name="skillType" val="BUFF" />
 		<set name="magicLvl" val="81" />
@@ -1123,7 +1123,7 @@
 			<add order="0x40" stat="darkRes" val="20" />
 		</for>
 	</skill>
-	<skill id="758" levels="1" name="Fighter's Will">
+	<skill id="758" levels="1" name="戰士的意志">
 		<set name="target" val="TARGET_SELF" />
 		<set name="skillType" val="BUFF" />
 		<set name="magicLvl" val="81" />
@@ -1146,7 +1146,7 @@
 			</mul>
 		</for>
 	</skill>
-	<skill id="759" levels="1" name="Archer's Will">
+	<skill id="759" levels="1" name="弓手的意志">
 		<set name="target" val="TARGET_SELF" />
 		<set name="skillType" val="BUFF" />
 		<set name="magicLvl" val="81" />
@@ -1165,7 +1165,7 @@
 			</add>
 		</for>
 	</skill>
-	<skill id="760" levels="1" name="Anti Magic Armor">
+	<skill id="760" levels="1" name="抗魔裝甲">
 		<set name="hitTime" val="1000" />
 		<set name="magicLvl" val="81" />
 		<set name="mpConsume" val="21" />
@@ -1179,7 +1179,7 @@
 			</effect>
 		</for>
 	</skill>
-	<skill id="761" levels="1" name="Seed of Revenge">
+	<skill id="761" levels="1" name="復仇種子">
 		<set name="mpConsume" val="37" />
 		<set name="magicLvl" val="81" />
 		<set name="hitTime" val="2500" />
@@ -1194,7 +1194,7 @@
 			</effect>
 		</for>
 	</skill>
-	<skill id="762" levels="1" name="Insane Crusher">
+	<skill id="762" levels="1" name="瘋狂巨鎚">
 		<!-- Confirmed CT2.5 -->
 		<set name="baseCritRate" val="50" />
 		<set name="coolTime" val="700" />
@@ -1227,7 +1227,7 @@
 			<effect name="Cancel" noicon="1" val="0" effectPower="25" effectType="CANCEL" />
 		</for>
 	</skill>
-	<skill id="763" levels="1" name="Hell Scream">
+	<skill id="763" levels="1" name="地獄狂嘯">
 		<set name="power" val="80" />
 		<set name="lvlDepend" val="1" />
 		<set name="magicLvl" val="81" />
@@ -1247,7 +1247,7 @@
 			</effect>
 		</for>
 	</skill>
-	<skill id="764" levels="1" name="Song of Wind Storm" enchantGroup1="5" enchantGroup2="5">
+	<skill id="764" levels="1" name="風暴之歌" enchantGroup1="5" enchantGroup2="5">
 		<table name="#ench1Time"> 128 136 144 152 160 168 176 184 192 200 208 216 224 232 240 </table>
 		<table name="#ench2MpConsume"> 59 58 57 56 55 54 53 52 51 50 49 48 47 46 45 </table>
 		<set name="mpConsume" val="60" />
@@ -1273,7 +1273,7 @@
 			</effect>
 		</enchant1for>
 	</skill>
-	<skill id="765" levels="1" name="Dance of Blade Storm" enchantGroup1="5" enchantGroup2="5">
+	<skill id="765" levels="1" name="刀刃風暴之舞" enchantGroup1="5" enchantGroup2="5">
 		<table name="#ench1Time"> 18 21 24 27 30 33 36 39 42 45 48 51 54 57 60 </table>
 		<table name="#ench2MpConsume"> 59 58 57 56 55 54 53 52 51 50 49 48 47 46 45 </table>
 		<set name="weaponsAllowed" val="Dual Sword" /> <!-- Dual Sword -->
@@ -1302,7 +1302,7 @@
 			</effect>
 		</enchant1for>
 	</skill>
-	<skill id="766" levels="1" name="Sixth Sense">
+	<skill id="766" levels="1" name="第六感">
 		<set name="magicLvl" val="81" />
 		<set name="operateType" val="OP_PASSIVE" />
 		<set name="skillType" val="BUFF" />
@@ -1313,7 +1313,7 @@
 			</add>
 		</for>
 	</skill>
-	<skill id="767" levels="1" name="Expose Weak Point">
+	<skill id="767" levels="1" name="弱點揭露">
 		<set name="activationChance" val="3" />
 		<set name="chanceType" val="ON_ATTACKED_HIT" />
 		<set name="magicLvl" val="81" />
@@ -1323,7 +1323,7 @@
 		<set name="triggeredId" val="5565" />
 		<set name="triggeredLevel" val="1" />
 	</skill>
-	<skill id="768" levels="1" name="Exciting Adventure">
+	<skill id="768" levels="1" name="狂熱鬥志">
 		<set name="magicLvl" val="81" />
 		<set name="mpConsume" val="36" />
 		<set name="target" val="TARGET_SELF" />
@@ -1341,7 +1341,7 @@
 			</effect>
 		</for>
 	</skill>
-	<skill id="769" levels="1" name="Wind Riding">
+	<skill id="769" levels="1" name="御風">
 		<set name="magicLvl" val="81" />
 		<set name="mpConsume" val="36" />
 		<set name="target" val="TARGET_SELF" />
@@ -1359,7 +1359,7 @@
 			</effect>
 		</for>
 	</skill>
-	<skill id="770" levels="1" name="Ghost Walking">
+	<skill id="770" levels="1" name="鬼行">
 		<set name="magicLvl" val="81" />
 		<set name="mpConsume" val="36" />
 		<set name="target" val="TARGET_SELF" />
@@ -1377,7 +1377,7 @@
 			</effect>
 		</for>
 	</skill>
-	<skill id="771" levels="1" name="Flame Hawk">
+	<skill id="771" levels="1" name="火焰之鷹">
 		<set name="castRange" val="900" />
 		<set name="effectRange" val="1400" />
 		<set name="hitTime" val="3500" />
@@ -1395,7 +1395,7 @@
 		<set name="weaponsAllowed" val="Bow" /> <!-- Bow -->
 		<set name="baseCritRate" val="15" />
 	</skill>
-	<skill id="772" levels="1" name="Arrow Rain">
+	<skill id="772" levels="1" name="箭雨">
 		<set name="castRange" val="600" />
 		<set name="effectRange" val="1100" />
 		<set name="hitTime" val="4000" />
@@ -1413,7 +1413,7 @@
 		<set name="weaponsAllowed" val="Bow" /> <!-- Bow -->
 		<set name="baseCritRate" val="15" />
 	</skill>
-	<skill id="773" levels="1" name="Ghost Piercing">
+	<skill id="773" levels="1" name="鬼刺">
 		<set name="baseCritRate" val="15" />
 		<set name="castRange" val="900" />
 		<set name="effectRange" val="1400" />
@@ -1431,7 +1431,7 @@
 		<set name="target" val="TARGET_FRONT_AREA" />
 		<set name="weaponsAllowed" val="Bow" /> <!-- Bow -->
 	</skill>
-	<skill id="774" levels="1" name="Dread Pool">
+	<skill id="774" levels="1" name="恐懼佈滿">
 		<!-- Confirmed CT2.5 -->
 		<set name="hitTime" val="1000" />
 		<set name="isDebuff" val="true" />
@@ -1451,7 +1451,7 @@
 			</effect>
 		</for>
 	</skill>
-	<skill id="775" levels="1" name="Weapon Blockade">
+	<skill id="775" levels="1" name="武器封鎖">
 		<set name="castRange" val="40" />
 		<set name="effectRange" val="400" />
 		<set name="hitTime" val="1500" />
@@ -1475,7 +1475,7 @@
 			<effect name="Disarm" time="5" val="0" stackOrder="1" stackType="disarm" />
 		</for>
 	</skill>
-	<skill id="776" levels="1" name="Force of Destruction">
+	<skill id="776" levels="1" name="毀滅之力">
 		<!-- Confirmed CT2.5 -->
 		<set name="baseCritRate" val="20" />
 		<set name="castRange" val="40" />
@@ -1501,7 +1501,7 @@
 			<effect count="20" name="DamOverTime" time="1" val="80" stackOrder="10" stackType="force_of_destruction" effectPower="70" effectType="DOT" />
 		</for>
 	</skill>
-	<skill id="777" levels="1" name="Demolition Impact">
+	<skill id="777" levels="1" name="壞滅衝擊">
 		<!-- Confirmed CT2.5 -->
 		<set name="baseCritRate" val="15" />
 		<set name="castRange" val="40" />
@@ -1519,7 +1519,7 @@
 		<set name="target" val="TARGET_FRONT_AREA" />
 		<set name="weaponsAllowed" val="Big Blunt, Big Sword" /> <!-- Big Sword/Big Blunt -->
 	</skill>
-	<skill id="778" levels="1" name="Golem Armor">
+	<skill id="778" levels="1" name="高崙裝甲">
 		<set name="hitTime" val="2500" />
 		<set name="isMagic" val="true" />
 		<set name="magicLvl" val="81" />
@@ -1540,7 +1540,7 @@
 			</effect>
 		</for>
 	</skill>
-	<skill id="779" levels="1" name="Summon Smart Cubic">
+	<skill id="779" levels="1" name="召喚聰慧晶體">
 		<!-- Eva Templar's Smart Cubic -->
 		<set name="hitTime" val="6000" />
 		<set name="isMagic" val="true" />
@@ -1562,7 +1562,7 @@
 		<set name="npcId" val="10" /> <!-- Cubic Id -->
 		<set name="summonTotalLifeTime" val="900000" />
 	</skill>
-	<skill id="780" levels="1" name="Summon Smart Cubic">
+	<skill id="780" levels="1" name="召喚聰慧晶體">
 		<!-- Shillien Templar's Smart Cubic -->
 		<set name="hitTime" val="6000" />
 		<set name="isMagic" val="true" />
@@ -1584,7 +1584,7 @@
 		<set name="npcId" val="11" /> <!-- Cubic Id -->
 		<set name="summonTotalLifeTime" val="900000" />
 	</skill>
-	<skill id="781" levels="1" name="Summon Smart Cubic">
+	<skill id="781" levels="1" name="召喚聰慧晶體">
 		<!-- Arcana Lord's Smart Cubic -->
 		<set name="hitTime" val="6000" />
 		<set name="isMagic" val="true" />
@@ -1606,7 +1606,7 @@
 		<set name="npcId" val="12" /> <!-- Cubic Id -->
 		<set name="summonTotalLifeTime" val="900000" />
 	</skill>
-	<skill id="782" levels="1" name="Summon Smart Cubic">
+	<skill id="782" levels="1" name="召喚聰慧晶體">
 		<!-- Elemental Master's Smart Cubic -->
 		<set name="hitTime" val="6000" />
 		<set name="isMagic" val="true" />
@@ -1628,7 +1628,7 @@
 		<set name="npcId" val="13" /> <!-- Cubic Id -->
 		<set name="summonTotalLifeTime" val="900000" />
 	</skill>
-	<skill id="783" levels="1" name="Summon Smart Cubic">
+	<skill id="783" levels="1" name="召喚聰慧晶體">
 		<!-- Spectral Master's Smart Cubic -->
 		<set name="hitTime" val="6000" />
 		<set name="isMagic" val="true" />
@@ -1650,7 +1650,7 @@
 		<set name="npcId" val="14" /> <!-- Cubic Id -->
 		<set name="summonTotalLifeTime" val="900000" />
 	</skill>
-	<skill id="784" levels="1" name="Spirit of Phoenix">
+	<skill id="784" levels="1" name="鳳凰之魂">
 		<set name="mpConsume" val="37" />
 		<set name="magicLvl" val="81" />
 		<set name="hitTime" val="2500" />
@@ -1665,7 +1665,7 @@
 			</effect>
 		</for>
 	</skill>
-	<skill id="785" levels="1" name="Flame Icon">
+	<skill id="785" levels="1" name="火焰靈能">
 		<set name="hitTime" val="1800" />
 		<set name="hpConsume" val="1253" />
 		<set name="magicLvl" val="81" />
@@ -1700,7 +1700,7 @@
 			</effect>
 		</for>
 	</skill>
-	<skill id="786" levels="1" name="Eva's Will">
+	<skill id="786" levels="1" name="伊娃意志">
 		<set name="mpConsume" val="37" />
 		<set name="magicLvl" val="81" />
 		<set name="hitTime" val="2500" />
@@ -1715,7 +1715,7 @@
 			</effect>
 		</for>
 	</skill>
-	<skill id="787" levels="1" name="Touch of Eva">
+	<skill id="787" levels="1" name="伊娃之觸">
 		<!-- Confirmed CT2.5 -->
 		<set name="aggroPoints" val="835" />
 		<!-- set name="castRange" val="40" / -->
@@ -1744,7 +1744,7 @@
 			<effect count="12" name="HealOverTime" time="5" noicon="1" val="250" />
 		</for>
 	</skill>
-	<skill id="788" levels="1" name="Pain of Shilen">
+	<skill id="788" levels="1" name="席琳之痛">
 		<set name="mpConsume" val="37" />
 		<set name="magicLvl" val="81" />
 		<set name="hitTime" val="2500" />
@@ -1759,7 +1759,7 @@
 			</effect>
 		</for>
 	</skill>
-	<skill id="789" levels="1" name="Spirit of Shilen">
+	<skill id="789" levels="1" name="席琳之魂">
 		<set name="hitTime" val="1800" />
 		<set name="hpConsume" val="1253" />
 		<set name="magicLvl" val="81" />
@@ -1787,7 +1787,7 @@
 			</effect>
 		</for>
 	</skill>
-	<skill id="790" levels="1" name="Wild Shot">
+	<skill id="790" levels="1" name="野性射擊">
 		<set name="baseCritRate" val="15" />
 		<set name="castRange" val="900" />
 		<set name="effectRange" val="1400" />
@@ -1805,7 +1805,7 @@
 		<set name="target" val="TARGET_ONE" />
 		<set name="weaponsAllowed" val="Crossbow" /> <!-- Crossbow -->
 	</skill>
-	<skill id="791" levels="1" name="Lightning Shock">
+	<skill id="791" levels="1" name="強雷震盪">
 		<!-- CT2.5 retail confirmed -->
 		<set name="hitTime" val="1080" />
 		<set name="coolTime" val="720" />
@@ -1826,7 +1826,7 @@
 			<effect name="Paralyze" time="9" val="0" effectPower="50" effectType="PARALYZE" stackOrder="1" stackType="paralyze" />
 		</for>
 	</skill>
-	<skill id="792" levels="1" name="Betrayal Mark">
+	<skill id="792" levels="1" name="背叛印記">
 		<!-- Confirmed CT2.5 -->
 		<set name="castRange" val="600" />
 		<set name="effectRange" val="1100" />
@@ -1846,7 +1846,7 @@
 			<effect name="ChanceSkillTrigger" time="30" val="0" abnormal="poison" triggeredId="5600" activationChance="10" chanceType="ON_ATTACKED" stackOrder="1" stackType="betrayal_mark" />
 		</for>
 	</skill>
-	<skill id="793" levels="1" name="Rush Impact" enchantGroup1="6" enchantGroup2="6" enchantGroup3="6" enchantGroup4="6" enchantGroup5="6" enchantGroup6="6" enchantGroup7="6" enchantGroup8="6">
+	<skill id="793" levels="1" name="疾襲衝擊" enchantGroup1="6" enchantGroup2="6" enchantGroup3="6" enchantGroup4="6" enchantGroup5="6" enchantGroup6="6" enchantGroup7="6" enchantGroup8="6">
 		<!-- Confirmed CT2.5 -->
 		<table name="#enchantMagicLvl"> 81 81 81 82 82 82 83 83 83 84 84 84 85 85 85 </table>
 		<table name="#ench1Power"> 4071 4102 4133 4164 4195 4226 4257 4289 4320 4351 4382 4413 4444 4475 4507 </table>
@@ -1902,7 +1902,7 @@
 			<effect name="Stun" time="9" val="0" effectPower="#ench3Chance" effectType="STUN" stackOrder="1" stackType="stun" />
 		</enchant3for>
 	</skill>
-	<skill id="794" levels="1" name="Mass Disarm" enchantGroup1="6" enchantGroup2="6">
+	<skill id="794" levels="1" name="集體卸除武器" enchantGroup1="6" enchantGroup2="6">
 		<table name="#enchantMagicLvl"> 79 80 80 81 81 82 82 82 83 83 83 84 84 85 85 </table>
 		<table name="#ench1Power"> 71 72 73 74 75 76 77 78 79 80 81 82 83 84 85 </table>
 		<table name="#ench2Reuse"> 145000 140000 135000 130000 125000 120000 115000 110000 105000 100000 95000 90000 85000 80000 75000 </table>
@@ -1927,7 +1927,7 @@
 			<effect name="Disarm" time="5" val="0" stackOrder="1" stackType="disarm" />
 		</for>
 	</skill>
-	<skill id="795" levels="1" name="Divine Knight Brandish">
+	<skill id="795" levels="1" name="聖恩騎士 揮擊">
 		<set name="castRange" val="40" />
 		<set name="effectRange" val="400" />
 		<set name="hitTime" val="830" />
@@ -1942,7 +1942,7 @@
 		<set name="SSBoost" val="2.0" />
 		<set name="target" val="TARGET_FRONT_AREA" />
 	</skill>
-	<skill id="796" levels="1" name="Divine Knight Explosion Attack">
+	<skill id="796" levels="1" name="聖恩騎士 爆烈攻擊">
 		<set name="hitTime" val="830" />
 		<set name="coolTime" val="660" />
 		<set name="mpConsume" val="88" />
@@ -1954,7 +1954,7 @@
 		<set name="SSBoost" val="2.0" />
 		<set name="target" val="TARGET_AURA" />
 	</skill>
-	<skill id="797" levels="1" name="Divine Rogue Piercing Attack">
+	<skill id="797" levels="1" name="聖恩盜賊穿刺攻擊">
 		<set name="castRange" val="40" />
 		<set name="effectRange" val="400" />
 		<set name="hitTime" val="830" />
@@ -1970,7 +1970,7 @@
 		<set name="target" val="TARGET_FRONT_AREA" />
 		<set name="skillScope" val="square;250;60" />
 	</skill>
-	<skill id="798" levels="1" name="Divine Warrior Assault Attack">
+	<skill id="798" levels="1" name="聖恩鬥士 正面攻擊">
 		<set name="effectAbnormalLvl" val="3" />
 		<set name="castRange" val="40" />
 		<set name="effectRange" val="400" />
@@ -1992,7 +1992,7 @@
 			<effect count="10" name="DamOverTime" time="3" val="144" stackOrder="3" stackType="poison" abnormal="poison" effectPower="50" effectType="POISON" />
 		</for>
 	</skill>
-	<skill id="799" levels="3" name="Master Ability - Defense">
+	<skill id="799" levels="3" name="副職-物理防禦專家">
 		<!-- Confirmed CT2.5 -->
 		<table name="#pDefHeavy"> 59.5 119 178.5 </table>
 		<table name="#pDefLight"> 44.625 89.25 133.875 </table>

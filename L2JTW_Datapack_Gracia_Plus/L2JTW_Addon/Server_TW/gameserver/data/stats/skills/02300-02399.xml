@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <list>
-	<skill id="2300" levels="1" name="Hair Style Change Potion">
+	<skill id="2300" levels="1" name="造型藥水">
 		<set name="itemConsumeCount" val="1" />
 		<set name="target" val="TARGET_SELF" />
 		<set name="hitTime" val="500" />
@@ -12,7 +12,7 @@
 			<player flyMounted="False" />
 		</cond>
 	</skill>
-	<skill id="2301" levels="1" name="Hair Style Change Potion">
+	<skill id="2301" levels="1" name="造型藥水">
 		<set name="itemConsumeCount" val="1" />
 		<set name="target" val="TARGET_SELF" />
 		<set name="hitTime" val="500" />
@@ -24,7 +24,7 @@
 			<player flyMounted="False" />
 		</cond>
 	</skill>
-	<skill id="2302" levels="1" name="Hair Style Change Potion">
+	<skill id="2302" levels="1" name="造型藥水">
 		<set name="itemConsumeCount" val="1" />
 		<set name="target" val="TARGET_SELF" />
 		<set name="hitTime" val="500" />
@@ -36,7 +36,7 @@
 			<player flyMounted="False" />
 		</cond>
 	</skill>
-	<skill id="2303" levels="1" name="Hair Style Change Potion">
+	<skill id="2303" levels="1" name="造型藥水">
 		<set name="itemConsumeCount" val="1" />
 		<set name="target" val="TARGET_SELF" />
 		<set name="hitTime" val="500" />
@@ -48,7 +48,7 @@
 			<player flyMounted="False" />
 		</cond>
 	</skill>
-	<skill id="2304" levels="1" name="Hair Style Change Potion">
+	<skill id="2304" levels="1" name="造型藥水">
 		<set name="itemConsumeCount" val="1" />
 		<set name="target" val="TARGET_SELF" />
 		<set name="hitTime" val="500" />
@@ -60,7 +60,7 @@
 			<player flyMounted="False" />
 		</cond>
 	</skill>
-	<skill id="2305" levels="1" name="Primeval Potion">
+	<skill id="2305" levels="1" name="原始藥水">
 		<!-- Improves resistance to various poisons and anesthetics that originate on the Primeval Isle. -->
 		<!-- Update by pmq -->
 		<set name="itemConsumeId" val="8786" />
@@ -76,7 +76,7 @@
 			</effect>
 		</for>
 	</skill>
-	<skill id="2306" levels="3" name="Primeval Crystals">
+	<skill id="2306" levels="3" name="藍色原始水晶">
 		<!-- Lvl 1 Name - Blue Primeval Crystal -->
 		<!-- Lvl 2 Name - Green Primeval Crystal -->
 		<!-- Lvl 3 Name - Red Primeval Crystal -->
@@ -97,7 +97,7 @@
 			</and>
 		</cond>
 	</skill>
-	<skill id="2307" levels="1" name="Remove Petrification Scroll">
+	<skill id="2307" levels="1" name="石化解除卷軸">
 		<!-- Update by pmq -->
 		<set name="target" val="TARGET_ONE" />
 		<set name="castRange" val="600" />
@@ -108,13 +108,13 @@
 			<player flyMounted="False" />
 		</cond>
 	</skill>
-	<skill id="2308" levels="36" name="Event Item">
+	<skill id="2308" levels="36" name="插曲用道具">
 		<!-- Lvl 1-36 Name - Event Item -->
 		<set name="target" val="TARGET_NONE" />
 		<set name="skillType" val="NOTDONE" />
 		<set name="operateType" val="OP_PASSIVE" />
 	</skill>
-	<skill id="2309" levels="1" name="Pig Chest">
+	<skill id="2309" levels="1" name="豬豬禮盒">
 		<!-- Update by rocknow -->
 		<set name="itemConsumeId" val="9144" /><!-- Update by pmq -->
 		<set name="itemConsumeCount" val="1" />
@@ -129,7 +129,7 @@
 			</and>
 		</cond>
 	</skill>
-	<skill id="2310" levels="1" name="Scroll of Guidance - Event Use">
+	<skill id="2310" levels="1" name="導引卷軸-活動用">
 		<set name="itemConsumeCount" val="1" />
 		<set name="target" val="TARGET_SELF" />
 		<set name="hitTime" val="4000" />
@@ -145,7 +145,7 @@
 			</effect>
 		</for>
 	</skill>
-	<skill id="2311" levels="1" name="Scroll of Death Whisper - Event Use">
+	<skill id="2311" levels="1" name="死之呢喃卷軸-活動用">
 		<set name="itemConsumeCount" val="1" />
 		<set name="target" val="TARGET_SELF" />
 		<set name="hitTime" val="4000" />
@@ -161,7 +161,7 @@
 			</effect>
 		</for>
 	</skill>
-	<skill id="2312" levels="1" name="Scroll of Focus - Event Use">
+	<skill id="2312" levels="1" name="弱點偵測卷軸-活動用">
 		<set name="itemConsumeCount" val="1" />
 		<set name="target" val="TARGET_SELF" />
 		<set name="hitTime" val="4000" />
@@ -177,7 +177,7 @@
 			</effect>
 		</for>
 	</skill>
-	<skill id="2313" levels="1" name="Scroll of Acumen - Event Use">
+	<skill id="2313" levels="1" name="靈活思緒卷軸-活動用">
 		<set name="itemConsumeCount" val="1" />
 		<set name="target" val="TARGET_SELF" />
 		<set name="hitTime" val="4000" />
@@ -193,7 +193,7 @@
 			</effect>
 		</for>
 	</skill>
-	<skill id="2314" levels="1" name="Scroll of Haste - Event Use">
+	<skill id="2314" levels="1" name="速度激發卷軸-活動用">
 		<set name="itemConsumeCount" val="1" />
 		<set name="target" val="TARGET_SELF" />
 		<set name="hitTime" val="4000" />
@@ -209,7 +209,7 @@
 			</effect>
 		</for>
 	</skill>
-	<skill id="2315" levels="1" name="Scroll of Agility - Event Use">
+	<skill id="2315" levels="1" name="敏捷術卷軸-活動用">
 		<set name="itemConsumeCount" val="1" />
 		<set name="target" val="TARGET_SELF" />
 		<set name="hitTime" val="4000" />
@@ -225,7 +225,7 @@
 			</effect>
 		</for>
 	</skill>
-	<skill id="2316" levels="1" name="Scroll of Empower - Event Use">
+	<skill id="2316" levels="1" name="魔力催化卷軸-活動用">
 		<set name="itemConsumeCount" val="1" />
 		<set name="target" val="TARGET_SELF" />
 		<set name="hitTime" val="4000" />
@@ -241,7 +241,7 @@
 			</effect>
 		</for>
 	</skill>
-	<skill id="2317" levels="1" name="Scroll of Might - Event Use">
+	<skill id="2317" levels="1" name="力量強化卷軸-活動用">
 		<set name="itemConsumeCount" val="1" />
 		<set name="target" val="TARGET_SELF" />
 		<set name="hitTime" val="4000" />
@@ -257,7 +257,7 @@
 			</effect>
 		</for>
 	</skill>
-	<skill id="2318" levels="1" name="Scroll of Wind Walk - Event Use">
+	<skill id="2318" levels="1" name="風之疾走卷軸-活動用">
 		<set name="itemConsumeCount" val="1" />
 		<set name="target" val="TARGET_SELF" />
 		<set name="hitTime" val="4000" />
@@ -273,7 +273,7 @@
 			</effect>
 		</for>
 	</skill>
-	<skill id="2319" levels="1" name="Scroll of Shield - Event Use">
+	<skill id="2319" levels="1" name="保護盾卷軸-活動用">
 		<set name="itemConsumeCount" val="1" />
 		<set name="target" val="TARGET_SELF" />
 		<set name="hitTime" val="4000" />
@@ -289,7 +289,7 @@
 			</effect>
 		</for>
 	</skill>
-	<skill id="2320" levels="1" name="Blessed Scroll of Escape - Event Use">
+	<skill id="2320" levels="1" name="祝福的返回卷軸-活動用">
 		<set name="itemConsumeCount" val="1" />
 		<set name="target" val="TARGET_SELF" />
 		<set name="hitTime" val="200" />
@@ -297,7 +297,7 @@
 		<set name="skillType" val="RECALL" />
 		<set name="operateType" val="OP_ACTIVE" />
 	</skill>
-	<skill id="2321" levels="1" name="Blessed Scroll of Resurrection - Event Use">
+	<skill id="2321" levels="1" name="祝福的復活卷軸-活動用">
 		<set name="power" val="100" />
 		<set name="target" val="TARGET_CORPSE_PLAYER" />
 		<set name="hitTime" val="3000" />
@@ -307,74 +307,74 @@
 		<set name="castRange" val="400" />
 		<set name="effectRange" val="600" />
 	</skill>
-	<skill id="2322" levels="1" name="Chest Key - For Events Only">
+	<skill id="2322" levels="1" name="箱子的鑰匙-活動用">
 		<set name="target" val="TARGET_NONE" />
 		<set name="skillType" val="NOTDONE" />
 		<set name="reuseDelay" val="3000" />
 		<set name="operateType" val="OP_PASSIVE" />
 		<set name="hitTime" val="500" />
 	</skill>
-	<skill id="2323" levels="1" name="Red Sage's Stone">
+	<skill id="2323" levels="1" name="紅色賢者之石">
 		<set name="target" val="TARGET_NONE" />
 		<set name="skillType" val="NOTDONE" />
 		<set name="operateType" val="OP_PASSIVE" />
 	</skill>
-	<skill id="2324" levels="1" name="Blue Sage's Stone">
+	<skill id="2324" levels="1" name="藍色賢者之石">
 		<set name="target" val="TARGET_NONE" />
 		<set name="skillType" val="NOTDONE" />
 		<set name="operateType" val="OP_PASSIVE" />
 	</skill>
-	<skill id="2325" levels="1" name="Orange Sage's Stone">
+	<skill id="2325" levels="1" name="橙色賢者之石">
 		<set name="target" val="TARGET_NONE" />
 		<set name="skillType" val="NOTDONE" />
 		<set name="operateType" val="OP_PASSIVE" />
 	</skill>
-	<skill id="2326" levels="1" name="Black Sage's Stone">
+	<skill id="2326" levels="1" name="黑色賢者之石">
 		<set name="target" val="TARGET_NONE" />
 		<set name="skillType" val="NOTDONE" />
 		<set name="operateType" val="OP_PASSIVE" />
 	</skill>
-	<skill id="2327" levels="1" name="White Sage's Stone">
+	<skill id="2327" levels="1" name="白色賢者之石">
 		<set name="target" val="TARGET_NONE" />
 		<set name="skillType" val="NOTDONE" />
 		<set name="operateType" val="OP_PASSIVE" />
 	</skill>
-	<skill id="2328" levels="1" name="Green Sage's Stone">
+	<skill id="2328" levels="1" name="綠色賢者之石">
 		<set name="target" val="TARGET_NONE" />
 		<set name="skillType" val="NOTDONE" />
 		<set name="operateType" val="OP_PASSIVE" />
 	</skill>
-	<skill id="2329" levels="4" name="Fire Stone">
+	<skill id="2329" levels="4" name="火之原石">
 		<set name="target" val="TARGET_NONE" />
 		<set name="skillType" val="NOTDONE" />
 		<set name="operateType" val="OP_PASSIVE" />
 	</skill>
-	<skill id="2330" levels="4" name="Water Stone">
+	<skill id="2330" levels="4" name="水之原石">
 		<set name="target" val="TARGET_NONE" />
 		<set name="skillType" val="NOTDONE" />
 		<set name="operateType" val="OP_PASSIVE" />
 	</skill>
-	<skill id="2331" levels="4" name="Wind Stone">
+	<skill id="2331" levels="4" name="風之原石">
 		<set name="target" val="TARGET_NONE" />
 		<set name="skillType" val="NOTDONE" />
 		<set name="operateType" val="OP_PASSIVE" />
 	</skill>
-	<skill id="2332" levels="4" name="Earth Stone">
+	<skill id="2332" levels="4" name="地之原石">
 		<set name="target" val="TARGET_NONE" />
 		<set name="skillType" val="NOTDONE" />
 		<set name="operateType" val="OP_PASSIVE" />
 	</skill>
-	<skill id="2333" levels="4" name="Divine Stone">
+	<skill id="2333" levels="4" name="聖之原石">
 		<set name="target" val="TARGET_NONE" />
 		<set name="skillType" val="NOTDONE" />
 		<set name="operateType" val="OP_PASSIVE" />
 	</skill>
-	<skill id="2334" levels="4" name="Dark Stone">
+	<skill id="2334" levels="4" name="暗之原石">
 		<set name="target" val="TARGET_NONE" />
 		<set name="skillType" val="NOTDONE" />
 		<set name="operateType" val="OP_PASSIVE" />
 	</skill>
-	<skill id="2335" levels="1" name="Fire Resist Potion">
+	<skill id="2335" levels="1" name="火屬性防護藥水">
 		<set name="itemConsumeCount" val="1" />
 		<set name="staticHitTime" val="true" />
 		<set name="target" val="TARGET_SELF" />
@@ -392,7 +392,7 @@
 			</effect>
 		</for>
 	</skill>
-	<skill id="2336" levels="1" name="Water Resist Potion">
+	<skill id="2336" levels="1" name="水屬性防護藥水">
 		<set name="itemConsumeCount" val="1" />
 		<set name="staticHitTime" val="true" />
 		<set name="target" val="TARGET_SELF" />
@@ -410,7 +410,7 @@
 			</effect>
 		</for>
 	</skill>
-	<skill id="2337" levels="1" name="Wind Resist Potion">
+	<skill id="2337" levels="1" name="風屬性防護藥水">
 		<set name="itemConsumeCount" val="1" />
 		<set name="staticHitTime" val="true" />
 		<set name="target" val="TARGET_SELF" />
@@ -428,7 +428,7 @@
 			</effect>
 		</for>
 	</skill>
-	<skill id="2338" levels="1" name="Earth Resist Potion">
+	<skill id="2338" levels="1" name="地屬性防護藥水">
 		<set name="itemConsumeCount" val="1" />
 		<set name="staticHitTime" val="true" />
 		<set name="target" val="TARGET_SELF" />
@@ -446,7 +446,7 @@
 			</effect>
 		</for>
 	</skill>
-	<skill id="2339" levels="1" name="Holy Resist Potion">
+	<skill id="2339" levels="1" name="聖屬性防護藥水">
 		<set name="itemConsumeCount" val="1" />
 		<set name="staticHitTime" val="true" />
 		<set name="target" val="TARGET_SELF" />
@@ -464,7 +464,7 @@
 			</effect>
 		</for>
 	</skill>
-	<skill id="2340" levels="1" name="Unholy Resist Potion">
+	<skill id="2340" levels="1" name="暗屬性防護藥水">
 		<set name="itemConsumeCount" val="1" />
 		<set name="staticHitTime" val="true" />
 		<set name="target" val="TARGET_SELF" />
@@ -482,7 +482,7 @@
 			</effect>
 		</for>
 	</skill>
-	<skill id="2341" levels="1" name="Caravan's Secret Medicine">
+	<skill id="2341" levels="1" name="商隊靈藥">
 		<set name="buffDuration" val="3600000" />
 		<set name="isPotion" val="true" />
 		<set name="itemConsumeCount" val="1" />
@@ -497,7 +497,7 @@
 			<effect name="Buff" time="3600" val="0" stackOrder="2" stackType="hot_ground" />
 		</for>
 	</skill>
-	<skill id="2342" levels="1" name="Ballista Bomb">
+	<skill id="2342" levels="1" name="弩砲爆破炸彈">
 		<set name="itemConsumeCount" val="1" />
 		<set name="target" val="TARGET_ONE" />
 		<set name="skillType" val="BALLISTA" />
@@ -509,7 +509,7 @@
 			<target npcType="L2FortBallistaInstance" />
 		</cond>
 	</skill>
-	<skill id="2343" levels="1" name="Gate Key of Kamael">
+	<skill id="2343" levels="1" name="闇天使之門的鑰匙">
 		<set name="itemConsumeCount" val="1" />
 		<set name="target" val="TARGET_UNLOCKABLE" />
 		<set name="skillType" val="UNLOCK_SPECIAL" />
@@ -524,7 +524,7 @@
 			<target npcId="16200002" />
 		</cond>
 	</skill>
-	<skill id="2344" levels="1" name="Gate Key of Records">
+	<skill id="2344" levels="1" name="紀錄之門的鑰匙">
 		<set name="itemConsumeCount" val="1" />
 		<set name="target" val="TARGET_UNLOCKABLE" />
 		<set name="skillType" val="UNLOCK_SPECIAL" />
@@ -539,7 +539,7 @@
 			<target npcId="16200005" />
 		</cond>
 	</skill>
-	<skill id="2345" levels="1" name="Gate Key of Observation">
+	<skill id="2345" levels="1" name="觀察之門的鑰匙">
 		<set name="itemConsumeCount" val="1" />
 		<set name="target" val="TARGET_UNLOCKABLE" />
 		<set name="skillType" val="UNLOCK_SPECIAL" />
@@ -554,7 +554,7 @@
 			<target npcId="16200009" />
 		</cond>
 	</skill>
-	<skill id="2346" levels="1" name="Gate Key of Specula">
+	<skill id="2346" levels="1" name="斯比裘拉之門的鑰匙">
 		<set name="itemConsumeCount" val="1" />
 		<set name="target" val="TARGET_UNLOCKABLE" />
 		<set name="skillType" val="UNLOCK_SPECIAL" />
@@ -569,7 +569,7 @@
 			<target npcId="16200003" />
 		</cond>
 	</skill>
-	<skill id="2347" levels="1" name="Enuma Elish Key">
+	<skill id="2347" levels="1" name="鑰匙 諸天之上">
 		<set name="itemConsumeCount" val="1" />
 		<set name="target" val="TARGET_UNLOCKABLE" />
 		<set name="skillType" val="UNLOCK_SPECIAL" />
@@ -584,7 +584,7 @@
 			<target npcId="16200007" />
 		</cond>
 	</skill>
-	<skill id="2348" levels="1" name="Prahnah Key">
+	<skill id="2348" levels="1" name="鑰匙 弗萊格拉克">
 		<set name="itemConsumeCount" val="1" />
 		<set name="target" val="TARGET_UNLOCKABLE" />
 		<set name="skillType" val="UNLOCK_SPECIAL" />
@@ -599,7 +599,7 @@
 			<target npcId="16200008" />
 		</cond>
 	</skill>
-	<skill id="2349" levels="1" name="Gate Key of Arvitaire">
+	<skill id="2349" levels="1" name="亞爾比泰魯之門的鑰匙">
 		<set name="itemConsumeCount" val="1" />
 		<set name="target" val="TARGET_UNLOCKABLE" />
 		<set name="skillType" val="UNLOCK_SPECIAL" />
@@ -614,7 +614,7 @@
 			<target npcId="16200010" />
 		</cond>
 	</skill>
-	<skill id="2350" levels="1" name="Leopold Key">
+	<skill id="2350" levels="1" name="鑰匙 雷歐波爾德">
 		<set name="itemConsumeCount" val="1" />
 		<set name="target" val="TARGET_UNLOCKABLE" />
 		<set name="skillType" val="UNLOCK_SPECIAL" />
@@ -629,7 +629,7 @@
 			<target npcId="16200006" />
 		</cond>
 	</skill>
-	<skill id="2351" levels="1" name="Gate Key of Prediction">
+	<skill id="2351" levels="1" name="預測之門的鑰匙">
 		<set name="itemConsumeCount" val="1" />
 		<set name="target" val="TARGET_UNLOCKABLE" />
 		<set name="skillType" val="UNLOCK_SPECIAL" />
@@ -644,7 +644,7 @@
 			<target npcId="16200011" />
 		</cond>
 	</skill>
-	<skill id="2352" levels="1" name="Gate Key of Nornil">
+	<skill id="2352" levels="1" name="諾爾妮之門的鑰匙">
 		<set name="itemConsumeCount" val="1" />
 		<set name="target" val="TARGET_UNLOCKABLE" />
 		<set name="skillType" val="UNLOCK_SPECIAL" />
@@ -659,14 +659,14 @@
 			<target npcId="16200012" />
 		</cond>
 	</skill>
-	<skill id="2353" levels="1" name="Nornil's Power">
+	<skill id="2353" levels="1" name="諾爾妮之力">
 		<set name="target" val="TARGET_SELF" />
 		<set name="skillType" val="NORNILS_POWER" />
 		<set name="operateType" val="OP_ACTIVE" />
 		<set name="hitTime" val="200" />
 		<set name="staticHitTime" val="true" />
 	</skill>
-	<skill id="2354" levels="1" name="Gate Key of Darkness">
+	<skill id="2354" levels="1" name="黑暗之門的鑰匙">
 		<set name="itemConsumeCount" val="1" />
 		<set name="target" val="TARGET_UNLOCKABLE" />
 		<set name="skillType" val="UNLOCK_SPECIAL" />
@@ -679,7 +679,7 @@
 			<target npcId="20260001" />
 		</cond>
 	</skill>
-	<skill id="2355" levels="1" name="Gate Key of Destruction">
+	<skill id="2355" levels="1" name="破壞之門的鑰匙">
 		<set name="itemConsumeCount" val="1" />
 		<set name="target" val="TARGET_UNLOCKABLE" />
 		<set name="skillType" val="UNLOCK_SPECIAL" />
@@ -692,7 +692,7 @@
 			<target npcId="20260006" />
 		</cond>
 	</skill>
-	<skill id="2356" levels="1" name="Gate Key of Blood">
+	<skill id="2356" levels="1" name="血之門的鑰匙">
 		<set name="itemConsumeCount" val="1" />
 		<set name="target" val="TARGET_UNLOCKABLE" />
 		<set name="skillType" val="UNLOCK_SPECIAL" />
@@ -705,7 +705,7 @@
 			<target npcId="20260005,20260002" />
 		</cond>
 	</skill>
-	<skill id="2357" levels="1" name="Fiery Demon Blood">
+	<skill id="2357" levels="1" name="惡魔溫熱的血">
 		<!-- Update by pmq -->
 		<set name="itemConsumeId" val="9849" />
 		<set name="itemConsumeCount" val="1" />
@@ -719,7 +719,7 @@
 			<effect name="Buff" time="600" val="0" stackOrder="1" stackType="fiery_demon" />
 		</for>
 	</skill>
-	<skill id="2358" levels="1" name="Holy Water">
+	<skill id="2358" levels="1" name="聖水">
 		<set name="target" val="TARGET_ONE" />
 		<set name="hitTime" val="500" />
 		<set name="staticHitTime" val="true" />
@@ -736,7 +736,7 @@
 			</and>
 		</cond>
 	</skill>
-	<skill id="2359" levels="1" name="Magic Bottle">
+	<skill id="2359" levels="1" name="魔法葫蘆">
 		<set name="itemConsumeCount" val="1" />
 		<set name="target" val="TARGET_ONE" />
 		<set name="hitTime" val="500" />
@@ -754,7 +754,7 @@
 			</and>
 		</cond>
 	</skill>
-	<skill id="2360" levels="1" name="Water Dragon Claw">
+	<skill id="2360" levels="1" name="水龍的爪">
 		<set name="itemConsumeCount" val="1" />
 		<set name="target" val="TARGET_ONE" />
 		<set name="hitTime" val="500" />
@@ -771,13 +771,13 @@
 			</and>
 		</cond>
 	</skill>
-	<skill id="2361" levels="1" name="Evolving Wolf's Food">
+	<skill id="2361" levels="1" name="進化狼飼料">
 		<set name="target" val="TARGET_SELF" />
 		<set name="skillType" val="FEED_PET" />
 		<set name="operateType" val="OP_ACTIVE" />
 		<set name="feed" val="1000" />
 	</skill>
-	<skill id="2362" levels="1" name="Prison Gate Key">
+	<skill id="2362" levels="1" name="監獄門鑰匙">
 		<set name="target" val="TARGET_NONE" />
 		<set name="skillType" val="NOTDONE" />
 		<set name="reuseDelay" val="8000" />
@@ -785,7 +785,7 @@
 		<set name="hitTime" val="500" />
 		<set name="staticHitTime" val="true" />
 	</skill>
-	<skill id="2363" levels="1" name="Underground Warehouse Key">
+	<skill id="2363" levels="1" name="地下儲藏所鑰匙">
 		<set name="target" val="TARGET_NONE" />
 		<set name="skillType" val="NOTDONE" />
 		<set name="reuseDelay" val="8000" />
@@ -793,7 +793,7 @@
 		<set name="hitTime" val="500" />
 		<set name="staticHitTime" val="true" />
 	</skill>
-	<skill id="2364" levels="1" name="Blessed Scroll of Fortress Return">
+	<skill id="2364" levels="1" name="祝福的要塞返回卷軸">
 		<set name="itemConsumeCount" val="1" />
 		<set name="target" val="TARGET_SELF" />
 		<set name="hitTime" val="200" />
@@ -805,7 +805,7 @@
 			<player fort="-1" />
 		</cond>
 	</skill>
-	<skill id="2365" levels="1" name="Scroll of Fortress Return">
+	<skill id="2365" levels="1" name="要塞返回卷軸">
 		<set name="itemConsumeCount" val="1" />
 		<set name="target" val="TARGET_SELF" />
 		<set name="hitTime" val="20000" />
@@ -814,7 +814,7 @@
 		<set name="recallType" val="Fortress" />
 		<set name="operateType" val="OP_ACTIVE" />
 	</skill>
-	<skill id="2366" levels="1" name="Blue Coral Key">
+	<skill id="2366" levels="1" name="湛藍珊瑚鑰匙">
 		<set name="target" val="TARGET_NONE" />
 		<set name="skillType" val="NOTDONE" />
 		<set name="reuseDelay" val="8000" />
@@ -822,7 +822,7 @@
 		<set name="hitTime" val="500" />
 		<set name="staticHitTime" val="true" />
 	</skill>
-	<skill id="2367" levels="1" name="Red Coral Key">
+	<skill id="2367" levels="1" name="赤紅珊瑚鑰匙">
 		<set name="target" val="TARGET_NONE" />
 		<set name="skillType" val="NOTDONE" />
 		<set name="reuseDelay" val="8000" />
@@ -830,7 +830,7 @@
 		<set name="hitTime" val="500" />
 		<set name="staticHitTime" val="true" />
 	</skill>
-	<skill id="2368" levels="1" name="Spirit of the Lake">
+	<skill id="2368" levels="1" name="湖的精氣">
 		<set name="itemConsumeCount" val="1" />
 		<set name="power" val="10000" />
 		<set name="target" val="TARGET_ONE" />
@@ -852,7 +852,7 @@
 			<effect name="HealOverTime" val="3000" /> <!-- TODO: this is wrong -->
 		</for>
 	</skill>
-	<skill id="2369" levels="1" name="Water Dragon Scale">
+	<skill id="2369" levels="1" name="水龍的鱗片">
 		<set name="itemConsumeCount" val="1" />
 		<set name="target" val="TARGET_ONE" />
 		<set name="hitTime" val="500" />
@@ -869,7 +869,7 @@
 			</and>
 		</cond>
 	</skill>
-	<skill id="2370" levels="1" name="Scroll of Transformation - Pig">
+	<skill id="2370" levels="1" name="變身卷軸-豬">
 		<set name="itemConsumeCount" val="1" />
 		<set name="target" val="TARGET_SELF" />
 		<set name="skillType" val="BUFF" />
@@ -882,7 +882,7 @@
 			<effect name="Transformation" time="3600" val="0" stackOrder="1" stackType="transform" />
 		</for>
 	</skill>
-	<skill id="2371" levels="1" name="Transform Sealbook - Onyx Beast">
+	<skill id="2371" levels="1" name="瑪瑙獸變身卷軸">
 		<!-- Update by rocknow -->
 		<set name="itemConsumeCount" val="1" />
 		<set name="target" val="TARGET_SELF" />
@@ -896,7 +896,7 @@
 			<effect name="Transformation" time="1800" val="0" />
 		</for>
 	</skill>
-	<skill id="2372" levels="1" name="Transform Sealbook - Death Blader">
+	<skill id="2372" levels="1" name="死亡之刃變身卷軸">
 		<!-- Update by rocknow -->
 		<set name="itemConsumeCount" val="1" />
 		<set name="target" val="TARGET_SELF" />
@@ -910,7 +910,7 @@
 			<effect name="Transformation" time="1800" val="0" />
 		</for>
 	</skill>
-	<skill id="2373" levels="1" name="Transform Sealbook - Grail Apostle">
+	<skill id="2373" levels="1" name="門徒聖杯變身卷軸">
 		<!-- Update by rocknow -->
 		<set name="itemConsumeCount" val="1" />
 		<set name="target" val="TARGET_SELF" />
@@ -924,7 +924,7 @@
 			<effect name="Transformation" time="1800" val="0" />
 		</for>
 	</skill>
-	<skill id="2374" levels="1" name="Transform Sealbook - Unicorn">
+	<skill id="2374" levels="1" name="獨角獸變身卷軸">
 		<!-- Update by rocknow -->
 		<set name="itemConsumeCount" val="1" />
 		<set name="target" val="TARGET_SELF" />
@@ -938,7 +938,7 @@
 			<effect name="Transformation" time="1800" val="0" />
 		</for>
 	</skill>
-	<skill id="2375" levels="1" name="Transform Sealbook - Lilim Knight">
+	<skill id="2375" levels="1" name="莉莉恩騎士變身卷軸">
 		<!-- Update by rocknow -->
 		<set name="itemConsumeCount" val="1" />
 		<set name="target" val="TARGET_SELF" />
@@ -952,7 +952,7 @@
 			<effect name="Transformation" time="1800" val="0" />
 		</for>
 	</skill>
-	<skill id="2376" levels="1" name="Transform Sealbook - Golem Guardian">
+	<skill id="2376" levels="1" name="高崙守護者變身卷軸">
 		<!-- Update by rocknow -->
 		<set name="itemConsumeCount" val="1" />
 		<set name="target" val="TARGET_SELF" />
@@ -966,7 +966,7 @@
 			<effect name="Transformation" time="1800" val="0" />
 		</for>
 	</skill>
-	<skill id="2377" levels="1" name="Transform Sealbook - Inferno Drake">
+	<skill id="2377" levels="1" name="煉獄龍獸變身卷軸">
 		<!-- Update by rocknow -->
 		<set name="itemConsumeCount" val="1" />
 		<set name="target" val="TARGET_SELF" />
@@ -980,7 +980,7 @@
 			<effect name="Transformation" time="1800" val="0" />
 		</for>
 	</skill>
-	<skill id="2378" levels="1" name="Transform Sealbook - Dragon Bomber">
+	<skill id="2378" levels="1" name="暴烈龍變身卷軸">
 		<!-- Update by rocknow -->
 		<set name="itemConsumeCount" val="1" />
 		<set name="target" val="TARGET_SELF" />
@@ -994,7 +994,7 @@
 			<effect name="Transformation" time="1800" val="0" />
 		</for>
 	</skill>
-	<skill id="2379" levels="1" name="Wind">
+	<skill id="2379" levels="1" name="風">
 		<set name="itemConsumeCount" val="1" />
 		<set name="target" val="TARGET_SELF" />
 		<set name="skillType" val="BUFF" />
@@ -1008,7 +1008,7 @@
 			</effect>
 		</for>
 	</skill>
-	<skill id="2380" levels="1" name="Shield">
+	<skill id="2380" levels="1" name="保護盾">
 		<set name="target" val="TARGET_SELF" />
 		<set name="skillType" val="BUFF" />
 		<set name="operateType" val="OP_ACTIVE" />
@@ -1021,7 +1021,7 @@
 			</effect>
 		</for>
 	</skill>
-	<skill id="2381" levels="1" name="Magic Barrier">
+	<skill id="2381" levels="1" name="魔法屏障">
 		<set name="target" val="TARGET_SELF" />
 		<set name="skillType" val="BUFF" />
 		<set name="operateType" val="OP_ACTIVE" />
@@ -1034,7 +1034,7 @@
 			</effect>
 		</for>
 	</skill>
-	<skill id="2382" levels="1" name="Bless Shield">
+	<skill id="2382" levels="1" name="祝福之盾">
 		<set name="target" val="TARGET_SELF" />
 		<set name="skillType" val="BUFF" />
 		<set name="operateType" val="OP_ACTIVE" />
@@ -1047,7 +1047,7 @@
 			</effect>
 		</for>
 	</skill>
-	<skill id="2383" levels="1" name="Haste">
+	<skill id="2383" levels="1" name="速度激發">
 		<set name="target" val="TARGET_SELF" />
 		<set name="skillType" val="BUFF" />
 		<set name="operateType" val="OP_ACTIVE" />
@@ -1060,7 +1060,7 @@
 			</effect>
 		</for>
 	</skill>
-	<skill id="2384" levels="1" name="Acumen">
+	<skill id="2384" levels="1" name="靈活思緒">
 		<set name="target" val="TARGET_SELF" />
 		<set name="skillType" val="BUFF" />
 		<set name="operateType" val="OP_ACTIVE" />
@@ -1073,7 +1073,7 @@
 			</effect>
 		</for>
 	</skill>
-	<skill id="2385" levels="1" name="Empower">
+	<skill id="2385" levels="1" name="魔力催化">
 		<set name="target" val="TARGET_SELF" />
 		<set name="skillType" val="BUFF" />
 		<set name="operateType" val="OP_ACTIVE" />
@@ -1086,7 +1086,7 @@
 			</effect>
 		</for>
 	</skill>
-	<skill id="2386" levels="1" name="Divine Power">
+	<skill id="2386" levels="1" name="神聖之力">
 		<set name="target" val="TARGET_SELF" />
 		<set name="skillType" val="BUFF" />
 		<set name="operateType" val="OP_ACTIVE" />
@@ -1099,7 +1099,7 @@
 			</effect>
 		</for>
 	</skill>
-	<skill id="2387" levels="1" name="Might">
+	<skill id="2387" levels="1" name="力量強化">
 		<set name="target" val="TARGET_SELF" />
 		<set name="skillType" val="BUFF" />
 		<set name="operateType" val="OP_ACTIVE" />
@@ -1112,7 +1112,7 @@
 			</effect>
 		</for>
 	</skill>
-	<skill id="2388" levels="1" name="Focus">
+	<skill id="2388" levels="1" name="弱點偵測">
 		<set name="target" val="TARGET_SELF" />
 		<set name="skillType" val="BUFF" />
 		<set name="operateType" val="OP_ACTIVE" />
@@ -1125,7 +1125,7 @@
 			</effect>
 		</for>
 	</skill>
-	<skill id="2389" levels="1" name="Guidance">
+	<skill id="2389" levels="1" name="導引">
 		<set name="target" val="TARGET_SELF" />
 		<set name="skillType" val="BUFF" />
 		<set name="operateType" val="OP_ACTIVE" />
@@ -1138,7 +1138,7 @@
 			</effect>
 		</for>
 	</skill>
-	<skill id="2390" levels="1" name="Berserker Spirit">
+	<skill id="2390" levels="1" name="狂戰士魂">
 		<set name="itemConsumeCount" val="1" />
 		<set name="target" val="TARGET_SELF" />
 		<set name="skillType" val="BUFF" />
@@ -1159,7 +1159,7 @@
 			</effect>
 		</for>
 	</skill>
-	<skill id="2391" levels="1" name="Clarity">
+	<skill id="2391" levels="1" name="澄澈思緒">
 		<set name="target" val="TARGET_SELF" />
 		<set name="skillType" val="BUFF" />
 		<set name="operateType" val="OP_ACTIVE" />
@@ -1174,7 +1174,7 @@
 			</effect>
 		</for>
 	</skill>
-	<skill id="2392" levels="1" name="Blessed Scroll of Battlefield Escape">
+	<skill id="2392" levels="1" name="戰場祝福的返回卷軸">
 		<set name="itemConsumeCount" val="1" />
 		<set name="target" val="TARGET_SELF" />
 		<set name="hitTime" val="200" />
@@ -1185,7 +1185,7 @@
 			<player SiegeZone="126" />
 		</cond>
 	</skill>
-	<skill id="2393" levels="1" name="Blessed Scroll of Battlefield Resurrection">
+	<skill id="2393" levels="1" name="戰場祝福的復活卷軸">
 		<!-- Update by rocknow -->
 		<set name="power" val="100" />
 		<set name="target" val="TARGET_CORPSE_PLAYER" />
@@ -1199,7 +1199,7 @@
 			<player SiegeZone="126" />
 		</cond>
 	</skill>
-	<skill id="2394" levels="1" name="Scroll of Battlefield Transformation">
+	<skill id="2394" levels="1" name="戰場變身卷軸">
 		<!-- Update by rocknow -->
 		<set name="itemConsumeCount" val="1" />
 		<set name="target" val="TARGET_SELF" />
@@ -1213,7 +1213,7 @@
 			<effect name="Transformation" time="1800" val="0" />
 		</for>
 	</skill>
-	<skill id="2395" levels="1" name="Lesser Battlefield Healing Potion">
+	<skill id="2395" levels="1" name="戰場體力治癒藥水">
 		<set name="itemConsumeCount" val="1" />
 		<set name="power" val="2000" />
 		<set name="target" val="TARGET_SELF" />
@@ -1225,7 +1225,7 @@
 			<player SiegeZone="126" />
 		</cond>
 	</skill>
-	<skill id="2396" levels="1" name="Mental Potion">
+	<skill id="2396" levels="1" name="屬性強化藥">
 		<set name="itemConsumeCount" val="1" />
 		<set name="target" val="TARGET_SELF" />
 		<set name="skillType" val="BUFF" />
@@ -1244,7 +1244,7 @@
 			</effect>
 		</for>
 	</skill>
-	<skill id="2397" levels="1" name="Medusa Potion">
+	<skill id="2397" levels="1" name="梅杜莎藥水">
 		<!-- Update by pmq -->
 		<set name="itemConsumeId" val="10156" />
 		<set name="itemConsumeCount" val="1" />
@@ -1258,7 +1258,7 @@
 			<effect name="Invincible" time="8" val="0" stackOrder="1" stackType="Instant_Shield" />
 		</for>
 	</skill>
-	<skill id="2398" levels="1" name="Instant Haste Potion">
+	<skill id="2398" levels="1" name="瞬間加速藥水">
 		<set name="itemConsumeCount" val="1" />
 		<set name="target" val="TARGET_SELF" />
 		<set name="skillType" val="BUFF" />
@@ -1274,7 +1274,7 @@
 			</effect>
 		</for>
 	</skill>
-	<skill id="2399" levels="1" name="Capture Rope">
+	<skill id="2399" levels="1" name="綁縛繩索">
 		<set name="target" val="TARGET_NONE" />
 		<set name="skillType" val="NOTDONE" />
 		<set name="operateType" val="OP_PASSIVE" />

@@ -1,12 +1,12 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <list>
-	<skill id="6200" levels="1" name="NPC Transform Dispel">
+	<skill id="6200" levels="1" name="NPC變身 消除">
 		<set name="target" val="TARGET_ONE" />
 		<set name="skillType" val="TRANSFORMDISPEL" />
 		<set name="operateType" val="OP_ACTIVE" />
 		<set name="hitTime" val="500" />
 	</skill>
-	<skill id="6201" levels="1" name="Transformation Condition - Frog">
+	<skill id="6201" levels="1" name="變身狀態-青蛙">
 		<set name="target" val="TARGET_ONE" />
 		<set name="skillType" val="BUFF" />
 		<set name="operateType" val="OP_ACTIVE" />
@@ -23,7 +23,7 @@
 			</effect>
 		</for>
 	</skill>
-	<skill id="6202" levels="1" name="Transformation Condition - Young Child">
+	<skill id="6202" levels="1" name="變身狀態-小孩">
 		<set name="target" val="TARGET_ONE" />
 		<set name="skillType" val="BUFF" />
 		<set name="operateType" val="OP_ACTIVE" />
@@ -40,7 +40,7 @@
 			</effect>
 		</for>
 	</skill>
-	<skill id="6203" levels="1" name="Transformed Condition - Native">
+	<skill id="6203" levels="1" name="變身狀態-原住民">
 		<set name="target" val="TARGET_ONE" />
 		<set name="skillType" val="BUFF" />
 		<set name="operateType" val="OP_ACTIVE" />
@@ -57,7 +57,7 @@
 			</effect>
 		</for>
 	</skill>
-	<skill id="6204" levels="1" name="Transformed Condition - Guards of the Dawn">
+	<skill id="6204" levels="1" name="變身狀態-黎明的警衛隊員">
 		<!-- Update by pmq -->
 		<set name="target" val="TARGET_SELF" />
 		<set name="skillType" val="BUFF" />
@@ -66,16 +66,16 @@
 		<for>
 			<!-- Don't Have Time Limit, info from PTS Euro -->
 			<effect name="Transformation" time="21600" val="0" stackOrder="99" stackType="speed_up"> 
-				<set order="0x08" stat="STR" val="40"/>
-				<set order="0x08" stat="DEX" val="30"/>
-				<set order="0x08" stat="CON" val="43"/>
-				<set order="0x08" stat="INT" val="21"/>
-				<set order="0x08" stat="WIT" val="13"/>
-				<set order="0x08" stat="MEN" val="23"/>
+				<set order="0x08" stat="STR" val="40" />
+				<set order="0x08" stat="DEX" val="30" />
+				<set order="0x08" stat="CON" val="43" />
+				<set order="0x08" stat="INT" val="21" />
+				<set order="0x08" stat="WIT" val="13" />
+				<set order="0x08" stat="MEN" val="23" />
 			</effect>
 		</for>
 	</skill>
-	<skill id="6205" levels="19" name="Strider Bite">
+	<skill id="6205" levels="19" name="座龍撕咬">
 		<!-- TODO: This skill needs retail check -->
 		<table name="#dot"> 201 231 231 252 252 252 252 252 261 261 261 261 261 261 261 261 261 261 267 </table>
 		<table name="#mpConsume"> 68 76 82 89 91 94 96 98 100 100 101 102 103 103 104 104 105 105 105 </table>
@@ -104,7 +104,7 @@
 			</effect>
 		</for>
 	</skill>
-	<skill id="6206" levels="19" name="Strider Fear">
+	<skill id="6206" levels="19" name="座龍恐懼">
 		<!-- TODO: This skill needs retail check -->
 		<table name="#mpConsume"> 50 55 60 65 67 69 70 72 73 73 74 74 75 75 75 77 77 77 77 </table>
 		<set name="hitTime" val="4000" />
@@ -124,7 +124,7 @@
 			<effect count="5" name="Fear" time="2" val="0" stackOrder="1" stackType="turn_flee" />
 		</for>
 	</skill>
-	<skill id="6207" levels="1" name="Strider Dash">
+	<skill id="6207" levels="1" name="座龍衝刺">
 		<!-- TODO: This skill needs retail check -->
 		<set name="aggroPoints" val="438" />
 		<set name="hitTime" val="1000" />
@@ -139,13 +139,13 @@
 			</effect>
 		</for>
 	</skill>
-	<skill id="6208" levels="1" name="Blessed Guidance">
+	<skill id="6208" levels="1" name="祝福的導引">
 		<!-- Blessed Guidance. For 10 seconds, increases accuracy by 2. -->
 		<set name="target" val="TARGET_NONE" />
 		<set name="skillType" val="NOTDONE" />
 		<set name="operateType" val="OP_PASSIVE" />
 	</skill>
-	<skill id="6209" levels="4" name="Weapon Grade Penalty">
+	<skill id="6209" levels="4" name="武器等級懲罰">
 		<table name="#rCrit"> -0.1 -0.2 -0.3 -0.4 </table>
 		<table name="#cAtk"> 0.9 0.8 0.7 0.6 </table>
 		<table name="#magicFailureRate"> 2000 4000 6000 8000 </table> <!-- Guess -->
@@ -163,7 +163,7 @@
 			<add order="0x40" stat="magicFailureRate" val="#magicFailureRate" />
 		</for>
 	</skill>
-	<skill id="6213" levels="4" name="Armor Grade Penalty">
+	<skill id="6213" levels="4" name="防具等級懲罰">
 		<table name="#rEvas"> 2.5 5 7.5 10 </table>
 		<table name="#amount"> 0.8333 0.6944 0.5787 0.4823 </table>
 		<set name="magicLvl" val="1" />
@@ -178,121 +178,121 @@
 			<mul order="0x30" stat="runSpd" val="#amount" />
 		</for>
 	</skill>
-	<skill id="6217" levels="1" name="Raid Boss - Level 81">
+	<skill id="6217" levels="1" name="81級狩獵首領">
 		<set name="target" val="TARGET_NONE" />
 		<set name="skillType" val="NOTDONE" />
 		<set name="operateType" val="OP_PASSIVE" />
 	</skill>
-	<skill id="6218" levels="1" name="Raid Boss - Level 81">
+	<skill id="6218" levels="1" name="81級狩獵首領">
 		<set name="target" val="TARGET_NONE" />
 		<set name="skillType" val="NOTDONE" />
 		<set name="operateType" val="OP_PASSIVE" />
 	</skill>
-	<skill id="6219" levels="1" name="Raid Boss - Level 81">
+	<skill id="6219" levels="1" name="81級狩獵首領">
 		<set name="target" val="TARGET_NONE" />
 		<set name="skillType" val="NOTDONE" />
 		<set name="operateType" val="OP_PASSIVE" />
 	</skill>
-	<skill id="6220" levels="1" name="Raid Boss - Level 81">
+	<skill id="6220" levels="1" name="81級狩獵首領">
 		<set name="target" val="TARGET_NONE" />
 		<set name="skillType" val="NOTDONE" />
 		<set name="operateType" val="OP_PASSIVE" />
 	</skill>
-	<skill id="6221" levels="1" name="Raid Boss - Level 82">
+	<skill id="6221" levels="1" name="82級狩獵首領">
 		<set name="target" val="TARGET_NONE" />
 		<set name="skillType" val="NOTDONE" />
 		<set name="operateType" val="OP_PASSIVE" />
 	</skill>
-	<skill id="6222" levels="1" name="Raid Boss - Level 84">
+	<skill id="6222" levels="1" name="84級狩獵首領">
 		<set name="target" val="TARGET_NONE" />
 		<set name="skillType" val="NOTDONE" />
 		<set name="operateType" val="OP_PASSIVE" />
 	</skill>
-	<skill id="6223" levels="1" name="Raid Boss - Level 84">
+	<skill id="6223" levels="1" name="84級狩獵首領">
 		<set name="target" val="TARGET_NONE" />
 		<set name="skillType" val="NOTDONE" />
 		<set name="operateType" val="OP_PASSIVE" />
 	</skill>
-	<skill id="6224" levels="1" name="Raid Boss - Level 84">
+	<skill id="6224" levels="1" name="84級狩獵首領">
 		<set name="target" val="TARGET_NONE" />
 		<set name="skillType" val="NOTDONE" />
 		<set name="operateType" val="OP_PASSIVE" />
 	</skill>
-	<skill id="6225" levels="1" name="Raid Boss - Level 84">
+	<skill id="6225" levels="1" name="84級狩獵首領">
 		<set name="target" val="TARGET_NONE" />
 		<set name="skillType" val="NOTDONE" />
 		<set name="operateType" val="OP_PASSIVE" />
 	</skill>
-	<skill id="6226" levels="1" name="Raid Boss - Level 84">
+	<skill id="6226" levels="1" name="84級狩獵首領">
 		<set name="target" val="TARGET_NONE" />
 		<set name="skillType" val="NOTDONE" />
 		<set name="operateType" val="OP_PASSIVE" />
 	</skill>
-	<skill id="6227" levels="1" name="Raid Boss - Level 84">
+	<skill id="6227" levels="1" name="84級狩獵首領">
 		<set name="target" val="TARGET_NONE" />
 		<set name="skillType" val="NOTDONE" />
 		<set name="operateType" val="OP_PASSIVE" />
 	</skill>
-	<skill id="6228" levels="1" name="Raid Boss - Level 83">
+	<skill id="6228" levels="1" name="83級狩獵首領">
 		<set name="target" val="TARGET_NONE" />
 		<set name="skillType" val="NOTDONE" />
 		<set name="operateType" val="OP_PASSIVE" />
 	</skill>
-	<skill id="6229" levels="1" name="Raid Boss - Level 84">
+	<skill id="6229" levels="1" name="84級狩獵首領">
 		<set name="target" val="TARGET_NONE" />
 		<set name="skillType" val="NOTDONE" />
 		<set name="operateType" val="OP_PASSIVE" />
 	</skill>
-	<skill id="6230" levels="1" name="Raid Boss - Level 82">
+	<skill id="6230" levels="1" name="82級狩獵首領">
 		<set name="target" val="TARGET_NONE" />
 		<set name="skillType" val="NOTDONE" />
 		<set name="operateType" val="OP_PASSIVE" />
 	</skill>
-	<skill id="6231" levels="1" name="Raid Boss - Level 82">
+	<skill id="6231" levels="1" name="82級狩獵首領">
 		<set name="target" val="TARGET_NONE" />
 		<set name="skillType" val="NOTDONE" />
 		<set name="operateType" val="OP_PASSIVE" />
 	</skill>
-	<skill id="6232" levels="1" name="Raid Boss - Level 83">
+	<skill id="6232" levels="1" name="82級狩獵首領">
 		<set name="target" val="TARGET_NONE" />
 		<set name="skillType" val="NOTDONE" />
 		<set name="operateType" val="OP_PASSIVE" />
 	</skill>
-	<skill id="6233" levels="1" name="Raid Boss - Level 83">
+	<skill id="6233" levels="1" name="83級狩獵首領">
 		<set name="target" val="TARGET_NONE" />
 		<set name="skillType" val="NOTDONE" />
 		<set name="operateType" val="OP_PASSIVE" />
 	</skill>
-	<skill id="6234" levels="1" name="Presentation - Adena Firework">
+	<skill id="6234" levels="1" name="展示-金幣大煙火">
 		<set name="target" val="TARGET_NONE" />
 		<set name="skillType" val="NOTDONE" />
 		<set name="operateType" val="OP_PASSIVE" />
 	</skill>
-	<skill id="6235" levels="1" name="Blessed Focus">
+	<skill id="6235" levels="1" name="祝福的弱點偵測">
 		<set name="target" val="TARGET_NONE" />
 		<set name="skillType" val="NOTDONE" />
 		<set name="operateType" val="OP_PASSIVE" />
 	</skill>
-	<skill id="6236" levels="1" name="Presentation - Party Recall">
+	<skill id="6236" levels="1" name="展示-隊伍回歸術">
 		<set name="target" val="TARGET_NONE" />
 		<set name="skillType" val="NOTDONE" />
 		<set name="operateType" val="OP_PASSIVE" />
 	</skill>
-	<skill id="6237" levels="1" name="Moving Speed Decrease">
-		<set name="target" val="TARGET_NONE" />
-		<set name="skillType" val="NOTDONE" />
-		<set name="operateType" val="OP_PASSIVE" />
-		<set name="saveVs" val="MEN" />
-		<set name="lvlDepend" val="1" />
-	</skill>
-	<skill id="6238" levels="1" name="Moving Speed Decrease">
+	<skill id="6237" levels="1" name="移動速度下降">
 		<set name="target" val="TARGET_NONE" />
 		<set name="skillType" val="NOTDONE" />
 		<set name="operateType" val="OP_PASSIVE" />
 		<set name="saveVs" val="MEN" />
 		<set name="lvlDepend" val="1" />
 	</skill>
-	<skill id="6239" levels="1" name="Proof of Space and Time">
+	<skill id="6238" levels="1" name="移動速度下降">
+		<set name="target" val="TARGET_NONE" />
+		<set name="skillType" val="NOTDONE" />
+		<set name="operateType" val="OP_PASSIVE" />
+		<set name="saveVs" val="MEN" />
+		<set name="lvlDepend" val="1" />
+	</skill>
+	<skill id="6239" levels="1" name="時空的證據">
 		<set name="target" val="TARGET_NONE" />
 		<set name="skillType" val="NOTDONE" />
 		<set name="operateType" val="OP_PASSIVE" />
@@ -300,58 +300,58 @@
 		<set name="coolTime" val="1000" />
 		<set name="staticReuse" val="true" />
 	</skill>
-	<skill id="6240" levels="5" name="Heatstroke">
+	<skill id="6240" levels="5" name="中暑">
 		<set name="target" val="TARGET_NONE" />
 		<set name="skillType" val="NOTDONE" />
 		<set name="operateType" val="OP_PASSIVE" />
 		<set name="reuseDelay" val="1000" />
 	</skill>
-	<skill id="6241" levels="1" name="Heatstroke Prevention Effect - Gludio">
+	<skill id="6241" levels="1" name="中暑預防效果-古魯丁">
 		<set name="target" val="TARGET_NONE" />
 		<set name="skillType" val="NOTDONE" />
 		<set name="operateType" val="OP_PASSIVE" />
 	</skill>
-	<skill id="6242" levels="1" name="Heatstroke Prevention Effect - Dion">
+	<skill id="6242" levels="1" name="中暑預防效果-狄恩">
 		<set name="target" val="TARGET_NONE" />
 		<set name="skillType" val="NOTDONE" />
 		<set name="operateType" val="OP_PASSIVE" />
 	</skill>
-	<skill id="6243" levels="1" name="Heatstroke Prevention Effect - Giran">
+	<skill id="6243" levels="1" name="中暑預防效果-奇岩">
 		<set name="target" val="TARGET_NONE" />
 		<set name="skillType" val="NOTDONE" />
 		<set name="operateType" val="OP_PASSIVE" />
 	</skill>
-	<skill id="6244" levels="1" name="Heatstroke Prevention Effect - Oren">
+	<skill id="6244" levels="1" name="中暑預防效果-歐瑞">
 		<set name="target" val="TARGET_NONE" />
 		<set name="skillType" val="NOTDONE" />
 		<set name="operateType" val="OP_PASSIVE" />
 	</skill>
-	<skill id="6245" levels="1" name="Heatstroke Prevention Effect - Aden">
+	<skill id="6245" levels="1" name="中暑預防效果-亞丁">
 		<set name="target" val="TARGET_NONE" />
 		<set name="skillType" val="NOTDONE" />
 		<set name="operateType" val="OP_PASSIVE" />
 	</skill>
-	<skill id="6246" levels="1" name="Heatstroke Prevention Effect - Innadril">
+	<skill id="6246" levels="1" name="中暑預防效果-因納得立">
 		<set name="target" val="TARGET_NONE" />
 		<set name="skillType" val="NOTDONE" />
 		<set name="operateType" val="OP_PASSIVE" />
 	</skill>
-	<skill id="6247" levels="1" name="Heatstroke Prevention Effect - Goddard">
+	<skill id="6247" levels="1" name="中暑預防效果-高達特">
 		<set name="target" val="TARGET_NONE" />
 		<set name="skillType" val="NOTDONE" />
 		<set name="operateType" val="OP_PASSIVE" />
 	</skill>
-	<skill id="6248" levels="1" name="Heatstroke Prevention Effect - Rune">
+	<skill id="6248" levels="1" name="中暑預防效果-魯因">
 		<set name="target" val="TARGET_NONE" />
 		<set name="skillType" val="NOTDONE" />
 		<set name="operateType" val="OP_PASSIVE" />
 	</skill>
-	<skill id="6249" levels="1" name="Heatstroke Prevention Effect -Schuttgart">
+	<skill id="6249" levels="1" name="中暑預防效果-修加特">
 		<set name="target" val="TARGET_NONE" />
 		<set name="skillType" val="NOTDONE" />
 		<set name="operateType" val="OP_PASSIVE" />
 	</skill>
-	<skill id="6250" levels="1" name="Severe Heatstroke">
+	<skill id="6250" levels="1" name="強烈中暑">
 		<set name="target" val="TARGET_NONE" />
 		<set name="skillType" val="NOTDONE" />
 		<set name="operateType" val="OP_PASSIVE" />
@@ -359,70 +359,70 @@
 		<set name="saveVs" val="MEN" />
 		<set name="lvlDepend" val="1" />
 	</skill>
-	<skill id="6251" levels="1" name="Summon Humidity">
+	<skill id="6251" levels="1" name="召喚炎熱">
 		<set name="target" val="TARGET_NONE" />
 		<set name="skillType" val="NOTDONE" />
 		<set name="operateType" val="OP_PASSIVE" />
 	</skill>
-	<skill id="6252" levels="1" name="Humidity Attack">
+	<skill id="6252" levels="1" name="炎熱攻擊">
 		<set name="target" val="TARGET_NONE" />
 		<set name="skillType" val="NOTDONE" />
 		<set name="operateType" val="OP_PASSIVE" />
 		<set name="reuseDelay" val="1000" />
 	</skill>
-	<skill id="6253" levels="1" name="Heatstroke Prevention Effect - Gludio">
+	<skill id="6253" levels="1" name="中暑預防效果-古魯丁">
 		<set name="target" val="TARGET_NONE" />
 		<set name="skillType" val="NOTDONE" />
 		<set name="operateType" val="OP_PASSIVE" />
 	</skill>
-	<skill id="6254" levels="1" name="Heatstroke Prevention Effect - Dion">
+	<skill id="6254" levels="1" name="中暑預防效果-狄恩">
 		<set name="target" val="TARGET_NONE" />
 		<set name="skillType" val="NOTDONE" />
 		<set name="operateType" val="OP_PASSIVE" />
 	</skill>
-	<skill id="6255" levels="1" name="Heatstroke Prevention Effect - Giran">
+	<skill id="6255" levels="1" name="中暑預防效果-奇岩">
 		<set name="target" val="TARGET_NONE" />
 		<set name="skillType" val="NOTDONE" />
 		<set name="operateType" val="OP_PASSIVE" />
 	</skill>
-	<skill id="6256" levels="1" name="Heatstroke Prevention Effect - Oren">
+	<skill id="6256" levels="1" name="中暑預防效果-歐瑞">
 		<set name="target" val="TARGET_NONE" />
 		<set name="skillType" val="NOTDONE" />
 		<set name="operateType" val="OP_PASSIVE" />
 	</skill>
-	<skill id="6257" levels="1" name="Heatstroke Prevention Effect - Aden">
+	<skill id="6257" levels="1" name="中暑預防效果-亞丁">
 		<set name="target" val="TARGET_NONE" />
 		<set name="skillType" val="NOTDONE" />
 		<set name="operateType" val="OP_PASSIVE" />
 	</skill>
-	<skill id="6258" levels="1" name="Heatstroke Prevention Effect - Innadril">
+	<skill id="6258" levels="1" name="中暑預防效果-因納得立">
 		<set name="target" val="TARGET_NONE" />
 		<set name="skillType" val="NOTDONE" />
 		<set name="operateType" val="OP_PASSIVE" />
 	</skill>
-	<skill id="6259" levels="1" name="Heatstroke Prevention Effect - Goddard">
+	<skill id="6259" levels="1" name="中暑預防效果-高達特">
 		<set name="target" val="TARGET_NONE" />
 		<set name="skillType" val="NOTDONE" />
 		<set name="operateType" val="OP_PASSIVE" />
 	</skill>
-	<skill id="6260" levels="1" name="Heatstroke Prevention Effect - Rune">
+	<skill id="6260" levels="1" name="中暑預防效果-魯因">
 		<set name="target" val="TARGET_NONE" />
 		<set name="skillType" val="NOTDONE" />
 		<set name="operateType" val="OP_PASSIVE" />
 	</skill>
-	<skill id="6261" levels="1" name="Heatstroke Prevention Effect - Schuttgart">
+	<skill id="6261" levels="1" name="中暑預防效果-修加特">
 		<set name="target" val="TARGET_NONE" />
 		<set name="skillType" val="NOTDONE" />
 		<set name="operateType" val="OP_PASSIVE" />
 	</skill>
-	<skill id="6262" levels="1" name="EMP Power">
+	<skill id="6262" levels="1" name="EMP力量">
 		<set name="target" val="TARGET_NONE" />
 		<set name="skillType" val="NOTDONE" />
 		<set name="operateType" val="OP_PASSIVE" />
 		<set name="reuseDelay" val="30000" />
 		<set name="coolTime" val="500" />
 	</skill>
-	<skill id="6263" levels="1" name="EMP Shock">
+	<skill id="6263" levels="1" name="EMP衝擊">
 		<set name="target" val="TARGET_NONE" />
 		<set name="skillType" val="NOTDONE" />
 		<set name="operateType" val="OP_PASSIVE" />
@@ -431,21 +431,21 @@
 		<set name="coolTime" val="500" />
 		<set name="lvlDepend" val="1" />
 	</skill>
-	<skill id="6264" levels="1" name="Golem Boom">
+	<skill id="6264" levels="1" name="高崙炸彈">
 		<set name="target" val="TARGET_NONE" />
 		<set name="skillType" val="NOTDONE" />
 		<set name="operateType" val="OP_PASSIVE" />
 		<set name="reuseDelay" val="3000" />
 		<set name="coolTime" val="500" />
 	</skill>
-	<skill id="6265" levels="1" name="Smoke">
+	<skill id="6265" levels="1" name="煙幕">
 		<set name="target" val="TARGET_NONE" />
 		<set name="skillType" val="NOTDONE" />
 		<set name="operateType" val="OP_PASSIVE" />
 		<set name="reuseDelay" val="3000" />
 		<set name="coolTime" val="500" />
 	</skill>
-	<skill id="6266" levels="1" name="Shock">
+	<skill id="6266" levels="1" name="休克">
 		<set name="target" val="TARGET_NONE" />
 		<set name="skillType" val="NOTDONE" />
 		<set name="operateType" val="OP_PASSIVE" />
@@ -453,46 +453,46 @@
 		<set name="coolTime" val="500" />
 		<set name="lvlDepend" val="1" />
 	</skill>
-	<skill id="6267" levels="1" name="Power Attack">
+	<skill id="6267" levels="1" name="威力攻擊">
 		<set name="target" val="TARGET_NONE" />
 		<set name="skillType" val="NOTDONE" />
 		<set name="operateType" val="OP_PASSIVE" />
 	</skill>
-	<skill id="6268" levels="1" name="Power Attack">
+	<skill id="6268" levels="1" name="威力攻擊">
 		<set name="target" val="TARGET_NONE" />
 		<set name="skillType" val="NOTDONE" />
 		<set name="operateType" val="OP_PASSIVE" />
 	</skill>
-	<skill id="6269" levels="1" name="Poison Gas">
+	<skill id="6269" levels="1" name="特羅加的劇毒">
 		<set name="target" val="TARGET_NONE" />
 		<set name="skillType" val="NOTDONE" />
 		<set name="operateType" val="OP_PASSIVE" />
 		<set name="saveVs" val="CON" />
 		<set name="lvlDepend" val="1" />
 	</skill>
-	<skill id="6270" levels="1" name="Grima Power Up">
+	<skill id="6270" levels="1" name="毒氣瓦斯">
 		<set name="target" val="TARGET_NONE" />
 		<set name="skillType" val="NOTDONE" />
 		<set name="operateType" val="OP_PASSIVE" />
 	</skill>
-	<skill id="6271" levels="5" name="Grima Power Up">
+	<skill id="6271" levels="5" name="葛里瑪力量上升">
 		<set name="target" val="TARGET_NONE" />
 		<set name="skillType" val="NOTDONE" />
 		<set name="operateType" val="OP_PASSIVE" />
 	</skill>
-	<skill id="6272" levels="1" name="Underbug Defense Up">
+	<skill id="6272" levels="1" name="地底蟲防禦上升">
 		<!-- Increase each of P. Def. and M. Def. by 30%. -->
 		<set name="target" val="TARGET_NONE" />
 		<set name="skillType" val="NOTDONE" />
 		<set name="operateType" val="OP_PASSIVE" />
 	</skill>
-	<skill id="6273" levels="1" name="Underbug Self Blasting">
+	<skill id="6273" levels="1" name="地底蟲自爆">
 		<set name="target" val="TARGET_NONE" />
 		<set name="skillType" val="NOTDONE" />
 		<set name="operateType" val="OP_PASSIVE" />
 		<set name="reuseDelay" val="1000" />
 	</skill>
-	<skill id="6274" levels="1" name="Eternal Blizzard">
+	<skill id="6274" levels="1" name="終極雪暴">
 		<!-- Confirmed CT2.5 -->
 		<!-- Freya Skills -->
 		<set name="coolTime" val="500" />
@@ -511,7 +511,7 @@
 			<effect name="ChanceSkillTrigger" val="0" triggeredId="6662" triggeredLevel="2" chanceType="ON_START" />
 		</for>
 	</skill>
-	<skill id="6275" levels="1" name="Eternal Blizzard">
+	<skill id="6275" levels="1" name="終極雪暴">
 		<!-- Confirmed CT2.5 -->
 		<!-- Freya Skills -->
 		<set name="coolTime" val="500" />
@@ -530,7 +530,7 @@
 			<effect name="ChanceSkillTrigger" val="0" triggeredId="6662" triggeredLevel="2" chanceType="ON_START" />
 		</for>
 	</skill>
-	<skill id="6276" levels="1" name="Eternal Blizzard">
+	<skill id="6276" levels="1" name="終極雪暴">
 		<!-- Confirmed CT2.5 -->
 		<!-- Freya Skills -->
 		<set name="coolTime" val="500" />
@@ -544,7 +544,7 @@
 		<set name="skillType" val="DUMMY" />
 		<set name="target" val="TARGET_AURA" />
 	</skill>
-	<skill id="6277" levels="1" name="Summon Spirits">
+	<skill id="6277" levels="1" name="精靈召喚">
 		<!-- Confirmed CT2.5 -->
 		<!-- Freya Skills -->
 		<set name="castRange" val="800" />
@@ -557,7 +557,7 @@
 		<set name="skillType" val="DUMMY" />
 		<set name="target" val="TARGET_ONE" />
 	</skill>
-	<skill id="6278" levels="1" name="Ice Ball">
+	<skill id="6278" levels="1" name="冰彈">
 		<!-- Confirmed CT2.5 -->
 		<!-- Freya Skills -->
 		<set name="castRange" val="800" />
@@ -574,7 +574,7 @@
 		<set name="skillType" val="PDAM" />
 		<set name="target" val="TARGET_AREA" />
 	</skill>
-	<skill id="6279" levels="1" name="Attack Nearby Range">
+	<skill id="6279" levels="1" name="範圍攻擊">
 		<!-- Confirmed CT2.5 -->
 		<!-- Freya Skills -->
 		<set name="coolTime" val="500" />
@@ -589,7 +589,7 @@
 		<set name="skillType" val="PDAM" />
 		<set name="target" val="TARGET_AURA" />
 	</skill>
-	<skill id="6280" levels="1" name="Death Clack">
+	<skill id="6280" levels="1" name="死亡宣告">
 		<!-- Confirmed CT2.5 -->
 		<!-- Freya Skills -->
 		<set name="castRange" val="1500" />
@@ -609,7 +609,7 @@
 			<effect name="ChanceSkillTrigger" time="10" val="0" abnormal="bleed" triggeredId="6281" triggeredLevel="1" chanceType="ON_EXIT" stackOrder="1" stackType="death_clack" />
 		</for>
 	</skill>
-	<skill id="6281" levels="1" name="Cold Judgement">
+	<skill id="6281" levels="1" name="冷酷審判">
 		<!-- Confirmed CT2.5 -->
 		<!-- Freya Skills (Triggered from 6280) -->
 		<set name="isMagic" val="true" />
@@ -620,7 +620,7 @@
 		<set name="skillType" val="PDAM" />
 		<set name="target" val="TARGET_AURA" />
 	</skill>
-	<skill id="6282" levels="1" name="Reflect Magic">
+	<skill id="6282" levels="1" name="魔法反射">
 		<!-- Confirmed CT2.5 -->
 		<!-- Freya Skills -->
 		<set name="aggroPoints" val="204" />
@@ -636,7 +636,7 @@
 			</effect>
 		</for>
 	</skill>
-	<skill id="6283" levels="1" name="Ice Storm">
+	<skill id="6283" levels="1" name="暴風雪">
 		<!-- Confirmed CT2.5 -->
 		<!-- Freya Skills -->
 		<set name="castRange" val="1100" />
@@ -651,7 +651,7 @@
 		<set name="skillType" val="PDAM" />
 		<set name="target" val="TARGET_ONE" />
 	</skill>
-	<skill id="6284" levels="1" name="Freya's Bless">
+	<skill id="6284" levels="1" name="芙蕾雅的祝福">
 		<!-- Confirmed CT2.5 -->
 		<!-- Freya Skills -->
 		<set name="aggroPoints" val="1" />
@@ -669,7 +669,7 @@
 			</effect>
 		</for>
 	</skill>
-	<skill id="6285" levels="1" name="Rage of Ice">
+	<skill id="6285" levels="1" name="冰之憤怒">
 		<!-- Confirmed CT2.5 -->
 		<!-- Freya Skills -->
 		<set name="aggroPoints" val="1" />
@@ -684,7 +684,7 @@
 			</effect>
 		</for>
 	</skill>
-	<skill id="6286" levels="1" name="Bless of Sword">
+	<skill id="6286" levels="1" name="神劍加護">
 		<!-- Confirmed CT2.5 -->
 		<!-- Freya Jinia Skills -->
 		<set name="aggroPoints" val="1" />
@@ -704,7 +704,7 @@
 			</effect>
 		</for>
 	</skill>
-	<skill id="6287" levels="1" name="Bless of Sword">
+	<skill id="6287" levels="1" name="神劍加護">
 		<!-- Confirmed CT2.5 -->
 		<!-- Freya Kegor Skills -->
 		<set name="castRange" val="650" />
@@ -718,7 +718,7 @@
 		<set name="skillType" val="HPMPCPHEAL_PERCENT" />
 		<set name="target" val="TARGET_AURA" />
 	</skill>
-	<skill id="6288" levels="1" name="Jinia's Prayer">
+	<skill id="6288" levels="1" name="吉妮亞的祈禱">
 		<!-- Confirmed CT2.5 -->
 		<!-- Freya Jinia Skills -->
 		<set name="aggroPoints" val="1" />
@@ -735,7 +735,7 @@
 			</effect>
 		</for>
 	</skill>
-	<skill id="6289" levels="1" name="Kegor's Courage">
+	<skill id="6289" levels="1" name="凱高爾的勇氣">
 		<!-- Confirmed CT2.5 -->
 		<!-- Freya Kegor Skills -->
 		<set name="aggroPoints" val="1" />
@@ -754,7 +754,7 @@
 			</effect>
 		</for>
 	</skill>
-	<skill id="6290" levels="1" name="Power Strike">
+	<skill id="6290" levels="1" name="強力攻擊">
 		<!-- Confirmed CT2.5 -->
 		<!-- Freya Ice Knight Skills -->
 		<set name="castRange" val="150" />
@@ -769,7 +769,7 @@
 		<set name="skillType" val="PDAM" />
 		<set name="target" val="TARGET_ONE" />
 	</skill>
-	<skill id="6291" levels="1" name="Power Strike">
+	<skill id="6291" levels="1" name="強力攻擊">
 		<!-- Confirmed CT2.5 -->
 		<!-- Freya Ice Knight Skills -->
 		<set name="element" val="1" /> <!-- Water -->
@@ -783,7 +783,7 @@
 		<set name="skillType" val="PDAM" />
 		<set name="target" val="TARGET_AURA" />
 	</skill>
-	<skill id="6292" levels="1" name="Rush">
+	<skill id="6292" levels="1" name="突擊">
 		<!-- Confirmed CT2.5 -->
 		<!-- Freya Ice Knight Skills -->
 		<set name="castRange" val="900" />
@@ -807,7 +807,7 @@
 			<effect name="EnemyCharge" noicon="1" val="0" />
 		</for>
 	</skill>
-	<skill id="6293" levels="1" name="Power Strike">
+	<skill id="6293" levels="1" name="強力攻擊">
 		<!-- Confirmed CT2.5 -->
 		<!-- Freya Ice Knight Skills -->
 		<set name="castRange" val="40" />
@@ -823,7 +823,7 @@
 		<set name="skillType" val="PDAM" />
 		<set name="target" val="TARGET_FRONT_AREA" />
 	</skill>
-	<skill id="6294" levels="1" name="Leader's Roar">
+	<skill id="6294" levels="1" name="團長的咆哮">
 		<!-- Confirmed CT2.5 -->
 		<!-- Freya Ice Knight Skills -->
 		<set name="aggroPoints" val="1" />
@@ -842,7 +842,7 @@
 			</effect>
 		</for>
 	</skill>
-	<skill id="6295" levels="1" name="Point Target">
+	<skill id="6295" levels="1" name="目標指定">
 		<!-- Confirmed CT2.5 -->
 		<!-- Freya Ice Knight Skills -->
 		<set name="castRange" val="800" />
@@ -853,7 +853,7 @@
 		<set name="skillType" val="DUMMY" />
 		<set name="target" val="TARGET_ONE" />
 	</skill>
-	<skill id="6296" levels="1" name="Rush">
+	<skill id="6296" levels="1" name="突擊">
 		<!-- Confirmed CT2.5 -->
 		<!-- Freya Ice Knight Skills -->
 		<set name="castRange" val="900" />
@@ -877,7 +877,7 @@
 			<effect name="EnemyCharge" noicon="1" val="0" />
 		</for>
 	</skill>
-	<skill id="6297" levels="1" name="Cylinder Throw">
+	<skill id="6297" levels="1" name="冰柱投擲">
 		<!-- Confirmed CT2.5 -->
 		<!-- Freya Ice Knight Skills -->
 		<set name="castRange" val="1100" />
@@ -893,7 +893,7 @@
 		<set name="skillType" val="PDAM" />
 		<set name="target" val="TARGET_ONE" />
 	</skill>
-	<skill id="6298" levels="1" name="Summon Follower Knight">
+	<skill id="6298" levels="1" name="召喚騎士部下">
 		<!-- Confirmed CT2.5 -->
 		<!-- Freya Ice Knight Skills -->
 		<set name="aggroPoints" val="1" />
@@ -906,7 +906,7 @@
 		<set name="skillType" val="DUMMY" />
 		<set name="target" val="TARGET_ONE" />
 	</skill>
-	<skill id="6299" levels="1" name="Breath of Ice Palace - Ice Storm">
+	<skill id="6299" levels="1" name="冰宮的氣息-暴風雪">
 		<!-- Confirmed CT2.5 -->
 		<!-- Freya Skills -->
 		<set name="coolTime" val="500" />

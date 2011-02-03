@@ -1,13 +1,13 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <list>
-	<skill id="23200" levels="1" name="Ball Trapping Penalty Kick Agathion Special Skill - Soccer Ball of Cheers">
+	<skill id="23200" levels="1" name="十二碼罰球壺精特殊技能-聲援的足球">
 		<!-- Provides a soccer ball containing mysterious energy with the power of cheers. When you use the soccer ball, you can receive a random gift. Reuse Delay 10 seconds. Consumes 500 energy. -->
 		<set name="target" val="TARGET_NONE" />
 		<set name="skillType" val="NOTDONE" />
 		<set name="operateType" val="OP_PASSIVE" />
 		<set name="reuseDelay" val="10000" />
 	</skill>
-	<skill id="23201" levels="1" name="Ball Trapping Gnocian Agathion Cute Trick">
+	<skill id="23201" levels="1" name="格諾席安控球壺精聰明伶俐">
 		<set name="target" val="TARGET_SELF" />
 		<set name="skillType" val="DUMMY" />
 		<set name="operateType" val="OP_ACTIVE" />
@@ -17,7 +17,7 @@
 			<player agathionId="1576" />
 		</cond>
 	</skill>
-	<skill id="23202" levels="1" name="Ball Trapping Orodriel Agathion Cute Trick">
+	<skill id="23202" levels="1" name="奧羅德利爾控球壺精聰明伶俐">
 		<set name="target" val="TARGET_SELF" />
 		<set name="skillType" val="DUMMY" />
 		<set name="operateType" val="OP_ACTIVE" />
@@ -27,7 +27,7 @@
 			<player agathionId="1577" />
 		</cond>
 	</skill>
-	<skill id="23203" levels="1" name="Penalty Kick Agathion Cute Trick">
+	<skill id="23203" levels="1" name="十二碼罰球壺精聰明伶俐">
 		<set name="target" val="TARGET_SELF" />
 		<set name="skillType" val="DUMMY" />
 		<set name="operateType" val="OP_ACTIVE" />
@@ -37,7 +37,7 @@
 			<player agathionId="1578" />
 		</cond>
 	</skill>
-	<skill id="23204" levels="1" name="Ball Trapping Gnocian Agathion Cute Trick">
+	<skill id="23204" levels="1" name="格諾席安控球壺精聰明伶俐">
 		<set name="target" val="TARGET_SELF" />
 		<set name="skillType" val="DUMMY" />
 		<set name="operateType" val="OP_ACTIVE" />
@@ -47,7 +47,7 @@
 			<player agathionId="1579" />
 		</cond>
 	</skill>
-	<skill id="23205" levels="1" name="Ball Trapping Orodriel Agathion Cute Trick">
+	<skill id="23205" levels="1" name="奧羅德利爾控球壺精聰明伶俐">
 		<set name="target" val="TARGET_SELF" />
 		<set name="skillType" val="DUMMY" />
 		<set name="operateType" val="OP_ACTIVE" />
@@ -57,7 +57,7 @@
 			<player agathionId="1580" />
 		</cond>
 	</skill>
-	<skill id="23206" levels="1" name="Penalty Kick Agathion Cute Trick">
+	<skill id="23206" levels="1" name="十二碼罰球壺精聰明伶俐">
 		<set name="target" val="TARGET_SELF" />
 		<set name="skillType" val="DUMMY" />
 		<set name="operateType" val="OP_ACTIVE" />
@@ -67,7 +67,7 @@
 			<player agathionId="1581" />
 		</cond>
 	</skill>
-	<skill id="23207" levels="1" name="Ball Trapping Gnocian Agathion Cute Trick">
+	<skill id="23207" levels="1" name="格諾席安控球壺精聰明伶俐">
 		<set name="target" val="TARGET_SELF" />
 		<set name="skillType" val="DUMMY" />
 		<set name="operateType" val="OP_ACTIVE" />
@@ -77,7 +77,7 @@
 			<player agathionId="1582" />
 		</cond>
 	</skill>
-	<skill id="23208" levels="1" name="Ball Trapping Orodriel Agathion Cute Trick">
+	<skill id="23208" levels="1" name="奧羅德利爾控球壺精聰明伶俐">
 		<set name="target" val="TARGET_SELF" />
 		<set name="skillType" val="DUMMY" />
 		<set name="operateType" val="OP_ACTIVE" />
@@ -87,7 +87,7 @@
 			<player agathionId="1583" />
 		</cond>
 	</skill>
-	<skill id="23209" levels="1" name="Penalty Kick Agathion Cute Trick">
+	<skill id="23209" levels="1" name="十二碼罰球壺精聰明伶俐">
 		<set name="target" val="TARGET_SELF" />
 		<set name="skillType" val="DUMMY" />
 		<set name="operateType" val="OP_ACTIVE" />
@@ -97,36 +97,36 @@
 			<player agathionId="1584" />
 		</cond>
 	</skill>
-	<skill id="23210" levels="85" name="Aura Flare">
+	<skill id="23210" levels="85" name="精神爆發">
 		<set name="target" val="TARGET_NONE" />
 		<set name="skillType" val="NOTDONE" />
 		<set name="operateType" val="OP_PASSIVE" />
 		<set name="reuseDelay" val="1000" />
 	</skill>
-	<skill id="23211" levels="85" name="Prominence">
+	<skill id="23211" levels="85" name="風之爆裂">
 		<set name="target" val="TARGET_NONE" />
 		<set name="skillType" val="NOTDONE" />
 		<set name="operateType" val="OP_PASSIVE" />
 		<set name="reuseDelay" val="2000" />
 	</skill>
-	<skill id="23212" levels="85" name="Flame Strike">
+	<skill id="23212" levels="85" name="火焰狂襲">
 		<set name="target" val="TARGET_NONE" />
 		<set name="skillType" val="NOTDONE" />
 		<set name="operateType" val="OP_PASSIVE" />
 		<set name="reuseDelay" val="7000" />
 	</skill>
-	<skill id="23213" levels="2" name="Berserker Spirit">
+	<skill id="23213" levels="2" name="狂戰士魂">
 		<set name="target" val="TARGET_NONE" />
 		<set name="skillType" val="NOTDONE" />
 		<set name="operateType" val="OP_PASSIVE" />
 		<set name="reuseDelay" val="6000" />
 	</skill>
-	<skill id="23214" levels="1" name="Good/Bad of Life">
+	<skill id="23214" levels="1" name="生命古文">
 		<set name="target" val="TARGET_NONE" />
 		<set name="skillType" val="NOTDONE" />
 		<set name="operateType" val="OP_PASSIVE" />
 	</skill>
-	<skill id="23215" levels="1" name="Good/Bad of Mind">
+	<skill id="23215" levels="1" name="精神古文">
 		<set name="target" val="TARGET_NONE" />
 		<set name="skillType" val="NOTDONE" />
 		<set name="operateType" val="OP_PASSIVE" />

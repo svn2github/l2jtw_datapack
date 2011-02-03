@@ -1,11 +1,11 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <list>
-	<skill id="3400" levels="1" name="Traits Strengthen Earring">
+	<skill id="3400" levels="1" name="特性強化耳環">
 		<set name="target" val="TARGET_NONE" />
 		<set name="skillType" val="NOTDONE" />
 		<set name="operateType" val="OP_PASSIVE" />
 	</skill>
-	<skill id="3401" levels="1" name="Dynasty Resistance Necklace">
+	<skill id="3401" levels="1" name="特性抵抗項鍊">
 		<set name="target" val="TARGET_SELF" />
 		<set name="skillType" val="BUFF" />
 		<set name="operateType" val="OP_PASSIVE" />
@@ -13,7 +13,7 @@
 			<sub order="0x40" stat="derangementVuln" val="9" /> <!-- Fear Resistance +9 -->
 		</for>
 	</skill>
-	<skill id="3402" levels="1" name="Dynasty Resistance Ring">
+	<skill id="3402" levels="1" name="特性抵抗戒指">
 		<set name="target" val="TARGET_SELF" />
 		<set name="skillType" val="BUFF" />
 		<set name="operateType" val="OP_PASSIVE" />
@@ -21,7 +21,7 @@
 			<sub order="0x40" stat="derangementVuln" val="4" /> <!-- Fear Resistance +4 -->
 		</for>
 	</skill>
-	<skill id="3403" levels="1" name="Dynasty Resistance Earring">
+	<skill id="3403" levels="1" name="特性抵抗耳環">
 		<set name="target" val="TARGET_SELF" />
 		<set name="skillType" val="BUFF" />
 		<set name="operateType" val="OP_PASSIVE" />
@@ -29,7 +29,7 @@
 			<sub order="0x40" stat="derangementVuln" val="6" /> <!-- Fear Resistance +6 -->
 		</for>
 	</skill>
-	<skill id="3404" levels="1" name="Mystery Effect">
+	<skill id="3404" levels="1" name="疑問的效果">
 		<!-- Update by rocknow -->
 		<set name="operateType" val="OP_ACTIVE" />
 		<set name="skillType" val="BUFF" />
@@ -38,13 +38,13 @@
 			<effect name="BigHead" time="300" val="0" abnormal="bighead" stackOrder="300" stackType="big_head" />
 		</for>
 	</skill>
-	<skill id="3405" levels="1" name="Large Firecracker Effect">
+	<skill id="3405" levels="1" name="大煙火效果">
 		<set name="operateType" val="OP_ACTIVE" />
 		<set name="reuseDelay" val="1200000" />
 		<set name="skillType" val="DUMMY" />
 		<set name="target" val="TARGET_SELF" />
 	</skill>
-	<skill id="3406" levels="1" name="Weight Decrease Ring">
+	<skill id="3406" levels="1" name="重量減輕戒指">
 		<!-- Update by rocknow -->
 		<set name="target" val="TARGET_SELF" />
 		<set name="skillType" val="BUFF" />
@@ -53,7 +53,7 @@
 			<add order="0x40" stat="maxLoad" val="9000" />
 		</for>
 	</skill>
-	<skill id="3407" levels="1" name="Stealth Ring">
+	<skill id="3407" levels="1" name="靜音之步戒指">
 		<!-- Update by rocknow -->
 		<set name="mpConsume" val="7" />
 		<set name="target" val="TARGET_SELF" />
@@ -65,7 +65,7 @@
 			</effect>
 		</for>
 	</skill>
-	<skill id="3408" levels="1" name="Blessed Ring of Escape">
+	<skill id="3408" levels="1" name="祝福的返回戒指">
 		<!-- Update by rocknow -->
 		<set name="target" val="TARGET_SELF" />
 		<set name="hitTime" val="200" />
@@ -75,7 +75,7 @@
 		<set name="reuseDelay" val="300000" />
 		<set name="staticReuse" val="true" />
 	</skill>
-	<skill id="3409" levels="1" name="Blessed Ring of Resurrection">
+	<skill id="3409" levels="1" name="祝福的復活戒指">
 		<!-- Update by rocknow -->
 		<set name="power" val="100" />
 		<set name="target" val="TARGET_CORPSE_PLAYER" />
@@ -88,7 +88,7 @@
 		<set name="reuseDelay" val="300000" />
 		<set name="staticReuse" val="true" />
 	</skill>
-	<skill id="3410" levels="1" name="Blue Talisman of Reflection">
+	<skill id="3410" levels="1" name="青色護身符-傷害反射">
 		<set name="mpConsume" val="50" />
 		<set name="target" val="TARGET_SELF" />
 		<set name="skillType" val="BUFF" />
@@ -105,7 +105,7 @@
 			</effect>
 		</for>
 	</skill>
-	<skill id="3411" levels="1" name="Special Ability: Focus">
+	<skill id="3411" levels="1" name="偵測">
 		<set name="target" val="TARGET_SELF" />
 		<set name="skillType" val="BUFF" />
 		<set name="operateType" val="OP_PASSIVE" />
@@ -118,7 +118,7 @@
 			<mul order="0x30" stat="pvpMagicalDmg" val="1.05" />
 		</for>
 	</skill>
-	<skill id="3412" levels="1" name="Dynasty Breast Plate">
+	<skill id="3412" levels="1" name="王朝盔甲">
 		<set name="target" val="TARGET_SELF" />
 		<set name="skillType" val="BUFF" />
 		<set name="operateType" val="OP_PASSIVE" />
@@ -131,7 +131,7 @@
 			<add order="0x10" stat="cloak" val="1" /> <!-- Opens cloak slot -->
 		</for>
 	</skill>
-	<skill id="3413" levels="1" name="Dynasty Leather Armor">
+	<skill id="3413" levels="1" name="王朝皮甲">
 		<set name="target" val="TARGET_SELF" />
 		<set name="skillType" val="BUFF" />
 		<set name="operateType" val="OP_PASSIVE" />
@@ -145,7 +145,7 @@
 			<add order="0x10" stat="cloak" val="1" /> <!-- Opens cloak slot -->
 		</for>
 	</skill>
-	<skill id="3414" levels="1" name="Dynasty Leather Armor - Force Master">
+	<skill id="3414" levels="1" name="王朝皮甲">
 		<set name="target" val="TARGET_SELF" />
 		<set name="skillType" val="BUFF" />
 		<set name="operateType" val="OP_PASSIVE" />
@@ -160,7 +160,7 @@
 			<add order="0x10" stat="cloak" val="1" />
 		</for>
 	</skill>
-	<skill id="3415" levels="1" name="Dynasty Leather Armor - Weapon Master">
+	<skill id="3415" levels="1" name="王朝皮甲">
 		<set name="target" val="TARGET_SELF" />
 		<set name="skillType" val="BUFF" />
 		<set name="operateType" val="OP_PASSIVE" />
@@ -176,7 +176,7 @@
 			<add order="0x10" stat="cloak" val="1" />
 		</for>
 	</skill>
-	<skill id="3416" levels="1" name="Dynasty Tunic">
+	<skill id="3416" levels="1" name="王朝長袍">
 		<set name="target" val="TARGET_SELF" />
 		<set name="skillType" val="BUFF" />
 		<set name="operateType" val="OP_PASSIVE" />
@@ -189,7 +189,7 @@
 			<add order="0x10" stat="cloak" val="1" /> <!-- Opens cloak slot -->
 		</for>
 	</skill>
-	<skill id="3417" levels="1" name="Equipped with Shield">
+	<skill id="3417" levels="1" name="裝備盾牌">
 		<!-- Dynasty Shield Skill -->
 		<set name="target" val="TARGET_SELF" />
 		<set name="skillType" val="BUFF" />
@@ -198,7 +198,7 @@
 			<mul order="0x30" stat="sDef" val="1.05" />
 		</for>
 	</skill>
-	<skill id="3418" levels="1" name="Active Skill: Transform Pig">
+	<skill id="3418" levels="1" name="主動技能-豬變身">
 		<set name="target" val="TARGET_SELF" />
 		<set name="skillType" val="BUFF" />
 		<set name="reuseDelay" val="600000" />
@@ -211,12 +211,12 @@
 			<effect name="Transformation" time="300" val="0" stackOrder="1" stackType="transform" />
 		</for>
 	</skill>
-	<skill id="3419" levels="1" name="Magic Immunity">
+	<skill id="3419" levels="1" name="魔法免疫">
 		<set name="target" val="TARGET_NONE" />
 		<set name="skillType" val="NOTDONE" />
 		<set name="operateType" val="OP_PASSIVE" />
 	</skill>
-	<skill id="3420" levels="1" name="Dynasty Leather Armor - Summoner">
+	<skill id="3420" levels="1" name="王朝皮甲">
 		<set name="target" val="TARGET_SELF" />
 		<set name="skillType" val="BUFF" />
 		<set name="operateType" val="OP_PASSIVE" />
@@ -231,17 +231,17 @@
 			<add order="0x10" stat="cloak" val="1" />
 		</for>
 	</skill>
-	<skill id="3421" levels="1" name="Wolf Mount">
+	<skill id="3421" levels="1" name="騎乘狼">
 		<set name="target" val="TARGET_NONE" />
 		<set name="skillType" val="NOTDONE" />
 		<set name="operateType" val="OP_PASSIVE" />
 	</skill>
-	<skill id="3422" levels="1" name="Wolf Dismount">
+	<skill id="3422" levels="1" name="騎乘狼解除">
 		<set name="target" val="TARGET_NONE" />
 		<set name="skillType" val="NOTDONE" />
 		<set name="operateType" val="OP_PASSIVE" />
 	</skill>
-	<skill id="3423" levels="1" name="Little Angel Agathion - Summon (or Release)">
+	<skill id="3423" levels="1" name="小天使壺精">
 		<set name="target" val="TARGET_SELF" />
 		<set name="skillType" val="AGATHION" />
 		<set name="hitTime" val="3000" />
@@ -249,7 +249,7 @@
 		<set name="operateType" val="OP_ACTIVE" />
 		<set name="npcId" val="16031" />
 	</skill>
-	<skill id="3424" levels="1" name="Little Devil Agathion - Summon (or Release)">
+	<skill id="3424" levels="1" name="小惡魔壺精">
 		<set name="target" val="TARGET_SELF" />
 		<set name="skillType" val="AGATHION" />
 		<set name="hitTime" val="3000" />
@@ -257,7 +257,7 @@
 		<set name="operateType" val="OP_ACTIVE" />
 		<set name="npcId" val="16032" />
 	</skill>
-	<skill id="3425" levels="1" name="Rudolph Agathion - Summon (or Release)">
+	<skill id="3425" levels="1" name="魯道夫壺精">
 		<set name="target" val="TARGET_SELF" />
 		<set name="skillType" val="AGATHION" />
 		<set name="hitTime" val="3000" />
@@ -265,7 +265,7 @@
 		<set name="operateType" val="OP_ACTIVE" />
 		<set name="npcId" val="16033" />
 	</skill>
-	<skill id="3426" levels="1" name="Maximum Ability">
+	<skill id="3426" levels="1" name="臨界能力">
 		<!-- Rapier +4 Skill -->
 		<set name="target" val="TARGET_SELF" />
 		<set name="skillType" val="BUFF" />
@@ -276,7 +276,7 @@
 		<set name="activationChance" val="5" />
 		<set name="chanceType" val="ON_CRIT" />
 	</skill>
-	<skill id="3427" levels="1" name="Special Ability: Infinity Rapier">
+	<skill id="3427" levels="1" name="無限瞬閃">
 		<set name="target" val="TARGET_SELF" />
 		<set name="skillType" val="BUFF" />
 		<set name="operateType" val="OP_PASSIVE" />
@@ -297,7 +297,7 @@
 			<add order="0x40" stat="reflectDam" val="9" /> <!-- Reflect Damage 9% -->
 		</for>
 	</skill>
-	<skill id="3428" levels="1" name="Blue Talisman - Explosion">
+	<skill id="3428" levels="1" name="青色護身符-爆發">
 		<set name="mpConsume" val="50" />
 		<set name="target" val="TARGET_SELF" />
 		<set name="skillType" val="BUFF" />
@@ -314,7 +314,7 @@
 			</effect>
 		</for>
 	</skill>
-	<skill id="3429" levels="1" name="Red Talisman - Life Force">
+	<skill id="3429" levels="1" name="赤色護身符-生命力">
 		<set name="target" val="TARGET_SELF" />
 		<set name="skillType" val="HPMPHEAL_PERCENT" />
 		<set name="operateType" val="OP_ACTIVE" />
@@ -325,7 +325,7 @@
 		<set name="staticReuse" val="true" />
 		<set name="staticHitTime" val="true" />
 	</skill>
-	<skill id="3430" levels="1" name="White Talisman - Darkness">
+	<skill id="3430" levels="1" name="白色護身符-黑暗">
 		<set name="hitTime" val="4000" />
 		<set name="staticHitTime" val="true" />
 		<set name="mpConsume" val="50" />
@@ -341,7 +341,7 @@
 			</effect>
 		</for>
 	</skill>
-	<skill id="3431" levels="1" name="White Talisman - Storm">
+	<skill id="3431" levels="1" name="白色護身符-風暴">
 		<set name="hitTime" val="4000" />
 		<set name="staticHitTime" val="true" />
 		<set name="mpConsume" val="50" />
@@ -357,7 +357,7 @@
 			</effect>
 		</for>
 	</skill>
-	<skill id="3432" levels="1" name="White Talisman - Water">
+	<skill id="3432" levels="1" name="白色護身符-水">
 		<set name="hitTime" val="4000" />
 		<set name="staticHitTime" val="true" />
 		<set name="mpConsume" val="50" />
@@ -373,7 +373,7 @@
 			</effect>
 		</for>
 	</skill>
-	<skill id="3433" levels="1" name="White Talisman - Fire">
+	<skill id="3433" levels="1" name="白色護身符-火">
 		<set name="hitTime" val="4000" />
 		<set name="staticHitTime" val="true" />
 		<set name="mpConsume" val="50" />
@@ -389,7 +389,7 @@
 			</effect>
 		</for>
 	</skill>
-	<skill id="3434" levels="1" name="White Talisman - Earth">
+	<skill id="3434" levels="1" name="白色護身符- 大地">
 		<set name="hitTime" val="4000" />
 		<set name="staticHitTime" val="true" />
 		<set name="mpConsume" val="50" />
@@ -405,7 +405,7 @@
 			</effect>
 		</for>
 	</skill>
-	<skill id="3435" levels="1" name="White Talisman - Light">
+	<skill id="3435" levels="1" name="白色護身符-光">
 		<set name="hitTime" val="4000" />
 		<set name="staticHitTime" val="true" />
 		<set name="mpConsume" val="50" />
@@ -421,7 +421,7 @@
 			</effect>
 		</for>
 	</skill>
-	<skill id="3436" levels="1" name="Blue Talisman - Self destruction">
+	<skill id="3436" levels="1" name="青色護身符-自爆">
 		<!-- Update by pmq -->
 		<set name="mpConsume" val="50" />
 		<set name="hitTime" val="10000" />
@@ -435,7 +435,7 @@
 		<set name="skillType" val="MDAM" />
 		<set name="operateType" val="OP_ACTIVE" />
 	</skill>
-	<skill id="3437" levels="1" name="Blue Talisman - Magic Explosive Power">
+	<skill id="3437" levels="1" name="青色護身符-魔法爆發力">
 		<set name="mpConsume" val="50" />
 		<set name="target" val="TARGET_SELF" />
 		<set name="skillType" val="BUFF" />
@@ -452,7 +452,7 @@
 			</effect>
 		</for>
 	</skill>
-	<skill id="3438" levels="1" name="Blue Talisman - Great Healing">
+	<skill id="3438" levels="1" name="青色護身符-終極治癒">
 		<set name="mpConsume" val="50" />
 		<set name="hitTime" val="4000" />
 		<set name="reuseDelay" val="600000" />
@@ -467,7 +467,7 @@
 			</effect>
 		</for>
 	</skill>
-	<skill id="3439" levels="1" name="Silk Shirt">
+	<skill id="3439" levels="1" name="絲質襯衫">
 		<set name="target" val="TARGET_SELF" />
 		<set name="skillType" val="BUFF" />
 		<set name="operateType" val="OP_PASSIVE" />
@@ -475,7 +475,7 @@
 			<add order="0x40" stat="maxHp" val="118" />
 		</for>
 	</skill>
-	<skill id="3440" levels="1" name="Silk Shirt">
+	<skill id="3440" levels="1" name="絲質襯衫">
 		<set name="target" val="TARGET_SELF" />
 		<set name="skillType" val="BUFF" />
 		<set name="operateType" val="OP_PASSIVE" />
@@ -483,7 +483,7 @@
 			<add order="0x40" stat="maxMp" val="51" />
 		</for>
 	</skill>
-	<skill id="3441" levels="1" name="Silk Shirt">
+	<skill id="3441" levels="1" name="絲質襯衫">
 		<set name="target" val="TARGET_SELF" />
 		<set name="skillType" val="BUFF" />
 		<set name="operateType" val="OP_PASSIVE" />
@@ -491,7 +491,7 @@
 			<add order="0x40" stat="maxCp" val="354" />
 		</for>
 	</skill>
-	<skill id="3442" levels="1" name="Silk Shirt">
+	<skill id="3442" levels="1" name="絲質襯衫">
 		<set name="target" val="TARGET_SELF" />
 		<set name="skillType" val="BUFF" />
 		<set name="operateType" val="OP_PASSIVE" />
@@ -500,7 +500,7 @@
 			<add order="0x40" stat="maxMp" val="26" />
 		</for>
 	</skill>
-	<skill id="3443" levels="1" name="Silk Shirt">
+	<skill id="3443" levels="1" name="絲質襯衫">
 		<set name="target" val="TARGET_SELF" />
 		<set name="skillType" val="BUFF" />
 		<set name="operateType" val="OP_PASSIVE" />
@@ -509,7 +509,7 @@
 			<add order="0x40" stat="maxCp" val="117" />
 		</for>
 	</skill>
-	<skill id="3444" levels="1" name="Silk Shirt">
+	<skill id="3444" levels="1" name="絲質襯衫">
 		<set name="target" val="TARGET_SELF" />
 		<set name="skillType" val="BUFF" />
 		<set name="operateType" val="OP_PASSIVE" />
@@ -518,7 +518,7 @@
 			<add order="0x40" stat="maxCp" val="117" />
 		</for>
 	</skill>
-	<skill id="3445" levels="1" name="Thin Leather Shirt">
+	<skill id="3445" levels="1" name="薄皮質襯衫">
 		<set name="target" val="TARGET_SELF" />
 		<set name="skillType" val="BUFF" />
 		<set name="operateType" val="OP_PASSIVE" />
@@ -526,7 +526,7 @@
 			<add order="0x40" stat="maxHp" val="147" />
 		</for>
 	</skill>
-	<skill id="3446" levels="1" name="Thin Leather Shirt">
+	<skill id="3446" levels="1" name="薄皮質襯衫">
 		<set name="target" val="TARGET_SELF" />
 		<set name="skillType" val="BUFF" />
 		<set name="operateType" val="OP_PASSIVE" />
@@ -534,7 +534,7 @@
 			<add order="0x40" stat="maxMp" val="72" />
 		</for>
 	</skill>
-	<skill id="3447" levels="1" name="Thin Leather Shirt">
+	<skill id="3447" levels="1" name="薄皮質襯衫">
 		<set name="target" val="TARGET_SELF" />
 		<set name="skillType" val="BUFF" />
 		<set name="operateType" val="OP_PASSIVE" />
@@ -542,7 +542,7 @@
 			<add order="0x40" stat="maxCp" val="441" />
 		</for>
 	</skill>
-	<skill id="3448" levels="1" name="Thin Leather Shirt">
+	<skill id="3448" levels="1" name="薄皮質襯衫">
 		<set name="target" val="TARGET_SELF" />
 		<set name="skillType" val="BUFF" />
 		<set name="operateType" val="OP_PASSIVE" />
@@ -551,7 +551,7 @@
 			<add order="0x40" stat="maxMp" val="36" />
 		</for>
 	</skill>
-	<skill id="3449" levels="1" name="Thin Leather Shirt">
+	<skill id="3449" levels="1" name="薄皮質襯衫">
 		<set name="target" val="TARGET_SELF" />
 		<set name="skillType" val="BUFF" />
 		<set name="operateType" val="OP_PASSIVE" />
@@ -560,7 +560,7 @@
 			<add order="0x40" stat="maxCp" val="222" />
 		</for>
 	</skill>
-	<skill id="3450" levels="1" name="Thin Leather Shirt">
+	<skill id="3450" levels="1" name="薄皮質襯衫">
 		<set name="target" val="TARGET_SELF" />
 		<set name="skillType" val="BUFF" />
 		<set name="operateType" val="OP_PASSIVE" />
@@ -569,7 +569,7 @@
 			<add order="0x40" stat="maxCp" val="222" />
 		</for>
 	</skill>
-	<skill id="3451" levels="1" name="Scale Shirt">
+	<skill id="3451" levels="1" name="鱗片襯衫">
 		<set name="target" val="TARGET_SELF" />
 		<set name="skillType" val="BUFF" />
 		<set name="operateType" val="OP_PASSIVE" />
@@ -577,7 +577,7 @@
 			<add order="0x40" stat="maxHp" val="172" />
 		</for>
 	</skill>
-	<skill id="3452" levels="1" name="Scale Shirt">
+	<skill id="3452" levels="1" name="鱗片襯衫">
 		<set name="target" val="TARGET_SELF" />
 		<set name="skillType" val="BUFF" />
 		<set name="operateType" val="OP_PASSIVE" />
@@ -585,7 +585,7 @@
 			<add order="0x40" stat="maxMp" val="85" />
 		</for>
 	</skill>
-	<skill id="3453" levels="1" name="Scale Shirt">
+	<skill id="3453" levels="1" name="鱗片襯衫">
 		<set name="target" val="TARGET_SELF" />
 		<set name="skillType" val="BUFF" />
 		<set name="operateType" val="OP_PASSIVE" />
@@ -593,7 +593,7 @@
 			<add order="0x40" stat="maxCp" val="516" />
 		</for>
 	</skill>
-	<skill id="3454" levels="1" name="Scale Shirt">
+	<skill id="3454" levels="1" name="鱗片襯衫">
 		<set name="target" val="TARGET_SELF" />
 		<set name="skillType" val="BUFF" />
 		<set name="operateType" val="OP_PASSIVE" />
@@ -602,7 +602,7 @@
 			<add order="0x40" stat="maxMp" val="43" />
 		</for>
 	</skill>
-	<skill id="3455" levels="1" name="Scale Shirt">
+	<skill id="3455" levels="1" name="鱗片襯衫">
 		<set name="target" val="TARGET_SELF" />
 		<set name="skillType" val="BUFF" />
 		<set name="operateType" val="OP_PASSIVE" />
@@ -611,7 +611,7 @@
 			<add order="0x40" stat="maxCp" val="258" />
 		</for>
 	</skill>
-	<skill id="3456" levels="1" name="Scale Shirt">
+	<skill id="3456" levels="1" name="鱗片襯衫">
 		<set name="target" val="TARGET_SELF" />
 		<set name="skillType" val="BUFF" />
 		<set name="operateType" val="OP_PASSIVE" />
@@ -620,7 +620,7 @@
 			<add order="0x40" stat="maxCp" val="258" />
 		</for>
 	</skill>
-	<skill id="3457" levels="1" name="Mithril Shirt">
+	<skill id="3457" levels="1" name="米索莉襯衫">
 		<set name="target" val="TARGET_SELF" />
 		<set name="skillType" val="BUFF" />
 		<set name="operateType" val="OP_PASSIVE" />
@@ -628,7 +628,7 @@
 			<add order="0x40" stat="maxHp" val="224" />
 		</for>
 	</skill>
-	<skill id="3458" levels="1" name="Mithril Shirt">
+	<skill id="3458" levels="1" name="米索莉襯衫">
 		<set name="target" val="TARGET_SELF" />
 		<set name="skillType" val="BUFF" />
 		<set name="operateType" val="OP_PASSIVE" />
@@ -636,7 +636,7 @@
 			<add order="0x40" stat="maxMp" val="111" />
 		</for>
 	</skill>
-	<skill id="3459" levels="1" name="Mithril Shirt">
+	<skill id="3459" levels="1" name="米索莉襯衫">
 		<set name="target" val="TARGET_SELF" />
 		<set name="skillType" val="BUFF" />
 		<set name="operateType" val="OP_PASSIVE" />
@@ -644,7 +644,7 @@
 			<add order="0x40" stat="maxCp" val="672" />
 		</for>
 	</skill>
-	<skill id="3460" levels="1" name="Mithril Shirt">
+	<skill id="3460" levels="1" name="米索莉襯衫">
 		<set name="target" val="TARGET_SELF" />
 		<set name="skillType" val="BUFF" />
 		<set name="operateType" val="OP_PASSIVE" />
@@ -653,7 +653,7 @@
 			<add order="0x40" stat="maxMp" val="56" />
 		</for>
 	</skill>
-	<skill id="3461" levels="1" name="Mithril Shirt">
+	<skill id="3461" levels="1" name="米索莉襯衫">
 		<set name="target" val="TARGET_SELF" />
 		<set name="skillType" val="BUFF" />
 		<set name="operateType" val="OP_PASSIVE" />
@@ -662,7 +662,7 @@
 			<add order="0x40" stat="maxCp" val="336" />
 		</for>
 	</skill>
-	<skill id="3462" levels="1" name="Mithril Shirt">
+	<skill id="3462" levels="1" name="米索莉襯衫">
 		<set name="target" val="TARGET_SELF" />
 		<set name="skillType" val="BUFF" />
 		<set name="operateType" val="OP_PASSIVE" />
@@ -671,7 +671,7 @@
 			<add order="0x40" stat="maxCp" val="336" />
 		</for>
 	</skill>
-	<skill id="3463" levels="1" name="Striped Silk Shirt">
+	<skill id="3463" levels="1" name="條紋絲質襯衫">
 		<set name="target" val="TARGET_SELF" />
 		<set name="skillType" val="BUFF" />
 		<set name="operateType" val="OP_PASSIVE" />
@@ -679,7 +679,7 @@
 			<add order="0x40" stat="maxHp" val="135" />
 		</for>
 	</skill>
-	<skill id="3464" levels="1" name="Striped Silk Shirt">
+	<skill id="3464" levels="1" name="條紋絲質襯衫">
 		<set name="target" val="TARGET_SELF" />
 		<set name="skillType" val="BUFF" />
 		<set name="operateType" val="OP_PASSIVE" />
@@ -687,7 +687,7 @@
 			<add order="0x40" stat="maxMp" val="66" />
 		</for>
 	</skill>
-	<skill id="3465" levels="1" name="Striped Silk Shirt">
+	<skill id="3465" levels="1" name="條紋絲質襯衫">
 		<set name="target" val="TARGET_SELF" />
 		<set name="skillType" val="BUFF" />
 		<set name="operateType" val="OP_PASSIVE" />
@@ -695,7 +695,7 @@
 			<add order="0x40" stat="maxCp" val="405" />
 		</for>
 	</skill>
-	<skill id="3466" levels="1" name="Striped Silk Shirt">
+	<skill id="3466" levels="1" name="條紋絲質襯衫">
 		<set name="target" val="TARGET_SELF" />
 		<set name="skillType" val="BUFF" />
 		<set name="operateType" val="OP_PASSIVE" />
@@ -704,7 +704,7 @@
 			<add order="0x40" stat="maxMp" val="33" />
 		</for>
 	</skill>
-	<skill id="3467" levels="1" name="Striped Silk Shirt">
+	<skill id="3467" levels="1" name="條紋絲質襯衫">
 		<set name="target" val="TARGET_SELF" />
 		<set name="skillType" val="BUFF" />
 		<set name="operateType" val="OP_PASSIVE" />
@@ -713,7 +713,7 @@
 			<add order="0x40" stat="maxCp" val="203" />
 		</for>
 	</skill>
-	<skill id="3468" levels="1" name="Striped Silk Shirt">
+	<skill id="3468" levels="1" name="條紋絲質襯衫">
 		<set name="target" val="TARGET_SELF" />
 		<set name="skillType" val="BUFF" />
 		<set name="operateType" val="OP_PASSIVE" />
@@ -722,7 +722,7 @@
 			<add order="0x40" stat="maxCp" val="203" />
 		</for>
 	</skill>
-	<skill id="3469" levels="1" name="Thin Stripe Leather Shirt">
+	<skill id="3469" levels="1" name="薄條紋皮質襯衫">
 		<set name="target" val="TARGET_SELF" />
 		<set name="skillType" val="BUFF" />
 		<set name="operateType" val="OP_PASSIVE" />
@@ -730,7 +730,7 @@
 			<add order="0x40" stat="maxHp" val="160" />
 		</for>
 	</skill>
-	<skill id="3470" levels="1" name="Thin Stripe Leather Shirt">
+	<skill id="3470" levels="1" name="薄條紋皮質襯衫">
 		<set name="target" val="TARGET_SELF" />
 		<set name="skillType" val="BUFF" />
 		<set name="operateType" val="OP_PASSIVE" />
@@ -738,7 +738,7 @@
 			<add order="0x40" stat="maxMp" val="78" />
 		</for>
 	</skill>
-	<skill id="3471" levels="1" name="Thin Stripe Leather Shirt">
+	<skill id="3471" levels="1" name="薄條紋皮質襯衫">
 		<set name="target" val="TARGET_SELF" />
 		<set name="skillType" val="BUFF" />
 		<set name="operateType" val="OP_PASSIVE" />
@@ -746,7 +746,7 @@
 			<add order="0x40" stat="maxCp" val="480" />
 		</for>
 	</skill>
-	<skill id="3472" levels="1" name="Thin Stripe Leather Shirt">
+	<skill id="3472" levels="1" name="薄條紋皮質襯衫">
 		<set name="target" val="TARGET_SELF" />
 		<set name="skillType" val="BUFF" />
 		<set name="operateType" val="OP_PASSIVE" />
@@ -755,7 +755,7 @@
 			<add order="0x40" stat="maxMp" val="39" />
 		</for>
 	</skill>
-	<skill id="3473" levels="1" name="Thin Stripe Leather Shirt">
+	<skill id="3473" levels="1" name="薄條紋皮質襯衫">
 		<set name="target" val="TARGET_SELF" />
 		<set name="skillType" val="BUFF" />
 		<set name="operateType" val="OP_PASSIVE" />
@@ -764,7 +764,7 @@
 			<add order="0x40" stat="maxCp" val="240" />
 		</for>
 	</skill>
-	<skill id="3474" levels="1" name="Thin Stripe Leather Shirt">
+	<skill id="3474" levels="1" name="薄條紋皮質襯衫">
 		<set name="target" val="TARGET_SELF" />
 		<set name="skillType" val="BUFF" />
 		<set name="operateType" val="OP_PASSIVE" />
@@ -773,7 +773,7 @@
 			<add order="0x40" stat="maxCp" val="240" />
 		</for>
 	</skill>
-	<skill id="3475" levels="1" name="Striped Scale Shirt">
+	<skill id="3475" levels="1" name="條紋鱗片襯衫">
 		<set name="target" val="TARGET_SELF" />
 		<set name="skillType" val="BUFF" />
 		<set name="operateType" val="OP_PASSIVE" />
@@ -781,7 +781,7 @@
 			<add order="0x40" stat="maxHp" val="186" />
 		</for>
 	</skill>
-	<skill id="3476" levels="1" name="Striped Scale Shirt">
+	<skill id="3476" levels="1" name="條紋鱗片襯衫">
 		<set name="target" val="TARGET_SELF" />
 		<set name="skillType" val="BUFF" />
 		<set name="operateType" val="OP_PASSIVE" />
@@ -789,7 +789,7 @@
 			<add order="0x40" stat="maxMp" val="92" />
 		</for>
 	</skill>
-	<skill id="3477" levels="1" name="Striped Scale Shirt">
+	<skill id="3477" levels="1" name="條紋鱗片襯衫">
 		<set name="target" val="TARGET_SELF" />
 		<set name="skillType" val="BUFF" />
 		<set name="operateType" val="OP_PASSIVE" />
@@ -797,7 +797,7 @@
 			<add order="0x40" stat="maxCp" val="564" />
 		</for>
 	</skill>
-	<skill id="3478" levels="1" name="Striped Scale Shirt">
+	<skill id="3478" levels="1" name="條紋鱗片襯衫">
 		<set name="target" val="TARGET_SELF" />
 		<set name="skillType" val="BUFF" />
 		<set name="operateType" val="OP_PASSIVE" />
@@ -806,7 +806,7 @@
 			<add order="0x40" stat="maxMp" val="46" />
 		</for>
 	</skill>
-	<skill id="3479" levels="1" name="Striped Scale Shirt">
+	<skill id="3479" levels="1" name="條紋鱗片襯衫">
 		<set name="target" val="TARGET_SELF" />
 		<set name="skillType" val="BUFF" />
 		<set name="operateType" val="OP_PASSIVE" />
@@ -815,7 +815,7 @@
 			<add order="0x40" stat="maxCp" val="282" />
 		</for>
 	</skill>
-	<skill id="3480" levels="1" name="Striped Scale Shirt">
+	<skill id="3480" levels="1" name="條紋鱗片襯衫">
 		<set name="target" val="TARGET_SELF" />
 		<set name="skillType" val="BUFF" />
 		<set name="operateType" val="OP_PASSIVE" />
@@ -824,7 +824,7 @@
 			<add order="0x40" stat="maxCp" val="282" />
 		</for>
 	</skill>
-	<skill id="3481" levels="1" name="Striped Mithril Shirt">
+	<skill id="3481" levels="1" name="條紋米索莉襯衫">
 		<set name="target" val="TARGET_SELF" />
 		<set name="skillType" val="BUFF" />
 		<set name="operateType" val="OP_PASSIVE" />
@@ -832,7 +832,7 @@
 			<add order="0x40" stat="maxHp" val="246" />
 		</for>
 	</skill>
-	<skill id="3482" levels="1" name="Striped Mithril Shirt">
+	<skill id="3482" levels="1" name="條紋米索莉襯衫">
 		<set name="target" val="TARGET_SELF" />
 		<set name="skillType" val="BUFF" />
 		<set name="operateType" val="OP_PASSIVE" />
@@ -840,7 +840,7 @@
 			<add order="0x40" stat="maxMp" val="122" />
 		</for>
 	</skill>
-	<skill id="3483" levels="1" name="Striped Mithril Shirt">
+	<skill id="3483" levels="1" name="條紋米索莉襯衫">
 		<set name="target" val="TARGET_SELF" />
 		<set name="skillType" val="BUFF" />
 		<set name="operateType" val="OP_PASSIVE" />
@@ -848,7 +848,7 @@
 			<add order="0x40" stat="maxCp" val="744" />
 		</for>
 	</skill>
-	<skill id="3484" levels="1" name="Striped Mithril Shirt">
+	<skill id="3484" levels="1" name="條紋米索莉襯衫">
 		<set name="target" val="TARGET_SELF" />
 		<set name="skillType" val="BUFF" />
 		<set name="operateType" val="OP_PASSIVE" />
@@ -857,7 +857,7 @@
 			<add order="0x40" stat="maxMp" val="61" />
 		</for>
 	</skill>
-	<skill id="3485" levels="1" name="Striped Mithril Shirt">
+	<skill id="3485" levels="1" name="條紋米索莉襯衫">
 		<set name="target" val="TARGET_SELF" />
 		<set name="skillType" val="BUFF" />
 		<set name="operateType" val="OP_PASSIVE" />
@@ -866,7 +866,7 @@
 			<add order="0x40" stat="maxCp" val="372" />
 		</for>
 	</skill>
-	<skill id="3486" levels="1" name="Striped Mithril Shirt">
+	<skill id="3486" levels="1" name="條紋米索莉襯衫">
 		<set name="target" val="TARGET_SELF" />
 		<set name="skillType" val="BUFF" />
 		<set name="operateType" val="OP_PASSIVE" />
@@ -875,7 +875,7 @@
 			<add order="0x40" stat="maxCp" val="372" />
 		</for>
 	</skill>
-	<skill id="3487" levels="1" name="Blue Talisman of Power">
+	<skill id="3487" levels="1" name="青色護身符-攻擊力">
 		<set name="magicLvl" val="55" />
 		<set name="mpInitialConsume" val="10" />
 		<set name="mpConsume" val="40" />
@@ -892,7 +892,7 @@
 			</effect>
 		</for>
 	</skill>
-	<skill id="3488" levels="1" name="Blue Talisman of Protection">
+	<skill id="3488" levels="1" name="青色護身符-盾牌防禦">
 		<set name="magicLvl" val="55" />
 		<set name="mpInitialConsume" val="10" />
 		<set name="mpConsume" val="40" />
@@ -909,7 +909,7 @@
 			</effect>
 		</for>
 	</skill>
-	<skill id="3489" levels="1" name="Yellow Talisman of Arcane Power">
+	<skill id="3489" levels="1" name="黃色護身符-魔法力">
 		<set name="magicLvl" val="55" />
 		<set name="target" val="TARGET_SELF" />
 		<set name="skillType" val="BUFF" />
@@ -918,7 +918,7 @@
 			<add order="0x40" stat="mAtk" val="11.7" />
 		</for>
 	</skill>
-	<skill id="3490" levels="1" name="Yellow Talisman of Defense">
+	<skill id="3490" levels="1" name="黃色護身符-防禦力">
 		<set name="magicLvl" val="55" />
 		<set name="target" val="TARGET_SELF" />
 		<set name="skillType" val="BUFF" />
@@ -927,7 +927,7 @@
 			<add order="0x40" stat="pDef" val="18.3" />
 		</for>
 	</skill>
-	<skill id="3491" levels="1" name="Yellow Talisman of Evasion">
+	<skill id="3491" levels="1" name="黃色護身符-迴避">
 		<set name="magicLvl" val="55" />
 		<set name="target" val="TARGET_SELF" />
 		<set name="skillType" val="BUFF" />
@@ -936,7 +936,7 @@
 			<add order="0x40" stat="rEvas" val="1.1" />
 		</for>
 	</skill>
-	<skill id="3492" levels="1" name="Yellow Talisman of Speed">
+	<skill id="3492" levels="1" name="黃色護身符-移動速度">
 		<set name="magicLvl" val="55" />
 		<set name="target" val="TARGET_SELF" />
 		<set name="skillType" val="BUFF" />
@@ -945,7 +945,7 @@
 			<add order="0x40" stat="runSpd" val="3" />
 		</for>
 	</skill>
-	<skill id="3493" levels="1" name="Yellow Talisman of Regeneration">
+	<skill id="3493" levels="1" name="黃色護身符-HP恢復量">
 		<set name="magicLvl" val="55" />
 		<set name="target" val="TARGET_SELF" />
 		<set name="skillType" val="BUFF" />
@@ -954,7 +954,7 @@
 			<mul order="0x30" stat="regHp" val="1.01" />
 		</for>
 	</skill>
-	<skill id="3494" levels="1" name="Yellow Talisman of CP Regeneration">
+	<skill id="3494" levels="1" name="黃色護身符-CP恢復量">
 		<set name="magicLvl" val="55" />
 		<set name="target" val="TARGET_SELF" />
 		<set name="skillType" val="BUFF" />
@@ -963,7 +963,7 @@
 			<mul order="0x30" stat="regCp" val="1.01" />
 		</for>
 	</skill>
-	<skill id="3495" levels="1" name="Yellow Talisman of Healing">
+	<skill id="3495" levels="1" name="黃色護身符-治療威力">
 		<set name="magicLvl" val="55" />
 		<set name="target" val="TARGET_SELF" />
 		<set name="skillType" val="BUFF" />
@@ -972,7 +972,7 @@
 			<add order="0x40" stat="gainHp" val="8" />
 		</for>
 	</skill>
-	<skill id="3496" levels="1" name="Red Talisman of Recovery">
+	<skill id="3496" levels="1" name="赤色護身符-HP/CP恢復">
 		<set name="magicLvl" val="55" />
 		<set name="target" val="TARGET_SELF" />
 		<set name="skillType" val="HEAL" />
@@ -987,7 +987,7 @@
 			<effect name="CombatPointHealOverTime" val="100" />
 		</for>
 	</skill>
-	<skill id="3497" levels="1" name="Yellow Talisman of MP Regeneration">
+	<skill id="3497" levels="1" name="黃色護身符-MP恢復量">
 		<set name="magicLvl" val="55" />
 		<set name="target" val="TARGET_SELF" />
 		<set name="skillType" val="BUFF" />
@@ -996,7 +996,7 @@
 			<mul order="0x30" stat="regMp" val="1.01" />
 		</for>
 	</skill>
-	<skill id="3498" levels="1" name="Special Ability: Light">
+	<skill id="3498" levels="1" name="輕裝">
 		<!-- Confirmed CT2.5 -->
 		<set name="magicLvl" val="46" />
 		<set name="target" val="TARGET_SELF" />
@@ -1006,7 +1006,7 @@
 			<mul order="0x30" stat="maxLoad" val="1.2" />
 		</for>
 	</skill>
-	<skill id="3499" levels="1" name="Transform Dispel">
+	<skill id="3499" levels="1" name="變身 消除">
 		<set name="target" val="TARGET_NONE" />
 		<set name="skillType" val="NOTDONE" />
 		<set name="operateType" val="OP_PASSIVE" />

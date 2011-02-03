@@ -63,7 +63,7 @@ public class SummonMinions extends L2AttackableAIScript
 		"各位！出來吧！",
 		"兄弟們啊，消滅敵人吧！",
 		"黑暗的軍勢啊，跟隨我吧！",
-		 "出來！黑暗的孩子們！"
+		"出來！黑暗的孩子們！"
 	};
 	
 	public SummonMinions(int questId, String name, String descr)

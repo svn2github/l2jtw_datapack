@@ -40,7 +40,7 @@
 		<table name="#mpConsume"> 17 28 38 49 63 78 92 97 102 105 108 109 </table>
 		<set name="mpConsume" val="#mpConsume" />
 	</skill>
-	<skill id="4003" levels="1" name="Golem Body">
+	<skill id="4003" levels="1" name="高崙之體">
 		<!-- Freya retail confirmed -->
 		<set name="magicLvl" val="1" />
 		<set name="target" val="TARGET_SELF" />
@@ -53,7 +53,7 @@
 			<mul order="0x30" stat="bluntWpnVuln" val="1.1" />
 		</for>
 	</skill>
-	<skill id="4004" levels="1" name="Fragile Skull">
+	<skill id="4004" levels="1" name="柔軟的骸骨">
 		<!-- Freya retail confirmed -->
 		<set name="magicLvl" val="1" />
 		<set name="target" val="TARGET_SELF" />
@@ -63,7 +63,7 @@
 			<mul order="0x30" stat="bluntWpnVuln" val="1.1" />
 		</for>
 	</skill>
-	<skill id="4005" levels="1" name="Floating Target">
+	<skill id="4005" levels="1" name="飄移的目標">
 		<!-- Freya retail confirmed -->
 		<set name="magicLvl" val="1" />
 		<set name="target" val="TARGET_SELF" />
@@ -74,7 +74,7 @@
 			<mul order="0x30" stat="bowWpnVuln" val="1.1" />
 		</for>
 	</skill>
-	<skill id="4006" levels="1" name="Blazing Log">
+	<skill id="4006" levels="1" name="燃燒的木彫">
 		<!-- Freya retail confirmed -->
 		<set name="magicLvl" val="1" />
 		<set name="target" val="TARGET_SELF" />
@@ -85,7 +85,7 @@
 			<sub order="0x40" stat="poisonVuln" val="50" />
 		</for>
 	</skill>
-	<skill id="4007" levels="1" name="Immortal Life">
+	<skill id="4007" levels="1" name="不死">
 		<!-- Freya retail confirmed -->
 		<set name="magicLvl" val="1" />
 		<set name="target" val="TARGET_SELF" />
@@ -96,7 +96,7 @@
 			<sub order="0x40" stat="darkPower" val="20" />
 		</for>
 	</skill>
-	<skill id="4008" levels="1" name="Insect Skin">
+	<skill id="4008" levels="1" name="昆蟲甲殼">
 		<!-- Freya retail confirmed -->
 		<set name="magicLvl" val="1" />
 		<set name="target" val="TARGET_SELF" />
@@ -106,63 +106,63 @@
 			<sub order="0x40" stat="fireRes" val="15" />
 		</for>
 	</skill>
-	<skill id="4009" levels="6" name="Resist Fire">
+	<skill id="4009" levels="6" name="火屬性抵抗">
 		<!-- Freya retail confirmed -->
 		<set name="target" val="TARGET_SELF" />
 		<set name="skillType" val="BUFF" />
 		<set name="isMagic" val="true" />
 		<set name="operateType" val="OP_PASSIVE" />
 	</skill>
-	<skill id="4010" levels="6" name="Resist Water">
+	<skill id="4010" levels="6" name="水屬性抵抗">
 		<!-- Freya retail confirmed -->
 		<set name="target" val="TARGET_SELF" />
 		<set name="skillType" val="BUFF" />
 		<set name="isMagic" val="true" />
 		<set name="operateType" val="OP_PASSIVE" />
 	</skill>
-	<skill id="4011" levels="6" name="Resist Wind">
+	<skill id="4011" levels="6" name="風屬性抵抗">
 		<!-- Freya retail confirmed -->
 		<set name="target" val="TARGET_SELF" />
 		<set name="skillType" val="BUFF" />
 		<set name="isMagic" val="true" />
 		<set name="operateType" val="OP_PASSIVE" />
 	</skill>
-	<skill id="4012" levels="1" name="Resist Earth">
+	<skill id="4012" levels="1" name="地屬性抵抗">
 		<!-- Freya retail confirmed -->
 		<set name="target" val="TARGET_SELF" />
 		<set name="skillType" val="BUFF" />
 		<set name="isMagic" val="true" />
 		<set name="operateType" val="OP_PASSIVE" />
 	</skill>
-	<skill id="4013" levels="1" name="Resistance To Fire, Vulnerable To Water">
+	<skill id="4013" levels="1" name="抗火畏水">
 		<!-- Freya retail confirmed -->
 		<set name="target" val="TARGET_SELF" />
 		<set name="skillType" val="BUFF" />
 		<set name="isMagic" val="true" />
 		<set name="operateType" val="OP_PASSIVE" />
 	</skill>
-	<skill id="4014" levels="1" name="Resistance To Water, Vulnerable To Fire">
+	<skill id="4014" levels="1" name="抗水畏火">
 		<!-- Freya retail confirmed -->
 		<set name="target" val="TARGET_SELF" />
 		<set name="skillType" val="BUFF" />
 		<set name="isMagic" val="true" />
 		<set name="operateType" val="OP_PASSIVE" />
 	</skill>
-	<skill id="4015" levels="1" name="Resistance To Wind, Vulnerable To Earth">
+	<skill id="4015" levels="1" name="抗風畏地">
 		<!-- Freya retail confirmed -->
 		<set name="target" val="TARGET_SELF" />
 		<set name="skillType" val="BUFF" />
 		<set name="isMagic" val="true" />
 		<set name="operateType" val="OP_PASSIVE" />
 	</skill>
-	<skill id="4016" levels="1" name="Resistance To Earth, Vulnerable To Wind">
+	<skill id="4016" levels="1" name="抗地畏風">
 		<!-- Freya retail confirmed -->
 		<set name="target" val="TARGET_SELF" />
 		<set name="skillType" val="BUFF" />
 		<set name="isMagic" val="true" />
 		<set name="operateType" val="OP_PASSIVE" />
 	</skill>
-	<skill id="4017" levels="1" name="Queen Ant Brandish">
+	<skill id="4017" levels="1" name="巨蟻女王的揮舞">
 		<!-- Confirmed CT2.5 -->
 		<!-- Queen Ant Skills -->
 		<set name="coolTime" val="500" />
@@ -174,7 +174,7 @@
 		<set name="skillType" val="PDAM" />
 		<set name="target" val="TARGET_AURA" />
 	</skill>
-	<skill id="4018" levels="1" name="Decrease Speed">
+	<skill id="4018" levels="1" name="移動速度下降">
 		<!-- Confirmed CT2.5 -->
 		<!-- Queen Ant Skills -->
 		<set name="castRange" val="500" />
@@ -195,7 +195,7 @@
 			</effect>
 		</for>
 	</skill>
-	<skill id="4019" levels="1" name="Decrease Speed">
+	<skill id="4019" levels="1" name="移動速度下降">
 		<!-- Confirmed CT2.5 -->
 		<!-- Queen Ant Skills -->
 		<set name="castRange" val="1000" />
@@ -218,7 +218,7 @@
 			</effect>
 		</for>
 	</skill>
-	<skill id="4020" levels="1" name="Heal Queen Ant1">
+	<skill id="4020" levels="1" name="巨蟻女王治癒1">
 		<!-- Confirmed CT2.5 -->
 		<set name="aggroPoints" val="100" />
 		<set name="castRange" val="600" />
@@ -231,7 +231,7 @@
 		<set name="skillType" val="HEAL" />
 		<set name="target" val="TARGET_ONE" />
 	</skill>
-	<skill id="4021" levels="1" name="Queen Ant">
+	<skill id="4021" levels="1" name="巨蟻女王">
 		<!-- Confirmed CT2.5 -->
 		<!-- Queen Ant Skills -->
 		<set name="magicLvl" val="40" />
@@ -242,7 +242,7 @@
 			<mul order="0x30" stat="bowWpnVuln" val="0.2" />
 		</for>
 	</skill>
-	<skill id="4022" levels="1" name="Body Of Nurse Ant">
+	<skill id="4022" levels="1" name="護衛螞蟻之體">
 		<!-- Confirmer CT2.5 -->
 		<!-- This Skill Is Only For Description In The Client -->
 		<set name="magicLvl" val="35" />
@@ -250,7 +250,7 @@
 		<set name="skillType" val="PASSIVE" />
 		<set name="target" val="TARGET_SELF" />
 	</skill>
-	<skill id="4023" levels="1" name="Body Of Royal Guard Ant">
+	<skill id="4023" levels="1" name="螞蟻侍衛之體">
 		<!-- Confirmer CT2.5 -->
 		<!-- This Skill Is Only For Description In The Client -->
 		<set name="magicLvl" val="35" />
@@ -258,7 +258,7 @@
 		<set name="skillType" val="PASSIVE" />
 		<set name="target" val="TARGET_SELF" />
 	</skill>
-	<skill id="4024" levels="1" name="Heal Queen Ant2">
+	<skill id="4024" levels="1" name="巨蟻女王治癒 2">
 		<!-- Confirmed CT2.5 -->
 		<set name="aggroPoints" val="100" />
 		<set name="castRange" val="600" />
@@ -271,7 +271,7 @@
 		<set name="skillType" val="HEAL" />
 		<set name="target" val="TARGET_ONE" />
 	</skill>
-	<skill id="4025" levels="12" name="Master Recharge">
+	<skill id="4025" levels="12" name="主人回復術">
 		<!-- Freya retail confirmed -->
 		<table name="#power"> 23 38 52 70 90 110 129 138 144 149 153 155 </table>
 		<table name="#aggro"> 138 204 285 379 477 566 635 659 676 689 700 709 </table>
@@ -290,7 +290,7 @@
 		<table name="#mpConsume"> 24 39 53 70 90 110 130 138 145 150 153 155 </table>
 		<set name="mpConsume" val="#mpConsume" />
 	</skill>
-	<skill id="4026" levels="1" name="Gludio Flame">
+	<skill id="4026" levels="1" name="古魯丁火焰">
 		<!-- Freya retail confirmed -->
 		<set name="castRange" val="900" />
 		<set name="effectRange" val="1400" />
@@ -307,7 +307,7 @@
 		<set name="target" val="TARGET_AREA" />
 		<set name="mpConsume" val="28" />
 	</skill>
-	<skill id="4027" levels="1" name="Gludio Heal">
+	<skill id="4027" levels="1" name="古魯丁治癒">
 		<!-- Freya retail confirmed -->
 		<set name="castRange" val="600" />
 		<set name="effectRange" val="1100" />
@@ -439,7 +439,7 @@
 		<table name="#mpConsume"> 18 29 40 53 68 83 98 104 109 113 115 117 </table>
 		<set name="mpConsume" val="#mpConsume" />
 	</skill>
-	<skill id="4034" levels="12" name="Decrease Speed">
+	<skill id="4034" levels="12" name="移動速度下降">
 		<!-- Freya retail confirmed -->
 		<table name="#power"> 11 16 23 31 41 51 61 66 70 73 76 78 </table>
 		<table name="#magicLvl"> 10 20 30 40 50 60 70 75 80 85 90 95 </table>
@@ -465,7 +465,7 @@
 		<table name="#mpConsume"> 13 20 27 35 45 55 65 69 73 75 77 78 </table>
 		<set name="mpConsume" val="#mpConsume" />
 	</skill>
-	<skill id="4035" levels="12" name="Poison">
+	<skill id="4035" levels="12" name="毒">
 		<!-- Freya retail confirmed -->
 		<table name="#dmg"> 48 72 96 123 150 174 189 189 198 198 204 204 </table>
 		<table name="#magicLvl"> 10 20 30 40 50 60 70 75 80 85 90 95 </table>
@@ -490,7 +490,7 @@
 		<table name="#mpConsume"> 13 20 27 35 45 55 65 69 73 83 77 78 </table>
 		<set name="mpConsume" val="#mpConsume" />
 	</skill>
-	<skill id="4036" levels="12" name="Poison">
+	<skill id="4036" levels="12" name="毒">
 		<!-- Freya retail confirmed -->
 		<table name="#dmg"> 48 72 96 123 150 174 189 189 198 198 204 204 </table>
 		<table name="#magicLvl"> 10 20 30 40 50 60 70 75 80 85 90 95 </table>
@@ -516,7 +516,7 @@
 		<table name="#mpConsume"> 18 29 40 53 68 83 98 104 109 113 115 117 </table>
 		<set name="mpConsume" val="#mpConsume" />
 	</skill>
-	<skill id="4037" levels="3" name="Decrease P.Atk">
+	<skill id="4037" levels="3" name="攻擊力下降">
 		<!-- Freya retail confirmed -->
 		<table name="#pAtk"> 0.83 0.8 0.77 </table>
 		<table name="#magicLvl"> 20 40 70 </table>
@@ -542,7 +542,7 @@
 		<table name="#mpConsume"> 20 35 65 </table>
 		<set name="mpConsume" val="#mpConsume" />
 	</skill>
-	<skill id="4038" levels="5" name="Decrease Atk.Spd.">
+	<skill id="4038" levels="5" name="攻擊速度下降">
 		<!-- Freya retail confirmed -->
 		<table name="#pAtkSpd"> 0.83 0.8 0.8 0.77 0.77 </table>
 		<table name="#magicLvl"> 10 20 30 50 70 </table>
@@ -602,7 +602,7 @@
 		<table name="#mpConsume"> 25 40 56 76 99 121 142 151 159 165 168 170 </table>
 		<set name="mpConsume" val="#mpConsume" />
 	</skill>
-	<skill id="4041" levels="2" name="Cruma Blaze">
+	<skill id="4041" levels="2" name="克魯瑪之火">
 		<!-- Freya retail confirmed -->
 		<table name="#magicLvl"> 45 50 </table>
 		<table name="#power"> 60 68 </table>
@@ -620,7 +620,7 @@
 		<table name="#mpConsume"> 40 45 </table>
 		<set name="mpConsume" val="#mpConsume" />
 	</skill>
-	<skill id="4042" levels="1" name="Nurka Blaze">
+	<skill id="4042" levels="1" name="奴爾卡之火">
 		<!-- Freya retail confirmed -->
 		<set name="castRange" val="600" />
 		<set name="effectRange" val="1100" />
@@ -635,7 +635,7 @@
 		<set name="target" val="TARGET_ONE" />
 		<set name="mpConsume" val="40" />
 	</skill>
-	<skill id="4043" levels="1" name="Partisan Flame">
+	<skill id="4043" levels="1" name="帕提森火焰">
 		<!-- Freya retail confirmed -->
 		<set name="castRange" val="400" />
 		<set name="effectRange" val="900" />
@@ -652,7 +652,7 @@
 		<set name="target" val="TARGET_AREA" />
 		<set name="mpConsume" val="60" />
 	</skill>
-	<skill id="4044" levels="1" name="Partisan Heal">
+	<skill id="4044" levels="1" name="帕提森治癒">
 		<!-- Freya retail confirmed -->
 		<set name="aggroPoints" val="100" />
 		<set name="castRange" val="600" />
@@ -667,7 +667,7 @@
 		<set name="target" val="TARGET_ONE" />
 		<set name="mpConsume" val="70" />
 	</skill>
-	<skill id="4045" levels="1" name="Resist Full Magic Attack">
+	<skill id="4045" levels="1" name="頭目弱化攻擊抵抗">
 		<!-- Freya retail confirmed -->
 		<set name="magicLvl" val="50" />
 		<set name="target" val="TARGET_SELF" />
@@ -683,7 +683,7 @@
 			<!-- missing 100 resist for hp regeneration debuffs / physical blockade debuffs -->
 		</for>
 	</skill>
-	<skill id="4046" levels="12" name="Sleep">
+	<skill id="4046" levels="12" name="催眠">
 		<!-- Freya retail confirmed -->
 		<table name="#magicLvl"> 10 20 30 40 50 60 70 75 80 85 90 95 </table>
 		<set name="magicLvl" val="#magicLvl" />
@@ -705,7 +705,7 @@
 		<table name="#mpConsume"> 13 20 27 35 45 55 65 69 73 75 77 78 </table>
 		<set name="mpConsume" val="#mpConsume" />
 	</skill>
-	<skill id="4047" levels="12" name="Hold">
+	<skill id="4047" levels="12" name="束縛">
 		<!-- Freya retail confirmed -->
 		<table name="#magicLvl"> 10 20 30 40 50 60 70 75 80 85 90 95 </table>
 		<set name="magicLvl" val="#magicLvl" />
@@ -727,7 +727,7 @@
 		<table name="#mpConsume"> 13 20 27 35 45 55 65 69 73 75 77 78 </table>
 		<set name="mpConsume" val="#mpConsume" />
 	</skill>
-	<skill id="4048" levels="3" name="NPC Dash">
+	<skill id="4048" levels="3" name="Npc衝刺">
 		<!-- Freya retail confirmed -->
 		<table name="#magicLvl"> 10 10 10 </table>
 		<table name="#runSpd"> 1.50 1.80 2.0 </table>
@@ -742,7 +742,7 @@
 		</for>
 		<set name="mpConsume" val="12" />
 	</skill>
-	<skill id="4049" levels="16" name="Cubic Drain">
+	<skill id="4049" levels="16" name="晶體DD">
 		<!-- Cubic Skill -->
 		<!-- Confirmed CT2.5 -->
 		<table name="#magicLvl"> 40 46 52 58 62 66 70 74 76 78 80 81 82 83 84 85 </table>
@@ -753,7 +753,7 @@
 		<set name="skillType" val="MDAM" />
 		<set name="target" val="TARGET_ONE" />
 	</skill>
-	<skill id="4050" levels="16" name="Cubic DD">
+	<skill id="4050" levels="16" name="晶體吸收">
 		<!-- Cubic Skill -->
 		<!-- Confirmed CT2.5 -->
 		<table name="#magicLvl"> 43 49 55 60 64 68 72 74 76 78 80 81 82 83 84 85 </table>
@@ -766,7 +766,7 @@
 		<set name="skillType" val="DRAIN" />
 		<set name="target" val="TARGET_ONE" />
 	</skill>
-	<skill id="4051" levels="20" name="Cubic Heal">
+	<skill id="4051" levels="20" name="晶體治療">
 		<!-- Cubic Skill -->
 		<!-- Confirmed CT2.5 -->
 		<table name="#aggroPoints"> 408 467 523 566 597 624 646 653 660 667 674 677 679 682 685 687 0 0 0 1 </table>
@@ -782,7 +782,7 @@
 		<set name="skillType" val="HEAL" />
 		<set name="target" val="TARGET_ONE" />
 	</skill>
-	<skill id="4052" levels="15" name="Poison">
+	<skill id="4052" levels="15" name="毒">
 		<!-- Cubic Skill -->
 		<!-- Confirmed CT2.5 -->
 		<table name="#abnormalLvl"> 5 6 7 7 7 8 8 8 8 8 8 8 8 8 8 </table>
@@ -803,7 +803,7 @@
 			<effect count="10" name="DamOverTime" time="3" val="#dot" abnormal="poison" stackOrder="#abnormalLvl" stackType="poison" />
 		</for>
 	</skill>
-	<skill id="4053" levels="16" name="Decrease P.Atk">
+	<skill id="4053" levels="16" name="攻擊力下降">
 		<!-- Cubic Skill -->
 		<!-- Confirmed CT2.5 -->
 		<table name="#magicLvl"> 40 46 52 58 62 66 70 74 76 78 80 81 82 83 84 85 </table>
@@ -822,7 +822,7 @@
 			</effect>
 		</for>
 	</skill>
-	<skill id="4054" levels="16" name="Decrease P. Def">
+	<skill id="4054" levels="16" name="防禦力下降">
 		<!-- Cubic Skill -->
 		<!-- Confirmed CT2.5 -->
 		<table name="#magicLvl"> 40 46 52 58 62 66 70 74 76 78 80 81 82 83 84 85 </table>
@@ -841,7 +841,7 @@
 			</effect>
 		</for>
 	</skill>
-	<skill id="4055" levels="16" name="Decrease Atk.Speed">
+	<skill id="4055" levels="16" name="攻擊速度下降">
 		<!-- Cubic Skill -->
 		<!-- Confirmed CT2.5 -->
 		<table name="#magicLvl"> 40 46 52 58 62 66 70 74 76 78 80 81 82 83 84 85 </table>
@@ -860,13 +860,13 @@
 			</effect>
 		</for>
 	</skill>
-	<skill id="4056" levels="1" name="Immortal Attack">
+	<skill id="4056" levels="1" name="不死生物攻擊">
 		<!-- Freya retail confirmed -->
 		<set name="target" val="TARGET_SELF" />
 		<set name="skillType" val="PASSIVE" />
 		<set name="operateType" val="OP_PASSIVE" />
 	</skill>
-	<skill id="4057" levels="1" name="Insect Weak Point">
+	<skill id="4057" levels="1" name="蟲子弱點">
 		<!-- Freya retail confirmed -->
 		<set name="target" val="TARGET_SELF" />
 		<set name="skillType" val="BUFF" />
@@ -876,7 +876,7 @@
 			<mul order="0x30" stat="pDef-insects" val="1.15" />
 		</for>
 	</skill>
-	<skill id="4058" levels="1" name="Plant Weak Point">
+	<skill id="4058" levels="1" name="動物弱點">
 		<!-- Freya retail confirmed -->
 		<set name="target" val="TARGET_SELF" />
 		<set name="skillType" val="BUFF" />
@@ -886,7 +886,7 @@
 			<mul order="0x30" stat="pDef-animals" val="1.15" />
 		</for>
 	</skill>
-	<skill id="4059" levels="1" name="Animal Weak Point">
+	<skill id="4059" levels="1" name="植物弱點">
 		<!-- Freya retail confirmed -->
 		<set name="target" val="TARGET_SELF" />
 		<set name="skillType" val="BUFF" />
@@ -896,7 +896,7 @@
 			<mul order="0x30" stat="pDef-plants" val="1.15" />
 		</for>
 	</skill>
-	<skill id="4060" levels="1" name="Beast Weak Point">
+	<skill id="4060" levels="1" name="怪獸弱點">
 		<!-- Freya retail confirmed -->
 		<set name="target" val="TARGET_SELF" />
 		<set name="skillType" val="BUFF" />
@@ -906,7 +906,7 @@
 			<mul order="0x30" stat="pDef-monsters" val="1.15" />
 		</for>
 	</skill>
-	<skill id="4061" levels="1" name="Dragon Weak Point">
+	<skill id="4061" levels="1" name="龍族弱點">
 		<!-- Freya retail confirmed -->
 		<set name="target" val="TARGET_SELF" />
 		<set name="skillType" val="BUFF" />
@@ -916,7 +916,7 @@
 			<mul order="0x30" stat="pDef-dragons" val="1.15" />
 		</for>
 	</skill>
-	<skill id="4062" levels="1" name="Orfen">
+	<skill id="4062" levels="1" name="奧爾芬">
 		<!-- Confirmed CT2.5 -->
 		<!-- Orfen Skills -->
 		<set name="magicLvl" val="50" />
@@ -927,7 +927,7 @@
 			<mul order="0x30" stat="bowWpnVuln" val="0.2" />
 		</for>
 	</skill>
-	<skill id="4063" levels="1" name="Paralysis">
+	<skill id="4063" levels="1" name="麻痺">
 		<!-- Confirmed CT2.5 -->
 		<!-- Orfen Skills -->
 		<set name="castRange" val="50" />
@@ -944,7 +944,7 @@
 			<effect name="Paralyze" time="120" val="0" effectPower="90" effectType="PARALYZE" stackOrder="1" stackType="paralyze" />
 		</for>
 	</skill>
-	<skill id="4064" levels="1" name="Paralysis">
+	<skill id="4064" levels="1" name="麻痺">
 		<!-- Confirmed CT2.5 -->
 		<!-- Orfen Skills -->
 		<set name="castRange" val="800" />
@@ -1015,7 +1015,7 @@
 		<table name="#mpConsume"> 13 20 28 38 50 61 71 76 80 83 84 85 </table>
 		<set name="mpConsume" val="#mpConsume" />
 	</skill>
-	<skill id="4068" levels="12" name="Mechanical Cannon">
+	<skill id="4068" levels="12" name="機甲加農砲">
 		<!-- Freya retail confirmed -->
 		<table name="#power"> 46 105 219 417 722 1136 1626 1876 2112 2320 2487 2617 </table>
 		<table name="#magicLvl"> 10 20 30 40 50 60 70 75 80 85 90 95 </table>
@@ -1049,7 +1049,7 @@
 		<table name="#mpConsume"> 13 20 27 35 45 55 65 69 73 75 77 78 </table>
 		<set name="mpConsume" val="#mpConsume" />
 	</skill>
-	<skill id="4070" levels="1" name="Decrease Atk. Spd.">
+	<skill id="4070" levels="1" name="攻擊速度下降">
 		<!-- Confirmed CT2.5 -->
 		<!-- Zone Skill -->
 		<set name="isDebuff" val="true" />
@@ -1066,7 +1066,7 @@
 			</effect>
 		</for>
 	</skill>
-	<skill id="4071" levels="5" name="Resist Archery">
+	<skill id="4071" levels="5" name="弓/弩抵抗">
 		<table name="#vuln"> 0.9 0.8 0.7 0.6 0.5 </table>
 		<set name="target" val="TARGET_SELF" />
 		<set name="skillType" val="BUFF" />
@@ -1076,7 +1076,7 @@
 			<mul order="0x30" stat="crossbowWpnVuln" val="#vuln" />
 		</for>
 	</skill>
-	<skill id="4072" levels="12" name="Shock">
+	<skill id="4072" levels="12" name="休克">
 		<!-- Freya retail confirmed -->
 		<table name="#power"> 16 35 73 139 241 379 542 626 704 774 829 873 </table>
 		<table name="#magicLvl"> 10 20 30 40 50 60 70 75 80 85 90 95 </table>
@@ -1098,7 +1098,7 @@
 		<table name="#mpConsume"> 13 20 28 38 50 61 71 76 80 83 84 85 </table>
 		<set name="mpConsume" val="#mpConsume" />
 	</skill>
-	<skill id="4073" levels="12" name="Shock">
+	<skill id="4073" levels="12" name="休克">
 		<!-- Freya retail confirmed -->
 		<table name="#power"> 16 35 73 139 241 379 542 626 704 774 829 873 </table>
 		<table name="#magicLvl"> 10 20 30 40 50 60 70 75 80 85 90 95 </table>
@@ -1144,7 +1144,7 @@
 		<table name="#mpConsume"> 14 33 </table>
 		<set name="mpConsume" val="#mpConsume" />
 	</skill>
-	<skill id="4075" levels="12" name="Shock">
+	<skill id="4075" levels="12" name="休克">
 		<!-- Freya retail confirmed -->
 		<table name="#magicLvl"> 10 20 30 40 50 60 70 75 80 85 90 95 </table>
 		<set name="magicLvl" val="#magicLvl" />
@@ -1166,7 +1166,7 @@
 		<table name="#mpConsume"> 13 20 28 38 50 61 71 76 80 83 84 85 </table>
 		<set name="mpConsume" val="#mpConsume" />
 	</skill>
-	<skill id="4076" levels="3" name="Reduction in movement speed">
+	<skill id="4076" levels="3" name="移動速度下降">
 		<!-- Freya retail confirmed -->
 		<table name="#runSpd"> 0.9 0.8 0.7 </table>
 		<table name="#magicLvl"> 20 40 70 </table>
@@ -1229,7 +1229,7 @@
 		<table name="#mpConsume"> 18 29 40 53 68 83 98 104 109 113 115 117 </table>
 		<set name="mpConsume" val="#mpConsume" />
 	</skill>
-	<skill id="4079" levels="1" name="Siege Hammer">
+	<skill id="4079" levels="1" name="攻城之鎚">
 		<!-- Confirmed CT2.5 -->
 		<set name="magicLvl" val="49" />
 		<set name="power" val="665060" />
@@ -1241,7 +1241,7 @@
 		<set name="castRange" val="600" />
 		<set name="effectRange" val="1100" />
 	</skill>
-	<skill id="4080" levels="1" name="Dark Heal">
+	<skill id="4080" levels="1" name="黑暗治癒">
 		<!-- Freya retail confirmed -->
 		<set name="magicLvl" val="60" />
 		<set name="power" val="628" />
@@ -1255,7 +1255,7 @@
 		<set name="aggroPoints" val="100" />
 		<set name="mpConsume" val="98" />
 	</skill>
-	<skill id="4081" levels="1" name="Pretending to steal">
+	<skill id="4081" levels="1" name="佯裝偷盜">
 		<!-- Freya retail confirmed -->
 		<set name="target" val="TARGET_ONE" />
 		<set name="hitTime" val="4000" />
@@ -1266,7 +1266,7 @@
 		<set name="castRange" val="600" />
 		<set name="effectRange" val="1100" />
 	</skill>
-	<skill id="4082" levels="1" name="Poison of Death">
+	<skill id="4082" levels="1" name="死亡之毒">
 		<!-- Freya retail confirmed -->
 		<set name="target" val="TARGET_ONE" />
 		<set name="reuseDelay" val="50" />
@@ -1285,7 +1285,7 @@
 			<effect name="ImmobileBuff" time="4200" val="0" noicon="1" />
 		</for>
 	</skill>
-	<skill id="4083" levels="1" name="Die! You fool!">
+	<skill id="4083" levels="1" name="死亡命令">
 		<!-- Freya retail confirmed -->
 		<set name="power" val="90000" />
 		<set name="target" val="TARGET_ONE" />
@@ -1297,7 +1297,7 @@
 		<set name="castRange" val="600" />
 		<set name="effectRange" val="1100" />
 	</skill>
-	<skill id="4084" levels="11" name="Resist Physical Attack">
+	<skill id="4084" levels="11" name="物理抵抗">
 		<!-- Freya retail confirmed -->
 		<table name="#pDef"> 1.05 1.11 1.17 1.25 1.33 1.43 1.67 2.0 3.33 10 1001 </table>
 		<set name="target" val="TARGET_SELF" />
@@ -1307,7 +1307,7 @@
 			<mul order="0x30" stat="pDef" val="#pDef" />
 		</for>
 	</skill>
-	<skill id="4085" levels="1" name="Critical Power">
+	<skill id="4085" levels="1" name="致命威力">
 		<!-- Freya retail confirmed -->
 		<set name="target" val="TARGET_SELF" />
 		<set name="skillType" val="BUFF" />
@@ -1316,7 +1316,7 @@
 			<mul order="0x30" stat="cAtk" val="1.25" />
 		</for>
 	</skill>
-	<skill id="4086" levels="1" name="Critical Chance">
+	<skill id="4086" levels="1" name="致命機率">
 		<!-- Freya retail confirmed -->
 		<set name="target" val="TARGET_SELF" />
 		<set name="skillType" val="BUFF" />
@@ -1344,7 +1344,7 @@
 		<table name="#mpConsume"> 13 20 27 35 45 55 65 69 73 75 77 78 </table>
 		<set name="mpConsume" val="#mpConsume" />
 	</skill>
-	<skill id="4088" levels="12" name="Bleed">
+	<skill id="4088" levels="12" name="出血">
 		<!-- Freya retail confirmed -->
 		<table name="#damage"> 54 75 102 132 162 186 201 201 210 210 213 213 </table>
 		<table name="#magicLvl"> 10 20 30 40 50 60 70 75 80 85 90 95 </table>
@@ -1446,7 +1446,7 @@
 		</for>
 		<set name="mpConsume" val="18" />
 	</skill>
-	<skill id="4093" levels="1" name="Evasion">
+	<skill id="4093" levels="1" name="迴避">
 		<!-- Freya retail confirmed -->
 		<set name="target" val="TARGET_SELF" />
 		<set name="skillType" val="BUFF" />
@@ -1471,7 +1471,7 @@
 		<table name="#mpConsume"> 13 20 27 35 45 55 65 69 73 75 77 78 </table>
 		<set name="mpConsume" val="#mpConsume" />
 	</skill>
-	<skill id="4095" levels="1" name="Damage Shield">
+	<skill id="4095" levels="1" name="還擊護盾">
 		<!-- Freya retail confirmed -->
 		<set name="magicLvl" val="1" />
 		<set name="operateType" val="OP_PASSIVE" />
@@ -1481,7 +1481,7 @@
 			<add order="0x40" stat="reflectDam" val="20" />
 		</for>
 	</skill>
-	<skill id="4096" levels="3" name="NPC Hawkeye">
+	<skill id="4096" levels="3" name="Npc 鷹之眼">
 		<!-- Freya retail confirmed -->
 		<table name="#magicLvl"> 20 40 70 </table>
 		<table name="#accCombat"> 6 8 10 </table>
@@ -1523,7 +1523,7 @@
 		<table name="#mpConsume"> 33 59 88 122 159 195 228 242 252 259 262 262 </table>
 		<set name="mpConsume" val="#mpConsume" />
 	</skill>
-	<skill id="4098" levels="12" name="Magic Skill Block">
+	<skill id="4098" levels="12" name="沉默">
 		<!-- Freya retail confirmed -->
 		<table name="#magicLvl"> 10 20 30 40 50 60 70 75 80 85 90 95 </table>
 		<set name="magicLvl" val="#magicLvl" />

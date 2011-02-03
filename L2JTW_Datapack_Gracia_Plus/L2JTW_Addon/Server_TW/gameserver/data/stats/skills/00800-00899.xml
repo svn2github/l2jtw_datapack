@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <list>
-	<skill id="800" levels="3" name="Master Ability - Magic Defense">
+	<skill id="800" levels="3" name="副職-魔法防禦專家">
 		<!-- Confirmed CT2.5 -->
 		<table name="#mDef"> 50.4 100.8 151.2 </table>
 		<set name="excludedFromCheck" val="true" />
@@ -12,7 +12,7 @@
 			<add order="0x40" stat="mDef" val="#mDef" />
 		</for>
 	</skill>
-	<skill id="801" levels="1" name="Warrior Ability - Boost CP">
+	<skill id="801" levels="1" name="鬥士能力-CP強化">
 		<!-- Confirmed CT2.5 -->
 		<set name="excludedFromCheck" val="true" />
 		<set name="magicLvl" val="75" />
@@ -23,7 +23,7 @@
 			<add order="0x40" stat="maxCp" val="738.3" />
 		</for>
 	</skill>
-	<skill id="802" levels="1" name="Wizard Ability - Anti-magic">
+	<skill id="802" levels="1" name="巫師能力-抗魔術">
 		<!-- Confirmed CT2.5 -->
 		<set name="excludedFromCheck" val="true" />
 		<set name="magicLvl" val="75" />
@@ -34,7 +34,7 @@
 			<mul order="0x30" stat="magicDamVul" val="0.95" />
 		</for>
 	</skill>
-	<skill id="803" levels="1" name="Healer Ability - Divine Protection">
+	<skill id="803" levels="1" name="牧師能力-神聖加護">
 		<!-- Confirmed CT2.5 -->
 		<set name="excludedFromCheck" val="true" />
 		<set name="magicLvl" val="75" />
@@ -46,7 +46,7 @@
 			<add order="0x40" stat="holyRes" val="5" />
 		</for>
 	</skill>
-	<skill id="804" levels="1" name="Knight Ability - Resist Critical">
+	<skill id="804" levels="1" name="騎士能力-致命攻擊抵抗">
 		<!-- Confirmed CT2.5 -->
 		<set name="excludedFromCheck" val="true" />
 		<set name="magicLvl" val="75" />
@@ -62,7 +62,7 @@
 		<set name="skillType" val="NOTDONE" />
 		<set name="operateType" val="OP_PASSIVE" />
 	</skill>
-	<skill id="806" levels="1" name="Magic Obstacle">
+	<skill id="806" levels="1" name="魔法妨礙">
 		<set name="mpConsume" val="49" />
 		<set name="magicLvl" val="83" />
 		<set name="power" val="25" /> <!-- Base Land Rate -->
@@ -74,7 +74,7 @@
 		<set name="operateType" val="OP_ACTIVE" />
 		<set name="maxNegated" val="5" />
 	</skill>
-	<skill id="807" levels="1" name="Over-hit">
+	<skill id="807" levels="1" name="Overhit">
 		<set name="mpConsume" val="25" />
 		<set name="target" val="TARGET_SELF" />
 		<set name="reuseDelay" val="2000" />
@@ -88,7 +88,7 @@
 			</effect>
 		</for>
 	</skill>
-	<skill id="808" levels="1" name="Golem Punch">
+	<skill id="808" levels="1" name="高崙之擊">
 		<set name="mpConsume" val="53" />
 		<set name="magicLvl" val="83" />
 		<set name="lvlDepend" val="2" />
@@ -108,7 +108,7 @@
 			<effect name="Stun" time="3" val="0" stackOrder="1" stackType="stun" effectPower="80" effectType="STUN" />
 		</for>
 	</skill>
-	<skill id="809" levels="1" name="Golem Tornado Swing">
+	<skill id="809" levels="1" name="高崙旋風揮擊">
 		<set name="mpConsume" val="53" />
 		<set name="magicLvl" val="83" />
 		<set name="power" val="6199" />
@@ -122,7 +122,7 @@
 		<set name="SSBoost" val="2.0" />
 		<set name="operateType" val="OP_ACTIVE" />
 	</skill>
-	<skill id="810" levels="1" name="Vanguard">
+	<skill id="810" levels="1" name="先鋒">
 		<set name="hitTime" val="5000" />
 		<set name="staticHitTime" val="true" />
 		<set name="mpConsume" val="31" />
@@ -141,7 +141,7 @@
 			</effect>
 		</for>
 	</skill>
-	<skill id="811" levels="1" name="Vanguard">
+	<skill id="811" levels="1" name="先鋒">
 		<set name="hitTime" val="5000" />
 		<set name="staticHitTime" val="true" />
 		<set name="mpConsume" val="31" />
@@ -160,7 +160,7 @@
 			</effect>
 		</for>
 	</skill>
-	<skill id="812" levels="1" name="Vanguard">
+	<skill id="812" levels="1" name="先鋒">
 		<set name="hitTime" val="5000" />
 		<set name="staticHitTime" val="true" />
 		<set name="mpConsume" val="31" />
@@ -179,7 +179,7 @@
 			</effect>
 		</for>
 	</skill>
-	<skill id="813" levels="1" name="Vanguard">
+	<skill id="813" levels="1" name="先鋒">
 		<set name="hitTime" val="5000" />
 		<set name="staticHitTime" val="true" />
 		<set name="mpConsume" val="31" />
@@ -198,7 +198,7 @@
 			</effect>
 		</for>
 	</skill>
-	<skill id="814" levels="43" name="Full Swing">
+	<skill id="814" levels="43" name="全力揮擊">
 		<!-- Vanguard Stance Skill -->
 		<table name="#magicLvl"> 43 44 45 46 47 48 49 50 51 52 53 54 55 56 57 58 59 60 61 62 63 64 65 66 67 68 69 70 71 72 73 74 75 76 77 78 79 80 81 82 83 84 85 </table>
 		<table name="#mpConsume"> 41 42 43 44 46 47 48 50 50 51 52 53 55 56 57 58 60 61 61 62 63 65 66 67 68 69 70 71 72 73 74 75 76 77 78 78 79 80 80 81 82 82 83 </table>
@@ -219,7 +219,7 @@
 		<set name="target" val="TARGET_AURA" />
 		<set name="weaponsAllowed" val="Big Blunt, Big Sword" /> <!-- Big Sword/Big Blunt -->
 	</skill>
-	<skill id="815" levels="43" name="Blade Hurricane">
+	<skill id="815" levels="43" name="刀刃颶風">
 		<!-- Vanguard Stance Skill -->
 		<table name="#magicLvl"> 43 44 45 46 47 48 49 50 51 52 53 54 55 56 57 58 59 60 61 62 63 64 65 66 67 68 69 70 71 72 73 74 75 76 77 78 79 80 81 82 83 84 85 </table>
 		<table name="#mpConsume"> 41 42 43 44 46 47 48 50 50 51 52 53 55 56 57 58 60 61 61 62 63 65 66 67 68 69 70 71 72 73 74 75 76 77 78 78 79 80 80 81 82 82 83 </table>
@@ -240,7 +240,7 @@
 		<set name="target" val="TARGET_AURA" />
 		<set name="weaponsAllowed" val="Dual Sword" /> <!-- Dual Sword -->
 	</skill>
-	<skill id="816" levels="43" name="Cleave">
+	<skill id="816" levels="43" name="強力斷斬">
 		<!-- Vanguard Stance Skill -->
 		<table name="#magicLvl"> 43 44 45 46 47 48 49 50 51 52 53 54 55 56 57 58 59 60 61 62 63 64 65 66 67 68 69 70 71 72 73 74 75 76 77 78 79 80 81 82 83 84 85 </table>
 		<table name="#mpConsume"> 41 42 43 44 46 47 48 50 50 51 52 53 55 56 57 58 60 61 61 62 63 65 66 67 68 69 70 71 72 73 74 75 76 77 78 78 79 80 80 81 82 82 83 </table>
@@ -264,7 +264,7 @@
 		<set name="target" val="TARGET_ONE" />
 		<set name="weaponsAllowed" val="Big Blunt, Big Sword" /> <!-- Big Sword/Big Blunt -->
 	</skill>
-	<skill id="817" levels="43" name="Double Strike">
+	<skill id="817" levels="43" name="連環擊">
 		<!-- Vanguard Stance Skill -->
 		<table name="#magicLvl"> 43 44 45 46 47 48 49 50 51 52 53 54 55 56 57 58 59 60 61 62 63 64 65 66 67 68 69 70 71 72 73 74 75 76 77 78 79 80 81 82 83 84 85 </table>
 		<table name="#mpConsume"> 41 42 43 44 46 47 48 50 50 51 52 53 55 56 57 58 60 61 61 62 63 65 66 67 68 69 70 71 72 73 74 75 76 77 78 78 79 80 80 81 82 82 83 </table>
@@ -287,7 +287,7 @@
 		<set name="weaponsAllowed" val="Dual Sword" /> <!-- Dual Sword -->
 		<set name="nextActionAttack" val="true" />
 	</skill>
-	<skill id="818" levels="1" name="Evasion Counter">
+	<skill id="818" levels="1" name="迴避反擊">
 		<set name="magicLvl" val="74" />
 		<set name="operateType" val="OP_PASSIVE" />
 		<set name="skillType" val="BUFF" />
@@ -297,7 +297,7 @@
 		<set name="activationChance" val="10" />
 		<set name="chanceType" val="ON_EVADED_HIT" />
 	</skill>
-	<skill id="819" levels="1" name="Evasion Chance">
+	<skill id="819" levels="1" name="迴避契機">
 		<set name="magicLvl" val="74" />
 		<set name="operateType" val="OP_PASSIVE" />
 		<set name="skillType" val="BUFF" />
@@ -307,7 +307,7 @@
 		<set name="activationChance" val="10" />
 		<set name="chanceType" val="ON_EVADED_HIT" />
 	</skill>
-	<skill id="820" levels="1" name="Evasion Haste">
+	<skill id="820" levels="1" name="迴避激發">
 		<set name="magicLvl" val="74" />
 		<set name="operateType" val="OP_PASSIVE" />
 		<set name="skillType" val="BUFF" />
@@ -317,7 +317,7 @@
 		<set name="activationChance" val="10" />
 		<set name="chanceType" val="ON_EVADED_HIT" />
 	</skill>
-	<skill id="821" levels="1" name="Shadow Step">
+	<skill id="821" levels="1" name="影步">
 		<set name="magicLvl" val="72" />
 		<set name="mpConsume" val="50" />
 		<set name="operateType" val="OP_ACTIVE" />
@@ -332,7 +332,7 @@
 			<effect name="RemoveTarget" effectPower="100" noicon="1" val="0" />
 		</for>
 	</skill>
-	<skill id="822" levels="3" name="Repair Golem">
+	<skill id="822" levels="3" name="高崙維修">
 		<table name="#mpConsume"> 61 78 88 </table>
 		<table name="#power"> 8 12 15 </table>
 		<set name="aggroPoints" val="#power" />
@@ -347,7 +347,7 @@
 		<set name="castRange" val="40" />
 		<set name="effectRange" val="80" />
 	</skill>
-	<skill id="823" levels="3" name="Strengthen Golem">
+	<skill id="823" levels="3" name="強大之力">
 		<table name="#pAtk"> 1.08 1.12 1.15 </table>
 		<table name="#pAtkSpd"> 1.03 1.06 1.09 </table>
 		<table name="#mpConsume"> 24 36 42 </table>
@@ -367,7 +367,7 @@
 			</effect>
 		</for>
 	</skill>
-	<skill id="824" levels="3" name="Golem Reinforcement">
+	<skill id="824" levels="3" name="防禦武裝">
 		<table name="#pDef"> 1.08 1.12 1.15 </table>
 		<table name="#maxHp"> 1.05 1.08 1.1 </table>
 		<table name="#mpConsume"> 35 44 41 </table>
@@ -387,7 +387,7 @@
 			</effect>
 		</for>
 	</skill>
-	<skill id="825" levels="1" name="Sharp Edge">
+	<skill id="825" levels="1" name="尖銳之刃">
 		<set name="magicLvl" val="49" />
 		<set name="mpInitialConsume" val="16" />
 		<set name="mpConsume" val="28" />
@@ -410,7 +410,7 @@
 			</effect>
 		</for>
 	</skill>
-	<skill id="826" levels="1" name="Spike">
+	<skill id="826" levels="1" name="釘鎚穿刺">
 		<set name="magicLvl" val="49" />
 		<set name="mpInitialConsume" val="16" />
 		<set name="mpConsume" val="28" />
@@ -433,7 +433,7 @@
 			</effect>
 		</for>
 	</skill>
-	<skill id="827" levels="1" name="Restring">
+	<skill id="827" levels="1" name="弓弦強化">
 		<set name="magicLvl" val="49" />
 		<set name="mpInitialConsume" val="16" />
 		<set name="mpConsume" val="28" />
@@ -456,7 +456,7 @@
 			</effect>
 		</for>
 	</skill>
-	<skill id="828" levels="1" name="Case Harden">
+	<skill id="828" levels="1" name="表層硬化">
 		<set name="magicLvl" val="46" />
 		<set name="mpInitialConsume" val="15" />
 		<set name="mpConsume" val="25" />
@@ -476,7 +476,7 @@
 			</effect>
 		</for>
 	</skill>
-	<skill id="829" levels="1" name="Hard Tanning">
+	<skill id="829" levels="1" name="表革硬化">
 		<set name="magicLvl" val="46" />
 		<set name="mpInitialConsume" val="15" />
 		<set name="mpConsume" val="25" />
@@ -499,7 +499,7 @@
 			</effect>
 		</for>
 	</skill>
-	<skill id="830" levels="1" name="Embroider">
+	<skill id="830" levels="1" name="紋刻">
 		<set name="magicLvl" val="46" />
 		<set name="mpInitialConsume" val="15" />
 		<set name="mpConsume" val="25" />
@@ -522,7 +522,7 @@
 			</effect>
 		</for>
 	</skill>
-	<skill id="831" levels="1" name="Summon Merchant Golem">
+	<skill id="831" levels="1" name="召喚商業高崙">
 		<set name="itemConsumeId" val="1458" />
 		<set name="itemConsumeCount" val="5" />
 		<set name="mpConsume" val="122" />
@@ -537,7 +537,7 @@
 		<set name="summonTimeLostActive" val="1000" />
 		<set name="npcId" val="13128" />
 	</skill>
-	<skill id="832" levels="1" name="Fast Recovery">
+	<skill id="832" levels="1" name="速效恢復">
 		<set name="magicLvl" val="43" />
 		<set name="operateType" val="OP_PASSIVE" />
 		<set name="skillType" val="BUFF" />
@@ -548,7 +548,7 @@
 			<add order="0x40" stat="regCp" val="4" />
 		</for>
 	</skill>
-	<skill id="833" levels="1" name="Body Reconstruction">
+	<skill id="833" levels="1" name="重建之體">
 		<set name="magicLvl" val="52" />
 		<set name="aggroPoints" val="100" />
 		<set name="hitTime" val="1500" />
@@ -559,7 +559,7 @@
 		<set name="skillType" val="HEAL_PERCENT" />
 		<set name="target" val="TARGET_SELF" />
 	</skill>
-	<skill id="834" levels="1" name="Blood Pact">
+	<skill id="834" levels="1" name="血之契約">
 		<set name="magicLvl" val="55" />
 		<set name="mpConsume" val="50" />
 		<set name="target" val="TARGET_PARTY" />
@@ -575,7 +575,7 @@
 			</effect>
 		</for>
 	</skill>
-	<skill id="835" levels="4" name="Imbue Seed of Destruction">
+	<skill id="835" levels="4" name="植入末日種子">
 		<table name="#mdot"> 76 83 83 83 </table>
 		<table name="#magicLvl"> 68 70 72 74 </table>
 		<table name="#triggeredLevel"> 1 2 3 4 </table>
@@ -602,7 +602,7 @@
 			<effect name="ChanceSkillTrigger" time="20" noicon="1" val="0" triggeredId="5697" triggeredLevel="#triggeredLevel" chanceType="ON_EXIT" />
 		</for>
 	</skill>
-	<skill id="836" levels="3" name="Oblivion Trap">
+	<skill id="836" levels="3" name="忘卻陷阱">
 		<!-- CT2.2 retail confirmed -->
 		<table name="#triggerSkillLvl"> 1 2 3 </table>
 		<set name="mpConsume" val="50" />
@@ -618,7 +618,7 @@
 		<set name="triggerSkillLvl" val="#triggerSkillLvl" />
 		<set name="trapNpcId" val="13037" />
 	</skill>
-	<skill id="837" levels="1" name="Painkiller">
+	<skill id="837" levels="1" name="止痛術">
 		<!-- CT2.2 retail confirmed -->
 		<set name="mpConsume" val="53" />
 		<set name="target" val="TARGET_SELF" />
@@ -633,20 +633,20 @@
 			<effect name="Invincible" time="8" val="0" special="invincible" stackOrder="1" stackType="invincibility" />
 		</for>
 	</skill>
-	<skill id="838" levels="1" name="Switch Stance">
+	<skill id="838" levels="1" name="態度轉化">
 		<set name="target" val="TARGET_SELF" />
 		<set name="skillType" val="TRANSFORMDISPEL" />
 		<set name="operateType" val="OP_ACTIVE" />
 		<set name="hitTime" val="5000" />
 		<set name="reuseDelay" val="15000" />
 	</skill>
-	<skill id="839" levels="1" name="Dismount">
+	<skill id="839" levels="1" name="降下">
 		<set name="target" val="TARGET_SELF" />
 		<set name="skillType" val="TRANSFORMDISPEL" />
 		<set name="operateType" val="OP_ACTIVE" />
 		<set name="hitTime" val="2500" />
 	</skill>
-	<skill id="840" levels="1" name="Final Flying Form">
+	<skill id="840" levels="1" name="最終飛行型態">
 		<set name="mpConsume" val="72" />
 		<set name="hpConsume" val="200" />
 		<set name="target" val="TARGET_SELF" />
@@ -674,7 +674,7 @@
 			</effect>
 		</for>
 	</skill>
-	<skill id="841" levels="1" name="Aura Bird - Falcon">
+	<skill id="841" levels="1" name="靈鳥-獵鷹">
 		<set name="mpConsume" val="72" />
 		<set name="target" val="TARGET_SELF" />
 		<set name="skillType" val="CONT" />
@@ -700,7 +700,7 @@
 			</effect>
 		</for>
 	</skill>
-	<skill id="842" levels="1" name="Aura Bird - Owl">
+	<skill id="842" levels="1" name="靈鳥-貓頭鷹">
 		<set name="mpConsume" val="72" />
 		<set name="target" val="TARGET_SELF" />
 		<set name="skillType" val="CONT" />
@@ -726,7 +726,7 @@
 			</effect>
 		</for>
 	</skill>
-	<skill id="843" levels="1" name="Shooting Star">
+	<skill id="843" levels="1" name="流星">
 		<!-- Update by pmq -->
 		<set name="mpConsume" val="60" />
 		<set name="power" val="3422" />
@@ -739,7 +739,7 @@
 		<set name="castRange" val="600" />
 		<set name="effectRange" val="1100" />
 	</skill>
-	<skill id="844" levels="1" name="Outpost Construction">
+	<skill id="844" levels="1" name="建立前哨基地">
 		<set name="mpInitialConsume" val="30" />
 		<set name="itemConsumeId" val="2132" />
 		<set name="itemConsumeCount" val="120" />
@@ -751,7 +751,7 @@
 		<set name="isOutpost" val="true" />
 		<set name="operateType" val="OP_ACTIVE" />
 	</skill>
-	<skill id="845" levels="1" name="Outpost Demolition">
+	<skill id="845" levels="1" name="撤移前哨基地">
 		<set name="target" val="TARGET_ONE" />
 		<set name="skillType" val="DUMMY" />
 		<set name="operateType" val="OP_ACTIVE" />
@@ -764,7 +764,7 @@
 			<target npcId="36590" />
 		</cond>
 	</skill>
-	<skill id="846" levels="1" name="Possess Ward">
+	<skill id="846" levels="1" name="持有守護之物">
 		<!-- Confirmed CT2.5 -->
 		<set name="magicLvl" val="1" />
 		<set name="operateType" val="OP_PASSIVE" />
@@ -778,7 +778,7 @@
 			<mul order="0x30" stat="runSpd" val="0.2" />
 		</for>
 	</skill>
-	<skill id="847" levels="1" name="Ward Transport">
+	<skill id="847" levels="1" name="奪取守護之物">
 		<set name="target" val="TARGET_ONE" />
 		<set name="skillType" val="DUMMY" />
 		<set name="operateType" val="OP_ACTIVE" />
@@ -791,7 +791,7 @@
 			<target npcId="36590" />
 		</cond>
 	</skill>
-	<skill id="848" levels="1" name="Gludio Territory Benefaction">
+	<skill id="848" levels="1" name="古魯丁守護之物加護">
 		<!-- Confirmed CT2.5 -->
 		<set name="isClanSkill" val="true" />
 		<set name="magicLvl" val="1" />
@@ -804,7 +804,7 @@
 			<add order="0x10" stat="INT" val="1" />
 		</for>
 	</skill>
-	<skill id="849" levels="1" name="Dion Territory Benefaction">
+	<skill id="849" levels="1" name="狄恩守護之物加護">
 		<!-- Confirmed CT2.5 -->
 		<set name="isClanSkill" val="true" />
 		<set name="magicLvl" val="1" />
@@ -817,7 +817,7 @@
 			<add order="0x10" stat="WIT" val="1" />
 		</for>
 	</skill>
-	<skill id="850" levels="1" name="Giran Territory Benefaction">
+	<skill id="850" levels="1" name="奇岩守護之物加護">
 		<!-- Confirmed CT2.5 -->
 		<set name="isClanSkill" val="true" />
 		<set name="magicLvl" val="1" />
@@ -830,7 +830,7 @@
 			<add order="0x10" stat="MEN" val="1" />
 		</for>
 	</skill>
-	<skill id="851" levels="1" name="Oren Territory Benefaction">
+	<skill id="851" levels="1" name="歐瑞守護之物加護">
 		<!-- Confirmed CT2.5 -->
 		<set name="isClanSkill" val="true" />
 		<set name="magicLvl" val="1" />
@@ -843,7 +843,7 @@
 			<add order="0x10" stat="MEN" val="1" />
 		</for>
 	</skill>
-	<skill id="852" levels="1" name="Aden Territory Benefaction">
+	<skill id="852" levels="1" name="亞丁守護之物加護">
 		<!-- Confirmed CT2.5 -->
 		<set name="isClanSkill" val="true" />
 		<set name="magicLvl" val="1" />
@@ -856,7 +856,7 @@
 			<add order="0x10" stat="MEN" val="1" />
 		</for>
 	</skill>
-	<skill id="853" levels="1" name="Innadril Territory Benefaction">
+	<skill id="853" levels="1" name="因納得立守護之物加護">
 		<!-- Confirmed CT2.5 -->
 		<set name="isClanSkill" val="true" />
 		<set name="magicLvl" val="1" />
@@ -869,7 +869,7 @@
 			<add order="0x10" stat="INT" val="1" />
 		</for>
 	</skill>
-	<skill id="854" levels="1" name="Goddard Territory Benefaction">
+	<skill id="854" levels="1" name="高達特守護之物加護">
 		<!-- Confirmed CT2.5 -->
 		<set name="isClanSkill" val="true" />
 		<set name="magicLvl" val="1" />
@@ -882,7 +882,7 @@
 			<add order="0x10" stat="INT" val="1" />
 		</for>
 	</skill>
-	<skill id="855" levels="1" name="Rune Territory Benefaction">
+	<skill id="855" levels="1" name="魯因守護之物加護">
 		<!-- Confirmed CT2.5 -->
 		<set name="isClanSkill" val="true" />
 		<set name="magicLvl" val="1" />
@@ -895,7 +895,7 @@
 			<add order="0x10" stat="WIT" val="1" />
 		</for>
 	</skill>
-	<skill id="856" levels="1" name="Schuttgart Territory Benefaction">
+	<skill id="856" levels="1" name="修加特守護之物加護">
 		<!-- Confirmed CT2.5 -->
 		<set name="isClanSkill" val="true" />
 		<set name="magicLvl" val="1" />
@@ -908,7 +908,7 @@
 			<add order="0x10" stat="WIT" val="1" />
 		</for>
 	</skill>
-	<skill id="857" levels="1" name="Human Mercenary">
+	<skill id="857" levels="1" name="人類傭兵">
 		<set name="hitTime" val="2500" />
 		<set name="target" val="TARGET_SELF" />
 		<set name="skillType" val="BUFF" />
@@ -920,7 +920,7 @@
 			<effect name="Transformation" time="1800" val="0" stackOrder="1" stackType="transform" />
 		</for>
 	</skill>
-	<skill id="858" levels="1" name="Elf Mercenary">
+	<skill id="858" levels="1" name="精靈傭兵">
 		<set name="hitTime" val="2500" />
 		<set name="target" val="TARGET_SELF" />
 		<set name="skillType" val="BUFF" />
@@ -932,7 +932,7 @@
 			<effect name="Transformation" time="1800" val="0" stackOrder="1" stackType="transform" />
 		</for>
 	</skill>
-	<skill id="859" levels="1" name="Dark Elf Mercenary">
+	<skill id="859" levels="1" name="黑暗精靈傭兵">
 		<set name="hitTime" val="2500" />
 		<set name="target" val="TARGET_SELF" />
 		<set name="skillType" val="BUFF" />
@@ -944,7 +944,7 @@
 			<effect name="Transformation" time="1800" val="0" stackOrder="1" stackType="transform" />
 		</for>
 	</skill>
-	<skill id="860" levels="1" name="Orc Mercenary">
+	<skill id="860" levels="1" name="半獸人傭兵">
 		<set name="hitTime" val="2500" />
 		<set name="target" val="TARGET_SELF" />
 		<set name="skillType" val="BUFF" />
@@ -956,7 +956,7 @@
 			<effect name="Transformation" time="1800" val="0" stackOrder="1" stackType="transform" />
 		</for>
 	</skill>
-	<skill id="861" levels="1" name="Dwarf Mercenary">
+	<skill id="861" levels="1" name="矮人傭兵">
 		<set name="hitTime" val="2500" />
 		<set name="target" val="TARGET_SELF" />
 		<set name="skillType" val="BUFF" />
@@ -968,7 +968,7 @@
 			<effect name="Transformation" time="1800" val="0" stackOrder="1" stackType="transform" />
 		</for>
 	</skill>
-	<skill id="862" levels="1" name="Kamael Mercenary">
+	<skill id="862" levels="1" name="闇天使傭兵">
 		<set name="hitTime" val="2500" />
 		<set name="target" val="TARGET_SELF" />
 		<set name="skillType" val="BUFF" />
@@ -980,7 +980,7 @@
 			<effect name="Transformation" time="1800" val="0" stackOrder="1" stackType="transform" />
 		</for>
 	</skill>
-	<skill id="863" levels="1" name="Royal Guard Captain">
+	<skill id="863" levels="1" name="親衛隊長">
 		<set name="hitTime" val="2500" />
 		<set name="target" val="TARGET_SELF" />
 		<set name="skillType" val="BUFF" />
@@ -992,7 +992,7 @@
 			<effect name="Transformation" time="1800" val="0" stackOrder="1" stackType="transform" />
 		</for>
 	</skill>
-	<skill id="864" levels="1" name="Archer Captain">
+	<skill id="864" levels="1" name="弓箭手隊長">
 		<set name="hitTime" val="2500" />
 		<set name="target" val="TARGET_SELF" />
 		<set name="skillType" val="BUFF" />
@@ -1004,7 +1004,7 @@
 			<effect name="Transformation" time="1800" val="0" stackOrder="1" stackType="transform" />
 		</for>
 	</skill>
-	<skill id="865" levels="1" name="Magic Leader">
+	<skill id="865" levels="1" name="魔法團長">
 		<set name="hitTime" val="2500" />
 		<set name="target" val="TARGET_SELF" />
 		<set name="skillType" val="BUFF" />
@@ -1016,7 +1016,7 @@
 			<effect name="Transformation" time="1800" val="0" stackOrder="1" stackType="transform" />
 		</for>
 	</skill>
-	<skill id="866" levels="1" name="Kamael Guard Captain">
+	<skill id="866" levels="1" name="闇天使警衛隊長">
 		<set name="hitTime" val="2500" />
 		<set name="target" val="TARGET_SELF" />
 		<set name="skillType" val="BUFF" />
@@ -1028,7 +1028,7 @@
 			<effect name="Transformation" time="1800" val="0" stackOrder="1" stackType="transform" />
 		</for>
 	</skill>
-	<skill id="867" levels="1" name="Knight of Dawn">
+	<skill id="867" levels="1" name="黎明騎士">
 		<set name="hitTime" val="2500" />
 		<set name="target" val="TARGET_SELF" />
 		<set name="skillType" val="BUFF" />
@@ -1040,7 +1040,7 @@
 			<effect name="Transformation" time="1800" val="0" stackOrder="1" stackType="transform" />
 		</for>
 	</skill>
-	<skill id="868" levels="1" name="Fortress Captain">
+	<skill id="868" levels="1" name="要塞隊長">
 		<set name="hitTime" val="2500" />
 		<set name="target" val="TARGET_SELF" />
 		<set name="skillType" val="BUFF" />
@@ -1052,7 +1052,7 @@
 			<effect name="Transformation" time="1800" val="0" stackOrder="1" stackType="transform" />
 		</for>
 	</skill>
-	<skill id="869" levels="9" name="Mercenary Power Strike">
+	<skill id="869" levels="9" name="傭兵強力攻擊">
 		<!-- Confirmed CT2.5 -->
 		<table name="#magicLvl"> 60 70 80 81 82 83 84 85 86 </table>
 		<table name="#power"> 2272 3252 4224 4312 4399 4482 4563 4640 4715 </table>
@@ -1069,7 +1069,7 @@
 		<set name="effectRange" val="400" />
 		<set name="nextActionAttack" val="true" />
 	</skill>
-	<skill id="870" levels="8" name="Knight Mercenary Power Strike">
+	<skill id="870" levels="8" name="親衛隊長強力攻擊">
 		<!-- Confirmed CT2.5 -->
 		<table name="#magicLvl"> 70 80 81 82 83 84 85 86 </table>
 		<table name="#power"> 3252 4224 4312 4399 4482 4563 4640 4715 </table>
@@ -1086,7 +1086,7 @@
 		<set name="effectRange" val="400" />
 		<set name="nextActionAttack" val="true" />
 	</skill>
-	<skill id="871" levels="1" name="Might">
+	<skill id="871" levels="1" name="力量強化">
 		<!-- Confirmed CT2.5 -->
 		<set name="mpInitialConsume" val="7" />
 		<set name="mpConsume" val="28" />
@@ -1104,7 +1104,7 @@
 			</effect>
 		</for>
 	</skill>
-	<skill id="872" levels="8" name="Archer Mercenary Power Shot">
+	<skill id="872" levels="8" name="弓箭手隊長能量箭">
 		<!-- Confirmed CT2.5 -->
 		<table name="#magicLvl"> 70 80 81 82 83 84 85 86 </table>
 		<table name="#power"> 4336 5632 5750 5865 5976 6084 6187 6286 </table>
@@ -1121,7 +1121,7 @@
 		<set name="effectRange" val="1200" />
 		<set name="overHit" val="true" />
 	</skill>
-	<skill id="873" levels="1" name="Rapid Shot">
+	<skill id="873" levels="1" name="快速箭">
 		<!-- Confirmed CT2.5 -->
 		<set name="magicLvl" val="70" />
 		<set name="mpConsume" val="25" />
@@ -1139,7 +1139,7 @@
 			</effect>
 		</for>
 	</skill>
-	<skill id="874" levels="8" name="Wizard Mercenary Flame Strike">
+	<skill id="874" levels="8" name="魔法團長火焰狂襲">
 		<!-- Confirmed CT2.5 -->
 		<table name="#magicLvl"> 70 80 81 82 83 84 85 86 </table>
 		<table name="#power"> 68 78 78 79 80 81 81 82 </table>
@@ -1160,7 +1160,7 @@
 		<set name="element" val="0" /> <!-- Fire -->
 		<set name="elementPower" val="#elementPower" />
 	</skill>
-	<skill id="875" levels="1" name="Empower">
+	<skill id="875" levels="1" name="魔力催化">
 		<!-- Confirmed CT2.5 -->
 		<set name="magicLvl" val="70" />
 		<set name="mpInitialConsume" val="14" />
@@ -1179,7 +1179,7 @@
 			</effect>
 		</for>
 	</skill>
-	<skill id="876" levels="8" name="Kamael Captain Mercenary Enuma Elish">
+	<skill id="876" levels="8" name="闇天使警衛隊長諸天之上">
 		<!-- Confirmed CT2.5 -->
 		<table name="#power"> 4878 6335 6468 6598 6723 6844 6960 7072 </table>
 		<table name="#magicLvl"> 70 80 81 82 83 84 85 86 </table>
@@ -1199,7 +1199,7 @@
 		<set name="soulMaxConsumeCount" val="5" />
 		<set name="nextActionAttack" val="true" />
 	</skill>
-	<skill id="877" levels="8" name="Kamael Captain Mercenary Disarm">
+	<skill id="877" levels="8" name="闇天使警衛隊長卸除武器">
 		<!-- Confirmed CT2.5 -->
 		<table name="#magicLvl"> 70 80 81 82 83 84 85 86 </table>
 		<set name="magicLvl" val="#magicLvl" />
@@ -1224,7 +1224,7 @@
 			</effect>
 		</for>
 	</skill>
-	<skill id="878" levels="7" name="Knight Captain Mercenary Power Strike">
+	<skill id="878" levels="7" name="黎明騎士強力攻擊">
 		<!-- Confirmed CT2.5 -->
 		<table name="#magicLvl"> 80 81 82 83 84 85 86 </table>
 		<table name="#power"> 5068 5175 5278 5379 5475 5568 5658 </table>
@@ -1241,7 +1241,7 @@
 		<set name="effectRange" val="400" />
 		<set name="nextActionAttack" val="true" />
 	</skill>
-	<skill id="879" levels="7" name="Knight Captain Mercenary Curse Fear">
+	<skill id="879" levels="7" name="黎明騎士恐懼之咒">
 		<!-- Confirmed CT2.5 -->
 		<table name="#magicLvl"> 80 81 82 83 84 85 86 </table>
 		<set name="mpInitialConsume" val="14" />
@@ -1263,7 +1263,7 @@
 			<effect count="5" name="Fear" time="2" val="0" stackOrder="1" stackType="turn_flee" />
 		</for>
 	</skill>
-	<skill id="880" levels="1" name="Knight Captain Mercenary Ultimate Defense">
+	<skill id="880" levels="1" name="黎明騎士極限防禦">
 		<!-- Confirmed CT2.5 -->
 		<set name="magicLvl" val="80" />
 		<set name="mpConsume" val="21" />
@@ -1281,7 +1281,7 @@
 			</effect>
 		</for>
 	</skill>
-	<skill id="881" levels="7" name="Commander Mercenary Twister">
+	<skill id="881" levels="7" name="要塞隊長風漩術">
 		<!-- Confirmed CT2.5 -->
 		<table name="#magicLvl"> 80 81 82 83 84 85 86 </table>
 		<table name="#power"> 116 117 119 120 121 122 123 </table>
@@ -1301,7 +1301,7 @@
 		<set name="castRange" val="750" />
 		<set name="effectRange" val="1250" />
 	</skill>
-	<skill id="882" levels="7" name="Commander Mercenary Blaze">
+	<skill id="882" levels="7" name="要塞隊長赤焰燃燒">
 		<!-- Confirmed CT2.5 -->
 		<table name="#magicLvl"> 80 81 82 83 84 85 86 </table>
 		<table name="#power"> 116 117 119 120 121 122 123 </table>
@@ -1321,7 +1321,7 @@
 		<set name="castRange" val="750" />
 		<set name="effectRange" val="1250" />
 	</skill>
-	<skill id="883" levels="7" name="Commander Mercenary Seal of Binding">
+	<skill id="883" levels="7" name="要塞隊長約束封印">
 		<!-- Confirmed CT2.5 -->
 		<table name="#magicLvl"> 80 81 82 83 84 85 86 </table>
 		<set name="magicLvl" val="#magicLvl" />
@@ -1342,7 +1342,7 @@
 			<effect name="Root" time="30" val="0" stackOrder="1" stackType="root_magically" />
 		</for>
 	</skill>
-	<skill id="884" levels="11" name="Air Assault">
+	<skill id="884" levels="11" name="空中突襲">
 		<!-- Aurabird Falcon & Owl -->
 		<table name="#magicLvl"> 75 76 77 78 79 80 81 82 83 84 85 </table>
 		<set name="power" val="1" />
@@ -1363,7 +1363,7 @@
 			<target mindistance="200" />
 		</cond>
 	</skill>
-	<skill id="885" levels="1" name="Air Blink">
+	<skill id="885" levels="1" name="空中閃逝">
 		<!-- Aurabird Falcon & Owl -->
 		<set name="flyCourse" val="0" /> <!-- Teleport to Back -->
 		<set name="flyRadius" val="500" />
@@ -1384,7 +1384,7 @@
 			<effect self="1" name="Warp" noicon="1" val="0" />
 		</for>
 	</skill>
-	<skill id="886" levels="11" name="Air Shock Bomb">
+	<skill id="886" levels="11" name="空中休克炸彈">
 		<!-- Aurabird Falcon -->
 		<table name="#power"> 2251 2310 2367 2424 2480 2534 2588 2639 2690 2738 2784 </table>
 		<table name="#mpConsume"> 69 70 70 71 72 72 73 74 74 75 75 </table>
@@ -1406,7 +1406,7 @@
 			<effect name="Stun" time="9" val="0" effectPower="50" effectType="STUN" stackOrder="1" stackType="stun" special="airstun" />
 		</for>
 	</skill>
-	<skill id="887" levels="11" name="Sky Clutch">
+	<skill id="887" levels="11" name="空中束縛炸彈">
 		<!-- Aurabird Owl -->
 		<table name="#power"> 110 111 112 114 115 116 117 119 120 121 122 </table>
 		<table name="#mpConsume"> 69 70 70 71 72 72 73 74 74 75 75 </table>
@@ -1429,7 +1429,7 @@
 			<effect name="Root" time="9" val="0" effectPower="80" effectType="ROOT" stackOrder="1" stackType="root_magically" special="airroot" />
 		</for>
 	</skill>
-	<skill id="888" levels="11" name="Energy Storm">
+	<skill id="888" levels="11" name="能量閃焰">
 		<!-- Aurabird Falcon -->
 		<table name="#power"> 3752 3849 3945 4040 4133 4224 4312 4399 4482 4563 4640 </table>
 		<table name="#mpConsume"> 69 70 70 71 72 72 73 74 74 75 75 </table>
@@ -1445,7 +1445,7 @@
 		<set name="castRange" val="200" />
 		<set name="effectRange" val="500" />
 	</skill>
-	<skill id="889" levels="11" name="Energy Storm">
+	<skill id="889" levels="11" name="能量閃焰">
 		<!-- Aurabird Owl -->
 		<table name="#power"> 3752 3849 3945 4040 4133 4224 4312 4399 4482 4563 4640 </table>
 		<table name="#mpConsume"> 69 70 70 71 72 72 73 74 74 75 75 </table>
@@ -1461,7 +1461,7 @@
 		<set name="castRange" val="200" />
 		<set name="effectRange" val="500" />
 	</skill>
-	<skill id="890" levels="11" name="Prodigious Flare">
+	<skill id="890" levels="11" name="雙重閃焰">
 		<!-- Aurabird Falcon -->
 		<table name="#power"> 5627 5773 5918 6060 6199 6335 6468 6598 6723 6844 6960 </table>
 		<table name="#mpConsume"> 69 70 70 71 72 72 73 74 74 75 75 </table>
@@ -1477,7 +1477,7 @@
 		<set name="castRange" val="200" />
 		<set name="effectRange" val="500" />
 	</skill>
-	<skill id="891" levels="11" name="Energy Shot">
+	<skill id="891" levels="11" name="能量射擊">
 		<!-- Aurabird Falcon -->
 		<table name="#power"> 88 89 90 91 92 93 94 95 96 97 98 </table>
 		<table name="#mpConsume"> 69 70 70 71 72 72 73 74 74 75 75 </table>
@@ -1494,7 +1494,7 @@
 		<set name="castRange" val="900" />
 		<set name="effectRange" val="1800" />
 	</skill>
-	<skill id="892" levels="11" name="Energy Shot">
+	<skill id="892" levels="11" name="能量射擊">
 		<!-- Aurabird Owl -->
 		<table name="#power"> 131 133 135 136 138 139 141 142 144 145 146 </table>
 		<table name="#mpConsume"> 69 70 70 71 72 72 73 74 74 75 75 </table>
@@ -1511,7 +1511,7 @@
 		<set name="castRange" val="900" />
 		<set name="effectRange" val="1800" />
 	</skill>
-	<skill id="893" levels="11" name="Concentrated Energy Shot">
+	<skill id="893" levels="11" name="專注能量射擊">
 		<!-- Aurabird Owl -->
 		<table name="#power"> 197 199 202 204 206 209 211 213 215 217 219 </table>
 		<table name="#mpConsume"> 69 70 70 71 72 72 73 74 74 75 75 </table>
@@ -1528,7 +1528,7 @@
 		<set name="castRange" val="900" />
 		<set name="effectRange" val="1800" />
 	</skill>
-	<skill id="894" levels="1" name="Exhilarate">
+	<skill id="894" levels="1" name="釋放能力">
 		<!-- Aurabird Falcon -->
 		<set name="magicLvl" val="83" />
 		<set name="mpConsume" val="69" />
@@ -1547,7 +1547,7 @@
 			</effect>
 		</for>
 	</skill>
-	<skill id="895" levels="1" name="Exhilarate">
+	<skill id="895" levels="1" name="釋放能力">
 		<!-- Aurabird Owl -->
 		<set name="magicLvl" val="83" />
 		<set name="mpConsume" val="70" />
@@ -1565,7 +1565,7 @@
 			</effect>
 		</for>
 	</skill>
-	<skill id="896" levels="6" name="Rolling Step">
+	<skill id="896" levels="6" name="輪轉刺擊">
 		<table name="#mpConsume"> 72 73 74 74 75 75 </table>
 		<table name="#power"> 9503 9702 9896 10084 10266 10440 </table>
 		<set name="mpConsume" val="#mpConsume" />
@@ -1581,7 +1581,7 @@
 		<set name="castRange" val="40" />
 		<set name="effectRange" val="400" />
 	</skill>
-	<skill id="897" levels="6" name="Double Blast">
+	<skill id="897" levels="6" name="雙重衝擊">
 		<table name="#mpConsume"> 72 73 74 74 75 75 </table>
 		<table name="#power"> 9503 9702 9896 10084 10266 10440 </table>
 		<set name="mpConsume" val="#mpConsume" />
@@ -1596,7 +1596,7 @@
 		<set name="castRange" val="900" />
 		<set name="effectRange" val="1500" />
 	</skill>
-	<skill id="898" levels="6" name="Tornado Slash">
+	<skill id="898" levels="6" name="迴旋斬">
 		<table name="#mpConsume"> 72 73 74 74 75 75 </table>
 		<table name="#power"> 9503 9702 9896 10084 10266 10440 </table>
 		<set name="mpConsume" val="#mpConsume" />
@@ -1610,7 +1610,7 @@
 		<set name="SSBoost" val="2.0" />
 		<set name="operateType" val="OP_ACTIVE" />
 	</skill>
-	<skill id="899" levels="6" name="Cat Roar">
+	<skill id="899" levels="6" name="貓靈怒吼">
 		<table name="#mpConsume"> 72 73 74 74 75 75 </table>
 		<table name="#power"> 3168 3234 3299 3362 3422 3480 </table>
 		<set name="mpConsume" val="#mpConsume" />

@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <list>
-	<skill id="100" levels="15" name="Stun Attack" enchantGroup1="2">
+	<skill id="100" levels="15" name="昏迷之擊" enchantGroup1="2">
 		<table name="#enchantMagicLvl"> 76 76 76 77 77 77 78 78 78 79 79 79 80 80 80 81 81 81 82 82 82 82 83 83 83 84 84 85 85 85 </table>
 		<table name="#mpConsume"> 19 19 20 21 21 22 24 25 26 27 28 29 31 32 33 </table>
 		<table name="#power"> 36 39 42 49 53 57 66 71 77 88 94 101 115 123 131 </table>
@@ -30,7 +30,7 @@
 			<effect name="Stun" time="9" val="0" effectPower="50" effectType="STUN" stackOrder="1" stackType="stun" />
 		</for>
 	</skill>
-	<skill id="101" levels="40" name="Stunning Shot" enchantGroup1="2" enchantGroup2="2" enchantGroup3="2" enchantGroup4="2">
+	<skill id="101" levels="40" name="衝擊箭" enchantGroup1="2" enchantGroup2="2" enchantGroup3="2" enchantGroup4="2">
 		<table name="#enchantMagicLvl"> 76 76 76 77 77 77 78 78 78 79 79 79 80 80 80 81 81 81 82 82 82 82 83 83 83 84 84 85 85 85 </table>
 		<table name="#enchpmDef"> 0.99 0.98 0.98 0.97 0.97 0.95 0.94 0.93 0.93 0.92 0.91 0.9 0.9 0.88 0.87 0.86 0.86 0.85 0.84 0.81 0.8 0.8 0.79 0.78 0.78 0.77 0.76 0.74 0.73 0.72 </table>
 		<table name="#ench2mpConsume"> 107 106 104 103 101 100 98 97 96 94 93 91 90 88 87 85 84 83 81 80 78 77 75 74 73 71 70 68 67 65 </table>
@@ -83,7 +83,7 @@
 			<effect name="RemoveTarget" noicon="1" val="0" effectPower="50" effectType="DEBUFF" />
 		</enchant4for>
 	</skill>
-	<skill id="102" levels="16" name="Entangle" enchantGroup1="1" enchantGroup2="1" enchantGroup3="1">
+	<skill id="102" levels="16" name="纏繞之足" enchantGroup1="1" enchantGroup2="1" enchantGroup3="1">
 		<table name="#enchantMagicLvl"> 76 76 76 77 77 77 78 78 78 79 79 79 80 80 80 81 81 81 82 82 82 82 83 83 83 84 84 85 85 85 </table>
 		<table name="#ench1Power"> 80 81 82 82 83 84 84 85 86 86 87 88 88 89 90 90 91 92 92 93 94 94 95 96 96 97 98 98 99 100 </table>
 		<table name="#ench2time"> 62 64 66 68 70 72 74 76 78 80 82 84 86 88 90 92 94 96 98 100 102 104 106 108 110 112 114 116 118 120 </table>
@@ -129,7 +129,7 @@
 			</effect>
 		</enchant3for>
 	</skill>
-	<skill id="103" levels="4" name="Corpse Plague">
+	<skill id="103" levels="4" name="屍疫">
 		<table name="#dot"> 123 150 174 189 </table>
 		<table name="#magicLvl"> 46 58 62 70 </table>
 		<table name="#mpConsume"> 22 28 29 33 </table>
@@ -155,7 +155,7 @@
 			<effect count="10" name="DamOverTime" time="3" val="#dot" stackOrder="#abnormalLvl" stackType="poison" abnormal="poison" />
 		</for>
 	</skill>
-	<skill id="104" levels="1" name="Detect Plant Weakness">
+	<skill id="104" levels="1" name="植物剋星">
 		<set name="mpConsume" val="21" />
 		<set name="magicLvl" val="46" />
 		<set name="target" val="TARGET_SELF" />
@@ -170,7 +170,7 @@
 			</effect>
 		</for>
 	</skill>
-	<skill id="105" levels="24" name="Freezing Strike" enchantGroup1="2" enchantGroup2="2" enchantGroup3="2" enchantGroup4="2">
+	<skill id="105" levels="24" name="冰凍之擊" enchantGroup1="2" enchantGroup2="2" enchantGroup3="2" enchantGroup4="2">
 		<table name="#enchantMagicLvl"> 76 76 76 77 77 77 78 78 78 79 79 79 80 80 80 81 81 81 82 82 82 82 83 83 83 84 84 85 85 85 </table>
 		<table name="#ench2mpConsume"> 27 27 26 26 25 25 25 24 24 24 23 23 22 22 22 21 21 20 20 20 19 19 19 18 18 17 17 17 16 16 </table>
 		<table name="#ench2MpConsume_Init"> 6 6 6 6 6 6 6 6 6 6 5 5 5 5 5 5 5 5 5 5 4 4 4 4 4 4 4 4 4 4 </table>
@@ -217,7 +217,7 @@
 			</effect>
 		</enchant3for>
 	</skill>
-	<skill id="106" levels="14" name="Veil">
+	<skill id="106" levels="14" name="視覺遮蔽">
 		<table name="#magicLvl"> 43 46 49 52 55 58 60 62 64 66 68 70 72 74 </table>
 		<table name="#mpConsume"> 19 21 22 24 25 27 28 29 30 31 32 33 34 34 </table>
 		<set name="mpConsume" val="#mpConsume" />
@@ -238,7 +238,7 @@
 			</effect>
 		</for>
 	</skill>
-	<skill id="107" levels="9" name="Holy Aura" enchantGroup1="1" enchantGroup2="1" enchantGroup3="1">
+	<skill id="107" levels="9" name="神聖靈氣" enchantGroup1="1" enchantGroup2="1" enchantGroup3="1">
 		<table name="#enchantMagicLvl"> 76 76 76 77 77 77 78 78 78 79 79 79 80 80 80 81 81 81 82 82 82 82 83 83 83 84 84 85 85 85 </table>
 		<table name="#ench1Power"> 41 42 44 45 46 48 49 50 52 53 54 56 57 58 60 61 62 64 65 66 68 69 70 72 73 74 76 77 78 80 </table>
 		<table name="#ench2mpConsume"> 50 50 49 48 47 46 45 44 44 43 42 41 40 39 38 38 37 36 35 34 33 32 32 31 30 29 28 27 26 26 </table>
@@ -271,7 +271,7 @@
 			</effect>
 		</enchant3for>
 	</skill>
-	<skill id="109" levels="1" name="Ogre Spirit Totem">
+	<skill id="109" levels="1" name="食人魔圖騰靈">
 		<set name="magicLvl" val="46" />
 		<set name="mpConsume" val="21" />
 		<set name="target" val="TARGET_SELF" />
@@ -298,7 +298,7 @@
 			</effect>
 		</for>
 	</skill>
-	<skill id="110" levels="2" name="Ultimate Defense" enchantGroup1="1" enchantGroup2="1" enchantGroup3="1">
+	<skill id="110" levels="2" name="極限防禦" enchantGroup1="1" enchantGroup2="1" enchantGroup3="1">
 		<table name="#enchantMagicLvl"> 76 76 76 77 77 77 78 78 78 79 79 79 80 80 80 81 81 81 82 82 82 82 83 83 83 84 84 85 85 85 </table>
 		<table name="#pDef"> 1800 3600 </table>
 		<table name="#mDef"> 1350 2700 </table>
@@ -352,7 +352,7 @@
 			</effect>
 		</enchant3for>
 	</skill>
-	<skill id="111" levels="2" name="Ultimate Evasion" enchantGroup1="1" enchantGroup2="1">
+	<skill id="111" levels="2" name="極限迴避" enchantGroup1="1" enchantGroup2="1">
 		<table name="#enchantMagicLvl"> 76 76 76 77 77 77 78 78 78 79 79 79 80 80 80 81 81 81 82 82 82 82 83 83 83 84 84 85 85 85 </table>
 		<table name="#ench1time"> 31 32 33 34 35 36 37 38 39 40 41 42 43 44 45 46 47 48 49 50 51 52 53 54 55 56 57 58 59 60 </table>
 		<table name="#ench2reuseDelay"> 885000 870000 855000 840000 825000 810000 795000 780000 765000 750000 735000 720000 705000 690000 675000 660000 645000 630000 615000 600000 585000 570000 555000 540000 525000 510000 495000 480000 465000 450000 </table>
@@ -386,7 +386,7 @@
 			</effect>
 		</enchant1for>
 	</skill>
-	<skill id="112" levels="4" name="Deflect Arrow" enchantGroup1="1" enchantGroup2="1">
+	<skill id="112" levels="4" name="禦箭術" enchantGroup1="1" enchantGroup2="1">
 		<table name="#enchantMagicLvl"> 76 76 76 77 77 77 78 78 78 79 79 79 80 80 80 81 81 81 82 82 82 82 83 83 83 84 84 85 85 85 </table>
 		<table name="#ench1time"> 1240 1280 1320 1360 1400 1440 1480 1520 1560 1600 1640 1680 1720 1760 1800 1840 1880 1920 1960 2000 2040 2080 2120 2160 2200 2240 2280 2320 2360 2400 </table>
 		<table name="#bowWpnVuln"> 0.84 0.76 0.68 0.6 </table>
@@ -426,7 +426,7 @@
 			</effect>
 		</enchant2for>
 	</skill>
-	<skill id="113" levels="2" name="Long Shot">
+	<skill id="113" levels="2" name="遠箭術">
 		<table name="#dist"> 200 400 </table>
 		<set name="target" val="TARGET_SELF" />
 		<set name="skillType" val="BUFF" />
@@ -437,7 +437,7 @@
 			</add>
 		</for>
 	</skill>
-	<skill id="115" levels="17" name="Power Break" enchantGroup1="1" enchantGroup2="1" enchantGroup3="1">
+	<skill id="115" levels="17" name="能量破壞" enchantGroup1="1" enchantGroup2="1" enchantGroup3="1">
 		<table name="#enchantMagicLvl"> 76 76 76 77 77 77 78 78 78 79 79 79 80 80 80 81 81 81 82 82 82 82 83 83 83 84 84 85 85 85 </table>
 		<table name="#mpInitialConsume"> 3 3 4 4 5 5 5 5 6 6 6 6 7 7 7 7 7 </table>
 		<table name="#mpConsume"> 11 14 14 15 17 18 19 20 22 22 23 24 25 26 26 27 28 </table>
@@ -484,7 +484,7 @@
 			</effect>
 		</enchant3for>
 	</skill>
-	<skill id="116" levels="14" name="Howl" enchantGroup1="1" enchantGroup2="1">
+	<skill id="116" levels="14" name="怒嚎" enchantGroup1="1" enchantGroup2="1">
 		<table name="#enchantMagicLvl"> 76 76 76 77 77 77 78 78 78 79 79 79 80 80 80 81 81 81 82 82 82 82 83 83 83 84 84 85 85 85 </table>
 		<table name="#ench1Power"> 41 42 43 44 45 46 47 48 49 50 51 52 53 54 55 56 57 58 59 60 61 62 63 64 65 66 67 68 69 70 </table>
 		<table name="#ench2time"> 33 36 39 42 45 48 51 54 57 60 63 66 69 72 75 78 81 84 87 90 93 96 99 102 105 108 111 114 117 120 </table>
@@ -516,7 +516,7 @@
 			</effect>
 		</enchant2for>
 	</skill>
-	<skill id="118" levels="1" name="Magician's Movement">
+	<skill id="118" levels="1" name="法師迅捷術">
 		<set name="target" val="TARGET_SELF" />
 		<set name="skillType" val="BUFF" />
 		<set name="operateType" val="OP_PASSIVE" />
@@ -526,7 +526,7 @@
 			</mul>
 		</for>
 	</skill>
-	<skill id="120" levels="15" name="Stunning Fist">
+	<skill id="120" levels="15" name="昏迷之拳">
 		<table name="#magicLvl"> 18 19 20 22 23 24 26 27 28 30 31 32 34 35 36 </table>
 		<table name="#mpConsume"> 19 19 20 21 21 22 24 25 26 27 28 29 31 32 33 </table>
 		<table name="#power"> 42 46 49 57 62 67 77 83 89 103 110 117 134 143 152 </table>
@@ -552,7 +552,7 @@
 			<effect name="Stun" time="9" val="0" effectPower="50" effectType="STUN" stackOrder="1" stackType="stun" />
 		</for>
 	</skill>
-	<skill id="121" levels="6" name="Battle Roar" enchantGroup1="1" enchantGroup2="1">
+	<skill id="121" levels="6" name="戰鬥咆哮" enchantGroup1="1" enchantGroup2="1">
 		<!-- @Calculation@ (#power / 100 ) * (100 * #maxHp) = ~#maxHp -->
 		<table name="#enchantMagicLvl"> 76 76 76 77 77 77 78 78 78 79 79 79 80 80 80 81 81 81 82 82 82 82 83 83 83 84 84 85 85 85 </table>
 		<table name="#ench1Reuse"> 148000 145000 143000 140000 138000 135000 133000 130000 128000 125000 123000 120000 118000 115000 113000 110000 108000 105000 103000 100000 98000 95000 93000 90000 88000 85000 83000 80000 78000 75000 </table>
@@ -585,7 +585,7 @@
 			</effect>
 		</enchant2for>
 	</skill>
-	<skill id="122" levels="15" name="Hex" enchantGroup1="1" enchantGroup2="1" enchantGroup3="1">
+	<skill id="122" levels="15" name="衰弱術" enchantGroup1="1" enchantGroup2="1" enchantGroup3="1">
 		<table name="#enchantMagicLvl"> 76 76 76 77 77 77 78 78 78 79 79 79 80 80 80 81 81 81 82 82 82 82 83 83 83 84 84 85 85 85 </table>
 		<table name="#ench1Power"> 80 81 82 82 83 84 84 85 86 86 87 88 88 89 90 90 94 92 92 93 94 94 95 96 96 97 98 98 99 100 </table>
 		<table name="#ench2time"> 33 36 39 42 45 48 51 54 57 60 63 66 69 72 75 78 81 84 87 90 93 96 99 102 105 108 111 114 117 120 </table>
@@ -628,7 +628,7 @@
 			</effect>
 		</enchant3for>
 	</skill>
-	<skill id="123" levels="3" name="Spirit Barrier" enchantGroup1="1" enchantGroup2="1">
+	<skill id="123" levels="3" name="精神屏障" enchantGroup1="1" enchantGroup2="1">
 		<table name="#enchantMagicLvl"> 76 76 76 77 77 77 78 78 78 79 79 79 80 80 80 81 81 81 82 82 82 82 83 83 83 84 84 85 85 85 </table>
 		<table name="#ench1time"> 1240 1280 1320 1360 1400 1440 1480 1520 1560 1600 1640 1680 1720 1760 1800 1840 1880 1920 1960 2000 2040 2080 2120 2160 2200 2240 2280 2320 2360 2400 </table>
 		<table name="#ench2power"> 1.31 1.31 1.31 1.31 1.31 1.31 1.31 1.32 1.32 1.32 1.32 1.32 1.32 1.32 1.33 1.33 1.33 1.33 1.33 1.33 1.33 1.33 1.34 1.34 1.34 1.34 1.34 1.34 1.34 1.35 </table>
@@ -664,7 +664,7 @@
 			</effect>
 		</enchant2for>
 	</skill>
-	<skill id="127" levels="14" name="Hamstring" enchantGroup1="1" enchantGroup2="1">
+	<skill id="127" levels="14" name="遲緩術" enchantGroup1="1" enchantGroup2="1">
 		<table name="#enchantMagicLvl"> 76 76 76 77 77 77 78 78 78 79 79 79 80 80 80 81 81 81 82 82 82 82 83 83 83 84 84 85 85 85 </table>
 		<table name="#magicLvl"> 43 46 49 52 55 58 60 62 64 66 68 70 72 74 </table>
 		<table name="#mpInitialConsume"> 4 5 5 5 5 6 6 6 6 7 7 7 7 7 </table>
@@ -699,7 +699,7 @@
 			</effect>
 		</enchant2for>
 	</skill>
-	<skill id="129" levels="5" name="Poison">
+	<skill id="129" levels="5" name="施毒術">
 		<table name="#mpInitialConsume"> 2 5 6 7 7 </table>
 		<table name="#mpConsume"> 8 18 22 25 28 </table>
 		<table name="#magicLvl"> 20 49 58 66 74 </table>
@@ -726,7 +726,7 @@
 			<effect count="10" name="DamOverTime" time="3" val="#dot" stackOrder="#abnormalLvl" stackType="poison" abnormal="poison" />
 		</for>
 	</skill>
-	<skill id="130" levels="2" name="Thrill Fight" enchantGroup1="1">
+	<skill id="130" levels="2" name="顫慄激戰" enchantGroup1="1">
 		<table name="#pAtkSpd"> 1.05 1.1 </table>
 		<table name="#mpConsume"> 21 25 </table>
 		<table name="#ench1runSpd"> 0.81 0.82 0.82 0.83 0.84 0.84 0.85 0.86 0.86 0.87 0.88 0.88 0.89 0.9 0.9 0.91 0.92 0.92 0.93 0.94 0.94 0.95 0.96 0.96 0.97 0.98 0.98 0.99 1.00 1.00 </table>
@@ -752,7 +752,7 @@
 			</effect>
 		</enchant1for>
 	</skill>
-	<skill id="131" levels="3" name="Hawk Eye" enchantGroup1="1">
+	<skill id="131" levels="3" name="鷹之眼" enchantGroup1="1">
 		<table name="#ench1time"> 310 320 330 340 350 360 370 380 390 400 410 420 430 440 450 460 470 480 490 500 510 520 530 540 550 560 570 580 590 600 </table>
 		<table name="#accCombat"> 6 8 10 </table>
 		<table name="#mpConsume"> 18 22 27 </table>
@@ -778,7 +778,7 @@
 			</effect>
 		</enchant1for>
 	</skill>
-	<skill id="134" levels="1" name="Toughness" enchantGroup1="1">
+	<skill id="134" levels="1" name="強化意志" enchantGroup1="1">
 		<table name="#ench1vuln"> 21 21 21 22 22 22 23 23 23 24 24 24 24 25 25 25 26 26 26 27 27 27 27 28 28 28 29 29 29 30 </table>
 		<set name="target" val="TARGET_SELF" />
 		<set name="skillType" val="BUFF" />
@@ -794,7 +794,7 @@
 			<sub order="0x40" stat="poisonVuln" val="#ench1vuln" />
 		</enchant1for>
 	</skill>
-	<skill id="137" levels="4" name="Critical Chance" enchantGroup1="1">
+	<skill id="137" levels="4" name="致命機率" enchantGroup1="1">
 		<table name="#ench1rate"> 0.5 0.5 0.51 0.51 0.51 0.52 0.52 0.52 0.53 0.53 0.53 0.54 0.54 0.54 0.55 0.55 0.55 0.56 0.56 0.56 0.57 0.57 0.57 0.58 0.58 0.58 0.59 0.59 0.59 0.6 </table>
 		<table name="#rate"> 0.2 0.3 0.4 0.5 </table>
 		<set name="target" val="TARGET_SELF" />
@@ -807,7 +807,7 @@
 			<basemul order="0x30" stat="rCrit" val="#ench1rate" />
 		</enchant1for>
 	</skill>
-	<skill id="139" levels="3" name="Guts">
+	<skill id="139" levels="3" name="勇氣加護">
 		<table name="#pDef"> 2 2.5 3 </table>
 		<table name="#mpConsume"> 16 19 24 </table>
 		<table name="#stackOrder"> 1 2 3 </table>
@@ -828,7 +828,7 @@
 			</effect>
 		</for>
 	</skill>
-	<skill id="141" levels="3" name="Weapon Mastery">
+	<skill id="141" levels="3" name="精通武器">
 		<table name="#pAtk"> 2 3 4 </table>
 		<set name="target" val="TARGET_SELF" />
 		<set name="skillType" val="BUFF" />
@@ -838,7 +838,7 @@
 			<add order="0x40" stat="pAtk" val="#pAtk" />
 		</for>
 	</skill>
-	<skill id="142" levels="5" name="Armor Mastery">
+	<skill id="142" levels="5" name="精通護甲">
 		<table name="#pDef"> 9 11 12 13 14 </table>
 		<table name="#rEvas"> 0 0 0 3 3 </table>
 		<set name="target" val="TARGET_SELF" />
@@ -851,12 +851,12 @@
 			</add>
 		</for>
 	</skill>
-	<skill id="143" levels="2" name="Cubic Mastery">
+	<skill id="143" levels="2" name="精通晶體召喚">
 		<set name="target" val="TARGET_SELF" />
 		<set name="skillType" val="COREDONE" />
 		<set name="operateType" val="OP_PASSIVE" />
 	</skill>
-	<skill id="144" levels="37" name="Dual Weapon Mastery" enchantGroup1="1" enchantGroup2="1">
+	<skill id="144" levels="37" name="精通二刀流" enchantGroup1="1" enchantGroup2="1">
 		<table name="#pAtk"> 23.7 25.4 27.1 29 30.9 32.9 35 37.1 39.4 41.7 44.1 46.6 49.2 51.9 54.6 57.5 60.4 63.3 66.4 69.5 72.7 76 79.3 82.7 86.1 89.6 93.1 96.6 100.2 103.8 107.5 111.1 114.8 118.4 122.1 125.7 129.3 </table>
 		<table name="#ench1pAtk"> 137 138 139 140 141 142 143 144 145 146 147 148 150 151 152 153 154 155 156 157 158 159 160 161 162 163 164 165 166 167 </table>
 		<table name="#ench2pAtkSpd"> 1.011 1.012 1.014 1.015 1.016 1.018 1.019 1.020 1.022 1.023 1.024 1.026 1.027 1.028 1.030 1.031 1.032 1.034 1.035 1.036 1.038 1.039 1.040 1.042 1.043 1.044 1.046 1.047 1.048 1.050 </table>
@@ -882,7 +882,7 @@
 			</mul>
 		</enchant2for>
 	</skill>
-	<skill id="146" levels="45" name="Anti Magic" enchantGroup1="1">
+	<skill id="146" levels="45" name="抗魔術" enchantGroup1="1">
 		<table name="#mDef"> 10 12 14 16 18 20 23 25 28 30 34 36 40 42 43 46 47 49 52 54 56 59 61 63 66 68 70 72 74 76 78 80 82 84 86 88 91 93 95 97 99 102 104 106 108 </table>
 		<table name="#magicDamVul"> 1 1 0.95 0.95 0.95 0.95 0.9 0.9 0.9 0.9 0.9 0.9 0.85 0.85 0.85 0.85 0.85 0.85 0.85 0.85 0.85 0.8 0.8 0.8 0.8 0.8 0.8 0.8 0.8 0.8 0.8 0.8 0.8 0.75 0.75 0.75 0.75 0.75 0.75 0.7 0.7 0.7 0.7 0.7 0.7 </table>
 		<table name="#ench1mDef"> 113 114 115 115 116 117 117 118 119 119 120 121 121 122 123 123 124 125 125 126 127 127 128 129 129 130 131 131 132 133 </table>
@@ -898,7 +898,7 @@
 			<mul order="0x30" stat="magicDamVul" val="0.7" />
 		</enchant1for>
 	</skill>
-	<skill id="147" levels="51" name="Magic Resistance" enchantGroup1="1">
+	<skill id="147" levels="51" name="魔法抵抗" enchantGroup1="1">
 		<table name="#mDef"> 22 24 26 28 29 31 32 33 36 37 39 42 43 45 48 50 51 53 55 57 59 61 62 64 67 69 71 73 75 77 79 82 84 86 89 91 94 96 98 101 103 106 109 111 114 116 119 122 124 127 130 </table>
 		<table name="#magicDamVul"> 1 1 1 1 1 1 1 1 1 1 1 1 1 1 0.95 0.95 0.95 0.95 0.95 0.95 0.95 0.95 0.95 0.95 0.95 0.95 0.9 0.9 0.9 0.9 0.9 0.9 0.9 0.9 0.9 0.9 0.9 0.9 0.9 0.85 0.85 0.85 0.85 0.85 0.85 0.8 0.8 0.8 0.8 0.8 0.8 </table>
 		<table name="#ench1mDef"> 131 132 133 133 134 135 135 136 137 137 138 139 139 140 141 141 142 143 143 144 145 145 146 147 147 148 149 149 150 151 </table>
@@ -914,7 +914,7 @@
 			<mul order="0x30" stat="magicDamVul" val="0.8" />
 		</enchant1for>
 	</skill>
-	<skill id="148" levels="8" name="Vital Force">
+	<skill id="148" levels="8" name="生命之原">
 		<table name="#hp"> 1.9 2.7 2.9 3.6 4.5 4.7 5.6 6.7 </table>
 		<table name="#mp"> 1.9 2.1 2.2 2.5 2.7 2.8 3.1 3.5 </table>
 		<set name="target" val="TARGET_SELF" />
@@ -929,7 +929,7 @@
 			</add>
 		</for>
 	</skill>
-	<skill id="150" levels="3" name="Weight Limit">
+	<skill id="150" levels="3" name="負重強化">
 		<table name="#rate"> 2 3 4 </table>
 		<set name="target" val="TARGET_SELF" />
 		<set name="skillType" val="BUFF" />
@@ -938,7 +938,7 @@
 			<mul order="0x30" stat="maxLoad" val="#rate" />
 		</for>
 	</skill>
-	<skill id="153" levels="4" name="Shield Mastery" enchantGroup1="1">
+	<skill id="153" levels="4" name="精通盾技" enchantGroup1="1">
 		<table name="#ench1sDef"> 55 60 65 70 75 80 85 90 95 100 105 110 115 120 125 130 135 140 145 150 155 160 165 170 175 180 185 190 195 200 </table>
 		<table name="#rShld"> 1.5 1.7 1.85 2 </table>
 		<table name="#sDef"> 1.3 1.4 1.5 1.6 </table>
@@ -962,7 +962,7 @@
 			</mul>
 		</enchant1for>
 	</skill>
-	<skill id="163" levels="1" name="Spellcraft">
+	<skill id="163" levels="1" name="咒語吟唱">
 		<set name="target" val="TARGET_SELF" />
 		<set name="skillType" val="BUFF" />
 		<set name="operateType" val="OP_PASSIVE" />
@@ -972,7 +972,7 @@
 			</mul>
 		</for>
 	</skill>
-	<skill id="164" levels="3" name="Quick Recycle">
+	<skill id="164" levels="3" name="快速恢復">
 		<table name="#reuse"> 0.9 0.85 0.8 </table>
 		<set name="target" val="TARGET_SELF" />
 		<set name="skillType" val="BUFF" />
@@ -981,7 +981,7 @@
 			<mul order="0x30" stat="mReuse" val="#reuse" />
 		</for>
 	</skill>
-	<skill id="165" levels="5" name="Trade">
+	<skill id="165" levels="5" name="交易術">
 		<!-- Not Done "Needs Core Support" -->
 		<!-- Lvl 1: Enables you to purchase high quality weapons with a discount up to 5 percent. -->
 		<!-- Lvl 2: Enables you to purchase high quality weapons with a discount up to 10 percent. -->
@@ -992,7 +992,7 @@
 		<set name="skillType" val="PASSIVE" />
 		<set name="operateType" val="OP_PASSIVE" />
 	</skill>
-	<skill id="168" levels="3" name="Boost Attack Speed" enchantGroup1="1">
+	<skill id="168" levels="3" name="攻擊加速" enchantGroup1="1">
 		<table name="#rate"> 1.05 1.07 1.1 </table>
 		<table name="#ench1rate"> 1.101 1.102 1.103 1.104 1.105 1.106 1.107 1.108 1.109 1.11 1.111 1.112 1.113 1.114 1.115 1.116 1.117 1.118 1.119 1.12 1.121 1.122 1.123 1.124 1.125 1.126 1.127 1.128 1.129 1.13 </table>
 		<set name="target" val="TARGET_SELF" />
@@ -1005,7 +1005,7 @@
 			<mul order="0x30" stat="pAtkSpd" val="#ench1rate" />
 		</enchant1for>
 	</skill>
-	<skill id="169" levels="2" name="Quick Step" enchantGroup1="1">
+	<skill id="169" levels="2" name="移動加速" enchantGroup1="1">
 		<table name="#spd"> 7 11 </table>
 		<table name="#ench1spd"> 12 12 12 12 12 12 12 12 12 13 13 13 13 13 13 13 13 13 13 14 14 14 14 14 14 14 14 14 14 15 </table>
 		<set name="target" val="TARGET_SELF" />
@@ -1018,7 +1018,7 @@
 			<add order="0x40" stat="runSpd" val="#ench1spd" />
 		</enchant1for>
 	</skill>
-	<skill id="171" levels="8" name="Esprit">
+	<skill id="171" levels="8" name="活躍生命">
 		<table name="#hp"> 2.5 3 3.5 4 4.5 5 5.5 6 </table>
 		<table name="#mp"> 1.8 1.9 2 2.1 2.2 2.3 2.4 2.5 </table>
 		<set name="target" val="TARGET_SELF" />
@@ -1033,12 +1033,12 @@
 			</add>
 		</for>
 	</skill>
-	<skill id="172" levels="10" name="Create Item">
+	<skill id="172" levels="10" name="物品製作">
 		<set name="target" val="TARGET_SELF" />
 		<set name="skillType" val="COREDONE" />
 		<set name="operateType" val="OP_PASSIVE" />
 	</skill>
-	<skill id="173" levels="2" name="Acrobatics">
+	<skill id="173" levels="2" name="特技精通">
 		<table name="#magicLvl"> 20 55 </table>
 		<table name="#fall"> 60 100 </table>
 		<set name="magicLvl" val="#magicLvl" />
@@ -1049,7 +1049,7 @@
 			<sub order="0x40" stat="fall" val="#fall" />
 		</for>
 	</skill>
-	<skill id="176" levels="3" name="Frenzy">
+	<skill id="176" levels="3" name="狂暴加護">
 		<table name="#swordbluntpole"> 1.54 1.92 2.31 </table>
 		<table name="#twohand"> 1.25 1.2 1.16 </table>
 		<table name="#all"> 1.3 1.3 1.5 </table>
@@ -1091,7 +1091,7 @@
 			</effect>
 		</for>
 	</skill>
-	<skill id="181" levels="1" name="Revival">
+	<skill id="181" levels="1" name="再生術">
 		<set name="mpConsume" val="25" />
 		<set name="power" val="100" />
 		<set name="target" val="TARGET_SELF" />
@@ -1104,7 +1104,7 @@
 			<player hp="10" />
 		</cond>
 	</skill>
-	<skill id="190" levels="37" name="Fatal Strike" enchantGroup1="2" enchantGroup2="2" enchantGroup3="2" enchantGroup4="2" enchantGroup5="2" enchantGroup6="2">
+	<skill id="190" levels="37" name="致命侵襲" enchantGroup1="2" enchantGroup2="2" enchantGroup3="2" enchantGroup4="2" enchantGroup5="2" enchantGroup6="2">
 		<table name="#enchantMagicLvl"> 76 76 76 77 77 77 78 78 78 79 79 79 80 80 80 81 81 81 82 82 82 82 83 83 83 84 84 85 85 85 </table>
 		<table name="#ench2mpConsume"> 74 73 72 70 69 68 67 66 64 63 62 61 60 58 57 56 55 54 52 51 50 49 47 46 45 44 43 41 40 39 </table>
 		<table name="#magicLvl"> 38 39 40 41 42 43 44 45 46 47 48 49 50 51 52 53 54 55 56 57 58 59 60 61 62 63 64 65 66 67 68 69 70 71 72 73 74 </table>
@@ -1146,7 +1146,7 @@
 		<enchant6 name="elementPower" val="#enchElementPower" />
 		<enchant6 name="element" val="3" /> <!-- Earth -->
 	</skill>
-	<skill id="191" levels="6" name="Focus Mind" enchantGroup1="1">
+	<skill id="191" levels="6" name="精神凝聚" enchantGroup1="1">
 		<table name="#regMp"> 3.1 3.5 3.9 4.3 4.7 5.1 </table>
 		<table name="#ench1regMp"> 5.6 5.7 5.8 5.8 5.9 6 6.1 6.2 6.3 6.3 6.4 6.5 6.6 6.7 6.8 6.8 6.9 7 7.1 7.2 7.3 7.3 7.4 7.5 7.6 7.7 7.8 7.8 7.9 8 </table>
 		<set name="target" val="TARGET_SELF" />
@@ -1159,7 +1159,7 @@
 			<add order="0x40" stat="regMp" val="#ench1regMp" />
 		</enchant1for>
 	</skill>
-	<skill id="193" levels="7" name="Critical Power" enchantGroup1="1">
+	<skill id="193" levels="7" name="致命威力" enchantGroup1="1">
 		<table name="#crit"> 32 56 93 177 295 384 406 </table>
 		<table name="#ench1crit"> 430 433 436 439 442 445 448 451 454 457 460 463 466 469 472 474 477 480 483 486 489 492 495 498 501 504 507 510 513 516 </table>
 		<set name="target" val="TARGET_SELF" />
@@ -1172,12 +1172,12 @@
 			<add order="0x40" stat="cAtkAdd" val="#ench1crit" />
 		</enchant1for>
 	</skill>
-	<skill id="194" levels="1" name="Lucky">
+	<skill id="194" levels="1" name="幸運之神">
 		<set name="target" val="TARGET_SELF" />
 		<set name="skillType" val="LUCK" />
 		<set name="operateType" val="OP_PASSIVE" />
 	</skill>
-	<skill id="195" levels="2" name="Breath Boost">
+	<skill id="195" levels="2" name="調息術">
 		<table name="#breath"> 180 300 </table>
 		<table name="#magicLvl"> 20 55 </table>
 		<set name="magicLvl" val="#magicLvl" />
@@ -1188,7 +1188,7 @@
 			<add order="0x40" stat="breath" val="#breath" />
 		</for>
 	</skill>
-	<skill id="196" levels="1" name="Holy Blade">
+	<skill id="196" levels="1" name="神聖之刃">
 		<set name="mpConsume" val="8" />
 		<set name="target" val="TARGET_SELF" />
 		<set name="skillType" val="CONT" />
@@ -1200,7 +1200,7 @@
 			</effect>
 		</for>
 	</skill>
-	<skill id="197" levels="2" name="Holy Armor">
+	<skill id="197" levels="2" name="神聖之衣">
 		<table name="#darkRes"> 7 10 </table>
 		<table name="#mpConsume"> 7 9 </table>
 		<set name="mpConsume" val="#mpConsume" />
@@ -1213,7 +1213,7 @@
 			</effect>
 		</for>
 	</skill>
-	<skill id="198" levels="3" name="Boost Evasion" enchantGroup1="1">
+	<skill id="198" levels="3" name="迴避提升" enchantGroup1="1">
 		<table name="#rEvas"> 2 3 4 </table>
 		<table name="#ench1rEvas"> 5 5 5 5 5 5 5 5 5 6 6 6 6 6 6 6 6 6 6 7 7 7 7 7 7 7 7 7 7 8 </table>
 		<set name="target" val="TARGET_SELF" />

@@ -1,87 +1,87 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <list>
-	<skill id="4300" levels="1" name="Race">
+	<skill id="4300" levels="1" name="種族-巨人">
 		<!-- Freya retail confirmed -->
 		<!-- Race Giant -->
 		<set name="target" val="TARGET_NONE" />
 		<set name="skillType" val="NOTDONE" />
 		<set name="operateType" val="OP_PASSIVE" />
 	</skill>
-	<skill id="4301" levels="1" name="Race">
+	<skill id="4301" levels="1" name="種族-蟲族">
 		<!-- Freya retail confirmed -->
 		<!-- Race Bug -->
 		<set name="target" val="TARGET_NONE" />
 		<set name="skillType" val="NOTDONE" />
 		<set name="operateType" val="OP_PASSIVE" />
 	</skill>
-	<skill id="4302" levels="1" name="Race">
+	<skill id="4302" levels="1" name="種族-妖精">
 		<!-- Freya retail confirmed -->
 		<!-- Race Fairy -->
 		<set name="target" val="TARGET_NONE" />
 		<set name="skillType" val="NOTDONE" />
 		<set name="operateType" val="OP_PASSIVE" />
 	</skill>
-	<skill id="4303" levels="1" name="Strong Type">
+	<skill id="4303" levels="1" name="強化型">
 		<!-- Freya retail confirmed -->
 		<set name="target" val="TARGET_SELF" />
 		<set name="skillType" val="BUFF" />
 		<set name="operateType" val="OP_PASSIVE" />
 	</skill>
-	<skill id="4304" levels="1" name="Strong Type">
+	<skill id="4304" levels="1" name="強化型">
 		<!-- Freya retail confirmed -->
 		<set name="target" val="TARGET_SELF" />
 		<set name="skillType" val="BUFF" />
 		<set name="operateType" val="OP_PASSIVE" />
 	</skill>
-	<skill id="4305" levels="1" name="Strong Type">
+	<skill id="4305" levels="1" name="強化型">
 		<!-- Freya retail confirmed -->
 		<set name="target" val="TARGET_SELF" />
 		<set name="skillType" val="BUFF" />
 		<set name="operateType" val="OP_PASSIVE" />
 	</skill>
-	<skill id="4306" levels="1" name="Strong Type">
+	<skill id="4306" levels="1" name="強化型">
 		<!-- Freya retail confirmed -->
 		<set name="target" val="TARGET_SELF" />
 		<set name="skillType" val="BUFF" />
 		<set name="operateType" val="OP_PASSIVE" />
 	</skill>
-	<skill id="4307" levels="1" name="Strong Type">
+	<skill id="4307" levels="1" name="強化型">
 		<!-- Freya retail confirmed -->
 		<set name="target" val="TARGET_SELF" />
 		<set name="skillType" val="BUFF" />
 		<set name="operateType" val="OP_PASSIVE" />
 	</skill>
-	<skill id="4308" levels="1" name="Strong Type">
+	<skill id="4308" levels="1" name="強化型">
 		<!-- Freya retail confirmed -->
 		<set name="target" val="TARGET_SELF" />
 		<set name="skillType" val="BUFF" />
 		<set name="operateType" val="OP_PASSIVE" />
 	</skill>
-	<skill id="4309" levels="1" name="Strong Type">
+	<skill id="4309" levels="1" name="強化型">
 		<!-- Freya retail confirmed -->
 		<set name="target" val="TARGET_SELF" />
 		<set name="skillType" val="BUFF" />
 		<set name="operateType" val="OP_PASSIVE" />
 	</skill>
-	<skill id="4310" levels="1" name="Strong Type">
+	<skill id="4310" levels="1" name="強化型">
 		<!-- Freya retail confirmed -->
 		<set name="target" val="TARGET_SELF" />
 		<set name="skillType" val="BUFF" />
 		<set name="operateType" val="OP_PASSIVE" />
 	</skill>
-	<skill id="4311" levels="1" name="Feeble Type">
+	<skill id="4311" levels="1" name="弱化型">
 		<!-- Freya retail confirmed -->
 		<set name="target" val="TARGET_SELF" />
 		<set name="skillType" val="BUFF" />
 		<set name="operateType" val="OP_PASSIVE" />
 	</skill>
-	<skill id="4312" levels="1" name="Heavy Armor">
+	<skill id="4312" levels="1" name="防禦型">
 		<!-- Freya retail confirmed -->
 		<set name="target" val="TARGET_SELF" />
 		<set name="skillType" val="BUFF" />
 		<set name="operateType" val="OP_PASSIVE" />
 	</skill>
-	<skill id="4313" levels="1" name="Light Armor">
+	<skill id="4313" levels="1" name="防禦型">
 		<!-- Freya retail confirmed -->
 		<set name="target" val="TARGET_SELF" />
 		<set name="skillType" val="BUFF" />
@@ -105,7 +105,7 @@
 		<table name="#mpConsume"> 17 29 39 53 67 83 97 103 108 112 115 116 </table>
 		<set name="mpConsume" val="#mpConsume" />
 	</skill>
-	<skill id="4315" levels="12" name="Hold">
+	<skill id="4315" levels="12" name="束縛">
 		<!-- Freya retail confirmed -->
 		<table name="#magicLvl"> 14 24 34 44 54 64 74 79 84 89 94 99 </table>
 		<set name="magicLvl" val="#magicLvl" />
@@ -125,7 +125,7 @@
 		<table name="#mpConsume"> 17 29 39 53 67 83 97 103 108 112 115 116 </table>
 		<set name="mpConsume" val="#mpConsume" />
 	</skill>
-	<skill id="4316" levels="12" name="Boss Lilim Drain">
+	<skill id="4316" levels="12" name="BOSS Lilim Drain">
 		<!-- Freya retail confirmed -->
 		<table name="#power"> 11 16 22 29 38 46 54 58 61 63 65 66 </table>
 		<table name="#magicLvl"> 14 24 34 44 54 64 74 79 84 89 94 99 </table>
@@ -145,7 +145,7 @@
 		<table name="#mpConsume"> 31 51 71 94 121 149 175 186 195 202 206 209 </table>
 		<set name="mpConsume" val="#mpConsume" />
 	</skill>
-	<skill id="4317" levels="5" name="Increase Rage Might">
+	<skill id="4317" levels="5" name="憤怒的攻擊力上升">
 		<!-- Freya retail confirmed -->
 		<table name="#pAtk"> 1.15 1.20 1.25 1.30 1.35 </table>
 		<table name="#stackOrder"> 1 2 3 4 5 </table>
@@ -162,7 +162,7 @@
 		</for>
 		<set name="mpConsume" val="50" />
 	</skill>
-	<skill id="4318" levels="1" name="Ultimate Buff">
+	<skill id="4318" levels="1" name="終極魔法">
 		<!-- Freya retail confirmed -->
 		<set name="magicLvl" val="60" />
 		<set name="target" val="TARGET_SELF" />
@@ -182,7 +182,7 @@
 		</for>
 		<set name="mpConsume" val="50" />
 	</skill>
-	<skill id="4319" levels="1" name="Paralysis">
+	<skill id="4319" levels="1" name="麻痺">
 		<set name="magicLvl" val="60" />
 		<set name="power" val="30" /> <!-- Freya retail 0, no level depend, possibly done differently -->
 		<set name="target" val="TARGET_ONE" />
@@ -198,7 +198,7 @@
 		</for>
 		<set name="mpConsume" val="50" />
 	</skill>
-	<skill id="4320" levels="12" name="Poison">
+	<skill id="4320" levels="12" name="毒">
 		<!-- Freya retail confirmed -->
 		<table name="#dot"> 48 72 96 123 150 174 189 189 198 198 204 204 </table>
 		<table name="#magicLvl"> 10 20 30 40 50 60 70 75 80 85 90 95 </table>
@@ -219,7 +219,7 @@
 		<table name="#mpConsume"> 13 20 27 35 45 55 65 69 73 83 77 78 </table>
 		<set name="mpConsume" val="#mpConsume" />
 	</skill>
-	<skill id="4321" levels="1" name="Decrease P. Def">
+	<skill id="4321" levels="1" name="防禦力下降">
 		<!-- Freya retail confirmed -->
 		<set name="magicLvl" val="60" />
 		<set name="target" val="TARGET_ONE" />
@@ -238,7 +238,7 @@
 		</for>
 		<set name="mpConsume" val="50" />
 	</skill>
-	<skill id="4322" levels="1" name="Wind Walk for Beginners">
+	<skill id="4322" levels="1" name="冒險家用風之疾走">
 		<!-- Freya retail confirmed -->
 		<!-- Newbie Guide Buff -->
 		<set name="magicLvl" val="60" />
@@ -254,7 +254,7 @@
 			</effect>
 		</for>
 	</skill>
-	<skill id="4323" levels="1" name="Shield for Beginners">
+	<skill id="4323" levels="1" name="冒險家用保護盾">
 		<!-- Freya retail confirmed -->
 		<!-- Newbie Guide Buff -->
 		<set name="magicLvl" val="60" />
@@ -270,7 +270,7 @@
 			</effect>
 		</for>
 	</skill>
-	<skill id="4324" levels="1" name="Bless the Body for Beginners">
+	<skill id="4324" levels="1" name="冒險家用神佑之體">
 		<!-- Freya retail confirmed -->
 		<!-- Newbie Guide Buff -->
 		<set name="magicLvl" val="60" />
@@ -286,7 +286,7 @@
 			</effect>
 		</for>
 	</skill>
-	<skill id="4325" levels="1" name="Vampiric Rage for Beginners">
+	<skill id="4325" levels="1" name="冒險家用吸血怒擊">
 		<!-- Freya retail confirmed -->
 		<!-- Newbie Guide Buff -->
 		<set name="magicLvl" val="60" />
@@ -302,7 +302,7 @@
 			</effect>
 		</for>
 	</skill>
-	<skill id="4326" levels="1" name="Regeneration for Beginners">
+	<skill id="4326" levels="1" name="冒險家用強癒術">
 		<!-- Freya retail confirmed -->
 		<!-- Newbie Guide Buff -->
 		<set name="magicLvl" val="60" />
@@ -318,7 +318,7 @@
 			</effect>
 		</for>
 	</skill>
-	<skill id="4327" levels="1" name="Haste for Beginners">
+	<skill id="4327" levels="1" name="冒險家用速度激發">
 		<!-- Freya retail confirmed -->
 		<!-- Newbie Guide Buff -->
 		<set name="magicLvl" val="60" />
@@ -334,7 +334,7 @@
 			</effect>
 		</for>
 	</skill>
-	<skill id="4328" levels="1" name="Bless the Soul for Beginners">
+	<skill id="4328" levels="1" name="冒險家用神佑之魂">
 		<!-- Freya retail confirmed -->
 		<!-- Newbie Guide Buff -->
 		<set name="magicLvl" val="60" />
@@ -350,7 +350,7 @@
 			</effect>
 		</for>
 	</skill>
-	<skill id="4329" levels="1" name="Acumen for Beginners">
+	<skill id="4329" levels="1" name="冒險家用靈活思緒">
 		<!-- Freya retail confirmed -->
 		<!-- Newbie Guide Buff -->
 		<set name="magicLvl" val="60" />
@@ -366,7 +366,7 @@
 			</effect>
 		</for>
 	</skill>
-	<skill id="4330" levels="1" name="Concentration for Beginners">
+	<skill id="4330" levels="1" name="冒險家用精神專注">
 		<!-- Freya retail confirmed -->
 		<!-- Newbie Guide Buff -->
 		<set name="magicLvl" val="60" />
@@ -382,7 +382,7 @@
 			</effect>
 		</for>
 	</skill>
-	<skill id="4331" levels="1" name="Empower for Beginners">
+	<skill id="4331" levels="1" name="冒險家用魔力催化">
 		<!-- Freya retail confirmed -->
 		<!-- Newbie Guide Buff -->
 		<set name="magicLvl" val="60" />
@@ -398,7 +398,7 @@
 			</effect>
 		</for>
 	</skill>
-	<skill id="4332" levels="1" name="Mental Aegis">
+	<skill id="4332" levels="1" name="心靈庇護">
 		<!-- Freya retail confirmed -->
 		<set name="target" val="TARGET_SELF" />
 		<set name="skillType" val="BUFF" />
@@ -409,7 +409,7 @@
 			<sub order="0x40" stat="confusionVuln" val="100" />
 		</for>
 	</skill>
-	<skill id="4333" levels="5" name="Resist Dark Attack">
+	<skill id="4333" levels="5" name="黑暗抵抗">
 		<!-- Freya retail confirmed -->
 		<table name="#darkRes"> 10 20 30 40 50 </table>
 		<set name="target" val="TARGET_SELF" />
@@ -419,7 +419,7 @@
 			<add order="0x40" stat="darkRes" val="#darkRes" />
 		</for>
 	</skill>
-	<skill id="4334" levels="1" name="SSQ Cancel">
+	<skill id="4334" levels="1" name="SSQ魔法消除">
 		<!-- Freya retail confirmed -->
 		<set name="castRange" val="1000" />
 		<set name="effectRange" val="1500" />
@@ -430,7 +430,7 @@
 		<set name="skillType" val="CANCEL" /> <!-- Needs core support for CANCEL_ALL -->
 		<set name="target" val="TARGET_AREA" />
 	</skill>
-	<skill id="4335" levels="1" name="Sacred Attack">
+	<skill id="4335" levels="1" name="神聖屬性攻擊">
 		<!-- Freya retail confirmed -->
 		<set name="target" val="TARGET_SELF" />
 		<set name="skillType" val="BUFF" />
@@ -439,7 +439,7 @@
 			<add order="0x40" stat="holyPower" val="20" />
 		</for>
 	</skill>
-	<skill id="4336" levels="5" name="Dark Attack Weak Point">
+	<skill id="4336" levels="5" name="黑暗屬性弱點 ">
 		<!-- Freya retail confirmed -->
 		<table name="#darkRes"> 11 25 43 67 100 </table>
 		<set name="target" val="TARGET_SELF" />
@@ -449,7 +449,7 @@
 			<sub order="0x40" stat="darkRes" val="#darkRes" />
 		</for>
 	</skill>
-	<skill id="4337" levels="5" name="Resist Sacred Attack">
+	<skill id="4337" levels="5" name="神聖抵抗">
 		<!-- Freya retail confirmed -->
 		<table name="#darkRes"> 10 20 30 40 50 </table>
 		<set name="target" val="TARGET_SELF" />
@@ -459,7 +459,7 @@
 			<add order="0x40" stat="holyRes" val="#darkRes" />
 		</for>
 	</skill>
-	<skill id="4338" levels="1" name="Life Cubic for Beginners">
+	<skill id="4338" levels="1" name="冒險家用治癒晶體">
 		<!-- Confirmed CT2.5 -->
 		<!-- Newbie Guide Buff -->
 		<set name="castRange" val="400" />
@@ -480,7 +480,7 @@
 		<set name="npcId" val="3" /> <!-- Cubic Id -->
 		<set name="summonTotalLifeTime" val="3600000" />
 	</skill>
-	<skill id="4339" levels="1" name="Mimir's Elixir">
+	<skill id="4339" levels="1" name="米密爾的泉水">
 		<!-- Freya retail confirmed -->
 		<set name="target" val="TARGET_ONE" />
 		<set name="skillType" val="BUFF" /> <!-- Just Broadcast -->
@@ -488,7 +488,7 @@
 		<set name="castRange" val="400" />
 		<set name="effectRange" val="900" />
 	</skill>
-	<skill id="4340" levels="1" name="Ultimate Buff, 2nd">
+	<skill id="4340" levels="1" name="終極魔法2nd">
 		<!-- Freya retail confirmed -->
 		<set name="magicLvl" val="60" />
 		<set name="target" val="TARGET_SELF" />
@@ -502,7 +502,7 @@
 		</for>
 		<set name="mpConsume" val="50" />
 	</skill>
-	<skill id="4341" levels="1" name="Ultimate Buff, 3rd">
+	<skill id="4341" levels="1" name="終極魔法3rd">
 		<!-- Freya retail confirmed -->
 		<set name="magicLvl" val="60" />
 		<set name="target" val="TARGET_SELF" />
@@ -517,7 +517,7 @@
 		</for>
 		<set name="mpConsume" val="50" />
 	</skill>
-	<skill id="4342" levels="2" name="Clan Hall: Wind Walk">
+	<skill id="4342" levels="2" name="風之疾走">
 		<!-- Freya retail confirmed -->
 		<table name="#runSpd"> 20 33 </table>
 		<table name="#sMagicLevel"> 20 30 </table>
@@ -537,7 +537,7 @@
 		<table name="#mpConsume"> 50 100 </table>
 		<set name="mpConsume" val="#mpConsume" />
 	</skill>
-	<skill id="4343" levels="3" name="Clan Hall: Decrease Weight">
+	<skill id="4343" levels="3" name="減輕負重">
 		<!-- Freya retail confirmed -->
 		<table name="#Weight"> 3000 6000 9000 </table>
 		<table name="#sMagicLevel"> 35 44 52 </table>
@@ -557,7 +557,7 @@
 		<table name="#mpConsume"> 50 0 100 </table>
 		<set name="mpConsume" val="#mpConsume" />
 	</skill>
-	<skill id="4344" levels="3" name="Clan Hall: Shield">
+	<skill id="4344" levels="3" name="保護盾">
 		<!-- Freya retail confirmed -->
 		<table name="#rate"> 1.08 1.12 1.15 </table>
 		<table name="#sMagicLevel"> 7 25 44 </table>
@@ -577,7 +577,7 @@
 		<table name="#mpConsume"> 50 0 100 </table>
 		<set name="mpConsume" val="#mpConsume" />
 	</skill>
-	<skill id="4345" levels="3" name="Clan Hall: Might">
+	<skill id="4345" levels="3" name="力量強化">
 		<!-- Freya retail confirmed -->
 		<table name="#rate"> 1.08 1.12 1.15 </table>
 		<table name="#sMagicLevel"> 7 20 40 </table>
@@ -597,7 +597,7 @@
 		<table name="#mpConsume"> 50 0 100 </table>
 		<set name="mpConsume" val="#mpConsume" />
 	</skill>
-	<skill id="4346" levels="4" name="Clan Hall: Mental Shield">
+	<skill id="4346" levels="4" name="心靈防護">
 		<!-- Freya retail confirmed -->
 		<table name="#vuln"> 20 30 40 50 </table> <!-- Freya retail has still old values (50 60 70 80) here, retail bug? -->
 		<table name="#sMagicLevel"> 25 40 48 56 </table>
@@ -620,7 +620,7 @@
 		<table name="#mpConsume"> 50 0 0 100 </table>
 		<set name="mpConsume" val="#mpConsume" />
 	</skill>
-	<skill id="4347" levels="6" name="Clan Hall: Blessed Body">
+	<skill id="4347" levels="6" name="神佑之體">
 		<!-- Freya retail confirmed -->
 		<table name="#maxHp"> 1.1 1.15 1.2 1.25 1.3 1.35 </table>
 		<table name="#sMagicLevel"> 44 48 52 56 64 72 </table>
@@ -640,7 +640,7 @@
 		<table name="#mpConsume"> 0 150 0 0 0 300 </table>
 		<set name="mpConsume" val="#mpConsume" />
 	</skill>
-	<skill id="4348" levels="6" name="Clan Hall: Blessed Soul">
+	<skill id="4348" levels="6" name="神佑之魂">
 		<!-- Freya retail confirmed -->
 		<table name="#maxMp"> 1.1 1.15 1.2 1.25 1.3 1.35 </table>
 		<table name="#sMagicLevel"> 44 48 52 56 62 70 </table>
@@ -660,7 +660,7 @@
 		<table name="#mpConsume"> 0 150 0 0 0 300 </table>
 		<set name="mpConsume" val="#mpConsume" />
 	</skill>
-	<skill id="4349" levels="2" name="Clan Hall: Magic Barrier">
+	<skill id="4349" levels="2" name="魔法屏障">
 		<!-- Freya retail confirmed -->
 		<table name="#mDef"> 1.23 1.3 </table>
 		<table name="#sMagicLevel"> 44 52 </table>
@@ -680,7 +680,7 @@
 		<table name="#mpConsume"> 150 300 </table>
 		<set name="mpConsume" val="#mpConsume" />
 	</skill>
-	<skill id="4350" levels="4" name="Clan Hall: Resist Shock">
+	<skill id="4350" levels="4" name="抵抗休克">
 		<!-- Freya retail confirmed -->
 		<table name="#vuln"> 15 20 30 40 </table>
 		<table name="#sMagicLevel"> 40 52 64 72 </table>
@@ -700,7 +700,7 @@
 		<table name="#mpConsume"> 150 0 0 300 </table>
 		<set name="mpConsume" val="#mpConsume" />
 	</skill>
-	<skill id="4351" levels="6" name="Clan Hall: Concentration">
+	<skill id="4351" levels="6" name="精神專注">
 		<!-- Freya retail confirmed -->
 		<table name="#cancel"> 18 25 36 42 48 53 </table>
 		<table name="#sMagicLevel"> 20 30 44 52 60 68 </table>
@@ -720,7 +720,7 @@
 		<table name="#mpConsume"> 0 200 0 0 0 400 </table>
 		<set name="mpConsume" val="#mpConsume" />
 	</skill>
-	<skill id="4352" levels="2" name="Clan Hall: Berserker Spirit">
+	<skill id="4352" levels="2" name="狂戰士魂">
 		<!-- Freya retail confirmed -->
 		<table name="#mAtk"> 1.1 1.16 </table>
 		<table name="#pAtk"> 1.05 1.08 </table>
@@ -754,7 +754,7 @@
 		<table name="#mpConsume"> 200 400 </table>
 		<set name="mpConsume" val="#mpConsume" />
 	</skill>
-	<skill id="4353" levels="6" name="Clan Hall: Bless Shield">
+	<skill id="4353" levels="6" name="祝福之盾">
 		<!-- Freya retail confirmed -->
 		<table name="#rShld"> 1.05 1.1 1.15 1.2 1.25 1.3 </table>
 		<table name="#sMagicLevel"> 40 48 56 62 66 70 </table>
@@ -774,7 +774,7 @@
 		<table name="#mpConsume"> 0 200 0 0 0 400 </table>
 		<set name="mpConsume" val="#mpConsume" />
 	</skill>
-	<skill id="4354" levels="4" name="Clan Hall: Vampiric Rage">
+	<skill id="4354" levels="4" name="吸血怒擊">
 		<!-- Freya retail confirmed -->
 		<table name="#absorbDam"> 6 7 8 9 </table>
 		<table name="#sMagicLevel"> 30 44 58 72 </table>
@@ -794,7 +794,7 @@
 		<table name="#mpConsume"> 200 0 0 400 </table>
 		<set name="mpConsume" val="#mpConsume" />
 	</skill>
-	<skill id="4355" levels="3" name="Clan Hall: Acumen">
+	<skill id="4355" levels="3" name="靈活思緒">
 		<!-- Freya retail confirmed -->
 		<table name="#mAtkSpd"> 1.15 1.23 1.3 </table>
 		<table name="#sMagicLevel"> 20 35 48 </table>
@@ -814,7 +814,7 @@
 		<table name="#mpConsume"> 300 0 600 </table>
 		<set name="mpConsume" val="#mpConsume" />
 	</skill>
-	<skill id="4356" levels="3" name="Clan Hall: Empower">
+	<skill id="4356" levels="3" name="魔力催化">
 		<!-- Freya retail confirmed -->
 		<table name="#mAtk"> 1.55 1.65 1.75 </table>
 		<table name="#sMagicLevel"> 25 44 52 </table>
@@ -834,7 +834,7 @@
 		<table name="#mpConsume"> 300 0 600 </table>
 		<set name="mpConsume" val="#mpConsume" />
 	</skill>
-	<skill id="4357" levels="2" name="Clan Hall: Haste">
+	<skill id="4357" levels="2" name="速度激發">
 		<!-- Freya retail confirmed -->
 		<table name="#pAtkSpd"> 1.15 1.33 </table>
 		<table name="#sMagicLevel"> 44 52 </table>
@@ -854,7 +854,7 @@
 		<table name="#mpConsume"> 300 600 </table>
 		<set name="mpConsume" val="#mpConsume" />
 	</skill>
-	<skill id="4358" levels="3" name="Clan Hall: Guidance">
+	<skill id="4358" levels="3" name="導引">
 		<!-- Freya retail confirmed -->
 		<table name="#accCombat"> 2 3 4 </table>
 		<table name="#sMagicLevel"> 40 48 56 </table>
@@ -874,7 +874,7 @@
 		<table name="#mpConsume"> 200 0 400 </table>
 		<set name="mpConsume" val="#mpConsume" />
 	</skill>
-	<skill id="4359" levels="3" name="Clan Hall: Focus">
+	<skill id="4359" levels="3" name="弱點偵測">
 		<!-- Freya retail confirmed -->
 		<table name="#rCrit"> 0.2 0.25 0.3 </table>
 		<table name="#sMagicLevel"> 25 44 52 </table>
@@ -894,7 +894,7 @@
 		<table name="#mpConsume"> 300 0 600 </table>
 		<set name="mpConsume" val="#mpConsume" />
 	</skill>
-	<skill id="4360" levels="3" name="Clan Hall: Death Whisper">
+	<skill id="4360" levels="3" name="死之呢喃">
 		<!-- Freya retail confirmed -->
 		<table name="#cAtk"> 1.25 1.3 1.35 </table>
 		<table name="#sMagicLevel"> 40 48 56 </table>
@@ -914,7 +914,7 @@
 		<table name="#mpConsume"> 300 0 600 </table>
 		<set name="mpConsume" val="#mpConsume" />
 	</skill>
-	<skill id="4361" levels="2" name="Curse of Destruction">
+	<skill id="4361" levels="2" name="滅亡的詛咒">
 		<!-- Freya retail confirmed -->
 		<!-- Fighter -->
 		<table name="#stackOrder"> 1 2 </table>
@@ -938,7 +938,7 @@
 			</effect>
 		</for>
 	</skill>
-	<skill id="4362" levels="2" name="Curse of Destruction">
+	<skill id="4362" levels="2" name="滅亡的詛咒">
 		<!-- Freya retail confirmed -->
 		<!-- Mage -->
 		<table name="#stackOrder"> 1 2 </table>
@@ -962,7 +962,7 @@
 			</effect>
 		</for>
 	</skill>
-	<skill id="4363" levels="1" name="Curse of Destruction">
+	<skill id="4363" levels="1" name="滅亡的詛咒">
 		<!-- Freya retail confirmed -->
 		<set name="power" val="100" />
 		<set name="target" val="TARGET_ONE" />
@@ -979,7 +979,7 @@
 			</effect>
 		</for>
 	</skill>
-	<skill id="4364" levels="2" name="Blessing of Revelations">
+	<skill id="4364" levels="2" name="啟示的祝福">
 		<!-- Freya retail confirmed -->
 		<!-- Fighter -->
 		<table name="#stackOrder"> 1 2 </table>
@@ -1002,7 +1002,7 @@
 			</effect>
 		</for>
 	</skill>
-	<skill id="4365" levels="2" name="Blessing of Revelations">
+	<skill id="4365" levels="2" name="啟示的祝福">
 		<!-- Mage -->
 		<!-- Freya retail confirmed -->
 		<table name="#stackOrder"> 1 2 </table>
@@ -1024,7 +1024,7 @@
 			</effect>
 		</for>
 	</skill>
-	<skill id="4366" levels="1" name="Blessing of Prophecy">
+	<skill id="4366" levels="1" name="啟示的祝福">
 		<!-- Freya retail confirmed -->
 		<set name="target" val="TARGET_ONE" />
 		<set name="skillType" val="BUFF" />
@@ -1034,14 +1034,14 @@
 		<set name="effectRange" val="900" />
 		<set name="canBeDispeled" val="false" />
 		<for>
-			<effect name="Buff" time="1200" val="0" stackOrder="1" stackType="decrease_weight_penalty	">
+			<effect name="Buff" time="1200" val="0" stackOrder="1" stackType="decrease_weight_penalty ">
 				<mul order="0x30" stat="maxLoad" val="1.25" />
 				<sub order="0x40" stat="poisonVuln" val="25" />
 				<sub order="0x40" stat="bleedVuln" val="25" />
 			</effect>
 		</for>
 	</skill>
-	<skill id="4367" levels="1" name="Clan Hall Manager Buff">
+	<skill id="4367" levels="1" name="根據地管理人魔法">
 		<!-- Freya retail confirmed -->
 		<set name="target" val="TARGET_ONE" />
 		<set name="skillType" val="MPHOT" />
@@ -1051,7 +1051,7 @@
 			<effect count="1200" name="ManaHealOverTime" time="3" val="27.78" stackOrder="1" stackType="public_slot" />
 		</for>
 	</skill>
-	<skill id="4368" levels="1" name="Clan Hall Manager Buff">
+	<skill id="4368" levels="1" name="根據地管理人魔法">
 		<!-- Freya retail confirmed -->
 		<set name="target" val="TARGET_ONE" />
 		<set name="skillType" val="MPHOT" />
@@ -1063,7 +1063,7 @@
 			</effect>
 		</for>
 	</skill>
-	<skill id="4369" levels="1" name="Clan Hall Manager Buff">
+	<skill id="4369" levels="1" name="根據地管理人魔法">
 		<!-- Freya retail confirmed -->
 		<set name="target" val="TARGET_ONE" />
 		<set name="skillType" val="MPHOT" />
@@ -1075,7 +1075,7 @@
 			</effect>
 		</for>
 	</skill>
-	<skill id="4370" levels="1" name="Clan Hall Manager Buff">
+	<skill id="4370" levels="1" name="根據地管理人魔法">
 		<!-- Freya retail confirmed -->
 		<set name="target" val="TARGET_ONE" />
 		<set name="skillType" val="MPHOT" />
@@ -1087,7 +1087,7 @@
 			</effect>
 		</for>
 	</skill>
-	<skill id="4371" levels="1" name="Clan Hall Manager Buff">
+	<skill id="4371" levels="1" name="根據地管理人魔法">
 		<!-- Freya retail confirmed -->
 		<set name="target" val="TARGET_ONE" />
 		<set name="skillType" val="MPHOT" />
@@ -1099,7 +1099,7 @@
 			</effect>
 		</for>
 	</skill>
-	<skill id="4372" levels="1" name="Clan Hall Manager Buff">
+	<skill id="4372" levels="1" name="根據地管理人魔法">
 		<!-- Freya retail confirmed -->
 		<set name="target" val="TARGET_ONE" />
 		<set name="skillType" val="MPHOT" />
@@ -1111,7 +1111,7 @@
 			</effect>
 		</for>
 	</skill>
-	<skill id="4373" levels="1" name="Clan Hall Manager Buff">
+	<skill id="4373" levels="1" name="根據地管理人魔法">
 		<!-- Freya retail confirmed -->
 		<set name="target" val="TARGET_ONE" />
 		<set name="skillType" val="MPHOT" />
@@ -1123,7 +1123,7 @@
 			</effect>
 		</for>
 	</skill>
-	<skill id="4374" levels="1" name="Clan Hall Manager Buff">
+	<skill id="4374" levels="1" name="根據地管理人魔法">
 		<!-- Freya retail confirmed -->
 		<set name="target" val="TARGET_ONE" />
 		<set name="skillType" val="MPHOT" />
@@ -1135,7 +1135,7 @@
 			</effect>
 		</for>
 	</skill>
-	<skill id="4375" levels="1" name="Clan Hall Manager Buff">
+	<skill id="4375" levels="1" name="根據地管理人魔法">
 		<!-- Freya retail confirmed -->
 		<set name="target" val="TARGET_ONE" />
 		<set name="skillType" val="MPHOT" />
@@ -1147,7 +1147,7 @@
 			</effect>
 		</for>
 	</skill>
-	<skill id="4376" levels="1" name="Strong Resistance to P.Atk.">
+	<skill id="4376" levels="1" name="物理抵抗強">
 		<!-- Freya retail confirmed -->
 		<set name="magicLvl" val="1" />
 		<set name="operateType" val="OP_PASSIVE" />
@@ -1157,7 +1157,7 @@
 			<mul order="0x30" stat="pDef" val="3" /> <!-- pDef +200% -->
 		</for>
 	</skill>
-	<skill id="4377" levels="12" name="Wield Temper">
+	<skill id="4377" levels="12" name="支配情緒">
 		<!-- Freya retail confirmed -->
 		<table name="#power"> 46 105 219 417 722 1136 1626 1876 2112 2320 2487 2617 </table>
 		<table name="#magicLvl"> 10 20 30 40 50 60 70 75 80 85 90 95 </table>
@@ -1174,7 +1174,7 @@
 		<table name="#mpConsume"> 13 20 28 38 50 61 71 76 80 83 84 85 </table>
 		<set name="mpConsume" val="#mpConsume" />
 	</skill>
-	<skill id="4378" levels="12" name="Self Damage Shield">
+	<skill id="4378" levels="12" name="NPC Self Damage Shield">
 		<!-- Freya retail confirmed -->
 		<table name="#magicLvl"> 10 20 30 40 50 60 70 75 80 85 90 95 </table>
 		<set name="magicLvl" val="#magicLvl" />
@@ -1191,7 +1191,7 @@
 		<table name="#mpConsume"> 12 19 26 35 45 55 65 69 72 75 77 78 </table>
 		<set name="mpConsume" val="#mpConsume" />
 	</skill>
-	<skill id="4379" levels="5" name="Resist Pole Arm">
+	<skill id="4379" levels="5" name="長槍抵抗">
 		<!-- Freya retail confirmed -->
 		<table name="#poleVuln"> 0.9 0.8 0.7 0.6 0.5 </table>
 		<set name="target" val="TARGET_SELF" />
@@ -1201,7 +1201,7 @@
 			<mul order="0x30" stat="poleWpnVuln" val="#poleVuln" />
 		</for>
 	</skill>
-	<skill id="4380" levels="1" name="Arena CP Recovery">
+	<skill id="4380" levels="1" name="競技場CP恢復">
 		<!-- Freya retail confirmed -->
 		<set name="power" val="5000" />
 		<set name="target" val="TARGET_ONE" />
@@ -1211,14 +1211,14 @@
 		<set name="castRange" val="600" />
 		<set name="effectRange" val="1100" />
 	</skill>
-	<skill id="4381" levels="1" name="Magic Skill Block">
+	<skill id="4381" levels="1" name="弱化型">
 		<!-- Freya retail confirmed -->
 		<set name="magicLvl" val="1" />
 		<set name="operateType" val="OP_ACTIVE" />
 		<set name="skillType" val="BUFF" /> <!-- Just Boadcast -->
 		<set name="target" val="TARGET_SELF" />
 	</skill>
-	<skill id="4382" levels="12" name="Curse of Lake Ghost">
+	<skill id="4382" levels="12" name="湖水亡靈的詛咒">
 		<!-- Freya retail confirmed -->
 		<table name="#magicLvl"> 10 20 30 40 50 60 70 75 80 85 90 95 </table>
 		<table name="#power"> 46 105 219 417 722 1136 1626 1876 2112 2320 2487 2617 </table>
@@ -1253,7 +1253,7 @@
 			<effect name="TargetMe" val="0" />
 		</for>
 	</skill>
-	<skill id="4384" levels="1" name="Scapegoat's Grace">
+	<skill id="4384" levels="1" name="犧牲者的恩惠">
 		<!-- Freya retail confirmed -->
 		<set name="magicLvl" val="80" />
 		<set name="target" val="TARGET_ONE" />
@@ -1266,7 +1266,7 @@
 			<effect name="Buff" time="120" val="0" stackOrder="4" stackType="pd_down" />
 		</for>
 	</skill>
-	<skill id="4385" levels="1" name="Scapegoat's Grace">
+	<skill id="4385" levels="1" name="犧牲者的恩惠">
 		<!-- Freya retail confirmed -->
 		<set name="magicLvl" val="80" />
 		<set name="target" val="TARGET_ONE" />
@@ -1279,7 +1279,7 @@
 			<effect name="Buff" time="120" val="0" stackOrder="4" stackType="attack_time_up" />
 		</for>
 	</skill>
-	<skill id="4386" levels="1" name="Scapegoat's Grace">
+	<skill id="4386" levels="1" name="犧牲者的恩惠">
 		<!-- Freya retail confirmed -->
 		<set name="magicLvl" val="80" />
 		<set name="target" val="TARGET_ONE" />
@@ -1292,7 +1292,7 @@
 			<effect name="Buff" time="120" val="0" stackOrder="10" stackType="poison" />
 		</for>
 	</skill>
-	<skill id="4387" levels="1" name="Scapegoat's Grace">
+	<skill id="4387" levels="1" name="犧牲者的恩惠">
 		<!-- Freya retail confirmed -->
 		<set name="magicLvl" val="80" />
 		<set name="target" val="TARGET_ONE" />
@@ -1305,7 +1305,7 @@
 			<effect name="Buff" time="120" val="0" stackOrder="2" stackType="heal_effect_down" />
 		</for>
 	</skill>
-	<skill id="4388" levels="5" name="Resist Paralysis">
+	<skill id="4388" levels="5" name="麻痺抵抗">
 		<!-- Freya retail confirmed -->
 		<table name="#power"> 10 20 30 40 50 </table>
 		<set name="target" val="TARGET_SELF" />
@@ -1315,7 +1315,7 @@
 			<sub order="0x40" stat="paralyzeVuln" val="#power" />
 		</for>
 	</skill>
-	<skill id="4389" levels="5" name="Resist Mental Derangement">
+	<skill id="4389" levels="5" name="精神抵抗">
 		<!-- Freya retail confirmed -->
 		<table name="#power"> 10 20 30 40 50 </table>
 		<set name="target" val="TARGET_SELF" />
@@ -1336,7 +1336,7 @@
 			<sub order="0x40" stat="debuffVuln" val="100" />
 		</for>
 	</skill>
-	<skill id="4391" levels="2" name="Wind Walk">
+	<skill id="4391" levels="2" name="風之疾走">
 		<!-- Freya retail confirmed -->
 		<table name="#runSpd"> 20 33 </table>
 		<table name="#stackOrder"> 2 3 </table>
@@ -1353,7 +1353,7 @@
 			</effect>
 		</for>
 	</skill>
-	<skill id="4392" levels="3" name="Shield">
+	<skill id="4392" levels="3" name="保護盾">
 		<!-- Freya retail confirmed -->
 		<table name="#rate"> 1.08 1.12 1.15 </table>
 		<table name="#stackOrder"> 2 3 4 </table>
@@ -1370,7 +1370,7 @@
 			</effect>
 		</for>
 	</skill>
-	<skill id="4393" levels="3" name="Might">
+	<skill id="4393" levels="3" name="力量強化">
 		<!-- Freya retail confirmed -->
 		<!-- by DrLecter -->
 		<table name="#pAtk"> 1.08 1.12 1.15 </table>
@@ -1387,7 +1387,7 @@
 			</effect>
 		</for>
 	</skill>
-	<skill id="4394" levels="6" name="Blessed Body">
+	<skill id="4394" levels="6" name="神佑之體">
 		<!-- Freya retail confirmed -->
 		<table name="#maxHp"> 1.1 1.15 1.2 1.25 1.3 1.35 </table>
 		<table name="#stackOrder"> 2 3 4 5 6 7 </table>
@@ -1403,7 +1403,7 @@
 			</effect>
 		</for>
 	</skill>
-	<skill id="4395" levels="6" name="Blessed Soul">
+	<skill id="4395" levels="6" name="神佑之魂">
 		<!-- Freya retail confirmed -->
 		<table name="#maxMp"> 1.1 1.15 1.2 1.25 1.3 1.35 </table>
 		<table name="#stackOrder"> 2 3 4 5 6 7 </table>
@@ -1419,7 +1419,7 @@
 			</effect>
 		</for>
 	</skill>
-	<skill id="4396" levels="2" name="Magic Barrier">
+	<skill id="4396" levels="2" name="魔法屏障">
 		<!-- Freya retail confirmed -->
 		<table name="#stackOrder"> 3 4 </table>
 		<table name="#mDef"> 1.23 1.3 </table>
@@ -1435,7 +1435,7 @@
 			</effect>
 		</for>
 	</skill>
-	<skill id="4397" levels="2" name="Berserker Spirit">
+	<skill id="4397" levels="2" name="狂戰士魂">
 		<!-- Freya retail confirmed -->
 		<!-- by DrLecter -->
 		<table name="#pAtk"> 1.05 1.08 </table>
@@ -1466,7 +1466,7 @@
 			</effect>
 		</for>
 	</skill>
-	<skill id="4398" levels="6" name="Bless Shield">
+	<skill id="4398" levels="6" name="祝福之盾">
 		<!-- Freya retail confirmed -->
 		<table name="#rShld"> 1.05 1.1 1.15 1.2 1.25 1.3 </table>
 		<table name="#stackOrder"> 2 3 4 5 6 7 </table>
@@ -1482,7 +1482,7 @@
 			</effect>
 		</for>
 	</skill>
-	<skill id="4399" levels="4" name="Vampiric Rage">
+	<skill id="4399" levels="4" name="吸血怒擊">
 		<!-- Freya retail confirmed -->
 		<!-- by DrLecter -->
 		<table name="#absorbDam"> 6 7 8 9 </table>

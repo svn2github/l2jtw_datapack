@@ -57,7 +57,7 @@
 		<set name="castRange" val="500" />
 		<set name="effectRange" val="1000" />
 	</skill>
-	<skill id="5004" levels="1" name="Dimensional Stun">
+	<skill id="5004" levels="1" name="次元休克">
 		<!-- Confirmed CT2.5 -->
 		<!-- Frintezza Skills -->
 		<set name="element" val="5" /> <!-- Dark -->
@@ -205,7 +205,7 @@
 		<set name="skillType" val="MDAM" />
 		<set name="target" val="TARGET_AURA" />
 	</skill>
-	<skill id="5012" levels="1" name="Breath of Scarlet">
+	<skill id="5012" levels="1" name="鮮紅的氣息">
 		<!-- Confirmed CT2.5 -->
 		<!-- Frintezza Skills -->
 		<set name="castRange" val="40" />
@@ -279,7 +279,7 @@
 		<set name="skillType" val="PDAM" />
 		<set name="target" val="TARGET_FRONT_AREA" />
 	</skill>
-	<skill id="5016" levels="1" name="Yoke of Scarlet">
+	<skill id="5016" levels="1" name="鮮紅的束縛">
 		<!-- Confirmed CT2.5 -->
 		<!-- Frintezza Skills -->
 		<set name="castRange" val="500" />
@@ -347,7 +347,7 @@
 		<set name="skillType" val="DRAIN" />
 		<set name="target" val="TARGET_AURA" />
 	</skill>
-	<skill id="5020" levels="1" name="Forced Action">
+	<skill id="5020" levels="1" name="強制行動">
 		<!-- Crumples to the ground because of unknown power. -->
 		<set name="target" val="TARGET_NONE" />
 		<set name="skillType" val="NOTDONE" />
@@ -355,7 +355,7 @@
 		<set name="operateType" val="OP_PASSIVE" />
 		<set name="hitTime" val="2000" />
 	</skill>
-	<skill id="5021" levels="12" name="Inspiration of Einhasad">
+	<skill id="5021" levels="12" name="殷海薩的感化">
 		<set name="target" val="TARGET_NONE" />
 		<set name="skillType" val="NOTDONE" />
 		<set name="reuseDelay" val="25000" />
@@ -365,100 +365,100 @@
 		<set name="saveVs" val="MEN" />
 		<set name="lvlDepend" val="1" />
 	</skill>
-	<skill id="5022" levels="12" name="Decrease Speed">
+	<skill id="5022" levels="12" name="移動速度下降">
 		<set name="target" val="TARGET_NONE" />
 		<set name="skillType" val="NOTDONE" />
 		<set name="operateType" val="OP_PASSIVE" />
 		<set name="saveVs" val="MEN" />
 		<set name="lvlDepend" val="2" />
 	</skill>
-	<skill id="5023" levels="12" name="Hold">
+	<skill id="5023" levels="12" name="束縛">
 		<set name="target" val="TARGET_NONE" />
 		<set name="skillType" val="NOTDONE" />
 		<set name="operateType" val="OP_PASSIVE" />
 		<set name="saveVs" val="MEN" />
 		<set name="lvlDepend" val="2" />
 	</skill>
-	<skill id="5024" levels="12" name="Decrease Atk. Spd.">
+	<skill id="5024" levels="12" name="攻擊速度下降">
 		<set name="target" val="TARGET_NONE" />
 		<set name="skillType" val="NOTDONE" />
 		<set name="operateType" val="OP_PASSIVE" />
 		<set name="saveVs" val="MEN" />
 		<set name="lvlDepend" val="1" />
 	</skill>
-	<skill id="5025" levels="1" name="Raid Boss - Level 30">
+	<skill id="5025" levels="1" name="30級狩獵首領">
 		<!-- This Skill Is Only For Description In The Client -->
 		<set name="target" val="TARGET_SELF" />
 		<set name="skillType" val="PASSIVE" />
 		<set name="operateType" val="OP_PASSIVE" />
 	</skill>
-	<skill id="5026" levels="1" name="Raid Boss - Level 39">
+	<skill id="5026" levels="1" name="39級狩獵首領">
 		<!-- This Skill Is Only For Description In The Client -->
 		<set name="target" val="TARGET_SELF" />
 		<set name="skillType" val="PASSIVE" />
 		<set name="operateType" val="OP_PASSIVE" />
 	</skill>
-	<skill id="5027" levels="1" name="Raid Boss - Level 37">
+	<skill id="5027" levels="1" name="37級狩獵首領">
 		<!-- This Skill Is Only For Description In The Client -->
 		<set name="target" val="TARGET_SELF" />
 		<set name="skillType" val="PASSIVE" />
 		<set name="operateType" val="OP_PASSIVE" />
 	</skill>
-	<skill id="5028" levels="1" name="Raid Boss - Level 53">
+	<skill id="5028" levels="1" name="53級狩獵首領">
 		<!-- This Skill Is Only For Description In The Client -->
 		<set name="target" val="TARGET_SELF" />
 		<set name="skillType" val="PASSIVE" />
 		<set name="operateType" val="OP_PASSIVE" />
 	</skill>
-	<skill id="5029" levels="1" name="Raid Boss - Level 52">
+	<skill id="5029" levels="1" name="52級狩獵首領">
 		<!-- This Skill Is Only For Description In The Client -->
 		<set name="target" val="TARGET_SELF" />
 		<set name="skillType" val="PASSIVE" />
 		<set name="operateType" val="OP_PASSIVE" />
 	</skill>
-	<skill id="5030" levels="1" name="Raid Boss - Level 59">
+	<skill id="5030" levels="1" name="59級狩獵首領">
 		<!-- This Skill Is Only For Description In The Client -->
 		<set name="target" val="TARGET_SELF" />
 		<set name="skillType" val="PASSIVE" />
 		<set name="operateType" val="OP_PASSIVE" />
 	</skill>
-	<skill id="5031" levels="1" name="Raid Boss - Level 80">
+	<skill id="5031" levels="1" name="80級狩獵首領">
 		<!-- This Skill Is Only For Description In The Client -->
 		<set name="target" val="TARGET_SELF" />
 		<set name="skillType" val="PASSIVE" />
 		<set name="operateType" val="OP_PASSIVE" />
 	</skill>
-	<skill id="5032" levels="1" name="Raid Boss - Level 80">
+	<skill id="5032" levels="1" name="80級狩獵首領">
 		<!-- This Skill Is Only For Description In The Client -->
 		<set name="target" val="TARGET_SELF" />
 		<set name="skillType" val="PASSIVE" />
 		<set name="operateType" val="OP_PASSIVE" />
 	</skill>
-	<skill id="5033" levels="1" name="Raid Boss - Level 80">
+	<skill id="5033" levels="1" name="80級狩獵首領">
 		<!-- This Skill Is Only For Description In The Client -->
 		<set name="target" val="TARGET_SELF" />
 		<set name="skillType" val="PASSIVE" />
 		<set name="operateType" val="OP_PASSIVE" />
 	</skill>
-	<skill id="5034" levels="1" name="Raid Boss - Level 73">
+	<skill id="5034" levels="1" name="73級狩獵首領">
 		<!-- This Skill Is Only For Description In The Client -->
 		<set name="target" val="TARGET_SELF" />
 		<set name="skillType" val="PASSIVE" />
 		<set name="operateType" val="OP_PASSIVE" />
 	</skill>
-	<skill id="5035" levels="1" name="Raid Boss - Level 76">
+	<skill id="5035" levels="1" name="76級狩獵首領">
 		<!-- This Skill Is Only For Description In The Client -->
 		<set name="target" val="TARGET_SELF" />
 		<set name="skillType" val="PASSIVE" />
 		<set name="operateType" val="OP_PASSIVE" />
 	</skill>
-	<skill id="5036" levels="1" name="Raid Boss - Level 60">
+	<skill id="5036" levels="1" name="60級狩獵首領">
 		<!-- This Skill Is Only For Description In The Client -->
 		<set name="target" val="TARGET_SELF" />
 		<set name="skillType" val="PASSIVE" />
 		<set name="operateType" val="OP_PASSIVE" />
 	</skill>
-	<skill id="5037" levels="3" name="Decrease Casting Spd">
+	<skill id="5037" levels="3" name="施法速度下降">
 		<set name="target" val="TARGET_NONE" />
 		<set name="skillType" val="NOTDONE" />
 		<set name="operateType" val="OP_PASSIVE" />
@@ -507,7 +507,7 @@
 			<effect count="15" name="HealOverTime" val="#hot" stackOrder="#stackOrder" stackType="life_force_others" />
 		</for>
 	</skill>
-	<skill id="5041" levels="1" name="Charm of Courage">
+	<skill id="5041" levels="1" name="勇氣護符">
 		<set name="itemConsumeCount" val="1" />
 		<set name="target" val="TARGET_SELF" />
 		<set name="skillType" val="BUFF" />
@@ -910,7 +910,7 @@
 		<set name="castRange" val="1500" />
 		<set name="effectRange" val="2000" />
 	</skill>
-	<skill id="5068" levels="12" name="Decrease Speed">
+	<skill id="5068" levels="12" name="移動速度下降">
 		<!-- Update by pmq -->
 		<!-- Description(s): Lvl 1-12 - Instantly reduces Speed. Effect 3. -->
 		<table name="#power"> 11 16 23 31 41 51 61 66 70 73 76 78 </table>
@@ -932,11 +932,11 @@
 		<set name="isDebuff" val="true" />
 		<for>
 			<effect name="Debuff" time="30" val="0" effectPower="60" effectType="DEBUFF" stackOrder="0.7" stackType="RunSpeedDown">
-				<mul order="0x30" stat="runSpd" val="0.7"/>
+				<mul order="0x30" stat="runSpd" val="0.7" />
 			</effect>
 		</for>
 	</skill>
-	<skill id="5069" levels="12" name="Decrease Atk. Spd.">
+	<skill id="5069" levels="12" name="攻擊速度下降">
 		<!-- Update by pmq -->
 		<!-- Description(s): Lvl 1-12 - Instantly reduces Atk. Spd. Effect 3. -->
 		<table name="#pAtkSpd"> 0.83 0.8 0.8 0.77 0.77 0.77 0.77 0.77 0.77 0.77 0.77 0.77 </table>
@@ -956,11 +956,11 @@
 		<set name="isDebuff" val="true" />
 		<for>
 			<effect name="Debuff" time="15" val="0" stackOrder="#pAtkSpd" stackType="attack_time_up">
-				<mul order="0x30" stat="pAtkSpd" val="#pAtkSpd"/>
+				<mul order="0x30" stat="pAtkSpd" val="#pAtkSpd" />
 			</effect>
 		</for>
 	</skill>
-	<skill id="5070" levels="12" name="Decrease Casting Spd">
+	<skill id="5070" levels="12" name="施法速度下降">
 		<!-- Update by pmq -->
 		<!-- Description(s): Lvl 1-12 - Instantly reduces Casting Spd. Effect 3. -->
 		<table name="#mAtkSpd"> 0.83 0.8 0.8 0.77 0.77 0.77 0.77 0.77 0.77 0.77 0.77 0.77 </table>
@@ -980,11 +980,11 @@
 		<set name="isDebuff" val="true" />
 		<for>
 			<effect name="Debuff" time="15" val="0" stackOrder="#mAtkSpd" stackType="casting_time_down">
-				<mul order="0x30" stat="mAtkSpd" val="#mAtkSpd"/>
+				<mul order="0x30" stat="mAtkSpd" val="#mAtkSpd" />
 			</effect>
 		</for>
 	</skill>
-	<skill id="5071" levels="12" name="Decrease P. Atk.">
+	<skill id="5071" levels="12" name="物理攻擊力下降">
 		<!-- Update by pmq -->
 		<!-- Description(s): Lvl 1-12 - Instantly reduces P. Atk. Effect 3. -->
 		<table name="#pAtk"> 0.83 0.8 0.8 0.77 0.77 0.77 0.77 0.77 0.77 0.77 0.77 0.77 </table>
@@ -1004,11 +1004,11 @@
 		<set name="isDebuff" val="true" />
 		<for>
 			<effect name="Buff" time="15" val="0" stackOrder="#pAtk" stackType="pAtkDown">
-				<mul order="0x30" stat="pAtk" val="#pAtk"/>
+				<mul order="0x30" stat="pAtk" val="#pAtk" />
 			</effect>
 		</for>
 	</skill>
-	<skill id="5072" levels="12" name="Decrease M. Atk.">
+	<skill id="5072" levels="12" name="魔法攻擊力下降">
 		<!-- Update by pmq -->
 		<!-- Description(s): Lvl 1-12 - Instantly reduces M. Atk. Effect 3. -->
 		<!--
@@ -1042,7 +1042,7 @@
 		<set name="isDebuff" val="true" />
 		<for>
 			<effect name="Buff" time="15" val="0" stackOrder="#mAtk" stackType="ma_up">
-				<mul order="0x30" stat="mAtk" val="#mAtk"/>
+				<mul order="0x30" stat="mAtk" val="#mAtk" />
 			</effect>
 		</for>
 	</skill>
@@ -1060,7 +1060,7 @@
 		<set name="castRange" val="1500" />
 		<set name="effectRange" val="1500" />
 	</skill>
-	<skill id="5074" levels="1" name="The Victor of War">
+	<skill id="5074" levels="1" name="戰亂勝利者">
 		<set name="target" val="TARGET_SELF" />
 		<set name="skillType" val="BUFF" />
 		<set name="operateType" val="OP_PASSIVE" />
@@ -1068,7 +1068,7 @@
 			<mul order="0x30" stat="maxCp" val="1.1" />
 		</for>
 	</skill>
-	<skill id="5075" levels="1" name="The Vanquished of War">
+	<skill id="5075" levels="1" name="戰亂失敗者">
 		<set name="target" val="TARGET_SELF" />
 		<set name="skillType" val="BUFF" />
 		<set name="operateType" val="OP_PASSIVE" />
@@ -1076,7 +1076,7 @@
 			<mul order="0x30" stat="maxCp" val="0.9" />
 		</for>
 	</skill>
-	<skill id="5076" levels="15" name="Death Penalty">
+	<skill id="5076" levels="15" name="死亡後遺症">
 		<table name="#pAtkpAtkSpdmAtkmAtkSpd"> 0.9 0.81 0.73 0.66 0.6 0.55 0.51 0.47 0.44 0.41 0.38 0.35 0.32 0.28 0.25 </table>
 		<table name="#accCombatrEvas"> 5 9 13 17 21 25 29 33 37 40 42 44 46 48 50 </table>
 		<table name="#pDefmDef"> 0.91 0.83 0.77 0.72 0.68 0.65 0.62 0.59 0.56 0.53 0.5 0.47 0.44 0.42 0.4 </table>
@@ -1150,7 +1150,7 @@
 			</effect>
 		</for>
 	</skill>
-	<skill id="5081" levels="4" name="Silence">
+	<skill id="5081" levels="4" name="沉默">
 		<table name="#mpConsume"> 75 75 75 20 </table>
 		<set name="mpConsume" val="#mpConsume" />
 		<set name="magicLvl" val="80" />
@@ -1179,7 +1179,7 @@
 		<set name="skillType" val="PDAM" />
 		<set name="operateType" val="OP_ACTIVE" />
 	</skill>
-	<skill id="5083" levels="4" name="Stun">
+	<skill id="5083" levels="4" name="休克">
 		<table name="#mpConsume"> 93 93 93 5 </table>
 		<set name="magicLvl" val="80" />
 		<set name="lvlDepend" val="1" />
@@ -1217,7 +1217,7 @@
 			</effect>
 		</for>
 	</skill>
-	<skill id="5085" levels="1" name="Anesthesia">
+	<skill id="5085" levels="1" name="麻醉">
 		<!-- Temporarily stunned and Immobilized. -->
 		<set name="target" val="TARGET_NONE" />
 		<set name="skillType" val="NOTDONE" />
@@ -1225,7 +1225,7 @@
 		<set name="hitTime" val="3300" />
 		<set name="saveVs" val="MEN" />
 	</skill>
-	<skill id="5086" levels="1" name="Deadly Poison">
+	<skill id="5086" levels="1" name="死亡之毒">
 		<!-- Infected with poison and gradually losing HP. If HP falls to 0, death will ensue. -->
 		<set name="target" val="TARGET_NONE" />
 		<set name="skillType" val="NOTDONE" />
@@ -1234,7 +1234,7 @@
 		<set name="saveVs" val="CON" />
 		<set name="lvlDepend" val="1" />
 	</skill>
-	<skill id="5087" levels="2" name="Berserk">
+	<skill id="5087" levels="2" name="狂暴">
 		<!-- CT2.5 retail confirmed -->
 		<table name="#pAtk"> 1.9 2.8 </table>
 		<table name="#pDef"> 1 2.8 </table>
@@ -1252,19 +1252,19 @@
 			</effect>
 		</for>
 	</skill>
-	<skill id="5088" levels="1" name="Signal">
+	<skill id="5088" levels="1" name="信號">
 		<set name="target" val="TARGET_NONE" />
 		<set name="skillType" val="NOTDONE" />
 		<set name="operateType" val="OP_PASSIVE" />
 		<set name="hitTime" val="1000" />
 	</skill>
-	<skill id="5089" levels="1" name="Representation - Enter the Sailren Nest Quest">
+	<skill id="5089" levels="1" name="展示-賽爾蘭巢穴入場任務">
 		<set name="target" val="TARGET_SELF" />
 		<set name="skillType" val="DUMMY" />
 		<set name="operateType" val="OP_ACTIVE" />
 		<set name="hitTime" val="1000" />
 	</skill>
-	<skill id="5090" levels="1" name="Sailren Production">
+	<skill id="5090" levels="1" name="賽爾蘭展示">
 		<!-- Needs more work -->
 		<!-- Only pre-implementation -->
 		<set name="target" val="TARGET_SELF" /> <!-- Needs to be checked -->
@@ -1272,7 +1272,7 @@
 		<set name="hitTime" val="1000" />
 		<set name="operateType" val="OP_ACTIVE" />
 	</skill>
-	<skill id="5091" levels="1" name="Sailren Production 2">
+	<skill id="5091" levels="1" name="賽爾蘭展示2">
 		<!-- Needs more work -->
 		<!-- Only pre-implementation -->
 		<set name="target" val="TARGET_SELF" /> <!-- Needs to be checked -->
@@ -1280,7 +1280,7 @@
 		<set name="hitTime" val="1000" />
 		<set name="operateType" val="OP_ACTIVE" />
 	</skill>
-	<skill id="5092" levels="1" name="Antharas Terror">
+	<skill id="5092" levels="1" name="安塔瑞斯狂暴">
 		<!-- Confirmed CT2.5 -->
 		<!-- Antharas Skills -->
 		<set name="castRange" val="600" />
@@ -1300,7 +1300,7 @@
 			<effect count="7" name="Fear" time="3" val="0" stackOrder="1" stackType="turn_flee" />
 		</for>
 	</skill>
-	<skill id="5093" levels="1" name="Antharas Meteor">
+	<skill id="5093" levels="1" name="安塔瑞斯流星雨">
 		<!-- Confirmed CT2.5 -->
 		<!-- Antharas Skills -->
 		<set name="castRange" val="600" />
@@ -1317,7 +1317,7 @@
 		<set name="skillType" val="MDAM" />
 		<set name="target" val="TARGET_AREA" />
 	</skill>
-	<skill id="5094" levels="1" name="Antharas Subordinate Suicide ">
+	<skill id="5094" levels="1" name="安塔瑞斯部下自爆">
 		<!-- Confirmed CT2.5 -->
 		<set name="element" val="0" /> <!-- Fire -->
 		<set name="elementPower" val="180" />
@@ -1331,7 +1331,7 @@
 		<set name="skillType" val="MDAM" />
 		<set name="target" val="TARGET_AURA" />
 	</skill>
-	<skill id="5095" levels="1" name="Antharas Subordinate Melee Attack">
+	<skill id="5095" levels="1" name="安塔瑞斯部下近身攻擊">
 		<!-- Confirmed CT2.5 -->
 		<set name="castRange" val="40" />
 		<set name="effectRange" val="200" />
@@ -1343,7 +1343,7 @@
 		<set name="target" val="TARGET_ONE" />
 		<set name="skillType" val="PDAM" />
 	</skill>
-	<skill id="5096" levels="1" name="Antharas Subordinate Remote Attack">
+	<skill id="5096" levels="1" name="安塔瑞斯部下遠距攻擊">
 		<!-- Confirmed CT2.5 -->
 		<set name="castRange" val="600" />
 		<set name="effectRange" val="1100" />
@@ -1355,7 +1355,7 @@
 		<set name="skillType" val="PDAM" />
 		<set name="target" val="TARGET_ONE" />
 	</skill>
-	<skill id="5097" levels="1" name="Antharas Subordinate Suicide (Narrow Range)">
+	<skill id="5097" levels="1" name="安塔瑞斯部下自爆(小範圍)">
 		<!-- Confirmed CT2.5 -->
 		<set name="element" val="0" /> <!-- Fire -->
 		<set name="elementPower" val="20" />
@@ -1369,13 +1369,13 @@
 		<set name="skillType" val="MDAM" />
 		<set name="target" val="TARGET_AURA" />
 	</skill>
-	<skill id="5098" levels="2" name="Capture Penalty">
+	<skill id="5098" levels="2" name="獵捕懲罰">
 		<set name="target" val="TARGET_NONE" />
 		<set name="skillType" val="NOTDONE" />
 		<set name="reuseDelay" val="1000" />
 		<set name="operateType" val="OP_PASSIVE" />
 	</skill>
-	<skill id="5099" levels="1" name="Cancel Capture A">
+	<skill id="5099" levels="1" name="獵捕A解除">
 		<set name="target" val="TARGET_NONE" />
 		<set name="skillType" val="NOTDONE" />
 		<set name="operateType" val="OP_PASSIVE" />

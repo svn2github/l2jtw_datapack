@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <list>
-	<skill id="21000" levels="1" name="Release Seal on Agathion - Majo">
+	<skill id="21000" levels="1" name="壺精封印解除-媽祖">
 		<set name="target" val="TARGET_SELF" />
 		<set name="skillType" val="AGATHION" />
 		<set name="operateType" val="OP_ACTIVE" />
@@ -8,7 +8,7 @@
 		<set name="staticHitTime" val="true" />
 		<set name="npcId" val="1501" />
 	</skill>
-	<skill id="21001" levels="1" name="Release Seal on Agathion - Gold Majo">
+	<skill id="21001" levels="1" name="壺精封印解除-金面媽祖">
 		<set name="target" val="TARGET_SELF" />
 		<set name="skillType" val="AGATHION" />
 		<set name="operateType" val="OP_ACTIVE" />
@@ -16,7 +16,7 @@
 		<set name="staticHitTime" val="true" />
 		<set name="npcId" val="1502" />
 	</skill>
-	<skill id="21002" levels="1" name="Release Seal on Agathion - Black Majo">
+	<skill id="21002" levels="1" name="壺精封印解除-黑面媽祖">
 		<set name="target" val="TARGET_SELF" />
 		<set name="skillType" val="AGATHION" />
 		<set name="operateType" val="OP_ACTIVE" />
@@ -24,7 +24,7 @@
 		<set name="staticHitTime" val="true" />
 		<set name="npcId" val="1503" />
 	</skill>
-	<skill id="21003" levels="1" name="Release Seal on Agathion - Plaipitak">
+	<skill id="21003" levels="1" name="壺精封印解除-普萊皮塔">
 		<set name="target" val="TARGET_SELF" />
 		<set name="skillType" val="AGATHION" />
 		<set name="operateType" val="OP_ACTIVE" />
@@ -32,7 +32,7 @@
 		<set name="staticHitTime" val="true" />
 		<set name="npcId" val="1504" />
 	</skill>
-	<skill id="21004" levels="1" name="Wind Walk">
+	<skill id="21004" levels="1" name="風之疾走">
 		<set name="target" val="TARGET_SELF" />
 		<set name="operateType" val="OP_ACTIVE" />
 		<set name="skillType" val="BUFF" />
@@ -46,7 +46,7 @@
 			</effect>
 		</for>
 	</skill>
-	<skill id="21005" levels="3" name="Agility">
+	<skill id="21005" levels="3" name="敏捷術">
 		<set name="target" val="TARGET_SELF" />
 		<set name="operateType" val="OP_ACTIVE" />
 		<set name="skillType" val="BUFF" />
@@ -60,7 +60,7 @@
 			</effect>
 		</for>
 	</skill>
-	<skill id="21006" levels="1" name="Large Firework Effect">
+	<skill id="21006" levels="1" name="大煙火之力">
 		<!-- Update by rocknow -->
 		<set name="target" val="TARGET_SELF" />
 		<set name="skillType" val="DUMMY" />
@@ -68,7 +68,7 @@
 		<set name="reuseDelay" val="5000" />
 		<set name="staticReuse" val="true" />
 	</skill>
-	<skill id="21007" levels="1" name="Ability of Doubt">
+	<skill id="21007" levels="1" name="疑問之力">
 		<!-- Update by rocknow -->
 		<set name="operateType" val="OP_ACTIVE" />
 		<set name="skillType" val="BUFF" />
@@ -79,7 +79,7 @@
 			<effect name="BigHead" time="300" val="0" abnormal="bighead" stackOrder="300" stackType="big_head" />
 		</for>
 	</skill>
-	<skill id="21008" levels="1" name="Release Seal on Agathion - Baby Panda">
+	<skill id="21008" levels="1" name="壺精封印解除-寶寶貓熊">
 		<set name="target" val="TARGET_SELF" />
 		<set name="skillType" val="AGATHION" />
 		<set name="operateType" val="OP_ACTIVE" />
@@ -87,7 +87,7 @@
 		<set name="staticHitTime" val="true" />
 		<set name="npcId" val="1505" />
 	</skill>
-	<skill id="21009" levels="1" name="Release Seal on Agathion - Bamboo Panda">
+	<skill id="21009" levels="1" name="壺精封印解除-團團貓熊">
 		<set name="target" val="TARGET_SELF" />
 		<set name="skillType" val="AGATHION" />
 		<set name="operateType" val="OP_ACTIVE" />
@@ -95,7 +95,7 @@
 		<set name="staticHitTime" val="true" />
 		<set name="npcId" val="1506" />
 	</skill>
-	<skill id="21010" levels="1" name="Release Seal on Agathion - Sexy Panda">
+	<skill id="21010" levels="1" name="壺精封印解除-圓圓貓熊">
 		<set name="target" val="TARGET_SELF" />
 		<set name="skillType" val="AGATHION" />
 		<set name="operateType" val="OP_ACTIVE" />
@@ -103,7 +103,7 @@
 		<set name="staticHitTime" val="true" />
 		<set name="npcId" val="1507" />
 	</skill>
-	<skill id="21011" levels="1" name="Energy Recovery">
+	<skill id="21011" levels="1" name="活力恢復">
 		<!-- Recovers energy when acquiring Exp. for 20 minutes -->
 		<set name="target" val="TARGET_SELF" />
 		<set name="skillType" val="BUFF" />
@@ -117,7 +117,7 @@
 			</effect>
 		</for>
 	</skill>
-	<skill id="21012" levels="1" name="Energy Recovery">
+	<skill id="21012" levels="1" name="活力恢復">
 		<!-- Recovers energy when acquiring Exp. for 20 minutes -->
 		<set name="target" val="TARGET_SELF" />
 		<set name="skillType" val="BUFF" />
@@ -131,7 +131,7 @@
 			</effect>
 		</for>
 	</skill>
-	<skill id="21013" levels="1" name="Energy Recovery">
+	<skill id="21013" levels="1" name="活力恢復">
 		<!-- Recovers energy when acquiring Exp. for 20 minutes -->
 		<set name="target" val="TARGET_SELF" />
 		<set name="skillType" val="BUFF" />
@@ -145,7 +145,7 @@
 			</effect>
 		</for>
 	</skill>
-	<skill id="21014" levels="1" name="Scissors">
+	<skill id="21014" levels="1" name="剪刀">
 		<set name="target" val="TARGET_ONE" />
 		<set name="skillType" val="DUMMY" />
 		<set name="staticHitTime" val="true" />
@@ -160,7 +160,7 @@
 			<target npcId="13183" />
 		</cond>
 	</skill>
-	<skill id="21015" levels="1" name="Rock">
+	<skill id="21015" levels="1" name="石頭">
 		<set name="target" val="TARGET_ONE" />
 		<set name="skillType" val="DUMMY" />
 		<set name="staticHitTime" val="true" />
@@ -174,7 +174,7 @@
 			<target npcId="13183" />
 		</cond>
 	</skill>
-	<skill id="21016" levels="1" name="Paper">
+	<skill id="21016" levels="1" name="布">
 		<set name="target" val="TARGET_ONE" />
 		<set name="skillType" val="DUMMY" />
 		<set name="staticHitTime" val="true" />
@@ -188,7 +188,7 @@
 			<target npcId="13183" />
 		</cond>
 	</skill>
-	<skill id="21017" levels="1" name="Holiday Dream Weapon">
+	<skill id="21017" levels="1" name="聖誕幻象武器">
 		<set name="target" val="TARGET_SELF" />
 		<set name="skillType" val="BUFF" />
 		<set name="operateType" val="OP_PASSIVE" />
@@ -199,7 +199,7 @@
 			<add order="0x40" stat="absorbDam" val="10" />
 		</for>
 	</skill>
-	<skill id="21018" levels="1" name="Holiday Dream Weapon">
+	<skill id="21018" levels="1" name="聖誕幻象武器">
 		<set name="target" val="TARGET_SELF" />
 		<set name="skillType" val="BUFF" />
 		<set name="operateType" val="OP_PASSIVE" />
@@ -210,7 +210,7 @@
 			<mul order="0x30" stat="cAtk" val="1.25" />
 		</for>
 	</skill>
-	<skill id="21019" levels="1" name="Holiday Dream Weapon">
+	<skill id="21019" levels="1" name="聖誕幻象武器">
 		<set name="target" val="TARGET_SELF" />
 		<set name="skillType" val="BUFF" />
 		<set name="operateType" val="OP_PASSIVE" />
@@ -221,7 +221,7 @@
 			<mul order="0x30" stat="MagicalMpConsumeRate" val="0.8" />
 		</for>
 	</skill>
-	<skill id="21020" levels="1" name="Holiday Dream Weapon">
+	<skill id="21020" levels="1" name="聖誕幻象武器">
 		<set name="target" val="TARGET_SELF" />
 		<set name="skillType" val="BUFF" />
 		<set name="operateType" val="OP_PASSIVE" />
@@ -232,7 +232,7 @@
 			<add order="0x40" stat="absorbDam" val="10" />
 		</for>
 	</skill>
-	<skill id="21021" levels="1" name="Holiday Dream Weapon">
+	<skill id="21021" levels="1" name="聖誕幻象武器">
 		<set name="target" val="TARGET_SELF" />
 		<set name="skillType" val="BUFF" />
 		<set name="operateType" val="OP_PASSIVE" />
@@ -243,7 +243,7 @@
 			<mul order="0x30" stat="cAtk" val="1.25" />
 		</for>
 	</skill>
-	<skill id="21022" levels="1" name="Holiday Dream Weapon">
+	<skill id="21022" levels="1" name="聖誕幻象武器">
 		<set name="target" val="TARGET_SELF" />
 		<set name="skillType" val="BUFF" />
 		<set name="operateType" val="OP_PASSIVE" />
@@ -254,7 +254,7 @@
 			<mul order="0x30" stat="MagicalMpConsumeRate" val="0.8" />
 		</for>
 	</skill>
-	<skill id="21023" levels="1" name="Holiday Dream Weapon">
+	<skill id="21023" levels="1" name="聖誕幻象武器">
 		<set name="target" val="TARGET_SELF" />
 		<set name="skillType" val="BUFF" />
 		<set name="operateType" val="OP_PASSIVE" />
@@ -265,7 +265,7 @@
 			<mul order="0x30" stat="MagicalMpConsumeRate" val="0.8" />
 		</for>
 	</skill>
-	<skill id="21024" levels="1" name="Holiday Dream Weapon">
+	<skill id="21024" levels="1" name="聖誕幻象武器">
 		<set name="target" val="TARGET_SELF" />
 		<set name="skillType" val="BUFF" />
 		<set name="operateType" val="OP_PASSIVE" />
@@ -276,7 +276,7 @@
 			<add order="0x40" stat="absorbDam" val="10" />
 		</for>
 	</skill>
-	<skill id="21025" levels="1" name="Holiday Dream Weapon">
+	<skill id="21025" levels="1" name="聖誕幻象武器">
 		<set name="target" val="TARGET_SELF" />
 		<set name="skillType" val="BUFF" />
 		<set name="operateType" val="OP_PASSIVE" />
@@ -287,7 +287,7 @@
 			<basemul order="0x30" stat="rCrit" val="0.25" />
 		</for>
 	</skill>
-	<skill id="21026" levels="1" name="Holiday Dream Weapon">
+	<skill id="21026" levels="1" name="聖誕幻象武器">
 		<set name="target" val="TARGET_SELF" />
 		<set name="skillType" val="BUFF" />
 		<set name="operateType" val="OP_PASSIVE" />
@@ -298,7 +298,7 @@
 			<add order="0x40" stat="absorbDam" val="10" />
 		</for>
 	</skill>
-	<skill id="21027" levels="1" name="Holiday Dream Weapon">
+	<skill id="21027" levels="1" name="聖誕幻象武器">
 		<set name="target" val="TARGET_SELF" />
 		<set name="skillType" val="BUFF" />
 		<set name="operateType" val="OP_PASSIVE" />
@@ -310,7 +310,7 @@
 			<mul order="0x30" stat="DanceMpConsumeRate" val="0.8" />
 		</for>
 	</skill>
-	<skill id="21028" levels="1" name="Holiday Dream Weapon">
+	<skill id="21028" levels="1" name="聖誕幻象武器">
 		<set name="target" val="TARGET_SELF" />
 		<set name="skillType" val="BUFF" />
 		<set name="operateType" val="OP_PASSIVE" />
@@ -321,7 +321,7 @@
 			<add order="0x40" stat="absorbDam" val="10" />
 		</for>
 	</skill>
-	<skill id="21029" levels="1" name="Holiday Dream Weapon">
+	<skill id="21029" levels="1" name="聖誕幻象武器">
 		<set name="target" val="TARGET_SELF" />
 		<set name="skillType" val="BUFF" />
 		<set name="operateType" val="OP_PASSIVE" />
@@ -332,7 +332,7 @@
 			<mul order="0x30" stat="cAtk" val="1.25" />
 		</for>
 	</skill>
-	<skill id="21030" levels="1" name="Holiday Dream Weapon">
+	<skill id="21030" levels="1" name="聖誕幻象武器">
 		<set name="target" val="TARGET_SELF" />
 		<set name="skillType" val="BUFF" />
 		<set name="operateType" val="OP_PASSIVE" />
@@ -343,7 +343,7 @@
 			<add order="0x40" stat="accCombat" val="5" />
 		</for>
 	</skill>
-	<skill id="21031" levels="1" name="Agathion Seal Release - Charming Cupid">
+	<skill id="21031" levels="1" name="壺精封印解除-白色邱比特">
 		<set name="target" val="TARGET_SELF" />
 		<set name="skillType" val="AGATHION" />
 		<set name="hitTime" val="3000" />
@@ -351,7 +351,7 @@
 		<set name="operateType" val="OP_ACTIVE" />
 		<set name="npcId" val="1508" />
 	</skill>
-	<skill id="21032" levels="1" name="Agathion Seal Release - Naughty Cupid">
+	<skill id="21032" levels="1" name="壺精封印解除-黑色邱比特">
 		<set name="target" val="TARGET_SELF" />
 		<set name="skillType" val="AGATHION" />
 		<set name="hitTime" val="3000" />
@@ -359,7 +359,7 @@
 		<set name="operateType" val="OP_ACTIVE" />
 		<set name="npcId" val="1509" />
 	</skill>
-	<skill id="21033" levels="1" name="Release Seal on Agathion - White Maneki Neko">
+	<skill id="21033" levels="1" name="壺精封印解除-白色招財貓">
 		<set name="target" val="TARGET_SELF" />
 		<set name="skillType" val="AGATHION" />
 		<set name="hitTime" val="3000" />
@@ -367,7 +367,7 @@
 		<set name="operateType" val="OP_ACTIVE" />
 		<set name="npcId" val="1510" />
 	</skill>
-	<skill id="21034" levels="1" name="Release Seal on Agathion - Black Maneki Neko">
+	<skill id="21034" levels="1" name="壺精封印解除-黑色招財貓">
 		<set name="target" val="TARGET_SELF" />
 		<set name="skillType" val="AGATHION" />
 		<set name="hitTime" val="3000" />
@@ -375,7 +375,7 @@
 		<set name="operateType" val="OP_ACTIVE" />
 		<set name="npcId" val="1511" />
 	</skill>
-	<skill id="21035" levels="1" name="Release Seal on Agathion - Brown Maneki Neko">
+	<skill id="21035" levels="1" name="壺精封印解除-棕色招財貓">
 		<set name="target" val="TARGET_SELF" />
 		<set name="skillType" val="AGATHION" />
 		<set name="hitTime" val="3000" />
@@ -383,7 +383,7 @@
 		<set name="operateType" val="OP_ACTIVE" />
 		<set name="npcId" val="1512" />
 	</skill>
-	<skill id="21036" levels="1" name="Release Seal on Agathion - One-eyed Bat Drove">
+	<skill id="21036" levels="1" name="壺精封印解除-獨眼蝙蝠群">
 		<set name="target" val="TARGET_SELF" />
 		<set name="skillType" val="AGATHION" />
 		<set name="hitTime" val="3000" />
@@ -391,7 +391,7 @@
 		<set name="operateType" val="OP_ACTIVE" />
 		<set name="npcId" val="1513" />
 	</skill>
-	<skill id="21037" levels="1" name="Release Seal on Agathion - Pegasus">
+	<skill id="21037" levels="1" name="壺精封印解除-飛馬">
 		<set name="target" val="TARGET_SELF" />
 		<set name="skillType" val="AGATHION" />
 		<set name="hitTime" val="3000" />
@@ -399,7 +399,7 @@
 		<set name="operateType" val="OP_ACTIVE" />
 		<set name="npcId" val="1514" />
 	</skill>
-	<skill id="21038" levels="1" name="Release Seal on Agathion - Yellow-robed Tojigong">
+	<skill id="21038" levels="1" name="壺精封印解除-黃衣土地公">
 		<set name="target" val="TARGET_SELF" />
 		<set name="skillType" val="AGATHION" />
 		<set name="hitTime" val="3000" />
@@ -407,7 +407,7 @@
 		<set name="operateType" val="OP_ACTIVE" />
 		<set name="npcId" val="1515" />
 	</skill>
-	<skill id="21039" levels="1" name="Release Seal on Agathion - Blue-robed Tojigong">
+	<skill id="21039" levels="1" name="壺精封印解除-藍衣土地公">
 		<set name="target" val="TARGET_SELF" />
 		<set name="skillType" val="AGATHION" />
 		<set name="hitTime" val="3000" />
@@ -415,7 +415,7 @@
 		<set name="operateType" val="OP_ACTIVE" />
 		<set name="npcId" val="1516" />
 	</skill>
-	<skill id="21040" levels="1" name="Release Seal on Agathion - Green-robed Tojigong">
+	<skill id="21040" levels="1" name="壺精封印解除-綠衣土地公">
 		<set name="target" val="TARGET_SELF" />
 		<set name="skillType" val="AGATHION" />
 		<set name="hitTime" val="3000" />
@@ -423,7 +423,7 @@
 		<set name="operateType" val="OP_ACTIVE" />
 		<set name="npcId" val="1517" />
 	</skill>
-	<skill id="21041" levels="1" name="Release Seal on Agathion - Bugbear">
+	<skill id="21041" levels="1" name="壺精封印解除-食人妖">
 		<set name="target" val="TARGET_SELF" />
 		<set name="skillType" val="AGATHION" />
 		<set name="hitTime" val="3000" />
@@ -431,14 +431,14 @@
 		<set name="operateType" val="OP_ACTIVE" />
 		<set name="npcId" val="1518" />
 	</skill>
-	<skill id="21042" levels="1" name="Baguette's Blessing">
+	<skill id="21042" levels="1" name="法國麵包的祝福">
 		<set name="target" val="TARGET_NONE" />
 		<set name="skillType" val="NOTDONE" />
 		<set name="operateType" val="OP_PASSIVE" />
 		<set name="reuseDelay" val="1800000" />
 		<set name="hitTime" val="3000" />
 	</skill>
-	<skill id="21043" levels="1" name="Agathion Seal Cancel - Red Sumo Wrestler">
+	<skill id="21043" levels="1" name="壺精封印解除-紅色相撲選手">
 		<set name="target" val="TARGET_SELF" />
 		<set name="skillType" val="AGATHION" />
 		<set name="hitTime" val="3000" />
@@ -446,7 +446,7 @@
 		<set name="operateType" val="OP_ACTIVE" />
 		<set name="npcId" val="1519" />
 	</skill>
-	<skill id="21044" levels="1" name="Agathion Seal Cancel - Blue Sumo Wrestler Agathion">
+	<skill id="21044" levels="1" name="壺精封印解除-藍色相撲選手">
 		<set name="target" val="TARGET_SELF" />
 		<set name="skillType" val="AGATHION" />
 		<set name="hitTime" val="3000" />
@@ -454,7 +454,7 @@
 		<set name="operateType" val="OP_ACTIVE" />
 		<set name="npcId" val="1520" />
 	</skill>
-	<skill id="21045" levels="1" name="Agathion Seal Cancel - Great Sumo Match">
+	<skill id="21045" levels="1" name="壺精封印解除-相撲大決鬥">
 		<set name="target" val="TARGET_SELF" />
 		<set name="skillType" val="AGATHION" />
 		<set name="hitTime" val="3000" />
@@ -462,7 +462,7 @@
 		<set name="operateType" val="OP_ACTIVE" />
 		<set name="npcId" val="1521" />
 	</skill>
-	<skill id="21046" levels="1" name="Agathion Seal Cancel - Button-Eyed Bear Doll">
+	<skill id="21046" levels="1" name="壺精封印解除-玩偶熊">
 		<set name="target" val="TARGET_SELF" />
 		<set name="skillType" val="AGATHION" />
 		<set name="hitTime" val="3000" />
@@ -470,7 +470,7 @@
 		<set name="operateType" val="OP_ACTIVE" />
 		<set name="npcId" val="1522" />
 	</skill>
-	<skill id="21047" levels="1" name="Agathion Seal Cancel - God of Fortune">
+	<skill id="21047" levels="1" name="壺精封印解除-財神爺">
 		<set name="target" val="TARGET_SELF" />
 		<set name="skillType" val="AGATHION" />
 		<set name="hitTime" val="3000" />
@@ -478,7 +478,7 @@
 		<set name="operateType" val="OP_ACTIVE" />
 		<set name="npcId" val="1523" />
 	</skill>
-	<skill id="21048" levels="1" name="Agathion Seal Cancel - Dryad">
+	<skill id="21048" levels="1" name="壺精封印解除-樹精">
 		<set name="target" val="TARGET_SELF" />
 		<set name="skillType" val="AGATHION" />
 		<set name="hitTime" val="3000" />
@@ -486,7 +486,7 @@
 		<set name="operateType" val="OP_ACTIVE" />
 		<set name="npcId" val="1524" />
 	</skill>
-	<skill id="21049" levels="1" name="Agathion Seal Cancel - Wonboso">
+	<skill id="21049" levels="1" name="壺精封印解除-元寶牛">
 		<set name="target" val="TARGET_SELF" />
 		<set name="skillType" val="AGATHION" />
 		<set name="hitTime" val="3000" />
@@ -494,7 +494,7 @@
 		<set name="operateType" val="OP_ACTIVE" />
 		<set name="npcId" val="1525" />
 	</skill>
-	<skill id="21050" levels="1" name="Agathion Seal Cancel - Daewoonso">
+	<skill id="21050" levels="1" name="壺精封印解除-吉利牛">
 		<set name="target" val="TARGET_SELF" />
 		<set name="skillType" val="AGATHION" />
 		<set name="hitTime" val="3000" />
@@ -502,7 +502,7 @@
 		<set name="operateType" val="OP_ACTIVE" />
 		<set name="npcId" val="1526" />
 	</skill>
-	<skill id="21051" levels="1" name="Steam Beatle Mount">
+	<skill id="21051" levels="1" name="騎乘蒸汽甲蟲">
 		<set name="target" val="TARGET_SELF" />
 		<set name="skillType" val="BUFF" />
 		<set name="operateType" val="OP_ACTIVE" />
@@ -512,7 +512,7 @@
 			<effect name="Transformation" time="3600" val="0" stackOrder="26" stackType="transform" />
 		</for>
 	</skill>
-	<skill id="21052" levels="1" name="Bless the Body">
+	<skill id="21052" levels="1" name="神佑之體">
 		<!-- Increases Max HP by 25% for 30 minutes -->
 		<set name="target" val="TARGET_NONE" />
 		<set name="skillType" val="NOTDONE" />
@@ -520,7 +520,7 @@
 		<set name="reuseDelay" val="14400000" />
 		<set name="hitTime" val="4000" />
 	</skill>
-	<skill id="21053" levels="1" name="Bless the Soul">
+	<skill id="21053" levels="1" name="神佑之魂">
 		<!-- Increases Max MP by 25% for 30 minutes -->
 		<!-- Update by pmq -->
 		<table name="#mpInitialConsume"> 10 </table>
@@ -545,7 +545,7 @@
 			</effect>
 		</for>
 	</skill>
-	<skill id="21054" levels="1" name="Blessed Resurrection Ability">
+	<skill id="21054" levels="1" name="祝福的復活卷軸">
 		<!-- Can use the ability of Blessed Resurrection. Reuse Delay 12 hours -->
 		<!-- Update by pmq -->
 		<set name="power" val="100" />
@@ -558,7 +558,7 @@
 		<set name="castRange" val="400" />
 		<set name="effectRange" val="900" />
 	</skill>
-	<skill id="21055" levels="1" name="Wind Walk">
+	<skill id="21055" levels="1" name="風之疾走">
 		<!-- Increases moving speed by 20 for 2 minutes. Reuse delay 18 minutes -->
 		<!-- Update by pmq -->
 		<table name="#mpInitialConsume"> 4 </table>
@@ -582,7 +582,7 @@
 			</effect>
 		</for>
 	</skill>
-	<skill id="21056" levels="1" name="Agility">
+	<skill id="21056" levels="1" name="敏捷術">
 		<!-- Increases evasion rate by 4 for 1 hour. Reuse Delay 24 hours -->
 		<!-- Update by pmq -->
 		<table name="#mpInitialConsume"> 4 </table>
@@ -606,7 +606,7 @@
 			</effect>
 		</for>
 	</skill>
-	<skill id="21057" levels="1" name="Reflect">
+	<skill id="21057" levels="1" name="還擊">
 		<!-- For 5 minutes, returns 20% of the damage back to the enemy. Excludes skill and long-range attacks. Reuse Delay 1 hours -->
 		<!-- Update by pmq -->
 		<table name="#mpInitialConsume"> 5 </table>
@@ -628,7 +628,7 @@
 			</effect>
 		</for>
 	</skill>
-	<skill id="21058" levels="1" name="Mana Regeneration">
+	<skill id="21058" levels="1" name="魔力再生">
 		<!-- Increases MP Regeneration by 3% for 5 minutes. Reuse Delay 1 hours -->
 		<!-- Update by pmq -->
 		<table name="#regMp"> 3.0 </table>
@@ -653,7 +653,7 @@
 			</effect>
 		</for>
 	</skill>
-	<skill id="21059" levels="1" name="Greater Heal">
+	<skill id="21059" levels="1" name="終極治癒術">
 		<!-- Recovers HP by 444 and increases HP Recovery by 30 for 15 seconds. Reuse Delay 4 hours -->
 		<!-- Update by pmq -->
 		<table name="#mpInitialConsume"> 22 </table>
@@ -677,7 +677,7 @@
 			<effect count="15" name="HealOverTime" val="#hotValue" stackOrder="#hotValue" stackType="LifeForce" />
 		</for>
 	</skill>
-	<skill id="21060" levels="1" name="Death Whisper">
+	<skill id="21060" levels="1" name="死之呢喃">
 		<!-- Increases Critical attack power by 35% for 5 minutes. Reuse Delay 1 hours -->
 		<!-- Update by pmq -->
 		<table name="#cAtk"> 1.35 </table>
@@ -701,7 +701,7 @@
 			</effect>
 		</for>
 	</skill>
-	<skill id="21061" levels="1" name="Agility">
+	<skill id="21061" levels="1" name="敏捷術">
 		<!-- Increases evasion rate by 4 for 1 hour. Reuse Delay 24 hours -->
 		<!-- Update by pmq -->
 		<table name="#mpInitialConsume"> 4 </table>
@@ -725,7 +725,7 @@
 			</effect>
 		</for>
 	</skill>
-	<skill id="21062" levels="1" name="Wild Magic">
+	<skill id="21062" levels="1" name="野性魔力">
 		<!-- For 5 minutes, increases by 2% the occurrence rate of damage that is caused by damage magic. Reuse Delay 1 hours -->
 		<!-- Update by pmq -->
 		<table name="#mpInitialConsume"> 11 </table>
@@ -749,7 +749,7 @@
 			</effect>
 		</for>
 	</skill>
-	<skill id="21063" levels="1" name="Wind Walk">
+	<skill id="21063" levels="1" name="風之疾走">
 		<!-- Increases moving speed by 20 for 2 minutes. Reuse delay 18 minutes -->
 		<!-- Update by pmq -->
 		<table name="#mpInitialConsume"> 4 </table>
@@ -773,7 +773,7 @@
 			</effect>
 		</for>
 	</skill>
-	<skill id="21064" levels="1" name="Mana Regeneration">
+	<skill id="21064" levels="1" name="魔力再生">
 		<!-- Increases MP Regeneration by 3% for 5 minutes. Reuse Delay 1 hours -->
 		<!-- Update by pmq -->
 		<table name="#regMp"> 3.0 </table>
@@ -798,7 +798,7 @@
 			</effect>
 		</for>
 	</skill>
-	<skill id="21065" levels="1" name="Reflect">
+	<skill id="21065" levels="1" name="還擊">
 		<!-- For 5 minutes, returns 20% of the damage back to the enemy. Excludes skill and long-range attacks. Reuse Delay 1 hours -->
 		<!-- Update by pmq -->
 		<table name="#mpInitialConsume"> 5 </table>
@@ -820,7 +820,7 @@
 			</effect>
 		</for>
 	</skill>
-	<skill id="21066" levels="1" name="Energy Recovery">
+	<skill id="21066" levels="1" name="活力恢復">
 		<!-- Recovers energy when acquiring Exp. for 5 minutes. Reuse Delay 1 hours -->
 		<set name="target" val="TARGET_SELF" />
 		<set name="skillType" val="BUFF" />
@@ -833,7 +833,7 @@
 			</effect>
 		</for>
 	</skill>
-	<skill id="21067" levels="1" name="Blessed Escape Ability">
+	<skill id="21067" levels="1" name="祝福的返回卷軸">
 		<!-- Can use the ability of Blessed Return. Reuse Delay 12 hours -->
 		<!-- Update by pmq -->
 		<set name="reuseDelay" val="43200000" />
@@ -842,7 +842,7 @@
 		<set name="skillType" val="RECALL" />
 		<set name="operateType" val="OP_ACTIVE" />
 	</skill>
-	<skill id="21068" levels="1" name="Resist Unholy">
+	<skill id="21068" levels="1" name="暗之防護">
 		<!-- Increases resistance to darkness type attacks by 30 for 5 minutes. Reuse Delay 1 hours -->
 		<!-- Update by pmq -->
 		<table name="#mpInitialConsume"> 13 </table>
@@ -865,7 +865,7 @@
 			</effect>
 		</for>
 	</skill>
-	<skill id="21069" levels="1" name="Wind Walk">
+	<skill id="21069" levels="1" name="風之疾走">
 		<!-- Increases moving speed by 20 for 2 minutes. Reuse delay 18 minutes -->
 		<!-- Update by pmq -->
 		<table name="#mpInitialConsume"> 4 </table>
@@ -889,7 +889,7 @@
 			</effect>
 		</for>
 	</skill>
-	<skill id="21070" levels="1" name="Death Whisper">
+	<skill id="21070" levels="1" name="死之呢喃">
 		<!-- Increases Critical attack power by 35% for 5 minutes. Reuse Delay 1 hours -->
 		<!-- Update by pmq -->
 		<table name="#cAtk"> 1.35 </table>
@@ -913,7 +913,7 @@
 			</effect>
 		</for>
 	</skill>
-	<skill id="21071" levels="1" name="Agility">
+	<skill id="21071" levels="1" name="敏捷術">
 		<!-- Increases evasion rate by 4 for 1 hour. Reuse Delay 24 hours -->
 		<!-- Update by pmq -->
 		<table name="#mpInitialConsume"> 4 </table>
@@ -937,7 +937,7 @@
 			</effect>
 		</for>
 	</skill>
-	<skill id="21072" levels="1" name="Wild Magic">
+	<skill id="21072" levels="1" name="野性魔力">
 		<!-- For 5 minutes, increases by 2% the occurrence rate of damage that is caused by damage magic. Reuse Delay 1 hours -->
 		<!-- Update by pmq -->
 		<table name="#mpInitialConsume"> 11 </table>
@@ -961,7 +961,7 @@
 			</effect>
 		</for>
 	</skill>
-	<skill id="21073" levels="1" name="Mana Regeneration">
+	<skill id="21073" levels="1" name="魔力再生">
 		<!-- Increases MP Regeneration by 3% for 5 minutes. Reuse Delay 1 hours -->
 		<!-- Update by pmq -->
 		<table name="#regMp"> 3.0 </table>
@@ -986,7 +986,7 @@
 			</effect>
 		</for>
 	</skill>
-	<skill id="21074" levels="1" name="Reflect">
+	<skill id="21074" levels="1" name="還擊">
 		<!-- For 5 minutes, returns 20% of the damage back to the enemy. Excludes skill and long-range attacks. Reuse Delay 1 hours -->
 		<!-- Update by pmq -->
 		<table name="#mpInitialConsume"> 5 </table>
@@ -1008,7 +1008,7 @@
 			</effect>
 		</for>
 	</skill>
-	<skill id="21075" levels="1" name="Greater Heal">
+	<skill id="21075" levels="1" name="終極治癒術">
 		<!-- Recovers HP by 444 and increases HP Recovery by 30 for 15 seconds. Reuse Delay 4 hours -->
 		<!-- Update by pmq -->
 		<table name="#mpInitialConsume"> 22 </table>
@@ -1032,7 +1032,7 @@
 			<effect count="15" name="HealOverTime" val="#hotValue" stackOrder="#hotValue" stackType="LifeForce" />
 		</for>
 	</skill>
-	<skill id="21076" levels="1" name="Resist Unholy">
+	<skill id="21076" levels="1" name="暗之防護">
 		<!-- Increases resistance to darkness type attacks by 30 for 5 minutes. Reuse Delay 1 hours -->
 		<!-- Update by pmq -->
 		<table name="#mpInitialConsume"> 13 </table>
@@ -1055,7 +1055,7 @@
 			</effect>
 		</for>
 	</skill>
-	<skill id="21077" levels="1" name="Wind Walk">
+	<skill id="21077" levels="1" name="風之疾走">
 		<!-- Increases moving speed by 20 for 2 minutes. Reuse delay 18 minutes -->
 		<!-- Update by pmq -->
 		<table name="#mpInitialConsume"> 4 </table>
@@ -1079,7 +1079,7 @@
 			</effect>
 		</for>
 	</skill>
-	<skill id="21078" levels="1" name="Death Whisper">
+	<skill id="21078" levels="1" name="死之呢喃">
 		<!-- Increases Critical attack power by 35% for 5 minutes. Reuse Delay 1 hours -->
 		<!-- Update by pmq -->
 		<table name="#cAtk"> 1.35 </table>
@@ -1103,7 +1103,7 @@
 			</effect>
 		</for>
 	</skill>
-	<skill id="21079" levels="1" name="Agility">
+	<skill id="21079" levels="1" name="敏捷術">
 		<!-- Increases evasion rate by 4 for 1 hour. Reuse Delay 24 hours -->
 		<!-- Update by pmq -->
 		<table name="#mpInitialConsume"> 4 </table>
@@ -1127,7 +1127,7 @@
 			</effect>
 		</for>
 	</skill>
-	<skill id="21080" levels="1" name="Wild Magic">
+	<skill id="21080" levels="1" name="野性魔力">
 		<!-- For 5 minutes, increases by 2% the occurrence rate of damage that is caused by damage magic. Reuse Delay 1 hours -->
 		<!-- Update by pmq -->
 		<table name="#mpInitialConsume"> 11 </table>
@@ -1151,7 +1151,7 @@
 			</effect>
 		</for>
 	</skill>
-	<skill id="21081" levels="1" name="Mana Regeneration">
+	<skill id="21081" levels="1" name="魔力再生">
 		<!-- Increases MP Regeneration by 3% for 5 minutes. Reuse Delay 1 hours -->
 		<!-- Update by pmq -->
 		<table name="#regMp"> 3.0 </table>
@@ -1176,7 +1176,7 @@
 			</effect>
 		</for>
 	</skill>
-	<skill id="21082" levels="1" name="Reflect">
+	<skill id="21082" levels="1" name="還擊">
 		<!-- For 5 minutes, returns 20% of the damage back to the enemy. Excludes skill and long-range attacks. Reuse Delay 1 hours -->
 		<!-- Update by pmq -->
 		<table name="#mpInitialConsume"> 5 </table>
@@ -1198,7 +1198,7 @@
 			</effect>
 		</for>
 	</skill>
-	<skill id="21083" levels="1" name="Greater Heal">
+	<skill id="21083" levels="1" name="終極治癒術">
 		<!-- Recovers HP by 444 and increases HP Recovery by 30 for 15 seconds. Reuse Delay 4 hours -->
 		<!-- Update by pmq -->
 		<table name="#mpInitialConsume"> 22 </table>
@@ -1222,7 +1222,7 @@
 			<effect count="15" name="HealOverTime" val="#hotValue" stackOrder="#hotValue" stackType="LifeForce" />
 		</for>
 	</skill>
-	<skill id="21084" levels="1" name="Energy Recovery">
+	<skill id="21084" levels="1" name="活力恢復">
 		<!-- Recovers energy when acquiring Exp. for 5 minutes. Reuse Delay 1 hours -->
 		<set name="target" val="TARGET_SELF" />
 		<set name="skillType" val="BUFF" />
@@ -1235,7 +1235,7 @@
 			</effect>
 		</for>
 	</skill>
-	<skill id="21085" levels="1" name="Agathion Seal Cancel - Pomona">
+	<skill id="21085" levels="1" name="壺精封印解除-果樹女神">
 		<set name="target" val="TARGET_SELF" />
 		<set name="skillType" val="AGATHION" />
 		<set name="hitTime" val="3000" />
@@ -1243,7 +1243,7 @@
 		<set name="operateType" val="OP_ACTIVE" />
 		<set name="npcId" val="1527" />
 	</skill>
-	<skill id="21086" levels="1" name="Blessing of Love">
+	<skill id="21086" levels="1" name="愛的祝福">
 		<!-- Can feel the warm love of family. Protects the target with sacred power. Makes the target invincible for 10 seconds. Reuse Delay 4 hours -->
 		<!-- Update by rocknow -->
 		<set name="target" val="TARGET_ONE" />
@@ -1258,7 +1258,7 @@
 			<effect name="Invincible" time="10" val="0" stackOrder="1" stackType="Instant_Shield" />
 		</for>
 	</skill>
-	<skill id="21087" levels="1" name="Berserker Spirit">
+	<skill id="21087" levels="1" name="狂戰士魂">
 		<!-- Decreases P. Def. by 8%, M. Def. by 16%, and evasion by 4, and increases P. Atk. by 8%, M. Atk. by 16%, Atk. Spd. by 8%, Casting Spd. by 8%, and moving speed by 8 for 20 minutes. -->
 		<set name="target" val="TARGET_NONE" />
 		<set name="skillType" val="NOTDONE" />
@@ -1266,7 +1266,7 @@
 		<set name="reuseDelay" val="3600000" />
 		<set name="hitTime" val="4000" />
 	</skill>
-	<skill id="21088" levels="1" name="Summon Friend">
+	<skill id="21088" levels="1" name="召喚好友">
 		<!-- Summons your friend. -->
 		<!-- Update by pmq -->
 		<set name="target" val="TARGET_PARTY_MEMBER" />
@@ -1280,7 +1280,7 @@
 		<set name="effectRange" val="-2" />
 		<set name="isMagic" val="true" />
 	</skill>
-	<skill id="21089" levels="1" name="Dance of Shadows">
+	<skill id="21089" levels="1" name="闇影之舞">
 		<!-- Receives the soul's help, and for 2 minutes, decreases one's own moving speed by 50% and invokes the ability not to receive the preemptive attack of monsters. -->
 		<!-- Update by rocknow -->
 		<set name="mpConsume" val="60" />
@@ -1296,7 +1296,7 @@
 			</effect>
 		</for>
 	</skill>
-	<skill id="21090" levels="1" name="Soul of Phoenix">
+	<skill id="21090" levels="1" name="不死鳥之魂">
 		<!-- Receives the soul's help, and revives from death with completely recovered status. Buff/de-buff doesn't disappear at death but is maintained. -->
 		<!-- Update by rocknow -->
 		<set name="target" val="TARGET_SELF" />
@@ -1310,7 +1310,7 @@
 			<effect name="PhoenixBless" time="1800" val="0" />
 		</for>
 	</skill>
-	<skill id="21091" levels="1" name="Agathion Seal Cancel - Weaver">
+	<skill id="21091" levels="1" name="壺精封印解除-織女">
 		<!-- Removes the seal on the Agathion. -->
 		<set name="target" val="TARGET_SELF" />
 		<set name="skillType" val="AGATHION" />
@@ -1319,28 +1319,28 @@
 		<set name="operateType" val="OP_ACTIVE" />
 		<set name="npcId" val="1528" />
 	</skill>
-	<skill id="21092" levels="1" name="Theme - Love">
+	<skill id="21092" levels="1" name="主題-城鎮">
 		<!-- Update by rocknow -->
 		<set name="target" val="TARGET_SELF" />
 		<set name="reuseDelay" val="60000" />
 		<set name="skillType" val="DUMMY" />
 		<set name="operateType" val="OP_PASSIVE" />
 	</skill>
-	<skill id="21093" levels="1" name="Theme - Hero">
+	<skill id="21093" levels="1" name="主題-英雄">
 		<!-- Update by rocknow -->
 		<set name="target" val="TARGET_SELF" />
 		<set name="reuseDelay" val="60000" />
 		<set name="skillType" val="DUMMY" />
 		<set name="operateType" val="OP_PASSIVE" />
 	</skill>
-	<skill id="21094" levels="1" name="Theme - Theme Park">
+	<skill id="21094" levels="1" name="主題-遊樂園">
 		<!-- Update by rocknow -->
 		<set name="target" val="TARGET_SELF" />
 		<set name="reuseDelay" val="60000" />
 		<set name="skillType" val="DUMMY" />
 		<set name="operateType" val="OP_PASSIVE" />
 	</skill>
-	<skill id="21095" levels="1" name="Blessed Resurrection">
+	<skill id="21095" levels="1" name="祝福的復活">
 		<!-- Can use the ability of Blessed Resurrection. Reuse Delay 12 hours. -->
 		<!-- Update by rocknow -->
 		<set name="target" val="TARGET_CORPSE_PLAYER" />
@@ -1353,7 +1353,7 @@
 		<set name="castRange" val="400" />
 		<set name="effectRange" val="600" />
 	</skill>
-	<skill id="21096" levels="1" name="Ability of Cool Watermelon">
+	<skill id="21096" levels="1" name="冰涼西瓜的能力">
 		<!-- For 30 minutes, increases critical rate by 30% and critical power by 35%. -->
 		<!-- Update by rocknow -->
 		<set name="target" val="TARGET_SELF" />
@@ -1369,7 +1369,7 @@
 			</effect>
 		</for>
 	</skill>
-	<skill id="21097" levels="1" name="Summon Friend">
+	<skill id="21097" levels="1" name="召喚好友">
 		<!-- Summons your friend. -->
 		<!-- Update by pmq -->
 		<set name="target" val="TARGET_PARTY_MEMBER" />
@@ -1383,7 +1383,7 @@
 		<set name="effectRange" val="-2" />
 		<set name="isMagic" val="true" />
 	</skill>
-	<skill id="21098" levels="1" name="Great Adventurer's Soul Power : Endless">
+	<skill id="21098" levels="1" name="不滅的冒險者靈魂之力">
 		<!-- For five minutes, the Great Spirit increases maximum HP by 20%, maximum MP by 20%, moving speed by 20%, and resistance against debuff by 10%. -->
 		<!-- Update by rocknow -->
 		<set name="target" val="TARGET_SELF" />
@@ -1401,7 +1401,7 @@
 			</effect>
 		</for>
 	</skill>
-	<skill id="21099" levels="1" name="Great Warrior's Soul Power: Strength">
+	<skill id="21099" levels="1" name="強韌的戰士靈魂之力">
 		<!-- For five minutes, the Great Spirit increases Atk.Spd. by 20%, damage by 10% and P.Def. by 20%. You recover HP equal to 5% of the melee damage. -->
 		<!-- Update by rocknow -->
 		<set name="target" val="TARGET_SELF" />

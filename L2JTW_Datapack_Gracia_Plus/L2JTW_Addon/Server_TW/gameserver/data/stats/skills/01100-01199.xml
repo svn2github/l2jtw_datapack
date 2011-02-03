@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <list>
-	<skill id="1100" levels="2" name="Chill Flame">
+	<skill id="1100" levels="2" name="戰慄之火">
 		<table name="#magicLvl"> 7 14 </table>
 		<table name="#dot"> 27 40 </table>
 		<table name="#mpInitialConsume"> 3 5 </table>
@@ -28,7 +28,7 @@
 			<effect count="15" name="DamOverTime" val="#dot" stackOrder="#stackOrder" stackType="dot_attr" />
 		</for>
 	</skill>
-	<skill id="1101" levels="2" name="Blaze Quake">
+	<skill id="1101" levels="2" name="火焰震憾">
 		<table name="#magicLvl"> 25 35 </table>
 		<table name="#dot"> 58 79 </table>
 		<table name="#mpInitialConsume"> 10 14 </table>
@@ -55,7 +55,7 @@
 			<effect count="15" name="DamOverTime" val="#dot" stackOrder="#stackOrder" stackType="dot_attr" />
 		</for>
 	</skill>
-	<skill id="1102" levels="6" name="Aura Sink">
+	<skill id="1102" levels="6" name="靈氣沉淪">
 		<table name="#mpInitialConsume"> 7 9 12 15 18 20 </table>
 		<table name="#mpConsume"> 27 36 47 55 71 78 </table>
 		<table name="#magicLvl"> 25 35 44 52 64 70 </table>
@@ -82,7 +82,7 @@
 			<effect count="5" name="ManaDamOverTime" time="3" val="#mdot" effectPower="80" effectType="MDOT" stackOrder="#stackOrder" stackType="dot_mp" />
 		</for>
 	</skill>
-	<skill id="1104" levels="14" name="Seal of Winter" enchantGroup1="1" enchantGroup2="1">
+	<skill id="1104" levels="14" name="寒冬封印" enchantGroup1="1" enchantGroup2="1">
 		<table name="#enchantMagicLvl"> 76 76 76 77 77 77 78 78 78 79 79 79 80 80 80 81 81 81 82 82 82 82 83 83 83 84 84 85 85 85 </table>
 		<table name="#ench1Power"> 61 62 64 65 66 68 69 70 72 73 74 76 77 78 80 81 82 84 85 86 88 89 90 92 93 94 96 97 98 100 </table>
 		<table name="#ench2mpConsume"> 80 78 77 76 74 73 72 70 69 68 66 65 64 62 61 60 58 57 54 54 53 50 50 49 46 46 44 42 42 40 </table>
@@ -121,7 +121,7 @@
 			</effect>
 		</enchant1for>
 	</skill>
-	<skill id="1105" levels="18" name="Madness">
+	<skill id="1105" levels="18" name="心靈喪失">
 		<table name="#mpInitialConsume"> 4 5 6 6 7 8 9 10 11 11 11 12 12 13 13 13 14 14 </table>
 		<table name="#mpConsume"> 16 18 21 24 28 31 35 38 41 43 44 46 48 49 51 52 53 55 </table>
 		<table name="#magicLvl"> 20 25 30 35 40 44 48 52 56 58 60 62 64 66 68 70 72 74 </table>
@@ -142,7 +142,7 @@
 			<effect count="5" name="Confusion" time="4" val="0" />
 		</for>
 	</skill>
-	<skill id="1107" levels="2" name="Frost Flame">
+	<skill id="1107" levels="2" name="寒霜之焰">
 		<table name="#dot"> 58 79 </table>
 		<table name="#mpInitialConsume"> 6 8 </table>
 		<table name="#mpConsume"> 23 32 </table>
@@ -170,7 +170,7 @@
 			<effect count="15" name="DamOverTime" val="#dot" stackOrder="#stackOrder" stackType="dot_attr" />
 		</for>
 	</skill>
-	<skill id="1108" levels="4" name="Seal of Flame">
+	<skill id="1108" levels="4" name="火焰封印">
 		<table name="#dot"> 60 73 84 92 </table>
 		<table name="#mpInitialConsume"> 20 23 29 31 </table>
 		<table name="#mpConsume"> 77 92 113 122 </table>
@@ -195,7 +195,7 @@
 			<effect count="15" name="DamOverTime" val="#dot" stackOrder="#stackOrder" stackType="dot_attr" />
 		</for>
 	</skill>
-	<skill id="1111" levels="18" name="Summon Kat the Cat" enchantGroup1="1">
+	<skill id="1111" levels="18" name="召喚戰鬥貓" enchantGroup1="1">
 		<table name="#mpInitialConsume"> 8 9 11 12 14 16 18 19 21 22 22 23 24 25 26 26 27 28 </table>
 		<table name="#mpConsume"> 31 35 42 48 56 62 69 75 82 85 88 92 95 98 101 104 106 109 </table>
 		<table name="#reuseDelay"> 5400000 5400000 5400000 5400000 5000 5000 5000 5000 5000 5000 5000 5000 5000 5000 5000 5000 5000 5000 </table>
@@ -224,7 +224,7 @@
 		<set name="npcId" val="#npcIds" />
 		<enchant1 name="npcId" val="#enchantNpcId" />
 	</skill>
-	<skill id="1126" levels="34" name="Servitor Recharge" enchantGroup1="2" enchantGroup2="2">
+	<skill id="1126" levels="34" name="使魔魔力回復" enchantGroup1="2" enchantGroup2="2">
 		<table name="#enchantMagicLvl"> 76 76 76 77 77 77 78 78 78 79 79 79 80 80 80 81 81 81 82 82 82 82 83 83 83 84 84 85 85 85 </table>
 		<table name="#ench2mpConsume"> 108 107 106 105 104 103 102 100 99 98 97 96 95 94 93 92 91 90 89 88 87 86 85 84 83 82 81 80 79 78 </table>
 		<table name="#ench2mpInitialConsume"> 27 26 26 26 26 25 25 25 24 24 24 24 23 23 23 23 22 22 22 22 21 21 21 21 20 20 20 20 19 19 </table>
@@ -251,7 +251,7 @@
 		<enchant2 name="mpConsume" val="#ench2mpConsume" />
 		<enchant2 name="mpInitialConsume" val="#ench2mpInitialConsume" />
 	</skill>
-	<skill id="1127" levels="45" name="Servitor Heal" enchantGroup1="2" enchantGroup2="2">
+	<skill id="1127" levels="45" name="使魔生命回復" enchantGroup1="2" enchantGroup2="2">
 		<table name="#enchantMagicLvl"> 76 76 76 77 77 77 78 78 78 79 79 79 80 80 80 81 81 81 82 82 82 82 83 83 83 84 84 85 85 85 </table>
 		<table name="#ench2mpConsume"> 95 94 93 92 91 90 89 89 88 87 86 85 84 83 83 82 81 80 79 78 77 77 76 75 74 73 72 71 70 70 </table>
 		<table name="#ench2mpInitialConsume"> 23 23 23 23 22 22 22 22 22 21 21 21 21 20 20 20 20 20 19 19 19 19 19 18 18 18 18 17 17 17 </table>
@@ -278,7 +278,7 @@
 		<enchant2 name="mpConsume" val="#ench2mpConsume" />
 		<enchant2 name="mpInitialConsume" val="#ench2mpInitialConsume" />
 	</skill>
-	<skill id="1128" levels="18" name="Summon Shadow" enchantGroup1="1">
+	<skill id="1128" levels="18" name="召喚闇魔" enchantGroup1="1">
 		<table name="#enchantNpcId"> 14497 14498 14499 14500 14501 14502 14503 14504 14505 14506 14507 14508 14509 14510 14511 14512 14513 14514 14515 14516 14517 14518 14519 14520 14521 14522 14523 14524 14525 14526 </table>
 		<table name="#mpInitialConsume"> 8 9 11 12 14 16 18 19 21 22 22 23 24 25 26 26 27 28 </table>
 		<table name="#mpConsume"> 31 35 42 48 56 62 69 75 82 85 88 92 95 98 101 104 106 109 </table>
@@ -307,7 +307,7 @@
 		<set name="npcId" val="#npcIds" />
 		<enchant1 name="npcId" val="#enchantNpcId" />
 	</skill>
-	<skill id="1129" levels="7" name="Summon Reanimated Man" enchantGroup1="1">
+	<skill id="1129" levels="7" name="召喚起死回生者" enchantGroup1="1">
 		<table name="#enchantNpcId"> 14008 14009 14010 14011 14012 14013 14014 14015 14016 14017 14018 14019 14020 14021 14022 14023 14024 14025 14026 14027 14028 14029 14030 14031 14032 14033 14034 14035 14036 14037 </table>
 		<table name="#mpInitialConsume"> 16 19 22 24 26 27 28 </table>
 		<table name="#mpConsume"> 62 75 88 95 101 106 109 </table>
@@ -337,7 +337,7 @@
 		<set name="npcId" val="#npcIds" />
 		<enchant1 name="npcId" val="#enchantNpcId" />
 	</skill>
-	<skill id="1139" levels="2" name="Servitor Magic Shield" enchantGroup1="1" enchantGroup2="1">
+	<skill id="1139" levels="2" name="使魔魔法盾" enchantGroup1="1" enchantGroup2="1">
 		<table name="#enchantMagicLvl"> 76 76 76 77 77 77 78 78 78 79 79 79 80 80 80 81 81 81 82 82 82 82 83 83 83 84 84 85 85 85 </table>
 		<table name="#ench1time"> 1240 1280 1320 1360 1400 1440 1480 1520 1560 1600 1640 1680 1720 1760 1800 1840 1880 1920 1960 2000 2040 2080 2120 2160 2200 2240 2280 2320 2360 2400 </table>
 		<table name="#ench2mpConsume"> 37 36 36 35 34 34 33 32 32 31 31 30 29 29 28 27 27 26 25 25 24 24 23 22 22 21 20 20 19 19 </table>
@@ -373,7 +373,7 @@
 			</effect>
 		</enchant1for>
 	</skill>
-	<skill id="1140" levels="3" name="Servitor Physical Shield" enchantGroup1="1" enchantGroup2="1">
+	<skill id="1140" levels="3" name="使魔能量盾" enchantGroup1="1" enchantGroup2="1">
 		<table name="#enchantMagicLvl"> 76 76 76 77 77 77 78 78 78 79 79 79 80 80 80 81 81 81 82 82 82 82 83 83 83 84 84 85 85 85 </table>
 		<table name="#ench1time"> 1240 1280 1320 1360 1400 1440 1480 1520 1560 1600 1640 1680 1720 1760 1800 1840 1880 1920 1960 2000 2040 2080 2120 2160 2200 2240 2280 2320 2360 2400 </table>
 		<table name="#ench2mpConsume"> 40 39 38 38 37 36 36 35 34 34 33 32 32 31 30 30 29 28 28 27 26 25 25 24 23 23 22 21 21 20 </table>
@@ -409,7 +409,7 @@
 			</effect>
 		</enchant1for>
 	</skill>
-	<skill id="1141" levels="2" name="Servitor Haste" enchantGroup1="1" enchantGroup2="1">
+	<skill id="1141" levels="2" name="使魔速度激發" enchantGroup1="1" enchantGroup2="1">
 		<table name="#enchantMagicLvl"> 76 76 76 77 77 77 78 78 78 79 79 79 80 80 80 81 81 81 82 82 82 82 83 83 83 84 84 85 85 85 </table>
 		<table name="#ench1time"> 1240 1280 1320 1360 1400 1440 1480 1520 1560 1600 1640 1680 1720 1760 1800 1840 1880 1920 1960 2000 2040 2080 2120 2160 2200 2240 2280 2320 2360 2400 </table>
 		<table name="#ench2mpConsume"> 37 36 36 35 34 34 33 32 32 31 31 30 29 29 28 27 27 26 25 25 24 24 23 22 22 21 20 20 19 19 </table>
@@ -445,7 +445,7 @@
 			</effect>
 		</enchant1for>
 	</skill>
-	<skill id="1144" levels="2" name="Servitor Wind Walk" enchantGroup1="1" enchantGroup2="1">
+	<skill id="1144" levels="2" name="快速使魔" enchantGroup1="1" enchantGroup2="1">
 		<table name="#enchantMagicLvl"> 76 76 76 77 77 77 78 78 78 79 79 79 80 80 80 81 81 81 82 82 82 82 83 83 83 84 84 85 85 85 </table>
 		<table name="#ench1time"> 1240 1280 1320 1360 1400 1440 1480 1520 1560 1600 1640 1680 1720 1760 1800 1840 1880 1920 1960 2000 2040 2080 2120 2160 2200 2240 2280 2320 2360 2400 </table>
 		<table name="#ench2mpConsume"> 35 34 34 33 33 32 31 31 30 30 29 28 28 27 27 26 25 25 24 24 23 22 22 21 21 20 19 19 18 18 </table>
@@ -481,7 +481,7 @@
 			</effect>
 		</enchant1for>
 	</skill>
-	<skill id="1145" levels="3" name="Bright Servitor" enchantGroup1="1" enchantGroup2="1">
+	<skill id="1145" levels="3" name="睿智使魔" enchantGroup1="1" enchantGroup2="1">
 		<table name="#enchantMagicLvl"> 76 76 76 77 77 77 78 78 78 79 79 79 80 80 80 81 81 81 82 82 82 82 83 83 83 84 84 85 85 85 </table>
 		<table name="#ench1time"> 1240 1280 1320 1360 1400 1440 1480 1520 1560 1600 1640 1680 1720 1760 1800 1840 1880 1920 1960 2000 2040 2080 2120 2160 2200 2240 2280 2320 2360 2400 </table>
 		<table name="#ench2mpConsume"> 41 40 39 39 38 37 37 36 35 35 34 33 32 32 31 30 30 29 28 28 27 26 25 25 24 23 23 22 21 21 </table>
@@ -517,7 +517,7 @@
 			</effect>
 		</enchant1for>
 	</skill>
-	<skill id="1146" levels="3" name="Mighty Servitor" enchantGroup1="1" enchantGroup2="1">
+	<skill id="1146" levels="3" name="強力使魔" enchantGroup1="1" enchantGroup2="1">
 		<table name="#enchantMagicLvl"> 76 76 76 77 77 77 78 78 78 79 79 79 80 80 80 81 81 81 82 82 82 82 83 83 83 84 84 85 85 85 </table>
 		<table name="#ench1time"> 1240 1280 1320 1360 1400 1440 1480 1520 1560 1600 1640 1680 1720 1760 1800 1840 1880 1920 1960 2000 2040 2080 2120 2160 2200 2240 2280 2320 2360 2400 </table>
 		<table name="#ench2mpConsume"> 41 40 39 39 38 37 37 36 35 35 34 33 32 32 31 30 30 29 28 28 27 26 25 25 24 23 23 22 21 21 </table>
@@ -553,7 +553,7 @@
 			</effect>
 		</enchant1for>
 	</skill>
-	<skill id="1147" levels="6" name="Vampiric Touch">
+	<skill id="1147" levels="6" name="吸血鬼之吻">
 		<table name="#mpInitialConsume"> 5 6 7 7 8 8 </table>
 		<table name="#mpConsume"> 20 22 25 28 30 32 </table>
 		<table name="#magicLvl"> 11 14 17 20 23 25 </table>
@@ -574,7 +574,7 @@
 		<set name="effectRange" val="1100" />
 		<set name="absorbPart" val="0.4" /> <!-- absorbs 40% of damage -->
 	</skill>
-	<skill id="1148" levels="13" name="Death Spike" enchantGroup1="2" enchantGroup2="2" enchantGroup3="2">
+	<skill id="1148" levels="13" name="死亡之刺" enchantGroup1="2" enchantGroup2="2" enchantGroup3="2">
 		<table name="#enchantMagicLvl"> 76 76 76 77 77 77 78 78 78 79 79 79 80 80 80 81 81 81 82 82 82 82 83 83 83 84 84 85 85 85 </table>
 		<table name="#mpInitialConsume"> 4 5 6 7 7 7 8 8 8 9 9 9 10 </table>
 		<table name="#mpConsume"> 19 22 24 28 29 31 32 33 35 36 37 38 40 </table>
@@ -610,7 +610,7 @@
 		<enchant3 name="magicLvl" val="#enchantMagicLvl" />
 		<enchant3 name="elementPower" val="#enchElementPower" />
 	</skill>
-	<skill id="1151" levels="16" name="Corpse Life Drain" enchantGroup1="2" enchantGroup2="2">
+	<skill id="1151" levels="16" name="死體能量吸收" enchantGroup1="2" enchantGroup2="2">
 		<table name="#enchantMagicLvl"> 76 76 76 77 77 77 78 78 78 79 79 79 80 80 80 81 81 81 82 82 82 82 83 83 83 84 84 85 85 85 </table>
 		<table name="#ench2mpConsume"> 26 26 26 26 26 26 26 25 25 25 25 24 24 24 24 22 22 22 22 22 22 22 21 21 21 21 20 20 20 20 </table>
 		<table name="#ench2mpInitialConsume"> 7 7 7 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 5 5 5 5 5 5 5 5 5 5 5 </table>
@@ -644,7 +644,7 @@
 			<effect self="1" name="CombatPointHealOverTime" noicon="1" val="#ench2Bravery" />
 		</enchant2for>
 	</skill>
-	<skill id="1154" levels="6" name="Summon Corrupted Man" enchantGroup1="1">
+	<skill id="1154" levels="6" name="召喚腐屍" enchantGroup1="1">
 		<table name="#enchantNpcId"> 14044 14045 14046 14047 14048 14049 14050 14051 14052 14053 14054 14055 14056 14057 14058 14059 14060 14061 14062 14063 14064 14065 14066 14067 14068 14069 14070 14071 14072 14073 </table>
 		<table name="#mpInitialConsume"> 14 18 21 23 25 26 </table>
 		<table name="#mpConsume"> 56 69 82 92 98 104 </table>
@@ -671,7 +671,7 @@
 		<set name="expPenalty" val="0.9" /> <!-- 90 percent of acquired Exp will be consumed. -->
 		<enchant1 name="npcId" val="#enchantNpcId" />
 	</skill>
-	<skill id="1155" levels="15" name="Corpse Burst" enchantGroup1="2" enchantGroup2="2">
+	<skill id="1155" levels="15" name="屍體爆裂" enchantGroup1="2" enchantGroup2="2">
 		<table name="#enchantMagicLvl"> 76 76 76 77 77 77 78 78 78 79 79 79 80 80 80 81 81 81 82 82 82 82 83 83 83 84 84 85 85 85 </table>
 		<table name="#ench1Power"> 109 109 110 111 111 112 113 113 114 115 115 116 116 117 118 118 119 120 120 121 122 122 123 124 124 125 125 126 127 127 </table>
 		<table name="#ench2mpConsume"> 54 53 52 50 50 50 49 48 48 46 46 45 44 44 42 42 41 41 40 38 38 38 37 36 34 34 34 33 32 30 </table>
@@ -701,7 +701,7 @@
 		<enchant2 name="mpConsume" val="#ench2mpConsume" />
 		<enchant2 name="mpInitialConsume" val="#ench2mpInitialConsume" />
 	</skill>
-	<skill id="1156" levels="13" name="Forget">
+	<skill id="1156" levels="13" name="遺忘術">
 		<table name="#mpInitialConsume"> 8 9 10 11 11 11 12 12 13 13 13 14 14 </table>
 		<table name="#mpConsume"> 31 35 38 41 43 44 46 48 49 51 52 53 55 </table>
 		<table name="#magicLvl"> 44 48 52 56 58 60 62 64 66 68 70 72 74 </table>
@@ -718,7 +718,7 @@
 		<set name="castRange" val="400" />
 		<set name="effectRange" val="900" />
 	</skill>
-	<skill id="1157" levels="5" name="Body To Mind" enchantGroup1="1" enchantGroup2="1" enchantGroup3="1">
+	<skill id="1157" levels="5" name="心靈轉換" enchantGroup1="1" enchantGroup2="1" enchantGroup3="1">
 		<table name="#hpConsume"> 131 209 280 318 366 </table>
 		<table name="#power"> 22 35 47 53 61 </table>
 		<table name="#ench1power"> 70 70 70 70 71 71 71 71 71 71 72 72 72 72 72 72 72 73 73 73 73 73 73 74 74 74 74 74 74 75 </table>
@@ -740,7 +740,7 @@
 			<effect name="CombatPointHealOverTime" noicon="1" val="#ench3Bravery" />
 		</enchant3for>
 	</skill>
-	<skill id="1159" levels="22" name="Curse Death Link" enchantGroup1="2" enchantGroup2="2">
+	<skill id="1159" levels="22" name="死之糾結" enchantGroup1="2" enchantGroup2="2">
 		<table name="#enchantMagicLvl"> 76 76 76 77 77 77 78 78 78 79 79 79 80 80 80 81 81 81 82 82 82 82 83 83 83 84 84 85 85 85 </table>
 		<table name="#ench2mpConsume"> 54 53 52 50 50 50 49 48 48 46 46 45 44 44 42 42 41 41 40 38 38 38 37 36 34 34 34 33 32 30 </table>
 		<table name="#ench2mpInitialConsume"> 13 13 13 13 13 12 12 12 12 12 11 11 11 11 11 10 10 10 10 10 9 9 9 9 9 8 8 8 8 8 </table>
@@ -771,7 +771,7 @@
 		<enchant2 name="mpConsume" val="#ench2mpConsume" />
 		<enchant2 name="mpInitialConsume" val="#ench2mpInitialConsume" />
 	</skill>
-	<skill id="1160" levels="15" name="Slow" enchantGroup1="1" enchantGroup2="1" enchantGroup3="1">
+	<skill id="1160" levels="15" name="緩速術" enchantGroup1="1" enchantGroup2="1" enchantGroup3="1">
 		<table name="#enchantMagicLvl"> 76 76 76 77 77 77 78 78 78 79 79 79 80 80 80 81 81 81 82 82 82 82 83 83 83 84 84 85 85 85 </table>
 		<table name="#ench2mpConsume"> 54 54 53 53 52 52 51 51 50 50 49 49 48 48 47 47 46 46 45 45 44 44 43 43 42 42 41 41 40 40 </table>
 		<table name="#ench2mpInitialConsume"> 13 13 13 13 13 13 12 12 12 12 12 12 12 12 11 11 11 11 11 11 11 11 10 10 10 10 10 10 10 10 </table>
@@ -821,7 +821,7 @@
 			</effect>
 		</enchant3for>
 	</skill>
-	<skill id="1163" levels="14" name="Curse Discord">
+	<skill id="1163" levels="14" name="迷魅之咒">
 		<table name="#mpInitialConsume"> 7 8 9 10 11 11 11 12 12 13 13 13 14 14 </table>
 		<table name="#mpConsume"> 28 31 35 38 41 43 44 46 48 49 51 52 53 55 </table>
 		<table name="#magicLvl"> 40 44 48 52 56 58 60 62 64 66 68 70 72 74 </table>
@@ -842,7 +842,7 @@
 			<effect count="5" name="ConfuseMob" time="4" val="0" />
 		</for>
 	</skill>
-	<skill id="1164" levels="19" name="Curse: Weakness" enchantGroup1="1" enchantGroup2="1" enchantGroup3="1" enchantGroup4="1">
+	<skill id="1164" levels="19" name="弱化術" enchantGroup1="1" enchantGroup2="1" enchantGroup3="1" enchantGroup4="1">
 		<table name="#enchantMagicLvl"> 76 76 76 77 77 77 78 78 78 79 79 79 80 80 80 81 81 81 82 82 82 82 83 83 83 84 84 85 85 85 </table>
 		<table name="#ench2mpConsume"> 54 53 52 50 50 49 48 46 46 45 44 44 42 42 41 40 38 38 37 36 34 34 33 33 32 30 30 29 28 26 </table>
 		<table name="#ench2mpInitialConsume"> 13 13 13 13 12 12 12 12 11 11 11 11 11 10 10 10 10 9 9 9 9 8 8 8 8 8 7 7 7 7 </table>
@@ -900,7 +900,7 @@
 			</effect>
 		</enchant4for>
 	</skill>
-	<skill id="1167" levels="6" name="Poisonous Cloud" enchantGroup1="1" enchantGroup2="1" enchantGroup3="1">
+	<skill id="1167" levels="6" name="劇毒之雲" enchantGroup1="1" enchantGroup2="1" enchantGroup3="1">
 		<table name="#enchantMagicLvl"> 76 76 76 77 77 77 78 78 78 79 79 79 80 80 80 81 81 81 82 82 82 82 83 83 83 84 84 85 85 85 </table>
 		<table name="#ench1dot"> 192 195 195 198 201 201 204 207 207 210 210 213 216 216 219 222 222 225 228 228 231 231 234 237 237 240 243 243 246 249 </table>
 		<table name="#ench2MpConsume"> 82 79 78 78 75 74 74 71 70 70 67 66 64 63 62 60 59 58 56 55 54 52 51 50 48 47 46 44 43 42 </table>
@@ -942,7 +942,7 @@
 			<effect count="10" name="DamOverTime" time="3" val="#ench1dot" stackOrder="8" stackType="poison" abnormal="poison" />
 		</enchant1for>
 	</skill>
-	<skill id="1168" levels="7" name="Curse: Poison">
+	<skill id="1168" levels="7" name="毒咒術">
 		<table name="#mpInitialConsume"> 2 4 6 8 10 12 14 </table>
 		<table name="#mpConsume"> 8 16 21 31 38 46 53 </table>
 		<table name="#magicLvl"> 7 20 30 44 52 62 72 </table>
@@ -969,7 +969,7 @@
 			<effect count="10" name="DamOverTime" time="3" val="#dot" stackOrder="#abnormalLvl" stackType="poison" abnormal="poison" />
 		</for>
 	</skill>
-	<skill id="1169" levels="14" name="Curse Fear" enchantGroup1="2" enchantGroup2="2">
+	<skill id="1169" levels="14" name="恐懼之咒" enchantGroup1="2" enchantGroup2="2">
 		<table name="#enchantMagicLvl"> 76 76 76 77 77 77 78 78 78 79 79 79 80 80 80 81 81 81 82 82 82 82 83 83 83 84 84 85 85 85 </table>
 		<table name="#ench1Count"> 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 33 34 35 </table>
 		<table name="#ench1mpConsume"> 55 54 52 51 50 50 50 48 47 46 45 43 42 41 41 39 39 38 37 36 34 33 33 32 30 29 28 28 27 25 </table>
@@ -1005,7 +1005,7 @@
 			<effect count="#ench1Count" name="Fear" time="2" val="0" stackOrder="1" stackType="turn_flee" />
 		</enchant1for>
 	</skill>
-	<skill id="1170" levels="13" name="Anchor" enchantGroup1="1" enchantGroup2="1">
+	<skill id="1170" levels="13" name="定身術" enchantGroup1="1" enchantGroup2="1">
 		<table name="#enchantMagicLvl"> 76 76 76 77 77 77 78 78 78 79 79 79 80 80 80 81 81 81 82 82 82 82 83 83 83 84 84 85 85 85 </table>
 		<table name="#ench2mpConsume"> 54 54 53 53 52 52 51 51 50 50 49 49 48 48 47 47 46 46 45 45 44 44 43 43 42 42 41 41 40 40 </table>
 		<table name="#ench2mpInitialConsume"> 13 13 13 13 13 13 12 12 12 12 12 12 12 12 11 11 11 11 11 11 11 11 10 10 10 10 10 10 10 10 </table>
@@ -1043,7 +1043,7 @@
 			</effect>
 		</for>
 	</skill>
-	<skill id="1171" levels="19" name="Blazing Circle" enchantGroup1="2" enchantGroup2="2" enchantGroup3="2">
+	<skill id="1171" levels="19" name="赤燄之輪" enchantGroup1="2" enchantGroup2="2" enchantGroup3="2">
 		<table name="#enchantMagicLvl"> 76 76 76 77 77 77 78 78 78 79 79 79 80 80 80 81 81 81 82 82 82 82 83 83 83 84 84 85 85 85 </table>
 		<table name="#ench2mpConsume"> 80 78 78 76 74 73 72 70 69 68 66 65 64 62 61 60 58 57 56 54 53 52 50 49 46 46 45 42 42 41 </table>
 		<table name="#ench2mpInitialConsume"> 20 20 19 19 19 18 18 18 17 17 17 16 16 15 15 15 14 14 14 13 13 13 12 12 12 11 11 11 10 10 </table>
@@ -1076,7 +1076,7 @@
 		<enchant3 name="magicLvl" val="#enchantMagicLvl" />
 		<enchant3 name="elementPower" val="#enchElementPower" />
 	</skill>
-	<skill id="1172" levels="8" name="Aura Burn">
+	<skill id="1172" levels="8" name="精神燃燒">
 		<table name="#mpInitialConsume"> 4 4 5 5 5 6 6 6 </table>
 		<table name="#mpConsume"> 14 16 17 18 20 21 23 24 </table>
 		<table name="#magicLvl"> 17 20 23 25 28 30 33 35 </table>
@@ -1094,7 +1094,7 @@
 		<set name="castRange" val="150" />
 		<set name="effectRange" val="650" />
 	</skill>
-	<skill id="1174" levels="22" name="Frost Wall" enchantGroup1="2" enchantGroup2="2" enchantGroup3="2">
+	<skill id="1174" levels="22" name="冰凍之牆" enchantGroup1="2" enchantGroup2="2" enchantGroup3="2">
 		<table name="#enchantMagicLvl"> 76 76 76 77 77 77 78 78 78 79 79 79 80 80 80 81 81 81 82 82 82 82 83 83 83 84 84 85 85 85 </table>
 		<table name="#ench2mpConsume"> 80 78 77 76 74 73 72 70 69 68 66 65 64 62 61 60 58 57 54 54 53 50 50 49 46 46 44 42 42 40 </table>
 		<table name="#ench2mpInitialConsume"> 20 20 19 19 19 18 18 18 17 17 16 16 16 15 15 15 14 14 14 13 13 13 12 12 12 11 11 11 10 10 </table>
@@ -1130,7 +1130,7 @@
 		<enchant3 name="magicLvl" val="#enchantMagicLvl" />
 		<enchant3 name="elementPower" val="#enchElementPower" />
 	</skill>
-	<skill id="1175" levels="8" name="Aqua Swirl">
+	<skill id="1175" levels="8" name="水漩渦">
 		<table name="#mpInitialConsume"> 4 4 5 5 5 6 6 6 </table>
 		<table name="#mpConsume"> 14 16 17 18 20 21 23 24 </table>
 		<table name="#magicLvl"> 17 20 23 25 28 30 33 35 </table>
@@ -1150,7 +1150,7 @@
 		<set name="castRange" val="750" />
 		<set name="effectRange" val="1250" />
 	</skill>
-	<skill id="1176" levels="15" name="Tempest" enchantGroup1="2" enchantGroup2="2" enchantGroup3="2">
+	<skill id="1176" levels="15" name="颶風術" enchantGroup1="2" enchantGroup2="2" enchantGroup3="2">
 		<table name="#enchantMagicLvl"> 76 76 76 77 77 77 78 78 78 79 79 79 80 80 80 81 81 81 82 82 82 82 83 83 83 84 84 85 85 85 </table>
 		<table name="#ench2mpConsume"> 80 79 78 77 76 75 74 72 71 70 69 68 66 65 64 63 62 61 65 59 58 56 55 54 53 52 50 49 48 47 </table>
 		<table name="#ench2mpInitialConsume"> 20 19 19 19 19 18 18 18 17 17 17 17 16 16 16 15 15 15 15 14 14 14 13 13 13 13 12 12 12 11 </table>
@@ -1183,7 +1183,7 @@
 		<enchant3 name="magicLvl" val="#enchantMagicLvl" />
 		<enchant3 name="elementPower" val="#enchElementPower" />
 	</skill>
-	<skill id="1177" levels="5" name="Wind Strike">
+	<skill id="1177" levels="5" name="狂風之擊">
 		<table name="#mpInitialConsume"> 2 2 2 3 3 </table>
 		<table name="#mpConsume"> 7 7 8 11 12 </table>
 		<table name="#magicLvl"> 1 4 7 11 14 </table>
@@ -1203,7 +1203,7 @@
 		<set name="castRange" val="600" />
 		<set name="effectRange" val="1100" />
 	</skill>
-	<skill id="1178" levels="8" name="Twister">
+	<skill id="1178" levels="8" name="風漩術">
 		<table name="#mpInitialConsume"> 4 4 5 5 5 6 6 6 </table>
 		<table name="#mpConsume"> 14 16 17 18 20 21 23 24 </table>
 		<table name="#magicLvl"> 17 20 23 25 28 30 33 35 </table>
@@ -1223,7 +1223,7 @@
 		<set name="castRange" val="750" />
 		<set name="effectRange" val="1250" />
 	</skill>
-	<skill id="1181" levels="3" name="Flame Strike">
+	<skill id="1181" levels="3" name="火焰狂襲">
 		<table name="#mpInitialConsume"> 6 7 8 </table>
 		<table name="#mpConsume"> 23 27 32 </table>
 		<table name="#magicLvl"> 20 25 30 </table>
@@ -1244,7 +1244,7 @@
 		<set name="castRange" val="500" />
 		<set name="effectRange" val="1000" />
 	</skill>
-	<skill id="1182" levels="3" name="Resist Aqua" enchantGroup1="1" enchantGroup2="1" enchantGroup3="1">
+	<skill id="1182" levels="3" name="水之防護" enchantGroup1="1" enchantGroup2="1" enchantGroup3="1">
 		<table name="#enchantMagicLvl"> 76 76 76 77 77 77 78 78 78 79 79 79 80 80 80 81 81 81 82 82 82 82 83 83 83 84 84 85 85 85 </table>
 		<table name="#ench1time"> 1240 1280 1320 1360 1400 1440 1480 1520 1560 1600 1640 1680 1720 1760 1800 1840 1880 1920 1960 2000 2040 2080 2120 2160 2200 2240 2280 2320 2360 2400 </table>
 		<table name="#ench2mpConsume"> 30 29 29 28 28 27 27 26 26 25 25 24 24 23 23 22 22 21 21 20 20 19 19 18 18 17 17 16 16 15 </table>
@@ -1293,7 +1293,7 @@
 			</effect>
 		</enchant3for>
 	</skill>
-	<skill id="1183" levels="4" name="Freezing Shackle">
+	<skill id="1183" levels="4" name="冰之鎖">
 		<table name="#dot"> 102 125 144 157 </table>
 		<table name="#mpInitialConsume"> 12 14 18 21 </table>
 		<table name="#mpConsume"> 47 56 71 82 </table>
@@ -1321,7 +1321,7 @@
 			<effect count="15" name="DamOverTime" val="#dot" stackOrder="#stackOrder" stackType="dot_attr" />
 		</for>
 	</skill>
-	<skill id="1184" levels="6" name="Ice Bolt">
+	<skill id="1184" levels="6" name="冰箭術">
 		<table name="#mpInitialConsume"> 2 2 3 3 4 4 </table>
 		<table name="#mpConsume"> 7 8 11 12 14 16 </table>
 		<table name="#magicLvl"> 4 7 11 14 17 20 </table>
@@ -1350,7 +1350,7 @@
 			</effect>
 		</for>
 	</skill>
-	<skill id="1189" levels="3" name="Resist Wind" enchantGroup1="1" enchantGroup2="1" enchantGroup3="1">
+	<skill id="1189" levels="3" name="風之防護" enchantGroup1="1" enchantGroup2="1" enchantGroup3="1">
 		<table name="#enchantMagicLvl"> 76 76 76 77 77 77 78 78 78 79 79 79 80 80 80 81 81 81 82 82 82 82 83 83 83 84 84 85 85 85 </table>
 		<table name="#ench1time"> 1240 1280 1320 1360 1400 1440 1480 1520 1560 1600 1640 1680 1720 1760 1800 1840 1880 1920 1960 2000 2040 2080 2120 2160 2200 2240 2280 2320 2360 2400 </table>
 		<table name="#ench2mpConsume"> 30 29 29 28 28 27 27 26 26 25 25 24 24 23 23 22 22 21 21 20 20 19 19 18 18 17 17 16 16 15 </table>
@@ -1400,7 +1400,7 @@
 			</effect>
 		</enchant3for>
 	</skill>
-	<skill id="1191" levels="3" name="Resist Fire" enchantGroup1="1" enchantGroup2="1" enchantGroup3="1">
+	<skill id="1191" levels="3" name="火之防護" enchantGroup1="1" enchantGroup2="1" enchantGroup3="1">
 		<table name="#enchantMagicLvl"> 76 76 76 77 77 77 78 78 78 79 79 79 80 80 80 81 81 81 82 82 82 82 83 83 83 84 84 85 85 85 </table>
 		<table name="#ench1time"> 1240 1280 1320 1360 1400 1440 1480 1520 1560 1600 1640 1680 1720 1760 1800 1840 1880 1920 1960 2000 2040 2080 2120 2160 2200 2240 2280 2320 2360 2400 </table>
 		<table name="#ench2mpConsume"> 30 29 29 28 28 27 27 26 26 25 25 24 24 23 23 22 22 21 21 20 20 19 19 18 18 17 17 16 16 15 </table>

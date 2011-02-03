@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <list>
-	<skill id="2900" levels="1" name="Ancient Herb - Slayer">
+	<skill id="2900" levels="1" name="原始藥草-虐殺者">
 		<set name="staticHitTime" val="true" />
 		<set name="target" val="TARGET_SELF" />
 		<set name="skillType" val="BUFF" />
@@ -15,7 +15,7 @@
 			<effect name="Buff" time="60" val="0" stackOrder="1" stackType="signal_c" />
 		</for>
 	</skill>
-	<skill id="2901" levels="1" name="Ancient Herb - Immortal">
+	<skill id="2901" levels="1" name="原始藥草-不滅者">
 		<set name="staticHitTime" val="true" />
 		<set name="target" val="TARGET_SELF" />
 		<set name="skillType" val="BUFF" />
@@ -30,7 +30,7 @@
 			<effect name="Invincible" time="60" val="0" stackOrder="1" stackType="pd_up_special" />
 		</for>
 	</skill>
-	<skill id="2902" levels="1" name="Ancient Herb - Terminator">
+	<skill id="2902" levels="1" name="原始藥草-終結者">
 		<set name="staticHitTime" val="true" />
 		<set name="target" val="TARGET_SELF" />
 		<set name="skillType" val="BUFF" />
@@ -47,7 +47,7 @@
 			</effect>
 		</for>
 	</skill>
-	<skill id="2903" levels="1" name="Ancient Herb - Guide">
+	<skill id="2903" levels="1" name="原始藥草-引導者">
 		<set name="staticHitTime" val="true" />
 		<set name="target" val="TARGET_SELF" />
 		<set name="skillType" val="BUFF" />
@@ -64,13 +64,13 @@
 			</effect>
 		</for>
 	</skill>
-	<skill id="2904" levels="1" name="Guardian Spirit's Divine Protection">
+	<skill id="2904" levels="1" name="守護靈魂的加護">
 		<set name="target" val="TARGET_NONE" />
 		<set name="skillType" val="NOTDONE" />
 		<set name="reuseDelay" val="2000" />
 		<set name="operateType" val="OP_PASSIVE" />
 	</skill>
-	<skill id="2905" levels="1" name="Growth Accelerator">
+	<skill id="2905" levels="1" name="成長促進劑">
 		<set name="itemConsumeCount" val="1" />
 		<set name="target" val="TARGET_ONE" />
 		<set name="skillType" val="DEBUFF" />
@@ -88,58 +88,58 @@
 			</and>
 		</cond>
 	</skill>
-	<skill id="2906" levels="1" name="Incubation Accelerator">
+	<skill id="2906" levels="1" name="孵化促進劑">
 		<set name="target" val="TARGET_NONE" />
 		<set name="skillType" val="NOTDONE" />
 		<set name="reuseDelay" val="2000" />
 		<set name="operateType" val="OP_PASSIVE" />
 	</skill>
-	<skill id="2907" levels="1" name="Battlefield Use Secret Medicine of Life">
+	<skill id="2907" levels="1" name="戰場用生命靈藥">
 		<set name="target" val="TARGET_NONE" />
 		<set name="skillType" val="NOTDONE" />
 		<set name="reuseDelay" val="600000" />
 		<set name="operateType" val="OP_PASSIVE" />
 	</skill>
-	<skill id="2908" levels="1" name="Battlefield Use Secret Medicine of Mind">
+	<skill id="2908" levels="1" name="戰場用精神靈藥">
 		<set name="target" val="TARGET_NONE" />
 		<set name="skillType" val="NOTDONE" />
 		<set name="reuseDelay" val="600000" />
 		<set name="operateType" val="OP_PASSIVE" />
 	</skill>
-	<skill id="2909" levels="1" name="Battlefield Use Secret Medicine of Will">
+	<skill id="2909" levels="1" name="戰場用鬥志靈藥">
 		<set name="target" val="TARGET_NONE" />
 		<set name="skillType" val="NOTDONE" />
 		<set name="reuseDelay" val="600000" />
 		<set name="operateType" val="OP_PASSIVE" />
 	</skill>
-	<skill id="2910" levels="1" name="Skull Key of Pain">
+	<skill id="2910" levels="1" name="苦痛的骸骨鑰匙">
 		<set name="target" val="TARGET_NONE" />
 		<set name="skillType" val="NOTDONE" />
 		<set name="operateType" val="OP_PASSIVE" />
 	</skill>
-	<skill id="2911" levels="1" name="Skull Key of Erosion">
+	<skill id="2911" levels="1" name="侵蝕的骸骨鑰匙">
 		<set name="target" val="TARGET_NONE" />
 		<set name="skillType" val="NOTDONE" />
 		<set name="operateType" val="OP_PASSIVE" />
 	</skill>
-	<skill id="2912" levels="1" name="Skull Key of the Heart">
+	<skill id="2912" levels="1" name="心臟部的骸骨鑰匙">
 		<set name="target" val="TARGET_NONE" />
 		<set name="skillType" val="NOTDONE" />
 		<set name="operateType" val="OP_PASSIVE" />
 	</skill>
-	<skill id="2913" levels="1" name="Soul Extraction">
+	<skill id="2913" levels="1" name="靈魂抽取">
 		<set name="target" val="TARGET_NONE" />
 		<set name="skillType" val="NOTDONE" />
 		<set name="reuseDelay" val="60000" />
 		<set name="operateType" val="OP_PASSIVE" />
 	</skill>
-	<skill id="2914" levels="2" name="Equipment Set 90 Day Pack">
+	<skill id="2914" levels="2" name="裝備套裝 10日/組">
 		<set name="target" val="TARGET_NONE" />
 		<set name="skillType" val="NOTDONE" />
 		<set name="reuseDelay" val="10000" />
 		<set name="operateType" val="OP_PASSIVE" />
 	</skill>
-	<skill id="2915" levels="1" name="Clear Five-Colored Crystal">
+	<skill id="2915" levels="1" name="五彩繽紛的礦石">
 		<set name="itemConsumeCount" val="1" />
 		<set name="target" val="TARGET_SELF" />
 		<set name="hitTime" val="20000" />
@@ -148,12 +148,12 @@
 		<set name="teleCoords" val="89417,-44506,-2126" />
 		<set name="operateType" val="OP_ACTIVE" />
 	</skill>
-	<skill id="2916" levels="1" name="Feed for Enriched Enhanced Pets">
+	<skill id="2916" levels="1" name="高濃縮強化寵物飼料">
 		<set name="target" val="TARGET_NONE" />
 		<set name="skillType" val="NOTDONE" />
 		<set name="operateType" val="OP_PASSIVE" />
 	</skill>
-	<skill id="2917" levels="1" name="Big Staccato Silk Cocoon">
+	<skill id="2917" levels="1" name="大型司塔卡拓的繭">
 		<set name="itemConsumeCount" val="1" />
 		<set name="target" val="TARGET_SELF" />
 		<set name="skillType" val="EXTRACTABLE" />
@@ -165,7 +165,7 @@
 			</and>
 		</cond>
 	</skill>
-	<skill id="2918" levels="1" name="Small Staccato Silk Cocoon">
+	<skill id="2918" levels="1" name="小型司塔卡拓的繭">
 		<set name="itemConsumeCount" val="1" />
 		<set name="target" val="TARGET_SELF" />
 		<set name="skillType" val="EXTRACTABLE" />
@@ -177,7 +177,7 @@
 			</and>
 		</cond>
 	</skill>
-	<skill id="2919" levels="1" name="Ancient Parchment">
+	<skill id="2919" levels="1" name="古代的羊皮紙">
 		<set name="itemConsumeCount" val="1" />
 		<set name="target" val="TARGET_SELF" />
 		<set name="skillType" val="EXTRACTABLE" />
@@ -189,7 +189,7 @@
 			</and>
 		</cond>
 	</skill>
-	<skill id="2920" levels="1" name="Titan's Ancient Book">
+	<skill id="2920" levels="1" name="下巨人古書籍">
 		<set name="itemConsumeCount" val="1" />
 		<set name="target" val="TARGET_SELF" />
 		<set name="skillType" val="EXTRACTABLE" />
@@ -201,7 +201,7 @@
 			</and>
 		</cond>
 	</skill>
-	<skill id="2921" levels="1" name="Gludio Supply Box - magic pin">
+	<skill id="2921" levels="1" name="古魯丁補給箱-魔法別針">
 		<set name="itemConsumeCount" val="1" />
 		<set name="target" val="TARGET_SELF" />
 		<set name="skillType" val="EXTRACTABLE" />
@@ -213,7 +213,7 @@
 			</and>
 		</cond>
 	</skill>
-	<skill id="2922" levels="1" name="Dion supply box - magic pin">
+	<skill id="2922" levels="1" name="狄恩補給箱-魔法別針">
 		<set name="itemConsumeCount" val="1" />
 		<set name="target" val="TARGET_SELF" />
 		<set name="skillType" val="EXTRACTABLE" />
@@ -225,7 +225,7 @@
 			</and>
 		</cond>
 	</skill>
-	<skill id="2923" levels="1" name="Giran supply box - magic pin">
+	<skill id="2923" levels="1" name="奇岩補給箱-魔法別針">
 		<set name="itemConsumeCount" val="1" />
 		<set name="target" val="TARGET_SELF" />
 		<set name="skillType" val="EXTRACTABLE" />
@@ -237,7 +237,7 @@
 			</and>
 		</cond>
 	</skill>
-	<skill id="2924" levels="1" name="Oren supply box - magic pin">
+	<skill id="2924" levels="1" name="歐瑞補給箱-魔法別針">
 		<set name="itemConsumeCount" val="1" />
 		<set name="target" val="TARGET_SELF" />
 		<set name="skillType" val="EXTRACTABLE" />
@@ -249,7 +249,7 @@
 			</and>
 		</cond>
 	</skill>
-	<skill id="2925" levels="1" name="Aden supply box - magic pin">
+	<skill id="2925" levels="1" name="亞丁補給箱-魔法別針">
 		<set name="itemConsumeCount" val="1" />
 		<set name="target" val="TARGET_SELF" />
 		<set name="skillType" val="EXTRACTABLE" />
@@ -261,7 +261,7 @@
 			</and>
 		</cond>
 	</skill>
-	<skill id="2926" levels="1" name="Innadril supply box - magic pin">
+	<skill id="2926" levels="1" name="因納得立補給箱-魔法別針">
 		<set name="itemConsumeCount" val="1" />
 		<set name="target" val="TARGET_SELF" />
 		<set name="skillType" val="EXTRACTABLE" />
@@ -273,7 +273,7 @@
 			</and>
 		</cond>
 	</skill>
-	<skill id="2927" levels="1" name="Goddard supply box - magic pin">
+	<skill id="2927" levels="1" name="高達特補給箱-魔法別針">
 		<set name="itemConsumeCount" val="1" />
 		<set name="target" val="TARGET_SELF" />
 		<set name="skillType" val="EXTRACTABLE" />
@@ -285,7 +285,7 @@
 			</and>
 		</cond>
 	</skill>
-	<skill id="2928" levels="1" name="Rune supply box - magic pin">
+	<skill id="2928" levels="1" name="魯因補給箱-魔法別針">
 		<set name="itemConsumeCount" val="1" />
 		<set name="target" val="TARGET_SELF" />
 		<set name="skillType" val="EXTRACTABLE" />
@@ -297,7 +297,7 @@
 			</and>
 		</cond>
 	</skill>
-	<skill id="2929" levels="1" name="Schuttgart supply box - magic pin">
+	<skill id="2929" levels="1" name="修加特補給箱-魔法別針">
 		<set name="itemConsumeCount" val="1" />
 		<set name="target" val="TARGET_SELF" />
 		<set name="skillType" val="EXTRACTABLE" />
@@ -309,7 +309,7 @@
 			</and>
 		</cond>
 	</skill>
-	<skill id="2930" levels="1" name="Gludio supply box - magic pouch">
+	<skill id="2930" levels="1" name="古魯丁補給箱-魔法小袋">
 		<set name="itemConsumeCount" val="1" />
 		<set name="target" val="TARGET_SELF" />
 		<set name="skillType" val="EXTRACTABLE" />
@@ -321,7 +321,7 @@
 			</and>
 		</cond>
 	</skill>
-	<skill id="2931" levels="1" name="Dion supply box - magic pouch">
+	<skill id="2931" levels="1" name="狄恩補給箱-魔法小袋">
 		<set name="itemConsumeCount" val="1" />
 		<set name="target" val="TARGET_SELF" />
 		<set name="skillType" val="EXTRACTABLE" />
@@ -333,7 +333,7 @@
 			</and>
 		</cond>
 	</skill>
-	<skill id="2932" levels="1" name="Giran supply box - magic pouch">
+	<skill id="2932" levels="1" name="奇岩補給箱-魔法小袋">
 		<set name="itemConsumeCount" val="1" />
 		<set name="target" val="TARGET_SELF" />
 		<set name="skillType" val="EXTRACTABLE" />
@@ -345,7 +345,7 @@
 			</and>
 		</cond>
 	</skill>
-	<skill id="2933" levels="1" name="Oren supply box - magic pouch">
+	<skill id="2933" levels="1" name="歐瑞補給箱-魔法小袋">
 		<set name="itemConsumeCount" val="1" />
 		<set name="target" val="TARGET_SELF" />
 		<set name="skillType" val="EXTRACTABLE" />
@@ -357,7 +357,7 @@
 			</and>
 		</cond>
 	</skill>
-	<skill id="2934" levels="1" name="Aden supply box - magic pouch">
+	<skill id="2934" levels="1" name="亞丁補給箱-魔法小袋">
 		<set name="itemConsumeCount" val="1" />
 		<set name="target" val="TARGET_SELF" />
 		<set name="skillType" val="EXTRACTABLE" />
@@ -369,7 +369,7 @@
 			</and>
 		</cond>
 	</skill>
-	<skill id="2935" levels="1" name="Innadril supply box - magic pouch">
+	<skill id="2935" levels="1" name="因納得立補給箱-魔法小袋">
 		<set name="itemConsumeCount" val="1" />
 		<set name="target" val="TARGET_SELF" />
 		<set name="skillType" val="EXTRACTABLE" />
@@ -381,7 +381,7 @@
 			</and>
 		</cond>
 	</skill>
-	<skill id="2936" levels="1" name="Goddard supply box - magic pouch">
+	<skill id="2936" levels="1" name="高達特補給箱-魔法小袋">
 		<set name="itemConsumeCount" val="1" />
 		<set name="target" val="TARGET_SELF" />
 		<set name="skillType" val="EXTRACTABLE" />
@@ -393,7 +393,7 @@
 			</and>
 		</cond>
 	</skill>
-	<skill id="2937" levels="1" name="Rune supply box - magic pouch">
+	<skill id="2937" levels="1" name="魯因補給箱-魔法小袋">
 		<set name="itemConsumeCount" val="1" />
 		<set name="target" val="TARGET_SELF" />
 		<set name="skillType" val="EXTRACTABLE" />
@@ -405,7 +405,7 @@
 			</and>
 		</cond>
 	</skill>
-	<skill id="2938" levels="1" name="Schuttgart supply box - magic pouch">
+	<skill id="2938" levels="1" name="修加特補給箱-魔法小袋">
 		<set name="itemConsumeCount" val="1" />
 		<set name="target" val="TARGET_SELF" />
 		<set name="skillType" val="EXTRACTABLE" />
@@ -417,7 +417,7 @@
 			</and>
 		</cond>
 	</skill>
-	<skill id="2939" levels="1" name="Gludio supply box - belt">
+	<skill id="2939" levels="1" name="古魯丁補給箱-腰帶">
 		<set name="itemConsumeCount" val="1" />
 		<set name="target" val="TARGET_SELF" />
 		<set name="skillType" val="EXTRACTABLE" />
@@ -429,7 +429,7 @@
 			</and>
 		</cond>
 	</skill>
-	<skill id="2940" levels="1" name="Dion supply box - belt">
+	<skill id="2940" levels="1" name="狄恩補給箱-腰帶">
 		<set name="itemConsumeCount" val="1" />
 		<set name="target" val="TARGET_SELF" />
 		<set name="skillType" val="EXTRACTABLE" />
@@ -441,7 +441,7 @@
 			</and>
 		</cond>
 	</skill>
-	<skill id="2941" levels="1" name="Giran supply box - belt">
+	<skill id="2941" levels="1" name="奇岩補給箱-腰帶">
 		<set name="itemConsumeCount" val="1" />
 		<set name="target" val="TARGET_SELF" />
 		<set name="skillType" val="EXTRACTABLE" />
@@ -453,7 +453,7 @@
 			</and>
 		</cond>
 	</skill>
-	<skill id="2942" levels="1" name="Oren supply box - belt">
+	<skill id="2942" levels="1" name="歐瑞補給箱-腰帶">
 		<set name="itemConsumeCount" val="1" />
 		<set name="target" val="TARGET_SELF" />
 		<set name="skillType" val="EXTRACTABLE" />
@@ -465,7 +465,7 @@
 			</and>
 		</cond>
 	</skill>
-	<skill id="2943" levels="1" name="Aden supply box - belt">
+	<skill id="2943" levels="1" name="亞丁補給箱-腰帶">
 		<set name="itemConsumeCount" val="1" />
 		<set name="target" val="TARGET_SELF" />
 		<set name="skillType" val="EXTRACTABLE" />
@@ -477,7 +477,7 @@
 			</and>
 		</cond>
 	</skill>
-	<skill id="2944" levels="1" name="Innadril supply box - belt">
+	<skill id="2944" levels="1" name="因納得立補給箱-腰帶">
 		<set name="itemConsumeCount" val="1" />
 		<set name="target" val="TARGET_SELF" />
 		<set name="skillType" val="EXTRACTABLE" />
@@ -489,7 +489,7 @@
 			</and>
 		</cond>
 	</skill>
-	<skill id="2945" levels="1" name="Goddard supply box - belt">
+	<skill id="2945" levels="1" name="高達特補給箱-腰帶">
 		<set name="itemConsumeCount" val="1" />
 		<set name="target" val="TARGET_SELF" />
 		<set name="skillType" val="EXTRACTABLE" />
@@ -501,7 +501,7 @@
 			</and>
 		</cond>
 	</skill>
-	<skill id="2946" levels="1" name="Rune supply box - belt">
+	<skill id="2946" levels="1" name="魯因補給箱-腰帶">
 		<set name="itemConsumeCount" val="1" />
 		<set name="target" val="TARGET_SELF" />
 		<set name="skillType" val="EXTRACTABLE" />
@@ -513,7 +513,7 @@
 			</and>
 		</cond>
 	</skill>
-	<skill id="2947" levels="1" name="Schuttgart supply box - belt">
+	<skill id="2947" levels="1" name="修加特補給箱-腰帶">
 		<set name="itemConsumeCount" val="1" />
 		<set name="target" val="TARGET_SELF" />
 		<set name="skillType" val="EXTRACTABLE" />
@@ -525,7 +525,7 @@
 			</and>
 		</cond>
 	</skill>
-	<skill id="2948" levels="1" name="Gludio Supply Box - magic pin">
+	<skill id="2948" levels="1" name="古魯丁補給箱-魔法別針">
 		<set name="itemConsumeCount" val="1" />
 		<set name="target" val="TARGET_SELF" />
 		<set name="skillType" val="EXTRACTABLE" />
@@ -537,7 +537,7 @@
 			</and>
 		</cond>
 	</skill>
-	<skill id="2949" levels="1" name="Dion supply box - magic pin">
+	<skill id="2949" levels="1" name="狄恩補給箱-魔法別針">
 		<set name="itemConsumeCount" val="1" />
 		<set name="target" val="TARGET_SELF" />
 		<set name="skillType" val="EXTRACTABLE" />
@@ -549,7 +549,7 @@
 			</and>
 		</cond>
 	</skill>
-	<skill id="2950" levels="1" name="Giran supply box - magic pin">
+	<skill id="2950" levels="1" name="奇岩補給箱-魔法別針">
 		<set name="itemConsumeCount" val="1" />
 		<set name="target" val="TARGET_SELF" />
 		<set name="skillType" val="EXTRACTABLE" />
@@ -561,7 +561,7 @@
 			</and>
 		</cond>
 	</skill>
-	<skill id="2951" levels="1" name="Oren supply box - magic pin">
+	<skill id="2951" levels="1" name="歐瑞補給箱-魔法別針">
 		<set name="itemConsumeCount" val="1" />
 		<set name="target" val="TARGET_SELF" />
 		<set name="skillType" val="EXTRACTABLE" />
@@ -573,7 +573,7 @@
 			</and>
 		</cond>
 	</skill>
-	<skill id="2952" levels="1" name="Aden supply box - magic pin">
+	<skill id="2952" levels="1" name="亞丁補給箱-魔法別針">
 		<set name="itemConsumeCount" val="1" />
 		<set name="target" val="TARGET_SELF" />
 		<set name="skillType" val="EXTRACTABLE" />
@@ -585,7 +585,7 @@
 			</and>
 		</cond>
 	</skill>
-	<skill id="2953" levels="1" name="Innadril supply box - magic pin">
+	<skill id="2953" levels="1" name="因納得立補給箱-魔法別針">
 		<set name="itemConsumeCount" val="1" />
 		<set name="target" val="TARGET_SELF" />
 		<set name="skillType" val="EXTRACTABLE" />
@@ -597,7 +597,7 @@
 			</and>
 		</cond>
 	</skill>
-	<skill id="2954" levels="1" name="Goddard supply box - magic pin">
+	<skill id="2954" levels="1" name="高達特補給箱-魔法別針">
 		<set name="itemConsumeCount" val="1" />
 		<set name="target" val="TARGET_SELF" />
 		<set name="skillType" val="EXTRACTABLE" />
@@ -609,7 +609,7 @@
 			</and>
 		</cond>
 	</skill>
-	<skill id="2955" levels="1" name="Rune supply box - magic pin">
+	<skill id="2955" levels="1" name="魯因補給箱-魔法別針">
 		<set name="itemConsumeCount" val="1" />
 		<set name="target" val="TARGET_SELF" />
 		<set name="skillType" val="EXTRACTABLE" />
@@ -621,7 +621,7 @@
 			</and>
 		</cond>
 	</skill>
-	<skill id="2956" levels="1" name="Schuttgart supply box - magic pin">
+	<skill id="2956" levels="1" name="修加特補給箱-魔法別針">
 		<set name="itemConsumeCount" val="1" />
 		<set name="target" val="TARGET_SELF" />
 		<set name="skillType" val="EXTRACTABLE" />
@@ -633,7 +633,7 @@
 			</and>
 		</cond>
 	</skill>
-	<skill id="2957" levels="1" name="Gludio supply box - magic pouch">
+	<skill id="2957" levels="1" name="古魯丁補給箱-魔法小袋">
 		<set name="itemConsumeCount" val="1" />
 		<set name="target" val="TARGET_SELF" />
 		<set name="skillType" val="EXTRACTABLE" />
@@ -645,7 +645,7 @@
 			</and>
 		</cond>
 	</skill>
-	<skill id="2958" levels="1" name="Dion supply box - magic pouch">
+	<skill id="2958" levels="1" name="狄恩補給箱-魔法小袋">
 		<set name="itemConsumeCount" val="1" />
 		<set name="target" val="TARGET_SELF" />
 		<set name="skillType" val="EXTRACTABLE" />
@@ -657,7 +657,7 @@
 			</and>
 		</cond>
 	</skill>
-	<skill id="2959" levels="1" name="Giran supply box - magic pouch">
+	<skill id="2959" levels="1" name="奇岩補給箱-魔法小袋">
 		<set name="itemConsumeCount" val="1" />
 		<set name="target" val="TARGET_SELF" />
 		<set name="skillType" val="EXTRACTABLE" />
@@ -669,7 +669,7 @@
 			</and>
 		</cond>
 	</skill>
-	<skill id="2960" levels="1" name="Oren supply box - magic pouch">
+	<skill id="2960" levels="1" name="歐瑞補給箱-魔法小袋">
 		<set name="itemConsumeCount" val="1" />
 		<set name="target" val="TARGET_SELF" />
 		<set name="skillType" val="EXTRACTABLE" />
@@ -681,7 +681,7 @@
 			</and>
 		</cond>
 	</skill>
-	<skill id="2961" levels="1" name="Aden supply box - magic pouch">
+	<skill id="2961" levels="1" name="亞丁補給箱-魔法小袋">
 		<set name="itemConsumeCount" val="1" />
 		<set name="target" val="TARGET_SELF" />
 		<set name="skillType" val="EXTRACTABLE" />
@@ -693,7 +693,7 @@
 			</and>
 		</cond>
 	</skill>
-	<skill id="2962" levels="1" name="Innadril supply box - magic pouch">
+	<skill id="2962" levels="1" name="因納得立補給箱-魔法小袋">
 		<set name="itemConsumeCount" val="1" />
 		<set name="target" val="TARGET_SELF" />
 		<set name="skillType" val="EXTRACTABLE" />
@@ -705,7 +705,7 @@
 			</and>
 		</cond>
 	</skill>
-	<skill id="2963" levels="1" name="Goddard supply box - magic pouch">
+	<skill id="2963" levels="1" name="高達特補給箱-魔法小袋">
 		<set name="itemConsumeCount" val="1" />
 		<set name="target" val="TARGET_SELF" />
 		<set name="skillType" val="EXTRACTABLE" />
@@ -717,7 +717,7 @@
 			</and>
 		</cond>
 	</skill>
-	<skill id="2964" levels="1" name="Rune supply box - magic pouch">
+	<skill id="2964" levels="1" name="魯因補給箱-魔法小袋">
 		<set name="itemConsumeCount" val="1" />
 		<set name="target" val="TARGET_SELF" />
 		<set name="skillType" val="EXTRACTABLE" />
@@ -729,7 +729,7 @@
 			</and>
 		</cond>
 	</skill>
-	<skill id="2965" levels="1" name="Schuttgart supply box - magic pouch">
+	<skill id="2965" levels="1" name="修加特補給箱-魔法小袋">
 		<set name="itemConsumeCount" val="1" />
 		<set name="target" val="TARGET_SELF" />
 		<set name="skillType" val="EXTRACTABLE" />
@@ -741,7 +741,7 @@
 			</and>
 		</cond>
 	</skill>
-	<skill id="2966" levels="1" name="Gludio supply box - belt">
+	<skill id="2966" levels="1" name="古魯丁補給箱-腰帶">
 		<set name="itemConsumeCount" val="1" />
 		<set name="target" val="TARGET_SELF" />
 		<set name="skillType" val="EXTRACTABLE" />
@@ -753,7 +753,7 @@
 			</and>
 		</cond>
 	</skill>
-	<skill id="2967" levels="1" name="Dion supply box - belt">
+	<skill id="2967" levels="1" name="狄恩補給箱-腰帶">
 		<set name="itemConsumeCount" val="1" />
 		<set name="target" val="TARGET_SELF" />
 		<set name="skillType" val="EXTRACTABLE" />
@@ -765,7 +765,7 @@
 			</and>
 		</cond>
 	</skill>
-	<skill id="2968" levels="1" name="Giran supply box - belt">
+	<skill id="2968" levels="1" name="奇岩補給箱-腰帶">
 		<set name="itemConsumeCount" val="1" />
 		<set name="target" val="TARGET_SELF" />
 		<set name="skillType" val="EXTRACTABLE" />
@@ -777,7 +777,7 @@
 			</and>
 		</cond>
 	</skill>
-	<skill id="2969" levels="1" name="Oren supply box - belt">
+	<skill id="2969" levels="1" name="歐瑞補給箱-腰帶">
 		<set name="itemConsumeCount" val="1" />
 		<set name="target" val="TARGET_SELF" />
 		<set name="skillType" val="EXTRACTABLE" />
@@ -789,7 +789,7 @@
 			</and>
 		</cond>
 	</skill>
-	<skill id="2970" levels="1" name="Aden supply box - belt">
+	<skill id="2970" levels="1" name="亞丁補給箱-腰帶">
 		<set name="itemConsumeCount" val="1" />
 		<set name="target" val="TARGET_SELF" />
 		<set name="skillType" val="EXTRACTABLE" />
@@ -801,7 +801,7 @@
 			</and>
 		</cond>
 	</skill>
-	<skill id="2971" levels="1" name="Innadril supply box - belt">
+	<skill id="2971" levels="1" name="因納得立補給箱-腰帶">
 		<set name="itemConsumeCount" val="1" />
 		<set name="target" val="TARGET_SELF" />
 		<set name="skillType" val="EXTRACTABLE" />
@@ -813,7 +813,7 @@
 			</and>
 		</cond>
 	</skill>
-	<skill id="2972" levels="1" name="Goddard supply box - belt">
+	<skill id="2972" levels="1" name="高達特補給箱-腰帶">
 		<set name="itemConsumeCount" val="1" />
 		<set name="target" val="TARGET_SELF" />
 		<set name="skillType" val="EXTRACTABLE" />
@@ -825,7 +825,7 @@
 			</and>
 		</cond>
 	</skill>
-	<skill id="2973" levels="1" name="Rune supply box - belt">
+	<skill id="2973" levels="1" name="魯因補給箱-腰帶">
 		<set name="itemConsumeCount" val="1" />
 		<set name="target" val="TARGET_SELF" />
 		<set name="skillType" val="EXTRACTABLE" />
@@ -837,7 +837,7 @@
 			</and>
 		</cond>
 	</skill>
-	<skill id="2974" levels="1" name="Schuttgart supply box - belt">
+	<skill id="2974" levels="1" name="修加特補給箱-腰帶">
 		<set name="itemConsumeCount" val="1" />
 		<set name="target" val="TARGET_SELF" />
 		<set name="skillType" val="EXTRACTABLE" />
@@ -849,7 +849,7 @@
 			</and>
 		</cond>
 	</skill>
-	<skill id="2975" levels="1" name="Gludio supply box - magic rune clip">
+	<skill id="2975" levels="1" name="古魯丁補給箱-魔法古文夾">
 		<set name="itemConsumeCount" val="1" />
 		<set name="target" val="TARGET_SELF" />
 		<set name="skillType" val="EXTRACTABLE" />
@@ -861,7 +861,7 @@
 			</and>
 		</cond>
 	</skill>
-	<skill id="2976" levels="1" name="Dion supply box - magic rune clip">
+	<skill id="2976" levels="1" name="狄恩補給箱-魔法古文夾">
 		<set name="itemConsumeCount" val="1" />
 		<set name="target" val="TARGET_SELF" />
 		<set name="skillType" val="EXTRACTABLE" />
@@ -873,7 +873,7 @@
 			</and>
 		</cond>
 	</skill>
-	<skill id="2977" levels="1" name="Giran supply box - magic rune clip">
+	<skill id="2977" levels="1" name="奇岩補給箱-魔法古文夾">
 		<set name="itemConsumeCount" val="1" />
 		<set name="target" val="TARGET_SELF" />
 		<set name="skillType" val="EXTRACTABLE" />
@@ -885,7 +885,7 @@
 			</and>
 		</cond>
 	</skill>
-	<skill id="2978" levels="1" name="Oren supply box - magic rune clip">
+	<skill id="2978" levels="1" name="歐瑞補給箱-魔法古文夾">
 		<set name="itemConsumeCount" val="1" />
 		<set name="target" val="TARGET_SELF" />
 		<set name="skillType" val="EXTRACTABLE" />
@@ -897,7 +897,7 @@
 			</and>
 		</cond>
 	</skill>
-	<skill id="2979" levels="1" name="Aden supply box - magic rune clip">
+	<skill id="2979" levels="1" name="亞丁補給箱-魔法古文夾">
 		<set name="itemConsumeCount" val="1" />
 		<set name="target" val="TARGET_SELF" />
 		<set name="skillType" val="EXTRACTABLE" />
@@ -909,7 +909,7 @@
 			</and>
 		</cond>
 	</skill>
-	<skill id="2980" levels="1" name="Innadril supply box - magic rune clip">
+	<skill id="2980" levels="1" name="因納得立補給箱-魔法古文夾">
 		<set name="itemConsumeCount" val="1" />
 		<set name="target" val="TARGET_SELF" />
 		<set name="skillType" val="EXTRACTABLE" />
@@ -921,7 +921,7 @@
 			</and>
 		</cond>
 	</skill>
-	<skill id="2981" levels="1" name="Goddard supply box - magic rune clip">
+	<skill id="2981" levels="1" name="高達特補給箱-魔法古文夾">
 		<set name="itemConsumeCount" val="1" />
 		<set name="target" val="TARGET_SELF" />
 		<set name="skillType" val="EXTRACTABLE" />
@@ -933,7 +933,7 @@
 			</and>
 		</cond>
 	</skill>
-	<skill id="2982" levels="1" name="Rune supply box - magic rune clip">
+	<skill id="2982" levels="1" name="魯因補給箱-魔法古文夾">
 		<set name="itemConsumeCount" val="1" />
 		<set name="target" val="TARGET_SELF" />
 		<set name="skillType" val="EXTRACTABLE" />
@@ -945,7 +945,7 @@
 			</and>
 		</cond>
 	</skill>
-	<skill id="2983" levels="1" name="Schuttgart supply box - magic rune clip">
+	<skill id="2983" levels="1" name="修加特補給箱-魔法古文夾">
 		<set name="itemConsumeCount" val="1" />
 		<set name="target" val="TARGET_SELF" />
 		<set name="skillType" val="EXTRACTABLE" />
@@ -957,7 +957,7 @@
 			</and>
 		</cond>
 	</skill>
-	<skill id="2984" levels="1" name="Gludio supply box - magic ornament">
+	<skill id="2984" levels="1" name="古魯丁補給箱-魔法飾品">
 		<set name="itemConsumeCount" val="1" />
 		<set name="target" val="TARGET_SELF" />
 		<set name="skillType" val="EXTRACTABLE" />
@@ -969,7 +969,7 @@
 			</and>
 		</cond>
 	</skill>
-	<skill id="2985" levels="1" name="Dion supply box - magic ornament">
+	<skill id="2985" levels="1" name="狄恩補給箱-魔法飾品">
 		<set name="itemConsumeCount" val="1" />
 		<set name="target" val="TARGET_SELF" />
 		<set name="skillType" val="EXTRACTABLE" />
@@ -981,7 +981,7 @@
 			</and>
 		</cond>
 	</skill>
-	<skill id="2986" levels="1" name="Giran supply box - magic ornament">
+	<skill id="2986" levels="1" name="奇岩補給箱-魔法飾品">
 		<set name="itemConsumeCount" val="1" />
 		<set name="target" val="TARGET_SELF" />
 		<set name="skillType" val="EXTRACTABLE" />
@@ -993,7 +993,7 @@
 			</and>
 		</cond>
 	</skill>
-	<skill id="2987" levels="1" name="Oren supply box - magic ornament">
+	<skill id="2987" levels="1" name="歐瑞補給箱-魔法飾品">
 		<set name="itemConsumeCount" val="1" />
 		<set name="target" val="TARGET_SELF" />
 		<set name="skillType" val="EXTRACTABLE" />
@@ -1005,7 +1005,7 @@
 			</and>
 		</cond>
 	</skill>
-	<skill id="2988" levels="1" name="Aden supply box - magic ornament">
+	<skill id="2988" levels="1" name="亞丁補給箱-魔法飾品">
 		<set name="itemConsumeCount" val="1" />
 		<set name="target" val="TARGET_SELF" />
 		<set name="skillType" val="EXTRACTABLE" />
@@ -1017,7 +1017,7 @@
 			</and>
 		</cond>
 	</skill>
-	<skill id="2989" levels="1" name="Innadril supply box - magic ornament">
+	<skill id="2989" levels="1" name="因納得立補給箱-魔法飾品">
 		<set name="itemConsumeCount" val="1" />
 		<set name="target" val="TARGET_SELF" />
 		<set name="skillType" val="EXTRACTABLE" />
@@ -1029,7 +1029,7 @@
 			</and>
 		</cond>
 	</skill>
-	<skill id="2990" levels="1" name="Goddard supply box - magic ornament">
+	<skill id="2990" levels="1" name="高達特補給箱-魔法飾品">
 		<set name="itemConsumeCount" val="1" />
 		<set name="target" val="TARGET_SELF" />
 		<set name="skillType" val="EXTRACTABLE" />
@@ -1041,7 +1041,7 @@
 			</and>
 		</cond>
 	</skill>
-	<skill id="2991" levels="1" name="Rune supply box - magic ornament">
+	<skill id="2991" levels="1" name="魯因補給箱-魔法飾品">
 		<set name="itemConsumeCount" val="1" />
 		<set name="target" val="TARGET_SELF" />
 		<set name="skillType" val="EXTRACTABLE" />
@@ -1053,7 +1053,7 @@
 			</and>
 		</cond>
 	</skill>
-	<skill id="2992" levels="1" name="Schuttgart supply box - magic ornament">
+	<skill id="2992" levels="1" name="修加特補給箱-魔法飾品">
 		<set name="itemConsumeCount" val="1" />
 		<set name="target" val="TARGET_SELF" />
 		<set name="skillType" val="EXTRACTABLE" />
@@ -1065,13 +1065,13 @@
 			</and>
 		</cond>
 	</skill>
-	<skill id="2993" levels="1" name="Ancient herb - Deceiver">
+	<skill id="2993" levels="1" name="原始藥草-欺騙者">
 		<set name="target" val="TARGET_NONE" />
 		<set name="skillType" val="NOTDONE" />
 		<set name="reuseDelay" val="2000" />
 		<set name="operateType" val="OP_PASSIVE" />
 	</skill>
-	<skill id="2994" levels="1" name="Disguised Half - Aqua Elf">
+	<skill id="2994" levels="1" name="變身豎琴-水精靈">
 		<set name="target" val="TARGET_SELF" />
 		<set name="skillType" val="BUFF" />
 		<set name="operateType" val="OP_ACTIVE" />
@@ -1083,27 +1083,27 @@
 			<effect name="Transformation" time="3600" val="0" stackOrder="1" stackType="transform" />
 		</for>
 	</skill>
-	<skill id="2995" levels="1" name="PC room private weapon strengthening order sheet - D grade">
+	<skill id="2995" levels="1" name="活動專用武器強化卷軸-D級">
 		<set name="target" val="TARGET_NONE" />
 		<set name="skillType" val="NOTDONE" />
 		<set name="operateType" val="OP_PASSIVE" />
 	</skill>
-	<skill id="2996" levels="1" name="PC room private weapon strengthening order sheet - C grade">
+	<skill id="2996" levels="1" name="活動專用武器強化卷軸-C級">
 		<set name="target" val="TARGET_NONE" />
 		<set name="skillType" val="NOTDONE" />
 		<set name="operateType" val="OP_PASSIVE" />
 	</skill>
-	<skill id="2997" levels="1" name="PC room private weapon strengthening order sheet - B grade">
+	<skill id="2997" levels="1" name="活動專用武器強化卷軸-B級">
 		<set name="target" val="TARGET_NONE" />
 		<set name="skillType" val="NOTDONE" />
 		<set name="operateType" val="OP_PASSIVE" />
 	</skill>
-	<skill id="2998" levels="1" name="PC room private weapon strengthening order sheet - A grade">
+	<skill id="2998" levels="1" name="活動專用武器強化卷軸-A級">
 		<set name="target" val="TARGET_NONE" />
 		<set name="skillType" val="NOTDONE" />
 		<set name="operateType" val="OP_PASSIVE" />
 	</skill>
-	<skill id="2999" levels="1" name="PC room private weapon strengthening order sheet - S grade">
+	<skill id="2999" levels="1" name="活動專用武器強化卷軸-S級">
 		<set name="target" val="TARGET_NONE" />
 		<set name="skillType" val="NOTDONE" />
 		<set name="operateType" val="OP_PASSIVE" />

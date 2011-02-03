@@ -110,7 +110,7 @@ public class Blessing extends Quest
 					htmltext = "";
 				}
 				else
-					htmltext = "<html><body>祝福的神官：您的好意我心領了，但您要捐獻的金幣好像還不太夠呢。協助貧困人們的機會一直都為您敞開著，等您有能力協助的時候，請隨時來找我。願神的祝福與您同在...</body></html>";
+					htmltext = "<html><body>祝福的神官：<br>您的好意我心領了，但您要捐獻的金幣好像還不太夠呢。協助貧困人們的機會一直都為您敞開著，等您有能力協助的時候，請隨時來找我。願神的祝福與您同在...</body></html>";
 			}
 			else
 			{
@@ -144,7 +144,7 @@ public class Blessing extends Quest
 						htmltext = "";
 					}
 					else
-						htmltext = "<html><body>祝福的神官：您的好意我心領了，但您要捐獻的金幣好像還不太夠呢。協助貧困人們的機會一直都為您敞開著，等您有能力協助的時候，請隨時來找我。願神的祝福與您同在...</body></html>";
+						htmltext = "<html><body>祝福的神官：<br>您的好意我心領了，但您要捐獻的金幣好像還不太夠呢。協助貧困人們的機會一直都為您敞開著，等您有能力協助的時候，請隨時來找我。願神的祝福與您同在...</body></html>";
 				}
 			}
 		}
@@ -163,7 +163,7 @@ public class Blessing extends Quest
 					htmltext = "";
 				}
 				else
-					htmltext = "<html><body>祝福的神官：您的好意我心領了，但您要捐獻的金幣好像還不太夠呢。協助貧困人們的機會一直都為您敞開著，等您有能力協助的時候，請隨時來找我。願神的祝福與您同在...</body></html>";
+					htmltext = "<html><body>祝福的神官：<br>您的好意我心領了，但您要捐獻的金幣好像還不太夠呢。協助貧困人們的機會一直都為您敞開著，等您有能力協助的時候，請隨時來找我。願神的祝福與您同在...</body></html>";
 			}
 			else
 			{
@@ -197,7 +197,7 @@ public class Blessing extends Quest
 						htmltext = "";
 					}
 					else
-						htmltext = "<html><body>祝福的神官：您的好意我心領了，但您要捐獻的金幣好像還不太夠呢。協助貧困人們的機會一直都為您敞開著，等您有能力協助的時候，請隨時來找我。願神的祝福與您同在...</body></html>";
+						htmltext = "<html><body>祝福的神官：<br>您的好意我心領了，但您要捐獻的金幣好像還不太夠呢。協助貧困人們的機會一直都為您敞開著，等您有能力協助的時候，請隨時來找我。願神的祝福與您同在...</body></html>";
 				}
 			}
 		}

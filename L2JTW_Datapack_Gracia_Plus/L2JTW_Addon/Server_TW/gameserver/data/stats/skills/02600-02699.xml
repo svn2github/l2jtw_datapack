@@ -1,55 +1,55 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <list>
-	<skill id="2600" levels="1" name="Gran Kain's Echo Crystal - Theme of Solitude">
+	<skill id="2600" levels="1" name="格蘭肯的回聲水晶-孤獨之歌">
 		<set name="itemConsumeCount" val="1" />
 		<set name="isPotion" val="true" />
 		<set name="target" val="TARGET_SELF" />
 		<set name="skillType" val="DUMMY" />
 		<set name="operateType" val="OP_ACTIVE" />
 	</skill>
-	<skill id="2601" levels="1" name="Gran Kain's Echo Crystal - Theme of the Feast">
+	<skill id="2601" levels="1" name="格蘭肯的回聲水晶-祝典之歌">
 		<set name="itemConsumeCount" val="1" />
 		<set name="isPotion" val="true" />
 		<set name="target" val="TARGET_SELF" />
 		<set name="skillType" val="DUMMY" />
 		<set name="operateType" val="OP_ACTIVE" />
 	</skill>
-	<skill id="2602" levels="1" name="Gran Kain's Echo Crystal - Theme of Celebration">
+	<skill id="2602" levels="1" name="格蘭肯的回聲水晶-慶祝之歌">
 		<set name="itemConsumeCount" val="1" />
 		<set name="isPotion" val="true" />
 		<set name="target" val="TARGET_SELF" />
 		<set name="skillType" val="DUMMY" />
 		<set name="operateType" val="OP_ACTIVE" />
 	</skill>
-	<skill id="2603" levels="1" name="Gran Kain's Echo Crystal - Theme of Comedy">
+	<skill id="2603" levels="1" name="格蘭肯的回聲水晶-喜劇之歌">
 		<set name="itemConsumeCount" val="1" />
 		<set name="isPotion" val="true" />
 		<set name="target" val="TARGET_SELF" />
 		<set name="skillType" val="DUMMY" />
 		<set name="operateType" val="OP_ACTIVE" />
 	</skill>
-	<skill id="2604" levels="1" name="Gran Kain's Firework">
+	<skill id="2604" levels="1" name="格蘭肯的煙火">
 		<set name="itemConsumeCount" val="1" />
 		<set name="target" val="TARGET_SELF" />
 		<set name="skillType" val="DUMMY" />
 		<set name="operateType" val="OP_ACTIVE" />
 		<set name="reuseDelay" val="1000" />
 	</skill>
-	<skill id="2605" levels="1" name="Gran Kain's Large Firework">
+	<skill id="2605" levels="1" name="格蘭肯的大煙火">
 		<set name="itemConsumeCount" val="1" />
 		<set name="target" val="TARGET_SELF" />
 		<set name="skillType" val="DUMMY" />
 		<set name="operateType" val="OP_ACTIVE" />
 		<set name="reuseDelay" val="3000" />
 	</skill>
-	<skill id="2606" levels="1" name="Gran Kain's Gift Box">
+	<skill id="2606" levels="1" name="格蘭肯的禮物箱">
 		<set name="reuseDelay" val="86400000" />
 		<set name="staticReuse" val="true" />
 		<set name="target" val="TARGET_NONE" />
 		<set name="skillType" val="NOTDONE" />
 		<set name="operateType" val="OP_PASSIVE" />
 	</skill>
-	<skill id="2607" levels="1" name="Pailaka Door Key">
+	<skill id="2607" levels="1" name="菲拉卡門匙">
 		<set name="itemConsumeCount" val="1" />
 		<set name="target" val="TARGET_UNLOCKABLE" />
 		<set name="skillType" val="UNLOCK_SPECIAL" />
@@ -62,7 +62,7 @@
 			<target npcId="22110100,22110101,22110102,22110103,22110104,22110105" />
 		</cond>
 	</skill>
-	<skill id="2608" levels="3" name="Crystal of Fantasy">
+	<skill id="2608" levels="3" name="夢幻的藍色水晶">
 		<!-- Lvl 1: Blue Crystal of Fantasy -->
 		<!-- Lvl 2: Green Crystal of Fantasy -->
 		<!-- Lvl 3: Red Crystal of Fantasy -->
@@ -83,7 +83,7 @@
 			</and>
 		</cond>
 	</skill>
-	<skill id="2609" levels="20" name="Escape">
+	<skill id="2609" levels="20" name="返回卷軸-說話之島">
 		<table name="#teleCoords"> -84318,244579,-3730 46934,51467,-2977 9745,15606,-4574 -44836,-112524,-235 115113,-178212,-901 -80826,149775,-3043 -12678,122776,-3116 15670,142983,-2705 17836,170178,-3507 83400,147943,-3404 105918,109759,-3207 111409,219364,-3545 82956,53162,-1495 85348,16142,-3699 116819,76994,-2714 146331,25762,-2018 147928,-55273,-2734 43799,-47727,-798 87331,-142842,-1317 -117251,46771,360 </table>
 		<set name="itemConsumeCount" val="1" />
 		<set name="target" val="TARGET_SELF" />
@@ -92,122 +92,122 @@
 		<set name="teleCoords" val="#teleCoords" />
 		<set name="operateType" val="OP_ACTIVE" />
 	</skill>
-	<skill id="2610" levels="1" name="Register Bookmark (Event)">
+	<skill id="2610" levels="1" name="書籤登錄-活動用">
 		<set name="target" val="TARGET_NONE" />
 		<set name="skillType" val="NOTDONE" />
 		<set name="operateType" val="OP_PASSIVE" />
 	</skill>
-	<skill id="2611" levels="1" name="Large Firework">
-		<set name="target" val="TARGET_NONE" />
-		<set name="reuseDelay" val="3000" />
-		<set name="skillType" val="NOTDONE" />
-		<set name="operateType" val="OP_PASSIVE" />
-	</skill>
-	<skill id="2612" levels="1" name="Large Firework">
+	<skill id="2611" levels="1" name="大煙火">
 		<set name="target" val="TARGET_NONE" />
 		<set name="reuseDelay" val="3000" />
 		<set name="skillType" val="NOTDONE" />
 		<set name="operateType" val="OP_PASSIVE" />
 	</skill>
-	<skill id="2613" levels="1" name="Large Firework">
+	<skill id="2612" levels="1" name="大煙火">
 		<set name="target" val="TARGET_NONE" />
 		<set name="reuseDelay" val="3000" />
 		<set name="skillType" val="NOTDONE" />
 		<set name="operateType" val="OP_PASSIVE" />
 	</skill>
-	<skill id="2614" levels="1" name="Large Firework">
+	<skill id="2613" levels="1" name="大煙火">
 		<set name="target" val="TARGET_NONE" />
 		<set name="reuseDelay" val="3000" />
 		<set name="skillType" val="NOTDONE" />
 		<set name="operateType" val="OP_PASSIVE" />
 	</skill>
-	<skill id="2615" levels="1" name="Destroyed Darkness Fragment Powder">
+	<skill id="2614" levels="1" name="大煙火">
 		<set name="target" val="TARGET_NONE" />
 		<set name="reuseDelay" val="3000" />
 		<set name="skillType" val="NOTDONE" />
 		<set name="operateType" val="OP_PASSIVE" />
 	</skill>
-	<skill id="2616" levels="1" name="Bond Sealant">
+	<skill id="2615" levels="1" name="破碎的黑暗破片粉末">
+		<set name="target" val="TARGET_NONE" />
+		<set name="reuseDelay" val="3000" />
+		<set name="skillType" val="NOTDONE" />
+		<set name="operateType" val="OP_PASSIVE" />
+	</skill>
+	<skill id="2616" levels="1" name="強力膠">
 		<set name="target" val="TARGET_NONE" />
 		<set name="reuseDelay" val="2000" />
 		<set name="skillType" val="NOTDONE" />
 		<set name="operateType" val="OP_PASSIVE" />
 		<set name="hitTime" val="100" />
 	</skill>
-	<skill id="2617" levels="1" name="Stun Planter">
+	<skill id="2617" levels="1" name="佈雷">
 		<set name="target" val="TARGET_NONE" />
 		<set name="reuseDelay" val="2000" />
 		<set name="skillType" val="NOTDONE" />
 		<set name="operateType" val="OP_PASSIVE" />
 		<set name="hitTime" val="100" />
 	</skill>
-	<skill id="2618" levels="1" name="Stun Land Mine">
+	<skill id="2618" levels="1" name="衝擊地雷">
 		<set name="target" val="TARGET_NONE" />
 		<set name="reuseDelay" val="2000" />
 		<set name="skillType" val="NOTDONE" />
 		<set name="operateType" val="OP_PASSIVE" />
 		<set name="hitTime" val="100" />
 	</skill>
-	<skill id="2619" levels="1" name="Extra Entrance Pass - Kamaloka (Hall of the Abyss) (Event)">
+	<skill id="2619" levels="1" name="追加入場券-欲界(深淵之廳)-活動用">
 		<set name="target" val="TARGET_NONE" />
 		<set name="skillType" val="NOTDONE" />
 		<set name="operateType" val="OP_PASSIVE" />
 	</skill>
-	<skill id="2620" levels="1" name="Extra Entrance Pass - Near Kamaloka (Event)">
+	<skill id="2620" levels="1" name="追加入場券-近緣欲界-活動用">
 		<set name="target" val="TARGET_NONE" />
 		<set name="skillType" val="NOTDONE" />
 		<set name="operateType" val="OP_PASSIVE" />
 	</skill>
-	<skill id="2621" levels="1" name="Extra Entrance Pass - Kamaloka (Labyrinth of the Abyss) (Event)">
+	<skill id="2621" levels="1" name="追加入場券-欲界(深淵迷宮)-活動用">
 		<set name="target" val="TARGET_NONE" />
 		<set name="skillType" val="NOTDONE" />
 		<set name="operateType" val="OP_PASSIVE" />
 	</skill>
-	<skill id="2622" levels="1" name="Summon Life-size Decoy">
+	<skill id="2622" levels="1" name="召喚生命種子誘餌">
 		<set name="target" val="TARGET_NONE" />
 		<set name="reuseDelay" val="1800000" />
 		<set name="skillType" val="NOTDONE" />
 		<set name="operateType" val="OP_PASSIVE" />
 		<set name="hitTime" val="2000" />
 	</skill>
-	<skill id="2623" levels="1" name="Alkaline Therapy">
+	<skill id="2623" levels="1" name="鹼性治療">
 		<set name="target" val="TARGET_NONE" />
 		<set name="skillType" val="NOTDONE" />
 		<set name="operateType" val="OP_PASSIVE" />
 	</skill>
-	<skill id="2624" levels="1" name="Life Aid Banding">
+	<skill id="2624" levels="1" name="醫療繃帶">
 		<set name="target" val="TARGET_NONE" />
 		<set name="skillType" val="NOTDONE" />
 		<set name="operateType" val="OP_PASSIVE" />
 	</skill>
-	<skill id="2625" levels="1" name="Embalming">
+	<skill id="2625" levels="1" name="保存香">
 		<set name="target" val="TARGET_NONE" />
 		<set name="skillType" val="NOTDONE" />
 		<set name="operateType" val="OP_PASSIVE" />
 	</skill>
-	<skill id="2626" levels="1" name="Lighting Incense">
+	<skill id="2626" levels="1" name="光之香">
 		<set name="target" val="TARGET_NONE" />
 		<set name="skillType" val="NOTDONE" />
 		<set name="operateType" val="OP_PASSIVE" />
 	</skill>
-	<skill id="2627" levels="1" name="Elixir Miracle">
+	<skill id="2627" levels="1" name="萬能藥的奇蹟">
 		<set name="target" val="TARGET_NONE" />
 		<set name="skillType" val="NOTDONE" />
 		<set name="operateType" val="OP_PASSIVE" />
 	</skill>
-	<skill id="2628" levels="1" name="Structure Scarab">
+	<skill id="2628" levels="1" name="援助的甲蟲石">
 		<set name="target" val="TARGET_NONE" />
 		<set name="reuseDelay" val="1800000" />
 		<set name="staticReuse" val="true" />
 		<set name="skillType" val="NOTDONE" />
 		<set name="operateType" val="OP_PASSIVE" />
 	</skill>
-	<skill id="2629" levels="1" name="Ancient Treasure Sack">
+	<skill id="2629" levels="1" name="古代人的寶物袋子">
 		<set name="target" val="TARGET_NONE" />
 		<set name="skillType" val="NOTDONE" />
 		<set name="operateType" val="OP_PASSIVE" />
 	</skill>
-	<skill id="2630" levels="1" name="Presentation - Collect Items">
+	<skill id="2630" levels="1" name="展示-採集道具">
 		<set name="itemConsumeCount" val="1" />
 		<set name="target" val="TARGET_ONE" />
 		<set name="skillType" val="DUMMY" />
@@ -227,7 +227,7 @@
 			</and>
 		</cond>
 	</skill>
-	<skill id="2631" levels="1" name="Scroll of Transformation - Frog">
+	<skill id="2631" levels="1" name="變身卷軸-青蛙">
 		<set name="target" val="TARGET_SELF" />
 		<set name="skillType" val="BUFF" />
 		<set name="operateType" val="OP_ACTIVE" />
@@ -239,7 +239,7 @@
 			<effect name="Transformation" time="1800" val="0" stackOrder="1" stackType="transform" />
 		</for>
 	</skill>
-	<skill id="2632" levels="1" name="Scroll of Transformation - Young Child">
+	<skill id="2632" levels="1" name="變身卷軸-小孩">
 		<set name="target" val="TARGET_SELF" />
 		<set name="skillType" val="BUFF" />
 		<set name="operateType" val="OP_ACTIVE" />
@@ -251,7 +251,7 @@
 			<effect name="Transformation" time="1800" val="0" stackOrder="1" stackType="transform" />
 		</for>
 	</skill>
-	<skill id="2633" levels="1" name="Elmore-Aden's Holy Water">
+	<skill id="2633" levels="1" name="艾爾摩亞丁的聖水">
 		<!-- Update by pmq -->
 		<set name="target" val="TARGET_UNLOCKABLE" />
 		<set name="skillType" val="UNLOCK_SPECIAL" />
@@ -263,7 +263,7 @@
 			<target npcId="17240101,17240102,17240104,17240105,17240106,17240108,17240109,17240110" />
 		</cond>
 	</skill>
-	<skill id="2634" levels="1" name="Court Magician's Blessing">
+	<skill id="2634" levels="1" name="宮廷魔法師的魔法棒">
 		<!-- Update by pmq -->
 		<set name="target" val="TARGET_UNLOCKABLE" />
 		<set name="skillType" val="UNLOCK_SPECIAL" />
@@ -275,7 +275,7 @@
 			<target npcId="17240103,17240107" />
 		</cond>
 	</skill>
-	<skill id="2635" levels="1" name="Blessing of Fire">
+	<skill id="2635" levels="1" name="火的祝福">
 		<set name="target" val="TARGET_SELF" />
 		<set name="skillType" val="BUFF" />
 		<set name="reuseDelay" val="10000" />
@@ -287,7 +287,7 @@
 			</effect>
 		</for>
 	</skill>
-	<skill id="2636" levels="1" name="Blessing of Earth">
+	<skill id="2636" levels="1" name="大地的祝福">
 		<set name="target" val="TARGET_SELF" />
 		<set name="skillType" val="BUFF" />
 		<set name="reuseDelay" val="10000" />
@@ -299,57 +299,57 @@
 			</effect>
 		</for>
 	</skill>
-	<skill id="2637" levels="1" name="Scroll: Enchant Weapon (Event)">
+	<skill id="2637" levels="1" name="武器強化卷軸-活動用">
 		<set name="target" val="TARGET_NONE" />
 		<set name="skillType" val="NOTDONE" />
 		<set name="operateType" val="OP_PASSIVE" />
 	</skill>
-	<skill id="2638" levels="1" name="Five-year anniversary event box">
+	<skill id="2638" levels="1" name="5週年紀念道具箱">
 		<set name="target" val="TARGET_NONE" />
 		<set name="skillType" val="NOTDONE" />
 		<set name="operateType" val="OP_PASSIVE" />
 	</skill>
-	<skill id="2639" levels="1" name="Five-year anniversary event box">
+	<skill id="2639" levels="1" name="5週年紀念道具箱">
 		<set name="target" val="TARGET_NONE" />
 		<set name="skillType" val="NOTDONE" />
 		<set name="operateType" val="OP_PASSIVE" />
 	</skill>
-	<skill id="2640" levels="1" name="Five-year anniversary event box">
+	<skill id="2640" levels="1" name="5週年紀念道具箱">
 		<set name="target" val="TARGET_NONE" />
 		<set name="skillType" val="NOTDONE" />
 		<set name="operateType" val="OP_PASSIVE" />
 	</skill>
-	<skill id="2641" levels="1" name="Five-Year Anniversary Event Box">
+	<skill id="2641" levels="1" name="5週年紀念道具箱">
 		<set name="target" val="TARGET_NONE" />
 		<set name="skillType" val="NOTDONE" />
 		<set name="operateType" val="OP_PASSIVE" />
 	</skill>
-	<skill id="2642" levels="1" name="Five-Year Anniversary Event Box">
+	<skill id="2642" levels="1" name="5週年紀念道具箱">
 		<set name="target" val="TARGET_NONE" />
 		<set name="skillType" val="NOTDONE" />
 		<set name="operateType" val="OP_PASSIVE" />
 	</skill>
-	<skill id="2643" levels="1" name="Five-Year Anniversary Event Box">
+	<skill id="2643" levels="1" name="5週年紀念道具箱">
 		<set name="target" val="TARGET_NONE" />
 		<set name="skillType" val="NOTDONE" />
 		<set name="operateType" val="OP_PASSIVE" />
 	</skill>
-	<skill id="2644" levels="1" name="Five-Year Anniversary Event Box">
+	<skill id="2644" levels="1" name="5週年紀念道具箱">
 		<set name="target" val="TARGET_NONE" />
 		<set name="skillType" val="NOTDONE" />
 		<set name="operateType" val="OP_PASSIVE" />
 	</skill>
-	<skill id="2645" levels="1" name="Multi-Colored Honey Rice Cake">
+	<skill id="2645" levels="1" name="點心">
 		<set name="target" val="TARGET_NONE" />
 		<set name="skillType" val="NOTDONE" />
 		<set name="operateType" val="OP_PASSIVE" />
 	</skill>
-	<skill id="2646" levels="1" name="Honey Wheat Cake">
+	<skill id="2646" levels="1" name="蛋糕">
 		<set name="target" val="TARGET_NONE" />
 		<set name="skillType" val="NOTDONE" />
 		<set name="operateType" val="OP_PASSIVE" />
 	</skill>
-	<skill id="2647" levels="1" name="Energy Star Stone">
+	<skill id="2647" levels="1" name="能量星石">
 		<set name="itemConsumeCount" val="1" />
 		<set name="target" val="TARGET_SELF" />
 		<set name="skillType" val="REFUEL" />
@@ -357,7 +357,7 @@
 		<set name="hitTime" val="200" />
 		<set name="power" val="25" />
 	</skill>
-	<skill id="2648" levels="1" name="High Quality Energy Star Stone">
+	<skill id="2648" levels="1" name="高級能量星石">
 		<set name="itemConsumeCount" val="1" />
 		<set name="target" val="TARGET_SELF" />
 		<set name="skillType" val="REFUEL" />
@@ -365,7 +365,7 @@
 		<set name="hitTime" val="200" />
 		<set name="power" val="100" />
 	</skill>
-	<skill id="2649" levels="9" name="Escape - Gludin Village">
+	<skill id="2649" levels="9" name="返回卷軸-古魯丁村莊">
 		<table name="#teleCoords"> -12678,122776,-3116 15670,142983,-2705 83400,147943,-3404 111409,219364,-3545 82956,53162,-1495 146331,25762,-2018 147928,-55273,-2734 43799,-47727,-798 87331,-142842,-1317 </table>
 		<set name="itemConsumeCount" val="1" />
 		<set name="target" val="TARGET_SELF" />
@@ -374,7 +374,7 @@
 		<set name="teleCoords" val="#teleCoords" />
 		<set name="operateType" val="OP_ACTIVE" />
 	</skill>
-	<skill id="2650" levels="1" name="Summon Imperial Phoenix">
+	<skill id="2650" levels="1" name="召喚小鳳凰">
 		<set name="itemConsumeCount" val="1" />
 		<set name="target" val="TARGET_SELF" />
 		<set name="skillType" val="LEARN_SKILL" />
@@ -392,7 +392,7 @@
 			</and>
 		</cond>
 	</skill>
-	<skill id="2651" levels="1" name="Deflect Magic">
+	<skill id="2651" levels="1" name="禦魔術">
 		<set name="itemConsumeCount" val="1" />
 		<set name="target" val="TARGET_SELF" />
 		<set name="skillType" val="LEARN_SKILL" />
@@ -410,7 +410,7 @@
 			</and>
 		</cond>
 	</skill>
-	<skill id="2652" levels="1" name="Song of Purification">
+	<skill id="2652" levels="1" name="純淨之歌">
 		<set name="itemConsumeCount" val="1" />
 		<set name="target" val="TARGET_SELF" />
 		<set name="skillType" val="LEARN_SKILL" />
@@ -428,7 +428,7 @@
 			</and>
 		</cond>
 	</skill>
-	<skill id="2653" levels="1" name="Dance of Berserker">
+	<skill id="2653" levels="1" name="狂戰士之舞">
 		<set name="itemConsumeCount" val="1" />
 		<set name="target" val="TARGET_SELF" />
 		<set name="skillType" val="LEARN_SKILL" />
@@ -446,7 +446,7 @@
 			</and>
 		</cond>
 	</skill>
-	<skill id="2654" levels="1" name="Final Secret">
+	<skill id="2654" levels="1" name="最後的祕密">
 		<set name="itemConsumeCount" val="1" />
 		<set name="target" val="TARGET_SELF" />
 		<set name="skillType" val="LEARN_SKILL" />
@@ -464,7 +464,7 @@
 			</and>
 		</cond>
 	</skill>
-	<skill id="2655" levels="1" name="Maximum Force Focus">
+	<skill id="2655" levels="1" name="最大凝神聚氣">
 		<set name="itemConsumeCount" val="1" />
 		<set name="target" val="TARGET_SELF" />
 		<set name="skillType" val="LEARN_SKILL" />
@@ -482,7 +482,7 @@
 			</and>
 		</cond>
 	</skill>
-	<skill id="2656" levels="1" name="Maximum Sonic Focus">
+	<skill id="2656" levels="1" name="最大波動凝聚">
 		<set name="itemConsumeCount" val="1" />
 		<set name="target" val="TARGET_SELF" />
 		<set name="skillType" val="LEARN_SKILL" />
@@ -500,7 +500,7 @@
 			</and>
 		</cond>
 	</skill>
-	<skill id="2657" levels="1" name="Hide">
+	<skill id="2657" levels="1" name="隱藏">
 		<set name="itemConsumeCount" val="1" />
 		<set name="target" val="TARGET_SELF" />
 		<set name="skillType" val="LEARN_SKILL" />
@@ -518,7 +518,7 @@
 			</and>
 		</cond>
 	</skill>
-	<skill id="2658" levels="1" name="Dual Dagger Mastery">
+	<skill id="2658" levels="1" name="精通雙匕首">
 		<set name="itemConsumeCount" val="1" />
 		<set name="target" val="TARGET_SELF" />
 		<set name="skillType" val="LEARN_SKILL" />
@@ -537,7 +537,7 @@
 			</and>
 		</cond>
 	</skill>
-	<skill id="2659" levels="1" name="Seven Arrow">
+	<skill id="2659" levels="1" name="七箭">
 		<set name="itemConsumeCount" val="1" />
 		<set name="target" val="TARGET_SELF" />
 		<set name="skillType" val="LEARN_SKILL" />
@@ -555,7 +555,7 @@
 			</and>
 		</cond>
 	</skill>
-	<skill id="2660" levels="1" name="Enlightenment">
+	<skill id="2660" levels="1" name="啟蒙">
 		<set name="itemConsumeCount" val="1" />
 		<set name="target" val="TARGET_SELF" />
 		<set name="skillType" val="LEARN_SKILL" />
@@ -573,7 +573,7 @@
 			</and>
 		</cond>
 	</skill>
-	<skill id="2661" levels="1" name="Enlightenment">
+	<skill id="2661" levels="1" name="啟蒙">
 		<set name="itemConsumeCount" val="1" />
 		<set name="target" val="TARGET_SELF" />
 		<set name="skillType" val="LEARN_SKILL" />
@@ -591,7 +591,7 @@
 			</and>
 		</cond>
 	</skill>
-	<skill id="2662" levels="1" name="Chant of Movement">
+	<skill id="2662" levels="1" name="行動頌歌">
 		<set name="itemConsumeCount" val="1" />
 		<set name="target" val="TARGET_SELF" />
 		<set name="skillType" val="LEARN_SKILL" />
@@ -609,7 +609,7 @@
 			</and>
 		</cond>
 	</skill>
-	<skill id="2663" levels="1" name="Combat of Pa'agrio">
+	<skill id="2663" levels="1" name="帕格立歐戰鬥">
 		<set name="itemConsumeCount" val="1" />
 		<set name="target" val="TARGET_SELF" />
 		<set name="skillType" val="LEARN_SKILL" />
@@ -627,7 +627,7 @@
 			</and>
 		</cond>
 	</skill>
-	<skill id="2664" levels="1" name="Critical of Pa'agrio">
+	<skill id="2664" levels="1" name="帕格立歐致命">
 		<set name="itemConsumeCount" val="1" />
 		<set name="target" val="TARGET_SELF" />
 		<set name="skillType" val="LEARN_SKILL" />
@@ -645,7 +645,7 @@
 			</and>
 		</cond>
 	</skill>
-	<skill id="2665" levels="1" name="Condition of Pa'agrio">
+	<skill id="2665" levels="1" name="帕格立歐狀態">
 		<set name="itemConsumeCount" val="1" />
 		<set name="target" val="TARGET_SELF" />
 		<set name="skillType" val="LEARN_SKILL" />
@@ -663,7 +663,7 @@
 			</and>
 		</cond>
 	</skill>
-	<skill id="2666" levels="1" name="Dual Blow">
+	<skill id="2666" levels="1" name="雙重打擊">
 		<set name="itemConsumeCount" val="1" />
 		<set name="target" val="TARGET_SELF" />
 		<set name="skillType" val="LEARN_SKILL" />
@@ -681,7 +681,7 @@
 			</and>
 		</cond>
 	</skill>
-	<skill id="2667" levels="1" name="Spirit of the Cat">
+	<skill id="2667" levels="1" name="貓之靈">
 		<set name="itemConsumeCount" val="1" />
 		<set name="target" val="TARGET_SELF" />
 		<set name="skillType" val="LEARN_SKILL" />
@@ -699,7 +699,7 @@
 			</and>
 		</cond>
 	</skill>
-	<skill id="2668" levels="1" name="Spirit of the Phantom">
+	<skill id="2668" levels="1" name="幻影之靈">
 		<set name="itemConsumeCount" val="1" />
 		<set name="target" val="TARGET_SELF" />
 		<set name="skillType" val="LEARN_SKILL" />
@@ -717,7 +717,7 @@
 			</and>
 		</cond>
 	</skill>
-	<skill id="2669" levels="1" name="Spirit of the Unicorn">
+	<skill id="2669" levels="1" name="獨角獸之靈">
 		<set name="itemConsumeCount" val="1" />
 		<set name="target" val="TARGET_SELF" />
 		<set name="skillType" val="LEARN_SKILL" />
@@ -735,7 +735,7 @@
 			</and>
 		</cond>
 	</skill>
-	<skill id="2670" levels="1" name="Scroll of Transformation - Red">
+	<skill id="2670" levels="1" name="變身卷軸-紅">
 		<!-- Update by rocknow -->
 		<set name="itemConsumeCount" val="1" />
 		<set name="target" val="TARGET_SELF" />
@@ -749,7 +749,7 @@
 			<effect name="Transformation" time="1800" val="0" />
 		</for>
 	</skill>
-	<skill id="2671" levels="1" name="Scroll of Transformation - Blue">
+	<skill id="2671" levels="1" name="變身卷軸-藍">
 		<!-- Update by rocknow -->
 		<set name="itemConsumeCount" val="1" />
 		<set name="target" val="TARGET_SELF" />
@@ -763,7 +763,7 @@
 			<effect name="Transformation" time="1800" val="0" />
 		</for>
 	</skill>
-	<skill id="2672" levels="1" name="Gludio Human Mercenary">
+	<skill id="2672" levels="1" name="古魯丁人類傭兵">
 		<set name="target" val="TARGET_SELF" />
 		<set name="skillType" val="BUFF" />
 		<set name="isMagic" val="true" />
@@ -784,7 +784,7 @@
 			<effect name="Transformation" time="1800" val="0" stackOrder="1" stackType="transform" /> <!-- Transformation lasts 30 minutes -->
 		</for>
 	</skill>
-	<skill id="2673" levels="1" name="Gludio Elf Mercenary">
+	<skill id="2673" levels="1" name="古魯丁精靈傭兵">
 		<set name="target" val="TARGET_SELF" />
 		<set name="skillType" val="BUFF" />
 		<set name="isMagic" val="true" />
@@ -805,7 +805,7 @@
 			<effect name="Transformation" time="1800" val="0" stackOrder="1" stackType="transform" /> <!-- Transformation lasts 30 minutes -->
 		</for>
 	</skill>
-	<skill id="2674" levels="1" name="Gludio Dark Elf Mercenary">
+	<skill id="2674" levels="1" name="古魯丁黑暗精靈傭兵">
 		<set name="target" val="TARGET_SELF" />
 		<set name="skillType" val="BUFF" />
 		<set name="isMagic" val="true" />
@@ -826,7 +826,7 @@
 			<effect name="Transformation" time="1800" val="0" stackOrder="1" stackType="transform" /> <!-- Transformation lasts 30 minutes -->
 		</for>
 	</skill>
-	<skill id="2675" levels="1" name="Gludio Orc Mercenary">
+	<skill id="2675" levels="1" name="古魯丁半獸人傭兵">
 		<set name="target" val="TARGET_SELF" />
 		<set name="skillType" val="BUFF" />
 		<set name="isMagic" val="true" />
@@ -847,7 +847,7 @@
 			<effect name="Transformation" time="1800" val="0" stackOrder="1" stackType="transform" /> <!-- Transformation lasts 30 minutes -->
 		</for>
 	</skill>
-	<skill id="2676" levels="1" name="Gludio Dwarf Mercenary">
+	<skill id="2676" levels="1" name="古魯丁矮人傭兵">
 		<set name="target" val="TARGET_SELF" />
 		<set name="skillType" val="BUFF" />
 		<set name="isMagic" val="true" />
@@ -868,7 +868,7 @@
 			<effect name="Transformation" time="1800" val="0" stackOrder="1" stackType="transform" /> <!-- Transformation lasts 30 minutes -->
 		</for>
 	</skill>
-	<skill id="2677" levels="1" name="Gludio Kamael Mercenary">
+	<skill id="2677" levels="1" name="古魯丁闇天使傭兵">
 		<set name="target" val="TARGET_SELF" />
 		<set name="skillType" val="BUFF" />
 		<set name="isMagic" val="true" />
@@ -889,7 +889,7 @@
 			<effect name="Transformation" time="1800" val="0" stackOrder="1" stackType="transform" /> <!-- Transformation lasts 30 minutes -->
 		</for>
 	</skill>
-	<skill id="2678" levels="1" name="Gludio Knight Mercenary">
+	<skill id="2678" levels="1" name="古魯丁親衛隊長">
 		<set name="target" val="TARGET_SELF" />
 		<set name="skillType" val="BUFF" />
 		<set name="isMagic" val="true" />
@@ -910,7 +910,7 @@
 			<effect name="Transformation" time="1800" val="0" stackOrder="1" stackType="transform" /> <!-- Transformation lasts 30 minutes -->
 		</for>
 	</skill>
-	<skill id="2679" levels="1" name="Gludio Archer Mercenary">
+	<skill id="2679" levels="1" name="古魯丁弓手隊長">
 		<set name="target" val="TARGET_SELF" />
 		<set name="skillType" val="BUFF" />
 		<set name="isMagic" val="true" />
@@ -931,7 +931,7 @@
 			<effect name="Transformation" time="1800" val="0" stackOrder="1" stackType="transform" /> <!-- Transformation lasts 30 minutes -->
 		</for>
 	</skill>
-	<skill id="2680" levels="1" name="Gludio Wizard Mercenary">
+	<skill id="2680" levels="1" name="古魯丁魔法隊長">
 		<set name="target" val="TARGET_SELF" />
 		<set name="skillType" val="BUFF" />
 		<set name="isMagic" val="true" />
@@ -952,7 +952,7 @@
 			<effect name="Transformation" time="1800" val="0" stackOrder="1" stackType="transform" /> <!-- Transformation lasts 30 minutes -->
 		</for>
 	</skill>
-	<skill id="2681" levels="1" name="Gludio Kamael Captain Mercenary">
+	<skill id="2681" levels="1" name="古魯丁闇天使警衛隊長">
 		<set name="target" val="TARGET_SELF" />
 		<set name="skillType" val="BUFF" />
 		<set name="isMagic" val="true" />
@@ -973,7 +973,7 @@
 			<effect name="Transformation" time="1800" val="0" stackOrder="1" stackType="transform" /> <!-- Transformation lasts 30 minutes -->
 		</for>
 	</skill>
-	<skill id="2682" levels="1" name="Gludio Knight Captain Mercenary">
+	<skill id="2682" levels="1" name="古魯丁黎明的騎士">
 		<set name="target" val="TARGET_SELF" />
 		<set name="skillType" val="BUFF" />
 		<set name="isMagic" val="true" />
@@ -994,7 +994,7 @@
 			<effect name="Transformation" time="1800" val="0" stackOrder="1" stackType="transform" /> <!-- Transformation lasts 30 minutes -->
 		</for>
 	</skill>
-	<skill id="2683" levels="1" name="Gludio Commander Mercenary">
+	<skill id="2683" levels="1" name="古魯丁要塞隊長">
 		<set name="target" val="TARGET_SELF" />
 		<set name="skillType" val="BUFF" />
 		<set name="isMagic" val="true" />
@@ -1015,7 +1015,7 @@
 			<effect name="Transformation" time="1800" val="0" stackOrder="1" stackType="transform" /> <!-- Transformation lasts 30 minutes -->
 		</for>
 	</skill>
-	<skill id="2684" levels="1" name="Dion Human Mercenary">
+	<skill id="2684" levels="1" name="狄恩人類傭兵">
 		<set name="target" val="TARGET_SELF" />
 		<set name="skillType" val="BUFF" />
 		<set name="isMagic" val="true" />
@@ -1036,7 +1036,7 @@
 			<effect name="Transformation" time="1800" val="0" stackOrder="1" stackType="transform" /> <!-- Transformation lasts 30 minutes -->
 		</for>
 	</skill>
-	<skill id="2685" levels="1" name="Dion Elf Mercenary">
+	<skill id="2685" levels="1" name="狄恩精靈傭兵">
 		<set name="target" val="TARGET_SELF" />
 		<set name="skillType" val="BUFF" />
 		<set name="isMagic" val="true" />
@@ -1057,7 +1057,7 @@
 			<effect name="Transformation" time="1800" val="0" stackOrder="1" stackType="transform" /> <!-- Transformation lasts 30 minutes -->
 		</for>
 	</skill>
-	<skill id="2686" levels="1" name="Dion Dark Elf Mercenary">
+	<skill id="2686" levels="1" name="狄恩黑暗精靈傭兵">
 		<set name="target" val="TARGET_SELF" />
 		<set name="skillType" val="BUFF" />
 		<set name="isMagic" val="true" />
@@ -1078,7 +1078,7 @@
 			<effect name="Transformation" time="1800" val="0" stackOrder="1" stackType="transform" /> <!-- Transformation lasts 30 minutes -->
 		</for>
 	</skill>
-	<skill id="2687" levels="1" name="Dion Orc Mercenary">
+	<skill id="2687" levels="1" name="狄恩半獸人傭兵">
 		<set name="target" val="TARGET_SELF" />
 		<set name="skillType" val="BUFF" />
 		<set name="isMagic" val="true" />
@@ -1099,7 +1099,7 @@
 			<effect name="Transformation" time="1800" val="0" stackOrder="1" stackType="transform" /> <!-- Transformation lasts 30 minutes -->
 		</for>
 	</skill>
-	<skill id="2688" levels="1" name="Dion Dwarf Mercenary">
+	<skill id="2688" levels="1" name="狄恩矮人傭兵">
 		<set name="target" val="TARGET_SELF" />
 		<set name="skillType" val="BUFF" />
 		<set name="isMagic" val="true" />
@@ -1120,7 +1120,7 @@
 			<effect name="Transformation" time="1800" val="0" stackOrder="1" stackType="transform" /> <!-- Transformation lasts 30 minutes -->
 		</for>
 	</skill>
-	<skill id="2689" levels="1" name="Dion Kamael Mercenary">
+	<skill id="2689" levels="1" name="狄恩闇天使傭兵">
 		<set name="target" val="TARGET_SELF" />
 		<set name="skillType" val="BUFF" />
 		<set name="isMagic" val="true" />
@@ -1141,7 +1141,7 @@
 			<effect name="Transformation" time="1800" val="0" stackOrder="1" stackType="transform" /> <!-- Transformation lasts 30 minutes -->
 		</for>
 	</skill>
-	<skill id="2690" levels="1" name="Dion Knight Mercenary">
+	<skill id="2690" levels="1" name="狄恩親衛隊長">
 		<set name="target" val="TARGET_SELF" />
 		<set name="skillType" val="BUFF" />
 		<set name="isMagic" val="true" />
@@ -1162,7 +1162,7 @@
 			<effect name="Transformation" time="1800" val="0" stackOrder="1" stackType="transform" /> <!-- Transformation lasts 30 minutes -->
 		</for>
 	</skill>
-	<skill id="2691" levels="1" name="Dion Archer Mercenary">
+	<skill id="2691" levels="1" name="狄恩弓手隊長">
 		<set name="target" val="TARGET_SELF" />
 		<set name="skillType" val="BUFF" />
 		<set name="isMagic" val="true" />
@@ -1183,7 +1183,7 @@
 			<effect name="Transformation" time="1800" val="0" stackOrder="1" stackType="transform" /> <!-- Transformation lasts 30 minutes -->
 		</for>
 	</skill>
-	<skill id="2692" levels="1" name="Dion Wizard Mercenary">
+	<skill id="2692" levels="1" name="狄恩魔法隊長">
 		<set name="target" val="TARGET_SELF" />
 		<set name="skillType" val="BUFF" />
 		<set name="isMagic" val="true" />
@@ -1204,7 +1204,7 @@
 			<effect name="Transformation" time="1800" val="0" stackOrder="1" stackType="transform" /> <!-- Transformation lasts 30 minutes -->
 		</for>
 	</skill>
-	<skill id="2693" levels="1" name="Dion Kamael Captain Mercenary">
+	<skill id="2693" levels="1" name="狄恩闇天使警衛隊長">
 		<set name="target" val="TARGET_SELF" />
 		<set name="skillType" val="BUFF" />
 		<set name="isMagic" val="true" />
@@ -1225,7 +1225,7 @@
 			<effect name="Transformation" time="1800" val="0" stackOrder="1" stackType="transform" /> <!-- Transformation lasts 30 minutes -->
 		</for>
 	</skill>
-	<skill id="2694" levels="1" name="Dion Knight Captain Mercenary">
+	<skill id="2694" levels="1" name="狄恩黎明的騎士">
 		<set name="target" val="TARGET_SELF" />
 		<set name="skillType" val="BUFF" />
 		<set name="isMagic" val="true" />
@@ -1246,7 +1246,7 @@
 			<effect name="Transformation" time="1800" val="0" stackOrder="1" stackType="transform" /> <!-- Transformation lasts 30 minutes -->
 		</for>
 	</skill>
-	<skill id="2695" levels="1" name="Dion Commander Mercenary">
+	<skill id="2695" levels="1" name="狄恩要塞隊長">
 		<set name="target" val="TARGET_SELF" />
 		<set name="skillType" val="BUFF" />
 		<set name="isMagic" val="true" />
@@ -1267,7 +1267,7 @@
 			<effect name="Transformation" time="1800" val="0" stackOrder="1" stackType="transform" /> <!-- Transformation lasts 30 minutes -->
 		</for>
 	</skill>
-	<skill id="2696" levels="1" name="Giran Human Mercenary">
+	<skill id="2696" levels="1" name="奇岩人類傭兵">
 		<set name="target" val="TARGET_SELF" />
 		<set name="skillType" val="BUFF" />
 		<set name="isMagic" val="true" />
@@ -1288,7 +1288,7 @@
 			<effect name="Transformation" time="1800" val="0" stackOrder="1" stackType="transform" /> <!-- Transformation lasts 30 minutes -->
 		</for>
 	</skill>
-	<skill id="2697" levels="1" name="Giran Elf Mercenary">
+	<skill id="2697" levels="1" name="奇岩精靈傭兵">
 		<set name="target" val="TARGET_SELF" />
 		<set name="skillType" val="BUFF" />
 		<set name="isMagic" val="true" />
@@ -1309,7 +1309,7 @@
 			<effect name="Transformation" time="1800" val="0" stackOrder="1" stackType="transform" /> <!-- Transformation lasts 30 minutes -->
 		</for>
 	</skill>
-	<skill id="2698" levels="1" name="Giran Dark Elf Mercenary">
+	<skill id="2698" levels="1" name="奇岩黑暗精靈傭兵">
 		<set name="target" val="TARGET_SELF" />
 		<set name="skillType" val="BUFF" />
 		<set name="isMagic" val="true" />
@@ -1330,7 +1330,7 @@
 			<effect name="Transformation" time="1800" val="0" stackOrder="1" stackType="transform" /> <!-- Transformation lasts 30 minutes -->
 		</for>
 	</skill>
-	<skill id="2699" levels="1" name="Giran Orc Mercenary">
+	<skill id="2699" levels="1" name="奇岩半獸人傭兵">
 		<set name="target" val="TARGET_SELF" />
 		<set name="skillType" val="BUFF" />
 		<set name="isMagic" val="true" />

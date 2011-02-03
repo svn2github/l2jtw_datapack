@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <list>
-	<skill id="21200" levels="1" name="Age of the Three Kingdoms">
+	<skill id="21200" levels="1" name="三國之誓">
 		<!-- For 20 minutes, raises moving speed by 33, Atk. Spd. by 33%, M. Atk. by 65%, Casting Spd. by 30%, physical P. Atk., and physical P. Def. by 15%. Reuse Delay 2 hours. Consumes 1 Proof of Friendship upon skill use. -->
 		<set name="target" val="TARGET_NONE" />
 		<set name="skillType" val="NOTDONE" />
@@ -8,7 +8,7 @@
 		<set name="reuseDelay" val="7200000" />
 		<set name="staticReuse" val="true" />
 	</skill>
-	<skill id="21201" levels="1" name="Haste">
+	<skill id="21201" levels="1" name="速度激發">
 		<!-- Increases Atk. Spd. by 33% for 20 minutes. Reuse delay is 1 hours. -->
 		<set name="target" val="TARGET_NONE" />
 		<set name="skillType" val="NOTDONE" />
@@ -16,7 +16,7 @@
 		<set name="reuseDelay" val="3600000" />
 		<set name="staticReuse" val="true" />
 	</skill>
-	<skill id="21202" levels="1" name="Agathion Seal Cancel - Ball Trapping Gnocian">
+	<skill id="21202" levels="1" name="壺精封印解除-格諾席安控球">
 		<set name="target" val="TARGET_SELF" />
 		<set name="skillType" val="AGATHION" />
 		<set name="hitTime" val="3000" />
@@ -24,7 +24,7 @@
 		<set name="operateType" val="OP_ACTIVE" />
 		<set name="npcId" val="1576" />
 	</skill>
-	<skill id="21203" levels="1" name="Agathion Seal Cancel - Ball Trapping Orodriel">
+	<skill id="21203" levels="1" name="壺精封印解除-奧羅德利爾控球">
 		<set name="target" val="TARGET_SELF" />
 		<set name="skillType" val="AGATHION" />
 		<set name="hitTime" val="3000" />
@@ -32,7 +32,7 @@
 		<set name="operateType" val="OP_ACTIVE" />
 		<set name="npcId" val="1577" />
 	</skill>
-	<skill id="21204" levels="1" name="Agathion Seal Cancel - Penalty Kick">
+	<skill id="21204" levels="1" name="壺精封印解除-十二碼罰球">
 		<set name="target" val="TARGET_SELF" />
 		<set name="skillType" val="AGATHION" />
 		<set name="hitTime" val="3000" />
@@ -40,7 +40,7 @@
 		<set name="operateType" val="OP_ACTIVE" />
 		<set name="npcId" val="1578" />
 	</skill>
-	<skill id="21205" levels="1" name="Agathion Seal Cancel - Ball Trapping Gnocian">
+	<skill id="21205" levels="1" name="壺精封印解除-格諾席安控球">
 		<set name="target" val="TARGET_SELF" />
 		<set name="skillType" val="AGATHION" />
 		<set name="hitTime" val="3000" />
@@ -48,7 +48,7 @@
 		<set name="operateType" val="OP_ACTIVE" />
 		<set name="npcId" val="1579" />
 	</skill>
-	<skill id="21206" levels="1" name="Agathion Seal Cancel - Ball Trapping Orodriel">
+	<skill id="21206" levels="1" name="壺精封印解除-奧羅德利爾控球">
 		<set name="target" val="TARGET_SELF" />
 		<set name="skillType" val="AGATHION" />
 		<set name="hitTime" val="3000" />
@@ -56,7 +56,7 @@
 		<set name="operateType" val="OP_ACTIVE" />
 		<set name="npcId" val="1580" />
 	</skill>
-	<skill id="21207" levels="1" name="Agathion Seal Cancel - Penalty Kick">
+	<skill id="21207" levels="1" name="壺精封印解除-十二碼罰球">
 		<set name="target" val="TARGET_SELF" />
 		<set name="skillType" val="AGATHION" />
 		<set name="hitTime" val="3000" />
@@ -64,7 +64,7 @@
 		<set name="operateType" val="OP_ACTIVE" />
 		<set name="npcId" val="1581" />
 	</skill>
-	<skill id="21208" levels="1" name="Agathion Seal Cancel - Ball Trapping Gnocian">
+	<skill id="21208" levels="1" name="壺精封印解除-格諾席安控球">
 		<set name="target" val="TARGET_SELF" />
 		<set name="skillType" val="AGATHION" />
 		<set name="hitTime" val="3000" />
@@ -72,7 +72,7 @@
 		<set name="operateType" val="OP_ACTIVE" />
 		<set name="npcId" val="1582" />
 	</skill>
-	<skill id="21209" levels="1" name="Agathion Seal Cancel - Ball Trapping Orodriel">
+	<skill id="21209" levels="1" name="壺精封印解除-奧羅德利爾控球">
 		<set name="target" val="TARGET_SELF" />
 		<set name="skillType" val="AGATHION" />
 		<set name="hitTime" val="3000" />
@@ -80,7 +80,7 @@
 		<set name="operateType" val="OP_ACTIVE" />
 		<set name="npcId" val="1583" />
 	</skill>
-	<skill id="21210" levels="1" name="Agathion Seal Cancel - Penalty Kick">
+	<skill id="21210" levels="1" name="壺精封印解除-十二碼罰球">
 		<set name="target" val="TARGET_SELF" />
 		<set name="skillType" val="AGATHION" />
 		<set name="hitTime" val="3000" />
@@ -88,7 +88,7 @@
 		<set name="operateType" val="OP_ACTIVE" />
 		<set name="npcId" val="1584" />
 	</skill>
-	<skill id="21211" levels="1" name="Blessing of Victory">
+	<skill id="21211" levels="1" name="勝利的祝福">
 		<!-- Increases moving speed by 2% through the Blessing of Victory. -->
 		<set name="target" val="TARGET_NONE" />
 		<set name="skillType" val="NOTDONE" />

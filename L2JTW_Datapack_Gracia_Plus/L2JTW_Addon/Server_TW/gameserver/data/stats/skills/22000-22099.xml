@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <list>
-	<skill id="22000" levels="1" name="Spicy Kimchee">
+	<skill id="22000" levels="1" name="辣白菜泡菜">
 		<!-- Update by pmq -->
 		<set name="itemConsumeId" val="20000" />
 		<set name="itemConsumeCount" val="1" />
@@ -10,11 +10,11 @@
 		<set name="hitTime" val="100" />
 		<for>
 			<effect name="Buff" time="1200" val="0" stackOrder="1" stackType="hp_regen_up">
-				<mul order="0x30" stat="regHp" val="1.1"/>
+				<mul order="0x30" stat="regHp" val="1.1" />
 			</effect>
 		</for>
 	</skill>
-	<skill id="22001" levels="1" name="Spicy Kimchee">
+	<skill id="22001" levels="1" name="辣白菜泡菜">
 		<!-- Update by pmq -->
 		<set name="itemConsumeId" val="20001" />
 		<set name="itemConsumeCount" val="1" />
@@ -24,11 +24,11 @@
 		<set name="hitTime" val="100" />
 		<for>
 			<effect name="Buff" time="1200" val="0" stackOrder="2" stackType="hp_regen_up">
-				<mul order="0x30" stat="regHp" val="1.15"/>
+				<mul order="0x30" stat="regHp" val="1.15" />
 			</effect>
 		</for>
 	</skill>
-	<skill id="22002" levels="1" name="Spicy Kimchee">
+	<skill id="22002" levels="1" name="辣白菜泡菜">
 		<!-- Update by pmq -->
 		<set name="itemConsumeId" val="20002" />
 		<set name="itemConsumeCount" val="1" />
@@ -38,18 +38,18 @@
 		<set name="hitTime" val="100" />
 		<for>
 			<effect name="Buff" time="1200" val="0" stackOrder="3" stackType="hp_regen_up">
-				<mul order="0x30" stat="regHp" val="1.2"/>
+				<mul order="0x30" stat="regHp" val="1.2" />
 			</effect>
 		</for>
 	</skill>
-	<skill id="22003" levels="1" name="Sweet-and-Sour White Kimchee">
+	<skill id="22003" levels="1" name="酸甜白泡菜">
 		<set name="target" val="TARGET_NONE" />
 		<set name="skillType" val="NOTDONE" />
 		<set name="operateType" val="OP_PASSIVE" />
 		<set name="reuseDelay" val="2000" />
 		<set name="hitTime" val="100" />
 	</skill>
-	<skill id="22004" levels="1" name="Energy Ginseng">
+	<skill id="22004" levels="1" name="活力人蔘">
 		<set name="itemConsumeCount" val="1" />
 		<set name="hitTime" val="100" />
 		<set name="target" val="TARGET_SELF" />
@@ -64,14 +64,14 @@
 			</effect>
 		</for>
 	</skill>
-	<skill id="22005" levels="1" name="Energy Red Ginseng">
+	<skill id="22005" levels="1" name="活力紅蔘">
 		<!-- Update by pmq -->
 		<set name="target" val="TARGET_SELF" />
 		<set name="skillType" val="DUMMY" />
 		<set name="operateType" val="OP_ACTIVE" />
 		<set name="hitTime" val="100" />
 	</skill>
-	<skill id="22006" levels="1" name="Halloween Candy">
+	<skill id="22006" levels="1" name="萬聖夜糖果">
 		<!-- Needs to be verified -->
 		<set name="itemConsumeCount" val="1" />
 		<set name="target" val="TARGET_SELF" />
@@ -80,27 +80,27 @@
 		<set name="isPotion" val="true" />
 		<set name="power" val="20000" />
 	</skill>
-	<skill id="22007" levels="1" name="Good Luck Lucky Bag">
+	<skill id="22007" levels="1" name="幸運福袋">
 		<set name="target" val="TARGET_NONE" />
 		<set name="skillType" val="NOTDONE" />
 		<set name="operateType" val="OP_PASSIVE" />
 	</skill>
-	<skill id="22008" levels="1" name="Lucky Four-leaf Clover">
+	<skill id="22008" levels="1" name="幸運四葉草">
 		<set name="target" val="TARGET_NONE" />
 		<set name="skillType" val="NOTDONE" />
 		<set name="operateType" val="OP_PASSIVE" />
 	</skill>
-	<skill id="22009" levels="1" name="Holiday Miracle">
+	<skill id="22009" levels="1" name="聖誕的奇蹟">
 		<set name="target" val="TARGET_NONE" />
 		<set name="skillType" val="NOTDONE" />
 		<set name="operateType" val="OP_PASSIVE" />
 	</skill>
-	<skill id="22010" levels="1" name="Mysterious Formal Dress">
+	<skill id="22010" levels="1" name="神祕禮服">
 		<set name="target" val="TARGET_NONE" />
 		<set name="skillType" val="NOTDONE" />
 		<set name="operateType" val="OP_PASSIVE" />
 	</skill>
-	<skill id="22011" levels="1" name="Santa Claus' Gift - Joy">
+	<skill id="22011" levels="1" name="聖誕老人的禮物-喜悅">
 		<set name="itemConsumeCount" val="1" />
 		<set name="target" val="TARGET_SELF" />
 		<set name="skillType" val="EXTRACTABLE" />
@@ -112,7 +112,7 @@
 			</and>
 		</cond>
 	</skill>
-	<skill id="22012" levels="1" name="Santa Claus' Gift - Enjoyment">
+	<skill id="22012" levels="1" name="聖誕老人的禮物-趣味">
 		<set name="itemConsumeCount" val="1" />
 		<set name="target" val="TARGET_SELF" />
 		<set name="skillType" val="EXTRACTABLE" />
@@ -124,7 +124,7 @@
 			</and>
 		</cond>
 	</skill>
-	<skill id="22013" levels="1" name="Holiday Festival">
+	<skill id="22013" levels="1" name="聖誕慶典">
 		<set name="operateType" val="OP_ACTIVE" />
 		<set name="skillType" val="BUFF" />
 		<set name="target" val="TARGET_SELF" />
@@ -149,7 +149,7 @@
 			</effect>
 		</for>
 	</skill>
-	<skill id="22014" levels="1" name="Holiday Festival">
+	<skill id="22014" levels="1" name="聖誕慶典">
 		<set name="operateType" val="OP_ACTIVE" />
 		<set name="skillType" val="BUFF" />
 		<set name="target" val="TARGET_SELF" />
@@ -174,7 +174,7 @@
 			</effect>
 		</for>
 	</skill>
-	<skill id="22015" levels="1" name="Holiday Festival">
+	<skill id="22015" levels="1" name="聖誕慶典">
 		<set name="operateType" val="OP_ACTIVE" />
 		<set name="skillType" val="BUFF" />
 		<set name="target" val="TARGET_ONE" />
@@ -198,7 +198,7 @@
 			</effect>
 		</for>
 	</skill>
-	<skill id="22016" levels="1" name="Holiday Festival">
+	<skill id="22016" levels="1" name="聖誕慶典">
 		<set name="operateType" val="OP_ACTIVE" />
 		<set name="skillType" val="BUFF" />
 		<set name="target" val="TARGET_ONE" />
@@ -223,7 +223,7 @@
 			</effect>
 		</for>
 	</skill>
-	<skill id="22017" levels="1" name="Santa Claus' Gift - Luck">
+	<skill id="22017" levels="1" name="聖誕老人的禮物-幸運">
 		<set name="itemConsumeCount" val="1" />
 		<set name="target" val="TARGET_SELF" />
 		<set name="skillType" val="EXTRACTABLE" />
@@ -235,7 +235,7 @@
 			</and>
 		</cond>
 	</skill>
-	<skill id="22018" levels="1" name="Santa Claus' Gift - Luck">
+	<skill id="22018" levels="1" name="聖誕老人的禮物-幸運">
 		<set name="itemConsumeCount" val="1" />
 		<set name="target" val="TARGET_SELF" />
 		<set name="skillType" val="EXTRACTABLE" />
@@ -247,27 +247,27 @@
 			</and>
 		</cond>
 	</skill>
-	<skill id="22019" levels="1" name="Extra Entrance Pass - Kamaloka (Hall of the Abyss)">
+	<skill id="22019" levels="1" name="追加入場券-欲界(深淵之廳)">
 		<set name="target" val="TARGET_NONE" />
 		<set name="skillType" val="NOTDONE" />
 		<set name="operateType" val="OP_PASSIVE" />
 	</skill>
-	<skill id="22020" levels="1" name="Extra Entrance Pass - Near Kamaloka">
+	<skill id="22020" levels="1" name="追加入場券-近緣欲界">
 		<set name="target" val="TARGET_NONE" />
 		<set name="skillType" val="NOTDONE" />
 		<set name="operateType" val="OP_PASSIVE" />
 	</skill>
-	<skill id="22021" levels="1" name="Extra Entrance Pass - Kamaloka (Labyrinth of the Abyss)">
+	<skill id="22021" levels="1" name="追加入場券-欲界(深淵迷宮)">
 		<set name="target" val="TARGET_NONE" />
 		<set name="skillType" val="NOTDONE" />
 		<set name="operateType" val="OP_PASSIVE" />
 	</skill>
-	<skill id="22022" levels="1" name="Premium Valentine Decoration">
+	<skill id="22022" levels="1" name="情人節裝飾品">
 		<set name="target" val="TARGET_NONE" />
 		<set name="skillType" val="NOTDONE" />
 		<set name="operateType" val="OP_PASSIVE" />
 	</skill>
-	<skill id="22023" levels="1" name="Simple Valentine Cake">
+	<skill id="22023" levels="1" name="平淡的情人節蛋糕">
 		<set name="itemConsumeCount" val="1" />
 		<set name="target" val="TARGET_SELF" />
 		<set name="skillType" val="EXTRACTABLE" />
@@ -279,7 +279,7 @@
 			</and>
 		</cond>
 	</skill>
-	<skill id="22024" levels="1" name="Velvety Valentine Cake">
+	<skill id="22024" levels="1" name="普通的情人節蛋糕">
 		<set name="itemConsumeCount" val="1" />
 		<set name="target" val="TARGET_SELF" />
 		<set name="skillType" val="EXTRACTABLE" />
@@ -291,7 +291,7 @@
 			</and>
 		</cond>
 	</skill>
-	<skill id="22025" levels="1" name="Delectable Valentine Cake">
+	<skill id="22025" levels="1" name="美味的情人節蛋糕">
 		<set name="itemConsumeCount" val="1" />
 		<set name="target" val="TARGET_SELF" />
 		<set name="skillType" val="EXTRACTABLE" />
@@ -303,7 +303,7 @@
 			</and>
 		</cond>
 	</skill>
-	<skill id="22026" levels="1" name="Decadent Valentine Cake">
+	<skill id="22026" levels="1" name="完美的情人節蛋糕">
 		<set name="itemConsumeCount" val="1" />
 		<set name="target" val="TARGET_SELF" />
 		<set name="skillType" val="EXTRACTABLE" />
@@ -315,17 +315,17 @@
 			</and>
 		</cond>
 	</skill>
-	<skill id="22027" levels="1" name="Heavenly Valentine Cake">
+	<skill id="22027" levels="1" name="夢幻的情人節蛋糕">
 		<set name="target" val="TARGET_NONE" />
 		<set name="skillType" val="NOTDONE" />
 		<set name="operateType" val="OP_PASSIVE" />
 	</skill>
-	<skill id="22028" levels="1" name="Chocolate Cookie">
+	<skill id="22028" levels="1" name="巧克力餅乾">
 		<set name="target" val="TARGET_NONE" />
 		<set name="skillType" val="NOTDONE" />
 		<set name="operateType" val="OP_PASSIVE" />
 	</skill>
-	<skill id="22029" levels="1" name="Baguette Herb">
+	<skill id="22029" levels="1" name="法國麵包藥草">
 		<set name="hitTime" val="100" />
 		<set name="target" val="TARGET_SELF" />
 		<set name="skillType" val="BUFF" />
@@ -339,7 +339,7 @@
 			</effect>
 		</for>
 	</skill>
-	<skill id="22030" levels="1" name="Cream Puff Herb">
+	<skill id="22030" levels="1" name="奶油泡芙藥草">
 		<set name="hitTime" val="100" />
 		<set name="target" val="TARGET_SELF" />
 		<set name="skillType" val="BUFF" />
@@ -356,7 +356,7 @@
 			</effect>
 		</for>
 	</skill>
-	<skill id="22031" levels="1" name="Cheesecake Herb">
+	<skill id="22031" levels="1" name="起司蛋糕藥草">
 		<set name="hitTime" val="100" />
 		<set name="target" val="TARGET_SELF" />
 		<set name="skillType" val="BUFF" />
@@ -370,22 +370,22 @@
 			</effect>
 		</for>
 	</skill>
-	<skill id="22032" levels="1" name="Baguette Legacy">
+	<skill id="22032" levels="1" name="法國麵包的遺產">
 		<set name="target" val="TARGET_NONE" />
 		<set name="skillType" val="NOTDONE" />
 		<set name="operateType" val="OP_PASSIVE" />
 	</skill>
-	<skill id="22033" levels="1" name="Baguette Legacy - Kamael">
+	<skill id="22033" levels="1" name="法國麵包的遺產-闇天使">
 		<set name="target" val="TARGET_NONE" />
 		<set name="skillType" val="NOTDONE" />
 		<set name="operateType" val="OP_PASSIVE" />
 	</skill>
-	<skill id="22034" levels="1" name="Birthday Cake">
+	<skill id="22034" levels="1" name="生日蛋糕">
 		<set name="target" val="TARGET_NONE" />
 		<set name="skillType" val="NOTDONE" />
 		<set name="operateType" val="OP_PASSIVE" />
 	</skill>
-	<skill id="22035" levels="1" name="Birthday Cake Effect">
+	<skill id="22035" levels="1" name="生日蛋糕效果">
 		<!-- Update by pmq -->
 		<!-- Vitamin Item -->
 		<!-- Someone should verify the consume -->
@@ -397,26 +397,26 @@
 		<set name="isPotion" val="true" />
 		<for>
 			<effect name="Buff" time="1200" val="0" abnormal="vitality" stackOrder="10" stackType="energy_up">
-				<sub order="0x40" stat="vitalityConsumeRate" val="10"/>
+				<sub order="0x40" stat="vitalityConsumeRate" val="10" />
 			</effect>
 		</for>
 	</skill>
-	<skill id="22036" levels="1" name="Beast Soulshot">
+	<skill id="22036" levels="1" name="野獸靈魂彈">
 		<set name="target" val="TARGET_SELF" />
 		<set name="skillType" val="SOULSHOT" />
 		<set name="operateType" val="OP_ACTIVE" />
 	</skill>
-	<skill id="22037" levels="1" name="Beast Spiritshot">
+	<skill id="22037" levels="1" name="野獸魔靈彈">
 		<set name="target" val="TARGET_SELF" />
 		<set name="skillType" val="SPIRITSHOT" />
 		<set name="operateType" val="OP_ACTIVE" />
 	</skill>
-	<skill id="22038" levels="1" name="Blessed Beast Spiritshot">
+	<skill id="22038" levels="1" name="祝福的野獸魔靈彈">
 		<set name="target" val="TARGET_SELF" />
 		<set name="skillType" val="SPIRITSHOT" />
 		<set name="operateType" val="OP_ACTIVE" />
 	</skill>
-	<skill id="22039" levels="2" name="Rune of Experience Points">
+	<skill id="22039" levels="2" name="經驗值古文 30%">
 		<!-- Update by pmq -->
 		<table name="#rExp"> 1.3 1.5 </table>
 		<set name="target" val="TARGET_SELF" />
@@ -426,17 +426,17 @@
 			<mul order="0x30" stat="rExp" val="#rExp" />
 		</for>
 	</skill>
-	<skill id="22040" levels="2" name="Rune of SP">
+	<skill id="22040" levels="2" name="SP古文 30%">
 		<set name="target" val="TARGET_NONE" />
 		<set name="skillType" val="NOTDONE" />
 		<set name="operateType" val="OP_PASSIVE" />
 	</skill>
-	<skill id="22041" levels="2" name="Rune of Crystal Form Level">
+	<skill id="22041" levels="2" name="結晶型古文 3級">
 		<set name="target" val="TARGET_NONE" />
 		<set name="skillType" val="NOTDONE" />
 		<set name="operateType" val="OP_PASSIVE" />
 	</skill>
-	<skill id="22042" levels="1" name="High Grade Potion of Will">
+	<skill id="22042" levels="1" name="強力鬥志藥水">
 		<set name="itemConsumeCount" val="1" />
 		<set name="power" val="200" />
 		<set name="target" val="TARGET_SELF" />
@@ -448,7 +448,7 @@
 			<player flyMounted="False" />
 		</cond>
 	</skill>
-	<skill id="22043" levels="6" name="Secret medicine of Will">
+	<skill id="22043" levels="6" name="鬥志靈藥-D級">
 		<table name="#power"> 200 800 1500 2000 2500 3000 </table>
 		<table name="#minLvl"> 0 20 40 52 61 76 </table>
 		<table name="#maxLvl"> 20 40 52 61 76 86 </table>
@@ -470,7 +470,7 @@
 			</and>
 		</cond>
 	</skill>
-	<skill id="22044" levels="6" name="Secret medicine of Life">
+	<skill id="22044" levels="6" name="生命靈藥-D級">
 		<table name="#minLvl"> 0 20 40 52 61 76 </table>
 		<table name="#maxLvl"> 20 40 52 61 76 86 </table>
 		<set name="itemConsumeCount" val="1" />
@@ -491,7 +491,7 @@
 			</and>
 		</cond>
 	</skill>
-	<skill id="22045" levels="1" name="Omen Beast Transformation Scroll">
+	<skill id="22045" levels="1" name="瑪瑙獸變身卷軸">
 		<set name="itemConsumeCount" val="1" />
 		<set name="target" val="TARGET_SELF" />
 		<set name="skillType" val="BUFF" />
@@ -505,7 +505,7 @@
 			<effect name="Transformation" time="1800" val="0" stackOrder="1" stackType="transform" /> <!-- Transformation lasts 30 minutes -->
 		</for>
 	</skill>
-	<skill id="22046" levels="1" name="Death Blader Transformation Scroll">
+	<skill id="22046" levels="1" name="死亡之刃變身卷軸">
 		<set name="itemConsumeCount" val="1" />
 		<set name="target" val="TARGET_SELF" />
 		<set name="skillType" val="BUFF" />
@@ -519,7 +519,7 @@
 			<effect name="Transformation" time="1800" val="0" stackOrder="1" stackType="transform" /> <!-- Transformation lasts 30 minutes -->
 		</for>
 	</skill>
-	<skill id="22047" levels="1" name="Grail Apostle Transformation Scroll">
+	<skill id="22047" levels="1" name="門徒聖杯變身卷軸">
 		<set name="itemConsumeCount" val="1" />
 		<set name="target" val="TARGET_SELF" />
 		<set name="skillType" val="BUFF" />
@@ -533,7 +533,7 @@
 			<effect name="Transformation" time="1800" val="0" stackOrder="1" stackType="transform" /> <!-- Transformation lasts 30 minutes -->
 		</for>
 	</skill>
-	<skill id="22048" levels="1" name="Unicorn Transformation Scroll">
+	<skill id="22048" levels="1" name="獨角獸變身卷軸">
 		<set name="itemConsumeCount" val="1" />
 		<set name="target" val="TARGET_SELF" />
 		<set name="skillType" val="BUFF" />
@@ -547,7 +547,7 @@
 			<effect name="Transformation" time="1800" val="0" stackOrder="1" stackType="transform" /> <!-- Transformation lasts 30 minutes -->
 		</for>
 	</skill>
-	<skill id="22049" levels="1" name="Lilim Knight Transformation Scroll">
+	<skill id="22049" levels="1" name="莉莉恩騎士變身卷軸">
 		<set name="itemConsumeCount" val="1" />
 		<set name="target" val="TARGET_SELF" />
 		<set name="skillType" val="BUFF" />
@@ -561,7 +561,7 @@
 			<effect name="Transformation" time="1800" val="0" stackOrder="1" stackType="transform" /> <!-- Transformation lasts 30 minutes -->
 		</for>
 	</skill>
-	<skill id="22050" levels="1" name="Golem Guardian Transformation Scroll">
+	<skill id="22050" levels="1" name="高崙守護者變身卷軸">
 		<set name="itemConsumeCount" val="1" />
 		<set name="target" val="TARGET_SELF" />
 		<set name="skillType" val="BUFF" />
@@ -575,7 +575,7 @@
 			<effect name="Transformation" time="1800" val="0" stackOrder="1" stackType="transform" /> <!-- Transformation lasts 30 minutes -->
 		</for>
 	</skill>
-	<skill id="22051" levels="1" name="Inferno Drake Transformation Scroll">
+	<skill id="22051" levels="1" name="煉獄龍獸變身卷軸">
 		<set name="itemConsumeCount" val="1" />
 		<set name="target" val="TARGET_SELF" />
 		<set name="skillType" val="BUFF" />
@@ -589,7 +589,7 @@
 			<effect name="Transformation" time="1800" val="0" stackOrder="1" stackType="transform" /> <!-- Transformation lasts 30 minutes -->
 		</for>
 	</skill>
-	<skill id="22052" levels="1" name="Dragon Bomber Transformation Scroll">
+	<skill id="22052" levels="1" name="暴烈龍變身卷軸">
 		<set name="itemConsumeCount" val="1" />
 		<set name="target" val="TARGET_SELF" />
 		<set name="skillType" val="BUFF" />
@@ -603,7 +603,7 @@
 			<effect name="Transformation" time="1800" val="0" stackOrder="1" stackType="transform" /> <!-- Transformation lasts 30 minutes -->
 		</for>
 	</skill>
-	<skill id="22053" levels="19" name="Escape">
+	<skill id="22053" levels="19" name="返回卷軸-說話之島">
 		<table name="#teleCoords"> -84318,244579,-3730 46934,51467,-2977 9745,15606,-4574 -44836,-112524,-235 115113,-178212,-901 -80826,149775,-3043 -12678,122776,-3116 15670,142983,-2705 17836,170178,-3507 83400,147943,-3404 105918,109759,-3207 111409,219364,-3545 82956,53162,-1495 85348,16142,-3699 116819,76994,-2714 146331,25762,-2018 147928,-55273,-2734 43799,-47727,-798 87331,-142842,-1317 </table>
 		<set name="itemConsumeCount" val="1" />
 		<set name="target" val="TARGET_SELF" />
@@ -612,7 +612,7 @@
 		<set name="teleCoords" val="#teleCoords" />
 		<set name="operateType" val="OP_ACTIVE" />
 	</skill>
-	<skill id="22054" levels="1" name="Potion of Energy Maintenance">
+	<skill id="22054" levels="1" name="活力維持藥水">
 		<set name="itemConsumeCount" val="1" />
 		<set name="target" val="TARGET_SELF" />
 		<set name="skillType" val="BUFF" />
@@ -629,7 +629,7 @@
 			</effect>
 		</for>
 	</skill>
-	<skill id="22055" levels="1" name="Potion of Energy Replenishing">
+	<skill id="22055" levels="1" name="活力充能藥水">
 		<set name="itemConsumeCount" val="1" />
 		<set name="target" val="TARGET_SELF" />
 		<set name="skillType" val="GIVE_VITALITY" />
@@ -641,7 +641,7 @@
 			<player flyMounted="False" />
 		</cond>
 	</skill>
-	<skill id="22056" levels="1" name="Wind Walk">
+	<skill id="22056" levels="1" name="風之疾走">
 		<set name="itemConsumeCount" val="1" />
 		<set name="target" val="TARGET_SELF" />
 		<set name="skillType" val="BUFF" />
@@ -657,7 +657,7 @@
 			</effect>
 		</for>
 	</skill>
-	<skill id="22057" levels="1" name="Haste">
+	<skill id="22057" levels="1" name="速度激發">
 		<set name="target" val="TARGET_SELF" />
 		<set name="skillType" val="BUFF" />
 		<set name="operateType" val="OP_ACTIVE" />
@@ -672,7 +672,7 @@
 			</effect>
 		</for>
 	</skill>
-	<skill id="22058" levels="1" name="Might">
+	<skill id="22058" levels="1" name="力量強化">
 		<set name="target" val="TARGET_SELF" />
 		<set name="skillType" val="BUFF" />
 		<set name="operateType" val="OP_ACTIVE" />
@@ -687,7 +687,7 @@
 			</effect>
 		</for>
 	</skill>
-	<skill id="22059" levels="1" name="Shield">
+	<skill id="22059" levels="1" name="保護盾">
 		<set name="target" val="TARGET_SELF" />
 		<set name="skillType" val="BUFF" />
 		<set name="operateType" val="OP_ACTIVE" />
@@ -702,7 +702,7 @@
 			</effect>
 		</for>
 	</skill>
-	<skill id="22060" levels="1" name="Death Whisper">
+	<skill id="22060" levels="1" name="死之呢喃">
 		<set name="target" val="TARGET_SELF" />
 		<set name="skillType" val="BUFF" />
 		<set name="operateType" val="OP_ACTIVE" />
@@ -717,7 +717,7 @@
 			</effect>
 		</for>
 	</skill>
-	<skill id="22061" levels="1" name="Guidance">
+	<skill id="22061" levels="1" name="導引">
 		<set name="target" val="TARGET_SELF" />
 		<set name="skillType" val="BUFF" />
 		<set name="operateType" val="OP_ACTIVE" />
@@ -732,7 +732,7 @@
 			</effect>
 		</for>
 	</skill>
-	<skill id="22062" levels="1" name="Empower">
+	<skill id="22062" levels="1" name="魔力催化">
 		<set name="itemConsumeCount" val="1" />
 		<set name="target" val="TARGET_SELF" />
 		<set name="skillType" val="BUFF" />
@@ -748,7 +748,7 @@
 			</effect>
 		</for>
 	</skill>
-	<skill id="22063" levels="1" name="Greater Acumen">
+	<skill id="22063" levels="1" name="靈活思緒">
 		<set name="target" val="TARGET_SELF" />
 		<set name="skillType" val="BUFF" />
 		<set name="operateType" val="OP_ACTIVE" />
@@ -763,7 +763,7 @@
 			</effect>
 		</for>
 	</skill>
-	<skill id="22064" levels="1" name="Vampiric Rage">
+	<skill id="22064" levels="1" name="吸血怒擊">
 		<set name="target" val="TARGET_SELF" />
 		<set name="skillType" val="BUFF" />
 		<set name="operateType" val="OP_ACTIVE" />
@@ -778,7 +778,7 @@
 			</effect>
 		</for>
 	</skill>
-	<skill id="22065" levels="1" name="Bless the Body">
+	<skill id="22065" levels="1" name="神佑之體">
 		<set name="target" val="TARGET_SELF" />
 		<set name="skillType" val="BUFF" />
 		<set name="operateType" val="OP_ACTIVE" />
@@ -793,7 +793,7 @@
 			</effect>
 		</for>
 	</skill>
-	<skill id="22066" levels="1" name="Berserker Spirit">
+	<skill id="22066" levels="1" name="狂戰士魂">
 		<set name="target" val="TARGET_SELF" />
 		<set name="skillType" val="BUFF" />
 		<set name="operateType" val="OP_ACTIVE" />
@@ -815,7 +815,7 @@
 			</effect>
 		</for>
 	</skill>
-	<skill id="22067" levels="1" name="Magic Barrier">
+	<skill id="22067" levels="1" name="魔法屏障">
 		<set name="target" val="TARGET_SELF" />
 		<set name="skillType" val="BUFF" />
 		<set name="operateType" val="OP_ACTIVE" />
@@ -830,7 +830,7 @@
 			</effect>
 		</for>
 	</skill>
-	<skill id="22068" levels="1" name="Bless the Soul">
+	<skill id="22068" levels="1" name="神佑之魂">
 		<set name="target" val="TARGET_SELF" />
 		<set name="skillType" val="BUFF" />
 		<set name="operateType" val="OP_ACTIVE" />
@@ -845,7 +845,7 @@
 			</effect>
 		</for>
 	</skill>
-	<skill id="22069" levels="1" name="Clarity">
+	<skill id="22069" levels="1" name="澄澈思緒">
 		<set name="target" val="TARGET_SELF" />
 		<set name="skillType" val="BUFF" />
 		<set name="operateType" val="OP_ACTIVE" />
@@ -859,7 +859,7 @@
 			</effect>
 		</for>
 	</skill>
-	<skill id="22070" levels="1" name="Wild Magic">
+	<skill id="22070" levels="1" name="野性魔力">
 		<set name="target" val="TARGET_SELF" />
 		<set name="skillType" val="BUFF" />
 		<set name="operateType" val="OP_ACTIVE" />
@@ -871,47 +871,47 @@
 			</effect>
 		</for>
 	</skill>
-	<skill id="22071" levels="1" name="Huge Fortuna Box">
+	<skill id="22071" levels="1" name="巨型幸運箱">
 		<set name="target" val="TARGET_NONE" />
 		<set name="skillType" val="NOTDONE" />
 		<set name="operateType" val="OP_PASSIVE" />
 	</skill>
-	<skill id="22072" levels="1" name="Huge Fortuna Cube">
+	<skill id="22072" levels="1" name="巨型幸運晶體">
 		<set name="target" val="TARGET_NONE" />
 		<set name="skillType" val="NOTDONE" />
 		<set name="operateType" val="OP_PASSIVE" />
 	</skill>
-	<skill id="22073" levels="1" name="Weapon Enchant Scroll - S Grade">
+	<skill id="22073" levels="1" name="武器強化卷軸-S級">
 		<set name="target" val="TARGET_NONE" />
 		<set name="skillType" val="NOTDONE" />
 		<set name="operateType" val="OP_PASSIVE" />
 	</skill>
-	<skill id="22074" levels="1" name="Armor Enchant Scroll - S Grade">
+	<skill id="22074" levels="1" name="防具強化卷軸-S級">
 		<set name="target" val="TARGET_NONE" />
 		<set name="skillType" val="NOTDONE" />
 		<set name="operateType" val="OP_PASSIVE" />
 	</skill>
-	<skill id="22075" levels="1" name="Ancient Weapon Enchant Crystal - S grade">
+	<skill id="22075" levels="1" name="古代武器強化結晶-S級">
 		<set name="target" val="TARGET_NONE" />
 		<set name="skillType" val="NOTDONE" />
 		<set name="operateType" val="OP_PASSIVE" />
 	</skill>
-	<skill id="22076" levels="1" name="Ancient Armor Enchant Crystal - S grade">
+	<skill id="22076" levels="1" name="古代防具強化結晶-S級">
 		<set name="target" val="TARGET_NONE" />
 		<set name="skillType" val="NOTDONE" />
 		<set name="operateType" val="OP_PASSIVE" />
 	</skill>
-	<skill id="22077" levels="1" name="Divine Weapon Enchant Crystal - S grade">
+	<skill id="22077" levels="1" name="神聖武器強化結晶-S級">
 		<set name="target" val="TARGET_NONE" />
 		<set name="skillType" val="NOTDONE" />
 		<set name="operateType" val="OP_PASSIVE" />
 	</skill>
-	<skill id="22078" levels="1" name="Divine Armor Enchant Crystal - S grade">
+	<skill id="22078" levels="1" name="神聖防具強化結晶-S級">
 		<set name="target" val="TARGET_NONE" />
 		<set name="skillType" val="NOTDONE" />
 		<set name="operateType" val="OP_PASSIVE" />
 	</skill>
-	<skill id="22079" levels="1" name="Resist Aqua">
+	<skill id="22079" levels="1" name="水之防護">
 		<!-- Increases resistance to water type attacks by 20% for 1 hour -->
 		<!-- Update by pmq -->
 		<table name="#mpInitialConsume"> 8 </table>
@@ -931,11 +931,11 @@
 		<set name="aggroPoints" val="#aggroPoints" />
 		<for>
 			<effect name="Buff" time="3600" val="0" stackOrder="1" stackType="AquaAtr">
-				<add order="0x40" stat="waterRes" val="#vuln"/>
+				<add order="0x40" stat="waterRes" val="#vuln" />
 			</effect>
 		</for>
 	</skill>
-	<skill id="22080" levels="1" name="Resist Wind">
+	<skill id="22080" levels="1" name="風之防護">
 		<!-- Increases resistance to wind type attacks by 20% for 1 hour -->
 		<!-- Update by pmq -->
 		<table name="#mpInitialConsume"> 8 </table>
@@ -955,11 +955,11 @@
 		<set name="aggroPoints" val="#aggroPoints" />
 		<for>
 			<effect name="Buff" time="3600" val="0" stackOrder="1" stackType="WindAtr">
-				<add order="0x40" stat="waterRes" val="#vuln"/>
+				<add order="0x40" stat="waterRes" val="#vuln" />
 			</effect>
 		</for>
 	</skill>
-	<skill id="22081" levels="1" name="Resist Fire">
+	<skill id="22081" levels="1" name="火之防護">
 		<!-- Increases resistance to fire type attacks by 20% for 1 hour -->
 		<!-- Update by pmq -->
 		<table name="#mpInitialConsume"> 8 </table>
@@ -979,11 +979,11 @@
 		<set name="aggroPoints" val="#aggroPoints" />
 		<for>
 			<effect name="Buff" time="3600" val="0" stackOrder="1" stackType="FireAtr">
-				<add order="0x40" stat="waterRes" val="#vuln"/>
+				<add order="0x40" stat="waterRes" val="#vuln" />
 			</effect>
 		</for>
 	</skill>
-	<skill id="22082" levels="1" name="Resist Holy">
+	<skill id="22082" levels="1" name="聖之防護">
 		<!-- Increases resistance to divinity type attacks by 23% for 1 hour -->
 		<!-- Update by pmq -->
 		<table name="#mpInitialConsume"> 8 </table>
@@ -1003,11 +1003,11 @@
 		<set name="aggroPoints" val="#aggroPoints" />
 		<for>
 			<effect name="Buff" time="3600" val="0" stackOrder="1" stackType="HolyAtr">
-				<add order="0x40" stat="waterRes" val="#vuln"/>
+				<add order="0x40" stat="waterRes" val="#vuln" />
 			</effect>
 		</for>
 	</skill>
-	<skill id="22083" levels="1" name="Resist Unholy">
+	<skill id="22083" levels="1" name="暗之防護">
 		<!-- Increases resistance to darkness type attacks by 23% for 1 hour -->
 		<!-- Update by pmq -->
 		<table name="#mpInitialConsume"> 8 </table>
@@ -1027,11 +1027,11 @@
 		<set name="aggroPoints" val="#aggroPoints" />
 		<for>
 			<effect name="Buff" time="3600" val="0" stackOrder="1" stackType="DarkAtr">
-				<add order="0x40" stat="waterRes" val="#vuln"/>
+				<add order="0x40" stat="waterRes" val="#vuln" />
 			</effect>
 		</for>
 	</skill>
-	<skill id="22084" levels="1" name="Mental Shield">
+	<skill id="22084" levels="1" name="心靈防護">
 		<!-- Increases resistance to hold/sleep/abnormal mental attacks by 40 for 1 hour -->
 		<!-- Update by pmq -->
 		<table name="#mpInitialConsume"> 8 </table>
@@ -1052,14 +1052,14 @@
 		<set name="aggroPoints" val="#aggroPoints" />
 		<for>
 			<effect name="Buff" time="3600" val="0" stackOrder="#stack" stackType="MentalShield">
-				<mul order="0x30" stat="rootVuln" val="#vuln"/>
-				<mul order="0x30" stat="sleepVuln" val="#vuln"/>
-				<mul order="0x30" stat="confusionVuln" val="#vuln"/>
-				<mul order="0x30" stat="derangementVuln" val="#vuln"/>
+				<mul order="0x30" stat="rootVuln" val="#vuln" />
+				<mul order="0x30" stat="sleepVuln" val="#vuln" />
+				<mul order="0x30" stat="confusionVuln" val="#vuln" />
+				<mul order="0x30" stat="derangementVuln" val="#vuln" />
 			</effect>
 		</for>
 	</skill>
-	<skill id="22085" levels="1" name="Focus">
+	<skill id="22085" levels="1" name="弱點偵測">
 		<!-- Increases Critical attack rate by 30 for 1 hour -->
 		<!-- Update by pmq -->
 		<table name="#mpInitialConsume"> 9 </table>
@@ -1079,11 +1079,11 @@
 		<set name="aggroPoints" val="#aggroPoints" />
 		<for>
 			<effect name="Buff" time="3600" val="0" stackOrder="#rCrit" stackType="critical_prob_up">
-				<basemul order="0x30" stat="rCrit" val="#rCrit"/>
+				<basemul order="0x30" stat="rCrit" val="#rCrit" />
 			</effect>
 		</for>
 	</skill>
-	<skill id="22086" levels="1" name="Concentration">
+	<skill id="22086" levels="1" name="精神專注">
 		<!-- Decreases magic cancel damage by 36 for 1 hour -->
 		<!-- Update by pmq -->
 		<table name="#mpInitialConsume"> 7 </table>
@@ -1103,11 +1103,11 @@
 		<set name="aggroPoints" val="#aggroPoints" />
 		<for>
 			<effect name="Buff" time="3600" val="0" stackOrder="#cancel" stackType="Concentration">
-				<sub order="0x40" stat="cancel" val="#cancel"/>
+				<sub order="0x40" stat="cancel" val="#cancel" />
 			</effect>
 		</for>
 	</skill>
-	<skill id="22087" levels="1" name="Blessing Shield">
+	<skill id="22087" levels="1" name="祝福之盾">
 		<!-- Increases Shield defense rate by 15 for 1 hour -->
 		<!-- Update by pmq -->
 		<table name="#mpInitialConsume"> 10 </table>
@@ -1127,11 +1127,11 @@
 		<set name="aggroPoints" val="#aggroPoints" />
 		<for>
 			<effect name="Buff" time="3600" val="0" stackOrder="#rShld" stackType="shieldProbUp">
-				<mul order="0x30" stat="rShld" val="#rShld"/>
+				<mul order="0x30" stat="rShld" val="#rShld" />
 			</effect>
 		</for>
 	</skill>
-	<skill id="22088" levels="1" name="Agility">
+	<skill id="22088" levels="1" name="敏捷術">
 		<!-- Increases evasion rate by 4 for 1 hour -->
 		<!-- Update by pmq -->
 		<table name="#mpInitialConsume"> 4 </table>
@@ -1151,11 +1151,11 @@
 		<set name="aggroPoints" val="#aggroPoints" />
 		<for>
 			<effect name="Buff" time="3600" val="0" stackOrder="#rEvas" stackType="rEvas">
-				<add order="0x40" stat="rEvas" val="#rEvas"/>
+				<add order="0x40" stat="rEvas" val="#rEvas" />
 			</effect>
 		</for>
 	</skill>
-	<skill id="22089" levels="1" name="Regeneration">
+	<skill id="22089" levels="1" name="強癒術">
 		<!-- Increases HP Regeneration by 20% for 1 hour -->
 		<!-- Update by pmq -->
 		<table name="#mpInitialConsume"> 10 </table>
@@ -1175,11 +1175,11 @@
 		<set name="aggroPoints" val="#aggroPoints" />
 		<for>
 			<effect name="Buff" time="3600" val="0" stackOrder="#rate" stackType="hp_regen_up">
-				<mul order="0x30" stat="regHp" val="#rate"/>
+				<mul order="0x30" stat="regHp" val="#rate" />
 			</effect>
 		</for>
 	</skill>
-	<skill id="22090" levels="1" name="Advanced Block">
+	<skill id="22090" levels="1" name="伊娃之盾">
 		<!-- Increases Shield P. Def. by 40% for 1 hour -->
 		<!-- Update by pmq -->
 		<table name="#mpInitialConsume"> 13 </table>
@@ -1199,35 +1199,35 @@
 		<set name="aggroPoints" val="#aggroPoints" />
 		<for>
 			<effect name="Buff" time="3600" val="0" stackOrder="#sDef" stackType="sdef_up">
-				<mul order="0x30" stat="sDef" val="#sDef"/>
+				<mul order="0x30" stat="sDef" val="#sDef" />
 			</effect>
 		</for>
 	</skill>
-	<skill id="22091" levels="1" name="Eva's Rune">
+	<skill id="22091" levels="1" name="伊娃古文">
 		<!-- With the power of Eva, increases max HP by 10%, and decreases skill reuse time by 20%. Reflects partial damage received back to the emeny. Excludes damage caused by skills and long-range attack. -->
 		<set name="target" val="TARGET_NONE" />
 		<set name="skillType" val="NOTDONE" />
 		<set name="operateType" val="OP_PASSIVE" />
 	</skill>
-	<skill id="22092" levels="1" name="Scroll Master 1">
+	<skill id="22092" levels="1" name="卷軸達人1">
 		<!-- Thank you gift for helping the girl. For 2 minutes, increases Max HP by 60%, Max MP by 60%, Max CP by 60%, physical P. Def. by 30%, M. Def. by 30%, moving speed by 30, and physical P. Atk. by 20%. Decreases MP consumption during skill use by 10%. -->
 		<set name="target" val="TARGET_NONE" />
 		<set name="skillType" val="NOTDONE" />
 		<set name="operateType" val="OP_PASSIVE" />
 	</skill>
-	<skill id="22093" levels="1" name="Scroll Master 2">
+	<skill id="22093" levels="1" name="卷軸達人2">
 		<!-- Thank you gift for helping the boy. For 2 minutes, increases Max HP by 40%, Max MP by 40%, Max CP by 40%, physical P. Def. by 30%, M. Def. by 30%, moving speed by 20, and M. Atk. by 45%. Decreases MP consumption during skill use by 10%. -->
 		<set name="target" val="TARGET_NONE" />
 		<set name="skillType" val="NOTDONE" />
 		<set name="operateType" val="OP_PASSIVE" />
 	</skill>
-	<skill id="22094" levels="1" name="Exp. Master">
+	<skill id="22094" levels="1" name="經驗值達人">
 		<!-- When using a monster's corpse, comforts the monster's soul to borrow the monster's power temporarily. For 2 minutes, increases Max HP by 60%, Max MP by 60%, Max CP by 60%, physical P. Def. by 30%, M. Def. by 30%, moving speed by 30, and physical P. Atk. by 20%. Decreases MP consumption during skill use by 10%. -->
 		<set name="target" val="TARGET_NONE" />
 		<set name="skillType" val="NOTDONE" />
 		<set name="operateType" val="OP_PASSIVE" />
 	</skill>
-	<skill id="22095" levels="1" name="Summon Spirit of Fire">
+	<skill id="22095" levels="1" name="召喚火焰精靈">
 		<set name="itemConsumeCount" val="1" />
 		<set name="target" val="TARGET_SELF" />
 		<set name="skillType" val="SPAWN" />
@@ -1238,7 +1238,7 @@
 		<set name="despawnDelay" val="60000" />
 		<set name="isSummonSpawn" val="true" />
 	</skill>
-	<skill id="22096" levels="1" name="Summon Reckless Spirit of Fire">
+	<skill id="22096" levels="1" name="召喚狂暴的火焰精靈">
 		<set name="itemConsumeCount" val="1" />
 		<set name="target" val="TARGET_SELF" />
 		<set name="skillType" val="SPAWN" />
@@ -1249,21 +1249,21 @@
 		<set name="despawnDelay" val="60000" />
 		<set name="isSummonSpawn" val="true" />
 	</skill>
-	<skill id="22097" levels="1" name="Girl's Gift of Gratitude">
+	<skill id="22097" levels="1" name="少女的感謝禮物">
 		<!-- Thank you gift for helping the girl. For 2 minutes, increases Max HP by 60%, Max MP by 60%, Max CP by 60%, physical P. Def. by 30%, M. Def. by 30%, moving speed by 30, and physical P. Atk. by 20%. Decreases MP consumption during skill use by 10%. -->
 		<set name="target" val="TARGET_NONE" />
 		<set name="skillType" val="NOTDONE" />
 		<set name="operateType" val="OP_PASSIVE" />
 		<set name="hitTime" val="100" />
 	</skill>
-	<skill id="22098" levels="1" name="Boy's Gift of Gratitude">
+	<skill id="22098" levels="1" name="少年的感謝禮物">
 		<!-- Thank you gift for helping the boy. For 2 minutes, increases Max HP by 40%, Max MP by 40%, Max CP by 40%, physical P. Def. by 30%, M. Def. by 30%, moving speed by 20, and M. Atk. by 45%. Decreases MP consumption during skill use by 10%. -->
 		<set name="target" val="TARGET_NONE" />
 		<set name="skillType" val="NOTDONE" />
 		<set name="operateType" val="OP_PASSIVE" />
 		<set name="hitTime" val="100" />
 	</skill>
-	<skill id="22099" levels="1" name="Soul Silver Foil">
+	<skill id="22099" levels="1" name="靈魂銀紙">
 		<!-- When using a monster's corpse, comforts the monster's soul to borrow the monster's power temporarily. For 2 minutes, increases Max HP by 60%, Max MP by 60%, Max CP by 60%, physical P. Def. by 30%, M. Def. by 30%, moving speed by 30, and physical P. Atk. by 20%. Decreases MP consumption during skill use by 10%. -->
 		<!-- Update by pmq -->
 		<set name="itemConsumeId" val="20602" />

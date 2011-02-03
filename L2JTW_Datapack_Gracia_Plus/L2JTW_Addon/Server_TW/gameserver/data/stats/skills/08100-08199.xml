@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <list>
-	<skill id="8100" levels="1" name="Augment Option - Water Attack">
+	<skill id="8100" levels="1" name="精煉選項-水屬性攻擊">
 		<!-- CT2.5 retail confirmed -->
 		<set name="magicLvl" val="1" />
 		<set name="target" val="TARGET_SELF" />
@@ -10,7 +10,7 @@
 			<add order="0x40" stat="waterPower" val="6.42" />
 		</for>
 	</skill>
-	<skill id="8101" levels="1" name="Augment Option - Wind Attack">
+	<skill id="8101" levels="1" name="精煉選項-風屬性攻擊">
 		<!-- CT2.5 retail confirmed -->
 		<set name="magicLvl" val="1" />
 		<set name="target" val="TARGET_SELF" />
@@ -20,7 +20,7 @@
 			<add order="0x40" stat="windPower" val="6.42" />
 		</for>
 	</skill>
-	<skill id="8102" levels="1" name="Augment Option - Earth Attack">
+	<skill id="8102" levels="1" name="精煉選項-地屬性攻擊">
 		<!-- CT2.5 retail confirmed -->
 		<set name="magicLvl" val="1" />
 		<set name="target" val="TARGET_SELF" />
@@ -30,7 +30,7 @@
 			<add order="0x40" stat="earthPower" val="6.42" />
 		</for>
 	</skill>
-	<skill id="8103" levels="1" name="Augment Option - Divine Resistance">
+	<skill id="8103" levels="1" name="精煉選項-神聖屬性抵抗">
 		<!-- CT2.5 retail confirmed -->
 		<set name="magicLvl" val="1" />
 		<set name="target" val="TARGET_SELF" />
@@ -40,7 +40,7 @@
 			<add order="0x40" stat="holyRes" val="6.42" />
 		</for>
 	</skill>
-	<skill id="8104" levels="1" name="Augment Option - Dark Resistance">
+	<skill id="8104" levels="1" name="精煉選項-黑暗屬性抵抗">
 		<!-- CT2.5 retail confirmed -->
 		<set name="magicLvl" val="1" />
 		<set name="target" val="TARGET_SELF" />
@@ -50,7 +50,7 @@
 			<add order="0x40" stat="darkRes" val="6.42" />
 		</for>
 	</skill>
-	<skill id="8105" levels="1" name="Augment Option - Fire Resistance">
+	<skill id="8105" levels="1" name="精煉選項-火屬性抵抗">
 		<!-- CT2.5 retail confirmed -->
 		<set name="magicLvl" val="1" />
 		<set name="target" val="TARGET_SELF" />
@@ -60,7 +60,7 @@
 			<add order="0x40" stat="fireRes" val="6.42" />
 		</for>
 	</skill>
-	<skill id="8106" levels="1" name="Augment Option - Water Resistance">
+	<skill id="8106" levels="1" name="精煉選項-水屬性抵抗">
 		<!-- CT2.5 retail confirmed -->
 		<set name="magicLvl" val="1" />
 		<set name="target" val="TARGET_SELF" />
@@ -70,7 +70,7 @@
 			<add order="0x40" stat="waterRes" val="6.42" />
 		</for>
 	</skill>
-	<skill id="8107" levels="1" name="Augment Option - Wind Resistance">
+	<skill id="8107" levels="1" name="精煉選項-風屬性抵抗">
 		<!-- CT2.5 retail confirmed -->
 		<set name="magicLvl" val="1" />
 		<set name="target" val="TARGET_SELF" />
@@ -80,7 +80,7 @@
 			<add order="0x40" stat="windRes" val="6.42" />
 		</for>
 	</skill>
-	<skill id="8108" levels="1" name="Augment Option - Earth Resistance">
+	<skill id="8108" levels="1" name="精煉選項-地屬性抵抗">
 		<!-- CT2.5 retail confirmed -->
 		<set name="magicLvl" val="1" />
 		<set name="target" val="TARGET_SELF" />
@@ -90,7 +90,7 @@
 			<add order="0x40" stat="earthRes" val="6.42" />
 		</for>
 	</skill>
-	<skill id="8109" levels="1" name="Augment Option - Divine Attack">
+	<skill id="8109" levels="1" name="精煉選項-神聖屬性攻擊">
 		<!-- CT2.5 retail confirmed -->
 		<set name="magicLvl" val="1" />
 		<set name="target" val="TARGET_SELF" />
@@ -100,7 +100,7 @@
 			<add order="0x40" stat="holyPower" val="6.42" />
 		</for>
 	</skill>
-	<skill id="8110" levels="1" name="Augment Option - Dark Attack">
+	<skill id="8110" levels="1" name="精煉選項-黑暗屬性攻擊">
 		<!-- CT2.5 retail confirmed -->
 		<set name="magicLvl" val="1" />
 		<set name="target" val="TARGET_SELF" />
@@ -110,7 +110,7 @@
 			<add order="0x40" stat="darkPower" val="6.42" />
 		</for>
 	</skill>
-	<skill id="8111" levels="1" name="Augment Option - Fire Attack">
+	<skill id="8111" levels="1" name="精煉選項-火屬性攻擊">
 		<!-- CT2.5 retail confirmed -->
 		<set name="magicLvl" val="1" />
 		<set name="target" val="TARGET_SELF" />
@@ -120,7 +120,7 @@
 			<add order="0x40" stat="firePower" val="6.42" />
 		</for>
 	</skill>
-	<skill id="8112" levels="1" name="Augment Option - Water Attack">
+	<skill id="8112" levels="1" name="精煉選項-水屬性攻擊">
 		<!-- CT2.5 retail confirmed -->
 		<set name="magicLvl" val="1" />
 		<set name="target" val="TARGET_SELF" />
@@ -130,7 +130,7 @@
 			<add order="0x40" stat="waterPower" val="6.42" />
 		</for>
 	</skill>
-	<skill id="8113" levels="1" name="Augment Option - Wind Attack">
+	<skill id="8113" levels="1" name="精煉選項-風屬性攻擊">
 		<!-- CT2.5 retail confirmed -->
 		<set name="magicLvl" val="1" />
 		<set name="target" val="TARGET_SELF" />
@@ -140,7 +140,7 @@
 			<add order="0x40" stat="windPower" val="6.42" />
 		</for>
 	</skill>
-	<skill id="8114" levels="1" name="Augment Option - Earth Attack">
+	<skill id="8114" levels="1" name="精煉選項-地屬性攻擊">
 		<!-- CT2.5 retail confirmed -->
 		<set name="magicLvl" val="1" />
 		<set name="target" val="TARGET_SELF" />
@@ -150,7 +150,7 @@
 			<add order="0x40" stat="earthPower" val="6.42" />
 		</for>
 	</skill>
-	<skill id="8115" levels="1" name="Augment Option - Divine Resistance">
+	<skill id="8115" levels="1" name="精煉選項-神聖屬性抵抗">
 		<!-- CT2.5 retail confirmed -->
 		<set name="magicLvl" val="1" />
 		<set name="target" val="TARGET_SELF" />
@@ -160,7 +160,7 @@
 			<add order="0x40" stat="holyRes" val="6.42" />
 		</for>
 	</skill>
-	<skill id="8116" levels="1" name="Augment Option - Dark Resistance">
+	<skill id="8116" levels="1" name="精煉選項-黑暗屬性抵抗">
 		<!-- CT2.5 retail confirmed -->
 		<set name="magicLvl" val="1" />
 		<set name="target" val="TARGET_SELF" />
@@ -170,7 +170,7 @@
 			<add order="0x40" stat="darkRes" val="6.42" />
 		</for>
 	</skill>
-	<skill id="8117" levels="1" name="Augment Option - Fire Resistance">
+	<skill id="8117" levels="1" name="精煉選項-火屬性抵抗">
 		<!-- CT2.5 retail confirmed -->
 		<set name="magicLvl" val="1" />
 		<set name="target" val="TARGET_SELF" />
@@ -180,7 +180,7 @@
 			<add order="0x40" stat="fireRes" val="6.42" />
 		</for>
 	</skill>
-	<skill id="8118" levels="1" name="Augment Option - Water Resistance">
+	<skill id="8118" levels="1" name="精煉選項-水屬性抵抗">
 		<!-- CT2.5 retail confirmed -->
 		<set name="magicLvl" val="1" />
 		<set name="target" val="TARGET_SELF" />
@@ -190,7 +190,7 @@
 			<add order="0x40" stat="waterRes" val="6.42" />
 		</for>
 	</skill>
-	<skill id="8119" levels="1" name="Augment Option - Wind Resistance">
+	<skill id="8119" levels="1" name="精煉選項-風屬性抵抗">
 		<!-- CT2.5 retail confirmed -->
 		<set name="magicLvl" val="1" />
 		<set name="target" val="TARGET_SELF" />
@@ -200,7 +200,7 @@
 			<add order="0x40" stat="windRes" val="6.42" />
 		</for>
 	</skill>
-	<skill id="8120" levels="1" name="Augment Option - Earth Resistance">
+	<skill id="8120" levels="1" name="精煉選項-地屬性抵抗">
 		<!-- CT2.5 retail confirmed -->
 		<set name="magicLvl" val="1" />
 		<set name="target" val="TARGET_SELF" />
@@ -210,7 +210,7 @@
 			<add order="0x40" stat="earthRes" val="6.42" />
 		</for>
 	</skill>
-	<skill id="8121" levels="1" name="Augment Option - Divine Attack">
+	<skill id="8121" levels="1" name="精煉選項-神聖屬性攻擊">
 		<!-- CT2.5 retail confirmed -->
 		<set name="magicLvl" val="1" />
 		<set name="target" val="TARGET_SELF" />
@@ -220,7 +220,7 @@
 			<add order="0x40" stat="holyPower" val="6.42" />
 		</for>
 	</skill>
-	<skill id="8122" levels="1" name="Augment Option - Dark Attack">
+	<skill id="8122" levels="1" name="精煉選項-黑暗屬性攻擊">
 		<!-- CT2.5 retail confirmed -->
 		<set name="magicLvl" val="1" />
 		<set name="target" val="TARGET_SELF" />
@@ -230,7 +230,7 @@
 			<add order="0x40" stat="darkPower" val="6.42" />
 		</for>
 	</skill>
-	<skill id="8123" levels="1" name="Augment Option - Fire Attack">
+	<skill id="8123" levels="1" name="精煉選項-火屬性攻擊">
 		<!-- CT2.5 retail confirmed -->
 		<set name="magicLvl" val="1" />
 		<set name="target" val="TARGET_SELF" />
@@ -240,7 +240,7 @@
 			<add order="0x40" stat="firePower" val="6.42" />
 		</for>
 	</skill>
-	<skill id="8124" levels="1" name="Augment Option - Water Attack">
+	<skill id="8124" levels="1" name="精煉選項-水屬性攻擊">
 		<!-- CT2.5 retail confirmed -->
 		<set name="magicLvl" val="1" />
 		<set name="target" val="TARGET_SELF" />
@@ -250,7 +250,7 @@
 			<add order="0x40" stat="waterPower" val="6.42" />
 		</for>
 	</skill>
-	<skill id="8125" levels="1" name="Augment Option - Wind Attack">
+	<skill id="8125" levels="1" name="精煉選項-風屬性攻擊">
 		<!-- CT2.5 retail confirmed -->
 		<set name="magicLvl" val="1" />
 		<set name="target" val="TARGET_SELF" />
@@ -260,7 +260,7 @@
 			<add order="0x40" stat="windPower" val="6.42" />
 		</for>
 	</skill>
-	<skill id="8126" levels="1" name="Augment Option - Earth Attack">
+	<skill id="8126" levels="1" name="精煉選項-地屬性攻擊">
 		<!-- CT2.5 retail confirmed -->
 		<set name="magicLvl" val="1" />
 		<set name="target" val="TARGET_SELF" />
@@ -270,7 +270,7 @@
 			<add order="0x40" stat="earthPower" val="6.42" />
 		</for>
 	</skill>
-	<skill id="8127" levels="1" name="Augment Option - Divine Resistance">
+	<skill id="8127" levels="1" name="精煉選項-神聖屬性抵抗">
 		<!-- CT2.5 retail confirmed -->
 		<set name="magicLvl" val="1" />
 		<set name="target" val="TARGET_SELF" />
@@ -280,7 +280,7 @@
 			<add order="0x40" stat="holyRes" val="6.42" />
 		</for>
 	</skill>
-	<skill id="8128" levels="1" name="Augment Option - Dark Resistance">
+	<skill id="8128" levels="1" name="精煉選項-黑暗屬性抵抗">
 		<!-- CT2.5 retail confirmed -->
 		<set name="magicLvl" val="1" />
 		<set name="target" val="TARGET_SELF" />
@@ -290,7 +290,7 @@
 			<add order="0x40" stat="darkRes" val="6.42" />
 		</for>
 	</skill>
-	<skill id="8129" levels="1" name="Augment Option - Fire Resistance">
+	<skill id="8129" levels="1" name="精煉選項-火屬性抵抗">
 		<!-- CT2.5 retail confirmed -->
 		<set name="magicLvl" val="1" />
 		<set name="target" val="TARGET_SELF" />
@@ -300,7 +300,7 @@
 			<add order="0x40" stat="fireRes" val="6.42" />
 		</for>
 	</skill>
-	<skill id="8130" levels="1" name="Augment Option - Water Resistance">
+	<skill id="8130" levels="1" name="精煉選項-水屬性抵抗">
 		<!-- CT2.5 retail confirmed -->
 		<set name="magicLvl" val="1" />
 		<set name="target" val="TARGET_SELF" />
@@ -310,7 +310,7 @@
 			<add order="0x40" stat="waterRes" val="6.42" />
 		</for>
 	</skill>
-	<skill id="8131" levels="1" name="Augment Option - Wind Resistance">
+	<skill id="8131" levels="1" name="精煉選項-風屬性抵抗">
 		<!-- CT2.5 retail confirmed -->
 		<set name="magicLvl" val="1" />
 		<set name="target" val="TARGET_SELF" />
@@ -320,7 +320,7 @@
 			<add order="0x40" stat="windRes" val="6.42" />
 		</for>
 	</skill>
-	<skill id="8132" levels="1" name="Augment Option - Earth Resistance">
+	<skill id="8132" levels="1" name="精煉選項-地屬性抵抗">
 		<!-- CT2.5 retail confirmed -->
 		<set name="magicLvl" val="1" />
 		<set name="target" val="TARGET_SELF" />
@@ -330,7 +330,7 @@
 			<add order="0x40" stat="earthRes" val="6.42" />
 		</for>
 	</skill>
-	<skill id="8133" levels="1" name="Augment Option - Divine Attack">
+	<skill id="8133" levels="1" name="精煉選項-神聖屬性攻擊">
 		<!-- CT2.5 retail confirmed -->
 		<set name="magicLvl" val="1" />
 		<set name="target" val="TARGET_SELF" />
@@ -340,7 +340,7 @@
 			<add order="0x40" stat="holyPower" val="6.42" />
 		</for>
 	</skill>
-	<skill id="8134" levels="1" name="Augment Option - Dark Attack">
+	<skill id="8134" levels="1" name="精煉選項-黑暗屬性攻擊">
 		<!-- CT2.5 retail confirmed -->
 		<set name="magicLvl" val="1" />
 		<set name="target" val="TARGET_SELF" />
@@ -350,7 +350,7 @@
 			<add order="0x40" stat="darkPower" val="6.42" />
 		</for>
 	</skill>
-	<skill id="8135" levels="1" name="Augment Option - Fire Attack">
+	<skill id="8135" levels="1" name="精煉選項-火屬性攻擊">
 		<!-- CT2.5 retail confirmed -->
 		<set name="magicLvl" val="1" />
 		<set name="target" val="TARGET_SELF" />
@@ -360,7 +360,7 @@
 			<add order="0x40" stat="firePower" val="6.42" />
 		</for>
 	</skill>
-	<skill id="8136" levels="1" name="Augment Option - Water Attack">
+	<skill id="8136" levels="1" name="精煉選項-水屬性攻擊">
 		<!-- CT2.5 retail confirmed -->
 		<set name="magicLvl" val="1" />
 		<set name="target" val="TARGET_SELF" />
@@ -370,7 +370,7 @@
 			<add order="0x40" stat="waterPower" val="6.42" />
 		</for>
 	</skill>
-	<skill id="8137" levels="1" name="Augment Option - Wind Attack">
+	<skill id="8137" levels="1" name="精煉選項-風屬性攻擊">
 		<!-- CT2.5 retail confirmed -->
 		<set name="magicLvl" val="1" />
 		<set name="target" val="TARGET_SELF" />
@@ -380,7 +380,7 @@
 			<add order="0x40" stat="windPower" val="6.42" />
 		</for>
 	</skill>
-	<skill id="8138" levels="1" name="Augment Option - Earth Attack">
+	<skill id="8138" levels="1" name="精煉選項-地屬性攻擊">
 		<!-- CT2.5 retail confirmed -->
 		<set name="magicLvl" val="1" />
 		<set name="target" val="TARGET_SELF" />
@@ -390,7 +390,7 @@
 			<add order="0x40" stat="earthPower" val="6.42" />
 		</for>
 	</skill>
-	<skill id="8139" levels="1" name="Augment Option - Divine Resistance">
+	<skill id="8139" levels="1" name="精煉選項-神聖屬性抵抗">
 		<!-- CT2.5 retail confirmed -->
 		<set name="magicLvl" val="1" />
 		<set name="target" val="TARGET_SELF" />
@@ -400,7 +400,7 @@
 			<add order="0x40" stat="holyRes" val="6.42" />
 		</for>
 	</skill>
-	<skill id="8140" levels="1" name="Augment Option - Dark Resistance">
+	<skill id="8140" levels="1" name="精煉選項-黑暗屬性抵抗">
 		<!-- CT2.5 retail confirmed -->
 		<set name="magicLvl" val="1" />
 		<set name="target" val="TARGET_SELF" />
@@ -410,7 +410,7 @@
 			<add order="0x40" stat="darkRes" val="6.42" />
 		</for>
 	</skill>
-	<skill id="8141" levels="1" name="Augment Option - Fire Resistance">
+	<skill id="8141" levels="1" name="精煉選項-火屬性抵抗">
 		<!-- CT2.5 retail confirmed -->
 		<set name="magicLvl" val="1" />
 		<set name="target" val="TARGET_SELF" />
@@ -420,7 +420,7 @@
 			<add order="0x40" stat="fireRes" val="6.42" />
 		</for>
 	</skill>
-	<skill id="8142" levels="1" name="Augment Option - Water Resistance">
+	<skill id="8142" levels="1" name="精煉選項-水屬性抵抗">
 		<!-- CT2.5 retail confirmed -->
 		<set name="magicLvl" val="1" />
 		<set name="target" val="TARGET_SELF" />
@@ -430,7 +430,7 @@
 			<add order="0x40" stat="waterRes" val="6.42" />
 		</for>
 	</skill>
-	<skill id="8143" levels="1" name="Augment Option - Wind Resistance">
+	<skill id="8143" levels="1" name="精煉選項-風屬性抵抗">
 		<!-- CT2.5 retail confirmed -->
 		<set name="magicLvl" val="1" />
 		<set name="target" val="TARGET_SELF" />
@@ -440,7 +440,7 @@
 			<add order="0x40" stat="windRes" val="6.42" />
 		</for>
 	</skill>
-	<skill id="8144" levels="1" name="Augment Option - Earth Resistance">
+	<skill id="8144" levels="1" name="精煉選項-地屬性抵抗">
 		<!-- CT2.5 retail confirmed -->
 		<set name="magicLvl" val="1" />
 		<set name="target" val="TARGET_SELF" />
@@ -450,7 +450,7 @@
 			<add order="0x40" stat="earthRes" val="6.42" />
 		</for>
 	</skill>
-	<skill id="8145" levels="1" name="Augment Option - Stun Resistance">
+	<skill id="8145" levels="1" name="精煉選項-休克抵抗">
 		<!-- CT2.5 retail confirmed -->
 		<!-- Typo in skill description -->
 		<set name="magicLvl" val="1" />
@@ -461,7 +461,7 @@
 			<add order="0x40" stat="stunProf" val="1.28" />
 		</for>
 	</skill>
-	<skill id="8146" levels="1" name="Augment Option - Bleed Resistance">
+	<skill id="8146" levels="1" name="精煉選項-出血抵抗">
 		<!-- CT2.5 retail confirmed -->
 		<!-- Typo in skill description -->
 		<set name="magicLvl" val="1" />
@@ -472,7 +472,7 @@
 			<add order="0x40" stat="bleedProf" val="1.28" />
 		</for>
 	</skill>
-	<skill id="8147" levels="1" name="Augment Option - Poison Resistance">
+	<skill id="8147" levels="1" name="精煉選項-毒抵抗">
 		<!-- CT2.5 retail confirmed -->
 		<!-- Typo in skill description -->
 		<set name="magicLvl" val="1" />
@@ -483,7 +483,7 @@
 			<add order="0x40" stat="poisonProf" val="1.28" />
 		</for>
 	</skill>
-	<skill id="8148" levels="1" name="Augment Option - Sleep Resistance">
+	<skill id="8148" levels="1" name="精煉選項-睡眠抵抗">
 		<!-- CT2.5 retail confirmed -->
 		<!-- Typo in skill description -->
 		<set name="magicLvl" val="1" />
@@ -494,7 +494,7 @@
 			<add order="0x40" stat="sleepProf" val="1.28" />
 		</for>
 	</skill>
-	<skill id="8149" levels="1" name="Augment Option - Paralysis Resistance">
+	<skill id="8149" levels="1" name="精煉選項-麻痺抵抗">
 		<!-- CT2.5 retail confirmed -->
 		<!-- Typo in skill description -->
 		<set name="magicLvl" val="1" />
@@ -505,7 +505,7 @@
 			<add order="0x40" stat="paralyzeProf" val="1.28" />
 		</for>
 	</skill>
-	<skill id="8150" levels="1" name="Augment Option - Mental Attack Resistance">
+	<skill id="8150" levels="1" name="精煉選項-精神攻擊抵抗">
 		<!-- CT2.5 retail confirmed -->
 		<!-- Typo in skill description -->
 		<set name="magicLvl" val="1" />
@@ -516,7 +516,7 @@
 			<add order="0x40" stat="derangementProf" val="1.28" />
 		</for>
 	</skill>
-	<skill id="8151" levels="1" name="Augment Option - Stun Resistance">
+	<skill id="8151" levels="1" name="精煉選項-休克抵抗">
 		<!-- CT2.5 retail confirmed -->
 		<set name="magicLvl" val="1" />
 		<set name="target" val="TARGET_SELF" />
@@ -526,7 +526,7 @@
 			<sub order="0x40" stat="stunVuln" val="1.28" />
 		</for>
 	</skill>
-	<skill id="8152" levels="1" name="Augment Option - Bleed Resistance">
+	<skill id="8152" levels="1" name="精煉選項-出血抵抗">
 		<!-- CT2.5 retail confirmed -->
 		<set name="magicLvl" val="1" />
 		<set name="target" val="TARGET_SELF" />
@@ -536,7 +536,7 @@
 			<sub order="0x40" stat="bleedVuln" val="1.28" />
 		</for>
 	</skill>
-	<skill id="8153" levels="1" name="Augment Option - Poison Resistance">
+	<skill id="8153" levels="1" name="精煉選項-毒抵抗">
 		<!-- CT2.5 retail confirmed -->
 		<set name="magicLvl" val="1" />
 		<set name="target" val="TARGET_SELF" />
@@ -546,7 +546,7 @@
 			<sub order="0x40" stat="poisonVuln" val="1.28" />
 		</for>
 	</skill>
-	<skill id="8154" levels="1" name="Augment Option - Sleep Resistance">
+	<skill id="8154" levels="1" name="精煉選項-睡眠抵抗">
 		<!-- CT2.5 retail confirmed -->
 		<set name="magicLvl" val="1" />
 		<set name="target" val="TARGET_SELF" />
@@ -556,7 +556,7 @@
 			<sub order="0x40" stat="sleepVuln" val="1.28" />
 		</for>
 	</skill>
-	<skill id="8155" levels="1" name="Augment Option - Paralysis Resistance">
+	<skill id="8155" levels="1" name="精煉選項-麻痺抵抗">
 		<!-- CT2.5 retail confirmed -->
 		<set name="magicLvl" val="1" />
 		<set name="target" val="TARGET_SELF" />
@@ -566,7 +566,7 @@
 			<sub order="0x40" stat="paralyzeVuln" val="1.28" />
 		</for>
 	</skill>
-	<skill id="8156" levels="1" name="Augment Option - Mental Attack Resistance">
+	<skill id="8156" levels="1" name="精煉選項-精神攻擊抵抗">
 		<!-- CT2.5 retail confirmed -->
 		<set name="magicLvl" val="1" />
 		<set name="target" val="TARGET_SELF" />
@@ -576,7 +576,7 @@
 			<sub order="0x40" stat="derangementVuln" val="1.28" />
 		</for>
 	</skill>
-	<skill id="8157" levels="1" name="Augment Option - Stun Resistance">
+	<skill id="8157" levels="1" name="精煉選項-休克抵抗">
 		<!-- CT2.5 retail confirmed -->
 		<!-- Typo in skill description -->
 		<set name="magicLvl" val="1" />
@@ -587,7 +587,7 @@
 			<add order="0x40" stat="stunProf" val="1.6" />
 		</for>
 	</skill>
-	<skill id="8158" levels="1" name="Augment Option - Bleed Resistance">
+	<skill id="8158" levels="1" name="精煉選項-出血抵抗">
 		<!-- CT2.5 retail confirmed -->
 		<!-- Typo in skill description -->
 		<set name="magicLvl" val="1" />
@@ -598,7 +598,7 @@
 			<add order="0x40" stat="bleedProf" val="1.6" />
 		</for>
 	</skill>
-	<skill id="8159" levels="1" name="Augment Option - Poison Resistance">
+	<skill id="8159" levels="1" name="精煉選項-毒抵抗">
 		<!-- CT2.5 retail confirmed -->
 		<!-- Typo in skill description -->
 		<set name="magicLvl" val="1" />
@@ -609,7 +609,7 @@
 			<add order="0x40" stat="poisonProf" val="1.6" />
 		</for>
 	</skill>
-	<skill id="8160" levels="1" name="Augment Option - Sleep Resistance">
+	<skill id="8160" levels="1" name="精煉選項-睡眠抵抗">
 		<!-- CT2.5 retail confirmed -->
 		<!-- Typo in skill description -->
 		<set name="magicLvl" val="1" />
@@ -620,7 +620,7 @@
 			<add order="0x40" stat="sleepProf" val="1.6" />
 		</for>
 	</skill>
-	<skill id="8161" levels="1" name="Augment Option - Paralysis Resistance">
+	<skill id="8161" levels="1" name="精煉選項-麻痺抵抗">
 		<!-- CT2.5 retail confirmed -->
 		<!-- Typo in skill description -->
 		<set name="magicLvl" val="1" />
@@ -631,7 +631,7 @@
 			<add order="0x40" stat="paralyzeProf" val="1.6" />
 		</for>
 	</skill>
-	<skill id="8162" levels="1" name="Augment Option - Mental Attack Resistance">
+	<skill id="8162" levels="1" name="精煉選項-精神攻擊抵抗">
 		<!-- CT2.5 retail confirmed -->
 		<!-- Typo in skill description -->
 		<set name="magicLvl" val="1" />
@@ -642,7 +642,7 @@
 			<add order="0x40" stat="derangementProf" val="1.6" />
 		</for>
 	</skill>
-	<skill id="8163" levels="1" name="Augment Option - Stun Resistance">
+	<skill id="8163" levels="1" name="精煉選項-休克抵抗">
 		<!-- CT2.5 retail confirmed -->
 		<set name="magicLvl" val="1" />
 		<set name="target" val="TARGET_SELF" />
@@ -652,7 +652,7 @@
 			<sub order="0x40" stat="stunVuln" val="1.6" />
 		</for>
 	</skill>
-	<skill id="8164" levels="1" name="Augment Option - Bleed Resistance">
+	<skill id="8164" levels="1" name="精煉選項-出血抵抗">
 		<!-- CT2.5 retail confirmed -->
 		<set name="magicLvl" val="1" />
 		<set name="target" val="TARGET_SELF" />
@@ -662,7 +662,7 @@
 			<sub order="0x40" stat="bleedVuln" val="1.6" />
 		</for>
 	</skill>
-	<skill id="8165" levels="1" name="Augment Option - Poison Resistance">
+	<skill id="8165" levels="1" name="精煉選項-毒抵抗">
 		<!-- CT2.5 retail confirmed -->
 		<set name="magicLvl" val="1" />
 		<set name="target" val="TARGET_SELF" />
@@ -672,7 +672,7 @@
 			<sub order="0x40" stat="poisonVuln" val="1.6" />
 		</for>
 	</skill>
-	<skill id="8166" levels="1" name="Augment Option - Sleep Resistance">
+	<skill id="8166" levels="1" name="精煉選項-睡眠抵抗">
 		<!-- CT2.5 retail confirmed -->
 		<set name="magicLvl" val="1" />
 		<set name="target" val="TARGET_SELF" />
@@ -682,7 +682,7 @@
 			<sub order="0x40" stat="sleepVuln" val="1.6" />
 		</for>
 	</skill>
-	<skill id="8167" levels="1" name="Augment Option - Paralysis Resistance">
+	<skill id="8167" levels="1" name="精煉選項-麻痺抵抗">
 		<!-- CT2.5 retail confirmed -->
 		<set name="magicLvl" val="1" />
 		<set name="target" val="TARGET_SELF" />
@@ -692,7 +692,7 @@
 			<sub order="0x40" stat="paralyzeVuln" val="1.6" />
 		</for>
 	</skill>
-	<skill id="8168" levels="1" name="Augment Option - Mental Attack Resistance">
+	<skill id="8168" levels="1" name="精煉選項-精神攻擊抵抗">
 		<!-- CT2.5 retail confirmed -->
 		<set name="magicLvl" val="1" />
 		<set name="target" val="TARGET_SELF" />
@@ -702,7 +702,7 @@
 			<sub order="0x40" stat="derangementVuln" val="1.6" />
 		</for>
 	</skill>
-	<skill id="8169" levels="1" name="Augment Option - Stun Resistance">
+	<skill id="8169" levels="1" name="精煉選項-休克抵抗">
 		<!-- CT2.5 retail confirmed -->
 		<!-- Typo in skill description -->
 		<set name="magicLvl" val="1" />
@@ -713,7 +713,7 @@
 			<add order="0x40" stat="stunProf" val="2.25" />
 		</for>
 	</skill>
-	<skill id="8170" levels="1" name="Augment Option - Bleed Resistance">
+	<skill id="8170" levels="1" name="精煉選項-出血抵抗">
 		<!-- CT2.5 retail confirmed -->
 		<!-- Typo in skill description -->
 		<set name="magicLvl" val="1" />
@@ -724,7 +724,7 @@
 			<add order="0x40" stat="bleedProf" val="2.25" />
 		</for>
 	</skill>
-	<skill id="8171" levels="1" name="Augment Option - Poison Resistance">
+	<skill id="8171" levels="1" name="精煉選項-毒抵抗">
 		<!-- CT2.5 retail confirmed -->
 		<!-- Typo in skill description -->
 		<set name="magicLvl" val="1" />
@@ -735,7 +735,7 @@
 			<add order="0x40" stat="poisonProf" val="2.25" />
 		</for>
 	</skill>
-	<skill id="8172" levels="1" name="Augment Option - Sleep Resistance">
+	<skill id="8172" levels="1" name="精煉選項-睡眠抵抗">
 		<!-- CT2.5 retail confirmed -->
 		<!-- Typo in skill description -->
 		<set name="magicLvl" val="1" />
@@ -746,7 +746,7 @@
 			<add order="0x40" stat="sleepProf" val="2.25" />
 		</for>
 	</skill>
-	<skill id="8173" levels="1" name="Augment Option - Paralysis Resistance">
+	<skill id="8173" levels="1" name="精煉選項-麻痺抵抗">
 		<!-- CT2.5 retail confirmed -->
 		<!-- Typo in skill description -->
 		<set name="magicLvl" val="1" />
@@ -757,7 +757,7 @@
 			<add order="0x40" stat="paralyzeProf" val="2.25" />
 		</for>
 	</skill>
-	<skill id="8174" levels="1" name="Augment Option - Mental Attack Resistance">
+	<skill id="8174" levels="1" name="精煉選項-精神攻擊抵抗">
 		<!-- CT2.5 retail confirmed -->
 		<!-- Typo in skill description -->
 		<set name="magicLvl" val="1" />
@@ -768,7 +768,7 @@
 			<add order="0x40" stat="derangementProf" val="2.25" />
 		</for>
 	</skill>
-	<skill id="8175" levels="1" name="Augment Option - Stun Resistance">
+	<skill id="8175" levels="1" name="精煉選項-休克抵抗">
 		<!-- CT2.5 retail confirmed -->
 		<set name="magicLvl" val="1" />
 		<set name="target" val="TARGET_SELF" />
@@ -778,7 +778,7 @@
 			<sub order="0x40" stat="stunVuln" val="2.25" />
 		</for>
 	</skill>
-	<skill id="8176" levels="1" name="Augment Option - Bleed Resistance">
+	<skill id="8176" levels="1" name="精煉選項-出血抵抗">
 		<!-- CT2.5 retail confirmed -->
 		<set name="magicLvl" val="1" />
 		<set name="target" val="TARGET_SELF" />
@@ -788,7 +788,7 @@
 			<sub order="0x40" stat="bleedVuln" val="2.25" />
 		</for>
 	</skill>
-	<skill id="8177" levels="1" name="Augment Option - Poison Resistance">
+	<skill id="8177" levels="1" name="精煉選項-毒抵抗">
 		<!-- CT2.5 retail confirmed -->
 		<set name="magicLvl" val="1" />
 		<set name="target" val="TARGET_SELF" />
@@ -798,7 +798,7 @@
 			<sub order="0x40" stat="poisonVuln" val="2.25" />
 		</for>
 	</skill>
-	<skill id="8178" levels="1" name="Augment Option - Sleep Resistance">
+	<skill id="8178" levels="1" name="精煉選項-睡眠抵抗">
 		<!-- CT2.5 retail confirmed -->
 		<set name="magicLvl" val="1" />
 		<set name="target" val="TARGET_SELF" />
@@ -808,7 +808,7 @@
 			<sub order="0x40" stat="sleepVuln" val="2.25" />
 		</for>
 	</skill>
-	<skill id="8179" levels="1" name="Augment Option - Paralysis Resistance">
+	<skill id="8179" levels="1" name="精煉選項-麻痺抵抗">
 		<!-- CT2.5 retail confirmed -->
 		<set name="magicLvl" val="1" />
 		<set name="target" val="TARGET_SELF" />
@@ -818,7 +818,7 @@
 			<sub order="0x40" stat="paralyzeVuln" val="2.25" />
 		</for>
 	</skill>
-	<skill id="8180" levels="1" name="Augment Option - Mental Attack Resistance">
+	<skill id="8180" levels="1" name="精煉選項-精神攻擊抵抗">
 		<!-- CT2.5 retail confirmed -->
 		<set name="magicLvl" val="1" />
 		<set name="target" val="TARGET_SELF" />
@@ -828,7 +828,7 @@
 			<sub order="0x40" stat="derangementVuln" val="2.25" />
 		</for>
 	</skill>
-	<skill id="8181" levels="1" name="Augment Option - Stun Resistance">
+	<skill id="8181" levels="1" name="精煉選項-休克抵抗">
 		<!-- CT2.5 retail confirmed -->
 		<!-- Typo in skill description -->
 		<set name="magicLvl" val="1" />
@@ -839,7 +839,7 @@
 			<add order="0x40" stat="stunProf" val="2.57" />
 		</for>
 	</skill>
-	<skill id="8182" levels="1" name="Augment Option - Bleed Resistance">
+	<skill id="8182" levels="1" name="精煉選項-出血抵抗">
 		<!-- CT2.5 retail confirmed -->
 		<!-- Typo in skill description -->
 		<set name="magicLvl" val="1" />
@@ -850,7 +850,7 @@
 			<add order="0x40" stat="bleedProf" val="2.57" />
 		</for>
 	</skill>
-	<skill id="8183" levels="1" name="Augment Option - Poison Resistance">
+	<skill id="8183" levels="1" name="精煉選項-毒抵抗">
 		<!-- CT2.5 retail confirmed -->
 		<!-- Typo in skill description -->
 		<set name="magicLvl" val="1" />
@@ -861,7 +861,7 @@
 			<add order="0x40" stat="poisonProf" val="2.57" />
 		</for>
 	</skill>
-	<skill id="8184" levels="1" name="Augment Option - Sleep Resistance">
+	<skill id="8184" levels="1" name="精煉選項-睡眠抵抗">
 		<!-- CT2.5 retail confirmed -->
 		<!-- Typo in skill description -->
 		<set name="magicLvl" val="1" />
@@ -872,7 +872,7 @@
 			<add order="0x40" stat="sleepProf" val="2.57" />
 		</for>
 	</skill>
-	<skill id="8185" levels="1" name="Augment Option - Paralysis Resistance">
+	<skill id="8185" levels="1" name="精煉選項-麻痺抵抗">
 		<!-- CT2.5 retail confirmed -->
 		<!-- Typo in skill description -->
 		<set name="magicLvl" val="1" />
@@ -883,7 +883,7 @@
 			<add order="0x40" stat="paralyzeProf" val="2.57" />
 		</for>
 	</skill>
-	<skill id="8186" levels="1" name="Augment Option - Mental Attack Resistance">
+	<skill id="8186" levels="1" name="精煉選項-精神攻擊抵抗">
 		<!-- CT2.5 retail confirmed -->
 		<!-- Typo in skill description -->
 		<set name="magicLvl" val="1" />
@@ -894,7 +894,7 @@
 			<add order="0x40" stat="derangementProf" val="2.57" />
 		</for>
 	</skill>
-	<skill id="8187" levels="1" name="Augment Option - Stun Resistance">
+	<skill id="8187" levels="1" name="精煉選項-休克抵抗">
 		<!-- CT2.5 retail confirmed -->
 		<set name="magicLvl" val="1" />
 		<set name="target" val="TARGET_SELF" />
@@ -904,7 +904,7 @@
 			<sub order="0x40" stat="stunVuln" val="2.57" />
 		</for>
 	</skill>
-	<skill id="8188" levels="1" name="Augment Option - Bleed Resistance">
+	<skill id="8188" levels="1" name="精煉選項-出血抵抗">
 		<!-- CT2.5 retail confirmed -->
 		<set name="magicLvl" val="1" />
 		<set name="target" val="TARGET_SELF" />
@@ -914,7 +914,7 @@
 			<sub order="0x40" stat="bleedVuln" val="2.57" />
 		</for>
 	</skill>
-	<skill id="8189" levels="1" name="Augment Option - Poison Resistance">
+	<skill id="8189" levels="1" name="精煉選項-毒抵抗">
 		<!-- CT2.5 retail confirmed -->
 		<set name="magicLvl" val="1" />
 		<set name="target" val="TARGET_SELF" />
@@ -924,7 +924,7 @@
 			<sub order="0x40" stat="poisonVuln" val="2.57" />
 		</for>
 	</skill>
-	<skill id="8190" levels="1" name="Augment Option - Sleep Resistance">
+	<skill id="8190" levels="1" name="精煉選項-睡眠抵抗">
 		<!-- CT2.5 retail confirmed -->
 		<set name="magicLvl" val="1" />
 		<set name="target" val="TARGET_SELF" />
@@ -934,7 +934,7 @@
 			<sub order="0x40" stat="sleepVuln" val="2.57" />
 		</for>
 	</skill>
-	<skill id="8191" levels="1" name="Augment Option - Paralysis Resistance">
+	<skill id="8191" levels="1" name="精煉選項-麻痺抵抗">
 		<!-- CT2.5 retail confirmed -->
 		<set name="magicLvl" val="1" />
 		<set name="target" val="TARGET_SELF" />
@@ -944,7 +944,7 @@
 			<sub order="0x40" stat="paralyzeVuln" val="2.57" />
 		</for>
 	</skill>
-	<skill id="8192" levels="1" name="Augment Option - Mental Attack Resistance">
+	<skill id="8192" levels="1" name="精煉選項-精神攻擊抵抗">
 		<!-- CT2.5 retail confirmed -->
 		<set name="magicLvl" val="1" />
 		<set name="target" val="TARGET_SELF" />
@@ -954,7 +954,7 @@
 			<sub order="0x40" stat="derangementVuln" val="2.57" />
 		</for>
 	</skill>
-	<skill id="8193" levels="1" name="Heavy Armor of Nightmare Set - PvP">
+	<skill id="8193" levels="1" name="對戰用 夢魘盔甲重裝組">
 		<set name="target" val="TARGET_SELF" />
 		<set name="skillType" val="BUFF" />
 		<set name="operateType" val="OP_PASSIVE" />
@@ -969,7 +969,7 @@
 			<mul order="0x30" stat="pvpPhysSkillsDef" val="1.05" />
 		</for>
 	</skill>
-	<skill id="8194" levels="1" name="Heavy Majestic Plate Armor Set - PvP">
+	<skill id="8194" levels="1" name="對戰用 聖威金屬盔甲重裝組">
 		<set name="target" val="TARGET_SELF" />
 		<set name="skillType" val="BUFF" />
 		<set name="operateType" val="OP_PASSIVE" />
@@ -984,7 +984,7 @@
 			<mul order="0x30" stat="pvpPhysSkillsDef" val="1.05" />
 		</for>
 	</skill>
-	<skill id="8195" levels="1" name="Light Nightmarish Leather Armor Set - PvP">
+	<skill id="8195" levels="1" name="對戰用 夢魘皮甲 輕裝組">
 		<set name="target" val="TARGET_SELF" />
 		<set name="skillType" val="BUFF" />
 		<set name="operateType" val="OP_PASSIVE" />
@@ -1000,7 +1000,7 @@
 			<mul order="0x30" stat="pvpPhysSkillsDef" val="1.05" />
 		</for>
 	</skill>
-	<skill id="8196" levels="1" name="Light Majestic Leather Armor Set - PvP">
+	<skill id="8196" levels="1" name="對戰用 聖威皮甲輕裝組">
 		<set name="target" val="TARGET_SELF" />
 		<set name="skillType" val="BUFF" />
 		<set name="operateType" val="OP_PASSIVE" />
@@ -1018,7 +1018,7 @@
 			<mul order="0x30" stat="pvpPhysSkillsDef" val="1.05" />
 		</for>
 	</skill>
-	<skill id="8197" levels="1" name="Nightmare Robe Set - PvP">
+	<skill id="8197" levels="1" name="對戰用 夢魘長袍組">
 		<set name="target" val="TARGET_SELF" />
 		<set name="skillType" val="BUFF" />
 		<set name="operateType" val="OP_PASSIVE" />
@@ -1034,7 +1034,7 @@
 			<mul order="0x30" stat="pvpPhysSkillsDef" val="1.05" />
 		</for>
 	</skill>
-	<skill id="8198" levels="1" name="Majestic Robe Set - PvP">
+	<skill id="8198" levels="1" name="對戰用 聖威長袍組">
 		<set name="target" val="TARGET_SELF" />
 		<set name="skillType" val="BUFF" />
 		<set name="operateType" val="OP_PASSIVE" />
@@ -1050,7 +1050,7 @@
 			<mul order="0x30" stat="pvpPhysSkillsDef" val="1.05" />
 		</for>
 	</skill>
-	<skill id="8199" levels="1" name="Heavy Imperial Crusader Breastplate Set - PvP">
+	<skill id="8199" levels="1" name="對戰用 帝國聖軍胸甲重裝組">
 		<set name="target" val="TARGET_SELF" />
 		<set name="skillType" val="BUFF" />
 		<set name="operateType" val="OP_PASSIVE" />

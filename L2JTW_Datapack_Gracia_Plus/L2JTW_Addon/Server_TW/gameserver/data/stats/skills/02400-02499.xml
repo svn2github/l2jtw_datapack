@@ -1,13 +1,13 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <list>
-	<skill id="2400" levels="1" name="Red Coral Treasure Chest Key">
+	<skill id="2400" levels="1" name="珊瑚的寶箱鑰匙　">
 		<set name="target" val="TARGET_NONE" />
 		<set name="skillType" val="NOTDONE" />
 		<set name="reuseDelay" val="3000" />
 		<set name="operateType" val="OP_PASSIVE" />
 		<set name="hitTime" val="500" />
 	</skill>
-	<skill id="2401" levels="1" name="Lesser Battlefield Mana Potion">
+	<skill id="2401" levels="1" name="戰場魔力治癒藥水">
 		<set name="itemConsumeCount" val="1" />
 		<set name="power" val="500" />
 		<set name="target" val="TARGET_SELF" />
@@ -19,7 +19,7 @@
 			<player SiegeZone="126" />
 		</cond>
 	</skill>
-	<skill id="2402" levels="1" name="Lesser Battlefield CP Potion">
+	<skill id="2402" levels="1" name="戰場鬥志治癒藥水">
 		<set name="itemConsumeCount" val="1" />
 		<set name="power" val="1000" />
 		<set name="target" val="TARGET_SELF" />
@@ -31,7 +31,7 @@
 			<player SiegeZone="126" />
 		</cond>
 	</skill>
-	<skill id="2403" levels="1" name="Spring CP Potion">
+	<skill id="2403" levels="1" name="溫泉鬥志靈藥">
 		<set name="itemConsumeCount" val="1" />
 		<set name="power" val="1000" />
 		<set name="target" val="TARGET_SELF" />
@@ -40,7 +40,7 @@
 		<set name="reuseDelay" val="600000" />
 		<set name="isPotion" val="true" />
 	</skill>
-	<skill id="2404" levels="1" name="Might">
+	<skill id="2404" levels="1" name="力量強化">
 		<set name="target" val="TARGET_SELF" />
 		<set name="skillType" val="BUFF" />
 		<set name="operateType" val="OP_ACTIVE" />
@@ -55,7 +55,7 @@
 			</effect>
 		</for>
 	</skill>
-	<skill id="2405" levels="1" name="Shield">
+	<skill id="2405" levels="1" name="保護盾">
 		<set name="target" val="TARGET_SELF" />
 		<set name="skillType" val="BUFF" />
 		<set name="operateType" val="OP_ACTIVE" />
@@ -70,7 +70,7 @@
 			</effect>
 		</for>
 	</skill>
-	<skill id="2406" levels="1" name="Wind Walk">
+	<skill id="2406" levels="1" name="風之疾走">
 		<set name="target" val="TARGET_SELF" />
 		<set name="skillType" val="BUFF" />
 		<set name="operateType" val="OP_ACTIVE" />
@@ -85,7 +85,7 @@
 			</effect>
 		</for>
 	</skill>
-	<skill id="2407" levels="1" name="Focus">
+	<skill id="2407" levels="1" name="偵測">
 		<set name="target" val="TARGET_SELF" />
 		<set name="skillType" val="BUFF" />
 		<set name="operateType" val="OP_ACTIVE" />
@@ -100,7 +100,7 @@
 			</effect>
 		</for>
 	</skill>
-	<skill id="2408" levels="1" name="Death Whisper">
+	<skill id="2408" levels="1" name="死之呢喃">
 		<set name="target" val="TARGET_SELF" />
 		<set name="skillType" val="BUFF" />
 		<set name="operateType" val="OP_ACTIVE" />
@@ -115,7 +115,7 @@
 			</effect>
 		</for>
 	</skill>
-	<skill id="2409" levels="1" name="Guidance">
+	<skill id="2409" levels="1" name="導引">
 		<set name="target" val="TARGET_SELF" />
 		<set name="skillType" val="BUFF" />
 		<set name="operateType" val="OP_ACTIVE" />
@@ -130,7 +130,7 @@
 			</effect>
 		</for>
 	</skill>
-	<skill id="2410" levels="1" name="Bless Shield">
+	<skill id="2410" levels="1" name="祝福之盾">
 		<set name="target" val="TARGET_SELF" />
 		<set name="skillType" val="BUFF" />
 		<set name="operateType" val="OP_ACTIVE" />
@@ -145,7 +145,7 @@
 			</effect>
 		</for>
 	</skill>
-	<skill id="2411" levels="1" name="Blessed Body">
+	<skill id="2411" levels="1" name="神佑之體">
 		<set name="target" val="TARGET_SELF" />
 		<set name="skillType" val="BUFF" />
 		<set name="operateType" val="OP_ACTIVE" />
@@ -160,7 +160,7 @@
 			</effect>
 		</for>
 	</skill>
-	<skill id="2412" levels="1" name="Haste">
+	<skill id="2412" levels="1" name="速度激發">
 		<set name="target" val="TARGET_SELF" />
 		<set name="skillType" val="BUFF" />
 		<set name="operateType" val="OP_ACTIVE" />
@@ -175,7 +175,7 @@
 			</effect>
 		</for>
 	</skill>
-	<skill id="2413" levels="1" name="Vampiric Rage">
+	<skill id="2413" levels="1" name="吸血怒擊">
 		<set name="target" val="TARGET_SELF" />
 		<set name="skillType" val="BUFF" />
 		<set name="operateType" val="OP_ACTIVE" />
@@ -190,7 +190,7 @@
 			</effect>
 		</for>
 	</skill>
-	<skill id="2414" levels="1" name="Berserker Spirit">
+	<skill id="2414" levels="1" name="狂戰士魂">
 		<set name="target" val="TARGET_SELF" />
 		<set name="skillType" val="BUFF" />
 		<set name="operateType" val="OP_ACTIVE" />
@@ -212,7 +212,7 @@
 			</effect>
 		</for>
 	</skill>
-	<skill id="2415" levels="1" name="Magic Barrier">
+	<skill id="2415" levels="1" name="魔法屏障">
 		<set name="target" val="TARGET_SELF" />
 		<set name="skillType" val="BUFF" />
 		<set name="operateType" val="OP_ACTIVE" />
@@ -227,7 +227,7 @@
 			</effect>
 		</for>
 	</skill>
-	<skill id="2416" levels="1" name="Blessed Soul">
+	<skill id="2416" levels="1" name="神佑之魂">
 		<set name="target" val="TARGET_SELF" />
 		<set name="skillType" val="BUFF" />
 		<set name="operateType" val="OP_ACTIVE" />
@@ -242,7 +242,7 @@
 			</effect>
 		</for>
 	</skill>
-	<skill id="2417" levels="1" name="Empower">
+	<skill id="2417" levels="1" name="魔力催化">
 		<set name="target" val="TARGET_SELF" />
 		<set name="skillType" val="BUFF" />
 		<set name="operateType" val="OP_ACTIVE" />
@@ -257,7 +257,7 @@
 			</effect>
 		</for>
 	</skill>
-	<skill id="2418" levels="1" name="Acumen">
+	<skill id="2418" levels="1" name="靈活思緒">
 		<set name="target" val="TARGET_SELF" />
 		<set name="skillType" val="BUFF" />
 		<set name="operateType" val="OP_ACTIVE" />
@@ -272,7 +272,7 @@
 			</effect>
 		</for>
 	</skill>
-	<skill id="2419" levels="1" name="Clarity">
+	<skill id="2419" levels="1" name="澄澈思緒">
 		<set name="target" val="TARGET_SELF" />
 		<set name="skillType" val="BUFF" />
 		<set name="operateType" val="OP_ACTIVE" />
@@ -285,17 +285,17 @@
 			</effect>
 		</for>
 	</skill>
-	<skill id="2420" levels="1" name="White Seed of Evil Lump">
+	<skill id="2420" levels="1" name="白色罪惡種子塊">
 		<set name="target" val="TARGET_NONE" />
 		<set name="skillType" val="NOTDONE" />
 		<set name="operateType" val="OP_PASSIVE" />
 	</skill>
-	<skill id="2421" levels="1" name="Black Seed of Evil Lump">
+	<skill id="2421" levels="1" name="黑色罪惡種子塊">
 		<set name="target" val="TARGET_NONE" />
 		<set name="skillType" val="NOTDONE" />
 		<set name="operateType" val="OP_PASSIVE" />
 	</skill>
-	<skill id="2422" levels="1" name="1st Place Treasure Sack">
+	<skill id="2422" levels="1" name="寶物袋子1級">
 		<set name="itemConsumeCount" val="1" />
 		<set name="target" val="TARGET_SELF" />
 		<set name="skillType" val="EXTRACTABLE" />
@@ -307,7 +307,7 @@
 			</and>
 		</cond>
 	</skill>
-	<skill id="2423" levels="2" name="2nd Place Treasure Sack">
+	<skill id="2423" levels="2" name="寶物袋子2級">
 		<set name="itemConsumeCount" val="1" />
 		<set name="target" val="TARGET_SELF" />
 		<set name="skillType" val="EXTRACTABLE" />
@@ -319,7 +319,7 @@
 			</and>
 		</cond>
 	</skill>
-	<skill id="2424" levels="3" name="3rd Place Treasure Sack">
+	<skill id="2424" levels="3" name="寶物袋子3級">
 		<set name="itemConsumeCount" val="1" />
 		<set name="target" val="TARGET_SELF" />
 		<set name="skillType" val="EXTRACTABLE" />
@@ -331,7 +331,7 @@
 			</and>
 		</cond>
 	</skill>
-	<skill id="2425" levels="4" name="4th Place Treasure Sack">
+	<skill id="2425" levels="4" name="寶物袋子4級">
 		<set name="itemConsumeCount" val="1" />
 		<set name="target" val="TARGET_SELF" />
 		<set name="skillType" val="EXTRACTABLE" />
@@ -343,7 +343,7 @@
 			</and>
 		</cond>
 	</skill>
-	<skill id="2426" levels="5" name="5th Place Treasure sack">
+	<skill id="2426" levels="5" name="寶物袋子5級">
 		<set name="itemConsumeCount" val="1" />
 		<set name="target" val="TARGET_SELF" />
 		<set name="skillType" val="EXTRACTABLE" />
@@ -355,7 +355,7 @@
 			</and>
 		</cond>
 	</skill>
-	<skill id="2427" levels="6" name="6th Place Treasure Sack">
+	<skill id="2427" levels="6" name="寶物袋子6級">
 		<set name="itemConsumeCount" val="1" />
 		<set name="target" val="TARGET_SELF" />
 		<set name="skillType" val="EXTRACTABLE" />
@@ -367,7 +367,7 @@
 			</and>
 		</cond>
 	</skill>
-	<skill id="2428" levels="1" name="Scroll of Transformation - Rabbit">
+	<skill id="2428" levels="1" name="變身卷軸-兔子">
 		<set name="itemConsumeCount" val="1" />
 		<set name="target" val="TARGET_SELF" />
 		<set name="skillType" val="BUFF" />
@@ -380,7 +380,7 @@
 			<effect name="Transformation" time="600" val="0" stackOrder="1" stackType="transform" /> <!-- Transformation lasts 10 minutes -->
 		</for>
 	</skill>
-	<skill id="2429" levels="1" name="Haste Juice">
+	<skill id="2429" levels="1" name="攻擊加速飲料">
 		<set name="itemConsumeCount" val="1" />
 		<set name="target" val="TARGET_SELF" />
 		<set name="skillType" val="BUFF" />
@@ -396,7 +396,7 @@
 			</effect>
 		</for>
 	</skill>
-	<skill id="2430" levels="1" name="Accuracy Juice">
+	<skill id="2430" levels="1" name="命中強化飲料">
 		<set name="itemConsumeCount" val="1" />
 		<set name="target" val="TARGET_SELF" />
 		<set name="skillType" val="BUFF" />
@@ -412,7 +412,7 @@
 			</effect>
 		</for>
 	</skill>
-	<skill id="2431" levels="1" name="Critical Power Juice">
+	<skill id="2431" levels="1" name="爆擊威力強化飲料">
 		<set name="itemConsumeCount" val="1" />
 		<set name="target" val="TARGET_SELF" />
 		<set name="skillType" val="BUFF" />
@@ -428,7 +428,7 @@
 			</effect>
 		</for>
 	</skill>
-	<skill id="2432" levels="1" name="Critical Attack Juice">
+	<skill id="2432" levels="1" name="爆擊機率強化飲料">
 		<set name="itemConsumeCount" val="1" />
 		<set name="target" val="TARGET_SELF" />
 		<set name="skillType" val="BUFF" />
@@ -444,7 +444,7 @@
 			</effect>
 		</for>
 	</skill>
-	<skill id="2433" levels="1" name="Casting Speed Juice">
+	<skill id="2433" levels="1" name="施法加速飲料">
 		<set name="itemConsumeCount" val="1" />
 		<set name="target" val="TARGET_SELF" />
 		<set name="skillType" val="BUFF" />
@@ -460,7 +460,7 @@
 			</effect>
 		</for>
 	</skill>
-	<skill id="2434" levels="1" name="Evasion Juice">
+	<skill id="2434" levels="1" name="迴避強化飲料">
 		<set name="itemConsumeCount" val="1" />
 		<set name="target" val="TARGET_SELF" />
 		<set name="skillType" val="BUFF" />
@@ -476,7 +476,7 @@
 			</effect>
 		</for>
 	</skill>
-	<skill id="2435" levels="1" name="Magic Power Juice">
+	<skill id="2435" levels="1" name="魔力強化飲料">
 		<set name="itemConsumeCount" val="1" />
 		<set name="target" val="TARGET_SELF" />
 		<set name="skillType" val="BUFF" />
@@ -492,7 +492,7 @@
 			</effect>
 		</for>
 	</skill>
-	<skill id="2436" levels="1" name="Power Juice">
+	<skill id="2436" levels="1" name="攻擊力強化飲料">
 		<set name="itemConsumeCount" val="1" />
 		<set name="target" val="TARGET_SELF" />
 		<set name="skillType" val="BUFF" />
@@ -508,7 +508,7 @@
 			</effect>
 		</for>
 	</skill>
-	<skill id="2437" levels="1" name="Speed Juice">
+	<skill id="2437" levels="1" name="移動加速飲料">
 		<set name="itemConsumeCount" val="1" />
 		<set name="target" val="TARGET_SELF" />
 		<set name="skillType" val="BUFF" />
@@ -524,7 +524,7 @@
 			</effect>
 		</for>
 	</skill>
-	<skill id="2438" levels="1" name="Defense Juice">
+	<skill id="2438" levels="1" name="防禦力強化飲料">
 		<set name="itemConsumeCount" val="1" />
 		<set name="target" val="TARGET_SELF" />
 		<set name="skillType" val="BUFF" />
@@ -540,7 +540,7 @@
 			</effect>
 		</for>
 	</skill>
-	<skill id="2439" levels="1" name="MP Consumption Juice">
+	<skill id="2439" levels="1" name="MP消耗量減少飲料">
 		<set name="itemConsumeCount" val="1" />
 		<set name="target" val="TARGET_SELF" />
 		<set name="skillType" val="BUFF" />
@@ -558,7 +558,7 @@
 			</effect>
 		</for>
 	</skill>
-	<skill id="2440" levels="1" name="Ancient Tome of the Demon">
+	<skill id="2440" levels="1" name="惡魔的古書">
 		<set name="itemConsumeCount" val="1" />
 		<set name="target" val="TARGET_SELF" />
 		<set name="skillType" val="EXTRACTABLE" />
@@ -570,7 +570,7 @@
 			</and>
 		</cond>
 	</skill>
-	<skill id="2441" levels="1" name="Protection of Rune">
+	<skill id="2441" levels="1" name="古文保護">
 		<set name="itemConsumeCount" val="1" />
 		<set name="target" val="TARGET_SELF" />
 		<set name="skillType" val="LEARN_SKILL" />
@@ -588,7 +588,7 @@
 			</and>
 		</cond>
 	</skill>
-	<skill id="2442" levels="1" name="Protection of Elemental">
+	<skill id="2442" levels="1" name="元素保護">
 		<set name="itemConsumeCount" val="1" />
 		<set name="target" val="TARGET_SELF" />
 		<set name="skillType" val="LEARN_SKILL" />
@@ -606,7 +606,7 @@
 			</and>
 		</cond>
 	</skill>
-	<skill id="2443" levels="1" name="Protection of Alignment">
+	<skill id="2443" levels="1" name="團結保護">
 		<set name="itemConsumeCount" val="1" />
 		<set name="target" val="TARGET_SELF" />
 		<set name="skillType" val="LEARN_SKILL" />
@@ -624,7 +624,7 @@
 			</and>
 		</cond>
 	</skill>
-	<skill id="2444" levels="1" name="Fighter's Will">
+	<skill id="2444" levels="1" name="戰士的意志">
 		<set name="itemConsumeCount" val="1" />
 		<set name="target" val="TARGET_SELF" />
 		<set name="skillType" val="LEARN_SKILL" />
@@ -642,7 +642,7 @@
 			</and>
 		</cond>
 	</skill>
-	<skill id="2445" levels="1" name="Archer's Will">
+	<skill id="2445" levels="1" name="弓手的意志">
 		<set name="itemConsumeCount" val="1" />
 		<set name="target" val="TARGET_SELF" />
 		<set name="skillType" val="LEARN_SKILL" />
@@ -660,7 +660,7 @@
 			</and>
 		</cond>
 	</skill>
-	<skill id="2446" levels="1" name="Anti-magic Armor">
+	<skill id="2446" levels="1" name="抗魔裝甲">
 		<set name="itemConsumeCount" val="1" />
 		<set name="target" val="TARGET_SELF" />
 		<set name="skillType" val="LEARN_SKILL" />
@@ -678,7 +678,7 @@
 			</and>
 		</cond>
 	</skill>
-	<skill id="2447" levels="1" name="Seed of Revenge">
+	<skill id="2447" levels="1" name="復仇種子">
 		<set name="itemConsumeCount" val="1" />
 		<set name="target" val="TARGET_SELF" />
 		<set name="skillType" val="LEARN_SKILL" />
@@ -696,7 +696,7 @@
 			</and>
 		</cond>
 	</skill>
-	<skill id="2448" levels="1" name="Hell Scream">
+	<skill id="2448" levels="1" name="地獄狂嘯">
 		<set name="itemConsumeCount" val="1" />
 		<set name="target" val="TARGET_SELF" />
 		<set name="skillType" val="LEARN_SKILL" />
@@ -714,7 +714,7 @@
 			</and>
 		</cond>
 	</skill>
-	<skill id="2449" levels="1" name="Song of Wind Storm">
+	<skill id="2449" levels="1" name="風暴之歌">
 		<set name="itemConsumeCount" val="1" />
 		<set name="target" val="TARGET_SELF" />
 		<set name="skillType" val="LEARN_SKILL" />
@@ -732,7 +732,7 @@
 			</and>
 		</cond>
 	</skill>
-	<skill id="2450" levels="1" name="Dance of Blade Storm">
+	<skill id="2450" levels="1" name="刀刃風暴">
 		<set name="itemConsumeCount" val="1" />
 		<set name="target" val="TARGET_SELF" />
 		<set name="skillType" val="LEARN_SKILL" />
@@ -751,7 +751,7 @@
 			</and>
 		</cond>
 	</skill>
-	<skill id="2451" levels="1" name="Sixth Sense">
+	<skill id="2451" levels="1" name="第六感">
 		<set name="itemConsumeCount" val="1" />
 		<set name="target" val="TARGET_SELF" />
 		<set name="skillType" val="LEARN_SKILL" />
@@ -769,7 +769,7 @@
 			</and>
 		</cond>
 	</skill>
-	<skill id="2452" levels="1" name="Expose Weak Point">
+	<skill id="2452" levels="1" name="弱點揭露">
 		<set name="itemConsumeCount" val="1" />
 		<set name="target" val="TARGET_SELF" />
 		<set name="skillType" val="LEARN_SKILL" />
@@ -787,7 +787,7 @@
 			</and>
 		</cond>
 	</skill>
-	<skill id="2453" levels="1" name="Exciting Adventure">
+	<skill id="2453" levels="1" name="狂熱鬥志">
 		<set name="itemConsumeCount" val="1" />
 		<set name="target" val="TARGET_SELF" />
 		<set name="skillType" val="LEARN_SKILL" />
@@ -805,7 +805,7 @@
 			</and>
 		</cond>
 	</skill>
-	<skill id="2454" levels="1" name="Wind Riding">
+	<skill id="2454" levels="1" name="御風">
 		<set name="itemConsumeCount" val="1" />
 		<set name="target" val="TARGET_SELF" />
 		<set name="skillType" val="LEARN_SKILL" />
@@ -823,7 +823,7 @@
 			</and>
 		</cond>
 	</skill>
-	<skill id="2455" levels="1" name="Ghost Walking">
+	<skill id="2455" levels="1" name="鬼行">
 		<set name="itemConsumeCount" val="1" />
 		<set name="target" val="TARGET_SELF" />
 		<set name="skillType" val="LEARN_SKILL" />
@@ -841,7 +841,7 @@
 			</and>
 		</cond>
 	</skill>
-	<skill id="2456" levels="1" name="Flame Hawk">
+	<skill id="2456" levels="1" name="火焰之鷹">
 		<set name="itemConsumeCount" val="1" />
 		<set name="target" val="TARGET_SELF" />
 		<set name="skillType" val="LEARN_SKILL" />
@@ -859,7 +859,7 @@
 			</and>
 		</cond>
 	</skill>
-	<skill id="2457" levels="1" name="Arrow Rain">
+	<skill id="2457" levels="1" name="箭雨">
 		<set name="itemConsumeCount" val="1" />
 		<set name="target" val="TARGET_SELF" />
 		<set name="skillType" val="LEARN_SKILL" />
@@ -877,7 +877,7 @@
 			</and>
 		</cond>
 	</skill>
-	<skill id="2458" levels="1" name="Ghost Piercing">
+	<skill id="2458" levels="1" name="鬼刺">
 		<set name="itemConsumeCount" val="1" />
 		<set name="target" val="TARGET_SELF" />
 		<set name="skillType" val="LEARN_SKILL" />
@@ -895,7 +895,7 @@
 			</and>
 		</cond>
 	</skill>
-	<skill id="2459" levels="1" name="Dread Pool">
+	<skill id="2459" levels="1" name="恐懼佈滿">
 		<set name="itemConsumeCount" val="1" />
 		<set name="target" val="TARGET_SELF" />
 		<set name="skillType" val="LEARN_SKILL" />
@@ -913,7 +913,7 @@
 			</and>
 		</cond>
 	</skill>
-	<skill id="2460" levels="1" name="Weapon Blockade">
+	<skill id="2460" levels="1" name="武器封鎖">
 		<set name="itemConsumeCount" val="1" />
 		<set name="target" val="TARGET_SELF" />
 		<set name="skillType" val="LEARN_SKILL" />
@@ -931,7 +931,7 @@
 			</and>
 		</cond>
 	</skill>
-	<skill id="2461" levels="1" name="Force of Destruction">
+	<skill id="2461" levels="1" name="毀滅之力">
 		<set name="itemConsumeCount" val="1" />
 		<set name="target" val="TARGET_SELF" />
 		<set name="skillType" val="LEARN_SKILL" />
@@ -949,7 +949,7 @@
 			</and>
 		</cond>
 	</skill>
-	<skill id="2462" levels="1" name="Demolition Impact">
+	<skill id="2462" levels="1" name="壞滅衝擊">
 		<set name="itemConsumeCount" val="1" />
 		<set name="target" val="TARGET_SELF" />
 		<set name="skillType" val="LEARN_SKILL" />
@@ -967,7 +967,7 @@
 			</and>
 		</cond>
 	</skill>
-	<skill id="2463" levels="1" name="Golem Armor">
+	<skill id="2463" levels="1" name="高崙裝甲">
 		<set name="itemConsumeCount" val="1" />
 		<set name="target" val="TARGET_SELF" />
 		<set name="skillType" val="LEARN_SKILL" />
@@ -985,7 +985,7 @@
 			</and>
 		</cond>
 	</skill>
-	<skill id="2464" levels="1" name="Flame Armor">
+	<skill id="2464" levels="1" name="火焰裝甲">
 		<set name="itemConsumeCount" val="1" />
 		<set name="target" val="TARGET_SELF" />
 		<set name="skillType" val="LEARN_SKILL" />
@@ -1003,7 +1003,7 @@
 			</and>
 		</cond>
 	</skill>
-	<skill id="2465" levels="1" name="Frost Armor">
+	<skill id="2465" levels="1" name="寒霜裝甲">
 		<set name="itemConsumeCount" val="1" />
 		<set name="target" val="TARGET_SELF" />
 		<set name="skillType" val="LEARN_SKILL" />
@@ -1021,7 +1021,7 @@
 			</and>
 		</cond>
 	</skill>
-	<skill id="2466" levels="1" name="Hurricane Armor">
+	<skill id="2466" levels="1" name="風暴裝甲">
 		<set name="itemConsumeCount" val="1" />
 		<set name="target" val="TARGET_SELF" />
 		<set name="skillType" val="LEARN_SKILL" />
@@ -1039,7 +1039,7 @@
 			</and>
 		</cond>
 	</skill>
-	<skill id="2467" levels="1" name="Vampiric Mist">
+	<skill id="2467" levels="1" name="吸血迷霧">
 		<set name="itemConsumeCount" val="1" />
 		<set name="target" val="TARGET_SELF" />
 		<set name="skillType" val="LEARN_SKILL" />
@@ -1057,7 +1057,7 @@
 			</and>
 		</cond>
 	</skill>
-	<skill id="2468" levels="1" name="Servitor Barrier">
+	<skill id="2468" levels="1" name="使魔屏障">
 		<set name="itemConsumeCount" val="1" />
 		<set name="target" val="TARGET_SELF" />
 		<set name="skillType" val="LEARN_SKILL" />
@@ -1075,7 +1075,7 @@
 			</and>
 		</cond>
 	</skill>
-	<skill id="2469" levels="1" name="Excessive Loyalty">
+	<skill id="2469" levels="1" name="極度忠誠">
 		<set name="itemConsumeCount" val="1" />
 		<set name="target" val="TARGET_SELF" />
 		<set name="skillType" val="LEARN_SKILL" />
@@ -1093,7 +1093,7 @@
 			</and>
 		</cond>
 	</skill>
-	<skill id="2470" levels="1" name="Mutual Response">
+	<skill id="2470" levels="1" name="相互呼應">
 		<set name="itemConsumeCount" val="1" />
 		<set name="target" val="TARGET_SELF" />
 		<set name="skillType" val="LEARN_SKILL" />
@@ -1111,7 +1111,7 @@
 			</and>
 		</cond>
 	</skill>
-	<skill id="2471" levels="1" name="Improve Combat">
+	<skill id="2471" levels="1" name="提升戰鬥">
 		<set name="itemConsumeCount" val="1" />
 		<set name="target" val="TARGET_SELF" />
 		<set name="skillType" val="LEARN_SKILL" />
@@ -1130,7 +1130,7 @@
 			</and>
 		</cond>
 	</skill>
-	<skill id="2472" levels="1" name="Improve Magic">
+	<skill id="2472" levels="1" name="提升魔法">
 		<set name="itemConsumeCount" val="1" />
 		<set name="target" val="TARGET_SELF" />
 		<set name="skillType" val="LEARN_SKILL" />
@@ -1149,7 +1149,7 @@
 			</and>
 		</cond>
 	</skill>
-	<skill id="2473" levels="1" name="Improve Condition">
+	<skill id="2473" levels="1" name="提升狀態">
 		<set name="itemConsumeCount" val="1" />
 		<set name="target" val="TARGET_SELF" />
 		<set name="skillType" val="LEARN_SKILL" />
@@ -1168,7 +1168,7 @@
 			</and>
 		</cond>
 	</skill>
-	<skill id="2474" levels="1" name="Improve Critical">
+	<skill id="2474" levels="1" name="提升致命攻擊">
 		<set name="itemConsumeCount" val="1" />
 		<set name="target" val="TARGET_SELF" />
 		<set name="skillType" val="LEARN_SKILL" />
@@ -1187,7 +1187,7 @@
 			</and>
 		</cond>
 	</skill>
-	<skill id="2475" levels="1" name="Improve Shield Defense">
+	<skill id="2475" levels="1" name="提升盾防禦">
 		<set name="itemConsumeCount" val="1" />
 		<set name="target" val="TARGET_SELF" />
 		<set name="skillType" val="LEARN_SKILL" />
@@ -1206,7 +1206,7 @@
 			</and>
 		</cond>
 	</skill>
-	<skill id="2476" levels="1" name="Improve Movement">
+	<skill id="2476" levels="1" name="提升行動力">
 		<set name="itemConsumeCount" val="1" />
 		<set name="target" val="TARGET_SELF" />
 		<set name="skillType" val="LEARN_SKILL" />
@@ -1225,7 +1225,7 @@
 			</and>
 		</cond>
 	</skill>
-	<skill id="2477" levels="1" name="Sublime Self-sacrifice">
+	<skill id="2477" levels="1" name="崇高自我獻祭">
 		<set name="itemConsumeCount" val="1" />
 		<set name="target" val="TARGET_SELF" />
 		<set name="skillType" val="LEARN_SKILL" />
@@ -1243,7 +1243,7 @@
 			</and>
 		</cond>
 	</skill>
-	<skill id="2478" levels="1" name="Blessing of Eva">
+	<skill id="2478" levels="1" name="伊娃祝福">
 		<set name="itemConsumeCount" val="1" />
 		<set name="target" val="TARGET_SELF" />
 		<set name="skillType" val="LEARN_SKILL" />
@@ -1261,7 +1261,7 @@
 			</and>
 		</cond>
 	</skill>
-	<skill id="2479" levels="1" name="Lord of Vampire">
+	<skill id="2479" levels="1" name="吸血鬼之王">
 		<set name="itemConsumeCount" val="1" />
 		<set name="target" val="TARGET_SELF" />
 		<set name="skillType" val="LEARN_SKILL" />
@@ -1279,7 +1279,7 @@
 			</and>
 		</cond>
 	</skill>
-	<skill id="2480" levels="1" name="Throne Root">
+	<skill id="2480" levels="1" name="霸權纏繞">
 		<set name="itemConsumeCount" val="1" />
 		<set name="target" val="TARGET_SELF" />
 		<set name="skillType" val="LEARN_SKILL" />
@@ -1297,7 +1297,7 @@
 			</and>
 		</cond>
 	</skill>
-	<skill id="2481" levels="1" name="Seal of Limit">
+	<skill id="2481" levels="1" name="極限封印">
 		<set name="itemConsumeCount" val="1" />
 		<set name="target" val="TARGET_SELF" />
 		<set name="skillType" val="LEARN_SKILL" />
@@ -1315,7 +1315,7 @@
 			</and>
 		</cond>
 	</skill>
-	<skill id="2482" levels="1" name="Spirit of Phoenix">
+	<skill id="2482" levels="1" name="鳳凰之魂">
 		<set name="itemConsumeCount" val="1" />
 		<set name="target" val="TARGET_SELF" />
 		<set name="skillType" val="LEARN_SKILL" />
@@ -1333,7 +1333,7 @@
 			</and>
 		</cond>
 	</skill>
-	<skill id="2483" levels="1" name="Eva's Will">
+	<skill id="2483" levels="1" name="伊娃意志">
 		<set name="itemConsumeCount" val="1" />
 		<set name="target" val="TARGET_SELF" />
 		<set name="skillType" val="LEARN_SKILL" />
@@ -1351,7 +1351,7 @@
 			</and>
 		</cond>
 	</skill>
-	<skill id="2484" levels="1" name="Pain of Shilen">
+	<skill id="2484" levels="1" name="席琳之痛">
 		<set name="itemConsumeCount" val="1" />
 		<set name="target" val="TARGET_SELF" />
 		<set name="skillType" val="LEARN_SKILL" />
@@ -1369,7 +1369,7 @@
 			</and>
 		</cond>
 	</skill>
-	<skill id="2485" levels="1" name="Herb of Life">
+	<skill id="2485" levels="1" name="生命藥草">
 		<set name="power" val="15" />
 		<set name="hitTime" val="100" />
 		<set name="target" val="TARGET_SELF" />
@@ -1381,7 +1381,7 @@
 			<player flyMounted="False" />
 		</cond>
 	</skill>
-	<skill id="2486" levels="1" name="Herb of Mana">
+	<skill id="2486" levels="1" name="瑪那藥草">
 		<set name="power" val="12" />
 		<set name="hitTime" val="100" />
 		<set name="target" val="TARGET_SELF" />
@@ -1393,7 +1393,7 @@
 			<player flyMounted="False" />
 		</cond>
 	</skill>
-	<skill id="2487" levels="1" name="Item - Special Sound Crystal">
+	<skill id="2487" levels="1" name="道具-特殊回聲水晶">
 		<!-- Update by rocknow -->
 		<set name="itemConsumeCount" val="1" />
 		<set name="isPotion" val="true" />
@@ -1401,7 +1401,7 @@
 		<set name="skillType" val="DUMMY" />
 		<set name="operateType" val="OP_ACTIVE" />
 	</skill>
-	<skill id="2488" levels="1" name="Wild Shot">
+	<skill id="2488" levels="1" name="野性射擊">
 		<set name="itemConsumeCount" val="1" />
 		<set name="target" val="TARGET_SELF" />
 		<set name="skillType" val="LEARN_SKILL" />
@@ -1419,7 +1419,7 @@
 			</and>
 		</cond>
 	</skill>
-	<skill id="2489" levels="1" name="Lightning Shock">
+	<skill id="2489" levels="1" name="強雷震盪">
 		<set name="itemConsumeCount" val="1" />
 		<set name="target" val="TARGET_SELF" />
 		<set name="skillType" val="LEARN_SKILL" />
@@ -1437,7 +1437,7 @@
 			</and>
 		</cond>
 	</skill>
-	<skill id="2490" levels="1" name="Magic Defense Toolkit for beginners">
+	<skill id="2490" levels="1" name="初學者魔法防具套裝">
 		<set name="itemConsumeCount" val="1" />
 		<set name="target" val="TARGET_SELF" />
 		<set name="skillType" val="EXTRACTABLE" />
@@ -1449,49 +1449,49 @@
 			</and>
 		</cond>
 	</skill>
-	<skill id="2491" levels="1" name="Transform Zaken">
+	<skill id="2491" levels="1" name="變身 札肯">
 		<set name="target" val="TARGET_NONE" />
 		<set name="skillType" val="NOTDONE" />
 		<set name="operateType" val="OP_PASSIVE" />
 		<set name="hitTime" val="1500" />
 	</skill>
-	<skill id="2492" levels="1" name="Transform Anakim">
+	<skill id="2492" levels="1" name="變身 亞納">
 		<set name="target" val="TARGET_NONE" />
 		<set name="skillType" val="NOTDONE" />
 		<set name="operateType" val="OP_PASSIVE" />
 		<set name="hitTime" val="1500" />
 	</skill>
-	<skill id="2493" levels="1" name="Transform Venom">
+	<skill id="2493" levels="1" name="變身 貝諾姆">
 		<set name="target" val="TARGET_NONE" />
 		<set name="skillType" val="NOTDONE" />
 		<set name="operateType" val="OP_PASSIVE" />
 		<set name="hitTime" val="1500" />
 	</skill>
-	<skill id="2494" levels="1" name="Transform Gordon">
+	<skill id="2494" levels="1" name="變身 高登">
 		<set name="target" val="TARGET_NONE" />
 		<set name="skillType" val="NOTDONE" />
 		<set name="operateType" val="OP_PASSIVE" />
 		<set name="hitTime" val="1500" />
 	</skill>
-	<skill id="2495" levels="1" name="Transform Ranku">
+	<skill id="2495" levels="1" name="變身 勞庫">
 		<set name="target" val="TARGET_NONE" />
 		<set name="skillType" val="NOTDONE" />
 		<set name="operateType" val="OP_PASSIVE" />
 		<set name="hitTime" val="1500" />
 	</skill>
-	<skill id="2496" levels="1" name="Transform Kietch">
+	<skill id="2496" levels="1" name="變身 基亞齊">
 		<set name="target" val="TARGET_NONE" />
 		<set name="skillType" val="NOTDONE" />
 		<set name="operateType" val="OP_PASSIVE" />
 		<set name="hitTime" val="1500" />
 	</skill>
-	<skill id="2497" levels="1" name="Transform Demon Prince">
+	<skill id="2497" levels="1" name="變身 惡魔公爵">
 		<set name="target" val="TARGET_NONE" />
 		<set name="skillType" val="NOTDONE" />
 		<set name="operateType" val="OP_PASSIVE" />
 		<set name="hitTime" val="1500" />
 	</skill>
-	<skill id="2498" levels="1" name="Bottle of Empty Soul">
+	<skill id="2498" levels="1" name="空的靈魂之瓶">
 		<set name="itemConsumeCount" val="1" />
 		<set name="hitTime" val="500" />
 		<set name="staticHitTime" val="true" />
@@ -1509,7 +1509,7 @@
 			</and>
 		</cond>
 	</skill>
-	<skill id="2499" levels="1" name="Bottle of Full Soul">
+	<skill id="2499" levels="1" name="滿的靈魂之瓶">
 		<set name="itemConsumeCount" val="1" />
 		<set name="target" val="TARGET_SELF" />
 		<set name="skillType" val="CHARGESOUL" />

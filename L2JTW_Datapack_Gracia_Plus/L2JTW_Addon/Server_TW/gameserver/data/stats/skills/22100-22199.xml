@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <list>
-	<skill id="22100" levels="1" name="Soul Scent">
+	<skill id="22100" levels="1" name="靈魂香">
 		<!-- When using a monster's corpse, comforts the monster's soul to borrow the monster's power temporarily. For 2 minutes, increases Max HP by 40%, Max MP by 40%, Max CP by 40%, physical P. Def. by 30%, M. Def. by 30%, moving speed by 20, and M. Atk. by 45%. Decreases MP consumption during skill use by 10%. -->
 		<!-- Update by pmq -->
 		<set name="itemConsumeId" val="20603" />
@@ -28,12 +28,12 @@
 			</effect>
 		</for>
 	</skill>
-	<skill id="22101" levels="1" name="Fortune of Love Box">
+	<skill id="22101" levels="1" name="愛的幸運箱">
 		<set name="target" val="TARGET_NONE" />
 		<set name="skillType" val="NOTDONE" />
 		<set name="operateType" val="OP_PASSIVE" />
 	</skill>
-	<skill id="22102" levels="1" name="Soul Magic Box">
+	<skill id="22102" levels="1" name="靈魂魔法箱">
 	<!-- Update by pmq -->
 		<set name="referenceId" val="20630" />
 		<set name="target" val="TARGET_SELF" />
@@ -49,7 +49,7 @@
 			</and>
 		</cond>
 	</skill>
-	<skill id="22103" levels="1" name="Blessed Scroll of Escape - event">
+	<skill id="22103" levels="1" name="祝福的返回卷軸-活動用">
 		<!-- Update by pmq -->
 		<set name="itemConsumeId" val="9156" />
 		<set name="itemConsumeCount" val="1" />
@@ -59,7 +59,7 @@
 		<set name="skillType" val="RECALL" />
 		<set name="operateType" val="OP_ACTIVE" />
 	</skill>
-	<skill id="22104" levels="1" name="Blessed Scroll of Resurrection - event">
+	<skill id="22104" levels="1" name="祝福的復活卷軸-活動用">
 		<!-- Update by pmq -->
 		<set name="itemConsumeId" val="9157" />
 		<set name="itemConsumeCount" val="1" />
@@ -72,7 +72,7 @@
 		<set name="castRange" val="400" />
 		<set name="effectRange" val="600" />
 	</skill>
-	<skill id="22105" levels="1" name="Wooldy Summon Scroll - Event">
+	<skill id="22105" levels="1" name="召喚兀兒德-活動">
 		<!-- Update by rocknow -->
 		<set name="itemConsumeCount" val="1" />
 		<set name="summonTotalLifeTime" val="1200000" />
@@ -84,7 +84,7 @@
 		<set name="operateType" val="OP_ACTIVE" />
 		<set name="npcId" val="19" />
 	</skill>
-	<skill id="22106" levels="1" name="Verdandi Summon Scroll - Event">
+	<skill id="22106" levels="1" name="召喚貝爾丹蒂-活動">
 		<!-- Update by rocknow -->
 		<set name="itemConsumeCount" val="1" />
 		<set name="summonTotalLifeTime" val="1200000" />
@@ -96,7 +96,7 @@
 		<set name="operateType" val="OP_ACTIVE" />
 		<set name="npcId" val="20" />
 	</skill>
-	<skill id="22107" levels="1" name="Skooldy Summon Scroll - Event">
+	<skill id="22107" levels="1" name="召喚斯庫迪-活動">
 		<!-- Update by rocknow -->
 		<set name="itemConsumeCount" val="1" />
 		<set name="summonTotalLifeTime" val="1200000" />
@@ -108,17 +108,17 @@
 		<set name="operateType" val="OP_ACTIVE" />
 		<set name="npcId" val="21" />
 	</skill>
-	<skill id="22108" levels="1" name="Halloween Toy Box">
+	<skill id="22108" levels="1" name="萬聖夜玩具箱">
 		<set name="target" val="TARGET_NONE" />
 		<set name="skillType" val="NOTDONE" />
 		<set name="operateType" val="OP_PASSIVE" />
 	</skill>
-	<skill id="22109" levels="1" name="Shiny Halloween Toy Box">
+	<skill id="22109" levels="1" name="閃耀的萬聖夜玩具箱">
 		<set name="target" val="TARGET_NONE" />
 		<set name="skillType" val="NOTDONE" />
 		<set name="operateType" val="OP_PASSIVE" />
 	</skill>
-	<skill id="22110" levels="1" name="Lucky Sky Lantern Summon">
+	<skill id="22110" levels="1" name="召喚吉祥天燈">
 		<!-- Update by rocknow -->
 		<set name="itemConsumeCount" val="1" />
 		<set name="summonTotalLifeTime" val="1200000" />
@@ -130,7 +130,7 @@
 		<set name="operateType" val="OP_ACTIVE" />
 		<set name="npcId" val="22" />
 	</skill>
-	<skill id="22111" levels="1" name="Ambient Sky Lantern Summon">
+	<skill id="22111" levels="1" name="召喚歡慶天燈">
 		<!-- Update by rocknow -->
 		<set name="itemConsumeCount" val="1" />
 		<set name="summonTotalLifeTime" val="1200000" />
@@ -142,7 +142,7 @@
 		<set name="operateType" val="OP_ACTIVE" />
 		<set name="npcId" val="23" />
 	</skill>
-	<skill id="22112" levels="1" name="Sway Sky Lantern Summon">
+	<skill id="22112" levels="1" name="召喚祈福天燈">
 		<!-- Update by rocknow -->
 		<set name="itemConsumeCount" val="1" />
 		<set name="summonTotalLifeTime" val="1200000" />
@@ -154,7 +154,7 @@
 		<set name="operateType" val="OP_ACTIVE" />
 		<set name="npcId" val="24" />
 	</skill>
-	<skill id="22113" levels="1" name="Comfort Sky Lantern Summon">
+	<skill id="22113" levels="1" name="召喚平安天燈">
 		<!-- Update by rocknow -->
 		<set name="itemConsumeCount" val="1" />
 		<set name="summonTotalLifeTime" val="1200000" />
@@ -166,27 +166,27 @@
 		<set name="operateType" val="OP_ACTIVE" />
 		<set name="npcId" val="25" />
 	</skill>
-	<skill id="22114" levels="1" name="Morph Scroll Box">
+	<skill id="22114" levels="1" name="變身卷軸箱">
 		<set name="target" val="TARGET_NONE" />
 		<set name="skillType" val="NOTDONE" />
 		<set name="operateType" val="OP_PASSIVE" />
 	</skill>
-	<skill id="22115" levels="1" name="Santa's Weapon Exchange Ticket Box">
+	<skill id="22115" levels="1" name="白鬍鬚聖誕老人武器交換券寶箱">
 		<set name="target" val="TARGET_NONE" />
 		<set name="skillType" val="NOTDONE" />
 		<set name="operateType" val="OP_PASSIVE" />
 	</skill>
-	<skill id="22116" levels="1" name="Summon Flames Box">
+	<skill id="22116" levels="1" name="召喚煙火箱">
 		<set name="target" val="TARGET_NONE" />
 		<set name="skillType" val="NOTDONE" />
 		<set name="operateType" val="OP_PASSIVE" />
 	</skill>
-	<skill id="22117" levels="1" name="Flames Box Firework">
+	<skill id="22117" levels="1" name="煙火箱煙火">
 		<set name="target" val="TARGET_NONE" />
 		<set name="skillType" val="NOTDONE" />
 		<set name="operateType" val="OP_PASSIVE" />
 	</skill>
-	<skill id="22118" levels="1" name="Warmth of Kotatz">
+	<skill id="22118" levels="1" name="暖爐桌的溫暖">
 		<!-- The Warmth of Kotatz can be felt. HP regeneration is increased by 40%. CP regeneration is increased by 30%. MP regeneration is increased by 20%. -->
 		<!-- Update by pmq -->
 		<set name="target" val="TARGET_SELF" />
@@ -200,7 +200,7 @@
 			</effect>
 		</for>
 	</skill>
-	<skill id="22119" levels="1" name="Love for All Seasons">
+	<skill id="22119" levels="1" name="百年好合">
 		<!-- For 1 hour, increases M. Atk. by 75% and the chance of Prominent Damage occurring through damage magic by 2. -->
 		<!-- Update by pmq -->
 		<set name="target" val="TARGET_PARTY" />
@@ -212,7 +212,7 @@
 			</effect>
 		</for>
 	</skill>
-	<skill id="22120" levels="1" name="Happy New Year">
+	<skill id="22120" levels="1" name="年年有餘">
 		<!-- For 1 hour, increases Critical attack power by 35%, Critical attack rate by 30, and accuracy by 4. -->
 		<!-- Update by pmq -->
 		<set name="target" val="TARGET_PARTY" />
@@ -226,7 +226,7 @@
 			</effect>
 		</for>
 	</skill>
-	<skill id="22121" levels="1" name="Female Aniruddha">
+	<skill id="22121" levels="1" name="圓滿如意">
 		<!-- For 1 hour, increases P. Def. by 15%, Magic Resistance by 30%, and Shield Defense Rate by 15. -->
 		<!-- Update by pmq -->
 		<set name="target" val="TARGET_PARTY" />
@@ -240,7 +240,7 @@
 			</effect>
 		</for>
 	</skill>
-	<skill id="22122" levels="1" name="Kung Hei Fat Choy">
+	<skill id="22122" levels="1" name="恭喜發財">
 		<!-- For 1 hour, decreases party members' P. Def. by 8%, M. Def. by 16%, and Evasion by 4. Increases P. Atk. by 15%, P. Atk. by 8%, M. Atk. by 16%, Atk. Spd. by 8%, Casting Spd. by 8%, and moving speed by 8. 9% of the standard short-range physical damage inflicted on the enemy is recovered by HP. -->
 		<!-- Update by pmq -->
 		<set name="target" val="TARGET_PARTY" />
@@ -258,7 +258,7 @@
 			</effect>
 		</for>
 	</skill>
-	<skill id="22123" levels="1" name="Chinese Feast">
+	<skill id="22123" levels="1" name="金玉滿堂">
 		<!-- For 1 hour, decreases physical skill MP consumption by 20%, magic skill's MP consumption by 10%, and song/dance skill's MP consumption by 20%. Increases Casting Spd. by 30% and Max MP by 35%. -->
 		<!-- Update by pmq -->
 		<set name="target" val="TARGET_SELF" />
@@ -274,7 +274,7 @@
 			</effect>
 		</for>
 	</skill>
-	<skill id="22124" levels="1" name="Hwa Gei Bu Gwi">
+	<skill id="22124" levels="1" name="花開富貴">
 		<!-- For 1 hour, increases Atk. Spd. by 33% and weight penalty interval by 9000. -->
 		<!-- Update by pmq -->
 		<set name="target" val="TARGET_SELF" />
@@ -287,7 +287,7 @@
 			</effect>
 		</for>
 	</skill>
-	<skill id="22125" levels="1" name="Fire Stamp">
+	<skill id="22125" levels="1" name="佛跳牆">
 		<!-- For 1 hour, increases moving speed by 33, Evasion rate by 4, and Max HP by 35%. -->
 		<!-- Update by pmq -->
 		<set name="target" val="TARGET_SELF" />
@@ -301,20 +301,20 @@
 			</effect>
 		</for>
 	</skill>
-	<skill id="22126" levels="1" name="Baby Food Skill">
+	<skill id="22126" levels="1" name="嬰兒食品技能">
 		<set name="target" val="TARGET_NONE" />
 		<set name="skillType" val="NOTDONE" />
 		<set name="operateType" val="OP_PASSIVE" />
 		<set name="staticReuse" val="true" />
 	</skill>
-	<skill id="22127" levels="1" name="Summon Warm Kotatz">
+	<skill id="22127" levels="1" name="召喚暖爐桌">
 		<set name="target" val="TARGET_NONE" />
 		<set name="skillType" val="NOTDONE" />
 		<set name="operateType" val="OP_PASSIVE" />
 		<set name="reuseDelay" val="600000" />
 		<set name="staticReuse" val="true" />
 	</skill>
-	<skill id="22128" levels="3" name="Rudolph's Joy">
+	<skill id="22128" levels="3" name="麋鹿的喜悅">
 		<!-- Lvl 1: For 5 minutes, raises Atk. Spd. by 10% and Magic Casting Spd. by 10%. -->
 		<!-- Lvl 2: For 5 minutes, raises Atk. Spd. by 15% and Magic Casting Spd. by 15%. -->
 		<!-- Lvl 3: For 5 minutes, raises Atk. Spd. by 20% and Magic Casting Spd. by 20%. -->
@@ -330,19 +330,19 @@
 			</effect>
 		</for>
 	</skill>
-	<skill id="22129" levels="1" name="Red Dimensional Stone">
+	<skill id="22129" levels="1" name="紅色次元之石">
 		<set name="target" val="TARGET_NONE" />
 		<set name="skillType" val="NOTDONE" />
 		<set name="operateType" val="OP_PASSIVE" />
 		<set name="reuseDelay" val="18000000" />
 	</skill>
-	<skill id="22130" levels="1" name="Food of Doubt's Effect">
+	<skill id="22130" levels="1" name="疑問飼料的效果">
 		<!-- Food of Doubt's effect.For 20 minutes, energy is recovered when Exp. is acquired. -->
 		<set name="target" val="TARGET_NONE" />
 		<set name="skillType" val="NOTDONE" />
 		<set name="operateType" val="OP_PASSIVE" />
 	</skill>
-	<skill id="22131" levels="1" name="Red Firework Flames">
+	<skill id="22131" levels="1" name="紅色鞭炮煙火">
 		<!-- For 10 minutes, increases water type defense by 30 and STR by 1. -->
 		<!-- Update by pmq -->
 		<set name="target" val="TARGET_SELF" />
@@ -355,7 +355,7 @@
 			</effect>
 		</for>
 	</skill>
-	<skill id="22132" levels="1" name="Gold Firework Flames">
+	<skill id="22132" levels="1" name="金色鞭炮煙火">
 		<!-- For 10 minutes, increases divinity type defense by 30 and CON by 1. -->
 		<!-- Update by pmq -->
 		<set name="target" val="TARGET_SELF" />
@@ -368,7 +368,7 @@
 			</effect>
 		</for>
 	</skill>
-	<skill id="22133" levels="1" name="Blue Firework Flames">
+	<skill id="22133" levels="1" name="藍色鞭炮煙火">
 		<!-- For 10 minutes, increases fire type defense by 30 and DEX by 1. -->
 		<!-- Update by pmq -->
 		<set name="target" val="TARGET_SELF" />
@@ -381,7 +381,7 @@
 			</effect>
 		</for>
 	</skill>
-	<skill id="22134" levels="1" name="Pink Firework Flames">
+	<skill id="22134" levels="1" name="粉紅色鞭炮煙火">
 		<!-- For 10 minutes, increases earth type defense by 30 and MEN by 1. -->
 		<!-- Update by pmq -->
 		<set name="target" val="TARGET_SELF" />
@@ -394,7 +394,7 @@
 			</effect>
 		</for>
 	</skill>
-	<skill id="22135" levels="1" name="White Firework Flames">
+	<skill id="22135" levels="1" name="白色鞭炮煙火">
 		<!-- For 10 minutes, increases wind type defense by 30 and WIT by 1. -->
 		<!-- Update by pmq -->
 		<set name="target" val="TARGET_SELF" />
@@ -407,7 +407,7 @@
 			</effect>
 		</for>
 	</skill>
-	<skill id="22136" levels="1" name="Silver Firework Flames">
+	<skill id="22136" levels="1" name="銀色鞭炮煙火">
 		<!-- For 10 minutes, increases darkness type defense by 30 and INT by 1. -->
 		<!-- Update by pmq -->
 		<set name="target" val="TARGET_SELF" />
@@ -420,17 +420,17 @@
 			</effect>
 		</for>
 	</skill>
-	<skill id="22137" levels="1" name="Star Food">
+	<skill id="22137" levels="1" name="星之飼料">
 		<set name="target" val="TARGET_NONE" />
 		<set name="skillType" val="NOTDONE" />
 		<set name="operateType" val="OP_PASSIVE" />
 	</skill>
-	<skill id="22138" levels="1" name="Mango Dessert">
+	<skill id="22138" levels="1" name="芒果糯米飯">
 		<set name="target" val="TARGET_NONE" />
 		<set name="skillType" val="NOTDONE" />
 		<set name="operateType" val="OP_PASSIVE" />
 	</skill>
-	<skill id="22139" levels="1" name="Branding Wind Walk">
+	<skill id="22139" levels="1" name="佛跳牆-風之疾走">
 		<!-- Increases moving speed by 33 for 1 hour. -->
 		<!-- Update by pmq -->
 		<set name="target" val="TARGET_SELF" />
@@ -442,7 +442,7 @@
 			</effect>
 		</for>
 	</skill>
-	<skill id="22140" levels="1" name="Hwa Gei Bu Gwi Haste">
+	<skill id="22140" levels="1" name="花開富貴-速度激發">
 		<!-- Increases Atk. Spd. by 33% for 1 hour. -->
 		<!-- Update by pmq -->
 		<set name="target" val="TARGET_SELF" />
@@ -454,7 +454,7 @@
 			</effect>
 		</for>
 	</skill>
-	<skill id="22141" levels="1" name="Branding Agility">
+	<skill id="22141" levels="1" name="佛跳牆-敏捷術">
 		<!-- Increases evasion rate by 4 for 1 hour. -->
 		<!-- Update by pmq -->
 		<set name="target" val="TARGET_SELF" />
@@ -466,7 +466,7 @@
 			</effect>
 		</for>
 	</skill>
-	<skill id="22142" levels="1" name="Female Aniruddha's Shield">
+	<skill id="22142" levels="1" name="圓滿如意-保護盾">
 		<!-- Increases P. Def. by 15% for 1 hour. -->
 		<!-- Update by pmq -->
 		<set name="target" val="TARGET_SELF" />
@@ -478,7 +478,7 @@
 			</effect>
 		</for>
 	</skill>
-	<skill id="22143" levels="1" name="Happy New Year Death Whisper">
+	<skill id="22143" levels="1" name="年年有餘-死之呢喃">
 		<!-- Increases Critical attack power by 35% for 1 hour. -->
 		<!-- Update by pmq -->
 		<set name="target" val="TARGET_SELF" />
@@ -490,7 +490,7 @@
 			</effect>
 		</for>
 	</skill>
-	<skill id="22144" levels="1" name="Happy New Year Guidance">
+	<skill id="22144" levels="1" name="年年有餘-導引">
 		<!-- Increases accuracy by 4 for 1 hour. -->
 		<!-- Update by pmq -->
 		<set name="target" val="TARGET_SELF" />
@@ -502,7 +502,7 @@
 			</effect>
 		</for>
 	</skill>
-	<skill id="22145" levels="1" name="Love for All Seasons Empower">
+	<skill id="22145" levels="1" name="百年好合-魔力催化">
 		<!-- Increases M. Atk. by 75% for 1 hour. -->
 		<!-- Update by pmq -->
 		<set name="target" val="TARGET_SELF" />
@@ -514,7 +514,7 @@
 			</effect>
 		</for>
 	</skill>
-	<skill id="22146" levels="1" name="Chinese Feast Greater Acumen">
+	<skill id="22146" levels="1" name="金玉滿堂-靈活思緒">
 		<!-- Increases Casting Spd. by 30% for 1 hour. -->
 		<!-- Update by pmq -->
 		<set name="target" val="TARGET_SELF" />
@@ -526,13 +526,13 @@
 			</effect>
 		</for>
 	</skill>
-	<skill id="22147" levels="1" name="Kung Hei Fat Choy Vampiric Rage">
+	<skill id="22147" levels="1" name="恭喜發財-吸血怒擊">
 		<!-- For 1 hour, 9% of the standard short-range physical damage inflicted on the enemy is recovered as HP. -->
 		<set name="target" val="TARGET_NONE" />
 		<set name="skillType" val="NOTDONE" />
 		<set name="operateType" val="OP_PASSIVE" />
 	</skill>
-	<skill id="22148" levels="1" name="Branding Blessed Body">
+	<skill id="22148" levels="1" name="佛跳牆-神佑之體">
 		<!-- Increases Max HP by 35% for 1 hour. -->
 		<!-- Update by pmq -->
 		<set name="target" val="TARGET_SELF" />
@@ -544,7 +544,7 @@
 			</effect>
 		</for>
 	</skill>
-	<skill id="22149" levels="1" name="Kung Hei Fat Choy Berserker Spirit">
+	<skill id="22149" levels="1" name="恭喜發財-狂戰士魂">
 		<!-- Decreases P. Def. by 8%, M. Def. by 16%, and evasion by 4, and increases P. Atk. by 8%, M. Atk. by 16%, Atk. Spd. by 8%, Casting Spd. by 8%, and moving speed by 8 for 1 hour. -->
 		<!-- Update by pmq -->
 		<set name="target" val="TARGET_SELF" />
@@ -562,7 +562,7 @@
 			</effect>
 		</for>
 	</skill>
-	<skill id="22150" levels="1" name="Female Aniruddha's Magic Barrier">
+	<skill id="22150" levels="1" name="圓滿如意-魔法屏障">
 		<!-- Increases magic resistance by 30% for 1 hour. -->
 		<!-- Update by pmq -->
 		<set name="target" val="TARGET_SELF" />
@@ -574,7 +574,7 @@
 			</effect>
 		</for>
 	</skill>
-	<skill id="22151" levels="1" name="Chinese Feast Blessed Soul">
+	<skill id="22151" levels="1" name="金玉滿堂-神佑之魂">
 		<!-- Increases Max MP by 35% for 1 hour. -->
 		<!-- Update by pmq -->
 		<set name="target" val="TARGET_SELF" />
@@ -586,7 +586,7 @@
 			</effect>
 		</for>
 	</skill>
-	<skill id="22152" levels="1" name="Chinese Feast Clarity">
+	<skill id="22152" levels="1" name="金玉滿堂-澄澈思緒">
 		<!-- For 1 hour, decreases physical skill MP consumption by 20%, magic skill's MP consumption by 10%, and song/dance skill's MP consumption by 20%. -->
 		<!-- Update by pmq -->
 		<set name="target" val="TARGET_SELF" />
@@ -601,13 +601,13 @@
 			</effect>
 		</for>
 	</skill>
-	<skill id="22153" levels="1" name="Love for All Seasons Wild Magic">
+	<skill id="22153" levels="1" name="百年好合-野性魔力">
 		<!-- For 1 hour, increases by 2 the occurrence rate of damage that is caused by damage magic. -->
 		<set name="target" val="TARGET_NONE" />
 		<set name="skillType" val="NOTDONE" />
 		<set name="operateType" val="OP_PASSIVE" />
 	</skill>
-	<skill id="22154" levels="1" name="Happy New Year Focus">
+	<skill id="22154" levels="1" name="年年有餘-弱點偵測">
 		<!-- Increases Critical attack rate by 30% for 1 hour. -->
 		<!-- Update by pmq -->
 		<set name="target" val="TARGET_SELF" />
@@ -619,7 +619,7 @@
 			</effect>
 		</for>
 	</skill>
-	<skill id="22155" levels="1" name="Female Aniruddha's Blessed Shield">
+	<skill id="22155" levels="1" name="圓滿如意-祝福之盾">
 		<!-- Increases Shield defense rate by 15 for 1 hour. -->
 		<!-- Update by pmq -->
 		<set name="target" val="TARGET_SELF" />
@@ -631,7 +631,7 @@
 			</effect>
 		</for>
 	</skill>
-	<skill id="22156" levels="1" name="Hwa Gei Bu Gwi Decrease Weight">
+	<skill id="22156" levels="1" name="花開富貴-減輕負重">
 		<!-- Increases the weight penalty interval by 9000 for 1 hour. -->
 		<!-- Update by pmq -->
 		<set name="target" val="TARGET_SELF" />
@@ -643,7 +643,7 @@
 			</effect>
 		</for>
 	</skill>
-	<skill id="22157" levels="1" name="Kung Hei Fat Choy Might">
+	<skill id="22157" levels="1" name="恭喜發財-力量強化">
 		<!-- Increases P. Atk. by 15% for 1 hour. -->
 		<!-- Update by pmq -->
 		<set name="target" val="TARGET_SELF" />
@@ -655,14 +655,14 @@
 			</effect>
 		</for>
 	</skill>
-	<skill id="22158" levels="10" name="Rose Petal">
+	<skill id="22158" levels="10" name="紅玫瑰藥草">
 		<!-- Increase HP/MP recovery by 20% for 5 minutes. -->
 		<set name="target" val="TARGET_NONE" />
 		<set name="skillType" val="NOTDONE" />
 		<set name="operateType" val="OP_PASSIVE" />
 		<set name="reuseDelay" val="2000" />
 	</skill>
-	<skill id="22159" levels="1" name="Vesper Super Power">
+	<skill id="22159" levels="1" name="薄暮怪力">
 		<!-- Increases P. Atk. by 15%, M. Atk. by 20% and Speed by 10 for 10 minutes. -->
 		<set name="hitTime" val="100" />
 		<set name="target" val="TARGET_SELF" />
@@ -682,7 +682,7 @@
 			</effect>
 		</for>
 	</skill>
-	<skill id="22160" levels="1" name="Vesper Critical Power">
+	<skill id="22160" levels="1" name="薄暮致命">
 		<!-- Increases Physical critical attack rate by 15, Magical critical attack rate by 2 and Speed by 10 for 10 minutes. 5% of the standard short-range physical damage inflicted on the enemy is recovered as HP. -->
 		<set name="hitTime" val="100" />
 		<set name="target" val="TARGET_SELF" />
@@ -703,7 +703,7 @@
 			</effect>
 		</for>
 	</skill>
-	<skill id="22161" levels="1" name="Invincible Vesper">
+	<skill id="22161" levels="1" name="薄暮不敗">
 		<!-- Increases Atk. Spd. by 20%, Casting Spd. by 20% and Speed by 20 for 10 minutes. -->
 		<set name="hitTime" val="100" />
 		<set name="target" val="TARGET_SELF" />
@@ -723,115 +723,115 @@
 			</effect>
 		</for>
 	</skill>
-	<skill id="22162" levels="1" name="Mt. Fuji Herb">
+	<skill id="22162" levels="1" name="富士山藥草">
 		<!-- Energy is recovered for 10 minutes when acquiring Exp. -->
 		<set name="target" val="TARGET_NONE" />
 		<set name="skillType" val="NOTDONE" />
 		<set name="operateType" val="OP_PASSIVE" />
 		<set name="reuseDelay" val="2000" />
 	</skill>
-	<skill id="22163" levels="1" name="Hawk Herb">
+	<skill id="22163" levels="1" name="老鷹藥草">
 		<!-- Physical Atk Speed is increased by 15% and physical Critical Atk rate is increased by 10% for 10 minutes. -->
 		<set name="target" val="TARGET_NONE" />
 		<set name="skillType" val="NOTDONE" />
 		<set name="operateType" val="OP_PASSIVE" />
 		<set name="reuseDelay" val="2000" />
 	</skill>
-	<skill id="22164" levels="1" name="Eggplant Herb">
+	<skill id="22164" levels="1" name="茄子藥草">
 		<!-- Magic Atk Speed is increased by 10% and magic Critical Rate is increased by 2 for 10 minutes. -->
 		<set name="target" val="TARGET_NONE" />
 		<set name="skillType" val="NOTDONE" />
 		<set name="operateType" val="OP_PASSIVE" />
 		<set name="reuseDelay" val="2000" />
 	</skill>
-	<skill id="22165" levels="1" name="Energy Replenish">
+	<skill id="22165" levels="1" name="能量充電">
 		<!-- 5000 Soul Avatar Energy is replenished. -->
 		<set name="target" val="TARGET_NONE" />
 		<set name="skillType" val="NOTDONE" />
 		<set name="operateType" val="OP_PASSIVE" />
 	</skill>
-	<skill id="22166" levels="1" name="Energy Replenish">
+	<skill id="22166" levels="1" name="能量充電">
 		<!-- 10000 Soul Avatar Energy is replenished. -->
 		<set name="target" val="TARGET_NONE" />
 		<set name="skillType" val="NOTDONE" />
 		<set name="operateType" val="OP_PASSIVE" />
 	</skill>
-	<skill id="22167" levels="1" name="April Fools' Day Vesper Weapon Gift">
+	<skill id="22167" levels="1" name="愚人節薄暮武器禮物">
 		<!-- One among 14 Vesper Weapons will be given. -->
 		<set name="target" val="TARGET_NONE" />
 		<set name="skillType" val="NOTDONE" />
 		<set name="operateType" val="OP_PASSIVE" />
 	</skill>
-	<skill id="22168" levels="1" name="Thirst Quencher">
+	<skill id="22168" levels="1" name="勝利的解渴飲料">
 		<!-- Replenishes an Agathion's energy by 2500 -->
 		<set name="target" val="TARGET_NONE" />
 		<set name="skillType" val="NOTDONE" />
 		<set name="operateType" val="OP_PASSIVE" />
 	</skill>
-	<skill id="22169" levels="1" name="Soccer Ball of Cheers Release">
+	<skill id="22169" levels="1" name="聲援的足球開封">
 		<set name="target" val="TARGET_NONE" />
 		<set name="skillType" val="NOTDONE" />
 		<set name="operateType" val="OP_PASSIVE" />
 	</skill>
-	<skill id="22170" levels="1" name="Hardin's Protection">
+	<skill id="22170" levels="1" name="哈汀的加護">
 		<!-- Maximies P. Def. for 10 seconds. -->
 		<set name="target" val="TARGET_NONE" />
 		<set name="skillType" val="NOTDONE" />
 		<set name="operateType" val="OP_PASSIVE" />
 		<set name="reuseDelay" val="900000" />
 	</skill>
-	<skill id="22171" levels="1" name="Hardin's Blessing">
+	<skill id="22171" levels="1" name="哈汀的祝福">
 		<!-- Maximies M. Def. for 10 seconds. -->
 		<set name="target" val="TARGET_NONE" />
 		<set name="skillType" val="NOTDONE" />
 		<set name="operateType" val="OP_PASSIVE" />
 		<set name="reuseDelay" val="900000" />
 	</skill>
-	<skill id="22172" levels="1" name="Sylphide's Wings">
+	<skill id="22172" levels="1" name="夏菲德的羽翼">
 		<!-- Increases one's own moving speed by 300 for 15 seconds. -->
 		<set name="target" val="TARGET_NONE" />
 		<set name="skillType" val="NOTDONE" />
 		<set name="operateType" val="OP_PASSIVE" />
 		<set name="reuseDelay" val="900000" />
 	</skill>
-	<skill id="22173" levels="1" name="Sylphide's Blessing">
+	<skill id="22173" levels="1" name="夏菲德的祝福">
 		<!-- Increases the moving speed of yourself and friendly nearby targets by 300 for 15 seconds. -->
 		<set name="target" val="TARGET_NONE" />
 		<set name="skillType" val="NOTDONE" />
 		<set name="operateType" val="OP_PASSIVE" />
 		<set name="reuseDelay" val="900000" />
 	</skill>
-	<skill id="22174" levels="1" name="Yibein's Recovery Scroll">
+	<skill id="22174" levels="1" name="伊貝因的恢復卷軸">
 		<!-- Recovers HP of yourself and friendly nearby targets by 500. -->
 		<set name="target" val="TARGET_NONE" />
 		<set name="skillType" val="NOTDONE" />
 		<set name="operateType" val="OP_PASSIVE" />
 		<set name="reuseDelay" val="1800000" />
 	</skill>
-	<skill id="22175" levels="1" name="Rune of Life">
+	<skill id="22175" levels="1" name="生命古文">
 		<!-- When HP falls below 30%, it is restored by 500. -->
 		<set name="target" val="TARGET_NONE" />
 		<set name="skillType" val="NOTDONE" />
 		<set name="operateType" val="OP_PASSIVE" />
 	</skill>
-	<skill id="22176" levels="1" name="Rune of Spirit">
+	<skill id="22176" levels="1" name="精神古文">
 		<!-- When MP falls below 10%, it is restored by 500. -->
 		<set name="target" val="TARGET_NONE" />
 		<set name="skillType" val="NOTDONE" />
 		<set name="operateType" val="OP_PASSIVE" />
 	</skill>
-	<skill id="22177" levels="1" name="Warrior's Breath">
+	<skill id="22177" levels="1" name="勇士的氣息">
 		<set name="target" val="TARGET_NONE" />
 		<set name="skillType" val="NOTDONE" />
 		<set name="operateType" val="OP_PASSIVE" />
 	</skill>
-	<skill id="22178" levels="1" name="Hero's Potion">
+	<skill id="22178" levels="1" name="英雄藥水">
 		<set name="target" val="TARGET_NONE" />
 		<set name="skillType" val="NOTDONE" />
 		<set name="operateType" val="OP_PASSIVE" />
 		<set name="reuseDelay" val="60000" />
 	</skill>
-	<skill id="22179" levels="1" name="Fortuna of Chaos">
+	<skill id="22179" levels="1" name="渾沌幸運箱">
 		<set name="target" val="TARGET_NONE" />
 		<set name="skillType" val="NOTDONE" />
 		<set name="operateType" val="OP_PASSIVE" />
