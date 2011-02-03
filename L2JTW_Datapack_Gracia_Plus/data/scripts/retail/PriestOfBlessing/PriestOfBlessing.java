@@ -37,9 +37,9 @@ public class PriestOfBlessing extends Quest
 	private static final int _priest = 32783;
 	// Prices
 	private static final int _price_voice = 100000;
-	// 
+	//
 	private static final int _nevit_voice = 17094;
-	// 
+	//
 	private static final int[] _prices_hourglass = { 4000, 30000, 110000, 310000, 970000, 2160000, 5000000 };
 	//
 	private static final int[][] _hourglasses = {
@@ -68,7 +68,6 @@ public class PriestOfBlessing extends Quest
 		{-119702,   44557,   360, 33023 },
 		{ 115607, -177945,  -896, 38058 }
 	};
-	
 	
 	@Override
 	public String onAdvEvent(String event, L2Npc npc, L2PcInstance player)
@@ -119,12 +118,12 @@ public class PriestOfBlessing extends Quest
 			{
 				String value = q.loadGlobalQuestVar(player.getAccountName()+"_hg_"+_index);
 				long _reuse_time = value == "" ? 0 : Long.parseLong(value);
-								
+				
 				if (System.currentTimeMillis() > _reuse_time)
 				{
 					int[] _hg = _hourglasses[_index];
 					int _nevit_hourglass = _hg[Rnd.get(0,_hg.length-1)];
-
+					
 					st.setState(State.STARTED);
 					st.takeItems(57, _price_hourglass);
 					st.giveItems(_nevit_hourglass, 1);
@@ -162,6 +161,7 @@ public class PriestOfBlessing extends Quest
 		String content = getHtm(player.getHtmlPrefix(), "32783.htm");
 		html.setHtml(content);
 		html.replace("%donate%", Util.formatAdena(_prices_hourglass[getHGIndex(player.getLevel())]));
+		html.replace("%lv%", String.valueOf(player.getLevel()));
 		player.sendPacket(html);
 		return null;
 	}
