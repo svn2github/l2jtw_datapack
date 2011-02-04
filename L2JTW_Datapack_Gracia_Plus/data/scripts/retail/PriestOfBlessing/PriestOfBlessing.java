@@ -135,7 +135,7 @@ public class PriestOfBlessing extends Quest
 					int hours = (int) (remainingTime / 3600);
 					int minutes = (int) ((remainingTime % 3600) / 60);
 					SystemMessage sm = SystemMessage.getSystemMessage(SystemMessageId.AVAILABLE_AFTER_S1_S2_HOURS_S3_MINUTES);
-					sm.addString("Nevit's Hourglass");
+					sm.addString("©`¤ñ¯S¨Fº|");
 					sm.addNumber(hours);
 					sm.addNumber(minutes);
 					player.sendPacket(sm);
