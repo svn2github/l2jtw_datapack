@@ -213,3 +213,7 @@ for id in NPCID:
 	QUEST.addStartNpc(id)
 	QUEST.addFirstTalkId(id)
 	QUEST.addTalkId(id)
+
+print "¡½¡½¡½¡½¡½¡½¡½¡½¡½¡½¡½¡½¡½¡½¡½¡½"
+print "¡½¡@¡@¸ü¤J   Rebirth_v0.10¡@¡@¡½"
+print "¡½¡½¡½¡½¡½¡½¡½¡½¡½¡½¡½¡½¡½¡½¡½¡½"
