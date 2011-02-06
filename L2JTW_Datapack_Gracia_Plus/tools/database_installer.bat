@@ -1,4 +1,14 @@
 @echo off
+REM 防止從聖翼使命更新到芙蕾雅後,因DP的大變動而造成GS出錯
+IF EXIST "C:\L2JTW-SVN\L2JTW_GameServer_Gracia" RD /S /Q "C:\L2JTW-SVN\L2JTW_GameServer_Gracia"
+IF EXIST "C:\L2JTW-SVN\L2JTW_GameServer_Gracia" RMDIR /S /Q "C:\L2JTW-SVN\L2JTW_GameServer_Gracia"
+IF EXIST "..\gameserver\data\stats\armor"   RD /S /Q "..\gameserver\data\stats\armor"
+IF EXIST "..\gameserver\data\stats\etcitem" RD /S /Q "..\gameserver\data\stats\etcitem"
+IF EXIST "..\gameserver\data\stats\weapon"  RD /S /Q "..\gameserver\data\stats\weapon"
+IF EXIST "..\gameserver\data\stats\skills\??00-??99.xml"  DEL /Q "..\gameserver\data\stats\skills\??00-??99.xml"
+IF EXIST "..\gameserver\data\stats\armor"   RMDIR /S /Q "..\gameserver\data\stats\armor"
+IF EXIST "..\gameserver\data\stats\etcitem" RMDIR /S /Q "..\gameserver\data\stats\etcitem"
+IF EXIST "..\gameserver\data\stats\weapon"  RMDIR /S /Q "..\gameserver\data\stats\weapon"
 REM ##############################################
 REM ## L2JDP Database Installer - (by DrLecter) ##
 REM ##############################################
