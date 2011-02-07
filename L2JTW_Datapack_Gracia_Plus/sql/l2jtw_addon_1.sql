@@ -1,7 +1,8 @@
 /************ Made in Taiwan ************/
 
 -- 加入漏掉的32007加爾巴-釣魚會員
-REPLACE INTO `spawnlist` (location,count,npc_templateid,locx,locy,locz,randomx,randomy,heading,respawn_delay,loc_id,periodOfDay) VALUES
+DELETE FROM `spawnlist` WHERE `npc_templateid` = 32007;
+INSERT INTO `spawnlist` (location,count,npc_templateid,locx,locy,locz,randomx,randomy,heading,respawn_delay,loc_id,periodOfDay) VALUES
 ('',1,32007,140967,-123600,-1905,0,0,11829,60,0,0);
 REPLACE INTO `merchant_shopids` VALUES (3200700,32007);
 REPLACE INTO `merchant_buylists` (`item_id`,`price`,`shop_id`,`order`) VALUES
@@ -62,7 +63,8 @@ INSERT INTO `spawnlist` (location,count,npc_templateid,locx,locy,locz,randomx,ra
 ('schuttgart', 1, 30767, 85792, -142809, -1341, 0, 0, 10508, 60, 0, 0);        -- 拍賣管理者(修加特城鎮)
 
 -- 加入漏掉的NPC
-REPLACE INTO `spawnlist` (location,count,npc_templateid,locx,locy,locz,randomx,randomy,heading,respawn_delay,loc_id,periodOfDay) VALUES
+DELETE FROM `spawnlist` WHERE `npc_templateid` IN (32478,31691);
+INSERT INTO `spawnlist` (location,count,npc_templateid,locx,locy,locz,randomx,randomy,heading,respawn_delay,loc_id,periodOfDay) VALUES
 ('', 1, 32478, 17735, 169802, -3495, 0, 0, 19465, 60, 0, 0),    -- 維他命管理者(芙羅蘭村莊)
 ('', 1, 31691, 86123, -145764, -1292, 0, 0, 0, 60, 0, 0),       -- 訓練用草人(修加特城鎮的戰士公會)
 ('', 1, 31691, 86123, -145628, -1295, 0, 0, 0, 60, 0, 0),       -- 訓練用草人(修加特城鎮的戰士公會)
@@ -76,9 +78,9 @@ REPLACE INTO `spawnlist` (location,count,npc_templateid,locx,locy,locz,randomx,r
 ('', 1, 31691, 86315, -145220, -1292, 0, 0, 0, 60, 0, 0);       -- 訓練用草人(修加特城鎮的戰士公會)
 
 -- 修正地下競技場的入場管理員
-DELETE FROM `spawnlist` WHERE `npc_templateid` = 32377;         -- 刪除錯誤的入場管理員
+DELETE FROM `spawnlist` WHERE `npc_templateid` IN (32491,32503,32513,32514,32515,32516,32377); -- 刪除錯誤的入場管理員
 UPDATE `npc` SET `type` = 'L2Teleporter' WHERE `id` IN (32503); -- 柯雷塔的晶體的類型改為傳送
-REPLACE INTO `spawnlist` (location,count,npc_templateid,locx,locy,locz,randomx,randomy,heading,respawn_delay,loc_id,periodOfDay) VALUES
+INSERT INTO `spawnlist` (location,count,npc_templateid,locx,locy,locz,randomx,randomy,heading,respawn_delay,loc_id,periodOfDay) VALUES
 ('', 1, 32491, -82166, -49176, -10341, 0, 0, 31175, 60, 0, 0),  -- 地下競技場助手
 ('', 1, 32503, -70661, -71066, -1419, 0, 0, 49151, 60, 0, 0),   -- 柯雷塔的晶體
 ('', 1, 32513, -84640, -45360, -10728, 0, 0, 56156, 60, 0, 0),  -- 孔     入場管理員
