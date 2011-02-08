@@ -46,12 +46,12 @@ KEY            = 9714   # 惡魔刻紋鑰匙
 
 AMASKARI_TEXT = ["蠢材，死亡等待著你！","小人，真讓人驚奇","首先，我殺了你來換取當地人自由","主人巴列斯不會很高興","原來是你..."]
 
-LOCS = [
-		[14479,250398,-1940],
-		[15717,252399,-2013],
-		[19800,256230,-2091],
-		[17214,252770,-2015],
-		[21967,254035,-2010]
+KLOCS = [
+		[14264,250333,-1935,15133],
+		[19961,256249,-2086,47344],
+		[17271,252888,-2010,64381],
+		[15784,252413,-2010,49254],
+		[22029,254160,-2005,60246]
 ]
 
 ReturnPort = [[16278,283633,-9709]]
@@ -92,71 +92,26 @@ def checkCondition(player):
 		return False
 	return True
 
-def teleportplayer(self,player,teleto):
+def teleportPlayer(self,player,teleto):
 	player.setInstanceId(teleto.instanceId)
-	player.teleToLocation(teleto.x, teleto.y, teleto.z)
+	player.teleToLocation(teleto.x,teleto.y,teleto.z)
 	pet = player.getPet()
 	if pet != None :
 		pet.setInstanceId(teleto.instanceId)
-		pet.teleToLocation(teleto.x, teleto.y, teleto.z)
+		pet.teleToLocation(teleto.x,teleto.y,teleto.z)
 	return
 
-def enterInstance(self,player,template,teleto,quest):
+def getExistingInstanceId(player):
 	instanceId = 0
-	if not checkCondition(player):
-		return instanceId
 	party = player.getParty()
-	if party != None :
-		channel = party.getCommandChannel()
-		if channel != None :
-			members = channel.getMembers().toArray()
-		else:
-			members = party.getPartyMembers().toArray()
-	else:
-		members = []
-	#check for exising instances of party members or channel members
-	for member in members :
-		if member.getInstanceId()!= 0 :
-			instanceId = member.getInstanceId()
-	#exising instance
-	if instanceId != 0:
-		foundworld = False
-		for worldid in self.world_ids:
-			if worldid == instanceId:
-				foundworld = True
-		if not foundworld:
-			player.sendPacket(SystemMessage.sendString("你的隊員已進入其它的即時地區。"))
-			return 0
-		teleto.instanceId = instanceId
-		teleportplayer(self,player,teleto)
-		return instanceId
-	else:
-		instanceId = InstanceManager.getInstance().createDynamicInstance(template)
-		if not self.worlds.has_key(instanceId):
-			world = PyObject()
-			world.rewarded=[]
-			world.instanceId = instanceId
-			world.instanceFinished = False
-			world.guardsSpawned = False
-			world.status = 0
-			self.worlds[instanceId] = world
-			self.world_ids.append(instanceId)
-			print "地獄舊市區：使用 " + template + "  即時地區：" +str(instanceId) + " 創造玩家：" + str(player.getName())
-			newNpc = self.addSpawn(AMASKARI,19496,253125,-2030,0,False,0,False,instanceId)
-			quest.amaskari = newNpc
-			quest.amaskariattacked = False
-			loc = LOCS[Rnd.get(len(LOCS))]
-			newNpc = self.addSpawn(KEYMASTER,loc[0],loc[1],loc[2],0,False,0,False,instanceId)
-			quest.keymaster = newNpc
-			quest.startQuestTimer("keySpawn1", 300000, None, None)
-			quest.keymasterattacked = False
-		# teleports player
-		teleto.instanceId = instanceId
-		teleportplayer(self,player,teleto)
-		return instanceId
+	if party == None:
+		return 0
+	for partyMember in party.getPartyMembers().toArray():
+		if partyMember.getInstanceId()!=0:
+			instanceId = partyMember.getInstanceId()
 	return instanceId
 
-def exitInstance(player, tele):
+def exitInstance(player,tele):
 	player.setInstanceId(0)
 	player.teleToLocation(tele.x, tele.y, tele.z)
 	pet = player.getPet()
@@ -164,7 +119,7 @@ def exitInstance(player, tele):
 		pet.setInstanceId(0)
 		pet.teleToLocation(tele.x, tele.y, tele.z)
 
-class Quest(JQuest) :
+class Quest(JQuest):
 
 	def __init__(self, id, name, descr):
 		JQuest.__init__(self, id, name, descr)
@@ -183,21 +138,13 @@ class Quest(JQuest) :
 		self.saveGlobalQuestVar("trust10p", str(self.trustp))
 		if HellboundManager.getInstance().getLevel() == 10: self.startQuestTimer("CheckTrustP", 60000, None, None, True)
 
-	def onAdvEvent (self, event, npc, player) :
+	def onAdvEvent(self, event, npc, player):
 		if event == "CheckTrustP":
 			if self.trustp >= 500000:
 				HellboundManager.getInstance().changeLevel(11)
 				self.trustp = 0
 				self.saveGlobalQuestVar("trust10p", str(self.trustp))
 				self.cancelQuestTimers("CheckTrustP")
-		elif event == "keySpawn1" or event == "keySpawn2":
-			self.startQuestTimer("keySpawn2", 300000, None, None)
-			loc = LOCS[Rnd.get(len(LOCS))]
-			self.keymaster.teleToLocation(loc[0],loc[1],loc[2])
-			if event == "keySpawn1":
-				self.startQuestTimer("keySpawn2", 300000, None, None)
-			else:
-				self.startQuestTimer("keySpawn1", 300000, None, None)
 		elif event == "decayNpc":
 			npc.decayMe()
 		elif event == "NATIVESay":
@@ -209,7 +156,7 @@ class Quest(JQuest) :
 			world = self.worlds[npc.getInstanceId()]
 			sayNpc = npc.getObjectId()
 			npc.broadcastPacket(NpcSay(sayNpc, 0, npc.getNpcId(), "多謝幫助！看守者馬上就要來了快躲起來..."))
-			self.startQuestTimer("decayNpc", 15000, npc, None)
+			self.startQuestTimer("decayNpc", 5000, npc, None)
 			chance = Rnd.get(100)
 			if chance <= 30:
 				if not world.guardsSpawned:
@@ -238,72 +185,78 @@ class Quest(JQuest) :
 				return "32343-1.htm"
 		return
 
-	def onSpawn(self, npc):
+	def onSpawn(self,npc):
 		npcId = npc.getNpcId()
 		objId = npc.getObjectId()
 		if npcId == AMASKARI:
 			self.Prisonslaves = []
 			self.Slaves[objId] = []
 			self.Slaves[objId].append("noSlaves")
-			xx, yy, zz = npc.getX(), npc.getY(), npc.getZ()
+			xx,yy,zz = npc.getX(),npc.getY(),npc.getZ()
 			self.Slaves[objId] = []
 			for i in range(9):
 				offsetX = xx + (50 - Rnd.get(250))
 				offsetY = yy + (50 - Rnd.get(250))
-				newSlave = self.addSpawn(22450, offsetX, offsetY, zz, 0, False, 0, False, npc.getInstanceId())
+				newSlave = self.addSpawn(22450,offsetX,offsetY,zz,0,False,0,False,npc.getInstanceId())
 				newSlave.setRunning()
 				newSlave.getAI().setIntention(CtrlIntention.AI_INTENTION_FOLLOW, npc)
 				self.Slaves[objId].append(newSlave)
 
-	def onTalk (self, npc, player) :
+	def onTalk(self, npc, player):
 		npcId = npc.getNpcId()
 		st = player.getQuestState(qn)
 		if not st :
 			st = self.newQuestState(player)
 		hellboundLevel = HellboundManager.getInstance().getLevel()
 		if hellboundLevel < 10: return "<html><body>卡納夫：<br>你是誰？...<br>快滾開，我不想和你說話！</body></html>"
-		if npcId == 32346 :
+		if npcId == KANAF :
 			party = player.getParty()
 			if not party:
 				return "32346-0.htm"
+			if not checkCondition(player):
+				return
 			else :
 				tele = PyObject()
 				tele.x = 14205
 				tele.y = 255451
 				tele.z = -2025
-				enterInstance(self, player, "HBTown.xml", tele, self)
-				party = player.getParty()
-				if party :
-					for partyMember in party.getPartyMembers().toArray() :
-						st = partyMember.getQuestState(qn)
-						if not st : st = self.newQuestState(partyMember)
-		return
-
-	def onAttack(self, npc, player, damage, isPet, skill):
-		st = player.getQuestState(qn)
-		npcId = npc.getNpcId()
-		objId = npc.getObjectId()
-		maxHp = npc.getMaxHp()
-		nowHp = npc.getStatus().getCurrentHp()
-		if npcId == AMASKARI:
-			if (nowHp < maxHp * 0.1):
-				if self.Lock == 0:
-					npc.broadcastPacket(CreatureSay(objId, 0, npc.getName(), "我將讓大家和我一樣的痛苦！"))
-					self.Lock = 1
-		elif npcId == KEYMASTER :
-			if not self.keymasterattacked:
-				self.keymasterattacked = True
-				self.amaskari.teleToLocation(player.getX(),player.getY(),player.getZ())
-				self.amaskari.setTarget(player)
-				objId = self.amaskari.getObjectId()
-				self.amaskari.broadcastPacket(NpcSay(objId, 0, self.amaskari.getNpcId(), AMASKARI_TEXT[Rnd.get(len(AMASKARI_TEXT))]))
-				self.startQuestTimer("NATIVESay", 5000, npc, None)
-		elif npcId == NATIVE :
-			if self.NATIVELock == 0:
-				npc.broadcastPacket(CreatureSay(objId, 0, npc.getName(), "嘿...好痛...好痛...啊！"))
-				self.NATIVELock = 1
-		if self.worlds.has_key(npc.getInstanceId()):
-			world = self.worlds[npc.getInstanceId()]
+				instanceId = getExistingInstanceId(player)
+				if instanceId == 0:
+					instanceId = InstanceManager.getInstance().createDynamicInstance("HBTown.xml")
+					if not self.worlds.has_key(instanceId):
+						world = PyObject()
+						world.rewarded=[]
+						world.instanceId = instanceId
+						world.instanceFinished = False
+						world.guardsSpawned = False
+						self.worlds[instanceId] = world
+						self.world_ids.append(instanceId)
+						self.currentWorld = instanceId
+						print "地獄舊市區：使用即時地區：" +str(instanceId) + " 創造玩家：" + str(player.getName())
+						KLOC = KLOCS[Rnd.get(len(KLOCS))]
+						newKeymaster = self.addSpawn(KEYMASTER,KLOC[0],KLOC[1],KLOC[2],KLOC[3],False,0,False,world.instanceId)
+						self.keymaster = newKeymaster
+						self.keymasterattacked = False
+						newAmaskari = self.addSpawn(AMASKARI,19496,253125,-2030,0,False,0,False,world.instanceId)
+						self.amaskari = newAmaskari
+						self.amaskariattacked = False
+						tele.instanceId = instanceId
+						teleportPlayer(self,player,tele)
+						party = player.getParty()
+						if party != None:
+							for partyMember in party.getPartyMembers().toArray():
+								teleportPlayer(self,partyMember,tele)
+				else:
+					for worldid in self.world_ids:
+						if worldid == instanceId:
+							foundworld = True
+						if not worldid == instanceId:
+							foundworld = False
+					if not foundworld:
+						player.sendPacket(SystemMessage.sendString("你的隊員已進入其它的即時地區。"))
+						return
+					tele.instanceId = instanceId
+					teleportPlayer(self,player,tele)
 		return
 
 	def onKill(self, npc, player, isPet):
@@ -340,6 +293,7 @@ class Quest(JQuest) :
 			HellboundManager.getInstance().increaseTrust(-10)
 			self.trustp -= 10
 			self.saveGlobalQuestVar("trust10p", str(self.trustp))
+			self.Lock = 0
 		if npcId == PRISONER:
 			HellboundManager.getInstance().increaseTrust(-10)
 			self.trustp -= 10
@@ -352,6 +306,33 @@ class Quest(JQuest) :
 			world = self.worlds[npc.getInstanceId()]
 		return
 
+	def onAttack(self, npc, player, damage, isPet, skill):
+		st = player.getQuestState(qn)
+		npcId = npc.getNpcId()
+		objId = npc.getObjectId()
+		maxHp = npc.getMaxHp()
+		nowHp = npc.getStatus().getCurrentHp()
+		if npcId == AMASKARI:
+			if (nowHp < maxHp * 0.1):
+				if self.Lock == 0:
+					npc.broadcastPacket(CreatureSay(objId, 0, npc.getName(), "我將讓大家和我一樣的痛苦！"))
+					self.Lock = 1
+		if npcId == KEYMASTER :
+			if not self.keymasterattacked:
+				self.keymasterattacked = True
+				self.amaskari.teleToLocation(player.getX(),player.getY(),player.getZ())
+				self.amaskari.setTarget(player)
+				objId = self.amaskari.getObjectId()
+				self.amaskari.broadcastPacket(NpcSay(objId, 0, self.amaskari.getNpcId(), AMASKARI_TEXT[Rnd.get(len(AMASKARI_TEXT))]))
+				self.startQuestTimer("NATIVESay", 5000, npc, None)
+		if npcId == NATIVE :
+			if self.NATIVELock == 0:
+				npc.broadcastPacket(CreatureSay(objId, 0, npc.getName(), "嘿...好痛...好痛...啊！"))
+				self.NATIVELock = 1
+		if self.worlds.has_key(npc.getInstanceId()):
+			world = self.worlds[npc.getInstanceId()]
+		return
+
 QUEST = Quest(-1, qn, "hellbound")
 
 for id in [32343,32346,32358] :
@@ -360,8 +341,11 @@ for id in [32343,32346,32358] :
 for id in [32343,32346,32358] :
 	QUEST.addTalkId(id)
 
+for i in LIST:
+    QUEST.addKillId(i)
+
 for mob in [22361,22449,22450] :
 	QUEST.addAttackId(mob)
 
-for mob in [22359,22360,22361,22449,22450] :
+for mob in [22361,22449,22450] :
 	QUEST.addKillId(mob)
