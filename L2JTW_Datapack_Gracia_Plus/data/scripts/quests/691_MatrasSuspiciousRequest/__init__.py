@@ -87,6 +87,9 @@ class Quest (JQuest) :
 				else :
 					htmltext = "32245-04.htm"
 					st.set("talk","0")
+			else :
+				htmltext = "32245-04.htm"
+				st.set("talk","0")
 		return htmltext
 
 	def onKill(self, npc, player, isPet) :

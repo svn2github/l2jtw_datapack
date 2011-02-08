@@ -224,13 +224,13 @@ class Quest(JQuest) :
 		elif event == "key":
 			world = self.worlds[npc.getInstanceId()]
 			if not world.instanceFinished:
-				key = player.getInventory().getItemByItemId(KEY);
+				key = player.getInventory().getItemByItemId(KEY)
 				if key != None:
 					world.instanceFinished = True
-					player.destroyItemByItemId("Moonlight Stone", KEY, 1, player, True);
+					player.destroyItemByItemId("Moonlight Stone", KEY, 1, player, True)
 					instance = InstanceManager.getInstance().getInstance(npc.getInstanceId())
 					if instance != None:
-						instance.setDuration(30000)
+						instance.setDuration(300000)
 						instance.setReturnTeleport(ReturnPort[dataIndex][0],ReturnPort[dataIndex][1],ReturnPort[dataIndex][2])
 				else :
 					return "32343-2.htm"
@@ -279,17 +279,6 @@ class Quest(JQuest) :
 						if not st : st = self.newQuestState(partyMember)
 		return
 
-	def onFirstTalk (self, npc, player) :
-		world = self.worlds[npc.getInstanceId()]
-		npcId = npc.getNpcId()
-		party = player.getParty()
-		if party :
-			for partyMember in party.getPartyMembers().toArray() :
-				st = partyMember.getQuestState(qn)
-				if not st : st = self.newQuestState(partyMember)
-				if npcId == STELE :
-					return "32343.htm" 
-
 	def onAttack(self, npc, player, damage, isPet, skill):
 		st = player.getQuestState(qn)
 		npcId = npc.getNpcId()
@@ -330,7 +319,7 @@ class Quest(JQuest) :
 				dropItem(player,npc,9714,1)
 			else:
 				npc.broadcastPacket(NpcSay(objId, 0, npc.getNpcId(), "你永遠都不能得到我的..鑰匙！"))
-		elif npcId == AMASKARI:
+		if npcId == AMASKARI:
 			if HellboundManager.getInstance().getLevel() <= 11:
 				HellboundManager.getInstance().increaseTrust(500)
 				self.trustp += 500
@@ -347,15 +336,15 @@ class Quest(JQuest) :
 					self.Slaves[objId] = []
 			except:
 				pass
-		elif npcId == NATIVE:
+		if npcId == NATIVE:
 			HellboundManager.getInstance().increaseTrust(-10)
 			self.trustp -= 10
 			self.saveGlobalQuestVar("trust10p", str(self.trustp))
-		elif npcId == PRISONER:
+		if npcId == PRISONER:
 			HellboundManager.getInstance().increaseTrust(-10)
 			self.trustp -= 10
 			self.saveGlobalQuestVar("trust10p", str(self.trustp))
-		elif npcId in LIST:
+		if npcId in LIST:
 			HellboundManager.getInstance().increaseTrust(20)
 			self.trustp += 20
 			self.saveGlobalQuestVar("trust10p", str(self.trustp))
@@ -365,14 +354,11 @@ class Quest(JQuest) :
 
 QUEST = Quest(-1, qn, "hellbound")
 
-QUEST.addStartNpc(32346)
-QUEST.addStartNpc(32358)
+for id in [32343,32346,32358] :
+	QUEST.addStartNpc(id)
 
-QUEST.addFirstTalkId(32343)
-
-QUEST.addTalkId(32346)
-QUEST.addTalkId(32343)
-QUEST.addTalkId(32358)
+for id in [32343,32346,32358] :
+	QUEST.addTalkId(id)
 
 for mob in [22361,22449,22450] :
 	QUEST.addAttackId(mob)
