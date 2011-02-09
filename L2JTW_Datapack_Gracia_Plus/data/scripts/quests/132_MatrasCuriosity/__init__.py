@@ -1,9 +1,10 @@
 # Update by pmq 08-07-2010
 
 import sys
-from com.l2jserver.gameserver.model.quest           import State
-from com.l2jserver.gameserver.model.quest           import QuestState
-from com.l2jserver.gameserver.model.quest.jython    import QuestJython as JQuest
+from com.l2jserver.gameserver.instancemanager    import HellboundManager
+from com.l2jserver.gameserver.model.quest        import State
+from com.l2jserver.gameserver.model.quest        import QuestState
+from com.l2jserver.gameserver.model.quest.jython import QuestJython as JQuest
 
 qn = "132_MatrasCuriosity"
 
@@ -29,15 +30,28 @@ class Quest (JQuest) :
 
 	def __init__(self, id, name, descr) : 
 		JQuest.__init__(self, id, name, descr)
+		self.questItemIds = [PRINCESBLUEPRINT,RANKUSBLUEPRINT]
 
 	def onAdvEvent (self, event, npc, player) :
 		st = player.getQuestState(qn)
 		if not st: return
 		htmltext = event
-		if event == "32245-02.htm" :
+		if event == "32245-03.htm" :
 			st.set("cond","1")
 			st.playSound("ItemSound.quest_accept")
 			st.setState(State.STARTED)
+		elif event == "32245-07.htm" :
+			st.giveItems(ROUGHOREOFFIRE,1)
+			st.giveItems(ROUGHOREOFWATER,1)
+			st.giveItems(ROUGHOREOFTHEEARTH,1)
+			st.giveItems(ROUGHOREOFWIND,1)
+			st.giveItems(ROUGHOREOFDARKNESS,1)
+			st.giveItems(ROUGHOREOFDIVINITY,1)
+			st.giveItems(57,65884)
+			st.addExpAndSp(50541,5094)
+			st.unset("cond")
+			st.exitQuest(False)
+			st.playSound("ItemSound.quest_finish")
 		return htmltext
 
 	def onTalk (self, npc, player) :
@@ -54,39 +68,28 @@ class Quest (JQuest) :
 				htmltext = "<html><body>這是已經完成的任務。</body></html>"
 		elif id == State.CREATED :
 			if npcId == MATRAS and cond == 0 :
+				hellboundLevel = HellboundManager.getInstance().getLevel()
+				if hellboundLevel < 9:
+					htmltext="32245-00.htm"
+					st.exitQuest(1)
 				if player.getLevel() >= 76 :
 					htmltext="32245-01.htm"
 				else :
-					htmltext="32245-00.htm"
+					htmltext="32245-02.htm"
 					st.exitQuest(1)
 		elif id == State.STARTED :
 			if npcId == MATRAS :
 				if cond == 1 :
-					if st.getQuestItemsCount(PRINCESBLUEPRINT) == 1 and st.getQuestItemsCount(RANKUSBLUEPRINT) == 1 :
-						htmltext = ""
-						st.set("cond","2")
-						st.playSound("ItemSound.quest_middle")
-					else :
-						htmltext = "32245-03.htm"
-				elif cond == 2 :
 					htmltext = "32245-04.htm"
-					st.takeItems(RANKUSBLUEPRINT,-1)
-					st.takeItems(PRINCESBLUEPRINT,-1)
-					st.set("cond","3")
-					st.playSound("ItemSound.quest_middle")
+				elif cond == 2 :
+					if st.getQuestItemsCount(PRINCESBLUEPRINT) >= 1 and st.getQuestItemsCount(RANKUSBLUEPRINT) >= 1 :
+						htmltext = "32245-05.htm"
+						st.takeItems(RANKUSBLUEPRINT,-1)
+						st.takeItems(PRINCESBLUEPRINT,-1)
+						st.set("cond","3")
+						st.playSound("ItemSound.quest_middle")
 				elif cond == 3 :
-					htmltext = "32245-05.htm"
-					st.giveItems(ROUGHOREOFFIRE,1)
-					st.giveItems(ROUGHOREOFWATER,1)
-					st.giveItems(ROUGHOREOFTHEEARTH,1)
-					st.giveItems(ROUGHOREOFWIND,1)
-					st.giveItems(ROUGHOREOFDARKNESS,1)
-					st.giveItems(ROUGHOREOFDIVINITY,1)
-					st.giveItems(57,65884)
-					st.addExpAndSp(50541,5094)
-					st.unset("cond")
-					st.exitQuest(False)
-					st.playSound("ItemSound.quest_finish")
+					htmltext = "32245-06.htm"
 		return htmltext
 
 	def onKill(self, npc, player, isPet) :
