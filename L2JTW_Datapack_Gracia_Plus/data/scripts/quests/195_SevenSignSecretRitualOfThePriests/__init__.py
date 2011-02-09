@@ -34,7 +34,7 @@ class Quest (JQuest):
 	def __init__(self,id,name,descr):
 		JQuest.__init__(self,id,name,descr)
 		self.questItemIds = [IdentityCard, EmperorShunaimanContract]
-		SCROLL = 0
+		self.SCROLL = 0
 
 	def onAdvEvent (self,event,npc,player):
 		htmltext = event
@@ -108,13 +108,13 @@ class Quest (JQuest):
 				elif cond == 3:
 					htmltext = "30289-06.htm"
 				elif cond == 4:
-					if SCROLL == 0:  # Fix Bug Scroll of Escape
+					if self.SCROLL == 0:  # Fix Bug Scroll of Escape
 						if st.getQuestItemsCount(EmperorShunaimanContract) == 1 and st.getQuestItemsCount(ScrollofEscape) == 0 :
 							htmltext = "30289-08.htm"
 							player.stopAllEffects()
 							st.giveItems(ScrollofEscape,1)
 							st.playSound("ItemSound.quest_middle")
-							SCROLL = 1
+							self.SCROLL = 1
 						else :
 							player.stopAllEffects()
 							htmltext = "30289-08.htm"

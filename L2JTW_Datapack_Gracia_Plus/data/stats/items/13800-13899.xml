@@ -139,9 +139,10 @@
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_stackable" val="true" />
+		<set name="handler" val="ItemSkills" /><!-- update by pmq -->
 		<set name="item_skill" val="2633-1" />
 	</item>
-	<item id="13809" type="Weapon" name="Court Magician's Magic Staff">
+	<item id="13809" type="EtcItem" name="Court Magician's Magic Staff"><!-- update by pmq -->
 		<set name="icon" val="icon.weapon_apprentices_rod_i00" />
 		<set name="default_action" val="skill_reduce" />
 		<set name="etcitem_type" val="elixir" />
@@ -150,9 +151,10 @@
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_stackable" val="true" />
+		<set name="handler" val="ItemSkills" /><!-- update by pmq -->
 		<set name="item_skill" val="2634-1" />
-		<for>
-		</for>
+		<!-- update by pmq -->
+		<!-- update by pmq -->
 	</item>
 	<item id="13810" type="EtcItem" name="High Priest Orven's Letter">
 		<set name="icon" val="icon.etc_letter_envelope_i00" />

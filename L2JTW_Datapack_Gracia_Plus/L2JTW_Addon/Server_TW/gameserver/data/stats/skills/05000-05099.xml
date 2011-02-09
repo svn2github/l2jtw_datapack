@@ -1253,10 +1253,17 @@
 		</for>
 	</skill>
 	<skill id="5088" levels="1" name="信號">
-		<set name="target" val="TARGET_NONE" />
-		<set name="skillType" val="NOTDONE" />
-		<set name="operateType" val="OP_PASSIVE" />
-		<set name="hitTime" val="1000" />
+		<set name="target" val="TARGET_AURA"/>
+		<set name="skillRadius" val="1100"/>
+		<set name="skillType" val="AGGDAMAGE"/>
+		<set name="operateType" val="OP_ACTIVE"/>
+		<set name="castRange" val="-1"/>
+		<set name="effectRange" val="-1"/>
+		<set name="power" val="2000"/>
+		<set name="hitTime" val="1000"/>
+		<for>
+			<effect count="1" name="TargetMe" time="1" val="0"/>
+		</for>
 	</skill>
 	<skill id="5089" levels="1" name="展示-賽爾蘭巢穴入場任務">
 		<set name="target" val="TARGET_SELF" />
