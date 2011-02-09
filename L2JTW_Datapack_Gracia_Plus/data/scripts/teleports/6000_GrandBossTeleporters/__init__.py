@@ -63,14 +63,14 @@ class Quest (JQuest) :
                 st = player.getQuestState(qn)
                 if st.getQuestItemsCount(3865) > 0 :
                     st.takeItems(3865,1)
-                    zone = GrandBossManager.getInstance().getZone(181323,114850,-7618) #Update by rocknow
+                    zone = GrandBossManager.getInstance().getZone(179700,113800,-7709)
                     if zone : 
                         zone.allowPlayerEntry(player,30)
-                    x = 174170 + Rnd.get(260)      #Update by rocknow
-                    y = 113983 + Rnd.get(1500)     #Update by rocknow
+                    x = 179700 + Rnd.get(700) 
+                    y = 113800 + Rnd.get(2100) 
                     player.teleToLocation(x,y,-7709)
                     if status == 0 :
-                        self.antharasAI.startQuestTimer("waiting",0, npc, None)        #Update by rocknow
+                        self.antharasAI.setAntharasSpawnTask()
                     return
                 else :
                     htmltext = "13001-03.htm"

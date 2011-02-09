@@ -44,23 +44,6 @@ public class MC_Show extends Quest
 	private static int[] individuals = {32439,32440,32441};
 	private static int[] showstuff = {32424,32425,32426,32427,32428};
 	private static boolean isStarted = false;
-	/*private static String[] text = {
-		"怎麼沒人咧...表演馬上就要開始了...哼",
-		"啊，真令人不耐的緊張感...表演馬上就要開始了...哼",
-		"今天非常感謝各位來到此地。","今天能特別為各位帶來表演，真是感到萬分的榮幸。",
-		"我們夢幻島為了帶給大家歡樂，一直都是全力以赴。",
-		"來，那麼我來介紹一下，我們為了使表演更出色而翻遍整個亞丁才找來，最棒的美女歌手-萊伊拉美羅小姐！",
-		"掌 聲 歡 迎~","非常感謝萊伊拉美羅小姐帶來的歌曲。那麼接下來是",
-		"首先介紹的是，特別邀請而來、剛結束世界巡迴表演的夢幻島技藝團！",
-		"各位，請~出場。","有好好欣賞嗎？真是既可愛又出色的表演。",
-		"接下來我們邀請了各地擁有非凡才華的人士。","我們來歡迎一下吧，第一位請出場。",
-		"...嗯","好，我們歡迎下一位參加者，請出場。",
-		"哦哦，這次好像非常了不起喔？", "呃...",
-		"真..真是了不起。那麼我們請最後一位參加者出場吧。","就這樣，我們的特技表演也到了尾聲。",
-		"各位覺得如何？不知大家是否有好好欣賞。",
-		"往後我們夢幻島也會繼續為各位準備出色的表演節目，敬請期待。",
-		"真遺憾，不過今天就到此為止了。謝謝。",//Update by rocknow
-		"嗯...接下來，我們來介紹亞丁各地區的名人。"//Update by rocknow*/
 	private static int[] messages = {
 		1800105, // How come people are not here... We are about to start the show.. Hmm
 		1800082, // Ugh, I have butterflies in my stomach.. The show starts soon...
@@ -93,24 +76,6 @@ public class MC_Show extends Quest
 	
 	private void load()
 	{
-		/*talks.put("1", new Object[]{text[1],"2",1000});
-        talks.put("2", new Object[]{text[2],"3",6000});
-        talks.put("3", new Object[]{text[3],"4",4000});
-        talks.put("4", new Object[]{text[4],"5",5000});
-        talks.put("5", new Object[]{text[5],"6",3000});
-        talks.put("8", new Object[]{text[8],"9",5000});
-        talks.put("9", new Object[]{text[9],"10",5000});
-        talks.put("12", new Object[]{text[11],"13",5000});
-        talks.put("13", new Object[]{text[12],"14",5000});
-        talks.put("15", new Object[]{text[13],"16",5000});
-        talks.put("16", new Object[]{text[14],"17",5000});
-        talks.put("18", new Object[]{text[16],"19",5000});
-        talks.put("19", new Object[]{text[17],"20",5000});
-        talks.put("21", new Object[]{text[18],"22",5000});
-        talks.put("22", new Object[]{text[19],"23",400});
-        talks.put("25", new Object[]{text[20],"26",5000});
-        talks.put("26", new Object[]{text[21],"27",5400});*/
-
 		talks.put("1", new Object[]{messages[1],"2",1000});
 		talks.put("2", new Object[]{messages[2],"3",6000});
 		talks.put("3", new Object[]{messages[3],"4",4000});
@@ -344,7 +309,6 @@ public class MC_Show extends Quest
 				{
 					case 32433:
 						autoChat(npc,messages[7],1);
-						//autoChat(npc,text[22],1);//Update by rocknow
 						npc.getAI().setIntention(CtrlIntention.AI_INTENTION_MOVE_TO,new L2CharPosition(-56698,-56430,-2008,32768));
 						startQuestTimer("8",12000, npc, null);
 						break;
@@ -412,7 +376,6 @@ public class MC_Show extends Quest
 			else if (event.equalsIgnoreCase("28"))
 			{
 				autoChat(npc,messages[22],0);
-				//autoChat(npc,"我愛你們喔。",0);
 				startQuestTimer("social1",1, npc, null);
 			}
 			else if (event.equalsIgnoreCase("29"))

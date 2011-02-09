@@ -29,7 +29,7 @@ REM You should have received a copy of the GNU General Public License along
 REM with this program; if not, write to the Free Software Foundation, Inc., 
 REM 675 Mass Ave, Cambridge, MA 02139, USA. Or contact the Official L2J
 REM DataPack Project at http://www.l2jdp.com, http://www.l2jdp.com/forum or
-REM #l2j-datapack @ irc://irc.freenode.net
+REM #l2j @ irc://irc.freenode.net
 
 set config_file=vars.txt
 set config_version=0
@@ -96,8 +96,12 @@ set fresh_setup=1
 set mysqlBinPath=%ProgramFiles%\MySQL\MySQL Server 5.0\bin
 
 :_MySQL51
-if not exist "%ProgramFiles%\MySQL\MySQL Server 5.1\bin\mysql.exe" goto _MySQL60
+if not exist "%ProgramFiles%\MySQL\MySQL Server 5.1\bin\mysql.exe" goto _MySQL55
 set mysqlBinPath=%ProgramFiles%\MySQL\MySQL Server 5.1\bin
+
+:_MySQL55
+if not exist "%ProgramFiles%\MySQL\MySQL Server 5.5\bin\mysql.exe" goto _MySQL60
+set mysqlBinPath=%ProgramFiles%\MySQL\MySQL Server 5.5\bin
 
 :_MySQL60
 if not exist "%ProgramFiles%\MySQL\MySQL Server 6.0\bin\mysql.exe" goto _AppServ
