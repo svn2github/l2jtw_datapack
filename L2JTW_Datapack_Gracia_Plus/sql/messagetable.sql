@@ -922,8 +922,8 @@ INSERT INTO `messagetable` VALUES ('439', 'en', 'At last! The Magic Field that p
 INSERT INTO `messagetable` VALUES ('439', 'tw', '啊...保護要塞的魔法陣力量漸衰弱，支援隊員，全員退下！', '', 'FortSiege.java');
 INSERT INTO `messagetable` VALUES ('439', 'cn', '啊...保护要塞的魔法阵力量渐衰弱，支援队员，全员退下！', '', 'FortSiege.java');
 INSERT INTO `messagetable` VALUES ('440', 'en', 'I feel so much grief that I can\'t even take care of myself. There isn\'t any reason for me to stay here any longer.', '', 'FortSiege.java');
-INSERT INTO `messagetable` VALUES ('440', 'tw', 'I feel so much grief that I can\'t even take care of myself. There isn\'t any reason for me to stay here any longer.', '', 'FortSiege.java');
-INSERT INTO `messagetable` VALUES ('440', 'cn', 'I feel so much grief that I can\'t even take care of myself. There isn\'t any reason for me to stay here any longer.', '', 'FortSiege.java');
+INSERT INTO `messagetable` VALUES ('440', 'tw', '呼呼...真是可悲可歎啊，我竟然連我自己都照顧不了，那我也沒理由繼續待在這裡了。', '', 'FortSiege.java');
+INSERT INTO `messagetable` VALUES ('440', 'cn', '呼呼...真是可悲可叹啊，我竟然连我自己都照顾不了，那我也没理由继续待在这里了。', '', 'FortSiege.java');
 INSERT INTO `messagetable` VALUES ('441', 'en', '', 'Only clans with Level ; and higher may register for a fort siege.', 'FortSiege.java');
 INSERT INTO `messagetable` VALUES ('441', 'tw', '', '等級「;」以上的血盟才可以登記要塞戰。', 'FortSiege.java');
 INSERT INTO `messagetable` VALUES ('441', 'cn', '', '等级「;」以上的血盟才可以登记要塞战。', 'FortSiege.java');
@@ -1359,8 +1359,8 @@ INSERT INTO `messagetable` VALUES ('624', 'tw', '無', '', 'L2ClassMasterInstanc
 INSERT INTO `messagetable` VALUES ('624', 'cn', '无', '', 'L2ClassMasterInstance.java');
 
 INSERT INTO `messagetable` VALUES ('647', 'en', 'Attacking the enemy\'s reinforcements is necesary. Time to Die!', '', 'L2FortCommanderInstance.java');
-INSERT INTO `messagetable` VALUES ('647', 'tw', 'Attacking the enemy\'s reinforcements is necesary. Time to Die!', '', 'L2FortCommanderInstance.java');
-INSERT INTO `messagetable` VALUES ('647', 'cn', 'Attacking the enemy\'s reinforcements is necesary. Time to Die!', '', 'L2FortCommanderInstance.java');
+INSERT INTO `messagetable` VALUES ('647', 'tw', '先攻敵人的支援部隊，是戰鬥的基礎，殺啊！', '', 'L2FortCommanderInstance.java');
+INSERT INTO `messagetable` VALUES ('647', 'cn', '先攻敌人的支援部队，是战斗的基础，杀啊！', '', 'L2FortCommanderInstance.java');
 INSERT INTO `messagetable` VALUES ('648', 'en', 'Everyone, concentrate your attacks on ', '', 'L2FortCommanderInstance.java');
 INSERT INTO `messagetable` VALUES ('648', 'tw', '全隊員集中攻擊「', '', 'L2FortCommanderInstance.java');
 INSERT INTO `messagetable` VALUES ('648', 'cn', '全队员集中攻击「', '', 'L2FortCommanderInstance.java');
