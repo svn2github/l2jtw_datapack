@@ -815,6 +815,7 @@ chatdata.sql
 messagetable.sql
 npcCharData.sql
 skill.sql
+item.sql
 l2jtw_addon_1.sql
 l2jtw_addon_2.sql
 ) do call :dump %%i
@@ -896,19 +897,21 @@ goto :eof
 :custom
 cd ..\sql\
 set charprompt=y
-set /p charprompt=安裝「技能/職業/NPC說話」中文化: (y) 確定 或 (N) 取消？（預設值-確定）:
+set /p charprompt=安裝「技能/物品/職業/NPC說話」中文化: (y) 確定 或 (N) 取消？（預設值-確定）:
 if /i %charprompt%==y "%mysqlPath%" -h %gshost% -u %gsuser% --password=%gspass% -D %gsdb% < skill_tw.sql 2>>NUL
+if /i %charprompt%==y "%mysqlPath%" -h %gshost% -u %gsuser% --password=%gspass% -D %gsdb% < item_tw.sql 2>>NUL
 if /i %charprompt%==y "%mysqlPath%" -h %gshost% -u %gsuser% --password=%gspass% -D %gsdb% < char_templates_tw.sql 2>>NUL
 if /i %charprompt%==y "%mysqlPath%" -h %gshost% -u %gsuser% --password=%gspass% -D %gsdb% < auto_chat_text_tw.sql 2>>NUL
 echo 安裝 skill_tw.sql
+echo 安裝 item_tw.sql
 echo 安裝 char_templates_tw.sql
 echo 安裝 auto_chat_text_tw.sql
 echo 完成...
 echo.
 echo ☆注意：部分系統安裝中文化會失敗，導致遊戲中出現亂碼
 echo 　　　　如果遇到這種情形，請再手動導入 SQL 裡面的
-echo 　　　　skill_tw.sql / auto_chat_text_tw / messagetable /
-echo 　　　　char_templates_tw / auto_announcements 這 5 個 SQL
+echo 　　　　skill_tw.sql / item_tw.sql / messagetable /
+echo 　　　　auto_chat_text_tw / char_templates_tw 這 5 個 SQL
 echo.
 set cstprompt=y
 set /p cstprompt=安裝 custom 自訂資料表: (y) 確定 或 (N) 取消 或 (q) 退出？（預設值-確定）:
