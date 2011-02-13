@@ -29,11 +29,11 @@ class Quest (JQuest) :
    htmltext = event
    st = player.getQuestState(qn)
    if not st : return
-   if event == "30517-02.htm" :
+   if event == "30298-02.htm" :
      st.set("cond","1")
      st.setState(State.STARTED)
      st.playSound("ItemSound.quest_accept")
-   elif event == "30517-05a.htm" :
+   elif event == "30298-05a.htm" :
      if st.getQuestItemsCount(BLOOD) >= 10 :
          st.takeItems(BLOOD,-1)
          st.set("cond","3");
@@ -41,7 +41,7 @@ class Quest (JQuest) :
          st.playSound("ItemSound.quest_middle")
      else:
          htmltext = "Incorrect item count"
-   elif event == "30517-05b.htm" :
+   elif event == "30298-05b.htm" :
      if st.getQuestItemsCount(BLOOD) >= 10 :
          st.takeItems(BLOOD,-1)
          st.set("cond","4")
@@ -49,7 +49,7 @@ class Quest (JQuest) :
          st.playSound("ItemSound.quest_middle")
      else:
          htmltext = "Incorrect item count"
-   elif event == "30517-05c.htm" :
+   elif event == "30298-05c.htm" :
      if st.getQuestItemsCount(BLOOD) >= 10 :
          st.takeItems(BLOOD,-1)
          st.set("cond","5");
@@ -57,7 +57,7 @@ class Quest (JQuest) :
          st.playSound("ItemSound.quest_middle")
      else:
          htmltext = "Incorrect item count"
-   elif event == "30517-09.htm" :
+   elif event == "30298-09.htm" :
      cm_apprentice = st.getPlayer().getClan().getClanMember(st.getPlayer().getApprentice())
      if cm_apprentice:
        if cm_apprentice.isOnline():
@@ -75,11 +75,11 @@ class Quest (JQuest) :
                  ap_quest.set("cond","6")
                  st.playSound("ItemSound.quest_middle")
                  ap_quest.playSound("ItemSound.quest_middle")
-                 htmltext = "30517-10.htm"
-           elif DEBUG: htmltext = "30517-FE.htm"
-         elif DEBUG: htmltext = "30517-FD.htm"
-       elif DEBUG:htmltext = "30517-FC.htm"
-     elif DEBUG:htmltext = "30517-FB.htm"
+                 htmltext = "30298-10.htm"
+           elif DEBUG: htmltext = "30298-FE.htm"
+         elif DEBUG: htmltext = "30298-FD.htm"
+       elif DEBUG:htmltext = "30298-FC.htm"
+     elif DEBUG:htmltext = "30298-FB.htm"
      #st.exitQuest(1) #needed?
    return htmltext 
 
@@ -92,35 +92,35 @@ class Quest (JQuest) :
    id = st.getState()
    cond = st.getInt("cond")
    if player.getClan() == None :
-     htmltext = "30517-00.htm"
+     htmltext = "30298-00.htm"
      st.exitQuest(1)
    elif player.getPledgeType() == -1 :
      if id == State.COMPLETED:
        htmltext = "<html><body>這是已經完成的任務。</body></html>"
      elif player.getLevel() < 19 or not player.getSponsor() :
-       htmltext = "30517-00.htm"
+       htmltext = "30298-00.htm"
        st.exitQuest(1)
      else :
        if id == State.CREATED :
-         htmltext = "30517-01.htm"
+         htmltext = "30298-01.htm"
        elif cond == 1 :
-         htmltext = "30517-03.htm" 
+         htmltext = "30298-03.htm" 
        elif cond == 2 :
-         htmltext = "30517-04.htm"
+         htmltext = "30298-04.htm"
        elif cond == 3 :
-         htmltext = "30517-05d.htm"
+         htmltext = "30298-05d.htm"
        elif cond == 4 :
-         htmltext = "30517-05e.htm"
+         htmltext = "30298-05e.htm"
        elif cond == 5 :
-         htmltext = "30517-05f.htm"
+         htmltext = "30298-05f.htm"
        elif cond == 6 :
-         htmltext = "30517-06.htm"
+         htmltext = "30298-06.htm"
          st.set("cond", "7")
        elif cond == 7 :
-         htmltext = "30517-07.htm"
+         htmltext = "30298-07.htm"
        elif cond == 8 and st.getQuestItemsCount(LEG) == 8 :
          settype = st.getInt("settype")
-         htmltext = "30517-08.htm"
+         htmltext = "30298-08.htm"
          st.takeItems(LEG,-1)
          if settype == 1 :
             set = range(7851,7854) #heavy
@@ -144,17 +144,17 @@ class Quest (JQuest) :
               if ap_quest :
                  ap_cond = ap_quest.getInt("cond")
                  if ap_cond == 3 :
-                    htmltext = "30517-09a.htm"
+                    htmltext = "30298-09a.htm"
                  elif ap_cond == 4 :
-                    htmltext = "30517-09b.htm"
+                    htmltext = "30298-09b.htm"
                  elif ap_cond == 5 :
-                    htmltext = "30517-09c.htm"
-                 elif DEBUG : htmltext = "30517-FF.htm"
-              elif DEBUG: htmltext = "30517-FE.htm"
-           elif DEBUG: htmltext = "30517-FD.htm"
-        elif DEBUG:htmltext = "30517-FC.htm"
-     elif DEBUG:htmltext = "30517-FB.htm"
-   elif DEBUG:htmltext = "30517-FA.htm"
+                    htmltext = "30298-09c.htm"
+                 elif DEBUG : htmltext = "30298-FF.htm"
+              elif DEBUG: htmltext = "30298-FE.htm"
+           elif DEBUG: htmltext = "30298-FD.htm"
+        elif DEBUG:htmltext = "30298-FC.htm"
+     elif DEBUG:htmltext = "30298-FB.htm"
+   elif DEBUG:htmltext = "30298-FA.htm"
    #st.exitQuest(1) #needed?
    return htmltext
 
