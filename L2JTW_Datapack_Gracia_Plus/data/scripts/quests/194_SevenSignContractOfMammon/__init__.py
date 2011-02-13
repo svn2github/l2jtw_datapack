@@ -382,7 +382,7 @@ class Quest (JQuest) :
 		id = st.getState()
 
 		if st.getState() == State.COMPLETED :
-			htmltext = "<html><body>這是已經完成的任務。</body></html>"
+			htmltext = Quest.getAlreadyCompletedMsg(player)
 		elif id == State.CREATED :
 			# 古斯達夫 亞太法特 卿
 			if npcId == ATHEBALDT and cond == 0 :

@@ -41,11 +41,9 @@ class Quest (JQuest):
 		st = player.getQuestState(qn)
 		if not st: return
 
-		if event == "31001-02.htm":
-			st.setState(State.STARTED)
-			st.playSound("ItemSound.quest_accept")
 		if event == "31001-05.htm":
 			st.set("cond","1")
+			st.setState(State.STARTED)
 			st.playSound("ItemSound.quest_middle")
 		elif event == "32576-02.htm":
 			st.giveItems(IdentityCard,1)
@@ -56,6 +54,9 @@ class Quest (JQuest):
 			SkillTable.getInstance().getInfo(6204,1).getEffects(player,player)
 			st.set("cond","3")
 		elif event == "30289-07.htm":
+			player.stopAllEffects()
+			SkillTable.getInstance().getInfo(6204,1).getEffects(player,player)
+		elif event == "30289-08.htm":
 			player.stopAllEffects()
 		elif event == "30969-03.htm":
 			st.addExpAndSp(52518015, 5817677)
@@ -83,15 +84,11 @@ class Quest (JQuest):
 			htmltext = "<html><body>這是已經完成的任務。</body></html>"
 		elif id == State.CREATED :
 			if npcId == ClaudiaAthebalt and cond == 0:
-				first = player.getQuestState("194_SevenSignContractOfMammon")
-				if first:
-					if first.getState() == State.COMPLETED and player.getLevel() >= 79 :
-						htmltext = "31001-01.htm"
-					else:
-						htmltext = "31001-0a.htm"
-						st.exitQuest(1)
+				third = player.getQuestState("194_SevenSignContractOfMammon")
+				if third and third.getState() == State.COMPLETED and player.getLevel() >= 79 :
+					htmltext = "31001-01.htm"
 				else:
-					htmltext = "31001-0b.htm"
+					htmltext = "31001-00.htm"
 					st.exitQuest(1)
 		elif id == State.STARTED:
 			if npcId == ClaudiaAthebalt:
@@ -110,7 +107,7 @@ class Quest (JQuest):
 				elif cond == 4:
 					if self.SCROLL == 0:  # Fix Bug Scroll of Escape
 						if st.getQuestItemsCount(EmperorShunaimanContract) == 1 and st.getQuestItemsCount(ScrollofEscape) == 0 :
-							htmltext = "30289-08.htm"
+							htmltext = "30289-09.htm"
 							player.stopAllEffects()
 							st.giveItems(ScrollofEscape,1)
 							st.playSound("ItemSound.quest_middle")

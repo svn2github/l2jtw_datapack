@@ -103,9 +103,9 @@ class Quest (JQuest) :
 				st.set("cond","2")
 				st.playSound("ItemSound.quest_middle")
 				player.showQuestMovie(int(event))
-				self.startQuestTimer("plapertele", 32000, None, player) # 修正動畫後看不到NPC
+				self.startQuestTimer("playertele", 32000, None, player) # 修正動畫後看不到NPC
 				return ""
-		elif event == "plapertele" :
+		elif event == "playertele" :
 			player.teleToLocation(81654,54848,-1514) # 修正動畫後看不到NPC傳送
 			return ""
 		elif event == "hector_03" :
