@@ -1208,7 +1208,7 @@
 		<set name="target" val="TARGET_PARTY_MEMBER" />
 		<set name="castRange" val="400" />
 		<set name="effectRange" val="900" />
-		<cond msgId="109"><!-- Update by rocknow -->
+		<cond msgId="113" addName="1">
 			<target race="Kamael" />
 		</cond>
 		<for>
@@ -1416,7 +1416,7 @@
 		<set name="soulConsumeCount" val="1" />
 		<set name="skillType" val="CHARGESOUL" />
 		<set name="target" val="TARGET_ONE" />
-		<cond msgId="109"><!-- Update by rocknow -->
+		<cond msgId="113" addName="1">
 			<target race="Kamael" />
 		</cond>
 	</skill>
