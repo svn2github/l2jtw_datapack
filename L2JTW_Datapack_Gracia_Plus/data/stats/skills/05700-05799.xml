@@ -239,23 +239,26 @@
 		<set name="hitTime" val="1000" />
 	</skill>
 	<skill id="5715" levels="1" name="Electric Flame">
-		<!-- Update by pmq -->
-		<set name="magicLvl" val="0" />
-		<set name="mpInitialConsume" val="0" />
-		<set name="mpConsume" val="0" />
-		<set name="power" val="0" />
+		<!-- Confirmed CT2.5 -->
+		<set name="element" val="0" /> <!-- Fire -->
+		<set name="elementPower" val="20" />
 		<set name="hitTime" val="2500" />
-		<set name="overHit" val="false" />
-		<set name="ignoreShld" val="false" />
-		<set name="operateType" val="OP_ACTIVE" />
+		<set name="isDebuff" val="true" />
 		<set name="isMagic" val="true" />
-		<set name="target" val="TARGET_PARTY" />
-		<set name="skillRadius" val="1000" />
-		<set name="skillType" val="PDAM" />
-		<set name="castRange" val="-1" />
-		<set name="effectRange" val="-2" />
-		<set name="reuseDelay" val="360000" />
+		<set name="lvlDepend" val="1" />
+		<set name="magicLvl" val="73" />
+		<set name="operateType" val="OP_ACTIVE" />
+		<set name="power" val="213" />
+		<set name="reuseDelay" val="5000" />
+		<set name="saveVs" val="MEN" />
+		<set name="skillRadius" val="400" />
+		<set name="skillType" val="MDAM" />
+		<set name="target" val="TARGET_AURA" />
 		<for>
+			<!-- 55HP * 5 During 30 seconds -->
+			<effect count="6" name="DamOverTime" time="5" val="275" abnormal="bleed" effectPower="80" effectType="BLEED" stackOrder="1" stackType="fire_dot">
+				<mul order="0x30" stat="runSpd" val="0.77" />
+			</effect>
 		</for>
 	</skill>
 	<skill id="5716" levels="1" name="Stun">
@@ -1320,15 +1323,13 @@
 	</skill>
 	<skill id="5771" levels="1" name="Buff Control">
 		<set name="operateType" val="OP_ACTIVE" />
-		<set name="reuseDelay" val="300000" />
 		<set name="hitTime" val="1000" />
 		<set name="isMagic" val="true" />
 		<set name="skillType" val="BUFF" />
 		<set name="target" val="TARGET_SELF" />
-		<set name="staticReuse" val="true" />
 		<set name="staticHitTime" val="true" />
 		<for>
-			<effect name="Buff" time="300" val="0" />
+			<effect name="Buff" time="300" val="0" stackOrder="1" stackType="magical_stance" />
 		</for>
 	</skill>
 	<skill id="5772" levels="1" name="Surrender to Fire">
