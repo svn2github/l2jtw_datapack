@@ -406,7 +406,7 @@ goto cb_backup
 cls
 call :colors 17
 set cmdline=
-if %full% == 1 goto communityinstall
+REM [Update by rocknow] if %full% == 1 goto communityinstall
 set stage=4
 title L2JTW Datapack ¦w¸Ë - For¡GL2JTW GameServer Freya Alpha
 echo.
