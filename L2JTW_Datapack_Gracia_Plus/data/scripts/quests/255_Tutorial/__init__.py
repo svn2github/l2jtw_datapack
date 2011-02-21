@@ -169,21 +169,24 @@ class Quest (JQuest) :
             elif playerLevel == 28 and not player.getQuestState("10277_MutatedKaneusDion") :
                 st.showQuestionMark(33)
                 st.playSound("ItemSound.quest_tutorial")
-            elif playerLevel == 28 and not player.getQuestState("10278_MutatedKaneusHeine") :
+            elif playerLevel == 38 and not player.getQuestState("10278_MutatedKaneusHeine") :
                 st.showQuestionMark(33)
                 st.playSound("ItemSound.quest_tutorial")
-            elif playerLevel == 28 and not player.getQuestState("10279_MutatedKaneusOren") :
+            elif playerLevel == 48 and not player.getQuestState("10279_MutatedKaneusOren") :
                 st.showQuestionMark(33)
                 st.playSound("ItemSound.quest_tutorial")
-            elif playerLevel == 28 and not player.getQuestState("10280_MutatedKaneusSchuttgart") :
+            elif playerLevel == 58 and not player.getQuestState("10280_MutatedKaneusSchuttgart") :
                 st.showQuestionMark(33)
                 st.playSound("ItemSound.quest_tutorial")
-            elif playerLevel == 28 and not player.getQuestState("10281_MutatedKaneusRune") :
+            elif playerLevel == 68 and not player.getQuestState("10281_MutatedKaneusRune") :
                 st.showQuestionMark(33)
                 st.playSound("ItemSound.quest_tutorial")
             elif playerLevel == 79 and not player.getQuestState("192_SevenSignSeriesOfDoubt") :
                 st.showQuestionMark(33)
                 st.playSound("ItemSound.quest_tutorial")
+#            elif playerLevel == 81 and not player.getQuestState("10292_SevenSignsGirlOfDoubt") : # ¶ÙÂ½¤Ñ
+#                st.showQuestionMark(33)
+#                st.playSound("ItemSound.quest_tutorial")
         # QUEST TIMER #
 
         elif string == "QT" :
@@ -469,6 +472,8 @@ class Quest (JQuest) :
                     htmltext = "tutorial_kama_68.htm"
                 elif lvl == 79 :
                     htmltext = "tutorial_epic_quest.htm"
+#                elif lvl == 81 :                       # ¶ÙÂ½¤Ñ
+#                    htmltext = "tutorial_hf_quest.htm" # ¶ÙÂ½¤Ñ
             elif MarkId == 34 :
                 htmltext = "tutorial_28.htm"
             elif MarkId == 35 :
