@@ -38,7 +38,6 @@ import com.l2jserver.gameserver.network.serverpackets.MagicSkillUse;
 import com.l2jserver.gameserver.network.serverpackets.PlaySound;
 import com.l2jserver.gameserver.network.serverpackets.SSQInfo;
 import com.l2jserver.gameserver.network.serverpackets.SocialAction;
-import com.l2jserver.gameserver.network.serverpackets.StopMove;
 import com.l2jserver.gameserver.network.serverpackets.SunRise;
 import com.l2jserver.gameserver.network.serverpackets.SunSet;
 import com.l2jserver.gameserver.network.serverpackets.SystemMessage;
@@ -217,9 +216,7 @@ public class AdminEffects implements IAdminCommandHandler
 						{
 							player.startAbnormalEffect(AbnormalEffect.HOLD_1);
 							player.setIsParalyzed(true);
-							StopMove sm = new StopMove(player);
-							player.sendPacket(sm);
-							player.broadcastPacket(sm);
+							player.startParalyze();
 						}
 					}
 				}
@@ -239,6 +236,7 @@ public class AdminEffects implements IAdminCommandHandler
 					{
 						player.stopAbnormalEffect(AbnormalEffect.HOLD_1);
 						player.setIsParalyzed(false);
+						player.stopParalyze(false);
 					}
 				}
 			}
@@ -268,9 +266,7 @@ public class AdminEffects implements IAdminCommandHandler
 					else
 						player.startAbnormalEffect(AbnormalEffect.HOLD_2);
 					player.setIsParalyzed(true);
-					StopMove sm = new StopMove(player);
-					player.sendPacket(sm);
-					player.broadcastPacket(sm);
+					player.startParalyze();
 				}
 			}
 			catch (Exception e)
@@ -299,6 +295,7 @@ public class AdminEffects implements IAdminCommandHandler
 					else
 						player.stopAbnormalEffect(AbnormalEffect.HOLD_2);
 					player.setIsParalyzed(false);
+					player.stopParalyze(false);
 				}
 			}
 			catch (Exception e)
@@ -507,7 +504,7 @@ public class AdminEffects implements IAdminCommandHandler
 					int social = Integer.parseInt(st.nextToken());
 					if (obj == null)
 						obj = activeChar;
-
+					
 					if (performSocial(social, obj, activeChar))
 						activeChar.sendMessage(MessageTable.Messages[1651].getExtra(1) + obj.getName() + MessageTable.Messages[1651].getExtra(2));
 					else
@@ -631,7 +628,7 @@ public class AdminEffects implements IAdminCommandHandler
 					int special = Integer.decode("0x" + st.nextToken());
 					if (obj == null)
 						obj = activeChar;
-
+					
 					if (performSpecial(special, obj))
 						activeChar.sendMessage(MessageTable.Messages[1653].getExtra(1) + obj.getName() + MessageTable.Messages[1653].getExtra(2));
 					else
@@ -667,7 +664,7 @@ public class AdminEffects implements IAdminCommandHandler
 					target.broadcastPacket(new MagicSkillUse(target, activeChar, skill, level, hittime, 0));
 					activeChar.sendMessage(obj.getName() + MessageTable.Messages[1655].getExtra(1) + skill + "/" + level + MessageTable.Messages[1655].getExtra(2));
 				}
-
+				
 			}
 			catch (Exception e)
 			{
