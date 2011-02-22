@@ -60,7 +60,8 @@ public class BodyDestroyer extends L2AttackableAIScript
 				_isLocked = true;
 				npc.setTarget(player);
 				npc.doCast(SkillTable.getInstance().getInfo(5256, 1));
-				player.sendMessage(player.getName() + ", you'll die!");
+				player.sendMessage(player.getName() + "¡A¥h¦º§a¡I");
+				player.setCurrentHp(1);
 				startQuestTimer("time_to_destroy", 30000, npc, player);
 			}
 		}
