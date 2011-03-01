@@ -21,6 +21,7 @@ import java.util.logging.Logger;
 import com.l2jserver.Config;
 import com.l2jserver.gameserver.datatables.SkillTable;
 import com.l2jserver.gameserver.handler.IAdminCommandHandler;
+import com.l2jserver.gameserver.model.L2Clan;
 import com.l2jserver.gameserver.model.L2Object;
 import com.l2jserver.gameserver.model.L2Skill;
 import com.l2jserver.gameserver.model.actor.instance.L2PcInstance;
@@ -46,6 +47,7 @@ import com.l2jserver.gameserver.datatables.MessageTable;
  * - add_clan_skills
  *
  * @version $Revision: 1.2.4.7 $ $Date: 2005/04/11 10:06:02 $
+ * Small fixes by Zoey76 24/02/2011
  */
 public class AdminSkill implements IAdminCommandHandler
 {
@@ -228,72 +230,72 @@ public class AdminSkill implements IAdminCommandHandler
 			skillsEnd = skillsStart + maxSkillsPerPage;
 		
 		NpcHtmlMessage adminReply = new NpcHtmlMessage(5);
-                final StringBuilder replyMSG = StringUtil.startAppend(
-                        500 + maxPages * 50 + (skillsEnd - skillsStart + 1) * 50,
-                        "<html><body>" +
-                        "<table width=260><tr>" +
-                        "<td width=40><button value=\""+MessageTable.Messages[1831].getMessage()+"\" action=\"bypass -h admin_admin\" width=40 height=15 back=\"L2UI_ct1.button_df\" fore=\"L2UI_ct1.button_df\"></td>" +
-                        "<td width=180><center>"+MessageTable.Messages[1832].getMessage()+"</center></td>" +
-                        "<td width=40><button value=\""+MessageTable.Messages[1833].getMessage()+"\" action=\"bypass -h admin_show_skills\" width=40 height=15 back=\"L2UI_ct1.button_df\" fore=\"L2UI_ct1.button_df\"></td>" +
-                        "</tr></table>" +
-                        "<br><br>" +
-                        "<center>"+MessageTable.Messages[1834].getMessage()+"<font color=\"LEVEL\">",
-                        player.getName(),
-                        "</font></center>" +
-                        "<br><table width=270><tr><td>"+MessageTable.Messages[1835].getMessage(),
-                        String.valueOf(player.getLevel()),
-                        " ",
-                        player.getTemplate().className,
-                        "</td></tr></table>" +
-                        "<br><table width=270><tr><td>"+MessageTable.Messages[1836].getMessage()+"</td></tr>" +
-                        "<tr><td>"+MessageTable.Messages[1837].getMessage()+"</td></tr></table>" +
-                        "<br><center>"+MessageTable.Messages[1838].getMessage()+"</center>" +
-                        "<br>" +
-                        "<center><table width=270><tr>"
-                        );
-
-                for (int x = 0; x < maxPages; x++)
+		final StringBuilder replyMSG = StringUtil.startAppend(
+				500 + maxPages * 50 + (skillsEnd - skillsStart + 1) * 50,
+				"<html><body>" +
+				"<table width=260><tr>" +
+				"<td width=40><button value=\""+MessageTable.Messages[1831].getMessage()+"\" action=\"bypass -h admin_admin\" width=40 height=15 back=\"L2UI_ct1.button_df\" fore=\"L2UI_ct1.button_df\"></td>" +
+				"<td width=180><center>"+MessageTable.Messages[1832].getMessage()+"</center></td>" +
+				"<td width=40><button value=\""+MessageTable.Messages[1833].getMessage()+"\" action=\"bypass -h admin_show_skills\" width=40 height=15 back=\"L2UI_ct1.button_df\" fore=\"L2UI_ct1.button_df\"></td>" +
+				"</tr></table>" +
+				"<br><br>" +
+				"<center>"+MessageTable.Messages[1834].getMessage()+"<font color=\"LEVEL\">",
+				player.getName(),
+				"</font></center>" +
+				"<br><table width=270><tr><td>"+MessageTable.Messages[1835].getMessage(),
+				String.valueOf(player.getLevel()),
+				" ",
+				player.getTemplate().className,
+				"</td></tr></table>" +
+				"<br><table width=270><tr><td>"+MessageTable.Messages[1836].getMessage()+"</td></tr>" +
+				"<tr><td>"+MessageTable.Messages[1837].getMessage()+"</td></tr></table>" +
+				"<br><center>"+MessageTable.Messages[1838].getMessage()+"</center>" +
+				"<br>" +
+				"<center><table width=270><tr>"
+		);
+		
+		for (int x = 0; x < maxPages; x++)
 		{
 			int pagenr = x + 1;
-                        StringUtil.append(replyMSG,
-                                "<td><a action=\"bypass -h admin_remove_skills ",
-                                String.valueOf(x),
-                                "\">"+MessageTable.Messages[1839].getMessage(),
-                                String.valueOf(pagenr),
-                                MessageTable.Messages[1839].getExtra(1)+"</a></td>"
-                                );
+			StringUtil.append(replyMSG,
+					"<td><a action=\"bypass -h admin_remove_skills ",
+					String.valueOf(x),
+					"\">"+MessageTable.Messages[1839].getMessage(),
+					String.valueOf(pagenr),
+					MessageTable.Messages[1839].getExtra(1)+"</a></td>"
+			);
 		}
-
-                replyMSG.append(
-                        "</tr></table></center>" +
-                        "<br><table width=270>" +
-                        "<tr><td width=80>"+MessageTable.Messages[1840].getExtra(1)+"</td><td width=60>"+MessageTable.Messages[1840].getExtra(2)+"</td><td width=40>"+MessageTable.Messages[1840].getExtra(3)+"</td></tr>"
-                        );
-
-                for (int i = skillsStart; i < skillsEnd; i++) {
-                    StringUtil.append(replyMSG,
-                            "<tr><td width=80><a action=\"bypass -h admin_remove_skill ",
-                            String.valueOf(skills[i].getId()),
-                            "\">",
-                            skills[i].getName(),
-                            "</a></td><td width=60>",
-                            String.valueOf(skills[i].getLevel()),
-                            "</td><td width=40>",
-                            String.valueOf(skills[i].getId()),
-                            "</td></tr>"
-                            );
-                }
-
+		
 		replyMSG.append(
-                        "</table>" +
-                        "<br><center><table>" +
-                        MessageTable.Messages[1841].getMessage() +
-                        "<tr><td>"+MessageTable.Messages[1840].getExtra(3)+"</td>" +
-                        "<td><edit var=\"id_to_remove\" width=110></td></tr>" +
-                        "</table></center>" +
-                        "<center><button value=\""+MessageTable.Messages[1842].getMessage()+"\" action=\"bypass -h admin_remove_skill $id_to_remove\" width=110 height=15 back=\"L2UI_ct1.button_df\" fore=\"L2UI_ct1.button_df\"></center>" +
-                        "<br><center><button value=\""+MessageTable.Messages[1833].getMessage()+"\" action=\"bypass -h admin_current_player\" width=40 height=15 back=\"L2UI_ct1.button_df\" fore=\"L2UI_ct1.button_df\"></center>" +
-                        "</body></html>");
+				"</tr></table></center>" +
+				"<br><table width=270>" +
+				"<tr><td width=80>"+MessageTable.Messages[1840].getExtra(1)+"</td><td width=60>"+MessageTable.Messages[1840].getExtra(2)+"</td><td width=40>"+MessageTable.Messages[1840].getExtra(3)+"</td></tr>"
+		);
+		
+		for (int i = skillsStart; i < skillsEnd; i++) {
+			StringUtil.append(replyMSG,
+					"<tr><td width=80><a action=\"bypass -h admin_remove_skill ",
+					String.valueOf(skills[i].getId()),
+					"\">",
+					skills[i].getName(),
+					"</a></td><td width=60>",
+					String.valueOf(skills[i].getLevel()),
+					"</td><td width=40>",
+					String.valueOf(skills[i].getId()),
+					"</td></tr>"
+			);
+		}
+		
+		replyMSG.append(
+				"</table>" +
+				"<br><center><table>" +
+				MessageTable.Messages[1841].getMessage() +
+				"<tr><td>"+MessageTable.Messages[1840].getExtra(3)+"</td>" +
+				"<td><edit var=\"id_to_remove\" width=110></td></tr>" +
+				"</table></center>" +
+				"<center><button value=\""+MessageTable.Messages[1842].getMessage()+"\" action=\"bypass -h admin_remove_skill $id_to_remove\" width=110 height=15 back=\"L2UI_ct1.button_df\" fore=\"L2UI_ct1.button_df\"></center>" +
+				"<br><center><button value=\""+MessageTable.Messages[1833].getMessage()+"\" action=\"bypass -h admin_current_player\" width=40 height=15 back=\"L2UI_ct1.button_df\" fore=\"L2UI_ct1.button_df\"></center>" +
+		"</body></html>");
 		adminReply.setHtml(replyMSG.toString());
 		activeChar.sendPacket(adminReply);
 	}
@@ -372,6 +374,7 @@ public class AdminSkill implements IAdminCommandHandler
 			activeChar.sendMessage(1845);
 			adminSkills = null;
 			activeChar.sendSkillList();
+			player.sendSkillList();
 		}
 		showMainPage(activeChar);
 	}
@@ -411,9 +414,11 @@ public class AdminSkill implements IAdminCommandHandler
 			if (skill != null)
 			{
 				String name = skill.getName();
+				// Player's info.
 				player.sendMessage(MessageTable.Messages[1846].getExtra(1) + name + MessageTable.Messages[1846].getExtra(2));
 				player.addSkill(skill, true);
-				//Admin information
+				player.sendSkillList();
+				// Admin info.
 				activeChar.sendMessage(MessageTable.Messages[1847].getExtra(1) + name + MessageTable.Messages[1847].getExtra(2) + player.getName() + MessageTable.Messages[1847].getExtra(3));
 				if (Config.DEBUG)
 					_log.fine("[GM]" + activeChar.getName() + " gave skill " + name + " to " + player.getName() + ".");
@@ -486,12 +491,13 @@ public class AdminSkill implements IAdminCommandHandler
 				SystemMessage sm = SystemMessage.getSystemMessage(SystemMessageId.CLAN_SKILL_S1_ADDED);
 				sm.addSkillName(skill);
 				player.sendPacket(sm);
-				player.getClan().broadcastToOnlineMembers(sm);
-				player.getClan().addNewSkill(skill);
+				final L2Clan clan = player.getClan();
+				clan.broadcastToOnlineMembers(sm);
+				clan.addNewSkill(skill);
 				activeChar.sendMessage(MessageTable.Messages[1851].getExtra(1) + skillname + MessageTable.Messages[1851].getExtra(2) + player.getClan().getName() + MessageTable.Messages[1851].getExtra(3));
 				
-				activeChar.getClan().broadcastToOnlineMembers(new PledgeSkillList(activeChar.getClan()));
-				for (L2PcInstance member : activeChar.getClan().getOnlineMembers(0))
+				clan.broadcastToOnlineMembers(new PledgeSkillList(clan));
+				for (L2PcInstance member : clan.getOnlineMembers(0))
 				{
 					member.sendSkillList();
 				}

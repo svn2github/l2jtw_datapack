@@ -58,7 +58,7 @@ public class MasterHandler
 		ActionHandler.getInstance().registerActionHandler(new L2TrapAction());
 		_log.config("Loaded " + ActionHandler.getInstance().size() + " ActionHandlers");
 	}
-
+	
 	private static void loadActionShiftHandlers()
 	{
 		ActionHandler.getInstance().registerActionShiftHandler(new L2DoorInstanceActionShift());
@@ -69,7 +69,7 @@ public class MasterHandler
 		ActionHandler.getInstance().registerActionShiftHandler(new L2SummonActionShift());
 		_log.config("Loaded " + ActionHandler.getInstance().sizeShift() + " ActionShiftHandlers");
 	}
-
+	
 	private static void loadAdminHandlers()
 	{
 		AdminCommandHandler.getInstance().registerAdminCommandHandler(new AdminAdmin());
@@ -114,6 +114,7 @@ public class MasterHandler
 		AdminCommandHandler.getInstance().registerAdminCommandHandler(new AdminMammon());
 		AdminCommandHandler.getInstance().registerAdminCommandHandler(new AdminManor());
 		AdminCommandHandler.getInstance().registerAdminCommandHandler(new AdminMenu());
+		AdminCommandHandler.getInstance().registerAdminCommandHandler(new AdminMessages());
 		AdminCommandHandler.getInstance().registerAdminCommandHandler(new AdminMobGroup());
 		AdminCommandHandler.getInstance().registerAdminCommandHandler(new AdminMonsterRace());
 		AdminCommandHandler.getInstance().registerAdminCommandHandler(new AdminPathNode());
@@ -143,7 +144,7 @@ public class MasterHandler
 		AdminCommandHandler.getInstance().registerAdminCommandHandler(new AdminZone());
 		_log.config("Loaded " + AdminCommandHandler.getInstance().size() + " AdminCommandHandlers");
 	}
-
+	
 	private static void loadBypassHandlers()
 	{
 		BypassHandler.getInstance().registerBypassHandler(new Augment());
@@ -185,7 +186,7 @@ public class MasterHandler
 		BypassHandler.getInstance().registerBypassHandler(new Wear());
 		_log.config("Loaded " + BypassHandler.getInstance().size() + " BypassHandlers");
 	}
-
+	
 	private static void loadChatHandlers()
 	{
 		ChatHandler.getInstance().registerChatHandler(new ChatAll());
