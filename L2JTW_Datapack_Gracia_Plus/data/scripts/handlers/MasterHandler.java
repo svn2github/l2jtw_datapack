@@ -43,7 +43,7 @@ import com.l2jserver.gameserver.handler.VoicedCommandHandler;
 public class MasterHandler
 {
 	private static Logger _log = Logger.getLogger(MasterHandler.class.getName());
-
+	
 	private static void loadActionHandlers()
 	{
 		ActionHandler.getInstance().registerActionHandler(new L2ArtefactInstanceAction());
@@ -264,7 +264,6 @@ public class MasterHandler
 		SkillHandler.getInstance().registerSkillHandler(new Sweep());
 		SkillHandler.getInstance().registerSkillHandler(new StrSiegeAssault());
 		SkillHandler.getInstance().registerSkillHandler(new SummonFriend());
-		SkillHandler.getInstance().registerSkillHandler(new SummonTreasureKey());
 		SkillHandler.getInstance().registerSkillHandler(new Disablers());
 		SkillHandler.getInstance().registerSkillHandler(new Cancel());
 		SkillHandler.getInstance().registerSkillHandler(new StealBuffs());
