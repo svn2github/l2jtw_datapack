@@ -77,22 +77,16 @@ import com.l2jserver.gameserver.datatables.MessageTable;
  * - setclass
  * - fullfood
  * - save_modifications
- * - admin_rec
- * - admin_settitle
- * - admin_changename
- * - admin_setsex
- * - admin_setcolor
- * - admin_settcolor
- * - admin_setclass
- * - admin_setpk
- * - admin_setpvp
- * - admin_fullfood
- * - admin_remove_clan_penalty
- * - admin_summon_info
- * - admin_unsummon
- * - admin_summon_setlvl
- * - admin_show_pet_inv
- * - admin_partyinfo
+ * - setcolor
+ * - settcolor
+ * - setpk
+ * - setpvp
+ * - remove_clan_penalty
+ * - summon_info
+ * - unsummon
+ * - summon_setlvl
+ * - show_pet_inv
+ * - partyinfo
  * 
  * @version $Revision: 1.3.2.1.2.10 $ $Date: 2005/04/11 10:06:06 $
  * Typo fix, rework for admin_tracert, gatherCharacterInfo and editCharacter by Zoey76 28/02/2011

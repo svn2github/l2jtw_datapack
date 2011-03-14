@@ -1660,7 +1660,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="9352" type="Weapon" name="Éclair Bijou">
+	<item id="9352" type="Weapon" name="?clair Bijou">
 		<set name="icon" val="icon.weapon_greed_stinger_i00" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="rapier" />
@@ -1691,7 +1691,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="9353" type="Weapon" name="Éclair Bijou - Haste">
+	<item id="9353" type="Weapon" name="?clair Bijou - Haste">
 		<set name="icon" val="icon.weapon_greed_stinger_i01" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="rapier" />
@@ -1723,7 +1723,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="9354" type="Weapon" name="Éclair Bijou - Health">
+	<item id="9354" type="Weapon" name="?clair Bijou - Health">
 		<set name="icon" val="icon.weapon_greed_stinger_i01" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="rapier" />
@@ -1755,7 +1755,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="9355" type="Weapon" name="Éclair Bijou - Critical Poison">
+	<item id="9355" type="Weapon" name="?clair Bijou - Critical Poison">
 		<set name="icon" val="icon.weapon_greed_stinger_i01" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="rapier" />
@@ -2856,9 +2856,6 @@
 			<enchant val="0" order="0x0C" stat="pAtk" />
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
-		<cond msgId="1508">
-			<player olympiad="false" />
-		</cond>
 	</item>
 	<item id="9389" type="Weapon" name="Infinity Sword">
 		<set name="icon" val="icon.weapon_infinity_sword_i00" />
@@ -2892,9 +2889,6 @@
 			<enchant val="0" order="0x0C" stat="pAtk" />
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
-		<cond msgId="1508">
-			<player olympiad="false" />
-		</cond>
 	</item>
 	<item id="9390" type="Weapon" name="Infinity Shooter">
 		<set name="icon" val="icon.weapon_infinity_shooter_i00" />
@@ -2930,9 +2924,6 @@
 			<enchant val="0" order="0x0C" stat="pAtk" />
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
-		<cond msgId="1508">
-			<player olympiad="false" />
-		</cond>
 	</item>
 	<item id="9391" type="Armor" name="Human Circlet">
 		<set name="icon" val="icon.accessary_human_circlet_i00" />
