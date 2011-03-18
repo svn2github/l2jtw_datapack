@@ -97,7 +97,7 @@ class Quest (JQuest) :
            npc.deleteMe()
            st.set("cond","2")
            self.startQuestTimer("Soul of Water Ashutar has despawned",1200000,spawnedNpc,None)
-           AutoChat(spawnedNpc,"The water charm then is the storm and the tsunami strength! Opposes with it only has the blind alley!")
+           AutoChat(spawnedNpc,"水之魔力就是暴風與海嘯的力量！與我對抗只有死路一條！")
    return htmltext
 
  def onTalk (self, npc, player):
