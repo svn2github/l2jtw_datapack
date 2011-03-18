@@ -55,7 +55,7 @@ class Quest (JQuest) :
        htmltext = "31521-4.htm"
        st.exitQuest(1)
      else:
-       htmltext="31521-5.htm"
+       htmltext="31521-5.htm"  # 備註：官服如果自己刪除任務道具將不能繼續得到任務道具，只有刪除任務重新接過任務。
        st.set("cond","1")
    return htmltext
 
