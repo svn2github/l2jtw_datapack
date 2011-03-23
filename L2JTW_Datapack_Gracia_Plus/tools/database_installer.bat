@@ -522,6 +522,7 @@ echo 正在移除「討論版專用」的資料庫，然後導入新的資料庫...
 set cmdline="%mysqlPath%" -h %cbhost% -u %cbuser% --password=%cbpass% -D %cbdb% ^< community_install.sql 2^> NUL
 %cmdline%
 if not %ERRORLEVEL% == 0 goto omfg
+set full=1
 goto upgradecbinstall
 
 :upgradecbinstall
@@ -536,14 +537,7 @@ echo 更新「討論版專用」資料庫...
 )
 if %logging% == 0 set output=NUL
 set dest=cb
-for %%i in (
-clan_introductions.sql
-comments.sql
-forums.sql
-registered_gameservers.sql
-posts.sql
-topics.sql
-) do call :dump %%i
+for %%i in (..\cb_sql\*.sql) do call :dump %%i
 
 echo done...
 echo.
@@ -677,148 +671,9 @@ echo 更新遊戲資料庫...
 )
 if %logging% == 0 set output=NUL
 set dest=ls
-for %%i in (
-accounts.sql
-account_data.sql
-gameservers.sql
-) do call :dump %%i
+for %%i in (..\sql\login\*.sql) do call :dump %%i
 set dest=gs
-for %%i in (
-access_levels.sql
-admin_command_access_rights.sql
-airships.sql
-armorsets.sql
-auction.sql
-auction_bid.sql
-auction_watch.sql
-auto_announcements.sql
-auto_chat.sql
-auto_chat_text.sql
-castle.sql
-castle_door.sql
-castle_doorupgrade.sql
-castle_functions.sql
-castle_manor_procure.sql
-castle_manor_production.sql
-castle_siege_guards.sql
-char_creation_items.sql
-char_templates.sql
-character_friends.sql
-character_hennas.sql
-character_instance_time.sql
-character_macroses.sql
-character_premium_items.sql
-character_quest_global_data.sql
-character_offline_trade_items.sql
-character_offline_trade.sql
-character_quests.sql
-character_raid_points.sql
-character_recipebook.sql
-character_recipeshoplist.sql
-character_reco_bonus.sql
-character_shortcuts.sql
-character_skills.sql
-character_skills_save.sql
-character_subclasses.sql
-character_tpbookmark.sql
-character_ui_actions.sql
-character_ui_categories.sql
-characters.sql
-clan_data.sql
-clan_notices.sql
-clan_privs.sql
-clan_skills.sql
-clan_subpledges.sql
-clan_wars.sql
-clanhall.sql
-clanhall_functions.sql
-clanhall_siege_guards.sql
-class_list.sql
-cursed_weapons.sql
-dimensional_rift.sql
-droplist.sql
-enchant_skill_groups.sql
-fish.sql
-fishing_skill_trees.sql
-fort.sql
-fort_doorupgrade.sql
-fort_functions.sql
-fort_siege_guards.sql
-fort_spawnlist.sql
-fort_staticobjects.sql
-fortsiege_clans.sql
-forums.sql
-four_sepulchers_spawnlist.sql
-games.sql
-global_tasks.sql
-global_variables.sql
-grandboss_data.sql
-grandboss_list.sql
-hellbound.sql
-helper_buff_list.sql
-henna.sql
-henna_trees.sql
-herb_droplist_groups.sql
-heroes.sql
-heroes_diary.sql
-item_attributes.sql
-item_auction_bid.sql
-item_auction.sql
-item_elementals.sql
-items.sql
-itemsonground.sql
-locations.sql
-lvlupgain.sql
-mapregion.sql
-merchant_buylists.sql
-merchant_lease.sql
-merchant_shopids.sql
-messages.sql
-minions.sql
-npc.sql
-npc_buffer.sql
-npcaidata.sql
-npc_elementals.sql
-npcskills.sql
-olympiad_data.sql
-olympiad_fights.sql
-olympiad_nobles.sql
-olympiad_nobles_eom.sql
-pets.sql
-pets_skills.sql
-pledge_skill_trees.sql
-posts.sql
-quest_global_data.sql
-raidboss_spawnlist.sql
-random_spawn.sql
-random_spawn_loc.sql
-seven_signs.sql
-seven_signs_festival.sql
-seven_signs_status.sql
-siege_clans.sql
-skill_learn.sql
-skill_residential.sql
-skill_spellbooks.sql
-skill_trees.sql
-spawnlist.sql
-special_skill_trees.sql
-teleport.sql
-topic.sql
-territories.sql
-territory_registrations.sql
-territory_spawnlist.sql
-transform_skill_trees.sql
-zone_vertices.sql
-mods\mods_wedding.sql
-custom\custom_npc.sql
-chatdata.sql
-messagetable.sql
-npcCharData.sql
-skill.sql
-item.sql
-l2jtw_addon_1.sql
-l2jtw_addon_2.sql
-) do call :dump %%i
+for %%i in (..\sql\server\*.sql) do call :dump %%i
 
 echo 完成...
 echo.
@@ -829,9 +684,9 @@ set cmdline=
 if /i %full% == 1 (set action=安裝) else (set action=更新)
 echo %action% %1>>"%output%"
 echo %action% %~nx1
-if "%dest%"=="ls" set cmdline="%mysqlPath%" -h %lshost% -u %lsuser% --password=%lspass% -D %lsdb% ^< ..\sql\%1 2^>^>"%output%"
-if "%dest%"=="cb" set cmdline="%mysqlPath%" -h %cbhost% -u %cbuser% --password=%cbpass% -D %cbdb% ^< ..\cb_sql\%1 2^>^>"%output%"
-if "%dest%"=="gs" set cmdline="%mysqlPath%" -h %gshost% -u %gsuser% --password=%gspass% -D %gsdb% ^< ..\sql\%1 2^>^>"%output%"
+if "%dest%"=="ls" set cmdline="%mysqlPath%" -h %lshost% -u %lsuser% --password=%lspass% -D %lsdb% ^< %1 2^>^>"%output%"
+if "%dest%"=="cb" set cmdline="%mysqlPath%" -h %cbhost% -u %cbuser% --password=%cbpass% -D %cbdb% ^< %1 2^>^>"%output%"
+if "%dest%"=="gs" set cmdline="%mysqlPath%" -h %gshost% -u %gsuser% --password=%gspass% -D %gsdb% ^< %1 2^>^>"%output%"
 %cmdline%
 if %logging%==0 if NOT %ERRORLEVEL%==0 call :omfg2 %1
 goto :eof
@@ -895,7 +750,7 @@ set output=NUL
 goto :eof
 
 :custom
-cd ..\sql\
+cd ..\sql\server\
 set charprompt=y
 set /p charprompt=安裝「技能/物品/職業/NPC說話」中文化: (y) 確定 或 (N) 取消？（預設值-確定）:
 if /i %charprompt%==y "%mysqlPath%" -h %gshost% -u %gsuser% --password=%gspass% -D %gsdb% < skill_tw.sql 2>>NUL
@@ -921,7 +776,7 @@ if /i %cstprompt%==q goto end
 goto newbie_helper
 :cstinstall
 echo 安裝 custom 自訂內容
-cd ..\sql\custom\
+cd ..\sql\server\custom\
 echo @echo off> temp.bat
 if exist errors.txt del errors.txt
 for %%i in (*.sql) do echo "%mysqlPath%" -h %gshost% -u %gsuser% --password=%gspass% -D %gsdb% ^< %%i 2^>^> custom_errors.txt >> temp.bat
@@ -938,7 +793,6 @@ echo 你必須修改 config 的檔案設定
 echo.
 pause
 cd %workdir%
-goto newbie_helper
 title L2JDP installer - Game Server database setup - L2J Mods
 cls
 echo L2J provides a basic infraestructure for some non-retail features
@@ -947,7 +801,7 @@ echo.
 echo Some of these mods would require extra tables in order to work
 echo and those tables could be created now if you wanted to.
 echo.
-cd ..\sql\mods\
+cd ..\sql\server\mods\
 REM L2J mods that needed extra tables to work properly, should be 
 REM listed here. To do so copy & paste the following 4 lines and
 REM change them properly:
@@ -975,7 +829,7 @@ title L2JTW Datapack 安裝 - For：L2JTW GameServer Freya Alpha
 cls
 if %full% == 1 goto end
 echo.
-echo sql/updates 的資料夾是用來更新資料庫格式
+echo sql/server/updates 的資料夾是用來更新資料庫格式
 echo.
 echo 請直接按下 Enter 進行更新
 :asknb
@@ -988,21 +842,22 @@ echo.
 echo (s)省略：全部都由手動安裝
 echo.
 set /p nbprompt=請選擇（預設值-自動）:
-if /i %nbprompt%==a goto nbinstall
+if /i %nbprompt%==a goto nblsinstall
+if /i %nbprompt%==l goto nblsinstall
 if /i %nbprompt%==c goto nbcbinstall
-if /i %nbprompt%==g goto nbinstall
+if /i %nbprompt%==g goto nbgsinstall
 if /i %nbprompt%==s goto end
 goto asknb
-:nbinstall
-cd ..\sql\updates\
+:nblsinstall
+cd ..\sql\login\updates\
 echo @echo off> temp.bat
-if exist errors.txt del errors.txt
-for %%i in (*.sql) do echo "%mysqlPath%" -h %gshost% -u %gsuser% --password=%gspass% -D %gsdb% ^< %%i 2^>^> errors.txt >> temp.bat
+if exist lserrors.txt del lserrors.txt
+for %%i in (*.sql) do echo "%mysqlPath%" -h %lshost% -u %lsuser% --password=%lspass% -D %lsdb% ^< %%i 2^>^> lserrors.txt >> temp.bat
 call temp.bat> nul
 del temp.bat
-move errors.txt %workdir%
+move lserrors.txt %workdir%
 cd %workdir%
-if /i %nbprompt%==g goto nbfinished
+if /i %nbprompt%==l goto nbfinished
 :nbcbinstall
 cd ..\cb_sql\updates\
 echo @echo off> temp.bat
@@ -1011,6 +866,16 @@ for %%i in (*.sql) do echo "%mysqlPath%" -h %cbhost% -u %cbuser% --password=%cbp
 call temp.bat> nul
 del temp.bat
 move cberrors.txt %workdir%
+cd %workdir%
+if /i %nbprompt%==c goto nbfinished
+:nbgsinstall
+cd ..\sql\server\updates\
+echo @echo off> temp.bat
+if exist gserrors.txt del gserrors.txt
+for %%i in (*.sql) do echo "%mysqlPath%" -h %gshost% -u %gsuser% --password=%gspass% -D %gsdb% ^< %%i 2^>^> gserrors.txt >> temp.bat
+call temp.bat> nul
+del temp.bat
+move gserrors.txt %workdir%
 cd %workdir%
 :nbfinished
 title L2JTW Datapack 安裝 - For：L2JTW GameServer Freya Alpha
@@ -1059,7 +924,7 @@ echo   請下載並且安裝此程式：
 echo   http://subversion.tigris.org/servlets/ProjectDocumentList?folderID=91
 echo.
 )
-set dpvf="..\gameserver\config\l2jdp-version.properties"
+set dpvf="..\config\l2jdp-version.properties"
 echo Datapack 版本：
 if NOT EXIST %dpvf% (
 echo   %dpvf% 檔案無法找到！

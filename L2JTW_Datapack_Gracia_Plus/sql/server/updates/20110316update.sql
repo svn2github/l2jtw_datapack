@@ -1,6 +1,3 @@
-ALTER TABLE `accounts`
-MODIFY `lastactive` bigint(13) unsigned NOT NULL DEFAULT '0';
-
 ALTER TABLE `auction`
 MODIFY `endDate` bigint(13) unsigned NOT NULL DEFAULT '0';
 
@@ -87,9 +84,6 @@ MODIFY `next_weekly_change` bigint(13) unsigned NOT NULL DEFAULT '0';
 ALTER TABLE `olympiad_fights`
 MODIFY `start` bigint(13) unsigned NOT NULL DEFAULT '0',
 MODIFY `time` bigint(13) unsigned NOT NULL DEFAULT '0';
-
-ALTER TABLE `posts`
-MODIFY `post_date` bigint(13) unsigned NOT NULL DEFAULT '0';
 
 ALTER TABLE `raidboss_spawnlist`
 MODIFY `respawn_time` bigint(13) unsigned NOT NULL DEFAULT '0';
