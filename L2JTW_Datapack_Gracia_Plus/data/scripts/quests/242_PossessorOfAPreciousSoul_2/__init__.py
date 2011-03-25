@@ -78,6 +78,17 @@ class Quest (JQuest) :
        st.takeItems(GOLDEN_HAIR,1)
        st.takeItems(SORCERY_INGREDIENT,1)
        st.playSound("ItemSound.quest_middle")
+   elif event == "orb" :
+     cornerstones = st.getInt("cornerstones")
+     if cond == 9 :
+       st.takeItems(ORB_OF_BINDING,1)
+       npc.doDie(npc)
+       st.set("cornerstones",str(cornerstones+1))
+       st.playSound("ItemSound.quest_middle")
+       if cornerstones == 3 :
+         htmltext = "31748-3.htm"
+         st.set("cond","10")
+         st.playSound("ItemSound.quest_middle")
    elif event == "1" :
      npc.getSpawn().stopRespawn();
      npc.deleteMe();
@@ -113,25 +124,27 @@ class Quest (JQuest) :
                 htmltext = "31742-1.htm"
          elif cond == 1 :
              htmltext = "31742-4.htm"
+         elif cond in [2,3,4,5,6,7,8,9,10] :
+             htmltext = "31742-5.htm"
          elif cond == 11 :
              htmltext = "31742-6.htm"
+     elif npcId == KASSANDRA :
+         if cond == 1 :
+             htmltext = "31743-1.htm"
+         elif cond in [2,3,4,5,6,7,8,9,10] :
+             htmltext = "31743-6.htm"
+         elif cond == 11 :
+             htmltext = "31743-7.htm"
              st.set("cond","0")
              st.set("cornerstones","0")
              st.giveItems(CARADINE_LETTER,1)
              st.addExpAndSp(455764,0)
              st.playSound("ItemSound.quest_finish")
              st.exitQuest(False)
-     elif npcId == KASSANDRA :
-         if cond == 1 :
-             htmltext = "31743-1.htm"
-         elif cond == 2 :
-             htmltext = "31743-6.htm"
-         elif cond == 11 :
-             htmltext = "31743-7.htm"
      elif npcId == OGMAR :
          if cond == 2 :
              htmltext = "31744-1.htm"
-         elif cond == 3 :
+         elif cond in [3,4,5,6,7,8,9,10,11] :
              htmltext = "31744-3.htm"
      elif npcId == MYSTERIOUS_KNIGHT :
          if cond == 3 :
@@ -178,17 +191,11 @@ class Quest (JQuest) :
              htmltext = "31746-2.htm"
              self.startQuestTimer("1",3000,npc,player)
      elif npcId == CORNERSTONE :
-         if cond == 9 and st.getQuestItemsCount(ORB_OF_BINDING) == 0 :
-             htmltext = "31748-1.htm"
-         elif cond == 9 and st.getQuestItemsCount(ORB_OF_BINDING) >= 1 :
-             htmltext = "31748-2.htm"
-             st.takeItems(ORB_OF_BINDING,1)
-             npc.doDie(npc)
-             st.set("cornerstones",str(cornerstones+1))
-             st.playSound("ItemSound.quest_middle")
-             if cornerstones == 3 :
-                 st.set("cond","10")
-                 st.playSound("ItemSound.quest_middle")
+         if cond == 9 :
+             if st.getQuestItemsCount(ORB_OF_BINDING) == 0 :
+                 htmltext = "31748-1.htm"
+             else:
+                 htmltext = "31748-2.htm"
      elif npcId == PURE_UNICORN :
          if cond == 10 :
              st.set("cond","11")
