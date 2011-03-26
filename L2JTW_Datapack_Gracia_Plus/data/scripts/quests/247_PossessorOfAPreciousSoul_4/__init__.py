@@ -28,7 +28,7 @@ class Quest (JQuest) :
        st.set("cond","1")
        st.setState(State.STARTED)
        st.playSound("ItemSound.quest_accept")
-   elif event == "31740-5.htm" :
+   elif event == "31740-4.htm" :
      if cond == 1 :
        st.set("cond","2")
        st.takeItems(CARADINE_LETTER_LAST,1)
@@ -65,7 +65,7 @@ class Quest (JQuest) :
              elif player.getLevel() >= 75 :
                htmltext = "31740-1.htm"
          elif cond == 2 :
-             htmltext = "31740-6.htm"
+             htmltext = "31740-4.htm"
      elif npcId == LADY_OF_LAKE and cond == 2 :
          htmltext = "31745-1.htm"
    else :

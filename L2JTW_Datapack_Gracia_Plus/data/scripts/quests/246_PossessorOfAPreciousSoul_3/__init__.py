@@ -1,4 +1,6 @@
 # Made by disKret
+# Update by pmq
+# High Five 26-03-2011
 import sys
 from com.l2jserver.gameserver.model.quest import State
 from com.l2jserver.gameserver.model.quest import QuestState
@@ -7,22 +9,30 @@ from com.l2jserver.gameserver.model.quest.jython import QuestJython as JQuest
 qn = "246_PossessorOfAPreciousSoul_3"
 
 #NPC
-LADD = 30721
-CARADINE = 31740
-OSSIAN = 31741
+LADD     = 30721  # 教師 拉德
+CARADINE = 31740  # 凱拉蒂
+OSSIAN   = 31741  # 歐夏恩
 
 #QUEST ITEM
-CARADINE_LETTER = 7678
-CARADINE_LETTER_LAST = 7679
-WATERBINDER = 7591
-EVERGREEN = 7592
-RAIN_SONG = 7593
-RELIC_BOX = 7594
+CARADINE_LETTER      = 7678  # 凱拉蒂的信
+CARADINE_LETTER_LAST = 7679  # 凱拉蒂的信
+WATERBINDER          = 7591  # 女神的戒指-水之羈絆
+EVERGREEN            = 7592  # 女神的項鍊-綠之永恆
+RAIN_SONG            = 7593  # 女神的手杖-雨之詩歌
+RELIC_BOX            = 7594  # 聖物箱子
+#                    = 21725 # 女神的手杖-雨之詩歌碎片
 
 #MOBS
-PILGRIM_OF_SPLENDOR = 21541
-JUDGE_OF_SPLENDOR = 21544
-BARAKIEL = 25325
+PILGRIM_OF_SPLENDOR = 21541  # 輝煌的求道者
+JUDGE_OF_SPLENDOR   = 21544  # 輝煌的審判官
+BARAKIEL            = 25325  # 狩獵首領 輝煌之炎 貝拉凱爾
+# = 21535  # 輝煌的印記
+# = 21536  # 輝煌的王冕
+# = 21537  # 輝煌的獸牙
+# = 21538  # 輝煌的獸牙
+# = 21539  # 輝煌的苦痛
+# = 21540  # 輝煌的苦痛
+
 
 #CHANCE FOR DROP
 CHANCE_FOR_DROP = 5
@@ -38,7 +48,7 @@ class Quest (JQuest) :
    st = player.getQuestState(qn)
    if not st : return
    cond = st.getInt("cond")
-   if event == "31740-4.htm" :
+   if event == "31740-3.htm" :
      if cond == 0 :
        st.setState(State.STARTED)
        st.takeItems(CARADINE_LETTER,1)
@@ -56,7 +66,7 @@ class Quest (JQuest) :
        st.takeItems(WATERBINDER,1)
        st.takeItems(EVERGREEN,1)
        st.playSound("ItemSound.quest_middle")
-   elif event == "31741-9.htm" :
+   elif event == "31741-8.htm" :
      if cond == 5 :
        st.set("cond","6")
        st.takeItems(RAIN_SONG,1)
@@ -91,7 +101,7 @@ class Quest (JQuest) :
            elif player.getLevel() >= 65 :
              htmltext = "31740-1.htm"
          elif cond == 1 :
-             htmltext = "31740-5.htm"
+             htmltext = "31740-4.htm"
      elif npcId == OSSIAN:
          if cond == 1 :
              htmltext = "31741-1.htm"
@@ -100,11 +110,11 @@ class Quest (JQuest) :
          elif cond == 3 and st.getQuestItemsCount(WATERBINDER) == 1 and st.getQuestItemsCount(EVERGREEN) == 1 :
            htmltext = "31741-3.htm"
          elif cond == 4 :
-           htmltext = "31741-8.htm"
+           htmltext = "31741-6.htm"
          elif cond == 5 and st.getQuestItemsCount(RAIN_SONG) == 1 :
            htmltext = "31741-7.htm"
          elif cond == 6 and st.getQuestItemsCount(RELIC_BOX) == 1 :
-           htmltext = "31741-11.htm"
+           htmltext = "31741-9.htm"
      elif npcId == LADD and cond == 6 :
        htmltext = "30721-1.htm"
    else :
@@ -113,7 +123,7 @@ class Quest (JQuest) :
 
  def onKill(self,npc,player,isPet):
    npcId = npc.getNpcId()
-   if npcId == PILGRIM_OF_SPLENDOR :
+   if npcId == PILGRIM_OF_SPLENDOR :  # 輝煌的求道者
      #get a random party member who is doing this quest and needs this drop 
      partyMember = self.getRandomPartyMember(player,"awaitsWaterbinder","1")
      if partyMember :
@@ -129,7 +139,7 @@ class Quest (JQuest) :
              else:
                st.playSound("ItemSound.quest_middle")
                st.set("cond","3")
-   elif npcId == JUDGE_OF_SPLENDOR :
+   elif npcId == JUDGE_OF_SPLENDOR :  # 輝煌的審判官
      #get a random party member who is doing this quest and needs this drop 
      partyMember = self.getRandomPartyMember(player,"awaitsEvergreen","1")
      if partyMember :
@@ -145,7 +155,7 @@ class Quest (JQuest) :
              else:
                st.playSound("ItemSound.quest_middle")
                st.set("cond","3")
-   elif npcId == BARAKIEL :
+   elif npcId == BARAKIEL :  # 狩獵首領 輝煌之炎 貝拉凱爾
      #give the quest item and update variables for ALL PARTY MEMBERS who are doing the quest,
      #so long as they each qualify for the drop (cond == 4 and item not in inventory)
      #note: the killer WILL participate in the loop as a party member (no need to handle separately)
