@@ -184,10 +184,10 @@ DELETE FROM `merchant_buylists` WHERE `item_id` IN (13688,13689,13690,13889,1389
 DELETE FROM `character_skills` WHERE `skill_id` = 928;
 
 -- 加入弩弓遊俠在43級可學到黑暗裝甲LV2
-REPLACE INTO `skill_trees` VALUES (130,481,2,'Dark Armor',39000,43,'true','false');
+REPLACE INTO `skill_trees` VALUES (130,481,2,'Dark Armor',39000,43,'true','false','false','false');
 
 -- 修正弩弓遊俠在64級可學到火陷阱LV7
-REPLACE INTO `skill_trees` VALUES (130,514,7,'Fire Trap',320000,64,'true','false');
+REPLACE INTO `skill_trees` VALUES (130,514,7,'Fire Trap',320000,64,'true','false','false','false');
 
 -- 刪除學習81級以下的技能所必須的魔法書
 DELETE FROM `skill_spellbooks` WHERE (`item_id` < 8892 OR `item_id` > 8908);
