@@ -122,12 +122,12 @@ class Quest (JQuest) :
 			st.playSound("ItemSound.quest_finish")
 			if player.getClassId().level() == 1 :
 				text = BYPASS[player.getClassId().getId()]
-				htmltext = "<html><body>財富的地下商人:<br>錢的事嘛，你還是把它忘了吧...<br>我說過會幫你轉職的嘛！你想要轉職為哪一種職業呢？挑挑看吧...<br>"+text+"</body></html>"
+				htmltext = "<html><body>財富的地下商人：<br>錢的事嘛，你還是把它忘了吧...<br>我說過會幫你轉職的嘛！你想要轉職為哪一種職業呢？挑挑看吧...<br>"+text+"</body></html>"
 			else :
 				htmltext = "31092-06.htm"
 		elif event == "31092-06.htm" :
 			text = BYPASS[player.getClassId().getId()]
-			htmltext = "<html><body>財富的地下商人:<br>如果考慮好了，那就趕快選擇一下吧。你想要哪一種職業呢？<br>"+text+"</body></html>"
+			htmltext = "<html><body>財富的地下商人：<br>如果考慮好了，那就趕快選擇一下吧。你想要哪一種職業呢？<br>"+text+"</body></html>"
 		elif event == "31092-07.htm" :
 			st.giveAdena(3000000, False)
 			st.set("onlyone","1")
@@ -223,7 +223,7 @@ class Quest (JQuest) :
 		if npcId == 27340 and cond == 1 :
 			string = "沒想到會這麼強，我失算了。"
 			if st.getRandom(1):
-				string = "算你走運，我會回來的。"
+				string = "你運氣真好，下次我會再來找你的。"
 			npc.broadcastPacket(NpcSay(npc.getObjectId(),0,npc.getNpcId(),string))
 			st.giveItems(10867,1)
 			st.set("cond","2")

@@ -17,7 +17,7 @@ REM ##############################################
 REM Copyright (C) 2010 L2J DataPack
 REM This program is free software; you can redistribute it and/or modify 
 REM it under the terms of the GNU General Public License as published by 
-REM the Free Software Foundation; either version 2 of the License, or (at
+REM the Free Software Foundation; either version 3 of the License, or (at
 REM your option) any later version.
 REM
 REM This program is distributed in the hope that it will be useful, but 
@@ -82,7 +82,7 @@ goto loadconfig
 
 :colors
 if /i "%cmode%"=="n" (
-if not "%1"=="17" (	color F ) else ( color )
+if not "%1"=="17" (	color F	) else ( color )
 ) else ( color %1 )
 goto :eof
 

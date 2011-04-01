@@ -233,9 +233,10 @@
 		<set name="operateType" val="OP_ACTIVE" />
 		<set name="power" val="100" /> <!-- Base Land Rate -->
 		<set name="skillType" val="DEBUFF" />
+		<set name="stayAfterDeath" val="true" />
 		<set name="target" val="TARGET_ONE" />
 		<for>
-			<!-- effect name="BlockResurrection" time="300" val="0" stackOrder="1" stackType="block_resurrection" / TODO: Needs Core-Side Support -->
+			<effect name="BlockResurrection" time="300" val="0" stackOrder="1" stackType="block_resurrection" />
 		</for>
 	</skill>
 	<skill id="5920" levels="1" name="Tentacle of Agony">
@@ -791,6 +792,7 @@
 		<set name="target" val="TARGET_NONE" />
 		<set name="skillType" val="NOTDONE" />
 		<set name="operateType" val="OP_PASSIVE" />
+		<set name="reuseDelay" val="1000" />
 		<set name="hitTime" val="7900" />
 	</skill>
 	<skill id="5975" levels="3" name="Dark Attack">
