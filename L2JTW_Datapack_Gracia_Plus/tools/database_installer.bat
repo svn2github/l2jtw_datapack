@@ -664,6 +664,7 @@ set dest=ls
 for %%i in (..\sql\login\*.sql) do call :dump %%i
 set dest=gs
 for %%i in (..\sql\server\*.sql) do call :dump %%i
+for %%i in (..\sql\server\mods\*.sql) do call :dump %%i
 for %%i in (..\sql\L2JTW\*.sql) do call :dump %%i
 
 echo งนฆจ...

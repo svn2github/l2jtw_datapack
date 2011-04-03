@@ -358,6 +358,10 @@ for gs in $(ls ../sql/server/*.sql);do
 	echo "Installing GameServer table : $gs"
 	$MYG < $gs
 done
+for gs in $(ls ../sql/server/mods/*.sql);do
+	echo "Installing GameServer table : $gs"
+	$MYG < $gs
+done
 for gs in $(ls ../sql/L2JTW/*.sql);do
 	echo "Installing GameServer table : $gs"
 	$MYG < $gs
