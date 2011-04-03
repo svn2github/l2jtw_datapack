@@ -1,7 +1,8 @@
 # Made by Kerberos v1.0 on 2008/07/31
 # this script is part of the Official L2J Datapack Project.
 # Visit http://www.l2jdp.com/forum/ for more details.
-
+# update by pmq
+# High Five Part4 04-04-2011
 import sys
 from com.l2jserver.gameserver.ai import CtrlIntention
 from com.l2jserver.gameserver.model.quest import State
@@ -76,6 +77,7 @@ class Quest (JQuest) :
 	def onAdvEvent (self,event,npc,player) :
 		if event == "npc_cleanup" :
 			self.isNpcSpawned = 0
+			npc.broadcastPacket(NpcSay(27340,0,npc.getNpcId(),"你運氣真好，下次我會再來找你的。"))
 			return
 		st = player.getQuestState(qn)
 		if not st: return
@@ -91,13 +93,13 @@ class Quest (JQuest) :
 			st.set("cond","9")
 			st.playSound("ItemSound.quest_middle")
 		elif event == "32487-02.htm" and self.isNpcSpawned == 0:
-			npc = st.addSpawn(27340,72590,148100,-3312,1800000)
-			npc.broadcastPacket(NpcSay(npc.getObjectId(),0,npc.getNpcId(),player.getName()+"! 去死吧，要怪就怪你的好奇心。"))
+			npc = st.addSpawn(27340,72590,148100,-3312,60000)
+			npc.broadcastPacket(NpcSay(npc.getObjectId(),0,npc.getNpcId(),"「" + player.getName() + "」" + "! 去死吧，要怪就怪你的好奇心。"))
 			npc.setRunning()
 			npc.addDamageHate(st.getPlayer(),0,999)
 			npc.getAI().setIntention(CtrlIntention.AI_INTENTION_ATTACK, st.getPlayer())
 			self.isNpcSpawned = 1
-			self.startQuestTimer("npc_cleanup",1800000,None, None)
+			self.startQuestTimer("npc_cleanup",59000,npc, None)
 		elif event == "32487-06.htm" :
 			st.set("cond","8")
 			st.playSound("ItemSound.quest_middle")
@@ -120,17 +122,11 @@ class Quest (JQuest) :
 		elif event == "31092-05.htm" :
 			st.exitQuest(False)
 			st.playSound("ItemSound.quest_finish")
-			if player.getClassId().level() == 1 :
-				text = BYPASS[player.getClassId().getId()]
-				htmltext = "<html><body>財富的地下商人：<br>錢的事嘛，你還是把它忘了吧...<br>我說過會幫你轉職的嘛！你想要轉職為哪一種職業呢？挑挑看吧...<br>"+text+"</body></html>"
-			else :
-				htmltext = "31092-06.htm"
+			text = BYPASS[player.getClassId().getId()]
+			htmltext = "<html><body>財富的地下商人：<br>錢的事嘛，你還是把它忘了吧...<br>我說過會幫你轉職的嘛！你想要轉職為哪一種職業呢？挑挑看吧...<br>"+text+"</body></html>"
 		elif event == "31092-06.htm" :
 			text = BYPASS[player.getClassId().getId()]
 			htmltext = "<html><body>財富的地下商人：<br>如果考慮好了，那就趕快選擇一下吧。你想要哪一種職業呢？<br>"+text+"</body></html>"
-		elif event == "31092-07.htm" :
-			st.giveAdena(3000000, False)
-			st.set("onlyone","1")
 		elif event in CLASSES.keys():
 			newclass,req_item=CLASSES[event]
 			adena = 0
@@ -162,6 +158,8 @@ class Quest (JQuest) :
 			elif npcId == 31092 :
 				if player.getClassId().level() == 1 and not st.getInt("onlyone"):
 					htmltext = "31092-04.htm"
+				else:
+					htmltext = "31092-07.htm"
 		elif id == State.CREATED :
 			if npcId == 31435 and cond == 0 :
 				if player.getLevel() < 39 or player.getClassId().level() != 1 or player.getRace().ordinal() == 5 :
@@ -172,11 +170,13 @@ class Quest (JQuest) :
 		elif id == State.STARTED:
 			if npcId == 31435 :
 				if cond in [1,2]:
-					htmltext = "31435-03.htm"
+					htmltext = "31435-03a.htm"
 				elif cond == 3 :
 					htmltext = "31435-04.htm"
-				elif cond in [4,5,6,7] :
+				elif cond == 4 :
 					htmltext = "31435-06.htm"
+				elif cond in [5,6,7] :
+					htmltext = "31435-06a.htm"
 				elif cond == 8 :
 					htmltext = "31435-07.htm"
 				elif cond == 9 :
@@ -187,7 +187,10 @@ class Quest (JQuest) :
 					htmltext = "31435-10.htm"
 			elif npcId == 32487 :
 				if cond == 1 :
-					htmltext = "32487-01.htm"
+					if self.isNpcSpawned == 0 :
+						htmltext = "32487-01.htm"
+					else:
+						htmltext = "<html><body>瑪克：<br>後面..小心後面。</body></html>"
 				elif cond == 2 :
 					htmltext = "32487-03.htm"
 					st.set("cond","3")
@@ -209,11 +212,18 @@ class Quest (JQuest) :
 					htmltext = "30081-09.htm"
 			elif npcId == 31092 :
 				if cond == 10 :
-					htmltext = "31092-01.htm"
+					if player.getClassId().level() == 1 :
+						htmltext = "31092-01.htm"
+					else:
+						htmltext = "31092-06.htm"
+						st.exitQuest(False)
+						st.playSound("ItemSound.quest_finish")
+						st.giveAdena(3000000, False)
+						st.set("onlyone","1")
 		return htmltext
 
 	def onKill(self,npc,player,isPet):
-		self.cancelQuestTimer("npc_cleanup", None, None)
+		self.cancelQuestTimer("npc_cleanup", npc, None)
 		self.isNpcSpawned = 0
 		st = player.getQuestState(qn)
 		if not st : return
@@ -222,8 +232,6 @@ class Quest (JQuest) :
 		cond = st.getInt("cond")
 		if npcId == 27340 and cond == 1 :
 			string = "沒想到會這麼強，我失算了。"
-			if st.getRandom(1):
-				string = "你運氣真好，下次我會再來找你的。"
 			npc.broadcastPacket(NpcSay(npc.getObjectId(),0,npc.getNpcId(),string))
 			st.giveItems(10867,1)
 			st.set("cond","2")
