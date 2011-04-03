@@ -1,14 +1,4 @@
 @echo off
-REM 防止從聖翼使命更新到芙蕾雅後,因DP的大變動而造成GS出錯
-IF EXIST "C:\L2JTW-SVN\L2JTW_GameServer_Gracia" RD /S /Q "C:\L2JTW-SVN\L2JTW_GameServer_Gracia"
-IF EXIST "C:\L2JTW-SVN\L2JTW_GameServer_Gracia" RMDIR /S /Q "C:\L2JTW-SVN\L2JTW_GameServer_Gracia"
-IF EXIST "..\gameserver\data\stats\armor"   RD /S /Q "..\gameserver\data\stats\armor"
-IF EXIST "..\gameserver\data\stats\etcitem" RD /S /Q "..\gameserver\data\stats\etcitem"
-IF EXIST "..\gameserver\data\stats\weapon"  RD /S /Q "..\gameserver\data\stats\weapon"
-IF EXIST "..\gameserver\data\stats\skills\??00-??99.xml"  DEL /Q "..\gameserver\data\stats\skills\??00-??99.xml"
-IF EXIST "..\gameserver\data\stats\armor"   RMDIR /S /Q "..\gameserver\data\stats\armor"
-IF EXIST "..\gameserver\data\stats\etcitem" RMDIR /S /Q "..\gameserver\data\stats\etcitem"
-IF EXIST "..\gameserver\data\stats\weapon"  RMDIR /S /Q "..\gameserver\data\stats\weapon"
 REM ##############################################
 REM ## L2JDP Database Installer - (by DrLecter) ##
 REM ##############################################
@@ -674,9 +664,20 @@ set dest=ls
 for %%i in (..\sql\login\*.sql) do call :dump %%i
 set dest=gs
 for %%i in (..\sql\server\*.sql) do call :dump %%i
+for %%i in (..\sql\L2JTW\*.sql) do call :dump %%i
 
 echo 完成...
 echo.
+set charprompt=y
+set /p charprompt=安裝「技能/物品/職業/NPC說話」中文化: (y) 確定 或 (N) 取消？（預設值-確定）:
+if /i %charprompt%==n goto custom
+for %%i in (..\sql\L2JTW_2\*.sql) do call :dump %%i
+echo 完成...
+echo.
+echo ☆注意：部分系統安裝中文化會失敗，導致遊戲中出現亂碼
+echo 　　　　如果遇到這種情形，請再手動導入 SQL 裡面的
+echo 　　　　skill_tw.sql / item_tw.sql / messagetable /
+echo 　　　　auto_chat_text_tw / char_templates_tw 這 5 個 SQL
 goto custom
 
 :dump
@@ -750,23 +751,6 @@ set output=NUL
 goto :eof
 
 :custom
-cd ..\sql\server\
-set charprompt=y
-set /p charprompt=安裝「技能/物品/職業/NPC說話」中文化: (y) 確定 或 (N) 取消？（預設值-確定）:
-if /i %charprompt%==y "%mysqlPath%" -h %gshost% -u %gsuser% --password=%gspass% -D %gsdb% < skill_tw.sql 2>>NUL
-if /i %charprompt%==y "%mysqlPath%" -h %gshost% -u %gsuser% --password=%gspass% -D %gsdb% < item_tw.sql 2>>NUL
-if /i %charprompt%==y "%mysqlPath%" -h %gshost% -u %gsuser% --password=%gspass% -D %gsdb% < char_templates_tw.sql 2>>NUL
-if /i %charprompt%==y "%mysqlPath%" -h %gshost% -u %gsuser% --password=%gspass% -D %gsdb% < auto_chat_text_tw.sql 2>>NUL
-echo 安裝 skill_tw.sql
-echo 安裝 item_tw.sql
-echo 安裝 char_templates_tw.sql
-echo 安裝 auto_chat_text_tw.sql
-echo 完成...
-echo.
-echo ☆注意：部分系統安裝中文化會失敗，導致遊戲中出現亂碼
-echo 　　　　如果遇到這種情形，請再手動導入 SQL 裡面的
-echo 　　　　skill_tw.sql / item_tw.sql / messagetable /
-echo 　　　　auto_chat_text_tw / char_templates_tw 這 5 個 SQL
 echo.
 set cstprompt=y
 set /p cstprompt=安裝 custom 自訂資料表: (y) 確定 或 (N) 取消 或 (q) 退出？（預設值-確定）:
@@ -793,6 +777,7 @@ echo 你必須修改 config 的檔案設定
 echo.
 pause
 cd %workdir%
+goto newbie_helper
 title L2JDP installer - Game Server database setup - L2J Mods
 cls
 echo L2J provides a basic infraestructure for some non-retail features
@@ -924,7 +909,7 @@ echo   請下載並且安裝此程式：
 echo   http://subversion.tigris.org/servlets/ProjectDocumentList?folderID=91
 echo.
 )
-set dpvf="..\config\l2jdp-version.properties"
+set dpvf="..\gameserver\config\l2jdp-version.properties"
 echo Datapack 版本：
 if NOT EXIST %dpvf% (
 echo   %dpvf% 檔案無法找到！
@@ -948,7 +933,7 @@ title L2JTW Datapack 安裝 - For：L2JTW GameServer Freya Alpha
 cls
 echo.
 echo L2JTW Datapack 安裝程序 - For：L2JTW GameServer Freya Alpha
-echo (C) 2007-2010 L2JTW Datapack 開發團隊
+echo (C) 2007-2011 L2JTW Datapack 開發團隊
 echo.
 echo 感謝使用 L2JTW 伺服器
 echo 相關資訊可以在 http://www.l2jtw.com 查詢到
