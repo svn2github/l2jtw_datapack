@@ -40,12 +40,16 @@ public class GeneralDilios extends L2AttackableAIScript
 	private L2Npc _general;
 	private List<L2Npc> _guards = new ArrayList<L2Npc>();
 	
-	private static final String[] diliosText =
+	private static final int[] diliosText =
 	{
-		"傳令，告知柯塞勒斯同盟聯合的夥伴們！目前我們正在募集勇猛的冒險家們，準備攻擊霸佔破滅之種的蒂雅特的龍馬團！",
-		"傳令，告知柯塞勒斯同盟聯合的夥伴們！多虧勇猛的冒險家們，目前正在剷除散佈在不滅之種的苦痛棺室和侵蝕棺室的不死生物們。",
-		"傳令，告知柯塞勒斯同盟聯合的夥伴們！目前破滅之種在同盟聯合的旗幟下維護得很安全！",
-		"傳令，告知柯塞勒斯同盟聯合的夥伴們！目前已掃蕩不滅之種的種子心臟部，正在對伊卡姆士展開直接的攻擊！",
+		1800695, // Messenger, inform the patrons of the Keucereus Alliance Base! We're gathering brave adventurers to attack Tiat's Mounted Troop that's rooted in the Seed of Destruction.
+	    //1800696,  Messenger, inform the patrons of the Keucereus Alliance Base! The Seed of Destruction is currently secured under the flag of the Keucereus Alliance!
+		//1800697,  Messenger, inform the patrons of the Keucereus Alliance Base! Tiat's Mounted Troop is currently trying to retake Seed of Destruction! Commit all the available reinforcements into Seed of Destruction!
+		1800698, // Messenger, inform the brothers in Kucereus' clan outpost! Brave adventurers who have challenged the Seed of Infinity are currently infiltrating the Hall of Erosion through the defensively weak Hall of Suffering!
+		//1800699,  Messenger, inform the brothers in Kucereus' clan outpost! Sweeping the Seed of Infinity is currently complete to the Heart of the Seed. Ekimus is being directly attacked, and the Undead remaining in the Hall of Suffering are being eradicated!
+		1800700  // Messenger, inform the patrons of the Keucereus Alliance Base! The Seed of Infinity is currently secured under the flag of the Keucereus Alliance!
+		//1800702   Messenger, inform the patrons of the Keucereus Alliance Base! The resurrected Undead in the Seed of Infinity are pouring into the Hall of Suffering and the Hall of Erosion! 
+		//1800703   Messenger, inform the brothers in Kucereus' clan outpost! Ekimus is about to be revived by the resurrected Undead in Seed of Infinity. Send all reinforcements to the Heart and the Hall of Suffering!
 	};
 	
 	public GeneralDilios(int questId, String name, String descr)
@@ -75,7 +79,7 @@ public class GeneralDilios extends L2AttackableAIScript
 			int value = Integer.parseInt(event.substring(8));
 			if (value < 6)
 			{
-				_general.broadcastPacket(new NpcSay(_general.getObjectId(), 0, generalId, "實施3次刺擊！"));
+				_general.broadcastPacket(new NpcSay(_general.getObjectId(), 0, generalId, 1800704)); // "實施3次刺擊！"));
 				startQuestTimer("guard_animation_0", 3400, null, null);
 			}
 			else

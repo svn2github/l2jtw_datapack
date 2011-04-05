@@ -58,13 +58,13 @@ public class SummonMinions extends L2AttackableAIScript
 		MINIONS.put(22774,new int[]{22768,22768}); // Tanta Lizardman Summoner
 	}
 	
-	private static String[] text =
+	/*private static String[] text =
 	{
 		"各位！出來吧！",
 		"兄弟們啊，消滅敵人吧！",
 		"黑暗的軍勢啊，跟隨我吧！",
 		"出來！黑暗的孩子們！"
-	};
+	};*/
 	
 	public SummonMinions(int questId, String name, String descr)
 	{
@@ -191,7 +191,8 @@ public class SummonMinions extends L2AttackableAIScript
 						}
 						if (npcId == 20767)
 						{
-							npc.broadcastPacket(new NpcSay(npcObjId, 0, npcId, text[Rnd.get(3)]));
+							npc.broadcastPacket(new NpcSay(npcObjId, 0, npcId, 1000294)); // Come out, you children of darkness!
+							//npc.broadcastPacket(new NpcSay(npcObjId, 0, npcId, text[Rnd.get(3)]));
 						}
 						break;
 					}

@@ -113,7 +113,7 @@ public class AirShipGludioGracia extends Quest implements Runnable
 			player.sendPacket(SystemMessageId.YOU_CANNOT_BOARD_AN_AIRSHIP_WHILE_PETRIFIED);
 			return null;
 		}
-		if (player.isDead())
+		if (player.isDead() || player.isFakeDeath())
 		{
 			player.sendPacket(SystemMessageId.YOU_CANNOT_BOARD_AN_AIRSHIP_WHILE_DEAD);	
 			return null;
@@ -123,7 +123,7 @@ public class AirShipGludioGracia extends Quest implements Runnable
 			player.sendPacket(SystemMessageId.YOU_CANNOT_BOARD_AN_AIRSHIP_WHILE_FISHING);
 			return null;
 		}
-		if (player.getPvpFlag() != 0)
+		if (player.isInCombat())
 		{
 			player.sendPacket(SystemMessageId.YOU_CANNOT_BOARD_AN_AIRSHIP_WHILE_IN_BATTLE);
 			return null;
@@ -153,7 +153,7 @@ public class AirShipGludioGracia extends Quest implements Runnable
 			player.sendPacket(SystemMessageId.YOU_CANNOT_BOARD_AN_AIRSHIP_WHILE_HOLDING_A_FLAG);
 			return null;
 		}
-		if (player.getPet() != null)
+		if (player.getPet() != null || player.isMounted())
 		{
 			player.sendPacket(SystemMessageId.YOU_CANNOT_BOARD_AN_AIRSHIP_WHILE_A_PET_OR_A_SERVITOR_IS_SUMMONED);
 			return null;
@@ -196,12 +196,12 @@ public class AirShipGludioGracia extends Quest implements Runnable
 			switch (_cycle)
 			{
 				case 0:
-					broadcastInGludio("開往格勒西亞大陸的定期飛空艇已出發。");
+					broadcastInGludio(1800223); // ("開往格勒西亞大陸的定期飛空艇已出發。");
 					_ship.setInDock(0);
 					_ship.executePath(GLUDIO_TO_WARPGATE);
 					break;
 				case 1:
-//					_ship.teleToLocation(-167874, 256731, -509, 41035, false);
+					//_ship.teleToLocation(-167874, 256731, -509, 41035, false);
 					_ship.setOustLoc(OUST_GRACIA);
 					ThreadPoolManager.getInstance().scheduleGeneral(this, 5000);
 					break;
@@ -209,13 +209,13 @@ public class AirShipGludioGracia extends Quest implements Runnable
 					_ship.executePath(WARPGATE_TO_GRACIA);
 					break;
 				case 3:
-					broadcastInGracia("定期飛空艇已經抵達。1分鐘後，將會開往亞丁大陸。");
+					broadcastInGracia(1800220); // ("定期飛空艇已經抵達。1分鐘後，將會開往亞丁大陸。");
 					_ship.setInDock(GRACIA_DOCK_ID);
 					_ship.oustPlayers();
 					ThreadPoolManager.getInstance().scheduleGeneral(this, 60000);
 					break;
 				case 4:
-					broadcastInGracia("開往亞丁大陸的定期飛空艇已出發。");
+					broadcastInGracia(1800221); // ("開往亞丁大陸的定期飛空艇已出發。");
 					_ship.setInDock(0);
 					_ship.executePath(GRACIA_TO_WARPGATE);
 					break;
@@ -228,7 +228,7 @@ public class AirShipGludioGracia extends Quest implements Runnable
 					_ship.executePath(WARPGATE_TO_GLUDIO);
 					break;
 				case 7:
-					broadcastInGludio("定期飛空艇已經抵達。1分鐘後，將會開往格勒西亞大陸。");
+					broadcastInGludio(1800222); // ("定期飛空艇已經抵達。1分鐘後，將會開往格勒西亞大陸。");
 					_ship.setInDock(GLUDIO_DOCK_ID);
 					_ship.oustPlayers();
 					ThreadPoolManager.getInstance().scheduleGeneral(this, 60000);
@@ -244,7 +244,7 @@ public class AirShipGludioGracia extends Quest implements Runnable
 		}
 	}
 	
-	private final void broadcastInGludio(String msg)
+	private final void broadcastInGludio(int msg)
 	{
 		if (!_foundAtcGludio)
 		{
@@ -255,7 +255,7 @@ public class AirShipGludioGracia extends Quest implements Runnable
 			_atcGludio.broadcastPacket(new NpcSay(_atcGludio.getObjectId(), Say2.SHOUT, _atcGludio.getNpcId(), msg));
 	}
 	
-	private final void broadcastInGracia(String msg)
+	private final void broadcastInGracia(int msg)
 	{
 		if (!_foundAtcGracia)
 		{

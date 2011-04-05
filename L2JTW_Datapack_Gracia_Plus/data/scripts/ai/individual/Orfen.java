@@ -45,7 +45,7 @@ import com.l2jserver.util.Rnd;
  */
 public class Orfen extends L2AttackableAIScript
 {
-
+	
 	private static final int[][] Pos =
 	{
 		{
@@ -62,26 +62,34 @@ public class Orfen extends L2AttackableAIScript
 		}
 	};
 	
-	//TODO: npcstring
+	/*//TODO: npcstring
 	private static final String[] Text =
 	{
 			"PLAYERNAME！讓你體驗何謂真正的恐怖！", "PLAYERNAME，不要再使用同樣的招數了！",
 			"竟敢向我挑戰。PLAYERNAME！等著瞧！", "PLAYERNAME，要讓你知道自己的無能！"
-	};
+	};*/
 
+	private static final int[] Text =
+	{
+		1000028, // $s1. Stop kidding yourself about your own powerlessness!
+		1000029, // $s1. I'll make you feel what true fear is!
+		1000030, // You're really stupid to have challenged me. $s1! Get ready!
+		1000031  //$s1. Do you think that's going to work?!
+	};
+	
 	private static final int ORFEN = 29014;
 	//private static final int RAIKEL = 29015;
 	private static final int RAIKEL_LEOS = 29016;
 	//private static final int RIBA = 29017;
 	private static final int RIBA_IREN = 29018;
-
+	
 	private static boolean _IsTeleported;
 	private static List<L2Attackable> _Minions = new FastList<L2Attackable>();
 	private static L2BossZone _Zone;
-
+	
 	private static final byte ALIVE = 0;
 	private static final byte DEAD = 1;
-
+	
 	public Orfen(int id, String name, String descr)
 	{
 		super(id, name, descr);
@@ -145,7 +153,7 @@ public class Orfen extends L2AttackableAIScript
 			this.spawnBoss(orfen);
 		}
 	}
-
+	
 	public void setSpawnPoint(L2Npc npc, int index)
 	{
 		((L2Attackable) npc).clearAggroList();
@@ -156,7 +164,7 @@ public class Orfen extends L2AttackableAIScript
 		spawn.setLocz(Pos[index][2]);
 		npc.teleToLocation(Pos[index][0], Pos[index][1], Pos[index][2]);
 	}
-
+	
 	public void spawnBoss(L2GrandBossInstance npc)
 	{
 		GrandBossManager.getInstance().addBoss(npc);
@@ -180,7 +188,7 @@ public class Orfen extends L2AttackableAIScript
 		_Minions.add(mob);
 		this.startQuestTimer("check_minion_loc", 10000, npc, null, true);
 	}
-
+	
 	@Override
 	public String onAdvEvent(String event, L2Npc npc, L2PcInstance player)
 	{
@@ -253,7 +261,7 @@ public class Orfen extends L2AttackableAIScript
 		}
 		return super.onAdvEvent(event, npc, player);
 	}
-
+	
 	@Override
 	public String onSkillSee(L2Npc npc, L2PcInstance caster, L2Skill skill, L2Object[] targets, boolean isPet)
 	{
@@ -262,7 +270,10 @@ public class Orfen extends L2AttackableAIScript
 			L2Character originalCaster = isPet ? caster.getPet() : caster;
 			if (skill.getAggroPoints() > 0 && Rnd.get(5) == 0 && npc.isInsideRadius(originalCaster, 1000, false, false))
 			{
-				npc.broadcastPacket(new NpcSay(npc.getObjectId(), 0, npc.getNpcId(), Text[Rnd.get(3)].replace("PLAYERNAME", caster.getName().toString())));//Update by rocknow
+				//npc.broadcastPacket(new NpcSay(npc.getObjectId(), 0, npc.getNpcId(), Text[Rnd.get(3)].replace("PLAYERNAME", caster.getName().toString())));//Update by rocknow
+				NpcSay packet = new NpcSay(npc.getObjectId(), 0, npc.getNpcId(), Text[Rnd.get(4)]);
+				packet.addStringParameter(caster.getName().toString());
+				npc.broadcastPacket(packet);
 				originalCaster.teleToLocation(npc.getX(), npc.getY(), npc.getZ());
 				npc.setTarget(originalCaster);
 				npc.doCast(SkillTable.getInstance().getInfo(4064, 1));
@@ -270,7 +281,7 @@ public class Orfen extends L2AttackableAIScript
 		}
 		return super.onSkillSee(npc, caster, skill, targets, isPet);
 	}
-
+	
 	@Override
 	public String onFactionCall(L2Npc npc, L2Npc caller, L2PcInstance attacker, boolean isPet)
 	{
@@ -297,7 +308,7 @@ public class Orfen extends L2AttackableAIScript
 		}
 		return super.onFactionCall(npc, caller, attacker, isPet);
 	}
-
+	
 	@Override
 	public String onAttack(L2Npc npc, L2PcInstance attacker, int damage, boolean isPet)
 	{
@@ -311,16 +322,19 @@ public class Orfen extends L2AttackableAIScript
 			}
 			else if (npc.isInsideRadius(attacker, 1000, false, false) && !npc.isInsideRadius(attacker, 300, false, false) && Rnd.get(10) == 0)
 			{
-				npc.broadcastPacket(new NpcSay(npc.getObjectId(), 0, npcId, Text[Rnd.get(3)].replace("PLAYERNAME", attacker.getName().toString())));
+				//npc.broadcastPacket(new NpcSay(npc.getObjectId(), 0, npcId, Text[Rnd.get(3)].replace("PLAYERNAME", attacker.getName().toString())));
+				NpcSay packet = new NpcSay(npc.getObjectId(), 0, npcId, Text[Rnd.get(3)]);
+				packet.addStringParameter(attacker.getName().toString());
+				npc.broadcastPacket(packet);
 				attacker.teleToLocation(npc.getX(), npc.getY(), npc.getZ());
 				npc.setTarget(attacker);
 				npc.doCast(SkillTable.getInstance().getInfo(4064, 1));
 			}
-            //Update by rocknow
+            /*//Update by rocknow
             else if (npc.isInsideRadius(attacker, 300, false, false) && Rnd.get(10) == 0)
             {
                 npc.broadcastPacket(new NpcSay(npc.getObjectId(),0,npcId,Text[Rnd.get(3)].replace("PLAYERNAME", attacker.getName().toString())));
-            }
+            }*/
 		}
 		else if (npcId == RIBA_IREN)
 		{
@@ -332,7 +346,7 @@ public class Orfen extends L2AttackableAIScript
 		}
 		return super.onAttack(npc, attacker, damage, isPet);
 	}
-
+	
 	@Override
 	public String onKill(L2Npc npc, L2PcInstance killer, boolean isPet)
 	{
@@ -359,7 +373,7 @@ public class Orfen extends L2AttackableAIScript
 		}
 		return super.onKill(npc, killer, isPet);
 	}
-
+	
 	public static void main(String[] args)
 	{
 		// Quest class and state definition

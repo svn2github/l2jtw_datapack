@@ -221,7 +221,7 @@ public class AdminBuffs implements IAdminCommandHandler
 						"<tr><td>",
 						e.getSkill().getName(),
 						"</td><td>",
-						e.getSkill().isToggle() ? "toggle" : e.getPeriod() - e.getTime() + "s",
+						e.getSkill().isToggle() ? "toggle" : e.getAbnormalTime() - e.getTime() + "s",
 						"</td><td><button value=\""+MessageTable.Messages[1457].getMessage()+"\" action=\"bypass -h admin_stopbuff ",
 						Integer.toString(target.getObjectId()),
 						" ",
@@ -286,7 +286,7 @@ public class AdminBuffs implements IAdminCommandHandler
 				if ((e != null) && (e.getSkill().getId() == skillId))
 				{
 					e.exit();
-					activeChar.sendMessage(MessageTable.Messages[1460].getExtra(1) + e.getSkill().getName() + MessageTable.Messages[1460].getExtra(2) + e.getSkill().getLevel() + MessageTable.Messages[1460].getExtra(3) + target.getName());
+					activeChar.sendMessage(MessageTable.Messages[1460].getExtra(1) + e.getSkill().getName() + MessageTable.Messages[1460].getExtra(2) + e.getSkill().getLevel() + MessageTable.Messages[1460].getExtra(3) + target.getName() + " (" + objId + ")");
 				}
 			}
 			showBuffs(activeChar, target, 1);
@@ -309,7 +309,7 @@ public class AdminBuffs implements IAdminCommandHandler
 		if (target != null)
 		{
 			target.stopAllEffects();
-			activeChar.sendMessage(MessageTable.Messages[1461].getMessage() + target.getName());
+			activeChar.sendMessage(MessageTable.Messages[1461].getMessage() + target.getName() + " (" + objId + ")");
 			showBuffs(activeChar, target, 1);
 			if (Config.GMAUDIT)
 				GMAudit.auditGMAction(activeChar.getName()+" ["+activeChar.getObjectId()+"]", "stopallbuffs", target.getName() + " (" + objId + ")", "");

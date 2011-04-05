@@ -15,7 +15,7 @@
 		<set name="operateType" val="OP_TOGGLE" />
 		<set name="stayAfterDeath" val="true" />
 		<for>
-			<effect count="0x7fffffff" name="Buff" time="3600" val="0"/>
+			<effect count="0x7fffffff" name="Buff" abnormalTime="3600" val="0"/>
 		</for>
 	</skill>
 	<skill id="6104" levels="1" name="Event Cancel">
@@ -32,7 +32,7 @@
 		<set name="skillType" val="BUFF" />
 		<set name="operateType" val="OP_ACTIVE" />
 		<for>
-			<effect count="1" name="Buff" time="3600" val="0" stackOrder="3" stackType="winter_event">
+			<effect count="1" name="Buff" abnormalTime="3600" val="0" abnormalLvl="3" abnormalType="winter_event">
 				<mul order="0x30" stat="maxHp" val="1.1"/>
 				<mul order="0x30" stat="maxMp" val="1.1"/>
 				<mul order="0x30" stat="maxCp" val="1.1"/>
@@ -51,7 +51,7 @@
 		<set name="skillType" val="BUFF" />
 		<set name="operateType" val="OP_ACTIVE" />
 		<for>
-			<effect count="1" name="Buff" time="3600" val="0" stackOrder="2" stackType="winter_event">
+			<effect count="1" name="Buff" abnormalTime="3600" val="0" abnormalLvl="2" abnormalType="winter_event">
 				<mul order="0x30" stat="maxHp" val="1.05"/>
 				<mul order="0x30" stat="maxMp" val="1.05"/>
 				<mul order="0x30" stat="maxCp" val="1.05"/>
@@ -68,7 +68,7 @@
 		<set name="operateType" val="OP_TOGGLE" />
 		<set name="stayAfterDeath" val="true" />
 		<for>
-			<effect count="0x7fffffff" name="Buff" time="3600" val="0" stackOrder="1" stackType="winter_event"/>
+			<effect count="0x7fffffff" name="Buff" abnormalTime="3600" val="0" abnormalLvl="1" abnormalType="winter_event"/>
 		</for>
 	</skill>
 	<skill id="6108" levels="1" name="Winter Holiday Blessing - Dion">
@@ -78,7 +78,7 @@
 		<set name="operateType" val="OP_TOGGLE" />
 		<set name="stayAfterDeath" val="true" />
 		<for>
-			<effect count="0x7fffffff" name="Buff" time="3600" val="0" stackOrder="1" stackType="winter_event"/>
+			<effect count="0x7fffffff" name="Buff" abnormalTime="3600" val="0" abnormalLvl="1" abnormalType="winter_event"/>
 		</for>
 	</skill>
 	<skill id="6109" levels="1" name="Winter Holiday Blessing - Giran">
@@ -88,7 +88,7 @@
 		<set name="operateType" val="OP_TOGGLE" />
 		<set name="stayAfterDeath" val="true" />
 		<for>
-			<effect count="0x7fffffff" name="Buff" time="3600" val="0" stackOrder="1" stackType="winter_event"/>
+			<effect count="0x7fffffff" name="Buff" abnormalTime="3600" val="0" abnormalLvl="1" abnormalType="winter_event"/>
 		</for>
 	</skill>
 	<skill id="6110" levels="1" name="Winter Holiday Blessing - Oren">
@@ -98,7 +98,7 @@
 		<set name="operateType" val="OP_TOGGLE" />
 		<set name="stayAfterDeath" val="true" />
 		<for>
-			<effect count="0x7fffffff" name="Buff" time="3600" val="0" stackOrder="1" stackType="winter_event"/>
+			<effect count="0x7fffffff" name="Buff" abnormalTime="3600" val="0" abnormalLvl="1" abnormalType="winter_event"/>
 		</for>
 	</skill>
 	<skill id="6111" levels="1" name="Winter Holiday Blessing - Aden">
@@ -108,7 +108,7 @@
 		<set name="operateType" val="OP_TOGGLE" />
 		<set name="stayAfterDeath" val="true" />
 		<for>
-			<effect count="0x7fffffff" name="Buff" time="3600" val="0" stackOrder="1" stackType="winter_event"/>
+			<effect count="0x7fffffff" name="Buff" abnormalTime="3600" val="0" abnormalLvl="1" abnormalType="winter_event"/>
 		</for>
 	</skill>
 	<skill id="6112" levels="1" name="Winter Holiday Blessing - Innadril">
@@ -118,7 +118,7 @@
 		<set name="operateType" val="OP_TOGGLE" />
 		<set name="stayAfterDeath" val="true" />
 		<for>
-			<effect count="0x7fffffff" name="Buff" time="3600" val="0" stackOrder="1" stackType="winter_event"/>
+			<effect count="0x7fffffff" name="Buff" abnormalTime="3600" val="0" abnormalLvl="1" abnormalType="winter_event"/>
 		</for>
 	</skill>
 	<skill id="6113" levels="1" name="Winter Holiday Blessing - Goddard">
@@ -128,7 +128,7 @@
 		<set name="operateType" val="OP_TOGGLE" />
 		<set name="stayAfterDeath" val="true" />
 		<for>
-			<effect count="0x7fffffff" name="Buff" time="3600" val="0" stackOrder="1" stackType="winter_event"/>
+			<effect count="0x7fffffff" name="Buff" abnormalTime="3600" val="0" abnormalLvl="1" abnormalType="winter_event"/>
 		</for>
 	</skill>
 	<skill id="6114" levels="1" name="Winter Holiday Blessing - Rune">
@@ -138,7 +138,7 @@
 		<set name="operateType" val="OP_TOGGLE" />
 		<set name="stayAfterDeath" val="true" />
 		<for>
-			<effect count="0x7fffffff" name="Buff" time="3600" val="0" stackOrder="1" stackType="winter_event"/>
+			<effect count="0x7fffffff" name="Buff" abnormalTime="3600" val="0" abnormalLvl="1" abnormalType="winter_event"/>
 		</for>
 	</skill>
 	<skill id="6115" levels="1" name="Winter Holiday Blessing - Schuttgart">
@@ -148,7 +148,7 @@
 		<set name="operateType" val="OP_TOGGLE" />
 		<set name="stayAfterDeath" val="true" />
 		<for>
-			<effect count="0x7fffffff" name="Buff" time="3600" val="0" stackOrder="1" stackType="winter_event"/>
+			<effect count="0x7fffffff" name="Buff" abnormalTime="3600" val="0" abnormalLvl="1" abnormalType="winter_event"/>
 		</for>
 	</skill>
 	<skill id="6116" levels="1" name="Attack Turkey">
@@ -167,7 +167,7 @@
 		<set name="castRange" val="500" />
 		<set name="effectRange" val="1000" />
 		<for>
-			<effect name="ImmobileBuff" time="30" val="0"/>
+			<effect name="ImmobileBuff" abnormalTime="30" val="0"/>
 		</for>
 	</skill>
 	<skill id="6120" levels="1" name="Santa Claus' Reward">
@@ -178,7 +178,7 @@
 		<set name="operateType" val="OP_ACTIVE" />
 		<set name="aggroPoints" val="1" />
 		<for>
-			<effect name="Buff" time="3600" val="0" stackOrder="2" stackType="event_santa_reward">
+			<effect name="Buff" abnormalTime="3600" val="0" abnormalLvl="2" abnormalType="event_santa_reward">
 				<mul order="0x30" stat="maxHp" val="1.1" />
 				<mul order="0x30" stat="maxMp" val="1.1" />
 				<mul order="0x30" stat="maxCp" val="1.1" />
@@ -261,7 +261,7 @@
 		<set name="skillType" val="PARALYZE" />
 		<set name="target" val="TARGET_ONE" />
 		<for>
-			<effect name="Paralyze" time="10" val="0" stackOrder="1" stackType="paralyze" />
+			<effect name="Paralyze" abnormalTime="10" val="0" abnormalLvl="1" abnormalType="paralyze" />
 		</for>
 	</skill>
 	<skill id="6126" levels="1" name="Paralysis">
@@ -275,7 +275,7 @@
 		<set name="skillType" val="PARALYZE" />
 		<set name="target" val="TARGET_ONE" />
 		<for>
-			<effect name="Paralyze" time="10" val="0" />
+			<effect name="Paralyze" abnormalTime="10" val="0" />
 		</for>
 	</skill>
 	<skill id="6127" levels="1" name="Anti-limit">
@@ -334,7 +334,7 @@
 		<set name="skillType" val="BUFF" />
 		<set name="operateType" val="OP_ACTIVE" />
 		<for>
-			<effect name="BigHead" time="300" val="0" abnormal="bighead" stackOrder="300" stackType="big_head" />
+			<effect name="BigHead" abnormalTime="300" val="0" abnormal="bighead" abnormalLvl="300" abnormalType="big_head" />
 		</for>
 	</skill>
 	<skill id="6134" levels="1" name="Curse of the Mutant Animal">
@@ -376,7 +376,7 @@
 			<player agathionId="16064" />
 		</cond>
 		<for>
-			<effect name="BigHead" time="300" val="0" abnormal="bighead" stackOrder="300" stackType="big_head" />
+			<effect name="BigHead" abnormalTime="300" val="0" abnormal="bighead" abnormalLvl="300" abnormalType="big_head" />
 		</for>
 	</skill>
 	<skill id="6138" levels="1" name="Agathion Juju - Large Firework">
@@ -399,7 +399,7 @@
 		<set name="skillType" val="BUFF" />
 		<set name="operateType" val="OP_ACTIVE" />
 		<for>
-			<effect name="Buff" time="600" val="0" special="baguettesword" stackOrder="600" stackType="baguette_sword"/>
+			<effect name="Buff" abnormalTime="600" val="0" special="baguettesword" abnormalLvl="600" abnormalType="baguette_sword"/>
 		</for>
 	</skill>
 	<skill id="6140" levels="3" name="Bog Stride">
@@ -459,7 +459,7 @@
 		<set name="reuseDelay" val="4000" />
 		<set name="hitTime" val="2000" />
 		<for>
-			<effect name="Buff" time="10" val="0" stackOrder="3" stackType="dmg_shield">
+			<effect name="Buff" abnormalTime="10" val="0" abnormalLvl="3" abnormalType="dmg_shield">
 				<add order="0x40" stat="vengeancePdam" val="70" />
 				<add order="0x40" stat="reflectSkillPhysic" val="70" />
 				<add order="0x40" stat="reflectDam" val="70" />
@@ -482,7 +482,7 @@
 		<set name="hitTime" val="2000" />
 		<set name="isDebuff" val="true" />
 		<for>
-			<effect name="Mute" time="120" val="0" stackOrder="1" stackType="silence">
+			<effect name="Mute" abnormalTime="120" val="0" abnormalLvl="1" abnormalType="silence">
 				<sub order="0x40" stat="accCombat" val="99" />
 				<mul order="0x30" stat="pAtkSpd" val="0.5" />
 				<mul order="0x30" stat="pAtk" val="0.01" />
@@ -499,7 +499,7 @@
 		<set name="skillType" val="DEBUFF" />
 		<set name="target" val="TARGET_ONE" />
 		<for>
-			<effect name="Debuff" time="900" val="0" stackOrder="1" stackType="multi_debuff">
+			<effect name="Debuff" abnormalTime="900" val="0" abnormalLvl="1" abnormalType="multi_debuff">
 				<mul order="0x30" stat="pAtk" val="0.5" />
 				<mul order="0x30" stat="pDef" val="0.5" />
 				<mul order="0x30" stat="runSpd" val="0.5" />
@@ -520,7 +520,7 @@
 		<set name="skillType" val="DEBUFF" />
 		<set name="target" val="TARGET_ONE" />
 		<for>
-			<effect name="Debuff" time="10" val="0" stackOrder="3" stackType="pd_down">
+			<effect name="Debuff" abnormalTime="10" val="0" abnormalLvl="3" abnormalType="pd_down">
 				<mul order="0x30" stat="pAtkSpd" val="#pAtkSpd" />
 			</effect>
 		</for>
@@ -544,7 +544,7 @@
 		<set name="skillType" val="DEBUFF" />
 		<set name="target" val="TARGET_ONE" />
 		<for>
-			<effect name="Debuff" time="10" val="0" stackOrder="2" stackType="signal_a">
+			<effect name="Debuff" abnormalTime="10" val="0" abnormalLvl="2" abnormalType="signal_a">
 				<mul order="0x30" stat="pAtk" val="#pAtk" />
 			</effect>
 		</for>
@@ -568,7 +568,7 @@
 		<set name="skillType" val="DEBUFF" />
 		<set name="target" val="TARGET_ONE" />
 		<for>
-			<effect name="Debuff" time="11" val="0" abnormal="bleed" stackOrder="4" stackType="max_hp_down">
+			<effect name="Debuff" abnormalTime="11" val="0" abnormal="bleed" abnormalLvl="4" abnormalType="max_hp_down">
 				<add order="0x40" stat="rCrit" val="#rCrit" />
 			</effect>
 		</for>
@@ -613,7 +613,7 @@
 		<set name="skillType" val="DEBUFF" />
 		<set name="target" val="TARGET_ONE" />
 		<for>
-			<effect name="Debuff" time="60" val="0" stackOrder="1" stackType="public_slot" />
+			<effect name="Debuff" abnormalTime="60" val="0" abnormalLvl="1" abnormalType="public_slot" />
 		</for>
 	</skill>
 	<skill id="6170" levels="1" name="Shyeed's Fury">
@@ -625,8 +625,8 @@
 		<set name="skillType" val="BUFF" />
 		<set name="target" val="TARGET_ONE" />
 		<for>
-			<!-- NOTE: Using stackOrder 99 instead of 1 due is a irreplaceable buff -->
-			<effect name="Buff" time="60" val="0" stackOrder="99" stackType="multi_buff">
+			<!-- NOTE: Using abnormalLvl 99 instead of 1 due is a irreplaceable buff -->
+			<effect name="Buff" abnormalTime="60" val="0" abnormalLvl="99" abnormalType="multi_buff">
 				<mul order="0x30" stat="pAtk" val="1.05" />
 				<mul order="0x30" stat="mAtk" val="1.05" />
 				<mul order="0x30" stat="mCritPower" val="1.05" />
@@ -644,8 +644,8 @@
 		<set name="skillType" val="BUFF" />
 		<set name="target" val="TARGET_ONE" />
 		<for>
-			<!-- NOTE: Using stackOrder 99 instead of 1 due is a irreplaceable buff -->
-			<effect name="Buff" time="60" val="0" stackOrder="99" stackType="ultimate_buff">
+			<!-- NOTE: Using abnormalLvl 99 instead of 1 due is a irreplaceable buff -->
+			<effect name="Buff" abnormalTime="60" val="0" abnormalLvl="99" abnormalType="ultimate_buff">
 				<mul order="0x30" stat="pAtk" val="1.05" />
 				<mul order="0x30" stat="mAtk" val="1.05" />
 				<mul order="0x30" stat="mCritPower" val="1.05" />

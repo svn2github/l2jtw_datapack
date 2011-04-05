@@ -172,13 +172,13 @@ public class Core extends L2AttackableAIScript
 			if (_FirstAttacked)
 			{
 				if (Rnd.get(100) == 0)
-					npc.broadcastPacket(new NpcSay(npc.getObjectId(), 0, npc.getNpcId(), "清除入侵者。"));
+					npc.broadcastPacket(new NpcSay(npc.getObjectId(), 0, npc.getNpcId(), 1000003)); // "清除入侵者。"));
 			}
 			else
 			{
 				_FirstAttacked = true;
-				npc.broadcastPacket(new NpcSay(npc.getObjectId(), 0, npc.getNpcId(), "發現非法的目標。"));
-				npc.broadcastPacket(new NpcSay(npc.getObjectId(), 0, npc.getNpcId(), "開始入侵者清除系統。"));
+				npc.broadcastPacket(new NpcSay(npc.getObjectId(), 0, npc.getNpcId(), 1000001)); // "發現非法的目標。"));
+				npc.broadcastPacket(new NpcSay(npc.getObjectId(), 0, npc.getNpcId(), 1000002)); // "開始入侵者清除系統。"));
 			}
 		}
 		return super.onAttack(npc, attacker, damage, isPet);
@@ -192,9 +192,9 @@ public class Core extends L2AttackableAIScript
 		{
 			int objId = npc.getObjectId();
 			npc.broadcastPacket(new PlaySound(1, "BS02_D", 1, objId, npc.getX(), npc.getY(), npc.getZ()));
-			npc.broadcastPacket(new NpcSay(objId, 0, npcId, "出現致命的錯誤。"));
-			npc.broadcastPacket(new NpcSay(objId, 0, npcId, "系統即將關閉..."));
-			npc.broadcastPacket(new NpcSay(objId, 0, npcId, "......"));
+			npc.broadcastPacket(new NpcSay(objId, 0, npcId, 1000004)); // "出現致命的錯誤。"));
+			npc.broadcastPacket(new NpcSay(objId, 0, npcId, 1000005)); // "系統即將關閉..."));
+			npc.broadcastPacket(new NpcSay(objId, 0, npcId, 1000006)); // "......"));
 			_FirstAttacked = false;
 			addSpawn(31842, 16502, 110165, -6394, 0, false, 900000);
 			addSpawn(31842, 18948, 110166, -6397, 0, false, 900000);

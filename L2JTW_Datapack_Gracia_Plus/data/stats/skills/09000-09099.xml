@@ -687,7 +687,7 @@
 			<player flyMounted="False" />
 		</cond>
 		<for>
-			<effect name="Buff" time="600" val="0" stackOrder="2" stackType="vp_keep">
+			<effect name="Buff" abnormalTime="600" val="0" abnormalLvl="2" abnormalType="vp_keep">
 				<mul order="0x30" stat="vitalityConsumeRate" val="0.00" />
 			</effect>
 		</for>
@@ -706,7 +706,7 @@
 			<player flyMounted="False" />
 		</cond>
 		<for>
-			<effect name="Buff" time="1800" val="0" stackOrder="3" stackType="vp_keep">
+			<effect name="Buff" abnormalTime="1800" val="0" abnormalLvl="3" abnormalType="vp_keep">
 				<mul order="0x30" stat="vitalityConsumeRate" val="0.00" />
 			</effect>
 		</for>
@@ -987,7 +987,7 @@
 		<set name="skillType" val="CONT" />
 		<set name="operateType" val="OP_TOGGLE" />
 		<for>
-			<effect name="Buff" time="144000" val="0" noicon="1">
+			<effect name="Buff" abnormalTime="144000" val="0" noicon="1">
 				<mul order="0x30" stat="pAtk" val="1.20" />
 				<mul order="0x30" stat="mAtk" val="1.20" />
 				<mul order="0x30" stat="pDef" val="0.80" />
@@ -1001,7 +1001,7 @@
 		<set name="skillType" val="CONT" />
 		<set name="operateType" val="OP_TOGGLE" />
 		<for>
-			<effect name="Buff" time="144000" val="0" noicon="1">
+			<effect name="Buff" abnormalTime="144000" val="0" noicon="1">
 				<mul order="0x30" stat="pAtk" val="0.80" />
 				<mul order="0x30" stat="mAtk" val="0.80" />
 				<mul order="0x30" stat="pDef" val="1.20" />

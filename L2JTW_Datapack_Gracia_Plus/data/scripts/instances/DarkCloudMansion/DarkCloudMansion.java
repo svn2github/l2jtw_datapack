@@ -112,35 +112,34 @@ public class DarkCloudMansion extends Quest
 	private static int W6 = 24230012; //Wall 6
 	private static int W7 = 24230013; //Wall 7*/
 	
-	private static String[] _spawnChat =
+	private static int[] _spawnChat =
 	{
-		"就相信我一次吧~",
-		"選我吧~",
-		"我才是真的啦~",
-		"不是他，我才是真的啦~！",
-		"別受騙，別受騙，我才是真的~！"
+		1800043, // "就相信我一次吧~",
+		1800044, // "選我吧~",
+		1800045, // "我才是真的啦~",
+		1800046, // "不是他，我才是真的啦~！",
+		1800047  // "別受騙，別受騙，我才是真的~！"
+	};
+	
+	private static int[] _decayChat =
+	{
+		1800051, // "連那個都找不出來啊~？",
+		1800052, // "我才是真的啦~ 唉喲~~！！",
+		1800053  // "找找我吧~"
+	};
+	
+	private static int[] _successChat =
+	{
+		1800054, // "厲害~！選對了耶~！",
+		1800055, // "哇塞~！怎麼會知道是我啊？",
+		1800056, // "做得真好~",
+		1800057  // "噢呼~ 真有眼光耶"
 	};
 
-	private static String[] _decayChat =
+	private static int[] _faildChat =
 	{
-		"連那個都找不出來啊~？",
-		"我才是真的啦~ 唉喲~~！！",
-		"找找我吧~"
-	};
-
-	private static String[] _successChat =
-	{
-		"厲害~！選對了耶~！",
-		"哇塞~！怎麼會知道是我啊？",
-		"做得真好~",
-		"噢呼~ 真有眼光耶"
-	};
-
-	private static String[] _faildChat =
-	{
-		"對不起.. 我是假的啦~",
-		"被騙了吧~",
-		
+		1800049, // "對不起.. 我是假的啦~",
+		1800050  // "被騙了吧~",
 	};
 	
 	//Second room - random monolith order

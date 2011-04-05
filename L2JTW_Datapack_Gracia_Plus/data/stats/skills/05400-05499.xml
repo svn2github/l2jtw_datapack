@@ -26,8 +26,8 @@
 		<set name="flyType" val="THROW_UP" />
 		<set name="isDebuff" val="true" />
 		<for>
-			<effect name="Stun" time="2" val="0" />
-			<effect name="ThrowUp" noicon="1" val="0" stackOrder="1" stackType="fly_away" />
+			<effect name="Stun" abnormalTime="2" val="0" />
+			<effect name="ThrowUp" noicon="1" val="0" abnormalLvl="1" abnormalType="fly_away" />
 		</for>
 	</skill>
 	<skill id="5402" levels="1" name="Presentation - Balor 2">
@@ -217,7 +217,7 @@
 		<set name="isDebuff" val="true" />
 		<set name="saveVs" val="MEN" />
 		<for>
-			<effect count="6" name="DamOverTime" time="5" val="#dot" stackOrder="3" stackType="fire_dot">
+			<effect count="6" name="DamOverTime" abnormalTime="5" val="#dot" abnormalLvl="3" abnormalType="fire_dot">
 				<add order="0x40" stat="mAtk" val="#mAtk" />
 				<mul order="0x30" stat="runSpd" val="0.7" />
 			</effect>
@@ -239,7 +239,7 @@
 		<set name="isDebuff" val="true" />
 		<set name="saveVs" val="CON" />
 		<for>
-			<effect count="6" name="DamOverTime" time="5" val="#dot" stackOrder="1" stackType="speed_down" abnormal="poison">
+			<effect count="6" name="DamOverTime" abnormalTime="5" val="#dot" abnormalLvl="1" abnormalType="speed_down" abnormal="poison">
 				<mul order="0x30" stat="runSpd" val="0.7" />
 			</effect>
 		</for>
@@ -259,7 +259,7 @@
 		<set name="abnormalLvl" val="1" />
 		<set name="saveVs" val="CON" />
 		<for>
-			<effect count="6" name="DamOverTime" time="5" val="#dot" stackOrder="1" stackType="bleeding" abnormal="bleed">
+			<effect count="6" name="DamOverTime" abnormalTime="5" val="#dot" abnormalLvl="1" abnormalType="bleeding" abnormal="bleed">
 				<mul order="0x30" stat="runSpd" val="0.7" />
 			</effect>
 		</for>
@@ -272,7 +272,7 @@
 		<set name="skillType" val="BUFF" />
 		<set name="target" val="TARGET_SELF" />
 		<for>
-			<effect name="Buff" time="60" val="0" stackOrder="1" stackType="iron_shield_i">
+			<effect name="Buff" abnormalTime="60" val="0" abnormalLvl="1" abnormalType="iron_shield_i">
 				<mul order="0x30" stat="sDef" val="1.3" />
 			</effect>
 		</for>
@@ -285,7 +285,7 @@
 		<set name="skillType" val="BUFF" />
 		<set name="target" val="TARGET_SELF" />
 		<for>
-			<effect name="Buff" time="60" val="0" stackOrder="1" stackType="archer_special">
+			<effect name="Buff" abnormalTime="60" val="0" abnormalLvl="1" abnormalType="archer_special">
 				<mul order="0x30" stat="pReuse" val="0.85" />
 				<mul order="0x30" stat="PhysicalMpConsumeRate" val="0.95" />
 			</effect>
@@ -300,7 +300,7 @@
 		<set name="skillType" val="BUFF" />
 		<set name="target" val="TARGET_PARTY" />
 		<for>
-			<effect name="Buff" time="60" val="0" stackOrder="1" stackType="archer_special">
+			<effect name="Buff" abnormalTime="60" val="0" abnormalLvl="1" abnormalType="archer_special">
 				<mul order="0x30" stat="pAtkSpd" val="1.15">
 					<using kind="Bow,Crossbow" />
 				</mul>
@@ -316,7 +316,7 @@
 		<set name="skillType" val="BUFF" />
 		<set name="target" val="TARGET_PARTY" />
 		<for>
-			<effect name="Buff" time="60" val="0" stackOrder="1" stackType="archer_special_i">
+			<effect name="Buff" abnormalTime="60" val="0" abnormalLvl="1" abnormalType="archer_special_i">
 				<add order="0x40" stat="runSpd" val="40" />
 			</effect>
 		</for>
@@ -481,7 +481,7 @@
 		<set name="skillType" val="DEBUFF" />
 		<set name="target" val="TARGET_AURA" />
 		<for>
-			<effect name="Debuff" time="30" val="0" stackOrder="3" stackType="pa_down">
+			<effect name="Debuff" abnormalTime="30" val="0" abnormalLvl="3" abnormalType="pa_down">
 				<mul order="0x30" stat="pAtkSpd" val="0.77" />
 			</effect>
 		</for>
@@ -510,7 +510,7 @@
 		<set name="SSBoost" val="2.0" />
 		<set name="target" val="TARGET_ONE" />
 		<for>
-			<effect count="4" name="DamOverTime" time="5" val="#val" stackOrder="3" stackType="bleeding" abnormal="bleed" effectPower="50" effectType="BLEED" />
+			<effect count="4" name="DamOverTime" abnormalTime="5" val="#val" abnormalLvl="3" abnormalType="bleeding" abnormal="bleed" effectPower="50" effectType="BLEED" />
 		</for>
 	</skill>
 	<skill id="5445" levels="1" name="Awakening">
@@ -523,7 +523,7 @@
 		<set name="skillType" val="BUFF" />
 		<set name="target" val="TARGET_SELF" />
 		<for>
-			<effect name="Buff" time="90" val="0" stackOrder="1" stackType="pinch">
+			<effect name="Buff" abnormalTime="90" val="0" abnormalLvl="1" abnormalType="pinch">
 				<mul order="0x30" stat="pAtk" val="1.08" />
 				<mul order="0x30" stat="pAtkSpd" val="1.08" />
 				<mul order="0x30" stat="mAtk" val="1.16" />
@@ -553,7 +553,7 @@
 		<set name="target" val="TARGET_ONE" />
 		<set name="lvlDepend" val="1" />
 		<for>
-			<effect name="Paralyze" time="10" val="0" stackOrder="1" stackType="paralyze" />
+			<effect name="Paralyze" abnormalTime="10" val="0" abnormalLvl="1" abnormalType="paralyze" />
 		</for>
 	</skill>
 	<skill id="5448" levels="1" name="Oblivion">
@@ -574,7 +574,7 @@
 		<set name="skillType" val="STUN" />
 		<set name="target" val="TARGET_SELF" />
 		<for>
-			<effect name="StunSelf" time="3" val="0" stackOrder="1" stackType="stun" />
+			<effect name="StunSelf" abnormalTime="3" val="0" abnormalLvl="1" abnormalType="stun" />
 		</for>
 	</skill>
 	<skill id="5450" levels="7" name="Thin Skin">
@@ -589,7 +589,7 @@
 		<set name="target" val="TARGET_SELF" />
 		<set name="lvlDepend" val="1" />
 		<for>
-			<effect count="2" name="DamOverTime" time="3" val="#dot" stackOrder="#abnormalLvl" stackType="bleeding" abnormal="bleed">
+			<effect count="2" name="DamOverTime" abnormalTime="3" val="#dot" abnormalLvl="#abnormalLvl" abnormalType="bleeding" abnormal="bleed">
 				<mul order="0x30" stat="runSpd" val="0.8" />
 			</effect>
 		</for>
@@ -602,7 +602,7 @@
 		<set name="skillType" val="DEBUFF" />
 		<set name="target" val="TARGET_SELF" />
 		<for>
-			<effect name="Debuff" time="5" val="0" stackOrder="1" stackType="all_speed_down">
+			<effect name="Debuff" abnormalTime="5" val="0" abnormalLvl="1" abnormalType="all_speed_down">
 				<mul order="0x30" stat="pAtkSpd" val="0.77" />
 				<mul order="0x30" stat="runSpd" val="0.77" />
 				<mul order="0x30" stat="mAtkSpd" val="0.7" />
@@ -618,7 +618,7 @@
 		<set name="skillType" val="DEBUFF" />
 		<set name="target" val="TARGET_SELF" />
 		<for>
-			<effect name="Debuff" time="10" val="0" stackOrder="1" stackType="t_crt_dmg_up">
+			<effect name="Debuff" abnormalTime="10" val="0" abnormalLvl="1" abnormalType="t_crt_dmg_up">
 				<mul order="0x30" stat="critVuln" val="1.6" />
 			</effect>
 		</for>
@@ -652,7 +652,7 @@
 		<set name="skillType" val="NEGATE" />
 		<set name="target" val="TARGET_ONE" />
 		<for>
-			<effect name="Debuff" time="30" val="0" stackOrder="1" stackType="speed_down" effectPower="80" effectType="DEBUFF">
+			<effect name="Debuff" abnormalTime="30" val="0" abnormalLvl="1" abnormalType="speed_down" effectPower="80" effectType="DEBUFF">
 				<mul order="0x30" stat="pAtkSpd" val="0.7" />
 				<mul order="0x30" stat="runSpd" val="0.7" />
 			</effect>
@@ -830,8 +830,7 @@
 		<set name="hitTime" val="4000" />
 		<set name="isMagic" val="true" />
 		<set name="magicLvl" val="85" />
-		<set name="maxNegated" val="9" />
-		<!-- set name="negateStats" val="INVINCIBILITY" / TODO: Require Support -->
+		<!-- set name="negateAbnormals" val="invincibility,9" / TODO: Require Support -->
 		<set name="operateType" val="OP_ACTIVE" />
 		<set name="skillType" val="NEGATE" />
 		<set name="target" val="TARGET_ONE" />
@@ -949,7 +948,7 @@
 		<set name="target" val="TARGET_AURA" />
 		<for>
 			<!-- 71HP * 5 during 20 seconds -->
-			<effect count="4" name="DamOverTime" time="5" val="355" abnormal="bleed" effectPower="100" effectType="BLEED" stackOrder="10" stackType="bleeding" />
+			<effect count="4" name="DamOverTime" abnormalTime="5" val="355" abnormal="bleed" effectPower="100" effectType="BLEED" abnormalLvl="10" abnormalType="bleeding" />
 		</for>
 	</skill>
 	<skill id="5496" levels="1" name="Dark Fireball">
@@ -985,7 +984,7 @@
 		<set name="skillType" val="PDAM" />
 		<set name="target" val="TARGET_ONE" />
 		<for>
-			<effect name="Stun" time="9" val="0" effectPower="80" effectType="STUN" stackOrder="1" stackType="stun" />
+			<effect name="Stun" abnormalTime="9" val="0" effectPower="80" effectType="STUN" abnormalLvl="1" abnormalType="stun" />
 			<!-- 52HP * 1 during 9 seconds -->
 			<effect count="9" name="DamOverTime" noicon="1" val="52" effectPower="80" effectType="STUN" />
 		</for>

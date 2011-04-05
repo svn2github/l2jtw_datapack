@@ -20,7 +20,7 @@
 		<set name="target" val="TARGET_FRONT_AREA" />
 		<for>
 			<!-- 52HP * 5 during 20 seconds -->
-			<effect count="4" name="DamOverTime" time="5" val="260" abnormal="bleed" effectPower="90" effectType="BLEED" stackOrder="10" stackType="bleeding" />
+			<effect count="4" name="DamOverTime" abnormalTime="5" val="260" abnormal="bleed" effectPower="90" effectType="BLEED" abnormalLvl="10" abnormalType="bleeding" />
 		</for>
 	</skill>
 	<skill id="5501" levels="1" name="Stuns">
@@ -39,7 +39,7 @@
 		<set name="skillType" val="STUN" />
 		<set name="target" val="TARGET_FRONT_AREA" />
 		<for>
-			<effect name="Stun" time="9" val="0" stackOrder="1" stackType="stun" />
+			<effect name="Stun" abnormalTime="9" val="0" abnormalLvl="1" abnormalType="stun" />
 			<effect name="RemoveTarget" noicon="1" val="0" effectPower="80" />
 		</for>
 	</skill>
@@ -57,7 +57,7 @@
 		<set name="skillType" val="STUN" />
 		<set name="target" val="TARGET_AURA" />
 		<for>
-			<effect name="Stun" time="9" val="0" stackOrder="1" stackType="stun" />
+			<effect name="Stun" abnormalTime="9" val="0" abnormalLvl="1" abnormalType="stun" />
 			<effect name="RemoveTarget" noicon="1" val="0" effectPower="80" />
 		</for>
 	</skill>
@@ -72,7 +72,7 @@
 		<set name="skillType" val="BUFF" />
 		<set name="target" val="TARGET_SELF" />
 		<for>
-			<effect name="ImmobileBuff" time="30" val="0" abnormal="invulnerable" stackOrder="1" stackType="pd_up_special">
+			<effect name="ImmobileBuff" abnormalTime="30" val="0" abnormal="invulnerable" abnormalLvl="1" abnormalType="pd_up_special">
 				<add order="0x40" stat="pDef" val="1800" />
 				<add order="0x40" stat="mDef" val="1350" />
 				<sub order="0x40" stat="cancelVuln" val="80" />
@@ -128,7 +128,7 @@
 		<set name="effectRange" val="-1" />
 		<set name="reuseDelay" val="360000" />
 		<for>
-			<effect count="1" name="Buff" time="1200" val="0">
+			<effect count="1" name="Buff" abnormalTime="1200" val="0">
 				<mul order="0x30" stat="fireRes" val="0.9" />
 				<mul order="0x30" stat="firePower" val="1.1" />
 			</effect>
@@ -147,7 +147,7 @@
 		<set name="effectRange" val="-1" />
 		<set name="reuseDelay" val="360000" />
 		<for>
-			<effect count="1" name="Buff" time="1200" val="0">
+			<effect count="1" name="Buff" abnormalTime="1200" val="0">
 				<mul order="0x30" stat="waterRes" val="0.9" />
 				<mul order="0x30" stat="waterPower" val="1.1" />
 			</effect>
@@ -166,7 +166,7 @@
 		<set name="effectRange" val="-1" />
 		<set name="reuseDelay" val="360000" />
 		<for>
-			<effect count="1" name="Buff" time="1200" val="0">
+			<effect count="1" name="Buff" abnormalTime="1200" val="0">
 				<mul order="0x30" stat="windRes" val="0.9" />
 				<mul order="0x30" stat="windPower" val="1.1" />
 			</effect>
@@ -185,7 +185,7 @@
 		<set name="effectRange" val="-1" />
 		<set name="reuseDelay" val="360000" />
 		<for>
-			<effect count="1" name="Buff" time="1200" val="0">
+			<effect count="1" name="Buff" abnormalTime="1200" val="0">
 				<mul order="0x30" stat="earthRes" val="0.9" />
 				<mul order="0x30" stat="earthPower" val="1.1" />
 			</effect>
@@ -299,7 +299,7 @@
 		<set name="effectRange" val="1000" />
 		<set name="reuseDelay" val="36000" />
 		<for>
-			<effect count="1" name="Debuff" time="120" val="0">
+			<effect count="1" name="Debuff" abnormalTime="120" val="0">
 				<mul order="0x30" stat="darkRes" val="#dark" />
 			</effect>
 		</for>
@@ -326,7 +326,7 @@
 		<set name="effectType" val="BLEED" />
 		<set name="effectPower" val="80" />
 		<set name="bloodPower" val="10.0" />
-		<effect count="7" name="DamOverTime" time="3" val="#bleedpower" abnormal="bleed" stackOrder="7" stackType="Bleed" /> 	
+		<effect count="7" name="DamOverTime" abnormalTime="3" val="#bleedpower" abnormal="bleed" abnormalLvl="7" abnormalType="Bleed" /> 	
 	</skill>
 	<skill id="5531" levels="1" name="Direction-Beleth Magic Skill 1">
 		<!-- Update by pmq -->
@@ -400,7 +400,7 @@
 			<player agathionId="16031" />
 		</cond>
 		<for>
-			<effect name="BigHead" time="120" val="0" abnormal="bighead" stackOrder="0" stackType="big_head" />
+			<effect name="BigHead" abnormalTime="120" val="0" abnormal="bighead" abnormalLvl="0" abnormalType="big_head" />
 		</for>
 	</skill>
 	<skill id="5540" levels="1" name="Little Angel Agathion Special Skill - Power of Blessed Return">
@@ -446,7 +446,7 @@
 			<player agathionId="16032" />
 		</cond>
 		<for>
-			<effect name="BigHead" time="120" val="0" abnormal="bighead" stackOrder="0" stackType="big_head" />
+			<effect name="BigHead" abnormalTime="120" val="0" abnormal="bighead" abnormalLvl="0" abnormalType="big_head" />
 		</for>
 	</skill>
 	<skill id="5544" levels="1" name="Little Devil Agathion Special Skill - Power of Blessed Return">
@@ -488,7 +488,7 @@
 		<set name="skillType" val="BUFF" />
 		<set name="target" val="TARGET_PARTY" />
 		<for>
-			<effect name="Buff" time="8" val="0" stackOrder="1" stackType="maximum_ability">
+			<effect name="Buff" abnormalTime="8" val="0" abnormalLvl="1" abnormalType="maximum_ability">
 				<mul order="0x30" stat="pAtk" val="1.1" />
 				<mul order="0x30" stat="mAtk" val="1.1" />
 				<mul order="0x30" stat="MagicalMpConsumeRate" val="0" />
@@ -534,7 +534,7 @@
 		<set name="effectRange" val="80" />
 		<set name="reuseDelay" val="360000" />
 		<for>
-			<effect count="1" name="Stun" time="8" val="0" stackOrder="1" stackType="Stun" />
+			<effect count="1" name="Stun" abnormalTime="8" val="0" abnormalLvl="1" abnormalType="Stun" />
 		</for>
 	</skill>
 	<skill id="5552" levels="12" name="NPC Hill Up">
@@ -566,7 +566,7 @@
 		<set name="reuseDelay" val="30000" />
 		<set name="operateType" val="OP_ACTIVE" />
 		<for>
-			<effect name="Buff" time="10" val="0" stackOrder="1" stackType="protection">
+			<effect name="Buff" abnormalTime="10" val="0" abnormalLvl="1" abnormalType="protection">
 				<add order="0x40" stat="mDef" val="1000" />
 				<add order="0x40" stat="fireRes" val="20" />
 				<add order="0x40" stat="waterRes" val="20" />
@@ -585,7 +585,7 @@
 		<set name="operateType" val="OP_ACTIVE" />
 		<set name="activationChance" val="5" />
 		<for>
-			<effect count="1" name="Buff" time="10" val="0">
+			<effect count="1" name="Buff" abnormalTime="10" val="0">
 				<add order="0x40" stat="mDef" val="750" />
 				<add order="0x40" stat="waterRes" val="15" />
 				<add order="0x40" stat="fireRes" val="15" />
@@ -602,7 +602,7 @@
 		<set name="operateType" val="OP_ACTIVE" />
 		<set name="activationChance" val="5" />
 		<for>
-			<effect count="1" name="Buff" time="10" val="0">
+			<effect count="1" name="Buff" abnormalTime="10" val="0">
 				<add order="0x40" stat="mDef" val="750" />
 				<add order="0x40" stat="darkRes" val="10" />
 				<add order="0x40" stat="holyRes" val="10" />
@@ -618,7 +618,7 @@
 		<set name="reuseDelay" val="30000" />
 		<set name="target" val="TARGET_SELF" />
 		<for>
-			<effect name="Buff" time="10" val="0" stackOrder="1" stackType="will">
+			<effect name="Buff" abnormalTime="10" val="0" abnormalLvl="1" abnormalType="will">
 				<mul order="0x30" stat="physicalSkillPower" val="1.2" />
 				<basemul order="0x30" stat="rCrit" val="0.2" />
 			</effect>
@@ -633,7 +633,7 @@
 		<set name="operateType" val="OP_ACTIVE" />
 		<set name="bestowed" val="true" />
 		<for>
-			<effect count="1" name="Buff" time="10" val="0">
+			<effect count="1" name="Buff" abnormalTime="10" val="0">
 				<mul order="0x30" stat="pvpPhysSkillsDmg" val="1.13">
 					<using kind="Bow,Crossbow" />
 				</mul>
@@ -645,7 +645,7 @@
 	</skill>
 	<skill id="5561" levels="3" name="Seed of Revenge">
 		<!-- Confirmed CT2.5 -->
-		<table name="#stackOrder"> 2 3 4 </table>
+		<table name="#abnormalLvl"> 2 3 4 </table>
 		<table name="#activationChance"> 10 10 0 </table>
 		<table name="#triggeredLevel"> 2 3 3 </table>
 		<table name="#rCrit"> 0.1 0.3 0.3 </table>
@@ -655,7 +655,7 @@
 		<set name="target" val="TARGET_SELF" />
 		<set name="operateType" val="OP_ACTIVE" />
 		<for>
-			<effect name="ChanceSkillTrigger" time="20" triggeredId="5561" triggeredLevel="#triggeredLevel" activationChance="#activationChance" chanceType="ON_ATTACKED" stackOrder="#stackOrder" stackType="seed_of_knight" val="0">
+			<effect name="ChanceSkillTrigger" abnormalTime="20" triggeredId="5561" triggeredLevel="#triggeredLevel" activationChance="#activationChance" chanceType="ON_ATTACKED" abnormalLvl="#abnormalLvl" abnormalType="seed_of_knight" val="0">
 				<add order="0x40" stat="pAtk" val="300" />
 				<basemul order="0x30" stat="rCrit" val="#rCrit" />
 				<mul order="0x30" stat="cAtk" val="#cAtk" />
@@ -664,7 +664,7 @@
 	</skill>
 	<skill id="5562" levels="3" name="Spirit of Phoenix">
 		<!-- Confirmed CT2.5 -->
-		<table name="#stackOrder"> 2 3 4 </table>
+		<table name="#abnormalLvl"> 2 3 4 </table>
 		<table name="#activationChance"> 10 10 0 </table>
 		<table name="#triggeredLevel"> 2 3 3 </table>
 		<table name="#fireRes"> 0 30 30 </table>
@@ -675,7 +675,7 @@
 		<set name="target" val="TARGET_SELF" />
 		<set name="operateType" val="OP_ACTIVE" />
 		<for>
-			<effect name="ChanceSkillTrigger" time="20" triggeredId="5562" triggeredLevel="#triggeredLevel" activationChance="#activationChance" chanceType="ON_ATTACKED" stackOrder="#stackOrder" stackType="seed_of_knight" val="0">
+			<effect name="ChanceSkillTrigger" abnormalTime="20" triggeredId="5562" triggeredLevel="#triggeredLevel" activationChance="#activationChance" chanceType="ON_ATTACKED" abnormalLvl="#abnormalLvl" abnormalType="seed_of_knight" val="0">
 				<add order="0x40" stat="pDef" val="500" />
 				<add order="0x40" stat="fireRes" val="#fireRes" />
 				<add order="0x40" stat="darkRes" val="#darkRes" />
@@ -685,7 +685,7 @@
 	</skill>
 	<skill id="5563" levels="3" name="Eva's Will">
 		<!-- Confirmed CT2.5 -->
-		<table name="#stackOrder"> 2 3 4 </table>
+		<table name="#abnormalLvl"> 2 3 4 </table>
 		<table name="#activationChance"> 10 10 0 </table>
 		<table name="#triggeredLevel"> 2 3 3 </table>
 		<table name="#waterPower"> 0 20 20 </table>
@@ -695,7 +695,7 @@
 		<set name="target" val="TARGET_SELF" />
 		<set name="operateType" val="OP_ACTIVE" />
 		<for>
-			<effect name="ChanceSkillTrigger" time="20" triggeredId="5563" triggeredLevel="#triggeredLevel" activationChance="#activationChance" chanceType="ON_ATTACKED" stackOrder="#stackOrder" stackType="seed_of_knight" val="0">
+			<effect name="ChanceSkillTrigger" abnormalTime="20" triggeredId="5563" triggeredLevel="#triggeredLevel" activationChance="#activationChance" chanceType="ON_ATTACKED" abnormalLvl="#abnormalLvl" abnormalType="seed_of_knight" val="0">
 				<add order="0x40" stat="mDef" val="400" />
 				<add order="0x40" stat="waterPower" val="#waterPower" />
 				<basemul order="0x30" stat="rCrit" val="#rCrit" />
@@ -704,7 +704,7 @@
 	</skill>
 	<skill id="5564" levels="3" name="Pain of Shilen">
 		<!-- Confirmed CT2.5 -->
-		<table name="#stackOrder"> 2 3 4 </table>
+		<table name="#abnormalLvl"> 2 3 4 </table>
 		<table name="#activationChance"> 10 10 0 </table>
 		<table name="#triggeredLevel"> 2 3 3 </table>
 		<table name="#cAtk"> 1.35 1.35 1.35 </table>
@@ -715,7 +715,7 @@
 		<set name="target" val="TARGET_SELF" />
 		<set name="operateType" val="OP_ACTIVE" />
 		<for>
-			<effect name="ChanceSkillTrigger" time="20" triggeredId="5564" triggeredLevel="#triggeredLevel" activationChance="#activationChance" chanceType="ON_ATTACKED" stackOrder="#stackOrder" stackType="seed_of_knight" val="0">
+			<effect name="ChanceSkillTrigger" abnormalTime="20" triggeredId="5564" triggeredLevel="#triggeredLevel" activationChance="#activationChance" chanceType="ON_ATTACKED" abnormalLvl="#abnormalLvl" abnormalType="seed_of_knight" val="0">
 				<mul order="0x30" stat="cAtk" val="#cAtk" />
 				<add order="0x40" stat="windPower" val="#windPower" />
 				<add order="0x40" stat="absorbDam" val="#absorbDam" />
@@ -740,7 +740,7 @@
 		<set name="effectRange" val="400" />
 		<set name="aggroPoints" val="671" />
 		<for>
-			<effect name="Debuff" time="30" val="0" stackOrder="1" stackType="expose_weak_point">
+			<effect name="Debuff" abnormalTime="30" val="0" abnormalLvl="1" abnormalType="expose_weak_point">
 				<mul order="0x30" stat="pDef" val="0.8" />
 				<basemul order="0x30" stat="rCrit" val="0.3" />
 			</effect>
@@ -776,7 +776,7 @@
 		<set name="skillType" val="DEBUFF" />
 		<set name="target" val="TARGET_ONE" />
 		<for>
-			<effect name="Debuff" time="60" val="0" stackOrder="3" stackType="speed_down">
+			<effect name="Debuff" abnormalTime="60" val="0" abnormalLvl="3" abnormalType="speed_down">
 				<mul order="0x30" stat="runSpd" val="0.7" />
 			</effect>
 		</for>
@@ -794,7 +794,7 @@
 		<set name="skillType" val="DEBUFF" />
 		<set name="target" val="TARGET_ONE" />
 		<for>
-			<effect name="Debuff" time="30" val="0" stackOrder="3" stackType="attack_time_up">
+			<effect name="Debuff" abnormalTime="30" val="0" abnormalLvl="3" abnormalType="attack_time_up">
 				<mul order="0x30" stat="pAtkSpd" val="0.77" />
 			</effect>
 		</for>
@@ -806,7 +806,7 @@
 		<set name="magicLvl" val="81" />
 		<set name="operateType" val="OP_ACTIVE" />
 		<for>
-			<effect name="Buff" time="20" val="0" stackOrder="1" stackType="summon_condition">
+			<effect name="Buff" abnormalTime="20" val="0" abnormalLvl="1" abnormalType="summon_condition">
 				<mul order="0x30" stat="pAtk" val="1.15" />
 				<mul order="0x30" stat="mAtk" val="1.75" />
 				<mul order="0x30" stat="cAtk" val="1.35" />
@@ -839,7 +839,7 @@
 		<set name="staticReuse" val="true" />
 		<set name="target" val="TARGET_SELF" />
 		<for>
-			<effect name="Buff" time="15" val="0" stackOrder="1" stackType="sub_trigger_haste">
+			<effect name="Buff" abnormalTime="15" val="0" abnormalLvl="1" abnormalType="sub_trigger_haste">
 				<mul order="0x30" stat="pAtkSpd" val="1.32" />
 			</effect>
 		</for>
@@ -855,7 +855,7 @@
 		<set name="staticReuse" val="true" />
 		<set name="target" val="TARGET_SELF" />
 		<for>
-			<effect name="Buff" time="15" val="0" stackOrder="1" stackType="sub_trigger_defence">
+			<effect name="Buff" abnormalTime="15" val="0" abnormalLvl="1" abnormalType="sub_trigger_defence">
 				<mul order="0x30" stat="pDef" val="1.24" />
 				<mul order="0x30" stat="mDef" val="1.24" />
 			</effect>
@@ -872,7 +872,7 @@
 		<set name="staticReuse" val="true" />
 		<set name="target" val="TARGET_SELF" />
 		<for>
-			<effect name="Buff" time="15" val="0" stackOrder="1" stackType="sub_trigger_crt_rate_up">
+			<effect name="Buff" abnormalTime="15" val="0" abnormalLvl="1" abnormalType="sub_trigger_crt_rate_up">
 				<basemul order="0x30" stat="rCrit" val="0.32" />
 			</effect>
 		</for>
@@ -897,7 +897,7 @@
 		<set name="staticReuse" val="true" />
 		<set name="target" val="TARGET_SELF" />
 		<for>
-			<effect name="Invincible" time="5" val="0" special="invincible" stackOrder="1" stackType="sub_trigger_defence" />
+			<effect name="Invincible" abnormalTime="5" val="0" special="invincible" abnormalLvl="1" abnormalType="sub_trigger_defence" />
 		</for>
 	</skill>
 	<skill id="5577" levels="1" name="Healer Ability - Heal">
@@ -920,7 +920,7 @@
 		<set name="staticReuse" val="true" />
 		<set name="target" val="TARGET_SELF" />
 		<for>
-			<effect name="Buff" time="15" val="0" stackOrder="1" stackType="sub_trigger_spirit">
+			<effect name="Buff" abnormalTime="15" val="0" abnormalLvl="1" abnormalType="sub_trigger_spirit">
 				<mul order="0x30" stat="pAtk" val="1.08" />
 				<mul order="0x30" stat="pAtkSpd" val="1.08" />
 				<mul order="0x30" stat="mAtk" val="1.08" />
@@ -966,7 +966,7 @@
 		<set name="castRange" val="40" />
 		<set name="effectRange" val="400" />
 		<for>
-			<effect name="Stun" val="0" effectPower="100" effectType="STUN" stackOrder="1" stackType="stun" /> <!-- using 1 second due abnormal don't have abnormal time -->
+			<effect name="Stun" val="0" effectPower="100" effectType="STUN" abnormalLvl="1" abnormalType="stun" /> <!-- using 1 second due abnormal don't have abnormal time -->
 		</for>
 	</skill>
 	<skill id="5582" levels="1" name="Divine Beast Fire Breath">
@@ -999,7 +999,7 @@
 		<set name="reuseDelay" val="8000" />
 		<set name="skillRadius" val="200" />
 		<for>
-			<effect name="Debuff" time="30" val="0" stackOrder="3" stackType="pa_down">
+			<effect name="Debuff" abnormalTime="30" val="0" abnormalLvl="3" abnormalType="pa_down">
 				<mul order="0x30" stat="pAtk" val="0.77" />
 			</effect>
 		</for>
@@ -1015,7 +1015,7 @@
 		<set name="skillRadius" val="200" />
 		<set name="isDebuff" val="true" />
 		<for>
-			<effect name="Debuff" time="15" val="0">
+			<effect name="Debuff" abnormalTime="15" val="0">
 				<mul order="0x30" stat="pAtk" val="0.77" />
 				<mul order="0x30" stat="mAtk" val="0.77" />
 			</effect>
@@ -1032,7 +1032,7 @@
 		<set name="skillRadius" val="200" />
 		<set name="isDebuff" val="true" />
 		<for>
-			<effect name="Debuff" time="15" val="0">
+			<effect name="Debuff" abnormalTime="15" val="0">
 				<mul order="0x30" stat="pAtkSpd" val="0.77" />
 				<mul order="0x30" stat="mAtkSpd" val="0.77" />
 			</effect>
@@ -1043,7 +1043,7 @@
 		<table name="#mpInitialConsume"> 1 2 4 </table>
 		<table name="#magicLvl"> 7 20 40 </table>
 		<table name="#rate"> 1.08 1.12 1.15 </table>
-		<table name="#stackOrder"> 1 2 3 </table>
+		<table name="#abnormalLvl"> 1 2 3 </table>
 		<table name="#aggro"> 121 204 379 </table>
 		<set name="mpConsume" val="#mpConsume" />
 		<set name="mpInitialConsume" val="#mpInitialConsume" />
@@ -1058,7 +1058,7 @@
 		<set name="effectRange" val="900" />
 		<set name="aggroPoints" val="#aggro" />
 		<for>
-			<effect name="Buff" time="120" val="0" stackOrder="#stackOrder" stackType="pa_up">
+			<effect name="Buff" abnormalTime="120" val="0" abnormalLvl="#abnormalLvl" abnormalType="pa_up">
 				<mul order="0x30" stat="pAtk" val="#rate" />
 			</effect>
 		</for>
@@ -1068,7 +1068,7 @@
 		<table name="#mpInitialConsume"> 1 3 4 </table>
 		<table name="#magicLvl"> 7 25 44 </table>
 		<table name="#rate"> 1.08 1.12 1.15 </table>
-		<table name="#stackOrder"> 1 2 3 </table>
+		<table name="#abnormalLvl"> 1 2 3 </table>
 		<table name="#aggro"> 121 243 418 </table>
 		<set name="mpConsume" val="#mpConsume" />
 		<set name="mpInitialConsume" val="#mpInitialConsume" />
@@ -1083,7 +1083,7 @@
 		<set name="effectRange" val="900" />
 		<set name="aggroPoints" val="#aggro" />
 		<for>
-			<effect name="Buff" time="120" val="0" stackOrder="#stackOrder" stackType="pd_up">
+			<effect name="Buff" abnormalTime="120" val="0" abnormalLvl="#abnormalLvl" abnormalType="pd_up">
 				<mul order="0x30" stat="pDef" val="#rate" />
 			</effect>
 		</for>
@@ -1094,7 +1094,7 @@
 		<table name="#magicLvl"> 25 44 52 </table>
 		<table name="#rCrit"> 0.2 0.25 0.3 </table>
 		<table name="#aggro"> 243 418 495 </table>
-		<table name="#stackOrder"> 1 2 3 </table>
+		<table name="#abnormalLvl"> 1 2 3 </table>
 		<set name="mpConsume" val="#mpConsume" />
 		<set name="mpInitialConsume" val="#mpInitialConsume" />
 		<set name="magicLvl" val="#magicLvl" />
@@ -1108,7 +1108,7 @@
 		<set name="effectRange" val="900" />
 		<set name="aggroPoints" val="#aggro" />
 		<for>
-			<effect name="Buff" time="120" val="0" stackOrder="#stackOrder" stackType="critical_prob_up">
+			<effect name="Buff" abnormalTime="120" val="0" abnormalLvl="#abnormalLvl" abnormalType="critical_prob_up">
 				<basemul order="0x30" stat="rCrit" val="#rCrit" />
 			</effect>
 		</for>
@@ -1118,7 +1118,7 @@
 		<table name="#mpInitialConsume"> 4 5 6 </table>
 		<table name="#magicLvl"> 40 48 56 </table>
 		<table name="#aggro"> 379 457 532 </table>
-		<table name="#stackOrder"> 1 2 3 </table>
+		<table name="#abnormalLvl"> 1 2 3 </table>
 		<table name="#mpConsume"> 14 18 21 </table>
 		<set name="mpConsume" val="#mpConsume" />
 		<set name="mpInitialConsume" val="#mpInitialConsume" />
@@ -1133,7 +1133,7 @@
 		<set name="effectRange" val="900" />
 		<set name="aggroPoints" val="#aggro" />
 		<for>
-			<effect name="Buff" time="120" val="0" stackOrder="#stackOrder" stackType="critical_dmg_up">
+			<effect name="Buff" abnormalTime="120" val="0" abnormalLvl="#abnormalLvl" abnormalType="critical_dmg_up">
 				<mul order="0x30" stat="cAtk" val="#cAtk" />
 			</effect>
 		</for>
@@ -1184,7 +1184,7 @@
 		<set name="skillType" val="PARALYZE" />
 		<set name="target" val="TARGET_ONE" />
 		<for>
-			<effect name="Paralyze" time="3" val="0" stackOrder="1" stackType="paralyze" />
+			<effect name="Paralyze" abnormalTime="3" val="0" abnormalLvl="1" abnormalType="paralyze" />
 		</for>
 	</skill>
 	<skill id="5593" levels="1" name="Vampiric Mana Burn">
@@ -1217,7 +1217,7 @@
 		<set name="skillType" val="POISON" />
 		<set name="castRange" val="-1" />
 		<set name="effectRange" val="-1" />
-		<effect count="7" name="Poisoning" time="1" val="365" abnormal="poison" stackOrder="11" stackType="Poison" />
+		<effect count="7" name="Poisoning" abnormalTime="1" val="365" abnormal="poison" abnormalLvl="11" abnormalType="Poison" />
 	</skill>
 	<skill id="5595" levels="1" name="Bleed">
 		<!-- Update by pmq -->
@@ -1229,7 +1229,7 @@
 		<set name="skillType" val="BLEED" />
 		<set name="castRange" val="-1" />
 		<set name="effectRange" val="-1" />
-		<effect count="7" name="DamOverTime" time="1" val="365" abnormal="bleed" stackOrder="11" stackType="Bleed" />
+		<effect count="7" name="DamOverTime" abnormalTime="1" val="365" abnormal="bleed" abnormalLvl="11" abnormalType="Bleed" />
 	</skill>
 	<skill id="5596" levels="1" name="Flame">
 		<!-- Confirmed CT2.5 -->
@@ -1246,7 +1246,7 @@
 		<set name="target" val="TARGET_ONE" />
 		<for>
 			<!-- 200HP * 1 during 5 seconds -->
-			<effect count="5" name="DamOverTime" val="200" abnormal="bleed" stackOrder="10" stackType="dot_attr" />
+			<effect count="5" name="DamOverTime" val="200" abnormal="bleed" abnormalLvl="10" abnormalType="dot_attr" />
 		</for>
 	</skill>
 	<skill id="5597" levels="1" name="Invalid Skill cancel">

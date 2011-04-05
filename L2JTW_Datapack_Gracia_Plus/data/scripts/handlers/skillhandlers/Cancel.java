@@ -159,16 +159,16 @@ public class Cancel implements ISkillHandler
 				switch (skill.getSkillType())
 				{
 					case MAGE_BANE:
-						if ("casting_time_down".equalsIgnoreCase(effect.getStackType()))
+						if ("casting_time_down".equalsIgnoreCase(effect.getAbnormalType()))
 							break;
-						if ("ma_up".equalsIgnoreCase(effect.getStackType()))
+						if ("ma_up".equalsIgnoreCase(effect.getAbnormalType()))
 							break;
 						effects[i] = null;
 						continue;
 					case WARRIOR_BANE:
-						if ("attack_time_down".equalsIgnoreCase(effect.getStackType()))
+						if ("attack_time_down".equalsIgnoreCase(effect.getAbnormalType()))
 							break;
-						if ("speed_up".equalsIgnoreCase(effect.getStackType()))
+						if ("speed_up".equalsIgnoreCase(effect.getAbnormalType()))
 							break;
 						effects[i] = null;
 						continue;
@@ -246,7 +246,7 @@ public class Cancel implements ISkillHandler
 	private boolean calcCancelSuccess(L2Effect effect, int cancelLvl, int baseRate, int minRate, int maxRate)
 	{
 		int rate = 2 * (cancelLvl - effect.getSkill().getMagicLevel());
-		rate += effect.getPeriod()/120;
+		rate += effect.getAbnormalTime()/120;
 		rate += baseRate;
 		
 		if (rate < minRate)
