@@ -177,7 +177,7 @@
 		<set name="castRange" val="300" />
 		<set name="effectRange" val="300" />
 		<for>
-			<effect name="Debuff" abnormalTime="60" val="0" abnormalLvl="0.8" abnormalType="RunSpeedDown">
+			<effect name="Debuff" abnormalTime="60" val="0" abnormalLvl="1" abnormalType="RunSpeedDown">
 				<mul order="0x30" stat="runSpd" val="0.7" />
 			</effect>
 		</for>
@@ -1185,7 +1185,7 @@
 		</for>
 	</skill>
 	<skill id="5880" levels="2" name="Vicious Mutilation">
-		<table name="#runSpd"> 0.85 0.7 </table>
+		<table name="#runSpd"> 85 70 </table>
 		<set name="target" val="TARGET_ONE" />
 		<set name="skillType" val="DEBUFF" />
 		<set name="isDebuff" val="true" />

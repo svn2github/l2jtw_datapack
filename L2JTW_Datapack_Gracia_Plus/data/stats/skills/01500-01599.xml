@@ -817,7 +817,7 @@
 		<set name="isMagic" val="true" />
 		<set name="reuseDelay" val="12000" />
 		<for>
-			<effect name="Buff" abnormalTime="1200" val="0" abnormalLvl="1.5" abnormalType="max_cp_up">
+			<effect name="Buff" abnormalTime="1200" val="0" abnormalLvl="1" abnormalType="max_cp_up">
 				<mul order="0x30" stat="maxCp" val="1.5" />
 			</effect>
 		</for>

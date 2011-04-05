@@ -931,7 +931,7 @@
 		<set name="effectRange" val="1100" />
 		<set name="isDebuff" val="true" />
 		<for>
-			<effect name="Debuff" abnormalTime="30" val="0" effectPower="60" effectType="DEBUFF" abnormalLvl="0.7" abnormalType="RunSpeedDown">
+			<effect name="Debuff" abnormalTime="30" val="0" effectPower="60" effectType="DEBUFF" abnormalLvl="7" abnormalType="RunSpeedDown">
 				<mul order="0x30" stat="runSpd" val="0.7"/>
 			</effect>
 		</for>
@@ -939,7 +939,7 @@
 	<skill id="5069" levels="12" name="Decrease Atk. Spd.">
 		<!-- Update by pmq -->
 		<!-- Description(s): Lvl 1-12 - Instantly reduces Atk. Spd. Effect 3. -->
-		<table name="#pAtkSpd"> 0.83 0.8 0.8 0.77 0.77 0.77 0.77 0.77 0.77 0.77 0.77 0.77 </table>
+		<table name="#pAtkSpd"> 83 80 80 77 77 77 77 77 77 77 77 77 </table>
 		<table name="#mpInitialConsume"> 3 5 7 10 13 16 19 20 21 22 23 23 </table>
 		<table name="#mpConsume"> 13 23 31 42 53 66 77 82 86 89 92 92 </table>
 		<table name="#magicLvl"> 14 24 34 44 54 64 74 79 84 89 94 99 </table>
@@ -963,7 +963,7 @@
 	<skill id="5070" levels="12" name="Decrease Casting Spd">
 		<!-- Update by pmq -->
 		<!-- Description(s): Lvl 1-12 - Instantly reduces Casting Spd. Effect 3. -->
-		<table name="#mAtkSpd"> 0.83 0.8 0.8 0.77 0.77 0.77 0.77 0.77 0.77 0.77 0.77 0.77 </table>
+		<table name="#mAtkSpd"> 83 80 80 77 77 77 77 77 77 77 77 77 </table>
 		<table name="#mpInitialConsume"> 3 5 7 10 13 16 19 20 21 22 23 23 </table>
 		<table name="#mpConsume"> 13 23 31 42 53 66 77 82 86 89 92 92 </table>
 		<table name="#magicLvl"> 14 24 34 44 54 64 74 79 84 89 94 99 </table>
@@ -987,7 +987,7 @@
 	<skill id="5071" levels="12" name="Decrease P. Atk.">
 		<!-- Update by pmq -->
 		<!-- Description(s): Lvl 1-12 - Instantly reduces P. Atk. Effect 3. -->
-		<table name="#pAtk"> 0.83 0.8 0.8 0.77 0.77 0.77 0.77 0.77 0.77 0.77 0.77 0.77 </table>
+		<table name="#pAtk"> 83 80 80 77 77 77 77 77 77 77 77 77 </table>
 		<table name="#mpInitialConsume"> 3 5 7 10 13 16 19 20 21 22 23 23 </table>
 		<table name="#mpConsume"> 13 23 31 42 53 66 77 82 86 89 92 92 </table>
 		<table name="#magicLvl"> 14 24 34 44 54 64 74 79 84 89 94 99 </table>
@@ -1025,7 +1025,7 @@
 			Lvl 11 - Instantly reduces M. Atk. Effect 3.
 			Lvl 12 - Instantly reduces M. Atk. Effect 3.
 		-->
-		<table name="#mAtk"> 0.83 0.8 0.8 0.77 0.77 0.77 0.77 0.77 0.77 0.77 0.77 0.77 </table>
+		<table name="#mAtk"> 83 80 80 77 77 77 77 77 77 77 77 77 </table>
 		<table name="#mpInitialConsume"> 3 5 7 10 13 16 19 20 21 22 23 23 </table>
 		<table name="#mpConsume"> 13 23 31 42 53 66 77 82 86 89 92 92 </table>
 		<table name="#magicLvl"> 14 24 34 44 54 64 74 79 84 89 94 99 </table>

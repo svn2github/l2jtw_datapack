@@ -1233,7 +1233,7 @@
 		<!-- Update by pmq -->
 		<table name="#mpInitialConsume"> 9 </table>
 		<table name="#mpConsume"> 38 </table>
-		<table name="#rCrit"> 0.3 </table>
+		<table name="#rCrit"> 30 </table>
 		<table name="#aggroPoints"> 495 </table>
 		<set name="mpInitialConsume" val="#mpInitialConsume" />
 		<set name="mpConsume" val="#mpConsume" />
@@ -1281,7 +1281,7 @@
 		<!-- Update by pmq -->
 		<table name="#mpInitialConsume"> 10 </table>
 		<table name="#mpConsume"> 41 </table>
-		<table name="#rShld"> 1.15 </table>
+		<table name="#rShld"> 15 </table>
 		<table name="#aggroPoints"> 532 </table>
 		<set name="mpInitialConsume" val="#mpInitialConsume" />
 		<set name="mpConsume" val="#mpConsume" />
@@ -1329,7 +1329,7 @@
 		<!-- Update by pmq -->
 		<table name="#mpInitialConsume"> 10 </table>
 		<table name="#mpConsume"> 41 </table>
-		<table name="#rate"> 1.2 </table>
+		<table name="#rate"> 20 </table>
 		<table name="#aggroPoints"> 532 </table>
 		<set name="mpInitialConsume" val="#mpInitialConsume" />
 		<set name="mpConsume" val="#mpConsume" />
@@ -1353,7 +1353,7 @@
 		<!-- Update by pmq -->
 		<table name="#mpInitialConsume"> 13 </table>
 		<table name="#mpConsume"> 49 </table>
-		<table name="#sDef"> 1.4 </table>
+		<table name="#sDef"> 40 </table>
 		<table name="#aggroPoints"> 611 </table>
 		<set name="mpInitialConsume" val="#mpInitialConsume" />
 		<set name="mpConsume" val="#mpConsume" />
