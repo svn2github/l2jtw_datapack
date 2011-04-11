@@ -256,6 +256,6 @@ public class Q401_PathToWarrior extends Quest
 	
 	public static void main(String[] args)
 	{
-		new Q401_PathToWarrior(401, qn, "Path to Warrior");
+		new Q401_PathToWarrior(401, qn, "成為鬥士的路");
 	}
 }

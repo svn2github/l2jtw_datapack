@@ -832,7 +832,11 @@
 		<set name="is_depositable" val="false" />
 		<set name="unequip_skill" val="8249-1" />
 		<set name="item_skill" val="8239-1;8240-1;3599-1" />
-		<set name="equip_condition" val="{{ec_inzone_num;{45}}}" />
+		<!-- <set name="equip_condition" val="{{ec_inzone_num;{45}}}" /> --><!-- update by pmq -->
+		<set name="use_condition" val="{{uc_inzone_num;{45}}}" /><!-- update by pmq -->
+		<cond msgId="113" addName="1"><!-- update by pmq -->
+			<player instanceId="45" /><!-- update by pmq -->
+		</cond><!-- update by pmq -->
 		<for>
 			<set order="0x08" stat="pAtk" val="251" />
 			<set order="0x08" stat="mAtk" val="161" />
@@ -864,7 +868,11 @@
 		<set name="is_depositable" val="false" />
 		<set name="unequip_skill" val="8249-1" />
 		<set name="item_skill" val="8239-1;8240-2;3599-1" />
-		<set name="equip_condition" val="{{ec_inzone_num;{45}}}" />
+		<!-- <set name="equip_condition" val="{{ec_inzone_num;{45}}}" /> --><!-- update by pmq -->
+		<set name="use_condition" val="{{uc_inzone_num;{45}}}" /><!-- update by pmq -->
+		<cond msgId="113" addName="1"><!-- update by pmq -->
+			<player instanceId="45" /><!-- update by pmq -->
+		</cond><!-- update by pmq -->
 		<for>
 			<set order="0x08" stat="pAtk" val="271" />
 			<set order="0x08" stat="mAtk" val="171" />
@@ -896,7 +904,11 @@
 		<set name="is_depositable" val="false" />
 		<set name="unequip_skill" val="8249-1" />
 		<set name="item_skill" val="8239-1;8240-3;3599-1" />
-		<set name="equip_condition" val="{{ec_inzone_num;{45}}}" />
+		<!-- <set name="equip_condition" val="{{ec_inzone_num;{45}}}" /> --><!-- update by pmq -->
+		<set name="use_condition" val="{{uc_inzone_num;{45}}}" /><!-- update by pmq -->
+		<cond msgId="113" addName="1"><!-- update by pmq -->
+			<player instanceId="45" /><!-- update by pmq -->
+		</cond><!-- update by pmq -->
 		<for>
 			<set order="0x08" stat="pAtk" val="291" />
 			<set order="0x08" stat="mAtk" val="181" />

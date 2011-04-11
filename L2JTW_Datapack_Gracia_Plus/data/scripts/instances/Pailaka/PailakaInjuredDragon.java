@@ -19,6 +19,8 @@ import com.l2jserver.gameserver.model.actor.instance.L2MonsterInstance;
 import com.l2jserver.gameserver.model.actor.instance.L2PcInstance;
 import com.l2jserver.gameserver.model.actor.instance.L2PetInstance;
 import com.l2jserver.gameserver.model.entity.Instance;
+//import com.l2jserver.gameserver.model.L2Object;
+//import com.l2jserver.gameserver.model.L2World;
 import com.l2jserver.gameserver.model.quest.Quest;
 import com.l2jserver.gameserver.model.quest.QuestState;
 import com.l2jserver.gameserver.model.quest.State;
@@ -79,7 +81,7 @@ public class PailakaInjuredDragon extends Quest
 	private static final int PROPHET_GUARD             = 18657;  // 預言者的親衛兵
 	private static final int VARKAS_PROPHET            = 18659;  // 巴瑞卡預言者
 	
-	// EXTRA WALL SILENOS   
+	// EXTRA WALL SILENOS
 	private static final int VARKA_SILENOS_MEDIUM      = 18644;  // 巴瑞卡賽勒諾斯靈媒
 	private static final int VARKA_SILENOS_PRIEST      = 18641;  // 巴瑞卡賽勒諾斯祭司
 	private static final int VARKA_SILENOS_SHAMAN      = 18640;  // 巴瑞卡賽勒諾斯咒術士
@@ -423,8 +425,15 @@ public class PailakaInjuredDragon extends Quest
 				player.getPet().stopMove(null);
 			}
 			
+			/*InstanceWorld world = InstanceManager.getInstance().getWorld(npc.getInstanceId());
+			for(int objId : world.allowed)
+			{
+				L2PcInstance pl = L2World.getInstance().getPlayer(objId);
+				if (pl != null)
+					pl.showQuestMovie(?);
+			}*/
 			player.sendPacket(new SpecialCamera(npc.getObjectId(), 200, 0, 0, 1000, 11000, 1, 0, 1, 0));
-			startQuestTimer("latana_animation2", 1000, npc, player);   
+			startQuestTimer("latana_animation2", 1000, npc, player);
 			return null;
 		}
 		else if (event.equalsIgnoreCase("latana_animation2"))

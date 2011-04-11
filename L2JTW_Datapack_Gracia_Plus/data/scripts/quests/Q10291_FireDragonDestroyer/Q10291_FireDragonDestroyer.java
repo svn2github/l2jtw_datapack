@@ -132,6 +132,6 @@ public class Q10291_FireDragonDestroyer extends Quest
 	
 	public static void main(String[] args)
 	{
-		new Q10291_FireDragonDestroyer(10291, qn, "Fire Dragon Destroyer");
+		new Q10291_FireDragonDestroyer(10291, qn, "¿ª±—§ı¿s");
 	}
 }

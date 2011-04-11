@@ -30,7 +30,7 @@ import com.l2jserver.gameserver.model.quest.State;
  */
 public final class Q692_HowtoOpposeEvil extends Quest
 {
-	private static final String QN = "Q692_HowtoOpposeEvil";
+	private static final String qn = "Q692_HowtoOpposeEvil";
 	private static final int DILIOS = 32549;
 	private static final int LEKONS_CERTIFICATE = 13857;
 	private static final int[] QUEST_ITEMS = { 13863, 13864, 13865, 13866, 13867, 15535, 15536 };
@@ -109,7 +109,7 @@ public final class Q692_HowtoOpposeEvil extends Quest
 	public final String onAdvEvent(String event, L2Npc npc, L2PcInstance player)
 	{
 		String htmltext = event;
-		QuestState st = player.getQuestState(QN);
+		QuestState st = player.getQuestState(qn);
 		if (st == null)
 			return "";
 		if (event.equalsIgnoreCase("32549-03.htm"))
@@ -156,7 +156,7 @@ public final class Q692_HowtoOpposeEvil extends Quest
 	@Override
 	public final String onTalk(L2Npc npc, L2PcInstance player)
 	{
-		final QuestState st = player.getQuestState(QN);
+		final QuestState st = player.getQuestState(qn);
 		if (st == null)
 			return getNoQuestMsg(player);
 		
@@ -205,7 +205,7 @@ public final class Q692_HowtoOpposeEvil extends Quest
 		L2PcInstance partyMember = getRandomPartyMember(player,"3");
 		if (partyMember == null)
 			return null;
-		final QuestState st = partyMember.getQuestState(QN);
+		final QuestState st = partyMember.getQuestState(qn);
 		if (st != null && _questMobs.containsKey(npc.getNpcId()))
 		{
 			int chance = (int) (_questMobs.get(npc.getNpcId())[1] * Config.RATE_QUEST_DROP);
@@ -234,6 +234,6 @@ public final class Q692_HowtoOpposeEvil extends Quest
 	
 	public static void main(String[] args)
 	{
-		new Q692_HowtoOpposeEvil(692, QN, "How to Oppose Evil");
+		new Q692_HowtoOpposeEvil(692, qn, "對抗惡的方法");
 	}
 }

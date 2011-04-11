@@ -133,6 +133,6 @@ public class Q10290_LandDragonConqueror extends Quest
 	
 	public static void main(String[] args)
 	{
-		new Q10290_LandDragonConqueror(10290, qn, "Land Dragon Conqueror");
+		new Q10290_LandDragonConqueror(10290, qn, "¦aÀs©ºªAªÌ");
 	}
 }

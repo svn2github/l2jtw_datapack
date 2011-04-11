@@ -2366,26 +2366,47 @@ UPDATE `npc` SET `type` = 'L2Npc' WHERE `id` = 32512; -- 肯特拉獸人後援者
 UPDATE `npc` SET `type` = 'L2Npc' WHERE `id` = 32509; -- 肯特拉獸人諜報員
 UPDATE `npc` SET `type` = 'L2Npc' WHERE `id` = 32499; -- 肯特拉獸人諜報員
 
+UPDATE `npc` SET `aggro` = 900 WHERE `id` = 18635; -- 巴瑞卡賽勒諾斯訓練兵
+UPDATE `npc` SET `aggro` = 900 WHERE `id` = 18636; -- 巴瑞卡賽勒諾斯步兵
+UPDATE `npc` SET `aggro` = 900 WHERE `id` = 18640; -- 巴瑞卡賽勒諾斯咒術士
+UPDATE `npc` SET `aggro` = 900 WHERE `id` = 18641; -- 巴瑞卡賽勒諾斯祭司
+UPDATE `npc` SET `aggro` = 900 WHERE `id` = 18642; -- 巴瑞卡賽勒諾斯戰士
+UPDATE `npc` SET `aggro` = 900 WHERE `id` = 18644; -- 巴瑞卡賽勒諾斯靈媒
+UPDATE `npc` SET `aggro` = 900 WHERE `id` = 18645; -- 巴瑞卡賽勒諾斯魔導士
+UPDATE `npc` SET `aggro` = 900 WHERE `id` = 18646; -- 巴瑞卡賽勒諾斯下士
+UPDATE `npc` SET `aggro` = 900 WHERE `id` = 18648; -- 巴瑞卡賽勒諾斯祭司長
+UPDATE `npc` SET `aggro` = 900 WHERE `id` = 18649; -- 巴瑞卡賽勒諾斯大魔導士
+UPDATE `npc` SET `aggro` = 900 WHERE `id` = 18650; -- 巴瑞卡賽勒諾斯軍官
+UPDATE `npc` SET `aggro` = 900 WHERE `id` = 18652; -- 巴瑞卡賽勒諾斯大祭司長
+UPDATE `npc` SET `aggro` = 900 WHERE `id` = 18653; -- 巴瑞卡精銳親衛隊
+UPDATE `npc` SET `aggro` = 900 WHERE `id` = 18654; -- 巴瑞卡軍團長
+UPDATE `npc` SET `aggro` = 900 WHERE `id` = 18655; -- 巴瑞卡首席親衛隊
+UPDATE `npc` SET `aggro` = 900 WHERE `id` = 18656; -- 巴瑞卡首席魔導士
+UPDATE `npc` SET `aggro` = 900 WHERE `id` = 18657; -- 預言者的親衛兵
+UPDATE `npc` SET `aggro` = 900 WHERE `id` = 18658; -- 預言者的門徒
+UPDATE `npc` SET `aggro` = 900 WHERE `id` = 18659; -- 巴瑞卡預言者
+UPDATE `npc` SET `aggro` = 900 WHERE `id` = 18660; -- 拉塔那
+
 REPLACE INTO npcskills VALUES
 -- 菲拉卡-受傷的龍
-(18635,4032,7),
-(18636,4573,7),
-(18640,4065,7),
-(18641,4065,7),
-(18642,4572,7),
-(18644,4065,7),
-(18646,4572,7),
-(18648,4065,7),
-(18649,4573,7),
-(18650,4072,7),
-(18654,4573,7),
-(18655,4573,7),
-(18656,4065,7),
-(18657,4573,7),
-(18658,4065,7),
-(18659,4065,7),
-(18660,5715,1),
-(18660,5716,1),
-(18660,5717,1),
-(18660,5718,1),
-(18660,5759,1);
+(18635,4032,7), -- NPC Strike
+(18636,4573,7), -- NPC Sonic Blaster
+(18640,4065,7), -- NPC Heal
+(18641,4065,7), -- NPC Heal
+(18642,4572,7), -- NPC Triple Sonic Slash
+(18644,4065,7), -- NPC Heal
+(18646,4572,7), -- NPC Triple Sonic Slash
+(18648,4065,7), -- NPC Heal
+(18649,4573,7), -- NPC Sonic Blaster
+(18650,4072,7), -- 休克
+(18654,4573,7), -- NPC Sonic Blaster
+(18655,4573,7), -- NPC Sonic Blaster
+(18656,4065,7), -- NPC Heal
+(18657,4573,7), -- NPC Sonic Blaster
+(18658,4065,7), -- NPC Heal
+(18659,4065,7), -- NPC Heal
+(18660,5715,1), -- 電流火燄
+(18660,5716,1), -- 衝擊
+(18660,5717,1), -- 火焰氣息
+(18660,5718,1), -- 怒擊
+(18660,5759,1); -- 展示-拉塔那起身
