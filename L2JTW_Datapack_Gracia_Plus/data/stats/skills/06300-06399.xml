@@ -488,74 +488,131 @@
 		<set name="lvlDepend" val="1" />
 	</skill>
 	<skill id="6333" levels="1" name="Electric Bolt 1">
+		<!-- update by pmq -->
 		<!-- Causes bleeding for 3 seconds, draining 200 HP per second. -->
-		<set name="target" val="TARGET_NONE" />
-		<set name="nextActionAttack" val="true" />
-		<set name="skillType" val="NOTDONE" />
-		<set name="operateType" val="OP_PASSIVE" />
-		<set name="reuseDelay" val="1000" />
-		<set name="saveVs" val="CON" />
+		<set name="castRange" val="40" />
+		<set name="effectRange" val="400" />
+		<set name="hitTime" val="1500" />
 		<set name="coolTime" val="500" />
-		<set name="lvlDepend" val="2" />
+		<set name="reuseDelay" val="3000" />
+		<set name="target" val="TARGET_ONE" />
+		<set name="skillType" val="BLEED" />
+		<set name="operateType" val="OP_ACTIVE" />
+		<for>
+			<effect name="DamOverTime" abnormal="bleed" count="1" abnormalType="bleeding" abnormalLvl="10" abnormalTime="3" val="200" />
+		</for>
 	</skill>
 	<skill id="6334" levels="1" name="Shock">
+		<!-- update by pmq -->
 		<!-- Momentarily causes shock and stuns the enemy for 4 seconds. -->
-		<set name="target" val="TARGET_NONE" />
-		<set name="skillType" val="NOTDONE" />
-		<set name="operateType" val="OP_PASSIVE" />
-		<set name="reuseDelay" val="1000" />
-		<set name="saveVs" val="CON" />
+		<set name="castRange" val="40" />
+		<set name="effectRange" val="400" />
+		<set name="hitTime" val="1500" />
 		<set name="coolTime" val="500" />
-		<set name="lvlDepend" val="1" />
+		<set name="reuseDelay" val="3000" />
+		<set name="magiclvl" val="84" />
+		<set name="target" val="TARGET_ONE" />
+		<set name="skillType" val="STUN" />
+		<set name="operateType" val="OP_ACTIVE" />
+		<for>
+			<effect name="Stun" abnormalTime="4" val="0" effectPower="50" effectType="STUN" abnormalLvl="1" abnormalType="stun" />
+		</for>
 	</skill>
 	<skill id="6335" levels="1" name="Electric Rain 1">
-		<set name="target" val="TARGET_NONE" />
-		<set name="skillType" val="NOTDONE" />
-		<set name="operateType" val="OP_PASSIVE" />
-		<set name="reuseDelay" val="2000" />
+		<!-- update by pmq -->
+		<set name="elementPower" val="50" />
+		<set name="magicLevel" val="85" />
+		<set name="power" val="165" />
+		<set name="element" val="0" />
+		<set name="target" val="TARGET_ONE" />
+		<set name="skillType" val="MDAM" />
+		<set name="operateType" val="OP_ACTIVE" />
+		<set name="castRange" val="40" />
+		<set name="effectRange" val="400" />
+		<set name="hitTime" val="1500" />
 		<set name="coolTime" val="500" />
+		<set name="reuseDelay" val="3000" />
+		<for />
 	</skill>
 	<skill id="6336" levels="1" name="Electric Rain 2">
-		<set name="target" val="TARGET_NONE" />
-		<set name="skillType" val="NOTDONE" />
-		<set name="operateType" val="OP_PASSIVE" />
-		<set name="reuseDelay" val="2000" />
+		<!-- update by pmq -->
+		<set name="elementPower" val="50" />
+		<set name="magicLevel" val="85" />
+		<set name="power" val="170" />
+		<set name="element" val="0" />
+		<set name="target" val="TARGET_ONE" />
+		<set name="skillType" val="MDAM" />
+		<set name="operateType" val="OP_ACTIVE" />
+		<set name="castRange" val="40" />
+		<set name="effectRange" val="400" />
+		<set name="hitTime" val="1500" />
 		<set name="coolTime" val="500" />
+		<set name="reuseDelay" val="3000" />
+		<for />
 	</skill>
 	<skill id="6337" levels="1" name="Red Slash 1">
-		<set name="target" val="TARGET_NONE" />
-		<set name="skillType" val="NOTDONE" />
-		<set name="operateType" val="OP_PASSIVE" />
-		<set name="reuseDelay" val="2000" />
+		<!-- update by pmq -->
+		<set name="elementPower" val="20" />
+		<set name="magicLevel" val="85" />
+		<set name="power" val="150" />
+		<set name="element" val="0" />
+		<set name="target" val="TARGET_ONE" />
+		<set name="skillType" val="MDAM" />
+		<set name="operateType" val="OP_ACTIVE" />
+		<set name="castRange" val="40" />
+		<set name="effectRange" val="400" />
+		<set name="hitTime" val="1500" />
 		<set name="coolTime" val="500" />
+		<set name="reuseDelay" val="3000" />
+		<for />
 	</skill>
 	<skill id="6338" levels="1" name="Red Slash 2">
-		<set name="target" val="TARGET_NONE" />
-		<set name="skillType" val="NOTDONE" />
-		<set name="operateType" val="OP_PASSIVE" />
-		<set name="reuseDelay" val="2000" />
+		<!-- update by pmq -->
+		<set name="elementPower" val="30" />
+		<set name="magicLevel" val="85" />
+		<set name="power" val="165" />
+		<set name="element" val="0" />
+		<set name="target" val="TARGET_ONE" />
+		<set name="skillType" val="MDAM" />
+		<set name="operateType" val="OP_ACTIVE" />
+		<set name="castRange" val="40" />
+		<set name="effectRange" val="400" />
+		<set name="hitTime" val="1500" />
 		<set name="coolTime" val="500" />
+		<set name="reuseDelay" val="3000" />
+		<for />
 	</skill>
 	<skill id="6339" levels="1" name="Sacred Hammer Attack">
+		<!-- update by pmq -->
 		<!-- Causes bleeding for 3 seconds, draining 200 HP per second. -->
-		<set name="target" val="TARGET_NONE" />
-		<set name="skillType" val="NOTDONE" />
-		<set name="nextActionAttack" val="true" />
-		<set name="operateType" val="OP_PASSIVE" />
-		<set name="reuseDelay" val="1000" />
-		<set name="saveVs" val="CON" />
+		<set name="castRange" val="40" />
+		<set name="effectRange" val="400" />
+		<set name="hitTime" val="1500" />
 		<set name="coolTime" val="500" />
-		<set name="lvlDepend" val="2" />
+		<set name="reuseDelay" val="3000" />
+		<set name="target" val="TARGET_ONE" />
+		<set name="skillType" val="BLEED" />
+		<set name="power" val="200" />
+		<set name="operateType" val="OP_ACTIVE" />
+		<for>
+			<effect name="DamOverTime" abnormal="bleed" count="1" abnormalType="bleeding" abnormalLvl="10" abnormalTime="3" val="200" />
+		</for>
 	</skill>
 	<skill id="6340" levels="1" name="Shock">
+		<!-- update by pmq -->
 		<!-- Momentarily causes shock and stuns the enemy for 4 seconds. -->
-		<set name="target" val="TARGET_NONE" />
-		<set name="skillType" val="NOTDONE" />
-		<set name="operateType" val="OP_PASSIVE" />
-		<set name="reuseDelay" val="1000" />
-		<set name="saveVs" val="CON" />
-		<set name="lvlDepend" val="1" />
+		<set name="castRange" val="40" />
+		<set name="effectRange" val="400" />
+		<set name="hitTime" val="1500" />
 		<set name="coolTime" val="500" />
+		<set name="reuseDelay" val="3000" />
+		<set name="magiclvl" val="84" />
+		<set name="target" val="TARGET_ONE" />
+		<set name="skillType" val="STUN" />
+		<set name="operateType" val="OP_ACTIVE" />
+		<for>
+			<effect name="Stun" abnormalTime="4" val="0" effectPower="50" effectType="STUN" abnormalLvl="1" abnormalType="stun" />
+		</for>
 	</skill>
 	<skill id="6341" levels="1" name="Stronghold Water Cannon">
 		<set name="target" val="TARGET_NONE" />

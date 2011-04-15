@@ -25,7 +25,6 @@ Black                    = 32579
 # ITEMS
 EmperorShunaimanContract = 13823
 IdentityCard             = 13822
-ScrollofEscape           = 7128
 # Transformation's skills
 GuardofDawn              = 6204
 
@@ -34,7 +33,6 @@ class Quest (JQuest):
 	def __init__(self,id,name,descr):
 		JQuest.__init__(self,id,name,descr)
 		self.questItemIds = [IdentityCard, EmperorShunaimanContract]
-		self.SCROLL = 0
 
 	def onAdvEvent (self,event,npc,player):
 		htmltext = event
@@ -57,6 +55,10 @@ class Quest (JQuest):
 			player.stopAllEffects()
 			SkillTable.getInstance().getInfo(6204,1).getEffects(player,player)
 		elif event == "30289-08.htm":
+			player.stopAllEffects()
+		elif event == "30289-11.htm":
+			st.set("cond","4")
+			st.playSound("ItemSound.quest_middle")
 			player.stopAllEffects()
 		elif event == "30969-03.htm":
 			st.addExpAndSp(52518015, 5817677)
@@ -103,21 +105,12 @@ class Quest (JQuest):
 				if cond == 2:
 					htmltext = "30289-01.htm"
 				elif cond == 3:
-					htmltext = "30289-06.htm"
+					if st.getQuestItemsCount(EmperorShunaimanContract) == 1:
+						htmltext = "30289-09.htm"
+					else:
+						htmltext = "30289-06.htm"
 				elif cond == 4:
-					if self.SCROLL == 0:  # Fix Bug Scroll of Escape
-						if st.getQuestItemsCount(EmperorShunaimanContract) == 1 and st.getQuestItemsCount(ScrollofEscape) == 0 :
-							htmltext = "30289-09.htm"
-							player.stopAllEffects()
-							st.giveItems(ScrollofEscape,1)
-							st.playSound("ItemSound.quest_middle")
-							self.SCROLL = 1
-						else :
-							player.stopAllEffects()
-							htmltext = "30289-08.htm"
-					else :
-						player.stopAllEffects()
-						htmltext = "30289-08.htm"
+					htmltext = "30289-12.htm"
 			elif npcId == LightOfDawn:
 				if cond == 3 and st.getQuestItemsCount(IdentityCard) == 1:
 					htmltext = "32575-03.htm"
