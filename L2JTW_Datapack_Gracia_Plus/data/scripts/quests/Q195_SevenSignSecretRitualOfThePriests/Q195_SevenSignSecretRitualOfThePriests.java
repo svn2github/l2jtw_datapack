@@ -20,7 +20,6 @@ public class Q195_SevenSignSecretRitualOfThePriests extends Quest
 	private static final int JOHN          = 32576;
 	private static final int RAYMOND       = 30289;
 	private static final int IASON_HEINE   = 30969;
-	private static final int SHELF         = 32580;
 	
 	//ITEMS
 	private static final int SHUNAIMAN_CONTRACT = 13823;
@@ -35,7 +34,7 @@ public class Q195_SevenSignSecretRitualOfThePriests extends Quest
 		QuestState st = player.getQuestState(qn);
 		
 		if (st == null)
-			return getNoQuestMsg(player);
+			return "<html><body>目前沒有執行任務，或條件不符。</body></html>";
 		
 		final int cond = st.getInt("cond");
 		if (event.equalsIgnoreCase("31001-05.htm"))
@@ -70,7 +69,6 @@ public class Q195_SevenSignSecretRitualOfThePriests extends Quest
 			if (cond == 3)
 			{
 				SkillTable.getInstance().getInfo(GUARD_DAWN,1).getEffects(player,player);
-				player.stopAllEffects();
 			}
 		}
 		else if (event.equalsIgnoreCase("30289-08.htm"))
@@ -85,6 +83,7 @@ public class Q195_SevenSignSecretRitualOfThePriests extends Quest
 			if (cond == 3)
 			{
 				st.set("cond","4");
+				st.playSound("ItemSound.quest_middle");
 				player.stopAllEffects();
 			}
 		}
@@ -99,21 +98,6 @@ public class Q195_SevenSignSecretRitualOfThePriests extends Quest
 				st.playSound("ItemSound.quest_finish");
 			}
 		}
-		else if (event.equalsIgnoreCase("32580-02.htm"))
-		{
-			if (cond == 3)
-			{
-				st.giveItems(SHUNAIMAN_CONTRACT,1);
-				st.playSound("ItemSound.quest_itemget");
-			}
-		}
-		else if (event.equalsIgnoreCase("32580-04.htm"))
-		{
-			if (cond == 3)
-			{
-				player.teleToLocation(-12491,122331,-2984);
-			}
-		}
 		return event;
 	}
 
@@ -124,7 +108,7 @@ public class Q195_SevenSignSecretRitualOfThePriests extends Quest
 		final QuestState contractOfMammon = player.getQuestState("194_SevenSignContractOfMammon");
 		
 		if (st == null)
-			return getNoQuestMsg(player);
+			return "<html><body>目前沒有執行任務，或條件不符。</body></html>";
 		
 		final int cond = st.getInt("cond");
 		switch (npc.getNpcId())
@@ -142,7 +126,7 @@ public class Q195_SevenSignSecretRitualOfThePriests extends Quest
 						if (cond == 1)
 							return "31001-06.htm";
 					case State.COMPLETED:
-						return getAlreadyCompletedMsg(player);
+						return "<html><body>這是已經完成的任務。</body></html>";
 				}
 			case JOHN:
 				switch (st.getInt("cond"))
@@ -169,11 +153,8 @@ public class Q195_SevenSignSecretRitualOfThePriests extends Quest
 			case IASON_HEINE:
 				if (cond == 4)
 					return "30969-01.htm";
-			case SHELF:
-				if (cond == 3)
-					return "32580-01.htm";
 		}
-		return getNoQuestMsg(player);
+		return "<html><body>目前沒有執行任務，或條件不符。</body></html>";
 	}
 
 	public Q195_SevenSignSecretRitualOfThePriests(int questId, String name, String descr)
@@ -184,7 +165,6 @@ public class Q195_SevenSignSecretRitualOfThePriests extends Quest
 		addTalkId(CLAUDIA);
 		addTalkId(JOHN);
 		addTalkId(RAYMOND);
-		addTalkId(SHELF);
 		addTalkId(IASON_HEINE);
 	}
 	

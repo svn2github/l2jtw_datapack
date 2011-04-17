@@ -36,13 +36,14 @@ public class SanctumOftheLordsOfDawn extends Quest
 	private static final int INSTANCEID = 111; // this is the client number
 	
 	//Items
+	private static final int SHUNAIMAN_CONTRACT = 13823;
 	
 	//NPCs
 	private static final int LIGHTOFDAWN = 32575;  // 傳送師 黎明之光
 	private static final int PWDEVICE    = 32577;  // 暗號輸入裝置
 	private static final int DEVICE      = 32578;  // 身份確認裝置
 	private static final int BLACK       = 32579;  // 傳送師 黎明的黑暗
-	private static final int SHELF       = 32580;
+	private static final int SHELF       = 32580;  // 黎明的書櫃
 	private static final int PRIESTS     = 18828;  // 黎明的上位祭司
 	private static final int MGUARD      = 27348;  // 黎明的神諭處 警衛隊員
 	private static final int MPRIEST     = 27349;  // 黎明的神諭處 警衛隊員
@@ -188,7 +189,6 @@ public class SanctumOftheLordsOfDawn extends Quest
 		{
 			SetMovieMode(player, false);
 			player.teleToLocation(-78383, 205845, -7889);
-			//player.sendPacket(SystemMessage.getSystemMessage(SystemMessageId.SNEAK_INTO_DAWNS_DOCUMENT_STORAGE));
 		}
 		else if (event.equalsIgnoreCase("teleportPlayer"))
 		{
@@ -200,6 +200,58 @@ public class SanctumOftheLordsOfDawn extends Quest
 			{
 				player.teleToLocation(-77695, 207813, -7701);
 			}
+		}
+		else if (event.equalsIgnoreCase("password"))
+		{
+			InstanceWorld tmworld = InstanceManager.getInstance().getWorld(npc.getInstanceId());
+			if (tmworld instanceof HSWorld)
+			{
+				HSWorld world = (HSWorld) tmworld;
+				openDoor(THREE, world.instanceId);
+				return "32577-03.htm";
+			}
+		}
+		else if (event.equalsIgnoreCase("nopass"))
+		{
+			InstanceWorld tmworld = InstanceManager.getInstance().getWorld(npc.getInstanceId());
+			if (tmworld instanceof HSWorld)
+			{
+				player.teleToLocation(-78198, 205852, -7865);
+				return "32577-02.htm";
+			}
+		}
+		else if (event.equalsIgnoreCase("sc2"))
+		{
+			return "32580-02.htm";
+		}
+		else if (event.equalsIgnoreCase("sc"))
+		{
+			QuestState st = player.getQuestState(qn);
+			if (st == null)
+				st = newQuestState(player);
+			
+			if (st.getQuestItemsCount(SHUNAIMAN_CONTRACT) == 0)
+			{
+				st.giveItems(SHUNAIMAN_CONTRACT,1);
+				st.playSound("ItemSound.quest_itemget");
+				return "32580-03.htm";
+			}
+			else
+			{
+				return "";
+			}
+		}
+		else if (event.equalsIgnoreCase("tele"))
+		{
+			InstanceWorld world = InstanceManager.getInstance().getPlayerWorld(player);
+			world.allowed.remove(world.allowed.indexOf(player.getObjectId()));
+			teleCoord tele = new teleCoord();
+			tele.instanceId = 0;
+			tele.x = -12491;
+			tele.y = 122331;
+			tele.z = -2984;
+			exitInstance(player, tele);
+			return "32580-04.htm";
 		}
 		return "";
 	}
@@ -219,9 +271,6 @@ public class SanctumOftheLordsOfDawn extends Quest
 			}
 			teleto.instanceId = world.instanceId;
 			teleportplayer(player, teleto);
-			//player.sendPacket(SystemMessage.getSystemMessage(SystemMessageId.SNEAK_INTO_DAWNS_DOCUMENT_STORAGE));
-			//player.sendPacket(SystemMessage.getSystemMessage(SystemMessageId.MALE_GUARDS_CAN_DETECT_FEMALES_DONT));
-			//player.sendPacket(SystemMessage.getSystemMessage(SystemMessageId.FEMALE_GUARDS_NOTICE_BETTER_THANT_MALE));
 			return instanceId;
 		}
 		//New instance
@@ -327,11 +376,11 @@ public class SanctumOftheLordsOfDawn extends Quest
 	@Override
 	public String onTalk(L2Npc npc, L2PcInstance player)
 	{
-		//String htmltext = "";
 		int npcId = npc.getNpcId();
 		QuestState st = player.getQuestState(qn);
 		if (st == null)
 			st = newQuestState(player);
+		
 		if (npcId == LIGHTOFDAWN)
 		{
 			if (!player.isTransformed())
@@ -358,19 +407,18 @@ public class SanctumOftheLordsOfDawn extends Quest
 				{
 					openDoor(ONE, world.instanceId);
 					startQuestTimer("Part5",60000,null,null);
-					ExShowScreenMessage message1 = new ExShowScreenMessage(1,0,2,15,0,15,15,false,10000,1,"使用警衛隊員的隱身技能後，潛入黎明的文件儲藏室內！");  //(黃色字體)
+					ExShowScreenMessage message1 = new ExShowScreenMessage(1,0,2,15,0,15,15,false,10000,1,"使用警衛隊員的隱身技能後，潛入黎明的文件儲藏室內！");  // 官服是(黃色字體)
 					player.sendPacket(message1);
-					CreatureSay cs = new CreatureSay(0,20,"","使用警衛隊員的隱身技能後，潛入到黎明的文件儲藏室內！男性警衛隊員可以察覺隱身，而女性警衛隊員無法察覺隱身。");
-					CreatureSay cs1 = new CreatureSay(0,20,"","女性警衛隊員比男性警衛隊員可以在更遠的地方就能察覺到變身術，所以要非常小心。");
-					player.sendPacket(cs);
-					player.sendPacket(cs1);
-					world.doorst++;
 					npc.deleteMe();
+					world.doorst++;
+					player.sendMessage("使用警衛隊員的隱身技能後，潛入到黎明的文件儲藏室內！男性警衛隊員可以察覺隱身，而女性警衛隊員無法察覺隱身。");  // 官服是(黃色字體)
+					player.sendMessage("女性警衛隊員比男性警衛隊員可以在更遠的地方就能察覺到變身術，所以要非常小心。");  // 官服是(黃色字體)
 					return "<html><body>身份確認裝置：<br>您 的 身 分 已 確 認 完 畢，<br>門 即 將 開 啟。</body></html>";
 				}
 				else if (world.doorst == 1)
 				{
 					openDoor(TWO, world.instanceId);
+					player.sendMessage("在前方的門，就是黎明的文件儲藏室的入口！接近暗號輸入裝置！");  // 官服是(黃色字體)
 					world.doorst++;
 					npc.deleteMe();
 					for (int objId : world.allowed)
@@ -382,19 +430,15 @@ public class SanctumOftheLordsOfDawn extends Quest
 						startQuestTimer("Part4", 30000, null, player);
 					}
 					startQuestTimer("Part3", 30000, world.npc1f, null);
+					return "<html><body>身份確認裝置：<br>您 的 身 分 已 確 認 完 畢，<br>門 即 將 開 啟。</body></html>";
 				}
-				return "32578-03.htm";
+				return "";
 			}
 		}
 		
 		else if (npcId == PWDEVICE)
 		{
-			InstanceWorld tmworld = InstanceManager.getInstance().getWorld(npc.getInstanceId());
-			if (tmworld instanceof HSWorld)
-			{
-				HSWorld world = (HSWorld) tmworld;
-				openDoor(THREE, world.instanceId);
-			}
+			return "32577-01.htm";
 		}
 		else if (npcId == BLACK)
 		{
@@ -411,9 +455,7 @@ public class SanctumOftheLordsOfDawn extends Quest
 		
 		else if (npcId == SHELF)
 		{
-			InstanceWorld world = InstanceManager.getInstance().getWorld(npc.getInstanceId());
-			InstanceManager.getInstance().getInstance(world.instanceId).setDuration(300000);
-			player.teleToLocation(-75925, 213399, -7128);
+			return "32580-01.htm";
 		}
 		
 		return "";
