@@ -2418,7 +2418,7 @@ UPDATE `raidboss_spawnlist` SET `boss_id` = 25701 WHERE `boss_id` = 29096;
 UPDATE `minions` SET `boss_id` = 25701 WHERE `boss_id` = 29096;
 UPDATE `npcaidata` SET `clan` = 'solina_clan', `clan_range` = 1000, `ai_type` = 'balanced' WHERE `npc_id` = 25701;
 
-INSERT INTO `droplist` VALUES
+REPLACE INTO `droplist` VALUES
 (25701,14109,1,1,0,4472), -- Sealed Vesper Gauntlet
 (25701,14110,1,1,0,4472), -- Sealed Vesper Boots
 (25701,14113,1,1,0,4472), -- Sealed Vesper Leather Gloves
@@ -2506,7 +2506,7 @@ DELETE  FROM droplist where  (mobId='18908');
 -- ADD DATA *Sel Mahum
 --
 -- NPC
-INSERT INTO npc VALUES 
+REPLACE INTO npc VALUES 
 ('22775', '22775', 'Sel Mahum Drill Sergeant', '0', '', '0', 'LineageMonster5.xel_mahum_sorcerer', '27.00', '31.50', '84', 'male', 'L2Monster', '40', '3862.00000', '1494.00000', '8.50000', '3.00000', '40', '43', '30', '21', '20', '20', '25111', '2528', '1962.00000', '619.00000', '1353.00000', '412.00000', '253', '4', '0', '333', '0', '0', '0', '60', '150', '1', '1', '0', '0'),
 ('22776', '22776', 'Sel Mahum Training Officer', '0', '', '0', 'LineageMonster5.xel_mahum_high_sorcerer', '29.00', '33.50', '84', 'male', 'L2Monster', '40', '3862.00000', '1494.00000', '8.50000', '3.00000', '40', '43', '30', '21', '20', '20', '37863', '3820', '1962.00000', '619.00000', '1353.00000', '412.00000', '253', '4', '0', '333', '0', '0', '0', '49', '150', '1', '1', '0', '0'),
 ('22777', '22777', 'Sel Mahum Drill Sergeant', '0', '', '0', 'LineageMonster5.xel_mahum_warrior', '29.00', '37.00', '84', 'male', 'L2Monster', '40', '3862.00000', '1494.00000', '8.50000', '3.00000', '40', '43', '30', '21', '20', '20', '25111', '2528', '1962.00000', '619.00000', '1353.00000', '412.00000', '253', '4', '0', '333', '0', '0', '0', '60', '180', '1', '1', '0', '0'),
@@ -2524,7 +2524,7 @@ INSERT INTO npc VALUES
 ('18908', '18908', 'Sel Mahum Chef', '0', '', '0', 'LineageMonster5.ol_mahum_cooker', '20.00', '37.00', '83', 'male', 'L2Monster', '40', '3862.00000', '1494.00000', '8.50000', '3.00000', '40', '43', '30', '21', '20', '20', '17548', '1759', '1874.00000', '609.00000', '1292.00000', '405.00000', '253', '4', '0', '333', '0', '0', '0', '40', '120', '1', '1', '0', '0');
 --
 -- AI
-INSERT INTO npcaidata VALUES 
+REPLACE INTO npcaidata VALUES 
 (22775,15,NULL,0,NULL,NULL,NULL,NULL,0,0,0,0,NULL,'xel_private_clan',300,NULL,NULL,NULL,'fighter'),
 (22776,15,NULL,0,NULL,NULL,NULL,NULL,0,0,0,0,NULL,'xel_private_clan',300,NULL,NULL,NULL,'fighter'),
 (22777,15,NULL,1,NULL,NULL,NULL,NULL,0,0,0,0,NULL,'xel_private_clan',300,NULL,NULL,NULL,'fighter'),
@@ -2541,7 +2541,7 @@ INSERT INTO npcaidata VALUES
 (22788,15,NULL,1,NULL,NULL,NULL,NULL,0,0,0,0,NULL,'xel_private_clan',400,NULL,NULL,NULL,'fighter');
 -- Skills
 -- for Sel Mahum's
-INSERT INTO `npcskills` VALUES 
+REPLACE INTO `npcskills` VALUES 
 -- Sel Mahum Drill Sergeant
 (22775,4071,5),
 (22775,4410,5),
@@ -2551,7 +2551,7 @@ INSERT INTO `npcskills` VALUES
 (22775,4458,1),
 (22775,5462,1),
 (22775,5620,9);
-INSERT INTO `npcskills` VALUES 
+REPLACE INTO `npcskills` VALUES 
 -- Sel Mahum Training Officer
 (22776,4071,5),
 (22776,4410,8),
@@ -2561,7 +2561,7 @@ INSERT INTO `npcskills` VALUES
 (22776,4458,1),
 (22776,5462,1),
 (22776,5620,9);
-INSERT INTO `npcskills` VALUES 
+REPLACE INTO `npcskills` VALUES 
 -- Sel Mahum Drill Sergeant 
 (22777,4071,5),
 (22777,4410,8),
@@ -2571,7 +2571,7 @@ INSERT INTO `npcskills` VALUES
 (22777,4458,1),
 (22777,5462,1),
 (22777,5620,9);
-INSERT INTO `npcskills` VALUES 
+REPLACE INTO `npcskills` VALUES 
 -- Sel Mahum Drill Sergeant 
 (22778,4071,5),
 (22778,4410,8),
@@ -2581,7 +2581,7 @@ INSERT INTO `npcskills` VALUES
 (22778,4458,1),
 (22778,5462,1),
 (22778,5620,9);
-INSERT INTO `npcskills` VALUES 
+REPLACE INTO `npcskills` VALUES 
 -- Sel Mahum Escort Guard
 (22779,4071,5),
 (22779,4410,8),
@@ -2591,7 +2591,7 @@ INSERT INTO `npcskills` VALUES
 (22779,4458,1),
 (22779,5462,1),
 (22779,5620,9);
-INSERT INTO `npcskills` VALUES 
+REPLACE INTO `npcskills` VALUES 
 -- Sel Mahum Recruit
 (22780,4071,5),
 (22780,4410,7),
@@ -2601,7 +2601,7 @@ INSERT INTO `npcskills` VALUES
 (22780,4458,1),
 (22780,5462,1),
 (22780,5620,9);
-INSERT INTO `npcskills` VALUES 
+REPLACE INTO `npcskills` VALUES 
 -- Sel Mahum Soldier
 (22781,4071,5),
 (22781,4410,8),
@@ -2610,7 +2610,7 @@ INSERT INTO `npcskills` VALUES
 (22781,4458,1),
 (22781,5462,1),
 (22781,5620,9);
-INSERT INTO `npcskills` VALUES 
+REPLACE INTO `npcskills` VALUES 
 -- Sel Mahum Recruit
 (22782,4071,5),
 (22782,4410,7),
@@ -2620,7 +2620,7 @@ INSERT INTO `npcskills` VALUES
 (22782,4458,1),
 (22782,5462,1),
 (22782,5620,9);
-INSERT INTO `npcskills` VALUES 
+REPLACE INTO `npcskills` VALUES 
 -- Sel Mahum Soldier 
 (22783,4071,5),
 (22783,4410,6),
@@ -2630,7 +2630,7 @@ INSERT INTO `npcskills` VALUES
 (22783,4458,1),
 (22783,5462,1),
 (22783,5620,9);
-INSERT INTO `npcskills` VALUES 
+REPLACE INTO `npcskills` VALUES 
 -- Sel Mahum Recruit
 (22784,4071,5),
 (22784,4410,7),
@@ -2640,7 +2640,7 @@ INSERT INTO `npcskills` VALUES
 (22784,4458,1),
 (22784,5462,1),
 (22784,5620,9);
-INSERT INTO `npcskills` VALUES 
+REPLACE INTO `npcskills` VALUES 
 -- Sel Mahum Soldier 
 (22785,4071,5),
 (22785,4410,6),
@@ -2649,7 +2649,7 @@ INSERT INTO `npcskills` VALUES
 (22785,4458,1),
 (22785,5462,1),
 (22785,5620,9);
-INSERT INTO `npcskills` VALUES 
+REPLACE INTO `npcskills` VALUES 
 -- Sel Mahum Squad Leader
 (22786,4071,5),
 (22786,4410,7),
@@ -2658,7 +2658,7 @@ INSERT INTO `npcskills` VALUES
 (22786,4458,1),
 (22786,5462,1),
 (22786,5620,9);
-INSERT INTO `npcskills` VALUES
+REPLACE INTO `npcskills` VALUES
 -- Sel Mahum Squad Leader
 (22787,4071,5),
 (22787,4410,7),
@@ -2667,7 +2667,7 @@ INSERT INTO `npcskills` VALUES
 (22787,4458,1),
 (22787,5462,1),
 (22787,5620,9);
-INSERT INTO `npcskills` VALUES
+REPLACE INTO `npcskills` VALUES
 -- Sel Mahum Squad Leader
 (22788,4071,5),
 (22788,4410,7),
@@ -2676,7 +2676,7 @@ INSERT INTO `npcskills` VALUES
 (22788,4458,1),
 (22788,5462,1),
 (22788,5620,9);
-INSERT INTO `npcskills` VALUES
+REPLACE INTO `npcskills` VALUES
 -- Sel Mahum Squad Leader
 (18908,4071,5),
 (18908,4410,6),
@@ -2688,7 +2688,7 @@ INSERT INTO `npcskills` VALUES
 -- Drop-list
 -- l2kc.ru
 -- Sel Mahum Drill Sergeant
-INSERT INTO `droplist` VALUES 
+REPLACE INTO `droplist` VALUES 
 (22775,57,1029,2103,0,700000), -- adena
 (22775,1895,1,1,2,59679), -- Metallic Fiber
 (22775,4040,1,1,2,7478),-- Mold Lubricant
@@ -2711,7 +2711,7 @@ INSERT INTO `droplist` VALUES
 (22775,15778,1,1,-1,756);-- Recipe - Sealed Moirai Cuirass (60%)
 --
 -- Sel Mahum Training Officer
-INSERT INTO `droplist` VALUES 
+REPLACE INTO `droplist` VALUES 
 (22776,57,1542,3152,0,700000), -- adena
 (22776,1895,1,1,2,81300), -- Metallic Fiber
 (22776,4040,1,1,2,5691),-- Mold Lubricant
@@ -2735,7 +2735,7 @@ INSERT INTO `droplist` VALUES
 (22776,15779,1,1,-1,151);-- Recipe - Sealed Moirai Houberk (60%)
 --
 -- Sel Mahum Drill Sergeant 
-INSERT INTO `droplist` VALUES 
+REPLACE INTO `droplist` VALUES 
 (22777,57,1029,2103,0,700000), -- adena
 (22777,1895,1,1,2,59679), -- Metallic Fiber
 (22777,4040,1,1,2,4178),-- Mold Lubricant
@@ -2758,7 +2758,7 @@ INSERT INTO `droplist` VALUES
 (22777,15780,1,1,-1,1007);-- Recipe - Sealed Moirai Tunic (60%)
 --
 -- Sel Mahum Drill Sergeant 
-INSERT INTO `droplist` VALUES 
+REPLACE INTO `droplist` VALUES 
 (22778,57,1029,2103,0,700000), -- adena
 (22778,1895,1,1,2,54254), -- Metallic Fiber
 (22778,15772,1,1,1,4802),-- Sealed Moirai Ring Gem
@@ -2784,7 +2784,7 @@ INSERT INTO `droplist` VALUES
 (22778,15813,1,1,-1,2579),-- Recipe - Sealed Moirai Earring (70%)
 (22778,15814,1,1,-1,1934);-- Recipe - Sealed Moirai Necklace (70%)
 -- Sel Mahum Escort Guard
-INSERT INTO `droplist` VALUES 
+REPLACE INTO `droplist` VALUES 
 (22779,57,1008,2061,0,700000), -- adena
 (22779,1895,1,1,2,41765), -- Metallic Fiber
 (22779,4040,1,1,2,2924),-- Mold Lubricant
@@ -2826,7 +2826,7 @@ INSERT INTO `droplist` VALUES
 (22779,15789,1,1,-1,1234);-- Recipe - Sealed Moirai Shoes (60%)
 --
 -- Sel Mahum Recruit
-INSERT INTO `droplist` VALUES 
+REPLACE INTO `droplist` VALUES 
 (22780,57,346,699,0,700000), -- adena
 (22780,1894,1,1,2,2038),-- Crafted Leather
 (22780,4039,1,1,2,1936),-- Mold Glue
@@ -2863,7 +2863,7 @@ INSERT INTO `droplist` VALUES
 (22780,960,1,1,-1,306);-- Scroll: Enchant Armor (S)
 --
 -- Sel Mahum Soldier
-INSERT INTO `droplist` VALUES 
+REPLACE INTO `droplist` VALUES 
 (22781,57,457,933,0,700000), -- adena
 (22781,1879,1,1,2,19308),-- Cokes
 (22781,1885,1,1,2,9654),-- High Grade Suede
@@ -2888,7 +2888,7 @@ INSERT INTO `droplist` VALUES
 (22781,10373,1,1,-1,52);-- Recipe - Icarus Sawsword (60%)
 --
 -- Sel Mahum Recruit
-INSERT INTO `droplist` VALUES 
+REPLACE INTO `droplist` VALUES 
 (22782,57,346,699,0,700000), -- adena
 (22782,1894,1,1,2,3494),-- Crafted Leather
 (22782,4044,1,1,2,3319),-- Thons
@@ -2908,7 +2908,7 @@ INSERT INTO `droplist` VALUES
 (22782,10380,1,1,-1,55);-- Recipe - Icarus Hall (60%)
 --
 -- Sel Mahum Soldier 
-INSERT INTO `droplist` VALUES 
+REPLACE INTO `droplist` VALUES 
 (22783,57,333,680,0,700000), -- adena
 (22783,1879,1,1,2,14077),-- Cokes
 (22783,1885,1,1,2,7039),-- High Grade Suede
@@ -2926,7 +2926,7 @@ INSERT INTO `droplist` VALUES
 (22783,959,1,1,-1,41);-- Scroll: Enchant Weapon (S)
 --
 -- Sel Mahum Recruit
-INSERT INTO `droplist` VALUES 
+REPLACE INTO `droplist` VALUES 
 (22784,57,346,699,0,700000), -- adena
 (22784,1894,1,1,2,3494),-- Crafted Leather
 (22784,4044,1,1,2,3319),-- Thons
@@ -2943,7 +2943,7 @@ INSERT INTO `droplist` VALUES
 (22784,10381,1,1,-1,68);-- Recipe - Icarus Spitter (60%)
 --
 -- Sel Mahum Soldier 
-INSERT INTO `droplist` VALUES 
+REPLACE INTO `droplist` VALUES 
 (22785,57,160,326,0,700000), -- adena
 (22785,1894,1,1,2,1625),-- Crafted Leather
 (22785,4044,1,1,2,1544),-- Thons
@@ -2959,7 +2959,7 @@ INSERT INTO `droplist` VALUES
 (22785,10374,1,1,-1,42);-- Recipe - Icarus Disperser (60%)
 --
 -- Sel Mahum Squad Leader
-INSERT INTO `droplist` VALUES 
+REPLACE INTO `droplist` VALUES 
 (22786,57,826,1689,0,700000), -- adena
 (22786,1895,1,1,2,68463),-- Metallic Fiber
 (22786,4040,1,1,2,4792),-- Mold Lubricant
@@ -2975,7 +2975,7 @@ INSERT INTO `droplist` VALUES
 (22786,10377,1,1,-1,219);-- Recipe - Icarus Trident (60%)
 --
 -- Sel Mahum Squad Leader
-INSERT INTO `droplist` VALUES
+REPLACE INTO `droplist` VALUES
 (22787,57,826,1689,0,700000), -- adena
 (22787,1895,1,1,2,36864), -- Metallic Fiber
 (22787,4040,1,1,2,2581),-- Mold Lubricant
@@ -3017,7 +3017,7 @@ INSERT INTO `droplist` VALUES
 (22787,960,1,1,-1,314);-- Scroll: Enchant Armor (S)
 --
 -- Sel Mahum Squad Leader
-INSERT INTO `droplist` VALUES
+REPLACE INTO `droplist` VALUES
 (22788,57,826,1689,0,700000), -- adena
 (22788,1895,1,1,2,39937), -- Metallic Fiber
 (22788,4040,1,1,2,2796),-- Mold Lubricant
@@ -3054,7 +3054,7 @@ INSERT INTO `droplist` VALUES
 (22788,15777,1,1,-1,735);-- Recipe - Sealed Moirai Circlet (60%)
 --
 -- Sel Mahum Squad Leader
-INSERT INTO `droplist` VALUES
+REPLACE INTO `droplist` VALUES
 (18908,15492,1,2,2,250000); -- Sel Mahum Salmon Porridge 
 --  SPAWN
 --
@@ -3071,7 +3071,7 @@ DELETE  FROM spawnlist where  (npc_templateid=20949 AND locx<=97580 AND locx>=76
 DELETE  FROM spawnlist where  (npc_templateid=20953 AND locx<=97580 AND locx>=76270 AND locy<=73220 AND locy>=54290);
 --
 -- Spawn Sel Mahum
-INSERT INTO spawnlist VALUES 
+REPLACE INTO spawnlist VALUES 
 ('oren22_2219_p14', '1', '22775', '88347', '56413', '-3495','0','0','0','90','0','0'),
 ('oren22_2219_p14', '1', '22782', '88522', '56208', '-3526','0','0','0','90','0','0'),
 ('oren22_2219_p14', '1', '22782', '88418', '56206', '-3526','0','0','0','90','0','0'),
