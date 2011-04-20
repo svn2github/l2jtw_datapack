@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<list enabled="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="zones.xsd">
+	<!-- Custom Script Zones -->
+	<zone name="Emerald Square 1st Secret Room" id="20105" type="ScriptZone" shape="Cuboid" minZ="-11900" maxZ="-11800">
+		<node X="144175" Y="142396" />
+		<node X="144251" Y="142588" />
+	</zone>
+	<zone name="Emerald Square 2nd Secret Room" id="20106" type="ScriptZone" shape="Cuboid" minZ="-12250" maxZ="-12150">
+		<node X="147400" Y="143631" />
+		<node X="147484" Y="143828" />
+	</zone>
+	<zone name="Emerald Square 3rd Secret Room" id="20107" type="ScriptZone" shape="Cuboid" minZ="-12150" maxZ="-12000">
+		<node X="149396" Y="143473" />
+		<node X="149559" Y="143584" />
+	</zone>
+	<zone name="Pailaka (Forgotten Temple)" id="20108" type="ScriptZone" shape="NPoly" minZ="-5050" maxZ="-3900">
+		<node X="-62840" Y="178808" />
+		<node X="-62840" Y="184568" />
+		<node X="-60792" Y="184568" />
+		<node X="-60792" Y="188792" />
+		<node X="-57976" Y="191224" />
+		<node X="-53000" Y="190840" />
+		<node X="-52360" Y="190200" />
+		<node X="-52360" Y="178808" />
+	</zone>
+	<zone name="Pailaka (Devil's Isle)" id="20109" type="ScriptZone" shape="NPoly" minZ="-3770" maxZ="-3700">
+		<node X="76650" Y="-221310" />
+		<node X="76630" Y="-221880" />
+		<node X="75490" Y="-221480" />
+		<node X="75630" Y="-221140" />
+	</zone>
+	<zone name="Nornil's Garden Warrior's Gate" id="20110" type="ScriptZone" shape="Cuboid" minZ="-12650" maxZ="-12600">
+		<node X="-109864" Y="76184" />
+		<node X="-109544" Y="76392" />
+	</zone>
+	<zone name="Nornil's Garden Midway Gate" id="20111" type="ScriptZone" shape="Cuboid" minZ="-12930" maxZ="-12900">
+		<node X="-107560" Y="80488" />
+		<node X="-107240" Y="80808" />
+	</zone>
+	<zone name="Nornil's Garden Gate" id="20112" type="ScriptZone" shape="Cuboid" minZ="-12990" maxZ="-12960">
+		<node X="-111016" Y="83944" />
+		<node X="-110696" Y="84264" />
+	</zone>
+	<zone name="Pagans mark" id="30100" type="ScriptZone" shape="NPoly" minZ="-10735" maxZ="-10720">
+		<node X="-16100" Y="-36620" />
+		<node X="-16600" Y="-36620" />
+		<node X="-16600" Y="-36925" />
+		<node X="-16100" Y="-36925" />
+	</zone>
+	<zone name="Hellbound" id="40101" type="ScriptZone" shape="NPoly" minZ="-30000" maxZ="30000">
+		<node X="-32768" Y="229376" />
+		<node X="32768" Y="229376" />
+		<node X="32768" Y="262143" />
+		<node X="-32768" Y="262143" />
+	</zone>
+	<zone name="Seed of Infinity AirShips dock" id="50600" type="ScriptZone" shape="Cylinder" minZ="-1000" maxZ="6200" rad="2900">
+		<node X="-212855" Y="209819" />
+	</zone>
+	<zone name="Seed of Destruction AirShips dock" id="50601" type="ScriptZone" shape="Cylinder" minZ="-1000" maxZ="6200" rad="4300">
+		<node X="-249460" Y="249282" />
+	</zone>
+	<zone name="Keucereus Base North" id="50602" type="ScriptZone" shape="NPoly" minZ="-1000" maxZ="6200">
+		<node X="-193315" Y="240184" />
+		<node X="-188053" Y="235278" />
+		<node X="-179811" Y="238353" />
+		<node X="-178407" Y="242454" />
+		<node X="-178685" Y="244665" />
+	</zone>
+	<zone name="Keucereus Base South" id="50603" type="ScriptZone" shape="NPoly" minZ="-1000" maxZ="6200">
+		<node X="-178685" Y="244664" />
+		<node X="-180120" Y="246779" />
+		<node X="-185598" Y="249572" />
+		<node X="-193009" Y="245647" />
+		<node X="-193315" Y="240185" />
+	</zone>
+	<zone name="Seed of Annihilation 1" id="60002" type="ScriptZone" shape="Cylinder" minZ="-10600" maxZ="-10500" rad="260">
+		<node X="-182488" Y="186655" />
+	</zone>
+	<zone name="Seed of Annihilation 2" id="60003" type="ScriptZone" shape="Cylinder" minZ="-11050" maxZ="-10950" rad="260">
+		<node X="-212755" Y="184380" />
+	</zone>
+	<zone name="Seed of Annihilation 3" id="60004" type="ScriptZone" shape="Cylinder" minZ="-10800" maxZ="-10700" rad="360">
+		<node X="-178458" Y="188167" />
+	</zone>
+	<zone name="Seed of Annihilation 4" id="60005" type="ScriptZone" shape="Cylinder" minZ="-15250" maxZ="-15100" rad="360">
+		<node X="-179430" Y="183844" />
+	</zone>
+	<zone name="Seed of Destruction" id="60009" type="ScriptZone" shape="Cuboid" minZ="-14065" maxZ="-6500">
+		<node X="-237600" Y="221168" />
+		<node X="-253900" Y="204849" />
+	</zone>
+	<!-- update by pmq -->
+	<!-- Pailaka Injured Dragon. No exit zones for mob walls - Synerge -->
+	<zone name="Pailaka (Varka Silenos Barracks) 1" id="200001" type="ScriptZone" shape="NPoly" minZ="-3500" maxZ="-2000">
+		<node X="117769" Y="-46202" />
+		<node X="117828" Y="-46590" />
+		<node X="121923" Y="-46364" />
+		<node X="121763" Y="-44674" />
+	</zone>
+	<zone name="Pailaka (Varka Silenos Barracks) 2" id="200002" type="ScriptZone" shape="NPoly" minZ="-3500" maxZ="-2000">
+		<node X="115970" Y="-45694" />
+		<node X="115620" Y="-46220" />
+		<node X="115593" Y="-46683" />
+		<node X="116477" Y="-47716" />
+		<node X="115839" Y="-46610" />
+		<node X="115819" Y="-46203" />
+	</zone>
+	<zone name="Pailaka (Varka Silenos Barracks) 3" id="200003" type="ScriptZone" shape="NPoly" minZ="-3500" maxZ="-2000">
+		<node X="116346" Y="-49927" />
+		<node X="115202" Y="-50560" />
+		<node X="115330" Y="-50608" />
+		<node X="116347" Y="-50083" />
+	</zone>
+	<zone name="Pailaka (Varka Silenos Barracks) 4" id="200004" type="ScriptZone" shape="NPoly" minZ="-3500" maxZ="-2000">
+		<node X="117275" Y="-51185" />
+		<node X="116018" Y="-51776" />
+		<node X="116278" Y="-52213" />
+		<node X="117526" Y="-51052" />
+	</zone>
+	<zone name="Pailaka (Varka Silenos Barracks) 5" id="200005" type="ScriptZone" shape="NPoly" minZ="-3500" maxZ="-2000">
+		<node X="111137" Y="-43445" />
+		<node X="111187" Y="-44394" />
+		<node X="111392" Y="-44275" />
+		<node X="111355" Y="-43370" />
+	</zone>
+	<zone name="Pailaka (Varka Silenos Barracks) 6" id="200006" type="ScriptZone" shape="NPoly" minZ="-3000" maxZ="-1500">
+		<node X="108768" Y="-45613" />
+		<node X="109882" Y="-47555" />
+		<node X="110229" Y="-47049" />
+		<node X="108917" Y="-45580" />
+	</zone>
+	<zone name="Pailaka (Varka Silenos Barracks) 7" id="200007" type="ScriptZone" shape="NPoly" minZ="-3500" maxZ="-2000">
+		<node X="115979" Y="-55112" />
+		<node X="115753" Y="-56598" />
+		<node X="116242" Y="-56532" />
+		<node X="116211" Y="-55042" />
+	</zone>
+	<zone name="Pailaka (Varka Silenos Barracks) 8" id="200008" type="ScriptZone" shape="NPoly" minZ="-3500" maxZ="-2000">
+		<node X="108467" Y="-40835" />
+		<node X="108533" Y="-41590" />
+		<node X="108666" Y="-41584" />
+		<node X="108623" Y="-40839" />
+	</zone>
+	<zone name="Pailaka (Varka Silenos Barracks) 9" id="200009" type="ScriptZone" shape="NPoly" minZ="-2500" maxZ="-1500">
+		<node X="110456" Y="-39399" />
+		<node X="109835" Y="-39410" />
+		<node X="109830" Y="-39550" />
+		<node X="110457" Y="-39540" />
+	</zone>
+</list>
