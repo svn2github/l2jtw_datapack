@@ -72,10 +72,10 @@ public class DrChaos extends Quest
 			else
 				//print "Dr Chaos AI: problem finding Strange Machine (npcid = "+STRANGE_MACHINE+"). Error: not spawned!"
 				startQuestTimer("2",2000,npc,player);
-				startQuestTimer("3",10000,npc,player);
+			startQuestTimer("3",10000,npc,player);
 		}
 		else if (event.equalsIgnoreCase("2"))
-			npc.broadcastPacket(new SocialAction(npc.getObjectId(),3));
+			npc.broadcastPacket(new SocialAction(npc,3));
 		else if (event.equalsIgnoreCase("3"))
 		{
 			npc.broadcastPacket(new SpecialCamera(npc.getObjectId(),1,-150,10,3000,20000,0,0,1,0));

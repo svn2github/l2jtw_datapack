@@ -693,7 +693,7 @@ public class Beleth extends L2AttackableAIScript
 	{
 		try
 		{
-			_chamberOfBeleth.broadcastPacket(new SocialAction(npc.getObjectId(), socialId));
+			_chamberOfBeleth.broadcastPacket(new SocialAction(npc, socialId));
 		}
 		catch (Exception e)
 		{

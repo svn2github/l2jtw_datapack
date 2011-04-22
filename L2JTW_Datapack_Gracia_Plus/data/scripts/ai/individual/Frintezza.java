@@ -550,7 +550,7 @@ public class Frintezza extends L2AttackableAIScript
 		}
 		else if (event.equalsIgnoreCase("camera_7"))
 		{
-			_Zone.broadcastPacket(new SocialAction(frintezza.getObjectId(),2));
+			_Zone.broadcastPacket(new SocialAction(frintezza,2));
 			startQuestTimer("camera_8", 7000, frintezza, null);
 		}
 		else if (event.equalsIgnoreCase("camera_8"))
@@ -561,14 +561,14 @@ public class Frintezza extends L2AttackableAIScript
 		}
 		else if (event.equalsIgnoreCase("camera_9"))
 		{
-			_Zone.broadcastPacket(new SocialAction(demon2.getObjectId(),1));
-			_Zone.broadcastPacket(new SocialAction(demon3.getObjectId(),1));
+			_Zone.broadcastPacket(new SocialAction(demon2,1));
+			_Zone.broadcastPacket(new SocialAction(demon3,1));
 			startQuestTimer("camera_9b", 400, frintezza, null);
 		}
 		else if (event.equalsIgnoreCase("camera_9b"))
 		{
-			_Zone.broadcastPacket(new SocialAction(demon1.getObjectId(),1));
-			_Zone.broadcastPacket(new SocialAction(demon4.getObjectId(),1));
+			_Zone.broadcastPacket(new SocialAction(demon1,1));
+			_Zone.broadcastPacket(new SocialAction(demon4,1));
 			
 			for (L2Character pc : _Zone.getCharactersInside().values())
 			{
@@ -604,7 +604,7 @@ public class Frintezza extends L2AttackableAIScript
 		else if (event.equalsIgnoreCase("camera_11"))
 		{
 			_Zone.broadcastPacket(new SpecialCamera(frintezza.getObjectId(),240, 90, 25, 5500, 10000, 0, 0, 1, 0));
-			_Zone.broadcastPacket(new SocialAction(frintezza.getObjectId(),3));
+			_Zone.broadcastPacket(new SocialAction(frintezza,3));
 			_portraitDummy1.deleteMe();
 			_portraitDummy3.deleteMe();
 			_portraitDummy1 = null;
@@ -786,7 +786,7 @@ public class Frintezza extends L2AttackableAIScript
 		}
 		else if (event.equalsIgnoreCase("morph_02"))
 		{
-			_Zone.broadcastPacket(new SocialAction(weakScarlet.getObjectId(),1));
+			_Zone.broadcastPacket(new SocialAction(weakScarlet,1));
 			weakScarlet.setRHandId(7903);
 			startQuestTimer("morph_03", 4000, weakScarlet, null);
 		}
@@ -796,7 +796,7 @@ public class Frintezza extends L2AttackableAIScript
 		}
 		else if (event.equalsIgnoreCase("morph_04"))
 		{
-			_Zone.broadcastPacket(new SocialAction(weakScarlet.getObjectId(),4));
+			_Zone.broadcastPacket(new SocialAction(weakScarlet,4));
 			L2Skill skill = SkillTable.getInstance().getInfo(5017, 1);
 			if (skill != null)
 				skill.getEffects(weakScarlet, weakScarlet);
@@ -809,7 +809,7 @@ public class Frintezza extends L2AttackableAIScript
 		}
 		else if (event.equalsIgnoreCase("morph_05a"))
 		{
-			_Zone.broadcastPacket(new SocialAction(frintezza.getObjectId(),4));
+			_Zone.broadcastPacket(new SocialAction(frintezza,4));
 		}
 		else if (event.equalsIgnoreCase("morph_05"))
 		{
@@ -892,7 +892,7 @@ public class Frintezza extends L2AttackableAIScript
 		}
 		else if (event.equalsIgnoreCase("morph_15"))
 		{
-			_Zone.broadcastPacket(new SocialAction(strongScarlet.getObjectId(),2));
+			_Zone.broadcastPacket(new SocialAction(strongScarlet,2));
 			L2Skill skill = SkillTable.getInstance().getInfo(5017, 1);
 			if (skill != null)
 				skill.getEffects(strongScarlet, strongScarlet);
@@ -1161,7 +1161,7 @@ public class Frintezza extends L2AttackableAIScript
 		}
 		else if (event.equalsIgnoreCase("action"))
 		{
-			_Zone.broadcastPacket(new SocialAction(npc.getObjectId(),1));
+			_Zone.broadcastPacket(new SocialAction(npc,1));
 		}
 		else if (event.equalsIgnoreCase("bomber"))
 		{
@@ -1535,6 +1535,7 @@ public class Frintezza extends L2AttackableAIScript
 		          ((L2MonsterInstance)npc).dropItem(killer, 8556, 1); // Dewdrop of Destruction
 			}
 		}
+		
 		return super.onKill(npc,killer,isPet);
 	}
 	
