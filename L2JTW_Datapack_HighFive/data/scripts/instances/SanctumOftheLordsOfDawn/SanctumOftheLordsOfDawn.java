@@ -385,7 +385,7 @@ public class SanctumOftheLordsOfDawn extends Quest
 		{
 			if (!player.isTransformed())
 			{
-				return "<html><body>傳送師 黎明之光：<br>好像從發著藍色光芒的球體中，聽到人的聲音。<br>「...您 不 是 得 到 黎 明 允 許 的 人。此 地 是 得 到 黎 明 允 許 者...<br>也 就 是，僅 限 <font color=\"LEVEL\">擁 有 黎 明 身 分 證 的 黎 明 警 衛 隊 員</font> 進 出 的 地 方...」</body></html>";
+				return "32575-01.htm";
 			}
 			else if (player.getTransformation().getId() != 6204)
 			{
@@ -394,7 +394,7 @@ public class SanctumOftheLordsOfDawn extends Quest
 				tele.y = 213409;
 				tele.z = -7120;
 				enterInstance(player, "SanctumoftheLordsofDawn.xml", tele);
-				return "<html><body>傳送師 黎明之光：<br>好像從發著藍色光芒的球體中，聽到人的聲音。<br>「...您 是 得 到 黎 明 允 許 的 人。即 將 會 移 動 到 內 部...」</body></html>";
+				return "32575-02.htm";
 			}
 		}
 		else if (npcId == DEVICE)
@@ -406,14 +406,13 @@ public class SanctumOftheLordsOfDawn extends Quest
 				if (world.doorst == 0)
 				{
 					openDoor(ONE, world.instanceId);
-					startQuestTimer("Part5",60000,null,null);
 					ExShowScreenMessage message1 = new ExShowScreenMessage(1,0,2,15,0,15,15,false,10000,1,"使用警衛隊員的隱身技能後，潛入黎明的文件儲藏室內！");  // 官服是(黃色字體)
 					player.sendPacket(message1);
 					npc.deleteMe();
 					world.doorst++;
 					player.sendMessage("使用警衛隊員的隱身技能後，潛入到黎明的文件儲藏室內！男性警衛隊員可以察覺隱身，而女性警衛隊員無法察覺隱身。");  // 官服是(黃色字體)
 					player.sendMessage("女性警衛隊員比男性警衛隊員可以在更遠的地方就能察覺到變身術，所以要非常小心。");  // 官服是(黃色字體)
-					return "<html><body>身份確認裝置：<br>您 的 身 分 已 確 認 完 畢，<br>門 即 將 開 啟。</body></html>";
+					return "32578-03.htm";
 				}
 				else if (world.doorst == 1)
 				{
@@ -430,7 +429,7 @@ public class SanctumOftheLordsOfDawn extends Quest
 						startQuestTimer("Part4", 30000, null, player);
 					}
 					startQuestTimer("Part3", 30000, world.npc1f, null);
-					return "<html><body>身份確認裝置：<br>您 的 身 分 已 確 認 完 畢，<br>門 即 將 開 啟。</body></html>";
+					return "32578-03.htm";
 				}
 				return "";
 			}
@@ -450,7 +449,7 @@ public class SanctumOftheLordsOfDawn extends Quest
 			tele.y = 122305;
 			tele.z = -2989;
 			exitInstance(player, tele);
-			return "<html><body>傳送師 黎明之光：<br>好像從發著藍色光芒的球體中，聽到人的聲音。<br>「...您 是 得 到 黎 明 允 許 的 人。即 將 會 移 動 到 外 部...」</body></html>";
+			return "32579-01.htm";
 		}
 		
 		else if (npcId == SHELF)
