@@ -95,12 +95,12 @@ public abstract class AirShipController extends Quest
 			if (_dockedShip != null)
 			{
 				if (_dockedShip.isOwner(player))
-					player.sendPacket(SM_ALREADY_SUMMONED);
+					player.sendPacket(SM_ALREADY_EXISTS);
 				return null;
 			}
 			if (_isBusy)
 			{
-				player.sendPacket(SM_ALREADY_EXISTS);
+				player.sendPacket(SM_ALREADY_SUMMONED);
 				return null;
 			}
 			if ((player.getClanPrivileges() & L2Clan.CP_CL_SUMMON_AIRSHIP) != L2Clan.CP_CL_SUMMON_AIRSHIP)

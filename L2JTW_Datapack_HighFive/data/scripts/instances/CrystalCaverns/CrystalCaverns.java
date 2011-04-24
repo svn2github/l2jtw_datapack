@@ -1087,7 +1087,7 @@ public class CrystalCaverns extends Quest
 			else if (event.equalsIgnoreCase("baylorEffect0"))
 			{
 				npc.getAI().setIntention(CtrlIntention.AI_INTENTION_IDLE);
-				npc.broadcastPacket(new SocialAction(npc.getObjectId(),1));
+				npc.broadcastPacket(new SocialAction(npc,1));
 				startQuestTimer("baylorCamera0",11000, npc, null);
 				startQuestTimer("baylorEffect1",19000, npc, null);
 			}
@@ -1098,7 +1098,7 @@ public class CrystalCaverns extends Quest
 			else if (event.equalsIgnoreCase("baylorEffect1"))
 			{
 				npc.broadcastPacket(new SpecialCamera(npc.getObjectId(),300,0,120,2000,5000,0,0,1,0));
-				npc.broadcastPacket(new SocialAction(npc.getObjectId(),3));
+				npc.broadcastPacket(new SocialAction(npc,3));
 				startQuestTimer("baylorEffect2",4000, npc, null);
 			}
 			else if (event.equalsIgnoreCase("baylorEffect2"))
@@ -1250,7 +1250,7 @@ public class CrystalCaverns extends Quest
 			}
 			else if (event.equalsIgnoreCase("action"))
 			{
-				npc.broadcastPacket(new SocialAction(npc.getObjectId(),1));
+				npc.broadcastPacket(new SocialAction(npc,1));
 			}
 			else if (event.equalsIgnoreCase("camera_1"))
 			{

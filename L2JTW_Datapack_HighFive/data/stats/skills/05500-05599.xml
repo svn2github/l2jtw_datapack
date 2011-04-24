@@ -4,9 +4,7 @@
 		<!-- Confirmed CT2.5 -->
 		<!-- Darion Skills -->
 		<set name="castRange" val="40" />
-		<set name="effectAbnormalLvl" val="10" />
 		<set name="effectRange" val="600" />
-		<set name="effectType" val="BLEED" />
 		<set name="element" val="5" /> <!-- Dark -->
 		<set name="hitTime" val="1500" />
 		<set name="isDebuff" val="true" />
@@ -742,7 +740,7 @@
 		<for>
 			<effect name="Debuff" abnormalTime="30" val="0" abnormalLvl="1" abnormalType="expose_weak_point">
 				<mul order="0x30" stat="pDef" val="0.8" />
-				<basemul order="0x30" stat="rCrit" val="0.3" />
+				<mul order="0x30" stat="critDamEvas" val="0.7" />
 			</effect>
 		</for>
 	</skill>

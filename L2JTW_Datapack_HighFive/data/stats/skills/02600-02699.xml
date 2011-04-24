@@ -277,7 +277,7 @@
 		</for>
 	</skill>
 	<skill id="2633" levels="1" name="Elmore-Aden's Holy Water">
-		<!-- Update by pmq -->
+		<!-- Update by pmq Quest 196 -->
 		<set name="target" val="TARGET_UNLOCKABLE" />
 		<set name="skillType" val="UNLOCK_SPECIAL" />
 		<set name="operateType" val="OP_ACTIVE" />
@@ -285,11 +285,11 @@
 		<set name="staticHitTime" val="true" />
 		<set name="power" val="100" />
 		<cond msgId="113" addName="1">
-			<target npcId="17240101,17240102,17240104,17240105,17240106,17240108,17240109,17240110" />
+			<target npcId="17240101,17240105,17240109" />
 		</cond>
 	</skill>
 	<skill id="2634" levels="1" name="Court Magician's Blessing">
-		<!-- Update by pmq -->
+		<!-- Update by pmq Quest 196 -->
 		<set name="target" val="TARGET_UNLOCKABLE" />
 		<set name="skillType" val="UNLOCK_SPECIAL" />
 		<set name="operateType" val="OP_ACTIVE" />

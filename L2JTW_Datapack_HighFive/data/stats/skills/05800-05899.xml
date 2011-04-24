@@ -1171,7 +1171,6 @@
 		</for>
 	</skill>
 	<skill id="5879" levels="1" name="Cruel Expunge">
-		<set name="abnormalLvl" val="9" />
 		<set name="magicLvl" val="80" />
 		<set name="mpConsume" val="165" />
 		<set name="power" val="90" /> <!-- Base Land Rate -->
@@ -1249,7 +1248,6 @@
 		</for>
 	</skill>
 	<skill id="5883" levels="1" name="Meggling Injury">
-		<set name="abnormalLvl" val="9" />
 		<set name="magicLvl" val="80" />
 		<set name="mpConsume" val="165" />
 		<set name="lvlDepend" val="2" />

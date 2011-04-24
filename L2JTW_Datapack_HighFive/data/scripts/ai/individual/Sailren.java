@@ -109,7 +109,7 @@ public class Sailren extends L2AttackableAIScript
 		}
 		else if (event.equalsIgnoreCase("action_1"))
 		{
-			npc.broadcastPacket(new SocialAction(npc.getObjectId(),2));
+			npc.broadcastPacket(new SocialAction(npc,2));
 			this.startQuestTimer("camera_6", 2500, npc, null);
 		}
 		else if (event.equalsIgnoreCase("camera_1"))
@@ -150,7 +150,7 @@ public class Sailren extends L2AttackableAIScript
 		}
 		else if (event.equalsIgnoreCase("camera_5"))
 		{
-			npc.broadcastPacket(new SocialAction(npc.getObjectId(),2));
+			npc.broadcastPacket(new SocialAction(npc,2));
 			this.startQuestTimer("camera_6", 5000, npc, null);
 		}
 		else if (event.equalsIgnoreCase("camera_6"))
