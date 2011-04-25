@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<list>
+	<item id="21716" type="Armor" name="Cloak of Zaken">
+		<set name="icon" val="icon.vesper_cloack_i00" />
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="back" />
+		<set name="immediate_effect" val="1" />
+		<set name="crystal_type" val="s80" />
+		<set name="material" val="cloth" />
+		<set name="weight" val="220" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<for>
+			<add order="0x10" stat="pDef" val="20" />
+		</for>
+		<cond msgId="2453">
+			<player cloakStatus="1" />
+		</cond>
+	</item>
+	<item id="21717" type="Armor" name="Cloak of Freya">
+		<set name="icon" val="icon.vesper_cloack_i00" />
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="back" />
+		<set name="immediate_effect" val="1" />
+		<set name="crystal_type" val="s80" />
+		<set name="material" val="cloth" />
+		<set name="weight" val="220" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<for>
+			<add order="0x10" stat="pDef" val="20" />
+		</for>
+		<cond msgId="2453">
+			<player cloakStatus="1" />
+		</cond>
+	</item>
+	<item id="21718" type="Armor" name="Cloak of Frintezza">
+		<set name="icon" val="icon.vesper_cloack_i00" />
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="back" />
+		<set name="immediate_effect" val="1" />
+		<set name="crystal_type" val="s80" />
+		<set name="material" val="cloth" />
+		<set name="weight" val="220" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<for>
+			<add order="0x10" stat="pDef" val="20" />
+		</for>
+		<cond msgId="2453">
+			<player cloakStatus="1" />
+		</cond>
+	</item>
+	<item id="21719" type="Armor" name="Soul Cloak of Zaken">
+		<set name="icon" val="icon.vesper_cloack_i00" />
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="back" />
+		<set name="immediate_effect" val="1" />
+		<set name="crystal_type" val="s80" />
+		<set name="material" val="cloth" />
+		<set name="weight" val="220" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<for>
+			<add order="0x10" stat="pDef" val="20" />
+		</for>
+		<cond msgId="2453">
+			<player cloakStatus="1" />
+		</cond>
+	</item>
+	<item id="21720" type="Armor" name="Soul Cloak of Freya">
+		<set name="icon" val="icon.vesper_cloack_i00" />
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="back" />
+		<set name="immediate_effect" val="1" />
+		<set name="crystal_type" val="s80" />
+		<set name="material" val="cloth" />
+		<set name="weight" val="220" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<for>
+			<add order="0x10" stat="pDef" val="20" />
+		</for>
+		<cond msgId="2453">
+			<player cloakStatus="1" />
+		</cond>
+	</item>
+	<item id="21721" type="Armor" name=" Soul Cloak of Frintezza">
+		<set name="icon" val="icon.vesper_cloack_i00" />
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="back" />
+		<set name="immediate_effect" val="1" />
+		<set name="crystal_type" val="s80" />
+		<set name="material" val="cloth" />
+		<set name="weight" val="220" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<for>
+			<add order="0x10" stat="pDef" val="20" />
+		</for>
+		<cond msgId="2453">
+			<player cloakStatus="1" />
+		</cond>
+	</item>
+</list>

@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<list>
+	<item id="21583" type="Armor" name="7th Anniversary Cloak - Pitch Black">
+		<set name="icon" val="icon.vesper_cloack_i00" />
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="back" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="cloth" />
+		<set name="weight" val="220" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<for>
+			<add order="0x10" stat="pDef" val="20" />
+		</for>
+		<cond msgId="2453">
+			<player cloakStatus="1" />
+		</cond>
+	</item>
+	<item id="21585" type="Armor" name="Festival's Cloak - Pearl Black(Event)">
+		<set name="icon" val="icon.vesper_cloack_i00" />
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="back" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="cloth" />
+		<set name="weight" val="220" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<for>
+			<add order="0x10" stat="pDef" val="20" />
+		</for>
+		<cond msgId="2453">
+			<player cloakStatus="1" />
+		</cond>
+	</item>
+	<item id="21587" type="Armor" name="7th Anniversary Cloak - Blood Red">
+		<set name="icon" val="icon.vesper_cloack_i00" />
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="back" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="cloth" />
+		<set name="weight" val="220" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<for>
+			<add order="0x10" stat="pDef" val="20" />
+		</for>
+		<cond msgId="2453">
+			<player cloakStatus="1" />
+		</cond>
+	</item>
+	<item id="21588" type="Armor" name="7th Anniversary Cloak - Pitch White">
+		<set name="icon" val="icon.vesper_cloack_i00" />
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="back" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="cloth" />
+		<set name="weight" val="220" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<for>
+			<add order="0x10" stat="pDef" val="20" />
+		</for>
+		<cond msgId="2453">
+			<player cloakStatus="1" />
+		</cond>
+	</item>
+	<item id="21590" type="Armor" name="Festival's Cloak - Pearl White(Event)">
+		<set name="icon" val="icon.vesper_cloack_i00" />
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="back" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="cloth" />
+		<set name="weight" val="220" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<for>
+			<add order="0x10" stat="pDef" val="20" />
+		</for>
+		<cond msgId="2453">
+			<player cloakStatus="1" />
+		</cond>
+	</item>
+</list>
