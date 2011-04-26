@@ -495,7 +495,7 @@ echo (r)重新設定
 echo.
 echo (q)退出
 echo.
-set /p communityprompt=請選擇（%msg%）: 
+set /p communityprompt=請選擇（%msg%）:
 if /i %communityprompt%==f goto communityinstall
 if /i %communityprompt%==u goto upgradecbinstall
 if /i %communityprompt%==s goto gs_backup
@@ -752,18 +752,21 @@ set output=NUL
 goto :eof
 
 :custom
-echo.
+title L2JTW Datapack 安裝 - For：L2JTW GameServer Freya Alpha
+cls
 set cstprompt=y
-set /p cstprompt=安裝 custom 自訂資料表: (y) 確定 或 (N) 取消 或 (q) 退出？（預設值-確定）:
+echo.
+set /p cstprompt=安裝 custom 自訂資料表: (y) 確定 或 (N) 取消（預設值-確定）:
 if /i %cstprompt%==y goto cstinstall
-if /i %cstprompt%==n goto newbie_helper
-if /i %cstprompt%==q goto end
+if /i %cstprompt%==n goto mod
 goto newbie_helper
 :cstinstall
+cls
+echo.
 echo 安裝 custom 自訂內容
 cd ..\sql\server\custom\
 echo @echo off> temp.bat
-if exist errors.txt del errors.txt
+if exist custom_errors.txt del custom_errors.txt
 for %%i in (*.sql) do echo "%mysqlPath%" -h %gshost% -u %gsuser% --password=%gspass% -D %gsdb% ^< %%i 2^>^> custom_errors.txt >> temp.bat
 call temp.bat> nul
 del temp.bat
@@ -778,27 +781,32 @@ echo 你必須修改 config 的檔案設定
 echo.
 pause
 cd %workdir%
-goto newbie_helper
-title L2JDP installer - Game Server database setup - L2J Mods
-cls
-echo L2J provides a basic infraestructure for some non-retail features
-echo (aka L2J mods) to get enabled with a minimum of changes.
-echo.
-echo Some of these mods would require extra tables in order to work
-echo and those tables could be created now if you wanted to.
-echo.
-cd ..\sql\server\mods\
-REM L2J mods that needed extra tables to work properly, should be 
-REM listed here. To do so copy & paste the following 4 lines and
-REM change them properly:
-REM MOD: Wedding.
-set modprompt=n
-set /p modprompt="安裝「結婚模組」資料表: (y) 確定 或 (N) 取消？"
-if /i %modprompt%==y "%mysqlPath%" -h %gshost% -u %gsuser% --password=%gspass% -D %gsdb% < mods_wedding.sql 2>>NUL
 
-title L2JDP installer - Game Server database setup - L2J Mods setup complete
+:mod
+REM [Update by rocknow] 下面這這行是跳過 Mod 安裝
+goto newbie_helper
+title L2JDP Installer - Mod Server Tables
 cls
-echo Database structure for L2J mods finished.
+set cstprompt=n
+echo.
+set /p cstprompt=Install Mod Server Tables: (y) yes or (n) no 
+if /i %cstprompt%==y goto modinstall
+if /i %cstprompt%==n goto newbie_helper
+goto newbie_helper
+:modinstall
+cls
+echo.
+echo Installing mods content.
+cd ..\sql\server\mods\
+echo @echo off> temp.bat
+if exist mods_errors.txt del mods_errors.txt
+for %%i in (*.sql) do echo "%mysqlPath%" -h %gshost% -u %gsuser% --password=%gspass% -D %gsdb% ^< %%i 2^>^> mods_errors.txt >> temp.bat
+call temp.bat> nul
+del temp.bat
+move mods_errors.txt %workdir%
+title L2JDP Installer - Mod Server Tables Process Complete
+cls
+echo Database structure for L2J Mods finished.
 echo.
 echo Remember that in order to get these additions actually working 
 echo you need to edit your configuration files. 
@@ -807,7 +815,6 @@ pause
 cd %workdir%
 goto newbie_helper
 
-
 :newbie_helper
 call :colors 17
 set stage=10
@@ -815,7 +822,10 @@ title L2JTW Datapack 安裝 - For：L2JTW GameServer Freya Alpha
 cls
 if %full% == 1 goto end
 echo.
-echo sql/server/updates 的資料夾是用來更新資料庫格式
+echo 準備更新資料庫格式，導入的 sql 包括：
+echo sql/login/updates
+echo sql/server/updates
+echo cb_sql/updates
 echo.
 echo 請直接按下 Enter 進行更新
 :asknb
@@ -823,11 +833,11 @@ set nbprompt=a
 echo.
 echo 現在要如何進行？
 echo.
-echo (a)自動：進入 sql/updates 的資料夾內，導入更新資料庫格式的 sql
+echo (a)更新：進入 updates 的資料夾內，導入所有的 sql
 echo.
 echo (s)省略：全部都由手動安裝
 echo.
-set /p nbprompt=請選擇（預設值-自動）:
+set /p nbprompt=請選擇（預設值-更新）:
 if /i %nbprompt%==a goto nblsinstall
 if /i %nbprompt%==l goto nblsinstall
 if /i %nbprompt%==c goto nbcbinstall
@@ -866,7 +876,7 @@ cd %workdir%
 :nbfinished
 title L2JTW Datapack 安裝 - For：L2JTW GameServer Freya Alpha
 cls
-echo 自動更新完畢，所有錯誤資訊將放入「errors.txt」
+echo 資料庫格式更新完畢，所有錯誤資訊將放入「errors.txt」
 echo.
 echo 有時會出現一些錯誤，例如表格重複，像這種訊息就不用理會
 echo.
