@@ -1,6 +1,6 @@
 /********** Made in Taiwan **********/
 
-/***** 貳幕-聖翼使命 2010.3.23 *****/
+/***** 貳幕-嗨翻天 2011.4.28 *****/
 /***** GAME *****/ 
 /***** auto_announcements.sql *****/
 REPLACE INTO `auto_announcements` VALUES
