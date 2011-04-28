@@ -413,7 +413,6 @@
 		<set name="icon" val="icon.shield_shield_of_nightmare_i00" />
 		<set name="default_action" val="equip" />
 		<set name="bodypart" val="lhand" />
-		<set name="avoid_modify" val="-8" />
 		<set name="immediate_effect" val="1" />
 		<set name="crystal_type" val="a" />
 		<set name="material" val="leather" />
@@ -579,7 +578,6 @@
 		<set name="random_damage" val="1" />
 		<set name="attack_range" val="500" />
 		<set name="damage_range" val="0;0;10;0" />
-		<set name="hit_modify" val="-3.75" />
 		<set name="immediate_effect" val="1" />
 		<set name="material" val="wood" />
 		<set name="weight" val="900" />
@@ -604,7 +602,6 @@
 		<set name="random_damage" val="1" />
 		<set name="attack_range" val="500" />
 		<set name="damage_range" val="0;0;10;0" />
-		<set name="hit_modify" val="-3.75" />
 		<set name="immediate_effect" val="1" />
 		<set name="material" val="wood" />
 		<set name="weight" val="300" />

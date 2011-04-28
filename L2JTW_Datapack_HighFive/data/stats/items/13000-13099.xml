@@ -819,7 +819,6 @@
 		<set name="random_damage" val="10" />
 		<set name="attack_range" val="80" />
 		<set name="damage_range" val="0;0;66;120" />
-		<set name="hit_modify" val="-3.75" />
 		<set name="immediate_effect" val="1" />
 		<set name="crystal_type" val="a" />
 		<set name="material" val="chrysolite" />
@@ -855,7 +854,6 @@
 		<set name="random_damage" val="10" />
 		<set name="attack_range" val="80" />
 		<set name="damage_range" val="0;0;66;120" />
-		<set name="hit_modify" val="-3.75" />
 		<set name="immediate_effect" val="1" />
 		<set name="crystal_type" val="a" />
 		<set name="material" val="chrysolite" />
@@ -891,7 +889,6 @@
 		<set name="random_damage" val="10" />
 		<set name="attack_range" val="80" />
 		<set name="damage_range" val="0;0;66;120" />
-		<set name="hit_modify" val="-3.75" />
 		<set name="immediate_effect" val="1" />
 		<set name="crystal_type" val="a" />
 		<set name="material" val="chrysolite" />
@@ -1004,7 +1001,6 @@
 		<set name="random_damage" val="20" />
 		<set name="attack_range" val="40" />
 		<set name="damage_range" val="0;0;40;120" />
-		<set name="hit_modify" val="4.75" />
 		<set name="immediate_effect" val="1" />
 		<set name="material" val="wood" />
 		<set name="weight" val="1080" />
@@ -1179,7 +1175,6 @@
 	</item>
 	<item id="13077" type="EtcItem" name="Chaotic Arcana Sigil">
 		<set name="icon" val="icon.arcana_sigil_i00" />
-		<set name="avoid_modify" val="-8" />
 		<set name="immediate_effect" val="1" />
 		<set name="crystal_type" val="s" />
 		<set name="material" val="bone" />
@@ -1200,7 +1195,6 @@
 		<set name="default_action" val="equip" />
 		<set name="armor_type" val="sigil" />
 		<set name="bodypart" val="lhand" />
-		<set name="avoid_modify" val="-8" />
 		<set name="immediate_effect" val="1" />
 		<set name="crystal_count" val="161" />
 		<set name="crystal_type" val="s" />

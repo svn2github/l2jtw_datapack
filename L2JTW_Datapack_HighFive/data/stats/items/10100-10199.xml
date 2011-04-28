@@ -150,7 +150,6 @@
 	</item>
 	<item id="10117" type="EtcItem" name="Chaotic Sealed Dynasty Sigil">
 		<set name="icon" val="icon.armor_dynasty_sigil_i01" />
-		<set name="avoid_modify" val="-8" />
 		<set name="immediate_effect" val="1" />
 		<set name="crystal_type" val="s80" />
 		<set name="material" val="steel" />
@@ -169,7 +168,6 @@
 	</item>
 	<item id="10118" type="EtcItem" name="Chaotic Dynasty Sigil">
 		<set name="icon" val="icon.dynasty_sigil_i00" />
-		<set name="avoid_modify" val="-8" />
 		<set name="immediate_effect" val="1" />
 		<set name="crystal_type" val="s80" />
 		<set name="material" val="steel" />
@@ -191,7 +189,6 @@
 		<set name="default_action" val="equip" />
 		<set name="armor_type" val="sigil" />
 		<set name="bodypart" val="lhand" />
-		<set name="avoid_modify" val="-8" />
 		<set name="immediate_effect" val="1" />
 		<set name="crystal_count" val="307" />
 		<set name="crystal_type" val="s80" />
@@ -216,7 +213,6 @@
 		<set name="default_action" val="equip" />
 		<set name="armor_type" val="sigil" />
 		<set name="bodypart" val="lhand" />
-		<set name="avoid_modify" val="-8" />
 		<set name="immediate_effect" val="1" />
 		<set name="crystal_count" val="307" />
 		<set name="crystal_type" val="s80" />
@@ -240,7 +236,6 @@
 		<set name="default_action" val="equip" />
 		<set name="armor_type" val="sigil" />
 		<set name="bodypart" val="lhand" />
-		<set name="avoid_modify" val="-8" />
 		<set name="immediate_effect" val="1" />
 		<set name="crystal_count" val="161" />
 		<set name="crystal_type" val="s" />
@@ -318,7 +313,6 @@
 		<set name="random_damage" val="20" />
 		<set name="attack_range" val="40" />
 		<set name="damage_range" val="0;0;40;120" />
-		<set name="hit_modify" val="4.75" />
 		<set name="immediate_effect" val="1" />
 		<set name="crystal_type" val="c" />
 		<set name="material" val="fine_steel" />
@@ -401,8 +395,6 @@
 			<set order="0x08" stat="mAtk" val="21" />
 			<set order="0x08" stat="rCrit" val="8" />
 			<set order="0x08" stat="pAtkSpd" val="379" />
-			<enchant val="0" order="0x0C" stat="pAtk" />
-			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
 	<item id="10129" type="EtcItem" name="Scroll of Escape: Fortress">
@@ -914,8 +906,6 @@
 			<set order="0x08" stat="mAtk" val="1" />
 			<set order="0x08" stat="rCrit" val="8" />
 			<set order="0x08" stat="pAtkSpd" val="379" />
-			<enchant val="0" order="0x0C" stat="pAtk" />
-			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
 	<item id="10168" type="Armor" name="Dynasty Leather Armor - Enchanter">
