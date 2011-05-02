@@ -7,6 +7,7 @@ import sys
 from com.l2jserver.gameserver.model.quest import State
 from com.l2jserver.gameserver.model.quest import QuestState
 from com.l2jserver.gameserver.model.quest.jython import QuestJython as JQuest
+from com.l2jserver.gameserver.network.serverpackets import SocialAction
 
 qn = "418_PathToArtisan"
 
@@ -99,13 +100,19 @@ class Quest (JQuest) :
 				st.takeItems(SECRET_BOX2,1)
 				st.giveItems(PASS_FINAL,1)
 				isFinished = st.getGlobalQuestVar("1ClassQuestFinished")
-				if isFinished == "" : 
-					st.giveItems(57,81900)
-					st.addExpAndSp(160267,11726)
+				if isFinished == "" :
+					if player.getLevel() >= 20 :
+						st.addExpAndSp(320534, 32452)
+					elif player.getLevel() == 19 :
+						st.addExpAndSp(456128, 30150)
+					else:
+						st.addExpAndSp(591724, 36848)
+					st.giveItems(57, 163800)
 				st.set("cond","0")
 				st.exitQuest(False)
 				st.saveGlobalQuestVar("1ClassQuestFinished","1")
 				st.playSound("ItemSound.quest_finish")
+				player.sendPacket(SocialAction(player,3))
 			else :
 				htmltext = "30317-08.htm"
 		elif event == "30317_8" :
@@ -117,11 +124,17 @@ class Quest (JQuest) :
 				st.takeItems(PASS_2ND,1)
 				st.takeItems(SECRET_BOX2,1)
 				st.giveItems(PASS_FINAL,1)
-				st.giveItems(57,81900)
-				st.addExpAndSp(228064,15075)
+				if player.getLevel() >= 20 :
+					st.addExpAndSp(160267, 11726)
+				elif player.getLevel() == 19 :
+					st.addExpAndSp(228064, 15075)
+				else:
+					st.addExpAndSp(295862, 18424)
+				st.giveItems(57, 81900)
 				st.set("cond","0")
 				st.exitQuest(False)
 				st.playSound("ItemSound.quest_finish")
+				player.sendPacket(SocialAction(player,3))
 			else :
 				htmltext = "30317-08.htm"
 		elif event == "30298_1" :

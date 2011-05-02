@@ -386,7 +386,7 @@ call :colors 17
 set cmdline=
 title L2JTW Datapack 安裝 - For：L2JTW GameServer HighFive Alpha
 echo 正在移除登入伺服器的資料庫，然後導入新的資料庫...
-set cmdline="%mysqlPath%" -h %lshost% -u %lsuser% --password=%lspass% -D %lsdb% ^< login_install.sql 2^> NUL
+set cmdline="%mysqlPath%" -h %lshost% -u %lsuser% --password=%lspass% -D %lsdb% ^< ls_cleanup.sql 2^> NUL
 %cmdline%
 if not %ERRORLEVEL% == 0 goto omfg
 set full=1
@@ -509,7 +509,7 @@ call :colors 17
 set cmdline=
 title L2JTW Datapack 安裝 - For：L2JTW GameServer HighFive Alpha
 echo 正在移除「討論版專用」的資料庫，然後導入新的資料庫...
-set cmdline="%mysqlPath%" -h %cbhost% -u %cbuser% --password=%cbpass% -D %cbdb% ^< community_install.sql 2^> NUL
+set cmdline="%mysqlPath%" -h %cbhost% -u %cbuser% --password=%cbpass% -D %cbdb% ^< cs_cleanup.sql 2^> NUL
 %cmdline%
 if not %ERRORLEVEL% == 0 goto omfg
 set full=1
@@ -641,7 +641,7 @@ set stage=9
 set cmdline=
 title L2JTW Datapack 安裝 - For：L2JTW GameServer HighFive Alpha
 echo 正在移除遊戲伺服器的資料庫，然後導入新的資料庫...
-set cmdline="%mysqlPath%" -h %gshost% -u %gsuser% --password=%gspass% -D %gsdb% ^< full_install.sql 2^> NUL
+set cmdline="%mysqlPath%" -h %gshost% -u %gsuser% --password=%gspass% -D %gsdb% ^< gs_cleanup.sql 2^> NUL
 %cmdline%
 if not %ERRORLEVEL% == 0 goto omfg
 set full=1

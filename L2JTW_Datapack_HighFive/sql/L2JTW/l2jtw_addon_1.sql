@@ -2360,11 +2360,10 @@ REPLACE INTO `droplist` VALUES
 (22422,959,1,1,-1,481);
 
 -- 修正(菲拉卡-受傷的龍)NPC設定
-UPDATE `npc` SET `type` = 'L2Npc' WHERE `id` = 32499; -- 肯特拉獸人 咒術士
-UPDATE `npc` SET `type` = 'L2Npc' WHERE `id` = 32502; -- 肯特拉獸人協助者
-UPDATE `npc` SET `type` = 'L2Npc' WHERE `id` = 32512; -- 肯特拉獸人後援者
-UPDATE `npc` SET `type` = 'L2Npc' WHERE `id` = 32509; -- 肯特拉獸人諜報員
-UPDATE `npc` SET `type` = 'L2Npc' WHERE `id` = 32499; -- 肯特拉獸人諜報員
+-- UPDATE `npc` SET `type` = 'L2Npc' WHERE `id` = 32499; -- 肯特拉獸人 咒術士
+-- UPDATE `npc` SET `type` = 'L2Npc' WHERE `id` = 32502; -- 肯特拉獸人協助者
+-- UPDATE `npc` SET `type` = 'L2Npc' WHERE `id` = 32512; -- 肯特拉獸人後援者
+-- UPDATE `npc` SET `type` = 'L2Npc' WHERE `id` = 32509; -- 肯特拉獸人諜報員
 
 UPDATE `npc` SET `aggro` = 900 WHERE `id` = 18635; -- 巴瑞卡賽勒諾斯訓練兵
 UPDATE `npc` SET `aggro` = 900 WHERE `id` = 18636; -- 巴瑞卡賽勒諾斯步兵
@@ -2385,7 +2384,7 @@ UPDATE `npc` SET `aggro` = 900 WHERE `id` = 18656; -- 巴瑞卡首席魔導士
 UPDATE `npc` SET `aggro` = 900 WHERE `id` = 18657; -- 預言者的親衛兵
 UPDATE `npc` SET `aggro` = 900 WHERE `id` = 18658; -- 預言者的門徒
 UPDATE `npc` SET `aggro` = 900 WHERE `id` = 18659; -- 巴瑞卡預言者
-UPDATE `npc` SET `aggro` = 900 WHERE `id` = 18660; -- 拉塔那
+UPDATE `npc` SET `aggro` = 1200 WHERE `id` = 18660; -- 拉塔那
 
 REPLACE INTO npcskills VALUES
 -- 菲拉卡-受傷的龍

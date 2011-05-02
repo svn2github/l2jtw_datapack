@@ -74,7 +74,6 @@ DROP TABLE IF EXISTS global_tasks;
 DROP TABLE IF EXISTS global_variables;
 DROP TABLE IF EXISTS grandboss_data;
 DROP TABLE IF EXISTS grandboss_list;
-DROP TABLE IF EXISTS hellbound;
 DROP TABLE IF EXISTS helper_buff_list;
 DROP TABLE IF EXISTS henna;
 DROP TABLE IF EXISTS henna_trees;
