@@ -64,7 +64,7 @@ INSERT INTO `spawnlist` (location,count,npc_templateid,locx,locy,locz,randomx,ra
 
 -- 加入漏掉的NPC
 -- DELETE FROM `spawnlist` WHERE `npc_templateid` IN (32478,31691);
-INSERT INTO `spawnlist` (location,count,npc_templateid,locx,locy,locz,randomx,randomy,heading,respawn_delay,loc_id,periodOfDay) VALUES
+REPLACE INTO `spawnlist` (location,count,npc_templateid,locx,locy,locz,randomx,randomy,heading,respawn_delay,loc_id,periodOfDay) VALUES
 ('', 1, 32478, 17735, 169802, -3495, 0, 0, 19465, 60, 0, 0),    -- 維他命管理者(芙羅蘭村莊)
 ('', 1, 31691, 86123, -145764, -1292, 0, 0, 0, 60, 0, 0),       -- 訓練用草人(修加特城鎮的戰士公會)
 ('', 1, 31691, 86123, -145628, -1295, 0, 0, 0, 60, 0, 0),       -- 訓練用草人(修加特城鎮的戰士公會)
