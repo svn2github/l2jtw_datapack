@@ -1,24 +1,17 @@
-﻿<html><title>傳送</title>
-<body>
+﻿<html><title>傳送</title><body>
 <center>
-<table width=260>
-<tr>
+<table width=260><tr>
 <td width=45><button value="首頁" action="bypass -h admin_admin" width=45 height=21 back="L2UI_CT1.Button_DF_Down" fore="L2UI_CT1.Button_DF"></td>
 <td width=180><center>選擇傳送位置</center></td>
 <td width=45><button value="返回" action="bypass -h admin_admin" width=45 height=21 back="L2UI_CT1.Button_DF_Down" fore="L2UI_CT1.Button_DF"></td>
-</tr>
-</table>
-</center>
-<br>
-<br>
-<center>
+</tr></table><br>
 <table width=276>
 <tr>
-<td align=center><button action="bypass -h admin_help teleports/town.htm" value="城鎮/村莊" width=120 height=21 back="L2UI_CT1.Button_DF_Down" fore="L2UI_CT1.Button_DF"></td>
-<td align=center><button action="bypass -h admin_help teleports/townarea.htm" value="領地區域" width=120 height=21 back="L2UI_CT1.Button_DF_Down" fore="L2UI_CT1.Button_DF"></td>
+<td align=center><button action="bypass -h admin_help teleports/TownAreas.htm" value="城鎮/村莊" width=120 height=21 back="L2UI_CT1.Button_DF_Down" fore="L2UI_CT1.Button_DF"></td>
+<td align=center><button action="bypass -h admin_help teleports/WorldAreas.htm" value="領地區域" width=120 height=21 back="L2UI_CT1.Button_DF_Down" fore="L2UI_CT1.Button_DF"></td>
 </tr>
 <tr>
-<td align=center><button action="bypass -h admin_help teleports/castle.htm" value="城堡" width=120 height=21 back="L2UI_CT1.Button_DF_Down" fore="L2UI_CT1.Button_DF"></td>
+<td align=center><button action="bypass -h admin_help teleports/CastleAreas.htm" value="城堡" width=120 height=21 back="L2UI_CT1.Button_DF_Down" fore="L2UI_CT1.Button_DF"></td>
 <td align=center><button action="bypass -h admin_help teleports/fort.htm" value="邊境要塞" width=120 height=21 back="L2UI_CT1.Button_DF_Down" fore="L2UI_CT1.Button_DF"></td>
 </tr>
 <tr>
@@ -47,7 +40,6 @@
 </table>
 </center>
 <br>
-<br>
 <center><button value="其他傳送模式" action="bypass -h admin_tele" width=200 height=21 back="L2UI_CT1.Button_DF_Down" fore="L2UI_CT1.Button_DF"><br>
-<br1>
-傳送座標位置<table width=260><tr><td width=15>X:</td><td><edit var="char_cord_x" width=55></td><td width=15>Y:</td><td><edit var="char_cord_y" width=55></td><td width=15>Z:</td><td><edit var="char_cord_z" width=55></td><td><button value="傳送" action="bypass -h admin_move_to $char_cord_x $char_cord_y $char_cord_z" width=55 height=21 back="L2UI_CT1.Button_DF_Down" fore="L2UI_CT1.Button_DF"></td></tr></table><br></center></body></html>
+傳送座標位置<br1>
+<table width=260><tr><td width=15>X:</td><td><edit var="char_cord_x" width=55></td><td width=15>Y:</td><td><edit var="char_cord_y" width=55></td><td width=15>Z:</td><td><edit var="char_cord_z" width=55></td><td><button value="傳送" action="bypass -h admin_move_to $char_cord_x $char_cord_y $char_cord_z" width=55 height=21 back="L2UI_CT1.Button_DF_Down" fore="L2UI_CT1.Button_DF"></td></tr></table><br></center></body></html>

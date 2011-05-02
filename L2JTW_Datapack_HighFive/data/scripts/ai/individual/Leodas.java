@@ -31,9 +31,12 @@ import com.l2jserver.util.Rnd;
  */
 public class Leodas extends L2AttackableAIScript
 {
-	private static final int leodas  = 22448;
-	private static final int traitor = 32364;
-
+	//Npcs
+	private static final int LEODAS  = 22448;
+	private static final int TRAITOR = 32364;
+	//Items
+	private static final int MARK_BETRAYAL = 9676;
+	//Doors
 	private static final int[] doors = {
 			19250003, 19250004
 	};
@@ -43,10 +46,10 @@ public class Leodas extends L2AttackableAIScript
 	public Leodas(int questId, String name, String descr)
 	{
 		super(questId, name, descr);
-		addAttackId(leodas);
-		addKillId(leodas);
-		addTalkId(traitor);
-		addStartNpc(traitor);
+		addAttackId(LEODAS);
+		addKillId(LEODAS);
+		addTalkId(TRAITOR);
+		addStartNpc(TRAITOR);
 	}
 
 	private void dropItem(L2PcInstance player, L2Npc npc, int itemId, int count)
@@ -76,9 +79,9 @@ public class Leodas extends L2AttackableAIScript
 		if (HellboundManager.getInstance().getLevel() >= 5)
 		{
 			if (Rnd.get(100) < 10)
-				dropItem(player, npc, 9676, 30);
+				dropItem(player, npc, MARK_BETRAYAL, 30);
 
-			dropItem(player, npc, 9676, 15);
+			dropItem(player, npc, MARK_BETRAYAL, 15);
 			npc.onDecay();
 		}
 
@@ -91,59 +94,41 @@ public class Leodas extends L2AttackableAIScript
 	@Override
 	public String onTalk(L2Npc npc, L2PcInstance player)
 	{
+		int hellboundLevel = HellboundManager.getInstance().getLevel();
+		if (hellboundLevel < 5)
+			return null;
+		
 		String htmltext = "";
 		if (leodasOnAttack)
 		{
 			htmltext = "<html><body>原住民變節份子：<br><center><font color=\"FF0000\">房間已經有人挑戰中，請耐心等候！</font></center></body></html>";
 		}
-		else if (player.getQuestState("Leodas").getQuestItemsCount(9676) == 0)
+		else if (player.getQuestState("Leodas").getQuestItemsCount(MARK_BETRAYAL) == 0)
 		{
 			htmltext = "<html><body>原住民變節份子：<br>我需要的是<font color=\"LEVEL\">背叛者的憑證</font>10個，而且你沒有攜帶任何一個。<br>我能猜出你要騙我的理由，但無論如何先帶來再說吧。</body></html>";
 		}
+		else if (player.getInventory().getItemByItemId(MARK_BETRAYAL).getCount() >= 10)
+		{
+			player.destroyItemByItemId("item", MARK_BETRAYAL, 10, player, true);
+			npc.broadcastPacket(new CreatureSay(npc.getObjectId(), 0, npc.getName(), "好吧，雷歐達斯現在就是你的了！"));
+			startQuestTimer("Leodas", 3000, npc, null, false);
+			leodasOnAttack = true;
+			for (int i : doors)
+				DoorTable.getInstance().getDoor(i).openMe();
+		}
 		else
 		{
-			htmltext = "<html><body>原住民變節份子：<br>";
-			htmltext += "準備好要挑戰雷歐達斯嗎？<br><center><font color=\"FF0000\">（這是測試用的！）</font><br>";
-			htmltext += "<a action=\"bypass -h Quest Leodas meetLeodas\">說準備好</a></center></body></html>";
+			htmltext = "<html><body>原住民變節份子：<br>是啊！有帶來<font color=\"LEVEL\">背叛者的憑證</font>。數量不夠啦，我需要的是10個背叛者的憑證。把所有背叛者的憑證帶給我，我會立即打開這門。</body></html>";
 		}
-
-		int hellboundLevel = HellboundManager.getInstance().getLevel();
-		if (hellboundLevel < 5)
-			return null;
-
 		return htmltext;
 	}
 
 	@Override
 	public String onAdvEvent(String event, L2Npc npc, L2PcInstance player)
 	{
-		String htmltext = "";
-		if (event.equalsIgnoreCase("meetLeodas"))
-		{
-			long marksCount = player.getInventory().getItemByItemId(9676).getCount();
-
-			if (marksCount == 0)
-			{
-				htmltext = "<html><body>原住民變節份子：<br>我需要的是<font color=\"LEVEL\">背叛者的憑證</font>10個，而且你沒有攜帶任何一個。<br>我能猜出你要騙我的理由，但無論如何先帶來再說吧。</body></html>";
-			}
-			else if (marksCount >= 1 && marksCount < 10)
-			{
-				htmltext = "<html><body>原住民變節份子：<br>是啊！有帶來<font color=\"LEVEL\">背叛者的憑證</font>。數量不夠啦，我需要的是10個背叛者的憑證。把所有背叛者的憑證帶給我，我會立即打開這門。</body></html>";
-			}
-			else if (marksCount >= 10)
-			{
-				player.destroyItemByItemId("item", 9676, 10, player, true);
-				npc.broadcastPacket(new CreatureSay(npc.getObjectId(), 0, npc.getName(), "好吧，雷歐達斯現在就是你的了！"));
-				startQuestTimer("Leodas", 3000, npc, null, false);
-				leodasOnAttack = true;
-				for (int i : doors)
-					DoorTable.getInstance().getDoor(i).openMe();
-			}
-		}
-		else if (event.equalsIgnoreCase("Leodas"))
-			HellboundManager.getInstance().addSpawn(leodas, -27807, 252740, -3520, 0, 0);
-
-		return htmltext;
+		if (event.equalsIgnoreCase("Leodas"))
+			HellboundManager.getInstance().addSpawn(LEODAS, -27807, 252740, -3520, 0, 0);
+			return null;
 	}
 
 	public static void main(String[] args)
