@@ -790,7 +790,7 @@ public class PailakaInjuredDragon extends Quest
 		if (st == null || st.getState() != State.STARTED)
 			return null;
 		
-		if (player == null || isPet)
+		if (isPet)
 			return super.onAggroRangeEnter(npc, player, isPet);
 		
 		// If enter on aggro range of Latana, start animation
