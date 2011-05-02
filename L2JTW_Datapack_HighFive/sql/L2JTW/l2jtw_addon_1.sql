@@ -63,7 +63,7 @@ INSERT INTO `spawnlist` (location,count,npc_templateid,locx,locy,locz,randomx,ra
 ('schuttgart', 1, 30767, 85792, -142809, -1341, 0, 0, 10508, 60, 0, 0);        -- 拍賣管理者(修加特城鎮)
 
 -- 加入漏掉的NPC
-DELETE FROM `spawnlist` WHERE `npc_templateid` IN (32478,31691);
+-- DELETE FROM `spawnlist` WHERE `npc_templateid` IN (32478,31691);
 INSERT INTO `spawnlist` (location,count,npc_templateid,locx,locy,locz,randomx,randomy,heading,respawn_delay,loc_id,periodOfDay) VALUES
 ('', 1, 32478, 17735, 169802, -3495, 0, 0, 19465, 60, 0, 0),    -- 維他命管理者(芙羅蘭村莊)
 ('', 1, 31691, 86123, -145764, -1292, 0, 0, 0, 60, 0, 0),       -- 訓練用草人(修加特城鎮的戰士公會)
@@ -1169,11 +1169,6 @@ UPDATE `npc` SET `type`='L2Monster', `level`=85, `exp`=1209443, `sp`=121549, `hp
 UPDATE `npc` SET `type`='L2RaidBoss', `level`=85, `exp`=3233771, `sp`=403115, `hp`=631293, `mp`=18468 where id='25697';  -- 土倫巴 雷提里闊
 UPDATE `npc` SET `type`='L2RaidBoss', `level`=85, `exp`=3078748, `sp`=399008, `hp`=763865, `mp`=18468 where id='25696';  -- 塔克拉甘 比斯塔闊  可吸魂
 UPDATE `npc` SET `type`='L2RaidBoss', `level`=85, `exp`=3233771, `sp`=403115, `hp`=631293, `mp`=18468 where id='25698';  -- 多帕建 柯克拉闊  可吸魂
--- 方塊
--- UPDATE `npc` SET `type`='L2Block' where id='18672';  -- 方塊
--- UPDATE `npc` SET `type`='L2Npc' where id='18676';    -- 
--- REPLACE INTO `etcitem` VALUES (13787,'Bond','','false','potion',180,'stackable','paper','none',-1,-1,0,0,'true','true','true','true','true','ItemSkills','5849-1;');
--- REPLACE INTO `etcitem` VALUES (13788,'Land Mine','','false','potion',180,'stackable','paper','none',-1,-1,0,0,'true','true','true','true','true','ItemSkills','5851-1;');
 
 -- new npc for 葫蘆
 DELETE FROM npcskills             WHERE  npcid IN (12774,12775,12776,12777,12778,12779,13016,13017);
@@ -1189,15 +1184,6 @@ UPDATE npc SET level=1,hp=3000,mp=0,hpreg=0,mpreg=0,str=10,con=10,dex=10,`int`=1
 UPDATE npc SET level=1,hp=3000,mp=0,hpreg=0,mpreg=0,str=10,con=10,dex=10,`int`=10,wit=10,men=10,patk=0,pdef=15,matk=0,mdef=32,walkspd=1,runspd=1 WHERE id=13016;  -- 優良的葫蘆王
 UPDATE npc SET level=1,hp=3000,mp=0,hpreg=0,mpreg=0,str=10,con=10,dex=10,`int`=10,wit=10,men=10,patk=0,pdef=15,matk=0,mdef=32,walkspd=1,runspd=1 WHERE id=13017;  -- 優良的大葫蘆王
 
--- new npc for 西瓜
--- UPDATE etcitem SET handler='ItemSkills',skill='9029-1;' WHERE item_id=15366;
--- UPDATE etcitem SET handler='ItemSkills',skill='9030-1;' WHERE item_id=15367;
--- UPDATE etcitem SET handler='ItemSkills',skill='9031-1;' WHERE item_id=15368;
--- UPDATE etcitem SET handler='ItemSkills',skill='9032-1;' WHERE item_id=15369;
-
--- UPDATE etcitem SET consume_type='stackable' WHERE item_id IN (15366,15367,15368,15369);
--- UPDATE etcitem SET sellable='true',tradeable='true',depositable='true' WHERE item_id IN (15366,15367);
-
 -- NPC
 DELETE FROM npcskills             WHERE  npcid IN (13271,13272,13273,13274,13275,13276,13277,13278);
 -- DELETE FROM npcAIData             WHERE npc_id IN (13271,13272,13273,13274,13275,13276,13277,13278);
@@ -1211,14 +1197,6 @@ UPDATE npc SET level=1,hp=3000,mp=0,hpreg=0,mpreg=0,str=10,con=10,dex=10,`int`=1
 UPDATE npc SET level=1,hp=3000,mp=0,hpreg=0,mpreg=0,str=10,con=10,dex=10,`int`=10,wit=10,men=10,patk=0,pdef=15,matk=0,mdef=32,walkspd=1,runspd=1 WHERE id=13276; -- 不良的香甜西瓜
 UPDATE npc SET level=1,hp=3000,mp=0,hpreg=0,mpreg=0,str=10,con=10,dex=10,`int`=10,wit=10,men=10,patk=0,pdef=15,matk=0,mdef=32,walkspd=1,runspd=1 WHERE id=13277; -- 優良的香甜西瓜
 UPDATE npc SET level=1,hp=3000,mp=0,hpreg=0,mpreg=0,str=10,con=10,dex=10,`int`=10,wit=10,men=10,patk=0,pdef=15,matk=0,mdef=32,walkspd=1,runspd=1 WHERE id=13278; -- 優良的香甜西瓜王
-
--- 武器
--- UPDATE weapon SET skill='0-0;' WHERE item_id=5817; -- 克魯諾杖鐘 參章紀念樂器 (3599-1;)
--- UPDATE weapon SET crystallizable='false' WHERE item_id=8350; -- 克魯諾瑪拉卡斯 伍章紀念樂器
-
--- 任務196 武器技能
--- REPLACE INTO `etcitem` VALUES (13808,'Elmoreden Holy Water','','false','none',0,'stackable','paper','none',-1,-1,0,0,'false','false','false','false','false','ItemSkills','2633-1;'); -- 艾爾摩亞丁的聖水
--- REPLACE INTO `weapon` VALUES (13809,'Court Magician\'s Magic Staff','','rhand','false',0,0,0,'fine_steel','none',0,0,'sword',0,0.00000,0,0,0,0,0,0,-1,-1,0,0,'false','false','false','false','false',0,0,0,0,0,0,0,0,0,'2634-1;'); -- 宮廷魔法師的魔法棒
 
 -- 諾爾妮庭園首領怪物資料 
 UPDATE `npc` SET `type`='L2RaidBoss' where id='25528';  -- 最終試練官 塔庇里歐斯
@@ -1263,154 +1241,8 @@ UPDATE `npc` SET `type`='L2Monster', `hp`=9999999, `exp`=0, `sp`=0, `mp`=1000, `
 
 DELETE FROM npcskills WHERE npcid IN (18437);
 
--- REPLACE INTO `droplist` VALUES
--- (18478,8154,1,7,2,700000),-- 生命藥草
--- (18478,8155,1,7,2,700000);-- 瑪那藥草
-
 -- 修改 LV 16071 馬奎安 / 16072 精銳馬奎安
 UPDATE npc SET `level` = '75' WHERE `id` in (16071,16072);
-
--- etcitem for Vitality CT2.5
--- REPLACE INTO `etcitem` VALUES (20005,'Energy Red Ginseng','','false','herb',0,'normal','paper','none',-1,-1,0,0,'true','true','true','true','true','ItemSkills','22005-1;');
--- REPLACE INTO `etcitem` VALUES (20214,'Chocolate Cookie','','false','potion',5,'stackable','paper','none',-1,-1,0,0,'true','true','true','true','true','ItemSkills','22028-1;');
--- REPLACE INTO `etcitem` VALUES (13787,'Bond','','false','potion',180,'stackable','paper','none',-1,-1,0,0,'true','true','true','true','true','ItemSkills','5849-1;');
--- REPLACE INTO `etcitem` VALUES (13788,'Land Mine','','false','potion',180,'stackable','paper','none',-1,-1,0,0,'true','true','true','true','true','ItemSkills','5851-1;');
-
--- UPDATE `etcitem` SET `item_type` = 'none' WHERE `item_id` = '13798';  -- 靈魂的片段
-
--- New ectitem 2009-08-26
--- REPLACE INTO `etcitem` VALUES (20602,'Soul Silver Foil - Event','','false','none',0,'stackable','wood','none',-1,-1,0,0,'false','false','true','false','true','ItemSkills','22099-1;');
--- REPLACE INTO `etcitem` VALUES (20603,'Soul Scent - Event','','false','none',0,'stackable','wood','none',-1,-1,0,0,'false','false','true','false','true','ItemSkills','22100-1;');
--- REPLACE INTO `etcitem` VALUES (20623,'Soul Silver Foil - Scent Pack','','false','none',0,'stackable','wood','none',-1,-1,0,0,'false','false','true','false','true','ExtractableItems','0-0;');
--- REPLACE INTO `etcitem` VALUES (20630,'Soul Magic Box','','false','none',0,'stackable','wood','none',-1,-1,0,0,'false','false','true','false','true','ItemSkills','22102-1;');
-
--- ----------------- --
--- Devastated Castle --
--- ----------------- --
-
--- Update siege npcs
-
--- UPDATE npc SET type = 'L2Defender' WHERE id = 35411;
--- UPDATE npc SET type = 'L2Defender' WHERE id = 35412;
--- UPDATE npc SET type = 'L2Defender' Where id = 35413;
--- UPDATE npc SET type = 'L2Defender' WHERE id = 35414;
--- UPDATE npc SET type = 'L2Defender' WHERE id = 35415;
--- UPDATE npc SET type = 'L2Defender' WHERE id = 35416;
--- UPDATE npc SET type = 'L2CastleDoormen', rhand = 0, lhand = 0 WHERE id = 35417;
--- UPDATE npc SET type = 'L2CastleDoormen', rhand = 0, lhand = 0 WHERE id = 35418;
--- UPDATE npc SET type = 'L2WyvernManager' WHERE id = 35419;
--- UPDATE npc SET type = 'L2ClanHallManager' WHERE id = 35421;
-
--- Delete mobs from normal spawnlist
-
--- DELETE FROM spawnlist WHERE npc_templateid = 35411;
--- DELETE FROM spawnlist WHERE npc_templateid = 35412;
--- DELETE FROM spawnlist WHERE npc_templateid = 35413;
--- DELETE FROM spawnlist WHERE npc_templateid = 35414;
--- DELETE FROM spawnlist WHERE npc_templateid = 35415;
--- DELETE FROM spawnlist WHERE npc_templateid = 35416;
--- DELETE FROM spawnlist WHERE npc_templateid = 35410;
-
--- Devastated castle doors
-
--- REPLACE INTO castle_door VALUES (34, 25170001, 'devastated_castle_outer_001', 178212, -15038, -2135, 178211, -15038, -2294, 178342, -15017, -1976, 158250, 644, 518, 'false');
--- REPLACE INTO castle_door VALUES (34, 25170002, 'devastated_castle_outer_002', 178468, -15038, -2135, 178339, -15038, -2295, 178469, -15017, -1977, 158250, 644, 518, 'false');
--- REPLACE INTO castle_door VALUES (34, 25170003, 'devastated_castle_inner_003', 178119, -18220, -2210, 178120, -18225, -2286, 178183, -18211, -1836, 79125, 644, 518, 'false');
--- REPLACE INTO castle_door VALUES (34, 25170004, 'devastated_castle_inner_004', 178247, -18220, -2210, 178182, -18225, -2286, 178245, -18211, -1836, 79125, 644, 518, 'false');
--- REPLACE INTO castle_door VALUES (34, 25170005, 'devastated_castle_inner_005', 178298, -18573, -2233, 178302, -18611, -2287, 178309, -18573, -1837, 79125, 644, 518, 'false');
--- REPLACE INTO castle_door VALUES (34, 25170006, 'devastated_castle_inner_006', 178298, -18650, -2233, 178302, -18648, -2287, 178309, -18610, -1837, 79125, 644, 518, 'false');
-
--- ---------------------- --
--- Fortress of Resistance --
--- ---------------------- --
--- UPDATE npc SET type = 'L2CastleDoormen' WHERE id = 30596;
--- UPDATE npc SET type = 'L2ClanHallManager' WHERE id = 35383;
--- DELETE FROM spawnlist WHERE npc_templateid = 35368;
--- DELETE FROM spawnlist WHERE npc_templateid = 35369;
--- DELETE FROM spawnlist WHERE npc_templateid = 35370;
--- DELETE FROM spawnlist WHERE npc_templateid = 35371;
--- UPDATE npc SET type = 'L2RaidBoss', title = 'Raid Boss' WHERE id = 35368;
--- UPDATE npc SET type = 'L2Monster', title = 'Raid Figther' WHERE id = 35369;
--- UPDATE npc SET type = 'L2Monster', title = 'Raid Figther' WHERE id = 35370;
--- UPDATE npc SET type = 'L2Monster', title = 'Raid Figther' WHERE id = 35371;
-
--- -------------------- --
--- Fortress of the Dead --
--- -------------------- --
-
--- Update siege npcs
-
--- UPDATE npc SET type = 'L2WyvernManager' WHERE id = 35638;
--- UPDATE npc SET type = 'L2CastleDoormen', rhand = 0, lhand = 0 WHERE id = 35641;
--- UPDATE npc SET type = 'L2CastleDoormen', rhand = 0, lhand = 0 WHERE id = 35642;
--- UPDATE npc SET type = 'L2ClanHallManager' WHERE id = 35640;
-
--- Fortress of the Dead doors
--- REPLACE INTO castle_door VALUES (64, 21170001, 'Fortress_of_the_Dead_outer_001', 57857, -29480, 707, 57849, -29498, 543, 57969, -29465, 869, 158250, 644, 518, 'false');
--- REPLACE INTO castle_door VALUES (64, 21170002, 'Fortress_of_the_Dead_outer_002', 58061, -29479, 707, 57954, -29498, 543, 58071, -29465, 869, 158250, 644, 518, 'false');
--- REPLACE INTO castle_door VALUES (64, 21170003, 'Fortress_of_the_Dead_inner_003', 56977, -27193, 639, 56972, -27259, 550, 56982, -27188, 728, 158250, 644, 518, 'false');
--- REPLACE INTO castle_door VALUES (64, 21170004, 'Fortress_of_the_Dead_inner_004', 56977, -27318, 639, 56971, -27323, 550, 56981, -27251, 726, 158250, 644, 518, 'false');
--- REPLACE INTO castle_door VALUES (64, 21170005, 'Fortress_of_the_Dead_inner_005', 57902, -26392, 654, 57893, -26401, 563, 57976, -26382, 743, 158250, 644, 518, 'false');
--- REPLACE INTO castle_door VALUES (64, 21170006, 'Fortress_of_the_Dead_inner_006', 58024, -26391, 654, 57953, -26400, 563, 58037, -26383, 743, 158250, 644, 518, 'false');
-
--- ----------------------- --
--- Rainbow Springs Chateau --
--- ----------------------- --
-
--- Rainbow Springs Chateau Door
--- REPLACE INTO castle_door VALUES (62, 24140001, 'Rainbow_Springs_inner_001', 140728, -124477, -1894, 140725, -124478, -1913, 140754, -124437, -1463, 158250, 644, 518, 'false');
--- REPLACE INTO castle_door VALUES (62, 24140002, 'Rainbow_Springs_inner_002', 140778, -124402, -1894, 140750, -124440, -1923, 140779, -124399, -1473, 158250, 644, 518, 'false');
--- REPLACE INTO castle_door VALUES (62, 24140003, 'Rainbow_Springs_inner_003', 141149, -124310, -1894, 141146, -124336, -1921, 141187, -124306, -1471, 158250, 644, 518, 'false');
--- REPLACE INTO castle_door VALUES (62, 24140004, 'Rainbow_Springs_inner_004', 141224, -124360, -1894, 141184, -124361, -1920, 141225, -124332, -1470, 158250, 644, 518, 'false');
--- REPLACE INTO castle_door VALUES (62, 24140005, 'Rainbow_Springs_inner_005', 141281, -124738, -1894, 141253, -124777, -1949, 141282, -124735, -1499, 158250, 644, 518, 'false');
--- REPLACE INTO castle_door VALUES (62, 24140006, 'Rainbow_Springs_inner_006', 141231, -124813, -1894, 141228, -124814, -1947, 141258, -124772, -1497, 158250, 644, 518, 'false');
--- REPLACE INTO castle_door VALUES (62, 24140007, 'Rainbow_Springs_outer_007', 140702, -123836, -1932, 140700, -123886, -1942, 140715, -123835, -1492, 158250, 644, 518, 'false');
--- REPLACE INTO castle_door VALUES (62, 24140008, 'Rainbow_Springs_outer_008', 140722, -123934, -1932, 140709, -123935, -1941, 140723, -123884, -1491, 158250, 644, 518, 'false');
-
--- Messenger
--- DELETE FROM `spawnlist` WHERE `npc_templateid` IN (35604);
--- INSERT INTO `spawnlist` (location,count,npc_templateid,locx,locy,locz,randomx,randomy,heading,respawn_delay,loc_id,periodOfDay) VALUES
--- ('rainbowsprings_messenger', 1, 35604, 143944, -119196, -2136, 0, 0, 1000, 0, 0, 0); 
-
--- Caretaker
--- REPLACE INTO clanhall_siege_guards VALUES (62, NULL, 35603, 153337, -126441, -2270, 1, 1, 0);
-
--- Arena 1 npc / monsters
--- REPLACE INTO clanhall_siege_guards VALUES (62, NULL, 35596, 151774, -126861, -2218, 1, 1, 0);
--- REPLACE INTO clanhall_siege_guards VALUES (62, NULL, 35593, 151862, -127080, -2218, 1, 300000, 0);
--- REPLACE INTO clanhall_siege_guards VALUES (62, NULL, 35592, 151262, -127080, -2218, 1, 300000, 0);
-
--- Arena 2 npc / monsters
--- REPLACE INTO clanhall_siege_guards VALUES (62, NULL, 35597, 153404, -125576, -2218, 1, 1, 0);
--- REPLACE INTO clanhall_siege_guards VALUES (62, NULL, 35593, 153341, -125335, -2218, 1, 300000, 0);
--- REPLACE INTO clanhall_siege_guards VALUES (62, NULL, 35592, 152841, -125335, -2218, 1, 300000, 0);
-
--- Arena 3 npc / monsters
--- REPLACE INTO clanhall_siege_guards VALUES (62, NULL, 35598, 154132, -127301, -2218, 1, 1, 0);
--- REPLACE INTO clanhall_siege_guards VALUES (62, NULL, 35593, 154192, -127530, -2218, 1, 300000, 0);
--- REPLACE INTO clanhall_siege_guards VALUES (62, NULL, 35592, 153592, -127530, -2218, 1, 300000, 0);
-
--- Arena 4 npc / monsters
--- REPLACE INTO clanhall_siege_guards VALUES (62, NULL, 35598, 155390, -125489, -2218, 1, 1, 0);
--- REPLACE INTO clanhall_siege_guards VALUES (62, NULL, 35593, 155969, -125752, -2218, 1, 300000, 0);
--- REPLACE INTO clanhall_siege_guards VALUES (62, NULL, 35592, 155369, -125752, -2218, 1, 300000, 0);
-
--- Update siege npcs
--- UPDATE npc SET type = 'L2Monster' WHERE id = 35592;
--- UPDATE npc SET type = 'L2Monster' WHERE id = 35593;
--- UPDATE npc SET type = 'L2Monster' WHERE id = 35588;
--- UPDATE npc SET type = 'L2Monster' WHERE id = 35589;
--- UPDATE npc SET type = 'L2Monster' WHERE id = 35590;
--- UPDATE npc SET type = 'L2Monster' WHERE id = 35591;
--- UPDATE npc SET type = 'L2Doormen' WHERE id = 35602;
--- UPDATE npc SET type = 'L2Doormen' WHERE id = 35601;
--- UPDATE npc SET type = 'L2ClanHallManager', `mp` = '152120' WHERE id = 35605;
-
--- Update siege items
--- UPDATE etcitem SET item_type = 'stackable', handler = 'QuestItems' WHERE item_id = 8030;
--- UPDATE etcitem SET item_type = 'stackable', handler = 'QuestItems' WHERE item_id = 8031;
--- UPDATE etcitem SET item_type = 'stackable', handler = 'QuestItems' WHERE item_id = 8032;
--- UPDATE etcitem SET item_type = 'stackable', handler = 'QuestItems' WHERE item_id = 8033;
 
 REPLACE INTO npcskills VALUES
 -- Chamber of Delusion
@@ -3827,3 +3659,9 @@ REPLACE INTO droplist VALUES
 (22376,15812,1,1,-1,500),
 (22376,15813,1,1,-1,500),
 (22376,15814,1,1,-1,500);
+
+-- 修正嗨翻天NPC位置
+DELETE FROM `spawnlist` WHERE `npc_templateid` IN (30949,30952);
+INSERT INTO `spawnlist` (location,count,npc_templateid,locx,locy,locz,randomx,randomy,heading,respawn_delay,loc_id,periodOfDay) VALUES
+('aden02_npc2318_01',1,30949,114201,13426,-5104,0,0,1722,60,0,0),  -- 調查員 凱普龍
+('aden02_npc2318_01',1,30952,114178,13343,-5104,0,0,0,60,0,0);     -- 因次界點
