@@ -58,6 +58,7 @@ public class HolyBrazier extends L2AttackableAIScript
 		return;
 	}
 
+	@Override
 	public String onSpawn(L2Npc npc)
 	{
 		System.out.println("******* onSpawn *******");
@@ -74,6 +75,7 @@ public class HolyBrazier extends L2AttackableAIScript
 		return super.onSpawn(npc);
 	}
 
+	@Override
 	public String onAggroRangeEnter(L2Npc npc, L2PcInstance player, boolean isPet)
 	{
 		if (npc.getNpcId() == GuardianOfTheGrail && !npc.isInCombat() && npc.getTarget() == null)
@@ -83,6 +85,7 @@ public class HolyBrazier extends L2AttackableAIScript
 		return super.onAggroRangeEnter(npc, player, isPet);
 	}
 
+	@Override
 	public String onKill (L2Npc npc, L2PcInstance killer, boolean isPet) 
 	{
 		if (npc.getNpcId() == GuardianOfTheGrail)

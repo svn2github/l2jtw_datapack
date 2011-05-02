@@ -387,6 +387,7 @@ public class ChamberOfDelusionGreat extends Quest
 		}
 	}
 
+	@Override
 	public String onAdvEvent (String event, L2Npc npc, L2PcInstance player)
 	{
 		InstanceManager.getInstance().getPlayerWorld(player);
@@ -486,11 +487,13 @@ public class ChamberOfDelusionGreat extends Quest
 	}
 
 
+	@Override
 	public final String onFirstTalk (L2Npc npc, L2PcInstance player)
 	{
 		return npc.getNpcId() + ".htm";
 	}
 
+	@Override
 	public String onTalk (L2Npc npc, L2PcInstance player)
 	{
 		int npcId = npc.getNpcId();

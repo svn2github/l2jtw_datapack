@@ -47,6 +47,7 @@ public class Jerian extends Quest
 			pet.teleToLocation(coords[0], coords[1], coords[2], true);
 	}
 
+	@Override
 	public String onAdvEvent(String event, L2Npc npc, L2PcInstance player)
 	{
 		QuestState st = player.getQuestState(getName());
@@ -69,12 +70,14 @@ public class Jerian extends Quest
 		return "";
 	}
 
+	@Override
 	public String onTalk(L2Npc npc, L2PcInstance talker)
 	{
 		int npcId = npc.getNpcId();
 		return npcId + ".htm";
 	}
 
+	@Override
 	public String onFirstTalk(L2Npc npc, L2PcInstance player)
 	{
 		QuestState st = player.getQuestState(getName());

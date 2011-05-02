@@ -233,7 +233,8 @@ public class IceQueen_Kegor extends Quest
 		return null;
 	}
 
-  public String onTalk ( L2Npc npc, L2PcInstance player)
+  @Override
+public String onTalk ( L2Npc npc, L2PcInstance player)
 	{
 		int npcId = npc.getNpcId();
 		String htmltext = getNoQuestMsg(player);
@@ -343,6 +344,7 @@ public class IceQueen_Kegor extends Quest
 		return null;
 	}
 
+	@SuppressWarnings("cast")
 	@Override
 	public final String onKill(L2Npc npc, L2PcInstance player, boolean isPet)
 	{

@@ -38,6 +38,7 @@ public class Cats_Eye_Bandit extends L2AttackableAIScript
 		_FirstAttacked = false;
 	}
 
+	@Override
 	public String onAttack (L2Npc npc, L2PcInstance attacker, int damage, boolean isPet)
 	{
 		if (npc.getNpcId() == Cats_Eye_Bandit)
@@ -52,6 +53,7 @@ public class Cats_Eye_Bandit extends L2AttackableAIScript
 		return super.onAttack(npc, attacker, damage, isPet);
 	}
 
+	@Override
 	public String onKill(L2Npc npc, L2PcInstance killer, boolean isPet)
 	{
 		int npcId = npc.getNpcId();

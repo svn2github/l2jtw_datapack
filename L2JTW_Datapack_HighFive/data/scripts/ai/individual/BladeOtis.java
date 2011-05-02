@@ -43,6 +43,7 @@ public class BladeOtis extends L2AttackableAIScript
 		addKillId(GUARD);
 	}
 
+	@Override
 	public String onAdvEvent(String event, L2Npc npc, L2PcInstance player)
 	{
 		int objId = npc.getObjectId();
@@ -64,6 +65,7 @@ public class BladeOtis extends L2AttackableAIScript
 		return super.onAdvEvent(event, npc, player);
 	}
 
+	@Override
 	public String onAttack(L2Npc npc, L2PcInstance player, int damage, boolean isPet)
 	{
 		int npcId = npc.getNpcId();
@@ -81,6 +83,7 @@ public class BladeOtis extends L2AttackableAIScript
 		return super.onAttack(npc, player, damage, isPet);
 	}
 
+	@Override
 	public String onKill(L2Npc npc, L2PcInstance killer, boolean isPet)
 	{
 		int npcId = npc.getNpcId();

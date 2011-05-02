@@ -53,6 +53,7 @@ public class Delu_Lizardman_Special_Commander extends L2AttackableAIScript
 		_FirstAttacked = false;
 	}
 
+	@Override
 	public String onAttack (L2Npc npc, L2PcInstance player, int damage, boolean isPet)
 	{
 		if (npc.getNpcId() == Delu_Lizardman_Special_Commander)
@@ -73,6 +74,7 @@ public class Delu_Lizardman_Special_Commander extends L2AttackableAIScript
 		return super.onAttack(npc, player, damage, isPet);
 	}
 
+	@Override
 	public String onKill(L2Npc npc, L2PcInstance killer, boolean isPet)
 	{
 		int npcId = npc.getNpcId();

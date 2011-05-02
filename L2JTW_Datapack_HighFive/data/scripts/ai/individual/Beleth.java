@@ -907,12 +907,14 @@ public class Beleth extends L2AttackableAIScript
 
 	}
 
+	@Override
 	public String onAdvEvent(String event, L2Npc npc, L2PcInstance player)
 	{
 		ThreadPoolManager.getInstance().scheduleGeneral(new eventExecutor(event, npc), 5);
 		return super.onAdvEvent(event, npc, player);
 	}
 
+	@Override
 	public String onTalk(L2Npc npc, L2PcInstance player)
 	{
 		int npcId = npc.getNpcId();
@@ -972,6 +974,7 @@ public class Beleth extends L2AttackableAIScript
 		return "";
 	}
 
+	@Override
 	public String onKill(L2Npc npc, L2PcInstance killer, boolean isPet)
 	{
 		int npcId = npc.getNpcId();
@@ -992,6 +995,7 @@ public class Beleth extends L2AttackableAIScript
 		return "";
 	}
 
+	@Override
 	public String onAttack(L2Npc npc, L2PcInstance attacker, int damage, boolean isPet, L2Skill skill)
 	{
 		int npcId = npc.getNpcId();
@@ -1028,6 +1032,7 @@ public class Beleth extends L2AttackableAIScript
 		return "";
 	}
 
+	@Override
 	public String onFactionCall(L2Npc npc, L2Npc caller, L2PcInstance attacker, boolean isPet)
 	{
 		// Starts casting skills on a target if not already casting

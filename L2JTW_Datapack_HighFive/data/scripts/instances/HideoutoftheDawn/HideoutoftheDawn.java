@@ -80,6 +80,7 @@ public class HideoutoftheDawn extends Quest
 		}
 	}
 
+	@Override
 	public String onTalk ( L2Npc npc, L2PcInstance player)
 	{
 		int npcId = npc.getNpcId();

@@ -751,6 +751,7 @@ public class RimKamaloka extends Quest
 		}
 	}
 
+	@Override
 	public final String onAdvEvent (String event, L2Npc npc, L2PcInstance player)
 	{
 		if (npc == null || player == null)
@@ -800,6 +801,7 @@ public class RimKamaloka extends Quest
 		return null;
 	}
 
+	@Override
 	public final String onFactionCall(L2Npc npc, L2Npc caller, L2PcInstance attacker, boolean isPet)
 	{
 		if (npc == null || caller == null)
@@ -811,6 +813,7 @@ public class RimKamaloka extends Quest
 		return super.onFactionCall(npc, caller, attacker, isPet);
 	}
 
+	@Override
 	public final String onTalk(L2Npc npc, L2PcInstance player)
 	{
 		if (npc == null)
@@ -850,11 +853,13 @@ public class RimKamaloka extends Quest
 		return null;
 	}
 
+	@Override
 	public final String onFirstTalk (L2Npc npc, L2PcInstance player)
 	{
 		return String.valueOf(npc.getNpcId()) + ".htm";
 	}
 
+	@Override
 	public final String onAttack(L2Npc npc, L2PcInstance attacker, int damage, boolean isPet)
 	{
 		if (npc == null || attacker == null)
@@ -905,6 +910,7 @@ public class RimKamaloka extends Quest
 		return super.onAttack(npc, attacker, damage, isPet);
 	}
 
+	@Override
 	public final String onKill(L2Npc npc, L2PcInstance player, boolean isPet)
 	{
 		if (npc == null || player == null)

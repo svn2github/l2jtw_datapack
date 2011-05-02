@@ -783,6 +783,7 @@ public class PailakaInjuredDragon extends Quest
 		}
 	}
 	
+	@SuppressWarnings("null")
 	@Override
 	public final String onAggroRangeEnter(L2Npc npc, L2PcInstance player, boolean isPet)
 	{

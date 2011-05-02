@@ -30,6 +30,7 @@ public class FreyaTeleport extends Quest
 		addTalkId(NPC);
 	}
 
+	@Override
 	public String onTalk(L2Npc npc, L2PcInstance player)
 	{
 		String htmltext = "";

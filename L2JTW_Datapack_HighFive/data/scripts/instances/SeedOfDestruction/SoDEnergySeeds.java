@@ -123,6 +123,7 @@ public class SoDEnergySeeds extends L2AttackableAIScript
 			stopAI();
 	}
 
+	@Override
 	public String onSkillSee (L2Npc npc, L2PcInstance caster, L2Skill skill, L2Object[] targets, boolean isPet)
 	{
 		// if the AI is inactive, disable the gather ability
@@ -181,6 +182,7 @@ public class SoDEnergySeeds extends L2AttackableAIScript
 		return super.onSkillSee(npc, caster, skill, targets, isPet);
 	}
 	
+	@Override
 	public String onKill(L2Npc npc, L2PcInstance player, boolean isPet)
 	{
 		//_spawnedNpcs contains the ESSpawn ID of this NPC, and we call that ESSpawn from _spawns
@@ -280,6 +282,7 @@ public class SoDEnergySeeds extends L2AttackableAIScript
 		}
 	}
 	
+	@Override
 	public String onFirstTalk (L2Npc npc, L2PcInstance player)
 	{
 		if (npc.getNpcId() == TEMPORARY_TELEPORTER)

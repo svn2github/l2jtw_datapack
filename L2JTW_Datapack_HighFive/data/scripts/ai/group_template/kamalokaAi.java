@@ -38,6 +38,7 @@ public class kamalokaAi  extends L2AttackableAIScript
 		this.registerMobs(temp, QuestEventType.ON_KILL);
 	}
 
+	@Override
 	public String onKill (L2Npc npc, L2PcInstance killer, boolean isPet)
 	{
 		int npcId = npc.getNpcId();
