@@ -166,6 +166,9 @@ public class Q195_SevenSignSecretRitualOfThePriests extends Quest
 		addTalkId(JOHN);
 		addTalkId(RAYMOND);
 		addTalkId(IASON_HEINE);
+
+		questItemIds = new int[]
+		{ SHUNAIMAN_CONTRACT, IDENTITY_CARD };
 	}
 	
 	public static void main(String[] args)
