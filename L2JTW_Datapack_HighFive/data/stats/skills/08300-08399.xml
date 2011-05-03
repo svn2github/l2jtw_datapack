@@ -639,15 +639,15 @@
 	</skill>
 	<skill id="8357" levels="1" name="Einhasad's Strike">
 		<!-- Update by rocknow -->
-		<set name="mpConsume" val="100" />
+		<set name="mpConsume" val="0" />
 		<set name="power" val="100000" /><!-- Update by pmq -->
 		<set name="target" val="TARGET_FRONT_AREA" />
 		<set name="hitTime" val="1300" />
-		<set name="reuseDelay" val="10000" />
+		<set name="reuseDelay" val="3000" />
 		<set name="skillType" val="PDAM" />
 		<set name="operateType" val="OP_ACTIVE" />
 		<set name="castRange" val="200" />
-		<set name="effectRange" val="700" />
+		<set name="effectRange" val="400" />
 	</skill>
 	<skill id="8358" levels="1" name="Remove the seal of an Agathion - Towbat">
 		<!-- Update by rocknow -->

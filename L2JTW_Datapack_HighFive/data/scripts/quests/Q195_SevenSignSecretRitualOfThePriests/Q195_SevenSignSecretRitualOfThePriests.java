@@ -91,8 +91,8 @@ public class Q195_SevenSignSecretRitualOfThePriests extends Quest
 		{
 			if (cond == 4)
 			{
-				st.addExpAndSp(52518015, 5817677);
-				//st.addExpAndSp(25000000, 2500000); // High Five
+				//st.addExpAndSp(52518015, 5817677);
+				st.addExpAndSp(25000000, 2500000); // High Five
 				st.unset("cond"); 
 				st.exitQuest(false);
 				st.playSound("ItemSound.quest_finish");

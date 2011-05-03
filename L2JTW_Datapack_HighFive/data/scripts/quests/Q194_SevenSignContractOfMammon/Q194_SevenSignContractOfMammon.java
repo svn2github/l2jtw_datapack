@@ -175,7 +175,8 @@ public class Q194_SevenSignContractOfMammon extends Quest
 		{
 			if (event.equalsIgnoreCase("31001-03.htm"))
 			{
-				st.addExpAndSp(52518015, 5817677);
+				//st.addExpAndSp(52518015, 5817677);
+				st.addExpAndSp(25000000, 2500000); // High Five
 				st.unset("cond");
 				st.setState(State.COMPLETED);
 				st.exitQuest(false);

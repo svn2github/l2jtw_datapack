@@ -128,7 +128,13 @@ public class Q196_SevenSignSealOfTheEmperor extends Quest
 		thisnpc.npc = addSpawn(LEON, -89400, 216125, -7504, 40960, false, 0, false, world.instanceId);
 		StartRoom.npcList.add(thisnpc);
 		
-		thisnpc.npc = addSpawn(DISCIPLES_GK, -84389, 216038, -7490, 0, false, 0, false, world.instanceId);
+		thisnpc.npc = addSpawn(DISCIPLES_GK, -84385, 216117, -7497, 0, false, 0, false, world.instanceId);
+		StartRoom.npcList.add(thisnpc);
+		
+		thisnpc.npc = addSpawn(MAGICAN, -84945, 220643, -7495, 0, false, 0, false, world.instanceId);
+		StartRoom.npcList.add(thisnpc);
+		
+		thisnpc.npc = addSpawn(MAGICAN, -89563, 220647, -7491, 0, false, 0, false, world.instanceId);
 		StartRoom.npcList.add(thisnpc);
 		
 		world.rooms.put("StartRoom", StartRoom);
@@ -137,143 +143,195 @@ public class Q196_SevenSignSealOfTheEmperor extends Quest
 	}
 	
 /**
-Room1 Mobs
-27371
-27372
-27373
-27374
-
-*/
+ * Room1 Mobs 27371 27372 27373 27374
+ */
 	protected void runFirstRoom(SIGNSWorld world)
 	{
 		SIGNSRoom FirstRoom = new SIGNSRoom();
 		SIGNSNpc thisnpc;
-		
 		thisnpc = new SIGNSNpc();
-		thisnpc.npc = addSpawn(27371,0,0,0,0,false,0,false, world.instanceId);
-		if (noRndWalk)
-			thisnpc.npc.setIsNoRndWalk(true);
+		thisnpc.isDead = false;
+		thisnpc.npc = addSpawn(27371,-89049, 217979, -7495, 0, false, 0, false, world.instanceId);
+		FirstRoom.npcList.add(thisnpc);
+		
+		thisnpc.npc = addSpawn(27372,-89049, 217979, -7495, 0, false, 0, false, world.instanceId);
+		FirstRoom.npcList.add(thisnpc);
+		
+		thisnpc.npc = addSpawn(27373,-89049, 217979, -7495, 0, false, 0, false, world.instanceId);
+		FirstRoom.npcList.add(thisnpc);
+		
+		thisnpc.npc = addSpawn(27374,-89049, 217979, -7495, 0, false, 0, false, world.instanceId);
 		FirstRoom.npcList.add(thisnpc);
 		
 		world.rooms.put("FirstRoom", FirstRoom);
 		world.status = 1;
-		openDoor(DOOR2, world.instanceId);
+
 		if (debug)
 			_log.info("SevenSignSealOfTheEmperor: spawned First room");
 	}
 	
 /**
-Room2 Mobs
-27371
-27371
-27372
-27373
-27373
-27374
-*/
+ * Room2 Mobs 27371 27371 27372 27373 27373 27374
+ */
 	protected void runSecondRoom(SIGNSWorld world)
 	{
 		SIGNSRoom SecondRoom = new SIGNSRoom();
 		SIGNSNpc thisnpc;
-		
 		thisnpc = new SIGNSNpc();
-		thisnpc.npc = addSpawn(27371,0,0,0,0,false,0,false, world.instanceId);
-		if (noRndWalk)
-			thisnpc.npc.setIsNoRndWalk(true);
+		thisnpc.isDead = false;
+		thisnpc.npc = addSpawn(27371, -88599, 220071, -7495, 0, false, 0, false, world.instanceId);
+		SecondRoom.npcList.add(thisnpc);
+		
+		thisnpc.npc = addSpawn(27371, -88599, 220071, -7495, 0, false, 0, false, world.instanceId);
+		SecondRoom.npcList.add(thisnpc);
+		
+		thisnpc.npc = addSpawn(27372, -88599, 220071, -7495, 0, false, 0, false, world.instanceId);
+		SecondRoom.npcList.add(thisnpc);
+		
+		thisnpc.npc = addSpawn(27373, -88599, 220071, -7495, 0, false, 0, false, world.instanceId);
+		SecondRoom.npcList.add(thisnpc);
+		
+		thisnpc.npc = addSpawn(27373, -88599, 220071, -7495, 0, false, 0, false, world.instanceId);
+		SecondRoom.npcList.add(thisnpc);
+		
+		thisnpc.npc = addSpawn(27374, -88599, 220071, -7495, 0, false, 0, false, world.instanceId);
 		SecondRoom.npcList.add(thisnpc);
 		
 		world.rooms.put("SecondRoom", SecondRoom);
 		world.status = 2;
-		openDoor(DOOR4, world.instanceId);
+		
 		if (debug)
 			_log.info("SevenSignSealOfTheEmperor: spawned second room");
 	}
 	
 /**
-Room3 Mobs
-27371
-27371
-27372
-27372
-27373
-27373
-27374
-27374
-*/
+ * Room3 Mobs 27371 27371 27372 27372 27373 27373 27374 27374
+ */
 	protected void runThirdRoom(SIGNSWorld world)
 	{
 		SIGNSRoom ThirdRoom = new SIGNSRoom();
 		SIGNSNpc thisnpc;
-		
 		thisnpc = new SIGNSNpc();
-		thisnpc.npc = addSpawn(27371,0,0,0,0,false,0,false, world.instanceId);
-		if (noRndWalk)
-			thisnpc.npc.setIsNoRndWalk(true);
+		thisnpc.isDead = false;
+		thisnpc.npc = addSpawn(27371, -86846, 220639, -7495, 0, false, 0, false, world.instanceId);
+		ThirdRoom .npcList.add(thisnpc);
+		
+		thisnpc.npc = addSpawn(27371, -86846, 220639, -7495, 0, false, 0, false, world.instanceId);
+		ThirdRoom .npcList.add(thisnpc);
+		
+		thisnpc.npc = addSpawn(27372, -86846, 220639, -7495, 0, false, 0, false, world.instanceId);
+		ThirdRoom .npcList.add(thisnpc);
+		
+		thisnpc.npc = addSpawn(27372, -86846, 220639, -7495, 0, false, 0, false, world.instanceId);
+		ThirdRoom .npcList.add(thisnpc);
+		
+		thisnpc.npc = addSpawn(27373, -86846, 220639, -7495, 0, false, 0, false, world.instanceId);
+		ThirdRoom .npcList.add(thisnpc);
+		
+		thisnpc.npc = addSpawn(27373, -86846, 220639, -7495, 0, false, 0, false, world.instanceId);
+		ThirdRoom .npcList.add(thisnpc);
+		
+		thisnpc.npc = addSpawn(27374, -86846, 220639, -7495, 0, false, 0, false, world.instanceId);
+		ThirdRoom .npcList.add(thisnpc);
+		
+		thisnpc.npc = addSpawn(27374, -86846, 220639, -7495, 0, false, 0, false, world.instanceId);
 		ThirdRoom .npcList.add(thisnpc);
 		
 		world.rooms.put("ThirdRoom", ThirdRoom);
 		world.status = 3;
-		openDoor(DOOR6, world.instanceId);
+		
 		if (debug)
 			_log.info("SevenSignSealOfTheEmperor: spawned Third room");
 	}
 	
 /**
-Room4 Mobs
-27371
-27372
-27373
-27374
-27375
-27377
-27378
-27379
-*/
+ * Room4 Mobs 27371 27372 27373 27374 27375 27377 27378 27379
+ */
 	protected void runForthRoom(SIGNSWorld world)
 	{
 		SIGNSRoom ForthRoom = new SIGNSRoom();
 		SIGNSNpc thisnpc;
-		
 		thisnpc = new SIGNSNpc();
-		thisnpc.npc = addSpawn(27371,0,0,0,0,false,0,false, world.instanceId);
-		if (noRndWalk)
-			thisnpc.npc.setIsNoRndWalk(true);
+		thisnpc.isDead = false;
+		thisnpc.npc = addSpawn(27371, -85463, 219227, -7495, 0, false, 0, false, world.instanceId);
+		ForthRoom.npcList.add(thisnpc);
+		
+		thisnpc.npc = addSpawn(27372, -85463, 219227, -7495, 0, false, 0, false, world.instanceId);
+		ForthRoom.npcList.add(thisnpc);
+		
+		thisnpc.npc = addSpawn(27373, -85463, 219227, -7495, 0, false, 0, false, world.instanceId);
+		ForthRoom.npcList.add(thisnpc);
+		
+		thisnpc.npc = addSpawn(27374, -85463, 219227, -7495, 0, false, 0, false, world.instanceId);
+		ForthRoom.npcList.add(thisnpc);
+		
+		thisnpc.npc = addSpawn(27375, -85463, 219227, -7495, 0, false, 0, false, world.instanceId);
+		ForthRoom.npcList.add(thisnpc);
+		
+		thisnpc.npc = addSpawn(27377, -85463, 219227, -7495, 0, false, 0, false, world.instanceId);
+		ForthRoom.npcList.add(thisnpc);
+		
+		thisnpc.npc = addSpawn(27378, -85463, 219227, -7495, 0, false, 0, false, world.instanceId);
+		ForthRoom.npcList.add(thisnpc);
+		
+		thisnpc.npc = addSpawn(27379, -85463, 219227, -7495, 0, false, 0, false, world.instanceId);
 		ForthRoom.npcList.add(thisnpc);
 		
 		world.rooms.put("ForthRoom", ForthRoom);
 		world.status = 4;
-		openDoor(DOOR8, world.instanceId);
+		
 		if (debug)
 			_log.info("SevenSignSealOfTheEmperor: spawned Forth room");
 	}
 	
 /**
-Room5 Mobs
-27371
-27372
-27373
-27374
-27375
-27375
-27377
-27377
-27378
-27378
-27379
-27379
-*/
+ * Room5 Mobs 27371 27372 27373 27374 27375 27375 27377 27377 27378 27378 27379 27379
+ */
 	protected void runFifthRoom(SIGNSWorld world)
 	{
 		SIGNSRoom FifthRoom = new SIGNSRoom();
 		SIGNSNpc thisnpc;
-		
 		thisnpc = new SIGNSNpc();
-		thisnpc.npc = addSpawn(27371,0,0,0,0,false,0,false, world.instanceId);
+		thisnpc.isDead = false;
+		thisnpc.npc = addSpawn(27371, -87441, 217623, -7495, 0, false, 0, false, world.instanceId);
+		FifthRoom.npcList.add(thisnpc);
+		
+		thisnpc.npc = addSpawn(27372, -87441, 217623, -7495, 0, false, 0, false, world.instanceId);
+		FifthRoom.npcList.add(thisnpc);
+		
+		thisnpc.npc = addSpawn(27373, -87441, 217623, -7495, 0, false, 0, false, world.instanceId);
+		FifthRoom.npcList.add(thisnpc);
+		
+		thisnpc.npc = addSpawn(27374, -87441, 217623, -7495, 0, false, 0, false, world.instanceId);
+		FifthRoom.npcList.add(thisnpc);
+		
+		thisnpc.npc = addSpawn(27375, -87441, 217623, -7495, 0, false, 0, false, world.instanceId);
+		FifthRoom.npcList.add(thisnpc);
+		
+		thisnpc.npc = addSpawn(27375, -87441, 217623, -7495, 0, false, 0, false, world.instanceId);
+		FifthRoom.npcList.add(thisnpc);
+		
+		thisnpc.npc = addSpawn(27377, -87441, 217623, -7495, 0, false, 0, false, world.instanceId);
+		FifthRoom.npcList.add(thisnpc);
+		
+		thisnpc.npc = addSpawn(27377, -87441, 217623, -7495, 0, false, 0, false, world.instanceId);
+		FifthRoom.npcList.add(thisnpc);
+		
+		thisnpc.npc = addSpawn(27378, -87441, 217623, -7495, 0, false, 0, false, world.instanceId);
+		FifthRoom.npcList.add(thisnpc);
+		
+		thisnpc.npc = addSpawn(27378, -87441, 217623, -7495, 0, false, 0, false, world.instanceId);
+		FifthRoom.npcList.add(thisnpc);
+		
+		thisnpc.npc = addSpawn(27379, -87441, 217623, -7495, 0, false, 0, false, world.instanceId);
+		FifthRoom.npcList.add(thisnpc);
+		
+		thisnpc.npc = addSpawn(27379, -87441, 217623, -7495, 0, false, 0, false, world.instanceId);
 		FifthRoom.npcList.add(thisnpc);
 		
 		world.rooms.put("FifthRoom", FifthRoom);
 		world.status = 5;
-		openDoor(DOOR10, world.instanceId);
+		
 		if (debug)
 			_log.info("SevenSignSealOfTheEmperor: spawned Fifth room");
 	}
@@ -339,15 +397,45 @@ Room5 Mobs
 		if (noRndWalk)
 			thisnpc.npc.setIsNoRndWalk(true);
 		
-		//thisnpc.npc = addSpawn(32592, 0, 0, 0, 0, false, 0, false, world.instanceId);
-		//BossRoom.npcList.add(thisnpc);
-		//if (noRndWalk)
-			//thisnpc.npc.setIsNoRndWalk(true);
+		thisnpc.npc = addSpawn(32592, -83176, 216753, -7497, 0, false, 0, false, world.instanceId);
+		BossRoom.npcList.add(thisnpc);
+		if (noRndWalk)
+			thisnpc.npc.setIsNoRndWalk(true);
 		
 		world.rooms.put("BossRoom", BossRoom);
 		world.status = 6;
 		if (debug)
 			_log.info("SevenSignSealOfTheEmperor: spawned Boss room");
+	}
+	protected void runSDRoom(SIGNSWorld world)
+	{
+		SIGNSRoom SDRoom = new SIGNSRoom();
+		SIGNSNpc thisnpc;
+		
+		thisnpc = new SIGNSNpc();
+		thisnpc.npc = addSpawn(SEALDEVICE, -83177, 217353, -7520, 32768, false, 0, false, world.instanceId);
+		SDRoom.npcList.add(thisnpc);
+		if (noRndWalk)
+			thisnpc.npc.setIsNoRndWalk(true);
+		
+		thisnpc.npc = addSpawn(SEALDEVICE, -83177, 216137, -7520, 32768, false, 0, false, world.instanceId);
+		SDRoom.npcList.add(thisnpc);
+		if (noRndWalk)
+			thisnpc.npc.setIsNoRndWalk(true);
+		
+		thisnpc.npc = addSpawn(SEALDEVICE, -82588, 216754, -7520, 32768, false, 0, false, world.instanceId);
+		SDRoom.npcList.add(thisnpc);
+		if (noRndWalk)
+			thisnpc.npc.setIsNoRndWalk(true);
+		
+		thisnpc.npc = addSpawn(SEALDEVICE, -83804, 216754, -7520, 32768, false, 0, false, world.instanceId);
+		SDRoom.npcList.add(thisnpc);
+		if (noRndWalk)
+			thisnpc.npc.setIsNoRndWalk(true);
+		
+		world.rooms.put("SDRoom", SDRoom);
+		if (debug)
+			_log.info("SevenSignSealOfTheEmperor: spawned SD room");
 	}
 	
 	protected boolean checkKillProgress(L2Npc npc, SIGNSRoom room)
@@ -421,6 +509,7 @@ Room5 Mobs
 			InstanceManager.getInstance().addWorld(world);
 			((SIGNSWorld) world).storeTime[0] = System.currentTimeMillis();
 			runStartRoom((SIGNSWorld) world);
+			runFirstRoom((SIGNSWorld) world);
 			world.allowed.add(player.getObjectId());
 			teleportPlayer(player, TELEPORT, instanceId);
 
@@ -483,8 +572,8 @@ Room5 Mobs
 		}
 		else if (event.equalsIgnoreCase("32593-02.htm"))
 		{
-			st.addExpAndSp(52518015, 5817676);
-			//st.addExpAndSp(25000000, 2500000); // High Five
+			//st.addExpAndSp(52518015, 5817676);
+			st.addExpAndSp(25000000, 2500000); // High Five
 			st.setState(State.COMPLETED);
 			st.exitQuest(false);
 			st.playSound("ItemSound.quest_finish");
@@ -515,7 +604,13 @@ Room5 Mobs
 				SIGNSWorld world = (SIGNSWorld) tempworld;
 				openDoor(DOOR, world.instanceId);
 				player.showQuestMovie(12);
+				runBossRoom(world);
 			}
+		}
+		else if (event.equalsIgnoreCase("Tele"))
+		{
+			player.teleToLocation(-89528, 216056, -7516);
+			return null;
 		}
 		return event;
 	}
@@ -528,8 +623,8 @@ Room5 Mobs
 
 		if (st == null)
 			return "<html><body>目前沒有執行任務，或條件不符。</body></html>";
+		
 		final int cond = st.getInt("cond");
-
 		switch (npc.getNpcId())
 		{
 			case HEINE:
@@ -642,57 +737,75 @@ Room5 Mobs
 	{
 		QuestState st = player.getQuestState(qn);
 
+		InstanceWorld tmpworld = InstanceManager.getInstance().getWorld(npc.getInstanceId());
+		SIGNSWorld world;
+		
 		if (st == null)
 			return null;
 
-		if (npc.getNpcId() == SEALDEVICE)
-		{
-			if (st.getQuestItemsCount(SEAL) < 3)
-			{
-				st.playSound("ItemSound.quest_itemget");
-				st.giveItems(SEAL, 1);
-			}
-			else
-			{
-				st.giveItems(SEAL, 1);
-				//player.teleToLocation(-89528, 216056, -7516);
-				st.playSound("ItemSound.quest_middle");
-				player.showQuestMovie(13);
-
-			}
-		}
-		InstanceWorld tmpworld = InstanceManager.getInstance().getWorld(npc.getInstanceId());
-		SIGNSWorld world;
 		if (tmpworld instanceof SIGNSWorld)
 		{
 			world = (SIGNSWorld)tmpworld;
-			if (world.status == 0)
-			{
-				if (checkKillProgress(npc, world.rooms.get("FirstRoom")))
-					runSecondRoom(world);
-			}
 			if (world.status == 1)
 			{
-				if (checkKillProgress(npc,world.rooms.get("SecondRoom")))
+				if (checkKillProgress(npc, world.rooms.get("FirstRoom")))
+				{
+					runSecondRoom(world);
+					openDoor(DOOR2, world.instanceId);
+				}
+			}
+			else if (world.status == 2)
+			{
+				if (checkKillProgress(npc, world.rooms.get("SecondRoom")))
+				{
 					runThirdRoom(world);
+					openDoor(DOOR4, world.instanceId);
+				}
 			}
-			if (world.status == 2)
+			else if (world.status == 3)
 			{
-				if (checkKillProgress(npc,world.rooms.get("ThirdRoom")))
+				if (checkKillProgress(npc, world.rooms.get("ThirdRoom")))
+				{
 					runForthRoom(world);
+					openDoor(DOOR6, world.instanceId);
+				}
 			}
-			if (world.status == 3)
+			else if (world.status == 4)
 			{
-				if (checkKillProgress(npc,world.rooms.get("ForthRoom")))
+				if (checkKillProgress(npc, world.rooms.get("ForthRoom")))
+				{
 					runFifthRoom(world);
+					openDoor(DOOR8, world.instanceId);
+				}
 			}
-			if (world.status == 4)
+			else if (world.status == 5)
 			{
-				if (checkKillProgress(npc,world.rooms.get("FifthRoom")))
-					runFifthRoom(world);
+				if (checkKillProgress(npc, world.rooms.get("FifthRoom")))
+				{
+					openDoor(DOOR10, world.instanceId);
+				}
+			}
+			else if (world.status == 6)
+			{
+				if (npc.getNpcId() == SEALDEVICE)
+				{
+					if (st.getQuestItemsCount(SEAL) < 3)
+					{
+						st.playSound("ItemSound.quest_itemget");
+						st.giveItems(SEAL, 1);
+					}
+					else
+					{
+						st.giveItems(SEAL, 1);
+						st.playSound("ItemSound.quest_middle");
+						runSDRoom(world);
+						player.showQuestMovie(13);
+						startQuestTimer("Tele", 26000, null, player);
+					}
+				}
 			}
 		}
-		return null;
+		return super.onKill(npc, player, isPet);
 	}
 
 	public static void main(String[] args)
