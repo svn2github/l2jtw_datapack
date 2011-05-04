@@ -85,7 +85,7 @@ public class Q278_HomeSecurity extends Quest
 	@Override
 	public String onTalk(L2Npc npc, L2PcInstance player)
 	{
-		String htmltext = getNoQuestMsg(player);
+		String htmltext = "<html><body>目前沒有執行任務，或條件不符。</body></html>";
 		QuestState st = player.getQuestState(qn);
 		
 		if (st == null)
@@ -185,6 +185,6 @@ public class Q278_HomeSecurity extends Quest
 	
 	public static void main(String[] args)
 	{
-		new Q278_HomeSecurity(278, qn, "Home Security");
+		new Q278_HomeSecurity(278, qn, "請用愛來守護我");
 	}
 }

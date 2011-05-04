@@ -41,7 +41,7 @@ public class Q19_GoToThePastureland extends Quest
 		QuestState st = player.getQuestState(qn);
 		
 		if (st == null)
-			return getNoQuestMsg(player);
+			return "<html><body>目前沒有執行任務，或條件不符。</body></html>";
 		
 		if (event.equalsIgnoreCase("31302-02.htm"))
 		{
@@ -52,18 +52,18 @@ public class Q19_GoToThePastureland extends Quest
 		}
 		else if (event.equalsIgnoreCase("31537-02.html"))
 		{
-			if (st.getQuestItemsCount(YoungWildBeastMeat) >= 1)
+			if (st.hasQuestItems(YoungWildBeastMeat))
 			{
-				st.takeItems(YoungWildBeastMeat, 1);
+				st.takeItems(YoungWildBeastMeat, -1);
 				st.giveItems(57, 50000);
 				st.addExpAndSp(136766, 12688);
 				st.playSound("ItemSound.quest_finish");
 				st.exitQuest(false);
 				htmltext = "31537-02.html";
 			}
-			else if (st.getQuestItemsCount(Veal) >= 1)
+			else if (st.hasQuestItems(Veal))
 			{
-				st.takeItems(Veal, 1);
+				st.takeItems(Veal, -1);
 				st.giveItems(57, 147200);
 				st.addExpAndSp(385040, 75250);
 				st.playSound("ItemSound.quest_finish");
@@ -81,7 +81,7 @@ public class Q19_GoToThePastureland extends Quest
 	@Override
 	public String onTalk(L2Npc npc, L2PcInstance player)
 	{
-		String htmltext = getNoQuestMsg(player);
+		String htmltext = "<html><body>目前沒有執行任務，或條件不符。</body></html>";
 		QuestState st = player.getQuestState(qn);
 		
 		if (st == null)
@@ -101,7 +101,7 @@ public class Q19_GoToThePastureland extends Quest
 					htmltext = "31302-04.html";
 					break;
 				case State.COMPLETED:
-					htmltext = getAlreadyCompletedMsg(player);
+					htmltext = "<html><body>這是已經完成的任務。</body></html>";
 					break;
 			}
 		}
@@ -124,6 +124,6 @@ public class Q19_GoToThePastureland extends Quest
 	
 	public static void main(String[] args)
 	{
-		new Q19_GoToThePastureland(19, qn, "Go to the Pastureland");
+		new Q19_GoToThePastureland(19, qn, "前往放牧場吧!");
 	}
 }

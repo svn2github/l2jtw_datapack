@@ -99,7 +99,7 @@ public class Q198_SevenSignEmbryo extends Quest
 	@Override
 	public String onTalk(L2Npc npc, L2PcInstance player)
 	{
-		String htmltext = getNoQuestMsg(player);
+		String htmltext = "<html><body>目前沒有執行任務，或條件不符。</body></html>";
 		QuestState st = player.getQuestState(qn);
 		QuestState fifth = player.getQuestState("197_SevenSignTheSacredBookOfSeal");
 		
@@ -190,6 +190,6 @@ public class Q198_SevenSignEmbryo extends Quest
 	
 	public static void main(String[] args)
 	{
-		new Q197_SevenSignTheSacredBookOfSeal(107, qn, "Seven Signs Embryo");
+		new Q197_SevenSignTheSacredBookOfSeal(107, qn, "七封印，胚胎");
 	}
 }

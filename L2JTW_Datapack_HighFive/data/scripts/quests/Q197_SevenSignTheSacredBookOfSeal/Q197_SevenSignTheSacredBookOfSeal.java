@@ -125,7 +125,7 @@ public class Q197_SevenSignTheSacredBookOfSeal extends Quest
 	@Override
 	public String onTalk(L2Npc npc, L2PcInstance player)
 	{
-		String htmltext = getNoQuestMsg(player);
+		String htmltext = "<html><body>目前沒有執行任務，或條件不符。</body></html>";
 		QuestState st = player.getQuestState(qn);
 		QuestState fourth = player.getQuestState("196_SevenSignSealOfTheEmperor");
 		
@@ -243,6 +243,6 @@ public class Q197_SevenSignTheSacredBookOfSeal extends Quest
 	
 	public static void main(String[] args)
 	{
-		new Q197_SevenSignTheSacredBookOfSeal(197, qn, "Seven Sign The Sacred Book Of Seal");
+		new Q197_SevenSignTheSacredBookOfSeal(197, qn, "七封印，封印的經典");
 	}
 }
