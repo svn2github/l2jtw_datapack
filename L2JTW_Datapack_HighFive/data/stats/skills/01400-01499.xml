@@ -708,8 +708,8 @@
 		<set name="target" val="TARGET_CLAN" />
 		<set name="skillType" val="CANCEL_DEBUFF" />
 		<set name="operateType" val="OP_ACTIVE" />
-		<set name="hitTime" val="5000" />
-		<set name="reuseDelay" val="1800000" />
+		<set name="hitTime" val="3000" />
+		<set name="reuseDelay" val="1200000" />
 		<set name="staticReuse" val="true" />
 		<set name="castRange" val="900" />
 		<set name="skillRadius" val="180" />
@@ -1022,14 +1022,19 @@
 		<enchant4 name="element" val="5" /> <!-- Dark -->
 		<enchant5 name="magicLvl" val="#enchantMagicLvl" />
 		<for>
-			<effect count="5" name="Fear" val="0" abnormalLvl="1" abnormalType="turn_flee" effectPower="40" effectType="FEAR" />
+			<effect name="Debuff" val="0" abnormalTime="5" abnormalLvl="1" abnormalType="speed_down" effectPower="40" effectType="DEBUFF">
+				<mul order="0x30" stat="runSpd" val="0.7" />
+			</effect>
 		</for>
 		<enchant3for>
-			<effect count="5" name="Fear" val="0" abnormalLvl="1" abnormalType="turn_flee" effectPower="#ench3Power" effectType="FEAR" />
+			<effect name="Debuff" val="0" abnormalTime="5" abnormalLvl="1" abnormalType="speed_down" effectPower="#ench3Power" effectType="DEBUFF">
+				<mul order="0x30" stat="runSpd" val="0.7" />
+			</effect>
 		</enchant3for>
 		<enchant5for>
-			<effect count="5" name="Fear" val="0" abnormalLvl="1" abnormalType="turn_flee" effectPower="40" effectType="FEAR">
+			<effect name="Debuff" val="0" abnormalTime="5" abnormalLvl="1" abnormalType="speed_down" effectPower="40" effectType="DEBUFF">
 				<sub order="0x40" stat="darkRes" val="#ench5DarkhVuln" />
+				<mul order="0x30" stat="runSpd" val="0.7" />
 			</effect>
 		</enchant5for>
 	</skill>
@@ -1778,7 +1783,7 @@
 		</enchant1for>
 	</skill>
 	<skill id="1461" levels="1" name="Chant of Protection" enchantGroup1="5" enchantGroup2="5">
-		<table name="#ench1Time"> 620 640 660 680 700 720 740 760 780 800 820 840 860 880 900 </table>
+		<table name="#ench1Time"> 1220 1240 1260 1280 1300 1320 1340 1360 1380 1400 1420 1440 1460 1480 1500 </table>
 		<table name="#ench2mpInitialConsume"> 57 56 55 54 53 52 51 50 49 48 47 46 45 44 43 </table>
 		<table name="#ench2mpConsume"> 226 222 218 214 210 208 204 200 196 192 188 184 181 177 173 </table>
 		<set name="mpInitialConsume" val="39" />
@@ -1794,7 +1799,7 @@
 		<enchant2 name="mpInitialConsume" val="#ench2mpInitialConsume" />
 		<enchant2 name="mpConsume" val="#ench2mpConsume" />
 		<for>
-			<effect name="Buff" abnormalTime="600" val="0" abnormalLvl="1" abnormalType="t_crt_dmg_down">
+			<effect name="Buff" abnormalTime="1200" val="0" abnormalLvl="1" abnormalType="t_crt_dmg_down">
 				<mul order="0x30" stat="critVuln" val="0.7" />
 			</effect>
 		</for>
@@ -2549,7 +2554,7 @@
 		<set name="reuseDelay" val="2000" />
 		<for>
 			<effect name="ChanceSkillTrigger" abnormalTime="1200" val="0" abnormalLvl="1" abnormalType="elemental_armor" triggeredId="5567" chanceType="ON_ATTACKED" activationChance="10">
-				<add order="0x40" stat="fireRes" val="10" />
+				<add order="0x40" stat="fireRes" val="60" />
 			</effect>
 		</for>
 	</skill>
@@ -2561,11 +2566,11 @@
 		<set name="magicLvl" val="81" />
 		<set name="operateType" val="OP_ACTIVE" />
 		<set name="isMagic" val="true" />
-		<set name="hitTime" val="4000" />
+		<set name="hitTime" val="3000" />
 		<set name="reuseDelay" val="2000" />
 		<for>
 			<effect name="ChanceSkillTrigger" abnormalTime="1200" val="0" abnormalLvl="1" abnormalType="elemental_armor" triggeredId="5568" chanceType="ON_ATTACKED" activationChance="10">
-				<add order="0x40" stat="waterRes" val="10" />
+				<add order="0x40" stat="waterRes" val="60" />
 			</effect>
 		</for>
 	</skill>
@@ -2576,12 +2581,12 @@
 		<set name="skillType" val="BUFF" />
 		<set name="magicLvl" val="81" />
 		<set name="operateType" val="OP_ACTIVE" />
-		<set name="hitTime" val="4000" />
+		<set name="hitTime" val="3000" />
 		<set name="isMagic" val="true" />
 		<set name="reuseDelay" val="2000" />
 		<for>
 			<effect name="ChanceSkillTrigger" abnormalTime="1200" val="0" abnormalLvl="1" abnormalType="elemental_armor" triggeredId="5569" chanceType="ON_ATTACKED" activationChance="10">
-				<add order="0x40" stat="windRes" val="10" />
+				<add order="0x40" stat="windRes" val="60" />
 			</effect>
 		</for>
 	</skill>
@@ -2601,9 +2606,9 @@
 		<set name="operateType" val="OP_ACTIVE" />
 		<set name="hitTime" val="4000" />
 		<set name="reuseDelay" val="180000" />
-		<set name="absorbPart" val="0.4" /> <!-- absorbs 40% of damage -->
+		<set name="absorbPart" val="0.2" /> <!-- absorbs 20% of damage -->
 		<for>
-			<effect name="Debuff" abnormalTime="30" val="0" abnormalLvl="1" abnormalType="ultimate_debuff" effectPower="80" effectType="DEBUFF">
+			<effect name="Debuff" abnormalTime="10" val="0" abnormalLvl="1" abnormalType="ultimate_debuff" effectPower="80" effectType="DEBUFF">
 				<mul order="0x30" stat="pAtk" val="0.5" />
 				<mul order="0x30" stat="pAtkSpd" val="0.5" />
 				<mul order="0x30" stat="runSpd" val="0.5" />

@@ -126,7 +126,7 @@
 		<set name="aggroPoints" val="668" />
 		<set name="castRange" val="400" />
 		<set name="effectRange" val="900" />
-		<set name="hitTime" val="4000" />
+		<set name="hitTime" val="3000" />
 		<set name="isMagic" val="true" />
 		<set name="magicLvl" val="81" />
 		<set name="maxNegated" val="10" />
@@ -134,7 +134,7 @@
 		<set name="mpInitialConsume" val="15" />
 		<set name="operateType" val="OP_ACTIVE" />
 		<set name="power" val="100" />
-		<set name="reuseDelay" val="1800000" />
+		<set name="reuseDelay" val="1200000" />
 		<set name="skillType" val="HPMPHEAL_PERCENT" />
 		<set name="target" val="TARGET_ONE" />
 		<cond msgId="113" addName="1">
@@ -181,8 +181,9 @@
 		<set name="skillType" val="ROOT" />
 		<set name="target" val="TARGET_AURA" />
 		<for>
-			<effect name="Root" abnormalTime="30" val="0" abnormalLvl="1" abnormalType="root_magically" />
-			<effect count="10" name="DamOverTime" abnormalTime="3" val="90" abnormal="poison" noicon="1" />
+			<effect name="Root" abnormalTime="10" val="0" abnormal="poison" abnormalLvl="1" abnormalType="root_magically" />
+			<effect count="2" name="DamOverTime" abnormalTime="5" val="180" noicon="1" />
+			<effect count="2" name="ManaDamOverTime" abnormalTime="5" val="60" noicon="1" />
 		</for>
 	</skill>
 	<skill id="1509" levels="1" name="Seal of Limit">
@@ -353,22 +354,22 @@
 		<set name="target" val="TARGET_SELF" />
 		<for>
 			<effect name="Buff" abnormalTime="10" val="0" abnormalLvl="1" abnormalType="pd_up_bow">
-				<mul order="0x30" stat="bowWpnVuln" val="0.4" />
-				<mul order="0x30" stat="crossbowWpnVuln" val="0.4" />
+				<mul order="0x30" stat="bowWpnVuln" val="0.9" />
+				<mul order="0x30" stat="crossbowWpnVuln" val="0.94" />
 				<mul order="0x30" stat="mDef" val="2" />
 			</effect>
 		</for>
 		<enchant1for>
 			<effect name="Buff" abnormalTime="#ench1time" val="0" abnormalLvl="1" abnormalType="pd_up_bow">
-				<mul order="0x30" stat="bowWpnVuln" val="0.4" />
-				<mul order="0x30" stat="crossbowWpnVuln" val="0.4" />
+				<mul order="0x30" stat="bowWpnVuln" val="0.9" />
+				<mul order="0x30" stat="crossbowWpnVuln" val="0.94" />
 				<mul order="0x30" stat="mDef" val="2" />
 			</effect>
 		</enchant1for>
 		<enchant2for>
 			<effect name="Buff" abnormalTime="10" val="0" abnormalLvl="1" abnormalType="pd_up_bow">
-				<mul order="0x30" stat="bowWpnVuln" val="0.4" />
-				<mul order="0x30" stat="crossbowWpnVuln" val="0.4" />
+				<mul order="0x30" stat="bowWpnVuln" val="0.9" />
+				<mul order="0x30" stat="crossbowWpnVuln" val="0.94" />
 				<mul order="0x30" stat="mDef" val="2" />
 				<add order="0x40" stat="pDef" val="#ench2pDef" />
 			</effect>
@@ -416,7 +417,7 @@
 		<set name="hitTime" val="2000" />
 		<set name="isMagic" val="true" />
 		<set name="magicLvl" val="76" />
-		<set name="mpConsume" val="43" />
+		<set name="mpConsume" val="34" />
 		<set name="operateType" val="OP_ACTIVE" />
 		<set name="power" val="166" />
 		<set name="reuseDelay" val="15000" />
@@ -711,8 +712,6 @@
 		<table name="#enchDuel"> 66 68 69 71 73 74 76 78 79 81 83 84 86 88 89 91 92 94 96 97 99 101 102 104 106 107 109 111 112 114 </table>
 		<set name="mpInitialConsume" val="#mpConsume_Init" />
 		<set name="mpConsume" val="#mpConsume" />
-		<set name="itemConsumeId" val="2508" />
-		<set name="itemConsumeCount" val="1" />
 		<set name="magicLvl" val="#magicLvl" />
 		<set name="power" val="#power" />
 		<set name="target" val="TARGET_ONE" />
@@ -1075,12 +1074,15 @@
 		<set name="reuseDelay" val="5000" />
 	</skill>
 	<skill id="1547" levels="3" name="Spirit Sharing">
+		<table name="#abnormalLvl"> 1 2 3 </table>
 		<table name="#magicLvl"> 44 62 70 </table>
 		<table name="#mpInitialConsume"> 8 12 13 </table>
 		<table name="#mpConsume"> 31 46 52 </table>
 		<table name="#amount"> 1.03 1.04 1.05 </table>
-		<table name="#abnormalLvl"> 1 2 3 </table>
+		<table name="#pAtkSpd"> 1.02 1.05 1.07 </table>
+		<table name="#mAtkSpd"> 1.01 1.03 1.05 </table>
 		<table name="#physicalSkillPower"> 1.05 1.07 1.1 </table>
+		<table name="#rCrit"> 0.05 0.07 0.1 </table>
 		<set name="hitTime" val="4000" />
 		<set name="isMagic" val="true" />
 		<set name="magicLvl" val="#magicLvl" />
@@ -1093,8 +1095,11 @@
 		<for>
 			<effect name="Buff" abnormalTime="1200" val="0" abnormalLvl="#abnormalLvl" abnormalType="public_slot">
 				<mul order="0x30" stat="pAtk" val="#amount" />
+				<mul order="0x30" stat="pAtkSpd" val="#pAtkSpd" />
 				<mul order="0x30" stat="mAtk" val="#amount" />
+				<mul order="0x30" stat="mAtkSpd" val="#mAtkSpd" />
 				<mul order="0x30" stat="physicalSkillPower" val="#physicalSkillPower" />
+				<basemul order="0x30" stat="rCrit" val="#rCrit" />
 			</effect>
 		</for>
 	</skill>
