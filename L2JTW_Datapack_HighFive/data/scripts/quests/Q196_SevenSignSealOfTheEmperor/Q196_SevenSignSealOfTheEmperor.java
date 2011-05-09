@@ -18,24 +18,28 @@ import javolution.util.FastList;
 import javolution.util.FastMap;
 
 import com.l2jserver.gameserver.ai.CtrlIntention;
+import com.l2jserver.gameserver.datatables.SkillTable;
 import com.l2jserver.gameserver.instancemanager.InstanceManager;
 import com.l2jserver.gameserver.instancemanager.InstanceManager.InstanceWorld;
-//import com.l2jserver.gameserver.model.actor.L2Attackable;
+import com.l2jserver.gameserver.model.L2Effect;
+import com.l2jserver.gameserver.model.actor.L2Attackable;
+import com.l2jserver.gameserver.model.actor.L2Character;
 import com.l2jserver.gameserver.model.actor.L2Npc;
 import com.l2jserver.gameserver.model.actor.instance.L2DoorInstance;
 import com.l2jserver.gameserver.model.actor.instance.L2PcInstance;
 import com.l2jserver.gameserver.model.entity.Instance;
+import com.l2jserver.gameserver.model.L2Object;
+import com.l2jserver.gameserver.model.L2Skill;
+import com.l2jserver.gameserver.model.L2World;
 import com.l2jserver.gameserver.model.quest.Quest;
 import com.l2jserver.gameserver.model.quest.QuestState;
 import com.l2jserver.gameserver.model.quest.State;
 import com.l2jserver.gameserver.network.SystemMessageId;
-//import com.l2jserver.gameserver.network.serverpackets.MagicSkillUse;
-import com.l2jserver.gameserver.network.serverpackets.NpcSay;
-import com.l2jserver.gameserver.network.serverpackets.SystemMessage;
-
+import com.l2jserver.gameserver.network.serverpackets.*;
+//import com.l2jserver.util.Rnd;
 
 /**
- * update pmq 23-04-2011
+ * update by pmq 09-05-2011
  *
  */
 public class Q196_SevenSignSealOfTheEmperor extends Quest
@@ -43,6 +47,7 @@ public class Q196_SevenSignSealOfTheEmperor extends Quest
 	private static class SIGNSNpc
 	{
 		public L2Npc npc;
+	
 		public boolean isDead = false;
 	}
 	
@@ -55,18 +60,15 @@ public class Q196_SevenSignSealOfTheEmperor extends Quest
 	{
 		public FastMap<String,SIGNSRoom> rooms = new FastMap<String,SIGNSRoom>();
 		public long[] storeTime = { 0, 0 };
-		
-		public SIGNSWorld()
-		{
-		}
+		public SIGNSWorld() {}
 	}
 	
 	private static boolean debug = false;
 	private static boolean noRndWalk = true;
-
+	
 	public static final String qn = "196_SevenSignSealOfTheEmperor";
 	private static final int INSTANCE_ID       = 112;
-
+	
 	// NPCs
 	private static final int HEINE             = 30969;  // 艾森海內
 	private static final int MAMMON            = 32584;  // 財富的商人
@@ -76,7 +78,7 @@ public class Q196_SevenSignSealOfTheEmperor extends Quest
 	private static final int LEON              = 32587;  // 皇帝警衛 萊溫
 	private static final int PROMICE_OF_MAMMON = 32585;  // 傳送師 財富的約定
 	private static final int DISCIPLES_GK      = 32657;  // 使徒的守門人
-
+	
 	//FIGHTING NPCS
 	private static final int LILITH        = 32715;  // 深淵的聖母 莉莉絲
 	private static final int LILITH_GUARD0 = 32716;  // 莉莉絲的代言者
@@ -85,7 +87,7 @@ public class Q196_SevenSignSealOfTheEmperor extends Quest
 	private static final int ANAKIM_GUARD0 = 32719;  // 亞納的守護者
 	private static final int ANAKIM_GUARD1 = 32720;  // 亞納的禁衛隊
 	private static final int ANAKIM_GUARD2 = 32721;  // 亞納的執行者
-
+	
 	//DOOR
 	//private static final int DOOR1  = 17240101; /** 第一房間門要用聖水開啟 */
 	private static final int DOOR2  = 17240102; /** 第一房間怪全滅自動開門 */
@@ -100,20 +102,87 @@ public class Q196_SevenSignSealOfTheEmperor extends Quest
 	private static final int DOOR = 17240111;
 	// INSTANCE TP
 	private static final int[] TELEPORT = { -89559, 216030, -7488 };
-
+	
 	private static final int[] NPCS = { HEINE, WOOD, MAMMON, MAGICAN, SHUNAIMAN, LEON, PROMICE_OF_MAMMON, DISCIPLES_GK };
-
+	
 	// MOBs
 	private static final int SEALDEVICE = 27384;  // 史奈曼皇帝的 封印裝置
-	private static int[] TOKILL = {27371,27372,27373,27374,27375,27377,27378,27379,27384};
-
+	private static final int[] TOKILL = {27371,27372,27373,27374,27375,27377,27378,27379,27384};
+	private static final int[] TOCHAT = {27371,27372,27373,27377,27378,27379};
+	
 	// QUEST ITEMS
 	private static final int WATER = 13808;  // 艾爾摩亞丁的聖水
 	private static final int SWORD = 15310;  // 殷海薩聖劍
 	private static final int SEAL  = 13846;  // 封印的印章
 	private static final int STAFF = 13809;  // 宮廷魔法師的魔法棒
-
+	
+	//Skills
+	private static final int EINHASAD_STRIKE = 8357;
+	
 	private int mammonst = 0;
+	
+	private static final void removeBuffs(L2Character ch)
+	{
+		for (L2Effect e : ch.getAllEffects())
+		{
+			if (e == null)
+				continue;
+			L2Skill skill = e.getSkill();
+			if (skill.isDebuff() || skill.isStayAfterDeath())
+				continue;
+			e.exit();
+		}
+	}
+	
+	@Override
+	public String onAggroRangeEnter(L2Npc npc, L2PcInstance player, boolean isPet)
+	{
+		InstanceWorld tmpworld = InstanceManager.getInstance().getWorld(player.getInstanceId());
+		if (tmpworld instanceof SIGNSWorld)
+		{
+			if (npc.getNpcId() == 27371)
+			{
+				((L2Attackable) npc).abortAttack();
+				npc.setTarget(player);
+				npc.setIsRunning(true);
+				npc.getAI().setIntention(CtrlIntention.AI_INTENTION_ATTACK, player);
+				npc.broadcastPacket(new NpcSay(npc.getObjectId(), 0, npc.getNpcId(), "這裡本來是屬於席琳女神的。"));
+			}
+			if (npc.getNpcId() == 27372)
+			{
+				((L2Attackable) npc).abortAttack();
+				npc.setTarget(player);
+				npc.setIsRunning(true);
+				npc.getAI().setIntention(CtrlIntention.AI_INTENTION_ATTACK, player);
+				npc.broadcastPacket(new NpcSay(npc.getObjectId(), 0, npc.getNpcId(), "是誰敢進來這裡？！"));
+			}
+			if (npc.getNpcId() == 27373 || npc.getNpcId() == 27379)
+			{
+				((L2Attackable) npc).abortAttack();
+				npc.setTarget(player);
+				npc.setIsRunning(true);
+				npc.getAI().setIntention(CtrlIntention.AI_INTENTION_ATTACK, player);
+				npc.broadcastPacket(new NpcSay(npc.getObjectId(), 0, npc.getNpcId(), "膽怯的傢伙滾出去，勇敢的傢伙衝過來吧！"));
+			}
+			if (npc.getNpcId() == 27377)
+			{
+				((L2Attackable) npc).abortAttack();
+				npc.setTarget(player);
+				npc.setIsRunning(true);
+				npc.getAI().setIntention(CtrlIntention.AI_INTENTION_ATTACK, player);
+				npc.broadcastPacket(new NpcSay(npc.getObjectId(), 0, npc.getNpcId(), "趕快離開這裡！"));
+			}
+			if (npc.getNpcId() == 27378)
+			{
+				((L2Attackable) npc).abortAttack();
+				npc.setTarget(player);
+				npc.setIsRunning(true);
+				npc.getAI().setIntention(CtrlIntention.AI_INTENTION_ATTACK, player);
+				npc.broadcastPacket(new NpcSay(npc.getObjectId(), 0, npc.getNpcId(), "是誰敢進來這裡？！"));
+			}
+		}
+		return null;
+	}
 	
 	protected void runStartRoom(SIGNSWorld world)
 	{
@@ -407,6 +476,7 @@ public class Q196_SevenSignSealOfTheEmperor extends Quest
 		if (debug)
 			_log.info("SevenSignSealOfTheEmperor: spawned Boss room");
 	}
+	
 	protected void runSDRoom(SIGNSWorld world)
 	{
 		SIGNSRoom SDRoom = new SIGNSRoom();
@@ -417,21 +487,25 @@ public class Q196_SevenSignSealOfTheEmperor extends Quest
 		SDRoom.npcList.add(thisnpc);
 		if (noRndWalk)
 			thisnpc.npc.setIsNoRndWalk(true);
+			thisnpc.npc.setRHandId(15281);
 		
 		thisnpc.npc = addSpawn(SEALDEVICE, -83177, 216137, -7520, 32768, false, 0, false, world.instanceId);
 		SDRoom.npcList.add(thisnpc);
 		if (noRndWalk)
 			thisnpc.npc.setIsNoRndWalk(true);
+			thisnpc.npc.setRHandId(15281);
 		
 		thisnpc.npc = addSpawn(SEALDEVICE, -82588, 216754, -7520, 32768, false, 0, false, world.instanceId);
 		SDRoom.npcList.add(thisnpc);
 		if (noRndWalk)
 			thisnpc.npc.setIsNoRndWalk(true);
+			thisnpc.npc.setRHandId(15281);
 		
 		thisnpc.npc = addSpawn(SEALDEVICE, -83804, 216754, -7520, 32768, false, 0, false, world.instanceId);
 		SDRoom.npcList.add(thisnpc);
 		if (noRndWalk)
 			thisnpc.npc.setIsNoRndWalk(true);
+			thisnpc.npc.setRHandId(15281);
 		
 		world.rooms.put("SDRoom", SDRoom);
 		if (debug)
@@ -452,38 +526,25 @@ public class Q196_SevenSignSealOfTheEmperor extends Quest
 		return cont;
 	}
 	
-
-	public Q196_SevenSignSealOfTheEmperor(int questId, String name, String descr)
-	{
-		super(questId, name, descr);
-
-		addStartNpc(HEINE);
-		addStartNpc(PROMICE_OF_MAMMON);
-
-		for (int i : NPCS)
-			addTalkId(i);
-
-		for (int mob : TOKILL )
-			addKillId(mob);
-
-		questItemIds = new int[]
-		{ SWORD, WATER, SEAL, STAFF };
-	}
-
 	private static final void teleportPlayer(L2PcInstance player, int[] coords, int instanceId)
 	{
+		removeBuffs(player);
+		if (player.getPet() != null)
+		{
+			removeBuffs(player.getPet());
+		}
 		player.getAI().setIntention(CtrlIntention.AI_INTENTION_IDLE);
 		player.setInstanceId(instanceId);
 		player.teleToLocation(coords[0], coords[1], coords[2], true);
 	}
-
+	
 	private static final void openDoor(int doorId, int instanceId)
 	{
 		for (L2DoorInstance door : InstanceManager.getInstance().getInstance(instanceId).getDoors())
 			if (door.getDoorId() == doorId)
 				door.openMe();
 	}
-
+	
 	private final synchronized void enterInstance(L2PcInstance player)
 	{
 		InstanceWorld world = InstanceManager.getInstance().getPlayerWorld(player);
@@ -502,7 +563,7 @@ public class Q196_SevenSignSealOfTheEmperor extends Quest
 		else
 		{
 			final int instanceId = InstanceManager.getInstance().createDynamicInstance("SanctumSealOfTheEmperor.xml");
-
+			
 			world = new SIGNSWorld();
 			world.instanceId = instanceId;
 			world.templateId = INSTANCE_ID;
@@ -512,25 +573,57 @@ public class Q196_SevenSignSealOfTheEmperor extends Quest
 			runFirstRoom((SIGNSWorld) world);
 			world.allowed.add(player.getObjectId());
 			teleportPlayer(player, TELEPORT, instanceId);
-
+			
 			_log.info("SevenSigns 5th epic quest " + instanceId + " created by player: " + player.getName());
 		}
 	}
-
+	
 	protected void exitInstance(L2PcInstance player)
 	{
 		player.setInstanceId(0);
 		player.teleToLocation(171782, -17612, -4901);
 	}
-
+	
+	@Override
+	public String onAttack(L2Npc npc, L2PcInstance attacker, int damage, boolean isPet, L2Skill skill)
+	{
+		InstanceWorld tmpworld = InstanceManager.getInstance().getWorld(npc.getInstanceId());
+		if (tmpworld instanceof SIGNSWorld)
+		{
+			SIGNSWorld world = (SIGNSWorld) tmpworld;
+			
+			if (world.status == 6 && npc.getNpcId() == SEALDEVICE)
+			{
+				npc.doCast(SkillTable.getInstance().getInfo(5980, 3));
+			}
+		}
+		return super.onAttack(npc, attacker, damage, isPet, skill);
+	}
+	
+	@Override
+	public String onSkillSee(L2Npc npc, L2PcInstance caster, L2Skill skill, L2Object[] targets, boolean isPet)
+	{
+		InstanceWorld tmpworld = InstanceManager.getInstance().getWorld(npc.getInstanceId());
+		if (tmpworld instanceof SIGNSWorld)
+		{
+			SIGNSWorld world = (SIGNSWorld) tmpworld;
+			
+			if (skill.getId() == EINHASAD_STRIKE && world.status == 6 && npc.getNpcId() == SEALDEVICE)
+			{
+				npc.doCast(SkillTable.getInstance().getInfo(5980, 3));
+			}
+		}
+		return super.onSkillSee(npc, caster, skill, targets, isPet);
+	}
+	
 	@Override
 	public final String onAdvEvent(String event, L2Npc npc, L2PcInstance player)
 	{
 		QuestState st = player.getQuestState(qn);
-
+		
 		if (st == null)
 			return "<html><body>目前沒有執行任務，或條件不符。</body></html>";
-
+		
 		if (event.equalsIgnoreCase("30969-05.htm"))
 		{
 			st.set("cond", "1");
@@ -540,13 +633,14 @@ public class Q196_SevenSignSealOfTheEmperor extends Quest
 		else if (event.equalsIgnoreCase("32598-02.htm"))
 		{
 			st.giveItems(STAFF, 1);
+			player.sendMessage("利用宮廷魔法師的魔法棒，請開啟附有魔法師結界的門。");  // 官服是(黃色字體)
 			st.playSound("ItemSound.quest_middle");
 		}
 		else if (event.equalsIgnoreCase("30969-11.htm"))
 		{
 			st.set("cond", "6");
 			st.playSound("ItemSound.quest_middle");
-
+		
 		}
 		else if (event.equalsIgnoreCase("32584-05.htm"))
 		{
@@ -598,13 +692,20 @@ public class Q196_SevenSignSealOfTheEmperor extends Quest
 		}
 		else if (event.equalsIgnoreCase("DOORS"))
 		{
-			InstanceWorld tempworld = InstanceManager.getInstance().getWorld(npc.getInstanceId());
-			if (tempworld instanceof SIGNSWorld)
+			InstanceWorld tmpworld = InstanceManager.getInstance().getWorld(npc.getInstanceId());
+			if (tmpworld instanceof SIGNSWorld)
 			{
-				SIGNSWorld world = (SIGNSWorld) tempworld;
+				SIGNSWorld world = (SIGNSWorld) tmpworld;
 				openDoor(DOOR, world.instanceId);
-				player.showQuestMovie(12);
-				runBossRoom(world);
+				for(int objId : world.allowed)
+				{
+					L2PcInstance pl = L2World.getInstance().getPlayer(objId);
+					if (pl != null)
+						pl.showQuestMovie(12);
+						runBossRoom(world);
+						player.sendMessage("為了協助亞納，啟動那個受到莉莉絲邪惡詛咒的皇帝的封印裝置！詛咒魔法的威力很強，所以要多留神！");  // 官服是(黃色字體)
+				}
+				return null;
 			}
 		}
 		else if (event.equalsIgnoreCase("Tele"))
@@ -614,13 +715,13 @@ public class Q196_SevenSignSealOfTheEmperor extends Quest
 		}
 		return event;
 	}
-
+	
 	@Override
 	public final String onTalk(L2Npc npc, L2PcInstance player)
 	{
 		final QuestState st = player.getQuestState(qn);
 		final QuestState qs = player.getQuestState("195_SevenSignSecretRitualOfThePriests");
-
+		
 		if (st == null)
 			return "<html><body>目前沒有執行任務，或條件不符。</body></html>";
 		
@@ -691,9 +792,15 @@ public class Q196_SevenSignSealOfTheEmperor extends Quest
 				{
 					case 4:
 						if (st.getQuestItemsCount(STAFF) == 0)
+						{
+							player.sendMessage("利用宮廷魔法師的魔法棒，請開啟附有魔法師結界的門。");  // 官服是(黃色字體)
 							return "32598-01.htm";
-						else if (st.getQuestItemsCount(STAFF) >= 1)
+						}
+						if (st.getQuestItemsCount(STAFF) >= 1)
+						{
+							player.sendMessage("利用宮廷魔法師的魔法棒，請開啟附有魔法師結界的門。");  // 官服是(黃色字體)
 							return "32598-03.htm";
+						}
 				}
 			case SHUNAIMAN:
 				switch (st.getInt("cond"))
@@ -701,8 +808,28 @@ public class Q196_SevenSignSealOfTheEmperor extends Quest
 					case 3:
 						return "32586-01.htm";
 					case 4:
+						if (st.getQuestItemsCount(SWORD) == 0)
+						{
+							player.sendMessage("使用殷海薩聖劍秩必殺技來擊敗邪惡的莉莉恩群！");  // 官服是(黃色字體)
+							player.sendMessage("使用殷海薩聖水後，請開啟圍繞火焰詛咒的門。");  // 官服是(黃色字體)
+							st.giveItems(SWORD, 1);
+							return "32586-14.htm";
+						}
+						if (st.getQuestItemsCount(WATER) == 0)
+						{
+							player.sendMessage("使用殷海薩聖劍秩必殺技來擊敗邪惡的莉莉恩群！");  // 官服是(黃色字體)
+							player.sendMessage("使用殷海薩聖水後，請開啟圍繞火焰詛咒的門。");  // 官服是(黃色字體)
+							st.giveItems(WATER, 1);
+							return "32586-14.htm";
+						}
 						if (st.getQuestItemsCount(SEAL) <= 3)
+						{
+							ExShowScreenMessage message1 = new ExShowScreenMessage(1,0,2,15,0,15,15,false,10000,1,"使用殷海薩聖劍秩必殺技來擊敗邪惡的莉莉恩群！");  // 官服是(黃色字體)
+							player.sendPacket(message1);
+							player.sendMessage("使用殷海薩聖劍秩必殺技來擊敗邪惡的莉莉恩群！");  // 官服是(黃色字體)
+							player.sendMessage("使用殷海薩聖水後，請開啟圍繞火焰詛咒的門。");  // 官服是(黃色字體)
 							return "32586-07.htm";
+						}
 						else if (st.getQuestItemsCount(SEAL) == 4)
 							return "32586-08.htm";
 					case 5:
@@ -727,25 +854,50 @@ public class Q196_SevenSignSealOfTheEmperor extends Quest
 						exitInstance(player);
 						return "32587-02.htm";
 				}
-
+		
 		}
 		return "<html><body>目前沒有執行任務，或條件不符。</body></html>";
 	}
-
+	
 	@Override
 	public final String onKill(L2Npc npc, L2PcInstance player, boolean isPet)
 	{
 		QuestState st = player.getQuestState(qn);
-
+		
 		InstanceWorld tmpworld = InstanceManager.getInstance().getWorld(npc.getInstanceId());
 		SIGNSWorld world;
 		
 		if (st == null)
 			return null;
-
+		
 		if (tmpworld instanceof SIGNSWorld)
 		{
 			world = (SIGNSWorld)tmpworld;
+			if (npc.getNpcId() == 27371)
+			{
+				npc.broadcastPacket(new NpcSay(npc.getObjectId(), 0, npc.getNpcId(), "為了席琳！"));
+			}
+			else if (npc.getNpcId() == 27372)
+			{
+				npc.broadcastPacket(new NpcSay(npc.getObjectId(), 0, npc.getNpcId(), "席琳女神...這個任務...總有一天...我會完成..."));
+			}
+			else if (npc.getNpcId() == 27373)
+			{
+				npc.broadcastPacket(new NpcSay(npc.getObjectId(), 0, npc.getNpcId(), "為什麼妨礙我們呢？"));
+			}
+			else if (npc.getNpcId() == 27377)
+			{
+				npc.broadcastPacket(new NpcSay(npc.getObjectId(), 0, npc.getNpcId(), "為了席琳！"));
+			}
+			else if (npc.getNpcId() == 27378)
+			{
+				npc.broadcastPacket(new NpcSay(npc.getObjectId(), 0, npc.getNpcId(), "席琳女神...這個任務...總有一天...我會完成..."));
+			}
+			else if (npc.getNpcId() == 27379)
+			{
+				npc.broadcastPacket(new NpcSay(npc.getObjectId(), 0, npc.getNpcId(), "為什麼妨礙我們呢？"));
+			}
+			
 			if (world.status == 1)
 			{
 				if (checkKillProgress(npc, world.rooms.get("FirstRoom")))
@@ -791,11 +943,15 @@ public class Q196_SevenSignSealOfTheEmperor extends Quest
 				{
 					if (st.getQuestItemsCount(SEAL) < 3)
 					{
+						player.sendMessage("封印裝置散發光芒後開始運作了。已經在正常運作！");  // 官服是(黃色字體)
+						npc.setRHandId(15281);
 						st.playSound("ItemSound.quest_itemget");
 						st.giveItems(SEAL, 1);
 					}
 					else
 					{
+						player.sendMessage("封印裝置散發光芒後開始運作了。已經在正常運作！");  // 官服是(黃色字體)
+						npc.setRHandId(15281);
 						st.giveItems(SEAL, 1);
 						st.playSound("ItemSound.quest_middle");
 						runSDRoom(world);
@@ -805,9 +961,32 @@ public class Q196_SevenSignSealOfTheEmperor extends Quest
 				}
 			}
 		}
-		return super.onKill(npc, player, isPet);
+		return "";
 	}
-
+	
+	public Q196_SevenSignSealOfTheEmperor(int questId, String name, String descr)
+	{
+		super(questId, name, descr);
+		
+		addStartNpc(HEINE);
+		addStartNpc(PROMICE_OF_MAMMON);
+		
+		addSkillSeeId(SEALDEVICE);
+		addAttackId(SEALDEVICE);
+		
+		for (int i : NPCS)
+			addTalkId(i);
+		
+		for (int mob : TOKILL )
+			addKillId(mob);
+		
+		for (int mob1 : TOCHAT )
+			addAggroRangeEnterId(mob1);
+		
+		questItemIds = new int[]
+		{ SWORD, WATER, SEAL, STAFF };
+	}
+	
 	public static void main(String[] args)
 	{
 		new Q196_SevenSignSealOfTheEmperor(196, qn, "七封印，皇帝的封印");
