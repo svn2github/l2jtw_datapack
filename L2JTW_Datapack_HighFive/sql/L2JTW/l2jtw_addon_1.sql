@@ -3669,3 +3669,14 @@ INSERT INTO `spawnlist` (location,count,npc_templateid,locx,locy,locz,randomx,ra
 ('innadril09_npc2324_07',1,30969,109707,220048,-3520,0,0,7656,60,0,0), -- ︺此ず
 ('',1,32593,146997,23754,-1996,0,0,65062,60,0,0),                      -- ﹛ 紈
 ('',1,32596,37073,-49867,-1133,0,0,15920,60,0,0);                      -- 藉瓜繻 ゑㄈ
+
+-- タ Q196 ┣砞﹚笆
+UPDATE `npc` SET `aggro` = 400 WHERE `id` = 27371; -- 产产炳籍
+UPDATE `npc` SET `aggro` = 400 WHERE `id` = 27372; -- 产产臸旧
+UPDATE `npc` SET `aggro` = 400 WHERE `id` = 27373; -- 产产繦眖肕
+UPDATE `npc` SET `aggro` = 400 WHERE `id` = 27374; -- 畊礩ǜ├
+UPDATE `npc` SET `aggro` = 400 WHERE `id` = 27375; -- 畊礩ǜ├
+UPDATE `npc` SET `aggro` = 400 WHERE `id` = 27376; -- 产产肕
+UPDATE `npc` SET `aggro` = 400 WHERE `id` = 27377; -- 产产
+UPDATE `npc` SET `aggro` = 400 WHERE `id` = 27378; -- 产产臸笵
+UPDATE `npc` SET `aggro` = 400 WHERE `id` = 27379; -- 产产窽矫肕
