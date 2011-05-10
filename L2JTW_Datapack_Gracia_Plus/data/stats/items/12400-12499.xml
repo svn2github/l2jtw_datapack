@@ -4,7 +4,6 @@
 		<set name="icon" val="icon.weapon_bone_of_kaim_vanul_i00" />
 		<set name="weapon_type" val="blunt" />
 		<set name="random_damage" val="20" />
-		<set name="hit_modify" val="4.75" />
 		<set name="immediate_effect" val="1" />
 		<set name="crystal_type" val="b" />
 		<set name="material" val="bone" />
@@ -24,7 +23,6 @@
 		<set name="icon" val="icon.weapon_colichemarde_i00" />
 		<set name="weapon_type" val="rapier" />
 		<set name="random_damage" val="40" />
-		<set name="hit_modify" val="-1.5" />
 		<set name="immediate_effect" val="1" />
 		<set name="crystal_type" val="b" />
 		<set name="material" val="steel" />
@@ -65,7 +63,6 @@
 		<set name="icon" val="icon.weapon_hazard_bow_i00" />
 		<set name="weapon_type" val="bow" />
 		<set name="random_damage" val="5" />
-		<set name="hit_modify" val="-3.75" />
 		<set name="immediate_effect" val="1" />
 		<set name="crystal_type" val="b" />
 		<set name="material" val="blood_steel" />
@@ -86,7 +83,6 @@
 		<set name="icon" val="icon.weapon_hell_hound_i00" />
 		<set name="weapon_type" val="crossbow" />
 		<set name="random_damage" val="10" />
-		<set name="hit_modify" val="-1.5" />
 		<set name="immediate_effect" val="1" />
 		<set name="crystal_type" val="b" />
 		<set name="material" val="steel" />
@@ -109,7 +105,6 @@
 		<set name="icon" val="icon.weapon_dasparions_staff_i00" />
 		<set name="weapon_type" val="blunt" />
 		<set name="random_damage" val="20" />
-		<set name="hit_modify" val="4.75" />
 		<set name="immediate_effect" val="1" />
 		<set name="crystal_type" val="a" />
 		<set name="material" val="adamantaite" />
@@ -129,7 +124,6 @@
 		<set name="icon" val="icon.weapon_doom_singer_i00" />
 		<set name="weapon_type" val="crossbow" />
 		<set name="random_damage" val="10" />
-		<set name="hit_modify" val="-1.5" />
 		<set name="immediate_effect" val="1" />
 		<set name="crystal_type" val="a" />
 		<set name="material" val="steel" />
@@ -152,7 +146,6 @@
 		<set name="icon" val="icon.weapon_lightning_blaze_i00" />
 		<set name="weapon_type" val="rapier" />
 		<set name="random_damage" val="40" />
-		<set name="hit_modify" val="-1.5" />
 		<set name="immediate_effect" val="1" />
 		<set name="crystal_type" val="a" />
 		<set name="material" val="steel" />
@@ -175,7 +168,6 @@
 		<set name="icon" val="icon.weapon_meteor_shower_i00" />
 		<set name="weapon_type" val="blunt" />
 		<set name="random_damage" val="20" />
-		<set name="hit_modify" val="4.75" />
 		<set name="immediate_effect" val="1" />
 		<set name="crystal_type" val="a" />
 		<set name="material" val="fine_steel" />
@@ -195,7 +187,6 @@
 		<set name="icon" val="icon.weapon_blood_tornado_i00" />
 		<set name="weapon_type" val="dualfist" />
 		<set name="random_damage" val="5" />
-		<set name="hit_modify" val="4.75" />
 		<set name="immediate_effect" val="1" />
 		<set name="crystal_type" val="a" />
 		<set name="material" val="blood_steel" />
@@ -215,7 +206,6 @@
 		<set name="icon" val="icon.weapon_bloody_orchid_i00" />
 		<set name="weapon_type" val="dagger" />
 		<set name="random_damage" val="5" />
-		<set name="hit_modify" val="-3.75" />
 		<set name="immediate_effect" val="1" />
 		<set name="crystal_type" val="a" />
 		<set name="material" val="blood_steel" />
@@ -253,7 +243,6 @@
 		<set name="icon" val="icon.weapon_eye_of_soul_i00" />
 		<set name="weapon_type" val="blunt" />
 		<set name="random_damage" val="20" />
-		<set name="hit_modify" val="4.75" />
 		<set name="immediate_effect" val="1" />
 		<set name="crystal_type" val="a" />
 		<set name="material" val="bone" />
@@ -291,7 +280,6 @@
 		<set name="icon" val="icon.weapon_carnium_bow_i00" />
 		<set name="weapon_type" val="bow" />
 		<set name="random_damage" val="5" />
-		<set name="hit_modify" val="-3.75" />
 		<set name="immediate_effect" val="1" />
 		<set name="crystal_type" val="a" />
 		<set name="material" val="damascus" />
@@ -330,7 +318,6 @@
 		<set name="icon" val="icon.weapon_hammer_of_destroyer_i00" />
 		<set name="weapon_type" val="blunt" />
 		<set name="random_damage" val="20" />
-		<set name="hit_modify" val="4.75" />
 		<set name="immediate_effect" val="1" />
 		<set name="crystal_type" val="a" />
 		<set name="material" val="fine_steel" />
@@ -350,7 +337,6 @@
 		<set name="icon" val="icon.weapon_pain_of_godness_i00" />
 		<set name="weapon_type" val="ancientsword" />
 		<set name="random_damage" val="15" />
-		<set name="hit_modify" val="2" />
 		<set name="immediate_effect" val="1" />
 		<set name="crystal_type" val="a" />
 		<set name="material" val="steel" />
@@ -373,7 +359,6 @@
 		<set name="icon" val="icon.weapon_halbard_i00" />
 		<set name="weapon_type" val="pole" />
 		<set name="random_damage" val="10" />
-		<set name="hit_modify" val="-3.75" />
 		<set name="immediate_effect" val="1" />
 		<set name="crystal_type" val="a" />
 		<set name="material" val="oriharukon" />
@@ -393,7 +378,6 @@
 		<set name="icon" val="icon.weapon_greed_stinger_i00" />
 		<set name="weapon_type" val="rapier" />
 		<set name="random_damage" val="40" />
-		<set name="hit_modify" val="-1.5" />
 		<set name="immediate_effect" val="1" />
 		<set name="crystal_type" val="a" />
 		<set name="material" val="steel" />
@@ -434,7 +418,6 @@
 		<set name="icon" val="icon.weapon_death_bringer_i00" />
 		<set name="weapon_type" val="ancientsword" />
 		<set name="random_damage" val="15" />
-		<set name="hit_modify" val="2" />
 		<set name="immediate_effect" val="1" />
 		<set name="crystal_type" val="a" />
 		<set name="material" val="steel" />
@@ -457,7 +440,6 @@
 		<set name="icon" val="icon.weapon_doom_crusher_i00" />
 		<set name="weapon_type" val="blunt" />
 		<set name="random_damage" val="20" />
-		<set name="hit_modify" val="4.75" />
 		<set name="immediate_effect" val="1" />
 		<set name="crystal_type" val="a" />
 		<set name="material" val="fine_steel" />
@@ -477,7 +459,6 @@
 		<set name="icon" val="icon.weapon_dragon_grinder_i00" />
 		<set name="weapon_type" val="dualfist" />
 		<set name="random_damage" val="5" />
-		<set name="hit_modify" val="4.75" />
 		<set name="immediate_effect" val="1" />
 		<set name="crystal_type" val="a" />
 		<set name="material" val="adamantaite" />
@@ -515,7 +496,6 @@
 		<set name="icon" val="icon.weapon_dragon_flame_head_i00" />
 		<set name="weapon_type" val="blunt" />
 		<set name="random_damage" val="20" />
-		<set name="hit_modify" val="4.75" />
 		<set name="immediate_effect" val="1" />
 		<set name="crystal_type" val="a" />
 		<set name="material" val="fine_steel" />
@@ -535,7 +515,6 @@
 		<set name="icon" val="icon.weapon_worldtrees_branch_i00" />
 		<set name="weapon_type" val="blunt" />
 		<set name="random_damage" val="20" />
-		<set name="hit_modify" val="4.75" />
 		<set name="immediate_effect" val="1" />
 		<set name="crystal_type" val="a" />
 		<set name="material" val="wood" />
@@ -573,7 +552,6 @@
 		<set name="icon" val="icon.weapon_soul_shooter_i00" />
 		<set name="weapon_type" val="crossbow" />
 		<set name="random_damage" val="10" />
-		<set name="hit_modify" val="-1.5" />
 		<set name="immediate_effect" val="1" />
 		<set name="crystal_type" val="a" />
 		<set name="material" val="steel" />
@@ -596,7 +574,6 @@
 		<set name="icon" val="icon.weapon_soul_separator_i00" />
 		<set name="weapon_type" val="dagger" />
 		<set name="random_damage" val="5" />
-		<set name="hit_modify" val="-3.75" />
 		<set name="immediate_effect" val="1" />
 		<set name="crystal_type" val="a" />
 		<set name="material" val="oriharukon" />
@@ -616,7 +593,6 @@
 		<set name="icon" val="icon.weapon_elysian_i00" />
 		<set name="weapon_type" val="blunt" />
 		<set name="random_damage" val="20" />
-		<set name="hit_modify" val="4.75" />
 		<set name="immediate_effect" val="1" />
 		<set name="crystal_type" val="a" />
 		<set name="material" val="oriharukon" />
@@ -636,7 +612,6 @@
 		<set name="icon" val="icon.weapon_soul_bow_i00" />
 		<set name="weapon_type" val="bow" />
 		<set name="random_damage" val="5" />
-		<set name="hit_modify" val="-3.75" />
 		<set name="immediate_effect" val="1" />
 		<set name="crystal_type" val="a" />
 		<set name="material" val="oriharukon" />
@@ -657,7 +632,6 @@
 		<set name="icon" val="icon.weapon_tallum_glaive_i00" />
 		<set name="weapon_type" val="pole" />
 		<set name="random_damage" val="10" />
-		<set name="hit_modify" val="-3.75" />
 		<set name="immediate_effect" val="1" />
 		<set name="crystal_type" val="a" />
 		<set name="material" val="chrysolite" />
@@ -677,7 +651,6 @@
 		<set name="icon" val="icon.weapon_naga_storm_i00" />
 		<set name="weapon_type" val="dagger" />
 		<set name="random_damage" val="5" />
-		<set name="hit_modify" val="-3.75" />
 		<set name="immediate_effect" val="1" />
 		<set name="crystal_type" val="a" />
 		<set name="material" val="oriharukon" />
@@ -697,7 +670,6 @@
 		<set name="icon" val="icon.weapon_crystal_of_deamon_i00" />
 		<set name="weapon_type" val="blunt" />
 		<set name="random_damage" val="20" />
-		<set name="hit_modify" val="4.75" />
 		<set name="immediate_effect" val="1" />
 		<set name="crystal_type" val="a" />
 		<set name="material" val="wood" />
@@ -717,7 +689,6 @@
 		<set name="icon" val="icon.weapon_barakiel_axe_i00" />
 		<set name="weapon_type" val="blunt" />
 		<set name="random_damage" val="20" />
-		<set name="hit_modify" val="4.75" />
 		<set name="immediate_effect" val="1" />
 		<set name="crystal_type" val="a" />
 		<set name="material" val="oriharukon" />
@@ -737,7 +708,6 @@
 		<set name="icon" val="icon.weapon_soul_shooter_i00" />
 		<set name="weapon_type" val="crossbow" />
 		<set name="random_damage" val="10" />
-		<set name="hit_modify" val="-1.5" />
 		<set name="immediate_effect" val="1" />
 		<set name="crystal_type" val="a" />
 		<set name="material" val="steel" />
@@ -760,7 +730,6 @@
 		<set name="icon" val="icon.weapon_tuning_fork_of_behemoth_i00" />
 		<set name="weapon_type" val="blunt" />
 		<set name="random_damage" val="20" />
-		<set name="hit_modify" val="4.75" />
 		<set name="immediate_effect" val="1" />
 		<set name="crystal_type" val="a" />
 		<set name="material" val="fine_steel" />
@@ -780,7 +749,6 @@
 		<set name="icon" val="icon.weapon_death_bringer_i00" />
 		<set name="weapon_type" val="ancientsword" />
 		<set name="random_damage" val="15" />
-		<set name="hit_modify" val="2" />
 		<set name="immediate_effect" val="1" />
 		<set name="crystal_type" val="a" />
 		<set name="material" val="steel" />
@@ -803,7 +771,6 @@
 		<set name="icon" val="icon.weapon_shyid_bow_i00" />
 		<set name="weapon_type" val="bow" />
 		<set name="random_damage" val="5" />
-		<set name="hit_modify" val="-3.75" />
 		<set name="immediate_effect" val="1" />
 		<set name="crystal_type" val="a" />
 		<set name="material" val="oriharukon" />
@@ -842,7 +809,6 @@
 		<set name="icon" val="icon.weapon_sobekk_hurricane_i00" />
 		<set name="weapon_type" val="dualfist" />
 		<set name="random_damage" val="5" />
-		<set name="hit_modify" val="4.75" />
 		<set name="immediate_effect" val="1" />
 		<set name="crystal_type" val="a" />
 		<set name="material" val="adamantaite" />
@@ -880,7 +846,6 @@
 		<set name="icon" val="icon.weapon_greed_stinger_i00" />
 		<set name="weapon_type" val="rapier" />
 		<set name="random_damage" val="40" />
-		<set name="hit_modify" val="-1.5" />
 		<set name="immediate_effect" val="1" />
 		<set name="crystal_type" val="a" />
 		<set name="material" val="steel" />
@@ -903,7 +868,6 @@
 		<set name="icon" val="icon.weapon_tiphon_spear_i00" />
 		<set name="weapon_type" val="pole" />
 		<set name="random_damage" val="10" />
-		<set name="hit_modify" val="-3.75" />
 		<set name="immediate_effect" val="1" />
 		<set name="crystal_type" val="a" />
 		<set name="material" val="chrysolite" />
@@ -941,7 +905,6 @@
 		<set name="icon" val="icon.weapon_hand_of_cabrio_i00" />
 		<set name="weapon_type" val="blunt" />
 		<set name="random_damage" val="20" />
-		<set name="hit_modify" val="4.75" />
 		<set name="immediate_effect" val="1" />
 		<set name="crystal_type" val="a" />
 		<set name="material" val="fine_steel" />
@@ -961,7 +924,6 @@
 		<set name="icon" val="icon.weapon_gram_i00" />
 		<set name="weapon_type" val="ancientsword" />
 		<set name="random_damage" val="15" />
-		<set name="hit_modify" val="2" />
 		<set name="immediate_effect" val="1" />
 		<set name="crystal_type" val="s" />
 		<set name="material" val="steel" />
@@ -984,7 +946,6 @@
 		<set name="icon" val="icon.weapon_demon_splinter_i00" />
 		<set name="weapon_type" val="dualfist" />
 		<set name="random_damage" val="5" />
-		<set name="hit_modify" val="4.75" />
 		<set name="immediate_effect" val="1" />
 		<set name="crystal_type" val="s" />
 		<set name="material" val="adamantaite" />
@@ -1004,7 +965,6 @@
 		<set name="icon" val="icon.weapon_draconic_bow_i00" />
 		<set name="weapon_type" val="bow" />
 		<set name="random_damage" val="5" />
-		<set name="hit_modify" val="-3.75" />
 		<set name="immediate_effect" val="1" />
 		<set name="crystal_type" val="s" />
 		<set name="material" val="adamantaite" />
@@ -1025,7 +985,6 @@
 		<set name="icon" val="icon.weapon_dragon_hunter_axe_i00" />
 		<set name="weapon_type" val="blunt" />
 		<set name="random_damage" val="20" />
-		<set name="hit_modify" val="4.75" />
 		<set name="immediate_effect" val="1" />
 		<set name="crystal_type" val="s" />
 		<set name="material" val="adamantaite" />
@@ -1045,7 +1004,6 @@
 		<set name="icon" val="icon.weapon_leavatein_i00" />
 		<set name="weapon_type" val="rapier" />
 		<set name="random_damage" val="40" />
-		<set name="hit_modify" val="-1.5" />
 		<set name="immediate_effect" val="1" />
 		<set name="crystal_type" val="s" />
 		<set name="material" val="steel" />
@@ -1068,7 +1026,6 @@
 		<set name="icon" val="icon.weapon_basalt_battlehammer_i00" />
 		<set name="weapon_type" val="blunt" />
 		<set name="random_damage" val="20" />
-		<set name="hit_modify" val="4.75" />
 		<set name="immediate_effect" val="1" />
 		<set name="crystal_type" val="s" />
 		<set name="material" val="adamantaite" />
@@ -1088,7 +1045,6 @@
 		<set name="icon" val="icon.weapon_sarnga_i00" />
 		<set name="weapon_type" val="crossbow" />
 		<set name="random_damage" val="10" />
-		<set name="hit_modify" val="-1.5" />
 		<set name="immediate_effect" val="1" />
 		<set name="crystal_type" val="s" />
 		<set name="material" val="steel" />
@@ -1111,7 +1067,6 @@
 		<set name="icon" val="icon.weapon_saint_spear_i00" />
 		<set name="weapon_type" val="pole" />
 		<set name="random_damage" val="10" />
-		<set name="hit_modify" val="-3.75" />
 		<set name="immediate_effect" val="1" />
 		<set name="crystal_type" val="s" />
 		<set name="material" val="adamantaite" />
@@ -1131,7 +1086,6 @@
 		<set name="icon" val="icon.weapon_arcana_mace_i00" />
 		<set name="weapon_type" val="blunt" />
 		<set name="random_damage" val="20" />
-		<set name="hit_modify" val="4.75" />
 		<set name="immediate_effect" val="1" />
 		<set name="crystal_type" val="s" />
 		<set name="material" val="adamantaite" />
@@ -1151,7 +1105,6 @@
 		<set name="icon" val="icon.weapon_angel_slayer_i00" />
 		<set name="weapon_type" val="dagger" />
 		<set name="random_damage" val="5" />
-		<set name="hit_modify" val="-3.75" />
 		<set name="immediate_effect" val="1" />
 		<set name="crystal_type" val="s" />
 		<set name="material" val="adamantaite" />
@@ -1171,7 +1124,6 @@
 		<set name="icon" val="icon.weapon_imperial_staff_i00" />
 		<set name="weapon_type" val="blunt" />
 		<set name="random_damage" val="20" />
-		<set name="hit_modify" val="4.75" />
 		<set name="immediate_effect" val="1" />
 		<set name="crystal_type" val="s" />
 		<set name="material" val="adamantaite" />
@@ -1227,7 +1179,6 @@
 		<set name="icon" val="icon.weapon_dynasty_ancient_sword_i00" />
 		<set name="weapon_type" val="ancientsword" />
 		<set name="random_damage" val="15" />
-		<set name="hit_modify" val="2" />
 		<set name="immediate_effect" val="1" />
 		<set name="crystal_type" val="s80" />
 		<set name="material" val="steel" />
@@ -1250,7 +1201,6 @@
 		<set name="icon" val="icon.weapon_dynasty_dagger_i00" />
 		<set name="weapon_type" val="dagger" />
 		<set name="random_damage" val="5" />
-		<set name="hit_modify" val="-3.75" />
 		<set name="immediate_effect" val="1" />
 		<set name="crystal_type" val="s80" />
 		<set name="material" val="steel" />
@@ -1270,7 +1220,6 @@
 		<set name="icon" val="icon.weapon_dynasty_rapier_i00" />
 		<set name="weapon_type" val="rapier" />
 		<set name="random_damage" val="40" />
-		<set name="hit_modify" val="-1.5" />
 		<set name="immediate_effect" val="1" />
 		<set name="crystal_type" val="s80" />
 		<set name="material" val="steel" />
@@ -1293,7 +1242,6 @@
 		<set name="icon" val="icon.weapon_dynasty_staff_i00" />
 		<set name="weapon_type" val="blunt" />
 		<set name="random_damage" val="20" />
-		<set name="hit_modify" val="4.75" />
 		<set name="immediate_effect" val="1" />
 		<set name="crystal_type" val="s80" />
 		<set name="material" val="wood" />
@@ -1313,7 +1261,6 @@
 		<set name="icon" val="icon.weapon_dynasty_jamadhr_i00" />
 		<set name="weapon_type" val="dualfist" />
 		<set name="random_damage" val="5" />
-		<set name="hit_modify" val="4.75" />
 		<set name="immediate_effect" val="1" />
 		<set name="crystal_type" val="s80" />
 		<set name="material" val="steel" />
@@ -1333,7 +1280,6 @@
 		<set name="icon" val="icon.weapon_dynasty_bow_i00" />
 		<set name="weapon_type" val="bow" />
 		<set name="random_damage" val="5" />
-		<set name="hit_modify" val="-3.75" />
 		<set name="immediate_effect" val="1" />
 		<set name="crystal_type" val="s80" />
 		<set name="material" val="steel" />
@@ -1390,7 +1336,6 @@
 		<set name="icon" val="icon.weapon_dynasty_twohand_staff_i00" />
 		<set name="weapon_type" val="blunt" />
 		<set name="random_damage" val="20" />
-		<set name="hit_modify" val="4.75" />
 		<set name="immediate_effect" val="1" />
 		<set name="crystal_type" val="s80" />
 		<set name="material" val="wood" />
@@ -1410,7 +1355,6 @@
 		<set name="icon" val="icon.weapon_dynasty_hammer_i00" />
 		<set name="weapon_type" val="blunt" />
 		<set name="random_damage" val="20" />
-		<set name="hit_modify" val="4.75" />
 		<set name="immediate_effect" val="1" />
 		<set name="crystal_type" val="s80" />
 		<set name="material" val="fine_steel" />
@@ -1430,7 +1374,6 @@
 		<set name="icon" val="icon.weapon_dynasty_crusher_i00" />
 		<set name="weapon_type" val="blunt" />
 		<set name="random_damage" val="20" />
-		<set name="hit_modify" val="4.75" />
 		<set name="immediate_effect" val="1" />
 		<set name="crystal_type" val="s80" />
 		<set name="material" val="fine_steel" />
@@ -1450,7 +1393,6 @@
 		<set name="icon" val="icon.weapon_dynasty_crossbow_i00" />
 		<set name="weapon_type" val="crossbow" />
 		<set name="random_damage" val="10" />
-		<set name="hit_modify" val="-1.5" />
 		<set name="immediate_effect" val="1" />
 		<set name="crystal_type" val="s80" />
 		<set name="material" val="steel" />
@@ -1491,7 +1433,6 @@
 		<set name="icon" val="icon.weapon_dynasty_spear_i00" />
 		<set name="weapon_type" val="pole" />
 		<set name="random_damage" val="10" />
-		<set name="hit_modify" val="-3.75" />
 		<set name="immediate_effect" val="1" />
 		<set name="crystal_type" val="s80" />
 		<set name="material" val="bronze" />
@@ -1511,7 +1452,6 @@
 		<set name="icon" val="icon.weapon_icarus_disperser_i00" />
 		<set name="weapon_type" val="dagger" />
 		<set name="random_damage" val="5" />
-		<set name="hit_modify" val="-3.75" />
 		<set name="immediate_effect" val="1" />
 		<set name="crystal_type" val="s80" />
 		<set name="material" val="steel" />
@@ -1549,7 +1489,6 @@
 		<set name="icon" val="icon.weapon_icarus_shooter_i00" />
 		<set name="weapon_type" val="crossbow" />
 		<set name="random_damage" val="10" />
-		<set name="hit_modify" val="-1.5" />
 		<set name="immediate_effect" val="1" />
 		<set name="crystal_type" val="s80" />
 		<set name="material" val="steel" />
@@ -1572,7 +1511,6 @@
 		<set name="icon" val="icon.weapon_icarus_stinger_i00" />
 		<set name="weapon_type" val="rapier" />
 		<set name="random_damage" val="40" />
-		<set name="hit_modify" val="-1.5" />
 		<set name="immediate_effect" val="1" />
 		<set name="crystal_type" val="s80" />
 		<set name="material" val="steel" />
@@ -1613,7 +1551,6 @@
 		<set name="icon" val="icon.weapon_icarus_spiter_i00" />
 		<set name="weapon_type" val="bow" />
 		<set name="random_damage" val="5" />
-		<set name="hit_modify" val="-3.75" />
 		<set name="immediate_effect" val="1" />
 		<set name="crystal_type" val="s80" />
 		<set name="material" val="steel" />
@@ -1634,7 +1571,6 @@
 		<set name="icon" val="icon.weapon_icarus_wing_blade_i00" />
 		<set name="weapon_type" val="ancientsword" />
 		<set name="random_damage" val="15" />
-		<set name="hit_modify" val="2" />
 		<set name="immediate_effect" val="1" />
 		<set name="crystal_type" val="s80" />
 		<set name="material" val="steel" />
@@ -1657,7 +1593,6 @@
 		<set name="icon" val="icon.weapon_icarus_trident_i00" />
 		<set name="weapon_type" val="pole" />
 		<set name="random_damage" val="10" />
-		<set name="hit_modify" val="-3.75" />
 		<set name="immediate_effect" val="1" />
 		<set name="crystal_type" val="s80" />
 		<set name="material" val="bronze" />
@@ -1677,7 +1612,6 @@
 		<set name="icon" val="icon.weapon_icarus_hammer_i00" />
 		<set name="weapon_type" val="blunt" />
 		<set name="random_damage" val="20" />
-		<set name="hit_modify" val="4.75" />
 		<set name="immediate_effect" val="1" />
 		<set name="crystal_type" val="s80" />
 		<set name="material" val="fine_steel" />
@@ -1697,7 +1631,6 @@
 		<set name="icon" val="icon.weapon_icarus_knuckle_i00" />
 		<set name="weapon_type" val="dualfist" />
 		<set name="random_damage" val="5" />
-		<set name="hit_modify" val="4.75" />
 		<set name="immediate_effect" val="1" />
 		<set name="crystal_type" val="s80" />
 		<set name="material" val="steel" />
@@ -1735,7 +1668,6 @@
 		<set name="icon" val="icon.weapon_icarus_stick_i00" />
 		<set name="weapon_type" val="blunt" />
 		<set name="random_damage" val="20" />
-		<set name="hit_modify" val="4.75" />
 		<set name="immediate_effect" val="1" />
 		<set name="crystal_type" val="s80" />
 		<set name="material" val="wood" />
@@ -1924,7 +1856,6 @@
 	</item>
 	<item id="12499" type="EtcItem" name="Foundation Zubei's Shield">
 		<set name="icon" val="icon.shield_shrnoens_shield_i00" />
-		<set name="avoid_modify" val="-8" />
 		<set name="immediate_effect" val="1" />
 		<set name="crystal_type" val="b" />
 		<set name="material" val="mithril" />

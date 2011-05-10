@@ -268,7 +268,6 @@
 		<set name="icon" val="icon.shield_mon_gracia_soldier_shield_i00" />
 		<set name="default_action" val="equip" />
 		<set name="bodypart" val="lhand" />
-		<set name="avoid_modify" val="-8" />
 		<set name="immediate_effect" val="1" />
 		<set name="material" val="bronze" />
 		<set name="weight" val="1300" />
@@ -342,7 +341,6 @@
 		<set name="default_action" val="equip" />
 		<set name="armor_type" val="sigil" />
 		<set name="bodypart" val="lhand" />
-		<set name="avoid_modify" val="-8" />
 		<set name="immediate_effect" val="1" />
 		<set name="material" val="leather" />
 		<set name="weight" val="1430" />
@@ -560,7 +558,6 @@
 		<set name="random_damage" val="20" />
 		<set name="attack_range" val="40" />
 		<set name="damage_range" val="0;0;46;120" />
-		<set name="hit_modify" val="4.75" />
 		<set name="immediate_effect" val="1" />
 		<set name="material" val="wood" />
 		<set name="weight" val="10" />

@@ -87,7 +87,6 @@
 		<set name="icon" val="icon.Evilgate_Shield_i01" />
 		<set name="default_action" val="equip" />
 		<set name="bodypart" val="lhand" />
-		<set name="avoid_modify" val="-8" />
 		<set name="immediate_effect" val="1" />
 		<set name="crystal_count" val="704" />
 		<set name="crystal_type" val="s84" />
@@ -113,7 +112,6 @@
 		<set name="default_action" val="equip" />
 		<set name="armor_type" val="sigil" />
 		<set name="bodypart" val="lhand" />
-		<set name="avoid_modify" val="-8" />
 		<set name="immediate_effect" val="1" />
 		<set name="crystal_count" val="704" />
 		<set name="crystal_type" val="s84" />
@@ -450,7 +448,6 @@
 		<set name="icon" val="icon.weapon_tysandy_shield_i01" />
 		<set name="default_action" val="equip" />
 		<set name="bodypart" val="lhand" />
-		<set name="avoid_modify" val="-8" />
 		<set name="immediate_effect" val="1" />
 		<set name="crystal_count" val="424" />
 		<set name="crystal_type" val="s80" />
@@ -476,7 +473,6 @@
 		<set name="default_action" val="equip" />
 		<set name="armor_type" val="sigil" />
 		<set name="bodypart" val="lhand" />
-		<set name="avoid_modify" val="-8" />
 		<set name="immediate_effect" val="1" />
 		<set name="crystal_count" val="424" />
 		<set name="crystal_type" val="s80" />
@@ -1020,8 +1016,6 @@
 			<set order="0x08" stat="mAtk" val="183" />
 			<set order="0x08" stat="rCrit" val="8" />
 			<set order="0x08" stat="pAtkSpd" val="379" />
-			<enchant val="0" order="0x0C" stat="pAtk" />
-			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
 	<item id="15677" type="Weapon" name="Triumph Dagger">
@@ -1032,7 +1026,6 @@
 		<set name="random_damage" val="5" />
 		<set name="attack_range" val="40" />
 		<set name="damage_range" val="0;0;40;120" />
-		<set name="hit_modify" val="-3.75" />
 		<set name="immediate_effect" val="1" />
 		<set name="crystal_type" val="s84" />
 		<set name="material" val="steel" />
@@ -1050,8 +1043,6 @@
 			<set order="0x08" stat="rCrit" val="12" />
 			<add order="0x10" stat="accCombat" val="-3.75" />
 			<set order="0x08" stat="pAtkSpd" val="433" />
-			<enchant val="0" order="0x0C" stat="pAtk" />
-			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
 	<item id="15678" type="Weapon" name="Triumph Hammer">
@@ -1062,7 +1053,6 @@
 		<set name="random_damage" val="20" />
 		<set name="attack_range" val="40" />
 		<set name="damage_range" val="0;0;40;120" />
-		<set name="hit_modify" val="4.75" />
 		<set name="immediate_effect" val="1" />
 		<set name="crystal_type" val="s84" />
 		<set name="material" val="fine_steel" />
@@ -1080,8 +1070,6 @@
 			<set order="0x08" stat="rCrit" val="4" />
 			<add order="0x10" stat="accCombat" val="4.75" />
 			<set order="0x08" stat="pAtkSpd" val="379" />
-			<enchant val="0" order="0x0C" stat="pAtk" />
-			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
 	<item id="15679" type="Weapon" name="Triumph Crusher">
@@ -1092,7 +1080,6 @@
 		<set name="random_damage" val="20" />
 		<set name="attack_range" val="40" />
 		<set name="damage_range" val="0;0;40;120" />
-		<set name="hit_modify" val="4.75" />
 		<set name="immediate_effect" val="1" />
 		<set name="crystal_type" val="s84" />
 		<set name="material" val="fine_steel" />
@@ -1110,8 +1097,6 @@
 			<set order="0x08" stat="rCrit" val="4" />
 			<add order="0x10" stat="accCombat" val="4.75" />
 			<set order="0x08" stat="pAtkSpd" val="325" />
-			<enchant val="0" order="0x0C" stat="pAtk" />
-			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
 	<item id="15680" type="Weapon" name="Triumph Two Hand Sword">
@@ -1139,8 +1124,6 @@
 			<set order="0x08" stat="mAtk" val="183" />
 			<set order="0x08" stat="rCrit" val="8" />
 			<set order="0x08" stat="pAtkSpd" val="325" />
-			<enchant val="0" order="0x0C" stat="pAtk" />
-			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
 	<item id="15681" type="Weapon" name="Triumph Jamadhr">
@@ -1151,7 +1134,6 @@
 		<set name="random_damage" val="5" />
 		<set name="attack_range" val="40" />
 		<set name="damage_range" val="0;0;32;120" />
-		<set name="hit_modify" val="4.75" />
 		<set name="immediate_effect" val="1" />
 		<set name="crystal_type" val="s84" />
 		<set name="material" val="steel" />
@@ -1169,8 +1151,6 @@
 			<set order="0x08" stat="rCrit" val="4" />
 			<add order="0x10" stat="accCombat" val="4.75" />
 			<set order="0x08" stat="pAtkSpd" val="325" />
-			<enchant val="0" order="0x0C" stat="pAtk" />
-			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
 	<item id="15682" type="Weapon" name="Triumph Spear">
@@ -1181,7 +1161,6 @@
 		<set name="random_damage" val="10" />
 		<set name="attack_range" val="80" />
 		<set name="damage_range" val="0;0;66;120" />
-		<set name="hit_modify" val="-3.75" />
 		<set name="immediate_effect" val="1" />
 		<set name="crystal_type" val="s84" />
 		<set name="material" val="bronze" />
@@ -1200,8 +1179,6 @@
 			<set order="0x08" stat="rCrit" val="8" />
 			<add order="0x10" stat="accCombat" val="-3.75" />
 			<set order="0x08" stat="pAtkSpd" val="325" />
-			<enchant val="0" order="0x0C" stat="pAtk" />
-			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
 	<item id="15683" type="Weapon" name="Triumph Staff">
@@ -1212,7 +1189,6 @@
 		<set name="random_damage" val="20" />
 		<set name="attack_range" val="40" />
 		<set name="damage_range" val="0;0;40;120" />
-		<set name="hit_modify" val="4.75" />
 		<set name="immediate_effect" val="1" />
 		<set name="crystal_type" val="s84" />
 		<set name="material" val="wood" />
@@ -1230,8 +1206,6 @@
 			<set order="0x08" stat="rCrit" val="4" />
 			<add order="0x10" stat="accCombat" val="4.75" />
 			<set order="0x08" stat="pAtkSpd" val="379" />
-			<enchant val="0" order="0x0C" stat="pAtk" />
-			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
 	<item id="15684" type="Weapon" name="Triumph Two Hand Staff">
@@ -1242,7 +1216,6 @@
 		<set name="random_damage" val="20" />
 		<set name="attack_range" val="40" />
 		<set name="damage_range" val="0;0;40;120" />
-		<set name="hit_modify" val="4.75" />
 		<set name="immediate_effect" val="1" />
 		<set name="crystal_type" val="s84" />
 		<set name="material" val="wood" />
@@ -1260,8 +1233,6 @@
 			<set order="0x08" stat="rCrit" val="4" />
 			<add order="0x10" stat="accCombat" val="4.75" />
 			<set order="0x08" stat="pAtkSpd" val="325" />
-			<enchant val="0" order="0x0C" stat="pAtk" />
-			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
 	<item id="15685" type="Weapon" name="Triumph Magic Sword">
@@ -1288,8 +1259,6 @@
 			<set order="0x08" stat="mAtk" val="244" />
 			<set order="0x08" stat="rCrit" val="8" />
 			<set order="0x08" stat="pAtkSpd" val="379" />
-			<enchant val="0" order="0x0C" stat="pAtk" />
-			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
 	<item id="15686" type="Weapon" name="Triumph Bow">
@@ -1300,7 +1269,6 @@
 		<set name="random_damage" val="5" />
 		<set name="attack_range" val="500" />
 		<set name="damage_range" val="0;0;10;0" />
-		<set name="hit_modify" val="-3.75" />
 		<set name="immediate_effect" val="1" />
 		<set name="crystal_type" val="s84" />
 		<set name="material" val="steel" />
@@ -1321,8 +1289,6 @@
 			<set order="0x08" stat="rCrit" val="12" />
 			<add order="0x10" stat="accCombat" val="-3.75" />
 			<set order="0x08" stat="pAtkSpd" val="293" />
-			<enchant val="0" order="0x0C" stat="pAtk" />
-			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
 	<item id="15687" type="Weapon" name="Triumph Rapier">
@@ -1333,7 +1299,6 @@
 		<set name="random_damage" val="40" />
 		<set name="attack_range" val="40" />
 		<set name="damage_range" val="0;0;40;120" />
-		<set name="hit_modify" val="-1.5" />
 		<set name="immediate_effect" val="1" />
 		<set name="crystal_type" val="s" />
 		<set name="material" val="steel" />
@@ -1359,8 +1324,6 @@
 			<set order="0x08" stat="rCrit" val="10" />
 			<add order="0x10" stat="accCombat" val="-1.5" />
 			<set order="0x08" stat="pAtkSpd" val="406" />
-			<enchant val="0" order="0x0C" stat="pAtk" />
-			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
 	<item id="15688" type="Weapon" name="Triumph Ancientsword">
@@ -1371,7 +1334,6 @@
 		<set name="random_damage" val="15" />
 		<set name="attack_range" val="40" />
 		<set name="damage_range" val="0;0;40;120" />
-		<set name="hit_modify" val="2" />
 		<set name="immediate_effect" val="1" />
 		<set name="crystal_type" val="s84" />
 		<set name="material" val="steel" />
@@ -1393,8 +1355,6 @@
 			<set order="0x08" stat="rCrit" val="8" />
 			<add order="0x10" stat="accCombat" val="2" />
 			<set order="0x08" stat="pAtkSpd" val="350" />
-			<enchant val="0" order="0x0C" stat="pAtk" />
-			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
 	<item id="15689" type="Weapon" name="Triumph Crossbow">
@@ -1405,7 +1365,6 @@
 		<set name="random_damage" val="10" />
 		<set name="attack_range" val="400" />
 		<set name="damage_range" val="0;0;40;120" />
-		<set name="hit_modify" val="-1.5" />
 		<set name="immediate_effect" val="1" />
 		<set name="crystal_type" val="s84" />
 		<set name="material" val="steel" />
@@ -1428,8 +1387,6 @@
 			<set order="0x08" stat="rCrit" val="10" />
 			<add order="0x10" stat="accCombat" val="-1.5" />
 			<set order="0x08" stat="pAtkSpd" val="303" />
-			<enchant val="0" order="0x0C" stat="pAtk" />
-			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
 	<item id="15690" type="EtcItem" name="Secret Key">

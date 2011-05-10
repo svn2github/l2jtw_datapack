@@ -269,7 +269,6 @@
 		<set name="default_action" val="equip" />
 		<set name="armor_type" val="sigil" />
 		<set name="bodypart" val="lhand" />
-		<set name="avoid_modify" val="-8" />
 		<set name="immediate_effect" val="1" />
 		<set name="crystal_count" val="161" />
 		<set name="crystal_type" val="s" />
@@ -298,7 +297,6 @@
 		<set name="default_action" val="equip" />
 		<set name="armor_type" val="sigil" />
 		<set name="bodypart" val="lhand" />
-		<set name="avoid_modify" val="-8" />
 		<set name="immediate_effect" val="1" />
 		<set name="crystal_count" val="307" />
 		<set name="crystal_type" val="s80" />
@@ -327,7 +325,6 @@
 		<set name="default_action" val="equip" />
 		<set name="armor_type" val="sigil" />
 		<set name="bodypart" val="lhand" />
-		<set name="avoid_modify" val="-8" />
 		<set name="immediate_effect" val="1" />
 		<set name="crystal_count" val="588" />
 		<set name="crystal_type" val="s84" />
@@ -809,7 +806,6 @@
 		<set name="random_damage" val="5" />
 		<set name="attack_range" val="40" />
 		<set name="damage_range" val="0;0;40;120" />
-		<set name="hit_modify" val="-3.75" />
 		<set name="immediate_effect" val="1" />
 		<set name="crystal_count" val="2157" />
 		<set name="crystal_type" val="a" />
@@ -841,7 +837,6 @@
 		<set name="random_damage" val="5" />
 		<set name="attack_range" val="40" />
 		<set name="damage_range" val="0;0;40;120" />
-		<set name="hit_modify" val="-3.75" />
 		<set name="immediate_effect" val="1" />
 		<set name="crystal_count" val="2157" />
 		<set name="crystal_type" val="a" />
@@ -873,7 +868,6 @@
 		<set name="random_damage" val="5" />
 		<set name="attack_range" val="40" />
 		<set name="damage_range" val="0;0;40;120" />
-		<set name="hit_modify" val="-3.75" />
 		<set name="immediate_effect" val="1" />
 		<set name="crystal_count" val="2157" />
 		<set name="crystal_type" val="a" />
@@ -905,7 +899,6 @@
 		<set name="random_damage" val="20" />
 		<set name="attack_range" val="40" />
 		<set name="damage_range" val="0;0;40;120" />
-		<set name="hit_modify" val="4.75" />
 		<set name="immediate_effect" val="1" />
 		<set name="crystal_count" val="2157" />
 		<set name="crystal_type" val="a" />
@@ -938,7 +931,6 @@
 		<set name="random_damage" val="20" />
 		<set name="attack_range" val="40" />
 		<set name="damage_range" val="0;0;40;120" />
-		<set name="hit_modify" val="4.75" />
 		<set name="immediate_effect" val="1" />
 		<set name="crystal_count" val="2157" />
 		<set name="crystal_type" val="a" />
@@ -971,7 +963,6 @@
 		<set name="random_damage" val="20" />
 		<set name="attack_range" val="40" />
 		<set name="damage_range" val="0;0;40;120" />
-		<set name="hit_modify" val="4.75" />
 		<set name="immediate_effect" val="1" />
 		<set name="crystal_count" val="2157" />
 		<set name="crystal_type" val="a" />
@@ -1006,7 +997,6 @@
 		<set name="random_damage" val="20" />
 		<set name="attack_range" val="40" />
 		<set name="damage_range" val="0;0;40;120" />
-		<set name="hit_modify" val="4.75" />
 		<set name="immediate_effect" val="1" />
 		<set name="crystal_count" val="2157" />
 		<set name="crystal_type" val="a" />
@@ -1038,7 +1028,6 @@
 		<set name="random_damage" val="20" />
 		<set name="attack_range" val="40" />
 		<set name="damage_range" val="0;0;40;120" />
-		<set name="hit_modify" val="4.75" />
 		<set name="immediate_effect" val="1" />
 		<set name="crystal_count" val="2157" />
 		<set name="crystal_type" val="a" />
@@ -1070,7 +1059,6 @@
 		<set name="random_damage" val="20" />
 		<set name="attack_range" val="40" />
 		<set name="damage_range" val="0;0;40;120" />
-		<set name="hit_modify" val="4.75" />
 		<set name="immediate_effect" val="1" />
 		<set name="crystal_count" val="2157" />
 		<set name="crystal_type" val="a" />
@@ -1102,7 +1090,6 @@
 		<set name="random_damage" val="10" />
 		<set name="attack_range" val="400" />
 		<set name="damage_range" val="0;0;40;120" />
-		<set name="hit_modify" val="-1.5" />
 		<set name="immediate_effect" val="1" />
 		<set name="crystal_count" val="2157" />
 		<set name="crystal_type" val="a" />
@@ -1139,7 +1126,6 @@
 		<set name="random_damage" val="10" />
 		<set name="attack_range" val="400" />
 		<set name="damage_range" val="0;0;40;120" />
-		<set name="hit_modify" val="-1.5" />
 		<set name="immediate_effect" val="1" />
 		<set name="crystal_count" val="2157" />
 		<set name="crystal_type" val="a" />
@@ -1175,7 +1161,6 @@
 		<set name="random_damage" val="10" />
 		<set name="attack_range" val="400" />
 		<set name="damage_range" val="0;0;40;120" />
-		<set name="hit_modify" val="-1.5" />
 		<set name="immediate_effect" val="1" />
 		<set name="crystal_count" val="2157" />
 		<set name="crystal_type" val="a" />
@@ -1211,7 +1196,6 @@
 		<set name="random_damage" val="20" />
 		<set name="attack_range" val="40" />
 		<set name="damage_range" val="0;0;44;120" />
-		<set name="hit_modify" val="4.75" />
 		<set name="immediate_effect" val="1" />
 		<set name="crystal_count" val="2157" />
 		<set name="crystal_type" val="a" />
@@ -1243,7 +1227,6 @@
 		<set name="random_damage" val="20" />
 		<set name="attack_range" val="40" />
 		<set name="damage_range" val="0;0;44;120" />
-		<set name="hit_modify" val="4.75" />
 		<set name="immediate_effect" val="1" />
 		<set name="crystal_count" val="2157" />
 		<set name="crystal_type" val="a" />
@@ -1275,7 +1258,6 @@
 		<set name="random_damage" val="20" />
 		<set name="attack_range" val="40" />
 		<set name="damage_range" val="0;0;44;120" />
-		<set name="hit_modify" val="4.75" />
 		<set name="immediate_effect" val="1" />
 		<set name="crystal_count" val="2157" />
 		<set name="crystal_type" val="a" />
@@ -1307,7 +1289,6 @@
 		<set name="random_damage" val="15" />
 		<set name="attack_range" val="40" />
 		<set name="damage_range" val="0;0;40;120" />
-		<set name="hit_modify" val="2" />
 		<set name="immediate_effect" val="1" />
 		<set name="crystal_count" val="2157" />
 		<set name="crystal_type" val="a" />
@@ -1342,7 +1323,6 @@
 		<set name="random_damage" val="15" />
 		<set name="attack_range" val="40" />
 		<set name="damage_range" val="0;0;40;120" />
-		<set name="hit_modify" val="2" />
 		<set name="immediate_effect" val="1" />
 		<set name="crystal_count" val="2157" />
 		<set name="crystal_type" val="a" />
@@ -1377,7 +1357,6 @@
 		<set name="random_damage" val="15" />
 		<set name="attack_range" val="40" />
 		<set name="damage_range" val="0;0;40;120" />
-		<set name="hit_modify" val="2" />
 		<set name="immediate_effect" val="1" />
 		<set name="crystal_count" val="2157" />
 		<set name="crystal_type" val="a" />
@@ -1412,7 +1391,6 @@
 		<set name="random_damage" val="5" />
 		<set name="attack_range" val="500" />
 		<set name="damage_range" val="0;0;10;0" />
-		<set name="hit_modify" val="-3.75" />
 		<set name="immediate_effect" val="1" />
 		<set name="crystal_count" val="2157" />
 		<set name="crystal_type" val="a" />
@@ -1452,7 +1430,6 @@
 		<set name="random_damage" val="5" />
 		<set name="attack_range" val="500" />
 		<set name="damage_range" val="0;0;10;0" />
-		<set name="hit_modify" val="-3.75" />
 		<set name="immediate_effect" val="1" />
 		<set name="crystal_count" val="2157" />
 		<set name="crystal_type" val="a" />
@@ -1486,7 +1463,6 @@
 		<set name="random_damage" val="5" />
 		<set name="attack_range" val="500" />
 		<set name="damage_range" val="0;0;10;0" />
-		<set name="hit_modify" val="-3.75" />
 		<set name="immediate_effect" val="1" />
 		<set name="crystal_count" val="2157" />
 		<set name="crystal_type" val="a" />
@@ -1610,7 +1586,6 @@
 		<set name="random_damage" val="5" />
 		<set name="attack_range" val="40" />
 		<set name="damage_range" val="0;0;32;120" />
-		<set name="hit_modify" val="4.75" />
 		<set name="immediate_effect" val="1" />
 		<set name="crystal_count" val="2157" />
 		<set name="crystal_type" val="a" />
@@ -1642,7 +1617,6 @@
 		<set name="random_damage" val="5" />
 		<set name="attack_range" val="40" />
 		<set name="damage_range" val="0;0;32;120" />
-		<set name="hit_modify" val="4.75" />
 		<set name="immediate_effect" val="1" />
 		<set name="crystal_count" val="2157" />
 		<set name="crystal_type" val="a" />
@@ -1674,7 +1648,6 @@
 		<set name="random_damage" val="5" />
 		<set name="attack_range" val="40" />
 		<set name="damage_range" val="0;0;32;120" />
-		<set name="hit_modify" val="4.75" />
 		<set name="immediate_effect" val="1" />
 		<set name="crystal_count" val="2157" />
 		<set name="crystal_type" val="a" />
@@ -1798,7 +1771,6 @@
 		<set name="random_damage" val="40" />
 		<set name="attack_range" val="40" />
 		<set name="damage_range" val="0;0;40;120" />
-		<set name="hit_modify" val="-1.5" />
 		<set name="immediate_effect" val="1" />
 		<set name="crystal_count" val="2157" />
 		<set name="crystal_type" val="a" />
@@ -1834,7 +1806,6 @@
 		<set name="random_damage" val="40" />
 		<set name="attack_range" val="40" />
 		<set name="damage_range" val="0;0;40;120" />
-		<set name="hit_modify" val="-1.5" />
 		<set name="immediate_effect" val="1" />
 		<set name="crystal_count" val="2157" />
 		<set name="crystal_type" val="a" />
@@ -1870,7 +1841,6 @@
 		<set name="random_damage" val="40" />
 		<set name="attack_range" val="40" />
 		<set name="damage_range" val="0;0;40;120" />
-		<set name="hit_modify" val="-1.5" />
 		<set name="immediate_effect" val="1" />
 		<set name="crystal_count" val="2157" />
 		<set name="crystal_type" val="a" />
@@ -1907,7 +1877,6 @@
 		<set name="random_damage" val="10" />
 		<set name="attack_range" val="80" />
 		<set name="damage_range" val="0;0;66;120" />
-		<set name="hit_modify" val="-3.75" />
 		<set name="immediate_effect" val="1" />
 		<set name="crystal_count" val="2157" />
 		<set name="crystal_type" val="a" />
@@ -1940,7 +1909,6 @@
 		<set name="random_damage" val="10" />
 		<set name="attack_range" val="80" />
 		<set name="damage_range" val="0;0;80;120" />
-		<set name="hit_modify" val="-3.75" />
 		<set name="immediate_effect" val="1" />
 		<set name="crystal_count" val="2157" />
 		<set name="crystal_type" val="a" />
@@ -1973,7 +1941,6 @@
 		<set name="random_damage" val="10" />
 		<set name="attack_range" val="80" />
 		<set name="damage_range" val="0;0;66;180" />
-		<set name="hit_modify" val="-3.75" />
 		<set name="immediate_effect" val="1" />
 		<set name="crystal_count" val="2157" />
 		<set name="crystal_type" val="a" />
@@ -2134,7 +2101,6 @@
 		<set name="random_damage" val="20" />
 		<set name="attack_range" val="40" />
 		<set name="damage_range" val="0;0;40;120" />
-		<set name="hit_modify" val="4.75" />
 		<set name="immediate_effect" val="1" />
 		<set name="crystal_count" val="2157" />
 		<set name="crystal_type" val="a" />
@@ -2167,7 +2133,6 @@
 		<set name="random_damage" val="20" />
 		<set name="attack_range" val="40" />
 		<set name="damage_range" val="0;0;40;120" />
-		<set name="hit_modify" val="4.75" />
 		<set name="immediate_effect" val="1" />
 		<set name="crystal_count" val="2157" />
 		<set name="crystal_type" val="a" />
@@ -2200,7 +2165,6 @@
 		<set name="random_damage" val="20" />
 		<set name="attack_range" val="40" />
 		<set name="damage_range" val="0;0;40;120" />
-		<set name="hit_modify" val="4.75" />
 		<set name="immediate_effect" val="1" />
 		<set name="crystal_count" val="2157" />
 		<set name="crystal_type" val="a" />
@@ -2235,7 +2199,6 @@
 		<set name="random_damage" val="15" />
 		<set name="attack_range" val="40" />
 		<set name="damage_range" val="0;0;40;120" />
-		<set name="hit_modify" val="2" />
 		<set name="immediate_effect" val="1" />
 		<set name="crystal_count" val="2052" />
 		<set name="crystal_type" val="s" />
@@ -2270,7 +2233,6 @@
 		<set name="random_damage" val="15" />
 		<set name="attack_range" val="40" />
 		<set name="damage_range" val="0;0;40;120" />
-		<set name="hit_modify" val="2" />
 		<set name="immediate_effect" val="1" />
 		<set name="crystal_count" val="2052" />
 		<set name="crystal_type" val="s" />
@@ -2305,7 +2267,6 @@
 		<set name="random_damage" val="15" />
 		<set name="attack_range" val="40" />
 		<set name="damage_range" val="0;0;40;120" />
-		<set name="hit_modify" val="2" />
 		<set name="immediate_effect" val="1" />
 		<set name="crystal_count" val="2052" />
 		<set name="crystal_type" val="s" />
@@ -2340,7 +2301,6 @@
 		<set name="random_damage" val="5" />
 		<set name="attack_range" val="40" />
 		<set name="damage_range" val="0;0;32;120" />
-		<set name="hit_modify" val="4.75" />
 		<set name="immediate_effect" val="1" />
 		<set name="crystal_count" val="2052" />
 		<set name="crystal_type" val="s" />
@@ -2372,7 +2332,6 @@
 		<set name="random_damage" val="5" />
 		<set name="attack_range" val="40" />
 		<set name="damage_range" val="0;0;32;120" />
-		<set name="hit_modify" val="4.75" />
 		<set name="immediate_effect" val="1" />
 		<set name="crystal_count" val="2052" />
 		<set name="crystal_type" val="s" />

@@ -199,7 +199,7 @@ echo "communityserver DB installation/upgrade."
 echo -ne "LOGINSERVER DB install type: (f) full, (s) skip or (q) quit? "
 read LOGINPROMPT
 case "$LOGINPROMPT" in
-	"f"|"F") logininstall; loginupgrade; gsbackup; asktype;;
+	"f"|"F") logininstall; loginupgrade; cbbackup; askcbtype;;
 	"s"|"S") cbbackup; askcbtype;;
 	"q"|"Q") finish;;
 	*) asklogin;;
@@ -208,7 +208,7 @@ esac
 
 logininstall(){
 echo "Deleting loginserver tables for new content."
-$MYL < login_install.sql
+$MYL < ls_cleanup.sql
 }
 
 loginupgrade(){
@@ -321,7 +321,7 @@ esac
 
 fullcbinstall(){
 echo "Deleting all communityserver tables for new content."
-$MYC < community_install.sql
+$MYC < cs_cleanup.sql
 }
 
 upgradecbinstall(){
@@ -343,7 +343,7 @@ newbie_helper_cb
 fullinstall(){
 clear
 echo "Deleting all gameserver tables for new content."
-$MYG < full_install.sql
+$MYG < gs_cleanup.sql
 }
 
 upgradeinstall(){
