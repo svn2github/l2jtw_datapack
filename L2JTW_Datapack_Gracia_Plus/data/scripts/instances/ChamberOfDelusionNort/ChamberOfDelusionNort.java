@@ -222,6 +222,7 @@ public class ChamberOfDelusionNort extends Quest
 		}
 	}
 
+	@Override
 	public String onAdvEvent (String event, L2Npc npc, L2PcInstance player)
 	{
 		InstanceWorld tmpworld = InstanceManager.getInstance().getPlayerWorld(player);
@@ -234,7 +235,7 @@ public class ChamberOfDelusionNort extends Quest
 			{
 				for (L2PcInstance partyMember : party.getPartyMembers())
 				{
-					teleportrnd(partyMember,(CDWorld)world);
+					teleportrnd(partyMember,world);
 				}
 
 				startQuestTimer("tproom1",480000,null,player);
@@ -244,7 +245,7 @@ public class ChamberOfDelusionNort extends Quest
 			{
 				for (L2PcInstance partyMember : party.getPartyMembers())
 				{
-					teleportrnd(partyMember,(CDWorld)world);
+					teleportrnd(partyMember,world);
 				}
 
 				startQuestTimer("tproom2",480000,null,player);
@@ -254,7 +255,7 @@ public class ChamberOfDelusionNort extends Quest
 			{
 				for (L2PcInstance partyMember : party.getPartyMembers())
 				{
-					teleportrnd(partyMember,(CDWorld)world);
+					teleportrnd(partyMember,world);
 				}
 
 				startQuestTimer("tproom3",480000,null,player);
@@ -264,7 +265,7 @@ public class ChamberOfDelusionNort extends Quest
 			{
 				for (L2PcInstance partyMember : party.getPartyMembers())
 				{
-					teleportrnd(partyMember,(CDWorld)world);
+					teleportrnd(partyMember,world);
 				}
 			}
 			else if ("7".equalsIgnoreCase(event))
@@ -276,7 +277,7 @@ public class ChamberOfDelusionNort extends Quest
 						cancelQuestTimers("tproom");
 						for (L2PcInstance partyMember : party.getPartyMembers())
 						{
-							teleportrnd(partyMember,(CDWorld)world);
+							teleportrnd(partyMember,world);
 						}
 						startQuestTimer("tproom1",480000,null,player);
 						g = 1;
@@ -286,7 +287,7 @@ public class ChamberOfDelusionNort extends Quest
 						cancelQuestTimers("tproom1");
 						for (L2PcInstance partyMember : party.getPartyMembers())
 						{
-							teleportrnd(partyMember,(CDWorld)world);
+							teleportrnd(partyMember,world);
 						}
 						startQuestTimer("tproom2",480000,null,player);
 						g = 1;
@@ -296,7 +297,7 @@ public class ChamberOfDelusionNort extends Quest
 						cancelQuestTimers("tproom2");
 						for (L2PcInstance partyMember : party.getPartyMembers())
 						{
-							teleportrnd(partyMember,(CDWorld)world);
+							teleportrnd(partyMember,world);
 						}
 						startQuestTimer("tproom3",480000,null,player);
 						g = 1;
@@ -306,7 +307,7 @@ public class ChamberOfDelusionNort extends Quest
 						cancelQuestTimers("tproom3");
 						for (L2PcInstance partyMember : party.getPartyMembers())
 						{
-							teleportrnd(partyMember,(CDWorld)world);
+							teleportrnd(partyMember,world);
 						}
 						g = 1;
 					}
@@ -330,11 +331,13 @@ public class ChamberOfDelusionNort extends Quest
 		return "";
 	}
 
+	@Override
 	public final String onFirstTalk (L2Npc npc, L2PcInstance player)
 	{
 		return npc.getNpcId() + ".htm";
 	}
 
+	@Override
 	public String onTalk (L2Npc npc, L2PcInstance player)
 	{
 		int npcId = npc.getNpcId();

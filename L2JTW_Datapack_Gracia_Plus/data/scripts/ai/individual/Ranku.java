@@ -41,6 +41,7 @@ public class Ranku extends L2AttackableAIScript
 		addEventId(RANKU, Quest.QuestEventType.ON_KILL);
 	}
 	
+	@Override
 	public String onAdvEvent(String event, L2Npc npc, L2PcInstance player)
 	{
 		if (npc != null)
@@ -63,6 +64,7 @@ public class Ranku extends L2AttackableAIScript
 		return "";
 	}
 	
+	@Override
 	public String onSpawn(L2Npc npc)
 	{
 		int npcId = npc.getNpcId();
@@ -84,6 +86,7 @@ public class Ranku extends L2AttackableAIScript
 		return "";
 	}
 	
+	@Override
 	public String onKill(L2Npc npc, L2PcInstance killer, boolean isPet)
 	{
 		if (npc.getNpcId() == RANKU)

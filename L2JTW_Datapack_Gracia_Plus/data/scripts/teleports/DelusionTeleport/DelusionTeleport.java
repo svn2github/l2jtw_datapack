@@ -48,6 +48,7 @@ public class DelusionTeleport extends Quest
 			addTalkId(REWARDER_SIX);
 	}
 
+	@Override
 	public String onTalk(L2Npc npc, L2PcInstance player)
 	{
 		QuestState st = player.getQuestState(getName());

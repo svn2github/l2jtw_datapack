@@ -90,6 +90,7 @@ public class Remnant_ghosts extends L2AttackableAIScript
 		}
 	}
 
+	@Override
 	public String onSkillSee(L2Npc npc, L2PcInstance player, L2Skill skill, L2Object[] targets, boolean isPet)
 	{
 		for (L2Object obj : targets)
@@ -111,7 +112,7 @@ public class Remnant_ghosts extends L2AttackableAIScript
 				if (currentHp <= triggerHp)
 				{
 					npc.setIsInvul(true);
-					L2Character dead = (L2Character) npc;
+					L2Character dead = npc;
 					dead.doDie(player);
 					npc.setIsInvul(false);
 				}
@@ -127,7 +128,7 @@ public class Remnant_ghosts extends L2AttackableAIScript
 					if (currentHp <= triggerHp)
 					{
 						npc.setIsInvul(true);
-						L2Character dead = (L2Character) npc;
+						L2Character dead = npc;
 						dead.doDie(player);
 						npc.setIsInvul(false);
 					}
@@ -138,6 +139,7 @@ public class Remnant_ghosts extends L2AttackableAIScript
 		return super.onSkillSee(npc, player, skill, targets, isPet);
 	}
 
+	@Override
 	public String onAttack(L2Npc npc, L2PcInstance player, int damage, boolean isPet)
 	{
 		npcId = npc.getNpcId();
@@ -167,6 +169,7 @@ public class Remnant_ghosts extends L2AttackableAIScript
 		return super.onAttack(npc, player, damage, isPet);
 	}
 
+	@Override
 	public String onKill(L2Npc npc, L2PcInstance player, boolean isPet)
 	{
 		npcId = npc.getNpcId();

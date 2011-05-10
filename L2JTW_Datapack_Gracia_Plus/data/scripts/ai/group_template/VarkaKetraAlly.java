@@ -48,6 +48,7 @@ public class VarkaKetraAlly extends L2AttackableAIScript
 
 	protected static final int[] varkaAllyMark = { 7225, 7224, 7223, 7222, 7221 };
 
+	@Override
 	public String onAttack (L2Npc npc, L2PcInstance attacker, int damage, boolean isPet)
 	{
 		if (attacker.getAllianceWithVarkaKetra() != 0)
@@ -66,6 +67,7 @@ public class VarkaKetraAlly extends L2AttackableAIScript
 		return super.onAttack(npc, attacker, damage, isPet);
 	}
 	
+	@Override
 	public String onKill (L2Npc npc, L2PcInstance killer, boolean isPet)
 	{
 		if (killer.getParty() != null)

@@ -31,11 +31,13 @@ public class MutationDrake extends L2AttackableAIScript
 		this.registerMobs(mob);
 	}
 
+	@Override
 	public String onAdvEvent (String event, L2Npc npc, L2PcInstance player)
 	{
 		return super.onAdvEvent(event, npc, player);
 	}
 
+	@Override
 	public String onAttack (L2Npc npc, L2PcInstance attacker, int damage, boolean isPet)
 	{
 		if (npc.getNpcId() == MUTATION_DRAKE)

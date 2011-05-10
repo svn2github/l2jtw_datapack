@@ -99,6 +99,7 @@ public class Disciple extends Quest
 		}
 	}
 
+	@Override
 	public String onSkillSee(L2Npc npc, L2PcInstance caster, L2Skill skill, L2Object[] targets, boolean isPet)
 	{
 		InstanceWorld tmpworld = InstanceManager.getInstance().getWorld(npc.getInstanceId());
@@ -117,6 +118,7 @@ public class Disciple extends Quest
 		return super.onSkillSee(npc,caster,skill,targets,isPet);
 	}
 
+	@Override
 	public String onTalk ( L2Npc npc, L2PcInstance player)
 	{
 		int npcId = npc.getNpcId();

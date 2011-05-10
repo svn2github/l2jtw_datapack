@@ -62,6 +62,7 @@ public class CryptsOfDisgrace extends L2AttackableAIScript
 		}
 	}
 	
+	@Override
 	public String onKill(L2Npc npc, L2PcInstance player, boolean isPet)
 	{
 		return super.onKill(npc, player, isPet);

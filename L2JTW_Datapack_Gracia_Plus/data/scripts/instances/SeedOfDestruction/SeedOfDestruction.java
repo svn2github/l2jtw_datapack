@@ -821,17 +821,20 @@ public class SeedOfDestruction extends Quest
 		world._priest.setIsNoRndWalk(true);
 	}
 
+	@Override
 	public String onSkillSee (L2Npc npc, L2PcInstance caster, L2Skill skill, L2Object[] targets, boolean isPet)
 	{
 		return super.onSkillSee(npc, caster, skill, targets, isPet);
 	}
 
+	@Override
 	public String onSpawn (L2Npc npc) 
 	{
 		npc.disableCoreAI(true);
 		return super.onSpawn(npc); 
 	}
 
+	@Override
 	public String onAttack (L2Npc npc, L2PcInstance attacker, int damage, boolean isPet, L2Skill skill)
 	{
 		InstanceWorld tmpworld = InstanceManager.getInstance().getWorld(npc.getInstanceId());
@@ -868,6 +871,7 @@ public class SeedOfDestruction extends Quest
 		return null;
 	}
 
+	@Override
 	public String onAdvEvent (String event, L2Npc npc, L2PcInstance player)
 	{
 		InstanceWorld tmpworld = InstanceManager.getInstance().getWorld(npc.getInstanceId());
@@ -1083,6 +1087,7 @@ public class SeedOfDestruction extends Quest
 		return "";
 	}
 
+	@Override
 	public String onKill( L2Npc npc, L2PcInstance player, boolean isPet)
 	{
 		if (npc.getNpcId() == SPAWN_DEVICE)
@@ -1159,6 +1164,7 @@ public class SeedOfDestruction extends Quest
 		return "";
 	}
 
+	@Override
 	public String onTalk (L2Npc npc, L2PcInstance player)
 	{
 		int npcId = npc.getNpcId();
@@ -1202,6 +1208,7 @@ public class SeedOfDestruction extends Quest
 		return "";
 	}
 
+	@Override
 	public String onFirstTalk(L2Npc npc, L2PcInstance player)
 	{
 		_log.info("FirstTalkEvent: NPC " + npc.getNpcId() + ".");
@@ -1224,6 +1231,7 @@ public class SeedOfDestruction extends Quest
 		return "";
 	}
 
+	@Override
 	public String onEnterZone(L2Character character, L2ZoneType zone)
 	{
 		if (character instanceof L2PcInstance)

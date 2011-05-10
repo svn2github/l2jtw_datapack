@@ -42,6 +42,7 @@ public class DemonPrince extends L2AttackableAIScript
 		
 	}
 	
+	@Override
 	public String onAdvEvent(String event, L2Npc npc, L2PcInstance player)
 	{
 		if (npc != null)
@@ -57,6 +58,7 @@ public class DemonPrince extends L2AttackableAIScript
 		return "";
 	}
 	
+	@Override
 	public String onSpawn(L2Npc npc)
 	{
 		int npcId = npc.getNpcId();
@@ -67,6 +69,7 @@ public class DemonPrince extends L2AttackableAIScript
 		return "";
 	}
 	
+	@Override
 	public String onAttack(L2Npc npc, L2PcInstance attacker, int damage, boolean isPet)
 	{
 		int npcId = npc.getNpcId();
