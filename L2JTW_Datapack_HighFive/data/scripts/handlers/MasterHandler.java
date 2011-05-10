@@ -101,6 +101,7 @@ import handlers.admincommandhandlers.AdminVitality;
 import handlers.admincommandhandlers.AdminZone;
 import handlers.admincommandhandlers.AdminVitaminItem;  // Add PI by pmq
 import handlers.bypasshandlers.Augment;
+import handlers.bypasshandlers.BloodAlliance;
 import handlers.bypasshandlers.Buy;
 import handlers.bypasshandlers.BuyShadowItem;
 import handlers.bypasshandlers.CPRecovery;
@@ -385,6 +386,7 @@ public class MasterHandler
 	private static void loadBypassHandlers()
 	{
 		BYPASS.registerBypassHandler(new Augment());
+		BYPASS.registerBypassHandler(new BloodAlliance());
 		BYPASS.registerBypassHandler(new Buy());
 		BYPASS.registerBypassHandler(new BuyShadowItem());
 		BYPASS.registerBypassHandler(new ChatLink());
