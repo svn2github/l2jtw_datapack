@@ -650,6 +650,10 @@ public class Q196_SevenSignSealOfTheEmperor extends Quest
 		}
 		else if (event.equalsIgnoreCase("32586-06.htm"))
 		{
+			ExShowScreenMessage message1 = new ExShowScreenMessage(1,0,2,15,0,15,15,false,10000,1,"使用殷海薩聖劍秩必殺技來擊敗邪惡的莉莉恩群！");  // 官服是(黃色字體)
+			player.sendPacket(message1);
+			player.sendMessage("使用殷海薩聖劍秩必殺技來擊敗邪惡的莉莉恩群！");  // 官服是(黃色字體)
+			player.sendMessage("使用殷海薩聖水後，請開啟圍繞火焰詛咒的門。");  // 官服是(黃色字體)
 			st.playSound("ItemSound.quest_middle");
 			st.set("cond", "4");
 			st.giveItems(SWORD, 1);
