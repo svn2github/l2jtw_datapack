@@ -1,6 +1,6 @@
 # author: Psycho(killer1888) / L2jFree
 # By: evill33t & vital
-# Update by pmq 10-07-2010
+# Update by pmq 12-05-2011
 import sys
 from java.lang                                       import System
 from com.l2jserver.gameserver.ai                     import CtrlIntention
@@ -9,6 +9,7 @@ from com.l2jserver.gameserver.datatables             import ItemTable
 from com.l2jserver.gameserver.datatables             import SpawnTable
 from com.l2jserver.gameserver.instancemanager        import HellboundManager
 from com.l2jserver.gameserver.instancemanager        import InstanceManager
+from com.l2jserver.gameserver.model                  import L2CharPosition
 from com.l2jserver.gameserver.model                  import L2ItemInstance
 from com.l2jserver.gameserver.model.actor            import L2Summon
 from com.l2jserver.gameserver.model.entity           import Instance
@@ -44,7 +45,8 @@ LIST = [22359, 22360]   # 市區警衛兵 / 市區巡邏兵
 # Items
 KEY            = 9714   # 惡魔刻紋鑰匙
 
-AMASKARI_TEXT = ["蠢材，死亡等待著你！","小人，真讓人驚奇","首先，我殺了你來換取當地人自由","主人巴列斯不會很高興","原來是你..."]
+AMASKARI_TEXT  = ["蠢材，死亡等待著你！","小人，真讓人驚奇","首先，我殺了你來換取當地人自由","主人巴列斯不會很高興","原來是你..."]
+SLAVES_TEXT    = ["終於自由了！","謝謝你救我！","我可以回家啦！","得你的照顧，我的朋友！"]
 
 KLOCS = [
 		[14264,250333,-1935,15133],
@@ -61,20 +63,55 @@ dataIndex  = 0
 class PyObject :
 	pass
 
+def sendSlaves(self,player,world):
+	playerList = InstanceManager.getInstance().getInstance(player.getInstanceId()).getPlayers().toArray()
+	for slave in world.AmaskariSlaves.npclist:
+		#char = playerList[Rnd.get(len(playerList))]
+		#player = L2World.getInstance().findPlayer(char)
+		slave.setRunning()
+		slave.addDamageHate(player, 0, 999)
+		slave.getAI().setIntention(CtrlIntention.AI_INTENTION_ATTACK, player)
+
 def callGuards(self,npc,player,world):
 	guardList = []
-	newNpc = self.addSpawn(GUARD,npc.getX()+50,npc.getY(),npc.getZ(),0,False,0,10,world.instanceId)
+	newNpc = self.addSpawn(GUARD, npc.getX()+50, npc.getY(), npc.getZ(), 0, False, 0, False, world.instanceId)
 	guardList.append(newNpc)
-	newNpc = self.addSpawn(GUARD,npc.getX()-50,npc.getY(),npc.getZ(),0,False,0,10,world.instanceId)
+	newNpc = self.addSpawn(GUARD, npc.getX()-50, npc.getY(), npc.getZ(), 0, False, 0, False, world.instanceId)
 	guardList.append(newNpc)
-	newNpc = self.addSpawn(GUARD,npc.getX(),npc.getY()+50,npc.getZ(),0,False,0,10,world.instanceId)
+	newNpc = self.addSpawn(GUARD, npc.getX(), npc.getY()+50, npc.getZ(), 0, False, 0, False, world.instanceId)
 	guardList.append(newNpc)
-	newNpc = self.addSpawn(GUARD,npc.getX(),npc.getY()-50,npc.getZ(),0,False,0,10,world.instanceId)
+	newNpc = self.addSpawn(GUARD, npc.getX(), npc.getY()-50, npc.getZ(), 0, False, 0, False, world.instanceId)
 	guardList.append(newNpc)
 	for mob in guardList:
 		mob.setRunning()
 		mob.addDamageHate(player, 0, 999)
 		mob.getAI().setIntention(CtrlIntention.AI_INTENTION_ATTACK, player)
+
+def spawnAmaskari(self,world):
+	world.amaskariAttacked = False
+	amaskari = self.addSpawn(AMASKARI, 19496, 253125, -2030, 0, False, 0, False, world.instanceId)
+	self.Amaskari = amaskari
+	world.AmaskariSlaves = PyObject()
+	world.AmaskariSlaves.npclist = []
+	newNpc = self.addSpawn(NATIVE, amaskari.getX(), amaskari.getY()+300, amaskari.getZ(), 0, False, 0, False, world.instanceId)
+	world.AmaskariSlaves.npclist.append(newNpc)
+	newNpc = self.addSpawn(NATIVE, amaskari.getX(), amaskari.getY()-300, amaskari.getZ(), 0, False, 0, False, world.instanceId)
+	world.AmaskariSlaves.npclist.append(newNpc)
+	newNpc = self.addSpawn(NATIVE, amaskari.getX()+300, amaskari.getY(), amaskari.getZ(), 0, False, 0, False, world.instanceId)
+	world.AmaskariSlaves.npclist.append(newNpc)
+	newNpc = self.addSpawn(NATIVE, amaskari.getX()-300, amaskari.getY(), amaskari.getZ(), 0, False, 0, False, world.instanceId)
+	world.AmaskariSlaves.npclist.append(newNpc)
+	newNpc = self.addSpawn(NATIVE, amaskari.getX()+300, amaskari.getY()+300, amaskari.getZ(), 0, False, 0, False, world.instanceId)
+	world.AmaskariSlaves.npclist.append(newNpc)
+	newNpc = self.addSpawn(NATIVE, amaskari.getX()-300, amaskari.getY()-300, amaskari.getZ(), 0, False, 0, False, world.instanceId)
+	world.AmaskariSlaves.npclist.append(newNpc)
+	newNpc = self.addSpawn(NATIVE, amaskari.getX()+300, amaskari.getY()-300, amaskari.getZ(), 0, False, 0, False, world.instanceId)
+	world.AmaskariSlaves.npclist.append(newNpc)
+	newNpc = self.addSpawn(NATIVE, amaskari.getX()-300, amaskari.getY()+300, amaskari.getZ(), 0, False, 0, False, world.instanceId)
+	world.AmaskariSlaves.npclist.append(newNpc)
+	for slave in world.AmaskariSlaves.npclist:
+		slave.setRunning()
+		slave.getAI().setIntention(CtrlIntention.AI_INTENTION_FOLLOW, amaskari)
 
 def autochat(npc,text) :
 	if npc: npc.broadcastPacket(NpcSay(npc.getObjectId(),0,npc.getNpcId(),text))
@@ -128,6 +165,7 @@ class Quest(JQuest):
 		self.Slaves = {}
 		self.currentWorld = 0
 		self.Lock = 0
+		self.ALock = 0
 		self.NATIVELock = 0
 		self.hellboundLevel = 0
 		self.trustp = 0
@@ -149,9 +187,8 @@ class Quest(JQuest):
 			npc.decayMe()
 		elif event == "NATIVESay":
 			world = self.worlds[npc.getInstanceId()]
-			npc.broadcastPacket(NpcSay(22450, 0, 22450, "我會...將...全部...打死...！"))
-			npc.broadcastPacket(NpcSay(22450, 0, 22450, "我會...將...全部...打死...！"))
-			npc.broadcastPacket(NpcSay(22450, 0, 22450, "我會...將...全部...打死...！"))
+			for npc in world.AmaskariSlaves.npclist:
+				npc.broadcastPacket(NpcSay(22450, 0, 22450, "我會...將...全部...打死...！"))
 		elif event == "freeprisoner":
 			world = self.worlds[npc.getInstanceId()]
 			sayNpc = npc.getObjectId()
@@ -184,23 +221,6 @@ class Quest(JQuest):
 			else :
 				return "32343-1.htm"
 		return
-
-	def onSpawn(self,npc):
-		npcId = npc.getNpcId()
-		objId = npc.getObjectId()
-		if npcId == AMASKARI:
-			self.Prisonslaves = []
-			self.Slaves[objId] = []
-			self.Slaves[objId].append("noSlaves")
-			xx,yy,zz = npc.getX(),npc.getY(),npc.getZ()
-			self.Slaves[objId] = []
-			for i in range(9):
-				offsetX = xx + (50 - Rnd.get(250))
-				offsetY = yy + (50 - Rnd.get(250))
-				newSlave = self.addSpawn(22450,offsetX,offsetY,zz,0,False,0,False,npc.getInstanceId())
-				newSlave.setRunning()
-				newSlave.getAI().setIntention(CtrlIntention.AI_INTENTION_FOLLOW, npc)
-				self.Slaves[objId].append(newSlave)
 
 	def onTalk(self, npc, player):
 		npcId = npc.getNpcId()
@@ -237,9 +257,7 @@ class Quest(JQuest):
 						newKeymaster = self.addSpawn(KEYMASTER,KLOC[0],KLOC[1],KLOC[2],KLOC[3],False,0,False,world.instanceId)
 						self.keymaster = newKeymaster
 						self.keymasterattacked = False
-						newAmaskari = self.addSpawn(AMASKARI,19496,253125,-2030,0,False,0,False,world.instanceId)
-						self.amaskari = newAmaskari
-						self.amaskariattacked = False
+						spawnAmaskari(self,world)
 						tele.instanceId = instanceId
 						teleportPlayer(self,player,tele)
 						party = player.getParty()
@@ -262,48 +280,42 @@ class Quest(JQuest):
 	def onKill(self, npc, player, isPet):
 		npcId = npc.getNpcId()
 		objId = npc.getObjectId()
-		if npcId == KEYMASTER:
-			HellboundManager.getInstance().increaseTrust(250)
-			self.trustp += 250
-			self.saveGlobalQuestVar("trust10p", str(self.trustp))
-			chance = Rnd.get(100)
-			if chance <= 75:
-				npc.broadcastPacket(NpcSay(objId, 0, npc.getNpcId(), "我的天呀！我.的..鑰...匙......."))
-				dropItem(player,npc,9714,1)
-			else:
-				npc.broadcastPacket(NpcSay(objId, 0, npc.getNpcId(), "你永遠都不能得到我的..鑰匙！"))
-		if npcId == AMASKARI:
-			if HellboundManager.getInstance().getLevel() <= 11:
-				HellboundManager.getInstance().increaseTrust(500)
-				self.trustp += 500
-				self.saveGlobalQuestVar("trust10p", str(self.trustp))
-			try:
-				if self.Slaves[objId][0] != "noSlaves":
-					for i in self.Slaves[objId]:
-						try:
-							i.setIsInvul(1)
-							i.broadcastPacket(CreatureSay(i.getObjectId(), 0, i.getName(), "謝謝你救我！"))
-							i.decayMe()
-						except:
-							pass
-					self.Slaves[objId] = []
-			except:
-				pass
-		if npcId == NATIVE:
-			HellboundManager.getInstance().increaseTrust(-10)
-			self.trustp -= 10
-			self.saveGlobalQuestVar("trust10p", str(self.trustp))
-			self.Lock = 0
-		if npcId == PRISONER:
-			HellboundManager.getInstance().increaseTrust(-10)
-			self.trustp -= 10
-			self.saveGlobalQuestVar("trust10p", str(self.trustp))
-		if npcId in LIST:
-			HellboundManager.getInstance().increaseTrust(20)
-			self.trustp += 20
-			self.saveGlobalQuestVar("trust10p", str(self.trustp))
 		if self.worlds.has_key(npc.getInstanceId()):
 			world = self.worlds[npc.getInstanceId()]
+			if npcId == KEYMASTER:
+				HellboundManager.getInstance().increaseTrust(250)
+				self.trustp += 250
+				self.saveGlobalQuestVar("trust10p", str(self.trustp))
+				chance = Rnd.get(100)
+				if chance <= 75:
+					npc.broadcastPacket(NpcSay(objId, 0, npc.getNpcId(), "我的天呀！我.的..鑰...匙......."))
+					dropItem(player,npc,9714,1)
+				else:
+					npc.broadcastPacket(NpcSay(objId, 0, npc.getNpcId(), "你永遠都不能得到我的..鑰匙！"))
+			if npcId == AMASKARI:
+				if HellboundManager.getInstance().getLevel() <= 11:
+					HellboundManager.getInstance().increaseTrust(500)
+					self.trustp += 500
+					self.saveGlobalQuestVar("trust10p", str(self.trustp))
+					for slave in world.AmaskariSlaves.npclist:
+						slave.setRunning()
+						slave.getAI().setIntention(CtrlIntention.AI_INTENTION_MOVE_TO, L2CharPosition(17384, 251788, -2015, 0))
+						self.startQuestTimer("decayNpc",8000,slave,None)
+						slave.broadcastPacket(NpcSay(slave.getObjectId(),0,NATIVE,SLAVES_TEXT[Rnd.get(len(SLAVES_TEXT))]))
+						self.ALock = 0
+			if npcId == NATIVE:
+				HellboundManager.getInstance().increaseTrust(-10)
+				self.trustp -= 10
+				self.saveGlobalQuestVar("trust10p", str(self.trustp))
+				self.Lock = 0
+			if npcId == PRISONER:
+				HellboundManager.getInstance().increaseTrust(-10)
+				self.trustp -= 10
+				self.saveGlobalQuestVar("trust10p", str(self.trustp))
+			if npcId in LIST:
+				HellboundManager.getInstance().increaseTrust(20)
+				self.trustp += 20
+				self.saveGlobalQuestVar("trust10p", str(self.trustp))
 		return
 
 	def onAttack(self, npc, player, damage, isPet, skill):
@@ -312,25 +324,33 @@ class Quest(JQuest):
 		objId = npc.getObjectId()
 		maxHp = npc.getMaxHp()
 		nowHp = npc.getStatus().getCurrentHp()
-		if npcId == AMASKARI:
-			if (nowHp < maxHp * 0.1):
-				if self.Lock == 0:
-					npc.broadcastPacket(CreatureSay(objId, 0, npc.getName(), "我將讓大家和我一樣的痛苦！"))
-					self.Lock = 1
-		if npcId == KEYMASTER :
-			if not self.keymasterattacked:
-				self.keymasterattacked = True
-				self.amaskari.teleToLocation(player.getX(),player.getY(),player.getZ())
-				self.amaskari.setTarget(player)
-				objId = self.amaskari.getObjectId()
-				self.amaskari.broadcastPacket(NpcSay(objId, 0, self.amaskari.getNpcId(), AMASKARI_TEXT[Rnd.get(len(AMASKARI_TEXT))]))
-				self.startQuestTimer("NATIVESay", 5000, npc, None)
-		if npcId == NATIVE :
-			if self.NATIVELock == 0:
-				npc.broadcastPacket(CreatureSay(objId, 0, npc.getName(), "嘿...好痛...好痛...啊！"))
-				self.NATIVELock = 1
 		if self.worlds.has_key(npc.getInstanceId()):
 			world = self.worlds[npc.getInstanceId()]
+			if npcId == AMASKARI:
+				if not world.amaskariAttacked:
+					world.amaskariAttacked = True
+					sendSlaves(self,player,world)
+					npc.broadcastPacket(NpcSay(npc.getObjectId(),0,AMASKARI,AMASKARI_TEXT[Rnd.get(len(AMASKARI_TEXT))]))
+#					self.startQuestTimer("NATIVESay", 5000, npc, None)
+				if (nowHp < maxHp * 0.1):
+					if self.Lock == 0:
+						npc.broadcastPacket(CreatureSay(objId, 0, npc.getName(), "我將讓大家和我一樣的痛苦！"))
+						self.Lock = 1
+			if npcId == KEYMASTER :
+				if not self.keymasterattacked:
+					self.keymasterattacked = True
+				if (nowHp < maxHp * 0.1):
+					if self.ALock == 0:
+						self.Amaskari.teleToLocation(player.getX(),player.getY(),player.getZ())
+						self.Amaskari.setTarget(player)
+						for slave in world.AmaskariSlaves.npclist:
+							slave.teleToLocation(player.getX() +100,player.getY() -100,player.getZ())
+							slave.broadcastPacket(NpcSay(slave.getObjectId(),0,NATIVE,"我會...將...全部...打死...！"))
+							self.ALock = 1
+			if npcId == NATIVE :
+				if self.NATIVELock == 0:
+					npc.broadcastPacket(CreatureSay(objId, 0, npc.getName(), "嘿...好痛...好痛...啊！"))
+					self.NATIVELock = 1
 		return
 
 QUEST = Quest(-1, qn, "hellbound")
