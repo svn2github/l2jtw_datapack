@@ -299,7 +299,7 @@
 		<set name="bodypart" val="lhand" />
 		<set name="immediate_effect" val="1" />
 		<set name="crystal_count" val="307" />
-		<set name="crystal_type" val="s80" />
+		<set name="crystal_type" val="s" /><!-- update by pmq -->
 		<set name="material" val="steel" />
 		<set name="weight" val="930" />
 		<set name="price" val="6404000" />
@@ -1763,7 +1763,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="12882" type="Weapon" name="Éclair Bijou - Landslide {PvP} - Haste">
+	<item id="12882" type="Weapon" name="?clair Bijou - Landslide {PvP} - Haste">
 		<set name="icon" val="icon.weapon_greed_stinger_i01" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="rapier" />
@@ -1798,7 +1798,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="12883" type="Weapon" name="Éclair Bijou - Landslide {PvP} - Health">
+	<item id="12883" type="Weapon" name="?clair Bijou - Landslide {PvP} - Health">
 		<set name="icon" val="icon.weapon_greed_stinger_i01" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="rapier" />
@@ -1833,7 +1833,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="12884" type="Weapon" name="Éclair Bijou - Landslide {PvP} - Critical Poison">
+	<item id="12884" type="Weapon" name="?clair Bijou - Landslide {PvP} - Critical Poison">
 		<set name="icon" val="icon.weapon_greed_stinger_i01" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="rapier" />

@@ -1712,7 +1712,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="9352" type="Weapon" name="Éclair Bijou">
+	<item id="9352" type="Weapon" name="?clair Bijou">
 		<set name="icon" val="icon.weapon_greed_stinger_i00" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="rapier" />
@@ -1744,7 +1744,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="9353" type="Weapon" name="Éclair Bijou - Haste">
+	<item id="9353" type="Weapon" name="?clair Bijou - Haste">
 		<set name="icon" val="icon.weapon_greed_stinger_i01" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="rapier" />
@@ -1777,7 +1777,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="9354" type="Weapon" name="Éclair Bijou - Health">
+	<item id="9354" type="Weapon" name="?clair Bijou - Health">
 		<set name="icon" val="icon.weapon_greed_stinger_i01" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="rapier" />
@@ -1810,7 +1810,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="9355" type="Weapon" name="Éclair Bijou - Critical Poison">
+	<item id="9355" type="Weapon" name="?clair Bijou - Critical Poison">
 		<set name="icon" val="icon.weapon_greed_stinger_i01" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="rapier" />
@@ -2518,7 +2518,7 @@
 		<set name="damage_range" val="0;0;40;120" />
 		<set name="immediate_effect" val="1" />
 		<set name="crystal_count" val="3597" />
-		<set name="crystal_type" val="s80" />
+		<set name="crystal_type" val="s" /><!-- update by pmq -->
 		<set name="material" val="steel" />
 		<set name="weight" val="1280" />
 		<set name="price" val="74946000" />
@@ -2551,7 +2551,7 @@
 		<set name="damage_range" val="0;0;40;120" />
 		<set name="immediate_effect" val="1" />
 		<set name="crystal_count" val="3597" />
-		<set name="crystal_type" val="s80" />
+		<set name="crystal_type" val="s" /><!-- update by pmq -->
 		<set name="material" val="steel" />
 		<set name="weight" val="1280" />
 		<set name="price" val="74946000" />
@@ -2585,7 +2585,7 @@
 		<set name="damage_range" val="0;0;40;120" />
 		<set name="immediate_effect" val="1" />
 		<set name="crystal_count" val="3597" />
-		<set name="crystal_type" val="s80" />
+		<set name="crystal_type" val="s" /><!-- update by pmq -->
 		<set name="material" val="steel" />
 		<set name="weight" val="1280" />
 		<set name="price" val="74946000" />
@@ -2619,7 +2619,7 @@
 		<set name="damage_range" val="0;0;40;120" />
 		<set name="immediate_effect" val="1" />
 		<set name="crystal_count" val="3597" />
-		<set name="crystal_type" val="s80" />
+		<set name="crystal_type" val="s" /><!-- update by pmq -->
 		<set name="material" val="steel" />
 		<set name="weight" val="1280" />
 		<set name="price" val="74946000" />
@@ -2653,7 +2653,7 @@
 		<set name="damage_range" val="0;0;40;120" />
 		<set name="immediate_effect" val="1" />
 		<set name="crystal_count" val="3597" />
-		<set name="crystal_type" val="s80" />
+		<set name="crystal_type" val="s" /><!-- update by pmq -->
 		<set name="material" val="steel" />
 		<set name="weight" val="1800" />
 		<set name="price" val="74946000" />
@@ -2685,7 +2685,7 @@
 		<set name="damage_range" val="0;0;40;120" />
 		<set name="immediate_effect" val="1" />
 		<set name="crystal_count" val="3597" />
-		<set name="crystal_type" val="s80" />
+		<set name="crystal_type" val="s" /><!-- update by pmq -->
 		<set name="material" val="steel" />
 		<set name="weight" val="1800" />
 		<set name="price" val="74946000" />
@@ -2718,7 +2718,7 @@
 		<set name="damage_range" val="0;0;40;120" />
 		<set name="immediate_effect" val="1" />
 		<set name="crystal_count" val="3597" />
-		<set name="crystal_type" val="s80" />
+		<set name="crystal_type" val="s" /><!-- update by pmq -->
 		<set name="material" val="steel" />
 		<set name="weight" val="1800" />
 		<set name="price" val="74946000" />
@@ -2751,7 +2751,7 @@
 		<set name="damage_range" val="0;0;40;120" />
 		<set name="immediate_effect" val="1" />
 		<set name="crystal_count" val="3597" />
-		<set name="crystal_type" val="s80" />
+		<set name="crystal_type" val="s" /><!-- update by pmq -->
 		<set name="material" val="steel" />
 		<set name="weight" val="1800" />
 		<set name="price" val="74946000" />
@@ -2784,7 +2784,7 @@
 		<set name="damage_range" val="0;0;40;120" />
 		<set name="immediate_effect" val="1" />
 		<set name="crystal_count" val="3597" />
-		<set name="crystal_type" val="s80" />
+		<set name="crystal_type" val="s" /><!-- update by pmq -->
 		<set name="material" val="steel" />
 		<set name="weight" val="1580" />
 		<set name="price" val="74946000" />
@@ -2817,7 +2817,7 @@
 		<set name="damage_range" val="0;0;40;120" />
 		<set name="immediate_effect" val="1" />
 		<set name="crystal_count" val="3597" />
-		<set name="crystal_type" val="s80" />
+		<set name="crystal_type" val="s" /><!-- update by pmq -->
 		<set name="material" val="steel" />
 		<set name="weight" val="1580" />
 		<set name="price" val="74946000" />
@@ -2852,7 +2852,7 @@
 		<set name="damage_range" val="0;0;40;120" />
 		<set name="immediate_effect" val="1" />
 		<set name="crystal_count" val="3597" />
-		<set name="crystal_type" val="s80" />
+		<set name="crystal_type" val="s" /><!-- update by pmq -->
 		<set name="material" val="steel" />
 		<set name="weight" val="1580" />
 		<set name="price" val="74946000" />
@@ -2886,7 +2886,7 @@
 		<set name="damage_range" val="0;0;40;120" />
 		<set name="immediate_effect" val="1" />
 		<set name="crystal_count" val="3597" />
-		<set name="crystal_type" val="s80" />
+		<set name="crystal_type" val="s" /><!-- update by pmq -->
 		<set name="material" val="steel" />
 		<set name="weight" val="1580" />
 		<set name="price" val="74946000" />
