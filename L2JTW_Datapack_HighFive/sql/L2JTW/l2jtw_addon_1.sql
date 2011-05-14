@@ -3680,3 +3680,9 @@ UPDATE `npc` SET `aggro` = 400 WHERE `id` = 27376; -- 产产肕
 UPDATE `npc` SET `aggro` = 400 WHERE `id` = 27377; -- 产产
 UPDATE `npc` SET `aggro` = 400 WHERE `id` = 27378; -- 产产臸笵
 UPDATE `npc` SET `aggro` = 400 WHERE `id` = 27379; -- 产产窽矫肕
+
+-- タ岿粇
+UPDATE npc SET type = 'L2Monster', aggro=300 WHERE id = 22766;
+DELETE FROM spawnlist WHERE npc_templateid = 32760 AND locx = -24040;
+DELETE FROM spawnlist WHERE npc_templateid = 32777 AND locx = -23993;
+DELETE FROM spawnlist WHERE npc_templateid = 32778 AND locx = -23993;

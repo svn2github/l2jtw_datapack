@@ -52,13 +52,13 @@ public class IceQueen_Kegor extends Quest
 		public boolean underAttack = false;
 		public L2Npc KEGOR = null;
 		public List<L2Attackable> liveMobs;
- 
+		
 		public KegorWorld()
 		{
 			
 		}
 	}
-
+	
 	private static final String qn = "IceQueen_Kegor";
 	private static final int INSTANCEID = 138;
 	
@@ -70,7 +70,7 @@ public class IceQueen_Kegor extends Quest
 	private static final int ANTIDOTE = 15514;
 	
 	private static final int BUFF = 6286;
-
+	
 	private static final int[][] MOB_SPAWNS = {
 		{ 185216, -184112, -3308, -15396 },
 		{ 185456, -184240, -3308, -19668 },
@@ -90,7 +90,7 @@ public class IceQueen_Kegor extends Quest
 		player.teleToLocation(teleto.x, teleto.y, teleto.z);
 		return;
 	}
-
+	
 	private boolean checkConditions(L2PcInstance player)
 	{
 		if (player.getLevel() < 82 || player.getLevel() > 85)
@@ -103,18 +103,18 @@ public class IceQueen_Kegor extends Quest
 		
 		return true; 
 	}
-
+	
 	protected void exitInstance(L2PcInstance player, teleCoord tele)
 	{
 		player.setInstanceId(0);
 		player.teleToLocation(tele.x, tele.y, tele.z);
 	}
-	 
+	
 	protected int enterInstance(L2PcInstance player, String template, teleCoord teleto)
 	{
 		int instanceId = 0;
 		InstanceWorld world = InstanceManager.getInstance().getPlayerWorld(player);
-		//existing instance		
+		//existing instance
 		if (world != null)
 		{
 			//this instance
@@ -123,7 +123,7 @@ public class IceQueen_Kegor extends Quest
 				player.sendPacket(SystemMessage.getSystemMessage(SystemMessageId.ALREADY_ENTERED_ANOTHER_INSTANCE_CANT_ENTER));
 				return 0;
 			}
-
+			
 			teleto.instanceId = world.instanceId;
 			teleportplayer(player,teleto);
 			return instanceId;
@@ -133,7 +133,7 @@ public class IceQueen_Kegor extends Quest
 			//New instance
 			if (!checkConditions(player))
 				return 0;
-
+			
 			instanceId = InstanceManager.getInstance().createDynamicInstance(template);
 			final Instance inst = InstanceManager.getInstance().getInstance(instanceId);
 			inst.setSpawnLoc(new int[] { player.getX(), player.getY(), player.getZ() });
@@ -151,7 +151,7 @@ public class IceQueen_Kegor extends Quest
 			return instanceId;
 		}
 	}
-
+	
 	@Override
 	public String onAdvEvent(String event, L2Npc npc, L2PcInstance player)
 	{
@@ -161,7 +161,7 @@ public class IceQueen_Kegor extends Quest
 			if (tmpworld != null && tmpworld instanceof KegorWorld);
 			{
 				KegorWorld world = (KegorWorld) tmpworld;
-
+				
 				if (event.equalsIgnoreCase("spawn"))
 				{
 					world.liveMobs = new FastList<L2Attackable>();
@@ -187,7 +187,7 @@ public class IceQueen_Kegor extends Quest
 							else
 								monster.getAI().setIntention(CtrlIntention.AI_INTENTION_MOVE_TO, new L2CharPosition(npc.getX(), npc.getY(), npc.getZ(), 0));
 						}
-					
+						
 						//buff player
 						if (npc.getKnownList().getKnownPlayers().size() == 1)
 						{
@@ -215,13 +215,13 @@ public class IceQueen_Kegor extends Quest
 					if (_liveMobs != null && !_liveMobs.isEmpty())
 					{
 						int idx = Rnd.get(_liveMobs.size());
-
+						
 						if (npc.getKnownList().knowsObject(_liveMobs.get(idx)))
 						{
 							((L2Attackable)npc).addDamageHate(_liveMobs.get(idx), 0, 999);
 							npc.getAI().setIntention(CtrlIntention.AI_INTENTION_ATTACK, _liveMobs.get(idx));
 						}
-
+						
 						startQuestTimer("attack_mobs", 10000, KEGOR, player);
 					}
 				}
@@ -229,12 +229,12 @@ public class IceQueen_Kegor extends Quest
 			
 			}
 		}
-
+		
 		return null;
 	}
-
-  @Override
-public String onTalk ( L2Npc npc, L2PcInstance player)
+	
+	@Override
+	public String onTalk ( L2Npc npc, L2PcInstance player)
 	{
 		int npcId = npc.getNpcId();
 		String htmltext = getNoQuestMsg(player);
@@ -246,14 +246,14 @@ public String onTalk ( L2Npc npc, L2PcInstance player)
 			System.out.println("null host quest");
 			return htmltext;
 		}
-
+		
 		if (npcId == KROON || npcId == TAROON)
 		{
 			teleCoord tele = new teleCoord();
 			tele.x = ENTRY_POINT[0];      
 			tele.y = ENTRY_POINT[1];
 			tele.z = ENTRY_POINT[2];
-
+			
 			htmltext = npcId == KROON ? "32653-07.htm" : "32654-07.htm";
 			if (enterInstance(player, "IceQueen_Kegor.xml", tele) > 0)
 			{
@@ -266,7 +266,7 @@ public String onTalk ( L2Npc npc, L2PcInstance player)
 				}
 			}
 		}
-
+		
 		else if (npc.getNpcId() == KEGOR_IN_CAVE)
 		{
 			InstanceWorld tmpworld = InstanceManager.getInstance().getWorld(player.getInstanceId());
@@ -285,7 +285,7 @@ public String onTalk ( L2Npc npc, L2PcInstance player)
 					startQuestTimer("spawn", 3000, npc,player);
 					startQuestTimer("buff", 3500, npc,player);
 				}
-
+				
 				else if (hostQuest.getState() == State.COMPLETED)
 				{
 					world.allowed.remove(world.allowed.indexOf(player.getObjectId()));
@@ -303,14 +303,14 @@ public String onTalk ( L2Npc npc, L2PcInstance player)
 		
 		return htmltext;
 	}
-
+	
 	@Override
 	public String onFirstTalk(L2Npc npc, L2PcInstance player)
 	{
 		QuestState hostQuest = player.getQuestState("10284_AcquisitionOfDivineSword");
 		if (hostQuest == null)
 			return null;
-
+		
 		if (npc.getNpcId() == KEGOR_IN_CAVE)
 		{
 			InstanceWorld tmpworld = InstanceManager.getInstance().getWorld(player.getInstanceId());
@@ -320,13 +320,13 @@ public String onTalk ( L2Npc npc, L2PcInstance player)
 				
 				if (world.KEGOR == null)
 					world.KEGOR = npc;
-		
+				
 				if (hostQuest.getState() != State.STARTED)
 					return "18846-04.htm";
-
+				
 				if (!world.underAttack && hostQuest.getInt("progress") == 2)
 					return "18846-00.htm";
-
+				
 				else if (hostQuest.getInt("progress") == 3)
 				{
 					hostQuest.giveItems(57, 296425);
@@ -340,61 +340,59 @@ public String onTalk ( L2Npc npc, L2PcInstance player)
 					return "18846-02.htm";
 			}
 		}
-
+		
 		return null;
 	}
 
-	@SuppressWarnings("cast")
 	@Override
 	public final String onKill(L2Npc npc, L2PcInstance player, boolean isPet)
 	{
 		QuestState hostQuest = player.getQuestState("10284_AcquisitionOfDivineSword");
 		if (hostQuest == null || hostQuest.getState() != State.STARTED)
 			return null;
-
+		
 		InstanceWorld tmpworld = InstanceManager.getInstance().getWorld(npc.getInstanceId());
 		if (tmpworld != null && tmpworld instanceof KegorWorld);
 		{
 			KegorWorld world = (KegorWorld) tmpworld;
-
+			
 			if (npc.getNpcId() == MONSTER)
 			{
 				if (world.liveMobs != null)
 				{
-					world.liveMobs.remove((L2Attackable) npc);
+					world.liveMobs.remove(npc);
 					if (world.liveMobs.isEmpty() && world.KEGOR != null && !world.KEGOR.isDead() && hostQuest.getInt("progress") == 2)
 					{
-					world.underAttack = false;
-					world.liveMobs = null;
-					cancelQuestTimer("buff", world.KEGOR, null);
-					world.KEGOR.getAI().setIntention(CtrlIntention.AI_INTENTION_FOLLOW, player, null);
-					NpcSay cs = new NpcSay(world.KEGOR.getObjectId(), Say2.ALL, world.KEGOR.getNpcId(), 1801099);
-					world.KEGOR.broadcastPacket(cs);
-					hostQuest.set("progress", "3");
-					hostQuest.set("cond", "6");
-					hostQuest.playSound("ItemSound.quest_middle");
-
-					// destroy instance after 3 min
-					Instance inst = InstanceManager.getInstance().getInstance(world.instanceId);
-					inst.setDuration(3 * 60000);
-					inst.setEmptyDestroyTime(0);
+						world.underAttack = false;
+						world.liveMobs = null;
+						cancelQuestTimer("buff", world.KEGOR, null);
+						world.KEGOR.getAI().setIntention(CtrlIntention.AI_INTENTION_FOLLOW, player, null);
+						NpcSay cs = new NpcSay(world.KEGOR.getObjectId(), Say2.ALL, world.KEGOR.getNpcId(), 1801099);
+						world.KEGOR.broadcastPacket(cs);
+						hostQuest.set("progress", "3");
+						hostQuest.set("cond", "6");
+						hostQuest.playSound("ItemSound.quest_middle");
+						
+						// destroy instance after 3 min
+						Instance inst = InstanceManager.getInstance().getInstance(world.instanceId);
+						inst.setDuration(3 * 60000);
+						inst.setEmptyDestroyTime(0);
+					}
 				}
 			}
-		
+			
 			else if (npc.getNpcId() == KEGOR_IN_CAVE)
 			{
 				world.KEGOR = null;
 				NpcSay cs = new NpcSay(npc.getObjectId(), Say2.ALL, npc.getNpcId(), 1801098);
 				npc.broadcastPacket(cs);
-
+				
 				// destroy instance after 1 min
 				Instance inst = InstanceManager.getInstance().getInstance(world.instanceId);
 				inst.setDuration(60000);
 				inst.setEmptyDestroyTime(0);
 			}
 		}
-	}
-
 		return null;
 	}
 
@@ -412,8 +410,8 @@ public String onTalk ( L2Npc npc, L2PcInstance player)
 		*/
 		return super.onSpawn(npc);
 	}
-
-  public IceQueen_Kegor(int questId, String name, String descr)
+	
+	public IceQueen_Kegor(int questId, String name, String descr)
 	{
 		super(questId, name, descr);
 		addFirstTalkId(KEGOR_IN_CAVE);

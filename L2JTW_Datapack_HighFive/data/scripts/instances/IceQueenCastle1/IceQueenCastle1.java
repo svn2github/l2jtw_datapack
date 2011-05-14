@@ -92,13 +92,13 @@ public class IceQueenCastle1 extends Quest
 		
 		return true; 
 	}
-
+	
 	protected void exitInstance(L2PcInstance player, teleCoord tele)
 	{
 		player.setInstanceId(0);
 		player.teleToLocation(tele.x, tele.y, tele.z);
 	}
-	 
+	
 	protected int enterInstance(L2PcInstance player, String template, teleCoord teleto)
 	{
 		int instanceId = 0;
@@ -121,7 +121,7 @@ public class IceQueenCastle1 extends Quest
 			//New instance
 			if (!checkConditions(player))
 				return 0;
-
+			
 			instanceId = InstanceManager.getInstance().createDynamicInstance(template);
 			world = new IQWorld();
 			world.instanceId = instanceId;
@@ -133,17 +133,17 @@ public class IceQueenCastle1 extends Quest
 			teleto.instanceId = instanceId;
 			teleportplayer(player,teleto);
 			world.allowed.add(player.getObjectId());
-
+			
 			//Open door
 			L2DoorInstance door = InstanceManager.getInstance().getInstance(instanceId).getDoor(23140101);
 			if (door != null)
-				door.openMe();			
-
+				door.openMe();
+			
 			return instanceId;
 		}
 	}
-
-  @Override
+	
+	@Override
 	public String onAdvEvent(String event, L2Npc npc, L2PcInstance player)
 	{
 		InstanceWorld tmpworld = InstanceManager.getInstance().getWorld(npc.getInstanceId());
@@ -151,7 +151,7 @@ public class IceQueenCastle1 extends Quest
 		{
 			IQWorld world = (IQWorld) tmpworld;
 			L2PcInstance pl = L2World.getInstance().getPlayer(world.allowed.get(0));
-
+			
 			if (npc.getNpcId() == FREYA)
 			{
 				if (event.equalsIgnoreCase("moving"))
@@ -160,7 +160,7 @@ public class IceQueenCastle1 extends Quest
 					npc.getAI().setIntention(CtrlIntention.AI_INTENTION_MOVE_TO, new L2CharPosition(114730, -114805, -11200, 0));
 					return null;
 				}
-		
+				
 				else if (event.equalsIgnoreCase("blizzard"))
 				{
 					//NpcSay cs = new NpcSay(npc.getObjectId(), Say2.ALL, npc.getNpcId(), 1801125);
@@ -175,25 +175,25 @@ public class IceQueenCastle1 extends Quest
 						npc.doCast(_showBlizzard);
 					return null;
 				}
-
+				
 				else if (event.equalsIgnoreCase("movie") && pl != null)
 				{
 					pl.showQuestMovie(21);
 					npc.deleteMe();
 					startQuestTimer("movie_end", 24000, npc, null);
 				}
-
+				
 				else if (event.equalsIgnoreCase("movie_end") && pl != null)
 				{
 					QuestState hostQuest = pl.getQuestState("10285_MeetingSirra");
-
+					
 					if (hostQuest != null && hostQuest.getState() == State.STARTED && hostQuest.getInt("progress") == 2)
 					{
 						hostQuest.set("cond", "10");
 						hostQuest.playSound("ItemSound.quest_middle");
 						hostQuest.set("progress", "3");
 					}
-				
+					
 					//Leave instance
 					world.allowed.remove(world.allowed.indexOf(pl.getObjectId()));
 					teleCoord tele = new teleCoord();
@@ -202,7 +202,7 @@ public class IceQueenCastle1 extends Quest
 					tele.y = RETURN_POINT[1];
 					tele.z = RETURN_POINT[2];
 					exitInstance(pl,tele);
-
+					
 					// destroy instance after 1 min
 					Instance inst = InstanceManager.getInstance().getInstance(npc.getInstanceId());
 					inst.setDuration(60000);
@@ -213,40 +213,40 @@ public class IceQueenCastle1 extends Quest
 			else if (!world.showIsInProgress && event.equalsIgnoreCase("immobilize") && Arrays.binarySearch(CROWD, npc.getNpcId()) >= 0)
 				npc.setIsImmobilized(true);
 		}
-
+		
 		return null;
 	}
-			
-  @Override
-public String onTalk ( L2Npc npc, L2PcInstance player)
+	
+	@Override
+	public String onTalk ( L2Npc npc, L2PcInstance player)
 	{
 		int npcId = npc.getNpcId();
 		QuestState st = player.getQuestState(qn);
 		if (st == null)
 			st = newQuestState(player);
-
+		
 		if (npcId == JINIA2)
 		{
 			teleCoord tele = new teleCoord();
 			tele.x = ENTRY_POINT[0];      
 			tele.y = ENTRY_POINT[1];
 			tele.z = ENTRY_POINT[2];
-
+			
 			QuestState hostQuest = player.getQuestState("10285_MeetingSirra");
-
+			
 			if (hostQuest != null && hostQuest.getState() == State.STARTED && hostQuest.getInt("progress") == 2)
 			{
 				hostQuest.set("cond", "9");
 				hostQuest.playSound("ItemSound.quest_middle");
 			}
-
+			
 			if (enterInstance(player, "IceQueenCastle1.xml", tele) <= 0)
 				return "32781-10.htm";
 		}
 		
 		return "";
 	}
-
+	
 	@Override
 	public String onEnterZone(L2Character character, L2ZoneType zone)
 	{
@@ -271,8 +271,8 @@ public String onTalk ( L2Npc npc, L2PcInstance player)
 		
 		return null;
 	}
-
-  @Override
+	
+	@Override
 	public final String onSpawn(L2Npc npc)
 	{
 		if (npc.getNpcId() == FREYA)
@@ -286,24 +286,23 @@ public String onTalk ( L2Npc npc, L2PcInstance player)
 		//else if (!world.showIsInProgress && Arrays.binarySearch(CROWD, npc.getNpcId()) >= 0)
 		else if (Arrays.binarySearch(CROWD, npc.getNpcId()) >= 0)
 			startQuestTimer("immobilize", 1000, npc, null);
-
 		
 		return null;
 	}
-
+	
 	@Override
 	public String onSpellFinished(L2Npc npc, L2PcInstance player, L2Skill skill)
 	{
 		if (skill == _showBlizzard)
 			startQuestTimer("movie", 1000, npc, null);
-
+		
 		return null;
 	}
-
-  public IceQueenCastle1(int questId, String name, String descr)
+	
+	public IceQueenCastle1(int questId, String name, String descr)
 	{
 		super(questId, name, descr);
-
+	
 		addStartNpc(JINIA2);
 		addTalkId(JINIA2);
 		addEnterZoneId(200010);

@@ -76,13 +76,13 @@ public class JiniasHideout extends Quest
 		
 		return true; 
 	}
-
+	
 	protected void exitInstance(L2PcInstance player, teleCoord tele)
 	{
 		player.setInstanceId(0);
 		player.teleToLocation(tele.x, tele.y, tele.z);
 	}
-	 
+	
 	protected int enterInstance(L2PcInstance player, String template, teleCoord teleto, int questId)
 	{
 		int instanceId = 0;
@@ -105,14 +105,14 @@ public class JiniasHideout extends Quest
 			//New instance
 			if (!checkConditions(player))
 				return 0;
-
+			
 			instanceId = InstanceManager.getInstance().createDynamicInstance(template);
 			final Instance inst = InstanceManager.getInstance().getInstance(instanceId);
 			inst.setSpawnLoc(new int[] { player.getX(), player.getY(), player.getZ() });
 			world = new JiniasWorld();
 			world.instanceId = instanceId;
 			((JiniasWorld)world).questId = questId;
-
+			
 			//Template id depends of quest
 			switch(questId)
 			{
@@ -129,7 +129,7 @@ public class JiniasHideout extends Quest
 					world.templateId = 146;
 					break;
 			}
-
+			
 			world.status = 0;
 			((JiniasWorld)world).storeTime[0] = System.currentTimeMillis();
 			InstanceManager.getInstance().addWorld(world);
@@ -140,19 +140,19 @@ public class JiniasHideout extends Quest
 			return instanceId;
 		}
 	}
-
+	
 	@Override
 	public String onAdvEvent (String event, L2Npc npc, L2PcInstance player)
 	{
 		String htmltext = null;
 		System.out.println("Here");
-
+		
 		if (event.startsWith("enterInstance_") && npc.getNpcId() == RAFFORTY)
 		{
 			int questId = -1;
 			String tmpl = null;
 			QuestState hostQuest = null;
-
+			
 			try
 			{
 				System.out.println(event.substring(14));
@@ -192,7 +192,7 @@ public class JiniasHideout extends Quest
 					hostQuest.playSound("ItemSound.quest_middle");
 					hostQuest.set("cond", "2");
 				}
-
+				
 				
 				if (tmpl != null)
 				{
@@ -254,8 +254,8 @@ public class JiniasHideout extends Quest
 	
 		return htmltext;
 	}
-
-  @Override
+	
+	@Override
 	public final String onSpawn(L2Npc npc)
 	{
 		if (npc.getNpcId() == SIRRA)
@@ -292,14 +292,14 @@ public class JiniasHideout extends Quest
 						npc.broadcastPacket(new NpcSay(npc.getObjectId(), Say2.ALL, npc.getNpcId(), msg));
 			}
 		}
-
+		
 		return null;
 	}
-
-  public JiniasHideout(int questId, String name, String descr)
+	
+	public JiniasHideout(int questId, String name, String descr)
 	{
 		super(questId, name, descr);
-
+		
 		addStartNpc(RAFFORTY);
 		addTalkId(RAFFORTY);
 		addTalkId(JINIA);
