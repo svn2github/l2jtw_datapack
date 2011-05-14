@@ -840,7 +840,7 @@
 		<cond msgId="1518">
 			<and>
 				<player level="81" />
-				<player class_id_restriction="93, 101, 108, 117" /> <!-- Dagger Masters -->
+				<player class_id_restriction="93, 101, 108, 117" /> <!-- Dagger Masters --> <!-- update by pmq -->
 				<player subclass="false" /> <!-- TEMP FIX only for customs subclass 80+ -->
 			</and>
 		</cond>
@@ -877,7 +877,7 @@
 		<cond msgId="1518">
 			<and>
 				<player level="81" />
-				<player class_id_restriction="93, 101, 108, 117" /> <!-- Dagger Masters -->
+				<player class_id_restriction="93, 101, 108, 117" /> <!-- Dagger Masters --> <!-- update by pmq -->
 				<player subclass="false" /> <!-- TEMP FIX only for customs subclass 80+ -->
 			</and>
 		</cond>
@@ -916,7 +916,7 @@
 		<cond msgId="1518">
 			<and>
 				<player level="81" />
-				<player class_id_restriction="93, 101, 108, 117" /> <!-- Dagger Masters -->
+				<player class_id_restriction="93, 101, 108, 117" /> <!-- Dagger Masters --> <!-- update by pmq -->
 				<player subclass="false" /> <!-- TEMP FIX only for customs subclass 80+ -->
 			</and>
 		</cond>
@@ -955,7 +955,7 @@
 		<cond msgId="1518">
 			<and>
 				<player level="81" />
-				<player class_id_restriction="93, 101, 108, 117" /> <!-- Dagger Masters -->
+				<player class_id_restriction="93, 101, 108, 117" /> <!-- Dagger Masters --> <!-- update by pmq -->
 				<player subclass="false" /> <!-- TEMP FIX only for customs subclass 80+ -->
 			</and>
 		</cond>
@@ -1358,7 +1358,7 @@
 		<cond msgId="1518">
 			<and>
 				<player level="81" />
-				<player class_id_restriction="93, 101, 108, 117" /> <!-- Dagger Masters -->
+				<player class_id_restriction="93, 101, 108, 117" /> <!-- Dagger Masters --> <!-- update by pmq -->
 				<player subclass="false" /> <!-- TEMP FIX only for customs subclass 80+ -->
 			</and>
 		</cond>
@@ -1945,7 +1945,7 @@
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
 	</item>
-	<item id="14579" type="Weapon" name="Épée of Ashton Family">
+	<item id="14579" type="Weapon" name="?pée of Ashton Family">
 		<set name="icon" val="icon.weapon_leavatein_i00" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="rapier" />

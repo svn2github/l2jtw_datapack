@@ -201,7 +201,7 @@
 		<cond msgId="1518">
 			<and>
 				<player level="81" />
-				<player class_id_restriction="93, 101, 108, 117" /> <!-- Dagger Masters -->
+				<player class_id_restriction="93, 101, 108, 117" /> <!-- Dagger Masters --> <!-- update by pmq -->
 				<player subclass="false" /> <!-- TEMP FIX only for customs subclass 80+ -->
 			</and>
 		</cond>
@@ -267,9 +267,9 @@
 		<set name="item_skill" val="8357-1" />
 		<set name="time" val="7200" />
 		<set name="equip_condition" val="{{ec_inzone_num;{112}}}" />
-		<cond msgId="113" addName="1">
-			<player instanceId="112" />
-		</cond>
+		<cond msgId="113" addName="1"> <!-- update by pmq -->
+			<player instanceId="112" /> <!-- update by pmq -->
+		</cond> <!-- update by pmq -->
 		<for>
 			<set order="0x08" stat="pAtk" val="7" />
 			<set order="0x08" stat="mAtk" val="5" />
