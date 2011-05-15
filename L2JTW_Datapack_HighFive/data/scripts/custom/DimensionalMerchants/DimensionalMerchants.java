@@ -61,7 +61,7 @@ public class DimensionalMerchants extends Quest
 				return "<html><body>維他命管理者：<br>謝謝您的惠顧，<br1>往後我們會以更多的服務來報答各位。<br>";
 			}
 			else
-				htmltext = "32478-11.htm";
+				htmltext = "32478-no.htm";
 		}
 		else if (event.equalsIgnoreCase("13548") || event.equalsIgnoreCase("13549") || event.equalsIgnoreCase("13550") || event.equalsIgnoreCase("13551"))
 		{
@@ -74,7 +74,22 @@ public class DimensionalMerchants extends Quest
 			}
 			else
 			{
-				htmltext = "32478-11.htm";
+				htmltext = "32478-no.htm";
+				st.exitQuest(true);
+			}
+		}
+		else if (event.equalsIgnoreCase("20915") || event.equalsIgnoreCase("20916") || event.equalsIgnoreCase("20917") || event.equalsIgnoreCase("20918") || event.equalsIgnoreCase("20919") || event.equalsIgnoreCase("20920"))
+		{
+			if (st.getQuestItemsCount(20914) >= 1)
+			{
+				st.takeItems(20914, 1);
+				st.giveItems(Integer.valueOf(event), 1);
+				st.exitQuest(true);
+				return "<html><body>維他命管理者：<br>謝謝您的惠顧，<br1>往後我們會以更多的服務來報答各位。<br>";
+			}
+			else
+			{
+				htmltext = "32478-no1.htm";
 				st.exitQuest(true);
 			}
 		}
