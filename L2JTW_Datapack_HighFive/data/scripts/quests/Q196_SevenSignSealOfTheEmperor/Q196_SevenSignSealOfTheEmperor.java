@@ -194,15 +194,19 @@ public class Q196_SevenSignSealOfTheEmperor extends Quest
 		thisnpc.npc = addSpawn(SHUNAIMAN, -89456, 216184, -7504, 40960, false, 0, false, world.instanceId);
 		StartRoom.npcList.add(thisnpc);
 		
+		thisnpc = new SIGNSNpc();
 		thisnpc.npc = addSpawn(LEON, -89400, 216125, -7504, 40960, false, 0, false, world.instanceId);
 		StartRoom.npcList.add(thisnpc);
 		
+		thisnpc = new SIGNSNpc();
 		thisnpc.npc = addSpawn(DISCIPLES_GK, -84385, 216117, -7497, 0, false, 0, false, world.instanceId);
 		StartRoom.npcList.add(thisnpc);
 		
+		thisnpc = new SIGNSNpc();
 		thisnpc.npc = addSpawn(MAGICAN, -84945, 220643, -7495, 0, false, 0, false, world.instanceId);
 		StartRoom.npcList.add(thisnpc);
 		
+		thisnpc = new SIGNSNpc();
 		thisnpc.npc = addSpawn(MAGICAN, -89563, 220647, -7491, 0, false, 0, false, world.instanceId);
 		StartRoom.npcList.add(thisnpc);
 		
@@ -223,12 +227,15 @@ public class Q196_SevenSignSealOfTheEmperor extends Quest
 		thisnpc.npc = addSpawn(27371,-89049, 217979, -7495, 0, false, 0, false, world.instanceId);
 		FirstRoom.npcList.add(thisnpc);
 		
+		thisnpc = new SIGNSNpc();
 		thisnpc.npc = addSpawn(27372,-89049, 217979, -7495, 0, false, 0, false, world.instanceId);
 		FirstRoom.npcList.add(thisnpc);
 		
+		thisnpc = new SIGNSNpc();
 		thisnpc.npc = addSpawn(27373,-89049, 217979, -7495, 0, false, 0, false, world.instanceId);
 		FirstRoom.npcList.add(thisnpc);
 		
+		thisnpc = new SIGNSNpc();
 		thisnpc.npc = addSpawn(27374,-89049, 217979, -7495, 0, false, 0, false, world.instanceId);
 		FirstRoom.npcList.add(thisnpc);
 		
@@ -251,18 +258,23 @@ public class Q196_SevenSignSealOfTheEmperor extends Quest
 		thisnpc.npc = addSpawn(27371, -88599, 220071, -7495, 0, false, 0, false, world.instanceId);
 		SecondRoom.npcList.add(thisnpc);
 		
+		thisnpc = new SIGNSNpc();
 		thisnpc.npc = addSpawn(27371, -88599, 220071, -7495, 0, false, 0, false, world.instanceId);
 		SecondRoom.npcList.add(thisnpc);
 		
+		thisnpc = new SIGNSNpc();
 		thisnpc.npc = addSpawn(27372, -88599, 220071, -7495, 0, false, 0, false, world.instanceId);
 		SecondRoom.npcList.add(thisnpc);
 		
+		thisnpc = new SIGNSNpc();
 		thisnpc.npc = addSpawn(27373, -88599, 220071, -7495, 0, false, 0, false, world.instanceId);
 		SecondRoom.npcList.add(thisnpc);
 		
+		thisnpc = new SIGNSNpc();
 		thisnpc.npc = addSpawn(27373, -88599, 220071, -7495, 0, false, 0, false, world.instanceId);
 		SecondRoom.npcList.add(thisnpc);
 		
+		thisnpc = new SIGNSNpc();
 		thisnpc.npc = addSpawn(27374, -88599, 220071, -7495, 0, false, 0, false, world.instanceId);
 		SecondRoom.npcList.add(thisnpc);
 		
@@ -285,24 +297,31 @@ public class Q196_SevenSignSealOfTheEmperor extends Quest
 		thisnpc.npc = addSpawn(27371, -86846, 220639, -7495, 0, false, 0, false, world.instanceId);
 		ThirdRoom .npcList.add(thisnpc);
 		
+		thisnpc = new SIGNSNpc();
 		thisnpc.npc = addSpawn(27371, -86846, 220639, -7495, 0, false, 0, false, world.instanceId);
 		ThirdRoom .npcList.add(thisnpc);
 		
+		thisnpc = new SIGNSNpc();
 		thisnpc.npc = addSpawn(27372, -86846, 220639, -7495, 0, false, 0, false, world.instanceId);
 		ThirdRoom .npcList.add(thisnpc);
 		
+		thisnpc = new SIGNSNpc();
 		thisnpc.npc = addSpawn(27372, -86846, 220639, -7495, 0, false, 0, false, world.instanceId);
 		ThirdRoom .npcList.add(thisnpc);
 		
+		thisnpc = new SIGNSNpc();
 		thisnpc.npc = addSpawn(27373, -86846, 220639, -7495, 0, false, 0, false, world.instanceId);
 		ThirdRoom .npcList.add(thisnpc);
 		
+		thisnpc = new SIGNSNpc();
 		thisnpc.npc = addSpawn(27373, -86846, 220639, -7495, 0, false, 0, false, world.instanceId);
 		ThirdRoom .npcList.add(thisnpc);
 		
+		thisnpc = new SIGNSNpc();
 		thisnpc.npc = addSpawn(27374, -86846, 220639, -7495, 0, false, 0, false, world.instanceId);
 		ThirdRoom .npcList.add(thisnpc);
 		
+		thisnpc = new SIGNSNpc();
 		thisnpc.npc = addSpawn(27374, -86846, 220639, -7495, 0, false, 0, false, world.instanceId);
 		ThirdRoom .npcList.add(thisnpc);
 		
@@ -325,24 +344,31 @@ public class Q196_SevenSignSealOfTheEmperor extends Quest
 		thisnpc.npc = addSpawn(27371, -85463, 219227, -7495, 0, false, 0, false, world.instanceId);
 		ForthRoom.npcList.add(thisnpc);
 		
+		thisnpc = new SIGNSNpc();
 		thisnpc.npc = addSpawn(27372, -85463, 219227, -7495, 0, false, 0, false, world.instanceId);
 		ForthRoom.npcList.add(thisnpc);
 		
+		thisnpc = new SIGNSNpc();
 		thisnpc.npc = addSpawn(27373, -85463, 219227, -7495, 0, false, 0, false, world.instanceId);
 		ForthRoom.npcList.add(thisnpc);
 		
+		thisnpc = new SIGNSNpc();
 		thisnpc.npc = addSpawn(27374, -85463, 219227, -7495, 0, false, 0, false, world.instanceId);
 		ForthRoom.npcList.add(thisnpc);
 		
+		thisnpc = new SIGNSNpc();
 		thisnpc.npc = addSpawn(27375, -85463, 219227, -7495, 0, false, 0, false, world.instanceId);
 		ForthRoom.npcList.add(thisnpc);
 		
+		thisnpc = new SIGNSNpc();
 		thisnpc.npc = addSpawn(27377, -85463, 219227, -7495, 0, false, 0, false, world.instanceId);
 		ForthRoom.npcList.add(thisnpc);
 		
+		thisnpc = new SIGNSNpc();
 		thisnpc.npc = addSpawn(27378, -85463, 219227, -7495, 0, false, 0, false, world.instanceId);
 		ForthRoom.npcList.add(thisnpc);
 		
+		thisnpc = new SIGNSNpc();
 		thisnpc.npc = addSpawn(27379, -85463, 219227, -7495, 0, false, 0, false, world.instanceId);
 		ForthRoom.npcList.add(thisnpc);
 		
@@ -365,36 +391,47 @@ public class Q196_SevenSignSealOfTheEmperor extends Quest
 		thisnpc.npc = addSpawn(27371, -87441, 217623, -7495, 0, false, 0, false, world.instanceId);
 		FifthRoom.npcList.add(thisnpc);
 		
+		thisnpc = new SIGNSNpc();
 		thisnpc.npc = addSpawn(27372, -87441, 217623, -7495, 0, false, 0, false, world.instanceId);
 		FifthRoom.npcList.add(thisnpc);
 		
+		thisnpc = new SIGNSNpc();
 		thisnpc.npc = addSpawn(27373, -87441, 217623, -7495, 0, false, 0, false, world.instanceId);
 		FifthRoom.npcList.add(thisnpc);
 		
+		thisnpc = new SIGNSNpc();
 		thisnpc.npc = addSpawn(27374, -87441, 217623, -7495, 0, false, 0, false, world.instanceId);
 		FifthRoom.npcList.add(thisnpc);
 		
+		thisnpc = new SIGNSNpc();
 		thisnpc.npc = addSpawn(27375, -87441, 217623, -7495, 0, false, 0, false, world.instanceId);
 		FifthRoom.npcList.add(thisnpc);
 		
+		thisnpc = new SIGNSNpc();
 		thisnpc.npc = addSpawn(27375, -87441, 217623, -7495, 0, false, 0, false, world.instanceId);
 		FifthRoom.npcList.add(thisnpc);
 		
+		thisnpc = new SIGNSNpc();
 		thisnpc.npc = addSpawn(27377, -87441, 217623, -7495, 0, false, 0, false, world.instanceId);
 		FifthRoom.npcList.add(thisnpc);
 		
+		thisnpc = new SIGNSNpc();
 		thisnpc.npc = addSpawn(27377, -87441, 217623, -7495, 0, false, 0, false, world.instanceId);
 		FifthRoom.npcList.add(thisnpc);
 		
+		thisnpc = new SIGNSNpc();
 		thisnpc.npc = addSpawn(27378, -87441, 217623, -7495, 0, false, 0, false, world.instanceId);
 		FifthRoom.npcList.add(thisnpc);
 		
+		thisnpc = new SIGNSNpc();
 		thisnpc.npc = addSpawn(27378, -87441, 217623, -7495, 0, false, 0, false, world.instanceId);
 		FifthRoom.npcList.add(thisnpc);
 		
+		thisnpc = new SIGNSNpc();
 		thisnpc.npc = addSpawn(27379, -87441, 217623, -7495, 0, false, 0, false, world.instanceId);
 		FifthRoom.npcList.add(thisnpc);
 		
+		thisnpc = new SIGNSNpc();
 		thisnpc.npc = addSpawn(27379, -87441, 217623, -7495, 0, false, 0, false, world.instanceId);
 		FifthRoom.npcList.add(thisnpc);
 		
@@ -416,56 +453,67 @@ public class Q196_SevenSignSealOfTheEmperor extends Quest
 		if (noRndWalk)
 			thisnpc.npc.setIsNoRndWalk(true);
 		
+		thisnpc = new SIGNSNpc();
 		thisnpc.npc = addSpawn(LILITH_GUARD0, -83127, 217056, -7504, 0, false, 0, false, world.instanceId);
 		BossRoom.npcList.add(thisnpc);
 		if (noRndWalk)
 			thisnpc.npc.setIsNoRndWalk(true);
 		
+		thisnpc = new SIGNSNpc();
 		thisnpc.npc = addSpawn(LILITH_GUARD1, -83222, 217055, -7504, 0, false, 0, false, world.instanceId);
 		BossRoom.npcList.add(thisnpc);
 		if (noRndWalk)
 			thisnpc.npc.setIsNoRndWalk(true);
 		
+		thisnpc = new SIGNSNpc();
 		thisnpc.npc = addSpawn(ANAKIM, -83179, 216479, -7504, 0, false, 0, false, world.instanceId);
 		BossRoom.npcList.add(thisnpc);
 		if (noRndWalk)
 			thisnpc.npc.setIsNoRndWalk(true);
 		
+		thisnpc = new SIGNSNpc();
 		thisnpc.npc = addSpawn(ANAKIM_GUARD0, -83227, 216443, -7504, 0, false, 0, false, world.instanceId);
 		BossRoom.npcList.add(thisnpc);
 		if (noRndWalk)
 			thisnpc.npc.setIsNoRndWalk(true);
 		
+		thisnpc = new SIGNSNpc();
 		thisnpc.npc = addSpawn(ANAKIM_GUARD1, -83134, 216443, -7504, 0, false, 0, false, world.instanceId);
 		BossRoom.npcList.add(thisnpc);
 		if (noRndWalk)
 			thisnpc.npc.setIsNoRndWalk(true);
 		
+		thisnpc = new SIGNSNpc();
 		thisnpc.npc = addSpawn(ANAKIM_GUARD2, -83179, 216432, -7504, 0, false, 0, false, world.instanceId);
 		BossRoom.npcList.add(thisnpc);
 		if (noRndWalk)
 			thisnpc.npc.setIsNoRndWalk(true);
 		
+		thisnpc = new SIGNSNpc();
 		thisnpc.npc = addSpawn(SEALDEVICE, -83177, 217353, -7520, 32768, false, 0, false, world.instanceId);
 		BossRoom.npcList.add(thisnpc);
 		if (noRndWalk)
 			thisnpc.npc.setIsNoRndWalk(true);
 		
+		thisnpc = new SIGNSNpc();
 		thisnpc.npc = addSpawn(SEALDEVICE, -83177, 216137, -7520, 32768, false, 0, false, world.instanceId);
 		BossRoom.npcList.add(thisnpc);
 		if (noRndWalk)
 			thisnpc.npc.setIsNoRndWalk(true);
 		
+		thisnpc = new SIGNSNpc();
 		thisnpc.npc = addSpawn(SEALDEVICE, -82588, 216754, -7520, 32768, false, 0, false, world.instanceId);
 		BossRoom.npcList.add(thisnpc);
 		if (noRndWalk)
 			thisnpc.npc.setIsNoRndWalk(true);
 		
+		thisnpc = new SIGNSNpc();
 		thisnpc.npc = addSpawn(SEALDEVICE, -83804, 216754, -7520, 32768, false, 0, false, world.instanceId);
 		BossRoom.npcList.add(thisnpc);
 		if (noRndWalk)
 			thisnpc.npc.setIsNoRndWalk(true);
 		
+		thisnpc = new SIGNSNpc();
 		thisnpc.npc = addSpawn(32592, -83176, 216753, -7497, 0, false, 0, false, world.instanceId);
 		BossRoom.npcList.add(thisnpc);
 		if (noRndWalk)
@@ -489,18 +537,21 @@ public class Q196_SevenSignSealOfTheEmperor extends Quest
 			thisnpc.npc.setIsNoRndWalk(true);
 			thisnpc.npc.setRHandId(15281);
 		
+		thisnpc = new SIGNSNpc();
 		thisnpc.npc = addSpawn(SEALDEVICE, -83177, 216137, -7520, 32768, false, 0, false, world.instanceId);
 		SDRoom.npcList.add(thisnpc);
 		if (noRndWalk)
 			thisnpc.npc.setIsNoRndWalk(true);
 			thisnpc.npc.setRHandId(15281);
 		
+		thisnpc = new SIGNSNpc();
 		thisnpc.npc = addSpawn(SEALDEVICE, -82588, 216754, -7520, 32768, false, 0, false, world.instanceId);
 		SDRoom.npcList.add(thisnpc);
 		if (noRndWalk)
 			thisnpc.npc.setIsNoRndWalk(true);
 			thisnpc.npc.setRHandId(15281);
 		
+		thisnpc = new SIGNSNpc();
 		thisnpc.npc = addSpawn(SEALDEVICE, -83804, 216754, -7520, 32768, false, 0, false, world.instanceId);
 		SDRoom.npcList.add(thisnpc);
 		if (noRndWalk)

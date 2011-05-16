@@ -348,7 +348,7 @@
 			</and>
 		</cond>
 	</item>
-	<item id="6836" type="Armor" name="Circlet of Goddard">
+	<item id="6836" type="Armor" name="Goddard Circlet">
 		<set name="icon" val="icon.accessory_pledge_cap1_i03" />
 		<set name="default_action" val="equip" />
 		<set name="bodypart" val="hair" />
@@ -488,7 +488,7 @@
 			<player isHero="true" />
 		</cond>
 	</item>
-	<item id="6843" type="Armor" name="Cat Ear">
+	<item id="6843" type="Armor" name="Cat Ears">
 		<set name="icon" val="icon.accessory_cat_ear_i00" />
 		<set name="default_action" val="equip" />
 		<set name="bodypart" val="hair2" />
@@ -768,7 +768,7 @@
 		<set name="is_stackable" val="true" />
 		<set name="handler" val="Recipes" />
 	</item>
-	<item id="6867" type="EtcItem" name="Recipe: Sealed Draconic Leather Gloves (60%)">
+	<item id="6867" type="EtcItem" name="Recipe: Sealed Draconic Leather Gloves (60%)">
 		<set name="icon" val="icon.etc_recipe_black_i00" />
 		<set name="default_action" val="recipe" />
 		<set name="etcitem_type" val="recipe" />
@@ -780,7 +780,7 @@
 		<set name="is_stackable" val="true" />
 		<set name="handler" val="Recipes" />
 	</item>
-	<item id="6868" type="EtcItem" name="Recipe: Sealed Draconic Leather Gloves (100%)">
+	<item id="6868" type="EtcItem" name="Recipe: Sealed Draconic Leather Gloves (100%)">
 		<set name="icon" val="icon.etc_recipe_black_i00" />
 		<set name="default_action" val="recipe" />
 		<set name="etcitem_type" val="recipe" />
@@ -792,7 +792,7 @@
 		<set name="is_stackable" val="true" />
 		<set name="handler" val="Recipes" />
 	</item>
-	<item id="6869" type="EtcItem" name="Recipe: Sealed Draconic Leather Boots (60%)">
+	<item id="6869" type="EtcItem" name="Recipe: Sealed Draconic Leather Boots (60%)">
 		<set name="icon" val="icon.etc_recipe_black_i00" />
 		<set name="default_action" val="recipe" />
 		<set name="etcitem_type" val="recipe" />
@@ -804,7 +804,7 @@
 		<set name="is_stackable" val="true" />
 		<set name="handler" val="Recipes" />
 	</item>
-	<item id="6870" type="EtcItem" name="Recipe: Sealed Draconic Leather Boots (100%)">
+	<item id="6870" type="EtcItem" name="Recipe: Sealed Draconic Leather Boots (100%)">
 		<set name="icon" val="icon.etc_recipe_black_i00" />
 		<set name="default_action" val="recipe" />
 		<set name="etcitem_type" val="recipe" />
