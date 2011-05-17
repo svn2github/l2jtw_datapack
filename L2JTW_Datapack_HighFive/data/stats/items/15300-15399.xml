@@ -267,7 +267,7 @@
 		<set name="item_skill" val="8357-1" />
 		<set name="time" val="7200" />
 		<set name="equip_condition" val="{{ec_inzone_num;{112}}}" />
-		<cond msgId="113" addName="1"> <!-- update by pmq -->
+		<cond msgId="1518"> <!-- update by pmq -->
 			<player instanceId="112" /> <!-- update by pmq -->
 		</cond> <!-- update by pmq -->
 		<for>

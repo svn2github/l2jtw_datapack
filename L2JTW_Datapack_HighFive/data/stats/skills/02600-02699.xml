@@ -285,7 +285,7 @@
 		<set name="staticHitTime" val="true" />
 		<set name="castRange" val="100" />
 		<set name="power" val="100" />
-		<cond msgId="113" addName="1">
+		<cond msgId="109">
 			<target npcId="17240101,17240105,17240109" />
 		</cond>
 	</skill>
@@ -298,7 +298,7 @@
 		<set name="staticHitTime" val="true" />
 		<set name="castRange" val="100" />
 		<set name="power" val="100" />
-		<cond msgId="113" addName="1">
+		<cond msgId="109">
 			<target npcId="17240103,17240107" />
 		</cond>
 	</skill>

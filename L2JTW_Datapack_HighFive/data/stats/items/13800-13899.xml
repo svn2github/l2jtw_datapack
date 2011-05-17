@@ -141,6 +141,10 @@
 		<set name="is_stackable" val="true" />
 		<set name="handler" val="ItemSkills" /> <!-- update by pmq -->
 		<set name="item_skill" val="2633-1" />
+		<set name="equip_condition" val="{{ec_inzone_num;{112}}}" />
+		<cond msgId="109"> <!-- update by pmq -->
+			<player instanceId="112" /> <!-- update by pmq -->
+		</cond> <!-- update by pmq -->
 	</item>
 	<item id="13809" type="EtcItem" name="Court Magician's Magic Staff"> <!-- update by pmq -->
 		<set name="icon" val="icon.weapon_apprentices_rod_i00" />
@@ -153,6 +157,10 @@
 		<set name="is_stackable" val="true" />
 		<set name="handler" val="ItemSkills" /> <!-- update by pmq -->
 		<set name="item_skill" val="2634-1" />
+		<set name="equip_condition" val="{{ec_inzone_num;{112}}}" />
+		<cond msgId="109"> <!-- update by pmq -->
+			<player instanceId="112" /> <!-- update by pmq -->
+		</cond> <!-- update by pmq -->
 	</item>
 	<item id="13810" type="EtcItem" name="High Priest Orven's Letter">
 		<set name="icon" val="icon.etc_letter_envelope_i00" />
