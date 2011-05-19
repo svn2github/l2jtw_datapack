@@ -14,8 +14,6 @@
  */
 package handlers.voicedcommandhandlers;
 
-import java.util.Iterator;
-
 import com.l2jserver.gameserver.handler.IVoicedCommandHandler;
 import com.l2jserver.gameserver.model.L2World;
 import com.l2jserver.gameserver.model.actor.instance.L2PcInstance;
@@ -46,28 +44,24 @@ public class stats implements IVoicedCommandHandler
 			if (pc != null)
 			{
 				NpcHtmlMessage adminReply = new NpcHtmlMessage(5);
-                                final StringBuilder replyMSG = StringUtil.startAppend(
-                                        300 + pc.kills.size() * 50,
-                                        "<html><body>" +
-                                        "<center><font color=\"LEVEL\">[ "+MessageTable.Messages[1208].getMessage()+" ]</font></center><br>" +
-                                        "<br>"+MessageTable.Messages[1209].getMessage()+"<font color=\"LEVEL\">",
-                                        pc.getName(),
-                                        "</font><br>" +
-                                        MessageTable.Messages[1210].getMessage()+"<font color=\"FF0000\">",
-                                        String.valueOf(pc.kills.size()),
-                                        "</font><br>" +
-                                        "<br>"+MessageTable.Messages[1211].getMessage()+"<br>"
-                                        );
-				
-				Iterator<String> it = pc.kills.iterator();
+				final StringBuilder replyMSG = StringUtil.startAppend(
+						300 + pc.getEventStatus().kills.size() * 50,
+						"<html><body>" +
+						"<center><font color=\"LEVEL\">[ "+MessageTable.Messages[1208].getMessage()+" ]</font></center><br>" +
+						"<br>"+MessageTable.Messages[1209].getMessage()+"<font color=\"LEVEL\">",
+						pc.getName(),
+						"</font><br>" +
+						MessageTable.Messages[1210].getMessage()+"<font color=\"FF0000\">",
+						String.valueOf(pc.getEventStatus().kills.size()),
+						"</font><br>" +
+						"<br>"+MessageTable.Messages[1211].getMessage()+"<br>"
+				);
 
-                                while (it.hasNext()) {
-                                    StringUtil.append(replyMSG,
-                                            "<font color=\"FF0000\">",
-                                            it.next(),
-                                            "</font><br>");
+				for (L2PcInstance plr : pc.getEventStatus().kills)
+				{
+					StringUtil.append(replyMSG, "<font color=\"FF0000\">", plr.getName(), "</font><br>");
 				}
-                                
+				
 				replyMSG.append("</body></html>");
 				
 				adminReply.setHtml(replyMSG.toString());
