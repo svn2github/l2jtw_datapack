@@ -39,7 +39,7 @@ import com.l2jserver.gameserver.network.serverpackets.*;
 //import com.l2jserver.util.Rnd;
 
 /**
- * update by pmq 09-05-2011
+ * update by pmq 16-05-2011
  *
  */
 public class Q196_SevenSignSealOfTheEmperor extends Quest
@@ -723,6 +723,7 @@ public class Q196_SevenSignSealOfTheEmperor extends Quest
 		{
 			//st.addExpAndSp(52518015, 5817676);
 			st.addExpAndSp(25000000, 2500000); // High Five
+			st.unset("cond");
 			st.setState(State.COMPLETED);
 			st.exitQuest(false);
 			st.playSound("ItemSound.quest_finish");
