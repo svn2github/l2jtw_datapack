@@ -128,6 +128,7 @@ public class Q195_SevenSignSecretRitualOfThePriests extends Quest
 					case State.COMPLETED:
 						return "<html><body>這是已經完成的任務。</body></html>";
 				}
+				break;
 			case JOHN:
 				switch (st.getInt("cond"))
 				{
@@ -136,6 +137,7 @@ public class Q195_SevenSignSecretRitualOfThePriests extends Quest
 					case 2:
 						return "32576-03.htm";
 				}
+				break;
 			case RAYMOND:
 				switch (st.getInt("cond"))
 				{
@@ -150,9 +152,11 @@ public class Q195_SevenSignSecretRitualOfThePriests extends Quest
 					case 4:
 						return "30289-12.htm";
 				}
+				break;
 			case IASON_HEINE:
 				if (cond == 4)
 					return "30969-01.htm";
+				break;
 		}
 		return "<html><body>目前沒有執行任務，或條件不符。</body></html>";
 	}

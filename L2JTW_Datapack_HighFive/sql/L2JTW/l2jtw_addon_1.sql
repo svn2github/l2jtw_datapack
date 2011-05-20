@@ -3686,3 +3686,8 @@ UPDATE npc SET type = 'L2Monster', aggro=300 WHERE id = 22766;
 DELETE FROM spawnlist WHERE npc_templateid = 32760 AND locx = -24040;
 DELETE FROM spawnlist WHERE npc_templateid = 32777 AND locx = -23993;
 DELETE FROM spawnlist WHERE npc_templateid = 32778 AND locx = -23993;
+
+-- 修正 Q195 怪物設定為主動
+UPDATE npc SET type = 'L2Monster', aggro=150 WHERE id = 18834;  -- 黎明的警衛隊員
+UPDATE npc SET type = 'L2Monster', aggro=150 WHERE id = 18835;  -- 黎明的警衛隊員
+UPDATE npc SET type = 'L2Monster', aggro=400 WHERE id = 27351;  -- 黎明的警衛隊員

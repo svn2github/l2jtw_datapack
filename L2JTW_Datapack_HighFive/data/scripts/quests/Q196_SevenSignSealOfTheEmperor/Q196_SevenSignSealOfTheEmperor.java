@@ -817,6 +817,8 @@ public class Q196_SevenSignSealOfTheEmperor extends Quest
 			case WOOD:
 				if (cond == 6)
 					return "32593-01.htm";
+				else if (st.getState() == State.COMPLETED)
+					return "<html><body>這是已經完成的任務。</body></html>";
 			case MAMMON:
 				switch (st.getInt("cond"))
 				{
