@@ -37,6 +37,7 @@
 		<set name="operateType" val="OP_PASSIVE" />
 	</skill>
 	<skill id="10010" levels="1" name="Cancel">
+		<!-- Update by pmq -->
 		<!-- TEMP FIX for CANCEL effect -->
 		<set name="ignoreResists" val="true" />
 		<set name="maxNegated" val="5" />

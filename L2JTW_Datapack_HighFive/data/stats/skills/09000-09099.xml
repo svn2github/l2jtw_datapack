@@ -688,7 +688,7 @@
 		</cond>
 		<for>
 			<effect name="Buff" abnormalTime="600" val="0" abnormalLvl="2" abnormalType="vp_keep">
-				<mul order="0x30" stat="vitalityConsumeRate" val="0.00" />
+				<mul order="0x30" stat="vitalityConsumeRate" val="0" />
 			</effect>
 		</for>
 	</skill>
@@ -707,7 +707,7 @@
 		</cond>
 		<for>
 			<effect name="Buff" abnormalTime="1800" val="0" abnormalLvl="3" abnormalType="vp_keep">
-				<mul order="0x30" stat="vitalityConsumeRate" val="0.00" />
+				<mul order="0x30" stat="vitalityConsumeRate" val="0" />
 			</effect>
 		</for>
 	</skill>
@@ -981,7 +981,7 @@
 		<set name="operateType" val="OP_PASSIVE" />
 		<set name="reuseDelay" val="10000" />
 	</skill>
-	<skill id="9098" levels="1" name="Offensive">
+	<skill id="9098" levels="1" name="Event - Sad White Baby Tiger Scroll">
 		<!-- Update by pmq -->
 		<set name="target" val="TARGET_SELF" />
 		<set name="skillType" val="CONT" />
@@ -994,8 +994,8 @@
 				<mul order="0x30" stat="mDef" val="0.80" />
 			</effect>
 		</for>
-	 </skill>
-	 <skill id="9099" levels="1" name="Defensive">
+	</skill>
+	<skill id="9099" levels="1" name="Event - Sad White Baby King-Tiger Scroll">
 		<!-- Update by pmq -->
 		<set name="target" val="TARGET_SELF" />
 		<set name="skillType" val="CONT" />
@@ -1008,5 +1008,5 @@
 				<mul order="0x30" stat="mDef" val="1.20" />
 			</effect>
 		</for>
-	  </skill>
+	</skill>
 </list>
