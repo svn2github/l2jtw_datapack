@@ -32,4 +32,32 @@
 		<set name="icon" val="Branchsys2.icon.cube_event_i03" />
 		<set name="is_stackable" val="true" />
 	</item>
+	<item id="21148" type="EtcItem" name="Transformation Scroll: Dragon Master Lee">
+		<set name="icon" val="icon.etc_scroll_white_i00" />
+		<set name="default_action" val="skill_reduce" />
+		<set name="etcitem_type" val="scroll" />
+		<set name="material" val="paper" />
+		<set name="weight" val="120" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_stackable" val="true" />
+		<set name="is_oly_restricted" val="true" />
+		<set name="handler" val="ItemSkills" />
+		<set name="item_skill" val="22183-1" />
+	</item>
+	<item id="21149" type="EtcItem" name="Transformation Scroll: Dragon Master Karin">
+		<set name="icon" val="icon.etc_scroll_white_i00" />
+		<set name="default_action" val="skill_reduce" />
+		<set name="etcitem_type" val="scroll" />
+		<set name="material" val="paper" />
+		<set name="weight" val="120" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_stackable" val="true" />
+		<set name="is_oly_restricted" val="true" />
+		<set name="handler" val="ItemSkills" />
+		<set name="item_skill" val="22184-1" />
+	</item>
 </list>
