@@ -259,7 +259,7 @@ public class Q193_SevenSignDyingMessage extends Quest
 		if (npc.getNpcId() == SHILENSEVIL && st.getInt("cond") == 4)
 		{
 			npc.broadcastPacket(new NpcSay(npc.getObjectId(),0,npc.getNpcId(),"「" + player.getName() + "」！現在我就讓你一步..不過，我一定會抓到你的。"));
-			npc.broadcastPacket(new NpcSay(npc.getObjectId(),0,32569,"很好，「" + player.getName() + "」。很高興能幫得上你。"));
+			npc.broadcastPacket(new NpcSay(CAIN,0,CAIN,"很好，「" + player.getName() + "」。很高興能幫得上你。"));
 			st.giveItems(SCULPTURE, 1);
 			st.set("cond", "5");
 			st.playSound("ItemSound.quest_middle");

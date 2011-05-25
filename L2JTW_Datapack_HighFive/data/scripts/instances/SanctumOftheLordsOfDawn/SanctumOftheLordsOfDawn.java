@@ -39,7 +39,7 @@ public class SanctumOftheLordsOfDawn extends Quest
 		public long[] storeTime = { 0, 0 }; // 0: instance start, 1: finish time
 		
 		private L2Npc	NPC_1, NPC_2, NPC_3, NPC_4, NPC_5, NPC_6, NPC_7, NPC_8, NPC_9, NPC_10, NPC_11, NPC_12, NPC_13, NPC_14, NPC_15, NPC_16, NPC_17, NPC_18,
-				NPC_19, NPC_20, NPC_21, NPC_22, NPC_23, NPC_24, NPC_25, NPC_26, NPC_27, NPC_28, NPC_29, NPC_30, NPC_31, NPC_32, NPC_33, S_C_NPC_1, S_C_NPC_2,
+				NPC_19, NPC_20, NPC_21, NPC_22, NPC_23, NPC_24, NPC_25, NPC_26, NPC_27, NPC_28, NPC_29, NPC_30, NPC_31, NPC_32, NPC_33, NPC_34, NPC_35, S_C_NPC_1, S_C_NPC_2,
 				S_C_NPC_3, S_C_NPC_4, S_C_NPC_5, S_C_NPC_6;
 		
 		private int doorst = 0;
@@ -89,10 +89,10 @@ public class SanctumOftheLordsOfDawn extends Quest
 	
 	// WALK TIMERS
 	private static final int SHORT        = 3500;
-	private static final int MID          = 7000;
+	private static final int MID          = 6000;
 	private static final int MID2         = 7500;
 	private static final int LONG         = 14000;
-	private static final int HUGE         = 25000;
+	private static final int HUGE         = 29000;
 
 	// MOVE PATHS
 	private static final L2CharPosition MOVE_TO_1_A  = new L2CharPosition(-75022, 212090, -7317, 0);
@@ -117,20 +117,20 @@ public class SanctumOftheLordsOfDawn extends Quest
 	private static final L2CharPosition MOVE_TO_10_B = new L2CharPosition(-74197, 208271, -7511, 0);
 	private static final L2CharPosition MOVE_TO_11_A = new L2CharPosition(-74515, 207060, -7509, 0);
 	private static final L2CharPosition MOVE_TO_11_B = new L2CharPosition(-74196, 207061, -7509, 0);
-	private static final L2CharPosition MOVE_TO_12_A = new L2CharPosition(-74263, 206487, -7511, 0);
-	private static final L2CharPosition MOVE_TO_12_B = new L2CharPosition(-75703, 206491, -7511, 0);
-	private static final L2CharPosition MOVE_TO_13_A = new L2CharPosition(-76402, 207958, -7607, 0);
-	private static final L2CharPosition MOVE_TO_13_B = new L2CharPosition(-76612, 207962, -7607, 0);
+	private static final L2CharPosition MOVE_TO_12_A = new L2CharPosition(-74241, 206518, -7511, 0);
+	private static final L2CharPosition MOVE_TO_12_B = new L2CharPosition(-75654, 206518, -7511, 0);
+	private static final L2CharPosition MOVE_TO_13_A = new L2CharPosition(-76632, 207850, -7607, 0);
+	private static final L2CharPosition MOVE_TO_13_B = new L2CharPosition(-76374, 207850, -7607, 0);
 	private static final L2CharPosition MOVE_TO_14_A = new L2CharPosition(-76374, 208206, -7606, 0);
 	private static final L2CharPosition MOVE_TO_14_B = new L2CharPosition(-76632, 208205, -7606, 0);
 	private static final L2CharPosition MOVE_TO_15_A = new L2CharPosition(-76371, 208853, -7606, 0);
 	private static final L2CharPosition MOVE_TO_15_B = new L2CharPosition(-76638, 208854, -7606, 0);
-	private static final L2CharPosition MOVE_TO_16_A = new L2CharPosition(-76893, 209445, -7606, 0);
-	private static final L2CharPosition MOVE_TO_16_B = new L2CharPosition(-76894, 209199, -7606, 0);
-	private static final L2CharPosition MOVE_TO_17_A = new L2CharPosition(-77276, 209436, -7607, 0);
-	private static final L2CharPosition MOVE_TO_17_B = new L2CharPosition(-77280, 209197, -7607, 0);
-	private static final L2CharPosition MOVE_TO_18_A = new L2CharPosition(-78033, 208406, -7706, 0);
-	private static final L2CharPosition MOVE_TO_18_B = new L2CharPosition(-77380, 208406, -7704, 0);
+	private static final L2CharPosition MOVE_TO_16_A = new L2CharPosition(-76930, 209445, -7606, 0);
+	private static final L2CharPosition MOVE_TO_16_B = new L2CharPosition(-76930, 209199, -7606, 0);
+	private static final L2CharPosition MOVE_TO_17_A = new L2CharPosition(-77180, 209436, -7607, 0);
+	private static final L2CharPosition MOVE_TO_17_B = new L2CharPosition(-77180, 209197, -7607, 0);
+	private static final L2CharPosition MOVE_TO_18_A = new L2CharPosition(-78038, 208470, -7706, 0);
+	private static final L2CharPosition MOVE_TO_18_B = new L2CharPosition(-77390, 208470, -7704, 0);
 	private static final L2CharPosition MOVE_TO_19_A = new L2CharPosition(-77691, 208131, -7704, 0);
 	private static final L2CharPosition MOVE_TO_19_B = new L2CharPosition(-77702, 207454, -7678, 0);
 	private static final L2CharPosition MOVE_TO_20_A = new L2CharPosition(-78102, 208037, -7701, 0);
@@ -158,9 +158,13 @@ public class SanctumOftheLordsOfDawn extends Quest
 	private static final L2CharPosition MOVE_TO_31_A = new L2CharPosition(-79118, 205436, -7893, 0);
 	private static final L2CharPosition MOVE_TO_31_B = new L2CharPosition(-78905, 205223, -7893, 0);
 	private static final L2CharPosition MOVE_TO_32_A = new L2CharPosition(-81948, 205857, -7989, 0);
-	private static final L2CharPosition MOVE_TO_32_B = new L2CharPosition(-81350, 205857, -7989, 0);
+	private static final L2CharPosition MOVE_TO_32_B = new L2CharPosition(-81250, 205857, -7989, 0);
 	private static final L2CharPosition MOVE_TO_33_A = new L2CharPosition(-74948, 206370, -7514, 0);
 	private static final L2CharPosition MOVE_TO_33_B = new L2CharPosition(-74950, 206681, -7514, 0);
+	private static final L2CharPosition MOVE_TO_34_A = new L2CharPosition(-77053, 207113, -7703, 0);
+	private static final L2CharPosition MOVE_TO_34_B = new L2CharPosition(-77259, 207353, -7710, 0);
+	private static final L2CharPosition MOVE_TO_35_A = new L2CharPosition(-77048, 207800, -7709, 0);
+	private static final L2CharPosition MOVE_TO_35_B = new L2CharPosition(-78324, 207800, -7709, 0);
 	
 	private class teleCoord
 	{
@@ -231,7 +235,6 @@ public class SanctumOftheLordsOfDawn extends Quest
 				world.NPC_27.getAI().setIntention(CtrlIntention.AI_INTENTION_MOVE_TO, MOVE_TO_27_B);
 				world.NPC_29.getAI().setIntention(CtrlIntention.AI_INTENTION_MOVE_TO, MOVE_TO_29_B);
 				world.NPC_30.getAI().setIntention(CtrlIntention.AI_INTENTION_MOVE_TO, MOVE_TO_30_B);
-				world.NPC_32.getAI().setIntention(CtrlIntention.AI_INTENTION_MOVE_TO, MOVE_TO_32_B);
 				world.NPC_33.getAI().setIntention(CtrlIntention.AI_INTENTION_MOVE_TO, MOVE_TO_33_B);
 				startQuestTimer("Group_MID_A", MID, world.NPC_2, null);
 			}
@@ -260,7 +263,6 @@ public class SanctumOftheLordsOfDawn extends Quest
 				world.NPC_27.getAI().setIntention(CtrlIntention.AI_INTENTION_MOVE_TO, MOVE_TO_27_A);
 				world.NPC_29.getAI().setIntention(CtrlIntention.AI_INTENTION_MOVE_TO, MOVE_TO_29_A);
 				world.NPC_30.getAI().setIntention(CtrlIntention.AI_INTENTION_MOVE_TO, MOVE_TO_30_A);
-				world.NPC_32.getAI().setIntention(CtrlIntention.AI_INTENTION_MOVE_TO, MOVE_TO_32_A);
 				world.NPC_33.getAI().setIntention(CtrlIntention.AI_INTENTION_MOVE_TO, MOVE_TO_33_A);
 				startQuestTimer("Group_MID_B", MID, world.NPC_2, null);
 			}
@@ -277,6 +279,7 @@ public class SanctumOftheLordsOfDawn extends Quest
 				world.NPC_25.getAI().setIntention(CtrlIntention.AI_INTENTION_MOVE_TO, MOVE_TO_25_B);
 				world.NPC_28.getAI().setIntention(CtrlIntention.AI_INTENTION_MOVE_TO, MOVE_TO_28_B);
 				world.NPC_31.getAI().setIntention(CtrlIntention.AI_INTENTION_MOVE_TO, MOVE_TO_31_B);
+				world.NPC_34.getAI().setIntention(CtrlIntention.AI_INTENTION_MOVE_TO, MOVE_TO_34_B);
 				startQuestTimer("Group_MID2_A", MID2, world.NPC_14, null);
 			}
 		}
@@ -292,6 +295,7 @@ public class SanctumOftheLordsOfDawn extends Quest
 				world.NPC_25.getAI().setIntention(CtrlIntention.AI_INTENTION_MOVE_TO, MOVE_TO_25_A);
 				world.NPC_28.getAI().setIntention(CtrlIntention.AI_INTENTION_MOVE_TO, MOVE_TO_28_A);
 				world.NPC_31.getAI().setIntention(CtrlIntention.AI_INTENTION_MOVE_TO, MOVE_TO_31_A);
+				world.NPC_34.getAI().setIntention(CtrlIntention.AI_INTENTION_MOVE_TO, MOVE_TO_34_A);
 				startQuestTimer("Group_MID2_B", MID2, world.NPC_14, null);
 			}
 		}
@@ -305,6 +309,7 @@ public class SanctumOftheLordsOfDawn extends Quest
 				world.NPC_7.getAI().setIntention(CtrlIntention.AI_INTENTION_MOVE_TO, MOVE_TO_7_B);
 				world.NPC_18.getAI().setIntention(CtrlIntention.AI_INTENTION_MOVE_TO, MOVE_TO_18_B);
 				world.NPC_19.getAI().setIntention(CtrlIntention.AI_INTENTION_MOVE_TO, MOVE_TO_19_B);
+				world.NPC_32.getAI().setIntention(CtrlIntention.AI_INTENTION_MOVE_TO, MOVE_TO_32_B);
 				startQuestTimer("Group_LONG_A", LONG, world.NPC_6, null);
 			}
 		}
@@ -318,6 +323,7 @@ public class SanctumOftheLordsOfDawn extends Quest
 				world.NPC_7.getAI().setIntention(CtrlIntention.AI_INTENTION_MOVE_TO, MOVE_TO_7_A);
 				world.NPC_18.getAI().setIntention(CtrlIntention.AI_INTENTION_MOVE_TO, MOVE_TO_18_A);
 				world.NPC_19.getAI().setIntention(CtrlIntention.AI_INTENTION_MOVE_TO, MOVE_TO_19_A);
+				world.NPC_32.getAI().setIntention(CtrlIntention.AI_INTENTION_MOVE_TO, MOVE_TO_32_A);
 				startQuestTimer("Group_LONG_B", LONG, world.NPC_6, null);
 			}
 		}
@@ -329,6 +335,7 @@ public class SanctumOftheLordsOfDawn extends Quest
 				HSWorld world = (HSWorld) tmpworld;
 				world.NPC_12.getAI().setIntention(CtrlIntention.AI_INTENTION_MOVE_TO, MOVE_TO_12_A);
 				world.NPC_8.getAI().setIntention(CtrlIntention.AI_INTENTION_MOVE_TO, MOVE_TO_8_A);
+				world.NPC_35.getAI().setIntention(CtrlIntention.AI_INTENTION_MOVE_TO, MOVE_TO_35_A);
 				startQuestTimer("Group_HUGE_B", HUGE, world.NPC_12, null);
 			}
 		}
@@ -340,6 +347,7 @@ public class SanctumOftheLordsOfDawn extends Quest
 				HSWorld world = (HSWorld) tmpworld;
 				world.NPC_12.getAI().setIntention(CtrlIntention.AI_INTENTION_MOVE_TO, MOVE_TO_12_B);
 				world.NPC_8.getAI().setIntention(CtrlIntention.AI_INTENTION_MOVE_TO, MOVE_TO_8_B);
+				world.NPC_35.getAI().setIntention(CtrlIntention.AI_INTENTION_MOVE_TO, MOVE_TO_35_B);
 				startQuestTimer("Group_HUGE_A", HUGE, world.NPC_12, null);
 			}
 		}
@@ -418,9 +426,10 @@ public class SanctumOftheLordsOfDawn extends Quest
 		}
 		else if (event.equalsIgnoreCase("reTele"))
 		{
-			//((L2Attackable) npc).clearAggroList();
+			((L2Attackable) npc).clearAggroList();
 			player.teleToLocation(-75711, 213421, -7125);
-			//player.teleToLocation(-77694, 208726, -7705);
+			//player.teleToLocation(-74959, 209294, -7459);
+			//player.teleToLocation(-77705, 208898, -7647);
 			return null;
 		}
 		return "";
@@ -468,7 +477,7 @@ public class SanctumOftheLordsOfDawn extends Quest
 		// STATIC NPC's
 		L2Npc S_NPC_0 = addSpawn(DEVICE, -75710, 213535, -7126, 0, false, 0, false, world.instanceId);
 		S_NPC_0.setIsNoRndWalk(true);
-		L2Npc S_NPC_1 = addSpawn(DEVICE, -78355, 205740, -7892, 0, false, 0, false, world.instanceId);
+		L2Npc S_NPC_1 = addSpawn(DEVICE, -78288, 205747, -7889, 0, false, 0, false, world.instanceId);
 		S_NPC_1.setIsNoRndWalk(true);
 		L2Npc S_NPC_2 = addSpawn(PWDEVICE, -80133, 205743, -7888, 0, false, 0, false, world.instanceId);
 		S_NPC_2.setIsNoRndWalk(true);
@@ -484,8 +493,8 @@ public class SanctumOftheLordsOfDawn extends Quest
 		S_NPC_8.setIsNoRndWalk(true);
 		L2Npc S_NPC_9 = addSpawn(WGUARD, -74568, 209981, -7390, 0, false, 0, false, world.instanceId);
 		S_NPC_9.setIsNoRndWalk(true);
-		//L2Npc S_NPC_10 = addSpawn(WGUARD, -75638, 208763, -7486, 0, false, 0, false, world.instanceId);
-		//S_NPC_10.setIsNoRndWalk(true);
+		L2Npc S_NPC_10 = addSpawn(WPRIEST, -77167, 207637, -7703, 0, false, 0, false, world.instanceId); // Add new
+		S_NPC_10.setIsNoRndWalk(true);
 		L2Npc S_NPC_11 = addSpawn(WGUARD, -74276, 208794, -7486, 0, false, 0, false, world.instanceId);
 		S_NPC_11.setIsNoRndWalk(true);
 		L2Npc S_NPC_12 = addSpawn(GUARD, -74959, 207618, -7486, 0, false, 0, false, world.instanceId);
@@ -494,13 +503,13 @@ public class SanctumOftheLordsOfDawn extends Quest
 		S_NPC_13.setIsNoRndWalk(true);
 		L2Npc S_NPC_14 = addSpawn(WGUARD, -77702, 207286, -7704, 0, false, 0, false, world.instanceId);
 		S_NPC_14.setIsNoRndWalk(true);
-		L2Npc S_NPC_15 = addSpawn(WPRIEST, -78354, 207117, -7703, 0, false, 0, false, world.instanceId);
+		L2Npc S_NPC_15 = addSpawn(WPRIEST, -78338, 207149, -7703, 0, false, 0, false, world.instanceId);
 		S_NPC_15.setIsNoRndWalk(true);
 		L2Npc S_NPC_16 = addSpawn(WPRIEST, -78108, 207388, -7701, 0, false, 0, false, world.instanceId);
 		S_NPC_16.setIsNoRndWalk(true);
-		L2Npc S_NPC_17 = addSpawn(WPRIEST, -77290, 207381, -7701, 0, false, 0, false, world.instanceId);
+		L2Npc S_NPC_17 = addSpawn(WPRIEST, -77548, 207131, -7703, 0, false, 0, false, world.instanceId);
 		S_NPC_17.setIsNoRndWalk(true);
-		L2Npc S_NPC_18 = addSpawn(WPRIEST, -77053, 207113, -7703, 0, false, 0, false, world.instanceId);
+		L2Npc S_NPC_18 = addSpawn(WPRIEST, -77720, 207512, -7701, 0, false, 0, false, world.instanceId); // Add New
 		S_NPC_18.setIsNoRndWalk(true);
 		L2Npc S_NPC_19 = addSpawn(WGUARD, -78878, 206292, -7894, 0, false, 0, false, world.instanceId);
 		S_NPC_19.setIsNoRndWalk(true);
@@ -518,10 +527,12 @@ public class SanctumOftheLordsOfDawn extends Quest
 		S_NPC_25.setIsNoRndWalk(true);
 		L2Npc S_NPC_26 = addSpawn(GUARD, -75655, 208175, -7512, 0, false, 0, false, world.instanceId);
 		S_NPC_26.setIsNoRndWalk(true);
-		L2Npc S_NPC_27 = addSpawn(WGUARD, -81531, 205455, -7989, 0, false, 0, false, world.instanceId);
+		L2Npc S_NPC_27 = addSpawn(WGUARD, -81531, 205555, -7989, 0, false, 0, false, world.instanceId);
 		S_NPC_27.setIsNoRndWalk(true);
-		L2Npc S_NPC_28 = addSpawn(WGUARD, -81531, 206237, -7992, 0, false, 0, false, world.instanceId);
+		L2Npc S_NPC_28 = addSpawn(WGUARD, -81531, 206170, -7989, 0, false, 0, false, world.instanceId);
 		S_NPC_28.setIsNoRndWalk(true);
+		L2Npc S_NPC_29 = addSpawn(WPRIEST, -77239, 208298, -7710, 0, false, 0, false, world.instanceId); // Add New
+		S_NPC_29.setIsNoRndWalk(true);
 		
 		// WALKING NPC's
 		world.NPC_1 = addSpawn(WPRIEST, -75022, 212090, -7317, 0, false, 0, false, world.instanceId);
@@ -535,13 +546,13 @@ public class SanctumOftheLordsOfDawn extends Quest
 		world.NPC_9 = addSpawn(GUARD, -75412, 207137, -7511, 0, false, 0, false, world.instanceId);
 		world.NPC_10 = addSpawn(GUARD, -74512, 208266, -7511, 0, false, 0, false, world.instanceId);
 		world.NPC_11 = addSpawn(GUARD, -74515, 207060, -7509, 0, false, 0, false, world.instanceId);
-		world.NPC_12 = addSpawn(GUARD, -74263, 206487, -7511, 0, false, 0, false, world.instanceId);
-		world.NPC_13 = addSpawn(GUARD, -76402, 207958, -7607, 0, false, 0, false, world.instanceId);
+		world.NPC_12 = addSpawn(GUARD, -74241, 206518, -7511, 0, false, 0, false, world.instanceId);
+		world.NPC_13 = addSpawn(GUARD, -76374, 207850, -7606, 0, false, 0, false, world.instanceId);
 		world.NPC_14 = addSpawn(GUARD, -76374, 208206, -7606, 0, false, 0, false, world.instanceId);
 		world.NPC_15 = addSpawn(GUARD, -76371, 208853, -7606, 0, false, 0, false, world.instanceId);
-		world.NPC_16 = addSpawn(GUARD, -76893, 209445, -7606, 0, false, 0, false, world.instanceId);
-		world.NPC_17 = addSpawn(GUARD, -77276, 209436, -7607, 0, false, 0, false, world.instanceId);
-		world.NPC_18 = addSpawn(WPRIEST, -78033, 208406, -7706, 0, false, 0, false, world.instanceId);
+		world.NPC_16 = addSpawn(GUARD, -76930, 209445, -7606, 0, false, 0, false, world.instanceId);
+		world.NPC_17 = addSpawn(GUARD, -77180, 209436, -7607, 0, false, 0, false, world.instanceId);
+		world.NPC_18 = addSpawn(WPRIEST, -78038, 208470, -7706, 0, false, 0, false, world.instanceId);
 		world.NPC_19 = addSpawn(WPRIEST, -77691, 208131, -7704, 0, false, 0, false, world.instanceId);
 		world.NPC_20 = addSpawn(WPRIEST, -78102, 208037, -7701, 0, false, 0, false, world.instanceId);
 		world.NPC_21 = addSpawn(WPRIEST, -77287, 208041, -7701, 0, false, 0, false, world.instanceId);
@@ -557,6 +568,8 @@ public class SanctumOftheLordsOfDawn extends Quest
 		world.NPC_31 = addSpawn(GUARD, -79118, 205436, -7893, 0, false, 0, false, world.instanceId);
 		world.NPC_32 = addSpawn(WGUARD, -81948, 205857, -7989, 0, false, 0, false, world.instanceId);
 		world.NPC_33 = addSpawn(GUARD, -74948, 206370, -7514, 0, false, 0, false, world.instanceId);
+		world.NPC_34 = addSpawn(WPRIEST, -77053, 207113, -7703, 0, false, 0, false, world.instanceId); // Add New
+		world.NPC_35 = addSpawn(WPRIEST, -77048, 207800, -7709, 0, false, 0, false, world.instanceId); // Add New
 		
 		// START TIMERS
 		startQuestTimer("Group_SHORT_B", SHORT, world.NPC_1, null);
