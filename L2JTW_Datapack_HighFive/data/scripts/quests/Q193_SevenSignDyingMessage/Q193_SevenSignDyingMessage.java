@@ -99,7 +99,6 @@ public class Q193_SevenSignDyingMessage extends Quest
 					ShilensevilOnSpawn = true;
 					startQuestTimer("spawnS", 301000, npc, player);
 					startQuestTimer("aiplayer", 30000, npc, player);
-					startQuestTimer("stopaiplayer", 301000, npc, player);
 				}
 			}
 			else if (event.equalsIgnoreCase("spawnS"))
@@ -110,16 +109,18 @@ public class Q193_SevenSignDyingMessage extends Quest
 			
 			else if (event.equalsIgnoreCase("aiplayer"))
 			{
-				npc.setTarget(player);
-				npc.doCast(SkillTable.getInstance().getInfo(1011, 18));
-				startQuestTimer("aiplayer", 30000, npc, player);
-				return "";
-			}
-			
-			else if (event.equalsIgnoreCase("stopaiplayer"))
-			{
-				cancelQuestTimer("aiplayer", npc, player);
-				return "";
+				if (ShilensevilOnSpawn == true)
+				{
+					npc.setTarget(player);
+					npc.doCast(SkillTable.getInstance().getInfo(1011, 18));
+					startQuestTimer("aiplayer", 30000, npc, player);
+					return "";
+				}
+				else
+				{
+					cancelQuestTimer("aiplayer", npc, player);
+					return "";
+				}
 			}
 			
 			else if (event.equalsIgnoreCase("32569-13.htm"))
@@ -264,7 +265,6 @@ public class Q193_SevenSignDyingMessage extends Quest
 			st.set("cond", "5");
 			st.playSound("ItemSound.quest_middle");
 			ShilensevilOnSpawn = false;
-			cancelQuestTimer("aiplayer", npc, player);
 		}
 		
 		return super.onKill(npc, player, isPet);
