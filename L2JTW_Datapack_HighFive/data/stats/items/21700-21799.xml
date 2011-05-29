@@ -144,6 +144,7 @@
 		<set name="weight" val="220" />
 	</item>
 	<item id="21716" type="Armor" name="Cloak of Zaken">
+		<!-- Update by pmq -->
 		<!-- Description: Cloak that makes you feel Zaken's sorrow. Increases P. Def. and attribute resistance. Unlocks a skill to move to the boss area. Can only be equipped when the cloak slot is open. Enchantment, attribute, and refining are impossible. Can be exchanged or dropped. -->
 		<set name="icon" val="BranchSys2.Icon.br_zaken_cloak_i00" />
 		<set name="default_action" val="equip" />
@@ -156,11 +157,17 @@
 			<player cloakStatus="1" />
 		</cond>
 		<for>
-			<add order="0x40" stat="darkRes" val="30" /> <!-- Guess. -->
+			<add order="0x40" stat="fireRes" val="5" />
+			<add order="0x40" stat="waterRes" val="15" />
+			<add order="0x40" stat="windRes" val="15" />
+			<add order="0x40" stat="earthRes" val="5" />
+			<add order="0x40" stat="holyRes" val="5" />
+			<add order="0x40" stat="darkRes" val="15" />
 			<add order="0x10" stat="pDef" val="20" />
 		</for>
 	</item>
 	<item id="21717" type="Armor" name="Cloak of Freya">
+		<!-- Update by pmq -->
 		<!-- Description: Cloak that makes you feel Freya's chill. Increases P. Def. and attribute resistance. Unlocks a skill to move to the boss area. Can only be equipped when the cloak slot is open. Enchantment, attribute, and refining are impossible. Can be exchanged or dropped. -->
 		<set name="icon" val="BranchSys2.Icon.br_freya_cloak_i00" />
 		<set name="default_action" val="equip" />
@@ -173,11 +180,17 @@
 			<player cloakStatus="1" />
 		</cond>
 		<for>
-			<add order="0x40" stat="darkRes" val="30" /> <!-- Guess. -->
+			<add order="0x40" stat="fireRes" val="10" />
+			<add order="0x40" stat="waterRes" val="20" />
+			<add order="0x40" stat="windRes" val="20" />
+			<add order="0x40" stat="earthRes" val="10" />
+			<add order="0x40" stat="holyRes" val="20" />
+			<add order="0x40" stat="darkRes" val="10" />
 			<add order="0x10" stat="pDef" val="30" />
 		</for>
 	</item>
 	<item id="21718" type="Armor" name="Cloak of Frintezza">
+		<!-- Update by pmq -->
 		<!-- Description: Cloak that plays Frintezza's melody over and over in your head. Increases P. Def. and attribute resistance. Unlocks a skill to move to the boss area. Can only be equipped when the cloak slot is open. Enchantment, attribute, and refining are impossible. Can be exchanged or dropped. -->
 		<set name="icon" val="BranchSys2.Icon.br_frintessa_cloak_i00" />
 		<set name="default_action" val="equip" />
@@ -190,7 +203,12 @@
 			<player cloakStatus="1" />
 		</cond>
 		<for>
-			<add order="0x40" stat="darkRes" val="30" /> <!-- Guess. -->
+			<add order="0x40" stat="fireRes" val="15" />
+			<add order="0x40" stat="waterRes" val="5" />
+			<add order="0x40" stat="windRes" val="5" />
+			<add order="0x40" stat="earthRes" val="15" />
+			<add order="0x40" stat="holyRes" val="5" />
+			<add order="0x40" stat="darkRes" val="15" />
 			<add order="0x10" stat="pDef" val="20" />
 		</for>
 	</item>

@@ -121,6 +121,25 @@ public class Q196_SevenSignSealOfTheEmperor extends Quest
 	
 	private int mammonst = 0;
 	
+	/**
+	【備註】：【1~3】 是開場白只會出一次，【4~12】 是亂數出對話，【END】 是最後才會出的對話。
+	【字顏色】	【對話次序】	【人物】	【對話編號】	【對話內容】
+	【Orange】	【1】			【ANAKIM】	【19606】		【為了殷海薩的永恆！！！】
+	【Pink】	【2】			【ANAKIM】	【19611】		【我的力量在變弱，請趕快啟動封印裝置吧！！！】
+	【Orange】	【3】			【LILITH】	【19615】		【愚蠢的東西！這場戰爭的勝利是歸席琳的！！！】
+	【Orange】	【4】			【ANAKIM】	【19609】		【光明軍勢啊！擊敗席琳的孩子們吧！！！】
+	【Pink】	【5】			【ANAKIM】	【19614】		【「$s1」啊，請您再..加點力。】
+	【Orange】	【7】			【ANAKIM】	【19608】		【我讓你們瞧瞧殷海薩真正的力量！】
+	【Pink】	【8】			【ANAKIM】	【19613】		【莉莉絲的攻擊變得更加兇猛了！請趕快啟動！】
+	【Orange】	【11】			【ANAKIM】	【19607】		【席琳的孩子們啊！你們無法成為我們的對手！】
+	【Pink】	【12】			【ANAKIM】	【19612】		【4個封印裝置必須要全部啟動！！！】
+	【Orange】	【END】			【ANAKIM】	【19610】		【這全都是託「$s1」的福，謝謝！】
+	【Orange】	【6】			【LILITH】	【19617】		【亞納！以偉大的席琳之名，我將了斷你的生命！】
+	【Orange】	【9】			【LILITH】	【19616】		【竟敢想要和我比武？真是可笑。】
+	【Orange】	【10】			【LILITH】	【19618】		【你無法成為我--莉莉絲的對手，讓你瞧瞧我的厲害！】
+	【Orange】	【END】			【LILITH】	【19619】		【竟然就這樣回到席琳的懷抱..真是氣憤..】
+	*/
+	
 	private static final void removeBuffs(L2Character ch)
 	{
 		for (L2Effect e : ch.getAllEffects())
@@ -701,8 +720,7 @@ public class Q196_SevenSignSealOfTheEmperor extends Quest
 		}
 		else if (event.equalsIgnoreCase("32586-06.htm"))
 		{
-			ExShowScreenMessage message1 = new ExShowScreenMessage(1,0,2,15,0,15,15,false,10000,1,"使用殷海薩聖劍秩必殺技來擊敗邪惡的莉莉恩群！");  // 官服是(黃色字體)
-			player.sendPacket(message1);
+			player.sendPacket(new ExShowScreenMessage("使用殷海薩聖劍秩必殺技來擊敗邪惡的莉莉恩群！",5000));  // 官服是(黃色字體)
 			player.sendMessage("使用殷海薩聖劍秩必殺技來擊敗邪惡的莉莉恩群！");  // 官服是(黃色字體)
 			player.sendMessage("使用殷海薩聖水後，請開啟圍繞火焰詛咒的門。");  // 官服是(黃色字體)
 			st.playSound("ItemSound.quest_middle");
@@ -882,8 +900,7 @@ public class Q196_SevenSignSealOfTheEmperor extends Quest
 						}
 						if (st.getQuestItemsCount(SEAL) <= 3)
 						{
-							ExShowScreenMessage message1 = new ExShowScreenMessage(1,0,2,15,0,15,15,false,10000,1,"使用殷海薩聖劍秩必殺技來擊敗邪惡的莉莉恩群！");  // 官服是(黃色字體)
-							player.sendPacket(message1);
+							player.sendPacket(new ExShowScreenMessage("使用殷海薩聖劍秩必殺技來擊敗邪惡的莉莉恩群！",5000));  // 官服是(黃色字體)
 							player.sendMessage("使用殷海薩聖劍秩必殺技來擊敗邪惡的莉莉恩群！");  // 官服是(黃色字體)
 							player.sendMessage("使用殷海薩聖水後，請開啟圍繞火焰詛咒的門。");  // 官服是(黃色字體)
 							return "32586-07.htm";

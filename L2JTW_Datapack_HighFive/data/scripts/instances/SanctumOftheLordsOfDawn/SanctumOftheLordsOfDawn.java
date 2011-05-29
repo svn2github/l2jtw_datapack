@@ -80,10 +80,10 @@ public class SanctumOftheLordsOfDawn extends Quest
 	private static final int ONE         = 17240001;
 	private static final int TWO         = 17240003;
 	private static final int THREE       = 17240005;
-
+	
 	//TRANSFORM SKILL
 	private static final int GUARD_AMBUSH = 963;
-
+	
 	//GUARD_SKILL
 	private static final int GUARD_SKILL  = 5978;
 	
@@ -93,7 +93,7 @@ public class SanctumOftheLordsOfDawn extends Quest
 	private static final int MID2         = 7500;
 	private static final int LONG         = 14000;
 	private static final int HUGE         = 29000;
-
+	
 	// MOVE PATHS
 	private static final L2CharPosition MOVE_TO_1_A  = new L2CharPosition(-75022, 212090, -7317, 0);
 	private static final L2CharPosition MOVE_TO_1_B  = new L2CharPosition(-74876, 212091, -7317, 0);
@@ -617,7 +617,7 @@ public class SanctumOftheLordsOfDawn extends Quest
 					if (world.doorst == 0)
 					{
 						openDoor(ONE, world.instanceId);
-						player.sendPacket(new ExShowScreenMessage("使用警衛隊員的隱身技能後，潛入黎明的文件儲藏室內！",5000));
+						player.sendPacket(new ExShowScreenMessage("使用警衛隊員的隱身技能後，潛入黎明的文件儲藏室內！",5000));  // 官服是(黃色字體)
 						npc.deleteMe();
 						world.doorst++;
 						player.sendMessage("使用警衛隊員的隱身技能後，潛入到黎明的文件儲藏室內！男性警衛隊員可以察覺隱身，而女性警衛隊員無法察覺隱身。");  // 官服是(黃色字體)
@@ -627,7 +627,7 @@ public class SanctumOftheLordsOfDawn extends Quest
 					if (world.doorst >= 1)
 					{
 						openDoor(TWO, world.instanceId);
-						player.sendPacket(new ExShowScreenMessage("接近門前的暗號裝置！",5000));
+						player.sendPacket(new ExShowScreenMessage("接近門前的暗號裝置！",5000));  // 官服是(黃色字體)
 						player.sendMessage("在前方的門，就是黎明的文件儲藏室的入口！接近暗號輸入裝置！");  // 官服是(黃色字體)
 						world.doorst++;
 						npc.deleteMe();
