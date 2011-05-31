@@ -140,6 +140,7 @@
 		<set name="operateType" val="OP_PASSIVE" />
 	</skill>
 	<skill id="5613" levels="4" name="Vampiric Rage">
+		<!-- This skill only has one level, 4. -->
 		<!-- Update by pmq -->
 		<set name="target" val="TARGET_SELF" />
 		<set name="skillType" val="BUFF" />
