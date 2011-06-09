@@ -61,7 +61,7 @@ public class RentPet implements IBypassHandler
 						"<tr><td><a action=\"bypass -h npc_%objectId%_RentPet 3\">"+MessageTable.Messages[1039].getMessage()+"</a></td><td><a action=\"bypass -h npc_%objectId%_RentPet 13\">"+MessageTable.Messages[1040].getMessage()+"</a></td></tr>" +
 						"<tr><td><a action=\"bypass -h npc_%objectId%_RentPet 4\">"+MessageTable.Messages[1041].getMessage()+"</a></td><td><a action=\"bypass -h npc_%objectId%_RentPet 14\">"+MessageTable.Messages[1042].getMessage()+"</a></td></tr>" +
 						"</table>" +
-						"</body></html>");
+				"</body></html>");
 				msg.replace("%objectId%", String.valueOf(((L2Npc)target).getObjectId()));
 				activeChar.sendPacket(msg);
 			}

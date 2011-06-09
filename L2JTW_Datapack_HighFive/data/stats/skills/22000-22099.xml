@@ -563,23 +563,30 @@
 	</skill>
 	<skill id="22039" levels="2" name="Rune of Experience Points">
 		<!-- Update by pmq -->
-		<table name="#rExp"> 1.3 1.5 </table>
+		<table name="#rRExp"> 1.3 1.5</table>
 		<set name="target" val="TARGET_SELF" />
 		<set name="skillType" val="BUFF" />
 		<set name="operateType" val="OP_PASSIVE" />
 		<for>
-			<mul order="0x30" stat="rExp" val="#rExp" />
+			<mul order="0x30" stat="rRExp" val="#rRExp"/> 
 		</for>
 	</skill>
 	<skill id="22040" levels="2" name="Rune of SP">
-		<set name="target" val="TARGET_NONE" />
-		<set name="skillType" val="NOTDONE" />
+		<!-- Update by pmq -->
+		<table name="#rRSp"> 1.3 1.5</table>
+		<set name="target" val="TARGET_SELF" />
+		<set name="skillType" val="BUFF" />
 		<set name="operateType" val="OP_PASSIVE" />
+		<for>
+			<mul order="0x30" stat="rRSp" val="#rRSp"/>
+		</for>
 	</skill>
 	<skill id="22041" levels="2" name="Rune of Crystal Form Level">
-		<set name="target" val="TARGET_NONE" />
-		<set name="skillType" val="NOTDONE" />
+		<!-- Update by pmq -->
+		<set name="target" val="TARGET_SELF" />
+		<set name="skillType" val="COREDONE" />
 		<set name="operateType" val="OP_PASSIVE" />
+		<!-- Removes Grade Penalty -->
 	</skill>
 	<skill id="22042" levels="1" name="High Grade Potion of Will">
 		<set name="itemConsumeCount" val="1" />
@@ -1376,9 +1383,16 @@
 	</skill>
 	<skill id="22091" levels="1" name="Eva's Rune">
 		<!-- With the power of Eva, increases max HP by 10%, and decreases skill reuse time by 20%. Reflects partial damage received back to the emeny. Excludes damage caused by skills and long-range attack. -->
-		<set name="target" val="TARGET_NONE" />
-		<set name="skillType" val="NOTDONE" />
+		<!-- Update by pmq -->
+		<set name="target" val="TARGET_SELF" />
+		<set name="skillType" val="BUFF" />
 		<set name="operateType" val="OP_PASSIVE" />
+		<for>
+			<mul order="0x30" stat="maxHp" val="1.1" />
+			<mul order="0x30" stat="mReuse" val="0.8" />
+			<mul order="0x30" stat="pReuse" val="0.8" />
+			<mul order="0x30" stat="reflectDam" val="1.05" /> <!-- Guessed -->
+		</for>
 	</skill>
 	<skill id="22092" levels="1" name="Scroll Master 1">
 		<!-- Confirmed CT2.5 -->

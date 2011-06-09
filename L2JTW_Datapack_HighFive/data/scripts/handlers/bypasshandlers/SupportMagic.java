@@ -111,7 +111,7 @@ public class SupportMagic implements IBypassHandler
 		if (player_level > highestLevel)
 		{
 			String content = "<html><body>"+MessageTable.Messages[1082].getMessage()+"<br>"+MessageTable.Messages[1083].getMessage()+"<font color=\"LEVEL\">"+MessageTable.Messages[1084].getMessage() + highestLevel
-					+ MessageTable.Messages[1085].getMessage()+"</font>"+MessageTable.Messages[1086].getMessage()+"</body></html>";
+			+ MessageTable.Messages[1085].getMessage()+"</font>"+MessageTable.Messages[1086].getMessage()+"</body></html>";
 			npc.insertObjectIdAndShowChatWindow(player, content);
 			return true;
 		}

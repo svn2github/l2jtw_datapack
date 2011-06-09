@@ -16,7 +16,7 @@ package handlers.bypasshandlers;
 
 import com.l2jserver.Config;
 import com.l2jserver.gameserver.datatables.CharTemplateTable; //Update by rocknow
-import com.l2jserver.gameserver.datatables.SkillTreeTable;
+import com.l2jserver.gameserver.datatables.SkillTreesData;
 import com.l2jserver.gameserver.handler.IBypassHandler;
 import com.l2jserver.gameserver.model.actor.L2Character;
 import com.l2jserver.gameserver.model.actor.L2Npc;
@@ -46,7 +46,6 @@ public class SkillList implements IBypassHandler
 				String id = command.substring(9).trim();
 				if (id.length() != 0)
 				{
-					activeChar.setSkillLearningClassId(ClassId.values()[Integer.parseInt(id)]);
 					L2NpcInstance.showSkillList(activeChar, (L2Npc)target, ClassId.values()[Integer.parseInt(id)]);
 				}
 				else
@@ -91,7 +90,7 @@ public class SkillList implements IBypassHandler
 								if (cid.level() > classCheck.level())
 									continue;
 								
-								if (SkillTreeTable.getInstance().getAvailableSkills(activeChar, cid).length == 0)
+								if (SkillTreesData.getInstance().getAvailableSkills(activeChar, cid, false, false).isEmpty())
 									continue;
 								
 								text += "<a action=\"bypass -h npc_%objectId%_SkillList "+cid.getId()+"\">"+MessageTable.Messages[1069].getExtra(1)+CharTemplateTable.getInstance().getClassNameById(cid.getId())+MessageTable.Messages[1069].getExtra(2)+"</a><br>\n"; //Update by rocknow
@@ -121,8 +120,7 @@ public class SkillList implements IBypassHandler
 		}
 		else
 		{
-			activeChar.setSkillLearningClassId(activeChar.getClassId());
-			L2NpcInstance.showSkillList(activeChar, (L2Npc)target, activeChar.getClassId());
+			L2NpcInstance.showSkillList(activeChar, (L2Npc) target, activeChar.getClassId());
 		}
 		return true;
 	}

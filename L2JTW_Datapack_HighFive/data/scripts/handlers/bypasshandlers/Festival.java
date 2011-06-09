@@ -197,7 +197,7 @@ public class Festival implements IBypassHandler
 						break;
 					case 4: // Current High Scores
 						final StringBuilder strBuffer = StringUtil.startAppend(500,
-								"<html><body>"+MessageTable.Messages[1930].getMessage()+"<br>"+MessageTable.Messages[1931].getMessage());
+						"<html><body>"+MessageTable.Messages[1930].getMessage()+"<br>"+MessageTable.Messages[1931].getMessage());
 						
 						final StatsSet dawnData = SevenSignsFestival.getInstance().getHighestScoreData(SevenSigns.CABAL_DAWN, npc.getFestivalType());
 						final StatsSet duskData = SevenSignsFestival.getInstance().getHighestScoreData(SevenSigns.CABAL_DUSK, npc.getFestivalType());
@@ -213,7 +213,7 @@ public class Festival implements IBypassHandler
 						
 						StringUtil.append(strBuffer,
 								SevenSignsFestival.getFestivalName(npc.getFestivalType()),
-								MessageTable.Messages[1932].getMessage()+"<br>");
+						MessageTable.Messages[1932].getMessage()+"<br>");
 						
 						if (dawnScore > 0)
 						{
@@ -225,7 +225,7 @@ public class Festival implements IBypassHandler
 									"<br>",
 									dawnData.getString("members"),
 									"<br>"
-									);
+							);
 						}
 						else
 							strBuffer.append(MessageTable.Messages[1935].getMessage()+"<br>");
@@ -240,7 +240,7 @@ public class Festival implements IBypassHandler
 									"<br>",
 									duskData.getString("members"),
 									"<br>"
-									);
+							);
 						}
 						else
 							strBuffer.append(MessageTable.Messages[1937].getMessage()+"<br>");
@@ -263,7 +263,7 @@ public class Festival implements IBypassHandler
 									"<br>",
 									overallData.getString("members"),
 									"<br>"
-									);
+							);
 						}
 						else
 							strBuffer.append(MessageTable.Messages[1942].getMessage()+"<br>");
@@ -272,7 +272,7 @@ public class Festival implements IBypassHandler
 								"<a action=\"bypass -h npc_",
 								String.valueOf(npc.getObjectId()),
 								"_Chat 0\">"+MessageTable.Messages[1943].getMessage()+"</a></body></html>"
-								);
+						);
 						
 						NpcHtmlMessage html = new NpcHtmlMessage(npc.getObjectId());
 						html.setHtml(strBuffer.toString());

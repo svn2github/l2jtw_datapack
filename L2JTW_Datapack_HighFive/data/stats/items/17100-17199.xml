@@ -4,6 +4,7 @@
 		<set name="icon" val="icon.etc_dragons_blood_i03" />
 		<set name="default_action" val="skill_reduce" />
 		<set name="etcitem_type" val="potion" />
+		<set name="immediate_effect" val="1" /> <!-- Update by pmq -->
 		<set name="material" val="liquid" />
 		<set name="shared_reuse_group" val="16" />
 		<set name="is_tradable" val="false" />
@@ -11,6 +12,7 @@
 		<set name="is_sellable" val="false" />
 		<set name="is_depositable" val="false" />
 		<set name="is_stackable" val="true" />
+		<set name="handler" val="ItemSkills" /> <!-- Update by pmq -->
 		<set name="item_skill" val="9120-1" />
 		<cond msgId="1902">
 			<player levelRange="20;39" />
@@ -20,6 +22,7 @@
 		<set name="icon" val="icon.etc_dragons_blood_i03" />
 		<set name="default_action" val="skill_reduce" />
 		<set name="etcitem_type" val="potion" />
+		<set name="immediate_effect" val="1" /> <!-- Update by pmq -->
 		<set name="material" val="liquid" />
 		<set name="shared_reuse_group" val="16" />
 		<set name="is_tradable" val="false" />
@@ -27,6 +30,7 @@
 		<set name="is_sellable" val="false" />
 		<set name="is_depositable" val="false" />
 		<set name="is_stackable" val="true" />
+		<set name="handler" val="ItemSkills" /> <!-- Update by pmq -->
 		<set name="item_skill" val="9121-1" />
 		<cond msgId="1902">
 			<player levelRange="20;39" />
@@ -36,6 +40,7 @@
 		<set name="icon" val="icon.etc_dragons_blood_i03" />
 		<set name="default_action" val="skill_reduce" />
 		<set name="etcitem_type" val="potion" />
+		<set name="immediate_effect" val="1" /> <!-- Update by pmq -->
 		<set name="material" val="liquid" />
 		<set name="shared_reuse_group" val="16" />
 		<set name="is_tradable" val="false" />
@@ -43,6 +48,7 @@
 		<set name="is_sellable" val="false" />
 		<set name="is_depositable" val="false" />
 		<set name="is_stackable" val="true" />
+		<set name="handler" val="ItemSkills" /> <!-- Update by pmq -->
 		<set name="item_skill" val="9122-1" />
 		<cond msgId="1902">
 			<player levelRange="20;39" />
@@ -52,6 +58,7 @@
 		<set name="icon" val="icon.etc_dragons_blood_i03" />
 		<set name="default_action" val="skill_reduce" />
 		<set name="etcitem_type" val="potion" />
+		<set name="immediate_effect" val="1" /> <!-- Update by pmq -->
 		<set name="material" val="liquid" />
 		<set name="shared_reuse_group" val="16" />
 		<set name="is_tradable" val="false" />
@@ -59,6 +66,7 @@
 		<set name="is_sellable" val="false" />
 		<set name="is_depositable" val="false" />
 		<set name="is_stackable" val="true" />
+		<set name="handler" val="ItemSkills" /> <!-- Update by pmq -->
 		<set name="item_skill" val="9123-1" />
 		<cond msgId="1902">
 			<player levelRange="20;39" />
@@ -68,6 +76,7 @@
 		<set name="icon" val="icon.etc_dragons_blood_i03" />
 		<set name="default_action" val="skill_reduce" />
 		<set name="etcitem_type" val="potion" />
+		<set name="immediate_effect" val="1" /> <!-- Update by pmq -->
 		<set name="material" val="liquid" />
 		<set name="shared_reuse_group" val="16" />
 		<set name="is_tradable" val="false" />
@@ -75,6 +84,7 @@
 		<set name="is_sellable" val="false" />
 		<set name="is_depositable" val="false" />
 		<set name="is_stackable" val="true" />
+		<set name="handler" val="ItemSkills" /> <!-- Update by pmq -->
 		<set name="item_skill" val="9124-1" />
 		<cond msgId="1902">
 			<player levelRange="20;39" />
@@ -84,6 +94,7 @@
 		<set name="icon" val="icon.etc_dragons_blood_i03" />
 		<set name="default_action" val="skill_reduce" />
 		<set name="etcitem_type" val="potion" />
+		<set name="immediate_effect" val="1" /> <!-- Update by pmq -->
 		<set name="material" val="liquid" />
 		<set name="shared_reuse_group" val="16" />
 		<set name="is_tradable" val="false" />
@@ -91,6 +102,7 @@
 		<set name="is_sellable" val="false" />
 		<set name="is_depositable" val="false" />
 		<set name="is_stackable" val="true" />
+		<set name="handler" val="ItemSkills" /> <!-- Update by pmq -->
 		<set name="item_skill" val="9125-1" />
 		<cond msgId="1902">
 			<player levelRange="40;51" />
@@ -100,6 +112,7 @@
 		<set name="icon" val="icon.etc_dragons_blood_i03" />
 		<set name="default_action" val="skill_reduce" />
 		<set name="etcitem_type" val="potion" />
+		<set name="immediate_effect" val="1" /> <!-- Update by pmq -->
 		<set name="material" val="liquid" />
 		<set name="shared_reuse_group" val="16" />
 		<set name="is_tradable" val="false" />
@@ -107,6 +120,7 @@
 		<set name="is_sellable" val="false" />
 		<set name="is_depositable" val="false" />
 		<set name="is_stackable" val="true" />
+		<set name="handler" val="ItemSkills" /> <!-- Update by pmq -->
 		<set name="item_skill" val="9126-1" />
 		<cond msgId="1902">
 			<player levelRange="40;51" />
@@ -116,6 +130,7 @@
 		<set name="icon" val="icon.etc_dragons_blood_i03" />
 		<set name="default_action" val="skill_reduce" />
 		<set name="etcitem_type" val="potion" />
+		<set name="immediate_effect" val="1" /> <!-- Update by pmq -->
 		<set name="material" val="liquid" />
 		<set name="shared_reuse_group" val="16" />
 		<set name="is_tradable" val="false" />
@@ -123,6 +138,7 @@
 		<set name="is_sellable" val="false" />
 		<set name="is_depositable" val="false" />
 		<set name="is_stackable" val="true" />
+		<set name="handler" val="ItemSkills" /> <!-- Update by pmq -->
 		<set name="item_skill" val="9127-1" />
 		<cond msgId="1902">
 			<player levelRange="40;51" />
@@ -132,6 +148,7 @@
 		<set name="icon" val="icon.etc_dragons_blood_i03" />
 		<set name="default_action" val="skill_reduce" />
 		<set name="etcitem_type" val="potion" />
+		<set name="immediate_effect" val="1" /> <!-- Update by pmq -->
 		<set name="material" val="liquid" />
 		<set name="shared_reuse_group" val="16" />
 		<set name="is_tradable" val="false" />
@@ -139,6 +156,7 @@
 		<set name="is_sellable" val="false" />
 		<set name="is_depositable" val="false" />
 		<set name="is_stackable" val="true" />
+		<set name="handler" val="ItemSkills" /> <!-- Update by pmq -->
 		<set name="item_skill" val="9128-1" />
 		<cond msgId="1902">
 			<player levelRange="40;51" />
@@ -148,6 +166,7 @@
 		<set name="icon" val="icon.etc_dragons_blood_i03" />
 		<set name="default_action" val="skill_reduce" />
 		<set name="etcitem_type" val="potion" />
+		<set name="immediate_effect" val="1" /> <!-- Update by pmq -->
 		<set name="material" val="liquid" />
 		<set name="shared_reuse_group" val="16" />
 		<set name="is_tradable" val="false" />
@@ -155,6 +174,7 @@
 		<set name="is_sellable" val="false" />
 		<set name="is_depositable" val="false" />
 		<set name="is_stackable" val="true" />
+		<set name="handler" val="ItemSkills" /> <!-- Update by pmq -->
 		<set name="item_skill" val="9129-1" />
 		<cond msgId="1902">
 			<player levelRange="40;51" />
@@ -164,6 +184,7 @@
 		<set name="icon" val="icon.etc_dragons_blood_i03" />
 		<set name="default_action" val="skill_reduce" />
 		<set name="etcitem_type" val="potion" />
+		<set name="immediate_effect" val="1" /> <!-- Update by pmq -->
 		<set name="material" val="liquid" />
 		<set name="shared_reuse_group" val="16" />
 		<set name="is_tradable" val="false" />
@@ -171,6 +192,7 @@
 		<set name="is_sellable" val="false" />
 		<set name="is_depositable" val="false" />
 		<set name="is_stackable" val="true" />
+		<set name="handler" val="ItemSkills" /> <!-- Update by pmq -->
 		<set name="item_skill" val="9130-1" />
 		<cond msgId="1902">
 			<player levelRange="52;60" />
@@ -180,6 +202,7 @@
 		<set name="icon" val="icon.etc_dragons_blood_i03" />
 		<set name="default_action" val="skill_reduce" />
 		<set name="etcitem_type" val="potion" />
+		<set name="immediate_effect" val="1" /> <!-- Update by pmq -->
 		<set name="material" val="liquid" />
 		<set name="shared_reuse_group" val="16" />
 		<set name="is_tradable" val="false" />
@@ -187,6 +210,7 @@
 		<set name="is_sellable" val="false" />
 		<set name="is_depositable" val="false" />
 		<set name="is_stackable" val="true" />
+		<set name="handler" val="ItemSkills" /> <!-- Update by pmq -->
 		<set name="item_skill" val="9131-1" />
 		<cond msgId="1902">
 			<player levelRange="52;60" />
@@ -196,6 +220,7 @@
 		<set name="icon" val="icon.etc_dragons_blood_i03" />
 		<set name="default_action" val="skill_reduce" />
 		<set name="etcitem_type" val="potion" />
+		<set name="immediate_effect" val="1" /> <!-- Update by pmq -->
 		<set name="material" val="liquid" />
 		<set name="shared_reuse_group" val="16" />
 		<set name="is_tradable" val="false" />
@@ -203,6 +228,7 @@
 		<set name="is_sellable" val="false" />
 		<set name="is_depositable" val="false" />
 		<set name="is_stackable" val="true" />
+		<set name="handler" val="ItemSkills" /> <!-- Update by pmq -->
 		<set name="item_skill" val="9132-1" />
 		<cond msgId="1902">
 			<player levelRange="52;60" />
@@ -212,6 +238,7 @@
 		<set name="icon" val="icon.etc_dragons_blood_i03" />
 		<set name="default_action" val="skill_reduce" />
 		<set name="etcitem_type" val="potion" />
+		<set name="immediate_effect" val="1" /> <!-- Update by pmq -->
 		<set name="material" val="liquid" />
 		<set name="shared_reuse_group" val="16" />
 		<set name="is_tradable" val="false" />
@@ -219,6 +246,7 @@
 		<set name="is_sellable" val="false" />
 		<set name="is_depositable" val="false" />
 		<set name="is_stackable" val="true" />
+		<set name="handler" val="ItemSkills" /> <!-- Update by pmq -->
 		<set name="item_skill" val="9133-1" />
 		<cond msgId="1902">
 			<player levelRange="52;60" />
@@ -228,6 +256,7 @@
 		<set name="icon" val="icon.etc_dragons_blood_i03" />
 		<set name="default_action" val="skill_reduce" />
 		<set name="etcitem_type" val="potion" />
+		<set name="immediate_effect" val="1" /> <!-- Update by pmq -->
 		<set name="material" val="liquid" />
 		<set name="shared_reuse_group" val="16" />
 		<set name="is_tradable" val="false" />
@@ -235,6 +264,7 @@
 		<set name="is_sellable" val="false" />
 		<set name="is_depositable" val="false" />
 		<set name="is_stackable" val="true" />
+		<set name="handler" val="ItemSkills" /> <!-- Update by pmq -->
 		<set name="item_skill" val="9134-1" />
 		<cond msgId="1902">
 			<player levelRange="52;60" />
@@ -244,6 +274,7 @@
 		<set name="icon" val="icon.etc_dragons_blood_i03" />
 		<set name="default_action" val="skill_reduce" />
 		<set name="etcitem_type" val="potion" />
+		<set name="immediate_effect" val="1" /> <!-- Update by pmq -->
 		<set name="material" val="liquid" />
 		<set name="shared_reuse_group" val="16" />
 		<set name="is_tradable" val="false" />
@@ -251,6 +282,7 @@
 		<set name="is_sellable" val="false" />
 		<set name="is_depositable" val="false" />
 		<set name="is_stackable" val="true" />
+		<set name="handler" val="ItemSkills" /> <!-- Update by pmq -->
 		<set name="item_skill" val="9135-1" />
 		<cond msgId="1902">
 			<player levelRange="61;75" />
@@ -260,6 +292,7 @@
 		<set name="icon" val="icon.etc_dragons_blood_i03" />
 		<set name="default_action" val="skill_reduce" />
 		<set name="etcitem_type" val="potion" />
+		<set name="immediate_effect" val="1" /> <!-- Update by pmq -->
 		<set name="material" val="liquid" />
 		<set name="shared_reuse_group" val="16" />
 		<set name="is_tradable" val="false" />
@@ -267,6 +300,7 @@
 		<set name="is_sellable" val="false" />
 		<set name="is_depositable" val="false" />
 		<set name="is_stackable" val="true" />
+		<set name="handler" val="ItemSkills" /> <!-- Update by pmq -->
 		<set name="item_skill" val="9136-1" />
 		<cond msgId="1902">
 			<player levelRange="61;75" />
@@ -276,6 +310,7 @@
 		<set name="icon" val="icon.etc_dragons_blood_i03" />
 		<set name="default_action" val="skill_reduce" />
 		<set name="etcitem_type" val="potion" />
+		<set name="immediate_effect" val="1" /> <!-- Update by pmq -->
 		<set name="material" val="liquid" />
 		<set name="shared_reuse_group" val="16" />
 		<set name="is_tradable" val="false" />
@@ -283,6 +318,7 @@
 		<set name="is_sellable" val="false" />
 		<set name="is_depositable" val="false" />
 		<set name="is_stackable" val="true" />
+		<set name="handler" val="ItemSkills" /> <!-- Update by pmq -->
 		<set name="item_skill" val="9137-1" />
 		<cond msgId="1902">
 			<player levelRange="61;75" />
@@ -293,12 +329,14 @@
 		<set name="default_action" val="skill_reduce" />
 		<set name="etcitem_type" val="potion" />
 		<set name="material" val="liquid" />
+		<set name="immediate_effect" val="1" /> <!-- Update by pmq -->
 		<set name="shared_reuse_group" val="16" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_depositable" val="false" />
 		<set name="is_stackable" val="true" />
+		<set name="handler" val="ItemSkills" /> <!-- Update by pmq -->
 		<set name="item_skill" val="9138-1" />
 		<cond msgId="1902">
 			<player levelRange="61;75" />
@@ -308,6 +346,7 @@
 		<set name="icon" val="icon.etc_dragons_blood_i03" />
 		<set name="default_action" val="skill_reduce" />
 		<set name="etcitem_type" val="potion" />
+		<set name="immediate_effect" val="1" /> <!-- Update by pmq -->
 		<set name="material" val="liquid" />
 		<set name="shared_reuse_group" val="16" />
 		<set name="is_tradable" val="false" />
@@ -315,6 +354,7 @@
 		<set name="is_sellable" val="false" />
 		<set name="is_depositable" val="false" />
 		<set name="is_stackable" val="true" />
+		<set name="handler" val="ItemSkills" /> <!-- Update by pmq -->
 		<set name="item_skill" val="9139-1" />
 		<cond msgId="1902">
 			<player levelRange="61;75" />
@@ -324,6 +364,7 @@
 		<set name="icon" val="icon.etc_dragons_blood_i03" />
 		<set name="default_action" val="skill_reduce" />
 		<set name="etcitem_type" val="potion" />
+		<set name="immediate_effect" val="1" /> <!-- Update by pmq -->
 		<set name="material" val="liquid" />
 		<set name="shared_reuse_group" val="16" />
 		<set name="is_tradable" val="false" />
@@ -331,6 +372,7 @@
 		<set name="is_sellable" val="false" />
 		<set name="is_depositable" val="false" />
 		<set name="is_stackable" val="true" />
+		<set name="handler" val="ItemSkills" /> <!-- Update by pmq -->
 		<set name="item_skill" val="9140-1" />
 		<cond msgId="1902">
 			<player levelRange="76;79" />
@@ -340,6 +382,7 @@
 		<set name="icon" val="icon.etc_dragons_blood_i03" />
 		<set name="default_action" val="skill_reduce" />
 		<set name="etcitem_type" val="potion" />
+		<set name="immediate_effect" val="1" /> <!-- Update by pmq -->
 		<set name="material" val="liquid" />
 		<set name="shared_reuse_group" val="16" />
 		<set name="is_tradable" val="false" />
@@ -347,6 +390,7 @@
 		<set name="is_sellable" val="false" />
 		<set name="is_depositable" val="false" />
 		<set name="is_stackable" val="true" />
+		<set name="handler" val="ItemSkills" /> <!-- Update by pmq -->
 		<set name="item_skill" val="9141-1" />
 		<cond msgId="1902">
 			<player levelRange="76;79" />
@@ -356,6 +400,7 @@
 		<set name="icon" val="icon.etc_dragons_blood_i03" />
 		<set name="default_action" val="skill_reduce" />
 		<set name="etcitem_type" val="potion" />
+		<set name="immediate_effect" val="1" /> <!-- Update by pmq -->
 		<set name="material" val="liquid" />
 		<set name="shared_reuse_group" val="16" />
 		<set name="is_tradable" val="false" />
@@ -363,6 +408,7 @@
 		<set name="is_sellable" val="false" />
 		<set name="is_depositable" val="false" />
 		<set name="is_stackable" val="true" />
+		<set name="handler" val="ItemSkills" /> <!-- Update by pmq -->
 		<set name="item_skill" val="9142-1" />
 		<cond msgId="1902">
 			<player levelRange="76;79" />
@@ -372,6 +418,7 @@
 		<set name="icon" val="icon.etc_dragons_blood_i03" />
 		<set name="default_action" val="skill_reduce" />
 		<set name="etcitem_type" val="potion" />
+		<set name="immediate_effect" val="1" /> <!-- Update by pmq -->
 		<set name="material" val="liquid" />
 		<set name="shared_reuse_group" val="16" />
 		<set name="is_tradable" val="false" />
@@ -379,6 +426,7 @@
 		<set name="is_sellable" val="false" />
 		<set name="is_depositable" val="false" />
 		<set name="is_stackable" val="true" />
+		<set name="handler" val="ItemSkills" /> <!-- Update by pmq -->
 		<set name="item_skill" val="9143-1" />
 		<cond msgId="1902">
 			<player levelRange="76;79" />
@@ -388,6 +436,7 @@
 		<set name="icon" val="icon.etc_dragons_blood_i03" />
 		<set name="default_action" val="skill_reduce" />
 		<set name="etcitem_type" val="potion" />
+		<set name="immediate_effect" val="1" /> <!-- Update by pmq -->
 		<set name="material" val="liquid" />
 		<set name="shared_reuse_group" val="16" />
 		<set name="is_tradable" val="false" />
@@ -395,6 +444,7 @@
 		<set name="is_sellable" val="false" />
 		<set name="is_depositable" val="false" />
 		<set name="is_stackable" val="true" />
+		<set name="handler" val="ItemSkills" /> <!-- Update by pmq -->
 		<set name="item_skill" val="9144-1" />
 		<cond msgId="1902">
 			<player levelRange="76;79" />
@@ -404,6 +454,7 @@
 		<set name="icon" val="icon.etc_dragons_blood_i03" />
 		<set name="default_action" val="skill_reduce" />
 		<set name="etcitem_type" val="potion" />
+		<set name="immediate_effect" val="1" /> <!-- Update by pmq -->
 		<set name="material" val="liquid" />
 		<set name="shared_reuse_group" val="16" />
 		<set name="is_tradable" val="false" />
@@ -411,6 +462,7 @@
 		<set name="is_sellable" val="false" />
 		<set name="is_depositable" val="false" />
 		<set name="is_stackable" val="true" />
+		<set name="handler" val="ItemSkills" /> <!-- Update by pmq -->
 		<set name="item_skill" val="9145-1" />
 		<cond msgId="1902">
 			<player levelRange="80;85" />
@@ -420,6 +472,7 @@
 		<set name="icon" val="icon.etc_dragons_blood_i03" />
 		<set name="default_action" val="skill_reduce" />
 		<set name="etcitem_type" val="potion" />
+		<set name="immediate_effect" val="1" /> <!-- Update by pmq -->
 		<set name="material" val="liquid" />
 		<set name="shared_reuse_group" val="16" />
 		<set name="is_tradable" val="false" />
@@ -427,6 +480,7 @@
 		<set name="is_sellable" val="false" />
 		<set name="is_depositable" val="false" />
 		<set name="is_stackable" val="true" />
+		<set name="handler" val="ItemSkills" /> <!-- Update by pmq -->
 		<set name="item_skill" val="9146-1" />
 		<cond msgId="1902">
 			<player levelRange="80;85" />
@@ -436,6 +490,7 @@
 		<set name="icon" val="icon.etc_dragons_blood_i03" />
 		<set name="default_action" val="skill_reduce" />
 		<set name="etcitem_type" val="potion" />
+		<set name="immediate_effect" val="1" /> <!-- Update by pmq -->
 		<set name="material" val="liquid" />
 		<set name="shared_reuse_group" val="16" />
 		<set name="is_tradable" val="false" />
@@ -443,6 +498,7 @@
 		<set name="is_sellable" val="false" />
 		<set name="is_depositable" val="false" />
 		<set name="is_stackable" val="true" />
+		<set name="handler" val="ItemSkills" /> <!-- Update by pmq -->
 		<set name="item_skill" val="9147-1" />
 		<cond msgId="1902">
 			<player levelRange="80;85" />
@@ -452,6 +508,7 @@
 		<set name="icon" val="icon.etc_dragons_blood_i03" />
 		<set name="default_action" val="skill_reduce" />
 		<set name="etcitem_type" val="potion" />
+		<set name="immediate_effect" val="1" /> <!-- Update by pmq -->
 		<set name="material" val="liquid" />
 		<set name="shared_reuse_group" val="16" />
 		<set name="is_tradable" val="false" />
@@ -459,6 +516,7 @@
 		<set name="is_sellable" val="false" />
 		<set name="is_depositable" val="false" />
 		<set name="is_stackable" val="true" />
+		<set name="handler" val="ItemSkills" /> <!-- Update by pmq -->
 		<set name="item_skill" val="9148-1" />
 		<cond msgId="1902">
 			<player levelRange="80;85" />
@@ -468,6 +526,7 @@
 		<set name="icon" val="icon.etc_dragons_blood_i03" />
 		<set name="default_action" val="skill_reduce" />
 		<set name="etcitem_type" val="potion" />
+		<set name="immediate_effect" val="1" /> <!-- Update by pmq -->
 		<set name="material" val="liquid" />
 		<set name="shared_reuse_group" val="16" />
 		<set name="is_tradable" val="false" />
@@ -475,6 +534,7 @@
 		<set name="is_sellable" val="false" />
 		<set name="is_depositable" val="false" />
 		<set name="is_stackable" val="true" />
+		<set name="handler" val="ItemSkills" /> <!-- Update by pmq -->
 		<set name="item_skill" val="9149-1" />
 		<cond msgId="1902">
 			<player levelRange="80;85" />
@@ -789,6 +849,7 @@
 		<set name="ex_immediate_effect" val="1" />
 		<set name="material" val="paper" />
 		<set name="is_depositable" val="false" />
+		<set name="handler" val="ItemSkills" /> <!-- Update by pmq -->
 		<set name="item_skill" val="9161-1" />
 	</item>
 	<item id="17159" type="EtcItem" name="Vesper's Critical Damage">
@@ -796,6 +857,7 @@
 		<set name="ex_immediate_effect" val="1" />
 		<set name="material" val="paper" />
 		<set name="is_depositable" val="false" />
+		<set name="handler" val="ItemSkills" /> <!-- Update by pmq -->
 		<set name="item_skill" val="9162-1" />
 	</item>
 	<item id="17160" type="EtcItem" name="Invincible Vesper">
@@ -803,6 +865,7 @@
 		<set name="ex_immediate_effect" val="1" />
 		<set name="material" val="paper" />
 		<set name="is_depositable" val="false" />
+		<set name="handler" val="ItemSkills" /> <!-- Update by pmq -->
 		<set name="item_skill" val="9163-1" />
 	</item>
 	<item id="17161" type="EtcItem" name="Special Gift of April Fool's Day (Event)">
@@ -813,6 +876,7 @@
 		<set name="is_depositable" val="false" />
 		<set name="is_stackable" val="true" />
 		<set name="is_oly_restricted" val="true" />
+		<set name="handler" val="ItemSkills" /> <!-- Update by pmq -->
 		<set name="item_skill" val="9164-1" />
 	</item>
 	<item id="17162" type="EtcItem" name="Golem Shard Piece">
@@ -841,6 +905,7 @@
 		<set name="is_depositable" val="false" />
 		<set name="is_stackable" val="true" />
 		<set name="is_oly_restricted" val="true" />
+		<set name="handler" val="ItemSkills" /> <!-- Update by pmq -->
 		<set name="item_skill" val="9165-1" />
 	</item>
 	<item id="17164" type="EtcItem" name="Event - Pack of Energy of Sprout">

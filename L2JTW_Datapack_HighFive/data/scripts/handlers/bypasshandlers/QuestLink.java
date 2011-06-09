@@ -161,8 +161,7 @@ public class QuestLink implements IBypassHandler
 			}
 		}
 		else
-			//content = Quest.getNoQuestMsg(player); // no quests found
-			content = "<html><body>"+MessageTable.Messages[1018].getMessage()+"</body></html>";
+			content = Quest.getNoQuestMsg(player); // no quests found
 		
 		if (qs != null)
 		{

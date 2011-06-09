@@ -110,7 +110,6 @@ import handlers.bypasshandlers.ClanWarehouse;
 import handlers.bypasshandlers.DrawHenna;
 import handlers.bypasshandlers.EventEngine;
 import handlers.bypasshandlers.Festival;
-import handlers.bypasshandlers.FishSkillList;
 import handlers.bypasshandlers.FortSiege;
 import handlers.bypasshandlers.Freight;
 import handlers.bypasshandlers.ItemAuctionLink;
@@ -137,7 +136,6 @@ import handlers.bypasshandlers.SupportBlessing;
 import handlers.bypasshandlers.SupportMagic;
 import handlers.bypasshandlers.TerritoryStatus;
 import handlers.bypasshandlers.TerritoryWar;
-import handlers.bypasshandlers.Transform;
 import handlers.bypasshandlers.VoiceCommand;
 import handlers.bypasshandlers.Wear;
 import handlers.chathandlers.ChatAll;
@@ -266,9 +264,7 @@ import com.l2jserver.gameserver.handler.SkillHandler;
 import com.l2jserver.gameserver.handler.UserCommandHandler;
 import com.l2jserver.gameserver.handler.VoicedCommandHandler;
 
-
 /**
- *
  * @author  nBd
  */
 public class MasterHandler
@@ -397,7 +393,6 @@ public class MasterHandler
 		BYPASS.registerBypassHandler(new DrawHenna());
 		BYPASS.registerBypassHandler(new EventEngine());
 		BYPASS.registerBypassHandler(new Festival());
-		BYPASS.registerBypassHandler(new FishSkillList());
 		BYPASS.registerBypassHandler(new FortSiege());
 		BYPASS.registerBypassHandler(new Freight());
 		BYPASS.registerBypassHandler(new ItemAuctionLink());
@@ -424,7 +419,6 @@ public class MasterHandler
 		BYPASS.registerBypassHandler(new SupportMagic());
 		BYPASS.registerBypassHandler(new TerritoryStatus());
 		BYPASS.registerBypassHandler(new TerritoryWar());
-		BYPASS.registerBypassHandler(new Transform());
 		BYPASS.registerBypassHandler(new VoiceCommand());
 		BYPASS.registerBypassHandler(new Wear());
 		_log.config("Loaded " + BYPASS.size() + "  BypassHandlers");

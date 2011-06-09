@@ -230,7 +230,6 @@ echo.
 echo 設定成功！
 echo 你的設定值將會儲存在「%config_file%」，所有的帳號密碼將以明文顯示
 echo.
-echo 請按任意鍵繼續 . . .
 pause
 goto loadconfig
 
@@ -328,7 +327,7 @@ echo 登入伺服器的資料庫建立失敗！
 echo.
 echo 可能的原因：
 echo 1.輸入的資料錯誤，例如：使用者名稱/使用者密碼/其他相關資料
-echo 2.使用者「%lsuser%」的權限不足 
+echo 2.使用者「%lsuser%」的權限不足
 echo 3.資料庫已存在
 echo.
 echo 請檢查設定並且修正，或者直接重新設定
@@ -469,7 +468,7 @@ echo 「討論版專用」的資料庫建立失敗！
 echo.
 echo 可能的原因：
 echo 1.輸入的資料錯誤，例如：使用者名稱/使用者密碼/其他相關資料
-echo 2.使用者「%cbuser%」的權限不足 
+echo 2.使用者「%cbuser%」的權限不足
 echo 3.資料庫已存在
 echo.
 echo 請檢查設定並且修正，或者直接重新設定
@@ -612,7 +611,7 @@ echo 遊戲伺服器的資料庫建立失敗！
 echo.
 echo 可能的原因：
 echo 1.輸入的資料錯誤，例如：使用者名稱/使用者密碼/其他相關資料
-echo 2.使用者「%gsuser%」的權限不足 
+echo 2.使用者「%gsuser%」的權限不足
 echo 3.資料庫已存在
 echo.
 echo 請檢查設定並且修正，或者直接重新設定

@@ -528,6 +528,7 @@
 		<set name="hitTime" val="100" />
 		<set name="operateType" val="OP_ACTIVE" />
 		<set name="reuseDelay" val="1000" />
+		<set name="canBeDispeled" val="false" /> <!-- Update by pmq -->
 		<for>
 			<effect name="Buff" abnormalTime="43200" val="0" abnormalLvl="9" abnormalType="vp_up" abnormal="vitality">
 				<sub order="0x40" stat="vitalityConsumeRate" val="10" />
