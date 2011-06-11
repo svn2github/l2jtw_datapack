@@ -49,7 +49,6 @@ import com.l2jserver.gameserver.datatables.MessageTable;
 
 /**
  * @author evill33t
- *
  */
 public class Wedding implements IVoicedCommandHandler
 {
@@ -62,11 +61,12 @@ public class Wedding implements IVoicedCommandHandler
 	};
 	
 	/**
-	 * 
 	 * @see com.l2jserver.gameserver.handler.IVoicedCommandHandler#useVoicedCommand(java.lang.String, com.l2jserver.gameserver.model.actor.instance.L2PcInstance, java.lang.String)
 	 */
 	public boolean useVoicedCommand(String command, L2PcInstance activeChar, String params)
 	{
+		if (activeChar == null)
+			return false;
 		if (command.startsWith("engage"))
 			return engage(activeChar);
 		else if (command.startsWith("divorce"))
@@ -96,9 +96,7 @@ public class Wedding implements IVoicedCommandHandler
 		else
 			activeChar.sendMessage(1216);
 		
-		L2PcInstance partner;
-		partner = L2World.getInstance().getPlayer(_partnerId);
-		
+		final L2PcInstance partner = L2World.getInstance().getPlayer(_partnerId);
 		if (partner != null)
 		{
 			partner.setPartnerId(0);
@@ -111,30 +109,23 @@ public class Wedding implements IVoicedCommandHandler
 			if (AdenaAmount > 0)
 				partner.addAdena("WEDDING", AdenaAmount, null, false);
 		}
-		
 		CoupleManager.getInstance().deleteCouple(_coupleId);
 		return true;
 	}
 	
 	public boolean engage(L2PcInstance activeChar)
 	{
-		// check target
 		if (activeChar.getTarget() == null)
 		{
 			activeChar.sendMessage(1219);
 			return false;
 		}
-		
-		// check if target is a l2pcinstance
-		if (!(activeChar.getTarget() instanceof L2PcInstance))
+		else if (!(activeChar.getTarget() instanceof L2PcInstance))
 		{
 			activeChar.sendMessage(1220);
-			
 			return false;
 		}
-		
-		// check if player is already engaged
-		if (activeChar.getPartnerId() != 0)
+		else if (activeChar.getPartnerId() != 0)
 		{
 			activeChar.sendMessage(1221);
 			if (Config.L2JMOD_WEDDING_PUNISH_INFIDELITY)
@@ -153,47 +144,40 @@ public class Wedding implements IVoicedCommandHandler
 				else
 					skillId = 4361;
 				
-				L2Skill skill = SkillTable.getInstance().getInfo(skillId, skillLevel);
-				
+				final L2Skill skill = SkillTable.getInstance().getInfo(skillId, skillLevel);
 				if (activeChar.getFirstEffect(skill) == null)
 				{
 					skill.getEffects(activeChar, activeChar);
-					SystemMessage sm = SystemMessage.getSystemMessage(SystemMessageId.YOU_FEEL_S1_EFFECT);
+					final SystemMessage sm = SystemMessage.getSystemMessage(SystemMessageId.YOU_FEEL_S1_EFFECT);
 					sm.addSkillName(skill);
 					activeChar.sendPacket(sm);
 				}
 			}
 			return false;
 		}
-		
-		L2PcInstance ptarget = (L2PcInstance) activeChar.getTarget();
-		
+		final L2PcInstance ptarget = (L2PcInstance) activeChar.getTarget();
 		// check if player target himself
 		if (ptarget.getObjectId() == activeChar.getObjectId())
 		{
 			activeChar.sendMessage(1222);
 			return false;
 		}
-		
-		if (ptarget.isMarried())
+		else if (ptarget.isMarried())
 		{
 			activeChar.sendMessage(1223);
 			return false;
 		}
-		
-		if (ptarget.isEngageRequest())
+		else if (ptarget.isEngageRequest())
 		{
 			activeChar.sendMessage(1224);
 			return false;
 		}
-		
-		if (ptarget.getPartnerId() != 0)
+		else if (ptarget.getPartnerId() != 0)
 		{
 			activeChar.sendMessage(1225);
 			return false;
 		}
-		
-		if (ptarget.getAppearance().getSex() == activeChar.getAppearance().getSex() && !Config.L2JMOD_WEDDING_SAMESEX)
+		else if (ptarget.getAppearance().getSex() == activeChar.getAppearance().getSex() && !Config.L2JMOD_WEDDING_SAMESEX)
 		{
 			activeChar.sendMessage(1226);
 			return false;
@@ -248,113 +232,25 @@ public class Wedding implements IVoicedCommandHandler
 			activeChar.sendMessage(1229);
 			return false;
 		}
-		
-		if (activeChar.getPartnerId() == 0)
+		else if (activeChar.getPartnerId() == 0)
 		{
 			activeChar.sendMessage(1230);
 			_log.severe("Married but couldn't find parter for " + activeChar.getName());
 			return false;
 		}
-		
-		if (GrandBossManager.getInstance().getZone(activeChar) != null)
+		else if (GrandBossManager.getInstance().getZone(activeChar) != null)
 		{
 			activeChar.sendMessage(1231);
 			return false;
 		}
-		if (activeChar.isCombatFlagEquipped())
+		else if (activeChar.isCombatFlagEquipped())
 		{
 			activeChar.sendMessage(1232);
 			return false;
 		}
-		
-		L2PcInstance partner;
-		partner = L2World.getInstance().getPlayer(activeChar.getPartnerId());
-		if (partner == null || !partner.isOnline())
+		else if (activeChar.isCursedWeaponEquipped())
 		{
-			activeChar.sendMessage(1233);
-			return false;
-		}
-		else if (activeChar.getInstanceId() != partner.getInstanceId())
-		{
-			activeChar.sendMessage(1234);
-			return false;
-		}
-		else if (partner.isInJail())
-		{
-			activeChar.sendMessage(1235);
-			return false;
-		}
-		else if (GrandBossManager.getInstance().getZone(partner) != null)
-		{
-			activeChar.sendMessage(1236);
-			return false;
-		}
-		else if (partner.isInOlympiadMode())
-		{
-			activeChar.sendMessage(1237);
-			return false;
-		}
-		else if (L2Event.isParticipant(partner))
-		{
-			activeChar.sendMessage(1238);
-			return false;
-		}
-		else if (partner.isInDuel())
-		{
-			activeChar.sendMessage(1239);
-			return false;
-		}
-		else if (partner.isFestivalParticipant())
-		{
-			activeChar.sendMessage(1240);
-			return false;
-		}
-		else if (partner.isInParty() && partner.getParty().isInDimensionalRift())
-		{
-			activeChar.sendMessage(1241);
-			return false;
-		}
-		else if (partner.inObserverMode())
-		{
-			activeChar.sendMessage(1242);
-			return false;
-		}
-		else if (SiegeManager.getInstance().getSiege(partner) != null && SiegeManager.getInstance().getSiege(partner).getIsInProgress())
-		{
-			activeChar.sendMessage(1243);
-			return false;
-		}
-		else if (partner.isIn7sDungeon() && !activeChar.isIn7sDungeon())
-		{
-			int playerCabal = SevenSigns.getInstance().getPlayerCabal(activeChar.getObjectId());
-			boolean isSealValidationPeriod = SevenSigns.getInstance().isSealValidationPeriod();
-			int compWinner = SevenSigns.getInstance().getCabalHighestScore();
-			
-			if (isSealValidationPeriod)
-			{
-				if (playerCabal != compWinner)
-				{
-					activeChar.sendMessage(1244);
-					return false;
-				}
-			}
-			else
-			{
-				if (playerCabal == SevenSigns.CABAL_NULL)
-				{
-					activeChar.sendMessage(1245);
-					return false;
-				}
-			}
-		}
-		else if (!TvTEvent.onEscapeUse(partner.getObjectId()))
-		{
-			activeChar.sendMessage(1246);
-			return false;
-		}
-		else if (partner.isInsideZone(L2Character.ZONE_NOSUMMONFRIEND))
-		{
-			activeChar.sendMessage(1247);
+			activeChar.sendMessage(1257);
 			return false;
 		}
 		else if (activeChar.isInJail())
@@ -408,10 +304,21 @@ public class Wedding implements IVoicedCommandHandler
 			activeChar.sendMessage(1256);
 			return false;
 		}
-		//Add By Tiger 2010/01/13 (S)
-		else if (activeChar.isCursedWeaponEquipped())
+		
+		final L2PcInstance partner = L2World.getInstance().getPlayer(activeChar.getPartnerId());
+		if ((partner == null) || !partner.isOnline())
 		{
-			activeChar.sendMessage(1257);
+			activeChar.sendMessage(1233);
+			return false;
+		}
+		else if (activeChar.getInstanceId() != partner.getInstanceId())
+		{
+			activeChar.sendMessage(1234);
+			return false;
+		}
+		else if (partner.isInJail())
+		{
+			activeChar.sendMessage(1235);
 			return false;
 		}
 		else if (partner.isCursedWeaponEquipped())
@@ -419,10 +326,81 @@ public class Wedding implements IVoicedCommandHandler
 			activeChar.sendMessage(1258);
 			return false;
 		}
-		//Add By Tiger 2010/01/13 (E)
+		else if (GrandBossManager.getInstance().getZone(partner) != null)
+		{
+			activeChar.sendMessage(1236);
+			return false;
+		}
+		else if (partner.isInOlympiadMode())
+		{
+			activeChar.sendMessage(1237);
+			return false;
+		}
+		else if (L2Event.isParticipant(partner))
+		{
+			activeChar.sendMessage(1238);
+			return false;
+		}
+		else if (partner.isInDuel())
+		{
+			activeChar.sendMessage(1239);
+			return false;
+		}
+		else if (partner.isFestivalParticipant())
+		{
+			activeChar.sendMessage(1240);
+			return false;
+		}
+		else if (partner.isInParty() && partner.getParty().isInDimensionalRift())
+		{
+			activeChar.sendMessage(1241);
+			return false;
+		}
+		else if (partner.inObserverMode())
+		{
+			activeChar.sendMessage(1242);
+			return false;
+		}
+		else if (SiegeManager.getInstance().getSiege(partner) != null && SiegeManager.getInstance().getSiege(partner).getIsInProgress())
+		{
+			activeChar.sendMessage(1243);
+			return false;
+		}
+		else if (partner.isIn7sDungeon() && !activeChar.isIn7sDungeon())
+		{
+			final int playerCabal = SevenSigns.getInstance().getPlayerCabal(activeChar.getObjectId());
+			final boolean isSealValidationPeriod = SevenSigns.getInstance().isSealValidationPeriod();
+			final int compWinner = SevenSigns.getInstance().getCabalHighestScore();
+			
+			if (isSealValidationPeriod)
+			{
+				if (playerCabal != compWinner)
+				{
+					activeChar.sendMessage(1244);
+					return false;
+				}
+			}
+			else
+			{
+				if (playerCabal == SevenSigns.CABAL_NULL)
+				{
+					activeChar.sendMessage(1245);
+					return false;
+				}
+			}
+		}
+		else if (!TvTEvent.onEscapeUse(partner.getObjectId()))
+		{
+			activeChar.sendMessage(1246);
+			return false;
+		}
+		else if (partner.isInsideZone(L2Character.ZONE_NOSUMMONFRIEND))
+		{
+			activeChar.sendMessage(1247);
+			return false;
+		}
 		
-		int teleportTimer = Config.L2JMOD_WEDDING_TELEPORT_DURATION * 1000;
-		
+		final int teleportTimer = Config.L2JMOD_WEDDING_TELEPORT_DURATION * 1000;
 		activeChar.sendMessage(MessageTable.Messages[1259].getExtra(1) + teleportTimer / 60000 + MessageTable.Messages[1259].getExtra(2));
 		activeChar.getInventory().reduceAdena("Wedding", Config.L2JMOD_WEDDING_TELEPORT_PRICE, activeChar, null);
 		
@@ -431,13 +409,13 @@ public class Wedding implements IVoicedCommandHandler
 		activeChar.setTarget(activeChar);
 		activeChar.disableAllSkills();
 		
-		MagicSkillUse msk = new MagicSkillUse(activeChar, 1050, 1, teleportTimer, 0);
+		final MagicSkillUse msk = new MagicSkillUse(activeChar, 1050, 1, teleportTimer, 0);
 		Broadcast.toSelfAndKnownPlayersInRadius(activeChar, msk, 810000/*900*/);
-		SetupGauge sg = new SetupGauge(0, teleportTimer);
+		final SetupGauge sg = new SetupGauge(0, teleportTimer);
 		activeChar.sendPacket(sg);
 		//End SoE Animation section
 		
-		EscapeFinalizer ef = new EscapeFinalizer(activeChar, partner.getX(), partner.getY(), partner.getZ(), partner.isIn7sDungeon());
+		final EscapeFinalizer ef = new EscapeFinalizer(activeChar, partner.getX(), partner.getY(), partner.getZ(), partner.isIn7sDungeon());
 		// continue execution later
 		activeChar.setSkillCast(ThreadPoolManager.getInstance().scheduleGeneral(ef, teleportTimer));
 		activeChar.forceIsCasting(GameTimeController.getGameTicks() + teleportTimer / GameTimeController.MILLIS_IN_TICK);
@@ -489,7 +467,6 @@ public class Wedding implements IVoicedCommandHandler
 	}
 	
 	/**
-	 * 
 	 * @see com.l2jserver.gameserver.handler.IVoicedCommandHandler#getVoicedCommandList()
 	 */
 	public String[] getVoicedCommandList()
