@@ -562,31 +562,19 @@
 		<set name="operateType" val="OP_ACTIVE" />
 	</skill>
 	<skill id="22039" levels="2" name="Rune of Experience Points">
-		<!-- Update by pmq -->
-		<table name="#rRExp"> 1.3 1.5</table>
-		<set name="target" val="TARGET_SELF" />
-		<set name="skillType" val="BUFF" />
+		<set name="target" val="TARGET_NONE" />
+		<set name="skillType" val="NOTDONE" />
 		<set name="operateType" val="OP_PASSIVE" />
-		<for>
-			<mul order="0x30" stat="rRExp" val="#rRExp"/> 
-		</for>
 	</skill>
 	<skill id="22040" levels="2" name="Rune of SP">
-		<!-- Update by pmq -->
-		<table name="#rRSp"> 1.3 1.5</table>
-		<set name="target" val="TARGET_SELF" />
-		<set name="skillType" val="BUFF" />
+		<set name="target" val="TARGET_NONE" />
+		<set name="skillType" val="NOTDONE" />
 		<set name="operateType" val="OP_PASSIVE" />
-		<for>
-			<mul order="0x30" stat="rRSp" val="#rRSp"/>
-		</for>
 	</skill>
 	<skill id="22041" levels="2" name="Rune of Crystal Form Level">
-		<!-- Update by pmq -->
-		<set name="target" val="TARGET_SELF" />
-		<set name="skillType" val="COREDONE" />
+		<set name="target" val="TARGET_NONE" />
+		<set name="skillType" val="NOTDONE" />
 		<set name="operateType" val="OP_PASSIVE" />
-		<!-- Removes Grade Penalty -->
 	</skill>
 	<skill id="22042" levels="1" name="High Grade Potion of Will">
 		<set name="itemConsumeCount" val="1" />
