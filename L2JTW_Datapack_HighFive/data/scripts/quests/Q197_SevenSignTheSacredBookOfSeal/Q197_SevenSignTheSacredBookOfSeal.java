@@ -69,7 +69,7 @@ public class Q197_SevenSignTheSacredBookOfSeal extends Quest
 			{
 				st.takeItems(TEXT, 1);
 				st.takeItems(SCULPTURE, 1);
-				st.addExpAndSp(2500000, 2500000);
+				st.addExpAndSp(25000000, 2500000);
 				st.unset("cond");
 				st.setState(State.COMPLETED);
 				st.exitQuest(false);
