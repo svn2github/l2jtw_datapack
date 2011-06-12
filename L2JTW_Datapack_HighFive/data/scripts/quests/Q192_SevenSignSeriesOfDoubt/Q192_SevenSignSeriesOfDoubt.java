@@ -219,6 +219,9 @@ public class Q192_SevenSignSeriesOfDoubt extends Quest
 		addTalkId(STAN);
 		addTalkId(CORPSE);
 		addTalkId(HOLLINT);
+		
+		questItemIds = new int[]
+		{ CROOP_INTRO, JACOB_NECK, CROOP_LETTER };
 	}
 	
 	public static void main(String[] args)

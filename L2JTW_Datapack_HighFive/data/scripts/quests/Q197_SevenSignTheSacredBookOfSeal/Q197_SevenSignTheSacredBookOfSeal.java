@@ -37,11 +37,15 @@ public class Q197_SevenSignTheSacredBookOfSeal extends Quest
 	private static final int LEOPARD = 32594;
 	private static final int LAWRENCE = 32595;
 	private static final int SOFIA = 32596;
-	private static final int SHILENSEVIL = 27343;
+	
+	//MOB
+	private static final int SHILENSEVIL = 27396;
 	
 	//ITEMS
 	private static final int TEXT = 13829;
-	private static final int SCULPTURE = 14356;
+	private static final int SCULPTURE = 14355;
+	
+	private boolean ShilensevilOnSpawn = false;
 	
 	@Override
 	public String onAdvEvent(String event, L2Npc npc, L2PcInstance player)
@@ -63,10 +67,10 @@ public class Q197_SevenSignTheSacredBookOfSeal extends Quest
 			
 			else if (event.equalsIgnoreCase("32593-08.htm"))
 			{
-				st.addExpAndSp(52518015, 5817676);
-				st.unset("cond");
 				st.takeItems(TEXT, 1);
 				st.takeItems(SCULPTURE, 1);
+				st.addExpAndSp(2500000, 2500000);
+				st.unset("cond");
 				st.setState(State.COMPLETED);
 				st.exitQuest(false);
 				st.playSound("ItemSound.quest_finish");
@@ -95,11 +99,24 @@ public class Q197_SevenSignTheSacredBookOfSeal extends Quest
 		{
 			if (event.equalsIgnoreCase("32595-04.htm"))
 			{
-				L2MonsterInstance monster = (L2MonsterInstance) addSpawn(SHILENSEVIL, 152520, -57685, -3438, 0, false, 60000, true);
-				monster.broadcastPacket(new NpcSay(monster.getObjectId(), 0, monster.getNpcId(), "You are not the owner of that item!"));
-				monster.setRunning();
-				monster.addDamageHate(player, 0, 999);
-				monster.getAI().setIntention(CtrlIntention.AI_INTENTION_ATTACK, st.getPlayer());
+				if (ShilensevilOnSpawn)
+					htmltext = "<html><body>偉大的師傅勞倫斯：<br>現在我可沒有跟你閒聊的時間！！！<br>（其他的玩家正在進行對話。）</body></html>";
+				else
+				{
+					L2MonsterInstance monster = (L2MonsterInstance) addSpawn(SHILENSEVIL, 152520, -57685, -3438, 0, false, 300000, true);
+					monster.broadcastPacket(new NpcSay(monster.getObjectId(), 0, monster.getNpcId(), 19806));  // 那個物品的主人不是你們...
+					monster.setRunning();
+					monster.addDamageHate(player, 0, 999);
+					monster.getAI().setIntention(CtrlIntention.AI_INTENTION_ATTACK, st.getPlayer());
+					ShilensevilOnSpawn = true;
+					startQuestTimer("spawnS", 300000, npc, player);
+				}
+			}
+			else if (event.equalsIgnoreCase("spawnS"))
+			{
+				ShilensevilOnSpawn = false;
+				npc.broadcastPacket(new NpcSay(SHILENSEVIL, 0,SHILENSEVIL, 19305));  // 小心！下次就不能活著回去了。
+				return "";
 			}
 			
 			else if (event.equalsIgnoreCase("32595-08.htm"))
@@ -147,7 +164,7 @@ public class Q197_SevenSignTheSacredBookOfSeal extends Quest
 					break;
 				
 				case State.STARTED:
-					if (st.getInt("cond") == 1)
+					if (st.getInt("cond") >= 1 && st.getInt("cond") <= 5)
 						htmltext = "32593-05.htm";
 					
 					else if (st.getInt("cond") == 6)
@@ -163,7 +180,7 @@ public class Q197_SevenSignTheSacredBookOfSeal extends Quest
 				if (st.getInt("cond") == 1)
 					htmltext = "30857-01.htm";
 				
-				else if (st.getInt("cond") == 2)
+				else if (st.getInt("cond") >= 2)
 					htmltext = "30857-05.htm";
 			}
 		}
@@ -175,7 +192,7 @@ public class Q197_SevenSignTheSacredBookOfSeal extends Quest
 				if (st.getInt("cond") == 2)
 					htmltext = "32594-01.htm";
 				
-				else if (st.getInt("cond") == 3)
+				else if (st.getInt("cond") >= 3)
 					htmltext = "32594-04.htm";
 			}
 		}
@@ -190,7 +207,7 @@ public class Q197_SevenSignTheSacredBookOfSeal extends Quest
 				else if (st.getInt("cond") == 4)
 					htmltext = "32595-05.htm";
 				
-				else if (st.getInt("cond") == 5)
+				else if (st.getInt("cond") >= 5)
 					htmltext = "32595-09.htm";
 			}
 		}
@@ -220,9 +237,11 @@ public class Q197_SevenSignTheSacredBookOfSeal extends Quest
 		
 		if (npc.getNpcId() == SHILENSEVIL && st.getInt("cond") == 3)
 		{
-			npc.broadcastPacket(new NpcSay(npc.getObjectId(), 0, npc.getNpcId(), player.getName() + "... You may have won this time... But next time, I will surely capture you!"));
+			npc.broadcastPacket(new NpcSay(npc.getObjectId(), 0, npc.getNpcId(),"「" + player.getName() + "」" + "！現在我就讓你一步..不過，我一定會抓到你的。"));
+			npc.broadcastPacket(new NpcSay(LAWRENCE,0,LAWRENCE,"很好，「" + player.getName() + "」。很高興能幫得上你。"));
 			st.giveItems(SCULPTURE, 1);
 			st.set("cond", "4");
+			ShilensevilOnSpawn = false;
 		}
 		
 		return super.onKill(npc, player, isPet);
@@ -239,6 +258,9 @@ public class Q197_SevenSignTheSacredBookOfSeal extends Quest
 		addTalkId(LAWRENCE);
 		addTalkId(SOFIA);
 		addKillId(SHILENSEVIL);
+		
+		questItemIds = new int[]
+		{ TEXT, SCULPTURE };
 	}
 	
 	public static void main(String[] args)

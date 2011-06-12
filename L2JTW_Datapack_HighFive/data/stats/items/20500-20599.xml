@@ -781,6 +781,7 @@
 		<set name="is_stackable" val="true" />
 		<set name="is_premium" val="true" />
 		<set name="is_freightable" val="true" />
+		<set name="handler" val="ExtractableItems" />
 		<set name="capsuled_items" val="20335,1,1,100" />
 	</item>
 	<item id="20549" type="EtcItem" name="Rune of Experience Points 50% 5 hours pack">

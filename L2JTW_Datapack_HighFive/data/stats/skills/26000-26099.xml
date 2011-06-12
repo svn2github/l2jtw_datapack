@@ -565,40 +565,24 @@
 		</for>
 	</skill>
 	<skill id="26046" levels="5" name="Rune of Experience Points">
-		<!-- Update by pmq -->
-		<table name="#rRExp"> 1.1 1.2 1.3 1.4 1.5 </table>
-		<set name="target" val="TARGET_SELF" />
-		<set name="skillType" val="BUFF" />
+		<set name="target" val="TARGET_NONE" />
+		<set name="skillType" val="NOTDONE" />
 		<set name="operateType" val="OP_PASSIVE" />
-		<for>
-			<mul order="0x30" stat="rRExp" val="#rRExp" />
-		</for>
 	</skill>
 	<skill id="26047" levels="5" name="Rune of SP">
-		<!-- Update by pmq -->
-		<table name="#rRSp"> 1.1 1.2 1.3 1.4 1.5 </table>
-		<set name="target" val="TARGET_SELF" />
-		<set name="skillType" val="BUFF" />
+		<set name="target" val="TARGET_NONE" />
+		<set name="skillType" val="NOTDONE" />
 		<set name="operateType" val="OP_PASSIVE" />
-		<for>
-			<mul order="0x30" stat="rRSp" val="#rRSp" />
-		</for>
 	</skill>
 	<skill id="26048" levels="5" name="Rune of Crystal Form">
-		<!-- Update by pmq -->
-		<set name="target" val="TARGET_SELF" />
-		<set name="skillType" val="COREDONE" />
+		<set name="target" val="TARGET_NONE" />
+		<set name="skillType" val="NOTDONE" />
 		<set name="operateType" val="OP_PASSIVE" />
-		<!-- Removes Grade Penalty -->
 	</skill>
 	<skill id="26049" levels="1" name="Rune of Feather">
-		<!-- Update by pmq -->
-		<set name="target" val="TARGET_SELF" />
-		<set name="skillType" val="BUFF" />
+		<set name="target" val="TARGET_NONE" />
+		<set name="skillType" val="NOTDONE" />
 		<set name="operateType" val="OP_PASSIVE" />
-		<for>
-			<mul order="0x30" stat="weightLimit" val="1.2"/>
-		</for>
 	</skill>
 	<skill id="26050" levels="1" name="Blessed Spiritshot - D grade">
 		<set name="target" val="TARGET_SELF" />

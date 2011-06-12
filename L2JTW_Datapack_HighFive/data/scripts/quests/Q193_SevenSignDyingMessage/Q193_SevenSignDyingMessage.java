@@ -90,20 +90,21 @@ public class Q193_SevenSignDyingMessage extends Quest
 					htmltext = "<html><body>神官凱因：<br>神官凱因忙著與怪人戰鬥，因此沒有注意到您有找他交談。<br>（其他的玩家正在進行對話。）</body></html>";
 				else
 				{
-					npc.broadcastPacket(new NpcSay(npc.getObjectId(), 0, npc.getNpcId(),"「" + player.getName() + "」！我們得擊倒那個怪人，我會盡全力來幫你的！"));
+					npc.broadcastPacket(new NpcSay(npc.getObjectId(), 0, npc.getNpcId(), "「" + player.getName() + "」！我們得擊倒那個怪人，我會盡全力來幫你的！"));
 					L2MonsterInstance monster = (L2MonsterInstance) addSpawn(SHILENSEVIL, 82624, 47422, -3220, 0, false, 300000, true);
-					monster.broadcastPacket(new NpcSay(monster.getObjectId(), 0, monster.getNpcId(), "那個物品的主人不是你們..."));
+					monster.broadcastPacket(new NpcSay(monster.getObjectId(), 0, monster.getNpcId(), 19806));  // 那個物品的主人不是你們...
 					monster.setRunning();
 					monster.addDamageHate(player, 0, 999);
 					monster.getAI().setIntention(CtrlIntention.AI_INTENTION_ATTACK, st.getPlayer());
 					ShilensevilOnSpawn = true;
-					startQuestTimer("spawnS", 301000, npc, player);
+					startQuestTimer("spawnS", 300000, npc, player);
 					startQuestTimer("aiplayer", 30000, npc, player);
 				}
 			}
 			else if (event.equalsIgnoreCase("spawnS"))
 			{
 				ShilensevilOnSpawn = false;
+				npc.broadcastPacket(new NpcSay(SHILENSEVIL, 0,SHILENSEVIL, 19305));  // 小心！下次就不能活著回去了。
 				return "";
 			}
 			
@@ -259,8 +260,8 @@ public class Q193_SevenSignDyingMessage extends Quest
 		
 		if (npc.getNpcId() == SHILENSEVIL && st.getInt("cond") == 4)
 		{
-			npc.broadcastPacket(new NpcSay(npc.getObjectId(),0,npc.getNpcId(),"「" + player.getName() + "」！現在我就讓你一步..不過，我一定會抓到你的。"));
-			npc.broadcastPacket(new NpcSay(CAIN,0,CAIN,"很好，「" + player.getName() + "」。很高興能幫得上你。"));
+			npc.broadcastPacket(new NpcSay(npc.getObjectId(), 0, npc.getNpcId(), "「" + player.getName() + "」！現在我就讓你一步..不過，我一定會抓到你的。"));
+			npc.broadcastPacket(new NpcSay(CAIN, 0, CAIN, "很好，「" + player.getName() + "」。很高興能幫得上你。"));
 			st.giveItems(SCULPTURE, 1);
 			st.set("cond", "5");
 			st.playSound("ItemSound.quest_middle");
@@ -280,6 +281,9 @@ public class Q193_SevenSignDyingMessage extends Quest
 		addTalkId(ERIC);
 		addTalkId(ATHEBALDT);
 		addKillId(SHILENSEVIL);
+		
+		questItemIds = new int[]
+		{ JACOB_NECK, DEADMANS_HERB, SCULPTURE };
 	}
 	
 	public static void main(String[] args)

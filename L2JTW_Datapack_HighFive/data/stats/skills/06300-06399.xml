@@ -783,9 +783,7 @@
 		<set name="target" val="TARGET_AURA" />
 		<for>
 			<!-- Retail Values CT2.5: 93HP * 3 Sec -->
-			<effect count="5" name="DamOverTime" abnormalTime="3" val="279" abnormalLvl="3" abnormalType="bleeding" abnormal="bleed">
-				<mul order="0x30" stat="runSpd" val="0.8" />
-			</effect>
+			<effect count="5" name="DamOverTime" abnormalTime="3" val="279" abnormalLvl="3" abnormalType="bleeding" abnormal="bleed" />
 		</for>
 	</skill>
 	<skill id="6383" levels="1" name="Bistakon Deadly Roar">
@@ -838,9 +836,7 @@
 		<set name="target" val="TARGET_ONE" />
 		<for>
 			<!-- Retail Values CT2.5: 93HP * 3 Sec -->
-			<effect count="5" name="DamOverTime" abnormalTime="3" val="279" abnormalLvl="3" abnormalType="bleeding" abnormal="bleed">
-				<mul order="0x30" stat="runSpd" val="0.8" />
-			</effect>
+			<effect count="5" name="DamOverTime" abnormalTime="3" val="279" abnormalLvl="3" abnormalType="bleeding" abnormal="bleed" />
 		</for>
 	</skill>
 	<skill id="6386" levels="1" name="Bistakon Earth Rise">
@@ -1016,9 +1012,7 @@
 		<set name="target" val="TARGET_ONE" />
 		<for>
 			<!-- Retail Values CT2.5: 93HP * 3 Sec -->
-			<effect count="5" name="DamOverTime" abnormalTime="3" val="279" abnormalLvl="3" abnormalType="bleeding" abnormal="bleed">
-				<mul order="0x30" stat="runSpd" val="0.8" />
-			</effect>
+			<effect count="5" name="DamOverTime" abnormalTime="3" val="279" abnormalLvl="3" abnormalType="bleeding" abnormal="bleed" />
 		</for>
 	</skill>
 	<skill id="6396" levels="1" name="Cokrakon Panic">

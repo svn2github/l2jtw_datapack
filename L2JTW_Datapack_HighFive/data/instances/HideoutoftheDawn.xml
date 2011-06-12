@@ -4,9 +4,9 @@
 	<timeDelay val="4" />
 	<allowSummon val="false" />
 	<spawnPoint spawnX="-23770" spawnY="-8961" spawnZ="-5385"/>
-	<emptyDestroyTime val="5" />
+	<emptyDestroyTime val="1" />
 	<spawnlist>
-		<spawn npcId="32597" x="-24034" y="-8962" z="-5362" heading="0" respawn="0"/>
-		<spawn npcId="32582" x="-24013" y="-8877" z="-5386" heading="0" respawn="0"/>
+		<spawn npcId="32597" x="-23970" y="-8964" z="-5392" heading="0" respawn="0"/>
+		<spawn npcId="32617" x="-23956" y="-8896" z="-5392" heading="0" respawn="0"/>
 	</spawnlist>
 </instance>

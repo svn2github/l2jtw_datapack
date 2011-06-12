@@ -381,6 +381,9 @@ public class Q194_SevenSignContractOfMammon extends Quest
 		addTalkId(TESS);
 		addTalkId(KUTA);
 		addTalkId(CLAUDIA);
+		
+		questItemIds = new int[]
+		{ INTRODUCTION, FROG_KING_BEAD, CANDY_POUCH, NATIVES_GLOVE };
 	}
 	
 	public static void main(String[] args)
