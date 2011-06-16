@@ -107,7 +107,7 @@ public class Sweep implements ISkillHandler
 				}
 			}
 			target.endDecayTask();
-			
+			/** Update by pmq
 			if (send)
 			{
 				if (iu != null)
@@ -115,7 +115,7 @@ public class Sweep implements ISkillHandler
 				else
 					player.sendPacket(new ItemList(player, false));
 			}
-			
+			*/
 			L2SkillSweeper sweep = (L2SkillSweeper) skill;
 			if (sweep.getAbsorbAbs() != -1)
 			{
@@ -151,6 +151,14 @@ public class Sweep implements ISkillHandler
 				}
 				
 			}
+		}
+		// Update by pmq
+		if (send)
+		{
+			if (iu != null)
+				player.sendPacket(iu);
+			else
+				player.sendPacket(new ItemList(player, false));
 		}
 	}
 	

@@ -1401,14 +1401,18 @@
 	</skill>
 	<skill id="444" levels="1" name="Festive Sweeper">
 		<!-- H5 Skill -->
-		<set name="hitTime" val="500" />
+		<!-- Update by pmq -->
+		<set name="castRange" val="20" />
+		<set name="effectRange" val="400" />
+		<set name="hitTime" val="1000" />
 		<set name="magicLvl" val="28" />
 		<set name="mpConsume" val="12" />
 		<set name="operateType" val="OP_ACTIVE" />
+		<set name="power" val="100" />
 		<set name="reuseDelay" val="3000" />
 		<set name="skillRadius" val="200" />
 		<set name="skillType" val="SWEEP" />
-		<set name="target" val="TARGET_CORPSE_MOB" />
+		<set name="target" val="TARGET_AURA_CORPSE_MOB" />
 	</skill>
 	<skill id="445" levels="1" name="Mirage">
 		<!-- Confirmed CT2.5 -->
