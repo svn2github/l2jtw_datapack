@@ -52,6 +52,7 @@ public class SanctumOftheLordsOfDawn extends Quest
 	
 	//Items
 	private static final int SHUNAIMAN_CONTRACT = 13823;
+	private static final int IDENTITY_CARD = 13822;
 	
 	//NPCs
 	private static final int LIGHTOFDAWN = 32575;  // 傳送師 黎明之光
@@ -64,17 +65,10 @@ public class SanctumOftheLordsOfDawn extends Quest
 	private static final int WPRIEST     = 18835;  // 黎明的警衛隊員
 	private static final int WGUARD      = 27351;  // 黎明的警衛隊員
 	/**
-	private static final int LIGHTOFDAWN = 32575;  // 傳送師 黎明之光
-	private static final int PWDEVICE    = 32577;  // 暗號輸入裝置
-	private static final int DEVICE      = 32578;  // 身份確認裝置
-	private static final int BLACK       = 32579;  // 傳送師 黎明的黑暗
-	private static final int SHELF       = 32580;  // 黎明的書櫃
-	private static final int PRIESTS     = 18828;  // 黎明的上位祭司
 	private static final int GUARD       = 27347;  // 黎明的神諭處 警衛隊員
 	private static final int MGUARD      = 27348;  // 黎明的神諭處 警衛隊員
 	private static final int MPRIEST     = 27349;  // 黎明的神諭處 警衛隊員
 	private static final int WPRIEST     = 27350;  // 黎明的神諭處 警衛隊員
-	private static final int WGUARD      = 27351;  // 黎明的警衛隊員
 	private static final int SPRIEST     = 27352;  // 黎明的神諭處 警衛隊員
 	*/
 	private static final int ONE         = 17240001;
@@ -185,7 +179,7 @@ public class SanctumOftheLordsOfDawn extends Quest
 	protected void exitInstance(L2PcInstance player, teleCoord tele)
 	{
 		player.setInstanceId(0);
-		player.teleToLocation(tele.x, tele.y, tele.z);
+		player.teleToLocation(-12585, 122305, -2989);
 	}
 	
 	@Override
@@ -412,18 +406,6 @@ public class SanctumOftheLordsOfDawn extends Quest
 				return "";
 			}
 		}
-		else if (event.equalsIgnoreCase("tele"))
-		{
-			InstanceWorld world = InstanceManager.getInstance().getPlayerWorld(player);
-			world.allowed.remove(world.allowed.indexOf(player.getObjectId()));
-			teleCoord tele = new teleCoord();
-			tele.instanceId = 0;
-			tele.x = -12491;
-			tele.y = 122331;
-			tele.z = -2984;
-			exitInstance(player, tele);
-			return "32580-04.htm";
-		}
 		else if (event.equalsIgnoreCase("reTele"))
 		{
 			((L2Attackable) npc).clearAggroList();
@@ -600,6 +582,10 @@ public class SanctumOftheLordsOfDawn extends Quest
 				{
 					return "32575-01.htm";
 				}
+				if (!st.hasQuestItems(IDENTITY_CARD))
+				{
+					return "32575-01.htm";
+				}
 				else if (player.getTransformation().getId() != 6204)
 				{
 					teleCoord tele = new teleCoord();
@@ -639,17 +625,27 @@ public class SanctumOftheLordsOfDawn extends Quest
 			case PWDEVICE:
 				return "32577-01.htm";
 			case BLACK:
-				InstanceWorld world = InstanceManager.getInstance().getPlayerWorld(player);
-				world.allowed.remove(world.allowed.indexOf(player.getObjectId()));
-				teleCoord tele = new teleCoord();
-				tele.instanceId = 0;
-				tele.x = -12585;
-				tele.y = 122305;
-				tele.z = -2989;
-				exitInstance(player, tele);
-				return "32579-01.htm";
+				if (st.hasQuestItems(IDENTITY_CARD))
+				{
+					InstanceWorld world = InstanceManager.getInstance().getPlayerWorld(player);
+					world.allowed.remove(world.allowed.indexOf(player.getObjectId()));
+					teleCoord tele = new teleCoord();
+					tele.instanceId = 0;
+					exitInstance(player, tele);
+					return "32579-01.htm";
+				}
+				else { return null; }
 			case SHELF:
-				return "32580-01.htm";
+				if (st.hasQuestItems(IDENTITY_CARD))
+				{
+					InstanceWorld world = InstanceManager.getInstance().getPlayerWorld(player);
+					world.allowed.remove(world.allowed.indexOf(player.getObjectId()));
+					teleCoord tele = new teleCoord();
+					tele.instanceId = 0;
+					exitInstance(player, tele);
+					return "32580-04.htm";
+				}
+				else { return null; }
 		}
 		
 		return "";

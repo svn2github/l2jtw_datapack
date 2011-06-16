@@ -20,6 +20,7 @@ public class Q195_SevenSignSecretRitualOfThePriests extends Quest
 	private static final int JOHN          = 32576;
 	private static final int RAYMOND       = 30289;
 	private static final int IASON_HEINE   = 30969;
+	private static final int SHELF         = 32580;  // 黎明的書櫃
 	
 	//ITEMS
 	private static final int SHUNAIMAN_CONTRACT = 13823;
@@ -91,13 +92,21 @@ public class Q195_SevenSignSecretRitualOfThePriests extends Quest
 		{
 			if (cond == 4)
 			{
-				//st.addExpAndSp(52518015, 5817677);
-				st.addExpAndSp(25000000, 2500000); // High Five
+				st.addExpAndSp(25000000, 2500000);
 				st.unset("cond"); 
 				st.exitQuest(false);
 				st.playSound("ItemSound.quest_finish");
 			}
 		}
+		else if (event.equalsIgnoreCase("32580-02.htm"))
+		{
+			if (cond == 3 && !st.hasQuestItems(SHUNAIMAN_CONTRACT))
+			{
+				st.giveItems(SHUNAIMAN_CONTRACT,1);
+				st.playSound("ItemSound.quest_middle");
+			}
+		}
+		
 		return event;
 	}
 
@@ -145,7 +154,7 @@ public class Q195_SevenSignSecretRitualOfThePriests extends Quest
 					case 2:
 						return "30289-01.htm";
 					case 3:
-						if (st.getQuestItemsCount(SHUNAIMAN_CONTRACT) == 1)
+						if (st.hasQuestItems(SHUNAIMAN_CONTRACT))
 							return "30289-09.htm";
 						else
 							return "30289-06.htm";
@@ -156,6 +165,10 @@ public class Q195_SevenSignSecretRitualOfThePriests extends Quest
 			case IASON_HEINE:
 				if (cond == 4)
 					return "30969-01.htm";
+				break;
+			case SHELF:
+				if (cond == 3)
+					return "32580-01.htm";
 				break;
 		}
 		return "<html><body>目前沒有執行任務，或條件不符。</body></html>";
@@ -170,6 +183,7 @@ public class Q195_SevenSignSecretRitualOfThePriests extends Quest
 		addTalkId(JOHN);
 		addTalkId(RAYMOND);
 		addTalkId(IASON_HEINE);
+		addTalkId(SHELF);
 
 		questItemIds = new int[]
 		{ SHUNAIMAN_CONTRACT, IDENTITY_CARD };

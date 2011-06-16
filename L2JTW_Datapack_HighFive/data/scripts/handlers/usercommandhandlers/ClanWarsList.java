@@ -81,7 +81,7 @@ public class ClanWarsList implements IUserCommandHandler
 				statement.setInt(2, clan.getClanId());
 			}
 			else
-			// ID = 90
+				// ID = 90
 			{
 				// War List
 				activeChar.sendPacket(SystemMessage.getSystemMessage(SystemMessageId.WAR_LIST));

@@ -1,11 +1,1091 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <list maintainEnchantment="true" xmlns:ns0="http://www.w3.org/2001/XMLSchema-instance" ns0:noNamespaceSchemaLocation="multisell.xsd">
 	<item id="1">
+		<!-- Great Sword -->
+		<ingredient count="1" id="78" />
 		<!-- Neolithic Crystal - B -->
 		<ingredient count="1" id="14678" />
+		<!-- Great Sword - Lightning -->
+		<production count="1" id="10870" />
+	</item>
+	<item id="2">
+		<!-- Heavy War Axe -->
+		<ingredient count="1" id="91" />
+		<!-- Neolithic Crystal - B -->
+		<ingredient count="1" id="14678" />
+		<!-- Heavy War Axe - Earth -->
+		<production count="1" id="10938" />
+	</item>
+	<item id="3">
+		<!-- Sprite's Staff -->
+		<ingredient count="1" id="92" />
+		<!-- Neolithic Crystal - B -->
+		<ingredient count="1" id="14678" />
+		<!-- Sprite's Staff - Hail -->
+		<production count="1" id="10916" />
+	</item>
+	<item id="4">
+		<!-- Keshanberk -->
+		<ingredient count="1" id="142" />
+		<!-- Neolithic Crystal - B -->
+		<ingredient count="1" id="14678" />	 
+		<!-- Keshanberk - Destruction -->
+		<production count="1" id="10930" />
+	</item>
+	<item id="5">
+		<!-- Sword of Valhalla -->
+		<ingredient count="1" id="148" />
+		<!-- Neolithic Crystal - B -->
+		<ingredient count="1" id="14678" />	 
+		<!-- Sword of Valhalla - Nature -->
+		<production count="1" id="10893" />
+	</item>
+	<item id="6">
 		<!-- Kris -->
 		<ingredient count="1" id="229" />
+		<!-- Neolithic Crystal - B -->
+		<ingredient count="1" id="14678" />
 		<!-- Kris - Confusion -->
 		<production count="1" id="10926" />
+	</item>
+	<item id="7">
+		<!-- Hell Knife -->
+		<ingredient count="1" id="243" />
+		<!-- Neolithic Crystal - B -->
+		<ingredient count="1" id="14678" />
+		<!-- Hell Knife - Confusion -->
+		<production count="1" id="10942" />
+	</item>
+	<item id="8">
+		<!-- Arthro Nail -->
+		<ingredient count="1" id="267" />
+		<!-- Neolithic Crystal - B -->
+		<ingredient count="1" id="14678" />
+		<!-- Arthro Nail - Destruction -->
+		<production count="1" id="10902" />
+	</item>
+	<item id="9">
+		<!-- Dark Elven Long Bow -->
+		<ingredient count="1" id="284" />
+		<!-- Neolithic Crystal - B -->
+		<ingredient count="1" id="14678" />
+		<!-- Dark Elven Long Bow - Concentration -->
+		<production count="1" id="10886" />
+	</item>
+	<item id="10">
+		<!-- Great Axe -->
+		<ingredient count="1" id="300" />
+		<!-- Neolithic Crystal - B -->
+		<ingredient count="1" id="14678" />
+		<!-- Great Axe - Thunder -->
+		<production count="1" id="10874" />
+	</item>
+	<item id="11">
+		<!-- Spell Breaker -->
+		<ingredient count="1" id="7892" />
+		<!-- Neolithic Crystal - B -->
+		<ingredient count="1" id="14678" />
+		<!-- Spell Breaker - Hail -->
+		<production count="1" id="10898" />
+	</item>
+	<item id="12">
+		<!-- Ice Storm Hammer -->
+		<ingredient count="1" id="7900" />
+		<!-- Neolithic Crystal - B -->
+		<ingredient count="1" id="14678" />
+		<!-- Ice Storm Hammer - Lightning -->
+		<production count="1" id="10906" />
+	</item>
+	<item id="13">
+		<!-- Military Fleuret -->
+		<ingredient count="1" id="9304" />
+		<!-- Neolithic Crystal - B -->
+		<ingredient count="1" id="14678" />
+		<!-- Military Fleuret - Destruction -->
+		<production count="1" id="10912" />
+	</item>
+	<item id="14">
+		<!-- Innominate Victory -->
+		<ingredient count="1" id="9308" />
+		<!-- Neolithic Crystal - B -->
+		<ingredient count="1" id="14678" />
+		<!-- Innominate Victory - Lightning -->
+		<production count="1" id="10882" />
+	</item>
+	<item id="15">
+		<!-- Peacemaker -->
+		<ingredient count="1" id="9312" />
+		<!-- Neolithic Crystal - B -->
+		<ingredient count="1" id="14678" />
+		<!-- Peacemaker - Concentration -->
+		<production count="1" id="10934" />
+	</item>
+		<item id="16">
+		<!-- Deadman's Glory -->
+		<ingredient count="1" id="171" />
+		<!-- Neolithic Crystal - B -->
+		<ingredient count="1" id="14678" />
+		<!-- Deadman's Glory - Landslide -->
+		<production count="1" id="10979" />
+	</item>
+	<item id="17">
+		<!-- Art of Battle Axe -->
+		<ingredient count="1" id="175" />
+		<!-- Neolithic Crystal - B -->
+		<ingredient count="1" id="14678" />
+		<!-- Art of Battle Axe - Landslide -->
+		<production count="1" id="10988" />
+	</item>
+	<item id="18">
+		<!-- Kaim Vanul's Bones -->
+		<ingredient count="1" id="7893" />
+		<!-- Neolithic Crystal - B -->
+		<ingredient count="1" id="14678" />
+		<!-- Kaim Vanul's Bones - Earth -->
+		<production count="1" id="10997" />
+	</item>
+	<item id="19">
+		<!-- Star Buster -->
+		<ingredient count="1" id="7901" />
+		<!-- Neolithic Crystal - B -->
+		<ingredient count="1" id="14678" />
+		<!-- Star Buster - Great Gale -->
+		<production count="1" id="10983" />
+	</item>
+	<item id="20">
+		<!-- Staff of Evil Spirits -->
+		<ingredient count="1" id="210" />
+		<!-- Neolithic Crystal - B -->
+		<ingredient count="1" id="14678" />
+		<!-- Staff of Evil Spirits - Holy Spirit -->
+		<production count="1" id="10975" />
+	</item>
+	<item id="21">
+		<!-- Sword of Damascus -->
+		<ingredient count="1" id="79" />
+		<!-- Neolithic Crystal - B -->
+		<ingredient count="1" id="14678" />
+		<!-- Sword of Damascus - Earth -->
+		<production count="1" id="10959" />
+	</item>
+	<item id="22">
+		<!-- Wizard's Tear -->
+		<ingredient count="1" id="7889" />
+		<!-- Neolithic Crystal - B -->
+		<ingredient count="1" id="14678" />
+		<!-- Wizard's Tear - Cleverness -->
+		<production count="1" id="11005" />
+	</item>
+	<item id="23">
+		<!-- Guardian Sword -->
+		<ingredient count="1" id="7883" />
+		<!-- Neolithic Crystal - B -->
+		<ingredient count="1" id="14678" />
+		<!-- Guardian Sword - Great Gale -->
+		<production count="1" id="10955" />
+	</item>
+	<item id="24">
+		<!-- Dismantler -->
+		<ingredient count="1" id="9320" />
+		<!-- Neolithic Crystal - B -->
+		<ingredient count="1" id="14678" />
+		<!-- Dismantler - Great Gale -->
+		<production count="1" id="10963" />
+	</item>
+	<item id="25">
+		<!-- Colichemarde -->
+		<ingredient count="1" id="9316" />
+		<!-- Neolithic Crystal - B -->
+		<ingredient count="1" id="14678" />
+		<!-- Colichemarde - Earth -->
+		<production count="1" id="11001" />
+	</item>
+	<item id="26">
+		<!-- Demon Dagger -->
+		<ingredient count="1" id="234" />
+		<!-- Neolithic Crystal - B -->
+		<ingredient count="1" id="14678" />
+		<!-- Demon Dagger - Great Gale -->
+		<production count="1" id="10992" />
+	</item>
+	<item id="27">
+		<!-- Bow of Peril -->
+		<ingredient count="1" id="287" />
+		<!-- Neolithic Crystal - B -->
+		<ingredient count="1" id="14678" />
+		<!-- Bow of Peril - Earth -->
+		<production count="1" id="11009" />
+	</item>
+	<item id="28">
+		<!-- Hell Hound -->
+		<ingredient count="1" id="9324" />
+		<!-- Neolithic Crystal - B -->
+		<ingredient count="1" id="14678" />
+		<!-- Hell Hound Earth -->
+		<production count="1" id="11013" />
+	</item>
+	<item id="29">
+		<!-- Bellion Cestus -->
+		<ingredient count="1" id="268" />
+		<!-- Neolithic Crystal - B -->
+		<ingredient count="1" id="14678" />
+		<!-- Bellion Cestus - Great Gale -->
+		<production count="1" id="10971" />
+	</item>
+	<item id="30">
+		<!-- Lance -->
+		<ingredient count="1" id="97" />
+		<!-- Neolithic Crystal - B -->
+		<ingredient count="1" id="14678" />
+		<!-- Lance - Earth -->
+		<production count="1" id="10967" />
+	</item>
+	<item id="31">
+		<!-- Meteor Shower -->
+		<ingredient count="1" id="2504" />
+		<!-- Neolithic Crystal - A -->
+		<ingredient count="1" id="14679" />
+		<!-- Meteor Shower - Earth -->
+		<production count="1" id="11029" />
+	</item>
+	<item id="32">
+		<!-- Spiritual Eye -->
+		<ingredient count="1" id="7894" />
+		<!-- Neolithic Crystal - A -->
+		<ingredient count="1" id="14679" />
+		<!-- Spiritual Eye - Hail -->
+		<production count="1" id="11045" />
+	</item>
+	<item id="33">
+		<!-- Elysian -->
+		<ingredient count="1" id="164" />
+		<!-- Neolithic Crystal - A -->
+		<ingredient count="1" id="14679" />
+		<!-- Elysian - Great Gale -->
+		<production count="1" id="11120" />
+	</item>
+	<item id="34">
+		<!-- Flaming Dragon Skull -->
+		<ingredient count="1" id="7895" />
+		<!-- Neolithic Crystal - A -->
+		<ingredient count="1" id="14679" />
+		<!-- Flaming Dragon Skull - Wisdom -->
+		<production count="1" id="11100" />
+	</item>
+	<item id="35">
+		<!-- Barakiel's Axe -->
+		<ingredient count="1" id="8680" />
+		<!-- Neolithic Crystal - A -->
+		<ingredient count="1" id="14679" />
+		<!-- Barakiel's Axe - On Fire -->
+		<production count="1" id="11141" />
+	</item>
+	<item id="36">
+		<!-- Cabrio's Hand -->
+		<ingredient count="1" id="8687" />
+		<!-- Neolithic Crystal - A -->
+		<ingredient count="1" id="14679" />
+		<!-- Cabrio's Hand - Cleverness -->
+		<production count="1" id="11186" />
+	</item>
+	<item id="37">
+		<!-- Dasparion's Staff -->
+		<ingredient count="1" id="212" />
+		<!-- Neolithic Crystal - A -->
+		<ingredient count="1" id="14679" />
+		<!-- Dasparion's Staff - Hail -->
+		<production count="1" id="11017" />
+	</item>
+	<item id="38">
+		<!-- Destroyer Hammer -->
+		<ingredient count="1" id="7899" />
+		<!-- Neolithic Crystal - A -->
+		<ingredient count="1" id="14679" />
+		<!-- Destroyer Hammer - Lightning -->
+		<production count="1" id="11062" />
+	</item>
+	<item id="39">
+		<!-- Doom Crusher -->
+		<ingredient count="1" id="7902" />
+		<!-- Neolithic Crystal - A -->
+		<ingredient count="1" id="14679" />
+		<!-- Doom Crusher - Thunder -->
+		<production count="1" id="11088" />
+	</item>
+	<item id="40">
+		<!-- Branch of the Mother Tree -->
+		<ingredient count="1" id="213" />
+		<!-- Neolithic Crystal - A -->
+		<ingredient count="1" id="14679" />
+		<!-- Branch of the Mother Tree - Nature -->
+		<production count="1" id="11104" />
+	</item>
+	<item id="41">
+		<!-- Daimon Crystal -->
+		<ingredient count="1" id="8688" />
+		<!-- Neolithic Crystal - A -->
+		<ingredient count="1" id="14679" />
+		<!-- Daimon Crystal - Wisdom -->
+		<production count="1" id="11137" />
+	</item>
+	<item id="42">
+		<!-- Behemoth's Tuning Fork -->
+		<ingredient count="1" id="8681" />
+		<!-- Neolithic Crystal - A -->
+		<ingredient count="1" id="14679" />
+		<!-- Behemoth's Tuning Fork - Destruction -->
+		<production count="1" id="11149" />
+	</item>
+	<item id="43">
+		<!-- Tallum Blade -->
+		<ingredient count="1" id="80" />
+		<!-- Neolithic Crystal - A -->
+		<ingredient count="1" id="14679" />
+		<!-- Tallum Blade - Destruction -->
+		<production count="1" id="11058" />
+	</item>
+	<item id="44">
+		<!-- Elemental Sword -->
+		<ingredient count="1" id="150" />
+		<!-- Neolithic Crystal - A -->
+		<ingredient count="1" id="14679" />
+		<!-- Elemental Sword - Hail -->
+		<production count="1" id="11041" />
+	</item>
+	<item id="45">
+		<!-- Dark Legion's Edge -->
+		<ingredient count="1" id="2500" />
+		<!-- Neolithic Crystal - A -->
+		<ingredient count="1" id="14679" />
+		<!-- Dark Legion - Thunder -->
+		<production count="1" id="11080" />
+	</item>
+	<item id="46">
+		<!-- Sword of Miracles -->
+		<ingredient count="1" id="151" />
+		<!-- Neolithic Crystal - A -->
+		<ingredient count="1" id="14679" />
+		<!-- Sword of Miracles - Holy Spirit -->
+		<production count="1" id="11108" />
+	</item>
+	<item id="47">
+		<!-- Sirra's Blade -->
+		<ingredient count="1" id="8678" />
+		<!-- Neolithic Crystal - A -->
+		<ingredient count="1" id="14679" />
+		<!-- Sirra's Blade - Landslide -->
+		<production count="1" id="11169" />
+	</item>
+	<item id="48">
+		<!-- Themis Tongue -->
+		<ingredient count="1" id="8686" />
+		<!-- Neolithic Crystal - A -->
+		<ingredient count="1" id="14679" />
+		<!-- Themis Tongue - Cleverness -->
+		<production count="1" id="11182" />
+	</item>
+	<item id="49">
+		<!-- Infernal Master -->
+		<ingredient count="1" id="7884" />
+		<!-- Neolithic Crystal - A -->
+		<ingredient count="1" id="14679" />
+		<!-- Infernal Master - Concentration -->
+		<production count="1" id="11049" />
+	</item>
+	<item id="50">
+		<!-- Dragon Slayer -->
+		<ingredient count="1" id="81" />
+		<!-- Neolithic Crystal - A -->
+		<ingredient count="1" id="14679" />
+		<!-- Dragon Slayer - Evil Spirit -->
+		<production count="1" id="11096" />
+	</item>
+	<item id="51">
+		<!-- Sword of Ipos -->
+		<ingredient count="1" id="8679" />
+		<!-- Neolithic Crystal - A -->
+		<ingredient count="1" id="14679" />
+		<!-- Sword of Ipos - Earth -->
+		<production count="1" id="11161" />
+	</item>
+	<item id="52">
+		<!-- Divine Pain -->
+		<ingredient count="1" id="9332" />
+		<!-- Neolithic Crystal - A -->
+		<ingredient count="1" id="14679" />
+		<!-- Divine Pain - Concentration -->
+		<production count="1" id="11066" />
+	</item>
+	<item id="53">
+		<!-- Undertaker -->
+		<ingredient count="1" id="9344" />
+		<!-- Neolithic Crystal - A -->
+		<ingredient count="1" id="14679" />
+		<!-- Undertaker - Evil Spirit -->
+		<production count="1" id="11084" />
+	</item>
+	<item id="54">
+		<!-- Bultgang -->
+		<ingredient count="1" id="9356" />
+		<!-- Neolithic Crystal - A -->
+		<ingredient count="1" id="14679" />
+		<!-- Bultgang - Earth -->
+		<production count="1" id="11153" />
+	</item>
+	<item id="55">
+		<!-- White Lightning -->
+		<ingredient count="1" id="9328" />
+		<!-- Neolithic Crystal - A -->
+		<ingredient count="1" id="14679" />
+		<!-- Divine Pain - Concentration -->
+		<production count="1" id="11025" />
+	</item>
+	<item id="56">
+		<!-- Lacerator -->
+		<ingredient count="1" id="9340" />
+		<!-- Neolithic Crystal - A -->
+		<ingredient count="1" id="14679" />
+		<!-- Lacerator - Thunder -->
+		<production count="1" id="11075" />
+	</item>
+	<item id="57">
+		<!-- Eclair Bijou -->
+		<ingredient count="1" id="9352" />
+		<!-- Neolithic Crystal - A -->
+		<ingredient count="1" id="14679" />
+		<!-- Eclair Bijou -->
+		<production count="1" id="11173" />
+	</item>
+	<item id="58">
+		<!-- Bloody Orchid -->
+		<ingredient count="1" id="235" />
+		<!-- Neolithic Crystal - A -->
+		<ingredient count="1" id="14679" />
+		<!-- Bloody Orchid - Confusion -->
+		<production count="1" id="11037" />
+	</item>
+	<item id="59">
+		<!-- Soul Separator -->
+		<ingredient count="1" id="236" />
+		<!-- Neolithic Crystal - A -->
+		<ingredient count="1" id="14679" />
+		<!-- Soul Separator - On Fire -->
+		<production count="1" id="11116" />
+	</item>
+	<item id="60">
+		<!-- Naga Storm -->
+		<ingredient count="1" id="8682" />
+		<!-- Neolithic Crystal - A -->
+		<ingredient count="1" id="14679" />
+		<!-- Naga Storm - Molar -->
+		<production count="1" id="11133" />
+	</item>
+	<item id="61">
+		<!-- Carnage Bow -->
+		<ingredient count="1" id="288" />
+		<!-- Neolithic Crystal - A -->
+		<ingredient count="1" id="14679" />
+		<!-- Carnage Bow - Concentration -->
+		<production count="1" id="11053" />
+	</item>
+	<item id="62">
+		<!-- Soul Bow -->
+		<ingredient count="1" id="289" />
+		<!-- Neolithic Crystal - A -->
+		<ingredient count="1" id="14679" />
+		<!-- Soul Bow - Clairvoyance -->
+		<production count="1" id="11124" />
+	</item>
+	<item id="63">
+		<!-- Shyeed's Bow -->
+		<ingredient count="1" id="8684" />
+		<!-- Neolithic Crystal - A -->
+		<ingredient count="1" id="14679" />
+		<!-- Shyeed's Bow - Concentration -->
+		<production count="1" id="11157" />
+	</item>
+	<item id="64">
+		<!-- Doomchanter -->
+		<ingredient count="1" id="9336" />
+		<!-- Neolithic Crystal - A -->
+		<ingredient count="1" id="14679" />
+		<!-- Doomchanter - Concentration -->
+		<production count="1" id="11021" />
+	</item>
+	<item id="65">
+		<!-- Reaper -->
+		<ingredient count="1" id="9348" />
+		<!-- Neolithic Crystal - A -->
+		<ingredient count="1" id="14679" />
+		<!-- Reaper - Clairvoyance -->
+		<production count="1" id="11112" />
+	</item>
+	<item id="66">
+		<!-- Screaming Vengeance -->
+		<ingredient count="1" id="9360" />
+		<!-- Neolithic Crystal - A -->
+		<ingredient count="1" id="14679" />
+		<!-- Screaming Vengeance - Concentration -->
+		<production count="1" id="11145" />
+	</item>
+	<item id="67">
+		<!-- Keshanberk*Keshanberk -->
+		<ingredient count="1" id="5704" />
+		<!-- Neolithic Crystal - A -->
+		<ingredient count="1" id="14679" />
+		<!-- Keshanberk*Keshanberk - Destruction -->
+		<production count="1" id="11057" />
+	</item>
+	<item id="68">
+		<!-- Keshanberk*Damascus -->
+		<ingredient count="1" id="5705" />
+		<!-- Neolithic Crystal - A -->
+		<ingredient count="1" id="14679" />
+		<!-- Keshanberk*Damascus - Destruction -->
+		<production count="1" id="11074" />
+	</item>
+	<item id="69">
+		<!-- Damascus*Damascus -->
+		<ingredient count="1" id="5706" />
+		<!-- Neolithic Crystal - A -->
+		<ingredient count="1" id="14679" />
+		<!-- Damascus*Damascus - Thunder -->
+		<production count="1" id="11079" />
+	</item>
+	<item id="70">
+		<!-- Tallum Blade*Damascus -->
+		<ingredient count="1" id="14338" />
+		<!-- Neolithic Crystal - A -->
+		<ingredient count="1" id="14679" />
+		<!-- Tallum Blade*Damascus - Landslide -->
+		<production count="1" id="11181" />
+	</item>
+	<item id="71">
+		<!-- Blood Tornado -->
+		<ingredient count="1" id="269" />
+		<!-- Neolithic Crystal - A -->
+		<ingredient count="1" id="14679" />
+		<!-- Blood Tornado - Destruction -->
+		<production count="1" id="11033" />
+	</item>
+	<item id="72">
+		<!-- Dragon Grinder -->
+		<ingredient count="1" id="270" />
+		<!-- Neolithic Crystal - A -->
+		<ingredient count="1" id="14679" />
+		<!-- Dragon Grinder - Earth -->
+		<production count="1" id="11092" />
+	</item>
+	<item id="73">
+		<!-- Sobekk's Hurricane -->
+		<ingredient count="1" id="8685" />
+		<!-- Neolithic Crystal - A -->
+		<ingredient count="1" id="14679" />
+		<!-- Sobekk's Hurricane - Landslide -->
+		<production count="1" id="11165" />
+	</item>
+	<item id="74">
+		<!-- Halberd -->
+		<ingredient count="1" id="98" />
+		<!-- Neolithic Crystal - A -->
+		<ingredient count="1" id="14679" />
+		<!-- Halberd - Lightning -->
+		<production count="1" id="11070" />
+	</item>
+	<item id="75">
+		<!-- Tallum Glaive -->
+		<ingredient count="1" id="305" />
+		<!-- Neolithic Crystal - A -->
+		<ingredient count="1" id="14679" />
+		<!-- Tallum Glaive - On Fire -->
+		<production count="1" id="11128" />
+	</item>
+	<item id="76">
+		<!-- Tiphon's Spear -->
+		<ingredient count="1" id="8683" />
+		<!-- Neolithic Crystal - A -->
+		<ingredient count="1" id="14679" />
+		<!-- Tiphon's Spear - Landslide -->
+		<production count="1" id="11177" />
+	</item>
+	<item id="77">
+		<!-- Basalt Battlehammer -->
+		<ingredient count="1" id="6365" />
+		<!-- Neolithic Crystal - S -->
+		<ingredient count="1" id="14680" />
+		<!-- Basalt Battlehammer - Concentration -->
+		<production count="1" id="11210" />
+	</item>
+	<item id="78">
+		<!-- Arcana Mace -->
+		<ingredient count="1" id="6579" />
+		<!-- Neolithic Crystal - S -->
+		<ingredient count="1" id="14680" />
+		<!-- Arcana Mace - Nature -->
+		<production count="1" id="11222" />
+	</item>
+	<item id="79">
+		<!-- Dynasty Cudgel -->
+		<ingredient count="1" id="9448" />
+		<!-- Neolithic Crystal - S -->
+		<ingredient count="1" id="14680" />
+		<!-- Dynasty Cudgel - Landslide -->
+		<production count="1" id="11280" />
+	</item>
+	<item id="80">
+		<!-- Dynasty Mace -->
+		<ingredient count="1" id="9449" />
+		<!-- Neolithic Crystal - S -->
+		<ingredient count="1" id="14680" />
+		<!-- Dynasty Mace - Earth -->
+		<production count="1" id="11256" />
+	</item>
+		<item id="81">
+		<!-- Imperial Staff -->
+		<ingredient count="1" id="6366" />
+		<!-- Neolithic Crystal - S -->
+		<ingredient count="1" id="14680" />
+		<!-- Imperial Staff - Nature -->
+		<production count="1" id="11230" />
+	</item>
+	<item id="82">
+		<!-- Dragon Hunter Axe -->
+		<ingredient count="1" id="6369" />
+		<!-- Neolithic Crystal - S -->
+		<ingredient count="1" id="14680" />
+		<!-- Dragon Hunter Axe - Thunder -->
+		<production count="1" id="11202" />
+	</item>
+	<item id="83">
+		<!-- Dynasty Staff -->
+		<ingredient count="1" id="10252" />
+		<!-- Neolithic Crystal - S -->
+		<ingredient count="1" id="14680" />
+		<!-- Dynasty Staff - Holy Spirit -->
+		<production count="1" id="11276" />
+	</item>
+	<item id="84">
+		<!-- Dynasty Crusher -->
+		<ingredient count="1" id="10253" />
+		<!-- Neolithic Crystal - S -->
+		<ingredient count="1" id="14680" />
+		<!-- Dynasty Crusher - Great Gale -->
+		<production count="1" id="11284" />
+	</item>
+	<item id="85">
+		<!-- Forgotten Blade -->
+		<ingredient count="1" id="6364" />
+		<!-- Neolithic Crystal - S -->
+		<ingredient count="1" id="14680" />
+		<!-- Forgotten Blade - Lightning -->
+		<production count="1" id="11235" />
+	</item>
+	<item id="86">
+		<!-- Dynasty Sword -->
+		<ingredient count="1" id="9442" />
+		<!-- Neolithic Crystal - S -->
+		<ingredient count="1" id="14680" />
+		<!-- Dynasty Sword - Earth -->
+		<production count="1" id="11272" />
+	</item>
+	<item id="87">
+		<!-- Dynasty Phantom -->
+		<ingredient count="1" id="9444" />
+		<!-- Neolithic Crystal - S -->
+		<ingredient count="1" id="14680" />
+		<!-- Dynasty Phantom - Nature -->
+		<production count="1" id="11292" />
+	</item>
+	<item id="88">
+		<!-- Heaven's Divider -->
+		<ingredient count="1" id="6372" />
+		<!-- Neolithic Crystal - S -->
+		<ingredient count="1" id="14680" />
+		<!-- Heaven's Divider - Thunder -->
+		<production count="1" id="11239" />
+	</item>
+	<item id="89">
+		<!-- Dynasty Blade -->
+		<ingredient count="1" id="9443" />
+		<!-- Neolithic Crystal - S -->
+		<ingredient count="1" id="14680" />
+		<!-- Dynasty Blade - Great Gale -->
+		<production count="1" id="11268" />
+	</item>
+	<item id="90">
+		<!-- Gram -->
+		<ingredient count="1" id="9368" />
+		<!-- Neolithic Crystal - S -->
+		<ingredient count="1" id="14680" />
+		<!-- Gram - Thunder -->
+		<production count="1" id="11190" />
+	</item>
+	<item id="91">
+		<!-- Dynasty Ancient Sword -->
+		<ingredient count="1" id="9380" />
+		<!-- Neolithic Crystal - S -->
+		<ingredient count="1" id="14680" />
+		<!-- Dynasty Ancient Sword - Great Gale -->
+		<production count="1" id="11243" />
+	</item>
+	<item id="92">
+		<!-- Laevateinn -->
+		<ingredient count="1" id="9364" />
+		<!-- Neolithic Crystal - S -->
+		<ingredient count="1" id="14680" />
+		<!-- Laevateinn - Lightning -->
+		<production count="1" id="11206" />
+	</item>
+	<item id="93">
+		<!-- Dynasty Rapier -->
+		<ingredient count="1" id="9376" />
+		<!-- Neolithic Crystal - S -->
+		<ingredient count="1" id="14680" />
+		<!-- Dynasty Rapier - Earth -->
+		<production count="1" id="11252" />
+	</item>
+	<item id="94">
+		<!-- Angel Slayer -->
+		<ingredient count="1" id="6367" />
+		<!-- Neolithic Crystal - S -->
+		<ingredient count="1" id="14680" />
+		<!-- Angel Slayer - Concentration -->
+		<production count="1" id="11226" />
+	</item>
+	<item id="95">
+		<!-- Dynasty Knife -->
+		<ingredient count="1" id="9446" />
+		<!-- Neolithic Crystal - S -->
+		<ingredient count="1" id="14680" />
+		<!-- Dynasty Knife - Great Gale -->
+		<production count="1" id="11247" />
+	</item>
+	<item id="96">
+		<!-- Draconic Bow -->
+		<ingredient count="1" id="7575" />
+		<!-- Neolithic Crystal - S -->
+		<ingredient count="1" id="14680" />
+		<!-- Draconic Bow - Earth -->
+		<production count="1" id="11198" />
+	</item>
+	<item id="97">
+		<!-- Dynasty Bow -->
+		<ingredient count="1" id="9445" />
+		<!-- Neolithic Crystal - S -->
+		<ingredient count="1" id="14680" />
+		<!-- Dynasty Bow - Great Gale -->
+		<production count="1" id="11264" />
+	</item>
+	<item id="98">
+		<!-- Sarunga -->
+		<ingredient count="1" id="9372" />
+		<!-- Neolithic Crystal - S -->
+		<ingredient count="1" id="14680" />
+		<!-- Sarunga - Earth -->
+		<production count="1" id="11214" />
+	</item>
+	<item id="99">
+		<!-- Dynasty Crossbow -->
+		<ingredient count="1" id="9384" />
+		<!-- Neolithic Crystal - S -->
+		<ingredient count="1" id="14680" />
+		<!-- Dynasty Crossbow - Great Gale -->
+		<production count="1" id="11288" />
+	</item>
+	<item id="100">
+		<!-- Tallum Blade*Dark Legion's Edge -->
+		<ingredient count="1" id="6580" />
+		<!-- Neolithic Crystal - S -->
+		<ingredient count="1" id="14680" />
+		<!-- Tallum Blade*Dark Legion's Edge - Lightning -->
+		<production count="1" id="11234" />
+	</item>
+	<item id="101">
+		<!-- Dynasty Dual Sword -->
+		<ingredient count="1" id="10004" />
+		<!-- Neolithic Crystal - S -->
+		<ingredient count="1" id="14680" />
+		<!-- Dynasty Dual Sword - Earth -->
+		<production count="1" id="11251" />
+	</item>
+	<item id="102">
+		<!-- Dynasty Dual Daggers -->
+		<ingredient count="1" id="13882" />
+		<!-- Neolithic Crystal - S -->
+		<ingredient count="1" id="14680" />
+		<!-- Dynasty Dual Daggers - Great Gale -->
+		<production count="1" id="14526" />
+	</item>
+	<item id="103">
+		<!-- Demon Splinter -->
+		<ingredient count="1" id="6371" />
+		<!-- Neolithic Crystal - S -->
+		<ingredient count="1" id="14680" />
+		<!-- Demon Splinter - Thunder-->
+		<production count="1" id="11194" />
+	</item>
+	<item id="104">
+		<!-- Dynasty Bagh-Nakh -->
+		<ingredient count="1" id="9450" />
+		<!-- Neolithic Crystal - S -->
+		<ingredient count="1" id="14680" />
+		<!-- Dynasty Bagh-Nakh - Great Gale -->
+		<production count="1" id="11260" />
+	</item>
+	<item id="105">
+		<!-- Saint Spear -->
+		<ingredient count="1" id="6370" />
+		<!-- Neolithic Crystal - S -->
+		<ingredient count="1" id="14680" />
+		<!-- Saint Spear - Destruction -->
+		<production count="1" id="11218" />
+	</item>
+	<item id="106">
+		<!-- Dynasty Halberd -->
+		<ingredient count="1" id="9447" />
+		<!-- Neolithic Crystal - S -->
+		<ingredient count="1" id="14680" />
+		<!-- Dynasty halberd - Earth -->
+		<production count="1" id="11296" />
+	</item>
+	<item id="107">
+		<!-- Icarus Hammer -->
+		<ingredient count="1" id="10220" />
+		<!-- Neolithic Crystal - S80 -->
+		<ingredient count="1" id="14681" />
+		<!-- Icarus Hammer - Earth -->
+		<production count="1" id="11333" />
+	</item>
+	<item id="108">
+		<!-- Icarus Hall -->
+		<ingredient count="1" id="10222" />
+		<!-- Neolithic Crystal - S80 -->
+		<ingredient count="1" id="14681" />
+		<!-- Icarus Hall - Hail -->
+		<production count="1" id="11345" />
+	</item>
+	<item id="109">
+		<!-- Icarus Sawsword -->
+		<ingredient count="1" id="10215" />
+		<!-- Neolithic Crystal - S80 -->
+		<ingredient count="1" id="14681" />
+		<!-- Icarus Sawsword - Destruction -->
+		<production count="1" id="11305" />
+	</item>
+	<item id="110">
+		<!-- Icarus Spirit -->
+		<ingredient count="1" id="10217" />
+		<!-- Neolithic Crystal - S80 -->
+		<ingredient count="1" id="14681" />
+		<!-- Icarus Spirit - Nature -->
+		<production count="1" id="11317" />
+	</item>
+	<item id="111">
+		<!-- Icarus Heavy Arms -->
+		<ingredient count="1" id="10218" />
+		<!-- Neolithic Crystal - S80 -->
+		<ingredient count="1" id="14681" />
+		<!-- Icarus Heavy Arms - Lightning -->
+		<production count="1" id="11341" />
+	</item>
+	<item id="112">
+		<!-- Icarus Wingblade -->
+		<ingredient count="1" id="10225" />
+		<!-- Neolithic Crystal - S80 -->
+		<ingredient count="1" id="14681" />
+		<!-- Icarus Wingblade - Lightning -->
+		<production count="1" id="11325" />
+	</item>
+	<item id="113">
+		<!-- Icarus Stinger -->
+		<ingredient count="1" id="10224" />
+		<!-- Neolithic Crystal - S80 -->
+		<ingredient count="1" id="14681" />
+		<!-- Icarus Stinger - Destruction -->
+		<production count="1" id="11313" />
+	</item>
+	<item id="114">
+		<!-- Icarus Disperser -->
+		<ingredient count="1" id="10216" />
+		<!-- Neolithic Crystal - S80 -->
+		<ingredient count="1" id="14681" />
+		<!-- Icarus Disperser - Confusion -->
+		<production count="1" id="11301" />
+	</item>
+	<item id="115">
+		<!-- Icarus Spitter -->
+		<ingredient count="1" id="10223" />
+		<!-- Neolithic Crystal - S80 -->
+		<ingredient count="1" id="14681" />
+		<!-- Icarus Spitter - Concentration -->
+		<production count="1" id="11321" />
+	</item>
+	<item id="116">
+		<!-- Icarus Shooter -->
+		<ingredient count="1" id="10226" />
+		<!-- Neolithic Crystal - S80 -->
+		<ingredient count="1" id="14681" />
+		<!-- Icarus Shooter - Concentration -->
+		<production count="1" id="11309" />
+	</item>
+	<item id="117">
+		<!-- Icarus Dual Sword -->
+		<ingredient count="1" id="10415" />
+		<!-- Neolithic Crystal - S80 -->
+		<ingredient count="1" id="14681" />
+		<!-- Icarus Dual Sword - Destruction -->
+		<production count="1" id="11300" />
+	</item>
+	<item id="118">
+		<!-- Icarus Dual Daggers -->
+		<ingredient count="1" id="13883" />
+		<!-- Neolithic Crystal - S80 -->
+		<ingredient count="1" id="14681" />
+		<!-- Icarus Dual Daggers - Confusion -->
+		<production count="1" id="14527" />
+	</item>
+	<item id="119">
+		<!-- Icarus Hand -->
+		<ingredient count="1" id="10221" />
+		<!-- Neolithic Crystal - S80 -->
+		<ingredient count="1" id="14681" />
+		<!-- Icarus Hand - Destruction -->
+		<production count="1" id="11337" />
+	</item>
+	<item id="120">
+		<!-- Icarus Trident -->
+		<ingredient count="1" id="10219" />
+		<!-- Neolithic Crystal - S80 -->
+		<ingredient count="1" id="14681" />
+		<!-- Icarus Trident - Thunder -->
+		<production count="1" id="11329" />
+	</item>
+	<item id="121">
+		<!-- Vesper Caster -->
+		<ingredient count="1" id="13465" />
+		<!-- Neolithic Crystal - S84 -->
+		<ingredient count="1" id="21579" />
+		<!-- Vesper Caster - Cleverness -->
+		<production count="1" id="16050" />
+	</item>
+	<item id="122">
+		<!-- Vesper Avenger -->
+		<ingredient count="1" id="13463" />
+		<!-- Neolithic Crystal - S84 -->
+		<ingredient count="1" id="21579" />
+		<!-- Vesper Avenger - Landslide -->
+		<production count="1" id="16048" />
+	</item>
+	<item id="123">
+		<!-- Vesper Singer -->
+		<ingredient count="1" id="13466" />
+		<!-- Neolithic Crystal - S84 -->
+		<ingredient count="1" id="21579" />
+		<!-- Vesper Singer - Tidal Wave -->
+		<production count="1" id="16051" />
+	</item>
+	<item id="124">
+		<!-- Vesper Retributer -->
+		<ingredient count="1" id="13464" />
+		<!-- Neolithic Crystal - S84 -->
+		<ingredient count="1" id="21579" />
+		<!-- Vesper Retributer - Gale -->
+		<production count="1" id="16049" />
+	</item>
+	<item id="125">
+		<!-- Vesper Cutter -->
+		<ingredient count="1" id="13457" />
+		<!-- Neolithic Crystal - S84 -->
+		<ingredient count="1" id="21579" />
+		<!-- Vesper Cutter - Thunder -->
+		<production count="1" id="16042" />
+	</item>
+	<item id="126">
+		<!-- Vesper Buster -->
+		<ingredient count="1" id="13459" />
+		<!-- Neolithic Crystal - S84 -->
+		<ingredient count="1" id="21579" />
+		<!-- Vesper Buster - Cleverness -->
+		<production count="1" id="16044" />
+	</item>
+	<item id="127">
+		<!-- Vesper Slasher -->
+		<ingredient count="1" id="13458" />
+		<!-- Neolithic Crystal - S84 -->
+		<ingredient count="1" id="21579" />
+		<!-- Vesper Slasher - Gale -->
+		<production count="1" id="16043" />
+	</item>
+	<item id="128">
+		<!-- Vesper Nagan -->
+		<ingredient count="1" id="13470" />
+		<!-- Neolithic Crystal - S84 -->
+		<ingredient count="1" id="21579" />
+		<!-- Vesper Nagan - Gale -->
+		<production count="1" id="16055" />
+	</item>
+	<item id="129">
+		<!-- Vesper Pincer -->
+		<ingredient count="1" id="13468" />
+		<!-- Neolithic Crystal - S84 -->
+		<ingredient count="1" id="21579" />
+		<!-- Vesper Pincer - Thunder -->
+		<production count="1" id="16053" />
+	</item>
+	<item id="130">
+		<!-- Vesper Shaper -->
+		<ingredient count="1" id="13460" />
+		<!-- Neolithic Crystal - S84 -->
+		<ingredient count="1" id="21579" />
+		<!-- Vesper Shaper - Gale -->
+		<production count="1" id="16045" />
+	</item>
+	<item id="131">
+		<!-- Vesper Thrower -->
+		<ingredient count="1" id="13467" />
+		<!-- Neolithic Crystal - S84 -->
+		<ingredient count="1" id="21579" />
+		<!-- Vesper Thrower - Clairvoyance -->
+		<production count="1" id="16052" />
+	</item>
+	<item id="132">
+		<!-- Vesper Schutze -->
+		<ingredient count="1" id="13469" />
+		<!-- Neolithic Crystal - S84 -->
+		<ingredient count="1" id="21579" />
+		<!-- Vesper Schutze - Clairvoyance -->
+		<production count="1" id="16054" />
+	</item>
+	<item id="133">
+		<!-- Vesper Dual Sword -->
+		<ingredient count="1" id="52" />
+		<!-- Neolithic Crystal - S84 -->
+		<ingredient count="1" id="21579" />
+		<!-- Vesper Dual Sword - Destruction -->
+		<production count="1" id="16150" />
+	</item>
+	<item id="131">
+		<!-- Vesper Dual Daggers -->
+		<ingredient count="1" id="13884" />
+		<!-- Neolithic Crystal - S84 -->
+		<ingredient count="1" id="21579" />
+		<!-- Vesper Dual Daggers - Gale -->
+		<production count="1" id="16148" />
+	</item>
+	<item id="135">
+		<!-- Vesper Fighter -->
+		<ingredient count="1" id="13461" />
+		<!-- Neolithic Crystal - S84 -->
+		<ingredient count="1" id="21579" />
+		<!-- Vesper Fighter - Gale -->
+		<production count="1" id="16046" />
+	</item>
+	<item id="136">
+		<!-- Vesper Stormer -->
+		<ingredient count="1" id="13462" />
+		<!-- Neolithic Crystal - S84 -->
+		<ingredient count="1" id="21579" />
+		<!-- Vesper Stormer - Thunder -->
+		<production count="1" id="16047" />
 	</item>
 </list>
