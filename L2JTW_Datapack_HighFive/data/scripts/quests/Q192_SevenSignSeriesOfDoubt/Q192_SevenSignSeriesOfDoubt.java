@@ -22,6 +22,7 @@ import com.l2jserver.gameserver.model.quest.State;
 
 /**
  * @author Plim
+ * Update by pmq High Five 12-06-2011
  */
 
 public class Q192_SevenSignSeriesOfDoubt extends Quest

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <instance name="SanctumOftheLordsOfDawn" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="instance.xsd">
 	<activityTime val="60" />
-	<emptyDestroyTime val="900" />
+	<emptyDestroyTime val="60" />
 	<allowSummon val="false" />
 	<spawnPoint spawnX="-12797" spawnY="122675" spawnZ="-3117" />
 	<doorlist>

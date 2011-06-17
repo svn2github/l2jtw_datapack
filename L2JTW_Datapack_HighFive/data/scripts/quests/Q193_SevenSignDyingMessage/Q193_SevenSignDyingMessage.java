@@ -26,6 +26,7 @@ import com.l2jserver.gameserver.network.serverpackets.NpcSay;
 
 /**
  * @author Plim
+ * Update by pmq High Five 12-06-2011
  */
 
 public class Q193_SevenSignDyingMessage extends Quest
@@ -103,9 +104,14 @@ public class Q193_SevenSignDyingMessage extends Quest
 			}
 			else if (event.equalsIgnoreCase("spawnS"))
 			{
-				ShilensevilOnSpawn = false;
-				npc.broadcastPacket(new NpcSay(SHILENSEVIL, 0,SHILENSEVIL, 19305));  // 小心！下次就不能活著回去了。
-				return "";
+				if (ShilensevilOnSpawn)
+				{
+					ShilensevilOnSpawn = false;
+					npc.broadcastPacket(new NpcSay(SHILENSEVIL, 0, SHILENSEVIL, 19305));  // 小心！下次就不能活著回去了。
+					htmltext = "";
+				}
+				else
+					htmltext = "";
 			}
 			
 			else if (event.equalsIgnoreCase("aiplayer"))
@@ -113,7 +119,7 @@ public class Q193_SevenSignDyingMessage extends Quest
 				if (ShilensevilOnSpawn == true)
 				{
 					npc.setTarget(player);
-					npc.doCast(SkillTable.getInstance().getInfo(1011, 18));
+					npc.doCast(SkillTable.getInstance().getInfo(1011, 18));  // Guess Skill
 					startQuestTimer("aiplayer", 30000, npc, player);
 					return "";
 				}
@@ -260,12 +266,12 @@ public class Q193_SevenSignDyingMessage extends Quest
 		
 		if (npc.getNpcId() == SHILENSEVIL && st.getInt("cond") == 4)
 		{
+			ShilensevilOnSpawn = false;
 			npc.broadcastPacket(new NpcSay(npc.getObjectId(), 0, npc.getNpcId(), "「" + player.getName() + "」！現在我就讓你一步..不過，我一定會抓到你的。"));
 			npc.broadcastPacket(new NpcSay(CAIN, 0, CAIN, "很好，「" + player.getName() + "」。很高興能幫得上你。"));
 			st.giveItems(SCULPTURE, 1);
 			st.set("cond", "5");
 			st.playSound("ItemSound.quest_middle");
-			ShilensevilOnSpawn = false;
 		}
 		
 		return super.onKill(npc, player, isPet);

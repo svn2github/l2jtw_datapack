@@ -25,6 +25,7 @@ import com.l2jserver.gameserver.network.serverpackets.NpcSay;
 
 /**
  * @author Plim
+ * Update by pmq High Five 17-06-2011
  */
 
 public class Q197_SevenSignTheSacredBookOfSeal extends Quest
@@ -103,7 +104,7 @@ public class Q197_SevenSignTheSacredBookOfSeal extends Quest
 					htmltext = "<html><body>偉大的師傅勞倫斯：<br>現在我可沒有跟你閒聊的時間！！！<br>（其他的玩家正在進行對話。）</body></html>";
 				else
 				{
-					L2MonsterInstance monster = (L2MonsterInstance) addSpawn(SHILENSEVIL, 152520, -57685, -3438, 0, false, 300000, true);
+					L2MonsterInstance monster = (L2MonsterInstance) addSpawn(SHILENSEVIL, 152520, -57486, -3430, 0, false, 300000, true);
 					monster.broadcastPacket(new NpcSay(monster.getObjectId(), 0, monster.getNpcId(), 19806));  // 那個物品的主人不是你們...
 					monster.setRunning();
 					monster.addDamageHate(player, 0, 999);
@@ -114,9 +115,14 @@ public class Q197_SevenSignTheSacredBookOfSeal extends Quest
 			}
 			else if (event.equalsIgnoreCase("spawnS"))
 			{
-				ShilensevilOnSpawn = false;
-				npc.broadcastPacket(new NpcSay(SHILENSEVIL, 0,SHILENSEVIL, 19305));  // 小心！下次就不能活著回去了。
-				return "";
+				if (ShilensevilOnSpawn)
+				{
+					ShilensevilOnSpawn = false;
+					npc.broadcastPacket(new NpcSay(SHILENSEVIL, 0, SHILENSEVIL, 19305));  // 小心！下次就不能活著回去了。
+					htmltext = "";
+				}
+				else
+					htmltext = "";
 			}
 			
 			else if (event.equalsIgnoreCase("32595-08.htm"))
@@ -237,11 +243,12 @@ public class Q197_SevenSignTheSacredBookOfSeal extends Quest
 		
 		if (npc.getNpcId() == SHILENSEVIL && st.getInt("cond") == 3)
 		{
-			npc.broadcastPacket(new NpcSay(npc.getObjectId(), 0, npc.getNpcId(),"「" + player.getName() + "」" + "！現在我就讓你一步..不過，我一定會抓到你的。"));
-			npc.broadcastPacket(new NpcSay(LAWRENCE,0,LAWRENCE,"很好，「" + player.getName() + "」。很高興能幫得上你。"));
+			ShilensevilOnSpawn = false;
+			npc.broadcastPacket(new NpcSay(npc.getObjectId(), 0, npc.getNpcId(), "「" + player.getName() + "」" + "！現在我就讓你一步..不過，我一定會抓到你的。"));  // 19306
+			npc.broadcastPacket(new NpcSay(npc.getObjectId(), 0, LAWRENCE, "很好，「" + player.getName() + "」。很高興能幫得上你。"));  // 1800847
 			st.giveItems(SCULPTURE, 1);
 			st.set("cond", "4");
-			ShilensevilOnSpawn = false;
+			st.playSound("ItemSound.quest_middle");
 		}
 		
 		return super.onKill(npc, player, isPet);
