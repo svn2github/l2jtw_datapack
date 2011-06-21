@@ -1,6 +1,5 @@
 -- For further information on the usage of this table, please refer to the
 -- documentation comments in the access_levels.sql file
-DROP TABLE IF EXISTS `admin_command_access_rights`;
 CREATE TABLE IF NOT EXISTS `admin_command_access_rights` (
   `adminCommand` varchar(255) NOT NULL DEFAULT 'admin_',
   `accessLevels` tinyint(3) NOT NULL DEFAULT '1',

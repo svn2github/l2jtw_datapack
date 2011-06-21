@@ -1,4 +1,3 @@
-DROP TABLE IF EXISTS `grandboss_data`;
 CREATE TABLE IF NOT EXISTS `grandboss_data` (
   `boss_id` smallint(5) unsigned NOT NULL DEFAULT '0',
   `loc_x` mediumint(6) NOT NULL DEFAULT '0',

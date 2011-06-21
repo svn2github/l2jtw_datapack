@@ -1,4 +1,3 @@
-DROP TABLE IF EXISTS `raidboss_spawnlist`;
 CREATE TABLE IF NOT EXISTS `raidboss_spawnlist` (
   `boss_id` int NOT NULL default '0',
   `amount` int NOT NULL default '0',

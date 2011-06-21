@@ -1,4 +1,3 @@
-DROP TABLE IF EXISTS `fort`;
 CREATE TABLE IF NOT EXISTS `fort` (
   `id` int(11) NOT NULL default 0,
   `name` varchar(25) NOT NULL,
