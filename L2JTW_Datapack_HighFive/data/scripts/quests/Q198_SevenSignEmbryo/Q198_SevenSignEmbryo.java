@@ -86,6 +86,7 @@ public class Q198_SevenSignEmbryo extends Quest
 	
 	private void teleportplayer(L2PcInstance player, teleCoord teleto)
 	{
+		ShilensevilOnSpawn = false;
 		removeBuffs(player);
 		if (player.getPet() != null)
 		{
@@ -171,16 +172,16 @@ public class Q198_SevenSignEmbryo extends Quest
 				else
 				{
 					npc.broadcastPacket(new NpcSay(npc.getObjectId(), 0, npc.getNpcId(),"「" + player.getName() + "」！我們得擊倒那個怪人，我會盡全力來幫你的！"));  // 1800845
-					L2MonsterInstance monster = (L2MonsterInstance) addSpawn(SHILENSEVIL1, -23801, -9004, -5385, 0, false, 0, false, npc.getInstanceId());
+					L2MonsterInstance monster = (L2MonsterInstance) addSpawn(SHILENSEVIL1, -23656, -9236, -5392, 0, false, 600000, true, npc.getInstanceId());
 					monster.broadcastPacket(new NpcSay(monster.getObjectId(), 0, monster.getNpcId(), 19806));  // 那個物品的主人不是你們...
 					monster.setRunning();
 					monster.addDamageHate(player, 0, 999);
 					monster.getAI().setIntention(CtrlIntention.AI_INTENTION_ATTACK, st.getPlayer());
-					L2MonsterInstance monster1 = (L2MonsterInstance) addSpawn(SHILENSEVIL2, -23801, -9004, -5385, 0, false, 0, false, npc.getInstanceId());
+					L2MonsterInstance monster1 = (L2MonsterInstance) addSpawn(SHILENSEVIL2, -23656, -9236, -5392, 0, false, 600000, true, npc.getInstanceId());
 					monster1.setRunning();
 					monster1.addDamageHate(player, 0, 999);
 					monster1.getAI().setIntention(CtrlIntention.AI_INTENTION_ATTACK, st.getPlayer());
-					L2MonsterInstance monster2 = (L2MonsterInstance) addSpawn(SHILENSEVIL3, -23801, -9004, -5385, 0, false, 0, false, npc.getInstanceId());
+					L2MonsterInstance monster2 = (L2MonsterInstance) addSpawn(SHILENSEVIL3, -23656, -9236, -5392, 0, false, 600000, true, npc.getInstanceId());
 					monster2.setRunning();
 					monster2.addDamageHate(player, 0, 999);
 					monster2.getAI().setIntention(CtrlIntention.AI_INTENTION_ATTACK, st.getPlayer());
@@ -312,8 +313,8 @@ public class Q198_SevenSignEmbryo extends Quest
 		
 		if (npc.getNpcId() == SHILENSEVIL1 && st.getInt("cond") == 1)
 		{
-			npc.broadcastPacket(new NpcSay(npc.getObjectId(), 0, npc.getNpcId(),"「" + player.getName() + "」" + "！現在我就讓你一步..不過，我一定會抓到你的。"));  // 19306
-			npc.broadcastPacket(new NpcSay(FRANZ,0,FRANZ,"很好，「" + player.getName() + "」。很高興能幫得上你。"));  // 1800847
+			npc.broadcastPacket(new NpcSay(npc.getObjectId(), 0, npc.getNpcId(), "「" + player.getName() + "」" + "！現在我就讓你一步..不過，我一定會抓到你的。"));  // 19306
+			npc.broadcastPacket(new NpcSay(FRANZ, 0, FRANZ, "很好，「" + player.getName() + "」。很高興能幫得上你。"));  // 1800847
 			st.giveItems(SCULPTURE, 1);
 			st.set("cond", "2");
 			player.showQuestMovie(14);
