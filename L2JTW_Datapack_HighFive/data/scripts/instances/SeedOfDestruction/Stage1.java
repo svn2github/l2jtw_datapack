@@ -161,7 +161,7 @@ public class Stage1 extends Quest
 	
 	private void load()
 	{
-		int spawnCount = 0;
+		//int spawnCount = 0;
 		try
 		{
 			DocumentBuilderFactory factory = DocumentBuilderFactory.newInstance();
@@ -240,7 +240,7 @@ public class Stage1 extends Quest
 										if (spw.isNeededNextFlag)
 											_mustKillMobsId.add(npcId);
 										_spawnList.get(flag).add(spw);
-										spawnCount++;
+										//spawnCount++;
 									}
 									else if ("zone".equalsIgnoreCase(cd.getNodeName()))
 									{
@@ -265,7 +265,7 @@ public class Stage1 extends Quest
 										if (spw.isNeededNextFlag)
 											_mustKillMobsId.add(npcId);
 										_spawnList.get(flag).add(spw);
-										spawnCount++;
+										//spawnCount++;
 									}
 								}
 							}
@@ -335,7 +335,7 @@ public class Stage1 extends Quest
 		}
 		if (debug)
 		{
-			_log.info("[Seed of Destruction] Loaded " + spawnCount + " spawns data.");
+			//_log.info("[Seed of Destruction] Loaded " + spawnCount + " spawns data.");
 			_log.info("[Seed of Destruction] Loaded " + _spawnZoneList.size() + " spawn zones data.");
 		}
 	}
