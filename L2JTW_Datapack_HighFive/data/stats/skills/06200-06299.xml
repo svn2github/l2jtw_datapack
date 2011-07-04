@@ -59,19 +59,25 @@
 	</skill>
 	<skill id="6204" levels="1" name="Transformed Condition - Guards of the Dawn">
 		<!-- Update by pmq -->
+		<set name="mpInitialConsume" val="6" />
+		<set name="mpConsume" val="24" />
+		<set name="hitTime" val="2000" />
 		<set name="target" val="TARGET_SELF" />
 		<set name="skillType" val="BUFF" />
 		<set name="operateType" val="OP_ACTIVE" />
 		<set name="transformId" val="113" />
+		<cond msgId="1509">
+			<player olympiad="false" />
+		</cond>
 		<for>
-			<!-- Don't Have abnormalTime Limit, info from PTS Euro -->
+			<!-- Don't Have Time Limit, info from PTS Euro -->
 			<effect name="Transformation" abnormalTime="21600" val="0" abnormalLvl="1" abnormalType="speed_up"> 
-				<set order="0x08" stat="STR" val="40"/>
-				<set order="0x08" stat="DEX" val="30"/>
-				<set order="0x08" stat="CON" val="43"/>
-				<set order="0x08" stat="INT" val="21"/>
-				<set order="0x08" stat="WIT" val="13"/>
-				<set order="0x08" stat="MEN" val="23"/>
+				<set order="0x08" stat="STR" val="40" />
+				<set order="0x08" stat="DEX" val="30" />
+				<set order="0x08" stat="CON" val="43" />
+				<set order="0x08" stat="INT" val="21" />
+				<set order="0x08" stat="WIT" val="13" />
+				<set order="0x08" stat="MEN" val="23" />
 			</effect>
 		</for>
 	</skill>
@@ -270,9 +276,11 @@
 		<set name="operateType" val="OP_PASSIVE" />
 	</skill>
 	<skill id="6236" levels="1" name="Presentation - Party Recall">
-		<set name="target" val="TARGET_NONE" />
-		<set name="skillType" val="NOTDONE" />
-		<set name="operateType" val="OP_PASSIVE" />
+		<!-- Update by pmq -->
+		<set name="target" val="TARGET_SELF" />
+		<set name="skillType" val="DUMMY" />
+		<set name="operateType" val="OP_ACTIVE" />
+		<set name="staticHitTime" val="true"/>
 	</skill>
 	<skill id="6237" levels="1" name="Moving Speed Decrease">
 		<set name="target" val="TARGET_NONE" />

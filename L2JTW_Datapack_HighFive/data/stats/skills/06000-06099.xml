@@ -329,9 +329,11 @@
 		<set name="target" val="TARGET_ONE" />
 	</skill>
 	<skill id="6045" levels="1" name="Presentation - Fortune Bug">
-		<set name="target" val="TARGET_NONE" />
-		<set name="skillType" val="NOTDONE" />
-		<set name="operateType" val="OP_PASSIVE" />
+		<!-- Update by pmq -->
+		<set name="target" val="TARGET_SELF" />
+		<set name="skillType" val="DUMMY" />
+		<set name="operateType" val="OP_ACTIVE" />
+		<set name="staticHitTime" val="true" />
 		<set name="hitTime" val="2000" />
 	</skill>
 	<skill id="6046" levels="14" name="Piercing Attack">
@@ -533,133 +535,185 @@
 		<set name="operateType" val="OP_PASSIVE" />
 	</skill>
 	<skill id="6062" levels="1" name="Raid Boss - Level 81">
-		<set name="target" val="TARGET_NONE" />
-		<set name="skillType" val="NOTDONE" />
+		<!-- Update by pmq -->
+		<set name="target" val="TARGET_SELF" />
+		<set name="skillType" val="PASSIVE" />
+		<set name="magicLvl" val="1" />
 		<set name="operateType" val="OP_PASSIVE" />
 	</skill>
 	<skill id="6063" levels="1" name="Raid Boss - Level 81">
-		<set name="target" val="TARGET_NONE" />
-		<set name="skillType" val="NOTDONE" />
+		<!-- Update by pmq -->
+		<set name="target" val="TARGET_SELF" />
+		<set name="skillType" val="PASSIVE" />
+		<set name="magicLvl" val="1" />
 		<set name="operateType" val="OP_PASSIVE" />
 	</skill>
 	<skill id="6064" levels="1" name="Raid Boss - Level 81">
-		<set name="target" val="TARGET_NONE" />
-		<set name="skillType" val="NOTDONE" />
+		<!-- Update by pmq -->
+		<set name="target" val="TARGET_SELF" />
+		<set name="skillType" val="PASSIVE" />
+		<set name="magicLvl" val="1" />
 		<set name="operateType" val="OP_PASSIVE" />
 	</skill>
 	<skill id="6065" levels="1" name="Raid Boss - Level 81">
-		<set name="target" val="TARGET_NONE" />
-		<set name="skillType" val="NOTDONE" />
+		<!-- Update by pmq -->
+		<set name="target" val="TARGET_SELF" />
+		<set name="skillType" val="PASSIVE" />
+		<set name="magicLvl" val="1" />
 		<set name="operateType" val="OP_PASSIVE" />
 	</skill>
 	<skill id="6066" levels="1" name="Raid Boss - Level 81">
-		<set name="target" val="TARGET_NONE" />
-		<set name="skillType" val="NOTDONE" />
+		<!-- Update by pmq -->
+		<set name="target" val="TARGET_SELF" />
+		<set name="skillType" val="PASSIVE" />
+		<set name="magicLvl" val="1" />
 		<set name="operateType" val="OP_PASSIVE" />
 	</skill>
 	<skill id="6067" levels="1" name="Raid Boss - Level 81">
-		<set name="target" val="TARGET_NONE" />
-		<set name="skillType" val="NOTDONE" />
+		<!-- Update by pmq -->
+		<set name="target" val="TARGET_SELF" />
+		<set name="skillType" val="PASSIVE" />
+		<set name="magicLvl" val="1" />
 		<set name="operateType" val="OP_PASSIVE" />
 	</skill>
 	<skill id="6068" levels="1" name="Raid Boss - Level 81">
-		<set name="target" val="TARGET_NONE" />
-		<set name="skillType" val="NOTDONE" />
+		<!-- Update by pmq -->
+		<set name="target" val="TARGET_SELF" />
+		<set name="skillType" val="PASSIVE" />
+		<set name="magicLvl" val="1" />
 		<set name="operateType" val="OP_PASSIVE" />
 	</skill>
 	<skill id="6069" levels="1" name="Raid Boss - Level 81">
-		<set name="target" val="TARGET_NONE" />
-		<set name="skillType" val="NOTDONE" />
+		<!-- Update by pmq -->
+		<set name="target" val="TARGET_SELF" />
+		<set name="skillType" val="PASSIVE" />
+		<set name="magicLvl" val="1" />
 		<set name="operateType" val="OP_PASSIVE" />
 	</skill>
 	<skill id="6070" levels="1" name="Raid Boss - Level 81">
-		<set name="target" val="TARGET_NONE" />
-		<set name="skillType" val="NOTDONE" />
+		<!-- Update by pmq -->
+		<set name="target" val="TARGET_SELF" />
+		<set name="skillType" val="PASSIVE" />
+		<set name="magicLvl" val="1" />
 		<set name="operateType" val="OP_PASSIVE" />
 	</skill>
 	<skill id="6071" levels="1" name="Raid Boss - Level 81">
-		<set name="target" val="TARGET_NONE" />
-		<set name="skillType" val="NOTDONE" />
+		<!-- Update by pmq -->
+		<set name="target" val="TARGET_SELF" />
+		<set name="skillType" val="PASSIVE" />
+		<set name="magicLvl" val="1" />
 		<set name="operateType" val="OP_PASSIVE" />
 	</skill>
 	<skill id="6072" levels="1" name="Raid Boss - Level 81">
-		<set name="target" val="TARGET_NONE" />
-		<set name="skillType" val="NOTDONE" />
+		<!-- Update by pmq -->
+		<set name="target" val="TARGET_SELF" />
+		<set name="skillType" val="PASSIVE" />
+		<set name="magicLvl" val="1" />
 		<set name="operateType" val="OP_PASSIVE" />
 	</skill>
 	<skill id="6073" levels="1" name="Raid Boss - Level 81">
-		<set name="target" val="TARGET_NONE" />
-		<set name="skillType" val="NOTDONE" />
+		<!-- Update by pmq -->
+		<set name="target" val="TARGET_SELF" />
+		<set name="skillType" val="PASSIVE" />
+		<set name="magicLvl" val="1" />
 		<set name="operateType" val="OP_PASSIVE" />
 	</skill>
 	<skill id="6074" levels="1" name="Raid Boss - Level 81">
-		<set name="target" val="TARGET_NONE" />
-		<set name="skillType" val="NOTDONE" />
+		<!-- Update by pmq -->
+		<set name="target" val="TARGET_SELF" />
+		<set name="skillType" val="PASSIVE" />
+		<set name="magicLvl" val="1" />
 		<set name="operateType" val="OP_PASSIVE" />
 	</skill>
 	<skill id="6075" levels="1" name="Raid Boss - Level 81">
-		<set name="target" val="TARGET_NONE" />
-		<set name="skillType" val="NOTDONE" />
+		<!-- Update by pmq -->
+		<set name="target" val="TARGET_SELF" />
+		<set name="skillType" val="PASSIVE" />
+		<set name="magicLvl" val="1" />
 		<set name="operateType" val="OP_PASSIVE" />
 	</skill>
 	<skill id="6076" levels="1" name="Raid Boss - Level 81">
-		<set name="target" val="TARGET_NONE" />
-		<set name="skillType" val="NOTDONE" />
+		<!-- Update by pmq -->
+		<set name="target" val="TARGET_SELF" />
+		<set name="skillType" val="PASSIVE" />
+		<set name="magicLvl" val="1" />
 		<set name="operateType" val="OP_PASSIVE" />
 	</skill>
 	<skill id="6077" levels="1" name="Raid Boss - Level 81">
-		<set name="target" val="TARGET_NONE" />
-		<set name="skillType" val="NOTDONE" />
+		<!-- Update by pmq -->
+		<set name="target" val="TARGET_SELF" />
+		<set name="skillType" val="PASSIVE" />
+		<set name="magicLvl" val="1" />
 		<set name="operateType" val="OP_PASSIVE" />
 	</skill>
 	<skill id="6078" levels="1" name="Raid Boss - Level 81">
-		<set name="target" val="TARGET_NONE" />
-		<set name="skillType" val="NOTDONE" />
+		<!-- Update by pmq -->
+		<set name="target" val="TARGET_SELF" />
+		<set name="skillType" val="PASSIVE" />
+		<set name="magicLvl" val="1" />
 		<set name="operateType" val="OP_PASSIVE" />
 	</skill>
 	<skill id="6079" levels="1" name="Raid Boss - Level 81">
-		<set name="target" val="TARGET_NONE" />
-		<set name="skillType" val="NOTDONE" />
+		<!-- Update by pmq -->
+		<set name="target" val="TARGET_SELF" />
+		<set name="skillType" val="PASSIVE" />
+		<set name="magicLvl" val="1" />
 		<set name="operateType" val="OP_PASSIVE" />
 	</skill>
 	<skill id="6080" levels="1" name="Raid Boss - Level 81">
-		<set name="target" val="TARGET_NONE" />
-		<set name="skillType" val="NOTDONE" />
+		<!-- Update by pmq -->
+		<set name="target" val="TARGET_SELF" />
+		<set name="skillType" val="PASSIVE" />
+		<set name="magicLvl" val="1" />
 		<set name="operateType" val="OP_PASSIVE" />
 	</skill>
 	<skill id="6081" levels="1" name="Raid Boss - Level 81">
-		<set name="target" val="TARGET_NONE" />
-		<set name="skillType" val="NOTDONE" />
+		<!-- Update by pmq -->
+		<set name="target" val="TARGET_SELF" />
+		<set name="skillType" val="PASSIVE" />
+		<set name="magicLvl" val="1" />
 		<set name="operateType" val="OP_PASSIVE" />
 	</skill>
 	<skill id="6082" levels="1" name="Raid Boss - Level 81">
-		<set name="target" val="TARGET_NONE" />
-		<set name="skillType" val="NOTDONE" />
+		<!-- Update by pmq -->
+		<set name="target" val="TARGET_SELF" />
+		<set name="skillType" val="PASSIVE" />
+		<set name="magicLvl" val="1" />
 		<set name="operateType" val="OP_PASSIVE" />
 	</skill>
 	<skill id="6083" levels="1" name="Raid Boss - Level 81">
-		<set name="target" val="TARGET_NONE" />
-		<set name="skillType" val="NOTDONE" />
+		<!-- Update by pmq -->
+		<set name="target" val="TARGET_SELF" />
+		<set name="skillType" val="PASSIVE" />
+		<set name="magicLvl" val="1" />
 		<set name="operateType" val="OP_PASSIVE" />
 	</skill>
 	<skill id="6084" levels="1" name="Raid Boss - Level 80">
-		<set name="target" val="TARGET_NONE" />
-		<set name="skillType" val="NOTDONE" />
+		<!-- Update by pmq -->
+		<set name="target" val="TARGET_SELF" />
+		<set name="skillType" val="PASSIVE" />
+		<set name="magicLvl" val="1" />
 		<set name="operateType" val="OP_PASSIVE" />
 	</skill>
 	<skill id="6085" levels="1" name="Raid Boss - Level 80">
-		<set name="target" val="TARGET_NONE" />
-		<set name="skillType" val="NOTDONE" />
+		<!-- Update by pmq -->
+		<set name="target" val="TARGET_SELF" />
+		<set name="skillType" val="PASSIVE" />
+		<set name="magicLvl" val="1" />
 		<set name="operateType" val="OP_PASSIVE" />
 	</skill>
 	<skill id="6086" levels="1" name="Raid Boss - Level 80">
-		<set name="target" val="TARGET_NONE" />
-		<set name="skillType" val="NOTDONE" />
+		<!-- Update by pmq -->
+		<set name="target" val="TARGET_SELF" />
+		<set name="skillType" val="PASSIVE" />
+		<set name="magicLvl" val="1" />
 		<set name="operateType" val="OP_PASSIVE" />
 	</skill>
 	<skill id="6087" levels="1" name="Raid Boss - Level 80">
-		<set name="target" val="TARGET_NONE" />
-		<set name="skillType" val="NOTDONE" />
+		<!-- Update by pmq -->
+		<set name="target" val="TARGET_SELF" />
+		<set name="skillType" val="PASSIVE" />
+		<set name="magicLvl" val="1" />
 		<set name="operateType" val="OP_PASSIVE" />
 	</skill>
 	<skill id="6088" levels="1" name="Block Buff">

@@ -209,6 +209,7 @@
 	<skill id="21232" levels="1" name="Shiny Lit Platform">
 		<!-- Update by pmq -->
 		<!-- Steps onto the shiny lit platform. -->
+		<set name="aggroPoints" val="1" />
 		<set name="operateType" val="OP_ACTIVE" />
 		<set name="skillType" val="BUFF" />
 		<set name="target" val="TARGET_SELF" />
@@ -217,9 +218,7 @@
 			<player olympiad="false" />
 		</cond>
 		<for>
-			<effect name="Transformation" abnormalTime="1800" val="0" abnormalLvl="1" abnormalType="transform">
-				<mul order="0x30" stat="runSpd" val="1.5" /> <!-- Run Speed +40% -->
-			</effect>
+			<effect name="Transformation" abnormalTime="3600" val="0" abnormalLvl="1" abnormalType="transform" />
 		</for>
 	</skill>
 	<skill id="21233" levels="1" name="Release Seal on Agathion - Singer Dancer">
@@ -390,6 +389,7 @@
 	<skill id="21258" levels="1" name="Rocking Horse Mount">
 		<!-- Update by pmq -->
 		<!-- Mounts a rocking horse. -->
+		<set name="aggroPoints" val="1" />
 		<set name="operateType" val="OP_ACTIVE" />
 		<set name="skillType" val="BUFF" />
 		<set name="target" val="TARGET_SELF" />
@@ -398,9 +398,7 @@
 			<player olympiad="false" />
 		</cond>
 		<for>
-			<effect name="Transformation" abnormalTime="1800" val="0" abnormalLvl="1" abnormalType="transform">
-				<mul order="0x30" stat="runSpd" val="1.5" /> <!-- Run Speed +40% -->
-			</effect>
+			<effect name="Transformation" abnormalTime="3600" val="0" abnormalLvl="1" abnormalType="transform" />
 		</for>
 	</skill>
 	<skill id="21259" levels="1" name="Release Seal on Agathion - Chorong">

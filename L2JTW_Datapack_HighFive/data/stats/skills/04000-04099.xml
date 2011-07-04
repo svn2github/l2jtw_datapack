@@ -107,60 +107,92 @@
 		</for>
 	</skill>
 	<skill id="4009" levels="6" name="Resist Fire">
-		<!-- Freya retail confirmed -->
+		<!-- Update by pmq -->
+		<table name="#vuln"> 15 30 50 70 90 100 </table>
 		<set name="target" val="TARGET_SELF" />
 		<set name="skillType" val="BUFF" />
 		<set name="isMagic" val="true" />
 		<set name="operateType" val="OP_PASSIVE" />
+		<for>
+			<add order="0x40" stat="fireRes" val="#vuln" />
+		</for>
 	</skill>
 	<skill id="4010" levels="6" name="Resist Water">
-		<!-- Freya retail confirmed -->
+		<!-- Update by pmq -->
+		<table name="#vuln"> 15 30 50 70 90 100 </table>
 		<set name="target" val="TARGET_SELF" />
 		<set name="skillType" val="BUFF" />
 		<set name="isMagic" val="true" />
 		<set name="operateType" val="OP_PASSIVE" />
+		<for>
+			<add order="0x40" stat="waterRes" val="#vuln" />
+		</for>
 	</skill>
 	<skill id="4011" levels="6" name="Resist Wind">
-		<!-- Freya retail confirmed -->
+		<!-- Update by pmq -->
+		<table name="#vuln"> 15 30 50 70 90 100 </table>
 		<set name="target" val="TARGET_SELF" />
 		<set name="skillType" val="BUFF" />
 		<set name="isMagic" val="true" />
 		<set name="operateType" val="OP_PASSIVE" />
+		<for>
+			<add order="0x40" stat="windRes" val="#vuln" />
+		</for>
 	</skill>
 	<skill id="4012" levels="1" name="Resist Earth">
-		<!-- Freya retail confirmed -->
+		<!-- Update by pmq -->
+		<table name="#vuln"> 15 30 50 70 90 100 </table>
 		<set name="target" val="TARGET_SELF" />
 		<set name="skillType" val="BUFF" />
 		<set name="isMagic" val="true" />
 		<set name="operateType" val="OP_PASSIVE" />
+		<for>
+			<add order="0x40" stat="earthRes" val="#vuln" />
+		</for>
 	</skill>
 	<skill id="4013" levels="1" name="Resistance To Fire, Vulnerable To Water">
-		<!-- Freya retail confirmed -->
+		<!-- Update by pmq -->
 		<set name="target" val="TARGET_SELF" />
 		<set name="skillType" val="BUFF" />
 		<set name="isMagic" val="true" />
 		<set name="operateType" val="OP_PASSIVE" />
+		<for>
+			<add order="0x40" stat="fireRes" val="50" />
+			<sub order="0x40" stat="waterRes" val="15" />
+		</for>
 	</skill>
 	<skill id="4014" levels="1" name="Resistance To Water, Vulnerable To Fire">
-		<!-- Freya retail confirmed -->
+		<!-- Update by pmq -->
 		<set name="target" val="TARGET_SELF" />
 		<set name="skillType" val="BUFF" />
 		<set name="isMagic" val="true" />
 		<set name="operateType" val="OP_PASSIVE" />
+		<for>
+			<add order="0x40" stat="waterRes" val="50" />
+			<sub order="0x40" stat="fireRes" val="15" />
+		</for>
 	</skill>
 	<skill id="4015" levels="1" name="Resistance To Wind, Vulnerable To Earth">
-		<!-- Freya retail confirmed -->
+		<!-- Update by pmq -->
 		<set name="target" val="TARGET_SELF" />
 		<set name="skillType" val="BUFF" />
 		<set name="isMagic" val="true" />
 		<set name="operateType" val="OP_PASSIVE" />
+		<for>
+			<add order="0x40" stat="windRes" val="50" />
+			<sub order="0x40" stat="earthRes" val="15" />
+		</for>
 	</skill>
 	<skill id="4016" levels="1" name="Resistance To Earth, Vulnerable To Wind">
-		<!-- Freya retail confirmed -->
+		<!-- Update by pmq -->
 		<set name="target" val="TARGET_SELF" />
 		<set name="skillType" val="BUFF" />
 		<set name="isMagic" val="true" />
 		<set name="operateType" val="OP_PASSIVE" />
+		<for>
+			<add order="0x40" stat="earthRes" val="50" />
+			<sub order="0x40" stat="windRes" val="15" />
+		</for>
 	</skill>
 	<skill id="4017" levels="1" name="Queen Ant Brandish">
 		<!-- Confirmed CT2.5 -->

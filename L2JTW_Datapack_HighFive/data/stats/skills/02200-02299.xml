@@ -691,12 +691,24 @@
 		</cond>
 	</skill>
 	<skill id="2239" levels="1" name="Petrification Scroll">
-		<set name="target" val="TARGET_NONE" />
-		<set name="skillType" val="NOTDONE" />
-		<set name="operateType" val="OP_ACTIVE" />
+		<!-- Update by pmq -->
+		<set name="itemConsumeCount" val="1"/>
+		<set name="power" val="100"/> <!-- Guess -->
+		<set name="isDebuff" val="true"/>
+		<set name="isMagic" val="true"/>
+		<set name="hitTime" val="4000"/>
+		<set name="staticHitTime" val="true"/>
+		<set name="operateType" val="OP_ACTIVE"/>
+		<set name="skillType" val="PARALYZE"/>
+		<set name="target" val="TARGET_ONE"/>
+		<set name="castRange" val="600"/>
+		<set name="effectRange" val="1100"/>
 		<cond msgId="113" addName="1">
 			<player flyMounted="False" />
 		</cond>
+		<for>
+			<effect name="Paralyze" abnormalTime="30" val="0" abnormalLvl="1" stackType="turn_stone"/>
+		</for>
 	</skill>
 	<skill id="2240" levels="1" name="Hot Spring Nectar">
 		<set name="target" val="TARGET_NONE" />
@@ -940,67 +952,91 @@
 		</for>
 	</skill>
 	<skill id="2254" levels="3" name="Crystal of Fire">
-		<set name="target" val="TARGET_NONE" />
-		<set name="skillType" val="NOTDONE" />
-		<set name="operateType" val="OP_ACTIVE" />
-		<set name="reuseDelay" val="10000" />
+		<!-- Update by pmq -->
+		<set name="itemConsumeCount" val="1" />
 		<set name="hitTime" val="1000" />
+		<set name="target" val="TARGET_SELF" />
+		<set name="reuseDelay" val="10000" />
+		<set name="skillType" val="BUFF" />
+		<set name="operateType" val="OP_ACTIVE" />
 		<set name="staticHitTime" val="true" />
+		<set name="staticReuse" val="true" />
+		<set name="isPotion" val="true"  />
 		<cond msgId="113" addName="1">
 			<player flyMounted="False" />
 		</cond>
 	</skill>
 	<skill id="2255" levels="3" name="Crystal of Water">
-		<set name="target" val="TARGET_NONE" />
-		<set name="skillType" val="NOTDONE" />
-		<set name="operateType" val="OP_ACTIVE" />
+		<!-- Update by pmq -->
+		<set name="itemConsumeCount" val="1" />
+		<set name="hitTime" val="1000"/>
+		<set name="target" val="TARGET_SELF" />
 		<set name="reuseDelay" val="10000" />
-		<set name="hitTime" val="1000" />
+		<set name="skillType" val="BUFF" />
+		<set name="operateType" val="OP_ACTIVE" />
 		<set name="staticHitTime" val="true" />
+		<set name="staticReuse" val="true" />
+		<set name="isPotion" val="true" />
 		<cond msgId="113" addName="1">
 			<player flyMounted="False" />
 		</cond>
 	</skill>
 	<skill id="2256" levels="3" name="Crystal of Wind">
-		<set name="target" val="TARGET_NONE" />
-		<set name="skillType" val="NOTDONE" />
-		<set name="operateType" val="OP_ACTIVE" />
-		<set name="reuseDelay" val="10000" />
+		<!-- Update by pmq -->
+		<set name="itemConsumeCount" val="1" />
 		<set name="hitTime" val="1000" />
+		<set name="target" val="TARGET_SELF" />
+		<set name="reuseDelay" val="10000" />
+		<set name="skillType" val="BUFF" />
+		<set name="operateType" val="OP_ACTIVE" />
 		<set name="staticHitTime" val="true" />
+		<set name="staticReuse" val="true" />
+		<set name="isPotion" val="true" />
 		<cond msgId="113" addName="1">
 			<player flyMounted="False" />
 		</cond>
 	</skill>
 	<skill id="2257" levels="3" name="Crystal of Earth">
-		<set name="target" val="TARGET_NONE" />
-		<set name="skillType" val="NOTDONE" />
-		<set name="operateType" val="OP_ACTIVE" />
-		<set name="reuseDelay" val="10000" />
+		<!-- Update by pmq -->
+		<set name="itemConsumeCount" val="1" />
 		<set name="hitTime" val="1000" />
+		<set name="target" val="TARGET_SELF" />
+		<set name="reuseDelay" val="10000" />
+		<set name="skillType" val="BUFF" />
+		<set name="operateType" val="OP_ACTIVE" />
 		<set name="staticHitTime" val="true" />
+		<set name="staticReuse" val="true" />
+		<set name="isPotion" val="true" />
 		<cond msgId="113" addName="1">
 			<player flyMounted="False" />
 		</cond>
 	</skill>
 	<skill id="2258" levels="3" name="Crystal of Darkness">
-		<set name="target" val="TARGET_NONE" />
-		<set name="skillType" val="NOTDONE" />
-		<set name="operateType" val="OP_ACTIVE" />
-		<set name="reuseDelay" val="10000" />
+		<!-- Update by pmq -->
+		<set name="itemConsumeCount" val="1" />
 		<set name="hitTime" val="1000" />
+		<set name="target" val="TARGET_SELF" />
+		<set name="reuseDelay" val="10000" />
+		<set name="skillType" val="BUFF"/>
+		<set name="operateType" val="OP_ACTIVE" />
 		<set name="staticHitTime" val="true" />
+		<set name="staticReuse" val="true" />
+		<set name="isPotion" val="true" />
 		<cond msgId="113" addName="1">
 			<player flyMounted="False" />
 		</cond>
 	</skill>
 	<skill id="2259" levels="3" name="Crystal of Sacredness">
-		<set name="target" val="TARGET_NONE" />
-		<set name="skillType" val="NOTDONE" />
-		<set name="operateType" val="OP_ACTIVE" />
-		<set name="reuseDelay" val="10000" />
+		<!-- Update by pmq -->
+		<set name="itemConsumeCount" val="1" />
 		<set name="hitTime" val="1000" />
+		<set name="target" val="TARGET_SELF" />
+		<set name="reuseDelay" val="10000" />
+		<set name="skillType" val="BUFF" />
+		<set name="operateType" val="OP_ACTIVE" />
 		<set name="staticHitTime" val="true" />
+		<set name="staticReuse" val="true" />
+		<set name="isPotion" val="true" />
 		<cond msgId="113" addName="1">
 			<player flyMounted="False" />
 		</cond>

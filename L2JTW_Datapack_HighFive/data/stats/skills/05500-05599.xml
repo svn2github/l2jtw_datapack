@@ -108,10 +108,16 @@
 		<set name="hitTime" val="2500" />
 	</skill>
 	<skill id="5508" levels="1" name="Earth Blossom">
-		<set name="target" val="TARGET_NONE" />
-		<set name="skillType" val="NOTDONE" />
+		<!-- Update by pmq -->
+		<set name="target" val="TARGET_SELF" />
+		<set name="skillType" val="PASSIVE" />
+		<set name="chance" val="15" />
 		<set name="operateType" val="OP_PASSIVE" />
-		<set name="hitTime" val="2500" />
+		<for>
+			<effect applyOnCaster="true" name="Buff" count="1" val="0" abnormalTime="10" abnormalType="prot_of">
+				<add order="0x30" stat="darkRes" val="40" />
+			</effect>
+		</for>
 	</skill>
 	<skill id="5509" levels="1" name="Fire Power">
 		<!-- Update by pmq -->
@@ -398,7 +404,7 @@
 			<player agathionId="16031" />
 		</cond>
 		<for>
-			<effect name="BigHead" abnormalTime="120" val="0" abnormal="bighead" abnormalLvl="0" abnormalType="big_head" />
+			<effect name="BigHead" abnormalTime="120" val="0" abnormal="bighead" abnormalLvl="1" abnormalType="big_head" />
 		</for>
 	</skill>
 	<skill id="5540" levels="1" name="Little Angel Agathion Special Skill - Power of Blessed Return">
@@ -444,7 +450,7 @@
 			<player agathionId="16032" />
 		</cond>
 		<for>
-			<effect name="BigHead" abnormalTime="120" val="0" abnormal="bighead" abnormalLvl="0" abnormalType="big_head" />
+			<effect name="BigHead" abnormalTime="120" val="0" abnormal="bighead" abnormalLvl="1" abnormalType="big_head" />
 		</for>
 	</skill>
 	<skill id="5544" levels="1" name="Little Devil Agathion Special Skill - Power of Blessed Return">
@@ -517,22 +523,23 @@
 	</skill>
 	<skill id="5551" levels="12" name="Stun">
 		<!-- Update by pmq -->
-		<set name="mpConsume" val="0" />
-		<set name="power" val="40" />
+		<table name="#mpInitialConsume"> 2 4 5 7 10 12 14 15 16 16 16 17 </table>
+		<table name="#mpConsume"> 10 16 22 30 40 48 56 60 64 66 67 68 </table>
+		<table name="#magicLvl"> 10 20 30 40 50 60 70 75 80 85 90 95 </table>
+		<set name="magicLvl" val="#magicLvl" />
+		<set name="lvlDepend" val="1" />
+		<set name="mpInitialConsume" val="#mpInitialConsume" />
+		<set name="mpConsume" val="#mpConsume" />
+		<set name="power" val="50" />
+		<set name="target" val="TARGET_ONE" />
 		<set name="hitTime" val="2500" />
-		<set name="overHit" val="false" />
-		<set name="ignoreShld" val="false" />
-		<set name="operateType" val="OP_ACTIVE" />
-		<set name="isMagic" val="false" />
-		<set name="target" val="TARGET_AURA" />
-		<set name="skillRadius" val="300" />
-		<set name="basicProperty" val="CON" />
 		<set name="skillType" val="STUN" />
+		<set name="operateType" val="OP_ACTIVE" />
+		<set name="isDebuff" val="true" />
 		<set name="castRange" val="40" />
-		<set name="effectRange" val="80" />
-		<set name="reuseDelay" val="360000" />
+		<set name="effectRange" val="400" />
 		<for>
-			<effect count="1" name="Stun" abnormalTime="8" val="0" abnormalLvl="1" abnormalType="Stun" />
+			<effect name="Stun" abnormalTime="9" val="0" abnormalLvl="1" abnormalType="Stun" />
 		</for>
 	</skill>
 	<skill id="5552" levels="12" name="NPC Hill Up">
@@ -583,7 +590,7 @@
 		<set name="operateType" val="OP_ACTIVE" />
 		<set name="activationChance" val="5" />
 		<for>
-			<effect count="1" name="Buff" abnormalTime="10" val="0">
+			<effect name="Buff" abnormalTime="10" val="0" abnormalLvl="1" abnormalType="ProtBoost">
 				<add order="0x40" stat="mDef" val="750" />
 				<add order="0x40" stat="waterRes" val="15" />
 				<add order="0x40" stat="fireRes" val="15" />
@@ -600,7 +607,7 @@
 		<set name="operateType" val="OP_ACTIVE" />
 		<set name="activationChance" val="5" />
 		<for>
-			<effect count="1" name="Buff" abnormalTime="10" val="0">
+			<effect name="Buff" abnormalTime="10" val="0" abnormalLvl="1" abnormalType="ProtBoost">
 				<add order="0x40" stat="mDef" val="750" />
 				<add order="0x40" stat="darkRes" val="10" />
 				<add order="0x40" stat="holyRes" val="10" />
@@ -745,9 +752,19 @@
 		</for>
 	</skill>
 	<skill id="5566" levels="1" name="Post of Destruction">
-		<set name="target" val="TARGET_NONE" />
-		<set name="skillType" val="NOTDONE" />
-		<set name="operateType" val="OP_PASSIVE" />
+		<!-- Update by pmq -->
+		<set name="power" val="2516" />
+		<set name="magicLvl" val="81" />
+		<set name="target" val="TARGET_ONE" />
+		<set name="reuseDelay" val="60000" />
+		<set name="skillType" val="CHARGEDAM" />
+		<set name="operateType" val="OP_ACTIVE" />
+		<set name="castRange" val="40" />
+		<set name="baseCritRate" val="17" />
+		<set name="num_charges" val="2" />
+		<cond msgId="113" addName="1">
+			<using kind="Fist, Dual Fist"/>
+		</cond>
 	</skill>
 	<skill id="5567" levels="1" name="Flame Armor">
 		<!-- Confirmed CT2.5 -->
@@ -1244,7 +1261,7 @@
 		<set name="target" val="TARGET_ONE" />
 		<for>
 			<!-- 200HP * 1 during 5 seconds -->
-			<effect count="5" name="DamOverTime" val="200" abnormal="bleed" abnormalLvl="10" abnormalType="dot_attr" />
+			<effect count="5" name="DamOverTime" val="200" abnormal="bleed" abnormalLvl="11" abnormalType="dot_attr" />
 		</for>
 	</skill>
 	<skill id="5597" levels="1" name="Invalid Skill cancel">
@@ -1256,10 +1273,8 @@
 		<!-- Update by pmq -->
 		<table name="#resist"> 0.9 0.9 0.8 0.8 0.8 0.7 0.7 0.7 0.6 0.6 0.6 0.5 </table>
 		<set name="magicLvl" val="1" />
-		<set name="power" val="0.0" />
 		<set name="target" val="TARGET_SELF" />
 		<set name="skillType" val="BUFF" />
-		<set name="hitTime" val="0" />
 		<set name="operateType" val="OP_PASSIVE" />
 		<set name="castRange" val="-1" />
 		<set name="effectRange" val="-1" />
@@ -1271,10 +1286,9 @@
 		<!-- Update by pmq -->
 		<table name="#resist"> 0.9 0.9 0.8 0.8 0.8 0.7 0.7 0.7 0.6 0.6 0.6 0.5 </table>
 		<set name="magicLvl" val="1" />
-		<set name="power" val="0.0" />
+
 		<set name="target" val="TARGET_SELF" />
 		<set name="skillType" val="BUFF" />
-		<set name="hitTime" val="0" />
 		<set name="operateType" val="OP_PASSIVE" />
 		<set name="castRange" val="-1" />
 		<set name="effectRange" val="-1" />

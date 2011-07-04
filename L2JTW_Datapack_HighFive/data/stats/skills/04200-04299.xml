@@ -1224,11 +1224,14 @@
 		</for>
 	</skill>
 	<skill id="4278" levels="1" name="Dark Attack">
+		<!-- Update by pmq -->
 		<set name="target" val="TARGET_SELF" />
 		<set name="skillType" val="BUFF" />
+		<set name="magicLvl" val="1" />
 		<set name="operateType" val="OP_PASSIVE" />
+		<set name="element" val="5" /> <!-- Dark -->
 		<for>
-			<add order="0x40" stat="darkPower" val="20" />
+			<add order="0x40" stat="darkPower" val="10" />
 		</for>
 	</skill>
 	<skill id="4279" levels="5" name="Fire Attack Weak Point">

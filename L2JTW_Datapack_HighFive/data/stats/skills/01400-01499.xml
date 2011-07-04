@@ -1465,8 +1465,8 @@
 		<enchant3 name="element" val="2" /> <!-- Wind -->
 		<enchant3 name="elementPower" val="#ench3WindPwr" />
 		<enchant4for>
-			<mul order="0x30" stat="pvpPhysDmg" val="#ench4Duel"/>
-			<mul order="0x30" stat="pvpMagicalDmg" val="#ench4Duel"/>
+			<mul order="0x30" stat="pvpPhysDmg" val="#ench4Duel" />
+			<mul order="0x30" stat="pvpMagicalDmg" val="#ench4Duel" />
 		</enchant4for>
 	</skill>
 	<skill id="1451" levels="1" name="Fire Vortex Buster" enchantGroup1="6" enchantGroup2="6" enchantGroup3="6">

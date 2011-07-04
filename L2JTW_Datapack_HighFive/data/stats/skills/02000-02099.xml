@@ -58,7 +58,7 @@
 		<!-- Update by pmq -->
 		<!-- Summer Squash Event Skill (http://www.lineage2.com/archive/2006/11/fall_harvest.html) -->
 		<!-- scripts/events/SquashEvent.java onSkillSee() -->
-		<set name="itemConsumeCount" val="1"/>
+		<set name="itemConsumeCount" val="1" />
 		<set name="target" val="TARGET_ONE" />
 		<set name="skillType" val="DUMMY" />
 		<set name="isDebuff" val="true" />

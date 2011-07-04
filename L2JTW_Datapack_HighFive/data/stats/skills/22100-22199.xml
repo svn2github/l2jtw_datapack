@@ -90,37 +90,52 @@
 	<skill id="22105" levels="1" name="Wooldy Summon Scroll - Event">
 		<!-- Update by rocknow -->
 		<set name="itemConsumeCount" val="1" />
-		<set name="summonTotalLifeTime" val="1200000" />
-		<set name="summonTimeLostIdle" val="500" />
-		<set name="summonTimeLostActive" val="1000" />
+		<set name="mpInitialConsume" val="24" />
+		<set name="mpConsume" val="97" />
+		<set name="isMagic" val="true" />
+		<set name="reuseDelay" val="5000" />
+		<set name="hitTime" val="6000" />
 		<set name="target" val="TARGET_SELF" />
-		<set name="hitTime" val="1500" />
 		<set name="skillType" val="SUMMON" />
 		<set name="operateType" val="OP_ACTIVE" />
+		<!-- Summon-specific -->
+		<set name="summonTotalLifeTime" val="1200000" /> <!-- guessed -->
+		<set name="summonTimeLostIdle" val="500" />
+		<set name="summonTimeLostActive" val="1000" />
 		<set name="npcId" val="19" />
 	</skill>
 	<skill id="22106" levels="1" name="Verdandi Summon Scroll - Event">
 		<!-- Update by rocknow -->
 		<set name="itemConsumeCount" val="1" />
-		<set name="summonTotalLifeTime" val="1200000" />
-		<set name="summonTimeLostIdle" val="500" />
-		<set name="summonTimeLostActive" val="1000" />
+		<set name="mpInitialConsume" val="24" />
+		<set name="mpConsume" val="97" />
+		<set name="isMagic" val="true" />
+		<set name="reuseDelay" val="5000" />
+		<set name="hitTime" val="6000" />
 		<set name="target" val="TARGET_SELF" />
-		<set name="hitTime" val="1500" />
 		<set name="skillType" val="SUMMON" />
 		<set name="operateType" val="OP_ACTIVE" />
+		<!-- Summon-specific -->
+		<set name="summonTotalLifeTime" val="1200000" /> <!-- guessed -->
+		<set name="summonTimeLostIdle" val="500" />
+		<set name="summonTimeLostActive" val="1000" />
 		<set name="npcId" val="20" />
 	</skill>
 	<skill id="22107" levels="1" name="Skooldy Summon Scroll - Event">
 		<!-- Update by rocknow -->
 		<set name="itemConsumeCount" val="1" />
-		<set name="summonTotalLifeTime" val="1200000" />
-		<set name="summonTimeLostIdle" val="500" />
-		<set name="summonTimeLostActive" val="1000" />
+		<set name="mpInitialConsume" val="24" />
+		<set name="mpConsume" val="97" />
+		<set name="isMagic" val="true" />
+		<set name="reuseDelay" val="5000" />
+		<set name="hitTime" val="6000" />
 		<set name="target" val="TARGET_SELF" />
-		<set name="hitTime" val="1500" />
 		<set name="skillType" val="SUMMON" />
 		<set name="operateType" val="OP_ACTIVE" />
+		<!-- Summon-specific -->
+		<set name="summonTotalLifeTime" val="1200000" /> <!-- guessed -->
+		<set name="summonTimeLostIdle" val="500" />
+		<set name="summonTimeLostActive" val="1000" />
 		<set name="npcId" val="21" />
 	</skill>
 	<skill id="22108" levels="1" name="Halloween Toy Box">
@@ -160,49 +175,69 @@
 	<skill id="22110" levels="1" name="Lucky Sky Lantern Summon">
 		<!-- Update by rocknow -->
 		<set name="itemConsumeCount" val="1" />
-		<set name="summonTotalLifeTime" val="1200000" />
-		<set name="summonTimeLostIdle" val="500" />
-		<set name="summonTimeLostActive" val="1000" />
+		<set name="mpInitialConsume" val="24" />
+		<set name="mpConsume" val="97" />
+		<set name="isMagic" val="true" />
+		<set name="reuseDelay" val="5000" />
+		<set name="hitTime" val="6000" />
 		<set name="target" val="TARGET_SELF" />
-		<set name="hitTime" val="1500" />
 		<set name="skillType" val="SUMMON" />
 		<set name="operateType" val="OP_ACTIVE" />
+		<!-- Summon-specific -->
+		<set name="summonTotalLifeTime" val="1200000" /> <!-- guessed -->
+		<set name="summonTimeLostIdle" val="500" />
+		<set name="summonTimeLostActive" val="1000" />
 		<set name="npcId" val="22" />
 	</skill>
 	<skill id="22111" levels="1" name="Ambient Sky Lantern Summon">
 		<!-- Update by rocknow -->
 		<set name="itemConsumeCount" val="1" />
-		<set name="summonTotalLifeTime" val="1200000" />
-		<set name="summonTimeLostIdle" val="500" />
-		<set name="summonTimeLostActive" val="1000" />
+		<set name="mpInitialConsume" val="24" />
+		<set name="mpConsume" val="97" />
+		<set name="isMagic" val="true" />
+		<set name="reuseDelay" val="5000" />
+		<set name="hitTime" val="6000" />
 		<set name="target" val="TARGET_SELF" />
-		<set name="hitTime" val="1500" />
 		<set name="skillType" val="SUMMON" />
 		<set name="operateType" val="OP_ACTIVE" />
+		<!-- Summon-specific -->
+		<set name="summonTotalLifeTime" val="1200000" /> <!-- guessed -->
+		<set name="summonTimeLostIdle" val="500" />
+		<set name="summonTimeLostActive" val="1000" />
 		<set name="npcId" val="23" />
 	</skill>
 	<skill id="22112" levels="1" name="Sway Sky Lantern Summon">
 		<!-- Update by rocknow -->
 		<set name="itemConsumeCount" val="1" />
-		<set name="summonTotalLifeTime" val="1200000" />
-		<set name="summonTimeLostIdle" val="500" />
-		<set name="summonTimeLostActive" val="1000" />
+		<set name="mpInitialConsume" val="24" />
+		<set name="mpConsume" val="97" />
+		<set name="isMagic" val="true" />
+		<set name="reuseDelay" val="5000" />
+		<set name="hitTime" val="6000" />
 		<set name="target" val="TARGET_SELF" />
-		<set name="hitTime" val="1500" />
 		<set name="skillType" val="SUMMON" />
 		<set name="operateType" val="OP_ACTIVE" />
+		<!-- Summon-specific -->
+		<set name="summonTotalLifeTime" val="1200000" /> <!-- guessed -->
+		<set name="summonTimeLostIdle" val="500" />
+		<set name="summonTimeLostActive" val="1000" />
 		<set name="npcId" val="24" />
 	</skill>
 	<skill id="22113" levels="1" name="Comfort Sky Lantern Summon">
 		<!-- Update by rocknow -->
 		<set name="itemConsumeCount" val="1" />
-		<set name="summonTotalLifeTime" val="1200000" />
-		<set name="summonTimeLostIdle" val="500" />
-		<set name="summonTimeLostActive" val="1000" />
+		<set name="mpInitialConsume" val="24" />
+		<set name="mpConsume" val="97" />
+		<set name="isMagic" val="true" />
+		<set name="reuseDelay" val="5000" />
+		<set name="hitTime" val="6000" />
 		<set name="target" val="TARGET_SELF" />
-		<set name="hitTime" val="1500" />
 		<set name="skillType" val="SUMMON" />
 		<set name="operateType" val="OP_ACTIVE" />
+		<!-- Summon-specific -->
+		<set name="summonTotalLifeTime" val="1200000" /> <!-- guessed -->
+		<set name="summonTimeLostIdle" val="500" />
+		<set name="summonTimeLostActive" val="1000" />
 		<set name="npcId" val="25" />
 	</skill>
 	<skill id="22114" levels="1" name="Morph Scroll Box">
@@ -314,10 +349,12 @@
 				<mul order="0x30" stat="pDef" val="0.92" />
 				<mul order="0x30" stat="mDef" val="0.84" />
 				<sub order="0x40" stat="rEvas" val="4" />
-				<mul order="0x30" stat="pAtk" val="1.08" />
-				<mul order="0x30" stat="mAtk" val="1.16" />
+				<mul order="0x30" stat="pAtk" val="1.15" />
 				<mul order="0x30" stat="pAtkSpd" val="1.08" />
+				<mul order="0x30" stat="mAtk" val="1.16" />
+				<mul order="0x30" stat="mAtkSpd" val="1.08" />
 				<add order="0x40" stat="runSpd" val="8" />
+				<add order="0x40" stat="absorbDam" val="9" /> <!-- absorb 9% HP from damage inflicted on enemies -->
 			</effect>
 		</for>
 	</skill>
@@ -591,9 +628,15 @@
 	</skill>
 	<skill id="22147" levels="1" name="Kung Hei Fat Choy Vampiric Rage">
 		<!-- For 1 hour, 9% of the standard short-range physical damage inflicted on the enemy is recovered as HP. -->
-		<set name="target" val="TARGET_NONE" />
-		<set name="skillType" val="NOTDONE" />
-		<set name="operateType" val="OP_PASSIVE" />
+		<!-- Update by pmq -->
+		<set name="target" val="TARGET_SELF" />
+		<set name="skillType" val="BUFF" />
+		<set name="operateType" val="OP_ACTIVE" />
+		<for>
+			<effect name="Buff" abnormalTime="3600" val="0">
+				<add order="0x40" stat="absorbDam" val="9" /> <!-- absorb 9% HP from damage inflicted on enemies -->
+			</effect>
+		</for>
 	</skill>
 	<skill id="22148" levels="1" name="Branding Blessed Body">
 		<!-- Increases Max HP by 35% for 1 hour. -->
@@ -614,13 +657,14 @@
 		<set name="skillType" val="BUFF" />
 		<set name="operateType" val="OP_ACTIVE" />
 		<for>
-			<effect name="Buff" abnormalTime="3600" val="0">
+			<effect name="Buff" abnormalTime="3600" val="0" abnormalLvl="1" abnormalType="berserk">
 				<mul order="0x30" stat="pDef" val="0.92" />
 				<mul order="0x30" stat="mDef" val="0.84" />
 				<sub order="0x40" stat="rEvas" val="4" />
 				<mul order="0x30" stat="pAtk" val="1.08" />
 				<mul order="0x30" stat="mAtk" val="1.16" />
 				<mul order="0x30" stat="pAtkSpd" val="1.08" />
+				<mul order="0x30" stat="mAtkSpd" val="1.08" />
 				<add order="0x40" stat="runSpd" val="8" />
 			</effect>
 		</for>
@@ -666,9 +710,15 @@
 	</skill>
 	<skill id="22153" levels="1" name="Love for All Seasons Wild Magic">
 		<!-- For 1 hour, increases by 2 the occurrence rate of damage that is caused by damage magic. -->
-		<set name="target" val="TARGET_NONE" />
-		<set name="skillType" val="NOTDONE" />
-		<set name="operateType" val="OP_PASSIVE" />
+		<!-- Update by pmq -->
+		<set name="target" val="TARGET_SELF" />
+		<set name="skillType" val="BUFF" />
+		<set name="operateType" val="OP_ACTIVE" />
+		<for>
+			<effect name="Buff" abnormalTime="3600" val="0" abnormalLvl="1" abnormalType="magic_critical_up">
+				<basemul order="0x30" stat="mCritRate" val="2" />
+			</effect>
+		</for>
 	</skill>
 	<skill id="22154" levels="1" name="Happy New Year Focus">
 		<!-- Increases Critical attack rate by 30% for 1 hour. -->
@@ -720,10 +770,16 @@
 	</skill>
 	<skill id="22158" levels="10" name="Rose Petal">
 		<!-- Increase HP/MP recovery by 20% for 5 minutes. -->
-		<set name="target" val="TARGET_NONE" />
-		<set name="skillType" val="NOTDONE" />
-		<set name="operateType" val="OP_PASSIVE" />
-		<set name="reuseDelay" val="2000" />
+		<!-- Update by pmq -->
+		<set name="target" val="TARGET_SELF" />
+		<set name="skillType" val="BUFF" />
+		<set name="operateType" val="OP_ACTIVE" />
+		<for>
+			<effect name="Buff" time="300" val="0">
+				<mul order="0x30" stat="regHp" val="1.2" />
+				<mul order="0x30" stat="regMp" val="1.2" />
+			</effect>
+		</for>
 	</skill>
 	<skill id="22159" levels="1" name="Vesper Super Power">
 		<!-- Increases P. Atk. by 15%, M. Atk. by 20% and Speed by 10 for 10 minutes. -->

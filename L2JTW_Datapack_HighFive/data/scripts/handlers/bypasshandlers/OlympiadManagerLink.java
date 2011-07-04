@@ -124,11 +124,29 @@ public class OlympiadManagerLink implements IBypassHandler
 						activeChar.sendPacket(html);
 						break;
 					case 4:
-						OlympiadManager.getInstance().registerNoble(activeChar, CompetitionType.NON_CLASSED);
+						// Add by pmq Start
+						if (OlympiadManager.getInstance().isRegistered(activeChar))
+						{
+							html.setFile(activeChar.getHtmlPrefix(), Olympiad.OLYMPIAD_HTML_PATH + "noble_unregister.htm");
+							html.replace("%objectId%", String.valueOf(target.getObjectId()));
+							activeChar.sendPacket(html);
+						}
+						else
+							OlympiadManager.getInstance().registerNoble(activeChar, CompetitionType.NON_CLASSED);
 						break;
+						// Add by pmq End
 					case 5:
-						OlympiadManager.getInstance().registerNoble(activeChar, CompetitionType.CLASSED);
+						// Add by pmq Start
+						if (OlympiadManager.getInstance().isRegistered(activeChar))
+						{
+							html.setFile(activeChar.getHtmlPrefix(), Olympiad.OLYMPIAD_HTML_PATH + "noble_unregister.htm");
+							html.replace("%objectId%", String.valueOf(target.getObjectId()));
+							activeChar.sendPacket(html);
+						}
+						else
+							OlympiadManager.getInstance().registerNoble(activeChar, CompetitionType.CLASSED);
 						break;
+						// Add by pmq End
 					case 6:
 						passes = Olympiad.getInstance().getNoblessePasses(activeChar, false);
 						if (passes > 0)
@@ -174,8 +192,17 @@ public class OlympiadManagerLink implements IBypassHandler
 						}
 						break;
 					case 11:
-						OlympiadManager.getInstance().registerNoble(activeChar, CompetitionType.TEAMS);
+						// Add by pmq Start
+						if (OlympiadManager.getInstance().isRegistered(activeChar))
+						{
+							html.setFile(activeChar.getHtmlPrefix(), Olympiad.OLYMPIAD_HTML_PATH + "noble_unregister.htm");
+							html.replace("%objectId%", String.valueOf(target.getObjectId()));
+							activeChar.sendPacket(html);
+						}
+						else
+							OlympiadManager.getInstance().registerNoble(activeChar, CompetitionType.TEAMS);
 						break;
+						// Add by pmq End
 					default:
 						_log.warning("Olympiad System: Couldnt send packet for request " + val);
 						break;

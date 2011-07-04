@@ -1585,48 +1585,78 @@
 		</cond>
 	</skill>
 	<skill id="2491" levels="1" name="Transform Zaken">
-		<set name="target" val="TARGET_NONE" />
-		<set name="skillType" val="NOTDONE" />
-		<set name="operateType" val="OP_PASSIVE" />
-		<set name="hitTime" val="1500" />
+		<!-- Update by pmq -->
+		<set name="target" val="TARGET_SELF" />
+		<set name="skillType" val="BUFF" />
+		<set name="operateType" val="OP_ACTIVE" />
+		<set name="transformId" val="305" />
+		<for>
+			<effect name="Transformation" abnormalTime="1800" val="0" />
+		</for>
 	</skill>
 	<skill id="2492" levels="1" name="Transform Anakim">
-		<set name="target" val="TARGET_NONE" />
-		<set name="skillType" val="NOTDONE" />
-		<set name="operateType" val="OP_PASSIVE" />
-		<set name="hitTime" val="1500" />
+		<!-- Update by pmq -->
+		<set name="target" val="TARGET_SELF" />
+		<set name="skillType" val="BUFF" />
+		<set name="operateType" val="OP_ACTIVE" />
+		<set name="transformId" val="306" />
+		<for>
+			<effect name="Transformation" abnormalTime="1800" val="0" />
+		</for>
 	</skill>
 	<skill id="2493" levels="1" name="Transform Venom">
-		<set name="target" val="TARGET_NONE" />
-		<set name="skillType" val="NOTDONE" />
-		<set name="operateType" val="OP_PASSIVE" />
-		<set name="hitTime" val="1500" />
+		<!-- Update by pmq -->
+		<set name="target" val="TARGET_SELF" />
+		<set name="skillType" val="BUFF" />
+		<set name="operateType" val="OP_ACTIVE" />
+		<set name="transformId" val="307"/>
+		<for>
+			<effect name="Transformation" abnormalTime="1800" val="0" />
+		</for>
 	</skill>
 	<skill id="2494" levels="1" name="Transform Gordon">
-		<set name="target" val="TARGET_NONE" />
-		<set name="skillType" val="NOTDONE" />
-		<set name="operateType" val="OP_PASSIVE" />
-		<set name="hitTime" val="1500" />
+		<!-- Update by pmq -->
+		<set name="target" val="TARGET_SELF" />
+		<set name="skillType" val="BUFF" />
+		<set name="operateType" val="OP_ACTIVE" />
+		<set name="transformId" val="308" />
+		<for>
+			<effect name="Transformation" abnormalTime="1800" val="0" />
+		</for>
 	</skill>
 	<skill id="2495" levels="1" name="Transform Ranku">
-		<set name="target" val="TARGET_NONE" />
-		<set name="skillType" val="NOTDONE" />
-		<set name="operateType" val="OP_PASSIVE" />
-		<set name="hitTime" val="1500" />
+		<!-- Update by pmq -->
+		<set name="target" val="TARGET_SELF" />
+		<set name="skillType" val="BUFF" />
+		<set name="operateType" val="OP_ACTIVE" />
+		<set name="transformId" val="309" />
+		<for>
+			<effect name="Transformation" abnormalTime="1800" val="0" />
+		</for>
 	</skill>
 	<skill id="2496" levels="1" name="Transform Kietch">
-		<set name="target" val="TARGET_NONE" />
-		<set name="skillType" val="NOTDONE" />
-		<set name="operateType" val="OP_PASSIVE" />
-		<set name="hitTime" val="1500" />
+		<!-- Update by pmq -->
+		<set name="target" val="TARGET_SELF" />
+		<set name="skillType" val="BUFF" />
+		<set name="operateType" val="OP_ACTIVE" />
+		<set name="transformId" val="310" />
+		<for>
+			<effect name="Transformation" abnormalTime="1800" val="0" />
+		</for>
+		
 	</skill>
 	<skill id="2497" levels="1" name="Transform Demon Prince">
-		<set name="target" val="TARGET_NONE" />
-		<set name="skillType" val="NOTDONE" />
-		<set name="operateType" val="OP_PASSIVE" />
-		<set name="hitTime" val="1500" />
+		<!-- Update by pmq -->
+		<set name="target" val="TARGET_SELF" />
+		<set name="skillType" val="BUFF" />
+		<set name="operateType" val="OP_ACTIVE" />
+		<set name="transformId" val="311" />
+		<for>
+			<effect name="Transformation" abnormalTime="1800" val="0" />
+		</for>
 	</skill>
 	<skill id="2498" levels="1" name="Bottle of Empty Soul">
+		<!-- Update by pmq -->
 		<set name="itemConsumeCount" val="1" />
 		<set name="hitTime" val="500" />
 		<set name="staticHitTime" val="true" />
@@ -1636,6 +1666,7 @@
 		<set name="create_item_id" val="10410" />
 		<set name="create_item_count" val="1" />
 		<set name="soulConsumeCount" val="5" />
+		<set name="isPotion" val="true" />
 		<cond msgId="113" addName="1">
 			<and>
 				<player flyMounted="False" />
@@ -1645,11 +1676,14 @@
 		</cond>
 	</skill>
 	<skill id="2499" levels="1" name="Bottle of Full Soul">
+		<!-- Update by pmq -->
+		<table name="#souls"> 5 10 </table>
 		<set name="itemConsumeCount" val="1" />
 		<set name="target" val="TARGET_SELF" />
 		<set name="skillType" val="CHARGESOUL" />
 		<set name="operateType" val="OP_ACTIVE" />
-		<set name="num_souls" val="5" />
+		<set name="num_souls" val="#souls" />
+		<set name="isPotion" val="true" />
 		<cond msgId="113" addName="1">
 			<and>
 				<player flyMounted="False" />

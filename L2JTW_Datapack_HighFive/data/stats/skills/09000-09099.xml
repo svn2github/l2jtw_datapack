@@ -125,15 +125,31 @@
 	</skill>
 	<skill id="9022" levels="1" name="Magic Barrier">
 		<!-- Increases magic resistance by 30% for 60 minutes. -->
-		<set name="target" val="TARGET_NONE" />
-		<set name="skillType" val="NOTDONE" />
+		<!-- Update by pmq -->
+		<set name="target" val="TARGET_SELF" />
+		<set name="skillType" val="BUFF" />
 		<set name="operateType" val="OP_PASSIVE" />
+		<for>
+			<add order="0x40" stat="reflectDam" val="99" />
+		</for>
 	</skill>
 	<skill id="9023" levels="1" name="Blessed Soul">
 		<!-- Increases maximum MP by 35% for 60 minutes. -->
-		<set name="target" val="TARGET_NONE" />
-		<set name="skillType" val="NOTDONE" />
-		<set name="operateType" val="OP_PASSIVE" />
+		<!-- Update by pmq -->
+		<set name="mpConsume" val="73" />
+		<set name="magicLvl" val="80" />
+		<set name="target" val="TARGET_AURA" />
+		<set name="power" val="1500" />
+		<set name="skillRadius" val="1000" />
+		<set name="staticReuse" val="true" />
+		<set name="skillType" val="MANARECHARGE" />
+		<set name="hitTime" val="5000" />
+		<set name="reuseDelay" val="3600" />
+		<set name="isMagic" val="true" />
+		<set name="operateType" val="OP_ACTIVE" />
+		<cond msgId="1509">
+			<player olympiad="false" />
+		</cond>
 	</skill>
 	<skill id="9024" levels="1" name="Empower">
 		<!-- Increases M. Atk. by 75% for 60 minutes. -->
@@ -852,11 +868,23 @@
 		</cond>
 	</skill>
 	<skill id="9081" levels="1" name="Christmas Cake">
-		<set name="target" val="TARGET_NONE" />
-		<set name="skillType" val="NOTDONE" />
-		<set name="operateType" val="OP_PASSIVE" />
-		<set name="reuseDelay" val="3600000" />
+		<!-- Update by pmq -->
+		<table name="#extractableItems">
+			13457,1,0.0000498;13458,1,0.0000498;13459,1,0.0000498;13460,1,0.0000498;13461,1,0.0000498;13462,1,0.0000498;13463,1,0.0000498;13464,1,0.0000498;13465,1,0.0000498;13466,1,0.0000498;13467,1,0.0000498;13468,1,0.0000498;13469,1,0.0000498;13470,1,0.0000498;10215,1,0.0001162;10216,1,0.0001162;10217,1,0.0001162;10218,1,0.0001162;10219,1,0.0001162;10220,1,0.0001162;10221,1,0.0001162;10222,1,0.0001162;10223,1,0.0001162;10224,1,0.0001162;10225,1,0.0001162;10226,1,0.0001162;9380,1,0.0001486;9446,1,0.0001486;9384,1,0.0001486;9449,1,0.0001486;9450,1,0.0001486;9445,1,0.0001486;9443,1,0.0001486;9442,1,0.0001486;10252,1,0.0001486;9448,1,0.0001486;10253,1,0.0001486;9384,1,0.0001486;9444,1,0.0001486;9447,1,0.0001486;13143,1,0.0000733;14105,1,0.0000733;14108,1,0.0000733;14109,1,0.0000733;14110,1,0.0000733;14111,1,0.0000733;13144,1,0.0000733;14106,1,0.0000733;14112,1,0.0000733;14113,1,0.0000733;14114,1,0.0000733;13145,1,0.0000733;14107,1,0.0000733;14115,1,0.0000733;14116,1,0.0000733;14117,1,0.0000733;13887,1,0.0000733;9514,1,0.0001458;9515,1,0.0001458;9516,1,0.0001458;9517,1,0.0001458;9518,1,0.0001458;9529,1,0.0001458;9519,1,0.0001458;9520,1,0.0001458;9521,1,0.0001458;9522,1,0.0001458;9523,1,0.0001458;9524,1,0.0001458;9525,1,0.0001458;9526,1,0.0001458;9527,1,0.0001458;9528,1,0.0001458;13886,1,0.0001458;9570,1,0.0008261;9571,1,0.0008261;9572,1,0.0008261;10480,1,0.0004649;10481,1,0.0004649;10482,1,0.0004649;13071,1,0.0002325;13072,1,0.0002325;13073,1,0.0002325;729,1,0.5263449;959,1,0.5263449;730,1,0.7655924;960,1,0.7655924;1538,1,1.4975597;14686,1,0.7681786;14687,1,0.7681786;14693,1,0.7686099;14692,1,0.7686099;14698,1,0.7681786;14699,1,0.7681786;15439,1,1.5217011;14611,1,0.12009793;5560,1,1.5389435;5562,1,0.2401959;5563,1,0.2401959;5564,1,0.2401959;5565,1,0.2401959;5566,1,0.2401959;6622,1,1.3044378;14701,1,22.5439206;17005,1,63.06608387
+		</table>
+		<set name="capsuled_items_skill" val="#extractableItems" />
+		<set name="itemConsumeCount" val="1" />
+		<set name="operateType" val="OP_ACTIVE" />
+		<set name="reuseDelay" val="2000" />
+		<set name="skillType" val="EXTRACTABLE" />
 		<set name="staticReuse" val="true" />
+		<set name="target" val="TARGET_SELF" />
+		<cond msgId="129">
+			<and>
+				<player invSize="10" />
+				<player weight="80" />
+			</and>
+		</cond>
 	</skill>
 	<skill id="9082" levels="1" name="White Christmas Petition">
 		<!-- Energy is maintained for 10 minutes. Petition asking for it to snow on Christmas. -->

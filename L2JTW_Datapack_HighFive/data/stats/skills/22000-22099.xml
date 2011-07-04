@@ -10,7 +10,7 @@
 		<set name="hitTime" val="100" />
 		<for>
 			<effect name="Buff" abnormalTime="1200" val="0" abnormalLvl="1" abnormalType="hp_regen_up">
-				<mul order="0x30" stat="regHp" val="1.1"/>
+				<mul order="0x30" stat="regHp" val="1.1" />
 			</effect>
 		</for>
 	</skill>
@@ -23,8 +23,8 @@
 		<set name="operateType" val="OP_ACTIVE" />
 		<set name="hitTime" val="100" />
 		<for>
-			<effect name="Buff" abnormalTime="1200" val="0" abnormalLvl="2" abnormalType="hp_regen_up">
-				<mul order="0x30" stat="regHp" val="1.15"/>
+			<effect name="Buff" abnormalTime="1200" val="0" abnormalLvl="1" abnormalType="hp_regen_up">
+				<mul order="0x30" stat="regHp" val="1.15" />
 			</effect>
 		</for>
 	</skill>
@@ -37,8 +37,8 @@
 		<set name="operateType" val="OP_ACTIVE" />
 		<set name="hitTime" val="100" />
 		<for>
-			<effect name="Buff" abnormalTime="1200" val="0" abnormalLvl="3" abnormalType="hp_regen_up">
-				<mul order="0x30" stat="regHp" val="1.2"/>
+			<effect name="Buff" abnormalTime="1200" val="0" abnormalLvl="1" abnormalType="hp_regen_up">
+				<mul order="0x30" stat="regHp" val="1.2" />
 			</effect>
 		</for>
 	</skill>
@@ -198,7 +198,7 @@
 			<player class_id_restriction="0,1,2,3,4,5,6,18,19,20,21,31,32,33,34,44,45,46,53,54,55,56,57,88,89,90,91,99,100,106,107,113,117,118" />
 		</cond>
 		<for>
-			<effect name="Buff" abnormalTime="1800" val="0" abnormalLvl="3" abnormalType="br_event_buf1">
+			<effect name="Buff" abnormalTime="1800" val="0" abnormalLvl="1" abnormalType="br_event_buf1">
 				<mul order="0x30" stat="maxHp" val="1.6" />
 				<mul order="0x30" stat="maxMp" val="1.6" />
 				<mul order="0x30" stat="maxCp" val="1.6" />
@@ -223,7 +223,7 @@
 			<player class_id_restriction="7,8,9,22,23,24,35,36,37,47,48,92,93,101,102,108,109,114,123,124,125,126,127,128,129,130,131,132,133,134,135,136" />
 		</cond>
 		<for>
-			<effect name="Buff" abnormalTime="1800" val="0" abnormalLvl="3" abnormalType="br_event_buf1">
+			<effect name="Buff" abnormalTime="1800" val="0" abnormalLvl="1" abnormalType="br_event_buf1">
 				<mul order="0x30" stat="maxHp" val="1.4" />
 				<mul order="0x30" stat="maxMp" val="1.4" />
 				<mul order="0x30" stat="maxCp" val="1.4" />
@@ -248,7 +248,7 @@
 			<player class_id_restriction="15,16,17,29,30,42,43,97,98,105,112" />
 		</cond>
 		<for>
-			<effect name="Buff" abnormalTime="1800" val="0" abnormalLvl="3" abnormalType="br_event_buf1">
+			<effect name="Buff" abnormalTime="1800" val="0" abnormalLvl="1" abnormalType="br_event_buf1">
 				<mul order="0x30" stat="maxHp" val="1.6" />
 				<mul order="0x30" stat="maxMp" val="1.6" />
 				<mul order="0x30" stat="maxCp" val="1.6" />
@@ -272,7 +272,7 @@
 			<player class_id_restriction="10,11,12,13,14,25,26,27,28,38,39,40,41,49,50,51,52,94,95,96,103,104,110,111,115,116" />
 		</cond>
 		<for>
-			<effect name="Buff" abnormalTime="1800" val="0" abnormalLvl="3" abnormalType="br_event_buf1">
+			<effect name="Buff" abnormalTime="1800" val="0" abnormalLvl="1" abnormalType="br_event_buf1">
 				<mul order="0x30" stat="maxHp" val="1.4" />
 				<mul order="0x30" stat="maxMp" val="1.4" />
 				<mul order="0x30" stat="maxCp" val="1.4" />
@@ -526,9 +526,15 @@
 		</cond>
 	</skill>
 	<skill id="22034" levels="1" name="Birthday Cake">
-		<set name="target" val="TARGET_NONE" />
-		<set name="skillType" val="NOTDONE" />
-		<set name="operateType" val="OP_PASSIVE" />
+		<!-- Update by pmq -->
+		<set name="itemConsumeCount" val="1" />
+		<set name="create_item_id" val="20320" />
+		<set name="create_item_count" val="1" />
+		<set name="power" val="100" />
+		<set name="target" val="TARGET_SELF" />
+		<set name="skillType" val="CREATE_ITEM" />
+		<set name="operateType" val="OP_ACTIVE" />
+		<set name="isPotion" val="true" />
 	</skill>
 	<skill id="22035" levels="1" name="Birthday Cake Effect">
 		<!-- Update by pmq -->
@@ -541,8 +547,8 @@
 		<set name="operateType" val="OP_ACTIVE" />
 		<set name="isPotion" val="true" />
 		<for>
-			<effect name="Buff" abnormalTime="1200" val="0" abnormal="vitality" abnormalLvl="10" abnormalType="energy_up">
-				<sub order="0x40" stat="vitalityConsumeRate" val="10"/>
+			<effect name="Buff" abnormalTime="1200" val="0" abnormal="vitality" abnormalLvl="1" abnormalType="energy_up">
+				<sub order="0x40" stat="vitalityConsumeRate" val="10" />
 			</effect>
 		</for>
 	</skill>
@@ -794,7 +800,7 @@
 			<player flyMounted="False" />
 		</cond>
 		<for>
-			<effect name="Buff" abnormalTime="3600" val="0" abnormalLvl="26" abnormalType="speed_up">
+			<effect name="Buff" abnormalTime="3600" val="0" abnormalLvl="1" abnormalType="speed_up">
 				<add order="0x40" stat="runSpd" val="33" />
 			</effect>
 		</for>
@@ -809,7 +815,7 @@
 			<player flyMounted="False" />
 		</cond>
 		<for>
-			<effect name="Buff" abnormalTime="3600" val="0" abnormalLvl="26" abnormalType="attack_time_down">
+			<effect name="Buff" abnormalTime="3600" val="0" abnormalLvl="1" abnormalType="attack_time_down">
 				<mul order="0x30" stat="pAtkSpd" val="1.33" />
 			</effect>
 		</for>
@@ -824,7 +830,7 @@
 			<player flyMounted="False" />
 		</cond>
 		<for>
-			<effect name="Buff" abnormalTime="3600" val="0" abnormalLvl="26" abnormalType="pa_up">
+			<effect name="Buff" abnormalTime="3600" val="0" abnormalLvl="1" abnormalType="pa_up">
 				<mul order="0x30" stat="pAtk" val="1.15" />
 			</effect>
 		</for>
@@ -839,7 +845,7 @@
 			<player flyMounted="False" />
 		</cond>
 		<for>
-			<effect name="Buff" abnormalTime="3600" val="0" abnormalLvl="26" abnormalType="pd_up">
+			<effect name="Buff" abnormalTime="3600" val="0" abnormalLvl="1" abnormalType="pd_up">
 				<mul order="0x30" stat="pDef" val="1.15" />
 			</effect>
 		</for>
@@ -854,7 +860,7 @@
 			<player flyMounted="False" />
 		</cond>
 		<for>
-			<effect name="Buff" abnormalTime="3600" val="0" abnormalLvl="26" abnormalType="critical_dmg_up">
+			<effect name="Buff" abnormalTime="3600" val="0" abnormalLvl="1" abnormalType="critical_dmg_up">
 				<mul order="0x30" stat="cAtk" val="1.35" />
 			</effect>
 		</for>
@@ -869,7 +875,7 @@
 			<player flyMounted="False" />
 		</cond>
 		<for>
-			<effect name="Buff" abnormalTime="3600" val="0" abnormalLvl="26" abnormalType="hit_up">
+			<effect name="Buff" abnormalTime="3600" val="0" abnormalLvl="1" abnormalType="hit_up">
 				<add order="0x40" stat="accCombat" val="4" />
 			</effect>
 		</for>
@@ -885,7 +891,7 @@
 			<player flyMounted="False" />
 		</cond>
 		<for>
-			<effect name="Buff" abnormalTime="3600" val="0" abnormalLvl="26" abnormalType="ma_up">
+			<effect name="Buff" abnormalTime="3600" val="0" abnormalLvl="1" abnormalType="ma_up">
 				<mul order="0x30" stat="mAtk" val="1.75" />
 			</effect>
 		</for>
@@ -900,7 +906,7 @@
 			<player flyMounted="False" />
 		</cond>
 		<for>
-			<effect name="Buff" abnormalTime="3600" val="0" abnormalLvl="26" abnormalType="casting_time_down">
+			<effect name="Buff" abnormalTime="3600" val="0" abnormalLvl="1" abnormalType="casting_time_down">
 				<mul order="0x30" stat="mAtkSpd" val="1.3" />
 			</effect>
 		</for>
@@ -915,7 +921,7 @@
 			<player flyMounted="False" />
 		</cond>
 		<for>
-			<effect name="Buff" abnormalTime="3600" val="0" abnormalLvl="26" abnormalType="vampiric_attack">
+			<effect name="Buff" abnormalTime="3600" val="0" abnormalLvl="1" abnormalType="vampiric_attack">
 				<add order="0x40" stat="absorbDam" val="9" /> <!-- absorb 9% HP from damage inflicted on enemies -->
 			</effect>
 		</for>
@@ -930,7 +936,7 @@
 			<player flyMounted="False" />
 		</cond>
 		<for>
-			<effect name="Buff" abnormalTime="3600" val="0" abnormalLvl="26" abnormalType="max_hp_up">
+			<effect name="Buff" abnormalTime="3600" val="0" abnormalLvl="1" abnormalType="max_hp_up">
 				<mul order="0x30" stat="maxHp" val="1.35" />
 			</effect>
 		</for>
@@ -945,7 +951,7 @@
 			<player flyMounted="False" />
 		</cond>
 		<for>
-			<effect name="Buff" abnormalTime="3600" val="0" abnormalLvl="26" abnormalType="berserker">
+			<effect name="Buff" abnormalTime="3600" val="0" abnormalLvl="1" abnormalType="berserker">
 				<mul order="0x30" stat="pDef" val="0.92" />
 				<mul order="0x30" stat="mDef" val="0.84" />
 				<sub order="0x40" stat="rEvas" val="4" />
@@ -967,7 +973,7 @@
 			<player flyMounted="False" />
 		</cond>
 		<for>
-			<effect name="Buff" abnormalTime="3600" val="0" abnormalLvl="26" abnormalType="md_up">
+			<effect name="Buff" abnormalTime="3600" val="0" abnormalLvl="1" abnormalType="md_up">
 				<mul order="0x30" stat="mDef" val="1.3" />
 			</effect>
 		</for>
@@ -982,7 +988,7 @@
 			<player flyMounted="False" />
 		</cond>
 		<for>
-			<effect name="Buff" abnormalTime="3600" val="0" abnormalLvl="26" abnormalType="max_mp_up">
+			<effect name="Buff" abnormalTime="3600" val="0" abnormalLvl="1" abnormalType="max_mp_up">
 				<mul order="0x30" stat="maxMp" val="1.35" />
 			</effect>
 		</for>
@@ -994,7 +1000,7 @@
 		<set name="isPotion" val="true" />
 		<set name="buffDuration" val="3600000" />
 		<for>
-			<effect name="Buff" abnormalTime="3600" val="0" abnormalLvl="26" abnormalType="cheap_magic">
+			<effect name="Buff" abnormalTime="3600" val="0" abnormalLvl="1" abnormalType="cheap_magic">
 				<mul order="0x30" stat="PhysicalMpConsumeRate" val="0.8" />
 				<mul order="0x30" stat="MagicalMpConsumeRate" val="0.9" />
 				<mul order="0x30" stat="DanceMpConsumeRate" val="0.8" />
@@ -1008,7 +1014,7 @@
 		<set name="isPotion" val="true" />
 		<set name="buffDuration" val="3600000" />
 		<for>
-			<effect name="Buff" abnormalTime="3600" val="0" abnormalLvl="26" abnormalType="magic_critical_up">
+			<effect name="Buff" abnormalTime="3600" val="0" abnormalLvl="1" abnormalType="magic_critical_up">
 				<basemul order="0x30" stat="mCritRate" val="2" />
 			</effect>
 		</for>
@@ -1097,7 +1103,7 @@
 		<set name="aggroPoints" val="#aggroPoints" />
 		<for>
 			<effect name="Buff" abnormalTime="3600" val="0" abnormalLvl="1" abnormalType="AquaAtr">
-				<add order="0x40" stat="waterRes" val="#vuln"/>
+				<add order="0x40" stat="waterRes" val="#vuln" />
 			</effect>
 		</for>
 	</skill>
@@ -1121,7 +1127,7 @@
 		<set name="aggroPoints" val="#aggroPoints" />
 		<for>
 			<effect name="Buff" abnormalTime="3600" val="0" abnormalLvl="1" abnormalType="WindAtr">
-				<add order="0x40" stat="waterRes" val="#vuln"/>
+				<add order="0x40" stat="waterRes" val="#vuln" />
 			</effect>
 		</for>
 	</skill>
@@ -1145,7 +1151,7 @@
 		<set name="aggroPoints" val="#aggroPoints" />
 		<for>
 			<effect name="Buff" abnormalTime="3600" val="0" abnormalLvl="1" abnormalType="FireAtr">
-				<add order="0x40" stat="waterRes" val="#vuln"/>
+				<add order="0x40" stat="waterRes" val="#vuln" />
 			</effect>
 		</for>
 	</skill>
@@ -1169,7 +1175,7 @@
 		<set name="aggroPoints" val="#aggroPoints" />
 		<for>
 			<effect name="Buff" abnormalTime="3600" val="0" abnormalLvl="1" abnormalType="HolyAtr">
-				<add order="0x40" stat="waterRes" val="#vuln"/>
+				<add order="0x40" stat="waterRes" val="#vuln" />
 			</effect>
 		</for>
 	</skill>
@@ -1193,7 +1199,7 @@
 		<set name="aggroPoints" val="#aggroPoints" />
 		<for>
 			<effect name="Buff" abnormalTime="3600" val="0" abnormalLvl="1" abnormalType="DarkAtr">
-				<add order="0x40" stat="waterRes" val="#vuln"/>
+				<add order="0x40" stat="waterRes" val="#vuln" />
 			</effect>
 		</for>
 	</skill>
@@ -1217,10 +1223,10 @@
 		<set name="effectRange" val="900" />
 		<set name="aggroPoints" val="#aggroPoints" />
 		<for>
-			<effect name="Buff" abnormalTime="3600" val="0" abnormalLvl="#stack" abnormalType="MentalShield">
-				<mul order="0x30" stat="rootVuln" val="#vuln"/>
-				<mul order="0x30" stat="sleepVuln" val="#vuln"/>
-				<mul order="0x30" stat="derangementVuln" val="#vuln"/>
+			<effect name="Buff" abnormalTime="3600" val="0" abnormalLvl="1" abnormalType="MentalShield">
+				<mul order="0x30" stat="rootVuln" val="#vuln" />
+				<mul order="0x30" stat="sleepVuln" val="#vuln" />
+				<mul order="0x30" stat="derangementVuln" val="#vuln" />
 			</effect>
 		</for>
 	</skill>
@@ -1229,7 +1235,7 @@
 		<!-- Update by pmq -->
 		<table name="#mpInitialConsume"> 9 </table>
 		<table name="#mpConsume"> 38 </table>
-		<table name="#rCrit"> 30 </table>
+		<table name="#rCrit"> 0.3 </table>
 		<table name="#aggroPoints"> 495 </table>
 		<set name="mpInitialConsume" val="#mpInitialConsume" />
 		<set name="mpConsume" val="#mpConsume" />
@@ -1243,8 +1249,8 @@
 		<set name="effectRange" val="900" />
 		<set name="aggroPoints" val="#aggroPoints" />
 		<for>
-			<effect name="Buff" abnormalTime="3600" val="0" abnormalLvl="#rCrit" abnormalType="critical_prob_up">
-				<basemul order="0x30" stat="rCrit" val="#rCrit"/>
+			<effect name="Buff" abnormalTime="3600" val="0" abnormalLvl="1" abnormalType="critical_prob_up">
+				<basemul order="0x30" stat="rCrit" val="#rCrit" />
 			</effect>
 		</for>
 	</skill>
@@ -1267,8 +1273,8 @@
 		<set name="effectRange" val="900" />
 		<set name="aggroPoints" val="#aggroPoints" />
 		<for>
-			<effect name="Buff" abnormalTime="3600" val="0" abnormalLvl="#cancel" abnormalType="Concentration">
-				<sub order="0x40" stat="cancel" val="#cancel"/>
+			<effect name="Buff" abnormalTime="3600" val="0" abnormalLvl="1" abnormalType="Concentration">
+				<sub order="0x40" stat="cancel" val="#cancel" />
 			</effect>
 		</for>
 	</skill>
@@ -1277,7 +1283,7 @@
 		<!-- Update by pmq -->
 		<table name="#mpInitialConsume"> 10 </table>
 		<table name="#mpConsume"> 41 </table>
-		<table name="#rShld"> 15 </table>
+		<table name="#rShld"> 1.15 </table>
 		<table name="#aggroPoints"> 532 </table>
 		<set name="mpInitialConsume" val="#mpInitialConsume" />
 		<set name="mpConsume" val="#mpConsume" />
@@ -1291,8 +1297,8 @@
 		<set name="effectRange" val="900" />
 		<set name="aggroPoints" val="#aggroPoints" />
 		<for>
-			<effect name="Buff" abnormalTime="3600" val="0" abnormalLvl="#rShld" abnormalType="shieldProbUp">
-				<mul order="0x30" stat="rShld" val="#rShld"/>
+			<effect name="Buff" abnormalTime="3600" val="0" abnormalLvl="1" abnormalType="shieldProbUp">
+				<mul order="0x30" stat="rShld" val="#rShld" />
 			</effect>
 		</for>
 	</skill>
@@ -1315,8 +1321,8 @@
 		<set name="effectRange" val="900" />
 		<set name="aggroPoints" val="#aggroPoints" />
 		<for>
-			<effect name="Buff" abnormalTime="3600" val="0" abnormalLvl="#rEvas" abnormalType="rEvas">
-				<add order="0x40" stat="rEvas" val="#rEvas"/>
+			<effect name="Buff" abnormalTime="3600" val="0" abnormalLvl="1" abnormalType="rEvas">
+				<add order="0x40" stat="rEvas" val="#rEvas" />
 			</effect>
 		</for>
 	</skill>
@@ -1325,7 +1331,7 @@
 		<!-- Update by pmq -->
 		<table name="#mpInitialConsume"> 10 </table>
 		<table name="#mpConsume"> 41 </table>
-		<table name="#rate"> 20 </table>
+		<table name="#rate"> 1.2 </table>
 		<table name="#aggroPoints"> 532 </table>
 		<set name="mpInitialConsume" val="#mpInitialConsume" />
 		<set name="mpConsume" val="#mpConsume" />
@@ -1339,8 +1345,8 @@
 		<set name="effectRange" val="900" />
 		<set name="aggroPoints" val="#aggroPoints" />
 		<for>
-			<effect name="Buff" abnormalTime="3600" val="0" abnormalLvl="#rate" abnormalType="hp_regen_up">
-				<mul order="0x30" stat="regHp" val="#rate"/>
+			<effect name="Buff" abnormalTime="3600" val="0" abnormalLvl="1" abnormalType="hp_regen_up">
+				<mul order="0x30" stat="regHp" val="#rate" />
 			</effect>
 		</for>
 	</skill>
@@ -1349,7 +1355,7 @@
 		<!-- Update by pmq -->
 		<table name="#mpInitialConsume"> 13 </table>
 		<table name="#mpConsume"> 49 </table>
-		<table name="#sDef"> 40 </table>
+		<table name="#sDef"> 1.4 </table>
 		<table name="#aggroPoints"> 611 </table>
 		<set name="mpInitialConsume" val="#mpInitialConsume" />
 		<set name="mpConsume" val="#mpConsume" />
@@ -1363,8 +1369,8 @@
 		<set name="effectRange" val="900" />
 		<set name="aggroPoints" val="#aggroPoints" />
 		<for>
-			<effect name="Buff" abnormalTime="3600" val="0" abnormalLvl="#sDef" abnormalType="sdef_up">
-				<mul order="0x30" stat="sDef" val="#sDef"/>
+			<effect name="Buff" abnormalTime="3600" val="0" abnormalLvl="1" abnormalType="sdef_up">
+				<mul order="0x30" stat="sDef" val="#sDef" />
 			</effect>
 		</for>
 	</skill>

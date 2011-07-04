@@ -38,7 +38,7 @@
 		<set name="nextActionAttack" val="true" />
 		<set name="saveVs" val="CON" />
 		<for>
-			<effect name="Stun" abnormalTime="9" val="0" effectPower="80" effectType="STUN" abnormalLvl="1" abnormalType="stun" />
+			<effect name="Stun" abnormalTime="9" val="0" effectPower="80" effectType="STUN" abnormalLvl="9" abnormalType="stun" />
 		</for>
 	</skill>
 	<skill id="5302" levels="9" name="Poison">
@@ -108,7 +108,7 @@
 		<set name="castRange" val="40" />
 		<set name="effectRange" val="200" />
 		<for>
-			<effect name="Paralyze" abnormalTime="30" val="0" effectPower="80" effectType="PARALYZE" abnormalLvl="1" abnormalType="paralyze" />
+			<effect name="Paralyze" abnormalTime="30" val="0" effectPower="80" effectType="PARALYZE" abnormalLvl="9" abnormalType="paralyze" />
 		</for>
 	</skill>
 	<skill id="5305" levels="9" name="Poison">
@@ -128,7 +128,7 @@
 		<set name="operateType" val="OP_ACTIVE" />
 		<set name="saveVs" val="CON" />
 		<for>
-			<effect count="4" name="DamOverTime" abnormalTime="5" val="#dot" effectPower="60" effectType="POISON" abnormalLvl="8" abnormalType="poison" />
+			<effect count="4" name="DamOverTime" abnormalTime="5" val="#dot" effectPower="60" effectType="POISON" abnormalLvl="9" abnormalType="poison" />
 		</for>
 	</skill>
 	<skill id="5306" levels="9" name="Paralysis">
@@ -150,7 +150,7 @@
 		<set name="skillRadius" val="150" />
 		<set name="saveVs" val="MEN" />
 		<for>
-			<effect name="Paralyze" abnormalTime="30" effectPower="60" val="0" abnormalLvl="1" abnormalType="paralyze" />
+			<effect name="Paralyze" abnormalTime="30" effectPower="60" val="0" abnormalLvl="9" abnormalType="paralyze" />
 		</for>
 	</skill>
 	<skill id="5307" levels="9" name="Stun">
@@ -172,7 +172,7 @@
 		<set name="nextActionAttack" val="true" />
 		<set name="saveVs" val="CON" />
 		<for>
-			<effect name="Stun" abnormalTime="9" val="0" effectPower="80" effectType="STUN" abnormalLvl="1" abnormalType="stun" />
+			<effect name="Stun" abnormalTime="9" val="0" effectPower="80" effectType="STUN" abnormalLvl="9" abnormalType="stun" />
 		</for>
 	</skill>
 	<skill id="5308" levels="9" name="Poison">
@@ -1202,7 +1202,7 @@
 		<set name="effectRange" val="200" />
 		<set name="saveVs" val="CON" />
 		<for>
-			<effect name="Stun" abnormalTime="9" val="0" effectPower="80" effectType="STUN" abnormalLvl="1" abnormalType="stun" />
+			<effect name="Stun" abnormalTime="9" val="0" effectPower="80" effectType="STUN" abnormalLvl="9" abnormalType="stun" />
 		</for>
 	</skill>
 	<skill id="5363" levels="9" name="Poison">
@@ -1272,7 +1272,7 @@
 		<set name="effectRange" val="200" />
 		<set name="saveVs" val="MEN" />
 		<for>
-			<effect name="Paralyze" abnormalTime="30" val="0" effectPower="80" effectType="PARALYZE" abnormalLvl="1" abnormalType="paralyze" />
+			<effect name="Paralyze" abnormalTime="30" val="0" effectPower="80" effectType="PARALYZE" abnormalLvl="9" abnormalType="paralyze" />
 		</for>
 	</skill>
 	<skill id="5366" levels="9" name="Poison">
@@ -1293,7 +1293,7 @@
 		<set name="skillRadius" val="150" />
 		<set name="saveVs" val="CON" />
 		<for>
-			<effect count="4" name="DamOverTime" abnormalTime="5" val="#dot" effectPower="60" effectType="POISON" abnormalLvl="8" abnormalType="poison" />
+			<effect count="4" name="DamOverTime" abnormalTime="5" val="#dot" effectPower="60" effectType="POISON" abnormalLvl="9" abnormalType="poison" />
 		</for>
 	</skill>
 	<skill id="5367" levels="9" name="Paralysis">
@@ -1315,7 +1315,7 @@
 		<set name="isDebuff" val="true" />
 		<set name="saveVs" val="MEN" />
 		<for>
-			<effect name="Paralyze" abnormalTime="30" val="0" effectPower="60" effectType="PARALYZE" abnormalLvl="1" abnormalType="paralyze" />
+			<effect name="Paralyze" abnormalTime="30" val="0" effectPower="60" effectType="PARALYZE" abnormalLvl="9" abnormalType="paralyze" />
 		</for>
 	</skill>
 	<skill id="5368" levels="9" name="Stun">
@@ -1341,7 +1341,7 @@
 		<set name="effectType" val="STUN" />
 		<set name="effectPower" val="80" />
 		<for>
-			<effect name="Stun" abnormalTime="9" val="0" abnormalLvl="1" abnormalType="Stun"/>
+			<effect name="Stun" abnormalTime="9" val="0" abnormalLvl="9" abnormalType="Stun" />
 		</for>
 	</skill>
 	<skill id="5369" levels="9" name="Poison">
@@ -1384,7 +1384,7 @@
 		<set name="effectRange" val="1400" />
 		<for>
 			<effect abnormal="bleed" count="10" name="DamOverTime" abnormalType="Bleed" abnormalLvl="#abnormalLvl" abnormalTime="3" val="0">
-				<mul order="0x30" stat="runSpd" val="0.8"/>
+				<mul order="0x30" stat="runSpd" val="0.8" />
 			</effect>
 		</for>
 	</skill>

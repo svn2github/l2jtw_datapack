@@ -940,14 +940,46 @@
 		</cond>
 	</skill>
 	<skill id="2856" levels="1" name="Santa's Buff Gift Set">
-		<set name="target" val="TARGET_NONE" />
-		<set name="skillType" val="NOTDONE" />
-		<set name="operateType" val="OP_PASSIVE" />
+		<!-- Update by pmq -->
+		<set name="target" val="TARGET_SELF" />
+		<set name="skillType" val="EXTRACTABLE" />
+		<set name="operateType" val="OP_ACTIVE" />
+		<set name="itemConsumeId" val="14614" />
+		<set name="itemConsumeCount" val="1" />
+		<cond msgId="1139">
+			<and>
+				<player invSize="10" />
+				<player weight="80" />
+			</and>
+		</cond>
 	</skill>
 	<skill id="2857" levels="1" name="Christmas Event - Magic Use Enhancement Scroll">
-		<set name="target" val="TARGET_NONE" />
-		<set name="skillType" val="NOTDONE" />
-		<set name="operateType" val="OP_PASSIVE" />
+		<!-- Update by pmq -->
+		<set name="itemConsumeId" val="14615" />
+		<set name="itemConsumeCount" val="1" />
+		<set name="target" val="TARGET_SELF" />
+		<set name="hitTime" val="4000" />
+		<set name="staticHitTime" val="true" />
+		<set name="skillType" val="BUFF" />
+		<set name="operateType" val="OP_ACTIVE" />
+		<cond msgId="113" addName="1">
+			<player flyMounted="False" />
+		</cond>
+		<for>
+			<effect count="1" name="Buff" abnormalTime="3600" val="0" abnormalLvl="1" abnormalType="winter_gift">
+				<basemul order="0x30" stat="mCritRate" val="2" />
+				<mul order="0x30" stat="regMp" val="1.2" />
+				<mul order="0x30" stat="pAtk" val="1.1" />
+				<mul order="0x30" stat="pDef" val="1.2" />
+				<mul order="0x30" stat="pAtkSpd" val="1.2" />
+				<mul order="0x30" stat="mAtk" val="1.2" />
+				<mul order="0x30" stat="mDef" val="1.2" />
+				<mul order="0x30" stat="mAtkSpd" val="1.2" />
+				<mul order="0x30" stat="debuffVuln" val="0.9" />
+				<mul order="0x30" stat="runSpd" val="0.8" />
+				<mul order="0x30" stat="MagicalMpConsumeRate" val="0.95" />
+			</effect>
+		</for>
 	</skill>
 	<skill id="2858" levels="1" name="Christmas Red Sock">
 		<!-- Confirmed CT2.5 -->
@@ -967,10 +999,18 @@
 		</cond>
 	</skill>
 	<skill id="2859" levels="1" name="Christmas Gift">
-		<set name="target" val="TARGET_NONE" />
-		<set name="skillType" val="NOTDONE" />
-		<set name="reuseDelay" val="10000" />
-		<set name="operateType" val="OP_PASSIVE" />
+		<!-- Update by pmq -->
+		<set name="target" val="TARGET_SELF" />
+		<set name="skillType" val="EXTRACTABLE" />
+		<set name="operateType" val="OP_ACTIVE" />
+		<set name="itemConsumeId" val="14616" />
+		<set name="itemConsumeCount" val="1" />
+		<cond msgId="1139">
+			<and>
+				<player invSize="10" />
+				<player weight="80" />
+			</and>
+		</cond>
 	</skill>
 	<skill id="2860" levels="6" name="Highest Power Secret Medicine of Life">
 		<!-- CT2.5 retail confirmed -->
@@ -1106,27 +1146,37 @@
 		<set name="operateType" val="OP_PASSIVE" />
 	</skill>
 	<skill id="2869" levels="1" name="Event - Milk Cow Summon Scroll">
-		<!-- Update by rocknow -->
+		<!-- Update by pmq -->
 		<set name="itemConsumeCount" val="1" />
-		<set name="summonTotalLifeTime" val="1200000" />
-		<set name="summonTimeLostIdle" val="500" />
-		<set name="summonTimeLostActive" val="1000" />
+		<set name="mpInitialConsume" val="24" />
+		<set name="mpConsume" val="97" />
+		<set name="reuseDelay" val="18600000" />
+		<set name="hitTime" val="6000" />
 		<set name="target" val="TARGET_SELF" />
-		<set name="hitTime" val="1500" />
 		<set name="skillType" val="SUMMON" />
 		<set name="operateType" val="OP_ACTIVE" />
+		<set name="isMagic" val="true" />
+		<!-- Summon-specific -->
+		<set name="summonTotalLifeTime" val="1200000" />
+		<set name="summonTimeLostIdle" val="1000" />
+		<set name="summonTimeLostActive" val="1000" />
 		<set name="npcId" val="13187" />
 	</skill>
 	<skill id="2870" levels="1" name="Event - Head Milk Cow Summon Scroll">
-		<!-- Update by rocknow -->
+		<!-- Update by pmq -->
 		<set name="itemConsumeCount" val="1" />
-		<set name="summonTotalLifeTime" val="1200000" />
-		<set name="summonTimeLostIdle" val="500" />
-		<set name="summonTimeLostActive" val="1000" />
+		<set name="mpInitialConsume" val="24" />
+		<set name="mpConsume" val="97" />
+		<set name="reuseDelay" val="18600000" />
+		<set name="hitTime" val="6000" />
 		<set name="target" val="TARGET_SELF" />
-		<set name="hitTime" val="1500" />
 		<set name="skillType" val="SUMMON" />
 		<set name="operateType" val="OP_ACTIVE" />
+		<set name="isMagic" val="true" />
+		<!-- Summon-specific -->
+		<set name="summonTotalLifeTime" val="1200000" />
+		<set name="summonTimeLostIdle" val="1000" />
+		<set name="summonTimeLostActive" val="1000" />
 		<set name="npcId" val="13188" />
 	</skill>
 	<skill id="2871" levels="1" name="Summon Gloomy Milk Cow">
@@ -1140,62 +1190,128 @@
 		<set name="operateType" val="OP_PASSIVE" />
 	</skill>
 	<skill id="2873" levels="1" name="Might">
-		<set name="target" val="TARGET_NONE" />
-		<set name="skillType" val="NOTDONE" />
-		<set name="operateType" val="OP_PASSIVE" />
+		<!-- Update by pmq -->
+		<set name="isMagic" val="true" />
+		<set name="target" val="TARGET_SELF" />
+		<set name="skillType" val="BUFF" />
+		<set name="operateType" val="OP_ACTIVE" />
+		<for>
+			<effect name="Buff" abnormalTime="3600" val="0" abnormalLvl="1" abnormalType="pa_up">
+				<mul order="0x30" stat="pAtk" val="1.15" />
+			</effect>
+		</for>
 	</skill>
 	<skill id="2874" levels="1" name="Wind Walk">
-		<set name="target" val="TARGET_NONE" />
-		<set name="skillType" val="NOTDONE" />
-		<set name="operateType" val="OP_PASSIVE" />
+		<!-- Update by pmq -->
+		<set name="isMagic" val="true" />
+		<set name="target" val="TARGET_SELF" />
+		<set name="skillType" val="BUFF" />
+		<set name="operateType" val="OP_ACTIVE" />
+		<for>
+			<effect name="Buff" abnormalTime="3600" val="0" abnormalLvl="1" abnormalType="speed_up">
+				<add order="0x40" stat="runSpd" val="33" />
+			</effect>
+		</for>
 	</skill>
 	<skill id="2875" levels="1" name="Haste">
-		<set name="target" val="TARGET_NONE" />
-		<set name="skillType" val="NOTDONE" />
-		<set name="operateType" val="OP_PASSIVE" />
+		<!-- Update by pmq -->
+		<set name="isMagic" val="true" />
+		<set name="target" val="TARGET_SELF" />
+		<set name="skillType" val="BUFF" />
+		<set name="operateType" val="OP_ACTIVE" />
+		<for>
+			<effect name="Buff" abnormalTime="3600" val="0" abnormalLvl="1" abnormalType="attack_time_down">
+				<mul order="0x30" stat="pAtkSpd" val="1.33" />
+			</effect>
+		</for>
 	</skill>
 	<skill id="2876" levels="1" name="Vampiric Rage">
-		<set name="target" val="TARGET_NONE" />
-		<set name="skillType" val="NOTDONE" />
-		<set name="operateType" val="OP_PASSIVE" />
+		<!-- Update by pmq -->
+		<set name="isMagic" val="true" />
+		<set name="target" val="TARGET_SELF" />
+		<set name="skillType" val="BUFF" />
+		<set name="operateType" val="OP_ACTIVE" />
+		<for>
+			<effect name="Buff" abnormalTime="3600" val="0" abnormalLvl="1" abnormalType="vampRage">
+				<add order="0x40" stat="absorbDam" val="9" /> <!-- absorb 9% HP from damage inflicted on enemies -->
+			</effect>
+		</for>
 	</skill>
 	<skill id="2877" levels="1" name="Berserker Spirit">
-		<set name="target" val="TARGET_NONE" />
-		<set name="skillType" val="NOTDONE" />
-		<set name="operateType" val="OP_PASSIVE" />
+		<!-- Update by pmq -->
+		<set name="isMagic" val="true" />
+		<set name="target" val="TARGET_SELF" />
+		<set name="skillType" val="BUFF" />
+		<set name="operateType" val="OP_ACTIVE" />
+		<for>
+			<effect name="Buff" abnormalTime="3600" val="0" abnormalLvl="1" abnormalType="berserk">
+				<mul order="0x30" stat="pDef" val="0.92" />
+				<mul order="0x30" stat="mDef" val="0.84" />
+				<sub order="0x40" stat="rEvas" val="4" />
+				<mul order="0x30" stat="pAtk" val="1.08" />
+				<mul order="0x30" stat="mAtk" val="1.16" />
+				<mul order="0x30" stat="pAtkSpd" val="1.08" />
+				<mul order="0x30" stat="mAtkSpd" val="1.08" />
+				<add order="0x40" stat="runSpd" val="8" />
+			</effect>
+		</for>
 	</skill>
 	<skill id="2878" levels="1" name="Empower">
-		<set name="target" val="TARGET_NONE" />
-		<set name="skillType" val="NOTDONE" />
-		<set name="operateType" val="OP_PASSIVE" />
+		<!-- Update by pmq -->
+		<set name="isMagic" val="true" />
+		<set name="target" val="TARGET_SELF" />
+		<set name="skillType" val="BUFF" />
+		<set name="operateType" val="OP_ACTIVE" />
+		<for>
+			<effect name="Buff" abnormalTime="3600" val="0" abnormalLvl="1" abnormalType="ma_up">
+				<mul order="0x30" stat="mAtk" val="1.75" />
+			</effect>
+		</for>
 	</skill>
 	<skill id="2879" levels="1" name="Acumen">
-		<set name="target" val="TARGET_NONE" />
-		<set name="skillType" val="NOTDONE" />
-		<set name="operateType" val="OP_PASSIVE" />
+		<!-- Update by pmq -->
+		<set name="isMagic" val="true" />
+		<set name="target" val="TARGET_SELF" />
+		<set name="skillType" val="BUFF" />
+		<set name="operateType" val="OP_ACTIVE" />
+		<for>
+			<effect name="Buff" abnormalTime="3600" val="0" abnormalLvl="1" abnormalType="casting_time_down">
+				<mul order="0x30" stat="mAtkSpd" val="1.3" />
+			</effect>
+		</for>
 	</skill>
 	<skill id="2880" levels="1" name="Event - Gloomy Milk Cow Summon Scroll">
-		<!-- Update by rocknow -->
+		<!-- Update by pmq -->
 		<set name="itemConsumeCount" val="1" />
-		<set name="summonTotalLifeTime" val="1200000" />
-		<set name="summonTimeLostIdle" val="500" />
-		<set name="summonTimeLostActive" val="1000" />
+		<set name="mpInitialConsume" val="24" />
+		<set name="mpConsume" val="97" />
+		<set name="reuseDelay" val="18600000" />
+		<set name="hitTime" val="6000" />
 		<set name="target" val="TARGET_SELF" />
-		<set name="hitTime" val="1500" />
 		<set name="skillType" val="SUMMON" />
 		<set name="operateType" val="OP_ACTIVE" />
+		<set name="isMagic" val="true" />
+		<!-- Summon-specific -->
+		<set name="summonTotalLifeTime" val="1200000" />
+		<set name="summonTimeLostIdle" val="1000" />
+		<set name="summonTimeLostActive" val="1000" />
 		<set name="npcId" val="13191" />
 	</skill>
 	<skill id="2881" levels="1" name="Event - Gloomy Head Milk Cow Summon Scroll">
-		<!-- Update by rocknow -->
+		<!-- Update by pmq -->
 		<set name="itemConsumeCount" val="1" />
-		<set name="summonTotalLifeTime" val="1200000" />
-		<set name="summonTimeLostIdle" val="500" />
-		<set name="summonTimeLostActive" val="1000" />
+		<set name="mpInitialConsume" val="24" />
+		<set name="mpConsume" val="97" />
+		<set name="reuseDelay" val="18600000" />
+		<set name="hitTime" val="6000" />
 		<set name="target" val="TARGET_SELF" />
-		<set name="hitTime" val="1500" />
 		<set name="skillType" val="SUMMON" />
 		<set name="operateType" val="OP_ACTIVE" />
+		<set name="isMagic" val="true" />
+		<!-- Summon-specific -->
+		<set name="summonTotalLifeTime" val="1200000" />
+		<set name="summonTimeLostIdle" val="1000" />
+		<set name="summonTimeLostActive" val="1000" />
 		<set name="npcId" val="13192" />
 	</skill>
 	<skill id="2882" levels="1" name="Crystal Cube">
@@ -1218,54 +1334,122 @@
 		</cond>
 	</skill>
 	<skill id="2883" levels="1" name="Energy Replenishing Herb Tea">
-		<set name="target" val="TARGET_NONE" />
-		<set name="skillType" val="NOTDONE" />
-		<set name="reuseDelay" val="10000" />
-		<set name="operateType" val="OP_PASSIVE" />
-		<set name="hitTime" val="100" />
+		<!-- Update by pmq -->
+		<set name="itemConsumeCount" val="1" />
+		<set name="target" val="TARGET_SELF" />
+		<set name="skillType" val="BUFF" />
+		<set name="operateType" val="OP_ACTIVE" />
+		<set name="isPotion" val="true" />
+		<cond msgId="113" addName="1">
+			<player flyMounted="False" />
+		</cond>
+		<for>
+			<effect name="Buff" abnormalTime="600" val="0" abnormal="vitality" abnormalLvl="1" abnormalType="energy_up">
+				<sub order="0x40" stat="vitalityConsumeRate" val="10" />
+			</effect>
+		</for>
 	</skill>
 	<skill id="2884" levels="1" name="Energy Replenishing Herb Tea">
-		<set name="target" val="TARGET_NONE" />
-		<set name="skillType" val="NOTDONE" />
-		<set name="reuseDelay" val="10000" />
-		<set name="operateType" val="OP_PASSIVE" />
-		<set name="hitTime" val="100" />
+		<!-- Update by pmq -->
+		<set name="itemConsumeCount" val="1" />
+		<set name="target" val="TARGET_SELF" />
+		<set name="skillType" val="BUFF" />
+		<set name="operateType" val="OP_ACTIVE" />
+		<set name="isPotion" val="true" />
+		<cond msgId="113" addName="1">
+			<player flyMounted="False" />
+		</cond>
+		<for>
+			<effect name="Buff" abnormalTime="1200" val="0" abnormal="vitality" abnormalLvl="1" abnormalType="energy_up">
+				<sub order="0x40" stat="vitalityConsumeRate" val="10" />
+			</effect>
+		</for>
 	</skill>
 	<skill id="2885" levels="1" name="Shield">
-		<set name="target" val="TARGET_NONE" />
-		<set name="skillType" val="NOTDONE" />
-		<set name="operateType" val="OP_PASSIVE" />
+		<!-- Update by pmq -->
+		<set name="isMagic" val="true" />
+		<set name="target" val="TARGET_SELF" />
+		<set name="skillType" val="BUFF" />
+		<set name="operateType" val="OP_ACTIVE" />
+		<for>
+			<effect name="Buff" abnormalTime="3600" val="0" abnormalLvl="1" abnormalType="pd_up">
+				<mul order="0x30" stat="pDef" val="1.15" />
+			</effect>
+		</for>
 	</skill>
 	<skill id="2886" levels="1" name="Focus">
-		<set name="target" val="TARGET_NONE" />
-		<set name="skillType" val="NOTDONE" />
-		<set name="operateType" val="OP_PASSIVE" />
+		<!-- Update by pmq -->
+		<set name="isMagic" val="true" />
+		<set name="target" val="TARGET_SELF" />
+		<set name="skillType" val="BUFF" />
+		<set name="operateType" val="OP_ACTIVE" />
+		<for>
+			<effect name="Buff" abnormalTime="3600" val="0" abnormalLvl="1" abnormalType="critical_prob_up">
+				<basemul order="0x30" stat="rCrit" val="0.3" />
+			</effect>
+		</for>
 	</skill>
 	<skill id="2887" levels="1" name="Death Whisper">
-		<set name="target" val="TARGET_NONE" />
-		<set name="skillType" val="NOTDONE" />
-		<set name="operateType" val="OP_PASSIVE" />
+		<!-- Update by pmq -->
+		<set name="isMagic" val="true" />
+		<set name="target" val="TARGET_SELF" />
+		<set name="skillType" val="BUFF" />
+		<set name="operateType" val="OP_ACTIVE" />
+		<for>
+			<effect name="Buff" abnormalTime="3600" val="0" abnormalLvl="1" abnormalType="critical_dmg_up">
+				<mul order="0x30" stat="cAtk" val="1.35" />
+			</effect>
+		</for>
 	</skill>
 	<skill id="2888" levels="1" name="Guidance">
-		<set name="target" val="TARGET_NONE" />
-		<set name="skillType" val="NOTDONE" />
-		<set name="operateType" val="OP_PASSIVE" />
+		<!-- Update by pmq -->
+		<set name="isMagic" val="true" />
+		<set name="target" val="TARGET_SELF" />
+		<set name="skillType" val="BUFF" />
+		<set name="operateType" val="OP_ACTIVE" />
+		<for>
+			<effect name="Buff" abnormalTime="3600" val="0" abnormalLvl="1" abnormalType="hit_up">
+				<add order="0x40" stat="accCombat" val="4" />
+			</effect>
+		</for>
 	</skill>
 	<skill id="2889" levels="1" name="Clarity">
-		<set name="target" val="TARGET_NONE" />
-		<set name="skillType" val="NOTDONE" />
-		<set name="operateType" val="OP_PASSIVE" />
+		<!-- Update by pmq -->
+		<set name="isMagic" val="true" />
+		<set name="target" val="TARGET_SELF" />
+		<set name="skillType" val="BUFF" />
+		<set name="operateType" val="OP_ACTIVE" />
+		<for>
+			<effect name="Buff" abnormalTime="3600" val="0" abnormalLvl="1" abnormalType="MPrate">
+				<mul order="0x30" stat="PhysicalMpConsumeRate" val="0.8" />
+				<mul order="0x30" stat="MagicalMpConsumeRate" val="0.9" />
+				<mul order="0x30" stat="DanceMpConsumeRate" val="0.8" />
+			</effect>
+		</for>
 	</skill>
 	<skill id="2890" levels="1" name="Wild Magic">
-		<set name="target" val="TARGET_NONE" />
-		<set name="skillType" val="NOTDONE" />
-		<set name="operateType" val="OP_PASSIVE" />
+		<!-- Update by pmq -->
+		<set name="isMagic" val="true" />
+		<set name="target" val="TARGET_SELF" />
+		<set name="skillType" val="BUFF" />
+		<set name="operateType" val="OP_ACTIVE" />
+		<for>
+			<effect name="Buff" abnormalTime="3600" val="0" abnormalLvl="1" abnormalType="magic_critical_up">
+				<basemul order="0x30" stat="mCritRate" val="2" />
+			</effect>
+		</for>
 	</skill>
 	<skill id="2891" levels="6" name="Concentration">
-		<!-- This skill only has one level, 6. -->
-		<set name="target" val="TARGET_NONE" />
-		<set name="skillType" val="NOTDONE" />
-		<set name="operateType" val="OP_PASSIVE" />
+		<!-- Update by pmq -->
+		<set name="isMagic" val="true" />
+		<set name="target" val="TARGET_SELF" />
+		<set name="skillType" val="BUFF" />
+		<set name="operateType" val="OP_ACTIVE" />
+		<for>
+			<effect name="Buff" abnormalTime="3600" val="0" abnormalLvl="6" abnormalType="Concentration">
+				<sub order="0x40" stat="cancel" val="53" />
+			</effect>
+		</for>
 	</skill>
 	<skill id="2892" levels="1" name="Event - Extra Entrance Pass">
 		<set name="target" val="TARGET_NONE" />
@@ -1281,11 +1465,14 @@
 		<set name="hitTime" val="100" />
 	</skill>
 	<skill id="2894" levels="1" name="White Day Candy">
-		<set name="target" val="TARGET_NONE" />
-		<set name="skillType" val="NOTDONE" />
+		<!-- Update by pmq -->
+		<set name="itemConsumeCount" val="1" />
+		<set name="power" val="20000" />
+		<set name="target" val="TARGET_SELF" />
 		<set name="reuseDelay" val="3600000" />
+		<set name="skillType" val="GIVE_VITALITY" />
+		<set name="operateType" val="OP_ACTIVE" />
 		<set name="staticReuse" val="true" />
-		<set name="operateType" val="OP_PASSIVE" />
 	</skill>
 	<skill id="2895" levels="1" name="Special White Day Candy Basket">
 		<!-- Confirmed CT2.5 -->

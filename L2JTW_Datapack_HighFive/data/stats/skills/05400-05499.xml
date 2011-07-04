@@ -176,16 +176,26 @@
 		</cond>
 	</skill>
 	<skill id="5417" levels="1" name="Invincible">
-		<!-- Invincible against general attack and skill, buff/de-buff. -->
-		<set name="target" val="TARGET_NONE" />
-		<set name="skillType" val="NOTDONE" />
-		<set name="operateType" val="OP_PASSIVE" />
+		<!-- Update by pmq -->
+		<set name="target" val="TARGET_SELF" />
+		<set name="skillType" val="BUFF" />
+		<set name="operateType" val="OP_ACTIVE" />
+		<set name="cancelable" val="false" />
+		<set name="reuseDelay" val="6000" />
+		<for>
+			<effect cancelOnAction="true" count="1" name="Invincible" abnormal="invincible" abnormalTime="10" val="0" />
+		</for>
 	</skill>
 	<skill id="5418" levels="1" name="Invincible">
-		<!-- Invincible against general attack and skill, buff/de-buff. -->
-		<set name="target" val="TARGET_NONE" />
-		<set name="skillType" val="NOTDONE" />
-		<set name="operateType" val="OP_PASSIVE" />
+		<!-- Update by pmq -->
+		<set name="target" val="TARGET_SELF" />
+		<set name="skillType" val="BUFF" />
+		<set name="operateType" val="OP_ACTIVE" />
+		<set name="cancelable" val="false" />
+		<set name="reuseDelay" val="6000" />
+		<for>
+			<effect cancelOnAction="true" count="1" name="Invincible" abnormal="invincible" abnormalTime="10" val="0" />
+		</for>
 	</skill>
 	<skill id="5419" levels="1" name="Invincible Blow">
 		<!-- Crystaline Golem -->
@@ -195,10 +205,15 @@
 		<set name="hitTime" val="4000" />
 	</skill>
 	<skill id="5420" levels="1" name="Invincible">
-		<!-- Invincible against general attack and skill, buff/de-buff. -->
-		<set name="target" val="TARGET_NONE" />
-		<set name="skillType" val="NOTDONE" />
-		<set name="operateType" val="OP_PASSIVE" />
+		<!-- Update by pmq -->
+		<set name="target" val="TARGET_SELF" />
+		<set name="skillType" val="BUFF" />
+		<set name="operateType" val="OP_ACTIVE" />
+		<set name="cancelable" val="false" />
+		<set name="reuseDelay" val="6000" />
+		<for>
+			<effect cancelOnAction="true" count="1" name="Invincible" abnormal="invincible" abnormalTime="3600" val="0" />
+		</for>
 	</skill>
 	<skill id="5422" levels="12" name="Flame">
 		<!-- Body is on fire. HP continually decreases. -->
@@ -218,7 +233,7 @@
 		<set name="isDebuff" val="true" />
 		<set name="saveVs" val="MEN" />
 		<for>
-			<effect count="6" name="DamOverTime" abnormalTime="5" val="#dot" abnormalLvl="3" abnormalType="fire_dot">
+			<effect count="6" name="DamOverTime" abnormalTime="5" val="#dot" abnormalLvl="12" abnormalType="fire_dot">
 				<add order="0x40" stat="mAtk" val="#mAtk" />
 				<mul order="0x30" stat="runSpd" val="0.7" />
 			</effect>
@@ -239,7 +254,7 @@
 		<set name="isDebuff" val="true" />
 		<set name="saveVs" val="CON" />
 		<for>
-			<effect count="6" name="DamOverTime" abnormalTime="5" val="#dot" abnormalLvl="1" abnormalType="speed_down" abnormal="poison">
+			<effect count="6" name="DamOverTime" abnormalTime="5" val="#dot" abnormalLvl="12" abnormalType="speed_down" abnormal="poison">
 				<mul order="0x30" stat="runSpd" val="0.7" />
 			</effect>
 		</for>
@@ -258,7 +273,7 @@
 		<set name="isDebuff" val="true" />
 		<set name="saveVs" val="CON" />
 		<for>
-			<effect count="6" name="DamOverTime" abnormalTime="5" val="#dot" abnormalLvl="1" abnormalType="bleeding" abnormal="bleed">
+			<effect count="6" name="DamOverTime" abnormalTime="5" val="#dot" abnormalLvl="12" abnormalType="bleeding" abnormal="bleed">
 				<mul order="0x30" stat="runSpd" val="0.7" />
 			</effect>
 		</for>
@@ -342,15 +357,22 @@
 		<set name="target" val="TARGET_AURA" /> <!-- TODO: plz confirm if this should affect all monsters around or only clan monsters around -->
 	</skill>
 	<skill id="5431" levels="1" name="Slow">
-		<!-- Condition causing target to temporarily decrease attack speed and casting speed. -->
-		<set name="target" val="TARGET_NONE" />
-		<set name="nextActionAttack" val="true" />
-		<set name="skillType" val="NOTDONE" />
-		<set name="reuseDelay" val="8000" />
-		<set name="lvlDepend" val="2" />
-		<set name="operateType" val="OP_PASSIVE" />
+		<!-- Update by pmq -->
+		<set name="power" val="80" /> <!-- Guess -->
+		<set name="target" val="TARGET_ONE" />
 		<set name="hitTime" val="2000" />
-		<set name="saveVs" val="MEN" />
+		<set name="skillType" val="DEBUFF" />
+		<set name="operateType" val="OP_ACTIVE" />
+		<set name="isDebuff" val="true" />
+		<set name="castRange" val="40" />
+		<set name="effectRange" val="400" />
+		<set name="reuseDelay" val="8000" />
+		<for>
+			<effect count="1" name="Debuff" abnormalTime="30" val="0" abnormalLvl="1" abnormalType="attack_speed_down">
+				<mul order="0x30" stat="pAtkSpd" val="0.77" />
+				<mul order="0x30" stat="mAtkSpd" val="0.77" />
+			</effect>
+		</for>
 	</skill>
 	<skill id="5432" levels="2" name="Weapon Supply">
 		<set name="target" val="TARGET_NONE" />
@@ -358,9 +380,12 @@
 		<set name="operateType" val="OP_PASSIVE" />
 	</skill>
 	<skill id="5433" levels="1" name="Presentation - Gathering of Evil Power">
-		<set name="target" val="TARGET_NONE" />
-		<set name="skillType" val="NOTDONE" />
-		<set name="operateType" val="OP_PASSIVE" />
+		<!-- Update by pmq -->
+		<set name="target" val="TARGET_ONE" />
+		<set name="skillType" val="DUMMY" />
+		<set name="operateType" val="OP_ACTIVE" />
+		<set name="castRange" val="400" />
+		<set name="effectRange" val="900" />
 	</skill>
 	<skill id="5434" levels="1" name="Gust">
 		<!-- Confirmed CT2.5 -->
@@ -495,7 +520,7 @@
 		<set name="skillType" val="DEBUFF" />
 		<set name="target" val="TARGET_AURA" />
 		<for>
-			<effect name="Debuff" abnormalTime="30" val="0" abnormalLvl="3" abnormalType="pa_down">
+			<effect name="Debuff" abnormalTime="30" val="0" abnormalLvl="4" abnormalType="pa_down">
 				<mul order="0x30" stat="pAtkSpd" val="0.77" />
 			</effect>
 		</for>
@@ -522,7 +547,7 @@
 		<set name="SSBoost" val="2.0" />
 		<set name="target" val="TARGET_ONE" />
 		<for>
-			<effect count="4" name="DamOverTime" abnormalTime="5" val="#val" abnormalLvl="3" abnormalType="bleeding" abnormal="bleed" effectPower="50" effectType="BLEED" />
+			<effect count="4" name="DamOverTime" abnormalTime="5" val="#val" abnormalLvl="2" abnormalType="bleeding" abnormal="bleed" effectPower="50" effectType="BLEED" />
 		</for>
 	</skill>
 	<skill id="5445" levels="1" name="Awakening">
@@ -565,7 +590,7 @@
 		<set name="target" val="TARGET_ONE" />
 		<set name="lvlDepend" val="1" />
 		<for>
-			<effect name="Paralyze" abnormalTime="10" val="0" abnormalLvl="1" abnormalType="paralyze" />
+			<effect name="Paralyze" abnormalTime="10" val="0" abnormalLvl="7" abnormalType="paralyze" />
 		</for>
 	</skill>
 	<skill id="5448" levels="1" name="Oblivion">
@@ -627,7 +652,7 @@
 		<set name="skillType" val="DEBUFF" />
 		<set name="target" val="TARGET_SELF" />
 		<for>
-			<effect name="Debuff" abnormalTime="10" val="0" abnormalLvl="1" abnormalType="t_crt_dmg_up">
+			<effect name="Debuff" abnormalTime="10" val="0" abnormalLvl="3" abnormalType="t_crt_dmg_up">
 				<mul order="0x30" stat="critVuln" val="1.6" />
 			</effect>
 		</for>
@@ -640,16 +665,26 @@
 		<set name="target" val="TARGET_SELF" />
 	</skill>
 	<skill id="5454" levels="1" name="Shadow Bind">
-		<!-- Immobilized. -->
-		<set name="target" val="TARGET_NONE" />
-		<set name="skillType" val="NOTDONE" />
-		<set name="operateType" val="OP_PASSIVE" />
+		<!-- Update by pmq -->
+		<set name="target" val="TARGET_SELF" />
+		<set name="skillType" val="PARALYZE" />
+		<set name="operateType" val="OP_ACTIVE" />
+		<set name="power" val="40" /> <!-- Guess -->
+		<set name="isDebuff" val="true" />
+		<for>
+			<effect name="Paralyze" abnormalTime="10" val="0" abnormalLvl="1" abnormalType="PARALYZE" />
+		</for>
 	</skill>
 	<skill id="5455" levels="1" name="Voice Bind">
-		<!-- Silenced. -->
-		<set name="target" val="TARGET_NONE" />
-		<set name="skillType" val="NOTDONE" />
-		<set name="operateType" val="OP_PASSIVE" />
+		<!-- Update by pmq -->
+		<set name="target" val="TARGET_SELF" />
+		<set name="skillType" val="MUTE" />
+		<set name="operateType" val="OP_ACTIVE" />
+		<set name="power" val="80" />
+		<set name="isDebuff" val="true" />
+		<for>
+			<effect count="1" name="Mute" abnormalTime="10" val="0" abnormalLvl="1" abnormalType="silence" />
+		</for>
 	</skill>
 	<skill id="5456" levels="1" name="Stubborn Resistance">
 		<set name="magicLvl" val="90" />
@@ -715,34 +750,58 @@
 		<set name="target" val="TARGET_ONE" />
 	</skill>
 	<skill id="5462" levels="1" name="Fire Attacks">
+		<!-- Update by pmq -->
 		<set name="target" val="TARGET_SELF" />
 		<set name="skillType" val="BUFF" />
 		<set name="operateType" val="OP_PASSIVE" />
+		<for>
+			<add order="0x40" stat="fireRes" val="50" />
+		</for>
 	</skill>
 	<skill id="5463" levels="1" name="Water Attacks">
+		<!-- Update by pmq -->
 		<set name="target" val="TARGET_SELF" />
 		<set name="skillType" val="BUFF" />
 		<set name="operateType" val="OP_PASSIVE" />
+		<for>
+			<add order="0x40" stat="waterRes" val="50" />
+		</for>
 	</skill>
 	<skill id="5464" levels="1" name="Wind Attacks">
+		<!-- Update by pmq -->
 		<set name="target" val="TARGET_SELF" />
 		<set name="skillType" val="BUFF" />
 		<set name="operateType" val="OP_PASSIVE" />
+		<for>
+			<add order="0x40" stat="windRes" val="50" />
+		</for>
 	</skill>
 	<skill id="5465" levels="1" name="Earth Attacks">
+		<!-- Update by pmq -->
 		<set name="target" val="TARGET_SELF" />
 		<set name="skillType" val="BUFF" />
 		<set name="operateType" val="OP_PASSIVE" />
+		<for>
+			<add order="0x40" stat="earthRes" val="50" />
+		</for>
 	</skill>
 	<skill id="5466" levels="1" name="Holy Attacks">
+		<!-- Update by pmq -->
 		<set name="target" val="TARGET_SELF" />
 		<set name="skillType" val="BUFF" />
 		<set name="operateType" val="OP_PASSIVE" />
+		<for>
+			<add order="0x40" stat="holyRes" val="50" />
+		</for>
 	</skill>
 	<skill id="5467" levels="1" name="Dark Attacks">
+		<!-- Update by pmq -->
 		<set name="target" val="TARGET_SELF" />
 		<set name="skillType" val="BUFF" />
 		<set name="operateType" val="OP_PASSIVE" />
+		<for>
+			<add order="0x40" stat="darkRes" val="50" />
+		</for>
 	</skill>
 	<skill id="5468" levels="12" name="Castle Gunner Fire">
 		<!-- Confirmed CT2.5 -->
@@ -829,7 +888,7 @@
 		<set name="skillType" val="BUFF" />
 		<set name="operateType" val="OP_PASSIVE" />
 		<for>
-			<mul order="0x30" stat="paralyzeVuln" val="0" />
+			<sub order="0x40" stat="paralyzeVuln" val="100" />
 		</for>
 	</skill>
 	<skill id="5480" levels="1" name="Balor Invincible Removal">
@@ -964,7 +1023,7 @@
 		<set name="target" val="TARGET_AURA" />
 		<for>
 			<!-- 71HP * 5 during 20 seconds -->
-			<effect count="4" name="DamOverTime" abnormalTime="5" val="355" abnormal="bleed" effectPower="100" effectType="BLEED" abnormalLvl="10" abnormalType="bleeding" />
+			<effect count="4" name="DamOverTime" abnormalTime="5" val="355" abnormal="bleed" effectPower="100" effectType="BLEED" abnormalLvl="1" abnormalType="bleeding" />
 		</for>
 	</skill>
 	<skill id="5496" levels="1" name="Dark Fireball">
