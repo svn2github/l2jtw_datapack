@@ -601,8 +601,6 @@
 		<set name="target" val="TARGET_ONE" />
 		<set name="skillType" val="PDAM" />
 		<set name="operateType" val="OP_ACTIVE" />
-	<!--	<set name="weaponsAllowed" val="65568" />	--> <!-- Bow/Crossbow -->
-		<set name="weaponsAllowed" val="Bow" /> <!-- Bow -->
 		<set name="itemConsumeId" val="8192" /> <!-- Soul Breaking Arrow -->
 		<set name="itemConsumeCount" val="1" />
 		<set name="castRange" val="900" />
@@ -613,6 +611,7 @@
 		<set name="staticHitTime" val="true" />
 		<set name="staticReuse" val="true" />
 		<cond msgId="113" addName="1">
+			<using kind="Bow" />
 			<and>
 				<player flyMounted="False" />
 				<target npcId="29045" /> <!-- Frintezza -->

@@ -158,11 +158,6 @@
 		</cond>
 	</skill>
 	<skill id="22110" levels="1" name="Lucky Sky Lantern Summon">
-		<set name="target" val="TARGET_NONE" />
-		<set name="skillType" val="NOTDONE" />
-		<set name="operateType" val="OP_PASSIVE" />
-	</skill>
-	<skill id="22110" levels="1" name="Lucky Sky Lantern Summon">
 		<!-- Update by rocknow -->
 		<set name="itemConsumeCount" val="1" />
 		<set name="summonTotalLifeTime" val="1200000" />

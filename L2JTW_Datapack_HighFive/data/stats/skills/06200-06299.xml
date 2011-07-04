@@ -65,7 +65,7 @@
 		<set name="transformId" val="113" />
 		<for>
 			<!-- Don't Have abnormalTime Limit, info from PTS Euro -->
-			<effect name="Transformation" abnormalTime="21600" val="0" abnormalLvl="99" abnormalType="speed_up"> 
+			<effect name="Transformation" abnormalTime="21600" val="0" abnormalLvl="1" abnormalType="speed_up"> 
 				<set order="0x08" stat="STR" val="40"/>
 				<set order="0x08" stat="DEX" val="30"/>
 				<set order="0x08" stat="CON" val="43"/>
