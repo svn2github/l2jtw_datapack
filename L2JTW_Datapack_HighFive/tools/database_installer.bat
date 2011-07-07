@@ -178,7 +178,9 @@ echo.
 echo 4.遊戲伺服器設定
 echo --------------------
 set /P gsuser="使用者名稱（預設值「%gsuser%」）: "
+:_gspass
 set /P gspass="使用者密碼（預設值「%gspass%」）: "
+if "%gspass%"=="" goto _gspass
 set /P gsdb="資料庫（預設值「%gsdb%」）: "
 set /P gshost="位置（預設值「%gshost%」）: "
 echo.
