@@ -24,10 +24,6 @@ PS.如有發現任何問題，請多多回報協助做修正！
 	/fort.sql					要塞-「名稱」
 	/helper_buff_list.sql		新手輔助技能-「名稱」
 	/henna.sql					紋章-「名稱」
-	/pledge_skill_trees.sql		血盟技能-「名稱」
-	/transform_skill_trees.sql	技能樹-「名稱」
-
-- skill_trees.sql				技能樹-「名稱」	
 
 - 說明.txt
 
