@@ -610,15 +610,15 @@ UPDATE `fish` SET `name` = '高級-寬扁的黑色大魚' WHERE `id` = 8483;
 
 /***** skillname-tw *****/ 
 /***** fishing_skill_trees.sql *****/
-UPDATE `fishing_skill_trees` SET `name` = '釣魚' WHERE `skill_id` = 1312;
-UPDATE `fishing_skill_trees` SET `name` = '拉線' WHERE `skill_id` = 1313;
-UPDATE `fishing_skill_trees` SET `name` = '放線' WHERE `skill_id` = 1314;
-UPDATE `fishing_skill_trees` SET `name` = '精通釣魚' WHERE `skill_id` = 1315;
-UPDATE `fishing_skill_trees` SET `name` = '擴充矮人工藝' WHERE `skill_id` = 1368;
-UPDATE `fishing_skill_trees` SET `name` = '擴充一般工藝' WHERE `skill_id` = 1369;
-UPDATE `fishing_skill_trees` SET `name` = '擴充個人商店' WHERE `skill_id` = 1370;
-UPDATE `fishing_skill_trees` SET `name` = '擴充倉庫' WHERE `skill_id` = 1371;
-UPDATE `fishing_skill_trees` SET `name` = '擴充道具' WHERE `skill_id` = 1372;
+-- UPDATE `fishing_skill_trees` SET `name` = '釣魚' WHERE `skill_id` = 1312;
+-- UPDATE `fishing_skill_trees` SET `name` = '拉線' WHERE `skill_id` = 1313;
+-- UPDATE `fishing_skill_trees` SET `name` = '放線' WHERE `skill_id` = 1314;
+-- UPDATE `fishing_skill_trees` SET `name` = '精通釣魚' WHERE `skill_id` = 1315;
+-- UPDATE `fishing_skill_trees` SET `name` = '擴充矮人工藝' WHERE `skill_id` = 1368;
+-- UPDATE `fishing_skill_trees` SET `name` = '擴充一般工藝' WHERE `skill_id` = 1369;
+-- UPDATE `fishing_skill_trees` SET `name` = '擴充個人商店' WHERE `skill_id` = 1370;
+-- UPDATE `fishing_skill_trees` SET `name` = '擴充倉庫' WHERE `skill_id` = 1371;
+-- UPDATE `fishing_skill_trees` SET `name` = '擴充道具' WHERE `skill_id` = 1372;
 
 /***** castlename-tw *****/ 
 /***** fort.sql *****/
