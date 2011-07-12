@@ -21,24 +21,24 @@ import com.l2jserver.gameserver.model.quest.QuestState;
 
 /**
  * @author Plim
- * update by pmq High Five 02-05-2011
+ * update to H5 by pmq
  */
 public class ToIVortex extends Quest
 {
 	//NPCs
-	private static final int KEPLON             = 30949;
-	private static final int EUCLIE             = 30950;
-	private static final int PITHGON            = 30951;
+	private static final int KEPLON = 30949;
+	private static final int EUCLIE = 30950;
+	private static final int PITHGON = 30951;
 	private static final int DIMENSION_VORTEX_1 = 30952;
 	private static final int DIMENSION_VORTEX_2 = 30953;
 	private static final int DIMENSION_VORTEX_3 = 30954;
-	private static final int TELEPORT_CUBIC     = 29055;
+	private static final int TELEPORT_CUBIC = 29055;
 	
 	//ITEMS
-	private static final int ADENA                 = 57;
+	private static final int ADENA = 57;
+	private static final int BLUE_DIMENSION_STONE = 4402;
 	private static final int GREEN_DIMENSION_STONE = 4401;
-	private static final int BLUE_DIMENSION_STONE  = 4402;
-	private static final int RED_DIMENSION_STONE   = 4403;
+	private static final int RED_DIMENSION_STONE = 4403;
 	
 	@Override
 	public String onAdvEvent(String event, L2Npc npc, L2PcInstance player)
@@ -47,10 +47,10 @@ public class ToIVortex extends Quest
 		QuestState st = player.getQuestState(getName());
 		
 		int npcId = npc.getNpcId();
-		// 1/F
+		//1st Floor
 		if (event.equalsIgnoreCase("1"))
 		{
-			if (st.getQuestItemsCount(GREEN_DIMENSION_STONE) > 0)
+			if (st.hasQuestItems(GREEN_DIMENSION_STONE))
 			{
 				st.takeItems(GREEN_DIMENSION_STONE, 1);
 				st.getPlayer().teleToLocation(114356, 13423, -5096);
@@ -62,10 +62,10 @@ public class ToIVortex extends Quest
 				htmltext = "no-stones.htm";
 			}
 		}
-		// 2/F
+		//2nd Floor
 		else if (event.equalsIgnoreCase("2"))
 		{
-			if (st.getQuestItemsCount(GREEN_DIMENSION_STONE) > 0)
+			if (st.hasQuestItems(GREEN_DIMENSION_STONE))
 			{
 				st.takeItems(GREEN_DIMENSION_STONE, 1);
 				st.getPlayer().teleToLocation(114666, 13380, -3608);
@@ -77,10 +77,10 @@ public class ToIVortex extends Quest
 				htmltext = "no-stones.htm";
 			}
 		}
-		// 3/F
+		//3rd Floor
 		else if (event.equalsIgnoreCase("3"))
 		{
-			if (st.getQuestItemsCount(GREEN_DIMENSION_STONE) > 0)
+			if (st.hasQuestItems(GREEN_DIMENSION_STONE))
 			{
 				st.takeItems(GREEN_DIMENSION_STONE, 1);
 				st.getPlayer().teleToLocation(111982, 16028, -2120);
@@ -92,10 +92,10 @@ public class ToIVortex extends Quest
 				htmltext = "no-stones.htm";
 			}
 		}
-		// 4/F
+		//4th Floor
 		else if (event.equalsIgnoreCase("4"))
 		{
-			if (st.getQuestItemsCount(BLUE_DIMENSION_STONE) > 0)
+			if (st.hasQuestItems(BLUE_DIMENSION_STONE))
 			{
 				st.takeItems(BLUE_DIMENSION_STONE, 1);
 				st.getPlayer().teleToLocation(114636, 13413, -640);
@@ -107,10 +107,10 @@ public class ToIVortex extends Quest
 				htmltext = "no-stones.htm";
 			}
 		}
-		// 5/F
+		//5th Floor
 		else if (event.equalsIgnoreCase("5"))
 		{
-			if (st.getQuestItemsCount(BLUE_DIMENSION_STONE) > 0)
+			if (st.hasQuestItems(BLUE_DIMENSION_STONE))
 			{
 				st.takeItems(BLUE_DIMENSION_STONE, 1);
 				st.getPlayer().teleToLocation(114152, 19902, 928);
@@ -122,10 +122,10 @@ public class ToIVortex extends Quest
 				htmltext = "no-stones.htm";
 			}
 		}
-		// 6/F
+		//6th Floor
 		else if (event.equalsIgnoreCase("6"))
 		{
-			if (st.getQuestItemsCount(BLUE_DIMENSION_STONE) > 0)
+			if (st.hasQuestItems(BLUE_DIMENSION_STONE))
 			{
 				st.takeItems(BLUE_DIMENSION_STONE, 1);
 				st.getPlayer().teleToLocation(117131, 16044, 1944);
@@ -137,10 +137,10 @@ public class ToIVortex extends Quest
 				htmltext = "no-stones.htm";
 			}
 		}
-		// 7/F
+		//7th Floor
 		else if (event.equalsIgnoreCase("7"))
 		{
-			if (st.getQuestItemsCount(RED_DIMENSION_STONE) > 0)
+			if (st.hasQuestItems(RED_DIMENSION_STONE))
 			{
 				st.takeItems(RED_DIMENSION_STONE, 1);
 				st.getPlayer().teleToLocation(113026, 17687, 2952);
@@ -152,10 +152,10 @@ public class ToIVortex extends Quest
 				htmltext = "no-stones.htm";
 			}
 		}
-		// 8/F
+		//8th Floor
 		else if (event.equalsIgnoreCase("8"))
 		{
-			if (st.getQuestItemsCount(RED_DIMENSION_STONE) > 0)
+			if (st.hasQuestItems(RED_DIMENSION_STONE))
 			{
 				st.takeItems(RED_DIMENSION_STONE, 1);
 				st.getPlayer().teleToLocation(115571, 13723, 3960);
@@ -167,10 +167,10 @@ public class ToIVortex extends Quest
 				htmltext = "no-stones.htm";
 			}
 		}
-		// 9/F
+		//9th Floor
 		else if (event.equalsIgnoreCase("9"))
 		{
-			if (st.getQuestItemsCount(RED_DIMENSION_STONE) > 0)
+			if (st.hasQuestItems(RED_DIMENSION_STONE))
 			{
 				st.takeItems(RED_DIMENSION_STONE, 1);
 				st.getPlayer().teleToLocation(114649, 14144, 4976);
@@ -182,10 +182,10 @@ public class ToIVortex extends Quest
 				htmltext = "no-stones.htm";
 			}
 		}
-		// 10/F
+		//10 Floor
 		else if (event.equalsIgnoreCase("10"))
 		{
-			if (st.getQuestItemsCount(RED_DIMENSION_STONE) > 0)
+			if (st.hasQuestItems(RED_DIMENSION_STONE))
 			{
 				st.takeItems(RED_DIMENSION_STONE, 1);
 				st.getPlayer().teleToLocation(118507, 16605, 5984);
@@ -208,7 +208,7 @@ public class ToIVortex extends Quest
 			else
 			{
 				st.exitQuest(true);
-				htmltext = npcId +"no-adena.htm";
+				htmltext = npcId + "no-adena.htm";
 			}
 		}
 		else if (event.equalsIgnoreCase("BLUE"))
@@ -222,12 +222,12 @@ public class ToIVortex extends Quest
 			else
 			{
 				st.exitQuest(true);
-				htmltext = npcId +"no-adena.htm";
+				htmltext = npcId + "no-adena.htm";
 			}
 		}
 		else if (event.equalsIgnoreCase("RED"))
 		{
-			if (st.getQuestItemsCount(ADENA)  >= 10000)
+			if (st.getQuestItemsCount(ADENA) >= 10000)
 			{
 				st.takeItems(ADENA, 10000);
 				st.giveItems(RED_DIMENSION_STONE, 1);
@@ -236,10 +236,9 @@ public class ToIVortex extends Quest
 			else
 			{
 				st.exitQuest(true);
-				htmltext = npcId +"no-adena.htm";
+				htmltext = npcId + "no-adena.htm";
 			}
 		}
-		
 		return htmltext;
 	}
 	
@@ -279,33 +278,8 @@ public class ToIVortex extends Quest
 					break;
 			}
 			
-			player.teleToLocation(x,y,z);
-		    st.exitQuest(true);
-		}
-		
-		else if (npc.getNpcId() == KEPLON)
-		{
-			htmltext = "30949.htm";
-		}
-		else if (npc.getNpcId() == EUCLIE)
-		{
-			htmltext = "30950.htm";
-		}
-		else if (npc.getNpcId() == PITHGON)
-		{
-			htmltext = "30951.htm";
-		}
-		else if (npc.getNpcId() == DIMENSION_VORTEX_1)
-		{
-			htmltext = "30952.htm";
-		}
-		else if (npc.getNpcId() == DIMENSION_VORTEX_2)
-		{
-			htmltext = "30953.htm";
-		}
-		else if (npc.getNpcId() == DIMENSION_VORTEX_3)
-		{
-			htmltext = "30954.htm";
+			player.teleToLocation(x, y, z);
+			st.exitQuest(true);
 		}
 		
 		return htmltext;
