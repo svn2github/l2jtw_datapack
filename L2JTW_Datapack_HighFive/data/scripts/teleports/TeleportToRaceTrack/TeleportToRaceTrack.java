@@ -82,7 +82,7 @@ public class TeleportToRaceTrack extends Quest
 			else
 			{
 				player.sendPacket(new NpcSay(npc.getObjectId(), 0, npc.getNpcId(), "你是用其它的方法來到這裡，因此將傳送到最近的魯因城鎮。"));
-				st.getPlayer().teleToLocation(15670, 142983, -2700);
+				st.getPlayer().teleToLocation(43835, -47749, -792);
 			}
 			
 			st.exitQuest(true);
@@ -113,6 +113,8 @@ public class TeleportToRaceTrack extends Quest
 			addStartNpc(npcId);
 			addTalkId(npcId);
 		}
+		addStartNpc(RACE_MANAGER);
+		addTalkId(RACE_MANAGER);
 	}
 	
 	public static void main(String[] args)
