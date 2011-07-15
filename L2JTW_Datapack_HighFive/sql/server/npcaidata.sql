@@ -8522,6 +8522,17 @@ INSERT INTO `npcaidata` VALUES
 (32781,15,NULL,1,NULL,NULL,NULL,NULL,0,0,0,0,NULL,'',0,NULL,NULL,NULL,'fighter'),
 (32782,15,NULL,0,NULL,NULL,NULL,NULL,0,0,0,0,NULL,'',0,NULL,NULL,NULL,'fighter'),
 (32783,15,NULL,0,NULL,NULL,NULL,NULL,0,0,0,0,NULL,'',0,NULL,NULL,NULL,'fighter'),
+(32874,15,NULL,1,NULL,NULL,NULL,NULL,0,0,0,0,NULL,'',300,NULL,NULL,NULL,'fighter'),
+(32875,15,NULL,1,NULL,NULL,NULL,NULL,0,0,0,0,NULL,'',300,NULL,NULL,NULL,'fighter'),
+(32876,15,NULL,1,NULL,NULL,NULL,NULL,0,0,0,0,NULL,'',300,NULL,NULL,NULL,'fighter'),
+(32877,15,NULL,1,NULL,NULL,NULL,NULL,0,0,0,0,NULL,'',300,NULL,NULL,NULL,'fighter'),
+(32878,15,NULL,1,NULL,NULL,NULL,NULL,0,0,0,0,NULL,'',300,NULL,NULL,NULL,'fighter'),
+(32879,15,NULL,1,NULL,NULL,NULL,NULL,0,0,0,0,NULL,'',300,NULL,NULL,NULL,'fighter'),
+(32880,15,NULL,1,NULL,NULL,NULL,NULL,0,0,0,0,NULL,'',300,NULL,NULL,NULL,'fighter'),
+(32881,15,NULL,1,NULL,NULL,NULL,NULL,0,0,0,0,NULL,'',300,NULL,NULL,NULL,'fighter'),
+(32882,15,NULL,1,NULL,NULL,NULL,NULL,0,0,0,0,NULL,'',300,NULL,NULL,NULL,'fighter'),
+(32883,15,NULL,1,NULL,NULL,NULL,NULL,0,0,0,0,NULL,'',300,NULL,NULL,NULL,'fighter'),
+(32887,15,NULL,1,NULL,NULL,NULL,NULL,0,0,0,0,NULL,'',300,NULL,NULL,NULL,'fighter'),
 (35010,15,NULL,1,NULL,NULL,NULL,NULL,0,0,0,0,NULL,'door_clan;mercenary_siege_clan',1200,NULL,NULL,NULL,'balanced'),
 (35011,15,NULL,1,NULL,NULL,NULL,NULL,0,0,0,0,NULL,'door_clan;mercenary_siege_clan',1200,NULL,NULL,NULL,'balanced'),
 (35012,15,NULL,1,NULL,NULL,NULL,NULL,0,0,0,0,NULL,'door_clan;mercenary_siege_clan',1200,NULL,NULL,NULL,'fighter'),
@@ -10121,5 +10132,5 @@ UPDATE `npcaidata` SET clan='baium' WHERE npc_id=29020;
 UPDATE `npcaidata` SET enemyRange=300, enemyClan='archangel_clan' WHERE clan='baium_clan';
 UPDATE `npcaidata` SET enemyRange=300, enemyClan='baium_clan' WHERE clan='archangel_clan';
 
--- Eggs Shouldn't Walk
-UPDATE `npcaidata` SET can_move=0 WHERE npc_id IN (18344,32118) OR (npc_id>=18793 AND npc_id<=18798);
+-- NPCs that Shouldn't Walk (Eggs, Core, Powder Keg)
+UPDATE `npcaidata` SET can_move=0 WHERE npc_id IN (18344,18622,29006,32118) OR (npc_id>=18793 AND npc_id<=18798);
