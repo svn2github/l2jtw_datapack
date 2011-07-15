@@ -28,11 +28,12 @@ import com.l2jserver.gameserver.model.itemauction.ItemAuction;
 import com.l2jserver.gameserver.model.itemauction.ItemAuctionInstance;
 import com.l2jserver.gameserver.network.SystemMessageId;
 import com.l2jserver.gameserver.network.serverpackets.ExItemAuctionInfoPacket;
+import com.l2jserver.gameserver.network.serverpackets.NpcHtmlMessage;
 import com.l2jserver.gameserver.network.serverpackets.SystemMessage;
 
 public class ItemAuctionLink implements IBypassHandler
 {
-	private static final SimpleDateFormat fmt = new SimpleDateFormat("HH:mm:ss dd.MM.yyyy");
+	private static final SimpleDateFormat fmt = new SimpleDateFormat("yyyy" + "¦~ " + "MM" + "¤ë " + "dd"+"¤é " + "HH");
 	
 	private static final String[] COMMANDS =
 	{
@@ -77,13 +78,38 @@ public class ItemAuctionLink implements IBypassHandler
 				{
 					activeChar.sendPacket(SystemMessage.getSystemMessage(SystemMessageId.NO_AUCTION_PERIOD));
 					
-					if (nextAuction != null) // used only once when database is empty
-						activeChar.sendMessage("The next auction will begin on the " + fmt.format(new Date(nextAuction.getStartingTime())) + ".");
+					//if (nextAuction != null) // used only once when database is empty
+						//activeChar.sendMessage("The next auction will begin on the " + fmt.format(new Date(nextAuction.getStartingTime())) + ".");
 					return true;
 				}
 				
 				activeChar.sendPacket(new ExItemAuctionInfoPacket(false, currentAuction, nextAuction));
 			}
+			/** Add by pmq Start */
+			else if ("nask".equalsIgnoreCase(cmd))
+			{
+				if (!activeChar.getFloodProtectors().getItemAuction().tryPerformAction("RequestInfoItemAuction"))
+					return false;
+				
+				if (activeChar.isItemAuctionPolling())
+					return false;
+				
+				final ItemAuction currentAuction = au.getCurrentAuction();
+				final ItemAuction nextAuction = au.getNextAuction();
+				
+				if (nextAuction != null) // used only once when database is empty
+				{
+					NpcHtmlMessage html = new NpcHtmlMessage(((L2Npc)target).getObjectId());
+					html.setFile(activeChar.getHtmlPrefix(), "data/html/default/32320-2.htm");
+					html.replace("%objectId%", String.valueOf(((L2Npc)target).getObjectId()));
+					html.replace("%fmt%", fmt.format(new Date(nextAuction.getStartingTime())));
+					activeChar.sendPacket(html);
+					return true;
+				}
+				
+				activeChar.sendPacket(new ExItemAuctionInfoPacket(false, currentAuction, nextAuction));
+			}
+			/** Add by pmq End */
 			else if ("cancel".equalsIgnoreCase(cmd))
 			{
 				final ItemAuction[] auctions = au.getAuctionsByBidder(activeChar.getObjectId());
