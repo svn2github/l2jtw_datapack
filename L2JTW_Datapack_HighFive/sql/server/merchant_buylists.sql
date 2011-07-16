@@ -20346,7 +20346,23 @@ INSERT INTO `merchant_buylists` (`item_id`,`price`,`shop_id`,`order`) VALUES
 -- (GM-Shop) Sealed Cloaks
 (13686,0,9909,13),
 (13893,0,9909,14),
-(14603,0,9909,15);
+(14603,0,9909,15),
+-- (GM-Shop) Raid Boss Cloaks
+(21713,0,9909,16), -- Sealed Cloak of Zaken
+(21716,0,9909,17), -- Cloak of Zaken
+(21719,0,9909,18), -- Soul Cloak of Zaken
+(21714,0,9909,19), -- Sealed Cloak of Freya
+(21717,0,9909,20), -- Cloak of Freya
+(21720,0,9909,21), -- Soul Cloak of Freya
+(21715,0,9909,22), -- Sealed Cloak of Frintezza
+(21718,0,9909,23), -- Cloak of Frintezza
+(21721,0,9909,24), -- Soul Cloak of Frintezza
+-- (GM-Shop) Event Cloaks
+(21583,0,9909,25), -- 7th Anniversary Cloak - Pitch Black
+(21587,0,9909,26), -- 7th Anniversary Cloak - Blood Red
+(21588,0,9909,27), -- 7th Anniversary Cloak - Pearl White
+(21585,0,9909,28), -- Festival Cloak - Pitch Black - Event
+(21590,0,9909,29); -- Festival Cloak - Pearl White - Event
 
 INSERT INTO `merchant_buylists` (`item_id`,`price`,`shop_id`,`order`) VALUES 
 -- (GM-Shop) Belts
@@ -20689,16 +20705,19 @@ INSERT INTO `merchant_buylists` (`item_id`,`price`,`shop_id`,`order`) VALUES
 (6656,0,9917,0), -- Earring of Antharas
 (6657,0,9917,1), -- Necklace of Valakas
 (6658,0,9917,2), -- Ring of Baium
-(6659,0,9917,3), -- Zaken's Earring
-(21712,0,9917,4), -- Blessed Earring of Zaken
-(6660,0,9917,5), -- Ring of Queen Ant
-(6661,0,9917,6), -- Earring of Orfen
-(6662,0,9917,7), -- Ring of Core
-(8191,0,9917,8), -- Frintezza's Necklace
-(10170,0,9917,9), -- Baylor's Earring
-(10314,0,9917,10), -- Beleth's Ring
-(16025,0,9917,11), -- Freya Necklace
-(16026,0,9917,12); -- Blessed Freya Necklace
+(22173,0,9917,3), -- Improved Ring of Baium
+(6659,0,9917,4), -- Zaken's Earring
+(21712,0,9917,5), -- Blessed Earring of Zaken
+(22175,0,9917,6), -- Improved Blessed Earring of Zaken
+(6660,0,9917,7), -- Ring of Queen Ant
+(22174,0,9917,8), -- Improved Ring of Queen Ant
+(6661,0,9917,9), -- Earring of Orfen
+(6662,0,9917,10), -- Ring of Core
+(8191,0,9917,11), -- Frintezza's Necklace
+(10170,0,9917,12), -- Baylor's Earring
+(10314,0,9917,13), -- Beleth's Ring
+(16025,0,9917,14), -- Freya Necklace
+(16026,0,9917,15); -- Blessed Freya Necklace
 
 INSERT INTO `merchant_buylists` (`item_id`,`price`,`shop_id`,`order`) VALUES 
 -- (GM-Shop) Pets
